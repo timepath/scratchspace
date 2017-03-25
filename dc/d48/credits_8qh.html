@@ -154,26 +154,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d80/credits_8qc_source.html#l00389">389</a> of file <a class="el" href="../../d0/d80/credits_8qc_source.html">credits.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d80/credits_8qc_source.html#l00390">390</a> of file <a class="el" href="../../d0/d80/credits_8qc_source.html">credits.qc</a>.</p>
 
 <p>References <a class="el" href="../../d0/d80/credits_8qc.html#abdeab3e539f87bfd5e98997d5b84911b">_CREDITS_PERSON</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00063">buf_create</a>, <a class="el" href="../../d0/d80/credits_8qc_source.html#l00003">CREDITS</a>, <a class="el" href="../../d0/d80/credits_8qc.html#aeece9de75586306dd54825972876f676">CREDITS_FUNCTION</a>, <a class="el" href="../../d0/d80/credits_8qc.html#a32480b87731fe49f3cbbdff15c597f7c">CREDITS_NL</a>, <a class="el" href="../../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065">CREDITS_PERSON</a>, and <a class="el" href="../../d0/d80/credits_8qc.html#af5d546005b1fa4e5880a459abe5b02c0">CREDITS_TITLE</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d80/credits_8qc_source.html#l00415">XonoticCreditsList_configureXonoticCreditsList()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;{</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    <span class="keywordtype">int</span> n = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c">buf_create</a>();</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;<span class="preprocessor">    #define CREDITS_TITLE(t) bufstr_add(n, strcat(&quot;**&quot;, t), 0);</span></div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CREDITS_FUNCTION(f) bufstr_add(n, strcat(&quot;*&quot;, f), 0);</span></div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CREDITS_PERSON(p) bufstr_add(n, p, 0);</span></div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define _CREDITS_PERSON(p) CREDITS_PERSON(#p)</span></div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CREDITS_NL() bufstr_add(n, &quot;&quot;, 0);</span></div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d0/d80/credits_8qc.html#a562b7ed176e0f1f11db809c27de0e9c7">CREDITS</a>(<a class="code" href="../../d0/d80/credits_8qc.html#af5d546005b1fa4e5880a459abe5b02c0">CREDITS_TITLE</a>, <a class="code" href="../../d0/d80/credits_8qc.html#aeece9de75586306dd54825972876f676">CREDITS_FUNCTION</a>, <a class="code" href="../../d0/d80/credits_8qc.html#abdeab3e539f87bfd5e98997d5b84911b">_CREDITS_PERSON</a>, <a class="code" href="../../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065">CREDITS_PERSON</a>, <a class="code" href="../../d0/d80/credits_8qc.html#a32480b87731fe49f3cbbdff15c597f7c">CREDITS_NL</a>)</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    <span class="preprocessor">#undef CREDITS_TITLE</span></div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #undef CREDITS_FUNCTION</span></div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #undef CREDITS_PERSON</span></div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #undef _CREDITS_PERSON</span></div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #undef CREDITS_NL</span></div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">return</span> n;</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d0/d80/credits_8qc_source.html#l00416">XonoticCreditsList_configureXonoticCreditsList()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;{</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    <span class="keywordtype">int</span> n = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c">buf_create</a>();</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;<span class="preprocessor">    #define CREDITS_TITLE(t) bufstr_add(n, strcat(&quot;**&quot;, t), 0);</span></div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CREDITS_FUNCTION(f) bufstr_add(n, strcat(&quot;*&quot;, f), 0);</span></div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CREDITS_PERSON(p) bufstr_add(n, p, 0);</span></div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define _CREDITS_PERSON(p) CREDITS_PERSON(#p)</span></div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CREDITS_NL() bufstr_add(n, &quot;&quot;, 0);</span></div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d0/d80/credits_8qc.html#a562b7ed176e0f1f11db809c27de0e9c7">CREDITS</a>(<a class="code" href="../../d0/d80/credits_8qc.html#af5d546005b1fa4e5880a459abe5b02c0">CREDITS_TITLE</a>, <a class="code" href="../../d0/d80/credits_8qc.html#aeece9de75586306dd54825972876f676">CREDITS_FUNCTION</a>, <a class="code" href="../../d0/d80/credits_8qc.html#abdeab3e539f87bfd5e98997d5b84911b">_CREDITS_PERSON</a>, <a class="code" href="../../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065">CREDITS_PERSON</a>, <a class="code" href="../../d0/d80/credits_8qc.html#a32480b87731fe49f3cbbdff15c597f7c">CREDITS_NL</a>)</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <span class="preprocessor">#undef CREDITS_TITLE</span></div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #undef CREDITS_FUNCTION</span></div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #undef CREDITS_PERSON</span></div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #undef _CREDITS_PERSON</span></div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #undef CREDITS_NL</span></div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">return</span> n;</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;}</div>
 <div class="ttc" id="credits_8qc_html_a562b7ed176e0f1f11db809c27de0e9c7"><div class="ttname"><a href="../../d0/d80/credits_8qc.html#a562b7ed176e0f1f11db809c27de0e9c7">CREDITS</a></div><div class="ttdeci">#define CREDITS(TITLE, FUNCTION, PERSON, PERSON_, NL)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d80/credits_8qc_source.html#l00003">credits.qc:3</a></div></div>
 <div class="ttc" id="credits_8qc_html_af5d546005b1fa4e5880a459abe5b02c0"><div class="ttname"><a href="../../d0/d80/credits_8qc.html#af5d546005b1fa4e5880a459abe5b02c0">CREDITS_TITLE</a></div><div class="ttdeci">#define CREDITS_TITLE(t)</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a9b88d1543a84de9785952d34dedb754c"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c">buf_create</a></div><div class="ttdeci">#define buf_create</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00063">dpextensions.qh:63</a></div></div>
@@ -207,17 +207,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d80/credits_8qc_source.html#l00408">408</a> of file <a class="el" href="../../d0/d80/credits_8qc_source.html">credits.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d80/credits_8qc_source.html#l00409">409</a> of file <a class="el" href="../../d0/d80/credits_8qc_source.html">credits.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00113">NEW</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/d71/dialog__credits_8qc_source.html#l00007">XonoticCreditsDialog_fill()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;{</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me;</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    me = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../d4/d55/classXonoticCreditsList.html">XonoticCreditsList</a>);</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    me.configureXonoticCreditsList(me);</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    <span class="keywordflow">return</span> me;</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;{</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me;</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    me = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../d4/d55/classXonoticCreditsList.html">XonoticCreditsList</a>);</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    me.configureXonoticCreditsList(me);</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    <span class="keywordflow">return</span> me;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;}</div>
 <div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00113">oo.qh:113</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="classXonoticCreditsList_html"><div class="ttname"><a href="../../d4/d55/classXonoticCreditsList.html">XonoticCreditsList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d48/credits_8qh_source.html#l00004">credits.qh:4</a></div></div>
@@ -250,7 +250,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../dc/d48/credits_8qh.html">credits.qh</a></li>
-    <li class="footer">Generated on Sat Mar 25 2017 15:53:48 for Xonotic by
+    <li class="footer">Generated on Sat Mar 25 2017 17:06:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
