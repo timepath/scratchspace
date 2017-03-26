@@ -57,7 +57,7 @@ var api_8qh =
     [ "havocbot_middlepoint", "db/d15/api_8qh.html#a71afd5747d63dac2c452ae01b34a4799", null ],
     [ "havocbot_middlepoint_radius", "db/d15/api_8qh.html#afb638ab54e65daf19d192f072dca00f9", null ],
     [ "havocbot_role_timeout", "db/d15/api_8qh.html#abfcd73ce6fd8da8e5ae1e3086f0763c8", null ],
-    [ "havocbot_symmetryaxys_equation", "db/d15/api_8qh.html#ad4f80ca518c331e20fe2c1c7bc883458", null ],
+    [ "havocbot_symmetryaxis_equation", "db/d15/api_8qh.html#afe1f402b2fbb2d3609c0de55c6eca32d", null ],
     [ "isbot", "db/d15/api_8qh.html#acf6e5642e2a48bb69f631e9166056c87", null ],
     [ "kh_worldkeylist", "db/d15/api_8qh.html#a045a92c5195f8abf1d884beab42bc3f9", null ],
     [ "kh_worldkeynext", "db/d15/api_8qh.html#abb611131b031308c318e295ec74a375f", null ],
