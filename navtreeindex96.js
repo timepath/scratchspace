@@ -1,5 +1,9 @@
 var NAVTREEINDEX96 =
 {
+"db/d46/dialog__multiplayer__create_8qh.html":[2,0,5,4,89],
+"db/d46/dialog__multiplayer__create_8qh.html#a94bcd6120df81d66b7301391e876efe9":[2,0,5,4,89,1],
+"db/d46/dialog__multiplayer__create_8qh_source.html":[2,0,5,4,89],
+"db/d47/sv__physics_8qc.html":[2,0,3,2,7],
 "db/d47/sv__physics_8qc.html#a042dfde0db60e8645ae713d3de8d5641":[2,0,3,2,7,6],
 "db/d47/sv__physics_8qc.html#a2eb503fb3fc0571e20d780dd6981a0bc":[2,0,3,2,7,5],
 "db/d47/sv__physics_8qc.html#a302e8df9a5657cd0283badfac0739e83":[2,0,3,2,7,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX96 =
 "db/d5a/classXonoticHUDPowerupsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,185,51],
 "db/d5a/classXonoticHUDPowerupsDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,185,63],
 "db/d5a/classXonoticHUDPowerupsDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,185,88],
-"db/d5a/classXonoticHUDPowerupsDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,185,31],
-"db/d5a/classXonoticHUDPowerupsDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,185,62],
-"db/d5a/classXonoticHUDPowerupsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,185,55],
-"db/d5a/classXonoticHUDPowerupsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,185,91],
-"db/d5a/classXonoticHUDPowerupsDialog.html#aec5b7354134b7e40268492f239740c88":[1,0,185,83]
+"db/d5a/classXonoticHUDPowerupsDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,185,31]
 };

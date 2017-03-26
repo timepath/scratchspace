@@ -1,5 +1,8 @@
 var NAVTREEINDEX90 =
 {
+"da/d94/classXonoticSettingsDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,234,44],
+"da/d94/classXonoticSettingsDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,234,0],
+"da/d94/classXonoticSettingsDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,234,33],
 "da/d94/classXonoticSettingsDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,234,38],
 "da/d94/classXonoticSettingsDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,234,58],
 "da/d94/classXonoticSettingsDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,234,84],
@@ -246,8 +249,5 @@ var NAVTREEINDEX90 =
 "da/da9/classSpiderAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,119,17],
 "da/da9/ecs_2__mod_8inc.html":[2,0,3,3],
 "da/da9/ecs_2__mod_8inc_source.html":[2,0,3,3],
-"da/daa/server_2weapons_2common_8qc.html":[2,0,6,5,4],
-"da/daa/server_2weapons_2common_8qc.html#a102ac938a46377356e95bb667b1f01e2":[2,0,6,5,4,0],
-"da/daa/server_2weapons_2common_8qc.html#a15163fb722de405cc2764efd498bc2ee":[2,0,6,5,4,2],
-"da/daa/server_2weapons_2common_8qc.html#a3391149e74c975b1da289576a256819a":[2,0,6,5,4,3]
+"da/daa/server_2weapons_2common_8qc.html":[2,0,6,5,4]
 };
