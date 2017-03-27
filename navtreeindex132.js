@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"df/df6/classXonoticSlider.html#ae7ad12c455973e01e6ffaaa65114ed32":[1,0,237,22],
 "df/df6/classXonoticSlider.html#aea5fb36788b7e80430382aa285d4f87e":[1,0,237,45],
 "df/df6/classXonoticSlider.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,237,31],
 "df/df6/classXonoticSlider.html#aeeea196cce280d4e95730a8f06b80518":[1,0,237,20],
@@ -232,22 +233,21 @@ var NAVTREEINDEX132 =
 "dir_fe472327f69aa9464440251988e1566b.html":[2,0,1,8],
 "dir_ff27e448fac324d88c702b7803ed56f3.html":[2,0,1,9,0,30],
 "files.html":[2,0],
-"functions.html":[1,3,0],
 "functions.html":[1,3,0,0],
+"functions.html":[1,3,0],
 "functions_a.html":[1,3,0,1],
 "functions_b.html":[1,3,0,2],
 "functions_c.html":[1,3,0,3],
 "functions_d.html":[1,3,0,4],
 "functions_e.html":[1,3,0,5],
 "functions_f.html":[1,3,0,6],
-"functions_func.html":[1,3,1],
 "functions_func.html":[1,3,1,0],
+"functions_func.html":[1,3,1],
 "functions_func_a.html":[1,3,1,1],
 "functions_func_c.html":[1,3,1,2],
 "functions_func_d.html":[1,3,1,3],
 "functions_func_e.html":[1,3,1,4],
 "functions_func_f.html":[1,3,1,5],
 "functions_func_g.html":[1,3,1,6],
-"functions_func_h.html":[1,3,1,7],
-"functions_func_i.html":[1,3,1,8]
+"functions_func_h.html":[1,3,1,7]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX110 =
 {
+"dc/de1/api_8qc.html":[2,0,6,0,4],
 "dc/de1/api_8qc_source.html":[2,0,6,0,4],
 "dc/de2/classXonoticProfileTab.html":[1,0,217],
 "dc/de2/classXonoticProfileTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,217,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX110 =
 "dc/df7/classXonoticCvarsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,156,32],
 "dc/df7/classXonoticCvarsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,156,11],
 "dc/df7/classXonoticCvarsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,156,40],
-"dc/df7/classXonoticCvarsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,156,3],
-"dc/df7/classXonoticCvarsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,156,83]
+"dc/df7/classXonoticCvarsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,156,3]
 };

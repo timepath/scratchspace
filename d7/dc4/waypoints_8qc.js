@@ -18,6 +18,7 @@ var waypoints_8qc =
     [ "waypoint_loadall", "d7/dc4/waypoints_8qc.html#a8bcfafa22e1b3188f0b1f9c1399af552", null ],
     [ "waypoint_remove", "d7/dc4/waypoints_8qc.html#af85db2f228ad24c8f013717be024365f", null ],
     [ "waypoint_removeall", "d7/dc4/waypoints_8qc.html#ac217d7e6b34b0f6adddf1587c17016ec", null ],
+    [ "waypoint_removelink", "d7/dc4/waypoints_8qc.html#a7caa23c12bbb5f161ff6104a3fb429d2", null ],
     [ "waypoint_save_links", "d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7", null ],
     [ "waypoint_saveall", "d7/dc4/waypoints_8qc.html#ae9248ef358c77def1111a1abe1ebf1fb", null ],
     [ "waypoint_schedulerelink", "d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5", null ],

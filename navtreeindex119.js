@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"de/d3c/classBuff.html":[1,0,9],
 "de/d3c/classBuff.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,9,0],
 "de/d3c/classBuff.html#a3445f4448c754d719f534e2faf836587":[1,0,9,12],
 "de/d3c/classBuff.html#a3d14d4cb044305bc9fd86dcd9533a0a0":[1,0,9,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "de/d42/classXonoticCheckBox.html#aff20d1ead9e7a482eca46d913e6986a1":[1,0,145,85],
 "de/d42/loader_8qh.html":[2,0,6,3,6],
 "de/d42/loader_8qh_source.html":[2,0,6,3,6],
-"de/d42/sv__sandbox_8qh.html":[2,0,1,9,0,27,3],
-"de/d42/sv__sandbox_8qh.html#a6aec71dc4059e325dd048c78c6dc5d87":[2,0,1,9,0,27,3,1]
+"de/d42/sv__sandbox_8qh.html":[2,0,1,9,0,27,3]
 };

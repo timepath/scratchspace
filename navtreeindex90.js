@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"da/d94/classXonoticSettingsDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,234,78],
 "da/d94/classXonoticSettingsDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,234,44],
 "da/d94/classXonoticSettingsDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,234,0],
 "da/d94/classXonoticSettingsDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,234,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "da/da9/classSpiderAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,119,25],
 "da/da9/classSpiderAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,119,17],
 "da/da9/ecs_2__mod_8inc.html":[2,0,3,3],
-"da/da9/ecs_2__mod_8inc_source.html":[2,0,3,3],
-"da/daa/server_2weapons_2common_8qc.html":[2,0,6,5,4]
+"da/da9/ecs_2__mod_8inc_source.html":[2,0,3,3]
 };

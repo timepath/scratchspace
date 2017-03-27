@@ -1,5 +1,6 @@
 var NAVTREEINDEX102 =
 {
+"db/dcc/g__world_8qc.html#a456cb75445f7a05a80d7a6f3d2e2f8ae":[2,0,6,33,21],
 "db/dcc/g__world_8qc.html#a46448826729592b90ee5ec53da2e0fe6":[2,0,6,33,33],
 "db/dcc/g__world_8qc.html#a4dff7facc0426cc4eb7ce5d352373547":[2,0,6,33,67],
 "db/dcc/g__world_8qc.html#a562ca164f7d8783b2be2864ba5fdc6f5":[2,0,6,33,41],
@@ -248,6 +249,5 @@ var NAVTREEINDEX102 =
 "db/de2/classXonoticScreenshotViewerDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,229,93],
 "db/de2/classXonoticScreenshotViewerDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,229,35],
 "db/de2/classXonoticScreenshotViewerDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,229,67],
-"db/de2/classXonoticScreenshotViewerDialog.html#ae0a78991778eadf186c26e0d0da1e289":[1,0,229,74],
-"db/de2/classXonoticScreenshotViewerDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,229,60]
+"db/de2/classXonoticScreenshotViewerDialog.html#ae0a78991778eadf186c26e0d0da1e289":[1,0,229,74]
 };
