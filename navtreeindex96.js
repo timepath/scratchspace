@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"db/d3c/classArc.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,3,17],
+"db/d40/common_2mutators_2mutator_2nades_2__mod_8inc.html":[2,0,1,9,0,17,0],
 "db/d40/common_2mutators_2mutator_2nades_2__mod_8inc_source.html":[2,0,1,9,0,17,0],
 "db/d46/dialog__multiplayer__create_8qh.html":[2,0,5,4,89],
 "db/d46/dialog__multiplayer__create_8qh.html#a94bcd6120df81d66b7301391e876efe9":[2,0,5,4,89,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "db/d5a/classXonoticHUDPowerupsDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,185,38],
 "db/d5a/classXonoticHUDPowerupsDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,185,58],
 "db/d5a/classXonoticHUDPowerupsDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,185,85],
-"db/d5a/classXonoticHUDPowerupsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,185,51],
-"db/d5a/classXonoticHUDPowerupsDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,185,63],
-"db/d5a/classXonoticHUDPowerupsDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,185,88]
+"db/d5a/classXonoticHUDPowerupsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,185,51]
 };

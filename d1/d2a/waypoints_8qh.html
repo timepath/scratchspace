@@ -341,28 +341,28 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01114">1114</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01132">1132</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/d74/cvars_8qh_source.html#l00058">autocvar_g_waypointeditor_auto</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01021">botframe_autowaypoints_fix()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01036">botframe_deleteuselesswaypoints()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00017">IS_REAL_CLIENT</a>, and <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>.</p>
-<div class="fragment"><div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;{</div>
-<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; !<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;        <span class="comment">// going back is broken, so only fix waypoints to walk TO the player</span></div>
-<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;        <span class="comment">//botframe_autowaypoints_fix(p, false, botframe_autowaypoints_lastwp0);</span></div>
-<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#a01e8fff3ff689e909ba40e64f7a65053">botframe_autowaypoints_fix</a>(it, <span class="keyword">true</span>, <a class="code" href="../../d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866">botframe_autowaypoints_lastwp1</a>);</div>
-<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;        <span class="comment">//te_explosion(p.botframe_autowaypoints_lastwp0.origin);</span></div>
-<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;    ));</div>
-<div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;</div>
-<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756">autocvar_g_waypointeditor_auto</a> &gt;= 2) {</div>
-<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#a4f04a7e429856a63db83b70e53d92a30">botframe_deleteuselesswaypoints</a>();</div>
-<div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;    }</div>
-<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;}</div>
+<p>References <a class="el" href="../../d6/d74/cvars_8qh_source.html#l00058">autocvar_g_waypointeditor_auto</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01039">botframe_autowaypoints_fix()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01054">botframe_deleteuselesswaypoints()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00017">IS_REAL_CLIENT</a>, and <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>.</p>
+<div class="fragment"><div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;{</div>
+<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; !<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;        <span class="comment">// going back is broken, so only fix waypoints to walk TO the player</span></div>
+<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;        <span class="comment">//botframe_autowaypoints_fix(p, false, botframe_autowaypoints_lastwp0);</span></div>
+<div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#a01e8fff3ff689e909ba40e64f7a65053">botframe_autowaypoints_fix</a>(it, <span class="keyword">true</span>, <a class="code" href="../../d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866">botframe_autowaypoints_lastwp1</a>);</div>
+<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;        <span class="comment">//te_explosion(p.botframe_autowaypoints_lastwp0.origin);</span></div>
+<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;    ));</div>
+<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;</div>
+<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756">autocvar_g_waypointeditor_auto</a> &gt;= 2) {</div>
+<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#a4f04a7e429856a63db83b70e53d92a30">botframe_deleteuselesswaypoints</a>();</div>
+<div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;    }</div>
+<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_a01e8fff3ff689e909ba40e64f7a65053"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a01e8fff3ff689e909ba40e64f7a65053">botframe_autowaypoints_fix</a></div><div class="ttdeci">void botframe_autowaypoints_fix(entity p, float walkfromwp,.entity fld)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01021">waypoints.qc:1021</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_a01e8fff3ff689e909ba40e64f7a65053"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a01e8fff3ff689e909ba40e64f7a65053">botframe_autowaypoints_fix</a></div><div class="ttdeci">void botframe_autowaypoints_fix(entity p, float walkfromwp,.entity fld)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01039">waypoints.qc:1039</a></div></div>
 <div class="ttc" id="cvars_8qh_html_a86f217891f6f79f282dfb6407961e756"><div class="ttname"><a href="../../d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756">autocvar_g_waypointeditor_auto</a></div><div class="ttdeci">int autocvar_g_waypointeditor_auto</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/cvars_8qh_source.html#l00058">cvars.qh:58</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_a5315bf22974e39f68c425217cc1cf866"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866">botframe_autowaypoints_lastwp1</a></div><div class="ttdeci">entity botframe_autowaypoints_lastwp1</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01020">waypoints.qc:1020</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_a4f04a7e429856a63db83b70e53d92a30"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a4f04a7e429856a63db83b70e53d92a30">botframe_deleteuselesswaypoints</a></div><div class="ttdeci">void botframe_deleteuselesswaypoints()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01036">waypoints.qc:1036</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_a5315bf22974e39f68c425217cc1cf866"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866">botframe_autowaypoints_lastwp1</a></div><div class="ttdeci">entity botframe_autowaypoints_lastwp1</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01038">waypoints.qc:1038</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_a4f04a7e429856a63db83b70e53d92a30"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a4f04a7e429856a63db83b70e53d92a30">botframe_deleteuselesswaypoints</a></div><div class="ttdeci">void botframe_deleteuselesswaypoints()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01054">waypoints.qc:1054</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_a8069d572672171c56fdffd290ed4979d"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a></div><div class="ttdeci">#define IS_REAL_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00017">_all.qh:17</a></div></div>
 </div><!-- fragment -->
@@ -391,71 +391,71 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00805">805</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00823">823</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00009">botframe_waypointeditorlightningtime</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00003">IS_ONGROUND</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00480">navigation_findnearestwaypoint()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00240">WATERLEVEL_NONE</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00794">waypoint_showlink()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;{</div>
-<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; <a class="code" href="../../d1/d2a/waypoints_8qh.html#a80fe1ab0339096321eaecb2bccfc283d">botframe_waypointeditorlightningtime</a>)</div>
-<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a80fe1ab0339096321eaecb2bccfc283d">botframe_waypointeditorlightningtime</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.5;</div>
-<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; !it.isbot,</div>
-<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;    {</div>
-<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;        <span class="keywordtype">int</span> display_type = 0;</div>
-<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> head = <a class="code" href="../../db/d15/api_8qh.html#a1e85d59acc7aee165d5cb268454a594c">navigation_findnearestwaypoint</a>(it, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27">IS_ONGROUND</a>(it) || it.waterlevel &gt; <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a4bec948f47848ed35986ca695c61f431">WATERLEVEL_NONE</a>)</div>
-<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;            display_type = 1; <span class="comment">// default</span></div>
-<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(head &amp;&amp; (head.wphardwired))</div>
-<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;            display_type = 2; <span class="comment">// only hardwired</span></div>
-<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;</div>
-<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;        if (display_type)</div>
-<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;        {</div>
-<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;            <span class="comment">//navigation_testtracewalk = true;</span></div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;            <span class="comment">//print(&quot;currently selected WP is &quot;, etos(head), &quot;\n&quot;);</span></div>
-<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;            <span class="comment">//navigation_testtracewalk = false;</span></div>
-<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;            <span class="keywordflow">if</span> (head)</div>
-<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;            {</div>
-<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;                te_lightning2(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, head.origin, it.origin);</div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp00, head, display_type);</div>
-<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp01, head, display_type);</div>
-<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp02, head, display_type);</div>
-<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp03, head, display_type);</div>
-<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp04, head, display_type);</div>
-<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp05, head, display_type);</div>
-<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp06, head, display_type);</div>
-<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp07, head, display_type);</div>
-<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp08, head, display_type);</div>
-<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp09, head, display_type);</div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp10, head, display_type);</div>
-<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp11, head, display_type);</div>
-<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp12, head, display_type);</div>
-<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp13, head, display_type);</div>
-<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp14, head, display_type);</div>
-<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp15, head, display_type);</div>
-<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp16, head, display_type);</div>
-<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp17, head, display_type);</div>
-<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp18, head, display_type);</div>
-<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp19, head, display_type);</div>
-<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp20, head, display_type);</div>
-<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp21, head, display_type);</div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp22, head, display_type);</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp23, head, display_type);</div>
-<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp24, head, display_type);</div>
-<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp25, head, display_type);</div>
-<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp26, head, display_type);</div>
-<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp27, head, display_type);</div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp28, head, display_type);</div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp29, head, display_type);</div>
-<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp30, head, display_type);</div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp31, head, display_type);</div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;            }</div>
-<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        }</div>
-<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;    });</div>
-<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;}</div>
+<p>References <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00009">botframe_waypointeditorlightningtime</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00003">IS_ONGROUND</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00480">navigation_findnearestwaypoint()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00240">WATERLEVEL_NONE</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00812">waypoint_showlink()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;{</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; <a class="code" href="../../d1/d2a/waypoints_8qh.html#a80fe1ab0339096321eaecb2bccfc283d">botframe_waypointeditorlightningtime</a>)</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a80fe1ab0339096321eaecb2bccfc283d">botframe_waypointeditorlightningtime</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.5;</div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; !it.isbot,</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;    {</div>
+<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;        <span class="keywordtype">int</span> display_type = 0;</div>
+<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> head = <a class="code" href="../../db/d15/api_8qh.html#a1e85d59acc7aee165d5cb268454a594c">navigation_findnearestwaypoint</a>(it, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27">IS_ONGROUND</a>(it) || it.waterlevel &gt; <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a4bec948f47848ed35986ca695c61f431">WATERLEVEL_NONE</a>)</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;            display_type = 1; <span class="comment">// default</span></div>
+<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(head &amp;&amp; (head.wphardwired))</div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;            display_type = 2; <span class="comment">// only hardwired</span></div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;        if (display_type)</div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;        {</div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;            <span class="comment">//navigation_testtracewalk = true;</span></div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;            <span class="comment">//print(&quot;currently selected WP is &quot;, etos(head), &quot;\n&quot;);</span></div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;            <span class="comment">//navigation_testtracewalk = false;</span></div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;            <span class="keywordflow">if</span> (head)</div>
+<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;            {</div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;                te_lightning2(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, head.origin, it.origin);</div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp00, head, display_type);</div>
+<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp01, head, display_type);</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp02, head, display_type);</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp03, head, display_type);</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp04, head, display_type);</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp05, head, display_type);</div>
+<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp06, head, display_type);</div>
+<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp07, head, display_type);</div>
+<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp08, head, display_type);</div>
+<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp09, head, display_type);</div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp10, head, display_type);</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp11, head, display_type);</div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp12, head, display_type);</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp13, head, display_type);</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp14, head, display_type);</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp15, head, display_type);</div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp16, head, display_type);</div>
+<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp17, head, display_type);</div>
+<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp18, head, display_type);</div>
+<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp19, head, display_type);</div>
+<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp20, head, display_type);</div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp21, head, display_type);</div>
+<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp22, head, display_type);</div>
+<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp23, head, display_type);</div>
+<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp24, head, display_type);</div>
+<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp25, head, display_type);</div>
+<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp26, head, display_type);</div>
+<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp27, head, display_type);</div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp28, head, display_type);</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp29, head, display_type);</div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp30, head, display_type);</div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a>(head.wp31, head, display_type);</div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;            }</div>
+<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;        }</div>
+<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;    });</div>
+<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="movetypes_8qh_html_afcd99b2a90a921a7e3e7f52f8ac86a27"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27">IS_ONGROUND</a></div><div class="ttdeci">#define IS_ONGROUND(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00003">movetypes.qh:3</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_a35b5b46a2c4d72f67398e19b4296e366"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a></div><div class="ttdeci">void waypoint_showlink(entity wp1, entity wp2, int display_type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00794">waypoints.qc:794</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_a35b5b46a2c4d72f67398e19b4296e366"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a35b5b46a2c4d72f67398e19b4296e366">waypoint_showlink</a></div><div class="ttdeci">void waypoint_showlink(entity wp1, entity wp2, int display_type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00812">waypoints.qc:812</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a4bec948f47848ed35986ca695c61f431"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a4bec948f47848ed35986ca695c61f431">WATERLEVEL_NONE</a></div><div class="ttdeci">const int WATERLEVEL_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00240">constants.qh:240</a></div></div>
 <div class="ttc" id="waypoints_8qh_html_a80fe1ab0339096321eaecb2bccfc283d"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a80fe1ab0339096321eaecb2bccfc283d">botframe_waypointeditorlightningtime</a></div><div class="ttdeci">float botframe_waypointeditorlightningtime</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00009">waypoints.qh:9</a></div></div>
@@ -545,7 +545,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00094">to</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00133">waypoint_islinked()</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00008">WAYPOINTFLAG_NORELINK</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00377">waypoint_load_links()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00465">waypoint_load_links_hardwired()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00220">waypoint_think()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00377">waypoint_load_links()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00465">waypoint_load_or_remove_links_hardwired()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00220">waypoint_think()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;{</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordtype">float</span> c;</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
@@ -636,7 +636,7 @@ Variables</h2></td></tr>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a78500a5fdfa2de7f46f627274085fe08_icgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a78500a5fdfa2de7f46f627274085fe08_icgraph.svg" width="100%" height="452"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -705,19 +705,19 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00700">700</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00718">718</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00134">MOVE_NOMONSTERS</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00263">PL_MAX_CONST</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00264">PL_MIN_CONST</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">trace_endpos</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00036">trace_fraction</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00710">waypoint_spawnforitem_force()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00769">waypoint_spawnforteleporter()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00762">waypoint_spawnforteleporter_v()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00775">waypoint_spawnpersonal()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;{</div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;    tracebox(position + <span class="stringliteral">&#39;0 0 1&#39;</span> * (1 - <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>.z), <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a>, position + <span class="stringliteral">&#39;0 0 -512&#39;</span>, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> &lt; 1)</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;        position = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>;</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;    <span class="comment">//traceline(position, position + &#39;0 0 -512&#39;, MOVE_NOMONSTERS, NULL);</span></div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;    <span class="comment">//print(&quot;position is &quot;, ftos(trace_endpos_z - position_z), &quot; above solid\n&quot;);</span></div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;    <span class="keywordflow">return</span> position;</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00728">waypoint_spawnforitem_force()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00787">waypoint_spawnforteleporter()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00780">waypoint_spawnforteleporter_v()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00793">waypoint_spawnpersonal()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;{</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    tracebox(position + <span class="stringliteral">&#39;0 0 1&#39;</span> * (1 - <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>.z), <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a>, position + <span class="stringliteral">&#39;0 0 -512&#39;</span>, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> &lt; 1)</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        position = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>;</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    <span class="comment">//traceline(position, position + &#39;0 0 -512&#39;, MOVE_NOMONSTERS, NULL);</span></div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    <span class="comment">//print(&quot;position is &quot;, ftos(trace_endpos_z - position_z), &quot; above solid\n&quot;);</span></div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    <span class="keywordflow">return</span> position;</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;}</div>
 <div class="ttc" id="common_2constants_8qh_html_ae735c3b4d1ab1d9ef277732a76b77579"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a></div><div class="ttdeci">const vector PL_MAX_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00263">constants.qh:263</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_af8cdb030bc0344c57967ab7de062e810"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a></div><div class="ttdeci">const int MOVE_NOMONSTERS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00134">csqc_constants.qh:134</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
@@ -883,117 +883,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00465">465</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00563">563</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00010">botframe_loadedforcedlinks</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00101">FILE_READ</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00026">mapname</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00021">tokenizebyseparator</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00009">vdist</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00147">waypoint_addlink()</a>.</p>
+<p>References <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00465">waypoint_load_or_remove_links_hardwired()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00674">bot_serverframe()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00366">waypoint_schedulerelinkall()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;{</div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;    <span class="keywordtype">string</span> filename, s;</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;    <span class="keywordtype">float</span> file, tokens, c = 0, found;</div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> wp_from = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, wp_to;</div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> wp_to_pos, wp_from_pos;</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;    filename = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;maps/&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;    filename = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(filename, <span class="stringliteral">&quot;.waypoints.hardwired&quot;</span>);</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    file = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(filename, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a>);</div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;</div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7">botframe_loadedforcedlinks</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;</div>
-<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;    <span class="keywordflow">if</span> (file &lt; 0)</div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    {</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;waypoint links load from &quot;</span>, filename, <span class="stringliteral">&quot; failed&quot;</span>);</div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;    }</div>
-<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;</div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;    <span class="keywordflow">while</span> ((s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a>(file)))</div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    {</div>
-<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 0, 2)==<span class="stringliteral">&quot;//&quot;</span>)</div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 0, 1)==<span class="stringliteral">&quot;#&quot;</span>)</div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;</div>
-<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;        tokens = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a758e7e078dd3038c82e255ff8927975c">tokenizebyseparator</a>(s, <span class="stringliteral">&quot;*&quot;</span>);</div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;</div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;        <span class="keywordflow">if</span> (tokens!=2)</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;</div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;        wp_from_pos = <a class="code" href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0));</div>
-<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;        wp_to_pos   = <a class="code" href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1));</div>
-<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;</div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;        <span class="comment">// Search &quot;from&quot; waypoint</span></div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;        <span class="keywordflow">if</span>(!wp_from || wp_from.origin!=wp_from_pos)</div>
-<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;        {</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;            wp_from = findradius(wp_from_pos, 5);</div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;            found = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;            <span class="keywordflow">while</span>(wp_from)</div>
-<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;            {</div>
-<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(wp_from.origin - wp_from_pos, &lt;, 5))</div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;                <span class="keywordflow">if</span>(wp_from.classname == <span class="stringliteral">&quot;waypoint&quot;</span>)</div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;                {</div>
-<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;                    found = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;                    <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;                }</div>
-<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;                wp_from = wp_from.chain;</div>
-<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;            }</div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;</div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;            <span class="keywordflow">if</span>(!found)</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;            {</div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;NOTICE: Can not find waypoint at &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(wp_from_pos), <span class="stringliteral">&quot;. Path skipped\n&quot;</span>));</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;            }</div>
-<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;        }</div>
-<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;</div>
-<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        <span class="comment">// Search &quot;to&quot; waypoint</span></div>
-<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;        wp_to = findradius(wp_to_pos, 5);</div>
-<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;        found = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;        <span class="keywordflow">while</span>(wp_to)</div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;        {</div>
-<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(wp_to.origin - wp_to_pos, &lt;, 5))</div>
-<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;            <span class="keywordflow">if</span>(wp_to.classname == <span class="stringliteral">&quot;waypoint&quot;</span>)</div>
-<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;            {</div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;                found = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;            }</div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;            wp_to = wp_to.chain;</div>
-<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;        }</div>
-<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;</div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;        <span class="keywordflow">if</span>(!found)</div>
-<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;        {</div>
-<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;NOTICE: Can not find waypoint at &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(wp_to_pos), <span class="stringliteral">&quot;. Path skipped\n&quot;</span>));</div>
-<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;        }</div>
-<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;</div>
-<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;        ++c;</div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#a78500a5fdfa2de7f46f627274085fe08">waypoint_addlink</a>(wp_from, wp_to);</div>
-<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;        wp_from.wphardwired = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;        wp_to.wphardwired = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    }</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;</div>
-<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(file);</div>
-<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;</div>
-<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;loaded &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(c), <span class="stringliteral">&quot; waypoint links from maps/&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>, <span class="stringliteral">&quot;.waypoints.hardwired&quot;</span>);</div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;}</div>
-<div class="ttc" id="waypoints_8qh_html_a407660e1fc9e38776762c676542cfbb7"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7">botframe_loadedforcedlinks</a></div><div class="ttdeci">float botframe_loadedforcedlinks</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00010">waypoints.qh:10</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
-<div class="ttc" id="menudefs_8qc_html_a5231f4ff2813f7de782b67d25a9e4cf9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a></div><div class="ttdeci">float fopen(string filename, float mode)</div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="menudefs_8qc_html_ab0df318f2dece7f798ff4061cd67f9d2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a></div><div class="ttdeci">string vtos(vector v)</div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a4fccb4c5121d362961fa9a53c164a3df"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a></div><div class="ttdeci">string mapname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00026">csprogsdefs.qc:26</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a1a78b46b9db5c0d6fcee5be7697afa09"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a></div><div class="ttdeci">void fclose(float fhandle)</div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-<div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
-<div class="ttc" id="framework_8qc_html_aef346455b3c2def821423a45227b45dd"><div class="ttname"><a href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a></div><div class="ttdeci">void LOG_TRACE(string s,...)</div></div>
-<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
-<div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
-<div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
-<div class="ttc" id="waypoints_8qc_html_a78500a5fdfa2de7f46f627274085fe08"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a78500a5fdfa2de7f46f627274085fe08">waypoint_addlink</a></div><div class="ttdeci">void waypoint_addlink(entity from, entity to)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00147">waypoints.qc:147</a></div></div>
-<div class="ttc" id="vector_8qh_html_a1c6e194f67b0befe85d6613c75d44d30"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a></div><div class="ttdeci">#define vdist(v, cmp, f)</div><div class="ttdoc">Vector distance comparison, avoids sqrt() </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00009">vector.qh:9</a></div></div>
-<div class="ttc" id="dpextensions_8qh_html_a758e7e078dd3038c82e255ff8927975c"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a758e7e078dd3038c82e255ff8927975c">tokenizebyseparator</a></div><div class="ttdeci">#define tokenizebyseparator</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00021">dpextensions.qh:21</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a65fcee980f5a018b481188a84ead405f"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a></div><div class="ttdeci">vector stov(string s)</div></div>
-<div class="ttc" id="menudefs_8qc_html_a0e7ecefd4e3af6c242077b24445e5f78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a></div><div class="ttdeci">string fgets(float fhandle)</div></div>
-<div class="ttc" id="csqc__constants_8qh_html_ac71bfc8a179f9d612bf713943c8cb5e1"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a></div><div class="ttdeci">const int FILE_READ</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00101">csqc_constants.qh:101</a></div></div>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00674">bot_serverframe()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00607">waypoint_save_links()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00366">waypoint_schedulerelinkall()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;{ <a class="code" href="../../d7/dc4/waypoints_8qc.html#ae8116b951b4efe0da268667c754d94b5">waypoint_load_or_remove_links_hardwired</a>(<span class="keyword">false</span>); }</div>
+<div class="ttc" id="waypoints_8qc_html_ae8116b951b4efe0da268667c754d94b5"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ae8116b951b4efe0da268667c754d94b5">waypoint_load_or_remove_links_hardwired</a></div><div class="ttdeci">void waypoint_load_or_remove_links_hardwired(bool removal_mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00465">waypoints.qc:465</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1010,7 +906,7 @@ Variables</h2></td></tr>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_ab425a543c58fb2e6f5ab441d30f5cd7c_icgraph.svg" width="376" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_ab425a543c58fb2e6f5ab441d30f5cd7c_icgraph.svg" width="547" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1030,46 +926,46 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00661">661</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00679">679</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00101">FILE_READ</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00026">mapname</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00042">waypoint_spawn()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;{</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;    <span class="keywordtype">string</span> filename, s;</div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;    <span class="keywordtype">float</span> file, cwp, cwb, fl;</div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> m1, m2;</div>
-<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;    cwp = 0;</div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;    cwb = 0;</div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;    filename = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;maps/&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
-<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;    filename = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(filename, <span class="stringliteral">&quot;.waypoints&quot;</span>);</div>
-<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;    file = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(filename, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a>);</div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;    <span class="keywordflow">if</span> (file &gt;= 0)</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;    {</div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;        <span class="keywordflow">while</span> ((s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a>(file)))</div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;        {</div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;            m1 = <a class="code" href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a>(s);</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;            s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a>(file);</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;            <span class="keywordflow">if</span> (!s)</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;            m2 = <a class="code" href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a>(s);</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;            s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a>(file);</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;            <span class="keywordflow">if</span> (!s)</div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;            fl = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(s);</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;            <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a>(m1, m2, fl);</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;            <span class="keywordflow">if</span> (m1 == m2)</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;                cwp = cwp + 1;</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;                cwb = cwb + 1;</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;        }</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(file);</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;loaded &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(cwp), <span class="stringliteral">&quot; waypoints and &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(cwb), <span class="stringliteral">&quot; wayboxes from maps/&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>, <span class="stringliteral">&quot;.waypoints&quot;</span>);</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    }</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;    {</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;waypoint load from &quot;</span>, filename, <span class="stringliteral">&quot; failed&quot;</span>);</div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;    }</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    <span class="keywordflow">return</span> cwp + cwb;</div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;{</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;    <span class="keywordtype">string</span> filename, s;</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;    <span class="keywordtype">float</span> file, cwp, cwb, fl;</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> m1, m2;</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;    cwp = 0;</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    cwb = 0;</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    filename = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;maps/&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;    filename = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(filename, <span class="stringliteral">&quot;.waypoints&quot;</span>);</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;    file = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(filename, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a>);</div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;    <span class="keywordflow">if</span> (file &gt;= 0)</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;    {</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;        <span class="keywordflow">while</span> ((s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a>(file)))</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;        {</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;            m1 = <a class="code" href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a>(s);</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;            s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a>(file);</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;            <span class="keywordflow">if</span> (!s)</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;            m2 = <a class="code" href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a>(s);</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;            s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a>(file);</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;            <span class="keywordflow">if</span> (!s)</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;            fl = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(s);</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;            <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a>(m1, m2, fl);</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;            <span class="keywordflow">if</span> (m1 == m2)</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;                cwp = cwp + 1;</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;                cwb = cwb + 1;</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;        }</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(file);</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;loaded &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(cwp), <span class="stringliteral">&quot; waypoints and &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(cwb), <span class="stringliteral">&quot; wayboxes from maps/&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>, <span class="stringliteral">&quot;.waypoints&quot;</span>);</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;    }</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    {</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;waypoint load from &quot;</span>, filename, <span class="stringliteral">&quot; failed&quot;</span>);</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;    }</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;    <span class="keywordflow">return</span> cwp + cwb;</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a5231f4ff2813f7de782b67d25a9e4cf9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a></div><div class="ttdeci">float fopen(string filename, float mode)</div></div>
@@ -1178,39 +1074,44 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00594">594</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00607">607</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00011">botframe_cachedwaypointlinks</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00103">FILE_WRITE</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00424">g_waypoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00158">IL_EACH</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00068">LOG_INFOF</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00026">mapname</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00553">waypoint_get_link()</a>.</p>
+<p>References <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00011">botframe_cachedwaypointlinks</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00103">FILE_WRITE</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00424">g_waypoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00158">IL_EACH</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00068">LOG_INFOF</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00026">mapname</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00566">waypoint_get_link()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00563">waypoint_load_links_hardwired()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00564">waypoint_remove_links_hardwired()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00674">bot_serverframe()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00625">waypoint_saveall()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;{</div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    <span class="keywordtype">string</span> filename = sprintf(<span class="stringliteral">&quot;maps/%s.waypoints.cache&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    <span class="keywordtype">int</span> file = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(filename, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a77d7a3d55152ac3ec644710da1e05b7d">FILE_WRITE</a>);</div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    <span class="keywordflow">if</span> (file &lt; 0)</div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;    {</div>
-<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;waypoint link save to %s failed\n&quot;</span>, filename);</div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    }</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;</div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    <span class="keywordtype">int</span> c = 0;</div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <span class="keyword">true</span>,</div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    {</div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; 32; ++j)</div>
-<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;        {</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> link = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a8767ac6530ddf16a3a7e333a3ad20772">waypoint_get_link</a>(it, j);</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;            <span class="keywordflow">if</span>(link)</div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;            {</div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;                <span class="keywordtype">string</span> s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(it.origin), <span class="stringliteral">&quot;*&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(link.origin), <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a>(file, s);</div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;                ++c;</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;            }</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;        }</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    });</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(file);</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a3cdf59b59842bdac03ad7f6403c5364f">botframe_cachedwaypointlinks</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;saved %d waypoint links to maps/%s.waypoints.cache\n&quot;</span>, c, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00674">bot_serverframe()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00643">waypoint_saveall()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;{</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    <span class="comment">// temporarily remove hardwired links so they don&#39;t get saved among normal links</span></div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#aa55ccbdd4ea726931abd20dc2144e3ba">waypoint_remove_links_hardwired</a>();</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    <span class="keywordtype">string</span> filename = sprintf(<span class="stringliteral">&quot;maps/%s.waypoints.cache&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;    <span class="keywordtype">int</span> file = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(filename, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a77d7a3d55152ac3ec644710da1e05b7d">FILE_WRITE</a>);</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;    <span class="keywordflow">if</span> (file &lt; 0)</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;    {</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;waypoint link save to %s failed\n&quot;</span>, filename);</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    }</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    <span class="keywordtype">int</span> c = 0;</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <span class="keyword">true</span>,</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;    {</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; 32; ++j)</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;        {</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> link = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a8767ac6530ddf16a3a7e333a3ad20772">waypoint_get_link</a>(it, j);</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;            <span class="keywordflow">if</span>(link)</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;            {</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;                <span class="keywordtype">string</span> s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(it.origin), <span class="stringliteral">&quot;*&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(link.origin), <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a>(file, s);</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;                ++c;</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;            }</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        }</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    });</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(file);</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a3cdf59b59842bdac03ad7f6403c5364f">botframe_cachedwaypointlinks</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;saved %d waypoint links to maps/%s.waypoints.cache\n&quot;</span>, c, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab425a543c58fb2e6f5ab441d30f5cd7c">waypoint_load_links_hardwired</a>();</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;}</div>
 <div class="ttc" id="csqc__constants_8qh_html_a77d7a3d55152ac3ec644710da1e05b7d"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a77d7a3d55152ac3ec644710da1e05b7d">FILE_WRITE</a></div><div class="ttdeci">const int FILE_WRITE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00103">csqc_constants.qh:103</a></div></div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00158">intrusivelist.qh:158</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a5231f4ff2813f7de782b67d25a9e4cf9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a></div><div class="ttdeci">float fopen(string filename, float mode)</div></div>
@@ -1221,16 +1122,18 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a4fccb4c5121d362961fa9a53c164a3df"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a></div><div class="ttdeci">string mapname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00026">csprogsdefs.qc:26</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a1a78b46b9db5c0d6fcee5be7697afa09"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a></div><div class="ttdeci">void fclose(float fhandle)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
+<div class="ttc" id="waypoints_8qc_html_aa55ccbdd4ea726931abd20dc2144e3ba"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#aa55ccbdd4ea726931abd20dc2144e3ba">waypoint_remove_links_hardwired</a></div><div class="ttdeci">void waypoint_remove_links_hardwired()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00564">waypoints.qc:564</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_ab425a543c58fb2e6f5ab441d30f5cd7c"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ab425a543c58fb2e6f5ab441d30f5cd7c">waypoint_load_links_hardwired</a></div><div class="ttdeci">void waypoint_load_links_hardwired()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00563">waypoints.qc:563</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a33a318a59e2648521862f24200a821df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a></div><div class="ttdeci">void fputs(float fhandle, string s)</div></div>
 <div class="ttc" id="log_8qh_html_ab709d1a9c4f30481019dd95e67a4f9f5"><div class="ttname"><a href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a></div><div class="ttdeci">#define LOG_INFOF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00068">log.qh:68</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_a8767ac6530ddf16a3a7e333a3ad20772"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a8767ac6530ddf16a3a7e333a3ad20772">waypoint_get_link</a></div><div class="ttdeci">entity waypoint_get_link(entity w, float i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00553">waypoints.qc:553</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_a8767ac6530ddf16a3a7e333a3ad20772"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a8767ac6530ddf16a3a7e333a3ad20772">waypoint_get_link</a></div><div class="ttdeci">entity waypoint_get_link(entity w, float i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00566">waypoints.qc:566</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-13-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_afefbc8e9e4269359534b8f4b253ddeb7_cgraph.svg" width="331" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_afefbc8e9e4269359534b8f4b253ddeb7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -1260,42 +1163,42 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00625">625</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00643">643</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00010">botframe_loadedforcedlinks</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00103">FILE_WRITE</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00424">g_waypoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00158">IL_EACH</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00068">LOG_INFOF</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00026">mapname</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00594">waypoint_save_links()</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00005">WAYPOINTFLAG_GENERATED</a>.</p>
-<div class="fragment"><div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;{</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    <span class="keywordtype">string</span> filename = sprintf(<span class="stringliteral">&quot;maps/%s.waypoints&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    <span class="keywordtype">int</span> file = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(filename, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a77d7a3d55152ac3ec644710da1e05b7d">FILE_WRITE</a>);</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    <span class="keywordflow">if</span> (file &lt; 0)</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    {</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7">waypoint_save_links</a>(); <span class="comment">// save anyway?</span></div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        <a class="code" href="../../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7">botframe_loadedforcedlinks</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;waypoint links: save to %s failed\n&quot;</span>, filename);</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    }</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;    <span class="keywordtype">int</span> c = 0;</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <span class="keyword">true</span>,</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;    {</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        <span class="keywordflow">if</span>(it.wpflags &amp; <a class="code" href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a>)</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;        <span class="keywordtype">string</span> s;</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(it.origin + it.mins), <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(it.origin + it.maxs));</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(it.wpflags));</div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a>(file, s);</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;        c++;</div>
-<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;    });</div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(file);</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7">waypoint_save_links</a>();</div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7">botframe_loadedforcedlinks</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;</div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;saved %d waypoints to maps/%s.waypoints\n&quot;</span>, c, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;}</div>
+<p>References <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00010">botframe_loadedforcedlinks</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00103">FILE_WRITE</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00424">g_waypoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00158">IL_EACH</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00068">LOG_INFOF</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00026">mapname</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00607">waypoint_save_links()</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00005">WAYPOINTFLAG_GENERATED</a>.</p>
+<div class="fragment"><div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;{</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;    <span class="keywordtype">string</span> filename = sprintf(<span class="stringliteral">&quot;maps/%s.waypoints&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;    <span class="keywordtype">int</span> file = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(filename, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a77d7a3d55152ac3ec644710da1e05b7d">FILE_WRITE</a>);</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;    <span class="keywordflow">if</span> (file &lt; 0)</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;    {</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7">waypoint_save_links</a>(); <span class="comment">// save anyway?</span></div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;        <a class="code" href="../../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7">botframe_loadedforcedlinks</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;waypoint links: save to %s failed\n&quot;</span>, filename);</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;    }</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;    <span class="keywordtype">int</span> c = 0;</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <span class="keyword">true</span>,</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;    {</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;        <span class="keywordflow">if</span>(it.wpflags &amp; <a class="code" href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a>)</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;        <span class="keywordtype">string</span> s;</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(it.origin + it.mins), <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(it.origin + it.maxs));</div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(it.wpflags));</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a>(file, s);</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;        c++;</div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;    });</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(file);</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7">waypoint_save_links</a>();</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7">botframe_loadedforcedlinks</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;saved %d waypoints to maps/%s.waypoints\n&quot;</span>, c, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;}</div>
 <div class="ttc" id="csqc__constants_8qh_html_a77d7a3d55152ac3ec644710da1e05b7d"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a77d7a3d55152ac3ec644710da1e05b7d">FILE_WRITE</a></div><div class="ttdeci">const int FILE_WRITE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00103">csqc_constants.qh:103</a></div></div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00158">intrusivelist.qh:158</a></div></div>
 <div class="ttc" id="waypoints_8qh_html_a407660e1fc9e38776762c676542cfbb7"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7">botframe_loadedforcedlinks</a></div><div class="ttdeci">float botframe_loadedforcedlinks</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00010">waypoints.qh:10</a></div></div>
@@ -1308,7 +1211,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a33a318a59e2648521862f24200a821df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a></div><div class="ttdeci">void fputs(float fhandle, string s)</div></div>
 <div class="ttc" id="log_8qh_html_ab709d1a9c4f30481019dd95e67a4f9f5"><div class="ttname"><a href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a></div><div class="ttdeci">#define LOG_INFOF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00068">log.qh:68</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_afefbc8e9e4269359534b8f4b253ddeb7"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7">waypoint_save_links</a></div><div class="ttdeci">void waypoint_save_links()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00594">waypoints.qc:594</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_afefbc8e9e4269359534b8f4b253ddeb7"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7">waypoint_save_links</a></div><div class="ttdeci">void waypoint_save_links()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00607">waypoints.qc:607</a></div></div>
 <div class="ttc" id="api_8qh_html_aa1fb4917cec6ee1ff962de8af430f46d"><div class="ttname"><a href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a></div><div class="ttdeci">const int WAYPOINTFLAG_GENERATED</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00005">api.qh:5</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1316,7 +1219,7 @@ Variables</h2></td></tr>
 <div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-15-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_ae9248ef358c77def1111a1abe1ebf1fb_cgraph.svg" width="502" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_ae9248ef358c77def1111a1abe1ebf1fb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -1341,7 +1244,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l00274">EF_LOWPRECISION</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00009">vdist</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00298">waypoint_clearlinks()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00018">waypoint_setupmodel()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00220">waypoint_think()</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00008">WAYPOINTFLAG_NORELINK</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00009">WAYPOINTFLAG_PERSONAL</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00366">waypoint_schedulerelinkall()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00775">waypoint_spawnpersonal()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00366">waypoint_schedulerelinkall()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00793">waypoint_spawnpersonal()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;{</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keywordflow">if</span> (wp == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <span class="keywordflow">return</span>;</div>
@@ -1406,7 +1309,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00366">366</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00424">g_waypoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00158">IL_EACH</a>, <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00007">relink_lengthculled</a>, <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00007">relink_pvsculled</a>, <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00007">relink_total</a>, <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00007">relink_walkculled</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00465">waypoint_load_links_hardwired()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00316">waypoint_schedulerelink()</a>.</p>
+<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00424">g_waypoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00158">IL_EACH</a>, <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00007">relink_lengthculled</a>, <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00007">relink_pvsculled</a>, <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00007">relink_total</a>, <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00007">relink_walkculled</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00563">waypoint_load_links_hardwired()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00316">waypoint_schedulerelink()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;{</div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a099eeed09ef5dff2c3c5a507f4f6f1b2">relink_total</a> = <a class="code" href="../../d1/d2a/waypoints_8qh.html#a96eea87743be9af285b8c13978359ded">relink_walkculled</a> = <a class="code" href="../../d1/d2a/waypoints_8qh.html#aad1048069313c8cbabe03cb259173378">relink_pvsculled</a> = <a class="code" href="../../d1/d2a/waypoints_8qh.html#a82fd4651ef125d725feb3a6a01f0ebf4">relink_lengthculled</a> = 0;</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <span class="keyword">true</span>,</div>
@@ -1419,7 +1322,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2defs_8qh_html_aff439bd5f2dcecaf112d934029e0fb85"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a></div><div class="ttdeci">IntrusiveList g_waypoints</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00424">defs.qh:424</a></div></div>
 <div class="ttc" id="waypoints_8qh_html_aad1048069313c8cbabe03cb259173378"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#aad1048069313c8cbabe03cb259173378">relink_pvsculled</a></div><div class="ttdeci">float relink_pvsculled</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00007">waypoints.qh:7</a></div></div>
 <div class="ttc" id="waypoints_8qh_html_a82fd4651ef125d725feb3a6a01f0ebf4"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a82fd4651ef125d725feb3a6a01f0ebf4">relink_lengthculled</a></div><div class="ttdeci">float relink_lengthculled</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00007">waypoints.qh:7</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_ab425a543c58fb2e6f5ab441d30f5cd7c"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ab425a543c58fb2e6f5ab441d30f5cd7c">waypoint_load_links_hardwired</a></div><div class="ttdeci">void waypoint_load_links_hardwired()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00465">waypoints.qc:465</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_ab425a543c58fb2e6f5ab441d30f5cd7c"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ab425a543c58fb2e6f5ab441d30f5cd7c">waypoint_load_links_hardwired</a></div><div class="ttdeci">void waypoint_load_links_hardwired()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00563">waypoints.qc:563</a></div></div>
 <div class="ttc" id="waypoints_8qc_html_a7b401ce3982d2ff32e2581b69ce746b5"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5">waypoint_schedulerelink</a></div><div class="ttdeci">void waypoint_schedulerelink(entity wp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00316">waypoints.qc:316</a></div></div>
 <div class="ttc" id="waypoints_8qh_html_a099eeed09ef5dff2c3c5a507f4f6f1b2"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a099eeed09ef5dff2c3c5a507f4f6f1b2">relink_total</a></div><div class="ttdeci">float relink_total</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00007">waypoints.qh:7</a></div></div>
 <div class="ttc" id="waypoints_8qh_html_a96eea87743be9af285b8c13978359ded"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a96eea87743be9af285b8c13978359ded">relink_walkculled</a></div><div class="ttdeci">float relink_walkculled</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00007">waypoints.qh:7</a></div></div>
@@ -1470,7 +1373,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../de/dcb/vector_8qh_source.html#l00080">boxesoverlap()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00424">g_waypoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00158">IL_EACH</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00009">WAYPOINTFLAG_PERSONAL</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00661">waypoint_loadall()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00747">waypoint_spawnforteleporter_boxes()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00775">waypoint_spawnpersonal()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00679">waypoint_loadall()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00765">waypoint_spawnforteleporter_boxes()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00793">waypoint_spawnpersonal()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">if</span>(!(f &amp; <a class="code" href="../../db/d15/api_8qh.html#a16465cf087c71e05a2a1cefaaa09093f">WAYPOINTFLAG_PERSONAL</a>))</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div>
@@ -1581,16 +1484,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00739">739</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00757">757</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00200">bot_waypoints_for_items</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00710">waypoint_spawnforitem_force()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;{</div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d5/d26/server_2defs_8qh.html#a1d54f461e8d603bbdb4bd49cbc4e6f2f">bot_waypoints_for_items</a>)</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;</div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#ad27523bc57e3e597f8bfa75bf7ddd72e">waypoint_spawnforitem_force</a>(e, e.origin);</div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;}</div>
-<div class="ttc" id="waypoints_8qc_html_ad27523bc57e3e597f8bfa75bf7ddd72e"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ad27523bc57e3e597f8bfa75bf7ddd72e">waypoint_spawnforitem_force</a></div><div class="ttdeci">void waypoint_spawnforitem_force(entity e, vector org)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00710">waypoints.qc:710</a></div></div>
+<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00200">bot_waypoints_for_items</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00728">waypoint_spawnforitem_force()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;{</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d5/d26/server_2defs_8qh.html#a1d54f461e8d603bbdb4bd49cbc4e6f2f">bot_waypoints_for_items</a>)</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#ad27523bc57e3e597f8bfa75bf7ddd72e">waypoint_spawnforitem_force</a>(e, e.origin);</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;}</div>
+<div class="ttc" id="waypoints_8qc_html_ad27523bc57e3e597f8bfa75bf7ddd72e"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ad27523bc57e3e597f8bfa75bf7ddd72e">waypoint_spawnforitem_force</a></div><div class="ttdeci">void waypoint_spawnforitem_force(entity e, vector org)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00728">waypoints.qc:728</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a1d54f461e8d603bbdb4bd49cbc4e6f2f"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a1d54f461e8d603bbdb4bd49cbc4e6f2f">bot_waypoints_for_items</a></div><div class="ttdeci">float bot_waypoints_for_items</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00200">defs.qh:200</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1629,40 +1532,40 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00710">710</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00728">728</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../de/dcb/vector_8qh_source.html#l00080">boxesoverlap()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00424">g_waypoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00158">IL_EACH</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00700">waypoint_fixorigin()</a>.</p>
+<p>References <a class="el" href="../../de/dcb/vector_8qh_source.html#l00080">boxesoverlap()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00424">g_waypoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00158">IL_EACH</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00718">waypoint_fixorigin()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00739">waypoint_spawnforitem()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;{</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    <span class="comment">// Fix the waypoint altitude if necessary</span></div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;    org = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a>(org);</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;    <span class="comment">// don&#39;t spawn an item spawnfunc_waypoint if it already exists</span></div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <span class="keyword">true</span>,</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    {</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        <span class="keywordflow">if</span>(it.wpisbox)</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;        {</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#a3385b15af8ffd7f5c33d2fbb3a9eb237">boxesoverlap</a>(org, org, it.absmin, it.absmax))</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;            {</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;                e.nearestwaypoint = it;</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;            }</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;        }</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;        {</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(it.origin - org, &lt;, 16))</div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;            {</div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;                e.nearestwaypoint = it;</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;            }</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;        }</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    });</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;</div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    e.nearestwaypoint = <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a>(org, org, <a class="code" href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a> | <a class="code" href="../../db/d15/api_8qh.html#a8e5726bbd3b42d3894887a4965ecd5e4">WAYPOINTFLAG_ITEM</a>);</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00757">waypoint_spawnforitem()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;{</div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;    <span class="comment">// Fix the waypoint altitude if necessary</span></div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;    org = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a>(org);</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;    <span class="comment">// don&#39;t spawn an item spawnfunc_waypoint if it already exists</span></div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <span class="keyword">true</span>,</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;    {</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;        <span class="keywordflow">if</span>(it.wpisbox)</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;        {</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#a3385b15af8ffd7f5c33d2fbb3a9eb237">boxesoverlap</a>(org, org, it.absmin, it.absmax))</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;            {</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;                e.nearestwaypoint = it;</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;            }</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;        }</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;        {</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(it.origin - org, &lt;, 16))</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;            {</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;                e.nearestwaypoint = it;</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;            }</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;        }</div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;    });</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;    e.nearestwaypoint = <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a>(org, org, <a class="code" href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a> | <a class="code" href="../../db/d15/api_8qh.html#a8e5726bbd3b42d3894887a4965ecd5e4">WAYPOINTFLAG_ITEM</a>);</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;}</div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00158">intrusivelist.qh:158</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_a3d10530c0b6042dd7c71084f84928da0"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a></div><div class="ttdeci">vector waypoint_fixorigin(vector position)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00700">waypoints.qc:700</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_a3d10530c0b6042dd7c71084f84928da0"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a></div><div class="ttdeci">vector waypoint_fixorigin(vector position)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00718">waypoints.qc:718</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_aff439bd5f2dcecaf112d934029e0fb85"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a></div><div class="ttdeci">IntrusiveList g_waypoints</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00424">defs.qh:424</a></div></div>
 <div class="ttc" id="waypoints_8qc_html_ab34f7a15ca9eb4899a266cf5bead4efb"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a></div><div class="ttdeci">entity waypoint_spawn(vector m1, vector m2, float f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00042">waypoints.qc:42</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a3385b15af8ffd7f5c33d2fbb3a9eb237"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a3385b15af8ffd7f5c33d2fbb3a9eb237">boxesoverlap</a></div><div class="ttdeci">float boxesoverlap(vector m1, vector m2, vector m3, vector m4)</div><div class="ttdoc">requires that m2&gt;m1 in all coordinates, and that m4&gt;m3 </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00080">vector.qh:80</a></div></div>
@@ -1722,15 +1625,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00769">769</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00787">787</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00700">waypoint_fixorigin()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00747">waypoint_spawnforteleporter_boxes()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;{</div>
-<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;    destination = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a>(destination);</div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#adcd50ec9ec6d70529e207908628cce71">waypoint_spawnforteleporter_boxes</a>(e, e.absmin, e.absmax, destination, destination, timetaken);</div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;}</div>
-<div class="ttc" id="waypoints_8qc_html_a3d10530c0b6042dd7c71084f84928da0"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a></div><div class="ttdeci">vector waypoint_fixorigin(vector position)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00700">waypoints.qc:700</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_adcd50ec9ec6d70529e207908628cce71"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#adcd50ec9ec6d70529e207908628cce71">waypoint_spawnforteleporter_boxes</a></div><div class="ttdeci">void waypoint_spawnforteleporter_boxes(entity e, vector org1, vector org2, vector destination1, vector destination2, float timetaken)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00747">waypoints.qc:747</a></div></div>
+<p>References <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00718">waypoint_fixorigin()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00765">waypoint_spawnforteleporter_boxes()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;{</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;    destination = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a>(destination);</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#adcd50ec9ec6d70529e207908628cce71">waypoint_spawnforteleporter_boxes</a>(e, e.absmin, e.absmax, destination, destination, timetaken);</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;}</div>
+<div class="ttc" id="waypoints_8qc_html_a3d10530c0b6042dd7c71084f84928da0"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a></div><div class="ttdeci">vector waypoint_fixorigin(vector position)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00718">waypoints.qc:718</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_adcd50ec9ec6d70529e207908628cce71"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#adcd50ec9ec6d70529e207908628cce71">waypoint_spawnforteleporter_boxes</a></div><div class="ttdeci">void waypoint_spawnforteleporter_boxes(entity e, vector org1, vector org2, vector destination1, vector destination2, float timetaken)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00765">waypoints.qc:765</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1780,16 +1683,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00762">762</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00780">780</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00700">waypoint_fixorigin()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00747">waypoint_spawnforteleporter_boxes()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;{</div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;    org = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a>(org);</div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;    destination = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a>(destination);</div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#adcd50ec9ec6d70529e207908628cce71">waypoint_spawnforteleporter_boxes</a>(e, org, org, destination, destination, timetaken);</div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;}</div>
-<div class="ttc" id="waypoints_8qc_html_a3d10530c0b6042dd7c71084f84928da0"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a></div><div class="ttdeci">vector waypoint_fixorigin(vector position)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00700">waypoints.qc:700</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_adcd50ec9ec6d70529e207908628cce71"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#adcd50ec9ec6d70529e207908628cce71">waypoint_spawnforteleporter_boxes</a></div><div class="ttdeci">void waypoint_spawnforteleporter_boxes(entity e, vector org1, vector org2, vector destination1, vector destination2, float timetaken)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00747">waypoints.qc:747</a></div></div>
+<p>References <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00718">waypoint_fixorigin()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00765">waypoint_spawnforteleporter_boxes()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;{</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;    org = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a>(org);</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;    destination = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a>(destination);</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#adcd50ec9ec6d70529e207908628cce71">waypoint_spawnforteleporter_boxes</a>(e, org, org, destination, destination, timetaken);</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;}</div>
+<div class="ttc" id="waypoints_8qc_html_a3d10530c0b6042dd7c71084f84928da0"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a></div><div class="ttdeci">vector waypoint_fixorigin(vector position)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00718">waypoints.qc:718</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_adcd50ec9ec6d70529e207908628cce71"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#adcd50ec9ec6d70529e207908628cce71">waypoint_spawnforteleporter_boxes</a></div><div class="ttdeci">void waypoint_spawnforteleporter_boxes(entity e, vector org1, vector org2, vector destination1, vector destination2, float timetaken)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00765">waypoints.qc:765</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1827,29 +1730,29 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00775">775</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00793">793</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00700">waypoint_fixorigin()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00316">waypoint_schedulerelink()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00042">waypoint_spawn()</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00005">WAYPOINTFLAG_GENERATED</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00009">WAYPOINTFLAG_PERSONAL</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00718">waypoint_fixorigin()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00316">waypoint_schedulerelink()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00042">waypoint_spawn()</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00005">WAYPOINTFLAG_GENERATED</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00009">WAYPOINTFLAG_PERSONAL</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01222">havocbot_moveto()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;{</div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> w;</div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;</div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;    <span class="comment">// drop the waypoint to a proper location:</span></div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;    <span class="comment">//   first move it up by a player height</span></div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;    <span class="comment">//   then move it down to hit the floor with player bbox size</span></div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;    position = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a>(position);</div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;</div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;    w = <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a>(position, position, <a class="code" href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a> | <a class="code" href="../../db/d15/api_8qh.html#a16465cf087c71e05a2a1cefaaa09093f">WAYPOINTFLAG_PERSONAL</a>);</div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;    w.nearestwaypoint = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;    w.nearestwaypointtimeout = 0;</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;    w.owner = <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;</div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5">waypoint_schedulerelink</a>(w);</div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;    <span class="keywordflow">return</span> w;</div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;}</div>
-<div class="ttc" id="waypoints_8qc_html_a3d10530c0b6042dd7c71084f84928da0"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a></div><div class="ttdeci">vector waypoint_fixorigin(vector position)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00700">waypoints.qc:700</a></div></div>
+<div class="fragment"><div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;{</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> w;</div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;    <span class="comment">// drop the waypoint to a proper location:</span></div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;    <span class="comment">//   first move it up by a player height</span></div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;    <span class="comment">//   then move it down to hit the floor with player bbox size</span></div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;    position = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a>(position);</div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;    w = <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a>(position, position, <a class="code" href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a> | <a class="code" href="../../db/d15/api_8qh.html#a16465cf087c71e05a2a1cefaaa09093f">WAYPOINTFLAG_PERSONAL</a>);</div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;    w.nearestwaypoint = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;    w.nearestwaypointtimeout = 0;</div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;    w.owner = <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;</div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5">waypoint_schedulerelink</a>(w);</div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;    <span class="keywordflow">return</span> w;</div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;}</div>
+<div class="ttc" id="waypoints_8qc_html_a3d10530c0b6042dd7c71084f84928da0"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0">waypoint_fixorigin</a></div><div class="ttdeci">vector waypoint_fixorigin(vector position)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00718">waypoints.qc:718</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="waypoints_8qc_html_ab34f7a15ca9eb4899a266cf5bead4efb"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a></div><div class="ttdeci">entity waypoint_spawn(vector m1, vector m2, float f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00042">waypoints.qc:42</a></div></div>
 <div class="ttc" id="waypoints_8qc_html_a7b401ce3982d2ff32e2581b69ce746b5"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5">waypoint_schedulerelink</a></div><div class="ttdeci">void waypoint_schedulerelink(entity wp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00316">waypoints.qc:316</a></div></div>
@@ -2040,7 +1943,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00011">11</a> of file <a class="el" href="../../d1/d2a/waypoints_8qh_source.html">waypoints.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00674">bot_serverframe()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00377">waypoint_load_links()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00594">waypoint_save_links()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00674">bot_serverframe()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00377">waypoint_load_links()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00607">waypoint_save_links()</a>.</p>
 
 </div>
 </div>
@@ -2056,7 +1959,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00010">10</a> of file <a class="el" href="../../d1/d2a/waypoints_8qh_source.html">waypoints.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00674">bot_serverframe()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00465">waypoint_load_links_hardwired()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00625">waypoint_saveall()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00674">bot_serverframe()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00465">waypoint_load_or_remove_links_hardwired()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00643">waypoint_saveall()</a>.</p>
 
 </div>
 </div>
@@ -2072,7 +1975,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00009">9</a> of file <a class="el" href="../../d1/d2a/waypoints_8qh_source.html">waypoints.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00805">botframe_showwaypointlinks()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00823">botframe_showwaypointlinks()</a>.</p>
 
 </div>
 </div>
@@ -3156,7 +3059,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../d1/d2a/waypoints_8qh.html">waypoints.qh</a></li>
-    <li class="footer">Generated on Mon Mar 27 2017 22:40:00 for Xonotic by
+    <li class="footer">Generated on Tue Mar 28 2017 14:51:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

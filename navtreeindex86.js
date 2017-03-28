@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"d9/deb/classXonoticHUDTimerDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,192,29],
+"d9/deb/classXonoticHUDTimerDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,192,19],
 "d9/deb/classXonoticHUDTimerDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,192,22],
 "d9/deb/classXonoticHUDTimerDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,192,13],
 "d9/deb/classXonoticHUDTimerDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,192,61],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "da/d13/classShockwave.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,113,9],
 "da/d13/classShockwave.html#a6a2ecbec331fdeefcb8ed171bab217b8":[1,0,113,26],
 "da/d13/classShockwave.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,113,8],
-"da/d13/classShockwave.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,113,2],
-"da/d13/classShockwave.html#a7495a799cf73beef58b25f94e4052af3":[1,0,113,31],
-"da/d13/classShockwave.html#a768d3992198c4b743dbab2cff9529e99":[1,0,113,24]
+"da/d13/classShockwave.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,113,2]
 };

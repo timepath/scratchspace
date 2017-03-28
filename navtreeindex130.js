@@ -1,5 +1,7 @@
 var NAVTREEINDEX130 =
 {
+"df/dbd/dialog__settings__game__crosshair_8qc.html":[2,0,5,4,126],
+"df/dbd/dialog__settings__game__crosshair_8qc.html#a4f706d7ce46862c87a014b6423a463f3":[2,0,5,4,126,0],
 "df/dbd/dialog__settings__game__crosshair_8qc.html#a9b6483a184ad0561b8f8fdb359b5a761":[2,0,5,4,126,2],
 "df/dbd/dialog__settings__game__crosshair_8qc.html#ae9cf0d662c9dcada5b8c1aae7e361533":[2,0,5,4,126,1],
 "df/dbd/dialog__settings__game__crosshair_8qc_source.html":[2,0,5,4,126],
@@ -247,7 +249,5 @@ var NAVTREEINDEX130 =
 "df/dd4/navigation_8qh.html#a7ee208dfaf077cf2c6ef10818b975fd9":[2,0,6,0,0,10,6],
 "df/dd4/navigation_8qh.html#a7f490c136a567f38dcdcb155c0c34cb9":[2,0,6,0,0,10,12],
 "df/dd4/navigation_8qh.html#a857667e3adb2f0521d53fd1e85cc2a80":[2,0,6,0,0,10,16],
-"df/dd4/navigation_8qh.html#a86427b9b2e49b63f8b3995cbfd52297c":[2,0,6,0,0,10,70],
-"df/dd4/navigation_8qh.html#a8fc8a4214d8d9e1506f56db1dd0b4380":[2,0,6,0,0,10,30],
-"df/dd4/navigation_8qh.html#a9268c834f5ccf503691a30537f3bfc63":[2,0,6,0,0,10,47]
+"df/dd4/navigation_8qh.html#a86427b9b2e49b63f8b3995cbfd52297c":[2,0,6,0,0,10,70]
 };

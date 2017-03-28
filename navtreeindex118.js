@@ -1,5 +1,7 @@
 var NAVTREEINDEX118 =
 {
+"dd/df9/classCheckBox.html#ad8b9115dc1d65ac99e74ae1a36f56d05":[1,0,15,40],
+"dd/df9/classCheckBox.html#adf2dea57b2330e856350cd2169500f8d":[1,0,15,13],
 "dd/df9/classCheckBox.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,15,33],
 "dd/df9/classCheckBox.html#aef17454d19baae5de77f47b1fb52deb1":[1,0,15,3],
 "dd/df9/classCheckBox.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,15,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX118 =
 "de/d3a/classXonoticCrosshairPreview.html#ae9c0ac1c4201a2456fea67165f70bd89":[1,0,154,0],
 "de/d3a/classXonoticCrosshairPreview.html#af83006b9945d0946e5348b65cbb93eeb":[1,0,154,1],
 "de/d3a/classXonoticCrosshairPreview.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,154,18],
-"de/d3a/classXonoticCrosshairPreview.html#afc9428d371ed63dd0316db5558e81d30":[1,0,154,29],
-"de/d3a/classXonoticCrosshairPreview.html#afdb0a90685f527da57604563129b3803":[1,0,154,4],
-"de/d3a/classXonoticCrosshairPreview.html#afdcf1fb79903f747cda494b27206526b":[1,0,154,3]
+"de/d3a/classXonoticCrosshairPreview.html#afc9428d371ed63dd0316db5558e81d30":[1,0,154,29]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"db/d7f/effectinfo_8inc.html#a97c09bed87e53cdd47a65a2a0a65058d":[2,0,1,2,7,96],
+"db/d7f/effectinfo_8inc.html#a986bc3ff52e4a0c4aeccab2ec429f31f":[2,0,1,2,7,246],
 "db/d7f/effectinfo_8inc.html#a99181657fe7efbc9cd56bd984cd163db":[2,0,1,2,7,235],
 "db/d7f/effectinfo_8inc.html#a99b4514fab8ee10ccb66265db462d6f9":[2,0,1,2,7,292],
 "db/d7f/effectinfo_8inc.html#a99e514778f4e6d4316ac1ba3213a35a3":[2,0,1,2,7,208],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "db/d93/cl__minigames__hud_8qh.html#ac4b5b084e2ab882cddcd934fa216f94b":[2,0,1,6,6,0],
 "db/d93/cl__minigames__hud_8qh_source.html":[2,0,1,6,6],
 "db/d9b/server_2player_8qc.html":[2,0,6,47],
-"db/d9b/server_2player_8qc.html#a0390f6703ace29f61655694b8821d84a":[2,0,6,47,3],
-"db/d9b/server_2player_8qc.html#a1f636403184e26ea4190e989009ab0a1":[2,0,6,47,8],
-"db/d9b/server_2player_8qc.html#a51c4a1afebc1206d7849ebd9f21e2f3b":[2,0,6,47,6]
+"db/d9b/server_2player_8qc.html#a0390f6703ace29f61655694b8821d84a":[2,0,6,47,3]
 };
