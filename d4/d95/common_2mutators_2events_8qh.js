@@ -9,6 +9,7 @@ var common_2mutators_2events_8qh =
     [ "EV_PlayerPhysics", "d4/d95/common_2mutators_2events_8qh.html#a6946f25e5a0f0f19747e7073e762b56f", null ],
     [ "EV_PM_Physics", "d4/d95/common_2mutators_2events_8qh.html#a26df0038cd70de3a0c017c63d859ed35", null ],
     [ "EV_WeaponModel", "d4/d95/common_2mutators_2events_8qh.html#aa8ca520eddfe4545c119375a983f2cad", null ],
+    [ "EV_WeaponSound", "d4/d95/common_2mutators_2events_8qh.html#a77829c1928216da311e0a94eb4ab0258", null ],
     [ "EV_WP_Format", "d4/d95/common_2mutators_2events_8qh.html#a5c797ab2b86db48e3e11c8802365cf5e", null ],
     [ "M_ARGV", "d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f", null ],
     [ "MUTATOR_NEWGLOBAL", "d4/d95/common_2mutators_2events_8qh.html#a209ff0f8342d6028fe0b814eb6949bd7", null ],
@@ -21,5 +22,6 @@ var common_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#a5a76b0c74033bdef19968820a43149b9", null ],
     [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#ae3a91aca82079ec3bcc302a2345cdc76", null ],
     [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#aa022e322821d9c960bcdee463363291f", null ],
+    [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#aa0c0f7f24cd3dc970bd940b340c8b464", null ],
     [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#a5e051773a4f4852360170506cb27e9c1", null ]
 ];

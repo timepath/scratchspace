@@ -146,6 +146,9 @@ Macros</h2></td></tr>
 <tr class="memitem:aa8ca520eddfe4545c119375a983f2cad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#aa8ca520eddfe4545c119375a983f2cad">EV_WeaponModel</a>(i, o)</td></tr>
 <tr class="memdesc:aa8ca520eddfe4545c119375a983f2cad"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a weapon model is about to be set, allows custom paths etc.  <a href="#aa8ca520eddfe4545c119375a983f2cad">More...</a><br/></td></tr>
 <tr class="separator:aa8ca520eddfe4545c119375a983f2cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77829c1928216da311e0a94eb4ab0258"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a77829c1928216da311e0a94eb4ab0258">EV_WeaponSound</a>(i, o)</td></tr>
+<tr class="memdesc:a77829c1928216da311e0a94eb4ab0258"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a weapon sound is about to be played, allows custom paths etc.  <a href="#a77829c1928216da311e0a94eb4ab0258">More...</a><br/></td></tr>
+<tr class="separator:a77829c1928216da311e0a94eb4ab0258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c797ab2b86db48e3e11c8802365cf5e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a5c797ab2b86db48e3e11c8802365cf5e">EV_WP_Format</a>(i, o)</td></tr>
 <tr class="separator:a5c797ab2b86db48e3e11c8802365cf5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ca65845a9480e0058f0db84dd1ae70f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(x, type)&#160;&#160;&#160;MUTATOR_ARGV_##x##_##type</td></tr>
@@ -173,6 +176,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae3a91aca82079ec3bcc302a2345cdc76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa022e322821d9c960bcdee463363291f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#aa022e322821d9c960bcdee463363291f">MUTATOR_HOOKABLE</a> (PM_Physics, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a26df0038cd70de3a0c017c63d859ed35">EV_PM_Physics</a>)</td></tr>
 <tr class="separator:aa022e322821d9c960bcdee463363291f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0c0f7f24cd3dc970bd940b340c8b464"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#aa0c0f7f24cd3dc970bd940b340c8b464">MUTATOR_HOOKABLE</a> (WeaponSound, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a77829c1928216da311e0a94eb4ab0258">EV_WeaponSound</a>)</td></tr>
+<tr class="separator:aa0c0f7f24cd3dc970bd940b340c8b464"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e051773a4f4852360170506cb27e9c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a5e051773a4f4852360170506cb27e9c1">MUTATOR_HOOKABLE</a> (WeaponModel, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#aa8ca520eddfe4545c119375a983f2cad">EV_WeaponModel</a>)</td></tr>
 <tr class="separator:a5e051773a4f4852360170506cb27e9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -455,6 +460,38 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>called when a weapon model is about to be set, allows custom paths etc. </p>
 
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00108">108</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a77829c1928216da311e0a94eb4ab0258"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_WeaponSound</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"> i(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \ i(<span class="keywordtype">string</span>, MUTATOR_ARGV_1_string) \</div>
+<div class="line">                   o(<span class="keywordtype">string</span>, MUTATOR_ARGV_1_string) \</div>
+</div><!-- fragment -->
+<p>called when a weapon sound is about to be played, allows custom paths etc. </p>
+
 <p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00100">100</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
@@ -519,7 +556,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">17</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/df4/announcer_8qc_source.html#l00010">AnnouncerOption()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00579">bot_fixcount()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00150">buff_Touch()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00218">CheckAllowedTeams()</a>, <a class="el" href="../../d2/d0a/common_2physics_2player_8qc_source.html#l00430">CheckPlayerJump()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01847">CheckRules_World()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00321">CommonCommand_editmob()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01413">CSQC_UpdateView()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00619">Damage()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00352">fireBullet()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00378">FixPlayermodel()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00226">formatmessage()</a>, <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00026">getrecords()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00103">getwelcomemessage()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00033">GiveFrags()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00155">GrapplingHookThink()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01348">HUD_Draw()</a>, <a class="el" href="../../d3/d1f/items_2all_8qc_source.html#l00008">Item_Model()</a>, <a class="el" href="../../d3/d1f/items_2all_8qc_source.html#l00018">Item_Sound()</a>, <a class="el" href="../../d3/d34/monsters_2all_8qc_source.html#l00003">M_Model()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00032">monster_dropitem()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00694">Monster_Move()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01684">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01570">player_regen()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00310">PlayerDamage()</a>, <a class="el" href="../../d2/d0a/common_2physics_2player_8qc_source.html#l00283">PlayerJump()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00322">PlayerScore_Add()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00525">readplayerstartcvars()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00694">Say()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00215">Spawn_Score()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00613">spawnfunc()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01841">Spectate()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01851">SpectateNext()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01865">SpectatePrev()</a>, <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00271">W_Model()</a>, <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00260">W_Sound()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00024">W_WeaponRateFactor()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00036">W_WeaponSpeedFactor()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00482">want_weapon()</a>, and <a class="el" href="../../dc/dab/spawning_8qc_source.html#l00025">weapon_defaultspawnfunc()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/df4/announcer_8qc_source.html#l00010">AnnouncerOption()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00579">bot_fixcount()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00150">buff_Touch()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00218">CheckAllowedTeams()</a>, <a class="el" href="../../d2/d0a/common_2physics_2player_8qc_source.html#l00430">CheckPlayerJump()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01847">CheckRules_World()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00321">CommonCommand_editmob()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01413">CSQC_UpdateView()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00619">Damage()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00352">fireBullet()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00378">FixPlayermodel()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00226">formatmessage()</a>, <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00026">getrecords()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00103">getwelcomemessage()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00033">GiveFrags()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00155">GrapplingHookThink()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01348">HUD_Draw()</a>, <a class="el" href="../../d3/d1f/items_2all_8qc_source.html#l00008">Item_Model()</a>, <a class="el" href="../../d3/d1f/items_2all_8qc_source.html#l00018">Item_Sound()</a>, <a class="el" href="../../d3/d34/monsters_2all_8qc_source.html#l00003">M_Model()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00032">monster_dropitem()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00694">Monster_Move()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01684">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01570">player_regen()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00310">PlayerDamage()</a>, <a class="el" href="../../d2/d0a/common_2physics_2player_8qc_source.html#l00283">PlayerJump()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00322">PlayerScore_Add()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00525">readplayerstartcvars()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00694">Say()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00215">Spawn_Score()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00613">spawnfunc()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01841">Spectate()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01851">SpectateNext()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01865">SpectatePrev()</a>, <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00267">W_Model()</a>, <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00260">W_Sound()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00024">W_WeaponRateFactor()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00036">W_WeaponSpeedFactor()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00482">want_weapon()</a>, and <a class="el" href="../../dc/dab/spawning_8qc_source.html#l00025">weapon_defaultspawnfunc()</a>.</p>
 
 </div>
 </div>
@@ -796,6 +833,32 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa0c0f7f24cd3dc970bd940b340c8b464"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype">WeaponSound&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a77829c1928216da311e0a94eb4ab0258">EV_WeaponSound</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a5e051773a4f4852360170506cb27e9c1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -828,7 +891,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 21:23:13 for Xonotic by
+    <li class="footer">Generated on Sat Apr 1 2017 18:11:17 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

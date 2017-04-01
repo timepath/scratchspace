@@ -2,7 +2,7 @@ var projectile_8qc =
 [
     [ "HANDLE", "d3/db6/projectile_8qc.html#aa212ff44982cb3d66e1a0eff0bea547e", null ],
     [ "Ent_RemoveProjectile", "d3/db6/projectile_8qc.html#aa0569f1b060229bf8b6d0c13b4dff8f1", null ],
-    [ "loopsound", "d3/db6/projectile_8qc.html#a3ca3553902e7242b1d6557434ef2634d", null ],
+    [ "loopsound", "d3/db6/projectile_8qc.html#a9f8c39b72e4cac7db813d64f6b47da53", null ],
     [ "NET_HANDLE", "d3/db6/projectile_8qc.html#a80c34c3e86a9ef71dfcdff65bd795540", null ],
     [ "PRECACHE", "d3/db6/projectile_8qc.html#ac4299ed240f883c226a73f8b7c4da3fa", null ],
     [ "Projectile_Draw", "d3/db6/projectile_8qc.html#a0425d4c4b6b30c19a7f206ec3b83406b", null ],

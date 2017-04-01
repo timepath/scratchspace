@@ -232,7 +232,7 @@ var searchData=
   ['soundname',['soundName',['../d1/d70/classXonoticSoundList.html#a0249b6fa59bcfae1d06299b8e9ca3bec',1,'XonoticSoundList']]],
   ['soundto',['soundto',['../dc/d73/server_2miscfunctions_8qh.html#ac6baed8b5083b7d5b173f877cddee253',1,'miscfunctions.qh']]],
   ['soundtoat',['soundtoat',['../dc/d73/server_2miscfunctions_8qh.html#a03ae2b364190aaf5a91fd684522d66ff',1,'miscfunctions.qh']]],
-  ['spamsound',['spamsound',['../dc/d73/server_2miscfunctions_8qh.html#a8ae2905191403b6570b5ba622914b2c8',1,'miscfunctions.qh']]],
+  ['spamsound',['spamsound',['../dc/d73/server_2miscfunctions_8qh.html#ae74ffea0b7b9c115fad6b8175d19d088',1,'miscfunctions.qh']]],
   ['spawn',['spawn',['../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c',1,'menudefs.qc']]],
   ['spawn_5fdraw',['Spawn_Draw',['../df/d30/client_2main_8qc.html#ad588feebc12ed1a2def99b4d4e70d92e',1,'main.qc']]],
   ['spawn_5fevent',['spawn_event',['../db/d7f/effectinfo_8inc.html#aa528a1a4c78a3f66e8d8a3cb0e058b92',1,'spawn_event(blue,&quot;0x0F0FFF&quot;) spawn_event(yellow:&#160;effectinfo.inc'],['../db/d7f/effectinfo_8inc.html#aa34e9e39c33dbb56f3f86e3f42b4ff9b',1,'spawn_event(pink,&quot;0xFF0FFF&quot;) spawn_event(neutral:&#160;effectinfo.inc']]],

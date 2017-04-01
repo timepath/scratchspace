@@ -166,69 +166,72 @@ $(document).ready(function(){initNavTree('d0/dcd/csqcprojectile_8qc_source.html'
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, fr);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a6ff047c33f58c5833c291c636078e712">realowner</a>.team);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">if</span>(sf &amp; 2)</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#aed339d1f915b2eb8e2b1f176016b9897">csqcprojectile_type</a>); <span class="comment">// TODO maybe put this into sf?</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a6ff047c33f58c5833c291c636078e712">realowner</a>.team);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a6ff047c33f58c5833c291c636078e712">realowner</a>.clientcolors); <span class="comment">// NOTE: doesn&#39;t work on non-clients</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">if</span>(sf &amp; 2)</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#aed339d1f915b2eb8e2b1f176016b9897">csqcprojectile_type</a>); <span class="comment">// TODO maybe put this into sf?</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="../../d0/dcd/csqcprojectile_8qc.html#a7dd362a209016b884056e3a9846dc736">   71</a></span>&#160;.vector <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a7dd362a209016b884056e3a9846dc736">csqcprojectile_oldorigin</a>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="../../d9/d35/csqcprojectile_8qh.html#a70b20e50e8eacc4a4f59b799ad04b2ea">   72</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a70b20e50e8eacc4a4f59b799ad04b2ea">CSQCProjectile_Check</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;{</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">if</span>(e.csqcprojectile_clientanimate)</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27">IS_ONGROUND</a>(e))</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">if</span>(e.origin != e.csqcprojectile_oldorigin)</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b">UpdateCSQCProjectile</a>(e);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    e.csqcprojectile_oldorigin = e.origin;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="../../d0/dcd/csqcprojectile_8qc.html#a930c053bef0a4c6cddca21bd46cc40a0">   81</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a930c053bef0a4c6cddca21bd46cc40a0">CSQCProjectile</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, <span class="keywordtype">float</span> clientanimate, <span class="keywordtype">int</span> type, <span class="keywordtype">float</span> docull)</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;{</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    Net_LinkEntity(e, docull, 0, <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e">CSQCProjectile_SendEntity</a>);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    e.csqcprojectile_clientanimate = clientanimate;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">if</span>(e.move_movetype == <a class="code" href="../../d6/d11/progsdefs_8qc.html#ad57b224e8fae8cd012cd3a12cd4bb371">MOVETYPE_TOSS</a> || e.move_movetype == <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>)</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">if</span>(e.gravity == 0)</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            e.gravity = 1;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        e.gravity = 0;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ab1a77c4be3a9f33d84f6b35d5663474c">sound_allowed</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">MSG_BROADCAST</a>, e))</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        type |= 0x80;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    e.csqcprojectile_type = type;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
-<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="../../d9/d35/csqcprojectile_8qh.html#a041b0a1ddf8b3bfd790cadc39e07dc7b">  100</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b">UpdateCSQCProjectile</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;{</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a>(e) == <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e">CSQCProjectile_SendEntity</a>)</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    {</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="comment">// send new origin data</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        e.SendFlags |= 0x01;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">// FIXME HACK</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a>(e) == ItemSend)</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    {</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        ItemUpdate(e);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment">// END HACK</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;}</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
-<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="../../d9/d35/csqcprojectile_8qh.html#ae4d3ae90944ee0a34a21572d58c16df0">  115</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#ae4d3ae90944ee0a34a21572d58c16df0">UpdateCSQCProjectileAfterTeleport</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;{</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a>(e) == <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e">CSQCProjectile_SendEntity</a>)</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="comment">// send new origin data</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        e.SendFlags |= 0x01;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="comment">// mark as teleported</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        e.SendFlags |= 0x08;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="../../d0/dcd/csqcprojectile_8qc.html#a7dd362a209016b884056e3a9846dc736">   74</a></span>&#160;.vector <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a7dd362a209016b884056e3a9846dc736">csqcprojectile_oldorigin</a>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../d9/d35/csqcprojectile_8qh.html#a70b20e50e8eacc4a4f59b799ad04b2ea">   75</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a70b20e50e8eacc4a4f59b799ad04b2ea">CSQCProjectile_Check</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;{</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">if</span>(e.csqcprojectile_clientanimate)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27">IS_ONGROUND</a>(e))</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">if</span>(e.origin != e.csqcprojectile_oldorigin)</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b">UpdateCSQCProjectile</a>(e);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    e.csqcprojectile_oldorigin = e.origin;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="../../d0/dcd/csqcprojectile_8qc.html#a930c053bef0a4c6cddca21bd46cc40a0">   84</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a930c053bef0a4c6cddca21bd46cc40a0">CSQCProjectile</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, <span class="keywordtype">float</span> clientanimate, <span class="keywordtype">int</span> type, <span class="keywordtype">float</span> docull)</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;{</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    Net_LinkEntity(e, docull, 0, <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e">CSQCProjectile_SendEntity</a>);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    e.csqcprojectile_clientanimate = clientanimate;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span>(e.move_movetype == <a class="code" href="../../d6/d11/progsdefs_8qc.html#ad57b224e8fae8cd012cd3a12cd4bb371">MOVETYPE_TOSS</a> || e.move_movetype == <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>)</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">if</span>(e.gravity == 0)</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            e.gravity = 1;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        e.gravity = 0;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ab1a77c4be3a9f33d84f6b35d5663474c">sound_allowed</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">MSG_BROADCAST</a>, e))</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        type |= 0x80;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    e.csqcprojectile_type = type;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="../../d9/d35/csqcprojectile_8qh.html#a041b0a1ddf8b3bfd790cadc39e07dc7b">  103</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b">UpdateCSQCProjectile</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a>(e) == <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e">CSQCProjectile_SendEntity</a>)</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="comment">// send new origin data</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        e.SendFlags |= 0x01;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="comment">// FIXME HACK</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a>(e) == ItemSend)</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        ItemUpdate(e);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment">// END HACK</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="../../d9/d35/csqcprojectile_8qh.html#ae4d3ae90944ee0a34a21572d58c16df0">  118</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#ae4d3ae90944ee0a34a21572d58c16df0">UpdateCSQCProjectileAfterTeleport</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;{</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a>(e) == <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e">CSQCProjectile_SendEntity</a>)</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="comment">// send new origin data</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        e.SendFlags |= 0x01;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="comment">// mark as teleported</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        e.SendFlags |= 0x08;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;}</div>
 <div class="ttc" id="server_2defs_8qh_html_a59214cfc9d36ddbc2ca9c6a7e2ec5952"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952">fade_time</a></div><div class="ttdeci">float fade_time</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00061">defs.qh:61</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abd23315350cd01304b6bd77c4c5c07e6"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a></div><div class="ttdeci">void WriteByte(float data, float dest, float desto)</div></div>
 <div class="ttc" id="net__linked_8qh_html"><div class="ttname"><a href="../../d5/d08/net__linked_8qh.html">net_linked.qh</a></div></div>
@@ -236,23 +239,24 @@ $(document).ready(function(){initNavTree('d0/dcd/csqcprojectile_8qc_source.html'
 <div class="ttc" id="projectile_8qh_html_a66ebaab056a734dac49a78d19be21d71"><div class="ttname"><a href="../../dc/dc7/projectile_8qh.html#a66ebaab056a734dac49a78d19be21d71">fade_rate</a></div><div class="ttdeci">fade_rate</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc7/projectile_8qh_source.html#l00010">projectile.qh:10</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="movetypes_8qh_html_afcd99b2a90a921a7e3e7f52f8ac86a27"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27">IS_ONGROUND</a></div><div class="ttdeci">#define IS_ONGROUND(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00003">movetypes.qh:3</a></div></div>
-<div class="ttc" id="csqcprojectile_8qc_html_a70b20e50e8eacc4a4f59b799ad04b2ea"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#a70b20e50e8eacc4a4f59b799ad04b2ea">CSQCProjectile_Check</a></div><div class="ttdeci">void CSQCProjectile_Check(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00072">csqcprojectile.qc:72</a></div></div>
+<div class="ttc" id="csqcprojectile_8qc_html_a70b20e50e8eacc4a4f59b799ad04b2ea"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#a70b20e50e8eacc4a4f59b799ad04b2ea">CSQCProjectile_Check</a></div><div class="ttdeci">void CSQCProjectile_Check(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00075">csqcprojectile.qc:75</a></div></div>
 <div class="ttc" id="common_2physics_2player_8qh_html_a31924e6c9b17aad7f861e818b8be5d8f"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#a31924e6c9b17aad7f861e818b8be5d8f">gravity</a></div><div class="ttdeci">float gravity</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00011">player.qh:11</a></div></div>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00094">self.qh:94</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_a06dbc3a3eb5aaab80edf32ea607f1ef3"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a></div><div class="ttdeci">origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00048">ent_cs.qc:48</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a0666d534536ab23275b66cac3a50f00d"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a></div><div class="ttdeci">float MOVETYPE_BOUNCE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00256">progsdefs.qc:256</a></div></div>
-<div class="ttc" id="csqcprojectile_8qc_html_a930c053bef0a4c6cddca21bd46cc40a0"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#a930c053bef0a4c6cddca21bd46cc40a0">CSQCProjectile</a></div><div class="ttdeci">void CSQCProjectile(entity e, float clientanimate, int type, float docull)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00081">csqcprojectile.qc:81</a></div></div>
+<div class="ttc" id="csqcprojectile_8qc_html_a930c053bef0a4c6cddca21bd46cc40a0"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#a930c053bef0a4c6cddca21bd46cc40a0">CSQCProjectile</a></div><div class="ttdeci">void CSQCProjectile(entity e, float clientanimate, int type, float docull)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00084">csqcprojectile.qc:84</a></div></div>
 <div class="ttc" id="server_2command_2common_8qh_html_ab58184b20db3f9f0f708ec4522156ca2"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html#ab58184b20db3f9f0f708ec4522156ca2">sys_frametime</a></div><div class="ttdeci">float sys_frametime</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d06/server_2command_2common_8qh_source.html#l00048">common.qh:48</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_ab1a77c4be3a9f33d84f6b35d5663474c"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#ab1a77c4be3a9f33d84f6b35d5663474c">sound_allowed</a></div><div class="ttdeci">float sound_allowed(float dest, entity e)</div></div>
-<div class="ttc" id="csqcprojectile_8qc_html_a041b0a1ddf8b3bfd790cadc39e07dc7b"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b">UpdateCSQCProjectile</a></div><div class="ttdeci">void UpdateCSQCProjectile(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00100">csqcprojectile.qc:100</a></div></div>
+<div class="ttc" id="csqcprojectile_8qc_html_a041b0a1ddf8b3bfd790cadc39e07dc7b"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b">UpdateCSQCProjectile</a></div><div class="ttdeci">void UpdateCSQCProjectile(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00103">csqcprojectile.qc:103</a></div></div>
 <div class="ttc" id="csqcprojectile_8qc_html_a05912564a54c4a7e671157117742557e"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e">CSQCProjectile_SendEntity</a></div><div class="ttdeci">bool CSQCProjectile_SendEntity(entity this, entity to, int sf)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00013">csqcprojectile.qc:13</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html">constants.qh</a></div></div>
-<div class="ttc" id="csqcprojectile_8qc_html_a7dd362a209016b884056e3a9846dc736"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#a7dd362a209016b884056e3a9846dc736">csqcprojectile_oldorigin</a></div><div class="ttdeci">vector csqcprojectile_oldorigin</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00071">csqcprojectile.qc:71</a></div></div>
+<div class="ttc" id="csqcprojectile_8qc_html_a7dd362a209016b884056e3a9846dc736"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#a7dd362a209016b884056e3a9846dc736">csqcprojectile_oldorigin</a></div><div class="ttdeci">vector csqcprojectile_oldorigin</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00074">csqcprojectile.qc:74</a></div></div>
+<div class="ttc" id="progsdefs_8qc_html_acf8ea712d5467331fb750b33ab165013"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a></div><div class="ttdeci">float teamplay</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00031">progsdefs.qc:31</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aa8c03f058fec0c574e1bba13327f5a5b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a></div><div class="ttdeci">void WriteCoord(float data, float dest, float desto)</div></div>
 <div class="ttc" id="server_2defs_8qh_html_a6ff047c33f58c5833c291c636078e712"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a6ff047c33f58c5833c291c636078e712">realowner</a></div><div class="ttdeci">entity realowner</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00372">defs.qh:372</a></div></div>
 <div class="ttc" id="self_8qh_html_a05adda68b16fcfe48382fedfd2f2c56f"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a></div><div class="ttdeci">#define getSendEntity(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00096">self.qh:96</a></div></div>
 <div class="ttc" id="t__items_8qh_html"><div class="ttname"><a href="../../de/d75/t__items_8qh.html">t_items.qh</a></div></div>
-<div class="ttc" id="csqcprojectile_8qc_html_ae4d3ae90944ee0a34a21572d58c16df0"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#ae4d3ae90944ee0a34a21572d58c16df0">UpdateCSQCProjectileAfterTeleport</a></div><div class="ttdeci">void UpdateCSQCProjectileAfterTeleport(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00115">csqcprojectile.qc:115</a></div></div>
+<div class="ttc" id="csqcprojectile_8qc_html_ae4d3ae90944ee0a34a21572d58c16df0"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#ae4d3ae90944ee0a34a21572d58c16df0">UpdateCSQCProjectileAfterTeleport</a></div><div class="ttdeci">void UpdateCSQCProjectileAfterTeleport(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00118">csqcprojectile.qc:118</a></div></div>
 <div class="ttc" id="common_2weapons_2__all_8qh_html"><div class="ttname"><a href="../../d7/d7a/common_2weapons_2__all_8qh.html">_all.qh</a></div></div>
 <div class="ttc" id="csqcprojectile_8qc_html_aed339d1f915b2eb8e2b1f176016b9897"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#aed339d1f915b2eb8e2b1f176016b9897">csqcprojectile_type</a></div><div class="ttdeci">float csqcprojectile_type</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00011">csqcprojectile.qc:11</a></div></div>
 <div class="ttc" id="csqcprojectile_8qh_html_a648559f20af9210bf14eb62a892f0d04"><div class="ttname"><a href="../../d9/d35/csqcprojectile_8qh.html#a648559f20af9210bf14eb62a892f0d04">csqcprojectile_clientanimate</a></div><div class="ttdeci">float csqcprojectile_clientanimate</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d35/csqcprojectile_8qh_source.html#l00003">csqcprojectile.qh:3</a></div></div>
@@ -266,7 +270,7 @@ $(document).ready(function(){initNavTree('d0/dcd/csqcprojectile_8qc_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d0/dcd/csqcprojectile_8qc.html">csqcprojectile.qc</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 21:23:11 for Xonotic by
+    <li class="footer">Generated on Sat Apr 1 2017 18:11:15 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
