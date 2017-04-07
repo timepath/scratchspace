@@ -209,6 +209,8 @@ var searchData=
   ['print',['print',['../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98',1,'menudefs.qc']]],
   ['print_5fto',['print_to',['../de/d55/server_2command_2common_8qc.html#a37f1c035bd3cc63c8ef7d58dd12958ee',1,'print_to(entity to, string input):&#160;common.qc'],['../d2/d06/server_2command_2common_8qh.html#a37f1c035bd3cc63c8ef7d58dd12958ee',1,'print_to(entity to, string input):&#160;common.qc']]],
   ['printtochat',['PrintToChat',['../db/d9b/server_2player_8qc.html#af95438c9bb198a1d1c87af0260cc10a3',1,'PrintToChat(entity player, string text):&#160;player.qc'],['../da/dc1/server_2player_8qh.html#af95438c9bb198a1d1c87af0260cc10a3',1,'PrintToChat(entity player, string text):&#160;player.qc']]],
+  ['printtochatall',['PrintToChatAll',['../db/d9b/server_2player_8qc.html#a2c29b93080851a8b1b00d0bca0c7cee9',1,'PrintToChatAll(string text):&#160;player.qc'],['../da/dc1/server_2player_8qh.html#a2c29b93080851a8b1b00d0bca0c7cee9',1,'PrintToChatAll(string text):&#160;player.qc']]],
+  ['printtochatteam',['PrintToChatTeam',['../db/d9b/server_2player_8qc.html#a6d43c2bfc2775b826e03d5f7969c2fe6',1,'PrintToChatTeam(int teamnum, string text):&#160;player.qc'],['../da/dc1/server_2player_8qh.html#a6d43c2bfc2775b826e03d5f7969c2fe6',1,'PrintToChatTeam(int teamnum, string text):&#160;player.qc']]],
   ['printwelcomemessage',['PrintWelcomeMessage',['../df/dd7/server_2client_8qc.html#a6762be978fd49a3727236251c8d4702a',1,'client.qc']]],
   ['process_5fnotif_5fargs',['Process_Notif_Args',['../d8/d79/notifications_2all_8qc.html#a9a202f02c680cd96b64832efe697ddb8',1,'all.qc']]],
   ['process_5fnotif_5fline',['Process_Notif_Line',['../d8/d79/notifications_2all_8qc.html#a1c99ec50b1e6dcb76d27397757ca2cbb',1,'all.qc']]],

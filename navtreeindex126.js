@@ -1,5 +1,15 @@
 var NAVTREEINDEX126 =
 {
+"df/d26/classXonoticGameSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,169,51],
+"df/d26/classXonoticGameSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,169,79],
+"df/d26/classXonoticGameSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,169,72],
+"df/d26/classXonoticGameSettingsTab.html#a8a2a1403c2429a4b93f8e99fdda7cd73":[1,0,169,88],
+"df/d26/classXonoticGameSettingsTab.html#a8b9a5a46bb4c28a44b7090b4a7a7a7b0":[1,0,169,18],
+"df/d26/classXonoticGameSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,169,78],
+"df/d26/classXonoticGameSettingsTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,169,65],
+"df/d26/classXonoticGameSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,169,70],
+"df/d26/classXonoticGameSettingsTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,169,22],
+"df/d26/classXonoticGameSettingsTab.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,169,26],
 "df/d26/classXonoticGameSettingsTab.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,169,15],
 "df/d26/classXonoticGameSettingsTab.html#aaba311b07a1da9615b2d44e9b8c97149":[1,0,169,75],
 "df/d26/classXonoticGameSettingsTab.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,169,41],
@@ -239,15 +249,5 @@ var NAVTREEINDEX126 =
 "df/d38/mathlib_8qc.html#a7015726879809083a920c0338dedbad9":[2,0,4,2,8,40],
 "df/d38/mathlib_8qc.html#a7370c5a05d949b0842b35dcb96cba00d":[2,0,4,2,8,5],
 "df/d38/mathlib_8qc.html#a78694f207dbd1c20883880487c2db48f":[2,0,4,2,8,32],
-"df/d38/mathlib_8qc.html#a78b2dabdaeeec0788f39bc1ec4af8033":[2,0,4,2,8,4],
-"df/d38/mathlib_8qc.html#a7a49b0663f817840d878063a00344b35":[2,0,4,2,8,48],
-"df/d38/mathlib_8qc.html#a845b14f22d632cb80705366d31ba9fea":[2,0,4,2,8,25],
-"df/d38/mathlib_8qc.html#a8be76afcfbbcde7f6168466db0e03437":[2,0,4,2,8,29],
-"df/d38/mathlib_8qc.html#a8db70f85e32fb5c3201b5b4a84cae5c2":[2,0,4,2,8,36],
-"df/d38/mathlib_8qc.html#a97a198a7b7b819ae7e1c6ed1d6f20899":[2,0,4,2,8,35],
-"df/d38/mathlib_8qc.html#aa6f399de48f2f680abf1eecbb4c03b37":[2,0,4,2,8,2],
-"df/d38/mathlib_8qc.html#aa7fc3f886d2de787856fda7958809a2e":[2,0,4,2,8,17],
-"df/d38/mathlib_8qc.html#aab50993c512d8ea75053a17e20b58f11":[2,0,4,2,8,49],
-"df/d38/mathlib_8qc.html#ab87e208dbc0e5fa949961edc72c452ab":[2,0,4,2,8,39],
-"df/d38/mathlib_8qc.html#ab907f2d483927b268635737c22af9782":[2,0,4,2,8,20]
+"df/d38/mathlib_8qc.html#a78b2dabdaeeec0788f39bc1ec4af8033":[2,0,4,2,8,4]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX129 =
 {
+"df/d92/classXonoticWinnerDialog.html#a455e7d027ecf57c638002faff2b30786":[1,0,252,82],
+"df/d92/classXonoticWinnerDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,252,23],
+"df/d92/classXonoticWinnerDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,252,50],
+"df/d92/classXonoticWinnerDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,252,28],
+"df/d92/classXonoticWinnerDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,252,57],
+"df/d92/classXonoticWinnerDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,252,34],
+"df/d92/classXonoticWinnerDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,252,42],
+"df/d92/classXonoticWinnerDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,252,64],
+"df/d92/classXonoticWinnerDialog.html#a67d95732d49da439095483530aca8804":[1,0,252,53],
+"df/d92/classXonoticWinnerDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,252,76],
 "df/d92/classXonoticWinnerDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,252,18],
 "df/d92/classXonoticWinnerDialog.html#a71dfe2b7e476fea9b91f6b6f4ff79bfc":[1,0,252,24],
 "df/d92/classXonoticWinnerDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,252,14],
@@ -239,15 +249,5 @@ var NAVTREEINDEX129 =
 "df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af":[2,0,0,1,0,22,4],
 "df/db0/powerups_8qc.html#aebc75135b1cbe6e36b848a73662a3318":[2,0,0,1,0,22,10],
 "df/db0/powerups_8qc.html#af6eb40a51e45bc6e790aaee84dc7e486":[2,0,0,1,0,22,2],
-"df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a":[2,0,0,1,0,22,5],
-"df/db0/powerups_8qc_source.html":[2,0,0,1,0,22],
-"df/db3/mlrs_8qc.html":[2,0,1,14,0,24],
-"df/db3/mlrs_8qc_source.html":[2,0,1,14,0,24],
-"df/db7/dialog__hudpanel__infomessages_8qc.html":[2,0,5,4,54],
-"df/db7/dialog__hudpanel__infomessages_8qc.html#a304017651328a5ba234a6885af156c40":[2,0,5,4,54,0],
-"df/db7/dialog__hudpanel__infomessages_8qc_source.html":[2,0,5,4,54],
-"df/db8/common_2mutators_2mutator_2sandbox_2__mod_8qh.html":[2,0,1,9,0,27,1],
-"df/db8/common_2mutators_2mutator_2sandbox_2__mod_8qh_source.html":[2,0,1,9,0,27,1],
-"df/db9/multivibrator_8qc.html":[2,0,1,13,3,32],
-"df/db9/multivibrator_8qc_source.html":[2,0,1,13,3,32]
+"df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a":[2,0,0,1,0,22,5]
 };

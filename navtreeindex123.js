@@ -1,5 +1,15 @@
 var NAVTREEINDEX123 =
 {
+"de/d7a/classXonoticHUDScoreDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,190,28],
+"de/d7a/classXonoticHUDScoreDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,190,57],
+"de/d7a/classXonoticHUDScoreDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,190,34],
+"de/d7a/classXonoticHUDScoreDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,190,42],
+"de/d7a/classXonoticHUDScoreDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,190,64],
+"de/d7a/classXonoticHUDScoreDialog.html#a67d95732d49da439095483530aca8804":[1,0,190,53],
+"de/d7a/classXonoticHUDScoreDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,190,76],
+"de/d7a/classXonoticHUDScoreDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,190,18],
+"de/d7a/classXonoticHUDScoreDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,190,14],
+"de/d7a/classXonoticHUDScoreDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,190,66],
 "de/d7a/classXonoticHUDScoreDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,190,25],
 "de/d7a/classXonoticHUDScoreDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,190,89],
 "de/d7a/classXonoticHUDScoreDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,190,80],
@@ -239,15 +249,5 @@ var NAVTREEINDEX123 =
 "de/d9c/classTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,122,10],
 "de/da3/impulses_2all_8qc.html":[2,0,1,4,2],
 "de/da3/impulses_2all_8qc_source.html":[2,0,1,4,2],
-"de/da5/common_2physics_2movetypes_2__mod_8qh.html":[2,0,1,11,0,1],
-"de/da5/common_2physics_2movetypes_2__mod_8qh_source.html":[2,0,1,11,0,1],
-"de/dab/classObserver.html":[1,0,85],
-"de/dab/classObserver.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b":[1,0,85,17],
-"de/dab/classObserver.html#a19c43f80a38a332a6f694783df3c9835":[1,0,85,0],
-"de/dab/classObserver.html#a22032ccc0d6a0e1b5c8d152fa5d5258e":[1,0,85,20],
-"de/dab/classObserver.html#a245f8bb48c3369a423dd2ea0888b3425":[1,0,85,12],
-"de/dab/classObserver.html#a2578f01ea21860399662d52a97ad9ce2":[1,0,85,11],
-"de/dab/classObserver.html#a2dae84a754cf7b77999839bf5891ca42":[1,0,85,9],
-"de/dab/classObserver.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012":[1,0,85,16],
-"de/dab/classObserver.html#a348fa10d11efdf527c16c2c6e1a018f1":[1,0,85,5]
+"de/da5/common_2physics_2movetypes_2__mod_8qh.html":[2,0,1,11,0,1]
 };
