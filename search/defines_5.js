@@ -106,6 +106,7 @@ var searchData=
   ['ev_5fplayer_5fchangeteam',['EV_Player_ChangeTeam',['../d6/ddd/server_2mutators_2events_8qh.html#a1ef9f867f92d08e48569a19cdb961c0f',1,'events.qh']]],
   ['ev_5fplayerdamage_5fsplithealtharmor',['EV_PlayerDamage_SplitHealthArmor',['../d6/ddd/server_2mutators_2events_8qh.html#ae2a95050d7793afae56056b4b97a23aa',1,'events.qh']]],
   ['ev_5fplayerdamaged',['EV_PlayerDamaged',['../d6/ddd/server_2mutators_2events_8qh.html#ada0890cbaa7e3d082c4e3e300d42bde3',1,'events.qh']]],
+  ['ev_5fplayerdied',['EV_PlayerDied',['../d6/ddd/server_2mutators_2events_8qh.html#a75c13fa0a9134364e6127bbc6c826c8c',1,'events.qh']]],
   ['ev_5fplayerdies',['EV_PlayerDies',['../d6/ddd/server_2mutators_2events_8qh.html#a41503423dd2a1ef8ea4eb70e616c536c',1,'events.qh']]],
   ['ev_5fplayerjump',['EV_PlayerJump',['../d4/d95/common_2mutators_2events_8qh.html#aed928b5d4717ad38c6dfbd6c6d988d83',1,'events.qh']]],
   ['ev_5fplayerphysics',['EV_PlayerPhysics',['../d4/d95/common_2mutators_2events_8qh.html#a6946f25e5a0f0f19747e7073e762b56f',1,'events.qh']]],
