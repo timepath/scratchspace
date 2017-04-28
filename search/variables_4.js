@@ -156,5 +156,6 @@ var searchData=
   ['dtflag_5fno_5farmor',['DTFLAG_NO_ARMOR',['../d0/da4/damagetext_8qc.html#aedeaafd9a0789e627ee76ad8d2024f77',1,'damagetext.qc']]],
   ['dtflag_5fno_5fpotential',['DTFLAG_NO_POTENTIAL',['../d0/da4/damagetext_8qc.html#a2e90c0f954d43e41087594ed13ea661f',1,'damagetext.qc']]],
   ['dtflag_5fsameteam',['DTFLAG_SAMETEAM',['../d0/da4/damagetext_8qc.html#a5cbdfa4026668db1c952c285071ee64d',1,'damagetext.qc']]],
+  ['dual_5fweapons',['dual_weapons',['../d5/d26/server_2defs_8qh.html#a4316cf375fa977d00f3d69165b571327',1,'defs.qh']]],
   ['duration',['duration',['../d0/d5d/classAnimation.html#a66cc7333638f071b0401072ba95c55fd',1,'Animation']]]
 ];

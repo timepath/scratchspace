@@ -117,6 +117,7 @@ var server_2defs_8qh =
     [ "default_weapon_alpha", "d5/d26/server_2defs_8qh.html#a5789921c530581f963a977c7c9ae6a89", null ],
     [ "dmg", "d5/d26/server_2defs_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b", null ],
     [ "dmgtime", "d5/d26/server_2defs_8qh.html#a0a919d55d52dbf66dcb1fe03efe8f1a8", null ],
+    [ "dual_weapons", "d5/d26/server_2defs_8qh.html#a4316cf375fa977d00f3d69165b571327", null ],
     [ "fade_end", "d5/d26/server_2defs_8qh.html#a0ae1b54e0a7968da8ad5a9cdb72038df", null ],
     [ "fade_rate", "d5/d26/server_2defs_8qh.html#a5a08fa477287e8869e228d790a885d87", null ],
     [ "fade_start", "d5/d26/server_2defs_8qh.html#a01afd0d1a091e3feeaacacebb74b6433", null ],
