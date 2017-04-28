@@ -1,5 +1,7 @@
 var NAVTREEINDEX129 =
 {
+"df/d92/classXonoticWinnerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,252,1],
+"df/d92/classXonoticWinnerDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,252,12],
 "df/d92/classXonoticWinnerDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,252,75],
 "df/d92/classXonoticWinnerDialog.html#a455e7d027ecf57c638002faff2b30786":[1,0,252,82],
 "df/d92/classXonoticWinnerDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,252,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX129 =
 "df/db0/powerups_8qc.html#aa3617b17b0191b4d9454096aff09e1fe":[2,0,0,1,0,22,8],
 "df/db0/powerups_8qc.html#ab99c330670c0816cee4ac2f8039553b3":[2,0,0,1,0,22,3],
 "df/db0/powerups_8qc.html#ae1ed0d7a6f352c7ee3ad978429822c6f":[2,0,0,1,0,22,7],
-"df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af":[2,0,0,1,0,22,4],
-"df/db0/powerups_8qc.html#aebc75135b1cbe6e36b848a73662a3318":[2,0,0,1,0,22,10],
-"df/db0/powerups_8qc.html#af6eb40a51e45bc6e790aaee84dc7e486":[2,0,0,1,0,22,2]
+"df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af":[2,0,0,1,0,22,4]
 };

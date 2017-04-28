@@ -1,5 +1,7 @@
 var NAVTREEINDEX110 =
 {
+"dc/dda/classAmmo.html#aaca9d5c571d73c2274a3356ef2fcdc53":[1,0,0,8],
+"dc/dda/classAmmo.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,0,4],
 "dc/dda/classAmmo.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,0,11],
 "dc/de0/costs_8qc.html":[2,0,6,4,2],
 "dc/de0/costs_8qc.html#a06d2a473c8e47a4a9c565d013acfcd7b":[2,0,6,4,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX110 =
 "dc/def/vortex_8qc.html":[2,0,1,16,0,40],
 "dc/def/vortex_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,40,1],
 "dc/def/vortex_8qc.html#ad9ec0d37a2dafc0ca6030e77ef81f3c4":[2,0,1,16,0,40,2],
-"dc/def/vortex_8qc_source.html":[2,0,1,16,0,40],
-"dc/df0/sv__instagib_8qh.html":[2,0,1,9,0,11,5],
-"dc/df0/sv__instagib_8qh.html#a060ca69f38954f6c66d4c86044c4b63f":[2,0,1,9,0,11,5,0]
+"dc/def/vortex_8qc_source.html":[2,0,1,16,0,40]
 };
