@@ -86,7 +86,7 @@ var searchData=
   ['hud_5fcrosshair',['HUD_Crosshair',['../d6/dd3/view_8qc.html#a802dfb52366f7223086a1a95a4f08eeb',1,'view.qc']]],
   ['hud_5fcrosshair_5fvehicle',['HUD_Crosshair_Vehicle',['../d6/dd3/view_8qc.html#a44674039da1ad171f3a48979bbbd35f4',1,'view.qc']]],
   ['hud_5fdraw',['HUD_Draw',['../d6/dd3/view_8qc.html#a018a6576512f5f15b72f6a1a732d2af0',1,'view.qc']]],
-  ['hud_5fdynamic_5fframe',['Hud_Dynamic_Frame',['../d7/d15/hud_8qc.html#ad7ec85390e221721fcceeff66b7f663f',1,'hud.qc']]],
+  ['hud_5fdynamic_5fframe',['Hud_Dynamic_Frame',['../d7/d15/hud_8qc.html#ad7ec85390e221721fcceeff66b7f663f',1,'Hud_Dynamic_Frame():&#160;hud.qc'],['../d3/d05/hud_8qh.html#ad7ec85390e221721fcceeff66b7f663f',1,'Hud_Dynamic_Frame():&#160;hud.qc']]],
   ['hud_5fengineinfo',['HUD_EngineInfo',['../dd/d31/engineinfo_8qc.html#addd2220d49d11f3443e66dd9457a4a49',1,'engineinfo.qc']]],
   ['hud_5fget_5fnum_5fcolor',['HUD_Get_Num_Color',['../d7/d15/hud_8qc.html#a5d06b2c0927a58902e9277944eaec891',1,'HUD_Get_Num_Color(float hp, float maxvalue):&#160;hud.qc'],['../d3/d05/hud_8qh.html#a5d06b2c0927a58902e9277944eaec891',1,'HUD_Get_Num_Color(float hp, float maxvalue):&#160;hud.qc']]],
   ['hud_5fgetfontsize',['HUD_GetFontsize',['../dc/d98/client_2miscfunctions_8qc.html#a885df1dd2a0efd39301d3593b307b9be',1,'HUD_GetFontsize(string cvarname):&#160;miscfunctions.qc'],['../d8/db6/client_2miscfunctions_8qh.html#a885df1dd2a0efd39301d3593b307b9be',1,'HUD_GetFontsize(string cvarname):&#160;miscfunctions.qc']]],

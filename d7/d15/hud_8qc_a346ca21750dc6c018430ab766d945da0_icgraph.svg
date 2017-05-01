@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 606;
+var viewWidth = 504;
 var viewHeight = 28;
 var sectionId = 'dynsection-30';
 </script>
@@ -61,7 +61,7 @@ var sectionId = 'dynsection-30';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d7/d15/hud_8qc.html#ad7ec85390e221721fcceeff66b7f663f" target="_top" xlink:title="Hud_Dynamic_Frame">
+<g id="a_node2"><a xlink:href="../../d3/d05/hud_8qh.html#ad7ec85390e221721fcceeff66b7f663f" target="_top" xlink:title="Hud_Dynamic_Frame">
 <polygon fill="none" stroke="black" points="140,-0.5 140,-19.5 252,-19.5 252,-0.5 140,-0.5"/>
 <text text-anchor="middle" x="196" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Hud_Dynamic_Frame</text>
 </a>
@@ -74,42 +74,29 @@ var sectionId = 'dynsection-30';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d3/d05/hud_8qh.html#a8e30e71e308ccc423418bb41350e3e05" target="_top" xlink:title="HUD_Main">
-<polygon fill="none" stroke="black" points="288.5,-0.5 288.5,-19.5 353.5,-19.5 353.5,-0.5 288.5,-0.5"/>
-<text text-anchor="middle" x="321" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">HUD_Main</text>
+<g id="a_node3"><a xlink:href="../../d6/dd3/view_8qc.html#a018a6576512f5f15b72f6a1a732d2af0" target="_top" xlink:title="HUD_Draw">
+<polygon fill="none" stroke="black" points="288,-0.5 288,-19.5 356,-19.5 356,-0.5 288,-0.5"/>
+<text text-anchor="middle" x="322" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">HUD_Draw</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M262.241,-10C271.287,-10 280.225,-10 288.267,-10"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="262.024,-6.5001 252.024,-10 262.024,-13.5001 262.024,-6.5001"/>
+<path fill="none" stroke="midnightblue" d="M262.127,-10C271.001,-10 279.789,-10 287.763,-10"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="262.11,-6.5001 252.11,-10 262.11,-13.5001 262.11,-6.5001"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d6/dd3/view_8qc.html#a018a6576512f5f15b72f6a1a732d2af0" target="_top" xlink:title="HUD_Draw">
-<polygon fill="none" stroke="black" points="390,-0.5 390,-19.5 458,-19.5 458,-0.5 390,-0.5"/>
-<text text-anchor="middle" x="424" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">HUD_Draw</text>
+<g id="a_node4"><a xlink:href="../../d6/dd3/view_8qc.html#a7b9e2c12c6a461c93afb197bd1a93c8f" target="_top" xlink:title="CSQC_UpdateView">
+<polygon fill="none" stroke="black" points="392,-0.5 392,-19.5 496,-19.5 496,-0.5 392,-0.5"/>
+<text text-anchor="middle" x="444" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">CSQC_UpdateView</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M363.922,-10C372.514,-10 381.447,-10 389.687,-10"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="363.68,-6.5001 353.68,-10 363.68,-13.5001 363.68,-6.5001"/>
-</g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d6/dd3/view_8qc.html#a7b9e2c12c6a461c93afb197bd1a93c8f" target="_top" xlink:title="CSQC_UpdateView">
-<polygon fill="none" stroke="black" points="494,-0.5 494,-19.5 598,-19.5 598,-0.5 494,-0.5"/>
-<text text-anchor="middle" x="546" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">CSQC_UpdateView</text>
-</a>
-</g>
-</g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M468.218,-10C476.433,-10 485.104,-10 493.545,-10"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="468.108,-6.5001 458.108,-10 468.108,-13.5001 468.108,-6.5001"/>
+<path fill="none" stroke="midnightblue" d="M366.218,-10C374.433,-10 383.104,-10 391.545,-10"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="366.108,-6.5001 356.108,-10 366.108,-13.5001 366.108,-6.5001"/>
 </g>
 </g>
 </svg>

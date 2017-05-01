@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"db/d3c/classArc.html#ab9d7b14784b0a00aecaf78277f7fcd01":[1,0,3,33],
 "db/d3c/classArc.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,3,10],
 "db/d3c/classArc.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,3,36],
 "db/d3c/classArc.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,3,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "db/d5a/classXonoticHUDPowerupsDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,185,35],
 "db/d5a/classXonoticHUDPowerupsDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,185,36],
 "db/d5a/classXonoticHUDPowerupsDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,185,5],
-"db/d5a/classXonoticHUDPowerupsDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,185,90],
-"db/d5a/classXonoticHUDPowerupsDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,185,79]
+"db/d5a/classXonoticHUDPowerupsDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,185,90]
 };

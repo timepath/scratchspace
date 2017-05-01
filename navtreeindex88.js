@@ -1,5 +1,6 @@
 var NAVTREEINDEX88 =
 {
+"da/d40/common_2mutators_2mutator_2weaponarena__random_2__mod_8qh_source.html":[2,0,1,9,0,35,1],
 "da/d41/dialog__singleplayer_8qc.html":[2,0,5,4,156],
 "da/d41/dialog__singleplayer_8qc.html#a688fce87e81db4573d97935bb9e2cd8c":[2,0,5,4,156,0],
 "da/d41/dialog__singleplayer_8qc.html#a845e97e974f104e8b4edcb06a3e8aa73":[2,0,5,4,156,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "da/d6b/sv__superspec_8qc.html#abe8c42cdb38cecbf497b668d5f73fe52":[2,0,1,9,0,29,2,17],
 "da/d6b/sv__superspec_8qc.html#ac2a8328e8393e2114e431c29d4899c8d":[2,0,1,9,0,29,2,3],
 "da/d6b/sv__superspec_8qc.html#acc3c70af8e816b0da2e3429c1a26d5de":[2,0,1,9,0,29,2,13],
-"da/d6b/sv__superspec_8qc.html#acdc55d2dbdc5c713a102c45df0ec2234":[2,0,1,9,0,29,2,5],
-"da/d6b/sv__superspec_8qc.html#ade6c494770a2c7e89ef2b7a7665e8d0a":[2,0,1,9,0,29,2,2]
+"da/d6b/sv__superspec_8qc.html#acdc55d2dbdc5c713a102c45df0ec2234":[2,0,1,9,0,29,2,5]
 };

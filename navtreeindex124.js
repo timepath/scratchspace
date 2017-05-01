@@ -1,5 +1,6 @@
 var NAVTREEINDEX124 =
 {
+"de/d9c/classTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,122,10],
 "de/da3/impulses_2all_8qc.html":[2,0,1,4,2],
 "de/da3/impulses_2all_8qc_source.html":[2,0,1,4,2],
 "de/da5/common_2physics_2movetypes_2__mod_8qh.html":[2,0,1,11,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX124 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,181,81],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,181,80],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,181,52],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,181,45],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,181,67]
+"de/de7/classXonoticHUDItemsTimeDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,181,45]
 };
