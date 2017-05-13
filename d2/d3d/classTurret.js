@@ -13,8 +13,8 @@ var classTurret =
     [ "tr_setup", "d2/d3d/classTurret.html#a9cbd0273110d224aa83170c43e29f691", null ],
     [ "tr_think", "d2/d3d/classTurret.html#ac0a380f4b08bad88d17a175d4f648795", null ],
     [ "m_id", "d2/d3d/classTurret.html#a3144102787442a58055180121b5e9536", null ],
-    [ "maxs", "d2/d3d/classTurret.html#a182c3d4b3f50d44a04c978cc9289cc9c", null ],
-    [ "mins", "d2/d3d/classTurret.html#a160dd5b5ebb48c40a89a3b60bafff588", null ],
+    [ "m_maxs", "d2/d3d/classTurret.html#a3b2dc37f35e039e9904334954cfa1938", null ],
+    [ "m_mins", "d2/d3d/classTurret.html#ab9de4e0b128923ea363c5888025a6d5f", null ],
     [ "spawnflags", "d2/d3d/classTurret.html#aceaee93017b467c2394cf93126677336", null ],
     [ "turret_name", "d2/d3d/classTurret.html#add60724ec0da04ffbd4bf60a23f64ec7", null ]
 ];
