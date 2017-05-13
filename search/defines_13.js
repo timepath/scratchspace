@@ -45,7 +45,7 @@ var searchData=
   ['slist_5ffields',['SLIST_FIELDS',['../dd/d7a/serverlist_8qh.html#af7a5e53d63ef6d768db69490a8ad541a',1,'serverlist.qh']]],
   ['snd',['SND',['../df/dc2/sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d',1,'all.qh']]],
   ['sort_5fswap',['SORT_SWAP',['../dd/d50/sortlist_8qh.html#a91dfbabd57c423db3f67bce33f5898af',1,'sortlist.qh']]],
-  ['sound',['SOUND',['../df/dc2/sounds_2all_8qh.html#ae03a43610e8d839002569e42781aec08',1,'SOUND():&#160;all.qh'],['../d0/df5/sound_8qh.html#aeb598ce864f72a1d490d550e1a10c32a',1,'sound():&#160;sound.qh']]],
+  ['sound',['sound',['../d0/df5/sound_8qh.html#aeb598ce864f72a1d490d550e1a10c32a',1,'sound():&#160;sound.qh'],['../df/dc2/sounds_2all_8qh.html#ae03a43610e8d839002569e42781aec08',1,'SOUND():&#160;all.qh']]],
   ['sound8',['sound8',['../d0/df5/sound_8qh.html#abf2bac2315ef900096b8a098b1abd15f',1,'sound.qh']]],
   ['sound_5ffixpath',['Sound_fixpath',['../d0/df5/sound_8qh.html#a2e54c7df70c48267e1b7e0568776ba0b',1,'sound.qh']]],
   ['sounds_5ffrom',['Sounds_from',['../df/dc2/sounds_2all_8qh.html#afcb37e681cce76b7bca64122718de10f',1,'all.qh']]],
@@ -121,6 +121,10 @@ var searchData=
   ['succeed',['SUCCEED',['../d4/d5b/test_8qh.html#a75adcdf89f69b0b615e395daafc315af',1,'test.qh']]],
   ['super',['SUPER',['../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f',1,'oo.qh']]],
   ['sv',['SV',['../dd/dee/functional_8qh.html#a76c9c74237795e07741b978e4338b77c',1,'functional.qh']]],
+  ['sv_5fdamagetext_5fall',['SV_DAMAGETEXT_ALL',['../d9/d94/sv__damagetext_8qc.html#a90901bf9f382a761954f686632b4374e',1,'sv_damagetext.qc']]],
+  ['sv_5fdamagetext_5fdisabled',['SV_DAMAGETEXT_DISABLED',['../d9/d94/sv__damagetext_8qc.html#a00b979fe5002a31526e2461a6d399b40',1,'sv_damagetext.qc']]],
+  ['sv_5fdamagetext_5fplayers',['SV_DAMAGETEXT_PLAYERS',['../d9/d94/sv__damagetext_8qc.html#a5f361ff146307d59b72c3eb37fe91654',1,'sv_damagetext.qc']]],
+  ['sv_5fdamagetext_5fspectators_5fonly',['SV_DAMAGETEXT_SPECTATORS_ONLY',['../d9/d94/sv__damagetext_8qc.html#ae350fc107ea19e6a54344c87554bad9e',1,'sv_damagetext.qc']]],
   ['system',['SYSTEM',['../d5/d14/lib_8qh.html#a6e24df793b7133a1c8b5b008e70cea18',1,'lib.qh']]],
   ['system_5fupdate',['SYSTEM_UPDATE',['../d5/d14/lib_8qh.html#a487497b106c0a92ab24fdd92fde403f5',1,'lib.qh']]]
 ];

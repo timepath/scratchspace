@@ -1339,7 +1339,7 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div class="line"><a name="l01232"></a><span class="lineno"> 1232</span>&#160;    keys = <a class="code" href="../../d5/df2/common_2util_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a>(<a class="code" href="../../d9/d08/client_2defs_8qh.html#a532ed2854fa3a567a32c62f7abfd7c55">binddb</a>, command);</div>
 <div class="line"><a name="l01233"></a><span class="lineno"> 1233</span>&#160;    <span class="keywordflow">if</span> (keys == <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l01234"></a><span class="lineno"> 1234</span>&#160;    {</div>
-<div class="line"><a name="l01235"></a><span class="lineno"> 1235</span>&#160;        <span class="keywordtype">bool</span> joy_detected = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;joy_detected&quot;</span>);</div>
+<div class="line"><a name="l01235"></a><span class="lineno"> 1235</span>&#160;        <span class="keywordtype">bool</span> joy_active = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;joy_active&quot;</span>);</div>
 <div class="line"><a name="l01236"></a><span class="lineno"> 1236</span>&#160;        n = <a class="code" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize</a>(findkeysforcommand(command, 0)); <span class="comment">// uses &#39;...&#39; strings</span></div>
 <div class="line"><a name="l01237"></a><span class="lineno"> 1237</span>&#160;        <span class="keywordflow">for</span>(j = 0; j &lt; n; ++j)</div>
 <div class="line"><a name="l01238"></a><span class="lineno"> 1238</span>&#160;        {</div>
@@ -1347,7 +1347,7 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div class="line"><a name="l01240"></a><span class="lineno"> 1240</span>&#160;            <span class="keywordflow">if</span>(k != -1)</div>
 <div class="line"><a name="l01241"></a><span class="lineno"> 1241</span>&#160;            {</div>
 <div class="line"><a name="l01242"></a><span class="lineno"> 1242</span>&#160;                <span class="keywordtype">string</span> key = <a class="code" href="../../d8/de2/menudefs_8qc.html#a6430688f24d17bc9b9c3eea2cc586bc3">keynumtostring</a>(k);</div>
-<div class="line"><a name="l01243"></a><span class="lineno"> 1243</span>&#160;                <span class="keywordflow">if</span>(!joy_detected &amp;&amp; <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(key, 0, 3) == <span class="stringliteral">&quot;JOY&quot;</span>)</div>
+<div class="line"><a name="l01243"></a><span class="lineno"> 1243</span>&#160;                <span class="keywordflow">if</span>(!joy_active &amp;&amp; <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(key, 0, 3) == <span class="stringliteral">&quot;JOY&quot;</span>)</div>
 <div class="line"><a name="l01244"></a><span class="lineno"> 1244</span>&#160;                    <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l01245"></a><span class="lineno"> 1245</span>&#160;</div>
 <div class="line"><a name="l01246"></a><span class="lineno"> 1246</span>&#160;                <span class="keywordflow">if</span> (keys == <span class="stringliteral">&quot;&quot;</span>)</div>
@@ -1698,7 +1698,7 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../df/d30/client_2main_8qc.html">main.qc</a></li>
-    <li class="footer">Generated on Fri May 5 2017 05:41:17 for Xonotic by
+    <li class="footer">Generated on Sat May 13 2017 04:00:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

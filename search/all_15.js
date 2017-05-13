@@ -1,6 +1,8 @@
 var searchData=
 [
   ['u8_5fstrsize',['u8_strsize',['../d5/df2/common_2util_8qh.html#af483ac3b8f9b304d2a1aebdfce6e373f',1,'u8_strsize(string s):&#160;string.qh'],['../d2/db4/string_8qh.html#adbc4edd2149590de1c83379535f699fd',1,'u8_strsize(string s):&#160;string.qh']]],
+  ['ui_5fdamagetext_2eqc',['ui_damagetext.qc',['../d0/da2/ui__damagetext_8qc.html',1,'']]],
+  ['ui_5fdamagetext_2eqh',['ui_damagetext.qh',['../d1/d68/ui__damagetext_8qh.html',1,'']]],
   ['uid2name',['uid2name',['../dc/dc6/server_2miscfunctions_8qc.html#a943d9da424f168efb8d407b4de9833a2',1,'uid2name(string myuid):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a943d9da424f168efb8d407b4de9833a2',1,'uid2name(string myuid):&#160;miscfunctions.qc']]],
   ['uid2name_5fdialog',['uid2name_dialog',['../d9/d08/client_2defs_8qh.html#aefcc49bccd6f180d68d17fd01a7fed66',1,'defs.qh']]],
   ['unaccounted_5fdamage',['unaccounted_damage',['../d6/dd3/view_8qc.html#a1de1360295996dacb39d141955580aac',1,'view.qc']]],
@@ -84,8 +86,8 @@ var searchData=
   ['usekeypressed',['usekeypressed',['../df/dd7/server_2client_8qc.html#a4a953fc8590535e314187086ee49e2b4',1,'client.qc']]],
   ['using',['USING',['../d4/dfb/lib_2__all_8inc.html#abe8eb52fc5e52351ecda2a477108abed',1,'_all.inc']]],
   ['util_2eqc',['util.qc',['../df/d9b/menu_2xonotic_2util_8qc.html',1,'']]],
-  ['util_2eqc',['util.qc',['../d2/de5/common_2turrets_2util_8qc.html',1,'']]],
   ['util_2eqc',['util.qc',['../da/d44/common_2util_8qc.html',1,'']]],
+  ['util_2eqc',['util.qc',['../d2/de5/common_2turrets_2util_8qc.html',1,'']]],
   ['util_2eqh',['util.qh',['../d6/d60/common_2turrets_2util_8qh.html',1,'']]],
   ['util_2eqh',['util.qh',['../df/d97/menu_2xonotic_2util_8qh.html',1,'']]],
   ['util_2eqh',['util.qh',['../d5/df2/common_2util_8qh.html',1,'']]],

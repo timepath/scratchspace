@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('d2/d0a/common_2physics_2player_8qc_sou
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">float</span> Physics_ClientOption(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <span class="keywordtype">string</span> option, <span class="keywordtype">float</span> defaultval)</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">if</span>(Physics_Valid(this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5b37f6d6590607d860c95fe8e8d2825a">cvar_cl_physics</a>))</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(<span class="keyword">this</span>) &amp;&amp; Physics_Valid(this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5b37f6d6590607d860c95fe8e8d2825a">cvar_cl_physics</a>))</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordtype">string</span> s = sprintf(<span class="stringliteral">&quot;g_physics_%s_%s&quot;</span>, this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5b37f6d6590607d860c95fe8e8d2825a">cvar_cl_physics</a>, option);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">if</span>(cvar_type(s) &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a72c17a8585d13d6ca89c0dd883648a91">CVAR_TYPEFLAG_EXISTS</a>)</div>
@@ -1134,7 +1134,7 @@ $(document).ready(function(){initNavTree('d2/d0a/common_2physics_2player_8qc_sou
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_33efe8922df16737d16f0d292d9896fe.html">physics</a></li><li class="navelem"><a class="el" href="../../d2/d0a/common_2physics_2player_8qc.html">player.qc</a></li>
-    <li class="footer">Generated on Fri May 5 2017 05:41:18 for Xonotic by
+    <li class="footer">Generated on Sat May 13 2017 04:00:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

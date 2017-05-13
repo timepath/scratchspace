@@ -27,6 +27,7 @@ var gamemode__cts_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d5/d69/gamemode__cts_8qc.html#afb08ceca30d90cb07ae055619990a79c", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d69/gamemode__cts_8qc.html#ab9a5853e9121676bedc993443b273e93", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d69/gamemode__cts_8qc.html#a8e14ff5334a5a3ba6437b2bc13464d1d", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d5/d69/gamemode__cts_8qc.html#adedf8e38a437bb8382dc3cd0b17cb6e4", null ],
     [ "autocvar_g_cts_finish_kill_delay", "d5/d69/gamemode__cts_8qc.html#af5dfc6ea461bc4a16a26b29235a3ace8", null ],
     [ "autocvar_g_cts_selfdamage", "d5/d69/gamemode__cts_8qc.html#a1f85b4c7dcb2d882737b98aa7f2c6e24", null ],
     [ "race_checkpoint", "d5/d69/gamemode__cts_8qc.html#a67234b7e3097a12ec7d56566276b1295", null ]

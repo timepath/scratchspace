@@ -150,12 +150,12 @@ var searchData=
   ['dropped_5forigin',['dropped_origin',['../dc/d73/server_2miscfunctions_8qh.html#a683f8853e59167cf514b2f6626748888',1,'miscfunctions.qh']]],
   ['dt_5ffirst',['DT_FIRST',['../d9/d4f/deathtypes_2all_8qh.html#a5e0317d3d6616fc59446bd8400a011cd',1,'all.qh']]],
   ['dtagname',['dtagname',['../dd/daa/g__lights_8qc.html#a93022eb264e220dee4abefd35bce904a',1,'g_lights.qc']]],
-  ['dtflag_5fbig_5farmor',['DTFLAG_BIG_ARMOR',['../d0/da4/damagetext_8qc.html#a42661999bf9556e7348184efca32d071',1,'damagetext.qc']]],
-  ['dtflag_5fbig_5fhealth',['DTFLAG_BIG_HEALTH',['../d0/da4/damagetext_8qc.html#a1d6320254ca3dcd6432da8e378b3d6a1',1,'damagetext.qc']]],
-  ['dtflag_5fbig_5fpotential',['DTFLAG_BIG_POTENTIAL',['../d0/da4/damagetext_8qc.html#acd24d0449fc4677fac0addf4a0d5e9e3',1,'damagetext.qc']]],
-  ['dtflag_5fno_5farmor',['DTFLAG_NO_ARMOR',['../d0/da4/damagetext_8qc.html#aedeaafd9a0789e627ee76ad8d2024f77',1,'damagetext.qc']]],
-  ['dtflag_5fno_5fpotential',['DTFLAG_NO_POTENTIAL',['../d0/da4/damagetext_8qc.html#a2e90c0f954d43e41087594ed13ea661f',1,'damagetext.qc']]],
-  ['dtflag_5fsameteam',['DTFLAG_SAMETEAM',['../d0/da4/damagetext_8qc.html#a5cbdfa4026668db1c952c285071ee64d',1,'damagetext.qc']]],
+  ['dtflag_5fbig_5farmor',['DTFLAG_BIG_ARMOR',['../dd/d79/damagetext_8qh.html#a42661999bf9556e7348184efca32d071',1,'damagetext.qh']]],
+  ['dtflag_5fbig_5fhealth',['DTFLAG_BIG_HEALTH',['../dd/d79/damagetext_8qh.html#a1d6320254ca3dcd6432da8e378b3d6a1',1,'damagetext.qh']]],
+  ['dtflag_5fbig_5fpotential',['DTFLAG_BIG_POTENTIAL',['../dd/d79/damagetext_8qh.html#acd24d0449fc4677fac0addf4a0d5e9e3',1,'damagetext.qh']]],
+  ['dtflag_5fno_5farmor',['DTFLAG_NO_ARMOR',['../dd/d79/damagetext_8qh.html#aedeaafd9a0789e627ee76ad8d2024f77',1,'damagetext.qh']]],
+  ['dtflag_5fno_5fpotential',['DTFLAG_NO_POTENTIAL',['../dd/d79/damagetext_8qh.html#a2e90c0f954d43e41087594ed13ea661f',1,'damagetext.qh']]],
+  ['dtflag_5fsameteam',['DTFLAG_SAMETEAM',['../dd/d79/damagetext_8qh.html#a5cbdfa4026668db1c952c285071ee64d',1,'damagetext.qh']]],
   ['dual_5fweapons',['dual_weapons',['../d5/d26/server_2defs_8qh.html#a4316cf375fa977d00f3d69165b571327',1,'defs.qh']]],
   ['duration',['duration',['../d0/d5d/classAnimation.html#a66cc7333638f071b0401072ba95c55fd',1,'Animation']]]
 ];

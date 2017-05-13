@@ -277,8 +277,6 @@ var searchData=
   ['stat_5fhealth',['STAT_HEALTH',['../d4/d0c/csprogsdefs_8qc.html#a7e3818d536a673083c06074d427b49b3',1,'csprogsdefs.qc']]],
   ['stat_5fitems',['STAT_ITEMS',['../d4/d0c/csprogsdefs_8qc.html#ac24732c8d4fd64c52c8b53db83ed9c17',1,'csprogsdefs.qc']]],
   ['stat_5fmonsters',['STAT_MONSTERS',['../d4/d0c/csprogsdefs_8qc.html#a6cb8951dea8851db0585ba2abc9892d6',1,'csprogsdefs.qc']]],
-  ['stat_5fmonsters_5fkilled',['stat_monsters_killed',['../d8/dc1/sv__monsters_8qh.html#a922ebe70b80652f41a2fd75cb614da6d',1,'sv_monsters.qh']]],
-  ['stat_5fmonsters_5ftotal',['stat_monsters_total',['../d8/dc1/sv__monsters_8qh.html#a38854a32ddd450e61084607558d71d60',1,'sv_monsters.qh']]],
   ['stat_5fmovevars_5fgravity',['STAT_MOVEVARS_GRAVITY',['../d4/d0c/csprogsdefs_8qc.html#a5ebbb86ac8d7a9ff51a9c5bcec14ffdf',1,'csprogsdefs.qc']]],
   ['stat_5fmovevars_5fticrate',['STAT_MOVEVARS_TICRATE',['../d4/d0c/csprogsdefs_8qc.html#a16f978abb8c72d6d44f36e5d3f9c2153',1,'csprogsdefs.qc']]],
   ['stat_5fmovevars_5ftimescale',['STAT_MOVEVARS_TIMESCALE',['../d4/d0c/csprogsdefs_8qc.html#a8965d422a8df393e0f5dc5e099b73d10',1,'csprogsdefs.qc']]],

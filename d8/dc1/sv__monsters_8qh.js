@@ -60,8 +60,6 @@ var sv__monsters_8qh =
     [ "oldtarget2", "d8/dc1/sv__monsters_8qh.html#ad0709bca80c35f0cb1ecd6e07d68d46a", null ],
     [ "spawn_time", "d8/dc1/sv__monsters_8qh.html#a4a9e1ed1d40fd6a7405341d605ed13f2", null ],
     [ "speed2", "d8/dc1/sv__monsters_8qh.html#aabd1fb8d9461bf3cd6c460f238e24171", null ],
-    [ "stat_monsters_killed", "d8/dc1/sv__monsters_8qh.html#a922ebe70b80652f41a2fd75cb614da6d", null ],
-    [ "stat_monsters_total", "d8/dc1/sv__monsters_8qh.html#a38854a32ddd450e61084607558d71d60", null ],
     [ "stopspeed", "d8/dc1/sv__monsters_8qh.html#a68a303ee15a5c5a5aead172c1753a14f", null ],
     [ "totalspawned", "d8/dc1/sv__monsters_8qh.html#a1f414c0969b6c1295fe5532e26907520", null ],
     [ "wander_delay", "d8/dc1/sv__monsters_8qh.html#a3cc6c5ace47e92be4a08f9467d7fbdd7", null ],

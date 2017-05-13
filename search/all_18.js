@@ -108,6 +108,7 @@ var searchData=
   ['xonoticcvarsdialog',['XonoticCvarsDialog',['../dc/df7/classXonoticCvarsDialog.html',1,'']]],
   ['xonoticcvarsdialog_5ffill',['XonoticCvarsDialog_fill',['../d3/d45/dialog__settings__misc__cvars_8qc.html#a6c94b7330c3e7e6f67707875b1e3297c',1,'dialog_settings_misc_cvars.qc']]],
   ['xonoticcvarsdialog_5fshownotify',['XonoticCvarsDialog_showNotify',['../d3/d45/dialog__settings__misc__cvars_8qc.html#a8aa8d70f55cad2a44f1d58fa76b03768',1,'dialog_settings_misc_cvars.qc']]],
+  ['xonoticdamagetextsettings',['XonoticDamageTextSettings',['../d8/d8a/classXonoticDamageTextSettings.html',1,'XonoticDamageTextSettings'],['../d8/d8a/classXonoticDamageTextSettings.html#afc7a49d9ccaa4394cb06ccf2185b78d6',1,'XonoticDamageTextSettings::XonoticDamageTextSettings()']]],
   ['xonoticdecibelsslider',['XonoticDecibelsSlider',['../da/d2a/classXonoticDecibelsSlider.html',1,'']]],
   ['xonoticdecibelsslider_5floadcvars',['XonoticDecibelsSlider_loadCvars',['../d8/db3/slider__decibels_8qc.html#af562fb88dea6db01a4f82b7ae8b6e75f',1,'slider_decibels.qc']]],
   ['xonoticdecibelsslider_5fsavecvars',['XonoticDecibelsSlider_saveCvars',['../d8/db3/slider__decibels_8qc.html#a41de33f3e9ba6abe242ca82c83f5f014',1,'slider_decibels.qc']]],

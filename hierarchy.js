@@ -17,6 +17,7 @@ var hierarchy =
       ] ],
       [ "ClientState", "d6/d92/classClientState.html", null ],
       [ "Command", "d9/d71/classCommand.html", null ],
+      [ "DamageText", "de/d0c/classDamageText.html", null ],
       [ "DataSource", "de/d82/classDataSource.html", [
         [ "SettingSource", "d1/dd1/classSettingSource.html", null ],
         [ "StringSource", "d7/d66/classStringSource.html", [
@@ -61,6 +62,7 @@ var hierarchy =
               [ "Tab", "de/d9c/classTab.html", [
                 [ "XonoticTab", "d3/dce/classXonoticTab.html", [
                   [ "XonoticAudioSettingsTab", "da/dc1/classXonoticAudioSettingsTab.html", null ],
+                  [ "XonoticDamageTextSettings", "d8/d8a/classXonoticDamageTextSettings.html", null ],
                   [ "XonoticDemoBrowserTab", "d4/da3/classXonoticDemoBrowserTab.html", null ],
                   [ "XonoticEffectsSettingsTab", "d5/d73/classXonoticEffectsSettingsTab.html", null ],
                   [ "XonoticGameCrosshairSettingsTab", "d6/d78/classXonoticGameCrosshairSettingsTab.html", null ],

@@ -18,6 +18,7 @@ var searchData=
   ['xonoticcrosshairpreview',['XonoticCrosshairPreview',['../de/d3a/classXonoticCrosshairPreview.html',1,'']]],
   ['xonoticcvarlist',['XonoticCvarList',['../db/ddb/classXonoticCvarList.html',1,'']]],
   ['xonoticcvarsdialog',['XonoticCvarsDialog',['../dc/df7/classXonoticCvarsDialog.html',1,'']]],
+  ['xonoticdamagetextsettings',['XonoticDamageTextSettings',['../d8/d8a/classXonoticDamageTextSettings.html',1,'']]],
   ['xonoticdecibelsslider',['XonoticDecibelsSlider',['../da/d2a/classXonoticDecibelsSlider.html',1,'']]],
   ['xonoticdemobrowsertab',['XonoticDemoBrowserTab',['../d4/da3/classXonoticDemoBrowserTab.html',1,'']]],
   ['xonoticdemolist',['XonoticDemoList',['../d7/da4/classXonoticDemoList.html',1,'']]],
