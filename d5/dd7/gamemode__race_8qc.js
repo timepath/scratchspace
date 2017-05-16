@@ -2,6 +2,7 @@ var gamemode__race_8qc =
 [
     [ "autocvar_g_race_laps_limit", "d5/dd7/gamemode__race_8qc.html#a5e1cad53c7dcf45d9a6bb29274699f72", null ],
     [ "havocbot_role_race", "d5/dd7/gamemode__race_8qc.html#a688e5c51f827d856b512d70d7354c545", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d5/dd7/gamemode__race_8qc.html#a4495f462188aa040af14bbd05f4c0404", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/dd7/gamemode__race_8qc.html#a628848864479dbc529cec63337d13c2a", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/dd7/gamemode__race_8qc.html#a509e249e191f5cacce8e132341a38756", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/dd7/gamemode__race_8qc.html#ad681cb8c02759a59d5b11cba5a670ec6", null ],
