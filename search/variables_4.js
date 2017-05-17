@@ -1,16 +1,13 @@
 var searchData=
 [
   ['damage_5faim',['DAMAGE_AIM',['../d6/d11/progsdefs_8qc.html#aa9ea10d4f0d0ed19674dae09c99d635b',1,'progsdefs.qc']]],
-  ['damage_5fattacker',['damage_attacker',['../dd/de4/g__damage_8qh.html#ae1c09e012c6db95a17add951eb4d42e2',1,'g_damage.qh']]],
   ['damage_5fblurpostprocess',['damage_blurpostprocess',['../d6/dd3/view_8qc.html#a7e6d87a7998ec09b1647c49f62bc3a95',1,'view.qc']]],
   ['damage_5fdealt',['damage_dealt',['../d5/d26/server_2defs_8qh.html#af559423f7d435c0c60ca2be3353db686',1,'defs.qh']]],
   ['damage_5fdealt_5ftotal',['damage_dealt_total',['../d5/d26/server_2defs_8qh.html#a5bf7e1dae707c70db70e9949b87e77cd',1,'defs.qh']]],
   ['damage_5fflags',['damage_flags',['../d9/d67/turret_8qh.html#aba6e4da100ed92cc4a7a40c56871af49',1,'turret.qh']]],
   ['damage_5fgooddamage',['damage_gooddamage',['../dd/de4/g__damage_8qh.html#a46183c1db5b7aabb5201a6541e52370f',1,'g_damage.qh']]],
   ['damage_5fgoodhits',['damage_goodhits',['../dd/de4/g__damage_8qh.html#a40f1d38a57f0bb630ca878656709e72c',1,'g_damage.qh']]],
-  ['damage_5finflictor',['damage_inflictor',['../dd/de4/g__damage_8qh.html#a74daa10bad1c56e1437c1e00c20f98df',1,'g_damage.qh']]],
   ['damage_5fno',['DAMAGE_NO',['../d6/d11/progsdefs_8qc.html#ab48a6b5f493fae9734e3eaf646ec2999',1,'progsdefs.qc']]],
-  ['damage_5ftarg',['damage_targ',['../dd/de4/g__damage_8qh.html#a35bda3687a4ac3975ffa2bc088fc0cf1',1,'g_damage.qh']]],
   ['damage_5fyes',['DAMAGE_YES',['../d6/d11/progsdefs_8qc.html#a34941b35fd7f0059f923c9805739c9a5',1,'progsdefs.qc']]],
   ['damagedbycontents',['damagedbycontents',['../d5/d26/server_2defs_8qh.html#a419ab93e1e949922dba4a85c64a2f131',1,'defs.qh']]],
   ['damagedbytriggers',['damagedbytriggers',['../d5/d26/server_2defs_8qh.html#a564b23de0593448931b38b33db73634d',1,'defs.qh']]],
