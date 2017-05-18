@@ -1,6 +1,5 @@
 var NAVTREEINDEX82 =
 {
-"d9/d50/server_2mutators_2mutator_2__mod_8qh.html":[2,0,6,3,0,1],
 "d9/d50/server_2mutators_2mutator_2__mod_8qh_source.html":[2,0,6,3,0,1],
 "d9/d51/intrusivelist_8qh.html":[2,0,4,24],
 "d9/d51/intrusivelist_8qh.html#a03533687dbcda21ca9480b3e4b13fb34":[2,0,4,24,12],
@@ -249,5 +248,6 @@ var NAVTREEINDEX82 =
 "d9/d64/common_2mutators_2mutator_2bloodloss_2__mod_8qh_source.html":[2,0,1,9,0,0,1],
 "d9/d65/common_2mutators_2mutator_2new__toys_2__mod_8qh.html":[2,0,1,9,0,18,1],
 "d9/d65/common_2mutators_2mutator_2new__toys_2__mod_8qh_source.html":[2,0,1,9,0,18,1],
-"d9/d67/cl__damagetext_8qh.html":[2,0,1,9,0,6,3]
+"d9/d67/cl__damagetext_8qh.html":[2,0,1,9,0,6,3],
+"d9/d67/cl__damagetext_8qh_source.html":[2,0,1,9,0,6,3]
 };

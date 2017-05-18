@@ -1,6 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"df/d97/menu_2xonotic_2util_8qh.html#afdb946f2d7145df9249e3edb4f95ec91":[2,0,5,4,229,32],
 "df/d97/menu_2xonotic_2util_8qh.html#afe98f5a378a0f97c190687977beb0c1d":[2,0,5,4,229,26],
 "df/d97/menu_2xonotic_2util_8qh_source.html":[2,0,5,4,229],
 "df/d9b/menu_2xonotic_2util_8qc.html":[2,0,5,4,228],
@@ -249,5 +248,6 @@ var NAVTREEINDEX130 =
 "df/dc2/sounds_2all_8qh_source.html":[2,0,1,12,4],
 "df/dc3/common_2triggers_2trigger_2impulse_8qc.html":[2,0,1,13,3,18],
 "df/dc3/common_2triggers_2trigger_2impulse_8qc.html#a774d6096af92988390354cb8d9b0f428":[2,0,1,13,3,18,2],
-"df/dc3/common_2triggers_2trigger_2impulse_8qc.html#a873c8e624175533b64830ab7bffea92b":[2,0,1,13,3,18,0]
+"df/dc3/common_2triggers_2trigger_2impulse_8qc.html#a873c8e624175533b64830ab7bffea92b":[2,0,1,13,3,18,0],
+"df/dc3/common_2triggers_2trigger_2impulse_8qc.html#a98fefedc5aee88bee4b1e0574f1fa8bf":[2,0,1,13,3,18,1]
 };
