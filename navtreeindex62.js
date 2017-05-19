@@ -1,6 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"d7/d50/classXonoticPlayerList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,216,53],
 "d7/d50/classXonoticPlayerList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,216,27],
 "d7/d50/classXonoticPlayerList.html#a731ef2d8cdb302ddcd41f3ed9e6a2be0":[1,0,216,36],
 "d7/d50/classXonoticPlayerList.html#a764e355b65af202e87289c596432c780":[1,0,216,58],
@@ -249,5 +248,6 @@ var NAVTREEINDEX62 =
 "d7/d71/lib_2warpzone_2common_8qh.html#aeddccd5915d0704cb965477446707db5":[2,0,4,2,7,4],
 "d7/d71/lib_2warpzone_2common_8qh.html#af0397116b67165f5b079cce91c75476f":[2,0,4,2,7,11],
 "d7/d71/lib_2warpzone_2common_8qh.html#af237b225c4ce5816d3d14362818addab":[2,0,4,2,7,5],
-"d7/d71/lib_2warpzone_2common_8qh.html#af4260806daa09974d5f5c300ac5f5670":[2,0,4,2,7,27]
+"d7/d71/lib_2warpzone_2common_8qh.html#af4260806daa09974d5f5c300ac5f5670":[2,0,4,2,7,27],
+"d7/d71/lib_2warpzone_2common_8qh.html#af6799ea240e508a976ba685194413700":[2,0,4,2,7,2]
 };

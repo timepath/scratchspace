@@ -1,6 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"df/d4a/common_2triggers_2trigger_2impulse_8qh.html#a8b056e96f854ff4877bca912be5b37e0":[2,0,1,13,3,19,1],
 "df/d4a/common_2triggers_2trigger_2impulse_8qh.html#ac37c534efda2a140f52238e2c4eb31a4":[2,0,1,13,3,19,0],
 "df/d4a/common_2triggers_2trigger_2impulse_8qh_source.html":[2,0,1,13,3,19],
 "df/d4a/dialog__hudpanel__chat_8qh.html":[2,0,5,4,49],
@@ -249,5 +248,6 @@ var NAVTREEINDEX128 =
 "df/d75/keybinder_8qc.html#a8a4e76d61ea24d2bf22adf37d2bea543":[2,0,5,4,172,3],
 "df/d75/keybinder_8qc.html#a8b88a14dde16d0dd2ca22cff1ba7a2b7":[2,0,5,4,172,0],
 "df/d75/keybinder_8qc.html#a8cbec42c3a22af496ec94cf941fc1542":[2,0,5,4,172,7],
-"df/d75/keybinder_8qc.html#a8d951d6525e6ce2093c502661291acf9":[2,0,5,4,172,11]
+"df/d75/keybinder_8qc.html#a8d951d6525e6ce2093c502661291acf9":[2,0,5,4,172,11],
+"df/d75/keybinder_8qc.html#ab0947edc01b04773d3a03c7e3dda2fb0":[2,0,5,4,172,6]
 };

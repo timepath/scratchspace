@@ -1,6 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"d9/d12/models_2all_8inc.html#a4945eeb7d60d2d5c17f239710925bf42":[2,0,1,7,2,148],
 "d9/d12/models_2all_8inc.html#a4a107853aaaec77b28aa13d25f109e3e":[2,0,1,7,2,146],
 "d9/d12/models_2all_8inc.html#a4a51c1396b8163df3e67daab30d0c7ea":[2,0,1,7,2,46],
 "d9/d12/models_2all_8inc.html#a4a52d07b47d4a371a9a3d3cb61f04312":[2,0,1,7,2,124],
@@ -249,5 +248,6 @@ var NAVTREEINDEX80 =
 "d9/d28/porto_8qc.html":[2,0,1,16,0,26],
 "d9/d28/porto_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,26,1],
 "d9/d28/porto_8qc.html#aa3a215ab9ec8c4e8b6cde70c1f82d7fa":[2,0,1,16,0,26,2],
-"d9/d28/porto_8qc_source.html":[2,0,1,16,0,26]
+"d9/d28/porto_8qc_source.html":[2,0,1,16,0,26],
+"d9/d2d/dialog__settings__game__model_8qc.html":[2,0,5,4,134]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX124 =
 {
-"de/d8f/common_2gamemodes_2gamemode_2__mod_8inc.html":[2,0,1,3,0,2],
 "de/d8f/common_2gamemodes_2gamemode_2__mod_8inc_source.html":[2,0,1,3,0,2],
 "de/d94/levelwarp_8qc.html":[2,0,1,13,2,6],
 "de/d94/levelwarp_8qc_source.html":[2,0,1,13,2,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX124 =
 "de/dcb/classMageSpike.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,72,12],
 "de/dcb/classMageSpike.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,72,5],
 "de/dcb/classMageSpike.html#ab6b3de3714961aa2b53ec1354cda3b28":[1,0,72,32],
-"de/dcb/classMageSpike.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,72,10]
+"de/dcb/classMageSpike.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,72,10],
+"de/dcb/classMageSpike.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,72,36]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"d4/d0a/classXonoticMiscSettingsTab.html#a0d70b85b390673511ff2dd8e70ae9154":[1,0,207,61],
 "d4/d0a/classXonoticMiscSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,207,82],
 "d4/d0a/classXonoticMiscSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,207,52],
 "d4/d0a/classXonoticMiscSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,207,30],
@@ -249,5 +248,6 @@ var NAVTREEINDEX32 =
 "d4/d0c/csprogsdefs_8qc.html#a3abcbe60732913a684a0f63395dcc7ea":[2,0,2,0,0,447],
 "d4/d0c/csprogsdefs_8qc.html#a3ac64c492819ec5c57cb375e41d6fa5a":[2,0,2,0,0,461],
 "d4/d0c/csprogsdefs_8qc.html#a3b775b609d9c8c038e103ca6d4e4aca6":[2,0,2,0,0,402],
-"d4/d0c/csprogsdefs_8qc.html#a3bdd3b71aa6f7ee802f522f95adfc0eb":[2,0,2,0,0,21]
+"d4/d0c/csprogsdefs_8qc.html#a3bdd3b71aa6f7ee802f522f95adfc0eb":[2,0,2,0,0,21],
+"d4/d0c/csprogsdefs_8qc.html#a3cb8cb686de07fb87dfebc682f424c27":[2,0,2,0,0,257]
 };

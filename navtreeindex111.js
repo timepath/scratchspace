@@ -1,6 +1,5 @@
 var NAVTREEINDEX111 =
 {
-"dc/de5/classWeapon.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,136,35],
 "dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,136,22],
 "dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84":[1,0,136,25],
 "dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,136,17],
@@ -249,5 +248,6 @@ var NAVTREEINDEX111 =
 "dd/d0a/effects_8inc.html#a6beee43926068791a9fe91bae831303f":[2,0,1,9,0,17,2,0],
 "dd/d0a/effects_8inc.html#a8a0ed5b58c510845aa0742999d5dc5f9":[2,0,1,9,0,17,2,2],
 "dd/d0a/effects_8inc.html#ab161cbb17923e1f6e3ad7875041fc2aa":[2,0,1,9,0,17,2,1],
-"dd/d0a/effects_8inc_source.html":[2,0,1,9,0,17,2]
+"dd/d0a/effects_8inc_source.html":[2,0,1,9,0,17,2],
+"dd/d0f/classTeslaCoilTurretAttack.html":[1,0,126]
 };
