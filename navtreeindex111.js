@@ -1,5 +1,15 @@
 var NAVTREEINDEX111 =
 {
+"dc/de5/classWeapon.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,136,14],
+"dc/de5/classWeapon.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,136,12],
+"dc/de5/classWeapon.html#aadf51e7fb4ada8bff51507cc383495e9":[1,0,136,34],
+"dc/de5/classWeapon.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,136,5],
+"dc/de5/classWeapon.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,136,10],
+"dc/de5/classWeapon.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,136,36],
+"dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55":[1,0,136,30],
+"dc/de5/classWeapon.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,136,7],
+"dc/de5/classWeapon.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,136,3],
+"dc/de5/classWeapon.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,136,35],
 "dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,136,22],
 "dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84":[1,0,136,25],
 "dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,136,17],
@@ -239,15 +249,5 @@ var NAVTREEINDEX111 =
 "dd/d0a/classMachineGunTurret.html#ab51103697656de906079b6537d3800bc":[1,0,69,9],
 "dd/d0a/classMachineGunTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,69,7],
 "dd/d0a/classMachineGunTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,69,11],
-"dd/d0a/classMachineGunTurret.html#ac3fece7e710a0c15f72efe00069d74c4":[1,0,69,12],
-"dd/d0a/classMachineGunTurret.html#ade53c264d2eaeb4bbe18a978251a705e":[1,0,69,21],
-"dd/d0a/classMachineGunTurret.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,69,3],
-"dd/d0a/classMachineGunTurret.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,69,4],
-"dd/d0a/classMachineGunTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,69,0],
-"dd/d0a/effects_8inc.html":[2,0,1,9,0,17,2],
-"dd/d0a/effects_8inc.html#a6beee43926068791a9fe91bae831303f":[2,0,1,9,0,17,2,0],
-"dd/d0a/effects_8inc.html#a8a0ed5b58c510845aa0742999d5dc5f9":[2,0,1,9,0,17,2,2],
-"dd/d0a/effects_8inc.html#ab161cbb17923e1f6e3ad7875041fc2aa":[2,0,1,9,0,17,2,1],
-"dd/d0a/effects_8inc_source.html":[2,0,1,9,0,17,2],
-"dd/d0f/classTeslaCoilTurretAttack.html":[1,0,126]
+"dd/d0a/classMachineGunTurret.html#ac3fece7e710a0c15f72efe00069d74c4":[1,0,69,12]
 };

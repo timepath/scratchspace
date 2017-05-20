@@ -1,5 +1,13 @@
 var NAVTREEINDEX105 =
 {
+"dc/d16/classXonoticMediaTab.html#a72c0e76156762fbda152032add5f1630":[1,0,206,18],
+"dc/d16/classXonoticMediaTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,206,84],
+"dc/d16/classXonoticMediaTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,206,9],
+"dc/d16/classXonoticMediaTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,206,67],
+"dc/d16/classXonoticMediaTab.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,206,29],
+"dc/d16/classXonoticMediaTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,206,92],
+"dc/d16/classXonoticMediaTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,206,91],
+"dc/d16/classXonoticMediaTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,206,82],
 "dc/d16/classXonoticMediaTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,206,81],
 "dc/d16/classXonoticMediaTab.html#a83171e28c524fa6e198b5b1ec7b2c487":[1,0,206,79],
 "dc/d16/classXonoticMediaTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,206,56],
@@ -241,13 +249,5 @@ var NAVTREEINDEX105 =
 "dc/d37/classXonoticHUDExitDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,180,33],
 "dc/d37/classXonoticHUDExitDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,180,38],
 "dc/d37/classXonoticHUDExitDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,180,58],
-"dc/d37/classXonoticHUDExitDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,180,85],
-"dc/d37/classXonoticHUDExitDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,180,51],
-"dc/d37/classXonoticHUDExitDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,180,63],
-"dc/d37/classXonoticHUDExitDialog.html#ad27705a6a1dfa2b0fd29bd576855918a":[1,0,180,83],
-"dc/d37/classXonoticHUDExitDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,180,88],
-"dc/d37/classXonoticHUDExitDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,180,31],
-"dc/d37/classXonoticHUDExitDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,180,62],
-"dc/d37/classXonoticHUDExitDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,180,55],
-"dc/d37/classXonoticHUDExitDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,180,91]
+"dc/d37/classXonoticHUDExitDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,180,85]
 };

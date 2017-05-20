@@ -1,5 +1,13 @@
 var NAVTREEINDEX94 =
 {
+"db/d11/classBumblebee.html#a23b5d8a4e07000e6d08fe727bdf23471":[1,0,10,15],
+"db/d11/classBumblebee.html#a269c42fb128fc5d56fac3abb21fbcdca":[1,0,10,3],
+"db/d11/classBumblebee.html#a2de5efac4c3bcb69f250249b7442db59":[1,0,10,27],
+"db/d11/classBumblebee.html#a2fb62f5fc889f0fb67479232a71ef73b":[1,0,10,25],
+"db/d11/classBumblebee.html#a2ffa6e7541d6fc166d266d2d7f13e25a":[1,0,10,28],
+"db/d11/classBumblebee.html#a45c031e26578bb6ecec87b300e247167":[1,0,10,19],
+"db/d11/classBumblebee.html#a4d5b7503bcb97f766b6d7bfd896ca232":[1,0,10,24],
+"db/d11/classBumblebee.html#a58d96703332d9212bf1115cfb091cd86":[1,0,10,30],
 "db/d11/classBumblebee.html#a58f0c04e5979c92f1d5329627cbf1331":[1,0,10,7],
 "db/d11/classBumblebee.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,10,5],
 "db/d11/classBumblebee.html#a70e84502249082a3676988cfb618baf5":[1,0,10,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX94 =
 "db/d26/gamemode__freezetag_8qc.html#aa4afe01babcb5b2c19b341f5d3e6d6ef":[2,0,6,3,0,14,37],
 "db/d26/gamemode__freezetag_8qc.html#aac412fc682fbc2baa210f4161b95ecb4":[2,0,6,3,0,14,22],
 "db/d26/gamemode__freezetag_8qc.html#ab892780a2f94f5ca8d59d558efb23329":[2,0,6,3,0,14,4],
-"db/d26/gamemode__freezetag_8qc.html#ac023231c075589006f85b64807335440":[2,0,6,3,0,14,3],
-"db/d26/gamemode__freezetag_8qc.html#ac121a6c84121c9ce3465e62582ab6bea":[2,0,6,3,0,14,7],
-"db/d26/gamemode__freezetag_8qc.html#ac6cbd41d5275a595f81c748f405fef7a":[2,0,6,3,0,14,6],
-"db/d26/gamemode__freezetag_8qc.html#ac70950d920f4e97650910824c208963b":[2,0,6,3,0,14,32],
-"db/d26/gamemode__freezetag_8qc.html#ad5a983974ea637c246eab84810e36502":[2,0,6,3,0,14,19],
-"db/d26/gamemode__freezetag_8qc.html#ad5ca08e00dc5a1d87a6c529e52c76018":[2,0,6,3,0,14,20],
-"db/d26/gamemode__freezetag_8qc.html#ae3960f48d8c0d090b0eb6ce705f38ee8":[2,0,6,3,0,14,35],
-"db/d26/gamemode__freezetag_8qc.html#aecaf603575690431620b9b72705509d4":[2,0,6,3,0,14,25],
-"db/d26/gamemode__freezetag_8qc.html#aee1dac91a06305051bdcfbef40a659d0":[2,0,6,3,0,14,10]
+"db/d26/gamemode__freezetag_8qc.html#ac023231c075589006f85b64807335440":[2,0,6,3,0,14,3]
 };

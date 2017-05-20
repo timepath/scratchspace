@@ -11,7 +11,7 @@ var server_2miscfunctions_8qc =
     [ "DropToFloor_Handler", "dc/dc6/server_2miscfunctions_8qc.html#a04608bc242fb7b07fa01cc69ee1412aa", null ],
     [ "EliminatedPlayers_Init", "dc/dc6/server_2miscfunctions_8qc.html#aa721e0361c092a5999388d9ce9c707ce", null ],
     [ "EliminatedPlayers_SendEntity", "dc/dc6/server_2miscfunctions_8qc.html#a6f15ae777c8a50be8876911f3462b901", null ],
-    [ "findnearest", "dc/dc6/server_2miscfunctions_8qc.html#a66e0a0f63e22d24166990cd840157f4b", null ],
+    [ "findnearest", "dc/dc6/server_2miscfunctions_8qc.html#a4f00c6b3475a671b4be2c3b45daaf56e", null ],
     [ "float", "dc/dc6/server_2miscfunctions_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc", null ],
     [ "follow_sameorigin", "dc/dc6/server_2miscfunctions_8qc.html#ad793e10b99d7b9cc268469692be69fd8", null ],
     [ "formatmessage", "dc/dc6/server_2miscfunctions_8qc.html#aa2ad35c3e1dd50ef39b80d690512357a", null ],

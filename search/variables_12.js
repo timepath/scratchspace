@@ -86,7 +86,7 @@ var searchData=
   ['radiusdamage_5frunning',['RadiusDamage_running',['../dd/de4/g__damage_8qh.html#a71cbd3b7045074352ef5de0d1711f3d6',1,'g_damage.qh']]],
   ['railgundistance',['railgundistance',['../d4/d3f/tracing_8qh.html#a5d7aef17f84882da4b18a217740cb539',1,'tracing.qh']]],
   ['railgunforce',['railgunforce',['../d4/d3f/tracing_8qh.html#a422c1c35415a2024465aa98ff2c444dc',1,'tracing.qh']]],
-  ['railgunhit',['railgunhit',['../d5/d26/server_2defs_8qh.html#a9ba716a5e1253d2cf1a469e496f0c5be',1,'defs.qh']]],
+  ['railgunhit',['railgunhit',['../d5/d26/server_2defs_8qh.html#ade245d364785b7d828d0b1c75022efc9',1,'defs.qh']]],
   ['railgunhitloc',['railgunhitloc',['../d5/d26/server_2defs_8qh.html#a5e206ba3e3f62a9ec778d8ebc39b95ed',1,'defs.qh']]],
   ['railgunhitsolidbackup',['railgunhitsolidbackup',['../d5/d26/server_2defs_8qh.html#a424cdec2e704031834c5827181d1c676',1,'defs.qh']]],
   ['randomseed',['randomseed',['../db/dcc/g__world_8qc.html#ad636587cf244331160ebe0893105bf45',1,'g_world.qc']]],

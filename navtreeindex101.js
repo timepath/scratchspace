@@ -1,5 +1,13 @@
 var NAVTREEINDEX101 =
 {
+"db/db1/classXonoticHUDRaceTimerDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,190,20],
+"db/db1/classXonoticHUDRaceTimerDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,190,10],
+"db/db1/classXonoticHUDRaceTimerDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,190,35],
+"db/db1/classXonoticHUDRaceTimerDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,190,36],
+"db/db1/classXonoticHUDRaceTimerDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,190,5],
+"db/db1/classXonoticHUDRaceTimerDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,190,90],
+"db/db1/classXonoticHUDRaceTimerDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,190,79],
+"db/db1/classXonoticHUDRaceTimerDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,190,44],
 "db/db1/classXonoticHUDRaceTimerDialog.html#ac235b9f3b3dee91bf877e55658bcaa71":[1,0,190,24],
 "db/db1/classXonoticHUDRaceTimerDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,190,0],
 "db/db1/classXonoticHUDRaceTimerDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,190,16],
@@ -241,13 +249,5 @@ var NAVTREEINDEX101 =
 "db/dc4/classXonoticRadioButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,221,86],
 "db/dc4/classXonoticRadioButton.html#a354a031906c09ac4036868f07a659ef5":[1,0,221,62],
 "db/dc4/classXonoticRadioButton.html#a35c1d238b3144ea59ecdaf0e1ec7e07a":[1,0,221,50],
-"db/dc4/classXonoticRadioButton.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,221,10],
-"db/dc4/classXonoticRadioButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,221,81],
-"db/dc4/classXonoticRadioButton.html#a3b9eba7370ce35fbe1485b43d38e56cf":[1,0,221,39],
-"db/dc4/classXonoticRadioButton.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,221,72],
-"db/dc4/classXonoticRadioButton.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,221,75],
-"db/dc4/classXonoticRadioButton.html#a45efe0293355aed9332fac357124c984":[1,0,221,18],
-"db/dc4/classXonoticRadioButton.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,221,31],
-"db/dc4/classXonoticRadioButton.html#a4985255a6e0984252ab7ccedd6347d5b":[1,0,221,52],
-"db/dc4/classXonoticRadioButton.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,221,82]
+"db/dc4/classXonoticRadioButton.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,221,10]
 };
