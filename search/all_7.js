@@ -75,6 +75,7 @@ var searchData=
   ['g_5frailgunhit',['g_railgunhit',['../d5/d26/server_2defs_8qh.html#a072151adb9da1963c84bb1b64e9043c2',1,'defs.qh']]],
   ['g_5fsandbox_5fobjects',['g_sandbox_objects',['../de/d42/sv__sandbox_8qh.html#a6aec71dc4059e325dd048c78c6dc5d87',1,'sv_sandbox.qh']]],
   ['g_5fsaved_5fcvars',['g_saved_cvars',['../d5/df2/common_2util_8qh.html#aca0fd08ce5173d4d922e285b33301115',1,'util.qh']]],
+  ['g_5fsaved_5fteam',['g_saved_team',['../d5/d26/server_2defs_8qh.html#a3f48b5d42d9436789de6314586bf47cd',1,'defs.qh']]],
   ['g_5fspawnpoints',['g_spawnpoints',['../d5/d26/server_2defs_8qh.html#aad1564de97f4fade819668ac308c7133',1,'defs.qh']]],
   ['g_5fsubs_2eqc',['g_subs.qc',['../d2/d11/g__subs_8qc.html',1,'']]],
   ['g_5fsubs_2eqh',['g_subs.qh',['../d6/d93/g__subs_8qh.html',1,'']]],

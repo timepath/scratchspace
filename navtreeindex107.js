@@ -1,5 +1,7 @@
 var NAVTREEINDEX107 =
 {
+"dc/d56/cvarlist_8qc.html#adb640b53207e5cca8d01d176859fc151":[2,0,5,4,32,13],
+"dc/d56/cvarlist_8qc.html#ae49bf6a638d904a9be842d2af8f18c0f":[2,0,5,4,32,10],
 "dc/d56/cvarlist_8qc.html#ae786eefcee93700ae518980a7ecaf766":[2,0,5,4,32,16],
 "dc/d56/cvarlist_8qc.html#af5cde358e9b2de1004e0cb902b395382":[2,0,5,4,32,15],
 "dc/d56/cvarlist_8qc.html#af8f11081ec07f426c6f01449e41789e1":[2,0,5,4,32,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX107 =
 "dc/d80/gamemode__domination_8qc.html#a5fdc0f6686480a237384c776b913b4fe":[2,0,6,3,0,12,20],
 "dc/d80/gamemode__domination_8qc.html#a68192842a7b8fe572f40f71cc5ef40af":[2,0,6,3,0,12,18],
 "dc/d80/gamemode__domination_8qc.html#a6c0bc2c93d1ab55d4a6a4340f66e42b5":[2,0,6,3,0,12,25],
-"dc/d80/gamemode__domination_8qc.html#a6d5077acb7214fc13f573efc17bec555":[2,0,6,3,0,12,1],
-"dc/d80/gamemode__domination_8qc.html#a6d94c2368afea0c0e4dd47b9b7609461":[2,0,6,3,0,12,8],
-"dc/d80/gamemode__domination_8qc.html#a708ca941e2f09c7ace1b3670dc43bf5c":[2,0,6,3,0,12,28]
+"dc/d80/gamemode__domination_8qc.html#a6d5077acb7214fc13f573efc17bec555":[2,0,6,3,0,12,1]
 };
