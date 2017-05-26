@@ -142,7 +142,7 @@ var NAVTREEINDEX =
 "dc/de5/classWeapon.html#aa557f7e3a22e9b52192697ca3efcd48b",
 "dd/d0a/classMachineGunTurret.html#ac0a380f4b08bad88d17a175d4f648795",
 "dd/d36/halflife_8qc.html#a482830a404c26924b8f1a630d0f8963a",
-"dd/d70/pathlib_8qh.html#acefcadef05f7952696fcc994b7b9c71c",
+"dd/d70/pathlib_8qh.html#ac8c87cdb7bc1d4999213ef3ab33a53a4",
 "dd/d90/classRaptorFlare.html#aa33a9e234103d87be809a6c13d1061b2",
 "dd/da3/classXonoticMusicPlayerTab.html#a43b9d7745d10b4011cd0da6047c07bf4",
 "dd/db3/classXonoticQuitDialog.html#aa6ee31e73e04f62f66ffeae22b04a831",
