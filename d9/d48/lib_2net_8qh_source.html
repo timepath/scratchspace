@@ -418,14 +418,14 @@ $(document).ready(function(){initNavTree('d9/d48/lib_2net_8qh_source.html','../.
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            v += ReadByte();          <span class="comment">// note: this is unsigned</span></div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        }</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="preprocessor">        #define ReadInt48_t() vec3(ReadInt24_t(), ReadInt24_t(), 0)</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="preprocessor">        #define ReadInt48_t() vec2(ReadInt24_t(), ReadInt24_t())</span></div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadInt72_t() vec3(ReadInt24_t(), ReadInt24_t(), ReadInt24_t())</span></div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        noref <span class="keywordtype">int</span> _ReadSByte;</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="preprocessor">        #define ReadSByte() (_ReadSByte = ReadByte(), (_ReadSByte &amp; BIT(7) ? -128 : 0) + (_ReadSByte &amp; BITS(7)))</span></div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadFloat() ReadCoord()</span></div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadVector() vec3(ReadFloat(), ReadFloat(), ReadFloat())</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadVector2D() vec3(ReadFloat(), ReadFloat(), 0)</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadVector2D() vec2(ReadFloat(), ReadFloat())</span></div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <span class="keywordtype">float</span> ReadApproxPastTime()</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        {</div>
@@ -556,7 +556,7 @@ $(document).ready(function(){initNavTree('d9/d48/lib_2net_8qh_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d9/d48/lib_2net_8qh.html">net.qh</a></li>
-    <li class="footer">Generated on Sat May 27 2017 11:33:56 for Xonotic by
+    <li class="footer">Generated on Sat May 27 2017 12:56:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
