@@ -1,6 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"df/d49/classSound.html":[1,0,117],
 "df/d49/classSound.html#a2d1ec80135b30ebeaf6b83fbc866245f":[1,0,117,2],
 "df/d49/classSound.html#a3ed2cad33866839887c319ee5c10dd67":[1,0,117,0],
 "df/d49/classSound.html#a62a0dfe148f6ebd2ecf59f872dfec298":[1,0,117,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX128 =
 "df/d75/keybinder_8qc.html#a136765a2f9eec2b238e1d2d831048343":[2,0,5,4,172,23],
 "df/d75/keybinder_8qc.html#a1372e62ea264c577e5d9f64cf46d594a":[2,0,5,4,172,14],
 "df/d75/keybinder_8qc.html#a16e4d3a58129392375657f4c01119fca":[2,0,5,4,172,16],
-"df/d75/keybinder_8qc.html#a199013939039b94eab3675b953cdb961":[2,0,5,4,172,10]
+"df/d75/keybinder_8qc.html#a199013939039b94eab3675b953cdb961":[2,0,5,4,172,10],
+"df/d75/keybinder_8qc.html#a24d293cb1e7ea055ad7ddf8afbff6d59":[2,0,5,4,172,4]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX108 =
 {
-"dc/d80/gamemode__domination_8qc.html#a6d94c2368afea0c0e4dd47b9b7609461":[2,0,6,3,0,12,8],
 "dc/d80/gamemode__domination_8qc.html#a708ca941e2f09c7ace1b3670dc43bf5c":[2,0,6,3,0,12,28],
 "dc/d80/gamemode__domination_8qc.html#a87458461dfdf0f0304f0ef2b28d48b8c":[2,0,6,3,0,12,27],
 "dc/d80/gamemode__domination_8qc.html#a8cec3b44ab39bf059c106e3d145e5091":[2,0,6,3,0,12,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX108 =
 "dc/da0/classXonoticMapInfoDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,204,86],
 "dc/da0/classXonoticMapInfoDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,204,83],
 "dc/da0/classXonoticMapInfoDialog.html#a1befcad575c9e2426fa1c958d3c4b31c":[1,0,204,43],
-"dc/da0/classXonoticMapInfoDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,204,82]
+"dc/da0/classXonoticMapInfoDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,204,82],
+"dc/da0/classXonoticMapInfoDialog.html#a1f2ba54b7fed715ca9fb60a7c805113f":[1,0,204,71]
 };

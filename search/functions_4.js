@@ -202,7 +202,6 @@ var searchData=
   ['dump_5fweapon_5fsettings',['Dump_Weapon_Settings',['../d6/d1c/weapons_2config_8qc.html#a77363565e51ceb80f230ad7020747f23',1,'config.qc']]],
   ['dumpnode',['dumpnode',['../df/d4c/server_2pathlib_2main_8qc.html#a402be18908ff31765c1ff5ba030db5e9',1,'main.qc']]],
   ['dumpstats',['DumpStats',['../db/dcc/g__world_8qc.html#a1207e599d7420b0af40007a89426efec',1,'DumpStats(float final):&#160;g_world.qc'],['../d7/d97/g__world_8qh.html#a1207e599d7420b0af40007a89426efec',1,'DumpStats(float final):&#160;g_world.qc']]],
-  ['dumpsurface',['dumpsurface',['../d6/d3b/race_8qc.html#a1a63a0ea8f06ab407823765692190a81',1,'race.qc']]],
   ['dynlight_5ffind_5faiment',['dynlight_find_aiment',['../dd/daa/g__lights_8qc.html#abcd95c9f614d026130fa87d14cd76a21',1,'g_lights.qc']]],
   ['dynlight_5ffind_5fpath',['dynlight_find_path',['../dd/daa/g__lights_8qc.html#a5e62ba16138c20eb7792585e72ff358c',1,'g_lights.qc']]],
   ['dynlight_5ffind_5ftarget',['dynlight_find_target',['../dd/daa/g__lights_8qc.html#af2fa133f7e214360915d1ecac346c6ee',1,'g_lights.qc']]],

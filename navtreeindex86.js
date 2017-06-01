@@ -1,6 +1,5 @@
 var NAVTREEINDEX86 =
 {
-"d9/de7/jumppads_8qh.html#aea48339798453aef3726fe26f97a9bc2":[2,0,1,13,3,23,11],
 "d9/de7/jumppads_8qh.html#aeb124e9cd9ff6aa1d896e02a10fc6ff9":[2,0,1,13,3,23,6],
 "d9/de7/jumppads_8qh.html#af9c0b2977949fec49fd620fe323b4cac":[2,0,1,13,3,23,10],
 "d9/de7/jumppads_8qh.html#affeed36a4bfbccc789a223127cd20da4":[2,0,1,13,3,23,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX86 =
 "d9/df7/mathlib_8qh.html#aab50993c512d8ea75053a17e20b58f11":[2,0,4,2,9,50],
 "d9/df7/mathlib_8qh.html#aafcdc9c04e9097cc4020c09d8bca857f":[2,0,4,2,9,66],
 "d9/df7/mathlib_8qh.html#ab87e208dbc0e5fa949961edc72c452ab":[2,0,4,2,9,40],
-"d9/df7/mathlib_8qh.html#ab907f2d483927b268635737c22af9782":[2,0,4,2,9,21]
+"d9/df7/mathlib_8qh.html#ab907f2d483927b268635737c22af9782":[2,0,4,2,9,21],
+"d9/df7/mathlib_8qh.html#ac830c79413f62de42d8717c102ad7933":[2,0,4,2,9,23]
 };
