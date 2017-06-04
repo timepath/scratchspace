@@ -1,5 +1,6 @@
 var scores_8qh =
 [
+    [ "PlayerScore_Get", "d3/dcd/scores_8qh.html#a4112e3811c1c08ea31a12b6035f4f391", null ],
     [ "PlayerTeamScore_AddScore", "d3/dcd/scores_8qh.html#a44db80abc726d6330522fa5382f1b6e3", null ],
     [ "WINNINGCONDITIONHELPER_LOWERISBETTER_WORST", "d3/dcd/scores_8qh.html#a184ac4f6f2f69b2e00edcf69f95184c7", null ],
     [ "GetPlayerScoreString", "d3/dcd/scores_8qh.html#ad28463ced5516457ad57a090398dfa49", null ],

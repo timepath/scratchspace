@@ -123,6 +123,7 @@ var searchData=
   ['player_5fcurrententnum',['player_currententnum',['../d9/d08/client_2defs_8qh.html#a6b17a65dd7a85e465430a85ae6a3cdcf',1,'defs.qh']]],
   ['playerdemo_5ffield',['PLAYERDEMO_FIELD',['../dc/d62/playerdemo_8qc.html#a75bafe83d2fc5a48ef1aa99b61028dd2',1,'playerdemo.qc']]],
   ['playerdemo_5ffields',['PLAYERDEMO_FIELDS',['../dc/d62/playerdemo_8qc.html#a5c59ec03035c8bce90095515b615b2e1',1,'playerdemo.qc']]],
+  ['playerscore_5fget',['PlayerScore_Get',['../d3/dcd/scores_8qh.html#a4112e3811c1c08ea31a12b6035f4f391',1,'scores.qh']]],
   ['playersounds_5ffrom',['PlayerSounds_from',['../df/d6e/globalsound_8qh.html#a1f8a6acaa0307f5e57ea172ca84b785a',1,'globalsound.qh']]],
   ['playerteamscore_5faddscore',['PlayerTeamScore_AddScore',['../d3/dcd/scores_8qh.html#a44db80abc726d6330522fa5382f1b6e3',1,'scores.qh']]],
   ['pointparticles',['pointparticles',['../da/dde/csprogsdefs_8qh.html#ac8847014472662de37600e592b86ec1f',1,'pointparticles():&#160;csprogsdefs.qh'],['../d3/d9e/dpextensions_8qh.html#ac8847014472662de37600e592b86ec1f',1,'pointparticles():&#160;dpextensions.qh']]],

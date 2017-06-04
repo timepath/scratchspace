@@ -1,5 +1,6 @@
 var NAVTREEINDEX110 =
 {
+"dc/dc6/server_2miscfunctions_8qc.html#a2f81a9963527556cf9f1c12bace4245e":[2,0,6,45,54],
 "dc/dc6/server_2miscfunctions_8qc.html#a389c6b4301cce5d979b54108aaf6462c":[2,0,6,45,76],
 "dc/dc6/server_2miscfunctions_8qc.html#a3c8f4c7b30b977c36ad3a6648e10d0fd":[2,0,6,45,78],
 "dc/dc6/server_2miscfunctions_8qc.html#a41f8fc9b68c8c4abbb2a831dff6f8f0c":[2,0,6,45,46],
@@ -248,6 +249,5 @@ var NAVTREEINDEX110 =
 "dc/de5/classWeapon.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,136,6],
 "dc/de5/classWeapon.html#a94b9194f95513e0ad7c17da8a7fda0e0":[1,0,136,31],
 "dc/de5/classWeapon.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,136,13],
-"dc/de5/classWeapon.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,136,0],
-"dc/de5/classWeapon.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,136,23]
+"dc/de5/classWeapon.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,136,0]
 };
