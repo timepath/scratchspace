@@ -1,10 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"d4/dd1/spawnpoints_8qh.html#a71804b6dc31803f43afa105a34e35d04":[2,0,6,63,0],
-"d4/dd1/spawnpoints_8qh.html#ab4967b5a52be505fdfbe23d0d61b2aa1":[2,0,6,63,5],
-"d4/dd1/spawnpoints_8qh.html#ac6bf8417de66cc27e1aad493335d2901":[2,0,6,63,1],
-"d4/dd1/spawnpoints_8qh_source.html":[2,0,6,63],
-"d4/dd2/vectormamamam_8qh.html":[2,0,1,13,0,37],
 "d4/dd2/vectormamamam_8qh_source.html":[2,0,1,13,0,37],
 "d4/dd3/common_2minigames_2__mod_8inc.html":[2,0,1,6,1],
 "d4/dd3/common_2minigames_2__mod_8inc_source.html":[2,0,1,6,1],
@@ -249,5 +244,10 @@ var NAVTREEINDEX43 =
 "d4/df8/classXonoticHUDRadarDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,191,15],
 "d4/df8/classXonoticHUDRadarDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,191,39],
 "d4/df8/classXonoticHUDRadarDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,191,2],
-"d4/df8/classXonoticHUDRadarDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,191,37]
+"d4/df8/classXonoticHUDRadarDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,191,37],
+"d4/df8/classXonoticHUDRadarDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,191,41],
+"d4/df8/classXonoticHUDRadarDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,191,86],
+"d4/df8/classXonoticHUDRadarDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,191,8],
+"d4/df8/sv__touchexplode_8qc.html":[2,0,1,9,0,30,2],
+"d4/df8/sv__touchexplode_8qc.html#a0228a9d2666d52bfede21f623057a28c":[2,0,1,9,0,30,2,7]
 };

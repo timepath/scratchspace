@@ -40,12 +40,7 @@ var NAVTREEINDEX36 =
 "d4/d3b/classXonoticBigButton.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,141,72],
 "d4/d3b/classXonoticBigButton.html#afdcf1fb79903f747cda494b27206526b":[1,0,141,10],
 "d4/d3c/radarmap_8qh.html":[2,0,6,1,11],
-"d4/d3c/radarmap_8qh.html#a08a76a7631ef0666e23573c5ca4cf1d5":[2,0,6,1,11,1],
-"d4/d3c/radarmap_8qh.html#a428839de844a7805ef144511064f93f0":[2,0,6,1,11,2],
-"d4/d3c/radarmap_8qh.html#a43dabf182b1d374a35a79ca28c97478f":[2,0,6,1,11,3],
-"d4/d3c/radarmap_8qh.html#aca7797acf4b1b63c8974b7befbb458f4":[2,0,6,1,11,5],
-"d4/d3c/radarmap_8qh.html#acdd3a73b86c28ca1fea8a01766ea522c":[2,0,6,1,11,0],
-"d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c":[2,0,6,1,11,4],
+"d4/d3c/radarmap_8qh.html#a8e00d4986133ccf16907642ac0064fd3":[2,0,6,1,11,0],
 "d4/d3c/radarmap_8qh_source.html":[2,0,6,1,11],
 "d4/d3d/common_2sounds_2__mod_8qh.html":[2,0,1,12,1],
 "d4/d3d/common_2sounds_2__mod_8qh_source.html":[2,0,1,12,1],
@@ -249,5 +244,10 @@ var NAVTREEINDEX36 =
 "d4/d53/server_2impulse_8qc.html#a460f27e5d4388d8088af670827e981c4":[2,0,6,35,10],
 "d4/d53/server_2impulse_8qc.html#a4b96f92a7dd7d38045841ce41085b507":[2,0,6,35,47],
 "d4/d53/server_2impulse_8qc.html#a4c563bf06c68b4282ae4d7bf0d8d4fb8":[2,0,6,35,13],
-"d4/d53/server_2impulse_8qc.html#a592fd33e424a2e05854957b679c37e1b":[2,0,6,35,33]
+"d4/d53/server_2impulse_8qc.html#a592fd33e424a2e05854957b679c37e1b":[2,0,6,35,33],
+"d4/d53/server_2impulse_8qc.html#a5d55b918d98d7ff4bed97eef12350437":[2,0,6,35,23],
+"d4/d53/server_2impulse_8qc.html#a5e4ba27f9e1c6d3d6517552ac9b45ec5":[2,0,6,35,38],
+"d4/d53/server_2impulse_8qc.html#a64c532f3e479ab94a138bdb8c3d8c05a":[2,0,6,35,42],
+"d4/d53/server_2impulse_8qc.html#a6b05c4a89758bb0fef746223af6db745":[2,0,6,35,31],
+"d4/d53/server_2impulse_8qc.html#a6f3c4721d51695ce7ebf7e0dc232b665":[2,0,6,35,32]
 };

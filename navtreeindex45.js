@@ -1,10 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"d5/d26/server_2defs_8qh.html#a3bc1238ebb2ffbad59083120a2fafef8":[2,0,6,22,147],
-"d5/d26/server_2defs_8qh.html#a3c3af8f5c6837dd97fdbd346a993f5b1":[2,0,6,22,263],
-"d5/d26/server_2defs_8qh.html#a3cb6ad35f034450613a4b46cc77ee338":[2,0,6,22,64],
-"d5/d26/server_2defs_8qh.html#a3cb890504a3e0218ed83a60fcba8b17c":[2,0,6,22,12],
-"d5/d26/server_2defs_8qh.html#a3e22c8ced0d427b277b14fc646a0d2e3":[2,0,6,22,217],
 "d5/d26/server_2defs_8qh.html#a3e23c99b6aac8bdae683662f1758ada1":[2,0,6,22,99],
 "d5/d26/server_2defs_8qh.html#a3ee81056f68c7ed9f2ec49687c4303b8":[2,0,6,22,61],
 "d5/d26/server_2defs_8qh.html#a3f48b5d42d9436789de6314586bf47cd":[2,0,6,22,155],
@@ -249,5 +244,10 @@ var NAVTREEINDEX45 =
 "d5/d4a/cl__minigames__hud_8qc.html":[2,0,1,6,5],
 "d5/d4a/cl__minigames__hud_8qc.html#a030497aded1dcebacf1213c1242700dd":[2,0,1,6,5,32],
 "d5/d4a/cl__minigames__hud_8qc.html#a0356eff07daa02e1f48aa97f57bd4419":[2,0,1,6,5,8],
-"d5/d4a/cl__minigames__hud_8qc.html#a095bbde3ad57290772ebabf516e9881b":[2,0,1,6,5,24]
+"d5/d4a/cl__minigames__hud_8qc.html#a095bbde3ad57290772ebabf516e9881b":[2,0,1,6,5,24],
+"d5/d4a/cl__minigames__hud_8qc.html#a17e7d1f6bf523351611e6c90d7a6aa15":[2,0,1,6,5,11],
+"d5/d4a/cl__minigames__hud_8qc.html#a1875c5c56cb1e26b51eb64ae1c602ff8":[2,0,1,6,5,6],
+"d5/d4a/cl__minigames__hud_8qc.html#a1ba10a9b36cce92f0d8c066599961241":[2,0,1,6,5,21],
+"d5/d4a/cl__minigames__hud_8qc.html#a32170c7d7af7b3ca817db8ae4a1c73e0":[2,0,1,6,5,19],
+"d5/d4a/cl__minigames__hud_8qc.html#a34717727bac59a62df9c33c21e0b190a":[2,0,1,6,5,33]
 };
