@@ -160,8 +160,8 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, {</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="comment">// step 1: clear the queue</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        WEP_CONFIG_COUNT = 0;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt;= MAX_WEP_CONFIG; ++x)</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            { wep_config_queue[x] = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt;= MAX_CONFIG_SETTINGS; ++x)</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            config_queue[x] = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="comment">// step 2: build new queue</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        it.wr_config(it);</div>
@@ -176,7 +176,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            it.m_name,</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            ((it.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a>) ? <span class="stringliteral">&quot; (MUTATOR WEAPON)&quot;</span> : <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        ));</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt;= WEP_CONFIG_COUNT; ++x) { WEP_CONFIG_WRITETOFILE(wep_config_queue[x]); }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt;= WEP_CONFIG_COUNT; ++x) { WEP_CONFIG_WRITETOFILE(config_queue[x]); }</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        WEP_CONFIG_WRITETOFILE(<span class="stringliteral">&quot;// }}}\n&quot;</span>);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="comment">// step 5: debug info</span></div>
@@ -187,8 +187,8 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// clear queue now that we&#39;re finished</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    WEP_CONFIG_COUNT = 0;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> x = 0; x &lt;= MAX_WEP_CONFIG; ++x)</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        { wep_config_queue[x] = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> x = 0; x &lt;= MAX_CONFIG_SETTINGS; ++x)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        config_queue[x] = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">// extra information</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(sprintf(<span class="stringliteral">&quot;Totals: %d weapons, %d settings\n&quot;</span>, totalweapons, totalsettings));</div>
@@ -260,7 +260,7 @@ Functions</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d6/d1c/weapons_2config_8qc_source.html#l00025">Dump_Weapon_Settings()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a6b5d9a1031ac2602e31df1ba551bfafe">strcmp</a>(wep_config_queue[root], wep_config_queue[child]);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a6b5d9a1031ac2602e31df1ba551bfafe">strcmp</a>(config_queue[root], config_queue[child]);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 <div class="ttc" id="dpextensions_8qh_html_a6b5d9a1031ac2602e31df1ba551bfafe"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a6b5d9a1031ac2602e31df1ba551bfafe">strcmp</a></div><div class="ttdeci">#define strcmp</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00051">dpextensions.qh:51</a></div></div>
 </div><!-- fragment -->
@@ -310,9 +310,9 @@ Functions</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d6/d1c/weapons_2config_8qc_source.html#l00025">Dump_Weapon_Settings()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">string</span> oldroot = wep_config_queue[root];</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    wep_config_queue[root] = wep_config_queue[child];</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    wep_config_queue[child] = oldroot;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">string</span> oldroot = config_queue[root];</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    config_queue[root] = config_queue[child];</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    config_queue[child] = oldroot;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -333,7 +333,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_67782cf2b73ff31781b25ce4541674e7.html">weapons</a></li><li class="navelem"><a class="el" href="../../d6/d1c/weapons_2config_8qc.html">config.qc</a></li>
-    <li class="footer">Generated on Wed Jun 14 2017 07:56:58 for Xonotic by
+    <li class="footer">Generated on Fri Jun 16 2017 14:53:07 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

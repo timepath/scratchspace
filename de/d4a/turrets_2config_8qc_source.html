@@ -112,9 +112,9 @@ $(document).ready(function(){initNavTree('de/d4a/turrets_2config_8qc_source.html
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
 <div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../de/d4a/turrets_2config_8qc.html#a4cec7b70063ba5f4b12fa02e610549ba">    6</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../de/d4a/turrets_2config_8qc.html#a4cec7b70063ba5f4b12fa02e610549ba">T_Config_Queue_Swap</a>(<span class="keywordtype">float</span> root, <span class="keywordtype">float</span> child, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a>)</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">string</span> oldroot = tur_config_queue[root];</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    tur_config_queue[root] = tur_config_queue[child];</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    tur_config_queue[child] = oldroot;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">string</span> oldroot = config_queue[root];</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    config_queue[root] = config_queue[child];</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    config_queue[child] = oldroot;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../de/d4a/turrets_2config_8qc.html#a1d1f02d10e59d74c6b74a716871ea545">   13</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../de/d4a/turrets_2config_8qc.html#a1d1f02d10e59d74c6b74a716871ea545">T_Config_Queue_Compare</a>(<span class="keywordtype">float</span> root, <span class="keywordtype">float</span> child, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a>)</div>
@@ -123,8 +123,8 @@ $(document).ready(function(){initNavTree('de/d4a/turrets_2config_8qc_source.html
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">for</span>(i = 1; i &lt;= 100; ++i)</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        r = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a03da3a537f9764333e85cbed8b52f4e4">str2chr</a>(tur_config_queue[root], i);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        c = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a03da3a537f9764333e85cbed8b52f4e4">str2chr</a>(tur_config_queue[child], i);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        r = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a03da3a537f9764333e85cbed8b52f4e4">str2chr</a>(config_queue[root], i);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        c = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a03da3a537f9764333e85cbed8b52f4e4">str2chr</a>(config_queue[child], i);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">if</span>(r == c) { <span class="keywordflow">continue</span>; }</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(c &gt; r) { <span class="keywordflow">return</span> -1; }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">else</span> { <span class="keywordflow">return</span> 1; }</div>
@@ -139,8 +139,8 @@ $(document).ready(function(){initNavTree('de/d4a/turrets_2config_8qc_source.html
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Turrets, it != TUR_Null, {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="comment">// step 1: clear the queue</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        TUR_CONFIG_COUNT = 0;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt;= MAX_TUR_CONFIG; ++j)</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            { tur_config_queue[j] = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; }</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt;= MAX_CONFIG_SETTINGS; ++j)</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            config_queue[j] = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="comment">// step 2: build new queue</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        it.tr_config(it);</div>
@@ -151,7 +151,7 @@ $(document).ready(function(){initNavTree('de/d4a/turrets_2config_8qc_source.html
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="comment">// step 4: write queue</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        TUR_CONFIG_WRITETOFILE(sprintf(<span class="stringliteral">&quot;// {{{ #%d: %s\n&quot;</span>, i, it.turret_name))</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt;= TUR_CONFIG_COUNT; ++j)</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            { TUR_CONFIG_WRITETOFILE(tur_config_queue[j]) }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            TUR_CONFIG_WRITETOFILE(config_queue[j])</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        TUR_CONFIG_WRITETOFILE(<span class="stringliteral">&quot;// }}}\n&quot;</span>)</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="comment">// step 5: debug info</span></div>
@@ -161,8 +161,8 @@ $(document).ready(function(){initNavTree('de/d4a/turrets_2config_8qc_source.html
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">// clear queue now that we&#39;re finished</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    TUR_CONFIG_COUNT = 0;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt;= MAX_TUR_CONFIG; ++j)</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        { tur_config_queue[j] = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt;= MAX_CONFIG_SETTINGS; ++j)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        config_queue[j] = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// extra information</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(sprintf(<span class="stringliteral">&quot;Totals: %d turrets, %d settings\n&quot;</span>, (Turrets_COUNT - 1), totalsettings));</div>
@@ -185,7 +185,7 @@ $(document).ready(function(){initNavTree('de/d4a/turrets_2config_8qc_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../de/d4a/turrets_2config_8qc.html">config.qc</a></li>
-    <li class="footer">Generated on Wed Jun 14 2017 07:56:50 for Xonotic by
+    <li class="footer">Generated on Fri Jun 16 2017 14:52:59 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
