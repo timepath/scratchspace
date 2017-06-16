@@ -97,7 +97,7 @@ var NAVTREEINDEX =
 "d7/da7/server_2autocvars_8qh.html#ada63aac059fcbb281c2ab6589b055f79",
 "d7/db4/client_2autocvars_8qh.html#a0e07118970275cf0772660606802e729",
 "d7/db4/client_2autocvars_8qh.html#a9ebf0abedd8da41719d81a69684772e5",
-"d7/dd0/sv__onslaught_8qh.html#a9ad37dc764c506fb62e4473280cebd27",
+"d7/dd0/sv__onslaught_8qh.html#a9b6c6ccdd530645fe875330fcacf517a",
 "d7/de6/classXonoticWeaponarenaCheckBox.html#a5acde129549a09a7c5e99b8bc5555ebd",
 "d8/d12/classRaptor.html#a2313ed2b71354e8ea93472f2d6b58daa",
 "d8/d35/classXonoticHUDChatDialog.html#a1e3ab8541b20e732388c7f862af0bd8a",
