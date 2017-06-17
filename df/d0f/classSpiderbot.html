@@ -170,6 +170,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a91f922352c8e6ca7b9b56617c530b8b4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d23/classVehicle.html#a91f922352c8e6ca7b9b56617c530b8b4">vr_precache</a> ()</td></tr>
 <tr class="memdesc:a91f922352c8e6ca7b9b56617c530b8b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">(BOTH) precaches models/sounds used by this vehicle  <a href="#a91f922352c8e6ca7b9b56617c530b8b4">More...</a><br/></td></tr>
 <tr class="separator:a91f922352c8e6ca7b9b56617c530b8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7f5447512b9c7b0f697dd84c35b1040"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d23/classVehicle.html#af7f5447512b9c7b0f697dd84c35b1040">vr_setcolors</a> ()</td></tr>
+<tr class="memdesc:af7f5447512b9c7b0f697dd84c35b1040"><td class="mdescLeft">&#160;</td><td class="mdescRight">(SERVER) called when a vehicle's colors are being reset, so modules can be updated  <a href="#af7f5447512b9c7b0f697dd84c35b1040">More...</a><br/></td></tr>
+<tr class="separator:af7f5447512b9c7b0f697dd84c35b1040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd61673a42237365d55777d092f5f5ad"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d23/classVehicle.html#acd61673a42237365d55777d092f5f5ad">vr_setup</a> ()</td></tr>
 <tr class="memdesc:acd61673a42237365d55777d092f5f5ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">(BOTH) setup vehicle data  <a href="#acd61673a42237365d55777d092f5f5ad">More...</a><br/></td></tr>
 <tr class="separator:acd61673a42237365d55777d092f5f5ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -542,10 +545,10 @@ Public Attributes</h2></td></tr>
 
 <p>(CLIENT) logic to run every frame </p>
 
-<p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00057">57</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00059">59</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00787">HUD_Crosshair_Vehicle()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{ }</div>
+<div class="fragment"><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{ }</div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -584,7 +587,7 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00043">43</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00637">vehicles_damage()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00640">vehicles_damage()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{ }</div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -624,7 +627,7 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00047">47</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00930">vehicles_enter()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00933">vehicles_enter()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{ }</div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -664,7 +667,7 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00049">49</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00930">vehicles_enter()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00933">vehicles_enter()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;{ }</div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -702,10 +705,10 @@ Public Attributes</h2></td></tr>
 
 <p>(CLIENT) logic to run every frame </p>
 
-<p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00055">55</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00057">57</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d15/hud_8qc_source.html#l00400">HUD_Vehicle()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{ }</div>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{ }</div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -744,7 +747,7 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00053">53</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00879">vehicles_touch()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00882">vehicles_touch()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{ }</div>
 </div><!-- fragment -->
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -784,7 +787,7 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00045">45</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01155">vehicle_initialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01158">vehicle_initialize()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{ }</div>
 </div><!-- fragment -->
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -793,6 +796,46 @@ Public Attributes</h2></td></tr>
 </div>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d23/classVehicle_a91f922352c8e6ca7b9b56617c530b8b4_icgraph.svg" width="424" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af7f5447512b9c7b0f697dd84c35b1040"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> Vehicle::vr_setcolors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(SERVER) called when a vehicle's colors are being reset, so modules can be updated </p>
+
+<p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00055">55</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00406">vehicles_reset_colors()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{ }</div>
+</div><!-- fragment -->
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d23/classVehicle_af7f5447512b9c7b0f697dd84c35b1040_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -824,14 +867,14 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00039">39</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00090">NET_HANDLE()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01155">vehicle_initialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00090">NET_HANDLE()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01158">vehicle_initialize()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{ }</div>
 </div><!-- fragment -->
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d23/classVehicle_acd61673a42237365d55777d092f5f5ad_icgraph.svg" width="403" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -864,14 +907,14 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00051">51</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01096">vehicles_spawn()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01099">vehicles_spawn()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{ }</div>
 </div><!-- fragment -->
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d23/classVehicle_a23b5d8a4e07000e6d08fe727bdf23471_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -904,14 +947,14 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00041">41</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01069">vehicles_think()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01072">vehicles_think()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{ }</div>
 </div><!-- fragment -->
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d23/classVehicle_a96f9f5c3ac6195be77b33b68a49bed46_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1136,7 +1179,7 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00004">4</a> of file <a class="el" href="../../d1/d4b/vehicle_8qh_source.html">vehicle.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01155">vehicle_initialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01158">vehicle_initialize()</a>.</p>
 
 </div>
 </div>
@@ -1163,7 +1206,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d0f/classSpiderbot.html">Spiderbot</a></li>
-    <li class="footer">Generated on Sat Jun 17 2017 14:44:11 for Xonotic by
+    <li class="footer">Generated on Sat Jun 17 2017 23:21:14 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

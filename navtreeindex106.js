@@ -1,5 +1,8 @@
 var NAVTREEINDEX106 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#af1aab403dc54575707fd57991312b201":[1,0,180,47],
+"dc/d37/classXonoticHUDExitDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,180,27],
+"dc/d37/classXonoticHUDExitDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,180,15],
 "dc/d37/classXonoticHUDExitDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,180,39],
 "dc/d37/classXonoticHUDExitDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,180,2],
 "dc/d37/classXonoticHUDExitDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,180,37],
@@ -246,8 +249,5 @@ var NAVTREEINDEX106 =
 "dc/d5a/systems_2input_8qc.html#af69d77679d9f7d414bdecd06694f6120":[2,0,3,2,3,0],
 "dc/d5a/systems_2input_8qc_source.html":[2,0,3,2,3],
 "dc/d5b/common_2gamemodes_2gamemode_2__mod_8qh.html":[2,0,1,3,0,3],
-"dc/d5b/common_2gamemodes_2gamemode_2__mod_8qh_source.html":[2,0,1,3,0,3],
-"dc/d62/dialog__singleplayer_8qh.html":[2,0,5,4,157],
-"dc/d62/dialog__singleplayer_8qh_source.html":[2,0,5,4,157],
-"dc/d62/playerdemo_8qc.html":[2,0,6,49]
+"dc/d5b/common_2gamemodes_2gamemode_2__mod_8qh_source.html":[2,0,1,3,0,3]
 };

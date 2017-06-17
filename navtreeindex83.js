@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"d9/d64/common_2mutators_2mutator_2bloodloss_2__mod_8qh_source.html":[2,0,1,9,0,0,1],
 "d9/d65/common_2mutators_2mutator_2new__toys_2__mod_8qh.html":[2,0,1,9,0,18,1],
 "d9/d65/common_2mutators_2mutator_2new__toys_2__mod_8qh_source.html":[2,0,1,9,0,18,1],
 "d9/d67/cl__damagetext_8qh.html":[2,0,1,9,0,6,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "d9/d85/classXonoticHUDEngineInfoDialog.html#af1aab403dc54575707fd57991312b201":[1,0,179,47],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,179,27],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,179,15],
-"d9/d85/classXonoticHUDEngineInfoDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,179,39],
-"d9/d85/classXonoticHUDEngineInfoDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,179,2]
+"d9/d85/classXonoticHUDEngineInfoDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,179,39]
 };

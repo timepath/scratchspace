@@ -299,6 +299,7 @@ var searchData=
   ['vr_5fhud',['vr_hud',['../dc/d23/classVehicle.html#af6f42dcff19b7fb5b76462a7d5848b97',1,'Vehicle']]],
   ['vr_5fimpact',['vr_impact',['../dc/d23/classVehicle.html#a962d81e9c45a8f2ad1349065e65d098f',1,'Vehicle']]],
   ['vr_5fprecache',['vr_precache',['../dc/d23/classVehicle.html#a91f922352c8e6ca7b9b56617c530b8b4',1,'Vehicle']]],
+  ['vr_5fsetcolors',['vr_setcolors',['../dc/d23/classVehicle.html#af7f5447512b9c7b0f697dd84c35b1040',1,'Vehicle']]],
   ['vr_5fsetup',['vr_setup',['../dc/d23/classVehicle.html#acd61673a42237365d55777d092f5f5ad',1,'Vehicle']]],
   ['vr_5fspawn',['vr_spawn',['../dc/d23/classVehicle.html#a23b5d8a4e07000e6d08fe727bdf23471',1,'Vehicle']]],
   ['vr_5fthink',['vr_think',['../dc/d23/classVehicle.html#a96f9f5c3ac6195be77b33b68a49bed46',1,'Vehicle']]],

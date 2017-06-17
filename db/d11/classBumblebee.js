@@ -14,6 +14,7 @@ var classBumblebee =
     [ "vr_hud", "db/d11/classBumblebee.html#af6f42dcff19b7fb5b76462a7d5848b97", null ],
     [ "vr_impact", "db/d11/classBumblebee.html#a962d81e9c45a8f2ad1349065e65d098f", null ],
     [ "vr_precache", "db/d11/classBumblebee.html#a91f922352c8e6ca7b9b56617c530b8b4", null ],
+    [ "vr_setcolors", "db/d11/classBumblebee.html#af7f5447512b9c7b0f697dd84c35b1040", null ],
     [ "vr_setup", "db/d11/classBumblebee.html#acd61673a42237365d55777d092f5f5ad", null ],
     [ "vr_spawn", "db/d11/classBumblebee.html#a23b5d8a4e07000e6d08fe727bdf23471", null ],
     [ "vr_think", "db/d11/classBumblebee.html#a96f9f5c3ac6195be77b33b68a49bed46", null ],
