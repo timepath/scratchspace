@@ -479,7 +479,7 @@ var searchData=
   ['solve_5fcubic_5fpq',['solve_cubic_pq',['../d8/d58/calculations_8qc.html#a183c3a3b3707f51936ec7dc51576de8f',1,'calculations.qc']]],
   ['solve_5fquadratic',['solve_quadratic',['../d5/df2/common_2util_8qh.html#aa8861d172bf3f5895e7d852a3c30174e',1,'solve_quadratic(float a, float b, float c):&#160;math.qh'],['../d0/d79/math_8qh.html#aa8861d172bf3f5895e7d852a3c30174e',1,'solve_quadratic(float a, float b, float c):&#160;math.qh']]],
   ['solve_5fshotdirection',['solve_shotdirection',['../da/d44/common_2util_8qc.html#a49bf75a4ee9889876bd90bb6527b6650',1,'solve_shotdirection(vector myorg, vector myvel, vector eorg, vector evel, float spd, float newton_style):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#a49bf75a4ee9889876bd90bb6527b6650',1,'solve_shotdirection(vector myorg, vector myvel, vector eorg, vector evel, float spd, float newton_style):&#160;util.qc']]],
-  ['some_5fspawn_5fhas_5fbeen_5fused',['some_spawn_has_been_used',['../d5/d26/server_2defs_8qh.html#a547834c4ecd381167ed13dfac82a31ec',1,'defs.qh']]],
+  ['some_5fspawn_5fhas_5fbeen_5fused',['some_spawn_has_been_used',['../d5/d26/server_2defs_8qh.html#a7196b775cedbbcdff77d4007e3955625',1,'defs.qh']]],
   ['someshadowcvarisenabled',['someShadowCvarIsEnabled',['../d2/de6/dialog__settings__effects_8qc.html#a39478b3b0ca9d36b8c42ef4ec97c1fc6',1,'dialog_settings_effects.qc']]],
   ['sort_2eqh',['sort.qh',['../db/def/sort_8qh.html',1,'']]],
   ['sort_5fnext',['sort_next',['../dd/d50/sortlist_8qh.html#a450da787d7a603b58fa43e2c6ec08e87',1,'sortlist.qh']]],

@@ -73,7 +73,7 @@ var NAVTREEINDEX =
 "d4/da5/classXonoticBigCommandButton.html#aa7f27de3ff5b3d20ac6122783d29ad40",
 "d4/dd1/spawnpoints_8qh_source.html",
 "d4/df8/sv__touchexplode_8qc.html",
-"d5/d26/server_2defs_8qh.html#a3cb890504a3e0218ed83a60fcba8b17c",
+"d5/d26/server_2defs_8qh.html#a3e22c8ced0d427b277b14fc646a0d2e3",
 "d5/d4a/cl__minigames__hud_8qc.html#a32170c7d7af7b3ca817db8ae4a1c73e0",
 "d5/d6c/classXonoticHUDSkinList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275",
 "d5/d95/classXonoticDialog.html#a67d95732d49da439095483530aca8804",
