@@ -7,5 +7,6 @@ var searchData=
   ['keyframe_2eqc',['keyframe.qc',['../d2/d58/keyframe_8qc.html',1,'']]],
   ['keyframe_2eqh',['keyframe.qh',['../df/dac/keyframe_8qh.html',1,'']]],
   ['keylock_2eqc',['keylock.qc',['../d8/d88/keylock_8qc.html',1,'']]],
-  ['keylock_2eqh',['keylock.qh',['../d1/d4c/keylock_8qh.html',1,'']]]
+  ['keylock_2eqh',['keylock.qh',['../d1/d4c/keylock_8qh.html',1,'']]],
+  ['kill_2eqc',['kill.qc',['../d1/dc2/kill_8qc.html',1,'']]]
 ];

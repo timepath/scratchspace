@@ -1,5 +1,7 @@
 var NAVTREEINDEX111 =
 {
+"dc/de7/bumblebee__weapons_8qc_source.html":[2,0,1,15,0,4],
+"dc/de9/classXonoticRootDialog.html":[1,0,225],
 "dc/de9/classXonoticRootDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,225,32],
 "dc/de9/classXonoticRootDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,225,11],
 "dc/de9/classXonoticRootDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,225,40],
@@ -247,7 +249,5 @@ var NAVTREEINDEX111 =
 "dd/d0f/classTeslaCoilTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,126,33],
 "dd/d0f/classTeslaCoilTurretAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,126,19],
 "dd/d0f/classTeslaCoilTurretAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,126,18],
-"dd/d0f/classTeslaCoilTurretAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,126,30],
-"dd/d0f/classTeslaCoilTurretAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,126,16],
-"dd/d0f/classTeslaCoilTurretAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,126,20]
+"dd/d0f/classTeslaCoilTurretAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,126,30]
 };

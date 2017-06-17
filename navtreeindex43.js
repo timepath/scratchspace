@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"d4/dd1/spawnpoints_8qh_source.html":[2,0,6,63],
+"d4/dd2/vectormamamam_8qh.html":[2,0,1,13,0,37],
 "d4/dd2/vectormamamam_8qh_source.html":[2,0,1,13,0,37],
 "d4/dd3/common_2minigames_2__mod_8inc.html":[2,0,1,6,1],
 "d4/dd3/common_2minigames_2__mod_8inc_source.html":[2,0,1,6,1],
@@ -100,8 +102,8 @@ var NAVTREEINDEX43 =
 "d4/ddc/monster_8qh.html#afd3e4dcd86111739567bc459727cf3ac":[2,0,1,8,5,4],
 "d4/ddc/monster_8qh.html#afeaee4d0dfc550ba9dea5ccc7e9259d6":[2,0,1,8,5,6],
 "d4/ddc/monster_8qh_source.html":[2,0,1,8,5],
-"d4/dde/voicescript_8qh.html":[2,0,1,13,2,17],
-"d4/dde/voicescript_8qh_source.html":[2,0,1,13,2,17],
+"d4/dde/voicescript_8qh.html":[2,0,1,13,2,18],
+"d4/dde/voicescript_8qh_source.html":[2,0,1,13,2,18],
 "d4/de5/client_2hud_2panel_2physics_8qh.html":[2,0,0,1,0,21],
 "d4/de5/client_2hud_2panel_2physics_8qh_source.html":[2,0,0,1,0,21],
 "d4/de8/classRacerAttack.html":[1,0,103],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "d4/df8/classXonoticHUDRadarDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,191,37],
 "d4/df8/classXonoticHUDRadarDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,191,41],
 "d4/df8/classXonoticHUDRadarDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,191,86],
-"d4/df8/classXonoticHUDRadarDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,191,8],
-"d4/df8/sv__touchexplode_8qc.html":[2,0,1,9,0,30,2],
-"d4/df8/sv__touchexplode_8qc.html#a0228a9d2666d52bfede21f623057a28c":[2,0,1,9,0,30,2,7]
+"d4/df8/classXonoticHUDRadarDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,191,8]
 };

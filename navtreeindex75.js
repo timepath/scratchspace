@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"d8/da8/classXonoticServerCreateTab.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,232,8],
+"d8/da8/classXonoticServerCreateTab.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,232,87],
 "d8/da8/classXonoticServerCreateTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,232,56],
 "d8/da8/classXonoticServerCreateTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,232,0],
 "d8/da8/classXonoticServerCreateTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,232,45],
@@ -33,8 +35,8 @@ var NAVTREEINDEX75 =
 "d8/da8/xonotic_2nexposee_8qc.html#acbf99fec3021aba45d363ac614a588cc":[2,0,5,4,182,2],
 "d8/da8/xonotic_2nexposee_8qc.html#ae25f64a5661a1f208a0bd0f671331303":[2,0,5,4,182,0],
 "d8/da8/xonotic_2nexposee_8qc_source.html":[2,0,5,4,182],
-"d8/dae/music_8qc.html":[2,0,1,13,2,10],
-"d8/dae/music_8qc_source.html":[2,0,1,13,2,10],
+"d8/dae/music_8qc.html":[2,0,1,13,2,11],
+"d8/dae/music_8qc_source.html":[2,0,1,13,2,11],
 "d8/db3/slider__decibels_8qc.html":[2,0,5,4,206],
 "d8/db3/slider__decibels_8qc.html#a13f465b048489a8a935abc23b76f43cd":[2,0,5,4,206,9],
 "d8/db3/slider__decibels_8qc.html#a231f02af2977bc665b9ef7cc8d6dcf00":[2,0,5,4,206,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "d8/dc1/sv__monsters_8qh.html#abe732ba6c33322eec8bab6750fee97bb":[2,0,1,8,7,11],
 "d8/dc1/sv__monsters_8qh.html#acc0314fa13b2af99f7b37a472754257b":[2,0,1,8,7,48],
 "d8/dc1/sv__monsters_8qh.html#ad0709bca80c35f0cb1ecd6e07d68d46a":[2,0,1,8,7,57],
-"d8/dc1/sv__monsters_8qh.html#ad38e245a9d1d49f3b9c3314a8adf02a1":[2,0,1,8,7,52],
-"d8/dc1/sv__monsters_8qh.html#ad44ce9c84852d383c13a73159ec63607":[2,0,1,8,7,24],
-"d8/dc1/sv__monsters_8qh.html#ad8628daedf5275fcecb4ac552d7c9fc7":[2,0,1,8,7,34]
+"d8/dc1/sv__monsters_8qh.html#ad38e245a9d1d49f3b9c3314a8adf02a1":[2,0,1,8,7,52]
 };

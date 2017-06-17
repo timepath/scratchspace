@@ -94,6 +94,8 @@ var NAVTREEINDEX13 =
 "d1/dbf/xonotic_2inputbox_8qc_source.html":[2,0,5,4,170],
 "d1/dc2/bugrigs_8qc.html":[2,0,1,9,0,3,2],
 "d1/dc2/bugrigs_8qc_source.html":[2,0,1,9,0,3,2],
+"d1/dc2/kill_8qc.html":[2,0,1,13,2,6],
+"d1/dc2/kill_8qc_source.html":[2,0,1,13,2,6],
 "d1/dc3/classEWheelAttack.html":[1,0,35],
 "d1/dc3/classEWheelAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,35,33],
 "d1/dc3/classEWheelAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,35,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "d1/de2/classFreezeTag.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,39,5],
 "d1/de4/common_2mutators_2mutator_2dodging_2__mod_8inc.html":[2,0,1,9,0,7,0],
 "d1/de4/common_2mutators_2mutator_2dodging_2__mod_8inc_source.html":[2,0,1,9,0,7,0],
-"d1/de6/demolist_8qh.html":[2,0,5,4,37],
-"d1/de6/demolist_8qh.html#a135f1c46b5a65c4d123af0007cff3189":[2,0,5,4,37,3],
-"d1/de6/demolist_8qh.html#a489eb6bba1217b4a1b4c9b5c705812fc":[2,0,5,4,37,4]
+"d1/de6/demolist_8qh.html":[2,0,5,4,37]
 };

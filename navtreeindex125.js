@@ -1,5 +1,7 @@
 var NAVTREEINDEX125 =
 {
+"de/dcb/classMageSpike.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,72,22],
+"de/dcb/classMageSpike.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,72,25],
 "de/dcb/classMageSpike.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,72,17],
 "de/dcb/vector_8qh.html":[2,0,4,63],
 "de/dcb/vector_8qh.html#a050d55163b23ec6432f867b0dbc3d12d":[2,0,4,63,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX125 =
 "df/d0f/classSpiderbot.html#a132ecdb26776feea9e2348bce5da460b":[1,0,121,17],
 "df/d0f/classSpiderbot.html#a2379df983e5dc1eb79ef4927d607f7c8":[1,0,121,20],
 "df/d0f/classSpiderbot.html#a23b5d8a4e07000e6d08fe727bdf23471":[1,0,121,15],
-"df/d0f/classSpiderbot.html#a269c42fb128fc5d56fac3abb21fbcdca":[1,0,121,3],
-"df/d0f/classSpiderbot.html#a3c6f36a5cc87f115257605c783587d6f":[1,0,121,21],
-"df/d0f/classSpiderbot.html#a58f0c04e5979c92f1d5329627cbf1331":[1,0,121,7]
+"df/d0f/classSpiderbot.html#a269c42fb128fc5d56fac3abb21fbcdca":[1,0,121,3]
 };

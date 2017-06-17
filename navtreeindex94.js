@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"db/d11/classBumblebee.html#a91f922352c8e6ca7b9b56617c530b8b4":[1,0,10,13],
+"db/d11/classBumblebee.html#a962d81e9c45a8f2ad1349065e65d098f":[1,0,10,12],
 "db/d11/classBumblebee.html#a96f9f5c3ac6195be77b33b68a49bed46":[1,0,10,16],
 "db/d11/classBumblebee.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,10,6],
 "db/d11/classBumblebee.html#aab0ece981ccf1ff5cfdd9c33d3e9a278":[1,0,10,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "db/d26/gamemode__freezetag_8qc.html#af832e29eda3354ee7a3ab93b5fbdcb03":[2,0,6,3,0,14,23],
 "db/d26/gamemode__freezetag_8qc.html#af97c2433bd423c0c85d333a28c600eea":[2,0,6,3,0,14,14],
 "db/d26/gamemode__freezetag_8qc.html#affefc266eb3d84294da41b9fd66e0a84":[2,0,6,3,0,14,0],
-"db/d26/gamemode__freezetag_8qc_source.html":[2,0,6,3,0,14],
-"db/d29/classXonoticRegisteredSettingsList.html":[1,0,222],
-"db/d29/classXonoticRegisteredSettingsList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,222,16]
+"db/d26/gamemode__freezetag_8qc_source.html":[2,0,6,3,0,14]
 };

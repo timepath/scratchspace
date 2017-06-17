@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"d4/d91/classXonoticCampaignList.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,144,0],
+"d4/d91/classXonoticCampaignList.html#a39d6bec834ecb0cb4bd1c25e469f484b":[1,0,144,84],
 "d4/d91/classXonoticCampaignList.html#a405b285a76ac127664593c89281a5b63":[1,0,144,64],
 "d4/d91/classXonoticCampaignList.html#a40f1628a9c5f15fc2f6a42ad55371f0b":[1,0,144,6],
 "d4/d91/classXonoticCampaignList.html#a424bae23a67a4f098e6ebcdd1ede4a9b":[1,0,144,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "d4/d94/classXonoticHUDVoteDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,195,42],
 "d4/d94/classXonoticHUDVoteDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,195,64],
 "d4/d94/classXonoticHUDVoteDialog.html#a67d95732d49da439095483530aca8804":[1,0,195,53],
-"d4/d94/classXonoticHUDVoteDialog.html#a6be15c952d3e6f65de69088ce31ab0ab":[1,0,195,83],
-"d4/d94/classXonoticHUDVoteDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,195,76],
-"d4/d94/classXonoticHUDVoteDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,195,18]
+"d4/d94/classXonoticHUDVoteDialog.html#a6be15c952d3e6f65de69088ce31ab0ab":[1,0,195,83]
 };

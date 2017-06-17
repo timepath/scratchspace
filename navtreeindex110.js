@@ -1,5 +1,7 @@
 var NAVTREEINDEX110 =
 {
+"dc/dc6/server_2miscfunctions_8qc.html#a5ea7bf591f44cf22ed52a48b1aa4f012":[2,0,6,45,34],
+"dc/dc6/server_2miscfunctions_8qc.html#a61476a376cb611a07898472f6a639c08":[2,0,6,45,43],
 "dc/dc6/server_2miscfunctions_8qc.html#a624314975ec1563eb689b613d886d64d":[2,0,6,45,72],
 "dc/dc6/server_2miscfunctions_8qc.html#a62c381a8dd53927f035d3f51b303e108":[2,0,6,45,75],
 "dc/dc6/server_2miscfunctions_8qc.html#a66be1bd498c66b540b076cd3c5c81d46":[2,0,6,45,55],
@@ -247,7 +249,5 @@ var NAVTREEINDEX110 =
 "dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,136,22],
 "dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84":[1,0,136,25],
 "dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,136,17],
-"dc/de7/bumblebee__weapons_8qc.html":[2,0,1,15,0,4],
-"dc/de7/bumblebee__weapons_8qc_source.html":[2,0,1,15,0,4],
-"dc/de9/classXonoticRootDialog.html":[1,0,225]
+"dc/de7/bumblebee__weapons_8qc.html":[2,0,1,15,0,4]
 };

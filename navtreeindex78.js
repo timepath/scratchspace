@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9":[2,0,6,20,6],
+"d8/de2/server_2client_8qh.html#afc32312bf25df126b18e078bedab7837":[2,0,6,20,8],
 "d8/de2/server_2client_8qh_source.html":[2,0,6,20],
 "d8/de3/common_2turrets_2turret_2__mod_8qh.html":[2,0,1,14,0,1],
 "d8/de3/common_2turrets_2turret_2__mod_8qh_source.html":[2,0,1,14,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "d9/d08/client_2defs_8qh.html#a625a66e92b24850b15f246b42891aa55":[2,0,0,16,7],
 "d9/d08/client_2defs_8qh.html#a67234b7e3097a12ec7d56566276b1295":[2,0,0,16,17],
 "d9/d08/client_2defs_8qh.html#a6a685bb087beb5881b139f7ea6497e67":[2,0,0,16,2],
-"d9/d08/client_2defs_8qh.html#a6b17a65dd7a85e465430a85ae6a3cdcf":[2,0,0,16,0],
-"d9/d08/client_2defs_8qh.html#a6f43436dba652760ff17d18ed5bdf975":[2,0,0,16,22],
-"d9/d08/client_2defs_8qh.html#a72abba51d925066d5b85f6b761aec740":[2,0,0,16,30]
+"d9/d08/client_2defs_8qh.html#a6b17a65dd7a85e465430a85ae6a3cdcf":[2,0,0,16,0]
 };
