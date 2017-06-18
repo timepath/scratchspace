@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"d9/d4f/deathtypes_2all_8qh.html#ae97c6e4b865e8ba3172ec12006c87379":[2,0,1,1,4,20],
 "d9/d4f/deathtypes_2all_8qh.html#aed2b0f7718db6f6b5bc9ebda3c8b4c41":[2,0,1,1,4,1],
 "d9/d4f/deathtypes_2all_8qh.html#aef6fa079502aff69a43b0627c85d8efb":[2,0,1,1,4,21],
 "d9/d4f/deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8":[2,0,1,1,4,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "d9/d63/dialog__settings__misc_8qc.html#a5786cd08c685fc121f4bb2b2a0941e75":[2,0,5,4,144,3],
 "d9/d63/dialog__settings__misc_8qc.html#a755b16317837b5f0e400be477cfcbd48":[2,0,5,4,144,2],
 "d9/d63/dialog__settings__misc_8qc.html#a7707737a1af6533a233051fc24bb1ab2":[2,0,5,4,144,4],
-"d9/d63/dialog__settings__misc_8qc_source.html":[2,0,5,4,144],
-"d9/d64/common_2mutators_2mutator_2bloodloss_2__mod_8qh.html":[2,0,1,9,0,0,1]
+"d9/d63/dialog__settings__misc_8qc_source.html":[2,0,5,4,144]
 };

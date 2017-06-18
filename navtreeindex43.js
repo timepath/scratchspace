@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"d4/dd1/spawnpoints_8qh.html#ac6bf8417de66cc27e1aad493335d2901":[2,0,6,63,1],
 "d4/dd1/spawnpoints_8qh_source.html":[2,0,6,63],
 "d4/dd2/vectormamamam_8qh.html":[2,0,1,13,0,37],
 "d4/dd2/vectormamamam_8qh_source.html":[2,0,1,13,0,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "d4/df8/classXonoticHUDRadarDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,191,2],
 "d4/df8/classXonoticHUDRadarDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,191,37],
 "d4/df8/classXonoticHUDRadarDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,191,41],
-"d4/df8/classXonoticHUDRadarDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,191,86],
-"d4/df8/classXonoticHUDRadarDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,191,8]
+"d4/df8/classXonoticHUDRadarDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,191,86]
 };

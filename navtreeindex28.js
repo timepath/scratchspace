@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"d3/da1/common_2monsters_2monster_2__mod_8qh_source.html":[2,0,1,8,0,1],
 "d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh.html":[2,0,1,9,0,21,1],
 "d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh_source.html":[2,0,1,9,0,21,1],
 "d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh.html":[2,0,1,9,0,22,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d3/dba/classXonoticLanguageList.html#af28166c7c1bd21131efd49ed2172dc02":[1,0,201,50],
 "d3/dba/classXonoticLanguageList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,201,33],
 "d3/dba/classXonoticLanguageList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,201,24],
-"d3/dba/classXonoticLanguageList.html#afdcf1fb79903f747cda494b27206526b":[1,0,201,1],
-"d3/dbd/dialog__firstrun_8qc.html":[2,0,5,4,42]
+"d3/dba/classXonoticLanguageList.html#afdcf1fb79903f747cda494b27206526b":[1,0,201,1]
 };
