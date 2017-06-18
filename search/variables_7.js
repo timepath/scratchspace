@@ -81,7 +81,7 @@ var searchData=
   ['gametype',['gametype',['../d0/d2a/client_2main_8qh.html#a796761bb60e941804441ef425b24d86c',1,'gametype():&#160;main.qh'],['../df/d42/quake3_8qc.html#a2b5940622e65c2f4e246f117173ec146',1,'gametype():&#160;quake3.qc']]],
   ['gametypefilter',['gametypefilter',['../d3/d4f/sv__main_8qc.html#a3091fb79d4fcf740c1042eb85822efe2',1,'sv_main.qc']]],
   ['gametypevote',['gametypevote',['../d4/d0d/client_2mapvoting_8qc.html#af7c6ecec79249608330dcc9872b1fdbd',1,'gametypevote():&#160;mapvoting.qc'],['../d3/d53/server_2mapvoting_8qh.html#af7c6ecec79249608330dcc9872b1fdbd',1,'gametypevote():&#160;mapvoting.qh']]],
-  ['gametypevote_5ffinished',['gametypevote_finished',['../d2/d76/server_2mapvoting_8qc.html#ad8b6271f8144b3c1cdf309c335545feb',1,'mapvoting.qc']]],
+  ['gametypevote_5ffinished',['gametypevote_finished',['../d2/d76/server_2mapvoting_8qc.html#a7f2dff421f55e857ae65125352b4d232',1,'mapvoting.qc']]],
   ['gecko_5fbutton_5fdoubleclick',['GECKO_BUTTON_DOUBLECLICK',['../d8/de2/menudefs_8qc.html#abd6700f55dc03a03d4196c7305b3d598',1,'menudefs.qc']]],
   ['gecko_5fbutton_5fdown',['GECKO_BUTTON_DOWN',['../d8/de2/menudefs_8qc.html#a1ed2c8a8761e7793a6b93da1e4408ab6',1,'menudefs.qc']]],
   ['gecko_5fbutton_5fpress',['GECKO_BUTTON_PRESS',['../d8/de2/menudefs_8qc.html#a066114767745c68101935aeb9d028159',1,'menudefs.qc']]],
