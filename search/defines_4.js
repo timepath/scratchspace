@@ -12,6 +12,7 @@ var searchData=
   ['death_5fisweapon',['DEATH_ISWEAPON',['../d9/d4f/deathtypes_2all_8qh.html#a3d2a6e3591b346acd119e615627b5f5b',1,'all.qh']]],
   ['death_5fweaponof',['DEATH_WEAPONOF',['../d9/d4f/deathtypes_2all_8qh.html#ad5aa4530e732a8bb74be927221610971',1,'all.qh']]],
   ['deathtypes_5ffrom',['Deathtypes_from',['../d9/d4f/deathtypes_2all_8qh.html#ab02fffb66632ecbfb66201c5e5c86203',1,'all.qh']]],
+  ['debug_5fstuff',['DEBUG_STUFF',['../db/d0a/oo_8qh.html#a06c95fed21e7e5880d8b7ed56c0c34c0',1,'oo.qh']]],
   ['debugpathing',['DEBUGPATHING',['../dd/d70/pathlib_8qh.html#ac484531f596092c0ab17f29b14dbeab4',1,'pathlib.qh']]],
   ['dec_5fto_5fhexdigit',['DEC_TO_HEXDIGIT',['../d2/db4/string_8qh.html#ab9cc51225f98703626978ab0de95744b',1,'string.qh']]],
   ['def',['DEF',['../dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862',1,'effectinfo.qc']]],
