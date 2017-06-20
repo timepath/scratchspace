@@ -325,14 +325,14 @@ $(document).ready(function(){initNavTree('de/dbe/mage_8qc_source.html','../../')
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    FOREACH_ENTITY_RADIUS(this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a>, autocvar_g_monster_mage_heal_range, M_Mage_Defend_Heal_Check(<span class="keyword">this</span>, it),</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    {</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        washealed = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="keywordtype">string</span> fx = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> fx = EFFECT_Null;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it))</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        {</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            <span class="keywordflow">switch</span>(this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a4a71e1a0228e5137bd88f375acd8c15c">skin</a>)</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            {</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                <span class="keywordflow">case</span> 0:</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                    <span class="keywordflow">if</span>(it.health &lt; <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a7f6dba58d142f571bf610f4305ec6d7e">autocvar_g_balance_health_regenstable</a>) it.health = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, it.health + (autocvar_g_monster_mage_heal_allies), <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a7f6dba58d142f571bf610f4305ec6d7e">autocvar_g_balance_health_regenstable</a>);</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                    fx = EFFECT_HEALING.eent_eff_name;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                    fx = EFFECT_HEALING;</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                    <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                <span class="keywordflow">case</span> 1:</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                    <span class="keywordflow">if</span>(it.ammo_cells) it.ammo_cells = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(it.ammo_cells, it.ammo_cells + 1, <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a4a9a150f9240d2c5baed3c6ddada2b36">g_pickup_cells_max</a>);</div>
@@ -340,22 +340,22 @@ $(document).ready(function(){initNavTree('de/dbe/mage_8qc_source.html','../../')
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                    <span class="keywordflow">if</span>(it.ammo_rockets) it.ammo_rockets = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(it.ammo_rockets, it.ammo_rockets + 1, <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a9ff5e9d2d1bfee1d4e2cc9cb4adbe685">g_pickup_rockets_max</a>);</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                    <span class="keywordflow">if</span>(it.ammo_shells) it.ammo_shells = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(it.ammo_shells, it.ammo_shells + 2, <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a7c0b5437bd9ea2c12fb0e79b57699267">g_pickup_shells_max</a>);</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                    <span class="keywordflow">if</span>(it.ammo_nails) it.ammo_nails = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(it.ammo_nails, it.ammo_nails + 5, <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ae2af274123d9eb356c89a1d02c121820">g_pickup_nails_max</a>);</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                    fx = <span class="stringliteral">&quot;ammoregen_fx&quot;</span>;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                    fx = EFFECT_AMMO_REGEN;</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                    <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                <span class="keywordflow">case</span> 2:</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                    <span class="keywordflow">if</span>(it.armorvalue &lt; <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a9524791b99920722a5bbe5cdeec8c3a5">autocvar_g_balance_armor_regenstable</a>)</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                    {</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                        it.armorvalue = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, it.armorvalue + (autocvar_g_monster_mage_heal_allies), <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a9524791b99920722a5bbe5cdeec8c3a5">autocvar_g_balance_armor_regenstable</a>);</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                        fx = <span class="stringliteral">&quot;armorrepair_fx&quot;</span>;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                        fx = EFFECT_ARMOR_REPAIR;</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                    }</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                    <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                <span class="keywordflow">case</span> 3:</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                    it.health = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, it.health - ((it == <span class="keyword">this</span>)  ? (autocvar_g_monster_mage_heal_self) : (autocvar_g_monster_mage_heal_allies)), <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a7f6dba58d142f571bf610f4305ec6d7e">autocvar_g_balance_health_regenstable</a>);</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                    fx = EFFECT_RAGE.eent_eff_name;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                    fx = EFFECT_RAGE;</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                    <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            }</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            Send_Effect_(fx, it.origin, <span class="stringliteral">&#39;0 0 0&#39;</span>, 1);</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            Send_Effect(fx, it.origin, <span class="stringliteral">&#39;0 0 0&#39;</span>, 1);</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        }</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        {</div>
@@ -686,7 +686,7 @@ $(document).ready(function(){initNavTree('de/dbe/mage_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_fe472327f69aa9464440251988e1566b.html">monsters</a></li><li class="navelem"><a class="el" href="../../dir_e6c42c7209c9f61c67adece747613852.html">monster</a></li><li class="navelem"><a class="el" href="../../de/dbe/mage_8qc.html">mage.qc</a></li>
-    <li class="footer">Generated on Tue Jun 20 2017 03:48:42 for Xonotic by
+    <li class="footer">Generated on Tue Jun 20 2017 11:22:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
