@@ -1,5 +1,6 @@
 var NAVTREEINDEX124 =
 {
+"de/d8c/classWyvernAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,139,35],
 "de/d8c/classWyvernAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,139,22],
 "de/d8c/classWyvernAttack.html#ae1b596b707d1f678083f3e5265cabf81":[1,0,139,28],
 "de/d8c/classWyvernAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,139,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX124 =
 "de/dcb/classMageSpike.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,72,6],
 "de/dcb/classMageSpike.html#a9b179e6663f5bc79649d313a16125617":[1,0,72,28],
 "de/dcb/classMageSpike.html#aa0a5f1de6ba7228907295012902a136a":[1,0,72,29],
-"de/dcb/classMageSpike.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,72,13],
-"de/dcb/classMageSpike.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,72,0]
+"de/dcb/classMageSpike.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,72,13]
 };

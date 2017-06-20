@@ -43,5 +43,6 @@ var sv__vehicles_8qc =
     [ "vehicles_think", "da/d10/sv__vehicles_8qc.html#a849a38f311767a9e206e878bec7932ed", null ],
     [ "vehicles_touch", "da/d10/sv__vehicles_8qc.html#a2bce3d35334f0f1d42dcfb694b1df6af", null ],
     [ "axh_prevcolors", "da/d10/sv__vehicles_8qc.html#af017ca12b4899519b7181466443f37b0", null ],
-    [ "axh_prevorigin", "da/d10/sv__vehicles_8qc.html#a59fc9c57ccdb2ff45e767dadd8aa8aa9", null ]
+    [ "axh_prevorigin", "da/d10/sv__vehicles_8qc.html#a59fc9c57ccdb2ff45e767dadd8aa8aa9", null ],
+    [ "old_vehicle_flags", "da/d10/sv__vehicles_8qc.html#a8299d22b4e6ef7d44219219d79aa13be", null ]
 ];

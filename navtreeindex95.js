@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"db/d26/gamemode__freezetag_8qc.html#ad5ca08e00dc5a1d87a6c529e52c76018":[2,0,6,3,0,14,20],
 "db/d26/gamemode__freezetag_8qc.html#ae3960f48d8c0d090b0eb6ce705f38ee8":[2,0,6,3,0,14,35],
 "db/d26/gamemode__freezetag_8qc.html#aecaf603575690431620b9b72705509d4":[2,0,6,3,0,14,25],
 "db/d26/gamemode__freezetag_8qc.html#aee1dac91a06305051bdcfbef40a659d0":[2,0,6,3,0,14,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "db/d38/classXonoticSliderCheckBox.html#a1a55e3b961b4986ce5dda62bd05b8ec5":[1,0,240,48],
 "db/d38/classXonoticSliderCheckBox.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,240,31],
 "db/d38/classXonoticSliderCheckBox.html#a1f71e31fd265ca4fba4bccee3a807b09":[1,0,240,36],
-"db/d38/classXonoticSliderCheckBox.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,240,54],
-"db/d38/classXonoticSliderCheckBox.html#a21fdc6c151d9e721da87eaaa8a04e3f9":[1,0,240,9]
+"db/d38/classXonoticSliderCheckBox.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,240,54]
 };
