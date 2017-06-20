@@ -1,5 +1,7 @@
 var NAVTREEINDEX116 =
 {
+"dd/da3/classXonoticMusicPlayerTab.html#a4ea7c20cb2fdcd697e615ff23e00158d":[1,0,210,70],
+"dd/da3/classXonoticMusicPlayerTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,210,46],
 "dd/da3/classXonoticMusicPlayerTab.html#a53de8355052b658819638577356cc8f3":[1,0,210,58],
 "dd/da3/classXonoticMusicPlayerTab.html#a57f095a3d8fcf847f10d7f5ffa3b5650":[1,0,210,79],
 "dd/da3/classXonoticMusicPlayerTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,210,90],
@@ -247,7 +249,5 @@ var NAVTREEINDEX116 =
 "dd/db3/classXonoticQuitDialog.html#aa8da3f783d5bad11252adc81287204c1":[1,0,220,59],
 "dd/db3/classXonoticQuitDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,220,10],
 "dd/db3/classXonoticQuitDialog.html#aaba8e96087e0fa4e99af31feb3d8d1e1":[1,0,220,90],
-"dd/db3/classXonoticQuitDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,220,35],
-"dd/db3/classXonoticQuitDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,220,36],
-"dd/db3/classXonoticQuitDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,220,5]
+"dd/db3/classXonoticQuitDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,220,35]
 };
