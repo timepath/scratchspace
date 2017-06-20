@@ -37,5 +37,6 @@ var gamemode__invasion_8qc =
     [ "autocvar_g_invasion_zombies_only", "d5/d1f/gamemode__invasion_8qc.html#adb135781f311cfeda2846cb4a8f3cc53", null ],
     [ "g_invasion_spawns", "d5/d1f/gamemode__invasion_8qc.html#ad0172f050477dc1d65d9e21b5ae0bd3b", null ],
     [ "g_invasion_waves", "d5/d1f/gamemode__invasion_8qc.html#a6313fca048197dd32dbfc016c61f27c7", null ],
+    [ "inv_warning_shown", "d5/d1f/gamemode__invasion_8qc.html#ae0c6917267edca208b7769842e9daa50", null ],
     [ "spawnmob", "d5/d1f/gamemode__invasion_8qc.html#a6dc66623f06daa36544b6934c48d9291", null ]
 ];

@@ -1,5 +1,8 @@
 var NAVTREEINDEX81 =
 {
+"d9/d22/gamemode__cts_8qh_source.html":[2,0,6,3,0,9],
+"d9/d23/sv__nix_8qh.html":[2,0,1,9,0,19,3],
+"d9/d23/sv__nix_8qh_source.html":[2,0,1,9,0,19,3],
 "d9/d28/client_2hud_2panel_2vote_8qh.html":[2,0,0,1,0,39],
 "d9/d28/client_2hud_2panel_2vote_8qh_source.html":[2,0,0,1,0,39],
 "d9/d28/porto_8qc.html":[2,0,1,16,0,26],
@@ -246,8 +249,5 @@ var NAVTREEINDEX81 =
 "d9/d4f/deathtypes_2all_8qh.html#a8b0807eaa5811916173821fe530e8b3b":[2,0,1,1,4,12],
 "d9/d4f/deathtypes_2all_8qh.html#a9fa337907adcd92c324cbd78fbb4514e":[2,0,1,1,4,5],
 "d9/d4f/deathtypes_2all_8qh.html#ab02fffb66632ecbfb66201c5e5c86203":[2,0,1,1,4,8],
-"d9/d4f/deathtypes_2all_8qh.html#ab228bbc4e90e596f0f88f2556ee96c59":[2,0,1,1,4,10],
-"d9/d4f/deathtypes_2all_8qh.html#abc6dc7c95f02a98653fda249b1450b6c":[2,0,1,1,4,2],
-"d9/d4f/deathtypes_2all_8qh.html#abfeb8ab3b6f6ad47eabcf0cb3d206b5a":[2,0,1,1,4,22],
-"d9/d4f/deathtypes_2all_8qh.html#ad5aa4530e732a8bb74be927221610971":[2,0,1,1,4,7]
+"d9/d4f/deathtypes_2all_8qh.html#ab228bbc4e90e596f0f88f2556ee96c59":[2,0,1,1,4,10]
 };

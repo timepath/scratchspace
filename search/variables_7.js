@@ -27,6 +27,7 @@ var searchData=
   ['g_5flocations',['g_locations',['../d5/d26/server_2defs_8qh.html#a286aa643b808c665c740bc03537fa2d2',1,'defs.qh']]],
   ['g_5fmagic_5fstats_5fhole',['g_magic_stats_hole',['../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06',1,'stats.qh']]],
   ['g_5fmines',['g_mines',['../d5/d26/server_2defs_8qh.html#a09b90b074ff2e0e4a884221e80215fc6',1,'defs.qh']]],
+  ['g_5fmonster_5ftargets',['g_monster_targets',['../d5/d26/server_2defs_8qh.html#a60ee01a09f94613cad0362660e5b8a9f',1,'defs.qh']]],
   ['g_5fmonsters',['g_monsters',['../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2',1,'defs.qh']]],
   ['g_5fnexball_5fmeter_5fperiod',['g_nexball_meter_period',['../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778',1,'defs.qh']]],
   ['g_5fnix_5fwith_5fblaster',['g_nix_with_blaster',['../d7/d39/sv__nix_8qc.html#a6d1fd35971b236c28492b19236e444c2',1,'sv_nix.qc']]],

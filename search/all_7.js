@@ -52,6 +52,7 @@ var searchData=
   ['g_5fmodel_5fsetcolormaptoactivator',['g_model_setcolormaptoactivator',['../d2/d37/g__models_8qc.html#ac2e00d0f5ac84dc6db7d079afd5c75f7',1,'g_models.qc']]],
   ['g_5fmodels_2eqc',['g_models.qc',['../d2/d37/g__models_8qc.html',1,'']]],
   ['g_5fmodels_2eqh',['g_models.qh',['../da/dd4/g__models_8qh.html',1,'']]],
+  ['g_5fmonster_5ftargets',['g_monster_targets',['../d5/d26/server_2defs_8qh.html#a60ee01a09f94613cad0362660e5b8a9f',1,'defs.qh']]],
   ['g_5fmonsters',['g_monsters',['../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2',1,'defs.qh']]],
   ['g_5fnexball',['g_nexball',['../d2/d9e/mapinfo_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959',1,'mapinfo.qh']]],
   ['g_5fnexball_5fmeter_5fperiod',['g_nexball_meter_period',['../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778',1,'defs.qh']]],

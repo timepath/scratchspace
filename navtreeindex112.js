@@ -1,5 +1,8 @@
 var NAVTREEINDEX112 =
 {
+"dd/d0a/effects_8inc.html#a8a0ed5b58c510845aa0742999d5dc5f9":[2,0,1,9,0,17,2,2],
+"dd/d0a/effects_8inc.html#ab161cbb17923e1f6e3ad7875041fc2aa":[2,0,1,9,0,17,2,1],
+"dd/d0a/effects_8inc_source.html":[2,0,1,9,0,17,2],
 "dd/d0f/classTeslaCoilTurretAttack.html":[1,0,126],
 "dd/d0f/classTeslaCoilTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,126,33],
 "dd/d0f/classTeslaCoilTurretAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,126,19],
@@ -117,10 +120,10 @@ var NAVTREEINDEX112 =
 "dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921":[2,0,6,1,2,6],
 "dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324":[2,0,6,1,2,7],
 "dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1":[2,0,6,1,2,8],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,3],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,2],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
 "dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0":[2,0,6,1,2,11],
 "dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca":[2,0,6,1,2,12],
 "dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114":[2,0,6,1,2,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX112 =
 "dd/d36/halflife_8qc.html#a558ba5227d58e9323f8cc5e3472ff021":[2,0,6,2,2,5],
 "dd/d36/halflife_8qc.html#a5661932b8f10df10144ad288695f18b8":[2,0,6,2,2,2],
 "dd/d36/halflife_8qc.html#a74517fdf2789fd487211473b4d2fd4e2":[2,0,6,2,2,6],
-"dd/d36/halflife_8qc.html#a83047a2827586ffa2690c6431bcb609b":[2,0,6,2,2,15],
-"dd/d36/halflife_8qc.html#a89a42c2c91705cac0a66952229506612":[2,0,6,2,2,10],
-"dd/d36/halflife_8qc.html#a8e051b81df670556d7f1a977cd41e1fe":[2,0,6,2,2,0],
-"dd/d36/halflife_8qc.html#a957d3a67865793484a8accc91581c342":[2,0,6,2,2,13]
+"dd/d36/halflife_8qc.html#a83047a2827586ffa2690c6431bcb609b":[2,0,6,2,2,15]
 };
