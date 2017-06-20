@@ -6,7 +6,6 @@ var classMage =
     [ "mr_anim", "d0/d28/classMage.html#a98fd6d803cf7376820bb26fcbca5adbd", null ],
     [ "mr_death", "d0/d28/classMage.html#a6dcca2c26e36342b5286873a74793cae", null ],
     [ "mr_pain", "d0/d28/classMage.html#abbd3a53ddd2019b6933a9e40910cfc58", null ],
-    [ "mr_precache", "d0/d28/classMage.html#a24b4136b7b62e15cc5df0c04289434ca", null ],
     [ "mr_setup", "d0/d28/classMage.html#a84829255027bd85cf33ef0418ef5c975", null ],
     [ "mr_think", "d0/d28/classMage.html#adc5acc9cbff0fdce03b8253cfa102777", null ],
     [ "m_maxs", "d0/d28/classMage.html#ab6b9b4403363c71167dc8c5c5bd22452", null ],

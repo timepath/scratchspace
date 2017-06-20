@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"d0/d41/menu_8qh.html#a48ddbc4143946234b2a42d4cf1112dc4":[2,0,5,18,9],
 "d0/d41/menu_8qh.html#a491da4d42d2639395d76dcf8d9d1dff4":[2,0,5,18,14],
 "d0/d41/menu_8qh.html#a491eb50e99cd8d5994e8080026f200cb":[2,0,5,18,11],
 "d0/d41/menu_8qh.html#a4bd11f06d96b45bdf353de5f9acb0be1":[2,0,5,18,20],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "d0/d72/lib_2warpzone_2client_8qc.html#a295339443c4957cce0bd0fe831cf64c8":[2,0,4,2,4,3],
 "d0/d72/lib_2warpzone_2client_8qc.html#a3ffef105e69ca5cd4e07ffeae58d80e8":[2,0,4,2,4,4],
 "d0/d72/lib_2warpzone_2client_8qc.html#a441061149623ecc221416e51bb17c337":[2,0,4,2,4,6],
-"d0/d72/lib_2warpzone_2client_8qc.html#a44e847786eb2ba1a67611972a2db2ed3":[2,0,4,2,4,14]
+"d0/d72/lib_2warpzone_2client_8qc.html#a44e847786eb2ba1a67611972a2db2ed3":[2,0,4,2,4,14],
+"d0/d72/lib_2warpzone_2client_8qc.html#aac8a5f6387de169d2367b35c68131413":[2,0,4,2,4,2]
 };

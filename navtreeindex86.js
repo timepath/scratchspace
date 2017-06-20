@@ -1,10 +1,5 @@
 var NAVTREEINDEX86 =
 {
-"d9/de7/jumppads_8qh.html#aa84d3aad660768afd9d456786e2d71fe":[2,0,1,13,3,23,12],
-"d9/de7/jumppads_8qh.html#ae06022ef64f0fecd8f5ab5ad77f1ee3d":[2,0,1,13,3,23,3],
-"d9/de7/jumppads_8qh.html#aea48339798453aef3726fe26f97a9bc2":[2,0,1,13,3,23,11],
-"d9/de7/jumppads_8qh.html#aeb124e9cd9ff6aa1d896e02a10fc6ff9":[2,0,1,13,3,23,6],
-"d9/de7/jumppads_8qh.html#af9c0b2977949fec49fd620fe323b4cac":[2,0,1,13,3,23,10],
 "d9/de7/jumppads_8qh.html#affeed36a4bfbccc789a223127cd20da4":[2,0,1,13,3,23,2],
 "d9/de7/jumppads_8qh_source.html":[2,0,1,13,3,23],
 "d9/de7/server_2constants_8qh.html":[2,0,6,21],
@@ -249,5 +244,10 @@ var NAVTREEINDEX86 =
 "d9/df7/mathlib_8qh.html#aa6f399de48f2f680abf1eecbb4c03b37":[2,0,4,2,9,3],
 "d9/df7/mathlib_8qh.html#aa7fc3f886d2de787856fda7958809a2e":[2,0,4,2,9,18],
 "d9/df7/mathlib_8qh.html#aab50993c512d8ea75053a17e20b58f11":[2,0,4,2,9,50],
-"d9/df7/mathlib_8qh.html#aafcdc9c04e9097cc4020c09d8bca857f":[2,0,4,2,9,66]
+"d9/df7/mathlib_8qh.html#aafcdc9c04e9097cc4020c09d8bca857f":[2,0,4,2,9,66],
+"d9/df7/mathlib_8qh.html#ab87e208dbc0e5fa949961edc72c452ab":[2,0,4,2,9,40],
+"d9/df7/mathlib_8qh.html#ab907f2d483927b268635737c22af9782":[2,0,4,2,9,21],
+"d9/df7/mathlib_8qh.html#ac830c79413f62de42d8717c102ad7933":[2,0,4,2,9,23],
+"d9/df7/mathlib_8qh.html#acac8dd6a4745aac6c1c2fc1b0f575a5e":[2,0,4,2,9,46],
+"d9/df7/mathlib_8qh.html#ad5487db6adbf8e046a7dc5ea034ba501":[2,0,4,2,9,38]
 };

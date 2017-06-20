@@ -1,10 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"df/d28/sv__turrets_8qh.html#a1a72475c9a77225463fc38559463c578":[2,0,1,14,14,48],
-"df/d28/sv__turrets_8qh.html#a1d5d8b69dda4acca14207e5ffa084ca7":[2,0,1,14,14,64],
-"df/d28/sv__turrets_8qh.html#a1e97a5c836a558a1321721c59fb50de2":[2,0,1,14,14,43],
-"df/d28/sv__turrets_8qh.html#a2237d76659e456913df196d485d4efb4":[2,0,1,14,14,61],
-"df/d28/sv__turrets_8qh.html#a228b8db97032e558815f2ce98430dce5":[2,0,1,14,14,70],
 "df/d28/sv__turrets_8qh.html#a2b7119286e47892c55289192607cd528":[2,0,1,14,14,4],
 "df/d28/sv__turrets_8qh.html#a332de5647b4049b0c0578521988f16fb":[2,0,1,14,14,69],
 "df/d28/sv__turrets_8qh.html#a3617fc541b11649482813bbfff5aaa6c":[2,0,1,14,14,32],
@@ -249,5 +244,10 @@ var NAVTREEINDEX127 =
 "df/d44/dialog__settings__video_8qh_source.html":[2,0,5,4,155],
 "df/d49/classSound.html":[1,0,117],
 "df/d49/classSound.html#a2d1ec80135b30ebeaf6b83fbc866245f":[1,0,117,2],
-"df/d49/classSound.html#a3ed2cad33866839887c319ee5c10dd67":[1,0,117,0]
+"df/d49/classSound.html#a3ed2cad33866839887c319ee5c10dd67":[1,0,117,0],
+"df/d49/classSound.html#a62a0dfe148f6ebd2ecf59f872dfec298":[1,0,117,6],
+"df/d49/classSound.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,117,3],
+"df/d49/classSound.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,117,4],
+"df/d49/classSound.html#ab00e99633c0c7e997a4745557395263a":[1,0,117,1],
+"df/d49/classSound.html#ad3474b173c3cc7d35fa96a04929d0378":[1,0,117,5]
 };

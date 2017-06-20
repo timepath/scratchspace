@@ -6,7 +6,6 @@ var classShambler =
     [ "mr_anim", "d8/dee/classShambler.html#a98fd6d803cf7376820bb26fcbca5adbd", null ],
     [ "mr_death", "d8/dee/classShambler.html#a6dcca2c26e36342b5286873a74793cae", null ],
     [ "mr_pain", "d8/dee/classShambler.html#abbd3a53ddd2019b6933a9e40910cfc58", null ],
-    [ "mr_precache", "d8/dee/classShambler.html#a24b4136b7b62e15cc5df0c04289434ca", null ],
     [ "mr_setup", "d8/dee/classShambler.html#a84829255027bd85cf33ef0418ef5c975", null ],
     [ "mr_think", "d8/dee/classShambler.html#adc5acc9cbff0fdce03b8253cfa102777", null ],
     [ "m_maxs", "d8/dee/classShambler.html#a79ad5ef23803863617f40a7b952bdc1f", null ],

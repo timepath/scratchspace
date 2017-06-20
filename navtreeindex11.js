@@ -1,7 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"d1/d70/classXonoticSoundList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,241,59],
-"d1/d70/classXonoticSoundList.html#aa0be1afcee01b4904e9b7ccc15674b53":[1,0,241,4],
 "d1/d70/classXonoticSoundList.html#aa222b2225d48027d39c79565f3400a5f":[1,0,241,27],
 "d1/d70/classXonoticSoundList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,241,41],
 "d1/d70/classXonoticSoundList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,241,11],
@@ -249,5 +247,7 @@ var NAVTREEINDEX11 =
 "d1/d8a/client_2weapons_2__mod_8qh_source.html":[2,0,0,3,1],
 "d1/d8c/common_2triggers_2func_2__mod_8inc.html":[2,0,1,13,0,0],
 "d1/d8c/common_2triggers_2func_2__mod_8inc_source.html":[2,0,1,13,0,0],
-"d1/d8d/wall_8qc.html":[2,0,0,32]
+"d1/d8d/wall_8qc.html":[2,0,0,32],
+"d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c":[2,0,0,32,6],
+"d1/d8d/wall_8qc.html#a7a77c97726a1d9f1e60ef7dddef838c5":[2,0,0,32,3]
 };
