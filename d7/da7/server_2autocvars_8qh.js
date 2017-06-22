@@ -406,6 +406,7 @@ var server_2autocvars_8qh =
     [ "autocvar_sv_aircontrol_backwards", "d7/da7/server_2autocvars_8qh.html#a5b6e6549c4373deb62072ac9189fd24f", null ],
     [ "autocvar_sv_aircontrol_penalty", "d7/da7/server_2autocvars_8qh.html#a818b2f36f889de7f5318acb940b943ea", null ],
     [ "autocvar_sv_aircontrol_power", "d7/da7/server_2autocvars_8qh.html#ab35b6cdbffbedbe023cf9347f6a0eb34", null ],
+    [ "autocvar_sv_aircontrol_sidewards", "d7/da7/server_2autocvars_8qh.html#af47ba8aa8582a73d1d3b9c6b3c66dfdb", null ],
     [ "autocvar_sv_airspeedlimit_nonqw", "d7/da7/server_2autocvars_8qh.html#a8e05aca3018278fd15ed9c510f928d30", null ],
     [ "autocvar_sv_airstopaccelerate", "d7/da7/server_2autocvars_8qh.html#a753685f20e614f0b78d61f9d2d43d213", null ],
     [ "autocvar_sv_airstrafeaccel_qw", "d7/da7/server_2autocvars_8qh.html#a031824fd38e1510996cf52d2322737cd", null ],

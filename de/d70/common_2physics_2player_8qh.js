@@ -18,6 +18,7 @@ var common_2physics_2player_8qh =
     [ "PHYS_AIRCONTROL_BACKWARDS", "de/d70/common_2physics_2player_8qh.html#a33bb516beffee0e04d7ca1a8f42c7a6a", null ],
     [ "PHYS_AIRCONTROL_PENALTY", "de/d70/common_2physics_2player_8qh.html#a40c44391c0f82f2337714a3bb8babd1e", null ],
     [ "PHYS_AIRCONTROL_POWER", "de/d70/common_2physics_2player_8qh.html#aed0b6f31bf189a7857e2f751249fc7a3", null ],
+    [ "PHYS_AIRCONTROL_SIDEWARDS", "de/d70/common_2physics_2player_8qh.html#a5151b5649c2ed582c17502eeaccc59b2", null ],
     [ "PHYS_AIRSPEEDLIMIT_NONQW", "de/d70/common_2physics_2player_8qh.html#a83f03fc15d23f7862fc5ac119d997b1f", null ],
     [ "PHYS_AIRSTOPACCELERATE", "de/d70/common_2physics_2player_8qh.html#adba3fe548def2f5f7e737d64e472b11f", null ],
     [ "PHYS_AIRSTRAFEACCEL_QW", "de/d70/common_2physics_2player_8qh.html#a11d9c9e85f9f60c7c44094d0f69f8f69", null ],

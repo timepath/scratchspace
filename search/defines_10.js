@@ -50,6 +50,7 @@ var searchData=
   ['phys_5faircontrol_5fbackwards',['PHYS_AIRCONTROL_BACKWARDS',['../de/d70/common_2physics_2player_8qh.html#a33bb516beffee0e04d7ca1a8f42c7a6a',1,'player.qh']]],
   ['phys_5faircontrol_5fpenalty',['PHYS_AIRCONTROL_PENALTY',['../de/d70/common_2physics_2player_8qh.html#a40c44391c0f82f2337714a3bb8babd1e',1,'player.qh']]],
   ['phys_5faircontrol_5fpower',['PHYS_AIRCONTROL_POWER',['../de/d70/common_2physics_2player_8qh.html#aed0b6f31bf189a7857e2f751249fc7a3',1,'player.qh']]],
+  ['phys_5faircontrol_5fsidewards',['PHYS_AIRCONTROL_SIDEWARDS',['../de/d70/common_2physics_2player_8qh.html#a5151b5649c2ed582c17502eeaccc59b2',1,'player.qh']]],
   ['phys_5fairspeedlimit_5fnonqw',['PHYS_AIRSPEEDLIMIT_NONQW',['../de/d70/common_2physics_2player_8qh.html#a83f03fc15d23f7862fc5ac119d997b1f',1,'player.qh']]],
   ['phys_5fairstopaccelerate',['PHYS_AIRSTOPACCELERATE',['../de/d70/common_2physics_2player_8qh.html#adba3fe548def2f5f7e737d64e472b11f',1,'player.qh']]],
   ['phys_5fairstrafeaccel_5fqw',['PHYS_AIRSTRAFEACCEL_QW',['../de/d70/common_2physics_2player_8qh.html#a11d9c9e85f9f60c7c44094d0f69f8f69',1,'player.qh']]],
