@@ -1,8 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"df/d28/sv__turrets_8qh.html#a2b7119286e47892c55289192607cd528":[2,0,1,14,14,4],
-"df/d28/sv__turrets_8qh.html#a332de5647b4049b0c0578521988f16fb":[2,0,1,14,14,69],
-"df/d28/sv__turrets_8qh.html#a3617fc541b11649482813bbfff5aaa6c":[2,0,1,14,14,32],
 "df/d28/sv__turrets_8qh.html#a39e1730692528834965807b494ae61e6":[2,0,1,14,14,6],
 "df/d28/sv__turrets_8qh.html#a39f03a6f047d2a8189de6d3d1b4acd05":[2,0,1,14,14,31],
 "df/d28/sv__turrets_8qh.html#a41a4c89629d95f8ea2a8654d986b877f":[2,0,1,14,14,57],
@@ -249,5 +246,8 @@ var NAVTREEINDEX127 =
 "df/d49/classSound.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,117,3],
 "df/d49/classSound.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,117,4],
 "df/d49/classSound.html#ab00e99633c0c7e997a4745557395263a":[1,0,117,1],
-"df/d49/classSound.html#ad3474b173c3cc7d35fa96a04929d0378":[1,0,117,5]
+"df/d49/classSound.html#ad3474b173c3cc7d35fa96a04929d0378":[1,0,117,5],
+"df/d4a/common_2triggers_2trigger_2impulse_8qh.html":[2,0,1,13,3,19],
+"df/d4a/common_2triggers_2trigger_2impulse_8qh.html#a2c1c8f9331368f38bfc3eaee260b59a6":[2,0,1,13,3,19,3],
+"df/d4a/common_2triggers_2trigger_2impulse_8qh.html#a5050a760c11da521cd4aee6336f6529f":[2,0,1,13,3,19,2]
 };

@@ -93,7 +93,7 @@ var searchData=
   ['log10',['log10',['../df/d38/mathlib_8qc.html#a78694f207dbd1c20883880487c2db48f',1,'log10(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a78694f207dbd1c20883880487c2db48f',1,'log10(float e):&#160;mathlib.qc']]],
   ['log1p',['log1p',['../df/d38/mathlib_8qc.html#a55ec15e84426bbd85f3a90829735f424',1,'log1p(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a55ec15e84426bbd85f3a90829735f424',1,'log1p(float e):&#160;mathlib.qc']]],
   ['log2',['log2',['../df/d38/mathlib_8qc.html#a1e509e70b652f5baaa8d83bac7d0f97e',1,'log2(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a1e509e70b652f5baaa8d83bac7d0f97e',1,'log2(float e):&#160;mathlib.qc']]],
-  ['log2of',['log2of',['../d5/df2/common_2util_8qh.html#a1aa298be39cc3d2a197e80ed2430fb0a',1,'log2of(float e):&#160;math.qh'],['../d0/d79/math_8qh.html#a1aa298be39cc3d2a197e80ed2430fb0a',1,'log2of(float e):&#160;math.qh']]],
+  ['log2of',['log2of',['../d0/d79/math_8qh.html#a1aa298be39cc3d2a197e80ed2430fb0a',1,'math.qh']]],
   ['log_5ftrace',['LOG_TRACE',['../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd',1,'framework.qc']]],
   ['logb',['logb',['../df/d38/mathlib_8qc.html#a97a198a7b7b819ae7e1c6ed1d6f20899',1,'logb(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a97a198a7b7b819ae7e1c6ed1d6f20899',1,'logb(float e):&#160;mathlib.qc']]],
   ['logdeath',['LogDeath',['../d5/dac/g__damage_8qc.html#aff28c78124853cc6ad4f9f330588e1d3',1,'LogDeath(string mode, int deathtype, entity killer, entity killed):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#aff28c78124853cc6ad4f9f330588e1d3',1,'LogDeath(string mode, int deathtype, entity killer, entity killed):&#160;g_damage.qc']]],

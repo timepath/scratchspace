@@ -42,7 +42,6 @@ var searchData=
   ['radiusdamageforsource',['RadiusDamageForSource',['../d5/dac/g__damage_8qc.html#ac0534ca58f7521ce132a0694ffeb629a',1,'RadiusDamageForSource(entity inflictor, vector inflictororigin, vector inflictorvelocity, entity attacker, float coredamage, float edgedamage, float rad, entity cantbe, entity mustbe, float inflictorselfdamage, float forceintensity, int deathtype, entity directhitentity):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#ac0534ca58f7521ce132a0694ffeb629a',1,'RadiusDamageForSource(entity inflictor, vector inflictororigin, vector inflictorvelocity, entity attacker, float coredamage, float edgedamage, float rad, entity cantbe, entity mustbe, float inflictorselfdamage, float forceintensity, int deathtype, entity directhitentity):&#160;g_damage.qc']]],
   ['random',['random',['../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b',1,'menudefs.qc']]],
   ['randombit',['randombit',['../d5/d52/bits_8qh.html#a21771da868be7cb43eca041914c3fbec',1,'bits.qh']]],
-  ['randombit_5ftest',['randombit_test',['../d5/d52/bits_8qh.html#aebd1a901c73156b86a90a9d02e5663be',1,'bits.qh']]],
   ['randombits',['randombits',['../d5/d52/bits_8qh.html#a4b5d18d629ab1dae52de315850a31872',1,'bits.qh']]],
   ['randompos',['randompos',['../de/dcb/vector_8qh.html#afa1e5c0be263a77e0c71292ab0a4dd74',1,'vector.qh']]],
   ['randomseed_5fsend',['RandomSeed_Send',['../db/dcc/g__world_8qc.html#a7ddf10ff440a05521030d342d616f211',1,'g_world.qc']]],

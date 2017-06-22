@@ -163,87 +163,86 @@ $(document).ready(function(){initNavTree('d5/d52/bits_8qh_source.html','../../')
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> r;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#aebd1a901c73156b86a90a9d02e5663be">   59</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/d52/bits_8qh.html#aebd1a901c73156b86a90a9d02e5663be">randombit_test</a>(<span class="keywordtype">int</span> bits, <span class="keywordtype">int</span> iter)</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">while</span> (iter &gt; 0)</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d5/d52/bits_8qh.html#a21771da868be7cb43eca041914c3fbec">randombit</a>(bits)), <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        --iter;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">enum</span> {</div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453">   69</a></span>&#160;    <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453">OP_SET</a>,</div>
-<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a">   70</a></span>&#160;    <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a">OP_MIN</a>,</div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9">   71</a></span>&#160;    <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9">OP_MAX</a>,</div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7">   72</a></span>&#160;    <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7">OP_PLUS</a>,</div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">   73</a></span>&#160;    <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">OP_MINUS</a></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;};</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde">   76</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde">GiveBit</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, .<span class="keywordtype">int</span> fld, <span class="keywordtype">int</span> bit, <span class="keywordtype">int</span> op, <span class="keywordtype">int</span> val)</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;{</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">int</span> v0 = (e.(fld) &amp; bit);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">switch</span> (op)</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453">OP_SET</a>:</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            <span class="keywordflow">if</span> (val &gt; 0) e.(fld) |= bit;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">else</span> e.(fld) &amp;= ~bit;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a">OP_MIN</a>:</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7">OP_PLUS</a>:</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordflow">if</span> (val &gt; 0) e.(fld) |= bit;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9">OP_MAX</a>:</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">if</span> (val &lt;= 0) e.(fld) &amp;= ~bit;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">OP_MINUS</a>:</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="keywordflow">if</span> (val &gt; 0) e.(fld) &amp;= ~bit;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">int</span> v1 = (e.(fld) &amp; bit);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">return</span> v0 != v1;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
-<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635">  100</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635">GiveValue</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, .<span class="keywordtype">int</span> fld, <span class="keywordtype">int</span> op, <span class="keywordtype">int</span> val)</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;{</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">int</span> v0 = e.(fld);</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">switch</span> (op)</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453">OP_SET</a>:</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            e.(fld) = val;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a">OP_MIN</a>:</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            e.(fld) = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(e.(fld), val);  <span class="comment">// min 100 cells = at least 100 cells</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9">OP_MAX</a>:</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            e.(fld) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(e.(fld), val);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7">OP_PLUS</a>:</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            e.(fld) += val;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">OP_MINUS</a>:</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            e.(fld) -= val;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordtype">int</span> v1 = e.(fld);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordflow">return</span> v0 != v1;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;}</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">void randombit_test(int bits, int iter)</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">{</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">    while (iter &gt; 0)</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">    {</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">        LOG_INFO(ftos(randombit(bits)), &quot;\n&quot;);</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">        --iter;</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">    }</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">}</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453">   71</a></span>&#160;    <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453">OP_SET</a>,</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a">   72</a></span>&#160;    <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a">OP_MIN</a>,</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9">   73</a></span>&#160;    <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9">OP_MAX</a>,</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7">   74</a></span>&#160;    <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7">OP_PLUS</a>,</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">   75</a></span>&#160;    <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">OP_MINUS</a></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;};</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde">   78</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde">GiveBit</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, .<span class="keywordtype">int</span> fld, <span class="keywordtype">int</span> bit, <span class="keywordtype">int</span> op, <span class="keywordtype">int</span> val)</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">int</span> v0 = (e.(fld) &amp; bit);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">switch</span> (op)</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453">OP_SET</a>:</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">if</span> (val &gt; 0) e.(fld) |= bit;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keywordflow">else</span> e.(fld) &amp;= ~bit;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a">OP_MIN</a>:</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7">OP_PLUS</a>:</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">if</span> (val &gt; 0) e.(fld) |= bit;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9">OP_MAX</a>:</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="keywordflow">if</span> (val &lt;= 0) e.(fld) &amp;= ~bit;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">OP_MINUS</a>:</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">if</span> (val &gt; 0) e.(fld) &amp;= ~bit;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">int</span> v1 = (e.(fld) &amp; bit);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordflow">return</span> v0 != v1;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635">  102</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635">GiveValue</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, .<span class="keywordtype">int</span> fld, <span class="keywordtype">int</span> op, <span class="keywordtype">int</span> val)</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;{</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">int</span> v0 = e.(fld);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">switch</span> (op)</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453">OP_SET</a>:</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            e.(fld) = val;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a">OP_MIN</a>:</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            e.(fld) = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(e.(fld), val);  <span class="comment">// min 100 cells = at least 100 cells</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9">OP_MAX</a>:</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            e.(fld) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(e.(fld), val);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7">OP_PLUS</a>:</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            e.(fld) += val;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">OP_MINUS</a>:</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            e.(fld) -= val;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordtype">int</span> v1 = e.(fld);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">return</span> v0 != v1;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
 <div class="ttc" id="bits_8qh_html_a4e505c95c58bad3078989c9ce70999b5"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5">lowestbit</a></div><div class="ttdeci">int lowestbit(int f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00013">bits.qh:13</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
-<div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7">OP_PLUS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00072">bits.qh:72</a></div></div>
-<div class="ttc" id="bits_8qh_html_a57e1dcfe9616b86bcfe6641c59b8ffde"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde">GiveBit</a></div><div class="ttdeci">bool GiveBit(entity e,.int fld, int bit, int op, int val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00076">bits.qh:76</a></div></div>
+<div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7">OP_PLUS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00074">bits.qh:74</a></div></div>
+<div class="ttc" id="bits_8qh_html_a57e1dcfe9616b86bcfe6641c59b8ffde"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde">GiveBit</a></div><div class="ttdeci">bool GiveBit(entity e,.int fld, int bit, int op, int val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00078">bits.qh:78</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a">OP_MIN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00070">bits.qh:70</a></div></div>
-<div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9">OP_MAX</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00071">bits.qh:71</a></div></div>
-<div class="ttc" id="bits_8qh_html_aebd1a901c73156b86a90a9d02e5663be"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#aebd1a901c73156b86a90a9d02e5663be">randombit_test</a></div><div class="ttdeci">void randombit_test(int bits, int iter)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00059">bits.qh:59</a></div></div>
+<div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a">OP_MIN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00072">bits.qh:72</a></div></div>
+<div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9">OP_MAX</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00073">bits.qh:73</a></div></div>
 <div class="ttc" id="bits_8qh_html_a4b5d18d629ab1dae52de315850a31872"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a4b5d18d629ab1dae52de315850a31872">randombits</a></div><div class="ttdeci">int randombits(int bits, int k, bool error_return)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00045">bits.qh:45</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
-<div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453">OP_SET</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00069">bits.qh:69</a></div></div>
+<div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453">OP_SET</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00071">bits.qh:71</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
-<div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
-<div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">OP_MINUS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00073">bits.qh:73</a></div></div>
+<div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">OP_MINUS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00075">bits.qh:75</a></div></div>
 <div class="ttc" id="bits_8qh_html_a21771da868be7cb43eca041914c3fbec"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a21771da868be7cb43eca041914c3fbec">randombit</a></div><div class="ttdeci">int randombit(int bits)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00023">bits.qh:23</a></div></div>
-<div class="ttc" id="bits_8qh_html_a14952d302edb3ee6edbf529dfb78c635"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635">GiveValue</a></div><div class="ttdeci">bool GiveValue(entity e,.int fld, int op, int val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00100">bits.qh:100</a></div></div>
+<div class="ttc" id="bits_8qh_html_a14952d302edb3ee6edbf529dfb78c635"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635">GiveValue</a></div><div class="ttdeci">bool GiveValue(entity e,.int fld, int op, int val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00102">bits.qh:102</a></div></div>
 <div class="ttc" id="log_8qh_html"><div class="ttname"><a href="../../db/da0/log_8qh.html">log.qh</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a663ea6aa3c4923b3e065cf91cc319f1b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a></div><div class="ttdeci">float random(void)</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -252,7 +251,7 @@ $(document).ready(function(){initNavTree('d5/d52/bits_8qh_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d5/d52/bits_8qh.html">bits.qh</a></li>
-    <li class="footer">Generated on Wed Jun 21 2017 04:49:58 for Xonotic by
+    <li class="footer">Generated on Thu Jun 22 2017 12:32:10 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

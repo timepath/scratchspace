@@ -4,6 +4,7 @@ var math_8qh =
     [ "MEAN_ACCUMULATE", "d0/d79/math_8qh.html#ab174a7f4f00a6dbb7728a2261e39ea75", null ],
     [ "MEAN_DECLARE", "d0/d79/math_8qh.html#a2451f68a55948c105f085b057964046b", null ],
     [ "MEAN_EVALUATE", "d0/d79/math_8qh.html#a909baf136adbe1583e95ad9c3fcb3faa", null ],
+    [ "power2of", "d0/d79/math_8qh.html#a75b3d35654d365097112d73cca34acd6", null ],
     [ "almost_equals", "d0/d79/math_8qh.html#a075466721b3b3a7ed731ebddae51c610", null ],
     [ "almost_equals_eps", "d0/d79/math_8qh.html#a675a15aa7b6315a05b422e444c7fc391", null ],
     [ "almost_in_bounds", "d0/d79/math_8qh.html#a2b043480e166fa027fb2749365c66089", null ],
@@ -21,7 +22,6 @@ var math_8qh =
     [ "mean_accumulate", "d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17", null ],
     [ "mean_evaluate", "d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35", null ],
     [ "median", "d0/d79/math_8qh.html#a80b0a2e1271dba6f90376de1931afb7f", null ],
-    [ "power2of", "d0/d79/math_8qh.html#a7f2164765c65fa68a46aee7be236157a", null ],
     [ "solve_quadratic", "d0/d79/math_8qh.html#aa8861d172bf3f5895e7d852a3c30174e", null ],
     [ "vsnap", "d0/d79/math_8qh.html#ac60c376ef13d24ccf30e74b54bf373fd", null ]
 ];

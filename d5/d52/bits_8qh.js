@@ -12,6 +12,5 @@ var bits_8qh =
     [ "GiveValue", "d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635", null ],
     [ "lowestbit", "d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5", null ],
     [ "randombit", "d5/d52/bits_8qh.html#a21771da868be7cb43eca041914c3fbec", null ],
-    [ "randombit_test", "d5/d52/bits_8qh.html#aebd1a901c73156b86a90a9d02e5663be", null ],
     [ "randombits", "d5/d52/bits_8qh.html#a4b5d18d629ab1dae52de315850a31872", null ]
 ];

@@ -255,7 +255,7 @@ var searchData=
   ['log10',['log10',['../df/d38/mathlib_8qc.html#a78694f207dbd1c20883880487c2db48f',1,'log10(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a78694f207dbd1c20883880487c2db48f',1,'log10(float e):&#160;mathlib.qc']]],
   ['log1p',['log1p',['../df/d38/mathlib_8qc.html#a55ec15e84426bbd85f3a90829735f424',1,'log1p(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a55ec15e84426bbd85f3a90829735f424',1,'log1p(float e):&#160;mathlib.qc']]],
   ['log2',['log2',['../df/d38/mathlib_8qc.html#a1e509e70b652f5baaa8d83bac7d0f97e',1,'log2(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a1e509e70b652f5baaa8d83bac7d0f97e',1,'log2(float e):&#160;mathlib.qc']]],
-  ['log2of',['log2of',['../d5/df2/common_2util_8qh.html#a1aa298be39cc3d2a197e80ed2430fb0a',1,'log2of(float e):&#160;math.qh'],['../d0/d79/math_8qh.html#a1aa298be39cc3d2a197e80ed2430fb0a',1,'log2of(float e):&#160;math.qh']]],
+  ['log2of',['log2of',['../d0/d79/math_8qh.html#a1aa298be39cc3d2a197e80ed2430fb0a',1,'math.qh']]],
   ['log_5fdebug',['LOG_DEBUG',['../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d',1,'log.qh']]],
   ['log_5fdebugf',['LOG_DEBUGF',['../db/da0/log_8qh.html#ad2f8b948e71ddedcb93c360f01351de3',1,'log.qh']]],
   ['log_5ffatal',['LOG_FATAL',['../db/da0/log_8qh.html#a89cecd05aeaafc715ebc091cf74d10fe',1,'log.qh']]],

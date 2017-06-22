@@ -1,8 +1,5 @@
 var NAVTREEINDEX106 =
 {
-"dc/d37/classXonoticHUDExitDialog.html#ae586f5d2831cfd77c0ecb8166a8786f9":[1,0,180,59],
-"dc/d37/classXonoticHUDExitDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,180,9],
-"dc/d37/classXonoticHUDExitDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,180,68],
 "dc/d37/classXonoticHUDExitDialog.html#af1aab403dc54575707fd57991312b201":[1,0,180,47],
 "dc/d37/classXonoticHUDExitDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,180,27],
 "dc/d37/classXonoticHUDExitDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,180,15],
@@ -249,5 +246,8 @@ var NAVTREEINDEX106 =
 "dc/d5a/nexball_8qc.html":[2,0,1,3,0,0,2],
 "dc/d5a/nexball_8qc_source.html":[2,0,1,3,0,0,2],
 "dc/d5a/systems_2input_8qc.html":[2,0,3,2,3],
-"dc/d5a/systems_2input_8qc.html#af69d77679d9f7d414bdecd06694f6120":[2,0,3,2,3,0]
+"dc/d5a/systems_2input_8qc.html#af69d77679d9f7d414bdecd06694f6120":[2,0,3,2,3,0],
+"dc/d5a/systems_2input_8qc_source.html":[2,0,3,2,3],
+"dc/d5b/common_2gamemodes_2gamemode_2__mod_8qh.html":[2,0,1,3,0,3],
+"dc/d5b/common_2gamemodes_2gamemode_2__mod_8qh_source.html":[2,0,1,3,0,3]
 };
