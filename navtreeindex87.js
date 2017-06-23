@@ -1,15 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"d9/df7/mathlib_8qh.html#ae495624ed5a6364ee6d93b264c123abc":[2,0,4,2,9,64],
-"d9/df7/mathlib_8qh.html#ae637aa34c014f1cc17429b85ad4b7c07":[2,0,4,2,9,2],
-"d9/df7/mathlib_8qh.html#ae71449b1cc6e6250b91f539153a7a0d3":[2,0,4,2,9,0],
-"d9/df7/mathlib_8qh.html#ae870987185502a8c9a65acdde722fbae":[2,0,4,2,9,55],
-"d9/df7/mathlib_8qh.html#aee40956a333cb4e9f4853c0d4c35b468":[2,0,4,2,9,1],
-"d9/df7/mathlib_8qh.html#aef8fd13dfea3527597bd8678dda10c4c":[2,0,4,2,9,56],
-"d9/df7/mathlib_8qh.html#af001a57040fecf1a4fcfe4506741cfe9":[2,0,4,2,9,27],
-"d9/df7/mathlib_8qh.html#af29e1bcd9b1f55ca6f0b324ccf62901d":[2,0,4,2,9,25],
-"d9/df7/mathlib_8qh.html#af2ebfe97850db3a54400d8ae78b1461b":[2,0,4,2,9,43],
-"d9/df7/mathlib_8qh.html#afe32feb3c1304770bb6f915da468879e":[2,0,4,2,9,28],
 "d9/df7/mathlib_8qh.html#afe4fd4c69320cfbb00dc777c0b63ade2":[2,0,4,2,9,13],
 "d9/df7/mathlib_8qh.html#aff2e840abf39a06175267ce0fa55de9c":[2,0,4,2,9,42],
 "d9/df7/mathlib_8qh_source.html":[2,0,4,2,9],
@@ -249,5 +239,15 @@ var NAVTREEINDEX87 =
 "da/d2a/classXonoticDecibelsSlider.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,159,62],
 "da/d2a/classXonoticDecibelsSlider.html#a410bd8073e04005466f95ec4936a3328":[1,0,159,83],
 "da/d2a/classXonoticDecibelsSlider.html#a4507944a16d2de8fd3aff6bf8767f1e4":[1,0,159,81],
-"da/d2a/classXonoticDecibelsSlider.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,159,23]
+"da/d2a/classXonoticDecibelsSlider.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,159,23],
+"da/d2a/classXonoticDecibelsSlider.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,159,71],
+"da/d2a/classXonoticDecibelsSlider.html#a4e7cbd246f6764a75dc6408bae7bb571":[1,0,159,77],
+"da/d2a/classXonoticDecibelsSlider.html#a5443afd02f77fd76625a075a627901ff":[1,0,159,41],
+"da/d2a/classXonoticDecibelsSlider.html#a55442877dc3cf55275e549668183841c":[1,0,159,29],
+"da/d2a/classXonoticDecibelsSlider.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,159,51],
+"da/d2a/classXonoticDecibelsSlider.html#a5abdf5d7baca995f1d94ccf79b2538bb":[1,0,159,78],
+"da/d2a/classXonoticDecibelsSlider.html#a5eb816d08bd102111b268f794d42d695":[1,0,159,44],
+"da/d2a/classXonoticDecibelsSlider.html#a6cb020ef9e5705c39d3737e27ef31efe":[1,0,159,86],
+"da/d2a/classXonoticDecibelsSlider.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,159,12],
+"da/d2a/classXonoticDecibelsSlider.html#a74a62e9d30365917db40174154ff73ec":[1,0,159,37]
 };

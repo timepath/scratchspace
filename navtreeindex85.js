@@ -1,15 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"d9/db6/nades_8inc.html":[2,0,1,9,0,17,3],
-"d9/db6/nades_8inc.html#a58ed3c5c8df7c5b1fae0fce5ea88b5e2":[2,0,1,9,0,17,3,0],
-"d9/db6/nades_8inc.html#a65d084fe81ea22bf82a8ee960bf53164":[2,0,1,9,0,17,3,8],
-"d9/db6/nades_8inc.html#a6c1b0243e6282f790971850e93f68a16":[2,0,1,9,0,17,3,3],
-"d9/db6/nades_8inc.html#a6c1b77956361560a876f9cd5e21b26d9":[2,0,1,9,0,17,3,1],
-"d9/db6/nades_8inc.html#a97d0005148cb93a1ac989fb358703725":[2,0,1,9,0,17,3,2],
-"d9/db6/nades_8inc.html#aaecb7d46910a510569bf3cc1015bd35d":[2,0,1,9,0,17,3,7],
-"d9/db6/nades_8inc.html#ad5604eebbfd464875d513f0618792ed1":[2,0,1,9,0,17,3,4],
-"d9/db6/nades_8inc.html#ad9d1af10bd37242061a2b22ccecb682a":[2,0,1,9,0,17,3,5],
-"d9/db6/nades_8inc.html#ae5800c10d040d2717f633cdd06f709b5":[2,0,1,9,0,17,3,6],
 "d9/db6/nades_8inc_source.html":[2,0,1,9,0,17,3],
 "d9/db7/inputcontainer_8qh.html":[2,0,5,2,17],
 "d9/db7/inputcontainer_8qh_source.html":[2,0,5,2,17],
@@ -249,5 +239,15 @@ var NAVTREEINDEX85 =
 "d9/de7/jumppads_8qh.html#aeb124e9cd9ff6aa1d896e02a10fc6ff9":[2,0,1,13,3,23,6],
 "d9/de7/jumppads_8qh.html#af9c0b2977949fec49fd620fe323b4cac":[2,0,1,13,3,23,10],
 "d9/de7/jumppads_8qh.html#affeed36a4bfbccc789a223127cd20da4":[2,0,1,13,3,23,2],
-"d9/de7/jumppads_8qh_source.html":[2,0,1,13,3,23]
+"d9/de7/jumppads_8qh_source.html":[2,0,1,13,3,23],
+"d9/de7/server_2constants_8qh.html":[2,0,6,21],
+"d9/de7/server_2constants_8qh.html#a1377cbecee41e6bb05e56a90280ff3eb":[2,0,6,21,5],
+"d9/de7/server_2constants_8qh.html#a1face232aebba576519417144cd5362e":[2,0,6,21,12],
+"d9/de7/server_2constants_8qh.html#a59e27fc4d5c80dc54ddad2ba4edb6a0c":[2,0,6,21,3],
+"d9/de7/server_2constants_8qh.html#a60dc5332f25db6149f189046a8915af2":[2,0,6,21,1],
+"d9/de7/server_2constants_8qh.html#a738e18d0d0d820e49e3a9a6afcf7ca71":[2,0,6,21,2],
+"d9/de7/server_2constants_8qh.html#a76f1f7a345c741279db7c117b86a7a99":[2,0,6,21,8],
+"d9/de7/server_2constants_8qh.html#a773c25ecc301f523df447371c3662ed8":[2,0,6,21,6],
+"d9/de7/server_2constants_8qh.html#a8e50268234b73d1e1b264db2e06f14fc":[2,0,6,21,10],
+"d9/de7/server_2constants_8qh.html#a95a618e2261242b570b19cf5a54b84fd":[2,0,6,21,4]
 };

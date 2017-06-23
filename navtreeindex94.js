@@ -1,15 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"db/d11/classBumblebee.html#a876c8a55bd3a5a9d2e7c397bc7e39233":[1,0,10,27],
-"db/d11/classBumblebee.html#a8ce2a1db2b82992926802c8ce6d7d22b":[1,0,10,1],
-"db/d11/classBumblebee.html#a91f922352c8e6ca7b9b56617c530b8b4":[1,0,10,13],
-"db/d11/classBumblebee.html#a962d81e9c45a8f2ad1349065e65d098f":[1,0,10,12],
-"db/d11/classBumblebee.html#a96f9f5c3ac6195be77b33b68a49bed46":[1,0,10,17],
-"db/d11/classBumblebee.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,10,6],
-"db/d11/classBumblebee.html#aab0ece981ccf1ff5cfdd9c33d3e9a278":[1,0,10,22],
-"db/d11/classBumblebee.html#ab0033bb43b823ae364fcaa9f6d73c520":[1,0,10,9],
-"db/d11/classBumblebee.html#ac9508b793c9fda19ec35e382979ee839":[1,0,10,21],
-"db/d11/classBumblebee.html#acd61673a42237365d55777d092f5f5ad":[1,0,10,15],
 "db/d11/classBumblebee.html#ace641a7c01b6837cacb87fc8ffae8ff3":[1,0,10,33],
 "db/d11/classBumblebee.html#ad29884a3f395ad9d49c4eceab06a2957":[1,0,10,8],
 "db/d11/classBumblebee.html#ae466b4d9881e2db910bdb7eafab7b3c3":[1,0,10,24],
@@ -249,5 +239,15 @@ var NAVTREEINDEX94 =
 "db/d26/gamemode__freezetag_8qc.html#aee1dac91a06305051bdcfbef40a659d0":[2,0,6,3,0,14,10],
 "db/d26/gamemode__freezetag_8qc.html#af0c2f88b2381ac9babaf1f5ab0e5d6a1":[2,0,6,3,0,14,15],
 "db/d26/gamemode__freezetag_8qc.html#af1bed3fb86fc2e983e247cc0307a4107":[2,0,6,3,0,14,13],
-"db/d26/gamemode__freezetag_8qc.html#af832e29eda3354ee7a3ab93b5fbdcb03":[2,0,6,3,0,14,23]
+"db/d26/gamemode__freezetag_8qc.html#af832e29eda3354ee7a3ab93b5fbdcb03":[2,0,6,3,0,14,23],
+"db/d26/gamemode__freezetag_8qc.html#af97c2433bd423c0c85d333a28c600eea":[2,0,6,3,0,14,14],
+"db/d26/gamemode__freezetag_8qc.html#affefc266eb3d84294da41b9fd66e0a84":[2,0,6,3,0,14,0],
+"db/d26/gamemode__freezetag_8qc_source.html":[2,0,6,3,0,14],
+"db/d29/classXonoticRegisteredSettingsList.html":[1,0,222],
+"db/d29/classXonoticRegisteredSettingsList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,222,16],
+"db/d29/classXonoticRegisteredSettingsList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,222,48],
+"db/d29/classXonoticRegisteredSettingsList.html#a0b3e0ee2d3e6fef269d1948bd03ae6a5":[1,0,222,47],
+"db/d29/classXonoticRegisteredSettingsList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,222,51],
+"db/d29/classXonoticRegisteredSettingsList.html#a10cf88734594fed24be93889407c0bda":[1,0,222,32],
+"db/d29/classXonoticRegisteredSettingsList.html#a113d1a91bed3f1f7bc3a24306c2c68e7":[1,0,222,28]
 };

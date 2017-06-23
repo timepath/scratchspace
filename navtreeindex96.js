@@ -1,15 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"db/d38/classXonoticSliderCheckBox.html#a3057a8476019df5e6217acad7dad2f84":[1,0,240,63],
-"db/d38/classXonoticSliderCheckBox.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,240,81],
-"db/d38/classXonoticSliderCheckBox.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,240,8],
-"db/d38/classXonoticSliderCheckBox.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,240,75],
-"db/d38/classXonoticSliderCheckBox.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,240,65],
-"db/d38/classXonoticSliderCheckBox.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,240,68],
-"db/d38/classXonoticSliderCheckBox.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,240,27],
-"db/d38/classXonoticSliderCheckBox.html#a4985255a6e0984252ab7ccedd6347d5b":[1,0,240,46],
-"db/d38/classXonoticSliderCheckBox.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,240,76],
-"db/d38/classXonoticSliderCheckBox.html#a4cec67ef8bea911bbbe8e837e8c1f4fe":[1,0,240,80],
 "db/d38/classXonoticSliderCheckBox.html#a4cf08b5cf5b03694b1ab99f4eb3cd6da":[1,0,240,7],
 "db/d38/classXonoticSliderCheckBox.html#a4e5f3b4dda55b50588c4fb421585cf94":[1,0,240,70],
 "db/d38/classXonoticSliderCheckBox.html#a551caf43464ecebace012d2b272c7bad":[1,0,240,13],
@@ -249,5 +239,15 @@ var NAVTREEINDEX96 =
 "db/d59/classXonoticPlayList.html#aaa201eb324b2213df041c2f3c5195db6":[1,0,218,34],
 "db/d59/classXonoticPlayList.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,218,74],
 "db/d59/classXonoticPlayList.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,218,76],
-"db/d59/classXonoticPlayList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,218,80]
+"db/d59/classXonoticPlayList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,218,80],
+"db/d59/classXonoticPlayList.html#ab7d57f0a3855ec519168d609bb8c8c0b":[1,0,218,13],
+"db/d59/classXonoticPlayList.html#ab98378ad8e2dffd1286375cfec639066":[1,0,218,12],
+"db/d59/classXonoticPlayList.html#abd22d2c32e4aa0d2e98be58447c1796d":[1,0,218,71],
+"db/d59/classXonoticPlayList.html#abdc5d8ee59d6e456b6bea0eb5132945b":[1,0,218,79],
+"db/d59/classXonoticPlayList.html#ac1bee27512afff98f60d24cd647e245a":[1,0,218,40],
+"db/d59/classXonoticPlayList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,218,70],
+"db/d59/classXonoticPlayList.html#ac6094922668d013ada3893854eec6b0f":[1,0,218,23],
+"db/d59/classXonoticPlayList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,218,67],
+"db/d59/classXonoticPlayList.html#ac7d0b391d851ed24c08739bc01d0e84b":[1,0,218,78],
+"db/d59/classXonoticPlayList.html#acc4099a12441198728be2393084c81a2":[1,0,218,54]
 };

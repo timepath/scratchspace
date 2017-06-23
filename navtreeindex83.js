@@ -1,15 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"d9/d67/cl__damagetext_8qh.html":[2,0,1,9,0,6,3],
-"d9/d67/cl__damagetext_8qh_source.html":[2,0,1,9,0,6,3],
-"d9/d67/common_2gamemodes_2__mod_8inc.html":[2,0,1,3,1],
-"d9/d67/common_2gamemodes_2__mod_8inc_source.html":[2,0,1,3,1],
-"d9/d67/turret_8qh.html":[2,0,1,14,17],
-"d9/d67/turret_8qh.html#a02f4425939723a8f3fcc0cf7b6f2cef0":[2,0,1,14,17,91],
-"d9/d67/turret_8qh.html#a0a361d9783482bb833eaee8f7a495778":[2,0,1,14,17,61],
-"d9/d67/turret_8qh.html#a0a5ba228ea10877a8767fb0cbb1b4a5f":[2,0,1,14,17,48],
-"d9/d67/turret_8qh.html#a0a9cdc73840412292168070aa88028c4":[2,0,1,14,17,95],
-"d9/d67/turret_8qh.html#a0d102afb12aa277b4ed0f115a3fea952":[2,0,1,14,17,36],
 "d9/d67/turret_8qh.html#a18df068610050c4bba9a48c21f2ece04":[2,0,1,14,17,23],
 "d9/d67/turret_8qh.html#a1b17700f4b482d033a42877d84068f1b":[2,0,1,14,17,75],
 "d9/d67/turret_8qh.html#a201fbb5802eea57dcfa8ae679796b077":[2,0,1,14,17,90],
@@ -249,5 +239,15 @@ var NAVTREEINDEX83 =
 "d9/d85/classXonoticHUDEngineInfoDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,179,39],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,179,2],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,179,37],
-"d9/d85/classXonoticHUDEngineInfoDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,179,41]
+"d9/d85/classXonoticHUDEngineInfoDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,179,41],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,179,86],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,179,8],
+"d9/d85/rootdialog_8qh.html":[2,0,5,4,195],
+"d9/d85/rootdialog_8qh_source.html":[2,0,5,4,195],
+"d9/d88/sv__controlpoint_8qh.html":[2,0,1,3,0,1,13],
+"d9/d88/sv__controlpoint_8qh.html#a411f4a3f6dd95f6824e02beb5e4253e8":[2,0,1,3,0,1,13,1],
+"d9/d88/sv__controlpoint_8qh.html#a43e7e64d7f45f7521e913d8b22ced2c1":[2,0,1,3,0,1,13,0],
+"d9/d88/sv__controlpoint_8qh.html#a4e21ea690a77be8367e5608dfdebe26f":[2,0,1,3,0,1,13,2],
+"d9/d88/sv__controlpoint_8qh.html#a71fedd372003f8a38071cb6c5ee68e35":[2,0,1,3,0,1,13,3],
+"d9/d88/sv__controlpoint_8qh_source.html":[2,0,1,3,0,1,13]
 };

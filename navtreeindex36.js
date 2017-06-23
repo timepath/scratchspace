@@ -1,14 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"d4/d3b/classXonoticBigButton.html#a6813d8f5f29ba927022b34737e3dc22a":[1,0,141,26],
-"d4/d3b/classXonoticBigButton.html#a6a3865ef261b275d24e50e6d0103d407":[1,0,141,13],
-"d4/d3b/classXonoticBigButton.html#a6c1cc42796dfc8787fb58ce0945fb6ea":[1,0,141,27],
-"d4/d3b/classXonoticBigButton.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,141,15],
-"d4/d3b/classXonoticBigButton.html#a7642beed5a82948e21add31abf4a4b0a":[1,0,141,34],
-"d4/d3b/classXonoticBigButton.html#a7b13cdc101cd55528465440586a004f6":[1,0,141,55],
-"d4/d3b/classXonoticBigButton.html#a7ba277f3c886c7d391915d273fede63c":[1,0,141,61],
-"d4/d3b/classXonoticBigButton.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,141,19],
-"d4/d3b/classXonoticBigButton.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,141,67],
 "d4/d3b/classXonoticBigButton.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,141,0],
 "d4/d3b/classXonoticBigButton.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,141,68],
 "d4/d3b/classXonoticBigButton.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,141,66],
@@ -249,5 +240,14 @@ var NAVTREEINDEX36 =
 "d4/d53/server_2impulse_8qc.html#a5e4ba27f9e1c6d3d6517552ac9b45ec5":[2,0,6,35,38],
 "d4/d53/server_2impulse_8qc.html#a64c532f3e479ab94a138bdb8c3d8c05a":[2,0,6,35,42],
 "d4/d53/server_2impulse_8qc.html#a6b05c4a89758bb0fef746223af6db745":[2,0,6,35,31],
-"d4/d53/server_2impulse_8qc.html#a6f3c4721d51695ce7ebf7e0dc232b665":[2,0,6,35,32]
+"d4/d53/server_2impulse_8qc.html#a6f3c4721d51695ce7ebf7e0dc232b665":[2,0,6,35,32],
+"d4/d53/server_2impulse_8qc.html#a766a58a103676d6a17b6ccfb904a6f24":[2,0,6,35,51],
+"d4/d53/server_2impulse_8qc.html#a7789ba6a28989a7957d6d2106dd8fe2b":[2,0,6,35,36],
+"d4/d53/server_2impulse_8qc.html#a79580f11ae65d5689eeb6e667bcf1672":[2,0,6,35,41],
+"d4/d53/server_2impulse_8qc.html#a79bb3af86a40598ed37a13c46f1ff75d":[2,0,6,35,16],
+"d4/d53/server_2impulse_8qc.html#a7c542d1bf421e29048641b4c4d199b42":[2,0,6,35,28],
+"d4/d53/server_2impulse_8qc.html#a84bc0ed6f0e173306c02ca9a8f5491e6":[2,0,6,35,21],
+"d4/d53/server_2impulse_8qc.html#a8a5e4c11b6e61837eab14424981c9959":[2,0,6,35,1],
+"d4/d53/server_2impulse_8qc.html#a9484da2ccdc610a6c9651b912685a968":[2,0,6,35,49],
+"d4/d53/server_2impulse_8qc.html#a98c32617ebeb8e573bfdcd78da37e12d":[2,0,6,35,3]
 };

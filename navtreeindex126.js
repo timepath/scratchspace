@@ -1,15 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"df/d0f/classSpiderbot.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,121,10],
-"df/d0f/classSpiderbot.html#a0a7b8051f1a6c628f471634b4d230ac9":[1,0,121,33],
-"df/d0f/classSpiderbot.html#a132ecdb26776feea9e2348bce5da460b":[1,0,121,18],
-"df/d0f/classSpiderbot.html#a2379df983e5dc1eb79ef4927d607f7c8":[1,0,121,21],
-"df/d0f/classSpiderbot.html#a23b5d8a4e07000e6d08fe727bdf23471":[1,0,121,16],
-"df/d0f/classSpiderbot.html#a269c42fb128fc5d56fac3abb21fbcdca":[1,0,121,3],
-"df/d0f/classSpiderbot.html#a3c6f36a5cc87f115257605c783587d6f":[1,0,121,22],
-"df/d0f/classSpiderbot.html#a58f0c04e5979c92f1d5329627cbf1331":[1,0,121,7],
-"df/d0f/classSpiderbot.html#a65029f9f9de70ed0d698c691eca5d3bb":[1,0,121,20],
-"df/d0f/classSpiderbot.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,121,5],
 "df/d0f/classSpiderbot.html#a70e84502249082a3676988cfb618baf5":[1,0,121,4],
 "df/d0f/classSpiderbot.html#a796a48c5130ff90921f7d0481cbad311":[1,0,121,24],
 "df/d0f/classSpiderbot.html#a7be8577cc39bd77fb2f7d7b8ce689856":[1,0,121,28],
@@ -249,5 +239,15 @@ var NAVTREEINDEX126 =
 "df/d28/sv__turrets_8qh.html#a1e97a5c836a558a1321721c59fb50de2":[2,0,1,14,14,43],
 "df/d28/sv__turrets_8qh.html#a2237d76659e456913df196d485d4efb4":[2,0,1,14,14,61],
 "df/d28/sv__turrets_8qh.html#a228b8db97032e558815f2ce98430dce5":[2,0,1,14,14,70],
-"df/d28/sv__turrets_8qh.html#a2b7119286e47892c55289192607cd528":[2,0,1,14,14,4]
+"df/d28/sv__turrets_8qh.html#a2b7119286e47892c55289192607cd528":[2,0,1,14,14,4],
+"df/d28/sv__turrets_8qh.html#a332de5647b4049b0c0578521988f16fb":[2,0,1,14,14,69],
+"df/d28/sv__turrets_8qh.html#a3617fc541b11649482813bbfff5aaa6c":[2,0,1,14,14,32],
+"df/d28/sv__turrets_8qh.html#a39e1730692528834965807b494ae61e6":[2,0,1,14,14,6],
+"df/d28/sv__turrets_8qh.html#a39f03a6f047d2a8189de6d3d1b4acd05":[2,0,1,14,14,31],
+"df/d28/sv__turrets_8qh.html#a41a4c89629d95f8ea2a8654d986b877f":[2,0,1,14,14,57],
+"df/d28/sv__turrets_8qh.html#a41f912fe9bf578d8aae3f2119b4741ed":[2,0,1,14,14,17],
+"df/d28/sv__turrets_8qh.html#a4cedf4740142f48c35b59cbaa9017f2b":[2,0,1,14,14,15],
+"df/d28/sv__turrets_8qh.html#a4e74c959e7153b607dda80b98f2196fc":[2,0,1,14,14,9],
+"df/d28/sv__turrets_8qh.html#a53b1f94a93f57dc271b0377b8d314b5e":[2,0,1,14,14,10],
+"df/d28/sv__turrets_8qh.html#a575d28aa35a21f48924ef5d76f39ee53":[2,0,1,14,14,53]
 };

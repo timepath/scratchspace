@@ -160,7 +160,6 @@ var searchData=
   ['cbc_5forder_5ffirst',['CBC_ORDER_FIRST',['../db/d38/base_8qh.html#a225e7365c1abfedcfce7f0c144972628',1,'base.qh']]],
   ['cbc_5forder_5flast',['CBC_ORDER_LAST',['../db/d38/base_8qh.html#a4aa0be358192aebe98876abc370873a6',1,'base.qh']]],
   ['cbrt',['cbrt',['../df/d38/mathlib_8qc.html#a493b19ce4b88b88f8aec6a9ddab87759',1,'cbrt(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a493b19ce4b88b88f8aec6a9ddab87759',1,'cbrt(float e):&#160;mathlib.qc']]],
-  ['ccr',['CCR',['../d5/df2/common_2util_8qh.html#a970660775d86a5a855bf769f021c5456',1,'CCR(string input):&#160;string.qh'],['../d2/db4/string_8qh.html#a970660775d86a5a855bf769f021c5456',1,'CCR(string input):&#160;string.qh']]],
   ['cdr',['cdr',['../d2/db4/string_8qh.html#a20e463732b6df287bf0a3108a223fe06',1,'string.qh']]],
   ['ceil',['ceil',['../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7',1,'menudefs.qc']]],
   ['celldraw',['cellDraw',['../d5/d53/classXonoticCharmap.html#ad31a816583f361823fb142079bc3fc39',1,'XonoticCharmap::cellDraw()'],['../d3/d10/classXonoticCrosshairPicker.html#a7d52ecadb5d2057da681ad7586110af2',1,'XonoticCrosshairPicker::cellDraw()'],['../df/d27/classXonoticPicker.html#a0099aec6f9b4b3b71644a422828a34bc',1,'XonoticPicker::cellDraw()']]],

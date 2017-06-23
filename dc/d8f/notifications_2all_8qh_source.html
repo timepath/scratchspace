@@ -546,18 +546,18 @@ $(document).ready(function(){initNavTree('dc/d8f/notifications_2all_8qh_source.h
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;{</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <span class="keywordtype">string</span> s = newline ? <span class="stringliteral">&quot;\n&quot;</span> : <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;    <span class="keywordflow">if</span> (fping &lt; 0)</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <span class="keywordflow">return</span> sprintf(<a class="code" href="../../d5/df2/common_2util_8qh.html#a970660775d86a5a855bf769f021c5456">CCR</a>(_(<span class="stringliteral">&quot;%s(^F1Bot^BG)&quot;</span>)), s);</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <span class="keywordflow">return</span> sprintf(CCR(_(<span class="stringliteral">&quot;%s(^F1Bot^BG)&quot;</span>)), s);</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;        <span class="keywordflow">return</span> sprintf(<a class="code" href="../../d5/df2/common_2util_8qh.html#a970660775d86a5a855bf769f021c5456">CCR</a>(_(<span class="stringliteral">&quot;%s(Ping ^F1%d^BG)&quot;</span>)), s, fping);</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;        <span class="keywordflow">return</span> sprintf(CCR(_(<span class="stringliteral">&quot;%s(Ping ^F1%d^BG)&quot;</span>)), s, fping);</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;}</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;</div>
 <div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;<span class="keywordtype">string</span> notif_arg_frag_stats(<span class="keywordtype">float</span> fhealth, <span class="keywordtype">float</span> farmor, <span class="keywordtype">float</span> fping)</div>
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;{</div>
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    <span class="keywordtype">string</span> s = notif_arg_frag_ping(<span class="keyword">false</span>, fping);</div>
 <div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;    <span class="keywordflow">if</span> (fhealth &gt; 1)</div>
-<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        <span class="keywordflow">return</span> sprintf(<a class="code" href="../../d5/df2/common_2util_8qh.html#a970660775d86a5a855bf769f021c5456">CCR</a>(_(<span class="stringliteral">&quot;\n(Health ^1%d^BG / Armor ^2%d^BG)%s&quot;</span>)), fhealth, farmor, s);</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        <span class="keywordflow">return</span> sprintf(CCR(_(<span class="stringliteral">&quot;\n(Health ^1%d^BG / Armor ^2%d^BG)%s&quot;</span>)), fhealth, farmor, s);</div>
 <div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;        <span class="keywordflow">return</span> sprintf(<a class="code" href="../../d5/df2/common_2util_8qh.html#a970660775d86a5a855bf769f021c5456">CCR</a>(_(<span class="stringliteral">&quot;\n(^F4Dead^BG)%s&quot;</span>)), s);</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;        <span class="keywordflow">return</span> sprintf(CCR(_(<span class="stringliteral">&quot;\n(^F4Dead^BG)%s&quot;</span>)), s);</div>
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;}</div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;</div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;<span class="keywordtype">string</span> notif_arg_missing_teams(<span class="keywordtype">float</span> <a class="code" href="../../d9/d09/notifications_2all_8inc.html#a5ffa0a2d76fd329d661bc07ed4e00e70">f1</a>)</div>
@@ -647,7 +647,7 @@ $(document).ready(function(){initNavTree('dc/d8f/notifications_2all_8qh_source.h
 <div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;                            {</div>
 <div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;                                <span class="keywordflow">return</span></div>
 <div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;                                    sprintf(</div>
-<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;                                        <a class="code" href="../../d5/df2/common_2util_8qh.html#a970660775d86a5a855bf769f021c5456">CCR</a>(normal_or_gentle(</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;                                        CCR(normal_or_gentle(</div>
 <div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;                                            _(<span class="stringliteral">&quot;%s^K1 has %d frags in a row! %s^BG&quot;</span>),</div>
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;                                            _(<span class="stringliteral">&quot;%s^K1 made %d scores in a row! %s^BG&quot;</span>)</div>
 <div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;                                        )),</div>
@@ -666,7 +666,7 @@ $(document).ready(function(){initNavTree('dc/d8f/notifications_2all_8qh_source.h
 <div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;                {</div>
 <div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;                    <span class="keywordflow">return</span></div>
 <div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;                        sprintf(</div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;                            <a class="code" href="../../d5/df2/common_2util_8qh.html#a970660775d86a5a855bf769f021c5456">CCR</a>(normal_or_gentle(</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;                            CCR(normal_or_gentle(</div>
 <div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;                                _(<span class="stringliteral">&quot;%s^K1 drew first blood! %s^BG&quot;</span>),</div>
 <div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;                                _(<span class="stringliteral">&quot;%s^K1 got the first score! %s^BG&quot;</span>)</div>
 <div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;                            )),</div>
@@ -1037,7 +1037,6 @@ $(document).ready(function(){initNavTree('dc/d8f/notifications_2all_8qh_source.h
 <div class="ttc" id="notifications_2all_8qh_html_ab191ea2d6864d62cf12f82140b351f66"><div class="ttname"><a href="../../dc/d8f/notifications_2all_8qh.html#ab191ea2d6864d62cf12f82140b351f66">Local_Notification_WOVA</a></div><div class="ttdeci">void Local_Notification_WOVA(MSG net_type, Notification net_name, float stringcount, float floatcount, string s1, string s2, string s3, string s4, float f1, float f2, float f3, float f4)</div><div class="ttdoc">glue for networking, forwards to Local_Notification </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d79/notifications_2all_8qc_source.html#l01365">all.qc:1365</a></div></div>
 <div class="ttc" id="notifications_2all_8qh_html_a682b66e5aae4a02b19ba825760896610"><div class="ttname"><a href="../../dc/d8f/notifications_2all_8qh.html#a682b66e5aae4a02b19ba825760896610">Create_Notification_Entity_Choice</a></div><div class="ttdeci">void Create_Notification_Entity_Choice(entity notif, float var_cvar, string namestring, float challow_def, float challow_var, MSG chtype, Notification optiona, Notification optionb)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d79/notifications_2all_8qc_source.html#l00699">all.qc:699</a></div></div>
 <div class="ttc" id="notifications_2all_8inc_html_a0c3e091adeda4f2178165df11bc8225b"><div class="ttname"><a href="../../d9/d09/notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b">s2</a></div><div class="ttdeci">spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2 f1 f1points s2 minigame1_name s2</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d09/notifications_2all_8inc_source.html#l00437">all.inc:437</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_a970660775d86a5a855bf769f021c5456"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a970660775d86a5a855bf769f021c5456">CCR</a></div><div class="ttdeci">string CCR(string input)</div><div class="ttdoc">color code replace, place inside of sprintf and parse the string </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00089">string.qh:89</a></div></div>
 <div class="ttc" id="log_8qh_html_a89cecd05aeaafc715ebc091cf74d10fe"><div class="ttname"><a href="../../db/da0/log_8qh.html#a89cecd05aeaafc715ebc091cf74d10fe">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00055">log.qh:55</a></div></div>
 <div class="ttc" id="notifications_2all_8qh_html_a1c5d21835b9aaa6f6e1ebad87931fe0b"><div class="ttname"><a href="../../dc/d8f/notifications_2all_8qh.html#a1c5d21835b9aaa6f6e1ebad87931fe0b">arg_slot</a></div><div class="ttdeci">string arg_slot[NOTIF_MAX_ARGS]</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d8f/notifications_2all_8qh_source.html#l00380">all.qh:380</a></div></div>
 <div class="ttc" id="teams_8qh_html_aa417cabfc2bf10d554c0dee7aa17a991"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aa417cabfc2bf10d554c0dee7aa17a991">Team_ColoredFullName</a></div><div class="ttdeci">#define Team_ColoredFullName(teamid)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00168">teams.qh:168</a></div></div>
@@ -1058,7 +1057,7 @@ $(document).ready(function(){initNavTree('dc/d8f/notifications_2all_8qh_source.h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_cf234ab9b9033f681804c9de340d1a43.html">notifications</a></li><li class="navelem"><a class="el" href="../../dc/d8f/notifications_2all_8qh.html">all.qh</a></li>
-    <li class="footer">Generated on Thu Jun 22 2017 22:59:52 for Xonotic by
+    <li class="footer">Generated on Fri Jun 23 2017 04:06:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

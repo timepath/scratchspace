@@ -1,15 +1,5 @@
 var NAVTREEINDEX107 =
 {
-"dc/d5b/common_2gamemodes_2gamemode_2__mod_8qh_source.html":[2,0,1,3,0,3],
-"dc/d62/dialog__singleplayer_8qh.html":[2,0,5,4,157],
-"dc/d62/dialog__singleplayer_8qh_source.html":[2,0,5,4,157],
-"dc/d62/playerdemo_8qc.html":[2,0,6,49],
-"dc/d62/playerdemo_8qc.html#a006c471fa6d50aa607fea92203cb5d4c":[2,0,6,49,24],
-"dc/d62/playerdemo_8qc.html#a0299e0bddcc4c1ab594ecf9a1761db1e":[2,0,6,49,25],
-"dc/d62/playerdemo_8qc.html#a02e65930a3cde44f6090c6b36092b760":[2,0,6,49,13],
-"dc/d62/playerdemo_8qc.html#a0e4fa067ea970a9ea21657123cd1b1bb":[2,0,6,49,10],
-"dc/d62/playerdemo_8qc.html#a11df11550b9c9d798e222e3aa845c0cd":[2,0,6,49,14],
-"dc/d62/playerdemo_8qc.html#a17bfbc8583f15f6d9ae68585c97ee733":[2,0,6,49,12],
 "dc/d62/playerdemo_8qc.html#a1b0780c1c857a7564d1bd5196348ab0c":[2,0,6,49,22],
 "dc/d62/playerdemo_8qc.html#a1e65ba79861a8b5f185fb27a1297e267":[2,0,6,49,8],
 "dc/d62/playerdemo_8qc.html#a1fa063f9cf66faacc25f038cba4fe736":[2,0,6,49,2],
@@ -249,5 +239,15 @@ var NAVTREEINDEX107 =
 "dc/d80/gamemode__domination_8qc.html#aaa99f1d8d0a9efda0d76e0360081da91":[2,0,6,3,0,12,13],
 "dc/d80/gamemode__domination_8qc.html#ab9a384ee374a58f83671537d2c6724b4":[2,0,6,3,0,12,5],
 "dc/d80/gamemode__domination_8qc.html#acc57927d29b5d68c14431543dad3f3ae":[2,0,6,3,0,12,24],
-"dc/d80/gamemode__domination_8qc.html#ad0b46dc01448bf8b7cefa962469cefc9":[2,0,6,3,0,12,2]
+"dc/d80/gamemode__domination_8qc.html#ad0b46dc01448bf8b7cefa962469cefc9":[2,0,6,3,0,12,2],
+"dc/d80/gamemode__domination_8qc.html#ad784e17cc4faa6219328ab0a01afdbff":[2,0,6,3,0,12,21],
+"dc/d80/gamemode__domination_8qc.html#adc294e89142ff08f47d57c2df72c0bc9":[2,0,6,3,0,12,38],
+"dc/d80/gamemode__domination_8qc.html#ae2bad2494b8ccaf3e085a9b85a46a300":[2,0,6,3,0,12,15],
+"dc/d80/gamemode__domination_8qc.html#ae336684bd379b3fd72cf71faa9f5d694":[2,0,6,3,0,12,36],
+"dc/d80/gamemode__domination_8qc.html#afec360257e066a7453c9839395aac3c8":[2,0,6,3,0,12,0],
+"dc/d80/gamemode__domination_8qc_source.html":[2,0,6,3,0,12],
+"dc/d8b/hitplot_8qh.html":[2,0,6,5,9],
+"dc/d8b/hitplot_8qh.html#a0dec3059937cd4f1b051bffe2632a6a6":[2,0,6,5,9,3],
+"dc/d8b/hitplot_8qh.html#acf381e143fb2e36fb4d4acef6cde0e95":[2,0,6,5,9,0],
+"dc/d8b/hitplot_8qh.html#af89d7006f01671e454d80a1a1c5569cd":[2,0,6,5,9,2]
 };

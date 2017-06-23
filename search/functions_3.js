@@ -45,7 +45,6 @@ var searchData=
   ['capturetheflag',['CaptureTheFlag',['../da/dd1/classCaptureTheFlag.html#a1607fee5ff312589eb22131e314eef3d',1,'CaptureTheFlag']]],
   ['car',['car',['../d2/db4/string_8qh.html#a766f4b81552e758f7ca3655399355c07',1,'string.qh']]],
   ['cbrt',['cbrt',['../df/d38/mathlib_8qc.html#a493b19ce4b88b88f8aec6a9ddab87759',1,'cbrt(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a493b19ce4b88b88f8aec6a9ddab87759',1,'cbrt(float e):&#160;mathlib.qc']]],
-  ['ccr',['CCR',['../d5/df2/common_2util_8qh.html#a970660775d86a5a855bf769f021c5456',1,'CCR(string input):&#160;string.qh'],['../d2/db4/string_8qh.html#a970660775d86a5a855bf769f021c5456',1,'CCR(string input):&#160;string.qh']]],
   ['cdr',['cdr',['../d2/db4/string_8qh.html#a20e463732b6df287bf0a3108a223fe06',1,'string.qh']]],
   ['ceil',['ceil',['../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7',1,'menudefs.qc']]],
   ['celldraw',['cellDraw',['../d5/d53/classXonoticCharmap.html#ad31a816583f361823fb142079bc3fc39',1,'XonoticCharmap::cellDraw()'],['../d3/d10/classXonoticCrosshairPicker.html#a7d52ecadb5d2057da681ad7586110af2',1,'XonoticCrosshairPicker::cellDraw()'],['../df/d27/classXonoticPicker.html#a0099aec6f9b4b3b71644a422828a34bc',1,'XonoticPicker::cellDraw()']]],

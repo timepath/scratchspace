@@ -1,15 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"db/d59/classXonoticPlayList.html#ab7d57f0a3855ec519168d609bb8c8c0b":[1,0,218,13],
-"db/d59/classXonoticPlayList.html#ab98378ad8e2dffd1286375cfec639066":[1,0,218,12],
-"db/d59/classXonoticPlayList.html#abd22d2c32e4aa0d2e98be58447c1796d":[1,0,218,71],
-"db/d59/classXonoticPlayList.html#abdc5d8ee59d6e456b6bea0eb5132945b":[1,0,218,79],
-"db/d59/classXonoticPlayList.html#ac1bee27512afff98f60d24cd647e245a":[1,0,218,40],
-"db/d59/classXonoticPlayList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,218,70],
-"db/d59/classXonoticPlayList.html#ac6094922668d013ada3893854eec6b0f":[1,0,218,23],
-"db/d59/classXonoticPlayList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,218,67],
-"db/d59/classXonoticPlayList.html#ac7d0b391d851ed24c08739bc01d0e84b":[1,0,218,78],
-"db/d59/classXonoticPlayList.html#acc4099a12441198728be2393084c81a2":[1,0,218,54],
 "db/d59/classXonoticPlayList.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,218,19],
 "db/d59/classXonoticPlayList.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,218,42],
 "db/d59/classXonoticPlayList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,218,47],
@@ -249,5 +239,15 @@ var NAVTREEINDEX97 =
 "db/d63/classXonoticColorpicker.html#a6312ebe7496758cb6f576247caaf466c":[1,0,149,5],
 "db/d63/classXonoticColorpicker.html#a67d95732d49da439095483530aca8804":[1,0,149,28],
 "db/d63/classXonoticColorpicker.html#a6bb011f4a4568b35a26ec00cd57e77da":[1,0,149,20],
-"db/d63/classXonoticColorpicker.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,149,6]
+"db/d63/classXonoticColorpicker.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,149,6],
+"db/d63/classXonoticColorpicker.html#a731ef2d8cdb302ddcd41f3ed9e6a2be0":[1,0,149,25],
+"db/d63/classXonoticColorpicker.html#a761b1aa54332517ebda3fa7ce1428fb6":[1,0,149,33],
+"db/d63/classXonoticColorpicker.html#a7b13cdc101cd55528465440586a004f6":[1,0,149,31],
+"db/d63/classXonoticColorpicker.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,149,12],
+"db/d63/classXonoticColorpicker.html#a7cea07252f472c51148b01ba739afda2":[1,0,149,11],
+"db/d63/classXonoticColorpicker.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,149,38],
+"db/d63/classXonoticColorpicker.html#a9c1954f7b83b5c474f5c6ddefbe58320":[1,0,149,34],
+"db/d63/classXonoticColorpicker.html#aa1208d2cbed7e383a30399a3a9a3b0c3":[1,0,149,13],
+"db/d63/classXonoticColorpicker.html#aa28bfec786130828925f060468e44e7b":[1,0,149,1],
+"db/d63/classXonoticColorpicker.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,149,8]
 };

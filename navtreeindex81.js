@@ -1,15 +1,5 @@
 var NAVTREEINDEX81 =
 {
-"d9/d28/porto_8qc.html#aa3a215ab9ec8c4e8b6cde70c1f82d7fa":[2,0,1,16,0,26,2],
-"d9/d28/porto_8qc_source.html":[2,0,1,16,0,26],
-"d9/d2d/dialog__settings__game__model_8qc.html":[2,0,5,4,134],
-"d9/d2d/dialog__settings__game__model_8qc.html#a3bc78e9a0f18de27f46e9111a30884a5":[2,0,5,4,134,1],
-"d9/d2d/dialog__settings__game__model_8qc.html#a74a9590aa3277b647d54c780cbfd3dbb":[2,0,5,4,134,2],
-"d9/d2d/dialog__settings__game__model_8qc.html#ae3352ff05cd68a276d35c458baa79048":[2,0,5,4,134,0],
-"d9/d2d/dialog__settings__game__model_8qc_source.html":[2,0,5,4,134],
-"d9/d2e/sv__vampire_8qc.html":[2,0,1,9,0,31,2],
-"d9/d2e/sv__vampire_8qc.html#a11863ccbb52e9f89797acfa0eb9cbe47":[2,0,1,9,0,31,2,3],
-"d9/d2e/sv__vampire_8qc.html#a5dc916267abb9a85b76eeaba5ece40ea":[2,0,1,9,0,31,2,1],
 "d9/d2e/sv__vampire_8qc.html#a82fb2823eb40ca05c74f50b398851a74":[2,0,1,9,0,31,2,0],
 "d9/d2e/sv__vampire_8qc.html#ae7cdbe52e3d65b59dc5c72a47fa02b38":[2,0,1,9,0,31,2,2],
 "d9/d2e/sv__vampire_8qc_source.html":[2,0,1,9,0,31,2],
@@ -249,5 +239,15 @@ var NAVTREEINDEX81 =
 "d9/d4f/deathtypes_2all_8qh.html#ae97c6e4b865e8ba3172ec12006c87379":[2,0,1,1,4,20],
 "d9/d4f/deathtypes_2all_8qh.html#aed2b0f7718db6f6b5bc9ebda3c8b4c41":[2,0,1,1,4,1],
 "d9/d4f/deathtypes_2all_8qh.html#aef6fa079502aff69a43b0627c85d8efb":[2,0,1,1,4,21],
-"d9/d4f/deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8":[2,0,1,1,4,11]
+"d9/d4f/deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8":[2,0,1,1,4,11],
+"d9/d4f/deathtypes_2all_8qh_source.html":[2,0,1,1,4],
+"d9/d50/server_2mutators_2mutator_2__mod_8qh.html":[2,0,6,3,0,1],
+"d9/d50/server_2mutators_2mutator_2__mod_8qh_source.html":[2,0,6,3,0,1],
+"d9/d51/intrusivelist_8qh.html":[2,0,4,24],
+"d9/d51/intrusivelist_8qh.html#a03533687dbcda21ca9480b3e4b13fb34":[2,0,4,24,12],
+"d9/d51/intrusivelist_8qh.html#a035daed01ee70616c76c574092b9e66d":[2,0,4,24,13],
+"d9/d51/intrusivelist_8qh.html#a216380637a63d5b22d7db4ccaa575eac":[2,0,4,24,7],
+"d9/d51/intrusivelist_8qh.html#a259c6303c7d4a5d556087622e4909634":[2,0,4,24,6],
+"d9/d51/intrusivelist_8qh.html#a300d95a4534787c41116db59377d5ba8":[2,0,4,24,29],
+"d9/d51/intrusivelist_8qh.html#a3bda279ec2705111d6a3a49468a00cae":[2,0,4,24,10]
 };

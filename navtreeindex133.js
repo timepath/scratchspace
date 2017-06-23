@@ -1,15 +1,5 @@
 var NAVTREEINDEX133 =
 {
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,227,51],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aa23332c9eb304ac4bf65130df8badac8":[1,0,227,25],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aa85ac553a7c9b2131fb49fe64205bc00":[1,0,227,75],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,227,19],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aa8f585367ffe7378369f1b539ee67dbc":[1,0,227,43],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aafecc9299a80c35e84220bee81f1e3ff":[1,0,227,47],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,227,6],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#abb1abf616e875537d668b47e8017fd3b":[1,0,227,59],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,227,76],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac2e3d70e832d93f6b7a0d5c488c76e0d":[1,0,227,56],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac3273fd148e2e163689e948d600fb187":[1,0,227,16],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac40c387fa816abb4367ff86fe85c386e":[1,0,227,46],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,227,2],
@@ -198,8 +188,8 @@ var NAVTREEINDEX133 =
 "functions_t.html":[1,3,0,18],
 "functions_u.html":[1,3,0,19],
 "functions_v.html":[1,3,0,20],
-"functions_vars.html":[1,3,2],
 "functions_vars.html":[1,3,2,0],
+"functions_vars.html":[1,3,2],
 "functions_vars_b.html":[1,3,2,1],
 "functions_vars_c.html":[1,3,2,2],
 "functions_vars_d.html":[1,3,2,3],
@@ -249,5 +239,15 @@ var NAVTREEINDEX133 =
 "globals_defs_l.html":[2,1,5,12],
 "globals_defs_m.html":[2,1,5,13],
 "globals_defs_n.html":[2,1,5,14],
-"globals_defs_o.html":[2,1,5,15]
+"globals_defs_o.html":[2,1,5,15],
+"globals_defs_p.html":[2,1,5,16],
+"globals_defs_q.html":[2,1,5,17],
+"globals_defs_r.html":[2,1,5,18],
+"globals_defs_s.html":[2,1,5,19],
+"globals_defs_t.html":[2,1,5,20],
+"globals_defs_u.html":[2,1,5,21],
+"globals_defs_v.html":[2,1,5,22],
+"globals_defs_w.html":[2,1,5,23],
+"globals_defs_x.html":[2,1,5,24],
+"globals_defs_y.html":[2,1,5,25]
 };

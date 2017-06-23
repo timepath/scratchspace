@@ -24,7 +24,6 @@ var common_2util_8qh =
     [ "boxinsidebox", "d5/df2/common_2util_8qh.html#afc1de7548641f25cb9f3cde38c9ffba9", null ],
     [ "buf_load", "d5/df2/common_2util_8qh.html#a82bb7f7c333620a6912acd6445e8f4fe", null ],
     [ "buf_save", "d5/df2/common_2util_8qh.html#a26991c68b0f5c46dc63ea3aa344364b1", null ],
-    [ "CCR", "d5/df2/common_2util_8qh.html#a970660775d86a5a855bf769f021c5456", null ],
     [ "compressShortVector", "d5/df2/common_2util_8qh.html#a203e7643d1362e5a90883ab7d31b9892", null ],
     [ "compressShotOrigin", "d5/df2/common_2util_8qh.html#a77d276d801f4e93f46fefac297900ea7", null ],
     [ "cubic_speedfunc", "d5/df2/common_2util_8qh.html#ab749e3e330fc880590f606e9dae87c23", null ],

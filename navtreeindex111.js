@@ -1,15 +1,5 @@
 var NAVTREEINDEX111 =
 {
-"dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,136,22],
-"dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84":[1,0,136,25],
-"dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,136,17],
-"dc/de7/bumblebee__weapons_8qc.html":[2,0,1,15,0,4],
-"dc/de7/bumblebee__weapons_8qc_source.html":[2,0,1,15,0,4],
-"dc/de9/classXonoticRootDialog.html":[1,0,225],
-"dc/de9/classXonoticRootDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,225,32],
-"dc/de9/classXonoticRootDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,225,11],
-"dc/de9/classXonoticRootDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,225,40],
-"dc/de9/classXonoticRootDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,225,3],
 "dc/de9/classXonoticRootDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,225,83],
 "dc/de9/classXonoticRootDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,225,81],
 "dc/de9/classXonoticRootDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,225,48],
@@ -249,5 +239,15 @@ var NAVTREEINDEX111 =
 "dd/d0a/effects_8inc.html#a8a0ed5b58c510845aa0742999d5dc5f9":[2,0,1,9,0,17,2,2],
 "dd/d0a/effects_8inc.html#ab161cbb17923e1f6e3ad7875041fc2aa":[2,0,1,9,0,17,2,1],
 "dd/d0a/effects_8inc_source.html":[2,0,1,9,0,17,2],
-"dd/d0f/classTeslaCoilTurretAttack.html":[1,0,126]
+"dd/d0f/classTeslaCoilTurretAttack.html":[1,0,126],
+"dd/d0f/classTeslaCoilTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,126,33],
+"dd/d0f/classTeslaCoilTurretAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,126,19],
+"dd/d0f/classTeslaCoilTurretAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,126,18],
+"dd/d0f/classTeslaCoilTurretAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,126,30],
+"dd/d0f/classTeslaCoilTurretAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,126,16],
+"dd/d0f/classTeslaCoilTurretAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,126,20],
+"dd/d0f/classTeslaCoilTurretAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,126,11],
+"dd/d0f/classTeslaCoilTurretAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,126,21],
+"dd/d0f/classTeslaCoilTurretAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,126,1],
+"dd/d0f/classTeslaCoilTurretAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,126,15]
 };
