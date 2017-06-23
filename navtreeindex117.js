@@ -1,10 +1,5 @@
 var NAVTREEINDEX117 =
 {
-"dd/db3/classXonoticQuitDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,220,55],
-"dd/db3/classXonoticQuitDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,220,92],
-"dd/db3/classXonoticQuitDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,220,9],
-"dd/db3/classXonoticQuitDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,220,68],
-"dd/db3/classXonoticQuitDialog.html#aeff76ecca42175bf48a2312421add4bd":[1,0,220,60],
 "dd/db3/classXonoticQuitDialog.html#af1aab403dc54575707fd57991312b201":[1,0,220,47],
 "dd/db3/classXonoticQuitDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,220,27],
 "dd/db3/classXonoticQuitDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,220,15],
@@ -130,8 +125,8 @@ var NAVTREEINDEX117 =
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,14,12],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,14,2],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,14,3],
-"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,14,4],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,14,5],
+"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,14,4],
 "dd/dd5/sv__model_8qc_source.html":[2,0,4,0,14],
 "dd/dd7/classRacer.html":[1,0,102],
 "dd/dd7/classRacer.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,102,10],
@@ -249,5 +244,10 @@ var NAVTREEINDEX117 =
 "dd/dee/functional_8qh.html#a0f5665a37d81ee893ddfb1619349db7b":[2,0,4,21,17],
 "dd/dee/functional_8qh.html#a26f7d943d4f1e69bf2a676d7fe0e5108":[2,0,4,21,9],
 "dd/dee/functional_8qh.html#a38d5893fa538d6287aaa9dcca6236caf":[2,0,4,21,15],
-"dd/dee/functional_8qh.html#a3b0e07bd82e161aaf8ff3df6bdb0971d":[2,0,4,21,10]
+"dd/dee/functional_8qh.html#a3b0e07bd82e161aaf8ff3df6bdb0971d":[2,0,4,21,10],
+"dd/dee/functional_8qh.html#a404831df17458c951143e3b9b6418db5":[2,0,4,21,22],
+"dd/dee/functional_8qh.html#a460896f19d716ae3a817996c80bbb2a9":[2,0,4,21,7],
+"dd/dee/functional_8qh.html#a4eb8c3e185523b1673a568bd37e83abf":[2,0,4,21,12],
+"dd/dee/functional_8qh.html#a6a99b24bffb3c6152edef19d255ae714":[2,0,4,21,23],
+"dd/dee/functional_8qh.html#a76c9c74237795e07741b978e4338b77c":[2,0,4,21,24]
 };

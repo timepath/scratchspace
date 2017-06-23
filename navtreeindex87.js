@@ -1,10 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"d9/df7/mathlib_8qh.html#afe4fd4c69320cfbb00dc777c0b63ade2":[2,0,4,2,9,13],
-"d9/df7/mathlib_8qh.html#aff2e840abf39a06175267ce0fa55de9c":[2,0,4,2,9,42],
-"d9/df7/mathlib_8qh_source.html":[2,0,4,2,9],
-"d9/df8/changelevel_8qc.html":[2,0,1,13,2,2],
-"d9/df8/changelevel_8qc_source.html":[2,0,1,13,2,2],
 "d9/dfa/devastator_8qh.html":[2,0,1,16,0,9],
 "d9/dfa/devastator_8qh_source.html":[2,0,1,16,0,9],
 "d9/dfa/ecs_2systems_2__mod_8inc.html":[2,0,3,2,0],
@@ -249,5 +244,10 @@ var NAVTREEINDEX87 =
 "da/d2a/classXonoticDecibelsSlider.html#a5eb816d08bd102111b268f794d42d695":[1,0,159,44],
 "da/d2a/classXonoticDecibelsSlider.html#a6cb020ef9e5705c39d3737e27ef31efe":[1,0,159,86],
 "da/d2a/classXonoticDecibelsSlider.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,159,12],
-"da/d2a/classXonoticDecibelsSlider.html#a74a62e9d30365917db40174154ff73ec":[1,0,159,37]
+"da/d2a/classXonoticDecibelsSlider.html#a74a62e9d30365917db40174154ff73ec":[1,0,159,37],
+"da/d2a/classXonoticDecibelsSlider.html#a77664aa80ac34cfbe2a080f4eeb00fa5":[1,0,159,70],
+"da/d2a/classXonoticDecibelsSlider.html#a7b13cdc101cd55528465440586a004f6":[1,0,159,56],
+"da/d2a/classXonoticDecibelsSlider.html#a7ba277f3c886c7d391915d273fede63c":[1,0,159,60],
+"da/d2a/classXonoticDecibelsSlider.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,159,16],
+"da/d2a/classXonoticDecibelsSlider.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,159,66]
 };

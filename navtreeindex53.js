@@ -181,13 +181,8 @@ var NAVTREEINDEX53 =
 "d6/d5c/dialog__settings__game__weapons_8qh.html#ad61e8983facaede86b25d8e3947f88ee":[2,0,5,4,139,2],
 "d6/d5c/dialog__settings__game__weapons_8qh_source.html":[2,0,5,4,139],
 "d6/d60/common_2turrets_2util_8qh.html":[2,0,1,14,21],
-"d6/d60/common_2turrets_2util_8qh.html#a1887814f18af2259bf4a563c9ce69565":[2,0,1,14,21,2],
-"d6/d60/common_2turrets_2util_8qh.html#a200ba178c52cc153c9efce4b81ebc62d":[2,0,1,14,21,4],
-"d6/d60/common_2turrets_2util_8qh.html#a3a53f70d7f1996e53fa64724d3ebfb7f":[2,0,1,14,21,6],
-"d6/d60/common_2turrets_2util_8qh.html#a520b5ef01deabe77ef3b0376e65875df":[2,0,1,14,21,1],
-"d6/d60/common_2turrets_2util_8qh.html#a74e3390452e67698b03637a6f3f38f4e":[2,0,1,14,21,0],
-"d6/d60/common_2turrets_2util_8qh.html#a7bafc4f3aeba7d35f268f3c63dbe73ae":[2,0,1,14,21,3],
-"d6/d60/common_2turrets_2util_8qh.html#a91b5bfdce1abf7d3ab4f5341923c3bda":[2,0,1,14,21,5],
+"d6/d60/common_2turrets_2util_8qh.html#a3a53f70d7f1996e53fa64724d3ebfb7f":[2,0,1,14,21,1],
+"d6/d60/common_2turrets_2util_8qh.html#a7bafc4f3aeba7d35f268f3c63dbe73ae":[2,0,1,14,21,0],
 "d6/d60/common_2turrets_2util_8qh_source.html":[2,0,1,14,21],
 "d6/d63/compiler_8qh.html":[2,0,4,13],
 "d6/d63/compiler_8qh.html#a608af1727395e4e27a72df6c6799c215":[2,0,4,13,0],
@@ -249,5 +244,10 @@ var NAVTREEINDEX53 =
 "d6/d74/cvars_8qh.html#a5401e2c1b351361dfde3da2090e573af":[2,0,6,0,0,8,35],
 "d6/d74/cvars_8qh.html#a54ee1e972503dca6cc8abacfe6655963":[2,0,6,0,0,8,33],
 "d6/d74/cvars_8qh.html#a5928d1dea5788c24799b50197807c9ea":[2,0,6,0,0,8,5],
-"d6/d74/cvars_8qh.html#a6821168d192b4abd4c7f1ee6a8a2502a":[2,0,6,0,0,8,56]
+"d6/d74/cvars_8qh.html#a6821168d192b4abd4c7f1ee6a8a2502a":[2,0,6,0,0,8,56],
+"d6/d74/cvars_8qh.html#a6cae11bf1f24f37b210646885d1aaece":[2,0,6,0,0,8,31],
+"d6/d74/cvars_8qh.html#a6e86bd1abe4bdf74603f2aac09d0bbd5":[2,0,6,0,0,8,17],
+"d6/d74/cvars_8qh.html#a779874ec7e76394b69e22eb435b4b4f8":[2,0,6,0,0,8,11],
+"d6/d74/cvars_8qh.html#a7bd1e030473267546e65d2aabd89e07b":[2,0,6,0,0,8,12],
+"d6/d74/cvars_8qh.html#a8121cf53c4a5ec1fc2a59e5d5efde939":[2,0,6,0,0,8,23]
 };

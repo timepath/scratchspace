@@ -25,6 +25,7 @@ var searchData=
   ['allproperties',['ALLPROPERTIES',['../d5/df7/lib_2csqcmodel_2common_8qh.html#a8e9253310528fe25da0191bad79ec5d2',1,'common.qh']]],
   ['allproperties_5fcommon',['ALLPROPERTIES_COMMON',['../d5/df7/lib_2csqcmodel_2common_8qh.html#a27130e620ac5aff8941b2ae3cf384e41',1,'common.qh']]],
   ['ammo_5fflags',['ammo_flags',['../d9/d67/turret_8qh.html#affa742d4eca50b31c02ccd236a563b6b',1,'turret.qh']]],
+  ['angleofs',['angleofs',['../d9/da8/angle_8qc.html#adbdcb565f74da318a69ef740aa3c90c2',1,'angle.qc']]],
   ['anim_5fvec',['ANIM_VEC',['../d0/d51/animdecide_8qc.html#a2307498625d0c0a7fff207d033828015',1,'animdecide.qc']]],
   ['animations_5ffrom',['Animations_from',['../d3/d42/animdecide_8qh.html#a4a6cedced9be70c50161cc5359da08c6',1,'animdecide.qh']]],
   ['announcer_5fcheckminute',['ANNOUNCER_CHECKMINUTE',['../da/df4/announcer_8qc.html#af849d803cb328d40fe38558b26cdb4bb',1,'announcer.qc']]],

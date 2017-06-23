@@ -1,10 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"df/d28/sv__turrets_8qh.html#a583139dbba9b459ec395465cf8a4ffa7":[2,0,1,14,14,62],
-"df/d28/sv__turrets_8qh.html#a59d9759d746cb3f56f6cd8c909943065":[2,0,1,14,14,45],
-"df/d28/sv__turrets_8qh.html#a5a7e22048c6b86cb0269a4ccac9b1271":[2,0,1,14,14,14],
-"df/d28/sv__turrets_8qh.html#a5bb0d9e6f4a0edd9ebd6c763dd6da6d8":[2,0,1,14,14,56],
-"df/d28/sv__turrets_8qh.html#a5cba95f00cb97153494faf1f376e84de":[2,0,1,14,14,24],
 "df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2":[2,0,1,14,14,20],
 "df/d28/sv__turrets_8qh.html#a66568773b44f37ca82c672df0e189c27":[2,0,1,14,14,55],
 "df/d28/sv__turrets_8qh.html#a69ef3f8ae3c2c9c7035737af552440d2":[2,0,1,14,14,34],
@@ -249,5 +244,10 @@ var NAVTREEINDEX127 =
 "df/d4a/dialog__hudpanel__chat_8qh_source.html":[2,0,5,4,49],
 "df/d4c/server_2pathlib_2main_8qc.html":[2,0,6,4,8],
 "df/d4c/server_2pathlib_2main_8qc.html#a03b9aba43bfb042a5123b809a630a852":[2,0,6,4,8,9],
-"df/d4c/server_2pathlib_2main_8qc.html#a1f4d68b295cbc7d62c9932abbcf986a9":[2,0,6,4,8,0]
+"df/d4c/server_2pathlib_2main_8qc.html#a1f4d68b295cbc7d62c9932abbcf986a9":[2,0,6,4,8,0],
+"df/d4c/server_2pathlib_2main_8qc.html#a247f038e9726975a0d8ba91d55927e59":[2,0,6,4,8,13],
+"df/d4c/server_2pathlib_2main_8qc.html#a402be18908ff31765c1ff5ba030db5e9":[2,0,6,4,8,4],
+"df/d4c/server_2pathlib_2main_8qc.html#a50572e73e7e27b5eb8e52c539109a13e":[2,0,6,4,8,6],
+"df/d4c/server_2pathlib_2main_8qc.html#a57be331126514bebda5b12285f5f8022":[2,0,6,4,8,8],
+"df/d4c/server_2pathlib_2main_8qc.html#a83274351e21299627f57002cc1c755a0":[2,0,6,4,8,12]
 };

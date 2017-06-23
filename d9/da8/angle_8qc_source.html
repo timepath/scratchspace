@@ -164,46 +164,30 @@ $(document).ready(function(){initNavTree('d9/da8/angle_8qc_source.html','../../'
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">* Return the angle between two enteties</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">* Return the angle offset between angle ang and angle of the vector from-&gt;to</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="../../d9/da8/angle_8qc.html#a520b5ef01deabe77ef3b0376e65875df">   62</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d9/da8/angle_8qc.html#a520b5ef01deabe77ef3b0376e65875df">angleofs</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> from, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>)</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v_res;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    v_res = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(to.origin - from.origin);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    v_res = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(v_res);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    v_res = v_res - from.angles;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">if</span> (v_res_x &lt; 0)    v_res_x += 360;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">if</span> (v_res_x &gt; 180)  v_res_x -= 360;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">if</span> (v_res_y &lt; 0)    v_res_y += 360;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">if</span> (v_res_y &gt; 180)  v_res_y -= 360;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">return</span> v_res;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="../../d9/da8/angle_8qc.html#a1887814f18af2259bf4a563c9ce69565">   79</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d9/da8/angle_8qc.html#a1887814f18af2259bf4a563c9ce69565">angleofs3</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> from, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> from_a, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>)</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;{</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v_res;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    v_res = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(to.origin - from);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    v_res = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(v_res);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    v_res = v_res - from_a;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">if</span> (v_res_x &lt; 0)    v_res_x += 360;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">if</span> (v_res_x &gt; 180)  v_res_x -= 360;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span> (v_res_y &lt; 0)    v_res_y += 360;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">if</span> (v_res_y &gt; 180)  v_res_y -= 360;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">return</span> v_res;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
-<div class="ttc" id="angle_8qc_html_a1887814f18af2259bf4a563c9ce69565"><div class="ttname"><a href="../../d9/da8/angle_8qc.html#a1887814f18af2259bf4a563c9ce69565">angleofs3</a></div><div class="ttdeci">vector angleofs3(vector from, vector from_a, entity to)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/angle_8qc_source.html#l00079">angle.qc:79</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="../../d9/da8/angle_8qc.html#a62e7c23c46bbf3b39e894c3206899f0c">   63</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d9/da8/angle_8qc.html#a62e7c23c46bbf3b39e894c3206899f0c">angleofs3</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> from, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ang, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>)</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;{</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v_res;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    v_res = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(to - from);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    v_res = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(v_res);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    v_res = v_res - ang;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">if</span> (v_res_x &lt; 0)    v_res_x += 360;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">if</span> (v_res_x &gt; 180)  v_res_x -= 360;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">if</span> (v_res_y &lt; 0)    v_res_y += 360;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">if</span> (v_res_y &gt; 180)  v_res_y -= 360;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> v_res;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="../../d9/da8/angle_8qc.html#adbdcb565f74da318a69ef740aa3c90c2">   80</a></span>&#160;<span class="preprocessor">#define angleofs(from, to) angleofs3(from.origin, from.angles, to.origin)</span></div>
+<div class="ttc" id="angle_8qc_html_a62e7c23c46bbf3b39e894c3206899f0c"><div class="ttname"><a href="../../d9/da8/angle_8qc.html#a62e7c23c46bbf3b39e894c3206899f0c">angleofs3</a></div><div class="ttdeci">vector angleofs3(vector from, vector ang, vector to)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/angle_8qc_source.html#l00063">angle.qc:63</a></div></div>
 <div class="ttc" id="angle_8qc_html_a91b5bfdce1abf7d3ab4f5341923c3bda"><div class="ttname"><a href="../../d9/da8/angle_8qc.html#a91b5bfdce1abf7d3ab4f5341923c3bda">shortangle_vxy</a></div><div class="ttdeci">vector shortangle_vxy(vector ang1, vector ang2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/angle_8qc_source.html#l00049">angle.qc:49</a></div></div>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00094">self.qh:94</a></div></div>
-<div class="ttc" id="angle_8qc_html_a520b5ef01deabe77ef3b0376e65875df"><div class="ttname"><a href="../../d9/da8/angle_8qc.html#a520b5ef01deabe77ef3b0376e65875df">angleofs</a></div><div class="ttdeci">vector angleofs(entity from, entity to)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/angle_8qc_source.html#l00062">angle.qc:62</a></div></div>
 <div class="ttc" id="angle_8qc_html_a200ba178c52cc153c9efce4b81ebc62d"><div class="ttname"><a href="../../d9/da8/angle_8qc.html#a200ba178c52cc153c9efce4b81ebc62d">shortangle_f</a></div><div class="ttdeci">float shortangle_f(float ang1, float ang2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/angle_8qc_source.html#l00022">angle.qc:22</a></div></div>
 <div class="ttc" id="angle_8qc_html_a74e3390452e67698b03637a6f3f38f4e"><div class="ttname"><a href="../../d9/da8/angle_8qc.html#a74e3390452e67698b03637a6f3f38f4e">anglemods</a></div><div class="ttdeci">float anglemods(float v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/angle_8qc_source.html#l00007">angle.qc:7</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a822ea10e75a853993f2fa21149d76f4c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a></div><div class="ttdeci">vector vectoangles(vector v)</div></div>
@@ -220,7 +204,7 @@ $(document).ready(function(){initNavTree('d9/da8/angle_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d9/da8/angle_8qc.html">angle.qc</a></li>
-    <li class="footer">Generated on Fri Jun 23 2017 10:13:12 for Xonotic by
+    <li class="footer">Generated on Fri Jun 23 2017 16:44:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

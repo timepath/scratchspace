@@ -1,10 +1,5 @@
 var NAVTREEINDEX124 =
 {
-"de/d94/slider__particles_8qc_source.html":[2,0,5,4,208],
-"de/d95/classEffectInfo.html":[1,0,31],
-"de/d95/classEffectInfo.html#a37d2c021ca1abd3145fbd147505e92fe":[1,0,31,4],
-"de/d95/classEffectInfo.html#a8242ac14f0f12e7dfe151951333faf82":[1,0,31,0],
-"de/d95/classEffectInfo.html#a966d6afecabdd6ce7eb2ef9157f88226":[1,0,31,1],
 "de/d95/classEffectInfo.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,31,3],
 "de/d95/classEffectInfo.html#afd551afac097fdbeeabde98c8aa1bfc8":[1,0,31,2],
 "de/d9a/item_8qc.html":[2,0,5,13],
@@ -249,5 +244,10 @@ var NAVTREEINDEX124 =
 "de/dcb/classMageSpike.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,72,22],
 "de/dcb/classMageSpike.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,72,25],
 "de/dcb/classMageSpike.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,72,17],
-"de/dcb/vector_8qh.html":[2,0,4,63]
+"de/dcb/vector_8qh.html":[2,0,4,63],
+"de/dcb/vector_8qh.html#a050d55163b23ec6432f867b0dbc3d12d":[2,0,4,63,9],
+"de/dcb/vector_8qh.html#a10b5386494e6b2a6633409d330bdf639":[2,0,4,63,11],
+"de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a":[2,0,4,63,33],
+"de/dcb/vector_8qh.html#a1b150f420429d9c4768f3c23e637fbe4":[2,0,4,63,23],
+"de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30":[2,0,4,63,6]
 };
