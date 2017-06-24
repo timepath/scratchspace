@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"d6/d74/cvars_8qh.html#a7bd1e030473267546e65d2aabd89e07b":[2,0,6,0,0,8,12],
+"d6/d74/cvars_8qh.html#a8121cf53c4a5ec1fc2a59e5d5efde939":[2,0,6,0,0,8,23],
 "d6/d74/cvars_8qh.html#a83b105f967a0d08b7b710b9690cd7af3":[2,0,6,0,0,8,44],
 "d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756":[2,0,6,0,0,8,55],
 "d6/d74/cvars_8qh.html#a89d71961f892647b60577f864cd62f84":[2,0,6,0,0,8,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d79/classXonoticHUDWeaponsDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,196,38],
 "d6/d79/classXonoticHUDWeaponsDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,196,58],
 "d6/d79/classXonoticHUDWeaponsDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,196,85],
-"d6/d79/classXonoticHUDWeaponsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,196,51],
-"d6/d79/classXonoticHUDWeaponsDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,196,63],
-"d6/d79/classXonoticHUDWeaponsDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,196,88]
+"d6/d79/classXonoticHUDWeaponsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,196,51]
 };

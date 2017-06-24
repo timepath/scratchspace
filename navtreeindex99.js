@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"db/d7f/effectinfo_8inc.html#a6046d407247e8ce3f1270607c9a4a79c":[2,0,1,2,7,21],
+"db/d7f/effectinfo_8inc.html#a604cd3ff2d1a023e310f648f2c2bce05":[2,0,1,2,7,260],
 "db/d7f/effectinfo_8inc.html#a6196430750358ef2b9a662adfe223a94":[2,0,1,2,7,32],
 "db/d7f/effectinfo_8inc.html#a61d339e5625bb15c3faa19760dc66952":[2,0,1,2,7,174],
 "db/d7f/effectinfo_8inc.html#a6308b00b052709777d34cff2ed7af513":[2,0,1,2,7,304],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "db/d7f/effectinfo_8inc.html#afe50d062b4099b718dbb0a9c4b097f6a":[2,0,1,2,7,145],
 "db/d7f/effectinfo_8inc.html#afecd393099e27b867bbd7d7998324df2":[2,0,1,2,7,284],
 "db/d7f/effectinfo_8inc.html#aff106809eb42e961d7592183ee870aef":[2,0,1,2,7,335],
-"db/d7f/effectinfo_8inc_source.html":[2,0,1,2,7],
-"db/d7f/turrets_2all_8qh.html":[2,0,1,14,6],
-"db/d7f/turrets_2all_8qh.html#a480cc7101d2edcf64993e80de5a8e4ac":[2,0,1,14,6,0]
+"db/d7f/effectinfo_8inc_source.html":[2,0,1,2,7]
 };

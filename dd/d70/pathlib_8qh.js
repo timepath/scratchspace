@@ -34,7 +34,7 @@ var pathlib_8qh =
     [ "best_open_node", "dd/d70/pathlib_8qh.html#ae6dfae407763880c8a7c612c6b3bd348", null ],
     [ "closedlist", "dd/d70/pathlib_8qh.html#aae54e100a6691b764778eafdd7dec48a", null ],
     [ "goal_node", "dd/d70/pathlib_8qh.html#a7a4bfc3e89444975d4a0c3226992e08f", null ],
-    [ "is_path_node", "dd/d70/pathlib_8qh.html#a2d601960ef1aea5f4a637ac5a9dcce9f", null ],
+    [ "is_path_node", "dd/d70/pathlib_8qh.html#a71fb2ef4c012c80cb2942df64b2f441f", null ],
     [ "movenode_boxmax", "dd/d70/pathlib_8qh.html#af8a5b93a257df77202ad0ece0336b25c", null ],
     [ "movenode_boxmin", "dd/d70/pathlib_8qh.html#ae528b3e11784e5c063865e475db8835c", null ],
     [ "movenode_boxup", "dd/d70/pathlib_8qh.html#a0ae0c5798445692348f11dd4826bc739", null ],

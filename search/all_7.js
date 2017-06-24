@@ -58,6 +58,7 @@ var searchData=
   ['g_5fnexball_5fmeter_5fperiod',['g_nexball_meter_period',['../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778',1,'defs.qh']]],
   ['g_5fnix_5fwith_5fblaster',['g_nix_with_blaster',['../d7/d39/sv__nix_8qc.html#a6d1fd35971b236c28492b19236e444c2',1,'sv_nix.qc']]],
   ['g_5fonslaught',['g_onslaught',['../d0/de4/sv__onslaught_8qc.html#af104b8373280b1032136d1cb246eeb42',1,'sv_onslaught.qc']]],
+  ['g_5fpathlib_5fnodes',['g_pathlib_nodes',['../d5/d26/server_2defs_8qh.html#a343db0b2176359fdbe813de89a4638b8',1,'defs.qh']]],
   ['g_5fpickup_5fcells_5fmax',['g_pickup_cells_max',['../dc/d73/server_2miscfunctions_8qh.html#a4a9a150f9240d2c5baed3c6ddada2b36',1,'miscfunctions.qh']]],
   ['g_5fpickup_5ffuel_5fmax',['g_pickup_fuel_max',['../dc/d73/server_2miscfunctions_8qh.html#a89cf2b28a3e7e5e334596c579ad91acd',1,'miscfunctions.qh']]],
   ['g_5fpickup_5fnails_5fmax',['g_pickup_nails_max',['../dc/d73/server_2miscfunctions_8qh.html#ae2af274123d9eb356c89a1d02c121820',1,'miscfunctions.qh']]],
