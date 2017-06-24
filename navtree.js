@@ -155,7 +155,7 @@ var NAVTREEINDEX =
 "de/d95/classEffectInfo.html#aa8bfcd32a594bb7d38143dce8b4ba8cf",
 "de/dcb/vector_8qh.html#a272232a6508520d459ceb2120b5de8b7",
 "df/d0f/classSpiderbot.html#a91f922352c8e6ca7b9b56617c530b8b4",
-"df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2",
+"df/d28/sv__turrets_8qh.html#a66568773b44f37ca82c672df0e189c27",
 "df/d4c/server_2pathlib_2main_8qc.html#a928781de46c90ca77a40c7ece2a97535",
 "df/d78/classPhaserTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3",
 "df/d9b/menu_2xonotic_2util_8qc.html#a333510eb3e695bd259d836d9b3879bf3",

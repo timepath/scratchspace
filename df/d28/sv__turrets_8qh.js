@@ -21,6 +21,7 @@ var sv__turrets_8qh =
     [ "ammo_recharge", "df/d28/sv__turrets_8qh.html#a0577e32e3f20aa8ba4749eef48714d18", null ],
     [ "idle_aim", "df/d28/sv__turrets_8qh.html#a07c4c1a4a7cb4c2974e3f73f6c395d5c", null ],
     [ "pathcurrent", "df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2", null ],
+    [ "pathgoal", "df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a", null ],
     [ "shot_dmg", "df/d28/sv__turrets_8qh.html#abdff73d9d6c1f73a10601dfed099bcb4", null ],
     [ "shot_force", "df/d28/sv__turrets_8qh.html#a6ba82eb5f3e6a07eeb904cb11be619fd", null ],
     [ "shot_radius", "df/d28/sv__turrets_8qh.html#a9f1d1676c145bad73c450ff06420b23e", null ],
