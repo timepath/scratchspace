@@ -326,7 +326,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00063">63</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00056">HUD_InfoMessages()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01443">Scoreboard_Draw()</a>, and <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00144">Vehicles_drawHUD()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00056">HUD_InfoMessages()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01444">Scoreboard_Draw()</a>, and <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00144">Vehicles_drawHUD()</a>.</p>
 
 </div>
 </div>
@@ -613,18 +613,17 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00032">32</a> of file <a class="el" href="../../df/d30/client_2main_8qc_source.html">main.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00020">draw_currentSkin</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00317">DRAWFLAG_NORMAL</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aa466300ee80f2134cac8e75a7364ca31">drawpic()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00044">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eY</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00019">SIZE_CURSOR</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
+<p>References <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00020">draw_currentSkin</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00317">DRAWFLAG_NORMAL</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aa466300ee80f2134cac8e75a7364ca31">drawpic()</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00019">SIZE_CURSOR</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../de/dcb/vector_8qh_source.html#l00101">vec2</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00038">draw_cursor_normal()</a>, and <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01110">HUD_Panel_Mouse()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    ofs = <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a> * (ofs.x * <a class="code" href="../../d0/d2a/client_2main_8qh.html#affb130add2c9ed5cab2cb229ad8f921d">SIZE_CURSOR</a>.x) + <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> * (ofs.y * <a class="code" href="../../d0/d2a/client_2main_8qh.html#affb130add2c9ed5cab2cb229ad8f921d">SIZE_CURSOR</a>.y);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    ofs = <a class="code" href="../../de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910">vec2</a>(ofs.x * <a class="code" href="../../d0/d2a/client_2main_8qh.html#affb130add2c9ed5cab2cb229ad8f921d">SIZE_CURSOR</a>.x, ofs.y * <a class="code" href="../../d0/d2a/client_2main_8qh.html#affb130add2c9ed5cab2cb229ad8f921d">SIZE_CURSOR</a>.y);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#aa466300ee80f2134cac8e75a7364ca31">drawpic</a>(pos - ofs, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#a2487aefe8b9f0c9382be0e1b7d696ce9">draw_currentSkin</a>, img), <a class="code" href="../../d0/d2a/client_2main_8qh.html#affb130add2c9ed5cab2cb229ad8f921d">SIZE_CURSOR</a>, col, a, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
-<div class="ttc" id="vector_8qh_html_a13163379d56e777f08a20fca27f20c2a"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a></div><div class="ttdeci">const vector eY</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00045">vector.qh:45</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a2487aefe8b9f0c9382be0e1b7d696ce9"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a2487aefe8b9f0c9382be0e1b7d696ce9">draw_currentSkin</a></div><div class="ttdeci">string draw_currentSkin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00020">util.qh:20</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a0b04e01c228e625bb2627bee15484910"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a></div><div class="ttdeci">const float DRAWFLAG_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00317">csprogsdefs.qc:317</a></div></div>
-<div class="ttc" id="vector_8qh_html_adce3aade2f97ac6fb4688fe0a7005d27"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a></div><div class="ttdeci">const vector eX</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00044">vector.qh:44</a></div></div>
+<div class="ttc" id="vector_8qh_html_ae0030538506d12cd8ee388d004234910"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910">vec2</a></div><div class="ttdeci">#define vec2(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00101">vector.qh:101</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_affb130add2c9ed5cab2cb229ad8f921d"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#affb130add2c9ed5cab2cb229ad8f921d">SIZE_CURSOR</a></div><div class="ttdeci">vector SIZE_CURSOR</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00019">main.qh:19</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aa466300ee80f2134cac8e75a7364ca31"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa466300ee80f2134cac8e75a7364ca31">drawpic</a></div><div class="ttdeci">float drawpic(vector position, string pic, vector size, vector rgb, float alpha, float flag)</div></div>
 </div><!-- fragment -->
@@ -730,7 +729,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/db4/client_2autocvars_8qh_source.html#l00058">autocvar_cl_orthoview</a>, <a class="el" href="../../d7/db4/client_2autocvars_8qh_source.html#l00059">autocvar_cl_orthoview_nofog</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00929">forcefog</a>, and <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00021">localcmd</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;{</div>
 <div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a07ab9c2f9928f658d9aa7057e0ea07a4">autocvar_cl_orthoview</a> &amp;&amp; <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a091511a4754b92726a6bf4a3cb666281">autocvar_cl_orthoview_nofog</a>)</div>
 <div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;        <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;\nr_drawfog 0\n&quot;</span>);</div>
@@ -1097,7 +1096,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00054">54</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>.</p>
 
 </div>
 </div>
@@ -1113,7 +1112,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00052">52</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00732">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00732">NET_HANDLE()</a>.</p>
 
 </div>
 </div>
@@ -1129,7 +1128,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00091">91</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00088">CSQC_Init()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00879">Gamemode_Init()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00181">Shutdown()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00088">CSQC_Init()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00879">Gamemode_Init()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00181">Shutdown()</a>.</p>
 
 </div>
 </div>
@@ -1145,7 +1144,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00077">77</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00632">ConsoleCommand_macro_movement()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00969">HUD_Crosshair()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00181">Shutdown()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00632">ConsoleCommand_macro_movement()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00969">HUD_Crosshair()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00181">Shutdown()</a>.</p>
 
 </div>
 </div>
@@ -1161,7 +1160,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00080">80</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l02318">CSQC_Demo_Camera()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l02322">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -1177,7 +1176,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00079">79</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l02318">CSQC_Demo_Camera()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l02322">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -1193,7 +1192,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00078">78</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00181">Shutdown()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00181">Shutdown()</a>.</p>
 
 </div>
 </div>
@@ -1209,7 +1208,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00074">74</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, and <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00184">project_3d_to_2d()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, and <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00184">project_3d_to_2d()</a>.</p>
 
 </div>
 </div>
@@ -1241,7 +1240,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00072">72</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, and <a class="el" href="../../d0/d83/radar_8qc_source.html#l00173">HUD_Radar()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, and <a class="el" href="../../d0/d83/radar_8qc_source.html#l00173">HUD_Radar()</a>.</p>
 
 </div>
 </div>
@@ -1257,7 +1256,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00044">44</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../d0/d0f/bgmscript_8qc_source.html#l00171">doBGMScript()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../d0/d0f/bgmscript_8qc_source.html#l00171">doBGMScript()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>.</p>
 
 </div>
 </div>
@@ -1301,7 +1300,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00106">106</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, and <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00589">CSQCModel_Hook_PreDraw()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, and <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00589">CSQCModel_Hook_PreDraw()</a>.</p>
 
 </div>
 </div>
@@ -1317,7 +1316,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00038">38</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dc8/cl__controlpoint_8qc_source.html#l00107">cpicon_construct()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../df/d07/cl__generator_8qc_source.html#l00147">generator_construct()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00170">LocalCommand_debugmodel()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00678">NET_HANDLE()</a>, <a class="el" href="../../df/d07/cl__generator_8qc_source.html#l00008">ons_generator_ray_draw()</a>, <a class="el" href="../../df/d07/cl__generator_8qc_source.html#l00031">ons_generator_ray_spawn()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00369">STATIC_INIT()</a>, and <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00203">turret_construct()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dc8/cl__controlpoint_8qc_source.html#l00107">cpicon_construct()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../df/d07/cl__generator_8qc_source.html#l00147">generator_construct()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00170">LocalCommand_debugmodel()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00678">NET_HANDLE()</a>, <a class="el" href="../../df/d07/cl__generator_8qc_source.html#l00008">ons_generator_ray_draw()</a>, <a class="el" href="../../df/d07/cl__generator_8qc_source.html#l00031">ons_generator_ray_spawn()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00369">STATIC_INIT()</a>, and <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00203">turret_construct()</a>.</p>
 
 </div>
 </div>
@@ -1333,7 +1332,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00041">41</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html#l00148">DamageText::DamageText()</a>, <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00051">NET_HANDLE()</a>, and <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00203">turret_construct()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html#l00148">DamageText::DamageText()</a>, <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00051">NET_HANDLE()</a>, and <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00203">turret_construct()</a>.</p>
 
 </div>
 </div>
@@ -1397,7 +1396,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00013">13</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00372">Cmd_Scoreboard_SetFields()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00088">CSQC_Init()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00036">Draw_ShowNames()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00879">Gamemode_Init()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01349">HUD_Draw()</a>, <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00056">HUD_InfoMessages()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00049">HUD_Mod_CA()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00512">HUD_Mod_Race()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00713">HUD_ModIcons_SetFunc()</a>, <a class="el" href="../../d5/d83/client_2hud_2panel_2physics_8qc_source.html#l00012">HUD_Physics()</a>, <a class="el" href="../../d4/d12/racetimer_8qc_source.html#l00077">HUD_RaceTimer()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00173">HUD_Radar()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00454">HUD_Reset()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00134">HUD_Score()</a>, <a class="el" href="../../df/d1f/client_2hud_2panel_2vote_8qc_source.html#l00007">HUD_Vote()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00939">NET_HANDLE()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01443">Scoreboard_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01339">Scoreboard_Rankings_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01103">Scoreboard_WouldDraw()</a>, and <a class="el" href="../../d9/d0f/statslist_8qc_source.html#l00052">XonoticStatsList_getStats()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00372">Cmd_Scoreboard_SetFields()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00088">CSQC_Init()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00036">Draw_ShowNames()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00879">Gamemode_Init()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01349">HUD_Draw()</a>, <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00056">HUD_InfoMessages()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00049">HUD_Mod_CA()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00513">HUD_Mod_Race()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00718">HUD_ModIcons_SetFunc()</a>, <a class="el" href="../../d5/d83/client_2hud_2panel_2physics_8qc_source.html#l00012">HUD_Physics()</a>, <a class="el" href="../../d4/d12/racetimer_8qc_source.html#l00077">HUD_RaceTimer()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00173">HUD_Radar()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00451">HUD_Reset()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00134">HUD_Score()</a>, <a class="el" href="../../df/d1f/client_2hud_2panel_2vote_8qc_source.html#l00007">HUD_Vote()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00939">NET_HANDLE()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01444">Scoreboard_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01340">Scoreboard_Rankings_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01104">Scoreboard_WouldDraw()</a>, and <a class="el" href="../../d9/d0f/statslist_8qc_source.html#l00052">XonoticStatsList_getStats()</a>.</p>
 
 </div>
 </div>
@@ -1427,7 +1426,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00027">27</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l01026">NET_HANDLE()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00493">race_CheckName()</a>, and <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01339">Scoreboard_Rankings_Draw()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l01026">NET_HANDLE()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00494">race_CheckName()</a>, and <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01340">Scoreboard_Rankings_Draw()</a>.</p>
 
 </div>
 </div>
@@ -1443,7 +1442,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00028">28</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l01026">NET_HANDLE()</a>, and <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01339">Scoreboard_Rankings_Draw()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l01026">NET_HANDLE()</a>, and <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01340">Scoreboard_Rankings_Draw()</a>.</p>
 
 </div>
 </div>
@@ -1459,7 +1458,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00107">107</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/d8e/gamemode__assault_8qc_source.html#l00031">assault_objective_reset()</a>, <a class="el" href="../../d9/d8e/gamemode__assault_8qc_source.html#l00009">assault_objective_use()</a>, <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00607">bot_cmd_eval()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00134">CheatImpulse()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00055">CopyBody()</a>, <a class="el" href="../../db/dc8/cl__controlpoint_8qc_source.html#l00021">cpicon_draw()</a>, <a class="el" href="../../de/d4d/sv__controlpoint_8qc_source.html#l00005">cpicon_send()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l00891">ctf_FlagDamage()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l00913">ctf_FlagThink()</a>, <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html#l00079">DamageText::DamageText_update()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00262">door_damage()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00112">door_go_down()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00372">door_rotating_go_down()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00213">formatmessage()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00314">ft_RemovePlayer()</a>, <a class="el" href="../../df/d07/cl__generator_8qc_source.html#l00046">generator_draw()</a>, <a class="el" href="../../d8/dce/sv__generator_8qc_source.html#l00003">generator_send()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00341">GrapplingHook_Damage()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00954">havocbot_chooseenemy()</a>, <a class="el" href="../../d3/d5a/gamemode__keepaway_8qc_source.html#l00205">havocbot_goalrating_ball()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01227">havocbot_goalrating_ons_offenseitems()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l01672">havocbot_role_ctf_carrier()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l01773">havocbot_role_ctf_offense()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00490">Hud_Dynamic_Frame()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00007">HUD_HealthArmor()</a>, <a class="el" href="../../d4/db0/sv__instagib_8qc_source.html#l00049">instagib_ammocheck()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00894">KillIndicator_Think()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00488">LinkDoors()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00371">Monster_Attack_Leap_Check()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00985">Monster_Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00925">Monster_Dead()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00906">Monster_Dead_Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00514">Monster_Dead_Fade()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01147">Monster_Frozen_Think()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00478">Monster_Miniboss_Check()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00891">Monster_Reset()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01238">Monster_Spawn_Setup()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01205">Monster_Think()</a>, <a class="el" href="../../d9/d94/sv__damagetext_8qc_source.html#l00011">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../db/dc8/cl__controlpoint_8qc_source.html#l00158">NET_HANDLE()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00524">ons_ControlPoint_Icon_BuildThink()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00384">ons_ControlPoint_Icon_Damage()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00456">ons_ControlPoint_Icon_Think()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00871">ons_GeneratorDamage()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00976">ons_GeneratorReset()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01579">player_regen()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00170">PlayerCorpseDamage()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00310">PlayerDamage()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02651">PlayerPostThink()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02248">PlayerPreThink()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00431">Portal_Damage()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00493">PutClientInServer()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00217">PutObserverInServer()</a>, <a class="el" href="../../d9/d8e/gamemode__assault_8qc_source.html#l00305">spawnfunc()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01679">SpectateCopy()</a>, <a class="el" href="../../d0/dda/swamp_8qc_source.html#l00040">swampslug_think()</a>, <a class="el" href="../../dd/dde/tests_8qc_source.html#l00003">test_weapons_hurt()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00203">turret_construct()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00029">turret_draw()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00058">turret_draw2d()</a>, <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00144">Vehicles_drawHUD()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00204">vehicles_projectile_damage()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/d8e/gamemode__assault_8qc_source.html#l00031">assault_objective_reset()</a>, <a class="el" href="../../d9/d8e/gamemode__assault_8qc_source.html#l00009">assault_objective_use()</a>, <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00607">bot_cmd_eval()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00134">CheatImpulse()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00055">CopyBody()</a>, <a class="el" href="../../db/dc8/cl__controlpoint_8qc_source.html#l00021">cpicon_draw()</a>, <a class="el" href="../../de/d4d/sv__controlpoint_8qc_source.html#l00005">cpicon_send()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l00891">ctf_FlagDamage()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l00913">ctf_FlagThink()</a>, <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html#l00079">DamageText::DamageText_update()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00262">door_damage()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00112">door_go_down()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00372">door_rotating_go_down()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00213">formatmessage()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00314">ft_RemovePlayer()</a>, <a class="el" href="../../df/d07/cl__generator_8qc_source.html#l00046">generator_draw()</a>, <a class="el" href="../../d8/dce/sv__generator_8qc_source.html#l00003">generator_send()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00341">GrapplingHook_Damage()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00954">havocbot_chooseenemy()</a>, <a class="el" href="../../d3/d5a/gamemode__keepaway_8qc_source.html#l00205">havocbot_goalrating_ball()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01227">havocbot_goalrating_ons_offenseitems()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l01672">havocbot_role_ctf_carrier()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l01773">havocbot_role_ctf_offense()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00487">Hud_Dynamic_Frame()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00007">HUD_HealthArmor()</a>, <a class="el" href="../../d4/db0/sv__instagib_8qc_source.html#l00049">instagib_ammocheck()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00894">KillIndicator_Think()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00488">LinkDoors()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00371">Monster_Attack_Leap_Check()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00985">Monster_Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00925">Monster_Dead()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00906">Monster_Dead_Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00514">Monster_Dead_Fade()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01147">Monster_Frozen_Think()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00478">Monster_Miniboss_Check()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00891">Monster_Reset()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01238">Monster_Spawn_Setup()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01205">Monster_Think()</a>, <a class="el" href="../../d9/d94/sv__damagetext_8qc_source.html#l00011">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../db/dc8/cl__controlpoint_8qc_source.html#l00158">NET_HANDLE()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00524">ons_ControlPoint_Icon_BuildThink()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00384">ons_ControlPoint_Icon_Damage()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00456">ons_ControlPoint_Icon_Think()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00871">ons_GeneratorDamage()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00976">ons_GeneratorReset()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01579">player_regen()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00170">PlayerCorpseDamage()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00310">PlayerDamage()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02651">PlayerPostThink()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02248">PlayerPreThink()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00431">Portal_Damage()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00493">PutClientInServer()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00217">PutObserverInServer()</a>, <a class="el" href="../../d9/d8e/gamemode__assault_8qc_source.html#l00305">spawnfunc()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01679">SpectateCopy()</a>, <a class="el" href="../../d0/dda/swamp_8qc_source.html#l00040">swampslug_think()</a>, <a class="el" href="../../dd/dde/tests_8qc_source.html#l00003">test_weapons_hurt()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00203">turret_construct()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00029">turret_draw()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00058">turret_draw2d()</a>, <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00144">Vehicles_drawHUD()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00204">vehicles_projectile_damage()</a>.</p>
 
 </div>
 </div>
@@ -1475,7 +1474,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00093">93</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00181">Shutdown()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00181">Shutdown()</a>.</p>
 
 </div>
 </div>
@@ -1491,7 +1490,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00092">92</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00879">Gamemode_Init()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00181">Shutdown()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00879">Gamemode_Init()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00181">Shutdown()</a>.</p>
 
 </div>
 </div>
@@ -1507,7 +1506,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00099">99</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00889">crosshair_getcolor()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00096">HUD_Ammo()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00969">HUD_Crosshair()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00787">HUD_Crosshair_Vehicle()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00007">HUD_HealthArmor()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00400">HUD_Vehicle()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00037">HUD_Weapons()</a>, <a class="el" href="../../d2/d0a/common_2physics_2player_8qc_source.html#l00092">PM_ClientMovement_UpdateStatus()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00493">PutClientInServer()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00217">PutObserverInServer()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01679">SpectateCopy()</a>, <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00015">sys_phys_override()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00058">turret_draw2d()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00759">WantEventchase()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00889">crosshair_getcolor()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00096">HUD_Ammo()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00969">HUD_Crosshair()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00787">HUD_Crosshair_Vehicle()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00007">HUD_HealthArmor()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00397">HUD_Vehicle()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00037">HUD_Weapons()</a>, <a class="el" href="../../d2/d0a/common_2physics_2player_8qc_source.html#l00092">PM_ClientMovement_UpdateStatus()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00493">PutClientInServer()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00217">PutObserverInServer()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01679">SpectateCopy()</a>, <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00015">sys_phys_override()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00058">turret_draw2d()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00759">WantEventchase()</a>.</p>
 
 </div>
 </div>
@@ -1523,7 +1522,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00024">24</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00372">Cmd_Scoreboard_SetFields()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00075">GameTypeVote_DrawGameTypeItem()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00536">HUD_MinigameHelp()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00473">HUD_MinigameMenu()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00366">HUD_MinigameMenu_CurrentButton()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00410">HUD_MinigameMenu_Open()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00164">HUD_MinigameMenu_SpawnSubEntry()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01257">MapStats_DrawKeyValue()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00322">MapVote_Draw()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00262">MapVote_DrawAbstain()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00187">MapVote_DrawMapItem()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00647">MapVote_Init()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01125">Scoreboard_AccuracyStats_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01443">Scoreboard_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00772">Scoreboard_DrawHeader()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00819">Scoreboard_DrawItem()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00913">Scoreboard_DrawOthers()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00696">Scoreboard_FixColumnWidth()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00763">Scoreboard_initFieldSizes()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01012">Scoreboard_MakeTable()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01269">Scoreboard_MapStats_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01339">Scoreboard_Rankings_Draw()</a>, and <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00144">Vehicles_drawHUD()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00372">Cmd_Scoreboard_SetFields()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00075">GameTypeVote_DrawGameTypeItem()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00536">HUD_MinigameHelp()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00473">HUD_MinigameMenu()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00366">HUD_MinigameMenu_CurrentButton()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00410">HUD_MinigameMenu_Open()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00164">HUD_MinigameMenu_SpawnSubEntry()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01258">MapStats_DrawKeyValue()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00322">MapVote_Draw()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00262">MapVote_DrawAbstain()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00187">MapVote_DrawMapItem()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00647">MapVote_Init()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01126">Scoreboard_AccuracyStats_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01444">Scoreboard_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00772">Scoreboard_DrawHeader()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00819">Scoreboard_DrawItem()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00914">Scoreboard_DrawOthers()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00696">Scoreboard_FixColumnWidth()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00763">Scoreboard_initFieldSizes()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01013">Scoreboard_MakeTable()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01270">Scoreboard_MapStats_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01340">Scoreboard_Rankings_Draw()</a>, and <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00144">Vehicles_drawHUD()</a>.</p>
 
 </div>
 </div>
@@ -1695,7 +1694,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00030">30</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00056">HUD_InfoMessages()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00285">HUD_MinigameMenu_ClickInvite()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00512">HUD_Mod_Race()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00134">HUD_Score()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00393">NET_HANDLE()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00292">Playerchecker_Think()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01443">Scoreboard_Draw()</a>, and <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01012">Scoreboard_MakeTable()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00056">HUD_InfoMessages()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00285">HUD_MinigameMenu_ClickInvite()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00513">HUD_Mod_Race()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00134">HUD_Score()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00393">NET_HANDLE()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00292">Playerchecker_Think()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01444">Scoreboard_Draw()</a>, and <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01013">Scoreboard_MakeTable()</a>.</p>
 
 </div>
 </div>
@@ -1711,7 +1710,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00012">12</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00088">CSQC_Init()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00961">NET_HANDLE()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00335">PostInit()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00088">CSQC_Init()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00961">NET_HANDLE()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00335">PostInit()</a>.</p>
 
 </div>
 </div>
@@ -1727,7 +1726,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00026">26</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01339">Scoreboard_Rankings_Draw()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01340">Scoreboard_Rankings_Draw()</a>.</p>
 
 </div>
 </div>
@@ -1853,7 +1852,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00075">75</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00567">GetViewLocationFOV()</a>, and <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00184">project_3d_to_2d()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00567">GetViewLocationFOV()</a>, and <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00184">project_3d_to_2d()</a>.</p>
 
 </div>
 </div>
@@ -1869,7 +1868,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00075">75</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00567">GetViewLocationFOV()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00567">GetViewLocationFOV()</a>.</p>
 
 </div>
 </div>
@@ -1885,7 +1884,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00075">75</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00567">GetViewLocationFOV()</a>, and <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00184">project_3d_to_2d()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00447">GetCurrentFov()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00567">GetViewLocationFOV()</a>, and <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00184">project_3d_to_2d()</a>.</p>
 
 </div>
 </div>
@@ -1901,7 +1900,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00045">45</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00969">HUD_Crosshair()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00379">Porto_Draw()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00640">TrueAimCheck()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00969">HUD_Crosshair()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00379">Porto_Draw()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00640">TrueAimCheck()</a>.</p>
 
 </div>
 </div>
@@ -1917,7 +1916,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00045">45</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l02318">CSQC_Demo_Camera()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00024">CSQCPlayer_LOD_Apply()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00036">Draw_ShowNames()</a>, <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00052">Ent_Wall_Draw()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00969">HUD_Crosshair()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00173">HUD_Radar()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00130">LocalCommand_create_scrshot_ent()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00170">LocalCommand_debugmodel()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00379">Porto_Draw()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00640">TrueAimCheck()</a>, and <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00058">turret_draw2d()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l02322">CSQC_Demo_Camera()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00024">CSQCPlayer_LOD_Apply()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00036">Draw_ShowNames()</a>, <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00052">Ent_Wall_Draw()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00969">HUD_Crosshair()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00173">HUD_Radar()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00130">LocalCommand_create_scrshot_ent()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00170">LocalCommand_debugmodel()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00379">Porto_Draw()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00640">TrueAimCheck()</a>, and <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00058">turret_draw2d()</a>.</p>
 
 </div>
 </div>
@@ -1933,7 +1932,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00100">100</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00024">CSQCPlayer_LOD_Apply()</a>, and <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00052">Ent_Wall_Draw()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00024">CSQCPlayer_LOD_Apply()</a>, and <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00052">Ent_Wall_Draw()</a>.</p>
 
 </div>
 </div>
@@ -1949,7 +1948,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00045">45</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00640">TrueAimCheck()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00640">TrueAimCheck()</a>.</p>
 
 </div>
 </div>
@@ -1965,7 +1964,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00045">45</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01419">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00379">Porto_Draw()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00640">TrueAimCheck()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01423">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00379">Porto_Draw()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00640">TrueAimCheck()</a>.</p>
 
 </div>
 </div>
@@ -2029,7 +2028,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00058">58</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00108">accuracy_canbegooddamage()</a>, <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00091">accuracy_isgooddamage()</a>, <a class="el" href="../../da/df4/announcer_8qc_source.html#l00130">Announcer_Time()</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00095">CA_RoundStart()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01848">CheckRules_World()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00228">ClientCommand_ready()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00701">CommonCommand_timeout()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00033">GiveFrags()</a>, <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00056">HUD_InfoMessages()</a>, <a class="el" href="../../d5/dfa/timer_8qc_source.html#l00005">HUD_Timer()</a>, <a class="el" href="../../d7/db3/gamemode__lms_8qc_source.html#l00169">lms_RemovePlayer()</a>, <a class="el" href="../../d8/d79/notifications_2all_8qc_source.html#l01182">Local_Notification()</a>, <a class="el" href="../../d1/d98/sv__campcheck_8qc_source.html#l00033">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00028">Nagger_SendEntity()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00541">NET_HANDLE()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00871">ons_GeneratorDamage()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00324">PlayerScore_Add()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00493">PutClientInServer()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00217">PutObserverInServer()</a>, <a class="el" href="../../d5/dd7/gamemode__race_8qc_source.html#l00432">race_Initialize()</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00212">readlevelcvars()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00407">ReadyRestart_force()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00741">Say()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01443">Scoreboard_Draw()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00169">StartFrame()</a>, and <a class="el" href="../../d7/db3/gamemode__lms_8qc_source.html#l00036">WinningCondition_LMS()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00108">accuracy_canbegooddamage()</a>, <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00091">accuracy_isgooddamage()</a>, <a class="el" href="../../da/df4/announcer_8qc_source.html#l00130">Announcer_Time()</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00095">CA_RoundStart()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01848">CheckRules_World()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00228">ClientCommand_ready()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00701">CommonCommand_timeout()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00033">GiveFrags()</a>, <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00056">HUD_InfoMessages()</a>, <a class="el" href="../../d5/dfa/timer_8qc_source.html#l00005">HUD_Timer()</a>, <a class="el" href="../../d7/db3/gamemode__lms_8qc_source.html#l00169">lms_RemovePlayer()</a>, <a class="el" href="../../d8/d79/notifications_2all_8qc_source.html#l01182">Local_Notification()</a>, <a class="el" href="../../d1/d98/sv__campcheck_8qc_source.html#l00033">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00028">Nagger_SendEntity()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00541">NET_HANDLE()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00871">ons_GeneratorDamage()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00324">PlayerScore_Add()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00493">PutClientInServer()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00217">PutObserverInServer()</a>, <a class="el" href="../../d5/dd7/gamemode__race_8qc_source.html#l00432">race_Initialize()</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00212">readlevelcvars()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00407">ReadyRestart_force()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00741">Say()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01444">Scoreboard_Draw()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00169">StartFrame()</a>, and <a class="el" href="../../d7/db3/gamemode__lms_8qc_source.html#l00036">WinningCondition_LMS()</a>.</p>
 
 </div>
 </div>
@@ -2055,7 +2054,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d0/d2a/client_2main_8qh.html">main.qh</a></li>
-    <li class="footer">Generated on Sat Jun 24 2017 04:17:11 for Xonotic by
+    <li class="footer">Generated on Sun Jun 25 2017 09:26:06 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
