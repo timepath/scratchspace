@@ -171,7 +171,7 @@ var searchData=
   ['altstr_5fins',['altstr_ins',['../d8/de2/menudefs_8qc.html#aa827ac502b459e34b87a05bb5c091152',1,'menudefs.qc']]],
   ['altstr_5fprepare',['altstr_prepare',['../d8/de2/menudefs_8qc.html#a975438881304790bcc74cd89886e9ad2',1,'menudefs.qc']]],
   ['altstr_5fset',['altstr_set',['../d8/de2/menudefs_8qc.html#a7a6bfeb1c054af07c37420ed5d55b4cf',1,'menudefs.qc']]],
-  ['ammo',['Ammo',['../dc/dda/classAmmo.html',1,'Ammo'],['../d3/d05/hud_8qh.html#a0271dc2cb812249454f2f348759a234c',1,'ammo():&#160;hud.qh'],['../df/d28/sv__turrets_8qh.html#aa710b24bb1d68d903bfc5f631e84446e',1,'ammo():&#160;sv_turrets.qh']]],
+  ['ammo',['Ammo',['../dc/dda/classAmmo.html',1,'Ammo'],['../df/d28/sv__turrets_8qh.html#aa710b24bb1d68d903bfc5f631e84446e',1,'ammo():&#160;sv_turrets.qh']]],
   ['ammo_2eqc',['ammo.qc',['../dd/d85/client_2hud_2panel_2ammo_8qc.html',1,'']]],
   ['ammo_2eqc',['ammo.qc',['../d3/d9e/common_2items_2item_2ammo_8qc.html',1,'']]],
   ['ammo_2eqh',['ammo.qh',['../db/d2a/client_2hud_2panel_2ammo_8qh.html',1,'']]],

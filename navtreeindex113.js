@@ -1,17 +1,5 @@
 var NAVTREEINDEX113 =
 {
-"dd/d36/halflife_8qc.html#ab6d378a4db9f3eb8bef4c56a7a275217":[2,0,6,2,2,3],
-"dd/d36/halflife_8qc.html#aba4d9ba77e4ed4d2d39117b013bb1d2e":[2,0,6,2,2,24],
-"dd/d36/halflife_8qc.html#ac40ec6255c882e3983dd06d8cea67666":[2,0,6,2,2,23],
-"dd/d36/halflife_8qc.html#ad2d280c1ee5e80d35fb9e6c667e8b8a3":[2,0,6,2,2,16],
-"dd/d36/halflife_8qc.html#ad4e33db67ae3d3e2c92ba1f7de17f7c0":[2,0,6,2,2,20],
-"dd/d36/halflife_8qc.html#adb7e2bed6760c9bee5db46ed79a963d2":[2,0,6,2,2,1],
-"dd/d36/halflife_8qc.html#adfa9f77abd9375505c60e9e3ecbc43e5":[2,0,6,2,2,19],
-"dd/d36/halflife_8qc.html#ae5b9f848b65ebe23f77bc0162845fe4b":[2,0,6,2,2,14],
-"dd/d36/halflife_8qc.html#ae7d02eb493757fd3a3ef4e30edaa0c30":[2,0,6,2,2,22],
-"dd/d36/halflife_8qc_source.html":[2,0,6,2,2],
-"dd/d40/effects_2qc_2all_8qh.html":[2,0,1,2,0,4],
-"dd/d40/effects_2qc_2all_8qh_source.html":[2,0,1,2,0,4],
 "dd/d41/sv__hook_8qc.html":[2,0,1,9,0,10,2],
 "dd/d41/sv__hook_8qc_source.html":[2,0,1,9,0,10,2],
 "dd/d43/cl__turrets_8qc.html":[2,0,1,14,9],
@@ -249,5 +237,17 @@ var NAVTREEINDEX113 =
 "dd/d70/pathlib_8qh.html#aedafe5274fe6b0b467a6a7eaaca8c748":[2,0,6,4,14,29],
 "dd/d70/pathlib_8qh.html#af04218a06b17265edbc734b786dc7ff3":[2,0,6,4,14,80],
 "dd/d70/pathlib_8qh.html#af3703694c58f7f7a40f3b02c55fe2e2e":[2,0,6,4,14,79],
-"dd/d70/pathlib_8qh.html#af4e15e8a943e57dc8e5780332d5a0d9d":[2,0,6,4,14,78]
+"dd/d70/pathlib_8qh.html#af4e15e8a943e57dc8e5780332d5a0d9d":[2,0,6,4,14,78],
+"dd/d70/pathlib_8qh.html#af8a5b93a257df77202ad0ece0336b25c":[2,0,6,4,14,35],
+"dd/d70/pathlib_8qh.html#afb09fb8f49636c9a1c01b7dc59495f3c":[2,0,6,4,14,39],
+"dd/d70/pathlib_8qh.html#afb459e5b1cb840dd02a19aa1124032dc":[2,0,6,4,14,47],
+"dd/d70/pathlib_8qh.html#aff425f8ce77c4efd8c01d67105f88c54":[2,0,6,4,14,23],
+"dd/d70/pathlib_8qh.html#affea92ed68bc1ff87be96c141c3b24c5":[2,0,6,4,14,12],
+"dd/d70/pathlib_8qh_source.html":[2,0,6,4,14],
+"dd/d71/lib_2__mod_8inc.html":[2,0,4,4],
+"dd/d71/lib_2__mod_8inc_source.html":[2,0,4,4],
+"dd/d73/classMachineGun.html":[1,0,68],
+"dd/d73/classMachineGun.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,68,19],
+"dd/d73/classMachineGun.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,68,18],
+"dd/d73/classMachineGun.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,68,16]
 };

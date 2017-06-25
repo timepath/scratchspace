@@ -1,17 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"db/db1/classXonoticHUDRaceTimerDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,190,63],
-"db/db1/classXonoticHUDRaceTimerDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,190,88],
-"db/db1/classXonoticHUDRaceTimerDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,190,31],
-"db/db1/classXonoticHUDRaceTimerDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,190,62],
-"db/db1/classXonoticHUDRaceTimerDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,190,55],
-"db/db1/classXonoticHUDRaceTimerDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,190,91],
-"db/db1/classXonoticHUDRaceTimerDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,190,9],
-"db/db1/classXonoticHUDRaceTimerDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,190,68],
-"db/db1/classXonoticHUDRaceTimerDialog.html#aee30f1edff8e2698e53ecd2e868bbec5":[1,0,190,81],
-"db/db1/classXonoticHUDRaceTimerDialog.html#af1aab403dc54575707fd57991312b201":[1,0,190,47],
-"db/db1/classXonoticHUDRaceTimerDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,190,27],
-"db/db1/classXonoticHUDRaceTimerDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,190,15],
 "db/db1/classXonoticHUDRaceTimerDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,190,39],
 "db/db1/classXonoticHUDRaceTimerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,190,2],
 "db/db1/classXonoticHUDRaceTimerDialog.html#af9ed10146aeca307fa96027ecb5d8852":[1,0,190,69],
@@ -249,5 +237,17 @@ var NAVTREEINDEX101 =
 "db/dc4/classXonoticRadioButton.html#a56159c764874bed976add81f81298c31":[1,0,221,56],
 "db/dc4/classXonoticRadioButton.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,221,61],
 "db/dc4/classXonoticRadioButton.html#a5acde129549a09a7c5e99b8bc5555ebd":[1,0,221,34],
-"db/dc4/classXonoticRadioButton.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,221,44]
+"db/dc4/classXonoticRadioButton.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,221,44],
+"db/dc4/classXonoticRadioButton.html#a66dc7c080c86babb8a59f97e5a1e82fa":[1,0,221,14],
+"db/dc4/classXonoticRadioButton.html#a6813d8f5f29ba927022b34737e3dc22a":[1,0,221,32],
+"db/dc4/classXonoticRadioButton.html#a6c1cc42796dfc8787fb58ce0945fb6ea":[1,0,221,33],
+"db/dc4/classXonoticRadioButton.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,221,20],
+"db/dc4/classXonoticRadioButton.html#a7806f5f95dccfaf7edc4e643e1e99e66":[1,0,221,63],
+"db/dc4/classXonoticRadioButton.html#a7a4b4dd90c5ee54aca7b5b26ad0020c8":[1,0,221,2],
+"db/dc4/classXonoticRadioButton.html#a7b13cdc101cd55528465440586a004f6":[1,0,221,67],
+"db/dc4/classXonoticRadioButton.html#a7ba277f3c886c7d391915d273fede63c":[1,0,221,73],
+"db/dc4/classXonoticRadioButton.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,221,24],
+"db/dc4/classXonoticRadioButton.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,221,79],
+"db/dc4/classXonoticRadioButton.html#a7e5da022638f9a7158ac368d08e1255e":[1,0,221,38],
+"db/dc4/classXonoticRadioButton.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,221,0]
 };

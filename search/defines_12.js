@@ -22,7 +22,7 @@ var searchData=
   ['register_5fdeathtype',['REGISTER_DEATHTYPE',['../d9/d4f/deathtypes_2all_8qh.html#a511a8cb366fb4918f14fab9d9ba50557',1,'all.qh']]],
   ['register_5fgametype',['REGISTER_GAMETYPE',['../d2/d9e/mapinfo_8qh.html#a7bc2be77744619aa7b2f7b9090fc9435',1,'mapinfo.qh']]],
   ['register_5fglobalsound',['REGISTER_GLOBALSOUND',['../df/d6e/globalsound_8qh.html#a517599a91541c3857c18c659742f96af',1,'globalsound.qh']]],
-  ['register_5fhud_5fpanel',['REGISTER_HUD_PANEL',['../d3/d05/hud_8qh.html#a782f39c38b62e44a924a17f0412e8e68',1,'hud.qh']]],
+  ['register_5fhud_5fpanel',['REGISTER_HUD_PANEL',['../d3/d05/hud_8qh.html#a78e8d3ba81c899e248beb23d1d5165e1',1,'hud.qh']]],
   ['register_5fimpulse',['REGISTER_IMPULSE',['../d0/d6e/impulses_2all_8qh.html#a59c69122f8f67de391f599943d7e697b',1,'all.qh']]],
   ['register_5finit',['REGISTER_INIT',['../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f',1,'registry.qh']]],
   ['register_5fitem',['REGISTER_ITEM',['../d0/d7e/items_2all_8qh.html#a05b92e6e247843b9360cc543c1d7720d',1,'all.qh']]],

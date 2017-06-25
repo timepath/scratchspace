@@ -1,17 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"d9/d12/models_2all_8inc.html#a4a52d07b47d4a371a9a3d3cb61f04312":[2,0,1,7,2,124],
-"d9/d12/models_2all_8inc.html#a4aae213904fd7f7869ca668874e290b7":[2,0,1,7,2,105],
-"d9/d12/models_2all_8inc.html#a4bddf3f78d4f01f2cda4dece2813d388":[2,0,1,7,2,206],
-"d9/d12/models_2all_8inc.html#a4d1fbc19e6882ba8f89ef412173487da":[2,0,1,7,2,57],
-"d9/d12/models_2all_8inc.html#a4ec9ef476ddd9fd0dd833a75b5521d03":[2,0,1,7,2,1],
-"d9/d12/models_2all_8inc.html#a5013b43786325cdda4cb005696e9b6da":[2,0,1,7,2,35],
-"d9/d12/models_2all_8inc.html#a53c163fb919996a79b7e6582b28dbddd":[2,0,1,7,2,112],
-"d9/d12/models_2all_8inc.html#a54dc06a4eb9f9cd15ab5e0ee053c4d11":[2,0,1,7,2,82],
-"d9/d12/models_2all_8inc.html#a589ab992baae49b2358523b112d159fb":[2,0,1,7,2,236],
-"d9/d12/models_2all_8inc.html#a59fb1487b9827f4303c72035894ff00f":[2,0,1,7,2,239],
-"d9/d12/models_2all_8inc.html#a5a59025bee6468b34379df6fbe0bc1d3":[2,0,1,7,2,71],
-"d9/d12/models_2all_8inc.html#a5bb3d32c00273384405c238e3a6a1e3d":[2,0,1,7,2,17],
 "d9/d12/models_2all_8inc.html#a5bcd0ec76ce75bf30739c6f63a320123":[2,0,1,7,2,81],
 "d9/d12/models_2all_8inc.html#a5e23cd41fc045254dbe37263cab928c5":[2,0,1,7,2,122],
 "d9/d12/models_2all_8inc.html#a5e3435bcc6cd12b0aed33a9dd8cbbe69":[2,0,1,7,2,6],
@@ -249,5 +237,17 @@ var NAVTREEINDEX80 =
 "d9/d28/porto_8qc_source.html":[2,0,1,16,0,26],
 "d9/d2d/dialog__settings__game__model_8qc.html":[2,0,5,4,134],
 "d9/d2d/dialog__settings__game__model_8qc.html#a3bc78e9a0f18de27f46e9111a30884a5":[2,0,5,4,134,1],
-"d9/d2d/dialog__settings__game__model_8qc.html#a74a9590aa3277b647d54c780cbfd3dbb":[2,0,5,4,134,2]
+"d9/d2d/dialog__settings__game__model_8qc.html#a74a9590aa3277b647d54c780cbfd3dbb":[2,0,5,4,134,2],
+"d9/d2d/dialog__settings__game__model_8qc.html#ae3352ff05cd68a276d35c458baa79048":[2,0,5,4,134,0],
+"d9/d2d/dialog__settings__game__model_8qc_source.html":[2,0,5,4,134],
+"d9/d2e/sv__vampire_8qc.html":[2,0,1,9,0,31,2],
+"d9/d2e/sv__vampire_8qc.html#a11863ccbb52e9f89797acfa0eb9cbe47":[2,0,1,9,0,31,2,3],
+"d9/d2e/sv__vampire_8qc.html#a5dc916267abb9a85b76eeaba5ece40ea":[2,0,1,9,0,31,2,1],
+"d9/d2e/sv__vampire_8qc.html#a82fb2823eb40ca05c74f50b398851a74":[2,0,1,9,0,31,2,0],
+"d9/d2e/sv__vampire_8qc.html#ae7cdbe52e3d65b59dc5c72a47fa02b38":[2,0,1,9,0,31,2,2],
+"d9/d2e/sv__vampire_8qc_source.html":[2,0,1,9,0,31,2],
+"d9/d2f/classXonoticNexposee.html":[1,0,212],
+"d9/d2f/classXonoticNexposee.html#a003b708edf6352a60e28a77378b7b617":[1,0,212,41],
+"d9/d2f/classXonoticNexposee.html#a01627abafc724fbbbb330e46f8331911":[1,0,212,26],
+"d9/d2f/classXonoticNexposee.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,212,10]
 };

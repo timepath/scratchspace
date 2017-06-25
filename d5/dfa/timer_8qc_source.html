@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('d5/dfa/timer_8qc_source.html','../../'
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        mySize -= <span class="stringliteral">&#39;2 2 0&#39;</span> * <a class="code" href="../../d3/d05/hud_8qh.html#a4f2ef159603abfc9874669062e6ff51f">panel_bg_padding</a>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../d3/d05/hud_8qh.html#aaf53f7eccc3865c18066e5ee16794d92">timer</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">string</span> timer;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">float</span> timelimit, timeleft, minutesLeft;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    timelimit = STAT(TIMELIMIT);</div>
@@ -197,7 +197,6 @@ $(document).ready(function(){initNavTree('d5/dfa/timer_8qc_source.html','../../'
 <div class="ttc" id="hud_8qh_html_a9c748beadf89bffd404bd0fdc340f825"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a9c748beadf89bffd404bd0fdc340f825">HUD_Panel_DrawBg</a></div><div class="ttdeci">#define HUD_Panel_DrawBg()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00027">hud.qh:27</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_ac801037d8aef0d61dd7fba372e5e01c0"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#ac801037d8aef0d61dd7fba372e5e01c0">autocvar_hud_panel_timer</a></div><div class="ttdeci">bool autocvar_hud_panel_timer</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00321">autocvars.qh:321</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_af6088979e4328d96a754cc483d1672d9"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a></div><div class="ttdeci">float warmup_stage</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00058">main.qh:58</a></div></div>
-<div class="ttc" id="hud_8qh_html_aaf53f7eccc3865c18066e5ee16794d92"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#aaf53f7eccc3865c18066e5ee16794d92">timer</a></div><div class="ttdeci">PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME timer</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00214">hud.qh:214</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a0b04e01c228e625bb2627bee15484910"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a></div><div class="ttdeci">const float DRAWFLAG_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00317">csprogsdefs.qc:317</a></div></div>
 <div class="ttc" id="hud_8qh_html_ac5cc557740a2a6794b516dd4e2251f60"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#ac5cc557740a2a6794b516dd4e2251f60">panel_pos</a></div><div class="ttdeci">vector panel_pos</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00135">hud.qh:135</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qc_html_af50992ec9f2e9611b555b1986b1d0c13"><div class="ttname"><a href="../../dc/d98/client_2miscfunctions_8qc.html#af50992ec9f2e9611b555b1986b1d0c13">HUD_Scale_Disable</a></div><div class="ttdeci">void HUD_Scale_Disable()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00265">miscfunctions.qc:265</a></div></div>
@@ -215,7 +214,7 @@ $(document).ready(function(){initNavTree('d5/dfa/timer_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d5/dfa/timer_8qc.html">timer.qc</a></li>
-    <li class="footer">Generated on Sun Jun 25 2017 10:19:25 for Xonotic by
+    <li class="footer">Generated on Sun Jun 25 2017 21:01:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

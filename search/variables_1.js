@@ -66,7 +66,7 @@ var searchData=
   ['alpha_5fmin_5fvisible',['ALPHA_MIN_VISIBLE',['../d0/d2a/client_2main_8qh.html#a615430decaa9e99ecead42215bc1405c',1,'main.qh']]],
   ['alphabg',['alphaBG',['../d9/de9/classListBox.html#ae66f194e9ddcbf042b4534da9c2831c8',1,'ListBox::alphaBG()'],['../d4/d55/classXonoticCreditsList.html#a3350baf9c38c07b42e74f3da538fbc8e',1,'XonoticCreditsList::alphaBG()'],['../db/d29/classXonoticRegisteredSettingsList.html#a0b3e0ee2d3e6fef269d1948bd03ae6a5',1,'XonoticRegisteredSettingsList::alphaBG()'],['../d3/db2/classXonoticListBox.html#a2976526ce80a74f7269a4e7532b396da',1,'XonoticListBox::alphaBG()'],['../d3/d86/classXonoticMapList.html#a82a028b8408f7025a988867a164186a0',1,'XonoticMapList::alphaBG()']]],
   ['alreadychangedlevel',['alreadychangedlevel',['../d5/d26/server_2defs_8qh.html#a780886abb2977703f8904a374f63e3bd',1,'defs.qh']]],
-  ['ammo',['ammo',['../d3/d05/hud_8qh.html#a0271dc2cb812249454f2f348759a234c',1,'ammo():&#160;hud.qh'],['../df/d28/sv__turrets_8qh.html#aa710b24bb1d68d903bfc5f631e84446e',1,'ammo():&#160;sv_turrets.qh']]],
+  ['ammo',['ammo',['../df/d28/sv__turrets_8qh.html#aa710b24bb1d68d903bfc5f631e84446e',1,'sv_turrets.qh']]],
   ['ammo_5fcells',['ammo_cells',['../d2/d1c/weapons_2weapon_8qh.html#a6715dfac92377d87e4d0d8d138138628',1,'ammo_cells():&#160;weapon.qh'],['../d6/d11/progsdefs_8qc.html#ad82b5331367ad172c129a75b405f1ca7',1,'ammo_cells():&#160;progsdefs.qc']]],
   ['ammo_5fcount',['AMMO_COUNT',['../de/d75/t__items_8qh.html#a609d4e275d044b04314d1e6e20bd6621',1,'t_items.qh']]],
   ['ammo_5ffactor',['ammo_factor',['../db/d4a/classHook.html#abf2fbef9b9e0a252ba8f0a2817b21872',1,'Hook']]],

@@ -1,17 +1,5 @@
 var NAVTREEINDEX25 =
 {
-"d3/d52/classXonoticResetDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,223,75],
-"d3/d52/classXonoticResetDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,223,23],
-"d3/d52/classXonoticResetDialog.html#a49ba7b9737604d22bf24d6145473d080":[1,0,223,59],
-"d3/d52/classXonoticResetDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,223,50],
-"d3/d52/classXonoticResetDialog.html#a4b8c9e63601c244aa3458ba7bad36bd9":[1,0,223,87],
-"d3/d52/classXonoticResetDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,223,28],
-"d3/d52/classXonoticResetDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,223,57],
-"d3/d52/classXonoticResetDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,223,34],
-"d3/d52/classXonoticResetDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,223,42],
-"d3/d52/classXonoticResetDialog.html#a5c5c193450c2d627bccca7f7701e027f":[1,0,223,60],
-"d3/d52/classXonoticResetDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,223,64],
-"d3/d52/classXonoticResetDialog.html#a67d95732d49da439095483530aca8804":[1,0,223,53],
 "d3/d52/classXonoticResetDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,223,76],
 "d3/d52/classXonoticResetDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,223,18],
 "d3/d52/classXonoticResetDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,223,14],
@@ -249,5 +237,17 @@ var NAVTREEINDEX25 =
 "d3/d64/sv__model_8qh.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,15,3],
 "d3/d64/sv__model_8qh.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,15,5],
 "d3/d64/sv__model_8qh.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,15,4],
-"d3/d64/sv__model_8qh.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,15,6]
+"d3/d64/sv__model_8qh.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,15,6],
+"d3/d64/sv__model_8qh.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,0],
+"d3/d64/sv__model_8qh.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,1],
+"d3/d64/sv__model_8qh.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,2],
+"d3/d64/sv__model_8qh_source.html":[2,0,4,0,15],
+"d3/d68/common_2mutators_2mutator_2melee__only_2__mod_8qh.html":[2,0,1,9,0,14,1],
+"d3/d68/common_2mutators_2mutator_2melee__only_2__mod_8qh_source.html":[2,0,1,9,0,14,1],
+"d3/d68/relay_8qc.html":[2,0,1,13,3,34],
+"d3/d68/relay_8qc_source.html":[2,0,1,13,3,34],
+"d3/d69/menu_2xonotic_2campaign_8qc.html":[2,0,5,4,8],
+"d3/d69/menu_2xonotic_2campaign_8qc.html#a16700dd4a97a5faa8c63d9afeb9bc409":[2,0,5,4,8,5],
+"d3/d69/menu_2xonotic_2campaign_8qc.html#a1ddff1e230f6488d03caa28b6c0cbbc1":[2,0,5,4,8,15],
+"d3/d69/menu_2xonotic_2campaign_8qc.html#a1e5782e41ac51960575f7ee5fa22747d":[2,0,5,4,8,3]
 };

@@ -622,7 +622,7 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    <a class="code" href="../../dd/d59/modicons_8qc.html#a90b00643b4f9e53be543cdb107e4d527">mod_active</a> = 1; <span class="comment">// race should never hide the mod icons panel</span></div>
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me;</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;    me = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a02482608b1eca1bf0591f7589db11994">playerslots</a>[<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a58ed33525b1e1a9e60f989f03f488503">player_localnum</a>];</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d3/d05/hud_8qh.html#acb01d1b87c477a5435bec969d9e43d1c">score</a>;</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    <span class="keywordtype">float</span> score;</div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    score = me.(scores(<a class="code" href="../../d3/d05/hud_8qh.html#ab6ffdccb0d8f0e1a965c08b45cb3eee9">ps_primary</a>));</div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    <span class="keywordflow">if</span>(!(scores_flags(<a class="code" href="../../d3/d05/hud_8qh.html#ab6ffdccb0d8f0e1a965c08b45cb3eee9">ps_primary</a>) &amp; <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a7d6950d6481a75021716f1360417415f">SFL_TIME</a>) || <a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>) <span class="comment">// race/cts record display on HUD</span></div>
@@ -944,7 +944,6 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div class="ttc" id="client_2autocvars_8qh_html_a0e07118970275cf0772660606802e729"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a0e07118970275cf0772660606802e729">autocvar_hud_progressbar_alpha</a></div><div class="ttdeci">float autocvar_hud_progressbar_alpha</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00362">autocvars.qh:362</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html">mapinfo.qh</a></div></div>
 <div class="ttc" id="gamemode__ctf_8qh_html"><div class="ttname"><a href="../../dd/dfa/gamemode__ctf_8qh.html">gamemode_ctf.qh</a></div></div>
-<div class="ttc" id="hud_8qh_html_acb01d1b87c477a5435bec969d9e43d1c"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#acb01d1b87c477a5435bec969d9e43d1c">score</a></div><div class="ttdeci">PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_SHOW_MINIGAME PANEL_SHOW_WITH_SB score</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00216">hud.qh:216</a></div></div>
 <div class="ttc" id="ent__cs_8qh_html"><div class="ttname"><a href="../../db/d18/ent__cs_8qh.html">ent_cs.qh</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qc_html_a408850796980de97ad8313b0274343f1"><div class="ttname"><a href="../../dc/d98/client_2miscfunctions_8qc.html#a408850796980de97ad8313b0274343f1">drawcolorcodedstring_aspect</a></div><div class="ttdeci">void drawcolorcodedstring_aspect(vector pos, string text, vector sz, float theAlpha, float drawflag)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00309">miscfunctions.qc:309</a></div></div>
 <div class="ttc" id="modicons_8qh_html"><div class="ttname"><a href="../../d5/d1b/modicons_8qh.html">modicons.qh</a></div></div>
@@ -1021,7 +1020,7 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../dd/d59/modicons_8qc.html">modicons.qc</a></li>
-    <li class="footer">Generated on Sun Jun 25 2017 10:19:25 for Xonotic by
+    <li class="footer">Generated on Sun Jun 25 2017 21:01:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

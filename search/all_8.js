@@ -118,7 +118,6 @@ var searchData=
   ['health_2eqh',['health.qh',['../da/d6a/health_8qh.html',1,'']]],
   ['health_5fbeforedamage',['health_beforedamage',['../d3/d05/hud_8qh.html#a4033974b42602b7fbff1a4aa58f4416d',1,'hud.qh']]],
   ['health_5fdamagetime',['health_damagetime',['../d3/d05/hud_8qh.html#a2982986ff1c2298617d3aaa202839199',1,'hud.qh']]],
-  ['healtharmor',['healtharmor',['../d3/d05/hud_8qh.html#a37542cdbeeef9d827ba5cf2827743a69',1,'hud.qh']]],
   ['healtharmor_2eqc',['healtharmor.qc',['../de/d66/healtharmor_8qc.html',1,'']]],
   ['healtharmor_2eqh',['healtharmor.qh',['../d4/d51/healtharmor_8qh.html',1,'']]],
   ['heapify',['heapify',['../db/def/sort_8qh.html#adbcf7bdce2adadeafd5773ee731de221',1,'sort.qh']]],

@@ -229,7 +229,6 @@ var searchData=
   ['vortex_5fcharge_5fmovingavg',['vortex_charge_movingavg',['../d9/d08/client_2defs_8qh.html#aa772d09df7232c2d366923420928b7d7',1,'defs.qh']]],
   ['vortex_5fcharge_5frottime',['vortex_charge_rottime',['../d5/d26/server_2defs_8qh.html#a034d7dc235642e26bd4ecc95532ed089',1,'defs.qh']]],
   ['vortex_5fchargepool_5fammo',['vortex_chargepool_ammo',['../d5/d26/server_2defs_8qh.html#a1af62b08fa4568eb824b39cccc803e57',1,'defs.qh']]],
-  ['vote',['vote',['../d3/d05/hud_8qh.html#a389a004fee8d5f61a285b9fd825fd11b',1,'hud.qh']]],
   ['vote_2eqc',['vote.qc',['../df/d1f/client_2hud_2panel_2vote_8qc.html',1,'']]],
   ['vote_2eqc',['vote.qc',['../d1/dad/server_2command_2vote_8qc.html',1,'']]],
   ['vote_2eqh',['vote.qh',['../d9/d28/client_2hud_2panel_2vote_8qh.html',1,'']]],

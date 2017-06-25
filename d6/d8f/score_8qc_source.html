@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('d6/d8f/score_8qc_source.html','../../'
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d6/d8f/score_8qc.html#a8266d5d080761ce457b269fd0a6a22c1">    9</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d8f/score_8qc.html#a8266d5d080761ce457b269fd0a6a22c1">HUD_Score_Rankings</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> pos, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> mySize, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me)</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d3/d05/hud_8qh.html#acb01d1b87c477a5435bec969d9e43d1c">score</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">float</span> score;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> tm = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, pl;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">int</span> SCOREPANEL_MAX_ENTRIES = 6;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">float</span> SCOREPANEL_ASPECTRATIO = 2;</div>
@@ -262,7 +262,7 @@ $(document).ready(function(){initNavTree('d6/d8f/score_8qc_source.html','../../'
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        mySize -= <span class="stringliteral">&#39;2 2 0&#39;</span> * <a class="code" href="../../d3/d05/hud_8qh.html#a4f2ef159603abfc9874669062e6ff51f">panel_bg_padding</a>;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    }</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d3/d05/hud_8qh.html#acb01d1b87c477a5435bec969d9e43d1c">score</a>, distribution = 0;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordtype">float</span> score, distribution = 0;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordtype">string</span> sign;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> distribution_color;</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> tm, pl, me;</div>
@@ -270,7 +270,7 @@ $(document).ready(function(){initNavTree('d6/d8f/score_8qc_source.html','../../'
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    me = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a02482608b1eca1bf0591f7589db11994">playerslots</a>[<a class="code" href="../../d3/d05/hud_8qh.html#aa6cd1f5aed53c71ba5032f77e3f90da9">current_player</a>];</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keywordflow">if</span>((scores_flags(<a class="code" href="../../d3/d05/hud_8qh.html#ab6ffdccb0d8f0e1a965c08b45cb3eee9">ps_primary</a>) &amp; <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a7d6950d6481a75021716f1360417415f">SFL_TIME</a>) &amp;&amp; !<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>) { <span class="comment">// race/cts record display on HUD</span></div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../d3/d05/hud_8qh.html#aaf53f7eccc3865c18066e5ee16794d92">timer</a>, distrtimer;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordtype">string</span> timer, distrtimer;</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        pl = <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a44b5ea3f2e11df716c1affcd1cff5bef">players</a>.sort_next;</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">if</span>(pl == me)</div>
@@ -396,7 +396,7 @@ $(document).ready(function(){initNavTree('d6/d8f/score_8qc_source.html','../../'
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                score = 123;</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            <span class="keywordflow">if</span> (score &gt; max_fragcount)</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                max_fragcount = <a class="code" href="../../d3/d05/hud_8qh.html#acb01d1b87c477a5435bec969d9e43d1c">score</a>;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                max_fragcount = score;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d9/d08/client_2defs_8qh.html#ad19574d03b3580d4e1fcb06490f68f59">spectatee_status</a> == -1)</div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            {</div>
@@ -458,8 +458,6 @@ $(document).ready(function(){initNavTree('d6/d8f/score_8qc_source.html','../../'
 <div class="ttc" id="hud_8qh_html_a9c748beadf89bffd404bd0fdc340f825"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a9c748beadf89bffd404bd0fdc340f825">HUD_Panel_DrawBg</a></div><div class="ttdeci">#define HUD_Panel_DrawBg()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00027">hud.qh:27</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a66804fbc3a76c60d59f50aa1bc4557d1"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a66804fbc3a76c60d59f50aa1bc4557d1">drawcolorcodedstring</a></div><div class="ttdeci">float drawcolorcodedstring(vector position, string text, vector scale, float alpha, float flag)</div></div>
 <div class="ttc" id="mapinfo_8qh_html"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html">mapinfo.qh</a></div></div>
-<div class="ttc" id="hud_8qh_html_acb01d1b87c477a5435bec969d9e43d1c"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#acb01d1b87c477a5435bec969d9e43d1c">score</a></div><div class="ttdeci">PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_SHOW_MINIGAME PANEL_SHOW_WITH_SB score</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00216">hud.qh:216</a></div></div>
-<div class="ttc" id="hud_8qh_html_aaf53f7eccc3865c18066e5ee16794d92"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#aaf53f7eccc3865c18066e5ee16794d92">timer</a></div><div class="ttdeci">PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME timer</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00214">hud.qh:214</a></div></div>
 <div class="ttc" id="score_8qc_html_af299e2a5219b4b963a923527b78ed9a7"><div class="ttname"><a href="../../d6/d8f/score_8qc.html#af299e2a5219b4b963a923527b78ed9a7">HUD_Score</a></div><div class="ttdeci">void HUD_Score()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d8f/score_8qc_source.html#l00134">score.qc:134</a></div></div>
 <div class="ttc" id="ent__cs_8qh_html"><div class="ttname"><a href="../../db/d18/ent__cs_8qh.html">ent_cs.qh</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
@@ -497,7 +495,7 @@ $(document).ready(function(){initNavTree('d6/d8f/score_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d6/d8f/score_8qc.html">score.qc</a></li>
-    <li class="footer">Generated on Sun Jun 25 2017 10:19:25 for Xonotic by
+    <li class="footer">Generated on Sun Jun 25 2017 21:01:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

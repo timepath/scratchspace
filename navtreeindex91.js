@@ -1,17 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"da/d9c/classXonoticMonsterToolsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,208,89],
-"da/d9c/classXonoticMonsterToolsDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,208,81],
-"da/d9c/classXonoticMonsterToolsDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,208,80],
-"da/d9c/classXonoticMonsterToolsDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,208,52],
-"da/d9c/classXonoticMonsterToolsDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,208,45],
-"da/d9c/classXonoticMonsterToolsDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,208,67],
-"da/d9c/classXonoticMonsterToolsDialog.html#a8a052545608ae966aefe0e9f320c2472":[1,0,208,59],
-"da/d9c/classXonoticMonsterToolsDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,208,73],
-"da/d9c/classXonoticMonsterToolsDialog.html#a9736b89b9560b63e42079ad8a40ee157":[1,0,208,83],
-"da/d9c/classXonoticMonsterToolsDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,208,77],
-"da/d9c/classXonoticMonsterToolsDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,208,65],
-"da/d9c/classXonoticMonsterToolsDialog.html#aa4f052eae7c315deb0958e0d456e5806":[1,0,208,78],
 "da/d9c/classXonoticMonsterToolsDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,208,20],
 "da/d9c/classXonoticMonsterToolsDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,208,10],
 "da/d9c/classXonoticMonsterToolsDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,208,35],
@@ -249,5 +237,17 @@ var NAVTREEINDEX91 =
 "da/db7/weaponsystem_8qh.html#ab77c36c89a03dbb675a9350144e5faec":[2,0,6,5,21,16],
 "da/db7/weaponsystem_8qh.html#ad315ff4e6ee9693a54edb0d18efc9245":[2,0,6,5,21,1],
 "da/db7/weaponsystem_8qh_source.html":[2,0,6,5,21],
-"da/db8/pressedkeys_8qh.html":[2,0,0,1,0,25]
+"da/db8/pressedkeys_8qh.html":[2,0,0,1,0,25],
+"da/db8/pressedkeys_8qh_source.html":[2,0,0,1,0,25],
+"da/db9/common_2minigames_2minigame_2__mod_8qh.html":[2,0,1,6,0,1],
+"da/db9/common_2minigames_2minigame_2__mod_8qh_source.html":[2,0,1,6,0,1],
+"da/dbc/sv__globalforces_8qc.html":[2,0,1,9,0,9,2],
+"da/dbc/sv__globalforces_8qc.html#a151729e96468ce6ad51bf033f3f4b5e9":[2,0,1,9,0,9,2,4],
+"da/dbc/sv__globalforces_8qc.html#a287b9b0f5e42655c144241063105b760":[2,0,1,9,0,9,2,0],
+"da/dbc/sv__globalforces_8qc.html#a2c0de4532870612014913ff760a4f50a":[2,0,1,9,0,9,2,1],
+"da/dbc/sv__globalforces_8qc.html#ad6a10acaf4806b68a1aeda3359fdf65e":[2,0,1,9,0,9,2,7],
+"da/dbc/sv__globalforces_8qc.html#ae09c28fe41c40908c61aef40104409a0":[2,0,1,9,0,9,2,5],
+"da/dbc/sv__globalforces_8qc.html#ae90b02c75446973cb9c31d93c955f99b":[2,0,1,9,0,9,2,2],
+"da/dbc/sv__globalforces_8qc.html#aed29bb1fa9cd3bfa774985c2e5fe838c":[2,0,1,9,0,9,2,6],
+"da/dbc/sv__globalforces_8qc.html#af4b5f696b25623513f4cf02a69097eea":[2,0,1,9,0,9,2,3]
 };

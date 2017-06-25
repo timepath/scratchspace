@@ -1,17 +1,5 @@
 var NAVTREEINDEX24 =
 {
-"d3/d42/animdecide_8qh.html#ada31e715a4a2cb3a2f09a7a3f313ff51":[2,0,1,23,13],
-"d3/d42/animdecide_8qh.html#ada84f7ee6c4814b1cd8d979586eb61d1":[2,0,1,23,7],
-"d3/d42/animdecide_8qh.html#ae2e0813d5b897cbf5d086f54c90d65c6":[2,0,1,23,52],
-"d3/d42/animdecide_8qh.html#ae4553f033c4e9be260e76039951a8b9a":[2,0,1,23,36],
-"d3/d42/animdecide_8qh.html#aec1b5856c642a7e67363a639a2794889":[2,0,1,23,59],
-"d3/d42/animdecide_8qh.html#af3c7092b75b8e73b4a0098276067cafd":[2,0,1,23,33],
-"d3/d42/animdecide_8qh.html#af4601a9b5bd228e4a08b5dcbad4fcd9d":[2,0,1,23,15],
-"d3/d42/animdecide_8qh.html#af520d58a5ab6e5366a2989b35e9e7244":[2,0,1,23,24],
-"d3/d42/animdecide_8qh.html#af664e2b9a27919e542344e5dcb0913b0":[2,0,1,23,14],
-"d3/d42/animdecide_8qh.html#aff55c49b5fa45379e072158e54b6071d":[2,0,1,23,62],
-"d3/d42/animdecide_8qh.html#aff6fc8b0b2cac9b630e7e058679bbdf8":[2,0,1,23,22],
-"d3/d42/animdecide_8qh_source.html":[2,0,1,23],
 "d3/d45/dialog__settings__misc__cvars_8qc.html":[2,0,5,4,146],
 "d3/d45/dialog__settings__misc__cvars_8qc.html#a6c94b7330c3e7e6f67707875b1e3297c":[2,0,5,4,146,0],
 "d3/d45/dialog__settings__misc__cvars_8qc.html#a8aa8d70f55cad2a44f1d58fa76b03768":[2,0,5,4,146,1],
@@ -249,5 +237,17 @@ var NAVTREEINDEX24 =
 "d3/d52/classXonoticResetDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,223,46],
 "d3/d52/classXonoticResetDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,223,56],
 "d3/d52/classXonoticResetDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,223,1],
-"d3/d52/classXonoticResetDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,223,12]
+"d3/d52/classXonoticResetDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,223,12],
+"d3/d52/classXonoticResetDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,223,75],
+"d3/d52/classXonoticResetDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,223,23],
+"d3/d52/classXonoticResetDialog.html#a49ba7b9737604d22bf24d6145473d080":[1,0,223,59],
+"d3/d52/classXonoticResetDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,223,50],
+"d3/d52/classXonoticResetDialog.html#a4b8c9e63601c244aa3458ba7bad36bd9":[1,0,223,87],
+"d3/d52/classXonoticResetDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,223,28],
+"d3/d52/classXonoticResetDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,223,57],
+"d3/d52/classXonoticResetDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,223,34],
+"d3/d52/classXonoticResetDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,223,42],
+"d3/d52/classXonoticResetDialog.html#a5c5c193450c2d627bccca7f7701e027f":[1,0,223,60],
+"d3/d52/classXonoticResetDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,223,64],
+"d3/d52/classXonoticResetDialog.html#a67d95732d49da439095483530aca8804":[1,0,223,53]
 };

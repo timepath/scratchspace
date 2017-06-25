@@ -1,17 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"d4/d5f/classXonoticFirstRunDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,166,19],
-"d4/d5f/classXonoticFirstRunDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,166,15],
-"d4/d5f/classXonoticFirstRunDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,166,67],
-"d4/d5f/classXonoticFirstRunDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,166,26],
-"d4/d5f/classXonoticFirstRunDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,166,91],
-"d4/d5f/classXonoticFirstRunDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,166,83],
-"d4/d5f/classXonoticFirstRunDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,166,82],
-"d4/d5f/classXonoticFirstRunDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,166,53],
-"d4/d5f/classXonoticFirstRunDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,166,46],
-"d4/d5f/classXonoticFirstRunDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,166,68],
-"d4/d5f/classXonoticFirstRunDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,166,74],
-"d4/d5f/classXonoticFirstRunDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,166,78],
 "d4/d5f/classXonoticFirstRunDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,166,66],
 "d4/d5f/classXonoticFirstRunDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,166,21],
 "d4/d5f/classXonoticFirstRunDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,166,11],
@@ -249,5 +237,17 @@ var NAVTREEINDEX38 =
 "d4/d87/classHagar.html":[1,0,43],
 "d4/d87/classHagar.html#a09a0dc1abbc14dadf57cdd074a981066":[1,0,43,30],
 "d4/d87/classHagar.html#a11327b484b6a3417024bef2a1c91c653":[1,0,43,28],
-"d4/d87/classHagar.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,43,19]
+"d4/d87/classHagar.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,43,19],
+"d4/d87/classHagar.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,43,18],
+"d4/d87/classHagar.html#a229188580884f68236312a9bbf6f7c19":[1,0,43,24],
+"d4/d87/classHagar.html#a22952de3e49fe194111b6a0d76de86d4":[1,0,43,34],
+"d4/d87/classHagar.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,43,16],
+"d4/d87/classHagar.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,43,20],
+"d4/d87/classHagar.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,43,11],
+"d4/d87/classHagar.html#a4337268c8cad6836bae8efd4a8835070":[1,0,43,21],
+"d4/d87/classHagar.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,43,1],
+"d4/d87/classHagar.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,43,15],
+"d4/d87/classHagar.html#a5e8f6060761bb31dcb6c1de05569e01c":[1,0,43,33],
+"d4/d87/classHagar.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,43,9],
+"d4/d87/classHagar.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,43,8]
 };
