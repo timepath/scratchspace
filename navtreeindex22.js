@@ -1,5 +1,13 @@
 var NAVTREEINDEX22 =
 {
+"d3/d05/hud_8qh.html#a64d386e6f03ccf2feb8a7c766c3a7699":[2,0,0,1,4,34],
+"d3/d05/hud_8qh.html#a6795706920a11c7b9423a789b5be5e44":[2,0,0,1,4,11],
+"d3/d05/hud_8qh.html#a67ad010fe4c3b3c26aec70dae2a20e8b":[2,0,0,1,4,86],
+"d3/d05/hud_8qh.html#a68444aec515c00d4ab162b85aac70476":[2,0,0,1,4,90],
+"d3/d05/hud_8qh.html#a69a90a236759bf290846185220ed174a":[2,0,0,1,4,115],
+"d3/d05/hud_8qh.html#a69c91c6d7f670ebd0fa1dcc6fd4a4233":[2,0,0,1,4,56],
+"d3/d05/hud_8qh.html#a6a4447e39d250b2f1605dbb433aeb8fe":[2,0,0,1,4,129],
+"d3/d05/hud_8qh.html#a6ac0c6fb532223be80deb52a47b76011":[2,0,0,1,4,187],
 "d3/d05/hud_8qh.html#a6b1d3571ebd7f200837a9ae7ab174e56":[2,0,0,1,4,106],
 "d3/d05/hud_8qh.html#a6f9a6c66e3c021cee833ab5f4a2e7fb6":[2,0,0,1,4,133],
 "d3/d05/hud_8qh.html#a7022deeb2c5992f82699a94679c5dda5":[2,0,0,1,4,169],
@@ -241,13 +249,5 @@ var NAVTREEINDEX22 =
 "d3/d0f/dialog__hudpanel__timer_8qc.html":[2,0,5,4,76],
 "d3/d0f/dialog__hudpanel__timer_8qc.html#a96f8200bf3f24902a133023702f3e43a":[2,0,5,4,76,0],
 "d3/d0f/dialog__hudpanel__timer_8qc_source.html":[2,0,5,4,76],
-"d3/d10/classXonoticCrosshairPicker.html":[1,0,154],
-"d3/d10/classXonoticCrosshairPicker.html#a0295170719b329b2b1786ec96dfe390e":[1,0,154,37],
-"d3/d10/classXonoticCrosshairPicker.html#a10cf88734594fed24be93889407c0bda":[1,0,154,15],
-"d3/d10/classXonoticCrosshairPicker.html#a10f084ce6991717bfb4153928818feba":[1,0,154,12],
-"d3/d10/classXonoticCrosshairPicker.html#a2061fae4374629deb4ba51c89a7b7ca0":[1,0,154,6],
-"d3/d10/classXonoticCrosshairPicker.html#a2964a9c889f0e6167b81e4e621c194d9":[1,0,154,3],
-"d3/d10/classXonoticCrosshairPicker.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,154,8],
-"d3/d10/classXonoticCrosshairPicker.html#a2f22d0581068cab87a6f44a4d6132792":[1,0,154,14],
-"d3/d10/classXonoticCrosshairPicker.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,154,0]
+"d3/d10/classXonoticCrosshairPicker.html":[1,0,154]
 };

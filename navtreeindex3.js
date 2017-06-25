@@ -87,6 +87,8 @@ var NAVTREEINDEX3 =
 "d0/d7b/classContainer.html#afdcf1fb79903f747cda494b27206526b":[1,0,20,5],
 "d0/d7c/dialog__settings__user__languagewarning_8qh.html":[2,0,5,4,153],
 "d0/d7c/dialog__settings__user__languagewarning_8qh_source.html":[2,0,5,4,153],
+"d0/d7c/quake2_8qh.html":[2,0,6,2,7],
+"d0/d7c/quake2_8qh_source.html":[2,0,6,2,7],
 "d0/d7e/items_2all_8qh.html":[2,0,1,5,4],
 "d0/d7e/items_2all_8qh.html#a009d5c7aa787ef5f411b33a56ca8db27":[2,0,1,5,4,3],
 "d0/d7e/items_2all_8qh.html#a05b92e6e247843b9360cc543c1d7720d":[2,0,1,5,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "d0/d8b/common_2constants_8qh.html#a853c5a934257d5e66b5ec37f84e18064":[2,0,1,29,17],
 "d0/d8b/common_2constants_8qh.html#a8d105feccceb43a0d921ca18999ae870":[2,0,1,29,49],
 "d0/d8b/common_2constants_8qh.html#a8de55c6395f6d556774d7bbafc331934":[2,0,1,29,6],
-"d0/d8b/common_2constants_8qh.html#a940b0e2c7c4b1209ebd60f8674ce86f6":[2,0,1,29,19],
-"d0/d8b/common_2constants_8qh.html#a96c84d2538f8730cfa662a49d1a8c75d":[2,0,1,29,38],
-"d0/d8b/common_2constants_8qh.html#a9851650a32c6db104351222671303534":[2,0,1,29,39]
+"d0/d8b/common_2constants_8qh.html#a940b0e2c7c4b1209ebd60f8674ce86f6":[2,0,1,29,19]
 };

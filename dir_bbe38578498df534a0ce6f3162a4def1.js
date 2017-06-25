@@ -6,6 +6,8 @@ var dir_bbe38578498df534a0ce6f3162a4def1 =
     [ "halflife.qh", "d5/db4/halflife_8qh.html", null ],
     [ "quake.qc", "d0/da9/quake_8qc.html", "d0/da9/quake_8qc" ],
     [ "quake.qh", "d3/d1e/quake_8qh.html", null ],
+    [ "quake2.qc", "d1/d74/quake2_8qc.html", "d1/d74/quake2_8qc" ],
+    [ "quake2.qh", "d0/d7c/quake2_8qh.html", null ],
     [ "quake3.qc", "df/d42/quake3_8qc.html", "df/d42/quake3_8qc" ],
     [ "quake3.qh", "dc/d7e/quake3_8qh.html", null ],
     [ "wop.qc", "dd/dcc/wop_8qc.html", "dd/dcc/wop_8qc" ],

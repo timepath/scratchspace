@@ -1,5 +1,13 @@
 var NAVTREEINDEX19 =
 {
+"d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add":[2,0,4,56,32],
+"d2/db4/string_8qh.html#a836225e275d6595a6f0e1b644ea8ba30":[2,0,4,56,7],
+"d2/db4/string_8qh.html#a97b9c9eb2587047924a05f9f0df6903f":[2,0,4,56,6],
+"d2/db4/string_8qh.html#aa68e64adc9e42841a08ebe3139a98adb":[2,0,4,56,24],
+"d2/db4/string_8qh.html#aac3cd57f894ce5c2be1d74aee3fe2f13":[2,0,4,56,34],
+"d2/db4/string_8qh.html#ab0ab8efc1c679dc525fc3cdd57aad81a":[2,0,4,56,16],
+"d2/db4/string_8qh.html#ab3e0957f7f441bf477eb9e5c9d9a17f1":[2,0,4,56,33],
+"d2/db4/string_8qh.html#ab6f49d0a5c29ebce996c888ac0719f99":[2,0,4,56,9],
 "d2/db4/string_8qh.html#ab9cc51225f98703626978ab0de95744b":[2,0,4,56,0],
 "d2/db4/string_8qh.html#abcc29d17efe4fff029717d5a8ed99c3e":[2,0,4,56,5],
 "d2/db4/string_8qh.html#abf1feb469f1b23e7c603927c8deba515":[2,0,4,56,36],
@@ -241,13 +249,5 @@ var NAVTREEINDEX19 =
 "d2/dcc/classMutator.html#aee392280d273f7fc4b90978563aa6f3c":[1,0,81,1],
 "d2/dcc/sv__cmd_8qh.html":[2,0,6,1,15],
 "d2/dcc/sv__cmd_8qh.html#a456cb75445f7a05a80d7a6f3d2e2f8ae":[2,0,6,1,15,1],
-"d2/dcc/sv__cmd_8qh.html#af1a4581b0f369c6ec43e8efee459546c":[2,0,6,1,15,0],
-"d2/dcc/sv__cmd_8qh.html#af35cd3e1bbf19485a279b9820a49bd3d":[2,0,6,1,15,2],
-"d2/dcc/sv__cmd_8qh_source.html":[2,0,6,1,15],
-"d2/dce/dialog__hudpanel__powerups_8qc.html":[2,0,5,4,64],
-"d2/dce/dialog__hudpanel__powerups_8qc.html#a2db7b4af42002188cf03660c88108ddf":[2,0,5,4,64,0],
-"d2/dce/dialog__hudpanel__powerups_8qc_source.html":[2,0,5,4,64],
-"d2/dd3/classPortoLaunch.html":[1,0,98],
-"d2/dd3/classPortoLaunch.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,98,33],
-"d2/dd3/classPortoLaunch.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,98,19]
+"d2/dcc/sv__cmd_8qh.html#af1a4581b0f369c6ec43e8efee459546c":[2,0,6,1,15,0]
 };
