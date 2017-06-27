@@ -1,8 +1,5 @@
 var NAVTREEINDEX113 =
 {
-"dd/d40/effects_2qc_2all_8qh_source.html":[2,0,1,2,0,4],
-"dd/d41/sv__hook_8qc.html":[2,0,1,9,0,10,2],
-"dd/d41/sv__hook_8qc_source.html":[2,0,1,9,0,10,2],
 "dd/d43/cl__turrets_8qc.html":[2,0,1,14,9],
 "dd/d43/cl__turrets_8qc.html#a181aadf6b8196e68aec17f8def47adda":[2,0,1,14,9,1],
 "dd/d43/cl__turrets_8qc.html#a201951011a4a5099f9acf57f98bf0559":[2,0,1,14,9,6],
@@ -90,8 +87,8 @@ var NAVTREEINDEX113 =
 "dd/d59/modicons_8qc.html#a90abcb5dfd155425638f8823221e96a7":[2,0,0,1,0,16,37],
 "dd/d59/modicons_8qc.html#a90b00643b4f9e53be543cdb107e4d527":[2,0,0,1,0,16,26],
 "dd/d59/modicons_8qc.html#a9245f9b7b4151715d667f06cbaf831cd":[2,0,0,1,0,16,8],
-"dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,0],
 "dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,2],
+"dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,0],
 "dd/d59/modicons_8qc.html#a9fba4055eb7a12732e45c9864109ce0a":[2,0,0,1,0,16,42],
 "dd/d59/modicons_8qc.html#aa31974f3ee04983fc466c46abdbe5625":[2,0,0,1,0,16,10],
 "dd/d59/modicons_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922":[2,0,0,1,0,16,19],
@@ -249,5 +246,8 @@ var NAVTREEINDEX113 =
 "dd/d71/lib_2__mod_8inc_source.html":[2,0,4,4],
 "dd/d73/classMachineGun.html":[1,0,68],
 "dd/d73/classMachineGun.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,68,19],
-"dd/d73/classMachineGun.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,68,18]
+"dd/d73/classMachineGun.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,68,18],
+"dd/d73/classMachineGun.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,68,16],
+"dd/d73/classMachineGun.html#a328fa9cbf860e91182057847dea9aa97":[1,0,68,28],
+"dd/d73/classMachineGun.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,68,20]
 };

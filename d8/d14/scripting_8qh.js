@@ -22,7 +22,6 @@ var scripting_8qh =
     [ "BOT_CMD_AIMTARGET", "d8/d14/scripting_8qh.html#a0525fd503e3d817207e911c34a9af2b2", null ],
     [ "BOT_CMD_BARRIER", "d8/d14/scripting_8qh.html#ac6419c54f786d0b1080888645f013726", null ],
     [ "BOT_CMD_CC", "d8/d14/scripting_8qh.html#a2bccc74e657bf736d6026fbff7798fee", null ],
-    [ "BOT_CMD_CHASE", "d8/d14/scripting_8qh.html#ae9290b63ef9860f0e56b869b209f2c04", null ],
     [ "BOT_CMD_CONSOLE", "d8/d14/scripting_8qh.html#a69af561a36a4171090af761183721c98", null ],
     [ "BOT_CMD_CONTINUE", "d8/d14/scripting_8qh.html#aaa716b1dd6d179a14a48cf56e37f0c45", null ],
     [ "BOT_CMD_COUNTER", "d8/d14/scripting_8qh.html#abc0e3ba6ec9f6041f1cc77674ed2e11b", null ],
@@ -57,7 +56,5 @@ var scripting_8qh =
     [ "bot_cmd_type", "d8/d14/scripting_8qh.html#aec2a8cdff476b27767c063416a079f2a", null ],
     [ "BOT_CMD_WAIT", "d8/d14/scripting_8qh.html#ad09ff584c66b566518b5ccb47bbd3992", null ],
     [ "BOT_CMD_WAIT_UNTIL", "d8/d14/scripting_8qh.html#a47b13db3838cb8a439476396a8cb9eba", null ],
-    [ "BOT_CMD_WEND", "d8/d14/scripting_8qh.html#a75f85e8ba4be53cda6c91ef1028e7b01", null ],
-    [ "BOT_CMD_WHILE", "d8/d14/scripting_8qh.html#acc8076bf722909625e01f92cf7d34856", null ],
     [ "bot_cmds_initialized", "d8/d14/scripting_8qh.html#aee893b8c45acb57723bdf59ea42e8516", null ]
 ];
