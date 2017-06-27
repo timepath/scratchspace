@@ -55,6 +55,7 @@ var client_2autocvars_8qh =
     [ "autocvar_cl_effects_lightningarc_simple", "d7/db4/client_2autocvars_8qh.html#aa5008df3770265a934568963d32460ed", null ],
     [ "autocvar_cl_eventchase_death", "d7/db4/client_2autocvars_8qh.html#aa7f213de6d935cc8bc3f26e367a3abdf", null ],
     [ "autocvar_cl_eventchase_distance", "d7/db4/client_2autocvars_8qh.html#a8cd45e1195aec030971d0c76c5c809b1", null ],
+    [ "autocvar_cl_eventchase_frozen", "d7/db4/client_2autocvars_8qh.html#a8a3b9f04e4f2edf37590595e012c7256", null ],
     [ "autocvar_cl_eventchase_maxs", "d7/db4/client_2autocvars_8qh.html#ad8968b416783abc8262468960dba598e", null ],
     [ "autocvar_cl_eventchase_mins", "d7/db4/client_2autocvars_8qh.html#a681bff6e624baf3af2f0334052bd2ca8", null ],
     [ "autocvar_cl_eventchase_speed", "d7/db4/client_2autocvars_8qh.html#a03a38164b52dbfea40d0d73ef61de13b", null ],

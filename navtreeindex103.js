@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"db/ddb/classXonoticCvarList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,156,88],
 "db/ddb/classXonoticCvarList.html#adbc65a2089ef3278a098c80685b4b8a3":[1,0,156,65],
 "db/ddb/classXonoticCvarList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,156,43],
 "db/ddb/classXonoticCvarList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,156,92],
@@ -248,6 +249,5 @@ var NAVTREEINDEX103 =
 "dc/d03/keycodes_8qc.html#a403b2744d5225398d9265452c17f2fc4":[2,0,2,0,2,110],
 "dc/d03/keycodes_8qc.html#a44b3e687d4614acf3e440d85816f3249":[2,0,2,0,2,49],
 "dc/d03/keycodes_8qc.html#a4dc62e2282f74675c00fd37dcdfb55fc":[2,0,2,0,2,20],
-"dc/d03/keycodes_8qc.html#a4ed1cd25dc9e66aafd4194720287ea43":[2,0,2,0,2,30],
-"dc/d03/keycodes_8qc.html#a4fd22ef5d9d5f0489cf3299dde245490":[2,0,2,0,2,55]
+"dc/d03/keycodes_8qc.html#a4ed1cd25dc9e66aafd4194720287ea43":[2,0,2,0,2,30]
 };
