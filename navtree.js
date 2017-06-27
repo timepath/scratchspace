@@ -156,13 +156,13 @@ var NAVTREEINDEX =
 "de/dcb/vector_8qh.html#a2752638ed353eff53a93dccfa0f9be34",
 "df/d0f/classSpiderbot.html#a95259c29706baf6edc9debdc14067b80",
 "df/d28/sv__turrets_8qh.html#a69ef3f8ae3c2c9c7035737af552440d2",
-"df/d4c/server_2pathlib_2main_8qc.html#aaf14e8a6c9d0ac123bf0b6227b4fb61c",
-"df/d78/classPhaserTurretAttack.html#a148f0ac2aabc8676f55a902b199eeed1",
-"df/d9b/menu_2xonotic_2util_8qc.html#a3a61ea33091b43730f8b686e78ecde5e",
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a01627abafc724fbbbb330e46f8331911",
-"df/dd7/server_2client_8qc.html#a9f41c2e480a9f95e151c0716e5eb7de0",
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ad4aa27a0cf7fb7e282c728b12ec95472",
-"globals_func_a.html"
+"df/d4c/server_2pathlib_2main_8qc.html#a83274351e21299627f57002cc1c755a0",
+"df/d78/classPhaserTurretAttack.html",
+"df/d9b/menu_2xonotic_2util_8qc.html#a33132c559dad0e1c8227935613fa6c55",
+"df/dc9/classXonoticHUDQuickMenuDialog.html",
+"df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80",
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#acd339ed42a2f51ac07364931d53de5a1",
+"globals_func.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
