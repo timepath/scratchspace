@@ -13,7 +13,6 @@ var cl__player_8qc =
     [ "CSQCPlayer_SetCamera", "d7/da2/cl__player_8qc.html#a08681bb4fca2a5a6e7e41aa2d2a8f3c3", null ],
     [ "CSQCPlayer_SetMinsMaxs", "d7/da2/cl__player_8qc.html#aeb2615290a152d9a6597f66296a5c399", null ],
     [ "CSQCPlayer_SetPredictionError", "d7/da2/cl__player_8qc.html#a40c48ddf2c0cb079a8b728996d9665f2", null ],
-    [ "CSQCPlayer_SetViewLocation", "d7/da2/cl__player_8qc.html#af4f80104939058f43ea71aabbc1d008f", null ],
     [ "CSQCPlayer_Unpredict", "d7/da2/cl__player_8qc.html#aa0d9624853912644329129207b693e30", null ],
     [ "autocvar_cl_movement_errorcompensation", "d7/da2/cl__player_8qc.html#a16bb75c6d1f75b0a9aca295d6e5a4baa", null ],
     [ "autocvar_cl_movement_intermissionrunning", "d7/da2/cl__player_8qc.html#a5aa936af4f74ead738591f3e83d60f0f", null ],

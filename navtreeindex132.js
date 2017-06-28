@@ -1,5 +1,12 @@
 var NAVTREEINDEX132 =
 {
+"df/dd7/server_2client_8qc.html#a8dd80f958cebe7a215c3ebfd7895e623":[2,0,6,19,74],
+"df/dd7/server_2client_8qc.html#a8ded53c3174328a5bb11200508201865":[2,0,6,19,34],
+"df/dd7/server_2client_8qc.html#a9762fc4a80a93fd0e0eba75f2b14c207":[2,0,6,19,58],
+"df/dd7/server_2client_8qc.html#a97b74d9774c1336d930dd5a88961726e":[2,0,6,19,20],
+"df/dd7/server_2client_8qc.html#a97cf0c815bb1c93811d35628d62f751c":[2,0,6,19,3],
+"df/dd7/server_2client_8qc.html#a9892fecc7414ccaabfbcd27e4cd56692":[2,0,6,19,46],
+"df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80":[2,0,6,19,63],
 "df/dd7/server_2client_8qc.html#a9e59628b3f73816184b3bff22b8641b0":[2,0,6,19,1],
 "df/dd7/server_2client_8qc.html#a9f41c2e480a9f95e151c0716e5eb7de0":[2,0,6,19,13],
 "df/dd7/server_2client_8qc.html#aa19dd7a06981d3a48d765fd7a0d08607":[2,0,6,19,15],
@@ -242,12 +249,5 @@ var NAVTREEINDEX132 =
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#aa8f585367ffe7378369f1b539ee67dbc":[1,0,227,43],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#aafecc9299a80c35e84220bee81f1e3ff":[1,0,227,47],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,227,6],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#abb1abf616e875537d668b47e8017fd3b":[1,0,227,59],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,227,76],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac2e3d70e832d93f6b7a0d5c488c76e0d":[1,0,227,56],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac3273fd148e2e163689e948d600fb187":[1,0,227,16],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac40c387fa816abb4367ff86fe85c386e":[1,0,227,46],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,227,2],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac6094922668d013ada3893854eec6b0f":[1,0,227,24],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#acd339ed42a2f51ac07364931d53de5a1":[1,0,227,88]
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#abb1abf616e875537d668b47e8017fd3b":[1,0,227,59]
 };

@@ -915,7 +915,6 @@ var searchData=
   ['csqcplayer_5fsetcamera',['CSQCPlayer_SetCamera',['../d7/da2/cl__player_8qc.html#a08681bb4fca2a5a6e7e41aa2d2a8f3c3',1,'CSQCPlayer_SetCamera():&#160;cl_player.qc'],['../d9/dba/cl__player_8qh.html#a08681bb4fca2a5a6e7e41aa2d2a8f3c3',1,'CSQCPlayer_SetCamera():&#160;cl_player.qc']]],
   ['csqcplayer_5fsetminsmaxs',['CSQCPlayer_SetMinsMaxs',['../d7/da2/cl__player_8qc.html#aeb2615290a152d9a6597f66296a5c399',1,'cl_player.qc']]],
   ['csqcplayer_5fsetpredictionerror',['CSQCPlayer_SetPredictionError',['../d7/da2/cl__player_8qc.html#a40c48ddf2c0cb079a8b728996d9665f2',1,'cl_player.qc']]],
-  ['csqcplayer_5fsetviewlocation',['CSQCPlayer_SetViewLocation',['../d7/da2/cl__player_8qc.html#af4f80104939058f43ea71aabbc1d008f',1,'cl_player.qc']]],
   ['csqcplayer_5fstatus',['csqcplayer_status',['../d9/dba/cl__player_8qh.html#aa260a5674b9627850844cab05f5c682f',1,'cl_player.qh']]],
   ['csqcplayer_5funpredict',['CSQCPlayer_Unpredict',['../d7/da2/cl__player_8qc.html#aa0d9624853912644329129207b693e30',1,'cl_player.qc']]],
   ['csqcplayer_5fvelocity',['csqcplayer_velocity',['../d7/da2/cl__player_8qc.html#aa336467e4d35a0b94e892a2b1645e60b',1,'cl_player.qc']]],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX81 =
 {
-"d9/d2e/sv__vampire_8qc.html#ae7cdbe52e3d65b59dc5c72a47fa02b38":[2,0,1,9,0,31,2,2],
 "d9/d2e/sv__vampire_8qc_source.html":[2,0,1,9,0,31,2],
 "d9/d2f/classXonoticNexposee.html":[1,0,212],
 "d9/d2f/classXonoticNexposee.html#a003b708edf6352a60e28a77378b7b617":[1,0,212,41],
@@ -249,5 +248,6 @@ var NAVTREEINDEX81 =
 "d9/d51/intrusivelist_8qh.html#a259c6303c7d4a5d556087622e4909634":[2,0,4,24,6],
 "d9/d51/intrusivelist_8qh.html#a300d95a4534787c41116db59377d5ba8":[2,0,4,24,29],
 "d9/d51/intrusivelist_8qh.html#a3bda279ec2705111d6a3a49468a00cae":[2,0,4,24,10],
-"d9/d51/intrusivelist_8qh.html#a44ed93b6aaca72d222ce263898d152b4":[2,0,4,24,19]
+"d9/d51/intrusivelist_8qh.html#a44ed93b6aaca72d222ce263898d152b4":[2,0,4,24,19],
+"d9/d51/intrusivelist_8qh.html#a561d6dfad45a943ccade91eeab1009f3":[2,0,4,24,30]
 };
