@@ -247,7 +247,7 @@ var NAVTREEINDEX42 =
 "d4/dd6/minelayer_8qc.html#a4ea001ea7bc3c5f29f7c98be8b5b2bde":[2,0,1,16,0,22,2],
 "d4/dd6/minelayer_8qc_source.html":[2,0,1,16,0,22],
 "d4/dd7/movetypes_8qh.html":[2,0,1,11,0,6],
-"d4/dd7/movetypes_8qh.html#a08001d7539f498833d366bf73fe26e65":[2,0,1,11,0,6,11],
-"d4/dd7/movetypes_8qh.html#a0c3c32b8e67737d63dbf704612d6b22c":[2,0,1,11,0,6,17],
-"d4/dd7/movetypes_8qh.html#a251727549d9304470e0bc547573eabcf":[2,0,1,11,0,6,15]
+"d4/dd7/movetypes_8qh.html#a08001d7539f498833d366bf73fe26e65":[2,0,1,11,0,6,17],
+"d4/dd7/movetypes_8qh.html#a0c3c32b8e67737d63dbf704612d6b22c":[2,0,1,11,0,6,23],
+"d4/dd7/movetypes_8qh.html#a251727549d9304470e0bc547573eabcf":[2,0,1,11,0,6,21]
 };

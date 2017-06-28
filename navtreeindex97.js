@@ -1,5 +1,11 @@
 var NAVTREEINDEX97 =
 {
+"db/d59/classXonoticPlayList.html#ad477c81ebd8288ed756e46e4568ae98b":[1,0,218,25],
+"db/d59/classXonoticPlayList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,218,56],
+"db/d59/classXonoticPlayList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,218,82],
+"db/d59/classXonoticPlayList.html#adbc65a2089ef3278a098c80685b4b8a3":[1,0,218,59],
+"db/d59/classXonoticPlayList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,218,37],
+"db/d59/classXonoticPlayList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,218,86],
 "db/d59/classXonoticPlayList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,218,44],
 "db/d59/classXonoticPlayList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,218,17],
 "db/d59/classXonoticPlayList.html#ae4886e927f8025266b488c24f9539c9e":[1,0,218,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX97 =
 "db/d63/classXonoticColorpicker.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,149,8],
 "db/d63/classXonoticColorpicker.html#aa96e3ae510f7b4f70c21698702b7bae5":[1,0,149,0],
 "db/d63/classXonoticColorpicker.html#ab5fc85464d60d355588bce324d3df6da":[1,0,149,15],
-"db/d63/classXonoticColorpicker.html#ab6480e1fe1f3eed5568c59a859abc9cd":[1,0,149,46],
-"db/d63/classXonoticColorpicker.html#ab9f53ba31d7aebc313bcfd3f677add53":[1,0,149,47],
-"db/d63/classXonoticColorpicker.html#aba512e196285bb4464fc76b59e391161":[1,0,149,43],
-"db/d63/classXonoticColorpicker.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,149,37],
-"db/d63/classXonoticColorpicker.html#ac5a13bfcb6ef13ce07f4e397ed7e3b26":[1,0,149,21],
-"db/d63/classXonoticColorpicker.html#ac6094922668d013ada3893854eec6b0f":[1,0,149,14],
-"db/d63/classXonoticColorpicker.html#ac783a223d75bf1d08a090ff8891725cc":[1,0,149,40]
+"db/d63/classXonoticColorpicker.html#ab6480e1fe1f3eed5568c59a859abc9cd":[1,0,149,46]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX113 =
 {
+"dd/d36/halflife_8qc.html#ae7d02eb493757fd3a3ef4e30edaa0c30":[2,0,6,2,2,22],
+"dd/d36/halflife_8qc_source.html":[2,0,6,2,2],
+"dd/d40/effects_2qc_2all_8qh.html":[2,0,1,2,0,4],
+"dd/d40/effects_2qc_2all_8qh_source.html":[2,0,1,2,0,4],
+"dd/d41/sv__hook_8qc.html":[2,0,1,9,0,10,2],
+"dd/d41/sv__hook_8qc_source.html":[2,0,1,9,0,10,2],
 "dd/d43/cl__turrets_8qc.html":[2,0,1,14,9],
 "dd/d43/cl__turrets_8qc.html#a181aadf6b8196e68aec17f8def47adda":[2,0,1,14,9,1],
 "dd/d43/cl__turrets_8qc.html#a201951011a4a5099f9acf57f98bf0559":[2,0,1,14,9,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX113 =
 "dd/d70/pathlib_8qh.html#affea92ed68bc1ff87be96c141c3b24c5":[2,0,6,4,14,12],
 "dd/d70/pathlib_8qh_source.html":[2,0,6,4,14],
 "dd/d71/lib_2__mod_8inc.html":[2,0,4,4],
-"dd/d71/lib_2__mod_8inc_source.html":[2,0,4,4],
-"dd/d73/classMachineGun.html":[1,0,68],
-"dd/d73/classMachineGun.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,68,19],
-"dd/d73/classMachineGun.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,68,18],
-"dd/d73/classMachineGun.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,68,16],
-"dd/d73/classMachineGun.html#a328fa9cbf860e91182057847dea9aa97":[1,0,68,28],
-"dd/d73/classMachineGun.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,68,20]
+"dd/d71/lib_2__mod_8inc_source.html":[2,0,4,4]
 };

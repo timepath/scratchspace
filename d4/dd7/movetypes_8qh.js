@@ -1,5 +1,11 @@
 var movetypes_8qh =
 [
+    [ "GAMEPLAYFIX_DOWNTRACEONGROUND", "d4/dd7/movetypes_8qh.html#a355ad000887bfbb3fa387376ce9116ef", null ],
+    [ "GAMEPLAYFIX_EASIERWATERJUMP", "d4/dd7/movetypes_8qh.html#a86866b9ab036632e4b60c4dc204e1347", null ],
+    [ "GAMEPLAYFIX_STEPDOWN", "d4/dd7/movetypes_8qh.html#a29a88512a529238f210bd12531cf3859", null ],
+    [ "GAMEPLAYFIX_STEPMULTIPLETIMES", "d4/dd7/movetypes_8qh.html#ad06c0c0ae6b69f294b4bb1c2fd898caf", null ],
+    [ "GAMEPLAYFIX_UNSTICKPLAYERS", "d4/dd7/movetypes_8qh.html#a3823e7faa5111ca7142b61cc6dfce354", null ],
+    [ "GAMEPLAYFIX_WATERTRANSITION", "d4/dd7/movetypes_8qh.html#a6b498138118d9d34aa3267caa5415fde", null ],
     [ "IS_ONGROUND", "d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27", null ],
     [ "IS_ONSLICK", "d4/dd7/movetypes_8qh.html#a76e41a3d5c8cd6e099813a44a9dac448", null ],
     [ "SET_ONGROUND", "d4/dd7/movetypes_8qh.html#a93e881dd105ced1c6ce1873530933eaf", null ],
