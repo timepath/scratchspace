@@ -107,14 +107,15 @@ $(document).ready(function(){initNavTree('da/d30/file_8qh_source.html','../../')
 <div class="contents">
 <a href="../../da/d30/file_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../da/d30/file_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff">    3</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../da/d30/file_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff">fexists</a>(<span class="keywordtype">string</span> f)</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordtype">int</span> fh = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(f, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a>);</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span> (fh &lt; 0) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(fh);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="ttc" id="file_8qh_html_a3dbce76248787cf57ad2ba8c8b4d1aff"><div class="ttname"><a href="../../da/d30/file_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff">fexists</a></div><div class="ttdeci">bool fexists(string f)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d30/file_8qh_source.html#l00003">file.qh:3</a></div></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;[[eraseable]]</div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../da/d30/file_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff">    4</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../da/d30/file_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff">fexists</a>(<span class="keywordtype">string</span> f)</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> fh = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(f, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (fh &lt; 0) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(fh);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
+<div class="ttc" id="file_8qh_html_a3dbce76248787cf57ad2ba8c8b4d1aff"><div class="ttname"><a href="../../da/d30/file_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff">fexists</a></div><div class="ttdeci">bool fexists(string f)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d30/file_8qh_source.html#l00004">file.qh:4</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a5231f4ff2813f7de782b67d25a9e4cf9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a></div><div class="ttdeci">float fopen(string filename, float mode)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a1a78b46b9db5c0d6fcee5be7697afa09"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a></div><div class="ttdeci">void fclose(float fhandle)</div></div>
 <div class="ttc" id="csqc__constants_8qh_html_ac71bfc8a179f9d612bf713943c8cb5e1"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a></div><div class="ttdeci">const int FILE_READ</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00101">csqc_constants.qh:101</a></div></div>
@@ -124,7 +125,7 @@ $(document).ready(function(){initNavTree('da/d30/file_8qh_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../da/d30/file_8qh.html">file.qh</a></li>
-    <li class="footer">Generated on Sat Jul 1 2017 04:30:21 for Xonotic by
+    <li class="footer">Generated on Sat Jul 1 2017 12:28:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

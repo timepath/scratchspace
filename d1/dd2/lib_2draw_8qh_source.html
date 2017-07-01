@@ -224,20 +224,22 @@ $(document).ready(function(){initNavTree('d1/dd2/lib_2draw_8qh_source.html','../
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        }</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d3/d07/scoreboard_8qc.html#a087ba6bc55f25ad36364d0bf2a6f0af1">drawstringright</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> position, <span class="keywordtype">string</span> text, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> theScale, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb, <span class="keywordtype">float</span> theAlpha, <span class="keywordtype">int</span> flag)</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    {</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        position.x -= 2 / 3 * <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(text) * theScale.x;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        drawstring_builtin(position, text, theScale, rgb, theAlpha, flag);</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    }</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d3/d07/scoreboard_8qc.html#a361c30606aa485ea4467d43260e86b50">drawstringcenter</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> position, <span class="keywordtype">string</span> text, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> theScale, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb, <span class="keywordtype">float</span> theAlpha, <span class="keywordtype">int</span> flag)</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    {</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        position.x = 0.5 * (vid_conwidth - 0.6025 * <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(text) * theScale.x);</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        drawstring_builtin(position, text, theScale, rgb, theAlpha, flag);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="vector_8qh_html_a13163379d56e777f08a20fca27f20c2a"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a></div><div class="ttdeci">const vector eY</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00045">vector.qh:45</a></div></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    [[eraseable]]</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d3/d07/scoreboard_8qc.html#a087ba6bc55f25ad36364d0bf2a6f0af1">drawstringright</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> position, <span class="keywordtype">string</span> text, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> theScale, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb, <span class="keywordtype">float</span> theAlpha, <span class="keywordtype">int</span> flag)</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        position.x -= 2 / 3 * <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(text) * theScale.x;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        drawstring_builtin(position, text, theScale, rgb, theAlpha, flag);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    }</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    [[eraseable]]</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d3/d07/scoreboard_8qc.html#a361c30606aa485ea4467d43260e86b50">drawstringcenter</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> position, <span class="keywordtype">string</span> text, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> theScale, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb, <span class="keywordtype">float</span> theAlpha, <span class="keywordtype">int</span> flag)</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        position.x = 0.5 * (vid_conwidth - 0.6025 * <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(text) * theScale.x);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        drawstring_builtin(position, text, theScale, rgb, theAlpha, flag);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="vector_8qh_html_a13163379d56e777f08a20fca27f20c2a"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a></div><div class="ttdeci">const vector eY</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00046">vector.qh:46</a></div></div>
 <div class="ttc" id="i18n_8qh_html"><div class="ttname"><a href="../../d0/dfe/i18n_8qh.html">i18n.qh</a></div></div>
 <div class="ttc" id="vector_8qh_html"><div class="ttname"><a href="../../de/dcb/vector_8qh.html">vector.qh</a></div></div>
 <div class="ttc" id="scoreboard_8qc_html_a087ba6bc55f25ad36364d0bf2a6f0af1"><div class="ttname"><a href="../../d3/d07/scoreboard_8qc.html#a087ba6bc55f25ad36364d0bf2a6f0af1">drawstringright</a></div><div class="ttdeci">void drawstringright(vector, string, vector, vector, float, float)</div></div>
@@ -248,7 +250,7 @@ $(document).ready(function(){initNavTree('d1/dd2/lib_2draw_8qh_source.html','../
 <div class="ttc" id="scoreboard_8qc_html_a361c30606aa485ea4467d43260e86b50"><div class="ttname"><a href="../../d3/d07/scoreboard_8qc.html#a361c30606aa485ea4467d43260e86b50">drawstringcenter</a></div><div class="ttdeci">void drawstringcenter(vector, string, vector, vector, float, float)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
 <div class="ttc" id="menu_2draw_8qh_html_ae64aac37d55a26279dca938d8ca2e76e"><div class="ttname"><a href="../../d9/d62/menu_2draw_8qh.html#ae64aac37d55a26279dca938d8ca2e76e">draw_BorderPicture</a></div><div class="ttdeci">void draw_BorderPicture(vector theOrigin, string pic, vector theSize, vector theColor, float theAlpha, vector theBorderSize)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00169">draw.qc:169</a></div></div>
-<div class="ttc" id="vector_8qh_html_adce3aade2f97ac6fb4688fe0a7005d27"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a></div><div class="ttdeci">const vector eX</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00044">vector.qh:44</a></div></div>
+<div class="ttc" id="vector_8qh_html_adce3aade2f97ac6fb4688fe0a7005d27"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a></div><div class="ttdeci">const vector eX</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00045">vector.qh:45</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a07c016e00e6f80d5012980202d770138"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a07c016e00e6f80d5012980202d770138">drawsubpic</a></div><div class="ttdeci">float drawsubpic(vector position, vector size, string pic, vector srcPosition, vector srcSize, vector rgb, float alpha, float flag)</div></div>
 <div class="ttc" id="vector_8qh_html_a484dbdf175fddaf431a0bdd8f3b802f5"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5">cross</a></div><div class="ttdeci">#define cross(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00026">vector.qh:26</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8f7213273f7de03df213240376ce9f4"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a></div><div class="ttdeci">vector normalize(vector v)</div></div>
@@ -258,7 +260,7 @@ $(document).ready(function(){initNavTree('d1/dd2/lib_2draw_8qh_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d1/dd2/lib_2draw_8qh.html">draw.qh</a></li>
-    <li class="footer">Generated on Sat Jul 1 2017 04:30:21 for Xonotic by
+    <li class="footer">Generated on Sat Jul 1 2017 12:28:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

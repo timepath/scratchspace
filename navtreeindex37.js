@@ -28,8 +28,7 @@ var NAVTREEINDEX37 =
 "d4/d54/map_8qh.html#a605b837e0b0cfbe3b7ef69564dba980e":[2,0,4,32,4],
 "d4/d54/map_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b":[2,0,4,32,9],
 "d4/d54/map_8qh.html#a6f7bd142267d2579258f9abf5301d1bb":[2,0,4,32,8],
-"d4/d54/map_8qh.html#a86b85b0f5f2ae1b4d98314c75f14e1de":[2,0,4,32,14],
-"d4/d54/map_8qh.html#a94fbc154a15744971dd9c92599dcb009":[2,0,4,32,13],
+"d4/d54/map_8qh.html#a86b85b0f5f2ae1b4d98314c75f14e1de":[2,0,4,32,13],
 "d4/d54/map_8qh.html#ac4f258816f44ba60ecd630cf58e52974":[2,0,4,32,2],
 "d4/d54/map_8qh.html#ac9eefc4b70d421cb3e606c88900499d5":[2,0,4,32,10],
 "d4/d54/map_8qh.html#ae164808a517903e86f7142599e17eb73":[2,0,4,32,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX37 =
 "d4/d5f/classXonoticFirstRunDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,166,46],
 "d4/d5f/classXonoticFirstRunDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,166,68],
 "d4/d5f/classXonoticFirstRunDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,166,74],
-"d4/d5f/classXonoticFirstRunDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,166,78]
+"d4/d5f/classXonoticFirstRunDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,166,78],
+"d4/d5f/classXonoticFirstRunDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,166,66]
 };

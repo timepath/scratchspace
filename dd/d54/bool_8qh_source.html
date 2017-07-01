@@ -116,25 +116,26 @@ $(document).ready(function(){initNavTree('dd/d54/bool_8qh_source.html','../../')
 <div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../dd/d54/bool_8qh.html#a8b6d61ae40e2024b8c201bf4f433986c">    9</a></span>&#160;<span class="preprocessor">#define boolean(value) ((value) != 0)</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// get true/false value of a string with multiple different inputs</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../dd/d54/bool_8qh.html#a6418201b4a27aeb560c78a60191bc9fa">   12</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../dd/d54/bool_8qh.html#a6418201b4a27aeb560c78a60191bc9fa">InterpretBoolean</a>(<span class="keywordtype">string</span> input)</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">switch</span> (strtolower(input))</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;yes&quot;</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;true&quot;</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;on&quot;</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;no&quot;</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;false&quot;</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;off&quot;</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">default</span>: <span class="keywordflow">return</span> <a class="code" href="../../dd/d54/bool_8qh.html#a8b6d61ae40e2024b8c201bf4f433986c">boolean</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(input));</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;[[eraseable]]</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../dd/d54/bool_8qh.html#a6418201b4a27aeb560c78a60191bc9fa">   13</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../dd/d54/bool_8qh.html#a6418201b4a27aeb560c78a60191bc9fa">InterpretBoolean</a>(<span class="keywordtype">string</span> input)</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">switch</span> (strtolower(input))</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;yes&quot;</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;true&quot;</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;on&quot;</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;no&quot;</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;false&quot;</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;off&quot;</span>:</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">default</span>: <span class="keywordflow">return</span> <a class="code" href="../../dd/d54/bool_8qh.html#a8b6d61ae40e2024b8c201bf4f433986c">boolean</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(input));</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
-<div class="ttc" id="bool_8qh_html_a6418201b4a27aeb560c78a60191bc9fa"><div class="ttname"><a href="../../dd/d54/bool_8qh.html#a6418201b4a27aeb560c78a60191bc9fa">InterpretBoolean</a></div><div class="ttdeci">float InterpretBoolean(string input)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d54/bool_8qh_source.html#l00012">bool.qh:12</a></div></div>
+<div class="ttc" id="bool_8qh_html_a6418201b4a27aeb560c78a60191bc9fa"><div class="ttname"><a href="../../dd/d54/bool_8qh.html#a6418201b4a27aeb560c78a60191bc9fa">InterpretBoolean</a></div><div class="ttdeci">float InterpretBoolean(string input)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d54/bool_8qh_source.html#l00013">bool.qh:13</a></div></div>
 <div class="ttc" id="bool_8qh_html_a8b6d61ae40e2024b8c201bf4f433986c"><div class="ttname"><a href="../../dd/d54/bool_8qh.html#a8b6d61ae40e2024b8c201bf4f433986c">boolean</a></div><div class="ttdeci">#define boolean(value)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d54/bool_8qh_source.html#l00009">bool.qh:9</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -142,7 +143,7 @@ $(document).ready(function(){initNavTree('dd/d54/bool_8qh_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dd/d54/bool_8qh.html">bool.qh</a></li>
-    <li class="footer">Generated on Sat Jul 1 2017 04:30:21 for Xonotic by
+    <li class="footer">Generated on Sat Jul 1 2017 12:28:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

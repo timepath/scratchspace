@@ -13,6 +13,5 @@ var map_8qh =
     [ "db_load", "d4/d54/map_8qh.html#ac9eefc4b70d421cb3e606c88900499d5", null ],
     [ "db_put", "d4/d54/map_8qh.html#ae5419c646d89ed2845be766723b0cb6f", null ],
     [ "db_save", "d4/d54/map_8qh.html#ae56738e160950dacfe06255371d69391", null ],
-    [ "db_test", "d4/d54/map_8qh.html#a94fbc154a15744971dd9c92599dcb009", null ],
     [ "DB_BUCKETS", "d4/d54/map_8qh.html#a86b85b0f5f2ae1b4d98314c75f14e1de", null ]
 ];
