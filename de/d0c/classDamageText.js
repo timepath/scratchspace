@@ -1,6 +1,6 @@
 var classDamageText =
 [
-    [ "DamageText", "de/d0c/classDamageText.html#abd98575bdc1cbd4933a07e0df41c988b", null ],
+    [ "DamageText", "de/d0c/classDamageText.html#a051ef622598636a594c91c29d445d19c", null ],
     [ "~DamageText", "de/d0c/classDamageText.html#a65f22853f37f14deba2d878d3dcacded", null ],
     [ "DamageText_draw2d", "de/d0c/classDamageText.html#a1bb3fadcd65ec6a18fd5840879e003f5", null ],
     [ "DamageText_update", "de/d0c/classDamageText.html#a95a7a03c14103583821720970c1830eb", null ],
@@ -9,6 +9,7 @@ var classDamageText =
     [ "void", "de/d0c/classDamageText.html#a8d3a832a231b46109547156eaf7dd0ec", null ],
     [ "alpha", "de/d0c/classDamageText.html#a102206254076a4b6de3087b389196f7c", null ],
     [ "fade_rate", "de/d0c/classDamageText.html#ad05fc05aa6d4066c73d44250d6128e92", null ],
+    [ "hit_time", "de/d0c/classDamageText.html#aca8978475a45b3a88f27984419c2d7c8", null ],
     [ "m_armordamage", "de/d0c/classDamageText.html#ae4c1f8aa207896e527bb3598dbdce3bd", null ],
     [ "m_color", "de/d0c/classDamageText.html#ab08d815b69e6b2fde74a2f6703442ffc", null ],
     [ "m_color_friendlyfire", "de/d0c/classDamageText.html#a6c1713c1ec4ddf63ec1134423d0a8b99", null ],
@@ -17,8 +18,10 @@ var classDamageText =
     [ "m_group", "de/d0c/classDamageText.html#a6849153fc604a5bced7c74d7a52ccd92", null ],
     [ "m_healthdamage", "de/d0c/classDamageText.html#a2146d44740bd3501dfa815d44aa376cd", null ],
     [ "m_potential_damage", "de/d0c/classDamageText.html#a2a23458a49f8174ef3fc937ad8f81a40", null ],
+    [ "m_screen_coords", "de/d0c/classDamageText.html#a40af78a51b4e68605dc9079e5b6c34b9", null ],
+    [ "m_shrink_rate", "de/d0c/classDamageText.html#a24f43e5dd01ca37a1dd6977a8c8b7847", null ],
     [ "m_size", "de/d0c/classDamageText.html#a72d6238a28d367c6b1315b01674d691c", null ],
-    [ "text", "de/d0c/classDamageText.html#a48cbef0feb76ac585c931dbc47c2dc97", null ],
-    [ "time_prev", "de/d0c/classDamageText.html#aedaeedaee5aaa27b18ca46594a511bdd", null ],
-    [ "velocity", "de/d0c/classDamageText.html#a2f4590f902b05ee04ece72b8d72b71da", null ]
+    [ "screen_count", "de/d0c/classDamageText.html#a3e55199c8f4104308b210d9da1bb4fe4", null ],
+    [ "screen_first", "de/d0c/classDamageText.html#a8422fc97bfd57ab9a4f5373ea2868f4d", null ],
+    [ "text", "de/d0c/classDamageText.html#a48cbef0feb76ac585c931dbc47c2dc97", null ]
 ];

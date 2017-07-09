@@ -30,6 +30,7 @@ var client_2miscfunctions_8qc =
     [ "PolyDrawModelSurface", "dc/d98/client_2miscfunctions_8qc.html#ae669df9da541a3b18d623ba33615903e", null ],
     [ "PreviewExists", "dc/d98/client_2miscfunctions_8qc.html#a62d201e545e3b4660cbc23e4587cabb8", null ],
     [ "project_3d_to_2d", "dc/d98/client_2miscfunctions_8qc.html#a519d23437c6eea0244222bb41e476d1e", null ],
+    [ "projected_on_screen", "dc/d98/client_2miscfunctions_8qc.html#ad28e8421924dc0f40304987c051089f4", null ],
     [ "RegisterPlayer", "dc/d98/client_2miscfunctions_8qc.html#ae17cfc4228221783482d043369821bb4", null ],
     [ "RegisterTeam", "dc/d98/client_2miscfunctions_8qc.html#a6caf2e0c66aa3cfa4a63689e650de692", null ],
     [ "RemovePlayer", "dc/d98/client_2miscfunctions_8qc.html#a1ff2ab6f40ef91103b3fd8a9e083b4ca", null ],

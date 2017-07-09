@@ -53,6 +53,8 @@ var searchData=
   ['scores_5finitialized',['scores_initialized',['../d3/dcd/scores_8qh.html#a4d43b789941743d9edb8105089a187b5',1,'scores.qh']]],
   ['scores_5fprimary',['scores_primary',['../d2/d79/scores_8qc.html#aca95a287dff9671316dfbb304c392e73',1,'scores.qc']]],
   ['scoreswidth',['SCORESWIDTH',['../d2/d79/scores_8qc.html#a26c17e0b6e8c59731994438c1b572aa6',1,'scores.qc']]],
+  ['screen_5fcount',['screen_count',['../de/d0c/classDamageText.html#a3e55199c8f4104308b210d9da1bb4fe4',1,'DamageText']]],
+  ['screen_5ffirst',['screen_first',['../de/d0c/classDamageText.html#a8422fc97bfd57ab9a4f5373ea2868f4d',1,'DamageText']]],
   ['screenshottime',['screenshotTime',['../d4/d67/classXonoticScreenshotImage.html#a91281c571825c19d5e6c3d22f462e0c4',1,'XonoticScreenshotImage']]],
   ['scrollbarwidth',['scrollbarWidth',['../d9/de9/classListBox.html#aebae115b2e466a40f93ccbf1354cdd01',1,'ListBox::scrollbarWidth()'],['../d3/db2/classXonoticListBox.html#ab570ac959de81c4d5aa1681b1e5f53b9',1,'XonoticListBox::scrollbarWidth()']]],
   ['scrolling',['scrolling',['../d4/d55/classXonoticCreditsList.html#a7e648d41a7f78b2263816afdbcce9375',1,'XonoticCreditsList']]],

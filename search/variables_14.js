@@ -174,7 +174,6 @@ var searchData=
   ['time',['time',['../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b',1,'time():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b',1,'time():&#160;progsdefs.qc'],['../d0/d41/menu_8qh.html#a8b8dfe2335a5bf90695960dc6a1c5d3b',1,'time():&#160;menu.qh']]],
   ['time_5fdecimals',['TIME_DECIMALS',['../d5/df2/common_2util_8qh.html#abbaaeb3f374eaa19bf75019e91650c35',1,'util.qh']]],
   ['time_5ffactor',['TIME_FACTOR',['../d5/df2/common_2util_8qh.html#aa8904900a33e1de28193b6d5e53fd0b0',1,'util.qh']]],
-  ['time_5fprev',['time_prev',['../de/d0c/classDamageText.html#aedaeedaee5aaa27b18ca46594a511bdd',1,'DamageText']]],
   ['timeout_5factive',['TIMEOUT_ACTIVE',['../d2/d06/server_2command_2common_8qh.html#a92bbba45d6b68c1a7dab1eb1c04e330e',1,'common.qh']]],
   ['timeout_5fcaller',['timeout_caller',['../d2/d06/server_2command_2common_8qh.html#a5ffccd1d0a76fc138c43300ec3ba9a29',1,'common.qh']]],
   ['timeout_5fhandler',['timeout_handler',['../d2/d06/server_2command_2common_8qh.html#a2c413e2355ff8a8dd94c694fedf8cd21',1,'common.qh']]],
