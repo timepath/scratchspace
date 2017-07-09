@@ -2607,7 +2607,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01182"></a><span class="lineno"> 1182</span>&#160;    <a class="code" href="../../d6/d27/scripting_8qc.html#a1a7d54c2e11974fe6dbceac1a1f45595">bot_setcurrentcommand</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l01183"></a><span class="lineno"> 1183</span>&#160;</div>
 <div class="line"><a name="l01184"></a><span class="lineno"> 1184</span>&#160;    <span class="comment">// Ignore all commands except continue when the bot is paused</span></div>
-<div class="line"><a name="l01185"></a><span class="lineno"> 1185</span>&#160;    <span class="keywordflow">if</span>(!(<span class="keyword">self</span>.<a class="code" href="../../d6/d27/scripting_8qc.html#adb6794201da19e372763b3efd9f1eb95">bot_exec_status</a> &amp; <a class="code" href="../../d8/d14/scripting_8qh.html#a4148837952b0979735faac7e4718e6ab">BOT_EXEC_STATUS_PAUSED</a>))</div>
+<div class="line"><a name="l01185"></a><span class="lineno"> 1185</span>&#160;    <span class="keywordflow">if</span>(!(this.<a class="code" href="../../d6/d27/scripting_8qc.html#adb6794201da19e372763b3efd9f1eb95">bot_exec_status</a> &amp; <a class="code" href="../../d8/d14/scripting_8qh.html#a4148837952b0979735faac7e4718e6ab">BOT_EXEC_STATUS_PAUSED</a>))</div>
 <div class="line"><a name="l01186"></a><span class="lineno"> 1186</span>&#160;    {</div>
 <div class="line"><a name="l01187"></a><span class="lineno"> 1187</span>&#160;        <span class="comment">// if we have no bot command, better return</span></div>
 <div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;        <span class="comment">// old logic kept pressing previously pressed keys, but that has problems</span></div>
@@ -4175,7 +4175,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../d6/d27/scripting_8qc.html">scripting.qc</a></li>
-    <li class="footer">Generated on Sun Jul 9 2017 01:39:43 for Xonotic by
+    <li class="footer">Generated on Sun Jul 9 2017 15:13:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
