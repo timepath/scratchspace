@@ -50,6 +50,7 @@ var race_8qc =
     [ "race_checkpoint_lastlaps", "d6/d3b/race_8qc.html#a4004232b766da5b2531fc5f6a2fdf709", null ],
     [ "race_checkpoint_lastplayers", "d6/d3b/race_8qc.html#ac87c3c0983e92c0ead1a4500cfabb3af", null ],
     [ "race_checkpoint_lasttimes", "d6/d3b/race_8qc.html#af95bbe5539422afb894fa651a593c556", null ],
+    [ "race_checkpoint_record", "d6/d3b/race_8qc.html#a06e6063dcf71d85859a6239d9d8c90b8", null ],
     [ "race_checkpoint_recordholders", "d6/d3b/race_8qc.html#adf4817ff0cc4409c96bb878e7e33fb3d", null ],
     [ "race_checkpoint_records", "d6/d3b/race_8qc.html#ad1855ea475806749c54643476dac1943", null ],
     [ "race_highest_checkpoint", "d6/d3b/race_8qc.html#a0e3a6ce7e5c6de45c0c19a7e69912110", null ],
