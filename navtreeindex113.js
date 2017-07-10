@@ -1,7 +1,5 @@
 var NAVTREEINDEX113 =
 {
-"dd/d36/halflife_8qc.html#ae5b9f848b65ebe23f77bc0162845fe4b":[2,0,6,2,2,14],
-"dd/d36/halflife_8qc.html#ae7d02eb493757fd3a3ef4e30edaa0c30":[2,0,6,2,2,22],
 "dd/d36/halflife_8qc_source.html":[2,0,6,2,2],
 "dd/d40/effects_2qc_2all_8qh.html":[2,0,1,2,0,4],
 "dd/d40/effects_2qc_2all_8qh_source.html":[2,0,1,2,0,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX113 =
 "dd/d70/pathlib_8qh.html#aff425f8ce77c4efd8c01d67105f88c54":[2,0,6,4,14,23],
 "dd/d70/pathlib_8qh.html#affea92ed68bc1ff87be96c141c3b24c5":[2,0,6,4,14,12],
 "dd/d70/pathlib_8qh_source.html":[2,0,6,4,14],
-"dd/d71/lib_2__mod_8inc.html":[2,0,4,4]
+"dd/d71/lib_2__mod_8inc.html":[2,0,4,4],
+"dd/d71/lib_2__mod_8inc_source.html":[2,0,4,4],
+"dd/d73/classMachineGun.html":[1,0,68]
 };
