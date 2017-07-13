@@ -41,6 +41,7 @@ var dir_bdd9a5d540de89e9fe90efdfc6973a4f =
     [ "net_notice.qh", "dd/da3/net__notice_8qh.html", null ],
     [ "playerstats.qc", "de/d6e/playerstats_8qc.html", null ],
     [ "playerstats.qh", "db/daf/playerstats_8qh.html", null ],
+    [ "scores.qh", "da/dc3/common_2scores_8qh.html", "da/dc3/common_2scores_8qh" ],
     [ "state.qc", "d0/d3f/state_8qc.html", "d0/d3f/state_8qc" ],
     [ "state.qh", "db/d9f/state_8qh.html", "db/d9f/state_8qh" ],
     [ "stats.qh", "d7/d5c/common_2stats_8qh.html", "d7/d5c/common_2stats_8qh" ],

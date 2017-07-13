@@ -163,7 +163,7 @@ var searchData=
   ['getnextmap',['GetNextMap',['../d7/d97/g__world_8qh.html#a558290ac2f061ad16a1fb895ab32f6d6',1,'g_world.qh']]],
   ['getorthoviewfov',['GetOrthoviewFOV',['../d6/dd3/view_8qc.html#a3ea9f138fb2b9c31233274c9aaa01574',1,'view.qc']]],
   ['getplayerlist',['getPlayerList',['../d7/d50/classXonoticPlayerList.html#a2101979bc8f41cbf828f3f4e62e0c372',1,'XonoticPlayerList']]],
-  ['getplayerscorestring',['GetPlayerScoreString',['../d2/d79/scores_8qc.html#ad28463ced5516457ad57a090398dfa49',1,'GetPlayerScoreString(entity pl, float shortString):&#160;scores.qc'],['../d3/dcd/scores_8qh.html#ad28463ced5516457ad57a090398dfa49',1,'GetPlayerScoreString(entity pl, float shortString):&#160;scores.qc']]],
+  ['getplayerscorestring',['GetPlayerScoreString',['../d2/d79/scores_8qc.html#ad28463ced5516457ad57a090398dfa49',1,'GetPlayerScoreString(entity pl, float shortString):&#160;scores.qc'],['../d5/dac/server_2scores_8qh.html#ad28463ced5516457ad57a090398dfa49',1,'GetPlayerScoreString(entity pl, float shortString):&#160;scores.qc']]],
   ['getplayersoundsamplefield',['GetPlayerSoundSampleField',['../df/d6e/globalsound_8qh.html#a7022de3163c4d07ba4bc0547443ae346',1,'globalsound.qh']]],
   ['getpowerupitemalign',['getPowerupItemAlign',['../df/db0/powerups_8qc.html#a78f204cef91d93cf9ac79dbb2a986867',1,'powerups.qc']]],
   ['getpressedkeys',['GetPressedKeys',['../df/dd7/server_2client_8qc.html#a4564823376ee9ef5de34a0227bfc9646',1,'client.qc']]],
@@ -183,7 +183,7 @@ var searchData=
   ['gettaginfo_5frelative',['gettaginfo_relative',['../dc/dc6/server_2miscfunctions_8qc.html#a59a00571f7c6dad282ee583b3bd5b297',1,'miscfunctions.qc']]],
   ['getteam',['GetTeam',['../dc/d98/client_2miscfunctions_8qc.html#ab1762d75cc18535fa62c519ff652e0c9',1,'GetTeam(int Team, bool add):&#160;miscfunctions.qc'],['../d8/db6/client_2miscfunctions_8qh.html#ab1762d75cc18535fa62c519ff652e0c9',1,'GetTeam(int Team, bool add):&#160;miscfunctions.qc']]],
   ['getteamcounts',['GetTeamCounts',['../de/d4f/teamplay_8qc.html#a2942f2ae0d82c47009843cae3069508a',1,'GetTeamCounts(entity ignore):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a2942f2ae0d82c47009843cae3069508a',1,'GetTeamCounts(entity ignore):&#160;teamplay.qc']]],
-  ['getteamscorestring',['GetTeamScoreString',['../d2/d79/scores_8qc.html#a207c46a80dd896f8487773a62572d98c',1,'GetTeamScoreString(float tm, float shortString):&#160;scores.qc'],['../d3/dcd/scores_8qh.html#a207c46a80dd896f8487773a62572d98c',1,'GetTeamScoreString(float tm, float shortString):&#160;scores.qc']]],
+  ['getteamscorestring',['GetTeamScoreString',['../d2/d79/scores_8qc.html#a207c46a80dd896f8487773a62572d98c',1,'GetTeamScoreString(float tm, float shortString):&#160;scores.qc'],['../d5/dac/server_2scores_8qh.html#a207c46a80dd896f8487773a62572d98c',1,'GetTeamScoreString(float tm, float shortString):&#160;scores.qc']]],
   ['gettime',['gettime',['../d8/de2/menudefs_8qc.html#a5a51f82b0e067ae62972297351d205d2',1,'menudefs.qc']]],
   ['gettimeforamplitude',['GetTimeForAmplitude',['../d0/d0f/bgmscript_8qc.html#ae28daa7d8eecef6a16c23f616720bb47',1,'bgmscript.qc']]],
   ['gettooltip',['gettooltip',['../df/dc2/menu_8qc.html#a5fa974fd5005fe8d01ee039b428d8aae',1,'menu.qc']]],
@@ -216,5 +216,5 @@ var searchData=
   ['grapplinghookthink',['GrapplingHookThink',['../d7/de2/g__hook_8qc.html#adf8618e75e4ca34d6ec87bd20ef2657d',1,'g_hook.qc']]],
   ['grapplinghooktouch',['GrapplingHookTouch',['../d7/de2/g__hook_8qc.html#a963fd687df2343a151d97df9af7d8667',1,'g_hook.qc']]],
   ['ground_5fquake',['ground_quake',['../db/d7f/effectinfo_8inc.html#a5c1b4bc28344cfc365dcc9af9a5c651f',1,'effectinfo.inc']]],
-  ['gsl_5fran_5fgaussian',['gsl_ran_gaussian',['../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a',1,'gsl_ran_gaussian(float sigma):&#160;random.qc'],['../dc/d95/random_8qc.html#a4ff12e9437074f8ba09e275ff5084b7a',1,'gsl_ran_gaussian(float sigma):&#160;random.qc']]]
+  ['gsl_5fran_5fgaussian',['gsl_ran_gaussian',['../dc/d95/random_8qc.html#a4ff12e9437074f8ba09e275ff5084b7a',1,'random.qc']]]
 ];

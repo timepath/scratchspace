@@ -67,7 +67,7 @@ var searchData=
   ['wepent_5fset_5fnormal',['WEPENT_SET_NORMAL',['../dd/df2/wepent_8qc.html#ad1f180090e5441ffa5298ae782db25d4',1,'wepent.qc']]],
   ['wepset',['WEPSET',['../d0/ddd/weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658',1,'all.qh']]],
   ['wepset_5ffromweapon',['WepSet_FromWeapon',['../d0/ddd/weapons_2all_8qh.html#af64f4486ae6141a10160958a5e9a70b4',1,'all.qh']]],
-  ['winningconditionhelper_5flowerisbetter_5fworst',['WINNINGCONDITIONHELPER_LOWERISBETTER_WORST',['../d3/dcd/scores_8qh.html#a184ac4f6f2f69b2e00edcf69f95184c7',1,'scores.qh']]],
+  ['winningconditionhelper_5flowerisbetter_5fworst',['WINNINGCONDITIONHELPER_LOWERISBETTER_WORST',['../d5/dac/server_2scores_8qh.html#a184ac4f6f2f69b2e00edcf69f95184c7',1,'scores.qh']]],
   ['with',['WITH',['../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee',1,'misc.qh']]],
   ['withself',['WITHSELF',['../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87',1,'self.qh']]],
   ['write',['WRITE',['../dd/d87/effectinfo_8qc.html#a196e029eb2adc9808b1e6928e3e1ce23',1,'effectinfo.qc']]],

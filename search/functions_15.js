@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['u8_5fstrsize',['u8_strsize',['../d5/df2/common_2util_8qh.html#af483ac3b8f9b304d2a1aebdfce6e373f',1,'u8_strsize(string s):&#160;string.qh'],['../d2/db4/string_8qh.html#adbc4edd2149590de1c83379535f699fd',1,'u8_strsize(string s):&#160;string.qh']]],
+  ['u8_5fstrsize',['u8_strsize',['../d2/db4/string_8qh.html#adbc4edd2149590de1c83379535f699fd',1,'string.qh']]],
   ['uid2name',['uid2name',['../dc/dc6/server_2miscfunctions_8qc.html#a943d9da424f168efb8d407b4de9833a2',1,'uid2name(string myuid):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a943d9da424f168efb8d407b4de9833a2',1,'uid2name(string myuid):&#160;miscfunctions.qc']]],
   ['unescape',['unescape',['../d2/db4/string_8qh.html#a57cdb27a84b64821bbebb61db514b4fb',1,'string.qh']]],
   ['unfollow_5fsameorigin',['unfollow_sameorigin',['../dc/dc6/server_2miscfunctions_8qc.html#a03c1b8950eeb6441164aa0ee8ae330a5',1,'miscfunctions.qc']]],

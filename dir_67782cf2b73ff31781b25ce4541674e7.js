@@ -12,5 +12,6 @@ var dir_67782cf2b73ff31781b25ce4541674e7 =
     [ "calculations.qh", "db/d81/calculations_8qh.html", "db/d81/calculations_8qh" ],
     [ "config.qc", "d6/d1c/weapons_2config_8qc.html", "d6/d1c/weapons_2config_8qc" ],
     [ "config.qh", "d2/d3b/weapons_2config_8qh.html", null ],
+    [ "projectiles.qh", "db/dee/projectiles_8qh.html", "db/dee/projectiles_8qh" ],
     [ "weapon.qh", "d2/d1c/weapons_2weapon_8qh.html", "d2/d1c/weapons_2weapon_8qh" ]
 ];

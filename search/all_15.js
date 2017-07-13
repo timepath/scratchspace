@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['u8_5fstrsize',['u8_strsize',['../d5/df2/common_2util_8qh.html#af483ac3b8f9b304d2a1aebdfce6e373f',1,'u8_strsize(string s):&#160;string.qh'],['../d2/db4/string_8qh.html#adbc4edd2149590de1c83379535f699fd',1,'u8_strsize(string s):&#160;string.qh']]],
+  ['u8_5fstrsize',['u8_strsize',['../d2/db4/string_8qh.html#adbc4edd2149590de1c83379535f699fd',1,'string.qh']]],
   ['ui_5fdamagetext_2eqc',['ui_damagetext.qc',['../d0/da2/ui__damagetext_8qc.html',1,'']]],
   ['ui_5fdamagetext_2eqh',['ui_damagetext.qh',['../d1/d68/ui__damagetext_8qh.html',1,'']]],
   ['uid2name',['uid2name',['../dc/dc6/server_2miscfunctions_8qc.html#a943d9da424f168efb8d407b4de9833a2',1,'uid2name(string myuid):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a943d9da424f168efb8d407b4de9833a2',1,'uid2name(string myuid):&#160;miscfunctions.qc']]],
@@ -39,7 +39,7 @@ var searchData=
   ['updatefrags',['UpdateFrags',['../d5/d26/server_2defs_8qh.html#a7e53366415188b2157d76a7250422580',1,'UpdateFrags(entity player, int f):&#160;g_damage.qc'],['../d5/dac/g__damage_8qc.html#a7e53366415188b2157d76a7250422580',1,'UpdateFrags(entity player, int f):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#a7e53366415188b2157d76a7250422580',1,'UpdateFrags(entity player, int f):&#160;g_damage.qc']]],
   ['updatenotification_5furi_5fget_5fcallback',['UpdateNotification_URI_Get_Callback',['../df/d9b/menu_2xonotic_2util_8qc.html#a33132c559dad0e1c8227935613fa6c55',1,'UpdateNotification_URI_Get_Callback(float id, float status, string data):&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#a33132c559dad0e1c8227935613fa6c55',1,'UpdateNotification_URI_Get_Callback(float id, float status, string data):&#160;util.qc']]],
   ['updateplayersounds',['UpdatePlayerSounds',['../df/d6e/globalsound_8qh.html#a38180551f3a5aaa493a6e5a181046000',1,'globalsound.qh']]],
-  ['upward_5fvelocity_5fclears_5fonground',['UPWARD_VELOCITY_CLEARS_ONGROUND',['../de/d70/common_2physics_2player_8qh.html#a963bb51205295edf8b6f4adc0deecff9',1,'player.qh']]],
+  ['upward_5fvelocity_5fclears_5fonground',['UPWARD_VELOCITY_CLEARS_ONGROUND',['../d4/dd7/movetypes_8qh.html#a963bb51205295edf8b6f4adc0deecff9',1,'movetypes.qh']]],
   ['uri_5fget_5fcallback',['URI_Get_Callback',['../dc/d98/client_2miscfunctions_8qc.html#adca84d1c7403379d372fc6e45bbf5130',1,'URI_Get_Callback(int id, int status, string data):&#160;miscfunctions.qc'],['../df/d9b/menu_2xonotic_2util_8qc.html#a16aac93ba5b972ed98ff17320dda1b93',1,'URI_Get_Callback(float id, float status, string data):&#160;util.qc'],['../dc/dc6/server_2miscfunctions_8qc.html#a16aac93ba5b972ed98ff17320dda1b93',1,'URI_Get_Callback(float id, float status, string data):&#160;miscfunctions.qc']]],
   ['uri_5fget_5fcurl',['URI_GET_CURL',['../dc/dbb/urllib_8qh.html#a3761f7fe7b992fa3a4cb0b007bbd9a72',1,'urllib.qh']]],
   ['uri_5fget_5fcurl_5fend',['URI_GET_CURL_END',['../dc/dbb/urllib_8qh.html#ac3512aa8abd0d98e119654b5530cb429',1,'urllib.qh']]],

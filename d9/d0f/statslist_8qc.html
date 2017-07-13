@@ -496,12 +496,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">float</span> out_total_kills = -1;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">float</span> out_total_deaths = -1;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">for</span>(e = PS_D_IN_EVL; (en = <a class="code" href="../../d5/df2/common_2util_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a>(PS_D_IN_DB, e)) != <span class="stringliteral">&quot;&quot;</span>; e = en)</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">for</span>(e = PS_D_IN_EVL; (en = <a class="code" href="../../d4/d54/map_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a>(PS_D_IN_DB, e)) != <span class="stringliteral">&quot;&quot;</span>; e = en)</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    {</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        order = 0;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        outstr = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        orderstr = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        data = <a class="code" href="../../d5/df2/common_2util_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a>(PS_D_IN_DB, sprintf(<span class="stringliteral">&quot;#%s&quot;</span>, e));</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        data = <a class="code" href="../../d4/d54/map_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a>(PS_D_IN_DB, sprintf(<span class="stringliteral">&quot;#%s&quot;</span>, e));</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="comment">// non-gamemode specific stuff</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">switch</span>(e)</div>
@@ -607,7 +607,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <span class="keywordtype">string</span> <span class="keyword">event</span> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(e, (dividerpos + 1), <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(e) - (dividerpos + 1));</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <span class="comment">// if we are ranked, read these sets of possible options</span></div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a>(PS_D_IN_DB, sprintf(<span class="stringliteral">&quot;#%s/rank&quot;</span>, gametype))))</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d4/d54/map_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a>(PS_D_IN_DB, sprintf(<span class="stringliteral">&quot;#%s/rank&quot;</span>, gametype))))</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            {</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                <span class="keywordflow">switch</span>(event)</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                {</div>
@@ -685,9 +685,9 @@ Functions</h2></td></tr>
 <div class="ttc" id="dpextensions_8qh_html_a2ac3100017ecf2236493ea038c4d2083"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a></div><div class="ttdeci">#define strstrofs</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00042">dpextensions.qh:42</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
-<div class="ttc" id="common_2util_8qh_html_a670fd3f9a229fc1532145c01a4d2b15b"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a></div><div class="ttdeci">string db_get(int db, string key)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00091">map.qh:91</a></div></div>
 <div class="ttc" id="counting_8qh_html_a3c64a781bdc8bb479a5526f17e0f004d"><div class="ttname"><a href="../../d7/de1/counting_8qh.html#a3c64a781bdc8bb479a5526f17e0f004d">process_time</a></div><div class="ttdeci">string process_time(float outputtype, float seconds)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de1/counting_8qh_source.html#l00122">counting.qh:122</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
+<div class="ttc" id="map_8qh_html_a670fd3f9a229fc1532145c01a4d2b15b"><div class="ttname"><a href="../../d4/d54/map_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a></div><div class="ttdeci">string db_get(int db, string key)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00091">map.qh:91</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -853,7 +853,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d9/d0f/statslist_8qc.html">statslist.qc</a></li>
-    <li class="footer">Generated on Wed Jul 12 2017 12:10:01 for Xonotic by
+    <li class="footer">Generated on Thu Jul 13 2017 02:30:00 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

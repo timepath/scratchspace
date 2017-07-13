@@ -56,8 +56,8 @@ var sectionId = 'dynsection-0';
 <title>client/hud/hud.qh</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="590.5,-740.5 590.5,-759.5 681.5,-759.5 681.5,-740.5 590.5,-740.5"/>
-<text text-anchor="middle" x="636" y="-747.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/hud/hud.qh</text>
+<polygon fill="#bfbfbf" stroke="black" points="656.5,-740.5 656.5,-759.5 747.5,-759.5 747.5,-740.5 656.5,-740.5"/>
+<text text-anchor="middle" x="702" y="-747.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/hud/hud.qh</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -69,8 +69,21 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M636,-740.083C636,-733.006 636,-722.861 636,-713.986"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="639.5,-713.751 636,-703.751 632.5,-713.751 639.5,-713.751"/>
+<path fill="none" stroke="midnightblue" d="M691.396,-740.324C681.544,-732.263 666.649,-720.077 654.785,-710.369"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="656.753,-707.457 646.797,-703.834 652.32,-712.875 656.753,-707.457"/>
+</g>
+<!-- Node68 -->
+<g id="node68" class="node"><title>Node68</title>
+<g id="a_node68"><a xlink:href="../../da/dc3/common_2scores_8qh.html" target="_top" xlink:title="common/scores.qh">
+<polygon fill="none" stroke="black" points="718,-684.5 718,-703.5 818,-703.5 818,-684.5 718,-684.5"/>
+<text text-anchor="middle" x="768" y="-691.5" font-family="Helvetica,sans-Serif" font-size="10.00">common/scores.qh</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node68 -->
+<g id="edge80" class="edge"><title>Node1&#45;&gt;Node68</title>
+<path fill="none" stroke="midnightblue" d="M712.604,-740.324C722.456,-732.263 737.351,-720.077 749.215,-710.369"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="751.68,-712.875 757.203,-703.834 747.247,-707.457 751.68,-712.875"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>

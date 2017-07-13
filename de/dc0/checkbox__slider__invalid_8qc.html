@@ -262,7 +262,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    me.offValue = theOffValue;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    me.inverted = isInverted;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    me.checked = (theControlledSlider.value == theOffValue);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span>(theControlledSlider.value == <a class="code" href="../../d5/df2/common_2util_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a>(theControlledSlider.valueMin, theControlledSlider.value, theControlledSlider.valueMax))</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span>(theControlledSlider.value == <a class="code" href="../../d0/d79/math_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a>(theControlledSlider.valueMin, theControlledSlider.value, theControlledSlider.valueMax))</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        me.savedValue = theControlledSlider.value;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        me.savedValue = theControlledSlider.valueMin;</div>
@@ -271,7 +271,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    me.cvarName = theControlledSlider.cvarName; <span class="comment">// in case we want to display the cvar in the tooltip</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    me.tooltip = theControlledSlider.tooltip;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
-<div class="ttc" id="common_2util_8qh_html_a80b0a2e1271dba6f90376de1931afb7f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a></div><div class="ttdeci">float median(float a, float b, float c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00183">math.qh:183</a></div></div>
+<div class="ttc" id="math_8qh_html_a80b0a2e1271dba6f90376de1931afb7f"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a></div><div class="ttdeci">float median(float a, float b, float c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00183">math.qh:183</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -304,12 +304,12 @@ Functions</h2></td></tr>
 <p>References <a class="el" href="../../d0/d79/math_8qh_source.html#l00183">median()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00287">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    me.checked = ((me.controlledSlider.value == me.offValue) != me.inverted);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">if</span>(me.controlledSlider.value == <a class="code" href="../../d5/df2/common_2util_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a>(me.controlledSlider.valueMin, me.controlledSlider.value, me.controlledSlider.valueMax))</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">if</span>(me.controlledSlider.value == <a class="code" href="../../d0/d79/math_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a>(me.controlledSlider.valueMin, me.controlledSlider.value, me.controlledSlider.valueMax))</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        me.savedValue = me.controlledSlider.value;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../db/d38/classXonoticSliderCheckBox.html">XonoticSliderCheckBox</a>).draw(me);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
 <div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00287">oo.qh:287</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_a80b0a2e1271dba6f90376de1931afb7f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a></div><div class="ttdeci">float median(float a, float b, float c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00183">math.qh:183</a></div></div>
+<div class="ttc" id="math_8qh_html_a80b0a2e1271dba6f90376de1931afb7f"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a></div><div class="ttdeci">float median(float a, float b, float c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00183">math.qh:183</a></div></div>
 <div class="ttc" id="classXonoticSliderCheckBox_html"><div class="ttname"><a href="../../db/d38/classXonoticSliderCheckBox.html">XonoticSliderCheckBox</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/de0/checkbox__slider__invalid_8qh_source.html#l00004">checkbox_slider_invalid.qh:4</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -356,11 +356,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    me.checked = val;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span>(val == me.inverted)</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        me.controlledSlider.setValue(me.controlledSlider, <a class="code" href="../../d5/df2/common_2util_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a>(me.controlledSlider.valueMin, me.savedValue, me.controlledSlider.valueMax));</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        me.controlledSlider.setValue(me.controlledSlider, <a class="code" href="../../d0/d79/math_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a>(me.controlledSlider.valueMin, me.savedValue, me.controlledSlider.valueMax));</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        me.controlledSlider.setValue(me.controlledSlider, me.offValue);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
-<div class="ttc" id="common_2util_8qh_html_a80b0a2e1271dba6f90376de1931afb7f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a></div><div class="ttdeci">float median(float a, float b, float c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00183">math.qh:183</a></div></div>
+<div class="ttc" id="math_8qh_html_a80b0a2e1271dba6f90376de1931afb7f"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a></div><div class="ttdeci">float median(float a, float b, float c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00183">math.qh:183</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -380,7 +380,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../de/dc0/checkbox__slider__invalid_8qc.html">checkbox_slider_invalid.qc</a></li>
-    <li class="footer">Generated on Wed Jul 12 2017 12:10:00 for Xonotic by
+    <li class="footer">Generated on Thu Jul 13 2017 02:29:59 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

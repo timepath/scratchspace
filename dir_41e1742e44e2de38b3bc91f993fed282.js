@@ -59,7 +59,7 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "round_handler.qc", "db/dfc/round__handler_8qc.html", "db/dfc/round__handler_8qc" ],
     [ "round_handler.qh", "db/d20/round__handler_8qh.html", "db/d20/round__handler_8qh" ],
     [ "scores.qc", "d2/d79/scores_8qc.html", "d2/d79/scores_8qc" ],
-    [ "scores.qh", "d3/dcd/scores_8qh.html", "d3/dcd/scores_8qh" ],
+    [ "scores.qh", "d5/dac/server_2scores_8qh.html", "d5/dac/server_2scores_8qh" ],
     [ "scores_rules.qc", "d5/d14/scores__rules_8qc.html", "d5/d14/scores__rules_8qc" ],
     [ "scores_rules.qh", "d6/d4e/scores__rules_8qh.html", "d6/d4e/scores__rules_8qh" ],
     [ "spawnpoints.qc", "d0/d41/spawnpoints_8qc.html", "d0/d41/spawnpoints_8qc" ],

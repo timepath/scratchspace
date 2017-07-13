@@ -35,6 +35,8 @@ var searchData=
   ['mapinfo_5fsettemp_5facl_5fsystem',['MAPINFO_SETTEMP_ACL_SYSTEM',['../d2/d9e/mapinfo_8qh.html#accb514cfc60d2b316dc66862aa6089ee',1,'mapinfo.qh']]],
   ['mapinfo_5fsettemp_5facl_5fuser',['MAPINFO_SETTEMP_ACL_USER',['../d2/d9e/mapinfo_8qh.html#a143ae9a972e236a600ee064e49bd2d75',1,'mapinfo.qh']]],
   ['max_5fipban_5furis',['MAX_IPBAN_URIS',['../d6/d95/ipban_8qc.html#a8e08ee132dee2a6db0915edfdbf0d9ff',1,'ipban.qc']]],
+  ['max_5fscore',['MAX_SCORE',['../da/dc3/common_2scores_8qh.html#aa27bf8c0d78735062b3cf41d2a618b30',1,'scores.qh']]],
+  ['max_5fteamscore',['MAX_TEAMSCORE',['../da/dc3/common_2scores_8qh.html#a0b31ff7434fe27ce6efac51215c64bf6',1,'scores.qh']]],
   ['mean_5faccumulate',['MEAN_ACCUMULATE',['../d0/d79/math_8qh.html#ab174a7f4f00a6dbb7728a2261e39ea75',1,'math.qh']]],
   ['mean_5fdeclare',['MEAN_DECLARE',['../d0/d79/math_8qh.html#a2451f68a55948c105f085b057964046b',1,'math.qh']]],
   ['mean_5fevaluate',['MEAN_EVALUATE',['../d0/d79/math_8qh.html#a909baf136adbe1583e95ad9c3fcb3faa',1,'math.qh']]],
