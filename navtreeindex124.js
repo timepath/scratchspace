@@ -1,5 +1,8 @@
 var NAVTREEINDEX124 =
 {
+"de/d7a/classXonoticHUDScoreDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,192,57],
+"de/d7a/classXonoticHUDScoreDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,192,34],
+"de/d7a/classXonoticHUDScoreDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,192,42],
 "de/d7a/classXonoticHUDScoreDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,192,64],
 "de/d7a/classXonoticHUDScoreDialog.html#a67d95732d49da439095483530aca8804":[1,0,192,53],
 "de/d7a/classXonoticHUDScoreDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,192,76],
@@ -246,8 +249,5 @@ var NAVTREEINDEX124 =
 "de/da3/impulses_2all_8qc.html":[2,0,1,4,2],
 "de/da3/impulses_2all_8qc_source.html":[2,0,1,4,2],
 "de/da5/common_2physics_2movetypes_2__mod_8qh.html":[2,0,1,11,0,1],
-"de/da5/common_2physics_2movetypes_2__mod_8qh_source.html":[2,0,1,11,0,1],
-"de/dab/classObserver.html":[1,0,86],
-"de/dab/classObserver.html#a05eb3183422962148822eee79d9d33e2":[1,0,86,37],
-"de/dab/classObserver.html#a06a738c4cb9a23813f16775a5877dd12":[1,0,86,41]
+"de/da5/common_2physics_2movetypes_2__mod_8qh_source.html":[2,0,1,11,0,1]
 };

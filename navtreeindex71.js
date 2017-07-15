@@ -1,5 +1,8 @@
 var NAVTREEINDEX71 =
 {
+"d8/d0e/client_2mutators_2events_8qh.html#a73b29441aa587047a111602661a4cdf6":[2,0,0,2,3,13],
+"d8/d0e/client_2mutators_2events_8qh.html#a79c78c4cc1c599f059e0e01c80a649c9":[2,0,0,2,3,2],
+"d8/d0e/client_2mutators_2events_8qh.html#a7ebaf4073e32f775a794eb58ee87a31d":[2,0,0,2,3,8],
 "d8/d0e/client_2mutators_2events_8qh.html#a7ec170daca62fad6eb6d6dc1aadb349f":[2,0,0,2,3,16],
 "d8/d0e/client_2mutators_2events_8qh.html#a91d5899fcaad52ff5e457729ead7977d":[2,0,0,2,3,24],
 "d8/d0e/client_2mutators_2events_8qh.html#a92781151132f7412b7c84847ce3d1c17":[2,0,0,2,3,30],
@@ -246,8 +249,5 @@ var NAVTREEINDEX71 =
 "d8/d20/dialog__hudpanel__radar_8qc.html":[2,0,5,4,72],
 "d8/d20/dialog__hudpanel__radar_8qc.html#a32a1d4d223cdafdad821362b59ab6923":[2,0,5,4,72,0],
 "d8/d20/dialog__hudpanel__radar_8qc_source.html":[2,0,5,4,72],
-"d8/d29/playlist_8qc.html":[2,0,5,4,190],
-"d8/d29/playlist_8qc.html#a03a509ab65c4869ad1ba4e4a3a101336":[2,0,5,4,190,20],
-"d8/d29/playlist_8qc.html#a1046db49201e73acc6b6ffc1609d6e9f":[2,0,5,4,190,8],
-"d8/d29/playlist_8qc.html#a1dbedfd230e5c37f9b67aa6903f2180b":[2,0,5,4,190,7]
+"d8/d29/playlist_8qc.html":[2,0,5,4,190]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX35 =
 {
+"d4/d0f/buffs_8qc.html#a7c73e9ee5f2498f85e04b5adaafef6b3":[2,0,1,9,0,2,3,1],
+"d4/d0f/buffs_8qc.html#afd7d0f110617f66bd6efce062d5d16e7":[2,0,1,9,0,2,3,0],
+"d4/d0f/buffs_8qc_source.html":[2,0,1,9,0,2,3],
 "d4/d12/racetimer_8qc.html":[2,0,0,1,0,28],
 "d4/d12/racetimer_8qc.html#ab9a7c1bca2d8d5e98402f03d1997b9ca":[2,0,0,1,0,28,0],
 "d4/d12/racetimer_8qc.html#acf3c4bd6bb979c6b7e14f32742cd71dd":[2,0,0,1,0,28,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX35 =
 "d4/d2e/ttt_8qh_source.html":[2,0,1,6,0,16],
 "d4/d38/rainsnow_8qc.html":[2,0,1,13,0,28],
 "d4/d38/rainsnow_8qc_source.html":[2,0,1,13,0,28],
-"d4/d39/ewheel_8qh.html":[2,0,1,14,0,3],
-"d4/d39/ewheel_8qh.html#a7b39dcf9c53e1d45f9b49e549a95d343":[2,0,1,14,0,3,1],
-"d4/d39/ewheel_8qh_source.html":[2,0,1,14,0,3],
-"d4/d3b/classXonoticBigButton.html":[1,0,141]
+"d4/d39/ewheel_8qh.html":[2,0,1,14,0,3]
 };

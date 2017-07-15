@@ -1,5 +1,8 @@
 var NAVTREEINDEX115 =
 {
+"dd/d7a/serverlist_8qh.html#ae2d71dd18d19d7b2ad6ba6fbdc225f8c":[2,0,5,4,201,10],
+"dd/d7a/serverlist_8qh.html#ae7aa0519062fb8be741ebe2e7f8b56ee":[2,0,5,4,201,9],
+"dd/d7a/serverlist_8qh.html#ae7f8b63c027076cc05ffe6f97f7df152":[2,0,5,4,201,6],
 "dd/d7a/serverlist_8qh.html#ae823cde2518605dbf5e749613f8b4208":[2,0,5,4,201,24],
 "dd/d7a/serverlist_8qh.html#af1122433e550079294c19c28b7ea7053":[2,0,5,4,201,33],
 "dd/d7a/serverlist_8qh.html#af7a5e53d63ef6d768db69490a8ad541a":[2,0,5,4,201,8],
@@ -33,8 +36,8 @@ var NAVTREEINDEX115 =
 "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862":[2,0,1,2,8,2],
 "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840":[2,0,1,2,8,5],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,9],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,10],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,9],
 "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6":[2,0,1,2,8,14],
 "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e":[2,0,1,2,8,16],
 "dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b":[2,0,1,2,8,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX115 =
 "dd/d9a/classXonoticSandboxToolsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,226,49],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,226,54],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,226,29],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,226,19],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,226,22],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,226,13],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,226,61]
+"dd/d9a/classXonoticSandboxToolsDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,226,19]
 };

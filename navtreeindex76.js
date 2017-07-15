@@ -1,5 +1,8 @@
 var NAVTREEINDEX76 =
 {
+"d8/dc1/sv__monsters_8qh.html#a14003dc713ba221ddab6bdbbc785abfa":[2,0,1,8,7,33],
+"d8/dc1/sv__monsters_8qh.html#a170809cf3435df92a29373db1d660682":[2,0,1,8,7,37],
+"d8/dc1/sv__monsters_8qh.html#a1d734f67571d6c89c8f175c941f2ae9a":[2,0,1,8,7,21],
 "d8/dc1/sv__monsters_8qh.html#a1e264a94238b71678a588bef93292d8a":[2,0,1,8,7,12],
 "d8/dc1/sv__monsters_8qh.html#a1f414c0969b6c1295fe5532e26907520":[2,0,1,8,7,61],
 "d8/dc1/sv__monsters_8qh.html#a287fcf4b75e1081ea18d19728d01306d":[2,0,1,8,7,29],
@@ -246,8 +249,5 @@ var NAVTREEINDEX76 =
 "d8/de1/gamemode__keyhunt_8qh.html#a531e55e732864eae875e27be2261f406":[2,0,6,3,0,21,3],
 "d8/de1/gamemode__keyhunt_8qh.html#a55c2264ad3258574bb9112acc1453c69":[2,0,6,3,0,21,10],
 "d8/de1/gamemode__keyhunt_8qh.html#a63927129b40fcc3e1664b7cf9fb7480d":[2,0,6,3,0,21,8],
-"d8/de1/gamemode__keyhunt_8qh.html#a9c7fe8777db5311111214e415999eb42":[2,0,6,3,0,21,6],
-"d8/de1/gamemode__keyhunt_8qh.html#aa5133eefef59c4cbe046575fa6ad9e05":[2,0,6,3,0,21,0],
-"d8/de1/gamemode__keyhunt_8qh.html#aac9fba35b1682c6c203245cd8bb4b840":[2,0,6,3,0,21,1],
-"d8/de1/gamemode__keyhunt_8qh.html#ab5aa34fabae7071003592233558cc9fc":[2,0,6,3,0,21,7]
+"d8/de1/gamemode__keyhunt_8qh.html#a9c7fe8777db5311111214e415999eb42":[2,0,6,3,0,21,6]
 };

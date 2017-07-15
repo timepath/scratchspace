@@ -1,5 +1,8 @@
 var NAVTREEINDEX23 =
 {
+"d3/d07/scoreboard_8qc.html#aa3df8ec29f084a228e11bfbfd0ca8b17":[2,0,0,1,0,34,64],
+"d3/d07/scoreboard_8qc.html#aaa5eb41e22d77cd3026131224c82308b":[2,0,0,1,0,34,59],
+"d3/d07/scoreboard_8qc.html#aaf5cd5494661624974d09657b6428ff2":[2,0,0,1,0,34,77],
 "d3/d07/scoreboard_8qc.html#aaf870062442b80e096e897517f9b9d5b":[2,0,0,1,0,34,58],
 "d3/d07/scoreboard_8qc.html#ab68d3f55b27c12a82760019c80aef931":[2,0,0,1,0,34,6],
 "d3/d07/scoreboard_8qc.html#ab6d526f8ff9979fe8a64d1b5b3494b5d":[2,0,0,1,0,34,37],
@@ -246,8 +249,5 @@ var NAVTREEINDEX23 =
 "d3/d2f/mlrs_8qh.html#a31f0c3fe6458a1d1998ac67de3637d83":[2,0,1,14,0,25,1],
 "d3/d2f/mlrs_8qh_source.html":[2,0,1,14,0,25],
 "d3/d34/monsters_2all_8qc.html":[2,0,1,8,3],
-"d3/d34/monsters_2all_8qc.html#ac66047740ae2b6d154a084851aa85def":[2,0,1,8,3,0],
-"d3/d34/monsters_2all_8qc_source.html":[2,0,1,8,3],
-"d3/d3d/shockwave_8qc.html":[2,0,1,16,0,32],
-"d3/d3d/shockwave_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,32,1]
+"d3/d34/monsters_2all_8qc.html#ac66047740ae2b6d154a084851aa85def":[2,0,1,8,3,0]
 };

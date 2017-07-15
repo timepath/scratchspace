@@ -1,5 +1,8 @@
 var NAVTREEINDEX49 =
 {
+"d5/da7/dialog__hudpanel__chat_8qc_source.html":[2,0,5,4,48],
+"d5/daa/vortex_8qh.html":[2,0,1,16,0,41],
+"d5/daa/vortex_8qh_source.html":[2,0,1,16,0,41],
 "d5/dab/dialog__settings__game_8qh.html":[2,0,5,4,125],
 "d5/dab/dialog__settings__game_8qh_source.html":[2,0,5,4,125],
 "d5/dac/g__damage_8qc.html":[2,0,6,23],
@@ -246,8 +249,5 @@ var NAVTREEINDEX49 =
 "d5/df2/common_2util_8qh.html#a07522416f082b9750e89c4adfc7c290a":[2,0,1,49,67],
 "d5/df2/common_2util_8qh.html#a0ae7eb2c590ab7061aeb7631e45534ae":[2,0,1,49,12],
 "d5/df2/common_2util_8qh.html#a0c6829767aa2400e49284b242c194d95":[2,0,1,49,32],
-"d5/df2/common_2util_8qh.html#a1371630f3443945a1ff175145d2012f3":[2,0,1,49,25],
-"d5/df2/common_2util_8qh.html#a13c26cd88e3905c0852467115ff159cb":[2,0,1,49,48],
-"d5/df2/common_2util_8qh.html#a154ba8224ee5f36a7e74adc8e625df72":[2,0,1,49,36],
-"d5/df2/common_2util_8qh.html#a1947b4b6a690f32caa5364746c7526c6":[2,0,1,49,24]
+"d5/df2/common_2util_8qh.html#a1371630f3443945a1ff175145d2012f3":[2,0,1,49,25]
 };

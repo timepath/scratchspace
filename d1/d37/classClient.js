@@ -50,6 +50,7 @@ var classClient =
     [ "muted", "d1/d37/classClient.html#a5ffe68e3b3028b5b83443e5e5b51925f", null ],
     [ "netaddress", "d1/d37/classClient.html#ac7d2f552e4ce0768198744f31d7deb25", null ],
     [ "netname", "d1/d37/classClient.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012", null ],
+    [ "netname_previous", "d1/d37/classClient.html#a87dd242cb415c621d20cf1b78fedf03a", null ],
     [ "parm_idlesince", "d1/d37/classClient.html#a5b0429fb2f0c1af31a45b9f112661422", null ],
     [ "ping", "d1/d37/classClient.html#ace18b604421562c72fe3df70bf8f5a35", null ],
     [ "ping_movementloss", "d1/d37/classClient.html#a5905339aa331ed25695eabf2b2f632b5", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX126 =
 {
+"de/de7/classXonoticHUDItemsTimeDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,183,71],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a19f4c0331f6d07b15792efc7fd5fa49d":[1,0,183,87],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,183,70],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,183,7],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,183,72],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,183,4],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,183,43],
@@ -245,9 +249,5 @@ var NAVTREEINDEX126 =
 "df/d26/classXonoticGameSettingsTab.html#a04b784f800393e25c7be5e89c6f9c04d":[1,0,171,57],
 "df/d26/classXonoticGameSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,171,11],
 "df/d26/classXonoticGameSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,171,4],
-"df/d26/classXonoticGameSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,171,82],
-"df/d26/classXonoticGameSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,171,89],
-"df/d26/classXonoticGameSettingsTab.html#a0d96e89f7233de42b6cf100f08608c64":[1,0,171,64],
-"df/d26/classXonoticGameSettingsTab.html#a10161f51c34ce419cd9cb6c511e1109f":[1,0,171,96],
-"df/d26/classXonoticGameSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,171,86]
+"df/d26/classXonoticGameSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,171,82]
 };

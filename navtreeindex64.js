@@ -1,5 +1,8 @@
 var NAVTREEINDEX64 =
 {
+"d7/da2/cl__player_8qc.html#af320b099359fca4da8551e1c8cbda5cc":[2,0,4,0,4,20],
+"d7/da2/cl__player_8qc_source.html":[2,0,4,0,4],
+"d7/da3/server_2weapons_2__mod_8qh.html":[2,0,6,5,1],
 "d7/da3/server_2weapons_2__mod_8qh_source.html":[2,0,6,5,1],
 "d7/da4/classXonoticDemoList.html":[1,0,161],
 "d7/da4/classXonoticDemoList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,161,45],
@@ -246,8 +249,5 @@ var NAVTREEINDEX64 =
 "d7/da7/server_2autocvars_8qh.html#a48a318f3b11a7634a981749a9debeae6":[2,0,6,14,258],
 "d7/da7/server_2autocvars_8qh.html#a496b46a3b10753a5fc395e877c05dd7d":[2,0,6,14,344],
 "d7/da7/server_2autocvars_8qh.html#a499751ffce5564b6c2c2e0e703ed0cc3":[2,0,6,14,486],
-"d7/da7/server_2autocvars_8qh.html#a4a163c4cb8b7125a82f9f16a3d1acab4":[2,0,6,14,119],
-"d7/da7/server_2autocvars_8qh.html#a4a39007bf3e3aa6c4ac681a404010c0d":[2,0,6,14,55],
-"d7/da7/server_2autocvars_8qh.html#a4b662e77af745643d7d12a3208b4f4b7":[2,0,6,14,334],
-"d7/da7/server_2autocvars_8qh.html#a4bc577692a6c3340e87878b8f72eac27":[2,0,6,14,199]
+"d7/da7/server_2autocvars_8qh.html#a4a163c4cb8b7125a82f9f16a3d1acab4":[2,0,6,14,119]
 };
