@@ -1,5 +1,14 @@
 var NAVTREEINDEX27 =
 {
+"d3/d73/gamemode__ctf_8qc.html#ac58be9a61255496708a5d7c5e444faf6":[2,0,6,3,0,6,63],
+"d3/d73/gamemode__ctf_8qc.html#ac8266d4401e65258b5ad713b79912b05":[2,0,6,3,0,6,11],
+"d3/d73/gamemode__ctf_8qc.html#ac9258812ce2c42a897a46b3352c40b80":[2,0,6,3,0,6,69],
+"d3/d73/gamemode__ctf_8qc.html#ac93b3512434b6ecf078b4c2ebdb71122":[2,0,6,3,0,6,15],
+"d3/d73/gamemode__ctf_8qc.html#ac9af78eec03d51dd3db901b6ddea5326":[2,0,6,3,0,6,44],
+"d3/d73/gamemode__ctf_8qc.html#acc3c70af8e816b0da2e3429c1a26d5de":[2,0,6,3,0,6,99],
+"d3/d73/gamemode__ctf_8qc.html#acc6da97a3395c239d273fcac0d1f6860":[2,0,6,3,0,6,42],
+"d3/d73/gamemode__ctf_8qc.html#ad172da3a68520139c9f19ae947302039":[2,0,6,3,0,6,170],
+"d3/d73/gamemode__ctf_8qc.html#ad25a4c3adb77bc10b56f43000ede7b9a":[2,0,6,3,0,6,10],
 "d3/d73/gamemode__ctf_8qc.html#ad415df2c3aac3e0596b133c3654d18eb":[2,0,6,3,0,6,83],
 "d3/d73/gamemode__ctf_8qc.html#ad424d71334b5e8b02e1bda1a82718d7f":[2,0,6,3,0,6,132],
 "d3/d73/gamemode__ctf_8qc.html#ad57a66696ffcccefbcb985fcaa04ad42":[2,0,6,3,0,6,75],
@@ -240,14 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d86/classXonoticMapList.html#adbc65a2089ef3278a098c80685b4b8a3":[1,0,205,66],
 "d3/d86/classXonoticMapList.html#adcc3f16a58c00a21f33f2ad2fbe1ccd4":[1,0,205,39],
 "d3/d86/classXonoticMapList.html#ade3f55317170e22675d35eeb76fd56c3":[1,0,205,40],
-"d3/d86/classXonoticMapList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,205,44],
-"d3/d86/classXonoticMapList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,205,94],
-"d3/d86/classXonoticMapList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,205,49],
-"d3/d86/classXonoticMapList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,205,24],
-"d3/d86/classXonoticMapList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,205,76],
-"d3/d86/classXonoticMapList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,205,43],
-"d3/d86/classXonoticMapList.html#aed05f75651928be9263a2073856f33cd":[1,0,205,89],
-"d3/d86/classXonoticMapList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,205,10],
-"d3/d86/classXonoticMapList.html#af3b8f1fe69ad4a262d0f669b9b43d0bb":[1,0,205,52],
-"d3/d86/classXonoticMapList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,205,41]
+"d3/d86/classXonoticMapList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,205,44]
 };

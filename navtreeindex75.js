@@ -1,5 +1,14 @@
 var NAVTREEINDEX75 =
 {
+"d8/da8/classXonoticServerCreateTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,232,31],
+"d8/da8/classXonoticServerCreateTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,232,61],
+"d8/da8/classXonoticServerCreateTab.html#a2c0ed87871e549ba71839bff4f0f086c":[1,0,232,78],
+"d8/da8/classXonoticServerCreateTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,232,41],
+"d8/da8/classXonoticServerCreateTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,232,29],
+"d8/da8/classXonoticServerCreateTab.html#a331c55a30b4bc22951a251062508326b":[1,0,232,32],
+"d8/da8/classXonoticServerCreateTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,232,23],
+"d8/da8/classXonoticServerCreateTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,232,42],
+"d8/da8/classXonoticServerCreateTab.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,232,14],
 "d8/da8/classXonoticServerCreateTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,232,58],
 "d8/da8/classXonoticServerCreateTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,232,1],
 "d8/da8/classXonoticServerCreateTab.html#a42e2f2be6e05ef55ff9099fec6093d1e":[1,0,232,10],
@@ -240,14 +249,5 @@ var NAVTREEINDEX75 =
 "d8/dc0/progsdefs_8qh.html#ad02dc23b282606a7fe0a74a2f224d1ef":[2,0,2,7,8],
 "d8/dc0/progsdefs_8qh.html#ad1375a6b9575aee6d276789f76ed0074":[2,0,2,7,2],
 "d8/dc0/progsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c":[2,0,2,7,7],
-"d8/dc0/progsdefs_8qh_source.html":[2,0,2,7],
-"d8/dc1/sv__monsters_8qh.html":[2,0,1,8,7],
-"d8/dc1/sv__monsters_8qh.html#a000ed2fec9b3f8c688680f7c2493be27":[2,0,1,8,7,22],
-"d8/dc1/sv__monsters_8qh.html#a00f7225b4726715e1bf03d67aae9e1b1":[2,0,1,8,7,1],
-"d8/dc1/sv__monsters_8qh.html#a02392817143d930560b42e013b015d12":[2,0,1,8,7,47],
-"d8/dc1/sv__monsters_8qh.html#a02694937ddf3dc6935c9ac7db73a7668":[2,0,1,8,7,5],
-"d8/dc1/sv__monsters_8qh.html#a037cce37ed3ddce0d13829cabb6216ca":[2,0,1,8,7,9],
-"d8/dc1/sv__monsters_8qh.html#a06c45626bd5b1f16f1a6f66d7d7a3cad":[2,0,1,8,7,2],
-"d8/dc1/sv__monsters_8qh.html#a10ca618a2194c7dd0b8e722730859c14":[2,0,1,8,7,10],
-"d8/dc1/sv__monsters_8qh.html#a13c832506cac26065a468274572e4e37":[2,0,1,8,7,0]
+"d8/dc0/progsdefs_8qh_source.html":[2,0,2,7]
 };

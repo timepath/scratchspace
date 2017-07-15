@@ -32,7 +32,7 @@ var searchData=
   ['target_5fvalidate_5fflags',['target_validate_flags',['../d9/d67/turret_8qh.html#a2a823d874940c900d6e05f19d269e8c3',1,'turret.qh']]],
   ['target_5fvalidate_5ftime',['target_validate_time',['../df/d28/sv__turrets_8qh.html#a16df72fa969045d31c5140be979fc387',1,'sv_turrets.qh']]],
   ['targetname',['targetname',['../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511',1,'progsdefs.qc']]],
-  ['taunt_5fsoundtime',['taunt_soundtime',['../dd/de4/g__damage_8qh.html#a06cd718b9ac0e28276f5f1b932fc96c5',1,'g_damage.qh']]],
+  ['taunt_5fsoundtime',['taunt_soundtime',['../d1/d37/classClient.html#a9bbd350ba715f5cfec4ea084e87381e8',1,'Client::taunt_soundtime()'],['../dd/de4/g__damage_8qh.html#a06cd718b9ac0e28276f5f1b932fc96c5',1,'taunt_soundtime():&#160;g_damage.qh']]],
   ['te_5fblood',['TE_BLOOD',['../de/d5e/dpextensions_8qc.html#a7701d01a399c9cf297ebcdcbe85c5803',1,'dpextensions.qc']]],
   ['te_5fexplosion',['TE_EXPLOSION',['../d4/d92/csqc__constants_8qh.html#af341cbf51691d0dac40d2106fe4b1848',1,'TE_EXPLOSION():&#160;csqc_constants.qh'],['../d4/d0c/csprogsdefs_8qc.html#a5f308cb0fe732b1073f59586df5edcb8',1,'TE_EXPLOSION():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#aff6a7143a006cd967641b71aa606b881',1,'TE_EXPLOSION():&#160;progsdefs.qc']]],
   ['te_5fexplosion2',['TE_EXPLOSION2',['../d4/d92/csqc__constants_8qh.html#a78b4aad48bd91a240cf2790645b08aae',1,'TE_EXPLOSION2():&#160;csqc_constants.qh'],['../d4/d0c/csprogsdefs_8qc.html#a0df264badc6370899eb1072fb5fe8150',1,'TE_EXPLOSION2():&#160;csprogsdefs.qc']]],

@@ -1,5 +1,14 @@
 var NAVTREEINDEX59 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#a81fd9b86698cd59c3265ec9888804e0b":[2,0,6,3,3,40],
+"d6/ddd/server_2mutators_2events_8qh.html#a82af11bb2e9232f2bdc31eac54b5ef0f":[2,0,6,3,3,138],
+"d6/ddd/server_2mutators_2events_8qh.html#a82ff6bfe2a2678f997c01acacff44bc2":[2,0,6,3,3,46],
+"d6/ddd/server_2mutators_2events_8qh.html#a837927ac30e06ef04d57e04353dc05ac":[2,0,6,3,3,75],
+"d6/ddd/server_2mutators_2events_8qh.html#a8555d1fb5cd1d669bb2ed97356e44f86":[2,0,6,3,3,60],
+"d6/ddd/server_2mutators_2events_8qh.html#a85ec81e0db3a0748cf2efc5666565d00":[2,0,6,3,3,203],
+"d6/ddd/server_2mutators_2events_8qh.html#a8781ab354ccdd744fe23a5a4456ff603":[2,0,6,3,3,14],
+"d6/ddd/server_2mutators_2events_8qh.html#a89d182ab5c56c5887f17de09a4798381":[2,0,6,3,3,124],
+"d6/ddd/server_2mutators_2events_8qh.html#a8afdc35073e858a487bf86dc131282b3":[2,0,6,3,3,96],
 "d6/ddd/server_2mutators_2events_8qh.html#a8b187cf36085c0900515fe6b766a566e":[2,0,6,3,3,237],
 "d6/ddd/server_2mutators_2events_8qh.html#a8d93b872c3b0f1e001c13e7549a3faa2":[2,0,6,3,3,86],
 "d6/ddd/server_2mutators_2events_8qh.html#a8ff5cb98cb85c48739131fc3f758d3cc":[2,0,6,3,3,48],
@@ -240,14 +249,5 @@ var NAVTREEINDEX59 =
 "d6/dfa/dialog__hudpanel__healtharmor_8qh_source.html":[2,0,5,4,53],
 "d7/d01/menu_2xonotic_2campaign_8qh.html":[2,0,5,4,9],
 "d7/d01/menu_2xonotic_2campaign_8qh.html#a1e5782e41ac51960575f7ee5fa22747d":[2,0,5,4,9,4],
-"d7/d01/menu_2xonotic_2campaign_8qh.html#a5656ccb784859a99e35de72266fb310f":[2,0,5,4,9,3],
-"d7/d01/menu_2xonotic_2campaign_8qh.html#a6d210ab47685a234c7fdc6663fd12972":[2,0,5,4,9,1],
-"d7/d01/menu_2xonotic_2campaign_8qh.html#a9ec6d55fc46ebb4594ada64b3948016e":[2,0,5,4,9,2],
-"d7/d01/menu_2xonotic_2campaign_8qh_source.html":[2,0,5,4,9],
-"d7/d04/server_2mutators_2__mod_8qh.html":[2,0,6,3,2],
-"d7/d04/server_2mutators_2__mod_8qh_source.html":[2,0,6,3,2],
-"d7/d06/interpolate_8qc.html":[2,0,4,0,7],
-"d7/d06/interpolate_8qc.html#a22c013427346fc4904dc5c3efdf27c22":[2,0,4,0,7,5],
-"d7/d06/interpolate_8qc.html#a22d836daf62f0b0326d0999b330adb96":[2,0,4,0,7,8],
-"d7/d06/interpolate_8qc.html#a2816f0759d40053a51d0938d1a98af57":[2,0,4,0,7,17]
+"d7/d01/menu_2xonotic_2campaign_8qh.html#a5656ccb784859a99e35de72266fb310f":[2,0,5,4,9,3]
 };

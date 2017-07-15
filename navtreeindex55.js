@@ -1,5 +1,14 @@
 var NAVTREEINDEX55 =
 {
+"d6/d79/classXonoticHUDWeaponsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,196,11],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,196,40],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,196,3],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,196,84],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,196,82],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,196,48],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,196,26],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,196,17],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,196,74],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,196,71],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a1bf5967ac5ae19f3ffeefe07759c4fe5":[1,0,196,87],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,196,70],
@@ -240,14 +249,5 @@ var NAVTREEINDEX55 =
 "d6/d96/classRaceCTS.html#a5626374345176757fae169da0ab1cb1f":[1,0,101,14],
 "d6/d96/classRaceCTS.html#a7880c3511ceeabb277b860085f1073ee":[1,0,101,11],
 "d6/d96/classRaceCTS.html#a87258d972a8b677bc431c763afd6e0fb":[1,0,101,13],
-"d6/d96/classRaceCTS.html#ab012546589284a9f8f556527fbfb3a8f":[1,0,101,10],
-"d6/d96/classRaceCTS.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,101,2],
-"d6/d96/classRaceCTS.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,101,15],
-"d6/d96/classRaceCTS.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,101,4],
-"d6/d96/classRaceCTS.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,101,3],
-"d6/d96/classRaceCTS.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,101,17],
-"d6/d96/classRaceCTS.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,101,6],
-"d6/d96/classRaceCTS.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,101,7],
-"d6/d96/classRaceCTS.html#aef3a65f4987590d66b653b91180860ca":[1,0,101,9],
-"d6/d96/classRaceCTS.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,101,5]
+"d6/d96/classRaceCTS.html#ab012546589284a9f8f556527fbfb3a8f":[1,0,101,10]
 };

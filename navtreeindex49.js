@@ -1,5 +1,14 @@
 var NAVTREEINDEX49 =
 {
+"d5/da6/sv__dodging_8qc.html#ad5ea939db5dd65a8598ada1a57bbf848":[2,0,1,9,0,7,2,23],
+"d5/da6/sv__dodging_8qc.html#add534eb5c5bef98855d46c4032d2bc19":[2,0,1,9,0,7,2,19],
+"d5/da6/sv__dodging_8qc.html#ae2fe3c4e71bac00221ee1de977cfe923":[2,0,1,9,0,7,2,3],
+"d5/da6/sv__dodging_8qc.html#ae41649aa3125a05e563e17acae13d4a6":[2,0,1,9,0,7,2,18],
+"d5/da6/sv__dodging_8qc.html#ae46243731ae5eb39da3425287dd7a0ad":[2,0,1,9,0,7,2,10],
+"d5/da6/sv__dodging_8qc.html#af6d6fa4416121bc98d6a4b404cfb5358":[2,0,1,9,0,7,2,24],
+"d5/da6/sv__dodging_8qc_source.html":[2,0,1,9,0,7,2],
+"d5/da7/dialog__hudpanel__chat_8qc.html":[2,0,5,4,48],
+"d5/da7/dialog__hudpanel__chat_8qc.html#a97bba5cf1e62015d82292c0d6efccf42":[2,0,5,4,48,0],
 "d5/da7/dialog__hudpanel__chat_8qc_source.html":[2,0,5,4,48],
 "d5/daa/vortex_8qh.html":[2,0,1,16,0,41],
 "d5/daa/vortex_8qh_source.html":[2,0,1,16,0,41],
@@ -240,14 +249,5 @@ var NAVTREEINDEX49 =
 "d5/df0/classArmor.html#aaca9d5c571d73c2274a3356ef2fcdc53":[1,0,4,8],
 "d5/df0/classArmor.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,4,4],
 "d5/df0/classArmor.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,4,11],
-"d5/df1/breakable_8qc.html":[2,0,1,13,0,4],
-"d5/df1/breakable_8qc_source.html":[2,0,1,13,0,4],
-"d5/df1/common_2mutators_2mutator_2bloodloss_2__mod_8inc.html":[2,0,1,9,0,0,0],
-"d5/df1/common_2mutators_2mutator_2bloodloss_2__mod_8inc_source.html":[2,0,1,9,0,0,0],
-"d5/df2/common_2util_8qh.html":[2,0,1,49],
-"d5/df2/common_2util_8qh.html#a041755b4c9197bc68894879f12a3b400":[2,0,1,49,27],
-"d5/df2/common_2util_8qh.html#a07522416f082b9750e89c4adfc7c290a":[2,0,1,49,67],
-"d5/df2/common_2util_8qh.html#a0ae7eb2c590ab7061aeb7631e45534ae":[2,0,1,49,12],
-"d5/df2/common_2util_8qh.html#a0c6829767aa2400e49284b242c194d95":[2,0,1,49,32],
-"d5/df2/common_2util_8qh.html#a1371630f3443945a1ff175145d2012f3":[2,0,1,49,25]
+"d5/df1/breakable_8qc.html":[2,0,1,13,0,4]
 };

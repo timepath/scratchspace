@@ -1,5 +1,14 @@
 var NAVTREEINDEX48 =
 {
+"d5/d83/client_2hud_2panel_2physics_8qc.html#af1d50e259bfcbaf2f70962f36e329c80":[2,0,0,1,0,20,2],
+"d5/d83/client_2hud_2panel_2physics_8qc.html#aff236076c7660afb640531dfc9029527":[2,0,0,1,0,20,4],
+"d5/d83/client_2hud_2panel_2physics_8qc_source.html":[2,0,0,1,0,20],
+"d5/d8c/view_8qh.html":[2,0,0,31],
+"d5/d8c/view_8qh.html#ae12e2fa9f814f4f88da1d5259fd4721f":[2,0,0,31,0],
+"d5/d8c/view_8qh.html#ae4043ba4831a9d580ebfc05793928b53":[2,0,0,31,1],
+"d5/d8c/view_8qh_source.html":[2,0,0,31],
+"d5/d8d/dialog__hudpanel__centerprint_8qc.html":[2,0,5,4,46],
+"d5/d8d/dialog__hudpanel__centerprint_8qc.html#a317ec7741f97dd7c349a91202ee93756":[2,0,5,4,46,0],
 "d5/d8d/dialog__hudpanel__centerprint_8qc_source.html":[2,0,5,4,46],
 "d5/d8e/container_8qh.html":[2,0,5,2,9],
 "d5/d8e/container_8qh.html#a1b051b2ab8116af77c757eb6139bf646":[2,0,5,2,9,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX48 =
 "d5/da6/sv__dodging_8qc.html#ab699c1967674ab3cfdde1f0f0e9fd217":[2,0,1,9,0,7,2,2],
 "d5/da6/sv__dodging_8qc.html#ab9f600a3f16315bcbeca77bc491bbeee":[2,0,1,9,0,7,2,20],
 "d5/da6/sv__dodging_8qc.html#abbbb0affc8ab2477c4d3c906dce57da0":[2,0,1,9,0,7,2,27],
-"d5/da6/sv__dodging_8qc.html#ac1eb9810c9ce04bedc9d02326ca375b9":[2,0,1,9,0,7,2,15],
-"d5/da6/sv__dodging_8qc.html#ad5ea939db5dd65a8598ada1a57bbf848":[2,0,1,9,0,7,2,23],
-"d5/da6/sv__dodging_8qc.html#add534eb5c5bef98855d46c4032d2bc19":[2,0,1,9,0,7,2,19],
-"d5/da6/sv__dodging_8qc.html#ae2fe3c4e71bac00221ee1de977cfe923":[2,0,1,9,0,7,2,3],
-"d5/da6/sv__dodging_8qc.html#ae41649aa3125a05e563e17acae13d4a6":[2,0,1,9,0,7,2,18],
-"d5/da6/sv__dodging_8qc.html#ae46243731ae5eb39da3425287dd7a0ad":[2,0,1,9,0,7,2,10],
-"d5/da6/sv__dodging_8qc.html#af6d6fa4416121bc98d6a4b404cfb5358":[2,0,1,9,0,7,2,24],
-"d5/da6/sv__dodging_8qc_source.html":[2,0,1,9,0,7,2],
-"d5/da7/dialog__hudpanel__chat_8qc.html":[2,0,5,4,48],
-"d5/da7/dialog__hudpanel__chat_8qc.html#a97bba5cf1e62015d82292c0d6efccf42":[2,0,5,4,48,0]
+"d5/da6/sv__dodging_8qc.html#ac1eb9810c9ce04bedc9d02326ca375b9":[2,0,1,9,0,7,2,15]
 };

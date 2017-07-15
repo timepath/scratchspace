@@ -1,5 +1,14 @@
 var NAVTREEINDEX40 =
 {
+"d4/d90/skin-customizables_8inc.html#ad54077aa71f355e5320e748b080b1b08":[2,0,5,20,110],
+"d4/d90/skin-customizables_8inc.html#ad7a96349490024259a492283fbd1b25e":[2,0,5,20,5],
+"d4/d90/skin-customizables_8inc.html#ad8fdc73a1916aeb6859d6447c0034e44":[2,0,5,20,43],
+"d4/d90/skin-customizables_8inc.html#ad921d925c498329ff5085f9883385170":[2,0,5,20,57],
+"d4/d90/skin-customizables_8inc.html#ad9eb65eac98cef5e712160bbc35614ea":[2,0,5,20,6],
+"d4/d90/skin-customizables_8inc.html#adde6d08d92ac97e29954312d3d9b5b85":[2,0,5,20,140],
+"d4/d90/skin-customizables_8inc.html#ae24388de01dfb5075f8f99a5d6d81227":[2,0,5,20,99],
+"d4/d90/skin-customizables_8inc.html#ae384e8a8bc174c28980d592539f80a09":[2,0,5,20,67],
+"d4/d90/skin-customizables_8inc.html#ae38fa993de44e3c61f06ebefd744c1c7":[2,0,5,20,16],
 "d4/d90/skin-customizables_8inc.html#ae43a0d4dd61e828da9b41a5743fe42f7":[2,0,5,20,60],
 "d4/d90/skin-customizables_8inc.html#ae83c3a5d031bba394651e8e7a49446fe":[2,0,5,20,116],
 "d4/d90/skin-customizables_8inc.html#aedd413f93d646fdfb46fbf412afc453c":[2,0,5,20,128],
@@ -240,14 +249,5 @@ var NAVTREEINDEX40 =
 "d4/d93/classPickup.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,92,5],
 "d4/d93/classPickup.html#a727d6f42f79f0bd5ffc674423645471c":[1,0,92,2],
 "d4/d93/classPickup.html#a7357a3badf480bbfe18c110d15cbd2f8":[1,0,92,6],
-"d4/d93/classPickup.html#a7d7a1817ddfcece5aa3e23c939a0097e":[1,0,92,9],
-"d4/d93/classPickup.html#a7d8cf6b7a18644fba549fe489903901d":[1,0,92,3],
-"d4/d93/classPickup.html#a95e7f0cf091386e07ce2add2ab653934":[1,0,92,7],
-"d4/d93/classPickup.html#aaca9d5c571d73c2274a3356ef2fcdc53":[1,0,92,8],
-"d4/d93/classPickup.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,92,4],
-"d4/d93/classPickup.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,92,11],
-"d4/d94/classXonoticHUDVoteDialog.html":[1,0,195],
-"d4/d94/classXonoticHUDVoteDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,195,32],
-"d4/d94/classXonoticHUDVoteDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,195,11],
-"d4/d94/classXonoticHUDVoteDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,195,40]
+"d4/d93/classPickup.html#a7d7a1817ddfcece5aa3e23c939a0097e":[1,0,92,9]
 };

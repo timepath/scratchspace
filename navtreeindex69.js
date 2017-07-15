@@ -1,5 +1,14 @@
 var NAVTREEINDEX69 =
 {
+"d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5":[2,0,6,0,0,13,23],
+"d7/dc4/waypoints_8qc.html#a7caa23c12bbb5f161ff6104a3fb429d2":[2,0,6,0,0,13,20],
+"d7/dc4/waypoints_8qc.html#a8767ac6530ddf16a3a7e333a3ad20772":[2,0,6,0,0,13,11],
+"d7/dc4/waypoints_8qc.html#a8bcfafa22e1b3188f0b1f9c1399af552":[2,0,6,0,0,13,16],
+"d7/dc4/waypoints_8qc.html#aa55ccbdd4ea726931abd20dc2144e3ba":[2,0,6,0,0,13,18],
+"d7/dc4/waypoints_8qc.html#aab164ee392b5c403e32390e58807707f":[2,0,6,0,0,13,33],
+"d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb":[2,0,6,0,0,13,27],
+"d7/dc4/waypoints_8qc.html#ab425a543c58fb2e6f5ab441d30f5cd7c":[2,0,6,0,0,13,14],
+"d7/dc4/waypoints_8qc.html#abb264e1745062ac2ad6d46a0b8c5e6c9":[2,0,6,0,0,13,25],
 "d7/dc4/waypoints_8qc.html#ac217d7e6b34b0f6adddf1587c17016ec":[2,0,6,0,0,13,19],
 "d7/dc4/waypoints_8qc.html#ac66bb8eae7635c12297283fe2e4a6aa2":[2,0,6,0,0,13,30],
 "d7/dc4/waypoints_8qc.html#ac764e32c571128b0b58a9a10cb3ef9d1":[2,0,6,0,0,13,7],
@@ -240,14 +249,5 @@ var NAVTREEINDEX69 =
 "d7/de6/classXonoticSkinList.html#ab284d6fe9ecb71e82cb5b727bfc0c41b":[1,0,238,25],
 "d7/de6/classXonoticSkinList.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,238,75],
 "d7/de6/classXonoticSkinList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,238,80],
-"d7/de6/classXonoticSkinList.html#abd773e0ddb7941888adf616b4fe1aa82":[1,0,238,76],
-"d7/de6/classXonoticSkinList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,238,70],
-"d7/de6/classXonoticSkinList.html#ac6094922668d013ada3893854eec6b0f":[1,0,238,23],
-"d7/de6/classXonoticSkinList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,238,66],
-"d7/de6/classXonoticSkinList.html#ac8277af9dfb8675e22addcf7d7e6cde3":[1,0,238,78],
-"d7/de6/classXonoticSkinList.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,238,18],
-"d7/de6/classXonoticSkinList.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,238,41],
-"d7/de6/classXonoticSkinList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,238,46],
-"d7/de6/classXonoticSkinList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,238,55],
-"d7/de6/classXonoticSkinList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,238,82]
+"d7/de6/classXonoticSkinList.html#abd773e0ddb7941888adf616b4fe1aa82":[1,0,238,76]
 };

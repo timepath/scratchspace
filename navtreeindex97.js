@@ -1,5 +1,15 @@
 var NAVTREEINDEX97 =
 {
+"db/d4a/classHook.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,49,3],
+"db/d4a/classHook.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,49,36],
+"db/d4a/classHook.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,49,22],
+"db/d4a/classHook.html#ae4df56cc15b996e29b940bbfb71d3059":[1,0,49,38],
+"db/d4a/classHook.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,49,17],
+"db/d52/server_2__mod_8qh.html":[2,0,6,9],
+"db/d52/server_2__mod_8qh_source.html":[2,0,6,9],
+"db/d53/viewloc_8qh.html":[2,0,1,51],
+"db/d53/viewloc_8qh.html#ad4224551c2b606237629fa6bd79384d8":[2,0,1,51,0],
+"db/d53/viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb":[2,0,1,51,1],
 "db/d53/viewloc_8qh_source.html":[2,0,1,51],
 "db/d55/campaign__file_8qc.html":[2,0,1,25],
 "db/d55/campaign__file_8qc.html#a2789a2c7d2797bd93c891b4e476cf4f8":[2,0,1,25,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX97 =
 "db/d5b/classXonoticGameMessageSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,169,55],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,169,33],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,169,39],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,169,47],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,169,59],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,169,90],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,169,22],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,169,66],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,169,58],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,169,23],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,169,19],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,169,84],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,169,10],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,169,68]
+"db/d5b/classXonoticGameMessageSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,169,47]
 };
