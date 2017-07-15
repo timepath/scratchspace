@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"d1/d5b/classRadioButton.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,104,9],
+"d1/d5b/classRadioButton.html#aba5218808d64a676ca69b4f43d6f523b":[1,0,104,36],
 "d1/d5b/classRadioButton.html#ac0774bb98ca7dbc457a3028e9514c549":[1,0,104,51],
 "d1/d5b/classRadioButton.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,104,1],
 "d1/d5b/classRadioButton.html#ac6094922668d013ada3893854eec6b0f":[1,0,104,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "d1/d74/quake2_8qc.html#ab7c1e0594cff327d237b62819fb16861":[2,0,6,2,6,1],
 "d1/d74/quake2_8qc_source.html":[2,0,6,2,6],
 "d1/d7c/effectinfo__instagib_8inc.html":[2,0,1,2,16],
-"d1/d7c/effectinfo__instagib_8inc.html#a0b2b68bf407372a63294f43aee78d782":[2,0,1,2,16,2],
-"d1/d7c/effectinfo__instagib_8inc.html#a76dcc91743204923893da407def28f1c":[2,0,1,2,16,1],
-"d1/d7c/effectinfo__instagib_8inc.html#af2d6617e4876c9898595d22db3856d27":[2,0,1,2,16,0]
+"d1/d7c/effectinfo__instagib_8inc.html#a0b2b68bf407372a63294f43aee78d782":[2,0,1,2,16,2]
 };

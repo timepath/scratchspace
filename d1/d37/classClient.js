@@ -18,6 +18,7 @@ var classClient =
     [ "crypto_signmethod", "d1/d37/classClient.html#acfba4844d0d0cb5ed2c07f876f2b9647", null ],
     [ "netaddress", "d1/d37/classClient.html#ac7d2f552e4ce0768198744f31d7deb25", null ],
     [ "netname", "d1/d37/classClient.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012", null ],
+    [ "parm_idlesince", "d1/d37/classClient.html#a5b0429fb2f0c1af31a45b9f112661422", null ],
     [ "playerid", "d1/d37/classClient.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b", null ],
     [ "playermodel", "d1/d37/classClient.html#a486563026f66dc61e671c089890b2be9", null ],
     [ "playerskin", "d1/d37/classClient.html#af04000dc778c4b1b0ec980ea3541b0f8", null ],

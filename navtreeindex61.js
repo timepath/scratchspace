@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"d7/d39/classXonoticVideoSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,251,67],
+"d7/d39/classXonoticVideoSettingsTab.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,251,29],
 "d7/d39/classXonoticVideoSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,251,92],
 "d7/d39/classXonoticVideoSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,251,91],
 "d7/d39/classXonoticVideoSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,251,82],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "d7/d5d/classBorderImage.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,8,4],
 "d7/d5d/classBorderImage.html#a3b8b07fbba51c5165bf764582fc42e03":[1,0,8,52],
 "d7/d5d/classBorderImage.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,8,48],
-"d7/d5d/classBorderImage.html#a45c05cedd768d6a3a2c8090350073e2a":[1,0,8,36],
-"d7/d5d/classBorderImage.html#a4639b2672e12e42ef4f859782b3f9bfa":[1,0,8,22],
-"d7/d5d/classBorderImage.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,8,19]
+"d7/d5d/classBorderImage.html#a45c05cedd768d6a3a2c8090350073e2a":[1,0,8,36]
 };

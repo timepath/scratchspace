@@ -1,5 +1,8 @@
 var NAVTREEINDEX25 =
 {
+"d3/d53/server_2mapvoting_8qh.html#a3e88f2b64efebdb02a339e5494f1b0ac":[2,0,6,42,0],
+"d3/d53/server_2mapvoting_8qh.html#a55a404e632b9599200cdd019f8c03964":[2,0,6,42,6],
+"d3/d53/server_2mapvoting_8qh.html#a741a189eca158afb5e218ae054e34424":[2,0,6,42,3],
 "d3/d53/server_2mapvoting_8qh.html#a858074923c6e66b2b4c8a559306a359d":[2,0,6,42,4],
 "d3/d53/server_2mapvoting_8qh.html#a9e23e88fcace6381b529ac8060f0ad26":[2,0,6,42,2],
 "d3/d53/server_2mapvoting_8qh.html#ac2ebccaa8a03f242d61b099ed2cf1212":[2,0,6,42,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX25 =
 "d3/d73/gamemode__ctf_8qc.html#a2aab479d8c65782e417e28b84455f940":[2,0,6,3,0,6,139],
 "d3/d73/gamemode__ctf_8qc.html#a2bdd89eefeac77a751cee87bb561d895":[2,0,6,3,0,6,49],
 "d3/d73/gamemode__ctf_8qc.html#a2bfc5e3a6fab4ca3768afb283e4c0f0b":[2,0,6,3,0,6,153],
-"d3/d73/gamemode__ctf_8qc.html#a3038df7e5684a5b67874f8cec7218aaa":[2,0,6,3,0,6,122],
-"d3/d73/gamemode__ctf_8qc.html#a31fb90ab49402302c2567af1945d50f3":[2,0,6,3,0,6,8],
-"d3/d73/gamemode__ctf_8qc.html#a33fe5e9b4a06f001f5ea22497811c7c6":[2,0,6,3,0,6,21],
-"d3/d73/gamemode__ctf_8qc.html#a36b886510edb9c38fdc6e1c1a8e5c3f3":[2,0,6,3,0,6,60]
+"d3/d73/gamemode__ctf_8qc.html#a3038df7e5684a5b67874f8cec7218aaa":[2,0,6,3,0,6,122]
 };

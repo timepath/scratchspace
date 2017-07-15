@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"d2/d1c/weapons_2weapon_8qh.html#a67d15873f7aa52ab9ed55706830a4f17":[2,0,1,16,13,37],
+"d2/d1c/weapons_2weapon_8qh.html#a68c8b4f04f6cf4bd80ef078f2bea8d16":[2,0,1,16,13,10],
 "d2/d1c/weapons_2weapon_8qh.html#a6a9b42410f2d888f52a11253a2165203":[2,0,1,16,13,6],
 "d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad":[2,0,1,16,13,23],
 "d2/d1c/weapons_2weapon_8qh.html#a6c2b41636e883c42725c457730c8701c":[2,0,1,16,13,39],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "d2/d37/jetpack_8qh_source.html":[2,0,1,5,0,9],
 "d2/d38/mage_8qh.html":[2,0,1,8,0,3],
 "d2/d38/mage_8qh.html#a259221d0471dbdf827c5e95930f0c1c7":[2,0,1,8,0,3,3],
-"d2/d38/mage_8qh.html#adf12fb8099f4fded0f4312f63d7d2414":[2,0,1,8,0,3,2],
-"d2/d38/mage_8qh_source.html":[2,0,1,8,0,3],
-"d2/d38/path__waypoint_8qh.html":[2,0,6,4,13]
+"d2/d38/mage_8qh.html#adf12fb8099f4fded0f4312f63d7d2414":[2,0,1,8,0,3,2]
 };

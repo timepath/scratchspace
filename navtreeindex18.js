@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"d2/d9e/mapinfo_8qh.html#a7c36bec6679245bb89b94e61db14a729":[2,0,1,35,95],
+"d2/d9e/mapinfo_8qh.html#a7c84608e7931a22b7f46261bb7b14adc":[2,0,1,35,99],
+"d2/d9e/mapinfo_8qh.html#a7cbd9edfae5695f0f3e239701462b6d9":[2,0,1,35,34],
 "d2/d9e/mapinfo_8qh.html#a7d1c3cbdd8ccb05dad66eb7267c9904d":[2,0,1,35,71],
 "d2/d9e/mapinfo_8qh.html#a8135b60eb83d8b12418e195e562b56bc":[2,0,1,35,24],
 "d2/d9e/mapinfo_8qh.html#a8376e1f3ab6210a25a34c278e6308070":[2,0,1,35,33],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "d2/dbb/gamemode__domination_8qh.html#a7149a18ad3fac6db2b7cb60066e41560":[2,0,6,3,0,13,13],
 "d2/dbb/gamemode__domination_8qh.html#a75f447d61a27c10cd1ea458303eb01cb":[2,0,6,3,0,13,14],
 "d2/dbb/gamemode__domination_8qh.html#a7fb487a599b259e768703711d022b19f":[2,0,6,3,0,13,12],
-"d2/dbb/gamemode__domination_8qh.html#a886393b0dcd24628acbfab1e1ba79167":[2,0,6,3,0,13,24],
-"d2/dbb/gamemode__domination_8qh.html#a8cec3b44ab39bf059c106e3d145e5091":[2,0,6,3,0,13,2],
-"d2/dbb/gamemode__domination_8qh.html#a90f533a3970762d9bab1351f32268cf8":[2,0,6,3,0,13,21],
-"d2/dbb/gamemode__domination_8qh.html#a9f495b32344f6e3748615e42afa49971":[2,0,6,3,0,13,3]
+"d2/dbb/gamemode__domination_8qh.html#a886393b0dcd24628acbfab1e1ba79167":[2,0,6,3,0,13,24]
 };

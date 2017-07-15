@@ -52,7 +52,7 @@ var searchData=
   ['parm7',['parm7',['../d6/d11/progsdefs_8qc.html#ad23c2250406e34027ffe90d5d32f53c4',1,'progsdefs.qc']]],
   ['parm8',['parm8',['../d6/d11/progsdefs_8qc.html#a65357cc6cf35b52aa2c4a01ee0229ffd',1,'progsdefs.qc']]],
   ['parm9',['parm9',['../d6/d11/progsdefs_8qc.html#ad130fea6b4a52afe780cac0f679b513d',1,'progsdefs.qc']]],
-  ['parm_5fidlesince',['parm_idlesince',['../d5/d26/server_2defs_8qh.html#a106e471a64ecca560b40f0624c06f5b8',1,'defs.qh']]],
+  ['parm_5fidlesince',['parm_idlesince',['../d1/d37/classClient.html#a5b0429fb2f0c1af31a45b9f112661422',1,'Client']]],
   ['particle_5fairfriction',['particle_airfriction',['../d4/d0c/csprogsdefs_8qc.html#a8245857cead89c23dc8791b8a536c48f',1,'csprogsdefs.qc']]],
   ['particle_5falpha',['particle_alpha',['../d4/d0c/csprogsdefs_8qc.html#af9975b93a591eceaec7769d3f0284ac2',1,'csprogsdefs.qc']]],
   ['particle_5falphafade',['particle_alphafade',['../d4/d0c/csprogsdefs_8qc.html#a0e94b3b1a64c253a9a338c37635ec9bb',1,'csprogsdefs.qc']]],

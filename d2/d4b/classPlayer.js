@@ -17,6 +17,7 @@ var classPlayer =
     [ "crypto_signmethod", "d2/d4b/classPlayer.html#acfba4844d0d0cb5ed2c07f876f2b9647", null ],
     [ "netaddress", "d2/d4b/classPlayer.html#ac7d2f552e4ce0768198744f31d7deb25", null ],
     [ "netname", "d2/d4b/classPlayer.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012", null ],
+    [ "parm_idlesince", "d2/d4b/classPlayer.html#a5b0429fb2f0c1af31a45b9f112661422", null ],
     [ "playerid", "d2/d4b/classPlayer.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b", null ],
     [ "playermodel", "d2/d4b/classPlayer.html#a486563026f66dc61e671c089890b2be9", null ],
     [ "playerskin", "d2/d4b/classPlayer.html#af04000dc778c4b1b0ec980ea3541b0f8", null ],

@@ -224,7 +224,6 @@ var server_2defs_8qh =
     [ "oldvelocity", "d5/d26/server_2defs_8qh.html#a3e22c8ced0d427b277b14fc646a0d2e3", null ],
     [ "pain_finished", "d5/d26/server_2defs_8qh.html#a5d693a185ebf0d60bc29f5ad0cda526a", null ],
     [ "pain_frame", "d5/d26/server_2defs_8qh.html#a2c337cf99def365d4a0ab273ad81879e", null ],
-    [ "parm_idlesince", "d5/d26/server_2defs_8qh.html#a106e471a64ecca560b40f0624c06f5b8", null ],
     [ "pauseregen_finished", "d5/d26/server_2defs_8qh.html#aaf6a15488255d175853227438f389670", null ],
     [ "pauserotarmor_finished", "d5/d26/server_2defs_8qh.html#ad1052b7b58786c2d46f322ec50533d49", null ],
     [ "pauserotfuel_finished", "d5/d26/server_2defs_8qh.html#a937659348c3eb2a0c336b781b76c0eb3", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"da/def/classClanArena.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,16,5],
+"da/df4/announcer_8qc.html":[2,0,0,8],
 "da/df4/announcer_8qc.html#a208f21df98f913db80920e91f35c10b0":[2,0,0,8,4],
 "da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a":[2,0,0,8,8],
 "da/df4/announcer_8qc.html#a6429db50567f691e555d27cb8a1bdb97":[2,0,0,8,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "db/d15/api_8qh.html#a21c64a1d975a853a3361ec08c53c5c27":[2,0,6,0,5,74],
 "db/d15/api_8qh.html#a23473f47d4e36dc8695155c8d6fbc191":[2,0,6,0,5,98],
 "db/d15/api_8qh.html#a23f3b5acdc184dfba5e4bae385dca5e0":[2,0,6,0,5,61],
-"db/d15/api_8qh.html#a24b55d27684241fa9da5c23810d49f26":[2,0,6,0,5,6],
-"db/d15/api_8qh.html#a24be66220685357fff549b8842569278":[2,0,6,0,5,105],
-"db/d15/api_8qh.html#a265ae1eedcf92624c3a25a11d9f9435a":[2,0,6,0,5,73]
+"db/d15/api_8qh.html#a24b55d27684241fa9da5c23810d49f26":[2,0,6,0,5,6]
 };
