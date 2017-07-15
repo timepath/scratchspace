@@ -48,5 +48,9 @@ var movetypes_8qh =
     [ "MOVEFLAG_Q2AIRACCELERATE", "d4/dd7/movetypes_8qh.html#a4c106bfe0f4bb8f7d6d22b2a65296874", null ],
     [ "MOVEFLAG_VALID", "d4/dd7/movetypes_8qh.html#ac65a336dcba160b9781c2c52a57eb9bb", null ],
     [ "MOVETYPE_FAKEPUSH", "d4/dd7/movetypes_8qh.html#a4b49219e3364fc976d1ce0f24871044d", null ],
-    [ "punchangle", "d4/dd7/movetypes_8qh.html#a3857616fe924e0ad2e724aa167950651", null ]
+    [ "punchangle", "d4/dd7/movetypes_8qh.html#a3857616fe924e0ad2e724aa167950651", null ],
+    [ "WATERLEVEL_NONE", "d4/dd7/movetypes_8qh.html#a4bec948f47848ed35986ca695c61f431", null ],
+    [ "WATERLEVEL_SUBMERGED", "d4/dd7/movetypes_8qh.html#a34ca566662a26587b84114499a69e6d4", null ],
+    [ "WATERLEVEL_SWIMMING", "d4/dd7/movetypes_8qh.html#a1bda5514df56d211a94a6953fe0dab27", null ],
+    [ "WATERLEVEL_WETFEET", "d4/dd7/movetypes_8qh.html#a23878f171fe94c2b5c31a13077e1c845", null ]
 ];

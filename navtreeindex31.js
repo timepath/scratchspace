@@ -1,16 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"d3/df2/sv__cmd_8qc.html#ad2ffdcee1efaf21c7bcb725df8f443c7":[2,0,6,1,14,18],
-"d3/df2/sv__cmd_8qc.html#ad38f3363e3520aebf41b8f4d592919fa":[2,0,6,1,14,49],
-"d3/df2/sv__cmd_8qc.html#ad4078d87842792033e4239a247ab8679":[2,0,6,1,14,16],
-"d3/df2/sv__cmd_8qc.html#adf2e8451508961b8a71c28027ec6f3c4":[2,0,6,1,14,25],
-"d3/df2/sv__cmd_8qc.html#adf77373f9e0feb095606354bed974bd3":[2,0,6,1,14,17],
-"d3/df2/sv__cmd_8qc.html#ae4a3c514bbb6ac8031f6318e7028f429":[2,0,6,1,14,24],
-"d3/df2/sv__cmd_8qc.html#ae61b803a140486053af9c24c492601fc":[2,0,6,1,14,39],
-"d3/df2/sv__cmd_8qc.html#ae7bff1f7292bf8ed2c9bc35b68c2b8e4":[2,0,6,1,14,69],
-"d3/df2/sv__cmd_8qc.html#ae84b6a967f7aa199f0445d990a64b6d0":[2,0,6,1,14,42],
-"d3/df2/sv__cmd_8qc.html#aee077b39ab5fe2ea0e9520179451cf00":[2,0,6,1,14,40],
-"d3/df2/sv__cmd_8qc.html#af115b83f0c63c84bd98e5dddf80feca3":[2,0,6,1,14,58],
 "d3/df2/sv__cmd_8qc.html#af1a4581b0f369c6ec43e8efee459546c":[2,0,6,1,14,23],
 "d3/df2/sv__cmd_8qc.html#af1bc94d9c9700bee22eac1acde16c452":[2,0,6,1,14,62],
 "d3/df2/sv__cmd_8qc.html#af60fdb24d415a53dadd63f3d2fe3d04c":[2,0,6,1,14,31],
@@ -249,5 +238,16 @@ var NAVTREEINDEX31 =
 "d4/d0a/classXonoticMiscSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,207,7],
 "d4/d0b/classDevastator.html":[1,0,26],
 "d4/d0b/classDevastator.html#a0857557df1839208d8571e233839ce44":[1,0,26,25],
-"d4/d0b/classDevastator.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,26,19]
+"d4/d0b/classDevastator.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,26,19],
+"d4/d0b/classDevastator.html#a19a210e233d5ac3c2563487f1b763bec":[1,0,26,26],
+"d4/d0b/classDevastator.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,26,18],
+"d4/d0b/classDevastator.html#a2a08d4720054afa2ccaf726bb1e343a0":[1,0,26,24],
+"d4/d0b/classDevastator.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,26,16],
+"d4/d0b/classDevastator.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,26,20],
+"d4/d0b/classDevastator.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,26,11],
+"d4/d0b/classDevastator.html#a4337268c8cad6836bae8efd4a8835070":[1,0,26,21],
+"d4/d0b/classDevastator.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,26,1],
+"d4/d0b/classDevastator.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,26,15],
+"d4/d0b/classDevastator.html#a573567b81b1f9d3a5e01f00e4ef1c871":[1,0,26,37],
+"d4/d0b/classDevastator.html#a6821986fe8bed12edf3d71c47cd0ee0b":[1,0,26,32]
 };

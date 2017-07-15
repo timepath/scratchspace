@@ -1,16 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"d1/d4c/keylock_8qh.html":[2,0,1,13,3,25],
-"d1/d4c/keylock_8qh_source.html":[2,0,1,13,3,25],
-"d1/d4c/sv__bloodloss_8qh.html":[2,0,1,9,0,0,3],
-"d1/d4c/sv__bloodloss_8qh_source.html":[2,0,1,9,0,0,3],
-"d1/d50/pendulum_8qh.html":[2,0,1,13,0,23],
-"d1/d50/pendulum_8qh_source.html":[2,0,1,13,0,23],
-"d1/d52/spiderbot_8qh.html":[2,0,1,15,0,15],
-"d1/d52/spiderbot_8qh.html#a4ed523c7dd3ce374cd0be420899e8f8f":[2,0,1,15,0,15,1],
-"d1/d52/spiderbot_8qh_source.html":[2,0,1,15,0,15],
-"d1/d55/classXonoticGameHUDSettingsTab.html":[1,0,168],
-"d1/d55/classXonoticGameHUDSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,168,36],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,168,15],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,168,44],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,168,10],
@@ -249,5 +238,16 @@ var NAVTREEINDEX9 =
 "d1/d5b/classRadioButton.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,104,70],
 "d1/d5b/classRadioButton.html#a8b3010fc463034904b21d7d6da17a127":[1,0,104,69],
 "d1/d5b/classRadioButton.html#a8c568c803f49400fd0165b69f82d4161":[1,0,104,68],
-"d1/d5b/classRadioButton.html#a8e974d9359988445a4198a5b33da18fe":[1,0,104,41]
+"d1/d5b/classRadioButton.html#a8e974d9359988445a4198a5b33da18fe":[1,0,104,41],
+"d1/d5b/classRadioButton.html#a94b10ad636073784624c4ccf9ce64d26":[1,0,104,53],
+"d1/d5b/classRadioButton.html#a95e3e1c82a75a5ee33b08f1da84c05bd":[1,0,104,45],
+"d1/d5b/classRadioButton.html#a988e29ab41a7d5b537a2abb5019991c5":[1,0,104,61],
+"d1/d5b/classRadioButton.html#a98e9b29dfe2a91ddb3b653eee1003b2f":[1,0,104,58],
+"d1/d5b/classRadioButton.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,104,40],
+"d1/d5b/classRadioButton.html#a9f61f6a4ac7eddd3b6f2949f633f28c3":[1,0,104,37],
+"d1/d5b/classRadioButton.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,104,18],
+"d1/d5b/classRadioButton.html#aaefd5f78048ffbfdf0e45b630c4b5a4b":[1,0,104,59],
+"d1/d5b/classRadioButton.html#ab0e43c94f6fb0081002fc5850d5795c1":[1,0,104,47],
+"d1/d5b/classRadioButton.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,104,9],
+"d1/d5b/classRadioButton.html#aba5218808d64a676ca69b4f43d6f523b":[1,0,104,36]
 };

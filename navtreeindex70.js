@@ -1,8 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#aae505d4e1181d09c9a2b79bafcd9a7de":[2,0,5,4,92,10],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#acde935bede494b1af21664b6c8aaf6bd":[2,0,5,4,92,5],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#ad3288a07f19cd1c82f703d9d47488e5f":[2,0,5,4,92,8],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#ae4813be378a9cece542eb5c231852923":[2,0,5,4,92,2],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc_source.html":[2,0,5,4,92],
 "d8/d00/classImage.html":[1,0,52],
@@ -249,5 +246,8 @@ var NAVTREEINDEX70 =
 "d8/d14/scripting_8qh.html#abc0e3ba6ec9f6041f1cc77674ed2e11b":[2,0,6,0,0,12,24],
 "d8/d14/scripting_8qh.html#ac32ca2f1c291ea412cdee2a78d26fe24":[2,0,6,0,0,12,38],
 "d8/d14/scripting_8qh.html#ac505ccc34ec1fc2b65ba6ffa20c78756":[2,0,6,0,0,12,31],
-"d8/d14/scripting_8qh.html#ac6419c54f786d0b1080888645f013726":[2,0,6,0,0,12,20]
+"d8/d14/scripting_8qh.html#ac6419c54f786d0b1080888645f013726":[2,0,6,0,0,12,20],
+"d8/d14/scripting_8qh.html#ad09ff584c66b566518b5ccb47bbd3992":[2,0,6,0,0,12,54],
+"d8/d14/scripting_8qh.html#ad39f46470762e170a1d1d68d21a80270":[2,0,6,0,0,12,17],
+"d8/d14/scripting_8qh.html#adcdb78280beece89e99d0f3d8c0f37c3":[2,0,6,0,0,12,52]
 };

@@ -1,16 +1,5 @@
 var NAVTREEINDEX26 =
 {
-"d3/d73/gamemode__ctf_8qc.html#a264d7917e181391f10ec1fc629a3470b":[2,0,6,3,0,6,13],
-"d3/d73/gamemode__ctf_8qc.html#a27697d16f6efd6eb4070a99ca3012189":[2,0,6,3,0,6,5],
-"d3/d73/gamemode__ctf_8qc.html#a2882faa1b88f8a9ce78a711c995b09a0":[2,0,6,3,0,6,134],
-"d3/d73/gamemode__ctf_8qc.html#a2a2129ef74628a0c8bef5d48a016e3e0":[2,0,6,3,0,6,77],
-"d3/d73/gamemode__ctf_8qc.html#a2aab479d8c65782e417e28b84455f940":[2,0,6,3,0,6,139],
-"d3/d73/gamemode__ctf_8qc.html#a2bdd89eefeac77a751cee87bb561d895":[2,0,6,3,0,6,49],
-"d3/d73/gamemode__ctf_8qc.html#a2bfc5e3a6fab4ca3768afb283e4c0f0b":[2,0,6,3,0,6,153],
-"d3/d73/gamemode__ctf_8qc.html#a3038df7e5684a5b67874f8cec7218aaa":[2,0,6,3,0,6,122],
-"d3/d73/gamemode__ctf_8qc.html#a31fb90ab49402302c2567af1945d50f3":[2,0,6,3,0,6,8],
-"d3/d73/gamemode__ctf_8qc.html#a33fe5e9b4a06f001f5ea22497811c7c6":[2,0,6,3,0,6,21],
-"d3/d73/gamemode__ctf_8qc.html#a36b886510edb9c38fdc6e1c1a8e5c3f3":[2,0,6,3,0,6,60],
 "d3/d73/gamemode__ctf_8qc.html#a379a191629dc12ae99a6312bb3544ba7":[2,0,6,3,0,6,160],
 "d3/d73/gamemode__ctf_8qc.html#a3802c9bd96e8671a9ee60b5aafb4e181":[2,0,6,3,0,6,137],
 "d3/d73/gamemode__ctf_8qc.html#a3839fed84362d2b1fae76122755013d7":[2,0,6,3,0,6,35],
@@ -249,5 +238,16 @@ var NAVTREEINDEX26 =
 "d3/d83/classXonoticHUDHealthArmorDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,181,79],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,181,44],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,181,0],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,181,16]
+"d3/d83/classXonoticHUDHealthArmorDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,181,16],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,181,33],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,181,38],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,181,58],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,181,85],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,181,51],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,181,63],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,181,88],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,181,31],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,181,62],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,181,55],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,181,91]
 };

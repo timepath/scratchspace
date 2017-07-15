@@ -1,16 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293":[2,0,0,23,9],
-"d3/dab/player__skeleton_8qc.html#a7510df630df322df48a246e7d6a71826":[2,0,0,23,8],
-"d3/dab/player__skeleton_8qc.html#a7c80ef0cb8dccd72a620b9804160551f":[2,0,0,23,7],
-"d3/dab/player__skeleton_8qc.html#a7fe1291d377b2605a93fc789d164c073":[2,0,0,23,2],
-"d3/dab/player__skeleton_8qc.html#a9bd774b8fe11972d76dc2036e9d4af1f":[2,0,0,23,3],
-"d3/dab/player__skeleton_8qc.html#ae30bcd640df03cd117eb6491db7bf50b":[2,0,0,23,6],
-"d3/dab/player__skeleton_8qc.html#ae34e60c32bc60eebb73851ebe508b3ed":[2,0,0,23,1],
-"d3/dab/player__skeleton_8qc_source.html":[2,0,0,23],
-"d3/db2/classXonoticListBox.html":[1,0,203],
-"d3/db2/classXonoticListBox.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,203,9],
-"d3/db2/classXonoticListBox.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,203,39],
 "d3/db2/classXonoticListBox.html#a0dc1fdac9b12e18c439f02886f13e368":[1,0,203,33],
 "d3/db2/classXonoticListBox.html#a0fa6dee7bad5c2e88437360047c892da":[1,0,203,30],
 "d3/db2/classXonoticListBox.html#a1047817968d82f54687b5e2440af0eb8":[1,0,203,42],
@@ -249,5 +238,16 @@ var NAVTREEINDEX28 =
 "d3/dbe/classSlider.html#a8c71ab9e185789b5862d4eca97de030e":[1,0,116,5],
 "d3/dbe/classSlider.html#a8ea1a59334f7770ce251a2f95a266fe3":[1,0,116,30],
 "d3/dbe/classSlider.html#a8f04cd9252d82b0da453b439558cd2e6":[1,0,116,25],
-"d3/dbe/classSlider.html#a988e29ab41a7d5b537a2abb5019991c5":[1,0,116,53]
+"d3/dbe/classSlider.html#a988e29ab41a7d5b537a2abb5019991c5":[1,0,116,53],
+"d3/dbe/classSlider.html#a99f113cbca6d20b18128c10c6d236867":[1,0,116,63],
+"d3/dbe/classSlider.html#a9c04727d8b4f644f96fad98456d78dd9":[1,0,116,79],
+"d3/dbe/classSlider.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,116,36],
+"d3/dbe/classSlider.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,116,12],
+"d3/dbe/classSlider.html#aab962e4869bd5c3c4450423804ccc657":[1,0,116,50],
+"d3/dbe/classSlider.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,116,4],
+"d3/dbe/classSlider.html#ab675ec042310789f103f55f083fdc66b":[1,0,116,41],
+"d3/dbe/classSlider.html#ab7241599cf98fe1957a482fca1dd8840":[1,0,116,44],
+"d3/dbe/classSlider.html#ab85c0b5ed0a24372b4cceec3f4b51063":[1,0,116,42],
+"d3/dbe/classSlider.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,116,59],
+"d3/dbe/classSlider.html#ac40c387fa816abb4367ff86fe85c386e":[1,0,116,32]
 };

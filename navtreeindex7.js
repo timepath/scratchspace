@@ -1,16 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"d1/d19/classButton.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,11,63],
-"d1/d19/classButton.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,11,0],
-"d1/d19/classButton.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,11,64],
-"d1/d19/classButton.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,11,62],
-"d1/d19/classButton.html#a8b3010fc463034904b21d7d6da17a127":[1,0,11,61],
-"d1/d19/classButton.html#a8c568c803f49400fd0165b69f82d4161":[1,0,11,60],
-"d1/d19/classButton.html#a94b10ad636073784624c4ccf9ce64d26":[1,0,11,46],
-"d1/d19/classButton.html#a95e3e1c82a75a5ee33b08f1da84c05bd":[1,0,11,39],
-"d1/d19/classButton.html#a988e29ab41a7d5b537a2abb5019991c5":[1,0,11,54],
-"d1/d19/classButton.html#a98e9b29dfe2a91ddb3b653eee1003b2f":[1,0,11,51],
-"d1/d19/classButton.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,11,35],
 "d1/d19/classButton.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,11,15],
 "d1/d19/classButton.html#aaefd5f78048ffbfdf0e45b630c4b5a4b":[1,0,11,52],
 "d1/d19/classButton.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,11,8],
@@ -249,5 +238,16 @@ var NAVTREEINDEX7 =
 "d1/d33/classXonoticColorButton.html#a0dc9110cbe226f31f0d7f442534c6965":[1,0,148,69],
 "d1/d33/classXonoticColorButton.html#a10cf88734594fed24be93889407c0bda":[1,0,148,26],
 "d1/d33/classXonoticColorButton.html#a10f084ce6991717bfb4153928818feba":[1,0,148,23],
-"d1/d33/classXonoticColorButton.html#a11a99dd0d7e621888583908e0be2cd66":[1,0,148,6]
+"d1/d33/classXonoticColorButton.html#a11a99dd0d7e621888583908e0be2cd66":[1,0,148,6],
+"d1/d33/classXonoticColorButton.html#a135823dae84ab1fea43d05fbbd8e7cbf":[1,0,148,56],
+"d1/d33/classXonoticColorButton.html#a1384d244201f945385ed59b53e4aee96":[1,0,148,47],
+"d1/d33/classXonoticColorButton.html#a1a55e3b961b4986ce5dda62bd05b8ec5":[1,0,148,52],
+"d1/d33/classXonoticColorButton.html#a1cbb35748ac950ef45b070c81af0d448":[1,0,148,63],
+"d1/d33/classXonoticColorButton.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,148,33],
+"d1/d33/classXonoticColorButton.html#a1f71e31fd265ca4fba4bccee3a807b09":[1,0,148,39],
+"d1/d33/classXonoticColorButton.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,148,58],
+"d1/d33/classXonoticColorButton.html#a21fdc6c151d9e721da87eaaa8a04e3f9":[1,0,148,9],
+"d1/d33/classXonoticColorButton.html#a257f9c325381f4b29b5c7acbaa0ba5ae":[1,0,148,25],
+"d1/d33/classXonoticColorButton.html#a27b635e0916726012b7e8c4dca05064e":[1,0,148,43],
+"d1/d33/classXonoticColorButton.html#a29ef318627232b8879b7e81131f937f7":[1,0,148,3]
 };

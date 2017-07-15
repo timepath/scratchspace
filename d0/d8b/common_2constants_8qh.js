@@ -27,22 +27,11 @@ var common_2constants_8qh =
     [ "SERVERFLAG_ALLOW_FULLBRIGHT", "d0/d8b/common_2constants_8qh.html#a1cb919cfd08037b7e1a3d226460d215c", null ],
     [ "SERVERFLAG_PLAYERSTATS", "d0/d8b/common_2constants_8qh.html#a40128d49216e2a2f57a563ecf9be33be", null ],
     [ "SERVERFLAG_TEAMPLAY", "d0/d8b/common_2constants_8qh.html#a589686464c46a353960d0ba3696d15c0", null ],
-    [ "SPAWN_PRIO_GOOD_DISTANCE", "d0/d8b/common_2constants_8qh.html#a201908345e88f04480bb1af26b522f00", null ],
-    [ "SPAWN_PRIO_NEAR_TEAMMATE_FOUND", "d0/d8b/common_2constants_8qh.html#a147120fa263b120c8a20915dffa25c9b", null ],
-    [ "SPAWN_PRIO_NEAR_TEAMMATE_SAMETEAM", "d0/d8b/common_2constants_8qh.html#afbaa6a2b464f54d5f9f6087f526bb199", null ],
-    [ "SPAWN_PRIO_RACE_PREVIOUS_SPAWN", "d0/d8b/common_2constants_8qh.html#a5d88e76b04abc36016eda23afcc61ef1", null ],
     [ "SPECIES_ALIEN", "d0/d8b/common_2constants_8qh.html#ac9873a09c7ef06c4c0f6743f3971e9c2", null ],
     [ "SPECIES_ANIMAL", "d0/d8b/common_2constants_8qh.html#a0aa16fb4b5a880866ece61e87fab71ed", null ],
     [ "SPECIES_HUMAN", "d0/d8b/common_2constants_8qh.html#ad3ca9bafcd2a989067df572beb120b12", null ],
     [ "SPECIES_RESERVED", "d0/d8b/common_2constants_8qh.html#a51d07f847feccf47908c33268d79f0c2", null ],
     [ "SPECIES_ROBOT_RUSTY", "d0/d8b/common_2constants_8qh.html#a1cccd9e59e5964a2aea803d3bfede97c", null ],
     [ "SPECIES_ROBOT_SHINY", "d0/d8b/common_2constants_8qh.html#abc67b0dd866695bf305b900ab23f1b3d", null ],
-    [ "SPECIES_ROBOT_SOLID", "d0/d8b/common_2constants_8qh.html#a18df8f3283e5d34055f11657c529e421", null ],
-    [ "SPRITERULE_DEFAULT", "d0/d8b/common_2constants_8qh.html#a29dcc04d173ff86f1b01b62a94d45c0c", null ],
-    [ "SPRITERULE_SPECTATOR", "d0/d8b/common_2constants_8qh.html#a9fb1df18ea71e49ce5e98c2fc4232adf", null ],
-    [ "SPRITERULE_TEAMPLAY", "d0/d8b/common_2constants_8qh.html#af4b738cfb11ab91755d00f44be5b314b", null ],
-    [ "WATERLEVEL_NONE", "d0/d8b/common_2constants_8qh.html#a4bec948f47848ed35986ca695c61f431", null ],
-    [ "WATERLEVEL_SUBMERGED", "d0/d8b/common_2constants_8qh.html#a34ca566662a26587b84114499a69e6d4", null ],
-    [ "WATERLEVEL_SWIMMING", "d0/d8b/common_2constants_8qh.html#a1bda5514df56d211a94a6953fe0dab27", null ],
-    [ "WATERLEVEL_WETFEET", "d0/d8b/common_2constants_8qh.html#a23878f171fe94c2b5c31a13077e1c845", null ]
+    [ "SPECIES_ROBOT_SOLID", "d0/d8b/common_2constants_8qh.html#a18df8f3283e5d34055f11657c529e421", null ]
 ];

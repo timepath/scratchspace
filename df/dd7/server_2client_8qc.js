@@ -45,6 +45,7 @@ var server_2client_8qc =
     [ "PutClientInServer", "df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a", null ],
     [ "PutClientInServer", "df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951", null ],
     [ "PutObserverInServer", "df/dd7/server_2client_8qc.html#a5e3082357cac2361155d16ee49c91224", null ],
+    [ "PutPlayerInServer", "df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3", null ],
     [ "ReadyCount", "df/dd7/server_2client_8qc.html#a11f792d86f16e821bb9f127715f2234e", null ],
     [ "respawn", "df/dd7/server_2client_8qc.html#a9892fecc7414ccaabfbcd27e4cd56692", null ],
     [ "send_CSQC_teamnagger", "df/dd7/server_2client_8qc.html#a62b8839530824d20596d155faefe0411", null ],

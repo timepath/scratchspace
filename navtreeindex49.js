@@ -1,8 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"d5/dd4/cl__vehicles_8qh.html#aecd92213c981c895b1ce404d09ac99e7":[2,0,1,15,8,2],
-"d5/dd4/cl__vehicles_8qh_source.html":[2,0,1,15,8],
-"d5/dd5/common_2mutators_2mutator_2overkill_2__mod_8qh.html":[2,0,1,9,0,20,1],
 "d5/dd5/common_2mutators_2mutator_2overkill_2__mod_8qh_source.html":[2,0,1,9,0,20,1],
 "d5/dd7/gamemode__race_8qc.html":[2,0,6,3,0,24],
 "d5/dd7/gamemode__race_8qc.html#a02bcde94c04f24ea1782c35057913558":[2,0,6,3,0,24,14],
@@ -249,5 +246,8 @@ var NAVTREEINDEX49 =
 "d6/d01/classRaptorCannon.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,107,33],
 "d6/d01/classRaptorCannon.html#a08b28d3fda93d7058ef45040eb566872":[1,0,107,26],
 "d6/d01/classRaptorCannon.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,107,19],
-"d6/d01/classRaptorCannon.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,107,18]
+"d6/d01/classRaptorCannon.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,107,18],
+"d6/d01/classRaptorCannon.html#a275b0f23dbdadc6a13db38a807b17928":[1,0,107,31],
+"d6/d01/classRaptorCannon.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,107,30],
+"d6/d01/classRaptorCannon.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,107,16]
 };

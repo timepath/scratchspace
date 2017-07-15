@@ -672,7 +672,7 @@ var searchData=
   ['prandom_5fseed',['prandom_seed',['../dc/d95/random_8qc.html#a30a4e541d94c71abb9c56c014476e6a5',1,'random.qc']]],
   ['prandomvec',['prandomvec',['../dc/d95/random_8qc.html#ac9374eebe45a9ddc064240323c12d086',1,'prandomvec():&#160;random.qc'],['../db/d55/random_8qh.html#ac9374eebe45a9ddc064240323c12d086',1,'prandomvec():&#160;random.qc']]],
   ['pre_2eqh',['pre.qh',['../d2/d77/pre_8qh.html',1,'']]],
-  ['precache',['precache',['../dc/dc6/server_2miscfunctions_8qc.html#a98a446c0272a8ef358d2113f9694a14a',1,'precache():&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a98a446c0272a8ef358d2113f9694a14a',1,'precache():&#160;miscfunctions.qc'],['../d4/d1a/static_8qh.html#ab79b64f0f542aac87bcc659fe0a872bc',1,'PRECACHE():&#160;static.qh'],['../d3/db6/projectile_8qc.html#ac4299ed240f883c226a73f8b7c4da3fa',1,'PRECACHE(Projectiles):&#160;projectile.qc'],['../df/d6e/globalsound_8qh.html#a8e39938ef99c4d1672b2aa03d96f023f',1,'PRECACHE(GlobalSounds):&#160;globalsound.qh'],['../dd/d65/models_2all_8qh.html#a7bfa27dc43063519d067fe7d01f70850',1,'PRECACHE(Models):&#160;all.qh'],['../df/dc2/sounds_2all_8qh.html#a81bc2d94213d22271252a8bed7e9887d',1,'PRECACHE(Sounds):&#160;all.qh']]],
+  ['precache',['PRECACHE',['../d4/d1a/static_8qh.html#ab79b64f0f542aac87bcc659fe0a872bc',1,'PRECACHE():&#160;static.qh'],['../d3/db6/projectile_8qc.html#ac4299ed240f883c226a73f8b7c4da3fa',1,'PRECACHE(Projectiles):&#160;projectile.qc'],['../df/d6e/globalsound_8qh.html#a8e39938ef99c4d1672b2aa03d96f023f',1,'PRECACHE(GlobalSounds):&#160;globalsound.qh'],['../dd/d65/models_2all_8qh.html#a7bfa27dc43063519d067fe7d01f70850',1,'PRECACHE(Models):&#160;all.qh'],['../df/dc2/sounds_2all_8qh.html#a81bc2d94213d22271252a8bed7e9887d',1,'PRECACHE(Sounds):&#160;all.qh'],['../dc/dc6/server_2miscfunctions_8qc.html#a98a446c0272a8ef358d2113f9694a14a',1,'precache():&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a98a446c0272a8ef358d2113f9694a14a',1,'precache():&#160;miscfunctions.qc']]],
   ['precache_5fall_5fplayermodels',['precache_all_playermodels',['../dc/dc6/server_2miscfunctions_8qc.html#a5ea7bf591f44cf22ed52a48b1aa4f012',1,'precache_all_playermodels(string pattern):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a5ea7bf591f44cf22ed52a48b1aa4f012',1,'precache_all_playermodels(string pattern):&#160;miscfunctions.qc']]],
   ['precache_5ffile',['precache_file',['../d8/de2/menudefs_8qc.html#a00ca08eb9cb6bc858323c7c2ed19b813',1,'menudefs.qc']]],
   ['precache_5fpic',['precache_pic',['../d8/de2/menudefs_8qc.html#a66ae6f59199ebf4780d2bf9681f2b0c7',1,'menudefs.qc']]],
@@ -733,9 +733,9 @@ var searchData=
   ['process_5ftime',['process_time',['../d7/de1/counting_8qh.html#a3c64a781bdc8bb479a5526f17e0f004d',1,'counting.qh']]],
   ['profile',['profile',['../d4/d1a/static_8qh.html#ab279e29e266542bf7d82bd05f898d8a8',1,'static.qh']]],
   ['progname_2eqh',['progname.qh',['../d1/ddc/progname_8qh.html',1,'']]],
+  ['progs_2einc',['progs.inc',['../dd/d96/server_2progs_8inc.html',1,'']]],
   ['progs_2einc',['progs.inc',['../d3/dfc/client_2progs_8inc.html',1,'']]],
   ['progs_2einc',['progs.inc',['../d3/d70/menu_2progs_8inc.html',1,'']]],
-  ['progs_2einc',['progs.inc',['../dd/d96/server_2progs_8inc.html',1,'']]],
   ['progsdefs_2eqc',['progsdefs.qc',['../d6/d11/progsdefs_8qc.html',1,'']]],
   ['progsdefs_2eqh',['progsdefs.qh',['../d8/dc0/progsdefs_8qh.html',1,'']]],
   ['project_5f3d_5fto_5f2d',['project_3d_to_2d',['../dc/d98/client_2miscfunctions_8qc.html#a519d23437c6eea0244222bb41e476d1e',1,'project_3d_to_2d(vector vec):&#160;miscfunctions.qc'],['../d8/db6/client_2miscfunctions_8qh.html#a519d23437c6eea0244222bb41e476d1e',1,'project_3d_to_2d(vector vec):&#160;miscfunctions.qc']]],
@@ -845,5 +845,6 @@ var searchData=
   ['pushltime',['pushltime',['../d9/de7/jumppads_8qh.html#aea48339798453aef3726fe26f97a9bc2',1,'pushltime():&#160;jumppads.qh'],['../da/dc1/server_2player_8qh.html#aea48339798453aef3726fe26f97a9bc2',1,'pushltime():&#160;player.qh']]],
   ['putclientinserver',['PutClientInServer',['../df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a',1,'PutClientInServer(this):&#160;client.qc'],['../df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951',1,'PutClientInServer(entity this):&#160;client.qc']]],
   ['putobserverinserver',['PutObserverInServer',['../df/dd7/server_2client_8qc.html#a5e3082357cac2361155d16ee49c91224',1,'PutObserverInServer(entity this):&#160;client.qc'],['../d3/df2/sv__cmd_8qc.html#a5e3082357cac2361155d16ee49c91224',1,'PutObserverInServer(entity this):&#160;client.qc']]],
+  ['putplayerinserver',['PutPlayerInServer',['../df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3',1,'client.qc']]],
   ['pymod',['pymod',['../df/d38/mathlib_8qc.html#af2ebfe97850db3a54400d8ae78b1461b',1,'pymod(float e, float f):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#af2ebfe97850db3a54400d8ae78b1461b',1,'pymod(float e, float f):&#160;mathlib.qc']]]
 ];
