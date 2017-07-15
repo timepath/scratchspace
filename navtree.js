@@ -161,8 +161,8 @@ var NAVTREEINDEX =
 "df/d9b/menu_2xonotic_2util_8qc.html",
 "df/dc7/ewheel__weapon_8qc_source.html",
 "df/dd7/server_2client_8qc.html#a796e7f6d76eff169d587d849ed8c29f0",
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aa85ac553a7c9b2131fb49fe64205bc00",
-"globals_defs_r.html"
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a9e2c4bf741bd04d166a2c21130d15b0b",
+"globals_defs_o.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
