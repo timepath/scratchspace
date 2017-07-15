@@ -489,7 +489,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="comment">                    */</span></div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;                    <span class="comment">// NEW: changed behaviour so that it prevents that previous spectators/observers suddenly spawn as players</span></div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;                    <span class="comment">// PlayerScore_Clear(it);</span></div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;                    it.killcount = 0;</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;                    <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it).killcount = 0;</div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;                    <span class="comment">// stop the player from moving so that he stands still once he gets respawned</span></div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;                    it.velocity = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                    it.avelocity = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
@@ -531,7 +531,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <span class="comment">// clear player attributes</span></div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        it.alivetime = 0;</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        it.killcount = 0;</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it).<a class="code" href="../../d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003">killcount</a> = 0;</div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;        PS_GR_P_ADDVAL(it, PLAYERSTATS_ALIVETIME, -PS_GR_P_ADDVAL(it, PLAYERSTATS_ALIVETIME, 0));</div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;    ));</div>
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;</div>
@@ -1426,6 +1426,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div class="ttc" id="server_2command_2vote_8qc_html_a72ded287363c9dfdb4770d72cc3917a4"><div class="ttname"><a href="../../d1/dad/server_2command_2vote_8qc.html#a72ded287363c9dfdb4770d72cc3917a4">VoteReset</a></div><div class="ttdeci">void VoteReset()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/server_2command_2vote_8qc_source.html#l00120">vote.qc:120</a></div></div>
 <div class="ttc" id="server_2command_2vote_8qc_html_a8d0cf9c8d0f4eb8f266513eabf8a64ed"><div class="ttname"><a href="../../d1/dad/server_2command_2vote_8qc.html#a8d0cf9c8d0f4eb8f266513eabf8a64ed">VoteCommand_stop</a></div><div class="ttdeci">void VoteCommand_stop(float request, entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/server_2command_2vote_8qc_source.html#l01003">vote.qc:1003</a></div></div>
 <div class="ttc" id="server_2client_8qc_html_adc12a5d0f9848861e80fbee0c890d64a"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a">PutClientInServer</a></div><div class="ttdeci">PutClientInServer(this)</div></div>
+<div class="ttc" id="server_2defs_8qh_html_a50ba36a04eb6221cae468ec44dbfc003"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003">killcount</a></div><div class="ttdeci">float killcount</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00096">defs.qh:96</a></div></div>
 <div class="ttc" id="server_2command_2vote_8qc_html_a43586aa0ddfba02a08afc6f1e480cfd3"><div class="ttname"><a href="../../d1/dad/server_2command_2vote_8qc.html#a43586aa0ddfba02a08afc6f1e480cfd3">VoteCommand_status</a></div><div class="ttdeci">void VoteCommand_status(float request, entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/server_2command_2vote_8qc_source.html#l00981">vote.qc:981</a></div></div>
 <div class="ttc" id="server_2command_2vote_8qc_html_afc5d81170122263e3548af3ce2537e7f"><div class="ttname"><a href="../../d1/dad/server_2command_2vote_8qc.html#afc5d81170122263e3548af3ce2537e7f">VoteCommand_master</a></div><div class="ttdeci">void VoteCommand_master(float request, entity caller, float argc, string vote_command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/server_2command_2vote_8qc_source.html#l00835">vote.qc:835</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a33e75150e29fa01dc3c2fbe55610e1fd"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a33e75150e29fa01dc3c2fbe55610e1fd">nextent</a></div><div class="ttdeci">entity nextent(entity e)</div></div>
@@ -1455,7 +1456,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d1/dad/server_2command_2vote_8qc.html">vote.qc</a></li>
-    <li class="footer">Generated on Sat Jul 15 2017 22:20:22 for Xonotic by
+    <li class="footer">Generated on Sat Jul 15 2017 22:52:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

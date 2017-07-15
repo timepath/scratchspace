@@ -1,5 +1,8 @@
 var NAVTREEINDEX22 =
 {
+"d3/d01/classXonoticMultiplayerDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,209,87],
+"d3/d01/classXonoticMultiplayerDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,209,31],
+"d3/d01/classXonoticMultiplayerDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,209,62],
 "d3/d01/classXonoticMultiplayerDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,209,55],
 "d3/d01/classXonoticMultiplayerDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,209,91],
 "d3/d01/classXonoticMultiplayerDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,209,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX22 =
 "d3/d07/scoreboard_8qc.html#a7c39c9361e93dd735561011ae5207b25":[2,0,0,1,0,34,19],
 "d3/d07/scoreboard_8qc.html#a8255b834728e7b21dbd03c51898cccc3":[2,0,0,1,0,34,0],
 "d3/d07/scoreboard_8qc.html#a8334d135eb2ab47a6b716444247f34a8":[2,0,0,1,0,34,48],
-"d3/d07/scoreboard_8qc.html#a85799dd1dce34699edbffd4e9500277a":[2,0,0,1,0,34,27],
-"d3/d07/scoreboard_8qc.html#a87da8393de417bca4fd272ebddf0c212":[2,0,0,1,0,34,71],
-"d3/d07/scoreboard_8qc.html#a8827e611e2682061784beb73513e811b":[2,0,0,1,0,34,20],
-"d3/d07/scoreboard_8qc.html#a8cf61fd66e3aa8d5174eb669865b8264":[2,0,0,1,0,34,53]
+"d3/d07/scoreboard_8qc.html#a85799dd1dce34699edbffd4e9500277a":[2,0,0,1,0,34,27]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX50 =
 {
+"d5/df0/classArmor.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,4,4],
+"d5/df0/classArmor.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,4,11],
+"d5/df1/breakable_8qc.html":[2,0,1,13,0,4],
 "d5/df1/breakable_8qc_source.html":[2,0,1,13,0,4],
 "d5/df1/common_2mutators_2mutator_2bloodloss_2__mod_8inc.html":[2,0,1,9,0,0,0],
 "d5/df1/common_2mutators_2mutator_2bloodloss_2__mod_8inc_source.html":[2,0,1,9,0,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX50 =
 "d6/d11/progsdefs_8qc.html#a3b2e34b45a713186d6bdb4bafae164c7":[2,0,2,0,4,81],
 "d6/d11/progsdefs_8qc.html#a3c374075b33fcaa32f5ee299e94867a0":[2,0,2,0,4,40],
 "d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c":[2,0,2,0,4,234],
-"d6/d11/progsdefs_8qc.html#a3e61132344a51c9c846280ef3ccd9e9a":[2,0,2,0,4,2],
-"d6/d11/progsdefs_8qc.html#a3f9a68920f805df70f7f555bdfe8e387":[2,0,2,0,4,45],
-"d6/d11/progsdefs_8qc.html#a40ae9e851a6cdfa187e60ae9e222a96c":[2,0,2,0,4,82],
-"d6/d11/progsdefs_8qc.html#a415692d814debc841324e70547fb2c94":[2,0,2,0,4,49]
+"d6/d11/progsdefs_8qc.html#a3e61132344a51c9c846280ef3ccd9e9a":[2,0,2,0,4,2]
 };

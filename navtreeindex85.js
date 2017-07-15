@@ -1,5 +1,8 @@
 var NAVTREEINDEX85 =
 {
+"d9/db3/classXonoticGameModelSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,170,89],
+"d9/db3/classXonoticGameModelSettingsTab.html#a61040128f2010ca07df3feea474545a6":[1,0,170,88],
+"d9/db3/classXonoticGameModelSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,170,21],
 "d9/db3/classXonoticGameModelSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,170,65],
 "d9/db3/classXonoticGameModelSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,170,57],
 "d9/db3/classXonoticGameModelSettingsTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,170,22],
@@ -246,8 +249,5 @@ var NAVTREEINDEX85 =
 "d9/dd1/common_2items_2item_2__mod_8qh.html":[2,0,1,5,0,1],
 "d9/dd1/common_2items_2item_2__mod_8qh_source.html":[2,0,1,5,0,1],
 "d9/dd4/plasma__weapon_8qc.html":[2,0,1,14,0,36],
-"d9/dd4/plasma__weapon_8qc_source.html":[2,0,1,14,0,36],
-"d9/dd9/item_2image_8qc.html":[2,0,5,2,12],
-"d9/dd9/item_2image_8qc.html#a1c12419f14cb6f7e805a6fa64a798edd":[2,0,5,2,12,0],
-"d9/dd9/item_2image_8qc.html#a2bdf3be5584621344b2e6580ad34b9b7":[2,0,5,2,12,4]
+"d9/dd4/plasma__weapon_8qc_source.html":[2,0,1,14,0,36]
 };

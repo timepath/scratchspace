@@ -1,5 +1,8 @@
 var NAVTREEINDEX55 =
 {
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,167,7],
+"d6/d79/classXonoticHUDWeaponsDialog.html":[1,0,196],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,196,32],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,196,11],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,196,40],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,196,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX55 =
 "d6/d96/classRaceCTS.html#a3ae692261602ddff97edd7403b9068e1":[1,0,101,0],
 "d6/d96/classRaceCTS.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,101,12],
 "d6/d96/classRaceCTS.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,101,8],
-"d6/d96/classRaceCTS.html#a5626374345176757fae169da0ab1cb1f":[1,0,101,14],
-"d6/d96/classRaceCTS.html#a7880c3511ceeabb277b860085f1073ee":[1,0,101,11],
-"d6/d96/classRaceCTS.html#a87258d972a8b677bc431c763afd6e0fb":[1,0,101,13],
-"d6/d96/classRaceCTS.html#ab012546589284a9f8f556527fbfb3a8f":[1,0,101,10]
+"d6/d96/classRaceCTS.html#a5626374345176757fae169da0ab1cb1f":[1,0,101,14]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"d1/dd1/classSettingSource.html#ac27a0b7fbb81f2a42cd209e5807edd72":[1,0,112,8],
+"d1/dd1/classSettingSource.html#ac5519b8189d13dfc8c2baa6063877458":[1,0,112,6],
 "d1/dd1/classSettingSource.html#af6c7bbbf77c27320823a9a96dcfa2124":[1,0,112,3],
 "d1/dd2/lib_2draw_8qh.html":[2,0,4,17],
 "d1/dd2/lib_2draw_8qh_source.html":[2,0,4,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "d2/d08/sv__spawn__near__teammate_8qc.html#a946c9152e1d2f58636ec5f7481980695":[2,0,1,9,0,28,2,9],
 "d2/d08/sv__spawn__near__teammate_8qc.html#a9e3ba6aa3a231c79aeed88b4460dc928":[2,0,1,9,0,28,2,8],
 "d2/d08/sv__spawn__near__teammate_8qc.html#aab0d7fdefb365e732ff2353c7d22421b":[2,0,1,9,0,28,2,5],
-"d2/d08/sv__spawn__near__teammate_8qc.html#ac05a056ef7b9f33780c98159812bd48b":[2,0,1,9,0,28,2,2],
-"d2/d08/sv__spawn__near__teammate_8qc.html#ad23c797958622d4ed1b1e8ecedb0058f":[2,0,1,9,0,28,2,13],
-"d2/d08/sv__spawn__near__teammate_8qc.html#ad2d2a24803c926f92f844a777389fedf":[2,0,1,9,0,28,2,0]
+"d2/d08/sv__spawn__near__teammate_8qc.html#ac05a056ef7b9f33780c98159812bd48b":[2,0,1,9,0,28,2,2]
 };

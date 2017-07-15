@@ -1,5 +1,8 @@
 var NAVTREEINDEX54 =
 {
+"d6/d57/weaponstats_8qc_source.html":[2,0,6,5,18],
+"d6/d5c/dialog__settings__game__weapons_8qh.html":[2,0,5,4,139],
+"d6/d5c/dialog__settings__game__weapons_8qh.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,139,1],
 "d6/d5c/dialog__settings__game__weapons_8qh.html#ad61e8983facaede86b25d8e3947f88ee":[2,0,5,4,139,2],
 "d6/d5c/dialog__settings__game__weapons_8qh_source.html":[2,0,5,4,139],
 "d6/d60/common_2turrets_2util_8qh.html":[2,0,1,14,21],
@@ -246,8 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,167,41],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,167,45],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,167,87],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,167,11],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,167,7],
-"d6/d79/classXonoticHUDWeaponsDialog.html":[1,0,196],
-"d6/d79/classXonoticHUDWeaponsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,196,32]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,167,11]
 };

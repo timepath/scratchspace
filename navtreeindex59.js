@@ -1,5 +1,8 @@
 var NAVTREEINDEX59 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#a7dd6d46cd9dfc2d44a92b52badb3aa3b":[2,0,6,3,3,154],
+"d6/ddd/server_2mutators_2events_8qh.html#a7f49e7f9ba82fc5b45a4f89a44b7fd95":[2,0,6,3,3,169],
+"d6/ddd/server_2mutators_2events_8qh.html#a7f798d2c24bc1812407fee6329783713":[2,0,6,3,3,190],
 "d6/ddd/server_2mutators_2events_8qh.html#a81fd9b86698cd59c3265ec9888804e0b":[2,0,6,3,3,40],
 "d6/ddd/server_2mutators_2events_8qh.html#a82af11bb2e9232f2bdc31eac54b5ef0f":[2,0,6,3,3,138],
 "d6/ddd/server_2mutators_2events_8qh.html#a82ff6bfe2a2678f997c01acacff44bc2":[2,0,6,3,3,46],
@@ -246,8 +249,5 @@ var NAVTREEINDEX59 =
 "d6/df8/classTeamDeathmatch.html#aef3a65f4987590d66b653b91180860ca":[1,0,124,9],
 "d6/df8/classTeamDeathmatch.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,124,5],
 "d6/dfa/dialog__hudpanel__healtharmor_8qh.html":[2,0,5,4,53],
-"d6/dfa/dialog__hudpanel__healtharmor_8qh_source.html":[2,0,5,4,53],
-"d7/d01/menu_2xonotic_2campaign_8qh.html":[2,0,5,4,9],
-"d7/d01/menu_2xonotic_2campaign_8qh.html#a1e5782e41ac51960575f7ee5fa22747d":[2,0,5,4,9,4],
-"d7/d01/menu_2xonotic_2campaign_8qh.html#a5656ccb784859a99e35de72266fb310f":[2,0,5,4,9,3]
+"d6/dfa/dialog__hudpanel__healtharmor_8qh_source.html":[2,0,5,4,53]
 };

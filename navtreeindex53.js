@@ -1,5 +1,8 @@
 var NAVTREEINDEX53 =
 {
+"d6/d27/scripting_8qc.html#a89f234133d3efe315836311cbf21c64b":[2,0,6,0,0,11,75],
+"d6/d27/scripting_8qc.html#a8baaf19115af4eed5f0e1103c44446b5":[2,0,6,0,0,11,52],
+"d6/d27/scripting_8qc.html#a8dd11fe9feb5cb3d637a8046de2fa9de":[2,0,6,0,0,11,13],
 "d6/d27/scripting_8qc.html#a8ec0dac9cfdc15b604550df31b7e1433":[2,0,6,0,0,11,20],
 "d6/d27/scripting_8qc.html#a8eea23de246ae8d7111ed75023316235":[2,0,6,0,0,11,6],
 "d6/d27/scripting_8qc.html#a903a6b564e02ffad4dd1588ad3a90996":[2,0,6,0,0,11,66],
@@ -62,8 +65,8 @@ var NAVTREEINDEX53 =
 "d6/d29/anticheat_8qc.html#a8eecfc0df3f6930fcb87691447f1f4e3":[2,0,6,10,26],
 "d6/d29/anticheat_8qc.html#a8f202c10b7a9ce94d1420e6c79eef2ac":[2,0,6,10,22],
 "d6/d29/anticheat_8qc.html#a9993370ad69e2211b3046e5d1261bae0":[2,0,6,10,14],
-"d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155":[2,0,6,10,1],
 "d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155":[2,0,6,10,2],
+"d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155":[2,0,6,10,1],
 "d6/d29/anticheat_8qc.html#aa610d9cc0675d7d0761bd5edec9d443c":[2,0,6,10,29],
 "d6/d29/anticheat_8qc.html#aaa7263f59361199cea1247dc432f198a":[2,0,6,10,38],
 "d6/d29/anticheat_8qc.html#aab2a5b23d4cb9d1902726e7a59d2ae6c":[2,0,6,10,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX53 =
 "d6/d57/weaponstats_8qc.html#a8f2f79e647a2d2bc87cac66e6f5a7f62":[2,0,6,5,18,3],
 "d6/d57/weaponstats_8qc.html#a92da13209374adaf40062e250635050f":[2,0,6,5,18,1],
 "d6/d57/weaponstats_8qc.html#aa8f9d7c732fe1401e1ee110adfafa840":[2,0,6,5,18,5],
-"d6/d57/weaponstats_8qc.html#aaff19cec643aea889b24fc730133c07c":[2,0,6,5,18,2],
-"d6/d57/weaponstats_8qc_source.html":[2,0,6,5,18],
-"d6/d5c/dialog__settings__game__weapons_8qh.html":[2,0,5,4,139],
-"d6/d5c/dialog__settings__game__weapons_8qh.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,139,1]
+"d6/d57/weaponstats_8qc.html#aaff19cec643aea889b24fc730133c07c":[2,0,6,5,18,2]
 };

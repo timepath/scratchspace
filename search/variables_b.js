@@ -164,7 +164,7 @@ var searchData=
   ['kh_5fworldkeylist',['kh_worldkeylist',['../db/d15/api_8qh.html#a045a92c5195f8abf1d884beab42bc3f9',1,'api.qh']]],
   ['kh_5fworldkeynext',['kh_worldkeynext',['../db/d15/api_8qh.html#abb611131b031308c318e295ec74a375f',1,'kh_worldkeynext():&#160;api.qh'],['../de/d40/gamemode__keyhunt_8qc.html#abb611131b031308c318e295ec74a375f',1,'kh_worldkeynext():&#160;gamemode_keyhunt.qc']]],
   ['kill_5ftime',['kill_time',['../d5/d26/server_2defs_8qh.html#a7ebf17d5b07bd64fc002c1418e75264d',1,'defs.qh']]],
-  ['killcount',['killcount',['../d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003',1,'defs.qh']]],
+  ['killcount',['killcount',['../d1/d37/classClient.html#afd3da46f8613f02a2a7f1f2f0bcd2f07',1,'Client::killcount()'],['../d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003',1,'killcount():&#160;defs.qh']]],
   ['killed_5fmonsters',['killed_monsters',['../d6/d11/progsdefs_8qc.html#a36860577d5e193383858a6256d509ee1',1,'progsdefs.qc']]],
   ['killindicator',['killindicator',['../d5/d26/server_2defs_8qh.html#a59f3bedf42216e820a4817519548bd90',1,'defs.qh']]],
   ['killindicator_5fteamchange',['killindicator_teamchange',['../d1/d37/classClient.html#a4a6721351757c8353d232edd370c35e4',1,'Client']]],
