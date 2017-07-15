@@ -1,5 +1,13 @@
 var NAVTREEINDEX11 =
 {
+"d1/d70/classXonoticSoundList.html#a2bbb7c558d5c32523fbf0e6dc0427d00":[1,0,241,2],
+"d1/d70/classXonoticSoundList.html#a2e708644616f29e33ac117899d49d700":[1,0,241,23],
+"d1/d70/classXonoticSoundList.html#a346d3fd09bc071dc7877bd8506aa103c":[1,0,241,31],
+"d1/d70/classXonoticSoundList.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,241,0],
+"d1/d70/classXonoticSoundList.html#a39faad4c275af7a96e30379428646997":[1,0,241,13],
+"d1/d70/classXonoticSoundList.html#a405b285a76ac127664593c89281a5b63":[1,0,241,55],
+"d1/d70/classXonoticSoundList.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,241,21],
+"d1/d70/classXonoticSoundList.html#a4a43b2105dc060646442c9331757e17d":[1,0,241,1],
 "d1/d70/classXonoticSoundList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,241,81],
 "d1/d70/classXonoticSoundList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,241,63],
 "d1/d70/classXonoticSoundList.html#a502bbcf64b7557de3dd100db0c60cba0":[1,0,241,75],
@@ -241,13 +249,5 @@ var NAVTREEINDEX11 =
 "d1/d84/classXonoticLanguageWarningDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,202,10],
 "d1/d84/classXonoticLanguageWarningDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,202,35],
 "d1/d84/classXonoticLanguageWarningDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,202,36],
-"d1/d84/classXonoticLanguageWarningDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,202,5],
-"d1/d84/classXonoticLanguageWarningDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,202,89],
-"d1/d84/classXonoticLanguageWarningDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,202,78],
-"d1/d84/classXonoticLanguageWarningDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,202,44],
-"d1/d84/classXonoticLanguageWarningDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,202,0],
-"d1/d84/classXonoticLanguageWarningDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,202,33],
-"d1/d84/classXonoticLanguageWarningDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,202,38],
-"d1/d84/classXonoticLanguageWarningDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,202,58],
-"d1/d84/classXonoticLanguageWarningDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,202,84]
+"d1/d84/classXonoticLanguageWarningDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,202,5]
 };

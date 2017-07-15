@@ -1,5 +1,16 @@
 var NAVTREEINDEX49 =
 {
+"d5/dab/dialog__settings__game_8qh.html":[2,0,5,4,125],
+"d5/dab/dialog__settings__game_8qh_source.html":[2,0,5,4,125],
+"d5/dac/g__damage_8qc.html":[2,0,6,23],
+"d5/dac/g__damage_8qc.html#a0411010ca825838d10464f8da5825df9":[2,0,6,23,22],
+"d5/dac/g__damage_8qc.html#a06a1edf2081934e5cb8188d0419f55e7":[2,0,6,23,0],
+"d5/dac/g__damage_8qc.html#a24aaf696797544264665df5f05253d1c":[2,0,6,23,12],
+"d5/dac/g__damage_8qc.html#a2d30d51fdeb3f05c8ade32e74ca54a7c":[2,0,6,23,10],
+"d5/dac/g__damage_8qc.html#a30b6dcb0a5e148d3961cad10abdaf5af":[2,0,6,23,15],
+"d5/dac/g__damage_8qc.html#a377b547a7053468290f13dffb6342b89":[2,0,6,23,17],
+"d5/dac/g__damage_8qc.html#a54e85ad9f5560a23de3bd54026021b06":[2,0,6,23,16],
+"d5/dac/g__damage_8qc.html#a6fa1a68d8d18ee269438276ad351c0e9":[2,0,6,23,4],
 "d5/dac/g__damage_8qc.html#a705ff21e2e789e10d1eeb3bd16f97c86":[2,0,6,23,19],
 "d5/dac/g__damage_8qc.html#a7e53366415188b2157d76a7250422580":[2,0,6,23,20],
 "d5/dac/g__damage_8qc.html#a8203a172d47f7017f4e4be49ed0cddb8":[2,0,6,23,7],
@@ -238,16 +249,5 @@ var NAVTREEINDEX49 =
 "d5/df2/common_2util_8qh.html#a1371630f3443945a1ff175145d2012f3":[2,0,1,49,25],
 "d5/df2/common_2util_8qh.html#a13c26cd88e3905c0852467115ff159cb":[2,0,1,49,48],
 "d5/df2/common_2util_8qh.html#a154ba8224ee5f36a7e74adc8e625df72":[2,0,1,49,36],
-"d5/df2/common_2util_8qh.html#a1947b4b6a690f32caa5364746c7526c6":[2,0,1,49,24],
-"d5/df2/common_2util_8qh.html#a1bdccada8e15a2921dd2ee0a7464ad65":[2,0,1,49,41],
-"d5/df2/common_2util_8qh.html#a1c708493a4e4d0c7a50fbfec0c256f9c":[2,0,1,49,46],
-"d5/df2/common_2util_8qh.html#a203e7643d1362e5a90883ab7d31b9892":[2,0,1,49,16],
-"d5/df2/common_2util_8qh.html#a2487aefe8b9f0c9382be0e1b7d696ce9":[2,0,1,49,49],
-"d5/df2/common_2util_8qh.html#a249698b97e7e0846920b8c4de52e6e71":[2,0,1,49,65],
-"d5/df2/common_2util_8qh.html#a29f845de4b90aadc941703c5588f71bc":[2,0,1,49,58],
-"d5/df2/common_2util_8qh.html#a2a5b72f03e72d2dc7dcc77613290c1f4":[2,0,1,49,47],
-"d5/df2/common_2util_8qh.html#a2ab892f127a1745ff993deeb083df749":[2,0,1,49,4],
-"d5/df2/common_2util_8qh.html#a2f10a48b39bee7502c1b476f59094e98":[2,0,1,49,63],
-"d5/df2/common_2util_8qh.html#a306534bdfbf5c4be604388059668a453":[2,0,1,49,10],
-"d5/df2/common_2util_8qh.html#a32c4a483932ac5a2b0fcad13b0abdefa":[2,0,1,49,69]
+"d5/df2/common_2util_8qh.html#a1947b4b6a690f32caa5364746c7526c6":[2,0,1,49,24]
 };

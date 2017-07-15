@@ -1,5 +1,16 @@
 var NAVTREEINDEX69 =
 {
+"d7/dc4/waypoints_8qc.html#ad27523bc57e3e597f8bfa75bf7ddd72e":[2,0,6,0,0,13,29],
+"d7/dc4/waypoints_8qc.html#ad5ffadcf9a495cd46837874dfbda3674":[2,0,6,0,0,13,35],
+"d7/dc4/waypoints_8qc.html#adc1610e5d4a39012b64c05f12d9ccd82":[2,0,6,0,0,13,6],
+"d7/dc4/waypoints_8qc.html#adcd50ec9ec6d70529e207908628cce71":[2,0,6,0,0,13,31],
+"d7/dc4/waypoints_8qc.html#ae4f869607f4c1be41a005c4e04c08381":[2,0,6,0,0,13,32],
+"d7/dc4/waypoints_8qc.html#ae8116b951b4efe0da268667c754d94b5":[2,0,6,0,0,13,15],
+"d7/dc4/waypoints_8qc.html#ae9248ef358c77def1111a1abe1ebf1fb":[2,0,6,0,0,13,22],
+"d7/dc4/waypoints_8qc.html#aeffebe843059e44cb1df1bf5b6b7403c":[2,0,6,0,0,13,0],
+"d7/dc4/waypoints_8qc.html#af85db2f228ad24c8f013717be024365f":[2,0,6,0,0,13,17],
+"d7/dc4/waypoints_8qc.html#afe185aa6fad31214f669f13f08a37b2e":[2,0,6,0,0,13,3],
+"d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7":[2,0,6,0,0,13,21],
 "d7/dc4/waypoints_8qc_source.html":[2,0,6,0,0,13],
 "d7/dd0/sv__onslaught_8qh.html":[2,0,1,3,0,1,17],
 "d7/dd0/sv__onslaught_8qh.html#a019ea322c4d8ca223e33077996f3acbe":[2,0,1,3,0,1,17,12],
@@ -238,16 +249,5 @@ var NAVTREEINDEX69 =
 "d7/de6/classXonoticSkinList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,238,82],
 "d7/de6/classXonoticSkinList.html#ad96328bcd9ecb1785ba831de047449f4":[1,0,238,34],
 "d7/de6/classXonoticSkinList.html#adbc65a2089ef3278a098c80685b4b8a3":[1,0,238,58],
-"d7/de6/classXonoticSkinList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,238,36],
-"d7/de6/classXonoticSkinList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,238,87],
-"d7/de6/classXonoticSkinList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,238,43],
-"d7/de6/classXonoticSkinList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,238,16],
-"d7/de6/classXonoticSkinList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,238,67],
-"d7/de6/classXonoticSkinList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,238,35],
-"d7/de6/classXonoticSkinList.html#aed05f75651928be9263a2073856f33cd":[1,0,238,81],
-"d7/de6/classXonoticSkinList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,238,4],
-"d7/de6/classXonoticSkinList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,238,32],
-"d7/de6/classXonoticSkinList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,238,24],
-"d7/de6/classXonoticSkinList.html#afcf2fcc518cc5cca6e472f72bec87733":[1,0,238,77],
-"d7/de6/classXonoticSkinList.html#afdcf1fb79903f747cda494b27206526b":[1,0,238,1]
+"d7/de6/classXonoticSkinList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,238,36]
 };

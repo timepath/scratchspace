@@ -1,5 +1,17 @@
 var NAVTREEINDEX27 =
 {
+"d3/d73/gamemode__ctf_8qc.html#ad6f387be57f023cb48e24726f0c67352":[2,0,6,3,0,6,146],
+"d3/d73/gamemode__ctf_8qc.html#ad722f50277d143424ade42e5d62cf7f8":[2,0,6,3,0,6,53],
+"d3/d73/gamemode__ctf_8qc.html#add88ad7004dd39c20b7563d743bdfa2f":[2,0,6,3,0,6,103],
+"d3/d73/gamemode__ctf_8qc.html#adeb20a9aa1aa64106350c0d6c4753d80":[2,0,6,3,0,6,22],
+"d3/d73/gamemode__ctf_8qc.html#adf49379e9cbcc6fd5ea47bf9b77d78cf":[2,0,6,3,0,6,32],
+"d3/d73/gamemode__ctf_8qc.html#adfbefb9bb66d83f7dc192409643c939c":[2,0,6,3,0,6,91],
+"d3/d73/gamemode__ctf_8qc.html#adfd5aae63b2a5d8d688ce876a62c794f":[2,0,6,3,0,6,71],
+"d3/d73/gamemode__ctf_8qc.html#ae035cdc4bdd6a63c63d3bff759227a31":[2,0,6,3,0,6,162],
+"d3/d73/gamemode__ctf_8qc.html#ae4da0b9f3b47d57388ba498d2baed651":[2,0,6,3,0,6,18],
+"d3/d73/gamemode__ctf_8qc.html#ae7166d51e1e58830fd1a43b93781b835":[2,0,6,3,0,6,31],
+"d3/d73/gamemode__ctf_8qc.html#ae75ed0eea09ad6d6a196ddf7ef2fd368":[2,0,6,3,0,6,114],
+"d3/d73/gamemode__ctf_8qc.html#ae9d4c5c3bba30d38533a6af9672332ec":[2,0,6,3,0,6,165],
 "d3/d73/gamemode__ctf_8qc.html#aeb39654f0dfbddb02784d6a1bd18fe11":[2,0,6,3,0,6,23],
 "d3/d73/gamemode__ctf_8qc.html#aec49e925d9226a199fdab11d49df8f5f":[2,0,6,3,0,6,12],
 "d3/d73/gamemode__ctf_8qc.html#aec8b5ca759a9ce17182f6840f48182c0":[2,0,6,3,0,6,107],
@@ -237,17 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d86/classXonoticMapList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,205,41],
 "d3/d86/classXonoticMapList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,205,31],
 "d3/d86/classXonoticMapList.html#afdcf1fb79903f747cda494b27206526b":[1,0,205,2],
-"d3/d88/bot__null_8qc.html":[2,0,6,0,1,2],
-"d3/d88/bot__null_8qc_source.html":[2,0,6,0,1,2],
-"d3/d8b/common_2triggers_2trigger_2__mod_8inc.html":[2,0,1,13,3,0],
-"d3/d8b/common_2triggers_2trigger_2__mod_8inc_source.html":[2,0,1,13,3,0],
-"d3/d92/roles_8qh.html":[2,0,6,0,0,0,5],
-"d3/d92/roles_8qh_source.html":[2,0,6,0,0,0,5],
-"d3/d93/item_2textslider_8qh.html":[2,0,5,2,33],
-"d3/d93/item_2textslider_8qh_source.html":[2,0,5,2,33],
-"d3/d93/spawning_8qh.html":[2,0,6,5,13],
-"d3/d93/spawning_8qh.html#a60096e5c98b3b608470b6130fce0b405":[2,0,6,5,13,1],
-"d3/d93/spawning_8qh.html#ac7b155ae9b6d6ccef4940bf9ef0b5dc9":[2,0,6,5,13,0],
-"d3/d93/spawning_8qh_source.html":[2,0,6,5,13],
-"d3/d95/physics_2movetypes_2follow_8qh.html":[2,0,1,11,0,4]
+"d3/d88/bot__null_8qc.html":[2,0,6,0,1,2]
 };

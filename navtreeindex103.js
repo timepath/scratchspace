@@ -1,5 +1,16 @@
 var NAVTREEINDEX103 =
 {
+"db/dd2/triggers_2misc_2follow_8qc.html":[2,0,1,13,1,4],
+"db/dd2/triggers_2misc_2follow_8qc_source.html":[2,0,1,13,1,4],
+"db/dd3/classCallback.html":[1,0,12],
+"db/dd3/classCallback.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,12,2],
+"db/dd3/classCallback.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,12,3],
+"db/dd3/classCallback.html#af8d4aab0572cc7fcf3dca4e1174faef8":[1,0,12,0],
+"db/dd3/classCallback.html#af99cb10117c292e3a495925c6692c412":[1,0,12,1],
+"db/dd3/dialog__settings__misc__reset_8qh.html":[2,0,5,4,149],
+"db/dd3/dialog__settings__misc__reset_8qh_source.html":[2,0,5,4,149],
+"db/dd3/doublejump_8qc.html":[2,0,1,9,0,8,2],
+"db/dd3/doublejump_8qc_source.html":[2,0,1,9,0,8,2],
 "db/dd7/dialog__multiplayer__media__musicplayer_8qh.html":[2,0,5,4,107],
 "db/dd7/dialog__multiplayer__media__musicplayer_8qh.html#ae82044ad6b56c5d7803a8922b42ac371":[2,0,5,4,107,1],
 "db/dd7/dialog__multiplayer__media__musicplayer_8qh_source.html":[2,0,5,4,107],
@@ -238,16 +249,5 @@ var NAVTREEINDEX103 =
 "db/dee/projectiles_8qh.html#a9851650a32c6db104351222671303534":[2,0,1,16,12,15],
 "db/dee/projectiles_8qh.html#a9bdd4135a43d1fe82726ce9f680314ea":[2,0,1,16,12,2],
 "db/dee/projectiles_8qh.html#aa0cb51bfc924348aa0ca71e0d06a4baa":[2,0,1,16,12,24],
-"db/dee/projectiles_8qh.html#aa1a10886760e0a686f2e8d9ea01609b4":[2,0,1,16,12,18],
-"db/dee/projectiles_8qh.html#aae458c151a9d65460eec9f35a7578561":[2,0,1,16,12,29],
-"db/dee/projectiles_8qh.html#ab162bac6ee7484554c212603e07cff9a":[2,0,1,16,12,31],
-"db/dee/projectiles_8qh.html#ab634605b1071c443ed92a346527bc043":[2,0,1,16,12,22],
-"db/dee/projectiles_8qh.html#ac6ae2b2f62dcfbc71cf3421abd243e12":[2,0,1,16,12,20],
-"db/dee/projectiles_8qh.html#acbee41019c18bc7ef48d18f07e4ccc05":[2,0,1,16,12,7],
-"db/dee/projectiles_8qh.html#ad2d712051be965d2123a8433bbc45cb5":[2,0,1,16,12,21],
-"db/dee/projectiles_8qh.html#addd5e1c8d6751047baf37b07728950b3":[2,0,1,16,12,17],
-"db/dee/projectiles_8qh.html#ae7b73a62a580eb11c699c290040aa916":[2,0,1,16,12,3],
-"db/dee/projectiles_8qh.html#aede604390723f055a11318be055c6ba8":[2,0,1,16,12,11],
-"db/dee/projectiles_8qh.html#aefc68ec50cec3db8bb1362f3546fc5c6":[2,0,1,16,12,0],
-"db/dee/projectiles_8qh.html#af240a011514c0952183da1c6e3da83e5":[2,0,1,16,12,27]
+"db/dee/projectiles_8qh.html#aa1a10886760e0a686f2e8d9ea01609b4":[2,0,1,16,12,18]
 };

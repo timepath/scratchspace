@@ -1,5 +1,16 @@
 var NAVTREEINDEX116 =
 {
+"dd/d9a/classXonoticSandboxToolsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,226,30],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,226,6],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,226,46],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,226,56],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,226,1],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a3e8b6074eaee7a799c27e70464fd38e4":[1,0,226,78],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,226,12],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,226,75],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,226,23],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,226,50],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,226,28],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,226,57],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,226,34],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,226,42],
@@ -238,16 +249,5 @@ var NAVTREEINDEX116 =
 "dd/da6/classXonoticCreditsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,152,52],
 "dd/da6/classXonoticCreditsDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,152,64],
 "dd/da6/classXonoticCreditsDialog.html#ad2f89bcf0a735d02adb2feb043b33c78":[1,0,152,61],
-"dd/da6/classXonoticCreditsDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,152,88],
-"dd/da6/classXonoticCreditsDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,152,32],
-"dd/da6/classXonoticCreditsDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,152,63],
-"dd/da6/classXonoticCreditsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,152,56],
-"dd/da6/classXonoticCreditsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,152,92],
-"dd/da6/classXonoticCreditsDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,152,10],
-"dd/da6/classXonoticCreditsDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,152,69],
-"dd/da6/classXonoticCreditsDialog.html#af1aab403dc54575707fd57991312b201":[1,0,152,48],
-"dd/da6/classXonoticCreditsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,152,28],
-"dd/da6/classXonoticCreditsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,152,16],
-"dd/da6/classXonoticCreditsDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,152,40],
-"dd/da6/classXonoticCreditsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,152,2]
+"dd/da6/classXonoticCreditsDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,152,88]
 };

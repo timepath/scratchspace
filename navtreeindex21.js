@@ -1,5 +1,17 @@
 var NAVTREEINDEX21 =
 {
+"d2/de3/getreplies_8qh.html#aa4fceeef60a806f478f69ab080bdb930":[2,0,6,1,9,2],
+"d2/de3/getreplies_8qh.html#ab675a2d8b0cc42ec8fcc752a870143d7":[2,0,6,1,9,5],
+"d2/de3/getreplies_8qh.html#acd14453c3d874fef97b4619c5987158e":[2,0,6,1,9,3],
+"d2/de3/getreplies_8qh.html#aeefde83866a57747398bd6dc29bb082b":[2,0,6,1,9,10],
+"d2/de3/getreplies_8qh_source.html":[2,0,6,1,9],
+"d2/de5/common_2turrets_2util_8qc.html":[2,0,1,14,20],
+"d2/de5/common_2turrets_2util_8qc.html#a3a53f70d7f1996e53fa64724d3ebfb7f":[2,0,1,14,20,1],
+"d2/de5/common_2turrets_2util_8qc.html#af7002aad344c4fe959217361438e2759":[2,0,1,14,20,0],
+"d2/de5/common_2turrets_2util_8qc_source.html":[2,0,1,14,20],
+"d2/de6/dialog__settings__effects_8qc.html":[2,0,5,4,122],
+"d2/de6/dialog__settings__effects_8qc.html#a39478b3b0ca9d36b8c42ef4ec97c1fc6":[2,0,5,4,122,1],
+"d2/de6/dialog__settings__effects_8qc.html#a8486e328fed1e1894ae1d02447c8df27":[2,0,5,4,122,2],
 "d2/de6/dialog__settings__effects_8qc.html#a8ace980a9aa0b9448962d11b51ad3f3e":[2,0,5,4,122,0],
 "d2/de6/dialog__settings__effects_8qc_source.html":[2,0,5,4,122],
 "d2/de9/havocbot_8qc.html":[2,0,6,0,0,0,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX21 =
 "d3/d01/classXonoticMultiplayerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,209,2],
 "d3/d01/classXonoticMultiplayerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,209,37],
 "d3/d01/classXonoticMultiplayerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,209,41],
-"d3/d01/classXonoticMultiplayerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,209,85],
-"d3/d01/classXonoticMultiplayerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,209,8],
-"d3/d05/classes_8inc.html":[2,0,5,9],
-"d3/d05/classes_8inc_source.html":[2,0,5,9],
-"d3/d05/hud_8qh.html":[2,0,0,1,4],
-"d3/d05/hud_8qh.html#a0160171124193a7ee2dd193882da4061":[2,0,0,1,4,37],
-"d3/d05/hud_8qh.html#a0281fee5d685fdf391491312c58bd0b0":[2,0,0,1,4,71],
-"d3/d05/hud_8qh.html#a02abe4a5c60a60714232f7af2024e982":[2,0,0,1,4,110],
-"d3/d05/hud_8qh.html#a045e1064e3dfa1f43fb8e3823dba5127":[2,0,0,1,4,171],
-"d3/d05/hud_8qh.html#a06d7feb0be3ff2d1678234b908c25e1f":[2,0,0,1,4,173],
-"d3/d05/hud_8qh.html#a07df182b9bbb79df7bfb31024349b5d6":[2,0,0,1,4,128],
-"d3/d05/hud_8qh.html#a0aa173dac76ebb2e4f085c3bd9a8fe4a":[2,0,0,1,4,134],
-"d3/d05/hud_8qh.html#a0c19309794fb0ce8b2b25b7f1f2ca75d":[2,0,0,1,4,117]
+"d3/d01/classXonoticMultiplayerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,209,85]
 };

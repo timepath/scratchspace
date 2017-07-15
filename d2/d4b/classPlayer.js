@@ -41,7 +41,9 @@ var classPlayer =
     [ "cursor_trace_start", "d2/d4b/classPlayer.html#ab852ddecd819a4065ce0137ad1f4413a", null ],
     [ "idlekick_lasttimeleft", "d2/d4b/classPlayer.html#a46a7bc40105ac38ab40131987e7f34cb", null ],
     [ "impulse", "d2/d4b/classPlayer.html#a8512a66a1265b5504594df509bd2aedc", null ],
+    [ "jointime", "d2/d4b/classPlayer.html#a06a738c4cb9a23813f16775a5877dd12", null ],
     [ "killindicator_teamchange", "d2/d4b/classPlayer.html#a4a6721351757c8353d232edd370c35e4", null ],
+    [ "motd_actived_time", "d2/d4b/classPlayer.html#a149e59d2293d8bdb8aaedd213444c005", null ],
     [ "movement", "d2/d4b/classPlayer.html#aebb2f970915f520a2fa9a55c9b91bf3e", null ],
     [ "movement_old", "d2/d4b/classPlayer.html#a22ed7d5606cdae61c7d78626d729091a", null ],
     [ "muted", "d2/d4b/classPlayer.html#a5ffe68e3b3028b5b83443e5e5b51925f", null ],
@@ -56,10 +58,12 @@ var classPlayer =
     [ "playerskin", "d2/d4b/classPlayer.html#af04000dc778c4b1b0ec980ea3541b0f8", null ],
     [ "pm_frametime", "d2/d4b/classPlayer.html#a3f6b48423c8fa00300cf5de0f10abeef", null ],
     [ "pressedkeys", "d2/d4b/classPlayer.html#ac0b4c14857eb756ac47df1fe7a410764", null ],
+    [ "spectatortime", "d2/d4b/classPlayer.html#aa707f23bd099623cdeaa19d50afd3351", null ],
     [ "team", "d2/d4b/classPlayer.html#a22032ccc0d6a0e1b5c8d152fa5d5258e", null ],
     [ "teamkill_complain", "d2/d4b/classPlayer.html#ad44c0feb49f09eefc2a950cc8c6100bd", null ],
     [ "teamkill_soundsource", "d2/d4b/classPlayer.html#a0eb03d66010d1cfd159c1a2cf169f172", null ],
     [ "teamkill_soundtime", "d2/d4b/classPlayer.html#a9777fb5ad261e2a186af2f72be81b497", null ],
     [ "usekeypressed", "d2/d4b/classPlayer.html#a53ebb19cee46f4709b3d88a1434e5b93", null ],
-    [ "v_angle", "d2/d4b/classPlayer.html#adbc59e37e184e760484bc8aa1aea4f93", null ]
+    [ "v_angle", "d2/d4b/classPlayer.html#adbc59e37e184e760484bc8aa1aea4f93", null ],
+    [ "version_nagtime", "d2/d4b/classPlayer.html#aa5b03024329d76308546cc7194866070", null ]
 ];

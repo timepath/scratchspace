@@ -1,5 +1,16 @@
 var NAVTREEINDEX124 =
 {
+"de/d7a/classXonoticHUDScoreDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,192,64],
+"de/d7a/classXonoticHUDScoreDialog.html#a67d95732d49da439095483530aca8804":[1,0,192,53],
+"de/d7a/classXonoticHUDScoreDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,192,76],
+"de/d7a/classXonoticHUDScoreDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,192,18],
+"de/d7a/classXonoticHUDScoreDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,192,14],
+"de/d7a/classXonoticHUDScoreDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,192,66],
+"de/d7a/classXonoticHUDScoreDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,192,25],
+"de/d7a/classXonoticHUDScoreDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,192,89],
+"de/d7a/classXonoticHUDScoreDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,192,80],
+"de/d7a/classXonoticHUDScoreDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,192,52],
+"de/d7a/classXonoticHUDScoreDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,192,45],
 "de/d7a/classXonoticHUDScoreDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,192,67],
 "de/d7a/classXonoticHUDScoreDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,192,73],
 "de/d7a/classXonoticHUDScoreDialog.html#a9d507237bff8e6e5c411e38a63446836":[1,0,192,81],
@@ -238,16 +249,5 @@ var NAVTREEINDEX124 =
 "de/da5/common_2physics_2movetypes_2__mod_8qh_source.html":[2,0,1,11,0,1],
 "de/dab/classObserver.html":[1,0,86],
 "de/dab/classObserver.html#a05eb3183422962148822eee79d9d33e2":[1,0,86,37],
-"de/dab/classObserver.html#a0eb03d66010d1cfd159c1a2cf169f172":[1,0,86,58],
-"de/dab/classObserver.html#a0ec30d25549a7a527f8b5ee0d04030c3":[1,0,86,19],
-"de/dab/classObserver.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b":[1,0,86,51],
-"de/dab/classObserver.html#a1658664bbee76e6ab46e1337b1829c7e":[1,0,86,18],
-"de/dab/classObserver.html#a19c43f80a38a332a6f694783df3c9835":[1,0,86,0],
-"de/dab/classObserver.html#a22032ccc0d6a0e1b5c8d152fa5d5258e":[1,0,86,56],
-"de/dab/classObserver.html#a22ed7d5606cdae61c7d78626d729091a":[1,0,86,43],
-"de/dab/classObserver.html#a245f8bb48c3369a423dd2ea0888b3425":[1,0,86,31],
-"de/dab/classObserver.html#a2578f01ea21860399662d52a97ad9ce2":[1,0,86,30],
-"de/dab/classObserver.html#a2dae84a754cf7b77999839bf5891ca42":[1,0,86,28],
-"de/dab/classObserver.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012":[1,0,86,46],
-"de/dab/classObserver.html#a3428db95eaa0bc6b89cc2367a8e7221c":[1,0,86,34]
+"de/dab/classObserver.html#a06a738c4cb9a23813f16775a5877dd12":[1,0,86,41]
 };

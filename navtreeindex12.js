@@ -1,5 +1,13 @@
 var NAVTREEINDEX12 =
 {
+"d1/d84/classXonoticLanguageWarningDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,202,89],
+"d1/d84/classXonoticLanguageWarningDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,202,78],
+"d1/d84/classXonoticLanguageWarningDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,202,44],
+"d1/d84/classXonoticLanguageWarningDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,202,0],
+"d1/d84/classXonoticLanguageWarningDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,202,33],
+"d1/d84/classXonoticLanguageWarningDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,202,38],
+"d1/d84/classXonoticLanguageWarningDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,202,58],
+"d1/d84/classXonoticLanguageWarningDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,202,84],
 "d1/d84/classXonoticLanguageWarningDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,202,51],
 "d1/d84/classXonoticLanguageWarningDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,202,63],
 "d1/d84/classXonoticLanguageWarningDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,202,87],
@@ -241,13 +249,5 @@ var NAVTREEINDEX12 =
 "d1/dad/server_2command_2vote_8qc.html#a905ea22315184d5281455f2e627dbcd4":[2,0,6,1,16,37],
 "d1/dad/server_2command_2vote_8qc.html#a92a3177069147dcd5ab85f77942a6d06":[2,0,6,1,16,21],
 "d1/dad/server_2command_2vote_8qc.html#a9c49c9479913e0acfad979107e6ee3f7":[2,0,6,1,16,8],
-"d1/dad/server_2command_2vote_8qc.html#a9cdd3ad2c7320e7fd2883c41ef944183":[2,0,6,1,16,25],
-"d1/dad/server_2command_2vote_8qc.html#aa5bfb7647a9b350b92d600703b23919d":[2,0,6,1,16,38],
-"d1/dad/server_2command_2vote_8qc.html#aa81c9efb2b836690421c27fdff0be3e2":[2,0,6,1,16,22],
-"d1/dad/server_2command_2vote_8qc.html#aa87ee0e2c399505d83d290b4bef95caf":[2,0,6,1,16,24],
-"d1/dad/server_2command_2vote_8qc.html#aa99c167d0e48d02a04c9a00b63521659":[2,0,6,1,16,27],
-"d1/dad/server_2command_2vote_8qc.html#aaa71782429a29dc1281807e966deaf7a":[2,0,6,1,16,33],
-"d1/dad/server_2command_2vote_8qc.html#aab1e8a5bcb59d84dc544b44f98bfd267":[2,0,6,1,16,30],
-"d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f":[2,0,6,1,16,15],
-"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2]
+"d1/dad/server_2command_2vote_8qc.html#a9cdd3ad2c7320e7fd2883c41ef944183":[2,0,6,1,16,25]
 };

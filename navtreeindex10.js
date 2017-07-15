@@ -1,5 +1,13 @@
 var NAVTREEINDEX10 =
 {
+"d1/d55/classXonoticHUDModIconsDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,184,85],
+"d1/d55/classXonoticHUDModIconsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,184,51],
+"d1/d55/classXonoticHUDModIconsDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,184,63],
+"d1/d55/classXonoticHUDModIconsDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,184,88],
+"d1/d55/classXonoticHUDModIconsDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,184,31],
+"d1/d55/classXonoticHUDModIconsDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,184,62],
+"d1/d55/classXonoticHUDModIconsDialog.html#ae10854461c6e3f793625fbe987684f14":[1,0,184,81],
+"d1/d55/classXonoticHUDModIconsDialog.html#ae176adbebbecba08c9c083577d226498":[1,0,184,69],
 "d1/d55/classXonoticHUDModIconsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,184,55],
 "d1/d55/classXonoticHUDModIconsDialog.html#ae3f71a034814722bf150347be62c0213":[1,0,184,87],
 "d1/d55/classXonoticHUDModIconsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,184,91],
@@ -241,13 +249,5 @@ var NAVTREEINDEX10 =
 "d1/d70/classXonoticSoundList.html#a230ddb1a3db4e3db29b3c2e1590dd22e":[1,0,241,83],
 "d1/d70/classXonoticSoundList.html#a235355aace741c77462c66d35b2c5e2a":[1,0,241,5],
 "d1/d70/classXonoticSoundList.html#a2976526ce80a74f7269a4e7532b396da":[1,0,241,43],
-"d1/d70/classXonoticSoundList.html#a2aed9b007db3378480b691b9a52f3a7e":[1,0,241,85],
-"d1/d70/classXonoticSoundList.html#a2bbb7c558d5c32523fbf0e6dc0427d00":[1,0,241,2],
-"d1/d70/classXonoticSoundList.html#a2e708644616f29e33ac117899d49d700":[1,0,241,23],
-"d1/d70/classXonoticSoundList.html#a346d3fd09bc071dc7877bd8506aa103c":[1,0,241,31],
-"d1/d70/classXonoticSoundList.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,241,0],
-"d1/d70/classXonoticSoundList.html#a39faad4c275af7a96e30379428646997":[1,0,241,13],
-"d1/d70/classXonoticSoundList.html#a405b285a76ac127664593c89281a5b63":[1,0,241,55],
-"d1/d70/classXonoticSoundList.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,241,21],
-"d1/d70/classXonoticSoundList.html#a4a43b2105dc060646442c9331757e17d":[1,0,241,1]
+"d1/d70/classXonoticSoundList.html#a2aed9b007db3378480b691b9a52f3a7e":[1,0,241,85]
 };

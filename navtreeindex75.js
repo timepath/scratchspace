@@ -1,5 +1,16 @@
 var NAVTREEINDEX75 =
 {
+"d8/da8/classXonoticServerCreateTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,232,22],
+"d8/da8/classXonoticServerCreateTab.html#a4869983b8dc750584479ade5447c8413":[1,0,232,33],
+"d8/da8/classXonoticServerCreateTab.html#a4ad8d403de20048384fe85b379309436":[1,0,232,84],
+"d8/da8/classXonoticServerCreateTab.html#a4b31067b7306b3ff784d532ca70d2a3f":[1,0,232,12],
+"d8/da8/classXonoticServerCreateTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,232,62],
+"d8/da8/classXonoticServerCreateTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,232,40],
+"d8/da8/classXonoticServerCreateTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,232,46],
+"d8/da8/classXonoticServerCreateTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,232,54],
+"d8/da8/classXonoticServerCreateTab.html#a53de8355052b658819638577356cc8f3":[1,0,232,66],
+"d8/da8/classXonoticServerCreateTab.html#a57b1cc86984413987a29a4417c9db01a":[1,0,232,9],
+"d8/da8/classXonoticServerCreateTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,232,97],
 "d8/da8/classXonoticServerCreateTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,232,59],
 "d8/da8/classXonoticServerCreateTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,232,27],
 "d8/da8/classXonoticServerCreateTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,232,73],
@@ -238,16 +249,5 @@ var NAVTREEINDEX75 =
 "d8/dc1/sv__monsters_8qh.html#a13c832506cac26065a468274572e4e37":[2,0,1,8,7,0],
 "d8/dc1/sv__monsters_8qh.html#a14003dc713ba221ddab6bdbbc785abfa":[2,0,1,8,7,33],
 "d8/dc1/sv__monsters_8qh.html#a170809cf3435df92a29373db1d660682":[2,0,1,8,7,37],
-"d8/dc1/sv__monsters_8qh.html#a1d734f67571d6c89c8f175c941f2ae9a":[2,0,1,8,7,21],
-"d8/dc1/sv__monsters_8qh.html#a1e264a94238b71678a588bef93292d8a":[2,0,1,8,7,12],
-"d8/dc1/sv__monsters_8qh.html#a1f414c0969b6c1295fe5532e26907520":[2,0,1,8,7,61],
-"d8/dc1/sv__monsters_8qh.html#a287fcf4b75e1081ea18d19728d01306d":[2,0,1,8,7,29],
-"d8/dc1/sv__monsters_8qh.html#a29d21890b47bfd20356f52c4f570dd1c":[2,0,1,8,7,35],
-"d8/dc1/sv__monsters_8qh.html#a2c02e8f23a42bd08e8dae3393efa8f2f":[2,0,1,8,7,15],
-"d8/dc1/sv__monsters_8qh.html#a2de98900259279eb280460869e2552f8":[2,0,1,8,7,53],
-"d8/dc1/sv__monsters_8qh.html#a2e34ebdf7a40307b2e0f2f99b9a2bef6":[2,0,1,8,7,26],
-"d8/dc1/sv__monsters_8qh.html#a31492c5cad0e29b12cb0262caa3a792e":[2,0,1,8,7,40],
-"d8/dc1/sv__monsters_8qh.html#a39265a291582ecec76146c1352a0f36d":[2,0,1,8,7,28],
-"d8/dc1/sv__monsters_8qh.html#a3cc6c5ace47e92be4a08f9467d7fbdd7":[2,0,1,8,7,62],
-"d8/dc1/sv__monsters_8qh.html#a3ec1615b6dd141149c6e4882c2a88ef1":[2,0,1,8,7,36]
+"d8/dc1/sv__monsters_8qh.html#a1d734f67571d6c89c8f175c941f2ae9a":[2,0,1,8,7,21]
 };

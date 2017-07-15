@@ -1,5 +1,16 @@
 var NAVTREEINDEX55 =
 {
+"d6/d79/classXonoticHUDWeaponsDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,196,7],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a22ebf03c2ef14246155b38b20522908c":[1,0,196,69],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,196,72],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,196,4],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,196,43],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,196,21],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,196,49],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,196,54],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,196,29],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,196,19],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,196,22],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,196,13],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,196,61],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,196,30],
@@ -238,16 +249,5 @@ var NAVTREEINDEX55 =
 "d6/d96/classRaceCTS.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,101,5],
 "d6/d97/common_2vehicles_2__mod_8qh.html":[2,0,1,15,4],
 "d6/d97/common_2vehicles_2__mod_8qh_source.html":[2,0,1,15,4],
-"d6/d99/effectinfo__buffs_8inc.html":[2,0,1,2,10],
-"d6/d99/effectinfo__buffs_8inc.html#a010c16868061b3991e58f04043922167":[2,0,1,2,10,25],
-"d6/d99/effectinfo__buffs_8inc.html#a0fbceecaf07c119250c3de389b206752":[2,0,1,2,10,14],
-"d6/d99/effectinfo__buffs_8inc.html#a1562dfdcbdabeccbcd866d6b4c9255d3":[2,0,1,2,10,9],
-"d6/d99/effectinfo__buffs_8inc.html#a1768af9142ced0783dd5a1d203b77e82":[2,0,1,2,10,3],
-"d6/d99/effectinfo__buffs_8inc.html#a18deccb2982ad44150442a641fca64f9":[2,0,1,2,10,24],
-"d6/d99/effectinfo__buffs_8inc.html#a269ec7c3574e9b543bba37a128b1ba06":[2,0,1,2,10,32],
-"d6/d99/effectinfo__buffs_8inc.html#a2afc1ace90f557ab1ee710b538cbe084":[2,0,1,2,10,33],
-"d6/d99/effectinfo__buffs_8inc.html#a2b5ec5224cee870dcc9ebe8e416baf5e":[2,0,1,2,10,7],
-"d6/d99/effectinfo__buffs_8inc.html#a2c4c71ac9365e97a0926008ead8cad99":[2,0,1,2,10,26],
-"d6/d99/effectinfo__buffs_8inc.html#a3089451ea1e15ebd07c331be0a1cf682":[2,0,1,2,10,13],
-"d6/d99/effectinfo__buffs_8inc.html#a3327762656498830acfa6e2df45f76aa":[2,0,1,2,10,1]
+"d6/d99/effectinfo__buffs_8inc.html":[2,0,1,2,10]
 };
