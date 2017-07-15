@@ -292,7 +292,6 @@ var server_2defs_8qh =
     [ "typehit_time", "d5/d26/server_2defs_8qh.html#a91fceb73546fd2b5962b1af96236fc83", null ],
     [ "typehitsound", "d5/d26/server_2defs_8qh.html#a2b2cad71d9088357051170c08fb286a9", null ],
     [ "version", "d5/d26/server_2defs_8qh.html#ab62c3e734e7e08da39abab83df1b3fd5", null ],
-    [ "version_mismatch", "d5/d26/server_2defs_8qh.html#abae872f9d23683ec4e9f8227aec12083", null ],
     [ "vortex_charge", "d5/d26/server_2defs_8qh.html#a007e97f904a08307b01bb1e9d9bb4441", null ],
     [ "vortex_charge_rottime", "d5/d26/server_2defs_8qh.html#a034d7dc235642e26bd4ecc95532ed089", null ],
     [ "vortex_chargepool_ammo", "d5/d26/server_2defs_8qh.html#a1af62b08fa4568eb824b39cccc803e57", null ],

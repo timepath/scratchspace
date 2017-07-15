@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"d5/d69/gamemode__cts_8qc.html":[2,0,6,3,0,8],
+"d5/d69/gamemode__cts_8qc.html#a07ed282ad92406a801203975b2c36ad4":[2,0,6,3,0,8,6],
 "d5/d69/gamemode__cts_8qc.html#a120c9ac84851892b043448221bb11872":[2,0,6,3,0,8,12],
 "d5/d69/gamemode__cts_8qc.html#a1cddcb0ee9a4d88743ef05625413f129":[2,0,6,3,0,8,20],
 "d5/d69/gamemode__cts_8qc.html#a1f85b4c7dcb2d882737b98aa7f2c6e24":[2,0,6,3,0,8,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "d5/d81/crylink_8qh_source.html":[2,0,1,16,0,7],
 "d5/d83/client_2hud_2panel_2physics_8qc.html":[2,0,0,1,0,20],
 "d5/d83/client_2hud_2panel_2physics_8qc.html#a0541aa2cb969ce1ab0363aaed2b9ce2a":[2,0,0,1,0,20,7],
-"d5/d83/client_2hud_2panel_2physics_8qc.html#a19a97138ee157d8182facd2f3895b4df":[2,0,0,1,0,20,3],
-"d5/d83/client_2hud_2panel_2physics_8qc.html#a345cec93b3eb9336e0b3953880a86277":[2,0,0,1,0,20,5],
-"d5/d83/client_2hud_2panel_2physics_8qc.html#a7c6c65faab830eb180d015bf1600d0d6":[2,0,0,1,0,20,8]
+"d5/d83/client_2hud_2panel_2physics_8qc.html#a19a97138ee157d8182facd2f3895b4df":[2,0,0,1,0,20,3]
 };

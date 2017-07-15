@@ -1,5 +1,7 @@
 var NAVTREEINDEX123 =
 {
+"de/d65/classXonoticHUDInfoMessagesDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,182,22],
+"de/d65/classXonoticHUDInfoMessagesDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,182,13],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,182,61],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,182,30],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,182,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "de/d7a/classXonoticHUDScoreDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,192,21],
 "de/d7a/classXonoticHUDScoreDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,192,49],
 "de/d7a/classXonoticHUDScoreDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,192,54],
-"de/d7a/classXonoticHUDScoreDialog.html#a2b51e4a1c2044aa055cbe38704418697":[1,0,192,83],
-"de/d7a/classXonoticHUDScoreDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,192,29],
-"de/d7a/classXonoticHUDScoreDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,192,19]
+"de/d7a/classXonoticHUDScoreDialog.html#a2b51e4a1c2044aa055cbe38704418697":[1,0,192,83]
 };

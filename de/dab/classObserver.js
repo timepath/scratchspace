@@ -70,5 +70,6 @@ var classObserver =
     [ "teamkill_soundtime", "de/dab/classObserver.html#a9777fb5ad261e2a186af2f72be81b497", null ],
     [ "usekeypressed", "de/dab/classObserver.html#a53ebb19cee46f4709b3d88a1434e5b93", null ],
     [ "v_angle", "de/dab/classObserver.html#adbc59e37e184e760484bc8aa1aea4f93", null ],
+    [ "version_mismatch", "de/dab/classObserver.html#a2e556daf59228727cd12d5c6666da161", null ],
     [ "version_nagtime", "de/dab/classObserver.html#aa5b03024329d76308546cc7194866070", null ]
 ];

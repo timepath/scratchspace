@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"d6/dfa/dialog__hudpanel__healtharmor_8qh.html":[2,0,5,4,53],
+"d6/dfa/dialog__hudpanel__healtharmor_8qh_source.html":[2,0,5,4,53],
 "d7/d01/menu_2xonotic_2campaign_8qh.html":[2,0,5,4,9],
 "d7/d01/menu_2xonotic_2campaign_8qh.html#a1e5782e41ac51960575f7ee5fa22747d":[2,0,5,4,9,4],
 "d7/d01/menu_2xonotic_2campaign_8qh.html#a5656ccb784859a99e35de72266fb310f":[2,0,5,4,9,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "d7/d18/cl__overkill_8qh.html":[2,0,1,9,0,20,3],
 "d7/d18/cl__overkill_8qh_source.html":[2,0,1,9,0,20,3],
 "d7/d21/dialog__sandboxtools_8qc.html":[2,0,5,4,116],
-"d7/d21/dialog__sandboxtools_8qc.html#ac25be4335e49b3f698c217f81dfdc42e":[2,0,5,4,116,0],
-"d7/d21/dialog__sandboxtools_8qc_source.html":[2,0,5,4,116],
-"d7/d21/item_2inputbox_8qh.html":[2,0,5,2,15]
+"d7/d21/dialog__sandboxtools_8qc.html#ac25be4335e49b3f698c217f81dfdc42e":[2,0,5,4,116,0]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX44 =
 {
+"d4/df8/classXonoticHUDRadarDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,191,19],
+"d4/df8/classXonoticHUDRadarDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,191,22],
+"d4/df8/classXonoticHUDRadarDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,191,13],
 "d4/df8/classXonoticHUDRadarDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,191,61],
 "d4/df8/classXonoticHUDRadarDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,191,30],
 "d4/df8/classXonoticHUDRadarDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,191,6],
@@ -238,16 +241,13 @@ var NAVTREEINDEX44 =
 "d5/d23/dialog__hudpanel__weapons_8qc.html#aee76c4f17e6e2862e822223192dddb97":[2,0,5,4,80,0],
 "d5/d23/dialog__hudpanel__weapons_8qc_source.html":[2,0,5,4,80],
 "d5/d26/server_2defs_8qh.html":[2,0,6,22],
-"d5/d26/server_2defs_8qh.html#a007e97f904a08307b01bb1e9d9bb4441":[2,0,6,22,293],
+"d5/d26/server_2defs_8qh.html#a007e97f904a08307b01bb1e9d9bb4441":[2,0,6,22,292],
 "d5/d26/server_2defs_8qh.html#a01afd0d1a091e3feeaacacebb74b6433":[2,0,6,22,126],
 "d5/d26/server_2defs_8qh.html#a024986e78fb6fbfa53a715e84f8e1156":[2,0,6,22,47],
 "d5/d26/server_2defs_8qh.html#a02bc0ed2dad26a552548fc97d9f5b1ec":[2,0,6,22,164],
-"d5/d26/server_2defs_8qh.html#a034d7dc235642e26bd4ecc95532ed089":[2,0,6,22,294],
+"d5/d26/server_2defs_8qh.html#a034d7dc235642e26bd4ecc95532ed089":[2,0,6,22,293],
 "d5/d26/server_2defs_8qh.html#a044ccfadd8a43c3ffc642665a1ba6953":[2,0,6,22,170],
 "d5/d26/server_2defs_8qh.html#a0640d49b2a9b773eb33f5162c069c431":[2,0,6,22,235],
 "d5/d26/server_2defs_8qh.html#a067c6fc2c94c080c9e94a020c41f036e":[2,0,6,22,195],
-"d5/d26/server_2defs_8qh.html#a06bf944f94071c6cf5e71694ffbb5734":[2,0,6,22,216],
-"d5/d26/server_2defs_8qh.html#a072151adb9da1963c84bb1b64e9043c2":[2,0,6,22,158],
-"d5/d26/server_2defs_8qh.html#a077a8c5ecb61207014e4ec35b41cec56":[2,0,6,22,250],
-"d5/d26/server_2defs_8qh.html#a07e251b4dcba0af187db3496fbdae0df":[2,0,6,22,288]
+"d5/d26/server_2defs_8qh.html#a06bf944f94071c6cf5e71694ffbb5734":[2,0,6,22,216]
 };

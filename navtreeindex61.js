@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"d7/d21/dialog__sandboxtools_8qc_source.html":[2,0,5,4,116],
+"d7/d21/item_2inputbox_8qh.html":[2,0,5,2,15],
 "d7/d21/item_2inputbox_8qh_source.html":[2,0,5,2,15],
 "d7/d24/teleport__dest_8qh.html":[2,0,1,13,1,11],
 "d7/d24/teleport__dest_8qh_source.html":[2,0,1,13,1,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "d7/d39/sv__nix_8qc.html#afe23a58755fb7e2299d2aae2c4d6d1bd":[2,0,1,9,0,19,2,18],
 "d7/d39/sv__nix_8qc_source.html":[2,0,1,9,0,19,2],
 "d7/d42/dialog__multiplayer__join_8qh.html":[2,0,5,4,95],
-"d7/d42/dialog__multiplayer__join_8qh.html#a23af548c6170f613544cf2ccd36bbdc4":[2,0,5,4,95,1],
-"d7/d42/dialog__multiplayer__join_8qh_source.html":[2,0,5,4,95],
-"d7/d44/sv__running__guns_8qc.html":[2,0,1,9,0,26,2]
+"d7/d42/dialog__multiplayer__join_8qh.html#a23af548c6170f613544cf2ccd36bbdc4":[2,0,5,4,95,1]
 };

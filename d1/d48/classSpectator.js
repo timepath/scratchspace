@@ -70,5 +70,6 @@ var classSpectator =
     [ "teamkill_soundtime", "d1/d48/classSpectator.html#a9777fb5ad261e2a186af2f72be81b497", null ],
     [ "usekeypressed", "d1/d48/classSpectator.html#a53ebb19cee46f4709b3d88a1434e5b93", null ],
     [ "v_angle", "d1/d48/classSpectator.html#adbc59e37e184e760484bc8aa1aea4f93", null ],
+    [ "version_mismatch", "d1/d48/classSpectator.html#a2e556daf59228727cd12d5c6666da161", null ],
     [ "version_nagtime", "d1/d48/classSpectator.html#aa5b03024329d76308546cc7194866070", null ]
 ];
