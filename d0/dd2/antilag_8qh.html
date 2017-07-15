@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('d0/dd2/antilag_8qh.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ab20ae59dea3092635c126d7036ae331e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd2/antilag_8qh.html#ab20ae59dea3092635c126d7036ae331e">ANTILAG_LATENCY</a>(e)&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(0.4, <a class="el" href="../../de/d5e/dpextensions_8qc.html#a1ae34f64da3c4127ba84944c82cbe279">e.ping</a> * 0.001)</td></tr>
+<tr class="memitem:ab20ae59dea3092635c126d7036ae331e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd2/antilag_8qh.html#ab20ae59dea3092635c126d7036ae331e">ANTILAG_LATENCY</a>(e)&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(0.4, <a class="el" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(e).<a class="el" href="../../de/d5e/dpextensions_8qc.html#a1ae34f64da3c4127ba84944c82cbe279">ping</a> * 0.001)</td></tr>
 <tr class="separator:ab20ae59dea3092635c126d7036ae331e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -153,14 +153,14 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">e</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(0.4, <a class="el" href="../../de/d5e/dpextensions_8qc.html#a1ae34f64da3c4127ba84944c82cbe279">e.ping</a> * 0.001)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(0.4, <a class="el" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(e).<a class="el" href="../../de/d5e/dpextensions_8qc.html#a1ae34f64da3c4127ba84944c82cbe279">ping</a> * 0.001)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00011">11</a> of file <a class="el" href="../../d0/dd2/antilag_8qh_source.html">antilag.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00227">anticheat_fixangle()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00034">crosshair_trace()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00336">fireBullet()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00200">FireRailgunBullet()</a>, <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00055">W_HitPlotAnalysis()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00024">W_SetupShot_Dir_ProjectileSize_Range()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00061">WarpZone_crosshair_trace()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00227">anticheat_fixangle()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00034">crosshair_trace()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00333">fireBullet()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00197">FireRailgunBullet()</a>, <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00055">W_HitPlotAnalysis()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00024">W_SetupShot_Dir_ProjectileSize_Range()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00061">WarpZone_crosshair_trace()</a>.</p>
 
 </div>
 </div>
@@ -334,7 +334,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00099">antilag_restore()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, and <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00076">VHF_PLAYERSLOT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00112">antilag_clear()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00099">antilag_restore()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00336">fireBullet()</a>, <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00037">tracebox_antilag_force_wz()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00055">W_HitPlotAnalysis()</a>.</p>
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00112">antilag_clear()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00099">antilag_restore()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00333">fireBullet()</a>, <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00037">tracebox_antilag_force_wz()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00055">W_HitPlotAnalysis()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span> (e.vehicle) {</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">if</span> (e.vehicle.vehicle_flags == <a class="code" href="../../d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7">VHF_PLAYERSLOT</a>) <span class="keywordflow">return</span>;</div>
@@ -406,7 +406,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00084">antilag_takeback()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00058">antilag_takebackorigin()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00076">VHF_PLAYERSLOT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00084">antilag_takeback()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00336">fireBullet()</a>, <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00037">tracebox_antilag_force_wz()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00055">W_HitPlotAnalysis()</a>.</p>
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00084">antilag_takeback()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00333">fireBullet()</a>, <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00037">tracebox_antilag_force_wz()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00055">W_HitPlotAnalysis()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;{</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">if</span> (e.vehicle) {</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">if</span> (e.vehicle.vehicle_flags == <a class="code" href="../../d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7">VHF_PLAYERSLOT</a>) <span class="keywordflow">return</span>;</div>
@@ -546,7 +546,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d0/dd2/antilag_8qh.html">antilag.qh</a></li>
-    <li class="footer">Generated on Sat Jul 15 2017 15:26:27 for Xonotic by
+    <li class="footer">Generated on Sat Jul 15 2017 20:41:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,10 +1,10 @@
 <map id="weaponslot" name="weaponslot">
 <area shape="rect" id="node2" href="$d8/d6b/selection_8qh.html#aba6ed323f0e8f5773f5d7de51e2d3411" title="client_hasweapon" alt="" coords="166,259,293,285"/>
 <area shape="rect" id="node17" href="$da/db7/weaponsystem_8qh.html#a9bcd792c8ccabbcc22484eb7872f70b8" title="W_WeaponFrame" alt="" coords="595,335,722,361"/>
-<area shape="rect" id="node18" href="$d7/de2/g__hook_8qc.html#a4047a2243dce68b59b0b6b56e5ee17fd" title="GrapplingHookSend" alt="" coords="160,385,299,412"/>
-<area shape="rect" id="node20" href="$da/d4e/sv__monsters_8qc.html#ae462223388ce892d843ac2362fa6ef6b" title="Monster_Attack_Check" alt="" coords="150,436,309,463"/>
-<area shape="rect" id="node31" href="$d5/de0/weaponsystem_8qc.html#ab2f890a6e9e47bd09060607fa6ea4add" title="weapon_prepareattack\l_check" alt="" coords="153,487,306,529"/>
-<area shape="rect" id="node33" href="$d5/de0/weaponsystem_8qc.html#a8333b89e537957bfd5529a40b6c3a19d" title="weapon_prepareattack_do" alt="" coords="142,553,317,580"/>
+<area shape="rect" id="node19" href="$d7/de2/g__hook_8qc.html#a4047a2243dce68b59b0b6b56e5ee17fd" title="GrapplingHookSend" alt="" coords="160,385,299,412"/>
+<area shape="rect" id="node21" href="$da/d4e/sv__monsters_8qc.html#ae462223388ce892d843ac2362fa6ef6b" title="Monster_Attack_Check" alt="" coords="150,436,309,463"/>
+<area shape="rect" id="node32" href="$d5/de0/weaponsystem_8qc.html#ab2f890a6e9e47bd09060607fa6ea4add" title="weapon_prepareattack\l_check" alt="" coords="153,487,306,529"/>
+<area shape="rect" id="node34" href="$d5/de0/weaponsystem_8qc.html#a8333b89e537957bfd5529a40b6c3a19d" title="weapon_prepareattack_do" alt="" coords="142,553,317,580"/>
 <area shape="rect" id="node3" href="$d8/d6b/selection_8qh.html#adf3e13e24e532932c0396c15ad5d1228" title="W_GetCycleWeapon" alt="" coords="370,132,515,159"/>
 <area shape="rect" id="node11" href="$d8/d6b/selection_8qh.html#a7e2426ae180c23d1a760ea0951ddd2f1" title="W_SwitchWeapon" alt="" coords="377,233,508,260"/>
 <area shape="rect" id="node15" href="$d8/d6b/selection_8qh.html#ad4bf72dfdd0aaeca5bc1da4fb607fb3b" title="W_LastWeapon" alt="" coords="601,284,716,311"/>
@@ -19,16 +19,17 @@
 <area shape="rect" id="node14" href="$d4/d53/server_2impulse_8qc.html#aa49d1689e7a0abe0dd80fb31d1018e98" title="IMPULSE" alt="" coords="618,233,699,260"/>
 <area shape="rect" id="node13" href="$d7/d39/sv__nix_8qc.html#ac7256b175d4e46d36e04633521489e28" title="MUTATOR_HOOKFUNCTION" alt="" coords="798,183,1002,209"/>
 <area shape="rect" id="node16" href="$d4/d53/server_2impulse_8qc.html#ad1af0b2ac8778b30ea5741423ebeacdc" title="IMPULSE" alt="" coords="859,284,941,311"/>
-<area shape="rect" id="node19" href="$d7/de2/g__hook_8qc.html#ae2567f613b4799b5612e9c755231e62f" title="FireGrapplingHook" alt="" coords="377,385,508,412"/>
-<area shape="rect" id="node21" href="$da/d4e/sv__monsters_8qc.html#af743ad44b5406594d65a3cc6cc434503" title="Monster_Think" alt="" coords="389,436,497,463"/>
-<area shape="rect" id="node22" href="$da/d4e/sv__monsters_8qc.html#ae8583f9bde31f60a7137868d603e2b58" title="Monster_Spawn_Setup" alt="" coords="580,436,737,463"/>
-<area shape="rect" id="node23" href="$d8/dc1/sv__monsters_8qh.html#a1e264a94238b71678a588bef93292d8a" title="Monster_Spawn" alt="" coords="842,436,958,463"/>
-<area shape="rect" id="node24" href="$da/d4e/sv__monsters_8qc.html#a2b57b31035d01a69ccd6e8c6970ed5dd" title="Monster_Respawn" alt="" coords="1051,360,1181,387"/>
-<area shape="rect" id="node29" href="$da/d4e/sv__monsters_8qc.html#ae9c174dd3b336a7270caba2894224d0f" title="Monster_Appear" alt="" coords="1057,461,1175,488"/>
-<area shape="rect" id="node25" href="$da/d4e/sv__monsters_8qc.html#a64003301dcc44254935df433ea236780" title="Monster_Dead_Fade" alt="" coords="1239,360,1382,387"/>
-<area shape="rect" id="node26" href="$da/d4e/sv__monsters_8qc.html#a304ebddf2011e967eb6e3d0da5b4a760" title="Monster_Dead_Think" alt="" coords="1440,360,1587,387"/>
-<area shape="rect" id="node27" href="$da/d4e/sv__monsters_8qc.html#a9fe966953fdc6ae52562b48fe4776295" title="Monster_Dead" alt="" coords="1635,360,1741,387"/>
-<area shape="rect" id="node28" href="$da/d4e/sv__monsters_8qc.html#a100d851a4f02e4bd6177462aad0a9d1f" title="Monster_Damage" alt="" coords="1789,385,1915,412"/>
-<area shape="rect" id="node30" href="$da/d4e/sv__monsters_8qc.html#a0c5d94fd195b12611f3bd45c0546bfca" title="Monster_Appear_Check" alt="" coords="1229,487,1392,513"/>
-<area shape="rect" id="node32" href="$da/db7/weaponsystem_8qh.html#a3eef678d2a46dc639f684d226fae3906" title="weapon_prepareattack" alt="" coords="366,524,519,551"/>
+<area shape="rect" id="node18" href="$df/dd7/server_2client_8qc.html#aa07f86bdc6b9c9a812296f5c5ff48f95" title="PlayerThink" alt="" coords="855,335,945,361"/>
+<area shape="rect" id="node20" href="$d7/de2/g__hook_8qc.html#ae2567f613b4799b5612e9c755231e62f" title="FireGrapplingHook" alt="" coords="377,385,508,412"/>
+<area shape="rect" id="node22" href="$da/d4e/sv__monsters_8qc.html#af743ad44b5406594d65a3cc6cc434503" title="Monster_Think" alt="" coords="389,436,497,463"/>
+<area shape="rect" id="node23" href="$da/d4e/sv__monsters_8qc.html#ae8583f9bde31f60a7137868d603e2b58" title="Monster_Spawn_Setup" alt="" coords="580,436,737,463"/>
+<area shape="rect" id="node24" href="$d8/dc1/sv__monsters_8qh.html#a1e264a94238b71678a588bef93292d8a" title="Monster_Spawn" alt="" coords="842,436,958,463"/>
+<area shape="rect" id="node25" href="$da/d4e/sv__monsters_8qc.html#a2b57b31035d01a69ccd6e8c6970ed5dd" title="Monster_Respawn" alt="" coords="1051,360,1181,387"/>
+<area shape="rect" id="node30" href="$da/d4e/sv__monsters_8qc.html#ae9c174dd3b336a7270caba2894224d0f" title="Monster_Appear" alt="" coords="1057,461,1175,488"/>
+<area shape="rect" id="node26" href="$da/d4e/sv__monsters_8qc.html#a64003301dcc44254935df433ea236780" title="Monster_Dead_Fade" alt="" coords="1239,360,1382,387"/>
+<area shape="rect" id="node27" href="$da/d4e/sv__monsters_8qc.html#a304ebddf2011e967eb6e3d0da5b4a760" title="Monster_Dead_Think" alt="" coords="1440,360,1587,387"/>
+<area shape="rect" id="node28" href="$da/d4e/sv__monsters_8qc.html#a9fe966953fdc6ae52562b48fe4776295" title="Monster_Dead" alt="" coords="1635,360,1741,387"/>
+<area shape="rect" id="node29" href="$da/d4e/sv__monsters_8qc.html#a100d851a4f02e4bd6177462aad0a9d1f" title="Monster_Damage" alt="" coords="1789,385,1915,412"/>
+<area shape="rect" id="node31" href="$da/d4e/sv__monsters_8qc.html#a0c5d94fd195b12611f3bd45c0546bfca" title="Monster_Appear_Check" alt="" coords="1229,487,1392,513"/>
+<area shape="rect" id="node33" href="$da/db7/weaponsystem_8qh.html#a3eef678d2a46dc639f684d226fae3906" title="weapon_prepareattack" alt="" coords="366,524,519,551"/>
 </map>

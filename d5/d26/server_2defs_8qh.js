@@ -189,7 +189,6 @@ var server_2defs_8qh =
     [ "kill_time", "d5/d26/server_2defs_8qh.html#a7ebf17d5b07bd64fc002c1418e75264d", null ],
     [ "killcount", "d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003", null ],
     [ "killindicator", "d5/d26/server_2defs_8qh.html#a59f3bedf42216e820a4817519548bd90", null ],
-    [ "killindicator_teamchange", "d5/d26/server_2defs_8qh.html#a8a0853bb3efdbe194336998d3d095d46", null ],
     [ "killsound", "d5/d26/server_2defs_8qh.html#ae6bd352ab3129bbecd9993d9f61c30d6", null ],
     [ "last_pickup", "d5/d26/server_2defs_8qh.html#a4c2a4355b361c929f1a4a9b1457e209d", null ],
     [ "lockteams", "d5/d26/server_2defs_8qh.html#ac9a5c917d5f6eb50b1aa1b333de61a88", null ],

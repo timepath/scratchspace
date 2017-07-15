@@ -2093,7 +2093,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00560">560</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00015">IS_BOT_CLIENT</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
+<p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00015">IS_BOT_CLIENT</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00095">ping</a>.</p>
 <div class="fragment"><div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;{</div>
 <div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_attacker = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
 <div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
@@ -2104,12 +2104,14 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;    <span class="keywordflow">if</span>(STAT(FROZEN, frag_target))</div>
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;        <span class="keywordflow">return</span>; <span class="comment">// target was already frozen, so this is just pushing them off the cliff</span></div>
 <div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;</div>
-<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;    Send_Notification(NOTIF_ONE, frag_attacker, MSG_CHOICE, CHOICE_FRAG_FREEZE, frag_target.netname, kill_count_to_attacker, (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(frag_target) ? -1 : frag_target.ping));</div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;    Send_Notification(NOTIF_ONE, frag_target, MSG_CHOICE, CHOICE_FRAGGED_FREEZE, frag_attacker.netname, kill_count_to_target, frag_attacker.health, frag_attacker.armorvalue, (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(frag_attacker) ? -1 : frag_attacker.ping));</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;    Send_Notification(NOTIF_ONE, frag_attacker, MSG_CHOICE, CHOICE_FRAG_FREEZE, frag_target.netname, kill_count_to_attacker, (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(frag_target) ? -1 : <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(frag_target).<a class="code" href="../../d0/d2a/client_2main_8qh.html#a1ae34f64da3c4127ba84944c82cbe279">ping</a>));</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;    Send_Notification(NOTIF_ONE, frag_target, MSG_CHOICE, CHOICE_FRAGGED_FREEZE, frag_attacker.netname, kill_count_to_target, frag_attacker.health, frag_attacker.armorvalue, (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(frag_attacker) ? -1 : <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(frag_attacker).<a class="code" href="../../d0/d2a/client_2main_8qh.html#a1ae34f64da3c4127ba84944c82cbe279">ping</a>));</div>
 <div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;</div>
 <div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
+<div class="ttc" id="client_2main_8qh_html_a1ae34f64da3c4127ba84944c82cbe279"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a1ae34f64da3c4127ba84944c82cbe279">ping</a></div><div class="ttdeci">float ping</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00095">main.qh:95</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_afff35aba15a6e110ae0fe9e4a8d1a0f6"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a></div><div class="ttdeci">#define IS_BOT_CLIENT(v)</div><div class="ttdoc">want: (IS_CLIENT(v) &amp;&amp; !IS_REAL_CLIENT(v)) </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00015">_all.qh:15</a></div></div>
 </div><!-- fragment -->
@@ -2118,7 +2120,7 @@ Variables</h2></td></tr>
 <div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-38-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d26/gamemode__freezetag_8qc_a739c1a42bb0065bedbf6b64fe4a81ffa_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d26/gamemode__freezetag_8qc_a739c1a42bb0065bedbf6b64fe4a81ffa_cgraph.svg" width="320" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2280,7 +2282,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../db/d26/gamemode__freezetag_8qc.html">gamemode_freezetag.qc</a></li>
-    <li class="footer">Generated on Sat Jul 15 2017 15:26:29 for Xonotic by
+    <li class="footer">Generated on Sat Jul 15 2017 20:41:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

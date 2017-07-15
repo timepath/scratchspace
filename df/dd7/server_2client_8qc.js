@@ -43,7 +43,9 @@ var server_2client_8qc =
     [ "PlayerInList", "df/dd7/server_2client_8qc.html#add10a2edc8021068c2d62f1117d51246", null ],
     [ "PlayerPostThink", "df/dd7/server_2client_8qc.html#a35da2ff46a7d16ee6dd935fc1e65a72c", null ],
     [ "PlayerPreThink", "df/dd7/server_2client_8qc.html#ac4842064b7f7b032f654e24f1fa5a155", null ],
+    [ "PlayerThink", "df/dd7/server_2client_8qc.html#aa07f86bdc6b9c9a812296f5c5ff48f95", null ],
     [ "PlayerUseKey", "df/dd7/server_2client_8qc.html#a457d60bc0a50d32a90da5a3acb9e8db1", null ],
+    [ "PM_UpdateButtons", "df/dd7/server_2client_8qc.html#ac185a5e41e777ed1d4645f4eb2aeda49", null ],
     [ "PrintWelcomeMessage", "df/dd7/server_2client_8qc.html#a6762be978fd49a3727236251c8d4702a", null ],
     [ "PutClientInServer", "df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a", null ],
     [ "PutClientInServer", "df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951", null ],
@@ -76,7 +78,6 @@ var server_2client_8qc =
     [ "clientkilltime", "df/dd7/server_2client_8qc.html#a482f54a20df32f498a4c3cca6f372fee", null ],
     [ "FallbackPlayerModel", "df/dd7/server_2client_8qc.html#af5e87ff2e4692a9299766df3a8d949d7", null ],
     [ "frame", "df/dd7/server_2client_8qc.html#a6828e314f91bec7a1445f0be1b00d7c0", null ],
-    [ "idlekick_lasttimeleft", "df/dd7/server_2client_8qc.html#abcb65a45d0fdc442693ce1ae87579b2a", null ],
     [ "items_added", "df/dd7/server_2client_8qc.html#a1566e9e3058439870cbcfd72542b4792", null ],
     [ "last_vehiclecheck", "df/dd7/server_2client_8qc.html#a8dd80f958cebe7a215c3ebfd7895e623", null ],
     [ "model_randomizer", "df/dd7/server_2client_8qc.html#a796e7f6d76eff169d587d849ed8c29f0", null ],
@@ -84,6 +85,5 @@ var server_2client_8qc =
     [ "netname_previous", "df/dd7/server_2client_8qc.html#af2620e84061ce2c37df08531c1327cdc", null ],
     [ "team", "df/dd7/server_2client_8qc.html#aa44b2778d23d1f4efed985b6cc12375a", null ],
     [ "team_selected", "df/dd7/server_2client_8qc.html#ab71754893182e8830b826e9e9692db91", null ],
-    [ "usekeypressed", "df/dd7/server_2client_8qc.html#a4a953fc8590535e314187086ee49e2b4", null ],
     [ "zoomstate_set", "df/dd7/server_2client_8qc.html#a5b6fdfd29020d840be5d04d7a4fe9cf6", null ]
 ];
