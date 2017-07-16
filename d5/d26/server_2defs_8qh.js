@@ -229,7 +229,6 @@ var server_2defs_8qh =
     [ "pauserothealth_finished", "d5/d26/server_2defs_8qh.html#ab449c96dec12874833ce78d1027bbbe2", null ],
     [ "personal", "d5/d26/server_2defs_8qh.html#ac6de0e82388dab2d51aafcd02f005121", null ],
     [ "phase", "d5/d26/server_2defs_8qh.html#a275dd6dafe5d4455e599ffd15feb06f8", null ],
-    [ "play_time", "d5/d26/server_2defs_8qh.html#acfe971ca922ef3a2f28c08825227216b", null ],
     [ "player_blocked", "d5/d26/server_2defs_8qh.html#a784800f2f4af6970623df1c29769819e", null ],
     [ "player_count", "d5/d26/server_2defs_8qh.html#aa9133b1e9c4643806028438151bd2f6e", null ],
     [ "playerid", "d5/d26/server_2defs_8qh.html#a31c2e523e63d0215e6075125fea821f3", null ],

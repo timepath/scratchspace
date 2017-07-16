@@ -6,7 +6,6 @@ var g__world_8qc =
     [ "X", "db/dcc/g__world_8qc.html#afd2607023ed26fd5f9af908d15fa579b", null ],
     [ "__init_dedicated_server_shutdown", "db/dcc/g__world_8qc.html#a8f7565a7318ba27627a5f2d17d044172", null ],
     [ "AddWinners", "db/dcc/g__world_8qc.html#a665a3549db99a167e6d8e8e63e95e9d3", null ],
-    [ "CheckRules_Player", "db/dcc/g__world_8qc.html#a200258da0bc9688a881cc00bc82dd9eb", null ],
     [ "CheckRules_World", "db/dcc/g__world_8qc.html#a233af455133bc7ba4e3e100115bf2885", null ],
     [ "ClearWinners", "db/dcc/g__world_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820", null ],
     [ "ClientInit_Spawn", "db/dcc/g__world_8qc.html#addbfa5c0ba866c7ffd66239839bc9942", null ],

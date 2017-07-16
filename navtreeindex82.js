@@ -1,7 +1,5 @@
 var NAVTREEINDEX82 =
 {
-"d9/d3b/lib_2warpzone_2__mod_8inc_source.html":[2,0,4,2,0],
-"d9/d3c/common_2mutators_2mutator_2rocketminsta_2__mod_8inc.html":[2,0,1,9,0,25,0],
 "d9/d3c/common_2mutators_2mutator_2rocketminsta_2__mod_8inc_source.html":[2,0,1,9,0,25,0],
 "d9/d40/dialog__settings__audio_8qh.html":[2,0,5,4,121],
 "d9/d40/dialog__settings__audio_8qh.html#a9897d4b9ae8916a24d87fccc5defa1fa":[2,0,5,4,121,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX82 =
 "d9/d5b/struct_8qh.html#ae69c432837297969610c02ae676df3ef":[2,0,4,57,15],
 "d9/d5b/struct_8qh.html#af129c03c7f8ba74cb5a55dc4c2bbc571":[2,0,4,57,12],
 "d9/d5b/struct_8qh_source.html":[2,0,4,57],
-"d9/d5d/devastator_8qc.html":[2,0,1,16,0,8]
+"d9/d5d/devastator_8qc.html":[2,0,1,16,0,8],
+"d9/d5d/devastator_8qc.html#a10084ac62f4ccb9c9d1180c5db5d573d":[2,0,1,16,0,8,2],
+"d9/d5d/devastator_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,8,1]
 };

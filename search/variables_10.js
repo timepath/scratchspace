@@ -175,7 +175,6 @@ var searchData=
   ['platmovetype_5fstart',['platmovetype_start',['../db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36',1,'subs.qh']]],
   ['platmovetype_5fstart_5fdefault',['platmovetype_start_default',['../d1/d08/platforms_8qc.html#ae5c9634cd6109293a715a03a275c3849',1,'platforms.qc']]],
   ['platmovetype_5fturn',['platmovetype_turn',['../d2/dc2/subs_8qc.html#acfc05d721470c3c19835fe5d5bc5a3e9',1,'platmovetype_turn():&#160;subs.qc'],['../d6/d93/g__subs_8qh.html#acfc05d721470c3c19835fe5d5bc5a3e9',1,'platmovetype_turn():&#160;g_subs.qh']]],
-  ['play_5ftime',['play_time',['../d5/d26/server_2defs_8qh.html#acfe971ca922ef3a2f28c08825227216b',1,'defs.qh']]],
   ['player_5fblocked',['player_blocked',['../d5/d26/server_2defs_8qh.html#a784800f2f4af6970623df1c29769819e',1,'defs.qh']]],
   ['player_5fcount',['player_count',['../d5/d26/server_2defs_8qh.html#aa9133b1e9c4643806028438151bd2f6e',1,'defs.qh']]],
   ['player_5flocalentnum',['player_localentnum',['../d4/d0c/csprogsdefs_8qc.html#ab6222ff5aada93cc35a258b153a40286',1,'csprogsdefs.qc']]],

@@ -274,7 +274,6 @@ var searchData=
   ['checkrules_5fequality',['checkrules_equality',['../d7/d97/g__world_8qh.html#a97caeb65352f57bb47a6e6c68717d340',1,'g_world.qh']]],
   ['checkrules_5ffirstblood',['checkrules_firstblood',['../dd/de4/g__damage_8qh.html#a8e4883f896a53ad8a08175e49d6b19ba',1,'g_damage.qh']]],
   ['checkrules_5fovertimesadded',['checkrules_overtimesadded',['../d7/d97/g__world_8qh.html#aa828ac5e3b48ed829d4aac6a23588e7c',1,'g_world.qh']]],
-  ['checkrules_5fplayer',['CheckRules_Player',['../db/dcc/g__world_8qc.html#a200258da0bc9688a881cc00bc82dd9eb',1,'CheckRules_Player(entity this):&#160;g_world.qc'],['../d7/d97/g__world_8qh.html#a200258da0bc9688a881cc00bc82dd9eb',1,'CheckRules_Player(entity this):&#160;g_world.qc']]],
   ['checkrules_5fsuddendeathend',['checkrules_suddendeathend',['../d7/d97/g__world_8qh.html#a81db127801d7028f9604ec186e49abe5',1,'g_world.qh']]],
   ['checkrules_5fsuddendeathwarning',['checkrules_suddendeathwarning',['../d7/d97/g__world_8qh.html#a22e40e40becbd61f9e14841c6f5677ff',1,'g_world.qh']]],
   ['checkrules_5fworld',['CheckRules_World',['../db/dcc/g__world_8qc.html#a233af455133bc7ba4e3e100115bf2885',1,'CheckRules_World():&#160;g_world.qc'],['../d7/d97/g__world_8qh.html#a233af455133bc7ba4e3e100115bf2885',1,'CheckRules_World():&#160;g_world.qc']]],
