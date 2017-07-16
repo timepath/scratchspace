@@ -279,7 +279,7 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00295">295</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">TC</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">TC</a>.</p>
 <div class="fragment"><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    {</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        <span class="keywordtype">string</span> s = _(<span class="stringliteral">&quot;No description&quot;</span>);</div>
@@ -295,7 +295,7 @@ Public Attributes</h2></td></tr>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    }</div>
 <div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00292">oo.qh:292</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
-<div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">_all.inc:56</a></div></div>
+<div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">_all.inc:62</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -336,14 +336,14 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/d7c/common_2items_2item_8qh_source.html#l00057">57</a> of file <a class="el" href="../../d7/d7c/common_2items_2item_8qh_source.html">item.qh</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">TC</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">TC</a>.</p>
 <div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d0/d9a/classGameItem.html">GameItem</a>, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        returns(this.<a class="code" href="../../da/dc3/common_2scores_8qh.html#ab76434042ddfc9d5e703e038f0ad0b1f">m_name</a>, this.m_icon ? sprintf(<span class="stringliteral">&quot;/gfx/hud/%s/%s&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a>(<span class="stringliteral">&quot;menu_skin&quot;</span>), this.m_icon) : <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="classGameItem_html"><div class="ttname"><a href="../../d0/d9a/classGameItem.html">GameItem</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7c/common_2items_2item_8qh_source.html#l00046">item.qh:46</a></div></div>
-<div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">_all.inc:56</a></div></div>
+<div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">_all.inc:62</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a6f8c7ef6ee4a4d851aaa5fd1789eab9a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a></div><div class="ttdeci">const string cvar_string(string name)</div></div>
 <div class="ttc" id="common_2scores_8qh_html_ab76434042ddfc9d5e703e038f0ad0b1f"><div class="ttname"><a href="../../da/dc3/common_2scores_8qh.html#ab76434042ddfc9d5e703e038f0ad0b1f">m_name</a></div><div class="ttdeci">string m_name</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc3/common_2scores_8qh_source.html#l00129">scores.qh:129</a></div></div>
 </div><!-- fragment -->
@@ -422,14 +422,14 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/d7c/common_2items_2item_8qh_source.html#l00062">62</a> of file <a class="el" href="../../d7/d7c/common_2items_2item_8qh_source.html">item.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">TC</a>.</p>
+<p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">TC</a>.</p>
 <div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    {</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d0/d9a/classGameItem.html">GameItem</a>, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;A game item\n&quot;</span>);</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
 <div class="ttc" id="classGameItem_html"><div class="ttname"><a href="../../d0/d9a/classGameItem.html">GameItem</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7c/common_2items_2item_8qh_source.html#l00046">item.qh:46</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
-<div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">_all.inc:56</a></div></div>
+<div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">_all.inc:62</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -485,7 +485,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d9a/classGameItem.html">GameItem</a></li>
-    <li class="footer">Generated on Sun Jul 16 2017 05:11:33 for Xonotic by
+    <li class="footer">Generated on Sun Jul 16 2017 08:44:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"d8/de2/menudefs_8qc.html#ad23adfe81b5135255aa21bab00912842":[2,0,2,0,3,220],
 "d8/de2/menudefs_8qc.html#ad3270c364312e28243c37f58c585eb98":[2,0,2,0,3,272],
 "d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802":[2,0,2,0,3,70],
 "d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158":[2,0,2,0,3,139],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "d8/dfe/classPlasmaDualAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,94,2],
 "d8/dfe/classPlasmaDualAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,94,34],
 "d8/dfe/classPlasmaDualAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,94,27],
-"d8/dfe/classPlasmaDualAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,94,4],
-"d8/dfe/classPlasmaDualAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,94,6]
+"d8/dfe/classPlasmaDualAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,94,4]
 };

@@ -133,58 +133,58 @@ Macros</h2></td></tr>
 <tr class="memitem:acc83e028b03f560add30623f3ab1dd0e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#acc83e028b03f560add30623f3ab1dd0e">crandom</a>()&#160;&#160;&#160;(2 * (<a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() - 0.5))</td></tr>
 <tr class="memdesc:acc83e028b03f560add30623f3ab1dd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random number between -1.0 and 1.0.  <a href="#acc83e028b03f560add30623f3ab1dd0e">More...</a><br/></td></tr>
 <tr class="separator:acc83e028b03f560add30623f3ab1dd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab174a7f4f00a6dbb7728a2261e39ea75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ab174a7f4f00a6dbb7728a2261e39ea75">MEAN_ACCUMULATE</a>(s, prefix, <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, w)&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17">mean_accumulate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean, <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, w)</td></tr>
+<tr class="memitem:ab174a7f4f00a6dbb7728a2261e39ea75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ab174a7f4f00a6dbb7728a2261e39ea75">MEAN_ACCUMULATE</a>(s, prefix, <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, w)&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a20ecf3aba65116ebed89052b1ad10ff9">mean_accumulate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean, <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, w)</td></tr>
 <tr class="separator:ab174a7f4f00a6dbb7728a2261e39ea75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2451f68a55948c105f085b057964046b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a2451f68a55948c105f085b057964046b">MEAN_DECLARE</a>(prefix, m)&#160;&#160;&#160;<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> prefix##_mean = m; .<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> prefix##_count, prefix##_accumulator</td></tr>
 <tr class="separator:a2451f68a55948c105f085b057964046b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a909baf136adbe1583e95ad9c3fcb3faa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a909baf136adbe1583e95ad9c3fcb3faa">MEAN_EVALUATE</a>(s, prefix)&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35">mean_evaluate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean)</td></tr>
+<tr class="memitem:a909baf136adbe1583e95ad9c3fcb3faa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a909baf136adbe1583e95ad9c3fcb3faa">MEAN_EVALUATE</a>(s, prefix)&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a0769f382997350e039f5f05bd79430cd">mean_evaluate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean)</td></tr>
 <tr class="separator:a909baf136adbe1583e95ad9c3fcb3faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75b3d35654d365097112d73cca34acd6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a75b3d35654d365097112d73cca34acd6">power2of</a>(e)&#160;&#160;&#160;(2 ** e)</td></tr>
 <tr class="separator:a75b3d35654d365097112d73cca34acd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a075466721b3b3a7ed731ebddae51c610"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a075466721b3b3a7ed731ebddae51c610">almost_equals</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> b)</td></tr>
-<tr class="separator:a075466721b3b3a7ed731ebddae51c610"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a675a15aa7b6315a05b422e444c7fc391"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a675a15aa7b6315a05b422e444c7fc391">almost_equals_eps</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> b, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> times_eps)</td></tr>
-<tr class="separator:a675a15aa7b6315a05b422e444c7fc391"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b043480e166fa027fb2749365c66089"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a2b043480e166fa027fb2749365c66089">almost_in_bounds</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> b, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> c)</td></tr>
-<tr class="separator:a2b043480e166fa027fb2749365c66089"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3beea75a8f5936cd10f1b7319347a884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a3beea75a8f5936cd10f1b7319347a884">angc</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a1, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a2)</td></tr>
-<tr class="separator:a3beea75a8f5936cd10f1b7319347a884"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b467740a92a31e38f97070aba962007"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a9b467740a92a31e38f97070aba962007">bezier_quadratic_getderivative</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> a, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> b, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> c, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t)</td></tr>
-<tr class="separator:a9b467740a92a31e38f97070aba962007"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fb832920bde74b332c2f20d1a99a4c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a6fb832920bde74b332c2f20d1a99a4c5">bezier_quadratic_getpoint</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> a, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> b, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> c, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t)</td></tr>
-<tr class="separator:a6fb832920bde74b332c2f20d1a99a4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab749e3e330fc880590f606e9dae87c23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ab749e3e330fc880590f606e9dae87c23">cubic_speedfunc</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> startspeedfactor, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> endspeedfactor, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> spd)</td></tr>
-<tr class="separator:ab749e3e330fc880590f606e9dae87c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25833985b41f6fe0554f992bc1d4030e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a25833985b41f6fe0554f992bc1d4030e">cubic_speedfunc_is_sane</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> startspeedfactor, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> endspeedfactor)</td></tr>
-<tr class="separator:a25833985b41f6fe0554f992bc1d4030e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f03c0168ed8d9fb9878df24c6093ab9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a7f03c0168ed8d9fb9878df24c6093ab9">ExponentialFalloff</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> mindist, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> maxdist, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> halflifedist, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> d)</td></tr>
-<tr class="separator:a7f03c0168ed8d9fb9878df24c6093ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad63e97c29a3abc714603d2b9c73ea36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#aad63e97c29a3abc714603d2b9c73ea36">float2range01</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> f)</td></tr>
-<tr class="memdesc:aad63e97c29a3abc714603d2b9c73ea36"><td class="mdescLeft">&#160;</td><td class="mdescRight">continuous function mapping all reals into 0..1  <a href="#aad63e97c29a3abc714603d2b9c73ea36">More...</a><br/></td></tr>
-<tr class="separator:aad63e97c29a3abc714603d2b9c73ea36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c0db9937299e351f97c7ce3135d1055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a6c0db9937299e351f97c7ce3135d1055">float2range11</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> f)</td></tr>
-<tr class="memdesc:a6c0db9937299e351f97c7ce3135d1055"><td class="mdescLeft">&#160;</td><td class="mdescRight">continuous function mapping all reals into -1..1  <a href="#a6c0db9937299e351f97c7ce3135d1055">More...</a><br/></td></tr>
-<tr class="separator:a6c0db9937299e351f97c7ce3135d1055"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87ab6b8926bb5587a28d323202f59791"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a87ab6b8926bb5587a28d323202f59791">fsnap</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> val, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> fsize)</td></tr>
-<tr class="separator:a87ab6b8926bb5587a28d323202f59791"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26a88fb303232c6dfa1541e00a40c19c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a26a88fb303232c6dfa1541e00a40c19c">lerpv</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t0, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> v0, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t1, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> v1, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t)</td></tr>
-<tr class="separator:a26a88fb303232c6dfa1541e00a40c19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1aa298be39cc3d2a197e80ed2430fb0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a1aa298be39cc3d2a197e80ed2430fb0a">log2of</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> e)</td></tr>
-<tr class="separator:a1aa298be39cc3d2a197e80ed2430fb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab73e1173470625c7c4ddd3623d6e0d17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17">mean_accumulate</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> e,.<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a,.<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> c, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> mean, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> value, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> weight)</td></tr>
-<tr class="separator:ab73e1173470625c7c4ddd3623d6e0d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33a138639448659a130b2748753a3c35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35">mean_evaluate</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> e,.<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a,.<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> c, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> mean)</td></tr>
-<tr class="separator:a33a138639448659a130b2748753a3c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80b0a2e1271dba6f90376de1931afb7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> b, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> c)</td></tr>
-<tr class="separator:a80b0a2e1271dba6f90376de1931afb7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8861d172bf3f5895e7d852a3c30174e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#aa8861d172bf3f5895e7d852a3c30174e">solve_quadratic</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> b, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> c)</td></tr>
-<tr class="memdesc:aa8861d172bf3f5895e7d852a3c30174e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ax^2 + bx + c = 0  <a href="#aa8861d172bf3f5895e7d852a3c30174e">More...</a><br/></td></tr>
-<tr class="separator:aa8861d172bf3f5895e7d852a3c30174e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac60c376ef13d24ccf30e74b54bf373fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ac60c376ef13d24ccf30e74b54bf373fd">vsnap</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> point, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> fsize)</td></tr>
-<tr class="separator:ac60c376ef13d24ccf30e74b54bf373fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb1dd82154af59c6eb60443a8dccb089"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#adb1dd82154af59c6eb60443a8dccb089">almost_equals</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> b)</td></tr>
+<tr class="separator:adb1dd82154af59c6eb60443a8dccb089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa41124c54feaa16da78a1ffdd171dcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#afa41124c54feaa16da78a1ffdd171dcb">almost_equals_eps</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> b, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> times_eps)</td></tr>
+<tr class="separator:afa41124c54feaa16da78a1ffdd171dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0ffdd73a37eb66cc4b15227241933d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#af0ffdd73a37eb66cc4b15227241933d1">almost_in_bounds</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> b, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> c)</td></tr>
+<tr class="separator:af0ffdd73a37eb66cc4b15227241933d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f3dd6333b72888c047ebe3e948cbd40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a5f3dd6333b72888c047ebe3e948cbd40">angc</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a1, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a2)</td></tr>
+<tr class="separator:a5f3dd6333b72888c047ebe3e948cbd40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca938d83d003e85a96a0ea919b90a1cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#aca938d83d003e85a96a0ea919b90a1cd">bezier_quadratic_getderivative</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> a, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> b, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> c, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t)</td></tr>
+<tr class="separator:aca938d83d003e85a96a0ea919b90a1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ebe9f9969699ef70551c08e1b59546"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ae0ebe9f9969699ef70551c08e1b59546">bezier_quadratic_getpoint</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> a, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> b, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> c, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t)</td></tr>
+<tr class="separator:ae0ebe9f9969699ef70551c08e1b59546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23557eb0538d1c7732c47c4b4ef7d0b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a23557eb0538d1c7732c47c4b4ef7d0b5">cubic_speedfunc</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> startspeedfactor, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> endspeedfactor, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> spd)</td></tr>
+<tr class="separator:a23557eb0538d1c7732c47c4b4ef7d0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0c243745f66303f9316bc8315d5cb38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#af0c243745f66303f9316bc8315d5cb38">cubic_speedfunc_is_sane</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> startspeedfactor, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> endspeedfactor)</td></tr>
+<tr class="separator:af0c243745f66303f9316bc8315d5cb38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a101a4ddf4a2cb6b9fa2736ef0c68917d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a101a4ddf4a2cb6b9fa2736ef0c68917d">ExponentialFalloff</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> mindist, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> maxdist, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> halflifedist, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> d)</td></tr>
+<tr class="separator:a101a4ddf4a2cb6b9fa2736ef0c68917d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac81e6e4e043ef6e79449625de7a4d180"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ac81e6e4e043ef6e79449625de7a4d180">float2range01</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> f)</td></tr>
+<tr class="memdesc:ac81e6e4e043ef6e79449625de7a4d180"><td class="mdescLeft">&#160;</td><td class="mdescRight">continuous function mapping all reals into 0..1  <a href="#ac81e6e4e043ef6e79449625de7a4d180">More...</a><br/></td></tr>
+<tr class="separator:ac81e6e4e043ef6e79449625de7a4d180"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78bc45743e1c7c30db58bc21f64037ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a78bc45743e1c7c30db58bc21f64037ff">float2range11</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> f)</td></tr>
+<tr class="memdesc:a78bc45743e1c7c30db58bc21f64037ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">continuous function mapping all reals into -1..1  <a href="#a78bc45743e1c7c30db58bc21f64037ff">More...</a><br/></td></tr>
+<tr class="separator:a78bc45743e1c7c30db58bc21f64037ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abba176f2e34059c17eaa7b4f032f9da9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#abba176f2e34059c17eaa7b4f032f9da9">fsnap</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> val, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> fsize)</td></tr>
+<tr class="separator:abba176f2e34059c17eaa7b4f032f9da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba3066b97e95d3930e9205fdb186ba2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#aba3066b97e95d3930e9205fdb186ba2e">lerpv</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t0, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> v0, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t1, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> v1, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t)</td></tr>
+<tr class="separator:aba3066b97e95d3930e9205fdb186ba2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a329d230e78c37078e8fedff231727c91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a329d230e78c37078e8fedff231727c91">log2of</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> e)</td></tr>
+<tr class="separator:a329d230e78c37078e8fedff231727c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ecf3aba65116ebed89052b1ad10ff9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a20ecf3aba65116ebed89052b1ad10ff9">mean_accumulate</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> e,.<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a,.<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> c, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> mean, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> value, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> weight)</td></tr>
+<tr class="separator:a20ecf3aba65116ebed89052b1ad10ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0769f382997350e039f5f05bd79430cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a0769f382997350e039f5f05bd79430cd">mean_evaluate</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> e,.<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a,.<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> c, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> mean)</td></tr>
+<tr class="separator:a0769f382997350e039f5f05bd79430cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66ddd88c991ed356f5c843c695e57cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ae66ddd88c991ed356f5c843c695e57cf">median</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> b, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> c)</td></tr>
+<tr class="separator:ae66ddd88c991ed356f5c843c695e57cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abecdd1d5bfb1c569c5d4fe16f3c0ef3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#abecdd1d5bfb1c569c5d4fe16f3c0ef3a">solve_quadratic</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> b, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> c)</td></tr>
+<tr class="memdesc:abecdd1d5bfb1c569c5d4fe16f3c0ef3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ax^2 + bx + c = 0  <a href="#abecdd1d5bfb1c569c5d4fe16f3c0ef3a">More...</a><br/></td></tr>
+<tr class="separator:abecdd1d5bfb1c569c5d4fe16f3c0ef3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5b4052f66c618c61cb6bfeb5fbab22f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ab5b4052f66c618c61cb6bfeb5fbab22f">vsnap</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> point, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> fsize)</td></tr>
+<tr class="separator:ab5b4052f66c618c61cb6bfeb5fbab22f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="acc83e028b03f560add30623f3ab1dd0e"></a>
@@ -239,7 +239,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17">mean_accumulate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean, <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, w)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a20ecf3aba65116ebed89052b1ad10ff9">mean_accumulate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean, <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, w)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -297,7 +297,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35">mean_evaluate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a0769f382997350e039f5f05bd79430cd">mean_evaluate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -325,12 +325,12 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a075466721b3b3a7ed731ebddae51c610"></a>
+<a class="anchor" id="adb1dd82154af59c6eb60443a8dccb089"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> almost_equals </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> almost_equals </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -365,7 +365,7 @@ Functions</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a075466721b3b3a7ed731ebddae51c610_cgraph.svg" width="214" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_adb1dd82154af59c6eb60443a8dccb089_cgraph.svg" width="214" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -375,19 +375,19 @@ Functions</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a075466721b3b3a7ed731ebddae51c610_icgraph.svg" width="462" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_adb1dd82154af59c6eb60443a8dccb089_icgraph.svg" width="462" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a675a15aa7b6315a05b422e444c7fc391"></a>
+<a class="anchor" id="afa41124c54feaa16da78a1ffdd171dcb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> almost_equals_eps </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> almost_equals_eps </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -430,7 +430,7 @@ Functions</h2></td></tr>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a675a15aa7b6315a05b422e444c7fc391_cgraph.svg" width="243" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_afa41124c54feaa16da78a1ffdd171dcb_cgraph.svg" width="243" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -440,19 +440,19 @@ Functions</h2></td></tr>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a675a15aa7b6315a05b422e444c7fc391_icgraph.svg" width="400" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_afa41124c54feaa16da78a1ffdd171dcb_icgraph.svg" width="400" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a2b043480e166fa027fb2749365c66089"></a>
+<a class="anchor" id="af0ffdd73a37eb66cc4b15227241933d1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> almost_in_bounds </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> almost_in_bounds </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -485,17 +485,17 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;{</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordtype">float</span> eps = (<a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(a, -a) + <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(c, -c)) * 0.001;</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">if</span> (a &gt; c) eps = -eps;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordflow">return</span> b == <a class="code" href="../../d0/d79/math_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a>(a - eps, b, c + eps);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordflow">return</span> b == <a class="code" href="../../d0/d79/math_8qh.html#ae66ddd88c991ed356f5c843c695e57cf">median</a>(a - eps, b, c + eps);</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;}</div>
+<div class="ttc" id="math_8qh_html_ae66ddd88c991ed356f5c843c695e57cf"><div class="ttname"><a href="../../d0/d79/math_8qh.html#ae66ddd88c991ed356f5c843c695e57cf">median</a></div><div class="ttdeci">ERASEABLE float median(float a, float b, float c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00183">math.qh:183</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
-<div class="ttc" id="math_8qh_html_a80b0a2e1271dba6f90376de1931afb7f"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a80b0a2e1271dba6f90376de1931afb7f">median</a></div><div class="ttdeci">float median(float a, float b, float c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00183">math.qh:183</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a2b043480e166fa027fb2749365c66089_cgraph.svg" width="358" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_af0ffdd73a37eb66cc4b15227241933d1_cgraph.svg" width="358" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -505,19 +505,19 @@ Functions</h2></td></tr>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a2b043480e166fa027fb2749365c66089_icgraph.svg" width="323" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_af0ffdd73a37eb66cc4b15227241933d1_icgraph.svg" width="323" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a3beea75a8f5936cd10f1b7319347a884"></a>
+<a class="anchor" id="a5f3dd6333b72888c047ebe3e948cbd40"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> angc </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> angc </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>a1</em>, </td>
@@ -556,12 +556,12 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a9b467740a92a31e38f97070aba962007"></a>
+<a class="anchor" id="aca938d83d003e85a96a0ea919b90a1cd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> bezier_quadratic_getderivative </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> bezier_quadratic_getderivative </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -600,12 +600,12 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a6fb832920bde74b332c2f20d1a99a4c5"></a>
+<a class="anchor" id="ae0ebe9f9969699ef70551c08e1b59546"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> bezier_quadratic_getpoint </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> bezier_quadratic_getpoint </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -645,12 +645,12 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="ab749e3e330fc880590f606e9dae87c23"></a>
+<a class="anchor" id="a23557eb0538d1c7732c47c4b4ef7d0b5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> cubic_speedfunc </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> cubic_speedfunc </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>startspeedfactor</em>, </td>
@@ -690,19 +690,19 @@ Functions</h2></td></tr>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_ab749e3e330fc880590f606e9dae87c23_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a23557eb0538d1c7732c47c4b4ef7d0b5_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a25833985b41f6fe0554f992bc1d4030e"></a>
+<a class="anchor" id="af0c243745f66303f9316bc8315d5cb38"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a> cubic_speedfunc_is_sane </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a> cubic_speedfunc_is_sane </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>startspeedfactor</em>, </td>
@@ -791,19 +791,19 @@ Functions</h2></td></tr>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a25833985b41f6fe0554f992bc1d4030e_icgraph.svg" width="358" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_af0c243745f66303f9316bc8315d5cb38_icgraph.svg" width="358" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a7f03c0168ed8d9fb9878df24c6093ab9"></a>
+<a class="anchor" id="a101a4ddf4a2cb6b9fa2736ef0c68917d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> ExponentialFalloff </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> ExponentialFalloff </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>mindist</em>, </td>
@@ -849,19 +849,19 @@ Functions</h2></td></tr>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a7f03c0168ed8d9fb9878df24c6093ab9_cgraph.svg" width="246" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a101a4ddf4a2cb6b9fa2736ef0c68917d_cgraph.svg" width="246" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="aad63e97c29a3abc714603d2b9c73ea36"></a>
+<a class="anchor" id="ac81e6e4e043ef6e79449625de7a4d180"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> float2range01 </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> float2range01 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
@@ -876,28 +876,28 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../d0/d79/math_8qh_source.html#l00170">float2range11()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;{</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">return</span> 0.5 + 0.5 * <a class="code" href="../../d0/d79/math_8qh.html#a6c0db9937299e351f97c7ce3135d1055">float2range11</a>(f);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">return</span> 0.5 + 0.5 * <a class="code" href="../../d0/d79/math_8qh.html#a78bc45743e1c7c30db58bc21f64037ff">float2range11</a>(f);</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;}</div>
-<div class="ttc" id="math_8qh_html_a6c0db9937299e351f97c7ce3135d1055"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a6c0db9937299e351f97c7ce3135d1055">float2range11</a></div><div class="ttdeci">float float2range11(float f)</div><div class="ttdoc">continuous function mapping all reals into -1..1 </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00170">math.qh:170</a></div></div>
+<div class="ttc" id="math_8qh_html_a78bc45743e1c7c30db58bc21f64037ff"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a78bc45743e1c7c30db58bc21f64037ff">float2range11</a></div><div class="ttdeci">ERASEABLE float float2range11(float f)</div><div class="ttdoc">continuous function mapping all reals into -1..1 </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00170">math.qh:170</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_aad63e97c29a3abc714603d2b9c73ea36_cgraph.svg" width="358" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_ac81e6e4e043ef6e79449625de7a4d180_cgraph.svg" width="358" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a6c0db9937299e351f97c7ce3135d1055"></a>
+<a class="anchor" id="a78bc45743e1c7c30db58bc21f64037ff"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> float2range11 </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> float2range11 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
@@ -923,7 +923,7 @@ Functions</h2></td></tr>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a6c0db9937299e351f97c7ce3135d1055_cgraph.svg" width="208" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a78bc45743e1c7c30db58bc21f64037ff_cgraph.svg" width="208" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -933,19 +933,19 @@ Functions</h2></td></tr>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-13-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a6c0db9937299e351f97c7ce3135d1055_icgraph.svg" width="456" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a78bc45743e1c7c30db58bc21f64037ff_icgraph.svg" width="456" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a87ab6b8926bb5587a28d323202f59791"></a>
+<a class="anchor" id="abba176f2e34059c17eaa7b4f032f9da9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> fsnap </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> fsnap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>val</em>, </td>
@@ -979,7 +979,7 @@ Functions</h2></td></tr>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a87ab6b8926bb5587a28d323202f59791_cgraph.svg" width="155" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_abba176f2e34059c17eaa7b4f032f9da9_cgraph.svg" width="155" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -989,19 +989,19 @@ Functions</h2></td></tr>
 <div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-15-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a87ab6b8926bb5587a28d323202f59791_icgraph.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_abba176f2e34059c17eaa7b4f032f9da9_icgraph.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a26a88fb303232c6dfa1541e00a40c19c"></a>
+<a class="anchor" id="aba3066b97e95d3930e9205fdb186ba2e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> lerpv </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> lerpv </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>t0</em>, </td>
@@ -1050,19 +1050,19 @@ Functions</h2></td></tr>
 <div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-16-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a26a88fb303232c6dfa1541e00a40c19c_icgraph.svg" width="100%" height="582"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_aba3066b97e95d3930e9205fdb186ba2e_icgraph.svg" width="100%" height="582"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a1aa298be39cc3d2a197e80ed2430fb0a"></a>
+<a class="anchor" id="a329d230e78c37078e8fedff231727c91"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> log2of </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> log2of </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>e</em></td><td>)</td>
@@ -1124,12 +1124,12 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="ab73e1173470625c7c4ddd3623d6e0d17"></a>
+<a class="anchor" id="a20ecf3aba65116ebed89052b1ad10ff9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> mean_accumulate </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> mean_accumulate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
           <td class="paramname"><em>e</em>, </td>
@@ -1182,12 +1182,12 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a33a138639448659a130b2748753a3c35"></a>
+<a class="anchor" id="a0769f382997350e039f5f05bd79430cd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> mean_evaluate </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> mean_evaluate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
           <td class="paramname"><em>e</em>, </td>
@@ -1227,12 +1227,12 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a80b0a2e1271dba6f90376de1931afb7f"></a>
+<a class="anchor" id="ae66ddd88c991ed356f5c843c695e57cf"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> median </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> median </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -1272,7 +1272,7 @@ Functions</h2></td></tr>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-17-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a80b0a2e1271dba6f90376de1931afb7f_cgraph.svg" width="182" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_ae66ddd88c991ed356f5c843c695e57cf_cgraph.svg" width="182" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1282,19 +1282,19 @@ Functions</h2></td></tr>
 <div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-18-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_a80b0a2e1271dba6f90376de1931afb7f_icgraph.svg" width="528" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_ae66ddd88c991ed356f5c843c695e57cf_icgraph.svg" width="528" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="aa8861d172bf3f5895e7d852a3c30174e"></a>
+<a class="anchor" id="abecdd1d5bfb1c569c5d4fe16f3c0ef3a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> solve_quadratic </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> solve_quadratic </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -1385,7 +1385,7 @@ Functions</h2></td></tr>
 <div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-19-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_aa8861d172bf3f5895e7d852a3c30174e_cgraph.svg" width="232" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_abecdd1d5bfb1c569c5d4fe16f3c0ef3a_cgraph.svg" width="232" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1395,19 +1395,19 @@ Functions</h2></td></tr>
 <div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-20-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_aa8861d172bf3f5895e7d852a3c30174e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_abecdd1d5bfb1c569c5d4fe16f3c0ef3a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="ac60c376ef13d24ccf30e74b54bf373fd"></a>
+<a class="anchor" id="ab5b4052f66c618c61cb6bfeb5fbab22f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vsnap </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vsnap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>point</em>, </td>
@@ -1447,7 +1447,7 @@ Functions</h2></td></tr>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-21-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_ac60c376ef13d24ccf30e74b54bf373fd_cgraph.svg" width="176" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_ab5b4052f66c618c61cb6bfeb5fbab22f_cgraph.svg" width="176" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1460,7 +1460,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d0/d79/math_8qh.html">math.qh</a></li>
-    <li class="footer">Generated on Sun Jul 16 2017 05:11:26 for Xonotic by
+    <li class="footer">Generated on Sun Jul 16 2017 08:44:37 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

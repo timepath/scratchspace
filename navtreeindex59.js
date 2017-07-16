@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#a78df9660ce5743fbd75beb4012932bbe":[2,0,6,3,3,185],
 "d6/ddd/server_2mutators_2events_8qh.html#a7a211fa8983bee19a82d5f46d930a391":[2,0,6,3,3,87],
 "d6/ddd/server_2mutators_2events_8qh.html#a7cb1ffaffcd3e31bb22b5a67e6b87a22":[2,0,6,3,3,81],
 "d6/ddd/server_2mutators_2events_8qh.html#a7dd6d46cd9dfc2d44a92b52badb3aa3b":[2,0,6,3,3,154],
@@ -222,14 +223,14 @@ var NAVTREEINDEX59 =
 "d6/def/controlpoint_8qc.html":[2,0,1,3,0,1,6],
 "d6/def/controlpoint_8qc_source.html":[2,0,1,3,0,1,6],
 "d6/df6/p2mathlib_8qc.html":[2,0,4,40],
-"d6/df6/p2mathlib_8qc.html#a0c3e47f87f19ea29e5322d70c8470d2f":[2,0,4,40,5],
-"d6/df6/p2mathlib_8qc.html#a129e23a2218bbdb2c446e5cd60b43fb2":[2,0,4,40,2],
-"d6/df6/p2mathlib_8qc.html#a2ee015ce5b25f8b1ea2a246a2d374f9b":[2,0,4,40,1],
-"d6/df6/p2mathlib_8qc.html#a3350b28ccbbdc5e077913e318bee2aa8":[2,0,4,40,0],
-"d6/df6/p2mathlib_8qc.html#a6e59da4f99ce576ea9e82655549b1e77":[2,0,4,40,7],
-"d6/df6/p2mathlib_8qc.html#a875d7a7b329786023ebc459d17bd8a65":[2,0,4,40,6],
-"d6/df6/p2mathlib_8qc.html#a9201e3955f6431a4d4d766c0379d9909":[2,0,4,40,3],
-"d6/df6/p2mathlib_8qc.html#adc7a5707e259b7dde7430e2aaddde6c5":[2,0,4,40,4],
+"d6/df6/p2mathlib_8qc.html#a3ff917d0575fffb091957bdd35b4cc7a":[2,0,4,40,4],
+"d6/df6/p2mathlib_8qc.html#a48eb67b65e2f9adecbe24fd6cea5513f":[2,0,4,40,5],
+"d6/df6/p2mathlib_8qc.html#a50b8f7ab57a2a463330631ac11a1ad55":[2,0,4,40,3],
+"d6/df6/p2mathlib_8qc.html#a9e6357ed23dc0f369734a918945a0259":[2,0,4,40,0],
+"d6/df6/p2mathlib_8qc.html#aab06a0db609b17c579e9a5795a93f074":[2,0,4,40,2],
+"d6/df6/p2mathlib_8qc.html#abd3932d3581475f825b6d87175808c9f":[2,0,4,40,7],
+"d6/df6/p2mathlib_8qc.html#ae031dcd8f3e3c3a358d8e48d18f099e5":[2,0,4,40,6],
+"d6/df6/p2mathlib_8qc.html#ae1c27a257ab87c5593fc7495cd73f51b":[2,0,4,40,1],
 "d6/df6/p2mathlib_8qc_source.html":[2,0,4,40],
 "d6/df8/classTeamDeathmatch.html":[1,0,124],
 "d6/df8/classTeamDeathmatch.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,124,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "d6/df8/classTeamDeathmatch.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,124,17],
 "d6/df8/classTeamDeathmatch.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,124,6],
 "d6/df8/classTeamDeathmatch.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,124,7],
-"d6/df8/classTeamDeathmatch.html#aef3a65f4987590d66b653b91180860ca":[1,0,124,9],
-"d6/df8/classTeamDeathmatch.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,124,5]
+"d6/df8/classTeamDeathmatch.html#aef3a65f4987590d66b653b91180860ca":[1,0,124,9]
 };

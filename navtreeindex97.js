@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"db/d4a/classHook.html#ab0e92b71baa0432b2ba02172122fcd3e":[1,0,49,30],
 "db/d4a/classHook.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,49,5],
 "db/d4a/classHook.html#abf2fbef9b9e0a252ba8f0a2817b21872":[1,0,49,24],
 "db/d4a/classHook.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,49,10],
@@ -23,14 +24,14 @@ var NAVTREEINDEX97 =
 "db/d55/campaign__file_8qc_source.html":[2,0,1,25],
 "db/d55/random_8qh.html":[2,0,4,45],
 "db/d55/random_8qh.html#a218e10c5750eadf78eef5f816a554f12":[2,0,4,45,11],
-"db/d55/random_8qh.html#a2d70d358bbf6aa8252f2aebc596d67c1":[2,0,4,45,10],
+"db/d55/random_8qh.html#a27a4de96941cf5c719fa7b55d8538313":[2,0,4,45,9],
 "db/d55/random_8qh.html#a32be35647dc9e998a1420a75ae306409":[2,0,4,45,13],
+"db/d55/random_8qh.html#a3405965b1da9657276caec225d4b3acf":[2,0,4,45,10],
 "db/d55/random_8qh.html#a49a2adfdf5f027b14f01add2097e6df7":[2,0,4,45,1],
 "db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36":[2,0,4,45,14],
 "db/d55/random_8qh.html#a552e08e5c3811a6e477b46d8419ecf3b":[2,0,4,45,16],
 "db/d55/random_8qh.html#a5cb0f0f958b63b45824e7e2a0f783fc7":[2,0,4,45,5],
 "db/d55/random_8qh.html#a68047c310b436d5b1125d0f0ca050c27":[2,0,4,45,8],
-"db/d55/random_8qh.html#a82430bf7854df5aaca467ac8eaa85d2c":[2,0,4,45,9],
 "db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243":[2,0,4,45,12],
 "db/d55/random_8qh.html#ab0a4a880a3543886477f951a6d30a908":[2,0,4,45,15],
 "db/d55/random_8qh.html#ab966c71818908e4337e53b4c9a814961":[2,0,4,45,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "db/d5b/classXonoticGameMessageSettingsTab.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,169,9],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,169,51],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,169,1],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,169,17],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a4869983b8dc750584479ade5447c8413":[1,0,169,28]
+"db/d5b/classXonoticGameMessageSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,169,17]
 };

@@ -195,9 +195,9 @@ var searchData=
   ['getwinningcode',['GetWinningCode',['../db/dcc/g__world_8qc.html#abed18c6e10bb666ad939e95abcaabb5d',1,'g_world.qc']]],
   ['getwrappedline',['getWrappedLine',['../da/d44/common_2util_8qc.html#af7c603246e2964761664e6a53904ba61',1,'getWrappedLine(float w, vector theFontSize, textLengthUpToWidth_widthFunction_t tw):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#a74266eb1e0df9ab1fc0b8c4afe4c71f7',1,'getWrappedLine(float w, vector size, textLengthUpToWidth_widthFunction_t tw):&#160;util.qc']]],
   ['getwrappedlinelen',['getWrappedLineLen',['../da/d44/common_2util_8qc.html#a0c6829767aa2400e49284b242c194d95',1,'getWrappedLineLen(float w, textLengthUpToLength_lenFunction_t tw):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#a0c6829767aa2400e49284b242c194d95',1,'getWrappedLineLen(float w, textLengthUpToLength_lenFunction_t tw):&#160;util.qc']]],
-  ['givebit',['GiveBit',['../d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde',1,'bits.qh']]],
+  ['givebit',['GiveBit',['../d5/d52/bits_8qh.html#a6152f5c7aad64cc41a6c5dc6eef96bf2',1,'bits.qh']]],
   ['givefrags',['GiveFrags',['../d5/dac/g__damage_8qc.html#a8b8e7316613eee6bbf528c646d82128f',1,'GiveFrags(entity attacker, entity targ, float f, int deathtype):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#a8b8e7316613eee6bbf528c646d82128f',1,'GiveFrags(entity attacker, entity targ, float f, int deathtype):&#160;g_damage.qc']]],
-  ['givevalue',['GiveValue',['../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635',1,'bits.qh']]],
+  ['givevalue',['GiveValue',['../d5/d52/bits_8qh.html#a7c4df704eb888da3165c69863ce0f234',1,'bits.qh']]],
   ['gl_5fcheckextension',['GL_CheckExtension',['../df/d9b/menu_2xonotic_2util_8qc.html#a6b30e54c431ef41c6bca8ad5930e6670',1,'GL_CheckExtension(string ext):&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#a6b30e54c431ef41c6bca8ad5930e6670',1,'GL_CheckExtension(string ext):&#160;util.qc']]],
   ['gl_5fhave_5ftexturecompression',['GL_Have_TextureCompression',['../df/d9b/menu_2xonotic_2util_8qc.html#ada73b695059752dc4c9de93567017ca8',1,'GL_Have_TextureCompression():&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#ada73b695059752dc4c9de93567017ca8',1,'GL_Have_TextureCompression():&#160;util.qc']]],
   ['globaltobox',['globalToBox',['../d6/db1/draw_8qc.html#a0b581a0ff2b1fd85336d25a51a06e57d',1,'globalToBox(vector v, vector theOrigin, vector theScale):&#160;draw.qc'],['../d9/d62/menu_2draw_8qh.html#a3d7ac10697d969669149cae8735f83e9',1,'globalToBox(vector v, vector shift, vector scale):&#160;draw.qc']]],
@@ -216,5 +216,5 @@ var searchData=
   ['grapplinghookthink',['GrapplingHookThink',['../d7/de2/g__hook_8qc.html#adf8618e75e4ca34d6ec87bd20ef2657d',1,'g_hook.qc']]],
   ['grapplinghooktouch',['GrapplingHookTouch',['../d7/de2/g__hook_8qc.html#a963fd687df2343a151d97df9af7d8667',1,'g_hook.qc']]],
   ['ground_5fquake',['ground_quake',['../db/d7f/effectinfo_8inc.html#a5c1b4bc28344cfc365dcc9af9a5c651f',1,'effectinfo.inc']]],
-  ['gsl_5fran_5fgaussian',['gsl_ran_gaussian',['../dc/d95/random_8qc.html#a4ff12e9437074f8ba09e275ff5084b7a',1,'random.qc']]]
+  ['gsl_5fran_5fgaussian',['gsl_ran_gaussian',['../dc/d95/random_8qc.html#a315a96e3d6a1b06d0acaed18000aa457',1,'random.qc']]]
 ];

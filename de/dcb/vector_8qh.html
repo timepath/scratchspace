@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('de/dcb/vector_8qh.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a74ddac6721cec9faf03039915787e47b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a74ddac6721cec9faf03039915787e47b">ClipVelocity</a>(in, normal, out, overbounce)&#160;&#160;&#160;(out = <a class="el" href="../../de/dcb/vector_8qh.html#a49cc7ebcfeb37c05dbf47aed82b8c0a5">vec_epsilon</a>(<a class="el" href="../../de/dcb/vector_8qh.html#ae07842a43fda046e42c04c0709a05774">vec_reflect</a>(in, normal, (overbounce) - 1), 0.1))</td></tr>
+<tr class="memitem:a74ddac6721cec9faf03039915787e47b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a74ddac6721cec9faf03039915787e47b">ClipVelocity</a>(in, normal, out, overbounce)&#160;&#160;&#160;(out = <a class="el" href="../../de/dcb/vector_8qh.html#aa7bc06e4c4df2a1e7fe38a487723d698">vec_epsilon</a>(<a class="el" href="../../de/dcb/vector_8qh.html#ab52ea71002ddef48e04f0143029cbcf6">vec_reflect</a>(in, normal, (overbounce) - 1), 0.1))</td></tr>
 <tr class="separator:a74ddac6721cec9faf03039915787e47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a484dbdf175fddaf431a0bdd8f3b802f5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5">cross</a>(a, b)&#160;&#160;&#160;((a) &gt;&lt; (b))</td></tr>
 <tr class="separator:a484dbdf175fddaf431a0bdd8f3b802f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,29 +156,29 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3385b15af8ffd7f5c33d2fbb3a9eb237"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a3385b15af8ffd7f5c33d2fbb3a9eb237">boxesoverlap</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> m1, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> m2, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> m3, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> m4)</td></tr>
-<tr class="memdesc:a3385b15af8ffd7f5c33d2fbb3a9eb237"><td class="mdescLeft">&#160;</td><td class="mdescRight">requires that m2&gt;m1 in all coordinates, and that m4&gt;m3  <a href="#a3385b15af8ffd7f5c33d2fbb3a9eb237">More...</a><br/></td></tr>
-<tr class="separator:a3385b15af8ffd7f5c33d2fbb3a9eb237"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc1de7548641f25cb9f3cde38c9ffba9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#afc1de7548641f25cb9f3cde38c9ffba9">boxinsidebox</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> smins, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> smaxs, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> bmins, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> bmaxs)</td></tr>
-<tr class="memdesc:afc1de7548641f25cb9f3cde38c9ffba9"><td class="mdescLeft">&#160;</td><td class="mdescRight">requires the same as boxesoverlap, but is a stronger condition  <a href="#afc1de7548641f25cb9f3cde38c9ffba9">More...</a><br/></td></tr>
-<tr class="separator:afc1de7548641f25cb9f3cde38c9ffba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0ae47bfef31e48d06125b2b2194ba50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#ad0ae47bfef31e48d06125b2b2194ba50">dist_point_line</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a>, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> l0, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> ldir)</td></tr>
-<tr class="separator:ad0ae47bfef31e48d06125b2b2194ba50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa1e5c0be263a77e0c71292ab0a4dd74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#afa1e5c0be263a77e0c71292ab0a4dd74">randompos</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> m1, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> m2)</td></tr>
-<tr class="separator:afa1e5c0be263a77e0c71292ab0a4dd74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab167fa7c81f4d5f3092673b05f07c8a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#ab167fa7c81f4d5f3092673b05f07c8a3">reflect</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> dir, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> norm)</td></tr>
-<tr class="separator:ab167fa7c81f4d5f3092673b05f07c8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad91aed42765e2e8c710999dfdcbac770"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#ad91aed42765e2e8c710999dfdcbac770">Rotate</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a)</td></tr>
-<tr class="separator:ad91aed42765e2e8c710999dfdcbac770"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49cc7ebcfeb37c05dbf47aed82b8c0a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a49cc7ebcfeb37c05dbf47aed82b8c0a5">vec_epsilon</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> eps)</td></tr>
-<tr class="separator:a49cc7ebcfeb37c05dbf47aed82b8c0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae07842a43fda046e42c04c0709a05774"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#ae07842a43fda046e42c04c0709a05774">vec_reflect</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vel, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> norm, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> bounce)</td></tr>
-<tr class="memdesc:ae07842a43fda046e42c04c0709a05774"><td class="mdescLeft">&#160;</td><td class="mdescRight">clip vel along the plane defined by norm (assuming 0 distance away), bounciness determined by bounce 0..1  <a href="#ae07842a43fda046e42c04c0709a05774">More...</a><br/></td></tr>
-<tr class="separator:ae07842a43fda046e42c04c0709a05774"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b150f420429d9c4768f3c23e637fbe4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a1b150f420429d9c4768f3c23e637fbe4">vlen_maxnorm2d</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>)</td></tr>
-<tr class="separator:a1b150f420429d9c4768f3c23e637fbe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33d068763f2580642c8616327a6a567a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a33d068763f2580642c8616327a6a567a">vlen_minnorm2d</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>)</td></tr>
-<tr class="separator:a33d068763f2580642c8616327a6a567a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d1cd3b60eb67f1ec2a17fc2022e4276"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a9d1cd3b60eb67f1ec2a17fc2022e4276">boxesoverlap</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> m1, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> m2, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> m3, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> m4)</td></tr>
+<tr class="memdesc:a9d1cd3b60eb67f1ec2a17fc2022e4276"><td class="mdescLeft">&#160;</td><td class="mdescRight">requires that m2&gt;m1 in all coordinates, and that m4&gt;m3  <a href="#a9d1cd3b60eb67f1ec2a17fc2022e4276">More...</a><br/></td></tr>
+<tr class="separator:a9d1cd3b60eb67f1ec2a17fc2022e4276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaee658ec68402cd5551686894f802dd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#aaee658ec68402cd5551686894f802dd0">boxinsidebox</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> smins, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> smaxs, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> bmins, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> bmaxs)</td></tr>
+<tr class="memdesc:aaee658ec68402cd5551686894f802dd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">requires the same as boxesoverlap, but is a stronger condition  <a href="#aaee658ec68402cd5551686894f802dd0">More...</a><br/></td></tr>
+<tr class="separator:aaee658ec68402cd5551686894f802dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db213d36a5f7477879d2ee7a97cc1b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a0db213d36a5f7477879d2ee7a97cc1b3">dist_point_line</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a>, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> l0, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> ldir)</td></tr>
+<tr class="separator:a0db213d36a5f7477879d2ee7a97cc1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c066643abd0bfa68136e0f3ee1101ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a1c066643abd0bfa68136e0f3ee1101ed">randompos</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> m1, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> m2)</td></tr>
+<tr class="separator:a1c066643abd0bfa68136e0f3ee1101ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a423bc8d21213cef32b2d89bb6870a9fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a423bc8d21213cef32b2d89bb6870a9fa">reflect</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> dir, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> norm)</td></tr>
+<tr class="separator:a423bc8d21213cef32b2d89bb6870a9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69a2fa91e1a42f6abdd16bbac20728c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#ad69a2fa91e1a42f6abdd16bbac20728c">Rotate</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a)</td></tr>
+<tr class="separator:ad69a2fa91e1a42f6abdd16bbac20728c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7bc06e4c4df2a1e7fe38a487723d698"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#aa7bc06e4c4df2a1e7fe38a487723d698">vec_epsilon</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> eps)</td></tr>
+<tr class="separator:aa7bc06e4c4df2a1e7fe38a487723d698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab52ea71002ddef48e04f0143029cbcf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#ab52ea71002ddef48e04f0143029cbcf6">vec_reflect</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vel, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> norm, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> bounce)</td></tr>
+<tr class="memdesc:ab52ea71002ddef48e04f0143029cbcf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">clip vel along the plane defined by norm (assuming 0 distance away), bounciness determined by bounce 0..1  <a href="#ab52ea71002ddef48e04f0143029cbcf6">More...</a><br/></td></tr>
+<tr class="separator:ab52ea71002ddef48e04f0143029cbcf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa31c3139d1a005d506fb6e1ebe47d1fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#aa31c3139d1a005d506fb6e1ebe47d1fc">vlen_maxnorm2d</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>)</td></tr>
+<tr class="separator:aa31c3139d1a005d506fb6e1ebe47d1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad71a34e21d78fdb74ec30d209b6ea3b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#ad71a34e21d78fdb74ec30d209b6ea3b1">vlen_minnorm2d</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>)</td></tr>
+<tr class="separator:ad71a34e21d78fdb74ec30d209b6ea3b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -235,7 +235,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(out = <a class="el" href="../../de/dcb/vector_8qh.html#a49cc7ebcfeb37c05dbf47aed82b8c0a5">vec_epsilon</a>(<a class="el" href="../../de/dcb/vector_8qh.html#ae07842a43fda046e42c04c0709a05774">vec_reflect</a>(in, normal, (overbounce) - 1), 0.1))</td>
+          <td></td><td>&#160;&#160;&#160;(out = <a class="el" href="../../de/dcb/vector_8qh.html#aa7bc06e4c4df2a1e7fe38a487723d698">vec_epsilon</a>(<a class="el" href="../../de/dcb/vector_8qh.html#ab52ea71002ddef48e04f0143029cbcf6">vec_reflect</a>(in, normal, (overbounce) - 1), 0.1))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -641,12 +641,12 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a3385b15af8ffd7f5c33d2fbb3a9eb237"></a>
+<a class="anchor" id="a9d1cd3b60eb67f1ec2a17fc2022e4276"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> boxesoverlap </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> boxesoverlap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>m1</em>, </td>
@@ -689,19 +689,19 @@ Variables</h2></td></tr>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a3385b15af8ffd7f5c33d2fbb3a9eb237_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a9d1cd3b60eb67f1ec2a17fc2022e4276_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="afc1de7548641f25cb9f3cde38c9ffba9"></a>
+<a class="anchor" id="aaee658ec68402cd5551686894f802dd0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> boxinsidebox </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> boxinsidebox </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>smins</em>, </td>
@@ -739,12 +739,12 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="ad0ae47bfef31e48d06125b2b2194ba50"></a>
+<a class="anchor" id="a0db213d36a5f7477879d2ee7a97cc1b3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> dist_point_line </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> dist_point_line </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>p</em>, </td>
@@ -790,19 +790,19 @@ Variables</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_ad0ae47bfef31e48d06125b2b2194ba50_cgraph.svg" width="246" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a0db213d36a5f7477879d2ee7a97cc1b3_cgraph.svg" width="246" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="afa1e5c0be263a77e0c71292ab0a4dd74"></a>
+<a class="anchor" id="a1c066643abd0bfa68136e0f3ee1101ed"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> randompos </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> randompos </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>m1</em>, </td>
@@ -843,7 +843,7 @@ Variables</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_afa1e5c0be263a77e0c71292ab0a4dd74_cgraph.svg" width="214" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a1c066643abd0bfa68136e0f3ee1101ed_cgraph.svg" width="214" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -853,19 +853,19 @@ Variables</h2></td></tr>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_afa1e5c0be263a77e0c71292ab0a4dd74_icgraph.svg" width="606" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a1c066643abd0bfa68136e0f3ee1101ed_icgraph.svg" width="606" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="ab167fa7c81f4d5f3092673b05f07c8a3"></a>
+<a class="anchor" id="a423bc8d21213cef32b2d89bb6870a9fa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> reflect </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> reflect </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>dir</em>, </td>
@@ -904,19 +904,19 @@ Variables</h2></td></tr>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_ab167fa7c81f4d5f3092673b05f07c8a3_icgraph.svg" width="360" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a423bc8d21213cef32b2d89bb6870a9fa_icgraph.svg" width="360" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="ad91aed42765e2e8c710999dfdcbac770"></a>
+<a class="anchor" id="ad69a2fa91e1a42f6abdd16bbac20728c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> Rotate </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> Rotate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>v</em>, </td>
@@ -954,7 +954,7 @@ Variables</h2></td></tr>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_ad91aed42765e2e8c710999dfdcbac770_cgraph.svg" width="163" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_ad69a2fa91e1a42f6abdd16bbac20728c_cgraph.svg" width="163" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -964,19 +964,19 @@ Variables</h2></td></tr>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_ad91aed42765e2e8c710999dfdcbac770_icgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_ad69a2fa91e1a42f6abdd16bbac20728c_icgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a49cc7ebcfeb37c05dbf47aed82b8c0a5"></a>
+<a class="anchor" id="aa7bc06e4c4df2a1e7fe38a487723d698"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vec_epsilon </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vec_epsilon </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>this</em>, </td>
@@ -1005,12 +1005,12 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="ae07842a43fda046e42c04c0709a05774"></a>
+<a class="anchor" id="ab52ea71002ddef48e04f0143029cbcf6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vec_reflect </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vec_reflect </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>vel</em>, </td>
@@ -1044,12 +1044,12 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a1b150f420429d9c4768f3c23e637fbe4"></a>
+<a class="anchor" id="aa31c3139d1a005d506fb6e1ebe47d1fc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> vlen_maxnorm2d </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> vlen_maxnorm2d </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
@@ -1074,7 +1074,7 @@ Variables</h2></td></tr>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a1b150f420429d9c4768f3c23e637fbe4_cgraph.svg" width="230" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_aa31c3139d1a005d506fb6e1ebe47d1fc_cgraph.svg" width="230" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1084,19 +1084,19 @@ Variables</h2></td></tr>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a1b150f420429d9c4768f3c23e637fbe4_icgraph.svg" width="278" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_aa31c3139d1a005d506fb6e1ebe47d1fc_icgraph.svg" width="278" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a33d068763f2580642c8616327a6a567a"></a>
+<a class="anchor" id="ad71a34e21d78fdb74ec30d209b6ea3b1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> vlen_minnorm2d </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> vlen_minnorm2d </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
@@ -1122,7 +1122,7 @@ Variables</h2></td></tr>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a33d068763f2580642c8616327a6a567a_cgraph.svg" width="224" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_ad71a34e21d78fdb74ec30d209b6ea3b1_cgraph.svg" width="224" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1132,7 +1132,7 @@ Variables</h2></td></tr>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a33d068763f2580642c8616327a6a567a_icgraph.svg" width="272" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_ad71a34e21d78fdb74ec30d209b6ea3b1_icgraph.svg" width="272" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1292,7 +1292,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../de/dcb/vector_8qh.html">vector.qh</a></li>
-    <li class="footer">Generated on Sun Jul 16 2017 05:11:26 for Xonotic by
+    <li class="footer">Generated on Sun Jul 16 2017 08:44:38 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

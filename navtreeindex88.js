@@ -1,5 +1,6 @@
 var NAVTREEINDEX88 =
 {
+"da/d20/spawnfunc_8qh_source.html":[2,0,4,53],
 "da/d21/dialog__hudpanel__pressedkeys_8qc.html":[2,0,5,4,66],
 "da/d21/dialog__hudpanel__pressedkeys_8qc.html#a50ac86a8aff6a80ee0e343981f9027b8":[2,0,5,4,66,0],
 "da/d21/dialog__hudpanel__pressedkeys_8qc_source.html":[2,0,5,4,66],
@@ -124,7 +125,7 @@ var NAVTREEINDEX88 =
 "da/d2d/common_2monsters_2__mod_8qh.html":[2,0,1,8,2],
 "da/d2d/common_2monsters_2__mod_8qh_source.html":[2,0,1,8,2],
 "da/d30/file_8qh.html":[2,0,4,19],
-"da/d30/file_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff":[2,0,4,19,0],
+"da/d30/file_8qh.html#aeff7dd5ab95e5e6de16402f61a1c851c":[2,0,4,19,0],
 "da/d30/file_8qh_source.html":[2,0,4,19],
 "da/d3b/weapons_2weapon_2machinegun_8qc.html":[2,0,1,16,0,20],
 "da/d3b/weapons_2weapon_2machinegun_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,20,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "da/d46/classMLRSTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,75,0],
 "da/d46/picker_8qc.html":[2,0,5,4,184],
 "da/d46/picker_8qc.html#a132ba96da5ba28448b61e42c019312a9":[2,0,5,4,184,12],
-"da/d46/picker_8qc.html#a31daa00a20ea0b0228b3a664c8e90483":[2,0,5,4,184,0],
-"da/d46/picker_8qc.html#a382a506870e86943c234ec726e664984":[2,0,5,4,184,1]
+"da/d46/picker_8qc.html#a31daa00a20ea0b0228b3a664c8e90483":[2,0,5,4,184,0]
 };

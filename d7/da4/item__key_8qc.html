@@ -257,12 +257,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// one key</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span> ((keylist &amp; (keylist-1)) == 0)</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;the &quot;</span>, item_keys_names[<a class="code" href="../../d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5">lowestbit</a>(keylist)]);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;the &quot;</span>, item_keys_names[<a class="code" href="../../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445">lowestbit</a>(keylist)]);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">string</span> n = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">int</span> base = 0;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">while</span> (keylist) {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">int</span> l = <a class="code" href="../../d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5">lowestbit</a>(keylist);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">int</span> l = <a class="code" href="../../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445">lowestbit</a>(keylist);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">if</span> (n)</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            n = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(n, <span class="stringliteral">&quot;, the &quot;</span>, item_keys_names[base + l]);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">else</span></div>
@@ -274,7 +274,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">return</span> n;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
-<div class="ttc" id="bits_8qh_html_a4e505c95c58bad3078989c9ce70999b5"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5">lowestbit</a></div><div class="ttdeci">int lowestbit(int f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00014">bits.qh:14</a></div></div>
+<div class="ttc" id="bits_8qh_html_a808f053d5430a7745f7ebe68554b1445"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445">lowestbit</a></div><div class="ttdeci">ERASEABLE int lowestbit(int f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00014">bits.qh:14</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -556,12 +556,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../df/dc2/sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a>(ITEMPICKUP));</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="comment">// save the name for later</span></div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    item_keys_names[<a class="code" href="../../d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5">lowestbit</a>(this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>)] = this.<a class="code" href="../../df/db0/powerups_8qc.html#aa3617b17b0191b4d9454096aff09e1fe">netname</a>;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    item_keys_names[<a class="code" href="../../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445">lowestbit</a>(this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>)] = this.<a class="code" href="../../df/db0/powerups_8qc.html#aa3617b17b0191b4d9454096aff09e1fe">netname</a>;</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="comment">// put the key on the map</span></div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <a class="code" href="../../d7/da4/item__key_8qc.html#af3a13762fb065eb4a038e6a3e897007e">spawn_item_key</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;}</div>
-<div class="ttc" id="bits_8qh_html_a4e505c95c58bad3078989c9ce70999b5"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5">lowestbit</a></div><div class="ttdeci">int lowestbit(int f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00014">bits.qh:14</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="item__key_8qc_html_af3a13762fb065eb4a038e6a3e897007e"><div class="ttname"><a href="../../d7/da4/item__key_8qc.html#af3a13762fb065eb4a038e6a3e897007e">spawn_item_key</a></div><div class="ttdeci">void spawn_item_key(entity this)</div><div class="ttdoc">Spawn a key with given model, key code and color. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da4/item__key_8qc_source.html#l00094">item_key.qc:94</a></div></div>
 <div class="ttc" id="sounds_2all_8qh_html_a95b575d77a4c36658bf10f40dd84893d"><div class="ttname"><a href="../../df/dc2/sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a></div><div class="ttdeci">#define SND(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/sounds_2all_8qh_source.html#l00014">all.qh:14</a></div></div>
@@ -569,6 +568,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="powerups_8qc_html_ae8da69f90cbd357d76d977b2fd3fb2af"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a></div><div class="ttdeci">vector colormod</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00010">powerups.qc:10</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
 <div class="ttc" id="client_2defs_8qh_html_ae1ed0d7a6f352c7ee3ad978429822c6f"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a></div><div class="ttdeci">string message</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00007">defs.qh:7</a></div></div>
+<div class="ttc" id="bits_8qh_html_a808f053d5430a7745f7ebe68554b1445"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445">lowestbit</a></div><div class="ttdeci">ERASEABLE int lowestbit(int f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00014">bits.qh:14</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a92abfb3919bea2ad0405516d4a4b652b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a></div><div class="ttdeci">void objerror(string err,...)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_ac9ad78cdc39949f5f716a5eda584f5e6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a></div><div class="ttdeci">string model</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00108">csprogsdefs.qc:108</a></div></div>
 <div class="ttc" id="powerups_8qc_html_aa3617b17b0191b4d9454096aff09e1fe"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#aa3617b17b0191b4d9454096aff09e1fe">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00009">powerups.qc:9</a></div></div>
@@ -652,7 +652,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d7/da4/item__key_8qc.html">item_key.qc</a></li>
-    <li class="footer">Generated on Sun Jul 16 2017 05:11:30 for Xonotic by
+    <li class="footer">Generated on Sun Jul 16 2017 08:44:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

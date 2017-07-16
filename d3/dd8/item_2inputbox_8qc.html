@@ -490,15 +490,15 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        }</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (me.maxLength &lt; 0)</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        {</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d2/db4/string_8qh.html#adbc4edd2149590de1c83379535f699fd">u8_strsize</a>(ch) + <a class="code" href="../../d2/db4/string_8qh.html#adbc4edd2149590de1c83379535f699fd">u8_strsize</a>(me.text) &gt; -me.maxLength) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d2/db4/string_8qh.html#a7e5f5f4d3becad7a7014318e98b72e61">u8_strsize</a>(ch) + <a class="code" href="../../d2/db4/string_8qh.html#a7e5f5f4d3becad7a7014318e98b72e61">u8_strsize</a>(me.text) &gt; -me.maxLength) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        }</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        me.setText(me, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(me.text, 0, me.cursorPos), ch, <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(me.text, me.cursorPos, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(me.text) - me.cursorPos)));</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        me.cursorPos += <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(ch);</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
+<div class="ttc" id="string_8qh_html_a7e5f5f4d3becad7a7014318e98b72e61"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a7e5f5f4d3becad7a7014318e98b72e61">u8_strsize</a></div><div class="ttdeci">ERASEABLE int u8_strsize(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00247">string.qh:247</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a2ac3100017ecf2236493ea038c4d2083"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a></div><div class="ttdeci">#define strstrofs</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00042">dpextensions.qh:42</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
-<div class="ttc" id="string_8qh_html_adbc4edd2149590de1c83379535f699fd"><div class="ttname"><a href="../../d2/db4/string_8qh.html#adbc4edd2149590de1c83379535f699fd">u8_strsize</a></div><div class="ttdeci">int u8_strsize(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00247">string.qh:247</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1102,7 +1102,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_35b13da68f3b87ebd8e5efaf5a26acd6.html">item</a></li><li class="navelem"><a class="el" href="../../d3/dd8/item_2inputbox_8qc.html">inputbox.qc</a></li>
-    <li class="footer">Generated on Sun Jul 16 2017 05:11:27 for Xonotic by
+    <li class="footer">Generated on Sun Jul 16 2017 08:44:38 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

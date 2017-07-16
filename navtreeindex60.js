@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"d6/df8/classTeamDeathmatch.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,124,5],
 "d6/dfa/dialog__hudpanel__healtharmor_8qh.html":[2,0,5,4,53],
 "d6/dfa/dialog__hudpanel__healtharmor_8qh_source.html":[2,0,5,4,53],
 "d7/d01/menu_2xonotic_2campaign_8qh.html":[2,0,5,4,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "d7/d16/server_2command_2vote_8qh_source.html":[2,0,6,1,17],
 "d7/d18/cl__overkill_8qh.html":[2,0,1,9,0,20,3],
 "d7/d18/cl__overkill_8qh_source.html":[2,0,1,9,0,20,3],
-"d7/d21/dialog__sandboxtools_8qc.html":[2,0,5,4,116],
-"d7/d21/dialog__sandboxtools_8qc.html#ac25be4335e49b3f698c217f81dfdc42e":[2,0,5,4,116,0]
+"d7/d21/dialog__sandboxtools_8qc.html":[2,0,5,4,116]
 };

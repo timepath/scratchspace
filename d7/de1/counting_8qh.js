@@ -12,7 +12,7 @@ var counting_8qh =
     [ "count_weeks_decs", "d7/de1/counting_8qh.html#a847bf421ce1a7e1e70e2508d1b96d58f", null ],
     [ "count_years", "d7/de1/counting_8qh.html#ad2d4f4474e96943605fdebb671662033", null ],
     [ "count_years_decs", "d7/de1/counting_8qh.html#a6a4dd5a397c929c2a947914782b84758", null ],
-    [ "count_fill", "d7/de1/counting_8qh.html#adeacb6e219c97cfdfe6d429786a1fd02", null ],
-    [ "count_ordinal", "d7/de1/counting_8qh.html#af1015767343e4d592f051c16a8be2a9e", null ],
-    [ "process_time", "d7/de1/counting_8qh.html#a3c64a781bdc8bb479a5526f17e0f004d", null ]
+    [ "count_fill", "d7/de1/counting_8qh.html#a8a3acb7cfa7023988bc90c4d28e778b6", null ],
+    [ "count_ordinal", "d7/de1/counting_8qh.html#a841da1d1355590fd49a33a117016f0e9", null ],
+    [ "process_time", "d7/de1/counting_8qh.html#a9a738fde1e2d200519a49d1fa204333d", null ]
 ];

@@ -132,8 +132,8 @@ $(document).ready(function(){initNavTree('dd/d1e/utility_8qc_source.html','../..
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    ++<a class="code" href="../../dd/d70/pathlib_8qh.html#a29a79128389d60b07c113ad3bb4d6b4a">pathlib_searched_cnt</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    where.x = <a class="code" href="../../d0/d79/math_8qh.html#a87ab6b8926bb5587a28d323202f59791">fsnap</a>(where.x,<a class="code" href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a>);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    where.y = <a class="code" href="../../d0/d79/math_8qh.html#a87ab6b8926bb5587a28d323202f59791">fsnap</a>(where.y,<a class="code" href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a>);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    where.x = <a class="code" href="../../d0/d79/math_8qh.html#abba176f2e34059c17eaa7b4f032f9da9">fsnap</a>(where.x,<a class="code" href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    where.y = <a class="code" href="../../d0/d79/math_8qh.html#abba176f2e34059c17eaa7b4f032f9da9">fsnap</a>(where.y,<a class="code" href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a>);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> found = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// TODO: using FOREACH_ENTITY_RADIUS here causes mutex loop warnings, this may need a proper fix!</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a343db0b2176359fdbe813de89a4638b8">g_pathlib_nodes</a>, it.is_path_node &amp;&amp; <a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(it.origin - where, &lt;, <a class="code" href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a> * 0.5),</div>
@@ -316,7 +316,6 @@ $(document).ready(function(){initNavTree('dd/d1e/utility_8qc_source.html','../..
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;}</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
-<div class="ttc" id="math_8qh_html_a87ab6b8926bb5587a28d323202f59791"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a87ab6b8926bb5587a28d323202f59791">fsnap</a></div><div class="ttdeci">float fsnap(float val, float fsize)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00057">math.qh:57</a></div></div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00167">intrusivelist.qh:167</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aa3a866cdc0e6b0951832c310d0b9244c"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aa3a866cdc0e6b0951832c310d0b9244c">trace_dphitq3surfaceflags</a></div><div class="ttdeci">float trace_dphitq3surfaceflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01121">csprogsdefs.qc:1121</a></div></div>
 <div class="ttc" id="utility_8qh_html"><div class="ttname"><a href="../../dc/db9/utility_8qh.html">utility.qh</a></div></div>
@@ -355,13 +354,14 @@ $(document).ready(function(){initNavTree('dd/d1e/utility_8qc_source.html','../..
 <div class="ttc" id="csqc__constants_8qh_html_a04614b5903216f8aef49d3d944458bb1"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a04614b5903216f8aef49d3d944458bb1">CONTENT_EMPTY</a></div><div class="ttdeci">const int CONTENT_EMPTY</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00045">csqc_constants.qh:45</a></div></div>
 <div class="ttc" id="pathlib_8qh_html_a88e69b1ec54a95c69cfa716fc6bfa8c9"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a88e69b1ec54a95c69cfa716fc6bfa8c9">pathlib_node_edgeflag_right</a></div><div class="ttdeci">const float pathlib_node_edgeflag_right</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00037">pathlib.qh:37</a></div></div>
 <div class="ttc" id="pathlib_8qh_html_a0576e617652793d2f11b3b32549170ca"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a0576e617652793d2f11b3b32549170ca">pathlib_node_edgeflag_forwardright</a></div><div class="ttdeci">const float pathlib_node_edgeflag_forwardright</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00043">pathlib.qh:43</a></div></div>
+<div class="ttc" id="math_8qh_html_abba176f2e34059c17eaa7b4f032f9da9"><div class="ttname"><a href="../../d0/d79/math_8qh.html#abba176f2e34059c17eaa7b4f032f9da9">fsnap</a></div><div class="ttdeci">ERASEABLE float fsnap(float val, float fsize)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00057">math.qh:57</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_038facabb326e47524555c6946dd7e55.html">pathlib</a></li><li class="navelem"><a class="el" href="../../dd/d1e/utility_8qc.html">utility.qc</a></li>
-    <li class="footer">Generated on Sun Jul 16 2017 05:11:18 for Xonotic by
+    <li class="footer">Generated on Sun Jul 16 2017 08:44:30 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

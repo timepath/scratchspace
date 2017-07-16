@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"d7/dc4/waypoints_8qc.html#a4f04a7e429856a63db83b70e53d92a30":[2,0,6,0,0,13,5],
 "d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866":[2,0,6,0,0,13,36],
 "d7/dc4/waypoints_8qc.html#a5c2ed2db425ae03dadf19dede5799956":[2,0,6,0,0,13,12],
 "d7/dc4/waypoints_8qc.html#a78500a5fdfa2de7f46f627274085fe08":[2,0,6,0,0,13,8],
@@ -109,19 +110,19 @@ var NAVTREEINDEX69 =
 "d7/dde/classLinkedList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,65,3],
 "d7/de1/counting_8qh.html":[2,0,4,14],
 "d7/de1/counting_8qh.html#a1acc9be3460c51fd0fea127b60478f9d":[2,0,4,14,5],
-"d7/de1/counting_8qh.html#a3c64a781bdc8bb479a5526f17e0f004d":[2,0,4,14,14],
 "d7/de1/counting_8qh.html#a3fc61db00404d2736f6177aa09dee45a":[2,0,4,14,1],
 "d7/de1/counting_8qh.html#a47ac879aa7a934b20865b1c34b4cf541":[2,0,4,14,8],
 "d7/de1/counting_8qh.html#a523658f9ea031c3e7649a0a6f6049bfd":[2,0,4,14,2],
 "d7/de1/counting_8qh.html#a6a4dd5a397c929c2a947914782b84758":[2,0,4,14,11],
 "d7/de1/counting_8qh.html#a779b2923e596fa177779224f56d3abbe":[2,0,4,14,0],
+"d7/de1/counting_8qh.html#a841da1d1355590fd49a33a117016f0e9":[2,0,4,14,13],
 "d7/de1/counting_8qh.html#a847bf421ce1a7e1e70e2508d1b96d58f":[2,0,4,14,9],
+"d7/de1/counting_8qh.html#a8a3acb7cfa7023988bc90c4d28e778b6":[2,0,4,14,12],
+"d7/de1/counting_8qh.html#a9a738fde1e2d200519a49d1fa204333d":[2,0,4,14,14],
 "d7/de1/counting_8qh.html#abdae2ca344cc9cd3a5f0e501518d9507":[2,0,4,14,7],
 "d7/de1/counting_8qh.html#ad2d4f4474e96943605fdebb671662033":[2,0,4,14,10],
 "d7/de1/counting_8qh.html#ade81173745e339d64af5e3bba71e0b09":[2,0,4,14,6],
-"d7/de1/counting_8qh.html#adeacb6e219c97cfdfe6d429786a1fd02":[2,0,4,14,12],
 "d7/de1/counting_8qh.html#aee490290cc845d89495554ba83c50b97":[2,0,4,14,3],
-"d7/de1/counting_8qh.html#af1015767343e4d592f051c16a8be2a9e":[2,0,4,14,13],
 "d7/de1/counting_8qh.html#afa44cf24ebd7d66c22f4d0265bdc306c":[2,0,4,14,4],
 "d7/de1/counting_8qh_source.html":[2,0,4,14],
 "d7/de1/g__hook_8qh.html":[2,0,6,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "d7/de6/classXonoticSkinList.html#a98bbe2fd132053389c824fffe49fa5b8":[1,0,238,40],
 "d7/de6/classXonoticSkinList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,238,60],
 "d7/de6/classXonoticSkinList.html#aa0be1afcee01b4904e9b7ccc15674b53":[1,0,238,2],
-"d7/de6/classXonoticSkinList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,238,42],
-"d7/de6/classXonoticSkinList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,238,9]
+"d7/de6/classXonoticSkinList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,238,42]
 };

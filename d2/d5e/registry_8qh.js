@@ -28,8 +28,8 @@ var registry_8qh =
     [ "REGISTRY_SORT", "d2/d5e/registry_8qh.html#a36b2225ea780a288a9b908c86d90e1e8", null ],
     [ "REGISTRY_SORT_1", "d2/d5e/registry_8qh.html#a58438a045f1340e22199492325c77407", null ],
     [ "REGISTRY_SORT_2", "d2/d5e/registry_8qh.html#a0dbc1352a0fc19b37f4704541eb78cef", null ],
-    [ "Registry_check", "d2/d5e/registry_8qh.html#a3e2b42e82e961b6cf12f9794dea5d7c2", null ],
-    [ "Registry_send_all", "d2/d5e/registry_8qh.html#af2550d07e4cc72d8984acaf78ba17b3e", null ],
+    [ "Registry_check", "d2/d5e/registry_8qh.html#a908b9886c333c68079f9f4d563acdecd", null ],
+    [ "Registry_send_all", "d2/d5e/registry_8qh.html#a77e0b00f27cb50a2e4742f0ead2eb44f", null ],
     [ "registered_id", "d2/d5e/registry_8qh.html#a80bc0f55561b2fdbd9bf5768df172dcf", null ],
     [ "REGISTRY_NEXT", "d2/d5e/registry_8qh.html#abdb2c4c4efccfa31f16e67f85b27b40a", null ]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"d7/db2/dialog__singleplayer__winner_8qc.html#ab760c2bcafe6cd6d238f8e97779394c2":[2,0,5,4,158,1],
 "d7/db2/dialog__singleplayer__winner_8qc_source.html":[2,0,5,4,158],
 "d7/db3/gamemode__lms_8qc.html":[2,0,6,3,0,22],
 "d7/db3/gamemode__lms_8qc.html#a00d0bee22e2d7e192024954e73adb427":[2,0,6,3,0,22,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "d7/db4/client_2autocvars_8qh.html#a75ba9907dc0eca567ce24540ae3d7071":[2,0,0,10,119],
 "d7/db4/client_2autocvars_8qh.html#a769abd3dde029fd8e62ae71c8a6ae258":[2,0,0,10,4],
 "d7/db4/client_2autocvars_8qh.html#a76ce73f0f4a4d58b500a6517f35a668d":[2,0,0,10,74],
-"d7/db4/client_2autocvars_8qh.html#a76ebeefadb32c8cc3d1c4237d7618bfe":[2,0,0,10,34],
-"d7/db4/client_2autocvars_8qh.html#a774313448b5a8b495ac78172f1d8be23":[2,0,0,10,14]
+"d7/db4/client_2autocvars_8qh.html#a76ebeefadb32c8cc3d1c4237d7618bfe":[2,0,0,10,34]
 };

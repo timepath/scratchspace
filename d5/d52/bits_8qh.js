@@ -8,9 +8,9 @@ var bits_8qh =
     [ "OP_MAX", "d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9", null ],
     [ "OP_PLUS", "d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7", null ],
     [ "OP_MINUS", "d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1", null ],
-    [ "GiveBit", "d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde", null ],
-    [ "GiveValue", "d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635", null ],
-    [ "lowestbit", "d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5", null ],
-    [ "randombit", "d5/d52/bits_8qh.html#a21771da868be7cb43eca041914c3fbec", null ],
-    [ "randombits", "d5/d52/bits_8qh.html#a4b5d18d629ab1dae52de315850a31872", null ]
+    [ "GiveBit", "d5/d52/bits_8qh.html#a6152f5c7aad64cc41a6c5dc6eef96bf2", null ],
+    [ "GiveValue", "d5/d52/bits_8qh.html#a7c4df704eb888da3165c69863ce0f234", null ],
+    [ "lowestbit", "d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445", null ],
+    [ "randombit", "d5/d52/bits_8qh.html#a2314b0f12446883858be502bad75f6d2", null ],
+    [ "randombits", "d5/d52/bits_8qh.html#a436eedb0115f556bd144885d709aad27", null ]
 ];

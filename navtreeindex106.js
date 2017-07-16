@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"dc/d2a/classPlasmaTurret.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,95,4],
 "dc/d2a/classPlasmaTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,95,0],
 "dc/d2a/classPlasmaTurret.html#afc879ce2e2b1e0f5f96f4b11145761c9":[1,0,95,15],
 "dc/d2b/chat_8qc.html":[2,0,0,1,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "dc/d44/classXonoticScreenshotList.html#a03271ae59380e490ddb2a609ef220517":[1,0,230,4],
 "dc/d44/classXonoticScreenshotList.html#a037f81884480b41f2f7e42a02c2e407b":[1,0,230,47],
 "dc/d44/classXonoticScreenshotList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,230,52],
-"dc/d44/classXonoticScreenshotList.html#a0762f22ad1bcf4b544e98440a3d00160":[1,0,230,1],
-"dc/d44/classXonoticScreenshotList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,230,55]
+"dc/d44/classXonoticScreenshotList.html#a0762f22ad1bcf4b544e98440a3d00160":[1,0,230,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"df/d56/classSpider.html#a78bac4eaa186fb8ccfdeafe7375ee0dc":[1,0,119,12],
 "df/d56/classSpider.html#a80299782ddadc9eb0b2628a1dda419aa":[1,0,119,9],
 "df/d56/classSpider.html#a84829255027bd85cf33ef0418ef5c975":[1,0,119,6],
 "df/d56/classSpider.html#a98fd6d803cf7376820bb26fcbca5adbd":[1,0,119,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "df/d7d/dialog__monstertools_8qh_source.html":[2,0,5,4,85],
 "df/d7d/dialog__multiplayer__create__mapinfo_8qc.html":[2,0,5,4,90],
 "df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#a81b771e7581da0653ae9997c03b7d3bc":[2,0,5,4,90,1],
-"df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#acce086669cf0b84947e048b16b4ead4a":[2,0,5,4,90,0],
-"df/d7d/dialog__multiplayer__create__mapinfo_8qc_source.html":[2,0,5,4,90]
+"df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#acce086669cf0b84947e048b16b4ead4a":[2,0,5,4,90,0]
 };

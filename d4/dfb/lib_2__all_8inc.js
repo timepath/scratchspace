@@ -2,6 +2,7 @@ var lib_2__all_8inc =
 [
     [ "bool", "d4/dfb/lib_2__all_8inc.html#abb452686968e48b67397da5f97445f5b", null ],
     [ "COMPAT_NO_MOD_IS_XONOTIC", "d4/dfb/lib_2__all_8inc.html#ab58942eb88cb33653ba58614e59bff00", null ],
+    [ "ERASEABLE", "d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121", null ],
     [ "int", "d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904", null ],
     [ "IS_CSQC", "d4/dfb/lib_2__all_8inc.html#a52c2de75e535dc3464ebed96906120bc", null ],
     [ "is_entity", "d4/dfb/lib_2__all_8inc.html#aea821d6e0d2d54c0ab8c11c6255f8f8c", null ],

@@ -8,14 +8,14 @@ var searchData=
   ['label_5ftostring',['Label_toString',['../d4/d16/label_8qc.html#adcff27fcdef5144790b41d250ea31ed5',1,'label.qc']]],
   ['lag_5fadditem',['lag_additem',['../df/dc9/aim_8qc.html#a0a9f57cfe39f89603a6d3fc82738c957',1,'lag_additem(entity this, float t, float f1, float f2, entity e1, vector v1, vector v2, vector v3, vector v4):&#160;aim.qc'],['../d3/d5a/aim_8qh.html#a0a9f57cfe39f89603a6d3fc82738c957',1,'lag_additem(entity this, float t, float f1, float f2, entity e1, vector v1, vector v2, vector v3, vector v4):&#160;aim.qc']]],
   ['lag_5fupdate',['lag_update',['../df/dc9/aim_8qc.html#aa2a75c4116c382f9f9edc90c26e69155',1,'lag_update(entity this):&#160;aim.qc'],['../d3/d5a/aim_8qh.html#aa2a75c4116c382f9f9edc90c26e69155',1,'lag_update(entity this):&#160;aim.qc']]],
-  ['language_5ffilename',['language_filename',['../d0/dfe/i18n_8qh.html#afc249e655b212b61d409a3400c7371fb',1,'i18n.qh']]],
+  ['language_5ffilename',['language_filename',['../d0/dfe/i18n_8qh.html#a9b02dfbe36c40b870a42c9c2e1630915',1,'i18n.qh']]],
   ['languageparameter',['languageParameter',['../d3/dba/classXonoticLanguageList.html#a0fd436f57c4f662390be6b6baffebe5d',1,'XonoticLanguageList']]],
   ['lastmanstanding',['LastManStanding',['../d3/d09/classLastManStanding.html#a533f6a18d70593e6534bd43cba356d00',1,'LastManStanding']]],
   ['lazy',['Lazy',['../d3/dde/classLazy.html#a8e68957fd15a62a0f197fda172dbb405',1,'Lazy']]],
   ['ldexp',['ldexp',['../df/d38/mathlib_8qc.html#a28ae78c9ba7098d2b372dde22229b733',1,'ldexp(float e, int e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a28ae78c9ba7098d2b372dde22229b733',1,'ldexp(float e, int e):&#160;mathlib.qc']]],
   ['leanmodel_5fofs',['leanmodel_ofs',['../d6/dd3/view_8qc.html#ac864cc822088f051704ed70a2f89224a',1,'view.qc']]],
   ['leavesubitem',['leaveSubitem',['../d0/d7b/classContainer.html#a01627abafc724fbbbb330e46f8331911',1,'Container']]],
-  ['lerpv',['lerpv',['../d0/d79/math_8qh.html#a26a88fb303232c6dfa1541e00a40c19c',1,'math.qh']]],
+  ['lerpv',['lerpv',['../d0/d79/math_8qh.html#aba3066b97e95d3930e9205fdb186ba2e',1,'math.qh']]],
   ['lgamma',['lgamma',['../df/d38/mathlib_8qc.html#a659c66483cd7c3631f185f4fbd45affb',1,'lgamma(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a659c66483cd7c3631f185f4fbd45affb',1,'lgamma(float e):&#160;mathlib.qc']]],
   ['linkdoors',['LinkDoors',['../d6/d9c/door_8qc.html#a9b3dfef6f936841d5afaf00fe2875afa',1,'door.qc']]],
   ['linkdoors_5fisconnected',['LinkDoors_isconnected',['../d6/d9c/door_8qc.html#a5c3d7da13caad82f621f1605ee804d4b',1,'door.qc']]],
@@ -93,7 +93,7 @@ var searchData=
   ['log10',['log10',['../df/d38/mathlib_8qc.html#a78694f207dbd1c20883880487c2db48f',1,'log10(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a78694f207dbd1c20883880487c2db48f',1,'log10(float e):&#160;mathlib.qc']]],
   ['log1p',['log1p',['../df/d38/mathlib_8qc.html#a55ec15e84426bbd85f3a90829735f424',1,'log1p(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a55ec15e84426bbd85f3a90829735f424',1,'log1p(float e):&#160;mathlib.qc']]],
   ['log2',['log2',['../df/d38/mathlib_8qc.html#a1e509e70b652f5baaa8d83bac7d0f97e',1,'log2(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a1e509e70b652f5baaa8d83bac7d0f97e',1,'log2(float e):&#160;mathlib.qc']]],
-  ['log2of',['log2of',['../d0/d79/math_8qh.html#a1aa298be39cc3d2a197e80ed2430fb0a',1,'math.qh']]],
+  ['log2of',['log2of',['../d0/d79/math_8qh.html#a329d230e78c37078e8fedff231727c91',1,'math.qh']]],
   ['log_5ftrace',['LOG_TRACE',['../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd',1,'framework.qc']]],
   ['logb',['logb',['../df/d38/mathlib_8qc.html#a97a198a7b7b819ae7e1c6ed1d6f20899',1,'logb(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a97a198a7b7b819ae7e1c6ed1d6f20899',1,'logb(float e):&#160;mathlib.qc']]],
   ['logdeath',['LogDeath',['../d5/dac/g__damage_8qc.html#aff28c78124853cc6ad4f9f330588e1d3',1,'LogDeath(string mode, int deathtype, entity killer, entity killed):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#aff28c78124853cc6ad4f9f330588e1d3',1,'LogDeath(string mode, int deathtype, entity killer, entity killed):&#160;g_damage.qc']]],
@@ -101,5 +101,5 @@ var searchData=
   ['logteamchange',['LogTeamchange',['../de/d4f/teamplay_8qc.html#af954f9f806424a8cb8467d9372d8049e',1,'LogTeamchange(float player_id, float team_number, float type):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#af954f9f806424a8cb8467d9372d8049e',1,'LogTeamchange(float player_id, float team_number, float type):&#160;teamplay.qc']]],
   ['loopsound',['loopsound',['../d3/db6/projectile_8qc.html#a9f8c39b72e4cac7db813d64f6b47da53',1,'loopsound(entity e, int ch, Sound samp, float vol, float attn):&#160;projectile.qc'],['../dc/dc7/projectile_8qh.html#a9f8c39b72e4cac7db813d64f6b47da53',1,'loopsound(entity e, int ch, Sound samp, float vol, float attn):&#160;projectile.qc']]],
   ['lostmovetypefollow',['LostMovetypeFollow',['../dc/dc6/server_2miscfunctions_8qc.html#adb60a180886d4dfa682f79bf827c5ce4',1,'LostMovetypeFollow(entity ent):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#adb60a180886d4dfa682f79bf827c5ce4',1,'LostMovetypeFollow(entity ent):&#160;miscfunctions.qc']]],
-  ['lowestbit',['lowestbit',['../d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5',1,'bits.qh']]]
+  ['lowestbit',['lowestbit',['../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445',1,'bits.qh']]]
 ];

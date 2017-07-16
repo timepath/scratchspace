@@ -1,5 +1,6 @@
 var NAVTREEINDEX105 =
 {
+"dc/d06/classDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,27,6],
 "dc/d06/classDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,27,46],
 "dc/d06/classDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,27,1],
 "dc/d06/classDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,27,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX105 =
 "dc/d2a/classPlasmaTurret.html#ac60e41739d60d225213f6da8320f0954":[1,0,95,17],
 "dc/d2a/classPlasmaTurret.html#acae508140eb87cd8965be4f7d403ca9c":[1,0,95,21],
 "dc/d2a/classPlasmaTurret.html#adee1af35949f436445983050dfa64fae":[1,0,95,18],
-"dc/d2a/classPlasmaTurret.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,95,3],
-"dc/d2a/classPlasmaTurret.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,95,4]
+"dc/d2a/classPlasmaTurret.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,95,3]
 };

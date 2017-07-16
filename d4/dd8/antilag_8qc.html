@@ -622,10 +622,10 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">if</span> (i1 &gt;= <a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a>)</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        i1 = 0;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d79/math_8qh.html#a26a88fb303232c6dfa1541e00a40c19c">lerpv</a>(store.antilag_times[i0], store.antilag_origins[i0], store.antilag_times[i1], store.antilag_origins[i1], t);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d79/math_8qh.html#aba3066b97e95d3930e9205fdb186ba2e">lerpv</a>(store.antilag_times[i0], store.antilag_origins[i0], store.antilag_times[i1], store.antilag_origins[i1], t);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="ttc" id="math_8qh_html_aba3066b97e95d3930e9205fdb186ba2e"><div class="ttname"><a href="../../d0/d79/math_8qh.html#aba3066b97e95d3930e9205fdb186ba2e">lerpv</a></div><div class="ttdeci">ERASEABLE vector lerpv(float t0, vector v0, float t1, vector v1, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00075">math.qh:75</a></div></div>
 <div class="ttc" id="antilag_8qc_html_a44007160659f27ebf8bfabc0071b9e3a"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a44007160659f27ebf8bfabc0071b9e3a">antilag_find</a></div><div class="ttdeci">float antilag_find(entity e, entity store, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00038">antilag.qc:38</a></div></div>
-<div class="ttc" id="math_8qh_html_a26a88fb303232c6dfa1541e00a40c19c"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a26a88fb303232c6dfa1541e00a40c19c">lerpv</a></div><div class="ttdeci">vector lerpv(float t0, vector v0, float t1, vector v1, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00075">math.qh:75</a></div></div>
 <div class="ttc" id="antilag_8qc_html_a0f391f0d4833626e2e1f106782db02d9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a></div><div class="ttdeci">const int ANTILAG_MAX_ORIGINS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00010">antilag.qc:10</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -759,7 +759,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d4/dd8/antilag_8qc.html">antilag.qc</a></li>
-    <li class="footer">Generated on Sun Jul 16 2017 05:11:29 for Xonotic by
+    <li class="footer">Generated on Sun Jul 16 2017 08:44:40 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
