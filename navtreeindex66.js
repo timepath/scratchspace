@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"d7/da7/server_2autocvars_8qh.html#abfea74b79dde176ae1872881a64328cb":[2,0,6,14,164],
+"d7/da7/server_2autocvars_8qh.html#ac05b4e8e354498fc4cdcd7aaa4142178":[2,0,6,14,53],
 "d7/da7/server_2autocvars_8qh.html#ac06c0b50fbc3ff4faa1984ad2cb89fd9":[2,0,6,14,100],
 "d7/da7/server_2autocvars_8qh.html#ac11544777ff7ea26fb06a15ed41bcec8":[2,0,6,14,168],
 "d7/da7/server_2autocvars_8qh.html#ac13e9e9bbda3a78738af60342170102c":[2,0,6,14,435],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "d7/dac/menu_2mutators_2events_8qh.html#af07547c358b616af655bf0c55ff812b4":[2,0,5,3,2,1],
 "d7/dac/menu_2mutators_2events_8qh_source.html":[2,0,5,3,2],
 "d7/db1/common_2command_2__mod_8inc.html":[2,0,1,0,0],
-"d7/db1/common_2command_2__mod_8inc_source.html":[2,0,1,0,0],
-"d7/db2/dialog__singleplayer__winner_8qc.html":[2,0,5,4,158],
-"d7/db2/dialog__singleplayer__winner_8qc.html#a3771f6f203b33af849a31b9d0a8a5cf5":[2,0,5,4,158,0]
+"d7/db1/common_2command_2__mod_8inc_source.html":[2,0,1,0,0]
 };

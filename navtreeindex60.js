@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"d6/df8/classTeamDeathmatch.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,124,7],
+"d6/df8/classTeamDeathmatch.html#aef3a65f4987590d66b653b91180860ca":[1,0,124,9],
 "d6/df8/classTeamDeathmatch.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,124,5],
 "d6/dfa/dialog__hudpanel__healtharmor_8qh.html":[2,0,5,4,53],
 "d6/dfa/dialog__hudpanel__healtharmor_8qh_source.html":[2,0,5,4,53],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "d7/d16/server_2command_2vote_8qh.html#ad8e37105bfaa53d59ce36facfd85f2e6":[2,0,6,1,17,15],
 "d7/d16/server_2command_2vote_8qh.html#addf28113e1d97373ce7c12365e45daa8":[2,0,6,1,17,32],
 "d7/d16/server_2command_2vote_8qh_source.html":[2,0,6,1,17],
-"d7/d18/cl__overkill_8qh.html":[2,0,1,9,0,20,3],
-"d7/d18/cl__overkill_8qh_source.html":[2,0,1,9,0,20,3],
-"d7/d21/dialog__sandboxtools_8qc.html":[2,0,5,4,116]
+"d7/d18/cl__overkill_8qh.html":[2,0,1,9,0,20,3]
 };

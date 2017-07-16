@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"d5/d69/classFlac.html#aecb81d1bd88e324ae2e5550e62d23542":[1,0,37,14],
+"d5/d69/classFlac.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,37,4],
 "d5/d69/classFlac.html#af0d1789cf260770caa9002a133a661d7":[1,0,37,0],
 "d5/d69/gamemode__cts_8qc.html":[2,0,6,3,0,8],
 "d5/d69/gamemode__cts_8qc.html#a07ed282ad92406a801203975b2c36ad4":[2,0,6,3,0,8,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "d5/d7f/cl__buffs_8qh.html":[2,0,1,9,0,2,6],
 "d5/d7f/cl__buffs_8qh_source.html":[2,0,1,9,0,2,6],
 "d5/d81/crylink_8qh.html":[2,0,1,16,0,7],
-"d5/d81/crylink_8qh_source.html":[2,0,1,16,0,7],
-"d5/d83/client_2hud_2panel_2physics_8qc.html":[2,0,0,1,0,20],
-"d5/d83/client_2hud_2panel_2physics_8qc.html#a0541aa2cb969ce1ab0363aaed2b9ce2a":[2,0,0,1,0,20,7]
+"d5/d81/crylink_8qh_source.html":[2,0,1,16,0,7]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"d6/dd1/classXonoticHUDCenterprintDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,176,86],
+"d6/dd1/classXonoticHUDCenterprintDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,176,8],
 "d6/dd3/racer_8qh.html":[2,0,1,15,0,7],
 "d6/dd3/racer_8qh.html#a435c1051f806ec86e0a57e2e1d351de2":[2,0,1,15,0,7,1],
 "d6/dd3/racer_8qh_source.html":[2,0,1,15,0,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "d6/ddd/server_2mutators_2events_8qh.html#a74c3d8f80aab67ca61682aba9c91f3a1":[2,0,6,3,3,129],
 "d6/ddd/server_2mutators_2events_8qh.html#a75c13fa0a9134364e6127bbc6c826c8c":[2,0,6,3,3,65],
 "d6/ddd/server_2mutators_2events_8qh.html#a7684d4b9703ec7e8c02d70e8040c2947":[2,0,6,3,3,37],
-"d6/ddd/server_2mutators_2events_8qh.html#a7790fcd04cde405c6514602b231cef87":[2,0,6,3,3,202],
-"d6/ddd/server_2mutators_2events_8qh.html#a7853d9319d4ebcaadaad437780022fdc":[2,0,6,3,3,196],
-"d6/ddd/server_2mutators_2events_8qh.html#a78652f5e6254efd7cad2cee3af313b3a":[2,0,6,3,3,74]
+"d6/ddd/server_2mutators_2events_8qh.html#a7790fcd04cde405c6514602b231cef87":[2,0,6,3,3,202]
 };

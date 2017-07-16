@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#a7853d9319d4ebcaadaad437780022fdc":[2,0,6,3,3,196],
+"d6/ddd/server_2mutators_2events_8qh.html#a78652f5e6254efd7cad2cee3af313b3a":[2,0,6,3,3,74],
 "d6/ddd/server_2mutators_2events_8qh.html#a78df9660ce5743fbd75beb4012932bbe":[2,0,6,3,3,185],
 "d6/ddd/server_2mutators_2events_8qh.html#a7a211fa8983bee19a82d5f46d930a391":[2,0,6,3,3,87],
 "d6/ddd/server_2mutators_2events_8qh.html#a7cb1ffaffcd3e31bb22b5a67e6b87a22":[2,0,6,3,3,81],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "d6/df8/classTeamDeathmatch.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,124,4],
 "d6/df8/classTeamDeathmatch.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,124,3],
 "d6/df8/classTeamDeathmatch.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,124,17],
-"d6/df8/classTeamDeathmatch.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,124,6],
-"d6/df8/classTeamDeathmatch.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,124,7],
-"d6/df8/classTeamDeathmatch.html#aef3a65f4987590d66b653b91180860ca":[1,0,124,9]
+"d6/df8/classTeamDeathmatch.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,124,6]
 };

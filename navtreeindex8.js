@@ -87,7 +87,7 @@ var NAVTREEINDEX8 =
 "d1/d37/classClient.html#a245f8bb48c3369a423dd2ea0888b3425":[1,0,17,34],
 "d1/d37/classClient.html#a2578f01ea21860399662d52a97ad9ce2":[1,0,17,33],
 "d1/d37/classClient.html#a2dae84a754cf7b77999839bf5891ca42":[1,0,17,31],
-"d1/d37/classClient.html#a2e556daf59228727cd12d5c6666da161":[1,0,17,71],
+"d1/d37/classClient.html#a2e556daf59228727cd12d5c6666da161":[1,0,17,72],
 "d1/d37/classClient.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012":[1,0,17,52],
 "d1/d37/classClient.html#a3428db95eaa0bc6b89cc2367a8e7221c":[1,0,17,37],
 "d1/d37/classClient.html#a348fa10d11efdf527c16c2c6e1a018f1":[1,0,17,6],
@@ -124,13 +124,14 @@ var NAVTREEINDEX8 =
 "d1/d37/classClient.html#a9bbd350ba715f5cfec4ea084e87381e8":[1,0,17,64],
 "d1/d37/classClient.html#a9c57279f6f4beda5ed8b56fc05e4c733":[1,0,17,57],
 "d1/d37/classClient.html#aa510c2951125f9080769b4222101e900":[1,0,17,26],
-"d1/d37/classClient.html#aa5b03024329d76308546cc7194866070":[1,0,17,72],
+"d1/d37/classClient.html#aa5b03024329d76308546cc7194866070":[1,0,17,73],
 "d1/d37/classClient.html#aa707f23bd099623cdeaa19d50afd3351":[1,0,17,63],
 "d1/d37/classClient.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,17,4],
 "d1/d37/classClient.html#aacf8a1724cbfa0862b69c9eafd1482f5":[1,0,17,25],
 "d1/d37/classClient.html#ab852ddecd819a4065ce0137ad1f4413a":[1,0,17,41],
 "d1/d37/classClient.html#abb08623ede2cc974d73133e73a6ac448":[1,0,17,12],
 "d1/d37/classClient.html#ac0b4c14857eb756ac47df1fe7a410764":[1,0,17,62],
+"d1/d37/classClient.html#ac1a0c41b49dec20dc9ebc3045f0521c3":[1,0,17,71],
 "d1/d37/classClient.html#ac6c6f32b6e07367a5047f71c36b0dbec":[1,0,17,35],
 "d1/d37/classClient.html#ac7d2f552e4ce0768198744f31d7deb25":[1,0,17,51],
 "d1/d37/classClient.html#acae2b38889ee923ef5cab012e05aaac5":[1,0,17,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "d1/d3c/replicate_8qh.html":[2,0,4,48],
 "d1/d3c/replicate_8qh_source.html":[2,0,4,48],
 "d1/d43/common_2triggers_2misc_2__mod_8inc.html":[2,0,1,13,1,0],
-"d1/d43/common_2triggers_2misc_2__mod_8inc_source.html":[2,0,1,13,1,0],
-"d1/d48/classSpectator.html":[1,0,118]
+"d1/d43/common_2triggers_2misc_2__mod_8inc_source.html":[2,0,1,13,1,0]
 };

@@ -70,6 +70,7 @@ var classPlayer =
     [ "teamkill_soundtime", "d2/d4b/classPlayer.html#a9777fb5ad261e2a186af2f72be81b497", null ],
     [ "usekeypressed", "d2/d4b/classPlayer.html#a53ebb19cee46f4709b3d88a1434e5b93", null ],
     [ "v_angle", "d2/d4b/classPlayer.html#adbc59e37e184e760484bc8aa1aea4f93", null ],
+    [ "version", "d2/d4b/classPlayer.html#ac1a0c41b49dec20dc9ebc3045f0521c3", null ],
     [ "version_mismatch", "d2/d4b/classPlayer.html#a2e556daf59228727cd12d5c6666da161", null ],
     [ "version_nagtime", "d2/d4b/classPlayer.html#aa5b03024329d76308546cc7194866070", null ]
 ];

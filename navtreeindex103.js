@@ -1,5 +1,7 @@
 var NAVTREEINDEX103 =
 {
+"db/dcc/g__world_8qc.html#add83fd5315717e2ba6c0e1465dbb312e":[2,0,6,33,31],
+"db/dcc/g__world_8qc.html#addbfa5c0ba866c7ffd66239839bc9942":[2,0,6,33,9],
 "db/dcc/g__world_8qc.html#ade660825e46a8865123e9ec2cd7fafb2":[2,0,6,33,58],
 "db/dcc/g__world_8qc.html#ae13da0aa296e2486f3f2e17875548066":[2,0,6,33,74],
 "db/dcc/g__world_8qc.html#ae426fda21f0fe74672ec3760a8eda55e":[2,0,6,33,59],
@@ -247,7 +249,5 @@ var NAVTREEINDEX103 =
 "db/deb/roles_8qc.html#acab64c2fe38b303fbe8907423b34fc04":[2,0,6,0,0,0,4,7],
 "db/deb/roles_8qc_source.html":[2,0,6,0,0,0,4],
 "db/dee/projectiles_8qh.html":[2,0,1,16,12],
-"db/dee/projectiles_8qh.html#a0556af9f0eb745cf179e0646459aa60c":[2,0,1,16,12,16],
-"db/dee/projectiles_8qh.html#a067303b9b6c3042213c631b2f88886df":[2,0,1,16,12,32],
-"db/dee/projectiles_8qh.html#a0bb47bbecbc4f5cbff9a00d98da3c0c6":[2,0,1,16,12,28]
+"db/dee/projectiles_8qh.html#a0556af9f0eb745cf179e0646459aa60c":[2,0,1,16,12,16]
 };

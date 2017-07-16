@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"d2/d4b/classPlayer.html#a3b90df47f86c5403ea4183b3533ea453":[1,0,96,14],
+"d2/d4b/classPlayer.html#a3f6b48423c8fa00300cf5de0f10abeef":[1,0,96,60],
 "d2/d4b/classPlayer.html#a4354ca28a37dd20cedd29d9625715e64":[1,0,96,22],
 "d2/d4b/classPlayer.html#a46a7bc40105ac38ab40131987e7f34cb":[1,0,96,41],
 "d2/d4b/classPlayer.html#a486563026f66dc61e671c089890b2be9":[1,0,96,58],
@@ -29,13 +31,14 @@ var NAVTREEINDEX17 =
 "d2/d4b/classPlayer.html#a9bbd350ba715f5cfec4ea084e87381e8":[1,0,96,63],
 "d2/d4b/classPlayer.html#a9c57279f6f4beda5ed8b56fc05e4c733":[1,0,96,56],
 "d2/d4b/classPlayer.html#aa510c2951125f9080769b4222101e900":[1,0,96,25],
-"d2/d4b/classPlayer.html#aa5b03024329d76308546cc7194866070":[1,0,96,71],
+"d2/d4b/classPlayer.html#aa5b03024329d76308546cc7194866070":[1,0,96,72],
 "d2/d4b/classPlayer.html#aa707f23bd099623cdeaa19d50afd3351":[1,0,96,62],
 "d2/d4b/classPlayer.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,96,3],
 "d2/d4b/classPlayer.html#aacf8a1724cbfa0862b69c9eafd1482f5":[1,0,96,24],
 "d2/d4b/classPlayer.html#ab852ddecd819a4065ce0137ad1f4413a":[1,0,96,40],
 "d2/d4b/classPlayer.html#abb08623ede2cc974d73133e73a6ac448":[1,0,96,11],
 "d2/d4b/classPlayer.html#ac0b4c14857eb756ac47df1fe7a410764":[1,0,96,61],
+"d2/d4b/classPlayer.html#ac1a0c41b49dec20dc9ebc3045f0521c3":[1,0,96,70],
 "d2/d4b/classPlayer.html#ac6c6f32b6e07367a5047f71c36b0dbec":[1,0,96,34],
 "d2/d4b/classPlayer.html#ac7d2f552e4ce0768198744f31d7deb25":[1,0,96,50],
 "d2/d4b/classPlayer.html#acae2b38889ee923ef5cab012e05aaac5":[1,0,96,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX17 =
 "d2/d76/teamplay_8qh.html#aad4cb62bd1f6b12bec2a35ac31385cd3":[2,0,6,71,11],
 "d2/d76/teamplay_8qh.html#ab3c2207d0fb6830f2df20bebb9fc210b":[2,0,6,71,23],
 "d2/d76/teamplay_8qh.html#abaa1224f550ef1ffcd58d9cfbd8a2d4f":[2,0,6,71,3],
-"d2/d76/teamplay_8qh.html#abab38909ae18b4f0700eed344332eef8":[2,0,6,71,21],
-"d2/d76/teamplay_8qh.html#ac136f59a979d6dd099a07e254408aed3":[2,0,6,71,13],
-"d2/d76/teamplay_8qh.html#ae1c3e008f1694a4a8d288f0708893574":[2,0,6,71,0],
-"d2/d76/teamplay_8qh.html#af954f9f806424a8cb8467d9372d8049e":[2,0,6,71,9]
+"d2/d76/teamplay_8qh.html#abab38909ae18b4f0700eed344332eef8":[2,0,6,71,21]
 };

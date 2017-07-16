@@ -1,5 +1,8 @@
 var NAVTREEINDEX19 =
 {
+"d2/dac/sv__buffs_8qc.html#ac5ea9db4f8861b0eff5190ab80cd83eb":[2,0,1,9,0,2,7,17],
+"d2/dac/sv__buffs_8qc.html#ad13ee6b5a59239c2c070de72ae143f39":[2,0,1,9,0,2,7,35],
+"d2/dac/sv__buffs_8qc.html#af41febcb8b97a071549120768e720661":[2,0,1,9,0,2,7,20],
 "d2/dac/sv__buffs_8qc.html#af5edf8761e3e9602bb56b241b001c719":[2,0,1,9,0,2,7,36],
 "d2/dac/sv__buffs_8qc_source.html":[2,0,1,9,0,2,7],
 "d2/dae/classFlacAttack.html":[1,0,38],
@@ -246,8 +249,5 @@ var NAVTREEINDEX19 =
 "d2/dcb/classXonoticPicmipSlider.html#a100a731ca97310e70d2a89e01f48c7ef":[1,0,215,37],
 "d2/dcb/classXonoticPicmipSlider.html#a1030c9b5fe9eb2e0b205abdbca49e545":[1,0,215,15],
 "d2/dcb/classXonoticPicmipSlider.html#a10f084ce6991717bfb4153928818feba":[1,0,215,23],
-"d2/dcb/classXonoticPicmipSlider.html#a12cae2879a01520f0d08f21a673a4d3f":[1,0,215,10],
-"d2/dcb/classXonoticPicmipSlider.html#a1384d244201f945385ed59b53e4aee96":[1,0,215,54],
-"d2/dcb/classXonoticPicmipSlider.html#a14b2c1b630609675816d233dd0ef3c7f":[1,0,215,45],
-"d2/dcb/classXonoticPicmipSlider.html#a1c228ffb13fb785a4d69c1fc3cba8290":[1,0,215,13]
+"d2/dcb/classXonoticPicmipSlider.html#a12cae2879a01520f0d08f21a673a4d3f":[1,0,215,10]
 };

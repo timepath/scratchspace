@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"d6/d27/scripting_8qc.html#a7de79a89b8b2917d7a08e4fd48e6920b":[2,0,6,0,0,11,51],
+"d6/d27/scripting_8qc.html#a7ed4a8a2d79592aaef47927a42f52e76":[2,0,6,0,0,11,5],
 "d6/d27/scripting_8qc.html#a807ea5230d22ca3a9e0b79a3ec4ccb5b":[2,0,6,0,0,11,44],
 "d6/d27/scripting_8qc.html#a8151b49e83762303d5cb383e67bb015b":[2,0,6,0,0,11,63],
 "d6/d27/scripting_8qc.html#a85b44b90afc1e37c92a5c43ef0801aa4":[2,0,6,0,0,11,59],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "d6/d57/walljump_8qc.html":[2,0,1,9,0,33,2],
 "d6/d57/walljump_8qc_source.html":[2,0,1,9,0,33,2],
 "d6/d57/weaponstats_8qc.html":[2,0,6,5,18],
-"d6/d57/weaponstats_8qc.html#a456ded6f061320557b90765d8d34c0f3":[2,0,6,5,18,4],
-"d6/d57/weaponstats_8qc.html#a658592c9d038c8940b9d17f4330cf72d":[2,0,6,5,18,0],
-"d6/d57/weaponstats_8qc.html#a8f2f79e647a2d2bc87cac66e6f5a7f62":[2,0,6,5,18,3]
+"d6/d57/weaponstats_8qc.html#a456ded6f061320557b90765d8d34c0f3":[2,0,6,5,18,4]
 };

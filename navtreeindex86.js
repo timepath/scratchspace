@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"d9/dd0/effectinfo__gentle__morphed_8inc_source.html":[2,0,1,2,14],
+"d9/dd1/common_2items_2item_2__mod_8qh.html":[2,0,1,5,0,1],
 "d9/dd1/common_2items_2item_2__mod_8qh_source.html":[2,0,1,5,0,1],
 "d9/dd4/plasma__weapon_8qc.html":[2,0,1,14,0,36],
 "d9/dd4/plasma__weapon_8qc_source.html":[2,0,1,14,0,36],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "d9/df0/weaponstats_8qh.html":[2,0,6,5,19],
 "d9/df0/weaponstats_8qh.html#a456ded6f061320557b90765d8d34c0f3":[2,0,6,5,19,5],
 "d9/df0/weaponstats_8qh.html#a658592c9d038c8940b9d17f4330cf72d":[2,0,6,5,19,1],
-"d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829":[2,0,6,5,19,7],
-"d9/df0/weaponstats_8qh.html#a8f2f79e647a2d2bc87cac66e6f5a7f62":[2,0,6,5,19,4],
-"d9/df0/weaponstats_8qh.html#a92da13209374adaf40062e250635050f":[2,0,6,5,19,2]
+"d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829":[2,0,6,5,19,7]
 };

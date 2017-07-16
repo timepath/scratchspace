@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"d9/d45/globalsound_8qc.html":[2,0,1,2,0,11],
+"d9/d45/globalsound_8qc_source.html":[2,0,1,2,0,11],
 "d9/d47/cvarlist_8qh.html":[2,0,5,4,33],
 "d9/d47/cvarlist_8qh.html#a1887a2da6825992ddb99acd7cbcc0388":[2,0,5,4,33,2],
 "d9/d47/cvarlist_8qh.html#a39f82a66971a7a85c801c09ca60e34f0":[2,0,5,4,33,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "d9/d5d/devastator_8qc_source.html":[2,0,1,16,0,8],
 "d9/d5e/target_2include_8qc.html":[2,0,1,13,2,4],
 "d9/d5e/target_2include_8qc_source.html":[2,0,1,13,2,4],
-"d9/d60/checkbox__string_8qc.html":[2,0,5,4,16],
-"d9/d60/checkbox__string_8qc.html#a0f1a6f02d502c28adc4a4a164f7e72d1":[2,0,5,4,16,1],
-"d9/d60/checkbox__string_8qc.html#a365c4d86ea851ac17e956aa0c5129739":[2,0,5,4,16,2]
+"d9/d60/checkbox__string_8qc.html":[2,0,5,4,16]
 };

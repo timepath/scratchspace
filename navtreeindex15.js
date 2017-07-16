@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"d2/d08/sv__spawn__near__teammate_8qc.html#a946c9152e1d2f58636ec5f7481980695":[2,0,1,9,0,28,2,9],
+"d2/d08/sv__spawn__near__teammate_8qc.html#a9e3ba6aa3a231c79aeed88b4460dc928":[2,0,1,9,0,28,2,8],
 "d2/d08/sv__spawn__near__teammate_8qc.html#aab0d7fdefb365e732ff2353c7d22421b":[2,0,1,9,0,28,2,5],
 "d2/d08/sv__spawn__near__teammate_8qc.html#ac05a056ef7b9f33780c98159812bd48b":[2,0,1,9,0,28,2,2],
 "d2/d08/sv__spawn__near__teammate_8qc.html#ad23c797958622d4ed1b1e8ecedb0058f":[2,0,1,9,0,28,2,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "d2/d26/classInvasion.html#a31e39a092f4e1d7a09ba996bb208cd33":[1,0,56,13],
 "d2/d26/classInvasion.html#a353db82280437c3b38f0ad1934a7d666":[1,0,56,15],
 "d2/d26/classInvasion.html#a408c0cd2467d1aeb2687a4a686f0c2cf":[1,0,56,10],
-"d2/d26/classInvasion.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,56,12],
-"d2/d26/classInvasion.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,56,8],
-"d2/d26/classInvasion.html#a7880c3511ceeabb277b860085f1073ee":[1,0,56,11]
+"d2/d26/classInvasion.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,56,12]
 };

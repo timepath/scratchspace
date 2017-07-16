@@ -1,5 +1,8 @@
 var NAVTREEINDEX128 =
 {
+"df/d30/client_2main_8qc.html#a14c98f605ea44a820ec9c04575f50b59":[2,0,0,17,7],
+"df/d30/client_2main_8qc.html#a17432988ef7a28b058fec9318b29fea3":[2,0,0,17,12],
+"df/d30/client_2main_8qc.html#a1d922be75e197cf896ed7a7b95979296":[2,0,0,17,13],
 "df/d30/client_2main_8qc.html#a1e55c54aad85b1c6f6c8ef2fc91b1c6d":[2,0,0,17,33],
 "df/d30/client_2main_8qc.html#a33415c58794cf70af080dcfa3213a501":[2,0,0,17,43],
 "df/d30/client_2main_8qc.html#a354256327d864c9cb61a6a33dcc7e9f3":[2,0,0,17,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX128 =
 "df/d54/dialog__settings__game__hud_8qh_source.html":[2,0,5,4,129],
 "df/d56/classSpider.html":[1,0,119],
 "df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,119,0],
-"df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,119,13],
-"df/d56/classSpider.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,119,11],
-"df/d56/classSpider.html#a6dcca2c26e36342b5286873a74793cae":[1,0,119,4],
-"df/d56/classSpider.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,119,1]
+"df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,119,13]
 };
