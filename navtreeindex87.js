@@ -1,6 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"d9/df0/weaponstats_8qh.html":[2,0,6,5,19],
 "d9/df0/weaponstats_8qh.html#a456ded6f061320557b90765d8d34c0f3":[2,0,6,5,19,5],
 "d9/df0/weaponstats_8qh.html#a658592c9d038c8940b9d17f4330cf72d":[2,0,6,5,19,1],
 "d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829":[2,0,6,5,19,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX87 =
 "da/d20/spawnfunc_8qh.html#a82f4dd939d49e3dbc4926a5823ffb0c8":[2,0,4,53,4],
 "da/d20/spawnfunc_8qh.html#a88ddff5232ca6a3ebf1e0c263da3576b":[2,0,4,53,6],
 "da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153":[2,0,4,53,9],
-"da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd":[2,0,4,53,12]
+"da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd":[2,0,4,53,12],
+"da/d20/spawnfunc_8qh.html#aa84e4fe4fa33b1c501a7b73363c7cc2f":[2,0,4,53,7]
 };

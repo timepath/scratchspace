@@ -1,6 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"d5/da6/sv__dodging_8qc.html#a7b00a6266d8df52d6f887ee69c84634e":[2,0,1,9,0,7,2,0],
 "d5/da6/sv__dodging_8qc.html#a87c2be63ff8d9c9861c3a71bd1808016":[2,0,1,9,0,7,2,8],
 "d5/da6/sv__dodging_8qc.html#a888a6ab027178c6ce10deb1475d5d5b1":[2,0,1,9,0,7,2,25],
 "d5/da6/sv__dodging_8qc.html#a97cb1e5f1ce328ecac8001ab1f7275c3":[2,0,1,9,0,7,2,11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX49 =
 "d5/ded/engineinfo_8qh.html":[2,0,0,1,0,9],
 "d5/ded/engineinfo_8qh_source.html":[2,0,0,1,0,9],
 "d5/df0/classArmor.html":[1,0,4],
-"d5/df0/classArmor.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,4,0]
+"d5/df0/classArmor.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,4,0],
+"d5/df0/classArmor.html#a48b78d497828537731feaa167c8af4f1":[1,0,4,12]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"d9/d5d/devastator_8qc_source.html":[2,0,1,16,0,8],
 "d9/d5e/target_2include_8qc.html":[2,0,1,13,2,4],
 "d9/d5e/target_2include_8qc_source.html":[2,0,1,13,2,4],
 "d9/d60/checkbox__string_8qc.html":[2,0,5,4,16],
@@ -249,5 +248,6 @@ var NAVTREEINDEX83 =
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,179,4],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,179,43],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,179,21],
-"d9/d85/classXonoticHUDEngineInfoDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,179,49]
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,179,49],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,179,54]
 };

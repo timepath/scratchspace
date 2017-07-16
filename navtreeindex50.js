@@ -1,6 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"d5/df0/classArmor.html#a48b78d497828537731feaa167c8af4f1":[1,0,4,12],
 "d5/df0/classArmor.html#a6131dbf54f626ebf2c9d610833da9fb5":[1,0,4,1],
 "d5/df0/classArmor.html#a6815e793548a5b534973a237a97dc189":[1,0,4,10],
 "d5/df0/classArmor.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,4,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX50 =
 "d6/d11/progsdefs_8qc.html#a34398110ded861e426361974d73249d3":[2,0,2,0,4,258],
 "d6/d11/progsdefs_8qc.html#a34941b35fd7f0059f923c9805739c9a5":[2,0,2,0,4,70],
 "d6/d11/progsdefs_8qc.html#a34ec7faa31e0cbe47d8826e667dea758":[2,0,2,0,4,93],
-"d6/d11/progsdefs_8qc.html#a350af5b459189bbe8cac915ba426874b":[2,0,2,0,4,260]
+"d6/d11/progsdefs_8qc.html#a350af5b459189bbe8cac915ba426874b":[2,0,2,0,4,260],
+"d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156":[2,0,2,0,4,3]
 };

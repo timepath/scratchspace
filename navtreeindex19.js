@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"d2/dac/sv__buffs_8qc.html#aa78312bd62159314cb873fa3f929c644":[2,0,1,9,0,2,7,31],
 "d2/dac/sv__buffs_8qc.html#aa957b53e0a005706f3dc00d4932cb7d4":[2,0,1,9,0,2,7,23],
 "d2/dac/sv__buffs_8qc.html#aacc6f7c849fc64756a890cff7908a32a":[2,0,1,9,0,2,7,39],
 "d2/dac/sv__buffs_8qc.html#ac28f3795113a2f85e8a1547a29e1f99a":[2,0,1,9,0,2,7,41],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "d2/dcb/classXonoticPicmipSlider.html#a0532ad63a21ab0ee3d87bed20ce60394":[1,0,215,64],
 "d2/dcb/classXonoticPicmipSlider.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,215,86],
 "d2/dcb/classXonoticPicmipSlider.html#a0b7c22b4ba0234561575e01ef7f17fc6":[1,0,215,67],
-"d2/dcb/classXonoticPicmipSlider.html#a0c478135eb70f406c6a0b87529556e98":[1,0,215,33]
+"d2/dcb/classXonoticPicmipSlider.html#a0c478135eb70f406c6a0b87529556e98":[1,0,215,33],
+"d2/dcb/classXonoticPicmipSlider.html#a0cb9ce568f3ffd87c5388045540c4eb6":[1,0,215,71]
 };

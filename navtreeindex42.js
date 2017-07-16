@@ -1,6 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"d4/da3/classXonoticDemoBrowserTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,160,7],
 "d4/da4/pointparticles_8qc.html":[2,0,1,13,0,26],
 "d4/da4/pointparticles_8qc_source.html":[2,0,1,13,0,26],
 "d4/da5/classXonoticBigCommandButton.html":[1,0,142],
@@ -249,5 +248,6 @@ var NAVTREEINDEX42 =
 "d4/db8/bigbutton_8qh.html":[2,0,5,4,3],
 "d4/db8/bigbutton_8qh.html#abdf3953c0db4a6184bf90e59974e0f6a":[2,0,5,4,3,1],
 "d4/db8/bigbutton_8qh_source.html":[2,0,5,4,3],
-"d4/dba/lightningarc_8qh.html":[2,0,1,2,0,14]
+"d4/dba/lightningarc_8qh.html":[2,0,1,2,0,14],
+"d4/dba/lightningarc_8qh_source.html":[2,0,1,2,0,14]
 };

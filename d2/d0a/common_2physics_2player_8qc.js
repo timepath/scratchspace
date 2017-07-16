@@ -20,7 +20,6 @@ var common_2physics_2player_8qc =
     [ "PM_ClientMovement_UpdateStatus", "d2/d0a/common_2physics_2player_8qc.html#a4a64191d2aeb497ecc6ec081d6813f8a", null ],
     [ "PM_Footsteps", "d2/d0a/common_2physics_2player_8qc.html#af720710e7d9c6e243358bd74cac5e70e", null ],
     [ "PM_jetpack", "d2/d0a/common_2physics_2player_8qc.html#a10d29c17a791cc0b24daadc3fe02e56c", null ],
-    [ "racecar_angle", "d2/d0a/common_2physics_2player_8qc.html#a7f20db878a70709abd841bf5873d578a", null ],
     [ "sys_phys_update", "d2/d0a/common_2physics_2player_8qc.html#a497a408e59dc1f5697ed3f902dde1f3c", null ],
     [ "jetpack_stopped", "d2/d0a/common_2physics_2player_8qc.html#a2f3a3ba2412265530e7b03b6b29ab4ea", null ]
 ];

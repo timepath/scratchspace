@@ -1,6 +1,5 @@
 var NAVTREEINDEX104 =
 {
-"db/deb/roles_8qc_source.html":[2,0,6,0,0,0,4],
 "db/dee/projectiles_8qh.html":[2,0,1,16,12],
 "db/dee/projectiles_8qh.html#a0556af9f0eb745cf179e0646459aa60c":[2,0,1,16,12,16],
 "db/dee/projectiles_8qh.html#a067303b9b6c3042213c631b2f88886df":[2,0,1,16,12,32],
@@ -249,5 +248,6 @@ var NAVTREEINDEX104 =
 "dc/d06/classDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,27,4],
 "dc/d06/classDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,27,43],
 "dc/d06/classDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,27,21],
-"dc/d06/classDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,27,49]
+"dc/d06/classDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,27,49],
+"dc/d06/classDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,27,29]
 };
