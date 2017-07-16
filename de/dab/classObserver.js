@@ -62,6 +62,7 @@ var classObserver =
     [ "playerskin", "de/dab/classObserver.html#af04000dc778c4b1b0ec980ea3541b0f8", null ],
     [ "pm_frametime", "de/dab/classObserver.html#a3f6b48423c8fa00300cf5de0f10abeef", null ],
     [ "pressedkeys", "de/dab/classObserver.html#ac0b4c14857eb756ac47df1fe7a410764", null ],
+    [ "spectatee_status", "de/dab/classObserver.html#a7726503c7f30546802017511a4c25937", null ],
     [ "spectatortime", "de/dab/classObserver.html#aa707f23bd099623cdeaa19d50afd3351", null ],
     [ "taunt_soundtime", "de/dab/classObserver.html#a9bbd350ba715f5cfec4ea084e87381e8", null ],
     [ "team", "de/dab/classObserver.html#a22032ccc0d6a0e1b5c8d152fa5d5258e", null ],
@@ -72,5 +73,6 @@ var classObserver =
     [ "v_angle", "de/dab/classObserver.html#adbc59e37e184e760484bc8aa1aea4f93", null ],
     [ "version", "de/dab/classObserver.html#ac1a0c41b49dec20dc9ebc3045f0521c3", null ],
     [ "version_mismatch", "de/dab/classObserver.html#a2e556daf59228727cd12d5c6666da161", null ],
-    [ "version_nagtime", "de/dab/classObserver.html#aa5b03024329d76308546cc7194866070", null ]
+    [ "version_nagtime", "de/dab/classObserver.html#aa5b03024329d76308546cc7194866070", null ],
+    [ "zoomstate", "de/dab/classObserver.html#a6e2b1750af9db4c97521dce1478513a4", null ]
 ];

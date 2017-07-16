@@ -1,5 +1,11 @@
 var NAVTREEINDEX49 =
 {
+"d5/da6/sv__dodging_8qc.html#a7a5591bcc29df847888fdf8eff822005":[2,0,1,9,0,7,2,6],
+"d5/da6/sv__dodging_8qc.html#a7b00a6266d8df52d6f887ee69c84634e":[2,0,1,9,0,7,2,0],
+"d5/da6/sv__dodging_8qc.html#a87c2be63ff8d9c9861c3a71bd1808016":[2,0,1,9,0,7,2,8],
+"d5/da6/sv__dodging_8qc.html#a888a6ab027178c6ce10deb1475d5d5b1":[2,0,1,9,0,7,2,25],
+"d5/da6/sv__dodging_8qc.html#a97cb1e5f1ce328ecac8001ab1f7275c3":[2,0,1,9,0,7,2,11],
+"d5/da6/sv__dodging_8qc.html#aa1f0afe1167b72e210395eecc1ef801f":[2,0,1,9,0,7,2,22],
 "d5/da6/sv__dodging_8qc.html#aa38c628e32452c49a9540584a703cc12":[2,0,1,9,0,7,2,5],
 "d5/da6/sv__dodging_8qc.html#aab945235b41472d811f114833244b62a":[2,0,1,9,0,7,2,17],
 "d5/da6/sv__dodging_8qc.html#ab28125cc7a1292cae613a00cdd3a23f9":[2,0,1,9,0,7,2,9],
@@ -243,11 +249,5 @@ var NAVTREEINDEX49 =
 "d5/de8/common_2monsters_2monster_2__mod_8inc_source.html":[2,0,1,8,0,0],
 "d5/ded/engineinfo_8qh.html":[2,0,0,1,0,9],
 "d5/ded/engineinfo_8qh_source.html":[2,0,0,1,0,9],
-"d5/df0/classArmor.html":[1,0,4],
-"d5/df0/classArmor.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,4,0],
-"d5/df0/classArmor.html#a48b78d497828537731feaa167c8af4f1":[1,0,4,12],
-"d5/df0/classArmor.html#a6131dbf54f626ebf2c9d610833da9fb5":[1,0,4,1],
-"d5/df0/classArmor.html#a6815e793548a5b534973a237a97dc189":[1,0,4,10],
-"d5/df0/classArmor.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,4,5],
-"d5/df0/classArmor.html#a727d6f42f79f0bd5ffc674423645471c":[1,0,4,2]
+"d5/df0/classArmor.html":[1,0,4]
 };

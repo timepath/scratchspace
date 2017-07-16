@@ -1,5 +1,11 @@
 var NAVTREEINDEX106 =
 {
+"dc/d2a/classPlasmaTurret.html#ab41d1a3d3072aee77bfad6c431e438ee":[1,0,95,14],
+"dc/d2a/classPlasmaTurret.html#ab51103697656de906079b6537d3800bc":[1,0,95,9],
+"dc/d2a/classPlasmaTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,95,7],
+"dc/d2a/classPlasmaTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,95,11],
+"dc/d2a/classPlasmaTurret.html#ac60e41739d60d225213f6da8320f0954":[1,0,95,17],
+"dc/d2a/classPlasmaTurret.html#acae508140eb87cd8965be4f7d403ca9c":[1,0,95,21],
 "dc/d2a/classPlasmaTurret.html#adee1af35949f436445983050dfa64fae":[1,0,95,18],
 "dc/d2a/classPlasmaTurret.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,95,3],
 "dc/d2a/classPlasmaTurret.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,95,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX106 =
 "dc/d3d/csqcmodel__hooks_8qc.html#afc0bcf52bfa73d3b24d4cd4d66752a68":[2,0,0,14,8],
 "dc/d3d/csqcmodel__hooks_8qc_source.html":[2,0,0,14],
 "dc/d42/client_2commands_2__mod_8inc.html":[2,0,0,0,0],
-"dc/d42/client_2commands_2__mod_8inc_source.html":[2,0,0,0,0],
-"dc/d43/keycodes_8qh.html":[2,0,2,3],
-"dc/d43/keycodes_8qh_source.html":[2,0,2,3],
-"dc/d44/classXonoticScreenshotList.html":[1,0,230],
-"dc/d44/classXonoticScreenshotList.html#a00e343a5171c30a6825d23f73ac93c4b":[1,0,230,58],
-"dc/d44/classXonoticScreenshotList.html#a03271ae59380e490ddb2a609ef220517":[1,0,230,4],
-"dc/d44/classXonoticScreenshotList.html#a037f81884480b41f2f7e42a02c2e407b":[1,0,230,47]
+"dc/d42/client_2commands_2__mod_8inc_source.html":[2,0,0,0,0]
 };

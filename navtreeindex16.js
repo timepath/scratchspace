@@ -1,5 +1,9 @@
 var NAVTREEINDEX16 =
 {
+"d2/d26/classInvasion.html#a31e39a092f4e1d7a09ba996bb208cd33":[1,0,56,13],
+"d2/d26/classInvasion.html#a353db82280437c3b38f0ad1934a7d666":[1,0,56,15],
+"d2/d26/classInvasion.html#a408c0cd2467d1aeb2687a4a686f0c2cf":[1,0,56,10],
+"d2/d26/classInvasion.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,56,12],
 "d2/d26/classInvasion.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,56,8],
 "d2/d26/classInvasion.html#a7880c3511ceeabb277b860085f1073ee":[1,0,56,11],
 "d2/d26/classInvasion.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,56,2],
@@ -235,19 +239,15 @@ var NAVTREEINDEX16 =
 "d2/d4b/classPlayer.html":[1,0,96],
 "d2/d4b/classPlayer.html#a05eb3183422962148822eee79d9d33e2":[1,0,96,39],
 "d2/d4b/classPlayer.html#a06a738c4cb9a23813f16775a5877dd12":[1,0,96,43],
-"d2/d4b/classPlayer.html#a0eb03d66010d1cfd159c1a2cf169f172":[1,0,96,66],
+"d2/d4b/classPlayer.html#a0eb03d66010d1cfd159c1a2cf169f172":[1,0,96,67],
 "d2/d4b/classPlayer.html#a0ec30d25549a7a527f8b5ee0d04030c3":[1,0,96,21],
 "d2/d4b/classPlayer.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b":[1,0,96,57],
 "d2/d4b/classPlayer.html#a149e59d2293d8bdb8aaedd213444c005":[1,0,96,46],
 "d2/d4b/classPlayer.html#a1658664bbee76e6ab46e1337b1829c7e":[1,0,96,20],
-"d2/d4b/classPlayer.html#a22032ccc0d6a0e1b5c8d152fa5d5258e":[1,0,96,64],
+"d2/d4b/classPlayer.html#a22032ccc0d6a0e1b5c8d152fa5d5258e":[1,0,96,65],
 "d2/d4b/classPlayer.html#a22ed7d5606cdae61c7d78626d729091a":[1,0,96,48],
 "d2/d4b/classPlayer.html#a245f8bb48c3369a423dd2ea0888b3425":[1,0,96,33],
 "d2/d4b/classPlayer.html#a2578f01ea21860399662d52a97ad9ce2":[1,0,96,32],
 "d2/d4b/classPlayer.html#a2dae84a754cf7b77999839bf5891ca42":[1,0,96,30],
-"d2/d4b/classPlayer.html#a2e556daf59228727cd12d5c6666da161":[1,0,96,71],
-"d2/d4b/classPlayer.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012":[1,0,96,51],
-"d2/d4b/classPlayer.html#a3428db95eaa0bc6b89cc2367a8e7221c":[1,0,96,36],
-"d2/d4b/classPlayer.html#a348fa10d11efdf527c16c2c6e1a018f1":[1,0,96,5],
-"d2/d4b/classPlayer.html#a34910bda70c89979fe53c8b1ac2be901":[1,0,96,17]
+"d2/d4b/classPlayer.html#a2e556daf59228727cd12d5c6666da161":[1,0,96,72]
 };

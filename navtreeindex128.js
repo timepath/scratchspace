@@ -1,5 +1,13 @@
 var NAVTREEINDEX128 =
 {
+"df/d28/sv__turrets_8qh_source.html":[2,0,1,14,14],
+"df/d2c/hellion_8qc.html":[2,0,1,14,0,12],
+"df/d2c/hellion_8qc_source.html":[2,0,1,14,0,12],
+"df/d30/client_2main_8qc.html":[2,0,0,17],
+"df/d30/client_2main_8qc.html#a0698c589ddb7333f4485bee9dae8bd16":[2,0,0,17,1],
+"df/d30/client_2main_8qc.html#a0ea74b0011b3f41a4e0f744608765323":[2,0,0,17,15],
+"df/d30/client_2main_8qc.html#a0f5ebfcfdad6b51d2604d613119d289f":[2,0,0,17,31],
+"df/d30/client_2main_8qc.html#a1074345dcdd4fb944413bf5ac575fd0b":[2,0,0,17,16],
 "df/d30/client_2main_8qc.html#a14c98f605ea44a820ec9c04575f50b59":[2,0,0,17,7],
 "df/d30/client_2main_8qc.html#a17432988ef7a28b058fec9318b29fea3":[2,0,0,17,12],
 "df/d30/client_2main_8qc.html#a1d922be75e197cf896ed7a7b95979296":[2,0,0,17,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX128 =
 "df/d52/monsters_2all_8qh.html#aea1bf99cd5fe53ce09b24dd2731d7d2f":[2,0,1,8,4,1],
 "df/d52/monsters_2all_8qh_source.html":[2,0,1,8,4],
 "df/d53/campaign__setup_8qh.html":[2,0,1,28],
-"df/d53/campaign__setup_8qh_source.html":[2,0,1,28],
-"df/d54/dialog__settings__game__hud_8qh.html":[2,0,5,4,129],
-"df/d54/dialog__settings__game__hud_8qh.html#a2b7967e17d4cfccff3c1f979de1d2515":[2,0,5,4,129,3],
-"df/d54/dialog__settings__game__hud_8qh.html#a8355ef57cfbd4b0b0a510b61df465435":[2,0,5,4,129,1],
-"df/d54/dialog__settings__game__hud_8qh.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,129,2],
-"df/d54/dialog__settings__game__hud_8qh_source.html":[2,0,5,4,129],
-"df/d56/classSpider.html":[1,0,119],
-"df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,119,0],
-"df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,119,13]
+"df/d53/campaign__setup_8qh_source.html":[2,0,1,28]
 };

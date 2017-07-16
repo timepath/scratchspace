@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"d1/dad/server_2command_2vote_8qc.html#a43586aa0ddfba02a08afc6f1e480cfd3":[2,0,6,1,16,31],
+"d1/dad/server_2command_2vote_8qc.html#a46448826729592b90ee5ec53da2e0fe6":[2,0,6,1,16,5],
+"d1/dad/server_2command_2vote_8qc.html#a47be4be6ffbff0d839465b18cf771c9a":[2,0,6,1,16,29],
+"d1/dad/server_2command_2vote_8qc.html#a4f3bd9f8d7a811cea72d9bcd0ab0573e":[2,0,6,1,16,10],
 "d1/dad/server_2command_2vote_8qc.html#a68ec0616e963b3729f1d702e2a593c53":[2,0,6,1,16,16],
 "d1/dad/server_2command_2vote_8qc.html#a69d086fdfae0ea101bc17ac356bdcf68":[2,0,6,1,16,4],
 "d1/dad/server_2command_2vote_8qc.html#a6b7b78c23e6cfd78e7d1e09d1e44ed9d":[2,0,6,1,16,13],
@@ -21,8 +25,8 @@ var NAVTREEINDEX13 =
 "d1/dad/server_2command_2vote_8qc.html#aaa71782429a29dc1281807e966deaf7a":[2,0,6,1,16,33],
 "d1/dad/server_2command_2vote_8qc.html#aab1e8a5bcb59d84dc544b44f98bfd267":[2,0,6,1,16,30],
 "d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f":[2,0,6,1,16,15],
-"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
+"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
 "d1/dad/server_2command_2vote_8qc.html#ac42f429ba6ba4289fa7af9310f40a0a4":[2,0,6,1,16,14],
 "d1/dad/server_2command_2vote_8qc.html#aeb5a1f746f1d97c3cc25df64e6b0ef68":[2,0,6,1,16,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "d1/dd1/classFireball.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,36,3],
 "d1/dd1/classFireball.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,36,35],
 "d1/dd1/classFireball.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,36,22],
-"d1/dd1/classFireball.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,36,17],
-"d1/dd1/classFireball.html#af6941bfadd7f32ced9be9b65094f2925":[1,0,36,26],
-"d1/dd1/classSettingSource.html":[1,0,112],
-"d1/dd1/classSettingSource.html#a6113433aefe29a4e9977321048a26e18":[1,0,112,7],
-"d1/dd1/classSettingSource.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,112,0]
+"d1/dd1/classFireball.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,36,17]
 };

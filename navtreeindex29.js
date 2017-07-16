@@ -1,5 +1,11 @@
 var NAVTREEINDEX29 =
 {
+"d3/db6/projectile_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af":[2,0,0,3,2,11],
+"d3/db6/projectile_8qc.html#afa735eeb763e03508cd4e27a1921b593":[2,0,0,3,2,8],
+"d3/db6/projectile_8qc_source.html":[2,0,0,3,2],
+"d3/dba/classXonoticLanguageList.html":[1,0,201],
+"d3/dba/classXonoticLanguageList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,201,45],
+"d3/dba/classXonoticLanguageList.html#a0fd436f57c4f662390be6b6baffebe5d":[1,0,201,27],
 "d3/dba/classXonoticLanguageList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,201,48],
 "d3/dba/classXonoticLanguageList.html#a10cf88734594fed24be93889407c0bda":[1,0,201,26],
 "d3/dba/classXonoticLanguageList.html#a113d1a91bed3f1f7bc3a24306c2c68e7":[1,0,201,22],
@@ -183,8 +189,8 @@ var NAVTREEINDEX29 =
 "d3/dbf/minigames_8qc.html#a50da88a37fb88826817f7d669b24c423":[2,0,1,6,7,2],
 "d3/dbf/minigames_8qc.html#a5568c7bdd5bad578cdc98deb0789b79c":[2,0,1,6,7,5],
 "d3/dbf/minigames_8qc.html#a6a7ba74fcc2a57d2d4d7aa64ab15d4c6":[2,0,1,6,7,14],
-"d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,7,0],
 "d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,7,1],
+"d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,7,0],
 "d3/dbf/minigames_8qc.html#a861b76acd237a6c594cb831085a9af9a":[2,0,1,6,7,4],
 "d3/dbf/minigames_8qc.html#ab50b72cd401e642ccfaa7614ac58d414":[2,0,1,6,7,9],
 "d3/dbf/minigames_8qc.html#ab62771fe024e72ee184cdef2774646f3":[2,0,1,6,7,13],
@@ -243,11 +249,5 @@ var NAVTREEINDEX29 =
 "d3/dce/classXonoticTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,243,17],
 "d3/dce/classXonoticTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,243,34],
 "d3/dce/classXonoticTab.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,243,9],
-"d3/dce/classXonoticTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,243,50],
-"d3/dce/classXonoticTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,243,1],
-"d3/dce/classXonoticTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,243,16],
-"d3/dce/classXonoticTab.html#a4869983b8dc750584479ade5447c8413":[1,0,243,27],
-"d3/dce/classXonoticTab.html#a4ad8d403de20048384fe85b379309436":[1,0,243,76],
-"d3/dce/classXonoticTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,243,54],
-"d3/dce/classXonoticTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,243,32]
+"d3/dce/classXonoticTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,243,50]
 };

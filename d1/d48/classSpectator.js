@@ -62,6 +62,7 @@ var classSpectator =
     [ "playerskin", "d1/d48/classSpectator.html#af04000dc778c4b1b0ec980ea3541b0f8", null ],
     [ "pm_frametime", "d1/d48/classSpectator.html#a3f6b48423c8fa00300cf5de0f10abeef", null ],
     [ "pressedkeys", "d1/d48/classSpectator.html#ac0b4c14857eb756ac47df1fe7a410764", null ],
+    [ "spectatee_status", "d1/d48/classSpectator.html#a7726503c7f30546802017511a4c25937", null ],
     [ "spectatortime", "d1/d48/classSpectator.html#aa707f23bd099623cdeaa19d50afd3351", null ],
     [ "taunt_soundtime", "d1/d48/classSpectator.html#a9bbd350ba715f5cfec4ea084e87381e8", null ],
     [ "team", "d1/d48/classSpectator.html#a22032ccc0d6a0e1b5c8d152fa5d5258e", null ],
@@ -72,5 +73,6 @@ var classSpectator =
     [ "v_angle", "d1/d48/classSpectator.html#adbc59e37e184e760484bc8aa1aea4f93", null ],
     [ "version", "d1/d48/classSpectator.html#ac1a0c41b49dec20dc9ebc3045f0521c3", null ],
     [ "version_mismatch", "d1/d48/classSpectator.html#a2e556daf59228727cd12d5c6666da161", null ],
-    [ "version_nagtime", "d1/d48/classSpectator.html#aa5b03024329d76308546cc7194866070", null ]
+    [ "version_nagtime", "d1/d48/classSpectator.html#aa5b03024329d76308546cc7194866070", null ],
+    [ "zoomstate", "d1/d48/classSpectator.html#a6e2b1750af9db4c97521dce1478513a4", null ]
 ];
