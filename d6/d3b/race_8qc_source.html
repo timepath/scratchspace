@@ -1179,147 +1179,145 @@ $(document).ready(function(){initNavTree('d6/d3b/race_8qc_source.html','../../')
 <div class="line"><a name="l01072"></a><span class="lineno"> 1072</span>&#160;</div>
 <div class="line"><a name="l01073"></a><span class="lineno"><a class="line" href="../../d4/d1b/race_8qh.html#a30ba6f7a919548646ddd721463696855"> 1073</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d3b/race_8qc.html#a30ba6f7a919548646ddd721463696855">race_ClearRecords</a>()</div>
 <div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;{</div>
-<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;    <span class="keywordtype">float</span> i;</div>
-<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;</div>
-<div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt; <a class="code" href="../../d6/d3b/race_8qc.html#a512387999581af6659b438de4ae42cfd">MAX_CHECKPOINTS</a>; ++i)</div>
-<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;    {</div>
-<div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;        <a class="code" href="../../d6/d3b/race_8qc.html#ad1855ea475806749c54643476dac1943">race_checkpoint_records</a>[i] = 0;</div>
-<div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d6/d3b/race_8qc.html#adf4817ff0cc4409c96bb878e7e33fb3d">race_checkpoint_recordholders</a>[i])</div>
-<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(<a class="code" href="../../d6/d3b/race_8qc.html#adf4817ff0cc4409c96bb878e7e33fb3d">race_checkpoint_recordholders</a>[i]);</div>
-<div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160;        <a class="code" href="../../d6/d3b/race_8qc.html#adf4817ff0cc4409c96bb878e7e33fb3d">race_checkpoint_recordholders</a>[i] = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
-<div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;    }</div>
-<div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;</div>
-<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a> = it.race_place;</div>
-<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;        <a class="code" href="../../d6/d3b/race_8qc.html#a2dc87fbca84cbbf8ac854670fa11871b">race_PreparePlayer</a>(it);</div>
-<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;        it.race_place = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
-<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;    ));</div>
-<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;}</div>
-<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;</div>
-<div class="line"><a name="l01092"></a><span class="lineno"><a class="line" href="../../d4/d1b/race_8qh.html#afa5e1361b7c998c73649e0ac53556901"> 1092</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d3b/race_8qc.html#afa5e1361b7c998c73649e0ac53556901">race_ImposePenaltyTime</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> pl, <span class="keywordtype">float</span> penalty, <span class="keywordtype">string</span> reason)</div>
-<div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;{</div>
-<div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d1b/race_8qh.html#a7e260fe5773769b74b068a6483ddb83d">g_race_qualifying</a>)</div>
-<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;    {</div>
-<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;        pl.race_penalty_accumulator += penalty;</div>
-<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(pl))</div>
-<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;        {</div>
-<div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;            <a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a> = pl;</div>
-<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;            WRITESPECTATABLE_MSG_ONE(<a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a>, {</div>
-<div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;                WriteHeader(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, TE_CSQC_RACE);</div>
-<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, <a class="code" href="../../d5/d08/net__linked_8qh.html#a60dc3ce41fc5433efedb7d598c2edd17">RACE_NET_PENALTY_QUALIFYING</a>);</div>
-<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, <a class="code" href="../../d5/df2/common_2util_8qh.html#a6307fb8c8358ecb4245f4c98e2423ee4">TIME_ENCODE</a>(penalty));</div>
-<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, reason);</div>
-<div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;            });</div>
-<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;        }</div>
-<div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;    }</div>
-<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;    {</div>
-<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;        pl.race_penalty = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + penalty;</div>
-<div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(pl))</div>
-<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;        {</div>
-<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;            <a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a> = pl;</div>
-<div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;            WRITESPECTATABLE_MSG_ONE(<a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a>, {</div>
-<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;                WriteHeader(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, TE_CSQC_RACE);</div>
-<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, <a class="code" href="../../d5/d08/net__linked_8qh.html#a597f1b9b25351b6bc1fb0444f644e1d5">RACE_NET_PENALTY_RACE</a>);</div>
-<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, <a class="code" href="../../d5/df2/common_2util_8qh.html#a6307fb8c8358ecb4245f4c98e2423ee4">TIME_ENCODE</a>(penalty));</div>
-<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, reason);</div>
-<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;            });</div>
-<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;        }</div>
-<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;    }</div>
-<div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;}</div>
-<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;</div>
-<div class="line"><a name="l01124"></a><span class="lineno"><a class="line" href="../../d6/d3b/race_8qc.html#afaee8bdf5a2621ea0c05289b99d7c8d4"> 1124</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d3b/race_8qc.html#afaee8bdf5a2621ea0c05289b99d7c8d4">penalty_touch</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> toucher)</div>
-<div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;{</div>
-<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;    <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a14f4fc2c65ce6e5be0cc8b508e29139f">EXACTTRIGGER_TOUCH</a>(<span class="keyword">this</span>, toucher);</div>
-<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;    <span class="keywordflow">if</span>(toucher.race_lastpenalty != <span class="keyword">this</span>)</div>
-<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;    {</div>
-<div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;        toucher.race_lastpenalty = <span class="keyword">this</span>;</div>
-<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;        <a class="code" href="../../d6/d3b/race_8qc.html#afa5e1361b7c998c73649e0ac53556901">race_ImposePenaltyTime</a>(toucher, this.<a class="code" href="../../d6/d3b/race_8qc.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca">race_penalty</a>, this.<a class="code" href="../../d6/d3b/race_8qc.html#a41dc66c634475983cdff75eec8649bf6">race_penalty_reason</a>);</div>
-<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;    }</div>
-<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;}</div>
-<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;</div>
-<div class="line"><a name="l01134"></a><span class="lineno"><a class="line" href="../../d6/d3b/race_8qc.html#ae0d09d4e517c88ca30552c90e3068557"> 1134</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d3b/race_8qc.html#ae0d09d4e517c88ca30552c90e3068557">penalty_use</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> trigger)</div>
-<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;{</div>
-<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;    <a class="code" href="../../d6/d3b/race_8qc.html#afa5e1361b7c998c73649e0ac53556901">race_ImposePenaltyTime</a>(actor, this.<a class="code" href="../../d6/d3b/race_8qc.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca">race_penalty</a>, this.<a class="code" href="../../d6/d3b/race_8qc.html#a41dc66c634475983cdff75eec8649bf6">race_penalty_reason</a>);</div>
-<div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;}</div>
-<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;</div>
-<div class="line"><a name="l01139"></a><span class="lineno"><a class="line" href="../../d6/d3b/race_8qc.html#a5f76de28dab38d2ced30d6e962825d52"> 1139</a></span>&#160;<a class="code" href="../../d6/d3b/race_8qc.html#a696329dda631e76ee7c5542c9fabc8a5">spawnfunc</a>(trigger_race_penalty)</div>
-<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;{</div>
-<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;    <span class="comment">// TODO: find out why this wasnt done:</span></div>
-<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;    <span class="comment">//if(!g_cts &amp;&amp; !g_race) { remove(this); return; }</span></div>
+<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; <a class="code" href="../../d6/d3b/race_8qc.html#a512387999581af6659b438de4ae42cfd">MAX_CHECKPOINTS</a>; ++j)</div>
+<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;    {</div>
+<div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;        <a class="code" href="../../d6/d3b/race_8qc.html#ad1855ea475806749c54643476dac1943">race_checkpoint_records</a>[j] = 0;</div>
+<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d6/d3b/race_8qc.html#adf4817ff0cc4409c96bb878e7e33fb3d">race_checkpoint_recordholders</a>[j])</div>
+<div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(<a class="code" href="../../d6/d3b/race_8qc.html#adf4817ff0cc4409c96bb878e7e33fb3d">race_checkpoint_recordholders</a>[j]);</div>
+<div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160;        <a class="code" href="../../d6/d3b/race_8qc.html#adf4817ff0cc4409c96bb878e7e33fb3d">race_checkpoint_recordholders</a>[j] = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
+<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;    }</div>
+<div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160;</div>
+<div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a> = it.race_place;</div>
+<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;        <a class="code" href="../../d6/d3b/race_8qc.html#a2dc87fbca84cbbf8ac854670fa11871b">race_PreparePlayer</a>(it);</div>
+<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;        it.race_place = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
+<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;    ));</div>
+<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;}</div>
+<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;</div>
+<div class="line"><a name="l01090"></a><span class="lineno"><a class="line" href="../../d4/d1b/race_8qh.html#afa5e1361b7c998c73649e0ac53556901"> 1090</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d3b/race_8qc.html#afa5e1361b7c998c73649e0ac53556901">race_ImposePenaltyTime</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> pl, <span class="keywordtype">float</span> penalty, <span class="keywordtype">string</span> reason)</div>
+<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;{</div>
+<div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d1b/race_8qh.html#a7e260fe5773769b74b068a6483ddb83d">g_race_qualifying</a>)</div>
+<div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;    {</div>
+<div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;        pl.race_penalty_accumulator += penalty;</div>
+<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(pl))</div>
+<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;        {</div>
+<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;            <a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a> = pl;</div>
+<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;            WRITESPECTATABLE_MSG_ONE(<a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a>, {</div>
+<div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;                WriteHeader(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, TE_CSQC_RACE);</div>
+<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, <a class="code" href="../../d5/d08/net__linked_8qh.html#a60dc3ce41fc5433efedb7d598c2edd17">RACE_NET_PENALTY_QUALIFYING</a>);</div>
+<div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, <a class="code" href="../../d5/df2/common_2util_8qh.html#a6307fb8c8358ecb4245f4c98e2423ee4">TIME_ENCODE</a>(penalty));</div>
+<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, reason);</div>
+<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;            });</div>
+<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;        }</div>
+<div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;    }</div>
+<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;    {</div>
+<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;        pl.race_penalty = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + penalty;</div>
+<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(pl))</div>
+<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;        {</div>
+<div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;            <a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a> = pl;</div>
+<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;            WRITESPECTATABLE_MSG_ONE(<a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a>, {</div>
+<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;                WriteHeader(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, TE_CSQC_RACE);</div>
+<div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, <a class="code" href="../../d5/d08/net__linked_8qh.html#a597f1b9b25351b6bc1fb0444f644e1d5">RACE_NET_PENALTY_RACE</a>);</div>
+<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, <a class="code" href="../../d5/df2/common_2util_8qh.html#a6307fb8c8358ecb4245f4c98e2423ee4">TIME_ENCODE</a>(penalty));</div>
+<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, reason);</div>
+<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;            });</div>
+<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;        }</div>
+<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;    }</div>
+<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;}</div>
+<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;</div>
+<div class="line"><a name="l01122"></a><span class="lineno"><a class="line" href="../../d6/d3b/race_8qc.html#afaee8bdf5a2621ea0c05289b99d7c8d4"> 1122</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d3b/race_8qc.html#afaee8bdf5a2621ea0c05289b99d7c8d4">penalty_touch</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> toucher)</div>
+<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;{</div>
+<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;    <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a14f4fc2c65ce6e5be0cc8b508e29139f">EXACTTRIGGER_TOUCH</a>(<span class="keyword">this</span>, toucher);</div>
+<div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;    <span class="keywordflow">if</span>(toucher.race_lastpenalty != <span class="keyword">this</span>)</div>
+<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;    {</div>
+<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;        toucher.race_lastpenalty = <span class="keyword">this</span>;</div>
+<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;        <a class="code" href="../../d6/d3b/race_8qc.html#afa5e1361b7c998c73649e0ac53556901">race_ImposePenaltyTime</a>(toucher, this.<a class="code" href="../../d6/d3b/race_8qc.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca">race_penalty</a>, this.<a class="code" href="../../d6/d3b/race_8qc.html#a41dc66c634475983cdff75eec8649bf6">race_penalty_reason</a>);</div>
+<div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;    }</div>
+<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;}</div>
+<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;</div>
+<div class="line"><a name="l01132"></a><span class="lineno"><a class="line" href="../../d6/d3b/race_8qc.html#ae0d09d4e517c88ca30552c90e3068557"> 1132</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d3b/race_8qc.html#ae0d09d4e517c88ca30552c90e3068557">penalty_use</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> trigger)</div>
+<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;{</div>
+<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;    <a class="code" href="../../d6/d3b/race_8qc.html#afa5e1361b7c998c73649e0ac53556901">race_ImposePenaltyTime</a>(actor, this.<a class="code" href="../../d6/d3b/race_8qc.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca">race_penalty</a>, this.<a class="code" href="../../d6/d3b/race_8qc.html#a41dc66c634475983cdff75eec8649bf6">race_penalty_reason</a>);</div>
+<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;}</div>
+<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;</div>
+<div class="line"><a name="l01137"></a><span class="lineno"><a class="line" href="../../d6/d3b/race_8qc.html#a5f76de28dab38d2ced30d6e962825d52"> 1137</a></span>&#160;<a class="code" href="../../d6/d3b/race_8qc.html#a696329dda631e76ee7c5542c9fabc8a5">spawnfunc</a>(trigger_race_penalty)</div>
+<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;{</div>
+<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;    <span class="comment">// TODO: find out why this wasnt done:</span></div>
+<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;    <span class="comment">//if(!g_cts &amp;&amp; !g_race) { remove(this); return; }</span></div>
+<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;</div>
+<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;    <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0">EXACTTRIGGER_INIT</a>;</div>
 <div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;</div>
-<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;    <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0">EXACTTRIGGER_INIT</a>;</div>
-<div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;</div>
-<div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;    this.<a class="code" href="../../da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c">use</a> = <a class="code" href="../../d6/d3b/race_8qc.html#ae0d09d4e517c88ca30552c90e3068557">penalty_use</a>;</div>
-<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;    <span class="keywordflow">if</span> (!(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 1))</div>
-<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;        settouch(<span class="keyword">this</span>, <a class="code" href="../../d6/d3b/race_8qc.html#afaee8bdf5a2621ea0c05289b99d7c8d4">penalty_touch</a>);</div>
-<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;</div>
-<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d3b/race_8qc.html#a41dc66c634475983cdff75eec8649bf6">race_penalty_reason</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;        this.<a class="code" href="../../d6/d3b/race_8qc.html#a41dc66c634475983cdff75eec8649bf6">race_penalty_reason</a> = <span class="stringliteral">&quot;missing a checkpoint&quot;</span>;</div>
-<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;    <span class="keywordflow">if</span> (!this.<a class="code" href="../../d6/d3b/race_8qc.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca">race_penalty</a>)</div>
-<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;        this.<a class="code" href="../../d6/d3b/race_8qc.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca">race_penalty</a> = 5;</div>
-<div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;}</div>
-<div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;</div>
-<div class="line"><a name="l01156"></a><span class="lineno"><a class="line" href="../../d4/d1b/race_8qh.html#a9b5a49271ee43c7c9e7cb3787de977ee"> 1156</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d6/d3b/race_8qc.html#a9b5a49271ee43c7c9e7cb3787de977ee">race_GetFractionalLapCount</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
-<div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;{</div>
-<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;    <span class="comment">// interesting metrics (idea by KrimZon) to maybe sort players in the</span></div>
-<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;    <span class="comment">// scoreboard, immediately updates when overtaking</span></div>
-<div class="line"><a name="l01160"></a><span class="lineno"> 1160</span>&#160;    <span class="comment">//</span></div>
-<div class="line"><a name="l01161"></a><span class="lineno"> 1161</span>&#160;    <span class="comment">// requires the track to be built so you never get farther away from the</span></div>
-<div class="line"><a name="l01162"></a><span class="lineno"> 1162</span>&#160;    <span class="comment">// next checkpoint, though, and current Xonotic race maps are not built that</span></div>
-<div class="line"><a name="l01163"></a><span class="lineno"> 1163</span>&#160;    <span class="comment">// way</span></div>
-<div class="line"><a name="l01164"></a><span class="lineno"> 1164</span>&#160;    <span class="comment">//</span></div>
-<div class="line"><a name="l01165"></a><span class="lineno"> 1165</span>&#160;    <span class="comment">// also, this code is slow and would need optimization (i.e. &quot;next CP&quot;</span></div>
-<div class="line"><a name="l01166"></a><span class="lineno"> 1166</span>&#160;    <span class="comment">// links on CP entities)</span></div>
-<div class="line"><a name="l01167"></a><span class="lineno"> 1167</span>&#160;</div>
-<div class="line"><a name="l01168"></a><span class="lineno"> 1168</span>&#160;    <span class="keywordtype">float</span> l;</div>
-<div class="line"><a name="l01169"></a><span class="lineno"> 1169</span>&#160;    l = <a class="code" href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a>(e, SP_RACE_LAPS, 0);</div>
-<div class="line"><a name="l01170"></a><span class="lineno"> 1170</span>&#160;    <span class="keywordflow">if</span>(e.race_completed)</div>
-<div class="line"><a name="l01171"></a><span class="lineno"> 1171</span>&#160;        <span class="keywordflow">return</span> l; <span class="comment">// not fractional</span></div>
-<div class="line"><a name="l01172"></a><span class="lineno"> 1172</span>&#160;</div>
-<div class="line"><a name="l01173"></a><span class="lineno"> 1173</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> o0, o1;</div>
-<div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160;    <span class="keywordtype">float</span> bestfraction, fraction;</div>
-<div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> lastcp;</div>
-<div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;    <span class="keywordtype">float</span> nextcpindex, lastcpindex;</div>
-<div class="line"><a name="l01177"></a><span class="lineno"> 1177</span>&#160;</div>
-<div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;    nextcpindex = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(e.race_checkpoint, 0);</div>
-<div class="line"><a name="l01179"></a><span class="lineno"> 1179</span>&#160;    lastcpindex = e.race_respawn_checkpoint;</div>
-<div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;    lastcp = e.race_respawn_spotref;</div>
-<div class="line"><a name="l01181"></a><span class="lineno"> 1181</span>&#160;</div>
-<div class="line"><a name="l01182"></a><span class="lineno"> 1182</span>&#160;    <span class="keywordflow">if</span>(nextcpindex == lastcpindex)</div>
-<div class="line"><a name="l01183"></a><span class="lineno"> 1183</span>&#160;        <span class="keywordflow">return</span> l; <span class="comment">// finish</span></div>
-<div class="line"><a name="l01184"></a><span class="lineno"> 1184</span>&#160;</div>
-<div class="line"><a name="l01185"></a><span class="lineno"> 1185</span>&#160;    bestfraction = 1;</div>
-<div class="line"><a name="l01186"></a><span class="lineno"> 1186</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d4/d1b/race_8qh.html#a9d7e24848d765f91e40ef5bce965520a">g_racecheckpoints</a>, <span class="keyword">true</span>,</div>
-<div class="line"><a name="l01187"></a><span class="lineno"> 1187</span>&#160;    {</div>
-<div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;        <span class="keywordflow">if</span>(it.race_checkpoint != lastcpindex)</div>
-<div class="line"><a name="l01189"></a><span class="lineno"> 1189</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01190"></a><span class="lineno"> 1190</span>&#160;        <span class="keywordflow">if</span>(lastcp)</div>
-<div class="line"><a name="l01191"></a><span class="lineno"> 1191</span>&#160;            <span class="keywordflow">if</span>(it != lastcp)</div>
-<div class="line"><a name="l01192"></a><span class="lineno"> 1192</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01193"></a><span class="lineno"> 1193</span>&#160;        o0 = (it.absmin + it.absmax) * 0.5;</div>
-<div class="line"><a name="l01194"></a><span class="lineno"> 1194</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d4/d1b/race_8qh.html#a9d7e24848d765f91e40ef5bce965520a">g_racecheckpoints</a>, <span class="keyword">true</span>,</div>
-<div class="line"><a name="l01195"></a><span class="lineno"> 1195</span>&#160;        {</div>
-<div class="line"><a name="l01196"></a><span class="lineno"> 1196</span>&#160;            <span class="keywordflow">if</span>(it.race_checkpoint != nextcpindex)</div>
-<div class="line"><a name="l01197"></a><span class="lineno"> 1197</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01198"></a><span class="lineno"> 1198</span>&#160;            o1 = (it.absmin + it.absmax) * 0.5;</div>
-<div class="line"><a name="l01199"></a><span class="lineno"> 1199</span>&#160;            <span class="keywordflow">if</span>(o0 == o1)</div>
-<div class="line"><a name="l01200"></a><span class="lineno"> 1200</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01201"></a><span class="lineno"> 1201</span>&#160;            fraction = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0.0001, <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(e.origin - o1) / <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(o0 - o1), 1);</div>
-<div class="line"><a name="l01202"></a><span class="lineno"> 1202</span>&#160;            <span class="keywordflow">if</span>(fraction &lt; bestfraction)</div>
-<div class="line"><a name="l01203"></a><span class="lineno"> 1203</span>&#160;                bestfraction = fraction;</div>
-<div class="line"><a name="l01204"></a><span class="lineno"> 1204</span>&#160;        });</div>
-<div class="line"><a name="l01205"></a><span class="lineno"> 1205</span>&#160;    });</div>
-<div class="line"><a name="l01206"></a><span class="lineno"> 1206</span>&#160;</div>
-<div class="line"><a name="l01207"></a><span class="lineno"> 1207</span>&#160;    <span class="comment">// we are at CP &quot;nextcpindex - bestfraction&quot;</span></div>
-<div class="line"><a name="l01208"></a><span class="lineno"> 1208</span>&#160;    <span class="comment">// race_timed_checkpoint == 4: then nextcp==4 means 0.9999x, nextcp==0 means 0.0000x</span></div>
-<div class="line"><a name="l01209"></a><span class="lineno"> 1209</span>&#160;    <span class="comment">// race_timed_checkpoint == 0: then nextcp==0 means 0.9999x</span></div>
-<div class="line"><a name="l01210"></a><span class="lineno"> 1210</span>&#160;    <span class="keywordtype">float</span> c, nc;</div>
-<div class="line"><a name="l01211"></a><span class="lineno"> 1211</span>&#160;    nc = <a class="code" href="../../d6/d3b/race_8qc.html#a0e3a6ce7e5c6de45c0c19a7e69912110">race_highest_checkpoint</a> + 1;</div>
-<div class="line"><a name="l01212"></a><span class="lineno"> 1212</span>&#160;    c = ((nextcpindex - <a class="code" href="../../d6/d3b/race_8qc.html#a51f6661918cf5435d4c4ef00302e72c0">race_timed_checkpoint</a> + nc + nc - 1) % nc) + 1 - bestfraction;</div>
-<div class="line"><a name="l01213"></a><span class="lineno"> 1213</span>&#160;</div>
-<div class="line"><a name="l01214"></a><span class="lineno"> 1214</span>&#160;    <span class="keywordflow">return</span> l + c / nc;</div>
-<div class="line"><a name="l01215"></a><span class="lineno"> 1215</span>&#160;}</div>
+<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;    this.<a class="code" href="../../da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c">use</a> = <a class="code" href="../../d6/d3b/race_8qc.html#ae0d09d4e517c88ca30552c90e3068557">penalty_use</a>;</div>
+<div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;    <span class="keywordflow">if</span> (!(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 1))</div>
+<div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;        settouch(<span class="keyword">this</span>, <a class="code" href="../../d6/d3b/race_8qc.html#afaee8bdf5a2621ea0c05289b99d7c8d4">penalty_touch</a>);</div>
+<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;</div>
+<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d3b/race_8qc.html#a41dc66c634475983cdff75eec8649bf6">race_penalty_reason</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;        this.<a class="code" href="../../d6/d3b/race_8qc.html#a41dc66c634475983cdff75eec8649bf6">race_penalty_reason</a> = <span class="stringliteral">&quot;missing a checkpoint&quot;</span>;</div>
+<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;    <span class="keywordflow">if</span> (!this.<a class="code" href="../../d6/d3b/race_8qc.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca">race_penalty</a>)</div>
+<div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;        this.<a class="code" href="../../d6/d3b/race_8qc.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca">race_penalty</a> = 5;</div>
+<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;}</div>
+<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;</div>
+<div class="line"><a name="l01154"></a><span class="lineno"><a class="line" href="../../d4/d1b/race_8qh.html#a9b5a49271ee43c7c9e7cb3787de977ee"> 1154</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d6/d3b/race_8qc.html#a9b5a49271ee43c7c9e7cb3787de977ee">race_GetFractionalLapCount</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
+<div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;{</div>
+<div class="line"><a name="l01156"></a><span class="lineno"> 1156</span>&#160;    <span class="comment">// interesting metrics (idea by KrimZon) to maybe sort players in the</span></div>
+<div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;    <span class="comment">// scoreboard, immediately updates when overtaking</span></div>
+<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;    <span class="comment">// requires the track to be built so you never get farther away from the</span></div>
+<div class="line"><a name="l01160"></a><span class="lineno"> 1160</span>&#160;    <span class="comment">// next checkpoint, though, and current Xonotic race maps are not built that</span></div>
+<div class="line"><a name="l01161"></a><span class="lineno"> 1161</span>&#160;    <span class="comment">// way</span></div>
+<div class="line"><a name="l01162"></a><span class="lineno"> 1162</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l01163"></a><span class="lineno"> 1163</span>&#160;    <span class="comment">// also, this code is slow and would need optimization (i.e. &quot;next CP&quot;</span></div>
+<div class="line"><a name="l01164"></a><span class="lineno"> 1164</span>&#160;    <span class="comment">// links on CP entities)</span></div>
+<div class="line"><a name="l01165"></a><span class="lineno"> 1165</span>&#160;</div>
+<div class="line"><a name="l01166"></a><span class="lineno"> 1166</span>&#160;    <span class="keywordtype">float</span> l;</div>
+<div class="line"><a name="l01167"></a><span class="lineno"> 1167</span>&#160;    l = <a class="code" href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a>(e, SP_RACE_LAPS, 0);</div>
+<div class="line"><a name="l01168"></a><span class="lineno"> 1168</span>&#160;    <span class="keywordflow">if</span>(e.race_completed)</div>
+<div class="line"><a name="l01169"></a><span class="lineno"> 1169</span>&#160;        <span class="keywordflow">return</span> l; <span class="comment">// not fractional</span></div>
+<div class="line"><a name="l01170"></a><span class="lineno"> 1170</span>&#160;</div>
+<div class="line"><a name="l01171"></a><span class="lineno"> 1171</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> o0, o1;</div>
+<div class="line"><a name="l01172"></a><span class="lineno"> 1172</span>&#160;    <span class="keywordtype">float</span> bestfraction, fraction;</div>
+<div class="line"><a name="l01173"></a><span class="lineno"> 1173</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> lastcp;</div>
+<div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160;    <span class="keywordtype">float</span> nextcpindex, lastcpindex;</div>
+<div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160;</div>
+<div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;    nextcpindex = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(e.race_checkpoint, 0);</div>
+<div class="line"><a name="l01177"></a><span class="lineno"> 1177</span>&#160;    lastcpindex = e.race_respawn_checkpoint;</div>
+<div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;    lastcp = e.race_respawn_spotref;</div>
+<div class="line"><a name="l01179"></a><span class="lineno"> 1179</span>&#160;</div>
+<div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;    <span class="keywordflow">if</span>(nextcpindex == lastcpindex)</div>
+<div class="line"><a name="l01181"></a><span class="lineno"> 1181</span>&#160;        <span class="keywordflow">return</span> l; <span class="comment">// finish</span></div>
+<div class="line"><a name="l01182"></a><span class="lineno"> 1182</span>&#160;</div>
+<div class="line"><a name="l01183"></a><span class="lineno"> 1183</span>&#160;    bestfraction = 1;</div>
+<div class="line"><a name="l01184"></a><span class="lineno"> 1184</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d4/d1b/race_8qh.html#a9d7e24848d765f91e40ef5bce965520a">g_racecheckpoints</a>, <span class="keyword">true</span>,</div>
+<div class="line"><a name="l01185"></a><span class="lineno"> 1185</span>&#160;    {</div>
+<div class="line"><a name="l01186"></a><span class="lineno"> 1186</span>&#160;        <span class="keywordflow">if</span>(it.race_checkpoint != lastcpindex)</div>
+<div class="line"><a name="l01187"></a><span class="lineno"> 1187</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;        <span class="keywordflow">if</span>(lastcp)</div>
+<div class="line"><a name="l01189"></a><span class="lineno"> 1189</span>&#160;            <span class="keywordflow">if</span>(it != lastcp)</div>
+<div class="line"><a name="l01190"></a><span class="lineno"> 1190</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01191"></a><span class="lineno"> 1191</span>&#160;        o0 = (it.absmin + it.absmax) * 0.5;</div>
+<div class="line"><a name="l01192"></a><span class="lineno"> 1192</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d4/d1b/race_8qh.html#a9d7e24848d765f91e40ef5bce965520a">g_racecheckpoints</a>, <span class="keyword">true</span>,</div>
+<div class="line"><a name="l01193"></a><span class="lineno"> 1193</span>&#160;        {</div>
+<div class="line"><a name="l01194"></a><span class="lineno"> 1194</span>&#160;            <span class="keywordflow">if</span>(it.race_checkpoint != nextcpindex)</div>
+<div class="line"><a name="l01195"></a><span class="lineno"> 1195</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01196"></a><span class="lineno"> 1196</span>&#160;            o1 = (it.absmin + it.absmax) * 0.5;</div>
+<div class="line"><a name="l01197"></a><span class="lineno"> 1197</span>&#160;            <span class="keywordflow">if</span>(o0 == o1)</div>
+<div class="line"><a name="l01198"></a><span class="lineno"> 1198</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01199"></a><span class="lineno"> 1199</span>&#160;            fraction = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0.0001, <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(e.origin - o1) / <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(o0 - o1), 1);</div>
+<div class="line"><a name="l01200"></a><span class="lineno"> 1200</span>&#160;            <span class="keywordflow">if</span>(fraction &lt; bestfraction)</div>
+<div class="line"><a name="l01201"></a><span class="lineno"> 1201</span>&#160;                bestfraction = fraction;</div>
+<div class="line"><a name="l01202"></a><span class="lineno"> 1202</span>&#160;        });</div>
+<div class="line"><a name="l01203"></a><span class="lineno"> 1203</span>&#160;    });</div>
+<div class="line"><a name="l01204"></a><span class="lineno"> 1204</span>&#160;</div>
+<div class="line"><a name="l01205"></a><span class="lineno"> 1205</span>&#160;    <span class="comment">// we are at CP &quot;nextcpindex - bestfraction&quot;</span></div>
+<div class="line"><a name="l01206"></a><span class="lineno"> 1206</span>&#160;    <span class="comment">// race_timed_checkpoint == 4: then nextcp==4 means 0.9999x, nextcp==0 means 0.0000x</span></div>
+<div class="line"><a name="l01207"></a><span class="lineno"> 1207</span>&#160;    <span class="comment">// race_timed_checkpoint == 0: then nextcp==0 means 0.9999x</span></div>
+<div class="line"><a name="l01208"></a><span class="lineno"> 1208</span>&#160;    <span class="keywordtype">float</span> c, nc;</div>
+<div class="line"><a name="l01209"></a><span class="lineno"> 1209</span>&#160;    nc = <a class="code" href="../../d6/d3b/race_8qc.html#a0e3a6ce7e5c6de45c0c19a7e69912110">race_highest_checkpoint</a> + 1;</div>
+<div class="line"><a name="l01210"></a><span class="lineno"> 1210</span>&#160;    c = ((nextcpindex - <a class="code" href="../../d6/d3b/race_8qc.html#a51f6661918cf5435d4c4ef00302e72c0">race_timed_checkpoint</a> + nc + nc - 1) % nc) + 1 - bestfraction;</div>
+<div class="line"><a name="l01211"></a><span class="lineno"> 1211</span>&#160;</div>
+<div class="line"><a name="l01212"></a><span class="lineno"> 1212</span>&#160;    <span class="keywordflow">return</span> l + c / nc;</div>
+<div class="line"><a name="l01213"></a><span class="lineno"> 1213</span>&#160;}</div>
 <div class="ttc" id="server_2autocvars_8qh_html_a01881b5a20f0b9258777a05de0e7f45c"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a01881b5a20f0b9258777a05de0e7f45c">autocvar_g_allow_checkpoints</a></div><div class="ttdeci">bool autocvar_g_allow_checkpoints</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00535">autocvars.qh:535</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a77d7a3d55152ac3ec644710da1e05b7d"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a77d7a3d55152ac3ec644710da1e05b7d">FILE_WRITE</a></div><div class="ttdeci">const int FILE_WRITE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00103">csqc_constants.qh:103</a></div></div>
@@ -1331,7 +1329,7 @@ $(document).ready(function(){initNavTree('d6/d3b/race_8qc_source.html','../../')
 <div class="ttc" id="race_8qc_html_a53685983af63f73a8f8479cb56d8bc6c"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a53685983af63f73a8f8479cb56d8bc6c">race_readPos</a></div><div class="ttdeci">float race_readPos(string map, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00044">race.qc:44</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html_a0559c59a90e69f78061d34ecfa0afb7b"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b">g_cts</a></div><div class="ttdeci">#define g_cts</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00179">mapinfo.qh:179</a></div></div>
-<div class="ttc" id="race_8qc_html_a9b5a49271ee43c7c9e7cb3787de977ee"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a9b5a49271ee43c7c9e7cb3787de977ee">race_GetFractionalLapCount</a></div><div class="ttdeci">float race_GetFractionalLapCount(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l01156">race.qc:1156</a></div></div>
+<div class="ttc" id="race_8qc_html_a9b5a49271ee43c7c9e7cb3787de977ee"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a9b5a49271ee43c7c9e7cb3787de977ee">race_GetFractionalLapCount</a></div><div class="ttdeci">float race_GetFractionalLapCount(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l01154">race.qc:1154</a></div></div>
 <div class="ttc" id="race_8qc_html_a30ba6f7a919548646ddd721463696855"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a30ba6f7a919548646ddd721463696855">race_ClearRecords</a></div><div class="ttdeci">void race_ClearRecords()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l01073">race.qc:1073</a></div></div>
 <div class="ttc" id="race_8qc_html_a09c44ef9cf2c6bc5c767d08d250abf96"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a09c44ef9cf2c6bc5c767d08d250abf96">race_PreviousCheckpoint</a></div><div class="ttdeci">float race_PreviousCheckpoint(float f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00135">race.qc:135</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_ad1d833615f56d11e3c3a9facc944aaf6"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6">Damage</a></div><div class="ttdeci">void Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype, vector hitloc, vector force)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00619">g_damage.qc:619</a></div></div>
@@ -1383,7 +1381,7 @@ $(document).ready(function(){initNavTree('d6/d3b/race_8qc_source.html','../../')
 <div class="ttc" id="net__linked_8qh_html_a47fcb23472ddfdfaba2fcd57284c78de"><div class="ttname"><a href="../../d5/d08/net__linked_8qh.html#a47fcb23472ddfdfaba2fcd57284c78de">RACE_NET_SPEED_AWARD</a></div><div class="ttdeci">const int RACE_NET_SPEED_AWARD</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d08/net__linked_8qh_source.html#l00019">net_linked.qh:19</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="race_8qc_html_ad1855ea475806749c54643476dac1943"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#ad1855ea475806749c54643476dac1943">race_checkpoint_records</a></div><div class="ttdeci">float race_checkpoint_records[MAX_CHECKPOINTS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00113">race.qc:113</a></div></div>
-<div class="ttc" id="race_8qc_html_afa5e1361b7c998c73649e0ac53556901"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#afa5e1361b7c998c73649e0ac53556901">race_ImposePenaltyTime</a></div><div class="ttdeci">void race_ImposePenaltyTime(entity pl, float penalty, string reason)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l01092">race.qc:1092</a></div></div>
+<div class="ttc" id="race_8qc_html_afa5e1361b7c998c73649e0ac53556901"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#afa5e1361b7c998c73649e0ac53556901">race_ImposePenaltyTime</a></div><div class="ttdeci">void race_ImposePenaltyTime(entity pl, float penalty, string reason)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l01090">race.qc:1090</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a7bb594d808e357274edee331b5ed2d35"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a></div><div class="ttdeci">void WriteShort(float data, float dest, float desto)</div></div>
 <div class="ttc" id="race_8qc_html_a512387999581af6659b438de4ae42cfd"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a512387999581af6659b438de4ae42cfd">MAX_CHECKPOINTS</a></div><div class="ttdeci">const float MAX_CHECKPOINTS</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00101">race.qc:101</a></div></div>
 <div class="ttc" id="race_8qh_html"><div class="ttname"><a href="../../d4/d1b/race_8qh.html">race.qh</a></div></div>
@@ -1442,7 +1440,7 @@ $(document).ready(function(){initNavTree('d6/d3b/race_8qc_source.html','../../')
 <div class="ttc" id="net__linked_8qh_html_a7c57475270a5b14d01a30017470e56e5"><div class="ttname"><a href="../../d5/d08/net__linked_8qh.html#a7c57475270a5b14d01a30017470e56e5">RACE_NET_SPEED_AWARD_BEST</a></div><div class="ttdeci">const int RACE_NET_SPEED_AWARD_BEST</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d08/net__linked_8qh_source.html#l00020">net_linked.qh:20</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a067c6fc2c94c080c9e94a020c41f036e"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a067c6fc2c94c080c9e94a020c41f036e">message2</a></div><div class="ttdeci">string message2</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00266">defs.qh:266</a></div></div>
 <div class="ttc" id="spawnpoints_8qh_html"><div class="ttname"><a href="../../d4/dd1/spawnpoints_8qh.html">spawnpoints.qh</a></div></div>
-<div class="ttc" id="race_8qc_html_afaee8bdf5a2621ea0c05289b99d7c8d4"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#afaee8bdf5a2621ea0c05289b99d7c8d4">penalty_touch</a></div><div class="ttdeci">void penalty_touch(entity this, entity toucher)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l01124">race.qc:1124</a></div></div>
+<div class="ttc" id="race_8qc_html_afaee8bdf5a2621ea0c05289b99d7c8d4"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#afaee8bdf5a2621ea0c05289b99d7c8d4">penalty_touch</a></div><div class="ttdeci">void penalty_touch(entity this, entity toucher)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l01122">race.qc:1122</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html_aa77f02606c529a3b5c515e57014f3354"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#aa77f02606c529a3b5c515e57014f3354">g_ctf</a></div><div class="ttdeci">#define g_ctf</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00241">mapinfo.qh:241</a></div></div>
 <div class="ttc" id="net__linked_8qh_html_a5b202eff03c220285a469372bca5ffc5"><div class="ttname"><a href="../../d5/d08/net__linked_8qh.html#a5b202eff03c220285a469372bca5ffc5">RACE_NET_SERVER_STATUS</a></div><div class="ttdeci">const int RACE_NET_SERVER_STATUS</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d08/net__linked_8qh_source.html#l00022">net_linked.qh:22</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a93c78c5087546131c4eefb9b2d733adf"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a></div><div class="ttdeci">vector trace_endpos</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">csprogsdefs.qc:37</a></div></div>
@@ -1486,7 +1484,7 @@ $(document).ready(function(){initNavTree('d6/d3b/race_8qc_source.html','../../')
 <div class="ttc" id="race_8qc_html_af38e736fe67a1f8702b94c9de9ae9f88"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#af38e736fe67a1f8702b94c9de9ae9f88">trigger_race_checkpoint_verify</a></div><div class="ttdeci">void trigger_race_checkpoint_verify(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00731">race.qc:731</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_afa8adf762827679f2bfa706be7144fe2"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a></div><div class="ttdeci">string target</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00193">progsdefs.qc:193</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_ad134a1b884f5841ba3bcdee2539cc854"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#ad134a1b884f5841ba3bcdee2539cc854">absmin</a></div><div class="ttdeci">vector absmin</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00092">csprogsdefs.qc:92</a></div></div>
-<div class="ttc" id="race_8qc_html_ae0d09d4e517c88ca30552c90e3068557"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#ae0d09d4e517c88ca30552c90e3068557">penalty_use</a></div><div class="ttdeci">void penalty_use(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l01134">race.qc:1134</a></div></div>
+<div class="ttc" id="race_8qc_html_ae0d09d4e517c88ca30552c90e3068557"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#ae0d09d4e517c88ca30552c90e3068557">penalty_use</a></div><div class="ttdeci">void penalty_use(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l01132">race.qc:1132</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a44e0d1ac6d9e4b633d85ad82f408f516"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a></div><div class="ttdeci">void WriteString(string data, float dest, float desto)</div></div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_a450084bb9c01e6e3fe55aa6027d4580f"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a450084bb9c01e6e3fe55aa6027d4580f">write_recordmarker</a></div><div class="ttdeci">void write_recordmarker(entity pl, float tstart, float dt)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01277">miscfunctions.qc:1277</a></div></div>
@@ -1519,7 +1517,7 @@ $(document).ready(function(){initNavTree('d6/d3b/race_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d6/d3b/race_8qc.html">race.qc</a></li>
-    <li class="footer">Generated on Sun Jul 16 2017 17:18:45 for Xonotic by
+    <li class="footer">Generated on Sun Jul 16 2017 18:05:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
