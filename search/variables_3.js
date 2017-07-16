@@ -428,7 +428,6 @@ var searchData=
   ['cvar_5fcl_5fnewusekeysupported',['cvar_cl_newusekeysupported',['../d5/d26/server_2defs_8qh.html#a36464ba04149825e93f91e26152d32c7',1,'defs.qh']]],
   ['cvar_5fcl_5fnoantilag',['cvar_cl_noantilag',['../d5/d26/server_2defs_8qh.html#a89fe85b717c8dee6ac1e0e86878cdcff',1,'defs.qh']]],
   ['cvar_5fcl_5fphysics',['cvar_cl_physics',['../d5/d26/server_2defs_8qh.html#a5b37f6d6590607d860c95fe8e8d2825a',1,'defs.qh']]],
-  ['cvar_5fcl_5frace_5fcptimes_5fonlyself',['cvar_cl_race_cptimes_onlyself',['../d4/d1b/race_8qh.html#a86db667053368805320e1efb8faa4c1f',1,'race.qh']]],
   ['cvar_5fcl_5fspawn_5fnear_5fteammate',['cvar_cl_spawn_near_teammate',['../d2/d08/sv__spawn__near__teammate_8qc.html#a53bea2a352cc0c2883f23e3b1bfc59e3',1,'sv_spawn_near_teammate.qc']]],
   ['cvar_5fcl_5fvoice_5fdirectional',['cvar_cl_voice_directional',['../d5/d26/server_2defs_8qh.html#a3e23c99b6aac8bdae683662f1758ada1',1,'defs.qh']]],
   ['cvar_5fcl_5fvoice_5fdirectional_5ftaunt_5fattenuation',['cvar_cl_voice_directional_taunt_attenuation',['../d5/d26/server_2defs_8qh.html#ad3c646b1a384158634a41a50d44fa5ee',1,'defs.qh']]],

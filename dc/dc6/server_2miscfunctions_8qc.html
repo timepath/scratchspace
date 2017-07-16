@@ -4412,7 +4412,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d54/map_8qh_source.html#l00091">db_get()</a>, <a class="el" href="../../d4/d54/map_8qh_source.html#l00101">db_put()</a>, <a class="el" href="../../d4/d54/map_8qh_source.html#l00098">db_remove</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00213">ServerProgsDB</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00064">getladder()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l02233">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../d6/d3b/race_8qc_source.html#l00093">race_readName()</a>, and <a class="el" href="../../d6/d3b/race_8qc_source.html#l00262">race_setTime()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00064">getladder()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l02233">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../d6/d3b/race_8qc_source.html#l00093">race_readName()</a>, and <a class="el" href="../../d6/d3b/race_8qc_source.html#l00253">race_setTime()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;                              {</div>
 <div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;    <span class="keywordtype">string</span> s;</div>
 <div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;    s = <a class="code" href="../../d4/d54/map_8qh.html#a9ef8574526bd0fc3ba024e3ca148de85">db_get</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#afa49ea11bc4dd382cd2f042e7c94dcce">ServerProgsDB</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;/uid2name/&quot;</span>, myuid));</div>
@@ -4676,7 +4676,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00364">364</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
-<p>References <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00169">W_FixWeaponOrder_BuildImpulseList()</a>, <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00189">W_FixWeaponOrder_ForceComplete()</a>, and <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00110">weaponorder_byimpulse</a>.</p>
+<p>References <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00169">W_FixWeaponOrder_BuildImpulseList()</a>, <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00189">W_FixWeaponOrder_ForceComplete()</a>, and <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00112">weaponorder_byimpulse</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00410">GetCvars()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;{</div>
@@ -4690,7 +4690,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb">weaponorder_byimpulse</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d0/d2b/weapons_2all_8qc.html#a6a9b42410f2d888f52a11253a2165203">W_FixWeaponOrder_BuildImpulseList</a>(o));</div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    <span class="keywordflow">return</span> o;</div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;}</div>
-<div class="ttc" id="client_2defs_8qh_html_a29848d3b0f49c16a8f68744672ba7cdb"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb">weaponorder_byimpulse</a></div><div class="ttdeci">string weaponorder_byimpulse</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00110">defs.qh:110</a></div></div>
+<div class="ttc" id="client_2defs_8qh_html_a29848d3b0f49c16a8f68744672ba7cdb"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb">weaponorder_byimpulse</a></div><div class="ttdeci">string weaponorder_byimpulse</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00112">defs.qh:112</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
 <div class="ttc" id="weapons_2all_8qc_html_a01fb8b4722cd9503ad28af6600e7e18c"><div class="ttname"><a href="../../d0/d2b/weapons_2all_8qc.html#a01fb8b4722cd9503ad28af6600e7e18c">W_FixWeaponOrder_ForceComplete</a></div><div class="ttdeci">string W_FixWeaponOrder_ForceComplete(string order)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2b/weapons_2all_8qc_source.html#l00189">all.qc:189</a></div></div>
@@ -4962,7 +4962,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00067">GameLogEcho()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00957">GetGametype()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/dc0/progsdefs_8qh_source.html#l00023">stuffcmd</a>, <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00046">TIME_ENCODE</a>, and <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00042">TIME_ENCODED_TOSTRING</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l00132">ctf_CaptureRecord()</a>, and <a class="el" href="../../d6/d3b/race_8qc_source.html#l00262">race_setTime()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l00132">ctf_CaptureRecord()</a>, and <a class="el" href="../../d6/d3b/race_8qc_source.html#l00253">race_setTime()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01278"></a><span class="lineno"> 1278</span>&#160;{</div>
 <div class="line"><a name="l01279"></a><span class="lineno"> 1279</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:recordset:&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(pl.playerid), <span class="stringliteral">&quot;:&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(dt)));</div>
 <div class="line"><a name="l01280"></a><span class="lineno"> 1280</span>&#160;</div>
@@ -5121,7 +5121,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/dc6/server_2miscfunctions_8qc.html">miscfunctions.qc</a></li>
-    <li class="footer">Generated on Sun Jul 16 2017 14:25:31 for Xonotic by
+    <li class="footer">Generated on Sun Jul 16 2017 16:08:09 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

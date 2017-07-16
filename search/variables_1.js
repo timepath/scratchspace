@@ -403,6 +403,8 @@ var searchData=
   ['autocvar_5fcl_5fparticles_5fquality',['autocvar_cl_particles_quality',['../d7/db4/client_2autocvars_8qh.html#ace44460156572a9e07bc2914a55641bd',1,'autocvars.qh']]],
   ['autocvar_5fcl_5fplayerdetailreduction',['autocvar_cl_playerdetailreduction',['../d7/db4/client_2autocvars_8qh.html#a9468afcdab2543f8c54d5fc8190603c2',1,'autocvars.qh']]],
   ['autocvar_5fcl_5fprojectiles_5fsloppy',['autocvar_cl_projectiles_sloppy',['../d7/db4/client_2autocvars_8qh.html#a3c9f8dbd6cef194cb719f959fac34f8a',1,'autocvars.qh']]],
+  ['autocvar_5fcl_5frace_5fcptimes_5fonlyself',['autocvar_cl_race_cptimes_onlyself',['../d7/db4/client_2autocvars_8qh.html#a27c39881e590417dfc3be68ddcaa6976',1,'autocvars.qh']]],
+  ['autocvar_5fcl_5frace_5fcptimes_5fshowself',['autocvar_cl_race_cptimes_showself',['../d7/db4/client_2autocvars_8qh.html#a7409604b303ecd97f71b48647a8fe86f',1,'autocvars.qh']]],
   ['autocvar_5fcl_5freadpicture_5fforce',['autocvar_cl_readpicture_force',['../d7/db4/client_2autocvars_8qh.html#a5d6ac8e97ba8b6e3e3642eea063d87dd',1,'autocvars.qh']]],
   ['autocvar_5fcl_5freticle',['autocvar_cl_reticle',['../d7/db4/client_2autocvars_8qh.html#aeeeadd22f2da073e3020aa69a474ea5b',1,'autocvars.qh']]],
   ['autocvar_5fcl_5freticle_5fnormal_5falpha',['autocvar_cl_reticle_normal_alpha',['../d7/db4/client_2autocvars_8qh.html#ab6c9a0903e0f0d3a7264bca6f92c0c2b',1,'autocvars.qh']]],

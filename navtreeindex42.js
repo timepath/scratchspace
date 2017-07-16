@@ -1,7 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"d4/da4/pointparticles_8qc.html":[2,0,1,13,0,26],
-"d4/da4/pointparticles_8qc_source.html":[2,0,1,13,0,26],
 "d4/da5/classXonoticBigCommandButton.html":[1,0,142],
 "d4/da5/classXonoticBigCommandButton.html#a09558581cc0090d8cdcfd1ec9411f74c":[1,0,142,50],
 "d4/da5/classXonoticBigCommandButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,142,74],
@@ -249,5 +247,7 @@ var NAVTREEINDEX42 =
 "d4/db8/bigbutton_8qh.html#abdf3953c0db4a6184bf90e59974e0f6a":[2,0,5,4,3,1],
 "d4/db8/bigbutton_8qh_source.html":[2,0,5,4,3],
 "d4/dba/lightningarc_8qh.html":[2,0,1,2,0,14],
-"d4/dba/lightningarc_8qh_source.html":[2,0,1,2,0,14]
+"d4/dba/lightningarc_8qh_source.html":[2,0,1,2,0,14],
+"d4/dba/walljump_8qh.html":[2,0,1,9,0,33,3],
+"d4/dba/walljump_8qh_source.html":[2,0,1,9,0,33,3]
 };

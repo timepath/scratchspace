@@ -36,7 +36,7 @@ var hud_8qh =
     [ "HUD_Radar_InputEvent", "d3/d05/hud_8qh.html#a1e7678d561cb466a1452074e19beff54", null ],
     [ "HUD_Radar_Mouse", "d3/d05/hud_8qh.html#a64d386e6f03ccf2feb8a7c766c3a7699", null ],
     [ "HUD_Reset", "d3/d05/hud_8qh.html#a2cb9eb667b5191a841d4fb82824b7cca", null ],
-    [ "MakeRaceString", "d3/d05/hud_8qh.html#acf3c4bd6bb979c6b7e14f32742cd71dd", null ],
+    [ "MakeRaceString", "d3/d05/hud_8qh.html#a437eba1452c50ca9eeb085d1036974b4", null ],
     [ "race_CheckName", "d3/d05/hud_8qh.html#a0160171124193a7ee2dd193882da4061", null ],
     [ "REGISTER_HUD_PANEL", "d3/d05/hud_8qh.html#a80400626eec08f591ef8ef3d10527851", null ],
     [ "REGISTER_HUD_PANEL", "d3/d05/hud_8qh.html#a711440b54ea916e04bba98d3af55afa0", null ],

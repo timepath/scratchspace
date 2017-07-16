@@ -101,6 +101,8 @@ var client_2autocvars_8qh =
     [ "autocvar_cl_particles_quality", "d7/db4/client_2autocvars_8qh.html#ace44460156572a9e07bc2914a55641bd", null ],
     [ "autocvar_cl_playerdetailreduction", "d7/db4/client_2autocvars_8qh.html#a9468afcdab2543f8c54d5fc8190603c2", null ],
     [ "autocvar_cl_projectiles_sloppy", "d7/db4/client_2autocvars_8qh.html#a3c9f8dbd6cef194cb719f959fac34f8a", null ],
+    [ "autocvar_cl_race_cptimes_onlyself", "d7/db4/client_2autocvars_8qh.html#a27c39881e590417dfc3be68ddcaa6976", null ],
+    [ "autocvar_cl_race_cptimes_showself", "d7/db4/client_2autocvars_8qh.html#a7409604b303ecd97f71b48647a8fe86f", null ],
     [ "autocvar_cl_readpicture_force", "d7/db4/client_2autocvars_8qh.html#a5d6ac8e97ba8b6e3e3642eea063d87dd", null ],
     [ "autocvar_cl_reticle", "d7/db4/client_2autocvars_8qh.html#aeeeadd22f2da073e3020aa69a474ea5b", null ],
     [ "autocvar_cl_reticle_normal_alpha", "d7/db4/client_2autocvars_8qh.html#ab6c9a0903e0f0d3a7264bca6f92c0c2b", null ],

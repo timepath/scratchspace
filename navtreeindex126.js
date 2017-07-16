@@ -1,5 +1,7 @@
 var NAVTREEINDEX126 =
 {
+"de/dd6/playermodel_8qc.html#a84bbfd34e5ac0920c683d38b8ff6c2e9":[2,0,5,4,188,8],
+"de/dd6/playermodel_8qc.html#a8834ddb5c6c415a10c4119809fc6e9ed":[2,0,5,4,188,9],
 "de/dd6/playermodel_8qc.html#a8bc90edd4d925169e381caf6739e9e49":[2,0,5,4,188,11],
 "de/dd6/playermodel_8qc.html#a8c043bef02f2b2f211a625339052d8fa":[2,0,5,4,188,6],
 "de/dd6/playermodel_8qc.html#a8df5d13f26ffe0d5c7217429601280fe":[2,0,5,4,188,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX126 =
 "df/d17/cvars_8qc_source.html":[2,0,6,0,0,7],
 "df/d18/checkpoint_8qc.html":[2,0,1,14,7],
 "df/d18/checkpoint_8qc.html#a1ce0be545d433dbeb6b5a2437701bd83":[2,0,1,14,7,1],
-"df/d18/checkpoint_8qc.html#a4a455a6158f7e74eb2d4a4e30e831818":[2,0,1,14,7,3],
-"df/d18/checkpoint_8qc.html#a9dc1f51d314787351f62b8143e93a547":[2,0,1,14,7,0],
-"df/d18/checkpoint_8qc.html#aa879299cb4ab99983269eec00ffc6927":[2,0,1,14,7,2]
+"df/d18/checkpoint_8qc.html#a4a455a6158f7e74eb2d4a4e30e831818":[2,0,1,14,7,3]
 };
