@@ -1,5 +1,8 @@
 var NAVTREEINDEX23 =
 {
+"d3/d07/scoreboard_8qc.html#a688eb9831da6cf8bd965645e3d417943":[2,0,0,1,0,34,15],
+"d3/d07/scoreboard_8qc.html#a6c99617f8d4adb4cd0de989583f36d2e":[2,0,0,1,0,34,50],
+"d3/d07/scoreboard_8qc.html#a7126ad7799dfc104042c7ec8baef7e04":[2,0,0,1,0,34,52],
 "d3/d07/scoreboard_8qc.html#a7375d6776cc772c7aa6a43c7f66ea3d5":[2,0,0,1,0,34,2],
 "d3/d07/scoreboard_8qc.html#a7396887b795263e2550e0336c507d697":[2,0,0,1,0,34,7],
 "d3/d07/scoreboard_8qc.html#a73affb2b24587c75ea2d77bf56abea5e":[2,0,0,1,0,34,39],
@@ -246,8 +249,5 @@ var NAVTREEINDEX23 =
 "d3/d2e/campaign__file_8qh.html":[2,0,1,26],
 "d3/d2e/campaign__file_8qh_source.html":[2,0,1,26],
 "d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc.html":[2,0,1,9,0,28,0],
-"d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc_source.html":[2,0,1,9,0,28,0],
-"d3/d2e/languagelist_8qc.html":[2,0,5,4,174],
-"d3/d2e/languagelist_8qc.html#a084f88a32f5ba9c0c7fea824b3e33b04":[2,0,5,4,174,6],
-"d3/d2e/languagelist_8qc.html#a1c488afed1c6db318c2cbe5da89d3e4a":[2,0,5,4,174,18]
+"d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc_source.html":[2,0,1,9,0,28,0]
 };

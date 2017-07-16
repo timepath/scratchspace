@@ -44,6 +44,7 @@ var classObserver =
     [ "idlekick_lasttimeleft", "de/dab/classObserver.html#a46a7bc40105ac38ab40131987e7f34cb", null ],
     [ "impulse", "de/dab/classObserver.html#a8512a66a1265b5504594df509bd2aedc", null ],
     [ "jointime", "de/dab/classObserver.html#a06a738c4cb9a23813f16775a5877dd12", null ],
+    [ "just_joined", "de/dab/classObserver.html#a191231a070ddb9890525e44cb7bc1a83", null ],
     [ "killcount", "de/dab/classObserver.html#afd3da46f8613f02a2a7f1f2f0bcd2f07", null ],
     [ "killindicator_teamchange", "de/dab/classObserver.html#a4a6721351757c8353d232edd370c35e4", null ],
     [ "motd_actived_time", "de/dab/classObserver.html#a149e59d2293d8bdb8aaedd213444c005", null ],

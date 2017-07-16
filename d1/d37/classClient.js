@@ -45,6 +45,7 @@ var classClient =
     [ "idlekick_lasttimeleft", "d1/d37/classClient.html#a46a7bc40105ac38ab40131987e7f34cb", null ],
     [ "impulse", "d1/d37/classClient.html#a8512a66a1265b5504594df509bd2aedc", null ],
     [ "jointime", "d1/d37/classClient.html#a06a738c4cb9a23813f16775a5877dd12", null ],
+    [ "just_joined", "d1/d37/classClient.html#a191231a070ddb9890525e44cb7bc1a83", null ],
     [ "killcount", "d1/d37/classClient.html#afd3da46f8613f02a2a7f1f2f0bcd2f07", null ],
     [ "killindicator_teamchange", "d1/d37/classClient.html#a4a6721351757c8353d232edd370c35e4", null ],
     [ "motd_actived_time", "d1/d37/classClient.html#a149e59d2293d8bdb8aaedd213444c005", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"d1/dd1/classFireball.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,36,22],
+"d1/dd1/classFireball.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,36,17],
 "d1/dd1/classFireball.html#af6941bfadd7f32ced9be9b65094f2925":[1,0,36,26],
 "d1/dd1/classSettingSource.html":[1,0,112],
 "d1/dd1/classSettingSource.html#a6113433aefe29a4e9977321048a26e18":[1,0,112,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "d2/d06/server_2command_2common_8qh.html#afff16d75dc358b9f81513350d82d92f3":[2,0,6,1,7,39],
 "d2/d06/server_2command_2common_8qh_source.html":[2,0,6,1,7],
 "d2/d08/sv__spawn__near__teammate_8qc.html":[2,0,1,9,0,28,2],
-"d2/d08/sv__spawn__near__teammate_8qc.html#a00aa4b1105a76a213f02d0366e8c6f26":[2,0,1,9,0,28,2,6],
-"d2/d08/sv__spawn__near__teammate_8qc.html#a09fc68c844414a4f23b4e12046074054":[2,0,1,9,0,28,2,3],
-"d2/d08/sv__spawn__near__teammate_8qc.html#a0a5a14342df96c4e35f901d19de663d2":[2,0,1,9,0,28,2,4]
+"d2/d08/sv__spawn__near__teammate_8qc.html#a00aa4b1105a76a213f02d0366e8c6f26":[2,0,1,9,0,28,2,6]
 };

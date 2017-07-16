@@ -1,5 +1,8 @@
 var NAVTREEINDEX104 =
 {
+"db/deb/roles_8qc.html#a6456f6b6523f83904a00a909d0a87236":[2,0,6,0,0,0,4,3],
+"db/deb/roles_8qc.html#ab1af65619c621606e2636b8a2fbbd18d":[2,0,6,0,0,0,4,2],
+"db/deb/roles_8qc.html#abfcd73ce6fd8da8e5ae1e3086f0763c8":[2,0,6,0,0,0,4,8],
 "db/deb/roles_8qc.html#acab64c2fe38b303fbe8907423b34fc04":[2,0,6,0,0,0,4,7],
 "db/deb/roles_8qc_source.html":[2,0,6,0,0,0,4],
 "db/dee/projectiles_8qh.html":[2,0,1,16,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX104 =
 "dc/d06/classDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,27,68],
 "dc/d06/classDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,27,67],
 "dc/d06/classDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,27,7],
-"dc/d06/classDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,27,69],
-"dc/d06/classDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,27,4],
-"dc/d06/classDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,27,43],
-"dc/d06/classDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,27,21]
+"dc/d06/classDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,27,69]
 };

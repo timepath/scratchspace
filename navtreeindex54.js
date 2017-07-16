@@ -1,5 +1,8 @@
 var NAVTREEINDEX54 =
 {
+"d6/d57/triggers_8qc_source.html":[2,0,1,13,14],
+"d6/d57/walljump_8qc.html":[2,0,1,9,0,33,2],
+"d6/d57/walljump_8qc_source.html":[2,0,1,9,0,33,2],
 "d6/d57/weaponstats_8qc.html":[2,0,6,5,18],
 "d6/d57/weaponstats_8qc.html#a456ded6f061320557b90765d8d34c0f3":[2,0,6,5,18,4],
 "d6/d57/weaponstats_8qc.html#a658592c9d038c8940b9d17f4330cf72d":[2,0,6,5,18,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,167,63],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,167,92],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,167,13],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,167,69],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,167,31],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,167,5],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,167,19]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,167,69]
 };

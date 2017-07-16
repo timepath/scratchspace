@@ -1,5 +1,8 @@
 var NAVTREEINDEX48 =
 {
+"d5/d7e/classPlayerState.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,97,3],
+"d5/d7f/cl__buffs_8qh.html":[2,0,1,9,0,2,6],
+"d5/d7f/cl__buffs_8qh_source.html":[2,0,1,9,0,2,6],
 "d5/d81/crylink_8qh.html":[2,0,1,16,0,7],
 "d5/d81/crylink_8qh_source.html":[2,0,1,16,0,7],
 "d5/d83/client_2hud_2panel_2physics_8qc.html":[2,0,0,1,0,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX48 =
 "d5/da6/sv__dodging_8qc.html#a63458a289cdb574d0922ac57742d44ad":[2,0,1,9,0,7,2,13],
 "d5/da6/sv__dodging_8qc.html#a68789133941ba78a7891d6faf52979cf":[2,0,1,9,0,7,2,4],
 "d5/da6/sv__dodging_8qc.html#a79edf5f003df23f60263bd1b88e25e09":[2,0,1,9,0,7,2,16],
-"d5/da6/sv__dodging_8qc.html#a7a5591bcc29df847888fdf8eff822005":[2,0,1,9,0,7,2,6],
-"d5/da6/sv__dodging_8qc.html#a7b00a6266d8df52d6f887ee69c84634e":[2,0,1,9,0,7,2,0],
-"d5/da6/sv__dodging_8qc.html#a87c2be63ff8d9c9861c3a71bd1808016":[2,0,1,9,0,7,2,8],
-"d5/da6/sv__dodging_8qc.html#a888a6ab027178c6ce10deb1475d5d5b1":[2,0,1,9,0,7,2,25]
+"d5/da6/sv__dodging_8qc.html#a7a5591bcc29df847888fdf8eff822005":[2,0,1,9,0,7,2,6]
 };

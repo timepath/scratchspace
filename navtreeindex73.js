@@ -1,5 +1,8 @@
 var NAVTREEINDEX73 =
 {
+"d8/d39/havocbot_8qh.html#a6c9cf6cc9e0cee3a044be67c65c74bb8":[2,0,6,0,0,0,3,20],
+"d8/d39/havocbot_8qh.html#a7a99b2aba3c814bec0fdc20512734fe4":[2,0,6,0,0,0,3,30],
+"d8/d39/havocbot_8qh.html#a86175c50be27e03f2f0ed6cef0d4c89f":[2,0,6,0,0,0,3,16],
 "d8/d39/havocbot_8qh.html#a89a8ce33ea9c558226ae97e322fc4f1f":[2,0,6,0,0,0,3,19],
 "d8/d39/havocbot_8qh.html#a8ed5fd4e5d6f286c17a895c7d269c607":[2,0,6,0,0,0,3,6],
 "d8/d39/havocbot_8qh.html#aa60a516fc0a4e7635ac3ac1a854b9266":[2,0,6,0,0,0,3,34],
@@ -105,10 +108,10 @@ var NAVTREEINDEX73 =
 "d8/d79/notifications_2all_8qc.html#a3928a6ac0250db86d0e96cae9f44b7f4":[2,0,1,10,3,41],
 "d8/d79/notifications_2all_8qc.html#a3ccd497f947ede2917e49908cf39a161":[2,0,1,10,3,30],
 "d8/d79/notifications_2all_8qc.html#a4533800e729b98bacf130e45337d6e50":[2,0,1,10,3,43],
+"d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,10,3,5],
 "d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,10,3,6],
 "d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,10,3,7],
 "d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,10,3,8],
-"d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,10,3,5],
 "d8/d79/notifications_2all_8qc.html#a682b66e5aae4a02b19ba825760896610":[2,0,1,10,3,37],
 "d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,10,3,21],
 "d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,10,3,22],
@@ -116,10 +119,10 @@ var NAVTREEINDEX73 =
 "d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,10,3,24],
 "d8/d79/notifications_2all_8qc.html#a97e96901a663794a2eee1391bcad5dae":[2,0,1,10,3,33],
 "d8/d79/notifications_2all_8qc.html#a9a202f02c680cd96b64832efe697ddb8":[2,0,1,10,3,46],
-"d8/d79/notifications_2all_8qc.html#a9aaa4861d131be9bdf63207e30d31cb1":[2,0,1,10,3,9],
 "d8/d79/notifications_2all_8qc.html#a9aaa4861d131be9bdf63207e30d31cb1":[2,0,1,10,3,10],
 "d8/d79/notifications_2all_8qc.html#a9aaa4861d131be9bdf63207e30d31cb1":[2,0,1,10,3,11],
 "d8/d79/notifications_2all_8qc.html#a9aaa4861d131be9bdf63207e30d31cb1":[2,0,1,10,3,12],
+"d8/d79/notifications_2all_8qc.html#a9aaa4861d131be9bdf63207e30d31cb1":[2,0,1,10,3,9],
 "d8/d79/notifications_2all_8qc.html#aa886bea32ed1621e2429a04a1411b5ea":[2,0,1,10,3,35],
 "d8/d79/notifications_2all_8qc.html#ab191ea2d6864d62cf12f82140b351f66":[2,0,1,10,3,45],
 "d8/d79/notifications_2all_8qc.html#ab2ba4995bd0ca717f5a1612dcea04e08":[2,0,1,10,3,40],
@@ -130,8 +133,8 @@ var NAVTREEINDEX73 =
 "d8/d79/notifications_2all_8qc.html#ac9ddb1a1613d2392182669496dbe68cd":[2,0,1,10,3,13],
 "d8/d79/notifications_2all_8qc.html#acc65c0cb783909b47eb8c4aa39dcc3f4":[2,0,1,10,3,44],
 "d8/d79/notifications_2all_8qc.html#ad02f8d427504ef14b91645e337035578":[2,0,1,10,3,32],
-"d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,18],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,19],
+"d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,18],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,20],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,17],
 "d8/d79/notifications_2all_8qc.html#adccbc5e955002f3e2d26f36496349f2f":[2,0,1,10,3,29],
@@ -246,8 +249,5 @@ var NAVTREEINDEX73 =
 "d8/d8a/classXonoticDamageTextSettings.html#ad289b003285ba9d4964164e276700e14":[1,0,158,53],
 "d8/d8a/classXonoticDamageTextSettings.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,158,79],
 "d8/d8a/classXonoticDamageTextSettings.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,158,36],
-"d8/d8a/classXonoticDamageTextSettings.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,158,65],
-"d8/d8a/classXonoticDamageTextSettings.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,158,94],
-"d8/d8a/classXonoticDamageTextSettings.html#aeb1120867e47925e7c6ae5bd63bc0fbd":[1,0,158,86],
-"d8/d8a/classXonoticDamageTextSettings.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,158,14]
+"d8/d8a/classXonoticDamageTextSettings.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,158,65]
 };
