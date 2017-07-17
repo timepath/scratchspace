@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"d3/d86/classXonoticMapList.html#aa39fcfa9e2e3bdfcc0ad72decfdc938f":[1,0,205,60],
 "d3/d86/classXonoticMapList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,205,48],
 "d3/d86/classXonoticMapList.html#aa75f5f2c965d9961772c2c789a57c857":[1,0,205,32],
 "d3/d86/classXonoticMapList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,205,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d3/db2/hellion__weapon_8qc.html":[2,0,1,14,0,14],
 "d3/db2/hellion__weapon_8qc_source.html":[2,0,1,14,0,14],
 "d3/db6/projectile_8qc.html":[2,0,0,3,2],
-"d3/db6/projectile_8qc.html#a0425d4c4b6b30c19a7f206ec3b83406b":[2,0,0,3,2,5],
-"d3/db6/projectile_8qc.html#a07d63755334d8ccb23787ee7001d16d1":[2,0,0,3,2,6]
+"d3/db6/projectile_8qc.html#a0425d4c4b6b30c19a7f206ec3b83406b":[2,0,0,3,2,5]
 };

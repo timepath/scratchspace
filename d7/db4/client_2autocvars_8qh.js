@@ -193,7 +193,6 @@ var client_2autocvars_8qh =
     [ "autocvar_developer_csqcentities", "d7/db4/client_2autocvars_8qh.html#a1308ede3375f6db0058360f8133fa27e", null ],
     [ "autocvar_ekg", "d7/db4/client_2autocvars_8qh.html#ac6ce93e67a20b4848e89230aca3acaf9", null ],
     [ "autocvar_fov", "d7/db4/client_2autocvars_8qh.html#adb22eab503c5f59c25e7582afb477b4b", null ],
-    [ "autocvar_g_balance_damagepush_speedfactor", "d7/db4/client_2autocvars_8qh.html#ad4c54fe7c7268e8dde54369fd7b20cbc", null ],
     [ "autocvar_g_jetpack_attenuation", "d7/db4/client_2autocvars_8qh.html#a28a02af9d20a1dcac6eac23bb9dfe6ef", null ],
     [ "autocvar_hud_colorflash_alpha", "d7/db4/client_2autocvars_8qh.html#a4a5bfd1b4c4ed1e8ce048c068104e504", null ],
     [ "autocvar_hud_configure_checkcollisions", "d7/db4/client_2autocvars_8qh.html#a9e44e36e2d0e379a74a63c65f0ff3679", null ],

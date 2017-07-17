@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d1/dad/server_2command_2vote_8qc.html#a0ffe66234199daba7a270801c56143ab":[2,0,6,1,16,26],
 "d1/dad/server_2command_2vote_8qc.html#a11f792d86f16e821bb9f127715f2234e":[2,0,6,1,16,11],
 "d1/dad/server_2command_2vote_8qc.html#a1a3204fe576b589231b2621d70d8eeee":[2,0,6,1,16,23],
 "d1/dad/server_2command_2vote_8qc.html#a201e32958bf8893bdfb027a7d62755b6":[2,0,6,1,16,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "d1/dd1/classFireball.html#aadf51e7fb4ada8bff51507cc383495e9":[1,0,36,34],
 "d1/dd1/classFireball.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,36,5],
 "d1/dd1/classFireball.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,36,10],
-"d1/dd1/classFireball.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,36,36],
-"d1/dd1/classFireball.html#ac4b2b4b4ad590844a6dd17e0bf33c58f":[1,0,36,29]
+"d1/dd1/classFireball.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,36,36]
 };

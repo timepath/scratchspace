@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"d1/dd1/classFireball.html#ac4b2b4b4ad590844a6dd17e0bf33c58f":[1,0,36,29],
 "d1/dd1/classFireball.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,36,7],
 "d1/dd1/classFireball.html#ac7174b509e6b9e5597f8f4b56589f2bb":[1,0,36,33],
 "d1/dd1/classFireball.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,36,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "d2/d06/server_2command_2common_8qh.html#aedf91dab889fba563d3808503f2f9144":[2,0,6,1,7,55],
 "d2/d06/server_2command_2common_8qh.html#aeeadfac7208672d563e45d629e536edd":[2,0,6,1,7,16],
 "d2/d06/server_2command_2common_8qh.html#af71d543d1fff0bc7f3c000323318f499":[2,0,6,1,7,27],
-"d2/d06/server_2command_2common_8qh.html#af86ebd442e5bd6b2d6b51ce1276847b6":[2,0,6,1,7,36],
-"d2/d06/server_2command_2common_8qh.html#af89e91d25e1930737140b82c808de86f":[2,0,6,1,7,46]
+"d2/d06/server_2command_2common_8qh.html#af86ebd442e5bd6b2d6b51ce1276847b6":[2,0,6,1,7,36]
 };

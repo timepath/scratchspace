@@ -19,6 +19,7 @@ var searchData=
   ['damageeffects_2eqh',['damageeffects.qh',['../d3/de9/damageeffects_8qh.html',1,'']]],
   ['damageextraradius',['damageextraradius',['../d9/d08/client_2defs_8qh.html#a1b25d8e95136b5a09a597e62b3d1bc4c',1,'damageextraradius():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a1b25d8e95136b5a09a597e62b3d1bc4c',1,'damageextraradius():&#160;defs.qh']]],
   ['damageforcescale',['damageforcescale',['../d9/d08/client_2defs_8qh.html#a625a66e92b24850b15f246b42891aa55',1,'damageforcescale():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a625a66e92b24850b15f246b42891aa55',1,'damageforcescale():&#160;defs.qh']]],
+  ['damagepush_5fspeedfactor',['damagepush_speedfactor',['../d0/d2a/client_2main_8qh.html#aa6e5d391dddc7112c0b88678e72113fa',1,'main.qh']]],
   ['damagetext',['DamageText',['../de/d0c/classDamageText.html',1,'DamageText'],['../de/d0c/classDamageText.html#a051ef622598636a594c91c29d445d19c',1,'DamageText::DamageText()']]],
   ['damagetext_2eqc',['damagetext.qc',['../d0/da4/damagetext_8qc.html',1,'']]],
   ['damagetext_2eqh',['damagetext.qh',['../dd/d79/damagetext_8qh.html',1,'']]],

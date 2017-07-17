@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"d2/d06/server_2command_2common_8qh.html#af89e91d25e1930737140b82c808de86f":[2,0,6,1,7,46],
 "d2/d06/server_2command_2common_8qh.html#afff16d75dc358b9f81513350d82d92f3":[2,0,6,1,7,39],
 "d2/d06/server_2command_2common_8qh_source.html":[2,0,6,1,7],
 "d2/d08/sv__spawn__near__teammate_8qc.html":[2,0,1,9,0,28,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "d2/d25/classXonoticDemoStartConfirmDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,162,2],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,162,37],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,162,41],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,162,85],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,162,8]
+"d2/d25/classXonoticDemoStartConfirmDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,162,85]
 };

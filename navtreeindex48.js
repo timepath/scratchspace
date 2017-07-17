@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"d5/d7e/classPlayerState.html":[1,0,97],
 "d5/d7e/classPlayerState.html#a5fadffeaa93ffd329ba28f60f0ae9f88":[1,0,97,0],
 "d5/d7e/classPlayerState.html#a5fb8ef3d2f5967f5aab906d7095a82e2":[1,0,97,1],
 "d5/d7e/classPlayerState.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,97,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "d5/da6/sv__dodging_8qc.html#a4436947df1dbac138d6c61491ab804be":[2,0,1,9,0,7,2,7],
 "d5/da6/sv__dodging_8qc.html#a51caaa15fb6f8d0b46b8764fc815abcd":[2,0,1,9,0,7,2,1],
 "d5/da6/sv__dodging_8qc.html#a562a0a1ec571bdaeecfb44158b76f3c8":[2,0,1,9,0,7,2,12],
-"d5/da6/sv__dodging_8qc.html#a62ee826ed38b4d8199deced643ee6dfa":[2,0,1,9,0,7,2,28],
-"d5/da6/sv__dodging_8qc.html#a63458a289cdb574d0922ac57742d44ad":[2,0,1,9,0,7,2,13]
+"d5/da6/sv__dodging_8qc.html#a62ee826ed38b4d8199deced643ee6dfa":[2,0,1,9,0,7,2,28]
 };

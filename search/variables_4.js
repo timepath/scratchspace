@@ -13,6 +13,7 @@ var searchData=
   ['damagedbytriggers',['damagedbytriggers',['../d5/d26/server_2defs_8qh.html#a564b23de0593448931b38b33db73634d',1,'defs.qh']]],
   ['damageextraradius',['damageextraradius',['../d9/d08/client_2defs_8qh.html#a1b25d8e95136b5a09a597e62b3d1bc4c',1,'damageextraradius():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a1b25d8e95136b5a09a597e62b3d1bc4c',1,'damageextraradius():&#160;defs.qh']]],
   ['damageforcescale',['damageforcescale',['../d9/d08/client_2defs_8qh.html#a625a66e92b24850b15f246b42891aa55',1,'damageforcescale():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a625a66e92b24850b15f246b42891aa55',1,'damageforcescale():&#160;defs.qh']]],
+  ['damagepush_5fspeedfactor',['damagepush_speedfactor',['../d0/d2a/client_2main_8qh.html#aa6e5d391dddc7112c0b88678e72113fa',1,'main.qh']]],
   ['db_5fbuckets',['DB_BUCKETS',['../d4/d54/map_8qh.html#a86b85b0f5f2ae1b4d98314c75f14e1de',1,'map.qh']]],
   ['dead_5fdead',['DEAD_DEAD',['../d6/d11/progsdefs_8qc.html#aedce2a79ca34e5744b2dd2899dc54aae',1,'progsdefs.qc']]],
   ['dead_5fdying',['DEAD_DYING',['../d6/d11/progsdefs_8qc.html#a146bab87de0e719cb3fb75232473068e',1,'progsdefs.qc']]],

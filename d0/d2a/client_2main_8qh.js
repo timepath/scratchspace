@@ -29,6 +29,7 @@ var client_2main_8qh =
     [ "cs_project_is_b0rked", "d0/d2a/client_2main_8qh.html#a9bf998d3365e2fabc85dbfd15270f20f", null ],
     [ "current_viewzoom", "d0/d2a/client_2main_8qh.html#a1447fc57992a33af6be30d0f1be2e8e6", null ],
     [ "current_zoomfraction", "d0/d2a/client_2main_8qh.html#af4992bb89ec3b089ce9e46f990866e13", null ],
+    [ "damagepush_speedfactor", "d0/d2a/client_2main_8qh.html#aa6e5d391dddc7112c0b88678e72113fa", null ],
     [ "drawframetime", "d0/d2a/client_2main_8qh.html#a82f168e1cc931d9ba75af4c2b070dc5d", null ],
     [ "eliminated", "d0/d2a/client_2main_8qh.html#af1c82693a993959407be1d9dd0612f5a", null ],
     [ "FONT_USER", "d0/d2a/client_2main_8qh.html#a0c77ed3b918feb8c93675293f630d63b", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"d2/d25/classXonoticDemoStartConfirmDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,162,8],
 "d2/d25/vehicles_8qc.html":[2,0,1,15,12],
 "d2/d25/vehicles_8qc_source.html":[2,0,1,15,12],
 "d2/d26/classInvasion.html":[1,0,56],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "d2/d4b/classPlayer.html#a0eb03d66010d1cfd159c1a2cf169f172":[1,0,96,71],
 "d2/d4b/classPlayer.html#a0ec30d25549a7a527f8b5ee0d04030c3":[1,0,96,21],
 "d2/d4b/classPlayer.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b":[1,0,96,60],
-"d2/d4b/classPlayer.html#a149e59d2293d8bdb8aaedd213444c005":[1,0,96,49],
-"d2/d4b/classPlayer.html#a1658664bbee76e6ab46e1337b1829c7e":[1,0,96,20]
+"d2/d4b/classPlayer.html#a149e59d2293d8bdb8aaedd213444c005":[1,0,96,49]
 };

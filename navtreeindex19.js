@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"d2/dac/sv__buffs_8qc.html#a8a4a5cd8a94e69dcd4a753bb7eece163":[2,0,1,9,0,2,7,0],
 "d2/dac/sv__buffs_8qc.html#a8aa906fa1d52a4d7cd6cb4203315dc7f":[2,0,1,9,0,2,7,43],
 "d2/dac/sv__buffs_8qc.html#a8c9b521904c227068c9caf89201bb300":[2,0,1,9,0,2,7,30],
 "d2/dac/sv__buffs_8qc.html#a8cfd2fa0bf92d9ac8af75178b55c6ec7":[2,0,1,9,0,2,7,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "d2/dc3/menu_2item_2button_8qc.html#aaa50089ebdde82645e100e69d438de8b":[2,0,5,2,4,6],
 "d2/dc3/menu_2item_2button_8qc.html#aad8a5f6e981257d1408bd0dab913f701":[2,0,5,2,4,9],
 "d2/dc3/menu_2item_2button_8qc.html#ad7dc81a3d5526c217fa59ecd05a3609e":[2,0,5,2,4,8],
-"d2/dc3/menu_2item_2button_8qc_source.html":[2,0,5,2,4],
-"d2/dc3/vaporizer_8qh.html":[2,0,1,16,0,39]
+"d2/dc3/menu_2item_2button_8qc_source.html":[2,0,5,2,4]
 };
