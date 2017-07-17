@@ -96,7 +96,7 @@ var NAVTREEINDEX =
 "d7/da7/server_2autocvars_8qh.html#a3f308d8962ec38aa20908b6a8d62496e",
 "d7/da7/server_2autocvars_8qh.html#abdc5173a83c509ba99298737802d355d",
 "d7/dac/menu_2mutators_2events_8qh.html#a6f2ca5fc85e299efa5ca946bd457c33b",
-"d7/db4/client_2autocvars_8qh.html#a7334ef3466bb6d60c25669d627e516d7",
+"d7/db4/client_2autocvars_8qh.html#a73e3b18cbd312b7b916ad5f2f923b6c5",
 "d7/dc4/waypoints_8qc.html",
 "d7/de6/classXonoticSkinList.html#a83868d33860b10fc35033a3f584b16bf",
 "d8/d0e/client_2mutators_2events_8qh.html#a14aea93f5215e6de880c6cccbd9533d8",
