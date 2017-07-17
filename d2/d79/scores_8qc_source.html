@@ -369,7 +369,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(ForbidPlayerScore_Clear)) <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    sk = player.scorekeeper;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    sk = <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(player).scorekeeper;</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Scores, <span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keywordflow">if</span>(sk.(scores(it)) != 0)</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557">scores_label</a>(it) != <span class="stringliteral">&quot;&quot;</span>)</div>
@@ -386,7 +386,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> sk;</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordtype">float</span> t;</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#adf328897d1616cff8023e9639f6e68ec">FOREACH_CLIENTSLOT</a>(<span class="keyword">true</span>, {</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        sk = it.scorekeeper;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        sk = <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it).scorekeeper;</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="keywordflow">if</span> (!sk) <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Scores, <span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;            <span class="keywordflow">if</span>(sk.(scores(it)) != 0)</div>
@@ -413,20 +413,20 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
 <div class="line"><a name="l00307"></a><span class="lineno"><a class="line" href="../../d5/dac/server_2scores_8qh.html#aa5ca3a39735c2fd63ad4d8355b945ebd">  307</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d79/scores_8qc.html#aa5ca3a39735c2fd63ad4d8355b945ebd">PlayerScore_Attach</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player)</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;{</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keywordflow">if</span>(player.scorekeeper)</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(player).<a class="code" href="../../d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83">scorekeeper</a>)</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;player already has a scorekeeper&quot;</span>);</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> sk = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(<a class="code" href="../../d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83">scorekeeper</a>);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> sk = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(scorekeeper);</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    sk.owner = player;</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    Net_LinkEntity(sk, <span class="keyword">false</span>, 0, <a class="code" href="../../d2/d79/scores_8qc.html#ab5bc7141fb8354e589cccc6fefb03432">PlayerScore_SendEntity</a>);</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    player.scorekeeper = sk;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(player).scorekeeper = sk;</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;}</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;</div>
 <div class="line"><a name="l00317"></a><span class="lineno"><a class="line" href="../../d5/dac/server_2scores_8qh.html#a0e01d4df2b9d101fe63bb6295ce44112">  317</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d79/scores_8qc.html#a0e01d4df2b9d101fe63bb6295ce44112">PlayerScore_Detach</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player)</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;{</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <span class="keywordflow">if</span>(!player.scorekeeper)</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(player).<a class="code" href="../../d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83">scorekeeper</a>)</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;player has no scorekeeper&quot;</span>);</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="keyword">delete</span>(player.scorekeeper);</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    player.scorekeeper = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="keyword">delete</span>(<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(player).scorekeeper);</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(player).scorekeeper = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;}</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
 <div class="line"><a name="l00325"></a><span class="lineno"><a class="line" href="../../d5/dac/server_2scores_8qh.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">  325</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player, <a class="code" href="../../da/dc3/common_2scores_8qh.html#a4c294a172143568571dc9cf169b82314">PlayerScoreField</a> scorefield, <span class="keywordtype">float</span> score)</div>
@@ -439,7 +439,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        score = 0;</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d5/dac/server_2scores_8qh.html#a4d43b789941743d9edb8105089a187b5">scores_initialized</a>) <span class="keywordflow">return</span> 0; <span class="comment">// FIXME remove this when everything uses this system</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> s = player.scorekeeper;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> s = <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(player).scorekeeper;</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <span class="keywordflow">if</span>(!s)</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    {</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        <span class="keywordflow">if</span>(game_stopped)</div>
@@ -562,7 +562,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        winnerscorekeeper = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        secondscorekeeper = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;            sk = it.scorekeeper;</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;            sk = <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it).<a class="code" href="../../d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83">scorekeeper</a>;</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;            c = <a class="code" href="../../d2/d79/scores_8qc.html#a5441e464e74d40fc0584e956f68c2c12">PlayerScore_Compare</a>(winnerscorekeeper, sk, 1);</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;            <span class="keywordflow">if</span>(c &lt; 0)</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;            {</div>
@@ -696,7 +696,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;        });</div>
 <div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;        out = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(out, 0, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(out) - 1);</div>
 <div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;    }</div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>((sk = pl.scorekeeper))</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>((sk = <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).<a class="code" href="../../d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83">scorekeeper</a>))</div>
 <div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;    {</div>
 <div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Scores, <span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;            <span class="keywordflow">if</span> ((<a class="code" href="../../da/dc3/common_2scores_8qh.html#a9f265a37d91891818cc123502adb5676">scores_flags</a>(it) &amp; <a class="code" href="../../da/dc3/common_2scores_8qh.html#ac3b2decb32b7a967469fcba5963a3e53">SFL_SORT_PRIO_MASK</a>) == <a class="code" href="../../da/dc3/common_2scores_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>)</div>
@@ -791,7 +791,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;            <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    }</div>
 <div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d79/scores_8qc.html#a5441e464e74d40fc0584e956f68c2c12">PlayerScore_Compare</a>(p1.scorekeeper, p2.scorekeeper, strict);</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d79/scores_8qc.html#a5441e464e74d40fc0584e956f68c2c12">PlayerScore_Compare</a>(<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(p1).<a class="code" href="../../d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83">scorekeeper</a>, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(p2).scorekeeper, strict);</div>
 <div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;}</div>
 <div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;</div>
 <div class="line"><a name="l00690"></a><span class="lineno"><a class="line" href="../../d5/dac/server_2scores_8qh.html#ae62eb8bcfc2596312a8b44c3aabdef19">  690</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d2/d79/scores_8qc.html#ae62eb8bcfc2596312a8b44c3aabdef19">PlayerScore_Sort</a>(.<span class="keywordtype">float</span> field, <span class="keywordtype">float</span> <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a>, <span class="keywordtype">float</span> strict, <span class="keywordtype">float</span> nospectators)</div>
@@ -803,7 +803,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;</div>
 <div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(it.(field) = 0));</div>
 <div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(it.scorekeeper,</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it).<a class="code" href="../../d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83">scorekeeper</a>,</div>
 <div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;    {</div>
 <div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;        <span class="keywordflow">if</span>(nospectators)</div>
 <div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;            <span class="keywordflow">if</span>(it.frags == <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae0ab871c8cc78d5f023578c0969de0fe">FRAGS_SPECTATOR</a>)</div>
@@ -821,9 +821,9 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;    {</div>
 <div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;        pprev = pbestprev = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;        pbest = plist;</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;        <span class="keywordflow">for</span>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a> = plist; (pprev = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>), (<a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a> = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.chain); )</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;        <span class="keywordflow">for</span>(p = plist; (pprev = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>), (p = p.chain); )</div>
 <div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        {</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d2/d79/scores_8qc.html#ae4fe65e7dbeb8050e420d6dfbbee1d5a">PlayerTeamScore_Compare</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>, pbest, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a>, strict) &gt; 0)</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d2/d79/scores_8qc.html#ae4fe65e7dbeb8050e420d6dfbbee1d5a">PlayerTeamScore_Compare</a>(p, pbest, teams, strict) &gt; 0)</div>
 <div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;            {</div>
 <div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;                pbest = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
 <div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;                pbestprev = pprev;</div>
@@ -838,7 +838,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;        pbest.chain = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;</div>
 <div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;        ++i;</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;        <span class="keywordflow">if</span>(!plast || <a class="code" href="../../d2/d79/scores_8qc.html#ae4fe65e7dbeb8050e420d6dfbbee1d5a">PlayerTeamScore_Compare</a>(plast, pbest, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a>, 0))</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;        <span class="keywordflow">if</span>(!plast || <a class="code" href="../../d2/d79/scores_8qc.html#ae4fe65e7dbeb8050e420d6dfbbee1d5a">PlayerTeamScore_Compare</a>(plast, pbest, teams, 0))</div>
 <div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;            j = i;</div>
 <div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;</div>
 <div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;        pbest.(field) = j;</div>
@@ -913,7 +913,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;        s = <span class="stringliteral">&quot;Scores:&quot;</span>;</div>
 <div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;</div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;    s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, strpad(<a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, NAMEWIDTH - strlennocol(s)), <span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;    s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, strpad(<a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, <a class="code" href="../../d2/d79/scores_8qc.html#a0004abe8969a62fd1a723b21c6ddcdb9">NAMEWIDTH</a> - strlennocol(s)), <span class="stringliteral">&quot;&quot;</span>));</div>
 <div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;</div>
 <div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Scores, <span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557">scores_label</a>(it) != <span class="stringliteral">&quot;&quot;</span>)</div>
@@ -935,7 +935,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;    <span class="keywordtype">float</span> fl, sc;</div>
 <div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;    s = <span class="stringliteral">&quot;  &quot;</span>;</div>
 <div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;</div>
-<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;    sk = p.scorekeeper;</div>
+<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;    sk = <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(p).scorekeeper;</div>
 <div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;</div>
 <div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;    s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe">playername</a>(p, <span class="keyword">false</span>));</div>
 <div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;    <span class="keywordflow">for</span> (;;)</div>
@@ -983,7 +983,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557">scores_label</a>(it) != <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;            ++t;</div>
 <div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;    });</div>
-<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;    w = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(6, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(SCORESWIDTH / t - 1), 9);</div>
+<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;    w = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(6, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(<a class="code" href="../../d2/d79/scores_8qc.html#a26c17e0b6e8c59731994438c1b572aa6">SCORESWIDTH</a> / t - 1), 9);</div>
 <div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;</div>
 <div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;    p = <a class="code" href="../../d2/d79/scores_8qc.html#ae62eb8bcfc2596312a8b44c3aabdef19">PlayerScore_Sort</a>(<a class="code" href="../../d2/d79/scores_8qc.html#a8e807c4df57178861998ce12ab265fe7">score_dummyfield</a>, 1, 1, 0);</div>
 <div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;    t = -1;</div>
@@ -1011,7 +1011,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;</div>
 <div class="line"><a name="l00905"></a><span class="lineno"><a class="line" href="../../d2/d79/scores_8qc.html#a92dc03c3e0dc4d9f8cd86b7c45c6e167">  905</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d79/scores_8qc.html#a92dc03c3e0dc4d9f8cd86b7c45c6e167">PlayerScore_PlayerStats</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>)</div>
 <div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;{</div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> s = p.scorekeeper;</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> s = <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(p).scorekeeper;</div>
 <div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Scores, <span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;        <span class="keywordflow">if</span>(s.(scores(it)) != 0)</div>
 <div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557">scores_label</a>(it) != <span class="stringliteral">&quot;&quot;</span>)</div>
@@ -1057,6 +1057,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="scores_8qc_html_a18a3b145c27351b9f4cda4e2b3e39992"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#a18a3b145c27351b9f4cda4e2b3e39992">teamscorekeepers</a></div><div class="ttdeci">entity teamscorekeepers[16]</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00011">scores.qc:11</a></div></div>
 <div class="ttc" id="scores_8qc_html_a9f329f6f3652ff8ba8788c1167c49b66"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#a9f329f6f3652ff8ba8788c1167c49b66">scores_flags_primary</a></div><div class="ttdeci">float scores_flags_primary</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00015">scores.qc:15</a></div></div>
+<div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
 <div class="ttc" id="scores_8qc_html_a5db481005e2c63c868c58b15537638a0"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#a5db481005e2c63c868c58b15537638a0">TeamScore_Spawn</a></div><div class="ttdeci">void TeamScore_Spawn(float t, string name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00088">scores.qc:88</a></div></div>
 <div class="ttc" id="scores_8qc_html_a584dd2db99794927527b7a4cec056bf1"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#a584dd2db99794927527b7a4cec056bf1">Score_ClearAll</a></div><div class="ttdeci">void Score_ClearAll()</div><div class="ttdoc">Clear ALL scores (for ready-restart). </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00277">scores.qc:277</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html_a417edf4d6c977fb36b2eb25abb869bb6"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#a417edf4d6c977fb36b2eb25abb869bb6">MapInfo_LoadedGametype</a></div><div class="ttdeci">Gametype MapInfo_LoadedGametype</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00539">mapinfo.qh:539</a></div></div>
@@ -1168,7 +1169,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d2/d79/scores_8qc.html">scores.qc</a></li>
-    <li class="footer">Generated on Mon Jul 17 2017 21:31:04 for Xonotic by
+    <li class="footer">Generated on Mon Jul 17 2017 23:51:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

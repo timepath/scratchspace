@@ -19,7 +19,7 @@ var server_2miscfunctions_8qc =
     [ "GameLogEcho", "dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3", null ],
     [ "GameLogInit", "dc/dc6/server_2miscfunctions_8qc.html#a08ac986acea412a0a46814dc880058c7", null ],
     [ "GetCvars", "dc/dc6/server_2miscfunctions_8qc.html#a0c3e39f09e87691055f24898270c60fc", null ],
-    [ "GetCvars_handleFloat", "dc/dc6/server_2miscfunctions_8qc.html#a4ab71aa4b3c0f26d8bcd07885788136d", null ],
+    [ "GetCvars_handleFloat", "dc/dc6/server_2miscfunctions_8qc.html#a87f18211483cf0fc854225867b1e7015", null ],
     [ "GetCvars_handleFloatOnce", "dc/dc6/server_2miscfunctions_8qc.html#a2f72064588a30e85b3b36b083bb93f6f", null ],
     [ "GetCvars_handleString", "dc/dc6/server_2miscfunctions_8qc.html#a2b15d3cd9b73fd2b53dc8b2d66317e5a", null ],
     [ "GetCvars_handleString_Fixup", "dc/dc6/server_2miscfunctions_8qc.html#a4cb489ce57fbb49979417929cfd25bfa", null ],

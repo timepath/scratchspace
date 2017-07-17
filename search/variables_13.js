@@ -47,7 +47,7 @@ var searchData=
   ['scoreboard_5fshowaccuracy',['scoreboard_showaccuracy',['../d9/d08/client_2defs_8qh.html#a5523d7b1ba2514ca9b4de2e79a39e200',1,'defs.qh']]],
   ['scoreboard_5fshowscores',['scoreboard_showscores',['../d9/d08/client_2defs_8qh.html#ae863614c1b490a13d1d72a792992b9b4',1,'defs.qh']]],
   ['scoreboard_5fshowscores_5fforce',['scoreboard_showscores_force',['../d9/d08/client_2defs_8qh.html#adb370211fdbf7cf34007a2cc240e6ee2',1,'defs.qh']]],
-  ['scorekeeper',['scorekeeper',['../d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83',1,'scores.qc']]],
+  ['scorekeeper',['scorekeeper',['../d1/d37/classClient.html#a550615366ec442eaa85b74ba00c480f6',1,'Client::scorekeeper()'],['../d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83',1,'scorekeeper():&#160;scores.qc']]],
   ['scorerules_5fteams',['ScoreRules_teams',['../d5/d14/scores__rules_8qc.html#a62db4b0b1c96e1bd902ca44acc8215cd',1,'scores_rules.qc']]],
   ['scores_5fflags_5fprimary',['scores_flags_primary',['../d2/d79/scores_8qc.html#a9f329f6f3652ff8ba8788c1167c49b66',1,'scores.qc']]],
   ['scores_5finitialized',['scores_initialized',['../d5/dac/server_2scores_8qh.html#a4d43b789941743d9edb8105089a187b5',1,'scores.qh']]],

@@ -10,7 +10,7 @@ var searchData=
   ['acc_5flevels',['acc_levels',['../d8/db6/client_2miscfunctions_8qh.html#a126aa6fee8912340c42f4264851e3e2a',1,'miscfunctions.qh']]],
   ['acc_5fprevspeed',['acc_prevspeed',['../d5/d83/client_2hud_2panel_2physics_8qc.html#af1d50e259bfcbaf2f70962f36e329c80',1,'physics.qc']]],
   ['acc_5fprevtime',['acc_prevtime',['../d5/d83/client_2hud_2panel_2physics_8qc.html#a19a97138ee157d8182facd2f3895b4df',1,'physics.qc']]],
-  ['accuracy',['accuracy',['../d3/d2d/accuracy_8qh.html#a6a4f618d19869d9cfa96646f51299e49',1,'accuracy.qh']]],
+  ['accuracy',['accuracy',['../d1/d37/classClient.html#a7c8df93f8d890fe9c559215401df85e3',1,'Client::accuracy()'],['../d3/d2d/accuracy_8qh.html#a6a4f618d19869d9cfa96646f51299e49',1,'accuracy():&#160;accuracy.qh']]],
   ['accuracy_5fcnt_5ffired',['accuracy_cnt_fired',['../d3/d2d/accuracy_8qh.html#a6dd46b3daf643cd16660e1446e9d6032',1,'accuracy.qh']]],
   ['accuracy_5fcnt_5fhit',['accuracy_cnt_hit',['../d3/d2d/accuracy_8qh.html#a0963fdd1b29d83e4c690ad94c95f1e06',1,'accuracy.qh']]],
   ['accuracy_5ffired',['accuracy_fired',['../d3/d2d/accuracy_8qh.html#a12f4c0f276dc483c7bbbb70029f36f1f',1,'accuracy.qh']]],

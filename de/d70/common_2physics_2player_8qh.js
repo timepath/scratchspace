@@ -80,6 +80,7 @@ var common_2physics_2player_8qh =
     [ "AdjustAirAccelQW", "de/d70/common_2physics_2player_8qh.html#ab81c95b0e30aff82122c0e5688564397", null ],
     [ "float", "de/d70/common_2physics_2player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde", null ],
     [ "IsFlying", "de/d70/common_2physics_2player_8qh.html#a40c67f235c369a3d7a4d77832bbd72e2", null ],
+    [ "buttons_old", "de/d70/common_2physics_2player_8qh.html#a3b841facfe90cdf48a5ec487b4429229", null ],
     [ "conveyor", "de/d70/common_2physics_2player_8qh.html#aea182bf63f444cfd93df2b6a193525e7", null ],
     [ "gravity", "de/d70/common_2physics_2player_8qh.html#a31924e6c9b17aad7f861e818b8be5d8f", null ],
     [ "lastclassname", "de/d70/common_2physics_2player_8qh.html#a2c9db25cec8344f67ac5c99c73213853", null ],

@@ -21,7 +21,7 @@ var server_2miscfunctions_8qh =
     [ "GameLogEcho", "dc/d73/server_2miscfunctions_8qh.html#ad8252ef534185c1cbbde32e65a01a5b3", null ],
     [ "GameLogInit", "dc/d73/server_2miscfunctions_8qh.html#a08ac986acea412a0a46814dc880058c7", null ],
     [ "GetCvars", "dc/d73/server_2miscfunctions_8qh.html#a6b0ad0967d3d064e4942302423663d14", null ],
-    [ "GetCvars_handleFloat", "dc/d73/server_2miscfunctions_8qh.html#a4ab71aa4b3c0f26d8bcd07885788136d", null ],
+    [ "GetCvars_handleFloat", "dc/d73/server_2miscfunctions_8qh.html#a87f18211483cf0fc854225867b1e7015", null ],
     [ "GetCvars_handleString", "dc/d73/server_2miscfunctions_8qh.html#a2b15d3cd9b73fd2b53dc8b2d66317e5a", null ],
     [ "GetGametype", "dc/d73/server_2miscfunctions_8qh.html#a7bd98f24d513342b45d7ec36af6564be", null ],
     [ "GetMapname", "dc/d73/server_2miscfunctions_8qh.html#a1330c9208470a4800fb84c8810728bcb", null ],

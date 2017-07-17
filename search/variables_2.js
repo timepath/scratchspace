@@ -284,6 +284,6 @@ var searchData=
   ['button_5fzoom',['button_zoom',['../d0/d2a/client_2main_8qh.html#a61a267473fc7421049cd4780baa4985b',1,'main.qh']]],
   ['buttonchat',['buttonchat',['../d1/d37/classClient.html#aa510c2951125f9080769b4222101e900',1,'Client::buttonchat()'],['../de/d5e/dpextensions_8qc.html#a8e56e01487186083a668c11a820f3c7b',1,'buttonchat():&#160;dpextensions.qc']]],
   ['buttonleftoftext',['buttonLeftOfText',['../d1/d19/classButton.html#a4985255a6e0984252ab7ccedd6347d5b',1,'Button']]],
-  ['buttons_5fold',['buttons_old',['../d1/d37/classClient.html#a523781393cac4c56dabca8582ff95ce6',1,'Client']]],
+  ['buttons_5fold',['buttons_old',['../d1/d37/classClient.html#a523781393cac4c56dabca8582ff95ce6',1,'Client::buttons_old()'],['../de/d70/common_2physics_2player_8qh.html#a3b841facfe90cdf48a5ec487b4429229',1,'buttons_old():&#160;player.qh']]],
   ['buttonuse',['buttonuse',['../d1/d37/classClient.html#a74b1a2c8d9c99e79c581cd35d60a4b26',1,'Client::buttonuse()'],['../de/d5e/dpextensions_8qc.html#a950504efbc7fcc04ca8c7d6965357f6d',1,'buttonuse():&#160;dpextensions.qc']]]
 ];
