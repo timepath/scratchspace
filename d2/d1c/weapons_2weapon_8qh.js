@@ -11,7 +11,7 @@ var weapons_2weapon_8qh =
     [ "W_Model", "d2/d1c/weapons_2weapon_8qh.html#a259e403c09376539bec67dda6a1164bc", null ],
     [ "W_NameWeaponOrder", "d2/d1c/weapons_2weapon_8qh.html#a7444bff240ad3f518a5cc595e9bc8d15", null ],
     [ "W_NumberWeaponOrder", "d2/d1c/weapons_2weapon_8qh.html#a68c8b4f04f6cf4bd80ef078f2bea8d16", null ],
-    [ "W_RandomWeapons", "d2/d1c/weapons_2weapon_8qh.html#ae30fe9ade465e4a7521545f11c61f6fc", null ],
+    [ "W_RandomWeapons", "d2/d1c/weapons_2weapon_8qh.html#ae2c872ad98c6ea89efd05ef7fe431ff8", null ],
     [ "W_Sound", "d2/d1c/weapons_2weapon_8qh.html#a71ed1489c649f0e0d3e068e7e32aed35", null ],
     [ "W_UndeprecateName", "d2/d1c/weapons_2weapon_8qh.html#a79fb53e58c432f7bb94bc2e881f4c2b6", null ],
     [ "weaponslot", "d2/d1c/weapons_2weapon_8qh.html#ac3cbbc1f9884e78a2816ff88760748d5", null ],

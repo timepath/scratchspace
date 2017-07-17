@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"d7/db4/client_2autocvars_8qh.html#a73e3b18cbd312b7b916ad5f2f923b6c5":[2,0,0,10,347],
 "d7/db4/client_2autocvars_8qh.html#a7409604b303ecd97f71b48647a8fe86f":[2,0,0,10,102],
 "d7/db4/client_2autocvars_8qh.html#a745ce44ca2c05bdb05c0b47c800596c6":[2,0,0,10,408],
 "d7/db4/client_2autocvars_8qh.html#a747adbd79e84d6050aaf283829379f75":[2,0,0,10,281],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "d7/dbe/common_2vehicles_2__all_8qh.html":[2,0,1,15,2],
 "d7/dbe/common_2vehicles_2__all_8qh_source.html":[2,0,1,15,2],
 "d7/dc0/dialog__hudpanel__engineinfo_8qh.html":[2,0,5,4,51],
-"d7/dc0/dialog__hudpanel__engineinfo_8qh_source.html":[2,0,5,4,51],
-"d7/dc4/waypoints_8qc.html":[2,0,6,0,0,13]
+"d7/dc0/dialog__hudpanel__engineinfo_8qh_source.html":[2,0,5,4,51]
 };

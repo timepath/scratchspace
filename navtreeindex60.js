@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"d6/df8/classTeamDeathmatch.html#a70e3413650e02e5936bfacca40904d26":[1,0,124,13],
+"d6/df8/classTeamDeathmatch.html#aa73ef351412f677fbb3a8e30c495f34e":[1,0,124,11],
+"d6/df8/classTeamDeathmatch.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,124,2],
 "d6/df8/classTeamDeathmatch.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,124,15],
 "d6/df8/classTeamDeathmatch.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,124,4],
 "d6/df8/classTeamDeathmatch.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,124,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "d7/d16/server_2command_2vote_8qh.html#a8a708d9afffaf3263253cab470569c07":[2,0,6,1,17,10],
 "d7/d16/server_2command_2vote_8qh.html#a8f1a257495dcbeb0d62845e580d8d86d":[2,0,6,1,17,8],
 "d7/d16/server_2command_2vote_8qh.html#a9345c07ba0df454c252ab62fdf5265f9":[2,0,6,1,17,20],
-"d7/d16/server_2command_2vote_8qh.html#aac1c8bfc2334457dda05c5f27388dac4":[2,0,6,1,17,12],
-"d7/d16/server_2command_2vote_8qh.html#ab2a4a22b57e23eebd526313dc76d8b49":[2,0,6,1,17,25],
-"d7/d16/server_2command_2vote_8qh.html#ab3f202b8d03fef947e37fad0b6e9b0af":[2,0,6,1,17,21],
-"d7/d16/server_2command_2vote_8qh.html#ac923443063696b087345d5ba6841398f":[2,0,6,1,17,33]
+"d7/d16/server_2command_2vote_8qh.html#aac1c8bfc2334457dda05c5f27388dac4":[2,0,6,1,17,12]
 };

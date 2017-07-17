@@ -140,7 +140,6 @@ var searchData=
   ['weaponorder_5fcmp_5fstr',['weaponorder_cmp_str',['../d4/def/weapons_8qc.html#aa5a1dbdae1131edc4b6babd09d339f0d',1,'weapons.qc']]],
   ['weaponprevtime',['weaponprevtime',['../d3/d05/hud_8qh.html#a3c131b0f8f651739847e08030410b5a1',1,'hud.qh']]],
   ['weapons',['weapons',['../dc/de5/classWeapon.html#ac2c251078e8f3c2c9989c22cefe1d7e6',1,'Weapon']]],
-  ['weaponsinmap',['weaponsInMap',['../d5/d26/server_2defs_8qh.html#ac604df0261061f3fb75d6ca46fa5bc53',1,'defs.qh']]],
   ['weaponstats_5fbuffer',['weaponstats_buffer',['../d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829',1,'weaponstats.qh']]],
   ['weaponswapping',['weaponswapping',['../da/db7/weaponsystem_8qh.html#a3b99ca2533dba372262408c438993ce3',1,'weaponsystem.qh']]],
   ['weapontime',['weapontime',['../d3/d05/hud_8qh.html#ad5b3e0dc298f23f9aea300bb0e6efc6e',1,'hud.qh']]],

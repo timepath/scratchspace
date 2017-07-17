@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"d9/d39/wyvern_8qc.html":[2,0,1,8,0,8],
 "d9/d39/wyvern_8qc_source.html":[2,0,1,8,0,8],
 "d9/d3b/lib_2warpzone_2__mod_8inc.html":[2,0,4,2,0],
 "d9/d3b/lib_2warpzone_2__mod_8inc_source.html":[2,0,4,2,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "d9/d5b/struct_8qh.html#a9f2fa4fb4d8db2c082e6662fdab9db89":[2,0,4,57,2],
 "d9/d5b/struct_8qh.html#aae61c44e2c43f3afd1bfc12fd8e5d9dc":[2,0,4,57,16],
 "d9/d5b/struct_8qh.html#adafb5b9eaab979b8a7f36b5953f503b1":[2,0,4,57,14],
-"d9/d5b/struct_8qh.html#ae69c432837297969610c02ae676df3ef":[2,0,4,57,15],
-"d9/d5b/struct_8qh.html#af129c03c7f8ba74cb5a55dc4c2bbc571":[2,0,4,57,12]
+"d9/d5b/struct_8qh.html#ae69c432837297969610c02ae676df3ef":[2,0,4,57,15]
 };

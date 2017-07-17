@@ -1,5 +1,12 @@
 var NAVTREEINDEX44 =
 {
+"d4/df8/classXonoticHUDRadarDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,191,82],
+"d4/df8/classXonoticHUDRadarDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,191,48],
+"d4/df8/classXonoticHUDRadarDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,191,26],
+"d4/df8/classXonoticHUDRadarDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,191,17],
+"d4/df8/classXonoticHUDRadarDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,191,74],
+"d4/df8/classXonoticHUDRadarDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,191,71],
+"d4/df8/classXonoticHUDRadarDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,191,70],
 "d4/df8/classXonoticHUDRadarDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,191,7],
 "d4/df8/classXonoticHUDRadarDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,191,72],
 "d4/df8/classXonoticHUDRadarDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,191,4],
@@ -242,12 +249,5 @@ var NAVTREEINDEX44 =
 "d5/d1f/gamemode__invasion_8qc.html#af0f089bf9bb45f4d83d1a682a1366052":[2,0,6,3,0,16,18],
 "d5/d1f/gamemode__invasion_8qc.html#af1c26a21c8bbaace311d588711b4b53c":[2,0,6,3,0,16,6],
 "d5/d1f/gamemode__invasion_8qc.html#af6e0b5fcea42fd38e53ec64e7d61d276":[2,0,6,3,0,16,11],
-"d5/d1f/gamemode__invasion_8qc.html#af8f2b47bd3440a92ec9100cf6dd2c870":[2,0,6,3,0,16,10],
-"d5/d1f/gamemode__invasion_8qc.html#aff0df3dfdc8b2936711b973638f070df":[2,0,6,3,0,16,9],
-"d5/d1f/gamemode__invasion_8qc_source.html":[2,0,6,3,0,16],
-"d5/d22/effects_2all_8qc.html":[2,0,1,2,4],
-"d5/d22/effects_2all_8qc_source.html":[2,0,1,2,4],
-"d5/d23/dialog__hudpanel__weapons_8qc.html":[2,0,5,4,80],
-"d5/d23/dialog__hudpanel__weapons_8qc.html#aee76c4f17e6e2862e822223192dddb97":[2,0,5,4,80,0],
-"d5/d23/dialog__hudpanel__weapons_8qc_source.html":[2,0,5,4,80]
+"d5/d1f/gamemode__invasion_8qc.html#af8f2b47bd3440a92ec9100cf6dd2c870":[2,0,6,3,0,16,10]
 };

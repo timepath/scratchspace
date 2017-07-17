@@ -118,6 +118,7 @@ var searchData=
   ['campcheck_2eqc',['campcheck.qc',['../d9/dc5/campcheck_8qc.html',1,'']]],
   ['campcheck_2eqh',['campcheck.qh',['../d3/d52/campcheck_8qh.html',1,'']]],
   ['campcheck_5fnextcheck',['campcheck_nextcheck',['../d1/d98/sv__campcheck_8qc.html#a43b84156521f63d572b24c89ad7b2aaf',1,'sv_campcheck.qc']]],
+  ['campcheck_5fprevorigin',['campcheck_prevorigin',['../d1/d98/sv__campcheck_8qc.html#a6cb0ae67285b803c16c7e5deca1339ec',1,'sv_campcheck.qc']]],
   ['campcheck_5ftraveled_5fdistance',['campcheck_traveled_distance',['../d1/d98/sv__campcheck_8qc.html#a46ef3a76212e326ac5b72d4e5cbeee55',1,'sv_campcheck.qc']]],
   ['candrop',['candrop',['../d8/dc1/sv__monsters_8qh.html#a93b47596212cf603d27ea3d90745d5cf',1,'sv_monsters.qh']]],
   ['cap',['cap',['../d7/d16/effectinfo__ctf_8inc.html#a402c648c54311178d0b7a802721d0077',1,'cap():&#160;effectinfo_ctf.inc'],['../d7/d16/effectinfo__ctf_8inc.html#a6f2b376dbc94981ee65efb8dc2ea6706',1,'cap(red,&quot;0xFF0000&quot;,&quot;0x970000&quot;) cap(blue:&#160;effectinfo_ctf.inc'],['../d7/d16/effectinfo__ctf_8inc.html#a6fc5382131c33904a608bf4cf3ca8f5b',1,'cap(yellow,&quot;0xFFFF0F&quot;,&quot;0xFFFF0F&quot;) cap(pink:&#160;effectinfo_ctf.inc']]],

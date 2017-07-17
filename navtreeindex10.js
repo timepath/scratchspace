@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"d1/d55/classXonoticHUDModIconsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,184,89],
+"d1/d55/classXonoticHUDModIconsDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,184,80],
 "d1/d55/classXonoticHUDModIconsDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,184,52],
 "d1/d55/classXonoticHUDModIconsDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,184,45],
 "d1/d55/classXonoticHUDModIconsDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,184,67],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "d1/d6b/classGametype.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,42,15],
 "d1/d6b/classGametype.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,42,5],
 "d1/d6b/classGametype.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,42,6],
-"d1/d6b/classGametype.html#aef3a65f4987590d66b653b91180860ca":[1,0,42,8],
-"d1/d6b/classGametype.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,42,4],
-"d1/d6c/colorpicker__string_8qh.html":[2,0,5,4,23]
+"d1/d6b/classGametype.html#aef3a65f4987590d66b653b91180860ca":[1,0,42,8]
 };

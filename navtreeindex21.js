@@ -1,5 +1,12 @@
 var NAVTREEINDEX21 =
 {
+"d2/dd6/classXonoticInputSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,199,42],
+"d2/dd6/classXonoticInputSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,199,86],
+"d2/dd6/classXonoticInputSettingsTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,199,55],
+"d2/dd6/classXonoticInputSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,199,59],
+"d2/dd6/classXonoticInputSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,199,64],
+"d2/dd6/classXonoticInputSettingsTab.html#ad92f1dfd0d9924af43f1bfec57cc9bd1":[1,0,199,28],
+"d2/dd6/classXonoticInputSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,199,77],
 "d2/dd6/classXonoticInputSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,199,35],
 "d2/dd6/classXonoticInputSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,199,63],
 "d2/dd6/classXonoticInputSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,199,92],
@@ -242,12 +249,5 @@ var NAVTREEINDEX21 =
 "d3/d01/classXonoticMultiplayerDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,209,80],
 "d3/d01/classXonoticMultiplayerDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,209,79],
 "d3/d01/classXonoticMultiplayerDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,209,52],
-"d3/d01/classXonoticMultiplayerDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,209,45],
-"d3/d01/classXonoticMultiplayerDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,209,67],
-"d3/d01/classXonoticMultiplayerDialog.html#a855d73abdadca86a207f3786ebad42c2":[1,0,209,69],
-"d3/d01/classXonoticMultiplayerDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,209,73],
-"d3/d01/classXonoticMultiplayerDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,209,77],
-"d3/d01/classXonoticMultiplayerDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,209,65],
-"d3/d01/classXonoticMultiplayerDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,209,16],
-"d3/d01/classXonoticMultiplayerDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,209,20]
+"d3/d01/classXonoticMultiplayerDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,209,45]
 };

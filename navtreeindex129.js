@@ -1,5 +1,7 @@
 var NAVTREEINDEX129 =
 {
+"df/d52/monsters_2all_8qh.html#aea1bf99cd5fe53ce09b24dd2731d7d2f":[2,0,1,8,4,1],
+"df/d52/monsters_2all_8qh_source.html":[2,0,1,8,4],
 "df/d53/campaign__setup_8qh.html":[2,0,1,28],
 "df/d53/campaign__setup_8qh_source.html":[2,0,1,28],
 "df/d54/dialog__settings__game__hud_8qh.html":[2,0,5,4,129],
@@ -247,7 +249,5 @@ var NAVTREEINDEX129 =
 "df/d78/classPhaserTurretAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,91,12],
 "df/d78/classPhaserTurretAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,91,5],
 "df/d78/classPhaserTurretAttack.html#abc49b591bc93ef022482732ea99a0d75":[1,0,91,31],
-"df/d78/classPhaserTurretAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,91,10],
-"df/d78/classPhaserTurretAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,91,36],
-"df/d78/classPhaserTurretAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,91,7]
+"df/d78/classPhaserTurretAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,91,10]
 };

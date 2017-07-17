@@ -180,7 +180,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00071">71</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f">centerprint()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00037">itemkeys</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00007">message</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00209">noise</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896">play2()</a>, and <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00294">SUB_UseTargets()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f">centerprint()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00037">itemkeys</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00007">message</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00209">noise</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896">play2()</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00018">PS</a>, and <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00294">SUB_UseTargets()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00094">spawn_item_key()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{</div>
@@ -188,10 +188,10 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// player already picked up this key</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">if</span> (toucher.itemkeys &amp; <span class="keyword">this</span>.itemkeys)</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(toucher).<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> &amp; this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>)</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    toucher.itemkeys |= this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(toucher).itemkeys |= this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896">play2</a>(toucher, this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a>);</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f">centerprint</a>(toucher, this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a>);</div>
@@ -207,6 +207,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="client_2defs_8qh_html_ae1ed0d7a6f352c7ee3ad978429822c6f"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a></div><div class="ttdeci">string message</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00007">defs.qh:7</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a3ad01a00f1af9d663eb5c97259434896"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896">play2</a></div><div class="ttdeci">void play2(entity e, string filename)</div></div>
 <div class="ttc" id="triggers_8qc_html_a3905086b3426d8a7b89fe8eff17368c6"><div class="ttname"><a href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a></div><div class="ttdeci">void SUB_UseTargets(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/triggers_8qc_source.html#l00294">triggers.qc:294</a></div></div>
+<div class="ttc" id="state_8qh_html_a6228dce6d2ac6b96b7ebe5d2b44be40c"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a></div><div class="ttdeci">#define PS(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00018">state.qh:18</a></div></div>
 <div class="ttc" id="subs_8qh_html_a6cd088ee55afdde918610024676b0d4d"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a></div><div class="ttdeci">float itemkeys</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00037">subs.qh:37</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -325,12 +326,14 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00018">18</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
 
+<p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00018">PS</a>.</p>
+
 <p>Referenced by <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00022">trigger_keylock_touch()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">float</span> valid = l.itemkeys &amp; <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.itemkeys;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">int</span> valid = l.itemkeys &amp; <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>).itemkeys;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span> (!valid) {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="comment">// other has none of the needed keys</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="comment">// player has none of the needed keys</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (l.itemkeys == valid) {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="comment">// ALL needed keys were given</span></div>
@@ -342,6 +345,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="ttc" id="state_8qh_html_a6228dce6d2ac6b96b7ebe5d2b44be40c"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a></div><div class="ttdeci">#define PS(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00018">state.qh:18</a></div></div>
 <div class="ttc" id="effectinfo_8qc_html_af1209ce3d4344049c1084fab900909cf"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a></div><div class="ttdeci">#define p(f, type, default)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -652,7 +656,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d7/da4/item__key_8qc.html">item_key.qc</a></li>
-    <li class="footer">Generated on Sun Jul 16 2017 20:00:35 for Xonotic by
+    <li class="footer">Generated on Mon Jul 17 2017 00:18:51 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

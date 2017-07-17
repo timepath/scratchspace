@@ -91,7 +91,7 @@ var NAVTREEINDEX1 =
 "d0/d2b/weapons_2all_8qc.html#aafd24a334088de3d7fef309914d49101":[2,0,1,16,6,0],
 "d0/d2b/weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee":[2,0,1,16,6,2],
 "d0/d2b/weapons_2all_8qc.html#acb6d8a69c18135cd85a99ff515fe5bf6":[2,0,1,16,6,4],
-"d0/d2b/weapons_2all_8qc.html#ae30fe9ade465e4a7521545f11c61f6fc":[2,0,1,16,6,15],
+"d0/d2b/weapons_2all_8qc.html#ae2c872ad98c6ea89efd05ef7fe431ff8":[2,0,1,16,6,15],
 "d0/d2b/weapons_2all_8qc.html#ae81c8fe2b3e2692445a310dc6e221c3c":[2,0,1,16,6,19],
 "d0/d2b/weapons_2all_8qc_source.html":[2,0,1,16,6],
 "d0/d2d/classXonoticUserSettingsTab.html":[1,0,250],

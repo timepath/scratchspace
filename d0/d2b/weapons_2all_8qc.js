@@ -15,7 +15,7 @@ var weapons_2all_8qc =
     [ "W_NameWeaponOrder_MapFunc", "d0/d2b/weapons_2all_8qc.html#aa2f60df3d2c42afc5a315bca65cf4fe3", null ],
     [ "W_NumberWeaponOrder", "d0/d2b/weapons_2all_8qc.html#a68c8b4f04f6cf4bd80ef078f2bea8d16", null ],
     [ "W_NumberWeaponOrder_MapFunc", "d0/d2b/weapons_2all_8qc.html#a6e455edb328362e8ea7fc75757394379", null ],
-    [ "W_RandomWeapons", "d0/d2b/weapons_2all_8qc.html#ae30fe9ade465e4a7521545f11c61f6fc", null ],
+    [ "W_RandomWeapons", "d0/d2b/weapons_2all_8qc.html#ae2c872ad98c6ea89efd05ef7fe431ff8", null ],
     [ "W_Sound", "d0/d2b/weapons_2all_8qc.html#a71ed1489c649f0e0d3e068e7e32aed35", null ],
     [ "W_UndeprecateName", "d0/d2b/weapons_2all_8qc.html#a79fb53e58c432f7bb94bc2e881f4c2b6", null ],
     [ "W_FixWeaponOrder_BuildImpulseList_buf", "d0/d2b/weapons_2all_8qc.html#a7e417e677b59a2ee9a37169a615c5e42", null ],

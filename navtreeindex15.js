@@ -1,5 +1,9 @@
 var NAVTREEINDEX15 =
 {
+"d2/d06/server_2command_2common_8qh.html#afff16d75dc358b9f81513350d82d92f3":[2,0,6,1,7,39],
+"d2/d06/server_2command_2common_8qh_source.html":[2,0,6,1,7],
+"d2/d08/sv__spawn__near__teammate_8qc.html":[2,0,1,9,0,28,2],
+"d2/d08/sv__spawn__near__teammate_8qc.html#a00aa4b1105a76a213f02d0366e8c6f26":[2,0,1,9,0,28,2,6],
 "d2/d08/sv__spawn__near__teammate_8qc.html#a09fc68c844414a4f23b4e12046074054":[2,0,1,9,0,28,2,3],
 "d2/d08/sv__spawn__near__teammate_8qc.html#a0a5a14342df96c4e35f901d19de663d2":[2,0,1,9,0,28,2,4],
 "d2/d08/sv__spawn__near__teammate_8qc.html#a44b99bb36065b2c11f05a64b2e9b9f40":[2,0,1,9,0,28,2,1],
@@ -132,7 +136,7 @@ var NAVTREEINDEX15 =
 "d2/d1c/weapons_2weapon_8qh.html#ad0bb51681cf0cb1275151afa8b5953c7":[2,0,1,16,13,40],
 "d2/d1c/weapons_2weapon_8qh.html#ae0a21a0484e5bf8b8fe8e359578f5ddc":[2,0,1,16,13,18],
 "d2/d1c/weapons_2weapon_8qh.html#ae2980e4d3ccb9564827dd96026b7b1b1":[2,0,1,16,13,36],
-"d2/d1c/weapons_2weapon_8qh.html#ae30fe9ade465e4a7521545f11c61f6fc":[2,0,1,16,13,11],
+"d2/d1c/weapons_2weapon_8qh.html#ae2c872ad98c6ea89efd05ef7fe431ff8":[2,0,1,16,13,11],
 "d2/d1c/weapons_2weapon_8qh.html#afd9eb87fc6f209d68b1ad956d3a72a74":[2,0,1,16,13,30],
 "d2/d1c/weapons_2weapon_8qh_source.html":[2,0,1,16,13],
 "d2/d21/music_8qh.html":[2,0,1,13,2,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX15 =
 "d2/d25/classXonoticDemoStartConfirmDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,162,37],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,162,41],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,162,85],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,162,8],
-"d2/d25/vehicles_8qc.html":[2,0,1,15,12],
-"d2/d25/vehicles_8qc_source.html":[2,0,1,15,12],
-"d2/d26/classInvasion.html":[1,0,56],
-"d2/d26/classInvasion.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,56,1]
+"d2/d25/classXonoticDemoStartConfirmDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,162,8]
 };

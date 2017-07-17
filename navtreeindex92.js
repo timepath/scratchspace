@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a89b8313739d904cb7b7b43bd10ae911e":[1,0,233,19],
 "da/db7/classXonoticServerInfoDialog.html#a89df6338f4e105645d340fa17a325a4d":[1,0,233,39],
 "da/db7/classXonoticServerInfoDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,233,103],
 "da/db7/classXonoticServerInfoDialog.html#a992e8261cb27c69ce688c94865f2083e":[1,0,233,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "da/dc3/common_2scores_8qh.html#ae307c7ff5bb9c7c0dd4a9b8862680816":[2,0,1,41,10],
 "da/dc3/common_2scores_8qh.html#ae7780da786465996b85f5e92850ca081":[2,0,1,41,9],
 "da/dc3/common_2scores_8qh.html#aeada6745e1a86301721bd800dc3b869a":[2,0,1,41,30],
-"da/dc3/common_2scores_8qh_source.html":[2,0,1,41],
-"da/dc5/voicescript_8qc.html":[2,0,1,13,2,17]
+"da/dc3/common_2scores_8qh_source.html":[2,0,1,41]
 };

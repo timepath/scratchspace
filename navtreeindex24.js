@@ -1,5 +1,12 @@
 var NAVTREEINDEX24 =
 {
+"d3/d2d/accuracy_8qh.html#ad0d7ae100d4161d23d624d1f92a7df39":[2,0,6,5,3,12],
+"d3/d2d/accuracy_8qh.html#aedc44e2a0316419c251ac4baf1e5cc8a":[2,0,6,5,3,14],
+"d3/d2d/accuracy_8qh_source.html":[2,0,6,5,3],
+"d3/d2e/campaign__file_8qh.html":[2,0,1,26],
+"d3/d2e/campaign__file_8qh_source.html":[2,0,1,26],
+"d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc.html":[2,0,1,9,0,28,0],
+"d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc_source.html":[2,0,1,9,0,28,0],
 "d3/d2e/languagelist_8qc.html":[2,0,5,4,174],
 "d3/d2e/languagelist_8qc.html#a084f88a32f5ba9c0c7fea824b3e33b04":[2,0,5,4,174,6],
 "d3/d2e/languagelist_8qc.html#a1c488afed1c6db318c2cbe5da89d3e4a":[2,0,5,4,174,18],
@@ -242,12 +249,5 @@ var NAVTREEINDEX24 =
 "d3/d4b/common_2mutators_2mutator_2running__guns_2__mod_8inc.html":[2,0,1,9,0,26,0],
 "d3/d4b/common_2mutators_2mutator_2running__guns_2__mod_8inc_source.html":[2,0,1,9,0,26,0],
 "d3/d4b/common_2triggers_2target_2__mod_8qh.html":[2,0,1,13,2,1],
-"d3/d4b/common_2triggers_2target_2__mod_8qh_source.html":[2,0,1,13,2,1],
-"d3/d4f/sv__main_8qc.html":[2,0,6,66],
-"d3/d4f/sv__main_8qc.html#a11a7125cdd8248d341e7a0c14ab5f2e8":[2,0,6,66,13],
-"d3/d4f/sv__main_8qc.html#a20fbabe6206b4fb7777eefcceac58edf":[2,0,6,66,11],
-"d3/d4f/sv__main_8qc.html#a2679ded920f4a7edb5a6d628e3bd156e":[2,0,6,66,15],
-"d3/d4f/sv__main_8qc.html#a3091fb79d4fcf740c1042eb85822efe2":[2,0,6,66,18],
-"d3/d4f/sv__main_8qc.html#a32d164732e884bd8c162fd1ff75f4b24":[2,0,6,66,5],
-"d3/d4f/sv__main_8qc.html#a46b4c44b76f39f2f4e113c1476572ec0":[2,0,6,66,17]
+"d3/d4b/common_2triggers_2target_2__mod_8qh_source.html":[2,0,1,13,2,1]
 };

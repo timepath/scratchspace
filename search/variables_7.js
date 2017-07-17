@@ -76,7 +76,6 @@ var searchData=
   ['game_5fdelay_5flast',['game_delay_last',['../d3/d4f/sv__main_8qc.html#a46b4c44b76f39f2f4e113c1476572ec0',1,'sv_main.qc']]],
   ['game_5fdeveloper',['GAME_DEVELOPER',['../d0/d41/menu_8qh.html#a3cd39adc5a015bbc00182b0adf0aea8a',1,'menu.qh']]],
   ['game_5fisserver',['GAME_ISSERVER',['../d0/d41/menu_8qh.html#a7e2625cbc212e674f279dcf3a1dc6312',1,'menu.qh']]],
-  ['game_5fstarttime',['game_starttime',['../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8',1,'defs.qh']]],
   ['gamemode_5fname',['gamemode_name',['../d5/d26/server_2defs_8qh.html#a28e18708dd262dd304c3371d071a5b18',1,'defs.qh']]],
   ['gamestart_5fsv_5fcheats',['gamestart_sv_cheats',['../d6/de9/cheats_8qc.html#ae9d36814925a74febb4ea1d621c300a5',1,'cheats.qc']]],
   ['gamestatus',['gamestatus',['../d0/d41/menu_8qh.html#ab0b9556c1dc022e3830284c4c1725582',1,'menu.qh']]],

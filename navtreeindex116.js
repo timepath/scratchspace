@@ -1,5 +1,6 @@
 var NAVTREEINDEX116 =
 {
+"dd/d95/dialog__credits_8qh.html":[2,0,5,4,41],
 "dd/d95/dialog__credits_8qh_source.html":[2,0,5,4,41],
 "dd/d96/server_2progs_8inc.html":[2,0,6,53],
 "dd/d96/server_2progs_8inc_source.html":[2,0,6,53],
@@ -248,6 +249,5 @@ var NAVTREEINDEX116 =
 "dd/da6/classXonoticCreditsDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,152,67],
 "dd/da6/classXonoticCreditsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,152,89],
 "dd/da6/classXonoticCreditsDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,152,81],
-"dd/da6/classXonoticCreditsDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,152,80],
-"dd/da6/classXonoticCreditsDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,152,53]
+"dd/da6/classXonoticCreditsDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,152,80]
 };

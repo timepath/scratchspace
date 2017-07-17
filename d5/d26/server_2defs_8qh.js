@@ -167,7 +167,6 @@ var server_2defs_8qh =
     [ "g_warmup_allow_timeout", "d5/d26/server_2defs_8qh.html#a02bc0ed2dad26a552548fc97d9f5b1ec", null ],
     [ "g_waypoints", "d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85", null ],
     [ "game_completion_ratio", "d5/d26/server_2defs_8qh.html#ade9e09fd1e749c3e7a7cead63b9561ef", null ],
-    [ "game_starttime", "d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8", null ],
     [ "gamemode_name", "d5/d26/server_2defs_8qh.html#a28e18708dd262dd304c3371d071a5b18", null ],
     [ "grab", "d5/d26/server_2defs_8qh.html#a6f34f8320d12028a7513dccc40735a24", null ],
     [ "hagar_load", "d5/d26/server_2defs_8qh.html#a044ccfadd8a43c3ffc642665a1ba6953", null ],
@@ -235,7 +234,6 @@ var server_2defs_8qh =
     [ "playermodel", "d5/d26/server_2defs_8qh.html#ae11fb22495fdd7953c445d981f4735fe", null ],
     [ "playerskin", "d5/d26/server_2defs_8qh.html#a4d36bbde6c78ea09441e7d499baa1022", null ],
     [ "pressedkeys", "d5/d26/server_2defs_8qh.html#a0640d49b2a9b773eb33f5162c069c431", null ],
-    [ "prevorigin", "d5/d26/server_2defs_8qh.html#aea33df8e623d8dfe27f407c675159fa2", null ],
     [ "projectiledeathtype", "d5/d26/server_2defs_8qh.html#a17edd654dd2ae440463e420932c7bd84", null ],
     [ "radar_showennemies", "d5/d26/server_2defs_8qh.html#ace84bb9485d6470a12441cca242fa3e0", null ],
     [ "railgunhit", "d5/d26/server_2defs_8qh.html#ade245d364785b7d828d0b1c75022efc9", null ],
@@ -253,7 +251,6 @@ var server_2defs_8qh =
     [ "revival_time", "d5/d26/server_2defs_8qh.html#a5320d5d56b57e2f1ffa6e137f496d2ef", null ],
     [ "revive_progress", "d5/d26/server_2defs_8qh.html#acb06d05df56c51acf1d2c4373067669e", null ],
     [ "revive_speed", "d5/d26/server_2defs_8qh.html#ac23b2cb7f13b7d1d2aa27fd6027237b0", null ],
-    [ "round_starttime", "d5/d26/server_2defs_8qh.html#a7d8f4a92754c6e25e67bd79f592609cc", null ],
     [ "scheduledrespawntime", "d5/d26/server_2defs_8qh.html#aa00e400d1ae9e5f5eb61c16a340a084b", null ],
     [ "selectweapon", "d5/d26/server_2defs_8qh.html#a4f0f837be8dd43698e15bc64fefd823f", null ],
     [ "server_is_dedicated", "d5/d26/server_2defs_8qh.html#a95a3f7e88286501193d87271e950a6b1", null ],
@@ -301,7 +298,6 @@ var server_2defs_8qh =
     [ "weapon_load", "d5/d26/server_2defs_8qh.html#ac3abcfcfe52fe9dd6076f88d4930d6da", null ],
     [ "weapon_nextthink", "d5/d26/server_2defs_8qh.html#a114651a635db56741dc92c082059ffc7", null ],
     [ "weaponorder_byimpulse", "d5/d26/server_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb", null ],
-    [ "weaponsInMap", "d5/d26/server_2defs_8qh.html#ac604df0261061f3fb75d6ca46fa5bc53", null ],
     [ "winning", "d5/d26/server_2defs_8qh.html#a7e4aa54ca2710ff1341835039c3d9b2f", null ],
     [ "zoomstate", "d5/d26/server_2defs_8qh.html#a3a65dbc5256a8c96990ef250af2a1dd5", null ]
 ];
