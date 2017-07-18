@@ -88,5 +88,6 @@ var classObserver =
     [ "version", "de/dab/classObserver.html#ac1a0c41b49dec20dc9ebc3045f0521c3", null ],
     [ "version_mismatch", "de/dab/classObserver.html#a2e556daf59228727cd12d5c6666da161", null ],
     [ "version_nagtime", "de/dab/classObserver.html#aa5b03024329d76308546cc7194866070", null ],
+    [ "wasplayer", "de/dab/classObserver.html#a31c687c46e05fbd204175abf8cb1a93d", null ],
     [ "zoomstate", "de/dab/classObserver.html#a6e2b1750af9db4c97521dce1478513a4", null ]
 ];

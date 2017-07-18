@@ -1,5 +1,8 @@
 var NAVTREEINDEX21 =
 {
+"d2/dd6/classXonoticInputSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,199,54],
+"d2/dd6/classXonoticInputSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,199,32],
+"d2/dd6/classXonoticInputSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,199,38],
 "d2/dd6/classXonoticInputSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,199,46],
 "d2/dd6/classXonoticInputSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,199,58],
 "d2/dd6/classXonoticInputSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,199,89],
@@ -246,8 +249,5 @@ var NAVTREEINDEX21 =
 "d3/d01/classXonoticMultiplayerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,209,17],
 "d3/d01/classXonoticMultiplayerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,209,74],
 "d3/d01/classXonoticMultiplayerDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,209,71],
-"d3/d01/classXonoticMultiplayerDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,209,70],
-"d3/d01/classXonoticMultiplayerDialog.html#a2044ddcdd6462e0da7bb16279471f7cb":[1,0,209,86],
-"d3/d01/classXonoticMultiplayerDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,209,7],
-"d3/d01/classXonoticMultiplayerDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,209,72]
+"d3/d01/classXonoticMultiplayerDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,209,70]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"d2/d42/classXonoticUserbindEditDialog.html#ae3e12bc0a99ba27300c59b262f2b1114":[1,0,249,37],
+"d2/d42/classXonoticUserbindEditDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,249,95],
 "d2/d42/classXonoticUserbindEditDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,249,13],
 "d2/d42/classXonoticUserbindEditDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,249,73],
 "d2/d42/classXonoticUserbindEditDialog.html#af1aab403dc54575707fd57991312b201":[1,0,249,52],
@@ -36,6 +38,7 @@ var NAVTREEINDEX17 =
 "d2/d4b/classPlayer.html#a2e357040c9fcbd4d35a09b094b7c329f":[1,0,96,44],
 "d2/d4b/classPlayer.html#a2e556daf59228727cd12d5c6666da161":[1,0,96,88],
 "d2/d4b/classPlayer.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012":[1,0,96,63],
+"d2/d4b/classPlayer.html#a31c687c46e05fbd204175abf8cb1a93d":[1,0,96,90],
 "d2/d4b/classPlayer.html#a3428db95eaa0bc6b89cc2367a8e7221c":[1,0,96,38],
 "d2/d4b/classPlayer.html#a348fa10d11efdf527c16c2c6e1a018f1":[1,0,96,5],
 "d2/d4b/classPlayer.html#a34910bda70c89979fe53c8b1ac2be901":[1,0,96,18],
@@ -61,7 +64,7 @@ var NAVTREEINDEX17 =
 "d2/d4b/classPlayer.html#a5ffe68e3b3028b5b83443e5e5b51925f":[1,0,96,61],
 "d2/d4b/classPlayer.html#a65f9df4b1ebe7629080c7fc3f7edf81d":[1,0,96,29],
 "d2/d4b/classPlayer.html#a69207eb6a3c917e14314d11ba6d811f8":[1,0,96,16],
-"d2/d4b/classPlayer.html#a6e2b1750af9db4c97521dce1478513a4":[1,0,96,90],
+"d2/d4b/classPlayer.html#a6e2b1750af9db4c97521dce1478513a4":[1,0,96,91],
 "d2/d4b/classPlayer.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,96,2],
 "d2/d4b/classPlayer.html#a749d2c00e1fe0f5c2746f7505a58c062":[1,0,96,1],
 "d2/d4b/classPlayer.html#a74b1a2c8d9c99e79c581cd35d60a4b26":[1,0,96,28],
@@ -246,8 +249,5 @@ var NAVTREEINDEX17 =
 "d2/d76/server_2mapvoting_8qc.html#a53bc06a331b5c2001983ab7f54e35994":[2,0,6,41,16],
 "d2/d76/server_2mapvoting_8qc.html#a55a404e632b9599200cdd019f8c03964":[2,0,6,41,21],
 "d2/d76/server_2mapvoting_8qc.html#a5ac2229ef4b363054b5b66d314e89437":[2,0,6,41,22],
-"d2/d76/server_2mapvoting_8qc.html#a5cc98f804d0ecd112e1e70b1a470cc8c":[2,0,6,41,46],
-"d2/d76/server_2mapvoting_8qc.html#a61770f7b6c29d7f9a77be619de7022f4":[2,0,6,41,30],
-"d2/d76/server_2mapvoting_8qc.html#a67064a4fbab3c9264bb5e1bb4f5b9674":[2,0,6,41,48],
-"d2/d76/server_2mapvoting_8qc.html#a6722532cdd11c4b8abd148fa9fd6d310":[2,0,6,41,47]
+"d2/d76/server_2mapvoting_8qc.html#a5cc98f804d0ecd112e1e70b1a470cc8c":[2,0,6,41,46]
 };

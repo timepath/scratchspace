@@ -293,7 +293,7 @@ var server_2defs_8qh =
     [ "W_TICSPERFRAME", "d5/d26/server_2defs_8qh.html#ac6417073598ae2a533bf142589e66833", null ],
     [ "warmup_limit", "d5/d26/server_2defs_8qh.html#a2f5a593dd63b36d5d868a19d06326523", null ],
     [ "warmup_stage", "d5/d26/server_2defs_8qh.html#af6088979e4328d96a754cc483d1672d9", null ],
-    [ "wasplayer", "d5/d26/server_2defs_8qh.html#ab4e063f23a289dbd487ac3a04d5be465", null ],
+    [ "wasplayer", "d5/d26/server_2defs_8qh.html#a32a4dd8d5385cd0d5fd0dc5fa3daf732", null ],
     [ "watersound_finished", "d5/d26/server_2defs_8qh.html#a4559bb7f78065ba068480a3b6063db69", null ],
     [ "weapon_load", "d5/d26/server_2defs_8qh.html#ac3abcfcfe52fe9dd6076f88d4930d6da", null ],
     [ "weapon_nextthink", "d5/d26/server_2defs_8qh.html#a114651a635db56741dc92c082059ffc7", null ],

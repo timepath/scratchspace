@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"d1/d55/classXonoticHUDModIconsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,184,49],
+"d1/d55/classXonoticHUDModIconsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,184,54],
 "d1/d55/classXonoticHUDModIconsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,184,29],
 "d1/d55/classXonoticHUDModIconsDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,184,19],
 "d1/d55/classXonoticHUDModIconsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,184,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "d1/d6a/lib_2warpzone_2common_8qc.html#ab524232ee28c466a0e836c2d23a26277":[2,0,4,2,6,22],
 "d1/d6a/lib_2warpzone_2common_8qc.html#ab772b1ecf922066516c8257124ee06cb":[2,0,4,2,6,67],
 "d1/d6a/lib_2warpzone_2common_8qc.html#abb2eed0ff8e8140b83035322dd203a2d":[2,0,4,2,6,44],
-"d1/d6a/lib_2warpzone_2common_8qc.html#ac221a6dceaae4b279cb0bcf10a95fef7":[2,0,4,2,6,52],
-"d1/d6a/lib_2warpzone_2common_8qc.html#ac4b6dfdaae95fd4084421a2dc0a4e6eb":[2,0,4,2,6,64],
-"d1/d6a/lib_2warpzone_2common_8qc.html#ad3a85dac4b85de614192f2f1401c3dbd":[2,0,4,2,6,2]
+"d1/d6a/lib_2warpzone_2common_8qc.html#ac221a6dceaae4b279cb0bcf10a95fef7":[2,0,4,2,6,52]
 };

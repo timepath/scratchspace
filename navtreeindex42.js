@@ -1,5 +1,8 @@
 var NAVTREEINDEX42 =
 {
+"d4/da3/classXonoticDemoBrowserTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,160,92],
+"d4/da3/classXonoticDemoBrowserTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,160,83],
+"d4/da3/classXonoticDemoBrowserTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,160,82],
 "d4/da3/classXonoticDemoBrowserTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,160,56],
 "d4/da3/classXonoticDemoBrowserTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,160,49],
 "d4/da3/classXonoticDemoBrowserTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,160,76],
@@ -246,8 +249,5 @@ var NAVTREEINDEX42 =
 "d4/db7/cl__minigames_8qc.html#a3f50d48603ccc5c4949bf5d84b0daa78":[2,0,1,6,3,31],
 "d4/db7/cl__minigames_8qc.html#a494190b92b736511115345e0437821b6":[2,0,1,6,3,16],
 "d4/db7/cl__minigames_8qc.html#a558c3b2f4f78605287292d2559a92d9a":[2,0,1,6,3,40],
-"d4/db7/cl__minigames_8qc.html#a5657b7bf68ae63b8b3c54c10a722f74b":[2,0,1,6,3,26],
-"d4/db7/cl__minigames_8qc.html#a5f36281bd221f84e9e614d8976cd7dd1":[2,0,1,6,3,36],
-"d4/db7/cl__minigames_8qc.html#a605390385ce9a045ef096e8d53b6d98b":[2,0,1,6,3,10],
-"d4/db7/cl__minigames_8qc.html#a668aa690502b071b56dfd97e425d8d3e":[2,0,1,6,3,35]
+"d4/db7/cl__minigames_8qc.html#a5657b7bf68ae63b8b3c54c10a722f74b":[2,0,1,6,3,26]
 };

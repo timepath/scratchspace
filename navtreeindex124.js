@@ -1,5 +1,8 @@
 var NAVTREEINDEX124 =
 {
+"de/d73/common_2mutators_2mutator_2vampirehook_2__mod_8inc_source.html":[2,0,1,9,0,32,0],
+"de/d75/server_2campaign_8qc.html":[2,0,6,15],
+"de/d75/server_2campaign_8qc.html#a0e12d1cd99d88cb61980ae77f1010fa6":[2,0,6,15,8],
 "de/d75/server_2campaign_8qc.html#a110877a8d4fcb186d1ea76594691f5b6":[2,0,6,15,13],
 "de/d75/server_2campaign_8qc.html#a2b9cdced57d7a6f892650ad7eef8c702":[2,0,6,15,4],
 "de/d75/server_2campaign_8qc.html#a4788e3c43353f0019a5f2acaee178c22":[2,0,6,15,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX124 =
 "de/d9c/classTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,123,45],
 "de/d9c/classTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,123,23],
 "de/d9c/classTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,123,51],
-"de/d9c/classTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,123,31],
-"de/d9c/classTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,123,21],
-"de/d9c/classTab.html#a331c55a30b4bc22951a251062508326b":[1,0,123,24],
-"de/d9c/classTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,123,15]
+"de/d9c/classTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,123,31]
 };

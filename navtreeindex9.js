@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"d1/d39/classXonoticTeamSelectDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,245,66],
 "d1/d39/classXonoticTeamSelectDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,245,59],
 "d1/d39/classXonoticTeamSelectDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,245,95],
 "d1/d39/classXonoticTeamSelectDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,245,13],
@@ -37,6 +38,7 @@ var NAVTREEINDEX9 =
 "d1/d48/classSpectator.html#a2e357040c9fcbd4d35a09b094b7c329f":[1,0,118,43],
 "d1/d48/classSpectator.html#a2e556daf59228727cd12d5c6666da161":[1,0,118,86],
 "d1/d48/classSpectator.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012":[1,0,118,61],
+"d1/d48/classSpectator.html#a31c687c46e05fbd204175abf8cb1a93d":[1,0,118,88],
 "d1/d48/classSpectator.html#a3428db95eaa0bc6b89cc2367a8e7221c":[1,0,118,38],
 "d1/d48/classSpectator.html#a348fa10d11efdf527c16c2c6e1a018f1":[1,0,118,5],
 "d1/d48/classSpectator.html#a34910bda70c89979fe53c8b1ac2be901":[1,0,118,18],
@@ -61,7 +63,7 @@ var NAVTREEINDEX9 =
 "d1/d48/classSpectator.html#a5ffe68e3b3028b5b83443e5e5b51925f":[1,0,118,59],
 "d1/d48/classSpectator.html#a65f9df4b1ebe7629080c7fc3f7edf81d":[1,0,118,29],
 "d1/d48/classSpectator.html#a69207eb6a3c917e14314d11ba6d811f8":[1,0,118,16],
-"d1/d48/classSpectator.html#a6e2b1750af9db4c97521dce1478513a4":[1,0,118,88],
+"d1/d48/classSpectator.html#a6e2b1750af9db4c97521dce1478513a4":[1,0,118,89],
 "d1/d48/classSpectator.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,118,2],
 "d1/d48/classSpectator.html#a74b1a2c8d9c99e79c581cd35d60a4b26":[1,0,118,28],
 "d1/d48/classSpectator.html#a769e2ed60675c77d024b4204ebb2bae3":[1,0,118,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "d1/d55/classXonoticHUDModIconsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,184,72],
 "d1/d55/classXonoticHUDModIconsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,184,4],
 "d1/d55/classXonoticHUDModIconsDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,184,43],
-"d1/d55/classXonoticHUDModIconsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,184,21],
-"d1/d55/classXonoticHUDModIconsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,184,49],
-"d1/d55/classXonoticHUDModIconsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,184,54]
+"d1/d55/classXonoticHUDModIconsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,184,21]
 };

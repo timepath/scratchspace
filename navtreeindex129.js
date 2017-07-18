@@ -1,5 +1,9 @@
 var NAVTREEINDEX129 =
 {
+"df/d42/quake3_8qc.html#af42a73b640045892af733c7b2ed55743":[2,0,6,2,8,26],
+"df/d42/quake3_8qc.html#afa05d156bbfe1f471ef1a0f75033f361":[2,0,6,2,8,5],
+"df/d42/quake3_8qc.html#afe3101cf9c60d4355d940b8e37b1bdad":[2,0,6,2,8,18],
+"df/d42/quake3_8qc.html#afe93d47c3383f9ef99fb4ceb408b2fbe":[2,0,6,2,8,12],
 "df/d42/quake3_8qc_source.html":[2,0,6,2,8],
 "df/d42/vaporizer_8qc.html":[2,0,1,16,0,38],
 "df/d42/vaporizer_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,38,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX129 =
 "df/d71/announcer_8qh.html":[2,0,0,9],
 "df/d71/announcer_8qh.html#a74359ed785035246489934d025ae3278":[2,0,0,9,1],
 "df/d71/announcer_8qh.html#abb5b4637e37634b1b1ccc43540b8b369":[2,0,0,9,0],
-"df/d71/announcer_8qh_source.html":[2,0,0,9],
-"df/d71/walker__weapon_8qc.html":[2,0,1,14,0,44],
-"df/d71/walker__weapon_8qc_source.html":[2,0,1,14,0,44],
-"df/d75/client_2commands_2__mod_8qh.html":[2,0,0,0,1],
-"df/d75/client_2commands_2__mod_8qh_source.html":[2,0,0,0,1]
+"df/d71/announcer_8qh_source.html":[2,0,0,9]
 };
