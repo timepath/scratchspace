@@ -1,5 +1,16 @@
 var NAVTREEINDEX60 =
 {
+"d6/de9/cheats_8qc.html#ab12ab680ff52099e78d6e3a7968815dc":[2,0,6,17,6],
+"d6/de9/cheats_8qc.html#abf690db48ff84b0c056187a5c58bd53d":[2,0,6,17,33],
+"d6/de9/cheats_8qc.html#ac8c324931fb0af19eddfa7d523f12321":[2,0,6,17,38],
+"d6/de9/cheats_8qc.html#addaa80f08a1814656fc04b113d1bdc3e":[2,0,6,17,27],
+"d6/de9/cheats_8qc.html#ae9d36814925a74febb4ea1d621c300a5":[2,0,6,17,36],
+"d6/de9/cheats_8qc.html#aecc34d4a00fe223b018b37bcd6f15b80":[2,0,6,17,17],
+"d6/de9/cheats_8qc.html#af2cf7e359cda23b596ac40cda3f9ba87":[2,0,6,17,11],
+"d6/de9/cheats_8qc.html#affd68caf8089e024ad13b9a58366272f":[2,0,6,17,37],
+"d6/de9/cheats_8qc_source.html":[2,0,6,17],
+"d6/dea/crosshairpicker_8qc.html":[2,0,5,4,28],
+"d6/dea/crosshairpicker_8qc.html#a4c4327ccd7a6062460da870f8b6b33b7":[2,0,5,4,28,2],
 "d6/dea/crosshairpicker_8qc.html#a56c691ef6239647964068dc4850b9bf1":[2,0,5,4,28,4],
 "d6/dea/crosshairpicker_8qc.html#a5c221b96cde768a1ba2bb5c09a80ca01":[2,0,5,4,28,3],
 "d6/dea/crosshairpicker_8qc.html#a7e1c51fffefece8ef83e7546df6d05e7":[2,0,5,4,28,6],
@@ -238,16 +249,5 @@ var NAVTREEINDEX60 =
 "d7/d15/hud_8qc_source.html":[2,0,0,1,3],
 "d7/d16/effectinfo__ctf_8inc.html":[2,0,1,2,11],
 "d7/d16/effectinfo__ctf_8inc.html#a402c648c54311178d0b7a802721d0077":[2,0,1,2,11,0],
-"d7/d16/effectinfo__ctf_8inc.html#a6d93f2c8d9abc0c40c571aa365bbffd9":[2,0,1,2,11,1],
-"d7/d16/effectinfo__ctf_8inc.html#a6f2b376dbc94981ee65efb8dc2ea6706":[2,0,1,2,11,3],
-"d7/d16/effectinfo__ctf_8inc.html#a6fc5382131c33904a608bf4cf3ca8f5b":[2,0,1,2,11,4],
-"d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95":[2,0,1,2,11,2],
-"d7/d16/effectinfo__ctf_8inc.html#a85f508a5476a5c8926444a9f51adb6ae":[2,0,1,2,11,7],
-"d7/d16/effectinfo__ctf_8inc.html#abd16ac722a8dc9d6a3e751e183904312":[2,0,1,2,11,8],
-"d7/d16/effectinfo__ctf_8inc.html#ad4a5e22b886d6feb257b3d59f68db574":[2,0,1,2,11,9],
-"d7/d16/effectinfo__ctf_8inc.html#aec7fa2cd8b4b21ca066ceba7d1144d1e":[2,0,1,2,11,5],
-"d7/d16/effectinfo__ctf_8inc.html#af8c9db4b8142e7bf4440e8702496e022":[2,0,1,2,11,6],
-"d7/d16/effectinfo__ctf_8inc_source.html":[2,0,1,2,11],
-"d7/d16/server_2command_2vote_8qh.html":[2,0,6,1,17],
-"d7/d16/server_2command_2vote_8qh.html#a11f792d86f16e821bb9f127715f2234e":[2,0,6,1,17,0]
+"d7/d16/effectinfo__ctf_8inc.html#a6d93f2c8d9abc0c40c571aa365bbffd9":[2,0,1,2,11,1]
 };

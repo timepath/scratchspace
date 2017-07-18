@@ -1,5 +1,16 @@
 var NAVTREEINDEX92 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,233,84],
+"da/db7/classXonoticServerInfoDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,233,58],
+"da/db7/classXonoticServerInfoDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,233,48],
+"da/db7/classXonoticServerInfoDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,233,51],
+"da/db7/classXonoticServerInfoDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,233,42],
+"da/db7/classXonoticServerInfoDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,233,91],
+"da/db7/classXonoticServerInfoDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,233,59],
+"da/db7/classXonoticServerInfoDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,233,18],
+"da/db7/classXonoticServerInfoDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,233,76],
+"da/db7/classXonoticServerInfoDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,233,86],
+"da/db7/classXonoticServerInfoDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,233,1],
 "da/db7/classXonoticServerInfoDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,233,32],
 "da/db7/classXonoticServerInfoDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,233,105],
 "da/db7/classXonoticServerInfoDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,233,52],
@@ -238,16 +249,5 @@ var NAVTREEINDEX92 =
 "da/dc1/server_2player_8qh.html#ac974b48d82d74768cf11277874c39b9d":[2,0,6,48,5],
 "da/dc1/server_2player_8qh.html#acd6554a25e5a6c81d0ebe4eea07ecb07":[2,0,6,48,6],
 "da/dc1/server_2player_8qh.html#ad782a8ecd5d72aefee13e592a4906f84":[2,0,6,48,2],
-"da/dc1/server_2player_8qh.html#aea48339798453aef3726fe26f97a9bc2":[2,0,6,48,22],
-"da/dc1/server_2player_8qh.html#aef50b8473159af9d6f77b966bc0cbe00":[2,0,6,48,4],
-"da/dc1/server_2player_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1":[2,0,6,48,11],
-"da/dc1/server_2player_8qh.html#af2cf7e359cda23b596ac40cda3f9ba87":[2,0,6,48,3],
-"da/dc1/server_2player_8qh.html#af95438c9bb198a1d1c87af0260cc10a3":[2,0,6,48,14],
-"da/dc1/server_2player_8qh_source.html":[2,0,6,48],
-"da/dc3/common_2scores_8qh.html":[2,0,1,41],
-"da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557":[2,0,1,41,8],
-"da/dc3/common_2scores_8qh.html#a0b31ff7434fe27ce6efac51215c64bf6":[2,0,1,41,3],
-"da/dc3/common_2scores_8qh.html#a1310f6ab1eb47643385baab1b3227603":[2,0,1,41,0],
-"da/dc3/common_2scores_8qh.html#a33057a6d152c561394a3b599fed28313":[2,0,1,41,5],
-"da/dc3/common_2scores_8qh.html#a3369f48f67ca00aed944e7884e354ba0":[2,0,1,41,14]
+"da/dc1/server_2player_8qh.html#aea48339798453aef3726fe26f97a9bc2":[2,0,6,48,22]
 };

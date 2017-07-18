@@ -444,19 +444,20 @@ $(document).ready(function(){initNavTree('d7/d5c/common_2stats_8qh_source.html',
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<a class="code" href="../../d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08">REGISTER_STAT</a>(MOVEVARS_STEPHEIGHT, <span class="keywordtype">float</span>, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ae5c2afba74fbd8263aef8c457e66bae7">autocvar_sv_stepheight</a>)</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<a class="code" href="../../d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08">REGISTER_STAT</a>(MOVEVARS_AIRACCEL_QW, <span class="keywordtype">float</span>)</div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<a class="code" href="../../d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08">REGISTER_STAT</a>(MOVEVARS_AIRACCEL_SIDEWAYS_FRICTION, <span class="keywordtype">float</span>)</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<a class="code" href="../../d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08">REGISTER_STAT</a>(MOVEVARS_SPECIALCOMMAND, <span class="keywordtype">bool</span>)</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="preprocessor"></span>noref <span class="keywordtype">int</span> autocvar_cl_gunalign;</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;<span class="preprocessor"></span>.int cvar_cl_gunalign;</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;<a class="code" href="../../d2/dac/sv__buffs_8qc.html#aa29572fe821be9b2b28140848bff4f2a">REPLICATE</a>(cvar_cl_gunalign, <span class="keywordtype">int</span>, <span class="stringliteral">&quot;cl_gunalign&quot;</span>);</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08">REGISTER_STAT</a>(GUNALIGN, <span class="keywordtype">int</span>, this.cvar_cl_gunalign)</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d8/de2/server_2client_8qh.html#a78d6b1a9d49f7d040f67eb1bac3805ce">SPECTATE_COPYFIELD</a>(_STAT(GUNALIGN))</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;<span class="preprocessor"></span>noref <span class="keywordtype">int</span> autocvar_cl_gunalign;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;<span class="preprocessor"></span>.int cvar_cl_gunalign;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;<a class="code" href="../../d2/dac/sv__buffs_8qc.html#aa29572fe821be9b2b28140848bff4f2a">REPLICATE</a>(cvar_cl_gunalign, <span class="keywordtype">int</span>, <span class="stringliteral">&quot;cl_gunalign&quot;</span>);</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08">REGISTER_STAT</a>(GUNALIGN, <span class="keywordtype">int</span>, this.cvar_cl_gunalign)</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d8/de2/server_2client_8qh.html#a78d6b1a9d49f7d040f67eb1bac3805ce">SPECTATE_COPYFIELD</a>(_STAT(GUNALIGN))</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="movetypes_8qh_html"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html">movetypes.qh</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
 <div class="ttc" id="movetypes_8qh_html_a355ad000887bfbb3fa387376ce9116ef"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a355ad000887bfbb3fa387376ce9116ef">GAMEPLAYFIX_DOWNTRACEONGROUND</a></div><div class="ttdeci">#define GAMEPLAYFIX_DOWNTRACEONGROUND(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00016">movetypes.qh:16</a></div></div>
@@ -513,7 +514,7 @@ $(document).ready(function(){initNavTree('d7/d5c/common_2stats_8qh_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../d7/d5c/common_2stats_8qh.html">stats.qh</a></li>
-    <li class="footer">Generated on Tue Jul 18 2017 00:11:16 for Xonotic by
+    <li class="footer">Generated on Tue Jul 18 2017 02:43:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

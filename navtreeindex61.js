@@ -1,5 +1,16 @@
 var NAVTREEINDEX61 =
 {
+"d7/d16/effectinfo__ctf_8inc.html#a6f2b376dbc94981ee65efb8dc2ea6706":[2,0,1,2,11,3],
+"d7/d16/effectinfo__ctf_8inc.html#a6fc5382131c33904a608bf4cf3ca8f5b":[2,0,1,2,11,4],
+"d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95":[2,0,1,2,11,2],
+"d7/d16/effectinfo__ctf_8inc.html#a85f508a5476a5c8926444a9f51adb6ae":[2,0,1,2,11,7],
+"d7/d16/effectinfo__ctf_8inc.html#abd16ac722a8dc9d6a3e751e183904312":[2,0,1,2,11,8],
+"d7/d16/effectinfo__ctf_8inc.html#ad4a5e22b886d6feb257b3d59f68db574":[2,0,1,2,11,9],
+"d7/d16/effectinfo__ctf_8inc.html#aec7fa2cd8b4b21ca066ceba7d1144d1e":[2,0,1,2,11,5],
+"d7/d16/effectinfo__ctf_8inc.html#af8c9db4b8142e7bf4440e8702496e022":[2,0,1,2,11,6],
+"d7/d16/effectinfo__ctf_8inc_source.html":[2,0,1,2,11],
+"d7/d16/server_2command_2vote_8qh.html":[2,0,6,1,17],
+"d7/d16/server_2command_2vote_8qh.html#a11f792d86f16e821bb9f127715f2234e":[2,0,6,1,17,0],
 "d7/d16/server_2command_2vote_8qh.html#a12d81cd0a0e6b174a24da4a253c7a225":[2,0,6,1,17,22],
 "d7/d16/server_2command_2vote_8qh.html#a19f9361beae709b1d1cc00c9d8d18133":[2,0,6,1,17,16],
 "d7/d16/server_2command_2vote_8qh.html#a1b6eeda20b37df058b8b6c10f1254c8d":[2,0,6,1,17,37],
@@ -238,16 +249,5 @@ var NAVTREEINDEX61 =
 "d7/d39/classXonoticVideoSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,251,88],
 "d7/d39/classXonoticVideoSettingsTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,251,11],
 "d7/d39/classXonoticVideoSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,251,7],
-"d7/d39/shownames_8qc.html":[2,0,0,26],
-"d7/d39/shownames_8qc.html#a05baddc07fb1b4dcfd2bd6158e47c7a1":[2,0,0,26,3],
-"d7/d39/shownames_8qc.html#a100ee84f64905e776d1f99f6a6fa3d8d":[2,0,0,26,2],
-"d7/d39/shownames_8qc.html#a66025a30edcbb2803deae74b3743c3f6":[2,0,0,26,4],
-"d7/d39/shownames_8qc.html#a90a6be6d3fdd60823939908645b45d38":[2,0,0,26,5],
-"d7/d39/shownames_8qc.html#a9ccf8f67a13521356d76071fce9be7c6":[2,0,0,26,1],
-"d7/d39/shownames_8qc.html#ae84061a430077f6deea0123fa97d41b8":[2,0,0,26,0],
-"d7/d39/shownames_8qc_source.html":[2,0,0,26],
-"d7/d39/sv__nix_8qc.html":[2,0,1,9,0,19,2],
-"d7/d39/sv__nix_8qc.html#a0932f4856b5a766f5d286a86db049539":[2,0,1,9,0,19,2,17],
-"d7/d39/sv__nix_8qc.html#a109934be0973771628ac9a323a127a12":[2,0,1,9,0,19,2,13],
-"d7/d39/sv__nix_8qc.html#a14d98a2ff17ee2b5d9ccd1f8782acbaf":[2,0,1,9,0,19,2,4]
+"d7/d39/shownames_8qc.html":[2,0,0,26]
 };

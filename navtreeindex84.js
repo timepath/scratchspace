@@ -1,5 +1,16 @@
 var NAVTREEINDEX84 =
 {
+"d9/d6e/classTuba.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,128,7],
+"d9/d6e/classTuba.html#ac6f60d2aeb3466eb5209d3dfec04dba1":[1,0,128,25],
+"d9/d6e/classTuba.html#ac986eddf81cf219bfb9525ce64afcb2b":[1,0,128,29],
+"d9/d6e/classTuba.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,128,3],
+"d9/d6e/classTuba.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,128,35],
+"d9/d6e/classTuba.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,128,22],
+"d9/d6e/classTuba.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,128,17],
+"d9/d6e/classTuba.html#af765598ed8e13079da67cd5058d93e37":[1,0,128,33],
+"d9/d71/classCommand.html":[1,0,19],
+"d9/d71/classCommand.html#a0f2cd8b45baa552bdb284ad6cc0e5e99":[1,0,19,0],
+"d9/d71/classCommand.html#a12e2c9c862d73b0477fd4ac4cf677ea2":[1,0,19,1],
 "d9/d71/classCommand.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,19,2],
 "d9/d71/classCommand.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,19,3],
 "d9/d71/classCommand.html#ac64931fa59dc71e81befc2854c7d0108":[1,0,19,4],
@@ -238,16 +249,5 @@ var NAVTREEINDEX84 =
 "d9/da8/angle_8qc.html#a4987931db380ddf12461d4347d38206c":[2,0,4,7,1],
 "d9/da8/angle_8qc.html#a87575152ba8dff8069e5610e176c0c6e":[2,0,4,7,2],
 "d9/da8/angle_8qc.html#aa1f190a348c0675e2f35688de429bef6":[2,0,4,7,6],
-"d9/da8/angle_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29":[2,0,4,7,7],
-"d9/da8/angle_8qc.html#ad6ba5c9ce5ba555a8fe05c66916bf3a0":[2,0,4,7,3],
-"d9/da8/angle_8qc.html#adbdcb565f74da318a69ef740aa3c90c2":[2,0,4,7,0],
-"d9/da8/angle_8qc.html#ae12854bbfee3cded4e34a25bc185faee":[2,0,4,7,5],
-"d9/da8/angle_8qc_source.html":[2,0,4,7],
-"d9/da8/dialog__settings__input__userbind_8qh.html":[2,0,5,4,143],
-"d9/da8/dialog__settings__input__userbind_8qh_source.html":[2,0,5,4,143],
-"d9/dad/xonotic_2radiobutton_8qc.html":[2,0,5,4,192],
-"d9/dad/xonotic_2radiobutton_8qc.html#a0dfcbd84caa25aaa08982bbfc704eede":[2,0,5,4,192,2],
-"d9/dad/xonotic_2radiobutton_8qc.html#a2ca6480e870cba291535f4c1a0e0b42e":[2,0,5,4,192,5],
-"d9/dad/xonotic_2radiobutton_8qc.html#a32a30d845be2abcd0c19f299e86bc524":[2,0,5,4,192,4],
-"d9/dad/xonotic_2radiobutton_8qc.html#a68f33e724b7d01c3f3a6b29c06cc2240":[2,0,5,4,192,6]
+"d9/da8/angle_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29":[2,0,4,7,7]
 };
