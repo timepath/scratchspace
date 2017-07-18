@@ -1,5 +1,8 @@
 var NAVTREEINDEX79 =
 {
+"d8/df7/classXonoticParticlesSlider.html#a99f113cbca6d20b18128c10c6d236867":[1,0,213,80],
+"d8/df7/classXonoticParticlesSlider.html#a9c04727d8b4f644f96fad98456d78dd9":[1,0,213,98],
+"d8/df7/classXonoticParticlesSlider.html#a9db73c915b3dace3a88f396a2824a071":[1,0,213,68],
 "d8/df7/classXonoticParticlesSlider.html#a9e2c4bf741bd04d166a2c21130d15b0b":[1,0,213,41],
 "d8/df7/classXonoticParticlesSlider.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,213,51],
 "d8/df7/classXonoticParticlesSlider.html#aa23332c9eb304ac4bf65130df8badac8":[1,0,213,25],
@@ -239,15 +242,12 @@ var NAVTREEINDEX79 =
 "d9/d09/notifications_2all_8inc.html#aa3a4d79ed24e4270f2709c15572bcb55":[2,0,1,10,2,82],
 "d9/d09/notifications_2all_8inc.html#aa583cefe8d6c6e9fd01a92f2c0fc65fd":[2,0,1,10,2,17],
 "d9/d09/notifications_2all_8inc.html#aa5aa438920819e19cb1fe616676f105e":[2,0,1,10,2,40],
-"d9/d09/notifications_2all_8inc.html#aa70139908e42bd651952f525524945ed":[2,0,1,10,2,87],
 "d9/d09/notifications_2all_8inc.html#aa70139908e42bd651952f525524945ed":[2,0,1,10,2,43],
+"d9/d09/notifications_2all_8inc.html#aa70139908e42bd651952f525524945ed":[2,0,1,10,2,87],
 "d9/d09/notifications_2all_8inc.html#aa7fdd9e116e2ad964b41d8b8e241ad6a":[2,0,1,10,2,80],
 "d9/d09/notifications_2all_8inc.html#aa9dfa8dd887b9af93bfebfc6319ed283":[2,0,1,10,2,72],
 "d9/d09/notifications_2all_8inc.html#aafac33923357965a02aed0681aeb30c2":[2,0,1,10,2,2],
 "d9/d09/notifications_2all_8inc.html#ab1498bdd3af05798ac3e9a3fa8635a77":[2,0,1,10,2,36],
 "d9/d09/notifications_2all_8inc.html#ab20646a57372920702451f223aaa96c5":[2,0,1,10,2,51],
-"d9/d09/notifications_2all_8inc.html#ab46a7a80541737a1426fb041ae89174f":[2,0,1,10,2,60],
-"d9/d09/notifications_2all_8inc.html#ab4b8ff63b707740c5fdb285990bc454e":[2,0,1,10,2,39],
-"d9/d09/notifications_2all_8inc.html#ab99fd8f2e2d09e15500b2ec4b6bafd0d":[2,0,1,10,2,89],
-"d9/d09/notifications_2all_8inc.html#aba66a830c406d8094895583a68344033":[2,0,1,10,2,13]
+"d9/d09/notifications_2all_8inc.html#ab46a7a80541737a1426fb041ae89174f":[2,0,1,10,2,60]
 };

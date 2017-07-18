@@ -1,5 +1,8 @@
 var NAVTREEINDEX44 =
 {
+"d4/de8/classRacerAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,103,8],
+"d4/de8/classRacerAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,103,2],
+"d4/de8/classRacerAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,103,34],
 "d4/de8/classRacerAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,103,27],
 "d4/de8/classRacerAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,103,4],
 "d4/de8/classRacerAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,103,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX44 =
 "d5/d14/scores__rules_8qc_source.html":[2,0,6,60],
 "d5/d16/weaponarenacheckbox_8qh.html":[2,0,5,4,231],
 "d5/d16/weaponarenacheckbox_8qh.html#adf56d4bc38e7c5065719b469089a3ba5":[2,0,5,4,231,1],
-"d5/d16/weaponarenacheckbox_8qh_source.html":[2,0,5,4,231],
-"d5/d18/shambler_8qh.html":[2,0,1,8,0,5],
-"d5/d18/shambler_8qh.html#a0e481da3c0bf84f47a8e0d447569def3":[2,0,1,8,0,5,1],
-"d5/d18/shambler_8qh_source.html":[2,0,1,8,0,5]
+"d5/d16/weaponarenacheckbox_8qh_source.html":[2,0,5,4,231]
 };

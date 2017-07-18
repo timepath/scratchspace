@@ -1,5 +1,8 @@
 var NAVTREEINDEX36 =
 {
+"d4/d1b/race_8qh.html#aed3e7eeefa007399c2c062b2b038a594":[2,0,6,55,42],
+"d4/d1b/race_8qh.html#aeea8ac23a101c900b79ac67b637b7f70":[2,0,6,55,40],
+"d4/d1b/race_8qh.html#af388c4e5001dfa76a890f8f07c52f8ab":[2,0,6,55,26],
 "d4/d1b/race_8qh.html#afa5e1361b7c998c73649e0ac53556901":[2,0,6,55,3],
 "d4/d1b/race_8qh_source.html":[2,0,6,55],
 "d4/d1b/radar_8qh.html":[2,0,0,1,0,31],
@@ -246,8 +249,5 @@ var NAVTREEINDEX36 =
 "d4/d3f/classXonoticKeyBinder.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,200,37],
 "d4/d3f/classXonoticKeyBinder.html#af8edd18c9eaf526bb6637782aea9fc6a":[1,0,200,14],
 "d4/d3f/classXonoticKeyBinder.html#af9d941569d16ba17cec674b89df93ad0":[1,0,200,28],
-"d4/d3f/classXonoticKeyBinder.html#afdcf1fb79903f747cda494b27206526b":[1,0,200,5],
-"d4/d3f/tracing_8qh.html":[2,0,6,5,17],
-"d4/d3f/tracing_8qh.html#a01fdafeeb02668e5b55cce3baccf9d01":[2,0,6,5,17,17],
-"d4/d3f/tracing_8qh.html#a123df86f00fdba4b448d82b91eb3c7cd":[2,0,6,5,17,11]
+"d4/d3f/classXonoticKeyBinder.html#afdcf1fb79903f747cda494b27206526b":[1,0,200,5]
 };

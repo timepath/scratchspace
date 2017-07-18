@@ -1,5 +1,8 @@
 var NAVTREEINDEX54 =
 {
+"d6/d3e/dialog__multiplayer__media__musicplayer_8qc.html#ae9b7f89bd3642548beae29d55d467f5b":[2,0,5,4,106,1],
+"d6/d3e/dialog__multiplayer__media__musicplayer_8qc_source.html":[2,0,5,4,106],
+"d6/d3f/dialog__hudpanel__physics_8qh.html":[2,0,5,4,63],
 "d6/d3f/dialog__hudpanel__physics_8qh_source.html":[2,0,5,4,63],
 "d6/d3f/ecs_2events_2physics_8qc.html":[2,0,3,1,2],
 "d6/d3f/ecs_2events_2physics_8qc_source.html":[2,0,3,1,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,167,38],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,167,46],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,167,58],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,167,89],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,167,21],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,167,65],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,167,57]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,167,89]
 };

@@ -233,7 +233,7 @@ var searchData=
   ['buff_5fmin',['BUFF_MIN',['../d8/dd8/sv__buffs_8qh.html#aae701057346d25da5248646e0898e5ff',1,'sv_buffs.qh']]],
   ['buff_5fmodel',['buff_model',['../d8/dd8/sv__buffs_8qh.html#a14f4e75f961cd8672b251062ae26870b',1,'sv_buffs.qh']]],
   ['buff_5fseencount',['buff_seencount',['../d2/dac/sv__buffs_8qc.html#a671e9a86cffc00c52255ca6529b70a6f',1,'sv_buffs.qc']]],
-  ['buff_5fshield',['buff_shield',['../d8/dd8/sv__buffs_8qh.html#a028d0aff7513914b039f9a16bc1ed86b',1,'sv_buffs.qh']]],
+  ['buff_5fshield',['buff_shield',['../d2/d4b/classPlayer.html#ace840d3a11e23f99e3d7cb26a8b2b096',1,'Player::buff_shield()'],['../d8/dd8/sv__buffs_8qh.html#a028d0aff7513914b039f9a16bc1ed86b',1,'buff_shield():&#160;sv_buffs.qh']]],
   ['buff_5ftime',['buff_time',['../d2/dac/sv__buffs_8qc.html#a8d983d10c7bce9bf00b799cf5d464bc9',1,'sv_buffs.qc']]],
   ['buff_5fwaypoint',['buff_waypoint',['../d8/dd8/sv__buffs_8qh.html#a39a49dfb13476e573dab25e06a90e563',1,'sv_buffs.qh']]],
   ['bufferindex',['bufferIndex',['../d4/d55/classXonoticCreditsList.html#aa826bb0f5ee16ec5345b791680e84aee',1,'XonoticCreditsList']]],

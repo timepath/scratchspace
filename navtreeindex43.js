@@ -1,5 +1,8 @@
 var NAVTREEINDEX43 =
 {
+"d4/db7/cl__minigames_8qc.html#a3f50d48603ccc5c4949bf5d84b0daa78":[2,0,1,6,3,31],
+"d4/db7/cl__minigames_8qc.html#a494190b92b736511115345e0437821b6":[2,0,1,6,3,16],
+"d4/db7/cl__minigames_8qc.html#a558c3b2f4f78605287292d2559a92d9a":[2,0,1,6,3,40],
 "d4/db7/cl__minigames_8qc.html#a5657b7bf68ae63b8b3c54c10a722f74b":[2,0,1,6,3,26],
 "d4/db7/cl__minigames_8qc.html#a5f36281bd221f84e9e614d8976cd7dd1":[2,0,1,6,3,36],
 "d4/db7/cl__minigames_8qc.html#a605390385ce9a045ef096e8d53b6d98b":[2,0,1,6,3,10],
@@ -90,12 +93,12 @@ var NAVTREEINDEX43 =
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,5,21,5],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,21,0],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,21,1],
-"d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,21,3],
 "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,21,2],
+"d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,21,3],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,21,8],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,21,9],
-"d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,21,7],
 "d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,21,6],
+"d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,21,7],
 "d4/dcc/skin_8qh_source.html":[2,0,5,21],
 "d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc.html":[2,0,1,9,0,24,0],
 "d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc_source.html":[2,0,1,9,0,24,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX43 =
 "d4/de8/classRacerAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,103,1],
 "d4/de8/classRacerAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,103,15],
 "d4/de8/classRacerAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,103,9],
-"d4/de8/classRacerAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,103,24],
-"d4/de8/classRacerAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,103,8],
-"d4/de8/classRacerAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,103,2],
-"d4/de8/classRacerAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,103,34]
+"d4/de8/classRacerAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,103,24]
 };
