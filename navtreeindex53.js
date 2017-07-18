@@ -1,5 +1,8 @@
 var NAVTREEINDEX53 =
 {
+"d6/d27/scripting_8qc.html":[2,0,6,0,0,11],
+"d6/d27/scripting_8qc.html#a0527927277c1effeb9f28f1dac4621ae":[2,0,6,0,0,11,8],
+"d6/d27/scripting_8qc.html#a0e45d65d2fc8758703c49e86e0cfb17e":[2,0,6,0,0,11,48],
 "d6/d27/scripting_8qc.html#a0f917669c5fa1a779096bb3e65e5c1e0":[2,0,6,0,0,11,38],
 "d6/d27/scripting_8qc.html#a13bd9a67fe5c8c0b6fb78ebd79e7e61c":[2,0,6,0,0,11,12],
 "d6/d27/scripting_8qc.html#a15199909a8e4e7cebad40553e188d902":[2,0,6,0,0,11,21],
@@ -246,8 +249,5 @@ var NAVTREEINDEX53 =
 "d6/d40/dialog__hudpanel__racetimer_8qc.html#a36cfdc6003a7544ff324c3c0236884e6":[2,0,5,4,70,0],
 "d6/d40/dialog__hudpanel__racetimer_8qc_source.html":[2,0,5,4,70],
 "d6/d41/common_2mutators_2mutator_2instagib_2__mod_8qh.html":[2,0,1,9,0,11,1],
-"d6/d41/common_2mutators_2mutator_2instagib_2__mod_8qh_source.html":[2,0,1,9,0,11,1],
-"d6/d41/common_2mutators_2mutator_2vampirehook_2__mod_8qh.html":[2,0,1,9,0,32,1],
-"d6/d41/common_2mutators_2mutator_2vampirehook_2__mod_8qh_source.html":[2,0,1,9,0,32,1],
-"d6/d4c/colorpicker_8qc.html":[2,0,5,4,20]
+"d6/d41/common_2mutators_2mutator_2instagib_2__mod_8qh_source.html":[2,0,1,9,0,11,1]
 };

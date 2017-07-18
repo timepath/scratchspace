@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"d2/d76/server_2mapvoting_8qc.html#a858074923c6e66b2b4c8a559306a359d":[2,0,6,41,18],
+"d2/d76/server_2mapvoting_8qc.html#a86d416582e14464ae9e7c5d64792f885":[2,0,6,41,25],
+"d2/d76/server_2mapvoting_8qc.html#a8a5ea28294f6199f1abe82e72620a116":[2,0,6,41,24],
 "d2/d76/server_2mapvoting_8qc.html#a8b75f9b76bb5f28028b8b6ce8d7b47f6":[2,0,6,41,5],
 "d2/d76/server_2mapvoting_8qc.html#a8c437df1e36d1d6bc2c656765173f4b1":[2,0,6,41,14],
 "d2/d76/server_2mapvoting_8qc.html#a97fb409a53c174303f0b37ce776e6e0a":[2,0,6,41,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d9e/mapinfo_8qh_source.html":[2,0,1,35],
 "d2/da2/pointparticles_8qh.html":[2,0,1,13,0,27],
 "d2/da2/pointparticles_8qh_source.html":[2,0,1,13,0,27],
-"d2/dac/sv__buffs_8qc.html":[2,0,1,9,0,2,7],
-"d2/dac/sv__buffs_8qc.html#a012236acf2fd257ecc57309d396d2908":[2,0,1,9,0,2,7,16],
-"d2/dac/sv__buffs_8qc.html#a09c4b52d69e637a711dddfc30de00505":[2,0,1,9,0,2,7,38],
-"d2/dac/sv__buffs_8qc.html#a0c1e1125ba09776947b5b4e73d47e4e9":[2,0,1,9,0,2,7,37]
+"d2/dac/sv__buffs_8qc.html":[2,0,1,9,0,2,7]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX23 =
 {
+"d3/d05/hud_8qh_source.html":[2,0,0,1,4],
+"d3/d06/crosshairpicker_8qh.html":[2,0,5,4,29],
+"d3/d06/crosshairpicker_8qh.html#a4c4327ccd7a6062460da870f8b6b33b7":[2,0,5,4,29,1],
 "d3/d06/crosshairpicker_8qh_source.html":[2,0,5,4,29],
 "d3/d07/scoreboard_8qc.html":[2,0,0,1,0,34],
 "d3/d07/scoreboard_8qc.html#a081ba5146fc41e68ac88554ed8a02840":[2,0,0,1,0,34,21],
@@ -246,8 +249,5 @@ var NAVTREEINDEX23 =
 "d3/d1f/items_2all_8qc.html#a718980a67d03a2d6feb39aa9b06307cd":[2,0,1,5,3,1],
 "d3/d1f/items_2all_8qc.html#a9ed3c9d014eee8604675aed9bb11144e":[2,0,1,5,3,2],
 "d3/d1f/items_2all_8qc_source.html":[2,0,1,5,3],
-"d3/d21/doublejump_8qh.html":[2,0,1,9,0,8,3],
-"d3/d21/doublejump_8qh_source.html":[2,0,1,9,0,8,3],
-"d3/d24/settings_8qh.html":[2,0,4,0,14],
-"d3/d24/settings_8qh.html#a7e45169d39a4fbe54c9e7bef975dc858":[2,0,4,0,14,0]
+"d3/d21/doublejump_8qh.html":[2,0,1,9,0,8,3]
 };

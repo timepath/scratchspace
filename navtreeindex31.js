@@ -1,5 +1,8 @@
 var NAVTREEINDEX31 =
 {
+"d3/dd8/item_2inputbox_8qc_source.html":[2,0,5,2,14],
+"d3/dd9/walker__weapon_8qh.html":[2,0,1,14,0,45],
+"d3/dd9/walker__weapon_8qh.html#aba4a1abba8de458250f977065ee98b98":[2,0,1,14,0,45,1],
 "d3/dd9/walker__weapon_8qh_source.html":[2,0,1,14,0,45],
 "d3/ddb/tuba_8qh.html":[2,0,1,16,0,37],
 "d3/ddb/tuba_8qh_source.html":[2,0,1,16,0,37],
@@ -246,8 +249,5 @@ var NAVTREEINDEX31 =
 "d3/dfc/csqcmodel__hooks_8qh.html#ac684f20e961177dbb0cfa738c5c5716c":[2,0,0,15,2],
 "d3/dfc/csqcmodel__hooks_8qh.html#acd9d00d9aad1f54ff833ef7cfab8e3d4":[2,0,0,15,10],
 "d3/dfc/csqcmodel__hooks_8qh.html#ad01992c77bcab72954bcc079881e7083":[2,0,0,15,17],
-"d3/dfc/csqcmodel__hooks_8qh.html#ae4b99cdb8615a6bdfb9dc79b5f6548a9":[2,0,0,15,9],
-"d3/dfc/csqcmodel__hooks_8qh.html#af240a1e5d3a5816aab4bbb2c829dc5e1":[2,0,0,15,7],
-"d3/dfc/csqcmodel__hooks_8qh.html#af5d9150d839fcdb63c8f337949ee149c":[2,0,0,15,8],
-"d3/dfc/csqcmodel__hooks_8qh_source.html":[2,0,0,15]
+"d3/dfc/csqcmodel__hooks_8qh.html#ae4b99cdb8615a6bdfb9dc79b5f6548a9":[2,0,0,15,9]
 };

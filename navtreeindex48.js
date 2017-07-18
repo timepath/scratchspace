@@ -1,5 +1,8 @@
 var NAVTREEINDEX48 =
 {
+"d5/d73/classXonoticEffectsSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,165,86],
+"d5/d73/classXonoticEffectsSettingsTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,165,55],
+"d5/d73/classXonoticEffectsSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,165,59],
 "d5/d73/classXonoticEffectsSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,165,64],
 "d5/d73/classXonoticEffectsSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,165,77],
 "d5/d73/classXonoticEffectsSettingsTab.html#adc838af8e1b143a27fa29fac528eaac7":[1,0,165,84],
@@ -246,8 +249,5 @@ var NAVTREEINDEX48 =
 "d5/da4/classTeslaCoil.html#a2a21488c80dc12707e9509eafff4ab39":[1,0,125,18],
 "d5/da4/classTeslaCoil.html#a3144102787442a58055180121b5e9536":[1,0,125,13],
 "d5/da4/classTeslaCoil.html#a34980e66ed09a68af3e3fa9e204a18ca":[1,0,125,1],
-"d5/da4/classTeslaCoil.html#a39e5a0c556674a63f78ed1a326bee337":[1,0,125,14],
-"d5/da4/classTeslaCoil.html#a3f55a0540df468e6f0406b2907921e9a":[1,0,125,2],
-"d5/da4/classTeslaCoil.html#a4d5b80f49cd543b1ce7464b3eb46d53a":[1,0,125,21],
-"d5/da4/classTeslaCoil.html#a56e07d5aa23850f9cc9cd5eaa68f0880":[1,0,125,8]
+"d5/da4/classTeslaCoil.html#a39e5a0c556674a63f78ed1a326bee337":[1,0,125,14]
 };

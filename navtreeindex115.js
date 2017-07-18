@@ -1,5 +1,8 @@
 var NAVTREEINDEX115 =
 {
+"dd/d79/damagetext_8qh.html#a2e90c0f954d43e41087594ed13ea661f":[2,0,1,9,0,6,5,6],
+"dd/d79/damagetext_8qh.html#a42661999bf9556e7348184efca32d071":[2,0,1,9,0,6,5,2],
+"dd/d79/damagetext_8qh.html#a5cbdfa4026668db1c952c285071ee64d":[2,0,1,9,0,6,5,7],
 "dd/d79/damagetext_8qh.html#acd24d0449fc4677fac0addf4a0d5e9e3":[2,0,1,9,0,6,5,4],
 "dd/d79/damagetext_8qh.html#adb19c2866cdfa31be4c7fb190e28f921":[2,0,1,9,0,6,5,1],
 "dd/d79/damagetext_8qh.html#aec79b6285984eef22af18f273205c4b2":[2,0,1,9,0,6,5,0],
@@ -88,9 +91,9 @@ var NAVTREEINDEX115 =
 "dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802":[2,0,1,2,8,7],
 "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862":[2,0,1,2,8,2],
 "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840":[2,0,1,2,8,5],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,10],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,9],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,10],
 "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6":[2,0,1,2,8,14],
 "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e":[2,0,1,2,8,16],
 "dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b":[2,0,1,2,8,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX115 =
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,174,43],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,174,87],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,174,56],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,174,60],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,174,65],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,174,78],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,174,36]
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,174,60]
 };

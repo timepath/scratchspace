@@ -1,5 +1,8 @@
 var NAVTREEINDEX54 =
 {
+"d6/d41/common_2mutators_2mutator_2vampirehook_2__mod_8qh.html":[2,0,1,9,0,32,1],
+"d6/d41/common_2mutators_2mutator_2vampirehook_2__mod_8qh_source.html":[2,0,1,9,0,32,1],
+"d6/d4c/colorpicker_8qc.html":[2,0,5,4,20],
 "d6/d4c/colorpicker_8qc.html#a1518d5500c337cb4fc28faca6dd63c55":[2,0,5,4,20,3],
 "d6/d4c/colorpicker_8qc.html#a38dab2da0f91e1289887fec32ad6412d":[2,0,5,4,20,1],
 "d6/d4c/colorpicker_8qc.html#a434bb4c59cf46e5a4055073efbbc2c90":[2,0,5,4,20,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,167,91],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,167,90],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,167,81],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,167,80],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,167,56],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,167,49],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,167,75]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,167,80]
 };

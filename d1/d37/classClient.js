@@ -73,6 +73,7 @@ var classClient =
     [ "pressedkeys", "d1/d37/classClient.html#ac0b4c14857eb756ac47df1fe7a410764", null ],
     [ "race_completed", "d1/d37/classClient.html#ac5d7195b93d170598741431176eb79ad", null ],
     [ "scorekeeper", "d1/d37/classClient.html#a550615366ec442eaa85b74ba00c480f6", null ],
+    [ "specialcommand_pos", "d1/d37/classClient.html#abe38711c8778c1548110c19e6835909d", null ],
     [ "spectatee_status", "d1/d37/classClient.html#a7726503c7f30546802017511a4c25937", null ],
     [ "spectatortime", "d1/d37/classClient.html#aa707f23bd099623cdeaa19d50afd3351", null ],
     [ "taunt_soundtime", "d1/d37/classClient.html#a9bbd350ba715f5cfec4ea084e87381e8", null ],

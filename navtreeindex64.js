@@ -1,5 +1,8 @@
 var NAVTREEINDEX64 =
 {
+"d7/d9c/classMachineGunTurretAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,70,15],
+"d7/d9c/classMachineGunTurretAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,70,9],
+"d7/d9c/classMachineGunTurretAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,70,24],
 "d7/d9c/classMachineGunTurretAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,70,8],
 "d7/d9c/classMachineGunTurretAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,70,2],
 "d7/d9c/classMachineGunTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,70,34],
@@ -246,8 +249,5 @@ var NAVTREEINDEX64 =
 "d7/da7/server_2autocvars_8qh.html#a2cdcf807c51d47d0bfab01bb7a949f87":[2,0,6,14,125],
 "d7/da7/server_2autocvars_8qh.html#a2d2226e6b4b056430a7d1c3e89528376":[2,0,6,14,511],
 "d7/da7/server_2autocvars_8qh.html#a2d3fd74a73e0f0c52780bb51ec912cd3":[2,0,6,14,436],
-"d7/da7/server_2autocvars_8qh.html#a2e2121f91f7d15329735e08b83d1f727":[2,0,6,14,365],
-"d7/da7/server_2autocvars_8qh.html#a2effda29bbf2afdb6dd17f133bba62cc":[2,0,6,14,203],
-"d7/da7/server_2autocvars_8qh.html#a2f210fc86b2cd8cf2b10968dd8ffff7a":[2,0,6,14,460],
-"d7/da7/server_2autocvars_8qh.html#a2f21ce2527dab71de445c44e32ec4e9c":[2,0,6,14,23]
+"d7/da7/server_2autocvars_8qh.html#a2e2121f91f7d15329735e08b83d1f727":[2,0,6,14,365]
 };

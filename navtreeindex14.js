@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"d1/dd1/classFireball.html#a53a443c006f69d0f7f4e0f8f78f2f835":[1,0,36,32],
+"d1/dd1/classFireball.html#a5b593deca3425852248db9449ad10f6b":[1,0,36,30],
 "d1/dd1/classFireball.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,36,9],
 "d1/dd1/classFireball.html#a6d2c84f0a32544542dfbb29f8a078ef6":[1,0,36,25],
 "d1/dd1/classFireball.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,36,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "d2/d06/server_2command_2common_8qh.html#a98c84e84fa02613190817f8f75f1a28d":[2,0,6,1,7,29],
 "d2/d06/server_2command_2common_8qh.html#a99aa28112d849f672c0b13e6b8ee887b":[2,0,6,1,7,17],
 "d2/d06/server_2command_2common_8qh.html#aab19b445aac1c8d745c4c56c516db0d1":[2,0,6,1,7,48],
-"d2/d06/server_2command_2common_8qh.html#aad106b96ce581f1c60858b25392b79a6":[2,0,6,1,7,1],
-"d2/d06/server_2command_2common_8qh.html#ab052bfa722783c70e8cc4b3bdbe8e74c":[2,0,6,1,7,30],
-"d2/d06/server_2command_2common_8qh.html#ab24db245661757cdc7b669dd2146c3b4":[2,0,6,1,7,35]
+"d2/d06/server_2command_2common_8qh.html#aad106b96ce581f1c60858b25392b79a6":[2,0,6,1,7,1]
 };

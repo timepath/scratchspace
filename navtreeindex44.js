@@ -1,5 +1,8 @@
 var NAVTREEINDEX44 =
 {
+"d4/de8/classRacerAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,103,5],
+"d4/de8/classRacerAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,103,10],
+"d4/de8/classRacerAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,103,36],
 "d4/de8/classRacerAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,103,7],
 "d4/de8/classRacerAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,103,37],
 "d4/de8/classRacerAttack.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,103,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX44 =
 "d5/d1f/gamemode__invasion_8qc.html#a1f01536be6495b440a9b4ee2b8bd7e36":[2,0,6,3,0,16,25],
 "d5/d1f/gamemode__invasion_8qc.html#a236fd86093117aeb98743e15f440f9d3":[2,0,6,3,0,16,2],
 "d5/d1f/gamemode__invasion_8qc.html#a25529cc1c6aba9e850432cf8d26a5e93":[2,0,6,3,0,16,4],
-"d5/d1f/gamemode__invasion_8qc.html#a2875a2864bc796766cb242da9f86cea5":[2,0,6,3,0,16,15],
-"d5/d1f/gamemode__invasion_8qc.html#a3416ec2b05671677afee7515f63ffb86":[2,0,6,3,0,16,32],
-"d5/d1f/gamemode__invasion_8qc.html#a35de3f2be39ff6f7899b385b0a766984":[2,0,6,3,0,16,0],
-"d5/d1f/gamemode__invasion_8qc.html#a3763755fd0135adfb270e31b47605c45":[2,0,6,3,0,16,27]
+"d5/d1f/gamemode__invasion_8qc.html#a2875a2864bc796766cb242da9f86cea5":[2,0,6,3,0,16,15]
 };

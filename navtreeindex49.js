@@ -1,5 +1,8 @@
 var NAVTREEINDEX49 =
 {
+"d5/da4/classTeslaCoil.html#a3f55a0540df468e6f0406b2907921e9a":[1,0,125,2],
+"d5/da4/classTeslaCoil.html#a4d5b80f49cd543b1ce7464b3eb46d53a":[1,0,125,21],
+"d5/da4/classTeslaCoil.html#a56e07d5aa23850f9cc9cd5eaa68f0880":[1,0,125,8],
 "d5/da4/classTeslaCoil.html#a5ab1f393deac6e30fccd6b0913d2ef01":[1,0,125,17],
 "d5/da4/classTeslaCoil.html#a661a69161dcfdfd589624d1c31526554":[1,0,125,12],
 "d5/da4/classTeslaCoil.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,125,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX49 =
 "d5/de0/weaponsystem_8qc.html#a7d720b0940dda54dfd6fb8e6217c9d53":[2,0,6,5,20,36],
 "d5/de0/weaponsystem_8qc.html#a813254341767de735265a1836478ad03":[2,0,6,5,20,6],
 "d5/de0/weaponsystem_8qc.html#a8333b89e537957bfd5529a40b6c3a19d":[2,0,6,5,20,19],
-"d5/de0/weaponsystem_8qc.html#a87be562254bc4d6bc2d01f3def1ec6a1":[2,0,6,5,20,24],
-"d5/de0/weaponsystem_8qc.html#a89f234133d3efe315836311cbf21c64b":[2,0,6,5,20,32],
-"d5/de0/weaponsystem_8qc.html#a9698bec8dd417e4d1c489fa69176d21a":[2,0,6,5,20,27],
-"d5/de0/weaponsystem_8qc.html#a9bcd792c8ccabbcc22484eb7872f70b8":[2,0,6,5,20,13]
+"d5/de0/weaponsystem_8qc.html#a87be562254bc4d6bc2d01f3def1ec6a1":[2,0,6,5,20,24]
 };

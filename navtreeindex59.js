@@ -1,5 +1,8 @@
 var NAVTREEINDEX59 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#a5228af333be70e5d749d4775d73d4416":[2,0,6,3,3,25],
+"d6/ddd/server_2mutators_2events_8qh.html#a529aa3fc975277d259f685c2fda7583f":[2,0,6,3,3,179],
+"d6/ddd/server_2mutators_2events_8qh.html#a533943d2612da3ee1d4b8715ed59e6cb":[2,0,6,3,3,83],
 "d6/ddd/server_2mutators_2events_8qh.html#a575511b76cbaccd34b25544522dc4189":[2,0,6,3,3,231],
 "d6/ddd/server_2mutators_2events_8qh.html#a587bb681a38161b759133018dc16c274":[2,0,6,3,3,137],
 "d6/ddd/server_2mutators_2events_8qh.html#a5885e929edf0130e200eea743ed9acdd":[2,0,6,3,3,168],
@@ -246,8 +249,5 @@ var NAVTREEINDEX59 =
 "d6/de9/cheats_8qc.html#affd68caf8089e024ad13b9a58366272f":[2,0,6,17,37],
 "d6/de9/cheats_8qc_source.html":[2,0,6,17],
 "d6/dea/crosshairpicker_8qc.html":[2,0,5,4,28],
-"d6/dea/crosshairpicker_8qc.html#a4c4327ccd7a6062460da870f8b6b33b7":[2,0,5,4,28,2],
-"d6/dea/crosshairpicker_8qc.html#a56c691ef6239647964068dc4850b9bf1":[2,0,5,4,28,4],
-"d6/dea/crosshairpicker_8qc.html#a5c221b96cde768a1ba2bb5c09a80ca01":[2,0,5,4,28,3],
-"d6/dea/crosshairpicker_8qc.html#a7e1c51fffefece8ef83e7546df6d05e7":[2,0,5,4,28,6]
+"d6/dea/crosshairpicker_8qc.html#a4c4327ccd7a6062460da870f8b6b33b7":[2,0,5,4,28,2]
 };
