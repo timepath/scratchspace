@@ -48,7 +48,7 @@ var searchData=
   ['highlightedpanel_5finitial_5fsize',['highlightedPanel_initial_size',['../dc/d90/hud__config_8qc.html#ab2a385344d8bacc9b73beeaa4eebbb05',1,'hud_config.qc']]],
   ['hit_5ftime',['hit_time',['../de/d0c/classDamageText.html#aca8978475a45b3a88f27984419c2d7c8',1,'DamageText::hit_time()'],['../d5/d26/server_2defs_8qh.html#adedbb5b1c6f4e399a3b839f9270c0b74',1,'hit_time():&#160;defs.qh']]],
   ['hitindication_5fcrosshair_5fsize',['hitindication_crosshair_size',['../d6/dd3/view_8qc.html#add6b8340e63823af3e2d024dabc0032d',1,'view.qc']]],
-  ['hitplotfh',['hitplotfh',['../dc/d8b/hitplot_8qh.html#a0dec3059937cd4f1b051bffe2632a6a6',1,'hitplot.qh']]],
+  ['hitplotfh',['hitplotfh',['../d1/d37/classClient.html#a90aeb156a3cfabccc0d276e33438fcfd',1,'Client::hitplotfh()'],['../dc/d8b/hitplot_8qh.html#a0dec3059937cd4f1b051bffe2632a6a6',1,'hitplotfh():&#160;hitplot.qh']]],
   ['hittype_5fbounce',['HITTYPE_BOUNCE',['../d9/d4f/deathtypes_2all_8qh.html#a711c18b27d2eef6958316442f830587d',1,'all.qh']]],
   ['hittype_5freserved',['HITTYPE_RESERVED',['../d9/d4f/deathtypes_2all_8qh.html#a6d96d3884ef3f4c17701172adc3f424e',1,'all.qh']]],
   ['hittype_5freserved2',['HITTYPE_RESERVED2',['../d9/d4f/deathtypes_2all_8qh.html#ae97c6e4b865e8ba3172ec12006c87379',1,'all.qh']]],

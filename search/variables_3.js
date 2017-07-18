@@ -153,7 +153,7 @@ var searchData=
   ['clientcamera',['clientcamera',['../de/d5e/dpextensions_8qc.html#af52e724ff33c4dfc11ba1f1c4c235d30',1,'dpextensions.qc']]],
   ['clientcolors',['clientcolors',['../d1/d37/classClient.html#a65f9df4b1ebe7629080c7fc3f7edf81d',1,'Client::clientcolors()'],['../de/d5e/dpextensions_8qc.html#af27bfb7932d169929756ba06c521ee71',1,'clientcolors():&#160;dpextensions.qc']]],
   ['clientcommandframe',['clientcommandframe',['../d4/d0c/csprogsdefs_8qc.html#a049141fb62f2015f7e0aa0291c95b720',1,'csprogsdefs.qc']]],
-  ['clientdata',['clientdata',['../d5/d26/server_2defs_8qh.html#af13e104103fd80a7bd54e524fe8fc5e6',1,'defs.qh']]],
+  ['clientdata',['clientdata',['../d1/d37/classClient.html#a50d145b259aa13ff80a0fbc31cb97d7e',1,'Client::clientdata()'],['../d5/d26/server_2defs_8qh.html#af13e104103fd80a7bd54e524fe8fc5e6',1,'clientdata():&#160;defs.qh']]],
   ['clientkill_5fnexttime',['clientkill_nexttime',['../df/dd7/server_2client_8qc.html#a1f7075729b16c7fb29ac863d1a4c1725',1,'client.qc']]],
   ['clientkilltime',['clientkilltime',['../df/dd7/server_2client_8qc.html#a482f54a20df32f498a4c3cca6f372fee',1,'client.qc']]],
   ['clientprogsdb',['ClientProgsDB',['../d9/d08/client_2defs_8qh.html#a053cb927ddf4f1e7626ddfb245f0ef07',1,'defs.qh']]],

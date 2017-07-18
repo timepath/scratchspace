@@ -374,7 +374,7 @@ var searchData=
   ['clientcommandframe',['clientcommandframe',['../d4/d0c/csprogsdefs_8qc.html#a049141fb62f2015f7e0aa0291c95b720',1,'csprogsdefs.qc']]],
   ['clientconnect',['ClientConnect',['../df/dd7/server_2client_8qc.html#a54fdd4fa0492ab020e0a35c817a8f472',1,'client.qc']]],
   ['clientcount',['clientcount',['../d8/de2/menudefs_8qc.html#aa14298f2bff3ec851400f3198f572807',1,'menudefs.qc']]],
-  ['clientdata',['clientdata',['../d5/d26/server_2defs_8qh.html#af13e104103fd80a7bd54e524fe8fc5e6',1,'defs.qh']]],
+  ['clientdata',['clientdata',['../d1/d37/classClient.html#a50d145b259aa13ff80a0fbc31cb97d7e',1,'Client::clientdata()'],['../d5/d26/server_2defs_8qh.html#af13e104103fd80a7bd54e524fe8fc5e6',1,'clientdata():&#160;defs.qh']]],
   ['clientdata_5fattach',['ClientData_Attach',['../d0/d3f/state_8qc.html#ae1ed9a146c5c791944277a4ff2c890c6',1,'ClientData_Attach(entity this):&#160;client.qc'],['../df/dd7/server_2client_8qc.html#ae1ed9a146c5c791944277a4ff2c890c6',1,'ClientData_Attach(entity this):&#160;client.qc']]],
   ['clientdata_5fdetach',['ClientData_Detach',['../d0/d3f/state_8qc.html#a493d87cfdaad13d4de171211f5f7bc4d',1,'ClientData_Detach(entity this):&#160;client.qc'],['../df/dd7/server_2client_8qc.html#a493d87cfdaad13d4de171211f5f7bc4d',1,'ClientData_Detach(entity this):&#160;client.qc']]],
   ['clientdata_5fsend',['ClientData_Send',['../df/dd7/server_2client_8qc.html#aff186c20f705125efa07fdd452114768',1,'client.qc']]],
