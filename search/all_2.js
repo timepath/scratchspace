@@ -6,7 +6,7 @@ var searchData=
   ['badprefix',['BADPREFIX',['../db/dcc/g__world_8qc.html#a8de1beddd651b67787ba2753ea71d5b2',1,'g_world.qc']]],
   ['badpresuffix',['BADPRESUFFIX',['../db/dcc/g__world_8qc.html#ae923ed115dc19fb738ee4b85677546f2',1,'g_world.qc']]],
   ['ballcarried',['ballcarried',['../d5/d26/server_2defs_8qh.html#a137a4251a46a5fea7db7d4f16b190dcb',1,'defs.qh']]],
-  ['ballistics_5fdensity',['ballistics_density',['../d5/d26/server_2defs_8qh.html#a4fb2fb54df1e968eb7ecb8cc92f0f3ec',1,'defs.qh']]],
+  ['ballistics_5fdensity',['ballistics_density',['../d2/d4b/classPlayer.html#abfb4d82d39f5940c20f2e866eefb10ec',1,'Player::ballistics_density()'],['../d5/d26/server_2defs_8qh.html#a4fb2fb54df1e968eb7ecb8cc92f0f3ec',1,'ballistics_density():&#160;defs.qh']]],
   ['ballstealer',['BallStealer',['../dc/d30/classBallStealer.html',1,'']]],
   ['ban_5fchecked',['ban_checked',['../d6/d95/ipban_8qc.html#a0cc14f1baeb0997f35d7d929b2836628',1,'ipban.qc']]],
   ['ban_5fcommand',['BAN_COMMAND',['../dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae',1,'BAN_COMMAND():&#160;banning.qc'],['../dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae',1,'BAN_COMMAND():&#160;banning.qc'],['../dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae',1,'BAN_COMMAND():&#160;banning.qc'],['../dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae',1,'BAN_COMMAND():&#160;banning.qc']]],

@@ -10,6 +10,7 @@ var classPlayer =
     [ "accuracy", "d2/d4b/classPlayer.html#a7c8df93f8d890fe9c559215401df85e3", null ],
     [ "active_minigame", "d2/d4b/classPlayer.html#a91b092f35e86a03d3ed8313f355eefcf", null ],
     [ "allowed_timeouts", "d2/d4b/classPlayer.html#a95f22e07598510ef39de6c6225e07e95", null ],
+    [ "ballistics_density", "d2/d4b/classPlayer.html#abfb4d82d39f5940c20f2e866eefb10ec", null ],
     [ "button0", "d2/d4b/classPlayer.html#a9949f317e826a11c87e0d5c76aa4404f", null ],
     [ "button10", "d2/d4b/classPlayer.html#a7e1a3186ea83b5cbc944abb9dd299ccb", null ],
     [ "button11", "d2/d4b/classPlayer.html#abb08623ede2cc974d73133e73a6ac448", null ],

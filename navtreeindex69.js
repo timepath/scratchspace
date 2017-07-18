@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"d7/db4/client_2autocvars_8qh.html#aea4999d348e39be0f0ee8fe021e6782f":[2,0,0,10,386],
 "d7/db4/client_2autocvars_8qh.html#aea860d0d9d90d19ea30cea67f898b380":[2,0,0,10,342],
 "d7/db4/client_2autocvars_8qh.html#aeb0404feda57a0d51c5ee4f673c8e74d":[2,0,0,10,435],
 "d7/db4/client_2autocvars_8qh.html#aebe17722f36ef218055c80d2429c5eba":[2,0,0,10,406],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "d7/de3/relay__activators_8qh_source.html":[2,0,1,13,3,37],
 "d7/de4/teleport_8qh.html":[2,0,1,13,3,47],
 "d7/de4/teleport_8qh_source.html":[2,0,1,13,3,47],
-"d7/de6/classXonoticSkinList.html":[1,0,238],
-"d7/de6/classXonoticSkinList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,238,45]
+"d7/de6/classXonoticSkinList.html":[1,0,238]
 };

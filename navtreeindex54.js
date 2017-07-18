@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"d6/d3f/dialog__hudpanel__physics_8qh_source.html":[2,0,5,4,63],
 "d6/d3f/ecs_2events_2physics_8qc.html":[2,0,3,1,2],
 "d6/d3f/ecs_2events_2physics_8qc_source.html":[2,0,3,1,2],
 "d6/d3f/nades_8qc.html":[2,0,1,9,0,17,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,167,89],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,167,21],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,167,65],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,167,57],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,167,22]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,167,57]
 };
