@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"dd/da3/classXonoticMusicPlayerTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,210,88],
 "dd/da3/classXonoticMusicPlayerTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,210,11],
 "dd/da3/classXonoticMusicPlayerTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,210,7],
 "dd/da3/net__notice_8qh.html":[2,0,1,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "dd/dcc/wop_8qc.html#a18e418445b4eba7be5084be9a51df08c":[2,0,6,2,10,41],
 "dd/dcc/wop_8qc.html#a19213650b1d493b1dcc46b4b1dc22909":[2,0,6,2,10,32],
 "dd/dcc/wop_8qc.html#a1a8312b70d4902e29fc5614cd9ffe3e4":[2,0,6,2,10,8],
-"dd/dcc/wop_8qc.html#a1e3cbf1063d168b51fc7277e1fb68e98":[2,0,6,2,10,12],
-"dd/dcc/wop_8qc.html#a279e07398abffcc71ea704a853c865c2":[2,0,6,2,10,17]
+"dd/dcc/wop_8qc.html#a1e3cbf1063d168b51fc7277e1fb68e98":[2,0,6,2,10,12]
 };
