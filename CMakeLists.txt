@@ -79,6 +79,14 @@ if (CMAKE_BUILD_TYPE MATCHES Debug)
     add_definitions(-D_DEBUG=1)
 endif ()
 
+add_definitions(
+    -DGTK_DISABLE_SINGLE_INCLUDES
+    -DGDK_PIXBUF_DISABLE_SINGLE_INCLUDES
+    -DGSEAL_ENABLE
+    -DGTK_DISABLE_DEPRECATED
+    -DGDK_DISABLE_DEPRECATED
+)
+
 if (APPLE)
     option(XWINDOWS "Build against X11" ON)
     add_definitions(
