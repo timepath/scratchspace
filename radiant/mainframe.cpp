@@ -1605,7 +1605,7 @@ gint window_realize_remove_decoration( ui::Widget widget, gpointer data ){
 class WaitDialog
 {
 public:
-ui::Window m_window;
+ui::Window m_window{ui::null};
 ui::Label m_label{(GtkLabel *) nullptr};
 };
 
@@ -1708,7 +1708,7 @@ void ScreenUpdates_Enable(){
 
 		gtk_grab_remove( GTK_WIDGET( g_wait.m_window ) );
 		destroy_floating_window( g_wait.m_window );
-		g_wait.m_window = ui::Window();
+		g_wait.m_window = ui::Window{ui::null};
 
 		//gtk_window_present(MainFrame_getWindow());
 	}
@@ -2500,7 +2500,7 @@ MainFrame* g_pParentWnd = 0;
 
 ui::Window MainFrame_getWindow()
 {
-	return g_pParentWnd ? g_pParentWnd->m_window : ui::Window();
+	return g_pParentWnd ? g_pParentWnd->m_window : ui::Window{ui::null};
 }
 
 std::vector<ui::Widget> g_floating_windows;
@@ -2674,7 +2674,7 @@ ui::Window create_splash(){
 	return window;
 }
 
-static ui::Window splash_screen;
+static ui::Window splash_screen{ui::null};
 
 void show_splash(){
 	splash_screen = create_splash();
