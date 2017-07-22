@@ -1307,7 +1307,7 @@ gboolean TextureBrowser_button_press( ui::Widget widget, GdkEventButton* event, 
 				textureBrowser->m_heightChanged = true;
 				textureBrowser->m_tag_frame.show();
 
-				process_gui();
+                ui::process();
 
 				TextureBrowser_Focus( *textureBrowser, textureBrowser->shader.c_str() );
 			}
