@@ -1,5 +1,7 @@
 var NAVTREEINDEX114 =
 {
+"dd/d52/fourier_8qh_source.html":[2,0,1,13,0,17],
+"dd/d54/bool_8qh.html":[2,0,4,11],
 "dd/d54/bool_8qh.html#a3ad98e54fafae1497bd42b491d9742cc":[2,0,4,11,3],
 "dd/d54/bool_8qh.html#a4bd6d4d04b1126eefee5484b1521c6f9":[2,0,4,11,2],
 "dd/d54/bool_8qh.html#a8b6d61ae40e2024b8c201bf4f433986c":[2,0,4,11,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX114 =
 "dd/d73/classMachineGun.html#ad60581174addffcd546196db2e2e8c56":[1,0,68,25],
 "dd/d73/classMachineGun.html#ae061f597f731f3a49ca8aecbd33a2713":[1,0,68,29],
 "dd/d73/classMachineGun.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,68,17],
-"dd/d73/classMachineGun.html#af7d6495e25b21a90a534b6a8d1321c27":[1,0,68,33],
-"dd/d73/classMachineGun.html#af92e2de4a5160754eb3fba3193b01f36":[1,0,68,26],
-"dd/d76/func_2include_8qc.html":[2,0,1,13,0,18]
+"dd/d73/classMachineGun.html#af7d6495e25b21a90a534b6a8d1321c27":[1,0,68,33]
 };
