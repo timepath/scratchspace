@@ -2474,7 +2474,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00457">457</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
-<p>References <a class="el" href="../../d2/db4/string_8qh_source.html#l00075">ColorTranslateRGB()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00129">intermission_running</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00061">Team_ColorCode()</a>, and <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00031">teamplay</a>.</p>
+<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00129">intermission_running</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00061">Team_ColorCode()</a>, and <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00031">teamplay</a>.</p>
 <div class="fragment"><div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;{</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <span class="keywordtype">string</span> t;</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    <span class="keywordflow">if</span> (team_colorize &amp;&amp; <a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> &amp;&amp; !<a class="code" href="../../d5/d26/server_2defs_8qh.html#abdc99ad43dd04e9cbb553b29c187b1e3">intermission_running</a> &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>))</div>
@@ -2483,14 +2483,13 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(t, strdecolorize(<a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.netname));</div>
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    }</div>
 <div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d2/db4/string_8qh.html#a18d360dae8acec6fc943d884ad153f8d">ColorTranslateRGB</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.netname);</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.netname;</div>
 <div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="teams_8qh_html_a8d03f41980a641a39e8cdafc391b4a53"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a8d03f41980a641a39e8cdafc391b4a53">Team_ColorCode</a></div><div class="ttdeci">string Team_ColorCode(float teamid)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00061">teams.qh:61</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_abdc99ad43dd04e9cbb553b29c187b1e3"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#abdc99ad43dd04e9cbb553b29c187b1e3">intermission_running</a></div><div class="ttdeci">float intermission_running</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00129">defs.qh:129</a></div></div>
 <div class="ttc" id="effectinfo_8qc_html_af1209ce3d4344049c1084fab900909cf"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a></div><div class="ttdeci">#define p(f, type, default)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
-<div class="ttc" id="string_8qh_html_a18d360dae8acec6fc943d884ad153f8d"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a18d360dae8acec6fc943d884ad153f8d">ColorTranslateRGB</a></div><div class="ttdeci">ERASEABLE string ColorTranslateRGB(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00075">string.qh:75</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_acf8ea712d5467331fb750b33ab165013"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a></div><div class="ttdeci">float teamplay</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00031">progsdefs.qc:31</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2498,7 +2497,7 @@ Variables</h2></td></tr>
 <div id="dynsection-46-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-46-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a1889ccb32094735b4d97fbbb1ac4631b_cgraph.svg" width="286" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a1889ccb32094735b4d97fbbb1ac4631b_cgraph.svg" width="275" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -5174,7 +5173,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html">miscfunctions.qh</a></li>
-    <li class="footer">Generated on Tue Aug 1 2017 08:18:49 for Xonotic by
+    <li class="footer">Generated on Wed Aug 2 2017 11:42:34 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
