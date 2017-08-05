@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"d4/de8/classRacerAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,103,9],
+"d4/de8/classRacerAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,103,24],
 "d4/de8/classRacerAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,103,8],
 "d4/de8/classRacerAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,103,2],
 "d4/de8/classRacerAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,103,34],
@@ -238,16 +240,14 @@ var NAVTREEINDEX44 =
 "d5/d14/lib_8qh_source.html":[2,0,3,5],
 "d5/d14/menu_2xonotic_2__mod_8qh.html":[2,0,5,4,1],
 "d5/d14/menu_2xonotic_2__mod_8qh_source.html":[2,0,5,4,1],
-"d5/d14/scores__rules_8qc.html":[2,0,6,60],
-"d5/d14/scores__rules_8qc.html#a62db4b0b1c96e1bd902ca44acc8215cd":[2,0,6,60,6],
-"d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05":[2,0,6,60,4],
-"d5/d14/scores__rules_8qc.html#a838b897a9ae86e8bf932e57c356ec987":[2,0,6,60,1],
-"d5/d14/scores__rules_8qc.html#a9b29c13c36dd33cc7f639cb97e8e6470":[2,0,6,60,5],
-"d5/d14/scores__rules_8qc.html#ac67defd12e305443ab1cf4266ca03c8f":[2,0,6,60,3],
-"d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f":[2,0,6,60,2],
-"d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec":[2,0,6,60,0],
-"d5/d14/scores__rules_8qc_source.html":[2,0,6,60],
-"d5/d16/weaponarenacheckbox_8qh.html":[2,0,5,4,231],
-"d5/d16/weaponarenacheckbox_8qh.html#adf56d4bc38e7c5065719b469089a3ba5":[2,0,5,4,231,1],
-"d5/d16/weaponarenacheckbox_8qh_source.html":[2,0,5,4,231]
+"d5/d14/scores__rules_8qc.html":[2,0,6,58],
+"d5/d14/scores__rules_8qc.html#a62db4b0b1c96e1bd902ca44acc8215cd":[2,0,6,58,6],
+"d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05":[2,0,6,58,4],
+"d5/d14/scores__rules_8qc.html#a838b897a9ae86e8bf932e57c356ec987":[2,0,6,58,1],
+"d5/d14/scores__rules_8qc.html#a9b29c13c36dd33cc7f639cb97e8e6470":[2,0,6,58,5],
+"d5/d14/scores__rules_8qc.html#ac67defd12e305443ab1cf4266ca03c8f":[2,0,6,58,3],
+"d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f":[2,0,6,58,2],
+"d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec":[2,0,6,58,0],
+"d5/d14/scores__rules_8qc_source.html":[2,0,6,58],
+"d5/d16/weaponarenacheckbox_8qh.html":[2,0,5,4,231]
 };

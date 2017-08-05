@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"d5/d5f/trigger_2include_8qh.html":[2,0,1,13,3,21],
+"d5/d5f/trigger_2include_8qh_source.html":[2,0,1,13,3,21],
 "d5/d64/classHealth.html":[1,0,44],
 "d5/d64/classHealth.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,44,0],
 "d5/d64/classHealth.html#a48b78d497828537731feaa167c8af4f1":[1,0,44,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "d5/d73/classXonoticEffectsSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,165,75],
 "d5/d73/classXonoticEffectsSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,165,68],
 "d5/d73/classXonoticEffectsSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,165,74],
-"d5/d73/classXonoticEffectsSettingsTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,165,62],
-"d5/d73/classXonoticEffectsSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,165,66],
-"d5/d73/classXonoticEffectsSettingsTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,165,20]
+"d5/d73/classXonoticEffectsSettingsTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,165,62]
 };

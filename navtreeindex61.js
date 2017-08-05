@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"d7/d15/hud_8qc.html#a8e30e71e308ccc423418bb41350e3e05":[2,0,0,1,3,9],
+"d7/d15/hud_8qc.html#aa2a5280f52a32d302277253736cc04bb":[2,0,0,1,3,7],
+"d7/d15/hud_8qc.html#ab8141bf6b381ce178ba733fa4ce0fedf":[2,0,0,1,3,20],
+"d7/d15/hud_8qc.html#abed4aa2c37e69cf8b4fdeab69c7e0076":[2,0,0,1,3,8],
 "d7/d15/hud_8qc.html#abf03db2bbdaaed29a0ddeaa24cd7d5a8":[2,0,0,1,3,19],
 "d7/d15/hud_8qc.html#ad7ec85390e221721fcceeff66b7f663f":[2,0,0,1,3,5],
 "d7/d15/hud_8qc.html#aeb5a957125115e4514fce07b3ce1382e":[2,0,0,1,3,1],
@@ -161,8 +165,8 @@ var NAVTREEINDEX61 =
 "d7/d33/sv__minigames_8qc.html#ae8b31c763b3c1ee1b4ee61fdbd657671":[2,0,1,6,9,2],
 "d7/d33/sv__minigames_8qc.html#afb6583c98aeab02e85aea955226119fb":[2,0,1,6,9,10],
 "d7/d33/sv__minigames_8qc_source.html":[2,0,1,6,9],
-"d7/d38/sv__main_8qh.html":[2,0,6,67],
-"d7/d38/sv__main_8qh_source.html":[2,0,6,67],
+"d7/d38/sv__main_8qh.html":[2,0,6,65],
+"d7/d38/sv__main_8qh_source.html":[2,0,6,65],
 "d7/d39/classXonoticVideoSettingsTab.html":[1,0,251],
 "d7/d39/classXonoticVideoSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,251,36],
 "d7/d39/classXonoticVideoSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,251,15],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "d7/d39/classXonoticVideoSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,251,93],
 "d7/d39/classXonoticVideoSettingsTab.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,251,89],
 "d7/d39/classXonoticVideoSettingsTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,251,12],
-"d7/d39/classXonoticVideoSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,251,69],
-"d7/d39/classXonoticVideoSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,251,31],
-"d7/d39/classXonoticVideoSettingsTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,251,5],
-"d7/d39/classXonoticVideoSettingsTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,251,19],
-"d7/d39/classXonoticVideoSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,251,60]
+"d7/d39/classXonoticVideoSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,251,69]
 };

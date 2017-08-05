@@ -55,6 +55,8 @@ var searchData=
   ['registry_5fbegin',['REGISTRY_BEGIN',['../d2/d5e/registry_8qh.html#a45adacbeef98030d74adbd778f43509c',1,'registry.qh']]],
   ['registry_5fbegin_5f',['REGISTRY_BEGIN_',['../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618',1,'registry.qh']]],
   ['registry_5fcheck',['REGISTRY_CHECK',['../d2/d5e/registry_8qh.html#ac0e7d24ce2ae2a3c1fadcf32633792c1',1,'registry.qh']]],
+  ['registry_5fdepends',['REGISTRY_DEPENDS',['../d2/d5e/registry_8qh.html#ad7828de8cbdf7ddcddee44d5f87b1453',1,'registry.qh']]],
+  ['registry_5fdepends_5f',['REGISTRY_DEPENDS_',['../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70',1,'registry.qh']]],
   ['registry_5fend',['REGISTRY_END',['../d2/d5e/registry_8qh.html#a66abbcb1a2c53101a2f18ef400138a91',1,'registry.qh']]],
   ['registry_5fend_5f',['REGISTRY_END_',['../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17',1,'registry.qh']]],
   ['registry_5fhash',['REGISTRY_HASH',['../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89',1,'registry.qh']]],

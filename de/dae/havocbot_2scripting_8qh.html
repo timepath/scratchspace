@@ -138,18 +138,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00018">18</a> of file <a class="el" href="../../d6/d27/scripting_8qc_source.html">scripting.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00020">20</a> of file <a class="el" href="../../d6/d27/scripting_8qc_source.html">scripting.qc</a>.</p>
 
 <p>References <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00389">bot_clientdisconnect()</a>, <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00632">bot_cmd_if()</a>, <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00069">bot_dequeuecommand()</a>, and <a class="el" href="../../d6/d27/scripting_8qc_source.html#l01157">bot_resetqueues()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span>(!bot.bot_cmdqueuebuf_allocated)</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    buf_del(bot.bot_cmdqueuebuf);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    bot.bot_cmdqueuebuf_allocated = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;bot &quot;</span>, bot.netname, <span class="stringliteral">&quot; queue cleared&quot;</span>);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00389">bot_clientdisconnect()</a>, <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00634">bot_cmd_if()</a>, <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00071">bot_dequeuecommand()</a>, and <a class="el" href="../../d6/d27/scripting_8qc_source.html#l01159">bot_resetqueues()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span>(!bot.bot_cmdqueuebuf_allocated)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    buf_del(bot.bot_cmdqueuebuf);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    bot.bot_cmdqueuebuf_allocated = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;bot &quot;</span>, bot.netname, <span class="stringliteral">&quot; queue cleared&quot;</span>);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 <div class="ttc" id="framework_8qc_html_aef346455b3c2def821423a45227b45dd"><div class="ttname"><a href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a></div><div class="ttdeci">void LOG_TRACE(string s,...)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -180,7 +180,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../dir_f18d5dd12b54ecfc26193d6b0c017e06.html">havocbot</a></li><li class="navelem"><a class="el" href="../../de/dae/havocbot_2scripting_8qh.html">scripting.qh</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 14:33:49 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 16:10:17 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

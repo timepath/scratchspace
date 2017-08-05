@@ -159,12 +159,12 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/da1/ladder_8qc_source.html#l00004">4</a> of file <a class="el" href="../../d5/da1/ladder_8qc_source.html">ladder.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00116">EXACTTRIGGER_TOUCH</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00022">IS_VEHICLE</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00116">EXACTTRIGGER_TOUCH</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00022">IS_VEHICLE</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span> (!toucher.iscreature)</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#ada2e50d916105b5a32d7c97d39d226d5">IS_VEHICLE</a>(toucher))</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d7a/utils_8qh.html#ada2e50d916105b5a32d7c97d39d226d5">IS_VEHICLE</a>(toucher))</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#elif defined(CSQC)</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(!toucher.isplayermodel)</div>
@@ -177,7 +177,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    toucher.ladder_entity = <span class="keyword">this</span>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
 <div class="ttc" id="lib_2warpzone_2common_8qh_html_a14f4fc2c65ce6e5be0cc8b508e29139f"><div class="ttname"><a href="../../d7/d71/lib_2warpzone_2common_8qh.html#a14f4fc2c65ce6e5be0cc8b508e29139f">EXACTTRIGGER_TOUCH</a></div><div class="ttdeci">#define EXACTTRIGGER_TOUCH(e, t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00116">common.qh:116</a></div></div>
-<div class="ttc" id="server_2__all_8qh_html_ada2e50d916105b5a32d7c97d39d226d5"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ada2e50d916105b5a32d7c97d39d226d5">IS_VEHICLE</a></div><div class="ttdeci">#define IS_VEHICLE(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00022">_all.qh:22</a></div></div>
+<div class="ttc" id="utils_8qh_html_ada2e50d916105b5a32d7c97d39d226d5"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ada2e50d916105b5a32d7c97d39d226d5">IS_VEHICLE</a></div><div class="ttdeci">#define IS_VEHICLE(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00022">utils.qh:22</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -188,7 +188,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../dir_dac21ea200edd94d2597bdcb9e2f297b.html">func</a></li><li class="navelem"><a class="el" href="../../d5/da1/ladder_8qc.html">ladder.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 14:33:44 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 16:10:12 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

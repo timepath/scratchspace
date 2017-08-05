@@ -1,5 +1,9 @@
 var NAVTREEINDEX54 =
 {
+"d6/d3e/dialog__multiplayer__media__musicplayer_8qc.html#ae9b7f89bd3642548beae29d55d467f5b":[2,0,5,4,106,1],
+"d6/d3e/dialog__multiplayer__media__musicplayer_8qc_source.html":[2,0,5,4,106],
+"d6/d3f/dialog__hudpanel__physics_8qh.html":[2,0,5,4,63],
+"d6/d3f/dialog__hudpanel__physics_8qh_source.html":[2,0,5,4,63],
 "d6/d3f/ecs_2events_2physics_8qc.html":[2,0,3,1,2],
 "d6/d3f/ecs_2events_2physics_8qc_source.html":[2,0,3,1,2],
 "d6/d3f/nades_8qc.html":[2,0,1,9,0,17,4],
@@ -23,13 +27,13 @@ var NAVTREEINDEX54 =
 "d6/d4c/colorpicker_8qc.html#ad991d24e2da3f4a463e3b4236b8e3b92":[2,0,5,4,20,0],
 "d6/d4c/colorpicker_8qc.html#af5da62045b5266962f209f057f2905ba":[2,0,5,4,20,5],
 "d6/d4c/colorpicker_8qc_source.html":[2,0,5,4,20],
-"d6/d4e/scores__rules_8qh.html":[2,0,6,61],
-"d6/d4e/scores__rules_8qh.html#a70c01ecc880399b0cc5fa84520d93a05":[2,0,6,61,3],
-"d6/d4e/scores__rules_8qh.html#a9b29c13c36dd33cc7f639cb97e8e6470":[2,0,6,61,4],
-"d6/d4e/scores__rules_8qh.html#ac67defd12e305443ab1cf4266ca03c8f":[2,0,6,61,2],
-"d6/d4e/scores__rules_8qh.html#ae01e878023ee1a5ecc45cc3d62c3895f":[2,0,6,61,1],
-"d6/d4e/scores__rules_8qh.html#ae9adf848be0a903b09499cbc48313cec":[2,0,6,61,0],
-"d6/d4e/scores__rules_8qh_source.html":[2,0,6,61],
+"d6/d4e/scores__rules_8qh.html":[2,0,6,59],
+"d6/d4e/scores__rules_8qh.html#a70c01ecc880399b0cc5fa84520d93a05":[2,0,6,59,3],
+"d6/d4e/scores__rules_8qh.html#a9b29c13c36dd33cc7f639cb97e8e6470":[2,0,6,59,4],
+"d6/d4e/scores__rules_8qh.html#ac67defd12e305443ab1cf4266ca03c8f":[2,0,6,59,2],
+"d6/d4e/scores__rules_8qh.html#ae01e878023ee1a5ecc45cc3d62c3895f":[2,0,6,59,1],
+"d6/d4e/scores__rules_8qh.html#ae9adf848be0a903b09499cbc48313cec":[2,0,6,59,0],
+"d6/d4e/scores__rules_8qh_source.html":[2,0,6,59],
 "d6/d50/common_2minigames_2minigame_2__mod_8inc.html":[2,0,1,6,0,0],
 "d6/d50/common_2minigames_2minigame_2__mod_8inc_source.html":[2,0,1,6,0,0],
 "d6/d55/dialog__uid2name_8qc.html":[2,0,5,4,162],
@@ -245,9 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,167,38],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,167,46],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,167,58],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,167,89],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,167,21],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,167,65],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,167,57],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,167,22]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,167,89]
 };

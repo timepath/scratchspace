@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"d4/d56/classHunterKillerAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,51,20],
+"d4/d56/classHunterKillerAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,51,11],
 "d4/d56/classHunterKillerAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,51,21],
 "d4/d56/classHunterKillerAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,51,1],
 "d4/d56/classHunterKillerAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,51,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "d4/d7a/movelib_8qc_source.html":[2,0,1,11,4],
 "d4/d7b/server_2compat_2__mod_8qh.html":[2,0,6,2,1],
 "d4/d7b/server_2compat_2__mod_8qh_source.html":[2,0,6,2,1],
-"d4/d7e/expandnode_8qh.html":[2,0,6,4,7],
-"d4/d7e/expandnode_8qh_source.html":[2,0,6,4,7],
-"d4/d81/common_2deathtypes_2__mod_8inc.html":[2,0,1,1,0]
+"d4/d7e/expandnode_8qh.html":[2,0,6,4,7]
 };

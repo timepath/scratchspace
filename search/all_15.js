@@ -85,14 +85,15 @@ var searchData=
   ['usedownaschecked',['useDownAsChecked',['../dd/df9/classCheckBox.html#aff20d1ead9e7a482eca46d913e6986a1',1,'CheckBox::useDownAsChecked()'],['../d1/d33/classXonoticColorButton.html#a9faf7db1c7cbe6f1f35a5103d70dad01',1,'XonoticColorButton::useDownAsChecked()']]],
   ['usekeypressed',['usekeypressed',['../d1/d37/classClient.html#a53ebb19cee46f4709b3d88a1434e5b93',1,'Client']]],
   ['using',['USING',['../d4/dfb/lib_2__all_8inc.html#abe8eb52fc5e52351ecda2a477108abed',1,'_all.inc']]],
+  ['util_2eqc',['util.qc',['../d2/de5/common_2turrets_2util_8qc.html',1,'']]],
   ['util_2eqc',['util.qc',['../df/d9b/menu_2xonotic_2util_8qc.html',1,'']]],
   ['util_2eqc',['util.qc',['../da/d44/common_2util_8qc.html',1,'']]],
-  ['util_2eqc',['util.qc',['../d2/de5/common_2turrets_2util_8qc.html',1,'']]],
-  ['util_2eqh',['util.qh',['../df/d97/menu_2xonotic_2util_8qh.html',1,'']]],
   ['util_2eqh',['util.qh',['../d5/df2/common_2util_8qh.html',1,'']]],
+  ['util_2eqh',['util.qh',['../df/d97/menu_2xonotic_2util_8qh.html',1,'']]],
   ['util_2eqh',['util.qh',['../d6/d60/common_2turrets_2util_8qh.html',1,'']]],
   ['util_5fserver_2eqc',['util_server.qc',['../d5/d6d/util__server_8qc.html',1,'']]],
   ['util_5fserver_2eqh',['util_server.qh',['../d3/d9b/util__server_8qh.html',1,'']]],
   ['utility_2eqc',['utility.qc',['../dd/d1e/utility_8qc.html',1,'']]],
-  ['utility_2eqh',['utility.qh',['../dc/db9/utility_8qh.html',1,'']]]
+  ['utility_2eqh',['utility.qh',['../dc/db9/utility_8qh.html',1,'']]],
+  ['utils_2eqh',['utils.qh',['../db/d7a/utils_8qh.html',1,'']]]
 ];
