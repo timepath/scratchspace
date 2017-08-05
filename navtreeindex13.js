@@ -1,7 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"d1/da9/bot_8qh.html#aad1b37739cf0bb1675c68a90aa48c797":[2,0,6,0,0,6,12],
-"d1/da9/bot_8qh.html#aaecc23c5c2524bcea745aa6d2afa718a":[2,0,6,0,0,6,9],
 "d1/da9/bot_8qh.html#ab10bcd46b240e1fd8154de39ddd5c40e":[2,0,6,0,0,6,4],
 "d1/da9/bot_8qh.html#ab31cf9d9b7d9ba690bed2e44648a403d":[2,0,6,0,0,6,6],
 "d1/da9/bot_8qh.html#ab31e8158d2ea3bd17d8189070c6b1821":[2,0,6,0,0,6,58],
@@ -132,7 +130,7 @@ var NAVTREEINDEX13 =
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,163,65],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,163,16],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,163,20],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,163,10],
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,163,9],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,163,35],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#aae4259886636f5d92fd71b7ec14bad60":[1,0,163,86],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,163,36],
@@ -153,7 +151,7 @@ var NAVTREEINDEX13 =
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,163,62],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,163,55],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,163,90],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,163,9],
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,163,8],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,163,68],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#af1aab403dc54575707fd57991312b201":[1,0,163,47],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,163,27],
@@ -163,7 +161,7 @@ var NAVTREEINDEX13 =
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,163,37],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,163,41],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,163,85],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,163,8],
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,163,10],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#aff489dd980a70a55cd0af2ce3d3d26f8":[1,0,163,69],
 "d1/dba/server_2weapons_2common_8qh.html":[2,0,6,5,5],
 "d1/dba/server_2weapons_2common_8qh.html#a102ac938a46377356e95bb667b1f01e2":[2,0,6,5,5,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX13 =
 "d1/dd1/classFireball.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,36,19],
 "d1/dd1/classFireball.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,36,18],
 "d1/dd1/classFireball.html#a2dfd166425af0e8e7e79d69521c772ab":[1,0,36,28],
-"d1/dd1/classFireball.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,36,16]
+"d1/dd1/classFireball.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,36,16],
+"d1/dd1/classFireball.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,36,20],
+"d1/dd1/classFireball.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,36,11]
 };

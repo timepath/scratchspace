@@ -1,8 +1,6 @@
 var NAVTREEINDEX17 =
 {
-"d2/d42/classXonoticUserbindEditDialog.html#ae3e12bc0a99ba27300c59b262f2b1114":[1,0,249,37],
-"d2/d42/classXonoticUserbindEditDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,249,95],
-"d2/d42/classXonoticUserbindEditDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,249,13],
+"d2/d42/classXonoticUserbindEditDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,249,12],
 "d2/d42/classXonoticUserbindEditDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,249,73],
 "d2/d42/classXonoticUserbindEditDialog.html#af1aab403dc54575707fd57991312b201":[1,0,249,52],
 "d2/d42/classXonoticUserbindEditDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,249,31],
@@ -13,7 +11,7 @@ var NAVTREEINDEX17 =
 "d2/d42/classXonoticUserbindEditDialog.html#afadd93e28ee177ed4986f89eef038276":[1,0,249,9],
 "d2/d42/classXonoticUserbindEditDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,249,46],
 "d2/d42/classXonoticUserbindEditDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,249,90],
-"d2/d42/classXonoticUserbindEditDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,249,12],
+"d2/d42/classXonoticUserbindEditDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,249,14],
 "d2/d44/sv__vampire_8qh.html":[2,0,1,9,0,31,3],
 "d2/d44/sv__vampire_8qh_source.html":[2,0,1,9,0,31,3],
 "d2/d47/common_2mutators_2mutator_2__mod_8qh.html":[2,0,1,9,0,37],
@@ -249,5 +247,7 @@ var NAVTREEINDEX17 =
 "d2/d76/server_2mapvoting_8qc.html#a4665ef3c78f60f7d3006b32d681f3104":[2,0,6,41,10],
 "d2/d76/server_2mapvoting_8qc.html#a495656e86a53136c9afa9297aab01ad9":[2,0,6,41,37],
 "d2/d76/server_2mapvoting_8qc.html#a4dbc1fee86236bb6df3fc5020c444ceb":[2,0,6,41,34],
-"d2/d76/server_2mapvoting_8qc.html#a5305da7824414cc81644ce20650a6504":[2,0,6,41,13]
+"d2/d76/server_2mapvoting_8qc.html#a5305da7824414cc81644ce20650a6504":[2,0,6,41,13],
+"d2/d76/server_2mapvoting_8qc.html#a53bc06a331b5c2001983ab7f54e35994":[2,0,6,41,16],
+"d2/d76/server_2mapvoting_8qc.html#a55a404e632b9599200cdd019f8c03964":[2,0,6,41,21]
 };

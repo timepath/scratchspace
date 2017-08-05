@@ -1,7 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"d5/d16/weaponarenacheckbox_8qh.html#adf56d4bc38e7c5065719b469089a3ba5":[2,0,5,4,231,1],
-"d5/d16/weaponarenacheckbox_8qh_source.html":[2,0,5,4,231],
 "d5/d18/shambler_8qh.html":[2,0,1,8,0,5],
 "d5/d18/shambler_8qh.html#a0e481da3c0bf84f47a8e0d447569def3":[2,0,1,8,0,5,1],
 "d5/d18/shambler_8qh_source.html":[2,0,1,8,0,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX45 =
 "d5/d26/server_2defs_8qh.html#a9af5211189257ebf95108c5a445820dc":[2,0,6,22,29],
 "d5/d26/server_2defs_8qh.html#a9af85bea96652f5d30c74019d7dca396":[2,0,6,22,129],
 "d5/d26/server_2defs_8qh.html#a9cb97e3cee6882bd0491d7161e07231e":[2,0,6,22,280],
-"d5/d26/server_2defs_8qh.html#a9e03aaab2a1cfc05664c6a5db7bbb4cd":[2,0,6,22,275]
+"d5/d26/server_2defs_8qh.html#a9e03aaab2a1cfc05664c6a5db7bbb4cd":[2,0,6,22,275],
+"d5/d26/server_2defs_8qh.html#aa00e400d1ae9e5f5eb61c16a340a084b":[2,0,6,22,251],
+"d5/d26/server_2defs_8qh.html#aa01ace5e3f0ccc839c766bf1815668e4":[2,0,6,22,242]
 };

@@ -2,8 +2,8 @@ var classXonoticHUDSkinList =
 [
     [ "ATTRIB", "d5/d6c/classXonoticHUDSkinList.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
     [ "ATTRIB", "d5/d6c/classXonoticHUDSkinList.html#a16e41955c2d0633a301185749f320bf2", null ],
-    [ "ATTRIB", "d5/d6c/classXonoticHUDSkinList.html#afdcf1fb79903f747cda494b27206526b", null ],
     [ "ATTRIB", "d5/d6c/classXonoticHUDSkinList.html#abde295bcf23cc138f570ae73f5b8d279", null ],
+    [ "ATTRIB", "d5/d6c/classXonoticHUDSkinList.html#afdcf1fb79903f747cda494b27206526b", null ],
     [ "ATTRIB", "d5/d6c/classXonoticHUDSkinList.html#aa0be1afcee01b4904e9b7ccc15674b53", null ],
     [ "clickListBoxItem", "d5/d6c/classXonoticHUDSkinList.html#a235355aace741c77462c66d35b2c5e2a", null ],
     [ "configureListBox", "d5/d6c/classXonoticHUDSkinList.html#aef11ec27595d8d03f6c30b95ce718571", null ],

@@ -1,13 +1,9 @@
 var NAVTREEINDEX91 =
 {
-"da/d94/classXonoticSettingsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,236,27],
-"da/d94/classXonoticSettingsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,236,15],
-"da/d94/classXonoticSettingsDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,236,39],
-"da/d94/classXonoticSettingsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,236,2],
 "da/d94/classXonoticSettingsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,236,37],
 "da/d94/classXonoticSettingsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,236,41],
 "da/d94/classXonoticSettingsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,236,85],
-"da/d94/classXonoticSettingsDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,236,8],
+"da/d94/classXonoticSettingsDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,236,10],
 "da/d96/swamp_8qh.html":[2,0,1,13,3,45],
 "da/d96/swamp_8qh.html#a72409ccf4513611408270e2c17712b3d":[2,0,1,13,3,45,2],
 "da/d96/swamp_8qh.html#a824536dd09d6161ba0f9df38979bd81c":[2,0,1,13,3,45,3],
@@ -151,7 +147,7 @@ var NAVTREEINDEX91 =
 "da/d9c/classXonoticMonsterToolsDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,208,65],
 "da/d9c/classXonoticMonsterToolsDialog.html#aa4f052eae7c315deb0958e0d456e5806":[1,0,208,78],
 "da/d9c/classXonoticMonsterToolsDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,208,20],
-"da/d9c/classXonoticMonsterToolsDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,208,10],
+"da/d9c/classXonoticMonsterToolsDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,208,9],
 "da/d9c/classXonoticMonsterToolsDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,208,35],
 "da/d9c/classXonoticMonsterToolsDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,208,36],
 "da/d9c/classXonoticMonsterToolsDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,208,5],
@@ -171,7 +167,7 @@ var NAVTREEINDEX91 =
 "da/d9c/classXonoticMonsterToolsDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,208,62],
 "da/d9c/classXonoticMonsterToolsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,208,55],
 "da/d9c/classXonoticMonsterToolsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,208,91],
-"da/d9c/classXonoticMonsterToolsDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,208,9],
+"da/d9c/classXonoticMonsterToolsDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,208,8],
 "da/d9c/classXonoticMonsterToolsDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,208,68],
 "da/d9c/classXonoticMonsterToolsDialog.html#aee6327bec629fa284d4ecbc834c563da":[1,0,208,24],
 "da/d9c/classXonoticMonsterToolsDialog.html#af1aab403dc54575707fd57991312b201":[1,0,208,47],
@@ -182,7 +178,7 @@ var NAVTREEINDEX91 =
 "da/d9c/classXonoticMonsterToolsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,208,37],
 "da/d9c/classXonoticMonsterToolsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,208,41],
 "da/d9c/classXonoticMonsterToolsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,208,86],
-"da/d9c/classXonoticMonsterToolsDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,208,8],
+"da/d9c/classXonoticMonsterToolsDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,208,10],
 "da/d9c/disablerelay_8qh.html":[2,0,1,13,3,7],
 "da/d9c/disablerelay_8qh_source.html":[2,0,1,13,3,7],
 "da/d9c/lib_2csqcmodel_2player_8qc.html":[2,0,4,0,12],
@@ -249,5 +245,9 @@ var NAVTREEINDEX91 =
 "da/db7/classXonoticServerInfoDialog.html#a049ea0d4b7e40a198e97727748304d6c":[1,0,233,15],
 "da/db7/classXonoticServerInfoDialog.html#a059f864f51d5061e38b5884cf9e5ffed":[1,0,233,16],
 "da/db7/classXonoticServerInfoDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,233,3],
-"da/db7/classXonoticServerInfoDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,233,113]
+"da/db7/classXonoticServerInfoDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,233,113],
+"da/db7/classXonoticServerInfoDialog.html#a0aea1ca35639596105c204b2f74019ba":[1,0,233,9],
+"da/db7/classXonoticServerInfoDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,233,111],
+"da/db7/classXonoticServerInfoDialog.html#a0e567256ae4c52800cff333b96029c3d":[1,0,233,53],
+"da/db7/classXonoticServerInfoDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,233,78]
 };

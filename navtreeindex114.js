@@ -1,9 +1,5 @@
 var NAVTREEINDEX114 =
 {
-"dd/d50/sortlist_8qh_source.html":[2,0,4,52],
-"dd/d52/fourier_8qh.html":[2,0,1,13,0,17],
-"dd/d52/fourier_8qh_source.html":[2,0,1,13,0,17],
-"dd/d54/bool_8qh.html":[2,0,4,11],
 "dd/d54/bool_8qh.html#a3ad98e54fafae1497bd42b491d9742cc":[2,0,4,11,3],
 "dd/d54/bool_8qh.html#a4bd6d4d04b1126eefee5484b1521c6f9":[2,0,4,11,2],
 "dd/d54/bool_8qh.html#a8b6d61ae40e2024b8c201bf4f433986c":[2,0,4,11,0],
@@ -57,8 +53,8 @@ var NAVTREEINDEX114 =
 "dd/d59/modicons_8qc.html#a90abcb5dfd155425638f8823221e96a7":[2,0,0,1,0,16,37],
 "dd/d59/modicons_8qc.html#a90b00643b4f9e53be543cdb107e4d527":[2,0,0,1,0,16,26],
 "dd/d59/modicons_8qc.html#a9245f9b7b4151715d667f06cbaf831cd":[2,0,0,1,0,16,8],
-"dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,0],
 "dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,2],
+"dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,0],
 "dd/d59/modicons_8qc.html#a9fba4055eb7a12732e45c9864109ce0a":[2,0,0,1,0,16,42],
 "dd/d59/modicons_8qc.html#aa31974f3ee04983fc466c46abdbe5625":[2,0,0,1,0,16,10],
 "dd/d59/modicons_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922":[2,0,0,1,0,16,19],
@@ -84,8 +80,8 @@ var NAVTREEINDEX114 =
 "dd/d59/modicons_8qc_source.html":[2,0,0,1,0,16],
 "dd/d5d/common_2vehicles_2__all_8inc.html":[2,0,1,15,1],
 "dd/d5d/common_2vehicles_2__all_8inc_source.html":[2,0,1,15,1],
-"dd/d5d/gamesettings_8qh.html":[2,0,5,12],
-"dd/d5d/gamesettings_8qh_source.html":[2,0,5,12],
+"dd/d5d/gamesettings_8qh.html":[2,0,5,10],
+"dd/d5d/gamesettings_8qh_source.html":[2,0,5,10],
 "dd/d5e/door_8qh.html":[2,0,1,13,0,11],
 "dd/d5e/door_8qh.html#a719e6f009c974e863488d99b5cfb6532":[2,0,1,13,0,11,5],
 "dd/d5e/door_8qh.html#a8e9c86ac648bfa776b10db0976ee4304":[2,0,1,13,0,11,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX114 =
 "dd/d73/classMachineGun.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,68,35],
 "dd/d73/classMachineGun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,68,22],
 "dd/d73/classMachineGun.html#ad60581174addffcd546196db2e2e8c56":[1,0,68,25],
-"dd/d73/classMachineGun.html#ae061f597f731f3a49ca8aecbd33a2713":[1,0,68,29]
+"dd/d73/classMachineGun.html#ae061f597f731f3a49ca8aecbd33a2713":[1,0,68,29],
+"dd/d73/classMachineGun.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,68,17],
+"dd/d73/classMachineGun.html#af7d6495e25b21a90a534b6a8d1321c27":[1,0,68,33],
+"dd/d73/classMachineGun.html#af92e2de4a5160754eb3fba3193b01f36":[1,0,68,26],
+"dd/d76/func_2include_8qc.html":[2,0,1,13,0,18]
 };

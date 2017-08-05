@@ -1,13 +1,13 @@
 var classXonoticCvarList =
 [
-    [ "ATTRIB", "db/ddb/classXonoticCvarList.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
     [ "ATTRIB", "db/ddb/classXonoticCvarList.html#a4df3f6edefa84d3d792aa916aaf183d2", null ],
+    [ "ATTRIB", "db/ddb/classXonoticCvarList.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
     [ "ATTRIB", "db/ddb/classXonoticCvarList.html#a3d20e31207b45594b949c746a97aa6cb", null ],
     [ "ATTRIB", "db/ddb/classXonoticCvarList.html#a4135daca6398e567dcc912b57f2d083d", null ],
-    [ "ATTRIB", "db/ddb/classXonoticCvarList.html#afdcf1fb79903f747cda494b27206526b", null ],
     [ "ATTRIB", "db/ddb/classXonoticCvarList.html#a5723e7c38f187fcf01bc9a71a1e826a9", null ],
     [ "ATTRIB", "db/ddb/classXonoticCvarList.html#abab27a1de641c92ee50a81272064c2d2", null ],
     [ "ATTRIB", "db/ddb/classXonoticCvarList.html#a39f577a04dcc5c31e497468541d43f67", null ],
+    [ "ATTRIB", "db/ddb/classXonoticCvarList.html#afdcf1fb79903f747cda494b27206526b", null ],
     [ "ATTRIB", "db/ddb/classXonoticCvarList.html#aa2f59cfefa7be6d6cf1f978a647879b2", null ],
     [ "ATTRIB", "db/ddb/classXonoticCvarList.html#abcca171d61124f9e1581d7786a820cdb", null ],
     [ "ATTRIB", "db/ddb/classXonoticCvarList.html#a1ba62dacc79aad3743cc11e20faa82c0", null ],

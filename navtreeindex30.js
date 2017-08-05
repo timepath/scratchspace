@@ -1,7 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"d3/dbf/minigames_8qc.html#adbfd9d3db8c920f23ecda1e18d9a65ab":[2,0,1,6,7,8],
-"d3/dbf/minigames_8qc.html#ae654db0c0ec8adbcddf96b15d435b5d4":[2,0,1,6,7,11],
 "d3/dbf/minigames_8qc_source.html":[2,0,1,6,7],
 "d3/dc3/net_8qc.html":[2,0,1,9,0,17,6],
 "d3/dc3/net_8qc_source.html":[2,0,1,9,0,17,6],
@@ -31,7 +29,7 @@ var NAVTREEINDEX30 =
 "d3/dce/classXonoticTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,243,36],
 "d3/dce/classXonoticTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,243,15],
 "d3/dce/classXonoticTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,243,44],
-"d3/dce/classXonoticTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,243,10],
+"d3/dce/classXonoticTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,243,9],
 "d3/dce/classXonoticTab.html#a086d32c9694472250922d42417bc8d66":[1,0,243,3],
 "d3/dce/classXonoticTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,243,78],
 "d3/dce/classXonoticTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,243,85],
@@ -40,7 +38,7 @@ var NAVTREEINDEX30 =
 "d3/dce/classXonoticTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,243,30],
 "d3/dce/classXonoticTab.html#a16eed5e4bcd97550163a4d93c649929f":[1,0,243,84],
 "d3/dce/classXonoticTab.html#a198d31b696946a3a688d2c943f509799":[1,0,243,72],
-"d3/dce/classXonoticTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,243,12],
+"d3/dce/classXonoticTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,243,11],
 "d3/dce/classXonoticTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,243,73],
 "d3/dce/classXonoticTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,243,4],
 "d3/dce/classXonoticTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,243,47],
@@ -51,7 +49,7 @@ var NAVTREEINDEX30 =
 "d3/dce/classXonoticTab.html#a331c55a30b4bc22951a251062508326b":[1,0,243,26],
 "d3/dce/classXonoticTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,243,17],
 "d3/dce/classXonoticTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,243,34],
-"d3/dce/classXonoticTab.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,243,9],
+"d3/dce/classXonoticTab.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,243,10],
 "d3/dce/classXonoticTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,243,50],
 "d3/dce/classXonoticTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,243,1],
 "d3/dce/classXonoticTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,243,16],
@@ -108,7 +106,7 @@ var NAVTREEINDEX30 =
 "d3/dce/classXonoticTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,243,63],
 "d3/dce/classXonoticTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,243,92],
 "d3/dce/classXonoticTab.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,243,88],
-"d3/dce/classXonoticTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,243,13],
+"d3/dce/classXonoticTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,243,12],
 "d3/dce/classXonoticTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,243,69],
 "d3/dce/classXonoticTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,243,31],
 "d3/dce/classXonoticTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,243,5],
@@ -119,7 +117,7 @@ var NAVTREEINDEX30 =
 "d3/dce/classXonoticTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,243,41],
 "d3/dce/classXonoticTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,243,45],
 "d3/dce/classXonoticTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,243,87],
-"d3/dce/classXonoticTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,243,11],
+"d3/dce/classXonoticTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,243,13],
 "d3/dce/classXonoticTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,243,7],
 "d3/dcf/relay__activators_8qc.html":[2,0,1,13,3,36],
 "d3/dcf/relay__activators_8qc_source.html":[2,0,1,13,3,36],
@@ -249,5 +247,7 @@ var NAVTREEINDEX30 =
 "d3/dd5/bd_8qc.html#afe9c277643ffc32e37baccc473968cb6":[2,0,1,6,0,3,60],
 "d3/dd5/bd_8qc_source.html":[2,0,1,6,0,3],
 "d3/dd8/item_2inputbox_8qc.html":[2,0,5,2,14],
-"d3/dd8/item_2inputbox_8qc.html#a26693b829ccd5dc957992de275dcd0af":[2,0,5,2,14,0]
+"d3/dd8/item_2inputbox_8qc.html#a26693b829ccd5dc957992de275dcd0af":[2,0,5,2,14,0],
+"d3/dd8/item_2inputbox_8qc.html#a3b9b7eac7a90b461c02546a4dca4b081":[2,0,5,2,14,4],
+"d3/dd8/item_2inputbox_8qc.html#a43061ec5225224fc7b69fa5357d9307c":[2,0,5,2,14,9]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX82 =
 {
-"d9/d37/classXonoticScreenshotBrowserTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,228,23],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,228,68],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a67d95732d49da439095483530aca8804":[1,0,228,60],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,228,24],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a72c0e76156762fbda152032add5f1630":[1,0,228,20],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a7326329e73b9b153fde68543eeb27c96":[1,0,228,88],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,228,87],
@@ -24,7 +20,7 @@ var NAVTREEINDEX82 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,228,69],
 "d9/d37/classXonoticScreenshotBrowserTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,228,22],
 "d9/d37/classXonoticScreenshotBrowserTab.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,228,26],
-"d9/d37/classXonoticScreenshotBrowserTab.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,228,16],
+"d9/d37/classXonoticScreenshotBrowserTab.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,228,15],
 "d9/d37/classXonoticScreenshotBrowserTab.html#aaba311b07a1da9615b2d44e9b8c97149":[1,0,228,74],
 "d9/d37/classXonoticScreenshotBrowserTab.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,228,42],
 "d9/d37/classXonoticScreenshotBrowserTab.html#ab3410097f72fc242ab699f5adbf370df":[1,0,228,39],
@@ -46,7 +42,7 @@ var NAVTREEINDEX82 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,228,66],
 "d9/d37/classXonoticScreenshotBrowserTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,228,96],
 "d9/d37/classXonoticScreenshotBrowserTab.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,228,92],
-"d9/d37/classXonoticScreenshotBrowserTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,228,15],
+"d9/d37/classXonoticScreenshotBrowserTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,228,14],
 "d9/d37/classXonoticScreenshotBrowserTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,228,72],
 "d9/d37/classXonoticScreenshotBrowserTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,228,33],
 "d9/d37/classXonoticScreenshotBrowserTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,228,5],
@@ -57,7 +53,7 @@ var NAVTREEINDEX82 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,228,44],
 "d9/d37/classXonoticScreenshotBrowserTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,228,48],
 "d9/d37/classXonoticScreenshotBrowserTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,228,91],
-"d9/d37/classXonoticScreenshotBrowserTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,228,13],
+"d9/d37/classXonoticScreenshotBrowserTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,228,16],
 "d9/d37/classXonoticScreenshotBrowserTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,228,9],
 "d9/d39/wyvern_8qc.html":[2,0,1,8,0,8],
 "d9/d39/wyvern_8qc_source.html":[2,0,1,8,0,8],
@@ -245,9 +241,13 @@ var NAVTREEINDEX82 =
 "d9/d58/classXonoticResolutionSlider.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,224,81],
 "d9/d58/classXonoticResolutionSlider.html#a8c417c95c040a29cf9f83ee606f161ce":[1,0,224,39],
 "d9/d58/classXonoticResolutionSlider.html#a8c568c803f49400fd0165b69f82d4161":[1,0,224,76],
-"d9/d58/classXonoticResolutionSlider.html#a8c71ab9e185789b5862d4eca97de030e":[1,0,224,9],
+"d9/d58/classXonoticResolutionSlider.html#a8c71ab9e185789b5862d4eca97de030e":[1,0,224,8],
 "d9/d58/classXonoticResolutionSlider.html#a8cca0bf7b0cce665cc61438d8405cced":[1,0,224,29],
 "d9/d58/classXonoticResolutionSlider.html#a8f04cd9252d82b0da453b439558cd2e6":[1,0,224,37],
 "d9/d58/classXonoticResolutionSlider.html#a99f113cbca6d20b18128c10c6d236867":[1,0,224,84],
-"d9/d58/classXonoticResolutionSlider.html#a9c04727d8b4f644f96fad98456d78dd9":[1,0,224,102]
+"d9/d58/classXonoticResolutionSlider.html#a9c04727d8b4f644f96fad98456d78dd9":[1,0,224,102],
+"d9/d58/classXonoticResolutionSlider.html#a9ca3368107bf73f65caecfc756ef838b":[1,0,224,38],
+"d9/d58/classXonoticResolutionSlider.html#a9db73c915b3dace3a88f396a2824a071":[1,0,224,70],
+"d9/d58/classXonoticResolutionSlider.html#a9e2c4bf741bd04d166a2c21130d15b0b":[1,0,224,43],
+"d9/d58/classXonoticResolutionSlider.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,224,53]
 };

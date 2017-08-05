@@ -1,7 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"d4/de8/classRacerAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,103,9],
-"d4/de8/classRacerAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,103,24],
 "d4/de8/classRacerAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,103,8],
 "d4/de8/classRacerAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,103,2],
 "d4/de8/classRacerAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,103,34],
@@ -98,7 +96,7 @@ var NAVTREEINDEX44 =
 "d4/df8/classXonoticHUDRadarDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,191,65],
 "d4/df8/classXonoticHUDRadarDialog.html#aa19a83400211f2f266218d782e0fa198":[1,0,191,78],
 "d4/df8/classXonoticHUDRadarDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,191,20],
-"d4/df8/classXonoticHUDRadarDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,191,10],
+"d4/df8/classXonoticHUDRadarDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,191,9],
 "d4/df8/classXonoticHUDRadarDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,191,35],
 "d4/df8/classXonoticHUDRadarDialog.html#ab065dd0d6191f7f7a04cad907ad097fb":[1,0,191,24],
 "d4/df8/classXonoticHUDRadarDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,191,36],
@@ -122,7 +120,7 @@ var NAVTREEINDEX44 =
 "d4/df8/classXonoticHUDRadarDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,191,55],
 "d4/df8/classXonoticHUDRadarDialog.html#ae32afb34536c7546251d510d37b3c338":[1,0,191,69],
 "d4/df8/classXonoticHUDRadarDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,191,91],
-"d4/df8/classXonoticHUDRadarDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,191,9],
+"d4/df8/classXonoticHUDRadarDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,191,8],
 "d4/df8/classXonoticHUDRadarDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,191,68],
 "d4/df8/classXonoticHUDRadarDialog.html#af1aab403dc54575707fd57991312b201":[1,0,191,47],
 "d4/df8/classXonoticHUDRadarDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,191,27],
@@ -132,7 +130,7 @@ var NAVTREEINDEX44 =
 "d4/df8/classXonoticHUDRadarDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,191,37],
 "d4/df8/classXonoticHUDRadarDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,191,41],
 "d4/df8/classXonoticHUDRadarDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,191,86],
-"d4/df8/classXonoticHUDRadarDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,191,8],
+"d4/df8/classXonoticHUDRadarDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,191,10],
 "d4/df8/sv__touchexplode_8qc.html":[2,0,1,9,0,30,2],
 "d4/df8/sv__touchexplode_8qc.html#a0228a9d2666d52bfede21f623057a28c":[2,0,1,9,0,30,2,7],
 "d4/df8/sv__touchexplode_8qc.html#a1f57f0e89cdacbd3eea423c74aab783e":[2,0,1,9,0,30,2,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX44 =
 "d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f":[2,0,6,60,2],
 "d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec":[2,0,6,60,0],
 "d5/d14/scores__rules_8qc_source.html":[2,0,6,60],
-"d5/d16/weaponarenacheckbox_8qh.html":[2,0,5,4,231]
+"d5/d16/weaponarenacheckbox_8qh.html":[2,0,5,4,231],
+"d5/d16/weaponarenacheckbox_8qh.html#adf56d4bc38e7c5065719b469089a3ba5":[2,0,5,4,231,1],
+"d5/d16/weaponarenacheckbox_8qh_source.html":[2,0,5,4,231]
 };

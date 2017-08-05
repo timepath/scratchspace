@@ -1,8 +1,8 @@
 var classXonoticKeyBinder =
 [
-    [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
     [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#aa68fe8d02e938469d5cd5e4bd81e6653", null ],
     [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#a738368b93a59c54eae78f744a3ced870", null ],
+    [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
     [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#a13609a330433433b9dd3530506132650", null ],
     [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#aa06527dceffa3a23d331de29474ffc42", null ],
     [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#afdcf1fb79903f747cda494b27206526b", null ],
