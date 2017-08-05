@@ -1,7 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"d7/de3/relay__activators_8qh.html":[2,0,1,13,3,37],
-"d7/de3/relay__activators_8qh_source.html":[2,0,1,13,3,37],
 "d7/de4/teleport_8qh.html":[2,0,1,13,3,47],
 "d7/de4/teleport_8qh_source.html":[2,0,1,13,3,47],
 "d7/de6/classXonoticSkinList.html":[1,0,238],
@@ -249,5 +247,7 @@ var NAVTREEINDEX70 =
 "d8/d00/classImage.html#aba512e196285bb4464fc76b59e391161":[1,0,52,39],
 "d8/d00/classImage.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,52,33],
 "d8/d00/classImage.html#ac6094922668d013ada3893854eec6b0f":[1,0,52,12],
-"d8/d00/classImage.html#ac783a223d75bf1d08a090ff8891725cc":[1,0,52,36]
+"d8/d00/classImage.html#ac783a223d75bf1d08a090ff8891725cc":[1,0,52,36],
+"d8/d00/classImage.html#ace6b33f60db102ae3b061eb3c0b93ec2":[1,0,52,19],
+"d8/d00/classImage.html#ad619e3913547690106cdb4f742e182d4":[1,0,52,9]
 };

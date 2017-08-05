@@ -1,7 +1,5 @@
 var NAVTREEINDEX114 =
 {
-"dd/d50/sortlist_8qh.html#ac290e31cae9a65867cad405ce4f8cad5":[2,0,4,52,2],
-"dd/d50/sortlist_8qh.html#ad1fdb104754c2dc2510b0524144d3f1c":[2,0,4,52,5],
 "dd/d50/sortlist_8qh_source.html":[2,0,4,52],
 "dd/d52/fourier_8qh.html":[2,0,1,13,0,17],
 "dd/d52/fourier_8qh_source.html":[2,0,1,13,0,17],
@@ -249,5 +247,7 @@ var NAVTREEINDEX114 =
 "dd/d73/classMachineGun.html#ac95dda036bf0614977a5ec7461ce1a0d":[1,0,68,24],
 "dd/d73/classMachineGun.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,68,3],
 "dd/d73/classMachineGun.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,68,35],
-"dd/d73/classMachineGun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,68,22]
+"dd/d73/classMachineGun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,68,22],
+"dd/d73/classMachineGun.html#ad60581174addffcd546196db2e2e8c56":[1,0,68,25],
+"dd/d73/classMachineGun.html#ae061f597f731f3a49ca8aecbd33a2713":[1,0,68,29]
 };

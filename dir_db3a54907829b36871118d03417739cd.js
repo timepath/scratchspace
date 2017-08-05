@@ -4,8 +4,6 @@ var dir_db3a54907829b36871118d03417739cd =
     [ "hud", "dir_ed4f60597e07802ebc30a81f2c583d1a.html", "dir_ed4f60597e07802ebc30a81f2c583d1a" ],
     [ "mutators", "dir_08b4cf75afed9a7734ab4c2d9f3e6fae.html", "dir_08b4cf75afed9a7734ab4c2d9f3e6fae" ],
     [ "weapons", "dir_495694096385bdd0c8e29295426af588.html", "dir_495694096385bdd0c8e29295426af588" ],
-    [ "_all.inc", "df/da1/client_2__all_8inc.html", null ],
-    [ "_all.qh", "d5/d4d/client_2__all_8qh.html", null ],
     [ "_mod.inc", "de/dbe/client_2__mod_8inc.html", null ],
     [ "_mod.qh", "d2/dd5/client_2__mod_8qh.html", null ],
     [ "announcer.qc", "da/df4/announcer_8qc.html", "da/df4/announcer_8qc" ],

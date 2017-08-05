@@ -1,7 +1,5 @@
 var NAVTREEINDEX112 =
 {
-"dc/de9/classXonoticRootDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,225,76],
-"dc/de9/classXonoticRootDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,225,18],
 "dc/de9/classXonoticRootDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,225,14],
 "dc/de9/classXonoticRootDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,225,66],
 "dc/de9/classXonoticRootDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,225,25],
@@ -249,5 +247,7 @@ var NAVTREEINDEX112 =
 "dd/d13/borderimage_8qc.html#a77b67c740e2ac71606c51918ee2b9017":[2,0,5,2,2,2],
 "dd/d13/borderimage_8qc.html#ab3492fa39c0e3496d2e5d2515ffd7ff6":[2,0,5,2,2,1],
 "dd/d13/borderimage_8qc_source.html":[2,0,5,2,2],
-"dd/d19/weapons_2weapon_2machinegun_8qh.html":[2,0,1,16,0,21]
+"dd/d19/weapons_2weapon_2machinegun_8qh.html":[2,0,1,16,0,21],
+"dd/d19/weapons_2weapon_2machinegun_8qh_source.html":[2,0,1,16,0,21],
+"dd/d1a/client_2mapvoting_8qh.html":[2,0,0,18]
 };

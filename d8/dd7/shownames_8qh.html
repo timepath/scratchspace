@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d8/dd7/shownames_8qh.html','../../');}
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d8f/shownames_8qh__dep__incl.svg" width="540" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d8f/shownames_8qh__dep__incl.svg" width="540" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -157,48 +157,48 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00177">177</a> of file <a class="el" href="../../d7/d39/shownames_8qc_source.html">shownames.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00179">179</a> of file <a class="el" href="../../d7/d39/shownames_8qc_source.html">shownames.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00005">assert</a>, <a class="el" href="../../d7/db4/client_2autocvars_8qh_source.html#l00375">autocvar_hud_shownames</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00036">Draw_ShowNames()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15">eprint()</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e">getthink</a>, <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00075">LL_EACH</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00015">make_impure</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">make_pure</a>, and <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>.</p>
+<p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00005">assert</a>, <a class="el" href="../../d7/db4/client_2autocvars_8qh_source.html#l00375">autocvar_hud_shownames</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00038">Draw_ShowNames()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15">eprint()</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e">getthink</a>, <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00075">LL_EACH</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00015">make_impure</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">make_pure</a>, and <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01491">CSQC_UpdateView()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;{</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a04d080657728feff7a5639ce39553e24">autocvar_hud_shownames</a>) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <a class="code" href="../../de/d09/linkedlist_8qh.html#accc6c5d3ab06c26b8e5408db31cf0247">LL_EACH</a>(<a class="code" href="../../d7/d39/shownames_8qc.html#a05baddc07fb1b4dcfd2bd6158e47c7a1">shownames_ent</a>, <span class="keyword">true</span>, {</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> entcs = entcs_receiver(i);</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <span class="keywordflow">if</span> (!entcs)</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        {</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;            <a class="code" href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a>(it);</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        }</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a>(it);</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e">getthink</a>(entcs), <a class="code" href="../../d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15">eprint</a>(entcs));</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e">getthink</a>(entcs)(entcs);</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">if</span> (!entcs.has_origin) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordflow">if</span> (entcs.m_entcs_private)</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        {</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            it.healthvalue = entcs.healthvalue;</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            it.armorvalue = entcs.armorvalue;</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            it.sameteam = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        }</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        {</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            it.healthvalue = 0;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            it.armorvalue = 0;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            it.sameteam = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        }</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordtype">bool</span> dead = entcs_IsDead(i) || entcs_IsSpectating(i);</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordflow">if</span> (!it.csqcmodel_isdead) <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(it, entcs.origin);</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        it.csqcmodel_isdead = dead;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <a class="code" href="../../d7/d39/shownames_8qc.html#ae84061a430077f6deea0123fa97d41b8">Draw_ShowNames</a>(it);</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    });</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01494">CSQC_UpdateView()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;{</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a04d080657728feff7a5639ce39553e24">autocvar_hud_shownames</a>) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <a class="code" href="../../de/d09/linkedlist_8qh.html#accc6c5d3ab06c26b8e5408db31cf0247">LL_EACH</a>(<a class="code" href="../../d7/d39/shownames_8qc.html#a05baddc07fb1b4dcfd2bd6158e47c7a1">shownames_ent</a>, <span class="keyword">true</span>, {</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> entcs = entcs_receiver(i);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">if</span> (!entcs)</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            <a class="code" href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a>(it);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        }</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a>(it);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e">getthink</a>(entcs), <a class="code" href="../../d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15">eprint</a>(entcs));</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e">getthink</a>(entcs)(entcs);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">if</span> (!entcs.has_origin) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">if</span> (entcs.m_entcs_private)</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            it.healthvalue = entcs.healthvalue;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            it.armorvalue = entcs.armorvalue;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            it.sameteam = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        }</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            it.healthvalue = 0;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            it.armorvalue = 0;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            it.sameteam = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        }</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordtype">bool</span> dead = entcs_IsDead(i) || entcs_IsSpectating(i);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keywordflow">if</span> (!it.csqcmodel_isdead) <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(it, entcs.origin);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        it.csqcmodel_isdead = dead;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <a class="code" href="../../d7/d39/shownames_8qc.html#ae84061a430077f6deea0123fa97d41b8">Draw_ShowNames</a>(it);</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    });</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;}</div>
 <div class="ttc" id="log_8qh_html_a98b360dc9fac616757f41f728705e8e0"><div class="ttname"><a href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a></div><div class="ttdeci">#define assert(expr,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00005">log.qh:5</a></div></div>
 <div class="ttc" id="self_8qh_html_a67534e9d3c6f49933b2c164afe15211e"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e">getthink</a></div><div class="ttdeci">#define getthink(e)</div></div>
 <div class="ttc" id="linkedlist_8qh_html_accc6c5d3ab06c26b8e5408db31cf0247"><div class="ttname"><a href="../../de/d09/linkedlist_8qh.html#accc6c5d3ab06c26b8e5408db31cf0247">LL_EACH</a></div><div class="ttdeci">#define LL_EACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00075">linkedlist.qh:75</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="shownames_8qc_html_ae84061a430077f6deea0123fa97d41b8"><div class="ttname"><a href="../../d7/d39/shownames_8qc.html#ae84061a430077f6deea0123fa97d41b8">Draw_ShowNames</a></div><div class="ttdeci">void Draw_ShowNames(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d39/shownames_8qc_source.html#l00036">shownames.qc:36</a></div></div>
-<div class="ttc" id="shownames_8qc_html_a05baddc07fb1b4dcfd2bd6158e47c7a1"><div class="ttname"><a href="../../d7/d39/shownames_8qc.html#a05baddc07fb1b4dcfd2bd6158e47c7a1">shownames_ent</a></div><div class="ttdeci">LinkedList shownames_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d39/shownames_8qc_source.html#l00022">shownames.qc:22</a></div></div>
+<div class="ttc" id="shownames_8qc_html_ae84061a430077f6deea0123fa97d41b8"><div class="ttname"><a href="../../d7/d39/shownames_8qc.html#ae84061a430077f6deea0123fa97d41b8">Draw_ShowNames</a></div><div class="ttdeci">void Draw_ShowNames(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d39/shownames_8qc_source.html#l00038">shownames.qc:38</a></div></div>
+<div class="ttc" id="shownames_8qc_html_a05baddc07fb1b4dcfd2bd6158e47c7a1"><div class="ttname"><a href="../../d7/d39/shownames_8qc.html#a05baddc07fb1b4dcfd2bd6158e47c7a1">shownames_ent</a></div><div class="ttdeci">LinkedList shownames_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d39/shownames_8qc_source.html#l00024">shownames.qc:24</a></div></div>
 <div class="ttc" id="oo_8qh_html_a2c6f379bca790f3aa11453fb312572a2"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a></div><div class="ttdeci">#define make_impure(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00015">oo.qh:15</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a04d080657728feff7a5639ce39553e24"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a04d080657728feff7a5639ce39553e24">autocvar_hud_shownames</a></div><div class="ttdeci">bool autocvar_hud_shownames</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00375">autocvars.qh:375</a></div></div>
 <div class="ttc" id="oo_8qh_html_a38b2e3be8bac16c7e501868868a5a2ff"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a></div><div class="ttdeci">#define make_pure(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00010">oo.qh:10</a></div></div>
@@ -249,7 +249,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d8/dd7/shownames_8qh.html">shownames.qh</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 09:13:47 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 11:15:07 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

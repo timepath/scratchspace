@@ -162,8 +162,6 @@ var NAVTREEINDEX46 =
 "d5/d4a/cl__minigames__hud_8qc_source.html":[2,0,1,6,5],
 "d5/d4c/controlpoint_8qh.html":[2,0,1,3,0,1,7],
 "d5/d4c/controlpoint_8qh_source.html":[2,0,1,3,0,1,7],
-"d5/d4d/client_2__all_8qh.html":[2,0,0,5],
-"d5/d4d/client_2__all_8qh_source.html":[2,0,0,5],
 "d5/d52/bits_8qh.html":[2,0,4,10],
 "d5/d52/bits_8qh.html#a2314b0f12446883858be502bad75f6d2":[2,0,4,10,11],
 "d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c":[2,0,4,10,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX46 =
 "d5/d5d/effectinfo__nades_8inc.html#a85eb9662d701dcbc01ee25100b8e8044":[2,0,1,2,17,4],
 "d5/d5d/effectinfo__nades_8inc.html#aa9594282995b95f956529658778fbdc1":[2,0,1,2,17,8],
 "d5/d5d/effectinfo__nades_8inc.html#aeb218eb4f0be2219743957dc3c04e56f":[2,0,1,2,17,2],
-"d5/d5d/effectinfo__nades_8inc_source.html":[2,0,1,2,17]
+"d5/d5d/effectinfo__nades_8inc_source.html":[2,0,1,2,17],
+"d5/d5d/sv__campcheck_8qh.html":[2,0,1,9,0,4,5],
+"d5/d5d/sv__campcheck_8qh_source.html":[2,0,1,9,0,4,5]
 };
