@@ -580,7 +580,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;</div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    <a class="code" href="../../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e">fixedmakevectors</a>(this.<a class="code" href="../../db/d2f/subs_8qh.html#a69b97ec45f7d1f6cf75089eea61c38cd">mangle</a>);</div>
 <div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), {</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;        <span class="keywordflow">if</span>(it != o)</div>
 <div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a8556a3ededb6cf803915e2c22f444aa0">IS_INDEPENDENT_PLAYER</a>(it) || <a class="code" href="../../d5/d26/server_2defs_8qh.html#a8556a3ededb6cf803915e2c22f444aa0">IS_INDEPENDENT_PLAYER</a>(o))</div>
 <div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;                <span class="keywordflow">continue</span>; <span class="comment">// cannot go through someone else&#39;s portal</span></div>
@@ -594,7 +594,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;            <span class="keywordflow">if</span>(it.(weaponentity).hook)</div>
 <div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;                <a class="code" href="../../de/de8/portals_8qc.html#a5ceb346f0a2fd166c47465cf73c6af78">Portal_Think_TryTeleportPlayer</a>(<span class="keyword">this</span>, it.(weaponentity).hook, g);</div>
 <div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;        }</div>
-<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    ));</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    });</div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d">solid</a> = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a3973fdf525463133ef775c885b63b989">SOLID_TRIGGER</a>;</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#a9d8f05707745e18415d786a00cd398e8">aiment</a> = o;</div>
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -825,7 +825,6 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="ttc" id="portals_8qc_html_a7620840c6a2c2d6e4d5a0ceca8b7a840"><div class="ttname"><a href="../../de/de8/portals_8qc.html#a7620840c6a2c2d6e4d5a0ceca8b7a840">PlayerEdgeDistance</a></div><div class="ttdeci">float PlayerEdgeDistance(entity p, vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de8/portals_8qc_source.html#l00030">portals.qc:30</a></div></div>
 <div class="ttc" id="portals_8qc_html_a609b1151ce1ef7aedb50a1c7e1cba5cf"><div class="ttname"><a href="../../de/de8/portals_8qc.html#a609b1151ce1ef7aedb50a1c7e1cba5cf">Portal_Disconnect</a></div><div class="ttdeci">void Portal_Disconnect(entity teleporter, entity destination)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de8/portals_8qc_source.html#l00370">portals.qc:370</a></div></div>
 <div class="ttc" id="portals_8qc_html_ae1ac08fabc3ed8dfd831cc32a5c2af6c"><div class="ttname"><a href="../../de/de8/portals_8qc.html#ae1ac08fabc3ed8dfd831cc32a5c2af6c">Portal_MakeBrokenPortal</a></div><div class="ttdeci">void Portal_MakeBrokenPortal(entity portal)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de8/portals_8qc_source.html#l00326">portals.qc:326</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00094">self.qh:94</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a3973fdf525463133ef775c885b63b989"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a3973fdf525463133ef775c885b63b989">SOLID_TRIGGER</a></div><div class="ttdeci">const int SOLID_TRIGGER</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00127">csqc_constants.qh:127</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
@@ -928,7 +927,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../de/de8/portals_8qc.html">portals.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:06 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

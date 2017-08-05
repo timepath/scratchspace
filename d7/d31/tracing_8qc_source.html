@@ -369,7 +369,7 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="comment">// Find all non-hit players the beam passed close by</span></div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">if</span>(deathtype == WEP_VAPORIZER.m_id || deathtype == WEP_VORTEX.m_id)</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    {</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; it != <span class="keyword">this</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; it != <span class="keyword">this</span>, {</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            <span class="keywordflow">if</span>(!it.railgunhit)</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            <span class="keywordflow">if</span>(!(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a>(it) &amp;&amp; it.enemy == <span class="keyword">this</span>))</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            {</div>
@@ -385,7 +385,7 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                    pseudoprojectile = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>(); <span class="comment">// we need this so the sound uses the &quot;entchannel4&quot; volume</span></div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a03ae2b364190aaf5a91fd684522d66ff">soundtoat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, pseudoprojectile, beampos, <a class="code" href="../../d0/df5/sound_8qh.html#a4051c5328d378b063ec0779a9c9a75c3">CH_SHOTS</a>, <a class="code" href="../../df/dc2/sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a>(NEXWHOOSH_RANDOM()), <a class="code" href="../../d0/df5/sound_8qh.html#a353d870104b3e8ae2a5fc5584279c735">VOL_BASE</a> * f, <a class="code" href="../../d0/df5/sound_8qh.html#aa00190ab7f73439edff33680b94eaacb">ATTEN_NONE</a>);</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            }</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        ));</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        });</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="keywordflow">if</span>(pseudoprojectile)</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            <span class="keyword">delete</span>(pseudoprojectile);</div>
@@ -630,7 +630,6 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div class="ttc" id="sound_8qh_html_aa00190ab7f73439edff33680b94eaacb"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa00190ab7f73439edff33680b94eaacb">ATTEN_NONE</a></div><div class="ttdeci">const float ATTEN_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00027">sound.qh:27</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qh_html"><div class="ttname"><a href="../../d7/d71/lib_2warpzone_2common_8qh.html">common.qh</a></div></div>
 <div class="ttc" id="state_8qh_html_a6228dce6d2ac6b96b7ebe5d2b44be40c"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a></div><div class="ttdeci">#define PS(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00018">state.qh:18</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="tracing_8qh_html_a41dc0e466407c3a9330a708dc56d5bb1"><div class="ttname"><a href="../../d4/d3f/tracing_8qh.html#a41dc0e466407c3a9330a708dc56d5bb1">w_shotdir</a></div><div class="ttdeci">vector w_shotdir</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3f/tracing_8qh_source.html#l00004">tracing.qh:4</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 <div class="ttc" id="tracing_8qh_html"><div class="ttname"><a href="../../d4/d3f/tracing_8qh.html">tracing.qh</a></div></div>
@@ -732,7 +731,7 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d7/d31/tracing_8qc.html">tracing.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:06 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

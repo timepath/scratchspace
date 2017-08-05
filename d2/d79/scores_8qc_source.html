@@ -561,8 +561,8 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        <a class="code" href="../../d5/dac/server_2scores_8qh.html#a3b3f78fad3dbef3ebefbcbd1af28e8e2">WinningConditionHelper_second</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        winnerscorekeeper = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        secondscorekeeper = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;            sk = <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it).<a class="code" href="../../d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83">scorekeeper</a>;</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), {</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;            sk = <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it).scorekeeper;</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;            c = <a class="code" href="../../d2/d79/scores_8qc.html#a5441e464e74d40fc0584e956f68c2c12">PlayerScore_Compare</a>(winnerscorekeeper, sk, 1);</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;            <span class="keywordflow">if</span>(c &lt; 0)</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;            {</div>
@@ -580,10 +580,10 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;                    secondscorekeeper = sk;</div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;                }</div>
 <div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;            }</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;        ));</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;        });</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;</div>
 <div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;        <a class="code" href="../../d5/dac/server_2scores_8qh.html#a8631999a5b4504117a5302b09fe9d188">WinningConditionHelper_equality</a> = (<a class="code" href="../../d2/d79/scores_8qc.html#a5441e464e74d40fc0584e956f68c2c12">PlayerScore_Compare</a>(winnerscorekeeper, secondscorekeeper, 0) == 0);</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/dac/server_2scores_8qh.html#a8631999a5b4504117a5302b09fe9d188">WinningConditionHelper_equality</a>)</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;        <span class="keywordflow">if</span>(WinningConditionHelper_equality)</div>
 <div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;            <a class="code" href="../../d5/dac/server_2scores_8qh.html#a769f5cd93e5314515fc2f3b8e06470b9">WinningConditionHelper_winner</a> = <a class="code" href="../../d5/dac/server_2scores_8qh.html#a3b3f78fad3dbef3ebefbcbd1af28e8e2">WinningConditionHelper_second</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;</div>
 <div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;        <a class="code" href="../../d5/dac/server_2scores_8qh.html#a797e9ff73e5f26c751704c06865d4701">WinningConditionHelper_topscore</a> = winnerscorekeeper.scores_primary;</div>
@@ -622,7 +622,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(<a class="code" href="../../de/d5e/dpextensions_8qc.html#a43553b1cbfa699a2e0aed0b8b23448dd">worldstatus</a>);</div>
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    <a class="code" href="../../de/d5e/dpextensions_8qc.html#a43553b1cbfa699a2e0aed0b8b23448dd">worldstatus</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(s);</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;        <span class="keywordtype">string</span> s = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;        <span class="keywordflow">if</span>(fullstatus)</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;        {</div>
@@ -642,7 +642,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;        <span class="keywordflow">if</span>(it.clientstatus)</div>
 <div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(it.clientstatus);</div>
 <div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;        it.clientstatus = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(s);</div>
-<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    ));</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    });</div>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;}</div>
 <div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;</div>
 <div class="line"><a name="l00541"></a><span class="lineno"><a class="line" href="../../d2/d79/scores_8qc.html#a536688c8d54d72f0f2325e8e8a57a0a6">  541</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../d2/d79/scores_8qc.html#a536688c8d54d72f0f2325e8e8a57a0a6">GetScoreLogLabel</a>(<span class="keywordtype">string</span> label, <span class="keywordtype">float</span> fl)</div>
@@ -801,7 +801,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;</div>
 <div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;    plist = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(it.(field) = 0));</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, { it.(field) = 0; });</div>
 <div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;</div>
 <div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it).<a class="code" href="../../d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83">scorekeeper</a>,</div>
 <div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;    {</div>
@@ -1001,12 +1001,12 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;    }</div>
 <div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;</div>
 <div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;    t = 0;</div>
-<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(!<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(!<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), {</div>
 <div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;        <span class="keywordflow">if</span> (!t)</div>
 <div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;            <a class="code" href="../../d2/d79/scores_8qc.html#ac325eeedb7c50f08a44fc2b93063c5bf">Score_NicePrint_Spectators</a>(to);</div>
 <div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;        <a class="code" href="../../d2/d79/scores_8qc.html#a70e333bb8df9db9b1aa1244d608ce4d3">Score_NicePrint_Spectator</a>(to, it);</div>
 <div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;        t = 1;</div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;    ));</div>
+<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;    });</div>
 <div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;}</div>
 <div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;</div>
 <div class="line"><a name="l00905"></a><span class="lineno"><a class="line" href="../../d2/d79/scores_8qc.html#a92dc03c3e0dc4d9f8cd86b7c45c6e167">  905</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d79/scores_8qc.html#a92dc03c3e0dc4d9f8cd86b7c45c6e167">PlayerScore_PlayerStats</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>)</div>
@@ -1069,7 +1069,6 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div class="ttc" id="scores_8qc_html_a0e01d4df2b9d101fe63bb6295ce44112"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#a0e01d4df2b9d101fe63bb6295ce44112">PlayerScore_Detach</a></div><div class="ttdeci">void PlayerScore_Detach(entity player)</div><div class="ttdoc">Detaches a PlayerScore entity from the player. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00317">scores.qc:317</a></div></div>
 <div class="ttc" id="scores_8qc_html_a601d5f667de9976b2a1ca7f6fc6051de"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#a601d5f667de9976b2a1ca7f6fc6051de">ScoreInfo_SetLabel_PlayerScore</a></div><div class="ttdeci">void ScoreInfo_SetLabel_PlayerScore(PlayerScoreField i, string label, float scoreflags)</div><div class="ttdoc">Set the label of a player score item, as well as the scoring flags. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00154">scores.qc:154</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_af289ce9e49626ec727198c2d334299bd"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#af289ce9e49626ec727198c2d334299bd">modname</a></div><div class="ttdeci">string modname</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00385">defs.qh:385</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="server_2scores_8qh_html_ab30d5582c88443bdee741643bb7d4f06"><div class="ttname"><a href="../../d5/dac/server_2scores_8qh.html#ab30d5582c88443bdee741643bb7d4f06">WinningConditionHelper_lowerisbetter</a></div><div class="ttdeci">float WinningConditionHelper_lowerisbetter</div><div class="ttdoc">lower is better, duh </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/server_2scores_8qh_source.html#l00110">scores.qh:110</a></div></div>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00094">self.qh:94</a></div></div>
 <div class="ttc" id="server_2command_2common_8qc_html_a37f1c035bd3cc63c8ef7d58dd12958ee"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#a37f1c035bd3cc63c8ef7d58dd12958ee">print_to</a></div><div class="ttdeci">void print_to(entity to, string input)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00175">common.qc:175</a></div></div>
@@ -1169,7 +1168,7 @@ $(document).ready(function(){initNavTree('d2/d79/scores_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d2/d79/scores_8qc.html">scores.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:06 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

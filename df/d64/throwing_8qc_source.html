@@ -167,10 +167,10 @@ $(document).ready(function(){initNavTree('df/d64/throwing_8qc_source.html','../.
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        {</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keywordtype">int</span> superweapons = 1;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, {</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#ade7b3795466e850b0acb38ad649ea87b">WepSet</a> set = it.m_wepset;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                <span class="keywordflow">if</span>((set &amp; WEPSET_SUPERWEAPONS) &amp;&amp; (own.weapons &amp; set)) ++superweapons;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            ));</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            });</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">if</span>(superweapons &lt;= 1)</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            {</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                wep.superweapons_finished = own.superweapons_finished;</div>
@@ -322,7 +322,6 @@ $(document).ready(function(){initNavTree('df/d64/throwing_8qc_source.html','../.
 <div class="ttc" id="api_8qh_html_a7ee208dfaf077cf2c6ef10818b975fd9"><div class="ttname"><a href="../../db/d15/api_8qh.html#a7ee208dfaf077cf2c6ef10818b975fd9">navigation_dynamicgoal_init</a></div><div class="ttdeci">void navigation_dynamicgoal_init(entity this, bool initially_static)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/navigation_8qc_source.html#l00018">navigation.qc:18</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a3f595687f904e846427f62493b2604a7"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a3f595687f904e846427f62493b2604a7">start_items</a></div><div class="ttdeci">int start_items</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00182">miscfunctions.qh:182</a></div></div>
 <div class="ttc" id="server_2constants_8qh_html_ada13fe5056a6799820233daa42d28c4c"><div class="ttname"><a href="../../d9/de7/server_2constants_8qh.html#ada13fe5056a6799820233daa42d28c4c">FL_TOSSED</a></div><div class="ttdeci">const int FL_TOSSED</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de7/server_2constants_8qh_source.html#l00006">constants.qh:6</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="wepent_8qh_html"><div class="ttname"><a href="../../d0/d56/wepent_8qh.html">wepent.qh</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a1c09a2abd5202dd36b8a4c5d5f5388ff"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a1c09a2abd5202dd36b8a4c5d5f5388ff">autocvar_g_pickup_items</a></div><div class="ttdeci">int autocvar_g_pickup_items</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00189">autocvars.qh:189</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_a06dbc3a3eb5aaab80edf32ea607f1ef3"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a></div><div class="ttdeci">origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00048">ent_cs.qc:48</a></div></div>
@@ -381,7 +380,7 @@ $(document).ready(function(){initNavTree('df/d64/throwing_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../df/d64/throwing_8qc.html">throwing.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:06 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

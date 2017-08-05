@@ -222,13 +222,13 @@ $(document).ready(function(){initNavTree('de/d55/server_2command_2common_8qc_sou
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        }</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">else</span>  <span class="comment">// no, maybe it&#39;s a name?</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        {</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                <span class="keywordflow">if</span>(strdecolorize(it.netname) == strdecolorize(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(start_index)))</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                {</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                    selection = it;</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                    <span class="keywordflow">break</span>; <span class="comment">// no reason to keep looking</span></div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                }</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            ));</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            });</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            index = (start_index + 1);</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        }</div>
@@ -255,13 +255,13 @@ $(document).ready(function(){initNavTree('de/d55/server_2command_2common_8qc_sou
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    {</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        selection = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <span class="keywordflow">if</span>(strdecolorize(it.netname) == strdecolorize(input))</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            {</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                selection = it;</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                <span class="keywordflow">break</span>; <span class="comment">// no reason to keep looking</span></div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            }</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        ));</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        });</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    }</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keywordflow">return</span> selection;</div>
@@ -324,9 +324,9 @@ $(document).ready(function(){initNavTree('de/d55/server_2command_2common_8qc_sou
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;slowmo&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a69e63967f245e2262d279f914f6469fb">orig_slowmo</a>));</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                <span class="comment">// unlock the view for players so they can move around again</span></div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), {</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                    it.fixangle = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                ));</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                });</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                <a class="code" href="../../de/d55/server_2command_2common_8qc.html#a38efff6806e0a8dda7e9daed9ef3debf">timeout_handler_reset</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            }</div>
@@ -351,16 +351,16 @@ $(document).ready(function(){initNavTree('de/d55/server_2command_2common_8qc_sou
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;slowmo&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a2bc7164e655838f8ad0d6d1f258861a8">TIMEOUT_SLOWMO_VALUE</a>));</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                <span class="comment">// reset all the flood variables</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                    it.nickspamcount = it.nickspamtime = it.floodcontrol_chat =</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                        it.floodcontrol_chatteam = it.floodcontrol_chattell =</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                            it.floodcontrol_voice = it.floodcontrol_voiceteam = 0;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                ));</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                });</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                <span class="comment">// copy .v_angle to .lastV_angle for every player in order to fix their view during pause (see PlayerPreThink)</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), {</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                    it.lastV_angle = it.v_angle;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                ));</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                });</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;  <span class="comment">// think again next frame to handle it under TIMEOUT_ACTIVE code</span></div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            }</div>
@@ -891,7 +891,7 @@ $(document).ready(function(){initNavTree('de/d55/server_2command_2common_8qc_sou
 <div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;                <span class="stringliteral">&quot;ent&quot;</span>, <span class="stringliteral">&quot;nickname&quot;</span>, <span class="stringliteral">&quot;ping&quot;</span>, <span class="stringliteral">&quot;pl&quot;</span>, <span class="stringliteral">&quot;time&quot;</span>, <span class="stringliteral">&quot;ip&quot;</span>, <span class="stringliteral">&quot;crypto_id&quot;</span>));</div>
 <div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;</div>
 <div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;            total_listed_players = 0;</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;            <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;            <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;                is_bot = (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(it));</div>
 <div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;</div>
 <div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;                <span class="keywordflow">if</span> (is_bot)</div>
@@ -920,7 +920,7 @@ $(document).ready(function(){initNavTree('de/d55/server_2command_2common_8qc_sou
 <div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;                    tmp_crypto_idfp));</div>
 <div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;</div>
 <div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;                ++total_listed_players;</div>
-<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;            ));</div>
+<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;            });</div>
 <div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;</div>
 <div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;            <a class="code" href="../../de/d55/server_2command_2common_8qc.html#a37f1c035bd3cc63c8ef7d58dd12958ee">print_to</a>(caller, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;Finished listing &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(total_listed_players), <span class="stringliteral">&quot; client(s) out of &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a>), <span class="stringliteral">&quot; slots.&quot;</span>));</div>
 <div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;</div>
@@ -990,7 +990,6 @@ $(document).ready(function(){initNavTree('de/d55/server_2command_2common_8qc_sou
 <div class="ttc" id="server_2command_2common_8qc_html_a0bedeb3949922fba7a554b2349a9a33c"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#a0bedeb3949922fba7a554b2349a9a33c">CommonCommand_cvar_purechanges</a></div><div class="ttdeci">void CommonCommand_cvar_purechanges(float request, entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00300">common.qc:300</a></div></div>
 <div class="ttc" id="server_2command_2common_8qc_html_ac81112feb32b9615c6d58d3edf8fb83f"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#ac81112feb32b9615c6d58d3edf8fb83f">CommonCommand_time</a></div><div class="ttdeci">void CommonCommand_time(float request, entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00620">common.qc:620</a></div></div>
 <div class="ttc" id="server_2command_2common_8qc_html_af89e91d25e1930737140b82c808de86f"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#af89e91d25e1930737140b82c808de86f">VerifyClientEntity</a></div><div class="ttdeci">float VerifyClientEntity(entity client, float must_be_real, float must_be_bots)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00039">common.qc:39</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a1a3ca31bd4d3da8f4dc1931e82cb04b5"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a></div><div class="ttdeci">float maxclients</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00021">csprogsdefs.qc:21</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a1726162ec5090919a321b99c47fa2af4"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a1726162ec5090919a321b99c47fa2af4">cvar_changes</a></div><div class="ttdeci">string cvar_changes</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00255">defs.qh:255</a></div></div>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00094">self.qh:94</a></div></div>
@@ -1089,7 +1088,7 @@ $(document).ready(function(){initNavTree('de/d55/server_2command_2common_8qc_sou
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../de/d55/server_2command_2common_8qc.html">common.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:04 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -410,7 +410,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00730">730</a> of file <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html">mapvoting.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00032">gametypevote</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00694">GameTypeVote_SetGametype()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00045">GameTypeVote_Type_FromString()</a>, <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00021">localcmd</a>, <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>, and <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00025">mapvote_maps</a>.</p>
+<p>References <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00032">gametypevote</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00729">gametypevote_finished</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00694">GameTypeVote_SetGametype()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00045">GameTypeVote_Type_FromString()</a>, <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00021">localcmd</a>, <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>, and <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00025">mapvote_maps</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00426">MapVote_Finished()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;{</div>
@@ -1248,13 +1248,12 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00101">101</a> of file <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html">mapvoting.qc</a>.</p>
 
-<p>References <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, and <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>.</p>
+<p>References <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00770">GameTypeVote_Start()</a>, and <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00204">MapVote_Init()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;{</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(it.mapvote = 0));</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, { it.mapvote = 0; });</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1285,7 +1284,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00426">426</a> of file <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html">mapvoting.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00131">alreadychangedlevel</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00266">autocvar_nextmap</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00301">autocvar_sv_eventlog</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01042">FixClientCvars()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00067">GameLogEcho()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00032">gametypevote</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00730">GameTypeVote_Finished()</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00058">GTV_AVAILABLE</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00017">IS_REAL_CLIENT</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01092">Map_Goto()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01076">Map_Goto_SetStr()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00023">mapvote_count</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00647">MapVote_Init()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00025">mapvote_maps</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00033">mapvote_maps_flags</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00028">mapvote_maps_suggested</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00032">mapvote_selections</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00031">mapvote_voters</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
+<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00131">alreadychangedlevel</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00266">autocvar_nextmap</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00301">autocvar_sv_eventlog</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01042">FixClientCvars()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00067">GameLogEcho()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00032">gametypevote</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00730">GameTypeVote_Finished()</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00058">GTV_AVAILABLE</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00017">IS_REAL_CLIENT</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01092">Map_Goto()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01076">Map_Goto_SetStr()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00023">mapvote_count</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00647">MapVote_Init()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00025">mapvote_maps</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00033">mapvote_maps_flags</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00028">mapvote_maps_suggested</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00032">mapvote_selections</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00031">mapvote_voters</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00770">GameTypeVote_Start()</a>, and <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00505">MapVote_CheckRules_2()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;{</div>
@@ -1318,7 +1317,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;            <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:vote:suggestion_accepted:&quot;</span>, <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a9fbe464d44af6d8c08290e20aacca9c8">mapvote_maps</a>[mappos]));</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    }</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(<a class="code" href="../../df/dd7/server_2client_8qc.html#a63b8eac90f2650512291bfaa482f9732">FixClientCvars</a>(it)));</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), { <a class="code" href="../../df/dd7/server_2client_8qc.html#a63b8eac90f2650512291bfaa482f9732">FixClientCvars</a>(it); });</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#af7c6ecec79249608330dcc9872b1fdbd">gametypevote</a>)</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    {</div>
@@ -1348,7 +1347,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2mapvoting_8qc_html_adb68c6da333d42eb8792ff3838f47a1e"><div class="ttname"><a href="../../d2/d76/server_2mapvoting_8qc.html#adb68c6da333d42eb8792ff3838f47a1e">mapvote_voters</a></div><div class="ttdeci">int mapvote_voters</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/server_2mapvoting_8qc_source.html#l00031">mapvoting.qc:31</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="g__world_8qc_html_a299f6568839ff6aaf17c0a2a71cae48f"><div class="ttname"><a href="../../db/dcc/g__world_8qc.html#a299f6568839ff6aaf17c0a2a71cae48f">Map_Goto_SetStr</a></div><div class="ttdeci">void Map_Goto_SetStr(string nextmapname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l01076">g_world.qc:1076</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a780886abb2977703f8904a374f63e3bd"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a780886abb2977703f8904a374f63e3bd">alreadychangedlevel</a></div><div class="ttdeci">float alreadychangedlevel</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00131">defs.qh:131</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
 <div class="ttc" id="server_2mapvoting_8qc_html_af6604852a5fd9bd2242dc50ab7600100"><div class="ttname"><a href="../../d2/d76/server_2mapvoting_8qc.html#af6604852a5fd9bd2242dc50ab7600100">mapvote_selections</a></div><div class="ttdeci">int mapvote_selections[MAPVOTE_COUNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/server_2mapvoting_8qc_source.html#l00032">mapvoting.qc:32</a></div></div>
@@ -2133,7 +2131,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00590">590</a> of file <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html">mapvoting.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00158">impulse</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00017">IS_REAL_CLIENT</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00484">MapVote_CheckRules_1()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00505">MapVote_CheckRules_2()</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00063">msg_entity</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00056">MSG_ONE</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00341">SVC_FINALE</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString()</a>.</p>
+<p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00058">GTV_AVAILABLE</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00158">impulse</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00017">IS_REAL_CLIENT</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00484">MapVote_CheckRules_1()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00505">MapVote_CheckRules_2()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00023">mapvote_count</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00033">mapvote_maps_flags</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00421">MapVote_TouchVotes()</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00063">msg_entity</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00056">MSG_ONE</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00341">SVC_FINALE</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00642">MapVote_Think()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;{</div>
@@ -2143,7 +2141,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;</div>
 <div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    <span class="keywordtype">int</span> totalvotes = 0;</div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), {</div>
 <div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        <span class="comment">// hide scoreboard again</span></div>
 <div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        <span class="keywordflow">if</span>(it.health != 2342)</div>
 <div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        {</div>
@@ -2169,14 +2167,13 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;</div>
 <div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;        <span class="keywordflow">if</span>(it.mapvote)</div>
 <div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;            ++totalvotes;</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    ));</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    });</div>
 <div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;</div>
 <div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a4665ef3c78f60f7d3006b32d681f3104">MapVote_CheckRules_1</a>(); <span class="comment">// just count</span></div>
 <div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_abd23315350cd01304b6bd77c4c5c07e6"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a></div><div class="ttdeci">void WriteByte(float data, float dest, float desto)</div></div>
 <div class="ttc" id="server_2mapvoting_8qc_html_a4665ef3c78f60f7d3006b32d681f3104"><div class="ttname"><a href="../../d2/d76/server_2mapvoting_8qc.html#a4665ef3c78f60f7d3006b32d681f3104">MapVote_CheckRules_1</a></div><div class="ttdeci">void MapVote_CheckRules_1()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/server_2mapvoting_8qc_source.html#l00484">mapvoting.qc:484</a></div></div>
 <div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_ac7155760e2c3ffcfabfb37cd74809825"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#ac7155760e2c3ffcfabfb37cd74809825">impulse</a></div><div class="ttdeci">float impulse</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00158">progsdefs.qc:158</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_aafcac7ebe139f685782c77bec44e9882"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#aafcac7ebe139f685782c77bec44e9882">GTV_AVAILABLE</a></div><div class="ttdeci">const int GTV_AVAILABLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00058">constants.qh:58</a></div></div>
@@ -2264,11 +2261,23 @@ Variables</h2></td></tr>
 <p>Definition at line <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00421">421</a> of file <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html">mapvoting.qc</a>.</p>
 
 <p>References <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00039">mapvote_ent</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00590">MapVote_Tick()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;{</div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#ada6ce51a0ca57de830c4d42c8b639c51">mapvote_ent</a>.SendFlags |= 4;</div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;}</div>
 <div class="ttc" id="server_2mapvoting_8qc_html_ada6ce51a0ca57de830c4d42c8b639c51"><div class="ttname"><a href="../../d2/d76/server_2mapvoting_8qc.html#ada6ce51a0ca57de830c4d42c8b639c51">mapvote_ent</a></div><div class="ttdeci">entity mapvote_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/server_2mapvoting_8qc_source.html#l00039">mapvoting.qc:39</a></div></div>
 </div><!-- fragment -->
+<p><div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-46-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d76/server_2mapvoting_8qc_a8a5ea28294f6199f1abe82e72620a116_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a86d416582e14464ae9e7c5d64792f885"></a>
@@ -2310,21 +2319,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2mapvoting_8qc_html_a61770f7b6c29d7f9a77be619de7022f4"><div class="ttname"><a href="../../d2/d76/server_2mapvoting_8qc.html#a61770f7b6c29d7f9a77be619de7022f4">mapvote_count</a></div><div class="ttdeci">int mapvote_count</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/server_2mapvoting_8qc_source.html#l00023">mapvoting.qc:23</a></div></div>
 <div class="ttc" id="server_2mapvoting_8qc_html_a495656e86a53136c9afa9297aab01ad9"><div class="ttname"><a href="../../d2/d76/server_2mapvoting_8qc.html#a495656e86a53136c9afa9297aab01ad9">mapvote_maps_pakfile</a></div><div class="ttdeci">string mapvote_maps_pakfile[MAPVOTE_COUNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/server_2mapvoting_8qc_source.html#l00027">mapvoting.qc:27</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-46-content" class="dyncontent" style="display:none;">
+<div id="dynsection-47-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d76/server_2mapvoting_8qc_a86d416582e14464ae9e7c5d64792f885_cgraph.svg" width="307" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-47-content" class="dyncontent" style="display:none;">
+<div id="dynsection-48-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d76/server_2mapvoting_8qc_a86d416582e14464ae9e7c5d64792f885_icgraph.svg" width="100%" height="384"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2381,21 +2390,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_a439a4e0c5d0e5923bf5aba17eaae0d09"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a439a4e0c5d0e5923bf5aba17eaae0d09">WriteLong</a></div><div class="ttdeci">void WriteLong(float data, float dest, float desto)</div></div>
 <div class="ttc" id="server_2mapvoting_8qc_html_a61770f7b6c29d7f9a77be619de7022f4"><div class="ttname"><a href="../../d2/d76/server_2mapvoting_8qc.html#a61770f7b6c29d7f9a77be619de7022f4">mapvote_count</a></div><div class="ttdeci">int mapvote_count</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/server_2mapvoting_8qc_source.html#l00023">mapvoting.qc:23</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-48-content" class="dyncontent" style="display:none;">
+<div id="dynsection-49-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d76/server_2mapvoting_8qc_ae6e823eade2c2bad759e1d88c42f589f_cgraph.svg" width="288" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-49-content" class="dyncontent" style="display:none;">
+<div id="dynsection-50-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d76/server_2mapvoting_8qc_ae6e823eade2c2bad759e1d88c42f589f_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2415,6 +2424,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00729">729</a> of file <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html">mapvoting.qc</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00730">GameTypeVote_Finished()</a>.</p>
 
 </div>
 </div>
@@ -2460,7 +2471,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00023">23</a> of file <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html">mapvoting.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00748">GameTypeVote_AddVotable()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00319">GameTypeVote_SendOption()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00770">GameTypeVote_Start()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00163">MapVote_AddVotable()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00484">MapVote_CheckRules_1()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00505">MapVote_CheckRules_2()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00426">MapVote_Finished()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00204">MapVote_Init()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00344">MapVote_SendEntity()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00299">MapVote_SendOption()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00106">MapVote_UnzoneStrings()</a>, and <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00271">MapVote_WriteMask()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00748">GameTypeVote_AddVotable()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00319">GameTypeVote_SendOption()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00770">GameTypeVote_Start()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00163">MapVote_AddVotable()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00484">MapVote_CheckRules_1()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00505">MapVote_CheckRules_2()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00426">MapVote_Finished()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00204">MapVote_Init()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00344">MapVote_SendEntity()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00299">MapVote_SendOption()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00590">MapVote_Tick()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00106">MapVote_UnzoneStrings()</a>, and <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00271">MapVote_WriteMask()</a>.</p>
 
 </div>
 </div>
@@ -2556,7 +2567,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00033">33</a> of file <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html">mapvoting.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00748">GameTypeVote_AddVotable()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00319">GameTypeVote_SendOption()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00770">GameTypeVote_Start()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00163">MapVote_AddVotable()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00484">MapVote_CheckRules_1()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00505">MapVote_CheckRules_2()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00426">MapVote_Finished()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00344">MapVote_SendEntity()</a>, and <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00271">MapVote_WriteMask()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00748">GameTypeVote_AddVotable()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00319">GameTypeVote_SendOption()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00770">GameTypeVote_Start()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00163">MapVote_AddVotable()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00484">MapVote_CheckRules_1()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00505">MapVote_CheckRules_2()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00426">MapVote_Finished()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00344">MapVote_SendEntity()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00590">MapVote_Tick()</a>, and <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00271">MapVote_WriteMask()</a>.</p>
 
 </div>
 </div>
@@ -2774,7 +2785,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d2/d76/server_2mapvoting_8qc.html">mapvoting.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:07 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -496,10 +496,10 @@ $(document).ready(function(){initNavTree('d5/de0/weaponsystem_8qc_source.html','
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">this</span>)</div>
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    {</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;            <span class="keywordflow">if</span>(it == actor || (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a>(it) &amp;&amp; it.enemy == actor))</div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;                <a class="code" href="../../d5/de0/weaponsystem_8qc.html#ad121c05ab5bd334ef01604c5db34c005">wframe_send</a>(it, <span class="keyword">this</span>, a, restartanim);</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        ));</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        });</div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    }</div>
 <div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;</div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    <span class="keywordflow">if</span> ((fr == WFRAME_FIRE1 || fr == WFRAME_FIRE2) &amp;&amp; t)</div>
@@ -951,7 +951,6 @@ $(document).ready(function(){initNavTree('d5/de0/weaponsystem_8qc_source.html','
 <div class="ttc" id="weaponsystem_8qc_html_aa46bfb19e29f3b2eae7d29f5ae04b723"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#aa46bfb19e29f3b2eae7d29f5ae04b723">W_ReloadedAndReady</a></div><div class="ttdeci">void W_ReloadedAndReady(Weapon thiswep, entity actor,.entity weaponentity, int fire)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00695">weaponsystem.qc:695</a></div></div>
 <div class="ttc" id="state_8qh_html_a6228dce6d2ac6b96b7ebe5d2b44be40c"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a></div><div class="ttdeci">#define PS(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00018">state.qh:18</a></div></div>
 <div class="ttc" id="weapons_2all_8qh_html_af06dc0500e6eb6447e03b35bb1aa39e0"><div class="ttname"><a href="../../d0/ddd/weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a></div><div class="ttdeci">#define WEP_CVAR(wepname, name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/weapons_2all_8qh_source.html#l00280">all.qh:280</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="wepent_8qh_html"><div class="ttname"><a href="../../d0/d56/wepent_8qh.html">wepent.qh</a></div></div>
 <div class="ttc" id="platforms_8qh_html_a4ce2ef217f7c0232dcec8323dccf928b"><div class="ttname"><a href="../../d0/d1a/platforms_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b">dmg</a></div><div class="ttdeci">float dmg</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1a/platforms_8qh_source.html#l00013">platforms.qh:13</a></div></div>
 <div class="ttc" id="weaponsystem_8qh_html_ab77c36c89a03dbb675a9350144e5faec"><div class="ttname"><a href="../../da/db7/weaponsystem_8qh.html#ab77c36c89a03dbb675a9350144e5faec">weaponentity_fld</a></div><div class="ttdeci">entity weaponentity_fld</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db7/weaponsystem_8qh_source.html#l00007">weaponsystem.qh:7</a></div></div>
@@ -1098,7 +1097,7 @@ $(document).ready(function(){initNavTree('d5/de0/weaponsystem_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d5/de0/weaponsystem_8qc.html">weaponsystem.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:06 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

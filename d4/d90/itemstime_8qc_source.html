@@ -137,9 +137,9 @@ $(document).ready(function(){initNavTree('d4/d90/itemstime_8qc_source.html','../
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> Item_ItemsTime_Init()</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        ItemsTime_time[it.m_id] = -1;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    ));</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    });</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    ItemsTime_time[Items_MAX] = -1;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
@@ -186,9 +186,9 @@ $(document).ready(function(){initNavTree('d4/d90/itemstime_8qc_source.html','../
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keywordtype">void</span> Item_ItemsTime_Init()</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;{</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), {</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        it_times[it.m_id] = -1;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    ));</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    });</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    it_times[Items_MAX] = -1;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;}</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
@@ -199,25 +199,25 @@ $(document).ready(function(){initNavTree('d4/d90/itemstime_8qc_source.html','../
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="keywordtype">void</span> Item_ItemsTime_ResetTimes()</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;{</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), {</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        it_times[it.m_id] = (it_times[it.m_id] == -1) ? -1 : 0;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    ));</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    });</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    it_times[Items_MAX] = (it_times[Items_MAX] == -1) ? -1 : 0;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="keywordtype">void</span> Item_ItemsTime_ResetTimesForPlayer(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;{</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), {</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        IT_Write(e, it.m_id, (it_times[it.m_id] == -1) ? -1 : 0);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    ));</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    });</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    IT_Write(e, Items_MAX, (it_times[Items_MAX] == -1) ? -1 : 0);</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keywordtype">void</span> Item_ItemsTime_SetTimesForPlayer(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;{</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), {</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        IT_Write(e, it.m_id, it_times[it.m_id]);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    ));</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    });</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    IT_Write(e, Items_MAX, it_times[Items_MAX]);</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;}</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
@@ -238,7 +238,7 @@ $(document).ready(function(){initNavTree('d4/d90/itemstime_8qc_source.html','../
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="keywordtype">void</span> Item_ItemsTime_SetTimesForAllPlayers()</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;{</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; (<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a> || !<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) || <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a0bbecd0b6a0cbc0ca9d4856c5e472919">autocvar_sv_itemstime</a> == 2), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(Item_ItemsTime_SetTimesForPlayer(it)));</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; (<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a> || !<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) || <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a0bbecd0b6a0cbc0ca9d4856c5e472919">autocvar_sv_itemstime</a> == 2), { Item_ItemsTime_SetTimesForPlayer(it); });</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;}</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="keywordtype">float</span> Item_ItemsTime_UpdateTime(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, <span class="keywordtype">float</span> t)</div>
@@ -400,23 +400,23 @@ $(document).ready(function(){initNavTree('d4/d90/itemstime_8qc_source.html','../
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a> = 0;</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keywordflow">if</span> (autocvar_hud_panel_itemstime_hidespawned == 1)</div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    {</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), {</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            count += (Item_ItemsTime_GetTime(it.m_id) &gt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> || -Item_ItemsTime_GetTime(it.m_id) &gt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>);</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        ));</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        });</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        count += (Item_ItemsTime_GetTime(Items_MAX) &gt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> || -Item_ItemsTime_GetTime(Items_MAX) &gt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>);</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    }</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (autocvar_hud_panel_itemstime_hidespawned == 2)</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    {</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), {</div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            count += (Item_ItemsTime_GetTime(it.m_id) &gt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>);</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        ));</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        });</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        count += (Item_ItemsTime_GetTime(Items_MAX) &gt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>);</div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    }</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    {</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it), {</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            count += (Item_ItemsTime_GetTime(it.m_id) != -1);</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        ));</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        });</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        count += (Item_ItemsTime_GetTime(Items_MAX) != -1);</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    }</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <span class="keywordflow">if</span> (count == 0)</div>
@@ -492,7 +492,7 @@ $(document).ready(function(){initNavTree('d4/d90/itemstime_8qc_source.html','../
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    <span class="keywordtype">bool</span> item_available;</div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    <span class="keywordtype">int</span> <span class="keywordtype">id</span> = 0;</div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    <span class="keywordtype">string</span> icon = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it) &amp;&amp; Item_ItemsTime_GetTime(it.m_id) != -1, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Items, <a class="code" href="../../d4/d90/itemstime_8qc.html#aac6c624f1067a2d9f74a8eed6b670e24">Item_ItemsTime_Allow</a>(it) &amp;&amp; Item_ItemsTime_GetTime(it.m_id) != -1, {</div>
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;        <span class="keywordtype">id</span> = it.m_id;</div>
 <div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        icon = it.m_icon;</div>
 <div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;</div>
@@ -509,12 +509,12 @@ $(document).ready(function(){initNavTree('d4/d90/itemstime_8qc_source.html','../
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        <span class="keywordflow">if</span> (Item_ItemsTime_GetTime(<span class="keywordtype">id</span>) &gt;= 0)</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        {</div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt;= Item_ItemsTime_GetTime(<span class="keywordtype">id</span>))</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;                ItemsTime_availableTime[<span class="keywordtype">id</span>] = 0;</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;                ItemsTime_availableTime[id] = 0;</div>
 <div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ItemsTime_availableTime[<span class="keywordtype">id</span>] == 0)</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;                ItemsTime_availableTime[<span class="keywordtype">id</span>] = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;                ItemsTime_availableTime[id] = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        }</div>
 <div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ItemsTime_availableTime[<span class="keywordtype">id</span>] == 0)</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;            ItemsTime_availableTime[<span class="keywordtype">id</span>] = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;            ItemsTime_availableTime[id] = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;</div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <span class="keywordtype">float</span> f = (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - ItemsTime_availableTime[id]) * 2;</div>
 <div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        f = (f &gt; 1) ? 0 : <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, f, 1);</div>
@@ -536,7 +536,7 @@ $(document).ready(function(){initNavTree('d4/d90/itemstime_8qc_source.html','../
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        }</div>
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;        <span class="keywordflow">if</span>(<span class="keywordtype">id</span> == Items_MAX) <span class="comment">// can happen only in the last fake iteration</span></div>
 <div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    ));</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    });</div>
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    <span class="comment">// add another fake iteration for superweapons time</span></div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">id</span> &lt; Items_MAX &amp;&amp; Item_ItemsTime_GetTime(Items_MAX) != -1)</div>
 <div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    {</div>
@@ -566,7 +566,6 @@ $(document).ready(function(){initNavTree('d4/d90/itemstime_8qc_source.html','../
 <div class="ttc" id="itemstime_8qc_html_ad78a96fa5fc58e48add1fae6f405797b"><div class="ttname"><a href="../../d4/d90/itemstime_8qc.html#ad78a96fa5fc58e48add1fae6f405797b">hud_panel_itemstime_hidebig</a></div><div class="ttdeci">#define hud_panel_itemstime_hidebig</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d90/itemstime_8qc_source.html#l00056">itemstime.qc:56</a></div></div>
 <div class="ttc" id="lib_2net_8qh_html_a2c87ee9a4aa12245bb6e80f321975ded"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a></div><div class="ttdeci">#define NET_HANDLE(id, param)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00010">net.qh:10</a></div></div>
 <div class="ttc" id="static_8qh_html_a8adce259cbe13be1381a0d1872b690c2"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a8adce259cbe13be1381a0d1872b690c2">STATIC_INIT</a></div><div class="ttdeci">#define STATIC_INIT(func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00033">static.qh:33</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 <div class="ttc" id="classGameItem_html"><div class="ttname"><a href="../../d0/d9a/classGameItem.html">GameItem</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7c/common_2items_2item_8qh_source.html#l00046">item.qh:46</a></div></div>
 <div class="ttc" id="classGameItem_html_a6815e793548a5b534973a237a97dc189"><div class="ttname"><a href="../../d0/d9a/classGameItem.html#a6815e793548a5b534973a237a97dc189">GameItem::m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7c/common_2items_2item_8qh_source.html#l00047">item.qh:47</a></div></div>
@@ -613,7 +612,7 @@ $(document).ready(function(){initNavTree('d4/d90/itemstime_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_b71dc7689c9bf51e87a7e1d497744d3c.html">itemstime</a></li><li class="navelem"><a class="el" href="../../d4/d90/itemstime_8qc.html">itemstime.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:03 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:42 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

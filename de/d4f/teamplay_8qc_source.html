@@ -435,7 +435,7 @@ $(document).ready(function(){initNavTree('de/d4f/teamplay_8qc_source.html','../.
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    <span class="comment">// FIXME: also find and memorize the lowest-scoring bot on each team (in case players must be shuffled around)</span></div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <span class="comment">// also remember the lowest-scoring player</span></div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="keywordtype">float</span> t;</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) || it.caplayer)</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;            t = it.team;</div>
@@ -483,7 +483,7 @@ $(document).ready(function(){initNavTree('de/d4f/teamplay_8qc_source.html','../.
 <div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;                }</div>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;            }</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        }</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    ));</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    });</div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;</div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    <span class="comment">// if the player who has a forced team has not joined yet, reserve the spot</span></div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a9e49d744aa004a9ba871c7301dd92e7c">autocvar_g_campaign</a>)</div>
@@ -844,7 +844,7 @@ $(document).ready(function(){initNavTree('de/d4f/teamplay_8qc_source.html','../.
 <div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    lowest_player_score = 999999999;</div>
 <div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;</div>
 <div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;    <span class="comment">// find the lowest-scoring player &amp; bot of that team</span></div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it.team == steam, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it.team == steam, {</div>
 <div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;        <span class="keywordflow">if</span>(it.isbot)</div>
 <div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;        {</div>
 <div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;            <span class="keywordflow">if</span>(it.totalfrags &lt; lowest_bot_score)</div>
@@ -861,7 +861,7 @@ $(document).ready(function(){initNavTree('de/d4f/teamplay_8qc_source.html','../.
 <div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;                lowest_player_score = it.totalfrags;</div>
 <div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;            }</div>
 <div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;        }</div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;    ));</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;    });</div>
 <div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;</div>
 <div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;    <span class="comment">// prefers to move a bot...</span></div>
 <div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;    <span class="keywordflow">if</span>(lowest_bot != <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
@@ -968,7 +968,6 @@ $(document).ready(function(){initNavTree('de/d4f/teamplay_8qc_source.html','../.
 <div class="ttc" id="mapinfo_8qc_html_aaa2f22ba4219608acd37ebed9cbe56f8"><div class="ttname"><a href="../../d3/d46/mapinfo_8qc.html#aaa2f22ba4219608acd37ebed9cbe56f8">MapInfo_Type_ToText</a></div><div class="ttdeci">string MapInfo_Type_ToText(Gametype t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d46/mapinfo_8qc_source.html#l00636">mapinfo.qc:636</a></div></div>
 <div class="ttc" id="teamplay_8qh_html_a3c007bf522deab368d149e4f3984fbd4"><div class="ttname"><a href="../../d2/d76/teamplay_8qh.html#a3c007bf522deab368d149e4f3984fbd4">cb1</a></div><div class="ttdeci">float cb1</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/teamplay_8qh_source.html#l00009">teamplay.qh:9</a></div></div>
 <div class="ttc" id="server_2client_8qh_html_a374cc32da17a4d3fea4faa48066ea8bc"><div class="ttname"><a href="../../d8/de2/server_2client_8qh.html#a374cc32da17a4d3fea4faa48066ea8bc">c4</a></div><div class="ttdeci">float c4</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00192">client.qh:192</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a40a769572e9c0c5a7bea62859d3e5fb4"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a40a769572e9c0c5a7bea62859d3e5fb4">autocvar_g_changeteam_banned</a></div><div class="ttdeci">bool autocvar_g_changeteam_banned</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00110">autocvars.qh:110</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 <div class="ttc" id="random_8qh_html_a32be35647dc9e998a1420a75ae306409"><div class="ttname"><a href="../../db/d55/random_8qh.html#a32be35647dc9e998a1420a75ae306409">RandomSelection_chosen_float</a></div><div class="ttdeci">float RandomSelection_chosen_float</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d55/random_8qh_source.html#l00006">random.qh:6</a></div></div>
@@ -1070,7 +1069,7 @@ $(document).ready(function(){initNavTree('de/d4f/teamplay_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../de/d4f/teamplay_8qc.html">teamplay.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:06 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

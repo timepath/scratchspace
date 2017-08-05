@@ -348,11 +348,11 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    }</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    shortest = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.maxs - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.mins);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != <span class="keyword">this</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != <span class="keyword">this</span>, {</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        thisdist = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(it.origin - spot.origin);</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        if (thisdist &lt; shortest)</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="keywordflow">if</span> (thisdist &lt; shortest)</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            shortest = thisdist;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    ));</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    });</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordflow">if</span>(shortest &gt; mindist)</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        prio += <a class="code" href="../../d4/dd1/spawnpoints_8qh.html#a201908345e88f04480bb1af26b522f00">SPAWN_PRIO_GOOD_DISTANCE</a>;</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
@@ -523,7 +523,6 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="ttc" id="random_8qc_html_a3405965b1da9657276caec225d4b3acf"><div class="ttname"><a href="../../dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf">RandomSelection_Init</a></div><div class="ttdeci">ERASEABLE void RandomSelection_Init()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d95/random_8qc_source.html#l00004">random.qc:4</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a972054a34285ccf8530071c879723230"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a972054a34285ccf8530071c879723230">maxs</a></div><div class="ttdeci">vector maxs</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00113">csprogsdefs.qc:113</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="spawnpoints_8qh_html_a201908345e88f04480bb1af26b522f00"><div class="ttname"><a href="../../d4/dd1/spawnpoints_8qh.html#a201908345e88f04480bb1af26b522f00">SPAWN_PRIO_GOOD_DISTANCE</a></div><div class="ttdeci">const int SPAWN_PRIO_GOOD_DISTANCE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd1/spawnpoints_8qh_source.html#l00007">spawnpoints.qh:7</a></div></div>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00094">self.qh:94</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a3973fdf525463133ef775c885b63b989"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a3973fdf525463133ef775c885b63b989">SOLID_TRIGGER</a></div><div class="ttdeci">const int SOLID_TRIGGER</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00127">csqc_constants.qh:127</a></div></div>
@@ -601,7 +600,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d0/d41/spawnpoints_8qc.html">spawnpoints.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:06 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

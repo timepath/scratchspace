@@ -203,7 +203,7 @@ $(document).ready(function(){initNavTree('d2/d76/server_2mapvoting_8qc_source.ht
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
 <div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="../../d2/d76/server_2mapvoting_8qc.html#a3c79c8d88221593c781a7c14d7480e33">  101</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a3c79c8d88221593c781a7c14d7480e33">MapVote_ClearAllVotes</a>()</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;{</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(it.mapvote = 0));</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, { it.mapvote = 0; });</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
 <div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="../../d2/d76/server_2mapvoting_8qc.html#a86d416582e14464ae9e7c5d64792f885">  106</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a86d416582e14464ae9e7c5d64792f885">MapVote_UnzoneStrings</a>()</div>
@@ -557,7 +557,7 @@ $(document).ready(function(){initNavTree('d2/d76/server_2mapvoting_8qc_source.ht
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;            <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:vote:suggestion_accepted:&quot;</span>, <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a9fbe464d44af6d8c08290e20aacca9c8">mapvote_maps</a>[mappos]));</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    }</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(<a class="code" href="../../df/dd7/server_2client_8qc.html#a63b8eac90f2650512291bfaa482f9732">FixClientCvars</a>(it)));</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), { <a class="code" href="../../df/dd7/server_2client_8qc.html#a63b8eac90f2650512291bfaa482f9732">FixClientCvars</a>(it); });</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#af7c6ecec79249608330dcc9872b1fdbd">gametypevote</a>)</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    {</div>
@@ -698,7 +698,7 @@ $(document).ready(function(){initNavTree('d2/d76/server_2mapvoting_8qc_source.ht
 <div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;</div>
 <div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    <span class="keywordtype">int</span> totalvotes = 0;</div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), {</div>
 <div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        <span class="comment">// hide scoreboard again</span></div>
 <div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        <span class="keywordflow">if</span>(it.health != 2342)</div>
 <div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        {</div>
@@ -724,7 +724,7 @@ $(document).ready(function(){initNavTree('d2/d76/server_2mapvoting_8qc_source.ht
 <div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;</div>
 <div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;        <span class="keywordflow">if</span>(it.mapvote)</div>
 <div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;            ++totalvotes;</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    ));</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    });</div>
 <div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;</div>
 <div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a4665ef3c78f60f7d3006b32d681f3104">MapVote_CheckRules_1</a>(); <span class="comment">// just count</span></div>
 <div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;}</div>
@@ -832,7 +832,7 @@ $(document).ready(function(){initNavTree('d2/d76/server_2mapvoting_8qc_source.ht
 <div class="line"><a name="l00729"></a><span class="lineno"><a class="line" href="../../d2/d76/server_2mapvoting_8qc.html#a7f2dff421f55e857ae65125352b4d232">  729</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a7f2dff421f55e857ae65125352b4d232">gametypevote_finished</a>;</div>
 <div class="line"><a name="l00730"></a><span class="lineno"><a class="line" href="../../d2/d76/server_2mapvoting_8qc.html#a04fb7c700cf60c180f0abe1399ad82b3">  730</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a04fb7c700cf60c180f0abe1399ad82b3">GameTypeVote_Finished</a>(<span class="keywordtype">int</span> pos)</div>
 <div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;{</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#af7c6ecec79249608330dcc9872b1fdbd">gametypevote</a> || gametypevote_finished)</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#af7c6ecec79249608330dcc9872b1fdbd">gametypevote</a> || <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a7f2dff421f55e857ae65125352b4d232">gametypevote_finished</a>)</div>
 <div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;</div>
 <div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;    <span class="keywordflow">if</span> ( !<a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a06003bb52d05e091ed79d4a8fc4962fa">GameTypeVote_SetGametype</a>(<a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a97fb409a53c174303f0b37ce776e6e0a">GameTypeVote_Type_FromString</a>(<a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a9fbe464d44af6d8c08290e20aacca9c8">mapvote_maps</a>[pos])) )</div>
@@ -843,7 +843,7 @@ $(document).ready(function(){initNavTree('d2/d76/server_2mapvoting_8qc_source.ht
 <div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;    <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;sv_vote_gametype_hook_all\n&quot;</span>);</div>
 <div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;    <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;sv_vote_gametype_hook_&quot;</span>, <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a9fbe464d44af6d8c08290e20aacca9c8">mapvote_maps</a>[pos], <span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;</div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;    gametypevote_finished = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;    <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a7f2dff421f55e857ae65125352b4d232">gametypevote_finished</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;</div>
 <div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;}</div>
@@ -964,7 +964,6 @@ $(document).ready(function(){initNavTree('d2/d76/server_2mapvoting_8qc_source.ht
 <div class="ttc" id="server_2mapvoting_8qc_html_a75648f0a67329dea9d32c508f7698b36"><div class="ttname"><a href="../../d2/d76/server_2mapvoting_8qc.html#a75648f0a67329dea9d32c508f7698b36">GameTypeVote_Start</a></div><div class="ttdeci">bool GameTypeVote_Start()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/server_2mapvoting_8qc_source.html#l00770">mapvoting.qc:770</a></div></div>
 <div class="ttc" id="mapinfo_8qc_html_aaa2f22ba4219608acd37ebed9cbe56f8"><div class="ttname"><a href="../../d3/d46/mapinfo_8qc.html#aaa2f22ba4219608acd37ebed9cbe56f8">MapInfo_Type_ToText</a></div><div class="ttdeci">string MapInfo_Type_ToText(Gametype t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d46/mapinfo_8qc_source.html#l00636">mapinfo.qc:636</a></div></div>
 <div class="ttc" id="server_2mapvoting_8qc_html_a06003bb52d05e091ed79d4a8fc4962fa"><div class="ttname"><a href="../../d2/d76/server_2mapvoting_8qc.html#a06003bb52d05e091ed79d4a8fc4962fa">GameTypeVote_SetGametype</a></div><div class="ttdeci">bool GameTypeVote_SetGametype(Gametype type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/server_2mapvoting_8qc_source.html#l00694">mapvoting.qc:694</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="server_2mapvoting_8qc_html_ad40e1bd245af44e5acd1370f316e1311"><div class="ttname"><a href="../../d2/d76/server_2mapvoting_8qc.html#ad40e1bd245af44e5acd1370f316e1311">mapvote_screenshot_dirs</a></div><div class="ttdeci">string mapvote_screenshot_dirs[MAPVOTE_SCREENSHOT_DIRS_COUNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/server_2mapvoting_8qc_source.html#l00020">mapvoting.qc:20</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a1132b1b53004f97366d5072dacebe31e"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a1132b1b53004f97366d5072dacebe31e">autocvar_g_maplist_shuffle</a></div><div class="ttdeci">float autocvar_g_maplist_shuffle</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00155">autocvars.qh:155</a></div></div>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00094">self.qh:94</a></div></div>
@@ -1085,7 +1084,7 @@ $(document).ready(function(){initNavTree('d2/d76/server_2mapvoting_8qc_source.ht
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d2/d76/server_2mapvoting_8qc.html">mapvoting.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:02 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

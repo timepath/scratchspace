@@ -294,13 +294,13 @@ $(document).ready(function(){initNavTree('d2/de9/havocbot_8qc_source.html','../.
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../db/d15/api_8qh.html#a8467c850cba8957cd36040241ed1e68b">skill</a> &gt;= 5) <span class="comment">// bots can only look for unloaded weapons past this skill</span></div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            <span class="keywordflow">if</span>(this.(weaponentity).<a class="code" href="../../d5/d26/server_2defs_8qh.html#a554b3de1c72dedecdd7069b45faf1acc">clip_load</a> &gt;= 0) <span class="comment">// only if we&#39;re not reloading a weapon already</span></div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            {</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, {</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                    <span class="keywordflow">if</span>((this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9">weapons</a> &amp; (it.m_wepset)) &amp;&amp; (it.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a300f8a85518c66b86f3ba3d208117241">WEP_FLAG_RELOADABLE</a>) &amp;&amp; (<span class="keyword">this</span>.(weaponentity).weapon_load[it.m_id] &lt; it.reloading_ammo))</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                    {</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                        <span class="keyword">this</span>.(weaponentity).m_switchweapon = it;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                        this.(weaponentity).m_switchweapon = it;</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                    }</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                ));</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                });</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            }</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        }</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div>
@@ -1185,10 +1185,10 @@ $(document).ready(function(){initNavTree('d2/de9/havocbot_8qc_source.html','../.
 <div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;    <span class="comment">// if this weapon is scheduled for reloading, don&#39;t switch to it during combat</span></div>
 <div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;    <span class="keywordflow">if</span> (this.(weaponentity).<a class="code" href="../../d5/d26/server_2defs_8qh.html#ac3abcfcfe52fe9dd6076f88d4930d6da">weapon_load</a>[new_weapon] &lt; 0)</div>
 <div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160;    {</div>
-<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, {</div>
 <div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160;            <span class="keywordflow">if</span>(it.wr_checkammo1(it, <span class="keyword">this</span>, weaponentity) + it.wr_checkammo2(it, <span class="keyword">this</span>, weaponentity))</div>
 <div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>; <span class="comment">// other weapon available</span></div>
-<div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;        ));</div>
+<div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;        });</div>
 <div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;    }</div>
 <div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;</div>
 <div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -1210,13 +1210,13 @@ $(document).ready(function(){initNavTree('d2/de9/havocbot_8qc_source.html','../.
 <div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;    {</div>
 <div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;        <span class="comment">// If no weapon was chosen get the first available weapon</span></div>
 <div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;        <span class="keywordflow">if</span>(this.(weaponentity).m_weapon==WEP_Null)</div>
-<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, {</div>
 <div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aba6ed323f0e8f5773f5d7de51e2d3411">client_hasweapon</a>(<span class="keyword">this</span>, it, weaponentity, <span class="keyword">true</span>, <span class="keyword">false</span>))</div>
 <div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;            {</div>
 <div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;                this.(weaponentity).m_switchweapon = it;</div>
 <div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;                <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;            }</div>
-<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;        ));</div>
+<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;        });</div>
 <div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;    }</div>
 <div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;</div>
@@ -1569,7 +1569,6 @@ $(document).ready(function(){initNavTree('d2/de9/havocbot_8qc_source.html','../.
 <div class="ttc" id="havocbot_8qc_html_a7f7e4724cf57d59513b39c5ecc81adc8"><div class="ttname"><a href="../../d2/de9/havocbot_8qc.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a></div><div class="ttdeci">float speed</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de9/havocbot_8qc_source.html#l00024">havocbot.qc:24</a></div></div>
 <div class="ttc" id="havocbot_8qh_html_a2240a7c6b5dca92561126c36734701bf"><div class="ttname"><a href="../../d8/d39/havocbot_8qh.html#a2240a7c6b5dca92561126c36734701bf">ignoregoal</a></div><div class="ttdeci">entity ignoregoal</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d39/havocbot_8qh_source.html#l00026">havocbot.qh:26</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a099ad087f6b1981b1c6333cf4a62334a"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a099ad087f6b1981b1c6333cf4a62334a">tracebox_hits_trigger_hurt</a></div><div class="ttdeci">float tracebox_hits_trigger_hurt(vector start, vector mi, vector ma, vector end)</div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="wepent_8qh_html"><div class="ttname"><a href="../../d0/d56/wepent_8qh.html">wepent.qh</a></div></div>
 <div class="ttc" id="jumppads_8qh_html_aeb124e9cd9ff6aa1d896e02a10fc6ff9"><div class="ttname"><a href="../../d9/de7/jumppads_8qh.html#aeb124e9cd9ff6aa1d896e02a10fc6ff9">jumppadcount</a></div><div class="ttdeci">float jumppadcount</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de7/jumppads_8qh_source.html#l00011">jumppads.qh:11</a></div></div>
 <div class="ttc" id="scripting_8qh_html_a71bfad281d18b766827ca0e083cdc45a"><div class="ttname"><a href="../../d8/d14/scripting_8qh.html#a71bfad281d18b766827ca0e083cdc45a">CMD_STATUS_ERROR</a></div><div class="ttdeci">#define CMD_STATUS_ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d14/scripting_8qh_source.html#l00009">scripting.qh:9</a></div></div>
@@ -1732,7 +1731,7 @@ $(document).ready(function(){initNavTree('d2/de9/havocbot_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../dir_f18d5dd12b54ecfc26193d6b0c017e06.html">havocbot</a></li><li class="navelem"><a class="el" href="../../d2/de9/havocbot_8qc.html">havocbot.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:05 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

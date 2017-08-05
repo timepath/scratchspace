@@ -299,12 +299,12 @@ $(document).ready(function(){initNavTree('de/d75/server_2campaign_8qc_source.htm
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordtype">int</span> lost = 0;</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keywordtype">string</span> savevar;</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), {</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keywordflow">if</span>(it.winning)</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            won += 1;</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            lost += 1;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    ));</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    });</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a74bc4aab35ed6cec0a5868cca10070fd">autocvar__campaign_testrun</a>)</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    {</div>
@@ -418,7 +418,6 @@ $(document).ready(function(){initNavTree('de/d75/server_2campaign_8qc_source.htm
 <div class="ttc" id="server_2autocvars_8qh_html_a2f21ce2527dab71de445c44e32ec4e9c"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a2f21ce2527dab71de445c44e32ec4e9c">autocvar__campaign_name</a></div><div class="ttdeci">string autocvar__campaign_name</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00006">autocvars.qh:6</a></div></div>
 <div class="ttc" id="server_2campaign_8qh_html"><div class="ttname"><a href="../../dd/d66/server_2campaign_8qh.html">campaign.qh</a></div></div>
 <div class="ttc" id="campaign__common_8qh_html_a8b3642c3f26e338a0bfdc5d435852b0e"><div class="ttname"><a href="../../d7/d13/campaign__common_8qh.html#a8b3642c3f26e338a0bfdc5d435852b0e">CampaignSetup</a></div><div class="ttdeci">void CampaignSetup(float n)</div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="server_2campaign_8qc_html_af0e2832ac787abadacc8f1380aab4180"><div class="ttname"><a href="../../de/d75/server_2campaign_8qc.html#af0e2832ac787abadacc8f1380aab4180">cvar_string_campaignwrapper</a></div><div class="ttdeci">string cvar_string_campaignwrapper(string theCvar)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d75/server_2campaign_8qc_source.html#l00032">campaign.qc:32</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a73f087b1bdf191d3f1f869b8da083962"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a73f087b1bdf191d3f1f869b8da083962">cvar_set_normal</a></div><div class="ttdeci">#define cvar_set_normal</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00027">miscfunctions.qh:27</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
@@ -485,7 +484,7 @@ $(document).ready(function(){initNavTree('de/d75/server_2campaign_8qc_source.htm
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../de/d75/server_2campaign_8qc.html">campaign.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:05 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

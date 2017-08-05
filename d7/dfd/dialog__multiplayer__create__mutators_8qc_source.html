@@ -148,10 +148,10 @@ $(document).ready(function(){initNavTree('d7/dfd/dialog__multiplayer__create__mu
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    s = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt; n; ++i)</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(i) == it.netname)</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot; &amp; &quot;</span>, it.m_name);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        ));</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        });</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    s = sprintf(_(<span class="stringliteral">&quot;%s Arena&quot;</span>), <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 3, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(s) - 3));</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
@@ -419,7 +419,6 @@ $(document).ready(function(){initNavTree('d7/dfd/dialog__multiplayer__create__mu
 <div class="ttc" id="textlabel_8qc_html_a68172c3fa4df12de97eddc774ab7425d"><div class="ttname"><a href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a></div><div class="ttdeci">entity makeXonoticTextLabel(float theAlign, string theText)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d67/textlabel_8qc_source.html#l00003">textlabel.qc:3</a></div></div>
 <div class="ttc" id="weaponarenacheckbox_8qh_html"><div class="ttname"><a href="../../d5/d16/weaponarenacheckbox_8qh.html">weaponarenacheckbox.qh</a></div></div>
 <div class="ttc" id="dialog__multiplayer__create__mutators_8qc_html_a28cfcd11e48c3209044074ff69213cd2"><div class="ttname"><a href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a28cfcd11e48c3209044074ff69213cd2">XonoticMutatorsDialog_close</a></div><div class="ttdeci">void XonoticMutatorsDialog_close(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc_source.html#l00294">dialog_multiplayer_create_mutators.qc:294</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="dialog__multiplayer__create__mutators_8qh_html"><div class="ttname"><a href="../../d6/d7d/dialog__multiplayer__create__mutators_8qh.html">dialog_multiplayer_create_mutators.qh</a></div></div>
 <div class="ttc" id="xonotic_2radiobutton_8qc_html_ad6246d3b924142cee4128a6ab7d4bbd4"><div class="ttname"><a href="../../d9/dad/xonotic_2radiobutton_8qc.html#ad6246d3b924142cee4128a6ab7d4bbd4">makeXonoticRadioButton_T</a></div><div class="ttdeci">entity makeXonoticRadioButton_T(float theGroup, string theCvar, string theValue, string theText, string theTooltip)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dad/xonotic_2radiobutton_8qc_source.html#l00003">radiobutton.qc:3</a></div></div>
 <div class="ttc" id="dialog__multiplayer__create__mutators_8qc_html_a88b4e0fbbc7d4a23ac65a74379f53e20"><div class="ttname"><a href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a88b4e0fbbc7d4a23ac65a74379f53e20">checkCompatibility_pinata</a></div><div class="ttdeci">float checkCompatibility_pinata(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc_source.html#l00110">dialog_multiplayer_create_mutators.qc:110</a></div></div>
@@ -466,7 +465,7 @@ $(document).ready(function(){initNavTree('d7/dfd/dialog__multiplayer__create__mu
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html">dialog_multiplayer_create_mutators.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:05 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

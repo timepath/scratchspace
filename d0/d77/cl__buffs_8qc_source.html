@@ -111,9 +111,9 @@ $(document).ready(function(){initNavTree('d0/d77/cl__buffs_8qc_source.html','../
 <div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../d0/d77/cl__buffs_8qc.html#aa31aa2fcd9f160932bca75209b616797">    4</a></span>&#160;<a class="code" href="../../d0/d77/cl__buffs_8qc.html#aa31aa2fcd9f160932bca75209b616797">MUTATOR_HOOKFUNCTION</a>(cl_buffs, HUD_Powerups_add)</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> allBuffs = STAT(BUFFS);</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Buffs, it.m_itemid &amp; allBuffs, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Buffs, it.m_itemid &amp; allBuffs, {</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <a class="code" href="../../df/db0/powerups_8qc.html#a0548d6d5f32ee93186047be9beff7348">addPowerupItem</a>(it.m_prettyName, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;buff_&quot;</span>, it.m_name), it.m_color, <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, STAT(BUFF_TIME) - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>, 99), 60);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    ));</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    });</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
 <div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../d0/d77/cl__buffs_8qc.html#a5b7d28375ba7f15543effc2c3b4f7ed1">   11</a></span>&#160;<a class="code" href="../../d0/d77/cl__buffs_8qc.html#aa31aa2fcd9f160932bca75209b616797">MUTATOR_HOOKFUNCTION</a>(cl_buffs, WP_Format)</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
@@ -130,7 +130,6 @@ $(document).ready(function(){initNavTree('d0/d77/cl__buffs_8qc_source.html','../
 <div class="ttc" id="cl__buffs_8qh_html"><div class="ttname"><a href="../../d5/d7f/cl__buffs_8qh.html">cl_buffs.qh</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="classBuff_html_a3d14d4cb044305bc9fd86dcd9533a0a0"><div class="ttname"><a href="../../de/d3c/classBuff.html#a3d14d4cb044305bc9fd86dcd9533a0a0">Buff::m_prettyName</a></div><div class="ttdeci">string m_prettyName</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d85/buffs_8qh_source.html#l00025">buffs.qh:25</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="cl__buffs_8qc_html_abd60fb505ee89da38d9dba6096f7a975"><div class="ttname"><a href="../../d0/d77/cl__buffs_8qc.html#abd60fb505ee89da38d9dba6096f7a975">REGISTER_MUTATOR</a></div><div class="ttdeci">REGISTER_MUTATOR(cl_buffs, true)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
@@ -150,7 +149,7 @@ $(document).ready(function(){initNavTree('d0/d77/cl__buffs_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_07eb8bb3d19ce8165a5aaf6eac26591d.html">buffs</a></li><li class="navelem"><a class="el" href="../../d0/d77/cl__buffs_8qc.html">cl_buffs.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:03 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:42 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

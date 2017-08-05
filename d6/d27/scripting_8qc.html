@@ -570,7 +570,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00529">529</a> of file <a class="el" href="../../d6/d27/scripting_8qc_source.html">scripting.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/d14/scripting_8qh_source.html#l00069">bot_barrier</a>, <a class="el" href="../../d8/d14/scripting_8qh_source.html#l00068">bot_barriertime</a>, <a class="el" href="../../d8/d14/scripting_8qh_source.html#l00007">CMD_STATUS_EXECUTING</a>, <a class="el" href="../../d8/d14/scripting_8qh_source.html#l00008">CMD_STATUS_FINISHED</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../d8/d14/scripting_8qh_source.html#l00069">bot_barrier</a>, <a class="el" href="../../d8/d14/scripting_8qh_source.html#l00007">CMD_STATUS_EXECUTING</a>, and <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d27/scripting_8qc_source.html#l01177">bot_execute_commands_once()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;{</div>
@@ -585,16 +585,16 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;</div>
 <div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d8/d14/scripting_8qh.html#a999c06331b307b29da705b52c9848998">bot_barrier</a> == 1) <span class="comment">// find other bots</span></div>
 <div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;    {</div>
-<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(it.isbot, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(it.isbot, {</div>
 <div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;            <span class="keywordflow">if</span>(it.bot_cmdqueuebuf_allocated)</div>
 <div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;            <span class="keywordflow">if</span>(it.bot_barrier != 1)</div>
 <div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d8/d14/scripting_8qh.html#a9603613dd32e5b227cfaff1e41ac2930">CMD_STATUS_EXECUTING</a>; <span class="comment">// not all are at the barrier yet</span></div>
-<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;        ));</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;        });</div>
 <div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;</div>
 <div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;        <span class="comment">// all bots hit the barrier!</span></div>
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;</div>
 <div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;        <span class="comment">// acknowledge barrier</span></div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(it.isbot, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(it.bot_barrier = 2));</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(it.isbot, { it.bot_barrier = 2; });</div>
 <div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;</div>
 <div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;        <a class="code" href="../../d8/d14/scripting_8qh.html#ab60ec58fc647af4d0feb4a3e839a853d">bot_barriertime</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    }</div>
@@ -607,7 +607,6 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d14/scripting_8qh.html#a7486b01a2f8bcdc795620492866d7480">CMD_STATUS_FINISHED</a>;</div>
 <div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;}</div>
 <div class="ttc" id="scripting_8qh_html_ab60ec58fc647af4d0feb4a3e839a853d"><div class="ttname"><a href="../../d8/d14/scripting_8qh.html#ab60ec58fc647af4d0feb4a3e839a853d">bot_barriertime</a></div><div class="ttdeci">float bot_barriertime</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d14/scripting_8qh_source.html#l00068">scripting.qh:68</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
 <div class="ttc" id="scripting_8qh_html_a7486b01a2f8bcdc795620492866d7480"><div class="ttname"><a href="../../d8/d14/scripting_8qh.html#a7486b01a2f8bcdc795620492866d7480">CMD_STATUS_FINISHED</a></div><div class="ttdeci">#define CMD_STATUS_FINISHED</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d14/scripting_8qh_source.html#l00008">scripting.qh:8</a></div></div>
 <div class="ttc" id="scripting_8qh_html_a9603613dd32e5b227cfaff1e41ac2930"><div class="ttname"><a href="../../d8/d14/scripting_8qh.html#a9603613dd32e5b227cfaff1e41ac2930">CMD_STATUS_EXECUTING</a></div><div class="ttdeci">#define CMD_STATUS_EXECUTING</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d14/scripting_8qh_source.html#l00007">scripting.qh:7</a></div></div>
@@ -3386,11 +3385,11 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d27/scripting_8qc_source.html#l01157">1157</a> of file <a class="el" href="../../d6/d27/scripting_8qc_source.html">scripting.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/d14/scripting_8qh_source.html#l00068">bot_barriertime</a>, <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00018">bot_clearqueue()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00018">bot_clearqueue()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00321">GameCommand_bot_cmd()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;{</div>
-<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(it.isbot, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(it.isbot, {</div>
 <div class="line"><a name="l01160"></a><span class="lineno"> 1160</span>&#160;        it.bot_cmd_execution_index = 0;</div>
 <div class="line"><a name="l01161"></a><span class="lineno"> 1161</span>&#160;        <a class="code" href="../../d6/d27/scripting_8qc.html#a6893523d5caad3e47941ebb88916a721">bot_clearqueue</a>(it);</div>
 <div class="line"><a name="l01162"></a><span class="lineno"> 1162</span>&#160;        <span class="comment">// also, cancel all barriers</span></div>
@@ -3401,13 +3400,12 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01167"></a><span class="lineno"> 1167</span>&#160;            it.(bot_placenames[i]) = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
 <div class="line"><a name="l01168"></a><span class="lineno"> 1168</span>&#160;        }</div>
 <div class="line"><a name="l01169"></a><span class="lineno"> 1169</span>&#160;        it.bot_places_count = 0;</div>
-<div class="line"><a name="l01170"></a><span class="lineno"> 1170</span>&#160;    ));</div>
+<div class="line"><a name="l01170"></a><span class="lineno"> 1170</span>&#160;    });</div>
 <div class="line"><a name="l01171"></a><span class="lineno"> 1171</span>&#160;</div>
 <div class="line"><a name="l01172"></a><span class="lineno"> 1172</span>&#160;    <a class="code" href="../../d8/d14/scripting_8qh.html#ab60ec58fc647af4d0feb4a3e839a853d">bot_barriertime</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l01173"></a><span class="lineno"> 1173</span>&#160;}</div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="scripting_8qh_html_ab60ec58fc647af4d0feb4a3e839a853d"><div class="ttname"><a href="../../d8/d14/scripting_8qh.html#ab60ec58fc647af4d0feb4a3e839a853d">bot_barriertime</a></div><div class="ttdeci">float bot_barriertime</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d14/scripting_8qh_source.html#l00068">scripting.qh:68</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
 <div class="ttc" id="scripting_8qc_html_a6893523d5caad3e47941ebb88916a721"><div class="ttname"><a href="../../d6/d27/scripting_8qc.html#a6893523d5caad3e47941ebb88916a721">bot_clearqueue</a></div><div class="ttdeci">void bot_clearqueue(entity bot)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d27/scripting_8qc_source.html#l00018">scripting.qc:18</a></div></div>
@@ -4195,7 +4193,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../d6/d27/scripting_8qc.html">scripting.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:16 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:56 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

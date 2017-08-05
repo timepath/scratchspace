@@ -253,7 +253,7 @@ $(document).ready(function(){initNavTree('d5/d69/gamemode__cts_8qc_source.html',
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <a class="code" href="../../d6/d3b/race_8qc.html#a30ba6f7a919548646ddd721463696855">race_ClearRecords</a>();</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae62eb8bcfc2596312a8b44c3aabdef19">PlayerScore_Sort</a>(<a class="code" href="../../d4/d1b/race_8qh.html#a828dc3a9a00d474fd6cca7d6867b97b2">race_place</a>, 0, 1, 0);</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keywordflow">if</span>(it.race_place)</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        {</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            s = <a class="code" href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a>(it, SP_RACE_FASTEST, 0);</div>
@@ -261,7 +261,7 @@ $(document).ready(function(){initNavTree('d5/d69/gamemode__cts_8qc_source.html',
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                it.race_place = 0;</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        }</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <a class="code" href="../../d5/d69/gamemode__cts_8qc.html#a240c42bc7cb54d9cacd4b74cfa36925e">cts_EventLog</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(it.race_place), it);</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    ));</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    });</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d1b/race_8qh.html#a7e260fe5773769b74b068a6483ddb83d">g_race_qualifying</a> == 2)</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    {</div>
@@ -556,7 +556,6 @@ $(document).ready(function(){initNavTree('d5/d69/gamemode__cts_8qc_source.html',
 <div class="ttc" id="common_2scores_8qh_html_aeada6745e1a86301721bd800dc3b869a"><div class="ttname"><a href="../../da/dc3/common_2scores_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a></div><div class="ttdeci">const int SFL_SORT_PRIO_PRIMARY</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc3/common_2scores_8qh_source.html#l00121">scores.qh:121</a></div></div>
 <div class="ttc" id="scores__rules_8qc_html_a70c01ecc880399b0cc5fa84520d93a05"><div class="ttname"><a href="../../d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05">ScoreRules_basics_end</a></div><div class="ttdeci">void ScoreRules_basics_end()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d14/scores__rules_8qc_source.html#l00052">scores_rules.qc:52</a></div></div>
 <div class="ttc" id="scores_8qc_html_a601d5f667de9976b2a1ca7f6fc6051de"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#a601d5f667de9976b2a1ca7f6fc6051de">ScoreInfo_SetLabel_PlayerScore</a></div><div class="ttdeci">void ScoreInfo_SetLabel_PlayerScore(PlayerScoreField i, string label, float scoreflags)</div><div class="ttdoc">Set the label of a player score item, as well as the scoring flags. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00154">scores.qc:154</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="gamemode__cts_8qc_html_a9edd66c8072975c0b0ac13dea2dc92d9"><div class="ttname"><a href="../../d5/d69/gamemode__cts_8qc.html#a9edd66c8072975c0b0ac13dea2dc92d9">havocbot_role_cts</a></div><div class="ttdeci">void havocbot_role_cts(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d69/gamemode__cts_8qc_source.html#l00011">gamemode_cts.qc:11</a></div></div>
 <div class="ttc" id="mathlib_8qh_html_a158886f22ae8ba0b159e605acf44ca8d"><div class="ttname"><a href="../../d9/df7/mathlib_8qh.html#a158886f22ae8ba0b159e605acf44ca8d">M_SQRT1_2</a></div><div class="ttdeci">const float M_SQRT1_2</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df7/mathlib_8qh_source.html#l00115">mathlib.qh:115</a></div></div>
 <div class="ttc" id="race_8qh_html_a7d873efbcde54abb5c6024328ed5b5bf"><div class="ttname"><a href="../../d4/d1b/race_8qh.html#a7d873efbcde54abb5c6024328ed5b5bf">speedaward_lastupdate</a></div><div class="ttdeci">float speedaward_lastupdate</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1b/race_8qh_source.html#l00011">race.qh:11</a></div></div>
@@ -638,7 +637,7 @@ $(document).ready(function(){initNavTree('d5/d69/gamemode__cts_8qc_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../d5/d69/gamemode__cts_8qc.html">gamemode_cts.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:05 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

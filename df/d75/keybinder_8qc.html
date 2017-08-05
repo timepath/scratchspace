@@ -209,14 +209,14 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>( \</div>
-<div class="line">            <span class="keywordflow">if</span> (it.impulse != imp) <span class="keywordflow">continue</span>; \</div>
-<div class="line">            if (!(pred)) <span class="keywordflow">continue</span>; \</div>
-<div class="line">            w_list = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(w_list, it.m_name, <span class="stringliteral">&quot; / &quot;</span>); \</div>
-<div class="line">        ))</div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, { \</div>
+<div class="line">            if (it.impulse != imp) continue; \</div>
+<div class="line">            if (!(pred)) continue; \</div>
+<div class="line">            w_list = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(w_list, it.<a class="code" href="../../da/dc3/common_2scores_8qh.html#ab76434042ddfc9d5e703e038f0ad0b1f">m_name</a>, &quot; / &quot;); \</div>
+<div class="line">        })</div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
+<div class="ttc" id="common_2scores_8qh_html_ab76434042ddfc9d5e703e038f0ad0b1f"><div class="ttname"><a href="../../da/dc3/common_2scores_8qh.html#ab76434042ddfc9d5e703e038f0ad0b1f">m_name</a></div><div class="ttdeci">string m_name</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc3/common_2scores_8qh_source.html#l00129">scores.qh:129</a></div></div>
 </div><!-- fragment -->
 <p>Referenced by <a class="el" href="../../df/d75/keybinder_8qc_source.html#l00017">Xonotic_KeyBinds_Read()</a>.</p>
 
@@ -717,11 +717,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">int</span> i;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">    #define ADD_TO_W_LIST(pred) \</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">        FOREACH(Weapons, it != WEP_Null, LAMBDA( \</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">        FOREACH(Weapons, it != WEP_Null, { \</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">            if (it.impulse != imp) continue; \</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">            if (!(pred)) continue; \</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">            w_list = strcat(w_list, it.m_name, &quot; / &quot;); \</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">        ))</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">        })</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> imp = 1; imp &lt;= 9; ++imp)</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
@@ -1690,7 +1690,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../df/d75/keybinder_8qc.html">keybinder.qc</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 07:34:15 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 09:13:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
