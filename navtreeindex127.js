@@ -1,5 +1,7 @@
 var NAVTREEINDEX127 =
 {
+"df/d05/cl__model_8qh.html#af18d4ea88acf4a4ed7a6df9c083e9e0c":[2,0,4,0,3,10],
+"df/d05/cl__model_8qh.html#af60c1d5a9c42d0889bfd60c6197556cd":[2,0,4,0,3,8],
 "df/d05/cl__model_8qh.html#afc57f52a541c51325b7adac5c1c42904":[2,0,4,0,3,5],
 "df/d05/cl__model_8qh_source.html":[2,0,4,0,3],
 "df/d07/cl__generator_8qc.html":[2,0,1,3,0,1,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX127 =
 "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh_source.html":[2,0,5,4,111],
 "df/d27/sv__weaponarena__random_8qh.html":[2,0,1,9,0,35,3],
 "df/d27/sv__weaponarena__random_8qh_source.html":[2,0,1,9,0,35,3],
-"df/d28/menu_2xonotic_2button_8qc.html":[2,0,5,4,6],
-"df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[2,0,5,4,6,2],
-"df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[2,0,5,4,6,1]
+"df/d28/menu_2xonotic_2button_8qc.html":[2,0,5,4,6]
 };

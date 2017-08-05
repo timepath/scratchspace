@@ -3,6 +3,7 @@ var client_2mutators_2events_8qh =
     [ "EV_AnnouncerOption", "d8/d0e/client_2mutators_2events_8qh.html#a25bfd691414ad6357c67077eb7917f73", null ],
     [ "EV_CSQC_ConsoleCommand", "d8/d0e/client_2mutators_2events_8qh.html#a622e3f3fc74d161682435c58f1d2f046", null ],
     [ "EV_CustomizeEventchase", "d8/d0e/client_2mutators_2events_8qh.html#a79c78c4cc1c599f059e0e01c80a649c9", null ],
+    [ "EV_DamageInfo", "d8/d0e/client_2mutators_2events_8qh.html#a0c4cbabb8d4073e88bd869afd426255b", null ],
     [ "EV_DrawGrapplingHook", "d8/d0e/client_2mutators_2events_8qh.html#a190dc70f275de005ee3ce2dc186cbce8", null ],
     [ "EV_DrawInfoMessages", "d8/d0e/client_2mutators_2events_8qh.html#a433a95d4c3ca47d030a5247dbc3d3a19", null ],
     [ "EV_DrawViewModel", "d8/d0e/client_2mutators_2events_8qh.html#aa93d21b7f87fbf1baf0d1d5d14cbd019", null ],
@@ -49,5 +50,6 @@ var client_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a5c56e5b92171159a29f9ef25827368a0", null ],
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a14aea93f5215e6de880c6cccbd9533d8", null ],
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a166d8eb56b622dda23ed1e035d125a77", null ],
-    [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#ae2bf0333af1d510da7169280b11f6b75", null ]
+    [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#ae2bf0333af1d510da7169280b11f6b75", null ],
+    [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#afef9967024f4798cac5e735d0caae72e", null ]
 ];

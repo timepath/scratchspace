@@ -138,6 +138,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a79c78c4cc1c599f059e0e01c80a649c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a79c78c4cc1c599f059e0e01c80a649c9">EV_CustomizeEventchase</a>(i, o)</td></tr>
 <tr class="memdesc:a79c78c4cc1c599f059e0e01c80a649c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">allow customizing 3rd person mode effect  <a href="#a79c78c4cc1c599f059e0e01c80a649c9">More...</a><br/></td></tr>
 <tr class="separator:a79c78c4cc1c599f059e0e01c80a649c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c4cbabb8d4073e88bd869afd426255b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a0c4cbabb8d4073e88bd869afd426255b">EV_DamageInfo</a>(i, o)</td></tr>
+<tr class="memdesc:a0c4cbabb8d4073e88bd869afd426255b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when damage info is received on the client, useful for playing explosion effects.  <a href="#a0c4cbabb8d4073e88bd869afd426255b">More...</a><br/></td></tr>
+<tr class="separator:a0c4cbabb8d4073e88bd869afd426255b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a190dc70f275de005ee3ce2dc186cbce8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a190dc70f275de005ee3ce2dc186cbce8">EV_DrawGrapplingHook</a>(i, o)</td></tr>
 <tr class="memdesc:a190dc70f275de005ee3ce2dc186cbce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the grapple hook, allows changing hook texture and colour.  <a href="#a190dc70f275de005ee3ce2dc186cbce8">More...</a><br/></td></tr>
 <tr class="separator:a190dc70f275de005ee3ce2dc186cbce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -255,6 +258,8 @@ Functions</h2></td></tr>
 <tr class="separator:a166d8eb56b622dda23ed1e035d125a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2bf0333af1d510da7169280b11f6b75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#ae2bf0333af1d510da7169280b11f6b75">MUTATOR_HOOKABLE</a> (ForcePlayermodels_Skip, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#aca817b466228f04d9dd31274bbc2dd21">EV_ForcePlayermodels_Skip</a>)</td></tr>
 <tr class="separator:ae2bf0333af1d510da7169280b11f6b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afef9967024f4798cac5e735d0caae72e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#afef9967024f4798cac5e735d0caae72e">MUTATOR_HOOKABLE</a> (DamageInfo, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a0c4cbabb8d4073e88bd869afd426255b">EV_DamageInfo</a>)</td></tr>
+<tr class="separator:afef9967024f4798cac5e735d0caae72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a25bfd691414ad6357c67077eb7917f73"></a>
@@ -350,6 +355,39 @@ Functions</h2></td></tr>
 <p>allow customizing 3rd person mode effect </p>
 
 <p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00092">92</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0c4cbabb8d4073e88bd869afd426255b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_DamageInfo</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">        i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \      i(<span class="keywordtype">int</span>, MUTATOR_ARGV_1_int) \        i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_2_vector) \</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
+</div><!-- fragment -->
+<p>Called when damage info is received on the client, useful for playing explosion effects. </p>
+
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00191">191</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -1671,13 +1709,39 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afef9967024f4798cac5e735d0caae72e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype">DamageInfo&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a0c4cbabb8d4073e88bd869afd426255b">EV_DamageInfo</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_08b4cf75afed9a7734ab4c2d9f3e6fae.html">mutators</a></li><li class="navelem"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Fri Aug 4 2017 07:07:37 for Xonotic by
+    <li class="footer">Generated on Sat Aug 5 2017 00:45:06 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

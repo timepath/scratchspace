@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[2,0,5,4,6,2],
+"df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[2,0,5,4,6,1],
 "df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9":[2,0,5,4,6,0],
 "df/d28/menu_2xonotic_2button_8qc_source.html":[2,0,5,4,6],
 "df/d28/sv__turrets_8qh.html":[2,0,1,14,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "df/d42/quake3_8qc.html#aa240f2a4301eeac02d4cfa81d7edf447":[2,0,6,2,8,47],
 "df/d42/quake3_8qc.html#aa3150d23b386b15a097a80edd3cf51b3":[2,0,6,2,8,50],
 "df/d42/quake3_8qc.html#aafb336357a80095e07f455541e236dbe":[2,0,6,2,8,20],
-"df/d42/quake3_8qc.html#ab6af2d95c067645ee4d9a427cb11f538":[2,0,6,2,8,22],
-"df/d42/quake3_8qc.html#abb2d4112cc8edd7d3592ba5ecf7931f8":[2,0,6,2,8,17],
-"df/d42/quake3_8qc.html#abdc33cf25e725134a9b48e79c7031bcf":[2,0,6,2,8,44]
+"df/d42/quake3_8qc.html#ab6af2d95c067645ee4d9a427cb11f538":[2,0,6,2,8,22]
 };

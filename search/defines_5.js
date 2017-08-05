@@ -51,6 +51,7 @@ var searchData=
   ['ev_5fcustomizeeventchase',['EV_CustomizeEventchase',['../d8/d0e/client_2mutators_2events_8qh.html#a79c78c4cc1c599f059e0e01c80a649c9',1,'events.qh']]],
   ['ev_5fcustomizewaypoint',['EV_CustomizeWaypoint',['../d6/ddd/server_2mutators_2events_8qh.html#ad46350e6bb8eca159cda8bf73639f40e',1,'events.qh']]],
   ['ev_5fdamage_5fcalculate',['EV_Damage_Calculate',['../d6/ddd/server_2mutators_2events_8qh.html#aeef5a49760f1e9624699ed9769cc2b7a',1,'events.qh']]],
+  ['ev_5fdamageinfo',['EV_DamageInfo',['../d8/d0e/client_2mutators_2events_8qh.html#a0c4cbabb8d4073e88bd869afd426255b',1,'events.qh']]],
   ['ev_5fdrawgrapplinghook',['EV_DrawGrapplingHook',['../d8/d0e/client_2mutators_2events_8qh.html#a190dc70f275de005ee3ce2dc186cbce8',1,'events.qh']]],
   ['ev_5fdrawinfomessages',['EV_DrawInfoMessages',['../d8/d0e/client_2mutators_2events_8qh.html#a433a95d4c3ca47d030a5247dbc3d3a19',1,'events.qh']]],
   ['ev_5fdrawviewmodel',['EV_DrawViewModel',['../d8/d0e/client_2mutators_2events_8qh.html#aa93d21b7f87fbf1baf0d1d5d14cbd019',1,'events.qh']]],
