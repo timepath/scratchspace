@@ -160,6 +160,7 @@ var searchData=
   ['sv_5fspawn_5fnear_5fteammate_2eqc',['sv_spawn_near_teammate.qc',['../d2/d08/sv__spawn__near__teammate_8qc.html',1,'']]],
   ['sv_5fspawn_5fnear_5fteammate_2eqh',['sv_spawn_near_teammate.qh',['../db/d2b/sv__spawn__near__teammate_8qh.html',1,'']]],
   ['sv_5fspawner_2eqc',['sv_spawner.qc',['../de/dbb/sv__spawner_8qc.html',1,'']]],
+  ['sv_5fspawner_2eqh',['sv_spawner.qh',['../df/dad/sv__spawner_8qh.html',1,'']]],
   ['sv_5fsuperspec_2eqc',['sv_superspec.qc',['../da/d6b/sv__superspec_8qc.html',1,'']]],
   ['sv_5fsuperspec_2eqh',['sv_superspec.qh',['../da/d7d/sv__superspec_8qh.html',1,'']]],
   ['sv_5ftouchexplode_2eqc',['sv_touchexplode.qc',['../d4/df8/sv__touchexplode_8qc.html',1,'']]],

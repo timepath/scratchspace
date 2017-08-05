@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"dc/d1d/server_2pathlib_2debug_8qh.html":[2,0,6,4,5],
+"dc/d1d/server_2pathlib_2debug_8qh_source.html":[2,0,6,4,5],
 "dc/d20/modeleffects_8qc.html":[2,0,1,2,0,15],
 "dc/d20/modeleffects_8qc_source.html":[2,0,1,2,0,15],
 "dc/d23/classVehicle.html":[1,0,131],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "dc/d3d/container_8qc.html#afb93c24343e73a71eed73fcdf4de2a3f":[2,0,5,2,8,13],
 "dc/d3d/container_8qc.html#afe20d7dbb55ca5539e40e3f850d81f15":[2,0,5,2,8,6],
 "dc/d3d/container_8qc_source.html":[2,0,5,2,8],
-"dc/d3d/csqcmodel__hooks_8qc.html":[2,0,0,14],
-"dc/d3d/csqcmodel__hooks_8qc.html#a03e325439a3c7e40dda1730cd4251a4c":[2,0,0,14,1],
-"dc/d3d/csqcmodel__hooks_8qc.html#a0f179309458eca2fb0e79ee5a321e603":[2,0,0,14,53]
+"dc/d3d/csqcmodel__hooks_8qc.html":[2,0,0,14]
 };

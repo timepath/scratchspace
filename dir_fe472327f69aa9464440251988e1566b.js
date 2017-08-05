@@ -10,5 +10,6 @@ var dir_fe472327f69aa9464440251988e1566b =
     [ "sv_monsters.qh", "d8/dc1/sv__monsters_8qh.html", "d8/dc1/sv__monsters_8qh" ],
     [ "sv_spawn.qc", "d8/d1c/sv__spawn_8qc.html", "d8/d1c/sv__spawn_8qc" ],
     [ "sv_spawn.qh", "d3/d3e/sv__spawn_8qh.html", "d3/d3e/sv__spawn_8qh" ],
-    [ "sv_spawner.qc", "de/dbb/sv__spawner_8qc.html", "de/dbb/sv__spawner_8qc" ]
+    [ "sv_spawner.qc", "de/dbb/sv__spawner_8qc.html", "de/dbb/sv__spawner_8qc" ],
+    [ "sv_spawner.qh", "df/dad/sv__spawner_8qh.html", null ]
 ];

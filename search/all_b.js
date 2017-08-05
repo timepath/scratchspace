@@ -231,6 +231,7 @@ var searchData=
   ['kh_5fworldkeylist',['kh_worldkeylist',['../db/d15/api_8qh.html#a045a92c5195f8abf1d884beab42bc3f9',1,'api.qh']]],
   ['kh_5fworldkeynext',['kh_worldkeynext',['../db/d15/api_8qh.html#abb611131b031308c318e295ec74a375f',1,'kh_worldkeynext():&#160;api.qh'],['../de/d40/gamemode__keyhunt_8qc.html#abb611131b031308c318e295ec74a375f',1,'kh_worldkeynext():&#160;gamemode_keyhunt.qc']]],
   ['kill_2eqc',['kill.qc',['../d1/dc2/kill_8qc.html',1,'']]],
+  ['kill_2eqh',['kill.qh',['../d4/dd0/kill_8qh.html',1,'']]],
   ['kill_5fspree_5flist',['KILL_SPREE_LIST',['../dc/d8f/notifications_2all_8qh.html#a07d1d3059e023b686dd8b0d6efff3168',1,'all.qh']]],
   ['kill_5ftime',['kill_time',['../d5/d26/server_2defs_8qh.html#a7ebf17d5b07bd64fc002c1418e75264d',1,'defs.qh']]],
   ['killcount',['killcount',['../d1/d37/classClient.html#afd3da46f8613f02a2a7f1f2f0bcd2f07',1,'Client::killcount()'],['../d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003',1,'killcount():&#160;defs.qh']]],

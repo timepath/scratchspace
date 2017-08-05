@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"d4/de8/classRacerAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,103,9],
+"d4/de8/classRacerAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,103,24],
 "d4/de8/classRacerAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,103,8],
 "d4/de8/classRacerAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,103,2],
 "d4/de8/classRacerAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,103,34],
@@ -196,8 +198,8 @@ var NAVTREEINDEX44 =
 "d5/d05/xonotic_2dialog_8qh.html":[2,0,5,4,39],
 "d5/d05/xonotic_2dialog_8qh.html#a2f5c24df66604b59586902a5b11c2a6f":[2,0,5,4,39,1],
 "d5/d05/xonotic_2dialog_8qh_source.html":[2,0,5,4,39],
-"d5/d06/speaker_8qc.html":[2,0,1,13,2,15],
-"d5/d06/speaker_8qc_source.html":[2,0,1,13,2,15],
+"d5/d06/speaker_8qc.html":[2,0,1,13,2,16],
+"d5/d06/speaker_8qc_source.html":[2,0,1,13,2,16],
 "d5/d08/net__linked_8qh.html":[2,0,1,36],
 "d5/d08/net__linked_8qh.html#a160c7ff113d670f1c0ed9901d98b897f":[2,0,1,36,6],
 "d5/d08/net__linked_8qh.html#a25b594820a0403cf196033288cb86a4c":[2,0,1,36,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f":[2,0,6,60,2],
 "d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec":[2,0,6,60,0],
 "d5/d14/scores__rules_8qc_source.html":[2,0,6,60],
-"d5/d16/weaponarenacheckbox_8qh.html":[2,0,5,4,231],
-"d5/d16/weaponarenacheckbox_8qh.html#adf56d4bc38e7c5065719b469089a3ba5":[2,0,5,4,231,1],
-"d5/d16/weaponarenacheckbox_8qh_source.html":[2,0,5,4,231]
+"d5/d16/weaponarenacheckbox_8qh.html":[2,0,5,4,231]
 };

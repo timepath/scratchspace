@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,233,3],
+"da/db7/classXonoticServerInfoDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,233,113],
 "da/db7/classXonoticServerInfoDialog.html#a0aea1ca35639596105c204b2f74019ba":[1,0,233,9],
 "da/db7/classXonoticServerInfoDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,233,111],
 "da/db7/classXonoticServerInfoDialog.html#a0e567256ae4c52800cff333b96029c3d":[1,0,233,53],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "da/dc1/classXonoticAudioSettingsTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,140,12],
 "da/dc1/classXonoticAudioSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,140,8],
 "da/dc1/dialog__hudpanel__modicons_8qh.html":[2,0,5,4,59],
-"da/dc1/dialog__hudpanel__modicons_8qh_source.html":[2,0,5,4,59],
-"da/dc1/server_2player_8qh.html":[2,0,6,48],
-"da/dc1/server_2player_8qh.html#a0390f6703ace29f61655694b8821d84a":[2,0,6,48,8]
+"da/dc1/dialog__hudpanel__modicons_8qh_source.html":[2,0,5,4,59]
 };

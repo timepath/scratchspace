@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"da/dc1/server_2player_8qh.html":[2,0,6,48],
+"da/dc1/server_2player_8qh.html#a0390f6703ace29f61655694b8821d84a":[2,0,6,48,8],
 "da/dc1/server_2player_8qh.html#a069f69d13af79e3b017f3892e529dcfa":[2,0,6,48,7],
 "da/dc1/server_2player_8qh.html#a1f636403184e26ea4190e989009ab0a1":[2,0,6,48,12],
 "da/dc1/server_2player_8qh.html#a2c29b93080851a8b1b00d0bca0c7cee9":[2,0,6,48,15],
@@ -59,8 +61,8 @@ var NAVTREEINDEX93 =
 "da/dc3/common_2scores_8qh.html#ae7780da786465996b85f5e92850ca081":[2,0,1,41,9],
 "da/dc3/common_2scores_8qh.html#aeada6745e1a86301721bd800dc3b869a":[2,0,1,41,30],
 "da/dc3/common_2scores_8qh_source.html":[2,0,1,41],
-"da/dc5/voicescript_8qc.html":[2,0,1,13,2,17],
-"da/dc5/voicescript_8qc_source.html":[2,0,1,13,2,17],
+"da/dc5/voicescript_8qc.html":[2,0,1,13,2,18],
+"da/dc5/voicescript_8qc_source.html":[2,0,1,13,2,18],
 "da/dc7/test_8qc.html":[2,0,4,58],
 "da/dc7/test_8qc.html#a13b0b89cb467cf0d1a2ee9a711ed9eba":[2,0,4,58,2],
 "da/dc7/test_8qc.html#a38ec02a1e85890fafd3d82e28cf0f0ee":[2,0,4,58,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "da/df9/classMortar.html":[1,0,80],
 "da/df9/classMortar.html#a0df1d3a75a5959e8e463a363e22b99a9":[1,0,80,37],
 "da/df9/classMortar.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,80,19],
-"da/df9/classMortar.html#a17758b4384c3b674d680393f9abfae89":[1,0,80,33],
-"da/df9/classMortar.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,80,18],
-"da/df9/classMortar.html#a2a49c39bc010c7336ad6c42789aba32a":[1,0,80,31]
+"da/df9/classMortar.html#a17758b4384c3b674d680393f9abfae89":[1,0,80,33]
 };
