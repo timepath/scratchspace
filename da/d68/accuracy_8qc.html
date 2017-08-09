@@ -603,7 +603,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    a = <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(a).accuracy;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a> != a.owner)</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a0756f11e68efabd96f9c556e369631d9">autocvar_sv_accuracy_data_share</a> &amp;&amp; !a.owner.cvar_cl_accuracy_data_share)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a0756f11e68efabd96f9c556e369631d9">autocvar_sv_accuracy_data_share</a> &amp;&amp; !<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(a.owner).cvar_cl_accuracy_data_share)</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            sf = 0;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">// note: zero sendflags can never be sent... so we can use that to say that we send no accuracy!</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    WriteInt24_t(MSG_ENTITY, sf);</div>
@@ -670,7 +670,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../da/d68/accuracy_8qc.html">accuracy.qc</a></li>
-    <li class="footer">Generated on Mon Aug 7 2017 08:57:42 for Xonotic by
+    <li class="footer">Generated on Wed Aug 9 2017 13:27:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

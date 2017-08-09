@@ -14,6 +14,7 @@ var bot_8qc =
     [ "bot_removefromlargestteam", "d2/dc0/bot_8qc.html#aaecc23c5c2524bcea745aa6d2afa718a", null ],
     [ "bot_removenewest", "d2/dc0/bot_8qc.html#afaeae8b4cc57aae2b5db95dbc5440464", null ],
     [ "bot_serverframe", "d2/dc0/bot_8qc.html#aca1687b4e440adf8111b9438919a0b0a", null ],
+    [ "bot_setclientfields", "d2/dc0/bot_8qc.html#a4091d9d692953b7614ba80259c2cf631", null ],
     [ "bot_setnameandstuff", "d2/dc0/bot_8qc.html#aad1b37739cf0bb1675c68a90aa48c797", null ],
     [ "bot_spawn", "d2/dc0/bot_8qc.html#a5e30e64bee22a5e4abf3bca9ae06f8fc", null ],
     [ "bot_think", "d2/dc0/bot_8qc.html#a4c35713fe04bf8f6dc78a76c3b8720ac", null ]
