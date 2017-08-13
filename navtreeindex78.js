@@ -1,5 +1,8 @@
 var NAVTREEINDEX78 =
 {
+"d8/de2/menudefs_8qc.html#a5686cb7121a4ac5814eddfb2251b08aa":[2,0,2,0,3,206],
+"d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2":[2,0,2,0,3,42],
+"d8/de2/menudefs_8qc.html#a590cd9d33c3b445d202ffc9787ae767a":[2,0,2,0,3,190],
 "d8/de2/menudefs_8qc.html#a5a2ee5c064f0af90170870fbe024a0d7":[2,0,2,0,3,147],
 "d8/de2/menudefs_8qc.html#a5a51f82b0e067ae62972297351d205d2":[2,0,2,0,3,92],
 "d8/de2/menudefs_8qc.html#a5a7fa6f2ddb3158662cb2e14eee99a20":[2,0,2,0,3,168],
@@ -246,8 +249,5 @@ var NAVTREEINDEX78 =
 "d8/def/classWeaponPickup.html#a95e7f0cf091386e07ce2add2ab653934":[1,0,137,10],
 "d8/def/classWeaponPickup.html#aaca9d5c571d73c2274a3356ef2fcdc53":[1,0,137,11],
 "d8/def/classWeaponPickup.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,137,5],
-"d8/def/classWeaponPickup.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,137,14],
-"d8/df3/weaponslist_8qc.html":[2,0,5,4,232],
-"d8/df3/weaponslist_8qc.html#a0d08668d269dd800b281886c052f0ae2":[2,0,5,4,232,0],
-"d8/df3/weaponslist_8qc.html#a4295e1a543aa3694e2987c6731c226ad":[2,0,5,4,232,10]
+"d8/def/classWeaponPickup.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,137,14]
 };

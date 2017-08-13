@@ -1,5 +1,7 @@
 var NAVTREEINDEX116 =
 {
+"dd/d90/classRaptorFlare.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,108,1],
+"dd/d90/classRaptorFlare.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,108,15],
 "dd/d90/classRaptorFlare.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,108,9],
 "dd/d90/classRaptorFlare.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,108,24],
 "dd/d90/classRaptorFlare.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,108,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX116 =
 "dd/da3/classXonoticMusicPlayerTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,210,30],
 "dd/da3/classXonoticMusicPlayerTab.html#a198d31b696946a3a688d2c943f509799":[1,0,210,72],
 "dd/da3/classXonoticMusicPlayerTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,210,11],
-"dd/da3/classXonoticMusicPlayerTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,210,73],
-"dd/da3/classXonoticMusicPlayerTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,210,4],
-"dd/da3/classXonoticMusicPlayerTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,210,47]
+"dd/da3/classXonoticMusicPlayerTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,210,73]
 };

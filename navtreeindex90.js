@@ -1,5 +1,8 @@
 var NAVTREEINDEX90 =
 {
+"da/d6b/sv__superspec_8qc.html":[2,0,1,9,0,29,2],
+"da/d6b/sv__superspec_8qc.html#a0e09ade211672fbff42c37c935698ae6":[2,0,1,9,0,29,2,0],
+"da/d6b/sv__superspec_8qc.html#a1778e833c919fedc545a8b8d8eeaf8ba":[2,0,1,9,0,29,2,27],
 "da/d6b/sv__superspec_8qc.html#a1cd5501c8fc6141cc8b64e098366f099":[2,0,1,9,0,29,2,7],
 "da/d6b/sv__superspec_8qc.html#a2b322cccf41ebb9cd88c4c019403514f":[2,0,1,9,0,29,2,6],
 "da/d6b/sv__superspec_8qc.html#a2d0e90ca3cfc85e74cc6903fb7503723":[2,0,1,9,0,29,2,20],
@@ -100,10 +103,8 @@ var NAVTREEINDEX90 =
 "da/d70/common_2sounds_2__mod_8inc_source.html":[2,0,1,12,0],
 "da/d70/zombie_8qc.html":[2,0,1,8,0,10],
 "da/d70/zombie_8qc_source.html":[2,0,1,8,0,10],
-"da/d71/vehicles_2all_8qc.html":[2,0,1,15,5],
-"da/d71/vehicles_2all_8qc.html#a73c313baec888c8737146375c6453289":[2,0,1,15,5,1],
-"da/d71/vehicles_2all_8qc.html#aafd24a334088de3d7fef309914d49101":[2,0,1,15,5,0],
-"da/d71/vehicles_2all_8qc_source.html":[2,0,1,15,5],
+"da/d71/vehicles_2all_8qc.html":[2,0,1,15,3],
+"da/d71/vehicles_2all_8qc_source.html":[2,0,1,15,3],
 "da/d73/tesla__weapon_8qc.html":[2,0,1,14,0,40],
 "da/d73/tesla__weapon_8qc_source.html":[2,0,1,14,0,40],
 "da/d79/dialog__hudpanel__ammo_8qh.html":[2,0,5,4,45],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "da/d94/classXonoticSettingsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,236,1],
 "da/d94/classXonoticSettingsDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,236,12],
 "da/d94/classXonoticSettingsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,236,75],
-"da/d94/classXonoticSettingsDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,236,23],
-"da/d94/classXonoticSettingsDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,236,50]
+"da/d94/classXonoticSettingsDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,236,23]
 };

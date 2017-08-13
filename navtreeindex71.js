@@ -1,5 +1,8 @@
 var NAVTREEINDEX71 =
 {
+"d7/de6/classXonoticWeaponarenaCheckBox.html#aff20d1ead9e7a482eca46d913e6986a1":[1,0,252,82],
+"d7/de8/dialog__hudpanel__timer_8qh.html":[2,0,5,4,77],
+"d7/de8/dialog__hudpanel__timer_8qh_source.html":[2,0,5,4,77],
 "d7/de8/modalcontroller_8qh.html":[2,0,5,2,23],
 "d7/de8/modalcontroller_8qh.html#a1563097e21926b000ffb89ebf5307bd7":[2,0,5,2,23,8],
 "d7/de8/modalcontroller_8qh.html#a60f2d4ad42f0bfe8bca80aff8ff31ce6":[2,0,5,2,23,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX71 =
 "d8/d14/scripting_8qh.html#a1bd7ea28a095d1f3d9237a2cf7baf5e3":[2,0,6,0,0,12,36],
 "d8/d14/scripting_8qh.html#a23dd55bacd4aaa2473840c1920ced0b9":[2,0,6,0,0,12,37],
 "d8/d14/scripting_8qh.html#a2bccc74e657bf736d6026fbff7798fee":[2,0,6,0,0,12,21],
-"d8/d14/scripting_8qh.html#a2f222797ee7dab68cca379d99ac983c8":[2,0,6,0,0,12,11],
-"d8/d14/scripting_8qh.html#a3211c7e4351444d675d7fee47b61bd1b":[2,0,6,0,0,12,45],
-"d8/d14/scripting_8qh.html#a3814de61b054d9dfe64c0d3b4a92191f":[2,0,6,0,0,12,9],
-"d8/d14/scripting_8qh.html#a381ca4ea8857bce9db3071794ad5c27d":[2,0,6,0,0,12,40]
+"d8/d14/scripting_8qh.html#a2f222797ee7dab68cca379d99ac983c8":[2,0,6,0,0,12,11]
 };

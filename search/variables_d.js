@@ -100,7 +100,7 @@ var searchData=
   ['mapvote_5fnextthink',['mapvote_nextthink',['../d2/d76/server_2mapvoting_8qc.html#ad727391722401b4ddc25f2eb312bf743',1,'mapvoting.qc']]],
   ['mapvote_5frun',['mapvote_run',['../d2/d76/server_2mapvoting_8qc.html#acfa3fb93e4251bd4631285b50cf5d3c7',1,'mapvoting.qc']]],
   ['mapvote_5fscreenshot_5fdirs',['mapvote_screenshot_dirs',['../d2/d76/server_2mapvoting_8qc.html#ad40e1bd245af44e5acd1370f316e1311',1,'mapvoting.qc']]],
-  ['mapvote_5fscreenshot_5fdirs_5fcount',['MAPVOTE_SCREENSHOT_DIRS_COUNT',['../d2/d76/server_2mapvoting_8qc.html#a1f3ce72c3ee09379dc95aa68319c87e0',1,'MAPVOTE_SCREENSHOT_DIRS_COUNT():&#160;mapvoting.qc'],['../d2/d76/server_2mapvoting_8qc.html#a464fb20f28759013195931b4335a57d8',1,'mapvote_screenshot_dirs_count():&#160;mapvoting.qc']]],
+  ['mapvote_5fscreenshot_5fdirs_5fcount',['mapvote_screenshot_dirs_count',['../d2/d76/server_2mapvoting_8qc.html#a464fb20f28759013195931b4335a57d8',1,'mapvote_screenshot_dirs_count():&#160;mapvoting.qc'],['../d2/d76/server_2mapvoting_8qc.html#a1f3ce72c3ee09379dc95aa68319c87e0',1,'MAPVOTE_SCREENSHOT_DIRS_COUNT():&#160;mapvoting.qc']]],
   ['mapvote_5fselections',['mapvote_selections',['../d2/d76/server_2mapvoting_8qc.html#af6604852a5fd9bd2242dc50ab7600100',1,'mapvoting.qc']]],
   ['mapvote_5fsuggestion_5fptr',['mapvote_suggestion_ptr',['../d2/d76/server_2mapvoting_8qc.html#a5cc98f804d0ecd112e1e70b1a470cc8c',1,'mapvoting.qc']]],
   ['mapvote_5fsuggestions',['mapvote_suggestions',['../d2/d76/server_2mapvoting_8qc.html#a6722532cdd11c4b8abd148fa9fd6d310',1,'mapvoting.qc']]],

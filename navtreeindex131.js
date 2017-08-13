@@ -1,5 +1,7 @@
 var NAVTREEINDEX131 =
 {
+"df/d92/classXonoticWinnerDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,254,48],
+"df/d92/classXonoticWinnerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,254,26],
 "df/d92/classXonoticWinnerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,254,17],
 "df/d92/classXonoticWinnerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,254,74],
 "df/d92/classXonoticWinnerDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,254,71],
@@ -247,7 +249,5 @@ var NAVTREEINDEX131 =
 "df/da7/generic_8qc.html#af21b5f0914d24ba07dcd52f606b8518e":[2,0,1,0,3,15],
 "df/da7/generic_8qc.html#af4deca7a7fe670c511f95361b87fb961":[2,0,1,0,3,7],
 "df/da7/generic_8qc.html#af6a684057c789582d81aaa6c4ae26bc5":[2,0,1,0,3,4],
-"df/da7/generic_8qc.html#af96c68d767d38bddfc69ea2a50a41c10":[2,0,1,0,3,3],
-"df/da7/generic_8qc.html#afc2258d0a6214950261d6dc3d0e4ad06":[2,0,1,0,3,12],
-"df/da7/generic_8qc.html#afcb860857cde6c4b6c2585fb2d2c5487":[2,0,1,0,3,8]
+"df/da7/generic_8qc.html#af96c68d767d38bddfc69ea2a50a41c10":[2,0,1,0,3,3]
 };

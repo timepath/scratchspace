@@ -1,5 +1,9 @@
 var NAVTREEINDEX114 =
 {
+"dd/d36/classXonoticGameViewSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,173,60],
+"dd/d36/classXonoticGameViewSettingsTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,173,43],
+"dd/d36/classXonoticGameViewSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,173,2],
+"dd/d36/classXonoticGameViewSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,173,41],
 "dd/d36/classXonoticGameViewSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,173,45],
 "dd/d36/classXonoticGameViewSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,173,87],
 "dd/d36/classXonoticGameViewSettingsTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,173,13],
@@ -129,8 +133,8 @@ var NAVTREEINDEX114 =
 "dd/d59/modicons_8qc.html#a90abcb5dfd155425638f8823221e96a7":[2,0,0,1,0,16,37],
 "dd/d59/modicons_8qc.html#a90b00643b4f9e53be543cdb107e4d527":[2,0,0,1,0,16,26],
 "dd/d59/modicons_8qc.html#a9245f9b7b4151715d667f06cbaf831cd":[2,0,0,1,0,16,8],
-"dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,0],
 "dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,2],
+"dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,0],
 "dd/d59/modicons_8qc.html#a9fba4055eb7a12732e45c9864109ce0a":[2,0,0,1,0,16,42],
 "dd/d59/modicons_8qc.html#aa31974f3ee04983fc466c46abdbe5625":[2,0,0,1,0,16,10],
 "dd/d59/modicons_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922":[2,0,0,1,0,16,19],
@@ -154,8 +158,6 @@ var NAVTREEINDEX114 =
 "dd/d59/modicons_8qc.html#aff1244f89a47d203e4c8bf07e5a4d229":[2,0,0,1,0,16,31],
 "dd/d59/modicons_8qc.html#affcd2de913713ea56d0f03e0f0b2d610":[2,0,0,1,0,16,20],
 "dd/d59/modicons_8qc_source.html":[2,0,0,1,0,16],
-"dd/d5d/common_2vehicles_2__all_8inc.html":[2,0,1,15,1],
-"dd/d5d/common_2vehicles_2__all_8inc_source.html":[2,0,1,15,1],
 "dd/d5d/gamesettings_8qh.html":[2,0,5,10],
 "dd/d5d/gamesettings_8qh_source.html":[2,0,5,10],
 "dd/d5e/door_8qh.html":[2,0,1,13,0,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX114 =
 "dd/d70/pathlib_8qh.html#aa0385717dc25c455be45f7cb832c7d10":[2,0,6,4,14,24],
 "dd/d70/pathlib_8qh.html#aa0da3d0f66f70ff12e2b69560240133e":[2,0,6,4,14,43],
 "dd/d70/pathlib_8qh.html#aa3790edfb7eefa11241f64ba7eb526a3":[2,0,6,4,14,69],
-"dd/d70/pathlib_8qh.html#aa3c9c0ed0d1db934e264c644c83979b3":[2,0,6,4,14,16],
-"dd/d70/pathlib_8qh.html#aabbee0e66842898fe87a404644cf6da3":[2,0,6,4,14,60],
-"dd/d70/pathlib_8qh.html#aac822f09d4c3275e067edc349937d899":[2,0,6,4,14,30]
+"dd/d70/pathlib_8qh.html#aa3c9c0ed0d1db934e264c644c83979b3":[2,0,6,4,14,16]
 };
