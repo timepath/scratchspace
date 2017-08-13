@@ -1,13 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"da/d30/file_8qh.html":[2,0,4,19],
-"da/d30/file_8qh.html#aeff7dd5ab95e5e6de16402f61a1c851c":[2,0,4,19,0],
-"da/d30/file_8qh_source.html":[2,0,4,19],
-"da/d3b/weapons_2weapon_2machinegun_8qc.html":[2,0,1,16,0,20],
-"da/d3b/weapons_2weapon_2machinegun_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,20,1],
-"da/d3b/weapons_2weapon_2machinegun_8qc.html#af2b46b122575dc628900728779d60989":[2,0,1,16,0,20,2],
-"da/d3b/weapons_2weapon_2machinegun_8qc_source.html":[2,0,1,16,0,20],
-"da/d3e/nades_8qh.html":[2,0,1,9,0,17,5],
 "da/d3e/nades_8qh.html#a0975ec4cf12ce7bc07a3b2fb5da68db4":[2,0,1,9,0,17,5,21],
 "da/d3e/nades_8qh.html#a0d4feb055b436b5aedbcfc76bcbe2107":[2,0,1,9,0,17,5,12],
 "da/d3e/nades_8qh.html#a21649cf9858df4e2f195e438407284b3":[2,0,1,9,0,17,5,6],
@@ -172,8 +164,8 @@ var NAVTREEINDEX89 =
 "da/d4e/sv__monsters_8qc.html#a100d851a4f02e4bd6177462aad0a9d1f":[2,0,1,8,6,12],
 "da/d4e/sv__monsters_8qc.html#a10ca618a2194c7dd0b8e722730859c14":[2,0,1,8,6,32],
 "da/d4e/sv__monsters_8qc.html#a11264c2824e7a8f5b85b5197f8123d7b":[2,0,1,8,6,8],
-"da/d4e/sv__monsters_8qc.html#a13c832506cac26065a468274572e4e37":[2,0,1,8,6,0],
 "da/d4e/sv__monsters_8qc.html#a13c832506cac26065a468274572e4e37":[2,0,1,8,6,1],
+"da/d4e/sv__monsters_8qc.html#a13c832506cac26065a468274572e4e37":[2,0,1,8,6,0],
 "da/d4e/sv__monsters_8qc.html#a1601ffa4b140b54cb3c7a724f017d89b":[2,0,1,8,6,31],
 "da/d4e/sv__monsters_8qc.html#a196ded64f3c6c2324205b64a73fb9897":[2,0,1,8,6,33],
 "da/d4e/sv__monsters_8qc.html#a1a655351164d85b497d04672f12af2d2":[2,0,1,8,6,36],
@@ -249,5 +241,13 @@ var NAVTREEINDEX89 =
 "da/d68/accuracy_8qc.html#aad4882ef9eb34b565690f771aec07c2d":[2,0,6,5,2,6],
 "da/d68/accuracy_8qc.html#addc590d48822d285d5025af942f6ef4e":[2,0,6,5,2,1],
 "da/d68/accuracy_8qc_source.html":[2,0,6,5,2],
-"da/d6a/health_8qh.html":[2,0,1,5,0,7]
+"da/d6a/health_8qh.html":[2,0,1,5,0,7],
+"da/d6a/health_8qh.html#a8332a98989b8a6eb4fd2fea78ad89b6c":[2,0,1,5,0,7,2],
+"da/d6a/health_8qh.html#a9b3e1f042959d6d9e1029907e90f9875":[2,0,1,5,0,7,4],
+"da/d6a/health_8qh.html#ac737cbf9e6474f8f4fc5b90d844a0d93":[2,0,1,5,0,7,1],
+"da/d6a/health_8qh.html#acd779843151eff7554015c3bc54b25b1":[2,0,1,5,0,7,3],
+"da/d6a/health_8qh_source.html":[2,0,1,5,0,7],
+"da/d6b/sv__superspec_8qc.html":[2,0,1,9,0,29,2],
+"da/d6b/sv__superspec_8qc.html#a0e09ade211672fbff42c37c935698ae6":[2,0,1,9,0,29,2,0],
+"da/d6b/sv__superspec_8qc.html#a1778e833c919fedc545a8b8d8eeaf8ba":[2,0,1,9,0,29,2,27]
 };

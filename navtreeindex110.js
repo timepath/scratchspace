@@ -1,15 +1,5 @@
 var NAVTREEINDEX110 =
 {
-"dc/d9d/inventory_8qh.html#a64247a1cab15bcca142d91356c9b5a6f":[2,0,1,5,5,5],
-"dc/d9d/inventory_8qh.html#a6cbc7eee7f07178ed928e8a0e372d653":[2,0,1,5,5,4],
-"dc/d9d/inventory_8qh.html#a8a2622451e2981957c9e86fd0eb08476":[2,0,1,5,5,3],
-"dc/d9d/inventory_8qh.html#ac29a75872c1cffa1f6b6ed4238df2e6b":[2,0,1,5,5,2],
-"dc/d9d/inventory_8qh_source.html":[2,0,1,5,5],
-"dc/da0/classXonoticMapInfoDialog.html":[1,0,204],
-"dc/da0/classXonoticMapInfoDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,204,42],
-"dc/da0/classXonoticMapInfoDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,204,21],
-"dc/da0/classXonoticMapInfoDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,204,51],
-"dc/da0/classXonoticMapInfoDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,204,3],
 "dc/da0/classXonoticMapInfoDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,204,95],
 "dc/da0/classXonoticMapInfoDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,204,93],
 "dc/da0/classXonoticMapInfoDialog.html#a0d9198526549ea241b21cd6d68896149":[1,0,204,12],
@@ -249,5 +239,15 @@ var NAVTREEINDEX110 =
 "dc/dbb/urllib_8qh.html#aec3e4f91f4163ffc70108838821510cc":[2,0,4,62,3],
 "dc/dbb/urllib_8qh.html#af602e253bfc56fa7bdb973e558c606e8":[2,0,4,62,18],
 "dc/dbb/urllib_8qh_source.html":[2,0,4,62],
-"dc/dc6/server_2miscfunctions_8qc.html":[2,0,6,43]
+"dc/dc6/server_2miscfunctions_8qc.html":[2,0,6,43],
+"dc/dc6/server_2miscfunctions_8qc.html#a0214f10fac80584471e106daa9bbd656":[2,0,6,43,39],
+"dc/dc6/server_2miscfunctions_8qc.html#a02356b5742fa917c33630d4b57878bda":[2,0,6,43,49],
+"dc/dc6/server_2miscfunctions_8qc.html#a03c1b8950eeb6441164aa0ee8ae330a5":[2,0,6,43,62],
+"dc/dc6/server_2miscfunctions_8qc.html#a04608bc242fb7b07fa01cc69ee1412aa":[2,0,6,43,8],
+"dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877":[2,0,6,43,25],
+"dc/dc6/server_2miscfunctions_8qc.html#a05b8906b19daf9c40e70c7374813e23d":[2,0,6,43,7],
+"dc/dc6/server_2miscfunctions_8qc.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,43,17],
+"dc/dc6/server_2miscfunctions_8qc.html#a0c3e39f09e87691055f24898270c60fc":[2,0,6,43,18],
+"dc/dc6/server_2miscfunctions_8qc.html#a0de4787aed1c8c80a23725b4708dfa75":[2,0,6,43,56],
+"dc/dc6/server_2miscfunctions_8qc.html#a11d594b32f31a1c10458b18981d3b612":[2,0,6,43,67]
 };

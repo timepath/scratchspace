@@ -1,15 +1,5 @@
 var NAVTREEINDEX108 =
 {
-"dc/d53/sv__cloaked_8qh_source.html":[2,0,1,9,0,5,3],
-"dc/d54/sv__vampirehook_8qh.html":[2,0,1,9,0,32,3],
-"dc/d54/sv__vampirehook_8qh_source.html":[2,0,1,9,0,32,3],
-"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc.html":[2,0,1,3,0,0,0],
-"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc_source.html":[2,0,1,3,0,0,0],
-"dc/d56/cvarlist_8qc.html":[2,0,5,4,32],
-"dc/d56/cvarlist_8qc.html#a03af6344dc0fada817213f1c27aa4413":[2,0,5,4,32,9],
-"dc/d56/cvarlist_8qc.html#a10ec4a764cb4b6a27f99d3f6bc699c89":[2,0,5,4,32,17],
-"dc/d56/cvarlist_8qc.html#a17e1ef447796f1f8218a82c65c4d1857":[2,0,5,4,32,14],
-"dc/d56/cvarlist_8qc.html#a1887a2da6825992ddb99acd7cbcc0388":[2,0,5,4,32,1],
 "dc/d56/cvarlist_8qc.html#a2dc6da21a409c3894feef366fa460eb2":[2,0,5,4,32,12],
 "dc/d56/cvarlist_8qc.html#a39f82a66971a7a85c801c09ca60e34f0":[2,0,5,4,32,5],
 "dc/d56/cvarlist_8qc.html#a3afb09be4df0236ad8b1247b9db22458":[2,0,5,4,32,0],
@@ -249,5 +239,15 @@ var NAVTREEINDEX108 =
 "dc/d7f/server_2__mod_8inc_source.html":[2,0,6,6],
 "dc/d80/gamemode__domination_8qc.html":[2,0,6,3,0,12],
 "dc/d80/gamemode__domination_8qc.html#a06d43b9aefe82dfa89a891dfe3fc6839":[2,0,6,3,0,12,22],
-"dc/d80/gamemode__domination_8qc.html#a0c12c9bd12a0c235d9f29e136f8dda8a":[2,0,6,3,0,12,34]
+"dc/d80/gamemode__domination_8qc.html#a0c12c9bd12a0c235d9f29e136f8dda8a":[2,0,6,3,0,12,34],
+"dc/d80/gamemode__domination_8qc.html#a0fdb17e4b1e3d53180305c2e6e355276":[2,0,6,3,0,12,4],
+"dc/d80/gamemode__domination_8qc.html#a1097f7b43804df79d1b4620db195940d":[2,0,6,3,0,12,3],
+"dc/d80/gamemode__domination_8qc.html#a1e9501a0e4b602f3c0c553c8ec808601":[2,0,6,3,0,12,32],
+"dc/d80/gamemode__domination_8qc.html#a1f4f2534150a9e448612a2bdf0dc9b23":[2,0,6,3,0,12,12],
+"dc/d80/gamemode__domination_8qc.html#a21ea6c89934ccc9523add31e78c8b6ea":[2,0,6,3,0,12,29],
+"dc/d80/gamemode__domination_8qc.html#a229739fc2c2bdfcf0d5964bd98c83c57":[2,0,6,3,0,12,26],
+"dc/d80/gamemode__domination_8qc.html#a230f4c816ca32cde83181d896a8b09d4":[2,0,6,3,0,12,19],
+"dc/d80/gamemode__domination_8qc.html#a2400bac91401fdb491cb8f1bab215188":[2,0,6,3,0,12,30],
+"dc/d80/gamemode__domination_8qc.html#a297339937e3dc9b75d0517a5dee742c5":[2,0,6,3,0,12,14],
+"dc/d80/gamemode__domination_8qc.html#a2b67f0f55e05c135132ea7db8e350004":[2,0,6,3,0,12,23]
 };

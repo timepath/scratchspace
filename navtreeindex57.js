@@ -1,11 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"d6/db1/draw_8qc.html#aa2262cc2efebbd6abf3141ff86bd6afd":[2,0,5,8,14],
-"d6/db1/draw_8qc.html#aa29fccebf6a85e8456bb1b2f86f9edb7":[2,0,5,8,20],
-"d6/db1/draw_8qc.html#aab8b9ebf8f70fb2aba148b1d1167350a":[2,0,5,8,3],
-"d6/db1/draw_8qc.html#aae12e9efe4b2ff652987ec77bbb1e82e":[2,0,5,8,25],
-"d6/db1/draw_8qc.html#ab748bef7e2060d302493a2522b696fc5":[2,0,5,8,7],
-"d6/db1/draw_8qc.html#ab8f2b0e7558bdad2ae9d4eadbb278257":[2,0,5,8,1],
 "d6/db1/draw_8qc.html#abb689f87717c7ad95d58db46ee9cf9b4":[2,0,5,8,4],
 "d6/db1/draw_8qc.html#acb2e00d277fc5469c4c956caea55115d":[2,0,5,8,21],
 "d6/db1/draw_8qc.html#ad9ed2a82efe01e29eb48ff32dace86db":[2,0,5,8,0],
@@ -64,8 +58,8 @@ var NAVTREEINDEX57 =
 "d6/dc8/secret_8qh_source.html":[2,0,1,13,3,43],
 "d6/dc9/menu_2anim_2__mod_8qh.html":[2,0,5,0,1],
 "d6/dc9/menu_2anim_2__mod_8qh_source.html":[2,0,5,0,1],
-"d6/dcd/turrets_8qh.html":[2,0,1,14,19],
-"d6/dcd/turrets_8qh_source.html":[2,0,1,14,19],
+"d6/dcd/turrets_8qh.html":[2,0,1,14,17],
+"d6/dcd/turrets_8qh_source.html":[2,0,1,14,17],
 "d6/dce/json_8qc.html":[2,0,4,26],
 "d6/dce/json_8qc.html#a05772c43e9ece4b1e1316c86ebfdf500":[2,0,4,26,5],
 "d6/dce/json_8qc.html#a07c92f141f907af1d8178786ebb06aa7":[2,0,4,26,15],
@@ -249,5 +243,11 @@ var NAVTREEINDEX57 =
 "d6/dce/sounds_2all_8inc.html#abeb1a7cc46aa6ed0ec27d328a506d3d1":[2,0,1,12,2,114],
 "d6/dce/sounds_2all_8inc.html#abf086eef8805de462a9500643faa69f8":[2,0,1,12,2,93],
 "d6/dce/sounds_2all_8inc.html#ac1ea0327009a113549085929ed5c65af":[2,0,1,12,2,38],
-"d6/dce/sounds_2all_8inc.html#ac21b7d158881fd67b5d2a98bc69eb2dd":[2,0,1,12,2,30]
+"d6/dce/sounds_2all_8inc.html#ac21b7d158881fd67b5d2a98bc69eb2dd":[2,0,1,12,2,30],
+"d6/dce/sounds_2all_8inc.html#ac245a461b86491dc40d57bccef362aed":[2,0,1,12,2,156],
+"d6/dce/sounds_2all_8inc.html#ac54b66b3e408b72bd8c1b6a6eae3b5db":[2,0,1,12,2,42],
+"d6/dce/sounds_2all_8inc.html#ac8f4ffedf74f5e986ad3219b5a36f2f4":[2,0,1,12,2,17],
+"d6/dce/sounds_2all_8inc.html#acadee43ef204fe193d0cb13efe90714b":[2,0,1,12,2,87],
+"d6/dce/sounds_2all_8inc.html#acc52549c438b8876f973e934708f2593":[2,0,1,12,2,170],
+"d6/dce/sounds_2all_8inc.html#acd4454816686309f808fe4302f32bb8b":[2,0,1,12,2,61]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"d3/dd3/sv__invincibleproj_8qc.html":[2,0,1,9,0,12,2],
-"d3/dd3/sv__invincibleproj_8qc.html#a1974f7f8f590fd01485135a1e1e416da":[2,0,1,9,0,12,2,2],
-"d3/dd3/sv__invincibleproj_8qc.html#a2f0532cee43afa8877a18e7a8e5056db":[2,0,1,9,0,12,2,3],
-"d3/dd3/sv__invincibleproj_8qc.html#a4769c50e8dacebc92bdcc08e3d8c7433":[2,0,1,9,0,12,2,1],
 "d3/dd3/sv__invincibleproj_8qc.html#abc4639ef18cd8c52a863f442d15cd398":[2,0,1,9,0,12,2,0],
 "d3/dd3/sv__invincibleproj_8qc_source.html":[2,0,1,9,0,12,2],
 "d3/dd4/dialog__multiplayer__media__screenshot_8qh.html":[2,0,5,4,109],
@@ -207,8 +203,8 @@ var NAVTREEINDEX31 =
 "d3/deb/dialog__multiplayer__media_8qh.html":[2,0,5,4,99],
 "d3/deb/dialog__multiplayer__media_8qh.html#a048e9d55578bbd55fa3acb96f76ad670":[2,0,5,4,99,1],
 "d3/deb/dialog__multiplayer__media_8qh_source.html":[2,0,5,4,99],
-"d3/def/sv__turrets_8qc.html":[2,0,1,14,13],
-"d3/def/sv__turrets_8qc_source.html":[2,0,1,14,13],
+"d3/def/sv__turrets_8qc.html":[2,0,1,14,11],
+"d3/def/sv__turrets_8qc_source.html":[2,0,1,14,11],
 "d3/df2/classDualPlasmaTurret.html":[1,0,29],
 "d3/df2/classDualPlasmaTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,29,6],
 "d3/df2/classDualPlasmaTurret.html#a3144102787442a58055180121b5e9536":[1,0,29,13],
@@ -249,5 +245,9 @@ var NAVTREEINDEX31 =
 "d3/df2/sv__cmd_8qc.html#a4a08ea7c3717ece79a946aa4b15e5039":[2,0,6,1,14,44],
 "d3/df2/sv__cmd_8qc.html#a4de27b89578957b4828cc0d73be85c4f":[2,0,6,1,14,32],
 "d3/df2/sv__cmd_8qc.html#a4e1b7405a9990aa2c9d17475906e6ec6":[2,0,6,1,14,4],
-"d3/df2/sv__cmd_8qc.html#a4fc2ffed3b9bb4afe8d62c385b4407d9":[2,0,6,1,14,2]
+"d3/df2/sv__cmd_8qc.html#a4fc2ffed3b9bb4afe8d62c385b4407d9":[2,0,6,1,14,2],
+"d3/df2/sv__cmd_8qc.html#a51325a4fe71378c58c0db69412942152":[2,0,6,1,14,0],
+"d3/df2/sv__cmd_8qc.html#a53264788ea69deca9531d76139e51751":[2,0,6,1,14,64],
+"d3/df2/sv__cmd_8qc.html#a5e3082357cac2361155d16ee49c91224":[2,0,6,1,14,38],
+"d3/df2/sv__cmd_8qc.html#a69ce89299f404a790d80ba01b58751ec":[2,0,6,1,14,55]
 };

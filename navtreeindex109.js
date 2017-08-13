@@ -1,15 +1,5 @@
 var NAVTREEINDEX109 =
 {
-"dc/d80/gamemode__domination_8qc.html#a0fdb17e4b1e3d53180305c2e6e355276":[2,0,6,3,0,12,4],
-"dc/d80/gamemode__domination_8qc.html#a1097f7b43804df79d1b4620db195940d":[2,0,6,3,0,12,3],
-"dc/d80/gamemode__domination_8qc.html#a1e9501a0e4b602f3c0c553c8ec808601":[2,0,6,3,0,12,32],
-"dc/d80/gamemode__domination_8qc.html#a1f4f2534150a9e448612a2bdf0dc9b23":[2,0,6,3,0,12,12],
-"dc/d80/gamemode__domination_8qc.html#a21ea6c89934ccc9523add31e78c8b6ea":[2,0,6,3,0,12,29],
-"dc/d80/gamemode__domination_8qc.html#a229739fc2c2bdfcf0d5964bd98c83c57":[2,0,6,3,0,12,26],
-"dc/d80/gamemode__domination_8qc.html#a230f4c816ca32cde83181d896a8b09d4":[2,0,6,3,0,12,19],
-"dc/d80/gamemode__domination_8qc.html#a2400bac91401fdb491cb8f1bab215188":[2,0,6,3,0,12,30],
-"dc/d80/gamemode__domination_8qc.html#a297339937e3dc9b75d0517a5dee742c5":[2,0,6,3,0,12,14],
-"dc/d80/gamemode__domination_8qc.html#a2b67f0f55e05c135132ea7db8e350004":[2,0,6,3,0,12,23],
 "dc/d80/gamemode__domination_8qc.html#a319ca48c095aab836be8a86e44f9353a":[2,0,6,3,0,12,31],
 "dc/d80/gamemode__domination_8qc.html#a34aa4d09cecb85b43c0b02c2354bf412":[2,0,6,3,0,12,17],
 "dc/d80/gamemode__domination_8qc.html#a420cfd858fb699d5d4906821588ef7ef":[2,0,6,3,0,12,9],
@@ -249,5 +239,15 @@ var NAVTREEINDEX109 =
 "dc/d9c/infomessages_8qh.html":[2,0,0,1,0,13],
 "dc/d9c/infomessages_8qh_source.html":[2,0,0,1,0,13],
 "dc/d9d/inventory_8qh.html":[2,0,1,5,5],
-"dc/d9d/inventory_8qh.html#a519cda702e16726377d16a417239adb9":[2,0,1,5,5,1]
+"dc/d9d/inventory_8qh.html#a519cda702e16726377d16a417239adb9":[2,0,1,5,5,1],
+"dc/d9d/inventory_8qh.html#a64247a1cab15bcca142d91356c9b5a6f":[2,0,1,5,5,5],
+"dc/d9d/inventory_8qh.html#a6cbc7eee7f07178ed928e8a0e372d653":[2,0,1,5,5,4],
+"dc/d9d/inventory_8qh.html#a8a2622451e2981957c9e86fd0eb08476":[2,0,1,5,5,3],
+"dc/d9d/inventory_8qh.html#ac29a75872c1cffa1f6b6ed4238df2e6b":[2,0,1,5,5,2],
+"dc/d9d/inventory_8qh_source.html":[2,0,1,5,5],
+"dc/da0/classXonoticMapInfoDialog.html":[1,0,204],
+"dc/da0/classXonoticMapInfoDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,204,42],
+"dc/da0/classXonoticMapInfoDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,204,21],
+"dc/da0/classXonoticMapInfoDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,204,51],
+"dc/da0/classXonoticMapInfoDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,204,3]
 };

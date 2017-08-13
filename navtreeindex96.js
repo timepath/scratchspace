@@ -1,13 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"db/d29/classXonoticRegisteredSettingsList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,222,80],
-"db/d29/classXonoticRegisteredSettingsList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,222,63],
-"db/d29/classXonoticRegisteredSettingsList.html#a565f8d33b46815606f1860162d71339a":[1,0,222,27],
-"db/d29/classXonoticRegisteredSettingsList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,222,12],
-"db/d29/classXonoticRegisteredSettingsList.html#a5ba34a106025be4faae9dff6ae9e763d":[1,0,222,74],
-"db/d29/classXonoticRegisteredSettingsList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,222,22],
-"db/d29/classXonoticRegisteredSettingsList.html#a613fdac3e896f97462f5f85acbaae0d5":[1,0,222,20],
-"db/d29/classXonoticRegisteredSettingsList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,222,33],
 "db/d29/classXonoticRegisteredSettingsList.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,222,13],
 "db/d29/classXonoticRegisteredSettingsList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,222,56],
 "db/d29/classXonoticRegisteredSettingsList.html#a711c93d30da081956701927ec6089fe1":[1,0,222,62],
@@ -74,8 +66,8 @@ var NAVTREEINDEX96 =
 "db/d2a/client_2hud_2panel_2ammo_8qh_source.html":[2,0,0,1,0,3],
 "db/d2b/sv__spawn__near__teammate_8qh.html":[2,0,1,9,0,28,3],
 "db/d2b/sv__spawn__near__teammate_8qh_source.html":[2,0,1,9,0,28,3],
-"db/d2f/common_2turrets_2__mod_8qh.html":[2,0,1,14,4],
-"db/d2f/common_2turrets_2__mod_8qh_source.html":[2,0,1,14,4],
+"db/d2f/common_2turrets_2__mod_8qh.html":[2,0,1,14,2],
+"db/d2f/common_2turrets_2__mod_8qh_source.html":[2,0,1,14,2],
 "db/d2f/playlist_8qh.html":[2,0,5,4,191],
 "db/d2f/playlist_8qh.html#a1dbedfd230e5c37f9b67aa6903f2180b":[2,0,5,4,191,8],
 "db/d2f/playlist_8qh.html#a331bef2777893f465cb8785b3c1bc904":[2,0,5,4,191,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX96 =
 "db/d38/classXonoticSliderCheckBox.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,240,17],
 "db/d38/classXonoticSliderCheckBox.html#a7396c9714e1f6431d26fa4ac2826b6d6":[1,0,240,53],
 "db/d38/classXonoticSliderCheckBox.html#a7806f5f95dccfaf7edc4e643e1e99e66":[1,0,240,56],
-"db/d38/classXonoticSliderCheckBox.html#a7b13cdc101cd55528465440586a004f6":[1,0,240,60]
+"db/d38/classXonoticSliderCheckBox.html#a7b13cdc101cd55528465440586a004f6":[1,0,240,60],
+"db/d38/classXonoticSliderCheckBox.html#a7ba277f3c886c7d391915d273fede63c":[1,0,240,66],
+"db/d38/classXonoticSliderCheckBox.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,240,21],
+"db/d38/classXonoticSliderCheckBox.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,240,73],
+"db/d38/classXonoticSliderCheckBox.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,240,0],
+"db/d38/classXonoticSliderCheckBox.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,240,74],
+"db/d38/classXonoticSliderCheckBox.html#a81a03ceb20a9faa331f2ec28658e5b93":[1,0,240,57],
+"db/d38/classXonoticSliderCheckBox.html#a886e4df91aff3f4b1bda33666f8174d6":[1,0,240,82],
+"db/d38/classXonoticSliderCheckBox.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,240,72]
 };

@@ -553,7 +553,6 @@ var searchData=
   ['dump',['dump',['../de/d95/classEffectInfo.html#a37d2c021ca1abd3145fbd147505e92fe',1,'EffectInfo']]],
   ['dump_5fitems',['Dump_Items',['../d3/d1f/items_2all_8qc.html#a45f263cb1b6c252258e90c0374fb06bd',1,'Dump_Items():&#160;all.qc'],['../d0/d7e/items_2all_8qh.html#a45f263cb1b6c252258e90c0374fb06bd',1,'Dump_Items():&#160;all.qc']]],
   ['dump_5fnotifications',['Dump_Notifications',['../d8/d79/notifications_2all_8qc.html#ae93ed72c8bc25a3db70a3dce5a8070d9',1,'Dump_Notifications(int fh, bool alsoprint):&#160;all.qc'],['../dc/d8f/notifications_2all_8qh.html#ae93ed72c8bc25a3db70a3dce5a8070d9',1,'Dump_Notifications(int fh, bool alsoprint):&#160;all.qc']]],
-  ['dump_5fturret_5fsettings',['Dump_Turret_Settings',['../de/d4a/turrets_2config_8qc.html#a686bcea74a2d69e1ca5ee58acd7158a9',1,'config.qc']]],
   ['dump_5fweapon_5fsettings',['Dump_Weapon_Settings',['../d6/d1c/weapons_2config_8qc.html#a77363565e51ceb80f230ad7020747f23',1,'config.qc']]],
   ['dumpnode',['dumpnode',['../df/d4c/server_2pathlib_2main_8qc.html#a402be18908ff31765c1ff5ba030db5e9',1,'main.qc']]],
   ['dumpstats',['DumpStats',['../db/dcc/g__world_8qc.html#a1207e599d7420b0af40007a89426efec',1,'DumpStats(float final):&#160;g_world.qc'],['../d7/d97/g__world_8qh.html#a1207e599d7420b0af40007a89426efec',1,'DumpStats(float final):&#160;g_world.qc']]],

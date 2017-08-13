@@ -1,13 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"db/d38/classXonoticSliderCheckBox.html#a7ba277f3c886c7d391915d273fede63c":[1,0,240,66],
-"db/d38/classXonoticSliderCheckBox.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,240,21],
-"db/d38/classXonoticSliderCheckBox.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,240,73],
-"db/d38/classXonoticSliderCheckBox.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,240,0],
-"db/d38/classXonoticSliderCheckBox.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,240,74],
-"db/d38/classXonoticSliderCheckBox.html#a81a03ceb20a9faa331f2ec28658e5b93":[1,0,240,57],
-"db/d38/classXonoticSliderCheckBox.html#a886e4df91aff3f4b1bda33666f8174d6":[1,0,240,82],
-"db/d38/classXonoticSliderCheckBox.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,240,72],
 "db/d38/classXonoticSliderCheckBox.html#a8b3010fc463034904b21d7d6da17a127":[1,0,240,71],
 "db/d38/classXonoticSliderCheckBox.html#a8c568c803f49400fd0165b69f82d4161":[1,0,240,69],
 "db/d38/classXonoticSliderCheckBox.html#a95e3e1c82a75a5ee33b08f1da84c05bd":[1,0,240,45],
@@ -81,8 +73,6 @@ var NAVTREEINDEX97 =
 "db/d3c/classArc.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,3,22],
 "db/d3c/classArc.html#ae0a509098068a29d9ef781b063c35d0e":[1,0,3,25],
 "db/d3c/classArc.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,3,17],
-"db/d3e/turrets_2__all_8qh.html":[2,0,1,14,2],
-"db/d3e/turrets_2__all_8qh_source.html":[2,0,1,14,2],
 "db/d40/common_2mutators_2mutator_2nades_2__mod_8inc.html":[2,0,1,9,0,17,0],
 "db/d40/common_2mutators_2mutator_2nades_2__mod_8inc_source.html":[2,0,1,9,0,17,0],
 "db/d46/dialog__multiplayer__create_8qh.html":[2,0,5,4,89],
@@ -249,5 +239,15 @@ var NAVTREEINDEX97 =
 "db/d59/classXonoticPlayList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,218,17],
 "db/d59/classXonoticPlayList.html#ae4886e927f8025266b488c24f9539c9e":[1,0,218,0],
 "db/d59/classXonoticPlayList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,218,68],
-"db/d59/classXonoticPlayList.html#aec6bb28e73ebc691df5abe2da41182a0":[1,0,218,77]
+"db/d59/classXonoticPlayList.html#aec6bb28e73ebc691df5abe2da41182a0":[1,0,218,77],
+"db/d59/classXonoticPlayList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,218,36],
+"db/d59/classXonoticPlayList.html#aed05f75651928be9263a2073856f33cd":[1,0,218,81],
+"db/d59/classXonoticPlayList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,218,5],
+"db/d59/classXonoticPlayList.html#af5b75330cbf3a362f406641c8a9b2ca0":[1,0,218,35],
+"db/d59/classXonoticPlayList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,218,32],
+"db/d59/classXonoticPlayList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,218,24],
+"db/d59/classXonoticPlayList.html#afa2fda0688ef3dfdc143963a9366a71b":[1,0,218,53],
+"db/d59/classXonoticPlayList.html#afdcf1fb79903f747cda494b27206526b":[1,0,218,2],
+"db/d5a/classXonoticHUDPowerupsDialog.html":[1,0,187],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,187,32]
 };

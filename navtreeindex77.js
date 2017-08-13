@@ -1,11 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"d8/dcc/classKeyHunt.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,61,2],
-"d8/dcc/classKeyHunt.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,61,15],
-"d8/dcc/classKeyHunt.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,61,4],
-"d8/dcc/classKeyHunt.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,61,3],
-"d8/dcc/classKeyHunt.html#abee32c6e7daf733106f0e55ba34cd768":[1,0,61,0],
-"d8/dcc/classKeyHunt.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,61,17],
 "d8/dcc/classKeyHunt.html#ace60cb9be035830b182278fd0130785f":[1,0,61,14],
 "d8/dcc/classKeyHunt.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,61,6],
 "d8/dcc/classKeyHunt.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,61,7],
@@ -16,8 +10,6 @@ var NAVTREEINDEX77 =
 "d8/dcc/colorpicker_8qh.html#a434bb4c59cf46e5a4055073efbbc2c90":[2,0,5,4,21,3],
 "d8/dcc/colorpicker_8qh.html#ad991d24e2da3f4a463e3b4236b8e3b92":[2,0,5,4,21,1],
 "d8/dcc/colorpicker_8qh_source.html":[2,0,5,4,21],
-"d8/dcc/common_2turrets_2__all_8inc.html":[2,0,1,14,1],
-"d8/dcc/common_2turrets_2__all_8inc_source.html":[2,0,1,14,1],
 "d8/dce/sv__generator_8qc.html":[2,0,1,3,0,1,14],
 "d8/dce/sv__generator_8qc.html#a8cc2a1b0e51e60f0e3609fbb9f14303e":[2,0,1,3,0,1,14,0],
 "d8/dce/sv__generator_8qc_source.html":[2,0,1,3,0,1,14],
@@ -249,5 +241,13 @@ var NAVTREEINDEX77 =
 "d8/de2/menudefs_8qc.html#a4ec68a57a7ac06e3f1c2375c45e20b6d":[2,0,2,0,3,3],
 "d8/de2/menudefs_8qc.html#a50806d0ea5db9cc13a7fbf199aea3b0d":[2,0,2,0,3,229],
 "d8/de2/menudefs_8qc.html#a51d138f7004b197f05c336c53d0cf6b2":[2,0,2,0,3,84],
-"d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9":[2,0,2,0,3,71]
+"d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9":[2,0,2,0,3,71],
+"d8/de2/menudefs_8qc.html#a52cb9ee43a3668c53bee4ff715da8260":[2,0,2,0,3,176],
+"d8/de2/menudefs_8qc.html#a53be64c78a00fa9225e80fd761acbeaf":[2,0,2,0,3,61],
+"d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78":[2,0,2,0,3,48],
+"d8/de2/menudefs_8qc.html#a54329982495386f61974e026b9ce1f1b":[2,0,2,0,3,54],
+"d8/de2/menudefs_8qc.html#a54aa414f52db799b3fa129e30f7219db":[2,0,2,0,3,124],
+"d8/de2/menudefs_8qc.html#a5686cb7121a4ac5814eddfb2251b08aa":[2,0,2,0,3,206],
+"d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2":[2,0,2,0,3,42],
+"d8/de2/menudefs_8qc.html#a590cd9d33c3b445d202ffc9787ae767a":[2,0,2,0,3,190]
 };

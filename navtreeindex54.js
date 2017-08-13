@@ -1,9 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"d6/d38/urllib_8qc.html#a544fc8795b3e208634bf28e78d47b94e":[2,0,4,61,13],
-"d6/d38/urllib_8qc.html#a6faa24569c71d55d6e8a7c6ad70b1b65":[2,0,4,61,12],
-"d6/d38/urllib_8qc.html#a78673fcb736c083aa327582fd8548018":[2,0,4,61,22],
-"d6/d38/urllib_8qc.html#a7f0707f07d603d7c069f2fa2d37c31ae":[2,0,4,61,16],
 "d6/d38/urllib_8qc.html#a88b903ef0fce125609759bb52e7f2540":[2,0,4,61,10],
 "d6/d38/urllib_8qc.html#a922f5e8b48f71b6d0ce2d1fc567e43ba":[2,0,4,61,19],
 "d6/d38/urllib_8qc.html#a9df34075b83d6d84f0260fcbbb0d4e23":[2,0,4,61,17],
@@ -144,10 +140,8 @@ var NAVTREEINDEX54 =
 "d6/d5c/dialog__settings__game__weapons_8qh.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,139,1],
 "d6/d5c/dialog__settings__game__weapons_8qh.html#ad61e8983facaede86b25d8e3947f88ee":[2,0,5,4,139,2],
 "d6/d5c/dialog__settings__game__weapons_8qh_source.html":[2,0,5,4,139],
-"d6/d60/common_2turrets_2util_8qh.html":[2,0,1,14,21],
-"d6/d60/common_2turrets_2util_8qh.html#a3a53f70d7f1996e53fa64724d3ebfb7f":[2,0,1,14,21,1],
-"d6/d60/common_2turrets_2util_8qh.html#a7bafc4f3aeba7d35f268f3c63dbe73ae":[2,0,1,14,21,0],
-"d6/d60/common_2turrets_2util_8qh_source.html":[2,0,1,14,21],
+"d6/d60/common_2turrets_2util_8qh.html":[2,0,1,14,19],
+"d6/d60/common_2turrets_2util_8qh_source.html":[2,0,1,14,19],
 "d6/d63/compiler_8qh.html":[2,0,4,13],
 "d6/d63/compiler_8qh.html#a608af1727395e4e27a72df6c6799c215":[2,0,4,13,0],
 "d6/d63/compiler_8qh_source.html":[2,0,4,13],
@@ -249,5 +243,11 @@ var NAVTREEINDEX54 =
 "d6/d74/serverlist_8qc.html":[2,0,5,4,200],
 "d6/d74/serverlist_8qc.html#a0299a902125f81a656db3405d4cfca2d":[2,0,5,4,200,25],
 "d6/d74/serverlist_8qc.html#a043a2e03fb459803be9fc416291ecf26":[2,0,5,4,200,7],
-"d6/d74/serverlist_8qc.html#a08ef82588b9ceab8afb7c3a5ad878fec":[2,0,5,4,200,12]
+"d6/d74/serverlist_8qc.html#a08ef82588b9ceab8afb7c3a5ad878fec":[2,0,5,4,200,12],
+"d6/d74/serverlist_8qc.html#a0d3acf1ab469337eb7fd7bb520e3ace0":[2,0,5,4,200,10],
+"d6/d74/serverlist_8qc.html#a12bfb26ccfcef8ad977818e85cee01d5":[2,0,5,4,200,19],
+"d6/d74/serverlist_8qc.html#a15ded02541ac3c3ed244143f4199adab":[2,0,5,4,200,38],
+"d6/d74/serverlist_8qc.html#a16a54fe3779bc625ce84508d8c575cbc":[2,0,5,4,200,17],
+"d6/d74/serverlist_8qc.html#a1eae804c887ba8242e503dbcf97f4962":[2,0,5,4,200,2],
+"d6/d74/serverlist_8qc.html#a23e51a6850c6a0b940b2c5c12557e66d":[2,0,5,4,200,0]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"d2/dd3/classPortoLaunch.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,98,19],
-"d2/dd3/classPortoLaunch.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,98,18],
 "d2/dd3/classPortoLaunch.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,98,30],
 "d2/dd3/classPortoLaunch.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,98,16],
 "d2/dd3/classPortoLaunch.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,98,20],
@@ -167,10 +165,8 @@ var NAVTREEINDEX21 =
 "d2/de3/getreplies_8qh.html#acd14453c3d874fef97b4619c5987158e":[2,0,6,1,9,3],
 "d2/de3/getreplies_8qh.html#aeefde83866a57747398bd6dc29bb082b":[2,0,6,1,9,10],
 "d2/de3/getreplies_8qh_source.html":[2,0,6,1,9],
-"d2/de5/common_2turrets_2util_8qc.html":[2,0,1,14,20],
-"d2/de5/common_2turrets_2util_8qc.html#a3a53f70d7f1996e53fa64724d3ebfb7f":[2,0,1,14,20,1],
-"d2/de5/common_2turrets_2util_8qc.html#af7002aad344c4fe959217361438e2759":[2,0,1,14,20,0],
-"d2/de5/common_2turrets_2util_8qc_source.html":[2,0,1,14,20],
+"d2/de5/common_2turrets_2util_8qc.html":[2,0,1,14,18],
+"d2/de5/common_2turrets_2util_8qc_source.html":[2,0,1,14,18],
 "d2/de6/dialog__settings__effects_8qc.html":[2,0,5,4,122],
 "d2/de6/dialog__settings__effects_8qc.html#a39478b3b0ca9d36b8c42ef4ec97c1fc6":[2,0,5,4,122,1],
 "d2/de6/dialog__settings__effects_8qc.html#a8486e328fed1e1894ae1d02447c8df27":[2,0,5,4,122,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX21 =
 "d2/dec/classXonoticServerList.html#a764e355b65af202e87289c596432c780":[1,0,234,86],
 "d2/dec/classXonoticServerList.html#a79b8a02dabdc13d7fe43636845925bb2":[1,0,234,67],
 "d2/dec/classXonoticServerList.html#a7af9f9bed728f68ee96312d2c7ebef51":[1,0,234,12],
-"d2/dec/classXonoticServerList.html#a7b13cdc101cd55528465440586a004f6":[1,0,234,83]
+"d2/dec/classXonoticServerList.html#a7b13cdc101cd55528465440586a004f6":[1,0,234,83],
+"d2/dec/classXonoticServerList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,234,103],
+"d2/dec/classXonoticServerList.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,234,114],
+"d2/dec/classXonoticServerList.html#a7d965af8d1e20017d6d579d6ad0b0003":[1,0,234,87],
+"d2/dec/classXonoticServerList.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,234,101]
 };

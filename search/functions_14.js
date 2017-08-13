@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['t_5fconfig_5fqueue_5fcompare',['T_Config_Queue_Compare',['../de/d4a/turrets_2config_8qc.html#a1d1f02d10e59d74c6b74a716871ea545',1,'config.qc']]],
-  ['t_5fconfig_5fqueue_5fswap',['T_Config_Queue_Swap',['../de/d4a/turrets_2config_8qc.html#a4cec7b70063ba5f4b12fa02e610549ba',1,'config.qc']]],
   ['tabbutton_5fclick',['TabButton_Click',['../d9/d19/modalcontroller_8qc.html#a65aa79c5d1f911cb813af4a2c576ce76',1,'TabButton_Click(entity button, entity tab):&#160;modalcontroller.qc'],['../d7/de8/modalcontroller_8qh.html#a65aa79c5d1f911cb813af4a2c576ce76',1,'TabButton_Click(entity button, entity tab):&#160;modalcontroller.qc']]],
   ['tanh',['tanh',['../df/d38/mathlib_8qc.html#a7a49b0663f817840d878063a00344b35',1,'tanh(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a7a49b0663f817840d878063a00344b35',1,'tanh(float e):&#160;mathlib.qc']]],
   ['target_5fassault_5froundend_5freset',['target_assault_roundend_reset',['../d9/d8e/gamemode__assault_8qc.html#aa245e93a6adfcf866dc6302bfcbd45ab',1,'gamemode_assault.qc']]],
@@ -41,7 +39,7 @@ var searchData=
   ['teleport_5ffindtarget',['teleport_findtarget',['../d0/d6b/teleporters_8qc.html#a81fd4ead0a476556c12fb89d6bd9d834',1,'teleport_findtarget(entity this):&#160;teleporters.qc'],['../dd/d2d/teleporters_8qh.html#a81fd4ead0a476556c12fb89d6bd9d834',1,'teleport_findtarget(entity this):&#160;teleporters.qc']]],
   ['teleport_5ftouch',['Teleport_Touch',['../dd/d2d/teleporters_8qh.html#a92ff553068677feebff8a10a9acef5f2',1,'Teleport_Touch(entity this, entity toucher):&#160;teleport.qc'],['../d5/db0/teleport_8qc.html#a92ff553068677feebff8a10a9acef5f2',1,'Teleport_Touch(entity this, entity toucher):&#160;teleport.qc']]],
   ['teleportplayer',['TeleportPlayer',['../d0/d6b/teleporters_8qc.html#ab3fd6d0aedddaa968142b4ea0bb6c041',1,'TeleportPlayer(entity teleporter, entity player, vector to, vector to_angles, vector to_velocity, vector telefragmin, vector telefragmax, float tflags):&#160;teleporters.qc'],['../dd/d2d/teleporters_8qh.html#ab3fd6d0aedddaa968142b4ea0bb6c041',1,'TeleportPlayer(entity teleporter, entity player, vector to, vector to_angles, vector to_velocity, vector telefragmin, vector telefragmax, float tflags):&#160;teleporters.qc']]],
-  ['test',['test',['../d1/d07/framework_8qc.html#a9f554df07273153fcd278b3b77b9f2d5',1,'test():&#160;framework.qc'],['../d6/dce/json_8qc.html#a90a3dd158f872c0c5ebaa20b79b47d53',1,'TEST(json, Parse):&#160;json.qc'],['../dd/dfd/markdown_8qh.html#a009867d3feeddcbdadb413c7fb23bca8',1,'TEST(Markdown, LineWrap):&#160;markdown.qh'],['../df/d58/yenc_8qh.html#ab941e2d29f7b5a29b458738b7493d589',1,'TEST(yEnc, EncodeDecode):&#160;yenc.qh'],['../d8/db3/slider__decibels_8qc.html#a231f02af2977bc665b9ef7cc8d6dcf00',1,'TEST(XonoticDecibelsSlider, SoundTest):&#160;slider_decibels.qc'],['../dd/dde/tests_8qc.html#a01685869b6a0539a644769c801712d79',1,'TEST(Weapons, Hurt):&#160;tests.qc'],['../dd/dde/tests_8qc.html#a5b2bc7608f2d6399131958faf762edd2',1,'TEST(Vehicles, Spawn):&#160;tests.qc']]],
+  ['test',['TEST',['../d6/dce/json_8qc.html#a90a3dd158f872c0c5ebaa20b79b47d53',1,'TEST(json, Parse):&#160;json.qc'],['../dd/dfd/markdown_8qh.html#a009867d3feeddcbdadb413c7fb23bca8',1,'TEST(Markdown, LineWrap):&#160;markdown.qh'],['../df/d58/yenc_8qh.html#ab941e2d29f7b5a29b458738b7493d589',1,'TEST(yEnc, EncodeDecode):&#160;yenc.qh'],['../d8/db3/slider__decibels_8qc.html#a231f02af2977bc665b9ef7cc8d6dcf00',1,'TEST(XonoticDecibelsSlider, SoundTest):&#160;slider_decibels.qc'],['../dd/dde/tests_8qc.html#a01685869b6a0539a644769c801712d79',1,'TEST(Weapons, Hurt):&#160;tests.qc'],['../dd/dde/tests_8qc.html#a5b2bc7608f2d6399131958faf762edd2',1,'TEST(Vehicles, Spawn):&#160;tests.qc'],['../d1/d07/framework_8qc.html#a9f554df07273153fcd278b3b77b9f2d5',1,'test():&#160;framework.qc']]],
   ['test_5frun',['TEST_Run',['../da/dc7/test_8qc.html#a524e5106975e3e3811df0d2f5d16fef8',1,'TEST_Run(string s):&#160;test.qc'],['../d4/d5b/test_8qh.html#a7d2e7facbbd8ef63c9cfd4373ae24493',1,'TEST_Run(string test):&#160;test.qc']]],
   ['test_5frunall_5faccumulated',['TEST_RunAll_accumulated',['../da/dc7/test_8qc.html#a13b0b89cb467cf0d1a2ee9a711ed9eba',1,'test.qc']]],
   ['test_5fweapons_5fhurt',['test_weapons_hurt',['../dd/dde/tests_8qc.html#a9f2901909235b8599dd49d6dab64477e',1,'tests.qc']]],
@@ -122,8 +120,6 @@ var searchData=
   ['ttt_5fvalid_5ftile',['ttt_valid_tile',['../da/d4b/ttt_8qc.html#ac5d6549518553964ff101de6a893488a',1,'ttt.qc']]],
   ['ttt_5fwinning_5fpiece',['ttt_winning_piece',['../da/d4b/ttt_8qc.html#a218a2f2645cc7299b82a6dbc538dbb29',1,'ttt.qc']]],
   ['turret_5fchangeteam',['turret_changeteam',['../dd/d43/cl__turrets_8qc.html#a181aadf6b8196e68aec17f8def47adda',1,'cl_turrets.qc']]],
-  ['turret_5fcheckpoint_5finit',['turret_checkpoint_init',['../df/d18/checkpoint_8qc.html#aa879299cb4ab99983269eec00ffc6927',1,'checkpoint.qc']]],
-  ['turret_5fcheckpoint_5fuse',['turret_checkpoint_use',['../df/d18/checkpoint_8qc.html#a4a455a6158f7e74eb2d4a4e30e831818',1,'checkpoint.qc']]],
   ['turret_5fconstruct',['turret_construct',['../dd/d43/cl__turrets_8qc.html#a8a5aa44dc52f648c1cbbb4bcce5d119a',1,'cl_turrets.qc']]],
   ['turret_5fdie',['turret_die',['../dd/d43/cl__turrets_8qc.html#a3b700ba20a1e659f0f6012249ae62afd',1,'cl_turrets.qc']]],
   ['turret_5fdo_5fupdates',['turret_do_updates',['../df/d28/sv__turrets_8qh.html#aeecd9275b04ef56133834fe9ec106c3d',1,'sv_turrets.qh']]],
@@ -140,8 +136,6 @@ var searchData=
   ['turret_5fremove',['turret_remove',['../dd/d43/cl__turrets_8qc.html#a5d418fca3cce0471a26810a234feae15',1,'cl_turrets.qc']]],
   ['turret_5frespawn',['turret_respawn',['../df/d28/sv__turrets_8qh.html#a1951be77af0884ccb2a5b2d32033cb95',1,'sv_turrets.qh']]],
   ['turret_5fselect_5ftarget',['turret_select_target',['../df/d28/sv__turrets_8qh.html#a4e74c959e7153b607dda80b98f2196fc',1,'sv_turrets.qh']]],
-  ['turret_5ftag_5ffire_5fupdate',['turret_tag_fire_update',['../d2/de5/common_2turrets_2util_8qc.html#a3a53f70d7f1996e53fa64724d3ebfb7f',1,'turret_tag_fire_update(entity this):&#160;util.qc'],['../d6/d60/common_2turrets_2util_8qh.html#a3a53f70d7f1996e53fa64724d3ebfb7f',1,'turret_tag_fire_update(entity this):&#160;util.qc']]],
-  ['turret_5ftargettrigger_5ftouch',['turret_targettrigger_touch',['../d1/dae/targettrigger_8qc.html#a57bf4f9046742463827e6df38ce61e6b',1,'targettrigger.qc']]],
   ['turret_5fvalidate_5ftarget',['turret_validate_target',['../df/d28/sv__turrets_8qh.html#a53b1f94a93f57dc271b0377b8d314b5e',1,'sv_turrets.qh']]],
   ['turrets_5fsetframe',['turrets_setframe',['../df/d28/sv__turrets_8qh.html#aee867619d0b8d86bc0c22a766aee92fd',1,'sv_turrets.qh']]]
 ];
