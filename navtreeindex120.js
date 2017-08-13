@@ -1,8 +1,5 @@
 var NAVTREEINDEX120 =
 {
-"de/d0c/classDamageText.html#a3e55199c8f4104308b210d9da1bb4fe4":[1,0,23,21],
-"de/d0c/classDamageText.html#a40af78a51b4e68605dc9079e5b6c34b9":[1,0,23,18],
-"de/d0c/classDamageText.html#a48cbef0feb76ac585c931dbc47c2dc97":[1,0,23,23],
 "de/d0c/classDamageText.html#a65f22853f37f14deba2d878d3dcacded":[1,0,23,1],
 "de/d0c/classDamageText.html#a6849153fc604a5bced7c74d7a52ccd92":[1,0,23,15],
 "de/d0c/classDamageText.html#a6c1713c1ec4ddf63ec1134423d0a8b99":[1,0,23,12],
@@ -249,5 +246,8 @@ var NAVTREEINDEX120 =
 "de/d40/gamemode__keyhunt_8qc.html#a2d785f20712986ad16b564ca933f19e8":[2,0,6,3,0,20,30],
 "de/d40/gamemode__keyhunt_8qc.html#a30b7c67b8d46ae780725e7bd1236b269":[2,0,6,3,0,20,29],
 "de/d40/gamemode__keyhunt_8qc.html#a3195fb7f198ff78955159887597a2a3b":[2,0,6,3,0,20,22],
-"de/d40/gamemode__keyhunt_8qc.html#a341c7730f7eee35217a73de3368af627":[2,0,6,3,0,20,51]
+"de/d40/gamemode__keyhunt_8qc.html#a341c7730f7eee35217a73de3368af627":[2,0,6,3,0,20,51],
+"de/d40/gamemode__keyhunt_8qc.html#a35f1411f3f4cff4983629a0ca1b3c122":[2,0,6,3,0,20,62],
+"de/d40/gamemode__keyhunt_8qc.html#a36f393191d5f262b0294675f4e78ac69":[2,0,6,3,0,20,89],
+"de/d40/gamemode__keyhunt_8qc.html#a37649830a26962d6bd939ecf9c50c8e2":[2,0,6,3,0,20,25]
 };

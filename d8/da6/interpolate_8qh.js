@@ -15,6 +15,5 @@ var interpolate_8qh =
     [ "IFLAG_V_ANGLE_X", "d8/da6/interpolate_8qh.html#a2853daa5f3757edf33a7f0498ae6c62a", null ],
     [ "IFLAG_VALID", "d8/da6/interpolate_8qh.html#aa05bdfb86df6d00a1349cd5888921fbc", null ],
     [ "IFLAG_VELOCITY", "d8/da6/interpolate_8qh.html#a7c4006704a54ac12614479ae53124f32", null ],
-    [ "iflags", "d8/da6/interpolate_8qh.html#af7b5d3033d38549c00ab5e033e858911", null ],
-    [ "v_angle", "d8/da6/interpolate_8qh.html#a5730a5d99021203efb546d3b48f7b293", null ]
+    [ "iflags", "d8/da6/interpolate_8qh.html#af7b5d3033d38549c00ab5e033e858911", null ]
 ];

@@ -1,6 +1,5 @@
 var NAVTREEINDEX24 =
 {
-"d3/d10/classXonoticCrosshairPicker.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,154,11],
 "d3/d10/classXonoticCrosshairPicker.html#a7d52ecadb5d2057da681ad7586110af2":[1,0,154,2],
 "d3/d10/classXonoticCrosshairPicker.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,154,36],
 "d3/d10/classXonoticCrosshairPicker.html#a7f649af1f46d7b3110a5f546ce6a10a7":[1,0,154,27],
@@ -249,5 +248,6 @@ var NAVTREEINDEX24 =
 "d3/d46/mapinfo_8qc.html":[2,0,1,34],
 "d3/d46/mapinfo_8qc.html#a0b27177a0f6dc1d8a84867b3ad610a82":[2,0,1,34,56],
 "d3/d46/mapinfo_8qc.html#a11cccf2aa8a2cd574781fcd4193fb1d0":[2,0,1,34,13],
-"d3/d46/mapinfo_8qc.html#a17f35585e0c7d03f4e13f4d6ba3b1e42":[2,0,1,34,20]
+"d3/d46/mapinfo_8qc.html#a17f35585e0c7d03f4e13f4d6ba3b1e42":[2,0,1,34,20],
+"d3/d46/mapinfo_8qc.html#a19fa8a681ff6d9d11aed982b211fc26a":[2,0,1,34,35]
 };

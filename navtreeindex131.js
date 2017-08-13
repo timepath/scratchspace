@@ -1,8 +1,5 @@
 var NAVTREEINDEX131 =
 {
-"df/d92/classXonoticWinnerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,254,40],
-"df/d92/classXonoticWinnerDialog.html#a06cd3a718c21d0341739fb48f6496614":[1,0,254,69],
-"df/d92/classXonoticWinnerDialog.html#a06f22f349baac36d094647744aa008ac":[1,0,254,25],
 "df/d92/classXonoticWinnerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,254,3],
 "df/d92/classXonoticWinnerDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,254,83],
 "df/d92/classXonoticWinnerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,254,81],
@@ -199,8 +196,8 @@ var NAVTREEINDEX131 =
 "df/d9b/menu_2xonotic_2util_8qc.html#acec3f9953edac61d0ea8bb0c013539cc":[2,0,5,4,228,67],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad18fa120b3ff7def2f7c47a178855468":[2,0,5,4,228,5],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad1f36d07e4a66476224966394f1e24e5":[2,0,5,4,228,48],
-"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,228,1],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,228,3],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,228,1],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad481dfa3a9518c9669a0fcc1da77758f":[2,0,5,4,228,11],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556":[2,0,5,4,228,7],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad87ced1edd45c581dd684b4054fd8ea5":[2,0,5,4,228,77],
@@ -249,5 +246,8 @@ var NAVTREEINDEX131 =
 "df/da7/generic_8qc.html#a993b35690b6546f96440aef5c506b7ce":[2,0,1,0,3,22],
 "df/da7/generic_8qc.html#aa02eeea036a47e6e5ee6028a05b15427":[2,0,1,0,3,19],
 "df/da7/generic_8qc.html#aa303299748e31b68debfe65e05875439":[2,0,1,0,3,21],
-"df/da7/generic_8qc.html#aaa5a87e5f846abcf10a0addc7b0386be":[2,0,1,0,3,10]
+"df/da7/generic_8qc.html#aaa5a87e5f846abcf10a0addc7b0386be":[2,0,1,0,3,10],
+"df/da7/generic_8qc.html#ad2ffe1c772f6454a87b6536bfdffe768":[2,0,1,0,3,16],
+"df/da7/generic_8qc.html#ae75b6202ac5cb56edbf010d449c5629b":[2,0,1,0,3,11],
+"df/da7/generic_8qc.html#af21b5f0914d24ba07dcd52f606b8518e":[2,0,1,0,3,15]
 };

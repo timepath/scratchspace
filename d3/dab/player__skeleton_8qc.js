@@ -9,6 +9,5 @@ var player__skeleton_8qc =
     [ "BONETYPE_LOWER", "d3/dab/player__skeleton_8qc.html#ae30bcd640df03cd117eb6491db7bf50b", null ],
     [ "BONETYPE_UPPER", "d3/dab/player__skeleton_8qc.html#a7c80ef0cb8dccd72a620b9804160551f", null ],
     [ "MAX_BONES", "d3/dab/player__skeleton_8qc.html#a7510df630df322df48a246e7d6a71826", null ],
-    [ "v_angle", "d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293", null ],
     [ "v_angle_save_x", "d3/dab/player__skeleton_8qc.html#a103f4dc65583cd958fee3006db624b87", null ]
 ];
