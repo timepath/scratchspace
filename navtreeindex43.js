@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"d4/da9/classRaptorBomb.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,106,36],
 "d4/da9/classRaptorBomb.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,106,7],
 "d4/da9/classRaptorBomb.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,106,37],
 "d4/da9/classRaptorBomb.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,106,3],
@@ -133,8 +134,8 @@ var NAVTREEINDEX43 =
 "d4/db8/bigbutton_8qh.html":[2,0,5,4,3],
 "d4/db8/bigbutton_8qh.html#abdf3953c0db4a6184bf90e59974e0f6a":[2,0,5,4,3,1],
 "d4/db8/bigbutton_8qh_source.html":[2,0,5,4,3],
-"d4/dba/lightningarc_8qh.html":[2,0,1,2,0,14],
-"d4/dba/lightningarc_8qh_source.html":[2,0,1,2,0,14],
+"d4/dba/lightningarc_8qh.html":[2,0,1,2,0,11],
+"d4/dba/lightningarc_8qh_source.html":[2,0,1,2,0,11],
 "d4/dba/walljump_8qh.html":[2,0,1,9,0,33,3],
 "d4/dba/walljump_8qh_source.html":[2,0,1,9,0,33,3],
 "d4/dbb/centerprint_8qc.html":[2,0,0,1,0,4],
@@ -209,8 +210,6 @@ var NAVTREEINDEX43 =
 "d4/dd4/physics_2movetypes_2all_8inc.html":[2,0,1,11,0,2],
 "d4/dd4/physics_2movetypes_2all_8inc_source.html":[2,0,1,11,0,2],
 "d4/dd6/minelayer_8qc.html":[2,0,1,16,0,22],
-"d4/dd6/minelayer_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,22,1],
-"d4/dd6/minelayer_8qc.html#a4ea001ea7bc3c5f29f7c98be8b5b2bde":[2,0,1,16,0,22,2],
 "d4/dd6/minelayer_8qc_source.html":[2,0,1,16,0,22],
 "d4/dd7/movetypes_8qh.html":[2,0,1,11,0,6],
 "d4/dd7/movetypes_8qh.html#a08001d7539f498833d366bf73fe26e65":[2,0,1,11,0,6,22],
@@ -249,5 +248,6 @@ var NAVTREEINDEX43 =
 "d4/dd7/movetypes_8qh.html#a963bb51205295edf8b6f4adc0deecff9":[2,0,1,11,0,6,16],
 "d4/dd7/movetypes_8qh.html#a9d8f05707745e18415d786a00cd398e8":[2,0,1,11,0,6,34],
 "d4/dd7/movetypes_8qh.html#a9dc4beb8296f404512228731929339d3":[2,0,1,11,0,6,31],
-"d4/dd7/movetypes_8qh.html#a9eab855e43664a019197c6c63e17698b":[2,0,1,11,0,6,23]
+"d4/dd7/movetypes_8qh.html#a9eab855e43664a019197c6c63e17698b":[2,0,1,11,0,6,23],
+"d4/dd7/movetypes_8qh.html#aa9a451c248f6edd8b206c427c6c9eea5":[2,0,1,11,0,6,19]
 };

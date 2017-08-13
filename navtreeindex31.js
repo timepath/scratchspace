@@ -1,8 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"d3/dd3/sv__invincibleproj_8qc.html#a1974f7f8f590fd01485135a1e1e416da":[2,0,1,9,0,12,2,2],
-"d3/dd3/sv__invincibleproj_8qc.html#a2f0532cee43afa8877a18e7a8e5056db":[2,0,1,9,0,12,2,3],
-"d3/dd3/sv__invincibleproj_8qc.html#a4769c50e8dacebc92bdcc08e3d8c7433":[2,0,1,9,0,12,2,1],
 "d3/dd3/sv__invincibleproj_8qc.html#abc4639ef18cd8c52a863f442d15cd398":[2,0,1,9,0,12,2,0],
 "d3/dd3/sv__invincibleproj_8qc_source.html":[2,0,1,9,0,12,2],
 "d3/dd4/dialog__multiplayer__media__screenshot_8qh.html":[2,0,5,4,109],
@@ -99,6 +96,8 @@ var NAVTREEINDEX31 =
 "d3/dd9/walker__weapon_8qh.html#aba4a1abba8de458250f977065ee98b98":[2,0,1,14,0,45,1],
 "d3/dd9/walker__weapon_8qh_source.html":[2,0,1,14,0,45],
 "d3/ddb/tuba_8qh.html":[2,0,1,16,0,37],
+"d3/ddb/tuba_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,37,1],
+"d3/ddb/tuba_8qh.html#a697b168b83e95ac006be5c58468b0280":[2,0,1,16,0,37,2],
 "d3/ddb/tuba_8qh_source.html":[2,0,1,16,0,37],
 "d3/dde/classLazy.html":[1,0,64],
 "d3/dde/classLazy.html#a0c80fe50cd10607051823c5d1b29074f":[1,0,64,1],
@@ -199,8 +198,8 @@ var NAVTREEINDEX31 =
 "d3/de3/classHellionAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,47,25],
 "d3/de3/classHellionAttack.html#ae62f1cba1ccfea629e7c0869efa8e6bd":[1,0,47,26],
 "d3/de3/classHellionAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,47,17],
-"d3/de9/damageeffects_8qh.html":[2,0,1,2,0,8],
-"d3/de9/damageeffects_8qh_source.html":[2,0,1,2,0,8],
+"d3/de9/damageeffects_8qh.html":[2,0,1,2,0,5],
+"d3/de9/damageeffects_8qh_source.html":[2,0,1,2,0,5],
 "d3/dea/lib_2matrix_2__mod_8qh.html":[2,0,4,1,1],
 "d3/dea/lib_2matrix_2__mod_8qh_source.html":[2,0,4,1,1],
 "d3/deb/dialog__multiplayer__media_8qh.html":[2,0,5,4,99],
@@ -249,5 +248,6 @@ var NAVTREEINDEX31 =
 "d3/df2/sv__cmd_8qc.html#a4de27b89578957b4828cc0d73be85c4f":[2,0,6,1,14,32],
 "d3/df2/sv__cmd_8qc.html#a4e1b7405a9990aa2c9d17475906e6ec6":[2,0,6,1,14,4],
 "d3/df2/sv__cmd_8qc.html#a4fc2ffed3b9bb4afe8d62c385b4407d9":[2,0,6,1,14,2],
-"d3/df2/sv__cmd_8qc.html#a51325a4fe71378c58c0db69412942152":[2,0,6,1,14,0]
+"d3/df2/sv__cmd_8qc.html#a51325a4fe71378c58c0db69412942152":[2,0,6,1,14,0],
+"d3/df2/sv__cmd_8qc.html#a53264788ea69deca9531d76139e51751":[2,0,6,1,14,64]
 };

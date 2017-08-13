@@ -1,5 +1,17 @@
 var NAVTREEINDEX107 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,180,25],
+"dc/d37/classXonoticHUDExitDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,180,89],
+"dc/d37/classXonoticHUDExitDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,180,80],
+"dc/d37/classXonoticHUDExitDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,180,52],
+"dc/d37/classXonoticHUDExitDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,180,45],
+"dc/d37/classXonoticHUDExitDialog.html#a84e73e2057be50a7624ac7b177bbdf5d":[1,0,180,24],
+"dc/d37/classXonoticHUDExitDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,180,67],
+"dc/d37/classXonoticHUDExitDialog.html#a919d2d260993d5519e6e85def646d6ec":[1,0,180,87],
+"dc/d37/classXonoticHUDExitDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,180,73],
+"dc/d37/classXonoticHUDExitDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,180,77],
+"dc/d37/classXonoticHUDExitDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,180,65],
+"dc/d37/classXonoticHUDExitDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,180,20],
 "dc/d37/classXonoticHUDExitDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,180,9],
 "dc/d37/classXonoticHUDExitDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,180,35],
 "dc/d37/classXonoticHUDExitDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,180,36],
@@ -237,17 +249,5 @@ var NAVTREEINDEX107 =
 "dc/d4c/pong_8qh.html":[2,0,1,6,0,10],
 "dc/d4c/pong_8qh_source.html":[2,0,1,6,0,10],
 "dc/d4f/dialog__hudpanel__radar_8qh.html":[2,0,5,4,73],
-"dc/d4f/dialog__hudpanel__radar_8qh_source.html":[2,0,5,4,73],
-"dc/d52/dialog__multiplayer__create__mapinfo_8qh.html":[2,0,5,4,91],
-"dc/d52/dialog__multiplayer__create__mapinfo_8qh_source.html":[2,0,5,4,91],
-"dc/d53/sv__cloaked_8qh.html":[2,0,1,9,0,5,3],
-"dc/d53/sv__cloaked_8qh_source.html":[2,0,1,9,0,5,3],
-"dc/d54/sv__vampirehook_8qh.html":[2,0,1,9,0,32,3],
-"dc/d54/sv__vampirehook_8qh_source.html":[2,0,1,9,0,32,3],
-"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc.html":[2,0,1,3,0,0,0],
-"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc_source.html":[2,0,1,3,0,0,0],
-"dc/d56/cvarlist_8qc.html":[2,0,5,4,32],
-"dc/d56/cvarlist_8qc.html#a03af6344dc0fada817213f1c27aa4413":[2,0,5,4,32,9],
-"dc/d56/cvarlist_8qc.html#a10ec4a764cb4b6a27f99d3f6bc699c89":[2,0,5,4,32,17],
-"dc/d56/cvarlist_8qc.html#a17e1ef447796f1f8218a82c65c4d1857":[2,0,5,4,32,14]
+"dc/d4f/dialog__hudpanel__radar_8qh_source.html":[2,0,5,4,73]
 };

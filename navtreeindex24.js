@@ -1,6 +1,5 @@
 var NAVTREEINDEX24 =
 {
-"d3/d10/classXonoticCrosshairPicker.html#a7b13cdc101cd55528465440586a004f6":[1,0,154,31],
 "d3/d10/classXonoticCrosshairPicker.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,154,11],
 "d3/d10/classXonoticCrosshairPicker.html#a7d52ecadb5d2057da681ad7586110af2":[1,0,154,2],
 "d3/d10/classXonoticCrosshairPicker.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,154,36],
@@ -160,8 +159,6 @@ var NAVTREEINDEX24 =
 "d3/d34/monsters_2all_8qc.html#ac66047740ae2b6d154a084851aa85def":[2,0,1,8,3,0],
 "d3/d34/monsters_2all_8qc_source.html":[2,0,1,8,3],
 "d3/d3d/shockwave_8qc.html":[2,0,1,16,0,32],
-"d3/d3d/shockwave_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,32,1],
-"d3/d3d/shockwave_8qc.html#ae09e2d0740002cb9090be0e7de3954e9":[2,0,1,16,0,32,2],
 "d3/d3d/shockwave_8qc_source.html":[2,0,1,16,0,32],
 "d3/d3e/sv__hook_8qh.html":[2,0,1,9,0,10,3],
 "d3/d3e/sv__hook_8qh_source.html":[2,0,1,9,0,10,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX24 =
 "d3/d45/physics_2movetypes_2follow_8qc.html":[2,0,1,11,0,3],
 "d3/d45/physics_2movetypes_2follow_8qc.html#a205b11844120bb8f225d7479e7e38023":[2,0,1,11,0,3,0],
 "d3/d45/physics_2movetypes_2follow_8qc_source.html":[2,0,1,11,0,3],
-"d3/d46/mapinfo_8qc.html":[2,0,1,34]
+"d3/d46/mapinfo_8qc.html":[2,0,1,34],
+"d3/d46/mapinfo_8qc.html#a0b27177a0f6dc1d8a84867b3ad610a82":[2,0,1,34,56],
+"d3/d46/mapinfo_8qc.html#a11cccf2aa8a2cd574781fcd4193fb1d0":[2,0,1,34,13],
+"d3/d46/mapinfo_8qc.html#a17f35585e0c7d03f4e13f4d6ba3b1e42":[2,0,1,34,20]
 };

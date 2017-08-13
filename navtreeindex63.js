@@ -1,5 +1,14 @@
 var NAVTREEINDEX63 =
 {
+"d7/d50/classXonoticPlayerList.html#acc39a417d17b87d076c2b719407f4f59":[1,0,216,73],
+"d7/d50/classXonoticPlayerList.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,216,17],
+"d7/d50/classXonoticPlayerList.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,216,37],
+"d7/d50/classXonoticPlayerList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,216,42],
+"d7/d50/classXonoticPlayerList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,216,51],
+"d7/d50/classXonoticPlayerList.html#ad837b8706cf7ede26336c11ff615f3d9":[1,0,216,48],
+"d7/d50/classXonoticPlayerList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,216,77],
+"d7/d50/classXonoticPlayerList.html#adbc65a2089ef3278a098c80685b4b8a3":[1,0,216,54],
+"d7/d50/classXonoticPlayerList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,216,33],
 "d7/d50/classXonoticPlayerList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,216,81],
 "d7/d50/classXonoticPlayerList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,216,15],
 "d7/d50/classXonoticPlayerList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,216,63],
@@ -240,14 +249,5 @@ var NAVTREEINDEX63 =
 "d7/d74/menu_2matrix_8qc_source.html":[2,0,5,13],
 "d7/d75/raptor__weapons_8qh.html":[2,0,1,15,0,13],
 "d7/d75/raptor__weapons_8qh.html#a2a503f53a1045533a997f7551a5486a4":[2,0,1,15,0,13,3],
-"d7/d75/raptor__weapons_8qh.html#a68a5a1ce4acd3cc0b8861b22be01041d":[2,0,1,15,0,13,4],
-"d7/d75/raptor__weapons_8qh.html#aa9b5ef54832469bc07b2d2a899798d8a":[2,0,1,15,0,13,5],
-"d7/d75/raptor__weapons_8qh_source.html":[2,0,1,15,0,13],
-"d7/d76/dialog__settings__game__model_8qh.html":[2,0,5,4,135],
-"d7/d76/dialog__settings__game__model_8qh.html#a1298b6f9b4a3f8596c92a41e8c4141b0":[2,0,5,4,135,2],
-"d7/d76/dialog__settings__game__model_8qh.html#ae3352ff05cd68a276d35c458baa79048":[2,0,5,4,135,1],
-"d7/d76/dialog__settings__game__model_8qh_source.html":[2,0,5,4,135],
-"d7/d79/laser_8qc.html":[2,0,1,13,1,8],
-"d7/d79/laser_8qc_source.html":[2,0,1,13,1,8],
-"d7/d7b/turrets_2turret_2machinegun_8qc.html":[2,0,1,14,0,20]
+"d7/d75/raptor__weapons_8qh.html#a68a5a1ce4acd3cc0b8861b22be01041d":[2,0,1,15,0,13,4]
 };

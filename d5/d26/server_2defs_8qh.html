@@ -1105,7 +1105,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        complain = 0;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">// ignore hook button when using other offhand equipment</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span> (this.offhand != <a class="code" href="../../d8/de7/hook_8qc.html#a26c1ac788f42d8ea1729fee825f749fd">OFFHAND_HOOK</a>)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span> (this.offhand != <a class="code" href="../../d5/dc4/hook_8qh.html#a26c1ac788f42d8ea1729fee825f749fd">OFFHAND_HOOK</a>)</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">if</span> (wpn == WEP_HOOK &amp;&amp; !((this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9">weapons</a> | weaponsInMap) &amp; <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#af64f4486ae6141a10160958a5e9a70b4">WepSet_FromWeapon</a>(wpn)))</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        complain = 0;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
@@ -1192,7 +1192,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="classWeapon_html_aaab6e67f316eebe5b5836499c84988cf"><div class="ttname"><a href="../../dc/de5/classWeapon.html#aaab6e67f316eebe5b5836499c84988cf">Weapon::spawnflags</a></div><div class="ttdeci">int spawnflags</div><div class="ttdoc">M: flags : WEPSPAWNFLAG_... </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00067">weapon.qh:67</a></div></div>
 <div class="ttc" id="common_2items_2item_8qh_html_a986394a32b6f3c39af3455f7962fab9b"><div class="ttname"><a href="../../d7/d7c/common_2items_2item_8qh.html#a986394a32b6f3c39af3455f7962fab9b">IT_UNLIMITED_WEAPON_AMMO</a></div><div class="ttdeci">const int IT_UNLIMITED_WEAPON_AMMO</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7c/common_2items_2item_8qh_source.html#l00009">item.qh:9</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a09b90b074ff2e0e4a884221e80215fc6"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a09b90b074ff2e0e4a884221e80215fc6">g_mines</a></div><div class="ttdeci">IntrusiveList g_mines</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00424">defs.qh:424</a></div></div>
-<div class="ttc" id="hook_8qc_html_a26c1ac788f42d8ea1729fee825f749fd"><div class="ttname"><a href="../../d8/de7/hook_8qc.html#a26c1ac788f42d8ea1729fee825f749fd">OFFHAND_HOOK</a></div><div class="ttdeci">OffhandHook OFFHAND_HOOK</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de7/hook_8qc_source.html#l00062">hook.qc:62</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a5108056f1a74eab38bb6852c65ca6ea9"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9">weapons</a></div><div class="ttdeci">#define weapons</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00191">defs.qh:191</a></div></div>
 <div class="ttc" id="classWeapon_html_a07bb940405dd6a1cc59526ddca74c1b7"><div class="ttname"><a href="../../dc/de5/classWeapon.html#a07bb940405dd6a1cc59526ddca74c1b7">Weapon::impulse</a></div><div class="ttdeci">int impulse</div><div class="ttdoc">M: impulse : weapon impulse. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00065">weapon.qh:65</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a7fa1b028c3f2a22fcf9dae6b1b016b17"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a7fa1b028c3f2a22fcf9dae6b1b016b17">autocvar_g_weaponswitch_debug</a></div><div class="ttdeci">bool autocvar_g_weaponswitch_debug</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00534">autocvars.qh:534</a></div></div>
@@ -1207,6 +1206,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_af788daf8a45a659a2215f928b4590158"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#af788daf8a45a659a2215f928b4590158">autocvar_g_showweaponspawns</a></div><div class="ttdeci">int autocvar_g_showweaponspawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00213">autocvars.qh:213</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a4ae54ed78d55acc008e6fcf8c72e779f"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a></div><div class="ttdeci">void sprint(float clientnum, string text,...)</div></div>
+<div class="ttc" id="hook_8qh_html_a26c1ac788f42d8ea1729fee825f749fd"><div class="ttname"><a href="../../d5/dc4/hook_8qh.html#a26c1ac788f42d8ea1729fee825f749fd">OFFHAND_HOOK</a></div><div class="ttdeci">OffhandHook OFFHAND_HOOK</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc4/hook_8qh_source.html#l00062">hook.qh:62</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -6475,7 +6475,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00288">288</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00227">anticheat_fixangle()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00238">anticheat_init()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00063">anticheat_physics()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00194">anticheat_report_to_eventlog()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00204">anticheat_report_to_playerstats()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00801">CSQC_Ent_Update()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00979">Drag_Update()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00359">NET_HANDLE()</a>, and <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00169">StartFrame()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00227">anticheat_fixangle()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00238">anticheat_init()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00063">anticheat_physics()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00194">anticheat_report_to_eventlog()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00204">anticheat_report_to_playerstats()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00803">CSQC_Ent_Update()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00979">Drag_Update()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00359">NET_HANDLE()</a>, and <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00169">StartFrame()</a>.</p>
 
 </div>
 </div>
@@ -7141,7 +7141,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/d26/server_2defs_8qh.html">defs.qh</a></li>
-    <li class="footer">Generated on Sun Aug 13 2017 09:59:42 for Xonotic by
+    <li class="footer">Generated on Sun Aug 13 2017 10:33:09 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

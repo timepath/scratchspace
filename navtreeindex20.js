@@ -1,8 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"d2/db4/string_8qh.html#aade02ec3f325a442f2e2dd1c083de12f":[2,0,4,56,19],
-"d2/db4/string_8qh.html#ab38904ebe2d7ba412716db9fb92dc3cb":[2,0,4,56,22],
-"d2/db4/string_8qh.html#ab3e0957f7f441bf477eb9e5c9d9a17f1":[2,0,4,56,33],
 "d2/db4/string_8qh.html#ab3eb2270af4613832a52d512e62e4f40":[2,0,4,56,14],
 "d2/db4/string_8qh.html#ab4a763bbfa941f4b63cf5b5fd018345c":[2,0,4,56,29],
 "d2/db4/string_8qh.html#ab9cc51225f98703626978ab0de95744b":[2,0,4,56,0],
@@ -127,6 +124,8 @@ var NAVTREEINDEX20 =
 "d2/dc3/menu_2item_2button_8qc.html#ad7dc81a3d5526c217fa59ecd05a3609e":[2,0,5,2,4,8],
 "d2/dc3/menu_2item_2button_8qc_source.html":[2,0,5,2,4],
 "d2/dc3/vaporizer_8qh.html":[2,0,1,16,0,39],
+"d2/dc3/vaporizer_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,39,1],
+"d2/dc3/vaporizer_8qh.html#ade59b6be72d74beb2c7a1b563156e396":[2,0,1,16,0,39,2],
 "d2/dc3/vaporizer_8qh_source.html":[2,0,1,16,0,39],
 "d2/dcb/classXonoticPicmipSlider.html":[1,0,215],
 "d2/dcb/classXonoticPicmipSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,215,97],
@@ -249,5 +248,6 @@ var NAVTREEINDEX20 =
 "d2/dce/dialog__hudpanel__powerups_8qc.html":[2,0,5,4,64],
 "d2/dce/dialog__hudpanel__powerups_8qc.html#a2db7b4af42002188cf03660c88108ddf":[2,0,5,4,64,0],
 "d2/dce/dialog__hudpanel__powerups_8qc_source.html":[2,0,5,4,64],
-"d2/dd3/classPortoLaunch.html":[1,0,98]
+"d2/dd3/classPortoLaunch.html":[1,0,98],
+"d2/dd3/classPortoLaunch.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,98,33]
 };

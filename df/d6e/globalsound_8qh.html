@@ -345,6 +345,45 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00246">246</a> of file <a class="el" href="../../d9/d45/globalsound_8qc_source.html">globalsound.qc</a>.</p>
+
+<p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00296">UpdatePlayerSounds()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        {</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(PlayerSounds, <span class="keyword">true</span>, {</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                .string fld = it.m_playersoundfld;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                <span class="keywordflow">if</span> (this.(fld))</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                {</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                    <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(this.(fld));</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                    this.(fld) = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                }</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            });</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        }</div>
+<div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
+<div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_acc226d4ed744cf98c0ee5ff8356757b8_cgraph.svg" width="275" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_acc226d4ed744cf98c0ee5ff8356757b8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a7022de3163c4d07ba4bc0547443ae346"></a>
@@ -360,6 +399,36 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00241">241</a> of file <a class="el" href="../../d9/d45/globalsound_8qc_source.html">globalsound.qc</a>.</p>
+
+<p>References <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00202">_GetPlayerSoundSampleField()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00258">LoadPlayerSounds()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        {</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d9/d45/globalsound_8qc.html#a4d5d1ba467236a8e85f9c9cf18a86852">_GetPlayerSoundSampleField</a>(type, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        }</div>
+<div class="ttc" id="globalsound_8qc_html_a4d5d1ba467236a8e85f9c9cf18a86852"><div class="ttname"><a href="../../d9/d45/globalsound_8qc.html#a4d5d1ba467236a8e85f9c9cf18a86852">_GetPlayerSoundSampleField</a></div><div class="ttdeci">string _GetPlayerSoundSampleField(string type, bool voice)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00202">globalsound.qc:202</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a7022de3163c4d07ba4bc0547443ae346_cgraph.svg" width="624" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a7022de3163c4d07ba4bc0547443ae346_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -377,14 +446,24 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00595">ClientCommand_voice()</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00190">190</a> of file <a class="el" href="../../d9/d45/globalsound_8qc_source.html">globalsound.qc</a>.</p>
 
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, and <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00202">_GetPlayerSoundSampleField()</a>, and <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00595">ClientCommand_voice()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(PlayerSounds, it.m_playersoundstr == type &amp;&amp; it.instanceOfVoiceMessage == <span class="keyword">true</span>, <span class="keywordflow">return</span> it);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    }</div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
+<div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a0f76411e16fb1a91bf97121690907cd7_icgraph.svg" width="344" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a0f76411e16fb1a91bf97121690907cd7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -404,6 +483,36 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00211">211</a> of file <a class="el" href="../../d9/d45/globalsound_8qc_source.html">globalsound.qc</a>.</p>
+
+<p>References <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00202">_GetPlayerSoundSampleField()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00258">LoadPlayerSounds()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d9/d45/globalsound_8qc.html#a4d5d1ba467236a8e85f9c9cf18a86852">_GetPlayerSoundSampleField</a>(type, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    }</div>
+<div class="ttc" id="globalsound_8qc_html_a4d5d1ba467236a8e85f9c9cf18a86852"><div class="ttname"><a href="../../d9/d45/globalsound_8qc.html#a4d5d1ba467236a8e85f9c9cf18a86852">_GetPlayerSoundSampleField</a></div><div class="ttdeci">string _GetPlayerSoundSampleField(string type, bool voice)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00202">globalsound.qc:202</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a6d27dd45d58d423f7c352182ea854ef7_cgraph.svg" width="638" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a6d27dd45d58d423f7c352182ea854ef7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -437,6 +546,77 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00258">258</a> of file <a class="el" href="../../d9/d45/globalsound_8qc_source.html">globalsound.qc</a>.</p>
+
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00101">FILE_READ</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00241">GetPlayerSoundSampleField()</a>, <a class="el" href="../../df/d6e/globalsound_8qh_source.html#l00111">GetPlayerSoundSampleField_notFound</a>, <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00211">GetVoiceMessageSampleField()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00076">LOG_TRACEF</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00064">LOG_WARNF</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, and <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00024">tokenize_console</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00296">UpdatePlayerSounds()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            <span class="keywordtype">int</span> fh = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(f, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a>);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            <span class="keywordflow">if</span> (fh &lt; 0)</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                <span class="keywordflow">if</span> (strict) <a class="code" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a>(<span class="stringliteral">&quot;Player sound file not found: %s&quot;</span>, f);</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            }</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">string</span> s; (s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a>(fh)); )</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            {</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                <span class="keywordtype">int</span> n = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a>(s);</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                <span class="keywordflow">if</span> (n != 3)</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                    <span class="keywordflow">if</span> (n != 0) <a class="code" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a>(<span class="stringliteral">&quot;Invalid sound info line: %s&quot;</span>, s);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                }</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                <span class="keywordtype">string</span> key = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0);</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                var.string field = <a class="code" href="../../d9/d45/globalsound_8qc.html#a7022de3163c4d07ba4bc0547443ae346">GetPlayerSoundSampleField</a>(key);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../df/d6e/globalsound_8qh.html#a1ec2f2eda1ed7f5dca01dafdda4e56f9">GetPlayerSoundSampleField_notFound</a>) field = <a class="code" href="../../d9/d45/globalsound_8qc.html#a6d27dd45d58d423f7c352182ea854ef7">GetVoiceMessageSampleField</a>(key);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../df/d6e/globalsound_8qh.html#a1ec2f2eda1ed7f5dca01dafdda4e56f9">GetPlayerSoundSampleField_notFound</a>)</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a>(<span class="stringliteral">&quot;Invalid sound info field: %s&quot;</span>, key);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                }</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                <span class="keywordtype">string</span> file = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                <span class="keywordtype">string</span> variants = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(2);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                <span class="keywordflow">if</span> (this.(field)) <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(this.(field));</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                this.(field) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(file, <span class="stringliteral">&quot; &quot;</span>, variants));</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            }</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(fh);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        }</div>
+<div class="ttc" id="menudefs_8qc_html_a5231f4ff2813f7de782b67d25a9e4cf9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a></div><div class="ttdeci">float fopen(string filename, float mode)</div></div>
+<div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
+<div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
+<div class="ttc" id="log_8qh_html_a0a03b23b2bda32603235b3849e76e8e9"><div class="ttname"><a href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a></div><div class="ttdeci">#define LOG_WARNF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00064">log.qh:64</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a1a78b46b9db5c0d6fcee5be7697afa09"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a></div><div class="ttdeci">void fclose(float fhandle)</div></div>
+<div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
+<div class="ttc" id="globalsound_8qc_html_a7022de3163c4d07ba4bc0547443ae346"><div class="ttname"><a href="../../d9/d45/globalsound_8qc.html#a7022de3163c4d07ba4bc0547443ae346">GetPlayerSoundSampleField</a></div><div class="ttdeci">string GetPlayerSoundSampleField(string type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00241">globalsound.qc:241</a></div></div>
+<div class="ttc" id="globalsound_8qc_html_a6d27dd45d58d423f7c352182ea854ef7"><div class="ttname"><a href="../../d9/d45/globalsound_8qc.html#a6d27dd45d58d423f7c352182ea854ef7">GetVoiceMessageSampleField</a></div><div class="ttdeci">string GetVoiceMessageSampleField(string type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00211">globalsound.qc:211</a></div></div>
+<div class="ttc" id="globalsound_8qh_html_a1ec2f2eda1ed7f5dca01dafdda4e56f9"><div class="ttname"><a href="../../df/d6e/globalsound_8qh.html#a1ec2f2eda1ed7f5dca01dafdda4e56f9">GetPlayerSoundSampleField_notFound</a></div><div class="ttdeci">bool GetPlayerSoundSampleField_notFound</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d6e/globalsound_8qh_source.html#l00111">globalsound.qh:111</a></div></div>
+<div class="ttc" id="log_8qh_html_a2872337768358857f71a83488272df5b"><div class="ttname"><a href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a></div><div class="ttdeci">#define LOG_TRACEF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00076">log.qh:76</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
+<div class="ttc" id="dpextensions_8qh_html_a43f26093a7cb03b412dedf6c6b36eed8"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a></div><div class="ttdeci">#define tokenize_console</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00024">dpextensions.qh:24</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a0e7ecefd4e3af6c242077b24445e5f78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a></div><div class="ttdeci">string fgets(float fhandle)</div></div>
+<div class="ttc" id="csqc__constants_8qh_html_ac71bfc8a179f9d612bf713943c8cb5e1"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a></div><div class="ttdeci">const int FILE_READ</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00101">csqc_constants.qh:101</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_aa8995e359d6a413aa46221e3bb3e9ba7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_aa8995e359d6a413aa46221e3bb3e9ba7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a8e39938ef99c4d1672b2aa03d96f023f"></a>
@@ -455,19 +635,19 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d6e/globalsound_8qh_source.html#l00101">101</a> of file <a class="el" href="../../df/d6e/globalsound_8qh_source.html">globalsound.qh</a>.</p>
 
-<p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, and <a class="el" href="../../df/d6e/globalsound_8qh.html#a0115b049d32f08dfe7bb44d74939ac58">PrecacheGlobalSound()</a>.</p>
+<p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, and <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00170">PrecacheGlobalSound()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;{</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(GlobalSounds, <span class="keyword">true</span>, <a class="code" href="../../df/d6e/globalsound_8qh.html#a0115b049d32f08dfe7bb44d74939ac58">PrecacheGlobalSound</a>(it.m_globalsoundstr));</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
-<div class="ttc" id="globalsound_8qh_html_a0115b049d32f08dfe7bb44d74939ac58"><div class="ttname"><a href="../../df/d6e/globalsound_8qh.html#a0115b049d32f08dfe7bb44d74939ac58">PrecacheGlobalSound</a></div><div class="ttdeci">void PrecacheGlobalSound(string samplestring)</div></div>
+<div class="ttc" id="globalsound_8qh_html_a0115b049d32f08dfe7bb44d74939ac58"><div class="ttname"><a href="../../df/d6e/globalsound_8qh.html#a0115b049d32f08dfe7bb44d74939ac58">PrecacheGlobalSound</a></div><div class="ttdeci">void PrecacheGlobalSound(string samplestring)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00170">globalsound.qc:170</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a8e39938ef99c4d1672b2aa03d96f023f_cgraph.svg" width="310" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a8e39938ef99c4d1672b2aa03d96f023f_cgraph.svg" width="598" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -488,14 +668,50 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00239">Monster_Sound_Precache()</a>, and <a class="el" href="../../df/d6e/globalsound_8qh_source.html#l00101">PRECACHE()</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00170">170</a> of file <a class="el" href="../../d9/d45/globalsound_8qc_source.html">globalsound.qc</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="../../d2/db4/string_8qh_source.html#l00140">car()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00149">cdr()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00239">Monster_Sound_Precache()</a>, <a class="el" href="../../df/d6e/globalsound_8qh_source.html#l00101">PRECACHE()</a>, and <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00216">PrecachePlayerSounds()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keywordtype">int</span> n;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            <span class="keywordtype">string</span> s = <a class="code" href="../../d2/db4/string_8qh.html#a6a42b8e34a0b2f8c73ed10b4735e41de">cdr</a>(sample);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            <span class="keywordflow">if</span> (s) n = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(s);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            <span class="keywordflow">else</span> n = 0;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        }</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        sample = <a class="code" href="../../d2/db4/string_8qh.html#a2070f8704d8eb36e69d6d129330758cb">car</a>(sample);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">if</span> (n &gt; 0)</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt;= n; ++i)</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a>(sprintf(<span class="stringliteral">&quot;%s%d.wav&quot;</span>, sample, i));</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        }</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a>(sprintf(<span class="stringliteral">&quot;%s.wav&quot;</span>, sample));</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        }</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div>
+<div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
+<div class="ttc" id="string_8qh_html_a6a42b8e34a0b2f8c73ed10b4735e41de"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a6a42b8e34a0b2f8c73ed10b4735e41de">cdr</a></div><div class="ttdeci">ERASEABLE string cdr(string s)</div><div class="ttdoc">returns all but first word </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00149">string.qh:149</a></div></div>
+<div class="ttc" id="string_8qh_html_a2070f8704d8eb36e69d6d129330758cb"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a2070f8704d8eb36e69d6d129330758cb">car</a></div><div class="ttdeci">ERASEABLE string car(string s)</div><div class="ttdoc">returns first word </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00140">string.qh:140</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a9a82a4d363a39e85151eaec7a4f8dae2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a></div><div class="ttdeci">string precache_sound(string sample)</div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a0115b049d32f08dfe7bb44d74939ac58_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a0115b049d32f08dfe7bb44d74939ac58_cgraph.svg" width="451" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a0115b049d32f08dfe7bb44d74939ac58_icgraph.svg" width="100%" height="534"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -516,13 +732,57 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00770">precache()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00723">precache_playermodel()</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00216">216</a> of file <a class="el" href="../../d9/d45/globalsound_8qc_source.html">globalsound.qc</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00101">FILE_READ</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00064">LOG_WARNF</a>, <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00170">PrecacheGlobalSound()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00024">tokenize_console</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00770">precache()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00723">precache_playermodel()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="keywordtype">int</span> fh = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(f, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a>);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keywordflow">if</span> (fh &lt; 0)</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a>(<span class="stringliteral">&quot;Player sound file not found: %s&quot;</span>, f);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        }</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">string</span> s; (s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a>(fh)); )</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        {</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="keywordtype">int</span> n = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a>(s);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="keywordflow">if</span> (n != 3)</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                <span class="keywordflow">if</span> (n != 0) <a class="code" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a>(<span class="stringliteral">&quot;Invalid sound info line: %s&quot;</span>, s);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            }</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            <span class="keywordtype">string</span> file = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1);</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="keywordtype">string</span> variants = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(2);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            <a class="code" href="../../d9/d45/globalsound_8qc.html#a15365d2ccf8bbab98e934281f11ed6fc">PrecacheGlobalSound</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(file, <span class="stringliteral">&quot; &quot;</span>, variants));</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        }</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(fh);</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    }</div>
+<div class="ttc" id="menudefs_8qc_html_a5231f4ff2813f7de782b67d25a9e4cf9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a></div><div class="ttdeci">float fopen(string filename, float mode)</div></div>
+<div class="ttc" id="log_8qh_html_a0a03b23b2bda32603235b3849e76e8e9"><div class="ttname"><a href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a></div><div class="ttdeci">#define LOG_WARNF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00064">log.qh:64</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a1a78b46b9db5c0d6fcee5be7697afa09"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a></div><div class="ttdeci">void fclose(float fhandle)</div></div>
+<div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
+<div class="ttc" id="globalsound_8qc_html_a15365d2ccf8bbab98e934281f11ed6fc"><div class="ttname"><a href="../../d9/d45/globalsound_8qc.html#a15365d2ccf8bbab98e934281f11ed6fc">PrecacheGlobalSound</a></div><div class="ttdeci">void PrecacheGlobalSound(string sample)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00170">globalsound.qc:170</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
+<div class="ttc" id="dpextensions_8qh_html_a43f26093a7cb03b412dedf6c6b36eed8"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a></div><div class="ttdeci">#define tokenize_console</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00024">dpextensions.qh:24</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a0e7ecefd4e3af6c242077b24445e5f78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a></div><div class="ttdeci">string fgets(float fhandle)</div></div>
+<div class="ttc" id="csqc__constants_8qh_html_ac71bfc8a179f9d612bf713943c8cb5e1"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a></div><div class="ttdeci">const int FILE_READ</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00101">csqc_constants.qh:101</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_afff52730d3053fc9102cec5246ee16d6_cgraph.svg" width="659" height="316"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_afff52730d3053fc9102cec5246ee16d6_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -605,11 +865,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="globalsound_8qh_html_a872c54b6fa8621ffcf201dfba700196a"><div class="ttname"><a href="../../df/d6e/globalsound_8qh.html#a872c54b6fa8621ffcf201dfba700196a">allvoicesamples</a></div><div class="ttdeci">string allvoicesamples</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d6e/globalsound_8qh_source.html#l00144">globalsound.qh:144</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a5d4c11a42da8820b7e6d6433fbd590e7_cgraph.svg" width="238" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -631,13 +891,53 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00377">FixPlayermodel()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00207">setplayermodel()</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00296">296</a> of file <a class="el" href="../../d9/d45/globalsound_8qc_source.html">globalsound.qc</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00246">ClearPlayerSounds()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l01183">get_model_datafilename()</a>, <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00258">LoadPlayerSounds()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00108">model</a>, <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00291">model_for_playersound</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00072">skin</a>, <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00292">skin_for_playersound</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00377">FixPlayermodel()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00207">setplayermodel()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            <span class="keywordflow">if</span> (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> == this.<a class="code" href="../../d9/d45/globalsound_8qc.html#af5ade693227db52106302b5745813c76">model_for_playersound</a> &amp;&amp; this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a4a71e1a0228e5137bd88f375acd8c15c">skin</a> == this.<a class="code" href="../../d9/d45/globalsound_8qc.html#a63392d4ab2c2d2eed41bab4b430cf06a">skin_for_playersound</a>) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            <span class="keywordflow">if</span> (this.<a class="code" href="../../d9/d45/globalsound_8qc.html#af5ade693227db52106302b5745813c76">model_for_playersound</a>) <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(this.<a class="code" href="../../d9/d45/globalsound_8qc.html#af5ade693227db52106302b5745813c76">model_for_playersound</a>);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            this.<a class="code" href="../../d9/d45/globalsound_8qc.html#af5ade693227db52106302b5745813c76">model_for_playersound</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            this.<a class="code" href="../../d9/d45/globalsound_8qc.html#a63392d4ab2c2d2eed41bab4b430cf06a">skin_for_playersound</a> = this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a4a71e1a0228e5137bd88f375acd8c15c">skin</a>;</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            <a class="code" href="../../d9/d45/globalsound_8qc.html#acc226d4ed744cf98c0ee5ff8356757b8">ClearPlayerSounds</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;            <a class="code" href="../../d9/d45/globalsound_8qc.html#a3e65432ddf30f6729addae6c2bf79de9">LoadPlayerSounds</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;sound/player/default.sounds&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            <span class="keywordflow">if</span> (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> == <span class="stringliteral">&quot;null&quot;</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            #ifdef SVQC</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                &amp;&amp; autocvar_g_debug_globalsounds</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            #endif</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;             ) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d9/d45/globalsound_8qc.html#aa3e301b3f194eb417622653ae6f0669d">autocvar_g_debug_defaultsounds</a>) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d9/d45/globalsound_8qc.html#a3e65432ddf30f6729addae6c2bf79de9">LoadPlayerSounds</a>(<span class="keyword">this</span>, <a class="code" href="../../da/d44/common_2util_8qc.html#aa2768b93f157e5fec4abc65b6a5d8622">get_model_datafilename</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a4a71e1a0228e5137bd88f375acd8c15c">skin</a>, <span class="stringliteral">&quot;sounds&quot;</span>), <span class="keyword">false</span>)) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            <a class="code" href="../../d9/d45/globalsound_8qc.html#a3e65432ddf30f6729addae6c2bf79de9">LoadPlayerSounds</a>(<span class="keyword">this</span>, <a class="code" href="../../da/d44/common_2util_8qc.html#aa2768b93f157e5fec4abc65b6a5d8622">get_model_datafilename</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>, 0, <span class="stringliteral">&quot;sounds&quot;</span>), <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        }</div>
+<div class="ttc" id="common_2util_8qc_html_aa2768b93f157e5fec4abc65b6a5d8622"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#aa2768b93f157e5fec4abc65b6a5d8622">get_model_datafilename</a></div><div class="ttdeci">string get_model_datafilename(string m, float sk, string fil)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01183">util.qc:1183</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_a4a71e1a0228e5137bd88f375acd8c15c"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a4a71e1a0228e5137bd88f375acd8c15c">skin</a></div><div class="ttdeci">skin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00072">ent_cs.qc:72</a></div></div>
+<div class="ttc" id="globalsound_8qc_html_a63392d4ab2c2d2eed41bab4b430cf06a"><div class="ttname"><a href="../../d9/d45/globalsound_8qc.html#a63392d4ab2c2d2eed41bab4b430cf06a">skin_for_playersound</a></div><div class="ttdeci">int skin_for_playersound</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00292">globalsound.qc:292</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
+<div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_ac9ad78cdc39949f5f716a5eda584f5e6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a></div><div class="ttdeci">string model</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00108">csprogsdefs.qc:108</a></div></div>
+<div class="ttc" id="globalsound_8qc_html_a3e65432ddf30f6729addae6c2bf79de9"><div class="ttname"><a href="../../d9/d45/globalsound_8qc.html#a3e65432ddf30f6729addae6c2bf79de9">LoadPlayerSounds</a></div><div class="ttdeci">bool LoadPlayerSounds(entity this, string f, bool strict)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00258">globalsound.qc:258</a></div></div>
+<div class="ttc" id="globalsound_8qc_html_acc226d4ed744cf98c0ee5ff8356757b8"><div class="ttname"><a href="../../d9/d45/globalsound_8qc.html#acc226d4ed744cf98c0ee5ff8356757b8">ClearPlayerSounds</a></div><div class="ttdeci">void ClearPlayerSounds(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00246">globalsound.qc:246</a></div></div>
+<div class="ttc" id="globalsound_8qc_html_aa3e301b3f194eb417622653ae6f0669d"><div class="ttname"><a href="../../d9/d45/globalsound_8qc.html#aa3e301b3f194eb417622653ae6f0669d">autocvar_g_debug_defaultsounds</a></div><div class="ttdeci">bool autocvar_g_debug_defaultsounds</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00294">globalsound.qc:294</a></div></div>
+<div class="ttc" id="globalsound_8qc_html_af5ade693227db52106302b5745813c76"><div class="ttname"><a href="../../d9/d45/globalsound_8qc.html#af5ade693227db52106302b5745813c76">model_for_playersound</a></div><div class="ttdeci">string model_for_playersound</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00291">globalsound.qc:291</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a38180551f3a5aaa493a6e5a181046000_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d6e/globalsound_8qh_a38180551f3a5aaa493a6e5a181046000_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -673,6 +973,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../df/d6e/globalsound_8qh_source.html#l00111">111</a> of file <a class="el" href="../../df/d6e/globalsound_8qh_source.html">globalsound.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00202">_GetPlayerSoundSampleField()</a>, and <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00258">LoadPlayerSounds()</a>.</p>
 
 </div>
 </div>
@@ -838,7 +1140,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_f54d74b0e9ac4c004ab42fc4ec4fcb87.html">effects</a></li><li class="navelem"><a class="el" href="../../dir_1e905c8c0e92136a54b32c53d0aef8dd.html">qc</a></li><li class="navelem"><a class="el" href="../../df/d6e/globalsound_8qh.html">globalsound.qh</a></li>
-    <li class="footer">Generated on Sun Aug 13 2017 09:59:45 for Xonotic by
+    <li class="footer">Generated on Sun Aug 13 2017 10:33:12 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

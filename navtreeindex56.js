@@ -1,5 +1,12 @@
 var NAVTREEINDEX56 =
 {
+"d6/d7d/classEWheel.html#a9cbd0273110d224aa83170c43e29f691":[1,0,34,10],
+"d6/d7d/classEWheel.html#aa0a6bf13ef682493be6bb9f2dc5749b9":[1,0,34,14],
+"d6/d7d/classEWheel.html#ab51103697656de906079b6537d3800bc":[1,0,34,9],
+"d6/d7d/classEWheel.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,34,7],
+"d6/d7d/classEWheel.html#abe1dc58088e449a432c99534fb451cc3":[1,0,34,20],
+"d6/d7d/classEWheel.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,34,11],
+"d6/d7d/classEWheel.html#addc09fdd380e364c86becb7d178b5f50":[1,0,34,12],
 "d6/d7d/classEWheel.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,34,3],
 "d6/d7d/classEWheel.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,34,4],
 "d6/d7d/classEWheel.html#af0d1789cf260770caa9002a133a661d7":[1,0,34,0],
@@ -8,6 +15,8 @@ var NAVTREEINDEX56 =
 "d6/d7d/dialog__multiplayer__create__mutators_8qh.html":[2,0,5,4,93],
 "d6/d7d/dialog__multiplayer__create__mutators_8qh_source.html":[2,0,5,4,93],
 "d6/d80/blaster_8qh.html":[2,0,1,16,0,5],
+"d6/d80/blaster_8qh.html#a29bba7864acdb90532795ebef1f8a1e2":[2,0,1,16,0,5,2],
+"d6/d80/blaster_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,5,1],
 "d6/d80/blaster_8qh_source.html":[2,0,1,16,0,5],
 "d6/d82/dialog__hudpanel__infomessages_8qh.html":[2,0,5,4,55],
 "d6/d82/dialog__hudpanel__infomessages_8qh_source.html":[2,0,5,4,55],
@@ -240,14 +249,5 @@ var NAVTREEINDEX56 =
 "d6/db1/draw_8qc.html#a497c7c7bbffd7a916d2eabc0adbfe4a5":[2,0,5,8,29],
 "d6/db1/draw_8qc.html#a4d617f94ecfa9e65bbeea7afaffc4bdf":[2,0,5,8,22],
 "d6/db1/draw_8qc.html#a5fbe1f25dc4a998ac4e41ba6802253f3":[2,0,5,8,9],
-"d6/db1/draw_8qc.html#a68996b0a53bca8e86eb4b4afbb025eb2":[2,0,5,8,27],
-"d6/db1/draw_8qc.html#a691f7e44410cda1aafcee97868a0d52f":[2,0,5,8,6],
-"d6/db1/draw_8qc.html#a7192b437e0c00020d13cff23a25b55af":[2,0,5,8,28],
-"d6/db1/draw_8qc.html#a7ac520c41682e2cf64d61115522ddaba":[2,0,5,8,23],
-"d6/db1/draw_8qc.html#a9317e58388dd0f4801ecd46178a0f334":[2,0,5,8,17],
-"d6/db1/draw_8qc.html#a9b24797c76296d5321ba125e4ee92f8e":[2,0,5,8,16],
-"d6/db1/draw_8qc.html#a9b98cfffc443113a6eedb91f922160e0":[2,0,5,8,10],
-"d6/db1/draw_8qc.html#aa2262cc2efebbd6abf3141ff86bd6afd":[2,0,5,8,14],
-"d6/db1/draw_8qc.html#aa29fccebf6a85e8456bb1b2f86f9edb7":[2,0,5,8,20],
-"d6/db1/draw_8qc.html#aab8b9ebf8f70fb2aba148b1d1167350a":[2,0,5,8,3]
+"d6/db1/draw_8qc.html#a68996b0a53bca8e86eb4b4afbb025eb2":[2,0,5,8,27]
 };

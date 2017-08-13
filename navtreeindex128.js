@@ -1,5 +1,13 @@
 var NAVTREEINDEX128 =
 {
+"df/d26/classXonoticGameSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,171,59],
+"df/d26/classXonoticGameSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,171,51],
+"df/d26/classXonoticGameSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,171,79],
+"df/d26/classXonoticGameSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,171,72],
+"df/d26/classXonoticGameSettingsTab.html#a8a2a1403c2429a4b93f8e99fdda7cd73":[1,0,171,88],
+"df/d26/classXonoticGameSettingsTab.html#a8b9a5a46bb4c28a44b7090b4a7a7a7b0":[1,0,171,18],
+"df/d26/classXonoticGameSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,171,78],
+"df/d26/classXonoticGameSettingsTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,171,65],
 "df/d26/classXonoticGameSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,171,70],
 "df/d26/classXonoticGameSettingsTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,171,22],
 "df/d26/classXonoticGameSettingsTab.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,171,26],
@@ -241,13 +249,5 @@ var NAVTREEINDEX128 =
 "df/d38/mathlib_8qc.html#a6a8a7c048a7f9a645c6938e21fad4796":[2,0,4,2,8,28],
 "df/d38/mathlib_8qc.html#a6c941103cab43ce14def139f7a6a8efa":[2,0,4,2,8,18],
 "df/d38/mathlib_8qc.html#a7015726879809083a920c0338dedbad9":[2,0,4,2,8,40],
-"df/d38/mathlib_8qc.html#a7370c5a05d949b0842b35dcb96cba00d":[2,0,4,2,8,5],
-"df/d38/mathlib_8qc.html#a78694f207dbd1c20883880487c2db48f":[2,0,4,2,8,32],
-"df/d38/mathlib_8qc.html#a78b2dabdaeeec0788f39bc1ec4af8033":[2,0,4,2,8,4],
-"df/d38/mathlib_8qc.html#a7a49b0663f817840d878063a00344b35":[2,0,4,2,8,48],
-"df/d38/mathlib_8qc.html#a845b14f22d632cb80705366d31ba9fea":[2,0,4,2,8,25],
-"df/d38/mathlib_8qc.html#a8be76afcfbbcde7f6168466db0e03437":[2,0,4,2,8,29],
-"df/d38/mathlib_8qc.html#a8db70f85e32fb5c3201b5b4a84cae5c2":[2,0,4,2,8,36],
-"df/d38/mathlib_8qc.html#a97a198a7b7b819ae7e1c6ed1d6f20899":[2,0,4,2,8,35],
-"df/d38/mathlib_8qc.html#aa6f399de48f2f680abf1eecbb4c03b37":[2,0,4,2,8,2]
+"df/d38/mathlib_8qc.html#a7370c5a05d949b0842b35dcb96cba00d":[2,0,4,2,8,5]
 };

@@ -10,6 +10,7 @@ var searchData=
   ['_5fdumptree_5fclose',['_dumptree_close',['../d7/d47/menu__cmd_8qc.html#a92116f3fa83de58a5c8d2a736b7ed11a',1,'menu_cmd.qc']]],
   ['_5fdumptree_5fopen',['_dumptree_open',['../d7/d47/menu__cmd_8qc.html#ac475b9372dac09416fe834d14d6231c6',1,'menu_cmd.qc']]],
   ['_5fgetcommandkey',['_getcommandkey',['../df/d30/client_2main_8qc.html#a0698c589ddb7333f4485bee9dae8bd16',1,'_getcommandkey(string cmd_name, string command, bool forcename):&#160;main.qc'],['../d0/d2a/client_2main_8qh.html#af30af57d5ec5027ab9eda0adf24fa567',1,'_getcommandkey(string text, string command, bool forcename):&#160;main.qc']]],
+  ['_5fgetplayersoundsamplefield',['_GetPlayerSoundSampleField',['../d9/d45/globalsound_8qc.html#a4d5d1ba467236a8e85f9c9cf18a86852',1,'globalsound.qc']]],
   ['_5fjson_5fparse_5farray',['_json_parse_array',['../d6/dce/json_8qc.html#a39be0737379c77263b5a9bfde329a22c',1,'json.qc']]],
   ['_5fjson_5fparse_5ffalse',['_json_parse_false',['../d6/dce/json_8qc.html#a55316eb0918c7ec05050b177b85b9c41',1,'json.qc']]],
   ['_5fjson_5fparse_5ffloat',['_json_parse_float',['../d6/dce/json_8qc.html#a05772c43e9ece4b1e1316c86ebfdf500',1,'json.qc']]],

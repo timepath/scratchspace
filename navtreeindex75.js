@@ -1,5 +1,9 @@
 var NAVTREEINDEX75 =
 {
+"d8/d93/client_2hud_2panel_2__mod_8inc.html":[2,0,0,1,0,0],
+"d8/d93/client_2hud_2panel_2__mod_8inc_source.html":[2,0,0,1,0,0],
+"d8/d93/powerup_8qc.html":[2,0,1,5,0,12],
+"d8/d93/powerup_8qc_source.html":[2,0,1,5,0,12],
 "d8/d95/classNexposee.html":[1,0,84],
 "d8/d95/classNexposee.html#a003b708edf6352a60e28a77378b7b617":[1,0,84,40],
 "d8/d95/classNexposee.html#a01627abafc724fbbbb330e46f8331911":[1,0,84,25],
@@ -245,9 +249,5 @@ var NAVTREEINDEX75 =
 "d8/db3/slider__decibels_8qc.html":[2,0,5,4,206],
 "d8/db3/slider__decibels_8qc.html#a13f465b048489a8a935abc23b76f43cd":[2,0,5,4,206,9],
 "d8/db3/slider__decibels_8qc.html#a231f02af2977bc665b9ef7cc8d6dcf00":[2,0,5,4,206,3],
-"d8/db3/slider__decibels_8qc.html#a41de33f3e9ba6abe242ca82c83f5f014":[2,0,5,4,206,6],
-"d8/db3/slider__decibels_8qc.html#a8069769b4af3b799387654e5dc25302e":[2,0,5,4,206,0],
-"d8/db3/slider__decibels_8qc.html#ab3d904b0d683f7a811ca372a2bd49f5a":[2,0,5,4,206,2],
-"d8/db3/slider__decibels_8qc.html#abaf4ab8aaf726d4069cb6e2fc485948e":[2,0,5,4,206,7],
-"d8/db3/slider__decibels_8qc.html#ac3c34a16e2bd43ea5ce9778cc0082526":[2,0,5,4,206,1]
+"d8/db3/slider__decibels_8qc.html#a41de33f3e9ba6abe242ca82c83f5f014":[2,0,5,4,206,6]
 };

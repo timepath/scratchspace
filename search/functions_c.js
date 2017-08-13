@@ -62,7 +62,7 @@ var searchData=
   ['loadmapinfo',['loadMapInfo',['../dc/da0/classXonoticMapInfoDialog.html#a1befcad575c9e2426fa1c958d3c4b31c',1,'XonoticMapInfoDialog']]],
   ['loadmenuskinvalues',['LoadMenuSkinValues',['../df/d30/client_2main_8qc.html#a626fa4f891c177f48176172aac58dc39',1,'LoadMenuSkinValues():&#160;main.qc'],['../d0/d2a/client_2main_8qh.html#a626fa4f891c177f48176172aac58dc39',1,'LoadMenuSkinValues():&#160;main.qc']]],
   ['loadmodels',['loadModels',['../da/d6d/classXonoticPlayerModelSelector.html#a69450d9a5feb7ca8c3b235037d27c90e',1,'XonoticPlayerModelSelector']]],
-  ['loadplayersounds',['LoadPlayerSounds',['../df/d6e/globalsound_8qh.html#aa8995e359d6a413aa46221e3bb3e9ba7',1,'globalsound.qh']]],
+  ['loadplayersounds',['LoadPlayerSounds',['../d9/d45/globalsound_8qc.html#a3e65432ddf30f6729addae6c2bf79de9',1,'LoadPlayerSounds(entity this, string f, bool strict):&#160;globalsound.qc'],['../df/d6e/globalsound_8qh.html#aa8995e359d6a413aa46221e3bb3e9ba7',1,'LoadPlayerSounds(entity this, string f, bool strict):&#160;globalsound.qc']]],
   ['loadpreviewscreenshot',['loadPreviewScreenshot',['../d9/d37/classXonoticScreenshotBrowserTab.html#ab3410097f72fc242ab699f5adbf370df',1,'XonoticScreenshotBrowserTab']]],
   ['loadresolutions',['loadResolutions',['../d9/d58/classXonoticResolutionSlider.html#afffeff4df8e2074a17dc285c275222c8',1,'XonoticResolutionSlider']]],
   ['loadscreenshot',['loadScreenshot',['../db/de2/classXonoticScreenshotViewerDialog.html#a74f893912c6d360e0f978930ab36e54b',1,'XonoticScreenshotViewerDialog']]],

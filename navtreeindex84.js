@@ -1,5 +1,13 @@
 var NAVTREEINDEX84 =
 {
+"d9/d67/turret_8qh.html#a512c95889bca056324e21f6222c1d3e1":[2,0,1,14,15,28],
+"d9/d67/turret_8qh.html#a54a8888b13e06d27372b0c69121dff48":[2,0,1,14,15,58],
+"d9/d67/turret_8qh.html#a5540d0024b1e4e93df64b1ee051f487f":[2,0,1,14,15,80],
+"d9/d67/turret_8qh.html#a5bf93da2fdc241a47bccf7727cf8095e":[2,0,1,14,15,66],
+"d9/d67/turret_8qh.html#a5c164b5c20b13874efa7e112e80da97f":[2,0,1,14,15,26],
+"d9/d67/turret_8qh.html#a5c6d094ff56c38ff539675705c08317a":[2,0,1,14,15,42],
+"d9/d67/turret_8qh.html#a5d69d57875d1e8881ed07034c2daeb5f":[2,0,1,14,15,20],
+"d9/d67/turret_8qh.html#a5db4c7546bcddc7b46c04c94d915a8ab":[2,0,1,14,15,14],
 "d9/d67/turret_8qh.html#a5f33d720914f6502aef6dd946e0ef227":[2,0,1,14,15,74],
 "d9/d67/turret_8qh.html#a62f80bc2bbfd5274f2eebe5f873cb1eb":[2,0,1,14,15,32],
 "d9/d67/turret_8qh.html#a649c5558d3543d12cdc22318f25bc8b8":[2,0,1,14,15,63],
@@ -114,8 +122,8 @@ var NAVTREEINDEX84 =
 "d9/d7a/dialog__hudpanel__powerups_8qh_source.html":[2,0,5,4,65],
 "d9/d7e/include_8qh.html":[2,0,1,13,7],
 "d9/d7e/include_8qh_source.html":[2,0,1,13,7],
-"d9/d7f/gibs_8qc.html":[2,0,1,2,0,9],
-"d9/d7f/gibs_8qc_source.html":[2,0,1,2,0,9],
+"d9/d7f/gibs_8qc.html":[2,0,1,2,0,6],
+"d9/d7f/gibs_8qc_source.html":[2,0,1,2,0,6],
 "d9/d85/classXonoticHUDEngineInfoDialog.html":[1,0,179],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,179,32],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,179,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX84 =
 "d9/d8e/gamemode__assault_8qc.html":[2,0,6,3,0,2],
 "d9/d8e/gamemode__assault_8qc.html#a04d93982d839a10d20cb7453aa9050bc":[2,0,6,3,0,2,3],
 "d9/d8e/gamemode__assault_8qc.html#a04e0263ea71bec2bee56db1ef877d059":[2,0,6,3,0,2,28],
-"d9/d8e/gamemode__assault_8qc.html#a0621c1e24e8a979d60d9a7617d84e7e5":[2,0,6,3,0,2,23],
-"d9/d8e/gamemode__assault_8qc.html#a1060e99fa367c1d8b6b530c2648be879":[2,0,6,3,0,2,7],
-"d9/d8e/gamemode__assault_8qc.html#a1359c15ad97598375cefde049a83e6c0":[2,0,6,3,0,2,22],
-"d9/d8e/gamemode__assault_8qc.html#a17058b94f05de0db468dcc36a56ed957":[2,0,6,3,0,2,34],
-"d9/d8e/gamemode__assault_8qc.html#a1b885e73fe6dcbd3d7e840f6c290091f":[2,0,6,3,0,2,1],
-"d9/d8e/gamemode__assault_8qc.html#a22c7bc5c1fd881ab2ae75f2eddf1277e":[2,0,6,3,0,2,8],
-"d9/d8e/gamemode__assault_8qc.html#a25ad4e4ee149ebd7db32e619040c1511":[2,0,6,3,0,2,14],
-"d9/d8e/gamemode__assault_8qc.html#a26a9717015780e7bdfe3993957f7aeea":[2,0,6,3,0,2,6],
-"d9/d8e/gamemode__assault_8qc.html#a3ee50614e3830f95a0b8a9b4b4eaaaa2":[2,0,6,3,0,2,24]
+"d9/d8e/gamemode__assault_8qc.html#a0621c1e24e8a979d60d9a7617d84e7e5":[2,0,6,3,0,2,23]
 };

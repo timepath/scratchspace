@@ -1,6 +1,5 @@
 var weapons_2all_8qc =
 [
-    [ "IMPLEMENTATION", "d0/d2b/weapons_2all_8qc.html#aafd24a334088de3d7fef309914d49101", null ],
     [ "WEAPONS_ALL_C", "d0/d2b/weapons_2all_8qc.html#a5f8f672e8335b2e06ac57a8be36e2b66", null ],
     [ "_WepSet_FromWeapon", "d0/d2b/weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee", null ],
     [ "GetAmmoPicture", "d0/d2b/weapons_2all_8qc.html#a908d57b826ca581e66255d228e1a7666", null ],

@@ -2829,7 +2829,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00770">770</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/df5/sound_8qh_source.html#l00027">ATTEN_NONE</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00287">autocvar_sv_defaultcharacter</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00294">autocvar_sv_defaultplayermodel</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00295">autocvar_sv_defaultplayermodel_blue</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00296">autocvar_sv_defaultplayermodel_pink</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00297">autocvar_sv_defaultplayermodel_red</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00298">autocvar_sv_defaultplayermodel_yellow</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00327">autocvar_sv_precacheplayermodels</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00209">noise</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00752">precache_all_playermodels()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00765">precache_playermodels()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound()</a>, <a class="el" href="../../df/d6e/globalsound_8qh.html#afff52730d3053fc9102cec5246ee16d6">PrecachePlayerSounds()</a>, and <a class="el" href="../../d0/df5/sound_8qh_source.html#l00035">VOL_BASE</a>.</p>
+<p>References <a class="el" href="../../d0/df5/sound_8qh_source.html#l00027">ATTEN_NONE</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00287">autocvar_sv_defaultcharacter</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00294">autocvar_sv_defaultplayermodel</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00295">autocvar_sv_defaultplayermodel_blue</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00296">autocvar_sv_defaultplayermodel_pink</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00297">autocvar_sv_defaultplayermodel_red</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00298">autocvar_sv_defaultplayermodel_yellow</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00327">autocvar_sv_precacheplayermodels</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00209">noise</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00752">precache_all_playermodels()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00765">precache_playermodels()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound()</a>, <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00216">PrecachePlayerSounds()</a>, and <a class="el" href="../../d0/df5/sound_8qh_source.html#l00035">VOL_BASE</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00617">spawnfunc()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;{</div>
@@ -2838,7 +2838,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;    <span class="comment">// Precache all player models if desired</span></div>
 <div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a5c10211fe0abd23e1e51067696817e5d">autocvar_sv_precacheplayermodels</a>)</div>
 <div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;    {</div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;        <a class="code" href="../../df/d6e/globalsound_8qh.html#afff52730d3053fc9102cec5246ee16d6">PrecachePlayerSounds</a>(<span class="stringliteral">&quot;sound/player/default.sounds&quot;</span>);</div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;        <a class="code" href="../../d9/d45/globalsound_8qc.html#afff52730d3053fc9102cec5246ee16d6">PrecachePlayerSounds</a>(<span class="stringliteral">&quot;sound/player/default.sounds&quot;</span>);</div>
 <div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a5ea7bf591f44cf22ed52a48b1aa4f012">precache_all_playermodels</a>(<span class="stringliteral">&quot;models/player/*.zym&quot;</span>);</div>
 <div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a5ea7bf591f44cf22ed52a48b1aa4f012">precache_all_playermodels</a>(<span class="stringliteral">&quot;models/player/*.dpm&quot;</span>);</div>
 <div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a5ea7bf591f44cf22ed52a48b1aa4f012">precache_all_playermodels</a>(<span class="stringliteral">&quot;models/player/*.md3&quot;</span>);</div>
@@ -2870,8 +2870,8 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="ttc" id="server_2autocvars_8qh_html_a5c10211fe0abd23e1e51067696817e5d"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a5c10211fe0abd23e1e51067696817e5d">autocvar_sv_precacheplayermodels</a></div><div class="ttdeci">bool autocvar_sv_precacheplayermodels</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00327">autocvars.qh:327</a></div></div>
+<div class="ttc" id="globalsound_8qc_html_afff52730d3053fc9102cec5246ee16d6"><div class="ttname"><a href="../../d9/d45/globalsound_8qc.html#afff52730d3053fc9102cec5246ee16d6">PrecachePlayerSounds</a></div><div class="ttdeci">void PrecachePlayerSounds(string f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00216">globalsound.qc:216</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a18041cde62044b96045c275f98c7d3a7"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a></div><div class="ttdeci">string noise</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00209">progsdefs.qc:209</a></div></div>
-<div class="ttc" id="globalsound_8qh_html_afff52730d3053fc9102cec5246ee16d6"><div class="ttname"><a href="../../df/d6e/globalsound_8qh.html#afff52730d3053fc9102cec5246ee16d6">PrecachePlayerSounds</a></div><div class="ttdeci">void PrecachePlayerSounds(string f)</div></div>
 <div class="ttc" id="sound_8qh_html_aa00190ab7f73439edff33680b94eaacb"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa00190ab7f73439edff33680b94eaacb">ATTEN_NONE</a></div><div class="ttdeci">const float ATTEN_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00027">sound.qh:27</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a37dded9cd4e38a297d5668338298a9a4"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a37dded9cd4e38a297d5668338298a9a4">autocvar_sv_defaultplayermodel_red</a></div><div class="ttdeci">string autocvar_sv_defaultplayermodel_red</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00297">autocvars.qh:297</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a1570c08ec33ffcded350d9ba1328a94c"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a1570c08ec33ffcded350d9ba1328a94c">autocvar_sv_defaultplayermodel_blue</a></div><div class="ttdeci">string autocvar_sv_defaultplayermodel_blue</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00295">autocvars.qh:295</a></div></div>
@@ -2889,7 +2889,7 @@ Variables</h2></td></tr>
 <div id="dynsection-51-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-51-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/server_2miscfunctions_8qc_a98a446c0272a8ef358d2113f9694a14a_cgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/server_2miscfunctions_8qc_a98a446c0272a8ef358d2113f9694a14a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -2947,7 +2947,7 @@ Variables</h2></td></tr>
 <div id="dynsection-53-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-53-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/server_2miscfunctions_8qc_a5ea7bf591f44cf22ed52a48b1aa4f012_cgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/server_2miscfunctions_8qc_a5ea7bf591f44cf22ed52a48b1aa4f012_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -2980,7 +2980,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00723">723</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
-<p>References <a class="el" href="../../da/d30/file_8qh_source.html#l00004">fexists()</a>, <a class="el" href="../../df/d6e/globalsound_8qh.html#afff52730d3053fc9102cec5246ee16d6">PrecachePlayerSounds()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a89eb4e533f817547b81dd04c7dc602a0">search_begin()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae7c5f4eb7a2bc9e0a4ed85f1d454fa12">search_end()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a54aa414f52db799b3fa129e30f7219db">search_getfilename()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a7063b4b3c8a13f50d7398f55439e8fa9">search_getsize()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
+<p>References <a class="el" href="../../da/d30/file_8qh_source.html#l00004">fexists()</a>, <a class="el" href="../../d9/d45/globalsound_8qc_source.html#l00216">PrecachePlayerSounds()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a89eb4e533f817547b81dd04c7dc602a0">search_begin()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae7c5f4eb7a2bc9e0a4ed85f1d454fa12">search_end()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a54aa414f52db799b3fa129e30f7219db">search_getfilename()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a7063b4b3c8a13f50d7398f55439e8fa9">search_getsize()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00752">precache_all_playermodels()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00765">precache_playermodels()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;{</div>
@@ -3007,12 +3007,12 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;    {</div>
 <div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;        <span class="comment">//print(search_getfilename(globhandle, i), &quot;\n&quot;);</span></div>
 <div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;        f = <a class="code" href="../../d8/de2/menudefs_8qc.html#a54aa414f52db799b3fa129e30f7219db">search_getfilename</a>(globhandle, i);</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;        <a class="code" href="../../df/d6e/globalsound_8qh.html#afff52730d3053fc9102cec5246ee16d6">PrecachePlayerSounds</a>(f);</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;        <a class="code" href="../../d9/d45/globalsound_8qc.html#afff52730d3053fc9102cec5246ee16d6">PrecachePlayerSounds</a>(f);</div>
 <div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;    }</div>
 <div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#ae7c5f4eb7a2bc9e0a4ed85f1d454fa12">search_end</a>(globhandle);</div>
 <div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;}</div>
+<div class="ttc" id="globalsound_8qc_html_afff52730d3053fc9102cec5246ee16d6"><div class="ttname"><a href="../../d9/d45/globalsound_8qc.html#afff52730d3053fc9102cec5246ee16d6">PrecachePlayerSounds</a></div><div class="ttdeci">void PrecachePlayerSounds(string f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d45/globalsound_8qc_source.html#l00216">globalsound.qc:216</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae7c5f4eb7a2bc9e0a4ed85f1d454fa12"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae7c5f4eb7a2bc9e0a4ed85f1d454fa12">search_end</a></div><div class="ttdeci">void search_end(float handle)</div></div>
-<div class="ttc" id="globalsound_8qh_html_afff52730d3053fc9102cec5246ee16d6"><div class="ttname"><a href="../../df/d6e/globalsound_8qh.html#afff52730d3053fc9102cec5246ee16d6">PrecachePlayerSounds</a></div><div class="ttdeci">void PrecachePlayerSounds(string f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a54aa414f52db799b3fa129e30f7219db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a54aa414f52db799b3fa129e30f7219db">search_getfilename</a></div><div class="ttdeci">string search_getfilename(float handle, float num)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a7063b4b3c8a13f50d7398f55439e8fa9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a7063b4b3c8a13f50d7398f55439e8fa9">search_getsize</a></div><div class="ttdeci">float search_getsize(float handle)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a89eb4e533f817547b81dd04c7dc602a0"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a89eb4e533f817547b81dd04c7dc602a0">search_begin</a></div><div class="ttdeci">float search_begin(string pattern, float caseinsensitive, float quiet)</div></div>
@@ -3025,7 +3025,7 @@ Variables</h2></td></tr>
 <div id="dynsection-55-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-55-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/server_2miscfunctions_8qc_aca8c7fffaf94bfb8d4b962bc6b1dd9fe_cgraph.svg" width="478" height="418"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/server_2miscfunctions_8qc_aca8c7fffaf94bfb8d4b962bc6b1dd9fe_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -5124,7 +5124,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/dc6/server_2miscfunctions_8qc.html">miscfunctions.qc</a></li>
-    <li class="footer">Generated on Sun Aug 13 2017 09:59:43 for Xonotic by
+    <li class="footer">Generated on Sun Aug 13 2017 10:33:10 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

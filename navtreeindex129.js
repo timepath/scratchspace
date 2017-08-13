@@ -1,5 +1,13 @@
 var NAVTREEINDEX129 =
 {
+"df/d38/mathlib_8qc.html#a78694f207dbd1c20883880487c2db48f":[2,0,4,2,8,32],
+"df/d38/mathlib_8qc.html#a78b2dabdaeeec0788f39bc1ec4af8033":[2,0,4,2,8,4],
+"df/d38/mathlib_8qc.html#a7a49b0663f817840d878063a00344b35":[2,0,4,2,8,48],
+"df/d38/mathlib_8qc.html#a845b14f22d632cb80705366d31ba9fea":[2,0,4,2,8,25],
+"df/d38/mathlib_8qc.html#a8be76afcfbbcde7f6168466db0e03437":[2,0,4,2,8,29],
+"df/d38/mathlib_8qc.html#a8db70f85e32fb5c3201b5b4a84cae5c2":[2,0,4,2,8,36],
+"df/d38/mathlib_8qc.html#a97a198a7b7b819ae7e1c6ed1d6f20899":[2,0,4,2,8,35],
+"df/d38/mathlib_8qc.html#aa6f399de48f2f680abf1eecbb4c03b37":[2,0,4,2,8,2],
 "df/d38/mathlib_8qc.html#aa7fc3f886d2de787856fda7958809a2e":[2,0,4,2,8,17],
 "df/d38/mathlib_8qc.html#aab50993c512d8ea75053a17e20b58f11":[2,0,4,2,8,49],
 "df/d38/mathlib_8qc.html#ab87e208dbc0e5fa949961edc72c452ab":[2,0,4,2,8,39],
@@ -104,8 +112,6 @@ var NAVTREEINDEX129 =
 "df/d42/quake3_8qc.html#afe93d47c3383f9ef99fb4ceb408b2fbe":[2,0,6,2,8,12],
 "df/d42/quake3_8qc_source.html":[2,0,6,2,8],
 "df/d42/vaporizer_8qc.html":[2,0,1,16,0,38],
-"df/d42/vaporizer_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,38,1],
-"df/d42/vaporizer_8qc.html#ade59b6be72d74beb2c7a1b563156e396":[2,0,1,16,0,38,2],
 "df/d42/vaporizer_8qc_source.html":[2,0,1,16,0,38],
 "df/d44/dialog__settings__video_8qh.html":[2,0,5,4,155],
 "df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,155,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX129 =
 "df/d6e/classXonoticSingleplayerDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,237,23],
 "df/d6e/classXonoticSingleplayerDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,237,14],
 "df/d6e/classXonoticSingleplayerDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,237,62],
-"df/d6e/classXonoticSingleplayerDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,237,31],
-"df/d6e/classXonoticSingleplayerDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,237,7],
-"df/d6e/classXonoticSingleplayerDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,237,47],
-"df/d6e/classXonoticSingleplayerDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,237,57],
-"df/d6e/classXonoticSingleplayerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,237,1],
-"df/d6e/classXonoticSingleplayerDialog.html#a3c3530831d992c56d8cd3c69b4a00575":[1,0,237,60],
-"df/d6e/classXonoticSingleplayerDialog.html#a3d4de5a21e8c26b649c275e35a9dbbe1":[1,0,237,5]
+"df/d6e/classXonoticSingleplayerDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,237,31]
 };

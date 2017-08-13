@@ -773,6 +773,7 @@ var searchData=
   ['autocvar_5fg_5fcts_5ffinish_5fkill_5fdelay',['autocvar_g_cts_finish_kill_delay',['../d5/d69/gamemode__cts_8qc.html#af5dfc6ea461bc4a16a26b29235a3ace8',1,'gamemode_cts.qc']]],
   ['autocvar_5fg_5fcts_5fselfdamage',['autocvar_g_cts_selfdamage',['../d5/d69/gamemode__cts_8qc.html#a1f85b4c7dcb2d882737b98aa7f2c6e24',1,'gamemode_cts.qc']]],
   ['autocvar_5fg_5fdebug_5fbot_5fcommands',['autocvar_g_debug_bot_commands',['../d6/d74/cvars_8qh.html#abd0ccefe8815ccd845617d79b35eadf0',1,'cvars.qh']]],
+  ['autocvar_5fg_5fdebug_5fdefaultsounds',['autocvar_g_debug_defaultsounds',['../d9/d45/globalsound_8qc.html#aa3e301b3f194eb417622653ae6f0669d',1,'globalsound.qc']]],
   ['autocvar_5fg_5fdomination_5fdefault_5fteams',['autocvar_g_domination_default_teams',['../dc/d80/gamemode__domination_8qc.html#a21ea6c89934ccc9523add31e78c8b6ea',1,'gamemode_domination.qc']]],
   ['autocvar_5fg_5fdomination_5fdisable_5ffrags',['autocvar_g_domination_disable_frags',['../dc/d80/gamemode__domination_8qc.html#a2400bac91401fdb491cb8f1bab215188',1,'gamemode_domination.qc']]],
   ['autocvar_5fg_5fdomination_5fpoint_5famt',['autocvar_g_domination_point_amt',['../dc/d80/gamemode__domination_8qc.html#a319ca48c095aab836be8a86e44f9353a',1,'gamemode_domination.qc']]],

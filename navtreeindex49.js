@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"d5/d95/classXonoticDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,164,55],
 "d5/d95/classXonoticDialog.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,164,86],
 "d5/d95/classXonoticDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,164,90],
 "d5/d95/classXonoticDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,164,8],
@@ -152,6 +153,8 @@ var NAVTREEINDEX49 =
 "d5/da7/dialog__hudpanel__chat_8qc.html#a97bba5cf1e62015d82292c0d6efccf42":[2,0,5,4,48,0],
 "d5/da7/dialog__hudpanel__chat_8qc_source.html":[2,0,5,4,48],
 "d5/daa/vortex_8qh.html":[2,0,1,16,0,41],
+"d5/daa/vortex_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,41,1],
+"d5/daa/vortex_8qh.html#ad9ec0d37a2dafc0ca6030e77ef81f3c4":[2,0,1,16,0,41,2],
 "d5/daa/vortex_8qh_source.html":[2,0,1,16,0,41],
 "d5/dab/dialog__settings__game_8qh.html":[2,0,5,4,125],
 "d5/dab/dialog__settings__game_8qh_source.html":[2,0,5,4,125],
@@ -230,6 +233,10 @@ var NAVTREEINDEX49 =
 "d5/dc1/sv__touchexplode_8qh.html":[2,0,1,9,0,30,3],
 "d5/dc1/sv__touchexplode_8qh_source.html":[2,0,1,9,0,30,3],
 "d5/dc4/hook_8qh.html":[2,0,1,16,0,19],
+"d5/dc4/hook_8qh.html#a26c1ac788f42d8ea1729fee825f749fd":[2,0,1,16,0,19,5],
+"d5/dc4/hook_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,19,2],
+"d5/dc4/hook_8qh.html#a76ad2e9ba660dce2d6aacd6c16fc7a88":[2,0,1,16,0,19,4],
+"d5/dc4/hook_8qh.html#ac05f10fa7d1e0b2393626a01b06c1954":[2,0,1,16,0,19,3],
 "d5/dc4/hook_8qh_source.html":[2,0,1,16,0,19],
 "d5/dc5/sv__cloaked_8qc.html":[2,0,1,9,0,5,2],
 "d5/dc5/sv__cloaked_8qc.html#a36b438ea8fc2069f3a3827446713175a":[2,0,1,9,0,5,2,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX49 =
 "d5/dc5/weaponslist_8qh.html#a4ad7d5c282f5eae388b914542b58aff9":[2,0,5,4,233,2],
 "d5/dc5/weaponslist_8qh.html#aa2a7ad83e8fa9383330ed1addb5cd041":[2,0,5,4,233,3],
 "d5/dc5/weaponslist_8qh_source.html":[2,0,5,4,233],
-"d5/dc9/cl__model_8qc.html":[2,0,4,0,2],
-"d5/dc9/cl__model_8qc.html#a04d5a61cb351d178246354dc07302c53":[2,0,4,0,2,18],
-"d5/dc9/cl__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,2,3],
-"d5/dc9/cl__model_8qc.html#a124add9ea4ca8fc067c10ef6ab9e06e5":[2,0,4,0,2,5],
-"d5/dc9/cl__model_8qc.html#a26e61ab9cc5ce7c7cb105124b1c53337":[2,0,4,0,2,16],
-"d5/dc9/cl__model_8qc.html#a28ff1bc9cf025068d63906b40d1cd5a3":[2,0,4,0,2,10],
-"d5/dc9/cl__model_8qc.html#a3ebe2b43846c24a720b8784f50af5a20":[2,0,4,0,2,6],
-"d5/dc9/cl__model_8qc.html#a40a0ececda7b968acfc7c914d6d16261":[2,0,4,0,2,7]
+"d5/dc9/cl__model_8qc.html":[2,0,4,0,2]
 };

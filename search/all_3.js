@@ -328,7 +328,7 @@ var searchData=
   ['classname',['classname',['../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec',1,'classname():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec',1,'classname():&#160;progsdefs.qc'],['../db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec',1,'classname():&#160;oo.qh']]],
   ['cleanname',['cleanname',['../db/d15/api_8qh.html#ad3f7bd315ecf5bb0f4037153d6b46441',1,'cleanname():&#160;api.qh'],['../d1/da9/bot_8qh.html#ad3f7bd315ecf5bb0f4037153d6b46441',1,'cleanname():&#160;bot.qh']]],
   ['clearentity',['clearentity',['../db/d0a/oo_8qh.html#a4d8e141e1e8e506c1776f2082858e1c5',1,'oo.qh']]],
-  ['clearplayersounds',['ClearPlayerSounds',['../df/d6e/globalsound_8qh.html#acc226d4ed744cf98c0ee5ff8356757b8',1,'globalsound.qh']]],
+  ['clearplayersounds',['ClearPlayerSounds',['../d9/d45/globalsound_8qc.html#acc226d4ed744cf98c0ee5ff8356757b8',1,'ClearPlayerSounds(entity this):&#160;globalsound.qc'],['../df/d6e/globalsound_8qh.html#acc226d4ed744cf98c0ee5ff8356757b8',1,'ClearPlayerSounds(entity this):&#160;globalsound.qc']]],
   ['cleartooltip',['clearTooltip',['../df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556',1,'clearTooltip(entity e):&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#ad765c653d11adeb645af29a3beb33556',1,'clearTooltip(entity e):&#160;util.qc']]],
   ['clearvalues',['clearValues',['../db/db4/classTextSlider.html#a12cae2879a01520f0d08f21a673a4d3f',1,'TextSlider']]],
   ['clearwinners',['ClearWinners',['../db/dcc/g__world_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820',1,'ClearWinners():&#160;g_world.qc'],['../d7/db3/gamemode__lms_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820',1,'ClearWinners():&#160;g_world.qc']]],

@@ -1,5 +1,11 @@
 var NAVTREEINDEX91 =
 {
+"da/d94/classXonoticSettingsDialog.html#a3914bbbebeb4c734cae33a31b8c71455":[1,0,236,24],
+"da/d94/classXonoticSettingsDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,236,56],
+"da/d94/classXonoticSettingsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,236,1],
+"da/d94/classXonoticSettingsDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,236,12],
+"da/d94/classXonoticSettingsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,236,75],
+"da/d94/classXonoticSettingsDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,236,23],
 "da/d94/classXonoticSettingsDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,236,50],
 "da/d94/classXonoticSettingsDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,236,28],
 "da/d94/classXonoticSettingsDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,236,57],
@@ -239,15 +245,9 @@ var NAVTREEINDEX91 =
 "da/da6/flipflop_8qc.html":[2,0,1,13,3,8],
 "da/da6/flipflop_8qc_source.html":[2,0,1,13,3,8],
 "da/da6/shockwave_8qh.html":[2,0,1,16,0,33],
+"da/da6/shockwave_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,33,1],
+"da/da6/shockwave_8qh.html#ae09e2d0740002cb9090be0e7de3954e9":[2,0,1,16,0,33,2],
 "da/da6/shockwave_8qh_source.html":[2,0,1,16,0,33],
 "da/da9/classSpiderAttack.html":[1,0,120],
-"da/da9/classSpiderAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,120,33],
-"da/da9/classSpiderAttack.html#a066947bb269fd604de64212bba222ef2":[1,0,120,28],
-"da/da9/classSpiderAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,120,19],
-"da/da9/classSpiderAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,120,18],
-"da/da9/classSpiderAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,120,30],
-"da/da9/classSpiderAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,120,16],
-"da/da9/classSpiderAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,120,20],
-"da/da9/classSpiderAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,120,11],
-"da/da9/classSpiderAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,120,21]
+"da/da9/classSpiderAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,120,33]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX98 =
 {
+"db/d59/classXonoticPlayList.html#aed05f75651928be9263a2073856f33cd":[1,0,218,81],
+"db/d59/classXonoticPlayList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,218,5],
+"db/d59/classXonoticPlayList.html#af5b75330cbf3a362f406641c8a9b2ca0":[1,0,218,35],
+"db/d59/classXonoticPlayList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,218,32],
+"db/d59/classXonoticPlayList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,218,24],
+"db/d59/classXonoticPlayList.html#afa2fda0688ef3dfdc143963a9366a71b":[1,0,218,53],
+"db/d59/classXonoticPlayList.html#afdcf1fb79903f747cda494b27206526b":[1,0,218,2],
+"db/d5a/classXonoticHUDPowerupsDialog.html":[1,0,187],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,187,32],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,187,11],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,187,40],
@@ -241,13 +249,5 @@ var NAVTREEINDEX98 =
 "db/d63/classXonoticColorpicker.html#ad996b1a100e82b7c67c5cbed7a92792d":[1,0,149,4],
 "db/d63/classXonoticColorpicker.html#adb78159fc487a2925c30050ed729339b":[1,0,149,29],
 "db/d63/classXonoticColorpicker.html#adba055bca57bf312ebd7270010f720e4":[1,0,149,44],
-"db/d63/classXonoticColorpicker.html#ae138f23d4495900be0ede2783c05a714":[1,0,149,32],
-"db/d63/classXonoticColorpicker.html#af88618c1f0dbd043b2eb97e89f2b9f27":[1,0,149,24],
-"db/d63/classXonoticColorpicker.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,149,22],
-"db/d63/classXonoticColorpicker.html#afc9428d371ed63dd0316db5558e81d30":[1,0,149,39],
-"db/d63/classXonoticColorpicker.html#afdcf1fb79903f747cda494b27206526b":[1,0,149,3],
-"db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc.html":[2,0,1,9,0,31,0],
-"db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc_source.html":[2,0,1,9,0,31,0],
-"db/d73/campaign__setup_8qc.html":[2,0,1,27],
-"db/d73/campaign__setup_8qc.html#aaa64dc89313bcf520b231ef1f80bee48":[2,0,1,27,0]
+"db/d63/classXonoticColorpicker.html#ae138f23d4495900be0ede2783c05a714":[1,0,149,32]
 };

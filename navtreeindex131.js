@@ -1,5 +1,11 @@
 var NAVTREEINDEX131 =
 {
+"df/d92/classXonoticWinnerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,254,40],
+"df/d92/classXonoticWinnerDialog.html#a06cd3a718c21d0341739fb48f6496614":[1,0,254,69],
+"df/d92/classXonoticWinnerDialog.html#a06f22f349baac36d094647744aa008ac":[1,0,254,25],
+"df/d92/classXonoticWinnerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,254,3],
+"df/d92/classXonoticWinnerDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,254,83],
+"df/d92/classXonoticWinnerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,254,81],
 "df/d92/classXonoticWinnerDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,254,48],
 "df/d92/classXonoticWinnerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,254,26],
 "df/d92/classXonoticWinnerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,254,17],
@@ -175,8 +181,8 @@ var NAVTREEINDEX131 =
 "df/d9b/menu_2xonotic_2util_8qc.html#a99bf8fc9169855784af2af3cb71c8998":[2,0,5,4,228,27],
 "df/d9b/menu_2xonotic_2util_8qc.html#a9ba01c55dd4d8896b1f02ef83b22acc8":[2,0,5,4,228,63],
 "df/d9b/menu_2xonotic_2util_8qc.html#a9bc73e034ccab48e5cbcb3298481913a":[2,0,5,4,228,59],
-"df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb":[2,0,5,4,228,0],
 "df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb":[2,0,5,4,228,2],
+"df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb":[2,0,5,4,228,0],
 "df/d9b/menu_2xonotic_2util_8qc.html#aa514011c00a447f7603fb41c0cc43918":[2,0,5,4,228,80],
 "df/d9b/menu_2xonotic_2util_8qc.html#aa958d5d2b2d14b4705a46d5474d9843e":[2,0,5,4,228,75],
 "df/d9b/menu_2xonotic_2util_8qc.html#aabecb2186198cee293ff99e8806ea85e":[2,0,5,4,228,12],
@@ -243,11 +249,5 @@ var NAVTREEINDEX131 =
 "df/da7/generic_8qc.html#a993b35690b6546f96440aef5c506b7ce":[2,0,1,0,3,22],
 "df/da7/generic_8qc.html#aa02eeea036a47e6e5ee6028a05b15427":[2,0,1,0,3,19],
 "df/da7/generic_8qc.html#aa303299748e31b68debfe65e05875439":[2,0,1,0,3,21],
-"df/da7/generic_8qc.html#aaa5a87e5f846abcf10a0addc7b0386be":[2,0,1,0,3,10],
-"df/da7/generic_8qc.html#ad2ffe1c772f6454a87b6536bfdffe768":[2,0,1,0,3,16],
-"df/da7/generic_8qc.html#ae75b6202ac5cb56edbf010d449c5629b":[2,0,1,0,3,11],
-"df/da7/generic_8qc.html#af21b5f0914d24ba07dcd52f606b8518e":[2,0,1,0,3,15],
-"df/da7/generic_8qc.html#af4deca7a7fe670c511f95361b87fb961":[2,0,1,0,3,7],
-"df/da7/generic_8qc.html#af6a684057c789582d81aaa6c4ae26bc5":[2,0,1,0,3,4],
-"df/da7/generic_8qc.html#af96c68d767d38bddfc69ea2a50a41c10":[2,0,1,0,3,3]
+"df/da7/generic_8qc.html#aaa5a87e5f846abcf10a0addc7b0386be":[2,0,1,0,3,10]
 };

@@ -11,7 +11,7 @@ var searchData=
   ['objerror_5fsafe',['objerror_safe',['../d4/dfb/lib_2__all_8inc.html#ae32529f2cf1b849ec0ac1fadb12c898c',1,'_all.inc']]],
   ['observer',['Observer',['../de/dab/classObserver.html',1,'Observer'],['../de/dab/classObserver.html#a19c43f80a38a332a6f694783df3c9835',1,'Observer::Observer()']]],
   ['observerthink',['ObserverThink',['../df/dd7/server_2client_8qc.html#a0624045451f22564103dbb3878f77fd6',1,'client.qc']]],
-  ['offhand_5fhook',['OFFHAND_HOOK',['../d8/de7/hook_8qc.html#a26c1ac788f42d8ea1729fee825f749fd',1,'hook.qc']]],
+  ['offhand_5fhook',['OFFHAND_HOOK',['../d5/dc4/hook_8qh.html#a26c1ac788f42d8ea1729fee825f749fd',1,'hook.qh']]],
   ['offhand_5fthink',['offhand_think',['../d0/dbc/classOffhandWeapon.html#a3eebb9e4c20d2c338b773a030eca0ee0',1,'OffhandWeapon']]],
   ['offhandhook',['OffhandHook',['../da/dde/classOffhandHook.html',1,'']]],
   ['offhandweapon',['OffhandWeapon',['../d0/dbc/classOffhandWeapon.html',1,'']]],
