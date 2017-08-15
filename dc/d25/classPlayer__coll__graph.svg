@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 880;
+var viewWidth = 882;
 var viewHeight = 320;
 var sectionId = 'dynsection-1';
 </script>
@@ -56,178 +56,178 @@ var sectionId = 'dynsection-1';
 <title>Player</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="582.57,-0.5 582.57,-19.5 626.57,-19.5 626.57,-0.5 582.57,-0.5"/>
-<text text-anchor="middle" x="604.57" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Player</text>
+<polygon fill="#bfbfbf" stroke="black" points="584.598,-0.5 584.598,-19.5 628.598,-19.5 628.598,-0.5 584.598,-0.5"/>
+<text text-anchor="middle" x="606.598" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Player</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="../../d1/d37/classClient.html" target="_top" xlink:title="Client">
-<polygon fill="none" stroke="black" points="338.57,-70.5 338.57,-89.5 380.57,-89.5 380.57,-70.5 338.57,-70.5"/>
-<text text-anchor="middle" x="359.57" y="-77.5" font-family="Helvetica,sans-Serif" font-size="10.00">Client</text>
+<polygon fill="none" stroke="black" points="340.598,-70.5 340.598,-89.5 382.598,-89.5 382.598,-70.5 340.598,-70.5"/>
+<text text-anchor="middle" x="361.598" y="-77.5" font-family="Helvetica,sans-Serif" font-size="10.00">Client</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M390.543,-70.4033C440.728,-56.4744 538.603,-29.3091 582.426,-17.146"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="389.583,-67.0374 380.884,-73.0844 391.455,-73.7824 389.583,-67.0374"/>
+<path fill="none" stroke="midnightblue" d="M392.571,-70.4033C442.756,-56.4744 540.631,-29.3091 584.454,-17.146"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="391.611,-67.0374 382.912,-73.0844 393.483,-73.7824 391.611,-67.0374"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="../../d8/d4b/classObject.html" target="_top" xlink:title="Object">
-<polygon fill="none" stroke="black" points="110.07,-292.5 110.07,-311.5 155.07,-311.5 155.07,-292.5 110.07,-292.5"/>
-<text text-anchor="middle" x="132.57" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">Object</text>
+<polygon fill="none" stroke="black" points="110.098,-292.5 110.098,-311.5 155.098,-311.5 155.098,-292.5 110.098,-292.5"/>
+<text text-anchor="middle" x="132.598" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">Object</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M132.838,-282.209C133.834,-240.681 138.521,-142.95 160.57,-120 184.9,-94.6757 292.163,-85.1369 338.324,-82.1599"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="129.337,-282.258 132.644,-292.324 136.335,-282.393 129.337,-282.258"/>
+<path fill="none" stroke="midnightblue" d="M132.863,-282.207C133.852,-240.672 138.527,-142.93 160.598,-120 185.249,-94.3896 294.063,-84.9918 340.49,-82.1057"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="129.362,-282.257 132.67,-292.322 136.36,-282.391 129.362,-282.257"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<polygon fill="none" stroke="#bfbfbf" points="173.07,-292.5 173.07,-311.5 214.07,-311.5 214.07,-292.5 173.07,-292.5"/>
-<text text-anchor="middle" x="193.57" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">string</text>
+<polygon fill="none" stroke="#bfbfbf" points="173.098,-292.5 173.098,-311.5 214.098,-311.5 214.098,-292.5 173.098,-292.5"/>
+<text text-anchor="middle" x="193.598" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">string</text>
 </g>
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge3" class="edge"><title>Node4&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M185.2,-282.635C170.339,-246.953 144.324,-167.591 182.57,-120 201.936,-95.9019 295.857,-85.8203 338.469,-82.4357"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="182.173,-284.449 189.371,-292.223 188.592,-281.657 182.173,-284.449"/>
-<text text-anchor="middle" x="231.57" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00"> netaddress</text>
-<text text-anchor="middle" x="231.57" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_g_xonoticversion</text>
-<text text-anchor="middle" x="231.57" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">crypto_idfp</text>
-<text text-anchor="middle" x="231.57" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00">playermodel</text>
-<text text-anchor="middle" x="231.57" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00">crypto_signmethod</text>
-<text text-anchor="middle" x="231.57" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">crypto_keyfp</text>
-<text text-anchor="middle" x="231.57" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">netname</text>
-<text text-anchor="middle" x="231.57" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_physics</text>
-<text text-anchor="start" x="182.57" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_pokenade</text>
-<text text-anchor="middle" x="231.57" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00">_type</text>
-<text text-anchor="middle" x="231.57" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">crypto_mykeyfp</text>
-<text text-anchor="middle" x="231.57" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M185.219,-282.627C170.34,-246.931 144.296,-167.546 182.598,-120 202.252,-95.6032 297.657,-85.6597 340.589,-82.3722"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="182.194,-284.447 189.394,-292.219 188.612,-281.653 182.194,-284.447"/>
+<text text-anchor="middle" x="232.598" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00"> netaddress</text>
+<text text-anchor="middle" x="232.598" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_g_xonoticversion</text>
+<text text-anchor="middle" x="232.598" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">crypto_idfp</text>
+<text text-anchor="middle" x="232.598" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00">playermodel</text>
+<text text-anchor="middle" x="232.598" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_weaponpriority</text>
+<text text-anchor="middle" x="232.598" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">crypto_signmethod</text>
+<text text-anchor="middle" x="232.598" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">crypto_keyfp</text>
+<text text-anchor="middle" x="232.598" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">netname</text>
+<text text-anchor="middle" x="232.598" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_physics</text>
+<text text-anchor="start" x="182.598" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_pokenade</text>
+<text text-anchor="middle" x="232.598" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">_type</text>
+<text text-anchor="middle" x="232.598" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<polygon fill="none" stroke="#bfbfbf" points="280.07,-292.5 280.07,-311.5 321.07,-311.5 321.07,-292.5 280.07,-292.5"/>
-<text text-anchor="middle" x="300.57" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">entity</text>
+<polygon fill="none" stroke="#bfbfbf" points="282.098,-292.5 282.098,-311.5 323.098,-311.5 323.098,-292.5 282.098,-292.5"/>
+<text text-anchor="middle" x="302.598" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">entity</text>
 </g>
 <!-- Node5&#45;&gt;Node2 -->
 <g id="edge4" class="edge"><title>Node5&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M295.295,-282.348C286.662,-247.903 273.153,-172.998 301.57,-120 309.368,-105.456 325.25,-95.3584 338.426,-89.0873"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="292.013,-283.626 297.968,-292.388 298.777,-281.825 292.013,-283.626"/>
-<text text-anchor="middle" x="349.07" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00"> scorekeeper</text>
-<text text-anchor="middle" x="349.07" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00">accuracy</text>
-<text text-anchor="middle" x="349.07" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">teamkill_soundsource</text>
-<text text-anchor="middle" x="349.07" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">active_minigame</text>
-<text text-anchor="middle" x="349.07" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">clientdata</text>
-<text text-anchor="middle" x="349.07" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">cursor_trace_ent</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M297.323,-282.348C288.69,-247.903 275.181,-172.998 303.598,-120 311.396,-105.456 327.278,-95.3584 340.454,-89.0873"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="294.041,-283.626 299.996,-292.388 300.805,-281.825 294.041,-283.626"/>
+<text text-anchor="middle" x="351.098" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00"> scorekeeper</text>
+<text text-anchor="middle" x="351.098" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00">accuracy</text>
+<text text-anchor="middle" x="351.098" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">teamkill_soundsource</text>
+<text text-anchor="middle" x="351.098" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">active_minigame</text>
+<text text-anchor="middle" x="351.098" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">clientdata</text>
+<text text-anchor="middle" x="351.098" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">cursor_trace_ent</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<polygon fill="none" stroke="#bfbfbf" points="1.56998,-292.5 1.56998,-311.5 45.57,-311.5 45.57,-292.5 1.56998,-292.5"/>
-<text text-anchor="middle" x="23.57" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">vector</text>
+<polygon fill="none" stroke="#bfbfbf" points="1.59797,-292.5 1.59797,-311.5 45.598,-311.5 45.598,-292.5 1.59797,-292.5"/>
+<text text-anchor="middle" x="23.598" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">vector</text>
 </g>
 <!-- Node6&#45;&gt;Node1 -->
 <g id="edge9" class="edge"><title>Node6&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M16.6859,-282.733C4.60003,-247.222 -15.7968,-168.147 21.57,-120 92.1987,-28.9953 484.729,-13.8041 582.507,-11.4209"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="13.4342,-284.035 20.0967,-292.273 20.0256,-281.678 13.4342,-284.035"/>
-<text text-anchor="middle" x="184.57" y="-77.5" font-family="Helvetica,sans-Serif" font-size="10.00"> dual_weapons</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M16.7055,-282.727C4.60501,-247.204 -15.8162,-168.11 21.598,-120 92.5508,-28.7635 486.366,-13.7457 584.463,-11.4099"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="13.4557,-284.034 20.1204,-292.27 20.0464,-281.675 13.4557,-284.034"/>
+<text text-anchor="middle" x="176.598" y="-77.5" font-family="Helvetica,sans-Serif" font-size="10.00"> dual_weapons</text>
 </g>
 <!-- Node6&#45;&gt;Node2 -->
 <g id="edge5" class="edge"><title>Node6&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M22.2768,-282.179C19.854,-240.588 16.6844,-142.738 38.57,-120 59.3978,-98.3606 269.716,-85.6467 338.166,-82.0574"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="18.7933,-282.55 22.919,-292.309 25.7792,-282.108 18.7933,-282.55"/>
-<text text-anchor="middle" x="84.07" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00"> movement</text>
-<text text-anchor="middle" x="84.07" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00">cursor_trace_start</text>
-<text text-anchor="middle" x="84.07" y="-205.5" font-family="Helvetica,sans-Serif" font-size="10.00">v_angle</text>
-<text text-anchor="middle" x="84.07" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">cursor_screen</text>
-<text text-anchor="middle" x="84.07" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">v_angle_old</text>
-<text text-anchor="middle" x="84.07" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">cursor_trace_endpos</text>
-<text text-anchor="middle" x="84.07" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00">movement_old</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M22.3036,-282.178C19.8784,-240.585 16.704,-142.73 38.598,-120 59.6107,-98.1846 272.176,-85.5467 340.542,-82.0225"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="18.8201,-282.55 22.9464,-292.308 25.8061,-282.107 18.8201,-282.55"/>
+<text text-anchor="middle" x="84.098" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00"> movement</text>
+<text text-anchor="middle" x="84.098" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00">cursor_trace_start</text>
+<text text-anchor="middle" x="84.098" y="-205.5" font-family="Helvetica,sans-Serif" font-size="10.00">v_angle</text>
+<text text-anchor="middle" x="84.098" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">cursor_screen</text>
+<text text-anchor="middle" x="84.098" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">v_angle_old</text>
+<text text-anchor="middle" x="84.098" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">cursor_trace_endpos</text>
+<text text-anchor="middle" x="84.098" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00">movement_old</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<polygon fill="none" stroke="#bfbfbf" points="616.07,-292.5 616.07,-311.5 651.07,-311.5 651.07,-292.5 616.07,-292.5"/>
-<text text-anchor="middle" x="633.57" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">float</text>
+<polygon fill="none" stroke="#bfbfbf" points="618.098,-292.5 618.098,-311.5 653.098,-311.5 653.098,-292.5 618.098,-292.5"/>
+<text text-anchor="middle" x="635.598" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">float</text>
 </g>
 <!-- Node7&#45;&gt;Node1 -->
 <g id="edge10" class="edge"><title>Node7&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M660.873,-291.868C668.976,-287.738 676.921,-281.949 681.57,-274 716.124,-214.918 702.287,-185.234 681.57,-120 667.965,-77.1604 630.76,-36.6531 613.538,-19.5451"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="659.233,-288.766 651.477,-295.984 662.041,-295.178 659.233,-288.766"/>
-<text text-anchor="middle" x="732.07" y="-94" font-family="Helvetica,sans-Serif" font-size="10.00"> prevstrengthsoundattempt</text>
-<text text-anchor="middle" x="732.07" y="-83" font-family="Helvetica,sans-Serif" font-size="10.00">prevstrengthsound</text>
-<text text-anchor="middle" x="732.07" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00">ballistics_density</text>
-<text text-anchor="middle" x="732.07" y="-61" font-family="Helvetica,sans-Serif" font-size="10.00">buff_shield</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M662.901,-291.868C671.004,-287.738 678.949,-281.949 683.598,-274 718.152,-214.918 704.315,-185.234 683.598,-120 669.993,-77.1604 632.788,-36.6531 615.566,-19.5451"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="661.261,-288.766 653.505,-295.984 664.069,-295.178 661.261,-288.766"/>
+<text text-anchor="middle" x="734.098" y="-94" font-family="Helvetica,sans-Serif" font-size="10.00"> prevstrengthsoundattempt</text>
+<text text-anchor="middle" x="734.098" y="-83" font-family="Helvetica,sans-Serif" font-size="10.00">prevstrengthsound</text>
+<text text-anchor="middle" x="734.098" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00">ballistics_density</text>
+<text text-anchor="middle" x="734.098" y="-61" font-family="Helvetica,sans-Serif" font-size="10.00">buff_shield</text>
 </g>
 <!-- Node7&#45;&gt;Node2 -->
 <g id="edge6" class="edge"><title>Node7&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M606.226,-295.236C594.094,-291.277 580.741,-284.723 572.57,-274 530.624,-218.957 597.16,-170.242 549.57,-120 526.644,-95.7971 425.523,-85.703 380.879,-82.3715"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="605.416,-298.643 615.99,-297.986 607.314,-291.906 605.416,-298.643"/>
-<text text-anchor="middle" x="627.07" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00"> cmd_floodtime</text>
-<text text-anchor="middle" x="627.07" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">taunt_soundtime</text>
-<text text-anchor="middle" x="627.07" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">spectatortime</text>
-<text text-anchor="middle" x="627.07" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00">ping</text>
-<text text-anchor="middle" x="627.07" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00">teamkill_complain</text>
-<text text-anchor="middle" x="627.07" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">ping_packetloss</text>
-<text text-anchor="middle" x="627.07" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">teamkill_soundtime</text>
-<text text-anchor="middle" x="627.07" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_dodging_timeout</text>
-<text text-anchor="middle" x="627.07" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_handicap</text>
-<text text-anchor="start" x="572.57" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00">hasweapon_complain</text>
-<text text-anchor="middle" x="627.07" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">_spam</text>
-<text text-anchor="middle" x="627.07" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M608.254,-295.236C596.122,-291.277 582.769,-284.723 574.598,-274 532.652,-218.957 599.188,-170.242 551.598,-120 528.672,-95.7971 427.551,-85.703 382.907,-82.3715"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="607.444,-298.643 618.018,-297.986 609.342,-291.906 607.444,-298.643"/>
+<text text-anchor="middle" x="629.098" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00"> cmd_floodtime</text>
+<text text-anchor="middle" x="629.098" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">taunt_soundtime</text>
+<text text-anchor="middle" x="629.098" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">spectatortime</text>
+<text text-anchor="middle" x="629.098" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00">ping</text>
+<text text-anchor="middle" x="629.098" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00">teamkill_complain</text>
+<text text-anchor="middle" x="629.098" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">ping_packetloss</text>
+<text text-anchor="middle" x="629.098" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">teamkill_soundtime</text>
+<text text-anchor="middle" x="629.098" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_dodging_timeout</text>
+<text text-anchor="middle" x="629.098" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_handicap</text>
+<text text-anchor="start" x="574.598" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00">hasweapon_complain</text>
+<text text-anchor="middle" x="629.098" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">_spam</text>
+<text text-anchor="middle" x="629.098" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<polygon fill="none" stroke="#bfbfbf" points="774.07,-292.5 774.07,-311.5 803.07,-311.5 803.07,-292.5 774.07,-292.5"/>
-<text text-anchor="middle" x="788.57" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">int</text>
+<polygon fill="none" stroke="#bfbfbf" points="776.098,-292.5 776.098,-311.5 805.098,-311.5 805.098,-292.5 776.098,-292.5"/>
+<text text-anchor="middle" x="790.598" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">int</text>
 </g>
 <!-- Node8&#45;&gt;Node1 -->
 <g id="edge11" class="edge"><title>Node8&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M812.751,-292.662C821.193,-288.453 829.756,-282.408 834.57,-274 868.579,-214.603 853.911,-185.655 834.57,-120 825.303,-88.5439 821.256,-77.0581 794.57,-58 742.583,-20.8731 664.484,-12.9289 626.661,-11.3281"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="811.271,-289.489 803.475,-296.663 814.044,-295.916 811.271,-289.489"/>
-<text text-anchor="middle" x="850.07" y="-77.5" font-family="Helvetica,sans-Serif" font-size="10.00"> itemkeys</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M814.779,-292.662C823.221,-288.453 831.784,-282.408 836.598,-274 870.607,-214.603 855.939,-185.655 836.598,-120 827.331,-88.5439 823.284,-77.0581 796.598,-58 744.611,-20.8731 666.512,-12.9289 628.689,-11.3281"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="813.299,-289.489 805.503,-296.663 816.072,-295.916 813.299,-289.489"/>
+<text text-anchor="middle" x="852.098" y="-77.5" font-family="Helvetica,sans-Serif" font-size="10.00"> itemkeys</text>
 </g>
 <!-- Node8&#45;&gt;Node2 -->
 <g id="edge7" class="edge"><title>Node8&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M765.299,-288.1C759.611,-284.137 753.917,-279.381 749.57,-274 702.989,-216.346 744.665,-164.738 685.57,-120 637.397,-83.5306 445.443,-80.7178 380.881,-80.8282"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="763.72,-291.244 774.038,-293.649 767.472,-285.334 763.72,-291.244"/>
-<text text-anchor="middle" x="792.07" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00"> cvar_cl_nade_type</text>
-<text text-anchor="middle" x="792.07" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">parm_idlesince</text>
-<text text-anchor="middle" x="792.07" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">button10</text>
-<text text-anchor="middle" x="792.07" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00">button4</text>
-<text text-anchor="middle" x="792.07" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00">button11</text>
-<text text-anchor="middle" x="792.07" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">button5</text>
-<text text-anchor="start" x="749.57" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">specialcommand</text>
-<text text-anchor="middle" x="792.07" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">_pos</text>
-<text text-anchor="middle" x="792.07" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">killcount</text>
-<text text-anchor="middle" x="792.07" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00">button12</text>
-<text text-anchor="middle" x="792.07" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">button6</text>
-<text text-anchor="middle" x="792.07" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M767.327,-288.1C761.639,-284.137 755.945,-279.381 751.598,-274 705.017,-216.346 746.693,-164.738 687.598,-120 639.425,-83.5306 447.471,-80.7178 382.909,-80.8282"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="765.748,-291.244 776.066,-293.649 769.5,-285.334 765.748,-291.244"/>
+<text text-anchor="middle" x="794.098" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00"> cvar_cl_nade_type</text>
+<text text-anchor="middle" x="794.098" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">parm_idlesince</text>
+<text text-anchor="middle" x="794.098" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">button10</text>
+<text text-anchor="middle" x="794.098" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00">button4</text>
+<text text-anchor="middle" x="794.098" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00">button11</text>
+<text text-anchor="middle" x="794.098" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">button5</text>
+<text text-anchor="start" x="751.598" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">specialcommand</text>
+<text text-anchor="middle" x="794.098" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">_pos</text>
+<text text-anchor="middle" x="794.098" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">killcount</text>
+<text text-anchor="middle" x="794.098" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00">button12</text>
+<text text-anchor="middle" x="794.098" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">button6</text>
+<text text-anchor="middle" x="794.098" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<polygon fill="none" stroke="#bfbfbf" points="401.07,-292.5 401.07,-311.5 436.07,-311.5 436.07,-292.5 401.07,-292.5"/>
-<text text-anchor="middle" x="418.57" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool</text>
+<polygon fill="none" stroke="#bfbfbf" points="403.098,-292.5 403.098,-311.5 438.098,-311.5 438.098,-292.5 403.098,-292.5"/>
+<text text-anchor="middle" x="420.598" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">bool</text>
 </g>
 <!-- Node9&#45;&gt;Node2 -->
 <g id="edge8" class="edge"><title>Node9&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M417.774,-282.217C415.829,-241.911 409.975,-148.473 396.57,-120 390.766,-107.672 379.547,-96.7203 370.978,-89.5852"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="414.281,-282.452 418.231,-292.283 421.274,-282.135 414.281,-282.452"/>
-<text text-anchor="start" x="417.57" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00"> cvar_cl_accuracy_data</text>
-<text text-anchor="middle" x="482.57" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00">_share</text>
-<text text-anchor="middle" x="482.57" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_jetpack_jump</text>
-<text text-anchor="middle" x="482.57" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_newusekeysupported</text>
-<text text-anchor="start" x="417.57" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_movement_track</text>
-<text text-anchor="middle" x="482.57" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00">_canjump</text>
-<text text-anchor="middle" x="482.57" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">version_mismatch</text>
-<text text-anchor="middle" x="482.57" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">muted</text>
-<text text-anchor="start" x="417.57" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_accuracy</text>
-<text text-anchor="middle" x="482.57" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">_data_receive</text>
-<text text-anchor="middle" x="482.57" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00">wasplayer</text>
-<text text-anchor="middle" x="482.57" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_buffs_autoreplace</text>
-<text text-anchor="middle" x="482.57" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">race_completed</text>
-<text text-anchor="middle" x="482.57" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M419.802,-282.217C417.857,-241.911 412.003,-148.473 398.598,-120 392.794,-107.672 381.575,-96.7203 373.006,-89.5852"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="416.309,-282.452 420.259,-292.283 423.302,-282.135 416.309,-282.452"/>
+<text text-anchor="start" x="419.598" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00"> cvar_cl_accuracy_data</text>
+<text text-anchor="middle" x="484.598" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00">_share</text>
+<text text-anchor="middle" x="484.598" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_jetpack_jump</text>
+<text text-anchor="middle" x="484.598" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_newusekeysupported</text>
+<text text-anchor="start" x="419.598" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_movement_track</text>
+<text text-anchor="middle" x="484.598" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00">_canjump</text>
+<text text-anchor="middle" x="484.598" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">version_mismatch</text>
+<text text-anchor="middle" x="484.598" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">muted</text>
+<text text-anchor="start" x="419.598" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_accuracy</text>
+<text text-anchor="middle" x="484.598" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">_data_receive</text>
+<text text-anchor="middle" x="484.598" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00">wasplayer</text>
+<text text-anchor="middle" x="484.598" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_cl_buffs_autoreplace</text>
+<text text-anchor="middle" x="484.598" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">race_completed</text>
+<text text-anchor="middle" x="484.598" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
 </g>
 </g>
 </svg>

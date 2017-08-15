@@ -1,5 +1,9 @@
 var NAVTREEINDEX15 =
 {
+"d1/df8/mlrs__weapon_8qc_source.html":[2,0,1,14,0,26],
+"d1/dfd/flac__weapon_8qh.html":[2,0,1,14,0,9],
+"d1/dfd/flac__weapon_8qh.html#aa6913b38d25461cdbe2fed7c405630e0":[2,0,1,14,0,9,1],
+"d1/dfd/flac__weapon_8qh_source.html":[2,0,1,14,0,9],
 "d2/d02/dialog__settings__game__hudconfirm_8qc.html":[2,0,5,4,130],
 "d2/d02/dialog__settings__game__hudconfirm_8qc.html#a15ea414c0c2d870f61918376f7677f67":[2,0,5,4,130,1],
 "d2/d02/dialog__settings__game__hudconfirm_8qc.html#a8355ef57cfbd4b0b0a510b61df465435":[2,0,5,4,130,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX15 =
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,162,74],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,162,71],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,162,70],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a20ccd58da0d9c7ed9c8a8c0472ea0c59":[1,0,162,82],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,162,7],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,162,72],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,162,4],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,162,43]
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a20ccd58da0d9c7ed9c8a8c0472ea0c59":[1,0,162,82]
 };

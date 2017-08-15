@@ -1,5 +1,13 @@
 var NAVTREEINDEX127 =
 {
+"de/de7/classXonoticHUDItemsTimeDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,183,81],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,183,80],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,183,52],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,183,45],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,183,67],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,183,73],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,183,77],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a9f718a75f860a4ba336858d1b93c906b":[1,0,183,83],
 "de/de7/classXonoticHUDItemsTimeDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,183,65],
 "de/de7/classXonoticHUDItemsTimeDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,183,20],
 "de/de7/classXonoticHUDItemsTimeDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,183,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX127 =
 "df/d26/classXonoticGameSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,171,20],
 "df/d26/classXonoticGameSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,171,87],
 "df/d26/classXonoticGameSettingsTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,171,9],
-"df/d26/classXonoticGameSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,171,71],
-"df/d26/classXonoticGameSettingsTab.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,171,31],
-"df/d26/classXonoticGameSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,171,97],
-"df/d26/classXonoticGameSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,171,95],
-"df/d26/classXonoticGameSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,171,85],
-"df/d26/classXonoticGameSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,171,84],
-"df/d26/classXonoticGameSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,171,59],
-"df/d26/classXonoticGameSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,171,51],
-"df/d26/classXonoticGameSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,171,79]
+"df/d26/classXonoticGameSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,171,71]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX107 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#a71241a84db65118347917795bdf5cc1d":[1,0,180,60],
+"dc/d37/classXonoticHUDExitDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,180,14],
+"dc/d37/classXonoticHUDExitDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,180,66],
+"dc/d37/classXonoticHUDExitDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,180,25],
+"dc/d37/classXonoticHUDExitDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,180,89],
+"dc/d37/classXonoticHUDExitDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,180,80],
 "dc/d37/classXonoticHUDExitDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,180,52],
 "dc/d37/classXonoticHUDExitDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,180,45],
 "dc/d37/classXonoticHUDExitDialog.html#a84e73e2057be50a7624ac7b177bbdf5d":[1,0,180,24],
@@ -243,11 +249,5 @@ var NAVTREEINDEX107 =
 "dc/d48/credits_8qh.html#a62873c533cd0d519f7ddb479337e0e49":[2,0,5,4,27,1],
 "dc/d48/credits_8qh.html#a65b5891691eee6ac42d93ef3940dff6b":[2,0,5,4,27,2],
 "dc/d48/credits_8qh_source.html":[2,0,5,4,27],
-"dc/d4c/pong_8qh.html":[2,0,1,6,0,10],
-"dc/d4c/pong_8qh_source.html":[2,0,1,6,0,10],
-"dc/d4f/dialog__hudpanel__radar_8qh.html":[2,0,5,4,73],
-"dc/d4f/dialog__hudpanel__radar_8qh_source.html":[2,0,5,4,73],
-"dc/d52/dialog__multiplayer__create__mapinfo_8qh.html":[2,0,5,4,91],
-"dc/d52/dialog__multiplayer__create__mapinfo_8qh_source.html":[2,0,5,4,91],
-"dc/d53/sv__cloaked_8qh.html":[2,0,1,9,0,5,3]
+"dc/d4c/pong_8qh.html":[2,0,1,6,0,10]
 };

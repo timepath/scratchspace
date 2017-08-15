@@ -1,5 +1,11 @@
 var NAVTREEINDEX75 =
 {
+"d8/d8f/classXonoticInputBox.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,198,32],
+"d8/d8f/classXonoticInputBox.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,198,82],
+"d8/d8f/classXonoticInputBox.html#afc9428d371ed63dd0316db5558e81d30":[1,0,198,86],
+"d8/d8f/classXonoticInputBox.html#afdcf1fb79903f747cda494b27206526b":[1,0,198,10],
+"d8/d93/client_2hud_2panel_2__mod_8inc.html":[2,0,0,1,0,0],
+"d8/d93/client_2hud_2panel_2__mod_8inc_source.html":[2,0,0,1,0,0],
 "d8/d93/powerup_8qc.html":[2,0,1,5,0,12],
 "d8/d93/powerup_8qc_source.html":[2,0,1,5,0,12],
 "d8/d95/classNexposee.html":[1,0,84],
@@ -243,11 +249,5 @@ var NAVTREEINDEX75 =
 "d8/da8/xonotic_2nexposee_8qc_source.html":[2,0,5,4,182],
 "d8/dae/music_8qc.html":[2,0,1,13,2,12],
 "d8/dae/music_8qc_source.html":[2,0,1,13,2,12],
-"d8/db3/slider__decibels_8qc.html":[2,0,5,4,206],
-"d8/db3/slider__decibels_8qc.html#a13f465b048489a8a935abc23b76f43cd":[2,0,5,4,206,9],
-"d8/db3/slider__decibels_8qc.html#a231f02af2977bc665b9ef7cc8d6dcf00":[2,0,5,4,206,3],
-"d8/db3/slider__decibels_8qc.html#a41de33f3e9ba6abe242ca82c83f5f014":[2,0,5,4,206,6],
-"d8/db3/slider__decibels_8qc.html#a8069769b4af3b799387654e5dc25302e":[2,0,5,4,206,0],
-"d8/db3/slider__decibels_8qc.html#ab3d904b0d683f7a811ca372a2bd49f5a":[2,0,5,4,206,2],
-"d8/db3/slider__decibels_8qc.html#abaf4ab8aaf726d4069cb6e2fc485948e":[2,0,5,4,206,7]
+"d8/db3/slider__decibels_8qc.html":[2,0,5,4,206]
 };

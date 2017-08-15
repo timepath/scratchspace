@@ -401,13 +401,14 @@ Variables</h2></td></tr>
 <div class="line">        for(<span class="keywordtype">int</span> wepslot = 0; wepslot &lt; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b">MAX_WEAPONSLOTS</a>; ++wepslot) \</div>
 <div class="line">        { \</div>
 <div class="line">            .entity weaponentity = <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[wepslot]; <a class="code" href="../../d2/d62/selection_8qc.html#a6feb08ba7d01d611762b08aeb5dd7dd6">\</a></div>
-<div class="line"><a class="code" href="../../d2/d62/selection_8qc.html#a6feb08ba7d01d611762b08aeb5dd7dd6">			W_CycleWeapon</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5babf489842d0146673e3e9b26a791c0">cvar_cl_weaponpriorities</a>[slot], dir, weaponentity); \</div>
+<div class="line"><a class="code" href="../../d2/d62/selection_8qc.html#a6feb08ba7d01d611762b08aeb5dd7dd6">			W_CycleWeapon</a>(<span class="keyword">this</span>, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(<span class="keyword">this</span>).<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5babf489842d0146673e3e9b26a791c0">cvar_cl_weaponpriorities</a>[slot], dir, weaponentity); \</div>
 <div class="line">            if(wepslot == 0 &amp;&amp; <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a7fa1b028c3f2a22fcf9dae6b1b016b17">autocvar_g_weaponswitch_debug</a> != 1) \</div>
 <div class="line">                break; \</div>
 <div class="line">        } \</div>
 <div class="line">    }</div>
 <div class="ttc" id="server_2defs_8qh_html_a5babf489842d0146673e3e9b26a791c0"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a5babf489842d0146673e3e9b26a791c0">cvar_cl_weaponpriorities</a></div><div class="ttdeci">string cvar_cl_weaponpriorities[10]</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00170">defs.qh:170</a></div></div>
 <div class="ttc" id="impulses_2all_8qh_html_a5ea3f8c3f8afcd9e2839d3c46973d866"><div class="ttname"><a href="../../d0/d6e/impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a></div><div class="ttdeci">prev</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d6e/impulses_2all_8qh_source.html#l00057">all.qh:57</a></div></div>
+<div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
 <div class="ttc" id="weapons_2weapon_8qh_html_a1a06fd8ed72be7defe5bbb2747963b1b"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b">MAX_WEAPONSLOTS</a></div><div class="ttdeci">const int MAX_WEAPONSLOTS</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00012">weapon.qh:12</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a7fa1b028c3f2a22fcf9dae6b1b016b17"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a7fa1b028c3f2a22fcf9dae6b1b016b17">autocvar_g_weaponswitch_debug</a></div><div class="ttdeci">bool autocvar_g_weaponswitch_debug</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00534">autocvars.qh:534</a></div></div>
 <div class="ttc" id="server_2impulse_8qc_html_a8a5e4c11b6e61837eab14424981c9959"><div class="ttname"><a href="../../d4/d53/server_2impulse_8qc.html#a8a5e4c11b6e61837eab14424981c9959">IMPULSE</a></div><div class="ttdeci">#define IMPULSE(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d53/server_2impulse_8qc_source.html#l00024">impulse.qc:24</a></div></div>
@@ -2653,7 +2654,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d4/d53/server_2impulse_8qc.html">impulse.qc</a></li>
-    <li class="footer">Generated on Sun Aug 13 2017 15:05:19 for Xonotic by
+    <li class="footer">Generated on Tue Aug 15 2017 05:55:35 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

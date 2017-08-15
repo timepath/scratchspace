@@ -69,6 +69,8 @@ var classSpectator =
     [ "cvar_cl_voice_directional", "d1/d48/classSpectator.html#a8c608dc8fc22fe4c04c79e744f19daae", null ],
     [ "cvar_cl_voice_directional_taunt_attenuation", "d1/d48/classSpectator.html#afbcb6d31b9c6a03aa69d726ea7fe9784", null ],
     [ "cvar_cl_weaponimpulsemode", "d1/d48/classSpectator.html#af21e04f2cdb01e08ac61542f9ceaa538", null ],
+    [ "cvar_cl_weaponpriorities", "d1/d48/classSpectator.html#a5903158f43e01ded75a88f624294d288", null ],
+    [ "cvar_cl_weaponpriority", "d1/d48/classSpectator.html#a532c4faed18d8eaa90e6b872b5f0fa63", null ],
     [ "cvar_g_xonoticversion", "d1/d48/classSpectator.html#ad090054d918eb539c71b87fdef113540", null ],
     [ "hasweapon_complain_spam", "d1/d48/classSpectator.html#a2e357040c9fcbd4d35a09b094b7c329f", null ],
     [ "hitplotfh", "d1/d48/classSpectator.html#a90aeb156a3cfabccc0d276e33438fcfd", null ],
