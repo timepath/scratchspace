@@ -360,13 +360,13 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afe870f0ae02ad8926e6f846c34d8b9bd">takedamage</a> = <a class="code" href="../../d6/d11/progsdefs_8qc.html#ab48a6b5f493fae9734e3eaf646ec2999">DAMAGE_NO</a>;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    this.event_damage = <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(attacker) &amp;&amp; !<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#aa5599f2e69131c491a841eae6bb77578">autocvar_g_projectiles_keep_owner</a>)</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a> = attacker;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a6ff047c33f58c5833c291c636078e712">realowner</a> = attacker;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(PrepareExplosionByDamage, <span class="keyword">this</span>, attacker);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(PrepareExplosionByDamage, <span class="keyword">this</span>, attacker);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(attacker) &amp;&amp; !<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#aa5599f2e69131c491a841eae6bb77578">autocvar_g_projectiles_keep_owner</a>)</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a> = attacker;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a6ff047c33f58c5833c291c636078e712">realowner</a> = attacker;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="comment">// do not explode NOW but in the NEXT FRAME!</span></div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="comment">// because recursive calls to RadiusDamage are not allowed</span></div>
@@ -432,7 +432,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d1/dba/server_2weapons_2common_8qh.html">common.qh</a></li>
-    <li class="footer">Generated on Sat Aug 19 2017 15:40:13 for Xonotic by
+    <li class="footer">Generated on Sun Aug 20 2017 07:47:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
