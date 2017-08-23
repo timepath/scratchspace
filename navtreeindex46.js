@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"d5/d26/server_2defs_8qh.html#a4fda1d9bc3bb41de582300fc0b890e9a":[2,0,6,20,179],
 "d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003":[2,0,6,20,186],
 "d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9":[2,0,6,20,10],
 "d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778":[2,0,6,20,155],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "d5/d4a/cl__minigames__hud_8qc_source.html":[2,0,1,6,5],
 "d5/d4c/controlpoint_8qh.html":[2,0,1,3,0,1,7],
 "d5/d4c/controlpoint_8qh_source.html":[2,0,1,3,0,1,7],
-"d5/d52/bits_8qh.html":[2,0,4,10],
-"d5/d52/bits_8qh.html#a2314b0f12446883858be502bad75f6d2":[2,0,4,10,11]
+"d5/d52/bits_8qh.html":[2,0,4,10]
 };

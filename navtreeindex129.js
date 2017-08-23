@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"df/d38/mathlib_8qc.html#a659c66483cd7c3631f185f4fbd45affb":[2,0,4,2,8,31],
 "df/d38/mathlib_8qc.html#a66f6ff0260855f272e4f24b7a3d724ea":[2,0,4,2,8,8],
 "df/d38/mathlib_8qc.html#a6a8a7c048a7f9a645c6938e21fad4796":[2,0,4,2,8,28],
 "df/d38/mathlib_8qc.html#a6c941103cab43ce14def139f7a6a8efa":[2,0,4,2,8,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "df/d6e/classXonoticSingleplayerDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,237,44],
 "df/d6e/classXonoticSingleplayerDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,237,22],
 "df/d6e/classXonoticSingleplayerDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,237,50],
-"df/d6e/classXonoticSingleplayerDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,237,55],
-"df/d6e/classXonoticSingleplayerDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,237,30]
+"df/d6e/classXonoticSingleplayerDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,237,55]
 };

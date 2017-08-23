@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"d8/d8f/classXonoticInputBox.html#af0b2a007742ef271489811940814f6ac":[1,0,198,66],
 "d8/d8f/classXonoticInputBox.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,198,32],
 "d8/d8f/classXonoticInputBox.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,198,82],
 "d8/d8f/classXonoticInputBox.html#afc9428d371ed63dd0316db5558e81d30":[1,0,198,86],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "d8/da8/xonotic_2nexposee_8qc.html#ae25f64a5661a1f208a0bd0f671331303":[2,0,5,4,182,0],
 "d8/da8/xonotic_2nexposee_8qc_source.html":[2,0,5,4,182],
 "d8/dae/music_8qc.html":[2,0,1,13,2,12],
-"d8/dae/music_8qc_source.html":[2,0,1,13,2,12],
-"d8/db3/slider__decibels_8qc.html":[2,0,5,4,206]
+"d8/dae/music_8qc_source.html":[2,0,1,13,2,12]
 };

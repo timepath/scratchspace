@@ -137,7 +137,7 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">float</span> oldsolid = ent.dphitcontentsmask;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(ent))</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        antilag = <span class="keyword">false</span>; <span class="comment">// no antilag for non-clients!</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(ent) &amp;&amp; ent.(weaponentity).m_weapon == WEP_RIFLE)</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(ent) &amp;&amp; (ent.(weaponentity).m_weapon.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#ac1cb5337898cc2eecdffab177b8b75a8">WEP_FLAG_PENETRATEWALLS</a>))</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        ent.dphitcontentsmask = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a7426354055efce7db1f2489f6b350b62">DPCONTENTS_BODY</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a5f01bc88548c8f6cbcb029a6e63e8a9f">DPCONTENTS_CORPSE</a>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        ent.dphitcontentsmask = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a34857d93b57ccb6265adbe8ad217b489">DPCONTENTS_SOLID</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a7426354055efce7db1f2489f6b350b62">DPCONTENTS_BODY</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a5f01bc88548c8f6cbcb029a6e63e8a9f">DPCONTENTS_CORPSE</a>;</div>
@@ -599,6 +599,7 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">this</span>)</div>
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#afa78924af8a2d7996779f1f92cf6afcb">dphitcontentsmask</a> = oldsolid;</div>
 <div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;}</div>
+<div class="ttc" id="weapons_2weapon_8qh_html_ac1cb5337898cc2eecdffab177b8b75a8"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#ac1cb5337898cc2eecdffab177b8b75a8">WEP_FLAG_PENETRATEWALLS</a></div><div class="ttdeci">const int WEP_FLAG_PENETRATEWALLS</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00201">weapon.qh:201</a></div></div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00167">intrusivelist.qh:167</a></div></div>
 <div class="ttc" id="hitplot_8qh_html"><div class="ttname"><a href="../../dc/d8b/hitplot_8qh.html">hitplot.qh</a></div></div>
 <div class="ttc" id="antilag_8qc_html_a49674596bf4a83d1e58de9ba14487d49"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a49674596bf4a83d1e58de9ba14487d49">antilag_debug</a></div><div class="ttdeci">float antilag_debug</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00018">antilag.qc:18</a></div></div>
@@ -735,7 +736,7 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d7/d31/tracing_8qc.html">tracing.qc</a></li>
-    <li class="footer">Generated on Sun Aug 20 2017 07:47:46 for Xonotic by
+    <li class="footer">Generated on Wed Aug 23 2017 12:53:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

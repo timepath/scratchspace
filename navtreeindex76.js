@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"d8/db3/slider__decibels_8qc.html":[2,0,5,4,206],
 "d8/db3/slider__decibels_8qc.html#a13f465b048489a8a935abc23b76f43cd":[2,0,5,4,206,9],
 "d8/db3/slider__decibels_8qc.html#a231f02af2977bc665b9ef7cc8d6dcf00":[2,0,5,4,206,3],
 "d8/db3/slider__decibels_8qc.html#a41de33f3e9ba6abe242ca82c83f5f014":[2,0,5,4,206,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh_source.html":[2,0,1,9,0,34,3],
 "d8/dcc/classKeyHunt.html":[1,0,61],
 "d8/dcc/classKeyHunt.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,61,1],
-"d8/dcc/classKeyHunt.html#a353db82280437c3b38f0ad1934a7d666":[1,0,61,16],
-"d8/dcc/classKeyHunt.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,61,12]
+"d8/dcc/classKeyHunt.html#a353db82280437c3b38f0ad1934a7d666":[1,0,61,16]
 };

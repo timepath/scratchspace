@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"db/d59/classXonoticPlayList.html#ae4886e927f8025266b488c24f9539c9e":[1,0,218,0],
 "db/d59/classXonoticPlayList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,218,68],
 "db/d59/classXonoticPlayList.html#aec6bb28e73ebc691df5abe2da41182a0":[1,0,218,77],
 "db/d59/classXonoticPlayList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,218,36],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "db/d63/classXonoticColorpicker.html#ac6094922668d013ada3893854eec6b0f":[1,0,149,14],
 "db/d63/classXonoticColorpicker.html#ac783a223d75bf1d08a090ff8891725cc":[1,0,149,40],
 "db/d63/classXonoticColorpicker.html#ad7f4970fd49caf50fb76060d6b0cd56e":[1,0,149,30],
-"db/d63/classXonoticColorpicker.html#ad885b93c0a103ee08204101722634fd6":[1,0,149,23],
-"db/d63/classXonoticColorpicker.html#ad996b1a100e82b7c67c5cbed7a92792d":[1,0,149,4]
+"db/d63/classXonoticColorpicker.html#ad885b93c0a103ee08204101722634fd6":[1,0,149,23]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"d9/d67/turret_8qh.html#a481a91e444f204aff1dc3d29d45173a7":[2,0,1,14,15,73],
 "d9/d67/turret_8qh.html#a4b0d75716fd9d4fd2f6bd50ac4047bb9":[2,0,1,14,15,89],
 "d9/d67/turret_8qh.html#a4bf5edee08e445d9582c90680ce0cfb9":[2,0,1,14,15,97],
 "d9/d67/turret_8qh.html#a4f5f658a7ed97b32695758ac98fd720c":[2,0,1,14,15,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "d9/d8c/classWaypoint.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,135,4],
 "d9/d8c/classWaypoint.html#abe42e95092e4d122f39586a740325ce5":[1,0,135,7],
 "d9/d8c/classWaypoint.html#aee21256ea168a3b419a9cc2ab24125ed":[1,0,135,2],
-"d9/d8c/classWaypoint.html#af3482425b308c3fb38fc4809dc1c103d":[1,0,135,5],
-"d9/d8e/gamemode__assault_8qc.html":[2,0,6,3,0,2]
+"d9/d8c/classWaypoint.html#af3482425b308c3fb38fc4809dc1c103d":[1,0,135,5]
 };

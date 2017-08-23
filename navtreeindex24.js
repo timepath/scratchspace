@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"d3/d10/classXonoticCrosshairPicker.html#a67d95732d49da439095483530aca8804":[1,0,154,25],
 "d3/d10/classXonoticCrosshairPicker.html#a6a288b5383a2af2d2c477650b1f37fe6":[1,0,154,26],
 "d3/d10/classXonoticCrosshairPicker.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,154,7],
 "d3/d10/classXonoticCrosshairPicker.html#a70f832f511ac0fb8f0519637f49ef4ee":[1,0,154,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "d3/d45/dialog__settings__misc__cvars_8qc.html#a6c94b7330c3e7e6f67707875b1e3297c":[2,0,5,4,146,0],
 "d3/d45/dialog__settings__misc__cvars_8qc.html#a8aa8d70f55cad2a44f1d58fa76b03768":[2,0,5,4,146,1],
 "d3/d45/dialog__settings__misc__cvars_8qc_source.html":[2,0,5,4,146],
-"d3/d45/physics_2movetypes_2follow_8qc.html":[2,0,1,11,0,3],
-"d3/d45/physics_2movetypes_2follow_8qc.html#a205b11844120bb8f225d7479e7e38023":[2,0,1,11,0,3,0]
+"d3/d45/physics_2movetypes_2follow_8qc.html":[2,0,1,11,0,3]
 };

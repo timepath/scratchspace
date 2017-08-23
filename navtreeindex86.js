@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"d9/dbd/turrets_2config_8qh_source.html":[2,0,1,14,10],
 "d9/dbf/common_2gamemodes_2gamemode_2nexball_2__mod_8qh.html":[2,0,1,3,0,0,1],
 "d9/dbf/common_2gamemodes_2gamemode_2nexball_2__mod_8qh_source.html":[2,0,1,3,0,0,1],
 "d9/dc5/campcheck_8qc.html":[2,0,1,9,0,4,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX86 =
 "d9/de9/classListBox.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,67,67],
 "d9/de9/classListBox.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,67,59],
 "d9/de9/classListBox.html#a818ec5c586b740f244ac6f841b658157":[1,0,67,29],
-"d9/de9/classListBox.html#a82217d761797df8a2e65054eab910734":[1,0,67,11],
-"d9/de9/classListBox.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,67,56]
+"d9/de9/classListBox.html#a82217d761797df8a2e65054eab910734":[1,0,67,11]
 };

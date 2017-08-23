@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"db/d12/common_2effects_2qc_2__mod_8inc_source.html":[2,0,1,2,0,0],
 "db/d15/api_8qh.html":[2,0,6,0,5],
 "db/d15/api_8qh.html#a01283f91765c0dde923b7f7132475e30":[2,0,6,0,5,125],
 "db/d15/api_8qh.html#a01336d9331b9aa6b35684e685337948d":[2,0,6,0,5,89],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "db/d29/classXonoticRegisteredSettingsList.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,222,14],
 "db/d29/classXonoticRegisteredSettingsList.html#a346d3fd09bc071dc7877bd8506aa103c":[1,0,222,35],
 "db/d29/classXonoticRegisteredSettingsList.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,222,7],
-"db/d29/classXonoticRegisteredSettingsList.html#a361c76197a2f4af7eb56e4e9ab3055b3":[1,0,222,3],
-"db/d29/classXonoticRegisteredSettingsList.html#a39faad4c275af7a96e30379428646997":[1,0,222,17]
+"db/d29/classXonoticRegisteredSettingsList.html#a361c76197a2f4af7eb56e4e9ab3055b3":[1,0,222,3]
 };

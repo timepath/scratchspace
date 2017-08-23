@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"d3/d05/hud_8qh.html#a6f9a6c66e3c021cee833ab5f4a2e7fb6":[2,0,0,1,4,127],
 "d3/d05/hud_8qh.html#a6fc682ff976c1a417c18e9c5155a38eb":[2,0,0,1,4,45],
 "d3/d05/hud_8qh.html#a7022deeb2c5992f82699a94679c5dda5":[2,0,0,1,4,160],
 "d3/d05/hud_8qh.html#a70a2f0626e905caee470dbb25f1e8d11":[2,0,0,1,4,61],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "d3/d10/classXonoticCrosshairPicker.html#a4b337d74a2040325355da07150d885ae":[1,0,154,18],
 "d3/d10/classXonoticCrosshairPicker.html#a51aef9e901b2f2d159f18a413153f87e":[1,0,154,30],
 "d3/d10/classXonoticCrosshairPicker.html#a5660477bb979670af07bdca696bf6f30":[1,0,154,32],
-"d3/d10/classXonoticCrosshairPicker.html#a57615512130536cb6d4cf38ccdbf04bf":[1,0,154,5],
-"d3/d10/classXonoticCrosshairPicker.html#a67d95732d49da439095483530aca8804":[1,0,154,25]
+"d3/d10/classXonoticCrosshairPicker.html#a57615512130536cb6d4cf38ccdbf04bf":[1,0,154,5]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"d9/d08/client_2defs_8qh.html#af388c4e5001dfa76a890f8f07c52f8ab":[2,0,0,14,19],
 "d9/d08/client_2defs_8qh_source.html":[2,0,0,14],
 "d9/d09/common_2mutators_2mutator_2waypoints_2__mod_8inc.html":[2,0,1,9,0,34,0],
 "d9/d09/common_2mutators_2mutator_2waypoints_2__mod_8inc_source.html":[2,0,1,9,0,34,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "d9/d12/models_2all_8inc.html#a7388217cf2c45c8563ff2d53be60c745":[2,0,1,7,2,107],
 "d9/d12/models_2all_8inc.html#a73b423f33c924f77ba0dedcc8b24a370":[2,0,1,7,2,64],
 "d9/d12/models_2all_8inc.html#a73b7f5f6a8bc394307e60a9b4ea90399":[2,0,1,7,2,67],
-"d9/d12/models_2all_8inc.html#a751400b47bb8a673aeea8d9b530197c2":[2,0,1,7,2,172],
-"d9/d12/models_2all_8inc.html#a7a36fd3c92195ea2e00e5d8795c8224c":[2,0,1,7,2,109]
+"d9/d12/models_2all_8inc.html#a751400b47bb8a673aeea8d9b530197c2":[2,0,1,7,2,172]
 };
