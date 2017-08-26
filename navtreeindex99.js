@@ -1,5 +1,16 @@
 var NAVTREEINDEX99 =
 {
+"db/d63/classXonoticColorpicker.html#aa96e3ae510f7b4f70c21698702b7bae5":[1,0,149,0],
+"db/d63/classXonoticColorpicker.html#ab5fc85464d60d355588bce324d3df6da":[1,0,149,15],
+"db/d63/classXonoticColorpicker.html#ab6480e1fe1f3eed5568c59a859abc9cd":[1,0,149,46],
+"db/d63/classXonoticColorpicker.html#ab9f53ba31d7aebc313bcfd3f677add53":[1,0,149,47],
+"db/d63/classXonoticColorpicker.html#aba512e196285bb4464fc76b59e391161":[1,0,149,43],
+"db/d63/classXonoticColorpicker.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,149,37],
+"db/d63/classXonoticColorpicker.html#ac5a13bfcb6ef13ce07f4e397ed7e3b26":[1,0,149,21],
+"db/d63/classXonoticColorpicker.html#ac6094922668d013ada3893854eec6b0f":[1,0,149,14],
+"db/d63/classXonoticColorpicker.html#ac783a223d75bf1d08a090ff8891725cc":[1,0,149,40],
+"db/d63/classXonoticColorpicker.html#ad7f4970fd49caf50fb76060d6b0cd56e":[1,0,149,30],
+"db/d63/classXonoticColorpicker.html#ad885b93c0a103ee08204101722634fd6":[1,0,149,23],
 "db/d63/classXonoticColorpicker.html#ad996b1a100e82b7c67c5cbed7a92792d":[1,0,149,4],
 "db/d63/classXonoticColorpicker.html#adb78159fc487a2925c30050ed729339b":[1,0,149,29],
 "db/d63/classXonoticColorpicker.html#adba055bca57bf312ebd7270010f720e4":[1,0,149,44],
@@ -238,16 +249,5 @@ var NAVTREEINDEX99 =
 "db/d7f/effectinfo_8inc.html#a45bc43608733690c5f9eb1da7c2c1368":[2,0,1,2,7,64],
 "db/d7f/effectinfo_8inc.html#a45d4aed744d77c299066263e2917a254":[2,0,1,2,7,378],
 "db/d7f/effectinfo_8inc.html#a45e5958ed2130fcbf5dff23e39c03f77":[2,0,1,2,7,25],
-"db/d7f/effectinfo_8inc.html#a46541e811679115a6980a7385b0e51fa":[2,0,1,2,7,328],
-"db/d7f/effectinfo_8inc.html#a49daf9802f1fdaf4d3a78670f020dc97":[2,0,1,2,7,95],
-"db/d7f/effectinfo_8inc.html#a4af8f654858c52cf900b4b49de410f11":[2,0,1,2,7,168],
-"db/d7f/effectinfo_8inc.html#a4d115281d8162ea625917a5bc35ad10d":[2,0,1,2,7,275],
-"db/d7f/effectinfo_8inc.html#a4e4df8f18ebe9b8cad15382b4aa02e54":[2,0,1,2,7,362],
-"db/d7f/effectinfo_8inc.html#a4eb21a1adda919ac91fc4f6880ed7b24":[2,0,1,2,7,375],
-"db/d7f/effectinfo_8inc.html#a4f6f5dcdfa6029f3094df129b7c7fdad":[2,0,1,2,7,317],
-"db/d7f/effectinfo_8inc.html#a51cafc5700722bb5cfeea5264ac2ae7e":[2,0,1,2,7,215],
-"db/d7f/effectinfo_8inc.html#a51fb687e6c22b28d9a3fb389ab10918b":[2,0,1,2,7,333],
-"db/d7f/effectinfo_8inc.html#a526d0cc07dc21028743952a8e99c41df":[2,0,1,2,7,41],
-"db/d7f/effectinfo_8inc.html#a528a35146b520665b394b348fd26b8b2":[2,0,1,2,7,269],
-"db/d7f/effectinfo_8inc.html#a53ec4557c24ef8d2d23d8bfdf482203d":[2,0,1,2,7,106]
+"db/d7f/effectinfo_8inc.html#a46541e811679115a6980a7385b0e51fa":[2,0,1,2,7,328]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX107 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,180,75],
+"dc/d37/classXonoticHUDExitDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,180,23],
+"dc/d37/classXonoticHUDExitDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,180,50],
+"dc/d37/classXonoticHUDExitDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,180,28],
+"dc/d37/classXonoticHUDExitDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,180,57],
+"dc/d37/classXonoticHUDExitDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,180,34],
+"dc/d37/classXonoticHUDExitDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,180,42],
+"dc/d37/classXonoticHUDExitDialog.html#a55251eb2959b1610fe039480d094a104":[1,0,180,78],
+"dc/d37/classXonoticHUDExitDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,180,64],
+"dc/d37/classXonoticHUDExitDialog.html#a67d95732d49da439095483530aca8804":[1,0,180,53],
+"dc/d37/classXonoticHUDExitDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,180,76],
 "dc/d37/classXonoticHUDExitDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,180,18],
 "dc/d37/classXonoticHUDExitDialog.html#a71241a84db65118347917795bdf5cc1d":[1,0,180,60],
 "dc/d37/classXonoticHUDExitDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,180,14],
@@ -238,16 +249,5 @@ var NAVTREEINDEX107 =
 "dc/d44/classXonoticScreenshotList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,230,41],
 "dc/d44/classXonoticScreenshotList.html#aed05f75651928be9263a2073856f33cd":[1,0,230,88],
 "dc/d44/classXonoticScreenshotList.html#aed94b3db2a0523bdec1f984b774d042d":[1,0,230,77],
-"dc/d44/classXonoticScreenshotList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,230,9],
-"dc/d44/classXonoticScreenshotList.html#af183ed9ccabcdf4cc2d935bfa75b4f0c":[1,0,230,63],
-"dc/d44/classXonoticScreenshotList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,230,38],
-"dc/d44/classXonoticScreenshotList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,230,30],
-"dc/d44/classXonoticScreenshotList.html#afba2495a8947783d736f8e52941caf49":[1,0,230,76],
-"dc/d44/classXonoticScreenshotList.html#afd9459a203a4cb8a9108b960621e1925":[1,0,230,73],
-"dc/d44/classXonoticScreenshotList.html#afdcf1fb79903f747cda494b27206526b":[1,0,230,3],
-"dc/d44/classXonoticScreenshotList.html#afdd5ec7df8036e1d4f97162c7b5dbbc0":[1,0,230,28],
-"dc/d48/credits_8qh.html":[2,0,5,4,27],
-"dc/d48/credits_8qh.html#a62873c533cd0d519f7ddb479337e0e49":[2,0,5,4,27,1],
-"dc/d48/credits_8qh.html#a65b5891691eee6ac42d93ef3940dff6b":[2,0,5,4,27,2],
-"dc/d48/credits_8qh_source.html":[2,0,5,4,27]
+"dc/d44/classXonoticScreenshotList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,230,9]
 };

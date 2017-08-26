@@ -1,5 +1,12 @@
 var NAVTREEINDEX47 =
 {
+"d5/d4a/cl__minigames__hud_8qc.html#aceea913bef82e231ea5929d8086deb56":[2,0,1,6,5,4],
+"d5/d4a/cl__minigames__hud_8qc.html#ad83b0ec6561c90f628420274460cdc55":[2,0,1,6,5,14],
+"d5/d4a/cl__minigames__hud_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af":[2,0,1,6,5,30],
+"d5/d4a/cl__minigames__hud_8qc_source.html":[2,0,1,6,5],
+"d5/d4c/controlpoint_8qh.html":[2,0,1,3,0,1,7],
+"d5/d4c/controlpoint_8qh_source.html":[2,0,1,3,0,1,7],
+"d5/d52/bits_8qh.html":[2,0,4,10],
 "d5/d52/bits_8qh.html#a2314b0f12446883858be502bad75f6d2":[2,0,4,10,11],
 "d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c":[2,0,4,10,0],
 "d5/d52/bits_8qh.html#a436eedb0115f556bd144885d709aad27":[2,0,4,10,12],
@@ -242,12 +249,5 @@ var NAVTREEINDEX47 =
 "d5/d6c/classXonoticHUDSkinList.html#ac03f21b2ed56a73716723dd13374541a":[1,0,193,65],
 "d5/d6c/classXonoticHUDSkinList.html#ac2c63b2e3a526daeb273e931bb770e5a":[1,0,193,19],
 "d5/d6c/classXonoticHUDSkinList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,193,72],
-"d5/d6c/classXonoticHUDSkinList.html#ac6094922668d013ada3893854eec6b0f":[1,0,193,25],
-"d5/d6c/classXonoticHUDSkinList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,193,68],
-"d5/d6c/classXonoticHUDSkinList.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,193,21],
-"d5/d6c/classXonoticHUDSkinList.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,193,44],
-"d5/d6c/classXonoticHUDSkinList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,193,49],
-"d5/d6c/classXonoticHUDSkinList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,193,56],
-"d5/d6c/classXonoticHUDSkinList.html#ad8868d355da51082f1e8a5758ad2e26f":[1,0,193,31],
-"d5/d6c/classXonoticHUDSkinList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,193,83]
+"d5/d6c/classXonoticHUDSkinList.html#ac6094922668d013ada3893854eec6b0f":[1,0,193,25]
 };

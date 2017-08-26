@@ -1,5 +1,16 @@
 var NAVTREEINDEX116 =
 {
+"dd/d8b/sys-pre_8qh.html#a8bec2d5b8558bb04f35ff39b753bd8bd":[2,0,6,67,0],
+"dd/d8b/sys-pre_8qh.html#a8cd0740cb2a5488a155ae728e1a1a860":[2,0,6,67,5],
+"dd/d8b/sys-pre_8qh.html#a93d41bf1a89a98cda58348c77f373420":[2,0,6,67,24],
+"dd/d8b/sys-pre_8qh.html#a9b4ad62e8edd9bf002562910fc15e83d":[2,0,6,67,18],
+"dd/d8b/sys-pre_8qh.html#ac88570b9257cfe415b124e28ff547c34":[2,0,6,67,4],
+"dd/d8b/sys-pre_8qh.html#ac9cc4122f0b090484d80e1db768f3385":[2,0,6,67,14],
+"dd/d8b/sys-pre_8qh.html#adfea91d16e957d4143a7bb26c048b654":[2,0,6,67,8],
+"dd/d8b/sys-pre_8qh.html#af049e5748138e84b5a3570816901699b":[2,0,6,67,26],
+"dd/d8b/sys-pre_8qh.html#af14d40beb7499e2940d00c9d856d4f02":[2,0,6,67,9],
+"dd/d8b/sys-pre_8qh_source.html":[2,0,6,67],
+"dd/d90/classRaptorFlare.html":[1,0,108],
 "dd/d90/classRaptorFlare.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,108,33],
 "dd/d90/classRaptorFlare.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,108,19],
 "dd/d90/classRaptorFlare.html#a1571e947669fddff894ceabfe3cdab9b":[1,0,108,28],
@@ -238,16 +249,5 @@ var NAVTREEINDEX116 =
 "dd/d9a/classXonoticSandboxToolsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,226,37],
 "dd/d9a/classXonoticSandboxToolsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,226,41],
 "dd/d9a/classXonoticSandboxToolsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,226,86],
-"dd/d9a/classXonoticSandboxToolsDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,226,10],
-"dd/da1/dialog__settings__game__hud_8qc.html":[2,0,5,4,128],
-"dd/da1/dialog__settings__game__hud_8qc.html#a057008f0eb43d4c862b6e4ff9db6da28":[2,0,5,4,128,3],
-"dd/da1/dialog__settings__game__hud_8qc.html#a339f2f6d3acd74f0a18c2db26f303fa1":[2,0,5,4,128,2],
-"dd/da1/dialog__settings__game__hud_8qc.html#a57427e87f05e329a87ac5937269e8b60":[2,0,5,4,128,0],
-"dd/da1/dialog__settings__game__hud_8qc.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,128,1],
-"dd/da1/dialog__settings__game__hud_8qc_source.html":[2,0,5,4,128],
-"dd/da3/classXonoticMusicPlayerTab.html":[1,0,210],
-"dd/da3/classXonoticMusicPlayerTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,210,36],
-"dd/da3/classXonoticMusicPlayerTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,210,15],
-"dd/da3/classXonoticMusicPlayerTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,210,44],
-"dd/da3/classXonoticMusicPlayerTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,210,9]
+"dd/d9a/classXonoticSandboxToolsDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,226,10]
 };

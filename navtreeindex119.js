@@ -1,5 +1,16 @@
 var NAVTREEINDEX119 =
 {
+"dd/de4/g__damage_8qh.html":[2,0,6,22],
+"dd/de4/g__damage_8qh.html#a006d9006c9dbfcddaab4e8379e581301":[2,0,6,22,27],
+"dd/de4/g__damage_8qh.html#a06cd718b9ac0e28276f5f1b932fc96c5":[2,0,6,22,40],
+"dd/de4/g__damage_8qh.html#a06d441877a7cb716320e5b143e30826b":[2,0,6,22,42],
+"dd/de4/g__damage_8qh.html#a1e3b2f601afaa75fbe6749c4931d1367":[2,0,6,22,45],
+"dd/de4/g__damage_8qh.html#a20087508f7a406698c20adf80e55aeba":[2,0,6,22,29],
+"dd/de4/g__damage_8qh.html#a23d73461c891095705d9e88dcbf0b164":[2,0,6,22,44],
+"dd/de4/g__damage_8qh.html#a24aaf696797544264665df5f05253d1c":[2,0,6,22,11],
+"dd/de4/g__damage_8qh.html#a2d30d51fdeb3f05c8ade32e74ca54a7c":[2,0,6,22,9],
+"dd/de4/g__damage_8qh.html#a30b6dcb0a5e148d3961cad10abdaf5af":[2,0,6,22,15],
+"dd/de4/g__damage_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9":[2,0,6,22,37],
 "dd/de4/g__damage_8qh.html#a377b547a7053468290f13dffb6342b89":[2,0,6,22,17],
 "dd/de4/g__damage_8qh.html#a3f696c9f9260834902e2b430e0d71f8e":[2,0,6,22,33],
 "dd/de4/g__damage_8qh.html#a40f1d38a57f0bb630ca878656709e72c":[2,0,6,22,24],
@@ -238,16 +249,5 @@ var NAVTREEINDEX119 =
 "de/d09/linkedlist_8qh.html#a8f4040c98f091d7a52878687de9260d3":[2,0,4,29,2],
 "de/d09/linkedlist_8qh.html#aabcd34bd83546d80452d9af104864f3e":[2,0,4,29,8],
 "de/d09/linkedlist_8qh.html#aba68dac02d2aa7fea2c34beda839b108":[2,0,4,29,3],
-"de/d09/linkedlist_8qh.html#accc6c5d3ab06c26b8e5408db31cf0247":[2,0,4,29,10],
-"de/d09/linkedlist_8qh.html#acd06e79f63713052c4524c26942ca23d":[2,0,4,29,6],
-"de/d09/linkedlist_8qh.html#ad7288ed22aca7a8878a40423e7ba62e1":[2,0,4,29,5],
-"de/d09/linkedlist_8qh.html#ae661d2fd5b18437505433ab79fae5ce0":[2,0,4,29,14],
-"de/d09/linkedlist_8qh_source.html":[2,0,4,29],
-"de/d0b/hmg_8qh.html":[2,0,1,9,0,20,5],
-"de/d0b/hmg_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,9,0,20,5,1],
-"de/d0b/hmg_8qh.html#a5dc8f62de66b133aaf928451501a468c":[2,0,1,9,0,20,5,2],
-"de/d0b/hmg_8qh_source.html":[2,0,1,9,0,20,5],
-"de/d0c/classDamageText.html":[1,0,23],
-"de/d0c/classDamageText.html#a051ef622598636a594c91c29d445d19c":[1,0,23,0],
-"de/d0c/classDamageText.html#a102206254076a4b6de3087b389196f7c":[1,0,23,7]
+"de/d09/linkedlist_8qh.html#accc6c5d3ab06c26b8e5408db31cf0247":[2,0,4,29,10]
 };

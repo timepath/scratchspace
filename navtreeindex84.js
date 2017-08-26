@@ -1,5 +1,12 @@
 var NAVTREEINDEX84 =
 {
+"d9/d67/turret_8qh.html#a316a9d1bb21b5e1bfb4ee23225cecc53":[2,0,1,14,15,9],
+"d9/d67/turret_8qh.html#a3294c9ce8ab7418f842c17bf1c840ee4":[2,0,1,14,15,60],
+"d9/d67/turret_8qh.html#a363370442334893ae9807d052c232955":[2,0,1,14,15,27],
+"d9/d67/turret_8qh.html#a3da70e0df6e32f9a82d3141699e1a5f0":[2,0,1,14,15,57],
+"d9/d67/turret_8qh.html#a42a854849e67ae27f0c5566048df5860":[2,0,1,14,15,13],
+"d9/d67/turret_8qh.html#a43f6dee43181809a5b068856f1818d48":[2,0,1,14,15,72],
+"d9/d67/turret_8qh.html#a4745f4bf8efcf711035632658c9fbbdf":[2,0,1,14,15,64],
 "d9/d67/turret_8qh.html#a481a91e444f204aff1dc3d29d45173a7":[2,0,1,14,15,73],
 "d9/d67/turret_8qh.html#a4b0d75716fd9d4fd2f6bd50ac4047bb9":[2,0,1,14,15,89],
 "d9/d67/turret_8qh.html#a4bf5edee08e445d9582c90680ce0cfb9":[2,0,1,14,15,97],
@@ -242,12 +249,5 @@ var NAVTREEINDEX84 =
 "d9/d8b/dialog__hudpanel__vote_8qc.html#a99db81b12f29535edee78548db09a83f":[2,0,5,4,78,0],
 "d9/d8b/dialog__hudpanel__vote_8qc_source.html":[2,0,5,4,78],
 "d9/d8c/classWaypoint.html":[1,0,135],
-"d9/d8c/classWaypoint.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,135,3],
-"d9/d8c/classWaypoint.html#a745d2e7e32bb1e66b2c8651e2757aefa":[1,0,135,0],
-"d9/d8c/classWaypoint.html#a7582ca2dcce2971313caac02a72da70c":[1,0,135,1],
-"d9/d8c/classWaypoint.html#a7a687a0ab5a9f2299f6a4b93862834fc":[1,0,135,6],
-"d9/d8c/classWaypoint.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,135,4],
-"d9/d8c/classWaypoint.html#abe42e95092e4d122f39586a740325ce5":[1,0,135,7],
-"d9/d8c/classWaypoint.html#aee21256ea168a3b419a9cc2ab24125ed":[1,0,135,2],
-"d9/d8c/classWaypoint.html#af3482425b308c3fb38fc4809dc1c103d":[1,0,135,5]
+"d9/d8c/classWaypoint.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,135,3]
 };

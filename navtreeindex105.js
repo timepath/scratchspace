@@ -1,5 +1,16 @@
 var NAVTREEINDEX105 =
 {
+"db/dfa/classPlasmaAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,93,10],
+"db/dfa/classPlasmaAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,93,36],
+"db/dfa/classPlasmaAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,93,7],
+"db/dfa/classPlasmaAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,93,37],
+"db/dfa/classPlasmaAttack.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,93,3],
+"db/dfa/classPlasmaAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,93,35],
+"db/dfa/classPlasmaAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,93,22],
+"db/dfa/classPlasmaAttack.html#add92b1cccb4280f76efc41e86ed85645":[1,0,93,32],
+"db/dfa/classPlasmaAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,93,25],
+"db/dfa/classPlasmaAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,93,17],
+"db/dfa/classPlasmaAttack.html#afba05a26a4843e2b4b22d4ad9c7ff03f":[1,0,93,26],
 "db/dfb/sv__new__toys_8qh.html":[2,0,1,9,0,18,3],
 "db/dfb/sv__new__toys_8qh_source.html":[2,0,1,9,0,18,3],
 "db/dfc/round__handler_8qc.html":[2,0,6,54],
@@ -238,16 +249,5 @@ var NAVTREEINDEX105 =
 "dc/d16/classXonoticMediaTab.html":[1,0,206],
 "dc/d16/classXonoticMediaTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,206,36],
 "dc/d16/classXonoticMediaTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,206,15],
-"dc/d16/classXonoticMediaTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,206,44],
-"dc/d16/classXonoticMediaTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,206,9],
-"dc/d16/classXonoticMediaTab.html#a086d32c9694472250922d42417bc8d66":[1,0,206,3],
-"dc/d16/classXonoticMediaTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,206,78],
-"dc/d16/classXonoticMediaTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,206,86],
-"dc/d16/classXonoticMediaTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,206,83],
-"dc/d16/classXonoticMediaTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,206,52],
-"dc/d16/classXonoticMediaTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,206,30],
-"dc/d16/classXonoticMediaTab.html#a198d31b696946a3a688d2c943f509799":[1,0,206,72],
-"dc/d16/classXonoticMediaTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,206,11],
-"dc/d16/classXonoticMediaTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,206,73],
-"dc/d16/classXonoticMediaTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,206,4]
+"dc/d16/classXonoticMediaTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,206,44]
 };

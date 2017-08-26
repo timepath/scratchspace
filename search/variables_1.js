@@ -832,6 +832,7 @@ var searchData=
   ['autocvar_5fg_5finvasion_5fspawnpoint_5fspawn_5fdelay',['autocvar_g_invasion_spawnpoint_spawn_delay',['../d5/d1f/gamemode__invasion_8qc.html#a3416ec2b05671677afee7515f63ffb86',1,'gamemode_invasion.qc']]],
   ['autocvar_5fg_5finvasion_5fteam_5fspawns',['autocvar_g_invasion_team_spawns',['../da/dd2/gamemode__invasion_8qh.html#a9a097d6ffb85569c18a7a736e2c70388',1,'gamemode_invasion.qh']]],
   ['autocvar_5fg_5finvasion_5fteams',['autocvar_g_invasion_teams',['../da/dd2/gamemode__invasion_8qh.html#a8feb7f4ef377845e3185b586e825b5d2',1,'gamemode_invasion.qh']]],
+  ['autocvar_5fg_5finvasion_5ftype',['autocvar_g_invasion_type',['../da/dd2/gamemode__invasion_8qh.html#a9c8206a0c3ae74e67eb04c1d139d88e9',1,'gamemode_invasion.qh']]],
   ['autocvar_5fg_5finvasion_5fwarmup',['autocvar_g_invasion_warmup',['../d5/d1f/gamemode__invasion_8qc.html#a43e52b9ec872b58162ad1b7f5d91fb26',1,'gamemode_invasion.qc']]],
   ['autocvar_5fg_5finvasion_5fzombies_5fonly',['autocvar_g_invasion_zombies_only',['../d5/d1f/gamemode__invasion_8qc.html#adb135781f311cfeda2846cb4a8f3cc53',1,'gamemode_invasion.qc']]],
   ['autocvar_5fg_5fitems_5fmaxdist',['autocvar_g_items_maxdist',['../d7/da7/server_2autocvars_8qh.html#aae3afa26b77edeb4ca5d61cfc3e124de',1,'autocvars.qh']]],

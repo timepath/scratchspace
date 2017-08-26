@@ -1,5 +1,16 @@
 var NAVTREEINDEX124 =
 {
+"de/d6e/playerstats_8qc.html":[2,0,1,39],
+"de/d6e/playerstats_8qc_source.html":[2,0,1,39],
+"de/d70/common_2physics_2player_8qh.html":[2,0,1,11,7],
+"de/d70/common_2physics_2player_8qh.html#a076ea717ec10db71d166bd610c426a20":[2,0,1,11,7,58],
+"de/d70/common_2physics_2player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9":[2,0,1,11,7,29],
+"de/d70/common_2physics_2player_8qh.html#a100cd2ee90ef7069bdb2aaaa6e2b7812":[2,0,1,11,7,37],
+"de/d70/common_2physics_2player_8qh.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca":[2,0,1,11,7,87],
+"de/d70/common_2physics_2player_8qh.html#a11d9c9e85f9f60c7c44094d0f69f8f69":[2,0,1,11,7,15],
+"de/d70/common_2physics_2player_8qh.html#a1334a71146999f9285f3d037c7f9a404":[2,0,1,11,7,84],
+"de/d70/common_2physics_2player_8qh.html#a13e34b83c43f2a76344e78d654886731":[2,0,1,11,7,30],
+"de/d70/common_2physics_2player_8qh.html#a1465200abf88b22609d4cb4badf408a8":[2,0,1,11,7,47],
 "de/d70/common_2physics_2player_8qh.html#a1b0a438d266d9ef604392b0c167dae00":[2,0,1,11,7,67],
 "de/d70/common_2physics_2player_8qh.html#a22faf725d638ea9e5af3aa869c24e909":[2,0,1,11,7,21],
 "de/d70/common_2physics_2player_8qh.html#a26ce65f7fed0ba9dc20b3918af6ddda5":[2,0,1,11,7,49],
@@ -238,16 +249,5 @@ var NAVTREEINDEX124 =
 "de/d8b/xonotic_2image_8qc.html#a342332e21b2ee36298df0c2c0f3f11a1":[2,0,5,4,168,0],
 "de/d8b/xonotic_2image_8qc.html#aec88164f7d8c789d9016b9f759dd96dc":[2,0,5,4,168,1],
 "de/d8b/xonotic_2image_8qc_source.html":[2,0,5,4,168],
-"de/d8c/classWyvernAttack.html":[1,0,139],
-"de/d8c/classWyvernAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,139,33],
-"de/d8c/classWyvernAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,139,19],
-"de/d8c/classWyvernAttack.html#a16ceef67c41097efd03c34fd26c40791":[1,0,139,32],
-"de/d8c/classWyvernAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,139,18],
-"de/d8c/classWyvernAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,139,30],
-"de/d8c/classWyvernAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,139,16],
-"de/d8c/classWyvernAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,139,20],
-"de/d8c/classWyvernAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,139,11],
-"de/d8c/classWyvernAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,139,21],
-"de/d8c/classWyvernAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,139,1],
-"de/d8c/classWyvernAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,139,15]
+"de/d8c/classWyvernAttack.html":[1,0,139]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX132 =
 {
+"df/da7/generic_8qc.html#a12dcbba3e6ff93ce72cf69f1c6c18014":[2,0,1,0,3,25],
+"df/da7/generic_8qc.html#a22a6ea705477db6193737bb87b34fd28":[2,0,1,0,3,13],
+"df/da7/generic_8qc.html#a3034377c38bd133b2fb40e4658d3e560":[2,0,1,0,3,6],
+"df/da7/generic_8qc.html#a4949cbdd574b98248ac7c6fe9e48a096":[2,0,1,0,3,17],
+"df/da7/generic_8qc.html#a4f11464afe3db58f51d8198dd57a703f":[2,0,1,0,3,14],
+"df/da7/generic_8qc.html#a54b25ca5ee949d3d977550b197ddb7f9":[2,0,1,0,3,5],
+"df/da7/generic_8qc.html#a5d9d66c784aed227f66f771a274a1e38":[2,0,1,0,3,23],
+"df/da7/generic_8qc.html#a6672bc3d3475d6c8a7673a80272e0ede":[2,0,1,0,3,2],
+"df/da7/generic_8qc.html#a67835028ceca4999b1ce0dcab25a9179":[2,0,1,0,3,24],
+"df/da7/generic_8qc.html#a6b086c5fed2aa80a60f6b8f575b6fe32":[2,0,1,0,3,9],
+"df/da7/generic_8qc.html#a7cfe427cb8536f90b0553f1c8a365c36":[2,0,1,0,3,20],
 "df/da7/generic_8qc.html#a802e2fce290ef7ee78e2c5272017a500":[2,0,1,0,3,0],
 "df/da7/generic_8qc.html#a8ccf667ca0a34f9ed5287facb87f69d3":[2,0,1,0,3,18],
 "df/da7/generic_8qc.html#a993b35690b6546f96440aef5c506b7ce":[2,0,1,0,3,22],
@@ -238,16 +249,5 @@ var NAVTREEINDEX132 =
 "df/dc9/classXonoticHUDQuickMenuDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,189,41],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,189,86],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,189,10],
-"df/dca/sv__new__toys_8qc.html":[2,0,1,9,0,18,2],
-"df/dca/sv__new__toys_8qc.html#a140a9a5cc79b88e43850562ba3fe896d":[2,0,1,9,0,18,2,3],
-"df/dca/sv__new__toys_8qc.html#a1c5c812f41099c0bb4a7a344e4889e94":[2,0,1,9,0,18,2,0],
-"df/dca/sv__new__toys_8qc.html#a2c6e5bb89a98ba30805844c5b91cf91f":[2,0,1,9,0,18,2,10],
-"df/dca/sv__new__toys_8qc.html#a48dcd67d39576681f2e7b935407387eb":[2,0,1,9,0,18,2,7],
-"df/dca/sv__new__toys_8qc.html#a87b0fb534891abbe698ac9b87124d64b":[2,0,1,9,0,18,2,9],
-"df/dca/sv__new__toys_8qc.html#a937b44fd478bcbee4363c7e90fa2f06e":[2,0,1,9,0,18,2,2],
-"df/dca/sv__new__toys_8qc.html#a94cd64ed7e06913195863e07e3bba758":[2,0,1,9,0,18,2,4],
-"df/dca/sv__new__toys_8qc.html#a99408cf448faa50ccc92640c0d96c9c4":[2,0,1,9,0,18,2,1],
-"df/dca/sv__new__toys_8qc.html#abcbe891b971117895877f4d90c1a20c8":[2,0,1,9,0,18,2,11],
-"df/dca/sv__new__toys_8qc.html#ad70a0d19606e645ff91e3a4906e2d3d9":[2,0,1,9,0,18,2,5],
-"df/dca/sv__new__toys_8qc.html#ad7716dfccac496645cafb1e0d60eddbb":[2,0,1,9,0,18,2,6]
+"df/dca/sv__new__toys_8qc.html":[2,0,1,9,0,18,2]
 };

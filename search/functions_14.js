@@ -6,6 +6,7 @@ var searchData=
   ['target_5fassault_5froundend_5fuse',['target_assault_roundend_use',['../d9/d8e/gamemode__assault_8qc.html#aab05b99039e15442616ce88737d2bc92',1,'gamemode_assault.qc']]],
   ['target_5fgive_5finit',['target_give_init',['../df/d42/quake3_8qc.html#a150f5bd0f1c8300bca00748f5222a9e6',1,'quake3.qc']]],
   ['target_5finit_5fverify',['target_init_verify',['../df/d42/quake3_8qc.html#a61742c0334dce4be11adeb7ba6664685',1,'quake3.qc']]],
+  ['target_5finvasion_5froundend_5fuse',['target_invasion_roundend_use',['../d5/d1f/gamemode__invasion_8qc.html#a1e482d9bdd9345b4203f0fe28e28008d',1,'gamemode_invasion.qc']]],
   ['target_5fobjective_5fdecrease_5factivate',['target_objective_decrease_activate',['../d9/d8e/gamemode__assault_8qc.html#aae75592036bbad8155a2c2b1f82aa17c',1,'target_objective_decrease_activate(entity this):&#160;gamemode_assault.qc'],['../d8/d0f/gamemode__assault_8qh.html#aae75592036bbad8155a2c2b1f82aa17c',1,'target_objective_decrease_activate(entity this):&#160;gamemode_assault.qc']]],
   ['target_5fobjective_5fdecrease_5ffindtarget',['target_objective_decrease_findtarget',['../d9/d8e/gamemode__assault_8qc.html#ae6b4d2c7f083a78d9284fe838a1d17dc',1,'gamemode_assault.qc']]],
   ['target_5fobjective_5fspawn_5fevalfunc',['target_objective_spawn_evalfunc',['../d9/d8e/gamemode__assault_8qc.html#aa2cf747a858e69977f9a8f0cbdced887',1,'gamemode_assault.qc']]],
