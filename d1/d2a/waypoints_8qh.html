@@ -1086,7 +1086,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;    <span class="keywordtype">int</span> file = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(filename, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a77d7a3d55152ac3ec644710da1e05b7d">FILE_WRITE</a>);</div>
 <div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;    <span class="keywordflow">if</span> (file &lt; 0)</div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    {</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;waypoint link save to %s failed\n&quot;</span>, filename);</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;waypoint link save to %s failed&quot;</span>, filename);</div>
 <div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    }</div>
 <div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;</div>
@@ -1107,7 +1107,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(file);</div>
 <div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a3cdf59b59842bdac03ad7f6403c5364f">botframe_cachedwaypointlinks</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;saved %d waypoint links to maps/%s.waypoints.cache\n&quot;</span>, c, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;saved %d waypoint links to maps/%s.waypoints.cache&quot;</span>, c, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
 <div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;</div>
 <div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab425a543c58fb2e6f5ab441d30f5cd7c">waypoint_load_links_hardwired</a>();</div>
 <div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;}</div>
@@ -1173,7 +1173,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7">waypoint_save_links</a>(); <span class="comment">// save anyway?</span></div>
 <div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;        <a class="code" href="../../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7">botframe_loadedforcedlinks</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;waypoint links: save to %s failed\n&quot;</span>, filename);</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;waypoint links: save to %s failed&quot;</span>, filename);</div>
 <div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;    }</div>
 <div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;</div>
@@ -1196,7 +1196,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7">waypoint_save_links</a>();</div>
 <div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7">botframe_loadedforcedlinks</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;saved %d waypoints to maps/%s.waypoints\n&quot;</span>, c, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;saved %d waypoints to maps/%s.waypoints&quot;</span>, c, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
 <div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;}</div>
 <div class="ttc" id="csqc__constants_8qh_html_a77d7a3d55152ac3ec644710da1e05b7d"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a77d7a3d55152ac3ec644710da1e05b7d">FILE_WRITE</a></div><div class="ttdeci">const int FILE_WRITE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00103">csqc_constants.qh:103</a></div></div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00167">intrusivelist.qh:167</a></div></div>
@@ -3058,7 +3058,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../d1/d2a/waypoints_8qh.html">waypoints.qh</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 02:55:04 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 03:14:40 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -720,7 +720,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;    <span class="keywordtype">float</span> i = 0;</div>
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;    <span class="keywordflow">for</span>(e = PS_D_IN_EVL; (en = <a class="code" href="../../d4/d54/map_8qh.html#a9ef8574526bd0fc3ba024e3ca148de85">db_get</a>(PS_D_IN_DB, e)) != <span class="stringliteral">&quot;&quot;</span>; e = en)</div>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;    {</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d:%s:%s\n&quot;</span>, i, e, <a class="code" href="../../d4/d54/map_8qh.html#a9ef8574526bd0fc3ba024e3ca148de85">db_get</a>(PS_D_IN_DB, sprintf(<span class="stringliteral">&quot;#%s&quot;</span>, e)));</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d:%s:%s&quot;</span>, i, e, <a class="code" href="../../d4/d54/map_8qh.html#a9ef8574526bd0fc3ba024e3ca148de85">db_get</a>(PS_D_IN_DB, sprintf(<span class="stringliteral">&quot;#%s&quot;</span>, e)));</div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        ++i;</div>
 <div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    }</div>
 <div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -786,7 +786,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;    <span class="keywordtype">float</span> gamecount = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;cl_matchcount&quot;</span>);</div>
 <div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;</div>
 <div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;<span class="preprocessor">    #if 0</span></div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;PlayerStats_PlayerDetail_CheckUpdate(): %f &gt;= %f, %d &gt; %d\n&quot;</span>,</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;PlayerStats_PlayerDetail_CheckUpdate(): %f &gt;= %f, %d &gt; %d&quot;</span>,</div>
 <div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>,</div>
 <div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;        PS_D_NEXTUPDATETIME,</div>
 <div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;        PS_D_LASTGAMECOUNT,</div>
@@ -889,7 +889,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;                            <span class="stringliteral">&quot;PlayerStats_PlayerDetail_Handler(): ERROR: &quot;</span></div>
 <div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;                            <span class="stringliteral">&quot;Key went unhandled? Is our version outdated?\n&quot;</span></div>
 <div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;                            <span class="stringliteral">&quot;PlayerStats_PlayerDetail_Handler(): &quot;</span></div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;                            <span class="stringliteral">&quot;Key &#39;%s&#39;, Event &#39;%s&#39;, Data &#39;%s&#39;\n&quot;</span>,</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;                            <span class="stringliteral">&quot;Key &#39;%s&#39;, Event &#39;%s&#39;, Data &#39;%s&#39;&quot;</span>,</div>
 <div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;                            key,</div>
 <div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;                            event,</div>
 <div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;                            data</div>
@@ -901,7 +901,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;<span class="preprocessor">                #if 0</span></div>
 <div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;<span class="preprocessor"></span>                <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(</div>
 <div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;                    <span class="stringliteral">&quot;PlayerStats_PlayerDetail_Handler(): &quot;</span></div>
-<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;                    <span class="stringliteral">&quot;Key &#39;%s&#39;, Event &#39;%s&#39;, Data &#39;%s&#39;\n&quot;</span>,</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;                    <span class="stringliteral">&quot;Key &#39;%s&#39;, Event &#39;%s&#39;, Data &#39;%s&#39;&quot;</span>,</div>
 <div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;                    key,</div>
 <div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;                    event,</div>
 <div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;                    data</div>
@@ -1252,7 +1252,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../de/d6e/playerstats_8qc.html">playerstats.qc</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 02:54:50 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 03:14:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

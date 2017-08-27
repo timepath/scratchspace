@@ -803,7 +803,7 @@ $(document).ready(function(){initNavTree('d4/d53/server_2impulse_8qc_source.html
 <div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;        ++j;</div>
 <div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;        ++m;</div>
 <div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;    });</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    <span class="keywordflow">if</span> (j) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d waypoints cannot be reached from here in any way (marked with blue light)\n&quot;</span>, j);</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    <span class="keywordflow">if</span> (j) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d waypoints cannot be reached from here in any way (marked with blue light)&quot;</span>, j);</div>
 <div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    <a class="code" href="../../db/d15/api_8qh.html#a376ae543437e85413013fbf01dcc2cf4">navigation_markroutes_inverted</a>(e2);</div>
 <div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;</div>
 <div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    j = 0;</div>
@@ -816,8 +816,8 @@ $(document).ready(function(){initNavTree('d4/d53/server_2impulse_8qc_source.html
 <div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;        it.effects |= <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a1147496d9185c4b54a3caa5424f088b8">EF_NODEPTHTEST</a> | <a class="code" href="../../d4/d92/csqc__constants_8qh.html#abd8f9a7402b6246b669caca4fb706f62">EF_RED</a>;</div>
 <div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;        ++j;</div>
 <div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;    });</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    <span class="keywordflow">if</span> (j) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d waypoints cannot walk to here in any way (marked with red light)\n&quot;</span>, j);</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;    <span class="keywordflow">if</span> (m) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d waypoints have been marked total\n&quot;</span>, m);</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    <span class="keywordflow">if</span> (j) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d waypoints cannot walk to here in any way (marked with red light)&quot;</span>, j);</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;    <span class="keywordflow">if</span> (m) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d waypoints have been marked total&quot;</span>, m);</div>
 <div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;</div>
 <div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;    j = 0;</div>
 <div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aad1564de97f4fade819668ac308c7133">g_spawnpoints</a>, <span class="keyword">true</span>,</div>
@@ -844,7 +844,7 @@ $(document).ready(function(){initNavTree('d4/d53/server_2impulse_8qc_source.html
 <div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;            ++j;</div>
 <div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;        }</div>
 <div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;    });</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;    <span class="keywordflow">if</span> (j) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d spawnpoints have no nearest waypoint (marked by player model)\n&quot;</span>, j);</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;    <span class="keywordflow">if</span> (j) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d spawnpoints have no nearest waypoint (marked by player model)&quot;</span>, j);</div>
 <div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;</div>
 <div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;    j = 0;</div>
 <div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5">g_items</a>, <span class="keyword">true</span>,</div>
@@ -860,7 +860,7 @@ $(document).ready(function(){initNavTree('d4/d53/server_2impulse_8qc_source.html
 <div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;        it.colormod_x = 8;</div>
 <div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;        ++j;</div>
 <div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;    });</div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;    <span class="keywordflow">if</span> (j) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d items have no nearest waypoint and cannot be walked away from (marked with red light)\n&quot;</span>, j);</div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;    <span class="keywordflow">if</span> (j) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d items have no nearest waypoint and cannot be walked away from (marked with red light)&quot;</span>, j);</div>
 <div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;</div>
 <div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;    j = 0;</div>
 <div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5">g_items</a>, <span class="keyword">true</span>,</div>
@@ -871,7 +871,7 @@ $(document).ready(function(){initNavTree('d4/d53/server_2impulse_8qc_source.html
 <div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;        it.colormod_z = 8;</div>
 <div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;        ++j;</div>
 <div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;    });</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;    <span class="keywordflow">if</span> (j) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d items have no nearest waypoint and cannot be walked to (marked with blue light)\n&quot;</span>, j);</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;    <span class="keywordflow">if</span> (j) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d items have no nearest waypoint and cannot be walked to (marked with blue light)&quot;</span>, j);</div>
 <div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;}</div>
 <div class="ttc" id="server_2autocvars_8qh_html_a01881b5a20f0b9258777a05de0e7f45c"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a01881b5a20f0b9258777a05de0e7f45c">autocvar_g_allow_checkpoints</a></div><div class="ttdeci">bool autocvar_g_allow_checkpoints</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00535">autocvars.qh:535</a></div></div>
 <div class="ttc" id="throwing_8qh_html"><div class="ttname"><a href="../../de/d58/throwing_8qh.html">throwing.qh</a></div></div>
@@ -983,7 +983,7 @@ $(document).ready(function(){initNavTree('d4/d53/server_2impulse_8qc_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d4/d53/server_2impulse_8qc.html">impulse.qc</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 02:54:50 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 03:14:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

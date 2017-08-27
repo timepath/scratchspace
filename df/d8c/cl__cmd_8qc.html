@@ -2211,7 +2211,7 @@ Functions</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00521">GameCommand()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;{</div>
-<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(<a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>, <span class="keyword">true</span>, <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;  ^2%s^7: %s\n&quot;</span>, it.m_name, it.m_description));</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(<a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>, <span class="keyword">true</span>, <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;  ^2%s^7: %s&quot;</span>, it.m_name, it.m_description));</div>
 <div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;}</div>
 <div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00657">cmd.qc:657</a></div></div>
 <div class="ttc" id="log_8qh_html_ab709d1a9c4f30481019dd95e67a4f9f5"><div class="ttname"><a href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a></div><div class="ttdeci">#define LOG_INFOF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00068">log.qh:68</a></div></div>
@@ -2663,7 +2663,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        {</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            fh = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(file, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a>);</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">if</span>(fh &lt; 0)</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;Couldn&#39;t open file \&quot;%s\&quot;, loading default quickmenu\n&quot;</span>, file);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;Couldn&#39;t open file \&quot;%s\&quot;, loading default quickmenu&quot;</span>, file);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">if</span>(fh &lt; 0)</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            mode = <span class="stringliteral">&quot;default&quot;</span>;</div>
@@ -2816,7 +2816,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_6d330f67e9a5efc8c508ff076d3c6103.html">commands</a></li><li class="navelem"><a class="el" href="../../df/d8c/cl__cmd_8qc.html">cl_cmd.qc</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 02:54:53 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 03:14:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
