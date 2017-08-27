@@ -123,7 +123,6 @@ var searchData=
   ['ka_5finitialize',['ka_Initialize',['../d3/d5a/gamemode__keepaway_8qc.html#ad066a4c24559d830eee8b0e63c5e5d0e',1,'ka_Initialize():&#160;gamemode_keepaway.qc'],['../d1/d04/gamemode__keepaway_8qh.html#ad066a4c24559d830eee8b0e63c5e5d0e',1,'ka_Initialize():&#160;gamemode_keepaway.qc']]],
   ['ka_5freset',['ka_Reset',['../d3/d5a/gamemode__keepaway_8qc.html#ad75b1b0af4cf3c4d1edc48296104d6ed',1,'gamemode_keepaway.qc']]],
   ['ka_5frespawnball',['ka_RespawnBall',['../d3/d5a/gamemode__keepaway_8qc.html#a918f60aac6917ab91d28888e6f0fade3',1,'gamemode_keepaway.qc']]],
-  ['ka_5fscorerules',['ka_ScoreRules',['../d3/d5a/gamemode__keepaway_8qc.html#a300b4ce61aacb1ec436031cd9f1aeed4',1,'gamemode_keepaway.qc']]],
   ['ka_5fspawnball',['ka_SpawnBall',['../d3/d5a/gamemode__keepaway_8qc.html#abbf02f92af7cca347d884d06e05b7399',1,'gamemode_keepaway.qc']]],
   ['ka_5ftimescoring',['ka_TimeScoring',['../d3/d5a/gamemode__keepaway_8qc.html#a4aec8808850dd14dd563f20a9ce5618c',1,'gamemode_keepaway.qc']]],
   ['ka_5ftouchevent',['ka_TouchEvent',['../d3/d5a/gamemode__keepaway_8qc.html#ac4c4fbb459ed5ae28fa62d2a8d53a5a7',1,'gamemode_keepaway.qc']]],

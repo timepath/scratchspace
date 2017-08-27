@@ -12,7 +12,6 @@ var gamemode__freezetag_8qc =
     [ "freezetag_isEliminated", "db/d26/gamemode__freezetag_8qc.html#aa2f9e02510c1dfd9bf88a8fd6a476f41", null ],
     [ "freezetag_LastPlayerForTeam", "db/d26/gamemode__freezetag_8qc.html#aee1dac91a06305051bdcfbef40a659d0", null ],
     [ "freezetag_LastPlayerForTeam_Notify", "db/d26/gamemode__freezetag_8qc.html#a815df653448834dad10357124b337731", null ],
-    [ "freezetag_ScoreRules", "db/d26/gamemode__freezetag_8qc.html#a81cb8cf59439fb9ea8fecac73e5b5cfe", null ],
     [ "freezetag_Unfreeze", "db/d26/gamemode__freezetag_8qc.html#af1bed3fb86fc2e983e247cc0307a4107", null ],
     [ "ft_RemovePlayer", "db/d26/gamemode__freezetag_8qc.html#af97c2433bd423c0c85d333a28c600eea", null ],
     [ "havocbot_goalrating_freeplayers", "db/d26/gamemode__freezetag_8qc.html#af0c2f88b2381ac9babaf1f5ab0e5d6a1", null ],

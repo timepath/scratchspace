@@ -1,6 +1,5 @@
 var NAVTREEINDEX53 =
 {
-"d6/d1a/classMainWindow.html#a746410ea39f1849396441365b18a8ef9":[1,0,73,46],
 "d6/d1a/classMainWindow.html#a7b13cdc101cd55528465440586a004f6":[1,0,73,65],
 "d6/d1a/classMainWindow.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,73,35],
 "d6/d1a/classMainWindow.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,73,67],
@@ -249,5 +248,6 @@ var NAVTREEINDEX53 =
 "d6/d30/dialog__teamselect_8qc.html#abc28b8cb59bb4b64932491e1b742f5e5":[2,0,5,4,160,3],
 "d6/d30/dialog__teamselect_8qc.html#aef68d50cc290b76e2c8fc62888560c00":[2,0,5,4,160,2],
 "d6/d30/dialog__teamselect_8qc.html#af1c89445ad12552325475410a8cc2902":[2,0,5,4,160,0],
-"d6/d30/dialog__teamselect_8qc_source.html":[2,0,5,4,160]
+"d6/d30/dialog__teamselect_8qc_source.html":[2,0,5,4,160],
+"d6/d35/debug_8qc.html":[2,0,6,4,4]
 };

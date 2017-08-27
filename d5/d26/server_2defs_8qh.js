@@ -75,7 +75,6 @@ var server_2defs_8qh =
     [ "attack_finished_single", "d5/d26/server_2defs_8qh.html#ad896d889c6a5568ab728f7233e86e258", null ],
     [ "autocvar__independent_players", "d5/d26/server_2defs_8qh.html#ae64d0818d5fd9cc7d8ee57138f1463fd", null ],
     [ "autoswitch", "d5/d26/server_2defs_8qh.html#a4a168a4f99ca1498c8270efce0a08675", null ],
-    [ "ballcarried", "d5/d26/server_2defs_8qh.html#a137a4251a46a5fea7db7d4f16b190dcb", null ],
     [ "ballistics_density", "d5/d26/server_2defs_8qh.html#a4fb2fb54df1e968eb7ecb8cc92f0f3ec", null ],
     [ "blockSpectators", "d5/d26/server_2defs_8qh.html#a611426eabd1041c62519ae6d9391a9e4", null ],
     [ "bot_waypoints_for_items", "d5/d26/server_2defs_8qh.html#a1d54f461e8d603bbdb4bd49cbc4e6f2f", null ],

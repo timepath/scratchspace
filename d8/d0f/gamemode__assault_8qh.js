@@ -1,6 +1,5 @@
 var gamemode__assault_8qh =
 [
-    [ "assault_ScoreRules", "d8/d0f/gamemode__assault_8qh.html#af9ce8a13c37efdd85ac68f7b16bd7ac9", null ],
     [ "REGISTER_MUTATOR", "d8/d0f/gamemode__assault_8qh.html#a5753f4b0d3f0961028891e42b2d2f2ee", null ],
     [ "target_objective_decrease_activate", "d8/d0f/gamemode__assault_8qh.html#aae75592036bbad8155a2c2b1f82aa17c", null ],
     [ "void", "d8/d0f/gamemode__assault_8qh.html#aeec709ac24ea54914787f032f0bedc54", null ],
@@ -12,5 +11,5 @@ var gamemode__assault_8qh =
     [ "HAVOCBOT_AST_ROLE_OFFENSE", "d8/d0f/gamemode__assault_8qh.html#a6c1be8aa70a07ec6b91cfb1050ddcbc8", null ],
     [ "havocbot_attack_time", "d8/d0f/gamemode__assault_8qh.html#a90b02641f0c7d1b01f7998fe398c95c1", null ],
     [ "havocbot_role_flags", "d8/d0f/gamemode__assault_8qh.html#a0ac3d078a3d265b901ef367a940be615", null ],
-    [ "ST_ASSAULT_OBJECTIVES", "d8/d0f/gamemode__assault_8qh.html#aa63969d6de82cd5d06f291e89e140ca4", null ]
+    [ "ST_ASSAULT_OBJECTIVES", "d8/d0f/gamemode__assault_8qh.html#ab00757b4833b07df889397e6f544ab0a", null ]
 ];

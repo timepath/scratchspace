@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"d4/d3f/classXonoticKeyBinder.html#a11a8209afcff1a9a74262609d1b92646":[1,0,200,73],
 "d4/d3f/classXonoticKeyBinder.html#a13609a330433433b9dd3530506132650":[1,0,200,3],
 "d4/d3f/classXonoticKeyBinder.html#a151e0ec9dca93787cd82446a1b2e5ffa":[1,0,200,56],
 "d4/d3f/classXonoticKeyBinder.html#a18456fc3d44b3528c7595c73f42a8acc":[1,0,200,68],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d54/map_8qh.html#a9ef8574526bd0fc3ba024e3ca148de85":[2,0,4,32,9],
 "d4/d54/map_8qh.html#ac189c2086b07ba1ebaf3e630390ae0af":[2,0,4,32,11],
 "d4/d54/map_8qh.html#ac4f258816f44ba60ecd630cf58e52974":[2,0,4,32,2],
-"d4/d54/map_8qh.html#ae164808a517903e86f7142599e17eb73":[2,0,4,32,5],
-"d4/d54/map_8qh.html#af224e4f61c730fb62f0ee23b2810adb6":[2,0,4,32,8]
+"d4/d54/map_8qh.html#ae164808a517903e86f7142599e17eb73":[2,0,4,32,5]
 };

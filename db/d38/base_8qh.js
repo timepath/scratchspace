@@ -27,6 +27,7 @@ var base_8qh =
     [ "MUTATOR_ONROLLBACK_OR_REMOVE", "db/d38/base_8qh.html#a18b6800f2d1093efff7a7c8fcdae7f40", null ],
     [ "MUTATOR_REMOVE", "db/d38/base_8qh.html#a0c4d517c990aee134e074f3421ccb9ef", null ],
     [ "MUTATOR_RETURNVALUE", "db/d38/base_8qh.html#ae802749af56eba2b7d9d38cddd3f9596", null ],
+    [ "MUTATOR_STATIC", "db/d38/base_8qh.html#a2e2d0c2c896c9abcbd390dd9c8db2609", null ],
     [ "Mutators_from", "db/d38/base_8qh.html#afed2fd4849dbb0a1b32e1582fabd7880", null ],
     [ "REGISTER_MUTATOR", "db/d38/base_8qh.html#a34fe2a48e1aba3b8dcca44eb4bb02177", null ],
     [ "mutatorfunc_t", "db/d38/base_8qh.html#a1b524db6116e5e0f886315e5f5057416", null ],

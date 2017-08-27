@@ -133,7 +133,6 @@ var searchData=
   ['playerdemo_5ffields',['PLAYERDEMO_FIELDS',['../dc/d62/playerdemo_8qc.html#a5c59ec03035c8bce90095515b615b2e1',1,'playerdemo.qc']]],
   ['playerscore_5fget',['PlayerScore_Get',['../d5/dac/server_2scores_8qh.html#a4112e3811c1c08ea31a12b6035f4f391',1,'scores.qh']]],
   ['playersounds_5ffrom',['PlayerSounds_from',['../df/d6e/globalsound_8qh.html#a1f8a6acaa0307f5e57ea172ca84b785a',1,'globalsound.qh']]],
-  ['playerteamscore_5faddscore',['PlayerTeamScore_AddScore',['../d5/dac/server_2scores_8qh.html#a44db80abc726d6330522fa5382f1b6e3',1,'scores.qh']]],
   ['pointparticles',['pointparticles',['../da/dde/csprogsdefs_8qh.html#ac8847014472662de37600e592b86ec1f',1,'pointparticles():&#160;csprogsdefs.qh'],['../d3/d9e/dpextensions_8qh.html#ac8847014472662de37600e592b86ec1f',1,'pointparticles():&#160;dpextensions.qh']]],
   ['portals_5fare_5fnot_5fsolid',['PORTALS_ARE_NOT_SOLID',['../de/de8/portals_8qc.html#ab5ab86c6b943c158c01eddebb04cf490',1,'portals.qc']]],
   ['positive_5fpitch_5fis_5fdown',['POSITIVE_PITCH_IS_DOWN',['../df/dee/anglestransform_8qh.html#a0909075e90b39b50ba4d318a27871c4c',1,'anglestransform.qh']]],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"d6/d35/debug_8qc.html":[2,0,6,4,4],
 "d6/d35/debug_8qc_source.html":[2,0,6,4,4],
 "d6/d35/server_2bot_2default_2havocbot_2__mod_8inc.html":[2,0,6,0,0,0,0],
 "d6/d35/server_2bot_2default_2havocbot_2__mod_8inc_source.html":[2,0,6,0,0,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX54 =
 "d6/d74/cvars_8qh.html#ad2131cb7beed5d90883e4ad0b8df9c93":[2,0,6,0,0,8,32],
 "d6/d74/cvars_8qh.html#ad50d717b75b829c49cf776aae7bdab0c":[2,0,6,0,0,8,8],
 "d6/d74/cvars_8qh.html#ad598c59c3f1f1971d0fe11218dbff2e2":[2,0,6,0,0,8,43],
-"d6/d74/cvars_8qh.html#ad8c35724a9baa9ae51b753e5708fbd36":[2,0,6,0,0,8,16]
+"d6/d74/cvars_8qh.html#ad8c35724a9baa9ae51b753e5708fbd36":[2,0,6,0,0,8,16],
+"d6/d74/cvars_8qh.html#adb0413a50e75ae2d3f52007abb7879e4":[2,0,6,0,0,8,0]
 };

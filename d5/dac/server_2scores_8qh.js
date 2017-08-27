@@ -1,7 +1,6 @@
 var server_2scores_8qh =
 [
     [ "PlayerScore_Get", "d5/dac/server_2scores_8qh.html#a4112e3811c1c08ea31a12b6035f4f391", null ],
-    [ "PlayerTeamScore_AddScore", "d5/dac/server_2scores_8qh.html#a44db80abc726d6330522fa5382f1b6e3", null ],
     [ "WINNINGCONDITIONHELPER_LOWERISBETTER_WORST", "d5/dac/server_2scores_8qh.html#a184ac4f6f2f69b2e00edcf69f95184c7", null ],
     [ "GetPlayerScoreString", "d5/dac/server_2scores_8qh.html#ad28463ced5516457ad57a090398dfa49", null ],
     [ "GetTeamScoreString", "d5/dac/server_2scores_8qh.html#a207c46a80dd896f8487773a62572d98c", null ],

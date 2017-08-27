@@ -195,6 +195,8 @@ var NAVTREEINDEX16 =
 "d2/d38/path__waypoint_8qh_source.html":[2,0,6,4,13],
 "d2/d3a/common_2mutators_2mutator_2itemstime_2__mod_8qh.html":[2,0,1,9,0,13,1],
 "d2/d3a/common_2mutators_2mutator_2itemstime_2__mod_8qh_source.html":[2,0,1,9,0,13,1],
+"d2/d3a/rules_8qc.html":[2,0,1,3,3],
+"d2/d3a/rules_8qc_source.html":[2,0,1,3,3],
 "d2/d3b/weapons_2config_8qh.html":[2,0,1,16,11],
 "d2/d3b/weapons_2config_8qh_source.html":[2,0,1,16,11],
 "d2/d3c/dialog__hudpanel__score_8qh.html":[2,0,5,4,75],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "d2/d42/classXonoticUserbindEditDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,249,17],
 "d2/d42/classXonoticUserbindEditDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,249,66],
 "d2/d42/classXonoticUserbindEditDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,249,34],
-"d2/d42/classXonoticUserbindEditDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,249,10],
-"d2/d42/classXonoticUserbindEditDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,249,51],
-"d2/d42/classXonoticUserbindEditDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,249,61]
+"d2/d42/classXonoticUserbindEditDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,249,10]
 };

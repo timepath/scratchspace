@@ -44,7 +44,6 @@ var g__world_8qc =
     [ "RestoreGame", "db/dcc/g__world_8qc.html#af8f462400b6e203393394085ab5bc7d1", null ],
     [ "RunThink", "db/dcc/g__world_8qc.html#aba98b9ec2f2a3531debad956246d3b99", null ],
     [ "SetDefaultAlpha", "db/dcc/g__world_8qc.html#a1a54385aa9929a708f4b06be4b86ffa0", null ],
-    [ "SetLimits", "db/dcc/g__world_8qc.html#a246b8f5baa8038cddf08ecc9adf5b17c", null ],
     [ "SetWinners", "db/dcc/g__world_8qc.html#a5e4e81a9c481420994df74eef50865c8", null ],
     [ "ShuffleMaplist", "db/dcc/g__world_8qc.html#a828a5409a4543c1aa36549252a04fb0f", null ],
     [ "Shutdown", "db/dcc/g__world_8qc.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9", null ],

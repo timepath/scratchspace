@@ -1,7 +1,7 @@
 var searchData=
 [
   ['backgroundimage',['backgroundImage',['../d5/d95/classXonoticDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea',1,'XonoticDialog']]],
-  ['ballcarried',['ballcarried',['../d5/d26/server_2defs_8qh.html#a137a4251a46a5fea7db7d4f16b190dcb',1,'defs.qh']]],
+  ['ballcarried',['ballcarried',['../d3/d5a/gamemode__keepaway_8qc.html#a137a4251a46a5fea7db7d4f16b190dcb',1,'gamemode_keepaway.qc']]],
   ['ballistics_5fdensity',['ballistics_density',['../d2/d4b/classPlayer.html#abfb4d82d39f5940c20f2e866eefb10ec',1,'Player::ballistics_density()'],['../d5/d26/server_2defs_8qh.html#a4fb2fb54df1e968eb7ecb8cc92f0f3ec',1,'ballistics_density():&#160;defs.qh']]],
   ['ban_5fchecked',['ban_checked',['../d6/d95/ipban_8qc.html#a0cc14f1baeb0997f35d7d929b2836628',1,'ipban.qc']]],
   ['ban_5fcount',['ban_count',['../d6/d95/ipban_8qc.html#adb129794ee531ea662996f0475b4a686',1,'ipban.qc']]],

@@ -5,7 +5,6 @@ var gamemode__lms_8qc =
     [ "lms_Initialize", "d7/db3/gamemode__lms_8qc.html#aa7327441f669f21b871d3cd035f9c4e4", null ],
     [ "LMS_NewPlayerLives", "d7/db3/gamemode__lms_8qc.html#a25114f90621533d4d5bee24ebf2003f4", null ],
     [ "lms_RemovePlayer", "d7/db3/gamemode__lms_8qc.html#a0a66f0e0fcbcfdc582cfd3709335dbea", null ],
-    [ "lms_ScoreRules", "d7/db3/gamemode__lms_8qc.html#a19e3a98763746ecbc6d756d5675d955a", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/db3/gamemode__lms_8qc.html#a2385f734cb636ada6774fcf460a1ff68", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/db3/gamemode__lms_8qc.html#a9c11e4b5ceee9ae029eaead407748ade", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/db3/gamemode__lms_8qc.html#a66a5026b1608e1f0eab9e95832cbba85", null ],

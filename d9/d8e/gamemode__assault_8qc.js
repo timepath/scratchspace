@@ -9,7 +9,6 @@ var gamemode__assault_8qc =
     [ "assault_objective_use", "d9/d8e/gamemode__assault_8qc.html#a26a9717015780e7bdfe3993957f7aeea", null ],
     [ "assault_roundstart_use", "d9/d8e/gamemode__assault_8qc.html#a1060e99fa367c1d8b6b530c2648be879", null ],
     [ "assault_roundstart_use_this", "d9/d8e/gamemode__assault_8qc.html#a22c7bc5c1fd881ab2ae75f2eddf1277e", null ],
-    [ "assault_ScoreRules", "d9/d8e/gamemode__assault_8qc.html#af9ce8a13c37efdd85ac68f7b16bd7ac9", null ],
     [ "assault_setenemytoobjective", "d9/d8e/gamemode__assault_8qc.html#a5161e1e943b09252a05675b547242bb0", null ],
     [ "assault_wall_think", "d9/d8e/gamemode__assault_8qc.html#a9ba83440318ba1a6dff55d4e88704956", null ],
     [ "havocbot_ast_reset_role", "d9/d8e/gamemode__assault_8qc.html#a6b0949e5d4a26c66dc7036e96ab2f3e4", null ],

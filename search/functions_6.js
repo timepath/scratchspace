@@ -80,7 +80,6 @@ var searchData=
   ['freezetag_5fiseliminated',['freezetag_isEliminated',['../db/d26/gamemode__freezetag_8qc.html#aa2f9e02510c1dfd9bf88a8fd6a476f41',1,'gamemode_freezetag.qc']]],
   ['freezetag_5flastplayerforteam',['freezetag_LastPlayerForTeam',['../db/d26/gamemode__freezetag_8qc.html#aee1dac91a06305051bdcfbef40a659d0',1,'gamemode_freezetag.qc']]],
   ['freezetag_5flastplayerforteam_5fnotify',['freezetag_LastPlayerForTeam_Notify',['../db/d26/gamemode__freezetag_8qc.html#a815df653448834dad10357124b337731',1,'gamemode_freezetag.qc']]],
-  ['freezetag_5fscorerules',['freezetag_ScoreRules',['../db/d26/gamemode__freezetag_8qc.html#a81cb8cf59439fb9ea8fecac73e5b5cfe',1,'gamemode_freezetag.qc']]],
   ['freezetag_5funfreeze',['freezetag_Unfreeze',['../db/d26/gamemode__freezetag_8qc.html#af1bed3fb86fc2e983e247cc0307a4107',1,'gamemode_freezetag.qc']]],
   ['frexp',['frexp',['../df/d38/mathlib_8qc.html#aa7fc3f886d2de787856fda7958809a2e',1,'frexp(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#aa7fc3f886d2de787856fda7958809a2e',1,'frexp(float e):&#160;mathlib.qc']]],
   ['fromdecibelofsquare',['fromDecibelOfSquare',['../d8/db3/slider__decibels_8qc.html#a8069769b4af3b799387654e5dc25302e',1,'slider_decibels.qc']]],

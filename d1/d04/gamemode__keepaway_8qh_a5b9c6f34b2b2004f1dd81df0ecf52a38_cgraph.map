@@ -1,64 +1,49 @@
 <map id="REGISTER_MUTATOR" name="REGISTER_MUTATOR">
-<area shape="rect" id="node2" href="$d1/d04/gamemode__keepaway_8qh.html#ad066a4c24559d830eee8b0e63c5e5d0e" title="ka_Initialize" alt="" coords="219,1223,309,1249"/>
-<area shape="rect" id="node3" href="$d3/d5a/gamemode__keepaway_8qc.html#a300b4ce61aacb1ec436031cd9f1aeed4" title="ka_ScoreRules" alt="" coords="1115,1261,1226,1288"/>
-<area shape="rect" id="node19" href="$d3/d5a/gamemode__keepaway_8qc.html#abbf02f92af7cca347d884d06e05b7399" title="ka_SpawnBall" alt="" coords="358,1095,463,1121"/>
-<area shape="rect" id="node4" href="$d2/d79/scores_8qc.html#a601d5f667de9976b2a1ca7f6fc6051de" title="Set the label of a player score item, as well as the scoring flags. " alt="" coords="1576,1198,1712,1239"/>
-<area shape="rect" id="node6" href="$d5/d14/scores__rules_8qc.html#ac67defd12e305443ab1cf4266ca03c8f" title="ScoreRules_basics" alt="" coords="1350,1248,1485,1275"/>
-<area shape="rect" id="node8" href="$d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05" title="ScoreRules_basics_end" alt="" coords="1336,1299,1499,1325"/>
-<area shape="rect" id="node5" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="1815,1056,1870,1083"/>
-<area shape="rect" id="node7" href="$d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882" title="Set the label of a team score item, as well as the scoring flags. " alt="" coords="1576,1263,1712,1305"/>
-<area shape="rect" id="node9" href="$d2/d79/scores_8qc.html#a51f0d41043a05b6682f5322b3f338abd" title="ScoreInfo_Init" alt="" coords="1593,1451,1695,1477"/>
-<area shape="rect" id="node10" href="$d2/d79/scores_8qc.html#a8fe097dffad5360aea8e78c7fe249d32" title="ScoreInfo_SendEntity" alt="" coords="1768,1501,1917,1528"/>
-<area shape="rect" id="node13" href="$d2/d79/scores_8qc.html#a5db481005e2c63c868c58b15537638a0" title="TeamScore_Spawn" alt="" coords="1775,1451,1911,1477"/>
-<area shape="rect" id="node11" href="$d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516" title="WriteString" alt="" coords="2002,1501,2089,1528"/>
-<area shape="rect" id="node12" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="2176,1552,2256,1579"/>
-<area shape="rect" id="node14" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="2018,549,2073,576"/>
-<area shape="rect" id="node15" href="$d2/d79/scores_8qc.html#afada77c7b9046dc439737459f196231a" title="TeamScore_SendEntity" alt="" coords="1965,1451,2125,1477"/>
-<area shape="rect" id="node16" href="$d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15" title="eprint" alt="" coords="2189,1400,2243,1427"/>
-<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35" title="WriteShort" alt="" coords="2174,1451,2258,1477"/>
-<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#a52cb9ee43a3668c53bee4ff715da8260" title="WriteChar" alt="" coords="2175,1501,2257,1528"/>
-<area shape="rect" id="node20" href="$d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" title="Push to tail. " alt="" coords="566,1095,645,1121"/>
-<area shape="rect" id="node22" href="$dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877" title="InitializeEntity" alt="" coords="915,1400,1019,1427"/>
-<area shape="rect" id="node23" href="$d3/d5a/gamemode__keepaway_8qc.html#ad75b1b0af4cf3c4d1edc48296104d6ed" title="used to clear the ballcarrier whenever the match switches from warmup to normal " alt="" coords="566,861,645,888"/>
-<area shape="rect" id="node36" href="$d3/d5a/gamemode__keepaway_8qc.html#a918f60aac6917ab91d28888e6f0fade3" title="ka_RespawnBall" alt="" coords="907,636,1027,663"/>
-<area shape="rect" id="node37" href="$d3/d5a/gamemode__keepaway_8qc.html#ac4c4fbb459ed5ae28fa62d2a8d53a5a7" title="ka_TouchEvent" alt="" coords="1114,940,1227,967"/>
-<area shape="rect" id="node43" href="$d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78" title="set_movetype" alt="" coords="1365,761,1469,788"/>
-<area shape="rect" id="node63" href="$db/d15/api_8qh.html#a7ee208dfaf077cf2c6ef10818b975fd9" title="navigation_dynamicgoal_init" alt="" coords="513,1145,698,1172"/>
-<area shape="rect" id="node21" href="$d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" title="IL_CONTAINS" alt="" coords="747,1095,858,1121"/>
-<area shape="rect" id="node24" href="$d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44" title="func_null" alt="" coords="1380,1096,1455,1123"/>
-<area shape="rect" id="node25" href="$d3/d5a/gamemode__keepaway_8qc.html#a259b3a95461e18da357a2b9d7512e2e6" title="ka_DropEvent" alt="" coords="750,781,855,808"/>
-<area shape="rect" id="node26" href="$d3/d5a/gamemode__keepaway_8qc.html#af8f0e411c8293afa501c76d2f9f5f904" title="ka_EventLog" alt="" coords="1368,812,1467,839"/>
-<area shape="rect" id="node44" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="1382,687,1453,713"/>
-<area shape="rect" id="node50" href="$db/d15/api_8qh.html#a5848061af05382b84c2d5231c59759f1" title="navigation_dynamicgoal_set" alt="" coords="1077,43,1264,69"/>
-<area shape="rect" id="node27" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="1821,955,1865,981"/>
-<area shape="rect" id="node28" href="$dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3" title="GameLogEcho" alt="" coords="1590,812,1698,839"/>
-<area shape="rect" id="node29" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="1807,752,1879,779"/>
-<area shape="rect" id="node30" href="$db/d9b/server_2player_8qc.html#a0390f6703ace29f61655694b8821d84a" title="print(), but only print if the server is not local " alt="" coords="1787,904,1898,931"/>
-<area shape="rect" id="node32" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="1815,803,1870,829"/>
-<area shape="rect" id="node33" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="1817,853,1868,880"/>
-<area shape="rect" id="node34" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="1815,651,1870,677"/>
-<area shape="rect" id="node35" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="1805,701,1880,728"/>
-<area shape="rect" id="node31" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="2022,904,2069,931"/>
-<area shape="rect" id="node45" href="$dc/dc6/server_2miscfunctions_8qc.html#aa93bfe50de097cc229818a2822f45a45" title="MoveToRandomMapLocation" alt="" coords="1075,267,1267,293"/>
-<area shape="rect" id="node49" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="2016,68,2075,95"/>
-<area shape="rect" id="node51" href="$d0/d41/spawnpoints_8qc.html#a71804b6dc31803f43afa105a34e35d04" title="SelectSpawnPoint" alt="" coords="1106,397,1235,424"/>
-<area shape="rect" id="node38" href="$d3/d5a/gamemode__keepaway_8qc.html#aba900e001d432363ed6e93c6b5499a84" title="ka_ballcarrier_waypointsprite\l_visible_for_player" alt="" coords="1322,863,1513,905"/>
-<area shape="rect" id="node39" href="$d3/d5a/gamemode__keepaway_8qc.html#a4aec8808850dd14dd563f20a9ce5618c" title="ka_TimeScoring" alt="" coords="1359,995,1475,1021"/>
-<area shape="rect" id="node40" href="$d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4" title="Adds a score to the player&#39;s scores. " alt="" coords="1583,1045,1705,1072"/>
-<area shape="rect" id="node42" href="$db/d15/api_8qh.html#af3180b7544df1c7106b080ca79486a19" title="navigation_dynamicgoal\l_unset" alt="" coords="1337,929,1498,970"/>
-<area shape="rect" id="node41" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="1822,1107,1863,1133"/>
-<area shape="rect" id="node46" href="$dc/dc6/server_2miscfunctions_8qc.html#a980a6f943699026265182e645ad4d8ef" title="MoveToRandomLocationWithin\lBounds" alt="" coords="1315,179,1519,221"/>
-<area shape="rect" id="node47" href="$d4/d0c/csprogsdefs_8qc.html#a94c5b969ccc333b040b402d69d3338a2" title="checkpvs" alt="" coords="1605,144,1683,171"/>
-<area shape="rect" id="node48" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="1611,245,1677,272"/>
-<area shape="rect" id="node52" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="1396,296,1439,323"/>
-<area shape="rect" id="node53" href="$d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625" title="Spawn_WeightedPoint" alt="" coords="1340,397,1495,424"/>
-<area shape="rect" id="node56" href="$d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901" title="Spawn_FilterOutBadSpots" alt="" coords="1329,448,1505,475"/>
-<area shape="rect" id="node62" href="$d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64" title="GotoNextMap" alt="" coords="1366,245,1469,272"/>
-<area shape="rect" id="node54" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="1569,347,1719,373"/>
-<area shape="rect" id="node55" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="1615,296,1673,323"/>
-<area shape="rect" id="node57" href="$d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698" title="Spawn_ScoreAll" alt="" coords="1585,448,1703,475"/>
-<area shape="rect" id="node58" href="$d0/d41/spawnpoints_8qc.html#adb306ba6ed0866d22bb8f9318d8c4488" title="Spawn_Score" alt="" coords="1791,144,1894,171"/>
-<area shape="rect" id="node59" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="2022,220,2069,247"/>
-<area shape="rect" id="node60" href="$d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd" title="LOG_TRACE" alt="" coords="1994,119,2097,145"/>
-<area shape="rect" id="node61" href="$d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2" title="vtos" alt="" coords="2022,169,2069,196"/>
+<area shape="rect" id="node2" href="$d1/d04/gamemode__keepaway_8qh.html#ad066a4c24559d830eee8b0e63c5e5d0e" title="ka_Initialize" alt="" coords="219,259,309,286"/>
+<area shape="rect" id="node3" href="$d3/d5a/gamemode__keepaway_8qc.html#abbf02f92af7cca347d884d06e05b7399" title="ka_SpawnBall" alt="" coords="358,259,463,286"/>
+<area shape="rect" id="node4" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1953,752,2007,779"/>
+<area shape="rect" id="node5" href="$d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" title="Push to tail. " alt="" coords="566,94,645,120"/>
+<area shape="rect" id="node7" href="$dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877" title="InitializeEntity" alt="" coords="915,144,1019,171"/>
+<area shape="rect" id="node8" href="$d3/d5a/gamemode__keepaway_8qc.html#ad75b1b0af4cf3c4d1edc48296104d6ed" title="used to clear the ballcarrier whenever the match switches from warmup to normal " alt="" coords="566,386,645,412"/>
+<area shape="rect" id="node23" href="$d3/d5a/gamemode__keepaway_8qc.html#a918f60aac6917ab91d28888e6f0fade3" title="ka_RespawnBall" alt="" coords="907,651,1027,678"/>
+<area shape="rect" id="node24" href="$d3/d5a/gamemode__keepaway_8qc.html#ac4c4fbb459ed5ae28fa62d2a8d53a5a7" title="ka_TouchEvent" alt="" coords="1114,347,1227,374"/>
+<area shape="rect" id="node28" href="$d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78" title="set_movetype" alt="" coords="1365,640,1469,667"/>
+<area shape="rect" id="node48" href="$db/d15/api_8qh.html#a7ee208dfaf077cf2c6ef10818b975fd9" title="navigation_dynamicgoal_init" alt="" coords="513,904,698,931"/>
+<area shape="rect" id="node6" href="$d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" title="IL_CONTAINS" alt="" coords="747,94,858,120"/>
+<area shape="rect" id="node9" href="$d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44" title="func_null" alt="" coords="1380,195,1455,222"/>
+<area shape="rect" id="node10" href="$d3/d5a/gamemode__keepaway_8qc.html#a259b3a95461e18da357a2b9d7512e2e6" title="ka_DropEvent" alt="" coords="750,448,855,475"/>
+<area shape="rect" id="node11" href="$d7/d39/sv__rules_8qc.html#a45421c6953dd81519e25361836938249" title="Mark a player as being &#39;important&#39; (flag carrier, ball carrier, etc) " alt="" coords="1335,530,1499,556"/>
+<area shape="rect" id="node12" href="$d3/d5a/gamemode__keepaway_8qc.html#af8f0e411c8293afa501c76d2f9f5f904" title="ka_EventLog" alt="" coords="1368,479,1467,506"/>
+<area shape="rect" id="node29" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="1382,580,1453,607"/>
+<area shape="rect" id="node35" href="$db/d15/api_8qh.html#a5848061af05382b84c2d5231c59759f1" title="navigation_dynamicgoal_set" alt="" coords="1077,600,1264,627"/>
+<area shape="rect" id="node13" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="1802,296,1846,323"/>
+<area shape="rect" id="node14" href="$dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3" title="GameLogEcho" alt="" coords="1590,479,1698,506"/>
+<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="1797,651,1851,678"/>
+<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="1788,550,1860,576"/>
+<area shape="rect" id="node16" href="$db/d9b/server_2player_8qc.html#a0390f6703ace29f61655694b8821d84a" title="print(), but only print if the server is not local " alt="" coords="1769,347,1879,374"/>
+<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="1797,600,1851,627"/>
+<area shape="rect" id="node19" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="1799,398,1849,424"/>
+<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="1797,448,1851,475"/>
+<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="1787,499,1861,526"/>
+<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="1957,347,2003,374"/>
+<area shape="rect" id="node30" href="$dc/dc6/server_2miscfunctions_8qc.html#aa93bfe50de097cc229818a2822f45a45" title="MoveToRandomMapLocation" alt="" coords="1075,803,1267,830"/>
+<area shape="rect" id="node34" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1951,1234,2009,1260"/>
+<area shape="rect" id="node36" href="$d0/d41/spawnpoints_8qc.html#a71804b6dc31803f43afa105a34e35d04" title="SelectSpawnPoint" alt="" coords="1106,1031,1235,1058"/>
+<area shape="rect" id="node25" href="$d3/d5a/gamemode__keepaway_8qc.html#aba900e001d432363ed6e93c6b5499a84" title="ka_ballcarrier_waypointsprite\l_visible_for_player" alt="" coords="1322,413,1513,454"/>
+<area shape="rect" id="node26" href="$d3/d5a/gamemode__keepaway_8qc.html#a4aec8808850dd14dd563f20a9ce5618c" title="ka_TimeScoring" alt="" coords="1359,296,1475,323"/>
+<area shape="rect" id="node27" href="$db/d15/api_8qh.html#af3180b7544df1c7106b080ca79486a19" title="navigation_dynamicgoal\l_unset" alt="" coords="1337,348,1498,389"/>
+<area shape="rect" id="node31" href="$dc/dc6/server_2miscfunctions_8qc.html#a980a6f943699026265182e645ad4d8ef" title="MoveToRandomLocationWithin\lBounds" alt="" coords="1315,796,1519,837"/>
+<area shape="rect" id="node32" href="$d4/d0c/csprogsdefs_8qc.html#a94c5b969ccc333b040b402d69d3338a2" title="checkpvs" alt="" coords="1605,803,1683,830"/>
+<area shape="rect" id="node33" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="1611,904,1677,931"/>
+<area shape="rect" id="node37" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="1396,1031,1439,1058"/>
+<area shape="rect" id="node38" href="$d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625" title="Spawn_WeightedPoint" alt="" coords="1340,1082,1495,1108"/>
+<area shape="rect" id="node41" href="$d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901" title="Spawn_FilterOutBadSpots" alt="" coords="1329,980,1505,1007"/>
+<area shape="rect" id="node47" href="$d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64" title="GotoNextMap" alt="" coords="1366,1132,1469,1159"/>
+<area shape="rect" id="node39" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="1569,1158,1719,1184"/>
+<area shape="rect" id="node40" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="1615,1107,1673,1134"/>
+<area shape="rect" id="node42" href="$d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698" title="Spawn_ScoreAll" alt="" coords="1585,1006,1703,1032"/>
+<area shape="rect" id="node43" href="$d0/d41/spawnpoints_8qc.html#adb306ba6ed0866d22bb8f9318d8c4488" title="Spawn_Score" alt="" coords="1773,1158,1875,1184"/>
+<area shape="rect" id="node44" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="1957,1183,2003,1210"/>
+<area shape="rect" id="node45" href="$d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd" title="LOG_TRACE" alt="" coords="1929,1082,2031,1108"/>
+<area shape="rect" id="node46" href="$d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2" title="vtos" alt="" coords="1957,1132,2003,1159"/>
 </map>

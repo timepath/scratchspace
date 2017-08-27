@@ -53,5 +53,7 @@ var searchData=
   ['rpc_2eqh',['rpc.qh',['../d6/d69/rpc_8qh.html',1,'']]],
   ['rpn_2eqc',['rpn.qc',['../d7/d72/rpn_8qc.html',1,'']]],
   ['rpn_2eqh',['rpn.qh',['../d4/db4/rpn_8qh.html',1,'']]],
-  ['rubble_2eqh',['rubble.qh',['../d0/de2/rubble_8qh.html',1,'']]]
+  ['rubble_2eqh',['rubble.qh',['../d0/de2/rubble_8qh.html',1,'']]],
+  ['rules_2eqc',['rules.qc',['../d2/d3a/rules_8qc.html',1,'']]],
+  ['rules_2eqh',['rules.qh',['../dd/de1/rules_8qh.html',1,'']]]
 ];

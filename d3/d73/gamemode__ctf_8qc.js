@@ -75,7 +75,6 @@ var gamemode__ctf_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d3/d73/gamemode__ctf_8qc.html#a421d486f1d60259c86b63657124f59b6", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d73/gamemode__ctf_8qc.html#aefed1ed28db9ccb2543fa01eb937617e", null ],
     [ "nades_GiveBonus", "d3/d73/gamemode__ctf_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3", null ],
-    [ "REGISTER_MUTATOR", "d3/d73/gamemode__ctf_8qc.html#ad57a66696ffcccefbcb985fcaa04ad42", null ],
     [ "shockwave_spawn", "d3/d73/gamemode__ctf_8qc.html#a5e3a656507b1b89c7d8f5dc8e6c33936", null ],
     [ "spawnfunc", "d3/d73/gamemode__ctf_8qc.html#a2a2129ef74628a0c8bef5d48a016e3e0", null ],
     [ "spawnfunc", "d3/d73/gamemode__ctf_8qc.html#a2610f44adfa2f44bb2c5c848669b5ad9", null ],

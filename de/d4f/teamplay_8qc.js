@@ -1,6 +1,5 @@
 var teamplay_8qc =
 [
-    [ "ActivateTeamplay", "de/d4f/teamplay_8qc.html#ae1c3e008f1694a4a8d288f0708893574", null ],
     [ "CheckAllowedTeams", "de/d4f/teamplay_8qc.html#a838b897a9ae86e8bf932e57c356ec987", null ],
     [ "default_delayedinit", "de/d4f/teamplay_8qc.html#a5f4692aa7896daea45fe2a5b380ca559", null ],
     [ "FindSmallestTeam", "de/d4f/teamplay_8qc.html#abaa1224f550ef1ffcd58d9cfbd8a2d4f", null ],

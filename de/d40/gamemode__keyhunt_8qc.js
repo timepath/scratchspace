@@ -93,6 +93,6 @@ var gamemode__keyhunt_8qc =
     [ "kh_teams", "de/d40/gamemode__keyhunt_8qc.html#ad854fcb1e82836772a09f1203345400d", null ],
     [ "kh_worldkeynext", "de/d40/gamemode__keyhunt_8qc.html#abb611131b031308c318e295ec74a375f", null ],
     [ "siren_time", "de/d40/gamemode__keyhunt_8qc.html#aa465e46bf7aed2129743d3e31e498590", null ],
-    [ "ST_KH_CAPS", "de/d40/gamemode__keyhunt_8qc.html#a3c9b45db429a8789aca99c83770d0896", null ],
+    [ "ST_KH_CAPS", "de/d40/gamemode__keyhunt_8qc.html#aa41aafec7dc08ba2d16e3508a7410f7c", null ],
     [ "STR_ITEM_KH_KEY", "de/d40/gamemode__keyhunt_8qc.html#a42a822b2117fd619506fa333a9cf935f", null ]
 ];

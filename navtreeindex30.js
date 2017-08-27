@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"d3/dbe/classSlider.html#a21940ad168efbea189d0efffd28d2586":[1,0,116,13],
 "d3/dbe/classSlider.html#a27b635e0916726012b7e8c4dca05064e":[1,0,116,35],
 "d3/dbe/classSlider.html#a2b037bf524215b36e92bd1de1009634d":[1,0,116,21],
 "d3/dbe/classSlider.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,116,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "d3/dd1/menu_2xonotic_2button_8qh_source.html":[2,0,5,4,7],
 "d3/dd1/server_2impulse_8qh.html":[2,0,6,34],
 "d3/dd1/server_2impulse_8qh.html#a592fd33e424a2e05854957b679c37e1b":[2,0,6,34,0],
-"d3/dd1/server_2impulse_8qh_source.html":[2,0,6,34],
-"d3/dd3/common_2mutators_2mutator_2bugrigs_2__mod_8inc.html":[2,0,1,9,0,3,0]
+"d3/dd1/server_2impulse_8qh_source.html":[2,0,6,34]
 };
