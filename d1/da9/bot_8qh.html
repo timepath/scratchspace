@@ -288,7 +288,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00274">autocvar_skill</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38">bprint()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00082">LOG_DEBUG</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00681">bot_serverframe()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00691">bot_serverframe()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;{</div>
 <div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    <span class="keywordtype">float</span> bestbot;</div>
 <div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    <span class="keywordtype">float</span> bestplayer;</div>
@@ -385,7 +385,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00312">autocvar_sv_gravity</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00318">autocvar_sv_jumpvelocity</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00337">autocvar_sv_stepheight</a>, <a class="el" href="../../df/dd4/navigation_8qh_source.html#l00010">jumpstepheightvec</a>, and <a class="el" href="../../df/dd4/navigation_8qh_source.html#l00011">stepheightvec</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00681">bot_serverframe()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00222">waypoint_think()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00691">bot_serverframe()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00222">waypoint_think()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;{</div>
 <div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;    <a class="code" href="../../df/dd4/navigation_8qh.html#a7720e59946f1e4d81ce4c7c9e2a87663">stepheightvec</a> = <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ae5c2afba74fbd8263aef8c457e66bae7">autocvar_sv_stepheight</a> * <span class="stringliteral">&#39;0 0 1&#39;</span>;</div>
 <div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    <a class="code" href="../../df/dd4/navigation_8qh.html#a75221be7d8873635bc580f7f8bec5d40">jumpstepheightvec</a> = <a class="code" href="../../df/dd4/navigation_8qh.html#a7720e59946f1e4d81ce4c7c9e2a87663">stepheightvec</a> +</div>
@@ -424,18 +424,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00673">673</a> of file <a class="el" href="../../d2/dc0/bot_8qc_source.html">bot.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00683">683</a> of file <a class="el" href="../../d2/dc0/bot_8qc_source.html">bot.qc</a>.</p>
 
-<p>References <a class="el" href="../../d1/da9/bot_8qh_source.html#l00017">AI_STATUS_STUCK</a>, <a class="el" href="../../d1/da9/bot_8qh_source.html#l00020">aistatus</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00648">bot_remove_from_bot_list()</a>, <a class="el" href="../../df/dd4/navigation_8qh_source.html#l00043">bot_waypoint_queue_owner</a>, and <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>.</p>
-<div class="fragment"><div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;{</div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;    <a class="code" href="../../d2/dc0/bot_8qc.html#a86e20f51637fbc4bb1b17bf6c198a537">bot_remove_from_bot_list</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../df/dd4/navigation_8qh.html#a6637ad046082c2b173faa0cf51e286a4">bot_waypoint_queue_owner</a> == <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;        <a class="code" href="../../df/dd4/navigation_8qh.html#a6637ad046082c2b173faa0cf51e286a4">bot_waypoint_queue_owner</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;    this.<a class="code" href="../../d1/da9/bot_8qh.html#a21c2137f2c6aae7645f244993966261d">aistatus</a> &amp;= ~<a class="code" href="../../d1/da9/bot_8qh.html#aeeabade2348770462d155b15b295999c">AI_STATUS_STUCK</a>; <span class="comment">// otherwise bot_waypoint_queue_owner will be set again to this by navigation_unstuck</span></div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;}</div>
+<p>References <a class="el" href="../../d1/da9/bot_8qh_source.html#l00017">AI_STATUS_STUCK</a>, <a class="el" href="../../d1/da9/bot_8qh_source.html#l00020">aistatus</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00658">bot_remove_from_bot_list()</a>, <a class="el" href="../../df/dd4/navigation_8qh_source.html#l00043">bot_waypoint_queue_owner</a>, and <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>.</p>
+<div class="fragment"><div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;{</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    <a class="code" href="../../d2/dc0/bot_8qc.html#a86e20f51637fbc4bb1b17bf6c198a537">bot_remove_from_bot_list</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../df/dd4/navigation_8qh.html#a6637ad046082c2b173faa0cf51e286a4">bot_waypoint_queue_owner</a> == <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;        <a class="code" href="../../df/dd4/navigation_8qh.html#a6637ad046082c2b173faa0cf51e286a4">bot_waypoint_queue_owner</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;    this.<a class="code" href="../../d1/da9/bot_8qh.html#a21c2137f2c6aae7645f244993966261d">aistatus</a> &amp;= ~<a class="code" href="../../d1/da9/bot_8qh.html#aeeabade2348770462d155b15b295999c">AI_STATUS_STUCK</a>; <span class="comment">// otherwise bot_waypoint_queue_owner will be set again to this by navigation_unstuck</span></div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;}</div>
 <div class="ttc" id="bot_8qh_html_a21c2137f2c6aae7645f244993966261d"><div class="ttname"><a href="../../d1/da9/bot_8qh.html#a21c2137f2c6aae7645f244993966261d">aistatus</a></div><div class="ttdeci">int aistatus</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da9/bot_8qh_source.html#l00020">bot.qh:20</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
-<div class="ttc" id="bot_8qc_html_a86e20f51637fbc4bb1b17bf6c198a537"><div class="ttname"><a href="../../d2/dc0/bot_8qc.html#a86e20f51637fbc4bb1b17bf6c198a537">bot_remove_from_bot_list</a></div><div class="ttdeci">void bot_remove_from_bot_list(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc0/bot_8qc_source.html#l00648">bot.qc:648</a></div></div>
+<div class="ttc" id="bot_8qc_html_a86e20f51637fbc4bb1b17bf6c198a537"><div class="ttname"><a href="../../d2/dc0/bot_8qc.html#a86e20f51637fbc4bb1b17bf6c198a537">bot_remove_from_bot_list</a></div><div class="ttdeci">void bot_remove_from_bot_list(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc0/bot_8qc_source.html#l00658">bot.qc:658</a></div></div>
 <div class="ttc" id="navigation_8qh_html_a6637ad046082c2b173faa0cf51e286a4"><div class="ttname"><a href="../../df/dd4/navigation_8qh.html#a6637ad046082c2b173faa0cf51e286a4">bot_waypoint_queue_owner</a></div><div class="ttdeci">entity bot_waypoint_queue_owner</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd4/navigation_8qh_source.html#l00043">navigation.qh:43</a></div></div>
 <div class="ttc" id="bot_8qh_html_aeeabade2348770462d155b15b295999c"><div class="ttname"><a href="../../d1/da9/bot_8qh.html#aeeabade2348770462d155b15b295999c">AI_STATUS_STUCK</a></div><div class="ttdeci">const int AI_STATUS_STUCK</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da9/bot_8qh_source.html#l00017">bot.qh:17</a></div></div>
 </div><!-- fragment -->
@@ -770,7 +770,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d6/d74/cvars_8qh_source.html#l00048">autocvar_bot_join_empty</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00009">autocvar_bot_number</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00010">autocvar_bot_vs_human</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00265">autocvar_minplayers</a>, <a class="el" href="../../d5/d14/scores__rules_8qc_source.html#l00018">AvailableTeams()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00494">bot_removenewest()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00051">bot_spawn()</a>, <a class="el" href="../../d1/da9/bot_8qh_source.html#l00076">botframe_nextthink</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00022">bots_would_leave</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38">bprint()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00021">currentbots</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00021">maxclients</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min()</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00140">MUTATOR_CALLHOOK</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00031">teamplay</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00681">bot_serverframe()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00691">bot_serverframe()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;{</div>
 <div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;    <span class="keywordtype">int</span> activerealplayers = 0;</div>
 <div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;    <span class="keywordtype">int</span> realplayers = 0;</div>
@@ -784,52 +784,62 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;            ++realplayers;</div>
 <div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        });</div>
 <div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;    }</div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    <span class="keywordtype">int</span> bots;</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;    <span class="comment">// add/remove bots if needed to make sure there are at least</span></div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    <span class="comment">// minplayers+bot_number, or remove all bots if no one is playing</span></div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    <span class="comment">// But don&#39;t remove bots immediately on level change, as the real players</span></div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    <span class="comment">// usually haven&#39;t rejoined yet</span></div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    <a class="code" href="../../d5/d26/server_2defs_8qh.html#a99c2625b177f6c950e540ebfa8970886">bots_would_leave</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> &amp;&amp; <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#acca83439b109f1e0156cad1440d903b2">autocvar_bot_vs_human</a> &amp;&amp; <a class="code" href="../../d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec">AvailableTeams</a>() == 2)</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;        bots = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#acca83439b109f1e0156cad1440d903b2">autocvar_bot_vs_human</a>) * activerealplayers), <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a> - realplayers);</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((realplayers || <a class="code" href="../../d6/d74/cvars_8qh.html#a02f07646d2b2ae8dc43c7ec7c3ac5b95">autocvar_bot_join_empty</a> || (<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> &gt; 0 &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; 5)))</div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    {</div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;        <span class="keywordtype">float</span> realminplayers, minplayers;</div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;        realminplayers = <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a5c98324cfd163efd161fa89a7f368885">autocvar_minplayers</a>;</div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;        minplayers = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(realminplayers));</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;        <span class="keywordtype">float</span> realminbots, minbots;</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        realminbots = <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#afde88aaa384ed8b796ca68b8622b66f9">autocvar_bot_number</a>;</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        minbots = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(realminbots));</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;        bots = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(minbots, minplayers - activerealplayers), <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a> - realplayers);</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;        <span class="keywordflow">if</span>(bots &gt; minbots)</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;            <a class="code" href="../../d5/d26/server_2defs_8qh.html#a99c2625b177f6c950e540ebfa8970886">bots_would_leave</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    }</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    {</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;        <span class="comment">// if there are no players, remove bots</span></div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;        bots = 0;</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    }</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> == -1)</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    {</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> = 0;</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        <span class="comment">// human players joining early may cause weird issues (bots appearing on</span></div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;        <span class="comment">// the scoreboard as spectators) when switching map with the gotomap</span></div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;        <span class="comment">// command, as it doesn&#39;t remove bots of the previous match, and with</span></div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;        <span class="comment">// minplayers &gt; 1, so ignore human players in the first bot frame</span></div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;        <span class="comment">// TODO maybe find a cleaner solution</span></div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;        activerealplayers = 0;</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    }</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    <span class="keywordtype">int</span> bots;</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;    <span class="comment">// add/remove bots if needed to make sure there are at least</span></div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;    <span class="comment">// minplayers+bot_number, or remove all bots if no one is playing</span></div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;    <span class="comment">// But don&#39;t remove bots immediately on level change, as the real players</span></div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;    <span class="comment">// usually haven&#39;t rejoined yet</span></div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    <a class="code" href="../../d5/d26/server_2defs_8qh.html#a99c2625b177f6c950e540ebfa8970886">bots_would_leave</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> &amp;&amp; <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#acca83439b109f1e0156cad1440d903b2">autocvar_bot_vs_human</a> &amp;&amp; <a class="code" href="../../d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec">AvailableTeams</a>() == 2)</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;        bots = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#acca83439b109f1e0156cad1440d903b2">autocvar_bot_vs_human</a>) * activerealplayers), <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a> - realplayers);</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((realplayers || <a class="code" href="../../d6/d74/cvars_8qh.html#a02f07646d2b2ae8dc43c7ec7c3ac5b95">autocvar_bot_join_empty</a> || (<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> &gt; 0 &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; 5)))</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    {</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;        <span class="keywordtype">float</span> realminplayers, minplayers;</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;        realminplayers = <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a5c98324cfd163efd161fa89a7f368885">autocvar_minplayers</a>;</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;        minplayers = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(realminplayers));</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;        <span class="keywordtype">float</span> realminbots, minbots;</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;        realminbots = <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#afde88aaa384ed8b796ca68b8622b66f9">autocvar_bot_number</a>;</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;        minbots = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(realminbots));</div>
 <div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    <span class="comment">// only add one bot per frame to avoid utter chaos</span></div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../d1/da9/bot_8qh.html#a5bac57dfedbda837115854494eba1157">botframe_nextthink</a>)</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    {</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> &lt; bots)</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;        {</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d2/dc0/bot_8qc.html#a5e30e64bee22a5e4abf3bca9ae06f8fc">bot_spawn</a>() == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;            {</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38">bprint</a>(<span class="stringliteral">&quot;Can not add bot, server full.\n&quot;</span>);</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;            }</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;        }</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> &gt; bots)</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;            <a class="code" href="../../d2/dc0/bot_8qc.html#afaeae8b4cc57aae2b5db95dbc5440464">bot_removenewest</a>();</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;    }</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;}</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;        bots = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(minbots, minplayers - activerealplayers), <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a> - realplayers);</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;        <span class="keywordflow">if</span>(bots &gt; minbots)</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;            <a class="code" href="../../d5/d26/server_2defs_8qh.html#a99c2625b177f6c950e540ebfa8970886">bots_would_leave</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    }</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    {</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;        <span class="comment">// if there are no players, remove bots</span></div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;        bots = 0;</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;    }</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;    <span class="comment">// only add one bot per frame to avoid utter chaos</span></div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../d1/da9/bot_8qh.html#a5bac57dfedbda837115854494eba1157">botframe_nextthink</a>)</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;    {</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> &lt; bots)</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;        {</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d2/dc0/bot_8qc.html#a5e30e64bee22a5e4abf3bca9ae06f8fc">bot_spawn</a>() == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;            {</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38">bprint</a>(<span class="stringliteral">&quot;Can not add bot, server full.\n&quot;</span>);</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;            }</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;        }</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> &gt; bots)</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;            <a class="code" href="../../d2/dc0/bot_8qc.html#afaeae8b4cc57aae2b5db95dbc5440464">bot_removenewest</a>();</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;    }</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;}</div>
 <div class="ttc" id="server_2autocvars_8qh_html_acca83439b109f1e0156cad1440d903b2"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#acca83439b109f1e0156cad1440d903b2">autocvar_bot_vs_human</a></div><div class="ttdeci">int autocvar_bot_vs_human</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00010">autocvars.qh:10</a></div></div>
 <div class="ttc" id="bot_8qh_html_a5bac57dfedbda837115854494eba1157"><div class="ttname"><a href="../../d1/da9/bot_8qh.html#a5bac57dfedbda837115854494eba1157">botframe_nextthink</a></div><div class="ttdeci">float botframe_nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da9/bot_8qh_source.html#l00076">bot.qh:76</a></div></div>
 <div class="ttc" id="utils_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00044">utils.qh:44</a></div></div>
@@ -1153,106 +1163,109 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00681">681</a> of file <a class="el" href="../../d2/dc0/bot_8qc_source.html">bot.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00691">691</a> of file <a class="el" href="../../d2/dc0/bot_8qc_source.html">bot.qc</a>.</p>
 
 <p>References <a class="el" href="../../d6/d74/cvars_8qh_source.html#l00047">autocvar_bot_ignore_bots</a>, <a class="el" href="../../d6/d74/cvars_8qh_source.html#l00049">autocvar_bot_navigation_ignoreplayers</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00246">autocvar_g_waypointeditor</a>, <a class="el" href="../../d6/d74/cvars_8qh_source.html#l00058">autocvar_g_waypointeditor_auto</a>, <a class="el" href="../../d6/d74/cvars_8qh_source.html#l00059">autocvar_skill_auto</a>, <a class="el" href="../../d6/d74/cvars_8qh_source.html#l00060">autocvar_waypoint_benchmark</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00530">autoskill()</a>, <a class="el" href="../../d1/da9/bot_8qh_source.html#l00023">autoskill_nextthink</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00579">bot_calculate_stepheightvec()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00587">bot_fixcount()</a>, <a class="el" href="../../d1/da9/bot_8qh_source.html#l00079">bot_ignore_bots</a>, <a class="el" href="../../df/dd4/navigation_8qh_source.html#l00007">bot_navigation_movemode</a>, <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00011">botframe_cachedwaypointlinks</a>, <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00010">botframe_loadedforcedlinks</a>, <a class="el" href="../../d1/da9/bot_8qh_source.html#l00076">botframe_nextthink</a>, <a class="el" href="../../d1/da9/bot_8qh_source.html#l00075">botframe_spawnedwaypoints</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00021">currentbots</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00414">g_waypoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00167">IL_EACH</a>, <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00021">localcmd</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00134">MOVE_NOMONSTERS</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00133">MOVE_NORMAL</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00565">waypoint_load_links_hardwired()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00609">waypoint_save_links()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;{</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    <span class="keywordflow">if</span> (game_stopped)</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; 2)</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;    <a class="code" href="../../d2/dc0/bot_8qc.html#a93e7d8dfd34f0d07a3c9f4ef59ed3888">bot_calculate_stepheightvec</a>();</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;    <a class="code" href="../../df/dd4/navigation_8qh.html#a165f472aa8f2332847961c9f8aedaf70">bot_navigation_movemode</a> = ((<a class="code" href="../../d6/d74/cvars_8qh.html#a198923cedc40559d92a6d1558f4ef55a">autocvar_bot_navigation_ignoreplayers</a>) ? <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a> : <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>);</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../d1/da9/bot_8qh.html#a2f15d8c4524b3af2a07108ff7e62305c">autoskill_nextthink</a>)</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;    {</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;        <span class="keywordtype">float</span> a;</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;        a = <a class="code" href="../../d6/d74/cvars_8qh.html#a6821168d192b4abd4c7f1ee6a8a2502a">autocvar_skill_auto</a>;</div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;        <span class="keywordflow">if</span>(a)</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;            <a class="code" href="../../d2/dc0/bot_8qc.html#a62777f93cd332cdb248328fd072e3547">autoskill</a>(a);</div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;        <a class="code" href="../../d1/da9/bot_8qh.html#a2f15d8c4524b3af2a07108ff7e62305c">autoskill_nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 5;</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;    }</div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;</div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../d1/da9/bot_8qh.html#a5bac57dfedbda837115854494eba1157">botframe_nextthink</a>)</div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;    {</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="../../d2/dc0/bot_8qc.html#a2fee5495c041d9197ee7d76cccd1d889">bot_fixcount</a>())</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;            <a class="code" href="../../d1/da9/bot_8qh.html#a5bac57dfedbda837115854494eba1157">botframe_nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 10;</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;    }</div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;</div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;    <a class="code" href="../../d1/da9/bot_8qh.html#a5e7d46fc0653b2f8057413174b72c6d7">bot_ignore_bots</a> = <a class="code" href="../../d6/d74/cvars_8qh.html#ae06c19398d657622c766e13e94a8b8da">autocvar_bot_ignore_bots</a>;</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;</div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d1/da9/bot_8qh.html#a480d32fa549e3b157ca70e8eeb0c400b">botframe_spawnedwaypoints</a>)</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;    {</div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d6/d74/cvars_8qh.html#a90aa0acc89ef4fc4249d2398880c928c">autocvar_waypoint_benchmark</a>)</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;            <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;quit\n&quot;</span>);</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;    }</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> &gt; 0 || <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ab7c9b0a0e2167a533222cb4da7518def">autocvar_g_waypointeditor</a> || <a class="code" href="../../d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756">autocvar_g_waypointeditor_auto</a>)</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d1/da9/bot_8qh.html#a480d32fa549e3b157ca70e8eeb0c400b">botframe_spawnedwaypoints</a>)</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    {</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d1/d2a/waypoints_8qh.html#a3cdf59b59842bdac03ad7f6403c5364f">botframe_cachedwaypointlinks</a>)</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;        {</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;            <span class="keywordflow">if</span>(!<a class="code" href="../../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7">botframe_loadedforcedlinks</a>)</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab425a543c58fb2e6f5ab441d30f5cd7c">waypoint_load_links_hardwired</a>();</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        }</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;        {</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;            <span class="comment">// TODO: Make this check cleaner</span></div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;            <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - it.nextthink &gt; 10,</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;            {</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7">waypoint_save_links</a>();</div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;            });</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;        }</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    }</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    {</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;        <a class="code" href="../../d1/da9/bot_8qh.html#a480d32fa549e3b157ca70e8eeb0c400b">botframe_spawnedwaypoints</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#a8bcfafa22e1b3188f0b1f9c1399af552">waypoint_loadall</a>();</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="../../d7/dc4/waypoints_8qc.html#a3308ec468ba8117a01ce516de8a66814">waypoint_load_links</a>())</div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;            <a class="code" href="../../db/d15/api_8qh.html#a179e3b775f919c65b3b961ef5c2262b9">waypoint_schedulerelinkall</a>();</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;    }</div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;</div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d1/da9/bot_8qh.html#a215665f69a52ad61d76819818c9fa97d">bot_list</a>)</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;    {</div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;        <span class="comment">// cycle the goal token from one bot to the next each frame</span></div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;        <span class="comment">// (this prevents them from all doing spawnfunc_waypoint searches on the same</span></div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;        <span class="comment">//  frame, which causes choppy framerates)</span></div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d1/da9/bot_8qh.html#ab31e8158d2ea3bd17d8189070c6b1821">bot_strategytoken_taken</a>)</div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;        {</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;            <a class="code" href="../../d1/da9/bot_8qh.html#ab31e8158d2ea3bd17d8189070c6b1821">bot_strategytoken_taken</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d1/da9/bot_8qh.html#a40cbdaa8b825c5406a87822a7963350d">bot_strategytoken</a>)</div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;                <a class="code" href="../../d1/da9/bot_8qh.html#a40cbdaa8b825c5406a87822a7963350d">bot_strategytoken</a> = <a class="code" href="../../d1/da9/bot_8qh.html#a40cbdaa8b825c5406a87822a7963350d">bot_strategytoken</a>.nextbot;</div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="../../d1/da9/bot_8qh.html#a40cbdaa8b825c5406a87822a7963350d">bot_strategytoken</a>)</div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;                <a class="code" href="../../d1/da9/bot_8qh.html#a40cbdaa8b825c5406a87822a7963350d">bot_strategytoken</a> = <a class="code" href="../../d1/da9/bot_8qh.html#a215665f69a52ad61d76819818c9fa97d">bot_list</a>;</div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;        }</div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;</div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d1/da9/bot_8qh.html#aa655e08bba8a4ae326d3ad7f287a3859">botframe_nextdangertime</a> &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)</div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;        {</div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;            <span class="keywordtype">float</span> interval;</div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;            interval = <a class="code" href="../../d6/d74/cvars_8qh.html#a992afa7f8f4263c1e51193cdccfcb050">autocvar_bot_ai_dangerdetectioninterval</a>;</div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d1/da9/bot_8qh.html#aa655e08bba8a4ae326d3ad7f287a3859">botframe_nextdangertime</a> &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - interval * 1.5)</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;                <a class="code" href="../../d1/da9/bot_8qh.html#aa655e08bba8a4ae326d3ad7f287a3859">botframe_nextdangertime</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;            <a class="code" href="../../d1/da9/bot_8qh.html#aa655e08bba8a4ae326d3ad7f287a3859">botframe_nextdangertime</a> = <a class="code" href="../../d1/da9/bot_8qh.html#aa655e08bba8a4ae326d3ad7f287a3859">botframe_nextdangertime</a> + interval;</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;            <a class="code" href="../../d1/d9a/navigation_8qc.html#ae3a851859c6cdf22d73f55bd7c81e419">botframe_updatedangerousobjects</a>(<a class="code" href="../../d6/d74/cvars_8qh.html#aeaa40f3e54184bd3f1f7013de0b047f0">autocvar_bot_ai_dangerdetectionupdates</a>);</div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;        }</div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;    }</div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;</div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ab7c9b0a0e2167a533222cb4da7518def">autocvar_g_waypointeditor</a>)</div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#adc1610e5d4a39012b64c05f12d9ccd82">botframe_showwaypointlinks</a>();</div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;</div>
-<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756">autocvar_g_waypointeditor_auto</a>)</div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#aeffebe843059e44cb1df1bf5b6b7403c">botframe_autowaypoints</a>();</div>
-<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;</div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../d1/da9/bot_8qh.html#aa6de3c8f55c98f9162f0a3b0eda8368d">bot_cvar_nextthink</a>)</div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;    {</div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a>&gt;0)</div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;            <a class="code" href="../../d2/dc0/bot_8qc.html#a2106f3a69bfc83423ff921b8c7aa15a0">bot_custom_weapon_priority_setup</a>();</div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;        <a class="code" href="../../d1/da9/bot_8qh.html#aa6de3c8f55c98f9162f0a3b0eda8368d">bot_cvar_nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 5;</div>
+<div class="fragment"><div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;{</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;    <span class="keywordflow">if</span> (game_stopped)</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; 2)</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    {</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> = -1;</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;    }</div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;    <a class="code" href="../../d2/dc0/bot_8qc.html#a93e7d8dfd34f0d07a3c9f4ef59ed3888">bot_calculate_stepheightvec</a>();</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;    <a class="code" href="../../df/dd4/navigation_8qh.html#a165f472aa8f2332847961c9f8aedaf70">bot_navigation_movemode</a> = ((<a class="code" href="../../d6/d74/cvars_8qh.html#a198923cedc40559d92a6d1558f4ef55a">autocvar_bot_navigation_ignoreplayers</a>) ? <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a> : <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>);</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../d1/da9/bot_8qh.html#a2f15d8c4524b3af2a07108ff7e62305c">autoskill_nextthink</a>)</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;    {</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;        <span class="keywordtype">float</span> a;</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;        a = <a class="code" href="../../d6/d74/cvars_8qh.html#a6821168d192b4abd4c7f1ee6a8a2502a">autocvar_skill_auto</a>;</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        <span class="keywordflow">if</span>(a)</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;            <a class="code" href="../../d2/dc0/bot_8qc.html#a62777f93cd332cdb248328fd072e3547">autoskill</a>(a);</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;        <a class="code" href="../../d1/da9/bot_8qh.html#a2f15d8c4524b3af2a07108ff7e62305c">autoskill_nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 5;</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    }</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../d1/da9/bot_8qh.html#a5bac57dfedbda837115854494eba1157">botframe_nextthink</a>)</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;    {</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="../../d2/dc0/bot_8qc.html#a2fee5495c041d9197ee7d76cccd1d889">bot_fixcount</a>())</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;            <a class="code" href="../../d1/da9/bot_8qh.html#a5bac57dfedbda837115854494eba1157">botframe_nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 10;</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;    }</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    <a class="code" href="../../d1/da9/bot_8qh.html#a5e7d46fc0653b2f8057413174b72c6d7">bot_ignore_bots</a> = <a class="code" href="../../d6/d74/cvars_8qh.html#ae06c19398d657622c766e13e94a8b8da">autocvar_bot_ignore_bots</a>;</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d1/da9/bot_8qh.html#a480d32fa549e3b157ca70e8eeb0c400b">botframe_spawnedwaypoints</a>)</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    {</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d6/d74/cvars_8qh.html#a90aa0acc89ef4fc4249d2398880c928c">autocvar_waypoint_benchmark</a>)</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;            <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;quit\n&quot;</span>);</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    }</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> &gt; 0 || <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ab7c9b0a0e2167a533222cb4da7518def">autocvar_g_waypointeditor</a> || <a class="code" href="../../d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756">autocvar_g_waypointeditor_auto</a>)</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d1/da9/bot_8qh.html#a480d32fa549e3b157ca70e8eeb0c400b">botframe_spawnedwaypoints</a>)</div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;    {</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d1/d2a/waypoints_8qh.html#a3cdf59b59842bdac03ad7f6403c5364f">botframe_cachedwaypointlinks</a>)</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;        {</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;            <span class="keywordflow">if</span>(!<a class="code" href="../../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7">botframe_loadedforcedlinks</a>)</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab425a543c58fb2e6f5ab441d30f5cd7c">waypoint_load_links_hardwired</a>();</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;        }</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;        {</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;            <span class="comment">// TODO: Make this check cleaner</span></div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;            <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - it.nextthink &gt; 10,</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;            {</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;                <a class="code" href="../../d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7">waypoint_save_links</a>();</div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;            });</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;        }</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;    }</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    {</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;        <a class="code" href="../../d1/da9/bot_8qh.html#a480d32fa549e3b157ca70e8eeb0c400b">botframe_spawnedwaypoints</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#a8bcfafa22e1b3188f0b1f9c1399af552">waypoint_loadall</a>();</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="../../d7/dc4/waypoints_8qc.html#a3308ec468ba8117a01ce516de8a66814">waypoint_load_links</a>())</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;            <a class="code" href="../../db/d15/api_8qh.html#a179e3b775f919c65b3b961ef5c2262b9">waypoint_schedulerelinkall</a>();</div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;    }</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d1/da9/bot_8qh.html#a215665f69a52ad61d76819818c9fa97d">bot_list</a>)</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;    {</div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;        <span class="comment">// cycle the goal token from one bot to the next each frame</span></div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;        <span class="comment">// (this prevents them from all doing spawnfunc_waypoint searches on the same</span></div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;        <span class="comment">//  frame, which causes choppy framerates)</span></div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d1/da9/bot_8qh.html#ab31e8158d2ea3bd17d8189070c6b1821">bot_strategytoken_taken</a>)</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;        {</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;            <a class="code" href="../../d1/da9/bot_8qh.html#ab31e8158d2ea3bd17d8189070c6b1821">bot_strategytoken_taken</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d1/da9/bot_8qh.html#a40cbdaa8b825c5406a87822a7963350d">bot_strategytoken</a>)</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;                <a class="code" href="../../d1/da9/bot_8qh.html#a40cbdaa8b825c5406a87822a7963350d">bot_strategytoken</a> = <a class="code" href="../../d1/da9/bot_8qh.html#a40cbdaa8b825c5406a87822a7963350d">bot_strategytoken</a>.nextbot;</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="../../d1/da9/bot_8qh.html#a40cbdaa8b825c5406a87822a7963350d">bot_strategytoken</a>)</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;                <a class="code" href="../../d1/da9/bot_8qh.html#a40cbdaa8b825c5406a87822a7963350d">bot_strategytoken</a> = <a class="code" href="../../d1/da9/bot_8qh.html#a215665f69a52ad61d76819818c9fa97d">bot_list</a>;</div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;        }</div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;</div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d1/da9/bot_8qh.html#aa655e08bba8a4ae326d3ad7f287a3859">botframe_nextdangertime</a> &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;        {</div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;            <span class="keywordtype">float</span> interval;</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;            interval = <a class="code" href="../../d6/d74/cvars_8qh.html#a992afa7f8f4263c1e51193cdccfcb050">autocvar_bot_ai_dangerdetectioninterval</a>;</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d1/da9/bot_8qh.html#aa655e08bba8a4ae326d3ad7f287a3859">botframe_nextdangertime</a> &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - interval * 1.5)</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;                <a class="code" href="../../d1/da9/bot_8qh.html#aa655e08bba8a4ae326d3ad7f287a3859">botframe_nextdangertime</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;            <a class="code" href="../../d1/da9/bot_8qh.html#aa655e08bba8a4ae326d3ad7f287a3859">botframe_nextdangertime</a> = <a class="code" href="../../d1/da9/bot_8qh.html#aa655e08bba8a4ae326d3ad7f287a3859">botframe_nextdangertime</a> + interval;</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;            <a class="code" href="../../d1/d9a/navigation_8qc.html#ae3a851859c6cdf22d73f55bd7c81e419">botframe_updatedangerousobjects</a>(<a class="code" href="../../d6/d74/cvars_8qh.html#aeaa40f3e54184bd3f1f7013de0b047f0">autocvar_bot_ai_dangerdetectionupdates</a>);</div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;        }</div>
 <div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;    }</div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;}</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ab7c9b0a0e2167a533222cb4da7518def">autocvar_g_waypointeditor</a>)</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#adc1610e5d4a39012b64c05f12d9ccd82">botframe_showwaypointlinks</a>();</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756">autocvar_g_waypointeditor_auto</a>)</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#aeffebe843059e44cb1df1bf5b6b7403c">botframe_autowaypoints</a>();</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../d1/da9/bot_8qh.html#aa6de3c8f55c98f9162f0a3b0eda8368d">bot_cvar_nextthink</a>)</div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;    {</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a>&gt;0)</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;            <a class="code" href="../../d2/dc0/bot_8qc.html#a2106f3a69bfc83423ff921b8c7aa15a0">bot_custom_weapon_priority_setup</a>();</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;        <a class="code" href="../../d1/da9/bot_8qh.html#aa6de3c8f55c98f9162f0a3b0eda8368d">bot_cvar_nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 5;</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;    }</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;}</div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00167">intrusivelist.qh:167</a></div></div>
 <div class="ttc" id="waypoints_8qh_html_a407660e1fc9e38776762c676542cfbb7"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7">botframe_loadedforcedlinks</a></div><div class="ttdeci">float botframe_loadedforcedlinks</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00010">waypoints.qh:10</a></div></div>
 <div class="ttc" id="bot_8qh_html_a2f15d8c4524b3af2a07108ff7e62305c"><div class="ttname"><a href="../../d1/da9/bot_8qh.html#a2f15d8c4524b3af2a07108ff7e62305c">autoskill_nextthink</a></div><div class="ttdeci">float autoskill_nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da9/bot_8qh_source.html#l00023">bot.qh:23</a></div></div>
@@ -1916,7 +1929,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/da9/bot_8qh_source.html#l00017">17</a> of file <a class="el" href="../../d1/da9/bot_8qh_source.html">bot.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00673">bot_clear()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00066">bot_think()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01074">navigation_goalrating_end()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01061">navigation_goalrating_start()</a>, and <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01125">navigation_unstuck()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00683">bot_clear()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00066">bot_think()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01074">navigation_goalrating_end()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01061">navigation_goalrating_start()</a>, and <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01125">navigation_unstuck()</a>.</p>
 
 </div>
 </div>
@@ -1980,7 +1993,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/da9/bot_8qh_source.html#l00020">20</a> of file <a class="el" href="../../d1/da9/bot_8qh_source.html">bot.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00673">bot_clear()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00066">bot_think()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00028">havocbot_ai()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00273">havocbot_bunnyhop()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01224">havocbot_moveto()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00421">havocbot_movetogoal()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01074">navigation_goalrating_end()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01061">navigation_goalrating_start()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00968">navigation_poptouchedgoals()</a>, and <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01125">navigation_unstuck()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00683">bot_clear()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00066">bot_think()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00028">havocbot_ai()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00273">havocbot_bunnyhop()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01224">havocbot_moveto()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00421">havocbot_movetogoal()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01074">navigation_goalrating_end()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01061">navigation_goalrating_start()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00968">navigation_poptouchedgoals()</a>, and <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01125">navigation_unstuck()</a>.</p>
 
 </div>
 </div>
@@ -1996,7 +2009,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/da9/bot_8qh_source.html#l00023">23</a> of file <a class="el" href="../../d1/da9/bot_8qh_source.html">bot.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00681">bot_serverframe()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00691">bot_serverframe()</a>.</p>
 
 </div>
 </div>
@@ -2208,7 +2221,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/da9/bot_8qh_source.html#l00079">79</a> of file <a class="el" href="../../d1/da9/bot_8qh_source.html">bot.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00681">bot_serverframe()</a>, and <a class="el" href="../../df/dc9/aim_8qc_source.html#l00116">bot_shouldattack()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00691">bot_serverframe()</a>, and <a class="el" href="../../df/dc9/aim_8qc_source.html#l00116">bot_shouldattack()</a>.</p>
 
 </div>
 </div>
@@ -2224,7 +2237,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/da9/bot_8qh_source.html#l00048">48</a> of file <a class="el" href="../../d1/da9/bot_8qh_source.html">bot.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00354">bot_endgame()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00366">bot_relinkplayerlist()</a>, and <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00648">bot_remove_from_bot_list()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00354">bot_endgame()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00366">bot_relinkplayerlist()</a>, and <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00658">bot_remove_from_bot_list()</a>.</p>
 
 </div>
 </div>
@@ -2408,7 +2421,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/da9/bot_8qh_source.html#l00073">73</a> of file <a class="el" href="../../d1/da9/bot_8qh_source.html">bot.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00366">bot_relinkplayerlist()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00648">bot_remove_from_bot_list()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00028">havocbot_ai()</a>, and <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01125">navigation_unstuck()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00366">bot_relinkplayerlist()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00658">bot_remove_from_bot_list()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00028">havocbot_ai()</a>, and <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01125">navigation_unstuck()</a>.</p>
 
 </div>
 </div>
@@ -2424,7 +2437,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/da9/bot_8qh_source.html#l00072">72</a> of file <a class="el" href="../../d1/da9/bot_8qh_source.html">bot.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00366">bot_relinkplayerlist()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00648">bot_remove_from_bot_list()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00028">havocbot_ai()</a>, and <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01224">havocbot_moveto()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00366">bot_relinkplayerlist()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00658">bot_remove_from_bot_list()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00028">havocbot_ai()</a>, and <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01224">havocbot_moveto()</a>.</p>
 
 </div>
 </div>
@@ -2486,7 +2499,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/da9/bot_8qh_source.html#l00076">76</a> of file <a class="el" href="../../d1/da9/bot_8qh_source.html">bot.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00587">bot_fixcount()</a>, and <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00681">bot_serverframe()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00587">bot_fixcount()</a>, and <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00691">bot_serverframe()</a>.</p>
 
 </div>
 </div>
@@ -2502,7 +2515,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/da9/bot_8qh_source.html#l00075">75</a> of file <a class="el" href="../../d1/da9/bot_8qh_source.html">bot.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00681">bot_serverframe()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00691">bot_serverframe()</a>.</p>
 
 </div>
 </div>
@@ -2578,7 +2591,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/da9/bot_8qh_source.html#l00049">49</a> of file <a class="el" href="../../d1/da9/bot_8qh_source.html">bot.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00648">bot_remove_from_bot_list()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00658">bot_remove_from_bot_list()</a>.</p>
 
 </div>
 </div>
@@ -2634,7 +2647,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../d1/da9/bot_8qh.html">bot.qh</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 22:38:51 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 22:57:02 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
