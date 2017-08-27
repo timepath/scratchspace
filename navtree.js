@@ -153,18 +153,18 @@ var NAVTREEINDEX =
 "de/d48/dialog__settings__game_8qc.html#a90e61d8d148812eaa0a088e77a16138c",
 "de/d5e/dpextensions_8qc.html#a7701d01a399c9cf297ebcdcbe85c5803",
 "de/d65/classXonoticHUDInfoMessagesDialog.html#abf5f6de918805750f258851c16a7a089",
-"de/d7a/classXonoticHUDScoreDialog.html#ac13a9ba025e6a5f544526088cfb294e2",
-"de/dab/classObserver.html#a3428db95eaa0bc6b89cc2367a8e7221c",
-"de/dd6/playermodel_8qc_source.html",
-"df/d21/infomessages_8qc.html#a34ab7f0b1f8fc8af94288e83c3f42798",
-"df/d30/client_2main_8qc.html#a33415c58794cf70af080dcfa3213a501",
-"df/d56/classSpider.html#a98fd6d803cf7376820bb26fcbca5adbd",
-"df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc.html",
-"df/d9b/menu_2xonotic_2util_8qc.html#aabf5cfb721ebb2ede5d88158911b0c15",
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a7b13cdc101cd55528465440586a004f6",
-"df/dee/anglestransform_8qh.html#a0909075e90b39b50ba4d318a27871c4c",
-"dir_22012559f3b0dbbb75f685d16a591ed4.html",
-"globals_v.html"
+"de/d7a/classXonoticHUDScoreDialog.html#ac0368d6c19820c8225ee9484ddbbe715",
+"de/dab/classObserver.html#a31c687c46e05fbd204175abf8cb1a93d",
+"de/dd6/playermodel_8qc.html#afc6aaa1d6378f5d13710d6f21a548bf9",
+"df/d21/infomessages_8qc.html#a136d53754af4a701e9cf50e042fdb681",
+"df/d30/client_2main_8qc.html#a1e55c54aad85b1c6f6c8ef2fc91b1c6d",
+"df/d56/classSpider.html#a84829255027bd85cf33ef0418ef5c975",
+"df/d7d/tests_8qh_source.html",
+"df/d9b/menu_2xonotic_2util_8qc.html#aabecb2186198cee293ff99e8806ea85e",
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a7870c2467d71f42ddc904c2ad3690ae1",
+"df/dee/anglestransform_8qh.html#a087f14c7e52559b3cc53eddc323b77a0",
+"dir_20d4d018e71b108d2bf88eb46cb0e7b6.html",
+"globals_u.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
