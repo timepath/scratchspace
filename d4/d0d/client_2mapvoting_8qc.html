@@ -267,14 +267,14 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00021">localcmd</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00022">mv_pk3list</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00018">mv_preview</a>, <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00149">PreviewExists()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">TC</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00382">LocalCommand_mv_download()</a>, and <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00524">MapVote_CheckPK3()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00384">LocalCommand_mv_download()</a>, and <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00524">MapVote_CheckPK3()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;{</div>
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<span class="keywordtype">int</span>, argc);</div>
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> pak;</div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;</div>
 <div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;    <span class="keywordflow">if</span>(argc != 2 || !<a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#aa78c91635c38ec29a12e3516087a72a2">mv_pk3list</a>)</div>
 <div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    {</div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(_(<span class="stringliteral">&quot;mv_mapdownload: ^3You&#39;re not supposed to use this command on your own!\n&quot;</span>));</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(_(<span class="stringliteral">&quot;mv_mapdownload: ^3You&#39;re not supposed to use this command on your own!&quot;</span>));</div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    }</div>
 <div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;</div>
@@ -284,7 +284,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;</div>
 <div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    <span class="keywordflow">if</span>(!pak || pak.sv_entnum != <span class="keywordtype">id</span>) {</div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(_(<span class="stringliteral">&quot;^1Error:^7 Couldn&#39;t find pak index.\n&quot;</span>));</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(_(<span class="stringliteral">&quot;^1Error:^7 Couldn&#39;t find pak index.&quot;</span>));</div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    }</div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;</div>
@@ -293,7 +293,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;        <a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#ae7f67e048d198d67d53009526eb9fcb6">mv_preview</a>[id] = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(_(<span class="stringliteral">&quot;Requesting preview...\n&quot;</span>));</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(_(<span class="stringliteral">&quot;Requesting preview...&quot;</span>));</div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;        <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;\ncmd mv_getpicture &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<span class="keywordtype">id</span>), <span class="stringliteral">&quot;\n&quot;</span>));</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    }</div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;}</div>
@@ -3133,7 +3133,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d4/d0d/client_2mapvoting_8qc.html">mapvoting.qc</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 03:14:30 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 03:47:05 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

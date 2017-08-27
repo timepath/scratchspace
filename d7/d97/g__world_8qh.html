@@ -462,7 +462,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01438"></a><span class="lineno"> 1438</span>&#160;    s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <a class="code" href="../../db/dcc/g__world_8qc.html#a7bd98f24d513342b45d7ec36af6564be">GetGametype</a>(), <span class="stringliteral">&quot;_&quot;</span>, <a class="code" href="../../db/dcc/g__world_8qc.html#a1330c9208470a4800fb84c8810728bcb">GetMapname</a>(), <span class="stringliteral">&quot;:&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)));</div>
 <div class="line"><a name="l01439"></a><span class="lineno"> 1439</span>&#160;</div>
 <div class="line"><a name="l01440"></a><span class="lineno"> 1440</span>&#160;    <span class="keywordflow">if</span>(to_console)</div>
-<div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(s, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(s);</div>
 <div class="line"><a name="l01442"></a><span class="lineno"> 1442</span>&#160;    <span class="keywordflow">if</span>(to_eventlog)</div>
 <div class="line"><a name="l01443"></a><span class="lineno"> 1443</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(s);</div>
 <div class="line"><a name="l01444"></a><span class="lineno"> 1444</span>&#160;</div>
@@ -478,7 +478,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01454"></a><span class="lineno"> 1454</span>&#160;</div>
 <div class="line"><a name="l01455"></a><span class="lineno"> 1455</span>&#160;    s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:labels:player:&quot;</span>, <a class="code" href="../../d2/d79/scores_8qc.html#ad28463ced5516457ad57a090398dfa49">GetPlayerScoreString</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0));</div>
 <div class="line"><a name="l01456"></a><span class="lineno"> 1456</span>&#160;    <span class="keywordflow">if</span>(to_console)</div>
-<div class="line"><a name="l01457"></a><span class="lineno"> 1457</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(s, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l01457"></a><span class="lineno"> 1457</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(s);</div>
 <div class="line"><a name="l01458"></a><span class="lineno"> 1458</span>&#160;    <span class="keywordflow">if</span>(to_eventlog)</div>
 <div class="line"><a name="l01459"></a><span class="lineno"> 1459</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(s);</div>
 <div class="line"><a name="l01460"></a><span class="lineno"> 1460</span>&#160;    <span class="keywordflow">if</span>(to_file)</div>
@@ -493,7 +493,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01469"></a><span class="lineno"> 1469</span>&#160;            s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot;spectator:&quot;</span>);</div>
 <div class="line"><a name="l01470"></a><span class="lineno"> 1470</span>&#160;</div>
 <div class="line"><a name="l01471"></a><span class="lineno"> 1471</span>&#160;        <span class="keywordflow">if</span>(to_console)</div>
-<div class="line"><a name="l01472"></a><span class="lineno"> 1472</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(s, <a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe">playername</a>(it, <span class="keyword">false</span>), <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l01472"></a><span class="lineno"> 1472</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(s, <a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe">playername</a>(it, <span class="keyword">false</span>));</div>
 <div class="line"><a name="l01473"></a><span class="lineno"> 1473</span>&#160;        <span class="keywordflow">if</span>(to_eventlog)</div>
 <div class="line"><a name="l01474"></a><span class="lineno"> 1474</span>&#160;            <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(it.playerid), <span class="stringliteral">&quot;:&quot;</span>, <a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe">playername</a>(it, <span class="keyword">false</span>)));</div>
 <div class="line"><a name="l01475"></a><span class="lineno"> 1475</span>&#160;        <span class="keywordflow">if</span>(to_file)</div>
@@ -504,7 +504,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01480"></a><span class="lineno"> 1480</span>&#160;    {</div>
 <div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:labels:teamscores:&quot;</span>, <a class="code" href="../../d2/d79/scores_8qc.html#a207c46a80dd896f8487773a62572d98c">GetTeamScoreString</a>(0, 0));</div>
 <div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;        <span class="keywordflow">if</span>(to_console)</div>
-<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(s, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(s);</div>
 <div class="line"><a name="l01484"></a><span class="lineno"> 1484</span>&#160;        <span class="keywordflow">if</span>(to_eventlog)</div>
 <div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;            <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(s);</div>
 <div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;        <span class="keywordflow">if</span>(to_file)</div>
@@ -515,7 +515,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01491"></a><span class="lineno"> 1491</span>&#160;            s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:teamscores:see-labels:&quot;</span>, <a class="code" href="../../d2/d79/scores_8qc.html#a207c46a80dd896f8487773a62572d98c">GetTeamScoreString</a>(i, 0));</div>
 <div class="line"><a name="l01492"></a><span class="lineno"> 1492</span>&#160;            s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot;:&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(i));</div>
 <div class="line"><a name="l01493"></a><span class="lineno"> 1493</span>&#160;            <span class="keywordflow">if</span>(to_console)</div>
-<div class="line"><a name="l01494"></a><span class="lineno"> 1494</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(s, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l01494"></a><span class="lineno"> 1494</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(s);</div>
 <div class="line"><a name="l01495"></a><span class="lineno"> 1495</span>&#160;            <span class="keywordflow">if</span>(to_eventlog)</div>
 <div class="line"><a name="l01496"></a><span class="lineno"> 1496</span>&#160;                <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(s);</div>
 <div class="line"><a name="l01497"></a><span class="lineno"> 1497</span>&#160;            <span class="keywordflow">if</span>(to_file)</div>
@@ -524,7 +524,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01500"></a><span class="lineno"> 1500</span>&#160;    }</div>
 <div class="line"><a name="l01501"></a><span class="lineno"> 1501</span>&#160;</div>
 <div class="line"><a name="l01502"></a><span class="lineno"> 1502</span>&#160;    <span class="keywordflow">if</span>(to_console)</div>
-<div class="line"><a name="l01503"></a><span class="lineno"> 1503</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;:end\n&quot;</span>);</div>
+<div class="line"><a name="l01503"></a><span class="lineno"> 1503</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;:end&quot;</span>);</div>
 <div class="line"><a name="l01504"></a><span class="lineno"> 1504</span>&#160;    <span class="keywordflow">if</span>(to_eventlog)</div>
 <div class="line"><a name="l01505"></a><span class="lineno"> 1505</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(<span class="stringliteral">&quot;:end&quot;</span>);</div>
 <div class="line"><a name="l01506"></a><span class="lineno"> 1506</span>&#160;    <span class="keywordflow">if</span>(to_file)</div>
@@ -1363,7 +1363,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d7/d97/g__world_8qh.html">g_world.qh</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 03:14:41 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 03:47:19 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -364,7 +364,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    <span class="keywordflow">if</span>(i &lt; ban_count)</div>
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/d95/ipban_8qc.html#a10b8286167b369fed0b7618fd625ba9f">ban_expire</a>[i] &gt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + bantime)</div>
 <div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    {</div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(ip, <span class="stringliteral">&quot; could not get banned due to no free ban slot\n&quot;</span>);</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(ip, <span class="stringliteral">&quot; could not get banned due to no free ban slot&quot;</span>);</div>
 <div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;    }</div>
 <div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    <span class="comment">// okay, insert our new victim as i</span></div>
@@ -562,7 +562,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <span class="keywordtype">float</span> i, n;</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="keywordtype">string</span> msg;</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;^2Listing all existing active bans:\n&quot;</span>);</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;^2Listing all existing active bans:&quot;</span>);</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    n = 0;</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt; <a class="code" href="../../d6/d95/ipban_8qc.html#adb129794ee531ea662996f0475b4a686">ban_count</a>; ++i)</div>
@@ -576,10 +576,10 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        msg = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(msg, <a class="code" href="../../d6/d95/ipban_8qc.html#a070df4ab303d353bd83f5bfa4c2e99df">ban_ip</a>[i], <span class="stringliteral">&quot; is still banned for &quot;</span>);</div>
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        msg = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(msg, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d6/d95/ipban_8qc.html#a10b8286167b369fed0b7618fd625ba9f">ban_expire</a>[i] - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>), <span class="stringliteral">&quot; seconds&quot;</span>);</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &quot;</span>, msg, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &quot;</span>, msg);</div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    }</div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;^2Done listing all active (&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(n), <span class="stringliteral">&quot;) bans.\n&quot;</span>);</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;^2Done listing all active (&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(n), <span class="stringliteral">&quot;) bans.&quot;</span>);</div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="ipban_8qc_html_a070df4ab303d353bd83f5bfa4c2e99df"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#a070df4ab303d353bd83f5bfa4c2e99df">ban_ip</a></div><div class="ttdeci">string ban_ip[BAN_MAX]</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00252">ipban.qc:252</a></div></div>
@@ -631,7 +631,7 @@ Functions</h2></td></tr>
 <p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01772">GameCommand()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;{</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor">    #define BAN_COMMAND(name, function, description) \</span></div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor">        { if (strtolower(description) != &quot;&quot;) { LOG_INFO(&quot;  ^2&quot;, name, &quot;^7: &quot;, description, &quot;\n&quot;); } }</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor">        { if (strtolower(description) != &quot;&quot;) { LOG_INFO(&quot;  ^2&quot;, name, &quot;^7: &quot;, description); } }</span></div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <a class="code" href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">BAN_COMMANDS</a>(0, 0, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="preprocessor">#undef BAN_COMMAND</span></div>
@@ -739,7 +739,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../de/dbd/banning_8qh.html">banning.qh</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 03:14:40 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 03:47:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

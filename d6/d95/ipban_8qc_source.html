@@ -200,7 +200,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">id</span> &gt;= <a class="code" href="../../d6/d95/ipban_8qc.html#a8e08ee132dee2a6db0915edfdbf0d9ff">MAX_IPBAN_URIS</a>)</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    {</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Received ban list for invalid ID\n&quot;</span>);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Received ban list for invalid ID&quot;</span>);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
@@ -211,7 +211,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/d95/ipban_8qc.html#a0dc48623cdc782ca4db211ec8064a04c">OnlineBanList_RequestWaiting</a>[<span class="keywordtype">id</span>] == 0)</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    {</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;rejected (unexpected)\n&quot;</span>);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;rejected (unexpected)&quot;</span>);</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
@@ -219,14 +219,14 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../d6/d95/ipban_8qc.html#ab505a8d0f45567050fccefe47203c6a7">OnlineBanList_Timeout</a>)</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    {</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;rejected (too late)\n&quot;</span>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;rejected (too late)&quot;</span>);</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    syncinterval = <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ab21eca3696a13953239bad5e0373031f">autocvar_g_ban_sync_interval</a>;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">if</span>(syncinterval == 0)</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    {</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;rejected (syncing disabled)\n&quot;</span>);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;rejected (syncing disabled)&quot;</span>);</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    }</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">if</span>(syncinterval &gt; 0)</div>
@@ -234,19 +234,19 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordflow">if</span>(status != 0)</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    {</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;error: status is &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(status), <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;error: status is &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(status));</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(data, 0, 1) == <span class="stringliteral">&quot;&lt;&quot;</span>)</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    {</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;error: received HTML instead of a ban list\n&quot;</span>);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;error: received HTML instead of a ban list&quot;</span>);</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(data, <span class="stringliteral">&quot;\r&quot;</span>, 0) != -1)</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    {</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;error: received carriage returns\n&quot;</span>);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;error: received carriage returns&quot;</span>);</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
@@ -257,11 +257,11 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">if</span>((n % 4) != 0)</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    {</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;error: received invalid item count: &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(n), <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;error: received invalid item count: &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(n));</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;OK, &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(n / 4), <span class="stringliteral">&quot; items\n&quot;</span>);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(prelude, <span class="stringliteral">&quot;OK, &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(n / 4), <span class="stringliteral">&quot; items&quot;</span>);</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt; n; i += 4)</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    {</div>
@@ -284,7 +284,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            <span class="keywordflow">for</span>(j = 0; j &lt; l; ++j)</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(<span class="stringliteral">&quot;0123456789.&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(ip, j, 1), 0) == -1)</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                {</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Invalid character &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(ip, j, 1), <span class="stringliteral">&quot; in IP address &quot;</span>, ip, <span class="stringliteral">&quot;. Skipping this ban.\n&quot;</span>);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Invalid character &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(ip, j, 1), <span class="stringliteral">&quot; in IP address &quot;</span>, ip, <span class="stringliteral">&quot;. Skipping this ban.&quot;</span>);</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                    <span class="keywordflow">goto</span> skip;</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                }</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        }</div>
@@ -436,7 +436,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <span class="keywordtype">float</span> i, n;</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="keywordtype">string</span> msg;</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;^2Listing all existing active bans:\n&quot;</span>);</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;^2Listing all existing active bans:&quot;</span>);</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    n = 0;</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt; <a class="code" href="../../d6/d95/ipban_8qc.html#adb129794ee531ea662996f0475b4a686">ban_count</a>; ++i)</div>
@@ -450,10 +450,10 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        msg = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(msg, <a class="code" href="../../d6/d95/ipban_8qc.html#a070df4ab303d353bd83f5bfa4c2e99df">ban_ip</a>[i], <span class="stringliteral">&quot; is still banned for &quot;</span>);</div>
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        msg = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(msg, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d6/d95/ipban_8qc.html#a10b8286167b369fed0b7618fd625ba9f">ban_expire</a>[i] - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>), <span class="stringliteral">&quot; seconds&quot;</span>);</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &quot;</span>, msg, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &quot;</span>, msg);</div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    }</div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;^2Done listing all active (&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(n), <span class="stringliteral">&quot;) bans.\n&quot;</span>);</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;^2Done listing all active (&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(n), <span class="stringliteral">&quot;) bans.&quot;</span>);</div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;}</div>
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;</div>
 <div class="line"><a name="l00352"></a><span class="lineno"><a class="line" href="../../d6/d95/ipban_8qc.html#a5574d1f6c14538afc0d13ec0542f47c7">  352</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d6/d95/ipban_8qc.html#a5574d1f6c14538afc0d13ec0542f47c7">Ban_GetClientIP</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client)</div>
@@ -655,7 +655,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    <span class="keywordflow">if</span>(i &lt; ban_count)</div>
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/d95/ipban_8qc.html#a10b8286167b369fed0b7618fd625ba9f">ban_expire</a>[i] &gt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + bantime)</div>
 <div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    {</div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(ip, <span class="stringliteral">&quot; could not get banned due to no free ban slot\n&quot;</span>);</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(ip, <span class="stringliteral">&quot; could not get banned due to no free ban slot&quot;</span>);</div>
 <div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;    }</div>
 <div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    <span class="comment">// okay, insert our new victim as i</span></div>
@@ -798,7 +798,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d6/d95/ipban_8qc.html">ipban.qc</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 03:14:29 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 03:47:03 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

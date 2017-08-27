@@ -256,7 +256,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    tracebox(safe, player.mins - <a class="code" href="../../de/de8/portals_8qc.html#aeccea1b8fd4a35dc2c9622d878398835">SAFENUDGE</a>, player.maxs + <a class="code" href="../../de/de8/portals_8qc.html#aeccea1b8fd4a35dc2c9622d878398835">SAFENUDGE</a>, step, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a>, player);</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a>)</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    {</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;&#39;safe&#39; teleport location is not safe!\n&quot;</span>);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;&#39;safe&#39; teleport location is not safe!&quot;</span>);</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="comment">// FAIL TODO why does this happen?</span></div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
@@ -264,7 +264,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    tracebox(safe, player.mins - <a class="code" href="../../de/de8/portals_8qc.html#aeccea1b8fd4a35dc2c9622d878398835">SAFENUDGE</a>, player.maxs + <a class="code" href="../../de/de8/portals_8qc.html#aeccea1b8fd4a35dc2c9622d878398835">SAFENUDGE</a>, to, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a>, player);</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a>)</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    {</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;trace_endpos in solid, this can&#39;t be!\n&quot;</span>);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;trace_endpos in solid, this can&#39;t be!&quot;</span>);</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="comment">// FAIL TODO why does this happen? (reported by MrBougo)</span></div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    }</div>
@@ -323,7 +323,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#ad79e0cb00b3240d020116c16914e8bb7">move_out_of_solid</a>(portal))</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    {</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;NO SAFE ORIGIN\n&quot;</span>);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;NO SAFE ORIGIN&quot;</span>);</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    }</div>
@@ -929,7 +929,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../de/de8/portals_8qc.html">portals.qc</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 03:14:29 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 03:47:04 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

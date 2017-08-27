@@ -518,21 +518,21 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../dc/dbb/urllib_8qh.html#aabc21837e2a1c5a86141a7ef4ec52599">URL_READY_CANREAD</a>:</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="comment">// url_fclose is processing, we got a response for writing the data</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="comment">// this must come from HTTP</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Got response from weapon stats server:\n&quot;</span>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Got response from weapon stats server:&quot;</span>);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">while</span>((s = <a class="code" href="../../d6/d38/urllib_8qc.html#a44e35ac6efe69f3887b3649bf9d4ddbf">url_fgets</a>(fh)))</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &quot;</span>, s, <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;End of response.\n&quot;</span>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &quot;</span>, s);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;End of response.&quot;</span>);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="../../d6/d38/urllib_8qc.html#aec3e4f91f4163ffc70108838821510cc">url_fclose</a>(fh);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../dc/dbb/urllib_8qh.html#a3e851246184b444cb1e51e321d78382c">URL_READY_CLOSED</a>:</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="comment">// url_fclose has finished</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Weapon stats written\n&quot;</span>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Weapon stats written&quot;</span>);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            buf_del(<a class="code" href="../../d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829">weaponstats_buffer</a>);</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <a class="code" href="../../d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829">weaponstats_buffer</a> = -1;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a>:</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Weapon stats writing failed: &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(status), <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Weapon stats writing failed: &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(status));</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            buf_del(<a class="code" href="../../d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829">weaponstats_buffer</a>);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <a class="code" href="../../d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829">weaponstats_buffer</a> = -1;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">break</span>;</div>
@@ -656,7 +656,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d9/df0/weaponstats_8qh.html">weaponstats.qh</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 03:14:43 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 03:47:22 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

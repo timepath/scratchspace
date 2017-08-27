@@ -266,7 +266,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d38/urllib_8qc.html#a544fc8795b3e208634bf28e78d47b94e">url_fromid</a>[i] == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                <span class="keywordflow">if</span> (i &gt;= autocvar__urllib_nextslot)</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                {</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;url_fclose: too many concurrent requests\n&quot;</span>);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;url_fclose: too many concurrent requests&quot;</span>);</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                    e.url_ready(e, e.url_ready_pass, <a class="code" href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a>);</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                    buf_del(e.url_wbuf);</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                    <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(e.url_url);</div>
@@ -278,7 +278,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            <span class="comment">// POST the data</span></div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <span class="keywordflow">if</span> (!crypto_uri_postbuf(e.url_url, i + <a class="code" href="../../dc/dbb/urllib_8qh.html#a9bcb43892d78bc065d0e237c9c2a27d6">MIN_URL_ID</a>, e.url_content_type, e.url_verb, e.url_wbuf, 0))</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            {</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;url_fclose: failure in crypto_uri_postbuf\n&quot;</span>);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;url_fclose: failure in crypto_uri_postbuf&quot;</span>);</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                e.url_ready(e, e.url_ready_pass, <a class="code" href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a>);</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                buf_del(e.url_wbuf);</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(e.url_url);</div>
@@ -639,7 +639,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        e.url_rbuf = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c">buf_create</a>();</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">if</span> (e.url_rbuf &lt; 0)</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;url_URI_Get_Callback: out of memory in buf_create\n&quot;</span>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;url_URI_Get_Callback: out of memory in buf_create&quot;</span>);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            e.url_ready(e, e.url_ready_pass, <a class="code" href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a>);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(e.url_url);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keyword">delete</span>(e);</div>
@@ -648,7 +648,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        e.url_rbufpos = 0;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">if</span> (e.url_rbuf &lt; 0)</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;url_URI_Get_Callback: out of memory in buf_create\n&quot;</span>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;url_URI_Get_Callback: out of memory in buf_create&quot;</span>);</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            e.url_ready(e, e.url_ready_pass, <a class="code" href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a>);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(e.url_url);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="keyword">delete</span>(e);</div>
@@ -902,7 +902,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dc/dbb/urllib_8qh.html">urllib.qh</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 03:14:37 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 03:47:13 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
