@@ -720,7 +720,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;    <span class="keywordtype">float</span> i = 0;</div>
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;    <span class="keywordflow">for</span>(e = PS_D_IN_EVL; (en = <a class="code" href="../../d4/d54/map_8qh.html#a9ef8574526bd0fc3ba024e3ca148de85">db_get</a>(PS_D_IN_DB, e)) != <span class="stringliteral">&quot;&quot;</span>; e = en)</div>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;    {</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(sprintf(<span class="stringliteral">&quot;%d:%s:%s\n&quot;</span>, i, e, <a class="code" href="../../d4/d54/map_8qh.html#a9ef8574526bd0fc3ba024e3ca148de85">db_get</a>(PS_D_IN_DB, sprintf(<span class="stringliteral">&quot;#%s&quot;</span>, e))));</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;%d:%s:%s\n&quot;</span>, i, e, <a class="code" href="../../d4/d54/map_8qh.html#a9ef8574526bd0fc3ba024e3ca148de85">db_get</a>(PS_D_IN_DB, sprintf(<span class="stringliteral">&quot;#%s&quot;</span>, e)));</div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        ++i;</div>
 <div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    }</div>
 <div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -899,13 +899,13 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;                }</div>
 <div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;</div>
 <div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;<span class="preprocessor">                #if 0</span></div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;<span class="preprocessor"></span>                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(sprintf(</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;<span class="preprocessor"></span>                <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(</div>
 <div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;                    <span class="stringliteral">&quot;PlayerStats_PlayerDetail_Handler(): &quot;</span></div>
 <div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;                    <span class="stringliteral">&quot;Key &#39;%s&#39;, Event &#39;%s&#39;, Data &#39;%s&#39;\n&quot;</span>,</div>
 <div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;                    key,</div>
 <div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;                    event,</div>
 <div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;                    data</div>
-<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;                ));</div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;                );</div>
 <div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;<span class="preprocessor">                #endif</span></div>
 <div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;<span class="preprocessor"></span>            }</div>
 <div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;            <span class="comment">//print(&quot;PlayerStats_PlayerDetail_Handler(): End of response.\n&quot;);</span></div>
@@ -1212,7 +1212,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="ttc" id="mapinfo_8qh_html_a8b3b6528d28eae213a819ebc13bd3cae"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#a8b3b6528d28eae213a819ebc13bd3cae">IS_GAMETYPE</a></div><div class="ttdeci">#define IS_GAMETYPE(NAME)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00094">mapinfo.qh:94</a></div></div>
 <div class="ttc" id="anticheat_8qc_html_acc8fb1d445de6158b9a51ba1b566a820"><div class="ttname"><a href="../../d6/d29/anticheat_8qc.html#acc8fb1d445de6158b9a51ba1b566a820">anticheat_register_to_playerstats</a></div><div class="ttdeci">void anticheat_register_to_playerstats()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d29/anticheat_8qc_source.html#l00212">anticheat.qc:212</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a796761bb60e941804441ef425b24d86c"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a796761bb60e941804441ef425b24d86c">gametype</a></div><div class="ttdeci">entity gametype</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00013">main.qh:13</a></div></div>
-<div class="ttc" id="log_8qh_html_a2872337768358857f71a83488272df5b"><div class="ttname"><a href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a></div><div class="ttdeci">#define LOG_TRACEF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00076">log.qh:76</a></div></div>
+<div class="ttc" id="log_8qh_html_a2872337768358857f71a83488272df5b"><div class="ttname"><a href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a></div><div class="ttdeci">#define LOG_TRACEF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00079">log.qh:79</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qc_html_a7818c3bb6c4bd63ffb9cf8ad1e23f8fe"><div class="ttname"><a href="../../dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe">playername</a></div><div class="ttdeci">string playername(string thename, float teamid)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00163">miscfunctions.qc:163</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_a25e96bce6bfbe6aa5dffc5f44f7edbc7"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a25e96bce6bfbe6aa5dffc5f44f7edbc7">frags</a></div><div class="ttdeci">frags</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00080">ent_cs.qc:80</a></div></div>
 <div class="ttc" id="map_8qh_html_a9ef8574526bd0fc3ba024e3ca148de85"><div class="ttname"><a href="../../d4/d54/map_8qh.html#a9ef8574526bd0fc3ba024e3ca148de85">db_get</a></div><div class="ttdeci">ERASEABLE string db_get(int db, string key)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00091">map.qh:91</a></div></div>
@@ -1252,7 +1252,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../de/d6e/playerstats_8qc.html">playerstats.qc</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 01:04:50 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 02:54:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

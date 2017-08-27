@@ -179,16 +179,16 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/d47/menu__cmd_8qc_source.html#l00030">30</a> of file <a class="el" href="../../d7/d47/menu__cmd_8qc_source.html">menu_cmd.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/d47/menu__cmd_8qc_source.html#l00012">_dumptree_space</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
+<p>References <a class="el" href="../../d7/d47/menu__cmd_8qc_source.html#l00012">_dumptree_space</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">if</span> (me.firstChild)</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="../../d7/d47/menu__cmd_8qc.html#a9dd152eb4fcca199f1775a62176d2778">_dumptree_space</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="code" href="../../d7/d47/menu__cmd_8qc.html#a9dd152eb4fcca199f1775a62176d2778">_dumptree_space</a>, 0, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(<a class="code" href="../../d7/d47/menu__cmd_8qc.html#a9dd152eb4fcca199f1775a62176d2778">_dumptree_space</a>) - 2);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<a class="code" href="../../d7/d47/menu__cmd_8qc.html#a9dd152eb4fcca199f1775a62176d2778">_dumptree_space</a>, <span class="stringliteral">&quot;}\n&quot;</span>);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a>(<a class="code" href="../../d7/d47/menu__cmd_8qc.html#a9dd152eb4fcca199f1775a62176d2778">_dumptree_space</a>, <span class="stringliteral">&quot;}\n&quot;</span>);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<div class="ttc" id="menudefs_8qc_html_acf9c719e766113bad854907e87812e98"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a></div><div class="ttdeci">void print(string text,...)</div></div>
 <div class="ttc" id="menu__cmd_8qc_html_a9dd152eb4fcca199f1775a62176d2778"><div class="ttname"><a href="../../d7/d47/menu__cmd_8qc.html#a9dd152eb4fcca199f1775a62176d2778">_dumptree_space</a></div><div class="ttdeci">string _dumptree_space</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d47/menu__cmd_8qc_source.html#l00012">menu_cmd.qc:12</a></div></div>
-<div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
 </div><!-- fragment -->
@@ -197,7 +197,7 @@ Variables</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d47/menu__cmd_8qc_a92116f3fa83de58a5c8d2a736b7ed11a_cgraph.svg" width="256" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d47/menu__cmd_8qc_a92116f3fa83de58a5c8d2a736b7ed11a_cgraph.svg" width="256" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -230,34 +230,34 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/d47/menu__cmd_8qc_source.html#l00013">13</a> of file <a class="el" href="../../d7/d47/menu__cmd_8qc_source.html">menu_cmd.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/d47/menu__cmd_8qc_source.html#l00012">_dumptree_space</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#afa1339a9821a14fdbaa610abaac80ef3">etos()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
+<p>References <a class="el" href="../../d7/d47/menu__cmd_8qc_source.html#l00012">_dumptree_space</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#afa1339a9821a14fdbaa610abaac80ef3">etos()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">string</span> s;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    s = me.toString(me);</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span> (s == <span class="stringliteral">&quot;&quot;</span>) s = me.classname;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">else</span> s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(me.classname, <span class="stringliteral">&quot;: &quot;</span>, s);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<a class="code" href="../../d7/d47/menu__cmd_8qc.html#a9dd152eb4fcca199f1775a62176d2778">_dumptree_space</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#afa1339a9821a14fdbaa610abaac80ef3">etos</a>(me), <span class="stringliteral">&quot; (&quot;</span>, s, <span class="stringliteral">&quot;)&quot;</span>);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a>(<a class="code" href="../../d7/d47/menu__cmd_8qc.html#a9dd152eb4fcca199f1775a62176d2778">_dumptree_space</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#afa1339a9821a14fdbaa610abaac80ef3">etos</a>(me), <span class="stringliteral">&quot; (&quot;</span>, s, <span class="stringliteral">&quot;)&quot;</span>);</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (me.firstChild)</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot; {\n&quot;</span>);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a>(<span class="stringliteral">&quot; {\n&quot;</span>);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../d7/d47/menu__cmd_8qc.html#a9dd152eb4fcca199f1775a62176d2778">_dumptree_space</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d7/d47/menu__cmd_8qc.html#a9dd152eb4fcca199f1775a62176d2778">_dumptree_space</a>, <span class="stringliteral">&quot;  &quot;</span>);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a>(<span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<div class="ttc" id="menudefs_8qc_html_acf9c719e766113bad854907e87812e98"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a></div><div class="ttdeci">void print(string text,...)</div></div>
 <div class="ttc" id="menu__cmd_8qc_html_a9dd152eb4fcca199f1775a62176d2778"><div class="ttname"><a href="../../d7/d47/menu__cmd_8qc.html#a9dd152eb4fcca199f1775a62176d2778">_dumptree_space</a></div><div class="ttdeci">string _dumptree_space</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d47/menu__cmd_8qc_source.html#l00012">menu_cmd.qc:12</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="menudefs_8qc_html_afa1339a9821a14fdbaa610abaac80ef3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#afa1339a9821a14fdbaa610abaac80ef3">etos</a></div><div class="ttdeci">string etos(entity e)</div></div>
-<div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d47/menu__cmd_8qc_ac475b9372dac09416fe834d14d6231c6_cgraph.svg" width="235" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d47/menu__cmd_8qc_ac475b9372dac09416fe834d14d6231c6_cgraph.svg" width="235" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -291,7 +291,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(_(<span class="stringliteral">&quot;  sync - reloads all cvars on the current menu page\n&quot;</span>));</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(_(<span class="stringliteral">&quot;  directmenu ITEM - select a menu item as main item\n&quot;</span>));</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nGeneric commands shared by all programs:\n&quot;</span>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Generic commands shared by all programs:\n&quot;</span>);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="../../df/da7/generic_8qc.html#af21b5f0914d24ba07dcd52f606b8518e">GenericCommand_macro_help</a>();</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span>;</div>
@@ -581,7 +581,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_c6da9de4494473068dbcc8756d965786.html">command</a></li><li class="navelem"><a class="el" href="../../d7/d47/menu__cmd_8qc.html">menu_cmd.qc</a></li>
-    <li class="footer">Generated on Sun Aug 27 2017 01:05:00 for Xonotic by
+    <li class="footer">Generated on Sun Aug 27 2017 02:55:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
