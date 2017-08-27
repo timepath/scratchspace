@@ -22,7 +22,6 @@ var searchData=
   ['ok_5finitialize',['ok_Initialize',['../d8/d0c/sv__overkill_8qc.html#a03452068b9a7bb16d129885c1b7a030e',1,'sv_overkill.qc']]],
   ['ok_5fitem',['ok_item',['../d8/d0c/sv__overkill_8qc.html#a45c2850f79fb413dfe83bd689f45115a',1,'sv_overkill.qc']]],
   ['ok_5flastwep',['ok_lastwep',['../d8/d0c/sv__overkill_8qc.html#a1f5b682ab4a4eb9896ca64778b726a80',1,'sv_overkill.qc']]],
-  ['ok_5fsetcvars',['ok_SetCvars',['../d8/d0c/sv__overkill_8qc.html#ad8ae7ef3a705c7d7de834fdf45a79dce',1,'sv_overkill.qc']]],
   ['old_5fbluralpha',['old_bluralpha',['../d6/dd3/view_8qc.html#a71182767c3a892f67ee44db04be80172',1,'view.qc']]],
   ['old_5fblurradius',['old_blurradius',['../d6/dd3/view_8qc.html#a5bf4e8b5377587eed4e3d50cc0d823b2',1,'view.qc']]],
   ['old_5fclip_5fload',['old_clip_load',['../d5/d26/server_2defs_8qh.html#a57deb012ad810a6a3f98eed91fb61a04',1,'defs.qh']]],

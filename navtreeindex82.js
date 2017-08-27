@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"d9/d2f/classXonoticNexposee.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,212,10],
 "d9/d2f/classXonoticNexposee.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,212,35],
 "d9/d2f/classXonoticNexposee.html#a086d32c9694472250922d42417bc8d66":[1,0,212,2],
 "d9/d2f/classXonoticNexposee.html#a15a079005253aa396654a3f6654dc399":[1,0,212,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "d9/d4f/deathtypes_2all_8qh.html#aef6fa079502aff69a43b0627c85d8efb":[2,0,1,1,4,21],
 "d9/d4f/deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8":[2,0,1,1,4,11],
 "d9/d4f/deathtypes_2all_8qh_source.html":[2,0,1,1,4],
-"d9/d50/server_2mutators_2mutator_2__mod_8qh.html":[2,0,6,3,0,1],
-"d9/d50/server_2mutators_2mutator_2__mod_8qh_source.html":[2,0,6,3,0,1]
+"d9/d50/server_2mutators_2mutator_2__mod_8qh.html":[2,0,6,3,0,1]
 };

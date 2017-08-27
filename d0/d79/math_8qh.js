@@ -19,6 +19,8 @@ var math_8qh =
     [ "fsnap", "d0/d79/math_8qh.html#abba176f2e34059c17eaa7b4f032f9da9", null ],
     [ "lerpv", "d0/d79/math_8qh.html#aba3066b97e95d3930e9205fdb186ba2e", null ],
     [ "log2of", "d0/d79/math_8qh.html#a329d230e78c37078e8fedff231727c91", null ],
+    [ "map_bound_ranges", "d0/d79/math_8qh.html#ae72916d6ffdcecef7d4c9faaa9970c1d", null ],
+    [ "map_ranges", "d0/d79/math_8qh.html#a581a752253f19d6001bbaf2552dd7de4", null ],
     [ "mean_accumulate", "d0/d79/math_8qh.html#a20ecf3aba65116ebed89052b1ad10ff9", null ],
     [ "mean_evaluate", "d0/d79/math_8qh.html#a0769f382997350e039f5f05bd79430cd", null ],
     [ "median", "d0/d79/math_8qh.html#ae66ddd88c991ed356f5c843c695e57cf", null ],

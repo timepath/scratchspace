@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"d9/d67/turret_8qh.html":[2,0,1,14,15],
 "d9/d67/turret_8qh.html#a02f4425939723a8f3fcc0cf7b6f2cef0":[2,0,1,14,15,91],
 "d9/d67/turret_8qh.html#a0a361d9783482bb833eaee8f7a495778":[2,0,1,14,15,61],
 "d9/d67/turret_8qh.html#a0a5ba228ea10877a8767fb0cbb1b4a5f":[2,0,1,14,15,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "d9/d85/classXonoticHUDEngineInfoDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,179,86],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,179,10],
 "d9/d85/rootdialog_8qh.html":[2,0,5,4,195],
-"d9/d85/rootdialog_8qh_source.html":[2,0,5,4,195],
-"d9/d88/sv__controlpoint_8qh.html":[2,0,1,3,0,1,13]
+"d9/d85/rootdialog_8qh_source.html":[2,0,5,4,195]
 };

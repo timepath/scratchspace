@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"d1/d7e/classXonoticServerListTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,235,68],
+"d1/d7e/classXonoticServerListTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,235,74],
 "d1/d7e/classXonoticServerListTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,235,62],
 "d1/d7e/classXonoticServerListTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,235,66],
 "d1/d7e/classXonoticServerListTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,235,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "d1/d9f/dialog__multiplayer_8qc.html":[2,0,5,4,86],
 "d1/d9f/dialog__multiplayer_8qc.html#af83637108621204488c5ae95da509066":[2,0,5,4,86,0],
 "d1/d9f/dialog__multiplayer_8qc_source.html":[2,0,5,4,86],
-"d1/da5/checkpoint_8qh.html":[2,0,1,14,6],
-"d1/da5/checkpoint_8qh_source.html":[2,0,1,14,6],
-"d1/da8/xonotic_2radiobutton_8qh.html":[2,0,5,4,193]
+"d1/da5/checkpoint_8qh.html":[2,0,1,14,6]
 };

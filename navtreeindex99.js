@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"db/d5c/walker_8qc_source.html":[2,0,1,14,0,42],
 "db/d5e/multijump_8qh.html":[2,0,1,9,0,16,3],
 "db/d5e/multijump_8qh_source.html":[2,0,1,9,0,16,3],
 "db/d5f/deathtypes_2all_8qc.html":[2,0,1,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "db/d7f/effectinfo_8inc.html#a2ae93913da7a9ba93a236bf67820d2f5":[2,0,1,2,7,0],
 "db/d7f/effectinfo_8inc.html#a2b3de5868558a27a4187e50cb0eb0263":[2,0,1,2,7,184],
 "db/d7f/effectinfo_8inc.html#a2b5d9e1d3be4bfbba280f9e78f7c4d5c":[2,0,1,2,7,48],
-"db/d7f/effectinfo_8inc.html#a2bbacca15525b1904ae0e4abe66f9074":[2,0,1,2,7,137],
-"db/d7f/effectinfo_8inc.html#a2f757a6a091a5c78f14142714b99a7e1":[2,0,1,2,7,248]
+"db/d7f/effectinfo_8inc.html#a2bbacca15525b1904ae0e4abe66f9074":[2,0,1,2,7,137]
 };

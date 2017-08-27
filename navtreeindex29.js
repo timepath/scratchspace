@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"d3/da9/classMineLayer.html#a48654b25dcdfdb4970026a7537133937":[1,0,74,31],
+"d3/da9/classMineLayer.html#a5ba0f7dd41ba2737fc52560ddf1ab558":[1,0,74,32],
 "d3/da9/classMineLayer.html#a666e6a52c2ea425128db9dc219d64bd2":[1,0,74,24],
 "d3/da9/classMineLayer.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,74,9],
 "d3/da9/classMineLayer.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,74,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "d3/dbe/classSlider.html#a1c228ffb13fb785a4d69c1fc3cba8290":[1,0,116,9],
 "d3/dbe/classSlider.html#a1d02ac64cd2c844a3a1328e155243fef":[1,0,116,31],
 "d3/dbe/classSlider.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,116,23],
-"d3/dbe/classSlider.html#a1ed92bdbe845237ab3ba60c4b9b0f185":[1,0,116,64],
-"d3/dbe/classSlider.html#a1f49a81a5c3860beb9953615562cc5d2":[1,0,116,17],
-"d3/dbe/classSlider.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,116,46]
+"d3/dbe/classSlider.html#a1ed92bdbe845237ab3ba60c4b9b0f185":[1,0,116,64]
 };

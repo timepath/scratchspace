@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"de/dd6/playermodel_8qc.html#aa959fa692eff32b9efbcf85799bf916c":[2,0,5,4,188,3],
 "de/dd6/playermodel_8qc.html#afc6aaa1d6378f5d13710d6f21a548bf9":[2,0,5,4,188,12],
 "de/dd6/playermodel_8qc_source.html":[2,0,5,4,188],
 "de/dda/pickup_8qh.html":[2,0,1,5,0,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "df/d1e/common_2mutators_2mutator_2walljump_2__mod_8inc_source.html":[2,0,1,9,0,33,0],
 "df/d1f/client_2hud_2panel_2vote_8qc.html":[2,0,0,1,0,38],
 "df/d1f/client_2hud_2panel_2vote_8qc.html#a297e9e4e75bcd558a43f78eb74dd2140":[2,0,0,1,0,38,0],
-"df/d1f/client_2hud_2panel_2vote_8qc_source.html":[2,0,0,1,0,38],
-"df/d21/infomessages_8qc.html":[2,0,0,1,0,12]
+"df/d1f/client_2hud_2panel_2vote_8qc_source.html":[2,0,0,1,0,38]
 };

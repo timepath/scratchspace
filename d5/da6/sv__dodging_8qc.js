@@ -12,7 +12,7 @@ var sv__dodging_8qc =
     [ "PHYS_DODGING_RAMP_TIME", "d5/da6/sv__dodging_8qc.html#ab28125cc7a1292cae613a00cdd3a23f9", null ],
     [ "PHYS_DODGING_UP_SPEED", "d5/da6/sv__dodging_8qc.html#ae46243731ae5eb39da3425287dd7a0ad", null ],
     [ "PHYS_DODGING_WALL", "d5/da6/sv__dodging_8qc.html#a97cb1e5f1ce328ecac8001ab1f7275c3", null ],
-    [ "X", "d5/da6/sv__dodging_8qc.html#a562a0a1ec571bdaeecfb44158b76f3c8", null ],
+    [ "X", "d5/da6/sv__dodging_8qc.html#ac3733660e2be83aa7299e69c98977e23", null ],
     [ "X", "d5/da6/sv__dodging_8qc.html#a63458a289cdb574d0922ac57742d44ad", null ],
     [ "check_close_to_ground", "d5/da6/sv__dodging_8qc.html#a29b9ced05380bec8aad81eadcc9fa6d3", null ],
     [ "check_close_to_wall", "d5/da6/sv__dodging_8qc.html#ac1eb9810c9ce04bedc9d02326ca375b9", null ],

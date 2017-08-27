@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"d5/d4a/cl__minigames__hud_8qc.html#ac6eabab66d817bd2b8f5edf88f3c01ac":[2,0,1,6,5,7],
+"d5/d4a/cl__minigames__hud_8qc.html#accb30bb8176c36e5013f2ac92bb8feda":[2,0,1,6,5,2],
 "d5/d4a/cl__minigames__hud_8qc.html#aceea913bef82e231ea5929d8086deb56":[2,0,1,6,5,4],
 "d5/d4a/cl__minigames__hud_8qc.html#ad83b0ec6561c90f628420274460cdc55":[2,0,1,6,5,14],
 "d5/d4a/cl__minigames__hud_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af":[2,0,1,6,5,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "d5/d6c/classXonoticHUDSkinList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,193,81],
 "d5/d6c/classXonoticHUDSkinList.html#abde295bcf23cc138f570ae73f5b8d279":[1,0,193,2],
 "d5/d6c/classXonoticHUDSkinList.html#ac03f21b2ed56a73716723dd13374541a":[1,0,193,65],
-"d5/d6c/classXonoticHUDSkinList.html#ac2c63b2e3a526daeb273e931bb770e5a":[1,0,193,19],
-"d5/d6c/classXonoticHUDSkinList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,193,72],
-"d5/d6c/classXonoticHUDSkinList.html#ac6094922668d013ada3893854eec6b0f":[1,0,193,25]
+"d5/d6c/classXonoticHUDSkinList.html#ac2c63b2e3a526daeb273e931bb770e5a":[1,0,193,19]
 };

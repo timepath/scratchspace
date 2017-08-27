@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"d2/d5e/registry_8qh.html#ade3fba5a0d1eade22f2692e182b9ef76":[2,0,4,46,8],
+"d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89":[2,0,4,46,22],
 "d2/d5e/registry_8qh.html#ae2355f83505f4512724f06824c6734ed":[2,0,4,46,0],
 "d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496":[2,0,4,46,24],
 "d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618":[2,0,4,46,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d94/xonotic_2tab_8qc.html":[2,0,5,4,220],
 "d2/d94/xonotic_2tab_8qc.html#a13fe5728a418b314ab87bb874e42231d":[2,0,5,4,220,0],
 "d2/d94/xonotic_2tab_8qc_source.html":[2,0,5,4,220],
-"d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc.html":[2,0,1,9,0,10,0],
-"d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc_source.html":[2,0,1,9,0,10,0],
-"d2/d9b/common_2effects_2qc_2__mod_8qh.html":[2,0,1,2,0,1]
+"d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc.html":[2,0,1,9,0,10,0]
 };

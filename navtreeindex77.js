@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html":[2,0,1,9,0,34,3],
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a04e2d734ae55f5ddd843bcf3f1614e20":[2,0,1,9,0,34,3,3],
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a3da47aff03aeae2520d8687b6cc8d4e7":[2,0,1,9,0,34,3,10],
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a40dcb143f36ec5266d8d271f3f43296c":[2,0,1,9,0,34,3,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "d8/de2/menudefs_8qc.html#a2e79c39c212b8262151d8f871ebf05bc":[2,0,2,0,3,16],
 "d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a":[2,0,2,0,3,136],
 "d8/de2/menudefs_8qc.html#a3195bf628df3841489df31af0fc09e26":[2,0,2,0,3,249],
-"d8/de2/menudefs_8qc.html#a31ab0d48da7dd42a50965d3564982d14":[2,0,2,0,3,228],
-"d8/de2/menudefs_8qc.html#a31d9e9e8cae37fd3326bd3500b490da4":[2,0,2,0,3,57]
+"d8/de2/menudefs_8qc.html#a31ab0d48da7dd42a50965d3564982d14":[2,0,2,0,3,228]
 };

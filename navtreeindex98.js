@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"db/d59/classXonoticPlayList.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,218,8],
 "db/d59/classXonoticPlayList.html#a701704a266add70d71357ae076e235aa":[1,0,218,7],
 "db/d59/classXonoticPlayList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,218,58],
 "db/d59/classXonoticPlayList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,218,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "db/d5b/classXonoticGameMessageSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,169,88],
 "db/d5b/classXonoticGameMessageSettingsTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,169,14],
 "db/d5b/classXonoticGameMessageSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,169,8],
-"db/d5c/walker_8qc.html":[2,0,1,14,0,42],
-"db/d5c/walker_8qc_source.html":[2,0,1,14,0,42]
+"db/d5c/walker_8qc.html":[2,0,1,14,0,42]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"d5/d95/classXonoticDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,164,44],
+"d5/d95/classXonoticDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,164,0],
 "d5/d95/classXonoticDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,164,33],
 "d5/d95/classXonoticDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,164,38],
 "d5/d95/classXonoticDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,164,58],
@@ -135,7 +137,6 @@ var NAVTREEINDEX49 =
 "d5/da6/sv__dodging_8qc.html#a29b9ced05380bec8aad81eadcc9fa6d3":[2,0,1,9,0,7,2,14],
 "d5/da6/sv__dodging_8qc.html#a4436947df1dbac138d6c61491ab804be":[2,0,1,9,0,7,2,7],
 "d5/da6/sv__dodging_8qc.html#a51caaa15fb6f8d0b46b8764fc815abcd":[2,0,1,9,0,7,2,1],
-"d5/da6/sv__dodging_8qc.html#a562a0a1ec571bdaeecfb44158b76f3c8":[2,0,1,9,0,7,2,12],
 "d5/da6/sv__dodging_8qc.html#a62ee826ed38b4d8199deced643ee6dfa":[2,0,1,9,0,7,2,28],
 "d5/da6/sv__dodging_8qc.html#a63458a289cdb574d0922ac57742d44ad":[2,0,1,9,0,7,2,13],
 "d5/da6/sv__dodging_8qc.html#a68789133941ba78a7891d6faf52979cf":[2,0,1,9,0,7,2,4],
@@ -154,6 +155,7 @@ var NAVTREEINDEX49 =
 "d5/da6/sv__dodging_8qc.html#ab9f600a3f16315bcbeca77bc491bbeee":[2,0,1,9,0,7,2,20],
 "d5/da6/sv__dodging_8qc.html#abbbb0affc8ab2477c4d3c906dce57da0":[2,0,1,9,0,7,2,27],
 "d5/da6/sv__dodging_8qc.html#ac1eb9810c9ce04bedc9d02326ca375b9":[2,0,1,9,0,7,2,15],
+"d5/da6/sv__dodging_8qc.html#ac3733660e2be83aa7299e69c98977e23":[2,0,1,9,0,7,2,12],
 "d5/da6/sv__dodging_8qc.html#ad5ea939db5dd65a8598ada1a57bbf848":[2,0,1,9,0,7,2,23],
 "d5/da6/sv__dodging_8qc.html#add534eb5c5bef98855d46c4032d2bc19":[2,0,1,9,0,7,2,19],
 "d5/da6/sv__dodging_8qc.html#ae2fe3c4e71bac00221ee1de977cfe923":[2,0,1,9,0,7,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "d5/dc4/hook_8qh.html#a26c1ac788f42d8ea1729fee825f749fd":[2,0,1,16,0,19,5],
 "d5/dc4/hook_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,19,2],
 "d5/dc4/hook_8qh.html#a76ad2e9ba660dce2d6aacd6c16fc7a88":[2,0,1,16,0,19,4],
-"d5/dc4/hook_8qh.html#ac05f10fa7d1e0b2393626a01b06c1954":[2,0,1,16,0,19,3],
-"d5/dc4/hook_8qh_source.html":[2,0,1,16,0,19],
-"d5/dc5/sv__cloaked_8qc.html":[2,0,1,9,0,5,2]
+"d5/dc4/hook_8qh.html#ac05f10fa7d1e0b2393626a01b06c1954":[2,0,1,16,0,19,3]
 };

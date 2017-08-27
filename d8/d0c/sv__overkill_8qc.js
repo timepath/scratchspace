@@ -18,7 +18,6 @@ var sv__overkill_8qc =
     [ "ok_DropItem", "d8/d0c/sv__overkill_8qc.html#af9ffca40bf7744bacacbc7b729c20241", null ],
     [ "ok_HandleItemWaypoints", "d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2", null ],
     [ "ok_Initialize", "d8/d0c/sv__overkill_8qc.html#a03452068b9a7bb16d129885c1b7a030e", null ],
-    [ "ok_SetCvars", "d8/d0c/sv__overkill_8qc.html#ad8ae7ef3a705c7d7de834fdf45a79dce", null ],
     [ "REGISTER_MUTATOR", "d8/d0c/sv__overkill_8qc.html#ae1e1cc9aef6d572a452369681b21a0d2", null ],
     [ "self_spawnfunc_weapon_hmg", "d8/d0c/sv__overkill_8qc.html#a7a67a821e2291c798c0b03162b43c966", null ],
     [ "self_spawnfunc_weapon_rpc", "d8/d0c/sv__overkill_8qc.html#abcecb4fae68df06fcb5bd632a5c5e695", null ],
