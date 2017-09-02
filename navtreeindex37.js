@@ -1,5 +1,12 @@
 var NAVTREEINDEX37 =
 {
+"d4/d3b/classXonoticBigButton.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,141,30],
+"d4/d3b/classXonoticBigButton.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,141,72],
+"d4/d3b/classXonoticBigButton.html#afdcf1fb79903f747cda494b27206526b":[1,0,141,10],
+"d4/d3c/radarmap_8qh.html":[2,0,6,1,11],
+"d4/d3c/radarmap_8qh.html#a8e00d4986133ccf16907642ac0064fd3":[2,0,6,1,11,0],
+"d4/d3c/radarmap_8qh_source.html":[2,0,6,1,11],
+"d4/d3d/common_2sounds_2__mod_8qh.html":[2,0,1,12,1],
 "d4/d3d/common_2sounds_2__mod_8qh_source.html":[2,0,1,12,1],
 "d4/d3f/classXonoticKeyBinder.html":[1,0,200],
 "d4/d3f/classXonoticKeyBinder.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,200,47],
@@ -242,12 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d53/server_2impulse_8qc_source.html":[2,0,6,33],
 "d4/d54/common_2triggers_2func_2__mod_8qh.html":[2,0,1,13,0,1],
 "d4/d54/common_2triggers_2func_2__mod_8qh_source.html":[2,0,1,13,0,1],
-"d4/d54/map_8qh.html":[2,0,4,32],
-"d4/d54/map_8qh.html#a0cbc5a946b47e9a20a1d9089688840ff":[2,0,4,32,0],
-"d4/d54/map_8qh.html#a250c6f59605b10e0f6c9e18a5c57547f":[2,0,4,32,6],
-"d4/d54/map_8qh.html#a4552c3e9e142280d80a56d0d56ba009d":[2,0,4,32,3],
-"d4/d54/map_8qh.html#a51b0260946e021bb9ba8b8e676c3236e":[2,0,4,32,10],
-"d4/d54/map_8qh.html#a59b128bdcd934c822aeb0c09783873f3":[2,0,4,32,1],
-"d4/d54/map_8qh.html#a605b837e0b0cfbe3b7ef69564dba980e":[2,0,4,32,4],
-"d4/d54/map_8qh.html#a86b85b0f5f2ae1b4d98314c75f14e1de":[2,0,4,32,13]
+"d4/d54/map_8qh.html":[2,0,4,32]
 };

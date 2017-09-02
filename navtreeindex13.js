@@ -1,5 +1,8 @@
 var NAVTREEINDEX13 =
 {
+"d1/d9f/dialog__multiplayer_8qc.html#af83637108621204488c5ae95da509066":[2,0,5,4,86,0],
+"d1/d9f/dialog__multiplayer_8qc_source.html":[2,0,5,4,86],
+"d1/da5/checkpoint_8qh.html":[2,0,1,14,6],
 "d1/da5/checkpoint_8qh_source.html":[2,0,1,14,6],
 "d1/da8/xonotic_2radiobutton_8qh.html":[2,0,5,4,193],
 "d1/da8/xonotic_2radiobutton_8qh.html#a923eeffb1f7b493924b67a5029de1ee0":[2,0,5,4,193,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX13 =
 "d1/dc3/classEWheelAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,35,33],
 "d1/dc3/classEWheelAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,35,19],
 "d1/dc3/classEWheelAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,35,18],
-"d1/dc3/classEWheelAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,35,30],
-"d1/dc3/classEWheelAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,35,16],
-"d1/dc3/classEWheelAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,35,20],
-"d1/dc3/classEWheelAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,35,11]
+"d1/dc3/classEWheelAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,35,30]
 };

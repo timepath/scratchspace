@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"d1/d19/classButton.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,11,35],
 "d1/d19/classButton.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,11,15],
 "d1/d19/classButton.html#aaefd5f78048ffbfdf0e45b630c4b5a4b":[1,0,11,52],
 "d1/d19/classButton.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,11,8],
@@ -38,12 +39,13 @@ var NAVTREEINDEX7 =
 "d1/d21/sv__melee__only_8qh.html":[2,0,1,9,0,14,3],
 "d1/d21/sv__melee__only_8qh_source.html":[2,0,1,9,0,14,3],
 "d1/d24/sv__vampirehook_8qc.html":[2,0,1,9,0,32,2],
-"d1/d24/sv__vampirehook_8qc.html#a41ae29f2d80be655dc54277f7adff9fd":[2,0,1,9,0,32,2,6],
-"d1/d24/sv__vampirehook_8qc.html#a6e1cdf81b37e1400b74de2e147da81d3":[2,0,1,9,0,32,2,4],
-"d1/d24/sv__vampirehook_8qc.html#a8b1bad77102afcc51e7fab8414eda9a1":[2,0,1,9,0,32,2,5],
-"d1/d24/sv__vampirehook_8qc.html#a8fe0753e89646aaa4e1b3f05d9a891b3":[2,0,1,9,0,32,2,1],
-"d1/d24/sv__vampirehook_8qc.html#ae2d72105afb4e1d59095deafb9ade864":[2,0,1,9,0,32,2,3],
-"d1/d24/sv__vampirehook_8qc.html#afefbda54366d05202cfa45ea573b901a":[2,0,1,9,0,32,2,2],
+"d1/d24/sv__vampirehook_8qc.html#a08692545822fcd506d094cffba9cd695":[2,0,1,9,0,32,2,2],
+"d1/d24/sv__vampirehook_8qc.html#a1db9b2d153fff0d39b79f78037f42ed2":[2,0,1,9,0,32,2,1],
+"d1/d24/sv__vampirehook_8qc.html#a41ae29f2d80be655dc54277f7adff9fd":[2,0,1,9,0,32,2,7],
+"d1/d24/sv__vampirehook_8qc.html#a6e1cdf81b37e1400b74de2e147da81d3":[2,0,1,9,0,32,2,5],
+"d1/d24/sv__vampirehook_8qc.html#a8b1bad77102afcc51e7fab8414eda9a1":[2,0,1,9,0,32,2,6],
+"d1/d24/sv__vampirehook_8qc.html#ae2d72105afb4e1d59095deafb9ade864":[2,0,1,9,0,32,2,4],
+"d1/d24/sv__vampirehook_8qc.html#afefbda54366d05202cfa45ea573b901a":[2,0,1,9,0,32,2,3],
 "d1/d24/sv__vampirehook_8qc.html#affd4e004dad3c51cdf4e38b8e882613a":[2,0,1,9,0,32,2,0],
 "d1/d24/sv__vampirehook_8qc_source.html":[2,0,1,9,0,32,2],
 "d1/d29/server_2bot_2default_2havocbot_2__mod_8qh.html":[2,0,6,0,0,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "d1/d33/classXonoticColorButton.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,148,58],
 "d1/d33/classXonoticColorButton.html#a21fdc6c151d9e721da87eaaa8a04e3f9":[1,0,148,9],
 "d1/d33/classXonoticColorButton.html#a257f9c325381f4b29b5c7acbaa0ba5ae":[1,0,148,25],
-"d1/d33/classXonoticColorButton.html#a27b635e0916726012b7e8c4dca05064e":[1,0,148,43],
-"d1/d33/classXonoticColorButton.html#a29ef318627232b8879b7e81131f937f7":[1,0,148,3],
-"d1/d33/classXonoticColorButton.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,148,15]
+"d1/d33/classXonoticColorButton.html#a27b635e0916726012b7e8c4dca05064e":[1,0,148,43]
 };

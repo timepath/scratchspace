@@ -67,7 +67,7 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "steerlib.qc", "de/d9b/steerlib_8qc.html", "de/d9b/steerlib_8qc" ],
     [ "steerlib.qh", "da/df7/steerlib_8qh.html", "da/df7/steerlib_8qh" ],
     [ "sv_main.qc", "d3/d4f/sv__main_8qc.html", "d3/d4f/sv__main_8qc" ],
-    [ "sv_main.qh", "d7/d38/sv__main_8qh.html", null ],
+    [ "sv_main.qh", "d7/d38/sv__main_8qh.html", "d7/d38/sv__main_8qh" ],
     [ "sys-post.qh", "df/d9b/sys-post_8qh.html", "df/d9b/sys-post_8qh" ],
     [ "sys-pre.qh", "dd/d8b/sys-pre_8qh.html", "dd/d8b/sys-pre_8qh" ],
     [ "teamplay.qc", "de/d4f/teamplay_8qc.html", "de/d4f/teamplay_8qc" ],

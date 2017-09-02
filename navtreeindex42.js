@@ -1,5 +1,13 @@
 var NAVTREEINDEX42 =
 {
+"d4/d94/classXonoticHUDVoteDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,195,31],
+"d4/d94/classXonoticHUDVoteDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,195,62],
+"d4/d94/classXonoticHUDVoteDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,195,55],
+"d4/d94/classXonoticHUDVoteDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,195,91],
+"d4/d94/classXonoticHUDVoteDialog.html#ae711b6806134114e0e004692509db6a0":[1,0,195,81],
+"d4/d94/classXonoticHUDVoteDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,195,8],
+"d4/d94/classXonoticHUDVoteDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,195,68],
+"d4/d94/classXonoticHUDVoteDialog.html#af1aab403dc54575707fd57991312b201":[1,0,195,47],
 "d4/d94/classXonoticHUDVoteDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,195,27],
 "d4/d94/classXonoticHUDVoteDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,195,15],
 "d4/d94/classXonoticHUDVoteDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,195,39],
@@ -241,13 +249,5 @@ var NAVTREEINDEX42 =
 "d4/da9/classRaptorBomb.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,106,20],
 "d4/da9/classRaptorBomb.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,106,11],
 "d4/da9/classRaptorBomb.html#a4337268c8cad6836bae8efd4a8835070":[1,0,106,21],
-"d4/da9/classRaptorBomb.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,106,1],
-"d4/da9/classRaptorBomb.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,106,15],
-"d4/da9/classRaptorBomb.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,106,9],
-"d4/da9/classRaptorBomb.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,106,24],
-"d4/da9/classRaptorBomb.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,106,8],
-"d4/da9/classRaptorBomb.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,106,2],
-"d4/da9/classRaptorBomb.html#a70551e156664198d7512924780ed4b63":[1,0,106,32],
-"d4/da9/classRaptorBomb.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,106,34],
-"d4/da9/classRaptorBomb.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,106,27]
+"d4/da9/classRaptorBomb.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,106,1]
 };

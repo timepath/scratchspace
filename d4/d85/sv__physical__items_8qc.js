@@ -4,6 +4,7 @@ var sv__physical__items_8qc =
     [ "physical_item_damage", "d4/d85/sv__physical__items_8qc.html#a21590d3093c6c5b521395cea9e374f64", null ],
     [ "physical_item_think", "d4/d85/sv__physical__items_8qc.html#aaa169bd1db2218626cc3e106e7c7a50b", null ],
     [ "physical_item_touch", "d4/d85/sv__physical__items_8qc.html#acb121fad97fd7760b48f81e81de2e399", null ],
+    [ "REGISTER_MUTATOR", "d4/d85/sv__physical__items_8qc.html#ac8ccdc98c7aef900709ac5f4cdfdaac8", null ],
     [ "autocvar_g_physical_items", "d4/d85/sv__physical__items_8qc.html#a0a22c548a3475e9a379dc8a3137c4cf1", null ],
     [ "autocvar_g_physical_items_damageforcescale", "d4/d85/sv__physical__items_8qc.html#a4c102a73d6b2d482288e8f6f7a45c1bb", null ],
     [ "autocvar_g_physical_items_reset", "d4/d85/sv__physical__items_8qc.html#aa8c40622cf1c0864caa4fe7a7aabadf4", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX18 =
 {
+"d2/d5e/registry_8qh.html#ac0e7d24ce2ae2a3c1fadcf32633792c1":[2,0,4,46,17],
+"d2/d5e/registry_8qh.html#ac4c9c0b24cb29eddb2adbd8523852149":[2,0,4,46,13],
+"d2/d5e/registry_8qh.html#ad419d03f23bac744c367193d6ca794cf":[2,0,4,46,6],
+"d2/d5e/registry_8qh.html#ad7828de8cbdf7ddcddee44d5f87b1453":[2,0,4,46,18],
 "d2/d5e/registry_8qh.html#ade3fba5a0d1eade22f2692e182b9ef76":[2,0,4,46,8],
 "d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89":[2,0,4,46,22],
 "d2/d5e/registry_8qh.html#ae2355f83505f4512724f06824c6734ed":[2,0,4,46,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d8a/cl__turrets_8qh.html":[2,0,1,14,8],
 "d2/d8a/cl__turrets_8qh_source.html":[2,0,1,14,8],
 "d2/d93/common_2effects_2__mod_8qh.html":[2,0,1,2,2],
-"d2/d93/common_2effects_2__mod_8qh_source.html":[2,0,1,2,2],
-"d2/d94/xonotic_2tab_8qc.html":[2,0,5,4,220],
-"d2/d94/xonotic_2tab_8qc.html#a13fe5728a418b314ab87bb874e42231d":[2,0,5,4,220,0],
-"d2/d94/xonotic_2tab_8qc_source.html":[2,0,5,4,220],
-"d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc.html":[2,0,1,9,0,10,0]
+"d2/d93/common_2effects_2__mod_8qh_source.html":[2,0,1,2,2]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX70 =
 {
+"d7/dc4/waypoints_8qc.html#adcd50ec9ec6d70529e207908628cce71":[2,0,6,0,0,13,31],
+"d7/dc4/waypoints_8qc.html#ae4f869607f4c1be41a005c4e04c08381":[2,0,6,0,0,13,32],
+"d7/dc4/waypoints_8qc.html#ae8116b951b4efe0da268667c754d94b5":[2,0,6,0,0,13,15],
+"d7/dc4/waypoints_8qc.html#ae9248ef358c77def1111a1abe1ebf1fb":[2,0,6,0,0,13,22],
+"d7/dc4/waypoints_8qc.html#aeffebe843059e44cb1df1bf5b6b7403c":[2,0,6,0,0,13,0],
+"d7/dc4/waypoints_8qc.html#af85db2f228ad24c8f013717be024365f":[2,0,6,0,0,13,17],
+"d7/dc4/waypoints_8qc.html#afe185aa6fad31214f669f13f08a37b2e":[2,0,6,0,0,13,3],
+"d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7":[2,0,6,0,0,13,21],
+"d7/dc4/waypoints_8qc_source.html":[2,0,6,0,0,13],
+"d7/dd0/sv__onslaught_8qh.html":[2,0,1,3,0,1,17],
+"d7/dd0/sv__onslaught_8qh.html#a019ea322c4d8ca223e33077996f3acbe":[2,0,1,3,0,1,17,12],
 "d7/dd0/sv__onslaught_8qh.html#a01c98ce49147346d16b791a900bc9d26":[2,0,1,3,0,1,17,6],
 "d7/dd0/sv__onslaught_8qh.html#a09f42b82c6acb47c1c2aa86836eb6cca":[2,0,1,3,0,1,17,20],
 "d7/dd0/sv__onslaught_8qh.html#a0ac3d078a3d265b901ef367a940be615":[2,0,1,3,0,1,17,24],
@@ -238,16 +249,5 @@ var NAVTREEINDEX70 =
 "d7/de6/classXonoticSkinList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,238,36],
 "d7/de6/classXonoticSkinList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,238,87],
 "d7/de6/classXonoticSkinList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,238,43],
-"d7/de6/classXonoticSkinList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,238,16],
-"d7/de6/classXonoticSkinList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,238,67],
-"d7/de6/classXonoticSkinList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,238,35],
-"d7/de6/classXonoticSkinList.html#aed05f75651928be9263a2073856f33cd":[1,0,238,81],
-"d7/de6/classXonoticSkinList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,238,4],
-"d7/de6/classXonoticSkinList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,238,32],
-"d7/de6/classXonoticSkinList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,238,24],
-"d7/de6/classXonoticSkinList.html#afcf2fcc518cc5cca6e472f72bec87733":[1,0,238,77],
-"d7/de6/classXonoticSkinList.html#afdcf1fb79903f747cda494b27206526b":[1,0,238,1],
-"d7/de6/classXonoticWeaponarenaCheckBox.html":[1,0,252],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a01ea34df21e396c890a3dcf6326cb5b3":[1,0,252,63],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,252,77]
+"d7/de6/classXonoticSkinList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,238,16]
 };

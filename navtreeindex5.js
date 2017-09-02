@@ -70,11 +70,12 @@ var NAVTREEINDEX5 =
 "d0/dd2/antilag_8qh_source.html":[2,0,6,11],
 "d0/dd2/sv__bloodloss_8qc.html":[2,0,1,9,0,0,2],
 "d0/dd2/sv__bloodloss_8qc.html#a06a108d46019cb33bcde7b91ed526de8":[2,0,1,9,0,0,2,2],
+"d0/dd2/sv__bloodloss_8qc.html#a1a2a741e3a5234c8197b6ad811178a09":[2,0,1,9,0,0,2,5],
 "d0/dd2/sv__bloodloss_8qc.html#a47f033df4f6aa5a9d5db299f22ad04a9":[2,0,1,9,0,0,2,3],
 "d0/dd2/sv__bloodloss_8qc.html#a53414c2b834fdd31a302c96eec9250b9":[2,0,1,9,0,0,2,1],
-"d0/dd2/sv__bloodloss_8qc.html#ac042518bc923dc5309a1bc262804840c":[2,0,1,9,0,0,2,4],
-"d0/dd2/sv__bloodloss_8qc.html#adeeb6493d547be2d8a3c3e541e7df8f9":[2,0,1,9,0,0,2,5],
+"d0/dd2/sv__bloodloss_8qc.html#adeeb6493d547be2d8a3c3e541e7df8f9":[2,0,1,9,0,0,2,6],
 "d0/dd2/sv__bloodloss_8qc.html#ae05fcc9864b729006d41c6ff987798bc":[2,0,1,9,0,0,2,0],
+"d0/dd2/sv__bloodloss_8qc.html#ae4e62b69edd2828f5af2b34776092785":[2,0,1,9,0,0,2,4],
 "d0/dd2/sv__bloodloss_8qc_source.html":[2,0,1,9,0,0,2],
 "d0/dd4/item_2slider_8qh.html":[2,0,5,2,29],
 "d0/dd4/item_2slider_8qh_source.html":[2,0,5,2,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "d0/de4/sv__onslaught_8qc.html#a99e37b9eabae4c01aa5e3c98b70b8f94":[2,0,1,3,0,1,16,84],
 "d0/de4/sv__onslaught_8qc.html#a9ccae0ffb06f1d52c31e181de53a71d8":[2,0,1,3,0,1,16,96],
 "d0/de4/sv__onslaught_8qc.html#a9d2ee66e4d6dc89a52f994e45d589222":[2,0,1,3,0,1,16,58],
-"d0/de4/sv__onslaught_8qc.html#aa085a181dec5164bf6bf421e17b95ffd":[2,0,1,3,0,1,16,1],
-"d0/de4/sv__onslaught_8qc.html#aa36d7b75cc377349fd9ec248fa04e76a":[2,0,1,3,0,1,16,27]
+"d0/de4/sv__onslaught_8qc.html#aa085a181dec5164bf6bf421e17b95ffd":[2,0,1,3,0,1,16,1]
 };

@@ -14,6 +14,7 @@ var sv__sandbox_8qc =
     [ "sandbox_ObjectPort_Save", "d3/d59/sv__sandbox_8qc.html#a27d2c6218843ce789594240cb5c3ed0a", null ],
     [ "sandbox_ObjectRemove", "d3/d59/sv__sandbox_8qc.html#a04589ec3ccabb5c0fa08f961e5095b9f", null ],
     [ "sandbox_ObjectSpawn", "d3/d59/sv__sandbox_8qc.html#a157f5d252029765e65ab2d85e2bad7a7", null ],
+    [ "autocvar_g_sandbox", "d3/d59/sv__sandbox_8qc.html#adb13cdba2eb6e08b5504c9489c0b0283", null ],
     [ "autocvar_g_sandbox_editor_distance_edit", "d3/d59/sv__sandbox_8qc.html#acbacb3183fb6a505e1a0758bde77d779", null ],
     [ "autocvar_g_sandbox_editor_distance_spawn", "d3/d59/sv__sandbox_8qc.html#ac12a336fe947764a5b70ea9c9e2cbdb6", null ],
     [ "autocvar_g_sandbox_editor_flood", "d3/d59/sv__sandbox_8qc.html#a1c8d8b016199495bb85bd3b634e18c4a", null ],

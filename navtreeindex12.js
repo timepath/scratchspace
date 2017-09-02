@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"d1/d7e/classXonoticServerListTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,235,49],
+"d1/d7e/classXonoticServerListTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,235,75],
 "d1/d7e/classXonoticServerListTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,235,68],
 "d1/d7e/classXonoticServerListTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,235,74],
 "d1/d7e/classXonoticServerListTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,235,62],
@@ -203,16 +205,17 @@ var NAVTREEINDEX12 =
 "d1/d93/pp_8qc_source.html":[2,0,1,6,0,11],
 "d1/d98/sv__campcheck_8qc.html":[2,0,1,9,0,4,4],
 "d1/d98/sv__campcheck_8qc.html#a2dcb95581a1e72923cb559a7bb515d8c":[2,0,1,9,0,4,4,3],
-"d1/d98/sv__campcheck_8qc.html#a43b84156521f63d572b24c89ad7b2aaf":[2,0,1,9,0,4,4,10],
+"d1/d98/sv__campcheck_8qc.html#a43b84156521f63d572b24c89ad7b2aaf":[2,0,1,9,0,4,4,11],
 "d1/d98/sv__campcheck_8qc.html#a45b0488c133a97272711bb0b3574aba4":[2,0,1,9,0,4,4,5],
-"d1/d98/sv__campcheck_8qc.html#a46ef3a76212e326ac5b72d4e5cbeee55":[2,0,1,9,0,4,4,12],
-"d1/d98/sv__campcheck_8qc.html#a496724b8aa3b54fcbe1c61fc0eadb2e7":[2,0,1,9,0,4,4,7],
-"d1/d98/sv__campcheck_8qc.html#a5baa325c38a264e891097b9c0df73030":[2,0,1,9,0,4,4,8],
-"d1/d98/sv__campcheck_8qc.html#a5fb052b4a0e9e6a6f6747171413c0c84":[2,0,1,9,0,4,4,6],
+"d1/d98/sv__campcheck_8qc.html#a46ef3a76212e326ac5b72d4e5cbeee55":[2,0,1,9,0,4,4,13],
+"d1/d98/sv__campcheck_8qc.html#a496724b8aa3b54fcbe1c61fc0eadb2e7":[2,0,1,9,0,4,4,8],
+"d1/d98/sv__campcheck_8qc.html#a5baa325c38a264e891097b9c0df73030":[2,0,1,9,0,4,4,9],
 "d1/d98/sv__campcheck_8qc.html#a606a08dc23f1bc6c3df2c4b1e39c555b":[2,0,1,9,0,4,4,0],
 "d1/d98/sv__campcheck_8qc.html#a697f2399ae4c4034e6e9fbc3a8791b25":[2,0,1,9,0,4,4,1],
-"d1/d98/sv__campcheck_8qc.html#a6cb0ae67285b803c16c7e5deca1339ec":[2,0,1,9,0,4,4,11],
-"d1/d98/sv__campcheck_8qc.html#a6f8008979c2f9a440b5432e0b34360be":[2,0,1,9,0,4,4,9],
+"d1/d98/sv__campcheck_8qc.html#a6cb0ae67285b803c16c7e5deca1339ec":[2,0,1,9,0,4,4,12],
+"d1/d98/sv__campcheck_8qc.html#a6f8008979c2f9a440b5432e0b34360be":[2,0,1,9,0,4,4,10],
+"d1/d98/sv__campcheck_8qc.html#a90f0a049afb3a70496483a0b91cc8c63":[2,0,1,9,0,4,4,6],
+"d1/d98/sv__campcheck_8qc.html#abdf7e0132e0d41949b4203e7bb6dc756":[2,0,1,9,0,4,4,7],
 "d1/d98/sv__campcheck_8qc.html#ad107103074096b99935a50d77aab36b5":[2,0,1,9,0,4,4,2],
 "d1/d98/sv__campcheck_8qc.html#af79456fac3f9e6166178231028665858":[2,0,1,9,0,4,4,4],
 "d1/d98/sv__campcheck_8qc_source.html":[2,0,1,9,0,4,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX12 =
 "d1/d9a/navigation_8qc.html#af3180b7544df1c7106b080ca79486a19":[2,0,6,0,0,9,8],
 "d1/d9a/navigation_8qc.html#af6010fb90061dda5f6b7b7fe8e172489":[2,0,6,0,0,9,4],
 "d1/d9a/navigation_8qc_source.html":[2,0,6,0,0,9],
-"d1/d9f/dialog__multiplayer_8qc.html":[2,0,5,4,86],
-"d1/d9f/dialog__multiplayer_8qc.html#af83637108621204488c5ae95da509066":[2,0,5,4,86,0],
-"d1/d9f/dialog__multiplayer_8qc_source.html":[2,0,5,4,86],
-"d1/da5/checkpoint_8qh.html":[2,0,1,14,6]
+"d1/d9f/dialog__multiplayer_8qc.html":[2,0,5,4,86]
 };
