@@ -103,6 +103,7 @@ $(document).ready(function(){initNavTree('da/d20/spawnfunc_8qh.html','../../');}
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">spawnfunc.qh File Reference</div>  </div>
@@ -121,6 +122,8 @@ $(document).ready(function(){initNavTree('da/d20/spawnfunc_8qh.html','../../');}
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:accf25e4d095ddcca539fa7bf35d2e64b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#accf25e4d095ddcca539fa7bf35d2e64b">__spawnfunc_spawn_all</a>()</td></tr>
+<tr class="separator:accf25e4d095ddcca539fa7bf35d2e64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09349a71324a154b90ff0ed86d833a14"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#a09349a71324a154b90ff0ed86d833a14">_spawnfunc_check</a>(fld)&#160;&#160;&#160;if (fieldname == #fld) continue;</td></tr>
 <tr class="separator:a09349a71324a154b90ff0ed86d833a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4de816e6692271520f0bd3d32a2760cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#a4de816e6692271520f0bd3d32a2760cc">_spawnfunc_checktypes</a>(fld)</td></tr>
@@ -145,15 +148,36 @@ Macros</h2></td></tr>
 <tr class="separator:aba58f0f254a7470e43b0294be317a734"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac237ac49370487f5d91312a3bdd04abc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#ac237ac49370487f5d91312a3bdd04abc">spawnfunc_2</a>(id, whitelist)</td></tr>
 <tr class="separator:ac237ac49370487f5d91312a3bdd04abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b46bba07f5bf76ddd3eea7763bd03cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#a3b46bba07f5bf76ddd3eea7763bd03cb">SPAWNFUNC_INTERNAL_FIELDS</a>(<a class="el" href="../../d4/d53/server_2impulse_8qc.html#a3c6cfa6ad6a3a9ae995b486602718629">X</a>)</td></tr>
+<tr class="separator:a3b46bba07f5bf76ddd3eea7763bd03cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac92ceb3acefe46f4765946553b0048d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6">X</a>(T, fld, def)&#160;&#160;&#160;.T fld, __spawnfunc_##fld;</td></tr>
+<tr class="separator:ac92ceb3acefe46f4765946553b0048d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac92ceb3acefe46f4765946553b0048d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6">X</a>(T, fld, def)&#160;&#160;&#160;{ prototype.__spawnfunc_##fld = prototype.fld; prototype.fld = def; }</td></tr>
+<tr class="separator:ac92ceb3acefe46f4765946553b0048d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac92ceb3acefe46f4765946553b0048d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6">X</a>(T, fld, def)&#160;&#160;&#160;{ e.fld = e.__spawnfunc_##fld; e.__spawnfunc_##fld = def; }</td></tr>
+<tr class="separator:ac92ceb3acefe46f4765946553b0048d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a6db1e57565333741a0ea5b39b6543e1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#a6db1e57565333741a0ea5b39b6543e1c">__spawnfunc_defer</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> prototype, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>) constructor)</td></tr>
+<tr class="separator:a6db1e57565333741a0ea5b39b6543e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48740da59c37809a16164e3f2a182e08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#a48740da59c37809a16164e3f2a182e08">__spawnfunc_spawn</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> prototype)</td></tr>
+<tr class="separator:a48740da59c37809a16164e3f2a182e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e9a7fc56b3e17c793a45efc26fc88f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#a8e9a7fc56b3e17c793a45efc26fc88f1">void</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>) __spawnfunc_constructor</td></tr>
+<tr class="separator:a8e9a7fc56b3e17c793a45efc26fc88f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:aa4a06d71be717f7c6f93ac9d936fe1cd"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd">__spawnfunc_expect</a></td></tr>
 <tr class="separator:aa4a06d71be717f7c6f93ac9d936fe1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cb61ff4c2475d5c45d023b3d550a99a"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#a6cb61ff4c2475d5c45d023b3d550a99a">__spawnfunc_expecting</a></td></tr>
-<tr class="separator:a6cb61ff4c2475d5c45d023b3d550a99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae93978bfef4efb8b9ae17161b5dbea51"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#ae93978bfef4efb8b9ae17161b5dbea51">__spawnfunc_expecting</a></td></tr>
+<tr class="separator:ae93978bfef4efb8b9ae17161b5dbea51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b40421c6298962d4011eddd0c72802a"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#a5b40421c6298962d4011eddd0c72802a">__spawnfunc_unreachable_workaround</a> = <a class="el" href="../../dd/d54/bool_8qh.html#a3ad98e54fafae1497bd42b491d9742cc">true</a></td></tr>
 <tr class="separator:a5b40421c6298962d4011eddd0c72802a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0337431cd5614e4984c6012eea5be3ad"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../d1/d74/classIntrusiveList.html">IntrusiveList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#a0337431cd5614e4984c6012eea5be3ad">g_map_entities</a></td></tr>
+<tr class="separator:a0337431cd5614e4984c6012eea5be3ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae520c557d0e22b803e268760bc77f205"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../d1/d74/classIntrusiveList.html">IntrusiveList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#ae520c557d0e22b803e268760bc77f205">g_spawn_queue</a></td></tr>
+<tr class="separator:ae520c557d0e22b803e268760bc77f205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4eb66deff727f2822c9d56d85d71d61"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d20/spawnfunc_8qh.html#ab4eb66deff727f2822c9d56d85d71d61">require_spawnfunc_prefix</a></td></tr>
 <tr class="memdesc:ab4eb66deff727f2822c9d56d85d71d61"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this global exists, only functions with spawnfunc_ name prefix qualify as spawn functions.  <a href="#ab4eb66deff727f2822c9d56d85d71d61">More...</a><br/></td></tr>
 <tr class="separator:ab4eb66deff727f2822c9d56d85d71d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,6 +185,35 @@ Variables</h2></td></tr>
 <tr class="separator:acf818192a10457d834cc057718d25ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="accf25e4d095ddcca539fa7bf35d2e64b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __spawnfunc_spawn_all</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../da/d20/spawnfunc_8qh.html#a0337431cd5614e4984c6012eea5be3ad">MACRO_BEGIN \</a></div>
+<div class="line"><a class="code" href="../../da/d20/spawnfunc_8qh.html#a0337431cd5614e4984c6012eea5be3ad">        g_map_entities</a> = <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a3bda279ec2705111d6a3a49468a00cae">IL_NEW</a>(); <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">\</a></div>
+<div class="line"><a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">        IL_EACH</a>(<a class="code" href="../../da/d20/spawnfunc_8qh.html#ae520c557d0e22b803e268760bc77f205">g_spawn_queue</a>, <span class="keyword">true</span>, <a class="code" href="../../da/d20/spawnfunc_8qh.html#a48740da59c37809a16164e3f2a182e08">__spawnfunc_spawn</a>(it)); <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">\</a></div>
+<div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">    MACRO_END</a></div>
+<div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00167">intrusivelist.qh:167</a></div></div>
+<div class="ttc" id="spawnfunc_8qh_html_a48740da59c37809a16164e3f2a182e08"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a48740da59c37809a16164e3f2a182e08">__spawnfunc_spawn</a></div><div class="ttdeci">void __spawnfunc_spawn(entity prototype)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00061">spawnfunc.qh:61</a></div></div>
+<div class="ttc" id="spawnfunc_8qh_html_ae520c557d0e22b803e268760bc77f205"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#ae520c557d0e22b803e268760bc77f205">g_spawn_queue</a></div><div class="ttdeci">noref IntrusiveList g_spawn_queue</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00035">spawnfunc.qh:35</a></div></div>
+<div class="ttc" id="intrusivelist_8qh_html_a3bda279ec2705111d6a3a49468a00cae"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a3bda279ec2705111d6a3a49468a00cae">IL_NEW</a></div><div class="ttdeci">#define IL_NEW()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00035">intrusivelist.qh:35</a></div></div>
+<div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+<div class="ttc" id="spawnfunc_8qh_html_a0337431cd5614e4984c6012eea5be3ad"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a0337431cd5614e4984c6012eea5be3ad">g_map_entities</a></div><div class="ttdeci">noref IntrusiveList g_map_entities</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00055">spawnfunc.qh:55</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00056">56</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00606">spawnfunc()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a09349a71324a154b90ff0ed86d833a14"></a>
 <div class="memitem">
 <div class="memproto">
@@ -211,7 +264,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00204">204</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00248">248</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
 
 </div>
 </div>
@@ -239,7 +292,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00074">74</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00118">118</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
 
 </div>
 </div>
@@ -271,7 +324,7 @@ Variables</h2></td></tr>
 <div class="line">        fld(n##_y) \</div>
 <div class="line">        fld(n##_z)</div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00076">76</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00120">120</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
 
 </div>
 </div>
@@ -289,7 +342,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00083">83</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00127">127</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
 
 </div>
 </div>
@@ -313,11 +366,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="oo_8qh_html_aec2812211811d2d0824d32e4e9e543fa"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aec2812211811d2d0824d32e4e9e543fa">sourceLoc</a></div><div class="ttdeci">string sourceLoc</div><div class="ttdoc">Location entity was spawned from in source. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00024">oo.qh:24</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_a06dbc3a3eb5aaab80edf32ea607f1ef3"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a></div><div class="ttdeci">origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00048">ent_cs.qc:48</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
-<div class="ttc" id="spawnfunc_8qh_html_a82f4dd939d49e3dbc4926a5823ffb0c8"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a82f4dd939d49e3dbc4926a5823ffb0c8">FIELD_VEC</a></div><div class="ttdeci">#define FIELD_VEC(fld, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00076">spawnfunc.qh:76</a></div></div>
-<div class="ttc" id="spawnfunc_8qh_html_a0b9d427233f1fc585de8da601a0d3f38"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a0b9d427233f1fc585de8da601a0d3f38">FIELD_SCALAR</a></div><div class="ttdeci">#define FIELD_SCALAR(fld, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00074">spawnfunc.qh:74</a></div></div>
+<div class="ttc" id="spawnfunc_8qh_html_a82f4dd939d49e3dbc4926a5823ffb0c8"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a82f4dd939d49e3dbc4926a5823ffb0c8">FIELD_VEC</a></div><div class="ttdeci">#define FIELD_VEC(fld, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00120">spawnfunc.qh:120</a></div></div>
+<div class="ttc" id="spawnfunc_8qh_html_a0b9d427233f1fc585de8da601a0d3f38"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a0b9d427233f1fc585de8da601a0d3f38">FIELD_SCALAR</a></div><div class="ttdeci">#define FIELD_SCALAR(fld, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00118">spawnfunc.qh:118</a></div></div>
 <div class="ttc" id="spawnfunc_8qh_html_acf818192a10457d834cc057718d25ad3"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#acf818192a10457d834cc057718d25ad3">spawnfunc_checked</a></div><div class="ttdeci">bool spawnfunc_checked</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00005">spawnfunc.qh:5</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00085">85</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00129">129</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
 
 </div>
 </div>
@@ -335,7 +388,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00082">82</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00126">126</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
 
 </div>
 </div>
@@ -353,7 +406,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00092">92</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00136">136</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
 
 </div>
 </div>
@@ -371,7 +424,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00203">203</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00247">247</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
 
 </div>
 </div>
@@ -389,7 +442,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00034">34</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00072">72</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
 
 </div>
 </div>
@@ -417,7 +470,250 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00035">35</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00073">73</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3b46bba07f5bf76ddd3eea7763bd03cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SPAWNFUNC_INTERNAL_FIELDS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="../../d4/d53/server_2impulse_8qc.html#a3c6cfa6ad6a3a9ae995b486602718629">X</a></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6">X</a>(<span class="keywordtype">string</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;spawnfunc&quot;</span>) <a class="code" href="../../da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6">\</a></div>
+<div class="line"><a class="code" href="../../da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6">        X</a>(<span class="keywordtype">string</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>) \</div>
+<div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
+<div class="ttc" id="progsdefs_8qc_html_a63bce1d11afa658ec5e4b4f98ccfa511"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a></div><div class="ttdeci">string targetname</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00194">progsdefs.qc:194</a></div></div>
+<div class="ttc" id="spawnfunc_8qh_html_ac92ceb3acefe46f4765946553b0048d6"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6">X</a></div><div class="ttdeci">#define X(T, fld, def)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00042">spawnfunc.qh:42</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00037">37</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00046">__spawnfunc_defer()</a>, and <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00061">__spawnfunc_spawn()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac92ceb3acefe46f4765946553b0048d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define X</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">T, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">fld, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">def&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;.T fld, __spawnfunc_##fld;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00042">42</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00046">__spawnfunc_defer()</a>, and <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00061">__spawnfunc_spawn()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac92ceb3acefe46f4765946553b0048d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define X</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">T, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">fld, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">def&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;{ prototype.__spawnfunc_##fld = prototype.fld; prototype.fld = def; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00042">42</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac92ceb3acefe46f4765946553b0048d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define X</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">T, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">fld, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">def&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;{ e.fld = e.__spawnfunc_##fld; e.__spawnfunc_##fld = def; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00042">42</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a6db1e57565333741a0ea5b39b6543e1c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> __spawnfunc_defer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
+          <td class="paramname"><em>prototype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>)&#160;</td>
+          <td class="paramname"><em>constructor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00046">46</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+
+<p>References <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00054">IL_PUSH()</a>, <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00037">SPAWNFUNC_INTERNAL_FIELDS</a>, and <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00042">X</a>.</p>
+<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a>(<a class="code" href="../../da/d20/spawnfunc_8qh.html#ae520c557d0e22b803e268760bc77f205">g_spawn_queue</a>, prototype);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">        #define X(T, fld, def) { prototype.__spawnfunc_##fld = prototype.fld; prototype.fld = def; }</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../da/d20/spawnfunc_8qh.html#a3b46bba07f5bf76ddd3eea7763bd03cb">SPAWNFUNC_INTERNAL_FIELDS</a>(<a class="code" href="../../da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6">X</a>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">        #undef X</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span>        prototype.__spawnfunc_constructor = constructor;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
+<div class="ttc" id="spawnfunc_8qh_html_ae520c557d0e22b803e268760bc77f205"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#ae520c557d0e22b803e268760bc77f205">g_spawn_queue</a></div><div class="ttdeci">noref IntrusiveList g_spawn_queue</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00035">spawnfunc.qh:35</a></div></div>
+<div class="ttc" id="intrusivelist_8qh_html_a1dc3261f72901c53357b5e01d94cb556"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a></div><div class="ttdeci">ERASEABLE entity IL_PUSH(IntrusiveList this, entity it)</div><div class="ttdoc">Push to tail. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00054">intrusivelist.qh:54</a></div></div>
+<div class="ttc" id="spawnfunc_8qh_html_a3b46bba07f5bf76ddd3eea7763bd03cb"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a3b46bba07f5bf76ddd3eea7763bd03cb">SPAWNFUNC_INTERNAL_FIELDS</a></div><div class="ttdeci">#define SPAWNFUNC_INTERNAL_FIELDS(X)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00037">spawnfunc.qh:37</a></div></div>
+<div class="ttc" id="spawnfunc_8qh_html_ac92ceb3acefe46f4765946553b0048d6"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6">X</a></div><div class="ttdeci">#define X(T, fld, def)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00042">spawnfunc.qh:42</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d20/spawnfunc_8qh_a6db1e57565333741a0ea5b39b6543e1c_cgraph.svg" width="435" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a48740da59c37809a16164e3f2a182e08"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> __spawnfunc_spawn </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
+          <td class="paramname"><em>prototype</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00061">61</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00054">IL_PUSH()</a>, <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00037">SPAWNFUNC_INTERNAL_FIELDS</a>, and <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00042">X</a>.</p>
+<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <span class="keyword">new</span>(clone);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity</a>(prototype, e);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a>(<a class="code" href="../../da/d20/spawnfunc_8qh.html#a0337431cd5614e4984c6012eea5be3ad">g_map_entities</a>, e);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">        #define X(T, fld, def) { e.fld = e.__spawnfunc_##fld; e.__spawnfunc_##fld = def; }</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../da/d20/spawnfunc_8qh.html#a3b46bba07f5bf76ddd3eea7763bd03cb">SPAWNFUNC_INTERNAL_FIELDS</a>(<a class="code" href="../../da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6">X</a>);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">        #undef X</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor"></span>        e.__spawnfunc_constructor(e);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+<div class="ttc" id="menudefs_8qc_html_a1196d544e0b4dbb479f05cc4c6cc5516"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity</a></div><div class="ttdeci">void copyentity(entity src, entity dst)</div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="intrusivelist_8qh_html_a1dc3261f72901c53357b5e01d94cb556"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a></div><div class="ttdeci">ERASEABLE entity IL_PUSH(IntrusiveList this, entity it)</div><div class="ttdoc">Push to tail. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00054">intrusivelist.qh:54</a></div></div>
+<div class="ttc" id="spawnfunc_8qh_html_a3b46bba07f5bf76ddd3eea7763bd03cb"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a3b46bba07f5bf76ddd3eea7763bd03cb">SPAWNFUNC_INTERNAL_FIELDS</a></div><div class="ttdeci">#define SPAWNFUNC_INTERNAL_FIELDS(X)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00037">spawnfunc.qh:37</a></div></div>
+<div class="ttc" id="spawnfunc_8qh_html_a0337431cd5614e4984c6012eea5be3ad"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a0337431cd5614e4984c6012eea5be3ad">g_map_entities</a></div><div class="ttdeci">noref IntrusiveList g_map_entities</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00055">spawnfunc.qh:55</a></div></div>
+<div class="ttc" id="spawnfunc_8qh_html_ac92ceb3acefe46f4765946553b0048d6"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6">X</a></div><div class="ttdeci">#define X(T, fld, def)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00042">spawnfunc.qh:42</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d20/spawnfunc_8qh_a48740da59c37809a16164e3f2a182e08_cgraph.svg" width="446" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a8e9a7fc56b3e17c793a45efc26fc88f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -438,12 +734,12 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6cb61ff4c2475d5c45d023b3d550a99a"></a>
+<a class="anchor" id="ae93978bfef4efb8b9ae17161b5dbea51"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">noref <a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a> __spawnfunc_expecting</td>
+          <td class="memname">noref <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> __spawnfunc_expecting</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -465,6 +761,34 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00032">32</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0337431cd5614e4984c6012eea5be3ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">noref <a class="el" href="../../d1/d74/classIntrusiveList.html">IntrusiveList</a> g_map_entities</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00055">55</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae520c557d0e22b803e268760bc77f205"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">noref <a class="el" href="../../d1/d74/classIntrusiveList.html">IntrusiveList</a> g_spawn_queue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../da/d20/spawnfunc_8qh_source.html#l00035">35</a> of file <a class="el" href="../../da/d20/spawnfunc_8qh_source.html">spawnfunc.qh</a>.</p>
 
 </div>
 </div>
@@ -506,7 +830,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../da/d20/spawnfunc_8qh.html">spawnfunc.qh</a></li>
-    <li class="footer">Generated on Sat Sep 2 2017 00:05:09 for Xonotic by
+    <li class="footer">Generated on Sat Sep 2 2017 00:26:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

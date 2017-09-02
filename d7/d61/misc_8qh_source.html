@@ -117,38 +117,39 @@ $(document).ready(function(){initNavTree('d7/d61/misc_8qh_source.html','../../')
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">    #include &quot;<a class="code" href="../../de/d21/p99_8qh.html">p99.qh</a>&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">   12</a></span>&#160;<span class="preprocessor">    #define OVERLOAD(F, ...) P99_IF_EMPTY(__VA_ARGS__)(P99_PASTE2(F, _00)())(P99_PASTE3(F, _, P00_NARG(__VA_ARGS__))(__VA_ARGS__))</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#a8e1ea37ee089b41f42e9e123c5363ccc">   13</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define OVERLOAD_(F, ...) P99_IF_EMPTY(__VA_ARGS__)(P99_PASTE2(F, _00)())(P99_PASTE3(F, _, P00_NARG(__VA_ARGS__))(__VA_ARGS__))</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define EVAL(...) __VA_ARGS__</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">    #define OVERLOAD_(F, ...) F##_##__VA_COUNT__(__VA_ARGS__)</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define OVERLOAD(F, ...) F##_##__VA_COUNT__(__VA_ARGS__)</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#if defined(CSQC)</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define etof(e) num_for_edict(e)</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define ftoe(i) entitybyindex(i)</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#elif defined(SVQC)</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define etof(e) num_for_edict(e)</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define ftoe(i) edict_num(i)</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#elif defined(MENUQC)</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"></span>    <span class="comment">// already defined</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#a375e5223a8dc2ba4ec82b97a10ad826d">   31</a></span>&#160;<span class="preprocessor">#define GET(name) name##get</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#a4ae9a65f0155ec9a053e1e9fe41c9401">   32</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GETTER(type, name) type GET(name)() { return name; }</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#a58f95a3dea8a46c174f20eab6751836d">   33</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PROPERTY(type, name) type name; GETTER(type, name)</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">   34</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LAMBDA(...) { __VA_ARGS__; }</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">// With block may not contain continue or break</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">   37</a></span>&#160;<span class="preprocessor">#define WITH(type, name, value, block) \</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">    MACRO_BEGIN \</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">    { \</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">        type __with_save = (name); \</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">        name = (value); \</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">        LAMBDA(block) \</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">        name = __with_save; \</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#a8e1ea37ee089b41f42e9e123c5363ccc">   14</a></span>&#160;<span class="preprocessor">    #define OVERLOAD_(F, ...) P99_IF_EMPTY(__VA_ARGS__)(P99_PASTE2(F, _00)())(P99_PASTE3(F, _, P00_NARG(__VA_ARGS__))(__VA_ARGS__))</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define EVAL(...) __VA_ARGS__</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">    #define OVERLOAD_(F, ...) F##_##__VA_COUNT__(__VA_ARGS__)</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define OVERLOAD(F, ...) F##_##__VA_COUNT__(__VA_ARGS__)</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#if defined(CSQC)</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define etof(e) num_for_edict(e)</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define ftoe(i) entitybyindex(i)</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#elif defined(SVQC)</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define etof(e) num_for_edict(e)</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define ftoe(i) edict_num(i)</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#elif defined(MENUQC)</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor"></span>    <span class="comment">// already defined</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#a375e5223a8dc2ba4ec82b97a10ad826d">   32</a></span>&#160;<span class="preprocessor">#define GET(name) name##get</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#a4ae9a65f0155ec9a053e1e9fe41c9401">   33</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GETTER(type, name) type GET(name)() { return name; }</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#a58f95a3dea8a46c174f20eab6751836d">   34</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PROPERTY(type, name) type name; GETTER(type, name)</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">   35</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LAMBDA(...) { __VA_ARGS__; }</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">// With block may not contain continue or break</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">   38</a></span>&#160;<span class="preprocessor">#define WITH(type, name, value, block) \</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">    MACRO_BEGIN \</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">    { \</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">        type __with_save = (name); \</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">        name = (value); \</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">        LAMBDA(block) \</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">        name = __with_save; \</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
 <div class="ttc" id="p99_8qh_html"><div class="ttname"><a href="../../de/d21/p99_8qh.html">p99.qh</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -156,7 +157,7 @@ $(document).ready(function(){initNavTree('d7/d61/misc_8qh_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d7/d61/misc_8qh.html">misc.qh</a></li>
-    <li class="footer">Generated on Sat Sep 2 2017 00:04:59 for Xonotic by
+    <li class="footer">Generated on Sat Sep 2 2017 00:25:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

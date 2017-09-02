@@ -1,5 +1,9 @@
 var NAVTREEINDEX49 =
 {
+"d5/d95/classXonoticDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,164,67],
+"d5/d95/classXonoticDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,164,73],
+"d5/d95/classXonoticDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,164,77],
+"d5/d95/classXonoticDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,164,65],
 "d5/d95/classXonoticDialog.html#aa159f566ac6fbcac38235794af37f876":[1,0,164,24],
 "d5/d95/classXonoticDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,164,16],
 "d5/d95/classXonoticDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,164,20],
@@ -245,9 +249,5 @@ var NAVTREEINDEX49 =
 "d5/db1/server_2bot_2default_2__mod_8qh_source.html":[2,0,6,0,0,2],
 "d5/db2/dialog__hudpanel__notification_8qc.html":[2,0,5,4,60],
 "d5/db2/dialog__hudpanel__notification_8qc.html#ab31627f8b7c7a82a9d458011f2184631":[2,0,5,4,60,0],
-"d5/db2/dialog__hudpanel__notification_8qc_source.html":[2,0,5,4,60],
-"d5/db4/halflife_8qh.html":[2,0,6,2,3],
-"d5/db4/halflife_8qh_source.html":[2,0,6,2,3],
-"d5/dbc/common_2mutators_2mutator_2vampire_2__mod_8qh.html":[2,0,1,9,0,31,1],
-"d5/dbc/common_2mutators_2mutator_2vampire_2__mod_8qh_source.html":[2,0,1,9,0,31,1]
+"d5/db2/dialog__hudpanel__notification_8qc_source.html":[2,0,5,4,60]
 };

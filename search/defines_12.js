@@ -80,5 +80,6 @@ var searchData=
   ['round_5fhandler_5fcountdownrunning',['round_handler_CountdownRunning',['../db/d20/round__handler_8qh.html#af448ee5d5b9bb1bb462abc0bc0ae3b79',1,'round_handler.qh']]],
   ['round_5fhandler_5fgetendtime',['round_handler_GetEndTime',['../db/d20/round__handler_8qh.html#a3333ca7666a86449c9cce2487a77bd4f',1,'round_handler.qh']]],
   ['round_5fhandler_5fisactive',['round_handler_IsActive',['../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0',1,'round_handler.qh']]],
-  ['round_5fhandler_5fisroundstarted',['round_handler_IsRoundStarted',['../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2',1,'round_handler.qh']]]
+  ['round_5fhandler_5fisroundstarted',['round_handler_IsRoundStarted',['../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2',1,'round_handler.qh']]],
+  ['rvalue',['RVALUE',['../d3/dc9/macro_8qh.html#a96e57ca6a5bfae842e92e07dc14997dd',1,'macro.qh']]]
 ];

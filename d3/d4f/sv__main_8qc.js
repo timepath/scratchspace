@@ -1,5 +1,8 @@
 var sv__main_8qc =
 [
+    [ "BINOP", "d3/d4f/sv__main_8qc.html#a54e650d0a371793b77c66d8985e9051e", null ],
+    [ "X", "d3/d4f/sv__main_8qc.html#af9949a02f0e3e1fbd39f2e56eb33f8fc", null ],
+    [ "X", "d3/d4f/sv__main_8qc.html#a2b7a71db58f8b4fe2406f893c4357ccf", null ],
     [ "CreatureFrame_All", "d3/d4f/sv__main_8qc.html#ad554e5161275ecc9b8656a805c57a010", null ],
     [ "CreatureFrame_FallDamage", "d3/d4f/sv__main_8qc.html#ab7c42abf6b0be109dc3d1f64b33ea277", null ],
     [ "CreatureFrame_hotliquids", "d3/d4f/sv__main_8qc.html#ab040f482f9f20fab4279b2f2caf806c8", null ],

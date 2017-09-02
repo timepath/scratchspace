@@ -1,5 +1,6 @@
 var spawnfunc_8qh =
 [
+    [ "__spawnfunc_spawn_all", "da/d20/spawnfunc_8qh.html#accf25e4d095ddcca539fa7bf35d2e64b", null ],
     [ "_spawnfunc_check", "da/d20/spawnfunc_8qh.html#a09349a71324a154b90ff0ed86d833a14", null ],
     [ "_spawnfunc_checktypes", "da/d20/spawnfunc_8qh.html#a4de816e6692271520f0bd3d32a2760cc", null ],
     [ "EVAL_spawnfunc", "da/d20/spawnfunc_8qh.html#a19f19ce6180312d0bcdafcc71e46a559", null ],
@@ -12,9 +13,18 @@ var spawnfunc_8qh =
     [ "spawnfunc", "da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153", null ],
     [ "spawnfunc_1", "da/d20/spawnfunc_8qh.html#aba58f0f254a7470e43b0294be317a734", null ],
     [ "spawnfunc_2", "da/d20/spawnfunc_8qh.html#ac237ac49370487f5d91312a3bdd04abc", null ],
+    [ "SPAWNFUNC_INTERNAL_FIELDS", "da/d20/spawnfunc_8qh.html#a3b46bba07f5bf76ddd3eea7763bd03cb", null ],
+    [ "X", "da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6", null ],
+    [ "X", "da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6", null ],
+    [ "X", "da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6", null ],
+    [ "__spawnfunc_defer", "da/d20/spawnfunc_8qh.html#a6db1e57565333741a0ea5b39b6543e1c", null ],
+    [ "__spawnfunc_spawn", "da/d20/spawnfunc_8qh.html#a48740da59c37809a16164e3f2a182e08", null ],
+    [ "void", "da/d20/spawnfunc_8qh.html#a8e9a7fc56b3e17c793a45efc26fc88f1", null ],
     [ "__spawnfunc_expect", "da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd", null ],
-    [ "__spawnfunc_expecting", "da/d20/spawnfunc_8qh.html#a6cb61ff4c2475d5c45d023b3d550a99a", null ],
+    [ "__spawnfunc_expecting", "da/d20/spawnfunc_8qh.html#ae93978bfef4efb8b9ae17161b5dbea51", null ],
     [ "__spawnfunc_unreachable_workaround", "da/d20/spawnfunc_8qh.html#a5b40421c6298962d4011eddd0c72802a", null ],
+    [ "g_map_entities", "da/d20/spawnfunc_8qh.html#a0337431cd5614e4984c6012eea5be3ad", null ],
+    [ "g_spawn_queue", "da/d20/spawnfunc_8qh.html#ae520c557d0e22b803e268760bc77f205", null ],
     [ "require_spawnfunc_prefix", "da/d20/spawnfunc_8qh.html#ab4eb66deff727f2822c9d56d85d71d61", null ],
     [ "spawnfunc_checked", "da/d20/spawnfunc_8qh.html#acf818192a10457d834cc057718d25ad3", null ]
 ];

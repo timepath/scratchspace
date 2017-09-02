@@ -1,5 +1,8 @@
 var NAVTREEINDEX28 =
 {
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,181,22],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,181,13],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,181,61],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,181,30],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,181,6],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,181,46],
@@ -246,8 +249,5 @@ var NAVTREEINDEX28 =
 "d3/da9/classMineLayer.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,74,16],
 "d3/da9/classMineLayer.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,74,20],
 "d3/da9/classMineLayer.html#a35cd64372114dee923ac53b97c0fdd1b":[1,0,74,30],
-"d3/da9/classMineLayer.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,74,11],
-"d3/da9/classMineLayer.html#a4337268c8cad6836bae8efd4a8835070":[1,0,74,21],
-"d3/da9/classMineLayer.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,74,1],
-"d3/da9/classMineLayer.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,74,15]
+"d3/da9/classMineLayer.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,74,11]
 };

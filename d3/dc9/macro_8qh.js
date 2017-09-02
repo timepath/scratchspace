@@ -7,6 +7,7 @@ var macro_8qh =
     [ "EMPTY", "d3/dc9/macro_8qh.html#a4ddebc5712d39b71767e3dceb9bfb74b", null ],
     [ "MACRO_BEGIN", "d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73", null ],
     [ "MACRO_END", "d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201", null ],
+    [ "RVALUE", "d3/dc9/macro_8qh.html#a96e57ca6a5bfae842e92e07dc14997dd", null ],
     [ "STR", "d3/dc9/macro_8qh.html#a7e6c97c88f776302c195e6728d6cb272", null ],
     [ "voidfunc", "d3/dc9/macro_8qh.html#a297603003dcface1d54fb00d44a36fa9", null ]
 ];
