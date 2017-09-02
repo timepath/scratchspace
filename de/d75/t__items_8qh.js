@@ -18,6 +18,5 @@ var t__items_8qh =
     [ "ITS_AVAILABLE", "de/d75/t__items_8qh.html#aa2808085fda391f74e373ac68438458e", null ],
     [ "ITS_GLOW", "de/d75/t__items_8qh.html#a3e05a312afebcc9f7a167cf39a2517e3", null ],
     [ "ITS_STAYWEP", "de/d75/t__items_8qh.html#a0ce67fdd2e089834c018c3e19c6e70b7", null ],
-    [ "onground_time", "de/d75/t__items_8qh.html#a27e7c92dd78340273163a08a8d603977", null ],
-    [ "RESOURCE_AMOUNT_HARD_LIMIT", "de/d75/t__items_8qh.html#a2d9be923c7402e7f93be7e1d13636c33", null ]
+    [ "onground_time", "de/d75/t__items_8qh.html#a27e7c92dd78340273163a08a8d603977", null ]
 ];

@@ -54,6 +54,8 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "progs.inc", "dd/d96/server_2progs_8inc.html", null ],
     [ "race.qc", "d6/d3b/race_8qc.html", "d6/d3b/race_8qc" ],
     [ "race.qh", "d4/d1b/race_8qh.html", "d4/d1b/race_8qh" ],
+    [ "resources.qc", "d5/d09/resources_8qc.html", "d5/d09/resources_8qc" ],
+    [ "resources.qh", "d5/dc4/resources_8qh.html", "d5/dc4/resources_8qh" ],
     [ "round_handler.qc", "db/dfc/round__handler_8qc.html", "db/dfc/round__handler_8qc" ],
     [ "round_handler.qh", "db/d20/round__handler_8qh.html", "db/d20/round__handler_8qh" ],
     [ "scores.qc", "d2/d79/scores_8qc.html", "d2/d79/scores_8qc" ],
