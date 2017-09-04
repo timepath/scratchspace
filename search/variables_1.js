@@ -609,7 +609,6 @@ var searchData=
   ['autocvar_5fg_5fbalance_5fsuperweapons_5ftime',['autocvar_g_balance_superweapons_time',['../d7/da7/server_2autocvars_8qh.html#a0f8e8aea2af6ef8befbff36f321e12c2',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbalance_5fteams',['autocvar_g_balance_teams',['../d7/da7/server_2autocvars_8qh.html#af5afaa4f4416a5297c8f3a8195c8dbad',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbalance_5fteams_5fprevent_5fimbalance',['autocvar_g_balance_teams_prevent_imbalance',['../d7/da7/server_2autocvars_8qh.html#aba26849cc1957d364c3ffa134e10f9a9',1,'autocvars.qh']]],
-  ['autocvar_5fg_5fbalance_5fteams_5fscorefactor',['autocvar_g_balance_teams_scorefactor',['../d7/da7/server_2autocvars_8qh.html#a424d27658d037dafeea3d99b9f460142',1,'autocvars.qh']]],
   ['autocvar_5fg_5fballistics_5fdensity_5fcorpse',['autocvar_g_ballistics_density_corpse',['../d7/da7/server_2autocvars_8qh.html#acaef55b5ad29447ab3e577e01084f512',1,'autocvars.qh']]],
   ['autocvar_5fg_5fballistics_5fdensity_5fplayer',['autocvar_g_ballistics_density_player',['../d7/da7/server_2autocvars_8qh.html#aef53febc1debb3052157621e56189628',1,'autocvars.qh']]],
   ['autocvar_5fg_5fballistics_5fmindistance',['autocvar_g_ballistics_mindistance',['../d7/da7/server_2autocvars_8qh.html#a3224290657dfac7894324fe6537d0cc7',1,'autocvars.qh']]],

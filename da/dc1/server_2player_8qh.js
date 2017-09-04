@@ -9,7 +9,7 @@ var server_2player_8qh =
     [ "DebugPrintToChatAll", "da/dc1/server_2player_8qh.html#acd6554a25e5a6c81d0ebe4eea07ecb07", null ],
     [ "DebugPrintToChatTeam", "da/dc1/server_2player_8qh.html#a069f69d13af79e3b017f3892e529dcfa", null ],
     [ "dedicated_print", "da/dc1/server_2player_8qh.html#a0390f6703ace29f61655694b8821d84a", null ],
-    [ "MoveToTeam", "da/dc1/server_2player_8qh.html#a2fb495970d5532052a094294e8082238", null ],
+    [ "MoveToTeam", "da/dc1/server_2player_8qh.html#a314f6cfc744b1dbe79349c3534610087", null ],
     [ "player_anim", "da/dc1/server_2player_8qh.html#a51c4a1afebc1206d7849ebd9f21e2f3b", null ],
     [ "player_setupanimsformodel", "da/dc1/server_2player_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1", null ],
     [ "PlayerCorpseDamage", "da/dc1/server_2player_8qh.html#a1f636403184e26ea4190e989009ab0a1", null ],

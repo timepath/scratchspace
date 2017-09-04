@@ -238,6 +238,7 @@ var searchData=
   ['killindicator',['killindicator',['../d5/d26/server_2defs_8qh.html#a59f3bedf42216e820a4817519548bd90',1,'defs.qh']]],
   ['killindicator_5fteamchange',['killindicator_teamchange',['../d1/d37/classClient.html#a4a6721351757c8353d232edd370c35e4',1,'Client']]],
   ['killindicator_5fthink',['KillIndicator_Think',['../df/dd7/server_2client_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'KillIndicator_Think(entity this):&#160;client.qc'],['../d5/d69/gamemode__cts_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'KillIndicator_Think(entity this):&#160;client.qc']]],
+  ['killplayerforteamchange',['KillPlayerForTeamChange',['../de/d4f/teamplay_8qc.html#ad358e614645b7bbf926efeb9af932a5d',1,'KillPlayerForTeamChange(entity player):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#ad358e614645b7bbf926efeb9af932a5d',1,'KillPlayerForTeamChange(entity player):&#160;teamplay.qc']]],
   ['killsound',['killsound',['../d5/d26/server_2defs_8qh.html#ae6bd352ab3129bbecd9993d9f61c30d6',1,'defs.qh']]],
   ['killtarget',['killtarget',['../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70',1,'subs.qh']]]
 ];

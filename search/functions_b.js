@@ -51,5 +51,6 @@ var searchData=
   ['kh_5fupdate_5fstate',['kh_update_state',['../de/d40/gamemode__keyhunt_8qc.html#af0b0677c2ea223d7b4b626fa9e83ccd7',1,'gamemode_keyhunt.qc']]],
   ['kh_5fwaitforplayers',['kh_WaitForPlayers',['../de/d40/gamemode__keyhunt_8qc.html#acf9057b87b552cb3a114c36616cc86c5',1,'gamemode_keyhunt.qc']]],
   ['kh_5fwinnerteam',['kh_WinnerTeam',['../de/d40/gamemode__keyhunt_8qc.html#adc6f8b980a6e61293b34501088d91004',1,'gamemode_keyhunt.qc']]],
-  ['killindicator_5fthink',['KillIndicator_Think',['../df/dd7/server_2client_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'KillIndicator_Think(entity this):&#160;client.qc'],['../d5/d69/gamemode__cts_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'KillIndicator_Think(entity this):&#160;client.qc']]]
+  ['killindicator_5fthink',['KillIndicator_Think',['../df/dd7/server_2client_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'KillIndicator_Think(entity this):&#160;client.qc'],['../d5/d69/gamemode__cts_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'KillIndicator_Think(entity this):&#160;client.qc']]],
+  ['killplayerforteamchange',['KillPlayerForTeamChange',['../de/d4f/teamplay_8qc.html#ad358e614645b7bbf926efeb9af932a5d',1,'KillPlayerForTeamChange(entity player):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#ad358e614645b7bbf926efeb9af932a5d',1,'KillPlayerForTeamChange(entity player):&#160;teamplay.qc']]]
 ];
