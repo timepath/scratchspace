@@ -50,7 +50,7 @@ var searchData=
   ['_5fspawnfunc_5fcheck',['_spawnfunc_check',['../da/d20/spawnfunc_8qh.html#a09349a71324a154b90ff0ed86d833a14',1,'spawnfunc.qh']]],
   ['_5fspawnfunc_5fchecktypes',['_spawnfunc_checktypes',['../da/d20/spawnfunc_8qh.html#a4de816e6692271520f0bd3d32a2760cc',1,'spawnfunc.qh']]],
   ['_5fssmagix',['_SSMAGIX',['../da/d6b/sv__superspec_8qc.html#a31dc829545889e2c1ffe41b9237a02d0',1,'sv_superspec.qc']]],
-  ['_5fstatic_5finit',['_STATIC_INIT',['../d4/d1a/static_8qh.html#ab5ab92d57802ec553868382ed3a202cc',1,'static.qh']]],
+  ['_5fstatic_5finit',['_STATIC_INIT',['../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b',1,'static.qh']]],
   ['_5fstr',['_STR',['../d3/dc9/macro_8qh.html#a49acb15fcfb6e6f65b49b947c8b3b4cc',1,'macro.qh']]],
   ['_5fstrid',['_strid',['../d2/d65/unsafe_8qh.html#ad14fdd4d14f64c10d6ae30d2c05b8aad',1,'unsafe.qh']]],
   ['_5fstruct_5fdeclare',['_STRUCT_DECLARE',['../d9/d5b/struct_8qh.html#a9f2fa4fb4d8db2c082e6662fdab9db89',1,'struct.qh']]],

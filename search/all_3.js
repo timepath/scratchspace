@@ -986,7 +986,7 @@ var searchData=
   ['cts_5frecord',['CTS_RECORD',['../d5/df2/common_2util_8qh.html#a2ab892f127a1745ff993deeb083df749',1,'util.qh']]],
   ['cts_5fscorerules',['cts_ScoreRules',['../d5/d69/gamemode__cts_8qc.html#a9b15c0c4fb2a70ddec86a6d47c026023',1,'gamemode_cts.qc']]],
   ['ctx',['CTX',['../d0/dfe/i18n_8qh.html#a0bade0435e184fd8e66d20b86fd31622',1,'i18n.qh']]],
-  ['ctx_5fcache',['CTX_CACHE',['../d0/dfe/i18n_8qh.html#aa1f361d4b0c21e4e579c98dcd1754d8a',1,'CTX_CACHE():&#160;i18n.qh'],['../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246',1,'CTX_cache():&#160;i18n.qh']]],
+  ['ctx_5fcache',['CTX_cache',['../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246',1,'CTX_cache():&#160;i18n.qh'],['../d0/dfe/i18n_8qh.html#aa1f361d4b0c21e4e579c98dcd1754d8a',1,'CTX_CACHE():&#160;i18n.qh']]],
   ['cubic_5fspeedfunc',['cubic_speedfunc',['../d0/d79/math_8qh.html#a23557eb0538d1c7732c47c4b4ef7d0b5',1,'math.qh']]],
   ['cubic_5fspeedfunc_5fis_5fsane',['cubic_speedfunc_is_sane',['../d0/d79/math_8qh.html#af0c243745f66303f9316bc8315d5cb38',1,'math.qh']]],
   ['curl_5furi_5fget_5fcallback',['Curl_URI_Get_Callback',['../df/da7/generic_8qc.html#a802e2fce290ef7ee78e2c5272017a500',1,'Curl_URI_Get_Callback(int id, float status, string data):&#160;generic.qc'],['../d7/d88/generic_8qh.html#a802e2fce290ef7ee78e2c5272017a500',1,'Curl_URI_Get_Callback(int id, float status, string data):&#160;generic.qc']]],

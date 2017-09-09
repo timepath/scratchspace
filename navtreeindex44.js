@@ -1,5 +1,8 @@
 var NAVTREEINDEX44 =
 {
+"d4/dd3/common_2minigames_2__mod_8inc_source.html":[2,0,1,6,1],
+"d4/dd4/physics_2movetypes_2all_8inc.html":[2,0,1,11,0,2],
+"d4/dd4/physics_2movetypes_2all_8inc_source.html":[2,0,1,11,0,2],
 "d4/dd6/minelayer_8qc.html":[2,0,1,16,0,22],
 "d4/dd6/minelayer_8qc_source.html":[2,0,1,16,0,22],
 "d4/dd7/movetypes_8qh.html":[2,0,1,11,0,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX44 =
 "d4/df8/classXonoticHUDRadarDialog.html#ae32afb34536c7546251d510d37b3c338":[1,0,191,69],
 "d4/df8/classXonoticHUDRadarDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,191,91],
 "d4/df8/classXonoticHUDRadarDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,191,8],
-"d4/df8/classXonoticHUDRadarDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,191,68],
-"d4/df8/classXonoticHUDRadarDialog.html#af1aab403dc54575707fd57991312b201":[1,0,191,47],
-"d4/df8/classXonoticHUDRadarDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,191,27],
-"d4/df8/classXonoticHUDRadarDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,191,15]
+"d4/df8/classXonoticHUDRadarDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,191,68]
 };

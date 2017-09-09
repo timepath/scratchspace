@@ -1,5 +1,12 @@
 var NAVTREEINDEX117 =
 {
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,174,87],
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,174,56],
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,174,60],
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,174,65],
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,174,78],
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,174,36],
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,174,64],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,174,93],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#ae4a91435e55b1625786a372ad255ea78":[1,0,174,85],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#ae6a2b73fc421073777efa8be72694b37":[1,0,174,89],
@@ -242,12 +249,5 @@ var NAVTREEINDEX117 =
 "dd/da6/classXonoticCreditsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,152,71],
 "dd/da6/classXonoticCreditsDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,152,8],
 "dd/da6/classXonoticCreditsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,152,73],
-"dd/da6/classXonoticCreditsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,152,4],
-"dd/da6/classXonoticCreditsDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,152,44],
-"dd/da6/classXonoticCreditsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,152,22],
-"dd/da6/classXonoticCreditsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,152,50],
-"dd/da6/classXonoticCreditsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,152,55],
-"dd/da6/classXonoticCreditsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,152,30],
-"dd/da6/classXonoticCreditsDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,152,20],
-"dd/da6/classXonoticCreditsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,152,23]
+"dd/da6/classXonoticCreditsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,152,4]
 };

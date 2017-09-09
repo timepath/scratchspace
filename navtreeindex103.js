@@ -1,5 +1,11 @@
 var NAVTREEINDEX103 =
 {
+"db/db4/classTextSlider.html#aee9fee5e1e798ea7d1b0905bc107ed8c":[1,0,127,92],
+"db/db4/classTextSlider.html#aeeea196cce280d4e95730a8f06b80518":[1,0,127,23],
+"db/db4/classTextSlider.html#af6491199d7c16232c6ec828661a64ecf":[1,0,127,10],
+"db/db4/classTextSlider.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,127,29],
+"db/db4/classTextSlider.html#af95bc647f125a32a3ca649f377c24021":[1,0,127,54],
+"db/db4/classTextSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,127,78],
 "db/db4/classTextSlider.html#afc9428d371ed63dd0316db5558e81d30":[1,0,127,79],
 "db/db4/classTextSlider.html#afdcf1fb79903f747cda494b27206526b":[1,0,127,7],
 "db/db4/dialog__settings__misc__cvars_8qh.html":[2,0,5,4,147],
@@ -237,17 +243,11 @@ var NAVTREEINDEX103 =
 "db/dcc/g__world_8qc.html#a178d61b734362fd8c466adb1234e0f53":[2,0,6,31,23],
 "db/dcc/g__world_8qc.html#a1a54385aa9929a708f4b06be4b86ffa0":[2,0,6,31,43],
 "db/dcc/g__world_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820":[2,0,6,31,7],
-"db/dcc/g__world_8qc.html#a20fbabe6206b4fb7777eefcceac58edf":[2,0,6,31,50],
+"db/dcc/g__world_8qc.html#a20fbabe6206b4fb7777eefcceac58edf":[2,0,6,31,51],
 "db/dcc/g__world_8qc.html#a233af455133bc7ba4e3e100115bf2885":[2,0,6,31,6],
 "db/dcc/g__world_8qc.html#a299f6568839ff6aaf17c0a2a71cae48f":[2,0,6,31,28],
 "db/dcc/g__world_8qc.html#a2d7b36b62919e17ff99c13cad66436bf":[2,0,6,31,29],
 "db/dcc/g__world_8qc.html#a2eddcee0f0bf4563cceac3c65cd2a418":[2,0,6,31,24],
-"db/dcc/g__world_8qc.html#a3a5ccf5cedf20c389fb4845c9558851d":[2,0,6,31,69],
-"db/dcc/g__world_8qc.html#a3cdf631d5bca38ae9ce59e2b029eaf3a":[2,0,6,31,67],
-"db/dcc/g__world_8qc.html#a425e54e058e6e6701cc7fca07a234be9":[2,0,6,31,33],
-"db/dcc/g__world_8qc.html#a456cb75445f7a05a80d7a6f3d2e2f8ae":[2,0,6,31,20],
-"db/dcc/g__world_8qc.html#a46448826729592b90ee5ec53da2e0fe6":[2,0,6,31,32],
-"db/dcc/g__world_8qc.html#a4dff7facc0426cc4eb7ce5d352373547":[2,0,6,31,65],
-"db/dcc/g__world_8qc.html#a562ca164f7d8783b2be2864ba5fdc6f5":[2,0,6,31,40],
-"db/dcc/g__world_8qc.html#a5d071a7011835f6a1e0c40767327e628":[2,0,6,31,49]
+"db/dcc/g__world_8qc.html#a3a5ccf5cedf20c389fb4845c9558851d":[2,0,6,31,70],
+"db/dcc/g__world_8qc.html#a3cdf631d5bca38ae9ce59e2b029eaf3a":[2,0,6,31,68]
 };

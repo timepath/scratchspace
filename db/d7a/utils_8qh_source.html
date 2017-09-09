@@ -148,7 +148,7 @@ $(document).ready(function(){initNavTree('db/d7a/utils_8qh_source.html','../../'
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">        } \</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">   44</a></span>&#160;<span class="preprocessor">#define FOREACH_CLIENT(cond, body) FOREACH_CLIENTSLOT(IS_CLIENT(it) &amp;&amp; (cond), body)</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">   44</a></span>&#160;<span class="preprocessor">#define FOREACH_CLIENT(cond, body) FOREACH_CLIENTSLOT(IS_CLIENT(it) &amp;&amp; (cond), LAMBDA(body))</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">// using the &quot;inside out&quot; version of knuth-fisher-yates shuffle</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">// https://en.wikipedia.org/wiki/Fisher–Yates_shuffle</span></div>
@@ -195,7 +195,7 @@ $(document).ready(function(){initNavTree('db/d7a/utils_8qh_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/d7a/utils_8qh.html">utils.qh</a></li>
-    <li class="footer">Generated on Mon Sep 4 2017 00:35:09 for Xonotic by
+    <li class="footer">Generated on Sat Sep 9 2017 13:22:35 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

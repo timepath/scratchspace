@@ -50,6 +50,7 @@ var g__world_8qc =
     [ "spawnfunc", "db/dcc/g__world_8qc.html#a61bd70129e557ffad13fa1c21a5d9af3", null ],
     [ "spawnfunc", "db/dcc/g__world_8qc.html#aac7f083651dfcb99dbbd8afc5e339233", null ],
     [ "spawnfunc", "db/dcc/g__world_8qc.html#a5d071a7011835f6a1e0c40767327e628", null ],
+    [ "STATIC_INIT_EARLY", "db/dcc/g__world_8qc.html#a53088ad78f61fffd2c5514cb56565dfd", null ],
     [ "systems_update", "db/dcc/g__world_8qc.html#a20fbabe6206b4fb7777eefcceac58edf", null ],
     [ "TargetMusic_RestoreGame", "db/dcc/g__world_8qc.html#a9b864391c3d6475f9345ccff9c19b7a3", null ],
     [ "WeaponStats_Init", "db/dcc/g__world_8qc.html#a658592c9d038c8940b9d17f4330cf72d", null ],

@@ -22,6 +22,7 @@ var spawnfunc_8qh =
     [ "void", "da/d20/spawnfunc_8qh.html#a8e9a7fc56b3e17c793a45efc26fc88f1", null ],
     [ "__spawnfunc_expect", "da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd", null ],
     [ "__spawnfunc_expecting", "da/d20/spawnfunc_8qh.html#ae93978bfef4efb8b9ae17161b5dbea51", null ],
+    [ "__spawnfunc_first", "da/d20/spawnfunc_8qh.html#a3cc52b4571edcf33ca77ce7f224e04ab", null ],
     [ "__spawnfunc_unreachable_workaround", "da/d20/spawnfunc_8qh.html#a5b40421c6298962d4011eddd0c72802a", null ],
     [ "g_map_entities", "da/d20/spawnfunc_8qh.html#a0337431cd5614e4984c6012eea5be3ad", null ],
     [ "g_spawn_queue", "da/d20/spawnfunc_8qh.html#ae520c557d0e22b803e268760bc77f205", null ],

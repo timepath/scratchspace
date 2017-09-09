@@ -1,5 +1,8 @@
 var NAVTREEINDEX43 =
 {
+"d4/da5/classXonoticBigCommandButton.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,142,34],
+"d4/da5/classXonoticBigCommandButton.html#aef17454d19baae5de77f47b1fb52deb1":[1,0,142,4],
+"d4/da5/classXonoticBigCommandButton.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,142,33],
 "d4/da5/classXonoticBigCommandButton.html#af3a830d70442467db88dc9e6085943aa":[1,0,142,60],
 "d4/da5/classXonoticBigCommandButton.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,142,32],
 "d4/da5/classXonoticBigCommandButton.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,142,75],
@@ -246,8 +249,5 @@ var NAVTREEINDEX43 =
 "d4/dd1/spawnpoints_8qh_source.html":[2,0,6,63],
 "d4/dd2/vectormamamam_8qh.html":[2,0,1,13,0,37],
 "d4/dd2/vectormamamam_8qh_source.html":[2,0,1,13,0,37],
-"d4/dd3/common_2minigames_2__mod_8inc.html":[2,0,1,6,1],
-"d4/dd3/common_2minigames_2__mod_8inc_source.html":[2,0,1,6,1],
-"d4/dd4/physics_2movetypes_2all_8inc.html":[2,0,1,11,0,2],
-"d4/dd4/physics_2movetypes_2all_8inc_source.html":[2,0,1,11,0,2]
+"d4/dd3/common_2minigames_2__mod_8inc.html":[2,0,1,6,1]
 };

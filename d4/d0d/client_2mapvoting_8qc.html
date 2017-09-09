@@ -2136,14 +2136,14 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00561">561</a> of file <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html">mapvoting.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00058">GTV_AVAILABLE</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00020">mv_flags</a>, and <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00012">mv_num_maps</a>.</p>
+<p>References <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00058">GTV_AVAILABLE</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00020">mv_flags</a>, and <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00012">mv_num_maps</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00650">MapVote_Init()</a>, and <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00858">MapVote_UpdateMask()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;{</div>
 <div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;    <span class="keywordtype">int</span> i;</div>
 <div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;    <span class="keywordflow">if</span> ( <a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#afc42b7e84553443a0d327e4cad45f162">mv_num_maps</a> &lt; 24 )</div>
 <div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;    {</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;        <span class="keywordtype">int</span> mask, power;</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;        <span class="keywordtype">int</span> mask;</div>
 <div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#afc42b7e84553443a0d327e4cad45f162">mv_num_maps</a> &lt; 8)</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;            mask = ReadByte();</div>
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#afc42b7e84553443a0d327e4cad45f162">mv_num_maps</a> &lt; 16)</div>
@@ -2151,9 +2151,9 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;            mask = ReadLong();</div>
 <div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;</div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;        <span class="keywordflow">for</span>(i = 0, power = 1; i &lt; <a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#afc42b7e84553443a0d327e4cad45f162">mv_num_maps</a>; ++i, power *= 2)</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;        <span class="keywordflow">for</span>(i = 0; i &lt; <a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#afc42b7e84553443a0d327e4cad45f162">mv_num_maps</a>; ++i)</div>
 <div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;        {</div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;            <span class="keywordflow">if</span> ( mask &amp; power )</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;            <span class="keywordflow">if</span> (mask &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(i))</div>
 <div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;                <a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#a59f929bd2c0744fe765d3795ad61ce61">mv_flags</a>[i] |= <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aafcac7ebe139f685782c77bec44e9882">GTV_AVAILABLE</a>;</div>
 <div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;                <a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#a59f929bd2c0744fe765d3795ad61ce61">mv_flags</a>[i] &amp;= ~<a class="code" href="../../d0/d8b/common_2constants_8qh.html#aafcac7ebe139f685782c77bec44e9882">GTV_AVAILABLE</a>;</div>
@@ -2166,6 +2166,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;    }</div>
 <div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;}</div>
 <div class="ttc" id="client_2mapvoting_8qc_html_afc42b7e84553443a0d327e4cad45f162"><div class="ttname"><a href="../../d4/d0d/client_2mapvoting_8qc.html#afc42b7e84553443a0d327e4cad45f162">mv_num_maps</a></div><div class="ttdeci">int mv_num_maps</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00012">mapvoting.qc:12</a></div></div>
+<div class="ttc" id="bits_8qh_html_a3a8ea58898cb58fc96013383d39f482c"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a></div><div class="ttdeci">#define BIT(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00005">bits.qh:5</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_aafcac7ebe139f685782c77bec44e9882"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#aafcac7ebe139f685782c77bec44e9882">GTV_AVAILABLE</a></div><div class="ttdeci">const int GTV_AVAILABLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00058">constants.qh:58</a></div></div>
 <div class="ttc" id="client_2mapvoting_8qc_html_a59f929bd2c0744fe765d3795ad61ce61"><div class="ttname"><a href="../../d4/d0d/client_2mapvoting_8qc.html#a59f929bd2c0744fe765d3795ad61ce61">mv_flags</a></div><div class="ttdeci">float mv_flags[MAPVOTE_COUNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00020">mapvoting.qc:20</a></div></div>
 </div><!-- fragment -->
@@ -3133,7 +3134,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d4/d0d/client_2mapvoting_8qc.html">mapvoting.qc</a></li>
-    <li class="footer">Generated on Mon Sep 4 2017 00:35:10 for Xonotic by
+    <li class="footer">Generated on Sat Sep 9 2017 13:22:37 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

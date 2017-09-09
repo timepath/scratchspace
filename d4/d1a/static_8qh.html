@@ -121,44 +121,55 @@ $(document).ready(function(){initNavTree('d4/d1a/static_8qh.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ab5ab92d57802ec553868382ed3a202cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#ab5ab92d57802ec553868382ed3a202cc">_STATIC_INIT</a>(where, func)</td></tr>
-<tr class="separator:ab5ab92d57802ec553868382ed3a202cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5e40a7e475a8a59d5c7237f48d75a1b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b">_STATIC_INIT</a>(func, where)</td></tr>
+<tr class="separator:af5e40a7e475a8a59d5c7237f48d75a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c0b177bfb707d205b7161331701a31f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a8c0b177bfb707d205b7161331701a31f">GETTIME_REALTIME</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:a8c0b177bfb707d205b7161331701a31f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab79b64f0f542aac87bcc659fe0a872bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#ab79b64f0f542aac87bcc659fe0a872bc">PRECACHE</a>(func)&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#ab5ab92d57802ec553868382ed3a202cc">_STATIC_INIT</a>(<a class="el" href="../../d4/d1a/static_8qh.html#af1cd3009e103f8d029138e2d418a33f7">__static_init_precache</a>,     func##_precache)</td></tr>
+<tr class="memitem:ab79b64f0f542aac87bcc659fe0a872bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#ab79b64f0f542aac87bcc659fe0a872bc">PRECACHE</a>(func)&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b">_STATIC_INIT</a>(func##_3,    <a class="el" href="../../d4/d1a/static_8qh.html#af6da56ba7b90def1146740ad4ea8cca0">__static_init_3</a>)</td></tr>
+<tr class="memdesc:ab79b64f0f542aac87bcc659fe0a872bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">directly after STATIC_INIT_LATE  <a href="#ab79b64f0f542aac87bcc659fe0a872bc">More...</a><br/></td></tr>
 <tr class="separator:ab79b64f0f542aac87bcc659fe0a872bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a041986e780f36ad84807b4914817f85c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a041986e780f36ad84807b4914817f85c">SHUTDOWN</a>(func)&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#ab5ab92d57802ec553868382ed3a202cc">_STATIC_INIT</a>(<a class="el" href="../../d4/d1a/static_8qh.html#ab1a0d2960b8f7d71249e8f6b38c00fa1">__shutdown</a>,     			func##_shutdown)</td></tr>
+<tr class="memitem:a041986e780f36ad84807b4914817f85c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a041986e780f36ad84807b4914817f85c">SHUTDOWN</a>(func)&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b">_STATIC_INIT</a>(func##_shutdown, <a class="el" href="../../d4/d1a/static_8qh.html#ab1a0d2960b8f7d71249e8f6b38c00fa1">__shutdown</a>)</td></tr>
+<tr class="memdesc:a041986e780f36ad84807b4914817f85c"><td class="mdescLeft">&#160;</td><td class="mdescRight">before shutdown  <a href="#a041986e780f36ad84807b4914817f85c">More...</a><br/></td></tr>
 <tr class="separator:a041986e780f36ad84807b4914817f85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae61862194bced7796893dcc8790eab7e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#ae61862194bced7796893dcc8790eab7e">shutdownhooks</a>()&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#ab1a0d2960b8f7d71249e8f6b38c00fa1">__shutdown</a>)</td></tr>
+<tr class="memitem:ae61862194bced7796893dcc8790eab7e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#ae61862194bced7796893dcc8790eab7e">shutdownhooks</a>()&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(    <a class="el" href="../../d4/d1a/static_8qh.html#ab1a0d2960b8f7d71249e8f6b38c00fa1">__shutdown</a>)</td></tr>
 <tr class="separator:ae61862194bced7796893dcc8790eab7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff750764e8837995ece73fb8f0b6017e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#aff750764e8837995ece73fb8f0b6017e">static_init</a>()&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#a4a74736bb3c8c0a01f67f3c43a4bcd0b">__static_init</a>)</td></tr>
-<tr class="separator:aff750764e8837995ece73fb8f0b6017e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8adce259cbe13be1381a0d1872b690c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a8adce259cbe13be1381a0d1872b690c2">STATIC_INIT</a>(func)&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#ab5ab92d57802ec553868382ed3a202cc">_STATIC_INIT</a>(<a class="el" href="../../d4/d1a/static_8qh.html#a4a74736bb3c8c0a01f67f3c43a4bcd0b">__static_init</a>,           func)</td></tr>
+<tr class="memitem:a8adce259cbe13be1381a0d1872b690c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a8adce259cbe13be1381a0d1872b690c2">STATIC_INIT</a>(func)&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b">_STATIC_INIT</a>(func##_1,    <a class="el" href="../../d4/d1a/static_8qh.html#a419356cb13b9fee093a45d00f595f3b8">__static_init_1</a>)</td></tr>
+<tr class="memdesc:a8adce259cbe13be1381a0d1872b690c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">during worldspawn  <a href="#a8adce259cbe13be1381a0d1872b690c2">More...</a><br/></td></tr>
 <tr class="separator:a8adce259cbe13be1381a0d1872b690c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1afcd49466b39c43270995b2d67501f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a1afcd49466b39c43270995b2d67501f8">static_init_late</a>()&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#ae192c8b023b5d68f7f49e709acdbedb0">__static_init_late</a>)</td></tr>
-<tr class="separator:a1afcd49466b39c43270995b2d67501f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4022c7b995fc3cc64fcce1d2e6f33801"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a4022c7b995fc3cc64fcce1d2e6f33801">STATIC_INIT_LATE</a>(func)&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#ab5ab92d57802ec553868382ed3a202cc">_STATIC_INIT</a>(<a class="el" href="../../d4/d1a/static_8qh.html#ae192c8b023b5d68f7f49e709acdbedb0">__static_init_late</a>, func##_late)</td></tr>
+<tr class="memitem:aff750764e8837995ece73fb8f0b6017e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#aff750764e8837995ece73fb8f0b6017e">static_init</a>()&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#a419356cb13b9fee093a45d00f595f3b8">__static_init_1</a>)</td></tr>
+<tr class="separator:aff750764e8837995ece73fb8f0b6017e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59576f801d5bbd15c4c8a4e67576612a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a59576f801d5bbd15c4c8a4e67576612a">STATIC_INIT_EARLY</a>(func)&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b">_STATIC_INIT</a>(func##_0,    <a class="el" href="../../d4/d1a/static_8qh.html#af6b7c65af1c71e82cb9b7ea942aac26a">__static_init_0</a>)</td></tr>
+<tr class="memdesc:a59576f801d5bbd15c4c8a4e67576612a"><td class="mdescLeft">&#160;</td><td class="mdescRight">before worldspawn  <a href="#a59576f801d5bbd15c4c8a4e67576612a">More...</a><br/></td></tr>
+<tr class="separator:a59576f801d5bbd15c4c8a4e67576612a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3ed155f51c1fc0b89041f3aac569f43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#ac3ed155f51c1fc0b89041f3aac569f43">static_init_early</a>()&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#af6b7c65af1c71e82cb9b7ea942aac26a">__static_init_0</a>)</td></tr>
+<tr class="separator:ac3ed155f51c1fc0b89041f3aac569f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4022c7b995fc3cc64fcce1d2e6f33801"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a4022c7b995fc3cc64fcce1d2e6f33801">STATIC_INIT_LATE</a>(func)&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b">_STATIC_INIT</a>(func##_2,    <a class="el" href="../../d4/d1a/static_8qh.html#a7e8989aa126999291b31e4a2a830cb1a">__static_init_2</a>)</td></tr>
+<tr class="memdesc:a4022c7b995fc3cc64fcce1d2e6f33801"><td class="mdescLeft">&#160;</td><td class="mdescRight">directly after STATIC_INIT  <a href="#a4022c7b995fc3cc64fcce1d2e6f33801">More...</a><br/></td></tr>
 <tr class="separator:a4022c7b995fc3cc64fcce1d2e6f33801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd2df2c22b62af504b621884dbdca0de"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#abd2df2c22b62af504b621884dbdca0de">static_init_precache</a>()&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#af1cd3009e103f8d029138e2d418a33f7">__static_init_precache</a>)</td></tr>
+<tr class="memitem:a1afcd49466b39c43270995b2d67501f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a1afcd49466b39c43270995b2d67501f8">static_init_late</a>()&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#a7e8989aa126999291b31e4a2a830cb1a">__static_init_2</a>)</td></tr>
+<tr class="separator:a1afcd49466b39c43270995b2d67501f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2df2c22b62af504b621884dbdca0de"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#abd2df2c22b62af504b621884dbdca0de">static_init_precache</a>()&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#af6da56ba7b90def1146740ad4ea8cca0">__static_init_3</a>)</td></tr>
 <tr class="separator:abd2df2c22b62af504b621884dbdca0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ab1a0d2960b8f7d71249e8f6b38c00fa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#ab1a0d2960b8f7d71249e8f6b38c00fa1">__shutdown</a> ()</td></tr>
 <tr class="separator:ab1a0d2960b8f7d71249e8f6b38c00fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a74736bb3c8c0a01f67f3c43a4bcd0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a4a74736bb3c8c0a01f67f3c43a4bcd0b">__static_init</a> ()</td></tr>
-<tr class="separator:a4a74736bb3c8c0a01f67f3c43a4bcd0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae192c8b023b5d68f7f49e709acdbedb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#ae192c8b023b5d68f7f49e709acdbedb0">__static_init_late</a> ()</td></tr>
-<tr class="separator:ae192c8b023b5d68f7f49e709acdbedb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1cd3009e103f8d029138e2d418a33f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#af1cd3009e103f8d029138e2d418a33f7">__static_init_precache</a> ()</td></tr>
-<tr class="separator:af1cd3009e103f8d029138e2d418a33f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6b7c65af1c71e82cb9b7ea942aac26a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#af6b7c65af1c71e82cb9b7ea942aac26a">__static_init_0</a> ()</td></tr>
+<tr class="separator:af6b7c65af1c71e82cb9b7ea942aac26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a419356cb13b9fee093a45d00f595f3b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a419356cb13b9fee093a45d00f595f3b8">__static_init_1</a> ()</td></tr>
+<tr class="separator:a419356cb13b9fee093a45d00f595f3b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e8989aa126999291b31e4a2a830cb1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a7e8989aa126999291b31e4a2a830cb1a">__static_init_2</a> ()</td></tr>
+<tr class="separator:a7e8989aa126999291b31e4a2a830cb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6da56ba7b90def1146740ad4ea8cca0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#af6da56ba7b90def1146740ad4ea8cca0">__static_init_3</a> ()</td></tr>
+<tr class="separator:af6da56ba7b90def1146740ad4ea8cca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbb37bd2e2a0044032a80525036847a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#afbb37bd2e2a0044032a80525036847a7">float</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> tmr) _gettime</td></tr>
 <tr class="separator:afbb37bd2e2a0044032a80525036847a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48a305b3b9baa8868a26fd3dc4daa51f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1a/static_8qh.html#a48a305b3b9baa8868a26fd3dc4daa51f">profile</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> s)</td></tr>
 <tr class="separator:a48a305b3b9baa8868a26fd3dc4daa51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="ab5ab92d57802ec553868382ed3a202cc"></a>
+<a class="anchor" id="af5e40a7e475a8a59d5c7237f48d75a1b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -166,13 +177,13 @@ Functions</h2></td></tr>
           <td class="memname">#define _STATIC_INIT</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">where, </td>
+          <td class="paramname">func, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">func&#160;</td>
+          <td class="paramname">where&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -184,11 +195,11 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">[[accumulate]] <span class="keywordtype">void</span> _static_##func() { <a class="code" href="../../d4/d1a/static_8qh.html#a48a305b3b9baa8868a26fd3dc4daa51f">profile</a>(#func); } <a class="code" href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">\</a></div>
 <div class="line"><a class="code" href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">	ACCUMULATE_FUNCTION</a>(where, _static_##func) <a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">\</a></div>
 <div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">	void</a> _static_##func()</div>
-<div class="ttc" id="static_8qh_html_a48a305b3b9baa8868a26fd3dc4daa51f"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a48a305b3b9baa8868a26fd3dc4daa51f">profile</a></div><div class="ttdeci">ERASEABLE void profile(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00020">static.qh:20</a></div></div>
+<div class="ttc" id="static_8qh_html_a48a305b3b9baa8868a26fd3dc4daa51f"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a48a305b3b9baa8868a26fd3dc4daa51f">profile</a></div><div class="ttdeci">ERASEABLE void profile(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00011">static.qh:11</a></div></div>
 <div class="ttc" id="accumulate_8qh_html_ad2050ee846dff1123c50d269b32ed0d5"><div class="ttname"><a href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">ACCUMULATE_FUNCTION</a></div><div class="ttdeci">#define ACCUMULATE_FUNCTION(func, otherfunc)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d68/accumulate_8qh_source.html#l00031">accumulate.qh:31</a></div></div>
 <div class="ttc" id="self_8qh_html_ac9c84fa68bbad002983e35ce3663c686"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">void</a></div><div class="ttdeci">void</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00083">self.qh:83</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00028">28</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00019">19</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
 
 </div>
 </div>
@@ -202,9 +213,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00012">12</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00003">3</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00624">CommonCommand_time()</a>, <a class="el" href="../../dd/d31/engineinfo_8qc_source.html#l00018">HUD_EngineInfo()</a>, <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00354">pathlib_astar()</a>, <a class="el" href="../../d7/d73/path__waypoint_8qc_source.html#l00132">pathlib_waypointpath()</a>, and <a class="el" href="../../d4/d1a/static_8qh_source.html#l00020">profile()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00624">CommonCommand_time()</a>, <a class="el" href="../../dd/d31/engineinfo_8qc_source.html#l00018">HUD_EngineInfo()</a>, <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00354">pathlib_astar()</a>, <a class="el" href="../../d7/d73/path__waypoint_8qc_source.html#l00132">pathlib_waypointpath()</a>, and <a class="el" href="../../d4/d1a/static_8qh_source.html#l00011">profile()</a>.</p>
 
 </div>
 </div>
@@ -217,12 +228,14 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">func</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#ab5ab92d57802ec553868382ed3a202cc">_STATIC_INIT</a>(<a class="el" href="../../d4/d1a/static_8qh.html#af1cd3009e103f8d029138e2d418a33f7">__static_init_precache</a>,     func##_precache)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b">_STATIC_INIT</a>(func##_3,    <a class="el" href="../../d4/d1a/static_8qh.html#af6da56ba7b90def1146740ad4ea8cca0">__static_init_3</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00035">35</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<p>directly after STATIC_INIT_LATE </p>
+
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00040">40</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
 
 </div>
 </div>
@@ -235,12 +248,14 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">func</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#ab5ab92d57802ec553868382ed3a202cc">_STATIC_INIT</a>(<a class="el" href="../../d4/d1a/static_8qh.html#ab1a0d2960b8f7d71249e8f6b38c00fa1">__shutdown</a>,     			func##_shutdown)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b">_STATIC_INIT</a>(func##_shutdown, <a class="el" href="../../d4/d1a/static_8qh.html#ab1a0d2960b8f7d71249e8f6b38c00fa1">__shutdown</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00036">36</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<p>before shutdown </p>
+
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00047">47</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
 
 </div>
 </div>
@@ -252,31 +267,12 @@ Functions</h2></td></tr>
           <td class="memname">#define shutdownhooks</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#ab1a0d2960b8f7d71249e8f6b38c00fa1">__shutdown</a>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(    <a class="el" href="../../d4/d1a/static_8qh.html#ab1a0d2960b8f7d71249e8f6b38c00fa1">__shutdown</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00010">10</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aff750764e8837995ece73fb8f0b6017e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define static_init</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#a4a74736bb3c8c0a01f67f3c43a4bcd0b">__static_init</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00004">4</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
-
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00095">CSQC_Init()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00056">m_init()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00566">spawnfunc()</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00048">48</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
 
 </div>
 </div>
@@ -289,31 +285,70 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">func</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#ab5ab92d57802ec553868382ed3a202cc">_STATIC_INIT</a>(<a class="el" href="../../d4/d1a/static_8qh.html#a4a74736bb3c8c0a01f67f3c43a4bcd0b">__static_init</a>,           func)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b">_STATIC_INIT</a>(func##_1,    <a class="el" href="../../d4/d1a/static_8qh.html#a419356cb13b9fee093a45d00f595f3b8">__static_init_1</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00033">33</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<p>during worldspawn </p>
+
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00030">30</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1afcd49466b39c43270995b2d67501f8"></a>
+<a class="anchor" id="aff750764e8837995ece73fb8f0b6017e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define static_init_late</td>
+          <td class="memname">#define static_init</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#ae192c8b023b5d68f7f49e709acdbedb0">__static_init_late</a>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#a419356cb13b9fee093a45d00f595f3b8">__static_init_1</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00006">6</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00031">31</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00095">CSQC_Init()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00056">m_init()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00566">spawnfunc()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a59576f801d5bbd15c4c8a4e67576612a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STATIC_INIT_EARLY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">func</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b">_STATIC_INIT</a>(func##_0,    <a class="el" href="../../d4/d1a/static_8qh.html#af6b7c65af1c71e82cb9b7ea942aac26a">__static_init_0</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>before worldspawn </p>
+
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00025">25</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac3ed155f51c1fc0b89041f3aac569f43"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define static_init_early</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#af6b7c65af1c71e82cb9b7ea942aac26a">__static_init_0</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00026">26</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
 
 </div>
 </div>
@@ -326,12 +361,33 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">func</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#ab5ab92d57802ec553868382ed3a202cc">_STATIC_INIT</a>(<a class="el" href="../../d4/d1a/static_8qh.html#ae192c8b023b5d68f7f49e709acdbedb0">__static_init_late</a>, func##_late)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b">_STATIC_INIT</a>(func##_2,    <a class="el" href="../../d4/d1a/static_8qh.html#a7e8989aa126999291b31e4a2a830cb1a">__static_init_2</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00034">34</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<p>directly after STATIC_INIT </p>
+
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00035">35</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1afcd49466b39c43270995b2d67501f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define static_init_late</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#a7e8989aa126999291b31e4a2a830cb1a">__static_init_2</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00036">36</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00095">CSQC_Init()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00056">m_init()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00566">spawnfunc()</a>.</p>
 
 </div>
 </div>
@@ -343,12 +399,12 @@ Functions</h2></td></tr>
           <td class="memname">#define static_init_precache</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#af1cd3009e103f8d029138e2d418a33f7">__static_init_precache</a>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(<a class="el" href="../../d4/d1a/static_8qh.html#af6da56ba7b90def1146740ad4ea8cca0">__static_init_3</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00008">8</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00041">41</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00095">CSQC_Init()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00056">m_init()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00566">spawnfunc()</a>.</p>
 
@@ -368,17 +424,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00009">9</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00049">49</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a4a74736bb3c8c0a01f67f3c43a4bcd0b"></a>
+<a class="anchor" id="af6b7c65af1c71e82cb9b7ea942aac26a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> __static_init </td>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> __static_init_0 </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -386,17 +442,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00003">3</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00027">27</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="ae192c8b023b5d68f7f49e709acdbedb0"></a>
+<a class="anchor" id="a419356cb13b9fee093a45d00f595f3b8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> __static_init_late </td>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> __static_init_1 </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -404,17 +460,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00005">5</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00032">32</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="af1cd3009e103f8d029138e2d418a33f7"></a>
+<a class="anchor" id="a7e8989aa126999291b31e4a2a830cb1a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> __static_init_precache </td>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> __static_init_2 </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -422,8 +478,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00007">7</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00037">37</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af6da56ba7b90def1146740ad4ea8cca0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> __static_init_3 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00042">42</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -457,18 +531,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00020">20</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d1a/static_8qh_source.html#l00011">11</a> of file <a class="el" href="../../d4/d1a/static_8qh_source.html">static.qh</a>.</p>
 
-<p>References <a class="el" href="../../d4/d1a/static_8qh_source.html#l00012">GETTIME_REALTIME</a>, and <a class="el" href="../../db/da0/log_8qh_source.html#l00079">LOG_TRACEF</a>.</p>
+<p>References <a class="el" href="../../d4/d1a/static_8qh_source.html#l00003">GETTIME_REALTIME</a>, and <a class="el" href="../../db/da0/log_8qh_source.html#l00079">LOG_TRACEF</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/d5e/common_2models_2model_8qh_source.html#l00013">Model::model_precache()</a>, and <a class="el" href="../../d0/df5/sound_8qh_source.html#l00123">Sound::sound_precache()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> g_starttime;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">float</span> rt = _gettime(<a class="code" href="../../d4/d1a/static_8qh.html#a8c0b177bfb707d205b7161331701a31f">GETTIME_REALTIME</a>);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">if</span> (!g_starttime) g_starttime = rt;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a>(<span class="stringliteral">&quot;[%f] %s&quot;</span>, rt - g_starttime, s);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
-<div class="ttc" id="static_8qh_html_a8c0b177bfb707d205b7161331701a31f"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a8c0b177bfb707d205b7161331701a31f">GETTIME_REALTIME</a></div><div class="ttdeci">#define GETTIME_REALTIME</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00012">static.qh:12</a></div></div>
+<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> g_starttime;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">float</span> rt = _gettime(<a class="code" href="../../d4/d1a/static_8qh.html#a8c0b177bfb707d205b7161331701a31f">GETTIME_REALTIME</a>);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (!g_starttime) g_starttime = rt;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a>(<span class="stringliteral">&quot;[%f] %s&quot;</span>, rt - g_starttime, s);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
+<div class="ttc" id="static_8qh_html_a8c0b177bfb707d205b7161331701a31f"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a8c0b177bfb707d205b7161331701a31f">GETTIME_REALTIME</a></div><div class="ttdeci">#define GETTIME_REALTIME</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00003">static.qh:3</a></div></div>
 <div class="ttc" id="log_8qh_html_a2872337768358857f71a83488272df5b"><div class="ttname"><a href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a></div><div class="ttdeci">#define LOG_TRACEF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00079">log.qh:79</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -489,7 +563,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d4/d1a/static_8qh.html">static.qh</a></li>
-    <li class="footer">Generated on Mon Sep 4 2017 00:35:17 for Xonotic by
+    <li class="footer">Generated on Sat Sep 9 2017 13:22:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

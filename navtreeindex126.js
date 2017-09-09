@@ -1,5 +1,12 @@
 var NAVTREEINDEX126 =
 {
+"de/d9c/classTab.html#a4869983b8dc750584479ade5447c8413":[1,0,123,25],
+"de/d9c/classTab.html#a496c49a1de4715396cc3c7670deef632":[1,0,123,74],
+"de/d9c/classTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,123,52],
+"de/d9c/classTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,123,30],
+"de/d9c/classTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,123,36],
+"de/d9c/classTab.html#a520abb757a187547673f9a1dbd7acde8":[1,0,123,73],
+"de/d9c/classTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,123,44],
 "de/d9c/classTab.html#a53de8355052b658819638577356cc8f3":[1,0,123,56],
 "de/d9c/classTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,123,87],
 "de/d9c/classTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,123,19],
@@ -242,12 +249,5 @@ var NAVTREEINDEX126 =
 "de/dc3/teamradar_8qc_source.html":[2,0,0,26],
 "de/dc5/dialog__settings__effects_8qh.html":[2,0,5,4,123],
 "de/dc5/dialog__settings__effects_8qh.html#a8ace980a9aa0b9448962d11b51ad3f3e":[2,0,5,4,123,1],
-"de/dc5/dialog__settings__effects_8qh_source.html":[2,0,5,4,123],
-"de/dcb/classMageSpike.html":[1,0,72],
-"de/dcb/classMageSpike.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,72,33],
-"de/dcb/classMageSpike.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,72,19],
-"de/dcb/classMageSpike.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,72,18],
-"de/dcb/classMageSpike.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,72,30],
-"de/dcb/classMageSpike.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,72,16],
-"de/dcb/classMageSpike.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,72,20]
+"de/dc5/dialog__settings__effects_8qh_source.html":[2,0,5,4,123]
 };

@@ -138,6 +138,8 @@ Macros</h2></td></tr>
 <tr class="separator:a6e4c8aabf20d96d568a3a13b9e492f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a8923ddbf5d6f46413189b2d9b126ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a0a8923ddbf5d6f46413189b2d9b126ee">LinkedEntities_from</a>(i)&#160;&#160;&#160;_LinkedEntities_from(i, <a class="el" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
 <tr class="separator:a0a8923ddbf5d6f46413189b2d9b126ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac319ef5622f183ecc17162cfdb220ff7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/lib_2net_8qh.html#ac319ef5622f183ecc17162cfdb220ff7">NET_GUARD</a>(id)</td></tr>
+<tr class="separator:ac319ef5622f183ecc17162cfdb220ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c87ee9a4aa12245bb6e80f321975ded"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a>(id, param)&#160;&#160;&#160;<a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a> Net_Handle_##id(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> sender, param)</td></tr>
 <tr class="separator:a2c87ee9a4aa12245bb6e80f321975ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47b6d4ca93431fbacadc241fa409ea8d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a47b6d4ca93431fbacadc241fa409ea8d">Read_byte</a>()&#160;&#160;&#160;ReadByte()</td></tr>
@@ -158,8 +160,10 @@ Macros</h2></td></tr>
 <tr class="separator:ae2a85287667d09986aa3617151c015bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd71f45cdad779199c626ebf10e9d56b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/lib_2net_8qh.html#afd71f45cdad779199c626ebf10e9d56b">REGISTER_NET_TEMP</a>(id)</td></tr>
 <tr class="separator:afd71f45cdad779199c626ebf10e9d56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3177d21b061e1bd32c45621c9ad6b3a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a3177d21b061e1bd32c45621c9ad6b3a0">serialize</a>(T, stream,...)&#160;&#160;&#160;serialize_##T(stream, __VA_ARGS__)</td></tr>
+<tr class="memitem:a3177d21b061e1bd32c45621c9ad6b3a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a3177d21b061e1bd32c45621c9ad6b3a0">serialize</a>(T, stream,...)</td></tr>
 <tr class="separator:a3177d21b061e1bd32c45621c9ad6b3a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78aa457d4b55fd7bc60d3f062f36f92f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a78aa457d4b55fd7bc60d3f062f36f92f">serialize_marker</a>(stream, <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>)</td></tr>
+<tr class="separator:a78aa457d4b55fd7bc60d3f062f36f92f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ab93ddebeb53f74be6296d2638b2f9d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a3ab93ddebeb53f74be6296d2638b2f9d">serialize_vector</a>(stream, <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>)</td></tr>
 <tr class="separator:a3ab93ddebeb53f74be6296d2638b2f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3d4af6bd6ed7be376b01923c10ca901"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/lib_2net_8qh.html#ab3d4af6bd6ed7be376b01923c10ca901">TempEntities_from</a>(i)&#160;&#160;&#160;_TempEntities_from(i, <a class="el" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
@@ -213,7 +217,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00089">89</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00101">101</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -231,7 +235,38 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00063">63</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00075">75</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac319ef5622f183ecc17162cfdb220ff7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NET_GUARD</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">id</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">bool</span> Net_Handle_##<span class="keywordtype">id</span>##_guard(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> sender, <span class="keywordtype">bool</span> isNew) { <a class="code" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">\</a></div>
+<div class="line"><a class="code" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">        bool</a> valid = <span class="keyword">false</span>; <a class="code" href="../../d9/d48/lib_2net_8qh.html#a78aa457d4b55fd7bc60d3f062f36f92f">\</a></div>
+<div class="line"><a class="code" href="../../d9/d48/lib_2net_8qh.html#a78aa457d4b55fd7bc60d3f062f36f92f">        serialize_marker</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>, valid); \</div>
+<div class="line">        if (!valid) <a class="code" href="../../db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80">LOG_FATALF</a>(&quot;Last <a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> not fully parsed: %s&quot;, _net_prevmsgstr); \</div>
+<div class="line">        _net_prevmsgstr = <span class="preprocessor">#id; \</span></div>
+<div class="line"><span class="preprocessor">        return Net_Handle_##id(this, sender, isNew); \</span></div>
+<div class="line"><span class="preprocessor">    }</span></div>
+<div class="ttc" id="lib_2net_8qh_html_a78aa457d4b55fd7bc60d3f062f36f92f"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#a78aa457d4b55fd7bc60d3f062f36f92f">serialize_marker</a></div><div class="ttdeci">#define serialize_marker(stream, this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00274">net.qh:274</a></div></div>
+<div class="ttc" id="client_2defs_8qh_html_ae1ed0d7a6f352c7ee3ad978429822c6f"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a></div><div class="ttdeci">string message</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00007">defs.qh:7</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00096">self.qh:96</a></div></div>
+<div class="ttc" id="lib_2net_8qh_html_a57f79e19435bd395df28fcca5f9a248e"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a></div><div class="ttdeci">bool(entity this, entity sender, bool isNew) m_read</div></div>
+<div class="ttc" id="log_8qh_html_a13d54a54746c27ba1665ae15526b3d80"><div class="ttname"><a href="../../db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80">LOG_FATALF</a></div><div class="ttdeci">#define LOG_FATALF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00056">log.qh:56</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00014">14</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -259,7 +294,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00010">10</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00012">12</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -276,7 +311,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00262">262</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00293">293</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -293,7 +328,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00289">289</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00320">320</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -310,7 +345,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00286">286</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00317">317</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -327,7 +362,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00292">292</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00323">323</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -345,9 +380,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00259">259</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00290">290</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00959">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00958">NET_HANDLE()</a>.</p>
 
 </div>
 </div>
@@ -371,10 +406,10 @@ Variables</h2></td></tr>
 <div class="line">        }</div>
 <div class="ttc" id="registry_8qh_html_a212380bd462d6af1e068ef2e15844466"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a></div><div class="ttdeci">#define REGISTER(...)</div><div class="ttdoc">Register a new entity with a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00072">registry.qh:72</a></div></div>
 <div class="ttc" id="self_8qh_html_ac6e5c7e9cf195be4b7295953f6e59113"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a></div><div class="ttdeci">entity this</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00083">self.qh:83</a></div></div>
-<div class="ttc" id="lib_2net_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00008">net.qh:8</a></div></div>
+<div class="ttc" id="lib_2net_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00010">net.qh:10</a></div></div>
 <div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00071">oo.qh:71</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00080">80</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00092">92</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -398,10 +433,10 @@ Variables</h2></td></tr>
 <div class="line">        }</div>
 <div class="ttc" id="registry_8qh_html_a212380bd462d6af1e068ef2e15844466"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a></div><div class="ttdeci">#define REGISTER(...)</div><div class="ttdoc">Register a new entity with a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00072">registry.qh:72</a></div></div>
 <div class="ttc" id="self_8qh_html_ac6e5c7e9cf195be4b7295953f6e59113"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a></div><div class="ttdeci">entity this</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00083">self.qh:83</a></div></div>
-<div class="ttc" id="lib_2net_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00008">net.qh:8</a></div></div>
+<div class="ttc" id="lib_2net_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00010">net.qh:10</a></div></div>
 <div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00071">oo.qh:71</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00054">54</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00066">66</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -419,7 +454,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00029">29</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00040">40</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -443,10 +478,10 @@ Variables</h2></td></tr>
 <div class="line">        }</div>
 <div class="ttc" id="registry_8qh_html_a212380bd462d6af1e068ef2e15844466"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a></div><div class="ttdeci">#define REGISTER(...)</div><div class="ttdoc">Register a new entity with a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00072">registry.qh:72</a></div></div>
 <div class="ttc" id="self_8qh_html_ac6e5c7e9cf195be4b7295953f6e59113"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a></div><div class="ttdeci">entity this</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00083">self.qh:83</a></div></div>
-<div class="ttc" id="lib_2net_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00008">net.qh:8</a></div></div>
+<div class="ttc" id="lib_2net_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00010">net.qh:10</a></div></div>
 <div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00071">oo.qh:71</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00022">22</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00033">33</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -475,12 +510,63 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;serialize_##T(stream, __VA_ARGS__)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">MACRO_BEGIN \</div>
+<div class="line">    noref <a class="code" href="../../d9/d48/lib_2net_8qh.html#a0bb8b8c115905df16cbe81f7431e671a">Stream</a> _stream = stream; \</div>
+<div class="line">    serialize_##T(_stream, __VA_ARGS__); <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">\</a></div>
+<div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
+<div class="ttc" id="lib_2net_8qh_html_a0bb8b8c115905df16cbe81f7431e671a"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#a0bb8b8c115905df16cbe81f7431e671a">Stream</a></div><div class="ttdeci">int Stream</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00226">net.qh:226</a></div></div>
+<div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00235">235</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00222">222</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00934">EliminatedPlayers_SendEntity()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00605">NET_HANDLE()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a78aa457d4b55fd7bc60d3f062f36f92f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define serialize_marker</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">stream, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">MACRO_BEGIN \</div>
+<div class="line">    if (NDEBUG) { <a class="code" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">\</a></div>
+<div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">        this</a> = <span class="keyword">true</span>; \</div>
+<div class="line">    } <span class="keywordflow">else</span> { <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">\</a></div>
+<div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">        int</a> _de = 0xDE, _ad = 0xAD, _be = 0xBE, _ef = 0xEF; \</div>
+<div class="line">        serialize_byte(stream, _de); \</div>
+<div class="line">        serialize_byte(stream, _ad); \</div>
+<div class="line">        serialize_byte(stream, _be); \</div>
+<div class="line">        serialize_byte(stream, _ef); <a class="code" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">\</a></div>
+<div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">        this</a> = (_de == 0xDE &amp;&amp; _ad == 0xAD &amp;&amp; _be == 0xBE &amp;&amp; _ef == 0xEF); \</div>
+<div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">\</a></div>
+<div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
+<div class="ttc" id="lib_2__all_8inc_html_ae88a82478e3818cade3f598c25437904"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">int</a></div><div class="ttdeci">#define int</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00020">_all.inc:20</a></div></div>
+<div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+<div class="ttc" id="self_8qh_html_ac6e5c7e9cf195be4b7295953f6e59113"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a></div><div class="ttdeci">entity this</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00083">self.qh:83</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00274">274</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -513,12 +599,12 @@ Variables</h2></td></tr>
 <div class="line">    serialize_float(stream, _v.y); \</div>
 <div class="line">    serialize_float(stream, _v.z); <a class="code" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">\</a></div>
 <div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">    this</a> = _v; <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">\</a></div>
-<div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">    MACRO_END</a></div>
+<div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="self_8qh_html_ac6e5c7e9cf195be4b7295953f6e59113"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a></div><div class="ttdeci">entity this</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00083">self.qh:83</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00248">248</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00265">265</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -536,7 +622,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00032">32</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00043">43</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -564,7 +650,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00263">263</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00294">294</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -592,7 +678,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00290">290</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00321">321</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -620,7 +706,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00287">287</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00318">318</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -648,7 +734,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00293">293</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00324">324</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -682,7 +768,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00260">260</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00291">291</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d79/scores_8qc_source.html#l00186">ScoreInfo_SendEntity()</a>.</p>
 
@@ -699,7 +785,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00213">213</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00226">226</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -750,10 +836,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00036">36</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00047">47</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 <p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>.</p>
-<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{ <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(TempEntities, <span class="keyword">true</span>, it.m_id = 80 + i); }</div>
+<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{ <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(TempEntities, <span class="keyword">true</span>, it.m_id = 80 + i); }</div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -772,10 +858,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00067">67</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00079">79</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 <p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>.</p>
-<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;{ <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(LinkedEntities, <span class="keyword">true</span>, it.m_id = 1 + i); }</div>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{ <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(LinkedEntities, <span class="keyword">true</span>, it.m_id = 1 + i); }</div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -794,10 +880,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00093">93</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00105">105</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 <p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>.</p>
-<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{ <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(C2S_Protocol, <span class="keyword">true</span>, it.m_id = i); }</div>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;{ <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(C2S_Protocol, <span class="keyword">true</span>, it.m_id = i); }</div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -813,7 +899,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00008">8</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00010">10</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -827,7 +913,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00007">7</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00009">9</a> of file <a class="el" href="../../d9/d48/lib_2net_8qh_source.html">net.qh</a>.</p>
 
 </div>
 </div>
@@ -837,7 +923,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d9/d48/lib_2net_8qh.html">net.qh</a></li>
-    <li class="footer">Generated on Mon Sep 4 2017 00:35:14 for Xonotic by
+    <li class="footer">Generated on Sat Sep 9 2017 13:22:40 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

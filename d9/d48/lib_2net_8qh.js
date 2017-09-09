@@ -2,6 +2,7 @@ var lib_2net_8qh =
 [
     [ "C2S_Protocol_from", "d9/d48/lib_2net_8qh.html#a6e4c8aabf20d96d568a3a13b9e492f7c", null ],
     [ "LinkedEntities_from", "d9/d48/lib_2net_8qh.html#a0a8923ddbf5d6f46413189b2d9b126ee", null ],
+    [ "NET_GUARD", "d9/d48/lib_2net_8qh.html#ac319ef5622f183ecc17162cfdb220ff7", null ],
     [ "NET_HANDLE", "d9/d48/lib_2net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded", null ],
     [ "Read_byte", "d9/d48/lib_2net_8qh.html#a47b6d4ca93431fbacadc241fa409ea8d", null ],
     [ "Read_float", "d9/d48/lib_2net_8qh.html#a0864f785d699a546374eb69ec29e69fd", null ],
@@ -13,6 +14,7 @@ var lib_2net_8qh =
     [ "REGISTER_NET_S2C", "d9/d48/lib_2net_8qh.html#ae2a85287667d09986aa3617151c015bd", null ],
     [ "REGISTER_NET_TEMP", "d9/d48/lib_2net_8qh.html#afd71f45cdad779199c626ebf10e9d56b", null ],
     [ "serialize", "d9/d48/lib_2net_8qh.html#a3177d21b061e1bd32c45621c9ad6b3a0", null ],
+    [ "serialize_marker", "d9/d48/lib_2net_8qh.html#a78aa457d4b55fd7bc60d3f062f36f92f", null ],
     [ "serialize_vector", "d9/d48/lib_2net_8qh.html#a3ab93ddebeb53f74be6296d2638b2f9d", null ],
     [ "TempEntities_from", "d9/d48/lib_2net_8qh.html#ab3d4af6bd6ed7be376b01923c10ca901", null ],
     [ "Write_byte", "d9/d48/lib_2net_8qh.html#a84ebbcfeb398b04d80c378ca47b809c0", null ],
