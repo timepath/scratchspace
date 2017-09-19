@@ -1,5 +1,12 @@
 var NAVTREEINDEX20 =
 {
+"d2/db1/movetypes_8qc.html#ad44fedd3ce1abb0e9b70a3e71b623674":[2,0,1,11,0,5,32],
+"d2/db1/movetypes_8qc.html#ad797154b1325fa6f3b8aa5d2224d77b5":[2,0,1,11,0,5,17],
+"d2/db1/movetypes_8qc.html#aec8e38c6a6af79893d641f0ae53a2042":[2,0,1,11,0,5,8],
+"d2/db1/movetypes_8qc.html#af4e305a34cfe09004c87a91e2461330c":[2,0,1,11,0,5,24],
+"d2/db1/movetypes_8qc.html#afa4cf35feb7ab8ba2af8f8e123ad7d56":[2,0,1,11,0,5,34],
+"d2/db1/movetypes_8qc_source.html":[2,0,1,11,0,5],
+"d2/db4/string_8qh.html":[2,0,4,56],
 "d2/db4/string_8qh.html#a04228c5af3e8ca402b509a7e080ba6f3":[2,0,4,56,21],
 "d2/db4/string_8qh.html#a17ef0c21cbd07ec53d7dee826fa3814d":[2,0,4,56,1],
 "d2/db4/string_8qh.html#a18d360dae8acec6fc943d884ad153f8d":[2,0,4,56,13],
@@ -115,8 +122,8 @@ var NAVTREEINDEX20 =
 "d2/dc0/bot_8qc.html#afaeae8b4cc57aae2b5db95dbc5440464":[2,0,6,0,0,5,12],
 "d2/dc0/bot_8qc.html#afea81f6c762e4dd1232aba6bb0e5144e":[2,0,6,0,0,5,9],
 "d2/dc0/bot_8qc_source.html":[2,0,6,0,0,5],
-"d2/dc1/items_8qc.html":[2,0,1,9,0,11,2],
-"d2/dc1/items_8qc_source.html":[2,0,1,9,0,11,2],
+"d2/dc1/items_8qc.html":[2,0,1,9,0,12,2],
+"d2/dc1/items_8qc_source.html":[2,0,1,9,0,12,2],
 "d2/dc2/subs_8qc.html":[2,0,1,13,10],
 "d2/dc2/subs_8qc.html#a03279c1cb9d39ce02457862222cfb9eb":[2,0,1,13,10,8],
 "d2/dc2/subs_8qc.html#a3a60987a3ea76236af8eff0d6f65d6cb":[2,0,1,13,10,5],
@@ -242,12 +249,5 @@ var NAVTREEINDEX20 =
 "d2/dcb/classXonoticPicmipSlider.html#ac6094922668d013ada3893854eec6b0f":[1,0,215,25],
 "d2/dcb/classXonoticPicmipSlider.html#acd339ed42a2f51ac07364931d53de5a1":[1,0,215,90],
 "d2/dcb/classXonoticPicmipSlider.html#ad485b0ba0e020607f42965ca46266706":[1,0,215,4],
-"d2/dcb/classXonoticPicmipSlider.html#ad4aa27a0cf7fb7e282c728b12ec95472":[1,0,215,40],
-"d2/dcb/classXonoticPicmipSlider.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,215,74],
-"d2/dcb/classXonoticPicmipSlider.html#adebd46165082ac743d9d0f1fc3d450cb":[1,0,215,92],
-"d2/dcb/classXonoticPicmipSlider.html#ae0f14c5bc830037cfd38773a50ca20d9":[1,0,215,59],
-"d2/dcb/classXonoticPicmipSlider.html#ae36c978d138b97307b37a555afc4ae96":[1,0,215,99],
-"d2/dcb/classXonoticPicmipSlider.html#ae5407b63f7c63a88c9da16169b46694f":[1,0,215,49],
-"d2/dcb/classXonoticPicmipSlider.html#ae7a169abde25f6d0c42837b1b201f11a":[1,0,215,93],
-"d2/dcb/classXonoticPicmipSlider.html#ae7ad12c455973e01e6ffaaa65114ed32":[1,0,215,30]
+"d2/dcb/classXonoticPicmipSlider.html#ad4aa27a0cf7fb7e282c728b12ec95472":[1,0,215,40]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX44 =
 {
+"d4/dd1/spawnpoints_8qh.html#ab4967b5a52be505fdfbe23d0d61b2aa1":[2,0,6,65,9],
+"d4/dd1/spawnpoints_8qh.html#ac6bf8417de66cc27e1aad493335d2901":[2,0,6,65,1],
+"d4/dd1/spawnpoints_8qh.html#afbaa6a2b464f54d5f9f6087f526bb199":[2,0,6,65,7],
+"d4/dd1/spawnpoints_8qh_source.html":[2,0,6,65],
+"d4/dd2/vectormamamam_8qh.html":[2,0,1,13,0,37],
+"d4/dd2/vectormamamam_8qh_source.html":[2,0,1,13,0,37],
+"d4/dd3/common_2minigames_2__mod_8inc.html":[2,0,1,6,1],
 "d4/dd3/common_2minigames_2__mod_8inc_source.html":[2,0,1,6,1],
 "d4/dd4/physics_2movetypes_2all_8inc.html":[2,0,1,11,0,2],
 "d4/dd4/physics_2movetypes_2all_8inc_source.html":[2,0,1,11,0,2],
@@ -86,8 +93,8 @@ var NAVTREEINDEX44 =
 "d4/dda/soundlist_8qh.html#ad632576d21cb4fc888d153a8565b0cb1":[2,0,5,4,217,5],
 "d4/dda/soundlist_8qh.html#af50b0ed8dccaa8291ca24f628a62be8a":[2,0,5,4,217,3],
 "d4/dda/soundlist_8qh_source.html":[2,0,5,4,217],
-"d4/ddb/common_2mutators_2mutator_2invincibleproj_2__mod_8qh.html":[2,0,1,9,0,12,1],
-"d4/ddb/common_2mutators_2mutator_2invincibleproj_2__mod_8qh_source.html":[2,0,1,9,0,12,1],
+"d4/ddb/common_2mutators_2mutator_2invincibleproj_2__mod_8qh.html":[2,0,1,9,0,13,1],
+"d4/ddb/common_2mutators_2mutator_2invincibleproj_2__mod_8qh_source.html":[2,0,1,9,0,13,1],
 "d4/ddc/monster_8qh.html":[2,0,1,8,5],
 "d4/ddc/monster_8qh.html#a03669798945c0fdbc043eb2d895667ee":[2,0,1,8,5,16],
 "d4/ddc/monster_8qh.html#a17d171a5ed6a63bd2ce3ef6094748668":[2,0,1,8,5,5],
@@ -162,8 +169,8 @@ var NAVTREEINDEX44 =
 "d4/def/weapons_8qc.html#ab7c3acfa47aaf4f25f4775921b6be5ae":[2,0,0,1,0,40,1],
 "d4/def/weapons_8qc.html#ad404b083c61c0b18b47d75dd1906b30e":[2,0,0,1,0,40,4],
 "d4/def/weapons_8qc_source.html":[2,0,0,1,0,40],
-"d4/df5/overkill_8qc.html":[2,0,1,9,0,20,6],
-"d4/df5/overkill_8qc_source.html":[2,0,1,9,0,20,6],
+"d4/df5/overkill_8qc.html":[2,0,1,9,0,21,6],
+"d4/df5/overkill_8qc_source.html":[2,0,1,9,0,21,6],
 "d4/df7/common_2mutators_2mutator_2cloaked_2__mod_8qh.html":[2,0,1,9,0,5,1],
 "d4/df7/common_2mutators_2mutator_2cloaked_2__mod_8qh_source.html":[2,0,1,9,0,5,1],
 "d4/df8/classXonoticHUDRadarDialog.html":[1,0,191],
@@ -242,12 +249,5 @@ var NAVTREEINDEX44 =
 "d4/df8/classXonoticHUDRadarDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,191,51],
 "d4/df8/classXonoticHUDRadarDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,191,63],
 "d4/df8/classXonoticHUDRadarDialog.html#ad48c5789fe037034ba668df267090df5":[1,0,191,59],
-"d4/df8/classXonoticHUDRadarDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,191,88],
-"d4/df8/classXonoticHUDRadarDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,191,31],
-"d4/df8/classXonoticHUDRadarDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,191,62],
-"d4/df8/classXonoticHUDRadarDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,191,55],
-"d4/df8/classXonoticHUDRadarDialog.html#ae32afb34536c7546251d510d37b3c338":[1,0,191,69],
-"d4/df8/classXonoticHUDRadarDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,191,91],
-"d4/df8/classXonoticHUDRadarDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,191,8],
-"d4/df8/classXonoticHUDRadarDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,191,68]
+"d4/df8/classXonoticHUDRadarDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,191,88]
 };

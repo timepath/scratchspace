@@ -1,5 +1,12 @@
 var NAVTREEINDEX13 =
 {
+"d1/d9a/navigation_8qc.html#ab6d01fa32a875613a62f92c12a06bddd":[2,0,6,0,0,9,11],
+"d1/d9a/navigation_8qc.html#ac01256d836368157d941247266f21500":[2,0,6,0,0,9,19],
+"d1/d9a/navigation_8qc.html#ae3a851859c6cdf22d73f55bd7c81e419":[2,0,6,0,0,9,0],
+"d1/d9a/navigation_8qc.html#af3180b7544df1c7106b080ca79486a19":[2,0,6,0,0,9,8],
+"d1/d9a/navigation_8qc.html#af6010fb90061dda5f6b7b7fe8e172489":[2,0,6,0,0,9,4],
+"d1/d9a/navigation_8qc_source.html":[2,0,6,0,0,9],
+"d1/d9f/dialog__multiplayer_8qc.html":[2,0,5,4,86],
 "d1/d9f/dialog__multiplayer_8qc.html#af83637108621204488c5ae95da509066":[2,0,5,4,86,0],
 "d1/d9f/dialog__multiplayer_8qc_source.html":[2,0,5,4,86],
 "d1/da5/checkpoint_8qh.html":[2,0,1,14,6],
@@ -117,8 +124,8 @@ var NAVTREEINDEX13 =
 "d1/dad/server_2command_2vote_8qc.html#aa99c167d0e48d02a04c9a00b63521659":[2,0,6,1,16,27],
 "d1/dad/server_2command_2vote_8qc.html#aaa71782429a29dc1281807e966deaf7a":[2,0,6,1,16,33],
 "d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f":[2,0,6,1,16,15],
-"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
+"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
 "d1/dad/server_2command_2vote_8qc.html#ac42f429ba6ba4289fa7af9310f40a0a4":[2,0,6,1,16,14],
 "d1/dad/server_2command_2vote_8qc.html#aeb5a1f746f1d97c3cc25df64e6b0ef68":[2,0,6,1,16,7],
@@ -242,12 +249,5 @@ var NAVTREEINDEX13 =
 "d1/dbf/xonotic_2inputbox_8qc.html#ae04cc0cfd06ed8bebb51365bb3615619":[2,0,5,4,170,6],
 "d1/dbf/xonotic_2inputbox_8qc_source.html":[2,0,5,4,170],
 "d1/dc2/bugrigs_8qc.html":[2,0,1,9,0,3,2],
-"d1/dc2/bugrigs_8qc_source.html":[2,0,1,9,0,3,2],
-"d1/dc2/kill_8qc.html":[2,0,1,13,2,6],
-"d1/dc2/kill_8qc_source.html":[2,0,1,13,2,6],
-"d1/dc3/classEWheelAttack.html":[1,0,35],
-"d1/dc3/classEWheelAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,35,33],
-"d1/dc3/classEWheelAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,35,19],
-"d1/dc3/classEWheelAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,35,18],
-"d1/dc3/classEWheelAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,35,30]
+"d1/dc2/bugrigs_8qc_source.html":[2,0,1,9,0,3,2]
 };

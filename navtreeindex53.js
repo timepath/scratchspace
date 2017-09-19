@@ -1,5 +1,16 @@
 var NAVTREEINDEX53 =
 {
+"d6/d15/classXonoticWeaponsList.html#ac6094922668d013ada3893854eec6b0f":[1,0,253,23],
+"d6/d15/classXonoticWeaponsList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,253,58],
+"d6/d15/classXonoticWeaponsList.html#ac81cb5210dc34c90dc2a5c833b12333b":[1,0,253,13],
+"d6/d15/classXonoticWeaponsList.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,253,19],
+"d6/d15/classXonoticWeaponsList.html#ad11e51d8d098e35ba6a146c4af66460f":[1,0,253,12],
+"d6/d15/classXonoticWeaponsList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,253,42],
+"d6/d15/classXonoticWeaponsList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,253,47],
+"d6/d15/classXonoticWeaponsList.html#ad77e32004130154cab38df0030a152d8":[1,0,253,55],
+"d6/d15/classXonoticWeaponsList.html#ad885f67ec362592184264eb68835e7d4":[1,0,253,32],
+"d6/d15/classXonoticWeaponsList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,253,72],
+"d6/d15/classXonoticWeaponsList.html#adbc65a2089ef3278a098c80685b4b8a3":[1,0,253,50],
 "d6/d15/classXonoticWeaponsList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,253,34],
 "d6/d15/classXonoticWeaponsList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,253,76],
 "d6/d15/classXonoticWeaponsList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,253,39],
@@ -238,16 +249,5 @@ var NAVTREEINDEX53 =
 "d6/d27/scripting_8qc.html#ab67baa1ea1f9c2ed4b7bf4abc41a735e":[2,0,6,0,0,11,34],
 "d6/d27/scripting_8qc.html#ace2d699564fcf74a2de54f8bc8ecef70":[2,0,6,0,0,11,50],
 "d6/d27/scripting_8qc.html#ad20b1ffe17ad70c8617f6985b9496790":[2,0,6,0,0,11,35],
-"d6/d27/scripting_8qc.html#ad3c4b15f57c994f8234e90dc2e83eaf9":[2,0,6,0,0,11,17],
-"d6/d27/scripting_8qc.html#ad9813f267c29805c59c63570291ee481":[2,0,6,0,0,11,54],
-"d6/d27/scripting_8qc.html#adb6794201da19e372763b3efd9f1eb95":[2,0,6,0,0,11,65],
-"d6/d27/scripting_8qc.html#adda2333545504584164bb2a6e77cedf8":[2,0,6,0,0,11,56],
-"d6/d27/scripting_8qc.html#adec7d6926a55e6da0eef8580f04290f3":[2,0,6,0,0,11,7],
-"d6/d27/scripting_8qc.html#ae3d06146f572f9282813c1199061ad55":[2,0,6,0,0,11,30],
-"d6/d27/scripting_8qc.html#ae45866653ec08ae20bf0398f42023dc7":[2,0,6,0,0,11,15],
-"d6/d27/scripting_8qc.html#ae51779718899f0fd31b5ed9b7bf5b18f":[2,0,6,0,0,11,42],
-"d6/d27/scripting_8qc.html#ae93ffc9d4cde767476a0671258f9941a":[2,0,6,0,0,11,46],
-"d6/d27/scripting_8qc.html#aeddc4cf548ce185f61ee3610c8f9082d":[2,0,6,0,0,11,55],
-"d6/d27/scripting_8qc.html#aeeb6371fde76407df09c424fc8dd9a30":[2,0,6,0,0,11,58],
-"d6/d27/scripting_8qc.html#aef344820f4549eeb8122180a25f2e74c":[2,0,6,0,0,11,28]
+"d6/d27/scripting_8qc.html#ad3c4b15f57c994f8234e90dc2e83eaf9":[2,0,6,0,0,11,17]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX14 =
 {
+"d1/dc2/kill_8qc.html":[2,0,1,13,2,6],
+"d1/dc2/kill_8qc_source.html":[2,0,1,13,2,6],
+"d1/dc3/classEWheelAttack.html":[1,0,35],
+"d1/dc3/classEWheelAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,35,33],
+"d1/dc3/classEWheelAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,35,19],
+"d1/dc3/classEWheelAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,35,18],
+"d1/dc3/classEWheelAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,35,30],
 "d1/dc3/classEWheelAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,35,16],
 "d1/dc3/classEWheelAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,35,20],
 "d1/dc3/classEWheelAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,35,11],
@@ -34,8 +41,8 @@ var NAVTREEINDEX14 =
 "d1/dc3/classEWheelAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,35,25],
 "d1/dc3/classEWheelAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,35,17],
 "d1/dc3/classEWheelAttack.html#affb7df26d5cf18c594772961a8bbfed8":[1,0,35,28],
-"d1/dc9/common_2mutators_2mutator_2invincibleproj_2__mod_8inc.html":[2,0,1,9,0,12,0],
-"d1/dc9/common_2mutators_2mutator_2invincibleproj_2__mod_8inc_source.html":[2,0,1,9,0,12,0],
+"d1/dc9/common_2mutators_2mutator_2invincibleproj_2__mod_8inc.html":[2,0,1,9,0,13,0],
+"d1/dc9/common_2mutators_2mutator_2invincibleproj_2__mod_8inc_source.html":[2,0,1,9,0,13,0],
 "d1/dc9/expandnode_8qc.html":[2,0,6,4,6],
 "d1/dc9/expandnode_8qc.html#a0eedbf47f8c1205a64eb45dc215188cd":[2,0,6,4,6,2],
 "d1/dc9/expandnode_8qc.html#a17f22f5c369615535efc69d5ed3212bd":[2,0,6,4,6,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX14 =
 "d1/df3/weaponarenacheckbox_8qc.html#aa2fa38c72aeb87705fe3d7573b635b04":[2,0,5,4,230,1],
 "d1/df3/weaponarenacheckbox_8qc.html#ad30a4e87dca3ac2440f613806ce02a73":[2,0,5,4,230,2],
 "d1/df3/weaponarenacheckbox_8qc.html#add182d72741aa7b8b7ee6f187e24f990":[2,0,5,4,230,0],
-"d1/df3/weaponarenacheckbox_8qc.html#af7d835c4fce526b25918f49a8c33853c":[2,0,5,4,230,3],
-"d1/df3/weaponarenacheckbox_8qc_source.html":[2,0,5,4,230],
-"d1/df6/triggers_2trigger_2viewloc_8qc.html":[2,0,1,13,3,48],
-"d1/df6/triggers_2trigger_2viewloc_8qc_source.html":[2,0,1,13,3,48],
-"d1/df6/tuba_8qc.html":[2,0,1,16,0,36],
-"d1/df6/tuba_8qc_source.html":[2,0,1,16,0,36],
-"d1/df7/nil_8qh.html":[2,0,4,37],
-"d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44":[2,0,4,37,0]
+"d1/df3/weaponarenacheckbox_8qc.html#af7d835c4fce526b25918f49a8c33853c":[2,0,5,4,230,3]
 };

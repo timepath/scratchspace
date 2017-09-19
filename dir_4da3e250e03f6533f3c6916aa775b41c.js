@@ -9,6 +9,7 @@ var dir_4da3e250e03f6533f3c6916aa775b41c =
     [ "damagetext", "dir_fac6fab545f3e20d7e34223e8b0e96a7.html", "dir_fac6fab545f3e20d7e34223e8b0e96a7" ],
     [ "dodging", "dir_c650c86679b7009fd845cd654fc02400.html", "dir_c650c86679b7009fd845cd654fc02400" ],
     [ "doublejump", "dir_a174b36e7b82dfff8455c2e091a904df.html", "dir_a174b36e7b82dfff8455c2e091a904df" ],
+    [ "dynamic_handicap", "dir_b034ae1663f2d4b0ecb79eb4231a25e6.html", "dir_b034ae1663f2d4b0ecb79eb4231a25e6" ],
     [ "globalforces", "dir_fbc7c21f2d890ec40d2acda7df3acfd1.html", "dir_fbc7c21f2d890ec40d2acda7df3acfd1" ],
     [ "hook", "dir_e417185ead5e4d3394b43f6ad6b9840f.html", "dir_e417185ead5e4d3394b43f6ad6b9840f" ],
     [ "instagib", "dir_37818b0dce32e02a5f5a4a96cf829288.html", "dir_37818b0dce32e02a5f5a4a96cf829288" ],

@@ -33,6 +33,8 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "g_subs.qh", "d6/d93/g__subs_8qh.html", "d6/d93/g__subs_8qh" ],
     [ "g_world.qc", "db/dcc/g__world_8qc.html", "db/dcc/g__world_8qc" ],
     [ "g_world.qh", "d7/d97/g__world_8qh.html", "d7/d97/g__world_8qh" ],
+    [ "handicap.qc", "d9/d19/handicap_8qc.html", "d9/d19/handicap_8qc" ],
+    [ "handicap.qh", "d0/d91/handicap_8qh.html", "d0/d91/handicap_8qh" ],
     [ "impulse.qc", "d4/d53/server_2impulse_8qc.html", "d4/d53/server_2impulse_8qc" ],
     [ "impulse.qh", "d3/dd1/server_2impulse_8qh.html", "d3/dd1/server_2impulse_8qh" ],
     [ "ipban.qc", "d6/d95/ipban_8qc.html", "d6/d95/ipban_8qc" ],

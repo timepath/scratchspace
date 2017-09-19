@@ -1,5 +1,16 @@
 var NAVTREEINDEX57 =
 {
+"d6/d99/effectinfo__buffs_8inc.html#a0fbceecaf07c119250c3de389b206752":[2,0,1,2,10,14],
+"d6/d99/effectinfo__buffs_8inc.html#a1562dfdcbdabeccbcd866d6b4c9255d3":[2,0,1,2,10,9],
+"d6/d99/effectinfo__buffs_8inc.html#a1768af9142ced0783dd5a1d203b77e82":[2,0,1,2,10,3],
+"d6/d99/effectinfo__buffs_8inc.html#a18deccb2982ad44150442a641fca64f9":[2,0,1,2,10,24],
+"d6/d99/effectinfo__buffs_8inc.html#a269ec7c3574e9b543bba37a128b1ba06":[2,0,1,2,10,32],
+"d6/d99/effectinfo__buffs_8inc.html#a2afc1ace90f557ab1ee710b538cbe084":[2,0,1,2,10,33],
+"d6/d99/effectinfo__buffs_8inc.html#a2b5ec5224cee870dcc9ebe8e416baf5e":[2,0,1,2,10,7],
+"d6/d99/effectinfo__buffs_8inc.html#a2c4c71ac9365e97a0926008ead8cad99":[2,0,1,2,10,26],
+"d6/d99/effectinfo__buffs_8inc.html#a3089451ea1e15ebd07c331be0a1cf682":[2,0,1,2,10,13],
+"d6/d99/effectinfo__buffs_8inc.html#a3327762656498830acfa6e2df45f76aa":[2,0,1,2,10,1],
+"d6/d99/effectinfo__buffs_8inc.html#a415b8dc6bb6e6ffd2874bb111920ae9e":[2,0,1,2,10,10],
 "d6/d99/effectinfo__buffs_8inc.html#a4eb69c2d5a72055e664d44f0c79b4656":[2,0,1,2,10,21],
 "d6/d99/effectinfo__buffs_8inc.html#a61b7a42774a0e3771a8ca440ede84e6e":[2,0,1,2,10,2],
 "d6/d99/effectinfo__buffs_8inc.html#a658b660e63f555599c86f56b3c65ed2f":[2,0,1,2,10,16],
@@ -238,16 +249,5 @@ var NAVTREEINDEX57 =
 "d6/dce/sounds_2all_8inc.html#a464553556273ff587c1175bd457b90f8":[2,0,1,12,2,193],
 "d6/dce/sounds_2all_8inc.html#a4683320cfcd4f14d8fb287c772d5f4bf":[2,0,1,12,2,71],
 "d6/dce/sounds_2all_8inc.html#a47196f48b95f1ad2caecdf835064f335":[2,0,1,12,2,97],
-"d6/dce/sounds_2all_8inc.html#a4729dfa38384d937fb3a43f63cbaf7af":[2,0,1,12,2,5],
-"d6/dce/sounds_2all_8inc.html#a47bdace0503a08755087eeed6333fcdd":[2,0,1,12,2,55],
-"d6/dce/sounds_2all_8inc.html#a4802bacdb2fe2ee74b29d2e4298ed723":[2,0,1,12,2,53],
-"d6/dce/sounds_2all_8inc.html#a4907293e12e81edd32707d246f9e827a":[2,0,1,12,2,86],
-"d6/dce/sounds_2all_8inc.html#a4947391e4eb51339bfbaf835e7313140":[2,0,1,12,2,62],
-"d6/dce/sounds_2all_8inc.html#a4b9c66003156f0e64791ed1bb61544ef":[2,0,1,12,2,90],
-"d6/dce/sounds_2all_8inc.html#a4cc2f2d039f4913ac31f4dd796ee248f":[2,0,1,12,2,69],
-"d6/dce/sounds_2all_8inc.html#a4d0b03ce4c5d7849f3cb75410017a3a2":[2,0,1,12,2,125],
-"d6/dce/sounds_2all_8inc.html#a4ed055e7a1b25c2738df00fcbc7dfb40":[2,0,1,12,2,162],
-"d6/dce/sounds_2all_8inc.html#a4f761b69a9934934b64a76eafd3285c1":[2,0,1,12,2,29],
-"d6/dce/sounds_2all_8inc.html#a503629896ecac0ba302eac3fba34c01b":[2,0,1,12,2,49],
-"d6/dce/sounds_2all_8inc.html#a57a83df8419691d667a8813f9be83820":[2,0,1,12,2,81]
+"d6/dce/sounds_2all_8inc.html#a4729dfa38384d937fb3a43f63cbaf7af":[2,0,1,12,2,5]
 };

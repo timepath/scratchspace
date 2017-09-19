@@ -1,5 +1,12 @@
 var NAVTREEINDEX5 =
 {
+"d0/dae/classItem.html#a7b13cdc101cd55528465440586a004f6":[1,0,58,21],
+"d0/dae/classItem.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,58,6],
+"d0/dae/classItem.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,58,23],
+"d0/dae/classItem.html#a8b21e5939eeacdcdd0d48af03f27f91c":[1,0,58,9],
+"d0/dae/classItem.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,58,4],
+"d0/dae/classItem.html#aaecd1a365475c0274cd57e4b2a9ceae3":[1,0,58,5],
+"d0/dae/classItem.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,58,22],
 "d0/dae/classItem.html#ac6094922668d013ada3893854eec6b0f":[1,0,58,8],
 "d0/dae/classItem.html#ace6b33f60db102ae3b061eb3c0b93ec2":[1,0,58,14],
 "d0/dae/classItem.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,58,18],
@@ -79,8 +86,8 @@ var NAVTREEINDEX5 =
 "d0/dd2/sv__bloodloss_8qc_source.html":[2,0,1,9,0,0,2],
 "d0/dd4/item_2slider_8qh.html":[2,0,5,2,29],
 "d0/dd4/item_2slider_8qh_source.html":[2,0,5,2,29],
-"d0/dd6/multijump_8qc.html":[2,0,1,9,0,16,2],
-"d0/dd6/multijump_8qc_source.html":[2,0,1,9,0,16,2],
+"d0/dd6/multijump_8qc.html":[2,0,1,9,0,17,2],
+"d0/dd6/multijump_8qc_source.html":[2,0,1,9,0,17,2],
 "d0/dda/swamp_8qc.html":[2,0,1,13,3,44],
 "d0/dda/swamp_8qc.html#a1bbad0532ff3a8c1164dd96008c15cd8":[2,0,1,13,3,44,0],
 "d0/dda/swamp_8qc.html#a2043226a8ea99788969760d4c2a0e5ed":[2,0,1,13,3,44,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX5 =
 "d0/de4/sv__onslaught_8qc.html#a88fb43854a958a2495e6162fd2203cde":[2,0,1,3,0,1,16,71],
 "d0/de4/sv__onslaught_8qc.html#a8dd14a557e64e6ff852aab1c8156dad0":[2,0,1,3,0,1,16,12],
 "d0/de4/sv__onslaught_8qc.html#a8ff94c5e74a9a374a202b8afbd672613":[2,0,1,3,0,1,16,73],
-"d0/de4/sv__onslaught_8qc.html#a907641d258fc15209ee2d2546f8d9acc":[2,0,1,3,0,1,16,54],
-"d0/de4/sv__onslaught_8qc.html#a959c9f57864f49b2597a98967589d0e3":[2,0,1,3,0,1,16,38],
-"d0/de4/sv__onslaught_8qc.html#a9641ac13d9a9f9707f50e498b2be47c7":[2,0,1,3,0,1,16,101],
-"d0/de4/sv__onslaught_8qc.html#a96cbdbd16630fc476b6839b736fb6e37":[2,0,1,3,0,1,16,61],
-"d0/de4/sv__onslaught_8qc.html#a99e37b9eabae4c01aa5e3c98b70b8f94":[2,0,1,3,0,1,16,84],
-"d0/de4/sv__onslaught_8qc.html#a9ccae0ffb06f1d52c31e181de53a71d8":[2,0,1,3,0,1,16,96],
-"d0/de4/sv__onslaught_8qc.html#a9d2ee66e4d6dc89a52f994e45d589222":[2,0,1,3,0,1,16,58],
-"d0/de4/sv__onslaught_8qc.html#aa085a181dec5164bf6bf421e17b95ffd":[2,0,1,3,0,1,16,1]
+"d0/de4/sv__onslaught_8qc.html#a907641d258fc15209ee2d2546f8d9acc":[2,0,1,3,0,1,16,54]
 };

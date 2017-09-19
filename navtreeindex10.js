@@ -1,5 +1,12 @@
 var NAVTREEINDEX10 =
 {
+"d1/d55/classXonoticGameHUDSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,168,91],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,168,90],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,168,81],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,168,80],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a7fcbcb26e15456b0eda6b355678105f7":[1,0,168,70],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,168,56],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,168,49],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,168,75],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,168,68],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,168,74],
@@ -238,16 +245,9 @@ var NAVTREEINDEX10 =
 "d1/d5c/classMonster.html#abeccc8cb59830ccce5e4063448eb5ae6":[1,0,79,13],
 "d1/d5c/classMonster.html#adc5acc9cbff0fdce03b8253cfa102777":[1,0,79,7],
 "d1/d5c/classMonster.html#ae9ddb05fd7a217f0ed98336330353294":[1,0,79,8],
-"d1/d5e/common_2mutators_2mutator_2rocketminsta_2__mod_8qh.html":[2,0,1,9,0,25,1],
-"d1/d5e/common_2mutators_2mutator_2rocketminsta_2__mod_8qh_source.html":[2,0,1,9,0,25,1],
+"d1/d5e/common_2mutators_2mutator_2rocketminsta_2__mod_8qh.html":[2,0,1,9,0,26,1],
+"d1/d5e/common_2mutators_2mutator_2rocketminsta_2__mod_8qh_source.html":[2,0,1,9,0,26,1],
 "d1/d5f/item_2checkbox_8qh.html":[2,0,5,2,7],
 "d1/d5f/item_2checkbox_8qh_source.html":[2,0,5,2,7],
-"d1/d61/dialog__settings__input_8qc.html":[2,0,5,4,140],
-"d1/d61/dialog__settings__input_8qc.html#a1f23bee2ae8169b44afceb091226cf7d":[2,0,5,4,140,0],
-"d1/d61/dialog__settings__input_8qc.html#a822312f86da5bcf83a0a9c1534fca91a":[2,0,5,4,140,1],
-"d1/d61/dialog__settings__input_8qc.html#aeed00da76b00bcab14d093d5e1955885":[2,0,5,4,140,2],
-"d1/d61/dialog__settings__input_8qc_source.html":[2,0,5,4,140],
-"d1/d68/ui__damagetext_8qh.html":[2,0,1,9,0,6,9],
-"d1/d68/ui__damagetext_8qh_source.html":[2,0,1,9,0,6,9],
-"d1/d6a/lib_2warpzone_2common_8qc.html":[2,0,4,2,6]
+"d1/d61/dialog__settings__input_8qc.html":[2,0,5,4,140]
 };

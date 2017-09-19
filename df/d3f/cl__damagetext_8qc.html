@@ -1307,30 +1307,28 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        }</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../de/d0c/classDamageText.html">DamageText</a>, server_entity_index, entcs.origin, <span class="keyword">false</span>, health, armor, potential_damage, deathtype, friendlyfire));</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (autocvar_cl_damagetext_2d &amp;&amp; <a class="code" href="../../d9/d08/client_2defs_8qh.html#ad19574d03b3580d4e1fcb06490f68f59">spectatee_status</a> != -1) {</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="comment">// never show 2d damagetext when observing</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <span class="comment">// on some maps (hearth_v2, The_Yard), sometimes has_origin is false even though observers should know about all players</span></div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        <span class="comment">// it happens mostly with bots but occasionally also with players</span></div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <span class="comment">// screen coords only</span></div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> screen_pos = <a class="code" href="../../de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910">vec2</a>(vid_conwidth * autocvar_cl_damagetext_2d_pos.x, <a class="code" href="../../d9/d08/client_2defs_8qh.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a> * autocvar_cl_damagetext_2d_pos.y);</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#af7bdc370fb0d0ac3b8cd642fb275b608">g_drawables_2d</a>, it.instanceOfDamageText &amp;&amp; it.m_screen_coords &amp;&amp; it.m_group == server_entity_index, {</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            DamageText_update(it, screen_pos, it.m_healthdamage + health, it.m_armordamage + armor, it.m_potential_damage + potential_damage, deathtype);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        });</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="comment">// when hitting multiple enemies, dmgtext would overlap</span></div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <span class="keywordflow">if</span> (DamageText_screen_first == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            <a class="code" href="../../de/d0c/classDamageText.html">DamageText</a> dt = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../de/d0c/classDamageText.html">DamageText</a>, server_entity_index, screen_pos, <span class="keyword">true</span>, health, armor, potential_damage, deathtype, friendlyfire);</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            <a class="code" href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a>(dt);</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            DamageText_screen_first = dt;</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            DamageText_screen_count = 1;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            screen_pos += autocvar_cl_damagetext_2d_overlap_offset * DamageText_screen_count;</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            DamageText_screen_count++;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            <a class="code" href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../de/d0c/classDamageText.html">DamageText</a>, server_entity_index, screen_pos, <span class="keyword">true</span>, health, armor, potential_damage, deathtype, friendlyfire));</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        }</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    }</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;}</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="comment">// never show 2d damagetext when observing - might be a bug in .has_origin</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        <span class="comment">// screen coords only</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> screen_pos = <a class="code" href="../../de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910">vec2</a>(vid_conwidth * autocvar_cl_damagetext_2d_pos.x, <a class="code" href="../../d9/d08/client_2defs_8qh.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a> * autocvar_cl_damagetext_2d_pos.y);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#af7bdc370fb0d0ac3b8cd642fb275b608">g_drawables_2d</a>, it.instanceOfDamageText &amp;&amp; it.m_screen_coords &amp;&amp; it.m_group == server_entity_index, {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            DamageText_update(it, screen_pos, it.m_healthdamage + health, it.m_armordamage + armor, it.m_potential_damage + potential_damage, deathtype);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        });</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        <span class="comment">// when hitting multiple enemies, dmgtext would overlap</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="keywordflow">if</span> (DamageText_screen_first == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            <a class="code" href="../../de/d0c/classDamageText.html">DamageText</a> dt = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../de/d0c/classDamageText.html">DamageText</a>, server_entity_index, screen_pos, <span class="keyword">true</span>, health, armor, potential_damage, deathtype, friendlyfire);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <a class="code" href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a>(dt);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            DamageText_screen_first = dt;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            DamageText_screen_count = 1;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            screen_pos += autocvar_cl_damagetext_2d_overlap_offset * DamageText_screen_count;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            DamageText_screen_count++;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            <a class="code" href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../de/d0c/classDamageText.html">DamageText</a>, server_entity_index, screen_pos, <span class="keyword">true</span>, health, armor, potential_damage, deathtype, friendlyfire));</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        }</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    }</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;}</div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00167">intrusivelist.qh:167</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00108">main.qh:108</a></div></div>
 <div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00113">oo.qh:113</a></div></div>
@@ -1403,7 +1401,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_fac6fab545f3e20d7e34223e8b0e96a7.html">damagetext</a></li><li class="navelem"><a class="el" href="../../df/d3f/cl__damagetext_8qc.html">cl_damagetext.qc</a></li>
-    <li class="footer">Generated on Wed Sep 13 2017 02:59:39 for Xonotic by
+    <li class="footer">Generated on Tue Sep 19 2017 16:26:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

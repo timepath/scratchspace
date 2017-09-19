@@ -1,5 +1,12 @@
 var NAVTREEINDEX27 =
 {
+"d3/d5a/gamemode__keepaway_8qc.html#af8f0e411c8293afa501c76d2f9f5f904":[2,0,6,3,0,18,5],
+"d3/d5a/gamemode__keepaway_8qc_source.html":[2,0,6,3,0,18],
+"d3/d62/gamemode_8qh.html":[2,0,6,3,4],
+"d3/d62/gamemode_8qh.html#a11b3211b936bda74a10d59aeccd64d27":[2,0,6,3,4,4],
+"d3/d62/gamemode_8qh.html#a1f88b8101f349634f99fdc96d6f56956":[2,0,6,3,4,1],
+"d3/d62/gamemode_8qh.html#a2327dc2da88641da71915bf78f4cf406":[2,0,6,3,4,6],
+"d3/d62/gamemode_8qh.html#a4b82f3594ebb19e01348f179d0c7bd04":[2,0,6,3,4,0],
 "d3/d62/gamemode_8qh.html#a816e8b0a30b0fc5b02eac59c15c59fa6":[2,0,6,3,4,9],
 "d3/d62/gamemode_8qh.html#a94f7dfb485a988da25947983ebe8cd59":[2,0,6,3,4,3],
 "d3/d62/gamemode_8qh.html#a990a920632336f4aed89f1745434a203":[2,0,6,3,4,5],
@@ -16,8 +23,8 @@ var NAVTREEINDEX27 =
 "d3/d64/sv__model_8qh.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,16,1],
 "d3/d64/sv__model_8qh.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,16,2],
 "d3/d64/sv__model_8qh_source.html":[2,0,4,0,16],
-"d3/d68/common_2mutators_2mutator_2melee__only_2__mod_8qh.html":[2,0,1,9,0,14,1],
-"d3/d68/common_2mutators_2mutator_2melee__only_2__mod_8qh_source.html":[2,0,1,9,0,14,1],
+"d3/d68/common_2mutators_2mutator_2melee__only_2__mod_8qh.html":[2,0,1,9,0,15,1],
+"d3/d68/common_2mutators_2mutator_2melee__only_2__mod_8qh_source.html":[2,0,1,9,0,15,1],
 "d3/d68/relay_8qc.html":[2,0,1,13,3,34],
 "d3/d68/relay_8qc_source.html":[2,0,1,13,3,34],
 "d3/d69/menu_2xonotic_2campaign_8qc.html":[2,0,5,4,8],
@@ -242,12 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d78/mlrs__weapon_8qh.html#af9b071956bbf39470526c535695f01e5":[2,0,1,14,0,27,1],
 "d3/d78/mlrs__weapon_8qh_source.html":[2,0,1,14,0,27],
 "d3/d7a/levelwarp_8qh.html":[2,0,1,13,2,9],
-"d3/d7a/levelwarp_8qh_source.html":[2,0,1,13,2,9],
-"d3/d7c/common_2mutators_2mutator_2globalforces_2__mod_8qh.html":[2,0,1,9,0,9,1],
-"d3/d7c/common_2mutators_2mutator_2globalforces_2__mod_8qh_source.html":[2,0,1,9,0,9,1],
-"d3/d7f/onslaught_8qh.html":[2,0,1,3,0,1,11],
-"d3/d7f/onslaught_8qh_source.html":[2,0,1,3,0,1,11],
-"d3/d83/classXonoticHUDHealthArmorDialog.html":[1,0,181],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,181,32],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,181,11]
+"d3/d7a/levelwarp_8qh_source.html":[2,0,1,13,2,9]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX19 =
 {
+"d2/d88/bigcommandbutton_8qh_source.html":[2,0,5,4,5],
+"d2/d88/classDomination.html":[1,0,28],
+"d2/d88/classDomination.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,28,1],
+"d2/d88/classDomination.html#a353db82280437c3b38f0ad1934a7d666":[1,0,28,15],
+"d2/d88/classDomination.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,28,12],
+"d2/d88/classDomination.html#a4db6ad0ff6ca1f3b5bdc0cb58c9e3f1e":[1,0,28,10],
+"d2/d88/classDomination.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,28,8],
 "d2/d88/classDomination.html#a7880c3511ceeabb277b860085f1073ee":[1,0,28,11],
 "d2/d88/classDomination.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,28,2],
 "d2/d88/classDomination.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,28,14],
@@ -19,8 +26,8 @@ var NAVTREEINDEX19 =
 "d2/d94/xonotic_2tab_8qc.html":[2,0,5,4,220],
 "d2/d94/xonotic_2tab_8qc.html#a13fe5728a418b314ab87bb874e42231d":[2,0,5,4,220,0],
 "d2/d94/xonotic_2tab_8qc_source.html":[2,0,5,4,220],
-"d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc.html":[2,0,1,9,0,10,0],
-"d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc_source.html":[2,0,1,9,0,10,0],
+"d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc.html":[2,0,1,9,0,11,0],
+"d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc_source.html":[2,0,1,9,0,11,0],
 "d2/d9b/common_2effects_2qc_2__mod_8qh.html":[2,0,1,2,0,1],
 "d2/d9b/common_2effects_2qc_2__mod_8qh_source.html":[2,0,1,2,0,1],
 "d2/d9b/jumppads_8qc.html":[2,0,1,13,3,22],
@@ -242,12 +249,5 @@ var NAVTREEINDEX19 =
 "d2/db1/movetypes_8qc.html#ab024873d80d2f0654e96629b7b47fd6a":[2,0,1,11,0,5,16],
 "d2/db1/movetypes_8qc.html#ab02f268b6773e429b35626cdb4ce0dff":[2,0,1,11,0,5,22],
 "d2/db1/movetypes_8qc.html#ab5d02d1d7a51316be25cc82291fc5787":[2,0,1,11,0,5,35],
-"d2/db1/movetypes_8qc.html#abc94399163b20fbffafbcdaeda0f8db5":[2,0,1,11,0,5,20],
-"d2/db1/movetypes_8qc.html#ad44fedd3ce1abb0e9b70a3e71b623674":[2,0,1,11,0,5,32],
-"d2/db1/movetypes_8qc.html#ad797154b1325fa6f3b8aa5d2224d77b5":[2,0,1,11,0,5,17],
-"d2/db1/movetypes_8qc.html#aec8e38c6a6af79893d641f0ae53a2042":[2,0,1,11,0,5,8],
-"d2/db1/movetypes_8qc.html#af4e305a34cfe09004c87a91e2461330c":[2,0,1,11,0,5,24],
-"d2/db1/movetypes_8qc.html#afa4cf35feb7ab8ba2af8f8e123ad7d56":[2,0,1,11,0,5,34],
-"d2/db1/movetypes_8qc_source.html":[2,0,1,11,0,5],
-"d2/db4/string_8qh.html":[2,0,4,56]
+"d2/db1/movetypes_8qc.html#abc94399163b20fbffafbcdaeda0f8db5":[2,0,1,11,0,5,20]
 };
