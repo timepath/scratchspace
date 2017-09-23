@@ -24,7 +24,7 @@ var classHagar =
     [ "wr_update", "d4/d87/classHagar.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d4/d87/classHagar.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d4/d87/classHagar.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
-    [ "ammo_field", "d4/d87/classHagar.html#a229188580884f68236312a9bbf6f7c19", null ],
+    [ "ammo_type", "d4/d87/classHagar.html#af180c89aed712c19226e9bf4c91941b3", null ],
     [ "bot_pickupbasevalue", "d4/d87/classHagar.html#aa73cd57b3321d3f2fea34b4e62dbd7b6", null ],
     [ "impulse", "d4/d87/classHagar.html#a766b99c641b6edf45fc811b21747a8f5", null ],
     [ "m_id", "d4/d87/classHagar.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],

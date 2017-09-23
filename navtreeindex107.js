@@ -1,5 +1,10 @@
 var NAVTREEINDEX107 =
 {
+"dc/d20/modeleffects_8qc.html":[2,0,1,2,0,12],
+"dc/d20/modeleffects_8qc_source.html":[2,0,1,2,0,12],
+"dc/d23/classVehicle.html":[1,0,131],
+"dc/d23/classVehicle.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,131,10],
+"dc/d23/classVehicle.html#a094dc470383a4158c584ddf7b130dc67":[1,0,131,20],
 "dc/d23/classVehicle.html#a172a3ade8bb12e9ae30989346d96b805":[1,0,131,18],
 "dc/d23/classVehicle.html#a23b5d8a4e07000e6d08fe727bdf23471":[1,0,131,16],
 "dc/d23/classVehicle.html#a269c42fb128fc5d56fac3abb21fbcdca":[1,0,131,3],
@@ -85,7 +90,6 @@ var NAVTREEINDEX107 =
 "dc/d30/classBallStealer.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,6,1],
 "dc/d30/classBallStealer.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,6,15],
 "dc/d30/classBallStealer.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,6,9],
-"dc/d30/classBallStealer.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,6,24],
 "dc/d30/classBallStealer.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,6,8],
 "dc/d30/classBallStealer.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,6,2],
 "dc/d30/classBallStealer.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,6,34],
@@ -99,6 +103,7 @@ var NAVTREEINDEX107 =
 "dc/d30/classBallStealer.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,6,23],
 "dc/d30/classBallStealer.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,6,14],
 "dc/d30/classBallStealer.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,6,12],
+"dc/d30/classBallStealer.html#aade624faa82ff26da9e51f1be39be298":[1,0,6,24],
 "dc/d30/classBallStealer.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,6,5],
 "dc/d30/classBallStealer.html#abbfb3f4a8fc35838a546bdf4d7ee7799":[1,0,6,32],
 "dc/d30/classBallStealer.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,6,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX107 =
 "dc/d3d/container_8qc.html#afb93c24343e73a71eed73fcdf4de2a3f":[2,0,5,2,8,13],
 "dc/d3d/container_8qc.html#afe20d7dbb55ca5539e40e3f850d81f15":[2,0,5,2,8,6],
 "dc/d3d/container_8qc_source.html":[2,0,5,2,8],
-"dc/d3d/csqcmodel__hooks_8qc.html":[2,0,0,12],
-"dc/d3d/csqcmodel__hooks_8qc.html#a03e325439a3c7e40dda1730cd4251a4c":[2,0,0,12,1],
-"dc/d3d/csqcmodel__hooks_8qc.html#a0f179309458eca2fb0e79ee5a321e603":[2,0,0,12,53],
-"dc/d3d/csqcmodel__hooks_8qc.html#a0f670f407a9b5fc0eacd05397b50271d":[2,0,0,12,46],
-"dc/d3d/csqcmodel__hooks_8qc.html#a10c749ede6f047340b6fdb31bc63c728":[2,0,0,12,37],
-"dc/d3d/csqcmodel__hooks_8qc.html#a10da39b48aa5194f2a1bfb05ad5d8a7e":[2,0,0,12,23]
+"dc/d3d/csqcmodel__hooks_8qc.html":[2,0,0,12]
 };

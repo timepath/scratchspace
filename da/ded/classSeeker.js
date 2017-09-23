@@ -24,7 +24,7 @@ var classSeeker =
     [ "wr_update", "da/ded/classSeeker.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "da/ded/classSeeker.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "da/ded/classSeeker.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
-    [ "ammo_field", "da/ded/classSeeker.html#a4fe779db2506a015632fa30924db6531", null ],
+    [ "ammo_type", "da/ded/classSeeker.html#af2401c8ad318d37b3f937d00928177f4", null ],
     [ "bot_pickupbasevalue", "da/ded/classSeeker.html#aa2346884e39312c506a4dc501439286a", null ],
     [ "impulse", "da/ded/classSeeker.html#a17100988ab3f606059c96ecc44e8a3b0", null ],
     [ "m_id", "da/ded/classSeeker.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],

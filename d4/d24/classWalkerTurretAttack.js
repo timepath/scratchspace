@@ -24,7 +24,7 @@ var classWalkerTurretAttack =
     [ "wr_update", "d4/d24/classWalkerTurretAttack.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d4/d24/classWalkerTurretAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d4/d24/classWalkerTurretAttack.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
-    [ "ammo_field", "d4/d24/classWalkerTurretAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe", null ],
+    [ "ammo_type", "d4/d24/classWalkerTurretAttack.html#aade624faa82ff26da9e51f1be39be298", null ],
     [ "bot_pickupbasevalue", "d4/d24/classWalkerTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d4/d24/classWalkerTurretAttack.html#ad6e136b07bb01011dc175472bcd35295", null ],
     [ "m_id", "d4/d24/classWalkerTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],

@@ -1,6 +1,6 @@
 var client_2hud_2panel_2ammo_8qc =
 [
-    [ "DrawAmmoItem", "dd/d85/client_2hud_2panel_2ammo_8qc.html#a6af13b0895f71c1f00adf36611340085", null ],
+    [ "DrawAmmoItem", "dd/d85/client_2hud_2panel_2ammo_8qc.html#ae7ffb410f94aaa85f977803dd74d1f71", null ],
     [ "DrawAmmoNades", "dd/d85/client_2hud_2panel_2ammo_8qc.html#a7d3e5ccc6f5b90cd069a6d3aba3cfbd2", null ],
     [ "DrawNadeProgressBar", "dd/d85/client_2hud_2panel_2ammo_8qc.html#ad637fa0fc1c06d190bf1b831f4c12846", null ],
     [ "HUD_Ammo", "dd/d85/client_2hud_2panel_2ammo_8qc.html#a721184b345adabdd99104e5c380dc2cd", null ],

@@ -26,6 +26,7 @@ var searchData=
   ['error',['error',['../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209',1,'error():&#160;pre.qh'],['../d3/dd0/self_8qh.html#a259aac00ed43fd7ac58196b770963525',1,'error():&#160;self.qh']]],
   ['ev_5fabortspeedrun',['EV_AbortSpeedrun',['../d6/ddd/server_2mutators_2events_8qh.html#ac7945d063c38522d5bd947d1151a13f6',1,'events.qh']]],
   ['ev_5faccuracytargetvalid',['EV_AccuracyTargetValid',['../d6/ddd/server_2mutators_2events_8qh.html#aef3782f56bf67174ccf7a9abff6fdafc',1,'events.qh']]],
+  ['ev_5faddedplayerscore',['EV_AddedPlayerScore',['../d6/ddd/server_2mutators_2events_8qh.html#a49a3fd530833a4ce16db23805cc40c00',1,'events.qh']]],
   ['ev_5faddplayerscore',['EV_AddPlayerScore',['../d6/ddd/server_2mutators_2events_8qh.html#a6321183452c7a8108daa4358b7dbfbc1',1,'events.qh']]],
   ['ev_5fallowmobbutcher',['EV_AllowMobButcher',['../d6/ddd/server_2mutators_2events_8qh.html#a05f54275e33dee1147c8c5811d03e261',1,'events.qh']]],
   ['ev_5fallowmobspawning',['EV_AllowMobSpawning',['../d6/ddd/server_2mutators_2events_8qh.html#acb6b40b7e533c6c5161ebc3473365bc9',1,'events.qh']]],

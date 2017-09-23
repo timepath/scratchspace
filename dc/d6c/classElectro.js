@@ -24,7 +24,7 @@ var classElectro =
     [ "wr_update", "dc/d6c/classElectro.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "dc/d6c/classElectro.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "dc/d6c/classElectro.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
-    [ "ammo_field", "dc/d6c/classElectro.html#a542cefdc1731e512acff35af4117c5ae", null ],
+    [ "ammo_type", "dc/d6c/classElectro.html#accfc52c518a1695331aeeaf903aa40fa", null ],
     [ "bot_pickupbasevalue", "dc/d6c/classElectro.html#ab23bedb49b0c3c08b34346e22100aced", null ],
     [ "impulse", "dc/d6c/classElectro.html#ab3fe632d56cc6297d21df094350f77d9", null ],
     [ "m_id", "dc/d6c/classElectro.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],

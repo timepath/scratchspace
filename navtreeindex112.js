@@ -1,5 +1,10 @@
 var NAVTREEINDEX112 =
 {
+"dc/dc6/server_2miscfunctions_8qc.html#ae79a7e9cd4d8835118ccb584fe645e6f":[2,0,6,45,0],
+"dc/dc6/server_2miscfunctions_8qc.html#af695d661864cdf0f78273b0a8717a1e9":[2,0,6,45,1],
+"dc/dc6/server_2miscfunctions_8qc_source.html":[2,0,6,45],
+"dc/dc7/projectile_8qh.html":[2,0,0,3,3],
+"dc/dc7/projectile_8qh.html#a0425d4c4b6b30c19a7f206ec3b83406b":[2,0,0,3,3,4],
 "dc/dc7/projectile_8qh.html#a07d63755334d8ccb23787ee7001d16d1":[2,0,0,3,3,5],
 "dc/dc7/projectile_8qh.html#a1377cbecee41e6bb05e56a90280ff3eb":[2,0,0,3,3,9],
 "dc/dc7/projectile_8qh.html#a66ebaab056a734dac49a78d19be21d71":[2,0,0,3,3,8],
@@ -175,13 +180,13 @@ var NAVTREEINDEX112 =
 "dc/de5/classWeapon.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,136,11],
 "dc/de5/classWeapon.html#a4337268c8cad6836bae8efd4a8835070":[1,0,136,21],
 "dc/de5/classWeapon.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,136,1],
+"dc/de5/classWeapon.html#a469800bbb95ee106d8b555dff1c9d8e4":[1,0,136,24],
 "dc/de5/classWeapon.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,136,15],
 "dc/de5/classWeapon.html#a4c93f155e978ff2356e110a617ab3c39":[1,0,136,33],
 "dc/de5/classWeapon.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,136,9],
 "dc/de5/classWeapon.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,136,8],
 "dc/de5/classWeapon.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,136,2],
 "dc/de5/classWeapon.html#a7125c4dfb606547a2f8d9ea97f72fbc9":[1,0,136,29],
-"dc/de5/classWeapon.html#a768d3992198c4b743dbab2cff9529e99":[1,0,136,24],
 "dc/de5/classWeapon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,136,27],
 "dc/de5/classWeapon.html#a80fa9a65e19370473a29baebc04d0626":[1,0,136,4],
 "dc/de5/classWeapon.html#a89d6c6ec494acffc4fa8fa1a8855f16d":[1,0,136,37],
@@ -244,10 +249,5 @@ var NAVTREEINDEX112 =
 "dc/de9/classXonoticRootDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,225,57],
 "dc/de9/classXonoticRootDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,225,34],
 "dc/de9/classXonoticRootDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,225,42],
-"dc/de9/classXonoticRootDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,225,64],
-"dc/de9/classXonoticRootDialog.html#a67d95732d49da439095483530aca8804":[1,0,225,53],
-"dc/de9/classXonoticRootDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,225,76],
-"dc/de9/classXonoticRootDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,225,18],
-"dc/de9/classXonoticRootDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,225,14],
-"dc/de9/classXonoticRootDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,225,66]
+"dc/de9/classXonoticRootDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,225,64]
 };

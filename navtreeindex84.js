@@ -1,5 +1,10 @@
 var NAVTREEINDEX84 =
 {
+"d9/d58/classXonoticResolutionSlider.html#af6491199d7c16232c6ec828661a64ecf":[1,0,224,12],
+"d9/d58/classXonoticResolutionSlider.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,224,36],
+"d9/d58/classXonoticResolutionSlider.html#af9fddf9420dfbf92a4fb716acfaa260c":[1,0,224,59],
+"d9/d58/classXonoticResolutionSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,224,89],
+"d9/d58/classXonoticResolutionSlider.html#afc9428d371ed63dd0316db5558e81d30":[1,0,224,91],
 "d9/d58/classXonoticResolutionSlider.html#afdcf1fb79903f747cda494b27206526b":[1,0,224,9],
 "d9/d58/classXonoticResolutionSlider.html#afffeff4df8e2074a17dc285c275222c8":[1,0,224,30],
 "d9/d5b/struct_8qh.html":[2,0,4,57],
@@ -203,11 +208,11 @@ var NAVTREEINDEX84 =
 "d9/d6e/classTuba.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,128,11],
 "d9/d6e/classTuba.html#a4337268c8cad6836bae8efd4a8835070":[1,0,128,21],
 "d9/d6e/classTuba.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,128,1],
+"d9/d6e/classTuba.html#a469800bbb95ee106d8b555dff1c9d8e4":[1,0,128,24],
 "d9/d6e/classTuba.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,128,15],
 "d9/d6e/classTuba.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,128,9],
 "d9/d6e/classTuba.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,128,8],
 "d9/d6e/classTuba.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,128,2],
-"d9/d6e/classTuba.html#a768d3992198c4b743dbab2cff9529e99":[1,0,128,24],
 "d9/d6e/classTuba.html#a7b3d8a053c1a4a908b0916aa37c84305":[1,0,128,28],
 "d9/d6e/classTuba.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,128,27],
 "d9/d6e/classTuba.html#a80fa9a65e19370473a29baebc04d0626":[1,0,128,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX84 =
 "d9/d76/common_2__all_8inc.html#aa7b16301ef62cf95937fe7cc30f29366":[2,0,1,17,0],
 "d9/d76/common_2__all_8inc_source.html":[2,0,1,17],
 "d9/d76/timer_8qh.html":[2,0,0,1,0,37],
-"d9/d76/timer_8qh_source.html":[2,0,0,1,0,37],
-"d9/d7a/dialog__hudpanel__powerups_8qh.html":[2,0,5,4,65],
-"d9/d7a/dialog__hudpanel__powerups_8qh_source.html":[2,0,5,4,65],
-"d9/d7e/include_8qh.html":[2,0,1,13,7],
-"d9/d7e/include_8qh_source.html":[2,0,1,13,7],
-"d9/d7f/gibs_8qc.html":[2,0,1,2,0,6]
+"d9/d76/timer_8qh_source.html":[2,0,0,1,0,37]
 };

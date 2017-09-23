@@ -1,5 +1,11 @@
 var NAVTREEINDEX115 =
 {
+"dd/d43/cl__turrets_8qc_source.html":[2,0,1,14,7],
+"dd/d43/gametypelist_8qh.html":[2,0,5,4,165],
+"dd/d43/gametypelist_8qh.html#a6dec0dd03e2658b2ff6cb6a7a7ae0a88":[2,0,5,4,165,1],
+"dd/d43/gametypelist_8qh_source.html":[2,0,5,4,165],
+"dd/d45/sv__damagetext_8qh.html":[2,0,1,9,0,6,7],
+"dd/d45/sv__damagetext_8qh_source.html":[2,0,1,9,0,6,7],
 "dd/d46/dialog__multiplayer_8qh.html":[2,0,5,4,87],
 "dd/d46/dialog__multiplayer_8qh_source.html":[2,0,5,4,87],
 "dd/d49/targettrigger_8qh.html":[2,0,1,14,14],
@@ -243,11 +249,5 @@ var NAVTREEINDEX115 =
 "dd/d73/classMachineGun.html#a80fa9a65e19370473a29baebc04d0626":[1,0,68,4],
 "dd/d73/classMachineGun.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,68,6],
 "dd/d73/classMachineGun.html#a9159b466879abe9b0896a8489e1473d8":[1,0,68,30],
-"dd/d73/classMachineGun.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,68,13],
-"dd/d73/classMachineGun.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,68,0],
-"dd/d73/classMachineGun.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,68,23],
-"dd/d73/classMachineGun.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,68,14],
-"dd/d73/classMachineGun.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,68,12],
-"dd/d73/classMachineGun.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,68,5],
-"dd/d73/classMachineGun.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,68,10]
+"dd/d73/classMachineGun.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,68,13]
 };

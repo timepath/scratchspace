@@ -24,7 +24,7 @@ var classVaporizer =
     [ "wr_update", "d5/d99/classVaporizer.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d5/d99/classVaporizer.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d5/d99/classVaporizer.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
-    [ "ammo_field", "d5/d99/classVaporizer.html#a6cf9614b4d575c2d88dc55fb5b913c60", null ],
+    [ "ammo_type", "d5/d99/classVaporizer.html#a69e6ed7b03831ed7050fb091196cd57b", null ],
     [ "bot_pickupbasevalue", "d5/d99/classVaporizer.html#a1b01884770cf782e1003225a352033dd", null ],
     [ "impulse", "d5/d99/classVaporizer.html#a12b0ba95c9e30c47108c50ac2f2b3901", null ],
     [ "m_id", "d5/d99/classVaporizer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],

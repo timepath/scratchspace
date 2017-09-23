@@ -24,7 +24,7 @@ var classPortoLaunch =
     [ "wr_update", "d2/dd3/classPortoLaunch.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d2/dd3/classPortoLaunch.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d2/dd3/classPortoLaunch.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
-    [ "ammo_field", "d2/dd3/classPortoLaunch.html#a6df6ebff3e6de443f7a0134c518a8ffe", null ],
+    [ "ammo_type", "d2/dd3/classPortoLaunch.html#aade624faa82ff26da9e51f1be39be298", null ],
     [ "bot_pickupbasevalue", "d2/dd3/classPortoLaunch.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d2/dd3/classPortoLaunch.html#a72c52c99bf51ebd4f752c41306ada77e", null ],
     [ "m_id", "d2/dd3/classPortoLaunch.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],

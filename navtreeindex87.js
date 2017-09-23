@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"d9/dce/classHeavyMachineGun.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,45,27],
+"d9/dce/classHeavyMachineGun.html#a80fa9a65e19370473a29baebc04d0626":[1,0,45,4],
+"d9/dce/classHeavyMachineGun.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,45,6],
+"d9/dce/classHeavyMachineGun.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,45,13],
 "d9/dce/classHeavyMachineGun.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,45,0],
 "d9/dce/classHeavyMachineGun.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,45,23],
 "d9/dce/classHeavyMachineGun.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,45,14],
@@ -14,6 +18,7 @@ var NAVTREEINDEX87 =
 "d9/dce/classHeavyMachineGun.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,45,3],
 "d9/dce/classHeavyMachineGun.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,45,35],
 "d9/dce/classHeavyMachineGun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,45,22],
+"d9/dce/classHeavyMachineGun.html#ade74e29f52ce65312917012c3539df0a":[1,0,45,24],
 "d9/dce/classHeavyMachineGun.html#ae85b2effcc32d78fd14e287c3e5d1224":[1,0,45,28],
 "d9/dce/classHeavyMachineGun.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,45,17],
 "d9/dce/classHeavyMachineGun.html#af7a8449346f3b6d1f5b3bcd3c8b52745":[1,0,45,30],
@@ -244,10 +249,5 @@ var NAVTREEINDEX87 =
 "d9/deb/classXonoticHUDTimerDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,194,15],
 "d9/deb/classXonoticHUDTimerDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,194,39],
 "d9/deb/classXonoticHUDTimerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,194,2],
-"d9/deb/classXonoticHUDTimerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,194,37],
-"d9/deb/classXonoticHUDTimerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,194,41],
-"d9/deb/classXonoticHUDTimerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,194,86],
-"d9/deb/classXonoticHUDTimerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,194,10],
-"d9/deb/classXonoticHUDTimerDialog.html#afdf6ccb6fb63aba4d853217aba0b06cc":[1,0,194,69],
-"d9/df0/weaponstats_8qh.html":[2,0,6,5,19]
+"d9/deb/classXonoticHUDTimerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,194,37]
 };

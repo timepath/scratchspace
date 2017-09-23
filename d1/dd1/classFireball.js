@@ -24,7 +24,7 @@ var classFireball =
     [ "wr_update", "d1/dd1/classFireball.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d1/dd1/classFireball.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d1/dd1/classFireball.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
-    [ "ammo_field", "d1/dd1/classFireball.html#a768d3992198c4b743dbab2cff9529e99", null ],
+    [ "ammo_type", "d1/dd1/classFireball.html#a469800bbb95ee106d8b555dff1c9d8e4", null ],
     [ "bot_pickupbasevalue", "d1/dd1/classFireball.html#a6d2c84f0a32544542dfbb29f8a078ef6", null ],
     [ "impulse", "d1/dd1/classFireball.html#af6941bfadd7f32ced9be9b65094f2925", null ],
     [ "m_id", "d1/dd1/classFireball.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],

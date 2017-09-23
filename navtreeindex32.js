@@ -1,5 +1,15 @@
 var NAVTREEINDEX32 =
 {
+"d3/de9/damageeffects_8qh.html":[2,0,1,2,0,5],
+"d3/de9/damageeffects_8qh_source.html":[2,0,1,2,0,5],
+"d3/dea/lib_2matrix_2__mod_8qh.html":[2,0,4,1,1],
+"d3/dea/lib_2matrix_2__mod_8qh_source.html":[2,0,4,1,1],
+"d3/deb/dialog__multiplayer__media_8qh.html":[2,0,5,4,99],
+"d3/deb/dialog__multiplayer__media_8qh.html#a048e9d55578bbd55fa3acb96f76ad670":[2,0,5,4,99,1],
+"d3/deb/dialog__multiplayer__media_8qh_source.html":[2,0,5,4,99],
+"d3/def/sv__turrets_8qc.html":[2,0,1,14,11],
+"d3/def/sv__turrets_8qc_source.html":[2,0,1,14,11],
+"d3/df2/classDualPlasmaTurret.html":[1,0,29],
 "d3/df2/classDualPlasmaTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,29,6],
 "d3/df2/classDualPlasmaTurret.html#a3144102787442a58055180121b5e9536":[1,0,29,13],
 "d3/df2/classDualPlasmaTurret.html#a34980e66ed09a68af3e3fa9e204a18ca":[1,0,29,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX32 =
 "d4/d0a/classXonoticMiscSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,207,85],
 "d4/d0a/classXonoticMiscSettingsTab.html#a0d70b85b390673511ff2dd8e70ae9154":[1,0,207,61],
 "d4/d0a/classXonoticMiscSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,207,82],
-"d4/d0a/classXonoticMiscSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,207,52],
-"d4/d0a/classXonoticMiscSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,207,30],
-"d4/d0a/classXonoticMiscSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,207,72],
-"d4/d0a/classXonoticMiscSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,207,11],
-"d4/d0a/classXonoticMiscSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,207,73],
-"d4/d0a/classXonoticMiscSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,207,4],
-"d4/d0a/classXonoticMiscSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,207,47],
-"d4/d0a/classXonoticMiscSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,207,25],
-"d4/d0a/classXonoticMiscSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,207,53],
-"d4/d0a/classXonoticMiscSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,207,33],
-"d4/d0a/classXonoticMiscSettingsTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,207,23]
+"d4/d0a/classXonoticMiscSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,207,52]
 };

@@ -24,7 +24,7 @@ var classTeslaCoilTurretAttack =
     [ "wr_update", "dd/d0f/classTeslaCoilTurretAttack.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "dd/d0f/classTeslaCoilTurretAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "dd/d0f/classTeslaCoilTurretAttack.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
-    [ "ammo_field", "dd/d0f/classTeslaCoilTurretAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe", null ],
+    [ "ammo_type", "dd/d0f/classTeslaCoilTurretAttack.html#aade624faa82ff26da9e51f1be39be298", null ],
     [ "bot_pickupbasevalue", "dd/d0f/classTeslaCoilTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "dd/d0f/classTeslaCoilTurretAttack.html#ae55baa4968bc26696f50174e6d0cb215", null ],
     [ "m_id", "dd/d0f/classTeslaCoilTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],

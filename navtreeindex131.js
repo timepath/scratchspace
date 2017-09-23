@@ -1,5 +1,11 @@
 var NAVTREEINDEX131 =
 {
+"df/d6e/classXonoticSingleplayerDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,237,85],
+"df/d6e/classXonoticSingleplayerDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,237,52],
+"df/d6e/classXonoticSingleplayerDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,237,64],
+"df/d6e/classXonoticSingleplayerDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,237,88],
+"df/d6e/classXonoticSingleplayerDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,237,32],
+"df/d6e/classXonoticSingleplayerDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,237,63],
 "df/d6e/classXonoticSingleplayerDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,237,56],
 "df/d6e/classXonoticSingleplayerDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,237,92],
 "df/d6e/classXonoticSingleplayerDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,237,9],
@@ -100,7 +106,6 @@ var NAVTREEINDEX131 =
 "df/d78/classPhaserTurretAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,91,1],
 "df/d78/classPhaserTurretAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,91,15],
 "df/d78/classPhaserTurretAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,91,9],
-"df/d78/classPhaserTurretAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,91,24],
 "df/d78/classPhaserTurretAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,91,8],
 "df/d78/classPhaserTurretAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,91,2],
 "df/d78/classPhaserTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,91,34],
@@ -113,6 +118,7 @@ var NAVTREEINDEX131 =
 "df/d78/classPhaserTurretAttack.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,91,23],
 "df/d78/classPhaserTurretAttack.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,91,14],
 "df/d78/classPhaserTurretAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,91,12],
+"df/d78/classPhaserTurretAttack.html#aade624faa82ff26da9e51f1be39be298":[1,0,91,24],
 "df/d78/classPhaserTurretAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,91,5],
 "df/d78/classPhaserTurretAttack.html#abc49b591bc93ef022482732ea99a0d75":[1,0,91,31],
 "df/d78/classPhaserTurretAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,91,10],
@@ -175,8 +181,8 @@ var NAVTREEINDEX131 =
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,2,20],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,2,30],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,2,27],
 "df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7":[2,0,0,0,2,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX131 =
 "df/d92/classXonoticWinnerDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,254,76],
 "df/d92/classXonoticWinnerDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,254,18],
 "df/d92/classXonoticWinnerDialog.html#a71dfe2b7e476fea9b91f6b6f4ff79bfc":[1,0,254,24],
-"df/d92/classXonoticWinnerDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,254,14],
-"df/d92/classXonoticWinnerDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,254,66],
-"df/d92/classXonoticWinnerDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,254,88],
-"df/d92/classXonoticWinnerDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,254,80],
-"df/d92/classXonoticWinnerDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,254,79],
-"df/d92/classXonoticWinnerDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,254,52],
-"df/d92/classXonoticWinnerDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,254,45]
+"df/d92/classXonoticWinnerDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,254,14]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX127 =
 {
+"de/dbd/banning_8qh.html#ad6f39c7b5f08dca03286f322a3d5ebc0":[2,0,6,1,3,7],
+"de/dbd/banning_8qh.html#ae97a573397acb70dbe8fe34e943591ca":[2,0,6,1,3,8],
+"de/dbd/banning_8qh_source.html":[2,0,6,1,3],
+"de/dbe/client_2__mod_8inc.html":[2,0,0,4],
+"de/dbe/client_2__mod_8inc_source.html":[2,0,0,4],
+"de/dbe/mage_8qc.html":[2,0,1,8,0,2],
 "de/dbe/mage_8qc_source.html":[2,0,1,8,0,2],
 "de/dc0/checkbox__slider__invalid_8qc.html":[2,0,5,4,14],
 "de/dc0/checkbox__slider__invalid_8qc.html#a13daabaf98ae505a7a4fa8435c9466f0":[2,0,5,4,14,3],
@@ -49,7 +55,6 @@ var NAVTREEINDEX127 =
 "de/dcb/classMageSpike.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,72,15],
 "de/dcb/classMageSpike.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,72,9],
 "de/dcb/classMageSpike.html#a6cf7fae6c0116c7d59414a7b1ab474e5":[1,0,72,26],
-"de/dcb/classMageSpike.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,72,24],
 "de/dcb/classMageSpike.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,72,8],
 "de/dcb/classMageSpike.html#a6e855d1e44fb3e0730f446b8e7f16409":[1,0,72,31],
 "de/dcb/classMageSpike.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,72,2],
@@ -64,6 +69,7 @@ var NAVTREEINDEX127 =
 "de/dcb/classMageSpike.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,72,23],
 "de/dcb/classMageSpike.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,72,14],
 "de/dcb/classMageSpike.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,72,12],
+"de/dcb/classMageSpike.html#aade624faa82ff26da9e51f1be39be298":[1,0,72,24],
 "de/dcb/classMageSpike.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,72,5],
 "de/dcb/classMageSpike.html#ab6b3de3714961aa2b53ec1354cda3b28":[1,0,72,32],
 "de/dcb/classMageSpike.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,72,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX127 =
 "de/de8/portals_8qc.html#a0ca576360dad6d1ba5c16681b25f958a":[2,0,6,51,29],
 "de/de8/portals_8qc.html#a19a716fc7b82b007e67a749adb19b80e":[2,0,6,51,17],
 "de/de8/portals_8qc.html#a1da88f3fb3bff3b8ceb370e7e29d704a":[2,0,6,51,37],
-"de/de8/portals_8qc.html#a26d6a93407148508470bee4806bc5c2e":[2,0,6,51,10],
-"de/de8/portals_8qc.html#a3412839c6340e04a3ce633755c509b73":[2,0,6,51,20],
-"de/de8/portals_8qc.html#a34693447c0fc0567d020e3ec42b2ae3e":[2,0,6,51,33],
-"de/de8/portals_8qc.html#a3a8558ea8588c386416d87c3a987d8a3":[2,0,6,51,5],
-"de/de8/portals_8qc.html#a5706c9ed48a9bc5cd11aab74d5a08b09":[2,0,6,51,22],
-"de/de8/portals_8qc.html#a5ceb346f0a2fd166c47465cf73c6af78":[2,0,6,51,27],
-"de/de8/portals_8qc.html#a609b1151ce1ef7aedb50a1c7e1cba5cf":[2,0,6,51,11]
+"de/de8/portals_8qc.html#a26d6a93407148508470bee4806bc5c2e":[2,0,6,51,10]
 };

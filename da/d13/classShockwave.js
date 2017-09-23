@@ -24,7 +24,7 @@ var classShockwave =
     [ "wr_update", "da/d13/classShockwave.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "da/d13/classShockwave.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "da/d13/classShockwave.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
-    [ "ammo_field", "da/d13/classShockwave.html#a768d3992198c4b743dbab2cff9529e99", null ],
+    [ "ammo_type", "da/d13/classShockwave.html#a469800bbb95ee106d8b555dff1c9d8e4", null ],
     [ "bot_pickupbasevalue", "da/d13/classShockwave.html#a2ae6f5266386213cc74fc9905aff71ba", null ],
     [ "impulse", "da/d13/classShockwave.html#a6a2ecbec331fdeefcb8ed171bab217b8", null ],
     [ "m_id", "da/d13/classShockwave.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],

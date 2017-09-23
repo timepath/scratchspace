@@ -24,7 +24,7 @@ var classDevastator =
     [ "wr_update", "d4/d0b/classDevastator.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d4/d0b/classDevastator.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d4/d0b/classDevastator.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
-    [ "ammo_field", "d4/d0b/classDevastator.html#a2a08d4720054afa2ccaf726bb1e343a0", null ],
+    [ "ammo_type", "d4/d0b/classDevastator.html#a6cedb4b8350c1f881fcd2edf314ac5a4", null ],
     [ "bot_pickupbasevalue", "d4/d0b/classDevastator.html#a0857557df1839208d8571e233839ce44", null ],
     [ "impulse", "d4/d0b/classDevastator.html#a19a210e233d5ac3c2563487f1b763bec", null ],
     [ "m_id", "d4/d0b/classDevastator.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],

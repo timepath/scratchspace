@@ -24,7 +24,7 @@ var classHeavyMachineGun =
     [ "wr_update", "d9/dce/classHeavyMachineGun.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d9/dce/classHeavyMachineGun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d9/dce/classHeavyMachineGun.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
-    [ "ammo_field", "d9/dce/classHeavyMachineGun.html#a803460e7e4deb724606e893497dae343", null ],
+    [ "ammo_type", "d9/dce/classHeavyMachineGun.html#ade74e29f52ce65312917012c3539df0a", null ],
     [ "bot_pickupbasevalue", "d9/dce/classHeavyMachineGun.html#a433cc0989f98469131d0a53483b804eb", null ],
     [ "impulse", "d9/dce/classHeavyMachineGun.html#a4c40bb8a3d6425143e1477bf42cfafed", null ],
     [ "m_id", "d9/dce/classHeavyMachineGun.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],

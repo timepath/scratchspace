@@ -1,5 +1,10 @@
 var NAVTREEINDEX77 =
 {
+"d8/db8/classCrylink.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,21,14],
+"d8/db8/classCrylink.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,21,12],
+"d8/db8/classCrylink.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,21,5],
+"d8/db8/classCrylink.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,21,10],
+"d8/db8/classCrylink.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,21,36],
 "d8/db8/classCrylink.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,21,7],
 "d8/db8/classCrylink.html#ac9f275c834f40cf9b5c3c98a3df7ce2e":[1,0,21,31],
 "d8/db8/classCrylink.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,21,3],
@@ -199,7 +204,7 @@ var NAVTREEINDEX77 =
 "d8/dd3/classShotgun.html#ad1755c7827376ddfa16c27048e681b37":[1,0,115,32],
 "d8/dd3/classShotgun.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,115,35],
 "d8/dd3/classShotgun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,115,22],
-"d8/dd3/classShotgun.html#aeb57e7d1c2df7e55dc272a0fb6140444":[1,0,115,24],
+"d8/dd3/classShotgun.html#ae13bf476f2c3668c25ecfb5481ef9dd6":[1,0,115,24],
 "d8/dd3/classShotgun.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,115,17],
 "d8/dd7/shownames_8qh.html":[2,0,0,25],
 "d8/dd7/shownames_8qh.html#a42e7f03b56b56a4f5049a08fbc36097e":[2,0,0,25,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX77 =
 "d8/dd8/sv__buffs_8qh.html#a85316f768674e84a062ad7c473868382":[2,0,1,9,0,2,8,40],
 "d8/dd8/sv__buffs_8qh.html#a8ba821803143c0908230ddb415971b90":[2,0,1,9,0,2,8,20],
 "d8/dd8/sv__buffs_8qh.html#a8c530690d13a1995fecf385267515016":[2,0,1,9,0,2,8,30],
-"d8/dd8/sv__buffs_8qh.html#a947a994165abbe80b0feac77d1ee2715":[2,0,1,9,0,2,8,38],
-"d8/dd8/sv__buffs_8qh.html#a9a7786d9386aa54f7402850e457fce40":[2,0,1,9,0,2,8,10],
-"d8/dd8/sv__buffs_8qh.html#a9d0381c8b0a4cc43a743b4f23741763b":[2,0,1,9,0,2,8,63],
-"d8/dd8/sv__buffs_8qh.html#aa2020d7221cd6658db0d83786f8a9e7d":[2,0,1,9,0,2,8,64],
-"d8/dd8/sv__buffs_8qh.html#aa46fd8af184f1f03943dbd39cd42c026":[2,0,1,9,0,2,8,54],
-"d8/dd8/sv__buffs_8qh.html#aa72e5a5d1978e76508148f92c302a1b6":[2,0,1,9,0,2,8,19]
+"d8/dd8/sv__buffs_8qh.html#a947a994165abbe80b0feac77d1ee2715":[2,0,1,9,0,2,8,38]
 };

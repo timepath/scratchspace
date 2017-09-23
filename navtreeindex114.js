@@ -1,5 +1,11 @@
 var NAVTREEINDEX114 =
 {
+"dd/d0f/classTeslaCoilTurretAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,126,7],
+"dd/d0f/classTeslaCoilTurretAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,126,37],
+"dd/d0f/classTeslaCoilTurretAttack.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,126,3],
+"dd/d0f/classTeslaCoilTurretAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,126,35],
+"dd/d0f/classTeslaCoilTurretAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,126,22],
+"dd/d0f/classTeslaCoilTurretAttack.html#ae55baa4968bc26696f50174e6d0cb215":[1,0,126,26],
 "dd/d0f/classTeslaCoilTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,126,25],
 "dd/d0f/classTeslaCoilTurretAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,126,17],
 "dd/d13/borderimage_8qc.html":[2,0,5,2,2],
@@ -81,9 +87,9 @@ var NAVTREEINDEX114 =
 "dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324":[2,0,6,1,2,7],
 "dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1":[2,0,6,1,2,8],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,3],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,2],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,2],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
 "dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0":[2,0,6,1,2,11],
 "dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca":[2,0,6,1,2,12],
 "dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114":[2,0,6,1,2,9],
@@ -243,11 +249,5 @@ var NAVTREEINDEX114 =
 "dd/d43/cl__turrets_8qc.html#a8a5aa44dc52f648c1cbbb4bcce5d119a":[2,0,1,14,7,2],
 "dd/d43/cl__turrets_8qc.html#ab45736fb36b0b5641315be92b9747beb":[2,0,1,14,7,11],
 "dd/d43/cl__turrets_8qc.html#ab489777485c16d894a5d054c34bf4ca6":[2,0,1,14,7,7],
-"dd/d43/cl__turrets_8qc.html#afa0c6aa2cc876260c989857c91f7b13d":[2,0,1,14,7,9],
-"dd/d43/cl__turrets_8qc_source.html":[2,0,1,14,7],
-"dd/d43/gametypelist_8qh.html":[2,0,5,4,165],
-"dd/d43/gametypelist_8qh.html#a6dec0dd03e2658b2ff6cb6a7a7ae0a88":[2,0,5,4,165,1],
-"dd/d43/gametypelist_8qh_source.html":[2,0,5,4,165],
-"dd/d45/sv__damagetext_8qh.html":[2,0,1,9,0,6,7],
-"dd/d45/sv__damagetext_8qh_source.html":[2,0,1,9,0,6,7]
+"dd/d43/cl__turrets_8qc.html#afa0c6aa2cc876260c989857c91f7b13d":[2,0,1,14,7,9]
 };

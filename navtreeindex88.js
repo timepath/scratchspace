@@ -1,5 +1,10 @@
 var NAVTREEINDEX88 =
 {
+"d9/deb/classXonoticHUDTimerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,194,41],
+"d9/deb/classXonoticHUDTimerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,194,86],
+"d9/deb/classXonoticHUDTimerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,194,10],
+"d9/deb/classXonoticHUDTimerDialog.html#afdf6ccb6fb63aba4d853217aba0b06cc":[1,0,194,69],
+"d9/df0/weaponstats_8qh.html":[2,0,6,5,19],
 "d9/df0/weaponstats_8qh.html#a456ded6f061320557b90765d8d34c0f3":[2,0,6,5,19,5],
 "d9/df0/weaponstats_8qh.html#a658592c9d038c8940b9d17f4330cf72d":[2,0,6,5,19,1],
 "d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829":[2,0,6,5,19,7],
@@ -159,6 +164,7 @@ var NAVTREEINDEX88 =
 "da/d13/classShockwave.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,114,11],
 "da/d13/classShockwave.html#a4337268c8cad6836bae8efd4a8835070":[1,0,114,21],
 "da/d13/classShockwave.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,114,1],
+"da/d13/classShockwave.html#a469800bbb95ee106d8b555dff1c9d8e4":[1,0,114,24],
 "da/d13/classShockwave.html#a46b8fbb0e0cdbe99f5d0af2fcd862af6":[1,0,114,32],
 "da/d13/classShockwave.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,114,15],
 "da/d13/classShockwave.html#a63c4ff29db394bde747d09312ed69684":[1,0,114,37],
@@ -167,7 +173,6 @@ var NAVTREEINDEX88 =
 "da/d13/classShockwave.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,114,8],
 "da/d13/classShockwave.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,114,2],
 "da/d13/classShockwave.html#a7495a799cf73beef58b25f94e4052af3":[1,0,114,31],
-"da/d13/classShockwave.html#a768d3992198c4b743dbab2cff9529e99":[1,0,114,24],
 "da/d13/classShockwave.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,114,27],
 "da/d13/classShockwave.html#a80fa9a65e19370473a29baebc04d0626":[1,0,114,4],
 "da/d13/classShockwave.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,114,6],
@@ -207,7 +212,6 @@ var NAVTREEINDEX88 =
 "da/d1d/classMLRSTurretAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,76,15],
 "da/d1d/classMLRSTurretAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,76,9],
 "da/d1d/classMLRSTurretAttack.html#a6a45b8b8496e0827216ad10cc845245f":[1,0,76,26],
-"da/d1d/classMLRSTurretAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,76,24],
 "da/d1d/classMLRSTurretAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,76,8],
 "da/d1d/classMLRSTurretAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,76,2],
 "da/d1d/classMLRSTurretAttack.html#a78668763cebbcdd5f73193c1d48988d6":[1,0,76,31],
@@ -221,6 +225,7 @@ var NAVTREEINDEX88 =
 "da/d1d/classMLRSTurretAttack.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,76,23],
 "da/d1d/classMLRSTurretAttack.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,76,14],
 "da/d1d/classMLRSTurretAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,76,12],
+"da/d1d/classMLRSTurretAttack.html#aade624faa82ff26da9e51f1be39be298":[1,0,76,24],
 "da/d1d/classMLRSTurretAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,76,5],
 "da/d1d/classMLRSTurretAttack.html#aba777682d48840cc1c8f6a1b33290cc7":[1,0,76,32],
 "da/d1d/classMLRSTurretAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,76,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX88 =
 "da/d20/spawnfunc_8qh.html#a09349a71324a154b90ff0ed86d833a14":[2,0,4,53,1],
 "da/d20/spawnfunc_8qh.html#a0b9d427233f1fc585de8da601a0d3f38":[2,0,4,53,4],
 "da/d20/spawnfunc_8qh.html#a19f19ce6180312d0bcdafcc71e46a559":[2,0,4,53,3],
-"da/d20/spawnfunc_8qh.html#a3b46bba07f5bf76ddd3eea7763bd03cb":[2,0,4,53,13],
-"da/d20/spawnfunc_8qh.html#a3cc52b4571edcf33ca77ce7f224e04ab":[2,0,4,53,22],
-"da/d20/spawnfunc_8qh.html#a48740da59c37809a16164e3f2a182e08":[2,0,4,53,18],
-"da/d20/spawnfunc_8qh.html#a4de816e6692271520f0bd3d32a2760cc":[2,0,4,53,2],
-"da/d20/spawnfunc_8qh.html#a5b40421c6298962d4011eddd0c72802a":[2,0,4,53,23],
-"da/d20/spawnfunc_8qh.html#a6db1e57565333741a0ea5b39b6543e1c":[2,0,4,53,17]
+"da/d20/spawnfunc_8qh.html#a3b46bba07f5bf76ddd3eea7763bd03cb":[2,0,4,53,13]
 };

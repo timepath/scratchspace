@@ -202,9 +202,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a768d3992198c4b743dbab2cff9529e99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/classWeapon.html#a768d3992198c4b743dbab2cff9529e99">ammo_field</a> = <a class="el" href="../../d5/d26/server_2defs_8qh.html#ae0a21a0484e5bf8b8fe8e359578f5ddc">ammo_none</a></td></tr>
-<tr class="memdesc:a768d3992198c4b743dbab2cff9529e99"><td class="mdescLeft">&#160;</td><td class="mdescRight">M: ammotype : main ammo field.  <a href="#a768d3992198c4b743dbab2cff9529e99">More...</a><br/></td></tr>
-<tr class="separator:a768d3992198c4b743dbab2cff9529e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a469800bbb95ee106d8b555dff1c9d8e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/classWeapon.html#a469800bbb95ee106d8b555dff1c9d8e4">ammo_type</a> = <a class="el" href="../../d4/d3c/common_2resources_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7ad2b226575839aec528dc85bf2e8fa9b2">RESOURCE_NONE</a></td></tr>
+<tr class="memdesc:a469800bbb95ee106d8b555dff1c9d8e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">M: ammotype : main ammo type.  <a href="#a469800bbb95ee106d8b555dff1c9d8e4">More...</a><br/></td></tr>
+<tr class="separator:a469800bbb95ee106d8b555dff1c9d8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6f60d2aeb3466eb5209d3dfec04dba1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6e/classTuba.html#ac6f60d2aeb3466eb5209d3dfec04dba1">bot_pickupbasevalue</a> = 2000</td></tr>
 <tr class="separator:ac6f60d2aeb3466eb5209d3dfec04dba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dd907b43e440c55a9dab9417721931f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6e/classTuba.html#a9dd907b43e440c55a9dab9417721931f">impulse</a> = 1</td></tr>
@@ -399,15 +399,15 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d8/d4b/classObject.html#aa8bfcd32a594bb7d38143dce8b4ba8cf">Object</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00134">134</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00135">135</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../da/dc3/common_2scores_8qh_source.html#l00129">m_name</a>, and <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>.</p>
-<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                                                                                       {</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        returns(this.<a class="code" href="../../dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206">m_name</a>, this.<a class="code" href="../../dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55">model2</a> ? sprintf(<span class="stringliteral">&quot;/gfx/hud/%s/%s&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a>(<span class="stringliteral">&quot;menu_skin&quot;</span>), this.<a class="code" href="../../dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55">model2</a>) : <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>);</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                                                                                       {</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        returns(this.<a class="code" href="../../dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206">m_name</a>, this.<a class="code" href="../../dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55">model2</a> ? sprintf(<span class="stringliteral">&quot;/gfx/hud/%s/%s&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a>(<span class="stringliteral">&quot;menu_skin&quot;</span>), this.<a class="code" href="../../dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55">model2</a>) : <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    }</div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
-<div class="ttc" id="classWeapon_html_a3a4d6a06d493186e3a019b3e145a1206"><div class="ttname"><a href="../../dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206">Weapon::m_name</a></div><div class="ttdeci">string m_name</div><div class="ttdoc">M: wepname : human readable name. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00087">weapon.qh:87</a></div></div>
-<div class="ttc" id="classWeapon_html_ac3654ccfe17641a9285de863a3cb9f55"><div class="ttname"><a href="../../dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55">Weapon::model2</a></div><div class="ttdeci">string model2</div><div class="ttdoc">M: wepimg : &quot;weaponfoobar&quot; side view image file of weapon. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00083">weapon.qh:83</a></div></div>
+<div class="ttc" id="classWeapon_html_a3a4d6a06d493186e3a019b3e145a1206"><div class="ttname"><a href="../../dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206">Weapon::m_name</a></div><div class="ttdeci">string m_name</div><div class="ttdoc">M: wepname : human readable name. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00088">weapon.qh:88</a></div></div>
+<div class="ttc" id="classWeapon_html_ac3654ccfe17641a9285de863a3cb9f55"><div class="ttname"><a href="../../dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55">Weapon::model2</a></div><div class="ttdeci">string model2</div><div class="ttdoc">M: wepimg : &quot;weaponfoobar&quot; side view image file of weapon. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00084">weapon.qh:84</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a6f8c7ef6ee4a4d851aaa5fd1789eab9a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a></div><div class="ttdeci">const string cvar_string(string name)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -445,8 +445,8 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) runs bot aiming code for this weapon </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00100">100</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00101">101</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -473,10 +473,10 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) checks ammo for weapon primary </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00096">96</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00097">97</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d62/selection_8qc_source.html#l00043">client_hasweapon()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00220">weapon_prepareattack_checkammo()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{<span class="keywordflow">return</span> <span class="keyword">false</span>;}</div>
+<p>Referenced by <a class="el" href="../../d2/d62/selection_8qc_source.html#l00043">client_hasweapon()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00221">weapon_prepareattack_checkammo()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;{<span class="keywordflow">return</span> <span class="keyword">false</span>;}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -513,10 +513,10 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) checks ammo for weapon second </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00098">98</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00099">99</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d62/selection_8qc_source.html#l00043">client_hasweapon()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00220">weapon_prepareattack_checkammo()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;{<span class="keywordflow">return</span> <span class="keyword">false</span>;}</div>
+<p>Referenced by <a class="el" href="../../d2/d62/selection_8qc_source.html#l00043">client_hasweapon()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00221">weapon_prepareattack_checkammo()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;{<span class="keywordflow">return</span> <span class="keyword">false</span>;}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -553,8 +553,8 @@ Public Attributes</h2></td></tr>
 
 <p>(ALL) dump weapon cvars to config in data directory (see: sv_cmd dumpweapons) </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00118">118</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00119">119</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -581,8 +581,8 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) the weapon is dropped </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00129">129</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00130">130</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -609,8 +609,8 @@ Public Attributes</h2></td></tr>
 
 <p>(CLIENT) weapon specific glow </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00127">127</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;{ <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>; }</div>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00128">128</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;{ <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -637,10 +637,10 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) logic to run when weapon is lost </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00116">116</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00117">117</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00430">W_WeaponFrame()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;{}</div>
+<p>Referenced by <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00431">W_WeaponFrame()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;{}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -677,8 +677,8 @@ Public Attributes</h2></td></tr>
 
 <p>(CLIENT) impact effect for weapon explosion </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00112">112</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00113">113</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -705,10 +705,10 @@ Public Attributes</h2></td></tr>
 
 <p>(BOTH) precaches models/sounds used by this weapon, also sets up weapon properties </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00102">102</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00103">103</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00428">GrappleHookInit()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;{}</div>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;{}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -745,12 +745,12 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) notification number for kill message (may inspect w_deathtype for details) </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00106">106</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00107">107</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 <p>References <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00226">Obituary_WeaponDeath()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{<span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;}</div>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;{<span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;}</div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -788,8 +788,8 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) a weapon is picked up </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00131">131</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00132">132</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -816,10 +816,10 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) called whenever a player dies </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00114">114</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00115">115</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00310">PlayerDamage()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;{}</div>
+<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -856,10 +856,10 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) handles reloading for weapon </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00108">108</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00109">109</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00334">IMPULSE()</a>, and <a class="el" href="../../d2/d62/selection_8qc_source.html#l00266">W_SwitchWeapon()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;{}</div>
+<div class="fragment"><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;{}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -896,8 +896,8 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) clears fields that the weapon may use </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00110">110</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00111">111</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -924,10 +924,10 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) setup weapon data </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00092">92</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00093">93</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00430">W_WeaponFrame()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;{}</div>
+<p>Referenced by <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00431">W_WeaponFrame()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -964,12 +964,12 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) notification number for suicide message (may inspect w_deathtype for details) </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00104">104</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00105">105</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 <p>References <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00226">Obituary_WeaponDeath()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{<span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;}</div>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;{<span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;}</div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1007,10 +1007,10 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) logic to run every frame </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00094">94</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00095">95</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00430">W_WeaponFrame()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;{}</div>
+<p>Referenced by <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00431">W_WeaponFrame()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -1047,8 +1047,8 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) update cvar based properties </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00133">133</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00134">134</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1075,12 +1075,12 @@ Public Attributes</h2></td></tr>
 
 <p>(CLIENT) weapon specific view model </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00125">125</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00126">126</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 <p>References <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00290">viewmodel_draw()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; }</div>
+<div class="fragment"><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; }</div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1118,13 +1118,13 @@ Public Attributes</h2></td></tr>
 
 <p>(BOTH) weapon specific zoom reticle </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00120">120</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00121">121</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01494">CSQC_UpdateView()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                                                             {</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="comment">// no weapon specific image for this weapon</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                                                             {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="comment">// no weapon specific image for this weapon</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    }</div>
 </div><!-- fragment -->
 <p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -1139,7 +1139,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a768d3992198c4b743dbab2cff9529e99"></a>
+<a class="anchor" id="a469800bbb95ee106d8b555dff1c9d8e4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1147,7 +1147,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> Weapon::ammo_field = <a class="el" href="../../d5/d26/server_2defs_8qh.html#ae0a21a0484e5bf8b8fe8e359578f5ddc">ammo_none</a></td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> Weapon::ammo_type = <a class="el" href="../../d4/d3c/common_2resources_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7ad2b226575839aec528dc85bf2e8fa9b2">RESOURCE_NONE</a></td>
         </tr>
       </table>
   </td>
@@ -1157,11 +1157,11 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>M: ammotype : main ammo field. </p>
+<p>M: ammotype : main ammo type. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00063">63</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00064">64</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00101">HUD_Ammo()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00658">W_DecreaseAmmo()</a>, and <a class="el" href="../../df/d64/throwing_8qc_source.html#l00035">W_ThrowNewWeapon()</a>.</p>
+<p>Referenced by <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00101">HUD_Ammo()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00659">W_DecreaseAmmo()</a>, and <a class="el" href="../../df/d64/throwing_8qc_source.html#l00036">W_ThrowNewWeapon()</a>.</p>
 
 </div>
 </div>
@@ -1211,9 +1211,9 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00059">59</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00060">60</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d62/selection_8qc_source.html#l00043">client_hasweapon()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00310">PlayerDamage()</a>, <a class="el" href="../../df/d64/throwing_8qc_source.html#l00193">SpawnThrownWeapon()</a>, <a class="el" href="../../dd/dde/tests_8qc_source.html#l00010">TEST()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00266">W_SwitchWeapon()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00238">W_SwitchWeapon_Force()</a>, and <a class="el" href="../../df/d64/throwing_8qc_source.html#l00168">W_ThrowWeapon()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d62/selection_8qc_source.html#l00043">client_hasweapon()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00310">PlayerDamage()</a>, <a class="el" href="../../df/d64/throwing_8qc_source.html#l00194">SpawnThrownWeapon()</a>, <a class="el" href="../../dd/dde/tests_8qc_source.html#l00010">TEST()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00266">W_SwitchWeapon()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00238">W_SwitchWeapon_Force()</a>, and <a class="el" href="../../df/d64/throwing_8qc_source.html#l00169">W_ThrowWeapon()</a>.</p>
 
 </div>
 </div>
@@ -1321,7 +1321,7 @@ Public Attributes</h2></td></tr>
 
 <p>A: crosshair : per-weapon crosshair size (argument two of "crosshair" field) </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00079">79</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00080">80</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 </div>
 </div>
@@ -1345,7 +1345,7 @@ Public Attributes</h2></td></tr>
 
 <p>A: reticle : per-weapon zoom reticle. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00081">81</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00082">82</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01494">CSQC_UpdateView()</a>.</p>
 
@@ -1371,7 +1371,7 @@ Public Attributes</h2></td></tr>
 
 <p>A: WEPSET_id : WEPSET_... </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00061">61</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00062">62</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 </div>
 </div>
@@ -1398,7 +1398,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d6e/classTuba.html">Tuba</a></li>
-    <li class="footer">Generated on Wed Sep 20 2017 20:28:49 for Xonotic by
+    <li class="footer">Generated on Sat Sep 23 2017 07:15:12 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

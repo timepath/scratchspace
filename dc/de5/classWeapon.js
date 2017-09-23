@@ -24,7 +24,7 @@ var classWeapon =
     [ "wr_update", "dc/de5/classWeapon.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "dc/de5/classWeapon.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
-    [ "ammo_field", "dc/de5/classWeapon.html#a768d3992198c4b743dbab2cff9529e99", null ],
+    [ "ammo_type", "dc/de5/classWeapon.html#a469800bbb95ee106d8b555dff1c9d8e4", null ],
     [ "bot_pickupbasevalue", "dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84", null ],
     [ "impulse", "dc/de5/classWeapon.html#a07bb940405dd6a1cc59526ddca74c1b7", null ],
     [ "m_id", "dc/de5/classWeapon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
