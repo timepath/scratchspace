@@ -91,6 +91,8 @@ var searchData=
   ['railgunhit',['railgunhit',['../d5/d26/server_2defs_8qh.html#ade245d364785b7d828d0b1c75022efc9',1,'defs.qh']]],
   ['railgunhitloc',['railgunhitloc',['../d5/d26/server_2defs_8qh.html#a5e206ba3e3f62a9ec778d8ebc39b95ed',1,'defs.qh']]],
   ['railgunhitsolidbackup',['railgunhitsolidbackup',['../d5/d26/server_2defs_8qh.html#a424cdec2e704031834c5827181d1c676',1,'defs.qh']]],
+  ['random_5fstart_5fammo',['random_start_ammo',['../dc/d73/server_2miscfunctions_8qh.html#a2a3e89a2db038992970db682ae736f23',1,'miscfunctions.qh']]],
+  ['random_5fstart_5fweapons_5fcount',['random_start_weapons_count',['../dc/d73/server_2miscfunctions_8qh.html#a4f1f9b143f200171c1fea4e59ab7a36d',1,'miscfunctions.qh']]],
   ['randomseed',['randomseed',['../db/dcc/g__world_8qc.html#ad636587cf244331160ebe0893105bf45',1,'g_world.qc']]],
   ['randomselection_5fbest_5fpriority',['RandomSelection_best_priority',['../db/d55/random_8qh.html#a218e10c5750eadf78eef5f816a554f12',1,'random.qh']]],
   ['randomselection_5fchosen_5fent',['RandomSelection_chosen_ent',['../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243',1,'random.qh']]],

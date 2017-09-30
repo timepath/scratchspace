@@ -1,5 +1,8 @@
 var NAVTREEINDEX118 =
 {
+"dd/da3/classXonoticMusicPlayerTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,210,0],
+"dd/da3/classXonoticMusicPlayerTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,210,37],
+"dd/da3/classXonoticMusicPlayerTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,210,42],
 "dd/da3/classXonoticMusicPlayerTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,210,87],
 "dd/da3/classXonoticMusicPlayerTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,210,55],
 "dd/da3/classXonoticMusicPlayerTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,210,59],
@@ -246,8 +249,5 @@ var NAVTREEINDEX118 =
 "dd/db3/common_2mutators_2mutator_2running__guns_2__mod_8qh_source.html":[2,0,1,9,0,27,1],
 "dd/db5/sv__invincibleproj_8qh.html":[2,0,1,9,0,13,3],
 "dd/db5/sv__invincibleproj_8qh_source.html":[2,0,1,9,0,13,3],
-"dd/db7/sv__globalforces_8qh.html":[2,0,1,9,0,10,3],
-"dd/db7/sv__globalforces_8qh_source.html":[2,0,1,9,0,10,3],
-"dd/dc5/client_2weapons_2__mod_8inc.html":[2,0,0,3,0],
-"dd/dc5/client_2weapons_2__mod_8inc_source.html":[2,0,0,3,0]
+"dd/db7/sv__globalforces_8qh.html":[2,0,1,9,0,10,3]
 };

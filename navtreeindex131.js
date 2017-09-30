@@ -1,5 +1,8 @@
 var NAVTREEINDEX131 =
 {
+"df/d6e/classXonoticSingleplayerDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,237,34],
+"df/d6e/classXonoticSingleplayerDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,237,39],
+"df/d6e/classXonoticSingleplayerDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,237,59],
 "df/d6e/classXonoticSingleplayerDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,237,85],
 "df/d6e/classXonoticSingleplayerDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,237,52],
 "df/d6e/classXonoticSingleplayerDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,237,64],
@@ -181,8 +184,8 @@ var NAVTREEINDEX131 =
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,2,20],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,2,30],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,2,27],
 "df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7":[2,0,0,0,2,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX131 =
 "df/d92/classXonoticWinnerDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,254,42],
 "df/d92/classXonoticWinnerDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,254,64],
 "df/d92/classXonoticWinnerDialog.html#a67d95732d49da439095483530aca8804":[1,0,254,53],
-"df/d92/classXonoticWinnerDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,254,76],
-"df/d92/classXonoticWinnerDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,254,18],
-"df/d92/classXonoticWinnerDialog.html#a71dfe2b7e476fea9b91f6b6f4ff79bfc":[1,0,254,24],
-"df/d92/classXonoticWinnerDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,254,14]
+"df/d92/classXonoticWinnerDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,254,76]
 };
