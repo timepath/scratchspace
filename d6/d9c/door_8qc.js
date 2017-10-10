@@ -6,7 +6,7 @@ var door_8qc =
     [ "door_fire", "d6/d9c/door_8qc.html#ae87674ba0b9d41767ee95397dabe1029", null ],
     [ "door_generic_plat_blocked", "d6/d9c/door_8qc.html#a430533544a99bab2ccd9e54301ef6442", null ],
     [ "door_go_down", "d6/d9c/door_8qc.html#ab1bcfdc401011109dbfbec373e08244d", null ],
-    [ "door_go_up", "d6/d9c/door_8qc.html#a470a5faec700ecb1ff4f6d79be629593", null ],
+    [ "door_go_up", "d6/d9c/door_8qc.html#aff3250044af884a25a96e74e6f42ae24", null ],
     [ "door_hit_bottom", "d6/d9c/door_8qc.html#a4dab5a6c37fd9d7e8dc27ac97d82b91a", null ],
     [ "door_hit_top", "d6/d9c/door_8qc.html#afbebfb6226c33715b304c0e6afa30ce4", null ],
     [ "door_init_startopen", "d6/d9c/door_8qc.html#a2ca9d995658e84d256b554009a8906f6", null ],

@@ -366,7 +366,7 @@ var searchData=
   ['door_5ffire',['door_fire',['../d6/d9c/door_8qc.html#ae87674ba0b9d41767ee95397dabe1029',1,'door.qc']]],
   ['door_5fgeneric_5fplat_5fblocked',['door_generic_plat_blocked',['../d6/d9c/door_8qc.html#a430533544a99bab2ccd9e54301ef6442',1,'door.qc']]],
   ['door_5fgo_5fdown',['door_go_down',['../d6/d9c/door_8qc.html#ab1bcfdc401011109dbfbec373e08244d',1,'door.qc']]],
-  ['door_5fgo_5fup',['door_go_up',['../d6/d9c/door_8qc.html#a470a5faec700ecb1ff4f6d79be629593',1,'door.qc']]],
+  ['door_5fgo_5fup',['door_go_up',['../d6/d9c/door_8qc.html#aff3250044af884a25a96e74e6f42ae24',1,'door.qc']]],
   ['door_5fhit_5fbottom',['door_hit_bottom',['../d6/d9c/door_8qc.html#a4dab5a6c37fd9d7e8dc27ac97d82b91a',1,'door.qc']]],
   ['door_5fhit_5ftop',['door_hit_top',['../d6/d9c/door_8qc.html#afbebfb6226c33715b304c0e6afa30ce4',1,'door.qc']]],
   ['door_5finit_5fstartopen',['door_init_startopen',['../d6/d9c/door_8qc.html#a2ca9d995658e84d256b554009a8906f6',1,'door.qc']]],
