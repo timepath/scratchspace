@@ -624,7 +624,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;</div>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#adb1d2599f475690b29b543df7353025d">alivetime</a>)</div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;        {</div>
-<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;            PS_GR_P_ADDVAL(<span class="keyword">this</span>, PLAYERSTATS_ALIVETIME, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#adb1d2599f475690b29b543df7353025d">alivetime</a>);</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;            PlayerStats_GameReport_Event_Player(<span class="keyword">this</span>, PLAYERSTATS_ALIVETIME, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#adb1d2599f475690b29b543df7353025d">alivetime</a>);</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;            this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#adb1d2599f475690b29b543df7353025d">alivetime</a> = 0;</div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        }</div>
 <div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;</div>
@@ -1393,7 +1393,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/d9b/server_2player_8qc.html">player.qc</a></li>
-    <li class="footer">Generated on Sun Oct 15 2017 11:28:11 for Xonotic by
+    <li class="footer">Generated on Mon Oct 23 2017 17:15:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

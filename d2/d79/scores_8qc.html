@@ -618,7 +618,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557">scores_label</a>(scorefield) != <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        s.SendFlags |= (2 ** (scorefield.m_id % 16));</div>
 <div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>)</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        PS_GR_P_ADDVAL(s.owner, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(PLAYERSTATS_TOTAL, <a class="code" href="../../da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557">scores_label</a>(scorefield)), score);</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        PlayerStats_GameReport_Event_Player(s.owner, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(PLAYERSTATS_TOTAL, <a class="code" href="../../da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557">scores_label</a>(scorefield)), score);</div>
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    s.(scores(scorefield)) += score;</div>
 <div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(AddedPlayerScore, scorefield, score, player);</div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="keywordflow">return</span> s.(scores(scorefield));</div>
@@ -937,9 +937,9 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;{</div>
 <div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> s = <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>).scorekeeper;</div>
 <div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Scores, <span class="keyword">true</span>, {</div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;        <span class="keywordflow">if</span>(s.(scores(it)) != 0)</div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557">scores_label</a>(it) != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;                PS_GR_P_ADDVAL(s.owner, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(PLAYERSTATS_SCOREBOARD, <a class="code" href="../../da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557">scores_label</a>(it)), s.(scores(it)));</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;        <span class="keywordflow">if</span>(s.(scores(it)) != 0 &amp;&amp; <a class="code" href="../../da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557">scores_label</a>(it) != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;            PlayerStats_GameReport_Event_Player(s.owner,</div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(PLAYERSTATS_SCOREBOARD, <a class="code" href="../../da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557">scores_label</a>(it)), s.(scores(it)));</div>
 <div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;    });</div>
 <div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
@@ -1214,10 +1214,10 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;        <span class="keywordflow">if</span>(!sk)</div>
 <div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;            <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;        <span class="keywordflow">for</span>(i = 0; i &lt; <a class="code" href="../../da/dc3/common_2scores_8qh.html#a0b31ff7434fe27ce6efac51215c64bf6">MAX_TEAMSCORE</a>; ++i)</div>
-<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;            <span class="keywordflow">if</span>(sk.(teamscores(i)) != 0)</div>
-<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../da/dc3/common_2scores_8qh.html#a98a2089ec6c2c82452fcc4ae2d6627c7">teamscores_label</a>(i) != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;                    <span class="comment">// the +1 is important here!</span></div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;                    PS_GR_T_ADDVAL(t+1, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(PLAYERSTATS_SCOREBOARD, <a class="code" href="../../da/dc3/common_2scores_8qh.html#a98a2089ec6c2c82452fcc4ae2d6627c7">teamscores_label</a>(i)), sk.(teamscores(i)));</div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;            <span class="keywordflow">if</span>(sk.(teamscores(i)) != 0 &amp;&amp; <a class="code" href="../../da/dc3/common_2scores_8qh.html#a98a2089ec6c2c82452fcc4ae2d6627c7">teamscores_label</a>(i) != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;                <span class="comment">// the +1 is important here!</span></div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;                PlayerStats_GameReport_Event_Team(t+1,</div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;                    <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(PLAYERSTATS_SCOREBOARD, <a class="code" href="../../da/dc3/common_2scores_8qh.html#a98a2089ec6c2c82452fcc4ae2d6627c7">teamscores_label</a>(i)), sk.(teamscores(i)));</div>
 <div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;    }</div>
 <div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
@@ -1424,7 +1424,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00034">FOREACH_CLIENTSLOT</a>, <a class="el" href="../../da/dc3/common_2scores_8qh_source.html#l00136">MAX_TEAMSCORE</a>, <a class="el" href="../../da/dc3/common_2scores_8qh_source.html#l00133">scores_label</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00011">teamscorekeepers</a>, and <a class="el" href="../../da/dc3/common_2scores_8qh_source.html#l00141">teamscores_label</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00471">ReadyRestart()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00403">ReadyRestart_think()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00472">ReadyRestart()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00403">ReadyRestart_think()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;{</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> sk;</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordtype">float</span> t;</div>
@@ -3244,7 +3244,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d2/d79/scores_8qc.html">scores.qc</a></li>
-    <li class="footer">Generated on Sun Oct 15 2017 11:28:27 for Xonotic by
+    <li class="footer">Generated on Mon Oct 23 2017 17:16:06 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

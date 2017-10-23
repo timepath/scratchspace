@@ -1509,7 +1509,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">// regular frag</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="../../db/d55/sv__rules_8qh.html#a84cd094615e02e85cc65103bf28fbdc3">GameRules_scoring_add</a>(attacker, KILLS, 1);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">if</span>(targ.playerid)</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            PS_GR_P_ADDVAL(attacker, sprintf(<span class="stringliteral">&quot;kills-%d&quot;</span>, targ.playerid), 1);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            PlayerStats_GameReport_Event_Player(attacker, sprintf(<span class="stringliteral">&quot;kills-%d&quot;</span>, targ.playerid), 1);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../db/d55/sv__rules_8qh.html#a84cd094615e02e85cc65103bf28fbdc3">GameRules_scoring_add</a>(targ, DEATHS, 1);</div>
@@ -1936,7 +1936,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;<span class="preprocessor">                case counta: \</span></div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;<span class="preprocessor">                { \</span></div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;<span class="preprocessor">                    Send_Notification(NOTIF_ONE, attacker, MSG_ANNCE, ANNCE_KILLSTREAK_##countb); \</span></div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;<span class="preprocessor">                    PS_GR_P_ADDVAL(attacker, PLAYERSTATS_ACHIEVEMENT_KILL_SPREE_##counta, 1); \</span></div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;<span class="preprocessor">                    PlayerStats_GameReport_Event_Player(attacker, PLAYERSTATS_ACHIEVEMENT_KILL_SPREE_##counta, 1); \</span></div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;<span class="preprocessor">                    break; \</span></div>
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;<span class="preprocessor">                }</span></div>
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;<span class="preprocessor"></span>            <span class="keywordflow">switch</span>(<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(attacker).killcount)</div>
@@ -1950,8 +1950,8 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;            {</div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;                <a class="code" href="../../dd/de4/g__damage_8qh.html#a8e4883f896a53ad8a08175e49d6b19ba">checkrules_firstblood</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;                notif_firstblood = <span class="keyword">true</span>; <span class="comment">// modify the current messages so that they too show firstblood information</span></div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;                PS_GR_P_ADDVAL(attacker, PLAYERSTATS_ACHIEVEMENT_FIRSTBLOOD, 1);</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;                PS_GR_P_ADDVAL(targ, PLAYERSTATS_ACHIEVEMENT_FIRSTVICTIM, 1);</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;                PlayerStats_GameReport_Event_Player(attacker, PLAYERSTATS_ACHIEVEMENT_FIRSTBLOOD, 1);</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;                PlayerStats_GameReport_Event_Player(targ, PLAYERSTATS_ACHIEVEMENT_FIRSTVICTIM, 1);</div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;                <span class="comment">// tell spree_inf and spree_cen that this is a first-blood and first-victim event</span></div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;                kill_count_to_attacker = -1;</div>
@@ -2066,7 +2066,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../db/d55/sv__rules_8qh.html#a84cd094615e02e85cc65103bf28fbdc3">GameRules_scoring_add</a>(targ, SCORE, 0) == -5)</div>
 <div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;        {</div>
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;            Send_Notification(NOTIF_ONE, targ, MSG_ANNCE, ANNCE_ACHIEVEMENT_BOTLIKE);</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;            PS_GR_P_ADDVAL(attacker, PLAYERSTATS_ACHIEVEMENT_BOTLIKE, 1);</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;            PlayerStats_GameReport_Event_Player(attacker, PLAYERSTATS_ACHIEVEMENT_BOTLIKE, 1);</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;        }</div>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    }</div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;</div>
@@ -3430,7 +3430,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dd/de4/g__damage_8qh.html">g_damage.qh</a></li>
-    <li class="footer">Generated on Sun Oct 15 2017 11:28:25 for Xonotic by
+    <li class="footer">Generated on Mon Oct 23 2017 17:16:04 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
