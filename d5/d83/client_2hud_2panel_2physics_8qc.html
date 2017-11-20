@@ -250,10 +250,10 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> acc_decimals = 2;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html#aa1e6fa55ef2dc2744dc9438b1c8cc6d1">physics_update_time</a>)</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="comment">// workaround for ftos_decimals returning a negative 0</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html#aff236076c7660afb640531dfc9029527">discrete_acceleration</a> &gt; -1 / (10 ** acc_decimals) &amp;&amp; <a class="code" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html#aff236076c7660afb640531dfc9029527">discrete_acceleration</a> &lt; 0)</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <a class="code" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html#aff236076c7660afb640531dfc9029527">discrete_acceleration</a> = 0;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="code" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html#aff236076c7660afb640531dfc9029527">discrete_acceleration</a> = acceleration;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html#aff236076c7660afb640531dfc9029527">discrete_acceleration</a> = acceleration;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="comment">// workaround for ftos_decimals returning a negative 0</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html#aff236076c7660afb640531dfc9029527">discrete_acceleration</a> &gt; -1 / (10 ** acc_decimals) &amp;&amp; <a class="code" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html#aff236076c7660afb640531dfc9029527">discrete_acceleration</a> &lt; 0)</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <a class="code" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html#aff236076c7660afb640531dfc9029527">discrete_acceleration</a> = 0;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <a class="code" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html#a345cec93b3eb9336e0b3953880a86277">discrete_speed</a> = <a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html#aa1e6fa55ef2dc2744dc9438b1c8cc6d1">physics_update_time</a> += <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a3dfa5ea854d31ef48a67b825e8e121c9">autocvar_hud_panel_physics_update_interval</a>;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html#aa1e6fa55ef2dc2744dc9438b1c8cc6d1">physics_update_time</a> &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)</div>
@@ -653,7 +653,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d5/d83/client_2hud_2panel_2physics_8qc.html">physics.qc</a></li>
-    <li class="footer">Generated on Mon Nov 20 2017 08:21:21 for Xonotic by
+    <li class="footer">Generated on Mon Nov 20 2017 16:15:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
