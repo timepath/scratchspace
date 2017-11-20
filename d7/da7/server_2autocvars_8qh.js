@@ -443,6 +443,7 @@ var server_2autocvars_8qh =
     [ "autocvar_sv_jumpspeedcap_max_disable_on_ramps", "d7/da7/server_2autocvars_8qh.html#a1f4a0aa21c7df80bb9490164efe21597", null ],
     [ "autocvar_sv_jumpspeedcap_min", "d7/da7/server_2autocvars_8qh.html#ad4bd6b70dd103e2a4199dac2acb032d7", null ],
     [ "autocvar_sv_jumpvelocity", "d7/da7/server_2autocvars_8qh.html#a2266bc8d7eb30ce0a5e1930325497e9f", null ],
+    [ "autocvar_sv_jumpvelocity_crouch", "d7/da7/server_2autocvars_8qh.html#ae56e9f080cc7b3b3c377567c8bbad4c3", null ],
     [ "autocvar_sv_logscores_bots", "d7/da7/server_2autocvars_8qh.html#af08f5005a24214f02a5cce0c427f1da4", null ],
     [ "autocvar_sv_logscores_console", "d7/da7/server_2autocvars_8qh.html#aadf8b1e16de2f6849526e71045c8f8fd", null ],
     [ "autocvar_sv_logscores_file", "d7/da7/server_2autocvars_8qh.html#a32ec49431441961cd25c1b517521484c", null ],

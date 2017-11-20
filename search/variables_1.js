@@ -1587,6 +1587,7 @@ var searchData=
   ['autocvar_5fsv_5fjumpspeedcap_5fmax_5fdisable_5fon_5framps',['autocvar_sv_jumpspeedcap_max_disable_on_ramps',['../d7/da7/server_2autocvars_8qh.html#a1f4a0aa21c7df80bb9490164efe21597',1,'autocvars.qh']]],
   ['autocvar_5fsv_5fjumpspeedcap_5fmin',['autocvar_sv_jumpspeedcap_min',['../d7/da7/server_2autocvars_8qh.html#ad4bd6b70dd103e2a4199dac2acb032d7',1,'autocvars.qh']]],
   ['autocvar_5fsv_5fjumpvelocity',['autocvar_sv_jumpvelocity',['../d7/da7/server_2autocvars_8qh.html#a2266bc8d7eb30ce0a5e1930325497e9f',1,'autocvars.qh']]],
+  ['autocvar_5fsv_5fjumpvelocity_5fcrouch',['autocvar_sv_jumpvelocity_crouch',['../d7/da7/server_2autocvars_8qh.html#ae56e9f080cc7b3b3c377567c8bbad4c3',1,'autocvars.qh']]],
   ['autocvar_5fsv_5flogscores_5fbots',['autocvar_sv_logscores_bots',['../d7/da7/server_2autocvars_8qh.html#af08f5005a24214f02a5cce0c427f1da4',1,'autocvars.qh']]],
   ['autocvar_5fsv_5flogscores_5fconsole',['autocvar_sv_logscores_console',['../d7/da7/server_2autocvars_8qh.html#aadf8b1e16de2f6849526e71045c8f8fd',1,'autocvars.qh']]],
   ['autocvar_5fsv_5flogscores_5ffile',['autocvar_sv_logscores_file',['../d7/da7/server_2autocvars_8qh.html#a32ec49431441961cd25c1b517521484c',1,'autocvars.qh']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX114 =
 {
+"dd/d0f/classTeslaCoilTurretAttack.html#ab39ead48189a4839b8acfa1376c68dc0":[1,0,126,32],
 "dd/d0f/classTeslaCoilTurretAttack.html#abb0fb58ffbc9dd30e89b0f5612b9c5e2":[1,0,126,31],
 "dd/d0f/classTeslaCoilTurretAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,126,10],
 "dd/d0f/classTeslaCoilTurretAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,126,36],
@@ -91,8 +92,8 @@ var NAVTREEINDEX114 =
 "dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1":[2,0,6,1,2,8],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,3],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,2],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
 "dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0":[2,0,6,1,2,11],
 "dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca":[2,0,6,1,2,12],
 "dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114":[2,0,6,1,2,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX114 =
 "dd/d43/cl__turrets_8qc.html#a5d418fca3cce0471a26810a234feae15":[2,0,1,14,7,10],
 "dd/d43/cl__turrets_8qc.html#a64d2520acfd864817d8e1ddc8c94089f":[2,0,1,14,7,4],
 "dd/d43/cl__turrets_8qc.html#a765708b12a85db1317da69da39087124":[2,0,1,14,7,8],
-"dd/d43/cl__turrets_8qc.html#a88e2b9692e03e7446a148bbfc8fc6a39":[2,0,1,14,7,5],
-"dd/d43/cl__turrets_8qc.html#a8a5aa44dc52f648c1cbbb4bcce5d119a":[2,0,1,14,7,2]
+"dd/d43/cl__turrets_8qc.html#a88e2b9692e03e7446a148bbfc8fc6a39":[2,0,1,14,7,5]
 };

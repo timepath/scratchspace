@@ -1,10 +1,11 @@
 var NAVTREEINDEX73 =
 {
+"d8/d1c/sv__spawn_8qc_source.html":[2,0,1,8,8],
 "d8/d1d/cmd_8qc.html":[2,0,6,1,4],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,3],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,2],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,0],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,1],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,2],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,3],
 "d8/d1d/cmd_8qc.html#a0702129e58317d01f1e8a8f6d9d75ed9":[2,0,6,1,4,17],
 "d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665":[2,0,6,1,4,28],
 "d8/d1d/cmd_8qc.html#a0f2b9dadcca7d1430005c2ac984b79f4":[2,0,6,1,4,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "d8/d39/classXonoticGametypeList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,172,31],
 "d8/d39/classXonoticGametypeList.html#af97e0d0a792b4465b6e2aa6ba988cad0":[1,0,172,32],
 "d8/d39/classXonoticGametypeList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,172,23],
-"d8/d39/classXonoticGametypeList.html#afdcf1fb79903f747cda494b27206526b":[1,0,172,1],
-"d8/d39/havocbot_8qh.html":[2,0,6,0,0,0,3]
+"d8/d39/classXonoticGametypeList.html#afdcf1fb79903f747cda494b27206526b":[1,0,172,1]
 };

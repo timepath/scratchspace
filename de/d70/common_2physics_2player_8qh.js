@@ -53,6 +53,7 @@ var common_2physics_2player_8qh =
     [ "PHYS_JETPACK_REVERSE_THRUST", "de/d70/common_2physics_2player_8qh.html#a334a13efc1a8ae727150d20abfd26150", null ],
     [ "PHYS_JUMPSPEEDCAP_DISABLE_ONRAMPS", "de/d70/common_2physics_2player_8qh.html#af5b2db0f6f75824d35dd6c5c0cadebc1", null ],
     [ "PHYS_JUMPVELOCITY", "de/d70/common_2physics_2player_8qh.html#a52f0344cdc4f5d196d67d6a41491d859", null ],
+    [ "PHYS_JUMPVELOCITY_CROUCH", "de/d70/common_2physics_2player_8qh.html#a8e53012e5ad7c47ed43c0c8b35a478b5", null ],
     [ "PHYS_MAXAIRSPEED", "de/d70/common_2physics_2player_8qh.html#a7f6e3922636517a6e48b3ee87259e0ce", null ],
     [ "PHYS_MAXAIRSTRAFESPEED", "de/d70/common_2physics_2player_8qh.html#a3705f9a23aa6c7a0663dcabde7c8214e", null ],
     [ "PHYS_MAXSPEED", "de/d70/common_2physics_2player_8qh.html#ac485f0cdaea7c3acc75d5466bfef190f", null ],
