@@ -1,9 +1,11 @@
 var classShockwave =
 [
+    [ "ATTRIB", "da/d13/classShockwave.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "da/d13/classShockwave.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "da/d13/classShockwave.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "da/d13/classShockwave.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "da/d13/classShockwave.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "da/d13/classShockwave.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "da/d13/classShockwave.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "da/d13/classShockwave.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "da/d13/classShockwave.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classShockwave =
     [ "ammo_type", "da/d13/classShockwave.html#a469800bbb95ee106d8b555dff1c9d8e4", null ],
     [ "bot_pickupbasevalue", "da/d13/classShockwave.html#a2ae6f5266386213cc74fc9905aff71ba", null ],
     [ "impulse", "da/d13/classShockwave.html#a6a2ecbec331fdeefcb8ed171bab217b8", null ],
+    [ "m_canonical_spawnfunc", "da/d13/classShockwave.html#adce573c56f03f0bc817eb4c8e21bc522", null ],
     [ "m_id", "da/d13/classShockwave.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "da/d13/classShockwave.html#a08e28f6756548152ade6d1744dcfab9b", null ],
     [ "mdl", "da/d13/classShockwave.html#a9e3d41334eb7d60e9d458393bf5f35f1", null ],

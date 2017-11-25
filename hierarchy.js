@@ -28,11 +28,17 @@ var hierarchy =
       [ "EffectInfoGroup", "d2/d52/classEffectInfoGroup.html", null ],
       [ "GameItem", "d0/d9a/classGameItem.html", [
         [ "Pickup", "d4/d93/classPickup.html", [
-          [ "Ammo", "dc/dda/classAmmo.html", null ],
+          [ "Ammo", "dc/dda/classAmmo.html", [
+            [ "Bullets", "d1/d8d/classBullets.html", null ],
+            [ "Shells", "d2/d15/classShells.html", null ]
+          ] ],
           [ "Armor", "d5/df0/classArmor.html", null ],
           [ "Buff", "de/d3c/classBuff.html", null ],
           [ "Health", "d5/d64/classHealth.html", null ],
-          [ "Powerup", "d5/d65/classPowerup.html", null ],
+          [ "Powerup", "d5/d65/classPowerup.html", [
+            [ "Jetpack", "d0/db7/classJetpack.html", null ],
+            [ "JetpackRegen", "d9/d0c/classJetpackRegen.html", null ]
+          ] ],
           [ "WeaponPickup", "d8/def/classWeaponPickup.html", null ]
         ] ]
       ] ],

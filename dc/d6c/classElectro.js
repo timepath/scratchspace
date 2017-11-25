@@ -1,9 +1,11 @@
 var classElectro =
 [
+    [ "ATTRIB", "dc/d6c/classElectro.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "dc/d6c/classElectro.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "dc/d6c/classElectro.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "dc/d6c/classElectro.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "dc/d6c/classElectro.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "dc/d6c/classElectro.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "dc/d6c/classElectro.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "dc/d6c/classElectro.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "dc/d6c/classElectro.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classElectro =
     [ "ammo_type", "dc/d6c/classElectro.html#accfc52c518a1695331aeeaf903aa40fa", null ],
     [ "bot_pickupbasevalue", "dc/d6c/classElectro.html#ab23bedb49b0c3c08b34346e22100aced", null ],
     [ "impulse", "dc/d6c/classElectro.html#ab3fe632d56cc6297d21df094350f77d9", null ],
+    [ "m_canonical_spawnfunc", "dc/d6c/classElectro.html#addd58fc237b23f0d0e911e46d4024414", null ],
     [ "m_id", "dc/d6c/classElectro.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "dc/d6c/classElectro.html#a945961c4c41d49c8e3f94312947604b5", null ],
     [ "mdl", "dc/d6c/classElectro.html#a4604acb234d9ecadf3d03804c09f82c3", null ],

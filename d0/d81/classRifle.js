@@ -1,9 +1,11 @@
 var classRifle =
 [
+    [ "ATTRIB", "d0/d81/classRifle.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d0/d81/classRifle.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d0/d81/classRifle.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d0/d81/classRifle.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d0/d81/classRifle.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d0/d81/classRifle.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d0/d81/classRifle.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d0/d81/classRifle.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d0/d81/classRifle.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classRifle =
     [ "ammo_type", "d0/d81/classRifle.html#a267ed876501f592766d2093314176d09", null ],
     [ "bot_pickupbasevalue", "d0/d81/classRifle.html#a62733317377efccb19770f9b187ae35c", null ],
     [ "impulse", "d0/d81/classRifle.html#a410842e36facf9d2068da07c63b7f0c1", null ],
+    [ "m_canonical_spawnfunc", "d0/d81/classRifle.html#a006af506069e1c594566b3194af6396d", null ],
     [ "m_id", "d0/d81/classRifle.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d0/d81/classRifle.html#a114db77fd45b97efe2ca431d3d2f6c3b", null ],
     [ "mdl", "d0/d81/classRifle.html#a24cb9d80ab139b942d7c90d93e55e0b5", null ],

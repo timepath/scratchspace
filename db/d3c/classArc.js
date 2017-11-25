@@ -1,9 +1,11 @@
 var classArc =
 [
+    [ "ATTRIB", "db/d3c/classArc.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "db/d3c/classArc.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "db/d3c/classArc.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "db/d3c/classArc.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "db/d3c/classArc.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "db/d3c/classArc.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "db/d3c/classArc.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "db/d3c/classArc.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "db/d3c/classArc.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classArc =
     [ "ammo_type", "db/d3c/classArc.html#a820b0eec1bd4c8f136677084e3cec65d", null ],
     [ "bot_pickupbasevalue", "db/d3c/classArc.html#ae0a509098068a29d9ef781b063c35d0e", null ],
     [ "impulse", "db/d3c/classArc.html#a3ed4692aa1b8bf1d283184288bc8a70a", null ],
+    [ "m_canonical_spawnfunc", "db/d3c/classArc.html#aa62aabf3ce1e2e873112bf47b477a38c", null ],
     [ "m_id", "db/d3c/classArc.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "db/d3c/classArc.html#a97df2fcca62083efe293f759373b2e98", null ],
     [ "mdl", "db/d3c/classArc.html#ab8aeb9c30f5600afc253dc5ba84ad31e", null ],

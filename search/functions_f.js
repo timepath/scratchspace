@@ -9,7 +9,6 @@ var searchData=
   ['offhand_5fthink',['offhand_think',['../d0/dbc/classOffhandWeapon.html#a3eebb9e4c20d2c338b773a030eca0ee0',1,'OffhandWeapon']]],
   ['ok_5fdropitem',['ok_DropItem',['../d8/d0c/sv__overkill_8qc.html#af9ffca40bf7744bacacbc7b729c20241',1,'sv_overkill.qc']]],
   ['ok_5fhandleitemwaypoints',['ok_HandleItemWaypoints',['../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2',1,'sv_overkill.qc']]],
-  ['ok_5finitialize',['ok_Initialize',['../d8/d0c/sv__overkill_8qc.html#a03452068b9a7bb16d129885c1b7a030e',1,'sv_overkill.qc']]],
   ['onlinebanlist_5fsendban',['OnlineBanList_SendBan',['../d6/d95/ipban_8qc.html#af51c28998f80bfe0ae47392282da7e2b',1,'ipban.qc']]],
   ['onlinebanlist_5fsendunban',['OnlineBanList_SendUnban',['../d6/d95/ipban_8qc.html#a9e8a1083e05b4a62b6f5f8bb9c9db94d',1,'ipban.qc']]],
   ['onlinebanlist_5fthink',['OnlineBanList_Think',['../d6/d95/ipban_8qc.html#a04090e689e3bf01db8617ce67872c1c6',1,'ipban.qc']]],

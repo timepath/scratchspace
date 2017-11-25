@@ -1,9 +1,11 @@
 var classHagar =
 [
+    [ "ATTRIB", "d4/d87/classHagar.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d4/d87/classHagar.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d4/d87/classHagar.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d4/d87/classHagar.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d4/d87/classHagar.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d4/d87/classHagar.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d4/d87/classHagar.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d4/d87/classHagar.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d4/d87/classHagar.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classHagar =
     [ "ammo_type", "d4/d87/classHagar.html#af180c89aed712c19226e9bf4c91941b3", null ],
     [ "bot_pickupbasevalue", "d4/d87/classHagar.html#aa73cd57b3321d3f2fea34b4e62dbd7b6", null ],
     [ "impulse", "d4/d87/classHagar.html#a766b99c641b6edf45fc811b21747a8f5", null ],
+    [ "m_canonical_spawnfunc", "d4/d87/classHagar.html#a97f5f020259986edd92d35c78dff617b", null ],
     [ "m_id", "d4/d87/classHagar.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d4/d87/classHagar.html#a11327b484b6a3417024bef2a1c91c653", null ],
     [ "mdl", "d4/d87/classHagar.html#aff52b16f5e232f9aaec1b24ae8cf43b8", null ],

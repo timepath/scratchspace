@@ -16,6 +16,5 @@ var weaponsystem_8qh =
     [ "weapon_thinkf", "da/db7/weaponsystem_8qh.html#a2c942b58576428eb5b55f9d6ca107a49", null ],
     [ "internalteam", "da/db7/weaponsystem_8qh.html#a460ba8ea4c78b7617eade17eb383d86b", null ],
     [ "weapon_dropevent_item", "da/db7/weaponsystem_8qh.html#a359b963d3e3912a3abe4dcac224cf5f9", null ],
-    [ "weaponentity_fld", "da/db7/weaponsystem_8qh.html#ab77c36c89a03dbb675a9350144e5faec", null ],
-    [ "weaponswapping", "da/db7/weaponsystem_8qh.html#a3b99ca2533dba372262408c438993ce3", null ]
+    [ "weaponentity_fld", "da/db7/weaponsystem_8qh.html#ab77c36c89a03dbb675a9350144e5faec", null ]
 ];

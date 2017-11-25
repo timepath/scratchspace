@@ -2,6 +2,11 @@ var common_2items_2item_8qh =
 [
     [ "GameItem", "d0/d9a/classGameItem.html", "d0/d9a/classGameItem" ],
     [ "ITEM_HANDLE", "d7/d7c/common_2items_2item_8qh.html#ae7615b4e3cf65501fdd057a3b418d795", null ],
+    [ "SPAWNFUNC_ITEM", "d7/d7c/common_2items_2item_8qh.html#a7bdf5dd6eba15157f42fd849a7e4f8b2", null ],
+    [ "ITEM_FLAG_NORMAL", "d7/d7c/common_2items_2item_8qh.html#a06fc87d81c62e9abb8790b6e5713c55ba9a835d3cc458c89ae00029921ac3f37e", null ],
+    [ "ITEM_FLAG_INSTAGIB", "d7/d7c/common_2items_2item_8qh.html#a06fc87d81c62e9abb8790b6e5713c55ba40c7b55a4feaa7b47d03ebe4ee46eb86", null ],
+    [ "ITEM_FLAG_OVERKILL", "d7/d7c/common_2items_2item_8qh.html#a06fc87d81c62e9abb8790b6e5713c55ba3c30016fbbdb6bbf2da4106d8dc86e89", null ],
+    [ "ITEM_FLAG_MUTATORBLOCKED", "d7/d7c/common_2items_2item_8qh.html#a06fc87d81c62e9abb8790b6e5713c55ba316fbbf37327cad99846329c4a741175", null ],
     [ "IT_25HP", "d7/d7c/common_2items_2item_8qh.html#aef700bb44050a793f050457d34440288", null ],
     [ "IT_5HP", "d7/d7c/common_2items_2item_8qh.html#af7c0a54d97c46f745049b7588336031b", null ],
     [ "IT_ARMOR", "d7/d7c/common_2items_2item_8qh.html#ae2b65d0141ab9af9139eb46f4156849b", null ],

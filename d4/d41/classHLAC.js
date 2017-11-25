@@ -1,9 +1,11 @@
 var classHLAC =
 [
+    [ "ATTRIB", "d4/d41/classHLAC.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d4/d41/classHLAC.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d4/d41/classHLAC.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d4/d41/classHLAC.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d4/d41/classHLAC.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d4/d41/classHLAC.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d4/d41/classHLAC.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d4/d41/classHLAC.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d4/d41/classHLAC.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classHLAC =
     [ "ammo_type", "d4/d41/classHLAC.html#ae90301d90c90a20610cd462127a1b3e4", null ],
     [ "bot_pickupbasevalue", "d4/d41/classHLAC.html#a8d201e202dfd220a70d7f46ba13f8970", null ],
     [ "impulse", "d4/d41/classHLAC.html#a3193f6fcbcac6098952b55d1e09825d8", null ],
+    [ "m_canonical_spawnfunc", "d4/d41/classHLAC.html#a479ab0457dc9fd5a8422cb56d15dd760", null ],
     [ "m_id", "d4/d41/classHLAC.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d4/d41/classHLAC.html#a8c5ff42176257cb27b56c6bd041b4189", null ],
     [ "mdl", "d4/d41/classHLAC.html#a2e4cbca1595e4e60763ce1a6e29653cf", null ],

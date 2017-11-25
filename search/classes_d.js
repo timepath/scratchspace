@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['object',['Object',['../d8/d4b/classObject.html',1,'']]],
-  ['observer',['Observer',['../de/dab/classObserver.html',1,'']]],
-  ['offhandhook',['OffhandHook',['../da/dde/classOffhandHook.html',1,'']]],
-  ['offhandweapon',['OffhandWeapon',['../d0/dbc/classOffhandWeapon.html',1,'']]],
-  ['onslaught',['Onslaught',['../d0/dab/classOnslaught.html',1,'']]]
+  ['nade',['Nade',['../d9/d61/classNade.html',1,'']]],
+  ['nexball',['NexBall',['../dd/de4/classNexBall.html',1,'']]],
+  ['nexposee',['Nexposee',['../d8/d95/classNexposee.html',1,'']]]
 ];

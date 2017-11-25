@@ -1,14 +1,13 @@
 var searchData=
 [
-  ['race',['Race',['../dd/dd0/classRace.html',1,'']]],
-  ['racects',['RaceCTS',['../d6/d96/classRaceCTS.html',1,'']]],
-  ['racer',['Racer',['../dd/dd7/classRacer.html',1,'']]],
-  ['racerattack',['RacerAttack',['../d4/de8/classRacerAttack.html',1,'']]],
-  ['radiobutton',['RadioButton',['../d1/d5b/classRadioButton.html',1,'']]],
-  ['raptor',['Raptor',['../d8/d12/classRaptor.html',1,'']]],
-  ['raptorbomb',['RaptorBomb',['../d4/da9/classRaptorBomb.html',1,'']]],
-  ['raptorcannon',['RaptorCannon',['../d6/d01/classRaptorCannon.html',1,'']]],
-  ['raptorflare',['RaptorFlare',['../dd/d90/classRaptorFlare.html',1,'']]],
-  ['rifle',['Rifle',['../d0/d81/classRifle.html',1,'']]],
-  ['rocketpropelledchainsaw',['RocketPropelledChainsaw',['../d1/d00/classRocketPropelledChainsaw.html',1,'']]]
+  ['phaserturret',['PhaserTurret',['../d6/d66/classPhaserTurret.html',1,'']]],
+  ['phaserturretattack',['PhaserTurretAttack',['../df/d78/classPhaserTurretAttack.html',1,'']]],
+  ['pickup',['Pickup',['../d4/d93/classPickup.html',1,'']]],
+  ['plasmaattack',['PlasmaAttack',['../db/dfa/classPlasmaAttack.html',1,'']]],
+  ['plasmadualattack',['PlasmaDualAttack',['../d8/dfe/classPlasmaDualAttack.html',1,'']]],
+  ['plasmaturret',['PlasmaTurret',['../dc/d2a/classPlasmaTurret.html',1,'']]],
+  ['player',['Player',['../d2/d4b/classPlayer.html',1,'']]],
+  ['playerstate',['PlayerState',['../d5/d7e/classPlayerState.html',1,'']]],
+  ['portolaunch',['PortoLaunch',['../d2/dd3/classPortoLaunch.html',1,'']]],
+  ['powerup',['Powerup',['../d5/d65/classPowerup.html',1,'']]]
 ];

@@ -1,9 +1,11 @@
 var classShotgun =
 [
+    [ "ATTRIB", "d8/dd3/classShotgun.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d8/dd3/classShotgun.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d8/dd3/classShotgun.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d8/dd3/classShotgun.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d8/dd3/classShotgun.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d8/dd3/classShotgun.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d8/dd3/classShotgun.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d8/dd3/classShotgun.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d8/dd3/classShotgun.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classShotgun =
     [ "ammo_type", "d8/dd3/classShotgun.html#ae13bf476f2c3668c25ecfb5481ef9dd6", null ],
     [ "bot_pickupbasevalue", "d8/dd3/classShotgun.html#a2a2c18e6c0451d1fe15a8bb2b4715b11", null ],
     [ "impulse", "d8/dd3/classShotgun.html#ab24caf167edfb003ad2ca937ffab003b", null ],
+    [ "m_canonical_spawnfunc", "d8/dd3/classShotgun.html#a753131a5dfb922a48ad185960d48e3d2", null ],
     [ "m_id", "d8/dd3/classShotgun.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d8/dd3/classShotgun.html#a5224e6ddb967b39cfece9a974b6bef1d", null ],
     [ "mdl", "d8/dd3/classShotgun.html#a88b891165f62fbeaca0ad65fdff02eef", null ],

@@ -291,7 +291,6 @@ var server_2defs_8qh =
     [ "vortex_charge_rottime", "d5/d26/server_2defs_8qh.html#a034d7dc235642e26bd4ecc95532ed089", null ],
     [ "vortex_chargepool_ammo", "d5/d26/server_2defs_8qh.html#a1af62b08fa4568eb824b39cccc803e57", null ],
     [ "W_TICSPERFRAME", "d5/d26/server_2defs_8qh.html#ac6417073598ae2a533bf142589e66833", null ],
-    [ "warmup_limit", "d5/d26/server_2defs_8qh.html#a2f5a593dd63b36d5d868a19d06326523", null ],
     [ "warmup_stage", "d5/d26/server_2defs_8qh.html#af6088979e4328d96a754cc483d1672d9", null ],
     [ "wasplayer", "d5/d26/server_2defs_8qh.html#a32a4dd8d5385cd0d5fd0dc5fa3daf732", null ],
     [ "watersound_finished", "d5/d26/server_2defs_8qh.html#a4559bb7f78065ba068480a3b6063db69", null ],

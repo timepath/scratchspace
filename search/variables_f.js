@@ -6,7 +6,7 @@ var searchData=
   ['offhand_5fhook',['OFFHAND_HOOK',['../d5/dc4/hook_8qh.html#a26c1ac788f42d8ea1729fee825f749fd',1,'hook.qh']]],
   ['offset_5fcursor',['OFFSET_CURSOR',['../d0/d2a/client_2main_8qh.html#abe02bc8f982ce063f9878f9beae11f1b',1,'main.qh']]],
   ['offvalue',['offValue',['../db/d38/classXonoticSliderCheckBox.html#a4e5f3b4dda55b50588c4fb421585cf94',1,'XonoticSliderCheckBox']]],
-  ['ok_5fitem',['ok_item',['../d8/d0c/sv__overkill_8qc.html#a45c2850f79fb413dfe83bd689f45115a',1,'sv_overkill.qc']]],
+  ['ok_5fitem',['ok_item',['../d9/dbc/sv__overkill_8qh.html#a45c2850f79fb413dfe83bd689f45115a',1,'sv_overkill.qh']]],
   ['ok_5flastwep',['ok_lastwep',['../d8/d0c/sv__overkill_8qc.html#a1f5b682ab4a4eb9896ca64778b726a80',1,'sv_overkill.qc']]],
   ['old_5fbluralpha',['old_bluralpha',['../d6/dd3/view_8qc.html#a71182767c3a892f67ee44db04be80172',1,'view.qc']]],
   ['old_5fblurradius',['old_blurradius',['../d6/dd3/view_8qc.html#a5bf4e8b5377587eed4e3d50cc0d823b2',1,'view.qc']]],

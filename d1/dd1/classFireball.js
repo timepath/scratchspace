@@ -1,9 +1,11 @@
 var classFireball =
 [
+    [ "ATTRIB", "d1/dd1/classFireball.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d1/dd1/classFireball.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d1/dd1/classFireball.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d1/dd1/classFireball.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d1/dd1/classFireball.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d1/dd1/classFireball.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d1/dd1/classFireball.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d1/dd1/classFireball.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d1/dd1/classFireball.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classFireball =
     [ "ammo_type", "d1/dd1/classFireball.html#a469800bbb95ee106d8b555dff1c9d8e4", null ],
     [ "bot_pickupbasevalue", "d1/dd1/classFireball.html#a6d2c84f0a32544542dfbb29f8a078ef6", null ],
     [ "impulse", "d1/dd1/classFireball.html#af6941bfadd7f32ced9be9b65094f2925", null ],
+    [ "m_canonical_spawnfunc", "d1/dd1/classFireball.html#a9893a6b9a4b0677759703ebe59b9a3c4", null ],
     [ "m_id", "d1/dd1/classFireball.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d1/dd1/classFireball.html#a2dfd166425af0e8e7e79d69521c772ab", null ],
     [ "mdl", "d1/dd1/classFireball.html#ac4b2b4b4ad590844a6dd17e0bf33c58f", null ],

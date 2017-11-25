@@ -1,9 +1,11 @@
 var classVaporizer =
 [
+    [ "ATTRIB", "d5/d99/classVaporizer.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d5/d99/classVaporizer.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d5/d99/classVaporizer.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d5/d99/classVaporizer.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d5/d99/classVaporizer.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d5/d99/classVaporizer.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d5/d99/classVaporizer.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d5/d99/classVaporizer.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d5/d99/classVaporizer.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classVaporizer =
     [ "ammo_type", "d5/d99/classVaporizer.html#a69e6ed7b03831ed7050fb091196cd57b", null ],
     [ "bot_pickupbasevalue", "d5/d99/classVaporizer.html#a1b01884770cf782e1003225a352033dd", null ],
     [ "impulse", "d5/d99/classVaporizer.html#a12b0ba95c9e30c47108c50ac2f2b3901", null ],
+    [ "m_canonical_spawnfunc", "d5/d99/classVaporizer.html#a17b93a5b1c7d428d5bcd691b5484af56", null ],
     [ "m_id", "d5/d99/classVaporizer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d5/d99/classVaporizer.html#a408b94a88d25caa17cafa9a1abefc462", null ],
     [ "mdl", "d5/d99/classVaporizer.html#a7ee206484c7c3f48a7b32aca00ab22b3", null ],

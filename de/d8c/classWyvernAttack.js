@@ -1,9 +1,11 @@
 var classWyvernAttack =
 [
+    [ "ATTRIB", "de/d8c/classWyvernAttack.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "de/d8c/classWyvernAttack.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "de/d8c/classWyvernAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "de/d8c/classWyvernAttack.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "de/d8c/classWyvernAttack.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "de/d8c/classWyvernAttack.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "de/d8c/classWyvernAttack.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "de/d8c/classWyvernAttack.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "de/d8c/classWyvernAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classWyvernAttack =
     [ "ammo_type", "de/d8c/classWyvernAttack.html#aade624faa82ff26da9e51f1be39be298", null ],
     [ "bot_pickupbasevalue", "de/d8c/classWyvernAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "de/d8c/classWyvernAttack.html#aae53bfd12b74695cc9f3d8841c483345", null ],
+    [ "m_canonical_spawnfunc", "de/d8c/classWyvernAttack.html#a6e0a37eaab3d64cff4542800f42b1c4c", null ],
     [ "m_id", "de/d8c/classWyvernAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "de/d8c/classWyvernAttack.html#ae1b596b707d1f678083f3e5265cabf81", null ],
     [ "mdl", "de/d8c/classWyvernAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],

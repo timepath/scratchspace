@@ -1,9 +1,11 @@
 var classBlaster =
 [
+    [ "ATTRIB", "d7/d32/classBlaster.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d7/d32/classBlaster.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d7/d32/classBlaster.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d7/d32/classBlaster.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d7/d32/classBlaster.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d7/d32/classBlaster.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d7/d32/classBlaster.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d7/d32/classBlaster.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d7/d32/classBlaster.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classBlaster =
     [ "ammo_type", "d7/d32/classBlaster.html#a469800bbb95ee106d8b555dff1c9d8e4", null ],
     [ "bot_pickupbasevalue", "d7/d32/classBlaster.html#a1c8437833108d8e5fee3535929d05f32", null ],
     [ "impulse", "d7/d32/classBlaster.html#a17f155a849bf1aad1fb6f97232996be9", null ],
+    [ "m_canonical_spawnfunc", "d7/d32/classBlaster.html#a8eeebd3901a545c74a6720f9b23aedf1", null ],
     [ "m_id", "d7/d32/classBlaster.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d7/d32/classBlaster.html#a81dae4670fcc0e3fe0e0648f8816719f", null ],
     [ "mdl", "d7/d32/classBlaster.html#a48d1c8644fbabc4e8d57762dc590e2f8", null ],

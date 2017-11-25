@@ -1,9 +1,11 @@
 var classVortex =
 [
+    [ "ATTRIB", "d4/d17/classVortex.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d4/d17/classVortex.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d4/d17/classVortex.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d4/d17/classVortex.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d4/d17/classVortex.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d4/d17/classVortex.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d4/d17/classVortex.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d4/d17/classVortex.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d4/d17/classVortex.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classVortex =
     [ "ammo_type", "d4/d17/classVortex.html#a400bc5fd8aac9bc59ba6ef4c468353be", null ],
     [ "bot_pickupbasevalue", "d4/d17/classVortex.html#add8cf89912c6ce63565d432a3bb26726", null ],
     [ "impulse", "d4/d17/classVortex.html#ad70d80ed739c82b4eecd022ec4fbcc25", null ],
+    [ "m_canonical_spawnfunc", "d4/d17/classVortex.html#aca1729d438df836995923e2387415d78", null ],
     [ "m_id", "d4/d17/classVortex.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d4/d17/classVortex.html#af7d0bca2ffb78c66e07a3b836757fa58", null ],
     [ "mdl", "d4/d17/classVortex.html#a4a7a378f402d2a24a72bd93c565d53f9", null ],

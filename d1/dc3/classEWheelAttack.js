@@ -1,9 +1,11 @@
 var classEWheelAttack =
 [
+    [ "ATTRIB", "d1/dc3/classEWheelAttack.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d1/dc3/classEWheelAttack.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d1/dc3/classEWheelAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d1/dc3/classEWheelAttack.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d1/dc3/classEWheelAttack.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d1/dc3/classEWheelAttack.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d1/dc3/classEWheelAttack.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d1/dc3/classEWheelAttack.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d1/dc3/classEWheelAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classEWheelAttack =
     [ "ammo_type", "d1/dc3/classEWheelAttack.html#aade624faa82ff26da9e51f1be39be298", null ],
     [ "bot_pickupbasevalue", "d1/dc3/classEWheelAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d1/dc3/classEWheelAttack.html#ae4f58daa33d41cd909d978c3696c03c0", null ],
+    [ "m_canonical_spawnfunc", "d1/dc3/classEWheelAttack.html#a6e0a37eaab3d64cff4542800f42b1c4c", null ],
     [ "m_id", "d1/dc3/classEWheelAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d1/dc3/classEWheelAttack.html#affb7df26d5cf18c594772961a8bbfed8", null ],
     [ "mdl", "d1/dc3/classEWheelAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],

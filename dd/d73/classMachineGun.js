@@ -1,9 +1,11 @@
 var classMachineGun =
 [
+    [ "ATTRIB", "dd/d73/classMachineGun.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "dd/d73/classMachineGun.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "dd/d73/classMachineGun.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "dd/d73/classMachineGun.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "dd/d73/classMachineGun.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "dd/d73/classMachineGun.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "dd/d73/classMachineGun.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "dd/d73/classMachineGun.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "dd/d73/classMachineGun.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classMachineGun =
     [ "ammo_type", "dd/d73/classMachineGun.html#aefc8426bd1db08d18038fad0bdbde2de", null ],
     [ "bot_pickupbasevalue", "dd/d73/classMachineGun.html#ad60581174addffcd546196db2e2e8c56", null ],
     [ "impulse", "dd/d73/classMachineGun.html#af92e2de4a5160754eb3fba3193b01f36", null ],
+    [ "m_canonical_spawnfunc", "dd/d73/classMachineGun.html#aae93ec4cdbab0e4962d71c8f7e81f911", null ],
     [ "m_id", "dd/d73/classMachineGun.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "dd/d73/classMachineGun.html#a328fa9cbf860e91182057847dea9aa97", null ],
     [ "mdl", "dd/d73/classMachineGun.html#ae061f597f731f3a49ca8aecbd33a2713", null ],

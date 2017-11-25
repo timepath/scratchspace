@@ -1,9 +1,11 @@
 var classMineLayer =
 [
+    [ "ATTRIB", "d3/da9/classMineLayer.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d3/da9/classMineLayer.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d3/da9/classMineLayer.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d3/da9/classMineLayer.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d3/da9/classMineLayer.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d3/da9/classMineLayer.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d3/da9/classMineLayer.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d3/da9/classMineLayer.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d3/da9/classMineLayer.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classMineLayer =
     [ "ammo_type", "d3/da9/classMineLayer.html#ab69c7a7956de2f9b43ba243a94285f6b", null ],
     [ "bot_pickupbasevalue", "d3/da9/classMineLayer.html#a81f22076374063c0ac3a8bdb2e35ca3b", null ],
     [ "impulse", "d3/da9/classMineLayer.html#ac72896c0e96c0f0bf6c088cb153ca74e", null ],
+    [ "m_canonical_spawnfunc", "d3/da9/classMineLayer.html#a33c740781961b1afbb1ff408949f59fd", null ],
     [ "m_id", "d3/da9/classMineLayer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d3/da9/classMineLayer.html#af922e49df9b6ab1700cdb2d3f3bbb9d5", null ],
     [ "mdl", "d3/da9/classMineLayer.html#a0495da57f2ea15799bb58ca5ce313c9a", null ],

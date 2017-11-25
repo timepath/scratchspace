@@ -1,9 +1,11 @@
 var classRocketPropelledChainsaw =
 [
+    [ "ATTRIB", "d1/d00/classRocketPropelledChainsaw.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d1/d00/classRocketPropelledChainsaw.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d1/d00/classRocketPropelledChainsaw.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d1/d00/classRocketPropelledChainsaw.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d1/d00/classRocketPropelledChainsaw.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d1/d00/classRocketPropelledChainsaw.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d1/d00/classRocketPropelledChainsaw.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d1/d00/classRocketPropelledChainsaw.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d1/d00/classRocketPropelledChainsaw.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classRocketPropelledChainsaw =
     [ "ammo_type", "d1/d00/classRocketPropelledChainsaw.html#a5d76ec9073c6faaed3b8eb8fc96ff3ae", null ],
     [ "bot_pickupbasevalue", "d1/d00/classRocketPropelledChainsaw.html#a0e17fba9d21c708010df3418d29ec17a", null ],
     [ "impulse", "d1/d00/classRocketPropelledChainsaw.html#a1586a881dc6ffa8db62d262dd64ab579", null ],
+    [ "m_canonical_spawnfunc", "d1/d00/classRocketPropelledChainsaw.html#a91465f40ee3c632088c3e94b89a8d956", null ],
     [ "m_id", "d1/d00/classRocketPropelledChainsaw.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d1/d00/classRocketPropelledChainsaw.html#a64d463ef4aeb6be8ab123a3ddb6fbdbe", null ],
     [ "mdl", "d1/d00/classRocketPropelledChainsaw.html#a68aaa8b4eda0ead11ec38541ef78a3da", null ],

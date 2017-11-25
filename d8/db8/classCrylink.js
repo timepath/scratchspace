@@ -1,9 +1,11 @@
 var classCrylink =
 [
+    [ "ATTRIB", "d8/db8/classCrylink.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d8/db8/classCrylink.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d8/db8/classCrylink.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d8/db8/classCrylink.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d8/db8/classCrylink.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d8/db8/classCrylink.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d8/db8/classCrylink.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d8/db8/classCrylink.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d8/db8/classCrylink.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classCrylink =
     [ "ammo_type", "d8/db8/classCrylink.html#a7dcdd6227920c56bb823fd3fe02210bf", null ],
     [ "bot_pickupbasevalue", "d8/db8/classCrylink.html#a60dd8166f44e3fc48dbae45e8a90f874", null ],
     [ "impulse", "d8/db8/classCrylink.html#a357d71a93793fee25532c9c8eac42f23", null ],
+    [ "m_canonical_spawnfunc", "d8/db8/classCrylink.html#a04802a60e75115ef3d2ace797d13b1fc", null ],
     [ "m_id", "d8/db8/classCrylink.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d8/db8/classCrylink.html#aa93dae3b6a3c57e601d547620f3b9d2a", null ],
     [ "mdl", "d8/db8/classCrylink.html#a7b2ba51cb1e5fcfd1d023c3710d0f28a", null ],

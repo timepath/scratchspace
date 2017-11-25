@@ -1,15 +1,14 @@
 var searchData=
 [
-  ['seeker',['Seeker',['../da/ded/classSeeker.html',1,'']]],
-  ['settingsource',['SettingSource',['../d1/dd1/classSettingSource.html',1,'']]],
-  ['shambler',['Shambler',['../d8/dee/classShambler.html',1,'']]],
-  ['shockwave',['Shockwave',['../da/d13/classShockwave.html',1,'']]],
-  ['shotgun',['Shotgun',['../d8/dd3/classShotgun.html',1,'']]],
-  ['slider',['Slider',['../d3/dbe/classSlider.html',1,'']]],
-  ['sound',['Sound',['../df/d49/classSound.html',1,'']]],
-  ['spectator',['Spectator',['../d1/d48/classSpectator.html',1,'']]],
-  ['spider',['Spider',['../df/d56/classSpider.html',1,'']]],
-  ['spiderattack',['SpiderAttack',['../da/da9/classSpiderAttack.html',1,'']]],
-  ['spiderbot',['Spiderbot',['../df/d0f/classSpiderbot.html',1,'']]],
-  ['stringsource',['StringSource',['../d7/d66/classStringSource.html',1,'']]]
+  ['race',['Race',['../dd/dd0/classRace.html',1,'']]],
+  ['racects',['RaceCTS',['../d6/d96/classRaceCTS.html',1,'']]],
+  ['racer',['Racer',['../dd/dd7/classRacer.html',1,'']]],
+  ['racerattack',['RacerAttack',['../d4/de8/classRacerAttack.html',1,'']]],
+  ['radiobutton',['RadioButton',['../d1/d5b/classRadioButton.html',1,'']]],
+  ['raptor',['Raptor',['../d8/d12/classRaptor.html',1,'']]],
+  ['raptorbomb',['RaptorBomb',['../d4/da9/classRaptorBomb.html',1,'']]],
+  ['raptorcannon',['RaptorCannon',['../d6/d01/classRaptorCannon.html',1,'']]],
+  ['raptorflare',['RaptorFlare',['../dd/d90/classRaptorFlare.html',1,'']]],
+  ['rifle',['Rifle',['../d0/d81/classRifle.html',1,'']]],
+  ['rocketpropelledchainsaw',['RocketPropelledChainsaw',['../d1/d00/classRocketPropelledChainsaw.html',1,'']]]
 ];

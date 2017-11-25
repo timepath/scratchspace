@@ -1,9 +1,11 @@
 var classRaptorCannon =
 [
+    [ "ATTRIB", "d6/d01/classRaptorCannon.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d6/d01/classRaptorCannon.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d6/d01/classRaptorCannon.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d6/d01/classRaptorCannon.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d6/d01/classRaptorCannon.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
+    [ "m_spawnfunc_hookreplace", "d6/d01/classRaptorCannon.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d6/d01/classRaptorCannon.html#a80fa9a65e19370473a29baebc04d0626", null ],
     [ "wr_checkammo1", "d6/d01/classRaptorCannon.html#ab1963e9f2e85c7c11304531a7a8e4313", null ],
     [ "wr_checkammo2", "d6/d01/classRaptorCannon.html#a8adc0f68d514782dc8fe0a1d5af3b310", null ],
@@ -27,6 +29,7 @@ var classRaptorCannon =
     [ "ammo_type", "d6/d01/classRaptorCannon.html#aade624faa82ff26da9e51f1be39be298", null ],
     [ "bot_pickupbasevalue", "d6/d01/classRaptorCannon.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d6/d01/classRaptorCannon.html#a08b28d3fda93d7058ef45040eb566872", null ],
+    [ "m_canonical_spawnfunc", "d6/d01/classRaptorCannon.html#a6e0a37eaab3d64cff4542800f42b1c4c", null ],
     [ "m_id", "d6/d01/classRaptorCannon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_name", "d6/d01/classRaptorCannon.html#a3774cd570d9ebc5b4d96dbcfac13b2fe", null ],
     [ "mdl", "d6/d01/classRaptorCannon.html#aa0a5f1de6ba7228907295012902a136a", null ],
