@@ -1,5 +1,17 @@
 var NAVTREEINDEX58 =
 {
+"d6/db1/draw_8qc.html#ae1d12fec4023cd91c6a64424e88c3e6c":[2,0,5,8,18],
+"d6/db1/draw_8qc.html#ae1fc75c93136d527f4c296ce527311da":[2,0,5,8,8],
+"d6/db1/draw_8qc.html#ae64aac37d55a26279dca938d8ca2e76e":[2,0,5,8,2],
+"d6/db1/draw_8qc.html#ae8b20802138b0f068ab87b7e39396805":[2,0,5,8,5],
+"d6/db1/draw_8qc.html#af4bc6de1670ce740891a12010931e973":[2,0,5,8,11],
+"d6/db1/draw_8qc.html#afe94047bbecfa66eb72ad97ed820c857":[2,0,5,8,15],
+"d6/db1/draw_8qc_source.html":[2,0,5,8],
+"d6/db1/pp_8qh.html":[2,0,1,6,0,12],
+"d6/db1/pp_8qh_source.html":[2,0,1,6,0,12],
+"d6/db8/score_8qh.html":[2,0,0,1,0,33],
+"d6/db8/score_8qh_source.html":[2,0,0,1,0,33],
+"d6/dbd/minigames_8qh.html":[2,0,1,6,8],
 "d6/dbd/minigames_8qh.html#a0aade82a0b9c878798a2e8a75a476a92":[2,0,1,6,8,21],
 "d6/dbd/minigames_8qh.html#a24e2eea380cf6fceca9ff570a7981200":[2,0,1,6,8,14],
 "d6/dbd/minigames_8qh.html#a33e29a863850ccf27a6195fb84af6900":[2,0,1,6,8,23],
@@ -237,17 +249,5 @@ var NAVTREEINDEX58 =
 "d6/dce/sounds_2all_8inc.html#acd4454816686309f808fe4302f32bb8b":[2,0,1,12,2,61],
 "d6/dce/sounds_2all_8inc.html#aceb4a42ddcc24f25231a9c283132d7c2":[2,0,1,12,2,172],
 "d6/dce/sounds_2all_8inc.html#acecb311b48356cc4dde4c27af50ec347":[2,0,1,12,2,7],
-"d6/dce/sounds_2all_8inc.html#acf58acd0ee2fbbb03e6ebc019afbf18c":[2,0,1,12,2,70],
-"d6/dce/sounds_2all_8inc.html#acf7bac41ca9ceefd4134c626a4595335":[2,0,1,12,2,21],
-"d6/dce/sounds_2all_8inc.html#acf888070282ed50458a53e7edc7a8741":[2,0,1,12,2,99],
-"d6/dce/sounds_2all_8inc.html#ad0b3c2923f94048897ab3e3e3d43adfe":[2,0,1,12,2,22],
-"d6/dce/sounds_2all_8inc.html#ad27ea9a192dd6ae2475a1c0b9b34d02d":[2,0,1,12,2,127],
-"d6/dce/sounds_2all_8inc.html#ad386caeca1fa8e72b853121ff3573e66":[2,0,1,12,2,58],
-"d6/dce/sounds_2all_8inc.html#ad4a05c1a5b598997e9922560f183b208":[2,0,1,12,2,33],
-"d6/dce/sounds_2all_8inc.html#ad5e758af43217249bfa0d371eca53b19":[2,0,1,12,2,107],
-"d6/dce/sounds_2all_8inc.html#ad6b5f9ed48537abafb3f6f02d3125643":[2,0,1,12,2,19],
-"d6/dce/sounds_2all_8inc.html#ada25ae4e1dff93364dc3cff5ad6a341c":[2,0,1,12,2,195],
-"d6/dce/sounds_2all_8inc.html#ada75ac212154f93b914c177e65320e44":[2,0,1,12,2,144],
-"d6/dce/sounds_2all_8inc.html#adcca780f7b984d2f6bd71d2c14d9789e":[2,0,1,12,2,126],
-"d6/dce/sounds_2all_8inc.html#add0b72a7133585522f062bf73caed03d":[2,0,1,12,2,117]
+"d6/dce/sounds_2all_8inc.html#acf58acd0ee2fbbb03e6ebc019afbf18c":[2,0,1,12,2,70]
 };

@@ -878,6 +878,8 @@ var searchData=
   ['autocvar_5fg_5fkeyhunt_5fpoint_5fleadlimit',['autocvar_g_keyhunt_point_leadlimit',['../d8/de1/gamemode__keyhunt_8qh.html#ab5aa34fabae7071003592233558cc9fc',1,'gamemode_keyhunt.qh']]],
   ['autocvar_5fg_5fkeyhunt_5fteam_5fspawns',['autocvar_g_keyhunt_team_spawns',['../d8/de1/gamemode__keyhunt_8qh.html#a63927129b40fcc3e1664b7cf9fb7480d',1,'gamemode_keyhunt.qh']]],
   ['autocvar_5fg_5fkeyhunt_5fteams_5foverride',['autocvar_g_keyhunt_teams_override',['../de/d40/gamemode__keyhunt_8qc.html#a3eb7a2cc61d68e5aed599a04b3e12c09',1,'gamemode_keyhunt.qc']]],
+  ['autocvar_5fg_5fkick_5fteamkiller_5flower_5flimit',['autocvar_g_kick_teamkiller_lower_limit',['../d6/d16/sv__kick__teamkiller_8qc.html#a657a6c1fda25555ef02deb6134dbda7a',1,'sv_kick_teamkiller.qc']]],
+  ['autocvar_5fg_5fkick_5fteamkiller_5frate',['autocvar_g_kick_teamkiller_rate',['../d6/d16/sv__kick__teamkiller_8qc.html#afbd0e5bb50260402c47a87e3d97cb5c0',1,'sv_kick_teamkiller.qc']]],
   ['autocvar_5fg_5flms_5fextra_5flives',['autocvar_g_lms_extra_lives',['../d7/db3/gamemode__lms_8qc.html#aad968ef8af76acdcd9b8ed01f342439f',1,'gamemode_lms.qc']]],
   ['autocvar_5fg_5flms_5fjoin_5fanytime',['autocvar_g_lms_join_anytime',['../d7/db3/gamemode__lms_8qc.html#abc480e526e3ffc223326187d18f60793',1,'gamemode_lms.qc']]],
   ['autocvar_5fg_5flms_5flast_5fjoin',['autocvar_g_lms_last_join',['../d7/db3/gamemode__lms_8qc.html#a023242b139bb11bd657c135ee7ecb5a2',1,'gamemode_lms.qc']]],

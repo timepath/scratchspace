@@ -1,11 +1,13 @@
 var NAVTREEINDEX11 =
 {
+"d1/d5c/classMonster.html#a98fd6d803cf7376820bb26fcbca5adbd":[1,0,82,3],
+"d1/d5c/classMonster.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,82,2],
 "d1/d5c/classMonster.html#abbd3a53ddd2019b6933a9e40910cfc58":[1,0,82,5],
 "d1/d5c/classMonster.html#abeccc8cb59830ccce5e4063448eb5ae6":[1,0,82,13],
 "d1/d5c/classMonster.html#adc5acc9cbff0fdce03b8253cfa102777":[1,0,82,7],
 "d1/d5c/classMonster.html#ae9ddb05fd7a217f0ed98336330353294":[1,0,82,8],
-"d1/d5e/common_2mutators_2mutator_2rocketminsta_2__mod_8qh.html":[2,0,1,9,0,27,1],
-"d1/d5e/common_2mutators_2mutator_2rocketminsta_2__mod_8qh_source.html":[2,0,1,9,0,27,1],
+"d1/d5e/common_2mutators_2mutator_2rocketminsta_2__mod_8qh.html":[2,0,1,9,0,28,1],
+"d1/d5e/common_2mutators_2mutator_2rocketminsta_2__mod_8qh_source.html":[2,0,1,9,0,28,1],
 "d1/d5f/item_2checkbox_8qh.html":[2,0,5,2,7],
 "d1/d5f/item_2checkbox_8qh_source.html":[2,0,5,2,7],
 "d1/d61/dialog__settings__input_8qc.html":[2,0,5,4,140],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "d1/d7e/classXonoticServerListTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,239,46],
 "d1/d7e/classXonoticServerListTab.html#a53de8355052b658819638577356cc8f3":[1,0,239,58],
 "d1/d7e/classXonoticServerListTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,239,89],
-"d1/d7e/classXonoticServerListTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,239,51],
-"d1/d7e/classXonoticServerListTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,239,21],
-"d1/d7e/classXonoticServerListTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,239,65]
+"d1/d7e/classXonoticServerListTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,239,51]
 };

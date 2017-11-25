@@ -1,5 +1,8 @@
 var NAVTREEINDEX24 =
 {
+"d3/d07/scoreboard_8qc.html#a7375d6776cc772c7aa6a43c7f66ea3d5":[2,0,0,1,0,34,2],
+"d3/d07/scoreboard_8qc.html#a7396887b795263e2550e0336c507d697":[2,0,0,1,0,34,7],
+"d3/d07/scoreboard_8qc.html#a73affb2b24587c75ea2d77bf56abea5e":[2,0,0,1,0,34,39],
 "d3/d07/scoreboard_8qc.html#a74115e0ab563be72aa55c1eb17821b42":[2,0,0,1,0,34,57],
 "d3/d07/scoreboard_8qc.html#a74fe9da906a0dda510849ac57116bba3":[2,0,0,1,0,34,10],
 "d3/d07/scoreboard_8qc.html#a786ae1643fa32d62926c79d548105082":[2,0,0,1,0,34,23],
@@ -134,8 +137,8 @@ var NAVTREEINDEX24 =
 "d3/d10/classXonoticCrosshairPicker.html#af9acf6d00c179c136dd3c4c84028cc6e":[1,0,158,10],
 "d3/d10/classXonoticCrosshairPicker.html#afc9428d371ed63dd0316db5558e81d30":[1,0,158,41],
 "d3/d10/classXonoticCrosshairPicker.html#afdcf1fb79903f747cda494b27206526b":[1,0,158,1],
-"d3/d18/common_2mutators_2mutator_2nades_2__mod_8qh.html":[2,0,1,9,0,18,1],
-"d3/d18/common_2mutators_2mutator_2nades_2__mod_8qh_source.html":[2,0,1,9,0,18,1],
+"d3/d18/common_2mutators_2mutator_2nades_2__mod_8qh.html":[2,0,1,9,0,19,1],
+"d3/d18/common_2mutators_2mutator_2nades_2__mod_8qh_source.html":[2,0,1,9,0,19,1],
 "d3/d1b/classLabel.html":[1,0,65],
 "d3/d1b/classLabel.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,65,48],
 "d3/d1b/classLabel.html#a10cf88734594fed24be93889407c0bda":[1,0,65,14],
@@ -242,12 +245,9 @@ var NAVTREEINDEX24 =
 "d3/d2d/accuracy_8qh_source.html":[2,0,6,5,3],
 "d3/d2e/campaign__file_8qh.html":[2,0,1,26],
 "d3/d2e/campaign__file_8qh_source.html":[2,0,1,26],
-"d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc.html":[2,0,1,9,0,30,0],
-"d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc_source.html":[2,0,1,9,0,30,0],
+"d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc.html":[2,0,1,9,0,31,0],
+"d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc_source.html":[2,0,1,9,0,31,0],
 "d3/d2e/languagelist_8qc.html":[2,0,5,4,174],
 "d3/d2e/languagelist_8qc.html#a084f88a32f5ba9c0c7fea824b3e33b04":[2,0,5,4,174,6],
-"d3/d2e/languagelist_8qc.html#a1c488afed1c6db318c2cbe5da89d3e4a":[2,0,5,4,174,18],
-"d3/d2e/languagelist_8qc.html#a242e04040e1fa2593985edd6193c7908":[2,0,5,4,174,7],
-"d3/d2e/languagelist_8qc.html#a2c73766616a28566d20a524a6ed2823a":[2,0,5,4,174,1],
-"d3/d2e/languagelist_8qc.html#a43cadcc18618e07c6eb73bbbd9f15b59":[2,0,5,4,174,2]
+"d3/d2e/languagelist_8qc.html#a1c488afed1c6db318c2cbe5da89d3e4a":[2,0,5,4,174,18]
 };

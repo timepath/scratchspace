@@ -16,7 +16,7 @@ var server_2scores_8qh =
     [ "ScoreInfo_SetLabel_PlayerScore", "d5/dac/server_2scores_8qh.html#a601d5f667de9976b2a1ca7f6fc6051de", null ],
     [ "ScoreInfo_SetLabel_TeamScore", "d5/dac/server_2scores_8qh.html#afc148f5f21c7b4c29db8ffeabfb26882", null ],
     [ "TeamScore_Add", "d5/dac/server_2scores_8qh.html#a394bf84d67f07e376beeff4a5c6ed94c", null ],
-    [ "TeamScore_AddToTeam", "d5/dac/server_2scores_8qh.html#a2f5738674b5f6bac88679dd31ac2de9e", null ],
+    [ "TeamScore_AddToTeam", "d5/dac/server_2scores_8qh.html#a74bac5f29749ffee855cd6a5d0e18836", null ],
     [ "TeamScore_GetCompareValue", "d5/dac/server_2scores_8qh.html#a49ab4c157dab975433e94a16f05d9d17", null ],
     [ "WinningConditionHelper", "d5/dac/server_2scores_8qh.html#a4b24b2ecfa2e6d4914ed47ce8d16472f", null ],
     [ "scoreboard_pos", "d5/dac/server_2scores_8qh.html#a0cf85aa93c9a2c5aa8f70c877d9d42dc", null ],

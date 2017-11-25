@@ -111,6 +111,7 @@ var classPlayer =
     [ "specialcommand_pos", "d2/d4b/classPlayer.html#abe38711c8778c1548110c19e6835909d", null ],
     [ "spectatee_status", "d2/d4b/classPlayer.html#a7726503c7f30546802017511a4c25937", null ],
     [ "spectatortime", "d2/d4b/classPlayer.html#aa707f23bd099623cdeaa19d50afd3351", null ],
+    [ "startplaytime", "d2/d4b/classPlayer.html#ae36b0dc9d9ffc299eb71f0e579e5f805", null ],
     [ "taunt_soundtime", "d2/d4b/classPlayer.html#a9bbd350ba715f5cfec4ea084e87381e8", null ],
     [ "team", "d2/d4b/classPlayer.html#a22032ccc0d6a0e1b5c8d152fa5d5258e", null ],
     [ "teamkill_complain", "d2/d4b/classPlayer.html#ad44c0feb49f09eefc2a950cc8c6100bd", null ],

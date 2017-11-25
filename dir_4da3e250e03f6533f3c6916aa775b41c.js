@@ -15,6 +15,7 @@ var dir_4da3e250e03f6533f3c6916aa775b41c =
     [ "instagib", "dir_37818b0dce32e02a5f5a4a96cf829288.html", "dir_37818b0dce32e02a5f5a4a96cf829288" ],
     [ "invincibleproj", "dir_605ca3db3b03821e840695b3f16c646d.html", "dir_605ca3db3b03821e840695b3f16c646d" ],
     [ "itemstime", "dir_b71dc7689c9bf51e87a7e1d497744d3c.html", "dir_b71dc7689c9bf51e87a7e1d497744d3c" ],
+    [ "kick_teamkiller", "dir_ed84a8cd5dd72c8269a39f135931ec52.html", "dir_ed84a8cd5dd72c8269a39f135931ec52" ],
     [ "melee_only", "dir_955cc29256ddce4e0fe4a772b823ba02.html", "dir_955cc29256ddce4e0fe4a772b823ba02" ],
     [ "midair", "dir_4ac90a8637fec137e2b7c4c5edbccddf.html", "dir_4ac90a8637fec137e2b7c4c5edbccddf" ],
     [ "multijump", "dir_0c3ec26f6592f749c61a1603936c4614.html", "dir_0c3ec26f6592f749c61a1603936c4614" ],

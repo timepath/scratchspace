@@ -27,7 +27,7 @@ var scores_8qc =
     [ "ScoreInfo_SetLabel_PlayerScore", "d2/d79/scores_8qc.html#a601d5f667de9976b2a1ca7f6fc6051de", null ],
     [ "ScoreInfo_SetLabel_TeamScore", "d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882", null ],
     [ "TeamScore_Add", "d2/d79/scores_8qc.html#a394bf84d67f07e376beeff4a5c6ed94c", null ],
-    [ "TeamScore_AddToTeam", "d2/d79/scores_8qc.html#a2f5738674b5f6bac88679dd31ac2de9e", null ],
+    [ "TeamScore_AddToTeam", "d2/d79/scores_8qc.html#a74bac5f29749ffee855cd6a5d0e18836", null ],
     [ "TeamScore_Compare", "d2/d79/scores_8qc.html#ab1cac4ea697e08d564ef09bf4cd1c822", null ],
     [ "TeamScore_GetCompareValue", "d2/d79/scores_8qc.html#a49ab4c157dab975433e94a16f05d9d17", null ],
     [ "TeamScore_SendEntity", "d2/d79/scores_8qc.html#afada77c7b9046dc439737459f196231a", null ],

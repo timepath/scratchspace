@@ -1,5 +1,11 @@
 var NAVTREEINDEX53 =
 {
+"d6/d11/progsdefs_8qc.html#abe4e050924eff90ba0eb7a1ce50c9388":[2,0,2,0,4,124],
+"d6/d11/progsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29":[2,0,2,0,4,172],
+"d6/d11/progsdefs_8qc.html#abfe9a5ddfb6e7e96f7c61d70a0dc3c24":[2,0,2,0,4,76],
+"d6/d11/progsdefs_8qc.html#ac155f83066f9eec239e948e75a5d5058":[2,0,2,0,4,66],
+"d6/d11/progsdefs_8qc.html#ac1a15d0906558455a9ac0abe3fb4990c":[2,0,2,0,4,8],
+"d6/d11/progsdefs_8qc.html#ac1b97698a394fbd74075079df8e0265c":[2,0,2,0,4,55],
 "d6/d11/progsdefs_8qc.html#ac256aa174b6cb4b906bcdce1adf835ef":[2,0,2,0,4,209],
 "d6/d11/progsdefs_8qc.html#ac3984fbe7ec86d67f394d75a9b0cf005":[2,0,2,0,4,86],
 "d6/d11/progsdefs_8qc.html#ac3dc4ea1fa627d7e2117cc48aeddaca0":[2,0,2,0,4,57],
@@ -158,6 +164,12 @@ var NAVTREEINDEX53 =
 "d6/d15/classXonoticWeaponsList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,257,31],
 "d6/d15/classXonoticWeaponsList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,257,24],
 "d6/d15/classXonoticWeaponsList.html#afdcf1fb79903f747cda494b27206526b":[1,0,257,2],
+"d6/d16/sv__kick__teamkiller_8qc.html":[2,0,1,9,0,15,2],
+"d6/d16/sv__kick__teamkiller_8qc.html#a3b230d53545f54263c0a2ff3c1086b4e":[2,0,1,9,0,15,2,0],
+"d6/d16/sv__kick__teamkiller_8qc.html#a657a6c1fda25555ef02deb6134dbda7a":[2,0,1,9,0,15,2,2],
+"d6/d16/sv__kick__teamkiller_8qc.html#a97834c73a5d537174b194a032b85f607":[2,0,1,9,0,15,2,1],
+"d6/d16/sv__kick__teamkiller_8qc.html#afbd0e5bb50260402c47a87e3d97cb5c0":[2,0,1,9,0,15,2,3],
+"d6/d16/sv__kick__teamkiller_8qc_source.html":[2,0,1,9,0,15,2],
 "d6/d18/classModel.html":[1,0,81],
 "d6/d18/classModel.html#a260c0b9728610e714b32c9e55c02f841":[1,0,81,0],
 "d6/d18/classModel.html#a47d47c22327728a8302c8844738ca9e8":[1,0,81,5],
@@ -237,17 +249,5 @@ var NAVTREEINDEX53 =
 "d6/d1a/classMainWindow.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,76,61],
 "d6/d1a/classMainWindow.html#add870f3470c176b541b432cac45f5dc5":[1,0,76,4],
 "d6/d1a/classMainWindow.html#ade596aca75900fd87ea1b32793a84573":[1,0,76,11],
-"d6/d1a/classMainWindow.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,76,43],
-"d6/d1a/classMainWindow.html#aea02312ba0806187f83294eff76c2139":[1,0,76,3],
-"d6/d1a/classMainWindow.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,76,23],
-"d6/d1a/classMainWindow.html#af1aab403dc54575707fd57991312b201":[1,0,76,59],
-"d6/d1a/classMainWindow.html#af23a0f24d62f74d965dd6d58a62510ff":[1,0,76,60],
-"d6/d1a/classMainWindow.html#af2d77dcd05c40738a730aa8c33f6ec15":[1,0,76,48],
-"d6/d1a/classMainWindow.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,76,51],
-"d6/d1a/classMainWindow.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,76,1],
-"d6/d1a/classMainWindow.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,76,49],
-"d6/d1a/classMainWindow.html#afd3a881d71c15e8265c4bdd446ef59cd":[1,0,76,15],
-"d6/d1a/classMainWindow.html#afdcf1fb79903f747cda494b27206526b":[1,0,76,24],
-"d6/d1a/classModalController.html":[1,0,80],
-"d6/d1a/classModalController.html#a0114ec8fcfe23a7cbe938a1feebe08a9":[1,0,80,10]
+"d6/d1a/classMainWindow.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,76,43]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,167,85],
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,167,10],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#aff489dd980a70a55cd0af2ce3d3d26f8":[1,0,167,69],
 "d1/dba/server_2weapons_2common_8qh.html":[2,0,6,5,5],
 "d1/dba/server_2weapons_2common_8qh.html#a102ac938a46377356e95bb667b1f01e2":[2,0,6,5,5,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "d1/dec/classInputBox.html#a8b95dcf234e31370b97d4d56342290d4":[1,0,54,14],
 "d1/dec/classInputBox.html#a8be93ae6496fa008aaba254ad76f19c9":[1,0,54,23],
 "d1/dec/classInputBox.html#a8c568c803f49400fd0165b69f82d4161":[1,0,54,62],
-"d1/dec/classInputBox.html#a8f27aa0cf1042e35bc8e2c89c1a4159e":[1,0,54,41],
-"d1/dec/classInputBox.html#a91d97c1cb1026791f978d0e8f8396988":[1,0,54,68],
-"d1/dec/classInputBox.html#a988e29ab41a7d5b537a2abb5019991c5":[1,0,54,55]
+"d1/dec/classInputBox.html#a8f27aa0cf1042e35bc8e2c89c1a4159e":[1,0,54,41]
 };

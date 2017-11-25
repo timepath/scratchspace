@@ -283,6 +283,7 @@ var searchData=
   ['start_5fweapons_5fdefaultmask',['start_weapons_defaultmask',['../dc/d73/server_2miscfunctions_8qh.html#a9cb8191076181d08f6170f9123a0f540',1,'miscfunctions.qh']]],
   ['start_5fzoomoffset',['start_zoomOffset',['../d8/d00/classImage.html#a068a1780eb0731d56ea37a4b4e50e1a3',1,'Image']]],
   ['startitem_5ffailed',['startitem_failed',['../d5/d26/server_2defs_8qh.html#aac3dfb3f6cf7fd133b111218d6ec6dce',1,'defs.qh']]],
+  ['startplaytime',['startplaytime',['../d1/d37/classClient.html#ae36b0dc9d9ffc299eb71f0e579e5f805',1,'Client::startplaytime()'],['../d5/d26/server_2defs_8qh.html#a1b65a42fdab6dd120422cf8e3e7d3df7',1,'startplaytime():&#160;defs.qh']]],
   ['starttime',['startTime',['../d0/d5d/classAnimation.html#a448e8f93422b8022dd7ffabe52cd7d6b',1,'Animation']]],
   ['startvalue',['startValue',['../d0/d5d/classAnimation.html#abd28f8bfa1bd4589a123994dea274c33',1,'Animation']]],
   ['stat_5factiveweapon',['STAT_ACTIVEWEAPON',['../d4/d0c/csprogsdefs_8qc.html#a5c2167a611673953b3eb6d4db9147eaa',1,'csprogsdefs.qc']]],

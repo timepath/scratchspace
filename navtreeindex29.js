@@ -1,5 +1,8 @@
 var NAVTREEINDEX29 =
 {
+"d3/d86/classXonoticMapList.html#ac2ca31d34893f22ffc9f5e5a5b152931":[1,0,209,18],
+"d3/d86/classXonoticMapList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,209,78],
+"d3/d86/classXonoticMapList.html#ac4f4af8d1699c217bb60bbd364026caf":[1,0,209,9],
 "d3/d86/classXonoticMapList.html#ac6094922668d013ada3893854eec6b0f":[1,0,209,30],
 "d3/d86/classXonoticMapList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,209,74],
 "d3/d86/classXonoticMapList.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,209,26],
@@ -92,10 +95,10 @@ var NAVTREEINDEX29 =
 "d3/d9e/dpextensions_8qh_source.html":[2,0,2,2],
 "d3/da1/common_2monsters_2monster_2__mod_8qh.html":[2,0,1,8,0,1],
 "d3/da1/common_2monsters_2monster_2__mod_8qh_source.html":[2,0,1,8,0,1],
-"d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh.html":[2,0,1,9,0,22,1],
-"d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh_source.html":[2,0,1,9,0,22,1],
-"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh.html":[2,0,1,9,0,23,1],
-"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh_source.html":[2,0,1,9,0,23,1],
+"d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh.html":[2,0,1,9,0,23,1],
+"d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh_source.html":[2,0,1,9,0,23,1],
+"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh.html":[2,0,1,9,0,24,1],
+"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh_source.html":[2,0,1,9,0,24,1],
 "d3/da9/classMineLayer.html":[1,0,77],
 "d3/da9/classMineLayer.html#a0495da57f2ea15799bb58ca5ce313c9a":[1,0,77,32],
 "d3/da9/classMineLayer.html#a0bd25e8922366620f95386d9be824e77":[1,0,77,40],
@@ -246,8 +249,5 @@ var NAVTREEINDEX29 =
 "d3/db6/projectile_8qc.html#a80c34c3e86a9ef71dfcdff65bd795540":[2,0,0,3,2,3],
 "d3/db6/projectile_8qc.html#a9f8c39b72e4cac7db813d64f6b47da53":[2,0,0,3,2,2],
 "d3/db6/projectile_8qc.html#aa0569f1b060229bf8b6d0c13b4dff8f1":[2,0,0,3,2,1],
-"d3/db6/projectile_8qc.html#aa12d111ca27797a792f8738195db5a76":[2,0,0,3,2,7],
-"d3/db6/projectile_8qc.html#aa212ff44982cb3d66e1a0eff0bea547e":[2,0,0,3,2,0],
-"d3/db6/projectile_8qc.html#aafb6ab318b9d8923d5fb0d4e56242d87":[2,0,0,3,2,9],
-"d3/db6/projectile_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b":[2,0,0,3,2,10]
+"d3/db6/projectile_8qc.html#aa12d111ca27797a792f8738195db5a76":[2,0,0,3,2,7]
 };

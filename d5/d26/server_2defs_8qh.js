@@ -266,6 +266,7 @@ var server_2defs_8qh =
     [ "spectatortime", "d5/d26/server_2defs_8qh.html#ad8cc5742c76a6d38a1205a2171ea5239", null ],
     [ "speedrunning", "d5/d26/server_2defs_8qh.html#a79500bb643262fa91172549d03b8e076", null ],
     [ "startitem_failed", "d5/d26/server_2defs_8qh.html#aac3dfb3f6cf7fd133b111218d6ec6dce", null ],
+    [ "startplaytime", "d5/d26/server_2defs_8qh.html#a1b65a42fdab6dd120422cf8e3e7d3df7", null ],
     [ "stat_respawn_time", "d5/d26/server_2defs_8qh.html#a86f30ff24960af4693d4a86513b4bccb", null ],
     [ "stat_shotorg", "d5/d26/server_2defs_8qh.html#aaaa980df752143aef0b8fe6bcbbf9248", null ],
     [ "stored_netname", "d5/d26/server_2defs_8qh.html#a1caaa8fe4d9b590202c8347fa835470f", null ],

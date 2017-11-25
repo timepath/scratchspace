@@ -1,5 +1,11 @@
 var NAVTREEINDEX48 =
 {
+"d5/d53/classXonoticCharmap.html#ac05ea8b0a1095d44138fa6345ed9303a":[1,0,149,6],
+"d5/d53/classXonoticCharmap.html#ac450f105398648a8932ca545e510ebcb":[1,0,149,36],
+"d5/d53/classXonoticCharmap.html#ac6094922668d013ada3893854eec6b0f":[1,0,149,14],
+"d5/d53/classXonoticCharmap.html#acd24b0a08873c8bfd9a04e8c2905b3cc":[1,0,149,35],
+"d5/d53/classXonoticCharmap.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,149,25],
+"d5/d53/classXonoticCharmap.html#ad31a816583f361823fb142079bc3fc39":[1,0,149,3],
 "d5/d53/classXonoticCharmap.html#ad5be0f3c9d888bbbf0985aeac9e42579":[1,0,149,13],
 "d5/d53/classXonoticCharmap.html#adb75de8c448487ab259097879941191e":[1,0,149,43],
 "d5/d53/classXonoticCharmap.html#ae759794455699b00f8874a8bef76a6dd":[1,0,149,41],
@@ -229,8 +235,8 @@ var NAVTREEINDEX48 =
 "d5/d6f/xonotic_2checkbox_8qc.html#af7913795ba021937bdf5ad97f1f38e2c":[2,0,5,4,12,6],
 "d5/d6f/xonotic_2checkbox_8qc.html#afe314e4226112bc511f89bdd74939c3d":[2,0,5,4,12,2],
 "d5/d6f/xonotic_2checkbox_8qc_source.html":[2,0,5,4,12],
-"d5/d70/common_2mutators_2mutator_2overkill_2__mod_8inc.html":[2,0,1,9,0,21,0],
-"d5/d70/common_2mutators_2mutator_2overkill_2__mod_8inc_source.html":[2,0,1,9,0,21,0],
+"d5/d70/common_2mutators_2mutator_2overkill_2__mod_8inc.html":[2,0,1,9,0,22,0],
+"d5/d70/common_2mutators_2mutator_2overkill_2__mod_8inc_source.html":[2,0,1,9,0,22,0],
 "d5/d73/classXonoticEffectsSettingsTab.html":[1,0,169],
 "d5/d73/classXonoticEffectsSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,169,36],
 "d5/d73/classXonoticEffectsSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,169,15],
@@ -243,11 +249,5 @@ var NAVTREEINDEX48 =
 "d5/d73/classXonoticEffectsSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,169,52],
 "d5/d73/classXonoticEffectsSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,169,30],
 "d5/d73/classXonoticEffectsSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,169,72],
-"d5/d73/classXonoticEffectsSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,169,11],
-"d5/d73/classXonoticEffectsSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,169,73],
-"d5/d73/classXonoticEffectsSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,169,4],
-"d5/d73/classXonoticEffectsSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,169,47],
-"d5/d73/classXonoticEffectsSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,169,25],
-"d5/d73/classXonoticEffectsSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,169,53],
-"d5/d73/classXonoticEffectsSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,169,33]
+"d5/d73/classXonoticEffectsSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,169,11]
 };
