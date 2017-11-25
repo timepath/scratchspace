@@ -1,7 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"da/d70/common_2sounds_2__mod_8inc.html":[2,0,1,12,0],
-"da/d70/common_2sounds_2__mod_8inc_source.html":[2,0,1,12,0],
 "da/d70/zombie_8qc.html":[2,0,1,8,0,10],
 "da/d70/zombie_8qc_source.html":[2,0,1,8,0,10],
 "da/d71/vehicles_2all_8qc.html":[2,0,1,15,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX91 =
 "da/d9b/classXonoticButton.html#a4cec67ef8bea911bbbe8e837e8c1f4fe":[1,0,143,72],
 "da/d9b/classXonoticButton.html#a4cf08b5cf5b03694b1ab99f4eb3cd6da":[1,0,143,6],
 "da/d9b/classXonoticButton.html#a54e592697c83dd2e7a6d27472cd00698":[1,0,143,39],
-"da/d9b/classXonoticButton.html#a551caf43464ecebace012d2b272c7bad":[1,0,143,11]
+"da/d9b/classXonoticButton.html#a551caf43464ecebace012d2b272c7bad":[1,0,143,11],
+"da/d9b/classXonoticButton.html#a56159c764874bed976add81f81298c31":[1,0,143,44],
+"da/d9b/classXonoticButton.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,143,49]
 };

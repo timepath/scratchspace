@@ -1,8 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"d2/d88/bigcommandbutton_8qh_source.html":[2,0,5,4,5],
-"d2/d88/classDomination.html":[1,0,28],
-"d2/d88/classDomination.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,28,1],
 "d2/d88/classDomination.html#a353db82280437c3b38f0ad1934a7d666":[1,0,28,15],
 "d2/d88/classDomination.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,28,12],
 "d2/d88/classDomination.html#a4db6ad0ff6ca1f3b5bdc0cb58c9e3f1e":[1,0,28,10],
@@ -249,5 +246,8 @@ var NAVTREEINDEX19 =
 "d2/db1/movetypes_8qc.html#ab024873d80d2f0654e96629b7b47fd6a":[2,0,1,11,0,5,16],
 "d2/db1/movetypes_8qc.html#ab02f268b6773e429b35626cdb4ce0dff":[2,0,1,11,0,5,22],
 "d2/db1/movetypes_8qc.html#ab5d02d1d7a51316be25cc82291fc5787":[2,0,1,11,0,5,35],
-"d2/db1/movetypes_8qc.html#abc94399163b20fbffafbcdaeda0f8db5":[2,0,1,11,0,5,20]
+"d2/db1/movetypes_8qc.html#abc94399163b20fbffafbcdaeda0f8db5":[2,0,1,11,0,5,20],
+"d2/db1/movetypes_8qc.html#ad44fedd3ce1abb0e9b70a3e71b623674":[2,0,1,11,0,5,32],
+"d2/db1/movetypes_8qc.html#ad797154b1325fa6f3b8aa5d2224d77b5":[2,0,1,11,0,5,17],
+"d2/db1/movetypes_8qc.html#aec8e38c6a6af79893d641f0ae53a2042":[2,0,1,11,0,5,8]
 };

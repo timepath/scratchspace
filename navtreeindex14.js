@@ -1,7 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"d1/dc2/kill_8qc.html":[2,0,1,13,2,6],
-"d1/dc2/kill_8qc_source.html":[2,0,1,13,2,6],
 "d1/dc3/classEWheelAttack.html":[1,0,35],
 "d1/dc3/classEWheelAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,35,33],
 "d1/dc3/classEWheelAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,35,19],
@@ -249,5 +247,7 @@ var NAVTREEINDEX14 =
 "d1/df3/weaponarenacheckbox_8qc.html#aa2fa38c72aeb87705fe3d7573b635b04":[2,0,5,4,230,1],
 "d1/df3/weaponarenacheckbox_8qc.html#ad30a4e87dca3ac2440f613806ce02a73":[2,0,5,4,230,2],
 "d1/df3/weaponarenacheckbox_8qc.html#add182d72741aa7b8b7ee6f187e24f990":[2,0,5,4,230,0],
-"d1/df3/weaponarenacheckbox_8qc.html#af7d835c4fce526b25918f49a8c33853c":[2,0,5,4,230,3]
+"d1/df3/weaponarenacheckbox_8qc.html#af7d835c4fce526b25918f49a8c33853c":[2,0,5,4,230,3],
+"d1/df3/weaponarenacheckbox_8qc_source.html":[2,0,5,4,230],
+"d1/df6/triggers_2trigger_2viewloc_8qc.html":[2,0,1,13,3,48]
 };

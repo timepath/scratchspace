@@ -1,7 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"da/dc3/common_2scores_8qh.html#ab97882f6a5ab387abdbe993d8baf9292":[2,0,1,42,20],
-"da/dc3/common_2scores_8qh.html#abcb6c5213f5f6450a72fb5ffbe4cea96":[2,0,1,42,15],
 "da/dc3/common_2scores_8qh.html#ac3b2decb32b7a967469fcba5963a3e53":[2,0,1,42,29],
 "da/dc3/common_2scores_8qh.html#acf557e93b6854298dcf5b6602fb6ffed":[2,0,1,42,31],
 "da/dc3/common_2scores_8qh.html#acf88a9269a6bde0e77d6d64102d824ad":[2,0,1,42,23],
@@ -249,5 +247,7 @@ var NAVTREEINDEX94 =
 "db/d07/teams_8qh.html#a0d96b2379c33b381d721c971e72c5637":[2,0,1,48,23],
 "db/d07/teams_8qh.html#a14a11ce0b10148db1820423fb8226b26":[2,0,1,48,41],
 "db/d07/teams_8qh.html#a15980120f655a5c49e480e6da25e4241":[2,0,1,48,12],
-"db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4":[2,0,1,48,20]
+"db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4":[2,0,1,48,20],
+"db/d07/teams_8qh.html#a223346a1d4096a7e7408d831b3ac8dd9":[2,0,1,48,40],
+"db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab":[2,0,1,48,15]
 };

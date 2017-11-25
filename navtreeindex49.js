@@ -1,7 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"d5/d8e/container_8qh.html#a85236023eb5b487d3908a24ab3613840":[2,0,5,2,9,2],
-"d5/d8e/container_8qh.html#a934a44afc629498fd98deed045d132af":[2,0,5,2,9,7],
 "d5/d8e/container_8qh.html#a9b9495042616a2fa06535338f3dc5d98":[2,0,5,2,9,6],
 "d5/d8e/container_8qh.html#ab512604f83ddecca76917c9f5db12abc":[2,0,5,2,9,10],
 "d5/d8e/container_8qh.html#ada3f4dbaf48fecfa1a3543c005170d19":[2,0,5,2,9,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX49 =
 "d5/dab/dialog__settings__game_8qh.html":[2,0,5,4,125],
 "d5/dab/dialog__settings__game_8qh_source.html":[2,0,5,4,125],
 "d5/dac/g__damage_8qc.html":[2,0,6,21],
-"d5/dac/g__damage_8qc.html#a0411010ca825838d10464f8da5825df9":[2,0,6,21,22]
+"d5/dac/g__damage_8qc.html#a0411010ca825838d10464f8da5825df9":[2,0,6,21,22],
+"d5/dac/g__damage_8qc.html#a06a1edf2081934e5cb8188d0419f55e7":[2,0,6,21,0],
+"d5/dac/g__damage_8qc.html#a24aaf696797544264665df5f05253d1c":[2,0,6,21,12]
 };

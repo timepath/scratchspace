@@ -1,8 +1,5 @@
 var NAVTREEINDEX135 =
 {
-"df/df6/classXonoticSlider.html#acd339ed42a2f51ac07364931d53de5a1":[1,0,239,76],
-"df/df6/classXonoticSlider.html#ad2331fc88b6e5d27e4073df4ff049e51":[1,0,239,54],
-"df/df6/classXonoticSlider.html#ad485b0ba0e020607f42965ca46266706":[1,0,239,3],
 "df/df6/classXonoticSlider.html#ad4d071551452575b555a59dbf590de0e":[1,0,239,37],
 "df/df6/classXonoticSlider.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,239,61],
 "df/df6/classXonoticSlider.html#ae1e3e1e43fd9c7cd43cbdec6baf839ca":[1,0,239,49],
@@ -242,12 +239,15 @@ var NAVTREEINDEX135 =
 "dir_fe472327f69aa9464440251988e1566b.html":[2,0,1,8],
 "dir_ff27e448fac324d88c702b7803ed56f3.html":[2,0,1,9,0,31],
 "files.html":[2,0],
-"functions.html":[1,3,0],
 "functions.html":[1,3,0,0],
+"functions.html":[1,3,0],
 "functions_a.html":[1,3,0,1],
 "functions_b.html":[1,3,0,2],
 "functions_c.html":[1,3,0,3],
 "functions_d.html":[1,3,0,4],
 "functions_e.html":[1,3,0,5],
-"functions_f.html":[1,3,0,6]
+"functions_f.html":[1,3,0,6],
+"functions_func.html":[1,3,1],
+"functions_func.html":[1,3,1,0],
+"functions_func_a.html":[1,3,1,1]
 };

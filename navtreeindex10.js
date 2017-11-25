@@ -1,7 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"d1/d55/classXonoticGameHUDSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,168,91],
-"d1/d55/classXonoticGameHUDSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,168,90],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,168,81],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,168,80],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a7fcbcb26e15456b0eda6b355678105f7":[1,0,168,70],
@@ -249,5 +247,7 @@ var NAVTREEINDEX10 =
 "d1/d5e/common_2mutators_2mutator_2rocketminsta_2__mod_8qh_source.html":[2,0,1,9,0,26,1],
 "d1/d5f/item_2checkbox_8qh.html":[2,0,5,2,7],
 "d1/d5f/item_2checkbox_8qh_source.html":[2,0,5,2,7],
-"d1/d61/dialog__settings__input_8qc.html":[2,0,5,4,140]
+"d1/d61/dialog__settings__input_8qc.html":[2,0,5,4,140],
+"d1/d61/dialog__settings__input_8qc.html#a1f23bee2ae8169b44afceb091226cf7d":[2,0,5,4,140,0],
+"d1/d61/dialog__settings__input_8qc.html#a822312f86da5bcf83a0a9c1534fca91a":[2,0,5,4,140,1]
 };

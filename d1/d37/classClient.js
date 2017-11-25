@@ -80,7 +80,6 @@ var classClient =
     [ "jointime", "d1/d37/classClient.html#a06a738c4cb9a23813f16775a5877dd12", null ],
     [ "just_joined", "d1/d37/classClient.html#a191231a070ddb9890525e44cb7bc1a83", null ],
     [ "killcount", "d1/d37/classClient.html#afd3da46f8613f02a2a7f1f2f0bcd2f07", null ],
-    [ "killindicator_teamchange", "d1/d37/classClient.html#a4a6721351757c8353d232edd370c35e4", null ],
     [ "latency_cnt", "d1/d37/classClient.html#a5d9df5ac0abeed28dc3a5e64a1ad3336", null ],
     [ "latency_sum", "d1/d37/classClient.html#a3de62097220483d550bdb3963b5b4877", null ],
     [ "latency_time", "d1/d37/classClient.html#a279f6af9c25013e6b39e201ba13fd06c", null ],

@@ -1,8 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"d3/dd0/self_8qh.html#a259aac00ed43fd7ac58196b770963525":[2,0,4,49,6],
-"d3/dd0/self_8qh.html#a29c098c7bd67a60d2dd9d94db782aaa6":[2,0,4,49,0],
-"d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8":[2,0,4,49,20],
 "d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911":[2,0,4,49,32],
 "d3/dd0/self_8qh.html#a41d70d7be1bb79da0b1648eac19ded26":[2,0,4,49,21],
 "d3/dd0/self_8qh.html#a4b12d67d7e3f4892efe2bb25dbfb1060":[2,0,4,49,9],
@@ -249,5 +246,8 @@ var NAVTREEINDEX31 =
 "d3/de3/classHellionAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,47,22],
 "d3/de3/classHellionAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,47,25],
 "d3/de3/classHellionAttack.html#ae62f1cba1ccfea629e7c0869efa8e6bd":[1,0,47,26],
-"d3/de3/classHellionAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,47,17]
+"d3/de3/classHellionAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,47,17],
+"d3/de9/damageeffects_8qh.html":[2,0,1,2,0,5],
+"d3/de9/damageeffects_8qh_source.html":[2,0,1,2,0,5],
+"d3/dea/lib_2matrix_2__mod_8qh.html":[2,0,4,1,1]
 };

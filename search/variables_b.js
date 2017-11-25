@@ -167,7 +167,7 @@ var searchData=
   ['killcount',['killcount',['../d1/d37/classClient.html#afd3da46f8613f02a2a7f1f2f0bcd2f07',1,'Client::killcount()'],['../d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003',1,'killcount():&#160;defs.qh']]],
   ['killed_5fmonsters',['killed_monsters',['../d6/d11/progsdefs_8qc.html#a36860577d5e193383858a6256d509ee1',1,'progsdefs.qc']]],
   ['killindicator',['killindicator',['../d5/d26/server_2defs_8qh.html#a59f3bedf42216e820a4817519548bd90',1,'defs.qh']]],
-  ['killindicator_5fteamchange',['killindicator_teamchange',['../d1/d37/classClient.html#a4a6721351757c8353d232edd370c35e4',1,'Client']]],
+  ['killindicator_5fteamchange',['killindicator_teamchange',['../d5/d26/server_2defs_8qh.html#a33fa8ce82dd2df9d9af4e0e8c6814de2',1,'defs.qh']]],
   ['killsound',['killsound',['../d5/d26/server_2defs_8qh.html#ae6bd352ab3129bbecd9993d9f61c30d6',1,'defs.qh']]],
   ['killtarget',['killtarget',['../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70',1,'subs.qh']]]
 ];

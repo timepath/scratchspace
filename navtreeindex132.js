@@ -1,8 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"df/d92/classXonoticWinnerDialog.html#a67d95732d49da439095483530aca8804":[1,0,254,53],
-"df/d92/classXonoticWinnerDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,254,76],
-"df/d92/classXonoticWinnerDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,254,18],
 "df/d92/classXonoticWinnerDialog.html#a71dfe2b7e476fea9b91f6b6f4ff79bfc":[1,0,254,24],
 "df/d92/classXonoticWinnerDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,254,14],
 "df/d92/classXonoticWinnerDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,254,66],
@@ -141,8 +138,8 @@ var NAVTREEINDEX132 =
 "df/d9b/menu_2xonotic_2util_8qc.html#a99bf8fc9169855784af2af3cb71c8998":[2,0,5,4,228,27],
 "df/d9b/menu_2xonotic_2util_8qc.html#a9ba01c55dd4d8896b1f02ef83b22acc8":[2,0,5,4,228,63],
 "df/d9b/menu_2xonotic_2util_8qc.html#a9bc73e034ccab48e5cbcb3298481913a":[2,0,5,4,228,59],
-"df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb":[2,0,5,4,228,0],
 "df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb":[2,0,5,4,228,2],
+"df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb":[2,0,5,4,228,0],
 "df/d9b/menu_2xonotic_2util_8qc.html#aa514011c00a447f7603fb41c0cc43918":[2,0,5,4,228,80],
 "df/d9b/menu_2xonotic_2util_8qc.html#aa958d5d2b2d14b4705a46d5474d9843e":[2,0,5,4,228,75],
 "df/d9b/menu_2xonotic_2util_8qc.html#aabecb2186198cee293ff99e8806ea85e":[2,0,5,4,228,12],
@@ -249,5 +246,8 @@ var NAVTREEINDEX132 =
 "df/db7/dialog__hudpanel__infomessages_8qc.html#a304017651328a5ba234a6885af156c40":[2,0,5,4,54,0],
 "df/db7/dialog__hudpanel__infomessages_8qc_source.html":[2,0,5,4,54],
 "df/db8/common_2mutators_2mutator_2sandbox_2__mod_8qh.html":[2,0,1,9,0,28,1],
-"df/db8/common_2mutators_2mutator_2sandbox_2__mod_8qh_source.html":[2,0,1,9,0,28,1]
+"df/db8/common_2mutators_2mutator_2sandbox_2__mod_8qh_source.html":[2,0,1,9,0,28,1],
+"df/db9/multivibrator_8qc.html":[2,0,1,13,3,32],
+"df/db9/multivibrator_8qc_source.html":[2,0,1,13,3,32],
+"df/dbd/dialog__settings__game__crosshair_8qc.html":[2,0,5,4,126]
 };

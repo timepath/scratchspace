@@ -1,7 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"d1/df3/weaponarenacheckbox_8qc_source.html":[2,0,5,4,230],
-"d1/df6/triggers_2trigger_2viewloc_8qc.html":[2,0,1,13,3,48],
 "d1/df6/triggers_2trigger_2viewloc_8qc_source.html":[2,0,1,13,3,48],
 "d1/df6/tuba_8qc.html":[2,0,1,16,0,36],
 "d1/df6/tuba_8qc_source.html":[2,0,1,16,0,36],
@@ -249,5 +247,7 @@ var NAVTREEINDEX15 =
 "d2/d22/common_2weapons_2weapon_2__mod_8qh.html":[2,0,1,16,0,1],
 "d2/d22/common_2weapons_2weapon_2__mod_8qh_source.html":[2,0,1,16,0,1],
 "d2/d24/common_2effects_2__mod_8inc.html":[2,0,1,2,1],
-"d2/d24/common_2effects_2__mod_8inc_source.html":[2,0,1,2,1]
+"d2/d24/common_2effects_2__mod_8inc_source.html":[2,0,1,2,1],
+"d2/d25/classXonoticDemoStartConfirmDialog.html":[1,0,162],
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,162,32]
 };
