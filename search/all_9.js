@@ -249,6 +249,8 @@ var searchData=
   ['is_5fbot_5fclient',['IS_BOT_CLIENT',['../db/d7a/utils_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6',1,'utils.qh']]],
   ['is_5fcheat',['IS_CHEAT',['../d6/de9/cheats_8qc.html#a37f479ec45150654c5d4d7db942024f2',1,'cheats.qc']]],
   ['is_5fclient',['IS_CLIENT',['../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834',1,'utils.qh']]],
+  ['is_5fclose_5fto_5fground',['is_close_to_ground',['../d5/da6/sv__dodging_8qc.html#a5e2761e053ee97a49170bc2d76cc72e9',1,'sv_dodging.qc']]],
+  ['is_5fclose_5fto_5fwall',['is_close_to_wall',['../d5/da6/sv__dodging_8qc.html#a336164d759431c482f21c5f25837b766',1,'sv_dodging.qc']]],
   ['is_5fcsqc',['IS_CSQC',['../d4/dfb/lib_2__all_8inc.html#a52c2de75e535dc3464ebed96906120bc',1,'_all.inc']]],
   ['is_5fdead',['IS_DEAD',['../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944',1,'IS_DEAD():&#160;miscfunctions.qh'],['../dc/d73/server_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944',1,'IS_DEAD():&#160;miscfunctions.qh']]],
   ['is_5fdead_5fframe',['IS_DEAD_FRAME',['../dc/d3d/csqcmodel__hooks_8qc.html#a03e325439a3c7e40dda1730cd4251a4c',1,'csqcmodel_hooks.qc']]],

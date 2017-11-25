@@ -88,6 +88,8 @@ var searchData=
   ['invertlengthlog',['invertLengthLog',['../da/d44/common_2util_8qc.html#afbccfaabcc4c584455aa3a16fa07d7cd',1,'util.qc']]],
   ['invite_5fminigame',['invite_minigame',['../d7/d33/sv__minigames_8qc.html#ad8020a414daf2b7cd018d5e8bc4f5e6e',1,'invite_minigame(entity inviter, entity player):&#160;sv_minigames.qc'],['../d3/df9/sv__minigames_8qh.html#ad8020a414daf2b7cd018d5e8bc4f5e6e',1,'invite_minigame(entity inviter, entity player):&#160;sv_minigames.qc']]],
   ['is_5fbool',['is_bool',['../d4/dfb/lib_2__all_8inc.html#aa2f1309e021da3dc804ea9f0529f3a57',1,'_all.inc']]],
+  ['is_5fclose_5fto_5fground',['is_close_to_ground',['../d5/da6/sv__dodging_8qc.html#a5e2761e053ee97a49170bc2d76cc72e9',1,'sv_dodging.qc']]],
+  ['is_5fclose_5fto_5fwall',['is_close_to_wall',['../d5/da6/sv__dodging_8qc.html#a336164d759431c482f21c5f25837b766',1,'sv_dodging.qc']]],
   ['is_5fint',['is_int',['../d4/dfb/lib_2__all_8inc.html#a519d201f3a65bf5df77f1b0c03125b27',1,'_all.inc']]],
   ['iscachedpic',['iscachedpic',['../d8/de2/menudefs_8qc.html#ae9c9c30a164bbec572a8731e49ee6059',1,'menudefs.qc']]],
   ['iscaretescaped',['isCaretEscaped',['../da/d44/common_2util_8qc.html#a982fd634e013860a72d17598569dfa5b',1,'util.qc']]],

@@ -145,7 +145,6 @@ var searchData=
   ['pm_5fclientmovement_5fupdatestatus',['PM_ClientMovement_UpdateStatus',['../d2/d0a/common_2physics_2player_8qc.html#a4a64191d2aeb497ecc6ec081d6813f8a',1,'player.qc']]],
   ['pm_5fdodging',['PM_dodging',['../d5/da6/sv__dodging_8qc.html#aab945235b41472d811f114833244b62a',1,'sv_dodging.qc']]],
   ['pm_5fdodging_5fcheckpressedkeys',['PM_dodging_checkpressedkeys',['../d5/da6/sv__dodging_8qc.html#ae41649aa3125a05e563e17acae13d4a6',1,'sv_dodging.qc']]],
-  ['pm_5fdodging_5fgetpressedkeys',['PM_dodging_GetPressedKeys',['../d5/da6/sv__dodging_8qc.html#add534eb5c5bef98855d46c4032d2bc19',1,'sv_dodging.qc']]],
   ['pm_5ffootsteps',['PM_Footsteps',['../d2/d0a/common_2physics_2player_8qc.html#af720710e7d9c6e243358bd74cac5e70e',1,'player.qc']]],
   ['pm_5fjetpack',['PM_jetpack',['../d2/d0a/common_2physics_2player_8qc.html#a10d29c17a791cc0b24daadc3fe02e56c',1,'player.qc']]],
   ['pm_5fupdatebuttons',['PM_UpdateButtons',['../df/dd7/server_2client_8qc.html#ac185a5e41e777ed1d4645f4eb2aeda49',1,'client.qc']]],

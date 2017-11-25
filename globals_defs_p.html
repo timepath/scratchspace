@@ -321,6 +321,9 @@ $(document).ready(function(){initNavTree('globals_defs_p.html','');});
 <li>PHYS_DODGING_AIR
 : <a class="el" href="d5/da6/sv__dodging_8qc.html#a51caaa15fb6f8d0b46b8764fc815abcd">sv_dodging.qc</a>
 </li>
+<li>PHYS_DODGING_AIR_MAXSPEED
+: <a class="el" href="d5/da6/sv__dodging_8qc.html#a3e888efbd3016a4846de8281d74beece">sv_dodging.qc</a>
+</li>
 <li>PHYS_DODGING_DELAY
 : <a class="el" href="d5/da6/sv__dodging_8qc.html#ab699c1967674ab3cfdde1f0f0e9fd217">sv_dodging.qc</a>
 </li>
@@ -330,17 +333,26 @@ $(document).ready(function(){initNavTree('globals_defs_p.html','');});
 <li>PHYS_DODGING_FROZEN
 : <a class="el" href="de/d70/common_2physics_2player_8qh.html#adfec9ab8c3a16be4551314422cdda4ec">player.qh</a>
 </li>
-<li>PHYS_DODGING_FROZEN_NODOUBLETAP
-: <a class="el" href="d5/da6/sv__dodging_8qc.html#a68789133941ba78a7891d6faf52979cf">sv_dodging.qc</a>
+<li>PHYS_DODGING_FROZEN_DOUBLETAP
+: <a class="el" href="d5/da6/sv__dodging_8qc.html#a5162a728765c32846463479e33c2c492">sv_dodging.qc</a>
 </li>
 <li>PHYS_DODGING_HEIGHT_THRESHOLD
 : <a class="el" href="d5/da6/sv__dodging_8qc.html#aa38c628e32452c49a9540584a703cc12">sv_dodging.qc</a>
 </li>
-<li>PHYS_DODGING_HORIZ_SPEED
-: <a class="el" href="d5/da6/sv__dodging_8qc.html#a7a5591bcc29df847888fdf8eff822005">sv_dodging.qc</a>
+<li>PHYS_DODGING_HORIZ_FORCE_FASTEST
+: <a class="el" href="d5/da6/sv__dodging_8qc.html#acda6e1a9928faefe9caa04663f3843f5">sv_dodging.qc</a>
 </li>
-<li>PHYS_DODGING_HORIZ_SPEED_FROZEN
-: <a class="el" href="d5/da6/sv__dodging_8qc.html#a4436947df1dbac138d6c61491ab804be">sv_dodging.qc</a>
+<li>PHYS_DODGING_HORIZ_FORCE_FROZEN
+: <a class="el" href="d5/da6/sv__dodging_8qc.html#a800e745c7fcdcc124cb4e534078f1329">sv_dodging.qc</a>
+</li>
+<li>PHYS_DODGING_HORIZ_FORCE_SLOWEST
+: <a class="el" href="d5/da6/sv__dodging_8qc.html#a2f4ab75f4466ea92ffb38d3da10c9a66">sv_dodging.qc</a>
+</li>
+<li>PHYS_DODGING_HORIZ_SPEED_MAX
+: <a class="el" href="d5/da6/sv__dodging_8qc.html#aa8f4587ee9664536eef5291c3bf0ed37">sv_dodging.qc</a>
+</li>
+<li>PHYS_DODGING_HORIZ_SPEED_MIN
+: <a class="el" href="d5/da6/sv__dodging_8qc.html#abef51a5acb1bb8894ef97a4f3b14245c">sv_dodging.qc</a>
 </li>
 <li>PHYS_DODGING_MAXSPEED
 : <a class="el" href="d5/da6/sv__dodging_8qc.html#a87c2be63ff8d9c9861c3a71bd1808016">sv_dodging.qc</a>
@@ -550,8 +562,8 @@ $(document).ready(function(){initNavTree('globals_defs_p.html','');});
 : <a class="el" href="df/d6e/globalsound_8qh.html#a1f8a6acaa0307f5e57ea172ca84b785a">globalsound.qh</a>
 </li>
 <li>pointparticles
-: <a class="el" href="da/dde/csprogsdefs_8qh.html#ac8847014472662de37600e592b86ec1f">csprogsdefs.qh</a>
-, <a class="el" href="d3/d9e/dpextensions_8qh.html#ac8847014472662de37600e592b86ec1f">dpextensions.qh</a>
+: <a class="el" href="d3/d9e/dpextensions_8qh.html#ac8847014472662de37600e592b86ec1f">dpextensions.qh</a>
+, <a class="el" href="da/dde/csprogsdefs_8qh.html#ac8847014472662de37600e592b86ec1f">csprogsdefs.qh</a>
 </li>
 <li>PORTALS_ARE_NOT_SOLID
 : <a class="el" href="de/de8/portals_8qc.html#ab5ab86c6b943c158c01eddebb04cf490">portals.qc</a>
@@ -589,7 +601,7 @@ $(document).ready(function(){initNavTree('globals_defs_p.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Nov 25 2017 00:38:44 for Xonotic by
+    <li class="footer">Generated on Sat Nov 25 2017 01:40:40 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -7,7 +7,7 @@ var dir_dac21ea200edd94d2597bdcb9e2f297b =
     [ "breakable.qc", "d5/df1/breakable_8qc.html", null ],
     [ "breakable.qh", "df/df2/breakable_8qh.html", null ],
     [ "button.qc", "da/dfc/common_2triggers_2func_2button_8qc.html", null ],
-    [ "button.qh", "df/d94/common_2triggers_2func_2button_8qh.html", null ],
+    [ "button.qh", "df/d94/common_2triggers_2func_2button_8qh.html", "df/d94/common_2triggers_2func_2button_8qh" ],
     [ "conveyor.qc", "da/d7d/conveyor_8qc.html", "da/d7d/conveyor_8qc" ],
     [ "conveyor.qh", "d2/d36/conveyor_8qh.html", "d2/d36/conveyor_8qh" ],
     [ "door.qc", "d6/d9c/door_8qc.html", "d6/d9c/door_8qc" ],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX60 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#a756c6c0bc3e4553836a235d70878ea2a":[2,0,6,3,3,42],
+"d6/ddd/server_2mutators_2events_8qh.html#a75c13fa0a9134364e6127bbc6c826c8c":[2,0,6,3,3,73],
+"d6/ddd/server_2mutators_2events_8qh.html#a7684d4b9703ec7e8c02d70e8040c2947":[2,0,6,3,3,40],
+"d6/ddd/server_2mutators_2events_8qh.html#a7728a037031e38e108efae0b30f9e88f":[2,0,6,3,3,45],
+"d6/ddd/server_2mutators_2events_8qh.html#a7790fcd04cde405c6514602b231cef87":[2,0,6,3,3,217],
 "d6/ddd/server_2mutators_2events_8qh.html#a7853d9319d4ebcaadaad437780022fdc":[2,0,6,3,3,211],
 "d6/ddd/server_2mutators_2events_8qh.html#a78652f5e6254efd7cad2cee3af313b3a":[2,0,6,3,3,82],
 "d6/ddd/server_2mutators_2events_8qh.html#a7896bbda9d8c48e3c2710480cc0219ef":[2,0,6,3,3,70],
@@ -244,10 +249,5 @@ var NAVTREEINDEX60 =
 "d6/df6/p2mathlib_8qc.html#ae031dcd8f3e3c3a358d8e48d18f099e5":[2,0,4,40,6],
 "d6/df6/p2mathlib_8qc.html#ae1c27a257ab87c5593fc7495cd73f51b":[2,0,4,40,1],
 "d6/df6/p2mathlib_8qc_source.html":[2,0,4,40],
-"d6/df8/classTeamDeathmatch.html":[1,0,124],
-"d6/df8/classTeamDeathmatch.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,124,1],
-"d6/df8/classTeamDeathmatch.html#a353db82280437c3b38f0ad1934a7d666":[1,0,124,16],
-"d6/df8/classTeamDeathmatch.html#a36c0a38138746f3f82699b942a133124":[1,0,124,0],
-"d6/df8/classTeamDeathmatch.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,124,12],
-"d6/df8/classTeamDeathmatch.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,124,8]
+"d6/df8/classTeamDeathmatch.html":[1,0,124]
 };

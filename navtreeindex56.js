@@ -1,5 +1,10 @@
 var NAVTREEINDEX56 =
 {
+"d6/d79/classXonoticHUDWeaponsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,196,71],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a1bf5967ac5ae19f3ffeefe07759c4fe5":[1,0,196,87],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,196,70],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,196,7],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a22ebf03c2ef14246155b38b20522908c":[1,0,196,69],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,196,72],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,196,4],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,196,43],
@@ -244,10 +249,5 @@ var NAVTREEINDEX56 =
 "d6/d96/classRaceCTS.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,101,3],
 "d6/d96/classRaceCTS.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,101,17],
 "d6/d96/classRaceCTS.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,101,6],
-"d6/d96/classRaceCTS.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,101,7],
-"d6/d96/classRaceCTS.html#aef3a65f4987590d66b653b91180860ca":[1,0,101,9],
-"d6/d96/classRaceCTS.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,101,5],
-"d6/d97/common_2vehicles_2__mod_8qh.html":[2,0,1,15,2],
-"d6/d97/common_2vehicles_2__mod_8qh_source.html":[2,0,1,15,2],
-"d6/d99/effectinfo__buffs_8inc.html":[2,0,1,2,10]
+"d6/d96/classRaceCTS.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,101,7]
 };
