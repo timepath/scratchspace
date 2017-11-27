@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"d6/d74/serverlist_8qc.html#a41281346890a95d43f53bbeebe9b1c81":[2,0,5,4,200,1],
 "d6/d74/serverlist_8qc.html#a4382ec8abd0b7afb51d9855b512f95f2":[2,0,5,4,200,9],
 "d6/d74/serverlist_8qc.html#a4c2619f15b606e7381a0d67501ae9198":[2,0,5,4,200,14],
 "d6/d74/serverlist_8qc.html#a50a4352b03fb4631db004d5a549c95a2":[2,0,5,4,200,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "d6/d7d/classEWheel.html#af262437347438c0a8b4216dce8c30f3a":[1,0,35,17],
 "d6/d7d/classEWheel.html#af95a69695a3bb5396b8d0f058041c959":[1,0,35,15],
 "d6/d7d/dialog__multiplayer__create__mutators_8qh.html":[2,0,5,4,93],
-"d6/d7d/dialog__multiplayer__create__mutators_8qh_source.html":[2,0,5,4,93],
-"d6/d80/blaster_8qh.html":[2,0,1,16,0,5]
+"d6/d7d/dialog__multiplayer__create__mutators_8qh_source.html":[2,0,5,4,93]
 };

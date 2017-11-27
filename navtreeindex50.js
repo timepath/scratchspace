@@ -188,7 +188,8 @@ var NAVTREEINDEX50 =
 "d5/dac/server_2scores_8qh.html#afc148f5f21c7b4c29db8ffeabfb26882":[2,0,6,63,14],
 "d5/dac/server_2scores_8qh_source.html":[2,0,6,63],
 "d5/db0/teleport_8qc.html":[2,0,1,13,3,46],
-"d5/db0/teleport_8qc.html#a92ff553068677feebff8a10a9acef5f2":[2,0,1,13,3,46,0],
+"d5/db0/teleport_8qc.html#a03f34562010302b43db73a920b807d9e":[2,0,1,13,3,46,0],
+"d5/db0/teleport_8qc.html#a92ff553068677feebff8a10a9acef5f2":[2,0,1,13,3,46,1],
 "d5/db0/teleport_8qc_source.html":[2,0,1,13,3,46],
 "d5/db1/server_2bot_2default_2__mod_8qh.html":[2,0,6,0,0,2],
 "d5/db1/server_2bot_2default_2__mod_8qh_source.html":[2,0,6,0,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "d5/dc9/cl__model_8qc.html#ae40ce01eb52f361833d2902006b37695":[2,0,4,0,2,4],
 "d5/dc9/cl__model_8qc.html#ae894e2258bbd2980a58ab01eed2b9ee1":[2,0,4,0,2,20],
 "d5/dc9/cl__model_8qc.html#af79499d9395cf66fe8389e03166ba584":[2,0,4,0,2,13],
-"d5/dc9/cl__model_8qc_source.html":[2,0,4,0,2],
-"d5/dd1/playerdemo_8qh.html":[2,0,6,52]
+"d5/dc9/cl__model_8qc_source.html":[2,0,4,0,2]
 };
