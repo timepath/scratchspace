@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"d2/d1c/weapons_2weapon_8qh.html#a3274285ca5d1ecd3a3ffb1d1683a9664":[2,0,1,16,13,34],
+"d2/d1c/weapons_2weapon_8qh.html#a33a5fa56c7d71ec499a00d0ed547de24":[2,0,1,16,13,19],
 "d2/d1c/weapons_2weapon_8qh.html#a4df1be4c93f242cc9f7db93970b46f56":[2,0,1,16,13,29],
 "d2/d1c/weapons_2weapon_8qh.html#a56bca5a7cf9c3b914cb389ba09f8999c":[2,0,1,16,13,39],
 "d2/d1c/weapons_2weapon_8qh.html#a614c672f17110736e8ce160d3f78e174":[2,0,1,16,13,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "d2/d37/jetpack_8qh.html#a0e639917fc84d49a0b66eba3d809f58d":[2,0,1,5,0,9,3],
 "d2/d37/jetpack_8qh.html#a0f7fe7df8798aa0299de91d2d412a143":[2,0,1,5,0,9,2],
 "d2/d37/jetpack_8qh.html#a2c82e29d04f7365b5b7eb2210eeda604":[2,0,1,5,0,9,5],
-"d2/d37/jetpack_8qh.html#ac410fda71435f6a71db1be182594c7ed":[2,0,1,5,0,9,4],
-"d2/d37/jetpack_8qh_source.html":[2,0,1,5,0,9],
-"d2/d38/mage_8qh.html":[2,0,1,8,0,3]
+"d2/d37/jetpack_8qh.html#ac410fda71435f6a71db1be182594c7ed":[2,0,1,5,0,9,4]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"d1/d7e/classXonoticServerListTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,239,89],
+"d1/d7e/classXonoticServerListTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,239,51],
 "d1/d7e/classXonoticServerListTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,239,21],
 "d1/d7e/classXonoticServerListTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,239,65],
 "d1/d7e/classXonoticServerListTab.html#a67d95732d49da439095483530aca8804":[1,0,239,57],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "d1/d98/sv__campcheck_8qc.html#a90f0a049afb3a70496483a0b91cc8c63":[2,0,1,9,0,4,4,6],
 "d1/d98/sv__campcheck_8qc.html#abdf7e0132e0d41949b4203e7bb6dc756":[2,0,1,9,0,4,4,7],
 "d1/d98/sv__campcheck_8qc.html#ad107103074096b99935a50d77aab36b5":[2,0,1,9,0,4,4,2],
-"d1/d98/sv__campcheck_8qc.html#af79456fac3f9e6166178231028665858":[2,0,1,9,0,4,4,4],
-"d1/d98/sv__campcheck_8qc_source.html":[2,0,1,9,0,4,4],
-"d1/d9a/navigation_8qc.html":[2,0,6,0,0,9]
+"d1/d98/sv__campcheck_8qc.html#af79456fac3f9e6166178231028665858":[2,0,1,9,0,4,4,4]
 };

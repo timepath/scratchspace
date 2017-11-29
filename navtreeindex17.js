@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"d2/d37/jetpack_8qh_source.html":[2,0,1,5,0,9],
+"d2/d38/mage_8qh.html":[2,0,1,8,0,3],
 "d2/d38/mage_8qh.html#a259221d0471dbdf827c5e95930f0c1c7":[2,0,1,8,0,3,3],
 "d2/d38/mage_8qh.html#adf12fb8099f4fded0f4312f63d7d2414":[2,0,1,8,0,3,2],
 "d2/d38/mage_8qh_source.html":[2,0,1,8,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "d2/d4b/classPlayer.html#ada2168564e0fdea139d23db1eb5ea004":[1,0,99,62],
 "d2/d4b/classPlayer.html#adbc59e37e184e760484bc8aa1aea4f93":[1,0,99,118],
 "d2/d4b/classPlayer.html#addc036d3aa8fc1e551842be6effd5b4e":[1,0,99,16],
-"d2/d4b/classPlayer.html#adece4de9ee5ff3046c9ee0973dd13a30":[1,0,99,20],
-"d2/d4b/classPlayer.html#adf8537a27ab5aef0756b7e3575c5905e":[1,0,99,44],
-"d2/d4b/classPlayer.html#ae1163b3229a44d5ba5552508fded0ce6":[1,0,99,45]
+"d2/d4b/classPlayer.html#adece4de9ee5ff3046c9ee0973dd13a30":[1,0,99,20]
 };

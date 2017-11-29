@@ -1,5 +1,9 @@
 var NAVTREEINDEX116 =
 {
+"dd/d43/cl__turrets_8qc.html#a3b700ba20a1e659f0f6012249ae62afd":[2,0,1,14,7,3],
+"dd/d43/cl__turrets_8qc.html#a3ef76a50f8c6b47647e267278a9482a6":[2,0,1,14,7,0],
+"dd/d43/cl__turrets_8qc.html#a5d418fca3cce0471a26810a234feae15":[2,0,1,14,7,10],
+"dd/d43/cl__turrets_8qc.html#a64d2520acfd864817d8e1ddc8c94089f":[2,0,1,14,7,4],
 "dd/d43/cl__turrets_8qc.html#a765708b12a85db1317da69da39087124":[2,0,1,14,7,8],
 "dd/d43/cl__turrets_8qc.html#a88e2b9692e03e7446a148bbfc8fc6a39":[2,0,1,14,7,5],
 "dd/d43/cl__turrets_8qc.html#a8a5aa44dc52f648c1cbbb4bcce5d119a":[2,0,1,14,7,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX116 =
 "dd/d73/classMachineGun.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,71,13],
 "dd/d73/classMachineGun.html#a4337268c8cad6836bae8efd4a8835070":[1,0,71,23],
 "dd/d73/classMachineGun.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,71,2],
-"dd/d73/classMachineGun.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,71,17],
-"dd/d73/classMachineGun.html#a5a74bd7bd031ea75c7c9dc244b2e127f":[1,0,71,37],
-"dd/d73/classMachineGun.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,71,11],
-"dd/d73/classMachineGun.html#a6a4ca1cbdcc772ba519c2e7ad0a9b973":[1,0,71,34],
-"dd/d73/classMachineGun.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,71,10]
+"dd/d73/classMachineGun.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,71,17]
 };

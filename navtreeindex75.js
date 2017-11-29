@@ -1,5 +1,9 @@
 var NAVTREEINDEX75 =
 {
+"d8/d6b/selection_8qh.html#a6feb08ba7d01d611762b08aeb5dd7dd6":[2,0,6,5,11,3],
+"d8/d6b/selection_8qh.html#a7e2426ae180c23d1a760ea0951ddd2f1":[2,0,6,5,11,10],
+"d8/d6b/selection_8qh.html#aa9ed52c05bcae706e07b86117f1165df":[2,0,6,5,11,7],
+"d8/d6b/selection_8qh.html#ab9daa12e545de1878a232e10317b0a0e":[2,0,6,5,11,11],
 "d8/d6b/selection_8qh.html#aba6ed323f0e8f5773f5d7de51e2d3411":[2,0,6,5,11,1],
 "d8/d6b/selection_8qh.html#ac84b5920c2121ae19b3e269c60244bfd":[2,0,6,5,11,9],
 "d8/d6b/selection_8qh.html#ad4bf72dfdd0aaeca5bc1da4fb607fb3b":[2,0,6,5,11,5],
@@ -57,8 +61,8 @@ var NAVTREEINDEX75 =
 "d8/d79/notifications_2all_8qc.html#ad02f8d427504ef14b91645e337035578":[2,0,1,10,3,32],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,19],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,18],
-"d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,17],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,20],
+"d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,17],
 "d8/d79/notifications_2all_8qc.html#adccbc5e955002f3e2d26f36496349f2f":[2,0,1,10,3,29],
 "d8/d79/notifications_2all_8qc.html#ae93ed72c8bc25a3db70a3dce5a8070d9":[2,0,1,10,3,42],
 "d8/d79/notifications_2all_8qc.html#aebba04739a8cedbc68c1561271936be9":[2,0,1,10,3,36],
@@ -245,9 +249,5 @@ var NAVTREEINDEX75 =
 "d8/d8f/classXonoticInputBox.html#a86d5a41253876ec85fd121bea44cbb59":[1,0,202,28],
 "d8/d8f/classXonoticInputBox.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,202,76],
 "d8/d8f/classXonoticInputBox.html#a8b95dcf234e31370b97d4d56342290d4":[1,0,202,20],
-"d8/d8f/classXonoticInputBox.html#a8be93ae6496fa008aaba254ad76f19c9":[1,0,202,30],
-"d8/d8f/classXonoticInputBox.html#a8d7b1a2309302ad3a1560bd6458a19cd":[1,0,202,48],
-"d8/d8f/classXonoticInputBox.html#a8f27aa0cf1042e35bc8e2c89c1a4159e":[1,0,202,51],
-"d8/d8f/classXonoticInputBox.html#a91d97c1cb1026791f978d0e8f8396988":[1,0,202,79],
-"d8/d8f/classXonoticInputBox.html#a9916ec0bdfba275338caca93492422e6":[1,0,202,47]
+"d8/d8f/classXonoticInputBox.html#a8be93ae6496fa008aaba254ad76f19c9":[1,0,202,30]
 };

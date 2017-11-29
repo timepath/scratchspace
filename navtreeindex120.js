@@ -1,5 +1,9 @@
 var NAVTREEINDEX120 =
 {
+"dd/db3/classXonoticQuitDialog.html#aeff76ecca42175bf48a2312421add4bd":[1,0,224,60],
+"dd/db3/classXonoticQuitDialog.html#af1aab403dc54575707fd57991312b201":[1,0,224,47],
+"dd/db3/classXonoticQuitDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,224,27],
+"dd/db3/classXonoticQuitDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,224,15],
 "dd/db3/classXonoticQuitDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,224,39],
 "dd/db3/classXonoticQuitDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,224,2],
 "dd/db3/classXonoticQuitDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,224,37],
@@ -245,9 +249,5 @@ var NAVTREEINDEX120 =
 "dd/df1/registry__net_8qh_source.html":[2,0,4,47],
 "dd/df2/wepent_8qc.html":[2,0,1,53],
 "dd/df2/wepent_8qc.html#a54b06206debb9dc5335e2b341194e156":[2,0,1,53,0],
-"dd/df2/wepent_8qc.html#ad1f180090e5441ffa5298ae782db25d4":[2,0,1,53,1],
-"dd/df2/wepent_8qc_source.html":[2,0,1,53],
-"dd/df8/turrets_8qc.html":[2,0,1,14,16],
-"dd/df8/turrets_8qc_source.html":[2,0,1,14,16],
-"dd/df9/classCheckBox.html":[1,0,16]
+"dd/df2/wepent_8qc.html#ad1f180090e5441ffa5298ae782db25d4":[2,0,1,53,1]
 };

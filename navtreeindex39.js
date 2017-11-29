@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"d4/d56/classHunterKillerAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,52,21],
+"d4/d56/classHunterKillerAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,52,20],
 "d4/d56/classHunterKillerAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,52,33],
 "d4/d56/classHunterKillerAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,52,18],
 "d4/d56/classHunterKillerAttack.html#a312755d5709b880f99cf89d7a76237fe":[1,0,52,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "d4/d78/slider__decibels_8qh.html#a883041d74e98199cace40e7d8ad6fed1":[2,0,5,4,207,2],
 "d4/d78/slider__decibels_8qh.html#acdaf40d865f01d6f48c3d3aae574303f":[2,0,5,4,207,1],
 "d4/d78/slider__decibels_8qh_source.html":[2,0,5,4,207],
-"d4/d79/rainsnow_8qh.html":[2,0,1,13,0,29],
-"d4/d79/rainsnow_8qh_source.html":[2,0,1,13,0,29],
-"d4/d7a/movelib_8qc.html":[2,0,1,11,4]
+"d4/d79/rainsnow_8qh.html":[2,0,1,13,0,29]
 };
