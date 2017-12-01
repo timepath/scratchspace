@@ -137,7 +137,7 @@ $(document).ready(function(){initNavTree('dc/dab/spawning_8qc_source.html','../.
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../dc/de5/classWeapon.html">Weapon</a> wpn = e;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    e = wpn = wpn.<a class="code" href="../../dc/de5/classWeapon.html#a312755d5709b880f99cf89d7a76237fe">m_spawnfunc_hookreplace</a>(wpn, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = wpn.m_canonical_spawnfunc;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">//this.classname = wpn.m_canonical_spawnfunc;</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../df/def/server_2items_8qc.html#a74c05dd595595612bcb3f2b9450e7591">Item_IsLoot</a>(<span class="keyword">this</span>) &amp;&amp; !this.<a class="code" href="../../dc/dab/spawning_8qc.html#a3358be5aced5db427622164fd550e978">m_isreplaced</a>)</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">if</span> (e.<a class="code" href="../../dc/de5/classWeapon.html#aaab6e67f316eebe5b5836499c84988cf">spawnflags</a> &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a>)</div>
@@ -281,7 +281,6 @@ $(document).ready(function(){initNavTree('dc/dab/spawning_8qc_source.html','../.
 <div class="ttc" id="common_2resources_8qh_html_abc6126af1d45847bc59afa0aa3216b04a21fb6fb8eff77e137df0cc9a2700b9e1"><div class="ttname"><a href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a21fb6fb8eff77e137df0cc9a2700b9e1">RESOURCE_SHELLS</a></div><div class="ttdoc">Shells (used by shotgun). </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/common_2resources_8qh_source.html#l00014">resources.qh:14</a></div></div>
 <div class="ttc" id="spawning_8qh_html"><div class="ttname"><a href="../../d3/d93/spawning_8qh.html">spawning.qh</a></div></div>
 <div class="ttc" id="classGameItem_html"><div class="ttname"><a href="../../d0/d9a/classGameItem.html">GameItem</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7c/common_2items_2item_8qh_source.html#l00068">item.qh:68</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="weaponsystem_8qh_html"><div class="ttname"><a href="../../da/db7/weaponsystem_8qh.html">weaponsystem.qh</a></div></div>
 <div class="ttc" id="common_2resources_8qh_html_abc6126af1d45847bc59afa0aa3216b04a0115d194a8ee77f582bb43e6215f6b0b"><div class="ttname"><a href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a0115d194a8ee77f582bb43e6215f6b0b">RESOURCE_CELLS</a></div><div class="ttdoc">Cells (used by electro, crylink, vortex, etc) </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/common_2resources_8qh_source.html#l00017">resources.qh:17</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00033">main.qh:33</a></div></div>
@@ -319,7 +318,7 @@ $(document).ready(function(){initNavTree('dc/dab/spawning_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../dc/dab/spawning_8qc.html">spawning.qc</a></li>
-    <li class="footer">Generated on Wed Nov 29 2017 07:44:10 for Xonotic by
+    <li class="footer">Generated on Fri Dec 1 2017 02:07:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
