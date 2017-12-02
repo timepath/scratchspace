@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"de/dbd/banning_8qh_source.html":[2,0,6,1,3],
 "de/dbe/client_2__mod_8inc.html":[2,0,0,4],
 "de/dbe/client_2__mod_8inc_source.html":[2,0,0,4],
 "de/dbe/mage_8qc.html":[2,0,1,8,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "de/de8/portals_8qc.html#a094624b4f82802e6d53a8b12f370727f":[2,0,6,53,26],
 "de/de8/portals_8qc.html#a0ca576360dad6d1ba5c16681b25f958a":[2,0,6,53,29],
 "de/de8/portals_8qc.html#a19a716fc7b82b007e67a749adb19b80e":[2,0,6,53,17],
-"de/de8/portals_8qc.html#a1da88f3fb3bff3b8ceb370e7e29d704a":[2,0,6,53,37],
-"de/de8/portals_8qc.html#a26d6a93407148508470bee4806bc5c2e":[2,0,6,53,10]
+"de/de8/portals_8qc.html#a1da88f3fb3bff3b8ceb370e7e29d704a":[2,0,6,53,37]
 };

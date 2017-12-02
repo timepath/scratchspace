@@ -134,6 +134,7 @@ var searchData=
   ['item_5fmodel',['Item_Model',['../d3/d1f/items_2all_8qc.html#a718980a67d03a2d6feb39aa9b06307cd',1,'all.qc']]],
   ['item_5fsetexpiring',['Item_SetExpiring',['../df/def/server_2items_8qc.html#a242ed0408675ef4cae9101d25277c05d',1,'Item_SetExpiring(entity item, bool expiring):&#160;items.qc'],['../d1/dbb/server_2items_8qh.html#a242ed0408675ef4cae9101d25277c05d',1,'Item_SetExpiring(entity item, bool expiring):&#160;items.qc']]],
   ['item_5fsetloot',['Item_SetLoot',['../df/def/server_2items_8qc.html#a95b5587513272c12b9d401ba026d7550',1,'Item_SetLoot(entity item, bool loot):&#160;items.qc'],['../d1/dbb/server_2items_8qh.html#a95b5587513272c12b9d401ba026d7550',1,'Item_SetLoot(entity item, bool loot):&#160;items.qc']]],
+  ['item_5fshouldkeepposition',['Item_ShouldKeepPosition',['../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8',1,'Item_ShouldKeepPosition(entity item):&#160;items.qc'],['../d1/dbb/server_2items_8qh.html#a1273442a78b247ad612a19fc4b6529a8',1,'Item_ShouldKeepPosition(entity item):&#160;items.qc']]],
   ['item_5fsound',['Item_Sound',['../d3/d1f/items_2all_8qc.html#a9ed3c9d014eee8604675aed9bb11144e',1,'Item_Sound(string it_snd):&#160;all.qc'],['../d6/dce/sounds_2all_8inc.html#a9ed3c9d014eee8604675aed9bb11144e',1,'Item_Sound(string it_snd):&#160;all.qc']]],
   ['itemfrompoint',['itemFromPoint',['../d0/d7b/classContainer.html#a2c63df61f472ebeda80e1f553aec25f7',1,'Container']]]
 ];

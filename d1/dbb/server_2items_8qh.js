@@ -7,5 +7,6 @@ var server_2items_8qh =
     [ "Item_IsExpiring", "d1/dbb/server_2items_8qh.html#a447cadc74ccb697013c256e5bb45f75b", null ],
     [ "Item_IsLoot", "d1/dbb/server_2items_8qh.html#a74c05dd595595612bcb3f2b9450e7591", null ],
     [ "Item_SetExpiring", "d1/dbb/server_2items_8qh.html#a242ed0408675ef4cae9101d25277c05d", null ],
-    [ "Item_SetLoot", "d1/dbb/server_2items_8qh.html#a95b5587513272c12b9d401ba026d7550", null ]
+    [ "Item_SetLoot", "d1/dbb/server_2items_8qh.html#a95b5587513272c12b9d401ba026d7550", null ],
+    [ "Item_ShouldKeepPosition", "d1/dbb/server_2items_8qh.html#a1273442a78b247ad612a19fc4b6529a8", null ]
 ];

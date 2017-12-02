@@ -312,7 +312,7 @@ $(document).ready(function(){initNavTree('d8/d0c/sv__overkill_8qc_source.html','
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(wep, ent.origin);</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(wep, MDL_OK_HMG);</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            wep.ok_item = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            wep.noalign = ent.noalign;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            wep.noalign = <a class="code" href="../../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8">Item_ShouldKeepPosition</a>(ent);</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            wep.cnt = ent.cnt;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            wep.team = ent.team;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            wep.respawntime = g_pickup_respawntime_superweapon;</div>
@@ -328,7 +328,7 @@ $(document).ready(function(){initNavTree('d8/d0c/sv__overkill_8qc_source.html','
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(wep, ent.origin);</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(wep, MDL_OK_RPC);</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            wep.ok_item = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            wep.noalign = ent.noalign;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            wep.noalign = <a class="code" href="../../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8">Item_ShouldKeepPosition</a>(ent);</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            wep.cnt = ent.cnt;</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            wep.team = ent.team;</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            wep.respawntime = g_pickup_respawntime_superweapon;</div>
@@ -463,6 +463,7 @@ $(document).ready(function(){initNavTree('d8/d0c/sv__overkill_8qc_source.html','
 <div class="ttc" id="base_8qh_html_ac878b5fd9ca1fd639fca3f72e12c582e"><div class="ttname"><a href="../../db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e">MUTATOR_ONREMOVE</a></div><div class="ttdeci">#define MUTATOR_ONREMOVE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00281">base.qh:281</a></div></div>
 <div class="ttc" id="sv__overkill_8qc_html_a1f5b682ab4a4eb9896ca64778b726a80"><div class="ttname"><a href="../../d8/d0c/sv__overkill_8qc.html#a1f5b682ab4a4eb9896ca64778b726a80">ok_lastwep</a></div><div class="ttdeci">Weapon ok_lastwep[MAX_WEAPONSLOTS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0c/sv__overkill_8qc_source.html#l00012">sv_overkill.qc:12</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
+<div class="ttc" id="server_2items_8qc_html_a1273442a78b247ad612a19fc4b6529a8"><div class="ttname"><a href="../../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8">Item_ShouldKeepPosition</a></div><div class="ttdeci">bool Item_ShouldKeepPosition(entity item)</div><div class="ttdoc">Returns whether item should keep its position or be dropped to the ground. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/def/server_2items_8qc_source.html#l00087">items.qc:87</a></div></div>
 <div class="ttc" id="sv__overkill_8qc_html_af9ffca40bf7744bacacbc7b729c20241"><div class="ttname"><a href="../../d8/d0c/sv__overkill_8qc.html#af9ffca40bf7744bacacbc7b729c20241">ok_DropItem</a></div><div class="ttdeci">void ok_DropItem(entity this, entity targ)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0c/sv__overkill_8qc_source.html#l00080">sv_overkill.qc:80</a></div></div>
 <div class="ttc" id="weapons_2weapon_8qh_html_a6c083826b597734af72d573025ce48ad"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a></div><div class="ttdeci">entity weaponentities[MAX_WEAPONSLOTS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00014">weapon.qh:14</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
@@ -486,7 +487,7 @@ $(document).ready(function(){initNavTree('d8/d0c/sv__overkill_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_9f0ba747dc6b4bb85fdadc94258260f2.html">overkill</a></li><li class="navelem"><a class="el" href="../../d8/d0c/sv__overkill_8qc.html">sv_overkill.qc</a></li>
-    <li class="footer">Generated on Fri Dec 1 2017 14:28:14 for Xonotic by
+    <li class="footer">Generated on Sat Dec 2 2017 02:18:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

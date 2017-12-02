@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"d4/d24/classWalkerTurretAttack.html#a312755d5709b880f99cf89d7a76237fe":[1,0,138,5],
 "d4/d24/classWalkerTurretAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,138,22],
 "d4/d24/classWalkerTurretAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,138,13],
 "d4/d24/classWalkerTurretAttack.html#a40162d58d008cdd30f19e5368a6e17af":[1,0,138,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d3f/classXonoticKeyBinder.html#af9d941569d16ba17cec674b89df93ad0":[1,0,204,28],
 "d4/d3f/classXonoticKeyBinder.html#afdcf1fb79903f747cda494b27206526b":[1,0,204,5],
 "d4/d3f/tracing_8qh.html":[2,0,6,5,17],
-"d4/d3f/tracing_8qh.html#a01fdafeeb02668e5b55cce3baccf9d01":[2,0,6,5,17,17],
-"d4/d3f/tracing_8qh.html#a123df86f00fdba4b448d82b91eb3c7cd":[2,0,6,5,17,11]
+"d4/d3f/tracing_8qh.html#a01fdafeeb02668e5b55cce3baccf9d01":[2,0,6,5,17,17]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX135 =
 {
+"df/dd4/navigation_8qh.html#afbfd2a73fbc366fec845703f28c51405":[2,0,6,0,0,10,37],
 "df/dd4/navigation_8qh.html#aff4ebe5f7a2ca89fb711b84a69534c86":[2,0,6,0,0,10,62],
 "df/dd4/navigation_8qh_source.html":[2,0,6,0,0,10],
 "df/dd5/slider__picmip_8qc.html":[2,0,5,4,210],
@@ -132,12 +133,13 @@ var NAVTREEINDEX135 =
 "df/dee/anglestransform_8qh_source.html":[2,0,4,2,3],
 "df/def/server_2items_8qc.html":[2,0,6,41],
 "df/def/server_2items_8qc.html#a08b65b29d4e4daae4c85d1dd01cf7fda":[2,0,6,41,0],
+"df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8":[2,0,6,41,8],
 "df/def/server_2items_8qc.html#a1abbc2840126cee768cba2d54dca5e62":[2,0,6,41,2],
 "df/def/server_2items_8qc.html#a242ed0408675ef4cae9101d25277c05d":[2,0,6,41,6],
 "df/def/server_2items_8qc.html#a325bcd8c6dbc081d320c9d749de65e20":[2,0,6,41,1],
-"df/def/server_2items_8qc.html#a3d4a0f38b62981cc835e404a436388c1":[2,0,6,41,9],
+"df/def/server_2items_8qc.html#a3d4a0f38b62981cc835e404a436388c1":[2,0,6,41,10],
 "df/def/server_2items_8qc.html#a447cadc74ccb697013c256e5bb45f75b":[2,0,6,41,4],
-"df/def/server_2items_8qc.html#a44c8b27ee1144244dddebd668a4fa237":[2,0,6,41,8],
+"df/def/server_2items_8qc.html#a44c8b27ee1144244dddebd668a4fa237":[2,0,6,41,9],
 "df/def/server_2items_8qc.html#a74c05dd595595612bcb3f2b9450e7591":[2,0,6,41,5],
 "df/def/server_2items_8qc.html#a89f5174a26e743b85637afa34f5a6f81":[2,0,6,41,3],
 "df/def/server_2items_8qc.html#a95b5587513272c12b9d401ba026d7550":[2,0,6,41,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX135 =
 "df/df8/door__secret_8qc_source.html":[2,0,1,13,0,14],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html":[1,0,231],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,231,95],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a03b39828cfca5042da326cc07cc8f7b4":[1,0,231,64],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a049908527e1af488d7acf53ac64090a1":[1,0,231,86],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0532ad63a21ab0ee3d87bed20ce60394":[1,0,231,63]
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a03b39828cfca5042da326cc07cc8f7b4":[1,0,231,64]
 };

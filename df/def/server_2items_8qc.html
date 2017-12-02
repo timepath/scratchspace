@@ -159,6 +159,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a95b5587513272c12b9d401ba026d7550"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/def/server_2items_8qc.html#a95b5587513272c12b9d401ba026d7550">Item_SetLoot</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> item, <a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a> loot)</td></tr>
 <tr class="memdesc:a95b5587513272c12b9d401ba026d7550"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item loot status.  <a href="#a95b5587513272c12b9d401ba026d7550">More...</a><br/></td></tr>
 <tr class="separator:a95b5587513272c12b9d401ba026d7550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1273442a78b247ad612a19fc4b6529a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8">Item_ShouldKeepPosition</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> item)</td></tr>
+<tr class="memdesc:a1273442a78b247ad612a19fc4b6529a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether item should keep its position or be dropped to the ground.  <a href="#a1273442a78b247ad612a19fc4b6529a8">More...</a><br/></td></tr>
+<tr class="separator:a1273442a78b247ad612a19fc4b6529a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -556,10 +559,10 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the item is expiring, false otherwise. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/def/server_2items_8qc_source.html#l00087">87</a> of file <a class="el" href="../../df/def/server_2items_8qc_source.html">items.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;{</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">return</span> item.m_isexpiring;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../df/def/server_2items_8qc_source.html#l00092">92</a> of file <a class="el" href="../../df/def/server_2items_8qc_source.html">items.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">return</span> item.m_isexpiring;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -640,12 +643,12 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>No return. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/def/server_2items_8qc_source.html#l00092">92</a> of file <a class="el" href="../../df/def/server_2items_8qc_source.html">items.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../df/def/server_2items_8qc_source.html#l00097">97</a> of file <a class="el" href="../../df/def/server_2items_8qc_source.html">items.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d64/throwing_8qc_source.html#l00037">W_ThrowNewWeapon()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    item.m_isexpiring = expiring;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;{</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    item.m_isexpiring = expiring;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -712,6 +715,48 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1273442a78b247ad612a19fc4b6529a8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a> Item_ShouldKeepPosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns whether item should keep its position or be dropped to the ground. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">item</td><td><a class="el" href="../../d0/dae/classItem.html">Item</a> to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if item should keep its position or false if it should be dropped to the ground. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../df/def/server_2items_8qc_source.html#l00087">87</a> of file <a class="el" href="../../df/def/server_2items_8qc_source.html">items.qc</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00195">MUTATOR_HOOKFUNCTION()</a>, and <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00262">RandomItems_ReplaceMapItem()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;{</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">return</span> item.noalign || (item.spawnflags &amp; 1);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
+</div><!-- fragment -->
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/def/server_2items_8qc_a1273442a78b247ad612a19fc4b6529a8_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a44c8b27ee1144244dddebd668a4fa237"></a>
 <div class="memitem">
@@ -751,7 +796,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../df/def/server_2items_8qc.html">items.qc</a></li>
-    <li class="footer">Generated on Fri Dec 1 2017 14:28:22 for Xonotic by
+    <li class="footer">Generated on Sat Dec 2 2017 02:19:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"d9/db3/classXonoticGameModelSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,174,67],
 "d9/db3/classXonoticGameModelSettingsTab.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,174,29],
 "d9/db3/classXonoticGameModelSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,174,92],
 "d9/db3/classXonoticGameModelSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,174,90],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "d9/dd1/common_2items_2item_2__mod_8qh_source.html":[2,0,1,5,0,1],
 "d9/dd4/plasma__weapon_8qc.html":[2,0,1,14,0,36],
 "d9/dd4/plasma__weapon_8qc_source.html":[2,0,1,14,0,36],
-"d9/dd9/item_2image_8qc.html":[2,0,5,2,12],
-"d9/dd9/item_2image_8qc.html#a1c12419f14cb6f7e805a6fa64a798edd":[2,0,5,2,12,0]
+"d9/dd9/item_2image_8qc.html":[2,0,5,2,12]
 };
