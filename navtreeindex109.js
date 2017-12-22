@@ -1,5 +1,7 @@
 var NAVTREEINDEX109 =
 {
+"dc/d3d/csqcmodel__hooks_8qc.html#a10da39b48aa5194f2a1bfb05ad5d8a7e":[2,0,0,12,23],
+"dc/d3d/csqcmodel__hooks_8qc.html#a17a6c58f046d5ba0a992704a55bee50e":[2,0,0,12,50],
 "dc/d3d/csqcmodel__hooks_8qc.html#a1bd92a536c5f5a353c528a891ba39b20":[2,0,0,12,42],
 "dc/d3d/csqcmodel__hooks_8qc.html#a1c17b346dec89b6434e65d185e8aa494":[2,0,0,12,52],
 "dc/d3d/csqcmodel__hooks_8qc.html#a1d84f1cb572be7335713c6d493aa7c78":[2,0,0,12,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX109 =
 "dc/d6c/classElectro.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,34,17],
 "dc/d6c/classElectro.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,34,11],
 "dc/d6c/classElectro.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,34,10],
-"dc/d6c/classElectro.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,34,3],
-"dc/d6c/classElectro.html#a7515d4131829927372fd6583d4ae610a":[1,0,34,0],
-"dc/d6c/classElectro.html#a75900c7b0a9b5c9fa32bc6d4a7d2e1be":[1,0,34,36]
+"dc/d6c/classElectro.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,34,3]
 };

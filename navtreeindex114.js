@@ -1,5 +1,7 @@
 var NAVTREEINDEX114 =
 {
+"dc/de9/classXonoticRootDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,229,23],
+"dc/de9/classXonoticRootDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,229,50],
 "dc/de9/classXonoticRootDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,229,28],
 "dc/de9/classXonoticRootDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,229,57],
 "dc/de9/classXonoticRootDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,229,34],
@@ -247,7 +249,5 @@ var NAVTREEINDEX114 =
 "dd/d0f/classTeslaCoilTurretAttack.html#a7515d4131829927372fd6583d4ae610a":[1,0,130,0],
 "dd/d0f/classTeslaCoilTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,130,37],
 "dd/d0f/classTeslaCoilTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,130,30],
-"dd/d0f/classTeslaCoilTurretAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,130,6],
-"dd/d0f/classTeslaCoilTurretAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,130,8],
-"dd/d0f/classTeslaCoilTurretAttack.html#aa0a5f1de6ba7228907295012902a136a":[1,0,130,32]
+"dd/d0f/classTeslaCoilTurretAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,130,6]
 };
