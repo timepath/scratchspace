@@ -61,6 +61,7 @@ var searchData=
   ['verifyclientnumber',['VerifyClientNumber',['../de/d55/server_2command_2common_8qc.html#a239726c53a65d7ecb8804925efd2b681',1,'VerifyClientNumber(float tmp_number):&#160;common.qc'],['../d2/d06/server_2command_2common_8qh.html#a239726c53a65d7ecb8804925efd2b681',1,'VerifyClientNumber(float tmp_number):&#160;common.qc']]],
   ['verifykickableentity',['VerifyKickableEntity',['../de/d55/server_2command_2common_8qc.html#aab19b445aac1c8d745c4c56c516db0d1',1,'VerifyKickableEntity(entity client):&#160;common.qc'],['../d2/d06/server_2command_2common_8qh.html#aab19b445aac1c8d745c4c56c516db0d1',1,'VerifyKickableEntity(entity client):&#160;common.qc']]],
   ['viewloc_5fplayerphysics',['viewloc_PlayerPhysics',['../d8/d6d/viewloc_8qc.html#ad4224551c2b606237629fa6bd79384d8',1,'viewloc_PlayerPhysics(entity this):&#160;viewloc.qc'],['../db/d53/viewloc_8qh.html#ad4224551c2b606237629fa6bd79384d8',1,'viewloc_PlayerPhysics(entity this):&#160;viewloc.qc']]],
+  ['viewlocation_5fmouse',['ViewLocation_Mouse',['../d6/dd3/view_8qc.html#a3002fc01879df1c04d02a17a92106379',1,'view.qc']]],
   ['viewmodel_5fanimate',['viewmodel_animate',['../d6/dd3/view_8qc.html#ae5dc3684cbb64e6740ca3f1dd8e97b33',1,'view.qc']]],
   ['viewmodel_5fdraw',['viewmodel_draw',['../d6/dd3/view_8qc.html#ac393da9659f9d96ef1e25885cd495e2f',1,'view.qc']]],
   ['vlen',['vlen',['../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf',1,'menudefs.qc']]],

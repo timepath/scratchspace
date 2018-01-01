@@ -37,6 +37,7 @@ var view_8qc =
     [ "TrueAim_Init", "d6/dd3/view_8qc.html#a468fbc523e176ec4adf829a18606b5f6", null ],
     [ "TrueAimCheck", "d6/dd3/view_8qc.html#ada8e157cb058a1a9ae9141acda5a4d85", null ],
     [ "UpdateDamage", "d6/dd3/view_8qc.html#a1b7c67e3629db4876e3ba891b6763092", null ],
+    [ "ViewLocation_Mouse", "d6/dd3/view_8qc.html#a3002fc01879df1c04d02a17a92106379", null ],
     [ "viewmodel_animate", "d6/dd3/view_8qc.html#ae5dc3684cbb64e6740ca3f1dd8e97b33", null ],
     [ "viewmodel_draw", "d6/dd3/view_8qc.html#ac393da9659f9d96ef1e25885cd495e2f", null ],
     [ "WantEventchase", "d6/dd3/view_8qc.html#aaedfb15dac0fc5308e64d3b3d58cf76f", null ],

@@ -471,47 +471,47 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01313">1313</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01318">1318</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 <p>References <a class="el" href="../../df/d13/anglestransform_8qc_source.html#l00140">AnglesTransform_FromAngles()</a>, <a class="el" href="../../df/d13/anglestransform_8qc_source.html#l00150">AnglesTransform_FromVAngles()</a>, <a class="el" href="../../df/d13/anglestransform_8qc_source.html#l00145">AnglesTransform_ToAngles()</a>, <a class="el" href="../../df/d13/anglestransform_8qc_source.html#l00154">AnglesTransform_ToVAngles()</a>, <a class="el" href="../../df/dee/anglestransform_8qh_source.html#l00008">fixedmakevectors</a>, <a class="el" href="../../df/dee/anglestransform_8qh_source.html#l00012">fixedvectoangles2</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00016">gettagindex</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_forward</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_right</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_up</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01314"></a><span class="lineno"> 1314</span>&#160;{</div>
-<div class="line"><a name="l01315"></a><span class="lineno"> 1315</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> org, t_forward, t_left, t_up, e_forward, e_up;</div>
-<div class="line"><a name="l01316"></a><span class="lineno"> 1316</span>&#160;    <span class="keywordtype">float</span> tagscale;</div>
-<div class="line"><a name="l01317"></a><span class="lineno"> 1317</span>&#160;</div>
-<div class="line"><a name="l01318"></a><span class="lineno"> 1318</span>&#160;    org = e.origin - gettaginfo(<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8">gettagindex</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>, tag));</div>
-<div class="line"><a name="l01319"></a><span class="lineno"> 1319</span>&#160;    tagscale = (<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>) ** -2); <span class="comment">// undo a scale on the tag</span></div>
-<div class="line"><a name="l01320"></a><span class="lineno"> 1320</span>&#160;    t_forward = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * tagscale;</div>
-<div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;    t_left = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a> * -tagscale;</div>
-<div class="line"><a name="l01322"></a><span class="lineno"> 1322</span>&#160;    t_up = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a> * tagscale;</div>
-<div class="line"><a name="l01323"></a><span class="lineno"> 1323</span>&#160;</div>
-<div class="line"><a name="l01324"></a><span class="lineno"> 1324</span>&#160;    e.origin_x = org * t_forward;</div>
-<div class="line"><a name="l01325"></a><span class="lineno"> 1325</span>&#160;    e.origin_y = org * t_left;</div>
-<div class="line"><a name="l01326"></a><span class="lineno"> 1326</span>&#160;    e.origin_z = org * t_up;</div>
-<div class="line"><a name="l01327"></a><span class="lineno"> 1327</span>&#160;</div>
-<div class="line"><a name="l01328"></a><span class="lineno"> 1328</span>&#160;    <span class="comment">// current forward and up directions</span></div>
-<div class="line"><a name="l01329"></a><span class="lineno"> 1329</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(e.model, 0, 1) == <span class="stringliteral">&quot;*&quot;</span>) <span class="comment">// bmodels have their own rules</span></div>
-<div class="line"><a name="l01330"></a><span class="lineno"> 1330</span>&#160;        e.angles = <a class="code" href="../../df/d13/anglestransform_8qc.html#af64b5ad6d44b097e630186f854137e5d">AnglesTransform_FromVAngles</a>(e.angles);</div>
-<div class="line"><a name="l01331"></a><span class="lineno"> 1331</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01332"></a><span class="lineno"> 1332</span>&#160;        e.angles = <a class="code" href="../../df/d13/anglestransform_8qc.html#ad8667144313dccb21ab055b7903a4125">AnglesTransform_FromAngles</a>(e.angles);</div>
-<div class="line"><a name="l01333"></a><span class="lineno"> 1333</span>&#160;    <a class="code" href="../../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e">fixedmakevectors</a>(e.angles);</div>
-<div class="line"><a name="l01334"></a><span class="lineno"> 1334</span>&#160;</div>
-<div class="line"><a name="l01335"></a><span class="lineno"> 1335</span>&#160;    <span class="comment">// untransform forward, up!</span></div>
-<div class="line"><a name="l01336"></a><span class="lineno"> 1336</span>&#160;    e_forward.x = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * t_forward;</div>
-<div class="line"><a name="l01337"></a><span class="lineno"> 1337</span>&#160;    e_forward.y = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * t_left;</div>
-<div class="line"><a name="l01338"></a><span class="lineno"> 1338</span>&#160;    e_forward.z = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * t_up;</div>
-<div class="line"><a name="l01339"></a><span class="lineno"> 1339</span>&#160;    e_up.x = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a> * t_forward;</div>
-<div class="line"><a name="l01340"></a><span class="lineno"> 1340</span>&#160;    e_up.y = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a> * t_left;</div>
-<div class="line"><a name="l01341"></a><span class="lineno"> 1341</span>&#160;    e_up.z = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a> * t_up;</div>
-<div class="line"><a name="l01342"></a><span class="lineno"> 1342</span>&#160;</div>
-<div class="line"><a name="l01343"></a><span class="lineno"> 1343</span>&#160;    e.angles = <a class="code" href="../../df/dee/anglestransform_8qh.html#a7306b623ecb07a5c62ec3d5b3094e1b7">fixedvectoangles2</a>(e_forward, e_up);</div>
-<div class="line"><a name="l01344"></a><span class="lineno"> 1344</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(e.model, 0, 1) == <span class="stringliteral">&quot;*&quot;</span>) <span class="comment">// bmodels have their own rules</span></div>
-<div class="line"><a name="l01345"></a><span class="lineno"> 1345</span>&#160;        e.angles = <a class="code" href="../../df/d13/anglestransform_8qc.html#a84a5233ab143cd9654d618b094d4e1b4">AnglesTransform_ToVAngles</a>(e.angles);</div>
-<div class="line"><a name="l01346"></a><span class="lineno"> 1346</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01347"></a><span class="lineno"> 1347</span>&#160;        e.angles = <a class="code" href="../../df/d13/anglestransform_8qc.html#a15af3793156583fd0299d2c7d2029f0c">AnglesTransform_ToAngles</a>(e.angles);</div>
-<div class="line"><a name="l01348"></a><span class="lineno"> 1348</span>&#160;</div>
-<div class="line"><a name="l01349"></a><span class="lineno"> 1349</span>&#160;    setattachment(e, <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>, tag);</div>
-<div class="line"><a name="l01350"></a><span class="lineno"> 1350</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, e.origin);</div>
-<div class="line"><a name="l01351"></a><span class="lineno"> 1351</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01319"></a><span class="lineno"> 1319</span>&#160;{</div>
+<div class="line"><a name="l01320"></a><span class="lineno"> 1320</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> org, t_forward, t_left, t_up, e_forward, e_up;</div>
+<div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;    <span class="keywordtype">float</span> tagscale;</div>
+<div class="line"><a name="l01322"></a><span class="lineno"> 1322</span>&#160;</div>
+<div class="line"><a name="l01323"></a><span class="lineno"> 1323</span>&#160;    org = e.origin - gettaginfo(<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8">gettagindex</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>, tag));</div>
+<div class="line"><a name="l01324"></a><span class="lineno"> 1324</span>&#160;    tagscale = (<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>) ** -2); <span class="comment">// undo a scale on the tag</span></div>
+<div class="line"><a name="l01325"></a><span class="lineno"> 1325</span>&#160;    t_forward = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * tagscale;</div>
+<div class="line"><a name="l01326"></a><span class="lineno"> 1326</span>&#160;    t_left = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a> * -tagscale;</div>
+<div class="line"><a name="l01327"></a><span class="lineno"> 1327</span>&#160;    t_up = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a> * tagscale;</div>
+<div class="line"><a name="l01328"></a><span class="lineno"> 1328</span>&#160;</div>
+<div class="line"><a name="l01329"></a><span class="lineno"> 1329</span>&#160;    e.origin_x = org * t_forward;</div>
+<div class="line"><a name="l01330"></a><span class="lineno"> 1330</span>&#160;    e.origin_y = org * t_left;</div>
+<div class="line"><a name="l01331"></a><span class="lineno"> 1331</span>&#160;    e.origin_z = org * t_up;</div>
+<div class="line"><a name="l01332"></a><span class="lineno"> 1332</span>&#160;</div>
+<div class="line"><a name="l01333"></a><span class="lineno"> 1333</span>&#160;    <span class="comment">// current forward and up directions</span></div>
+<div class="line"><a name="l01334"></a><span class="lineno"> 1334</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(e.model, 0, 1) == <span class="stringliteral">&quot;*&quot;</span>) <span class="comment">// bmodels have their own rules</span></div>
+<div class="line"><a name="l01335"></a><span class="lineno"> 1335</span>&#160;        e.angles = <a class="code" href="../../df/d13/anglestransform_8qc.html#af64b5ad6d44b097e630186f854137e5d">AnglesTransform_FromVAngles</a>(e.angles);</div>
+<div class="line"><a name="l01336"></a><span class="lineno"> 1336</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01337"></a><span class="lineno"> 1337</span>&#160;        e.angles = <a class="code" href="../../df/d13/anglestransform_8qc.html#ad8667144313dccb21ab055b7903a4125">AnglesTransform_FromAngles</a>(e.angles);</div>
+<div class="line"><a name="l01338"></a><span class="lineno"> 1338</span>&#160;    <a class="code" href="../../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e">fixedmakevectors</a>(e.angles);</div>
+<div class="line"><a name="l01339"></a><span class="lineno"> 1339</span>&#160;</div>
+<div class="line"><a name="l01340"></a><span class="lineno"> 1340</span>&#160;    <span class="comment">// untransform forward, up!</span></div>
+<div class="line"><a name="l01341"></a><span class="lineno"> 1341</span>&#160;    e_forward.x = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * t_forward;</div>
+<div class="line"><a name="l01342"></a><span class="lineno"> 1342</span>&#160;    e_forward.y = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * t_left;</div>
+<div class="line"><a name="l01343"></a><span class="lineno"> 1343</span>&#160;    e_forward.z = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * t_up;</div>
+<div class="line"><a name="l01344"></a><span class="lineno"> 1344</span>&#160;    e_up.x = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a> * t_forward;</div>
+<div class="line"><a name="l01345"></a><span class="lineno"> 1345</span>&#160;    e_up.y = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a> * t_left;</div>
+<div class="line"><a name="l01346"></a><span class="lineno"> 1346</span>&#160;    e_up.z = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a> * t_up;</div>
+<div class="line"><a name="l01347"></a><span class="lineno"> 1347</span>&#160;</div>
+<div class="line"><a name="l01348"></a><span class="lineno"> 1348</span>&#160;    e.angles = <a class="code" href="../../df/dee/anglestransform_8qh.html#a7306b623ecb07a5c62ec3d5b3094e1b7">fixedvectoangles2</a>(e_forward, e_up);</div>
+<div class="line"><a name="l01349"></a><span class="lineno"> 1349</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(e.model, 0, 1) == <span class="stringliteral">&quot;*&quot;</span>) <span class="comment">// bmodels have their own rules</span></div>
+<div class="line"><a name="l01350"></a><span class="lineno"> 1350</span>&#160;        e.angles = <a class="code" href="../../df/d13/anglestransform_8qc.html#a84a5233ab143cd9654d618b094d4e1b4">AnglesTransform_ToVAngles</a>(e.angles);</div>
+<div class="line"><a name="l01351"></a><span class="lineno"> 1351</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01352"></a><span class="lineno"> 1352</span>&#160;        e.angles = <a class="code" href="../../df/d13/anglestransform_8qc.html#a15af3793156583fd0299d2c7d2029f0c">AnglesTransform_ToAngles</a>(e.angles);</div>
+<div class="line"><a name="l01353"></a><span class="lineno"> 1353</span>&#160;</div>
+<div class="line"><a name="l01354"></a><span class="lineno"> 1354</span>&#160;    setattachment(e, <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>, tag);</div>
+<div class="line"><a name="l01355"></a><span class="lineno"> 1355</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, e.origin);</div>
+<div class="line"><a name="l01356"></a><span class="lineno"> 1356</span>&#160;}</div>
 <div class="ttc" id="anglestransform_8qc_html_a15af3793156583fd0299d2c7d2029f0c"><div class="ttname"><a href="../../df/d13/anglestransform_8qc.html#a15af3793156583fd0299d2c7d2029f0c">AnglesTransform_ToAngles</a></div><div class="ttdeci">vector AnglesTransform_ToAngles(vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d13/anglestransform_8qc_source.html#l00145">anglestransform.qc:145</a></div></div>
 <div class="ttc" id="anglestransform_8qc_html_a84a5233ab143cd9654d618b094d4e1b4"><div class="ttname"><a href="../../df/d13/anglestransform_8qc.html#a84a5233ab143cd9654d618b094d4e1b4">AnglesTransform_ToVAngles</a></div><div class="ttdeci">vector AnglesTransform_ToVAngles(vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d13/anglestransform_8qc_source.html#l00154">anglestransform.qc:154</a></div></div>
 <div class="ttc" id="anglestransform_8qc_html_ad8667144313dccb21ab055b7903a4125"><div class="ttname"><a href="../../df/d13/anglestransform_8qc.html#ad8667144313dccb21ab055b7903a4125">AnglesTransform_FromAngles</a></div><div class="ttdeci">vector AnglesTransform_FromAngles(vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d13/anglestransform_8qc_source.html#l00140">anglestransform.qc:140</a></div></div>
@@ -678,23 +678,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01353">1353</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01358">1358</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 <p>References <a class="el" href="../../df/d13/anglestransform_8qc_source.html#l00145">AnglesTransform_ToAngles()</a>, <a class="el" href="../../df/d13/anglestransform_8qc_source.html#l00154">AnglesTransform_ToVAngles()</a>, <a class="el" href="../../df/dee/anglestransform_8qh_source.html#l00012">fixedvectoangles2</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_forward</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_up</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00772">Drag()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01354"></a><span class="lineno"> 1354</span>&#160;{</div>
-<div class="line"><a name="l01355"></a><span class="lineno"> 1355</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> org;</div>
-<div class="line"><a name="l01356"></a><span class="lineno"> 1356</span>&#160;    org = gettaginfo(e, 0);</div>
-<div class="line"><a name="l01357"></a><span class="lineno"> 1357</span>&#160;    e.angles = <a class="code" href="../../df/dee/anglestransform_8qh.html#a7306b623ecb07a5c62ec3d5b3094e1b7">fixedvectoangles2</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a>);</div>
-<div class="line"><a name="l01358"></a><span class="lineno"> 1358</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(e.model, 0, 1) == <span class="stringliteral">&quot;*&quot;</span>) <span class="comment">// bmodels have their own rules</span></div>
-<div class="line"><a name="l01359"></a><span class="lineno"> 1359</span>&#160;        e.angles = <a class="code" href="../../df/d13/anglestransform_8qc.html#a84a5233ab143cd9654d618b094d4e1b4">AnglesTransform_ToVAngles</a>(e.angles);</div>
-<div class="line"><a name="l01360"></a><span class="lineno"> 1360</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01361"></a><span class="lineno"> 1361</span>&#160;        e.angles = <a class="code" href="../../df/d13/anglestransform_8qc.html#a15af3793156583fd0299d2c7d2029f0c">AnglesTransform_ToAngles</a>(e.angles);</div>
-<div class="line"><a name="l01362"></a><span class="lineno"> 1362</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, org);</div>
-<div class="line"><a name="l01363"></a><span class="lineno"> 1363</span>&#160;    setattachment(e, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l01364"></a><span class="lineno"> 1364</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, e.origin);</div>
-<div class="line"><a name="l01365"></a><span class="lineno"> 1365</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01359"></a><span class="lineno"> 1359</span>&#160;{</div>
+<div class="line"><a name="l01360"></a><span class="lineno"> 1360</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> org;</div>
+<div class="line"><a name="l01361"></a><span class="lineno"> 1361</span>&#160;    org = gettaginfo(e, 0);</div>
+<div class="line"><a name="l01362"></a><span class="lineno"> 1362</span>&#160;    e.angles = <a class="code" href="../../df/dee/anglestransform_8qh.html#a7306b623ecb07a5c62ec3d5b3094e1b7">fixedvectoangles2</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a>);</div>
+<div class="line"><a name="l01363"></a><span class="lineno"> 1363</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(e.model, 0, 1) == <span class="stringliteral">&quot;*&quot;</span>) <span class="comment">// bmodels have their own rules</span></div>
+<div class="line"><a name="l01364"></a><span class="lineno"> 1364</span>&#160;        e.angles = <a class="code" href="../../df/d13/anglestransform_8qc.html#a84a5233ab143cd9654d618b094d4e1b4">AnglesTransform_ToVAngles</a>(e.angles);</div>
+<div class="line"><a name="l01365"></a><span class="lineno"> 1365</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01366"></a><span class="lineno"> 1366</span>&#160;        e.angles = <a class="code" href="../../df/d13/anglestransform_8qc.html#a15af3793156583fd0299d2c7d2029f0c">AnglesTransform_ToAngles</a>(e.angles);</div>
+<div class="line"><a name="l01367"></a><span class="lineno"> 1367</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, org);</div>
+<div class="line"><a name="l01368"></a><span class="lineno"> 1368</span>&#160;    setattachment(e, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l01369"></a><span class="lineno"> 1369</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, e.origin);</div>
+<div class="line"><a name="l01370"></a><span class="lineno"> 1370</span>&#160;}</div>
 <div class="ttc" id="anglestransform_8qc_html_a15af3793156583fd0299d2c7d2029f0c"><div class="ttname"><a href="../../df/d13/anglestransform_8qc.html#a15af3793156583fd0299d2c7d2029f0c">AnglesTransform_ToAngles</a></div><div class="ttdeci">vector AnglesTransform_ToAngles(vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d13/anglestransform_8qc_source.html#l00145">anglestransform.qc:145</a></div></div>
 <div class="ttc" id="anglestransform_8qc_html_a84a5233ab143cd9654d618b094d4e1b4"><div class="ttname"><a href="../../df/d13/anglestransform_8qc.html#a84a5233ab143cd9654d618b094d4e1b4">AnglesTransform_ToVAngles</a></div><div class="ttdeci">vector AnglesTransform_ToVAngles(vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d13/anglestransform_8qc_source.html#l00154">anglestransform.qc:154</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
@@ -1121,16 +1121,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01367">1367</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01372">1372</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 <p>References <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l00549">MOVETYPE_FOLLOW</a>, <a class="el" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00096">to</a>.</p>
-<div class="fragment"><div class="line"><a name="l01368"></a><span class="lineno"> 1368</span>&#160;{</div>
-<div class="line"><a name="l01369"></a><span class="lineno"> 1369</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(e, <a class="code" href="../../de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c">MOVETYPE_FOLLOW</a>); <span class="comment">// make the hole follow</span></div>
-<div class="line"><a name="l01370"></a><span class="lineno"> 1370</span>&#160;    e.aiment = <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>; <span class="comment">// make the hole follow bmodel</span></div>
-<div class="line"><a name="l01371"></a><span class="lineno"> 1371</span>&#160;    e.punchangle = <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>.angles; <span class="comment">// the original angles of bmodel</span></div>
-<div class="line"><a name="l01372"></a><span class="lineno"> 1372</span>&#160;    e.view_ofs = e.origin - <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>.origin; <span class="comment">// relative origin</span></div>
-<div class="line"><a name="l01373"></a><span class="lineno"> 1373</span>&#160;    e.v_angle = e.angles - <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>.angles; <span class="comment">// relative angles</span></div>
-<div class="line"><a name="l01374"></a><span class="lineno"> 1374</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01373"></a><span class="lineno"> 1373</span>&#160;{</div>
+<div class="line"><a name="l01374"></a><span class="lineno"> 1374</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(e, <a class="code" href="../../de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c">MOVETYPE_FOLLOW</a>); <span class="comment">// make the hole follow</span></div>
+<div class="line"><a name="l01375"></a><span class="lineno"> 1375</span>&#160;    e.aiment = <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>; <span class="comment">// make the hole follow bmodel</span></div>
+<div class="line"><a name="l01376"></a><span class="lineno"> 1376</span>&#160;    e.punchangle = <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>.angles; <span class="comment">// the original angles of bmodel</span></div>
+<div class="line"><a name="l01377"></a><span class="lineno"> 1377</span>&#160;    e.view_ofs = e.origin - <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>.origin; <span class="comment">// relative origin</span></div>
+<div class="line"><a name="l01378"></a><span class="lineno"> 1378</span>&#160;    e.v_angle = e.angles - <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>.angles; <span class="comment">// relative angles</span></div>
+<div class="line"><a name="l01379"></a><span class="lineno"> 1379</span>&#160;}</div>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00096">self.qh:96</a></div></div>
 <div class="ttc" id="dpextensions_8qc_html_a5a0f8717cd777d80ce32fe72439b199c"><div class="ttname"><a href="../../de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c">MOVETYPE_FOLLOW</a></div><div class="ttdeci">float MOVETYPE_FOLLOW</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/dpextensions_8qc_source.html#l00549">dpextensions.qc:549</a></div></div>
 <div class="ttc" id="movetypes_8qh_html_a8bf89be84cb481d218ff41140eacff78"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a></div><div class="ttdeci">void set_movetype(entity this, int mt)</div></div>
@@ -1372,7 +1372,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00297">autocvar_sv_eventlog_console</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00298">autocvar_sv_eventlog_files</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00299">autocvar_sv_eventlog_files_counter</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00300">autocvar_sv_eventlog_files_nameprefix</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00301">autocvar_sv_eventlog_files_namesuffix</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00302">autocvar_sv_eventlog_files_timestamps</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00691">dedicated_print()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00102">FILE_APPEND</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../de/d0d/int_8qh_source.html#l00006">itos</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00132">logfile</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00131">logfile_open</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00194">anticheat_report_to_eventlog()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01143">ClientConnect()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01310">ClientDisconnect()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l00091">ctf_EventLog()</a>, <a class="el" href="../../d5/d69/gamemode__cts_8qc_source.html#l00047">cts_EventLog()</a>, <a class="el" href="../../dc/d80/gamemode__domination_8qc_source.html#l00016">dom_EventLog()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01409">DumpStats()</a>, <a class="el" href="../../d7/d33/sv__minigames_8qc_source.html#l00224">end_minigame()</a>, <a class="el" href="../../d7/d33/sv__minigames_8qc_source.html#l00263">invite_minigame()</a>, <a class="el" href="../../d3/d5a/gamemode__keepaway_8qc_source.html#l00038">ka_EventLog()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00177">kh_Scores_Event()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00144">LogDeath()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00023">LogTeamchange()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00507">MapVote_CheckRules_2()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00428">MapVote_Finished()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00125">MapVote_Suggest()</a>, <a class="el" href="../../d7/d33/sv__minigames_8qc_source.html#l00125">minigame_addplayer()</a>, <a class="el" href="../../d7/d33/sv__minigames_8qc_source.html#l00015">minigame_rmplayer()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01549">NextLevel()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02481">PlayerPreThink()</a>, <a class="el" href="../../d5/dd7/gamemode__race_8qc_source.html#l00057">race_EventLog()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00412">ReadyRestart_force()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00622">spawnfunc()</a>, <a class="el" href="../../d7/d33/sv__minigames_8qc_source.html#l00164">start_minigame()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00168">StartFrame()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00750">VoteCommand_call()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00837">VoteCommand_master()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00186">VoteSpam()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00150">VoteStop()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01302">write_recordmarker()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00194">anticheat_report_to_eventlog()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01143">ClientConnect()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01310">ClientDisconnect()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l00091">ctf_EventLog()</a>, <a class="el" href="../../d5/d69/gamemode__cts_8qc_source.html#l00047">cts_EventLog()</a>, <a class="el" href="../../dc/d80/gamemode__domination_8qc_source.html#l00016">dom_EventLog()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01409">DumpStats()</a>, <a class="el" href="../../d7/d33/sv__minigames_8qc_source.html#l00224">end_minigame()</a>, <a class="el" href="../../d7/d33/sv__minigames_8qc_source.html#l00263">invite_minigame()</a>, <a class="el" href="../../d3/d5a/gamemode__keepaway_8qc_source.html#l00038">ka_EventLog()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00177">kh_Scores_Event()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00144">LogDeath()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00023">LogTeamchange()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00507">MapVote_CheckRules_2()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00428">MapVote_Finished()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00125">MapVote_Suggest()</a>, <a class="el" href="../../d7/d33/sv__minigames_8qc_source.html#l00125">minigame_addplayer()</a>, <a class="el" href="../../d7/d33/sv__minigames_8qc_source.html#l00015">minigame_rmplayer()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01549">NextLevel()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02481">PlayerPreThink()</a>, <a class="el" href="../../d5/dd7/gamemode__race_8qc_source.html#l00057">race_EventLog()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00412">ReadyRestart_force()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00622">spawnfunc()</a>, <a class="el" href="../../d7/d33/sv__minigames_8qc_source.html#l00164">start_minigame()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00168">StartFrame()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00750">VoteCommand_call()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00837">VoteCommand_master()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00186">VoteSpam()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00150">VoteStop()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01307">write_recordmarker()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">string</span> fn;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">int</span> matches;</div>
@@ -2016,23 +2016,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01382">1382</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01387">1387</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00061">EF_NODRAW</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01383"></a><span class="lineno"> 1383</span>&#160;{</div>
-<div class="line"><a name="l01384"></a><span class="lineno"> 1384</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a>)</div>
-<div class="line"><a name="l01385"></a><span class="lineno"> 1385</span>&#160;    {</div>
-<div class="line"><a name="l01386"></a><span class="lineno"> 1386</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
-<div class="line"><a name="l01387"></a><span class="lineno"> 1387</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a>.effects = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad2b893560aa07db2329d6531c0966e79">EF_NODRAW</a>;</div>
-<div class="line"><a name="l01388"></a><span class="lineno"> 1388</span>&#160;    }</div>
-<div class="line"><a name="l01389"></a><span class="lineno"> 1389</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a>.model = e.model;</div>
-<div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a>.modelindex = e.modelindex;</div>
-<div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a>.frame = e.frame;</div>
-<div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;    <span class="keywordflow">return</span> gettaginfo(<a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a>, tag);</div>
-<div class="line"><a name="l01393"></a><span class="lineno"> 1393</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01388"></a><span class="lineno"> 1388</span>&#160;{</div>
+<div class="line"><a name="l01389"></a><span class="lineno"> 1389</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a>)</div>
+<div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;    {</div>
+<div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
+<div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a>.effects = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad2b893560aa07db2329d6531c0966e79">EF_NODRAW</a>;</div>
+<div class="line"><a name="l01393"></a><span class="lineno"> 1393</span>&#160;    }</div>
+<div class="line"><a name="l01394"></a><span class="lineno"> 1394</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a>.model = e.model;</div>
+<div class="line"><a name="l01395"></a><span class="lineno"> 1395</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a>.modelindex = e.modelindex;</div>
+<div class="line"><a name="l01396"></a><span class="lineno"> 1396</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a>.frame = e.frame;</div>
+<div class="line"><a name="l01397"></a><span class="lineno"> 1397</span>&#160;    <span class="keywordflow">return</span> gettaginfo(<a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a>, tag);</div>
+<div class="line"><a name="l01398"></a><span class="lineno"> 1398</span>&#160;}</div>
 <div class="ttc" id="csqc__constants_8qh_html_ad2b893560aa07db2329d6531c0966e79"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ad2b893560aa07db2329d6531c0966e79">EF_NODRAW</a></div><div class="ttdeci">const int EF_NODRAW</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00061">csqc_constants.qh:61</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a60338c2153150633178af678cf3ca57c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a></div><div class="ttdeci">entity spawn(void)</div></div>
-<div class="ttc" id="server_2miscfunctions_8qc_html_a99cca462af33b48c9ab3f217cc3ed8dc"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a></div><div class="ttdeci">entity gettaginfo_relative_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01381">miscfunctions.qc:1381</a></div></div>
+<div class="ttc" id="server_2miscfunctions_8qc_html_a99cca462af33b48c9ab3f217cc3ed8dc"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc">gettaginfo_relative_ent</a></div><div class="ttdeci">entity gettaginfo_relative_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01386">miscfunctions.qc:1386</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -2244,33 +2244,33 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01433">1433</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01438">1438</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 <p>References <a class="el" href="../../db/d7a/utils_8qh_source.html#l00022">IS_VEHICLE</a>, and <a class="el" href="../../df/def/server_2items_8qc_source.html#l00077">Item_IsLoot()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d9b/jumppads_8qc_source.html#l00134">jumppad_push()</a>, <a class="el" href="../../df/dc3/common_2triggers_2trigger_2impulse_8qc_source.html#l00003">trigger_impulse_touch1()</a>, <a class="el" href="../../df/dc3/common_2triggers_2trigger_2impulse_8qc_source.html#l00059">trigger_impulse_touch2()</a>, and <a class="el" href="../../df/dc3/common_2triggers_2trigger_2impulse_8qc_source.html#l00085">trigger_impulse_touch3()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01434"></a><span class="lineno"> 1434</span>&#160;{</div>
-<div class="line"><a name="l01435"></a><span class="lineno"> 1435</span>&#160;    <span class="keywordflow">if</span>(e.pushable)</div>
-<div class="line"><a name="l01436"></a><span class="lineno"> 1436</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01437"></a><span class="lineno"> 1437</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d7a/utils_8qh.html#ada2e50d916105b5a32d7c97d39d226d5">IS_VEHICLE</a>(e))</div>
-<div class="line"><a name="l01438"></a><span class="lineno"> 1438</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01439"></a><span class="lineno"> 1439</span>&#160;    <span class="keywordflow">if</span>(e.iscreature)</div>
-<div class="line"><a name="l01440"></a><span class="lineno"> 1440</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../df/def/server_2items_8qc.html#a74c05dd595595612bcb3f2b9450e7591">Item_IsLoot</a>(e))</div>
-<div class="line"><a name="l01442"></a><span class="lineno"> 1442</span>&#160;    {</div>
-<div class="line"><a name="l01443"></a><span class="lineno"> 1443</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01444"></a><span class="lineno"> 1444</span>&#160;    }</div>
-<div class="line"><a name="l01445"></a><span class="lineno"> 1445</span>&#160;    <span class="keywordflow">switch</span>(e.classname)</div>
-<div class="line"><a name="l01446"></a><span class="lineno"> 1446</span>&#160;    {</div>
-<div class="line"><a name="l01447"></a><span class="lineno"> 1447</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;body&quot;</span>:</div>
-<div class="line"><a name="l01448"></a><span class="lineno"> 1448</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01449"></a><span class="lineno"> 1449</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;bullet&quot;</span>: <span class="comment">// antilagged bullets can&#39;t hit this either</span></div>
-<div class="line"><a name="l01450"></a><span class="lineno"> 1450</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01451"></a><span class="lineno"> 1451</span>&#160;    }</div>
-<div class="line"><a name="l01452"></a><span class="lineno"> 1452</span>&#160;    <span class="keywordflow">if</span> (e.projectiledeathtype)</div>
-<div class="line"><a name="l01453"></a><span class="lineno"> 1453</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01454"></a><span class="lineno"> 1454</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01455"></a><span class="lineno"> 1455</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01439"></a><span class="lineno"> 1439</span>&#160;{</div>
+<div class="line"><a name="l01440"></a><span class="lineno"> 1440</span>&#160;    <span class="keywordflow">if</span>(e.pushable)</div>
+<div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01442"></a><span class="lineno"> 1442</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d7a/utils_8qh.html#ada2e50d916105b5a32d7c97d39d226d5">IS_VEHICLE</a>(e))</div>
+<div class="line"><a name="l01443"></a><span class="lineno"> 1443</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01444"></a><span class="lineno"> 1444</span>&#160;    <span class="keywordflow">if</span>(e.iscreature)</div>
+<div class="line"><a name="l01445"></a><span class="lineno"> 1445</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01446"></a><span class="lineno"> 1446</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../df/def/server_2items_8qc.html#a74c05dd595595612bcb3f2b9450e7591">Item_IsLoot</a>(e))</div>
+<div class="line"><a name="l01447"></a><span class="lineno"> 1447</span>&#160;    {</div>
+<div class="line"><a name="l01448"></a><span class="lineno"> 1448</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01449"></a><span class="lineno"> 1449</span>&#160;    }</div>
+<div class="line"><a name="l01450"></a><span class="lineno"> 1450</span>&#160;    <span class="keywordflow">switch</span>(e.classname)</div>
+<div class="line"><a name="l01451"></a><span class="lineno"> 1451</span>&#160;    {</div>
+<div class="line"><a name="l01452"></a><span class="lineno"> 1452</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;body&quot;</span>:</div>
+<div class="line"><a name="l01453"></a><span class="lineno"> 1453</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01454"></a><span class="lineno"> 1454</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;bullet&quot;</span>: <span class="comment">// antilagged bullets can&#39;t hit this either</span></div>
+<div class="line"><a name="l01455"></a><span class="lineno"> 1455</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01456"></a><span class="lineno"> 1456</span>&#160;    }</div>
+<div class="line"><a name="l01457"></a><span class="lineno"> 1457</span>&#160;    <span class="keywordflow">if</span> (e.projectiledeathtype)</div>
+<div class="line"><a name="l01458"></a><span class="lineno"> 1458</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01459"></a><span class="lineno"> 1459</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01460"></a><span class="lineno"> 1460</span>&#160;}</div>
 <div class="ttc" id="server_2items_8qc_html_a74c05dd595595612bcb3f2b9450e7591"><div class="ttname"><a href="../../df/def/server_2items_8qc.html#a74c05dd595595612bcb3f2b9450e7591">Item_IsLoot</a></div><div class="ttdeci">bool Item_IsLoot(entity item)</div><div class="ttdoc">Returns whether the item is loot. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/def/server_2items_8qc_source.html#l00077">items.qc:77</a></div></div>
 <div class="ttc" id="utils_8qh_html_ada2e50d916105b5a32d7c97d39d226d5"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ada2e50d916105b5a32d7c97d39d226d5">IS_VEHICLE</a></div><div class="ttdeci">#define IS_VEHICLE(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00022">utils.qh:22</a></div></div>
 </div><!-- fragment -->
@@ -2310,24 +2310,24 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01415">1415</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01420">1420</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00158">GrapplingHookThink()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01416"></a><span class="lineno"> 1416</span>&#160;{</div>
-<div class="line"><a name="l01417"></a><span class="lineno"> 1417</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l01418"></a><span class="lineno"> 1418</span>&#160;<span class="comment">    if(ent.move_movetype != MOVETYPE_FOLLOW)</span></div>
-<div class="line"><a name="l01419"></a><span class="lineno"> 1419</span>&#160;<span class="comment">        if(ent.aiment)</span></div>
-<div class="line"><a name="l01420"></a><span class="lineno"> 1420</span>&#160;<span class="comment">            error(&quot;???&quot;);</span></div>
-<div class="line"><a name="l01421"></a><span class="lineno"> 1421</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l01422"></a><span class="lineno"> 1422</span>&#160;    <span class="keywordflow">if</span>(ent.aiment)</div>
-<div class="line"><a name="l01423"></a><span class="lineno"> 1423</span>&#160;    {</div>
-<div class="line"><a name="l01424"></a><span class="lineno"> 1424</span>&#160;        <span class="keywordflow">if</span>(ent.aiment.classname != ent.aiment_classname)</div>
-<div class="line"><a name="l01425"></a><span class="lineno"> 1425</span>&#160;            <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l01426"></a><span class="lineno"> 1426</span>&#160;        <span class="keywordflow">if</span>(ent.aiment.deadflag != ent.aiment_deadflag)</div>
-<div class="line"><a name="l01427"></a><span class="lineno"> 1427</span>&#160;            <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l01428"></a><span class="lineno"> 1428</span>&#160;    }</div>
-<div class="line"><a name="l01429"></a><span class="lineno"> 1429</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l01430"></a><span class="lineno"> 1430</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01421"></a><span class="lineno"> 1421</span>&#160;{</div>
+<div class="line"><a name="l01422"></a><span class="lineno"> 1422</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l01423"></a><span class="lineno"> 1423</span>&#160;<span class="comment">    if(ent.move_movetype != MOVETYPE_FOLLOW)</span></div>
+<div class="line"><a name="l01424"></a><span class="lineno"> 1424</span>&#160;<span class="comment">        if(ent.aiment)</span></div>
+<div class="line"><a name="l01425"></a><span class="lineno"> 1425</span>&#160;<span class="comment">            error(&quot;???&quot;);</span></div>
+<div class="line"><a name="l01426"></a><span class="lineno"> 1426</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l01427"></a><span class="lineno"> 1427</span>&#160;    <span class="keywordflow">if</span>(ent.aiment)</div>
+<div class="line"><a name="l01428"></a><span class="lineno"> 1428</span>&#160;    {</div>
+<div class="line"><a name="l01429"></a><span class="lineno"> 1429</span>&#160;        <span class="keywordflow">if</span>(ent.aiment.classname != ent.aiment_classname)</div>
+<div class="line"><a name="l01430"></a><span class="lineno"> 1430</span>&#160;            <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l01431"></a><span class="lineno"> 1431</span>&#160;        <span class="keywordflow">if</span>(ent.aiment.deadflag != ent.aiment_deadflag)</div>
+<div class="line"><a name="l01432"></a><span class="lineno"> 1432</span>&#160;            <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l01433"></a><span class="lineno"> 1433</span>&#160;    }</div>
+<div class="line"><a name="l01434"></a><span class="lineno"> 1434</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l01435"></a><span class="lineno"> 1435</span>&#160;}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -2486,7 +2486,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a94c5b969ccc333b040b402d69d3338a2">checkpvs()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00431">g_items</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00449">g_spawnpoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00167">IL_EACH</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00133">MOVE_NORMAL</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l01120">trace_dphitcontents</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l01121">trace_dphitq3surfaceflags</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l01122">trace_dphittexturename</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">trace_endpos</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00036">trace_fraction</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00035">trace_startsolid</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01297">MoveToRandomMapLocation()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01302">MoveToRandomMapLocation()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;{</div>
 <div class="line"><a name="l01179"></a><span class="lineno"> 1179</span>&#160;    <span class="keywordtype">float</span> m, i;</div>
 <div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> start, org, delta, end, enddown, mstart;</div>
@@ -2556,55 +2556,60 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01244"></a><span class="lineno"> 1244</span>&#160;    });</div>
 <div class="line"><a name="l01245"></a><span class="lineno"> 1245</span>&#160;    <span class="keywordflow">if</span>(!sp)</div>
 <div class="line"><a name="l01246"></a><span class="lineno"> 1246</span>&#160;    {</div>
-<div class="line"><a name="l01247"></a><span class="lineno"> 1247</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5">g_items</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a94c5b969ccc333b040b402d69d3338a2">checkpvs</a>(mstart, it),</div>
-<div class="line"><a name="l01248"></a><span class="lineno"> 1248</span>&#160;        {</div>
-<div class="line"><a name="l01249"></a><span class="lineno"> 1249</span>&#160;            <span class="keywordflow">if</span>((traceline(mstart, it.origin + (it.mins + it.maxs) * 0.5, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, e), <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a>) &gt;= 1)</div>
-<div class="line"><a name="l01250"></a><span class="lineno"> 1250</span>&#160;            {</div>
-<div class="line"><a name="l01251"></a><span class="lineno"> 1251</span>&#160;                sp = it;</div>
-<div class="line"><a name="l01252"></a><span class="lineno"> 1252</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l01253"></a><span class="lineno"> 1253</span>&#160;            }</div>
-<div class="line"><a name="l01254"></a><span class="lineno"> 1254</span>&#160;        });</div>
+<div class="line"><a name="l01247"></a><span class="lineno"> 1247</span>&#160;        <span class="keywordtype">int</span> items_checked = 0;</div>
+<div class="line"><a name="l01248"></a><span class="lineno"> 1248</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5">g_items</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a94c5b969ccc333b040b402d69d3338a2">checkpvs</a>(mstart, it),</div>
+<div class="line"><a name="l01249"></a><span class="lineno"> 1249</span>&#160;        {</div>
+<div class="line"><a name="l01250"></a><span class="lineno"> 1250</span>&#160;            <span class="keywordflow">if</span>((traceline(mstart, it.origin + (it.mins + it.maxs) * 0.5, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, e), <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a>) &gt;= 1)</div>
+<div class="line"><a name="l01251"></a><span class="lineno"> 1251</span>&#160;            {</div>
+<div class="line"><a name="l01252"></a><span class="lineno"> 1252</span>&#160;                sp = it;</div>
+<div class="line"><a name="l01253"></a><span class="lineno"> 1253</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01254"></a><span class="lineno"> 1254</span>&#160;            }</div>
 <div class="line"><a name="l01255"></a><span class="lineno"> 1255</span>&#160;</div>
-<div class="line"><a name="l01256"></a><span class="lineno"> 1256</span>&#160;        <span class="keywordflow">if</span>(!sp)</div>
-<div class="line"><a name="l01257"></a><span class="lineno"> 1257</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01258"></a><span class="lineno"> 1258</span>&#160;    }</div>
-<div class="line"><a name="l01259"></a><span class="lineno"> 1259</span>&#160;</div>
-<div class="line"><a name="l01260"></a><span class="lineno"> 1260</span>&#160;        <span class="comment">// find a random vector to &quot;look at&quot;</span></div>
-<div class="line"><a name="l01261"></a><span class="lineno"> 1261</span>&#160;        end.x = org.x + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * delta.x;</div>
-<div class="line"><a name="l01262"></a><span class="lineno"> 1262</span>&#160;        end.y = org.y + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * delta.y;</div>
-<div class="line"><a name="l01263"></a><span class="lineno"> 1263</span>&#160;        end.z = org.z + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * delta.z;</div>
-<div class="line"><a name="l01264"></a><span class="lineno"> 1264</span>&#160;        end = start + <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(end - start) * <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(delta);</div>
-<div class="line"><a name="l01265"></a><span class="lineno"> 1265</span>&#160;</div>
-<div class="line"><a name="l01266"></a><span class="lineno"> 1266</span>&#160;        <span class="comment">// rule 4: start TO end must not be too short</span></div>
-<div class="line"><a name="l01267"></a><span class="lineno"> 1267</span>&#160;        tracebox(start, e.mins, e.maxs, end, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, e);</div>
-<div class="line"><a name="l01268"></a><span class="lineno"> 1268</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a>)</div>
-<div class="line"><a name="l01269"></a><span class="lineno"> 1269</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01270"></a><span class="lineno"> 1270</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> &lt; minviewdistance / <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(delta))</div>
-<div class="line"><a name="l01271"></a><span class="lineno"> 1271</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01272"></a><span class="lineno"> 1272</span>&#160;</div>
-<div class="line"><a name="l01273"></a><span class="lineno"> 1273</span>&#160;        <span class="comment">// rule 5: don&#39;t want to look at sky</span></div>
-<div class="line"><a name="l01274"></a><span class="lineno"> 1274</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa3a866cdc0e6b0951832c310d0b9244c">trace_dphitq3surfaceflags</a> &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0479e334f76d4fabe2c617373b2bd6f9">Q3SURFACEFLAG_SKY</a>)</div>
-<div class="line"><a name="l01275"></a><span class="lineno"> 1275</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01276"></a><span class="lineno"> 1276</span>&#160;</div>
-<div class="line"><a name="l01277"></a><span class="lineno"> 1277</span>&#160;        <span class="comment">// rule 6: we must not end up in trigger_hurt</span></div>
-<div class="line"><a name="l01278"></a><span class="lineno"> 1278</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/d26/server_2defs_8qh.html#a099ad087f6b1981b1c6333cf4a62334a">tracebox_hits_trigger_hurt</a>(start, e.mins, e.maxs, enddown))</div>
-<div class="line"><a name="l01279"></a><span class="lineno"> 1279</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01280"></a><span class="lineno"> 1280</span>&#160;</div>
-<div class="line"><a name="l01281"></a><span class="lineno"> 1281</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l01282"></a><span class="lineno"> 1282</span>&#160;    }</div>
-<div class="line"><a name="l01283"></a><span class="lineno"> 1283</span>&#160;</div>
-<div class="line"><a name="l01284"></a><span class="lineno"> 1284</span>&#160;    e.dphitcontentsmask = m;</div>
+<div class="line"><a name="l01256"></a><span class="lineno"> 1256</span>&#160;            ++items_checked;</div>
+<div class="line"><a name="l01257"></a><span class="lineno"> 1257</span>&#160;            <span class="keywordflow">if</span>(items_checked &gt;= attempts)</div>
+<div class="line"><a name="l01258"></a><span class="lineno"> 1258</span>&#160;                <span class="keywordflow">break</span>; <span class="comment">// sanity</span></div>
+<div class="line"><a name="l01259"></a><span class="lineno"> 1259</span>&#160;        });</div>
+<div class="line"><a name="l01260"></a><span class="lineno"> 1260</span>&#160;</div>
+<div class="line"><a name="l01261"></a><span class="lineno"> 1261</span>&#160;        <span class="keywordflow">if</span>(!sp)</div>
+<div class="line"><a name="l01262"></a><span class="lineno"> 1262</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01263"></a><span class="lineno"> 1263</span>&#160;    }</div>
+<div class="line"><a name="l01264"></a><span class="lineno"> 1264</span>&#160;</div>
+<div class="line"><a name="l01265"></a><span class="lineno"> 1265</span>&#160;        <span class="comment">// find a random vector to &quot;look at&quot;</span></div>
+<div class="line"><a name="l01266"></a><span class="lineno"> 1266</span>&#160;        end.x = org.x + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * delta.x;</div>
+<div class="line"><a name="l01267"></a><span class="lineno"> 1267</span>&#160;        end.y = org.y + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * delta.y;</div>
+<div class="line"><a name="l01268"></a><span class="lineno"> 1268</span>&#160;        end.z = org.z + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * delta.z;</div>
+<div class="line"><a name="l01269"></a><span class="lineno"> 1269</span>&#160;        end = start + <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(end - start) * <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(delta);</div>
+<div class="line"><a name="l01270"></a><span class="lineno"> 1270</span>&#160;</div>
+<div class="line"><a name="l01271"></a><span class="lineno"> 1271</span>&#160;        <span class="comment">// rule 4: start TO end must not be too short</span></div>
+<div class="line"><a name="l01272"></a><span class="lineno"> 1272</span>&#160;        tracebox(start, e.mins, e.maxs, end, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, e);</div>
+<div class="line"><a name="l01273"></a><span class="lineno"> 1273</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a>)</div>
+<div class="line"><a name="l01274"></a><span class="lineno"> 1274</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01275"></a><span class="lineno"> 1275</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> &lt; minviewdistance / <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(delta))</div>
+<div class="line"><a name="l01276"></a><span class="lineno"> 1276</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01277"></a><span class="lineno"> 1277</span>&#160;</div>
+<div class="line"><a name="l01278"></a><span class="lineno"> 1278</span>&#160;        <span class="comment">// rule 5: don&#39;t want to look at sky</span></div>
+<div class="line"><a name="l01279"></a><span class="lineno"> 1279</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa3a866cdc0e6b0951832c310d0b9244c">trace_dphitq3surfaceflags</a> &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0479e334f76d4fabe2c617373b2bd6f9">Q3SURFACEFLAG_SKY</a>)</div>
+<div class="line"><a name="l01280"></a><span class="lineno"> 1280</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01281"></a><span class="lineno"> 1281</span>&#160;</div>
+<div class="line"><a name="l01282"></a><span class="lineno"> 1282</span>&#160;        <span class="comment">// rule 6: we must not end up in trigger_hurt</span></div>
+<div class="line"><a name="l01283"></a><span class="lineno"> 1283</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/d26/server_2defs_8qh.html#a099ad087f6b1981b1c6333cf4a62334a">tracebox_hits_trigger_hurt</a>(start, e.mins, e.maxs, enddown))</div>
+<div class="line"><a name="l01284"></a><span class="lineno"> 1284</span>&#160;            <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l01285"></a><span class="lineno"> 1285</span>&#160;</div>
-<div class="line"><a name="l01286"></a><span class="lineno"> 1286</span>&#160;    <span class="keywordflow">if</span> (i &lt; attempts)</div>
-<div class="line"><a name="l01287"></a><span class="lineno"> 1287</span>&#160;    {</div>
-<div class="line"><a name="l01288"></a><span class="lineno"> 1288</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, start);</div>
-<div class="line"><a name="l01289"></a><span class="lineno"> 1289</span>&#160;        e.angles = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(end - start);</div>
-<div class="line"><a name="l01290"></a><span class="lineno"> 1290</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(<span class="stringliteral">&quot;Needed &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(i + 1), <span class="stringliteral">&quot; attempts&quot;</span>);</div>
-<div class="line"><a name="l01291"></a><span class="lineno"> 1291</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01292"></a><span class="lineno"> 1292</span>&#160;    }</div>
-<div class="line"><a name="l01293"></a><span class="lineno"> 1293</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01294"></a><span class="lineno"> 1294</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01295"></a><span class="lineno"> 1295</span>&#160;}</div>
+<div class="line"><a name="l01286"></a><span class="lineno"> 1286</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01287"></a><span class="lineno"> 1287</span>&#160;    }</div>
+<div class="line"><a name="l01288"></a><span class="lineno"> 1288</span>&#160;</div>
+<div class="line"><a name="l01289"></a><span class="lineno"> 1289</span>&#160;    e.dphitcontentsmask = m;</div>
+<div class="line"><a name="l01290"></a><span class="lineno"> 1290</span>&#160;</div>
+<div class="line"><a name="l01291"></a><span class="lineno"> 1291</span>&#160;    <span class="keywordflow">if</span> (i &lt; attempts)</div>
+<div class="line"><a name="l01292"></a><span class="lineno"> 1292</span>&#160;    {</div>
+<div class="line"><a name="l01293"></a><span class="lineno"> 1293</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, start);</div>
+<div class="line"><a name="l01294"></a><span class="lineno"> 1294</span>&#160;        e.angles = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(end - start);</div>
+<div class="line"><a name="l01295"></a><span class="lineno"> 1295</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(<span class="stringliteral">&quot;Needed &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(i + 1), <span class="stringliteral">&quot; attempts&quot;</span>);</div>
+<div class="line"><a name="l01296"></a><span class="lineno"> 1296</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01297"></a><span class="lineno"> 1297</span>&#160;    }</div>
+<div class="line"><a name="l01298"></a><span class="lineno"> 1298</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01299"></a><span class="lineno"> 1299</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01300"></a><span class="lineno"> 1300</span>&#160;}</div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00167">intrusivelist.qh:167</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aa3a866cdc0e6b0951832c310d0b9244c"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aa3a866cdc0e6b0951832c310d0b9244c">trace_dphitq3surfaceflags</a></div><div class="ttdeci">float trace_dphitq3surfaceflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01121">csprogsdefs.qc:1121</a></div></div>
@@ -2705,14 +2710,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01297">1297</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01302">1302</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 <p>References <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01177">MoveToRandomLocationWithinBounds()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00115">buff_Respawn()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00138">CheatImpulse()</a>, and <a class="el" href="../../d3/d5a/gamemode__keepaway_8qc_source.html#l00045">ka_RespawnBall()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01298"></a><span class="lineno"> 1298</span>&#160;{</div>
-<div class="line"><a name="l01299"></a><span class="lineno"> 1299</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a980a6f943699026265182e645ad4d8ef">MoveToRandomLocationWithinBounds</a>(e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.mins, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.maxs, goodcontents, badcontents, badsurfaceflags, attempts, maxaboveground, minviewdistance);</div>
-<div class="line"><a name="l01300"></a><span class="lineno"> 1300</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01303"></a><span class="lineno"> 1303</span>&#160;{</div>
+<div class="line"><a name="l01304"></a><span class="lineno"> 1304</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a980a6f943699026265182e645ad4d8ef">MoveToRandomLocationWithinBounds</a>(e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.mins, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.maxs, goodcontents, badcontents, badsurfaceflags, attempts, maxaboveground, minviewdistance);</div>
+<div class="line"><a name="l01305"></a><span class="lineno"> 1305</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_a980a6f943699026265182e645ad4d8ef"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a980a6f943699026265182e645ad4d8ef">MoveToRandomLocationWithinBounds</a></div><div class="ttdeci">float MoveToRandomLocationWithinBounds(entity e, vector boundmin, vector boundmax, float goodcontents, float badcontents, float badsurfaceflags, float attempts, float maxaboveground, float minviewdistance)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01177">miscfunctions.qc:1177</a></div></div>
 </div><!-- fragment -->
@@ -4091,22 +4096,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01397">1397</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01402">1402</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 <p>References <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l00549">MOVETYPE_FOLLOW</a>, <a class="el" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00126">SOLID_NOT</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00326">GrapplingHookTouch()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01398"></a><span class="lineno"> 1398</span>&#160;{</div>
-<div class="line"><a name="l01399"></a><span class="lineno"> 1399</span>&#160;    <span class="comment">// FIXME this may not be warpzone aware</span></div>
-<div class="line"><a name="l01400"></a><span class="lineno"> 1400</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(ent, <a class="code" href="../../de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c">MOVETYPE_FOLLOW</a>); <span class="comment">// make the hole follow</span></div>
-<div class="line"><a name="l01401"></a><span class="lineno"> 1401</span>&#160;    ent.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>; <span class="comment">// MOVETYPE_FOLLOW is always non-solid - this means this cannot be teleported by warpzones any more! Instead, we must notice when our owner gets teleported.</span></div>
-<div class="line"><a name="l01402"></a><span class="lineno"> 1402</span>&#160;    ent.aiment = e; <span class="comment">// make the hole follow bmodel</span></div>
-<div class="line"><a name="l01403"></a><span class="lineno"> 1403</span>&#160;    ent.punchangle = e.angles; <span class="comment">// the original angles of bmodel</span></div>
-<div class="line"><a name="l01404"></a><span class="lineno"> 1404</span>&#160;    ent.view_ofs = ent.origin - e.origin; <span class="comment">// relative origin</span></div>
-<div class="line"><a name="l01405"></a><span class="lineno"> 1405</span>&#160;    ent.v_angle = ent.angles - e.angles; <span class="comment">// relative angles</span></div>
-<div class="line"><a name="l01406"></a><span class="lineno"> 1406</span>&#160;    ent.aiment_classname = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(e.classname);</div>
-<div class="line"><a name="l01407"></a><span class="lineno"> 1407</span>&#160;    ent.aiment_deadflag = e.deadflag;</div>
-<div class="line"><a name="l01408"></a><span class="lineno"> 1408</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01403"></a><span class="lineno"> 1403</span>&#160;{</div>
+<div class="line"><a name="l01404"></a><span class="lineno"> 1404</span>&#160;    <span class="comment">// FIXME this may not be warpzone aware</span></div>
+<div class="line"><a name="l01405"></a><span class="lineno"> 1405</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(ent, <a class="code" href="../../de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c">MOVETYPE_FOLLOW</a>); <span class="comment">// make the hole follow</span></div>
+<div class="line"><a name="l01406"></a><span class="lineno"> 1406</span>&#160;    ent.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>; <span class="comment">// MOVETYPE_FOLLOW is always non-solid - this means this cannot be teleported by warpzones any more! Instead, we must notice when our owner gets teleported.</span></div>
+<div class="line"><a name="l01407"></a><span class="lineno"> 1407</span>&#160;    ent.aiment = e; <span class="comment">// make the hole follow bmodel</span></div>
+<div class="line"><a name="l01408"></a><span class="lineno"> 1408</span>&#160;    ent.punchangle = e.angles; <span class="comment">// the original angles of bmodel</span></div>
+<div class="line"><a name="l01409"></a><span class="lineno"> 1409</span>&#160;    ent.view_ofs = ent.origin - e.origin; <span class="comment">// relative origin</span></div>
+<div class="line"><a name="l01410"></a><span class="lineno"> 1410</span>&#160;    ent.v_angle = ent.angles - e.angles; <span class="comment">// relative angles</span></div>
+<div class="line"><a name="l01411"></a><span class="lineno"> 1411</span>&#160;    ent.aiment_classname = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(e.classname);</div>
+<div class="line"><a name="l01412"></a><span class="lineno"> 1412</span>&#160;    ent.aiment_deadflag = e.deadflag;</div>
+<div class="line"><a name="l01413"></a><span class="lineno"> 1413</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a80f88020d757084daf5da0a022f59e05"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a></div><div class="ttdeci">const int SOLID_NOT</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00126">csqc_constants.qh:126</a></div></div>
 <div class="ttc" id="dpextensions_8qc_html_a5a0f8717cd777d80ce32fe72439b199c"><div class="ttname"><a href="../../de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c">MOVETYPE_FOLLOW</a></div><div class="ttdeci">float MOVETYPE_FOLLOW</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/dpextensions_8qc_source.html#l00549">dpextensions.qc:549</a></div></div>
@@ -4552,12 +4557,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01376">1376</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01381">1381</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 <p>References <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00246">MOVETYPE_NONE</a>, and <a class="el" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01377"></a><span class="lineno"> 1377</span>&#160;{</div>
-<div class="line"><a name="l01378"></a><span class="lineno"> 1378</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(e, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>);</div>
-<div class="line"><a name="l01379"></a><span class="lineno"> 1379</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01382"></a><span class="lineno"> 1382</span>&#160;{</div>
+<div class="line"><a name="l01383"></a><span class="lineno"> 1383</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(e, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>);</div>
+<div class="line"><a name="l01384"></a><span class="lineno"> 1384</span>&#160;}</div>
 <div class="ttc" id="progsdefs_8qc_html_a87a61c6894ded1456e2e4fee955bf7b1"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a></div><div class="ttdeci">float MOVETYPE_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00246">progsdefs.qc:246</a></div></div>
 <div class="ttc" id="movetypes_8qh_html_a8bf89be84cb481d218ff41140eacff78"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a></div><div class="ttdeci">void set_movetype(entity this, int mt)</div></div>
 </div><!-- fragment -->
@@ -4587,14 +4592,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01409">1409</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01414">1414</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 <p>References <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00251">MOVETYPE_FLY</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00333">PROJECTILE_MAKETRIGGER</a>, and <a class="el" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01410"></a><span class="lineno"> 1410</span>&#160;{</div>
-<div class="line"><a name="l01411"></a><span class="lineno"> 1411</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(ent, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0438992800fc2c9d52f6bafe99e50ebd">MOVETYPE_FLY</a>);</div>
-<div class="line"><a name="l01412"></a><span class="lineno"> 1412</span>&#160;    <a class="code" href="../../d5/d26/server_2defs_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628">PROJECTILE_MAKETRIGGER</a>(ent);</div>
-<div class="line"><a name="l01413"></a><span class="lineno"> 1413</span>&#160;    ent.aiment = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l01414"></a><span class="lineno"> 1414</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01415"></a><span class="lineno"> 1415</span>&#160;{</div>
+<div class="line"><a name="l01416"></a><span class="lineno"> 1416</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(ent, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0438992800fc2c9d52f6bafe99e50ebd">MOVETYPE_FLY</a>);</div>
+<div class="line"><a name="l01417"></a><span class="lineno"> 1417</span>&#160;    <a class="code" href="../../d5/d26/server_2defs_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628">PROJECTILE_MAKETRIGGER</a>(ent);</div>
+<div class="line"><a name="l01418"></a><span class="lineno"> 1418</span>&#160;    ent.aiment = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l01419"></a><span class="lineno"> 1419</span>&#160;}</div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_ad03766bfca7a5e7fabc3ef7b5ce2d628"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628">PROJECTILE_MAKETRIGGER</a></div><div class="ttdeci">#define PROJECTILE_MAKETRIGGER(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00333">defs.qh:333</a></div></div>
 <div class="ttc" id="movetypes_8qh_html_a8bf89be84cb481d218ff41140eacff78"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a></div><div class="ttdeci">void set_movetype(entity this, int mt)</div></div>
@@ -4889,7 +4894,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00014">ANTILAG_LATENCY</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l02399">cursor_trace_endpos</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l02398">cursor_trace_start</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00133">MOVE_NORMAL</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize()</a>, and <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00091">WarpZone_traceline_antilag()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00216">formatmessage()</a>, and <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00472">IMPULSE()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00216">formatmessage()</a>, and <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00473">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="../../d2/d11/g__subs_8qc.html#aa349f780b5d2d608e278935b6e4c60db">WarpZone_traceline_antilag</a>(pl, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).<a class="code" href="../../de/d5e/dpextensions_8qc.html#ae862a4bc72977aac3c933cf3889eec53">cursor_trace_start</a>, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).cursor_trace_start + <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).<a class="code" href="../../de/d5e/dpextensions_8qc.html#afe815af7836d1dafa5d1b27240eb58f3">cursor_trace_endpos</a> - <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).cursor_trace_start) * max_shot_distance, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, pl, <a class="code" href="../../d0/dd2/antilag_8qh.html#ab20ae59dea3092635c126d7036ae331e">ANTILAG_LATENCY</a>(pl));</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
@@ -5035,20 +5040,20 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01302">1302</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01307">1307</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00070">GameLogEcho()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00958">GetGametype()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/dc0/progsdefs_8qh_source.html#l00023">stuffcmd</a>, <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00044">TIME_ENCODE</a>, and <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00040">TIME_ENCODED_TOSTRING</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l00098">ctf_CaptureRecord()</a>, and <a class="el" href="../../d6/d3b/race_8qc_source.html#l00257">race_setTime()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01303"></a><span class="lineno"> 1303</span>&#160;{</div>
-<div class="line"><a name="l01304"></a><span class="lineno"> 1304</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:recordset:&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(pl.playerid), <span class="stringliteral">&quot;:&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(dt)));</div>
-<div class="line"><a name="l01305"></a><span class="lineno"> 1305</span>&#160;</div>
-<div class="line"><a name="l01306"></a><span class="lineno"> 1306</span>&#160;    <span class="comment">// also write a marker into demo files for demotc-race-record-extractor to find</span></div>
-<div class="line"><a name="l01307"></a><span class="lineno"> 1307</span>&#160;    <a class="code" href="../../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c">stuffcmd</a>(pl,</div>
-<div class="line"><a name="l01308"></a><span class="lineno"> 1308</span>&#160;             <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(</div>
-<div class="line"><a name="l01309"></a><span class="lineno"> 1309</span>&#160;                 <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;//&quot;</span>, strconv(2, 0, 0, <a class="code" href="../../db/dcc/g__world_8qc.html#a7bd98f24d513342b45d7ec36af6564be">GetGametype</a>()), <span class="stringliteral">&quot; RECORD SET &quot;</span>, <a class="code" href="../../d5/df2/common_2util_8qh.html#a704c498a020ee983a4c8e851a2d42a78">TIME_ENCODED_TOSTRING</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#a6307fb8c8358ecb4245f4c98e2423ee4">TIME_ENCODE</a>(dt))),</div>
-<div class="line"><a name="l01310"></a><span class="lineno"> 1310</span>&#160;                 <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(tstart), <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(dt), <span class="stringliteral">&quot;\n&quot;</span>));</div>
-<div class="line"><a name="l01311"></a><span class="lineno"> 1311</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01308"></a><span class="lineno"> 1308</span>&#160;{</div>
+<div class="line"><a name="l01309"></a><span class="lineno"> 1309</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:recordset:&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(pl.playerid), <span class="stringliteral">&quot;:&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(dt)));</div>
+<div class="line"><a name="l01310"></a><span class="lineno"> 1310</span>&#160;</div>
+<div class="line"><a name="l01311"></a><span class="lineno"> 1311</span>&#160;    <span class="comment">// also write a marker into demo files for demotc-race-record-extractor to find</span></div>
+<div class="line"><a name="l01312"></a><span class="lineno"> 1312</span>&#160;    <a class="code" href="../../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c">stuffcmd</a>(pl,</div>
+<div class="line"><a name="l01313"></a><span class="lineno"> 1313</span>&#160;             <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(</div>
+<div class="line"><a name="l01314"></a><span class="lineno"> 1314</span>&#160;                 <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;//&quot;</span>, strconv(2, 0, 0, <a class="code" href="../../db/dcc/g__world_8qc.html#a7bd98f24d513342b45d7ec36af6564be">GetGametype</a>()), <span class="stringliteral">&quot; RECORD SET &quot;</span>, <a class="code" href="../../d5/df2/common_2util_8qh.html#a704c498a020ee983a4c8e851a2d42a78">TIME_ENCODED_TOSTRING</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#a6307fb8c8358ecb4245f4c98e2423ee4">TIME_ENCODE</a>(dt))),</div>
+<div class="line"><a name="l01315"></a><span class="lineno"> 1315</span>&#160;                 <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(tstart), <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(dt), <span class="stringliteral">&quot;\n&quot;</span>));</div>
+<div class="line"><a name="l01316"></a><span class="lineno"> 1316</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="common_2util_8qh_html_a704c498a020ee983a4c8e851a2d42a78"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a704c498a020ee983a4c8e851a2d42a78">TIME_ENCODED_TOSTRING</a></div><div class="ttdeci">#define TIME_ENCODED_TOSTRING(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00040">util.qh:40</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a6307fb8c8358ecb4245f4c98e2423ee4"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a6307fb8c8358ecb4245f4c98e2423ee4">TIME_ENCODE</a></div><div class="ttdeci">#define TIME_ENCODE(t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00044">util.qh:44</a></div></div>
@@ -5090,7 +5095,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01395">1395</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01400">1400</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 </div>
 </div>
@@ -5104,7 +5109,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01396">1396</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01401">1401</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 </div>
 </div>
@@ -5132,7 +5137,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01381">1381</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01386">1386</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 </div>
 </div>
@@ -5146,7 +5151,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01432">1432</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01437">1437</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
 </div>
 </div>
@@ -5198,7 +5203,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/dc6/server_2miscfunctions_8qc.html">miscfunctions.qc</a></li>
-    <li class="footer">Generated on Tue Dec 26 2017 10:43:48 for Xonotic by
+    <li class="footer">Generated on Mon Jan 1 2018 09:51:36 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

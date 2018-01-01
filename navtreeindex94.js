@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"da/db7/classXonoticServerInfoDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,237,65],
+"da/db7/classXonoticServerInfoDialog.html#ab0f5da918d5772e40bc79148bdd525a1":[1,0,237,24],
 "da/db7/classXonoticServerInfoDialog.html#ab2528e46c0f8c6dcd11fa7fe51d302ae":[1,0,237,11],
 "da/db7/classXonoticServerInfoDialog.html#ab5705a0d84082385d0e3e594558bfb26":[1,0,237,14],
 "da/db7/classXonoticServerInfoDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,237,66],
@@ -41,6 +43,8 @@ var NAVTREEINDEX94 =
 "da/db7/classXonoticServerInfoDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,237,115],
 "da/db7/classXonoticServerInfoDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,237,28],
 "da/db7/triggers_2trigger_2viewloc_8qh.html":[2,0,1,13,3,49],
+"da/db7/triggers_2trigger_2viewloc_8qh.html#a5b6e6bb5f419942e125447726036ef43":[2,0,1,13,3,49,1],
+"da/db7/triggers_2trigger_2viewloc_8qh.html#ad7864abcb59e775fe904fb789d679fb5":[2,0,1,13,3,49,2],
 "da/db7/triggers_2trigger_2viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb":[2,0,1,13,3,49,0],
 "da/db7/triggers_2trigger_2viewloc_8qh_source.html":[2,0,1,13,3,49],
 "da/db7/weaponsystem_8qh.html":[2,0,6,5,21],
@@ -245,9 +249,5 @@ var NAVTREEINDEX94 =
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh.html#a3db352ed2525ccc9b4fec62af48fd1ff":[2,0,1,3,0,0,7,1],
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh_source.html":[2,0,1,3,0,0,7],
 "da/dcf/jetpack_8qc.html":[2,0,1,5,0,8],
-"da/dcf/jetpack_8qc_source.html":[2,0,1,5,0,8],
-"da/dd1/classCaptureTheFlag.html":[1,0,15],
-"da/dd1/classCaptureTheFlag.html#a1607fee5ff312589eb22131e314eef3d":[1,0,15,0],
-"da/dd1/classCaptureTheFlag.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,15,1],
-"da/dd1/classCaptureTheFlag.html#a353db82280437c3b38f0ad1934a7d666":[1,0,15,16]
+"da/dcf/jetpack_8qc_source.html":[2,0,1,5,0,8]
 };
