@@ -121,6 +121,7 @@ var searchData=
   ['campcheck_5fprevorigin',['campcheck_prevorigin',['../d1/d98/sv__campcheck_8qc.html#a6cb0ae67285b803c16c7e5deca1339ec',1,'sv_campcheck.qc']]],
   ['campcheck_5ftraveled_5fdistance',['campcheck_traveled_distance',['../d1/d98/sv__campcheck_8qc.html#a46ef3a76212e326ac5b72d4e5cbeee55',1,'sv_campcheck.qc']]],
   ['candrop',['candrop',['../d8/dc1/sv__monsters_8qh.html#a93b47596212cf603d27ea3d90745d5cf',1,'sv_monsters.qh']]],
+  ['canteamdamage',['canteamdamage',['../d5/d26/server_2defs_8qh.html#a70a9d995c3dce005ff6f5cb738dd1cdc',1,'defs.qh']]],
   ['cap',['cap',['../d7/d16/effectinfo__ctf_8inc.html#a402c648c54311178d0b7a802721d0077',1,'cap():&#160;effectinfo_ctf.inc'],['../d7/d16/effectinfo__ctf_8inc.html#a6f2b376dbc94981ee65efb8dc2ea6706',1,'cap(red,&quot;0xFF0000&quot;,&quot;0x970000&quot;) cap(blue:&#160;effectinfo_ctf.inc'],['../d7/d16/effectinfo__ctf_8inc.html#a6fc5382131c33904a608bf4cf3ca8f5b',1,'cap(yellow,&quot;0xFFFF0F&quot;,&quot;0xFFFF0F&quot;) cap(pink:&#160;effectinfo_ctf.inc']]],
   ['caplayer',['caplayer',['../da/d45/gamemode__ca_8qh.html#ac474faca339b17424d9d117497bae646',1,'gamemode_ca.qh']]],
   ['captime',['captime',['../d2/dbb/gamemode__domination_8qh.html#ae67404cc2d57935d0a9ff345eb36c561',1,'gamemode_domination.qh']]],

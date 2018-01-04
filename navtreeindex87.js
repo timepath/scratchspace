@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"d9/db3/classXonoticGameModelSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,174,18],
 "d9/db3/classXonoticGameModelSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,174,83],
 "d9/db3/classXonoticGameModelSettingsTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,174,8],
 "d9/db3/classXonoticGameModelSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,174,67],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "d9/dd0/effectinfo__gentle__morphed_8inc.html#ad82077a2a0d938c18a58ef322bfd0a16":[2,0,1,2,14,1],
 "d9/dd0/effectinfo__gentle__morphed_8inc_source.html":[2,0,1,2,14],
 "d9/dd1/common_2items_2item_2__mod_8qh.html":[2,0,1,5,0,1],
-"d9/dd1/common_2items_2item_2__mod_8qh_source.html":[2,0,1,5,0,1],
-"d9/dd4/plasma__weapon_8qc.html":[2,0,1,14,0,36]
+"d9/dd1/common_2items_2item_2__mod_8qh_source.html":[2,0,1,5,0,1]
 };

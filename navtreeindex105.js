@@ -1,5 +1,6 @@
 var NAVTREEINDEX105 =
 {
+"db/dcb/sv__rocketminsta_8qh_source.html":[2,0,1,9,0,28,3],
 "db/dcc/g__world_8qc.html":[2,0,6,31],
 "db/dcc/g__world_8qc.html#a01aab1c5c084e55469b0530c84a5a583":[2,0,6,31,39],
 "db/dcc/g__world_8qc.html#a030049b1f3f0e2de22013f60122024b8":[2,0,6,31,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX105 =
 "db/de2/classXonoticScreenshotViewerDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,235,72],
 "db/de2/classXonoticScreenshotViewerDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,235,78],
 "db/de2/classXonoticScreenshotViewerDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,235,82],
-"db/de2/classXonoticScreenshotViewerDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,235,70],
-"db/de2/classXonoticScreenshotViewerDialog.html#aa83ab713d8234f8d6ac73f9e4b22ff6c":[1,0,235,88]
+"db/de2/classXonoticScreenshotViewerDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,235,70]
 };

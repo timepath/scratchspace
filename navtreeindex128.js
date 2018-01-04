@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"de/dbd/banning_8qh.html#a2e1590577ece2a8d0b64ca0b13da71aa":[2,0,6,1,3,6],
 "de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe":[2,0,6,1,3,1],
 "de/dbd/banning_8qh.html#a808faa01ebcd03108b55a09f87bcabe5":[2,0,6,1,3,3],
 "de/dbd/banning_8qh.html#ab915b826ebbe3fa641b6dcf17dbe4fc3":[2,0,6,1,3,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,187,37],
 "de/de7/classXonoticHUDItemsTimeDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,187,41],
 "de/de7/classXonoticHUDItemsTimeDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,187,86],
-"de/de7/classXonoticHUDItemsTimeDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,187,10],
-"de/de8/portals_8qc.html":[2,0,6,53]
+"de/de7/classXonoticHUDItemsTimeDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,187,10]
 };

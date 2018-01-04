@@ -1,5 +1,6 @@
 var NAVTREEINDEX88 =
 {
+"d9/dd4/plasma__weapon_8qc.html":[2,0,1,14,0,36],
 "d9/dd4/plasma__weapon_8qc_source.html":[2,0,1,14,0,36],
 "d9/dd9/item_2image_8qc.html":[2,0,5,2,12],
 "d9/dd9/item_2image_8qc.html#a1c12419f14cb6f7e805a6fa64a798edd":[2,0,5,2,12,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "d9/df7/mathlib_8qh.html#a1e509e70b652f5baaa8d83bac7d0f97e":[2,0,4,2,9,35],
 "d9/df7/mathlib_8qh.html#a2419f6f0666dbfa4fe823adea3726df9":[2,0,4,2,9,61],
 "d9/df7/mathlib_8qh.html#a25ac6350a937b373d16f98ecdd32770b":[2,0,4,2,9,60],
-"d9/df7/mathlib_8qh.html#a276da4be100624052b5e12b210eecba9":[2,0,4,2,9,45],
-"d9/df7/mathlib_8qh.html#a28ae78c9ba7098d2b372dde22229b733":[2,0,4,2,9,31]
+"d9/df7/mathlib_8qh.html#a276da4be100624052b5e12b210eecba9":[2,0,4,2,9,45]
 };

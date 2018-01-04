@@ -80,6 +80,7 @@ var server_2defs_8qh =
     [ "bot_waypoints_for_items", "d5/d26/server_2defs_8qh.html#a1d54f461e8d603bbdb4bd49cbc4e6f2f", null ],
     [ "bots_would_leave", "d5/d26/server_2defs_8qh.html#a99c2625b177f6c950e540ebfa8970886", null ],
     [ "bulletcounter", "d5/d26/server_2defs_8qh.html#aa71f8c2a96bf170f2e773e0aa82b2716", null ],
+    [ "canteamdamage", "d5/d26/server_2defs_8qh.html#a70a9d995c3dce005ff6f5cb738dd1cdc", null ],
     [ "clientdata", "d5/d26/server_2defs_8qh.html#af13e104103fd80a7bd54e524fe8fc5e6", null ],
     [ "clientstuff", "d5/d26/server_2defs_8qh.html#a286703f809e7592d1737c49857aeb264", null ],
     [ "clip_load", "d5/d26/server_2defs_8qh.html#a554b3de1c72dedecdd7069b45faf1acc", null ],

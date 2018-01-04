@@ -1,5 +1,6 @@
 var NAVTREEINDEX101 =
 {
+"db/d76/classXonoticHUDNotificationDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,189,62],
 "db/d76/classXonoticHUDNotificationDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,189,55],
 "db/d76/classXonoticHUDNotificationDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,189,91],
 "db/d76/classXonoticHUDNotificationDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,189,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX101 =
 "db/d7f/effectinfo_8inc.html#a898331feeba88a85df5eb5de56063447":[2,0,1,2,7,254],
 "db/d7f/effectinfo_8inc.html#a89ab84a91dbe083681ed4091e36b1551":[2,0,1,2,7,26],
 "db/d7f/effectinfo_8inc.html#a8a2f7812deb6dc7398896e6338b526ef":[2,0,1,2,7,371],
-"db/d7f/effectinfo_8inc.html#a8a621fc1a655e2e3cce5a2e187990790":[2,0,1,2,7,220],
-"db/d7f/effectinfo_8inc.html#a8c7ae498a5780fb95f4c2b8f335e4f0b":[2,0,1,2,7,185]
+"db/d7f/effectinfo_8inc.html#a8a621fc1a655e2e3cce5a2e187990790":[2,0,1,2,7,220]
 };
