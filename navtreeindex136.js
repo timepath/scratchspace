@@ -1,8 +1,5 @@
 var NAVTREEINDEX136 =
 {
-"df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh.html":[2,0,1,9,0,4,1],
-"df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh_source.html":[2,0,1,9,0,4,1],
-"df/df8/door__secret_8qc.html":[2,0,1,13,0,14],
 "df/df8/door__secret_8qc_source.html":[2,0,1,13,0,14],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html":[1,0,231],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,231,95],
@@ -249,5 +246,8 @@ var NAVTREEINDEX136 =
 "functions_func_l.html":[1,3,1,10],
 "functions_func_m.html":[1,3,1,11],
 "functions_func_n.html":[1,3,1,12],
-"functions_func_o.html":[1,3,1,13]
+"functions_func_o.html":[1,3,1,13],
+"functions_func_p.html":[1,3,1,14],
+"functions_func_r.html":[1,3,1,15],
+"functions_func_s.html":[1,3,1,16]
 };
