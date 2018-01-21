@@ -126,6 +126,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac703feded73e34d3fcaca45debdc68df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebe9a2c4f8605de51e12cc76f8ce8108"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc2/sv__melee__only_8qc.html#aebe9a2c4f8605de51e12cc76f8ce8108">MUTATOR_HOOKFUNCTION</a> (melee_only, SetWeaponArena)</td></tr>
 <tr class="separator:aebe9a2c4f8605de51e12cc76f8ce8108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d50624c9ba11743e921defd34fb9471"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc2/sv__melee__only_8qc.html#a8d50624c9ba11743e921defd34fb9471">MUTATOR_HOOKFUNCTION</a> (melee_only, ForbidRandomStartWeapons)</td></tr>
+<tr class="separator:a8d50624c9ba11743e921defd34fb9471"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23f93aaf08a2f1e8ffee4eecab2fdb1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc2/sv__melee__only_8qc.html#a23f93aaf08a2f1e8ffee4eecab2fdb1f">MUTATOR_HOOKFUNCTION</a> (melee_only, ForbidThrowCurrentWeapon)</td></tr>
 <tr class="separator:a23f93aaf08a2f1e8ffee4eecab2fdb1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8733c6f29eb945e8414b127fc4ffd8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc2/sv__melee__only_8qc.html#ad8733c6f29eb945e8414b127fc4ffd8c">MUTATOR_HOOKFUNCTION</a> (melee_only, FilterItem)</td></tr>
@@ -223,6 +225,37 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
+<a class="anchor" id="a8d50624c9ba11743e921defd34fb9471"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKFUNCTION </td>
+          <td>(</td>
+          <td class="paramtype">melee_only&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForbidRandomStartWeapons&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html#l00018">18</a> of file <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html">sv_melee_only.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a class="anchor" id="a23f93aaf08a2f1e8ffee4eecab2fdb1f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -247,10 +280,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html#l00018">18</a> of file <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html">sv_melee_only.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html#l00023">23</a> of file <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html">sv_melee_only.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -278,21 +311,21 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html#l00023">23</a> of file <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html">sv_melee_only.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html#l00028">28</a> of file <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html">sv_melee_only.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">switch</span> (item.itemdef)</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">case</span> ITEM_HealthSmall:</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">case</span> ITEM_ArmorSmall:</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">switch</span> (item.itemdef)</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">case</span> ITEM_HealthSmall:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">case</span> ITEM_ArmorSmall:</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
@@ -332,12 +365,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html#l00037">37</a> of file <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html">sv_melee_only.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html#l00042">42</a> of file <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html">sv_melee_only.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>), <span class="stringliteral">&quot;:MeleeOnly&quot;</span>);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>), <span class="stringliteral">&quot;:MeleeOnly&quot;</span>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
@@ -377,12 +410,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html#l00042">42</a> of file <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html">sv_melee_only.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html#l00047">47</a> of file <a class="el" href="../../de/dc2/sv__melee__only_8qc_source.html">sv_melee_only.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>), <span class="stringliteral">&quot;, Melee Only Arena&quot;</span>);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>), <span class="stringliteral">&quot;, Melee Only Arena&quot;</span>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
@@ -445,7 +478,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_955cc29256ddce4e0fe4a772b823ba02.html">melee_only</a></li><li class="navelem"><a class="el" href="../../de/dc2/sv__melee__only_8qc.html">sv_melee_only.qc</a></li>
-    <li class="footer">Generated on Sun Jan 21 2018 01:15:29 for Xonotic by
+    <li class="footer">Generated on Sun Jan 21 2018 07:48:09 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

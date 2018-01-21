@@ -274,131 +274,136 @@ $(document).ready(function(){initNavTree('d8/d0c/sv__overkill_8qc_source.html','
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#aef86542f9909f794e073794b9dab3af7">PHYS_INPUT_BUTTON_ATCK2</a>(player) = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;}</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div>
-<div class="line"><a name="l00170"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#af4d1477f840790f3ab33e230e1ea0fa9">  170</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, PlayerWeaponSelect)</div>
+<div class="line"><a name="l00170"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#a8083aaed3f20822a88b5e8233b076424">  170</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, ForbidRandomStartWeapons)</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;{</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> slot = 0; slot &lt; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b">MAX_WEAPONSLOTS</a>; ++slot)</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    {</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        .entity weaponentity = <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[slot];</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> thiswep = player.(weaponentity);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;}</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div>
+<div class="line"><a name="l00175"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#af4d1477f840790f3ab33e230e1ea0fa9">  175</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, PlayerWeaponSelect)</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;{</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">if</span>(player.ok_lastwep[slot] &amp;&amp; player.ok_lastwep[slot] != WEP_Null)</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        {</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <a class="code" href="../../dc/de5/classWeapon.html">Weapon</a> newwep = player.ok_lastwep[slot];</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            <span class="keywordflow">if</span>(player.ok_lastwep[slot] == WEP_HMG)</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                newwep = WEP_MACHINEGUN;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;            <span class="keywordflow">if</span>(player.ok_lastwep[slot] == WEP_RPC)</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                newwep = WEP_VORTEX;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            thiswep.m_switchweapon = newwep;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            player.ok_lastwep[slot] = WEP_Null;</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        }</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    }</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;}</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
-<div class="line"><a name="l00192"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2">  192</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2">ok_HandleItemWaypoints</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;{</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a32804d520c2a33728a97813dceef84e5">autocvar_g_overkill_itemwaypoints</a>)</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>; <span class="comment">// don&#39;t handle it</span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> slot = 0; slot &lt; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b">MAX_WEAPONSLOTS</a>; ++slot)</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        .entity weaponentity = <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[slot];</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> thiswep = player.(weaponentity);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">if</span>(player.ok_lastwep[slot] &amp;&amp; player.ok_lastwep[slot] != WEP_Null)</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            <a class="code" href="../../dc/de5/classWeapon.html">Weapon</a> newwep = player.ok_lastwep[slot];</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            <span class="keywordflow">if</span>(player.ok_lastwep[slot] == WEP_HMG)</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                newwep = WEP_MACHINEGUN;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            <span class="keywordflow">if</span>(player.ok_lastwep[slot] == WEP_RPC)</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                newwep = WEP_VORTEX;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            thiswep.m_switchweapon = newwep;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            player.ok_lastwep[slot] = WEP_Null;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        }</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    }</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;}</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">switch</span>(e.itemdef)</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    {</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">case</span> ITEM_HealthMega: <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">case</span> ITEM_ArmorMedium: <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordflow">case</span> ITEM_ArmorBig: <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">case</span> ITEM_ArmorMega: <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;}</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div>
-<div class="line"><a name="l00208"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#a7a710fcb2decc0640a72dbab66a954fe">  208</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, Item_RespawnCountdown)</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;{</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2">ok_HandleItemWaypoints</a>(item);</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;}</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
-<div class="line"><a name="l00214"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#ad4e0519cba1b2e3e767e5ec449271f99">  214</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, Item_ScheduleRespawn)</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;{</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2">ok_HandleItemWaypoints</a>(item);</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;}</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;</div>
-<div class="line"><a name="l00220"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#a65d576309955d9f4adbfa3bade4f0ad6">  220</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, FilterItem)</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;{</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">if</span> (item.ok_item)</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    {</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    }</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a776a92402884c6d5200afa82479528f3">autocvar_g_powerups</a> || !<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a4b808bb33716252fc07eb4d5a6b49431">autocvar_g_overkill_powerups_replace</a>)</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    {</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    }</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keywordflow">if</span> (item.classname == <span class="stringliteral">&quot;item_strength&quot;</span>)</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    {</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> wep = <span class="keyword">new</span>(weapon_hmg);</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(wep, item.origin);</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        wep.ok_item = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        wep.noalign = <a class="code" href="../../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8">Item_ShouldKeepPosition</a>(item);</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        wep.cnt = item.cnt;</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        wep.team = item.team;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        wep.respawntime = g_pickup_respawntime_superweapon;</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        wep.pickup_anyway = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        wep.spawnfunc_checked = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <a class="code" href="../../df/def/server_2items_8qc.html#a1abbc2840126cee768cba2d54dca5e62">Item_Initialize</a>(wep, <span class="stringliteral">&quot;weapon_hmg&quot;</span>);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    }</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (item.classname == <span class="stringliteral">&quot;item_shield&quot;</span>)</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    {</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> wep = <span class="keyword">new</span>(weapon_rpc);</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(wep, item.origin);</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        wep.ok_item = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        wep.noalign = <a class="code" href="../../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8">Item_ShouldKeepPosition</a>(item);</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        wep.cnt = item.cnt;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        wep.team = item.team;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        wep.respawntime = g_pickup_respawntime_superweapon;</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        wep.pickup_anyway = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        wep.spawnfunc_checked = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <a class="code" href="../../df/def/server_2items_8qc.html#a1abbc2840126cee768cba2d54dca5e62">Item_Initialize</a>(wep, <span class="stringliteral">&quot;weapon_rpc&quot;</span>);</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    }</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;}</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
-<div class="line"><a name="l00263"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#ae8a928afe0232744a706f7b3c08705dd">  263</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, SetStartItems, <a class="code" href="../../db/d38/base_8qh.html#a4aa0be358192aebe98876abc370873a6">CBC_ORDER_LAST</a>)</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;{</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#ade7b3795466e850b0acb38ad649ea87b">WepSet</a> ok_start_items = (<a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(MACHINEGUN) | <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(VORTEX) | <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(SHOTGUN));</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <span class="keywordflow">if</span>(WEP_RPC.weaponstart &gt; 0) { ok_start_items |= <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(RPC); }</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordflow">if</span>(WEP_HMG.weaponstart &gt; 0) { ok_start_items |= <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(HMG); }</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3f595687f904e846427f62493b2604a7">start_items</a> |= <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#a986394a32b6f3c39af3455f7962fab9b">IT_UNLIMITED_WEAPON_AMMO</a>;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a266095dd0a42668591b2765cabb0ba84">start_weapons</a> = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#aca7c673e6d637dd16b6a9bbcc3f73a63">warmup_start_weapons</a> = ok_start_items;</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;}</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
-<div class="line"><a name="l00274"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#acf536195f0ca0fd4c9524bf6eb863af1">  274</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, SetWeaponArena)</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;{</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <span class="comment">// turn weapon arena off</span></div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <span class="stringliteral">&quot;off&quot;</span>;</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;}</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
-<div class="line"><a name="l00280"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#a634af557ff848745525b2414439dbf7f">  280</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, BuildMutatorsString)</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;{</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>), <span class="stringliteral">&quot;:OK&quot;</span>);</div>
+<div class="line"><a name="l00197"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2">  197</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2">ok_HandleItemWaypoints</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;{</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a32804d520c2a33728a97813dceef84e5">autocvar_g_overkill_itemwaypoints</a>)</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>; <span class="comment">// don&#39;t handle it</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordflow">switch</span>(e.itemdef)</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordflow">case</span> ITEM_HealthMega: <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">case</span> ITEM_ArmorMedium: <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keywordflow">case</span> ITEM_ArmorBig: <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <span class="keywordflow">case</span> ITEM_ArmorMega: <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    }</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;}</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
+<div class="line"><a name="l00213"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#a7a710fcb2decc0640a72dbab66a954fe">  213</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, Item_RespawnCountdown)</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;{</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2">ok_HandleItemWaypoints</a>(item);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;}</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#ad4e0519cba1b2e3e767e5ec449271f99">  219</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, Item_ScheduleRespawn)</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;{</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2">ok_HandleItemWaypoints</a>(item);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;}</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
+<div class="line"><a name="l00225"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#a65d576309955d9f4adbfa3bade4f0ad6">  225</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, FilterItem)</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;{</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordflow">if</span> (item.ok_item)</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a776a92402884c6d5200afa82479528f3">autocvar_g_powerups</a> || !<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a4b808bb33716252fc07eb4d5a6b49431">autocvar_g_overkill_powerups_replace</a>)</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keywordflow">if</span> (item.classname == <span class="stringliteral">&quot;item_strength&quot;</span>)</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> wep = <span class="keyword">new</span>(weapon_hmg);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(wep, item.origin);</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        wep.ok_item = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        wep.noalign = <a class="code" href="../../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8">Item_ShouldKeepPosition</a>(item);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        wep.cnt = item.cnt;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        wep.team = item.team;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        wep.respawntime = g_pickup_respawntime_superweapon;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        wep.pickup_anyway = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        wep.spawnfunc_checked = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <a class="code" href="../../df/def/server_2items_8qc.html#a1abbc2840126cee768cba2d54dca5e62">Item_Initialize</a>(wep, <span class="stringliteral">&quot;weapon_hmg&quot;</span>);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    }</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (item.classname == <span class="stringliteral">&quot;item_shield&quot;</span>)</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    {</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> wep = <span class="keyword">new</span>(weapon_rpc);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(wep, item.origin);</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        wep.ok_item = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        wep.noalign = <a class="code" href="../../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8">Item_ShouldKeepPosition</a>(item);</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        wep.cnt = item.cnt;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        wep.team = item.team;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        wep.respawntime = g_pickup_respawntime_superweapon;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        wep.pickup_anyway = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        wep.spawnfunc_checked = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <a class="code" href="../../df/def/server_2items_8qc.html#a1abbc2840126cee768cba2d54dca5e62">Item_Initialize</a>(wep, <span class="stringliteral">&quot;weapon_rpc&quot;</span>);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    }</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;}</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
+<div class="line"><a name="l00268"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#ae8a928afe0232744a706f7b3c08705dd">  268</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, SetStartItems, <a class="code" href="../../db/d38/base_8qh.html#a4aa0be358192aebe98876abc370873a6">CBC_ORDER_LAST</a>)</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;{</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#ade7b3795466e850b0acb38ad649ea87b">WepSet</a> ok_start_items = (<a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(MACHINEGUN) | <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(VORTEX) | <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(SHOTGUN));</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordflow">if</span>(WEP_RPC.weaponstart &gt; 0) { ok_start_items |= <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(RPC); }</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="keywordflow">if</span>(WEP_HMG.weaponstart &gt; 0) { ok_start_items |= <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(HMG); }</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3f595687f904e846427f62493b2604a7">start_items</a> |= <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#a986394a32b6f3c39af3455f7962fab9b">IT_UNLIMITED_WEAPON_AMMO</a>;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a266095dd0a42668591b2765cabb0ba84">start_weapons</a> = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#aca7c673e6d637dd16b6a9bbcc3f73a63">warmup_start_weapons</a> = ok_start_items;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;}</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
+<div class="line"><a name="l00279"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#acf536195f0ca0fd4c9524bf6eb863af1">  279</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, SetWeaponArena)</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;{</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="comment">// turn weapon arena off</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <span class="stringliteral">&quot;off&quot;</span>;</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;}</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;</div>
-<div class="line"><a name="l00285"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#a3e51b524767297fee88e1abb704fcd8c">  285</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, BuildMutatorsPrettyString)</div>
+<div class="line"><a name="l00285"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#a634af557ff848745525b2414439dbf7f">  285</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, BuildMutatorsString)</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;{</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>), <span class="stringliteral">&quot;, Overkill&quot;</span>);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>), <span class="stringliteral">&quot;:OK&quot;</span>);</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;}</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
-<div class="line"><a name="l00290"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#a8c34739cb15da34b18acf3a993117a64">  290</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, SetModname)</div>
+<div class="line"><a name="l00290"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#a3e51b524767297fee88e1abb704fcd8c">  290</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, BuildMutatorsPrettyString)</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;{</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <span class="stringliteral">&quot;Overkill&quot;</span>;</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;}</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>), <span class="stringliteral">&quot;, Overkill&quot;</span>);</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;}</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;</div>
+<div class="line"><a name="l00295"></a><span class="lineno"><a class="line" href="../../d8/d0c/sv__overkill_8qc.html#a8c34739cb15da34b18acf3a993117a64">  295</a></span>&#160;<a class="code" href="../../d8/d0c/sv__overkill_8qc.html#a83ddc98aa5d824b4c96e6b4497fad9c6">MUTATOR_HOOKFUNCTION</a>(ok, SetModname)</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;{</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <span class="stringliteral">&quot;Overkill&quot;</span>;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;}</div>
 <div class="ttc" id="weapons_2weapon_8qh_html_ade7b3795466e850b0acb38ad649ea87b"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#ade7b3795466e850b0acb38ad649ea87b">WepSet</a></div><div class="ttdeci">vector WepSet</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00011">weapon.qh:11</a></div></div>
 <div class="ttc" id="weapons_2all_8qh_html_a1a8ec9d18cc617efc425e0aa17fcde78"><div class="ttname"><a href="../../d0/ddd/weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a></div><div class="ttdeci">#define WEP_CVAR_PRI(wepname, name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/weapons_2all_8qh_source.html#l00279">all.qh:279</a></div></div>
 <div class="ttc" id="common_2physics_2player_8qh_html_aef86542f9909f794e073794b9dab3af7"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#aef86542f9909f794e073794b9dab3af7">PHYS_INPUT_BUTTON_ATCK2</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_ATCK2(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00105">player.qh:105</a></div></div>
@@ -419,7 +424,7 @@ $(document).ready(function(){initNavTree('d8/d0c/sv__overkill_8qc_source.html','
 <div class="ttc" id="ent__cs_8qc_html_a06dbc3a3eb5aaab80edf32ea607f1ef3"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a></div><div class="ttdeci">origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00048">ent_cs.qc:48</a></div></div>
 <div class="ttc" id="powerups_8qc_html_a5d9cc36a06664262be19fae94fd8e00a"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a">lifetime</a></div><div class="ttdeci">float lifetime</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00015">powerups.qc:15</a></div></div>
 <div class="ttc" id="round__handler_8qh_html_a94a1d9264bb698d7c097277562e2dfe2"><div class="ttname"><a href="../../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2">round_handler_IsRoundStarted</a></div><div class="ttdeci">#define round_handler_IsRoundStarted()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d20/round__handler_8qh_source.html#l00023">round_handler.qh:23</a></div></div>
-<div class="ttc" id="server_2client_8qc_html_ac4842064b7f7b032f654e24f1fa5a155"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#ac4842064b7f7b032f654e24f1fa5a155">PlayerPreThink</a></div><div class="ttdeci">void PlayerPreThink(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd7/server_2client_8qc_source.html#l02481">client.qc:2481</a></div></div>
+<div class="ttc" id="server_2client_8qc_html_ac4842064b7f7b032f654e24f1fa5a155"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#ac4842064b7f7b032f654e24f1fa5a155">PlayerPreThink</a></div><div class="ttdeci">void PlayerPreThink(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd7/server_2client_8qc_source.html#l02484">client.qc:2484</a></div></div>
 <div class="ttc" id="sv__overkill_8qh_html_a783903b4a82333788defe89c0629b955"><div class="ttname"><a href="../../d9/dbc/sv__overkill_8qh.html#a783903b4a82333788defe89c0629b955">autocvar_g_overkill_filter_healthmega</a></div><div class="ttdeci">bool autocvar_g_overkill_filter_healthmega</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dbc/sv__overkill_8qh_source.html#l00003">sv_overkill.qh:3</a></div></div>
 <div class="ttc" id="server_2items_8qc_html_a89f5174a26e743b85637afa34f5a6f81"><div class="ttname"><a href="../../df/def/server_2items_8qc.html#a89f5174a26e743b85637afa34f5a6f81">Item_InitializeLoot</a></div><div class="ttdeci">bool Item_InitializeLoot(entity item, string class_name, vector position, vector vel, float time_to_live)</div><div class="ttdoc">Initializes the loot item. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/def/server_2items_8qc_source.html#l00057">items.qc:57</a></div></div>
 <div class="ttc" id="utils_8qh_html_a47d8b1eef57b889198dafb1269499995"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a47d8b1eef57b889198dafb1269499995">IS_TURRET</a></div><div class="ttdeci">#define IS_TURRET(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00023">utils.qh:23</a></div></div>
@@ -444,7 +449,7 @@ $(document).ready(function(){initNavTree('d8/d0c/sv__overkill_8qc_source.html','
 <div class="ttc" id="sv__overkill_8qc_html_a081aa40d5576f73ef1ed05bed19ce05d"><div class="ttname"><a href="../../d8/d0c/sv__overkill_8qc.html#a081aa40d5576f73ef1ed05bed19ce05d">REGISTER_MUTATOR</a></div><div class="ttdeci">REGISTER_MUTATOR(ok, expr_evaluate(autocvar_g_overkill)&amp;&amp;!cvar(&quot;g_instagib&quot;)&amp;&amp;!g_nexball &amp;&amp;cvar_string(&quot;g_mod_balance&quot;)==&quot;Overkill&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0c/sv__overkill_8qc_source.html#l00014">sv_overkill.qc:14</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_a5ea7bf591f44cf22ed52a48b1aa4f012"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a5ea7bf591f44cf22ed52a48b1aa4f012">precache_all_playermodels</a></div><div class="ttdeci">void precache_all_playermodels(string pattern)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00779">miscfunctions.qc:779</a></div></div>
 <div class="ttc" id="sv__overkill_8qh_html_a2a3d29b3c539a2306243667a3f6d4a42"><div class="ttname"><a href="../../d9/dbc/sv__overkill_8qh.html#a2a3d29b3c539a2306243667a3f6d4a42">autocvar_g_overkill_filter_armormega</a></div><div class="ttdeci">bool autocvar_g_overkill_filter_armormega</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dbc/sv__overkill_8qh_source.html#l00006">sv_overkill.qh:6</a></div></div>
-<div class="ttc" id="sv__overkill_8qc_html_aceea9a161905a4152ef2093bd4c1c2d2"><div class="ttname"><a href="../../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2">ok_HandleItemWaypoints</a></div><div class="ttdeci">bool ok_HandleItemWaypoints(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0c/sv__overkill_8qc_source.html#l00192">sv_overkill.qc:192</a></div></div>
+<div class="ttc" id="sv__overkill_8qc_html_aceea9a161905a4152ef2093bd4c1c2d2"><div class="ttname"><a href="../../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2">ok_HandleItemWaypoints</a></div><div class="ttdeci">bool ok_HandleItemWaypoints(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0c/sv__overkill_8qc_source.html#l00197">sv_overkill.qc:197</a></div></div>
 <div class="ttc" id="utils_8qh_html_ada2e50d916105b5a32d7c97d39d226d5"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ada2e50d916105b5a32d7c97d39d226d5">IS_VEHICLE</a></div><div class="ttdeci">#define IS_VEHICLE(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00022">utils.qh:22</a></div></div>
 <div class="ttc" id="base_8qh_html_ac878b5fd9ca1fd639fca3f72e12c582e"><div class="ttname"><a href="../../db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e">MUTATOR_ONREMOVE</a></div><div class="ttdeci">#define MUTATOR_ONREMOVE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00281">base.qh:281</a></div></div>
 <div class="ttc" id="sv__overkill_8qc_html_a1f5b682ab4a4eb9896ca64778b726a80"><div class="ttname"><a href="../../d8/d0c/sv__overkill_8qc.html#a1f5b682ab4a4eb9896ca64778b726a80">ok_lastwep</a></div><div class="ttdeci">Weapon ok_lastwep[MAX_WEAPONSLOTS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0c/sv__overkill_8qc_source.html#l00012">sv_overkill.qc:12</a></div></div>
@@ -472,7 +477,7 @@ $(document).ready(function(){initNavTree('d8/d0c/sv__overkill_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_9f0ba747dc6b4bb85fdadc94258260f2.html">overkill</a></li><li class="navelem"><a class="el" href="../../d8/d0c/sv__overkill_8qc.html">sv_overkill.qc</a></li>
-    <li class="footer">Generated on Sun Jan 21 2018 01:15:22 for Xonotic by
+    <li class="footer">Generated on Sun Jan 21 2018 07:48:02 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

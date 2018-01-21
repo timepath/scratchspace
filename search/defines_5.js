@@ -68,6 +68,7 @@ var searchData=
   ['ev_5ffixplayermodel',['EV_FixPlayermodel',['../d6/ddd/server_2mutators_2events_8qh.html#a5228af333be70e5d749d4775d73d4416',1,'events.qh']]],
   ['ev_5fforbiddropcurrentweapon',['EV_ForbidDropCurrentWeapon',['../d6/ddd/server_2mutators_2events_8qh.html#ab9c203cb359e059fe3fc072588d0cdca',1,'events.qh']]],
   ['ev_5fforbidplayerscore_5fclear',['EV_ForbidPlayerScore_Clear',['../d6/ddd/server_2mutators_2events_8qh.html#a93d4da92e9df612c9e243beafa11c457',1,'events.qh']]],
+  ['ev_5fforbidrandomstartweapons',['EV_ForbidRandomStartWeapons',['../d6/ddd/server_2mutators_2events_8qh.html#a57770d177d2a5c451d531bf5478e362e',1,'events.qh']]],
   ['ev_5fforbidspawn',['EV_ForbidSpawn',['../d6/ddd/server_2mutators_2events_8qh.html#a0da84acfaf702215ae9c23dcde1969b6',1,'events.qh']]],
   ['ev_5fforbidthrowcurrentweapon',['EV_ForbidThrowCurrentWeapon',['../d6/ddd/server_2mutators_2events_8qh.html#aa9f463b9c72b6ecd4168a6d80073cceb',1,'events.qh']]],
   ['ev_5fforbidweaponuse',['EV_ForbidWeaponUse',['../d6/ddd/server_2mutators_2events_8qh.html#a3c1330bd14d70ce54c36e80af99c40bd',1,'events.qh']]],

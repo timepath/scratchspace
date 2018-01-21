@@ -6,6 +6,7 @@ var sv__nix_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d7/d39/sv__nix_8qc.html#aee005f4b5462942d7bfc2a6f601e47e5", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/d39/sv__nix_8qc.html#a14d98a2ff17ee2b5d9ccd1f8782acbaf", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/d39/sv__nix_8qc.html#ac7256b175d4e46d36e04633521489e28", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d7/d39/sv__nix_8qc.html#af635336b8b692a28f724c35f6a34f6ba", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/d39/sv__nix_8qc.html#a2be2e234d2cf78ea24accf0b2d3918d3", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/d39/sv__nix_8qc.html#a51890c285101323af1d3114ad9c87b8a", null ],
     [ "NIX_CanChooseWeapon", "d7/d39/sv__nix_8qc.html#a7bcb5b58de02894dfb32251eb9de36d3", null ],
