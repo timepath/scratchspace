@@ -1443,7 +1443,7 @@ Variables</h2></td></tr>
 <div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-18-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/db0/sv__instagib_8qc_ab173e4c3454e8ec7fcb8999d8bb11b0d_cgraph.svg" width="584" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/db0/sv__instagib_8qc_ab173e4c3454e8ec7fcb8999d8bb11b0d_cgraph.svg" width="630" height="278"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1899,19 +1899,20 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/db0/sv__instagib_8qc_source.html#l00386">386</a> of file <a class="el" href="../../d4/db0/sv__instagib_8qc_source.html">sv_instagib.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../df/def/server_2items_8qc_source.html#l00087">Item_ShouldKeepPosition()</a>, and <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d4/db0/sv__instagib_8qc_source.html#l00397">MUTATOR_HOOKFUNCTION()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;{</div>
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <span class="keyword">new</span>(item_vaporizer_cells);</div>
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, item.origin);</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    e.noalign = item.noalign;</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    e.noalign = <a class="code" href="../../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8">Item_ShouldKeepPosition</a>(item);</div>
 <div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    e.cnt = item.cnt;</div>
 <div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    e.team = item.team;</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    e.spawnfunc_checked = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    spawnfunc_item_vaporizer_cells(e);</div>
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="server_2items_8qc_html_a1273442a78b247ad612a19fc4b6529a8"><div class="ttname"><a href="../../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8">Item_ShouldKeepPosition</a></div><div class="ttdeci">bool Item_ShouldKeepPosition(entity item)</div><div class="ttdoc">Returns whether item should keep its position or be dropped to the ground. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/def/server_2items_8qc_source.html#l00087">items.qc:87</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1919,7 +1920,7 @@ Variables</h2></td></tr>
 <div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-24-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/db0/sv__instagib_8qc_a0abfe12ffff043db18c754ba133722e0_cgraph.svg" width="262" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/db0/sv__instagib_8qc_a0abfe12ffff043db18c754ba133722e0_cgraph.svg" width="363" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2165,7 +2166,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_37818b0dce32e02a5f5a4a96cf829288.html">instagib</a></li><li class="navelem"><a class="el" href="../../d4/db0/sv__instagib_8qc.html">sv_instagib.qc</a></li>
-    <li class="footer">Generated on Sat Jan 20 2018 06:14:18 for Xonotic by
+    <li class="footer">Generated on Sun Jan 21 2018 00:54:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
