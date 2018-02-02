@@ -142,14 +142,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01767">1767</a> of file <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html">sv_cmd.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01771">1771</a> of file <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html">sv_cmd.qc</a>.</p>
 
 <p>References <a class="el" href="../../d7/d88/generic_8qh_source.html#l00034">CMD_Write_Alias</a>, and <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/da7/generic_8qc_source.html#l00172">GENERIC_COMMAND()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01768"></a><span class="lineno"> 1768</span>&#160;{</div>
-<div class="line"><a name="l01769"></a><span class="lineno"> 1769</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(SERVER_COMMANDS, <span class="keyword">true</span>, { <a class="code" href="../../d7/d88/generic_8qh.html#a44c76290bfaf0ae7ebacd68341676cdd">CMD_Write_Alias</a>(<span class="stringliteral">&quot;qc_cmd_sv&quot;</span>, it.m_name, it.m_description); });</div>
-<div class="line"><a name="l01770"></a><span class="lineno"> 1770</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01772"></a><span class="lineno"> 1772</span>&#160;{</div>
+<div class="line"><a name="l01773"></a><span class="lineno"> 1773</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(SERVER_COMMANDS, <span class="keyword">true</span>, { <a class="code" href="../../d7/d88/generic_8qh.html#a44c76290bfaf0ae7ebacd68341676cdd">CMD_Write_Alias</a>(<span class="stringliteral">&quot;qc_cmd_sv&quot;</span>, it.m_name, it.m_description); });</div>
+<div class="line"><a name="l01774"></a><span class="lineno"> 1774</span>&#160;}</div>
 <div class="ttc" id="generic_8qh_html_a44c76290bfaf0ae7ebacd68341676cdd"><div class="ttname"><a href="../../d7/d88/generic_8qh.html#a44c76290bfaf0ae7ebacd68341676cdd">CMD_Write_Alias</a></div><div class="ttdeci">#define CMD_Write_Alias(execute, command, description)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d88/generic_8qh_source.html#l00034">generic.qh:34</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment -->
@@ -181,7 +181,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01972">1972</a> of file <a class="el" href="../../db/dcc/g__world_8qc_source.html">g_world.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00130">alreadychangedlevel</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00345">autocvar_sv_vote_gametype</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, <a class="el" href="../../d7/d97/g__world_8qh.html#a9e369a2585eeee66299a21fc034e9cc1">DoNextMapOverride()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00093">GameTypeVote_MapInfo_FixName()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l01170">MapInfo_CheckMap()</a>, and <a class="el" href="../../d3/d53/server_2mapvoting_8qh_source.html#l00014">mapvote_initialized</a>.</p>
+<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00130">alreadychangedlevel</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00348">autocvar_sv_vote_gametype</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, <a class="el" href="../../d7/d97/g__world_8qh.html#a9e369a2585eeee66299a21fc034e9cc1">DoNextMapOverride()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00093">GameTypeVote_MapInfo_FixName()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l01170">MapInfo_CheckMap()</a>, and <a class="el" href="../../d3/d53/server_2mapvoting_8qh_source.html#l00014">mapvote_initialized</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00924">GameCommand_gotomap()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01973"></a><span class="lineno"> 1973</span>&#160;{</div>
@@ -207,7 +207,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="server_2mapvoting_8qc_html_a13d33aa977bdf38b8384785376590f49"><div class="ttname"><a href="../../d2/d76/server_2mapvoting_8qc.html#a13d33aa977bdf38b8384785376590f49">GameTypeVote_MapInfo_FixName</a></div><div class="ttdeci">string GameTypeVote_MapInfo_FixName(string m)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/server_2mapvoting_8qc_source.html#l00093">mapvoting.qc:93</a></div></div>
 <div class="ttc" id="g__world_8qh_html_a9e369a2585eeee66299a21fc034e9cc1"><div class="ttname"><a href="../../d7/d97/g__world_8qh.html#a9e369a2585eeee66299a21fc034e9cc1">DoNextMapOverride</a></div><div class="ttdeci">float DoNextMapOverride(float reinit)</div></div>
 <div class="ttc" id="mapinfo_8qc_html_a17f35585e0c7d03f4e13f4d6ba3b1e42"><div class="ttname"><a href="../../d3/d46/mapinfo_8qc.html#a17f35585e0c7d03f4e13f4d6ba3b1e42">MapInfo_CheckMap</a></div><div class="ttdeci">float MapInfo_CheckMap(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d46/mapinfo_8qc_source.html#l01170">mapinfo.qc:1170</a></div></div>
-<div class="ttc" id="server_2autocvars_8qh_html_a1dac7e6e520cba64e8abd4147ec05e10"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a1dac7e6e520cba64e8abd4147ec05e10">autocvar_sv_vote_gametype</a></div><div class="ttdeci">bool autocvar_sv_vote_gametype</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00345">autocvars.qh:345</a></div></div>
+<div class="ttc" id="server_2autocvars_8qh_html_a1dac7e6e520cba64e8abd4147ec05e10"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a1dac7e6e520cba64e8abd4147ec05e10">autocvar_sv_vote_gametype</a></div><div class="ttdeci">bool autocvar_sv_vote_gametype</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00348">autocvars.qh:348</a></div></div>
 <div class="ttc" id="server_2mapvoting_8qh_html_ac2ebccaa8a03f242d61b099ed2cf1212"><div class="ttname"><a href="../../d3/d53/server_2mapvoting_8qh.html#ac2ebccaa8a03f242d61b099ed2cf1212">mapvote_initialized</a></div><div class="ttdeci">float mapvote_initialized</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d53/server_2mapvoting_8qh_source.html#l00014">mapvoting.qh:14</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
 </div><!-- fragment -->
@@ -337,7 +337,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d2/dcc/sv__cmd_8qh.html">sv_cmd.qh</a></li>
-    <li class="footer">Generated on Sun Jan 21 2018 07:48:16 for Xonotic by
+    <li class="footer">Generated on Fri Feb 2 2018 02:10:10 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

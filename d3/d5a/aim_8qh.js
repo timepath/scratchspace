@@ -1,7 +1,7 @@
 var aim_8qh =
 [
     [ "bot_aim", "d3/d5a/aim_8qh.html#ae876c215515375799091388af5fc15ae", null ],
-    [ "bot_aimdir", "d3/d5a/aim_8qh.html#a9f4cace23173de342f3520006940d202", null ],
+    [ "bot_aimdir", "d3/d5a/aim_8qh.html#aecfef2eda1200592801a4613a7318266", null ],
     [ "bot_lagfunc", "d3/d5a/aim_8qh.html#af8050ab8c527644541f6663b6ea42874", null ],
     [ "bot_shotlead", "d3/d5a/aim_8qh.html#a796f9908be3ee5088545f483aaa689ee", null ],
     [ "bot_shouldattack", "d3/d5a/aim_8qh.html#a9eb31d22aa689463b6b8af0c5072b027", null ],

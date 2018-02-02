@@ -7,6 +7,7 @@ var utils_8qh =
     [ "IS_CLIENT", "db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834", null ],
     [ "IS_FAKE_CLIENT", "db/d7a/utils_8qh.html#ade2cd0e40162e24f9205797020945ead", null ],
     [ "IS_MONSTER", "db/d7a/utils_8qh.html#a8d1a59561876620071f4bf87b78471ab", null ],
+    [ "IS_MOVABLE", "db/d7a/utils_8qh.html#ad9d8c863d951f605f922daf128e74408", null ],
     [ "IS_NOT_A_CLIENT", "db/d7a/utils_8qh.html#a39b1d6b6d09aad4f80de90641365be82", null ],
     [ "IS_OBSERVER", "db/d7a/utils_8qh.html#a14e7b447f7917f8ac7e0198ee25b2bc2", null ],
     [ "IS_PLAYER", "db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808", null ],

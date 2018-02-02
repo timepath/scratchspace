@@ -247,6 +247,9 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 <li>g_jetpack
 : <a class="el" href="d5/d26/server_2defs_8qh.html#a3bc1238ebb2ffbad59083120a2fafef8">defs.qh</a>
 </li>
+<li>g_jumppads
+: <a class="el" href="d9/de7/jumppads_8qh.html#a890e2681c683826ce47067a8b0f6886d">jumppads.qh</a>
+</li>
 <li>g_ladders
 : <a class="el" href="d5/d26/server_2defs_8qh.html#adcbd1a233f8372f5432acdeaeb4d1d14">defs.qh</a>
 </li>
@@ -821,7 +824,7 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 : <a class="el" href="db/d07/teams_8qh.html#ae812354355770545470af6b1acb70845">teams.qh</a>
 </li>
 <li>GENERIC_COMMAND()
-: <a class="el" href="df/da7/generic_8qc.html#af4deca7a7fe670c511f95361b87fb961">generic.qc</a>
+: <a class="el" href="df/da7/generic_8qc.html#a3034377c38bd133b2fb40e4658d3e560">generic.qc</a>
 , <a class="el" href="da/df5/common_2debug_8qh.html#a509bb0a47a7dc0fbac057261cf266b80">debug.qh</a>
 , <a class="el" href="dd/d87/effectinfo_8qc.html#ae328f1e3b2e9b1cfb1b78938f44f8173">effectinfo.qc</a>
 , <a class="el" href="d0/d7e/items_2all_8qh.html#a009d5c7aa787ef5f411b33a56ca8db27">all.qh</a>
@@ -947,15 +950,22 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 <li>GET_BAN_REASON
 : <a class="el" href="de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe">banning.qh</a>
 </li>
+<li>get_closer_dest()
+: <a class="el" href="db/d15/api_8qh.html#a80b4f8901c6e6f1d5c0e6d22d8965144">api.qh</a>
+, <a class="el" href="d1/d9a/navigation_8qc.html#a80b4f8901c6e6f1d5c0e6d22d8965144">navigation.qc</a>
+</li>
 <li>get_cvars_f
 : <a class="el" href="d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2">events.qh</a>
 </li>
 <li>get_cvars_s
 : <a class="el" href="d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f">events.qh</a>
 </li>
+<li>GET_GAMETYPE_EXTENSION
+: <a class="el" href="d7/dc4/waypoints_8qc.html#a29f423a1a4b68d20d0af46e0ad681f85">waypoints.qc</a>
+</li>
 <li>get_model_datafilename()
-: <a class="el" href="d5/df2/common_2util_8qh.html#a041755b4c9197bc68894879f12a3b400">util.qh</a>
-, <a class="el" href="da/d44/common_2util_8qc.html#aa2768b93f157e5fec4abc65b6a5d8622">util.qc</a>
+: <a class="el" href="da/d44/common_2util_8qc.html#aa2768b93f157e5fec4abc65b6a5d8622">util.qc</a>
+, <a class="el" href="d5/df2/common_2util_8qh.html#a041755b4c9197bc68894879f12a3b400">util.qh</a>
 </li>
 <li>get_model_parameters()
 : <a class="el" href="da/d44/common_2util_8qc.html#adf7a46756346d8546b7f6bdf705d2a17">util.qc</a>
@@ -1042,8 +1052,8 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 : <a class="el" href="d0/d0f/bgmscript_8qc.html#ad5dd9ec95ab469d6e40db63028bfc50d">bgmscript.qc</a>
 </li>
 <li>GetCallerName()
-: <a class="el" href="d2/d06/server_2command_2common_8qh.html#af86ebd442e5bd6b2d6b51ce1276847b6">common.qh</a>
-, <a class="el" href="de/d55/server_2command_2common_8qc.html#af86ebd442e5bd6b2d6b51ce1276847b6">common.qc</a>
+: <a class="el" href="de/d55/server_2command_2common_8qc.html#af86ebd442e5bd6b2d6b51ce1276847b6">common.qc</a>
+, <a class="el" href="d2/d06/server_2command_2common_8qh.html#af86ebd442e5bd6b2d6b51ce1276847b6">common.qh</a>
 </li>
 <li>GetClientErrorString
 : <a class="el" href="d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74">common.qh</a>
@@ -1089,8 +1099,8 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 : <a class="el" href="dc/dc6/server_2miscfunctions_8qc.html#a23f828e399a8cc249b3f3e65baa6f05a">miscfunctions.qc</a>
 </li>
 <li>GetCvars_handleString()
-: <a class="el" href="dc/dc6/server_2miscfunctions_8qc.html#a7c662280a4c259425dad12e0d007f13a">miscfunctions.qc</a>
-, <a class="el" href="dc/d73/server_2miscfunctions_8qh.html#a7c662280a4c259425dad12e0d007f13a">miscfunctions.qh</a>
+: <a class="el" href="dc/d73/server_2miscfunctions_8qh.html#a7c662280a4c259425dad12e0d007f13a">miscfunctions.qh</a>
+, <a class="el" href="dc/dc6/server_2miscfunctions_8qc.html#a7c662280a4c259425dad12e0d007f13a">miscfunctions.qc</a>
 </li>
 <li>GetCvars_handleString_Fixup()
 : <a class="el" href="dc/dc6/server_2miscfunctions_8qc.html#aad818a177c42603ffc7dc6e34406c050">miscfunctions.qc</a>
@@ -1167,22 +1177,22 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 , <a class="el" href="d2/de3/getreplies_8qh.html#aa4fceeef60a806f478f69ab080bdb930">getreplies.qh</a>
 </li>
 <li>getmaplist()
-: <a class="el" href="d2/de3/getreplies_8qh.html#acd14453c3d874fef97b4619c5987158e">getreplies.qh</a>
-, <a class="el" href="d9/d89/getreplies_8qc.html#acd14453c3d874fef97b4619c5987158e">getreplies.qc</a>
+: <a class="el" href="d9/d89/getreplies_8qc.html#acd14453c3d874fef97b4619c5987158e">getreplies.qc</a>
+, <a class="el" href="d2/de3/getreplies_8qh.html#acd14453c3d874fef97b4619c5987158e">getreplies.qh</a>
 </li>
 <li>GetMaplistPosition()
 : <a class="el" href="db/dcc/g__world_8qc.html#a161f861ac5f44c81d48ecc3c40c3e465">g_world.qc</a>
 </li>
 <li>GetMapname()
-: <a class="el" href="db/dcc/g__world_8qc.html#a1330c9208470a4800fb84c8810728bcb">g_world.qc</a>
-, <a class="el" href="dc/d73/server_2miscfunctions_8qh.html#a1330c9208470a4800fb84c8810728bcb">miscfunctions.qh</a>
+: <a class="el" href="dc/d73/server_2miscfunctions_8qh.html#a1330c9208470a4800fb84c8810728bcb">miscfunctions.qh</a>
+, <a class="el" href="db/dcc/g__world_8qc.html#a1330c9208470a4800fb84c8810728bcb">g_world.qc</a>
 </li>
 <li>getmapname_stored
 : <a class="el" href="d3/d53/server_2mapvoting_8qh.html#adb8eb7341cc33371c115e189b9285df1">mapvoting.qh</a>
 </li>
 <li>getmonsterlist()
-: <a class="el" href="d9/d89/getreplies_8qc.html#a3ae93707563364a3f67b68109142e1df">getreplies.qc</a>
-, <a class="el" href="d2/de3/getreplies_8qh.html#a3ae93707563364a3f67b68109142e1df">getreplies.qh</a>
+: <a class="el" href="d2/de3/getreplies_8qh.html#a3ae93707563364a3f67b68109142e1df">getreplies.qh</a>
+, <a class="el" href="d9/d89/getreplies_8qc.html#a3ae93707563364a3f67b68109142e1df">getreplies.qc</a>
 </li>
 <li>GetMonsterSoundSampleField_notFound
 : <a class="el" href="d8/dc1/sv__monsters_8qh.html#a98af66f2846c803f7abf5cb588a24cad">sv_monsters.qh</a>
@@ -1194,16 +1204,16 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 : <a class="el" href="d8/de2/menudefs_8qc.html#ad091ce90afef365b142a3b3b8c7f8afd">menudefs.qc</a>
 </li>
 <li>getNewChildDuration()
-: <a class="el" href="d2/d58/keyframe_8qc.html#ad457f5897fca4ad705bfc772364f8d17">keyframe.qc</a>
-, <a class="el" href="df/dac/keyframe_8qh.html#a7eb1fbc5b14bdaeb1a18ae7b741828b5">keyframe.qh</a>
+: <a class="el" href="df/dac/keyframe_8qh.html#a7eb1fbc5b14bdaeb1a18ae7b741828b5">keyframe.qh</a>
+, <a class="el" href="d2/d58/keyframe_8qc.html#ad457f5897fca4ad705bfc772364f8d17">keyframe.qc</a>
 </li>
 <li>getNewChildStart()
-: <a class="el" href="d2/d58/keyframe_8qc.html#a993afbcda8cd42abb63549fd33951d28">keyframe.qc</a>
-, <a class="el" href="df/dac/keyframe_8qh.html#a678b39a744755166ecb8e8f6287e5bcf">keyframe.qh</a>
+: <a class="el" href="df/dac/keyframe_8qh.html#a678b39a744755166ecb8e8f6287e5bcf">keyframe.qh</a>
+, <a class="el" href="d2/d58/keyframe_8qc.html#a993afbcda8cd42abb63549fd33951d28">keyframe.qc</a>
 </li>
 <li>getNewChildValue()
-: <a class="el" href="d2/d58/keyframe_8qc.html#ad8cd70bf82f02ed5fc9e4347bb0ab9da">keyframe.qc</a>
-, <a class="el" href="df/dac/keyframe_8qh.html#abef6c8e69f77c44568ebce4e17439064">keyframe.qh</a>
+: <a class="el" href="df/dac/keyframe_8qh.html#abef6c8e69f77c44568ebce4e17439064">keyframe.qh</a>
+, <a class="el" href="d2/d58/keyframe_8qc.html#ad8cd70bf82f02ed5fc9e4347bb0ab9da">keyframe.qc</a>
 </li>
 <li>GetNextMap()
 : <a class="el" href="d7/d97/g__world_8qh.html#a558290ac2f061ad16a1fb895ab32f6d6">g_world.qh</a>
@@ -1212,15 +1222,15 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 : <a class="el" href="d6/dd3/view_8qc.html#a3ea9f138fb2b9c31233274c9aaa01574">view.qc</a>
 </li>
 <li>GetPlayerScoreString()
-: <a class="el" href="d2/d79/scores_8qc.html#ad28463ced5516457ad57a090398dfa49">scores.qc</a>
-, <a class="el" href="d5/dac/server_2scores_8qh.html#ad28463ced5516457ad57a090398dfa49">scores.qh</a>
+: <a class="el" href="d5/dac/server_2scores_8qh.html#ad28463ced5516457ad57a090398dfa49">scores.qh</a>
+, <a class="el" href="d2/d79/scores_8qc.html#ad28463ced5516457ad57a090398dfa49">scores.qc</a>
 </li>
 <li>GetPlayerSound()
 : <a class="el" href="d9/d45/globalsound_8qc.html#a4fc1198a586672f2b9459c628d386ca7">globalsound.qc</a>
 </li>
 <li>GetPlayerSoundSampleField()
-: <a class="el" href="d9/d45/globalsound_8qc.html#a7022de3163c4d07ba4bc0547443ae346">globalsound.qc</a>
-, <a class="el" href="df/d6e/globalsound_8qh.html#a7022de3163c4d07ba4bc0547443ae346">globalsound.qh</a>
+: <a class="el" href="df/d6e/globalsound_8qh.html#a7022de3163c4d07ba4bc0547443ae346">globalsound.qh</a>
+, <a class="el" href="d9/d45/globalsound_8qc.html#a7022de3163c4d07ba4bc0547443ae346">globalsound.qc</a>
 </li>
 <li>GetPlayerSoundSampleField_notFound
 : <a class="el" href="df/d6e/globalsound_8qh.html#a1ec2f2eda1ed7f5dca01dafdda4e56f9">globalsound.qh</a>
@@ -1236,8 +1246,8 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 , <a class="el" href="d9/d89/getreplies_8qc.html#ab675a2d8b0cc42ec8fcc752a870143d7">getreplies.qc</a>
 </li>
 <li>getrecords()
-: <a class="el" href="d9/d89/getreplies_8qc.html#a62a81e29daefc7da0cf3cde18c04ba35">getreplies.qc</a>
-, <a class="el" href="d2/de3/getreplies_8qh.html#a7a4fc949147f74e22df0e98d5c33f32b">getreplies.qh</a>
+: <a class="el" href="d2/de3/getreplies_8qh.html#a7a4fc949147f74e22df0e98d5c33f32b">getreplies.qh</a>
+, <a class="el" href="d9/d89/getreplies_8qc.html#a62a81e29daefc7da0cf3cde18c04ba35">getreplies.qc</a>
 </li>
 <li>GetReleaseAmplitude()
 : <a class="el" href="d0/d0f/bgmscript_8qc.html#a798d4dff855bfeeafe84fe83c2faf13a">bgmscript.qc</a>
@@ -1249,20 +1259,20 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 : <a class="el" href="d8/de2/menudefs_8qc.html#a8b5365f85f2e28639ecc5d2a6dfa17f3">menudefs.qc</a>
 </li>
 <li>GetResourceAmount()
-: <a class="el" href="d3/dd6/server_2resources_8qh.html#a41987053c5ea9c2c1c31b808887845e9">resources.qh</a>
-, <a class="el" href="d5/d09/resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9">resources.qc</a>
+: <a class="el" href="d5/d09/resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9">resources.qc</a>
+, <a class="el" href="d3/dd6/server_2resources_8qh.html#a41987053c5ea9c2c1c31b808887845e9">resources.qh</a>
 </li>
 <li>GetResourceField()
 : <a class="el" href="d5/d09/resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf">resources.qc</a>
 , <a class="el" href="d3/dd6/server_2resources_8qh.html#a71dd6195c49049c92fe8bd28377ea1cf">resources.qh</a>
 </li>
 <li>GetResourceLimit()
-: <a class="el" href="d5/d09/resources_8qc.html#af36a97298b550267aad36794d0f66c0f">resources.qc</a>
-, <a class="el" href="d3/dd6/server_2resources_8qh.html#af36a97298b550267aad36794d0f66c0f">resources.qh</a>
+: <a class="el" href="d3/dd6/server_2resources_8qh.html#af36a97298b550267aad36794d0f66c0f">resources.qh</a>
+, <a class="el" href="d5/d09/resources_8qc.html#af36a97298b550267aad36794d0f66c0f">resources.qc</a>
 </li>
 <li>GetResourceType()
-: <a class="el" href="d3/dd6/server_2resources_8qh.html#a46ef4f78ef7d5b3ef361c118c2999172">resources.qh</a>
-, <a class="el" href="d5/d09/resources_8qc.html#a46ef4f78ef7d5b3ef361c118c2999172">resources.qc</a>
+: <a class="el" href="d5/d09/resources_8qc.html#a46ef4f78ef7d5b3ef361c118c2999172">resources.qc</a>
+, <a class="el" href="d3/dd6/server_2resources_8qh.html#a46ef4f78ef7d5b3ef361c118c2999172">resources.qh</a>
 </li>
 <li>GetScoreLogLabel()
 : <a class="el" href="d2/d79/scores_8qc.html#a536688c8d54d72f0f2325e8e8a57a0a6">scores.qc</a>
@@ -1274,8 +1284,8 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 : <a class="el" href="d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">self.qh</a>
 </li>
 <li>GetSpeedUnit()
-: <a class="el" href="df/d30/client_2main_8qc.html#a3a4d75b1666fc0c35a999aae66cf6fd2">main.qc</a>
-, <a class="el" href="d0/d2a/client_2main_8qh.html#a3a4d75b1666fc0c35a999aae66cf6fd2">main.qh</a>
+: <a class="el" href="d0/d2a/client_2main_8qh.html#a3a4d75b1666fc0c35a999aae66cf6fd2">main.qh</a>
+, <a class="el" href="df/d30/client_2main_8qc.html#a3a4d75b1666fc0c35a999aae66cf6fd2">main.qc</a>
 </li>
 <li>GetSpeedUnitFactor()
 : <a class="el" href="d0/d2a/client_2main_8qh.html#affd4aa7fbce73d395d146b6e164eb8e6">main.qh</a>
@@ -1293,8 +1303,8 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 , <a class="el" href="de/d5e/dpextensions_8qc.html#a8391594e8f422685018f046deded8aac">dpextensions.qc</a>
 </li>
 <li>gettaginfo_offset
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#acb9f339b13d7c297c737641f0d08cedb">csprogsdefs.qc</a>
-, <a class="el" href="de/d5e/dpextensions_8qc.html#acb9f339b13d7c297c737641f0d08cedb">dpextensions.qc</a>
+: <a class="el" href="de/d5e/dpextensions_8qc.html#acb9f339b13d7c297c737641f0d08cedb">dpextensions.qc</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#acb9f339b13d7c297c737641f0d08cedb">csprogsdefs.qc</a>
 </li>
 <li>gettaginfo_parent
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a2fe509c0b40f36507d0ca180e8aedd09">csprogsdefs.qc</a>
@@ -1336,25 +1346,25 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 : <a class="el" href="d8/de2/menudefs_8qc.html#a5a51f82b0e067ae62972297351d205d2">menudefs.qc</a>
 </li>
 <li>GETTIME_CDTRACK
-: <a class="el" href="de/d5e/dpextensions_8qc.html#a8702ab4a8acd103e32b11fcdb31d9e9b">dpextensions.qc</a>
-, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a8702ab4a8acd103e32b11fcdb31d9e9b">csprogsdefs.qc</a>
+: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a8702ab4a8acd103e32b11fcdb31d9e9b">csprogsdefs.qc</a>
+, <a class="el" href="de/d5e/dpextensions_8qc.html#a8702ab4a8acd103e32b11fcdb31d9e9b">dpextensions.qc</a>
 </li>
 <li>GETTIME_FRAMESTART
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#adf6d21dffd8811553950578a6d08920f">csprogsdefs.qc</a>
-, <a class="el" href="de/d5e/dpextensions_8qc.html#adf6d21dffd8811553950578a6d08920f">dpextensions.qc</a>
+: <a class="el" href="de/d5e/dpextensions_8qc.html#adf6d21dffd8811553950578a6d08920f">dpextensions.qc</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#adf6d21dffd8811553950578a6d08920f">csprogsdefs.qc</a>
 </li>
 <li>GETTIME_HIRES
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a2ebb88d6e694ca4068bf0894247de37d">csprogsdefs.qc</a>
-, <a class="el" href="de/d5e/dpextensions_8qc.html#a2ebb88d6e694ca4068bf0894247de37d">dpextensions.qc</a>
+: <a class="el" href="de/d5e/dpextensions_8qc.html#a2ebb88d6e694ca4068bf0894247de37d">dpextensions.qc</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a2ebb88d6e694ca4068bf0894247de37d">csprogsdefs.qc</a>
 </li>
 <li>GETTIME_REALTIME
-: <a class="el" href="d4/d1a/static_8qh.html#a8c0b177bfb707d205b7161331701a31f">static.qh</a>
-, <a class="el" href="de/d5e/dpextensions_8qc.html#a790f9b756adcb168150096db39c4dcf9">dpextensions.qc</a>
+: <a class="el" href="de/d5e/dpextensions_8qc.html#a790f9b756adcb168150096db39c4dcf9">dpextensions.qc</a>
+, <a class="el" href="d4/d1a/static_8qh.html#a8c0b177bfb707d205b7161331701a31f">static.qh</a>
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a790f9b756adcb168150096db39c4dcf9">csprogsdefs.qc</a>
 </li>
 <li>GETTIME_UPTIME
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a2708d01bea467816556d550913454e1a">csprogsdefs.qc</a>
-, <a class="el" href="de/d5e/dpextensions_8qc.html#a2708d01bea467816556d550913454e1a">dpextensions.qc</a>
+: <a class="el" href="de/d5e/dpextensions_8qc.html#a2708d01bea467816556d550913454e1a">dpextensions.qc</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a2708d01bea467816556d550913454e1a">csprogsdefs.qc</a>
 </li>
 <li>GetTimeForAmplitude()
 : <a class="el" href="d0/d0f/bgmscript_8qc.html#ae28daa7d8eecef6a16c23f616720bb47">bgmscript.qc</a>
@@ -1366,16 +1376,16 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 : <a class="el" href="d6/dd3/view_8qc.html#a9ee8fa588f94515b9f0357bdbf2d300b">view.qc</a>
 </li>
 <li>GetVoiceMessage()
-: <a class="el" href="d9/d45/globalsound_8qc.html#a0f76411e16fb1a91bf97121690907cd7">globalsound.qc</a>
-, <a class="el" href="df/d6e/globalsound_8qh.html#a0f76411e16fb1a91bf97121690907cd7">globalsound.qh</a>
+: <a class="el" href="df/d6e/globalsound_8qh.html#a0f76411e16fb1a91bf97121690907cd7">globalsound.qh</a>
+, <a class="el" href="d9/d45/globalsound_8qc.html#a0f76411e16fb1a91bf97121690907cd7">globalsound.qc</a>
 </li>
 <li>GetVoiceMessageSampleField()
 : <a class="el" href="df/d6e/globalsound_8qh.html#a6d27dd45d58d423f7c352182ea854ef7">globalsound.qh</a>
 , <a class="el" href="d9/d45/globalsound_8qc.html#a6d27dd45d58d423f7c352182ea854ef7">globalsound.qc</a>
 </li>
 <li>getwelcomemessage()
-: <a class="el" href="d2/d76/teamplay_8qh.html#a76e164c174bdeaccb8f664d77d2adcf9">teamplay.qh</a>
-, <a class="el" href="de/d4f/teamplay_8qc.html#a76e164c174bdeaccb8f664d77d2adcf9">teamplay.qc</a>
+: <a class="el" href="de/d4f/teamplay_8qc.html#a76e164c174bdeaccb8f664d77d2adcf9">teamplay.qc</a>
+, <a class="el" href="d2/d76/teamplay_8qh.html#a76e164c174bdeaccb8f664d77d2adcf9">teamplay.qh</a>
 </li>
 <li>GetWinningCode()
 : <a class="el" href="db/dcc/g__world_8qc.html#abed18c6e10bb666ad939e95abcaabb5d">g_world.qc</a>
@@ -1388,15 +1398,15 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 : <a class="el" href="d5/df2/common_2util_8qh.html#a5f4732a3d07850ca4c4dcd2bca80c188">util.qh</a>
 </li>
 <li>getWrappedLineLen()
-: <a class="el" href="d5/df2/common_2util_8qh.html#a0c6829767aa2400e49284b242c194d95">util.qh</a>
-, <a class="el" href="da/d44/common_2util_8qc.html#a0c6829767aa2400e49284b242c194d95">util.qc</a>
+: <a class="el" href="da/d44/common_2util_8qc.html#a0c6829767aa2400e49284b242c194d95">util.qc</a>
+, <a class="el" href="d5/df2/common_2util_8qh.html#a0c6829767aa2400e49284b242c194d95">util.qh</a>
 </li>
 <li>GiveBit()
 : <a class="el" href="d5/d52/bits_8qh.html#a6152f5c7aad64cc41a6c5dc6eef96bf2">bits.qh</a>
 </li>
 <li>GiveFrags()
-: <a class="el" href="d5/dac/g__damage_8qc.html#a8b8e7316613eee6bbf528c646d82128f">g_damage.qc</a>
-, <a class="el" href="dd/de4/g__damage_8qh.html#a8b8e7316613eee6bbf528c646d82128f">g_damage.qh</a>
+: <a class="el" href="dd/de4/g__damage_8qh.html#a8b8e7316613eee6bbf528c646d82128f">g_damage.qh</a>
+, <a class="el" href="d5/dac/g__damage_8qc.html#a8b8e7316613eee6bbf528c646d82128f">g_damage.qc</a>
 </li>
 <li>GiveFrags_randomweapons
 : <a class="el" href="dd/de4/g__damage_8qh.html#ab8170ae9b28e781d5f6918e851aeda70">g_damage.qh</a>
@@ -1406,8 +1416,8 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 , <a class="el" href="d3/dd6/server_2resources_8qh.html#a88f207f357349ddd4d1f32b85d0c3f57">resources.qh</a>
 </li>
 <li>GiveResourceWithLimit()
-: <a class="el" href="d3/dd6/server_2resources_8qh.html#a1b1ff2e419436cd7236668176c97c9ac">resources.qh</a>
-, <a class="el" href="d5/d09/resources_8qc.html#a1b1ff2e419436cd7236668176c97c9ac">resources.qc</a>
+: <a class="el" href="d5/d09/resources_8qc.html#a1b1ff2e419436cd7236668176c97c9ac">resources.qc</a>
+, <a class="el" href="d3/dd6/server_2resources_8qh.html#a1b1ff2e419436cd7236668176c97c9ac">resources.qh</a>
 </li>
 <li>GiveValue()
 : <a class="el" href="d5/d52/bits_8qh.html#a7c4df704eb888da3165c69863ce0f234">bits.qh</a>
@@ -1417,8 +1427,8 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 , <a class="el" href="df/d9b/menu_2xonotic_2util_8qc.html#a6b30e54c431ef41c6bca8ad5930e6670">util.qc</a>
 </li>
 <li>GL_Have_TextureCompression()
-: <a class="el" href="df/d97/menu_2xonotic_2util_8qh.html#ada73b695059752dc4c9de93567017ca8">util.qh</a>
-, <a class="el" href="df/d9b/menu_2xonotic_2util_8qc.html#ada73b695059752dc4c9de93567017ca8">util.qc</a>
+: <a class="el" href="df/d9b/menu_2xonotic_2util_8qc.html#ada73b695059752dc4c9de93567017ca8">util.qc</a>
+, <a class="el" href="df/d97/menu_2xonotic_2util_8qh.html#ada73b695059752dc4c9de93567017ca8">util.qh</a>
 </li>
 <li>GlobalSound_sample()
 : <a class="el" href="d9/d45/globalsound_8qc.html#ae2c525418d0124bca40ef3c1528d3eed">globalsound.qc</a>
@@ -1431,8 +1441,8 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 , <a class="el" href="d6/db1/draw_8qc.html#a0b581a0ff2b1fd85336d25a51a06e57d">draw.qc</a>
 </li>
 <li>globalToBoxSize()
-: <a class="el" href="d9/d62/menu_2draw_8qh.html#a46895b8ce8c0b9928952c5386bc4054e">draw.qh</a>
-, <a class="el" href="d6/db1/draw_8qc.html#aae12e9efe4b2ff652987ec77bbb1e82e">draw.qc</a>
+: <a class="el" href="d6/db1/draw_8qc.html#aae12e9efe4b2ff652987ec77bbb1e82e">draw.qc</a>
+, <a class="el" href="d9/d62/menu_2draw_8qh.html#a46895b8ce8c0b9928952c5386bc4054e">draw.qh</a>
 </li>
 <li>glow_color
 : <a class="el" href="de/d5e/dpextensions_8qc.html#a88efd37c1b7d13d590869fa184d9a54f">dpextensions.qc</a>
@@ -1445,11 +1455,11 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 </li>
 <li>glowmod
 : <a class="el" href="dc/d3d/csqcmodel__hooks_8qc.html#ab45736fb36b0b5641315be92b9747beb">csqcmodel_hooks.qc</a>
+, <a class="el" href="df/d07/cl__generator_8qc.html#ab45736fb36b0b5641315be92b9747beb">cl_generator.qc</a>
 , <a class="el" href="d5/df7/lib_2csqcmodel_2common_8qh.html#ab45736fb36b0b5641315be92b9747beb">common.qh</a>
 , <a class="el" href="dd/d43/cl__turrets_8qc.html#ab45736fb36b0b5641315be92b9747beb">cl_turrets.qc</a>
-, <a class="el" href="db/dc8/cl__controlpoint_8qc.html#ab45736fb36b0b5641315be92b9747beb">cl_controlpoint.qc</a>
 , <a class="el" href="de/d5e/dpextensions_8qc.html#ab45736fb36b0b5641315be92b9747beb">dpextensions.qc</a>
-, <a class="el" href="df/d07/cl__generator_8qc.html#ab45736fb36b0b5641315be92b9747beb">cl_generator.qc</a>
+, <a class="el" href="db/dc8/cl__controlpoint_8qc.html#ab45736fb36b0b5641315be92b9747beb">cl_controlpoint.qc</a>
 </li>
 <li>goal_node
 : <a class="el" href="dd/d70/pathlib_8qh.html#a7a4bfc3e89444975d4a0c3226992e08f">pathlib.qh</a>
@@ -1459,19 +1469,25 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 </li>
 <li>goalcurrent
 : <a class="el" href="df/dd4/navigation_8qh.html#a6500a34a607c753143f189ab57849131">navigation.qh</a>
-, <a class="el" href="db/d15/api_8qh.html#a6500a34a607c753143f189ab57849131">api.qh</a>
 </li>
-<li>goalcurrent_distance
-: <a class="el" href="d2/de9/havocbot_8qc.html#a4f9f1d0da19f3437c39ba32a3d4818c2">havocbot.qc</a>
+<li>goalcurrent_distance_2d
+: <a class="el" href="df/dd4/navigation_8qh.html#a3545d4b908556370a03deb1e4f1e50e4">navigation.qh</a>
 </li>
 <li>goalcurrent_distance_time
-: <a class="el" href="d2/de9/havocbot_8qc.html#a546358603f551b4d7324345757c1e8bd">havocbot.qc</a>
+: <a class="el" href="df/dd4/navigation_8qh.html#a546358603f551b4d7324345757c1e8bd">navigation.qh</a>
+</li>
+<li>goalcurrent_distance_z
+: <a class="el" href="df/dd4/navigation_8qh.html#ab30a86176d983d80aa8733f033a18cc2">navigation.qh</a>
 </li>
 <li>goalcurrent_prev
-: <a class="el" href="d2/de9/havocbot_8qc.html#aa55e9e7ca08b9d19532c89e59131ef22">havocbot.qc</a>
+: <a class="el" href="df/dd4/navigation_8qh.html#aa55e9e7ca08b9d19532c89e59131ef22">navigation.qh</a>
 </li>
 <li>goalentity
 : <a class="el" href="d6/d11/progsdefs_8qc.html#a588ddcbfad5363fccd2936b8db1e3307">progsdefs.qc</a>
+</li>
+<li>goalentity_lock_timeout
+: <a class="el" href="df/dd4/navigation_8qh.html#a8088f6a69e55e7f94121ff2f3072562b">navigation.qh</a>
+, <a class="el" href="db/d15/api_8qh.html#a8088f6a69e55e7f94121ff2f3072562b">api.qh</a>
 </li>
 <li>goalstack01
 : <a class="el" href="df/dd4/navigation_8qh.html#afbfd2a73fbc366fec845703f28c51405">navigation.qh</a>
@@ -1617,17 +1633,17 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 : <a class="el" href="db/d7f/effectinfo_8inc.html#a0a6f121f11331af711fae07c3a2d9b69">effectinfo.inc</a>
 </li>
 <li>groundentity
-: <a class="el" href="d4/dd7/movetypes_8qh.html#a826b2c367250c9fb58a7ca50eb138cde">movetypes.qh</a>
-, <a class="el" href="d6/d11/progsdefs_8qc.html#a826b2c367250c9fb58a7ca50eb138cde">progsdefs.qc</a>
+: <a class="el" href="d6/d11/progsdefs_8qc.html#a826b2c367250c9fb58a7ca50eb138cde">progsdefs.qc</a>
 , <a class="el" href="dd/d77/ecs_2systems_2physics_8qc.html#a826b2c367250c9fb58a7ca50eb138cde">physics.qc</a>
+, <a class="el" href="d4/dd7/movetypes_8qh.html#a826b2c367250c9fb58a7ca50eb138cde">movetypes.qh</a>
 </li>
 <li>GSF_SETUP
-: <a class="el" href="d7/d64/cl__generator_8qh.html#a9f0669b531fe7c64a7219a76b2a87f4b">cl_generator.qh</a>
-, <a class="el" href="d5/d0a/sv__generator_8qh.html#a9f0669b531fe7c64a7219a76b2a87f4b">sv_generator.qh</a>
+: <a class="el" href="d5/d0a/sv__generator_8qh.html#a9f0669b531fe7c64a7219a76b2a87f4b">sv_generator.qh</a>
+, <a class="el" href="d7/d64/cl__generator_8qh.html#a9f0669b531fe7c64a7219a76b2a87f4b">cl_generator.qh</a>
 </li>
 <li>GSF_STATUS
-: <a class="el" href="d7/d64/cl__generator_8qh.html#ad7bf5b356dfdbc5ea9e6510ad568636b">cl_generator.qh</a>
-, <a class="el" href="d5/d0a/sv__generator_8qh.html#ad7bf5b356dfdbc5ea9e6510ad568636b">sv_generator.qh</a>
+: <a class="el" href="d5/d0a/sv__generator_8qh.html#ad7bf5b356dfdbc5ea9e6510ad568636b">sv_generator.qh</a>
+, <a class="el" href="d7/d64/cl__generator_8qh.html#ad7bf5b356dfdbc5ea9e6510ad568636b">cl_generator.qh</a>
 </li>
 <li>gsl_ran_gaussian()
 : <a class="el" href="dc/d95/random_8qc.html#a315a96e3d6a1b06d0acaed18000aa457">random.qc</a>
@@ -1659,7 +1675,7 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jan 21 2018 07:48:24 for Xonotic by
+    <li class="footer">Generated on Fri Feb 2 2018 02:10:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

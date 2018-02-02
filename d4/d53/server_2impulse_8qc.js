@@ -34,7 +34,6 @@ var server_2impulse_8qc =
     [ "IMPULSE", "d4/d53/server_2impulse_8qc.html#a6b05c4a89758bb0fef746223af6db745", null ],
     [ "IMPULSE", "d4/d53/server_2impulse_8qc.html#a6f3c4721d51695ce7ebf7e0dc232b665", null ],
     [ "ImpulseCommands", "d4/d53/server_2impulse_8qc.html#a592fd33e424a2e05854957b679c37e1b", null ],
-    [ "waypoint_getSymmetricalOrigin", "d4/d53/server_2impulse_8qc.html#aa8b9345c7e20288dfd29ee4bc758aba9", null ],
     [ "X", "d4/d53/server_2impulse_8qc.html#aa05d4164c8212d377121f23d033b6bd0", null ],
     [ "X", "d4/d53/server_2impulse_8qc.html#a7789ba6a28989a7957d6d2106dd8fe2b", null ],
     [ "X", "d4/d53/server_2impulse_8qc.html#ae73be099f84cbf0e7dec8f17fc50ebd5", null ],

@@ -211,6 +211,7 @@ var searchData=
   ['spawnpoint_5fnag',['spawnpoint_nag',['../d4/dd1/spawnpoints_8qh.html#ab4967b5a52be505fdfbe23d0d61b2aa1',1,'spawnpoints.qh']]],
   ['spawnpoint_5fprevorigin',['spawnpoint_prevorigin',['../d0/d41/spawnpoints_8qc.html#acfbd90447ab6c8bb55634c7936e20ece',1,'spawnpoints.qc']]],
   ['spawnpoint_5fscore',['spawnpoint_score',['../d4/dd1/spawnpoints_8qh.html#a693d893f5755f55200d6c320c814c6a4',1,'spawnpoints.qh']]],
+  ['spawnpointmodel',['spawnpointmodel',['../d7/dc4/waypoints_8qc.html#a85bede8c1125729a93dce37c57096680',1,'waypoints.qc']]],
   ['spawnshieldtime',['spawnshieldtime',['../d5/d26/server_2defs_8qh.html#a818a3a01a056d7a1bd0318928eabb76e',1,'defs.qh']]],
   ['specialcommand_5fchance',['SPECIALCOMMAND_CHANCE',['../d6/dd3/view_8qc.html#a91dbff8629d48bbe66c3c1a4849ac63c',1,'view.qc']]],
   ['specialcommand_5fcolors',['specialcommand_colors',['../d6/dd3/view_8qc.html#ad4fbe07586fa36f08ac96f102435ca96',1,'view.qc']]],

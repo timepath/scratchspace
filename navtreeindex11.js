@@ -1,5 +1,17 @@
 var NAVTREEINDEX11 =
 {
+"d1/d5c/classCallbackChain.html#a72a6bb9c6688450e43e03a44053314f4":[1,0,14,3],
+"d1/d5c/classCallbackChain.html#a8d9e4f61e3f5ee602f2f93f27e0515b3":[1,0,14,5],
+"d1/d5c/classCallbackChain.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,14,7],
+"d1/d5c/classCallbackChain.html#acb57017cda90c9c7fd19b66899a711b2":[1,0,14,2],
+"d1/d5c/classCallbackChain.html#adc1a82dd715c90977a8fb103f18adaea":[1,0,14,1],
+"d1/d5c/classMonster.html":[1,0,82],
+"d1/d5c/classMonster.html#a1b84dbe029d909c54678e27a659c4793":[1,0,82,0],
+"d1/d5c/classMonster.html#a44fe21725c0fb88813de4787b26e2d43":[1,0,82,12],
+"d1/d5c/classMonster.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,82,11],
+"d1/d5c/classMonster.html#a6d591b861fb892babe50c8318dd5eaaf":[1,0,82,10],
+"d1/d5c/classMonster.html#a6dcca2c26e36342b5286873a74793cae":[1,0,82,4],
+"d1/d5c/classMonster.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,82,1],
 "d1/d5c/classMonster.html#a80dde6c0706ad27fcfa5d002e499ef36":[1,0,82,9],
 "d1/d5c/classMonster.html#a84829255027bd85cf33ef0418ef5c975":[1,0,82,6],
 "d1/d5c/classMonster.html#a98fd6d803cf7376820bb26fcbca5adbd":[1,0,82,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX11 =
 "d1/d7e/classXonoticServerListTab.html#a331c55a30b4bc22951a251062508326b":[1,0,239,26],
 "d1/d7e/classXonoticServerListTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,239,17],
 "d1/d7e/classXonoticServerListTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,239,34],
-"d1/d7e/classXonoticServerListTab.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,239,10],
-"d1/d7e/classXonoticServerListTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,239,50],
-"d1/d7e/classXonoticServerListTab.html#a3917fc534c151730036e5de72a8f43d5":[1,0,239,84],
-"d1/d7e/classXonoticServerListTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,239,1],
-"d1/d7e/classXonoticServerListTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,239,16],
-"d1/d7e/classXonoticServerListTab.html#a4869983b8dc750584479ade5447c8413":[1,0,239,27],
-"d1/d7e/classXonoticServerListTab.html#a4ad8d403de20048384fe85b379309436":[1,0,239,76],
-"d1/d7e/classXonoticServerListTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,239,54],
-"d1/d7e/classXonoticServerListTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,239,32],
-"d1/d7e/classXonoticServerListTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,239,38],
-"d1/d7e/classXonoticServerListTab.html#a51f0ce6e95d79edd954c584941b31cd4":[1,0,239,70],
-"d1/d7e/classXonoticServerListTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,239,46],
-"d1/d7e/classXonoticServerListTab.html#a53de8355052b658819638577356cc8f3":[1,0,239,58]
+"d1/d7e/classXonoticServerListTab.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,239,10]
 };

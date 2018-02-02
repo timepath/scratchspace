@@ -37,6 +37,7 @@ var searchData=
   ['get',['GET',['../d7/d61/misc_8qh.html#a375e5223a8dc2ba4ec82b97a10ad826d',1,'misc.qh']]],
   ['get_5fban_5farg',['GET_BAN_ARG',['../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b',1,'banning.qh']]],
   ['get_5fban_5freason',['GET_BAN_REASON',['../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe',1,'banning.qh']]],
+  ['get_5fgametype_5fextension',['GET_GAMETYPE_EXTENSION',['../d7/dc4/waypoints_8qc.html#a29f423a1a4b68d20d0af46e0ad681f85',1,'waypoints.qc']]],
   ['get_5fmonsterinfo',['get_monsterinfo',['../df/d52/monsters_2all_8qh.html#a7d311198c146ff1e3743667c4a347303',1,'all.qh']]],
   ['get_5fturretinfo',['get_turretinfo',['../db/d7f/turrets_2all_8qh.html#a480cc7101d2edcf64993e80de5a8e4ac',1,'all.qh']]],
   ['getclienterrorstring',['GetClientErrorString',['../d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74',1,'common.qh']]],

@@ -1,5 +1,9 @@
 var bot_8qh =
 [
+    [ "IN_LAVA", "d1/da9/bot_8qh.html#a71c56c01f1e34977e6e75dbf6b24d039", null ],
+    [ "IN_LIQUID", "d1/da9/bot_8qh.html#aae6024193fe4701b089edfb96672152d", null ],
+    [ "SUBMERGED", "d1/da9/bot_8qh.html#afa543a3fe9035f5803c7352476fe2de3", null ],
+    [ "WETFEET", "d1/da9/bot_8qh.html#ad6635af405405467474aad7541a7326d", null ],
     [ "autoskill", "d1/da9/bot_8qh.html#a62777f93cd332cdb248328fd072e3547", null ],
     [ "bot_calculate_stepheightvec", "d1/da9/bot_8qh.html#a93e7d8dfd34f0d07a3c9f4ef59ed3888", null ],
     [ "bot_clear", "d1/da9/bot_8qh.html#aaab6595d20cc13a72a099b0256b9f056", null ],
@@ -17,6 +21,7 @@ var bot_8qh =
     [ "bot_think", "d1/da9/bot_8qh.html#a4c35713fe04bf8f6dc78a76c3b8720ac", null ],
     [ "float", "d1/da9/bot_8qh.html#a95b45fc474f2967a0523f86cd63668ba", null ],
     [ "void", "d1/da9/bot_8qh.html#a21b12aed706aaa4931bae423b52aeff3", null ],
+    [ "_content_type", "d1/da9/bot_8qh.html#a785b0de707ae9db0198a7c12da5b7459", null ],
     [ "AI_STATUS_ATTACKING", "d1/da9/bot_8qh.html#a0f1eef88f69680f3f2ca4360302ccb02", null ],
     [ "AI_STATUS_DANGER_AHEAD", "d1/da9/bot_8qh.html#a33b572c3e6766c3eea785085786dd39a", null ],
     [ "AI_STATUS_JETPACK_FLYING", "d1/da9/bot_8qh.html#a1a01ec29e65d2c9d6b446f0cd14066e7", null ],
@@ -44,7 +49,6 @@ var bot_8qh =
     [ "bot_dodgerating", "d1/da9/bot_8qh.html#a84c4b28f9537ee1a4354cf4392c0bced", null ],
     [ "bot_dodgeskill", "d1/da9/bot_8qh.html#ad23a291a22ecaa4595885eaf413ea0ab", null ],
     [ "bot_forced_team", "d1/da9/bot_8qh.html#a0b031ceaaa5fdecc3a5213187509375c", null ],
-    [ "bot_ignore_bots", "d1/da9/bot_8qh.html#a5e7d46fc0653b2f8057413174b72c6d7", null ],
     [ "bot_list", "d1/da9/bot_8qh.html#a215665f69a52ad61d76819818c9fa97d", null ],
     [ "bot_mouseskill", "d1/da9/bot_8qh.html#a44bb9b8a91e866ae1a7994f51c4dbcb1", null ],
     [ "bot_moveskill", "d1/da9/bot_8qh.html#a7bde739e04096fbb17d5d4de9e574bc6", null ],

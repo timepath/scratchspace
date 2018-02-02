@@ -19,6 +19,7 @@ var havocbot_8qh =
     [ "bot_chooseweapontime", "d8/d39/havocbot_8qh.html#a86175c50be27e03f2f0ed6cef0d4c89f", null ],
     [ "bot_lastseengoal", "d8/d39/havocbot_8qh.html#ad97140cdfea44c3ef793b90549dbebdd", null ],
     [ "bot_timelastseengoal", "d8/d39/havocbot_8qh.html#a019284c86cae8af0a392e06a4b442eb7", null ],
+    [ "bot_tracewalk_time", "d8/d39/havocbot_8qh.html#a7b70b1b209ca257b822f22784753bfb7", null ],
     [ "draggedby", "d8/d39/havocbot_8qh.html#a89a8ce33ea9c558226ae97e322fc4f1f", null ],
     [ "havocbot_blockhead", "d8/d39/havocbot_8qh.html#a6c9cf6cc9e0cee3a044be67c65c74bb8", null ],
     [ "havocbot_chooseenemy_finished", "d8/d39/havocbot_8qh.html#ae6d9341c29c7e889370d1f6ae161f19d", null ],

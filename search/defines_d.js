@@ -34,6 +34,7 @@ var searchData=
   ['map_5f9',['MAP_9',['../dd/dee/functional_8qh.html#a6a99b24bffb3c6152edef19d255ae714',1,'functional.qh']]],
   ['mapinfo_5fsettemp_5facl_5fsystem',['MAPINFO_SETTEMP_ACL_SYSTEM',['../d2/d9e/mapinfo_8qh.html#accb514cfc60d2b316dc66862aa6089ee',1,'mapinfo.qh']]],
   ['mapinfo_5fsettemp_5facl_5fuser',['MAPINFO_SETTEMP_ACL_USER',['../d2/d9e/mapinfo_8qh.html#a143ae9a972e236a600ee064e49bd2d75',1,'mapinfo.qh']]],
+  ['max_5fchase_5fdistance',['MAX_CHASE_DISTANCE',['../d1/d9a/navigation_8qc.html#abd04847864264d0f179654ccc0f0f52e',1,'navigation.qc']]],
   ['max_5fipban_5furis',['MAX_IPBAN_URIS',['../d6/d95/ipban_8qc.html#a8e08ee132dee2a6db0915edfdbf0d9ff',1,'ipban.qc']]],
   ['max_5fscore',['MAX_SCORE',['../da/dc3/common_2scores_8qh.html#aa27bf8c0d78735062b3cf41d2a618b30',1,'scores.qh']]],
   ['max_5fteamscore',['MAX_TEAMSCORE',['../da/dc3/common_2scores_8qh.html#a0b31ff7434fe27ce6efac51215c64bf6',1,'scores.qh']]],

@@ -10,6 +10,7 @@ var searchData=
   ['jointtype_5fpoint',['JOINTTYPE_POINT',['../de/d5e/dpextensions_8qc.html#a6faaf3673fe2d6832a871e0cbbef917a',1,'dpextensions.qc']]],
   ['jointtype_5fslider',['JOINTTYPE_SLIDER',['../de/d5e/dpextensions_8qc.html#a0e6fea75b4c256913dd456460ebc48cd',1,'dpextensions.qc']]],
   ['jointtype_5funiversal',['JOINTTYPE_UNIVERSAL',['../de/d5e/dpextensions_8qc.html#a5b53b53bdf1c809ce664653c7624aa59',1,'dpextensions.qc']]],
+  ['jumpheight_5fvec',['jumpheight_vec',['../df/dd4/navigation_8qh.html#aba3528eb951e36fbd41d1cb6b470b761',1,'navigation.qh']]],
   ['jumppadcount',['jumppadcount',['../d9/de7/jumppads_8qh.html#aeb124e9cd9ff6aa1d896e02a10fc6ff9',1,'jumppads.qh']]],
   ['jumppadsused',['jumppadsused',['../d9/de7/jumppads_8qh.html#a670dbbce52ae308428b66fd8c8813714',1,'jumppads.qh']]],
   ['jumpstepheightvec',['jumpstepheightvec',['../df/dd4/navigation_8qh.html#a75221be7d8873635bc580f7f8bec5d40',1,'navigation.qh']]],

@@ -74,6 +74,8 @@ var searchData=
   ['repr_5fcvar_5fint',['repr_cvar_int',['../d0/d4f/cvar_8qh.html#a3023ed188988dda0a4b45761680f725f',1,'cvar.qh']]],
   ['repr_5fcvar_5fstring',['repr_cvar_string',['../d0/d4f/cvar_8qh.html#a3f52ceeb6ee47dcb3a9cd5f5f36afaa0',1,'cvar.qh']]],
   ['repr_5fcvar_5fvector',['repr_cvar_vector',['../d0/d4f/cvar_8qh.html#ab3fbc66ef5b4cfa8145578224e8c7edd',1,'cvar.qh']]],
+  ['resurface_5flimited',['RESURFACE_LIMITED',['../d1/d9a/navigation_8qc.html#af263813df7addc1340503001188a9b28',1,'navigation.qc']]],
+  ['rocketjump_5fdamage',['ROCKETJUMP_DAMAGE',['../d2/de9/havocbot_8qc.html#ab0324a13bb61651c4ea52327da7bd4b4',1,'havocbot.qc']]],
   ['rocketminsta_5flaser',['rocketminsta_laser',['../d1/d7c/effectinfo__instagib_8inc.html#af2d6617e4876c9898595d22db3856d27',1,'effectinfo_instagib.inc']]],
   ['roll',['ROLL',['../de/dcb/vector_8qh.html#a7f8a5f63bb6820dbb4290a5b08f938a8',1,'vector.qh']]],
   ['round_5fhandler_5fawaitingnextround',['round_handler_AwaitingNextRound',['../db/d20/round__handler_8qh.html#a3387fe2472922fb6b655760d89d52952',1,'round_handler.qh']]],
