@@ -9,6 +9,7 @@ var globalsound_8qh =
     [ "GetPlayerSoundSampleField", "df/d6e/globalsound_8qh.html#a7022de3163c4d07ba4bc0547443ae346", null ],
     [ "GetVoiceMessage", "df/d6e/globalsound_8qh.html#a0f76411e16fb1a91bf97121690907cd7", null ],
     [ "GetVoiceMessageSampleField", "df/d6e/globalsound_8qh.html#a6d27dd45d58d423f7c352182ea854ef7", null ],
+    [ "GlobalSound_sample", "df/d6e/globalsound_8qh.html#ae2c525418d0124bca40ef3c1528d3eed", null ],
     [ "LoadPlayerSounds", "df/d6e/globalsound_8qh.html#aa8995e359d6a413aa46221e3bb3e9ba7", null ],
     [ "PRECACHE", "df/d6e/globalsound_8qh.html#a8e39938ef99c4d1672b2aa03d96f023f", null ],
     [ "PrecacheGlobalSound", "df/d6e/globalsound_8qh.html#a0115b049d32f08dfe7bb44d74939ac58", null ],

@@ -161,12 +161,12 @@ var NAVTREEINDEX =
 "df/d26/classXonoticGameSettingsTab.html#a198d31b696946a3a688d2c943f509799",
 "df/d30/client_2main_8qc.html#ac642f51eabb19c565bfbe0072388e146",
 "df/d6e/classXonoticSingleplayerDialog.html#a360189a0cc2fb81a094ccd37afd1749d",
-"df/d8c/sv__midair_8qc_source.html",
-"df/da7/generic_8qc.html#a8ccf667ca0a34f9ed5287facb87f69d3",
-"df/dca/sv__new__toys_8qc.html#afaa63922b4e9f8d6db7baf0f4f971002",
-"df/df1/common_2mutators_2mutator_2touchexplode_2__mod_8inc.html",
-"dir_58d953ef34ccfc4a49203206a34466c3.html",
-"globals_vars_r.html"
+"df/d8c/sv__midair_8qc.html#acdcc0850073f641363a12079808a396c",
+"df/da7/generic_8qc.html#a802e2fce290ef7ee78e2c5272017a500",
+"df/dca/sv__new__toys_8qc.html#ad70a0d19606e645ff91e3a4906e2d3d9",
+"df/df1/common_2mutators_2mutator_2instagib_2__mod_8inc_source.html",
+"dir_55d69e2d585392a3c786fe98a0ab98a7.html",
+"globals_vars_q.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
