@@ -805,7 +805,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;        }</div>
 <div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;</div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;nextmap&quot;</span>:</div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;nextmap&quot;</span>: <span class="comment">// TODO: replicate the old behaviour of being able to vote for maps from different modes on multimode servers (possibly support it in gotomap too), maybe fallback instead of aborting if map name is invalid?</span></div>
 <div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;        {</div>
 <div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;            vote_command = <a class="code" href="../../d1/dad/server_2command_2vote_8qc.html#a68ec0616e963b3729f1d702e2a593c53">ValidateMap</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(startpos + 1), caller);</div>
 <div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;            <span class="keywordflow">if</span> (!vote_command)  <span class="keywordflow">return</span> -1;</div>
@@ -1474,7 +1474,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d1/dad/server_2command_2vote_8qc.html">vote.qc</a></li>
-    <li class="footer">Generated on Sun Feb 4 2018 14:31:59 for Xonotic by
+    <li class="footer">Generated on Sun Feb 4 2018 16:45:00 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
