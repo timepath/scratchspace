@@ -145,6 +145,7 @@ var client_2autocvars_8qh =
     [ "autocvar_con_notify", "d7/db4/client_2autocvars_8qh.html#acac74ea4c75470ae16991addc80d08d4", null ],
     [ "autocvar_con_notifysize", "d7/db4/client_2autocvars_8qh.html#a348d6fa975a4d68764a9af59a0fc0349", null ],
     [ "autocvar_crosshair", "d7/db4/client_2autocvars_8qh.html#ae999f7397af714b98ce97137903cd1af", null ],
+    [ "autocvar_crosshair_2d", "d7/db4/client_2autocvars_8qh.html#a0f6a424aa5ee72c887bd448e985e8243", null ],
     [ "autocvar_crosshair_alpha", "d7/db4/client_2autocvars_8qh.html#af5b538a15e019793d979871bdf394960", null ],
     [ "autocvar_crosshair_color", "d7/db4/client_2autocvars_8qh.html#a7b529925da4a8379c82874f9533966c6", null ],
     [ "autocvar_crosshair_color_special", "d7/db4/client_2autocvars_8qh.html#a48bad15c3f078a989c5090a6eea9216f", null ],

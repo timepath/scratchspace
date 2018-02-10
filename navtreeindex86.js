@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"d9/d6e/classTuba.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,132,24],
 "d9/d6e/classTuba.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,132,19],
 "d9/d6e/classTuba.html#af765598ed8e13079da67cd5058d93e37":[1,0,132,36],
 "d9/d71/classCommand.html":[1,0,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX86 =
 "d9/da8/angle_8qc.html#ae12854bbfee3cded4e34a25bc185faee":[2,0,4,7,5],
 "d9/da8/angle_8qc_source.html":[2,0,4,7],
 "d9/da8/common_2mutators_2mutator_2kick__teamkiller_2__mod_8inc.html":[2,0,1,9,0,15,0],
-"d9/da8/common_2mutators_2mutator_2kick__teamkiller_2__mod_8inc_source.html":[2,0,1,9,0,15,0],
-"d9/da8/dialog__settings__input__userbind_8qh.html":[2,0,5,4,143]
+"d9/da8/common_2mutators_2mutator_2kick__teamkiller_2__mod_8inc_source.html":[2,0,1,9,0,15,0]
 };

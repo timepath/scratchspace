@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"d8/d20/dialog__hudpanel__radar_8qc.html":[2,0,5,4,72],
 "d8/d20/dialog__hudpanel__radar_8qc.html#a32a1d4d223cdafdad821362b59ab6923":[2,0,5,4,72,0],
 "d8/d20/dialog__hudpanel__radar_8qc_source.html":[2,0,5,4,72],
 "d8/d29/playlist_8qc.html":[2,0,5,4,190],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "d8/d39/havocbot_8qh.html#ade0b4e09f77eaadd022af3ee44c6a3fc":[2,0,6,0,0,0,3,0],
 "d8/d39/havocbot_8qh.html#adeb49cf8f2443d24afe7f12f5e05cd98":[2,0,6,0,0,0,3,9],
 "d8/d39/havocbot_8qh.html#ae3a79e8bfe6edb7284009e4102637da4":[2,0,6,0,0,0,3,14],
-"d8/d39/havocbot_8qh.html#ae6d9341c29c7e889370d1f6ae161f19d":[2,0,6,0,0,0,3,22],
-"d8/d39/havocbot_8qh.html#aeec709ac24ea54914787f032f0bedc54":[2,0,6,0,0,0,3,13]
+"d8/d39/havocbot_8qh.html#ae6d9341c29c7e889370d1f6ae161f19d":[2,0,6,0,0,0,3,22]
 };

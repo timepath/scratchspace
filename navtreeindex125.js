@@ -1,5 +1,6 @@
 var NAVTREEINDEX125 =
 {
+"de/d5e/dpextensions_8qc.html#a89117a8aa63b0c5a590eba5124055c3e":[2,0,2,0,1,313],
 "de/d5e/dpextensions_8qc.html#a89b0ba4cfbb4c4143a1ee5d1232832f2":[2,0,2,0,1,193],
 "de/d5e/dpextensions_8qc.html#a8a2e7464fca2b23fdef779dd2d9e6440":[2,0,2,0,1,312],
 "de/d5e/dpextensions_8qc.html#a8af3b9cdd832644611b3537c48d49860":[2,0,2,0,1,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX125 =
 "de/d65/classXonoticHUDInfoMessagesDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,186,86],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,186,10],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#afeab97e923ba85af0994c0c39b787337":[1,0,186,59],
-"de/d66/healtharmor_8qc.html":[2,0,0,1,0,10],
-"de/d66/healtharmor_8qc.html#a160501021e3210ed1258c66ae9a881ba":[2,0,0,1,0,10,0]
+"de/d66/healtharmor_8qc.html":[2,0,0,1,0,10]
 };

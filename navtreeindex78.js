@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"d8/dc0/progsdefs_8qh.html#ad1375a6b9575aee6d276789f76ed0074":[2,0,2,7,2],
 "d8/dc0/progsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c":[2,0,2,7,7],
 "d8/dc0/progsdefs_8qh_source.html":[2,0,2,7],
 "d8/dc1/sv__monsters_8qh.html":[2,0,1,8,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "d8/dd8/sv__buffs_8qh.html#aea256f869f2546fe95092e2f243fd164":[2,0,1,9,0,2,8,50],
 "d8/dd8/sv__buffs_8qh.html#aeff6df93d73a33e64bb77131daf15df7":[2,0,1,9,0,2,8,23],
 "d8/dd8/sv__buffs_8qh.html#af47dcf7ea0d68f44a7894a2001c8186c":[2,0,1,9,0,2,8,31],
-"d8/dd8/sv__buffs_8qh.html#af526ec106deb74e0c7b6a7b6c5f94c7f":[2,0,1,9,0,2,8,39],
-"d8/dd8/sv__buffs_8qh.html#af5e6a1814015f1f8d2a3c648aa0c5912":[2,0,1,9,0,2,8,58]
+"d8/dd8/sv__buffs_8qh.html#af526ec106deb74e0c7b6a7b6c5f94c7f":[2,0,1,9,0,2,8,39]
 };
