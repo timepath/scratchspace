@@ -172,97 +172,100 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00335">335</a> of file <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html">spawnpoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00336">336</a> of file <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html">spawnpoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00211">autocvar_g_spawn_furthest</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00212">autocvar_g_spawn_useallspawns</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00273">autocvar_spawn_debug</a>, <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d2/d77/pre_8qh_source.html#l00006">error</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64">GotoNextMap()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00219">have_team_spawns</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00220">have_team_spawns_forteams</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00218">some_spawn_has_been_used</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00289">Spawn_FilterOutBadSpots()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00315">Spawn_WeightedPoint()</a>, and <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00027">team</a>.</p>
+<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00212">autocvar_g_spawn_furthest</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00213">autocvar_g_spawn_useallspawns</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00274">autocvar_spawn_debug</a>, <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d2/d77/pre_8qh_source.html#l00006">error</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64">GotoNextMap()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00223">have_team_spawns</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00224">have_team_spawns_forteams</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00222">some_spawn_has_been_used</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00290">Spawn_FilterOutBadSpots()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00316">Spawn_WeightedPoint()</a>, and <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00027">team</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00115">buff_Respawn()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00610">Damage()</a>, <a class="el" href="../../d3/d5a/gamemode__keepaway_8qc_source.html#l00045">ka_RespawnBall()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00218">PutObserverInServer()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00502">PutPlayerInServer()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;{</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keywordtype">float</span> teamcheck;</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot, firstspot;</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    spot = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;testplayerstart&quot;</span>);</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="keywordflow">if</span> (spot)</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        <span class="keywordflow">return</span> spot;</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keywordflow">if</span>(anypoint || <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a45cd7f59eed317239d722e0b4c86f6b4">autocvar_g_spawn_useallspawns</a>)</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        teamcheck = -1;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3">have_team_spawns</a> &gt; 0)</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    {</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        <span class="keywordflow">if</span>(!(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5f869a37a426248cd642f64144854d20">have_team_spawns_forteams</a> &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>)))</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        {</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;            <span class="comment">// we request a spawn for a team, and we have team</span></div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;            <span class="comment">// spawns, but that team has no spawns?</span></div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5f869a37a426248cd642f64144854d20">have_team_spawns_forteams</a> &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(0))</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;                <span class="comment">// try noteam spawns</span></div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                teamcheck = 0;</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;                <span class="comment">// if not, any spawn has to do</span></div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;                teamcheck = -1;</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        }</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;            teamcheck = this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>; <span class="comment">// MUST be team</span></div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    }</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3">have_team_spawns</a> == 0 &amp;&amp; (<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5f869a37a426248cd642f64144854d20">have_team_spawns_forteams</a> &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(0)))</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        teamcheck = 0; <span class="comment">// MUST be noteam</span></div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        teamcheck = -1;</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        <span class="comment">// if we get here, we either require team spawns but have none, or we require non-team spawns and have none; use any spawn then</span></div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <span class="comment">// get the entire list of spots</span></div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    firstspot = findchain(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;info_player_deathmatch&quot;</span>);</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <span class="comment">// filter out the bad ones</span></div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    <span class="comment">// (note this returns the original list if none survived)</span></div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <span class="keywordflow">if</span>(anypoint)</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    {</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        spot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(firstspot, 1, 1, 1);</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    }</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <span class="keywordflow">else</span></div>
+<p>Referenced by <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00115">buff_Respawn()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00610">Damage()</a>, <a class="el" href="../../d3/d5a/gamemode__keepaway_8qc_source.html#l00045">ka_RespawnBall()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00219">PutObserverInServer()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00507">PutPlayerInServer()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;{</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <span class="keywordtype">float</span> teamcheck;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot, firstspot;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    spot = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;testplayerstart&quot;</span>);</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <span class="keywordflow">if</span> (spot)</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordflow">return</span> spot;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    <span class="keywordflow">if</span>(this.spawnpoint_targ)</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <span class="keywordflow">return</span> this.spawnpoint_targ;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    <span class="keywordflow">if</span>(anypoint || <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a45cd7f59eed317239d722e0b4c86f6b4">autocvar_g_spawn_useallspawns</a>)</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        teamcheck = -1;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3">have_team_spawns</a> &gt; 0)</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    {</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        <span class="keywordflow">if</span>(!(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5f869a37a426248cd642f64144854d20">have_team_spawns_forteams</a> &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>)))</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        {</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;            <span class="comment">// we request a spawn for a team, and we have team</span></div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;            <span class="comment">// spawns, but that team has no spawns?</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5f869a37a426248cd642f64144854d20">have_team_spawns_forteams</a> &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(0))</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;                <span class="comment">// try noteam spawns</span></div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;                teamcheck = 0;</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;                <span class="comment">// if not, any spawn has to do</span></div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;                teamcheck = -1;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        }</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;            teamcheck = this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>; <span class="comment">// MUST be team</span></div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    }</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3">have_team_spawns</a> == 0 &amp;&amp; (<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5f869a37a426248cd642f64144854d20">have_team_spawns_forteams</a> &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(0)))</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        teamcheck = 0; <span class="comment">// MUST be noteam</span></div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        teamcheck = -1;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        <span class="comment">// if we get here, we either require team spawns but have none, or we require non-team spawns and have none; use any spawn then</span></div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <span class="comment">// get the entire list of spots</span></div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    firstspot = findchain(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;info_player_deathmatch&quot;</span>);</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    <span class="comment">// filter out the bad ones</span></div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    <span class="comment">// (note this returns the original list if none survived)</span></div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <span class="keywordflow">if</span>(anypoint)</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    {</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        firstspot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901">Spawn_FilterOutBadSpots</a>(<span class="keyword">this</span>, firstspot, 100, teamcheck);</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        <span class="comment">// there is 50/50 chance of choosing a random spot or the furthest spot</span></div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        <span class="comment">// (this means that roughly every other spawn will be furthest, so you</span></div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        <span class="comment">// usually won&#39;t get fragged at spawn twice in a row)</span></div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &gt; <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ab845e3a0b0cb183d19284e2f9eb7b1ef">autocvar_g_spawn_furthest</a>)</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;            spot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(firstspot, 1, 1, 1);</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;            spot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(firstspot, 1, 5000, 5); <span class="comment">// chooses a far far away spawnpoint</span></div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    }</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    <span class="keywordflow">if</span> (!spot)</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    {</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#aaadbf19a682702f958447c77e582bf9c">autocvar_spawn_debug</a>)</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;            <a class="code" href="../../d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64">GotoNextMap</a>(0);</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        {</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a7196b775cedbbcdff77d4007e3955625">some_spawn_has_been_used</a>)</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// team can&#39;t spawn any more, because of actions of other team</span></div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;                <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;Cannot find a spawn point - please fix the map!&quot;</span>);</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        }</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    }</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    <span class="keywordflow">return</span> spot;</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;}</div>
-<div class="ttc" id="server_2defs_8qh_html_a5f869a37a426248cd642f64144854d20"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a5f869a37a426248cd642f64144854d20">have_team_spawns_forteams</a></div><div class="ttdeci">int have_team_spawns_forteams</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00220">defs.qh:220</a></div></div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        spot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(firstspot, 1, 1, 1);</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    }</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    {</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        firstspot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901">Spawn_FilterOutBadSpots</a>(<span class="keyword">this</span>, firstspot, 100, teamcheck);</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        <span class="comment">// there is 50/50 chance of choosing a random spot or the furthest spot</span></div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;        <span class="comment">// (this means that roughly every other spawn will be furthest, so you</span></div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        <span class="comment">// usually won&#39;t get fragged at spawn twice in a row)</span></div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &gt; <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ab845e3a0b0cb183d19284e2f9eb7b1ef">autocvar_g_spawn_furthest</a>)</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;            spot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(firstspot, 1, 1, 1);</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;            spot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(firstspot, 1, 5000, 5); <span class="comment">// chooses a far far away spawnpoint</span></div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    }</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    <span class="keywordflow">if</span> (!spot)</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    {</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#aaadbf19a682702f958447c77e582bf9c">autocvar_spawn_debug</a>)</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;            <a class="code" href="../../d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64">GotoNextMap</a>(0);</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        {</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a7196b775cedbbcdff77d4007e3955625">some_spawn_has_been_used</a>)</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// team can&#39;t spawn any more, because of actions of other team</span></div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;                <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;Cannot find a spawn point - please fix the map!&quot;</span>);</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        }</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    }</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    <span class="keywordflow">return</span> spot;</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;}</div>
+<div class="ttc" id="server_2defs_8qh_html_a5f869a37a426248cd642f64144854d20"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a5f869a37a426248cd642f64144854d20">have_team_spawns_forteams</a></div><div class="ttdeci">int have_team_spawns_forteams</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00224">defs.qh:224</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
-<div class="ttc" id="server_2autocvars_8qh_html_ab845e3a0b0cb183d19284e2f9eb7b1ef"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ab845e3a0b0cb183d19284e2f9eb7b1ef">autocvar_g_spawn_furthest</a></div><div class="ttdeci">float autocvar_g_spawn_furthest</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00211">autocvars.qh:211</a></div></div>
+<div class="ttc" id="server_2autocvars_8qh_html_ab845e3a0b0cb183d19284e2f9eb7b1ef"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ab845e3a0b0cb183d19284e2f9eb7b1ef">autocvar_g_spawn_furthest</a></div><div class="ttdeci">float autocvar_g_spawn_furthest</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00212">autocvars.qh:212</a></div></div>
 <div class="ttc" id="bits_8qh_html_a3a8ea58898cb58fc96013383d39f482c"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a></div><div class="ttdeci">#define BIT(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00005">bits.qh:5</a></div></div>
-<div class="ttc" id="spawnpoints_8qc_html_aaac98f481535c16238cdfcb66cbbf625"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a></div><div class="ttdeci">entity Spawn_WeightedPoint(entity firstspot, float lower, float upper, float exponent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00315">spawnpoints.qc:315</a></div></div>
-<div class="ttc" id="spawnpoints_8qc_html_ac6bf8417de66cc27e1aad493335d2901"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901">Spawn_FilterOutBadSpots</a></div><div class="ttdeci">entity Spawn_FilterOutBadSpots(entity this, entity firstspot, float mindist, float teamcheck)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00289">spawnpoints.qc:289</a></div></div>
+<div class="ttc" id="spawnpoints_8qc_html_aaac98f481535c16238cdfcb66cbbf625"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a></div><div class="ttdeci">entity Spawn_WeightedPoint(entity firstspot, float lower, float upper, float exponent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00316">spawnpoints.qc:316</a></div></div>
+<div class="ttc" id="spawnpoints_8qc_html_ac6bf8417de66cc27e1aad493335d2901"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901">Spawn_FilterOutBadSpots</a></div><div class="ttdeci">entity Spawn_FilterOutBadSpots(entity this, entity firstspot, float mindist, float teamcheck)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00290">spawnpoints.qc:290</a></div></div>
 <div class="ttc" id="pre_8qh_html_a0c5e59a7caaa02f887d077eaa467f209"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a></div><div class="ttdeci">#define error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00006">pre.qh:6</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_a7196b775cedbbcdff77d4007e3955625"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a7196b775cedbbcdff77d4007e3955625">some_spawn_has_been_used</a></div><div class="ttdeci">bool some_spawn_has_been_used</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00218">defs.qh:218</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_a7196b775cedbbcdff77d4007e3955625"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a7196b775cedbbcdff77d4007e3955625">some_spawn_has_been_used</a></div><div class="ttdeci">bool some_spawn_has_been_used</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00222">defs.qh:222</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a53c4a8e7afd17cad92bc00adba96bb78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a></div><div class="ttdeci">entity find(entity start,.string field, string match)</div></div>
-<div class="ttc" id="server_2autocvars_8qh_html_a45cd7f59eed317239d722e0b4c86f6b4"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a45cd7f59eed317239d722e0b4c86f6b4">autocvar_g_spawn_useallspawns</a></div><div class="ttdeci">bool autocvar_g_spawn_useallspawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00212">autocvars.qh:212</a></div></div>
-<div class="ttc" id="server_2autocvars_8qh_html_aaadbf19a682702f958447c77e582bf9c"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#aaadbf19a682702f958447c77e582bf9c">autocvar_spawn_debug</a></div><div class="ttdeci">int autocvar_spawn_debug</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00273">autocvars.qh:273</a></div></div>
+<div class="ttc" id="server_2autocvars_8qh_html_a45cd7f59eed317239d722e0b4c86f6b4"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a45cd7f59eed317239d722e0b4c86f6b4">autocvar_g_spawn_useallspawns</a></div><div class="ttdeci">bool autocvar_g_spawn_useallspawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00213">autocvars.qh:213</a></div></div>
+<div class="ttc" id="server_2autocvars_8qh_html_aaadbf19a682702f958447c77e582bf9c"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#aaadbf19a682702f958447c77e582bf9c">autocvar_spawn_debug</a></div><div class="ttdeci">int autocvar_spawn_debug</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00274">autocvars.qh:274</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a663ea6aa3c4923b3e065cf91cc319f1b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a></div><div class="ttdeci">float random(void)</div></div>
 <div class="ttc" id="g__world_8qh_html_af10c6acabd38f4b2b5eb6298e32a9b64"><div class="ttname"><a href="../../d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64">GotoNextMap</a></div><div class="ttdeci">void GotoNextMap(float reinit)</div></div>
-<div class="ttc" id="server_2defs_8qh_html_a5594c59ad277a5bde42f3670de5077b3"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3">have_team_spawns</a></div><div class="ttdeci">int have_team_spawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00219">defs.qh:219</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_a5594c59ad277a5bde42f3670de5077b3"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3">have_team_spawns</a></div><div class="ttdeci">int have_team_spawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00223">defs.qh:223</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -322,38 +325,38 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00289">289</a> of file <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html">spawnpoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00290">290</a> of file <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html">spawnpoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, and <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00282">Spawn_ScoreAll()</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, and <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00283">Spawn_ScoreAll()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00335">SelectSpawnPoint()</a>, and <a class="el" href="../../d6/d3b/race_8qc_source.html#l00740">trigger_race_checkpoint_verify()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;{</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot, spotlist, spotlistend;</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    spotlist = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    spotlistend = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <a class="code" href="../../d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698">Spawn_ScoreAll</a>(<span class="keyword">this</span>, firstspot, mindist, teamcheck);</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="keywordflow">for</span>(spot = firstspot; spot; spot = spot.chain)</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    {</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        <span class="keywordflow">if</span>(spot.spawnpoint_score.x &gt;= 0) <span class="comment">// spawning allowed here</span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        {</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            <span class="keywordflow">if</span>(spotlistend)</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                spotlistend.chain = spot;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            spotlistend = spot;</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            <span class="keywordflow">if</span>(!spotlist)</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                spotlist = spot;</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        }</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    }</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keywordflow">if</span>(spotlistend)</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        spotlistend.chain = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordflow">return</span> spotlist;</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00336">SelectSpawnPoint()</a>, and <a class="el" href="../../d6/d3b/race_8qc_source.html#l00740">trigger_race_checkpoint_verify()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;{</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot, spotlist, spotlistend;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    spotlist = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    spotlistend = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <a class="code" href="../../d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698">Spawn_ScoreAll</a>(<span class="keyword">this</span>, firstspot, mindist, teamcheck);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <span class="keywordflow">for</span>(spot = firstspot; spot; spot = spot.chain)</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    {</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        <span class="keywordflow">if</span>(spot.spawnpoint_score.x &gt;= 0) <span class="comment">// spawning allowed here</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        {</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;            <span class="keywordflow">if</span>(spotlistend)</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                spotlistend.chain = spot;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            spotlistend = spot;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;            <span class="keywordflow">if</span>(!spotlist)</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                spotlist = spot;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        }</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    }</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <span class="keywordflow">if</span>(spotlistend)</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        spotlistend.chain = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="keywordflow">return</span> spotlist;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
-<div class="ttc" id="spawnpoints_8qc_html_a84d4f6b3e07681dab4898e5c42966698"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698">Spawn_ScoreAll</a></div><div class="ttdeci">void Spawn_ScoreAll(entity this, entity firstspot, float mindist, float teamcheck)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00282">spawnpoints.qc:282</a></div></div>
+<div class="ttc" id="spawnpoints_8qc_html_a84d4f6b3e07681dab4898e5c42966698"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698">Spawn_ScoreAll</a></div><div class="ttdeci">void Spawn_ScoreAll(entity this, entity firstspot, float mindist, float teamcheck)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00283">spawnpoints.qc:283</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -407,39 +410,39 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00026">26</a> of file <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html">spawnpoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00027">27</a> of file <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html">spawnpoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00210">autocvar_g_spawn_alloweffects</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7">etof()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00010">IS_SPEC</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00033">owner</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord()</a>.</p>
+<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00211">autocvar_g_spawn_alloweffects</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7">etof()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00010">IS_SPEC</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00033">owner</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00502">PutPlayerInServer()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">float</span> send;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    WriteHeader(MSG_ENTITY, ENT_CLIENT_SPAWNEVENT);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a06d96ecc296e0690bf72700f1bcca666">autocvar_g_spawn_alloweffects</a>)</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <a class="code" href="../../d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7">etof</a>(this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>));</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.origin.x);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.origin.y);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.origin.z);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        send = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>((<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a> == this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>) || (<a class="code" href="../../db/d7a/utils_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>) &amp;&amp; (<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>.enemy == <span class="keyword">this</span>.owner)) )</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, 0);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        send = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">else</span> { send = <span class="keyword">false</span>; }</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">return</span> send;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00507">PutPlayerInServer()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">float</span> send;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    WriteHeader(MSG_ENTITY, ENT_CLIENT_SPAWNEVENT);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a06d96ecc296e0690bf72700f1bcca666">autocvar_g_spawn_alloweffects</a>)</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <a class="code" href="../../d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7">etof</a>(this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>));</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.origin.x);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.origin.y);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.origin.z);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        send = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>((<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a> == this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>) || (<a class="code" href="../../db/d7a/utils_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>) &amp;&amp; (<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>.enemy == <span class="keyword">this</span>.owner)) )</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, 0);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        send = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">else</span> { send = <span class="keyword">false</span>; }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> send;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_abd23315350cd01304b6bd77c4c5c07e6"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a></div><div class="ttdeci">void WriteByte(float data, float dest, float desto)</div></div>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00096">self.qh:96</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00033">main.qh:33</a></div></div>
 <div class="ttc" id="utils_8qh_html_a267d55f1e2caab1f644733587acbc378"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a></div><div class="ttdeci">#define IS_SPEC(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00010">utils.qh:10</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aa8c03f058fec0c574e1bba13327f5a5b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a></div><div class="ttdeci">void WriteCoord(float data, float dest, float desto)</div></div>
-<div class="ttc" id="server_2autocvars_8qh_html_a06d96ecc296e0690bf72700f1bcca666"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a06d96ecc296e0690bf72700f1bcca666">autocvar_g_spawn_alloweffects</a></div><div class="ttdeci">bool autocvar_g_spawn_alloweffects</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00210">autocvars.qh:210</a></div></div>
+<div class="ttc" id="server_2autocvars_8qh_html_a06d96ecc296e0690bf72700f1bcca666"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a06d96ecc296e0690bf72700f1bcca666">autocvar_g_spawn_alloweffects</a></div><div class="ttdeci">bool autocvar_g_spawn_alloweffects</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00211">autocvars.qh:211</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a3b90997eb01a44ab00ec2bbbacbaf3e7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7">etof</a></div><div class="ttdeci">float etof(entity ent)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -478,18 +481,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00169">169</a> of file <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html">spawnpoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00170">170</a> of file <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html">spawnpoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00451">g_spawnpoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00054">IL_PUSH()</a>, and <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00072">relocate_spawnpoint()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;info_player_deathmatch&quot;</span>;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aad1564de97f4fade819668ac308c7133">g_spawnpoints</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <a class="code" href="../../d0/d41/spawnpoints_8qc.html#abb661914e057e88f5191457801e406ab">relocate_spawnpoint</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;}</div>
-<div class="ttc" id="spawnpoints_8qc_html_abb661914e057e88f5191457801e406ab"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#abb661914e057e88f5191457801e406ab">relocate_spawnpoint</a></div><div class="ttdeci">void relocate_spawnpoint(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00072">spawnpoints.qc:72</a></div></div>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00455">g_spawnpoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00054">IL_PUSH()</a>, and <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00073">relocate_spawnpoint()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;{</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;info_player_deathmatch&quot;</span>;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aad1564de97f4fade819668ac308c7133">g_spawnpoints</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <a class="code" href="../../d0/d41/spawnpoints_8qc.html#abb661914e057e88f5191457801e406ab">relocate_spawnpoint</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;}</div>
+<div class="ttc" id="spawnpoints_8qc_html_abb661914e057e88f5191457801e406ab"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#abb661914e057e88f5191457801e406ab">relocate_spawnpoint</a></div><div class="ttdeci">void relocate_spawnpoint(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00073">spawnpoints.qc:73</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="intrusivelist_8qh_html_a1dc3261f72901c53357b5e01d94cb556"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a></div><div class="ttdeci">ERASEABLE entity IL_PUSH(IntrusiveList this, entity it)</div><div class="ttdoc">Push to tail. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00054">intrusivelist.qh:54</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_aad1564de97f4fade819668ac308c7133"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#aad1564de97f4fade819668ac308c7133">g_spawnpoints</a></div><div class="ttdeci">IntrusiveList g_spawnpoints</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00451">defs.qh:451</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_aad1564de97f4fade819668ac308c7133"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#aad1564de97f4fade819668ac308c7133">g_spawnpoints</a></div><div class="ttdeci">IntrusiveList g_spawnpoints</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00455">defs.qh:455</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -533,24 +536,24 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00061">61</a> of file <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html">spawnpoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00062">62</a> of file <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html">spawnpoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00219">have_team_spawns</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00218">some_spawn_has_been_used</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00027">team</a>, and <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00031">teamplay</a>.</p>
+<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00223">have_team_spawns</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00222">some_spawn_has_been_used</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00027">team</a>, and <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00031">teamplay</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00072">relocate_spawnpoint()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3">have_team_spawns</a> &gt; 0)</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> = actor.team;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#a7196b775cedbbcdff77d4007e3955625">some_spawn_has_been_used</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">//LOG_INFO(&quot;spawnpoint was used!\n&quot;);</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00073">relocate_spawnpoint()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3">have_team_spawns</a> &gt; 0)</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> = actor.team;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#a7196b775cedbbcdff77d4007e3955625">some_spawn_has_been_used</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="comment">//LOG_INFO(&quot;spawnpoint was used!\n&quot;);</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
 <div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_acf8ea712d5467331fb750b33ab165013"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a></div><div class="ttdeci">float teamplay</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00031">progsdefs.qc:31</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_a7196b775cedbbcdff77d4007e3955625"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a7196b775cedbbcdff77d4007e3955625">some_spawn_has_been_used</a></div><div class="ttdeci">bool some_spawn_has_been_used</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00218">defs.qh:218</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_a5594c59ad277a5bde42f3670de5077b3"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3">have_team_spawns</a></div><div class="ttdeci">int have_team_spawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00219">defs.qh:219</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_a7196b775cedbbcdff77d4007e3955625"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a7196b775cedbbcdff77d4007e3955625">some_spawn_has_been_used</a></div><div class="ttdeci">bool some_spawn_has_been_used</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00222">defs.qh:222</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_a5594c59ad277a5bde42f3670de5077b3"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3">have_team_spawns</a></div><div class="ttdeci">int have_team_spawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00223">defs.qh:223</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -577,7 +580,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/dd1/spawnpoints_8qh_source.html#l00007">7</a> of file <a class="el" href="../../d4/dd1/spawnpoints_8qh_source.html">spawnpoints.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00217">Spawn_Score()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00218">Spawn_Score()</a>.</p>
 
 </div>
 </div>
@@ -641,7 +644,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/dd1/spawnpoints_8qh_source.html#l00010">10</a> of file <a class="el" href="../../d4/dd1/spawnpoints_8qh_source.html">spawnpoints.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00072">relocate_spawnpoint()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00073">relocate_spawnpoint()</a>.</p>
 
 </div>
 </div>
@@ -665,7 +668,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d4/dd1/spawnpoints_8qh.html">spawnpoints.qh</a></li>
-    <li class="footer">Generated on Sun Feb 4 2018 16:45:18 for Xonotic by
+    <li class="footer">Generated on Sat Feb 10 2018 04:14:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

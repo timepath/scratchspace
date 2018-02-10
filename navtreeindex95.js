@@ -1,5 +1,10 @@
 var NAVTREEINDEX95 =
 {
+"da/dc1/server_2player_8qh.html#a9d529760b279c19bb3b1d15c4da335d1":[2,0,6,50,1],
+"da/dc1/server_2player_8qh.html#ab0ddbf3a176299c044cb3499225ee3d2":[2,0,6,50,0],
+"da/dc1/server_2player_8qh.html#abd30a605660c74c4236227e1c594535f":[2,0,6,50,19],
+"da/dc1/server_2player_8qh.html#ac974b48d82d74768cf11277874c39b9d":[2,0,6,50,5],
+"da/dc1/server_2player_8qh.html#acd6554a25e5a6c81d0ebe4eea07ecb07":[2,0,6,50,6],
 "da/dc1/server_2player_8qh.html#ad782a8ecd5d72aefee13e592a4906f84":[2,0,6,50,2],
 "da/dc1/server_2player_8qh.html#aea48339798453aef3726fe26f97a9bc2":[2,0,6,50,22],
 "da/dc1/server_2player_8qh.html#aef50b8473159af9d6f77b966bc0cbe00":[2,0,6,50,4],
@@ -43,8 +48,8 @@ var NAVTREEINDEX95 =
 "da/dc3/common_2scores_8qh.html#ae7780da786465996b85f5e92850ca081":[2,0,1,42,9],
 "da/dc3/common_2scores_8qh.html#aeada6745e1a86301721bd800dc3b869a":[2,0,1,42,30],
 "da/dc3/common_2scores_8qh_source.html":[2,0,1,42],
-"da/dc5/voicescript_8qc.html":[2,0,1,13,2,18],
-"da/dc5/voicescript_8qc_source.html":[2,0,1,13,2,18],
+"da/dc5/voicescript_8qc.html":[2,0,1,13,2,20],
+"da/dc5/voicescript_8qc_source.html":[2,0,1,13,2,20],
 "da/dc7/test_8qc.html":[2,0,4,58],
 "da/dc7/test_8qc.html#a13b0b89cb467cf0d1a2ee9a711ed9eba":[2,0,4,58,2],
 "da/dc7/test_8qc.html#a38ec02a1e85890fafd3d82e28cf0f0ee":[2,0,4,58,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX95 =
 "da/df9/classMortar.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,83,18],
 "da/df9/classMortar.html#a312755d5709b880f99cf89d7a76237fe":[1,0,83,5],
 "da/df9/classMortar.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,83,22],
-"da/df9/classMortar.html#a3b87e226204dc544063f206fee5e6f06":[1,0,83,37],
-"da/df9/classMortar.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,83,13],
-"da/df9/classMortar.html#a4337268c8cad6836bae8efd4a8835070":[1,0,83,23],
-"da/df9/classMortar.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,83,2],
-"da/df9/classMortar.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,83,17],
-"da/df9/classMortar.html#a5e3c7bacb56dd317d41889834992a504":[1,0,83,28]
+"da/df9/classMortar.html#a3b87e226204dc544063f206fee5e6f06":[1,0,83,37]
 };

@@ -1,5 +1,10 @@
 var NAVTREEINDEX86 =
 {
+"d9/d6e/classTuba.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,132,19],
+"d9/d6e/classTuba.html#af765598ed8e13079da67cd5058d93e37":[1,0,132,36],
+"d9/d71/classCommand.html":[1,0,20],
+"d9/d71/classCommand.html#a0f2cd8b45baa552bdb284ad6cc0e5e99":[1,0,20,0],
+"d9/d71/classCommand.html#a12e2c9c862d73b0477fd4ac4cf677ea2":[1,0,20,1],
 "d9/d71/classCommand.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,20,2],
 "d9/d71/classCommand.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,20,3],
 "d9/d71/classCommand.html#ac64931fa59dc71e81befc2854c7d0108":[1,0,20,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX86 =
 "d9/da8/angle_8qc_source.html":[2,0,4,7],
 "d9/da8/common_2mutators_2mutator_2kick__teamkiller_2__mod_8inc.html":[2,0,1,9,0,15,0],
 "d9/da8/common_2mutators_2mutator_2kick__teamkiller_2__mod_8inc_source.html":[2,0,1,9,0,15,0],
-"d9/da8/dialog__settings__input__userbind_8qh.html":[2,0,5,4,143],
-"d9/da8/dialog__settings__input__userbind_8qh_source.html":[2,0,5,4,143],
-"d9/dad/xonotic_2radiobutton_8qc.html":[2,0,5,4,192],
-"d9/dad/xonotic_2radiobutton_8qc.html#a0dfcbd84caa25aaa08982bbfc704eede":[2,0,5,4,192,2],
-"d9/dad/xonotic_2radiobutton_8qc.html#a2ca6480e870cba291535f4c1a0e0b42e":[2,0,5,4,192,5],
-"d9/dad/xonotic_2radiobutton_8qc.html#a32a30d845be2abcd0c19f299e86bc524":[2,0,5,4,192,4]
+"d9/da8/dialog__settings__input__userbind_8qh.html":[2,0,5,4,143]
 };

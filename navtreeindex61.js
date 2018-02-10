@@ -1,5 +1,12 @@
 var NAVTREEINDEX61 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#aa77694324d1ed3e52390a39856a0cfe3":[2,0,6,3,3,26],
+"d6/ddd/server_2mutators_2events_8qh.html#aa7a03386f02595325cd75c1f51ece220":[2,0,6,3,3,203],
+"d6/ddd/server_2mutators_2events_8qh.html#aa842e1e7952ff9f8d79ae9f0fe7fa03c":[2,0,6,3,3,153],
+"d6/ddd/server_2mutators_2events_8qh.html#aa888bc2996d31bcfdd3d75f58a527a43":[2,0,6,3,3,63],
+"d6/ddd/server_2mutators_2events_8qh.html#aa8cd6e88c1ecf99e367b344bff6beae7":[2,0,6,3,3,27],
+"d6/ddd/server_2mutators_2events_8qh.html#aa9093fb6d9b7f9a9646d8e8a8ffa79cb":[2,0,6,3,3,101],
+"d6/ddd/server_2mutators_2events_8qh.html#aa9d3540986428dccc3ac315f9ff24a54":[2,0,6,3,3,100],
 "d6/ddd/server_2mutators_2events_8qh.html#aa9f463b9c72b6ecd4168a6d80073cceb":[2,0,6,3,3,33],
 "d6/ddd/server_2mutators_2events_8qh.html#aac5f40e0440c0d379bb7b53071ff36d6":[2,0,6,3,3,256],
 "d6/ddd/server_2mutators_2events_8qh.html#aacb8a598fcb1fbc334e220285fb36629":[2,0,6,3,3,140],
@@ -242,12 +249,5 @@ var NAVTREEINDEX61 =
 "d7/d0b/common_2gamemodes_2__mod_8qh.html":[2,0,1,3,2],
 "d7/d0b/common_2gamemodes_2__mod_8qh_source.html":[2,0,1,3,2],
 "d7/d0d/bigcommandbutton_8qc.html":[2,0,5,4,4],
-"d7/d0d/bigcommandbutton_8qc.html#a032835115310f2e38bc75d3166070fba":[2,0,5,4,4,2],
-"d7/d0d/bigcommandbutton_8qc.html#a3585c81eab0e3c921741fd4edcec39c9":[2,0,5,4,4,1],
-"d7/d0d/bigcommandbutton_8qc.html#ab7f0ec07e81d9178eae782be68d7a3f8":[2,0,5,4,4,0],
-"d7/d0d/bigcommandbutton_8qc_source.html":[2,0,5,4,4],
-"d7/d0e/dialog__settings__game__weapons_8qc.html":[2,0,5,4,138],
-"d7/d0e/dialog__settings__game__weapons_8qc.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,138,0],
-"d7/d0e/dialog__settings__game__weapons_8qc.html#acf4cc204368768bf74b724575fb387ab":[2,0,5,4,138,2],
-"d7/d0e/dialog__settings__game__weapons_8qc.html#ae437727300e145636490fbb37f0a84fe":[2,0,5,4,138,1]
+"d7/d0d/bigcommandbutton_8qc.html#a032835115310f2e38bc75d3166070fba":[2,0,5,4,4,2]
 };

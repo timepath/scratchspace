@@ -1,5 +1,10 @@
 var NAVTREEINDEX75 =
 {
+"d8/d39/havocbot_8qh.html#af097bc66957f78a84601ef1a8fa4b8eb":[2,0,6,0,0,0,3,33],
+"d8/d39/havocbot_8qh.html#af987fee1a1779099066890108560bcbd":[2,0,6,0,0,0,3,24],
+"d8/d39/havocbot_8qh.html#afb882bcf6c4a44e801e4fb9eafbbf1f4":[2,0,6,0,0,0,3,12],
+"d8/d39/havocbot_8qh_source.html":[2,0,6,0,0,0,3],
+"d8/d43/fireball_8qc.html":[2,0,1,16,0,12],
 "d8/d43/fireball_8qc_source.html":[2,0,1,16,0,12],
 "d8/d48/sv__random__items_8qh.html":[2,0,1,9,0,26,3],
 "d8/d48/sv__random__items_8qh.html#a0279650ce4f8c737ae8d9d1896096dcb":[2,0,1,9,0,26,3,4],
@@ -114,10 +119,10 @@ var NAVTREEINDEX75 =
 "d8/d79/notifications_2all_8qc.html#ac9ddb1a1613d2392182669496dbe68cd":[2,0,1,10,3,16],
 "d8/d79/notifications_2all_8qc.html#acc65c0cb783909b47eb8c4aa39dcc3f4":[2,0,1,10,3,44],
 "d8/d79/notifications_2all_8qc.html#ad02f8d427504ef14b91645e337035578":[2,0,1,10,3,32],
-"d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,17],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,18],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,19],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,20],
+"d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,10,3,17],
 "d8/d79/notifications_2all_8qc.html#adccbc5e955002f3e2d26f36496349f2f":[2,0,1,10,3,29],
 "d8/d79/notifications_2all_8qc.html#ae93ed72c8bc25a3db70a3dce5a8070d9":[2,0,1,10,3,42],
 "d8/d79/notifications_2all_8qc.html#aebba04739a8cedbc68c1561271936be9":[2,0,1,10,3,36],
@@ -244,10 +249,5 @@ var NAVTREEINDEX75 =
 "d8/d8a/classXonoticDamageTextSettings.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,162,45],
 "d8/d8a/classXonoticDamageTextSettings.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,162,3],
 "d8/d8a/classXonoticDamageTextSettings.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,162,42],
-"d8/d8a/classXonoticDamageTextSettings.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,162,47],
-"d8/d8a/classXonoticDamageTextSettings.html#afc7a49d9ccaa4394cb06ccf2185b78d6":[1,0,162,0],
-"d8/d8a/classXonoticDamageTextSettings.html#afc9428d371ed63dd0316db5558e81d30":[1,0,162,89],
-"d8/d8a/classXonoticDamageTextSettings.html#afdcf1fb79903f747cda494b27206526b":[1,0,162,14],
-"d8/d8a/classXonoticDamageTextSettings.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,162,8],
-"d8/d8a/dialog__multiplayer__media__screenshot_8qc.html":[2,0,5,4,108]
+"d8/d8a/classXonoticDamageTextSettings.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,162,47]
 };

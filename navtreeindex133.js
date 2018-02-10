@@ -1,5 +1,10 @@
 var NAVTREEINDEX133 =
 {
+"df/d8c/sv__midair_8qc.html#a6a7e0b4ff73b17a168d6e4497263d493":[2,0,1,9,0,17,2,5],
+"df/d8c/sv__midair_8qc.html#a80f6dce1ee453d80dcce5366211df306":[2,0,1,9,0,17,2,1],
+"df/d8c/sv__midair_8qc.html#a987afcaedd63ac534342517dfab7618e":[2,0,1,9,0,17,2,2],
+"df/d8c/sv__midair_8qc.html#a9fd92cb889654577ea57717f1b1519d3":[2,0,1,9,0,17,2,4],
+"df/d8c/sv__midair_8qc.html#ab2f81cb51113a7871428e13d099bd3f9":[2,0,1,9,0,17,2,6],
 "df/d8c/sv__midair_8qc.html#acdcc0850073f641363a12079808a396c":[2,0,1,9,0,17,2,3],
 "df/d8c/sv__midair_8qc_source.html":[2,0,1,9,0,17,2],
 "df/d92/classXonoticWinnerDialog.html":[1,0,258],
@@ -205,8 +210,8 @@ var NAVTREEINDEX133 =
 "df/d9b/menu_2xonotic_2util_8qc.html#acec3f9953edac61d0ea8bb0c013539cc":[2,0,5,4,228,67],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad18fa120b3ff7def2f7c47a178855468":[2,0,5,4,228,5],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad1f36d07e4a66476224966394f1e24e5":[2,0,5,4,228,48],
-"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,228,1],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,228,3],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,228,1],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad481dfa3a9518c9669a0fcc1da77758f":[2,0,5,4,228,11],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556":[2,0,5,4,228,7],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad87ced1edd45c581dd684b4054fd8ea5":[2,0,5,4,228,77],
@@ -244,10 +249,5 @@ var NAVTREEINDEX133 =
 "df/da7/generic_8qc.html#a3034377c38bd133b2fb40e4658d3e560":[2,0,1,0,3,6],
 "df/da7/generic_8qc.html#a4949cbdd574b98248ac7c6fe9e48a096":[2,0,1,0,3,17],
 "df/da7/generic_8qc.html#a4f11464afe3db58f51d8198dd57a703f":[2,0,1,0,3,14],
-"df/da7/generic_8qc.html#a54b25ca5ee949d3d977550b197ddb7f9":[2,0,1,0,3,5],
-"df/da7/generic_8qc.html#a5d9d66c784aed227f66f771a274a1e38":[2,0,1,0,3,23],
-"df/da7/generic_8qc.html#a6672bc3d3475d6c8a7673a80272e0ede":[2,0,1,0,3,2],
-"df/da7/generic_8qc.html#a67835028ceca4999b1ce0dcab25a9179":[2,0,1,0,3,24],
-"df/da7/generic_8qc.html#a6b086c5fed2aa80a60f6b8f575b6fe32":[2,0,1,0,3,9],
-"df/da7/generic_8qc.html#a7cfe427cb8536f90b0553f1c8a365c36":[2,0,1,0,3,20]
+"df/da7/generic_8qc.html#a54b25ca5ee949d3d977550b197ddb7f9":[2,0,1,0,3,5]
 };

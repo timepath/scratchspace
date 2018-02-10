@@ -1,5 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"d4/d92/csqc__constants_8qh.html#a19d7bbaa20c5d5d9ee2925eb570cfc55":[2,0,0,11,58],
+"d4/d92/csqc__constants_8qh.html#a1ba408e21d06fec874a81a7dd690840b":[2,0,0,11,94],
+"d4/d92/csqc__constants_8qh.html#a1d5b2aa0e02dae99a486b0ee316ca9fe":[2,0,0,11,102],
+"d4/d92/csqc__constants_8qh.html#a25eb6e20b25a7903dea4c3722bb8790d":[2,0,0,11,68],
 "d4/d92/csqc__constants_8qh.html#a284bbc8b11923e8e64d8bfe5bd4bce48":[2,0,0,11,91],
 "d4/d92/csqc__constants_8qh.html#a307961d9884aa2a01f737116f4ce2e95":[2,0,0,11,27],
 "d4/d92/csqc__constants_8qh.html#a36229d1254da5bb5e2645ad63c2777e5":[2,0,0,11,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX42 =
 "d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh.html":[2,0,1,9,0,6,1],
 "d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh_source.html":[2,0,1,9,0,6,1],
 "d4/d9d/hellion_8qh.html":[2,0,1,14,0,13],
-"d4/d9d/hellion_8qh.html#ad7f9d755fa95936046d425e1ac3868bf":[2,0,1,14,0,13,1],
-"d4/d9d/hellion_8qh_source.html":[2,0,1,14,0,13],
-"d4/d9d/sounds_2all_8qc.html":[2,0,1,12,3],
-"d4/d9d/sounds_2all_8qc_source.html":[2,0,1,12,3],
-"d4/da1/raptor_8qh.html":[2,0,1,15,0,11]
+"d4/d9d/hellion_8qh.html#ad7f9d755fa95936046d425e1ac3868bf":[2,0,1,14,0,13,1]
 };

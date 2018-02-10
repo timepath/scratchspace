@@ -97,6 +97,8 @@ var NAVTREEINDEX36 =
 "d4/d12/racetimer_8qc_source.html":[2,0,0,1,0,28],
 "d4/d13/onslaught_8qc.html":[2,0,1,3,0,1,10],
 "d4/d13/onslaught_8qc_source.html":[2,0,1,3,0,1,10],
+"d4/d13/spawnpoint_8qh.html":[2,0,1,13,2,17],
+"d4/d13/spawnpoint_8qh_source.html":[2,0,1,13,2,17],
 "d4/d14/heal_8qc.html":[2,0,1,13,3,14],
 "d4/d14/heal_8qc_source.html":[2,0,1,13,3,14],
 "d4/d16/label_8qc.html":[2,0,5,2,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "d4/d1b/race_8qh.html#a95d7647425d253442341ea846a00aeec":[2,0,6,57,29],
 "d4/d1b/race_8qh.html#a968e963b26fc123cad80700bd70a9cfa":[2,0,6,57,31],
 "d4/d1b/race_8qh.html#a98ec5468ec6281fade27fb92541c7174":[2,0,6,57,18],
-"d4/d1b/race_8qh.html#a9a3c75ab2cb3bdfaa0595de4a23c0c5e":[2,0,6,57,27],
-"d4/d1b/race_8qh.html#a9a5dc4467ed404414f75c9cdb1ca9231":[2,0,6,57,30],
-"d4/d1b/race_8qh.html#a9ab87b0b67abd6d031db9ff6d00d34dc":[2,0,6,57,33]
+"d4/d1b/race_8qh.html#a9a3c75ab2cb3bdfaa0595de4a23c0c5e":[2,0,6,57,27]
 };

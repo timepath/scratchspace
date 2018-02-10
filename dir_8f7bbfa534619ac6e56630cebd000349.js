@@ -16,6 +16,8 @@ var dir_8f7bbfa534619ac6e56630cebd000349 =
     [ "music.qh", "d2/d21/music_8qh.html", "d2/d21/music_8qh" ],
     [ "spawn.qc", "d1/d06/spawn_8qc.html", null ],
     [ "spawn.qh", "d0/d37/spawn_8qh.html", null ],
+    [ "spawnpoint.qc", "d4/d5b/spawnpoint_8qc.html", null ],
+    [ "spawnpoint.qh", "d4/d13/spawnpoint_8qh.html", null ],
     [ "speaker.qc", "d5/d06/speaker_8qc.html", null ],
     [ "speaker.qh", "d4/d48/speaker_8qh.html", null ],
     [ "voicescript.qc", "da/dc5/voicescript_8qc.html", null ],

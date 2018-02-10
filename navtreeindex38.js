@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"d4/d3f/classXonoticKeyBinder.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,204,13],
+"d4/d3f/classXonoticKeyBinder.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,204,75],
 "d4/d3f/classXonoticKeyBinder.html#aacda3211d8032ec2ef4adf7d65f40c03":[1,0,204,9],
 "d4/d3f/classXonoticKeyBinder.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,204,78],
 "d4/d3f/classXonoticKeyBinder.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,204,82],
@@ -111,8 +113,8 @@ var NAVTREEINDEX38 =
 "d4/d48/notify_8qc.html#a3f24d1601ce9eaa70aa03b90c969a568":[2,0,0,1,0,18,1],
 "d4/d48/notify_8qc.html#a5d98db16bef14acf08a94e5eaec24a26":[2,0,0,1,0,18,0],
 "d4/d48/notify_8qc_source.html":[2,0,0,1,0,18],
-"d4/d48/speaker_8qh.html":[2,0,1,13,2,17],
-"d4/d48/speaker_8qh_source.html":[2,0,1,13,2,17],
+"d4/d48/speaker_8qh.html":[2,0,1,13,2,19],
+"d4/d48/speaker_8qh_source.html":[2,0,1,13,2,19],
 "d4/d49/common_2mutators_2mutator_2kick__teamkiller_2__mod_8qh.html":[2,0,1,9,0,15,1],
 "d4/d49/common_2mutators_2mutator_2kick__teamkiller_2__mod_8qh_source.html":[2,0,1,9,0,15,1],
 "d4/d4c/corner_8qc.html":[2,0,1,13,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "d4/d55/classXonoticCreditsList.html#a7c8494a24b0c7ac5dc7ca5db6726bf3e":[1,0,157,8],
 "d4/d55/classXonoticCreditsList.html#a7e648d41a7f78b2263816afdbcce9375":[1,0,157,71],
 "d4/d55/classXonoticCreditsList.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,157,63],
-"d4/d55/classXonoticCreditsList.html#a82217d761797df8a2e65054eab910734":[1,0,157,13],
-"d4/d55/classXonoticCreditsList.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,157,60],
-"d4/d55/classXonoticCreditsList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,157,43]
+"d4/d55/classXonoticCreditsList.html#a82217d761797df8a2e65054eab910734":[1,0,157,13]
 };

@@ -1,5 +1,10 @@
 var NAVTREEINDEX118 =
 {
+"dd/d89/menu_2mutators_2__mod_8inc.html":[2,0,5,3,0],
+"dd/d89/menu_2mutators_2__mod_8inc_source.html":[2,0,5,3,0],
+"dd/d8a/dialog__settings__game__hudconfirm_8qh.html":[2,0,5,4,131],
+"dd/d8a/dialog__settings__game__hudconfirm_8qh_source.html":[2,0,5,4,131],
+"dd/d8a/sv__weapon_8qh.html":[2,0,1,3,0,0,5],
 "dd/d8a/sv__weapon_8qh_source.html":[2,0,1,3,0,0,5],
 "dd/d8b/sys-pre_8qh.html":[2,0,6,73],
 "dd/d8b/sys-pre_8qh.html#a0c0bbf4dba535c4665b7ed0f51b0abbc":[2,0,6,73,17],
@@ -244,10 +249,5 @@ var NAVTREEINDEX118 =
 "dd/d9a/classXonoticSandboxToolsDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,230,36],
 "dd/d9a/classXonoticSandboxToolsDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,230,5],
 "dd/d9a/classXonoticSandboxToolsDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,230,90],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,230,79],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,230,44],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ac5657d1a88024e70ea47e22465fb6057":[1,0,230,59],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,230,0],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,230,16],
-"dd/d9a/classXonoticSandboxToolsDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,230,33]
+"dd/d9a/classXonoticSandboxToolsDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,230,79]
 };
