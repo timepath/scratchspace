@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"da/dc1/server_2player_8qh.html#a798f63d3b40c416811743d9bfc9b1d28":[2,0,6,50,21],
 "da/dc1/server_2player_8qh.html#a7b50d8e84036f411ff923c7d63f7d88f":[2,0,6,50,13],
 "da/dc1/server_2player_8qh.html#a9d529760b279c19bb3b1d15c4da335d1":[2,0,6,50,1],
 "da/dc1/server_2player_8qh.html#ab0ddbf3a176299c044cb3499225ee3d2":[2,0,6,50,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "da/df9/classMortar.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,83,20],
 "da/df9/classMortar.html#a2a49c39bc010c7336ad6c42789aba32a":[1,0,83,34],
 "da/df9/classMortar.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,83,18],
-"da/df9/classMortar.html#a312755d5709b880f99cf89d7a76237fe":[1,0,83,5],
-"da/df9/classMortar.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,83,22]
+"da/df9/classMortar.html#a312755d5709b880f99cf89d7a76237fe":[1,0,83,5]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"df/d30/client_2main_8qc.html#a927ab476c107855f4c9745da26bdd162":[2,0,0,15,37],
 "df/d30/client_2main_8qc.html#a937ea7da9d0d850374c39c3bd67a4dfe":[2,0,0,15,35],
 "df/d30/client_2main_8qc.html#a940657caa97aee7f233ec2016198ebb6":[2,0,0,15,10],
 "df/d30/client_2main_8qc.html#a9a0b42398a104ebdd5b99b02df23747d":[2,0,0,15,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "df/d6e/classXonoticSingleplayerDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,241,4],
 "df/d6e/classXonoticSingleplayerDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,241,44],
 "df/d6e/classXonoticSingleplayerDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,241,22],
-"df/d6e/classXonoticSingleplayerDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,241,50],
-"df/d6e/classXonoticSingleplayerDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,241,55]
+"df/d6e/classXonoticSingleplayerDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,241,50]
 };

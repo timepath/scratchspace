@@ -46,7 +46,7 @@ var searchData=
   ['register_5fturret',['REGISTER_TURRET',['../db/d7f/turrets_2all_8qh.html#aa2774c8f11c19aa8e015cff50732b4a6',1,'all.qh']]],
   ['register_5fvehicle',['REGISTER_VEHICLE',['../db/d83/vehicles_2all_8qh.html#a5ef00da087d222982ad759b7d833bf2a',1,'all.qh']]],
   ['register_5fvoicemsg',['REGISTER_VOICEMSG',['../df/d6e/globalsound_8qh.html#af71e173be2de0af430b59f2aae5c47b3',1,'globalsound.qh']]],
-  ['register_5fwaypoint',['REGISTER_WAYPOINT',['../d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a04e2d734ae55f5ddd843bcf3f1614e20',1,'all.qh']]],
+  ['register_5fwaypoint',['REGISTER_WAYPOINT',['../d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#aaa0f988701dbafcda468124fd8a423a8',1,'all.qh']]],
   ['register_5fwaypoint_5f',['REGISTER_WAYPOINT_',['../d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a7e125b9b1c95a10f859b80c7a3456266',1,'all.qh']]],
   ['register_5fweapon',['REGISTER_WEAPON',['../d0/ddd/weapons_2all_8qh.html#aa15982b2005f9c62b162d611b51a6544',1,'all.qh']]],
   ['register_5fweapon_5f2',['REGISTER_WEAPON_2',['../d0/ddd/weapons_2all_8qh.html#aeb1de813ef8ab2591f6af510cd14ad01',1,'all.qh']]],

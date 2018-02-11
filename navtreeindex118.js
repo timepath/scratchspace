@@ -1,5 +1,6 @@
 var NAVTREEINDEX118 =
 {
+"dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf":[2,0,1,2,8,11],
 "dd/d87/effectinfo_8qc_source.html":[2,0,1,2,8],
 "dd/d89/menu_2mutators_2__mod_8inc.html":[2,0,5,3,0],
 "dd/d89/menu_2mutators_2__mod_8inc_source.html":[2,0,5,3,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX118 =
 "dd/d9a/classXonoticSandboxToolsDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,230,35],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ab0aeb8440abc4bd78c0023e48aaf0393":[1,0,230,81],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,230,36],
-"dd/d9a/classXonoticSandboxToolsDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,230,5],
-"dd/d9a/classXonoticSandboxToolsDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,230,90]
+"dd/d9a/classXonoticSandboxToolsDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,230,5]
 };

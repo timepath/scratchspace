@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"d9/da8/common_2mutators_2mutator_2kick__teamkiller_2__mod_8inc_source.html":[2,0,1,9,0,15,0],
 "d9/da8/dialog__settings__input__userbind_8qh.html":[2,0,5,4,143],
 "d9/da8/dialog__settings__input__userbind_8qh_source.html":[2,0,5,4,143],
 "d9/dad/xonotic_2radiobutton_8qc.html":[2,0,5,4,192],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "d9/dca/classXonoticCommandButton.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,155,64],
 "d9/dca/classXonoticCommandButton.html#ad8b9115dc1d65ac99e74ae1a36f56d05":[1,0,155,39],
 "d9/dca/classXonoticCommandButton.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,155,33],
-"d9/dca/classXonoticCommandButton.html#aef17454d19baae5de77f47b1fb52deb1":[1,0,155,4],
-"d9/dca/classXonoticCommandButton.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,155,32]
+"d9/dca/classXonoticCommandButton.html#aef17454d19baae5de77f47b1fb52deb1":[1,0,155,4]
 };

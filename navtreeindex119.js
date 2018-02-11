@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"dd/d9a/classXonoticSandboxToolsDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,230,90],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,230,79],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,230,44],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ac5657d1a88024e70ea47e22465fb6057":[1,0,230,59],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "dd/dac/dialog__hudsetup__exit_8qc_source.html":[2,0,5,4,82],
 "dd/db0/sv__rocketflying_8qc.html":[2,0,1,9,0,27,2],
 "dd/db0/sv__rocketflying_8qc.html#a13915ad0ee78b445f550ece48ae3e808":[2,0,1,9,0,27,2,1],
-"dd/db0/sv__rocketflying_8qc.html#a14ac805a3ee973aa1b7aefab1c56dd85":[2,0,1,9,0,27,2,2],
-"dd/db0/sv__rocketflying_8qc.html#a1b960f04b46f7f044d0110f9acf87cac":[2,0,1,9,0,27,2,3]
+"dd/db0/sv__rocketflying_8qc.html#a14ac805a3ee973aa1b7aefab1c56dd85":[2,0,1,9,0,27,2,2]
 };

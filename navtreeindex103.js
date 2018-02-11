@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"db/d7f/effectinfo_8inc.html#aff106809eb42e961d7592183ee870aef":[2,0,1,2,7,335],
 "db/d7f/effectinfo_8inc_source.html":[2,0,1,2,7],
 "db/d7f/turrets_2all_8qh.html":[2,0,1,14,4],
 "db/d7f/turrets_2all_8qh.html#a480cc7101d2edcf64993e80de5a8e4ac":[2,0,1,14,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX103 =
 "db/db1/classXonoticHUDRaceTimerDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,194,31],
 "db/db1/classXonoticHUDRaceTimerDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,194,62],
 "db/db1/classXonoticHUDRaceTimerDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,194,55],
-"db/db1/classXonoticHUDRaceTimerDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,194,91],
-"db/db1/classXonoticHUDRaceTimerDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,194,8]
+"db/db1/classXonoticHUDRaceTimerDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,194,91]
 };

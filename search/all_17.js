@@ -291,7 +291,7 @@ var searchData=
   ['waterlevel_5fwetfeet',['WATERLEVEL_WETFEET',['../d4/dd7/movetypes_8qh.html#a23878f171fe94c2b5c31a13077e1c845',1,'movetypes.qh']]],
   ['watersound_5ffinished',['watersound_finished',['../d5/d26/server_2defs_8qh.html#a4559bb7f78065ba068480a3b6063db69',1,'defs.qh']]],
   ['watertype',['watertype',['../d6/d11/progsdefs_8qc.html#a76498923ec065444226e91702d44413d',1,'progsdefs.qc']]],
-  ['waypoint',['Waypoint',['../d9/d8c/classWaypoint.html',1,'Waypoint'],['../d9/d8c/classWaypoint.html#a745d2e7e32bb1e66b2c8651e2757aefa',1,'Waypoint::Waypoint()']]],
+  ['waypoint',['Waypoint',['../d9/d8c/classWaypoint.html',1,'Waypoint'],['../d9/d8c/classWaypoint.html#aa5bca311573381ef35ec56610d15d538',1,'Waypoint::Waypoint()']]],
   ['waypoint_5faddlink',['waypoint_addlink',['../d7/dc4/waypoints_8qc.html#a78500a5fdfa2de7f46f627274085fe08',1,'waypoint_addlink(entity from, entity to):&#160;waypoints.qc'],['../d1/d2a/waypoints_8qh.html#a78500a5fdfa2de7f46f627274085fe08',1,'waypoint_addlink(entity from, entity to):&#160;waypoints.qc']]],
   ['waypoint_5faddlink_5fcustomcost',['waypoint_addlink_customcost',['../d7/dc4/waypoints_8qc.html#a366118166944b7c3433ad78c7f388462',1,'waypoint_addlink_customcost(entity from, entity to, float c):&#160;waypoints.qc'],['../d1/d2a/waypoints_8qh.html#a366118166944b7c3433ad78c7f388462',1,'waypoint_addlink_customcost(entity from, entity to, float c):&#160;waypoints.qc']]],
   ['waypoint_5fclearlinks',['waypoint_clearlinks',['../d7/dc4/waypoints_8qc.html#a38265f752edbe2d8e696ad0c88fff34d',1,'waypoint_clearlinks(entity wp):&#160;waypoints.qc'],['../d1/d2a/waypoints_8qh.html#a38265f752edbe2d8e696ad0c88fff34d',1,'waypoint_clearlinks(entity wp):&#160;waypoints.qc']]],
