@@ -2916,8 +2916,8 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;        {</div>
 <div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;            t = <a class="code" href="../../d2/db4/string_8qh.html#a2070f8704d8eb36e69d6d129330758cb">car</a>(s); s = <a class="code" href="../../d2/db4/string_8qh.html#a6a42b8e34a0b2f8c73ed10b4735e41de">cdr</a>(s);</div>
 <div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;            <a class="code" href="../../d1/d6b/classGametype.html">Gametype</a> f = <a class="code" href="../../d3/d46/mapinfo_8qc.html#a7323b63f0d7fb28a98629b5a71a55d47">MapInfo_Type_FromString</a>(t);</div>
-<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;            <span class="keywordflow">if</span>(!<a class="code" href="../../d3/d46/mapinfo_8qc.html#a461e3272bbfe43c0b5f8f29b9d4391ad">autocvar_g_mapinfo_ignore_warnings</a>)</div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#add82efa459e0af380b68522c29b9fd44">LOG_WARN</a>(<span class="stringliteral">&quot;Map &quot;</span>, pFilename, <span class="stringliteral">&quot; contains the legacy &#39;type&#39; keyword which is deprecated and will be removed in the future. Please migrate the mapinfo file to &#39;gametype&#39;.&quot;</span>);</div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;            <span class="comment">//if(!autocvar_g_mapinfo_ignore_warnings)</span></div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;                <span class="comment">//LOG_WARN(&quot;Map &quot;, pFilename, &quot; contains the legacy &#39;type&#39; keyword which is deprecated and will be removed in the future. Please migrate the mapinfo file to &#39;gametype&#39;.&quot;);</span></div>
 <div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;            <span class="keywordflow">if</span>(f)</div>
 <div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;                <a class="code" href="../../d3/d46/mapinfo_8qc.html#ab905d5c7e9e4fc9e2ec11f86915596cd">_MapInfo_Map_ApplyGametype</a> (s, pGametypeToSet, f, <span class="keyword">true</span>);</div>
 <div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!<a class="code" href="../../d3/d46/mapinfo_8qc.html#a461e3272bbfe43c0b5f8f29b9d4391ad">autocvar_g_mapinfo_ignore_warnings</a>)</div>
@@ -4086,7 +4086,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../d3/d46/mapinfo_8qc.html">mapinfo.qc</a></li>
-    <li class="footer">Generated on Sun Feb 11 2018 12:09:53 for Xonotic by
+    <li class="footer">Generated on Mon Feb 12 2018 05:46:21 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
