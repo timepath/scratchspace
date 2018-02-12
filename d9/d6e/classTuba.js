@@ -26,6 +26,7 @@ var classTuba =
     [ "wr_update", "d9/d6e/classTuba.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d9/d6e/classTuba.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d9/d6e/classTuba.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "d9/d6e/classTuba.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "d9/d6e/classTuba.html#a469800bbb95ee106d8b555dff1c9d8e4", null ],
     [ "bot_pickupbasevalue", "d9/d6e/classTuba.html#ac6f60d2aeb3466eb5209d3dfec04dba1", null ],
     [ "impulse", "d9/d6e/classTuba.html#a9dd907b43e440c55a9dab9417721931f", null ],

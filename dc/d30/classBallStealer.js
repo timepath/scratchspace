@@ -26,6 +26,7 @@ var classBallStealer =
     [ "wr_update", "dc/d30/classBallStealer.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "dc/d30/classBallStealer.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "dc/d30/classBallStealer.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "dc/d30/classBallStealer.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "dc/d30/classBallStealer.html#aade624faa82ff26da9e51f1be39be298", null ],
     [ "bot_pickupbasevalue", "dc/d30/classBallStealer.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "dc/d30/classBallStealer.html#acee4dee25e04bfa56f7ae916df042298", null ],

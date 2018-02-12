@@ -26,6 +26,7 @@ var classHLAC =
     [ "wr_update", "d4/d41/classHLAC.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d4/d41/classHLAC.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d4/d41/classHLAC.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "d4/d41/classHLAC.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "d4/d41/classHLAC.html#ae90301d90c90a20610cd462127a1b3e4", null ],
     [ "bot_pickupbasevalue", "d4/d41/classHLAC.html#a8d201e202dfd220a70d7f46ba13f8970", null ],
     [ "impulse", "d4/d41/classHLAC.html#a3193f6fcbcac6098952b55d1e09825d8", null ],

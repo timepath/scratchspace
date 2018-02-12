@@ -26,6 +26,7 @@ var classBlaster =
     [ "wr_update", "d7/d32/classBlaster.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d7/d32/classBlaster.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d7/d32/classBlaster.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "d7/d32/classBlaster.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "d7/d32/classBlaster.html#a469800bbb95ee106d8b555dff1c9d8e4", null ],
     [ "bot_pickupbasevalue", "d7/d32/classBlaster.html#a1c8437833108d8e5fee3535929d05f32", null ],
     [ "impulse", "d7/d32/classBlaster.html#a17f155a849bf1aad1fb6f97232996be9", null ],

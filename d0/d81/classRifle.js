@@ -26,6 +26,7 @@ var classRifle =
     [ "wr_update", "d0/d81/classRifle.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d0/d81/classRifle.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d0/d81/classRifle.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "d0/d81/classRifle.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "d0/d81/classRifle.html#a267ed876501f592766d2093314176d09", null ],
     [ "bot_pickupbasevalue", "d0/d81/classRifle.html#a62733317377efccb19770f9b187ae35c", null ],
     [ "impulse", "d0/d81/classRifle.html#a410842e36facf9d2068da07c63b7f0c1", null ],

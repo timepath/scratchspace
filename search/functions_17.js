@@ -230,6 +230,7 @@ var searchData=
   ['wr_5fupdate',['wr_update',['../dc/de5/classWeapon.html#a4337268c8cad6836bae8efd4a8835070',1,'Weapon']]],
   ['wr_5fviewmodel',['wr_viewmodel',['../dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5',1,'Weapon']]],
   ['wr_5fzoom',['wr_zoom',['../dc/de5/classWeapon.html#aa557f7e3a22e9b52192697ca3efcd48b',1,'Weapon']]],
+  ['wr_5fzoomdir',['wr_zoomdir',['../dc/de5/classWeapon.html#a9ca24d1250564504f9e7b2641569d3b5',1,'Weapon']]],
   ['write_5frecordmarker',['write_recordmarker',['../dc/dc6/server_2miscfunctions_8qc.html#a450084bb9c01e6e3fe55aa6027d4580f',1,'write_recordmarker(entity pl, float tstart, float dt):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a450084bb9c01e6e3fe55aa6027d4580f',1,'write_recordmarker(entity pl, float tstart, float dt):&#160;miscfunctions.qc']]],
   ['writeangle',['WriteAngle',['../d8/de2/menudefs_8qc.html#adcaadac54775911f8b6843223998c35e',1,'menudefs.qc']]],
   ['writebyte',['WriteByte',['../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6',1,'menudefs.qc']]],

@@ -26,6 +26,7 @@ var classRaptorBomb =
     [ "wr_update", "d4/da9/classRaptorBomb.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d4/da9/classRaptorBomb.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d4/da9/classRaptorBomb.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "d4/da9/classRaptorBomb.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "d4/da9/classRaptorBomb.html#aade624faa82ff26da9e51f1be39be298", null ],
     [ "bot_pickupbasevalue", "d4/da9/classRaptorBomb.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d4/da9/classRaptorBomb.html#ae99fad3a1cbbfab6c5829f2abe011f50", null ],

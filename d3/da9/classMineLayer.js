@@ -26,6 +26,7 @@ var classMineLayer =
     [ "wr_update", "d3/da9/classMineLayer.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d3/da9/classMineLayer.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d3/da9/classMineLayer.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "d3/da9/classMineLayer.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "d3/da9/classMineLayer.html#ab69c7a7956de2f9b43ba243a94285f6b", null ],
     [ "bot_pickupbasevalue", "d3/da9/classMineLayer.html#a81f22076374063c0ac3a8bdb2e35ca3b", null ],
     [ "impulse", "d3/da9/classMineLayer.html#ac72896c0e96c0f0bf6c088cb153ca74e", null ],

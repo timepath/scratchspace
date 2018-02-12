@@ -26,6 +26,7 @@ var classVortex =
     [ "wr_update", "d4/d17/classVortex.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d4/d17/classVortex.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d4/d17/classVortex.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "d4/d17/classVortex.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "d4/d17/classVortex.html#a400bc5fd8aac9bc59ba6ef4c468353be", null ],
     [ "bot_pickupbasevalue", "d4/d17/classVortex.html#add8cf89912c6ce63565d432a3bb26726", null ],
     [ "impulse", "d4/d17/classVortex.html#ad70d80ed739c82b4eecd022ec4fbcc25", null ],

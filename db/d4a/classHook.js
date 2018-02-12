@@ -26,6 +26,7 @@ var classHook =
     [ "wr_update", "db/d4a/classHook.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "db/d4a/classHook.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "db/d4a/classHook.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "db/d4a/classHook.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_factor", "db/d4a/classHook.html#abf2fbef9b9e0a252ba8f0a2817b21872", null ],
     [ "ammo_type", "db/d4a/classHook.html#ab71de1fab1a32f9ae18ac7132fc53632", null ],
     [ "bot_pickupbasevalue", "db/d4a/classHook.html#a4db172fd5de18e582c2aefcd7124087b", null ],

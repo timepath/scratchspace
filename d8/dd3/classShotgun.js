@@ -26,6 +26,7 @@ var classShotgun =
     [ "wr_update", "d8/dd3/classShotgun.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d8/dd3/classShotgun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d8/dd3/classShotgun.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "d8/dd3/classShotgun.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "d8/dd3/classShotgun.html#ae13bf476f2c3668c25ecfb5481ef9dd6", null ],
     [ "bot_pickupbasevalue", "d8/dd3/classShotgun.html#a2a2c18e6c0451d1fe15a8bb2b4715b11", null ],
     [ "impulse", "d8/dd3/classShotgun.html#ab24caf167edfb003ad2ca937ffab003b", null ],

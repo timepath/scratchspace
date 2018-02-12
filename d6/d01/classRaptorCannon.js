@@ -26,6 +26,7 @@ var classRaptorCannon =
     [ "wr_update", "d6/d01/classRaptorCannon.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d6/d01/classRaptorCannon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "d6/d01/classRaptorCannon.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "d6/d01/classRaptorCannon.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "d6/d01/classRaptorCannon.html#aade624faa82ff26da9e51f1be39be298", null ],
     [ "bot_pickupbasevalue", "d6/d01/classRaptorCannon.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d6/d01/classRaptorCannon.html#a08b28d3fda93d7058ef45040eb566872", null ],

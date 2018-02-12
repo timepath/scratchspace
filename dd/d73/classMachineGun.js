@@ -26,6 +26,7 @@ var classMachineGun =
     [ "wr_update", "dd/d73/classMachineGun.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "dd/d73/classMachineGun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "dd/d73/classMachineGun.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "dd/d73/classMachineGun.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "dd/d73/classMachineGun.html#aefc8426bd1db08d18038fad0bdbde2de", null ],
     [ "bot_pickupbasevalue", "dd/d73/classMachineGun.html#ad60581174addffcd546196db2e2e8c56", null ],
     [ "impulse", "dd/d73/classMachineGun.html#af92e2de4a5160754eb3fba3193b01f36", null ],

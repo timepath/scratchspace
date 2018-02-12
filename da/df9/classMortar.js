@@ -26,6 +26,7 @@ var classMortar =
     [ "wr_update", "da/df9/classMortar.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "da/df9/classMortar.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "da/df9/classMortar.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "da/df9/classMortar.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "da/df9/classMortar.html#aab4feeb68ee4bc69f5689fa9c27d174c", null ],
     [ "bot_pickupbasevalue", "da/df9/classMortar.html#ae3ee5674f8d5232b46d606bff0062696", null ],
     [ "impulse", "da/df9/classMortar.html#a5e3c7bacb56dd317d41889834992a504", null ],

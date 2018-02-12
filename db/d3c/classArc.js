@@ -26,6 +26,7 @@ var classArc =
     [ "wr_update", "db/d3c/classArc.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "db/d3c/classArc.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoom", "db/d3c/classArc.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
+    [ "wr_zoomdir", "db/d3c/classArc.html#a9ca24d1250564504f9e7b2641569d3b5", null ],
     [ "ammo_type", "db/d3c/classArc.html#a820b0eec1bd4c8f136677084e3cec65d", null ],
     [ "bot_pickupbasevalue", "db/d3c/classArc.html#ae0a509098068a29d9ef781b063c35d0e", null ],
     [ "impulse", "db/d3c/classArc.html#a3ed4692aa1b8bf1d283184288bc8a70a", null ],

@@ -592,6 +592,7 @@ var searchData=
   ['wr_5fupdate',['wr_update',['../dc/de5/classWeapon.html#a4337268c8cad6836bae8efd4a8835070',1,'Weapon']]],
   ['wr_5fviewmodel',['wr_viewmodel',['../dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5',1,'Weapon']]],
   ['wr_5fzoom',['wr_zoom',['../dc/de5/classWeapon.html#aa557f7e3a22e9b52192697ca3efcd48b',1,'Weapon']]],
+  ['wr_5fzoomdir',['wr_zoomdir',['../dc/de5/classWeapon.html#a9ca24d1250564504f9e7b2641569d3b5',1,'Weapon']]],
   ['write',['WRITE',['../dd/d87/effectinfo_8qc.html#a196e029eb2adc9808b1e6928e3e1ce23',1,'effectinfo.qc']]],
   ['write_5fbyte',['Write_byte',['../d9/d48/lib_2net_8qh.html#a84ebbcfeb398b04d80c378ca47b809c0',1,'net.qh']]],
   ['write_5ffloat',['Write_float',['../d9/d48/lib_2net_8qh.html#a5bb63dcab5ee0b1d87a625531c81f0c5',1,'net.qh']]],
