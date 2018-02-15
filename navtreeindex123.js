@@ -1,5 +1,6 @@
 var NAVTREEINDEX123 =
 {
+"de/d3d/cl__minigames_8qh.html":[2,0,1,6,4],
 "de/d3d/cl__minigames_8qh.html#a02caccc9afc8eec2f9c7ed6fc85eac95":[2,0,1,6,4,11],
 "de/d3d/cl__minigames_8qh.html#a0e95d808ea50b0343ffb6f1b6d5ae445":[2,0,1,6,4,21],
 "de/d3d/cl__minigames_8qh.html#a14e89872347ae0a8a8837044d3a4e843":[2,0,1,6,4,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX123 =
 "de/d43/common_2items_2item_2ammo_8qh_source.html":[2,0,1,5,0,3],
 "de/d43/common_2mutators_2mutator_2random__gravity_2__mod_8inc.html":[2,0,1,9,0,25,0],
 "de/d43/common_2mutators_2mutator_2random__gravity_2__mod_8inc_source.html":[2,0,1,9,0,25,0],
-"de/d48/dialog__settings__game_8qc.html":[2,0,5,4,124],
-"de/d48/dialog__settings__game_8qc.html#a612071b3e7e03563d6c3e60fcee98f10":[2,0,5,4,124,0]
+"de/d48/dialog__settings__game_8qc.html":[2,0,5,4,124]
 };

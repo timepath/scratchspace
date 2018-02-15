@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"d4/d91/classXonoticCampaignList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,148,36],
 "d4/d91/classXonoticCampaignList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,148,28],
 "d4/d91/classXonoticCampaignList.html#afb1ec629cb2b63da0f69cd83e4264c6b":[1,0,148,50],
 "d4/d91/classXonoticCampaignList.html#afdcf1fb79903f747cda494b27206526b":[1,0,148,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "d4/d95/common_2mutators_2events_8qh.html#a5e051773a4f4852360170506cb27e9c1":[2,0,1,9,4,23],
 "d4/d95/common_2mutators_2events_8qh.html#a6946f25e5a0f0f19747e7073e762b56f":[2,0,1,9,4,6],
 "d4/d95/common_2mutators_2events_8qh.html#a77829c1928216da311e0a94eb4ab0258":[2,0,1,9,4,9],
-"d4/d95/common_2mutators_2events_8qh.html#a867d472510e1701cc1cea651b2a069ae":[2,0,1,9,4,18],
-"d4/d95/common_2mutators_2events_8qh.html#a9a23599f67a0d670311946a1b314363d":[2,0,1,9,4,15]
+"d4/d95/common_2mutators_2events_8qh.html#a867d472510e1701cc1cea651b2a069ae":[2,0,1,9,4,18]
 };

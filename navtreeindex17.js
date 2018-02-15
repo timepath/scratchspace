@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#afdd2ef82afe9c1d5ff1389a90c3e2601":[2,0,1,9,0,38,2,20],
 "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#affd0081ea14cc2ee1a9d819dce061c84":[2,0,1,9,0,38,2,46],
 "d2/d2b/mutators_2mutator_2waypoints_2all_8inc_source.html":[2,0,1,9,0,38,2],
 "d2/d35/lib_2warpzone_2client_8qh.html":[2,0,4,2,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "d2/d4b/classPlayer.html#a7726503c7f30546802017511a4c25937":[1,0,99,109],
 "d2/d4b/classPlayer.html#a7c8df93f8d890fe9c559215401df85e3":[1,0,99,7],
 "d2/d4b/classPlayer.html#a7e1a3186ea83b5cbc944abb9dd299ccb":[1,0,99,14],
-"d2/d4b/classPlayer.html#a8512a66a1265b5504594df509bd2aedc":[1,0,99,78],
-"d2/d4b/classPlayer.html#a87dd242cb415c621d20cf1b78fedf03a":[1,0,99,94]
+"d2/d4b/classPlayer.html#a8512a66a1265b5504594df509bd2aedc":[1,0,99,78]
 };

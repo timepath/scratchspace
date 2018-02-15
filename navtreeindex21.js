@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"d2/dc3/menu_2item_2button_8qc.html#aad8a5f6e981257d1408bd0dab913f701":[2,0,5,2,4,9],
 "d2/dc3/menu_2item_2button_8qc.html#ad7dc81a3d5526c217fa59ecd05a3609e":[2,0,5,2,4,8],
 "d2/dc3/menu_2item_2button_8qc_source.html":[2,0,5,2,4],
 "d2/dc3/vaporizer_8qh.html":[2,0,1,16,0,39],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "d2/dd6/classXonoticInputSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,203,66],
 "d2/dd6/classXonoticInputSettingsTab.html#aa19c693d56c930b1d9dc849d77b5a7e0":[1,0,203,84],
 "d2/dd6/classXonoticInputSettingsTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,203,20],
-"d2/dd6/classXonoticInputSettingsTab.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,203,24],
-"d2/dd6/classXonoticInputSettingsTab.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,203,14]
+"d2/dd6/classXonoticInputSettingsTab.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,203,24]
 };

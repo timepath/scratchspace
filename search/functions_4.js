@@ -194,7 +194,6 @@ var searchData=
   ['droptofloor',['droptofloor',['../dc/dc6/server_2miscfunctions_8qc.html#a05b8906b19daf9c40e70c7374813e23d',1,'droptofloor(entity this):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a05b8906b19daf9c40e70c7374813e23d',1,'droptofloor(entity this):&#160;miscfunctions.qc']]],
   ['droptofloor_5fhandler',['DropToFloor_Handler',['../dc/dc6/server_2miscfunctions_8qc.html#a04608bc242fb7b07fa01cc69ee1412aa',1,'miscfunctions.qc']]],
   ['drownplayer',['DrownPlayer',['../df/dd7/server_2client_8qc.html#a44e195040f6626ac7daa7f72cdcbf0a1',1,'client.qc']]],
-  ['dt_5fidentity',['dt_identity',['../d9/d4f/deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8',1,'all.qh']]],
   ['dump',['dump',['../de/d95/classEffectInfo.html#a37d2c021ca1abd3145fbd147505e92fe',1,'EffectInfo']]],
   ['dump_5fitems',['Dump_Items',['../d3/d1f/items_2all_8qc.html#a45f263cb1b6c252258e90c0374fb06bd',1,'Dump_Items():&#160;all.qc'],['../d0/d7e/items_2all_8qh.html#a45f263cb1b6c252258e90c0374fb06bd',1,'Dump_Items():&#160;all.qc']]],
   ['dump_5fnotifications',['Dump_Notifications',['../d8/d79/notifications_2all_8qc.html#ae93ed72c8bc25a3db70a3dce5a8070d9',1,'Dump_Notifications(int fh, bool alsoprint):&#160;all.qc'],['../dc/d8f/notifications_2all_8qh.html#ae93ed72c8bc25a3db70a3dce5a8070d9',1,'Dump_Notifications(int fh, bool alsoprint):&#160;all.qc']]],

@@ -542,7 +542,6 @@ var searchData=
   ['droptofloor_5fhandler',['DropToFloor_Handler',['../dc/dc6/server_2miscfunctions_8qc.html#a04608bc242fb7b07fa01cc69ee1412aa',1,'miscfunctions.qc']]],
   ['drownplayer',['DrownPlayer',['../df/dd7/server_2client_8qc.html#a44e195040f6626ac7daa7f72cdcbf0a1',1,'client.qc']]],
   ['dt_5ffirst',['DT_FIRST',['../d9/d4f/deathtypes_2all_8qh.html#a5e0317d3d6616fc59446bd8400a011cd',1,'all.qh']]],
-  ['dt_5fidentity',['dt_identity',['../d9/d4f/deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8',1,'all.qh']]],
   ['dtagname',['dtagname',['../dd/daa/g__lights_8qc.html#a93022eb264e220dee4abefd35bce904a',1,'g_lights.qc']]],
   ['dtflag_5fbig_5farmor',['DTFLAG_BIG_ARMOR',['../dd/d79/damagetext_8qh.html#a42661999bf9556e7348184efca32d071',1,'damagetext.qh']]],
   ['dtflag_5fbig_5fhealth',['DTFLAG_BIG_HEALTH',['../dd/d79/damagetext_8qh.html#a1d6320254ca3dcd6432da8e378b3d6a1',1,'damagetext.qh']]],

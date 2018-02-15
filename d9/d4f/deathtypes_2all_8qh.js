@@ -11,7 +11,6 @@ var deathtypes_2all_8qh =
     [ "Deathtypes_from", "d9/d4f/deathtypes_2all_8qh.html#ab02fffb66632ecbfb66201c5e5c86203", null ],
     [ "REGISTER_DEATHTYPE", "d9/d4f/deathtypes_2all_8qh.html#a511a8cb366fb4918f14fab9d9ba50557", null ],
     [ "Deathtype_Name", "d9/d4f/deathtypes_2all_8qh.html#ab228bbc4e90e596f0f88f2556ee96c59", null ],
-    [ "dt_identity", "d9/d4f/deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8", null ],
     [ "DEATH_HITTYPEMASK", "d9/d4f/deathtypes_2all_8qh.html#a8b0807eaa5811916173821fe530e8b3b", null ],
     [ "death_msgextra", "d9/d4f/deathtypes_2all_8qh.html#a422a33d46ff07f65430b21152a187e7f", null ],
     [ "death_msgmurder", "d9/d4f/deathtypes_2all_8qh.html#a5323a267d4110e1c2a732dc9263af5c5", null ],

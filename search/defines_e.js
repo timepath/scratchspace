@@ -28,7 +28,7 @@ var searchData=
   ['navigation_5fitem_5fislinked',['navigation_item_islinked',['../df/dd4/navigation_8qh.html#ab214f0d141d4e514862499c8bcc83013',1,'navigation.qh']]],
   ['net_5fguard',['NET_GUARD',['../d9/d48/lib_2net_8qh.html#ac319ef5622f183ecc17162cfdb220ff7',1,'net.qh']]],
   ['net_5fhandle',['NET_HANDLE',['../d9/d48/lib_2net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded',1,'net.qh']]],
-  ['new',['NEW',['../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48',1,'NEW():&#160;oo.qh'],['../db/d0a/oo_8qh.html#ab92f7aae1a80b93313256ec9a7389ed1',1,'new():&#160;oo.qh']]],
+  ['new',['new',['../db/d0a/oo_8qh.html#ab92f7aae1a80b93313256ec9a7389ed1',1,'new():&#160;oo.qh'],['../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48',1,'NEW():&#160;oo.qh']]],
   ['new_5fpure',['new_pure',['../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9',1,'oo.qh']]],
   ['notif_5fadd_5fautocvar',['NOTIF_ADD_AUTOCVAR',['../dc/d8f/notifications_2all_8qh.html#ad2b8722fdafe31ea859ef47f5d621664',1,'all.qh']]],
   ['notif_5fargument_5flist',['NOTIF_ARGUMENT_LIST',['../dc/d8f/notifications_2all_8qh.html#aff1c0bce3b503f7c350fd83ea7e750cf',1,'all.qh']]],
