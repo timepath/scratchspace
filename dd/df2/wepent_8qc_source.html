@@ -189,7 +189,7 @@ $(document).ready(function(){initNavTree('dd/df2/wepent_8qc_source.html','../../
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">        }</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../dd/df2/wepent_8qc.html#a54b06206debb9dc5335e2b341194e156">WEPENT_NETPROPS</a>(<a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>);</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">    #undef X</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">if</span> (i &gt;= <a class="code" href="../../d5/d52/bits_8qh.html#a5967693540f086cfa357f68978bf0be7">BITS</a>(16 - 1)) <a class="code" href="../../db/da0/log_8qh.html#a89cecd05aeaafc715ebc091cf74d10fe">LOG_FATAL</a>(<span class="stringliteral">&quot;Exceeded WEPENT_NETPROPS limit&quot;</span>);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">if</span> (i &gt;= <a class="code" href="../../d5/d52/bits_8qh.html#a5967693540f086cfa357f68978bf0be7">BITS</a>(24 - 1)) <a class="code" href="../../db/da0/log_8qh.html#a89cecd05aeaafc715ebc091cf74d10fe">LOG_FATAL</a>(<span class="stringliteral">&quot;Exceeded WEPENT_NETPROPS limit&quot;</span>);</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">bool</span> _wepent_send(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>, <span class="keywordtype">int</span> sf, <span class="keywordtype">int</span> chan)</div>
@@ -202,7 +202,7 @@ $(document).ready(function(){initNavTree('dd/df2/wepent_8qc_source.html','../../
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            WriteHeader(chan, CLIENT_WEPENT);</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        .entity weaponentity = this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.weaponentity_fld;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(chan, <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#ac3cbbc1f9884e78a2816ff88760748d5">weaponslot</a>(weaponentity));</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(chan, sf);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        WriteInt24_t(chan, sf);</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordtype">int</span> i = 0;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">        #define X(public, fld, set, sv, cl) { \</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">            if (sf &amp; BIT(i)) { \</span></div>
@@ -271,7 +271,7 @@ $(document).ready(function(){initNavTree('dd/df2/wepent_8qc_source.html','../../
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordtype">int</span> slot = ReadByte();</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        this.m_wepent_slot = slot;</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <a class="code" href="../../d5/d8c/view_8qh.html#ae4043ba4831a9d580ebfc05793928b53">viewmodels</a>[slot].m_wepent_slot = slot;</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <span class="keywordtype">int</span> sf = ReadShort();</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <span class="keywordtype">int</span> sf = ReadInt24_t();</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordtype">int</span> i = 0;</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="preprocessor">        #define X(public, fld, set, sv, cl) { \</span></div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="preprocessor">            if (sf &amp; BIT(i)) { \</span></div>
@@ -306,7 +306,6 @@ $(document).ready(function(){initNavTree('dd/df2/wepent_8qc_source.html','../../
 <div class="ttc" id="wepent_8qh_html"><div class="ttname"><a href="../../d0/d56/wepent_8qh.html">wepent.qh</a></div></div>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00096">self.qh:96</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a7bb594d808e357274edee331b5ed2d35"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a></div><div class="ttdeci">void WriteShort(float data, float dest, float desto)</div></div>
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00033">main.qh:33</a></div></div>
 <div class="ttc" id="weapons_2weapon_8qh_html_ac3cbbc1f9884e78a2816ff88760748d5"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#ac3cbbc1f9884e78a2816ff88760748d5">weaponslot</a></div><div class="ttdeci">int weaponslot(.entity weaponentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00016">weapon.qh:16</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
@@ -322,7 +321,7 @@ $(document).ready(function(){initNavTree('dd/df2/wepent_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dd/df2/wepent_8qc.html">wepent.qc</a></li>
-    <li class="footer">Generated on Fri Feb 16 2018 07:04:01 for Xonotic by
+    <li class="footer">Generated on Fri Feb 16 2018 11:19:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
