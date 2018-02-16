@@ -1,5 +1,11 @@
 var NAVTREEINDEX89 =
 {
+"d9/deb/classXonoticHUDTimerDialog.html#a43eac0d1e22668e15dac104b83dc17dd":[1,0,198,24],
+"d9/deb/classXonoticHUDTimerDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,198,75],
+"d9/deb/classXonoticHUDTimerDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,198,23],
+"d9/deb/classXonoticHUDTimerDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,198,50],
+"d9/deb/classXonoticHUDTimerDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,198,28],
+"d9/deb/classXonoticHUDTimerDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,198,57],
 "d9/deb/classXonoticHUDTimerDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,198,34],
 "d9/deb/classXonoticHUDTimerDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,198,42],
 "d9/deb/classXonoticHUDTimerDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,198,64],
@@ -243,11 +249,5 @@ var NAVTREEINDEX89 =
 "da/d13/classShockwave.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,118,7],
 "da/d13/classShockwave.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,118,12],
 "da/d13/classShockwave.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,118,40],
-"da/d13/classShockwave.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,118,9],
-"da/d13/classShockwave.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,118,4],
-"da/d13/classShockwave.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,118,39],
-"da/d13/classShockwave.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,118,24],
-"da/d13/classShockwave.html#adce573c56f03f0bc817eb4c8e21bc522":[1,0,118,30],
-"da/d13/classShockwave.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,118,19],
-"da/d16/dialog__settings__user__languagewarning_8qc.html":[2,0,5,4,152]
+"da/d13/classShockwave.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,118,9]
 };

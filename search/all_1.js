@@ -377,6 +377,7 @@ var searchData=
   ['arc',['Arc',['../db/d3c/classArc.html',1,'']]],
   ['arc_2eqc',['arc.qc',['../da/d11/arc_8qc.html',1,'']]],
   ['arc_2eqh',['arc.qh',['../de/d5b/arc_8qh.html',1,'']]],
+  ['arc_5fheat_5fpercent',['arc_heat_percent',['../d0/d56/wepent_8qh.html#a274ebc50c36cc08ff2938933275f5ed5',1,'wepent.qh']]],
   ['arecpsneighbor',['arecpsneighbor',['../d7/dd0/sv__onslaught_8qh.html#a019ea322c4d8ca223e33077996f3acbe',1,'sv_onslaught.qh']]],
   ['aregensneighbor',['aregensneighbor',['../d7/dd0/sv__onslaught_8qh.html#af5e8fbcef39e76d4d4f821f52d531190',1,'sv_onslaught.qh']]],
   ['arg_5fcase',['ARG_CASE',['../d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866',1,'ARG_CASE():&#160;all.qc'],['../d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866',1,'ARG_CASE():&#160;all.qc'],['../d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866',1,'ARG_CASE():&#160;all.qc'],['../d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866',1,'ARG_CASE():&#160;all.qc']]],

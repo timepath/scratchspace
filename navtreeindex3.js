@@ -1,5 +1,11 @@
 var NAVTREEINDEX3 =
 {
+"d0/d72/lib_2warpzone_2client_8qc.html#abdabd8f2f4e643c7ff8d28c25f700828":[2,0,4,2,4,1],
+"d0/d72/lib_2warpzone_2client_8qc.html#abeb07031623afbfcb1e815119e202613":[2,0,4,2,4,10],
+"d0/d72/lib_2warpzone_2client_8qc.html#ac8ca9dc6a9031a9fc661e02bb4a4ceb5":[2,0,4,2,4,0],
+"d0/d72/lib_2warpzone_2client_8qc.html#ae0b24f16471241165896f8ef99213be5":[2,0,4,2,4,7],
+"d0/d72/lib_2warpzone_2client_8qc.html#ae5f8c1940ba6ccc011c2d4e99f733874":[2,0,4,2,4,8],
+"d0/d72/lib_2warpzone_2client_8qc.html#aed3158abfa5d076da43023711521d169":[2,0,4,2,4,9],
 "d0/d72/lib_2warpzone_2client_8qc_source.html":[2,0,4,2,4],
 "d0/d77/cl__buffs_8qc.html":[2,0,1,9,0,2,5],
 "d0/d77/cl__buffs_8qc.html#a5b7d28375ba7f15543effc2c3b4f7ed1":[2,0,1,9,0,2,5,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX3 =
 "d0/d91/handicap_8qh.html#ac42efcf2d233a8425c35dbfc9fccc278":[2,0,6,34,1],
 "d0/d91/handicap_8qh_source.html":[2,0,6,34],
 "d0/d93/common_2mutators_2mutator_2superspec_2__mod_8inc.html":[2,0,1,9,0,33,0],
-"d0/d93/common_2mutators_2mutator_2superspec_2__mod_8inc_source.html":[2,0,1,9,0,33,0],
-"d0/d95/menudefs_8qh.html":[2,0,2,4],
-"d0/d95/menudefs_8qh.html#a03da3a537f9764333e85cbed8b52f4e4":[2,0,2,4,6],
-"d0/d95/menudefs_8qh.html#a2ac3100017ecf2236493ea038c4d2083":[2,0,2,4,11],
-"d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3":[2,0,2,4,4],
-"d0/d95/menudefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7":[2,0,2,4,12],
-"d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46":[2,0,2,4,18]
+"d0/d93/common_2mutators_2mutator_2superspec_2__mod_8inc_source.html":[2,0,1,9,0,33,0]
 };

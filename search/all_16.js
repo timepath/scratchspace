@@ -233,7 +233,7 @@ var searchData=
   ['vortex_5fcharge',['vortex_charge',['../d0/d56/wepent_8qh.html#a007e97f904a08307b01bb1e9d9bb4441',1,'vortex_charge():&#160;wepent.qh'],['../d5/d26/server_2defs_8qh.html#a007e97f904a08307b01bb1e9d9bb4441',1,'vortex_charge():&#160;defs.qh']]],
   ['vortex_5fcharge_5fmovingavg',['vortex_charge_movingavg',['../d9/d08/client_2defs_8qh.html#aa772d09df7232c2d366923420928b7d7',1,'defs.qh']]],
   ['vortex_5fcharge_5frottime',['vortex_charge_rottime',['../d5/d26/server_2defs_8qh.html#a034d7dc235642e26bd4ecc95532ed089',1,'defs.qh']]],
-  ['vortex_5fchargepool_5fammo',['vortex_chargepool_ammo',['../d5/d26/server_2defs_8qh.html#a1af62b08fa4568eb824b39cccc803e57',1,'defs.qh']]],
+  ['vortex_5fchargepool_5fammo',['vortex_chargepool_ammo',['../d0/d56/wepent_8qh.html#a1af62b08fa4568eb824b39cccc803e57',1,'vortex_chargepool_ammo():&#160;wepent.qh'],['../d5/d26/server_2defs_8qh.html#a1af62b08fa4568eb824b39cccc803e57',1,'vortex_chargepool_ammo():&#160;defs.qh']]],
   ['vote_2eqc',['vote.qc',['../df/d1f/client_2hud_2panel_2vote_8qc.html',1,'']]],
   ['vote_2eqc',['vote.qc',['../d1/dad/server_2command_2vote_8qc.html',1,'']]],
   ['vote_2eqh',['vote.qh',['../d9/d28/client_2hud_2panel_2vote_8qh.html',1,'']]],

@@ -1,5 +1,11 @@
 var NAVTREEINDEX44 =
 {
+"d4/da9/classRaptorBomb.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,109,24],
+"d4/da9/classRaptorBomb.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,109,28],
+"d4/da9/classRaptorBomb.html#ae99fad3a1cbbfab6c5829f2abe011f50":[1,0,109,29],
+"d4/da9/classRaptorBomb.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,109,19],
+"d4/da9/racetimer_8qh.html":[2,0,0,1,0,29],
+"d4/da9/racetimer_8qh_source.html":[2,0,0,1,0,29],
 "d4/dab/common_2command_2reg_8qh.html":[2,0,1,0,8],
 "d4/dab/common_2command_2reg_8qh.html#a70e24940494d5de16a261d29b1a2aa17":[2,0,1,0,8,0],
 "d4/dab/common_2command_2reg_8qh.html#a791add0085e48bf07060bbc03cf2076e":[2,0,1,0,8,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX44 =
 "d4/dd7/movetypes_8qh.html#a9d8f05707745e18415d786a00cd398e8":[2,0,1,11,0,6,34],
 "d4/dd7/movetypes_8qh.html#a9dc4beb8296f404512228731929339d3":[2,0,1,11,0,6,31],
 "d4/dd7/movetypes_8qh.html#a9eab855e43664a019197c6c63e17698b":[2,0,1,11,0,6,23],
-"d4/dd7/movetypes_8qh.html#aa9a451c248f6edd8b206c427c6c9eea5":[2,0,1,11,0,6,19],
-"d4/dd7/movetypes_8qh.html#aaa2abfa04cefcf14baf80ba2ec1eb96c":[2,0,1,11,0,6,42],
-"d4/dd7/movetypes_8qh.html#ab272cbf23bd04d5cc6181d3b4d61d0be":[2,0,1,11,0,6,15],
-"d4/dd7/movetypes_8qh.html#ab732e709f5cda6ca05a2af0b8d52ba29":[2,0,1,11,0,6,35],
-"d4/dd7/movetypes_8qh.html#abb1ac1b4eea6138162b84796904eb961":[2,0,1,11,0,6,39],
-"d4/dd7/movetypes_8qh.html#abc94399163b20fbffafbcdaeda0f8db5":[2,0,1,11,0,6,30],
-"d4/dd7/movetypes_8qh.html#abe20324d138f110c779274c157be381f":[2,0,1,11,0,6,14]
+"d4/dd7/movetypes_8qh.html#aa9a451c248f6edd8b206c427c6c9eea5":[2,0,1,11,0,6,19]
 };
