@@ -302,8 +302,6 @@ var searchData=
   ['stat_5frockets',['STAT_ROCKETS',['../d4/d0c/csprogsdefs_8qc.html#a482598322339b31a315687ff6e2742fa',1,'csprogsdefs.qc']]],
   ['stat_5fsecrets',['STAT_SECRETS',['../d4/d0c/csprogsdefs_8qc.html#a0193d02d6790d3ae56c643fc9e7940d3',1,'csprogsdefs.qc']]],
   ['stat_5fshells',['STAT_SHELLS',['../d4/d0c/csprogsdefs_8qc.html#a69c9eb3ca6934e0eb8d613724716089d',1,'csprogsdefs.qc']]],
-  ['stat_5fsv_5fairspeedlimit_5fnonqw',['stat_sv_airspeedlimit_nonqw',['../d3/d5a/gamemode__keepaway_8qc.html#a995e86d280021c8000db55230fdd8d3e',1,'gamemode_keepaway.qc']]],
-  ['stat_5fsv_5fmaxspeed',['stat_sv_maxspeed',['../d4/db0/sv__instagib_8qc.html#a65e7d1969880edb647187cc3b4e726d3',1,'stat_sv_maxspeed():&#160;sv_instagib.qc'],['../d3/d5a/gamemode__keepaway_8qc.html#a65e7d1969880edb647187cc3b4e726d3',1,'stat_sv_maxspeed():&#160;gamemode_keepaway.qc']]],
   ['stat_5ftimelimit',['STAT_TIMELIMIT',['../d4/d0c/csprogsdefs_8qc.html#a055b14c46b3ba21283838f894fd4e55a',1,'csprogsdefs.qc']]],
   ['stat_5ftotalmonsters',['STAT_TOTALMONSTERS',['../d4/d0c/csprogsdefs_8qc.html#af7c9c0d734b32689c16c095ec4ae0ed5',1,'csprogsdefs.qc']]],
   ['stat_5ftotalsecrets',['STAT_TOTALSECRETS',['../d4/d0c/csprogsdefs_8qc.html#a3abcbe60732913a684a0f63395dcc7ea',1,'csprogsdefs.qc']]],

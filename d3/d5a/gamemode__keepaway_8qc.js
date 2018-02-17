@@ -21,7 +21,7 @@ var gamemode__keepaway_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#add9a3756731cc193372ef5d5d4a08a19", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#a874de11742ef646678478f754fb9f9a3", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#a45710b7e0f6e57e43d8b165101b31633", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#aef376836443f991b39bdeec12481c77f", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#aef17255ceaf5984e1b6723b21ae8d218", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#ad4e8c81b013ed5fc66860eea91d3fbbe", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#ac56343a42be8444de1d0c74ab49cae54", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#a5e966e01839087249528dcad332461d8", null ],
@@ -45,7 +45,5 @@ var gamemode__keepaway_8qc =
     [ "autocvar_g_keepawayball_respawntime", "d3/d5a/gamemode__keepaway_8qc.html#a6162a2543abaa5c266f0a1dc7ed7e416", null ],
     [ "autocvar_g_keepawayball_trail_color", "d3/d5a/gamemode__keepaway_8qc.html#a13708f1533019ac55a65ce8d8d82f0a7", null ],
     [ "ballcarried", "d3/d5a/gamemode__keepaway_8qc.html#a137a4251a46a5fea7db7d4f16b190dcb", null ],
-    [ "pushable", "d3/d5a/gamemode__keepaway_8qc.html#a62c381a8dd53927f035d3f51b303e108", null ],
-    [ "stat_sv_airspeedlimit_nonqw", "d3/d5a/gamemode__keepaway_8qc.html#a995e86d280021c8000db55230fdd8d3e", null ],
-    [ "stat_sv_maxspeed", "d3/d5a/gamemode__keepaway_8qc.html#a65e7d1969880edb647187cc3b4e726d3", null ]
+    [ "pushable", "d3/d5a/gamemode__keepaway_8qc.html#a62c381a8dd53927f035d3f51b303e108", null ]
 ];

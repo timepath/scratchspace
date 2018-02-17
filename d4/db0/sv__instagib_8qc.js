@@ -15,7 +15,7 @@ var sv__instagib_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a6e8bb838e669fe5e8e4ec744935b4368", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a60211905a2560da8b7ca54fba5bf5dd3", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a3f2532fa2b1efced2478887115ad03bb", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a43ac1365b3343b3f65ce550800c65e75", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a5b94e188030a4b685e20e86889e7843d", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#aa093104d2d1bf0da884234ef4f5eaa52", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a98a5d3098deab4f34f24ea7dc3b56e4a", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#ac81799130b32b86ba497c5c8908ecff8", null ],
@@ -43,6 +43,5 @@ var sv__instagib_8qc =
     [ "autocvar_g_instagib_mirrordamage", "d4/db0/sv__instagib_8qc.html#a7ca8902e2ca213af048e4e23a82a8784", null ],
     [ "autocvar_g_instagib_speed_highspeed", "d4/db0/sv__instagib_8qc.html#ad1fd29211b9a3896b05bd64a4d7f746b", null ],
     [ "instagib_needammo", "d4/db0/sv__instagib_8qc.html#a554958a3958a9d1c380533878187ce8c", null ],
-    [ "instagib_nextthink", "d4/db0/sv__instagib_8qc.html#a76ae79b41dba64f62cf2fa76c60eda6e", null ],
-    [ "stat_sv_maxspeed", "d4/db0/sv__instagib_8qc.html#a65e7d1969880edb647187cc3b4e726d3", null ]
+    [ "instagib_nextthink", "d4/db0/sv__instagib_8qc.html#a76ae79b41dba64f62cf2fa76c60eda6e", null ]
 ];

@@ -1,8 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"d7/d39/sv__rules_8qc_source.html":[2,0,1,3,5],
-"d7/d42/dialog__multiplayer__join_8qh.html":[2,0,5,4,95],
-"d7/d42/dialog__multiplayer__join_8qh.html#a23af548c6170f613544cf2ccd36bbdc4":[2,0,5,4,95,1],
 "d7/d42/dialog__multiplayer__join_8qh_source.html":[2,0,5,4,95],
 "d7/d44/sv__running__guns_8qc.html":[2,0,1,9,0,30,2],
 "d7/d44/sv__running__guns_8qc.html#a3fdeffef403dc4ccf4850477197c5633":[2,0,1,9,0,30,2,1],
@@ -249,5 +246,8 @@ var NAVTREEINDEX64 =
 "d7/d71/lib_2warpzone_2common_8qh.html#a11b3824974fbada338b4128822e78c90":[2,0,4,2,7,18],
 "d7/d71/lib_2warpzone_2common_8qh.html#a13727adbd82720336c36d3886c8fa3e5":[2,0,4,2,7,37],
 "d7/d71/lib_2warpzone_2common_8qh.html#a14c2a8bd301ac8d49c0064f68066a256":[2,0,4,2,7,24],
-"d7/d71/lib_2warpzone_2common_8qh.html#a14cf6d888d7b4d234b4ddf24f925ce2d":[2,0,4,2,7,30]
+"d7/d71/lib_2warpzone_2common_8qh.html#a14cf6d888d7b4d234b4ddf24f925ce2d":[2,0,4,2,7,30],
+"d7/d71/lib_2warpzone_2common_8qh.html#a14f4fc2c65ce6e5be0cc8b508e29139f":[2,0,4,2,7,7],
+"d7/d71/lib_2warpzone_2common_8qh.html#a17cfeb262bd72e8d8dbfed975860037c":[2,0,4,2,7,36],
+"d7/d71/lib_2warpzone_2common_8qh.html#a191c61933b716c17f4aaac24e9049664":[2,0,4,2,7,13]
 };

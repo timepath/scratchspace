@@ -1,8 +1,5 @@
 var NAVTREEINDEX107 =
 {
-"db/dfa/classPlasmaAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,97,3],
-"db/dfa/classPlasmaAttack.html#a7515d4131829927372fd6583d4ae610a":[1,0,97,0],
-"db/dfa/classPlasmaAttack.html#a7743c52f3dec3ee134a204bdedb78e21":[1,0,97,35],
 "db/dfa/classPlasmaAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,97,38],
 "db/dfa/classPlasmaAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,97,31],
 "db/dfa/classPlasmaAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,97,6],
@@ -249,5 +246,8 @@ var NAVTREEINDEX107 =
 "dc/d06/classDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,28,41],
 "dc/d06/classDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,28,82],
 "dc/d06/classDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,28,10],
-"dc/d0f/lib_2csqcmodel_2__mod_8inc.html":[2,0,4,0,0]
+"dc/d0f/lib_2csqcmodel_2__mod_8inc.html":[2,0,4,0,0],
+"dc/d0f/lib_2csqcmodel_2__mod_8inc_source.html":[2,0,4,0,0],
+"dc/d0f/slider__sbfadetime_8qc.html":[2,0,5,4,214],
+"dc/d0f/slider__sbfadetime_8qc.html#a0fd1cbd25929848decdc46aa8e267e85":[2,0,5,4,214,2]
 };
