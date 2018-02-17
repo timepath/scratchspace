@@ -1,9 +1,8 @@
 var NAVTREEINDEX44 =
 {
-"d4/da9/classRaptorBomb.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,109,24],
-"d4/da9/classRaptorBomb.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,109,28],
-"d4/da9/classRaptorBomb.html#ae99fad3a1cbbfab6c5829f2abe011f50":[1,0,109,29],
-"d4/da9/classRaptorBomb.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,109,19],
+"d4/da9/classRaptorBomb.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,110,28],
+"d4/da9/classRaptorBomb.html#ae99fad3a1cbbfab6c5829f2abe011f50":[1,0,110,29],
+"d4/da9/classRaptorBomb.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,110,19],
 "d4/da9/racetimer_8qh.html":[2,0,0,1,0,29],
 "d4/da9/racetimer_8qh_source.html":[2,0,0,1,0,29],
 "d4/dab/common_2command_2reg_8qh.html":[2,0,1,0,8],
@@ -136,8 +135,8 @@ var NAVTREEINDEX44 =
 "d4/db8/bigbutton_8qh_source.html":[2,0,5,4,3],
 "d4/dba/lightningarc_8qh.html":[2,0,1,2,0,11],
 "d4/dba/lightningarc_8qh_source.html":[2,0,1,2,0,11],
-"d4/dba/walljump_8qh.html":[2,0,1,9,0,37,3],
-"d4/dba/walljump_8qh_source.html":[2,0,1,9,0,37,3],
+"d4/dba/walljump_8qh.html":[2,0,1,9,0,38,3],
+"d4/dba/walljump_8qh_source.html":[2,0,1,9,0,38,3],
 "d4/dbb/centerprint_8qc.html":[2,0,0,1,0,4],
 "d4/dbb/centerprint_8qc.html#a082f8fc86d27131931e4c0b867b5daa0":[2,0,0,1,0,4,10],
 "d4/dbb/centerprint_8qc.html#a0ad399456d0f860f3792a12c7b90ec25":[2,0,0,1,0,4,14],
@@ -184,8 +183,8 @@ var NAVTREEINDEX44 =
 "d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,19,6],
 "d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,19,7],
 "d4/dcc/skin_8qh_source.html":[2,0,5,19],
-"d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc.html":[2,0,1,9,0,27,0],
-"d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc_source.html":[2,0,1,9,0,27,0],
+"d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc.html":[2,0,1,9,0,28,0],
+"d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc_source.html":[2,0,1,9,0,28,0],
 "d4/dce/weapons_8qh.html":[2,0,0,1,0,41],
 "d4/dce/weapons_8qh_source.html":[2,0,0,1,0,41],
 "d4/dd0/kill_8qh.html":[2,0,1,13,2,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX44 =
 "d4/dd7/movetypes_8qh.html#a9d8f05707745e18415d786a00cd398e8":[2,0,1,11,0,6,34],
 "d4/dd7/movetypes_8qh.html#a9dc4beb8296f404512228731929339d3":[2,0,1,11,0,6,31],
 "d4/dd7/movetypes_8qh.html#a9eab855e43664a019197c6c63e17698b":[2,0,1,11,0,6,23],
-"d4/dd7/movetypes_8qh.html#aa9a451c248f6edd8b206c427c6c9eea5":[2,0,1,11,0,6,19]
+"d4/dd7/movetypes_8qh.html#aa9a451c248f6edd8b206c427c6c9eea5":[2,0,1,11,0,6,19],
+"d4/dd7/movetypes_8qh.html#aaa2abfa04cefcf14baf80ba2ec1eb96c":[2,0,1,11,0,6,42]
 };

@@ -90,6 +90,7 @@ var annotated =
     [ "Nexposee", "d8/d95/classNexposee.html", "d8/d95/classNexposee" ],
     [ "Object", "d8/d4b/classObject.html", "d8/d4b/classObject" ],
     [ "Observer", "de/dab/classObserver.html", "de/dab/classObserver" ],
+    [ "OffhandBlaster", "df/df7/classOffhandBlaster.html", "df/df7/classOffhandBlaster" ],
     [ "OffhandHook", "da/dde/classOffhandHook.html", "da/dde/classOffhandHook" ],
     [ "OffhandWeapon", "d0/dbc/classOffhandWeapon.html", "d0/dbc/classOffhandWeapon" ],
     [ "Onslaught", "d0/dab/classOnslaught.html", "d0/dab/classOnslaught" ],

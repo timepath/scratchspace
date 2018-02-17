@@ -34,7 +34,6 @@ var weapons_2weapon_8qh =
     [ "WEP_TYPE_MELEE_SEC", "d2/d1c/weapons_2weapon_8qh.html#aba8f543af5c7b69830b87e35a3c7d2b8", null ],
     [ "WEP_TYPE_OTHER", "d2/d1c/weapons_2weapon_8qh.html#ae2980e4d3ccb9564827dd96026b7b1b1", null ],
     [ "WEP_TYPE_SPLASH", "d2/d1c/weapons_2weapon_8qh.html#a67d15873f7aa52ab9ed55706830a4f17", null ],
-    [ "WEP_TYPEMASK", "d2/d1c/weapons_2weapon_8qh.html#a3274285ca5d1ecd3a3ffb1d1683a9664", null ],
     [ "WS_CLEAR", "d2/d1c/weapons_2weapon_8qh.html#a6c2b41636e883c42725c457730c8701c", null ],
     [ "WS_DROP", "d2/d1c/weapons_2weapon_8qh.html#ad0bb51681cf0cb1275151afa8b5953c7", null ],
     [ "WS_INUSE", "d2/d1c/weapons_2weapon_8qh.html#a8cb060a205a71010c7ccc6bc72ba5331", null ],

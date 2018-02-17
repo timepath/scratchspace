@@ -1,5 +1,16 @@
 var NAVTREEINDEX96 =
 {
+"da/def/classClanArena.html#a4109ad22533b3aee7521df4dc36a516b":[1,0,17,11],
+"da/def/classClanArena.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,17,12],
+"da/def/classClanArena.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,17,8],
+"da/def/classClanArena.html#a689c2a1afc56d93f77ebdebad6b168bf":[1,0,17,10],
+"da/def/classClanArena.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,17,2],
+"da/def/classClanArena.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,17,15],
+"da/def/classClanArena.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,17,4],
+"da/def/classClanArena.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,17,3],
+"da/def/classClanArena.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,17,17],
+"da/def/classClanArena.html#aca750e744e5d1a4d337de74f06a92468":[1,0,17,13],
+"da/def/classClanArena.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,17,6],
 "da/def/classClanArena.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,17,7],
 "da/def/classClanArena.html#aef3a65f4987590d66b653b91180860ca":[1,0,17,9],
 "da/def/classClanArena.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,17,5],
@@ -238,16 +249,5 @@ var NAVTREEINDEX96 =
 "db/d15/api_8qh.html#a0375becf8030b1b6159611d74c885238":[2,0,6,0,5,21],
 "db/d15/api_8qh.html#a03a514f72d64cab07a07c86c2323ef6e":[2,0,6,0,5,19],
 "db/d15/api_8qh.html#a045a92c5195f8abf1d884beab42bc3f9":[2,0,6,0,5,73],
-"db/d15/api_8qh.html#a07cae87e1e2224dbffc8847e445d2c1e":[2,0,6,0,5,63],
-"db/d15/api_8qh.html#a0a6532b23d692dcf6dbab606bcbb430e":[2,0,6,0,5,99],
-"db/d15/api_8qh.html#a0a918fa85a2fe0eb06d7f1b4397007cc":[2,0,6,0,5,130],
-"db/d15/api_8qh.html#a0b031ceaaa5fdecc3a5213187509375c":[2,0,6,0,5,57],
-"db/d15/api_8qh.html#a0db40651441e28142df8beee126d70a3":[2,0,6,0,5,47],
-"db/d15/api_8qh.html#a0f917669c5fa1a779096bb3e65e5c1e0":[2,0,6,0,5,10],
-"db/d15/api_8qh.html#a12f544fc3d566cb53d723cd353953f9b":[2,0,6,0,5,151],
-"db/d15/api_8qh.html#a1600fb4bfb6b587e1340942d93c0e28f":[2,0,6,0,5,94],
-"db/d15/api_8qh.html#a16465cf087c71e05a2a1cefaaa09093f":[2,0,6,0,5,88],
-"db/d15/api_8qh.html#a179e3b775f919c65b3b961ef5c2262b9":[2,0,6,0,5,44],
-"db/d15/api_8qh.html#a17f026bc605b19615b9e3e37d532b822":[2,0,6,0,5,15],
-"db/d15/api_8qh.html#a1a9a9bff5b5adab2c3aa76636c5726d5":[2,0,6,0,5,86]
+"db/d15/api_8qh.html#a07cae87e1e2224dbffc8847e445d2c1e":[2,0,6,0,5,63]
 };

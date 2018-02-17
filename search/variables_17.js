@@ -157,7 +157,6 @@ var searchData=
   ['wep_5ftype_5fmelee_5fsec',['WEP_TYPE_MELEE_SEC',['../d2/d1c/weapons_2weapon_8qh.html#aba8f543af5c7b69830b87e35a3c7d2b8',1,'weapon.qh']]],
   ['wep_5ftype_5fother',['WEP_TYPE_OTHER',['../d2/d1c/weapons_2weapon_8qh.html#ae2980e4d3ccb9564827dd96026b7b1b1',1,'weapon.qh']]],
   ['wep_5ftype_5fsplash',['WEP_TYPE_SPLASH',['../d2/d1c/weapons_2weapon_8qh.html#a67d15873f7aa52ab9ed55706830a4f17',1,'weapon.qh']]],
-  ['wep_5ftypemask',['WEP_TYPEMASK',['../d2/d1c/weapons_2weapon_8qh.html#a3274285ca5d1ecd3a3ffb1d1683a9664',1,'weapon.qh']]],
   ['wepset_5fall',['WEPSET_ALL',['../d0/ddd/weapons_2all_8qh.html#aca4a85c57352de414c4102c55d4b66b4',1,'all.qh']]],
   ['wepset_5fsuperweapons',['WEPSET_SUPERWEAPONS',['../d0/ddd/weapons_2all_8qh.html#ae071d2505d0cf2cec38f15f05709b500',1,'all.qh']]],
   ['winnerdialog',['winnerDialog',['../df/d9b/menu_2xonotic_2util_8qc.html#a3a61ea33091b43730f8b686e78ecde5e',1,'util.qc']]],

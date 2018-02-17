@@ -22,6 +22,7 @@ var dir_4da3e250e03f6533f3c6916aa775b41c =
     [ "nades", "dir_17ef1929f5ae280d86dfb12dff4430d9.html", "dir_17ef1929f5ae280d86dfb12dff4430d9" ],
     [ "new_toys", "dir_ad4e2639993b003d9a31a6270d45c7d3.html", "dir_ad4e2639993b003d9a31a6270d45c7d3" ],
     [ "nix", "dir_d2cfd6a11dc922a7fa47e23507d8dce8.html", "dir_d2cfd6a11dc922a7fa47e23507d8dce8" ],
+    [ "offhand_blaster", "dir_a993029d89893142644083f45fb3555c.html", "dir_a993029d89893142644083f45fb3555c" ],
     [ "overkill", "dir_9f0ba747dc6b4bb85fdadc94258260f2.html", "dir_9f0ba747dc6b4bb85fdadc94258260f2" ],
     [ "physical_items", "dir_b6c97c161207b1661a8199c6053818da.html", "dir_b6c97c161207b1661a8199c6053818da" ],
     [ "pinata", "dir_f94bb8a79d431502b6e1e127643ac2d2.html", "dir_f94bb8a79d431502b6e1e127643ac2d2" ],

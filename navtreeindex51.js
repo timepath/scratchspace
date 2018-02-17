@@ -1,6 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"d5/dac/server_2scores_8qh.html#aa5ca3a39735c2fd63ad4d8355b945ebd":[2,0,6,63,5],
 "d5/dac/server_2scores_8qh.html#aa70e08e25e069e368d303726e1c91dff":[2,0,6,63,11],
 "d5/dac/server_2scores_8qh.html#ab30d5582c88443bdee741643bb7d4f06":[2,0,6,63,22],
 "d5/dac/server_2scores_8qh.html#ac2910acfbb93cf36746a652569008dce":[2,0,6,63,29],
@@ -24,12 +23,12 @@ var NAVTREEINDEX51 =
 "d5/db3/common_2mutators_2mutator_2dynamic__handicap_2__mod_8inc_source.html":[2,0,1,9,0,9,0],
 "d5/db4/halflife_8qh.html":[2,0,6,2,3],
 "d5/db4/halflife_8qh_source.html":[2,0,6,2,3],
-"d5/dbc/common_2mutators_2mutator_2vampire_2__mod_8qh.html":[2,0,1,9,0,35,1],
-"d5/dbc/common_2mutators_2mutator_2vampire_2__mod_8qh_source.html":[2,0,1,9,0,35,1],
+"d5/dbc/common_2mutators_2mutator_2vampire_2__mod_8qh.html":[2,0,1,9,0,36,1],
+"d5/dbc/common_2mutators_2mutator_2vampire_2__mod_8qh_source.html":[2,0,1,9,0,36,1],
 "d5/dc0/common_2minigames_2__mod_8qh.html":[2,0,1,6,2],
 "d5/dc0/common_2minigames_2__mod_8qh_source.html":[2,0,1,6,2],
-"d5/dc1/sv__touchexplode_8qh.html":[2,0,1,9,0,34,3],
-"d5/dc1/sv__touchexplode_8qh_source.html":[2,0,1,9,0,34,3],
+"d5/dc1/sv__touchexplode_8qh.html":[2,0,1,9,0,35,3],
+"d5/dc1/sv__touchexplode_8qh_source.html":[2,0,1,9,0,35,3],
 "d5/dc4/hook_8qh.html":[2,0,1,16,0,19],
 "d5/dc4/hook_8qh.html#a26c1ac788f42d8ea1729fee825f749fd":[2,0,1,16,0,19,5],
 "d5/dc4/hook_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,19,2],
@@ -89,8 +88,8 @@ var NAVTREEINDEX51 =
 "d5/dd4/cl__vehicles_8qh.html#aa60049ea2d01943dd53fe6a3b3d53cd0":[2,0,1,15,6,0],
 "d5/dd4/cl__vehicles_8qh.html#aecd92213c981c895b1ce404d09ac99e7":[2,0,1,15,6,2],
 "d5/dd4/cl__vehicles_8qh_source.html":[2,0,1,15,6],
-"d5/dd5/common_2mutators_2mutator_2overkill_2__mod_8qh.html":[2,0,1,9,0,22,1],
-"d5/dd5/common_2mutators_2mutator_2overkill_2__mod_8qh_source.html":[2,0,1,9,0,22,1],
+"d5/dd5/common_2mutators_2mutator_2overkill_2__mod_8qh.html":[2,0,1,9,0,23,1],
+"d5/dd5/common_2mutators_2mutator_2overkill_2__mod_8qh_source.html":[2,0,1,9,0,23,1],
 "d5/dd7/gamemode__race_8qc.html":[2,0,6,3,0,24],
 "d5/dd7/gamemode__race_8qc.html#a02bcde94c04f24ea1782c35057913558":[2,0,6,3,0,24,14],
 "d5/dd7/gamemode__race_8qc.html#a1576aa6e1aed39bc358c4657222eb3f7":[2,0,6,3,0,24,22],
@@ -249,5 +248,6 @@ var NAVTREEINDEX51 =
 "d5/df2/common_2util_8qh.html#a7a1f2da448d59847e8c0633453024463":[2,0,1,50,62],
 "d5/df2/common_2util_8qh.html#a7bba22581c48edeef1bc42f981cc0913":[2,0,1,50,72],
 "d5/df2/common_2util_8qh.html#a7f2b14bfcc1079a34d35a8fb752b36e5":[2,0,1,50,19],
-"d5/df2/common_2util_8qh.html#a7fd3d494837d6da1d959ebbbd25a5b30":[2,0,1,50,11]
+"d5/df2/common_2util_8qh.html#a7fd3d494837d6da1d959ebbbd25a5b30":[2,0,1,50,11],
+"d5/df2/common_2util_8qh.html#a806ae111fdd93364b686ff2feb42bd17":[2,0,1,50,55]
 };

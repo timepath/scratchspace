@@ -1012,6 +1012,7 @@ var searchData=
   ['autocvar_5fg_5fnodepthtestitems',['autocvar_g_nodepthtestitems',['../d7/da7/server_2autocvars_8qh.html#ab32e56e714752de2473da95e56906350',1,'autocvars.qh']]],
   ['autocvar_5fg_5fnodepthtestplayers',['autocvar_g_nodepthtestplayers',['../d7/da7/server_2autocvars_8qh.html#aaed83a83fb1399a175c29c76376324e0',1,'autocvars.qh']]],
   ['autocvar_5fg_5fnorecoil',['autocvar_g_norecoil',['../d7/da7/server_2autocvars_8qh.html#a296f22d6734ec4a7e810ab022fb0a0be',1,'autocvars.qh']]],
+  ['autocvar_5fg_5foffhand_5fblaster',['autocvar_g_offhand_blaster',['../d8/de1/sv__offhand__blaster_8qc.html#ac82c26e97fbc4f80156e4387d355f5bd',1,'sv_offhand_blaster.qc']]],
   ['autocvar_5fg_5fonslaught_5fallow_5fvehicle_5ftouch',['autocvar_g_onslaught_allow_vehicle_touch',['../d0/de4/sv__onslaught_8qc.html#af08d52ad74cfb2e90d351bcbd5d896a2',1,'sv_onslaught.qc']]],
   ['autocvar_5fg_5fonslaught_5fclick_5fradius',['autocvar_g_onslaught_click_radius',['../d0/de4/sv__onslaught_8qc.html#a121039dd3305d67c0dc43de9427c47b6',1,'sv_onslaught.qc']]],
   ['autocvar_5fg_5fonslaught_5fcp_5fbuildhealth',['autocvar_g_onslaught_cp_buildhealth',['../d0/de4/sv__onslaught_8qc.html#a46163e95e49ae866a0e7b050d4d21743',1,'sv_onslaught.qc']]],

@@ -164,7 +164,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00014">14</a> of file <a class="el" href="../../d0/dd2/antilag_8qh_source.html">antilag.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00228">anticheat_fixangle()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00037">crosshair_trace()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00336">fireBullet()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00200">FireRailgunBullet()</a>, <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00057">W_HitPlotAnalysis()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00027">W_SetupShot_Dir_ProjectileSize_Range()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00064">WarpZone_crosshair_trace()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00228">anticheat_fixangle()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00037">crosshair_trace()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00339">fireBullet()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00203">FireRailgunBullet()</a>, <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00057">W_HitPlotAnalysis()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00027">W_SetupShot_Dir_ProjectileSize_Range()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00064">WarpZone_crosshair_trace()</a>.</p>
 
 </div>
 </div>
@@ -394,7 +394,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00100">antilag_restore()</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00422">g_monsters</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00437">g_projectiles</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00167">IL_EACH</a>, and <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00336">fireBullet()</a>, and <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00039">tracebox_antilag_force_wz()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00339">fireBullet()</a>, and <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00039">tracebox_antilag_force_wz()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;{</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != ignore, <a class="code" href="../../d4/dd8/antilag_8qc.html#ae0fbe788776aa76ba7139d692e9c7adb">antilag_restore</a>(it, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it)));</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2">g_monsters</a>, it != ignore,</div>
@@ -540,7 +540,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00085">antilag_takeback()</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00422">g_monsters</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00437">g_projectiles</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00167">IL_EACH</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00336">fireBullet()</a>, and <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00039">tracebox_antilag_force_wz()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00339">fireBullet()</a>, and <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00039">tracebox_antilag_force_wz()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;{</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != ignore, <a class="code" href="../../d4/dd8/antilag_8qc.html#ae42be1431ef90dedfc2cb8bf7b792bfd">antilag_takeback</a>(it, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it), <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - lag));</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2">g_monsters</a>, it != ignore,</div>
@@ -681,7 +681,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d0/dd2/antilag_8qh.html">antilag.qh</a></li>
-    <li class="footer">Generated on Sat Feb 17 2018 02:03:21 for Xonotic by
+    <li class="footer">Generated on Sat Feb 17 2018 06:24:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

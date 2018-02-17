@@ -234,6 +234,7 @@ var hierarchy =
       [ "Mutator", "d2/dcc/classMutator.html", null ],
       [ "Nade", "d9/d61/classNade.html", null ],
       [ "OffhandWeapon", "d0/dbc/classOffhandWeapon.html", [
+        [ "OffhandBlaster", "df/df7/classOffhandBlaster.html", null ],
         [ "OffhandHook", "da/dde/classOffhandHook.html", null ]
       ] ],
       [ "PlayerState", "d5/d7e/classPlayerState.html", null ],
