@@ -5,6 +5,7 @@ var quake3_8qc =
     [ "spawnfunc", "df/d42/quake3_8qc.html#ae6af28f0406185d406556f691af0f8f2", null ],
     [ "spawnfunc", "df/d42/quake3_8qc.html#a4dd02ae75f61d8a4517454c8e6f82f1e", null ],
     [ "target_give_init", "df/d42/quake3_8qc.html#a150f5bd0f1c8300bca00748f5222a9e6", null ],
+    [ "target_init_use", "df/d42/quake3_8qc.html#a8e4bde1ae214abebec59d65ca0c27df9", null ],
     [ "target_init_verify", "df/d42/quake3_8qc.html#a61742c0334dce4be11adeb7ba6664685", null ],
     [ "delay", "df/d42/quake3_8qc.html#abdc33cf25e725134a9b48e79c7031bcf", null ],
     [ "gametype", "df/d42/quake3_8qc.html#a2b5940622e65c2f4e246f117173ec146", null ],

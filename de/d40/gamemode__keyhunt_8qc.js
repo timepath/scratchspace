@@ -89,7 +89,6 @@ var gamemode__keyhunt_8qc =
     [ "kh_prev", "de/d40/gamemode__keyhunt_8qc.html#a7478343cacd66fb2eabd82baa3697669", null ],
     [ "kh_previous_owner", "de/d40/gamemode__keyhunt_8qc.html#ad745b6494337f4b4cfddc2f2c5c7a007", null ],
     [ "kh_previous_owner_playerid", "de/d40/gamemode__keyhunt_8qc.html#a453405eaf146ef48e63c4108bd3700ae", null ],
-    [ "kh_state", "de/d40/gamemode__keyhunt_8qc.html#a36f393191d5f262b0294675f4e78ac69", null ],
     [ "kh_teams", "de/d40/gamemode__keyhunt_8qc.html#ad854fcb1e82836772a09f1203345400d", null ],
     [ "kh_worldkeynext", "de/d40/gamemode__keyhunt_8qc.html#abb611131b031308c318e295ec74a375f", null ],
     [ "siren_time", "de/d40/gamemode__keyhunt_8qc.html#aa465e46bf7aed2129743d3e31e498590", null ],

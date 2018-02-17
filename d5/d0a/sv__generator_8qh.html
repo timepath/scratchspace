@@ -168,52 +168,50 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/dce/sv__generator_8qc_source.html#l00003">3</a> of file <a class="el" href="../../d8/dce/sv__generator_8qc_source.html">sv_generator.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil()</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00014">count</a>, <a class="el" href="../../d7/d64/cl__generator_8qh_source.html#l00007">GSF_SETUP</a>, <a class="el" href="../../d7/d64/cl__generator_8qh_source.html#l00006">GSF_STATUS</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00108">health</a>, <a class="el" href="../../db/dc8/cl__controlpoint_8qc_source.html#l00017">max_health</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00027">team</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil()</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00014">count</a>, <a class="el" href="../../d7/d64/cl__generator_8qh_source.html#l00007">GSF_SETUP</a>, <a class="el" href="../../d7/d64/cl__generator_8qh_source.html#l00006">GSF_STATUS</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00108">health</a>, <a class="el" href="../../db/dc8/cl__controlpoint_8qc_source.html#l00017">max_health</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00048">origin</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00027">team</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01003">ons_DelayedGeneratorSetup()</a>, and <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00976">ons_GeneratorReset()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00997">ons_DelayedGeneratorSetup()</a>, and <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00970">ons_GeneratorReset()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    WriteHeader(MSG_ENTITY, ENT_CLIENT_GENERATOR);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, sf);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span>(sf &amp; <a class="code" href="../../d7/d64/cl__generator_8qh.html#a9f0669b531fe7c64a7219a76b2a87f4b">GSF_SETUP</a>)</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.origin_x);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.origin_y);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.origin_z);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a>);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a>);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a>);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span>(sf &amp; <a class="code" href="../../d7/d64/cl__generator_8qh.html#ad7bf5b356dfdbc5ea9e6510ad568636b">GSF_STATUS</a>)</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> &lt;= 0)</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, 0);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <a class="code" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a>((this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> / this.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a>) * 255));</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        WriteVector(MSG_ENTITY, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a>);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a>);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a>);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    }</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span>(sf &amp; <a class="code" href="../../d7/d64/cl__generator_8qh.html#ad7bf5b356dfdbc5ea9e6510ad568636b">GSF_STATUS</a>)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> &lt;= 0)</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, 0);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <a class="code" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a>((this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> / this.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a>) * 255));</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
 <div class="ttc" id="client_2main_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00108">main.qh:108</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abd23315350cd01304b6bd77c4c5c07e6"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a></div><div class="ttdeci">void WriteByte(float data, float dest, float desto)</div></div>
+<div class="ttc" id="ent__cs_8qc_html_a06dbc3a3eb5aaab80edf32ea607f1ef3"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a></div><div class="ttdeci">origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00048">ent_cs.qc:48</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a22f100d9039928edd4e410c7d68858e7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a></div><div class="ttdeci">float ceil(float f)</div></div>
 <div class="ttc" id="powerups_8qc_html_afea6e77db19a2f8c91419904fe665a3a"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a></div><div class="ttdeci">float count</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00014">powerups.qc:14</a></div></div>
 <div class="ttc" id="cl__generator_8qh_html_a9f0669b531fe7c64a7219a76b2a87f4b"><div class="ttname"><a href="../../d7/d64/cl__generator_8qh.html#a9f0669b531fe7c64a7219a76b2a87f4b">GSF_SETUP</a></div><div class="ttdeci">const int GSF_SETUP</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d64/cl__generator_8qh_source.html#l00007">cl_generator.qh:7</a></div></div>
 <div class="ttc" id="cl__controlpoint_8qc_html_a163e03ef7146952b01f9ecbf3f144828"><div class="ttname"><a href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a></div><div class="ttdeci">float max_health</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dc8/cl__controlpoint_8qc_source.html#l00017">cl_controlpoint.qc:17</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
 <div class="ttc" id="cl__generator_8qh_html_ad7bf5b356dfdbc5ea9e6510ad568636b"><div class="ttname"><a href="../../d7/d64/cl__generator_8qh.html#ad7bf5b356dfdbc5ea9e6510ad568636b">GSF_STATUS</a></div><div class="ttdeci">const int GSF_STATUS</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d64/cl__generator_8qh_source.html#l00006">cl_generator.qh:6</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_aa8c03f058fec0c574e1bba13327f5a5b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a></div><div class="ttdeci">void WriteCoord(float data, float dest, float desto)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d0a/sv__generator_8qh_a8cc2a1b0e51e60f0e3609fbb9f14303e_cgraph.svg" width="259" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d0a/sv__generator_8qh_a8cc2a1b0e51e60f0e3609fbb9f14303e_cgraph.svg" width="251" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -293,7 +291,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_485953d51457a9f079ff3eef255d57d0.html">onslaught</a></li><li class="navelem"><a class="el" href="../../d5/d0a/sv__generator_8qh.html">sv_generator.qh</a></li>
-    <li class="footer">Generated on Sat Feb 17 2018 11:44:38 for Xonotic by
+    <li class="footer">Generated on Sat Feb 17 2018 16:48:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

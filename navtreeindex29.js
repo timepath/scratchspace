@@ -1,15 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"d3/d86/classXonoticMapList.html#a319082d05f1c9ac87a108b226216d222":[1,0,210,58],
-"d3/d86/classXonoticMapList.html#a346d3fd09bc071dc7877bd8506aa103c":[1,0,210,37],
-"d3/d86/classXonoticMapList.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,210,1],
-"d3/d86/classXonoticMapList.html#a405b285a76ac127664593c89281a5b63":[1,0,210,64],
-"d3/d86/classXonoticMapList.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,210,27],
-"d3/d86/classXonoticMapList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,210,91],
-"d3/d86/classXonoticMapList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,210,72],
-"d3/d86/classXonoticMapList.html#a565f8d33b46815606f1860162d71339a":[1,0,210,28],
-"d3/d86/classXonoticMapList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,210,11],
-"d3/d86/classXonoticMapList.html#a5a592418d202df087794904b673f731b":[1,0,210,3],
 "d3/d86/classXonoticMapList.html#a5b3ff67303f0c81b36c52c6f94a31f00":[1,0,210,42],
 "d3/d86/classXonoticMapList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,210,21],
 "d3/d86/classXonoticMapList.html#a60b086378934fd56f9d0b9950567c1bd":[1,0,210,85],
@@ -249,5 +239,15 @@ var NAVTREEINDEX29 =
 "d3/db2/classXonoticListBox.html#a764e355b65af202e87289c596432c780":[1,0,208,52],
 "d3/db2/classXonoticListBox.html#a7b13cdc101cd55528465440586a004f6":[1,0,208,49],
 "d3/db2/classXonoticListBox.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,208,13],
-"d3/db2/classXonoticListBox.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,208,63]
+"d3/db2/classXonoticListBox.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,208,63],
+"d3/db2/classXonoticListBox.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,208,70],
+"d3/db2/classXonoticListBox.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,208,61],
+"d3/db2/classXonoticListBox.html#a82217d761797df8a2e65054eab910734":[1,0,208,12],
+"d3/db2/classXonoticListBox.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,208,58],
+"d3/db2/classXonoticListBox.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,208,41],
+"d3/db2/classXonoticListBox.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,208,16],
+"d3/db2/classXonoticListBox.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,208,43],
+"d3/db2/classXonoticListBox.html#a955acbbda432fb19399292cbac96e0af":[1,0,208,51],
+"d3/db2/classXonoticListBox.html#aa089b7b1be6d628383e60c872a900c79":[1,0,208,50],
+"d3/db2/classXonoticListBox.html#aa0be1afcee01b4904e9b7ccc15674b53":[1,0,208,2]
 };

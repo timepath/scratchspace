@@ -130,150 +130,142 @@ $(document).ready(function(){initNavTree('dc/d20/modeleffects_8qc_source.html','
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2f3957a8a9e7c1c19755835bb81af37c">modelindex</a>);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a4a71e1a0228e5137bd88f375acd8c15c">skin</a>);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d3/de0/anim_8qh.html#ad7dbdcadf9186d41f82055ffdd9f7534">frame</a>);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a>.x);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a>.y);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a>.z);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">if</span>(f &amp; 1)</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a>.x);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a>.y);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a>.z);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">if</span>(f &amp; 2)</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>.x);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>.y);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>.z);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">if</span>(f &amp; 4)</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c">avelocity</a>.x);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c">avelocity</a>.y);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c">avelocity</a>.z);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(MSG_ENTITY, this.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> * 256.0);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(MSG_ENTITY, this.scale2 * 256.0);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a> * 100.0);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952">fade_time</a> * 100.0);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> * 255.0);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keywordtype">void</span> modeleffect_spawn(<span class="keywordtype">string</span> m, <span class="keywordtype">float</span> s, <span class="keywordtype">float</span> f, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> o, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ang, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> angv, <span class="keywordtype">float</span> s0, <span class="keywordtype">float</span> <a class="code" href="../../d9/d09/notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b">s2</a>, <span class="keywordtype">float</span> a, <span class="keywordtype">float</span> t1, <span class="keywordtype">float</span> t2)</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <span class="keyword">new</span>(modeleffect);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    _setmodel(e, m);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    e.frame = f;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, o);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    e.velocity = <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    e.angles = ang;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    e.avelocity = angv;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    e.alpha = a;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    e.teleport_time = t1;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    e.fade_time = t2;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    e.skin = s;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">if</span>(s0 &gt;= 0)</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        e.scale = s0 / max6(-e.mins.x, -e.mins.y, -e.mins.z, e.maxs.x, e.maxs.y, e.maxs.z);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    WriteVector(MSG_ENTITY, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a>);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">if</span>(f &amp; 1)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        WriteVector(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a>);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span>(f &amp; 2)</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>.x);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>.y);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>.z);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">if</span>(f &amp; 4)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c">avelocity</a>.x);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c">avelocity</a>.y);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c">avelocity</a>.z);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(MSG_ENTITY, this.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> * 256.0);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(MSG_ENTITY, this.scale2 * 256.0);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a> * 100.0);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952">fade_time</a> * 100.0);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> * 255.0);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keywordtype">void</span> modeleffect_spawn(<span class="keywordtype">string</span> m, <span class="keywordtype">float</span> s, <span class="keywordtype">float</span> f, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> o, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ang, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> angv, <span class="keywordtype">float</span> s0, <span class="keywordtype">float</span> <a class="code" href="../../d9/d09/notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b">s2</a>, <span class="keywordtype">float</span> a, <span class="keywordtype">float</span> t1, <span class="keywordtype">float</span> t2)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <span class="keyword">new</span>(modeleffect);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    _setmodel(e, m);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    e.frame = f;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, o);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    e.velocity = <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    e.angles = ang;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    e.avelocity = angv;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    e.alpha = a;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    e.teleport_time = t1;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    e.fade_time = t2;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    e.skin = s;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">if</span>(s0 &gt;= 0)</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        e.scale = s0 / max6(-e.mins.x, -e.mins.y, -e.mins.z, e.maxs.x, e.maxs.y, e.maxs.z);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        e.scale = -s0;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">if</span>(s2 &gt;= 0)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        e.scale2 = s2 / max6(-e.mins.x, -e.mins.y, -e.mins.z, e.maxs.x, e.maxs.y, e.maxs.z);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        e.scale = -s0;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">if</span>(s2 &gt;= 0)</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        e.scale2 = s2 / max6(-e.mins.x, -e.mins.y, -e.mins.z, e.maxs.x, e.maxs.y, e.maxs.z);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        e.scale2 = -<a class="code" href="../../d9/d09/notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b">s2</a>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">float</span> sz = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(e.scale, e.scale2);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    setsize(e, e.mins * sz, e.maxs * sz);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    Net_LinkEntity(e, <span class="keyword">false</span>, 0.1, modeleffect_SendEntity);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a052cccb98e880438ca55b8109ab4f22a">entityclass</a>(ModelEffect);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">class</span>(ModelEffect) .<span class="keywordtype">float</span> <a class="code" href="../../d3/de0/anim_8qh.html#a1be3853b80aca87ecf519b49dae181a1">frame1time</a>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">class</span>(ModelEffect) .<span class="keywordtype">float</span> <a class="code" href="../../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a">lifetime</a>, fadetime;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">class</span>(ModelEffect) .<span class="keywordtype">float</span> <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="keyword">class</span>(ModelEffect) .<span class="keywordtype">float</span> scale1, scale2;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        e.scale2 = -<a class="code" href="../../d9/d09/notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b">s2</a>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">float</span> sz = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(e.scale, e.scale2);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    setsize(e, e.mins * sz, e.maxs * sz);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    Net_LinkEntity(e, <span class="keyword">false</span>, 0.1, modeleffect_SendEntity);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a052cccb98e880438ca55b8109ab4f22a">entityclass</a>(ModelEffect);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keyword">class</span>(ModelEffect) .<span class="keywordtype">float</span> <a class="code" href="../../d3/de0/anim_8qh.html#a1be3853b80aca87ecf519b49dae181a1">frame1time</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keyword">class</span>(ModelEffect) .<span class="keywordtype">float</span> <a class="code" href="../../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a">lifetime</a>, fadetime;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keyword">class</span>(ModelEffect) .<span class="keywordtype">float</span> <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keyword">class</span>(ModelEffect) .<span class="keywordtype">float</span> scale1, scale2;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;.float <a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;.float <a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;.float <a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a>;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;.float <a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;.float <a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a>;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;.float <a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a>;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keywordtype">void</span> ModelEffect_Draw(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;{</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a> = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a> + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c">avelocity</a>;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a> + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a>);</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    this.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> = this.scale1 + (this.scale2 - this.scale1) * (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a>) / (this.lifetime + this.fadetime - this.<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a>);</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    this.<a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> = this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, 1 - (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.lifetime) / this.fadetime, 1);</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> &lt; <a class="code" href="../../d0/d2a/client_2main_8qh.html#a615430decaa9e99ecead42215bc1405c">ALPHA_MIN_VISIBLE</a>)</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    {</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a14769f9d8ebf5bb5c99f1cddeb99f567">drawmask</a> = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a8e6aea49b9bc341cc7a3e4bec79f866f">MASK_NORMAL</a>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> &lt;= 0)</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    {</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a14769f9d8ebf5bb5c99f1cddeb99f567">drawmask</a> = 0;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;}</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="keywordtype">void</span> ModelEffect_Draw(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a> = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a> + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c">avelocity</a>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a> + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a>);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    this.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> = this.scale1 + (this.scale2 - this.scale1) * (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a>) / (this.lifetime + this.fadetime - this.<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a>);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    this.<a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> = this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, 1 - (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.lifetime) / this.fadetime, 1);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> &lt; <a class="code" href="../../d0/d2a/client_2main_8qh.html#a615430decaa9e99ecead42215bc1405c">ALPHA_MIN_VISIBLE</a>)</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a14769f9d8ebf5bb5c99f1cddeb99f567">drawmask</a> = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a8e6aea49b9bc341cc7a3e4bec79f866f">MASK_NORMAL</a>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> &lt;= 0)</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a14769f9d8ebf5bb5c99f1cddeb99f567">drawmask</a> = 0;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<a class="code" href="../../d9/d48/lib_2net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a>(ENT_CLIENT_MODELEFFECT, <span class="keywordtype">bool</span> isnew)</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;{</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<a class="code" href="../../d9/d48/lib_2net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a>(ENT_CLIENT_MODELEFFECT, <span class="keywordtype">bool</span> isnew)</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;{</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordtype">int</span> f = ReadByte();</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <span class="keyword">new</span>(modeleffect);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    e.model = <span class="stringliteral">&quot;from network&quot;</span>;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    e.modelindex = ReadShort();</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    e.skin = ReadByte();</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    e.frame = ReadByte();</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    e.frame1time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    e.origin_x = ReadCoord();</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    e.origin_y = ReadCoord();</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    e.origin_z = ReadCoord();</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, e.origin);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordflow">if</span>(f &amp; 1)</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    {</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        e.velocity_x = ReadCoord();</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        e.velocity_y = ReadCoord();</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        e.velocity_z = ReadCoord();</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordflow">if</span>(f &amp; 2)</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    {</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        e.angles_x = ReadAngle();</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        e.angles_y = ReadAngle();</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        e.angles_z = ReadAngle();</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">if</span>(f &amp; 4)</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    {</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        e.avelocity_x = ReadAngle();</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        e.avelocity_y = ReadAngle();</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        e.avelocity_z = ReadAngle();</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    }</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    e.scale1 = ReadShort() / 256.0;</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    e.scale2 = ReadShort() / 256.0;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    e.lifetime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + ReadByte() * 0.01;</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    e.fadetime = ReadByte() * 0.01;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    e.teleport_time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    e.cnt = ReadByte() / 255.0; <span class="comment">// actually alpha</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    e.draw = ModelEffect_Draw;</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordflow">if</span> (isnew) <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a316bdc2bc1d8268a59af7a495015b438">g_drawables</a>, e);</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">if</span> (!isnew) <span class="keyword">delete</span>(e); <span class="comment">// yes, this IS stupid, but I don&#39;t need to duplicate all the read* stuff then</span></div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;}</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordtype">int</span> f = ReadByte();</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <span class="keyword">new</span>(modeleffect);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    e.model = <span class="stringliteral">&quot;from network&quot;</span>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    e.modelindex = ReadShort();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    e.skin = ReadByte();</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    e.frame = ReadByte();</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    e.frame1time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    e.origin = ReadVector();</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, e.origin);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">if</span>(f &amp; 1)</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        e.velocity = ReadVector();</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">if</span>(f &amp; 2)</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        e.angles_x = ReadAngle();</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        e.angles_y = ReadAngle();</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        e.angles_z = ReadAngle();</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">if</span>(f &amp; 4)</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        e.avelocity_x = ReadAngle();</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        e.avelocity_y = ReadAngle();</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        e.avelocity_z = ReadAngle();</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    e.scale1 = ReadShort() / 256.0;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    e.scale2 = ReadShort() / 256.0;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    e.lifetime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + ReadByte() * 0.01;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    e.fadetime = ReadByte() * 0.01;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    e.teleport_time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    e.cnt = ReadByte() / 255.0; <span class="comment">// actually alpha</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    e.draw = ModelEffect_Draw;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordflow">if</span> (isnew) <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a316bdc2bc1d8268a59af7a495015b438">g_drawables</a>, e);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">if</span> (!isnew) <span class="keyword">delete</span>(e); <span class="comment">// yes, this IS stupid, but I don&#39;t need to duplicate all the read* stuff then</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;}</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="client_2main_8qh_html_a615430decaa9e99ecead42215bc1405c"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a615430decaa9e99ecead42215bc1405c">ALPHA_MIN_VISIBLE</a></div><div class="ttdeci">const float ALPHA_MIN_VISIBLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00086">main.qh:86</a></div></div>
 <div class="ttc" id="lib_2net_8qh_html_aa6e94cffdff0047482b6f3bba33935de"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#aa6e94cffdff0047482b6f3bba33935de">REGISTER_NET_LINKED</a></div><div class="ttdeci">#define REGISTER_NET_LINKED(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00066">net.qh:66</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_a4a71e1a0228e5137bd88f375acd8c15c"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a4a71e1a0228e5137bd88f375acd8c15c">skin</a></div><div class="ttdeci">skin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00072">ent_cs.qc:72</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a59214cfc9d36ddbc2ca9c6a7e2ec5952"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952">fade_time</a></div><div class="ttdeci">float fade_time</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00063">defs.qh:63</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abd23315350cd01304b6bd77c4c5c07e6"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a></div><div class="ttdeci">void WriteByte(float data, float dest, float desto)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a2f3957a8a9e7c1c19755835bb81af37c"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a2f3957a8a9e7c1c19755835bb81af37c">modelindex</a></div><div class="ttdeci">float modelindex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00091">csprogsdefs.qc:91</a></div></div>
-<div class="ttc" id="common_2physics_2player_8qh_html_a5b22fb02e46104adf892ccf37392f741"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a></div><div class="ttdeci">float teleport_time</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00173">player.qh:173</a></div></div>
+<div class="ttc" id="common_2physics_2player_8qh_html_a5b22fb02e46104adf892ccf37392f741"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a></div><div class="ttdeci">float teleport_time</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00168">player.qh:168</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a8e6aea49b9bc341cc7a3e4bec79f866f"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a8e6aea49b9bc341cc7a3e4bec79f866f">MASK_NORMAL</a></div><div class="ttdeci">const int MASK_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00006">csqc_constants.qh:6</a></div></div>
 <div class="ttc" id="lib_2net_8qh_html_a2c87ee9a4aa12245bb6e80f321975ded"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a></div><div class="ttdeci">#define NET_HANDLE(id, param)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00012">net.qh:12</a></div></div>
@@ -310,7 +302,7 @@ $(document).ready(function(){initNavTree('dc/d20/modeleffects_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_f54d74b0e9ac4c004ab42fc4ec4fcb87.html">effects</a></li><li class="navelem"><a class="el" href="../../dir_1e905c8c0e92136a54b32c53d0aef8dd.html">qc</a></li><li class="navelem"><a class="el" href="../../dc/d20/modeleffects_8qc.html">modeleffects.qc</a></li>
-    <li class="footer">Generated on Sat Feb 17 2018 11:44:31 for Xonotic by
+    <li class="footer">Generated on Sat Feb 17 2018 16:48:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

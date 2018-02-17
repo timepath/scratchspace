@@ -158,7 +158,6 @@ var searchData=
   ['ping_5fpacketloss',['ping_packetloss',['../d1/d37/classClient.html#a9c57279f6f4beda5ed8b56fc05e4c733',1,'Client::ping_packetloss()'],['../d0/d2a/client_2main_8qh.html#a2a7d9a9aaf21d2c888a2b7deb4fa3ce2',1,'ping_packetloss():&#160;main.qh'],['../de/d5e/dpextensions_8qc.html#a2a7d9a9aaf21d2c888a2b7deb4fa3ce2',1,'ping_packetloss():&#160;dpextensions.qc']]],
   ['pingplreport',['pingplreport',['../db/dcc/g__world_8qc.html#a3cdf631d5bca38ae9ce59e2b029eaf3a',1,'g_world.qc']]],
   ['pinkalive',['pinkalive',['../d3/d62/gamemode_8qh.html#a94f7dfb485a988da25947983ebe8cd59',1,'gamemode.qh']]],
-  ['pinkalive_5fstat',['pinkalive_stat',['../d3/d62/gamemode_8qh.html#a11b3211b936bda74a10d59aeccd64d27',1,'gamemode.qh']]],
   ['pinkflag_5fprevframe',['pinkflag_prevframe',['../dd/d59/modicons_8qc.html#aff1244f89a47d203e4c8bf07e5a4d229',1,'modicons.qc']]],
   ['pinkflag_5fprevstatus',['pinkflag_prevstatus',['../dd/d59/modicons_8qc.html#a181577243bef6d9dab313de308de6366',1,'modicons.qc']]],
   ['pinkflag_5fstatuschange_5ftime',['pinkflag_statuschange_time',['../dd/d59/modicons_8qc.html#a55b3f33e2368367b7a89769be831c2fc',1,'modicons.qc']]],

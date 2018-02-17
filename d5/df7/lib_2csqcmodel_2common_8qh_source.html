@@ -173,33 +173,27 @@ $(document).ready(function(){initNavTree('d5/df7/lib_2csqcmodel_2common_8qh_sour
 <div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a27130e620ac5aff8941b2ae3cf384e41">   66</a></span>&#160;<span class="preprocessor">#define ALLPROPERTIES_COMMON \</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_FRAME, int, ReadByte, WriteByte, frame) \</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_MODELINDEX, int, ReadShort, WriteShort, modelindex) \</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_ORIGIN, float, ReadCoord, WriteCoord, origin_x) \</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_ORIGIN, float, ReadCoord, WriteCoord, origin_y) \</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_ORIGIN, float, ReadCoord, WriteCoord, origin_z) \</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_SIZE, float, ReadShort, WriteShort, mins_x) \</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_SIZE, float, ReadShort, WriteShort, mins_y) \</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_SIZE, float, ReadShort, WriteShort, mins_z) \</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_SIZE, float, ReadShort, WriteShort, maxs_x) \</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_SIZE, float, ReadShort, WriteShort, maxs_y) \</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_SIZE, float, ReadShort, WriteShort, maxs_z) \</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_PITCHROLL, float, ReadAngle, WriteAngle, angles_x) \</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_YAW, float, ReadAngle, WriteAngle, angles_y) \</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_PITCHROLL, float, ReadAngle, WriteAngle, angles_z) \</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">    CSQCMODEL_EXTRAPROPERTIES</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#ifdef CSQCMODEL_HAVE_TWO_FRAMES</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor"></span>.float <a class="code" href="../../d3/de0/anim_8qh.html#a5324f63b39a42014ebc26fd1f3c0828e">frame3</a>;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;.float <a class="code" href="../../d3/de0/anim_8qh.html#a0c5656521fea17f278f33113012eee09">frame3time</a>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;.float <a class="code" href="../../d3/de0/anim_8qh.html#a7d9c41a4e7d0e86ff832c5bb50b07696">lerpfrac3</a>;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;.float <a class="code" href="../../d3/de0/anim_8qh.html#aa9188823f5be616ec7a2617ea8ea7657">frame4</a>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;.float <a class="code" href="../../d3/de0/anim_8qh.html#a70db4daa190eb97492636bf734991ff3">frame4time</a>;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;.float <a class="code" href="../../d3/de0/anim_8qh.html#a5b9db4d5af89e94b79536c7ca10c3271">lerpfrac4</a>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">#define ALLPROPERTIES ALLPROPERTIES_COMMON \</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_FRAME2, int, ReadByte, WriteByte, frame2) \</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY_SCALED(CSQCMODEL_PROPERTY_LERPFRAC, float, ReadByte, WriteByte, lerpfrac, 255, 0, 255)</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a8e9253310528fe25da0191bad79ec5d2">   94</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ALLPROPERTIES ALLPROPERTIES_COMMON</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_ORIGIN, vector, ReadVector, WriteVector, origin) \</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_SIZE, vector, ReadVector, WriteVector, mins) \</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_SIZE, vector, ReadVector, WriteVector, maxs) \</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_PITCHROLL, float, ReadAngle, WriteAngle, angles_x) \</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_YAW, float, ReadAngle, WriteAngle, angles_y) \</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_PITCHROLL, float, ReadAngle, WriteAngle, angles_z) \</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">    CSQCMODEL_EXTRAPROPERTIES</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#ifdef CSQCMODEL_HAVE_TWO_FRAMES</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor"></span>.float <a class="code" href="../../d3/de0/anim_8qh.html#a5324f63b39a42014ebc26fd1f3c0828e">frame3</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;.float <a class="code" href="../../d3/de0/anim_8qh.html#a0c5656521fea17f278f33113012eee09">frame3time</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;.float <a class="code" href="../../d3/de0/anim_8qh.html#a7d9c41a4e7d0e86ff832c5bb50b07696">lerpfrac3</a>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;.float <a class="code" href="../../d3/de0/anim_8qh.html#aa9188823f5be616ec7a2617ea8ea7657">frame4</a>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;.float <a class="code" href="../../d3/de0/anim_8qh.html#a70db4daa190eb97492636bf734991ff3">frame4time</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;.float <a class="code" href="../../d3/de0/anim_8qh.html#a5b9db4d5af89e94b79536c7ca10c3271">lerpfrac4</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#define ALLPROPERTIES ALLPROPERTIES_COMMON \</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY(CSQCMODEL_PROPERTY_FRAME2, int, ReadByte, WriteByte, frame2) \</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">    CSQCMODEL_PROPERTY_SCALED(CSQCMODEL_PROPERTY_LERPFRAC, float, ReadByte, WriteByte, lerpfrac, 255, 0, 255)</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a8e9253310528fe25da0191bad79ec5d2">   88</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ALLPROPERTIES ALLPROPERTIES_COMMON</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="lib_2csqcmodel_2common_8qh_html_a0725c98e3c35679cf0913d567dccb19e"><div class="ttname"><a href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a0725c98e3c35679cf0913d567dccb19e">CSQCMODEL_PROPERTY_MODELINDEX</a></div><div class="ttdeci">const int CSQCMODEL_PROPERTY_MODELINDEX</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df7/lib_2csqcmodel_2common_8qh_source.html#l00058">common.qh:58</a></div></div>
 <div class="ttc" id="lib_2csqcmodel_2common_8qh_html_a49efea142124ae48785e4a0f196d9e2f"><div class="ttname"><a href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a49efea142124ae48785e4a0f196d9e2f">CSQCMODEL_PROPERTY_YAW</a></div><div class="ttdeci">const int CSQCMODEL_PROPERTY_YAW</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df7/lib_2csqcmodel_2common_8qh_source.html#l00060">common.qh:60</a></div></div>
 <div class="ttc" id="lib_2csqcmodel_2common_8qh_html_a1be3853b80aca87ecf519b49dae181a1"><div class="ttname"><a href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a1be3853b80aca87ecf519b49dae181a1">frame1time</a></div><div class="ttdeci">float frame1time</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df7/lib_2csqcmodel_2common_8qh_source.html#l00051">common.qh:51</a></div></div>
@@ -231,7 +225,7 @@ $(document).ready(function(){initNavTree('d5/df7/lib_2csqcmodel_2common_8qh_sour
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_d5fd5ebb74d9aac6232b0b4eda80dfde.html">csqcmodel</a></li><li class="navelem"><a class="el" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html">common.qh</a></li>
-    <li class="footer">Generated on Sat Feb 17 2018 11:44:33 for Xonotic by
+    <li class="footer">Generated on Sat Feb 17 2018 16:48:49 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

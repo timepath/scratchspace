@@ -176,7 +176,7 @@ var searchData=
   ['timeout_5fcaller',['timeout_caller',['../d2/d06/server_2command_2common_8qh.html#a5ffccd1d0a76fc138c43300ec3ba9a29',1,'common.qh']]],
   ['timeout_5fhandler',['timeout_handler',['../d2/d06/server_2command_2common_8qh.html#a2c413e2355ff8a8dd94c694fedf8cd21',1,'common.qh']]],
   ['timeout_5finactive',['TIMEOUT_INACTIVE',['../d2/d06/server_2command_2common_8qh.html#a20f5d69817f30434adc433c8ca685067',1,'common.qh']]],
-  ['timeout_5fleadtime',['timeout_leadtime',['../d2/d06/server_2command_2common_8qh.html#a14710d8a7f645ccb96a379a586bb28e0',1,'timeout_leadtime():&#160;common.qh'],['../d2/d06/server_2command_2common_8qh.html#ad0dee189d464a8c815f5cd9f564a4d52',1,'TIMEOUT_LEADTIME():&#160;common.qh']]],
+  ['timeout_5fleadtime',['TIMEOUT_LEADTIME',['../d2/d06/server_2command_2common_8qh.html#ad0dee189d464a8c815f5cd9f564a4d52',1,'TIMEOUT_LEADTIME():&#160;common.qh'],['../d2/d06/server_2command_2common_8qh.html#a14710d8a7f645ccb96a379a586bb28e0',1,'timeout_leadtime():&#160;common.qh']]],
   ['timeout_5fslowmo_5fvalue',['TIMEOUT_SLOWMO_VALUE',['../d2/d06/server_2command_2common_8qh.html#a2bc7164e655838f8ad0d6d1f258861a8',1,'common.qh']]],
   ['timeout_5fstatus',['timeout_status',['../d2/d06/server_2command_2common_8qh.html#a8dc0260aff8787b28b63236fe177f56d',1,'common.qh']]],
   ['timeout_5ftime',['timeout_time',['../d2/d06/server_2command_2common_8qh.html#a33a3318b1affa96aca5dacb5bea15db6',1,'common.qh']]],
@@ -318,7 +318,6 @@ var searchData=
   ['tvt_5ftadv',['tvt_tadv',['../df/d28/sv__turrets_8qh.html#a90b555cdf003b86e477a59efac8b4a14',1,'sv_turrets.qh']]],
   ['tvt_5fthadf',['tvt_thadf',['../df/d28/sv__turrets_8qh.html#a7da351a830557a1fb4b0908c9daf45f1',1,'sv_turrets.qh']]],
   ['tvt_5fthadv',['tvt_thadv',['../df/d28/sv__turrets_8qh.html#a332de5647b4049b0c0578521988f16fb',1,'sv_turrets.qh']]],
-  ['typehit_5ftime',['typehit_time',['../d5/d26/server_2defs_8qh.html#a91fceb73546fd2b5962b1af96236fc83',1,'defs.qh']]],
   ['typehitsound',['typehitsound',['../d5/d26/server_2defs_8qh.html#a2b2cad71d9088357051170c08fb286a9',1,'defs.qh']]],
   ['typelabels',['typeLabels',['../dc/da0/classXonoticMapInfoDialog.html#aeda8cfb28fca044121a77d81c55dab12',1,'XonoticMapInfoDialog']]],
   ['typetosearchtime',['typeToSearchTime',['../db/d29/classXonoticRegisteredSettingsList.html#a9237f539e335fff05171b4329ec7b08b',1,'XonoticRegisteredSettingsList::typeToSearchTime()'],['../d3/d86/classXonoticMapList.html#a2ceabdc0e34586372447c3a3913fe4bf',1,'XonoticMapList::typeToSearchTime()']]]

@@ -48,6 +48,5 @@ var sv__buffs_8qc =
     [ "REGISTER_MUTATOR", "d2/dac/sv__buffs_8qc.html#a6621fe3d1b04215053a255eec76cde6b", null ],
     [ "REPLICATE", "d2/dac/sv__buffs_8qc.html#aa29572fe821be9b2b28140848bff4f2a", null ],
     [ "buff_flight_crouchheld", "d2/dac/sv__buffs_8qc.html#a88a6a9d42ed6ff5a7094ef51e75bd806", null ],
-    [ "buff_seencount", "d2/dac/sv__buffs_8qc.html#a671e9a86cffc00c52255ca6529b70a6f", null ],
-    [ "buff_time", "d2/dac/sv__buffs_8qc.html#a8d983d10c7bce9bf00b799cf5d464bc9", null ]
+    [ "buff_seencount", "d2/dac/sv__buffs_8qc.html#a671e9a86cffc00c52255ca6529b70a6f", null ]
 ];

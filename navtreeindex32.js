@@ -1,15 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"d3/dd5/bd_8qc.html#afe9c277643ffc32e37baccc473968cb6":[2,0,1,6,0,3,60],
-"d3/dd5/bd_8qc_source.html":[2,0,1,6,0,3],
-"d3/dd6/server_2resources_8qh.html":[2,0,6,59],
-"d3/dd6/server_2resources_8qh.html#a1b1ff2e419436cd7236668176c97c9ac":[2,0,6,59,5],
-"d3/dd6/server_2resources_8qh.html#a2d9be923c7402e7f93be7e1d13636c33":[2,0,6,59,7],
-"d3/dd6/server_2resources_8qh.html#a41987053c5ea9c2c1c31b808887845e9":[2,0,6,59,0],
-"d3/dd6/server_2resources_8qh.html#a46ef4f78ef7d5b3ef361c118c2999172":[2,0,6,59,3],
-"d3/dd6/server_2resources_8qh.html#a71dd6195c49049c92fe8bd28377ea1cf":[2,0,6,59,1],
-"d3/dd6/server_2resources_8qh.html#a88f207f357349ddd4d1f32b85d0c3f57":[2,0,6,59,4],
-"d3/dd6/server_2resources_8qh.html#aeb1e1a4f093400cfefbf59332798a93d":[2,0,6,59,6],
 "d3/dd6/server_2resources_8qh.html#af36a97298b550267aad36794d0f66c0f":[2,0,6,59,2],
 "d3/dd6/server_2resources_8qh_source.html":[2,0,6,59],
 "d3/dd8/item_2inputbox_8qc.html":[2,0,5,2,14],
@@ -249,5 +239,15 @@ var NAVTREEINDEX32 =
 "d3/df9/sv__minigames_8qh.html":[2,0,1,6,10],
 "d3/df9/sv__minigames_8qh.html#a155215c6b736bc7e27879b9f0f4ca343":[2,0,1,6,10,0],
 "d3/df9/sv__minigames_8qh.html#a1976bbbabc165580c5791d26bc54639b":[2,0,1,6,10,1],
-"d3/df9/sv__minigames_8qh.html#a3aa2a51b87b7c756617de798836d4be5":[2,0,1,6,10,14]
+"d3/df9/sv__minigames_8qh.html#a3aa2a51b87b7c756617de798836d4be5":[2,0,1,6,10,14],
+"d3/df9/sv__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82":[2,0,1,6,10,13],
+"d3/df9/sv__minigames_8qh.html#a4d095007340d2f63138e93c1705dc92c":[2,0,1,6,10,10],
+"d3/df9/sv__minigames_8qh.html#a524d14ba3717c12b77821c1fd959d8a0":[2,0,1,6,10,15],
+"d3/df9/sv__minigames_8qh.html#a74dcf1598d80771318e50a18b62bb63c":[2,0,1,6,10,7],
+"d3/df9/sv__minigames_8qh.html#a94a8da7936949035982110ab04a468d4":[2,0,1,6,10,6],
+"d3/df9/sv__minigames_8qh.html#a9f07dda7618fa1c23b18601f1058c147":[2,0,1,6,10,4],
+"d3/df9/sv__minigames_8qh.html#aab44cdcc6da2749f6c0184f5c35c9c73":[2,0,1,6,10,9],
+"d3/df9/sv__minigames_8qh.html#abacc26686b4b0b5402dc406a0830a890":[2,0,1,6,10,11],
+"d3/df9/sv__minigames_8qh.html#ac11b22942e0b63b0172462375b0c2ca8":[2,0,1,6,10,3],
+"d3/df9/sv__minigames_8qh.html#ad084a4080880ef2c8ee32a69dfdf8ae2":[2,0,1,6,10,12]
 };

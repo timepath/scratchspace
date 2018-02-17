@@ -179,9 +179,9 @@ $(document).ready(function(){initNavTree('da/d68/accuracy_8qc_source.html','../.
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">if</span> (hit)    a.accuracy_hit  [w] += hit;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">if</span> (fired)  a.accuracy_fired[w] += fired;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">if</span> (hit &amp;&amp; a.hit_time != <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>) { <span class="comment">// only run this once per frame</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">if</span> (hit &amp;&amp; STAT(HIT_TIME, a) != <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>) { <span class="comment">// only run this once per frame</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        a.accuracy_cnt_hit[w] += 1;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        a.hit_time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        STAT(HIT_TIME, a) = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">if</span> (fired &amp;&amp; a.fired_time != <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>) { <span class="comment">// only run this once per frame</span></div>
@@ -259,7 +259,7 @@ $(document).ready(function(){initNavTree('da/d68/accuracy_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../da/d68/accuracy_8qc.html">accuracy.qc</a></li>
-    <li class="footer">Generated on Sat Feb 17 2018 11:44:35 for Xonotic by
+    <li class="footer">Generated on Sat Feb 17 2018 16:48:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

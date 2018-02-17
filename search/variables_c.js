@@ -57,7 +57,6 @@ var searchData=
   ['last_5fenemycheck',['last_enemycheck',['../d8/dc1/sv__monsters_8qh.html#ae390f0411202437977d0c074774a3fb5',1,'sv_monsters.qh']]],
   ['last_5fforward_5fkey_5ftime',['last_FORWARD_KEY_time',['../d5/da6/sv__dodging_8qc.html#ab5f0538073a7569c752c13373e4a91de',1,'sv_dodging.qc']]],
   ['last_5fleft_5fkey_5ftime',['last_LEFT_KEY_time',['../d5/da6/sv__dodging_8qc.html#abbbb0affc8ab2477c4d3c906dce57da0',1,'sv_dodging.qc']]],
-  ['last_5fpickup',['last_pickup',['../d5/d26/server_2defs_8qh.html#a4c2a4355b361c929f1a4a9b1457e209d',1,'defs.qh']]],
   ['last_5frespawn',['last_respawn',['../d3/d73/gamemode__ctf_8qc.html#ad172da3a68520139c9f19ae947302039',1,'gamemode_ctf.qc']]],
   ['last_5fright_5fkey_5ftime',['last_RIGHT_KEY_time',['../d5/da6/sv__dodging_8qc.html#a62ee826ed38b4d8199deced643ee6dfa',1,'sv_dodging.qc']]],
   ['last_5fswitchweapon',['last_switchweapon',['../d3/d05/hud_8qh.html#a44e28a39776951eb09d2f8fad4a2ef3e',1,'hud.qh']]],
