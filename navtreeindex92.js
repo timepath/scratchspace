@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"da/d6b/sv__superspec_8qc.html#af718ac80b43bf3ea8caf199bb5ee907d":[2,0,1,9,0,33,2,15],
 "da/d6b/sv__superspec_8qc.html#afa65ea27f912d5feb51fc209b90c2597":[2,0,1,9,0,33,2,10],
 "da/d6b/sv__superspec_8qc_source.html":[2,0,1,9,0,33,2],
 "da/d6d/classXonoticPlayerModelSelector.html":[1,0,221],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "da/d94/classXonoticSettingsDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,240,35],
 "da/d94/classXonoticSettingsDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,240,36],
 "da/d94/classXonoticSettingsDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,240,5],
-"da/d94/classXonoticSettingsDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,240,90],
-"da/d94/classXonoticSettingsDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,240,78]
+"da/d94/classXonoticSettingsDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,240,90]
 };

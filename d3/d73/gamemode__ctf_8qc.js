@@ -17,7 +17,7 @@ var gamemode__ctf_8qc =
     [ "ctf_FakeTimeLimit", "d3/d73/gamemode__ctf_8qc.html#aa01f814e4ab6e29b53dbf54585f7268e", null ],
     [ "ctf_FlagBase_Customize", "d3/d73/gamemode__ctf_8qc.html#ac93b3512434b6ecf078b4c2ebdb71122", null ],
     [ "ctf_FlagcarrierWaypoints", "d3/d73/gamemode__ctf_8qc.html#a63e95cf7355d0785a115d73192b69365", null ],
-    [ "ctf_FlagDamage", "d3/d73/gamemode__ctf_8qc.html#a4cc0399b9e018a16ac26e93e44a852ba", null ],
+    [ "ctf_FlagDamage", "d3/d73/gamemode__ctf_8qc.html#a6e5ba2c4dd878bff9922b9b0ea1d225f", null ],
     [ "ctf_FlagSetup", "d3/d73/gamemode__ctf_8qc.html#ae4da0b9f3b47d57388ba498d2baed651", null ],
     [ "ctf_FlagThink", "d3/d73/gamemode__ctf_8qc.html#a8edcce745140a0191b957e969f8a2cfb", null ],
     [ "ctf_Handle_Capture", "d3/d73/gamemode__ctf_8qc.html#a25811e1a3df660687ed3240c93c5643e", null ],

@@ -2,7 +2,7 @@ var door_8qc =
 [
     [ "door_blocked", "d6/d9c/door_8qc.html#a8d938ad27fd52df3dcc1494048b0b852", null ],
     [ "door_check_keys", "d6/d9c/door_8qc.html#a442c07929af7af860cd6e92fb41b1ed3", null ],
-    [ "door_damage", "d6/d9c/door_8qc.html#abfbb3703193bb9d42361a8ee1a3f735a", null ],
+    [ "door_damage", "d6/d9c/door_8qc.html#a9da97d701a5bd1d7d23f76c29bb6dfc0", null ],
     [ "door_fire", "d6/d9c/door_8qc.html#ae87674ba0b9d41767ee95397dabe1029", null ],
     [ "door_generic_plat_blocked", "d6/d9c/door_8qc.html#a430533544a99bab2ccd9e54301ef6442", null ],
     [ "door_go_down", "d6/d9c/door_8qc.html#ab1bcfdc401011109dbfbec373e08244d", null ],

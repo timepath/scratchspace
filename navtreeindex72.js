@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"d7/de6/classXonoticSkinList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,242,28],
 "d7/de6/classXonoticSkinList.html#a6d827958af2597b0d05a3009745c67d5":[1,0,242,21],
 "d7/de6/classXonoticSkinList.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,242,7],
 "d7/de6/classXonoticSkinList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,242,57],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "d8/d0c/sv__overkill_8qc.html#a8c34739cb15da34b18acf3a993117a64":[2,0,1,9,0,22,10,14],
 "d8/d0c/sv__overkill_8qc.html#aa469fe882d86cd05387ef9c28bcef3b3":[2,0,1,9,0,22,10,1],
 "d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2":[2,0,1,9,0,22,10,16],
-"d8/d0c/sv__overkill_8qc.html#acf536195f0ca0fd4c9524bf6eb863af1":[2,0,1,9,0,22,10,11],
-"d8/d0c/sv__overkill_8qc.html#ad4e0519cba1b2e3e767e5ec449271f99":[2,0,1,9,0,22,10,8]
+"d8/d0c/sv__overkill_8qc.html#acf536195f0ca0fd4c9524bf6eb863af1":[2,0,1,9,0,22,10,11]
 };

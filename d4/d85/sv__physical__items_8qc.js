@@ -1,7 +1,7 @@
 var sv__physical__items_8qc =
 [
     [ "MUTATOR_HOOKFUNCTION", "d4/d85/sv__physical__items_8qc.html#ad351acdf79c31324c3041acdef0922bc", null ],
-    [ "physical_item_damage", "d4/d85/sv__physical__items_8qc.html#a21590d3093c6c5b521395cea9e374f64", null ],
+    [ "physical_item_damage", "d4/d85/sv__physical__items_8qc.html#a84e0ab5e6b85ec8fd75736dce0a7e8d8", null ],
     [ "physical_item_think", "d4/d85/sv__physical__items_8qc.html#aaa169bd1db2218626cc3e106e7c7a50b", null ],
     [ "physical_item_touch", "d4/d85/sv__physical__items_8qc.html#acb121fad97fd7760b48f81e81de2e399", null ],
     [ "REGISTER_MUTATOR", "d4/d85/sv__physical__items_8qc.html#ac8ccdc98c7aef900709ac5f4cdfdaac8", null ],

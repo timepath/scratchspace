@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['damage',['Damage',['../d5/d26/server_2defs_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6',1,'Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype, vector hitloc, vector force):&#160;g_damage.qc'],['../d5/dac/g__damage_8qc.html#ad1d833615f56d11e3c3a9facc944aaf6',1,'Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype, vector hitloc, vector force):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6',1,'Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype, vector hitloc, vector force):&#160;g_damage.qc']]],
+  ['damage',['Damage',['../d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7',1,'Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype,.entity weaponentity, vector hitloc, vector force):&#160;g_damage.qc'],['../d5/dac/g__damage_8qc.html#a1ca977fd4fb6900884c2cea28062c8a7',1,'Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype,.entity weaponentity, vector hitloc, vector force):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7',1,'Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype,.entity weaponentity, vector hitloc, vector force):&#160;g_damage.qc']]],
   ['damage_5faim',['DAMAGE_AIM',['../d6/d11/progsdefs_8qc.html#aa9ea10d4f0d0ed19674dae09c99d635b',1,'progsdefs.qc']]],
   ['damage_5fblurpostprocess',['damage_blurpostprocess',['../d6/dd3/view_8qc.html#a7e6d87a7998ec09b1647c49f62bc3a95',1,'view.qc']]],
   ['damage_5fdamageinfo',['Damage_DamageInfo',['../dd/de4/g__damage_8qh.html#af1915ea9d450669a5a0672749148448f',1,'g_damage.qh']]],
@@ -316,6 +316,7 @@ var searchData=
   ['dmg_5fedge',['dmg_edge',['../dd/de4/g__damage_8qh.html#aa42c886d04e324d72e66219b59e2ad57',1,'g_damage.qh']]],
   ['dmg_5fforce',['dmg_force',['../dd/de4/g__damage_8qh.html#a006d9006c9dbfcddaab4e8379e581301',1,'g_damage.qh']]],
   ['dmg_5finflictor',['dmg_inflictor',['../d6/d11/progsdefs_8qc.html#af9401e8bb91e75aa961da6974f0042b3',1,'progsdefs.qc']]],
+  ['dmg_5fnowep',['DMG_NOWEP',['../d5/d26/server_2defs_8qh.html#a7d15659b92a2ebcd68cc184e3a3824a3',1,'defs.qh']]],
   ['dmg_5fradius',['dmg_radius',['../dd/de4/g__damage_8qh.html#ada84d02b9423a5be23cb1433ab3680e4',1,'g_damage.qh']]],
   ['dmg_5fsave',['dmg_save',['../d6/d11/progsdefs_8qc.html#ae16641e20bc158d9d22c0e7505d5c284',1,'progsdefs.qc']]],
   ['dmg_5ftake',['dmg_take',['../d9/d08/client_2defs_8qh.html#a4c6422b59ff09abc013889b5241ecc2f',1,'dmg_take():&#160;defs.qh'],['../d6/d11/progsdefs_8qc.html#a4c6422b59ff09abc013889b5241ecc2f',1,'dmg_take():&#160;progsdefs.qc']]],
@@ -362,7 +363,7 @@ var searchData=
   ['door_2eqh',['door.qh',['../dd/d5e/door_8qh.html',1,'']]],
   ['door_5fblocked',['door_blocked',['../d6/d9c/door_8qc.html#a8d938ad27fd52df3dcc1494048b0b852',1,'door.qc']]],
   ['door_5fcheck_5fkeys',['door_check_keys',['../d6/d9c/door_8qc.html#a442c07929af7af860cd6e92fb41b1ed3',1,'door.qc']]],
-  ['door_5fdamage',['door_damage',['../d6/d9c/door_8qc.html#abfbb3703193bb9d42361a8ee1a3f735a',1,'door.qc']]],
+  ['door_5fdamage',['door_damage',['../d6/d9c/door_8qc.html#a9da97d701a5bd1d7d23f76c29bb6dfc0',1,'door.qc']]],
   ['door_5fdont_5flink',['DOOR_DONT_LINK',['../dd/d5e/door_8qh.html#af65f0d9d1981b2bc749e73257641dea3',1,'door.qh']]],
   ['door_5ffinished',['door_finished',['../d6/d9c/door_8qc.html#a9455efb74554e8dbaa1a0b4d365bf187',1,'door.qc']]],
   ['door_5ffire',['door_fire',['../d6/d9c/door_8qc.html#ae87674ba0b9d41767ee95397dabe1029',1,'door.qc']]],

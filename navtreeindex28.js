@@ -1,8 +1,8 @@
 var NAVTREEINDEX28 =
 {
-"d3/d73/gamemode__ctf_8qc.html#a63e95cf7355d0785a115d73192b69365":[2,0,6,3,0,6,16],
 "d3/d73/gamemode__ctf_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3":[2,0,6,3,0,6,74],
 "d3/d73/gamemode__ctf_8qc.html#a6966825025f6c1bc275aeb723bc4600e":[2,0,6,3,0,6,46],
+"d3/d73/gamemode__ctf_8qc.html#a6e5ba2c4dd878bff9922b9b0ea1d225f":[2,0,6,3,0,6,17],
 "d3/d73/gamemode__ctf_8qc.html#a6fb82c0be76c5b347710865ede3da95e":[2,0,6,3,0,6,135],
 "d3/d73/gamemode__ctf_8qc.html#a7255a4ae3742a5a48df6bb1e7de2a518":[2,0,6,3,0,6,48],
 "d3/d73/gamemode__ctf_8qc.html#a732a35cfcf87cfb435216455ce123da0":[2,0,6,3,0,6,109],

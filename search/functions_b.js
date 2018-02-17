@@ -33,7 +33,7 @@ var searchData=
   ['kh_5fkey_5fassignto',['kh_Key_AssignTo',['../de/d40/gamemode__keyhunt_8qc.html#a53b6f32f3cf7da87a548e0d8dd30b89a',1,'gamemode_keyhunt.qc']]],
   ['kh_5fkey_5fattach',['kh_Key_Attach',['../de/d40/gamemode__keyhunt_8qc.html#ac424bffde3e5ff6093b81edd08b9f690',1,'gamemode_keyhunt.qc']]],
   ['kh_5fkey_5fcollect',['kh_Key_Collect',['../de/d40/gamemode__keyhunt_8qc.html#a91ba0798840e5d63b72bd8e54ddcd92c',1,'gamemode_keyhunt.qc']]],
-  ['kh_5fkey_5fdamage',['kh_Key_Damage',['../de/d40/gamemode__keyhunt_8qc.html#ab09b2a45564a2580feb3d8bb70541fbd',1,'gamemode_keyhunt.qc']]],
+  ['kh_5fkey_5fdamage',['kh_Key_Damage',['../de/d40/gamemode__keyhunt_8qc.html#a0ca685d37deb678a4a0dac88e212262b',1,'gamemode_keyhunt.qc']]],
   ['kh_5fkey_5fdetach',['kh_Key_Detach',['../de/d40/gamemode__keyhunt_8qc.html#a5b49f203806993cfa8819cea2b46cb58',1,'gamemode_keyhunt.qc']]],
   ['kh_5fkey_5fdropall',['kh_Key_DropAll',['../de/d40/gamemode__keyhunt_8qc.html#ad739070280b4ac5432bf5f6f5a7f1e30',1,'gamemode_keyhunt.qc']]],
   ['kh_5fkey_5fdropone',['kh_Key_DropOne',['../de/d40/gamemode__keyhunt_8qc.html#a3195fb7f198ff78955159887597a2a3b',1,'gamemode_keyhunt.qc']]],

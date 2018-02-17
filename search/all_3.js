@@ -945,7 +945,7 @@ var searchData=
   ['ctf_5fflag_5fneutral',['CTF_FLAG_NEUTRAL',['../dd/dfa/gamemode__ctf_8qh.html#a6defd2424b3649131a0eb04d34fb3bb9',1,'gamemode_ctf.qh']]],
   ['ctf_5fflagbase_5fcustomize',['ctf_FlagBase_Customize',['../d3/d73/gamemode__ctf_8qc.html#ac93b3512434b6ecf078b4c2ebdb71122',1,'gamemode_ctf.qc']]],
   ['ctf_5fflagcarrierwaypoints',['ctf_FlagcarrierWaypoints',['../d3/d73/gamemode__ctf_8qc.html#a63e95cf7355d0785a115d73192b69365',1,'gamemode_ctf.qc']]],
-  ['ctf_5fflagdamage',['ctf_FlagDamage',['../d3/d73/gamemode__ctf_8qc.html#a4cc0399b9e018a16ac26e93e44a852ba',1,'gamemode_ctf.qc']]],
+  ['ctf_5fflagdamage',['ctf_FlagDamage',['../d3/d73/gamemode__ctf_8qc.html#a6e5ba2c4dd878bff9922b9b0ea1d225f',1,'gamemode_ctf.qc']]],
   ['ctf_5fflagsetup',['ctf_FlagSetup',['../d3/d73/gamemode__ctf_8qc.html#ae4da0b9f3b47d57388ba498d2baed651',1,'gamemode_ctf.qc']]],
   ['ctf_5fflagthink',['ctf_FlagThink',['../d3/d73/gamemode__ctf_8qc.html#a8edcce745140a0191b957e969f8a2cfb',1,'gamemode_ctf.qc']]],
   ['ctf_5fhandle_5fcapture',['ctf_Handle_Capture',['../d3/d73/gamemode__ctf_8qc.html#a25811e1a3df660687ed3240c93c5643e',1,'gamemode_ctf.qc']]],

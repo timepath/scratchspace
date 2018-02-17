@@ -2,7 +2,7 @@ var g__hook_8qc =
 [
     [ "FireGrapplingHook", "d7/de2/g__hook_8qc.html#ae2567f613b4799b5612e9c755231e62f", null ],
     [ "GrappleHookInit", "d7/de2/g__hook_8qc.html#a38e80451284a344ffa9c9976e3fe3e2b", null ],
-    [ "GrapplingHook_Damage", "d7/de2/g__hook_8qc.html#adf62bf6571b52c7c878f9c8f6bc20802", null ],
+    [ "GrapplingHook_Damage", "d7/de2/g__hook_8qc.html#a30b6c5cf4fcc219b1d3c27692873830c", null ],
     [ "GrapplingHook_Stop", "d7/de2/g__hook_8qc.html#a52c0efc43e29a365b4703fc1255502a5", null ],
     [ "GrapplingHookReset", "d7/de2/g__hook_8qc.html#a66c9f271e743d8ea50b8f857e276b44b", null ],
     [ "GrapplingHookSend", "d7/de2/g__hook_8qc.html#a4047a2243dce68b59b0b6b56e5ee17fd", null ],

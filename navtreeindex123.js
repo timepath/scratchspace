@@ -1,5 +1,6 @@
 var NAVTREEINDEX123 =
 {
+"de/d3c/classBuff.html#aaca9d5c571d73c2274a3356ef2fcdc53":[1,0,9,10],
 "de/d3c/classBuff.html#ac88de49ea35f4990740cb804bbe94f28":[1,0,9,9],
 "de/d3c/classBuff.html#acaa339ccb9cec6b5323ef674593d842f":[1,0,9,7],
 "de/d3c/classBuff.html#ad8a0be5e74b7a94d9b1d659e974a8975":[1,0,9,11],
@@ -44,6 +45,7 @@ var NAVTREEINDEX123 =
 "de/d40/gamemode__keyhunt_8qc.html#a07dca08446b5f2838519ee4dd1385467":[2,0,6,3,0,20,12],
 "de/d40/gamemode__keyhunt_8qc.html#a0c4b3f90846ae47f1373f5abf1e6cf11":[2,0,6,3,0,20,44],
 "de/d40/gamemode__keyhunt_8qc.html#a0c6350cfc34e360495df99e59a8eed4a":[2,0,6,3,0,20,5],
+"de/d40/gamemode__keyhunt_8qc.html#a0ca685d37deb678a4a0dac88e212262b":[2,0,6,3,0,20,19],
 "de/d40/gamemode__keyhunt_8qc.html#a0cc4d42896731a9e2d7621b4df9f416f":[2,0,6,3,0,20,24],
 "de/d40/gamemode__keyhunt_8qc.html#a0faab464cd53ae703315c36a25c85e7f":[2,0,6,3,0,20,72],
 "de/d40/gamemode__keyhunt_8qc.html#a1acc2a31bfed7c384b5de6e4bc1e4c22":[2,0,6,3,0,20,15],
@@ -99,7 +101,6 @@ var NAVTREEINDEX123 =
 "de/d40/gamemode__keyhunt_8qc.html#aa41aafec7dc08ba2d16e3508a7410f7c":[2,0,6,3,0,20,93],
 "de/d40/gamemode__keyhunt_8qc.html#aa465e46bf7aed2129743d3e31e498590":[2,0,6,3,0,20,92],
 "de/d40/gamemode__keyhunt_8qc.html#aaa6ac186f9d9e6408724cba22fbf8a42":[2,0,6,3,0,20,69],
-"de/d40/gamemode__keyhunt_8qc.html#ab09b2a45564a2580feb3d8bb70541fbd":[2,0,6,3,0,20,19],
 "de/d40/gamemode__keyhunt_8qc.html#ab5a5bdb816a9263865ef7cdcd0e517d1":[2,0,6,3,0,20,3],
 "de/d40/gamemode__keyhunt_8qc.html#ab83c57c90987c6f9bb333b5d6d1aeb58":[2,0,6,3,0,20,6],
 "de/d40/gamemode__keyhunt_8qc.html#ab90915c91bbf202de5b5cac26e5a1a92":[2,0,6,3,0,20,39],
@@ -248,6 +249,5 @@ var NAVTREEINDEX123 =
 "de/d43/common_2items_2item_2ammo_8qh.html#a7f0f6109cd99633e526e2a2226501332":[2,0,1,5,0,3,14],
 "de/d43/common_2items_2item_2ammo_8qh.html#a816fdb6e12e6eb93fdc21d15232dfac8":[2,0,1,5,0,3,7],
 "de/d43/common_2items_2item_2ammo_8qh.html#a843d28c4df79481dc4cd3eeafa43dce2":[2,0,1,5,0,3,6],
-"de/d43/common_2items_2item_2ammo_8qh.html#ac3d31d9a7ce998c3babc4632ef41907f":[2,0,1,5,0,3,12],
-"de/d43/common_2items_2item_2ammo_8qh.html#acc258bdef877e65e97005690d5d4377b":[2,0,1,5,0,3,13]
+"de/d43/common_2items_2item_2ammo_8qh.html#ac3d31d9a7ce998c3babc4632ef41907f":[2,0,1,5,0,3,12]
 };

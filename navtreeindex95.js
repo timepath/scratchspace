@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"da/dc1/classXonoticAudioSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,144,87],
 "da/dc1/classXonoticAudioSettingsTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,144,56],
 "da/dc1/classXonoticAudioSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,144,60],
 "da/dc1/classXonoticAudioSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,144,65],
@@ -27,16 +28,16 @@ var NAVTREEINDEX95 =
 "da/dc1/server_2player_8qh.html":[2,0,6,50],
 "da/dc1/server_2player_8qh.html#a0390f6703ace29f61655694b8821d84a":[2,0,6,50,8],
 "da/dc1/server_2player_8qh.html#a069f69d13af79e3b017f3892e529dcfa":[2,0,6,50,7],
-"da/dc1/server_2player_8qh.html#a1f636403184e26ea4190e989009ab0a1":[2,0,6,50,12],
 "da/dc1/server_2player_8qh.html#a2c29b93080851a8b1b00d0bca0c7cee9":[2,0,6,50,15],
+"da/dc1/server_2player_8qh.html#a2c4acf85cd876d0e628435d91592d615":[2,0,6,50,13],
 "da/dc1/server_2player_8qh.html#a314f6cfc744b1dbe79349c3534610087":[2,0,6,50,9],
 "da/dc1/server_2player_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9":[2,0,6,50,20],
 "da/dc1/server_2player_8qh.html#a3ec86404101072a18190c63b450c508b":[2,0,6,50,17],
 "da/dc1/server_2player_8qh.html#a51c4a1afebc1206d7849ebd9f21e2f3b":[2,0,6,50,10],
 "da/dc1/server_2player_8qh.html#a5a67bcf7261b3f7f78c6abc4ef614984":[2,0,6,50,18],
 "da/dc1/server_2player_8qh.html#a6d43c2bfc2775b826e03d5f7969c2fe6":[2,0,6,50,16],
+"da/dc1/server_2player_8qh.html#a702d414b3a7f91c3e1746aaef5f9382c":[2,0,6,50,12],
 "da/dc1/server_2player_8qh.html#a798f63d3b40c416811743d9bfc9b1d28":[2,0,6,50,21],
-"da/dc1/server_2player_8qh.html#a7b50d8e84036f411ff923c7d63f7d88f":[2,0,6,50,13],
 "da/dc1/server_2player_8qh.html#a9d529760b279c19bb3b1d15c4da335d1":[2,0,6,50,1],
 "da/dc1/server_2player_8qh.html#ab0ddbf3a176299c044cb3499225ee3d2":[2,0,6,50,0],
 "da/dc1/server_2player_8qh.html#abd30a605660c74c4236227e1c594535f":[2,0,6,50,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "da/def/classClanArena.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,17,3],
 "da/def/classClanArena.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,17,17],
 "da/def/classClanArena.html#aca750e744e5d1a4d337de74f06a92468":[1,0,17,13],
-"da/def/classClanArena.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,17,6],
-"da/def/classClanArena.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,17,7]
+"da/def/classClanArena.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,17,6]
 };

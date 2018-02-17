@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['obituary',['Obituary',['../d5/dac/g__damage_8qc.html#ace0c7e0cb504cb88303a5481f5a900fd',1,'Obituary(entity attacker, entity inflictor, entity targ, int deathtype):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#ace0c7e0cb504cb88303a5481f5a900fd',1,'Obituary(entity attacker, entity inflictor, entity targ, int deathtype):&#160;g_damage.qc']]],
+  ['obituary',['Obituary',['../d5/dac/g__damage_8qc.html#aefe2100f893d5dd01fdab059d9b5d348',1,'Obituary(entity attacker, entity inflictor, entity targ, int deathtype,.entity weaponentity):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#aefe2100f893d5dd01fdab059d9b5d348',1,'Obituary(entity attacker, entity inflictor, entity targ, int deathtype,.entity weaponentity):&#160;g_damage.qc']]],
   ['obituary_5fspecialdeath',['Obituary_SpecialDeath',['../d5/dac/g__damage_8qc.html#a30b6dcb0a5e148d3961cad10abdaf5af',1,'Obituary_SpecialDeath(entity notif_target, float murder, int deathtype, string s1, string s2, string s3, float f1, float f2, float f3):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#a30b6dcb0a5e148d3961cad10abdaf5af',1,'Obituary_SpecialDeath(entity notif_target, float murder, int deathtype, string s1, string s2, string s3, float f1, float f2, float f3):&#160;g_damage.qc']]],
   ['obituary_5fweapondeath',['Obituary_WeaponDeath',['../d5/dac/g__damage_8qc.html#a54e85ad9f5560a23de3bd54026021b06',1,'Obituary_WeaponDeath(entity notif_target, float murder, int deathtype, string s1, string s2, string s3, float f1, float f2):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#a54e85ad9f5560a23de3bd54026021b06',1,'Obituary_WeaponDeath(entity notif_target, float murder, int deathtype, string s1, string s2, string s3, float f1, float f2):&#160;g_damage.qc']]],
   ['objerror',['objerror',['../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b',1,'menudefs.qc']]],
@@ -22,7 +22,7 @@ var searchData=
   ['ons_5fcontrolpoint_5fattackable',['ons_ControlPoint_Attackable',['../d0/de4/sv__onslaught_8qc.html#ada86cbc7321f4e2c633a5117f1195e15',1,'ons_ControlPoint_Attackable(entity cp, int teamnumber):&#160;sv_onslaught.qc'],['../d7/dd0/sv__onslaught_8qh.html#a10e945825d37e7666906d0c3a9002e51',1,'ons_ControlPoint_Attackable(entity cp, int teamnumber):&#160;sv_onslaught.qc']]],
   ['ons_5fcontrolpoint_5fcanbelinked',['ons_ControlPoint_CanBeLinked',['../d0/de4/sv__onslaught_8qc.html#ab76b7c1b21505c7a9bafc68a2453be61',1,'sv_onslaught.qc']]],
   ['ons_5fcontrolpoint_5ficon_5fbuildthink',['ons_ControlPoint_Icon_BuildThink',['../d0/de4/sv__onslaught_8qc.html#ac838107e46dcafc3e9ff17bac7af1ee5',1,'sv_onslaught.qc']]],
-  ['ons_5fcontrolpoint_5ficon_5fdamage',['ons_ControlPoint_Icon_Damage',['../d0/de4/sv__onslaught_8qc.html#a959c9f57864f49b2597a98967589d0e3',1,'sv_onslaught.qc']]],
+  ['ons_5fcontrolpoint_5ficon_5fdamage',['ons_ControlPoint_Icon_Damage',['../d0/de4/sv__onslaught_8qc.html#aa53ce26cc8f3335c2ad4269967171c79',1,'sv_onslaught.qc']]],
   ['ons_5fcontrolpoint_5ficon_5fspawn',['ons_ControlPoint_Icon_Spawn',['../d0/de4/sv__onslaught_8qc.html#aded10d9a89e3977de028f2e9b8b20a9b',1,'sv_onslaught.qc']]],
   ['ons_5fcontrolpoint_5ficon_5fthink',['ons_ControlPoint_Icon_Think',['../d0/de4/sv__onslaught_8qc.html#a2458556ae1c4bb19c6b830583d449b18',1,'sv_onslaught.qc']]],
   ['ons_5fcontrolpoint_5freset',['ons_ControlPoint_Reset',['../d0/de4/sv__onslaught_8qc.html#aaaf46f46f5c6b7bbed9e29b9f4c047ec',1,'sv_onslaught.qc']]],
@@ -40,7 +40,7 @@ var searchData=
   ['ons_5fgenerator_5fray_5fspawn',['ons_generator_ray_spawn',['../df/d07/cl__generator_8qc.html#a7945b6c27743d9c111ffd61a56cc36ae',1,'cl_generator.qc']]],
   ['ons_5fgenerator_5fupdatesprite',['ons_Generator_UpdateSprite',['../d0/de4/sv__onslaught_8qc.html#afc2045eedb7684968edd66aab118783a',1,'ons_Generator_UpdateSprite(entity e):&#160;sv_onslaught.qc'],['../d7/dd0/sv__onslaught_8qh.html#afc2045eedb7684968edd66aab118783a',1,'ons_Generator_UpdateSprite(entity e):&#160;sv_onslaught.qc']]],
   ['ons_5fgenerator_5fwaypoint',['ons_Generator_Waypoint',['../d0/de4/sv__onslaught_8qc.html#a5b9c24ecb2c59e66da9f4d047c8063b1',1,'sv_onslaught.qc']]],
-  ['ons_5fgeneratordamage',['ons_GeneratorDamage',['../d0/de4/sv__onslaught_8qc.html#a907641d258fc15209ee2d2546f8d9acc',1,'sv_onslaught.qc']]],
+  ['ons_5fgeneratordamage',['ons_GeneratorDamage',['../d0/de4/sv__onslaught_8qc.html#a7b385c25a6a567d5b58ee4e1dad77981',1,'sv_onslaught.qc']]],
   ['ons_5fgeneratorreset',['ons_GeneratorReset',['../d0/de4/sv__onslaught_8qc.html#a21061408065183dd6ac14efcb76d0845',1,'sv_onslaught.qc']]],
   ['ons_5fgeneratorsetup',['ons_GeneratorSetup',['../d0/de4/sv__onslaught_8qc.html#ad7a73e90da790eaf55395cbb993c1294',1,'sv_onslaught.qc']]],
   ['ons_5fgeneratorthink',['ons_GeneratorThink',['../d0/de4/sv__onslaught_8qc.html#a58ea9fe5fb9683c72b748f157c9cf3ac',1,'sv_onslaught.qc']]],

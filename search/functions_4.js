@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['damage',['Damage',['../d5/d26/server_2defs_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6',1,'Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype, vector hitloc, vector force):&#160;g_damage.qc'],['../d5/dac/g__damage_8qc.html#ad1d833615f56d11e3c3a9facc944aaf6',1,'Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype, vector hitloc, vector force):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6',1,'Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype, vector hitloc, vector force):&#160;g_damage.qc']]],
+  ['damage',['Damage',['../d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7',1,'Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype,.entity weaponentity, vector hitloc, vector force):&#160;g_damage.qc'],['../d5/dac/g__damage_8qc.html#a1ca977fd4fb6900884c2cea28062c8a7',1,'Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype,.entity weaponentity, vector hitloc, vector force):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7',1,'Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype,.entity weaponentity, vector hitloc, vector force):&#160;g_damage.qc']]],
   ['damage_5fdamageinfo',['Damage_DamageInfo',['../dd/de4/g__damage_8qh.html#af1915ea9d450669a5a0672749148448f',1,'g_damage.qh']]],
   ['damage_5fdamageinfo_5fsendentity',['Damage_DamageInfo_SendEntity',['../dd/de4/g__damage_8qh.html#a51f04829b917db9ab7e7d7cac5fddfdb',1,'g_damage.qh']]],
   ['damage_5fexplosion_5fcalcpush',['damage_explosion_calcpush',['../d8/d58/calculations_8qc.html#a4a34221f79cad0b72ecf3df3f930bda9',1,'damage_explosion_calcpush(vector explosion_f, vector target_v, float speedfactor):&#160;calculations.qc'],['../db/d81/calculations_8qh.html#a4a34221f79cad0b72ecf3df3f930bda9',1,'damage_explosion_calcpush(vector explosion_f, vector target_v, float speedfactor):&#160;calculations.qc']]],
@@ -89,7 +89,7 @@ var searchData=
   ['donextmapoverride',['DoNextMapOverride',['../d7/d97/g__world_8qh.html#a9e369a2585eeee66299a21fc034e9cc1',1,'g_world.qh']]],
   ['door_5fblocked',['door_blocked',['../d6/d9c/door_8qc.html#a8d938ad27fd52df3dcc1494048b0b852',1,'door.qc']]],
   ['door_5fcheck_5fkeys',['door_check_keys',['../d6/d9c/door_8qc.html#a442c07929af7af860cd6e92fb41b1ed3',1,'door.qc']]],
-  ['door_5fdamage',['door_damage',['../d6/d9c/door_8qc.html#abfbb3703193bb9d42361a8ee1a3f735a',1,'door.qc']]],
+  ['door_5fdamage',['door_damage',['../d6/d9c/door_8qc.html#a9da97d701a5bd1d7d23f76c29bb6dfc0',1,'door.qc']]],
   ['door_5ffire',['door_fire',['../d6/d9c/door_8qc.html#ae87674ba0b9d41767ee95397dabe1029',1,'door.qc']]],
   ['door_5fgeneric_5fplat_5fblocked',['door_generic_plat_blocked',['../d6/d9c/door_8qc.html#a430533544a99bab2ccd9e54301ef6442',1,'door.qc']]],
   ['door_5fgo_5fdown',['door_go_down',['../d6/d9c/door_8qc.html#ab1bcfdc401011109dbfbec373e08244d',1,'door.qc']]],
