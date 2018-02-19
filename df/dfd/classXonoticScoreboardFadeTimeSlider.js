@@ -31,7 +31,7 @@ var classXonoticScoreboardFadeTimeSlider =
     [ "loadCvars", "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a829e984ab39a6b795a213afee3189800", null ],
     [ "mouseDrag", "df/dfd/classXonoticScoreboardFadeTimeSlider.html#ae7ad12c455973e01e6ffaaa65114ed32", null ],
     [ "mouseMove", "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a467f0a445a24590fdd3a41b012424a1e", null ],
-    [ "mousePress", "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a2b037bf524215b36e92bd1de1009634d", null ],
+    [ "mousePress", "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a5c3e82c697908be9903332ed6b6cd46e", null ],
     [ "mouseRelease", "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0c478135eb70f406c6a0b87529556e98", null ],
     [ "recalcPositionWithText", "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a1df833a5bface26f468e77e75b40ea4c", null ],
     [ "relinquishFocus", "df/dfd/classXonoticScoreboardFadeTimeSlider.html#af8909d3583230bbdc07d3becc18b5c02", null ],

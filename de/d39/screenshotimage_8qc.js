@@ -6,6 +6,5 @@ var screenshotimage_8qc =
     [ "XonoticScreenshotImage_load", "de/d39/screenshotimage_8qc.html#afe25e4218031d7d780800618331ed520", null ],
     [ "XonoticScreenshotImage_mouseDrag", "de/d39/screenshotimage_8qc.html#a847428d1cd4ec7f82a9f7fe5b462eb27", null ],
     [ "XonoticScreenshotImage_mouseMove", "de/d39/screenshotimage_8qc.html#ac731c1671474eb85fdf56c81f00d39b6", null ],
-    [ "XonoticScreenshotImage_mousePress", "de/d39/screenshotimage_8qc.html#a327f603ae51c90971029265432d7b23a", null ],
     [ "XonoticScreenshotImage_resizeNotify", "de/d39/screenshotimage_8qc.html#a887b25e323e25ace32ad8982d3828007", null ]
 ];

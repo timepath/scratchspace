@@ -18,7 +18,7 @@ var classXonoticCrosshairPicker =
     [ "keyUp", "d3/d10/classXonoticCrosshairPicker.html#a10cf88734594fed24be93889407c0bda", null ],
     [ "mouseDrag", "d3/d10/classXonoticCrosshairPicker.html#abf45e466d6bdd7bf3d9a18decd85b3e3", null ],
     [ "mouseMove", "d3/d10/classXonoticCrosshairPicker.html#a96bb839275a1a00b50d13e67bcad8c25", null ],
-    [ "mousePress", "d3/d10/classXonoticCrosshairPicker.html#a4b337d74a2040325355da07150d885ae", null ],
+    [ "mousePress", "d3/d10/classXonoticCrosshairPicker.html#a03c78077a75e67c5ed55ddc272218280", null ],
     [ "mouseRelease", "d3/d10/classXonoticCrosshairPicker.html#a3c8bca13fc56cb4fd35bc818e17a01ca", null ],
     [ "moveFocus", "d3/d10/classXonoticCrosshairPicker.html#a3aa36c55bd87e554a583cb681e044ff9", null ],
     [ "relinquishFocus", "d3/d10/classXonoticCrosshairPicker.html#af8909d3583230bbdc07d3becc18b5c02", null ],

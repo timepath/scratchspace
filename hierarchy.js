@@ -16,6 +16,7 @@ var hierarchy =
         [ "Spectator", "d1/d48/classSpectator.html", null ]
       ] ],
       [ "ClientState", "d6/d92/classClientState.html", null ],
+      [ "ClipFrame", "d2/d11/classClipFrame.html", null ],
       [ "Command", "d9/d71/classCommand.html", null ],
       [ "DamageText", "de/d0c/classDamageText.html", null ],
       [ "DataSource", "de/d82/classDataSource.html", [
@@ -207,6 +208,7 @@ var hierarchy =
             [ "XonoticPlayList", "db/d59/classXonoticPlayList.html", null ],
             [ "XonoticRegisteredSettingsList", "db/d29/classXonoticRegisteredSettingsList.html", null ],
             [ "XonoticScreenshotList", "dc/d44/classXonoticScreenshotList.html", null ],
+            [ "XonoticScrollPanel", "d6/da5/classXonoticScrollPanel.html", null ],
             [ "XonoticServerList", "d2/dec/classXonoticServerList.html", null ],
             [ "XonoticSkinList", "d7/de6/classXonoticSkinList.html", null ],
             [ "XonoticSoundList", "d1/d70/classXonoticSoundList.html", null ],

@@ -31,7 +31,7 @@ var classXonoticCheckBoxString =
     [ "loadCvars", "d4/d09/classXonoticCheckBoxString.html#a4d799e53e2e60733d9e4af6e784a42d6", null ],
     [ "mouseDrag", "d4/d09/classXonoticCheckBoxString.html#ad3fd3842dce4bfe4409e7be7b7d5e5ff", null ],
     [ "mouseMove", "d4/d09/classXonoticCheckBoxString.html#a467f0a445a24590fdd3a41b012424a1e", null ],
-    [ "mousePress", "d4/d09/classXonoticCheckBoxString.html#a6813d8f5f29ba927022b34737e3dc22a", null ],
+    [ "mousePress", "d4/d09/classXonoticCheckBoxString.html#a144092f0c6dc11da003aba4eb91adbc4", null ],
     [ "mouseRelease", "d4/d09/classXonoticCheckBoxString.html#a6c1cc42796dfc8787fb58ce0945fb6ea", null ],
     [ "playClickSound", "d4/d09/classXonoticCheckBoxString.html#a5acde129549a09a7c5e99b8bc5555ebd", null ],
     [ "recalcPositionWithText", "d4/d09/classXonoticCheckBoxString.html#a1df833a5bface26f468e77e75b40ea4c", null ],

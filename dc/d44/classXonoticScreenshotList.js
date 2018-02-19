@@ -35,7 +35,7 @@ var classXonoticScreenshotList =
     [ "keyUp", "dc/d44/classXonoticScreenshotList.html#a10cf88734594fed24be93889407c0bda", null ],
     [ "mouseDrag", "dc/d44/classXonoticScreenshotList.html#a650ef3402824944f01d3df19cc2d497e", null ],
     [ "mouseMove", "dc/d44/classXonoticScreenshotList.html#a71cb69b951223966c8f5e10b73fb81f0", null ],
-    [ "mousePress", "dc/d44/classXonoticScreenshotList.html#a346d3fd09bc071dc7877bd8506aa103c", null ],
+    [ "mousePress", "dc/d44/classXonoticScreenshotList.html#a2e784d6bdbceeafaad14d59f83b39d81", null ],
     [ "mouseRelease", "dc/d44/classXonoticScreenshotList.html#a2188ecd49040da1f5cb826f6dd52e8c3", null ],
     [ "previewScreenshot", "dc/d44/classXonoticScreenshotList.html#a9b5ffccdf82b0fc7dd975024bdc27a4f", null ],
     [ "relinquishFocus", "dc/d44/classXonoticScreenshotList.html#af8909d3583230bbdc07d3becc18b5c02", null ],

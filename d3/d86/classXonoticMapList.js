@@ -37,7 +37,7 @@ var classXonoticMapList =
     [ "loadCvars", "d3/d86/classXonoticMapList.html#a04b5354031c92923204b8f89a4ba45e9", null ],
     [ "mouseDrag", "d3/d86/classXonoticMapList.html#a650ef3402824944f01d3df19cc2d497e", null ],
     [ "mouseMove", "d3/d86/classXonoticMapList.html#a71cb69b951223966c8f5e10b73fb81f0", null ],
-    [ "mousePress", "d3/d86/classXonoticMapList.html#a346d3fd09bc071dc7877bd8506aa103c", null ],
+    [ "mousePress", "d3/d86/classXonoticMapList.html#a2e784d6bdbceeafaad14d59f83b39d81", null ],
     [ "mouseRelease", "d3/d86/classXonoticMapList.html#a2188ecd49040da1f5cb826f6dd52e8c3", null ],
     [ "refilter", "d3/d86/classXonoticMapList.html#adcc3f16a58c00a21f33f2ad2fbe1ccd4", null ],
     [ "refilterCallback", "d3/d86/classXonoticMapList.html#ade3f55317170e22675d35eeb76fd56c3", null ],

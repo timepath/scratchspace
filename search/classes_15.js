@@ -92,6 +92,7 @@ var searchData=
   ['xonoticscreenshotimage',['XonoticScreenshotImage',['../d4/d67/classXonoticScreenshotImage.html',1,'']]],
   ['xonoticscreenshotlist',['XonoticScreenshotList',['../dc/d44/classXonoticScreenshotList.html',1,'']]],
   ['xonoticscreenshotviewerdialog',['XonoticScreenshotViewerDialog',['../db/de2/classXonoticScreenshotViewerDialog.html',1,'']]],
+  ['xonoticscrollpanel',['XonoticScrollPanel',['../d6/da5/classXonoticScrollPanel.html',1,'']]],
   ['xonoticservercreatetab',['XonoticServerCreateTab',['../d8/da8/classXonoticServerCreateTab.html',1,'']]],
   ['xonoticserverinfodialog',['XonoticServerInfoDialog',['../da/db7/classXonoticServerInfoDialog.html',1,'']]],
   ['xonoticserverlist',['XonoticServerList',['../d2/dec/classXonoticServerList.html',1,'']]],

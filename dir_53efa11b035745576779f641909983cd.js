@@ -294,6 +294,10 @@ var dir_53efa11b035745576779f641909983cd =
     [ "screenshotimage.qh", "df/de5/screenshotimage_8qh.html", "df/de5/screenshotimage_8qh" ],
     [ "screenshotlist.qc", "d9/d18/screenshotlist_8qc.html", "d9/d18/screenshotlist_8qc" ],
     [ "screenshotlist.qh", "dc/df2/screenshotlist_8qh.html", "dc/df2/screenshotlist_8qh" ],
+    [ "scrollpanel.qc", "dd/df8/scrollpanel_8qc.html", "dd/df8/scrollpanel_8qc" ],
+    [ "scrollpanel.qh", "db/df6/scrollpanel_8qh.html", [
+      [ "XonoticScrollPanel", "d6/da5/classXonoticScrollPanel.html", "d6/da5/classXonoticScrollPanel" ]
+    ] ],
     [ "serverlist.qc", "d6/d74/serverlist_8qc.html", "d6/d74/serverlist_8qc" ],
     [ "serverlist.qh", "dd/d7a/serverlist_8qh.html", "dd/d7a/serverlist_8qh" ],
     [ "skinlist.qc", "d9/da1/skinlist_8qc.html", "d9/da1/skinlist_8qc" ],

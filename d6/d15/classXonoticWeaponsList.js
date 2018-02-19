@@ -29,7 +29,7 @@ var classXonoticWeaponsList =
     [ "keyUp", "d6/d15/classXonoticWeaponsList.html#a10cf88734594fed24be93889407c0bda", null ],
     [ "mouseDrag", "d6/d15/classXonoticWeaponsList.html#a40ef768b3746a95daf678a75f18edffd", null ],
     [ "mouseMove", "d6/d15/classXonoticWeaponsList.html#a71cb69b951223966c8f5e10b73fb81f0", null ],
-    [ "mousePress", "d6/d15/classXonoticWeaponsList.html#a346d3fd09bc071dc7877bd8506aa103c", null ],
+    [ "mousePress", "d6/d15/classXonoticWeaponsList.html#a2e784d6bdbceeafaad14d59f83b39d81", null ],
     [ "mouseRelease", "d6/d15/classXonoticWeaponsList.html#a2188ecd49040da1f5cb826f6dd52e8c3", null ],
     [ "relinquishFocus", "d6/d15/classXonoticWeaponsList.html#af8909d3583230bbdc07d3becc18b5c02", null ],
     [ "resizeNotify", "d6/d15/classXonoticWeaponsList.html#ad885f67ec362592184264eb68835e7d4", null ],

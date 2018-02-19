@@ -40,7 +40,7 @@ var classXonoticServerList =
     [ "keyUp", "d2/dec/classXonoticServerList.html#a10cf88734594fed24be93889407c0bda", null ],
     [ "mouseDrag", "d2/dec/classXonoticServerList.html#a650ef3402824944f01d3df19cc2d497e", null ],
     [ "mouseMove", "d2/dec/classXonoticServerList.html#aa7a364e06a3c93ee0e3df3aaae6b1071", null ],
-    [ "mousePress", "d2/dec/classXonoticServerList.html#a346d3fd09bc071dc7877bd8506aa103c", null ],
+    [ "mousePress", "d2/dec/classXonoticServerList.html#a2e784d6bdbceeafaad14d59f83b39d81", null ],
     [ "mouseRelease", "d2/dec/classXonoticServerList.html#a2188ecd49040da1f5cb826f6dd52e8c3", null ],
     [ "positionSortButton", "d2/dec/classXonoticServerList.html#a44a06bcb45a11bcb45950cf46054c37f", null ],
     [ "refreshServerList", "d2/dec/classXonoticServerList.html#aff1d3e3df59851da0dd39c6365a10a63", null ],

@@ -9,7 +9,6 @@ var picker_8qc =
     [ "XonoticPicker_keyDown", "da/d46/picker_8qc.html#a9a0e1fc0f9e4d78c0887384f571f6c92", null ],
     [ "XonoticPicker_mouseDrag", "da/d46/picker_8qc.html#a408f3698cf8fe979026e81c4390ebe2e", null ],
     [ "XonoticPicker_mouseMove", "da/d46/picker_8qc.html#aebc1795da153e2e3a1812c79488df408", null ],
-    [ "XonoticPicker_mousePress", "da/d46/picker_8qc.html#a6ca5f541f2368bc99786b5cfdc75993e", null ],
     [ "XonoticPicker_mouseRelease", "da/d46/picker_8qc.html#ab6ac55f69ef9723e77a63f9369f3e71f", null ],
     [ "XonoticPicker_moveFocus", "da/d46/picker_8qc.html#a4febeda73828329724a1ac840a901c81", null ],
     [ "pressed", "da/d46/picker_8qc.html#a132ba96da5ba28448b61e42c019312a9", null ]

@@ -38,7 +38,7 @@ var classXonoticCvarList =
     [ "keyUp", "db/ddb/classXonoticCvarList.html#a10cf88734594fed24be93889407c0bda", null ],
     [ "mouseDrag", "db/ddb/classXonoticCvarList.html#a650ef3402824944f01d3df19cc2d497e", null ],
     [ "mouseMove", "db/ddb/classXonoticCvarList.html#a71cb69b951223966c8f5e10b73fb81f0", null ],
-    [ "mousePress", "db/ddb/classXonoticCvarList.html#a346d3fd09bc071dc7877bd8506aa103c", null ],
+    [ "mousePress", "db/ddb/classXonoticCvarList.html#a2e784d6bdbceeafaad14d59f83b39d81", null ],
     [ "mouseRelease", "db/ddb/classXonoticCvarList.html#a36cbe25d85d1765d5e396d7a95c0830b", null ],
     [ "relinquishFocus", "db/ddb/classXonoticCvarList.html#af8909d3583230bbdc07d3becc18b5c02", null ],
     [ "resizeNotify", "db/ddb/classXonoticCvarList.html#abcb4fb11cab9714d5c77c93cf8f3cff2", null ],

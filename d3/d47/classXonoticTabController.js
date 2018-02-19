@@ -32,7 +32,7 @@ var classXonoticTabController =
     [ "makeTabButton_T", "d3/d47/classXonoticTabController.html#a3df66883cbd02b1b427fac0a46ce040a", null ],
     [ "mouseDrag", "d3/d47/classXonoticTabController.html#a3a907336ccc83979c4034d6154fac0da", null ],
     [ "mouseMove", "d3/d47/classXonoticTabController.html#a746410ea39f1849396441365b18a8ef9", null ],
-    [ "mousePress", "d3/d47/classXonoticTabController.html#ab172e9db29d40a26331b54437f05f6e8", null ],
+    [ "mousePress", "d3/d47/classXonoticTabController.html#a9e21317b2403a2f054f519910ae99e1c", null ],
     [ "mouseRelease", "d3/d47/classXonoticTabController.html#af2d77dcd05c40738a730aa8c33f6ec15", null ],
     [ "moveItemAfter", "d3/d47/classXonoticTabController.html#afa4350c363d52c715d3c0d024fa8a801", null ],
     [ "preferredFocusedGrandChild", "d3/d47/classXonoticTabController.html#ace0cdd98be2a97d3b768f5d30a84395f", null ],

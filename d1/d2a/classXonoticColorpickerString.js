@@ -21,7 +21,7 @@ var classXonoticColorpickerString =
     [ "loadCvars", "d1/d2a/classXonoticColorpickerString.html#a706e04df410460e3119ccfd1cf4e63ff", null ],
     [ "mouseDrag", "d1/d2a/classXonoticColorpickerString.html#ac6c7c295e39ccfcba1a62fc614015a65", null ],
     [ "mouseMove", "d1/d2a/classXonoticColorpickerString.html#a467f0a445a24590fdd3a41b012424a1e", null ],
-    [ "mousePress", "d1/d2a/classXonoticColorpickerString.html#a2e710a45b76d3b30de6f119f7d1909ee", null ],
+    [ "mousePress", "d1/d2a/classXonoticColorpickerString.html#aa977038f2110743cbddd8a1f9b96dc21", null ],
     [ "mouseRelease", "d1/d2a/classXonoticColorpickerString.html#ae1f9ac2ac355954a2854ac9a1e69c59a", null ],
     [ "relinquishFocus", "d1/d2a/classXonoticColorpickerString.html#af8909d3583230bbdc07d3becc18b5c02", null ],
     [ "resizeNotify", "d1/d2a/classXonoticColorpickerString.html#ad885b93c0a103ee08204101722634fd6", null ],

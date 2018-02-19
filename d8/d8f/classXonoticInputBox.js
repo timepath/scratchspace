@@ -29,7 +29,7 @@ var classXonoticInputBox =
     [ "loadCvars", "d8/d8f/classXonoticInputBox.html#ac2ea05aae099cd734fa143090065e902", null ],
     [ "mouseDrag", "d8/d8f/classXonoticInputBox.html#a7bb2a954e9f1b5f40f74a3939e3fa8e3", null ],
     [ "mouseMove", "d8/d8f/classXonoticInputBox.html#a86d5a41253876ec85fd121bea44cbb59", null ],
-    [ "mousePress", "d8/d8f/classXonoticInputBox.html#ae5481b381b1ace7355a3dafb5524864e", null ],
+    [ "mousePress", "d8/d8f/classXonoticInputBox.html#af7c3ac06b95a8ff1cfed28038a38cc71", null ],
     [ "mouseRelease", "d8/d8f/classXonoticInputBox.html#a8be93ae6496fa008aaba254ad76f19c9", null ],
     [ "recalcPositionWithText", "d8/d8f/classXonoticInputBox.html#a1df833a5bface26f468e77e75b40ea4c", null ],
     [ "relinquishFocus", "d8/d8f/classXonoticInputBox.html#af8909d3583230bbdc07d3becc18b5c02", null ],

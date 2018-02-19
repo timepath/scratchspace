@@ -119,7 +119,7 @@ var searchData=
   ['dragscrolltimer',['dragScrollTimer',['../d1/dec/classInputBox.html#a593656a073061cbbb031670df363defa',1,'InputBox']]],
   ['dragspeed',['dragspeed',['../d6/de9/cheats_8qc.html#a492dd354dd810faf1c15c2cead788849',1,'cheats.qc']]],
   ['draw_5falpha',['draw_alpha',['../d9/d62/menu_2draw_8qh.html#af8bc78de646f77926ed2cc3a5f7c84d4',1,'draw.qh']]],
-  ['draw_5fclipset',['draw_clipSet',['../d6/db1/draw_8qc.html#a40ac101e6e79a73145e17e9f493fa1e0',1,'draw.qc']]],
+  ['draw_5fclip',['draw_clip',['../d6/db1/draw_8qc.html#abe201a5932b79804121a27f7e82be57c',1,'draw.qc']]],
   ['draw_5fcurrentskin',['draw_currentSkin',['../d5/df2/common_2util_8qh.html#a2487aefe8b9f0c9382be0e1b7d696ce9',1,'util.qh']]],
   ['draw_5fmousepointer',['draw_mousepointer',['../d6/db1/draw_8qc.html#a68996b0a53bca8e86eb4b4afbb025eb2',1,'draw.qc']]],
   ['draw_5fmousepointer_5foffset',['draw_mousepointer_offset',['../d6/db1/draw_8qc.html#a7192b437e0c00020d13cff23a25b55af',1,'draw.qc']]],

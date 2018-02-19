@@ -6,7 +6,6 @@ var item_2inputbox_8qc =
     [ "InputBox_keyDown", "d3/dd8/item_2inputbox_8qc.html#acf2084e093527c7c04c2e75dd3b0b7e4", null ],
     [ "InputBox_mouseDrag", "d3/dd8/item_2inputbox_8qc.html#a3b9b7eac7a90b461c02546a4dca4b081", null ],
     [ "InputBox_mouseMove", "d3/dd8/item_2inputbox_8qc.html#ac4eb9ac2edcdf4d04e1a5bfaa72d858f", null ],
-    [ "InputBox_mousePress", "d3/dd8/item_2inputbox_8qc.html#ada2a07459eaec68afe52d5ee11565061", null ],
     [ "InputBox_mouseRelease", "d3/dd8/item_2inputbox_8qc.html#aea3fb8a134ec68a0cbd26a2fb766e5f7", null ],
     [ "InputBox_resizeNotify", "d3/dd8/item_2inputbox_8qc.html#aa342d33098b8e83a96a9a6381f5dbc43", null ],
     [ "InputBox_setText", "d3/dd8/item_2inputbox_8qc.html#a43061ec5225224fc7b69fa5357d9307c", null ],

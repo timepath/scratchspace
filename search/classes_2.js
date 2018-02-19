@@ -8,6 +8,7 @@ var searchData=
   ['clanarena',['ClanArena',['../da/def/classClanArena.html',1,'']]],
   ['client',['Client',['../d1/d37/classClient.html',1,'']]],
   ['clientstate',['ClientState',['../d6/d92/classClientState.html',1,'']]],
+  ['clipframe',['ClipFrame',['../d2/d11/classClipFrame.html',1,'']]],
   ['command',['Command',['../d9/d71/classCommand.html',1,'']]],
   ['container',['Container',['../d0/d7b/classContainer.html',1,'']]],
   ['crylink',['Crylink',['../d8/db8/classCrylink.html',1,'']]],

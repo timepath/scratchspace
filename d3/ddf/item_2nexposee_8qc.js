@@ -11,7 +11,6 @@ var item_2nexposee_8qc =
     [ "Nexposee_keyUp", "d3/ddf/item_2nexposee_8qc.html#a1a1bea4bebda7845052aac7a7eb12220", null ],
     [ "Nexposee_mouseDrag", "d3/ddf/item_2nexposee_8qc.html#aa40a4d6c0ff89b7fe5d9ce87531aef91", null ],
     [ "Nexposee_mouseMove", "d3/ddf/item_2nexposee_8qc.html#a52e0451750ec3c1d36a56515f42756a4", null ],
-    [ "Nexposee_mousePress", "d3/ddf/item_2nexposee_8qc.html#afb1c2748c4a18a36606c9fabac4698be", null ],
     [ "Nexposee_mouseRelease", "d3/ddf/item_2nexposee_8qc.html#a7ed33dec77c71557a4009112f43d8f01", null ],
     [ "Nexposee_pullNexposee", "d3/ddf/item_2nexposee_8qc.html#ab9c9ffd3eb956d268d6266bb3e8bad3f", null ],
     [ "Nexposee_resizeNotify", "d3/ddf/item_2nexposee_8qc.html#a6844e6faa42ba6f2f400856f72a573e1", null ],

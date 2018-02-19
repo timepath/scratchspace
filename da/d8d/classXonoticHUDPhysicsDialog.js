@@ -36,7 +36,7 @@ var classXonoticHUDPhysicsDialog =
     [ "leaveSubitem", "da/d8d/classXonoticHUDPhysicsDialog.html#a01627abafc724fbbbb330e46f8331911", null ],
     [ "mouseDrag", "da/d8d/classXonoticHUDPhysicsDialog.html#acb8d0e4dab1db46676d930589dd395ee", null ],
     [ "mouseMove", "da/d8d/classXonoticHUDPhysicsDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016", null ],
-    [ "mousePress", "da/d8d/classXonoticHUDPhysicsDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6", null ],
+    [ "mousePress", "da/d8d/classXonoticHUDPhysicsDialog.html#ad00256f4659c57fc5b8495fa1178ef08", null ],
     [ "mouseRelease", "da/d8d/classXonoticHUDPhysicsDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033", null ],
     [ "moveItemAfter", "da/d8d/classXonoticHUDPhysicsDialog.html#afa4350c363d52c715d3c0d024fa8a801", null ],
     [ "preferredFocusedGrandChild", "da/d8d/classXonoticHUDPhysicsDialog.html#ace0cdd98be2a97d3b768f5d30a84395f", null ],

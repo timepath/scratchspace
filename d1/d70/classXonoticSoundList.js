@@ -31,7 +31,7 @@ var classXonoticSoundList =
     [ "keyUp", "d1/d70/classXonoticSoundList.html#a10cf88734594fed24be93889407c0bda", null ],
     [ "mouseDrag", "d1/d70/classXonoticSoundList.html#a650ef3402824944f01d3df19cc2d497e", null ],
     [ "mouseMove", "d1/d70/classXonoticSoundList.html#a71cb69b951223966c8f5e10b73fb81f0", null ],
-    [ "mousePress", "d1/d70/classXonoticSoundList.html#a346d3fd09bc071dc7877bd8506aa103c", null ],
+    [ "mousePress", "d1/d70/classXonoticSoundList.html#a2e784d6bdbceeafaad14d59f83b39d81", null ],
     [ "mouseRelease", "d1/d70/classXonoticSoundList.html#a2188ecd49040da1f5cb826f6dd52e8c3", null ],
     [ "relinquishFocus", "d1/d70/classXonoticSoundList.html#af8909d3583230bbdc07d3becc18b5c02", null ],
     [ "resizeNotify", "d1/d70/classXonoticSoundList.html#a5ba27118877b05ca80539db4a0c050d9", null ],

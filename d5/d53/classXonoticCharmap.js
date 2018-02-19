@@ -19,7 +19,7 @@ var classXonoticCharmap =
     [ "keyUp", "d5/d53/classXonoticCharmap.html#a10cf88734594fed24be93889407c0bda", null ],
     [ "mouseDrag", "d5/d53/classXonoticCharmap.html#abf45e466d6bdd7bf3d9a18decd85b3e3", null ],
     [ "mouseMove", "d5/d53/classXonoticCharmap.html#a96bb839275a1a00b50d13e67bcad8c25", null ],
-    [ "mousePress", "d5/d53/classXonoticCharmap.html#a4b337d74a2040325355da07150d885ae", null ],
+    [ "mousePress", "d5/d53/classXonoticCharmap.html#a03c78077a75e67c5ed55ddc272218280", null ],
     [ "mouseRelease", "d5/d53/classXonoticCharmap.html#a3c8bca13fc56cb4fd35bc818e17a01ca", null ],
     [ "moveFocus", "d5/d53/classXonoticCharmap.html#a3aa36c55bd87e554a583cb681e044ff9", null ],
     [ "relinquishFocus", "d5/d53/classXonoticCharmap.html#af8909d3583230bbdc07d3becc18b5c02", null ],

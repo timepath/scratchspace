@@ -46,7 +46,7 @@ var classXonoticMapInfoDialog =
     [ "loadMapInfo", "dc/da0/classXonoticMapInfoDialog.html#a1befcad575c9e2426fa1c958d3c4b31c", null ],
     [ "mouseDrag", "dc/da0/classXonoticMapInfoDialog.html#acb8d0e4dab1db46676d930589dd395ee", null ],
     [ "mouseMove", "dc/da0/classXonoticMapInfoDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016", null ],
-    [ "mousePress", "dc/da0/classXonoticMapInfoDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6", null ],
+    [ "mousePress", "dc/da0/classXonoticMapInfoDialog.html#ad00256f4659c57fc5b8495fa1178ef08", null ],
     [ "mouseRelease", "dc/da0/classXonoticMapInfoDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033", null ],
     [ "moveItemAfter", "dc/da0/classXonoticMapInfoDialog.html#afa4350c363d52c715d3c0d024fa8a801", null ],
     [ "preferredFocusedGrandChild", "dc/da0/classXonoticMapInfoDialog.html#ace0cdd98be2a97d3b768f5d30a84395f", null ],

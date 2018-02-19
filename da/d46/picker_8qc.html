@@ -148,8 +148,6 @@ Functions</h2></td></tr>
 <tr class="separator:a408f3698cf8fe979026e81c4390ebe2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebc1795da153e2e3a1812c79488df408"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d46/picker_8qc.html#aebc1795da153e2e3a1812c79488df408">XonoticPicker_mouseMove</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> me, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> coords)</td></tr>
 <tr class="separator:aebc1795da153e2e3a1812c79488df408"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ca5f541f2368bc99786b5cfdc75993e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d46/picker_8qc.html#a6ca5f541f2368bc99786b5cfdc75993e">XonoticPicker_mousePress</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> me, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> coords)</td></tr>
-<tr class="separator:a6ca5f541f2368bc99786b5cfdc75993e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6ac55f69ef9723e77a63f9369f3e71f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d46/picker_8qc.html#ab6ac55f69ef9723e77a63f9369f3e71f">XonoticPicker_mouseRelease</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> me, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> coords)</td></tr>
 <tr class="separator:ab6ac55f69ef9723e77a63f9369f3e71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4febeda73828329724a1ac840a901c81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d46/picker_8qc.html#a4febeda73828329724a1ac840a901c81">XonoticPicker_moveFocus</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> me, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> initialCell, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> step)</td></tr>
@@ -587,45 +585,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6ca5f541f2368bc99786b5cfdc75993e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> XonoticPicker_mousePress </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
-          <td class="paramname"><em>me</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
-          <td class="paramname"><em>coords</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../da/d46/picker_8qc_source.html#l00042">42</a> of file <a class="el" href="../../da/d46/picker_8qc_source.html">picker.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    me.mouseMove(me, coords);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span>(me.focusedCell.x &gt;= 0)</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        me.pressed = 1;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        me.pressedCell = me.focusedCell;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
-</div><!-- fragment -->
-</div>
-</div>
 <a class="anchor" id="ab6ac55f69ef9723e77a63f9369f3e71f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -736,6 +695,8 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d46/picker_8qc_source.html#l00003">3</a> of file <a class="el" href="../../da/d46/picker_8qc_source.html">picker.qc</a>.</p>
 
+<p>Referenced by <a class="el" href="../../da/d46/picker_8qc_source.html#l00042">XonoticPicker::mousePress()</a>, <a class="el" href="../../db/d8e/item_2listbox_8qc_source.html#l00211">ListBox::mousePress()</a>, <a class="el" href="../../d3/dd8/item_2inputbox_8qc_source.html#l00074">InputBox::mousePress()</a>, and <a class="el" href="../../d2/d14/item_2slider_8qc_source.html#l00175">Slider::mousePress()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -744,7 +705,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../da/d46/picker_8qc.html">picker.qc</a></li>
-    <li class="footer">Generated on Sat Feb 17 2018 18:28:51 for Xonotic by
+    <li class="footer">Generated on Mon Feb 19 2018 02:53:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

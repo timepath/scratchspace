@@ -29,7 +29,7 @@ var classModalController =
     [ "leaveSubitem", "d6/d1a/classModalController.html#a01627abafc724fbbbb330e46f8331911", null ],
     [ "mouseDrag", "d6/d1a/classModalController.html#a3a907336ccc83979c4034d6154fac0da", null ],
     [ "mouseMove", "d6/d1a/classModalController.html#a746410ea39f1849396441365b18a8ef9", null ],
-    [ "mousePress", "d6/d1a/classModalController.html#ab172e9db29d40a26331b54437f05f6e8", null ],
+    [ "mousePress", "d6/d1a/classModalController.html#a9e21317b2403a2f054f519910ae99e1c", null ],
     [ "mouseRelease", "d6/d1a/classModalController.html#af2d77dcd05c40738a730aa8c33f6ec15", null ],
     [ "moveItemAfter", "d6/d1a/classModalController.html#afa4350c363d52c715d3c0d024fa8a801", null ],
     [ "preferredFocusedGrandChild", "d6/d1a/classModalController.html#ace0cdd98be2a97d3b768f5d30a84395f", null ],

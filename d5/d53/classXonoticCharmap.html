@@ -168,8 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abf45e466d6bdd7bf3d9a18decd85b3e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96bb839275a1a00b50d13e67bcad8c25"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d27/classXonoticPicker.html#a96bb839275a1a00b50d13e67bcad8c25">mouseMove</a> ()</td></tr>
 <tr class="separator:a96bb839275a1a00b50d13e67bcad8c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b337d74a2040325355da07150d885ae"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d27/classXonoticPicker.html#a4b337d74a2040325355da07150d885ae">mousePress</a> ()</td></tr>
-<tr class="separator:a4b337d74a2040325355da07150d885ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03c78077a75e67c5ed55ddc272218280"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d27/classXonoticPicker.html#a03c78077a75e67c5ed55ddc272218280">mousePress</a> ()</td></tr>
+<tr class="separator:a03c78077a75e67c5ed55ddc272218280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c8bca13fc56cb4fd35bc818e17a01ca"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d27/classXonoticPicker.html#a3c8bca13fc56cb4fd35bc818e17a01ca">mouseRelease</a> ()</td></tr>
 <tr class="separator:a3c8bca13fc56cb4fd35bc818e17a01ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aa36c55bd87e554a583cb681e044ff9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d27/classXonoticPicker.html#a3aa36c55bd87e554a583cb681e044ff9">moveFocus</a> ()</td></tr>
@@ -808,7 +808,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4b337d74a2040325355da07150d885ae"></a>
+<a class="anchor" id="a03c78077a75e67c5ed55ddc272218280"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -816,7 +816,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> XonoticPicker::mousePress </td>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> XonoticPicker::mousePress </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -831,6 +831,25 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/dae/classItem.html#a78a12a1a3e37a6dbc14a2ba79587c18a">Item</a>.</p>
 
+<p>Definition at line <a class="el" href="../../da/d46/picker_8qc_source.html#l00042">42</a> of file <a class="el" href="../../da/d46/picker_8qc_source.html">picker.qc</a>.</p>
+
+<p>References <a class="el" href="../../da/d46/picker_8qc_source.html#l00003">pressed</a>.</p>
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    this.<a class="code" href="../../df/d27/classXonoticPicker.html#a96bb839275a1a00b50d13e67bcad8c25">mouseMove</a>(<span class="keyword">this</span>, pos);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../df/d27/classXonoticPicker.html#a5660477bb979670af07bdca696bf6f30">focusedCell</a>.x &gt;= 0)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        this.<a class="code" href="../../da/d46/picker_8qc.html#a132ba96da5ba28448b61e42c019312a9">pressed</a> = 1;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        this.<a class="code" href="../../df/d27/classXonoticPicker.html#a0295170719b329b2b1786ec96dfe390e">pressedCell</a> = this.<a class="code" href="../../df/d27/classXonoticPicker.html#a5660477bb979670af07bdca696bf6f30">focusedCell</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
+<div class="ttc" id="classXonoticPicker_html_a96bb839275a1a00b50d13e67bcad8c25"><div class="ttname"><a href="../../df/d27/classXonoticPicker.html#a96bb839275a1a00b50d13e67bcad8c25">XonoticPicker::mouseMove</a></div><div class="ttdeci">virtual void mouseMove()</div></div>
+<div class="ttc" id="classXonoticPicker_html_a5660477bb979670af07bdca696bf6f30"><div class="ttname"><a href="../../df/d27/classXonoticPicker.html#a5660477bb979670af07bdca696bf6f30">XonoticPicker::focusedCell</a></div><div class="ttdeci">vector focusedCell</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d61/picker_8qh_source.html#l00026">picker.qh:26</a></div></div>
+<div class="ttc" id="classXonoticPicker_html_a0295170719b329b2b1786ec96dfe390e"><div class="ttname"><a href="../../df/d27/classXonoticPicker.html#a0295170719b329b2b1786ec96dfe390e">XonoticPicker::pressedCell</a></div><div class="ttdeci">vector pressedCell</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d61/picker_8qh_source.html#l00029">picker.qh:29</a></div></div>
+<div class="ttc" id="picker_8qc_html_a132ba96da5ba28448b61e42c019312a9"><div class="ttname"><a href="../../da/d46/picker_8qc.html#a132ba96da5ba28448b61e42c019312a9">pressed</a></div><div class="ttdeci">bool pressed</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/picker_8qc_source.html#l00003">picker.qc:3</a></div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a3c8bca13fc56cb4fd35bc818e17a01ca"></a>
@@ -1408,7 +1427,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d53/classXonoticCharmap.html">XonoticCharmap</a></li>
-    <li class="footer">Generated on Sat Feb 17 2018 18:28:59 for Xonotic by
+    <li class="footer">Generated on Mon Feb 19 2018 02:53:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

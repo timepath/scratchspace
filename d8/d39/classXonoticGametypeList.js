@@ -29,7 +29,7 @@ var classXonoticGametypeList =
     [ "loadCvars", "d8/d39/classXonoticGametypeList.html#a5f499abda07a253a9503f8fa04acb01b", null ],
     [ "mouseDrag", "d8/d39/classXonoticGametypeList.html#a650ef3402824944f01d3df19cc2d497e", null ],
     [ "mouseMove", "d8/d39/classXonoticGametypeList.html#a71cb69b951223966c8f5e10b73fb81f0", null ],
-    [ "mousePress", "d8/d39/classXonoticGametypeList.html#a346d3fd09bc071dc7877bd8506aa103c", null ],
+    [ "mousePress", "d8/d39/classXonoticGametypeList.html#a2e784d6bdbceeafaad14d59f83b39d81", null ],
     [ "mouseRelease", "d8/d39/classXonoticGametypeList.html#a2188ecd49040da1f5cb826f6dd52e8c3", null ],
     [ "relinquishFocus", "d8/d39/classXonoticGametypeList.html#af8909d3583230bbdc07d3becc18b5c02", null ],
     [ "resizeNotify", "d8/d39/classXonoticGametypeList.html#af97e0d0a792b4465b6e2aa6ba988cad0", null ],

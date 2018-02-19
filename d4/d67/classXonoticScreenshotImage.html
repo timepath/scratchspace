@@ -174,8 +174,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa1bcc51f720a434e07164da44586fb06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2909d5e67ce8540e19634b6882974df5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d67/classXonoticScreenshotImage.html#a2909d5e67ce8540e19634b6882974df5">mouseMove</a> ()</td></tr>
 <tr class="separator:a2909d5e67ce8540e19634b6882974df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a409ce3aacf94ff9c04ec32137184d9b9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d67/classXonoticScreenshotImage.html#a409ce3aacf94ff9c04ec32137184d9b9">mousePress</a> ()</td></tr>
-<tr class="separator:a409ce3aacf94ff9c04ec32137184d9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f295e4a019a8c337679a9f1c1403e64"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d67/classXonoticScreenshotImage.html#a7f295e4a019a8c337679a9f1c1403e64">mousePress</a> ()</td></tr>
+<tr class="separator:a7f295e4a019a8c337679a9f1c1403e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace6b33f60db102ae3b061eb3c0b93ec2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/classItem.html#ace6b33f60db102ae3b061eb3c0b93ec2">mouseRelease</a> ()</td></tr>
 <tr class="separator:ace6b33f60db102ae3b061eb3c0b93ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8909d3583230bbdc07d3becc18b5c02"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dae/classItem.html#af8909d3583230bbdc07d3becc18b5c02">relinquishFocus</a> ()</td></tr>
@@ -912,7 +912,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a409ce3aacf94ff9c04ec32137184d9b9"></a>
+<a class="anchor" id="a7f295e4a019a8c337679a9f1c1403e64"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -920,7 +920,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> XonoticScreenshotImage::mousePress </td>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> XonoticScreenshotImage::mousePress </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -935,6 +935,12 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/dae/classItem.html#a78a12a1a3e37a6dbc14a2ba79587c18a">Item</a>.</p>
 
+<p>Definition at line <a class="el" href="../../de/d39/screenshotimage_8qc_source.html#l00030">30</a> of file <a class="el" href="../../de/d39/screenshotimage_8qc_source.html">screenshotimage.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> this.<a class="code" href="../../d8/d00/classImage.html#a42679e2f56b11c7b1dd2d146327b8bbf">drag_setStartPos</a>(<span class="keyword">this</span>, pos);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<div class="ttc" id="classImage_html_a42679e2f56b11c7b1dd2d146327b8bbf"><div class="ttname"><a href="../../d8/d00/classImage.html#a42679e2f56b11c7b1dd2d146327b8bbf">Image::drag_setStartPos</a></div><div class="ttdeci">virtual void drag_setStartPos()</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="ace6b33f60db102ae3b061eb3c0b93ec2"></a>
@@ -1603,8 +1609,9 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>menu/xonotic/<a class="el" href="../../df/de5/screenshotimage_8qh_source.html">screenshotimage.qh</a></li>
+<li>menu/xonotic/<a class="el" href="../../de/d39/screenshotimage_8qc_source.html">screenshotimage.qc</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1612,7 +1619,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d67/classXonoticScreenshotImage.html">XonoticScreenshotImage</a></li>
-    <li class="footer">Generated on Sat Feb 17 2018 18:29:00 for Xonotic by
+    <li class="footer">Generated on Mon Feb 19 2018 02:53:56 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

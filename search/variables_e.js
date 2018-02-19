@@ -94,7 +94,7 @@ var searchData=
   ['nickspamtime',['nickspamtime',['../d5/d26/server_2defs_8qh.html#a261b1d34f3a683ee7745cc37b26abd87',1,'defs.qh']]],
   ['nightvision_5fnoise',['nightvision_noise',['../d6/dd3/view_8qc.html#a7025aaeb36fdba0160ed97b27181912a',1,'view.qc']]],
   ['nightvision_5fnoise2',['nightvision_noise2',['../d6/dd3/view_8qc.html#a4bb4b86b8168de9ecf1a07065cf9d616',1,'view.qc']]],
-  ['nitems',['nItems',['../d9/de9/classListBox.html#ac43fc57c675f684f20b2ef93556109d2',1,'ListBox']]],
+  ['nitems',['nItems',['../d9/de9/classListBox.html#ac43fc57c675f684f20b2ef93556109d2',1,'ListBox::nItems()'],['../d6/da5/classXonoticScrollPanel.html#a029b230a0f8a4a5935a28974ee090f5d',1,'XonoticScrollPanel::nItems()']]],
   ['nix_5flastchange_5fid',['nix_lastchange_id',['../d7/d39/sv__nix_8qc.html#a2e586009c008d0925269618c52e3b74d',1,'sv_nix.qc']]],
   ['nix_5flastinfotime',['nix_lastinfotime',['../d7/d39/sv__nix_8qc.html#addda30d59fcc8b8faee6857b52948de8',1,'sv_nix.qc']]],
   ['nix_5fnextchange',['nix_nextchange',['../d7/d39/sv__nix_8qc.html#ab4bd690708f3e7cffba8eb3075183a2f',1,'sv_nix.qc']]],

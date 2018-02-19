@@ -29,7 +29,7 @@ var classXonoticPlayList =
     [ "keyUp", "db/d59/classXonoticPlayList.html#a10cf88734594fed24be93889407c0bda", null ],
     [ "mouseDrag", "db/d59/classXonoticPlayList.html#a96bac23d629c5caa926fa84461c1be73", null ],
     [ "mouseMove", "db/d59/classXonoticPlayList.html#a71cb69b951223966c8f5e10b73fb81f0", null ],
-    [ "mousePress", "db/d59/classXonoticPlayList.html#a346d3fd09bc071dc7877bd8506aa103c", null ],
+    [ "mousePress", "db/d59/classXonoticPlayList.html#a2e784d6bdbceeafaad14d59f83b39d81", null ],
     [ "mouseRelease", "db/d59/classXonoticPlayList.html#a2188ecd49040da1f5cb826f6dd52e8c3", null ],
     [ "pauseSound", "db/d59/classXonoticPlayList.html#a45305497c287a31216c09a45b289b5aa", null ],
     [ "relinquishFocus", "db/d59/classXonoticPlayList.html#af8909d3583230bbdc07d3becc18b5c02", null ],

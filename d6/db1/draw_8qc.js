@@ -1,5 +1,7 @@
 var draw_8qc =
 [
+    [ "ClipFrame", "d2/d11/classClipFrame.html", "d2/d11/classClipFrame" ],
+    [ "_draw_SetClip", "d6/db1/draw_8qc.html#aad6d84987285f755d8fb0e52f3e99575", null ],
     [ "boxToGlobal", "d6/db1/draw_8qc.html#ad9ed2a82efe01e29eb48ff32dace86db", null ],
     [ "boxToGlobalSize", "d6/db1/draw_8qc.html#ab8f2b0e7558bdad2ae9d4eadbb278257", null ],
     [ "draw_BorderPicture", "d6/db1/draw_8qc.html#ae64aac37d55a26279dca938d8ca2e76e", null ],
@@ -26,7 +28,8 @@ var draw_8qc =
     [ "draw_VertButtonPicture", "d6/db1/draw_8qc.html#a7ac520c41682e2cf64d61115522ddaba", null ],
     [ "globalToBox", "d6/db1/draw_8qc.html#a0b581a0ff2b1fd85336d25a51a06e57d", null ],
     [ "globalToBoxSize", "d6/db1/draw_8qc.html#aae12e9efe4b2ff652987ec77bbb1e82e", null ],
-    [ "draw_clipSet", "d6/db1/draw_8qc.html#a40ac101e6e79a73145e17e9f493fa1e0", null ],
+    [ "STATIC_INIT", "d6/db1/draw_8qc.html#ab0a3fc7a98662709c522e3820a822168", null ],
+    [ "draw_clip", "d6/db1/draw_8qc.html#abe201a5932b79804121a27f7e82be57c", null ],
     [ "draw_mousepointer", "d6/db1/draw_8qc.html#a68996b0a53bca8e86eb4b4afbb025eb2", null ],
     [ "draw_mousepointer_offset", "d6/db1/draw_8qc.html#a7192b437e0c00020d13cff23a25b55af", null ],
     [ "draw_mousepointer_size", "d6/db1/draw_8qc.html#a497c7c7bbffd7a916d2eabc0adbfe4a5", null ]

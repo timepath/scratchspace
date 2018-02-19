@@ -41,7 +41,7 @@ var classXonoticGameSettingsTab =
     [ "leaveSubitem", "df/d26/classXonoticGameSettingsTab.html#a01627abafc724fbbbb330e46f8331911", null ],
     [ "mouseDrag", "df/d26/classXonoticGameSettingsTab.html#acb8d0e4dab1db46676d930589dd395ee", null ],
     [ "mouseMove", "df/d26/classXonoticGameSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016", null ],
-    [ "mousePress", "df/d26/classXonoticGameSettingsTab.html#aabcdbf6dee5587f47a9e39cedfb625c6", null ],
+    [ "mousePress", "df/d26/classXonoticGameSettingsTab.html#ad00256f4659c57fc5b8495fa1178ef08", null ],
     [ "mouseRelease", "df/d26/classXonoticGameSettingsTab.html#ab9a0ee0a1b8e30791aa64a0bc788b033", null ],
     [ "moveItemAfter", "df/d26/classXonoticGameSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801", null ],
     [ "preferredFocusedGrandChild", "df/d26/classXonoticGameSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f", null ],

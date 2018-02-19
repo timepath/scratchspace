@@ -20,7 +20,7 @@ var classXonoticColorpicker =
     [ "keyUp", "db/d63/classXonoticColorpicker.html#a10cf88734594fed24be93889407c0bda", null ],
     [ "mouseDrag", "db/d63/classXonoticColorpicker.html#a5faf73589f1ddfc71a2282deddce5f81", null ],
     [ "mouseMove", "db/d63/classXonoticColorpicker.html#a467f0a445a24590fdd3a41b012424a1e", null ],
-    [ "mousePress", "db/d63/classXonoticColorpicker.html#a6bb011f4a4568b35a26ec00cd57e77da", null ],
+    [ "mousePress", "db/d63/classXonoticColorpicker.html#ae043e531be6438119d7536369abaf6d1", null ],
     [ "mouseRelease", "db/d63/classXonoticColorpicker.html#ac5a13bfcb6ef13ce07f4e397ed7e3b26", null ],
     [ "relinquishFocus", "db/d63/classXonoticColorpicker.html#af8909d3583230bbdc07d3becc18b5c02", null ],
     [ "resizeNotify", "db/d63/classXonoticColorpicker.html#ad885b93c0a103ee08204101722634fd6", null ],

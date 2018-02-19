@@ -29,7 +29,7 @@ var classXonoticStatsList =
     [ "keyUp", "d0/d25/classXonoticStatsList.html#a10cf88734594fed24be93889407c0bda", null ],
     [ "mouseDrag", "d0/d25/classXonoticStatsList.html#a650ef3402824944f01d3df19cc2d497e", null ],
     [ "mouseMove", "d0/d25/classXonoticStatsList.html#a71cb69b951223966c8f5e10b73fb81f0", null ],
-    [ "mousePress", "d0/d25/classXonoticStatsList.html#a346d3fd09bc071dc7877bd8506aa103c", null ],
+    [ "mousePress", "d0/d25/classXonoticStatsList.html#a2e784d6bdbceeafaad14d59f83b39d81", null ],
     [ "mouseRelease", "d0/d25/classXonoticStatsList.html#a2188ecd49040da1f5cb826f6dd52e8c3", null ],
     [ "relinquishFocus", "d0/d25/classXonoticStatsList.html#af8909d3583230bbdc07d3becc18b5c02", null ],
     [ "resizeNotify", "d0/d25/classXonoticStatsList.html#ad18a3d48574e3275cadb33bd5b22f58a", null ],

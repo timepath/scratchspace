@@ -26,7 +26,7 @@ var classTextSlider =
     [ "keyUp", "db/db4/classTextSlider.html#aeeea196cce280d4e95730a8f06b80518", null ],
     [ "mouseDrag", "db/db4/classTextSlider.html#ae7ad12c455973e01e6ffaaa65114ed32", null ],
     [ "mouseMove", "db/db4/classTextSlider.html#a467f0a445a24590fdd3a41b012424a1e", null ],
-    [ "mousePress", "db/db4/classTextSlider.html#a2b037bf524215b36e92bd1de1009634d", null ],
+    [ "mousePress", "db/db4/classTextSlider.html#a5c3e82c697908be9903332ed6b6cd46e", null ],
     [ "mouseRelease", "db/db4/classTextSlider.html#a0c478135eb70f406c6a0b87529556e98", null ],
     [ "recalcPositionWithText", "db/db4/classTextSlider.html#a1df833a5bface26f468e77e75b40ea4c", null ],
     [ "relinquishFocus", "db/db4/classTextSlider.html#af8909d3583230bbdc07d3becc18b5c02", null ],

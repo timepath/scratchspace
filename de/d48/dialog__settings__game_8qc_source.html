@@ -201,38 +201,41 @@ $(document).ready(function(){initNavTree('de/d48/dialog__settings__game_8qc_sour
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
 <div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="../../df/d26/classXonoticGameSettingsTab.html#a04b784f800393e25c7be5e89c6f9c04d">   95</a></span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../df/d26/classXonoticGameSettingsTab.html">XonoticGameSettingsTab</a>, topicChangeNotify, <span class="keywordtype">void</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>))</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> c = this.currentPanel;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> removing = this.currentItem;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../de/d82/classDataSource.html">DataSource</a> data = this.topicList.source;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> adding = data.<a class="code" href="../../de/d82/classDataSource.html#a1ca30518a2e736ed25fb28222344771d">getEntry</a>(data, this.topicList.selectedItem, <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>);</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span> (removing == adding) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">if</span> (removing) {</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        this.currentItem = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        c.removeItem(c, removing);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">if</span> (adding) {</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        this.currentItem = adding;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        adding.resizeNotify(adding, <span class="stringliteral">&#39;0 0 0&#39;</span>, c.size, <span class="stringliteral">&#39;0 0 0&#39;</span>, c.size);</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        c.addItem(c, adding, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;1 1 0&#39;</span>, 1);</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
-<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="../../df/d26/classXonoticGameSettingsTab.html#ab3eb84d48a09edd7de6b02d0f66f8350">  112</a></span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../df/d26/classXonoticGameSettingsTab.html">XonoticGameSettingsTab</a>, fill, <span class="keywordtype">void</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>))</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;{</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> topics = this.topicList;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        topics.onChange = this.topicChangeNotify;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        topics.onChangeEntity = <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordtype">int</span></div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    col = 0, width = 1;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    this.gotoRC(<span class="keyword">this</span>, 0, col);</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        this.TD(<span class="keyword">this</span>, this.rows, width, topics);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    col += width, width = this.columns - col;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    this.gotoRC(<span class="keyword">this</span>, 0, col); this.setFirstColumn(<span class="keyword">this</span>, this.currentColumn);</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        this.TD(<span class="keyword">this</span>, this.rows, width, this.currentPanel);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    this.topicChangeNotify(topics, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> s = this.currentPanel;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    s.viewportHeight = 15.5;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> c = s.currentPanel;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> removing = this.currentItem;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="../../de/d82/classDataSource.html">DataSource</a> data = this.topicList.source;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> adding = data.<a class="code" href="../../de/d82/classDataSource.html#a1ca30518a2e736ed25fb28222344771d">getEntry</a>(data, this.topicList.selectedItem, <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">if</span> (removing == adding) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">if</span> (removing) {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        this.currentItem = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        c.removeItem(c, removing);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">if</span> (adding) {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        this.currentItem = adding;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        adding.resizeNotify(adding, <span class="stringliteral">&#39;0 0 0&#39;</span>, c.size, <span class="stringliteral">&#39;0 0 0&#39;</span>, c.size);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        c.addItem(c, adding, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;1 1 0&#39;</span>, 1);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        s.resizeNotify(s, <span class="stringliteral">&#39;0 0 0&#39;</span>, s.size, <span class="stringliteral">&#39;0 0 0&#39;</span>, s.size);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;}</div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="../../df/d26/classXonoticGameSettingsTab.html#ab3eb84d48a09edd7de6b02d0f66f8350">  115</a></span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../df/d26/classXonoticGameSettingsTab.html">XonoticGameSettingsTab</a>, fill, <span class="keywordtype">void</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>))</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;{</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> topics = this.topicList;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        topics.onChange = this.topicChangeNotify;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        topics.onChangeEntity = <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordtype">int</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    col = 0, width = 1;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    this.gotoRC(<span class="keyword">this</span>, 0, col);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        this.TD(<span class="keyword">this</span>, this.rows, width, topics);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    col += width, width = this.columns - col;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    this.gotoRC(<span class="keyword">this</span>, 0, col); this.setFirstColumn(<span class="keyword">this</span>, this.currentColumn);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        this.TD(<span class="keyword">this</span>, this.rows, width, this.currentPanel);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    this.topicChangeNotify(topics, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;}</div>
 <div class="ttc" id="menu_2xonotic_2util_8qc_html_ab82c9c370db86ec43c7e9ef75a7fff6c"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ab82c9c370db86ec43c7e9ef75a7fff6c">getFadedAlpha</a></div><div class="ttdeci">float getFadedAlpha(float currentAlpha, float startAlpha, float targetAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00820">util.qc:820</a></div></div>
 <div class="ttc" id="classDataSource_html"><div class="ttname"><a href="../../de/d82/classDataSource.html">DataSource</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/datasource_8qh_source.html#l00003">datasource.qh:3</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
@@ -255,10 +258,10 @@ $(document).ready(function(){initNavTree('de/d48/dialog__settings__game_8qc_sour
 <div class="ttc" id="classDataSource_html_a1ca30518a2e736ed25fb28222344771d"><div class="ttname"><a href="../../de/d82/classDataSource.html#a1ca30518a2e736ed25fb28222344771d">DataSource::getEntry</a></div><div class="ttdeci">virtual void getEntry()</div><div class="ttdoc">get entry i passing name and icon through returns if it is not null returns DataSource_false if out o...</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/datasource_8qh_source.html#l00011">datasource.qh:11</a></div></div>
 <div class="ttc" id="dialog__settings__game_8qc_html_a612071b3e7e03563d6c3e60fcee98f10"><div class="ttname"><a href="../../de/d48/dialog__settings__game_8qc.html#a612071b3e7e03563d6c3e60fcee98f10">XonoticRegisteredSettingsList_getNameIcon_cb</a></div><div class="ttdeci">void XonoticRegisteredSettingsList_getNameIcon_cb(string _name, string _icon)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d48/dialog__settings__game_8qc_source.html#l00023">dialog_settings_game.qc:23</a></div></div>
 <div class="ttc" id="vector_8qh_html_adce3aade2f97ac6fb4688fe0a7005d27"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a></div><div class="ttdeci">const vector eX</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00045">vector.qh:45</a></div></div>
-<div class="ttc" id="classXonoticGameSettingsTab_html"><div class="ttname"><a href="../../df/d26/classXonoticGameSettingsTab.html">XonoticGameSettingsTab</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/dialog__settings__game_8qh_source.html#l00035">dialog_settings_game.qh:35</a></div></div>
+<div class="ttc" id="classXonoticGameSettingsTab_html"><div class="ttname"><a href="../../df/d26/classXonoticGameSettingsTab.html">XonoticGameSettingsTab</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/dialog__settings__game_8qh_source.html#l00036">dialog_settings_game.qh:36</a></div></div>
 <div class="ttc" id="draw_8qc_html_a9317e58388dd0f4801ecd46178a0f334"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#a9317e58388dd0f4801ecd46178a0f334">draw_Text</a></div><div class="ttdeci">void draw_Text(vector theOrigin, string theText, vector theSize, vector theColor, float theAlpha, float ICanHasKallerz)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00271">draw.qc:271</a></div></div>
 <div class="ttc" id="classXonoticRegisteredSettingsList_html"><div class="ttname"><a href="../../db/d29/classXonoticRegisteredSettingsList.html">XonoticRegisteredSettingsList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/dialog__settings__game_8qh_source.html#l00011">dialog_settings_game.qh:11</a></div></div>
-<div class="ttc" id="draw_8qc_html_a30c4ca2338b35f847f0b38491dad2c2b"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#a30c4ca2338b35f847f0b38491dad2c2b">draw_TextShortenToWidth</a></div><div class="ttdeci">string draw_TextShortenToWidth(string theText, float maxWidth, float ICanHasKallerz, vector SizeThxBye)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00343">draw.qc:343</a></div></div>
+<div class="ttc" id="draw_8qc_html_a30c4ca2338b35f847f0b38491dad2c2b"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#a30c4ca2338b35f847f0b38491dad2c2b">draw_TextShortenToWidth</a></div><div class="ttdeci">string draw_TextShortenToWidth(string theText, float maxWidth, float ICanHasKallerz, vector SizeThxBye)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00366">draw.qc:366</a></div></div>
 <div class="ttc" id="menu_8qh_html_a8ccf841cb59e451791bcb2e1ac4f1edc"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a></div><div class="ttdeci">string name</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00030">menu.qh:30</a></div></div>
 <div class="ttc" id="oo_8qh_html_aace0c7293aa8214ab7b12cc485520af7"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aace0c7293aa8214ab7b12cc485520af7">CONSTRUCTOR</a></div><div class="ttdeci">#define CONSTRUCTOR(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00141">oo.qh:141</a></div></div>
 <div class="ttc" id="nil_8qh_html_a48cdb42ec925da155dd105031cac3f44"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a></div><div class="ttdeci">var void func_null()</div></div>
@@ -268,7 +271,7 @@ $(document).ready(function(){initNavTree('de/d48/dialog__settings__game_8qc_sour
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../de/d48/dialog__settings__game_8qc.html">dialog_settings_game.qc</a></li>
-    <li class="footer">Generated on Sat Feb 17 2018 18:28:40 for Xonotic by
+    <li class="footer">Generated on Mon Feb 19 2018 02:53:37 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -8,6 +8,5 @@ var colorpicker_8qc =
     [ "XonoticColorpicker_focusLeave", "d6/d4c/colorpicker_8qc.html#af5da62045b5266962f209f057f2905ba", null ],
     [ "XonoticColorpicker_keyDown", "d6/d4c/colorpicker_8qc.html#aa7d5123ce7481594141faf014b3a30cf", null ],
     [ "XonoticColorpicker_mouseDrag", "d6/d4c/colorpicker_8qc.html#a7d9c27a1773ed7b4079cffa5c3a98908", null ],
-    [ "XonoticColorpicker_mousePress", "d6/d4c/colorpicker_8qc.html#aa85bf584c761b8a088ac4ebdea30ed69", null ],
     [ "XonoticColorpicker_mouseRelease", "d6/d4c/colorpicker_8qc.html#acb8936a6f5742488486a7d6e09c0f132", null ]
 ];
