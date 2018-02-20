@@ -415,73 +415,74 @@ $(document).ready(function(){initNavTree('dc/d3d/container_8qc_source.html','../
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                me.focusedChild.focused = 1;</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                me.focusedChild.focusEnter(me.focusedChild);</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                <span class="keywordflow">if</span> (me.focusedChild.instanceOfContainer) me.focusedChild.setFocus(me.focusedChild, me.focusedChild.savedFocus);</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;            }</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;            {</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                me.focusedChild = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                me.focusedChild.focused = 1;</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                me.focusedChild.focusEnter(me.focusedChild);</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;            }</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        }</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    }</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;</div>
-<div class="line"><a name="l00322"></a><span class="lineno"><a class="line" href="../../dc/d3d/container_8qc.html#a0d704fbfdff6affe9de9ddacd94e6e0f">  322</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/d3d/container_8qc.html#a0d704fbfdff6affe9de9ddacd94e6e0f">Container_saveFocus</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me)</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    {</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        me.savedFocus = me.focusedChild;</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        <span class="keywordflow">if</span> (me.focusedChild.instanceOfContainer) me.focusedChild.saveFocus(me.focusedChild);</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    }</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
-<div class="line"><a name="l00329"></a><span class="lineno"><a class="line" href="../../dc/d3d/container_8qc.html#aeb61dbefd999daae23915818c75f17fa">  329</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/d3d/container_8qc.html#aeb61dbefd999daae23915818c75f17fa">Container_moveItemAfter</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d9/de7/jumppads_8qh.html#ae06022ef64f0fecd8f5ab5ad77f1ee3d">dest</a>)</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    {</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        <span class="comment">// first: remove other from the chain</span></div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> n, <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <span class="keywordflow">if</span> (other.parent != me) <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;Can&#39;t move in wrong container!&quot;</span>);</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        n = other.nextSibling;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        p = other.prevSibling;</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        <span class="keywordflow">if</span> (p) p.nextSibling = n;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        <span class="keywordflow">else</span> me.firstChild = n;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        <span class="keywordflow">if</span> (n) n.prevSibling = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordflow">else</span> me.lastChild = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        <span class="comment">// now other got removed. Insert it behind dest now.</span></div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        other.prevSibling = <a class="code" href="../../d9/de7/jumppads_8qh.html#ae06022ef64f0fecd8f5ab5ad77f1ee3d">dest</a>;</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        <span class="keywordflow">if</span> (dest) other.nextSibling = dest.nextSibling;</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        <span class="keywordflow">else</span> other.nextSibling = me.firstChild;</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        <span class="keywordflow">if</span> (dest) dest.nextSibling = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        <span class="keywordflow">else</span> me.firstChild = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <span class="keywordflow">if</span> (other.nextSibling) other.nextSibling.prevSibling = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        <span class="keywordflow">else</span> me.lastChild = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    }</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;</div>
-<div class="line"><a name="l00357"></a><span class="lineno"><a class="line" href="../../dc/d3d/container_8qc.html#af2aaaca08e442db9b25784326a7e5730">  357</a></span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../dc/d3d/container_8qc.html#af2aaaca08e442db9b25784326a7e5730">Container_preferredFocusedGrandChild</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me)</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    {</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, e2;</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d0/d6e/impulses_2all_8qh.html#a3b0850e83e1ab1be2d177812324a1455">best</a>;</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        best = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        <span class="keywordflow">for</span> (e = me.firstChild; e; e = e.nextSibling)</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        {</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;            <span class="keywordflow">if</span> (e.instanceOfContainer)</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;            {</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                e2 = e.preferredFocusedGrandChild(e);</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                <span class="keywordflow">if</span> (e2)</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                    <span class="keywordflow">if</span> (!best || best.preferredFocusPriority &lt; e2.preferredFocusPriority) best = e2;</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;            }</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;            <span class="keywordflow">if</span> (e)</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;                <span class="keywordflow">if</span> (!best || best.preferredFocusPriority &lt; e.preferredFocusPriority) best = e;</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        }</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d0/d6e/impulses_2all_8qh.html#a3b0850e83e1ab1be2d177812324a1455">best</a>;</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    }</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                <span class="keywordflow">if</span> (me.focusedChild.instanceOfContainer)</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                    me.focusedChild.setFocus(me.focusedChild, me.focusedChild.savedFocus);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;            }</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;            {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                me.focusedChild = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                me.focusedChild.focused = 1;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                me.focusedChild.focusEnter(me.focusedChild);</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            }</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        }</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    }</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
+<div class="line"><a name="l00323"></a><span class="lineno"><a class="line" href="../../dc/d3d/container_8qc.html#a0d704fbfdff6affe9de9ddacd94e6e0f">  323</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/d3d/container_8qc.html#a0d704fbfdff6affe9de9ddacd94e6e0f">Container_saveFocus</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me)</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    {</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        me.savedFocus = me.focusedChild;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        <span class="keywordflow">if</span> (me.focusedChild.instanceOfContainer) me.focusedChild.saveFocus(me.focusedChild);</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    }</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
+<div class="line"><a name="l00330"></a><span class="lineno"><a class="line" href="../../dc/d3d/container_8qc.html#aeb61dbefd999daae23915818c75f17fa">  330</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/d3d/container_8qc.html#aeb61dbefd999daae23915818c75f17fa">Container_moveItemAfter</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d9/de7/jumppads_8qh.html#ae06022ef64f0fecd8f5ab5ad77f1ee3d">dest</a>)</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    {</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="comment">// first: remove other from the chain</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> n, <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        <span class="keywordflow">if</span> (other.parent != me) <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;Can&#39;t move in wrong container!&quot;</span>);</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        n = other.nextSibling;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        p = other.prevSibling;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        <span class="keywordflow">if</span> (p) p.nextSibling = n;</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        <span class="keywordflow">else</span> me.firstChild = n;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordflow">if</span> (n) n.prevSibling = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        <span class="keywordflow">else</span> me.lastChild = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <span class="comment">// now other got removed. Insert it behind dest now.</span></div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        other.prevSibling = <a class="code" href="../../d9/de7/jumppads_8qh.html#ae06022ef64f0fecd8f5ab5ad77f1ee3d">dest</a>;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        <span class="keywordflow">if</span> (dest) other.nextSibling = dest.nextSibling;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        <span class="keywordflow">else</span> other.nextSibling = me.firstChild;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        <span class="keywordflow">if</span> (dest) dest.nextSibling = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        <span class="keywordflow">else</span> me.firstChild = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        <span class="keywordflow">if</span> (other.nextSibling) other.nextSibling.prevSibling = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="keywordflow">else</span> me.lastChild = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    }</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;</div>
+<div class="line"><a name="l00358"></a><span class="lineno"><a class="line" href="../../dc/d3d/container_8qc.html#af2aaaca08e442db9b25784326a7e5730">  358</a></span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../dc/d3d/container_8qc.html#af2aaaca08e442db9b25784326a7e5730">Container_preferredFocusedGrandChild</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me)</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    {</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, e2;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d0/d6e/impulses_2all_8qh.html#a3b0850e83e1ab1be2d177812324a1455">best</a>;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        best = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        <span class="keywordflow">for</span> (e = me.firstChild; e; e = e.nextSibling)</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        {</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;            <span class="keywordflow">if</span> (e.instanceOfContainer)</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;            {</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                e2 = e.preferredFocusedGrandChild(e);</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                <span class="keywordflow">if</span> (e2)</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;                    <span class="keywordflow">if</span> (!best || best.preferredFocusPriority &lt; e2.preferredFocusPriority) best = e2;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;            }</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;            <span class="keywordflow">if</span> (e)</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                <span class="keywordflow">if</span> (!best || best.preferredFocusPriority &lt; e.preferredFocusPriority) best = e;</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        }</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d0/d6e/impulses_2all_8qh.html#a3b0850e83e1ab1be2d177812324a1455">best</a>;</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    }</div>
 <div class="ttc" id="draw_8qc_html_a0b581a0ff2b1fd85336d25a51a06e57d"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#a0b581a0ff2b1fd85336d25a51a06e57d">globalToBox</a></div><div class="ttdeci">vector globalToBox(vector v, vector theOrigin, vector theScale)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00030">draw.qc:30</a></div></div>
 <div class="ttc" id="draw_8qc_html_ad9ed2a82efe01e29eb48ff32dace86db"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#ad9ed2a82efe01e29eb48ff32dace86db">boxToGlobal</a></div><div class="ttdeci">vector boxToGlobal(vector v, vector theOrigin, vector theScale)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00045">draw.qc:45</a></div></div>
 <div class="ttc" id="jumppads_8qh_html_ae06022ef64f0fecd8f5ab5ad77f1ee3d"><div class="ttname"><a href="../../d9/de7/jumppads_8qh.html#ae06022ef64f0fecd8f5ab5ad77f1ee3d">dest</a></div><div class="ttdeci">vector dest</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de7/jumppads_8qh_source.html#l00039">jumppads.qh:39</a></div></div>
@@ -494,13 +495,13 @@ $(document).ready(function(){initNavTree('dc/d3d/container_8qc_source.html','../
 <div class="ttc" id="container_8qc_html_a5ca4f8816ff1d879fd289441bf869e34"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#a5ca4f8816ff1d879fd289441bf869e34">Container_addItem</a></div><div class="ttdeci">void Container_addItem(entity me, entity other, vector theOrigin, vector theSize, float theAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00232">container.qc:232</a></div></div>
 <div class="ttc" id="container_8qc_html_adc93ab2bc5f25bdc8eefb6dd4f6b2270"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#adc93ab2bc5f25bdc8eefb6dd4f6b2270">Container_showNotify</a></div><div class="ttdeci">void Container_showNotify(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00029">container.qc:29</a></div></div>
 <div class="ttc" id="container_8qc_html_a369e322b4641da9db9f2a635ee0fe362"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#a369e322b4641da9db9f2a635ee0fe362">Container_removeItem</a></div><div class="ttdeci">void Container_removeItem(entity me, entity other)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00270">container.qc:270</a></div></div>
-<div class="ttc" id="container_8qc_html_a0d704fbfdff6affe9de9ddacd94e6e0f"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#a0d704fbfdff6affe9de9ddacd94e6e0f">Container_saveFocus</a></div><div class="ttdeci">void Container_saveFocus(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00322">container.qc:322</a></div></div>
+<div class="ttc" id="container_8qc_html_a0d704fbfdff6affe9de9ddacd94e6e0f"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#a0d704fbfdff6affe9de9ddacd94e6e0f">Container_saveFocus</a></div><div class="ttdeci">void Container_saveFocus(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00323">container.qc:323</a></div></div>
 <div class="ttc" id="oo_8qh_html_a926d5d6965300dccae308bb74a713894"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a></div><div class="ttdeci">#define METHOD(cname, name, prototype)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00218">oo.qh:218</a></div></div>
 <div class="ttc" id="container_8qc_html_a70d145db96ea0411ab319a6fc87704e4"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#a70d145db96ea0411ab319a6fc87704e4">Container_setAlphaOf</a></div><div class="ttdeci">void Container_setAlphaOf(entity me, entity other, float theAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00047">container.qc:47</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a264ee8f6a0019c50d2049ee7af5c9296"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a></div><div class="ttdeci">entity other</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00014">csprogsdefs.qc:14</a></div></div>
 <div class="ttc" id="effectinfo_8qc_html_af1209ce3d4344049c1084fab900909cf"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a></div><div class="ttdeci">#define p(f, type, default)</div></div>
 <div class="ttc" id="container_8qc_html_afb93c24343e73a71eed73fcdf4de2a3f"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#afb93c24343e73a71eed73fcdf4de2a3f">Container_mouseMove</a></div><div class="ttdeci">float Container_mouseMove(entity me, vector pos)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00167">container.qc:167</a></div></div>
-<div class="ttc" id="container_8qc_html_af2aaaca08e442db9b25784326a7e5730"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#af2aaaca08e442db9b25784326a7e5730">Container_preferredFocusedGrandChild</a></div><div class="ttdeci">entity Container_preferredFocusedGrandChild(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00357">container.qc:357</a></div></div>
+<div class="ttc" id="container_8qc_html_af2aaaca08e442db9b25784326a7e5730"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#af2aaaca08e442db9b25784326a7e5730">Container_preferredFocusedGrandChild</a></div><div class="ttdeci">entity Container_preferredFocusedGrandChild(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00358">container.qc:358</a></div></div>
 <div class="ttc" id="container_8qc_html_a26226293758b472d4b37e5d43aad93d6"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#a26226293758b472d4b37e5d43aad93d6">Container_draw</a></div><div class="ttdeci">void Container_draw(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00114">container.qc:114</a></div></div>
 <div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00287">oo.qh:287</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
@@ -513,7 +514,7 @@ $(document).ready(function(){initNavTree('dc/d3d/container_8qc_source.html','../
 <div class="ttc" id="draw_8qc_html_ab8f2b0e7558bdad2ae9d4eadbb278257"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#ab8f2b0e7558bdad2ae9d4eadbb278257">boxToGlobalSize</a></div><div class="ttdeci">vector boxToGlobalSize(vector v, vector theScale)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00053">draw.qc:53</a></div></div>
 <div class="ttc" id="container_8qh_html_a85236023eb5b487d3908a24ab3613840"><div class="ttname"><a href="../../d5/d8e/container_8qh.html#a85236023eb5b487d3908a24ab3613840">Container_fontscale</a></div><div class="ttdeci">vector Container_fontscale</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8e/container_8qh_source.html#l00045">container.qh:45</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
-<div class="ttc" id="container_8qc_html_aeb61dbefd999daae23915818c75f17fa"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#aeb61dbefd999daae23915818c75f17fa">Container_moveItemAfter</a></div><div class="ttdeci">void Container_moveItemAfter(entity me, entity other, entity dest)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00329">container.qc:329</a></div></div>
+<div class="ttc" id="container_8qc_html_aeb61dbefd999daae23915818c75f17fa"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#aeb61dbefd999daae23915818c75f17fa">Container_moveItemAfter</a></div><div class="ttdeci">void Container_moveItemAfter(entity me, entity other, entity dest)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00330">container.qc:330</a></div></div>
 <div class="ttc" id="menu_2draw_8qh_html_ae2280b395846b9ad2463e931ed718be4"><div class="ttname"><a href="../../d9/d62/menu_2draw_8qh.html#ae2280b395846b9ad2463e931ed718be4">draw_fontscale</a></div><div class="ttdeci">#define draw_fontscale</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d62/menu_2draw_8qh_source.html#l00005">draw.qh:5</a></div></div>
 <div class="ttc" id="container_8qh_html_a6b3f19654611fb035d1163d4996095fa"><div class="ttname"><a href="../../d5/d8e/container_8qh.html#a6b3f19654611fb035d1163d4996095fa">Container_origin</a></div><div class="ttdeci">vector Container_origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8e/container_8qh_source.html#l00043">container.qh:43</a></div></div>
 <div class="ttc" id="container_8qc_html_ac6b74ce0402e4a72e5b5292f1f256abd"><div class="ttname"><a href="../../dc/d3d/container_8qc.html#ac6b74ce0402e4a72e5b5292f1f256abd">Container_itemFromPoint</a></div><div class="ttdeci">entity Container_itemFromPoint(entity me, vector pos)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/container_8qc_source.html#l00097">container.qc:97</a></div></div>
@@ -535,7 +536,7 @@ $(document).ready(function(){initNavTree('dc/d3d/container_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_35b13da68f3b87ebd8e5efaf5a26acd6.html">item</a></li><li class="navelem"><a class="el" href="../../dc/d3d/container_8qc.html">container.qc</a></li>
-    <li class="footer">Generated on Tue Feb 20 2018 13:24:19 for Xonotic by
+    <li class="footer">Generated on Tue Feb 20 2018 18:31:21 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
