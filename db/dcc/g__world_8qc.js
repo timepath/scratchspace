@@ -31,7 +31,7 @@ var g__world_8qc =
     [ "Map_Goto_SetStr", "db/dcc/g__world_8qc.html#a299f6568839ff6aaf17c0a2a71cae48f", null ],
     [ "Map_IsRecent", "db/dcc/g__world_8qc.html#a2d7b36b62919e17ff99c13cad66436bf", null ],
     [ "Map_MarkAsRecent", "db/dcc/g__world_8qc.html#add83fd5315717e2ba6c0e1465dbb312e", null ],
-    [ "MapHasRightSize", "db/dcc/g__world_8qc.html#a053645925fa84581349c18e807384287", null ],
+    [ "MapHasRightSize", "db/dcc/g__world_8qc.html#a249cf0f0d43395365f9449b1ac57fb09", null ],
     [ "Nagger_Init", "db/dcc/g__world_8qc.html#a46448826729592b90ee5ec53da2e0fe6", null ],
     [ "NextLevel", "db/dcc/g__world_8qc.html#a425e54e058e6e6701cc7fca07a234be9", null ],
     [ "Physics_Frame", "db/dcc/g__world_8qc.html#ab4721c41868f8c9a5e7ac2bc6161b303", null ],
