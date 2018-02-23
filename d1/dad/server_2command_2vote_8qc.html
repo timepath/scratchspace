@@ -421,7 +421,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01106">1106</a> of file <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html">vote.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01144">VoteCommand_macro_command()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01117">VoteCommand_macro_help()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01150">VoteCommand_macro_command()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01117">VoteCommand_macro_help()</a>.</p>
 
 </div>
 </div>
@@ -1353,39 +1353,39 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01160">1160</a> of file <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html">vote.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01166">1166</a> of file <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html">vote.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00022">GetCommandPrefix()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00179">print_to()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01144">VoteCommand_macro_command()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01117">VoteCommand_macro_help()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00022">GetCommandPrefix()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00179">print_to()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01150">VoteCommand_macro_command()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01117">VoteCommand_macro_help()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00155">COMMON_COMMAND()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01161"></a><span class="lineno"> 1161</span>&#160;{</div>
-<div class="line"><a name="l01162"></a><span class="lineno"> 1162</span>&#160;    <span class="comment">// Guide for working with argc arguments by example:</span></div>
-<div class="line"><a name="l01163"></a><span class="lineno"> 1163</span>&#160;    <span class="comment">// argc:   1    - 2      - 3     - 4</span></div>
-<div class="line"><a name="l01164"></a><span class="lineno"> 1164</span>&#160;    <span class="comment">// argv:   0    - 1      - 2     - 3</span></div>
-<div class="line"><a name="l01165"></a><span class="lineno"> 1165</span>&#160;    <span class="comment">// cmd     vote - master - login - password</span></div>
-<div class="line"><a name="l01166"></a><span class="lineno"> 1166</span>&#160;</div>
-<div class="line"><a name="l01167"></a><span class="lineno"> 1167</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
-<div class="line"><a name="l01168"></a><span class="lineno"> 1168</span>&#160;    {</div>
-<div class="line"><a name="l01169"></a><span class="lineno"> 1169</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
-<div class="line"><a name="l01170"></a><span class="lineno"> 1170</span>&#160;        {</div>
-<div class="line"><a name="l01171"></a><span class="lineno"> 1171</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d1/dad/server_2command_2vote_8qc.html#a0ffe66234199daba7a270801c56143ab">VoteCommand_macro_command</a>(caller, argc, vote_command)) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01172"></a><span class="lineno"> 1172</span>&#160;        }</div>
-<div class="line"><a name="l01173"></a><span class="lineno"> 1173</span>&#160;</div>
-<div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160;            <a class="code" href="../../de/d55/server_2command_2common_8qc.html#a37f1c035bd3cc63c8ef7d58dd12958ee">print_to</a>(caller, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(((<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1) != <span class="stringliteral">&quot;&quot;</span>) ? <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;Unknown vote command \&quot;&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1), <span class="stringliteral">&quot;\&quot;&quot;</span>) : <span class="stringliteral">&quot;No command provided&quot;</span>), <span class="stringliteral">&quot;. For a list of supported commands, try &quot;</span>, <a class="code" href="../../de/d55/server_2command_2common_8qc.html#a4114b4f1cf89f05bc62cba74db4401f6">GetCommandPrefix</a>(caller), <span class="stringliteral">&quot; vote help.\n&quot;</span>));</div>
-<div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
-<div class="line"><a name="l01177"></a><span class="lineno"> 1177</span>&#160;        {</div>
-<div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;            <a class="code" href="../../d1/dad/server_2command_2vote_8qc.html#aa99c167d0e48d02a04c9a00b63521659">VoteCommand_macro_help</a>(caller, argc);</div>
-<div class="line"><a name="l01179"></a><span class="lineno"> 1179</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;        }</div>
-<div class="line"><a name="l01181"></a><span class="lineno"> 1181</span>&#160;    }</div>
-<div class="line"><a name="l01182"></a><span class="lineno"> 1182</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01167"></a><span class="lineno"> 1167</span>&#160;{</div>
+<div class="line"><a name="l01168"></a><span class="lineno"> 1168</span>&#160;    <span class="comment">// Guide for working with argc arguments by example:</span></div>
+<div class="line"><a name="l01169"></a><span class="lineno"> 1169</span>&#160;    <span class="comment">// argc:   1    - 2      - 3     - 4</span></div>
+<div class="line"><a name="l01170"></a><span class="lineno"> 1170</span>&#160;    <span class="comment">// argv:   0    - 1      - 2     - 3</span></div>
+<div class="line"><a name="l01171"></a><span class="lineno"> 1171</span>&#160;    <span class="comment">// cmd     vote - master - login - password</span></div>
+<div class="line"><a name="l01172"></a><span class="lineno"> 1172</span>&#160;</div>
+<div class="line"><a name="l01173"></a><span class="lineno"> 1173</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
+<div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160;    {</div>
+<div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;        {</div>
+<div class="line"><a name="l01177"></a><span class="lineno"> 1177</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d1/dad/server_2command_2vote_8qc.html#a0ffe66234199daba7a270801c56143ab">VoteCommand_macro_command</a>(caller, argc, vote_command)) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;        }</div>
+<div class="line"><a name="l01179"></a><span class="lineno"> 1179</span>&#160;</div>
+<div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l01181"></a><span class="lineno"> 1181</span>&#160;            <a class="code" href="../../de/d55/server_2command_2common_8qc.html#a37f1c035bd3cc63c8ef7d58dd12958ee">print_to</a>(caller, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(((<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1) != <span class="stringliteral">&quot;&quot;</span>) ? <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;Unknown vote command \&quot;&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1), <span class="stringliteral">&quot;\&quot;&quot;</span>) : <span class="stringliteral">&quot;No command provided&quot;</span>), <span class="stringliteral">&quot;. For a list of supported commands, try &quot;</span>, <a class="code" href="../../de/d55/server_2command_2common_8qc.html#a4114b4f1cf89f05bc62cba74db4401f6">GetCommandPrefix</a>(caller), <span class="stringliteral">&quot; vote help.\n&quot;</span>));</div>
+<div class="line"><a name="l01182"></a><span class="lineno"> 1182</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01183"></a><span class="lineno"> 1183</span>&#160;        {</div>
+<div class="line"><a name="l01184"></a><span class="lineno"> 1184</span>&#160;            <a class="code" href="../../d1/dad/server_2command_2vote_8qc.html#aa99c167d0e48d02a04c9a00b63521659">VoteCommand_macro_help</a>(caller, argc);</div>
+<div class="line"><a name="l01185"></a><span class="lineno"> 1185</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01186"></a><span class="lineno"> 1186</span>&#160;        }</div>
+<div class="line"><a name="l01187"></a><span class="lineno"> 1187</span>&#160;    }</div>
+<div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;}</div>
 <div class="ttc" id="server_2command_2vote_8qc_html_aa99c167d0e48d02a04c9a00b63521659"><div class="ttname"><a href="../../d1/dad/server_2command_2vote_8qc.html#aa99c167d0e48d02a04c9a00b63521659">VoteCommand_macro_help</a></div><div class="ttdeci">void VoteCommand_macro_help(entity caller, float argc)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/server_2command_2vote_8qc_source.html#l01117">vote.qc:1117</a></div></div>
 <div class="ttc" id="server_2command_2common_8qc_html_a4114b4f1cf89f05bc62cba74db4401f6"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#a4114b4f1cf89f05bc62cba74db4401f6">GetCommandPrefix</a></div><div class="ttdeci">string GetCommandPrefix(entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00022">common.qc:22</a></div></div>
 <div class="ttc" id="common_2command_2command_8qh_html_ab9e24d8681128fd9913308f8dc3e026a"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a></div><div class="ttdeci">const int CMD_REQUEST_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">command.qh:4</a></div></div>
 <div class="ttc" id="server_2command_2common_8qc_html_a37f1c035bd3cc63c8ef7d58dd12958ee"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#a37f1c035bd3cc63c8ef7d58dd12958ee">print_to</a></div><div class="ttdeci">void print_to(entity to, string input)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00179">common.qc:179</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
-<div class="ttc" id="server_2command_2vote_8qc_html_a0ffe66234199daba7a270801c56143ab"><div class="ttname"><a href="../../d1/dad/server_2command_2vote_8qc.html#a0ffe66234199daba7a270801c56143ab">VoteCommand_macro_command</a></div><div class="ttdeci">float VoteCommand_macro_command(entity caller, float argc, string vote_command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/server_2command_2vote_8qc_source.html#l01144">vote.qc:1144</a></div></div>
+<div class="ttc" id="server_2command_2vote_8qc_html_a0ffe66234199daba7a270801c56143ab"><div class="ttname"><a href="../../d1/dad/server_2command_2vote_8qc.html#a0ffe66234199daba7a270801c56143ab">VoteCommand_macro_command</a></div><div class="ttdeci">float VoteCommand_macro_command(entity caller, float argc, string vote_command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/server_2command_2vote_8qc_source.html#l01150">vote.qc:1150</a></div></div>
 <div class="ttc" id="common_2command_2command_8qh_html_a07f6d442e5d9ae5399caa2ee6d795f04"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a></div><div class="ttdeci">const int CMD_REQUEST_COMMAND</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">command.qh:3</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
 </div><!-- fragment -->
@@ -1394,7 +1394,7 @@ Functions</h2></td></tr>
 <div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-23-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dad/server_2command_2vote_8qc_a2b5defc656b786ae3b105895e072bdfb_cgraph.svg" width="100%" height="504"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dad/server_2command_2vote_8qc_a2b5defc656b786ae3b105895e072bdfb_cgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -2049,20 +2049,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01144">1144</a> of file <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html">vote.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01150">1150</a> of file <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html">vote.qc</a>.</p>
 
 <p>References <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01106">VOTE_COMMANDS</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01160">VoteCommand()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;{</div>
-<div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;<span class="preprocessor">    #define VOTE_COMMAND(name, function, description, assignment) \</span></div>
-<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;<span class="preprocessor">        { if (Votecommand_check_assignment(caller, assignment)) { if (name == strtolower(argv(1))) { function; return true; } } }</span></div>
-<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;    <a class="code" href="../../d1/dad/server_2command_2vote_8qc.html#a69d086fdfae0ea101bc17ac356bdcf68">VOTE_COMMANDS</a>(<a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, caller, argc, vote_command);</div>
-<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;<span class="preprocessor">#undef VOTE_COMMAND</span></div>
-<div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01166">VoteCommand()</a>.</p>
+<div class="fragment"><div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;{</div>
+<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;<span class="preprocessor">    #define VOTE_COMMAND(name, function, description, assignment) \</span></div>
+<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;<span class="preprocessor">        { if (Votecommand_check_assignment(caller, assignment)) { if (name == strtolower(argv(1))) { function; return true; } } }</span></div>
+<div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;    <a class="code" href="../../d1/dad/server_2command_2vote_8qc.html#a69d086fdfae0ea101bc17ac356bdcf68">VOTE_COMMANDS</a>(<a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, caller, argc, vote_command);</div>
+<div class="line"><a name="l01156"></a><span class="lineno"> 1156</span>&#160;<span class="preprocessor">#undef VOTE_COMMAND</span></div>
+<div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;}</div>
 <div class="ttc" id="common_2command_2command_8qh_html_a07f6d442e5d9ae5399caa2ee6d795f04"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a></div><div class="ttdeci">const int CMD_REQUEST_COMMAND</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">command.qh:3</a></div></div>
 <div class="ttc" id="server_2command_2vote_8qc_html_a69d086fdfae0ea101bc17ac356bdcf68"><div class="ttname"><a href="../../d1/dad/server_2command_2vote_8qc.html#a69d086fdfae0ea101bc17ac356bdcf68">VOTE_COMMANDS</a></div><div class="ttdeci">#define VOTE_COMMANDS(request, caller, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/server_2command_2vote_8qc_source.html#l01106">vote.qc:1106</a></div></div>
 </div><!-- fragment -->
@@ -2104,9 +2104,9 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01117">1117</a> of file <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html">vote.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00345">autocvar_sv_vote_commands</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00022">GetCommandPrefix()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00179">print_to()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01106">VOTE_COMMANDS</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00345">autocvar_sv_vote_commands</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l01171">CVAR_TYPEFLAG_EXISTS</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00022">GetCommandPrefix()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00179">print_to()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01106">VOTE_COMMANDS</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01160">VoteCommand()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01166">VoteCommand()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;{</div>
 <div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;    <span class="keywordtype">string</span> command_origin = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#a4114b4f1cf89f05bc62cba74db4401f6">GetCommandPrefix</a>(caller);</div>
 <div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;</div>
@@ -2130,22 +2130,30 @@ Functions</h2></td></tr>
 <div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;        <a class="code" href="../../d1/dad/server_2command_2vote_8qc.html#a69d086fdfae0ea101bc17ac356bdcf68">VOTE_COMMANDS</a>(<a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>, caller, argc, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;<span class="preprocessor">#undef VOTE_COMMAND</span></div>
-<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;<span class="preprocessor"></span>    }</div>
-<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;}</div>
+<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;        <span class="keywordtype">string</span> cvarname = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;sv_vote_command_help_&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(2));</div>
+<div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;        <span class="keywordflow">if</span>(cvar_type(cvarname) &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a72c17a8585d13d6ca89c0dd883648a91">CVAR_TYPEFLAG_EXISTS</a>)</div>
+<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;            wordwrap_sprint(caller, <a class="code" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a>(cvarname), 1000);</div>
+<div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;            <a class="code" href="../../de/d55/server_2command_2common_8qc.html#a37f1c035bd3cc63c8ef7d58dd12958ee">print_to</a>(caller, <span class="stringliteral">&quot;No documentation exists for this vote&quot;</span>);</div>
+<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;    }</div>
+<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;}</div>
 <div class="ttc" id="server_2command_2common_8qc_html_a4114b4f1cf89f05bc62cba74db4401f6"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#a4114b4f1cf89f05bc62cba74db4401f6">GetCommandPrefix</a></div><div class="ttdeci">string GetCommandPrefix(entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00022">common.qc:22</a></div></div>
 <div class="ttc" id="common_2command_2command_8qh_html_ab9e24d8681128fd9913308f8dc3e026a"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a></div><div class="ttdeci">const int CMD_REQUEST_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">command.qh:4</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a72c17a8585d13d6ca89c0dd883648a91"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a72c17a8585d13d6ca89c0dd883648a91">CVAR_TYPEFLAG_EXISTS</a></div><div class="ttdeci">float CVAR_TYPEFLAG_EXISTS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01171">csprogsdefs.qc:1171</a></div></div>
 <div class="ttc" id="server_2command_2common_8qc_html_a37f1c035bd3cc63c8ef7d58dd12958ee"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#a37f1c035bd3cc63c8ef7d58dd12958ee">print_to</a></div><div class="ttdeci">void print_to(entity to, string input)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00179">common.qc:179</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a8dbff08d9afb72125e28ed865b73e987"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a8dbff08d9afb72125e28ed865b73e987">autocvar_sv_vote_commands</a></div><div class="ttdeci">string autocvar_sv_vote_commands</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00345">autocvars.qh:345</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
 <div class="ttc" id="server_2command_2vote_8qc_html_a69d086fdfae0ea101bc17ac356bdcf68"><div class="ttname"><a href="../../d1/dad/server_2command_2vote_8qc.html#a69d086fdfae0ea101bc17ac356bdcf68">VOTE_COMMANDS</a></div><div class="ttdeci">#define VOTE_COMMANDS(request, caller, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/server_2command_2vote_8qc_source.html#l01106">vote.qc:1106</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a6f8c7ef6ee4a4d851aaa5fd1789eab9a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a></div><div class="ttdeci">const string cvar_string(string name)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-35-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/dad/server_2command_2vote_8qc_aa99c167d0e48d02a04c9a00b63521659_cgraph.svg" width="486" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/dad/server_2command_2vote_8qc_aa99c167d0e48d02a04c9a00b63521659_cgraph.svg" width="486" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -3371,7 +3379,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d1/dad/server_2command_2vote_8qc.html">vote.qc</a></li>
-    <li class="footer">Generated on Wed Feb 21 2018 12:44:18 for Xonotic by
+    <li class="footer">Generated on Fri Feb 23 2018 17:35:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
