@@ -10,7 +10,7 @@ var g__damage_8qc =
     [ "Fire_IsBurning", "d5/dac/g__damage_8qc.html#a8203a172d47f7017f4e4be49ed0cddb8", null ],
     [ "fireburner_think", "d5/dac/g__damage_8qc.html#ac8e7365380b51642cac52fd3e70733aa", null ],
     [ "frag_centermessage_override", "d5/dac/g__damage_8qc.html#ac6e64d0173ea3a8b8ac2f97dba0add11", null ],
-    [ "Freeze", "d5/dac/g__damage_8qc.html#a2d30d51fdeb3f05c8ade32e74ca54a7c", null ],
+    [ "Freeze", "d5/dac/g__damage_8qc.html#ad8b8b53d4f94e8fe911c28d3a2709d7c", null ],
     [ "GiveFrags", "d5/dac/g__damage_8qc.html#a449c65621d31ac988f82a49ddf881ca0", null ],
     [ "Ice_Think", "d5/dac/g__damage_8qc.html#a24aaf696797544264665df5f05253d1c", null ],
     [ "LogDeath", "d5/dac/g__damage_8qc.html#aff28c78124853cc6ad4f9f330588e1d3", null ],

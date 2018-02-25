@@ -136,6 +136,7 @@ var server_2defs_8qh =
     [ "floodcontrol_voice", "d5/d26/server_2defs_8qh.html#a097b1a8933f813c9421c034269f3bf81", null ],
     [ "floodcontrol_voiceteam", "d5/d26/server_2defs_8qh.html#ab999648480050a63fcddf038d561d7af", null ],
     [ "fog", "d5/d26/server_2defs_8qh.html#ab993c6c2a33d6c7c7c02b37d69369e95", null ],
+    [ "freeze_time", "d5/d26/server_2defs_8qh.html#a7b46920a43ed8a0cc53ab1c517a26d4d", null ],
     [ "frozen_by", "d5/d26/server_2defs_8qh.html#a1ea484fa87cffd946006018b73cb05dc", null ],
     [ "g_assault_destructibles", "d5/d26/server_2defs_8qh.html#a25d36d50af03db3732ae75524ee3edd5", null ],
     [ "g_assault_objectivedecreasers", "d5/d26/server_2defs_8qh.html#aa75782a75c52b5f7135328687dc581c2", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"dc/de9/classXonoticRootDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,231,15],
 "dc/de9/classXonoticRootDialog.html#af88a81fd25020e249716d851c0c127bf":[1,0,231,59],
 "dc/de9/classXonoticRootDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,231,39],
 "dc/de9/classXonoticRootDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,231,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "dd/d1d/common_2mutators_2mutator_2superspec_2__mod_8qh_source.html":[2,0,1,9,0,34,1],
 "dd/d1d/spider_8qh.html":[2,0,1,8,0,7],
 "dd/d1d/spider_8qh.html#a9e511fe405c8aa283e98fb3e9f159cb4":[2,0,1,8,0,7,3],
-"dd/d1d/spider_8qh.html#adec2c17d036c3d41cbeccf645cfd39a7":[2,0,1,8,0,7,2],
-"dd/d1d/spider_8qh_source.html":[2,0,1,8,0,7]
+"dd/d1d/spider_8qh.html#adec2c17d036c3d41cbeccf645cfd39a7":[2,0,1,8,0,7,2]
 };

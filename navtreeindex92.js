@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"da/d4e/sv__monsters_8qc.html#af761bd08661fe1804c63ce61e45d219b":[2,0,1,8,6,37],
 "da/d4e/sv__monsters_8qc.html#afe9468b2df7f18dff6619caf77e7f8d8":[2,0,1,8,6,50],
 "da/d4e/sv__monsters_8qc_source.html":[2,0,1,8,6],
 "da/d52/dialog__hudpanel__pressedkeys_8qh.html":[2,0,5,4,67],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "da/d8d/classXonoticHUDPhysicsDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,192,11],
 "da/d8d/classXonoticHUDPhysicsDialog.html#aff85dd02a60a0012d9137309ed045740":[1,0,192,88],
 "da/d92/dialog__monstertools_8qc.html":[2,0,5,4,84],
-"da/d92/dialog__monstertools_8qc.html#a1badb233278075cd41b798285bdf307a":[2,0,5,4,84,0],
-"da/d92/dialog__monstertools_8qc_source.html":[2,0,5,4,84]
+"da/d92/dialog__monstertools_8qc.html#a1badb233278075cd41b798285bdf307a":[2,0,5,4,84,0]
 };

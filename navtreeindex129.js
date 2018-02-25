@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"de/dcb/classMageSpike.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,76,37],
 "de/dcb/classMageSpike.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,76,21],
 "de/dcb/classMageSpike.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,76,20],
 "de/dcb/classMageSpike.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,76,34],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "de/df3/raptor__weapons_8qc_source.html":[2,0,1,15,0,12],
 "df/d00/sv__rocketminsta_8qc.html":[2,0,1,9,0,29,2],
 "df/d00/sv__rocketminsta_8qc.html#a30fd30284f143ca24b319468fd0a0b0b":[2,0,1,9,0,29,2,0],
-"df/d00/sv__rocketminsta_8qc.html#a60f0bea353a8c82d3029eec7db935e74":[2,0,1,9,0,29,2,2],
-"df/d00/sv__rocketminsta_8qc.html#af117505b73d3fe91e1f7d13bd5a5a1bf":[2,0,1,9,0,29,2,1]
+"df/d00/sv__rocketminsta_8qc.html#a60f0bea353a8c82d3029eec7db935e74":[2,0,1,9,0,29,2,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,180,25],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,180,15],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#aaba311b07a1da9615b2d44e9b8c97149":[1,0,180,72],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#ab22df25709cf90968857757880c1a1c7":[1,0,180,62],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "dd/da3/net__notice_8qh_source.html":[2,0,1,38],
 "dd/da6/classXonoticCreditsDialog.html":[1,0,158],
 "dd/da6/classXonoticCreditsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,158,33],
-"dd/da6/classXonoticCreditsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,158,12],
-"dd/da6/classXonoticCreditsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,158,41]
+"dd/da6/classXonoticCreditsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,158,12]
 };

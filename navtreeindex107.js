@@ -1,5 +1,6 @@
 var NAVTREEINDEX107 =
 {
+"db/dee/projectiles_8qh.html#a0556af9f0eb745cf179e0646459aa60c":[2,0,1,16,12,16],
 "db/dee/projectiles_8qh.html#a067303b9b6c3042213c631b2f88886df":[2,0,1,16,12,32],
 "db/dee/projectiles_8qh.html#a0bb47bbecbc4f5cbff9a00d98da3c0c6":[2,0,1,16,12,28],
 "db/dee/projectiles_8qh.html#a1efcb961aaaeecfdccb6ea197ae5575b":[2,0,1,16,12,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX107 =
 "dc/d06/classDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,29,67],
 "dc/d06/classDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,29,7],
 "dc/d06/classDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,29,69],
-"dc/d06/classDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,29,4],
-"dc/d06/classDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,29,43]
+"dc/d06/classDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,29,4]
 };

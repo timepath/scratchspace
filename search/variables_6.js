@@ -152,6 +152,7 @@ var searchData=
   ['frametimeavg2',['frametimeavg2',['../dd/d31/engineinfo_8qc.html#aa28d10af907276566641e95e7853122a',1,'engineinfo.qc']]],
   ['freeze_5fang',['freeze_ang',['../d6/dd3/view_8qc.html#a5d847bd803d71b7de33dbe41c29bc99c',1,'view.qc']]],
   ['freeze_5forg',['freeze_org',['../d6/dd3/view_8qc.html#a7f8a43236e09b4c3ce63af7218a9ae96',1,'view.qc']]],
+  ['freeze_5ftime',['freeze_time',['../d5/d26/server_2defs_8qh.html#a7b46920a43ed8a0cc53ab1c517a26d4d',1,'defs.qh']]],
   ['freezetag_5ffrozen_5ftime',['freezetag_frozen_time',['../d8/d89/gamemode__freezetag_8qh.html#aab6e5dd351a36e1a298791aceb0a13a3',1,'gamemode_freezetag.qh']]],
   ['freezetag_5ffrozen_5ftimeout',['freezetag_frozen_timeout',['../d8/d89/gamemode__freezetag_8qh.html#a5c7d231b29848dbe9e992548d57958bb',1,'gamemode_freezetag.qh']]],
   ['freezetag_5fteams',['freezetag_teams',['../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e',1,'gamemode_freezetag.qh']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"d5/d95/classXonoticDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,170,78],
 "d5/d95/classXonoticDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,170,44],
 "d5/d95/classXonoticDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,170,0],
 "d5/d95/classXonoticDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,170,33],
@@ -189,7 +190,6 @@ var NAVTREEINDEX50 =
 "d5/dac/g__damage_8qc.html#a1f5edb01679024970f2cf5fa92de80ee":[2,0,6,21,18],
 "d5/dac/g__damage_8qc.html#a24aaf696797544264665df5f05253d1c":[2,0,6,21,12],
 "d5/dac/g__damage_8qc.html#a2606d7979cdea514c3d8271956430a8d":[2,0,6,21,17],
-"d5/dac/g__damage_8qc.html#a2d30d51fdeb3f05c8ade32e74ca54a7c":[2,0,6,21,10],
 "d5/dac/g__damage_8qc.html#a30b6dcb0a5e148d3961cad10abdaf5af":[2,0,6,21,15],
 "d5/dac/g__damage_8qc.html#a449c65621d31ac988f82a49ddf881ca0":[2,0,6,21,11],
 "d5/dac/g__damage_8qc.html#a54e85ad9f5560a23de3bd54026021b06":[2,0,6,21,16],
@@ -200,6 +200,7 @@ var NAVTREEINDEX50 =
 "d5/dac/g__damage_8qc.html#abd4b4c82626ed46a05b72420db7257a1":[2,0,6,21,5],
 "d5/dac/g__damage_8qc.html#ac6e64d0173ea3a8b8ac2f97dba0add11":[2,0,6,21,9],
 "d5/dac/g__damage_8qc.html#ac8e7365380b51642cac52fd3e70733aa":[2,0,6,21,8],
+"d5/dac/g__damage_8qc.html#ad8b8b53d4f94e8fe911c28d3a2709d7c":[2,0,6,21,10],
 "d5/dac/g__damage_8qc.html#ade2887aa1376d34775f751d2a81565b0":[2,0,6,21,1],
 "d5/dac/g__damage_8qc.html#aefe2100f893d5dd01fdab059d9b5d348":[2,0,6,21,14],
 "d5/dac/g__damage_8qc.html#afc5e9270d0757dc47de743b6bd4e33dc":[2,0,6,21,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "d5/db2/dialog__hudpanel__notification_8qc.html#ab31627f8b7c7a82a9d458011f2184631":[2,0,5,4,60,0],
 "d5/db2/dialog__hudpanel__notification_8qc_source.html":[2,0,5,4,60],
 "d5/db3/common_2mutators_2mutator_2dynamic__handicap_2__mod_8inc.html":[2,0,1,9,0,9,0],
-"d5/db3/common_2mutators_2mutator_2dynamic__handicap_2__mod_8inc_source.html":[2,0,1,9,0,9,0],
-"d5/db4/halflife_8qh.html":[2,0,6,2,3]
+"d5/db3/common_2mutators_2mutator_2dynamic__handicap_2__mod_8inc_source.html":[2,0,1,9,0,9,0]
 };
