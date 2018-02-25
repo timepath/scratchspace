@@ -475,12 +475,12 @@ $(document).ready(function(){initNavTree('dc/dc6/server_2miscfunctions_8qc_sourc
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;{</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <span class="keywordtype">string</span> o;</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    o = <a class="code" href="../../d0/d2b/weapons_2all_8qc.html#a01fb8b4722cd9503ad28af6600e7e18c">W_FixWeaponOrder_ForceComplete</a>(wo);</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb">weaponorder_byimpulse</a>)</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(<span class="keyword">this</span>).<a class="code" href="../../d9/d08/client_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb">weaponorder_byimpulse</a>)</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    {</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb">weaponorder_byimpulse</a>);</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb">weaponorder_byimpulse</a> = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(<span class="keyword">this</span>).<a class="code" href="../../d9/d08/client_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb">weaponorder_byimpulse</a>);</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(<span class="keyword">this</span>).weaponorder_byimpulse = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    }</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb">weaponorder_byimpulse</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d0/d2b/weapons_2all_8qc.html#a6a9b42410f2d888f52a11253a2165203">W_FixWeaponOrder_BuildImpulseList</a>(o));</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(<span class="keyword">this</span>).weaponorder_byimpulse = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d0/d2b/weapons_2all_8qc.html#a6a9b42410f2d888f52a11253a2165203">W_FixWeaponOrder_BuildImpulseList</a>(o));</div>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <span class="keywordflow">return</span> o;</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;}</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;</div>
@@ -1906,7 +1906,7 @@ $(document).ready(function(){initNavTree('dc/dc6/server_2miscfunctions_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/dc6/server_2miscfunctions_8qc.html">miscfunctions.qc</a></li>
-    <li class="footer">Generated on Sun Feb 25 2018 17:35:41 for Xonotic by
+    <li class="footer">Generated on Sun Feb 25 2018 17:59:34 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

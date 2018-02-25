@@ -135,7 +135,7 @@ var searchData=
   ['weaponmodel',['weaponmodel',['../d6/d11/progsdefs_8qc.html#ae00c05b4316649be261927ef4cb4705d',1,'progsdefs.qc']]],
   ['weaponorder',['weaponorder',['../d4/def/weapons_8qc.html#ad404b083c61c0b18b47d75dd1906b30e',1,'weapons.qc']]],
   ['weaponorder_5fbyid',['weaponorder_byid',['../d2/d1c/weapons_2weapon_8qh.html#a33a5fa56c7d71ec499a00d0ed547de24',1,'weapon.qh']]],
-  ['weaponorder_5fbyimpulse',['weaponorder_byimpulse',['../d9/d08/client_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb',1,'weaponorder_byimpulse():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb',1,'weaponorder_byimpulse():&#160;defs.qh']]],
+  ['weaponorder_5fbyimpulse',['weaponorder_byimpulse',['../d1/d37/classClient.html#ab03f6063bc327ef89a31b4d311a2dace',1,'Client::weaponorder_byimpulse()'],['../d9/d08/client_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb',1,'weaponorder_byimpulse():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb',1,'weaponorder_byimpulse():&#160;defs.qh']]],
   ['weaponorder_5fbypriority',['weaponorder_bypriority',['../d9/d08/client_2defs_8qh.html#a74fe90e74c5e7ae1ab56ba8cfe58c4c4',1,'defs.qh']]],
   ['weaponorder_5fcmp_5fstr',['weaponorder_cmp_str',['../d4/def/weapons_8qc.html#aa5a1dbdae1131edc4b6babd09d339f0d',1,'weapons.qc']]],
   ['weaponprevtime',['weaponprevtime',['../d3/d05/hud_8qh.html#a3c131b0f8f651739847e08030410b5a1',1,'hud.qh']]],

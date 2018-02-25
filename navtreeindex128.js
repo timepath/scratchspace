@@ -1,5 +1,8 @@
 var NAVTREEINDEX128 =
 {
+"de/d9c/classTab.html#a496c49a1de4715396cc3c7670deef632":[1,0,129,74],
+"de/d9c/classTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,129,52],
+"de/d9c/classTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,129,30],
 "de/d9c/classTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,129,36],
 "de/d9c/classTab.html#a520abb757a187547673f9a1dbd7acde8":[1,0,129,73],
 "de/d9c/classTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,129,44],
@@ -126,7 +129,7 @@ var NAVTREEINDEX128 =
 "de/dab/classObserver.html#a65f9df4b1ebe7629080c7fc3f7edf81d":[1,0,90,30],
 "de/dab/classObserver.html#a67d23901aa908fbbb2762d8b9924c8f1":[1,0,90,56],
 "de/dab/classObserver.html#a69207eb6a3c917e14314d11ba6d811f8":[1,0,90,17],
-"de/dab/classObserver.html#a6e2b1750af9db4c97521dce1478513a4":[1,0,90,118],
+"de/dab/classObserver.html#a6e2b1750af9db4c97521dce1478513a4":[1,0,90,119],
 "de/dab/classObserver.html#a6e452940b61f8458bd7153967a423d3e":[1,0,90,46],
 "de/dab/classObserver.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,90,2],
 "de/dab/classObserver.html#a713af44508d7cb25ebf99dbcf49caf9d":[1,0,90,49],
@@ -155,6 +158,7 @@ var NAVTREEINDEX128 =
 "de/dab/classObserver.html#aa707f23bd099623cdeaa19d50afd3351":[1,0,90,104],
 "de/dab/classObserver.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,90,3],
 "de/dab/classObserver.html#aacf8a1724cbfa0862b69c9eafd1482f5":[1,0,90,26],
+"de/dab/classObserver.html#ab03f6063bc327ef89a31b4d311a2dace":[1,0,90,118],
 "de/dab/classObserver.html#ab852ddecd819a4065ce0137ad1f4413a":[1,0,90,45],
 "de/dab/classObserver.html#abb08623ede2cc974d73133e73a6ac448":[1,0,90,13],
 "de/dab/classObserver.html#abe38711c8778c1548110c19e6835909d":[1,0,90,102],
@@ -245,9 +249,5 @@ var NAVTREEINDEX128 =
 "de/dc3/teamradar_8qc.html#ad80e64c27e436b0f60d695353d84b3d6":[2,0,0,26,7],
 "de/dc3/teamradar_8qc.html#ae039c2e84a848ec82816975aa2658438":[2,0,0,26,5],
 "de/dc3/teamradar_8qc.html#ae9ba6e1072e311a7403fa46bf7091a79":[2,0,0,26,2],
-"de/dc3/teamradar_8qc_source.html":[2,0,0,26],
-"de/dc5/dialog__settings__effects_8qh.html":[2,0,5,4,123],
-"de/dc5/dialog__settings__effects_8qh.html#a8ace980a9aa0b9448962d11b51ad3f3e":[2,0,5,4,123,1],
-"de/dc5/dialog__settings__effects_8qh_source.html":[2,0,5,4,123],
-"de/dcb/classMageSpike.html":[1,0,76]
+"de/dc3/teamradar_8qc_source.html":[2,0,0,26]
 };

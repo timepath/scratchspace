@@ -118,5 +118,6 @@ var classObserver =
     [ "version_mismatch", "de/dab/classObserver.html#a2e556daf59228727cd12d5c6666da161", null ],
     [ "version_nagtime", "de/dab/classObserver.html#aa5b03024329d76308546cc7194866070", null ],
     [ "wasplayer", "de/dab/classObserver.html#a31c687c46e05fbd204175abf8cb1a93d", null ],
+    [ "weaponorder_byimpulse", "de/dab/classObserver.html#ab03f6063bc327ef89a31b4d311a2dace", null ],
     [ "zoomstate", "de/dab/classObserver.html#a6e2b1750af9db4c97521dce1478513a4", null ]
 ];
