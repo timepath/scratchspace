@@ -1,5 +1,8 @@
 var NAVTREEINDEX123 =
 {
+"de/d24/dialog__hudpanel__itemstime_8qc.html#a7f8da58b95e630404ff9bdb2d6fb0dc5":[2,0,5,4,56,0],
+"de/d24/dialog__hudpanel__itemstime_8qc_source.html":[2,0,5,4,56],
+"de/d26/nexball_8qh.html":[2,0,1,3,0,0,3],
 "de/d26/nexball_8qh_source.html":[2,0,1,3,0,0,3],
 "de/d2a/spiderbot__weapons_8qh.html":[2,0,1,15,0,17],
 "de/d2a/spiderbot__weapons_8qh_source.html":[2,0,1,15,0,17],
@@ -246,8 +249,5 @@ var NAVTREEINDEX123 =
 "de/d42/classXonoticCheckBox.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,152,70],
 "de/d42/classXonoticCheckBox.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,152,29],
 "de/d42/classXonoticCheckBox.html#a47dc7659527e9bd3a1b42da1d9de7102":[1,0,152,64],
-"de/d42/classXonoticCheckBox.html#a48cb7ef12145dc9cc085ddcaae312fe5":[1,0,152,66],
-"de/d42/classXonoticCheckBox.html#a4985255a6e0984252ab7ccedd6347d5b":[1,0,152,49],
-"de/d42/classXonoticCheckBox.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,152,78],
-"de/d42/classXonoticCheckBox.html#a4cec67ef8bea911bbbe8e837e8c1f4fe":[1,0,152,82]
+"de/d42/classXonoticCheckBox.html#a48cb7ef12145dc9cc085ddcaae312fe5":[1,0,152,66]
 };

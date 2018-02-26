@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"d8/d39/classXonoticGametypeList.html#a565f8d33b46815606f1860162d71339a":[1,0,178,20],
+"d8/d39/classXonoticGametypeList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,178,6],
 "d8/d39/classXonoticGametypeList.html#a5f499abda07a253a9503f8fa04acb01b":[1,0,178,26],
 "d8/d39/classXonoticGametypeList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,178,15],
 "d8/d39/classXonoticGametypeList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,178,27],
@@ -192,10 +194,10 @@ var NAVTREEINDEX75 =
 "d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,10,3,7],
 "d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,10,3,8],
 "d8/d79/notifications_2all_8qc.html#a682b66e5aae4a02b19ba825760896610":[2,0,1,10,3,37],
-"d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,10,3,24],
 "d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,10,3,21],
 "d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,10,3,22],
 "d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,10,3,23],
+"d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,10,3,24],
 "d8/d79/notifications_2all_8qc.html#a97e96901a663794a2eee1391bcad5dae":[2,0,1,10,3,33],
 "d8/d79/notifications_2all_8qc.html#a9a202f02c680cd96b64832efe697ddb8":[2,0,1,10,3,46],
 "d8/d79/notifications_2all_8qc.html#a9aaa4861d131be9bdf63207e30d31cb1":[2,0,1,10,3,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "d8/d89/gamemode__freezetag_8qh.html#a93dbe70f6f5e8c7e42c436e77d0d3348":[2,0,6,3,0,15,0],
 "d8/d89/gamemode__freezetag_8qh.html#aa6539dc2fe101f47fdac71e3ed17e482":[2,0,6,3,0,15,12],
 "d8/d89/gamemode__freezetag_8qh.html#aaa13a46cb43eaeeec707e1630d149734":[2,0,6,3,0,15,8],
-"d8/d89/gamemode__freezetag_8qh.html#aab6e5dd351a36e1a298791aceb0a13a3":[2,0,6,3,0,15,9],
-"d8/d89/gamemode__freezetag_8qh.html#ab965c3736b393741449e48e9a0ebd597":[2,0,6,3,0,15,14],
-"d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e":[2,0,6,3,0,15,11]
+"d8/d89/gamemode__freezetag_8qh.html#aab6e5dd351a36e1a298791aceb0a13a3":[2,0,6,3,0,15,9]
 };

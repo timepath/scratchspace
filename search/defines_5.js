@@ -38,6 +38,7 @@ var searchData=
   ['ev_5fbuildgameplaytipsstring',['EV_BuildGameplayTipsString',['../d4/d95/common_2mutators_2events_8qh.html#a080b225864283ee25d422f3adcaed6e9',1,'events.qh']]],
   ['ev_5fbuildmutatorsprettystring',['EV_BuildMutatorsPrettyString',['../d4/d95/common_2mutators_2events_8qh.html#ac426e97a0684bb694284b6ed1beef922',1,'events.qh']]],
   ['ev_5fbuildmutatorsstring',['EV_BuildMutatorsString',['../d4/d95/common_2mutators_2events_8qh.html#a1c7ed0aa721d79ef23811db2156602f0',1,'events.qh']]],
+  ['ev_5fcalculaterespawntime',['EV_CalculateRespawnTime',['../d6/ddd/server_2mutators_2events_8qh.html#aafb4cc64ad58e37c8ae14ca8c4c7ba7c',1,'events.qh']]],
   ['ev_5fchatmessage',['EV_ChatMessage',['../d6/ddd/server_2mutators_2events_8qh.html#aafcddefe80488762f31d9da9017b455e',1,'events.qh']]],
   ['ev_5fchatmessageto',['EV_ChatMessageTo',['../d6/ddd/server_2mutators_2events_8qh.html#a366621b165dbaf24170858cf223c26ad',1,'events.qh']]],
   ['ev_5fcheckallowedteams',['EV_CheckAllowedTeams',['../d6/ddd/server_2mutators_2events_8qh.html#abaeaadc966dd1c7a4603933ea73a85d7',1,'events.qh']]],

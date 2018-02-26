@@ -189,6 +189,8 @@ Functions</h2></td></tr>
 <tr class="separator:a460a5eb6335bdd644c8d732081d3e8dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c59d0476162aac4db1d921f44c103d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html#a7c59d0476162aac4db1d921f44c103d3">MUTATOR_HOOKFUNCTION</a> (ca, PlayerDamage_SplitHealthArmor)</td></tr>
 <tr class="separator:a7c59d0476162aac4db1d921f44c103d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ab318925acf0da32c1a4997859dc76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html#a55ab318925acf0da32c1a4997859dc76">MUTATOR_HOOKFUNCTION</a> (ca, CalculateRespawnTime)</td></tr>
+<tr class="separator:a55ab318925acf0da32c1a4997859dc76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a337a85dad458510e919a2e4c8d8e8ab7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html#a337a85dad458510e919a2e4c8d8e8ab7">MUTATOR_HOOKFUNCTION</a> (ca, PlayerRegen)</td></tr>
 <tr class="separator:a337a85dad458510e919a2e4c8d8e8ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca2a2af14a76adefeb1460bf9e1d71ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html#aca2a2af14a76adefeb1460bf9e1d71ce">MUTATOR_HOOKFUNCTION</a> (ca, Scores_CountFragsRemaining)</td></tr>
@@ -789,7 +791,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00213">SAME_TEAM</a>, and <a class="el" href="../../db/d7a/utils_8qh_source.html#l00005">STR_PLAYER</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00398">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00404">MUTATOR_HOOKFUNCTION()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;{</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(start, player)) <span class="keywordflow">return</span> start;</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="comment">// continue from current player</span></div>
@@ -1685,6 +1687,38 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a55ab318925acf0da32c1a4997859dc76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKFUNCTION </td>
+          <td>(</td>
+          <td class="paramtype">ca&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CalculateRespawnTime&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00376">376</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;{</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    <span class="comment">// no respawn calculations needed, player is forced to spectate anyway</span></div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a class="anchor" id="a337a85dad458510e919a2e4c8d8e8ab7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1709,11 +1743,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00376">376</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;{</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    <span class="comment">// no regeneration in CA</span></div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00382">382</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;{</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    <span class="comment">// no regeneration in CA</span></div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1741,11 +1775,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00382">382</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;{</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    <span class="comment">// announce remaining frags</span></div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00388">388</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;{</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    <span class="comment">// announce remaining frags</span></div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1773,17 +1807,17 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00388">388</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00394">394</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00004">autocvar_g_ca_spectate_enemies</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00214">DIFF_TEAM</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;{</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a> &amp;&amp; client.caplayer)</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(targ, client))</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;{</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a> &amp;&amp; client.caplayer)</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(targ, client))</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="teams_8qh_html_ab3cad6bbbe99c12c662ec0c90e30095b"><div class="ttname"><a href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a></div><div class="ttdeci">#define DIFF_TEAM(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00214">teams.qh:214</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
@@ -1825,19 +1859,19 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00398">398</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00404">404</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00004">autocvar_g_ca_spectate_enemies</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00146">CA_SpectateNext()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;{</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a> &amp;&amp; client.caplayer)</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    {</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>) = <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a7fa79dd40d067b1966cc3fe622b6b6f8">CA_SpectateNext</a>(client, targ);</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    }</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;{</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a> &amp;&amp; client.caplayer)</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    {</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>) = <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a7fa79dd40d067b1966cc3fe622b6b6f8">CA_SpectateNext</a>(client, targ);</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    }</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="gamemode__ca_8qc_html_a7fa79dd40d067b1966cc3fe622b6b6f8"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#a7fa79dd40d067b1966cc3fe622b6b6f8">CA_SpectateNext</a></div><div class="ttdeci">entity CA_SpectateNext(entity player, entity start)</div><div class="ttdoc">Returns next available player to spectate if g_ca_spectate_enemies == 0. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00146">gamemode_ca.qc:146</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
@@ -1879,32 +1913,32 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00410">410</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00416">416</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00004">autocvar_g_ca_spectate_enemies</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00214">DIFF_TEAM</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00837">MUT_SPECPREV_FOUND</a>, and <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00836">MUT_SPECPREV_RETURN</a>.</p>
-<div class="fragment"><div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;{</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> first = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a> &amp;&amp; client.caplayer)</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    {</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        <span class="keywordflow">do</span> { targ = targ.chain; }</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        <span class="keywordflow">while</span>(targ &amp;&amp; <a class="code" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(targ, client));</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        <span class="keywordflow">if</span> (!targ)</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        {</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;            <span class="keywordflow">for</span> (targ = first; targ &amp;&amp; <a class="code" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(targ, client); targ = targ.chain);</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;            <span class="keywordflow">if</span> (targ == client.enemy)</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600a0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a>;</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        }</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;    }</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>) = targ;</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600adbb1898d9ed2292ba439603e3ecb0d78">MUT_SPECPREV_FOUND</a>;</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;{</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> first = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a> &amp;&amp; client.caplayer)</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    {</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        <span class="keywordflow">do</span> { targ = targ.chain; }</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        <span class="keywordflow">while</span>(targ &amp;&amp; <a class="code" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(targ, client));</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        <span class="keywordflow">if</span> (!targ)</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;        {</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;            <span class="keywordflow">for</span> (targ = first; targ &amp;&amp; <a class="code" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(targ, client); targ = targ.chain);</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;            <span class="keywordflow">if</span> (targ == client.enemy)</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600a0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a>;</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        }</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    }</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>) = targ;</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600adbb1898d9ed2292ba439603e3ecb0d78">MUT_SPECPREV_FOUND</a>;</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="teams_8qh_html_ab3cad6bbbe99c12c662ec0c90e30095b"><div class="ttname"><a href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a></div><div class="ttdeci">#define DIFF_TEAM(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00214">teams.qh:214</a></div></div>
 <div class="ttc" id="server_2mutators_2events_8qh_html_abed82baf7f470b522273a3e37c24c600a0b818567cf927d275b053840c0f01fb6"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600a0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00836">events.qh:836</a></div></div>
@@ -1954,17 +1988,17 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00435">435</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00441">441</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;{</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), {</div>
-<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) || it.caplayer == 1)</div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;            ++<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;        ++<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    });</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;{</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), {</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) || it.caplayer == 1)</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;            ++<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        ++<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    });</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;}</div>
 <div class="ttc" id="utils_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00046">utils.qh:46</a></div></div>
 <div class="ttc" id="utils_8qh_html_a8069d572672171c56fdffd290ed4979d"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a></div><div class="ttdeci">#define IS_REAL_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00017">utils.qh:17</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
@@ -1996,22 +2030,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00445">445</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00451">451</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00329">autocvar_sv_spectate</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00011">IS_OBSERVER</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00010">IS_SPEC</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00855">MUT_SPECCMD_CONTINUE</a>, and <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00857">MUT_SPECCMD_FORCE</a>.</p>
-<div class="fragment"><div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;{</div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;</div>
-<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;    <span class="keywordflow">if</span> (player.caplayer)</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;    {</div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;        <span class="comment">// they&#39;re going to spec, we can do other checks</span></div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a4582f43ca3fd1deed36d5de154683148">autocvar_sv_spectate</a> &amp;&amp; (<a class="code" href="../../db/d7a/utils_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a>(player) || <a class="code" href="../../db/d7a/utils_8qh.html#a14e7b447f7917f8ac7e0198ee25b2bc2">IS_OBSERVER</a>(player)))</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;            Send_Notification(NOTIF_ONE_ONLY, player, MSG_INFO, INFO_CA_LEAVE);</div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a6bdf812d9a913a38cdb3aaebad56c89a">MUT_SPECCMD_FORCE</a>;</div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    }</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a8168d5d80f0fe8ae36ce88761b83f3b9">MUT_SPECCMD_CONTINUE</a>;</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;{</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <span class="keywordflow">if</span> (player.caplayer)</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;    {</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <span class="comment">// they&#39;re going to spec, we can do other checks</span></div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a4582f43ca3fd1deed36d5de154683148">autocvar_sv_spectate</a> &amp;&amp; (<a class="code" href="../../db/d7a/utils_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a>(player) || <a class="code" href="../../db/d7a/utils_8qh.html#a14e7b447f7917f8ac7e0198ee25b2bc2">IS_OBSERVER</a>(player)))</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;            Send_Notification(NOTIF_ONE_ONLY, player, MSG_INFO, INFO_CA_LEAVE);</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a6bdf812d9a913a38cdb3aaebad56c89a">MUT_SPECCMD_FORCE</a>;</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    }</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a8168d5d80f0fe8ae36ce88761b83f3b9">MUT_SPECCMD_CONTINUE</a>;</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;}</div>
 <div class="ttc" id="server_2autocvars_8qh_html_a4582f43ca3fd1deed36d5de154683148"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a4582f43ca3fd1deed36d5de154683148">autocvar_sv_spectate</a></div><div class="ttdeci">int autocvar_sv_spectate</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00329">autocvars.qh:329</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="utils_8qh_html_a14e7b447f7917f8ac7e0198ee25b2bc2"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a14e7b447f7917f8ac7e0198ee25b2bc2">IS_OBSERVER</a></div><div class="ttdeci">#define IS_OBSERVER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00011">utils.qh:11</a></div></div>
@@ -2056,12 +2090,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00460">460</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00466">466</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;{</div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <span class="keywordtype">bool</span>) = <span class="keyword">true</span>; <span class="comment">// all weapons</span></div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;{</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <span class="keywordtype">bool</span>) = <span class="keyword">true</span>; <span class="comment">// all weapons</span></div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;}</div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -2090,10 +2124,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00465">465</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;{</div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>; <span class="comment">// doesn&#39;t work well with the whole spectator as player thing</span></div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00471">471</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;{</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>; <span class="comment">// doesn&#39;t work well with the whole spectator as player thing</span></div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2121,14 +2155,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00470">470</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00476">476</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;{</div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;</div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    <span class="keywordflow">return</span> player.caplayer == 1;</div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;{</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    <span class="keywordflow">return</span> player.caplayer == 1;</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
@@ -2168,13 +2202,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00477">477</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00483">483</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;{</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    <span class="comment">// most weapons arena</span></div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;0&quot;</span> || <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;&quot;</span>) <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <span class="stringliteral">&quot;most&quot;</span>;</div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;{</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;    <span class="comment">// most weapons arena</span></div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;0&quot;</span> || <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;&quot;</span>) <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <span class="stringliteral">&quot;most&quot;</span>;</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;}</div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -2236,7 +2270,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00004">4</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00388">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00394">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -2246,7 +2280,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html">gamemode_ca.qc</a></li>
-    <li class="footer">Generated on Mon Feb 26 2018 06:45:57 for Xonotic by
+    <li class="footer">Generated on Mon Feb 26 2018 12:56:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

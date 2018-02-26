@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"d6/de9/cheats_8qc.html#aada5ad2a9c98d8cfd1662b5225d35f17":[2,0,6,15,21],
+"d6/de9/cheats_8qc.html#ab12ab680ff52099e78d6e3a7968815dc":[2,0,6,15,6],
 "d6/de9/cheats_8qc.html#abf690db48ff84b0c056187a5c58bd53d":[2,0,6,15,33],
 "d6/de9/cheats_8qc.html#ac8c324931fb0af19eddfa7d523f12321":[2,0,6,15,38],
 "d6/de9/cheats_8qc.html#addaa80f08a1814656fc04b113d1bdc3e":[2,0,6,15,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "d7/d15/hud_8qc.html#af418523148eadb307130a0533421e586":[2,0,0,1,3,11],
 "d7/d15/hud_8qc_source.html":[2,0,0,1,3],
 "d7/d16/effectinfo__ctf_8inc.html":[2,0,1,2,11],
-"d7/d16/effectinfo__ctf_8inc.html#a402c648c54311178d0b7a802721d0077":[2,0,1,2,11,0],
-"d7/d16/effectinfo__ctf_8inc.html#a6d93f2c8d9abc0c40c571aa365bbffd9":[2,0,1,2,11,1],
-"d7/d16/effectinfo__ctf_8inc.html#a6f2b376dbc94981ee65efb8dc2ea6706":[2,0,1,2,11,3]
+"d7/d16/effectinfo__ctf_8inc.html#a402c648c54311178d0b7a802721d0077":[2,0,1,2,11,0]
 };
