@@ -1047,7 +1047,7 @@ $(document).ready(function(){initNavTree('d3/d46/mapinfo_8qc_source.html','../..
 <div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;            <span class="keywordflow">if</span>(f)</div>
 <div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;                <a class="code" href="../../d3/d46/mapinfo_8qc.html#ab905d5c7e9e4fc9e2ec11f86915596cd">_MapInfo_Map_ApplyGametype</a> (s, pGametypeToSet, f, <span class="keyword">true</span>);</div>
 <div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!<a class="code" href="../../d3/d46/mapinfo_8qc.html#a461e3272bbfe43c0b5f8f29b9d4391ad">autocvar_g_mapinfo_ignore_warnings</a>)</div>
-<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#add82efa459e0af380b68522c29b9fd44">LOG_WARN</a>(<span class="stringliteral">&quot;Map &quot;</span>, pFilename, <span class="stringliteral">&quot; supports unknown game type &quot;</span>, t, <span class="stringliteral">&quot;, ignored&quot;</span>);</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(<span class="stringliteral">&quot;Map &quot;</span>, pFilename, <span class="stringliteral">&quot; supports unknown game type &quot;</span>, t, <span class="stringliteral">&quot;, ignored&quot;</span>);</div>
 <div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;        }</div>
 <div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(t == <span class="stringliteral">&quot;gametype&quot;</span>)</div>
 <div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;        {</div>
@@ -1056,7 +1056,7 @@ $(document).ready(function(){initNavTree('d3/d46/mapinfo_8qc_source.html','../..
 <div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;            <span class="keywordflow">if</span>(f)</div>
 <div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;                <a class="code" href="../../d3/d46/mapinfo_8qc.html#a228aae99dca217947bfb85d518097f4c">_MapInfo_Map_ApplyGametypeEx</a> (s, pGametypeToSet, f);</div>
 <div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!<a class="code" href="../../d3/d46/mapinfo_8qc.html#a461e3272bbfe43c0b5f8f29b9d4391ad">autocvar_g_mapinfo_ignore_warnings</a>)</div>
-<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#add82efa459e0af380b68522c29b9fd44">LOG_WARN</a>(<span class="stringliteral">&quot;Map &quot;</span>, pFilename, <span class="stringliteral">&quot; supports unknown game type &quot;</span>, t, <span class="stringliteral">&quot;, ignored&quot;</span>);</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(<span class="stringliteral">&quot;Map &quot;</span>, pFilename, <span class="stringliteral">&quot; supports unknown game type &quot;</span>, t, <span class="stringliteral">&quot;, ignored&quot;</span>);</div>
 <div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;        }</div>
 <div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(t == <span class="stringliteral">&quot;size&quot;</span>)</div>
 <div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;        {</div>
@@ -1103,7 +1103,7 @@ $(document).ready(function(){initNavTree('d3/d46/mapinfo_8qc_source.html','../..
 <div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;            }</div>
 <div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;            {</div>
-<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#add82efa459e0af380b68522c29b9fd44">LOG_WARN</a>(<span class="stringliteral">&quot;Map &quot;</span>, pFilename, <span class="stringliteral">&quot; has a setting for unknown game type &quot;</span>, t, <span class="stringliteral">&quot;, ignored&quot;</span>);</div>
+<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(<span class="stringliteral">&quot;Map &quot;</span>, pFilename, <span class="stringliteral">&quot; has a setting for unknown game type &quot;</span>, t, <span class="stringliteral">&quot;, ignored&quot;</span>);</div>
 <div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;            }</div>
 <div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;        }</div>
 <div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(t == <span class="stringliteral">&quot;clientsettemp_for_type&quot;</span>)</div>
@@ -1120,7 +1120,7 @@ $(document).ready(function(){initNavTree('d3/d46/mapinfo_8qc_source.html','../..
 <div class="line"><a name="l01013"></a><span class="lineno"> 1013</span>&#160;            }</div>
 <div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l01015"></a><span class="lineno"> 1015</span>&#160;            {</div>
-<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#add82efa459e0af380b68522c29b9fd44">LOG_WARN</a>(<span class="stringliteral">&quot;Map &quot;</span>, pFilename, <span class="stringliteral">&quot; has a client setting for unknown game type &quot;</span>, t, <span class="stringliteral">&quot;, ignored&quot;</span>);</div>
+<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(<span class="stringliteral">&quot;Map &quot;</span>, pFilename, <span class="stringliteral">&quot; has a client setting for unknown game type &quot;</span>, t, <span class="stringliteral">&quot;, ignored&quot;</span>);</div>
 <div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160;            }</div>
 <div class="line"><a name="l01018"></a><span class="lineno"> 1018</span>&#160;        }</div>
 <div class="line"><a name="l01019"></a><span class="lineno"> 1019</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(t == <span class="stringliteral">&quot;fog&quot;</span>)</div>
@@ -1587,6 +1587,7 @@ $(document).ready(function(){initNavTree('d3/d46/mapinfo_8qc_source.html','../..
 <div class="ttc" id="menudefs_8qc_html_a6f8c7ef6ee4a4d851aaa5fd1789eab9a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a></div><div class="ttdeci">const string cvar_string(string name)</div></div>
 <div class="ttc" id="mapinfo_8qh_html_a8135b60eb83d8b12418e195e562b56bc"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#a8135b60eb83d8b12418e195e562b56bc">Gametypes_from</a></div><div class="ttdeci">#define Gametypes_from(i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00089">mapinfo.qh:89</a></div></div>
 <div class="ttc" id="mapinfo_8qc_html_a9bddb69c4bc8833ed7bb18fc8429ec03"><div class="ttname"><a href="../../d3/d46/mapinfo_8qc.html#a9bddb69c4bc8833ed7bb18fc8429ec03">_MapInfo_Map_worldspawn_music</a></div><div class="ttdeci">string _MapInfo_Map_worldspawn_music</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d46/mapinfo_8qc_source.html#l00259">mapinfo.qc:259</a></div></div>
+<div class="ttc" id="log_8qh_html_a754b3d074e0af4ad3c7b918dd77ecb2d"><div class="ttname"><a href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00082">log.qh:82</a></div></div>
 <div class="ttc" id="classGametype_html"><div class="ttname"><a href="../../d1/d6b/classGametype.html">Gametype</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00022">mapinfo.qh:22</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html_ad284d4af5a4731c6e5570ce785fc6917"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#ad284d4af5a4731c6e5570ce785fc6917">MapInfo_Map_titlestring</a></div><div class="ttdeci">string MapInfo_Map_titlestring</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00008">mapinfo.qh:8</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
@@ -1596,7 +1597,7 @@ $(document).ready(function(){initNavTree('d3/d46/mapinfo_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../d3/d46/mapinfo_8qc.html">mapinfo.qc</a></li>
-    <li class="footer">Generated on Tue Feb 27 2018 06:40:59 for Xonotic by
+    <li class="footer">Generated on Tue Feb 27 2018 17:19:22 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
