@@ -1,7 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"d7/db4/client_2autocvars_8qh.html#ad69c8d2fd7db011b228d318fcdada61e":[2,0,0,8,354],
-"d7/db4/client_2autocvars_8qh.html#ad8968b416783abc8262468960dba598e":[2,0,0,8,56],
 "d7/db4/client_2autocvars_8qh.html#ad93983d9cab730300762ecc87bfff9d9":[2,0,0,8,386],
 "d7/db4/client_2autocvars_8qh.html#ada52c6a0c52011defae30e3a28068fb7":[2,0,0,8,89],
 "d7/db4/client_2autocvars_8qh.html#adb22eab503c5f59c25e7582afb477b4b":[2,0,0,8,194],
@@ -249,5 +247,7 @@ var NAVTREEINDEX71 =
 "d7/de2/g__hook_8qc.html#ae2567f613b4799b5612e9c755231e62f":[2,0,6,23,0],
 "d7/de2/g__hook_8qc_source.html":[2,0,6,23],
 "d7/de2/sv__weaponarena__random_8qc.html":[2,0,1,9,0,40,2],
-"d7/de2/sv__weaponarena__random_8qc.html#a0c03f18fcfdc30a52261407556598d03":[2,0,1,9,0,40,2,1]
+"d7/de2/sv__weaponarena__random_8qc.html#a0c03f18fcfdc30a52261407556598d03":[2,0,1,9,0,40,2,1],
+"d7/de2/sv__weaponarena__random_8qc.html#ae550281e61c7f7e4cabd5b78d70ac824":[2,0,1,9,0,40,2,0],
+"d7/de2/sv__weaponarena__random_8qc_source.html":[2,0,1,9,0,40,2]
 };

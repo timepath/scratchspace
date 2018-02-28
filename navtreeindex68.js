@@ -1,7 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"d7/da7/server_2autocvars_8qh.html#a9ccaa595ca0d7ba325fbd56eef8dfc01":[2,0,6,12,154],
-"d7/da7/server_2autocvars_8qh.html#a9ce890b477caa1ec762f69a4b321b9e2":[2,0,6,12,83],
 "d7/da7/server_2autocvars_8qh.html#a9e013351fff852b558c5110234e1cbbb":[2,0,6,12,473],
 "d7/da7/server_2autocvars_8qh.html#a9e49d744aa004a9ba871c7301dd92e7c":[2,0,6,12,122],
 "d7/da7/server_2autocvars_8qh.html#a9e872ac054faaed2212e8df7b83ee156":[2,0,6,12,273],
@@ -249,5 +247,7 @@ var NAVTREEINDEX68 =
 "d7/dac/classXonoticMutatorsDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,217,20],
 "d7/dac/classXonoticMutatorsDialog.html#a2fae1d4cb69c8444508310432a8a9ed9":[1,0,217,48],
 "d7/dac/classXonoticMutatorsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,217,23],
-"d7/dac/classXonoticMutatorsDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,217,14]
+"d7/dac/classXonoticMutatorsDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,217,14],
+"d7/dac/classXonoticMutatorsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,217,62],
+"d7/dac/classXonoticMutatorsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,217,31]
 };

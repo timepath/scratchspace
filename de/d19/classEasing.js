@@ -16,7 +16,6 @@ var classEasing =
     [ "setterDummy", "de/d19/classEasing.html#a3b63c372b5ed541407513d025429d0d3", null ],
     [ "setTimeStartDuration", "de/d19/classEasing.html#ab5623f3ce8f21afa547b9bf35dc697e0", null ],
     [ "setTimeStartEnd", "de/d19/classEasing.html#a4c0ccf47340f3defb0f5b45c69f2de9a", null ],
-    [ "setValueStartDelta", "de/d19/classEasing.html#adfa57fc40f43ee504208262bbbc7c14e", null ],
     [ "setValueStartEnd", "de/d19/classEasing.html#a681618c20431795a27e0c8b9d6d10a85", null ],
     [ "stopAnim", "de/d19/classEasing.html#a28b711be18c96e6023b09f91d4eff2e0", null ],
     [ "tick", "de/d19/classEasing.html#a6634556f448a589ac1241c0adca74fa5", null ],

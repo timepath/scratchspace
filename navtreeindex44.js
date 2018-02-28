@@ -1,7 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"d4/dab/common_2command_2reg_8qh_source.html":[2,0,1,0,8],
-"d4/dac/counter_8qc.html":[2,0,1,13,3,2],
 "d4/dac/counter_8qc_source.html":[2,0,1,13,3,2],
 "d4/dad/common_2items_2item_2__mod_8inc.html":[2,0,1,5,0,0],
 "d4/dad/common_2items_2item_2__mod_8inc_source.html":[2,0,1,5,0,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX44 =
 "d4/dd7/movetypes_8qh.html#ad06c0c0ae6b69f294b4bb1c2fd898caf":[2,0,1,11,0,6,3],
 "d4/dd7/movetypes_8qh.html#ad2b149369ace500f453a8cec6aac0218":[2,0,1,11,0,6,41],
 "d4/dd7/movetypes_8qh.html#ad797154b1325fa6f3b8aa5d2224d77b5":[2,0,1,11,0,6,27],
-"d4/dd7/movetypes_8qh.html#adc76b474270aeb1261d12d16e6ec9fda":[2,0,1,11,0,6,38]
+"d4/dd7/movetypes_8qh.html#adc76b474270aeb1261d12d16e6ec9fda":[2,0,1,11,0,6,38],
+"d4/dd7/movetypes_8qh.html#add4ab8569af46a0f63ceb53e803b11f3":[2,0,1,11,0,6,9],
+"d4/dd7/movetypes_8qh.html#aeb8e7a09c27afa0523d4f11d696f45ff":[2,0,1,11,0,6,43]
 };

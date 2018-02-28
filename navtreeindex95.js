@@ -1,7 +1,5 @@
 var NAVTREEINDEX95 =
 {
-"da/dbc/sv__globalforces_8qc_source.html":[2,0,1,9,0,10,2],
-"da/dc1/classXonoticAudioSettingsTab.html":[1,0,146],
 "da/dc1/classXonoticAudioSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,146,37],
 "da/dc1/classXonoticAudioSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,146,16],
 "da/dc1/classXonoticAudioSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,146,45],
@@ -249,5 +247,7 @@ var NAVTREEINDEX95 =
 "da/dde/csprogsdefs_8qh.html#a2975aa3861dc843a19aa644cbca0990c":[2,0,2,1,2],
 "da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7":[2,0,2,1,13],
 "da/dde/csprogsdefs_8qh.html#a5d1bb17af4691ba1a8c043b63c37b391":[2,0,2,1,9],
-"da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727":[2,0,2,1,0]
+"da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727":[2,0,2,1,0],
+"da/dde/csprogsdefs_8qh.html#a748f553ee0da4a5b0c677a310e821255":[2,0,2,1,7],
+"da/dde/csprogsdefs_8qh.html#a7ff130f5700e963263eb7d734da97842":[2,0,2,1,8]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"d0/d72/lib_2warpzone_2client_8qc.html#abdabd8f2f4e643c7ff8d28c25f700828":[2,0,4,2,4,1],
 "d0/d72/lib_2warpzone_2client_8qc.html#abeb07031623afbfcb1e815119e202613":[2,0,4,2,4,10],
 "d0/d72/lib_2warpzone_2client_8qc.html#ac8ca9dc6a9031a9fc661e02bb4a4ceb5":[2,0,4,2,4,0],
 "d0/d72/lib_2warpzone_2client_8qc.html#ae0b24f16471241165896f8ef99213be5":[2,0,4,2,4,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "d0/d91/handicap_8qh.html#ac42efcf2d233a8425c35dbfc9fccc278":[2,0,6,34,1],
 "d0/d91/handicap_8qh_source.html":[2,0,6,34],
 "d0/d93/common_2mutators_2mutator_2superspec_2__mod_8inc.html":[2,0,1,9,0,34,0],
-"d0/d93/common_2mutators_2mutator_2superspec_2__mod_8inc_source.html":[2,0,1,9,0,34,0]
+"d0/d93/common_2mutators_2mutator_2superspec_2__mod_8inc_source.html":[2,0,1,9,0,34,0],
+"d0/d95/menudefs_8qh.html":[2,0,2,4]
 };

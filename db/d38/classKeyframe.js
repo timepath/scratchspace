@@ -19,7 +19,6 @@ var classKeyframe =
     [ "setterDummy", "db/d38/classKeyframe.html#a3b63c372b5ed541407513d025429d0d3", null ],
     [ "setTimeStartDuration", "db/d38/classKeyframe.html#ab5623f3ce8f21afa547b9bf35dc697e0", null ],
     [ "setTimeStartEnd", "db/d38/classKeyframe.html#a4c0ccf47340f3defb0f5b45c69f2de9a", null ],
-    [ "setValueStartDelta", "db/d38/classKeyframe.html#adfa57fc40f43ee504208262bbbc7c14e", null ],
     [ "setValueStartEnd", "db/d38/classKeyframe.html#a681618c20431795a27e0c8b9d6d10a85", null ],
     [ "stopAnim", "db/d38/classKeyframe.html#a28b711be18c96e6023b09f91d4eff2e0", null ],
     [ "tick", "db/d38/classKeyframe.html#a6634556f448a589ac1241c0adca74fa5", null ],

@@ -14,7 +14,6 @@ var classAnimation =
     [ "setterDummy", "d0/d5d/classAnimation.html#a3b63c372b5ed541407513d025429d0d3", null ],
     [ "setTimeStartDuration", "d0/d5d/classAnimation.html#ab5623f3ce8f21afa547b9bf35dc697e0", null ],
     [ "setTimeStartEnd", "d0/d5d/classAnimation.html#a4c0ccf47340f3defb0f5b45c69f2de9a", null ],
-    [ "setValueStartDelta", "d0/d5d/classAnimation.html#adfa57fc40f43ee504208262bbbc7c14e", null ],
     [ "setValueStartEnd", "d0/d5d/classAnimation.html#a681618c20431795a27e0c8b9d6d10a85", null ],
     [ "stopAnim", "d0/d5d/classAnimation.html#a28b711be18c96e6023b09f91d4eff2e0", null ],
     [ "tick", "d0/d5d/classAnimation.html#a6634556f448a589ac1241c0adca74fa5", null ],

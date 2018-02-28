@@ -174,6 +174,5 @@ var skin_customizables_8inc =
     [ "SKINVECTOR", "d4/d90/skin-customizables_8inc.html#a1d97f53e9fc1ebaea9a4c855bcb3a1e2", null ],
     [ "SKINVECTOR", "d4/d90/skin-customizables_8inc.html#a75230b4ee81423cdd269f087853a5e18", null ],
     [ "SKINVECTOR", "d4/d90/skin-customizables_8inc.html#a77e4423ea3332dc6af101b6b94ab0124", null ],
-    [ "SKINVECTOR", "d4/d90/skin-customizables_8inc.html#aaf4dcbe2fe4525bca28a0fdcad2fd6ec", null ],
-    [ "SKINVECTOR", "d4/d90/skin-customizables_8inc.html#a90069a6ebb4d53ee15c692cad3164ed3", null ]
+    [ "SKINVECTOR", "d4/d90/skin-customizables_8inc.html#aaf4dcbe2fe4525bca28a0fdcad2fd6ec", null ]
 ];

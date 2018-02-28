@@ -1,6 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"d1/d55/classXonoticGameHUDSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,174,11],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,174,73],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,174,4],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,174,47],
@@ -249,5 +248,6 @@ var NAVTREEINDEX10 =
 "d1/d5b/classRadioButton.html#adf2dea57b2330e856350cd2169500f8d":[1,0,109,13],
 "d1/d5b/classRadioButton.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,109,34],
 "d1/d5b/classRadioButton.html#aef17454d19baae5de77f47b1fb52deb1":[1,0,109,3],
-"d1/d5b/classRadioButton.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,109,32]
+"d1/d5b/classRadioButton.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,109,32],
+"d1/d5b/classRadioButton.html#af3a830d70442467db88dc9e6085943aa":[1,0,109,62]
 };
