@@ -1406,8 +1406,6 @@ var searchData=
   ['autocvar_5fg_5fsandbox_5fstorage_5fautoload',['autocvar_g_sandbox_storage_autoload',['../d3/d59/sv__sandbox_8qc.html#af2a11e73a5211e55d053b00ccb97a2e0',1,'sv_sandbox.qc']]],
   ['autocvar_5fg_5fsandbox_5fstorage_5fautosave',['autocvar_g_sandbox_storage_autosave',['../d3/d59/sv__sandbox_8qc.html#ab11b833777b455067d9b02b99ef9b1ab',1,'sv_sandbox.qc']]],
   ['autocvar_5fg_5fsandbox_5fstorage_5fname',['autocvar_g_sandbox_storage_name',['../d3/d59/sv__sandbox_8qc.html#a63e6e03a2df83862c086edf5d49e7f2b',1,'sv_sandbox.qc']]],
-  ['autocvar_5fg_5fshootfromcenter',['autocvar_g_shootfromcenter',['../d7/da7/server_2autocvars_8qh.html#a84ca28d4ae00bc784cd894b8fd18b080',1,'autocvars.qh']]],
-  ['autocvar_5fg_5fshootfromeye',['autocvar_g_shootfromeye',['../d7/da7/server_2autocvars_8qh.html#a1a143aa20d8ea85f68a8005492281b59',1,'autocvars.qh']]],
   ['autocvar_5fg_5fshootfromfixedorigin',['autocvar_g_shootfromfixedorigin',['../d7/da7/server_2autocvars_8qh.html#a61b01ff79734e66c22319feba3a5d778',1,'autocvars.qh']]],
   ['autocvar_5fg_5fshowweaponspawns',['autocvar_g_showweaponspawns',['../d7/da7/server_2autocvars_8qh.html#af788daf8a45a659a2215f928b4590158',1,'autocvars.qh']]],
   ['autocvar_5fg_5fspawn_5falloweffects',['autocvar_g_spawn_alloweffects',['../d7/da7/server_2autocvars_8qh.html#a06d96ecc296e0690bf72700f1bcca666',1,'autocvars.qh']]],

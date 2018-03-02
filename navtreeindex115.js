@@ -1,7 +1,5 @@
 var NAVTREEINDEX115 =
 {
-"dc/de9/classXonoticRootDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,231,68],
-"dc/de9/classXonoticRootDialog.html#af1aab403dc54575707fd57991312b201":[1,0,231,47],
 "dc/de9/classXonoticRootDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,231,27],
 "dc/de9/classXonoticRootDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,231,15],
 "dc/de9/classXonoticRootDialog.html#af88a81fd25020e249716d851c0c127bf":[1,0,231,59],
@@ -249,5 +247,7 @@ var NAVTREEINDEX115 =
 "dd/d1b/step_8qh.html":[2,0,1,11,0,8],
 "dd/d1b/step_8qh_source.html":[2,0,1,11,0,8],
 "dd/d1d/common_2mutators_2mutator_2superspec_2__mod_8qh.html":[2,0,1,9,0,34,1],
-"dd/d1d/common_2mutators_2mutator_2superspec_2__mod_8qh_source.html":[2,0,1,9,0,34,1]
+"dd/d1d/common_2mutators_2mutator_2superspec_2__mod_8qh_source.html":[2,0,1,9,0,34,1],
+"dd/d1d/spider_8qh.html":[2,0,1,8,0,7],
+"dd/d1d/spider_8qh.html#a9e511fe405c8aa283e98fb3e9f159cb4":[2,0,1,8,0,7,3]
 };

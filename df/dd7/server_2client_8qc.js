@@ -82,6 +82,7 @@ var server_2client_8qc =
     [ "last_vehiclecheck", "df/dd7/server_2client_8qc.html#a8dd80f958cebe7a215c3ebfd7895e623", null ],
     [ "model_randomizer", "df/dd7/server_2client_8qc.html#a796e7f6d76eff169d587d849ed8c29f0", null ],
     [ "move_qcphysics", "df/dd7/server_2client_8qc.html#a75cfcf63e40ea6ecc20f7181b2cebd35", null ],
+    [ "shootfromfixedorigin", "df/dd7/server_2client_8qc.html#ae84ed56b100e14c362b437744f16644a", null ],
     [ "team", "df/dd7/server_2client_8qc.html#aa44b2778d23d1f4efed985b6cc12375a", null ],
     [ "team_selected", "df/dd7/server_2client_8qc.html#ab71754893182e8830b826e9e9692db91", null ],
     [ "zoomstate_set", "df/dd7/server_2client_8qc.html#a5b6fdfd29020d840be5d04d7a4fe9cf6", null ]

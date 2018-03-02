@@ -100,6 +100,7 @@ var searchData=
   ['sfl_5fsort_5fprio_5fsecondary',['SFL_SORT_PRIO_SECONDARY',['../da/dc3/common_2scores_8qh.html#acf557e93b6854298dcf5b6602fb6ffed',1,'scores.qh']]],
   ['sfl_5ftime',['SFL_TIME',['../da/dc3/common_2scores_8qh.html#a7d6950d6481a75021716f1360417415f',1,'scores.qh']]],
   ['shoot_5fflags',['shoot_flags',['../d9/d67/turret_8qh.html#a6c1845ffb59c25a09a39be3c7454a108',1,'turret.qh']]],
+  ['shootfromfixedorigin',['shootfromfixedorigin',['../df/dd7/server_2client_8qc.html#ae84ed56b100e14c362b437744f16644a',1,'client.qc']]],
   ['shortmapname',['shortmapname',['../d9/d08/client_2defs_8qh.html#a975b1c325510de22e8029cb4a50841b8',1,'defs.qh']]],
   ['shot_5fdmg',['shot_dmg',['../df/d28/sv__turrets_8qh.html#abdff73d9d6c1f73a10601dfed099bcb4',1,'sv_turrets.qh']]],
   ['shot_5fforce',['shot_force',['../df/d28/sv__turrets_8qh.html#a6ba82eb5f3e6a07eeb904cb11be619fd',1,'sv_turrets.qh']]],

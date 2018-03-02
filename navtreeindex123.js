@@ -1,7 +1,5 @@
 var NAVTREEINDEX123 =
 {
-"de/d2a/spiderbot__weapons_8qh.html":[2,0,1,15,0,17],
-"de/d2a/spiderbot__weapons_8qh_source.html":[2,0,1,15,0,17],
 "de/d2b/walk_8qh.html":[2,0,1,11,0,12],
 "de/d2b/walk_8qh_source.html":[2,0,1,11,0,12],
 "de/d2e/train_8qc.html":[2,0,1,13,0,34],
@@ -249,5 +247,7 @@ var NAVTREEINDEX123 =
 "de/d42/classXonoticCheckBox.html#a4985255a6e0984252ab7ccedd6347d5b":[1,0,152,49],
 "de/d42/classXonoticCheckBox.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,152,78],
 "de/d42/classXonoticCheckBox.html#a4cec67ef8bea911bbbe8e837e8c1f4fe":[1,0,152,82],
-"de/d42/classXonoticCheckBox.html#a4cf08b5cf5b03694b1ab99f4eb3cd6da":[1,0,152,7]
+"de/d42/classXonoticCheckBox.html#a4cf08b5cf5b03694b1ab99f4eb3cd6da":[1,0,152,7],
+"de/d42/classXonoticCheckBox.html#a4dbc2c83662223b24dabae8a368608a3":[1,0,152,72],
+"de/d42/classXonoticCheckBox.html#a551caf43464ecebace012d2b272c7bad":[1,0,152,14]
 };

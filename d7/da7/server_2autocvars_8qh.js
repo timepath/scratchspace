@@ -321,8 +321,6 @@ var server_2autocvars_8qh =
     [ "autocvar_g_rm_laser_spread", "d7/da7/server_2autocvars_8qh.html#a28e5338015387d8ad8c70804725da414", null ],
     [ "autocvar_g_rm_laser_spread_random", "d7/da7/server_2autocvars_8qh.html#a053024b50de0a02df9efdd2a6f9b72a9", null ],
     [ "autocvar_g_rm_radius", "d7/da7/server_2autocvars_8qh.html#a98468a8b8754c475c77453d1db32c830", null ],
-    [ "autocvar_g_shootfromcenter", "d7/da7/server_2autocvars_8qh.html#a84ca28d4ae00bc784cd894b8fd18b080", null ],
-    [ "autocvar_g_shootfromeye", "d7/da7/server_2autocvars_8qh.html#a1a143aa20d8ea85f68a8005492281b59", null ],
     [ "autocvar_g_shootfromfixedorigin", "d7/da7/server_2autocvars_8qh.html#a61b01ff79734e66c22319feba3a5d778", null ],
     [ "autocvar_g_showweaponspawns", "d7/da7/server_2autocvars_8qh.html#af788daf8a45a659a2215f928b4590158", null ],
     [ "autocvar_g_spawn_alloweffects", "d7/da7/server_2autocvars_8qh.html#a06d96ecc296e0690bf72700f1bcca666", null ],

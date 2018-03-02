@@ -1,7 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"de/d9c/classTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,129,52],
-"de/d9c/classTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,129,30],
 "de/d9c/classTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,129,36],
 "de/d9c/classTab.html#a520abb757a187547673f9a1dbd7acde8":[1,0,129,73],
 "de/d9c/classTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,129,44],
@@ -249,5 +247,7 @@ var NAVTREEINDEX128 =
 "de/dc3/teamradar_8qc.html#ae039c2e84a848ec82816975aa2658438":[2,0,0,26,5],
 "de/dc3/teamradar_8qc.html#ae9ba6e1072e311a7403fa46bf7091a79":[2,0,0,26,2],
 "de/dc3/teamradar_8qc_source.html":[2,0,0,26],
-"de/dc5/dialog__settings__effects_8qh.html":[2,0,5,4,123]
+"de/dc5/dialog__settings__effects_8qh.html":[2,0,5,4,123],
+"de/dc5/dialog__settings__effects_8qh.html#a8ace980a9aa0b9448962d11b51ad3f3e":[2,0,5,4,123,1],
+"de/dc5/dialog__settings__effects_8qh_source.html":[2,0,5,4,123]
 };
