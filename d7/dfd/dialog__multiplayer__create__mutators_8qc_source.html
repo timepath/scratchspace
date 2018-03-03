@@ -127,7 +127,7 @@ $(document).ready(function(){initNavTree('d7/dfd/dialog__multiplayer__create__mu
 <div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#acde935bede494b1af21664b6c8aaf6bd">   20</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#acde935bede494b1af21664b6c8aaf6bd">WeaponArenaString</a>()</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">string</span> s;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">float</span> n, i;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">float</span> n;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a>(<span class="stringliteral">&quot;g_weaponarena&quot;</span>);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">if</span>(s == <span class="stringliteral">&quot;0&quot;</span>)</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
@@ -146,14 +146,14 @@ $(document).ready(function(){initNavTree('d7/dfd/dialog__multiplayer__create__mu
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    n = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a>(s);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    s = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt; n; ++i)</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; n; ++j)</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(i) == it.netname)</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot; &amp; &quot;</span>, it.m_name);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(j) == it.netname)</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                s = <a class="code" href="../../d2/db4/string_8qh.html#a971897a7bd1ad4ccf0d80f69f47a31b4">cons_mid</a>(s, <span class="stringliteral">&quot; &amp; &quot;</span>, it.m_name);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        });</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    s = sprintf(_(<span class="stringliteral">&quot;%s Arena&quot;</span>), <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 3, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(s) - 3));</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    s = sprintf(_(<span class="stringliteral">&quot;%s Arena&quot;</span>), s);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#aae505d4e1181d09c9a2b79bafcd9a7de">weaponarenastring</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(s);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
@@ -431,6 +431,7 @@ $(document).ready(function(){initNavTree('d7/dfd/dialog__multiplayer__create__mu
 <div class="ttc" id="checkbox__slider__invalid_8qh_html"><div class="ttname"><a href="../../df/de0/checkbox__slider__invalid_8qh.html">checkbox_slider_invalid.qh</a></div></div>
 <div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00287">oo.qh:287</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
+<div class="ttc" id="string_8qh_html_a971897a7bd1ad4ccf0d80f69f47a31b4"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a971897a7bd1ad4ccf0d80f69f47a31b4">cons_mid</a></div><div class="ttdeci">ERASEABLE string cons_mid(string a, string mid, string b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00165">string.qh:165</a></div></div>
 <div class="ttc" id="xonotic_2checkbox_8qh_html"><div class="ttname"><a href="../../d8/d76/xonotic_2checkbox_8qh.html">checkbox.qh</a></div></div>
 <div class="ttc" id="dialog__multiplayer__create__mutators_8qc_html_a6d11d3a5a76ed57ecbcac9602c8b507e"><div class="ttname"><a href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a6d11d3a5a76ed57ecbcac9602c8b507e">checkCompatibility_weaponstay</a></div><div class="ttdeci">float checkCompatibility_weaponstay(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc_source.html#l00120">dialog_multiplayer_create_mutators.qc:120</a></div></div>
 <div class="ttc" id="dialog__multiplayer__create__mutators_8qc_html_a16a3593e3ced6f0801bb7602f2b85953"><div class="ttname"><a href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a16a3593e3ced6f0801bb7602f2b85953">XonoticMutatorsDialog_fill</a></div><div class="ttdeci">void XonoticMutatorsDialog_fill(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc_source.html#l00151">dialog_multiplayer_create_mutators.qc:151</a></div></div>
@@ -465,7 +466,7 @@ $(document).ready(function(){initNavTree('d7/dfd/dialog__multiplayer__create__mu
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html">dialog_multiplayer_create_mutators.qc</a></li>
-    <li class="footer">Generated on Fri Mar 2 2018 14:18:06 for Xonotic by
+    <li class="footer">Generated on Sat Mar 3 2018 03:10:37 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

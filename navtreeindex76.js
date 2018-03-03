@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"d8/d8a/classXonoticDamageTextSettings.html":[1,0,164],
 "d8/d8a/classXonoticDamageTextSettings.html#a01627abafc724fbbbb330e46f8331911":[1,0,164,37],
 "d8/d8a/classXonoticDamageTextSettings.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,164,16],
 "d8/d8a/classXonoticDamageTextSettings.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,164,46],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "d8/d95/classNexposee.html#afdcf1fb79903f747cda494b27206526b":[1,0,88,9],
 "d8/d95/dialog__multiplayer__profile_8qh.html":[2,0,5,4,113],
 "d8/d95/dialog__multiplayer__profile_8qh.html#a7e2e23bde25532ff986ec09897f32f0a":[2,0,5,4,113,1],
-"d8/d95/dialog__multiplayer__profile_8qh_source.html":[2,0,5,4,113],
-"d8/d96/markup_8qh.html":[2,0,1,0,6]
+"d8/d95/dialog__multiplayer__profile_8qh_source.html":[2,0,5,4,113]
 };
