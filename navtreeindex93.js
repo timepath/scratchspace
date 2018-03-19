@@ -1,14 +1,5 @@
 var NAVTREEINDEX93 =
 {
-"da/d92/dialog__monstertools_8qc.html":[2,0,5,4,84],
-"da/d92/dialog__monstertools_8qc.html#a1badb233278075cd41b798285bdf307a":[2,0,5,4,84,0],
-"da/d92/dialog__monstertools_8qc_source.html":[2,0,5,4,84],
-"da/d94/classXonoticSettingsDialog.html":[1,0,243],
-"da/d94/classXonoticSettingsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,243,32],
-"da/d94/classXonoticSettingsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,243,11],
-"da/d94/classXonoticSettingsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,243,40],
-"da/d94/classXonoticSettingsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,243,3],
-"da/d94/classXonoticSettingsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,243,83],
 "da/d94/classXonoticSettingsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,243,81],
 "da/d94/classXonoticSettingsDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,243,48],
 "da/d94/classXonoticSettingsDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,243,26],
@@ -249,5 +240,14 @@ var NAVTREEINDEX93 =
 "da/d9c/classXonoticMonsterToolsDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,214,16],
 "da/d9c/classXonoticMonsterToolsDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,214,33],
 "da/d9c/classXonoticMonsterToolsDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,214,38],
-"da/d9c/classXonoticMonsterToolsDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,214,58]
+"da/d9c/classXonoticMonsterToolsDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,214,58],
+"da/d9c/classXonoticMonsterToolsDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,214,35],
+"da/d9c/classXonoticMonsterToolsDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,214,85],
+"da/d9c/classXonoticMonsterToolsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,214,51],
+"da/d9c/classXonoticMonsterToolsDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,214,63],
+"da/d9c/classXonoticMonsterToolsDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,214,88],
+"da/d9c/classXonoticMonsterToolsDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,214,31],
+"da/d9c/classXonoticMonsterToolsDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,214,62],
+"da/d9c/classXonoticMonsterToolsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,214,55],
+"da/d9c/classXonoticMonsterToolsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,214,91]
 };

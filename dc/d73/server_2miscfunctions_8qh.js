@@ -97,7 +97,6 @@ var server_2miscfunctions_8qh =
     [ "logfile_open", "dc/d73/server_2miscfunctions_8qh.html#a276dc5b71788108563372331e9f6e31c", null ],
     [ "nearest_entity", "dc/d73/server_2miscfunctions_8qh.html#a696ae9f235b42c58ce0d06f6e99ccac5", null ],
     [ "nearest_length", "dc/d73/server_2miscfunctions_8qh.html#aee49ae40c7589dc06a511a233bb74975", null ],
-    [ "nottargeted", "dc/d73/server_2miscfunctions_8qh.html#a89a8ee706f5ffbb92ccc84edb26717f4", null ],
     [ "NUM_NEAREST_ENTITIES", "dc/d73/server_2miscfunctions_8qh.html#aef022c04c63946dd9efc31db4b657cdb", null ],
     [ "random_start_ammo", "dc/d73/server_2miscfunctions_8qh.html#a2a3e89a2db038992970db682ae736f23", null ],
     [ "random_start_weapons_count", "dc/d73/server_2miscfunctions_8qh.html#a4f1f9b143f200171c1fea4e59ab7a36d", null ],

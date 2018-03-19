@@ -7,7 +7,6 @@ var triggers_8qh =
     [ "dest", "d6/d25/triggers_8qh.html#ae06022ef64f0fecd8f5ab5ad77f1ee3d", null ],
     [ "height", "d6/d25/triggers_8qh.html#a48083b65ac9a863566dc3e3fff09a5b4", null ],
     [ "lip", "d6/d25/triggers_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46", null ],
-    [ "nottargeted", "d6/d25/triggers_8qh.html#a89a8ee706f5ffbb92ccc84edb26717f4", null ],
     [ "pushable", "d6/d25/triggers_8qh.html#a62c381a8dd53927f035d3f51b303e108", null ],
     [ "SF_TRIGGER_INIT", "d6/d25/triggers_8qh.html#a00727a12f3b9417467d74d8689396896", null ],
     [ "SF_TRIGGER_RESET", "d6/d25/triggers_8qh.html#a24375c2a9667f57a7623db3b06f59e62", null ],

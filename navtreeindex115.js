@@ -1,15 +1,5 @@
 var NAVTREEINDEX115 =
 {
-"dc/de9/classXonoticRootDialog.html#af1aab403dc54575707fd57991312b201":[1,0,231,47],
-"dc/de9/classXonoticRootDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,231,27],
-"dc/de9/classXonoticRootDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,231,15],
-"dc/de9/classXonoticRootDialog.html#af88a81fd25020e249716d851c0c127bf":[1,0,231,59],
-"dc/de9/classXonoticRootDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,231,39],
-"dc/de9/classXonoticRootDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,231,2],
-"dc/de9/classXonoticRootDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,231,37],
-"dc/de9/classXonoticRootDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,231,41],
-"dc/de9/classXonoticRootDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,231,85],
-"dc/de9/classXonoticRootDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,231,10],
 "dc/def/vortex_8qc.html":[2,0,1,16,0,40],
 "dc/def/vortex_8qc_source.html":[2,0,1,16,0,40],
 "dc/df0/sv__dynamic__handicap_8qc.html":[2,0,1,9,0,9,2],
@@ -249,5 +239,15 @@ var NAVTREEINDEX115 =
 "dd/d1b/step_8qh_source.html":[2,0,1,11,0,8],
 "dd/d1d/common_2mutators_2mutator_2superspec_2__mod_8qh.html":[2,0,1,9,0,34,1],
 "dd/d1d/common_2mutators_2mutator_2superspec_2__mod_8qh_source.html":[2,0,1,9,0,34,1],
-"dd/d1d/spider_8qh.html":[2,0,1,8,0,7]
+"dd/d1d/spider_8qh.html":[2,0,1,8,0,7],
+"dd/d1d/spider_8qh.html#a9e511fe405c8aa283e98fb3e9f159cb4":[2,0,1,8,0,7,3],
+"dd/d1d/spider_8qh.html#adec2c17d036c3d41cbeccf645cfd39a7":[2,0,1,8,0,7,2],
+"dd/d1d/spider_8qh_source.html":[2,0,1,8,0,7],
+"dd/d1e/utility_8qc.html":[2,0,6,4,15],
+"dd/d1e/utility_8qc.html#a75fc6c4c2aac6cf5f2830552d363204a":[2,0,6,4,15,2],
+"dd/d1e/utility_8qc.html#aac192e0597d8df992d4963e6d8ddf503":[2,0,6,4,15,0],
+"dd/d1e/utility_8qc.html#aac822f09d4c3275e067edc349937d899":[2,0,6,4,15,5],
+"dd/d1e/utility_8qc.html#ad7e0fa93ffe2ec3f34de96e7f86b90af":[2,0,6,4,15,1],
+"dd/d1e/utility_8qc.html#aedafe5274fe6b0b467a6a7eaaca8c748":[2,0,6,4,15,3],
+"dd/d1e/utility_8qc.html#af9eb582898cab4e22bace1c7afba0f66":[2,0,6,4,15,4]
 };

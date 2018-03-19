@@ -52,6 +52,7 @@ var cvars_8qh =
     [ "autocvar_bot_join_empty", "d6/d74/cvars_8qh.html#a02f07646d2b2ae8dc43c7ec7c3ac5b95", null ],
     [ "autocvar_bot_navigation_ignoreplayers", "d6/d74/cvars_8qh.html#a198923cedc40559d92a6d1558f4ef55a", null ],
     [ "autocvar_bot_nofire", "d6/d74/cvars_8qh.html#a923b2fd64c9fb1f576d86737d2fad27d", null ],
+    [ "autocvar_bot_typefrag", "d6/d74/cvars_8qh.html#a76ae51e349cf22c07c13276aecfcbce1", null ],
     [ "autocvar_bot_usemodelnames", "d6/d74/cvars_8qh.html#a8af4bdb65a46dc3f1e202f37c2ca9449", null ],
     [ "autocvar_bot_wander_enable", "d6/d74/cvars_8qh.html#a1a96fddea1bf80129ebe1a07b0cd8b1d", null ],
     [ "autocvar_g_debug_bot_commands", "d6/d74/cvars_8qh.html#abd0ccefe8815ccd845617d79b35eadf0", null ],

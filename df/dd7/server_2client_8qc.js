@@ -31,6 +31,7 @@ var server_2client_8qc =
     [ "Join", "df/dd7/server_2client_8qc.html#a77ba4c685ebf7e80884df5fb16f6e587", null ],
     [ "joinAllowed", "df/dd7/server_2client_8qc.html#a5f32182c9463bf8c77afb1502ade553c", null ],
     [ "KillIndicator_Think", "df/dd7/server_2client_8qc.html#a07ed282ad92406a801203975b2c36ad4", null ],
+    [ "NET_HANDLE", "df/dd7/server_2client_8qc.html#aa5323ad909a839e16014516a7fb973a3", null ],
     [ "nJoinAllowed", "df/dd7/server_2client_8qc.html#a7ffadf58adc998f1bedeafa971290500", null ],
     [ "ObserverThink", "df/dd7/server_2client_8qc.html#a0624045451f22564103dbb3878f77fd6", null ],
     [ "play_countdown", "df/dd7/server_2client_8qc.html#a06fa68229b5a8bf0f5931e23bc3612b6", null ],

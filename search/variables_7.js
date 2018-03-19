@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['g_5fassault_5fdestructibles',['g_assault_destructibles',['../d5/d26/server_2defs_8qh.html#a25d36d50af03db3732ae75524ee3edd5',1,'defs.qh']]],
-  ['g_5fassault_5fobjectivedecreasers',['g_assault_objectivedecreasers',['../d5/d26/server_2defs_8qh.html#aa75782a75c52b5f7135328687dc581c2',1,'defs.qh']]],
-  ['g_5fassault_5fobjectives',['g_assault_objectives',['../d5/d26/server_2defs_8qh.html#a64545cdb7bf20556bfe052fa6e774ab3',1,'defs.qh']]],
+  ['g_5fassault_5fdestructibles',['g_assault_destructibles',['../d9/d8e/gamemode__assault_8qc.html#a25d36d50af03db3732ae75524ee3edd5',1,'gamemode_assault.qc']]],
+  ['g_5fassault_5fobjectivedecreasers',['g_assault_objectivedecreasers',['../d9/d8e/gamemode__assault_8qc.html#aa75782a75c52b5f7135328687dc581c2',1,'gamemode_assault.qc']]],
+  ['g_5fassault_5fobjectives',['g_assault_objectives',['../d9/d8e/gamemode__assault_8qc.html#a64545cdb7bf20556bfe052fa6e774ab3',1,'gamemode_assault.qc']]],
   ['g_5fbot_5fdodge',['g_bot_dodge',['../d5/d26/server_2defs_8qh.html#aeb4012d45ed047757f0a48605193564c',1,'defs.qh']]],
   ['g_5fbot_5ftargets',['g_bot_targets',['../d5/d26/server_2defs_8qh.html#ab26a670f691a77d3471ef5da08a5712a',1,'defs.qh']]],
   ['g_5fclones',['g_clones',['../d5/d26/server_2defs_8qh.html#a1dbdd71f4bd171fd17727f4225bba5e6',1,'defs.qh']]],

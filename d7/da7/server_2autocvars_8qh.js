@@ -274,6 +274,8 @@ var server_2autocvars_8qh =
     [ "autocvar_g_nades_spawn", "d7/da7/server_2autocvars_8qh.html#a817f0f30110a5ff7da2142874a3b8795", null ],
     [ "autocvar_g_nades_spawn_count", "d7/da7/server_2autocvars_8qh.html#afe1ca33f9182949656f98f65b77684d8", null ],
     [ "autocvar_g_nades_throw_offset", "d7/da7/server_2autocvars_8qh.html#a9e872ac054faaed2212e8df7b83ee156", null ],
+    [ "autocvar_g_nades_veil_radius", "d7/da7/server_2autocvars_8qh.html#a02619028aea6c94377ca7674b7385529", null ],
+    [ "autocvar_g_nades_veil_time", "d7/da7/server_2autocvars_8qh.html#a4b1c2534804d9ce6918077008c5f8561", null ],
     [ "autocvar_g_nick_flood_penalty_red", "d7/da7/server_2autocvars_8qh.html#a06049fd4b4f3c2e7cdab13ce7c9e9be3", null ],
     [ "autocvar_g_nick_flood_penalty_yellow", "d7/da7/server_2autocvars_8qh.html#ac9636851707d86884382c2eb65a0086b", null ],
     [ "autocvar_g_nodepthtestitems", "d7/da7/server_2autocvars_8qh.html#ab32e56e714752de2473da95e56906350", null ],

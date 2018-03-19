@@ -25,8 +25,6 @@ var searchData=
   ['devassert',['devassert',['../db/da0/log_8qh.html#a759f0b81b68be04a0b7b1741e39347d6',1,'log.qh']]],
   ['devassert_5fonce',['devassert_once',['../db/da0/log_8qh.html#ac0728eb9b46661ff2f6b488856396d5c',1,'log.qh']]],
   ['devdemand',['devdemand',['../db/da0/log_8qh.html#a4c4069e1c34df72dc1188667ecedd168',1,'log.qh']]],
-  ['dialog_5fhudpanel_5fcommon',['DIALOG_HUDPANEL_COMMON',['../df/d97/menu_2xonotic_2util_8qh.html#a90265891986843c2c1863a5a6a4fdbf4',1,'util.qh']]],
-  ['dialog_5fhudpanel_5fcommon_5fnotoggle',['DIALOG_HUDPANEL_COMMON_NOTOGGLE',['../df/d97/menu_2xonotic_2util_8qh.html#a09b33bcb8fe677a37c8ec7566542c398',1,'util.qh']]],
   ['did_5fcheat',['DID_CHEAT',['../d6/de9/cheats_8qc.html#a30dfb2e8033210719c190a020d8705b4',1,'cheats.qc']]],
   ['diff_5fteam',['DIFF_TEAM',['../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b',1,'teams.qh']]],
   ['dmg_5fnowep',['DMG_NOWEP',['../d5/d26/server_2defs_8qh.html#a7d15659b92a2ebcd68cc184e3a3824a3',1,'defs.qh']]],

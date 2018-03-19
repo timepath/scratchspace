@@ -21,5 +21,7 @@ var nades_8qh =
     [ "PROJECTILE_NADE_NAPALM_BURN", "da/d3e/nades_8qh.html#a5a02811b8b07d92c52131c55c8b575d0", null ],
     [ "PROJECTILE_NADE_SPAWN", "da/d3e/nades_8qh.html#aa5aa4e0024cd20b96e7507a409286758", null ],
     [ "PROJECTILE_NADE_TRANSLOCATE", "da/d3e/nades_8qh.html#a4547268708a4e720cf672e1eb8359999", null ],
+    [ "PROJECTILE_NADE_VEIL", "da/d3e/nades_8qh.html#aa0d8327a8635753078f3bd884b7b23d7", null ],
+    [ "PROJECTILE_NADE_VEIL_BURN", "da/d3e/nades_8qh.html#a34395771f9d88f0accc5514e71c6e23a", null ],
     [ "PROJECTILE_NAPALM_FOUNTAIN", "da/d3e/nades_8qh.html#a0975ec4cf12ce7bc07a3b2fb5da68db4", null ]
 ];

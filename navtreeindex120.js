@@ -1,15 +1,5 @@
 var NAVTREEINDEX120 =
 {
-"dd/da6/classXonoticCreditsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,158,33],
-"dd/da6/classXonoticCreditsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,158,12],
-"dd/da6/classXonoticCreditsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,158,41],
-"dd/da6/classXonoticCreditsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,158,3],
-"dd/da6/classXonoticCreditsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,158,84],
-"dd/da6/classXonoticCreditsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,158,82],
-"dd/da6/classXonoticCreditsDialog.html#a12d810c5e219e102af070c91a8288cbc":[1,0,158,83],
-"dd/da6/classXonoticCreditsDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,158,49],
-"dd/da6/classXonoticCreditsDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,158,27],
-"dd/da6/classXonoticCreditsDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,158,18],
 "dd/da6/classXonoticCreditsDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,158,75],
 "dd/da6/classXonoticCreditsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,158,72],
 "dd/da6/classXonoticCreditsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,158,71],
@@ -249,5 +239,15 @@ var NAVTREEINDEX120 =
 "dd/dcd/hud__config_8qh.html#a20c296dff48d5c4541d84a57d0434913":[2,0,0,1,6,8],
 "dd/dcd/hud__config_8qh.html#a22efbfe26e334ef2923e0ee491323829":[2,0,0,1,6,2],
 "dd/dcd/hud__config_8qh.html#a272f972366e65bdb7303c3d43e397c31":[2,0,0,1,6,4],
-"dd/dcd/hud__config_8qh.html#a3c145dbe28a71c938406edbc71cd742b":[2,0,0,1,6,14]
+"dd/dcd/hud__config_8qh.html#a3c145dbe28a71c938406edbc71cd742b":[2,0,0,1,6,14],
+"dd/dcd/hud__config_8qh.html#a3de9f52b1fb3a94ed8d7948a9af16f12":[2,0,0,1,6,5],
+"dd/dcd/hud__config_8qh.html#a5204a80cd5e9fe439aba0169b70e6cfe":[2,0,0,1,6,9],
+"dd/dcd/hud__config_8qh.html#a909082b7b3de632938d841419eb2905a":[2,0,0,1,6,3],
+"dd/dcd/hud__config_8qh.html#a9213dbc97dc594fd1bcaff31e5a562f8":[2,0,0,1,6,11],
+"dd/dcd/hud__config_8qh.html#a997bcd4a77add62b1ec1ed127a5bd1bb":[2,0,0,1,6,1],
+"dd/dcd/hud__config_8qh.html#a99f36338c9c7bd502906d8bf9082c01b":[2,0,0,1,6,16],
+"dd/dcd/hud__config_8qh.html#aada18f5681a314c0fbe20bd694c96a0e":[2,0,0,1,6,12],
+"dd/dcd/hud__config_8qh.html#abc8e50cc73fef1d666edc33c8c23050f":[2,0,0,1,6,10],
+"dd/dcd/hud__config_8qh.html#acbb661be531ec12a66e835a78c4723a6":[2,0,0,1,6,7],
+"dd/dcd/hud__config_8qh.html#add51661a00f7fd1fc2f545bf2dcb2f88":[2,0,0,1,6,15]
 };

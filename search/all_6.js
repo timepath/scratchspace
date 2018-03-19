@@ -261,6 +261,7 @@ var searchData=
   ['fp_5fzero',['FP_ZERO',['../d9/df7/mathlib_8qh.html#aef8fd13dfea3527597bd8678dda10c4c',1,'mathlib.qh']]],
   ['fpclassify',['fpclassify',['../df/d38/mathlib_8qc.html#ae2bfb851ed8bf44903c10964cfc7c533',1,'fpclassify(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#ae2bfb851ed8bf44903c10964cfc7c533',1,'fpclassify(float e):&#160;mathlib.qc']]],
   ['fprintf',['fprintf',['../d5/df2/common_2util_8qh.html#a461e83c88c5ac01576ef0f8554408da3',1,'util.qh']]],
+  ['fpscounter_5fupdate',['fpscounter_update',['../d6/dd3/view_8qc.html#a392ee8cc05410982516cad055945c38b',1,'view.qc']]],
   ['fputs',['fputs',['../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df',1,'menudefs.qc']]],
   ['frag_5fcentermessage_5foverride',['frag_centermessage_override',['../d5/dac/g__damage_8qc.html#ac6e64d0173ea3a8b8ac2f97dba0add11',1,'g_damage.qc']]],
   ['frag_5fping',['frag_ping',['../d9/d09/notifications_2all_8inc.html#ace9312d80092b317f20470828ec4df77',1,'all.inc']]],

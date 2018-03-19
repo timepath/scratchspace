@@ -36,7 +36,7 @@ var classPlasmaDualAttack =
     [ "mdl", "d8/dfe/classPlasmaDualAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d8/dfe/classPlasmaDualAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],
     [ "netname", "d8/dfe/classPlasmaDualAttack.html#a082c4e82fea470377abab09f55578589", null ],
-    [ "spawnflags", "d8/dfe/classPlasmaDualAttack.html#add92b1cccb4280f76efc41e86ed85645", null ],
+    [ "spawnflags", "d8/dfe/classPlasmaDualAttack.html#a5ffcae097a6fb769984a6239508a08c0", null ],
     [ "w_crosshair", "d8/dfe/classPlasmaDualAttack.html#a01e7b060bcfa83adc60236efeca16fd3", null ],
     [ "w_crosshair_size", "d8/dfe/classPlasmaDualAttack.html#a79fc26acbd9b11c52f841a4f550dd52d", null ],
     [ "w_reticle", "d8/dfe/classPlasmaDualAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],

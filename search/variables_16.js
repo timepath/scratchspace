@@ -149,7 +149,7 @@ var searchData=
   ['vote_5fchange',['vote_change',['../d3/d05/hud_8qh.html#a81225a5e525826accdc760ff46256c41',1,'hud.qh']]],
   ['vote_5fendtime',['vote_endtime',['../d7/d16/server_2command_2vote_8qh.html#a38d06641c1d3e4ed12745c6fd9556098',1,'vote.qh']]],
   ['vote_5fhighlighted',['vote_highlighted',['../d3/d05/hud_8qh.html#a045e1064e3dfa1f43fb8e3823dba5127',1,'hud.qh']]],
-  ['vote_5fmaster',['VOTE_MASTER',['../d7/d16/server_2command_2vote_8qh.html#a3cbee0d9f583f352e79853d7baca43d7',1,'VOTE_MASTER():&#160;vote.qh'],['../d7/d16/server_2command_2vote_8qh.html#ab2a4a22b57e23eebd526313dc76d8b49',1,'vote_master():&#160;vote.qh']]],
+  ['vote_5fmaster',['vote_master',['../d7/d16/server_2command_2vote_8qh.html#ab2a4a22b57e23eebd526313dc76d8b49',1,'vote_master():&#160;vote.qh'],['../d7/d16/server_2command_2vote_8qh.html#a3cbee0d9f583f352e79853d7baca43d7',1,'VOTE_MASTER():&#160;vote.qh']]],
   ['vote_5fneeded',['vote_needed',['../d3/d05/hud_8qh.html#a23b48b17db9ee176aaa27001d01006cd',1,'hud.qh']]],
   ['vote_5fneeded_5foverall',['vote_needed_overall',['../d7/d16/server_2command_2vote_8qh.html#a625d4725ac6d8c4fe56731b980e8d955',1,'vote.qh']]],
   ['vote_5fnocount',['vote_nocount',['../d3/d05/hud_8qh.html#a06d7feb0be3ff2d1678234b908c25e1f',1,'hud.qh']]],

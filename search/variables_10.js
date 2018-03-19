@@ -328,6 +328,8 @@ var searchData=
   ['projectile_5fnade_5fnapalm_5fburn',['PROJECTILE_NADE_NAPALM_BURN',['../da/d3e/nades_8qh.html#a5a02811b8b07d92c52131c55c8b575d0',1,'nades.qh']]],
   ['projectile_5fnade_5fspawn',['PROJECTILE_NADE_SPAWN',['../da/d3e/nades_8qh.html#aa5aa4e0024cd20b96e7507a409286758',1,'nades.qh']]],
   ['projectile_5fnade_5ftranslocate',['PROJECTILE_NADE_TRANSLOCATE',['../da/d3e/nades_8qh.html#a4547268708a4e720cf672e1eb8359999',1,'nades.qh']]],
+  ['projectile_5fnade_5fveil',['PROJECTILE_NADE_VEIL',['../da/d3e/nades_8qh.html#aa0d8327a8635753078f3bd884b7b23d7',1,'nades.qh']]],
+  ['projectile_5fnade_5fveil_5fburn',['PROJECTILE_NADE_VEIL_BURN',['../da/d3e/nades_8qh.html#a34395771f9d88f0accc5514e71c6e23a',1,'nades.qh']]],
   ['projectile_5fnapalm_5ffountain',['PROJECTILE_NAPALM_FOUNTAIN',['../da/d3e/nades_8qh.html#a0975ec4cf12ce7bc07a3b2fb5da68db4',1,'nades.qh']]],
   ['projectile_5fporto_5fblue',['PROJECTILE_PORTO_BLUE',['../db/dee/projectiles_8qh.html#a3bbedc488571793867c62903c1720ce7',1,'projectiles.qh']]],
   ['projectile_5fporto_5fred',['PROJECTILE_PORTO_RED',['../db/dee/projectiles_8qh.html#ac6ae2b2f62dcfbc71cf3421abd243e12',1,'projectiles.qh']]],

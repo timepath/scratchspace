@@ -1,10 +1,9 @@
 var menu_2xonotic_2util_8qh =
 [
-    [ "DIALOG_HUDPANEL_COMMON", "df/d97/menu_2xonotic_2util_8qh.html#a90265891986843c2c1863a5a6a4fdbf4", null ],
-    [ "DIALOG_HUDPANEL_COMMON_NOTOGGLE", "df/d97/menu_2xonotic_2util_8qh.html#a09b33bcb8fe677a37c8ec7566542c398", null ],
     [ "CheckSendCvars", "df/d97/menu_2xonotic_2util_8qh.html#ab1a12c6efcea09204c8c4461ca36efff", null ],
     [ "clearTooltip", "df/d97/menu_2xonotic_2util_8qh.html#ad765c653d11adeb645af29a3beb33556", null ],
-    [ "dialog_hudpanel_common_notoggle", "df/d97/menu_2xonotic_2util_8qh.html#a9067be9a9e9972655717d9552a0f2af9", null ],
+    [ "dialog_hudpanel_main_checkbox", "df/d97/menu_2xonotic_2util_8qh.html#abdff541f37ea94922175cdd851cbd474", null ],
+    [ "dialog_hudpanel_main_settings", "df/d97/menu_2xonotic_2util_8qh.html#aed5d9d12ffc756efec508a7aed7faa0c", null ],
     [ "forAllDescendants", "df/d97/menu_2xonotic_2util_8qh.html#aabecb2186198cee293ff99e8806ea85e", null ],
     [ "GameType_GetCount", "df/d97/menu_2xonotic_2util_8qh.html#a44167665bad1f9b48425b468cdca42b6", null ],
     [ "GameType_GetIcon", "df/d97/menu_2xonotic_2util_8qh.html#a8eb356644d69441dba461bca0bb3ab9e", null ],

@@ -1,15 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"de/d9c/classTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,129,30],
-"de/d9c/classTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,129,36],
-"de/d9c/classTab.html#a520abb757a187547673f9a1dbd7acde8":[1,0,129,73],
-"de/d9c/classTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,129,44],
-"de/d9c/classTab.html#a53de8355052b658819638577356cc8f3":[1,0,129,56],
-"de/d9c/classTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,129,87],
-"de/d9c/classTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,129,19],
-"de/d9c/classTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,129,63],
-"de/d9c/classTab.html#a67d95732d49da439095483530aca8804":[1,0,129,55],
-"de/d9c/classTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,129,20],
 "de/d9c/classTab.html#a72c0e76156762fbda152032add5f1630":[1,0,129,16],
 "de/d9c/classTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,129,7],
 "de/d9c/classTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,129,65],
@@ -249,5 +239,15 @@ var NAVTREEINDEX128 =
 "de/dc3/teamradar_8qc.html#ae9ba6e1072e311a7403fa46bf7091a79":[2,0,0,26,2],
 "de/dc3/teamradar_8qc_source.html":[2,0,0,26],
 "de/dc5/dialog__settings__effects_8qh.html":[2,0,5,4,123],
-"de/dc5/dialog__settings__effects_8qh.html#a8ace980a9aa0b9448962d11b51ad3f3e":[2,0,5,4,123,1]
+"de/dc5/dialog__settings__effects_8qh.html#a8ace980a9aa0b9448962d11b51ad3f3e":[2,0,5,4,123,1],
+"de/dc5/dialog__settings__effects_8qh_source.html":[2,0,5,4,123],
+"de/dcb/classMageSpike.html":[1,0,76],
+"de/dcb/classMageSpike.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,76,37],
+"de/dcb/classMageSpike.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,76,21],
+"de/dcb/classMageSpike.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,76,20],
+"de/dcb/classMageSpike.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,76,34],
+"de/dcb/classMageSpike.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,76,18],
+"de/dcb/classMageSpike.html#a312755d5709b880f99cf89d7a76237fe":[1,0,76,5],
+"de/dcb/classMageSpike.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,76,22],
+"de/dcb/classMageSpike.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,76,13]
 };

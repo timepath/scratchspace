@@ -10,6 +10,7 @@ var scores_8qc =
     [ "PlayerScore_Detach", "d2/d79/scores_8qc.html#a0e01d4df2b9d101fe63bb6295ce44112", null ],
     [ "PlayerScore_PlayerStats", "d2/d79/scores_8qc.html#a92dc03c3e0dc4d9f8cd86b7c45c6e167", null ],
     [ "PlayerScore_SendEntity", "d2/d79/scores_8qc.html#ab5bc7141fb8354e589cccc6fefb03432", null ],
+    [ "PlayerScore_Set", "d2/d79/scores_8qc.html#afe55fd1443db7d1a095b8f820e8e05e4", null ],
     [ "PlayerScore_Sort", "d2/d79/scores_8qc.html#ae62eb8bcfc2596312a8b44c3aabdef19", null ],
     [ "PlayerScore_TeamStats", "d2/d79/scores_8qc.html#affe961b21a56acd5eb8779b56607356d", null ],
     [ "PlayerTeamScore_Add", "d2/d79/scores_8qc.html#a95c06d8a35e1db6d343a7c883241444c", null ],

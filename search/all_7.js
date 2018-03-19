@@ -1,9 +1,9 @@
 var searchData=
 [
   ['g_5fassault',['g_assault',['../d2/d9e/mapinfo_8qh.html#ad0afc4f6c40de7c96797c604027eb1eb',1,'mapinfo.qh']]],
-  ['g_5fassault_5fdestructibles',['g_assault_destructibles',['../d5/d26/server_2defs_8qh.html#a25d36d50af03db3732ae75524ee3edd5',1,'defs.qh']]],
-  ['g_5fassault_5fobjectivedecreasers',['g_assault_objectivedecreasers',['../d5/d26/server_2defs_8qh.html#aa75782a75c52b5f7135328687dc581c2',1,'defs.qh']]],
-  ['g_5fassault_5fobjectives',['g_assault_objectives',['../d5/d26/server_2defs_8qh.html#a64545cdb7bf20556bfe052fa6e774ab3',1,'defs.qh']]],
+  ['g_5fassault_5fdestructibles',['g_assault_destructibles',['../d9/d8e/gamemode__assault_8qc.html#a25d36d50af03db3732ae75524ee3edd5',1,'gamemode_assault.qc']]],
+  ['g_5fassault_5fobjectivedecreasers',['g_assault_objectivedecreasers',['../d9/d8e/gamemode__assault_8qc.html#aa75782a75c52b5f7135328687dc581c2',1,'gamemode_assault.qc']]],
+  ['g_5fassault_5fobjectives',['g_assault_objectives',['../d9/d8e/gamemode__assault_8qc.html#a64545cdb7bf20556bfe052fa6e774ab3',1,'gamemode_assault.qc']]],
   ['g_5fbot_5fdodge',['g_bot_dodge',['../d5/d26/server_2defs_8qh.html#aeb4012d45ed047757f0a48605193564c',1,'defs.qh']]],
   ['g_5fbot_5ftargets',['g_bot_targets',['../d5/d26/server_2defs_8qh.html#ab26a670f691a77d3471ef5da08a5712a',1,'defs.qh']]],
   ['g_5fca',['g_ca',['../d2/d9e/mapinfo_8qh.html#ade7f55927855e9f8823515cc29071cc3',1,'mapinfo.qh']]],
@@ -230,7 +230,7 @@ var searchData=
   ['gametypevote_5faddvotable',['GameTypeVote_AddVotable',['../d2/d76/server_2mapvoting_8qc.html#af481d3d1aad9744bcd9fa4d4889b2a20',1,'mapvoting.qc']]],
   ['gametypevote_5favailabilitystatus',['GameTypeVote_AvailabilityStatus',['../d2/d76/server_2mapvoting_8qc.html#a9a22f1960db9109b9401b645a25995bc',1,'mapvoting.qc']]],
   ['gametypevote_5fdrawgametypeitem',['GameTypeVote_DrawGameTypeItem',['../d4/d0d/client_2mapvoting_8qc.html#ac0b940b69fe411f626169357481ff8b9',1,'mapvoting.qc']]],
-  ['gametypevote_5ffinished',['GameTypeVote_Finished',['../d2/d76/server_2mapvoting_8qc.html#a04fb7c700cf60c180f0abe1399ad82b3',1,'GameTypeVote_Finished(int pos):&#160;mapvoting.qc'],['../d3/d53/server_2mapvoting_8qh.html#a3e88f2b64efebdb02a339e5494f1b0ac',1,'GameTypeVote_Finished(float pos):&#160;mapvoting.qh'],['../d2/d76/server_2mapvoting_8qc.html#a7f2dff421f55e857ae65125352b4d232',1,'gametypevote_finished():&#160;mapvoting.qc']]],
+  ['gametypevote_5ffinished',['gametypevote_finished',['../d2/d76/server_2mapvoting_8qc.html#a7f2dff421f55e857ae65125352b4d232',1,'gametypevote_finished():&#160;mapvoting.qc'],['../d2/d76/server_2mapvoting_8qc.html#a04fb7c700cf60c180f0abe1399ad82b3',1,'GameTypeVote_Finished(int pos):&#160;mapvoting.qc'],['../d3/d53/server_2mapvoting_8qh.html#a3e88f2b64efebdb02a339e5494f1b0ac',1,'GameTypeVote_Finished(float pos):&#160;mapvoting.qh']]],
   ['gametypevote_5fgetmask',['GameTypeVote_GetMask',['../d2/d76/server_2mapvoting_8qc.html#a3a337f20d7acf9e5d56aa7a9383db43e',1,'mapvoting.qc']]],
   ['gametypevote_5fmapinfo_5ffixname',['GameTypeVote_MapInfo_FixName',['../d2/d76/server_2mapvoting_8qc.html#a13d33aa977bdf38b8384785376590f49',1,'GameTypeVote_MapInfo_FixName(string m):&#160;mapvoting.qc'],['../d3/d53/server_2mapvoting_8qh.html#a13d33aa977bdf38b8384785376590f49',1,'GameTypeVote_MapInfo_FixName(string m):&#160;mapvoting.qc']]],
   ['gametypevote_5freadoption',['GameTypeVote_ReadOption',['../d4/d0d/client_2mapvoting_8qc.html#a2d18123ee9cdfee569be86229f2cf9aa',1,'mapvoting.qc']]],

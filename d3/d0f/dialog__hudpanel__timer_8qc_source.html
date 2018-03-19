@@ -115,18 +115,21 @@ $(document).ready(function(){initNavTree('d3/d0f/dialog__hudpanel__timer_8qc_sou
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordtype">string</span> panelname = <span class="stringliteral">&quot;timer&quot;</span>;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../df/d97/menu_2xonotic_2util_8qh.html#a90265891986843c2c1863a5a6a4fdbf4">DIALOG_HUDPANEL_COMMON</a>();</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#abdff541f37ea94922175cdd851cbd474">dialog_hudpanel_main_checkbox</a>(me, panelname);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    me.TR(me);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        me.TD(me, 1, 4, e = <a class="code" href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a>(0, _(<span class="stringliteral">&quot;Timer:&quot;</span>)));</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#aed5d9d12ffc756efec508a7aed7faa0c">dialog_hudpanel_main_settings</a>(me, panelname);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    me.TR(me);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        me.TDempty(me, 0.2);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        me.TD(me, 1, 3.8, e = <a class="code" href="../../d5/d6f/xonotic_2checkbox_8qc.html#abd68b3cdbcebff2b5d6fc9da7b430b76">makeXonoticCheckBox</a>(0, <span class="stringliteral">&quot;hud_panel_timer_increment&quot;</span>, _(<span class="stringliteral">&quot;Show elapsed time&quot;</span>)));</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        me.TD(me, 1, 4, e = <a class="code" href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a>(0, _(<span class="stringliteral">&quot;Timer:&quot;</span>)));</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    me.TR(me);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        me.TDempty(me, 0.2);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        me.TD(me, 1, 3.8, e = <a class="code" href="../../d5/d6f/xonotic_2checkbox_8qc.html#abd68b3cdbcebff2b5d6fc9da7b430b76">makeXonoticCheckBox</a>(0, <span class="stringliteral">&quot;hud_panel_timer_increment&quot;</span>, _(<span class="stringliteral">&quot;Show elapsed time&quot;</span>)));</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
 <div class="ttc" id="dialog__hudpanel__timer_8qc_html_a96f8200bf3f24902a133023702f3e43a"><div class="ttname"><a href="../../d3/d0f/dialog__hudpanel__timer_8qc.html#a96f8200bf3f24902a133023702f3e43a">XonoticHUDTimerDialog_fill</a></div><div class="ttdeci">void XonoticHUDTimerDialog_fill(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d0f/dialog__hudpanel__timer_8qc_source.html#l00006">dialog_hudpanel_timer.qc:6</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="menu_2xonotic_2util_8qc_html_aed5d9d12ffc756efec508a7aed7faa0c"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#aed5d9d12ffc756efec508a7aed7faa0c">dialog_hudpanel_main_settings</a></div><div class="ttdeci">void dialog_hudpanel_main_settings(entity me, string panelname)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00772">util.qc:772</a></div></div>
 <div class="ttc" id="textlabel_8qc_html_a68172c3fa4df12de97eddc774ab7425d"><div class="ttname"><a href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a></div><div class="ttdeci">entity makeXonoticTextLabel(float theAlign, string theText)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d67/textlabel_8qc_source.html#l00003">textlabel.qc:3</a></div></div>
-<div class="ttc" id="menu_2xonotic_2util_8qh_html_a90265891986843c2c1863a5a6a4fdbf4"><div class="ttname"><a href="../../df/d97/menu_2xonotic_2util_8qh.html#a90265891986843c2c1863a5a6a4fdbf4">DIALOG_HUDPANEL_COMMON</a></div><div class="ttdeci">#define DIALOG_HUDPANEL_COMMON()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d97/menu_2xonotic_2util_8qh_source.html#l00042">util.qh:42</a></div></div>
+<div class="ttc" id="menu_2xonotic_2util_8qc_html_abdff541f37ea94922175cdd851cbd474"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#abdff541f37ea94922175cdd851cbd474">dialog_hudpanel_main_checkbox</a></div><div class="ttdeci">void dialog_hudpanel_main_checkbox(entity me, string panelname)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00763">util.qc:763</a></div></div>
 <div class="ttc" id="dialog__hudpanel__timer_8qh_html"><div class="ttname"><a href="../../d7/de8/dialog__hudpanel__timer_8qh.html">dialog_hudpanel_timer.qh</a></div></div>
 <div class="ttc" id="xonotic_2checkbox_8qh_html"><div class="ttname"><a href="../../d8/d76/xonotic_2checkbox_8qh.html">checkbox.qh</a></div></div>
 <div class="ttc" id="textlabel_8qh_html"><div class="ttname"><a href="../../d0/de9/textlabel_8qh.html">textlabel.qh</a></div></div>
@@ -137,7 +140,7 @@ $(document).ready(function(){initNavTree('d3/d0f/dialog__hudpanel__timer_8qc_sou
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d3/d0f/dialog__hudpanel__timer_8qc.html">dialog_hudpanel_timer.qc</a></li>
-    <li class="footer">Generated on Sat Mar 3 2018 03:10:37 for Xonotic by
+    <li class="footer">Generated on Mon Mar 19 2018 16:14:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
