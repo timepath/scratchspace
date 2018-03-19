@@ -124,8 +124,8 @@ $(document).ready(function(){initNavTree('d2/d5e/registry_8qh_source.html','../.
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ab210ffe7da897080a1f7f2e05f5a9cfa">   23</a></span>&#160;<span class="preprocessor">#define REGISTRY(id, max) \</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">    void Register##id(); \</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">    [[accumulate]] void REGISTRY_DEPENDS_(id) {} \</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">    [[accumulate]] REGISTRY_BEGIN(id) {} \</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">    [[accumulate]] REGISTRY_END(id) {} \</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">    REGISTRY_BEGIN(id) {} \</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">    REGISTRY_END(id) {} \</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">    void _Register##id() {} \</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">    int id##_state = 0; \</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">    void Register##id() { if (id##_state) return; id##_state = 1; REGISTRY_DEPENDS_(id); REGISTRY_BEGIN_(id); _Register##id(); id##_state = 2; REGISTRY_END_(id); } \</span></div>
@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('d2/d5e/registry_8qh_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d2/d5e/registry_8qh.html">registry.qh</a></li>
-    <li class="footer">Generated on Mon Mar 19 2018 16:14:50 for Xonotic by
+    <li class="footer">Generated on Mon Mar 19 2018 18:38:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
