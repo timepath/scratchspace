@@ -1,5 +1,9 @@
 var NAVTREEINDEX97 =
 {
+"db/d0a/oo_8qh.html#af5093977f1d460ae46f2d4c904d2bd64":[2,0,4,39,10],
+"db/d0a/oo_8qh.html#afa8d0001717e5ae352d3893ce74ff3b8":[2,0,4,39,38],
+"db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde":[2,0,4,39,12],
+"db/d0a/oo_8qh.html#affebc3e5b45467922d5b040f93e132ce":[2,0,4,39,44],
 "db/d0a/oo_8qh_source.html":[2,0,4,39],
 "db/d0c/angle_8qh.html":[2,0,4,8],
 "db/d0c/angle_8qh_source.html":[2,0,4,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX97 =
 "db/d21/demolist_8qc.html#acde72732a368a7f6548e49ec39ada76c":[2,0,5,4,36,1],
 "db/d21/demolist_8qc.html#ad52ed06b0a43cb12cda37cc8c3dd757f":[2,0,5,4,36,10],
 "db/d21/demolist_8qc.html#af878363f579f76d032d50a3b5f82fec4":[2,0,5,4,36,2],
-"db/d21/demolist_8qc.html#afa78eb32ccd5d5cba109c0a5198e480f":[2,0,5,4,36,5],
-"db/d21/demolist_8qc_source.html":[2,0,5,4,36],
-"db/d25/common_2physics_2movetypes_2__mod_8inc.html":[2,0,1,11,0,0],
-"db/d25/common_2physics_2movetypes_2__mod_8inc_source.html":[2,0,1,11,0,0],
-"db/d26/gamemode__freezetag_8qc.html":[2,0,6,3,0,14]
+"db/d21/demolist_8qc.html#afa78eb32ccd5d5cba109c0a5198e480f":[2,0,5,4,36,5]
 };

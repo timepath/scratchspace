@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"d9/d8e/gamemode__assault_8qc.html#a5961aabd1db4d1af0897b34a7921952b":[2,0,6,3,0,2,28],
+"d9/d8e/gamemode__assault_8qc.html#a64545cdb7bf20556bfe052fa6e774ab3":[2,0,6,3,0,2,46],
+"d9/d8e/gamemode__assault_8qc.html#a64b24f77b9c2948dbeb0e81e75db2878":[2,0,6,3,0,2,15],
+"d9/d8e/gamemode__assault_8qc.html#a68693cbd8c35d4b2d6d0c23dc2f3bae7":[2,0,6,3,0,2,2],
 "d9/d8e/gamemode__assault_8qc.html#a6aba73e43c0b74410e84f978addfbc1b":[2,0,6,3,0,2,35],
 "d9/d8e/gamemode__assault_8qc.html#a6b0949e5d4a26c66dc7036e96ab2f3e4":[2,0,6,3,0,2,11],
 "d9/d8e/gamemode__assault_8qc.html#a6d92e52847e213d962c4ec83d92172d5":[2,0,6,3,0,2,30],
@@ -245,9 +249,5 @@ var NAVTREEINDEX87 =
 "d9/dbf/common_2gamemodes_2gamemode_2nexball_2__mod_8qh_source.html":[2,0,1,3,0,0,1],
 "d9/dc5/campcheck_8qc.html":[2,0,1,9,0,4,2],
 "d9/dc5/campcheck_8qc_source.html":[2,0,1,9,0,4,2],
-"d9/dc5/soundlist_8qc.html":[2,0,5,4,218],
-"d9/dc5/soundlist_8qc.html#a0c4b69951dbd35c7fa72faa7ef2036b0":[2,0,5,4,218,1],
-"d9/dc5/soundlist_8qc.html#a25a9c478f309a003050637396252e5f7":[2,0,5,4,218,14],
-"d9/dc5/soundlist_8qc.html#a30a912cd5693f92193bf02816ec9b1ed":[2,0,5,4,218,11],
-"d9/dc5/soundlist_8qc.html#a3e76f523310ac398973957c095bf5825":[2,0,5,4,218,6]
+"d9/dc5/soundlist_8qc.html":[2,0,5,4,218]
 };

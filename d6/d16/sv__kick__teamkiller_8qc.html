@@ -108,7 +108,16 @@ $(document).ready(function(){initNavTree('d6/d16/sv__kick__teamkiller_8qc.html',
 <div class="title">sv_kick_teamkiller.qc File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d25/sv__kick__teamkiller_8qh_source.html">sv_kick_teamkiller.qh</a>&quot;</code><br/>
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for sv_kick_teamkiller.qc:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d00/sv__kick__teamkiller_8qc__incl.svg" width="184" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</div>
 <p><a href="../../d6/d16/sv__kick__teamkiller_8qc_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -150,52 +159,52 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00007">7</a> of file <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html">sv_kick_teamkiller.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00008">8</a> of file <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html">sv_kick_teamkiller.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00003">autocvar_g_kick_teamkiller_lower_limit</a>, <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00002">autocvar_g_kick_teamkiller_rate</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d5/dac/server_2scores_8qh_source.html#l00041">PlayerScore_Get</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00031">teamplay</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00058">warmup_stage</a>.</p>
-<div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>)</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> attacker = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(attacker))</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">int</span> teamkills = <a class="code" href="../../d5/dac/server_2scores_8qh.html#a4112e3811c1c08ea31a12b6035f4f391">PlayerScore_Get</a>(attacker, SP_TEAMKILLS);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="comment">// use the players actual playtime</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">float</span> playtime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(attacker).startplaytime;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="comment">// rate is in teamkills/minutes, playtime in seconds</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">if</span> (teamkills &gt;= <a class="code" href="../../d6/d16/sv__kick__teamkiller_8qc.html#a657a6c1fda25555ef02deb6134dbda7a">autocvar_g_kick_teamkiller_lower_limit</a> &amp;&amp; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        teamkills &gt;= <a class="code" href="../../d6/d16/sv__kick__teamkiller_8qc.html#afbd0e5bb50260402c47a87e3d97cb5c0">autocvar_g_kick_teamkiller_rate</a>*playtime/60.0)</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_QUIT_KICK_TEAMKILL, attacker.netname);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        dropclient(attacker);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<p>References <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00004">autocvar_g_kick_teamkiller_lower_limit</a>, <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00003">autocvar_g_kick_teamkiller_rate</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d5/dac/server_2scores_8qh_source.html#l00041">PlayerScore_Get</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00031">teamplay</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00058">warmup_stage</a>.</p>
+<div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    }</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> attacker = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(attacker))</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">int</span> teamkills = <a class="code" href="../../d5/dac/server_2scores_8qh.html#a4112e3811c1c08ea31a12b6035f4f391">PlayerScore_Get</a>(attacker, SP_TEAMKILLS);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="comment">// use the players actual playtime</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">float</span> playtime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(attacker).startplaytime;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">// rate is in teamkills/minutes, playtime in seconds</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">if</span> (teamkills &gt;= <a class="code" href="../../d6/d16/sv__kick__teamkiller_8qc.html#a657a6c1fda25555ef02deb6134dbda7a">autocvar_g_kick_teamkiller_lower_limit</a> &amp;&amp;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        teamkills &gt;= <a class="code" href="../../d6/d16/sv__kick__teamkiller_8qc.html#afbd0e5bb50260402c47a87e3d97cb5c0">autocvar_g_kick_teamkiller_rate</a>*playtime/60.0)</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_QUIT_KICK_TEAMKILL, attacker.netname);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        dropclient(attacker);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
 <div class="ttc" id="server_2scores_8qh_html_a4112e3811c1c08ea31a12b6035f4f391"><div class="ttname"><a href="../../d5/dac/server_2scores_8qh.html#a4112e3811c1c08ea31a12b6035f4f391">PlayerScore_Get</a></div><div class="ttdeci">#define PlayerScore_Get(player, scorefield)</div><div class="ttdoc">Returns the player&#39;s score. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/server_2scores_8qh_source.html#l00041">scores.qh:41</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
 <div class="ttc" id="utils_8qh_html_a8069d572672171c56fdffd290ed4979d"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a></div><div class="ttdeci">#define IS_REAL_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00017">utils.qh:17</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_af6088979e4328d96a754cc483d1672d9"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a></div><div class="ttdeci">float warmup_stage</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00058">main.qh:58</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
-<div class="ttc" id="sv__kick__teamkiller_8qc_html_a657a6c1fda25555ef02deb6134dbda7a"><div class="ttname"><a href="../../d6/d16/sv__kick__teamkiller_8qc.html#a657a6c1fda25555ef02deb6134dbda7a">autocvar_g_kick_teamkiller_lower_limit</a></div><div class="ttdeci">float autocvar_g_kick_teamkiller_lower_limit</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00003">sv_kick_teamkiller.qc:3</a></div></div>
+<div class="ttc" id="sv__kick__teamkiller_8qc_html_a657a6c1fda25555ef02deb6134dbda7a"><div class="ttname"><a href="../../d6/d16/sv__kick__teamkiller_8qc.html#a657a6c1fda25555ef02deb6134dbda7a">autocvar_g_kick_teamkiller_lower_limit</a></div><div class="ttdeci">float autocvar_g_kick_teamkiller_lower_limit</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00004">sv_kick_teamkiller.qc:4</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_acf8ea712d5467331fb750b33ab165013"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a></div><div class="ttdeci">float teamplay</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00031">progsdefs.qc:31</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
-<div class="ttc" id="sv__kick__teamkiller_8qc_html_afbd0e5bb50260402c47a87e3d97cb5c0"><div class="ttname"><a href="../../d6/d16/sv__kick__teamkiller_8qc.html#afbd0e5bb50260402c47a87e3d97cb5c0">autocvar_g_kick_teamkiller_rate</a></div><div class="ttdeci">float autocvar_g_kick_teamkiller_rate</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00002">sv_kick_teamkiller.qc:2</a></div></div>
+<div class="ttc" id="sv__kick__teamkiller_8qc_html_afbd0e5bb50260402c47a87e3d97cb5c0"><div class="ttname"><a href="../../d6/d16/sv__kick__teamkiller_8qc.html#afbd0e5bb50260402c47a87e3d97cb5c0">autocvar_g_kick_teamkiller_rate</a></div><div class="ttdeci">float autocvar_g_kick_teamkiller_rate</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00003">sv_kick_teamkiller.qc:3</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d16/sv__kick__teamkiller_8qc_a3b230d53545f54263c0a2ff3c1086b4e_cgraph.svg" width="320" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -240,9 +249,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00003">3</a> of file <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html">sv_kick_teamkiller.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00004">4</a> of file <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html">sv_kick_teamkiller.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00007">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00008">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -256,9 +265,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00002">2</a> of file <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html">sv_kick_teamkiller.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00003">3</a> of file <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html">sv_kick_teamkiller.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00007">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00008">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -268,7 +277,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_ed84a8cd5dd72c8269a39f135931ec52.html">kick_teamkiller</a></li><li class="navelem"><a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc.html">sv_kick_teamkiller.qc</a></li>
-    <li class="footer">Generated on Wed Mar 28 2018 09:34:46 for Xonotic by
+    <li class="footer">Generated on Wed Mar 28 2018 09:56:13 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
