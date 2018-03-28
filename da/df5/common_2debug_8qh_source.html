@@ -558,13 +558,13 @@ $(document).ready(function(){initNavTree('da/df5/common_2debug_8qh_source.html',
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define debug_text_3d_5(pos, msg, align, dur, vel) debug_text_3d_fn(pos, msg, align, dur, vel)</span></div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;<a class="code" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a></div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;<span class="keywordtype">void</span> debug_text_3d_fn(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> pos, <span class="keywordtype">string</span> msg, <span class="keywordtype">float</span> align, <span class="keywordtype">float</span> duration, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> velocity) {</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;<span class="keywordtype">void</span> debug_text_3d_fn(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> pos, <span class="keywordtype">string</span> msg, <span class="keywordtype">float</span> align, <span class="keywordtype">float</span> duration, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> vel) {</div>
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    WriteHeader(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">MSG_BROADCAST</a>, debug_text_3d);</div>
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    WriteVector(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">MSG_BROADCAST</a>, pos);</div>
 <div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">MSG_BROADCAST</a>, msg);</div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;    WriteFloat(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">MSG_BROADCAST</a>, align);</div>
 <div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;    WriteFloat(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">MSG_BROADCAST</a>, duration);</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;    WriteVector(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">MSG_BROADCAST</a>, velocity);</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;    WriteVector(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">MSG_BROADCAST</a>, vel);</div>
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;}</div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;</div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;<span class="preprocessor">#endif // SVQC</span></div>
@@ -657,7 +657,7 @@ $(document).ready(function(){initNavTree('da/df5/common_2debug_8qh_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../da/df5/common_2debug_8qh.html">debug.qh</a></li>
-    <li class="footer">Generated on Sun Mar 25 2018 08:10:45 for Xonotic by
+    <li class="footer">Generated on Wed Mar 28 2018 09:34:38 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
