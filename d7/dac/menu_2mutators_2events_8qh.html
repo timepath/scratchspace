@@ -178,7 +178,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00037">37</a> of file <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00042">42</a> of file <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -206,13 +206,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"> i(<span class="keywordtype">string</span>, <a class="code" href="../../d7/dac/menu_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776">cmd_name</a>) \ i(<span class="keywordtype">int</span>, <a class="code" href="../../d7/dac/menu_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51">cmd_argc</a>) \ i(<span class="keywordtype">string</span>, <a class="code" href="../../d7/dac/menu_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12">cmd_string</a>) \</div>
-<div class="ttc" id="menu_2mutators_2events_8qh_html_a899dc4fde1f5c9e9b44832cd3f263c51"><div class="ttname"><a href="../../d7/dac/menu_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51">cmd_argc</a></div><div class="ttdeci">int cmd_argc</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00008">events.qh:8</a></div></div>
-<div class="ttc" id="menu_2mutators_2events_8qh_html_a625c9b1bdc13469449c1fe6118a71776"><div class="ttname"><a href="../../d7/dac/menu_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776">cmd_name</a></div><div class="ttdeci">string cmd_name</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00007">events.qh:7</a></div></div>
-<div class="ttc" id="menu_2mutators_2events_8qh_html_a041e3be1db40295659f495926cf77a12"><div class="ttname"><a href="../../d7/dac/menu_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12">cmd_string</a></div><div class="ttdeci">string cmd_string</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00009">events.qh:9</a></div></div>
+<div class="ttc" id="menu_2mutators_2events_8qh_html_a899dc4fde1f5c9e9b44832cd3f263c51"><div class="ttname"><a href="../../d7/dac/menu_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51">cmd_argc</a></div><div class="ttdeci">int cmd_argc</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00013">events.qh:13</a></div></div>
+<div class="ttc" id="menu_2mutators_2events_8qh_html_a625c9b1bdc13469449c1fe6118a71776"><div class="ttname"><a href="../../d7/dac/menu_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776">cmd_name</a></div><div class="ttdeci">string cmd_name</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00012">events.qh:12</a></div></div>
+<div class="ttc" id="menu_2mutators_2events_8qh_html_a041e3be1db40295659f495926cf77a12"><div class="ttname"><a href="../../d7/dac/menu_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12">cmd_string</a></div><div class="ttdeci">string cmd_string</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00014">events.qh:14</a></div></div>
 </div><!-- fragment -->
 <p>Called when a menu command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, Menu_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }. </p>
 
-<p>Definition at line <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00030">30</a> of file <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00035">35</a> of file <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -280,7 +280,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00008">8</a> of file <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00013">13</a> of file <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01950">MUTATOR_HOOKFUNCTION()</a>.</p>
 
@@ -296,7 +296,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00007">7</a> of file <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00012">12</a> of file <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l01267">_getcommandkey()</a>, and <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01950">MUTATOR_HOOKFUNCTION()</a>.</p>
 
@@ -312,7 +312,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00009">9</a> of file <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00014">14</a> of file <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -322,7 +322,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_fa6bab312750b9471bc957ec38c4d399.html">mutators</a></li><li class="navelem"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Fri Mar 30 2018 05:21:42 for Xonotic by
+    <li class="footer">Generated on Fri Mar 30 2018 23:15:20 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

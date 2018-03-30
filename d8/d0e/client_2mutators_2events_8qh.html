@@ -287,7 +287,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  i(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \ o(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \</div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00100">100</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00105">105</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -318,7 +318,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, CSQC_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled string cmd_name = <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV(0, string)</a>; int cmd_argc = <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV(1, int)</a>; if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00026">26</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00031">31</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -354,7 +354,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>allow customizing 3rd person mode effect </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00092">92</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00097">97</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -387,7 +387,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Called when damage info is received on the client, useful for playing explosion effects. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00191">191</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00196">196</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -422,7 +422,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Draw the grapple hook, allows changing hook texture and colour. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00138">138</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00143">143</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -454,7 +454,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Called when drawing info messages, allows adding new info messages. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00162">162</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00167">167</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -484,7 +484,7 @@ Functions</h2></td></tr>
 
 <p>Called when the view model is being animated (setorigin is called after the hook, so you only need to modify origin here if desired) </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00175">175</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00180">180</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -514,7 +514,7 @@ Functions</h2></td></tr>
 
 <p>Called when a projectile's properties are being modified. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00043">43</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00048">48</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -544,7 +544,7 @@ Functions</h2></td></tr>
 
 <p>Called when a projectile is linked with CSQC. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00037">37</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00042">42</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -576,7 +576,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Called when an entity is updated (either by SVQC networking or PVS) </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00149">149</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00154">154</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -608,7 +608,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Return true to disable player model/color forcing. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00184">184</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00189">189</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -639,7 +639,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Called when getting the global parameters for a model. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00079">79</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00084">84</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -667,7 +667,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00132">132</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00137">137</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -698,7 +698,7 @@ Functions</h2></td></tr>
 <div class="line">     o(<span class="keywordtype">float</span>, MUTATOR_ARGV_1_float) \</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00108">108</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00113">113</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -728,7 +728,7 @@ Functions</h2></td></tr>
 
 <p>Called when drawing info messages, allows adding new info messages. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00169">169</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00174">174</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -760,7 +760,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Return true to not draw any vortex beam. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00117">117</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00122">122</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -790,7 +790,7 @@ Functions</h2></td></tr>
 
 <p>Called when setting up skeleton bones. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00064">64</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00069">69</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -820,7 +820,7 @@ Functions</h2></td></tr>
 
 <p>Called when setting up bones from the loaded model. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00070">70</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00075">75</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -850,7 +850,7 @@ Functions</h2></td></tr>
 
 <p>Called when setting the attached tags. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00058">58</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00063">63</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -880,7 +880,7 @@ Functions</h2></td></tr>
 
 <p>Called when updating the attached tags index. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00052">52</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00057">57</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -910,7 +910,7 @@ Functions</h2></td></tr>
 
 <p>Called checking if 3rd person mode should be forced on. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00086">86</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00091">91</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -942,7 +942,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Return true to not draw any impact effect. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00124">124</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00129">129</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -1741,7 +1741,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_08b4cf75afed9a7734ab4c2d9f3e6fae.html">mutators</a></li><li class="navelem"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Fri Mar 30 2018 05:21:42 for Xonotic by
+    <li class="footer">Generated on Fri Mar 30 2018 23:15:20 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
