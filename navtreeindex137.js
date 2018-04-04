@@ -1,5 +1,14 @@
 var NAVTREEINDEX137 =
 {
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,233,84],
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0b7c22b4ba0234561575e01ef7f17fc6":[1,0,233,66],
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0c478135eb70f406c6a0b87529556e98":[1,0,233,32],
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0cb9ce568f3ffd87c5388045540c4eb6":[1,0,233,69],
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0cdefa43305a32e38b127bde32dbce26":[1,0,233,40],
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a10f084ce6991717bfb4153928818feba":[1,0,233,22],
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a12cae2879a01520f0d08f21a673a4d3f":[1,0,233,9],
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a1384d244201f945385ed59b53e4aee96":[1,0,233,53],
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a14b2c1b630609675816d233dd0ef3c7f":[1,0,233,44],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a1c228ffb13fb785a4d69c1fc3cba8290":[1,0,233,12],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a1d02ac64cd2c844a3a1328e155243fef":[1,0,233,45],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,233,33],
@@ -210,8 +219,8 @@ var NAVTREEINDEX137 =
 "dir_fe472327f69aa9464440251988e1566b.html":[2,0,1,8],
 "dir_ff27e448fac324d88c702b7803ed56f3.html":[2,0,1,9,0,35],
 "files.html":[2,0],
-"functions.html":[1,3,0,0],
 "functions.html":[1,3,0],
+"functions.html":[1,3,0,0],
 "functions_a.html":[1,3,0,1],
 "functions_b.html":[1,3,0,2],
 "functions_c.html":[1,3,0,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX137 =
 "functions_func_u.html":[1,3,1,18],
 "functions_func_v.html":[1,3,1,19],
 "functions_func_w.html":[1,3,1,20],
-"functions_func_x.html":[1,3,1,21],
-"functions_func_~.html":[1,3,1,22],
-"functions_g.html":[1,3,0,7],
-"functions_h.html":[1,3,0,8],
-"functions_i.html":[1,3,0,9],
-"functions_j.html":[1,3,0,10],
-"functions_k.html":[1,3,0,11],
-"functions_l.html":[1,3,0,12],
-"functions_m.html":[1,3,0,13],
-"functions_n.html":[1,3,0,14]
+"functions_func_x.html":[1,3,1,21]
 };

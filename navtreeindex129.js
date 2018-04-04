@@ -1,5 +1,11 @@
 var NAVTREEINDEX129 =
 {
+"de/dc5/dialog__settings__effects_8qh_source.html":[2,0,5,4,123],
+"de/dcb/classMageSpike.html":[1,0,76],
+"de/dcb/classMageSpike.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,76,37],
+"de/dcb/classMageSpike.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,76,21],
+"de/dcb/classMageSpike.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,76,20],
+"de/dcb/classMageSpike.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,76,34],
 "de/dcb/classMageSpike.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,76,18],
 "de/dcb/classMageSpike.html#a312755d5709b880f99cf89d7a76237fe":[1,0,76,5],
 "de/dcb/classMageSpike.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,76,22],
@@ -243,11 +249,5 @@ var NAVTREEINDEX129 =
 "de/df3/chat_8qh_source.html":[2,0,0,1,0,7],
 "de/df3/raptor__weapons_8qc.html":[2,0,1,15,0,12],
 "de/df3/raptor__weapons_8qc_source.html":[2,0,1,15,0,12],
-"de/df9/sv__items_8qh.html":[2,0,1,9,0,12,7],
-"de/df9/sv__items_8qh_source.html":[2,0,1,9,0,12,7],
-"df/d00/sv__rocketminsta_8qc.html":[2,0,1,9,0,29,2],
-"df/d00/sv__rocketminsta_8qc.html#a30fd30284f143ca24b319468fd0a0b0b":[2,0,1,9,0,29,2,0],
-"df/d00/sv__rocketminsta_8qc.html#a60f0bea353a8c82d3029eec7db935e74":[2,0,1,9,0,29,2,2],
-"df/d00/sv__rocketminsta_8qc.html#af117505b73d3fe91e1f7d13bd5a5a1bf":[2,0,1,9,0,29,2,1],
-"df/d00/sv__rocketminsta_8qc_source.html":[2,0,1,9,0,29,2]
+"de/df9/sv__items_8qh.html":[2,0,1,9,0,12,7]
 };

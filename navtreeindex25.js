@@ -1,6 +1,5 @@
 var NAVTREEINDEX25 =
 {
-"d3/d1b/inputcontainer_8qc_source.html":[2,0,5,2,16],
 "d3/d1e/quake_8qh.html":[2,0,6,2,5],
 "d3/d1e/quake_8qh_source.html":[2,0,6,2,5],
 "d3/d1f/items_2all_8qc.html":[2,0,1,5,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX25 =
 "d3/d47/classXonoticTabController.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,251,39],
 "d3/d47/classXonoticTabController.html#a560e582c512ed981e424009118cafeaa":[1,0,251,43],
 "d3/d47/classXonoticTabController.html#a64fe83fd1d8b2a78c65c87a30b08c2e2":[1,0,251,51],
-"d3/d47/classXonoticTabController.html#a664a226b5d87a63e5af7adede821a776":[1,0,251,0]
+"d3/d47/classXonoticTabController.html#a664a226b5d87a63e5af7adede821a776":[1,0,251,0],
+"d3/d47/classXonoticTabController.html#a67d95732d49da439095483530aca8804":[1,0,251,47]
 };

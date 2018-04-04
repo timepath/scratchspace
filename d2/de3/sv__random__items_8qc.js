@@ -1,10 +1,5 @@
 var sv__random__items_8qc =
 [
-    [ "RANDOM_ITEM_TYPE_HEALTH", "d2/de3/sv__random__items_8qc.html#a99fb83031ce9923c84392b4e92f956b5abcf75f0bd73b947f6d54073fe1594831", null ],
-    [ "RANDOM_ITEM_TYPE_ARMOR", "d2/de3/sv__random__items_8qc.html#a99fb83031ce9923c84392b4e92f956b5ae1e2514003b6f463d560cd9116b9ecae", null ],
-    [ "RANDOM_ITEM_TYPE_RESOURCE", "d2/de3/sv__random__items_8qc.html#a99fb83031ce9923c84392b4e92f956b5a11819c3966c85bbb8d5d1ff541775f37", null ],
-    [ "RANDOM_ITEM_TYPE_WEAPON", "d2/de3/sv__random__items_8qc.html#a99fb83031ce9923c84392b4e92f956b5aca1568de239917247ed02a06e4b276f9", null ],
-    [ "RANDOM_ITEM_TYPE_POWERUP", "d2/de3/sv__random__items_8qc.html#a99fb83031ce9923c84392b4e92f956b5afc21086a73874ad57e9611c19cf3fe3c", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/de3/sv__random__items_8qc.html#a919d7854808805f366d11f1753e739e5", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/de3/sv__random__items_8qc.html#abae70ce89b91dcabce343bec6dc65982", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/de3/sv__random__items_8qc.html#a2eed2b08380665aeefdc3f802c558785", null ],
@@ -15,7 +10,7 @@ var sv__random__items_8qc =
     [ "RandomItems_GetRandomItemClassName", "d2/de3/sv__random__items_8qc.html#a732923b4ae4678be286a01f9ae75ebd4", null ],
     [ "RandomItems_GetRandomItemClassNameWithProperty", "d2/de3/sv__random__items_8qc.html#a67a18349934bc81bcd9d5bbcd5783fc0", null ],
     [ "RandomItems_GetRandomOverkillItemClassName", "d2/de3/sv__random__items_8qc.html#ab90bc7f56ad50cdab3702fc78ecfd9d8", null ],
-    [ "RandomItems_GetRandomVanillaItemClassName", "d2/de3/sv__random__items_8qc.html#a9d5744c0714212328752988b726a801f", null ],
+    [ "RandomItems_GetRandomVanillaItemClassName", "d2/de3/sv__random__items_8qc.html#aa670ed34cdba4589a36484d70406a798", null ],
     [ "RandomItems_ReplaceMapItem", "d2/de3/sv__random__items_8qc.html#a470a4fe03f93be6c62663d96818cddce", null ],
     [ "RandomItems_SpawnLootItem", "d2/de3/sv__random__items_8qc.html#aea68046b18b6c21762249c71fa669164", null ],
     [ "REGISTER_MUTATOR", "d2/de3/sv__random__items_8qc.html#a218f16a1eb8b7cc05f02ee4783ef7f46", null ],

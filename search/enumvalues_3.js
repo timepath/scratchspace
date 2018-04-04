@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['random_5fitem_5ftype_5farmor',['RANDOM_ITEM_TYPE_ARMOR',['../d2/de3/sv__random__items_8qc.html#a99fb83031ce9923c84392b4e92f956b5ae1e2514003b6f463d560cd9116b9ecae',1,'sv_random_items.qc']]],
-  ['random_5fitem_5ftype_5fhealth',['RANDOM_ITEM_TYPE_HEALTH',['../d2/de3/sv__random__items_8qc.html#a99fb83031ce9923c84392b4e92f956b5abcf75f0bd73b947f6d54073fe1594831',1,'sv_random_items.qc']]],
-  ['random_5fitem_5ftype_5fpowerup',['RANDOM_ITEM_TYPE_POWERUP',['../d2/de3/sv__random__items_8qc.html#a99fb83031ce9923c84392b4e92f956b5afc21086a73874ad57e9611c19cf3fe3c',1,'sv_random_items.qc']]],
-  ['random_5fitem_5ftype_5fresource',['RANDOM_ITEM_TYPE_RESOURCE',['../d2/de3/sv__random__items_8qc.html#a99fb83031ce9923c84392b4e92f956b5a11819c3966c85bbb8d5d1ff541775f37',1,'sv_random_items.qc']]],
-  ['random_5fitem_5ftype_5fweapon',['RANDOM_ITEM_TYPE_WEAPON',['../d2/de3/sv__random__items_8qc.html#a99fb83031ce9923c84392b4e92f956b5aca1568de239917247ed02a06e4b276f9',1,'sv_random_items.qc']]],
+  ['random_5fitem_5ftype_5fall',['RANDOM_ITEM_TYPE_ALL',['../d8/d48/sv__random__items_8qh.html#a99fb83031ce9923c84392b4e92f956b5a1ab0d0464a37be7bab719f753037338a',1,'sv_random_items.qh']]],
+  ['random_5fitem_5ftype_5farmor',['RANDOM_ITEM_TYPE_ARMOR',['../d8/d48/sv__random__items_8qh.html#a99fb83031ce9923c84392b4e92f956b5ae1e2514003b6f463d560cd9116b9ecae',1,'sv_random_items.qh']]],
+  ['random_5fitem_5ftype_5fhealth',['RANDOM_ITEM_TYPE_HEALTH',['../d8/d48/sv__random__items_8qh.html#a99fb83031ce9923c84392b4e92f956b5abcf75f0bd73b947f6d54073fe1594831',1,'sv_random_items.qh']]],
+  ['random_5fitem_5ftype_5fpowerup',['RANDOM_ITEM_TYPE_POWERUP',['../d8/d48/sv__random__items_8qh.html#a99fb83031ce9923c84392b4e92f956b5afc21086a73874ad57e9611c19cf3fe3c',1,'sv_random_items.qh']]],
+  ['random_5fitem_5ftype_5fresource',['RANDOM_ITEM_TYPE_RESOURCE',['../d8/d48/sv__random__items_8qh.html#a99fb83031ce9923c84392b4e92f956b5a11819c3966c85bbb8d5d1ff541775f37',1,'sv_random_items.qh']]],
+  ['random_5fitem_5ftype_5fweapon',['RANDOM_ITEM_TYPE_WEAPON',['../d8/d48/sv__random__items_8qh.html#a99fb83031ce9923c84392b4e92f956b5aca1568de239917247ed02a06e4b276f9',1,'sv_random_items.qh']]],
   ['resource_5farmor',['RESOURCE_ARMOR',['../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a48ca02fb37a423a78b5144de8dc911a6',1,'resources.qh']]],
   ['resource_5fbullets',['RESOURCE_BULLETS',['../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a6c0323d9bf18f34868b4ec5d850cf861',1,'resources.qh']]],
   ['resource_5fcells',['RESOURCE_CELLS',['../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a0115d194a8ee77f582bb43e6215f6b0b',1,'resources.qh']]],

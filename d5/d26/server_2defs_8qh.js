@@ -239,7 +239,6 @@ var server_2defs_8qh =
     [ "spectatee_status", "d5/d26/server_2defs_8qh.html#ad19574d03b3580d4e1fcb06490f68f59", null ],
     [ "spectatortime", "d5/d26/server_2defs_8qh.html#ad8cc5742c76a6d38a1205a2171ea5239", null ],
     [ "speedrunning", "d5/d26/server_2defs_8qh.html#a79500bb643262fa91172549d03b8e076", null ],
-    [ "startitem_failed", "d5/d26/server_2defs_8qh.html#aac3dfb3f6cf7fd133b111218d6ec6dce", null ],
     [ "startplaytime", "d5/d26/server_2defs_8qh.html#a1b65a42fdab6dd120422cf8e3e7d3df7", null ],
     [ "stored_netname", "d5/d26/server_2defs_8qh.html#a1caaa8fe4d9b590202c8347fa835470f", null ],
     [ "superweapons_finished", "d5/d26/server_2defs_8qh.html#a8689f2bf666f3c481d8a00a3253cd6df", null ],

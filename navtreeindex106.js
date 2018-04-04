@@ -1,5 +1,11 @@
 var NAVTREEINDEX106 =
 {
+"db/dcc/g__world_8qc.html#ae13da0aa296e2486f3f2e17875548066":[2,0,6,31,73],
+"db/dcc/g__world_8qc.html#ae426fda21f0fe74672ec3760a8eda55e":[2,0,6,31,58],
+"db/dcc/g__world_8qc.html#ae4468bd38528f4a3492fb3102f893727":[2,0,6,31,35],
+"db/dcc/g__world_8qc.html#ae75fd8d37f64427f20903a79db2c9c58":[2,0,6,31,72],
+"db/dcc/g__world_8qc.html#ae90b93bec2a0e6486266371cb04b86bb":[2,0,6,31,9],
+"db/dcc/g__world_8qc.html#ae923ed115dc19fb738ee4b85677546f2":[2,0,6,31,2],
 "db/dcc/g__world_8qc.html#aea3ddd39032ad2c1530fc705053048e2":[2,0,6,31,61],
 "db/dcc/g__world_8qc.html#aeaaf91b0741ea44184722f5f0ae2dfc1":[2,0,6,31,74],
 "db/dcc/g__world_8qc.html#aefb6d1ffefd430b5824382dcee3c6bfe":[2,0,6,31,59],
@@ -243,11 +249,5 @@ var NAVTREEINDEX106 =
 "db/deb/roles_8qc.html#aa14fbd4605ec716d3a28d7bae76565f4":[2,0,6,0,0,0,4,4],
 "db/deb/roles_8qc.html#ab1af65619c621606e2636b8a2fbbd18d":[2,0,6,0,0,0,4,2],
 "db/deb/roles_8qc.html#abfcd73ce6fd8da8e5ae1e3086f0763c8":[2,0,6,0,0,0,4,12],
-"db/deb/roles_8qc.html#acab64c2fe38b303fbe8907423b34fc04":[2,0,6,0,0,0,4,9],
-"db/deb/roles_8qc_source.html":[2,0,6,0,0,0,4],
-"db/dee/projectiles_8qh.html":[2,0,1,16,12],
-"db/dee/projectiles_8qh.html#a0556af9f0eb745cf179e0646459aa60c":[2,0,1,16,12,16],
-"db/dee/projectiles_8qh.html#a067303b9b6c3042213c631b2f88886df":[2,0,1,16,12,32],
-"db/dee/projectiles_8qh.html#a0bb47bbecbc4f5cbff9a00d98da3c0c6":[2,0,1,16,12,28],
-"db/dee/projectiles_8qh.html#a1efcb961aaaeecfdccb6ea197ae5575b":[2,0,1,16,12,30]
+"db/deb/roles_8qc.html#acab64c2fe38b303fbe8907423b34fc04":[2,0,6,0,0,0,4,9]
 };
