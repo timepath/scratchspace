@@ -1,5 +1,11 @@
 var NAVTREEINDEX95 =
 {
+"da/db9/common_2minigames_2minigame_2__mod_8qh_source.html":[2,0,1,6,0,1],
+"da/dbc/sv__globalforces_8qc.html":[2,0,1,9,0,10,2],
+"da/dbc/sv__globalforces_8qc.html#a151729e96468ce6ad51bf033f3f4b5e9":[2,0,1,9,0,10,2,4],
+"da/dbc/sv__globalforces_8qc.html#a287b9b0f5e42655c144241063105b760":[2,0,1,9,0,10,2,0],
+"da/dbc/sv__globalforces_8qc.html#a2c0de4532870612014913ff760a4f50a":[2,0,1,9,0,10,2,1],
+"da/dbc/sv__globalforces_8qc.html#ad6a10acaf4806b68a1aeda3359fdf65e":[2,0,1,9,0,10,2,7],
 "da/dbc/sv__globalforces_8qc.html#ae09c28fe41c40908c61aef40104409a0":[2,0,1,9,0,10,2,5],
 "da/dbc/sv__globalforces_8qc.html#ae90b02c75446973cb9c31d93c955f99b":[2,0,1,9,0,10,2,2],
 "da/dbc/sv__globalforces_8qc.html#aed29bb1fa9cd3bfa774985c2e5fe838c":[2,0,1,9,0,10,2,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX95 =
 "da/ddd/ipban_8qh.html#ac01ce020dcc014d515c2b39dc5a09260":[2,0,6,38,2],
 "da/ddd/ipban_8qh.html#ad7174054ad76d672732a64c0a20d658e":[2,0,6,38,5],
 "da/ddd/ipban_8qh.html#af092a83967ab9516490e44b5736a9fe3":[2,0,6,38,4],
-"da/ddd/ipban_8qh.html#af5400e642692dd6c542af18b03d9946f":[2,0,6,38,0],
-"da/ddd/ipban_8qh_source.html":[2,0,6,38],
-"da/dde/classOffhandHook.html":[1,0,92],
-"da/dde/classOffhandHook.html#a3eebb9e4c20d2c338b773a030eca0ee0":[1,0,92,2],
-"da/dde/classOffhandHook.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,92,0],
-"da/dde/classOffhandHook.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,92,1],
-"da/dde/csprogsdefs_8qh.html":[2,0,2,1]
+"da/ddd/ipban_8qh.html#af5400e642692dd6c542af18b03d9946f":[2,0,6,38,0]
 };

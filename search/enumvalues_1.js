@@ -15,6 +15,10 @@ var searchData=
   ['mut_5fspecprev_5fcontinue',['MUT_SPECPREV_CONTINUE',['../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600ad6826cc8e1309c0d70a9b3340b0a5df1',1,'events.qh']]],
   ['mut_5fspecprev_5ffound',['MUT_SPECPREV_FOUND',['../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600adbb1898d9ed2292ba439603e3ecb0d78',1,'events.qh']]],
   ['mut_5fspecprev_5freturn',['MUT_SPECPREV_RETURN',['../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600a0b818567cf927d275b053840c0f01fb6',1,'events.qh']]],
+  ['mut_5fvoteparse_5fcontinue',['MUT_VOTEPARSE_CONTINUE',['../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da1b140984b84abfc87e4bfa00a40c8a25',1,'events.qh']]],
+  ['mut_5fvoteparse_5finvalid',['MUT_VOTEPARSE_INVALID',['../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dadccefef0c63d202f83ec5f05988c435e',1,'events.qh']]],
+  ['mut_5fvoteparse_5fsuccess',['MUT_VOTEPARSE_SUCCESS',['../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dae67d5d033501401988c1790a3d19624e',1,'events.qh']]],
+  ['mut_5fvoteparse_5funacceptable',['MUT_VOTEPARSE_UNACCEPTABLE',['../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da8023c437c0cb9ea726bfe3cfc77fc5f8',1,'events.qh']]],
   ['mutator_5fadding',['MUTATOR_ADDING',['../db/d38/base_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a018a8cf882e94485709abcc1be988a01',1,'base.qh']]],
   ['mutator_5fremoving',['MUTATOR_REMOVING',['../db/d38/base_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5ef677e4616b7d438b64ce2712c881ba',1,'base.qh']]],
   ['mutator_5frolling_5fback',['MUTATOR_ROLLING_BACK',['../db/d38/base_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a9086c46eca164ce22be0b6e9e9ef72aa',1,'base.qh']]]

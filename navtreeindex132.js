@@ -1,5 +1,11 @@
 var NAVTREEINDEX132 =
 {
+"df/d42/quake3_8qc.html#abdc33cf25e725134a9b48e79c7031bcf":[2,0,6,2,8,7],
+"df/d42/quake3_8qc.html#ae6af28f0406185d406556f691af0f8f2":[2,0,6,2,8,2],
+"df/d42/quake3_8qc.html#ae6ce7348eeca30f09a3ea4aca0a44683":[2,0,6,2,8,14],
+"df/d42/quake3_8qc.html#ae85e4cca4f185075917547715465c5e3":[2,0,6,2,8,12],
+"df/d42/quake3_8qc_source.html":[2,0,6,2,8],
+"df/d42/vaporizer_8qc.html":[2,0,1,16,0,38],
 "df/d42/vaporizer_8qc_source.html":[2,0,1,16,0,38],
 "df/d44/dialog__settings__video_8qh.html":[2,0,5,4,155],
 "df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,155,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX132 =
 "df/d71/announcer_8qh.html#a74359ed785035246489934d025ae3278":[2,0,0,7,1],
 "df/d71/announcer_8qh.html#abb5b4637e37634b1b1ccc43540b8b369":[2,0,0,7,0],
 "df/d71/announcer_8qh_source.html":[2,0,0,7],
-"df/d71/walker__weapon_8qc.html":[2,0,1,14,0,44],
-"df/d71/walker__weapon_8qc_source.html":[2,0,1,14,0,44],
-"df/d75/client_2commands_2__mod_8qh.html":[2,0,0,0,1],
-"df/d75/client_2commands_2__mod_8qh_source.html":[2,0,0,0,1],
-"df/d75/keybinder_8qc.html":[2,0,5,4,172],
-"df/d75/keybinder_8qc.html#a07b1c813a45195e732bdbb97ef390c78":[2,0,5,4,172,5],
-"df/d75/keybinder_8qc.html#a1228cbee3a98b27d1fa42df8e8a4e8b3":[2,0,5,4,172,8]
+"df/d71/walker__weapon_8qc.html":[2,0,1,14,0,44]
 };

@@ -464,6 +464,9 @@ Macros</h2></td></tr>
 <tr class="memitem:acb987800997fcc9d6e5ff435d09acc32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#acb987800997fcc9d6e5ff435d09acc32">EV_VehicleTouch</a>(i, o)</td></tr>
 <tr class="memdesc:acb987800997fcc9d6e5ff435d09acc32"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a player touches a vehicle return true to stop player from entering the vehicle  <a href="#acb987800997fcc9d6e5ff435d09acc32">More...</a><br/></td></tr>
 <tr class="separator:acb987800997fcc9d6e5ff435d09acc32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c1459c40bdc7dbd673d697a3afa6ecb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a8c1459c40bdc7dbd673d697a3afa6ecb">EV_VoteCommand_Parse</a>(i, o)</td></tr>
+<tr class="memdesc:a8c1459c40bdc7dbd673d697a3afa6ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when parsing a vote command.  <a href="#a8c1459c40bdc7dbd673d697a3afa6ecb">More...</a><br/></td></tr>
+<tr class="separator:a8c1459c40bdc7dbd673d697a3afa6ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42be9e8fcc1d63954278ac53322e5690"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a42be9e8fcc1d63954278ac53322e5690">EV_W_DecreaseAmmo</a>(i, o)</td></tr>
 <tr class="memdesc:a42be9e8fcc1d63954278ac53322e5690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by W_DecreaseAmmo.  <a href="#a42be9e8fcc1d63954278ac53322e5690">More...</a><br/></td></tr>
 <tr class="separator:a42be9e8fcc1d63954278ac53322e5690"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -486,6 +489,12 @@ Enumerations</h2></td></tr>
 <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a82492ff4719762fa9752cd4ee82dc393">MUT_FUSREAC_TARG_INVALID</a>
  }</td></tr>
 <tr class="separator:a385c44f6fb256e5716a2302a5b940388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc5c98fcc1211af2b80116dd6e0a035d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dadccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a>
+ }</td></tr>
+<tr class="separator:abc5c98fcc1211af2b80116dd6e0a035d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a726ca809ffd3d67ab4b8476646f26635"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635afae122758cc06d2452f6817e998671dd">MUT_ITEMTOUCH_CONTINUE</a>, 
 <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a9c5e9086f06ed095b2a2e86617459fb4">MUT_ITEMTOUCH_RETURN</a>, 
 <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a37783ea67506cbfd8e6905ee995061be">MUT_ITEMTOUCH_PICKUP</a>
@@ -791,6 +800,8 @@ Functions</h2></td></tr>
 <tr class="separator:a71bbf8e969ec569ac7aaf7e15e60654a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af82048eef48364d24aa9dc06a0834ab3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#af82048eef48364d24aa9dc06a0834ab3">MUTATOR_HOOKABLE</a> (CalculateRespawnTime, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aafb4cc64ad58e37c8ae14ca8c4c7ba7c">EV_CalculateRespawnTime</a>)</td></tr>
 <tr class="separator:af82048eef48364d24aa9dc06a0834ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a251408c4c4888bc5b34ce36c8ff72f50"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a251408c4c4888bc5b34ce36c8ff72f50">MUTATOR_HOOKABLE</a> (VoteCommand_Parse, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a8c1459c40bdc7dbd673d697a3afa6ecb">EV_VoteCommand_Parse</a>)</td></tr>
+<tr class="separator:a251408c4c4888bc5b34ce36c8ff72f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -4547,6 +4558,38 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8c1459c40bdc7dbd673d697a3afa6ecb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_VoteCommand_Parse</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">                           i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \                    i(<span class="keywordtype">string</span>, MUTATOR_ARGV_1_string) \                     i(<span class="keywordtype">string</span>, MUTATOR_ARGV_2_string) \   i(<span class="keywordtype">float</span>, MUTATOR_ARGV_3_float) \                   i(<span class="keywordtype">float</span>, MUTATOR_ARGV_4_float) \</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+</div><!-- fragment -->
+<p>called when parsing a vote command. </p>
+
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01120">1120</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a42be9e8fcc1d63954278ac53322e5690"></a>
 <div class="memitem">
 <div class="memproto">
@@ -4736,6 +4779,40 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2mutators_2events_8qh_html_a385c44f6fb256e5716a2302a5b940388a0b727707d8a1f3e255acb85bebbd1761"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a0b727707d8a1f3e255acb85bebbd1761">MUT_FUSREAC_TARG_VALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01084">events.qh:1084</a></div></div>
 <div class="ttc" id="server_2mutators_2events_8qh_html_a385c44f6fb256e5716a2302a5b940388a82492ff4719762fa9752cd4ee82dc393"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a82492ff4719762fa9752cd4ee82dc393">MUT_FUSREAC_TARG_INVALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01085">events.qh:1085</a></div></div>
 <div class="ttc" id="server_2mutators_2events_8qh_html_a385c44f6fb256e5716a2302a5b940388a83fa3412f7b9ca0cdf727708e0a4c89a"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a83fa3412f7b9ca0cdf727708e0a4c89a">MUT_FUSREAC_TARG_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01083">events.qh:1083</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abc5c98fcc1211af2b80116dd6e0a035d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="abc5c98fcc1211af2b80116dd6e0a035da1b140984b84abfc87e4bfa00a40c8a25"></a>MUT_VOTEPARSE_CONTINUE</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="abc5c98fcc1211af2b80116dd6e0a035dae67d5d033501401988c1790a3d19624e"></a>MUT_VOTEPARSE_SUCCESS</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="abc5c98fcc1211af2b80116dd6e0a035dadccefef0c63d202f83ec5f05988c435e"></a>MUT_VOTEPARSE_INVALID</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="abc5c98fcc1211af2b80116dd6e0a035da8023c437c0cb9ea726bfe3cfc77fc5f8"></a>MUT_VOTEPARSE_UNACCEPTABLE</em>&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01129">1129</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;     {</div>
+<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
+<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a>, <span class="comment">// return 1 (vote parsed)</span></div>
+<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dadccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a>, <span class="comment">// return -1 (vote parsed but counted as invalid, no action or vote)</span></div>
+<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a> <span class="comment">// return 0 (vote parameter counted as unacceptable, warns caller)</span></div>
+<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;};</div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da1b140984b84abfc87e4bfa00a40c8a25"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01130">events.qh:1130</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035dae67d5d033501401988c1790a3d19624e"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01131">events.qh:1131</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da8023c437c0cb9ea726bfe3cfc77fc5f8"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01133">events.qh:1133</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035dadccefef0c63d202f83ec5f05988c435e"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dadccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01132">events.qh:1132</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -8438,6 +8515,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a251408c4c4888bc5b34ce36c8ff72f50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype">VoteCommand_Parse&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a8c1459c40bdc7dbd673d697a3afa6ecb">EV_VoteCommand_Parse</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a2da559e70e6e6c7251e3121fc7550aa2"></a>
 <div class="memitem">
@@ -8493,7 +8596,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Thu Apr 5 2018 01:19:07 for Xonotic by
+    <li class="footer">Generated on Thu Apr 5 2018 07:59:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
