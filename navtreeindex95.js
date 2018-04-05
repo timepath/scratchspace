@@ -1,5 +1,11 @@
 var NAVTREEINDEX95 =
 {
+"da/dbc/sv__globalforces_8qc.html#ae09c28fe41c40908c61aef40104409a0":[2,0,1,9,0,10,2,5],
+"da/dbc/sv__globalforces_8qc.html#ae90b02c75446973cb9c31d93c955f99b":[2,0,1,9,0,10,2,2],
+"da/dbc/sv__globalforces_8qc.html#aed29bb1fa9cd3bfa774985c2e5fe838c":[2,0,1,9,0,10,2,6],
+"da/dbc/sv__globalforces_8qc.html#af4b5f696b25623513f4cf02a69097eea":[2,0,1,9,0,10,2,3],
+"da/dbc/sv__globalforces_8qc_source.html":[2,0,1,9,0,10,2],
+"da/dc1/classXonoticAudioSettingsTab.html":[1,0,146],
 "da/dc1/classXonoticAudioSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,146,37],
 "da/dc1/classXonoticAudioSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,146,16],
 "da/dc1/classXonoticAudioSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,146,45],
@@ -243,11 +249,5 @@ var NAVTREEINDEX95 =
 "da/dde/classOffhandHook.html#a3eebb9e4c20d2c338b773a030eca0ee0":[1,0,92,2],
 "da/dde/classOffhandHook.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,92,0],
 "da/dde/classOffhandHook.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,92,1],
-"da/dde/csprogsdefs_8qh.html":[2,0,2,1],
-"da/dde/csprogsdefs_8qh.html#a2975aa3861dc843a19aa644cbca0990c":[2,0,2,1,2],
-"da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7":[2,0,2,1,13],
-"da/dde/csprogsdefs_8qh.html#a5d1bb17af4691ba1a8c043b63c37b391":[2,0,2,1,9],
-"da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727":[2,0,2,1,0],
-"da/dde/csprogsdefs_8qh.html#a748f553ee0da4a5b0c677a310e821255":[2,0,2,1,7],
-"da/dde/csprogsdefs_8qh.html#a7ff130f5700e963263eb7d734da97842":[2,0,2,1,8]
+"da/dde/csprogsdefs_8qh.html":[2,0,2,1]
 };
