@@ -424,9 +424,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="cmd_8qc_html_a4769ad73d29cf93f3dff45dea49196ef"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#a4769ad73d29cf93f3dff45dea49196ef">ClientCommand_say_team</a></div><div class="ttdeci">void ClientCommand_say_team(entity caller, float request, float argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00301">cmd.qc:301</a></div></div>
 <div class="ttc" id="cmd_8qc_html_a75f1453924bf212b33e2daf3e993068d"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#a75f1453924bf212b33e2daf3e993068d">ClientCommand_mv_getpicture</a></div><div class="ttdeci">void ClientCommand_mv_getpicture(entity caller, float request, float argc)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00143">cmd.qc:143</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00665">665</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00667">667</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00693">ClientCommand_macro_command()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00684">ClientCommand_macro_help()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00704">ClientCommand_macro_usage()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00715">ClientCommand_macro_write_aliases()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00492">LocalCommand_macro_command()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00487">LocalCommand_macro_help()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00502">LocalCommand_macro_usage()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00512">LocalCommand_macro_write_aliases()</a>, and <a class="el" href="../../d4/d70/cl__cmd_8qh_source.html#l00022">STATIC_INIT()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00695">ClientCommand_macro_command()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00686">ClientCommand_macro_help()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00706">ClientCommand_macro_usage()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00717">ClientCommand_macro_write_aliases()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00492">LocalCommand_macro_command()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00487">LocalCommand_macro_help()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00502">LocalCommand_macro_usage()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00512">LocalCommand_macro_write_aliases()</a>, and <a class="el" href="../../d4/d70/cl__cmd_8qh_source.html#l00022">STATIC_INIT()</a>.</p>
 
 </div>
 </div>
@@ -711,21 +711,21 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00693">693</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00695">695</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00665">CLIENT_COMMANDS</a>, and <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>.</p>
+<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00667">CLIENT_COMMANDS</a>, and <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00729">SV_ParseClientCommand()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;{</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;<span class="preprocessor">    #define CLIENT_COMMAND(name, function, description) \</span></div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;<span class="preprocessor">        { if (name == strtolower(argv(0))) { function; return true; } }</span></div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    <a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>(caller, <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, argc, command);</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;<span class="preprocessor">#undef CLIENT_COMMAND</span></div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;}</div>
-<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00665">cmd.qc:665</a></div></div>
+<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00731">SV_ParseClientCommand()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;{</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;<span class="preprocessor">    #define CLIENT_COMMAND(name, function, description) \</span></div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;<span class="preprocessor">        { if (name == strtolower(argv(0))) { function; return true; } }</span></div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;    <a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>(caller, <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, argc, command);</div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;<span class="preprocessor">#undef CLIENT_COMMAND</span></div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;}</div>
+<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00667">cmd.qc:667</a></div></div>
 <div class="ttc" id="common_2command_2command_8qh_html_a07f6d442e5d9ae5399caa2ee6d795f04"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a></div><div class="ttdeci">const int CMD_REQUEST_COMMAND</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">command.qh:3</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -754,19 +754,19 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00684">684</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00686">686</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00665">CLIENT_COMMANDS</a>, and <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>.</p>
+<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00667">CLIENT_COMMANDS</a>, and <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00729">SV_ParseClientCommand()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;{</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;<span class="preprocessor">    #define CLIENT_COMMAND(name, function, description) \</span></div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;<span class="preprocessor">        { sprint(caller, &quot;  ^2&quot;, name, &quot;^7: &quot;, description, &quot;\n&quot;); }</span></div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;    <a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0, 0, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;<span class="preprocessor">#undef CLIENT_COMMAND</span></div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;<span class="preprocessor"></span>}</div>
-<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00665">cmd.qc:665</a></div></div>
+<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00731">SV_ParseClientCommand()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;{</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;<span class="preprocessor">    #define CLIENT_COMMAND(name, function, description) \</span></div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;<span class="preprocessor">        { sprint(caller, &quot;  ^2&quot;, name, &quot;^7: &quot;, description, &quot;\n&quot;); }</span></div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;    <a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0, 0, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;<span class="preprocessor">#undef CLIENT_COMMAND</span></div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00667">cmd.qc:667</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -805,22 +805,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00704">704</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00706">706</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00665">CLIENT_COMMANDS</a>, and <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>.</p>
+<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00667">CLIENT_COMMANDS</a>, and <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00729">SV_ParseClientCommand()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;{</div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;<span class="preprocessor">    #define CLIENT_COMMAND(name, function, description) \</span></div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;<span class="preprocessor">        { if (name == strtolower(argv(1))) { function; return true; } }</span></div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;    <a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>(caller, <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>, argc, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;<span class="preprocessor">#undef CLIENT_COMMAND</span></div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00731">SV_ParseClientCommand()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;{</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;<span class="preprocessor">    #define CLIENT_COMMAND(name, function, description) \</span></div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;<span class="preprocessor">        { if (name == strtolower(argv(1))) { function; return true; } }</span></div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;    <a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>(caller, <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>, argc, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;<span class="preprocessor">#undef CLIENT_COMMAND</span></div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;}</div>
 <div class="ttc" id="common_2command_2command_8qh_html_ab9e24d8681128fd9913308f8dc3e026a"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a></div><div class="ttdeci">const int CMD_REQUEST_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">command.qh:4</a></div></div>
-<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00665">cmd.qc:665</a></div></div>
+<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00667">cmd.qc:667</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -848,19 +848,19 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00715">715</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00717">717</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00665">CLIENT_COMMANDS</a>, and <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>.</p>
+<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00667">CLIENT_COMMANDS</a>, and <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/da7/generic_8qc_source.html#l00172">GENERIC_COMMAND()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;{</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;<span class="preprocessor">    #define CLIENT_COMMAND(name, function, description) \</span></div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;<span class="preprocessor">        { CMD_Write_Alias(&quot;qc_cmd_cmd&quot;, name, description); }</span></div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    <a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0, 0, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;<span class="preprocessor">#undef CLIENT_COMMAND</span></div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;<span class="preprocessor"></span>}</div>
-<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00665">cmd.qc:665</a></div></div>
+<div class="fragment"><div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;{</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;<span class="preprocessor">    #define CLIENT_COMMAND(name, function, description) \</span></div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;<span class="preprocessor">        { CMD_Write_Alias(&quot;qc_cmd_cmd&quot;, name, description); }</span></div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    <a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0, 0, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;<span class="preprocessor">#undef CLIENT_COMMAND</span></div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00667">cmd.qc:667</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1991,24 +1991,26 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;                    <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(caller, sprintf(<span class="stringliteral">&quot;Invalid voice. Use one of: %s\n&quot;</span>, <a class="code" href="../../df/d6e/globalsound_8qh.html#a872c54b6fa8621ffcf201dfba700196a">allvoicesamples</a>));</div>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;                    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;                }</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;                <span class="keywordflow">if</span> (argc &gt;= 3) VoiceMessage(caller, e, <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(command, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(2), <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a3596f9ca40a1cecf3e9eafa08267fb9a">argv_end_index</a>(-1) - <a class="code" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(2)));</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;                <span class="keywordflow">else</span> VoiceMessage(caller, e, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;            }</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;        }</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(caller, <span class="stringliteral">&quot;Incorrect parameters for ^2voice^7\n&quot;</span>);</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;        {</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(caller, <span class="stringliteral">&quot;\nUsage:^3 cmd voice messagetype &lt;soundname&gt;\n&quot;</span>);</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(caller, <span class="stringliteral">&quot;  &#39;messagetype&#39; is the type of broadcast to do, like team only or such,\n&quot;</span>);</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(caller, <span class="stringliteral">&quot;  and &#39;soundname&#39; is the string/filename of the sound/voice message to play.\n&quot;</span>);</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        }</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    }</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;}</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;                <span class="keywordtype">string</span> msg = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;                <span class="keywordflow">if</span> (argc &gt;= 3)</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;                    msg = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(command, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(2), <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a3596f9ca40a1cecf3e9eafa08267fb9a">argv_end_index</a>(-1) - <a class="code" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(2));</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;                VoiceMessage(caller, e, msg);</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;            }</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;        }</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(caller, <span class="stringliteral">&quot;Incorrect parameters for ^2voice^7\n&quot;</span>);</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;        {</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(caller, <span class="stringliteral">&quot;\nUsage:^3 cmd voice messagetype &lt;soundname&gt;\n&quot;</span>);</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(caller, <span class="stringliteral">&quot;  &#39;messagetype&#39; is the type of broadcast to do, like team only or such,\n&quot;</span>);</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(caller, <span class="stringliteral">&quot;  and &#39;soundname&#39; is the string/filename of the sound/voice message to play.\n&quot;</span>);</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;        }</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    }</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;}</div>
 <div class="ttc" id="common_2command_2command_8qh_html_ab9e24d8681128fd9913308f8dc3e026a"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a></div><div class="ttdeci">const int CMD_REQUEST_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">command.qh:4</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a3596f9ca40a1cecf3e9eafa08267fb9a"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a3596f9ca40a1cecf3e9eafa08267fb9a">argv_end_index</a></div><div class="ttdeci">#define argv_end_index</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00030">dpextensions.qh:30</a></div></div>
@@ -2359,112 +2361,112 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00729">729</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00731">731</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00463">Ban_MaybeEnforceBanOnce()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00295">CheatCommand()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00048">chr2str</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a6cf402e8f370de9cb49d5d6d3ad38585">clientcommand()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00693">ClientCommand_macro_command()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00684">ClientCommand_macro_help()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00704">ClientCommand_macro_usage()</a>, <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00163">CommonCommand_macro_command()</a>, <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00158">CommonCommand_macro_help()</a>, <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00173">CommonCommand_macro_usage()</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00140">MUTATOR_CALLHOOK</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00045">str2chr</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00050">SV_ParseClientCommand_floodcheck()</a>, and <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00024">tokenize_console</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00463">Ban_MaybeEnforceBanOnce()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00295">CheatCommand()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00048">chr2str</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a6cf402e8f370de9cb49d5d6d3ad38585">clientcommand()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00695">ClientCommand_macro_command()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00686">ClientCommand_macro_help()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00706">ClientCommand_macro_usage()</a>, <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00163">CommonCommand_macro_command()</a>, <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00158">CommonCommand_macro_help()</a>, <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00173">CommonCommand_macro_usage()</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00140">MUTATOR_CALLHOOK</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00045">str2chr</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00050">SV_ParseClientCommand_floodcheck()</a>, and <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00024">tokenize_console</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00487">bot_cmd_cc()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;{</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;    <span class="comment">// If invalid UTF-8, don&#39;t even parse it</span></div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    <span class="keywordtype">string</span> command2 = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;    <span class="keywordtype">float</span> len = <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(command);</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    <span class="keywordtype">float</span> i;</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; len; ++i)</div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;        command2 = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(command2, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313">chr2str</a>(<a class="code" href="../../d3/d9e/dpextensions_8qh.html#a03da3a537f9764333e85cbed8b52f4e4">str2chr</a>(command, i)));</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    <span class="keywordflow">if</span> (command != command2) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;    <span class="comment">// if we&#39;re banned, don&#39;t even parse the command</span></div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d95/ipban_8qc.html#a6ede5b06f1e06fc0c51303e19be81bba">Ban_MaybeEnforceBanOnce</a>(<span class="keyword">this</span>)) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;    <span class="keywordtype">float</span> argc = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a>(command);</div>
+<div class="fragment"><div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;{</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;    <span class="comment">// If invalid UTF-8, don&#39;t even parse it</span></div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    <span class="keywordtype">string</span> command2 = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;    <span class="keywordtype">float</span> len = <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(command);</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    <span class="keywordtype">float</span> i;</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; len; ++i)</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;        command2 = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(command2, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313">chr2str</a>(<a class="code" href="../../d3/d9e/dpextensions_8qh.html#a03da3a537f9764333e85cbed8b52f4e4">str2chr</a>(command, i)));</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;    <span class="keywordflow">if</span> (command != command2) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;    <span class="comment">// if we&#39;re banned, don&#39;t even parse the command</span></div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d95/ipban_8qc.html#a6ede5b06f1e06fc0c51303e19be81bba">Ban_MaybeEnforceBanOnce</a>(<span class="keyword">this</span>)) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;</div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;    <span class="comment">// Guide for working with argc arguments by example:</span></div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;    <span class="comment">// argc:   1    - 2      - 3     - 4</span></div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;    <span class="comment">// argv:   0    - 1      - 2     - 3</span></div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    <span class="comment">// cmd     vote - master - login - password</span></div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;</div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;    <span class="comment">// for floodcheck</span></div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;    <span class="keywordflow">switch</span> (strtolower(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0)))</div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;    {</div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;        <span class="comment">// exempt commands which are not subject to floodcheck</span></div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;begin&quot;</span>: <span class="keywordflow">break</span>;                               <span class="comment">// handled by engine in host_cmd.c</span></div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;download&quot;</span>: <span class="keywordflow">break</span>;                            <span class="comment">// handled by engine in cl_parse.c</span></div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;mv_getpicture&quot;</span>: <span class="keywordflow">break</span>;                       <span class="comment">// handled by server in this file</span></div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;pause&quot;</span>: <span class="keywordflow">break</span>;                               <span class="comment">// handled by engine in host_cmd.c</span></div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;prespawn&quot;</span>: <span class="keywordflow">break</span>;                            <span class="comment">// handled by engine in host_cmd.c</span></div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;sentcvar&quot;</span>: <span class="keywordflow">break</span>;                            <span class="comment">// handled by server in this file</span></div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;spawn&quot;</span>: <span class="keywordflow">break</span>;                               <span class="comment">// handled by engine in host_cmd.c</span></div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;c2s&quot;</span>: Net_ClientCommand(<span class="keyword">this</span>, command); <span class="keywordflow">return</span>; <span class="comment">// handled by net.qh</span></div>
-<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665">SV_ParseClientCommand_floodcheck</a>(<span class="keyword">this</span>)) <span class="keywordflow">break</span>; <span class="comment">// &quot;true&quot;: continue, as we&#39;re not flooding yet</span></div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">return</span>;                                   <span class="comment">// &quot;false&quot;: not allowed to continue, halt // print(&quot;^1ERROR: ^7ANTISPAM CAUGHT: &quot;, command, &quot;.\n&quot;);</span></div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;    }</div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;</div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;    <span class="comment">/* NOTE: should this be disabled? It can be spammy perhaps, but hopefully it&#39;s okay for now */</span></div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0) == <span class="stringliteral">&quot;help&quot;</span>)</div>
-<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;    {</div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;        <span class="keywordflow">if</span> (argc == 1)</div>
-<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;        {</div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;\nClient networked commands:\n&quot;</span>);</div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;            <a class="code" href="../../d8/d1d/cmd_8qc.html#a65afa177bc34e899ac2ea54945c1ee86">ClientCommand_macro_help</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;</div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;\nCommon networked commands:\n&quot;</span>);</div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;            <a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a0f6cca326c712137b206f943a0024623">CommonCommand_macro_help</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;</div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;\nUsage:^3 cmd COMMAND...^7, where possible commands are listed above.\n&quot;</span>);</div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;For help about a specific command, type cmd help COMMAND\n&quot;</span>);</div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;        }</div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a54b86f9396c2cbcda360e9a4a094623d">CommonCommand_macro_usage</a>(argc, <span class="keyword">this</span>))  <span class="comment">// Instead of trying to call a command, we&#39;re going to see detailed information about it</span></div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;        {</div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;        }</div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d8/d1d/cmd_8qc.html#a4fb145382b84a87b70fa81a18d36c20e">ClientCommand_macro_usage</a>(argc, <span class="keyword">this</span>))  <span class="comment">// same, but for normal commands now</span></div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;        {</div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;        }</div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;    }</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(<a class="code" href="../../d8/d1d/cmd_8qc.html#a67c2dd926692b0635c83bcef05983b3b">SV_ParseClientCommand</a>, <span class="keyword">this</span>, strtolower(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0)), argc, command))</div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;    {</div>
-<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;        <span class="keywordflow">return</span>;  <span class="comment">// handled by a mutator</span></div>
-<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;    }</div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d6/de9/cheats_8qc.html#a1549477544784a0c7e5134dbd72b3a28">CheatCommand</a>(<span class="keyword">this</span>, argc))</div>
-<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;    {</div>
-<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;        <span class="keywordflow">return</span>;  <span class="comment">// handled by server/cheats.qc</span></div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;    }</div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a50d98a59def9baf2a4bee69ec4e2f00a">CommonCommand_macro_command</a>(argc, <span class="keyword">this</span>, command))</div>
-<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;    {</div>
-<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;        <span class="keywordflow">return</span>;                                          <span class="comment">// handled by server/command/common.qc</span></div>
-<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;    }</div>
-<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d8/d1d/cmd_8qc.html#a5815206ccad62aeced686cc92a2763cc">ClientCommand_macro_command</a>(argc, <span class="keyword">this</span>, command)) <span class="comment">// continue as usual and scan for normal commands</span></div>
-<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;    {</div>
-<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;        <span class="keywordflow">return</span>;                                          <span class="comment">// handled by one of the above ClientCommand_* functions</span></div>
-<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;    }</div>
-<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;    {</div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a6cf402e8f370de9cb49d5d6d3ad38585">clientcommand</a>(<span class="keyword">this</span>, command);</div>
-<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;    }</div>
-<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;}</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;    <span class="keywordtype">float</span> argc = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a>(command);</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;    <span class="comment">// Guide for working with argc arguments by example:</span></div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    <span class="comment">// argc:   1    - 2      - 3     - 4</span></div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;    <span class="comment">// argv:   0    - 1      - 2     - 3</span></div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;    <span class="comment">// cmd     vote - master - login - password</span></div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;    <span class="comment">// for floodcheck</span></div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;    <span class="keywordflow">switch</span> (strtolower(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0)))</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;    {</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;        <span class="comment">// exempt commands which are not subject to floodcheck</span></div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;begin&quot;</span>: <span class="keywordflow">break</span>;                               <span class="comment">// handled by engine in host_cmd.c</span></div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;download&quot;</span>: <span class="keywordflow">break</span>;                            <span class="comment">// handled by engine in cl_parse.c</span></div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;mv_getpicture&quot;</span>: <span class="keywordflow">break</span>;                       <span class="comment">// handled by server in this file</span></div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;pause&quot;</span>: <span class="keywordflow">break</span>;                               <span class="comment">// handled by engine in host_cmd.c</span></div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;prespawn&quot;</span>: <span class="keywordflow">break</span>;                            <span class="comment">// handled by engine in host_cmd.c</span></div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;sentcvar&quot;</span>: <span class="keywordflow">break</span>;                            <span class="comment">// handled by server in this file</span></div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;spawn&quot;</span>: <span class="keywordflow">break</span>;                               <span class="comment">// handled by engine in host_cmd.c</span></div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;c2s&quot;</span>: Net_ClientCommand(<span class="keyword">this</span>, command); <span class="keywordflow">return</span>; <span class="comment">// handled by net.qh</span></div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665">SV_ParseClientCommand_floodcheck</a>(<span class="keyword">this</span>)) <span class="keywordflow">break</span>; <span class="comment">// &quot;true&quot;: continue, as we&#39;re not flooding yet</span></div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">return</span>;                                   <span class="comment">// &quot;false&quot;: not allowed to continue, halt // print(&quot;^1ERROR: ^7ANTISPAM CAUGHT: &quot;, command, &quot;.\n&quot;);</span></div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;    }</div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;    <span class="comment">/* NOTE: should this be disabled? It can be spammy perhaps, but hopefully it&#39;s okay for now */</span></div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0) == <span class="stringliteral">&quot;help&quot;</span>)</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;    {</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;        <span class="keywordflow">if</span> (argc == 1)</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;        {</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;\nClient networked commands:\n&quot;</span>);</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;            <a class="code" href="../../d8/d1d/cmd_8qc.html#a65afa177bc34e899ac2ea54945c1ee86">ClientCommand_macro_help</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;</div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;\nCommon networked commands:\n&quot;</span>);</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;            <a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a0f6cca326c712137b206f943a0024623">CommonCommand_macro_help</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;\nUsage:^3 cmd COMMAND...^7, where possible commands are listed above.\n&quot;</span>);</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;For help about a specific command, type cmd help COMMAND\n&quot;</span>);</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;        }</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a54b86f9396c2cbcda360e9a4a094623d">CommonCommand_macro_usage</a>(argc, <span class="keyword">this</span>))  <span class="comment">// Instead of trying to call a command, we&#39;re going to see detailed information about it</span></div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;        {</div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;        }</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d8/d1d/cmd_8qc.html#a4fb145382b84a87b70fa81a18d36c20e">ClientCommand_macro_usage</a>(argc, <span class="keyword">this</span>))  <span class="comment">// same, but for normal commands now</span></div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;        {</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;        }</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;    }</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(<a class="code" href="../../d8/d1d/cmd_8qc.html#a67c2dd926692b0635c83bcef05983b3b">SV_ParseClientCommand</a>, <span class="keyword">this</span>, strtolower(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0)), argc, command))</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;    {</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;        <span class="keywordflow">return</span>;  <span class="comment">// handled by a mutator</span></div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;    }</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d6/de9/cheats_8qc.html#a1549477544784a0c7e5134dbd72b3a28">CheatCommand</a>(<span class="keyword">this</span>, argc))</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;    {</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;        <span class="keywordflow">return</span>;  <span class="comment">// handled by server/cheats.qc</span></div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;    }</div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a50d98a59def9baf2a4bee69ec4e2f00a">CommonCommand_macro_command</a>(argc, <span class="keyword">this</span>, command))</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;    {</div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;        <span class="keywordflow">return</span>;                                          <span class="comment">// handled by server/command/common.qc</span></div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;    }</div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d8/d1d/cmd_8qc.html#a5815206ccad62aeced686cc92a2763cc">ClientCommand_macro_command</a>(argc, <span class="keyword">this</span>, command)) <span class="comment">// continue as usual and scan for normal commands</span></div>
+<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;    {</div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;        <span class="keywordflow">return</span>;                                          <span class="comment">// handled by one of the above ClientCommand_* functions</span></div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;    }</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;    {</div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a6cf402e8f370de9cb49d5d6d3ad38585">clientcommand</a>(<span class="keyword">this</span>, command);</div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;    }</div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;}</div>
 <div class="ttc" id="cmd_8qc_html_a098fbb3a55e2991037cb6f12ef1e3665"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665">SV_ParseClientCommand_floodcheck</a></div><div class="ttdeci">bool SV_ParseClientCommand_floodcheck(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00050">cmd.qc:50</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a6cf402e8f370de9cb49d5d6d3ad38585"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6cf402e8f370de9cb49d5d6d3ad38585">clientcommand</a></div><div class="ttdeci">void clientcommand(float client, string s)</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a03da3a537f9764333e85cbed8b52f4e4"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a03da3a537f9764333e85cbed8b52f4e4">str2chr</a></div><div class="ttdeci">#define str2chr</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00045">dpextensions.qh:45</a></div></div>
-<div class="ttc" id="cmd_8qc_html_a65afa177bc34e899ac2ea54945c1ee86"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#a65afa177bc34e899ac2ea54945c1ee86">ClientCommand_macro_help</a></div><div class="ttdeci">void ClientCommand_macro_help(entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00684">cmd.qc:684</a></div></div>
+<div class="ttc" id="cmd_8qc_html_a65afa177bc34e899ac2ea54945c1ee86"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#a65afa177bc34e899ac2ea54945c1ee86">ClientCommand_macro_help</a></div><div class="ttdeci">void ClientCommand_macro_help(entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00686">cmd.qc:686</a></div></div>
 <div class="ttc" id="server_2command_2common_8qh_html_a50d98a59def9baf2a4bee69ec4e2f00a"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html#a50d98a59def9baf2a4bee69ec4e2f00a">CommonCommand_macro_command</a></div><div class="ttdeci">float CommonCommand_macro_command(float argc, entity caller, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d06/server_2command_2common_8qh_source.html#l00163">common.qh:163</a></div></div>
 <div class="ttc" id="server_2command_2common_8qh_html_a0f6cca326c712137b206f943a0024623"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html#a0f6cca326c712137b206f943a0024623">CommonCommand_macro_help</a></div><div class="ttdeci">void CommonCommand_macro_help(entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d06/server_2command_2common_8qh_source.html#l00158">common.qh:158</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
-<div class="ttc" id="cmd_8qc_html_a67c2dd926692b0635c83bcef05983b3b"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#a67c2dd926692b0635c83bcef05983b3b">SV_ParseClientCommand</a></div><div class="ttdeci">void SV_ParseClientCommand(entity this, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00729">cmd.qc:729</a></div></div>
+<div class="ttc" id="cmd_8qc_html_a67c2dd926692b0635c83bcef05983b3b"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#a67c2dd926692b0635c83bcef05983b3b">SV_ParseClientCommand</a></div><div class="ttdeci">void SV_ParseClientCommand(entity this, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00731">cmd.qc:731</a></div></div>
 <div class="ttc" id="server_2command_2common_8qh_html_a54b86f9396c2cbcda360e9a4a094623d"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html#a54b86f9396c2cbcda360e9a4a094623d">CommonCommand_macro_usage</a></div><div class="ttdeci">float CommonCommand_macro_usage(float argc, entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d06/server_2command_2common_8qh_source.html#l00173">common.qh:173</a></div></div>
 <div class="ttc" id="ipban_8qc_html_a6ede5b06f1e06fc0c51303e19be81bba"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#a6ede5b06f1e06fc0c51303e19be81bba">Ban_MaybeEnforceBanOnce</a></div><div class="ttdeci">bool Ban_MaybeEnforceBanOnce(entity client)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00463">ipban.qc:463</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
-<div class="ttc" id="cmd_8qc_html_a5815206ccad62aeced686cc92a2763cc"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#a5815206ccad62aeced686cc92a2763cc">ClientCommand_macro_command</a></div><div class="ttdeci">float ClientCommand_macro_command(float argc, entity caller, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00693">cmd.qc:693</a></div></div>
+<div class="ttc" id="cmd_8qc_html_a5815206ccad62aeced686cc92a2763cc"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#a5815206ccad62aeced686cc92a2763cc">ClientCommand_macro_command</a></div><div class="ttdeci">float ClientCommand_macro_command(float argc, entity caller, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00695">cmd.qc:695</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a43f26093a7cb03b412dedf6c6b36eed8"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a></div><div class="ttdeci">#define tokenize_console</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00024">dpextensions.qh:24</a></div></div>
 <div class="ttc" id="base_8qh_html_a293be81bad1a89950f06a4a593a8cb75"><div class="ttname"><a href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a></div><div class="ttdeci">#define MUTATOR_CALLHOOK(id,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00140">base.qh:140</a></div></div>
 <div class="ttc" id="cheats_8qc_html_a1549477544784a0c7e5134dbd72b3a28"><div class="ttname"><a href="../../d6/de9/cheats_8qc.html#a1549477544784a0c7e5134dbd72b3a28">CheatCommand</a></div><div class="ttdeci">float CheatCommand(entity this, int argc)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de9/cheats_8qc_source.html#l00295">cheats.qc:295</a></div></div>
 <div class="ttc" id="dpextensions_8qh_html_ae2a42f6d1c36b2c22e0cd67f761f2313"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313">chr2str</a></div><div class="ttdeci">#define chr2str</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00048">dpextensions.qh:48</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a4ae54ed78d55acc008e6fcf8c72e779f"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a></div><div class="ttdeci">void sprint(float clientnum, string text,...)</div></div>
-<div class="ttc" id="cmd_8qc_html_a4fb145382b84a87b70fa81a18d36c20e"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#a4fb145382b84a87b70fa81a18d36c20e">ClientCommand_macro_usage</a></div><div class="ttdeci">float ClientCommand_macro_usage(float argc, entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00704">cmd.qc:704</a></div></div>
+<div class="ttc" id="cmd_8qc_html_a4fb145382b84a87b70fa81a18d36c20e"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#a4fb145382b84a87b70fa81a18d36c20e">ClientCommand_macro_usage</a></div><div class="ttdeci">float ClientCommand_macro_usage(float argc, entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00706">cmd.qc:706</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -2506,7 +2508,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00279">autocvar_sv_clientcommand_antispam_count</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00278">autocvar_sv_clientcommand_antispam_time</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00013">IS_CLIENT</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00052">timeout_status</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00729">SV_ParseClientCommand()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00731">SV_ParseClientCommand()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> store = <a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(<span class="keyword">this</span>) ? <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(<span class="keyword">this</span>) : <a class="code" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>; <span class="comment">// unfortunately, we need to store these on the client initially</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
@@ -2577,7 +2579,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d8/d1d/cmd_8qc.html">cmd.qc</a></li>
-    <li class="footer">Generated on Thu Apr 5 2018 09:34:03 for Xonotic by
+    <li class="footer">Generated on Fri Apr 6 2018 11:59:56 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
