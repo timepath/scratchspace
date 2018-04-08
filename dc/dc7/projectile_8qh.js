@@ -1,6 +1,6 @@
 var projectile_8qh =
 [
-    [ "class", "dc/dc7/projectile_8qh.html#a6ac54cd80224a0c91171e2c86bc45da5", null ],
+    [ "classfield", "dc/dc7/projectile_8qh.html#af1273560a4cf63ca0be503a6aea2ab96", null ],
     [ "Ent_RemoveProjectile", "dc/dc7/projectile_8qh.html#aa0569f1b060229bf8b6d0c13b4dff8f1", null ],
     [ "entityclass", "dc/dc7/projectile_8qh.html#aa5528b043b7938fa1b8f8cd1a43969a5", null ],
     [ "loopsound", "dc/dc7/projectile_8qh.html#a9f8c39b72e4cac7db813d64f6b47da53", null ],

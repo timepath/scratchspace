@@ -2,8 +2,6 @@ var classSpectator =
 [
     [ "Spectator", "d1/d48/classSpectator.html#a941b4b8ae00280b5e57dd1c7b3436494", null ],
     [ "~Spectator", "d1/d48/classSpectator.html#a0073212531574d7fef41bb74d94dc951", null ],
-    [ "describe", "d1/d48/classSpectator.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
-    [ "display", "d1/d48/classSpectator.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "m_unwind", "d1/d48/classSpectator.html#ae355958a385e61face4d5c090fd1b4ec", null ],
     [ "STATIC_METHOD", "d1/d48/classSpectator.html#a348fa10d11efdf527c16c2c6e1a018f1", null ],
     [ "STATIC_METHOD", "d1/d48/classSpectator.html#acae2b38889ee923ef5cab012e05aaac5", null ],

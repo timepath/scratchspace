@@ -1,6 +1,6 @@
 var player__skeleton_8qh =
 [
-    [ "class", "d0/ddf/player__skeleton_8qh.html#a0b34ff15a6faa6b53c8c89f8cc13c19b", null ],
+    [ "classfield", "d0/ddf/player__skeleton_8qh.html#a1f69a8a19f24e9310085490a184b9ba4", null ],
     [ "entityclass", "d0/ddf/player__skeleton_8qh.html#a535d9510a6042c3be3bfc1c896006f53", null ],
     [ "free_skeleton_from_frames", "d0/ddf/player__skeleton_8qh.html#ae34e60c32bc60eebb73851ebe508b3ed", null ],
     [ "skeleton_from_frames", "d0/ddf/player__skeleton_8qh.html#a534e6d446262b5f6cedb96f0f1b5c295", null ],

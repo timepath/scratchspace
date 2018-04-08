@@ -30,7 +30,7 @@ var mathlib_8qc =
     [ "isnan", "df/d38/mathlib_8qc.html#afe32feb3c1304770bb6f915da468879e", null ],
     [ "isnormal", "df/d38/mathlib_8qc.html#a6a8a7c048a7f9a645c6938e21fad4796", null ],
     [ "isunordered", "df/d38/mathlib_8qc.html#a8be76afcfbbcde7f6168466db0e03437", null ],
-    [ "ldexp", "df/d38/mathlib_8qc.html#a28ae78c9ba7098d2b372dde22229b733", null ],
+    [ "ldexp", "df/d38/mathlib_8qc.html#a90381e2538fbcc8e6c1f75b1831c7846", null ],
     [ "lgamma", "df/d38/mathlib_8qc.html#a659c66483cd7c3631f185f4fbd45affb", null ],
     [ "log10", "df/d38/mathlib_8qc.html#a78694f207dbd1c20883880487c2db48f", null ],
     [ "log1p", "df/d38/mathlib_8qc.html#a55ec15e84426bbd85f3a90829735f424", null ],

@@ -9,8 +9,6 @@ var classKeyframe =
     [ "ATTRIB", "db/d38/classKeyframe.html#a689e8f596580507473b40b0ec845db12", null ],
     [ "calcValue", "db/d38/classKeyframe.html#a6a90f15dcd9be99cd2bd28f58406ff1f", null ],
     [ "configureAnimation", "db/d38/classKeyframe.html#a40b67a793158c23b585259d981179aa9", null ],
-    [ "describe", "db/d38/classKeyframe.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
-    [ "display", "db/d38/classKeyframe.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "finishAnim", "db/d38/classKeyframe.html#ae5ec27b5e1379289711f0a6622b2e3d1", null ],
     [ "isFinished", "db/d38/classKeyframe.html#aa6e16703a9ed273909987ec74832b338", null ],
     [ "isStopped", "db/d38/classKeyframe.html#a35d256dec4315ec50c1d2ea82f0d7ca1", null ],

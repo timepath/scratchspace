@@ -160,7 +160,7 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">                REGISTRY_RESERVE(Stats, m_id, STAT_##id, z); \</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">            } \</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">        } \</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">        [[accumulate]] void stats_get() \</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">        ACCUMULATE void stats_get() \</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">        { \</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">            T it = getstat_##T(STAT_##id.m_id); \</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">            </span><span class="comment">/* if (it != CAT(_STAT(id), _prev)) \</span></div>
@@ -217,7 +217,7 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">                REGISTRY_RESERVE(Stats, m_id, STAT_##id, z); \</span></div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">            } \</span></div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor">        } \</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">        [[accumulate]] void stats_add() \</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">        ACCUMULATE void stats_add() \</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor">        { \</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">            .T fld = _STAT(id); \</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">            addstat_##T(STAT_##id.m_id, fld); \</span></div>
@@ -225,7 +225,7 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">void</span> GlobalStats_update(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>) {}</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">    #define REGISTER_STAT_3(id, T, expr) \</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor">        REGISTER_STAT_2(id, T); \</span></div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">        [[accumulate]] void GlobalStats_update(entity this) { STAT(id, this) = (expr); } \</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">        ACCUMULATE void GlobalStats_update(entity this) { STAT(id, this) = (expr); } \</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor">        STATIC_INIT(worldstat_##id) { entity this = STATS; STAT(id, this) = (expr); }</span></div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="../../d0/ddd/lib_2stats_8qh.html#a0b0131c4067d628042068387ab92aae0">  126</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REGISTER_STAT_2(id, type)</span></div>
@@ -262,7 +262,7 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div class="ttc" id="lib_2stats_8qh_html_a2c651e70f251947fd915c2b9617ea4dd"><div class="ttname"><a href="../../d0/ddd/lib_2stats_8qh.html#a2c651e70f251947fd915c2b9617ea4dd">STATS_ENGINE_RESERVE</a></div><div class="ttdeci">const int STATS_ENGINE_RESERVE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/lib_2stats_8qh_source.html#l00011">stats.qh:11</a></div></div>
 <div class="ttc" id="registry_8qh_html"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html">registry.qh</a></div></div>
 <div class="ttc" id="lib_2stats_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/lib_2stats_8qh_source.html#l00008">stats.qh:8</a></div></div>
-<div class="ttc" id="lib_2__all_8inc_html_abe8eb52fc5e52351ecda2a477108abed"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#abe8eb52fc5e52351ecda2a477108abed">USING</a></div><div class="ttdeci">#define USING(name, T)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00052">_all.inc:52</a></div></div>
+<div class="ttc" id="lib_2__all_8inc_html_abe8eb52fc5e52351ecda2a477108abed"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#abe8eb52fc5e52351ecda2a477108abed">USING</a></div><div class="ttdeci">#define USING(name, T)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00072">_all.inc:72</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -270,7 +270,7 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d0/ddd/lib_2stats_8qh.html">stats.qh</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 05:14:45 for Xonotic by
+    <li class="footer">Generated on Sun Apr 8 2018 11:02:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

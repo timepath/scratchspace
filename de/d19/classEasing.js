@@ -4,8 +4,6 @@ var classEasing =
     [ "ATTRIB", "de/d19/classEasing.html#a689e8f596580507473b40b0ec845db12", null ],
     [ "calcValue", "de/d19/classEasing.html#afe3aec81d866360b96939a59b2bb2ea8", null ],
     [ "configureAnimation", "de/d19/classEasing.html#a40b67a793158c23b585259d981179aa9", null ],
-    [ "describe", "de/d19/classEasing.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
-    [ "display", "de/d19/classEasing.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "finishAnim", "de/d19/classEasing.html#ae5ec27b5e1379289711f0a6622b2e3d1", null ],
     [ "float", "de/d19/classEasing.html#a681da301527ef3577d25202f35f7c43f", null ],
     [ "isFinished", "de/d19/classEasing.html#aa6e16703a9ed273909987ec74832b338", null ],

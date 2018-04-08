@@ -1,6 +1,6 @@
 var noise_8qh =
 [
-    [ "class", "dd/dc6/noise_8qh.html#a3de80ab77ec38bb0cfd8723e4738cdfa", null ],
+    [ "classfield", "dd/dc6/noise_8qh.html#ac420e8edbedc11c6281fdbabd1d8aef3", null ],
     [ "entityclass", "dd/dc6/noise_8qh.html#a78442b1d57388d757887677bf9f2cf91", null ],
     [ "Noise_Brown", "dd/dc6/noise_8qh.html#a6198ab3dc83c54cf64d5271965dedc55", null ],
     [ "Noise_Burst", "dd/dc6/noise_8qh.html#ac22c4974b348a9f7242684cbc5c50534", null ],

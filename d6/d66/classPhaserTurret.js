@@ -5,7 +5,6 @@ var classPhaserTurret =
     [ "ATTRIB", "d6/d66/classPhaserTurret.html#a3f55a0540df468e6f0406b2907921e9a", null ],
     [ "ATTRIB", "d6/d66/classPhaserTurret.html#ae1a47aa50246561c44f593e7af3ad1ce", null ],
     [ "ATTRIB", "d6/d66/classPhaserTurret.html#aeeb1a28cda1a5dae7141feea2887475f", null ],
-    [ "describe", "d6/d66/classPhaserTurret.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d6/d66/classPhaserTurret.html#a138adca099fbd117101fe56edb53d8aa", null ],
     [ "tr_config", "d6/d66/classPhaserTurret.html#ab9ce986163a0f0e24e84166491f0fe7f", null ],
     [ "tr_death", "d6/d66/classPhaserTurret.html#a56e07d5aa23850f9cc9cd5eaa68f0880", null ],

@@ -1,5 +1,7 @@
 var lib_2__all_8inc =
 [
+    [ "ACCUMULATE", "d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885", null ],
+    [ "ALIAS", "d4/dfb/lib_2__all_8inc.html#a8ebdbf4e7e8e2ca95661897b3acf1b48", null ],
     [ "bool", "d4/dfb/lib_2__all_8inc.html#abb452686968e48b67397da5f97445f5b", null ],
     [ "COMPAT_NO_MOD_IS_XONOTIC", "d4/dfb/lib_2__all_8inc.html#ab58942eb88cb33653ba58614e59bff00", null ],
     [ "ERASEABLE", "d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121", null ],
@@ -16,6 +18,7 @@ var lib_2__all_8inc =
     [ "isnt_vector", "d4/dfb/lib_2__all_8inc.html#abb51df5f207298185d644b9dec6e5e8e", null ],
     [ "objerror", "d4/dfb/lib_2__all_8inc.html#aa355d14312871eb0e1d9c34d952224ef", null ],
     [ "objerror_safe", "d4/dfb/lib_2__all_8inc.html#ae32529f2cf1b849ec0ac1fadb12c898c", null ],
+    [ "pow", "d4/dfb/lib_2__all_8inc.html#aa391d511789e8a504009e65ff2903c9d", null ],
     [ "TC", "d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b", null ],
     [ "USING", "d4/dfb/lib_2__all_8inc.html#abe8eb52fc5e52351ecda2a477108abed", null ],
     [ "is_bool", "d4/dfb/lib_2__all_8inc.html#aa2f1309e021da3dc804ea9f0529f3a57", null ],

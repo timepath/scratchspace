@@ -89,7 +89,7 @@ var annotated =
     [ "Nade", "d9/d61/classNade.html", "d9/d61/classNade" ],
     [ "NexBall", "dd/de4/classNexBall.html", "dd/de4/classNexBall" ],
     [ "Nexposee", "d8/d95/classNexposee.html", "d8/d95/classNexposee" ],
-    [ "Object", "d8/d4b/classObject.html", "d8/d4b/classObject" ],
+    [ "Object", "d8/d4b/classObject.html", null ],
     [ "Observer", "de/dab/classObserver.html", "de/dab/classObserver" ],
     [ "OffhandBlaster", "df/df7/classOffhandBlaster.html", "df/df7/classOffhandBlaster" ],
     [ "OffhandHook", "da/dde/classOffhandHook.html", "da/dde/classOffhandHook" ],

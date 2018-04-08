@@ -3,8 +3,6 @@ var classClient =
     [ "Client", "d1/d37/classClient.html#ae51af7aa6b8f591496a8f6a4a87a14bf", null ],
     [ "~Client", "d1/d37/classClient.html#a840e519ca781888cbd54181572ebe3a7", null ],
     [ "Client", "d1/d37/classClient.html#a62ec00483394e1de13111094b221921d", null ],
-    [ "describe", "d1/d37/classClient.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
-    [ "display", "d1/d37/classClient.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "m_unwind", "d1/d37/classClient.html#ae355958a385e61face4d5c090fd1b4ec", null ],
     [ "STATIC_METHOD", "d1/d37/classClient.html#a348fa10d11efdf527c16c2c6e1a018f1", null ],
     [ "STATIC_METHOD", "d1/d37/classClient.html#acae2b38889ee923ef5cab012e05aaac5", null ],

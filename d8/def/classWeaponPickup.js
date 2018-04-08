@@ -9,7 +9,6 @@ var classWeaponPickup =
     [ "ATTRIB", "d8/def/classWeaponPickup.html#ae2837b4f6a5aa28b58e452b5e6f200a4", null ],
     [ "ATTRIB", "d8/def/classWeaponPickup.html#a28b58ca43984b92fea01497173b18a46", null ],
     [ "ATTRIB", "d8/def/classWeaponPickup.html#a156dd5d76f64150cc323f580827ec3f1", null ],
-    [ "describe", "d8/def/classWeaponPickup.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d8/def/classWeaponPickup.html#a7357a3badf480bbfe18c110d15cbd2f8", null ],
     [ "ITEM_HANDLE", "d8/def/classWeaponPickup.html#a95e7f0cf091386e07ce2add2ab653934", null ],
     [ "m_spawnfunc_hookreplace", "d8/def/classWeaponPickup.html#ac88de49ea35f4990740cb804bbe94f28", null ],

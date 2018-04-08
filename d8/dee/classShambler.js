@@ -1,8 +1,6 @@
 var classShambler =
 [
     [ "ATTRIB", "d8/dee/classShambler.html#a1b84dbe029d909c54678e27a659c4793", null ],
-    [ "describe", "d8/dee/classShambler.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
-    [ "display", "d8/dee/classShambler.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "mr_anim", "d8/dee/classShambler.html#a98fd6d803cf7376820bb26fcbca5adbd", null ],
     [ "mr_death", "d8/dee/classShambler.html#a6dcca2c26e36342b5286873a74793cae", null ],
     [ "mr_pain", "d8/dee/classShambler.html#abbd3a53ddd2019b6933a9e40910cfc58", null ],

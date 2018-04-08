@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('d9/d48/lib_2net_8qh_source.html','../.
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REGISTER_NET_LINKED(id) \</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">        [[accumulate]] NET_HANDLE(id, bool isnew) \</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">        ACCUMULATE NET_HANDLE(id, bool isnew) \</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">        { \</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">            this = __self; \</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">            this.sourceLoc = __FILE__ &quot;:&quot; STR(__LINE__); \</span></div>
@@ -581,7 +581,7 @@ $(document).ready(function(){initNavTree('d9/d48/lib_2net_8qh_source.html','../.
 <div class="ttc" id="iter_8qh_html_a5f5c833a61297415c9aeb463ca5c2f84"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a5f5c833a61297415c9aeb463ca5c2f84">STRING_ITERATOR_SET</a></div><div class="ttdeci">#define STRING_ITERATOR_SET(this, s, i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00052">iter.qh:52</a></div></div>
 <div class="ttc" id="self_8qh_html_a60dde61404d8e446ac2ff0b455678262"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a60dde61404d8e446ac2ff0b455678262">sendflags</a></div><div class="ttdeci">entity int sendflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00096">self.qh:96</a></div></div>
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
-<div class="ttc" id="lib_2__all_8inc_html_abe8eb52fc5e52351ecda2a477108abed"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#abe8eb52fc5e52351ecda2a477108abed">USING</a></div><div class="ttdeci">#define USING(name, T)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00052">_all.inc:52</a></div></div>
+<div class="ttc" id="lib_2__all_8inc_html_abe8eb52fc5e52351ecda2a477108abed"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#abe8eb52fc5e52351ecda2a477108abed">USING</a></div><div class="ttdeci">#define USING(name, T)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00072">_all.inc:72</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a1147496d9185c4b54a3caa5424f088b8"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a1147496d9185c4b54a3caa5424f088b8">EF_NODEPTHTEST</a></div><div class="ttdeci">const int EF_NODEPTHTEST</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00069">csqc_constants.qh:69</a></div></div>
@@ -596,7 +596,7 @@ $(document).ready(function(){initNavTree('d9/d48/lib_2net_8qh_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d9/d48/lib_2net_8qh.html">net.qh</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 05:14:45 for Xonotic by
+    <li class="footer">Generated on Sun Apr 8 2018 11:02:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

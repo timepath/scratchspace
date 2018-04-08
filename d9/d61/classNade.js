@@ -1,6 +1,5 @@
 var classNade =
 [
-    [ "describe", "d9/d61/classNade.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d9/d61/classNade.html#a1da4e2143f74e475c1dfa909f1aaf76c", null ],
     [ "m_alpha", "d9/d61/classNade.html#a6f1d40acee811d95704d8389a505c11a", null ],
     [ "m_color", "d9/d61/classNade.html#a9268e47f75c2ef74b711e08258a87145", null ],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['_5f_5fself',['__self',['../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902',1,'self.qh']]],
   ['_5f_5fspawnfunc_5fexpect',['__spawnfunc_expect',['../da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd',1,'spawnfunc.qh']]],
   ['_5f_5fspawnfunc_5fexpecting',['__spawnfunc_expecting',['../da/d20/spawnfunc_8qh.html#ae93978bfef4efb8b9ae17161b5dbea51',1,'spawnfunc.qh']]],
   ['_5f_5fspawnfunc_5ffirst',['__spawnfunc_first',['../da/d20/spawnfunc_8qh.html#a3cc52b4571edcf33ca77ce7f224e04ab',1,'spawnfunc.qh']]],

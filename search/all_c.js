@@ -110,7 +110,7 @@ var searchData=
   ['lazy',['Lazy',['../d3/dde/classLazy.html',1,'Lazy'],['../d3/dde/classLazy.html#a8e68957fd15a62a0f197fda172dbb405',1,'Lazy::Lazy()'],['../d8/d0e/lazy_8qh.html#a1d51651b802a95d07a7a0406f8922476',1,'LAZY():&#160;lazy.qh']]],
   ['lazy_2eqh',['lazy.qh',['../d8/d0e/lazy_8qh.html',1,'']]],
   ['lazy_5fnew',['LAZY_NEW',['../d8/d0e/lazy_8qh.html#af1684a613a0e441d7b47b6cdc4dc878f',1,'lazy.qh']]],
-  ['ldexp',['ldexp',['../df/d38/mathlib_8qc.html#a28ae78c9ba7098d2b372dde22229b733',1,'ldexp(float e, int e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a28ae78c9ba7098d2b372dde22229b733',1,'ldexp(float e, int e):&#160;mathlib.qc']]],
+  ['ldexp',['ldexp',['../df/d38/mathlib_8qc.html#a90381e2538fbcc8e6c1f75b1831c7846',1,'ldexp(float x, int e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a28ae78c9ba7098d2b372dde22229b733',1,'ldexp(float e, int e):&#160;mathlib.qc']]],
   ['leaderfrags',['leaderfrags',['../db/dcc/g__world_8qc.html#ad2d2ac4fdacfc3e3274e8caa25ddfe95',1,'g_world.qc']]],
   ['leanmodel_5fofs',['leanmodel_ofs',['../d6/dd3/view_8qc.html#ac864cc822088f051704ed70a2f89224a',1,'view.qc']]],
   ['leavesubitem',['leaveSubitem',['../d0/d7b/classContainer.html#a01627abafc724fbbbb330e46f8331911',1,'Container']]],

@@ -6,7 +6,6 @@ var classShells =
     [ "ATTRIB", "d2/d15/classShells.html#a727d6f42f79f0bd5ffc674423645471c", null ],
     [ "ATTRIB", "d2/d15/classShells.html#a7d8cf6b7a18644fba549fe489903901d", null ],
     [ "ATTRIB", "d2/d15/classShells.html#ae2837b4f6a5aa28b58e452b5e6f200a4", null ],
-    [ "describe", "d2/d15/classShells.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d2/d15/classShells.html#a7357a3badf480bbfe18c110d15cbd2f8", null ],
     [ "ITEM_HANDLE", "d2/d15/classShells.html#a95e7f0cf091386e07ce2add2ab653934", null ],
     [ "m_spawnfunc_hookreplace", "d2/d15/classShells.html#ac88de49ea35f4990740cb804bbe94f28", null ],

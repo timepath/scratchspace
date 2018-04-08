@@ -4,8 +4,6 @@ var classAnimation =
     [ "ATTRIB", "d0/d5d/classAnimation.html#a689e8f596580507473b40b0ec845db12", null ],
     [ "calcValue", "d0/d5d/classAnimation.html#a15c8e3e415be9db002e2dd640c070c6c", null ],
     [ "configureAnimation", "d0/d5d/classAnimation.html#a40b67a793158c23b585259d981179aa9", null ],
-    [ "describe", "d0/d5d/classAnimation.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
-    [ "display", "d0/d5d/classAnimation.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "finishAnim", "d0/d5d/classAnimation.html#ae5ec27b5e1379289711f0a6622b2e3d1", null ],
     [ "isFinished", "d0/d5d/classAnimation.html#aa6e16703a9ed273909987ec74832b338", null ],
     [ "isStopped", "d0/d5d/classAnimation.html#a35d256dec4315ec50c1d2ea82f0d7ca1", null ],

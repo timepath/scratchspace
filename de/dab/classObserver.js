@@ -2,8 +2,6 @@ var classObserver =
 [
     [ "Observer", "de/dab/classObserver.html#a19c43f80a38a332a6f694783df3c9835", null ],
     [ "~Observer", "de/dab/classObserver.html#a450645e61c136826f09940a1334c7f34", null ],
-    [ "describe", "de/dab/classObserver.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
-    [ "display", "de/dab/classObserver.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "m_unwind", "de/dab/classObserver.html#ae355958a385e61face4d5c090fd1b4ec", null ],
     [ "STATIC_METHOD", "de/dab/classObserver.html#a348fa10d11efdf527c16c2c6e1a018f1", null ],
     [ "STATIC_METHOD", "de/dab/classObserver.html#acae2b38889ee923ef5cab012e05aaac5", null ],

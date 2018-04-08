@@ -3,7 +3,6 @@ var classMachineGunTurretAttack =
     [ "ATTRIB", "d7/d9c/classMachineGunTurretAttack.html#a7515d4131829927372fd6583d4ae610a", null ],
     [ "ATTRIB", "d7/d9c/classMachineGunTurretAttack.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "d7/d9c/classMachineGunTurretAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
-    [ "describe", "d7/d9c/classMachineGunTurretAttack.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d7/d9c/classMachineGunTurretAttack.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "m_spawnfunc_hookreplace", "d7/d9c/classMachineGunTurretAttack.html#a312755d5709b880f99cf89d7a76237fe", null ],
     [ "wr_aim", "d7/d9c/classMachineGunTurretAttack.html#a80fa9a65e19370473a29baebc04d0626", null ],

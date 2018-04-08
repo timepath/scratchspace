@@ -2,8 +2,6 @@ var classPlayer =
 [
     [ "Player", "d2/d4b/classPlayer.html#affe0cc3cb714f6deb4e62f0c0d3f1fd8", null ],
     [ "~Player", "d2/d4b/classPlayer.html#a749d2c00e1fe0f5c2746f7505a58c062", null ],
-    [ "describe", "d2/d4b/classPlayer.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
-    [ "display", "d2/d4b/classPlayer.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "m_unwind", "d2/d4b/classPlayer.html#ae355958a385e61face4d5c090fd1b4ec", null ],
     [ "STATIC_METHOD", "d2/d4b/classPlayer.html#a348fa10d11efdf527c16c2c6e1a018f1", null ],
     [ "STATIC_METHOD", "d2/d4b/classPlayer.html#acae2b38889ee923ef5cab012e05aaac5", null ],

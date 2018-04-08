@@ -2,7 +2,7 @@ var g__models_8qc =
 [
     [ "G_CLIENTMODEL_INIT", "d2/d37/g__models_8qc.html#a1f3cb3cf31f421ce11e8e8640abdf325", null ],
     [ "G_MODEL_INIT", "d2/d37/g__models_8qc.html#ab459216fcebc7525f7d7926f3edde13d", null ],
-    [ "class", "d2/d37/g__models_8qc.html#a60140a7d269e136822cf5ca494cc7d42", null ],
+    [ "classfield", "d2/d37/g__models_8qc.html#a63eb389bb05182428e5fa83c4786914a", null ],
     [ "entityclass", "d2/d37/g__models_8qc.html#a9120ce405f8dde05592f4869794f8fee", null ],
     [ "g_clientmodel_dropbyspawnflags", "d2/d37/g__models_8qc.html#a8f6ff5dd95a4bace5171e558b07e4068", null ],
     [ "g_clientmodel_genericsendentity", "d2/d37/g__models_8qc.html#ac3f7f42414cccfe114ad8a582ee8a7bf", null ],

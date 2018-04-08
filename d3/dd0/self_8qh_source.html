@@ -119,8 +119,8 @@ $(document).ready(function(){initNavTree('d3/dd0/self_8qh_source.html','../../')
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">// Step 2: const self</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#if 1</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define self (RVALUE, self)</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">   15</a></span>&#160;<span class="preprocessor"></span>    [[alias(<span class="stringliteral">&quot;self&quot;</span>)]] <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">   16</a></span>&#160;<span class="preprocessor">    #define setself(s) (__self = s)</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d3/dd0/self_8qh.html#a51a0f75eaf48f2963db693da728beec9">ALIAS</a>(<span class="stringliteral">&quot;self&quot;</span>) <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> __self;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">   16</a></span>&#160;    <span class="preprocessor">#define setself(s) (__self = s)</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">   17</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define WITHSELF(value, block) WITH(entity, __self, value, (RVALUE, block))</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span></div>
@@ -222,10 +222,10 @@ $(document).ready(function(){initNavTree('d3/dd0/self_8qh_source.html','../../')
 <div class="ttc" id="macro_8qh_html"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html">macro.qh</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
-<div class="ttc" id="self_8qh_html_afbc5d1d66fe421c0d2eef50e8f8bf902"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a></div><div class="ttdeci">entity __self</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00015">self.qh:15</a></div></div>
 <div class="ttc" id="csprogsdefs_8qh_html_ae8f84b5fdb7c52b3ca5be2a8cb450545"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#ae8f84b5fdb7c52b3ca5be2a8cb450545">touch</a></div><div class="ttdeci">#define touch</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dde/csprogsdefs_8qh_source.html#l00045">csprogsdefs.qh:45</a></div></div>
 <div class="ttc" id="self_8qh_html_a60dde61404d8e446ac2ff0b455678262"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a60dde61404d8e446ac2ff0b455678262">sendflags</a></div><div class="ttdeci">entity int sendflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00096">self.qh:96</a></div></div>
 <div class="ttc" id="csprogsdefs_8qh_html_aeda5446032a08fece73ec569b861a72c"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c">use</a></div><div class="ttdeci">#define use</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dde/csprogsdefs_8qh_source.html#l00043">csprogsdefs.qh:43</a></div></div>
+<div class="ttc" id="self_8qh_html_a51a0f75eaf48f2963db693da728beec9"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a51a0f75eaf48f2963db693da728beec9">ALIAS</a></div><div class="ttdeci">ALIAS(&quot;self&quot;) entity __self</div></div>
 <div class="ttc" id="self_8qh_html_ace5065346de94dacc037daf771ec60ea"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ace5065346de94dacc037daf771ec60ea">_selftemp</a></div><div class="ttdeci">noref entity _selftemp</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00057">self.qh:57</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -233,7 +233,7 @@ $(document).ready(function(){initNavTree('d3/dd0/self_8qh_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d3/dd0/self_8qh.html">self.qh</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 05:14:47 for Xonotic by
+    <li class="footer">Generated on Sun Apr 8 2018 11:02:58 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

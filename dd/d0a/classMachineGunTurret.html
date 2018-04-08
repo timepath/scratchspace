@@ -144,8 +144,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae1a47aa50246561c44f593e7af3ad1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeb1a28cda1a5dae7141feea2887475f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/classTurret.html#aeeb1a28cda1a5dae7141feea2887475f">ATTRIB</a> (<a class="el" href="../../d2/d3d/classTurret.html">Turret</a>, <a class="el" href="../../dd/d0a/classMachineGunTurret.html#a6b7ea20bce905b65ee654a87ab41b9fb">m_weapon</a>, <a class="el" href="../../dc/de5/classWeapon.html">Weapon</a>)</td></tr>
 <tr class="separator:aeeb1a28cda1a5dae7141feea2887475f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f6d430c1456b7b9b3b128967e920acb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4b/classObject.html#a6f6d430c1456b7b9b3b128967e920acb">describe</a> ()</td></tr>
-<tr class="separator:a6f6d430c1456b7b9b3b128967e920acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a138adca099fbd117101fe56edb53d8aa"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/classTurret.html#a138adca099fbd117101fe56edb53d8aa">display</a> ()</td></tr>
 <tr class="separator:a138adca099fbd117101fe56edb53d8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9ce986163a0f0e24e84166491f0fe7f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/classTurret.html#ab9ce986163a0f0e24e84166491f0fe7f">tr_config</a> ()</td></tr>
@@ -399,61 +397,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6f6d430c1456b7b9b3b128967e920acb"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> Object::describe </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="../../de/d95/classEffectInfo.html#afd551afac097fdbeeabde98c8aa1bfc8">EffectInfo</a>, and <a class="el" href="../../d1/d6b/classGametype.html#ae6f43fb252cffabdcb79a863987a5683">Gametype</a>.</p>
-
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00291">291</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
-
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">TC</a>.</p>
-<div class="fragment"><div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    {</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        <span class="keywordtype">string</span> s = _(<span class="stringliteral">&quot;No description&quot;</span>);</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;developer&quot;</span>))</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        {</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, n = numentityfields(); i &lt; n; ++i)</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            {</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                <span class="keywordtype">string</span> value = getentityfieldstring(i, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                <span class="keywordflow">if</span> (value != <span class="stringliteral">&quot;&quot;</span>) s = sprintf(<span class="stringliteral">&quot;%s\n%s = %s&quot;</span>, s, entityfieldname(i), value);</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            }</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        }</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        <span class="keywordflow">return</span> s;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    }</div>
-<div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00288">oo.qh:288</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
-<div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">_all.inc:62</a></div></div>
-</div><!-- fragment -->
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d4b/classObject_a6f6d430c1456b7b9b3b128967e920acb_cgraph.svg" width="224" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
 <a class="anchor" id="a138adca099fbd117101fe56edb53d8aa"></a>
 <div class="memitem">
 <div class="memproto">
@@ -474,8 +417,6 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="../../d8/d4b/classObject.html#aa8bfcd32a594bb7d38143dce8b4ba8cf">Object</a>.</p>
 
 <p>Definition at line <a class="el" href="../../d9/d67/turret_8qh_source.html#l00025">25</a> of file <a class="el" href="../../d9/d67/turret_8qh_source.html">turret.qh</a>.</p>
 
@@ -796,7 +737,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d0a/classMachineGunTurret.html">MachineGunTurret</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 05:15:06 for Xonotic by
+    <li class="footer">Generated on Sun Apr 8 2018 11:03:17 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

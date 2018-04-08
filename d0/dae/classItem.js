@@ -2,9 +2,7 @@ var classItem =
 [
     [ "ATTRIB", "d0/dae/classItem.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
     [ "ATTRIB", "d0/dae/classItem.html#afdcf1fb79903f747cda494b27206526b", null ],
-    [ "describe", "d0/dae/classItem.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "destroy", "d0/dae/classItem.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e", null ],
-    [ "display", "d0/dae/classItem.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "draw", "d0/dae/classItem.html#aaecd1a365475c0274cd57e4b2a9ceae3", null ],
     [ "focusEnter", "d0/dae/classItem.html#a7bae0d38f79fe9ca14091c54f4cfa3e8", null ],
     [ "focusLeave", "d0/dae/classItem.html#a10f084ce6991717bfb4153928818feba", null ],
