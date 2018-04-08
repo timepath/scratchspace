@@ -1,5 +1,6 @@
 var NAVTREEINDEX89 =
 {
+"d9/de9/classListBox.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,71,17],
 "d9/de9/classListBox.html#a4be49d543d85613482474beeca3a9fbc":[1,0,71,66],
 "d9/de9/classListBox.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,71,52],
 "d9/de9/classListBox.html#a565f8d33b46815606f1860162d71339a":[1,0,71,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX89 =
 "da/d0b/common_2mutators_2mutator_2rocketflying_2__mod_8qh_source.html":[2,0,1,9,0,28,1],
 "da/d10/sv__vehicles_8qc.html":[2,0,1,15,7],
 "da/d10/sv__vehicles_8qc.html#a018387a690e307f5cc7fb250212d7eb5":[2,0,1,15,7,15],
-"da/d10/sv__vehicles_8qc.html#a092be05e296a14ac0cb1e22b3e0786d8":[2,0,1,15,7,24],
-"da/d10/sv__vehicles_8qc.html#a0c8f69e9962a7863d7d9a19fdd3bcb37":[2,0,1,15,7,38]
+"da/d10/sv__vehicles_8qc.html#a092be05e296a14ac0cb1e22b3e0786d8":[2,0,1,15,7,24]
 };

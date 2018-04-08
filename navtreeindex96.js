@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"da/ddd/ipban_8qh.html#af5400e642692dd6c542af18b03d9946f":[2,0,6,38,0],
 "da/ddd/ipban_8qh_source.html":[2,0,6,38],
 "da/dde/classOffhandHook.html":[1,0,92],
 "da/dde/classOffhandHook.html#a3eebb9e4c20d2c338b773a030eca0ee0":[1,0,92,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "db/d0a/oo_8qh.html#aa08dd8e94a38b6138c560dfa41facfb1":[2,0,4,39,36],
 "db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15":[2,0,4,39,5],
 "db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996":[2,0,4,39,52],
-"db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4":[2,0,4,39,46],
-"db/d0a/oo_8qh.html#aace0c7293aa8214ab7b12cc485520af7":[2,0,4,39,13]
+"db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4":[2,0,4,39,46]
 };

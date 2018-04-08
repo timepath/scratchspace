@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"da/d9c/classXonoticMonsterToolsDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,214,65],
 "da/d9c/classXonoticMonsterToolsDialog.html#aa4f052eae7c315deb0958e0d456e5806":[1,0,214,78],
 "da/d9c/classXonoticMonsterToolsDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,214,20],
 "da/d9c/classXonoticMonsterToolsDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,214,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "da/db7/weaponsystem_8qh.html#ad315ff4e6ee9693a54edb0d18efc9245":[2,0,6,5,21,1],
 "da/db7/weaponsystem_8qh_source.html":[2,0,6,5,21],
 "da/db8/pressedkeys_8qh.html":[2,0,0,1,0,25],
-"da/db8/pressedkeys_8qh_source.html":[2,0,0,1,0,25],
-"da/db9/common_2minigames_2minigame_2__mod_8qh.html":[2,0,1,6,0,1]
+"da/db8/pressedkeys_8qh_source.html":[2,0,0,1,0,25]
 };

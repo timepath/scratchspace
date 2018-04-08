@@ -747,23 +747,23 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../de/d95/classEffectInfo.html#afd551afac097fdbeeabde98c8aa1bfc8">EffectInfo</a>, and <a class="el" href="../../d1/d6b/classGametype.html#ae6f43fb252cffabdcb79a863987a5683">Gametype</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00295">295</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00291">291</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">TC</a>.</p>
-<div class="fragment"><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    {</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        <span class="keywordtype">string</span> s = _(<span class="stringliteral">&quot;No description&quot;</span>);</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;developer&quot;</span>))</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        {</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, n = numentityfields(); i &lt; n; ++i)</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            {</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                <span class="keywordtype">string</span> value = getentityfieldstring(i, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                <span class="keywordflow">if</span> (value != <span class="stringliteral">&quot;&quot;</span>) s = sprintf(<span class="stringliteral">&quot;%s\n%s = %s&quot;</span>, s, entityfieldname(i), value);</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            }</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        }</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <span class="keywordflow">return</span> s;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    }</div>
-<div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00292">oo.qh:292</a></div></div>
+<div class="fragment"><div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    {</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        <span class="keywordtype">string</span> s = _(<span class="stringliteral">&quot;No description&quot;</span>);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;developer&quot;</span>))</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        {</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, n = numentityfields(); i &lt; n; ++i)</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            {</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                <span class="keywordtype">string</span> value = getentityfieldstring(i, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                <span class="keywordflow">if</span> (value != <span class="stringliteral">&quot;&quot;</span>) s = sprintf(<span class="stringliteral">&quot;%s\n%s = %s&quot;</span>, s, entityfieldname(i), value);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            }</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        }</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        <span class="keywordflow">return</span> s;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    }</div>
+<div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00288">oo.qh:288</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">_all.inc:62</a></div></div>
 </div><!-- fragment -->
@@ -832,14 +832,14 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/de5/classWeapon.html#ad155218ce1844b7f3ce8cf880721d08f">Weapon</a>, <a class="el" href="../../d0/d9a/classGameItem.html#a7357a3badf480bbfe18c110d15cbd2f8">GameItem</a>, <a class="el" href="../../d1/d6b/classGametype.html#a51550ad7b1e68706e89c9a555aa42b22">Gametype</a>, <a class="el" href="../../d9/d61/classNade.html#a1da4e2143f74e475c1dfa909f1aaf76c">Nade</a>, <a class="el" href="../../de/d3c/classBuff.html#acaa339ccb9cec6b5323ef674593d842f">Buff</a>, and <a class="el" href="../../d2/d3d/classTurret.html#a138adca099fbd117101fe56edb53d8aa">Turret</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00309">309</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00305">305</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 <p>References <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">TC</a>.</p>
-<div class="fragment"><div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    {</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        returns(sprintf(<span class="stringliteral">&quot;entity %i&quot;</span>, <span class="keyword">this</span>), <span class="stringliteral">&quot;nopreview_map&quot;</span>);</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    }</div>
-<div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00292">oo.qh:292</a></div></div>
+<div class="fragment"><div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    {</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        returns(sprintf(<span class="stringliteral">&quot;entity %i&quot;</span>, <span class="keyword">this</span>), <span class="stringliteral">&quot;nopreview_map&quot;</span>);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    }</div>
+<div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00288">oo.qh:288</a></div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00062">_all.inc:62</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -921,7 +921,7 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html#l00032">32</a> of file <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html">dialog_settings_game.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/db1/draw_8qc_source.html#l00086">draw_Fill()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00271">draw_Text()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00366">draw_TextShortenToWidth()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00046">eY</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00831">getFadedAlpha()</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00030">name</a>, <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html#l00021">XonoticRegisteredSettingsList_cb_name</a>, and <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html#l00023">XonoticRegisteredSettingsList_getNameIcon_cb()</a>.</p>
+<p>References <a class="el" href="../../d6/db1/draw_8qc_source.html#l00086">draw_Fill()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00271">draw_Text()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00366">draw_TextShortenToWidth()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00046">eY</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00830">getFadedAlpha()</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00030">name</a>, <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html#l00021">XonoticRegisteredSettingsList_cb_name</a>, and <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html#l00023">XonoticRegisteredSettingsList_getNameIcon_cb()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span> (!this.source) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">if</span> (!this.source.getEntry(<span class="keyword">this</span>.source, i, <a class="code" href="../../de/d48/dialog__settings__game_8qc.html#a612071b3e7e03563d6c3e60fcee98f10">XonoticRegisteredSettingsList_getNameIcon_cb</a>)) <span class="keywordflow">return</span>;</div>
@@ -935,7 +935,7 @@ Public Attributes</h2></td></tr>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">string</span> s = <a class="code" href="../../d6/db1/draw_8qc.html#a30c4ca2338b35f847f0b38491dad2c2b">draw_TextShortenToWidth</a>(strdecolorize(name), 1, 0, this.<a class="code" href="../../db/d29/classXonoticRegisteredSettingsList.html#a5ba34a106025be4faae9dff6ae9e763d">realFontSize</a>);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../d6/db1/draw_8qc.html#a9317e58388dd0f4801ecd46178a0f334">draw_Text</a>(this.<a class="code" href="../../db/d29/classXonoticRegisteredSettingsList.html#afd0d89a4240b5d670c0cdfa8c777824c">realUpperMargin</a> * <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> + (0.5 * this.<a class="code" href="../../db/d29/classXonoticRegisteredSettingsList.html#a5ba34a106025be4faae9dff6ae9e763d">realFontSize</a>.x) * <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a>, s, <span class="keyword">this</span>.realFontSize, <span class="stringliteral">&#39;1 1 1&#39;</span>, SKINALPHA_TEXT, 0);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
-<div class="ttc" id="menu_2xonotic_2util_8qc_html_ab82c9c370db86ec43c7e9ef75a7fff6c"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ab82c9c370db86ec43c7e9ef75a7fff6c">getFadedAlpha</a></div><div class="ttdeci">float getFadedAlpha(float currentAlpha, float startAlpha, float targetAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00831">util.qc:831</a></div></div>
+<div class="ttc" id="menu_2xonotic_2util_8qc_html_ab82c9c370db86ec43c7e9ef75a7fff6c"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ab82c9c370db86ec43c7e9ef75a7fff6c">getFadedAlpha</a></div><div class="ttdeci">float getFadedAlpha(float currentAlpha, float startAlpha, float targetAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00830">util.qc:830</a></div></div>
 <div class="ttc" id="vector_8qh_html_a13163379d56e777f08a20fca27f20c2a"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a></div><div class="ttdeci">const vector eY</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00046">vector.qh:46</a></div></div>
 <div class="ttc" id="draw_8qc_html_ae1fc75c93136d527f4c296ce527311da"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#ae1fc75c93136d527f4c296ce527311da">draw_Fill</a></div><div class="ttdeci">void draw_Fill(vector theOrigin, vector theSize, vector theColor, float theAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00086">draw.qc:86</a></div></div>
 <div class="ttc" id="classListBox_html_a955acbbda432fb19399292cbac96e0af"><div class="ttname"><a href="../../d9/de9/classListBox.html#a955acbbda432fb19399292cbac96e0af">ListBox::focusedItemAlpha</a></div><div class="ttdeci">float focusedItemAlpha</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d96/item_2listbox_8qh_source.html#l00016">listbox.qh:16</a></div></div>
@@ -1072,12 +1072,12 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d9a/item_8qc_source.html#l00094">94</a> of file <a class="el" href="../../de/d9a/item_8qc_source.html">item.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/dc2/menu_8qc_source.html#l00990">m_play_focus_sound()</a>.</p>
+<p>References <a class="el" href="../../df/dc2/menu_8qc_source.html#l00987">m_play_focus_sound()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    {</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../d0/dae/classItem.html#a67d95732d49da439095483530aca8804">allowFocusSound</a>) <a class="code" href="../../de/d9a/item_8qc.html#a2884065abdd89fe2349ff849e8f0d338">m_play_focus_sound</a>();</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
 <div class="ttc" id="classItem_html_a67d95732d49da439095483530aca8804"><div class="ttname"><a href="../../d0/dae/classItem.html#a67d95732d49da439095483530aca8804">Item::allowFocusSound</a></div><div class="ttdeci">float allowFocusSound</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1e/menu_2item_8qh_source.html#l00026">item.qh:26</a></div></div>
-<div class="ttc" id="item_8qc_html_a2884065abdd89fe2349ff849e8f0d338"><div class="ttname"><a href="../../de/d9a/item_8qc.html#a2884065abdd89fe2349ff849e8f0d338">m_play_focus_sound</a></div><div class="ttdeci">void m_play_focus_sound()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00990">menu.qc:990</a></div></div>
+<div class="ttc" id="item_8qc_html_a2884065abdd89fe2349ff849e8f0d338"><div class="ttname"><a href="../../de/d9a/item_8qc.html#a2884065abdd89fe2349ff849e8f0d338">m_play_focus_sound</a></div><div class="ttdeci">void m_play_focus_sound()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00987">menu.qc:987</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1644,7 +1644,7 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html#l00074">74</a> of file <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html">dialog_settings_game.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00287">SUPER</a>.</p>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00283">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../db/d29/classXonoticRegisteredSettingsList.html">XonoticRegisteredSettingsList</a>).resizeNotify(<span class="keyword">this</span>, relOrigin, relSize, absOrigin, absSize);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
@@ -1656,7 +1656,7 @@ Public Attributes</h2></td></tr>
 <div class="ttc" id="classListBox_html_a4d3358b1156e79dcddeef82ac14d821d"><div class="ttname"><a href="../../d9/de9/classListBox.html#a4d3358b1156e79dcddeef82ac14d821d">ListBox::itemHeight</a></div><div class="ttdeci">float itemHeight</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d96/item_2listbox_8qh_source.html#l00047">listbox.qh:47</a></div></div>
 <div class="ttc" id="classXonoticRegisteredSettingsList_html_a711c93d30da081956701927ec6089fe1"><div class="ttname"><a href="../../db/d29/classXonoticRegisteredSettingsList.html#a711c93d30da081956701927ec6089fe1">XonoticRegisteredSettingsList::itemAbsSize</a></div><div class="ttdeci">vector itemAbsSize</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/dialog__settings__game_8qh_source.html#l00013">dialog_settings_game.qh:13</a></div></div>
 <div class="ttc" id="classListBox_html_a405b285a76ac127664593c89281a5b63"><div class="ttname"><a href="../../d9/de9/classListBox.html#a405b285a76ac127664593c89281a5b63">ListBox::controlWidth</a></div><div class="ttdeci">float controlWidth</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d96/item_2listbox_8qh_source.html#l00035">listbox.qh:35</a></div></div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00287">oo.qh:287</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00283">oo.qh:283</a></div></div>
 <div class="ttc" id="classXonoticRegisteredSettingsList_html_afd0d89a4240b5d670c0cdfa8c777824c"><div class="ttname"><a href="../../db/d29/classXonoticRegisteredSettingsList.html#afd0d89a4240b5d670c0cdfa8c777824c">XonoticRegisteredSettingsList::realUpperMargin</a></div><div class="ttdeci">float realUpperMargin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/dialog__settings__game_8qh_source.html#l00016">dialog_settings_game.qh:16</a></div></div>
 <div class="ttc" id="classXonoticListBox_html_a764e355b65af202e87289c596432c780"><div class="ttname"><a href="../../d3/db2/classXonoticListBox.html#a764e355b65af202e87289c596432c780">XonoticListBox::fontSize</a></div><div class="ttdeci">float fontSize</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dfa/xonotic_2listbox_8qh_source.html#l00006">listbox.qh:6</a></div></div>
 <div class="ttc" id="classXonoticRegisteredSettingsList_html"><div class="ttname"><a href="../../db/d29/classXonoticRegisteredSettingsList.html">XonoticRegisteredSettingsList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/dialog__settings__game_8qh_source.html#l00011">dialog_settings_game.qh:11</a></div></div>
@@ -1735,12 +1735,12 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html#l00083">83</a> of file <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html">dialog_settings_game.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00287">SUPER</a>.</p>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00283">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;{</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../db/d29/classXonoticRegisteredSettingsList.html">XonoticRegisteredSettingsList</a>).setSelected(<span class="keyword">this</span>, i);</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    this.onChange(<span class="keyword">this</span>, this.onChangeEntity);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;}</div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00287">oo.qh:287</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00283">oo.qh:283</a></div></div>
 <div class="ttc" id="classXonoticRegisteredSettingsList_html"><div class="ttname"><a href="../../db/d29/classXonoticRegisteredSettingsList.html">XonoticRegisteredSettingsList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/dialog__settings__game_8qh_source.html#l00011">dialog_settings_game.qh:11</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -2664,7 +2664,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d29/classXonoticRegisteredSettingsList.html">XonoticRegisteredSettingsList</a></li>
-    <li class="footer">Generated on Fri Apr 6 2018 18:00:02 for Xonotic by
+    <li class="footer">Generated on Sun Apr 8 2018 03:34:05 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

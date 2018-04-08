@@ -1,221 +1,221 @@
 <map id="MUTATOR_HOOKFUNCTION" name="MUTATOR_HOOKFUNCTION">
-<area shape="rect" id="node2" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="3093,4085,3147,4112"/>
-<area shape="rect" id="node3" href="$da/d6b/sv__superspec_8qc.html#a34d5778c9a343a91fc1d6a83eecd5673" title="superspec_filteritem" alt="" coords="579,7029,717,7056"/>
-<area shape="rect" id="node5" href="$da/d6b/sv__superspec_8qc.html#acc3c70af8e816b0da2e3429c1a26d5de" title="superspec_msg" alt="" coords="272,6464,387,6491"/>
-<area shape="rect" id="node9" href="$da/d6b/sv__superspec_8qc.html#af718ac80b43bf3ea8caf199bb5ee907d" title="superspec_Spectate" alt="" coords="259,5451,400,5477"/>
-<area shape="rect" id="node4" href="$d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78" title="argv" alt="" coords="2614,7688,2661,7715"/>
-<area shape="rect" id="node6" href="$d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f" title="sprint" alt="" coords="462,6515,517,6541"/>
-<area shape="rect" id="node7" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="2858,6219,2913,6245"/>
-<area shape="rect" id="node8" href="$d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f" title="centerprint" alt="" coords="448,6464,531,6491"/>
-<area shape="rect" id="node10" href="$df/dd7/server_2client_8qc.html#acd1560ca258ee21a90fd35530c8127b0" title="Spectate" alt="" coords="452,5451,527,5477"/>
-<area shape="rect" id="node220" href="$df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80" title="TRANSMUTE" alt="" coords="972,397,1079,424"/>
-<area shape="rect" id="node11" href="$df/dd7/server_2client_8qc.html#a0626fbb86c705b3c7be4d0195a73627e" title="SpectateSet" alt="" coords="601,5451,695,5477"/>
-<area shape="rect" id="node19" href="$df/dd7/server_2client_8qc.html#aee20b07617d4d8b3cf12723424d93532" title="SetSpectatee" alt="" coords="1844,5907,1945,5933"/>
-<area shape="rect" id="node12" href="$df/dd7/server_2client_8qc.html#adcfb83073eb66c355f220a7fc94a479d" title="ClientData_Touch" alt="" coords="2317,6008,2443,6035"/>
-<area shape="rect" id="node14" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="2845,845,2925,872"/>
-<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#a9c939e00497497af39dc23df6f75a15b" title="WriteEntity" alt="" coords="2594,1469,2681,1496"/>
-<area shape="rect" id="node16" href="$d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78" title="set_movetype" alt="" coords="2833,2044,2937,2071"/>
-<area shape="rect" id="node17" href="$da/d68/accuracy_8qc.html#aad4882ef9eb34b565690f771aec07c2d" title="accuracy_resend" alt="" coords="965,6245,1086,6272"/>
-<area shape="rect" id="node18" href="$df/dd7/server_2client_8qc.html#a3e9a26edec819b4a5e84fce635a1fa68" title="SpectateUpdate" alt="" coords="1594,6093,1710,6120"/>
-<area shape="rect" id="node31" href="$df/dd7/server_2client_8qc.html#a5e3082357cac2361155d16ee49c91224" title="putting a client as observer in the server " alt="" coords="765,5451,909,5477"/>
-<area shape="rect" id="node13" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="2617,5831,2658,5857"/>
-<area shape="rect" id="node27" href="$df/dd7/server_2client_8qc.html#a1565df9f317d13a6dda4f158fe18478d" title="SpectateCopy" alt="" coords="1842,6093,1947,6120"/>
-<area shape="rect" id="node20" href="$df/dd7/server_2client_8qc.html#ac4f7e6fc7e9a311d90c6379198d0bd9c" title="SetSpectatee_status" alt="" coords="2057,5805,2201,5832"/>
-<area shape="rect" id="node26" href="$d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7" title="etof" alt="" coords="2107,5856,2151,5883"/>
-<area shape="rect" id="node21" href="$d6/d3b/race_8qc.html#a8232d22b14b449f33a50b5af32792d38" title="race_InitSpectator" alt="" coords="2316,6413,2444,6440"/>
-<area shape="rect" id="node22" href="$d6/d3b/race_8qc.html#a426a0faee53298e0416f0af105270b20" title="race_SendNextCheckpoint" alt="" coords="2548,6776,2727,6803"/>
-<area shape="rect" id="node23" href="$d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b" title="WriteCoord" alt="" coords="2841,6776,2929,6803"/>
-<area shape="rect" id="node24" href="$d6/d3b/race_8qc.html#a07f5a365308af71c65a9e965564932f4" title="race_CheckpointNetworkID" alt="" coords="2794,6827,2977,6853"/>
-<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516" title="WriteString" alt="" coords="2842,6877,2929,6904"/>
-<area shape="rect" id="node28" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="3301,212,3371,239"/>
-<area shape="rect" id="node29" href="$df/dd7/server_2client_8qc.html#a68daad7634d404da1ba88b4177dc6d32" title="SetZoomState" alt="" coords="2076,6008,2183,6035"/>
-<area shape="rect" id="node30" href="$d6/d29/anticheat_8qc.html#a8637d5f3a3ed106d36e9d7448931bd90" title="anticheat_spectatecopy" alt="" coords="2049,6109,2209,6136"/>
-<area shape="rect" id="node32" href="$d0/d3f/state_8qc.html#ae2b41267ede70802861f89a01bb03837" title="PlayerState_detach" alt="" coords="957,5451,1093,5477"/>
-<area shape="rect" id="node34" href="$d1/dad/server_2command_2vote_8qc.html#a8646fbc325b5110f96dbc1a8b324fc5f" title="VoteCount" alt="" coords="983,5755,1067,5781"/>
-<area shape="rect" id="node36" href="$df/dd7/server_2client_8qc.html#a11f792d86f16e821bb9f127715f2234e" title="ReadyCount" alt="" coords="978,5704,1073,5731"/>
-<area shape="rect" id="node37" href="$d0/d41/spawnpoints_8qc.html#a71804b6dc31803f43afa105a34e35d04" title="SelectSpawnPoint" alt="" coords="1830,5400,1959,5427"/>
-<area shape="rect" id="node51" href="$df/dd7/server_2client_8qc.html#ad9d369ba8098cf9cc8ded4f0b4974c76" title="FixPlayermodel" alt="" coords="1596,6928,1708,6955"/>
-<area shape="rect" id="node80" href="$d7/de2/g__hook_8qc.html#a64ba7a609a960c8d06b3c23e6c4d80f4" title="RemoveGrapplingHooks" alt="" coords="2555,2069,2719,2096"/>
-<area shape="rect" id="node81" href="$de/de8/portals_8qc.html#a7b4d88aff21e56dfc333578ad2d2881a" title="Portal_ClearAll" alt="" coords="1597,5805,1707,5832"/>
-<area shape="rect" id="node86" href="$d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44" title="func_null" alt="" coords="3299,6472,3373,6499"/>
-<area shape="rect" id="node91" href="$d5/dac/g__damage_8qc.html#a705ff21e2e789e10d1eeb3bd16f97c86" title="Unfreeze" alt="" coords="1857,2373,1932,2400"/>
-<area shape="rect" id="node98" href="$da/d10/sv__vehicles_8qc.html#a42aece77fb15332fccf65dc5e1c1f8b1" title="vehicles_exit" alt="" coords="976,1715,1075,1741"/>
-<area shape="rect" id="node148" href="$de/d4f/teamplay_8qc.html#af954f9f806424a8cb8467d9372d8049e" title="LogTeamchange" alt="" coords="2321,6261,2439,6288"/>
-<area shape="rect" id="node161" href="$d2/d79/scores_8qc.html#a408a3ce2d8238dea7575fb00e5b0df63" title="Initialize the score of this player if needed. " alt="" coords="2315,5653,2445,5680"/>
-<area shape="rect" id="node187" href="$d9/d51/intrusivelist_8qh.html#a174c5e1663141fca4c79834b1b4d71e1" title="Remove any element, anywhere in the list. " alt="" coords="2836,1841,2935,1868"/>
-<area shape="rect" id="node33" href="$d0/d3f/state_8qc.html#a694f7d5c484ae99b40c2163429b7ac21" title="Inventory_delete" alt="" coords="1175,5451,1294,5477"/>
-<area shape="rect" id="node35" href="$d1/dad/server_2command_2vote_8qc.html#a8877f3141a92ab947b3801df066ce3bb" title="Nagger_VoteCountChanged" alt="" coords="1142,5755,1327,5781"/>
-<area shape="rect" id="node38" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="2359,5501,2401,5528"/>
-<area shape="rect" id="node39" href="$d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625" title="Spawn_WeightedPoint" alt="" coords="2303,4971,2457,4997"/>
-<area shape="rect" id="node42" href="$d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901" title="Spawn_FilterOutBadSpots" alt="" coords="2041,5248,2217,5275"/>
-<area shape="rect" id="node49" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="2605,3933,2670,3960"/>
-<area shape="rect" id="node50" href="$d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64" title="GotoNextMap" alt="" coords="2078,5552,2181,5579"/>
-<area shape="rect" id="node40" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="2810,5048,2961,5075"/>
-<area shape="rect" id="node41" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="2609,4896,2666,4923"/>
-<area shape="rect" id="node43" href="$d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698" title="Spawn_ScoreAll" alt="" coords="2321,4440,2439,4467"/>
-<area shape="rect" id="node44" href="$d0/d41/spawnpoints_8qc.html#adb306ba6ed0866d22bb8f9318d8c4488" title="Spawn_Score" alt="" coords="2586,4187,2689,4213"/>
-<area shape="rect" id="node45" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="2862,3664,2909,3691"/>
-<area shape="rect" id="node46" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="2856,2525,2915,2552"/>
-<area shape="rect" id="node47" href="$d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd" title="LOG_TRACE" alt="" coords="2834,4187,2937,4213"/>
-<area shape="rect" id="node48" href="$d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2" title="vtos" alt="" coords="2862,4288,2909,4315"/>
-<area shape="rect" id="node52" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1871,6827,1918,6853"/>
-<area shape="rect" id="node53" href="$d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a" title="stof" alt="" coords="2615,6928,2659,6955"/>
-<area shape="rect" id="node54" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="2848,7029,2923,7056"/>
-<area shape="rect" id="node55" href="$df/dd7/server_2client_8qc.html#af26e733ad0d007af7a721579c731e890" title="setplayermodel" alt="" coords="1839,7055,1950,7081"/>
-<area shape="rect" id="node57" href="$d9/d45/globalsound_8qc.html#a38180551f3a5aaa493a6e5a181046000" title="UpdatePlayerSounds" alt="" coords="2057,7133,2202,7160"/>
-<area shape="rect" id="node72" href="$df/dd7/server_2client_8qc.html#a81497331b22f9248fec442b8f1889f6c" title="CheckPlayerModel" alt="" coords="2063,7336,2195,7363"/>
-<area shape="rect" id="node75" href="$df/dd7/server_2client_8qc.html#a04003ae2140daf692afaee96c6b305df" title="player_getspecies" alt="" coords="1831,6979,1958,7005"/>
-<area shape="rect" id="node79" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="2858,6928,2913,6955"/>
-<area shape="rect" id="node56" href="$d5/d26/server_2defs_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1" title="player_setupanimsformodel" alt="" coords="2039,7055,2220,7081"/>
-<area shape="rect" id="node58" href="$d9/d45/globalsound_8qc.html#acc226d4ed744cf98c0ee5ff8356757b8" title="ClearPlayerSounds" alt="" coords="2313,7184,2447,7211"/>
-<area shape="rect" id="node59" href="$d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113" title="strunzone" alt="" coords="2598,7232,2677,7259"/>
-<area shape="rect" id="node60" href="$da/d44/common_2util_8qc.html#aa2768b93f157e5fec4abc65b6a5d8622" title="get_model_datafilename" alt="" coords="2556,6421,2719,6448"/>
-<area shape="rect" id="node62" href="$d9/d45/globalsound_8qc.html#a3e65432ddf30f6729addae6c2bf79de9" title="LoadPlayerSounds" alt="" coords="2315,7387,2445,7413"/>
-<area shape="rect" id="node71" href="$d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db" title="strzone" alt="" coords="2605,7587,2670,7613"/>
-<area shape="rect" id="node61" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="2863,6117,2907,6144"/>
-<area shape="rect" id="node63" href="$d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09" title="fclose" alt="" coords="2609,7384,2666,7411"/>
-<area shape="rect" id="node64" href="$d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78" title="fgets" alt="" coords="2612,7181,2663,7208"/>
-<area shape="rect" id="node65" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="2858,7283,2913,7309"/>
-<area shape="rect" id="node66" href="$d9/d45/globalsound_8qc.html#a7022de3163c4d07ba4bc0547443ae346" title="GetPlayerSoundSampleField" alt="" coords="2543,7536,2732,7563"/>
-<area shape="rect" id="node70" href="$d9/d45/globalsound_8qc.html#a6d27dd45d58d423f7c352182ea854ef7" title="GetVoiceMessageSampleField" alt="" coords="2537,7485,2738,7512"/>
-<area shape="rect" id="node67" href="$d9/d45/globalsound_8qc.html#a4d5d1ba467236a8e85f9c9cf18a86852" title="_GetPlayerSoundSampleField" alt="" coords="2787,7485,2983,7512"/>
-<area shape="rect" id="node68" href="$d9/d45/globalsound_8qc.html#a4fc1198a586672f2b9459c628d386ca7" title="GetPlayerSound" alt="" coords="3061,7511,3179,7537"/>
-<area shape="rect" id="node69" href="$d9/d45/globalsound_8qc.html#a0f76411e16fb1a91bf97121690907cd7" title="GetVoiceMessage" alt="" coords="3055,7460,3185,7487"/>
-<area shape="rect" id="node73" href="$d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8" title="cvar_defstring" alt="" coords="2328,7285,2432,7312"/>
-<area shape="rect" id="node74" href="$da/d30/file_8qh.html#aeff7dd5ab95e5e6de16402f61a1c851c" title="fexists" alt="" coords="2349,7488,2411,7515"/>
-<area shape="rect" id="node76" href="$da/d44/common_2util_8qc.html#adf7a46756346d8546b7f6bdf705d2a17" title="get_model_parameters" alt="" coords="2303,6979,2457,7005"/>
-<area shape="rect" id="node77" href="$d2/db4/string_8qh.html#a2070f8704d8eb36e69d6d129330758cb" title="returns first word " alt="" coords="2617,7029,2657,7056"/>
-<area shape="rect" id="node78" href="$d2/db4/string_8qh.html#a6a42b8e34a0b2f8c73ed10b4735e41de" title="returns all but first word " alt="" coords="2617,6979,2657,7005"/>
-<area shape="rect" id="node82" href="$de/de8/portals_8qc.html#ad3a1d3aac7395f93259b41f378351152" title="Portal_ClearAll_PortalsOnly" alt="" coords="1803,6312,1987,6339"/>
-<area shape="rect" id="node90" href="$d5/d26/server_2defs_8qh.html#acaa145c4a5dc025548bc2a36adc23395" title="W_Porto_Remove" alt="" coords="1830,5704,1959,5731"/>
-<area shape="rect" id="node83" href="$de/de8/portals_8qc.html#a19a716fc7b82b007e67a749adb19b80e" title="Portal_Remove" alt="" coords="2581,6523,2693,6549"/>
-<area shape="rect" id="node84" href="$de/de8/portals_8qc.html#a609b1151ce1ef7aedb50a1c7e1cba5cf" title="Portal_Disconnect" alt="" coords="2821,6421,2950,6448"/>
-<area shape="rect" id="node85" href="$de/de8/portals_8qc.html#ae1ac08fabc3ed8dfd831cc32a5c2af6c" title="Portal_MakeBrokenPortal" alt="" coords="3035,6472,3205,6499"/>
-<area shape="rect" id="node87" href="$d2/dc2/subs_8qc.html#aaee12b410e85192641c50f8eeeef532f" title="SUB_SetFade" alt="" coords="2832,1149,2939,1176"/>
-<area shape="rect" id="node88" href="$d2/dc2/subs_8qc.html#a90e45de578dd2a4e3ea4cbc3c20008b1" title="SUB_SetFade_Think" alt="" coords="3047,1136,3193,1163"/>
-<area shape="rect" id="node89" href="$d2/dc2/subs_8qc.html#ad0806fe42eadae7a1a7a48660cbbd755" title="SUB_VanishOrRemove" alt="" coords="3256,1092,3416,1119"/>
-<area shape="rect" id="node92" href="$d5/d09/resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d" title="Sets the current amount of resource the given entity will have. " alt="" coords="2566,3461,2709,3488"/>
-<area shape="rect" id="node95" href="$d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" title="Push to tail. " alt="" coords="2090,1968,2169,1995"/>
-<area shape="rect" id="node97" href="$d7/de2/g__hook_8qc.html#a50f68d93243e10c5a552caae3c7a2413" title="RemoveHook" alt="" coords="2078,2323,2181,2349"/>
-<area shape="rect" id="node93" href="$d5/d09/resources_8qc.html#af36a97298b550267aad36794d0f66c0f" title="Returns the maximum amount of the given resource. " alt="" coords="2822,3461,2949,3488"/>
-<area shape="rect" id="node94" href="$d5/d09/resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf" title="Converts resource type (a RESOURCE_* constant) to entity field. " alt="" coords="2822,3512,2949,3539"/>
-<area shape="rect" id="node96" href="$d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" title="IL_CONTAINS" alt="" coords="2325,1968,2435,1995"/>
-<area shape="rect" id="node99" href="$d8/de2/menudefs_8qc.html#adcaadac54775911f8b6843223998c35e" title="WriteAngle" alt="" coords="2594,795,2681,821"/>
-<area shape="rect" id="node100" href="$db/d9b/server_2player_8qc.html#a2c4acf85cd876d0e628435d91592d615" title="PlayerDamage" alt="" coords="1385,2879,1493,2905"/>
-<area shape="rect" id="node189" href="$da/d10/sv__vehicles_8qc.html#a9c2cd7d7243400f5139194bea62aed42" title="CSQCVehicleSetup" alt="" coords="2568,845,2707,872"/>
-<area shape="rect" id="node190" href="$da/d10/sv__vehicles_8qc.html#a28ca0412edf1ec78fe58cdca1b263a88" title="vehicles_setreturn" alt="" coords="1171,1588,1299,1615"/>
-<area shape="rect" id="node211" href="$da/d10/sv__vehicles_8qc.html#a0e7cc73407916ed713c2ffc498e5f7bd" title="vehicles_reset_colors" alt="" coords="2563,1563,2711,1589"/>
-<area shape="rect" id="node101" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="2614,2728,2661,2755"/>
-<area shape="rect" id="node102" href="$d9/d19/handicap_8qc.html#ac42efcf2d233a8425c35dbfc9fccc278" title="Returns the total handicap of the player. " alt="" coords="2035,5400,2224,5427"/>
-<area shape="rect" id="node105" href="$dc/d73/server_2miscfunctions_8qh.html#ab1a77c4be3a9f33d84f6b35d5663474c" title="sound_allowed" alt="" coords="2831,2373,2939,2400"/>
-<area shape="rect" id="node106" href="$d0/d51/animdecide_8qc.html#ada84f7ee6c4814b1cd8d979586eb61d1" title="animdecide_setaction" alt="" coords="1578,2779,1726,2805"/>
-<area shape="rect" id="node107" href="$d6/d57/weaponstats_8qc.html#a92da13209374adaf40062e250635050f" title="WeaponStats_LogDamage" alt="" coords="1563,3841,1741,3868"/>
-<area shape="rect" id="node110" href="$d6/d57/weaponstats_8qc.html#a8f2f79e647a2d2bc87cac66e6f5a7f62" title="WeaponStats_LogKill" alt="" coords="1579,3892,1725,3919"/>
-<area shape="rect" id="node111" href="$d5/dac/g__damage_8qc.html#aefe2100f893d5dd01fdab059d9b5d348" title="Obituary" alt="" coords="2094,3765,2165,3792"/>
-<area shape="rect" id="node133" href="$da/d68/accuracy_8qc.html#a8ad5119b525659cbc971123f303fa416" title="accuracy_isgooddamage" alt="" coords="1569,2955,1735,2981"/>
-<area shape="rect" id="node134" href="$dc/de5/classWeapon.html#a47d8efef719d62b54a5d0b1b66ab6286" title="(SERVER) called whenever a player dies " alt="" coords="1569,2576,1735,2603"/>
-<area shape="rect" id="node135" href="$de/de8/portals_8qc.html#a3a8558ea8588c386416d87c3a987d8a3" title="Portal_ClearAllLater" alt="" coords="1583,5653,1721,5680"/>
-<area shape="rect" id="node139" href="$df/dd7/server_2client_8qc.html#ad782a8ecd5d72aefee13e592a4906f84" title="ClientKill_Now_TeamChange" alt="" coords="1555,4971,1749,4997"/>
-<area shape="rect" id="node170" href="$db/d9b/server_2player_8qc.html#a9d529760b279c19bb3b1d15c4da335d1" title="calculate_player_respawn_time" alt="" coords="1550,2677,1754,2704"/>
-<area shape="rect" id="node172" href="$df/d64/throwing_8qc.html#a3b40c07507228066f600ea2861c78c88" title="SpawnThrownWeapon" alt="" coords="1818,2904,1971,2931"/>
-<area shape="rect" id="node185" href="$d0/d51/animdecide_8qc.html#aac8cda37db89a45a301c788ad9ee8cc5" title="animdecide_setstate" alt="" coords="1581,2728,1723,2755"/>
-<area shape="rect" id="node186" href="$db/d9b/server_2player_8qc.html#a702d414b3a7f91c3e1746aaef5f9382c" title="PlayerCorpseDamage" alt="" coords="2305,2424,2455,2451"/>
-<area shape="rect" id="node188" href="$db/d9b/server_2player_8qc.html#aef50b8473159af9d6f77b966bc0cbe00" title="CopyBody_Think" alt="" coords="1591,2853,1713,2880"/>
-<area shape="rect" id="node103" href="$d9/d19/handicap_8qc.html#a41b02148f09797e441feda396ad8c4fc" title="Returns the forced handicap of the player. " alt="" coords="2280,5704,2480,5731"/>
-<area shape="rect" id="node104" href="$d9/d19/handicap_8qc.html#a673d6ca84b1e72bc80cae2e90030056f" title="Returns the voluntary handicap of the player. " alt="" coords="2273,5400,2487,5427"/>
-<area shape="rect" id="node108" href="$d6/d57/weaponstats_8qc.html#aaff19cec643aea889b24fc730133c07c" title="WeaponStats_LogItem" alt="" coords="1817,3841,1972,3868"/>
-<area shape="rect" id="node109" href="$d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f" title="stov" alt="" coords="2106,3867,2153,3893"/>
-<area shape="rect" id="node112" href="$dc/dc6/server_2miscfunctions_8qc.html#a58725b844cf250403708dcbb8b81ce07" title="NearestLocation" alt="" coords="2321,2880,2439,2907"/>
-<area shape="rect" id="node114" href="$db/d5f/deathtypes_2all_8qc.html#ab228bbc4e90e596f0f88f2556ee96c59" title="Deathtype_Name" alt="" coords="2575,4693,2699,4720"/>
-<area shape="rect" id="node115" href="$d5/dac/g__damage_8qc.html#a30b6dcb0a5e148d3961cad10abdaf5af" title="Obituary_SpecialDeath" alt="" coords="2807,3908,2963,3935"/>
-<area shape="rect" id="node116" href="$d5/dac/g__damage_8qc.html#a54e85ad9f5560a23de3bd54026021b06" title="Obituary_WeaponDeath" alt="" coords="2299,2677,2461,2704"/>
-<area shape="rect" id="node119" href="$d5/dac/g__damage_8qc.html#aff28c78124853cc6ad4f9f330588e1d3" title="LogDeath" alt="" coords="2341,4717,2419,4744"/>
-<area shape="rect" id="node126" href="$d5/dac/g__damage_8qc.html#a449c65621d31ac988f82a49ddf881ca0" title="GiveFrags" alt="" coords="2339,3765,2421,3792"/>
-<area shape="rect" id="node130" href="$d5/d09/resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" title="Returns the current amount of resource the given entity has. " alt="" coords="2565,3512,2709,3539"/>
-<area shape="rect" id="node131" href="$d5/dac/g__damage_8qc.html#ac6e64d0173ea3a8b8ac2f97dba0add11" title="frag_centermessage\l_override" alt="" coords="2310,3817,2450,3858"/>
-<area shape="rect" id="node132" href="$d5/dac/g__damage_8qc.html#afd7d0f110617f66bd6efce062d5d16e7" title="buff_FirstFromFlags" alt="" coords="2311,2627,2449,2653"/>
-<area shape="rect" id="node113" href="$dc/dc6/server_2miscfunctions_8qc.html#a4f00c6b3475a671b4be2c3b45daaf56e" title="findnearest" alt="" coords="2594,2829,2681,2856"/>
-<area shape="rect" id="node117" href="$dc/de5/classWeapon.html#aa33a9e234103d87be809a6c13d1061b2" title="(SERVER) notification number for kill message (may inspect w_deathtype for details) ..." alt="" coords="2553,2677,2721,2704"/>
-<area shape="rect" id="node118" href="$dc/de5/classWeapon.html#a148f0ac2aabc8676f55a902b199eeed1" title="(SERVER) notification number for suicide message (may inspect w_deathtype for details) ..." alt="" coords="2541,2576,2734,2603"/>
-<area shape="rect" id="node120" href="$d5/dac/g__damage_8qc.html#ade2887aa1376d34775f751d2a81565b0" title="AppendItemcodes" alt="" coords="2574,4795,2701,4821"/>
-<area shape="rect" id="node121" href="$dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3" title="GameLogEcho" alt="" coords="2583,6624,2691,6651"/>
-<area shape="rect" id="node122" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="2849,6523,2921,6549"/>
-<area shape="rect" id="node123" href="$db/d9b/server_2player_8qc.html#a0390f6703ace29f61655694b8821d84a" title="print(), but only print if the server is not local " alt="" coords="2830,6624,2941,6651"/>
-<area shape="rect" id="node125" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="2860,6573,2911,6600"/>
-<area shape="rect" id="node124" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="3097,6624,3143,6651"/>
-<area shape="rect" id="node127" href="$d0/d2b/weapons_2all_8qc.html#ae2c872ad98c6ea89efd05ef7fe431ff8" title="W_RandomWeapons" alt="" coords="2564,4339,2711,4365"/>
-<area shape="rect" id="node128" href="$dd/de4/g__damage_8qh.html#ab9daa12e545de1878a232e10317b0a0e" title="W_SwitchWeapon_Force" alt="" coords="2552,3740,2723,3767"/>
-<area shape="rect" id="node129" href="$d5/dac/g__damage_8qc.html#a7e53366415188b2157d76a7250422580" title="UpdateFrags" alt="" coords="2589,3791,2686,3817"/>
-<area shape="rect" id="node136" href="$de/de8/portals_8qc.html#af672b26eaa74d314001e3470575cee97" title="Portal_ClearAllLater\l_PortalsOnly" alt="" coords="1825,6195,1964,6237"/>
-<area shape="rect" id="node137" href="$de/de8/portals_8qc.html#ae9b539a5e78533b38371cd35748e2ad9" title="Portal_RemoveLater" alt="" coords="2059,6573,2200,6600"/>
-<area shape="rect" id="node138" href="$de/de8/portals_8qc.html#af7cc1e89ceacf4e2efce4267a1562d3c" title="Portal_RemoveLater\l_Think" alt="" coords="2309,6566,2451,6607"/>
-<area shape="rect" id="node140" href="$de/d4f/teamplay_8qc.html#a924f971100a80c7dc45e39f743711765" title="JoinBestTeam" alt="" coords="1841,4996,1948,5023"/>
-<area shape="rect" id="node165" href="$de/d4f/teamplay_8qc.html#a521eb2e16efc843dcba746b6964d3515" title="SV_ChangeTeam" alt="" coords="1832,4920,1957,4947"/>
-<area shape="rect" id="node141" href="$de/d4f/teamplay_8qc.html#a838b897a9ae86e8bf932e57c356ec987" title="CheckAllowedTeams" alt="" coords="2056,5096,2203,5123"/>
-<area shape="rect" id="node144" href="$de/d4f/teamplay_8qc.html#a317914490700838803594e2a962a5d3f" title="Sets the team of the player. " alt="" coords="2304,4389,2456,4416"/>
-<area shape="rect" id="node147" href="$db/d07/teams_8qh.html#a79c60f633029beb7c4ceed0ab13725ef" title="Team_TeamToNumber" alt="" coords="2559,4947,2715,4973"/>
-<area shape="rect" id="node149" href="$de/d4f/teamplay_8qc.html#a813179225f47098b26677e3de3d088ee" title="FindSmallestTeam" alt="" coords="2064,5349,2195,5376"/>
-<area shape="rect" id="node159" href="$db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d" title="Team_NumberToTeam" alt="" coords="2302,5123,2458,5149"/>
-<area shape="rect" id="node160" href="$de/d4f/teamplay_8qc.html#a3bdfe5e750a8a5e86992d4f95eca7585" title="TeamchangeFrags" alt="" coords="2064,5147,2195,5173"/>
-<area shape="rect" id="node162" href="$de/d4f/teamplay_8qc.html#a0dd0a85daf087dad5bcbf6855f3ac9f8" title="Auto balances bots in teams after the player has changed team. " alt="" coords="2068,4541,2191,4568"/>
-<area shape="rect" id="node163" href="$de/d4f/teamplay_8qc.html#ad358e614645b7bbf926efeb9af932a5d" title="Kills player as a result of team change. " alt="" coords="2293,2576,2467,2603"/>
-<area shape="rect" id="node142" href="$d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec" title="AvailableTeams" alt="" coords="2323,5173,2437,5200"/>
-<area shape="rect" id="node143" href="$d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f" title="NumTeams" alt="" coords="2592,5251,2683,5277"/>
-<area shape="rect" id="node145" href="$de/d4f/teamplay_8qc.html#a8f6c3d852a938aab007690b9aa2875ef" title="SetPlayerColors" alt="" coords="2579,4136,2696,4163"/>
-<area shape="rect" id="node146" href="$de/d4f/teamplay_8qc.html#aad4cb62bd1f6b12bec2a35ac31385cd3" title="setcolor" alt="" coords="2851,4136,2919,4163"/>
-<area shape="rect" id="node150" href="$de/d4f/teamplay_8qc.html#a2942f2ae0d82c47009843cae3069508a" title="GetTeamCounts" alt="" coords="2321,4616,2439,4643"/>
-<area shape="rect" id="node152" href="$de/d4f/teamplay_8qc.html#a79a1d2e4089e064996738917f7251022" title="Returns the bitmask of the best teams for the player to join. " alt="" coords="2323,5248,2437,5275"/>
-<area shape="rect" id="node156" href="$d3/d46/mapinfo_8qc.html#a3f161ef2731e7a99667785631c18ae4b" title="MapInfo_Type_ToString" alt="" coords="2299,5552,2461,5579"/>
-<area shape="rect" id="node157" href="$d3/d46/mapinfo_8qc.html#a799a2e72317c8785c4b259a1c568548e" title="MapInfo_CurrentGametype" alt="" coords="2291,5349,2469,5376"/>
-<area shape="rect" id="node151" href="$de/d4f/teamplay_8qc.html#a03beeb550118f87341e3c16c53300a6d" title="PlayerValue" alt="" coords="2591,4592,2683,4619"/>
-<area shape="rect" id="node153" href="$de/d4f/teamplay_8qc.html#a9e49f8d439b6be87ad232fea7f00b856" title="Returns whether one team is smaller than the other. " alt="" coords="2551,5301,2723,5328"/>
-<area shape="rect" id="node155" href="$de/d4f/teamplay_8qc.html#afa4ffc154bbac20613d4a8f0fc8c507f" title="Returns whether one team is equal to the other. " alt="" coords="2564,5352,2711,5379"/>
-<area shape="rect" id="node154" href="$db/d07/teams_8qh.html#ad12d30ebe792c86184a4ca76a5f8055c" title="Returns whether team number is valid. " alt="" coords="2811,5301,2959,5328"/>
-<area shape="rect" id="node158" href="$d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488" title="cvar" alt="" coords="2614,5453,2661,5480"/>
-<area shape="rect" id="node164" href="$d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7" title="Damage" alt="" coords="2602,2120,2673,2147"/>
-<area shape="rect" id="node166" href="$de/d4f/teamplay_8qc.html#a9cc2e6b61ab9e327fe8562f9dc1710c2" title="Sets the team of the player. " alt="" coords="2073,4920,2185,4947"/>
-<area shape="rect" id="node167" href="$d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38" title="bprint" alt="" coords="2353,4920,2407,4947"/>
-<area shape="rect" id="node168" href="$dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe" title="playername" alt="" coords="2335,5021,2425,5048"/>
-<area shape="rect" id="node169" href="$db/d07/teams_8qh.html#a8d03f41980a641a39e8cdafc391b4a53" title="Team_ColorCode" alt="" coords="2575,5099,2699,5125"/>
-<area shape="rect" id="node171" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="1873,2677,1916,2704"/>
-<area shape="rect" id="node173" href="$df/d64/throwing_8qc.html#a778182823de27a000b41c8d47963036d" title="W_IsWeaponThrowable" alt="" coords="2049,2904,2210,2931"/>
-<area shape="rect" id="node174" href="$df/d64/throwing_8qc.html#a3a83102430c0c61efd16d46333790dd4" title="W_ThrowNewWeapon" alt="" coords="2053,3235,2206,3261"/>
-<area shape="rect" id="node184" href="$d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0" title="randomvec" alt="" coords="2594,2627,2681,2653"/>
-<area shape="rect" id="node175" href="$d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" title="spawn" alt="" coords="2855,795,2915,821"/>
-<area shape="rect" id="node176" href="$df/def/server_2items_8qc.html#a95b5587513272c12b9d401ba026d7550" title="Sets the item loot status. " alt="" coords="2330,3235,2430,3261"/>
-<area shape="rect" id="node177" href="$db/d15/api_8qh.html#a7ee208dfaf077cf2c6ef10818b975fd9" title="navigation_dynamicgoal_init" alt="" coords="2287,3360,2473,3387"/>
-<area shape="rect" id="node178" href="$d5/de0/weaponsystem_8qc.html#a247df313dc346cd128c991a289157b06" title="W_DropEvent" alt="" coords="2328,3411,2432,3437"/>
-<area shape="rect" id="node179" href="$df/def/server_2items_8qc.html#a242ed0408675ef4cae9101d25277c05d" title="Sets the item expiring status (i.e. " alt="" coords="2319,3461,2441,3488"/>
-<area shape="rect" id="node180" href="$d5/d26/server_2defs_8qh.html#a60096e5c98b3b608470b6130fce0b405" title="weapon_defaultspawnfunc" alt="" coords="2292,3184,2468,3211"/>
-<area shape="rect" id="node181" href="$df/d64/throwing_8qc.html#a4f3e2059bf4df2dedf5cce1c3e2350fa" title="thrown_wep_think" alt="" coords="2574,1099,2701,1125"/>
-<area shape="rect" id="node182" href="$d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df" title="min" alt="" coords="2359,3083,2401,3109"/>
-<area shape="rect" id="node183" href="$d5/d09/resources_8qc.html#a88f207f357349ddd4d1f32b85d0c3f57" title="Gives an entity some resource. " alt="" coords="2327,3309,2433,3336"/>
-<area shape="rect" id="node191" href="$da/d10/sv__vehicles_8qc.html#acb307a79d42b2864e9d2a2781dccf1f0" title="vehicles_clearreturn" alt="" coords="2568,1613,2707,1640"/>
-<area shape="rect" id="node192" href="$da/d10/sv__vehicles_8qc.html#ad3ffec386d757806619974c310f81a71" title="vehicles_showwp" alt="" coords="1376,1563,1501,1589"/>
-<area shape="rect" id="node193" href="$da/d10/sv__vehicles_8qc.html#ab4b9ee5d4ac7f6ed106fea890dd76e5c" title="vehicles_return" alt="" coords="1597,1563,1707,1589"/>
-<area shape="rect" id="node202" href="$db/d07/teams_8qh.html#a40887618c0a56497f855f5631aa428d9" title="Team_ColorRGB" alt="" coords="2576,896,2699,923"/>
-<area shape="rect" id="node219" href="$da/d10/sv__vehicles_8qc.html#a0c8f69e9962a7863d7d9a19fdd3bcb37" title="vehicles_showwp_goaway" alt="" coords="1563,1512,1741,1539"/>
-<area shape="rect" id="node194" href="$da/d10/sv__vehicles_8qc.html#a9be836b28cd841ff63b259fe3291693e" title="vehicles_spawn" alt="" coords="1837,1715,1952,1741"/>
-<area shape="rect" id="node195" href="$da/d10/sv__vehicles_8qc.html#a2bce3d35334f0f1d42dcfb694b1df6af" title="vehicles_touch" alt="" coords="2075,1259,2184,1285"/>
-<area shape="rect" id="node203" href="$da/d10/sv__vehicles_8qc.html#acf3816b22eb29383c2df027f7a648046" title="vehicles_damage" alt="" coords="2576,440,2699,467"/>
-<area shape="rect" id="node215" href="$da/d10/sv__vehicles_8qc.html#a4dafdad030ed16fd1dfd22d4e854fcda" title="vehicles_reset" alt="" coords="2076,1867,2183,1893"/>
-<area shape="rect" id="node216" href="$da/d10/sv__vehicles_8qc.html#a849a38f311767a9e206e878bec7932ed" title="vehicles_think" alt="" coords="2077,1816,2182,1843"/>
-<area shape="rect" id="node196" href="$d5/de0/weaponsystem_8qc.html#a1798aef9c3263ffc0fb53a9741fc3ab9" title="forbidWeaponUse" alt="" coords="2317,1208,2443,1235"/>
-<area shape="rect" id="node197" href="$da/d10/sv__vehicles_8qc.html#ab61375dcd840955138307e48e8bcc1f4" title="vehicles_crushable" alt="" coords="2313,1259,2447,1285"/>
-<area shape="rect" id="node198" href="$d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4" title="normalize" alt="" coords="2846,744,2925,771"/>
-<area shape="rect" id="node199" href="$dc/d23/classVehicle.html#a962d81e9c45a8f2ad1349065e65d098f" title="(SERVER) called when a vehicle hits something " alt="" coords="2315,1309,2445,1336"/>
-<area shape="rect" id="node200" href="$da/d10/sv__vehicles_8qc.html#a018387a690e307f5cc7fb250212d7eb5" title="vehicles_enter" alt="" coords="2327,1107,2433,1133"/>
-<area shape="rect" id="node201" href="$dc/d23/classVehicle.html#a0143fe165e9d96006d3e1c71cba469b0" title="(SERVER) called when a player enters this vehicle while occupied " alt="" coords="2572,1201,2703,1242"/>
-<area shape="rect" id="node208" href="$d4/dd8/antilag_8qc.html#abcb3a90f91c3e77743e76b1ed5271f6a" title="antilag_clear" alt="" coords="2838,389,2933,416"/>
-<area shape="rect" id="node213" href="$dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4" title="CSQCModel_UnlinkEntity" alt="" coords="3033,5431,3207,5457"/>
-<area shape="rect" id="node214" href="$dc/d23/classVehicle.html#ab0033bb43b823ae364fcaa9f6d73c520" title="(SERVER) called when a player enters this vehicle " alt="" coords="2577,1267,2697,1293"/>
-<area shape="rect" id="node204" href="$da/d10/sv__vehicles_8qc.html#a591286be998a76b02e9182e2d7a9f746" title="shieldhit_think" alt="" coords="2833,491,2938,517"/>
-<area shape="rect" id="node205" href="$d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c" title="vectoangles" alt="" coords="2839,541,2931,568"/>
-<area shape="rect" id="node206" href="$d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b" title="fabs" alt="" coords="2862,592,2909,619"/>
-<area shape="rect" id="node207" href="$dc/d73/server_2miscfunctions_8qh.html#ae74ffea0b7b9c115fad6b8175d19d088" title="spamsound" alt="" coords="2841,643,2930,669"/>
-<area shape="rect" id="node210" href="$dc/d23/classVehicle.html#ad29884a3f395ad9d49c4eceab06a2957" title="(SERVER) called when vehicle dies " alt="" coords="2824,693,2947,720"/>
-<area shape="rect" id="node209" href="$d4/dd8/antilag_8qc.html#ae0fbe788776aa76ba7139d692e9c7adb" title="antilag_restore" alt="" coords="3067,351,3173,377"/>
-<area shape="rect" id="node212" href="$dc/d23/classVehicle.html#af7f5447512b9c7b0f697dd84c35b1040" title="(SERVER) called when a vehicle&#39;s colors are being reset, so modules can be updated ..." alt="" coords="2813,1563,2957,1589"/>
-<area shape="rect" id="node217" href="$dc/d23/classVehicle.html#a96f9f5c3ac6195be77b33b68a49bed46" title="(SERVER) logic to run every frame " alt="" coords="2321,1816,2439,1843"/>
-<area shape="rect" id="node218" href="$da/d10/sv__vehicles_8qc.html#a92cdd7efbcdaa3cf61dc0991746a2b74" title="vehicles_painframe" alt="" coords="2313,2728,2447,2755"/>
+<area shape="rect" id="node2" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="3093,4280,3147,4307"/>
+<area shape="rect" id="node3" href="$da/d6b/sv__superspec_8qc.html#a34d5778c9a343a91fc1d6a83eecd5673" title="superspec_filteritem" alt="" coords="579,6861,717,6888"/>
+<area shape="rect" id="node5" href="$da/d6b/sv__superspec_8qc.html#acc3c70af8e816b0da2e3429c1a26d5de" title="superspec_msg" alt="" coords="272,6937,387,6964"/>
+<area shape="rect" id="node9" href="$da/d6b/sv__superspec_8qc.html#af718ac80b43bf3ea8caf199bb5ee907d" title="superspec_Spectate" alt="" coords="259,6304,400,6331"/>
+<area shape="rect" id="node4" href="$d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78" title="argv" alt="" coords="2614,7216,2661,7243"/>
+<area shape="rect" id="node6" href="$d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f" title="sprint" alt="" coords="462,7013,517,7040"/>
+<area shape="rect" id="node7" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="2858,5724,2913,5751"/>
+<area shape="rect" id="node8" href="$d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f" title="centerprint" alt="" coords="448,6963,531,6989"/>
+<area shape="rect" id="node10" href="$df/dd7/server_2client_8qc.html#acd1560ca258ee21a90fd35530c8127b0" title="Spectate" alt="" coords="452,6304,527,6331"/>
+<area shape="rect" id="node220" href="$df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80" title="TRANSMUTE" alt="" coords="972,237,1079,264"/>
+<area shape="rect" id="node11" href="$df/dd7/server_2client_8qc.html#a0626fbb86c705b3c7be4d0195a73627e" title="SpectateSet" alt="" coords="601,5721,695,5748"/>
+<area shape="rect" id="node19" href="$df/dd7/server_2client_8qc.html#aee20b07617d4d8b3cf12723424d93532" title="SetSpectatee" alt="" coords="1844,6000,1945,6027"/>
+<area shape="rect" id="node12" href="$df/dd7/server_2client_8qc.html#adcfb83073eb66c355f220a7fc94a479d" title="ClientData_Touch" alt="" coords="2317,6051,2443,6077"/>
+<area shape="rect" id="node14" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="2845,608,2925,635"/>
+<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#a9c939e00497497af39dc23df6f75a15b" title="WriteEntity" alt="" coords="2594,245,2681,272"/>
+<area shape="rect" id="node16" href="$d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78" title="set_movetype" alt="" coords="2833,1907,2937,1933"/>
+<area shape="rect" id="node17" href="$da/d68/accuracy_8qc.html#aad4882ef9eb34b565690f771aec07c2d" title="accuracy_resend" alt="" coords="965,6203,1086,6229"/>
+<area shape="rect" id="node18" href="$df/dd7/server_2client_8qc.html#a3e9a26edec819b4a5e84fce635a1fa68" title="SpectateUpdate" alt="" coords="1594,6127,1710,6153"/>
+<area shape="rect" id="node31" href="$df/dd7/server_2client_8qc.html#a5e3082357cac2361155d16ee49c91224" title="putting a client as observer in the server " alt="" coords="765,5392,909,5419"/>
+<area shape="rect" id="node13" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="2617,5851,2658,5877"/>
+<area shape="rect" id="node27" href="$df/dd7/server_2client_8qc.html#a1565df9f317d13a6dda4f158fe18478d" title="SpectateCopy" alt="" coords="1842,6127,1947,6153"/>
+<area shape="rect" id="node20" href="$df/dd7/server_2client_8qc.html#ac4f7e6fc7e9a311d90c6379198d0bd9c" title="SetSpectatee_status" alt="" coords="2057,5899,2201,5925"/>
+<area shape="rect" id="node26" href="$d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7" title="etof" alt="" coords="2107,5949,2151,5976"/>
+<area shape="rect" id="node21" href="$d6/d3b/race_8qc.html#a8232d22b14b449f33a50b5af32792d38" title="race_InitSpectator" alt="" coords="2316,6000,2444,6027"/>
+<area shape="rect" id="node22" href="$d6/d3b/race_8qc.html#a426a0faee53298e0416f0af105270b20" title="race_SendNextCheckpoint" alt="" coords="2548,6456,2727,6483"/>
+<area shape="rect" id="node23" href="$d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b" title="WriteCoord" alt="" coords="2841,6507,2929,6533"/>
+<area shape="rect" id="node24" href="$d6/d3b/race_8qc.html#a07f5a365308af71c65a9e965564932f4" title="race_CheckpointNetworkID" alt="" coords="2794,6405,2977,6432"/>
+<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516" title="WriteString" alt="" coords="2842,6456,2929,6483"/>
+<area shape="rect" id="node28" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="3301,1203,3371,1229"/>
+<area shape="rect" id="node29" href="$df/dd7/server_2client_8qc.html#a68daad7634d404da1ba88b4177dc6d32" title="SetZoomState" alt="" coords="2076,6101,2183,6128"/>
+<area shape="rect" id="node30" href="$d6/d29/anticheat_8qc.html#a8637d5f3a3ed106d36e9d7448931bd90" title="anticheat_spectatecopy" alt="" coords="2049,6304,2209,6331"/>
+<area shape="rect" id="node32" href="$d0/d3f/state_8qc.html#ae2b41267ede70802861f89a01bb03837" title="PlayerState_detach" alt="" coords="957,5367,1093,5393"/>
+<area shape="rect" id="node34" href="$d1/dad/server_2command_2vote_8qc.html#a8646fbc325b5110f96dbc1a8b324fc5f" title="VoteCount" alt="" coords="983,5645,1067,5672"/>
+<area shape="rect" id="node36" href="$df/dd7/server_2client_8qc.html#a11f792d86f16e821bb9f127715f2234e" title="ReadyCount" alt="" coords="978,5696,1073,5723"/>
+<area shape="rect" id="node37" href="$d0/d41/spawnpoints_8qc.html#a71804b6dc31803f43afa105a34e35d04" title="SelectSpawnPoint" alt="" coords="1830,5519,1959,5545"/>
+<area shape="rect" id="node51" href="$df/dd7/server_2client_8qc.html#ad9d369ba8098cf9cc8ded4f0b4974c76" title="FixPlayermodel" alt="" coords="1596,6557,1708,6584"/>
+<area shape="rect" id="node80" href="$d7/de2/g__hook_8qc.html#a64ba7a609a960c8d06b3c23e6c4d80f4" title="RemoveGrapplingHooks" alt="" coords="2555,1925,2719,1952"/>
+<area shape="rect" id="node81" href="$de/de8/portals_8qc.html#a7b4d88aff21e56dfc333578ad2d2881a" title="Portal_ClearAll" alt="" coords="1597,491,1707,517"/>
+<area shape="rect" id="node86" href="$d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44" title="func_null" alt="" coords="3299,253,3373,280"/>
+<area shape="rect" id="node91" href="$d5/dac/g__damage_8qc.html#a705ff21e2e789e10d1eeb3bd16f97c86" title="Unfreeze" alt="" coords="1857,1877,1932,1904"/>
+<area shape="rect" id="node98" href="$da/d10/sv__vehicles_8qc.html#a42aece77fb15332fccf65dc5e1c1f8b1" title="vehicles_exit" alt="" coords="976,1421,1075,1448"/>
+<area shape="rect" id="node148" href="$de/d4f/teamplay_8qc.html#af954f9f806424a8cb8467d9372d8049e" title="LogTeamchange" alt="" coords="2321,5493,2439,5520"/>
+<area shape="rect" id="node161" href="$d2/d79/scores_8qc.html#a408a3ce2d8238dea7575fb00e5b0df63" title="Initialize the score of this player if needed. " alt="" coords="2315,5595,2445,5621"/>
+<area shape="rect" id="node187" href="$d9/d51/intrusivelist_8qh.html#a174c5e1663141fca4c79834b1b4d71e1" title="Remove any element, anywhere in the list. " alt="" coords="2836,3393,2935,3420"/>
+<area shape="rect" id="node33" href="$d0/d3f/state_8qc.html#a694f7d5c484ae99b40c2163429b7ac21" title="Inventory_delete" alt="" coords="1175,5367,1294,5393"/>
+<area shape="rect" id="node35" href="$d1/dad/server_2command_2vote_8qc.html#a8877f3141a92ab947b3801df066ce3bb" title="Nagger_VoteCountChanged" alt="" coords="1142,5645,1327,5672"/>
+<area shape="rect" id="node38" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="2359,5443,2401,5469"/>
+<area shape="rect" id="node39" href="$d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625" title="Spawn_WeightedPoint" alt="" coords="2560,4381,2715,4408"/>
+<area shape="rect" id="node42" href="$d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901" title="Spawn_FilterOutBadSpots" alt="" coords="2041,5696,2217,5723"/>
+<area shape="rect" id="node49" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="2605,4229,2670,4256"/>
+<area shape="rect" id="node50" href="$d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64" title="GotoNextMap" alt="" coords="2078,5645,2181,5672"/>
+<area shape="rect" id="node40" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="2810,4432,2961,4459"/>
+<area shape="rect" id="node41" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="2857,4331,2914,4357"/>
+<area shape="rect" id="node43" href="$d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698" title="Spawn_ScoreAll" alt="" coords="2321,5037,2439,5064"/>
+<area shape="rect" id="node44" href="$d0/d41/spawnpoints_8qc.html#adb306ba6ed0866d22bb8f9318d8c4488" title="Spawn_Score" alt="" coords="2586,4128,2689,4155"/>
+<area shape="rect" id="node45" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="2862,3976,2909,4003"/>
+<area shape="rect" id="node46" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="2856,2584,2915,2611"/>
+<area shape="rect" id="node47" href="$d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd" title="LOG_TRACE" alt="" coords="2834,4103,2937,4129"/>
+<area shape="rect" id="node48" href="$d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2" title="vtos" alt="" coords="2862,4800,2909,4827"/>
+<area shape="rect" id="node52" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1871,6405,1918,6432"/>
+<area shape="rect" id="node53" href="$d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a" title="stof" alt="" coords="2615,6608,2659,6635"/>
+<area shape="rect" id="node54" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="2848,6811,2923,6837"/>
+<area shape="rect" id="node55" href="$df/dd7/server_2client_8qc.html#af26e733ad0d007af7a721579c731e890" title="setplayermodel" alt="" coords="1839,6557,1950,6584"/>
+<area shape="rect" id="node57" href="$d9/d45/globalsound_8qc.html#a38180551f3a5aaa493a6e5a181046000" title="UpdatePlayerSounds" alt="" coords="2057,6608,2202,6635"/>
+<area shape="rect" id="node71" href="$df/dd7/server_2client_8qc.html#a81497331b22f9248fec442b8f1889f6c" title="CheckPlayerModel" alt="" coords="2063,6456,2195,6483"/>
+<area shape="rect" id="node75" href="$df/dd7/server_2client_8qc.html#a04003ae2140daf692afaee96c6b305df" title="player_getspecies" alt="" coords="1831,6760,1958,6787"/>
+<area shape="rect" id="node79" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="2858,7013,2913,7040"/>
+<area shape="rect" id="node56" href="$d5/d26/server_2defs_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1" title="player_setupanimsformodel" alt="" coords="2039,6557,2220,6584"/>
+<area shape="rect" id="node58" href="$d9/d45/globalsound_8qc.html#acc226d4ed744cf98c0ee5ff8356757b8" title="ClearPlayerSounds" alt="" coords="2313,6608,2447,6635"/>
+<area shape="rect" id="node60" href="$da/d44/common_2util_8qc.html#aa2768b93f157e5fec4abc65b6a5d8622" title="get_model_datafilename" alt="" coords="2556,5597,2719,5624"/>
+<area shape="rect" id="node62" href="$d9/d45/globalsound_8qc.html#a3e65432ddf30f6729addae6c2bf79de9" title="LoadPlayerSounds" alt="" coords="2315,6912,2445,6939"/>
+<area shape="rect" id="node59" href="$d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113" title="strunzone" alt="" coords="2598,6203,2677,6229"/>
+<area shape="rect" id="node61" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="2863,5445,2907,5472"/>
+<area shape="rect" id="node63" href="$d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09" title="fclose" alt="" coords="2609,6709,2666,6736"/>
+<area shape="rect" id="node64" href="$d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78" title="fgets" alt="" coords="2612,6861,2663,6888"/>
+<area shape="rect" id="node65" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="2858,6608,2913,6635"/>
+<area shape="rect" id="node66" href="$d9/d45/globalsound_8qc.html#a7022de3163c4d07ba4bc0547443ae346" title="GetPlayerSoundSampleField" alt="" coords="2543,7064,2732,7091"/>
+<area shape="rect" id="node70" href="$d9/d45/globalsound_8qc.html#a6d27dd45d58d423f7c352182ea854ef7" title="GetVoiceMessageSampleField" alt="" coords="2537,7115,2738,7141"/>
+<area shape="rect" id="node67" href="$d9/d45/globalsound_8qc.html#a4d5d1ba467236a8e85f9c9cf18a86852" title="_GetPlayerSoundSampleField" alt="" coords="2787,7115,2983,7141"/>
+<area shape="rect" id="node68" href="$d9/d45/globalsound_8qc.html#a4fc1198a586672f2b9459c628d386ca7" title="GetPlayerSound" alt="" coords="3061,7115,3179,7141"/>
+<area shape="rect" id="node69" href="$d9/d45/globalsound_8qc.html#a0f76411e16fb1a91bf97121690907cd7" title="GetVoiceMessage" alt="" coords="3055,7064,3185,7091"/>
+<area shape="rect" id="node72" href="$d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8" title="cvar_defstring" alt="" coords="2328,6456,2432,6483"/>
+<area shape="rect" id="node73" href="$d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db" title="strzone" alt="" coords="2347,6405,2413,6432"/>
+<area shape="rect" id="node74" href="$da/d30/file_8qh.html#aeff7dd5ab95e5e6de16402f61a1c851c" title="fexists" alt="" coords="2349,6760,2411,6787"/>
+<area shape="rect" id="node76" href="$da/d44/common_2util_8qc.html#adf7a46756346d8546b7f6bdf705d2a17" title="get_model_parameters" alt="" coords="2303,6861,2457,6888"/>
+<area shape="rect" id="node77" href="$d2/db4/string_8qh.html#a2070f8704d8eb36e69d6d129330758cb" title="returns first word " alt="" coords="2617,6811,2657,6837"/>
+<area shape="rect" id="node78" href="$d2/db4/string_8qh.html#a6a42b8e34a0b2f8c73ed10b4735e41de" title="returns all but first word " alt="" coords="2617,7013,2657,7040"/>
+<area shape="rect" id="node82" href="$de/de8/portals_8qc.html#ad3a1d3aac7395f93259b41f378351152" title="Portal_ClearAll_PortalsOnly" alt="" coords="1803,440,1987,467"/>
+<area shape="rect" id="node90" href="$d5/d26/server_2defs_8qh.html#acaa145c4a5dc025548bc2a36adc23395" title="W_Porto_Remove" alt="" coords="1830,491,1959,517"/>
+<area shape="rect" id="node83" href="$de/de8/portals_8qc.html#a19a716fc7b82b007e67a749adb19b80e" title="Portal_Remove" alt="" coords="2581,427,2693,453"/>
+<area shape="rect" id="node84" href="$de/de8/portals_8qc.html#a609b1151ce1ef7aedb50a1c7e1cba5cf" title="Portal_Disconnect" alt="" coords="2821,405,2950,432"/>
+<area shape="rect" id="node85" href="$de/de8/portals_8qc.html#ae1ac08fabc3ed8dfd831cc32a5c2af6c" title="Portal_MakeBrokenPortal" alt="" coords="3035,380,3205,407"/>
+<area shape="rect" id="node87" href="$d2/dc2/subs_8qc.html#aaee12b410e85192641c50f8eeeef532f" title="SUB_SetFade" alt="" coords="2832,1660,2939,1687"/>
+<area shape="rect" id="node88" href="$d2/dc2/subs_8qc.html#a90e45de578dd2a4e3ea4cbc3c20008b1" title="SUB_SetFade_Think" alt="" coords="3047,1805,3193,1832"/>
+<area shape="rect" id="node89" href="$d2/dc2/subs_8qc.html#ad0806fe42eadae7a1a7a48660cbbd755" title="SUB_VanishOrRemove" alt="" coords="3256,4485,3416,4512"/>
+<area shape="rect" id="node92" href="$d5/d09/resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d" title="Sets the current amount of resource the given entity will have. " alt="" coords="2814,1805,2957,1832"/>
+<area shape="rect" id="node95" href="$d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" title="Push to tail. " alt="" coords="2090,1976,2169,2003"/>
+<area shape="rect" id="node97" href="$d7/de2/g__hook_8qc.html#a50f68d93243e10c5a552caae3c7a2413" title="RemoveHook" alt="" coords="2078,1824,2181,1851"/>
+<area shape="rect" id="node93" href="$d5/d09/resources_8qc.html#af36a97298b550267aad36794d0f66c0f" title="Returns the maximum amount of the given resource. " alt="" coords="3057,1880,3183,1907"/>
+<area shape="rect" id="node94" href="$d5/d09/resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf" title="Converts resource type (a RESOURCE_* constant) to entity field. " alt="" coords="3057,2523,3183,2549"/>
+<area shape="rect" id="node96" href="$d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" title="IL_CONTAINS" alt="" coords="2325,1976,2435,2003"/>
+<area shape="rect" id="node99" href="$d8/de2/menudefs_8qc.html#adcaadac54775911f8b6843223998c35e" title="WriteAngle" alt="" coords="2594,659,2681,685"/>
+<area shape="rect" id="node100" href="$db/d9b/server_2player_8qc.html#a2c4acf85cd876d0e628435d91592d615" title="PlayerDamage" alt="" coords="1385,2964,1493,2991"/>
+<area shape="rect" id="node189" href="$da/d10/sv__vehicles_8qc.html#a9c2cd7d7243400f5139194bea62aed42" title="CSQCVehicleSetup" alt="" coords="2568,760,2707,787"/>
+<area shape="rect" id="node190" href="$da/d10/sv__vehicles_8qc.html#a28ca0412edf1ec78fe58cdca1b263a88" title="vehicles_setreturn" alt="" coords="1171,1884,1299,1911"/>
+<area shape="rect" id="node211" href="$da/d10/sv__vehicles_8qc.html#a0e7cc73407916ed713c2ffc498e5f7bd" title="vehicles_reset_colors" alt="" coords="2563,1384,2711,1411"/>
+<area shape="rect" id="node101" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="2862,3064,2909,3091"/>
+<area shape="rect" id="node102" href="$d9/d19/handicap_8qc.html#ac42efcf2d233a8425c35dbfc9fccc278" title="Returns the total handicap of the player. " alt="" coords="2035,5443,2224,5469"/>
+<area shape="rect" id="node105" href="$dc/d73/server_2miscfunctions_8qh.html#ab1a77c4be3a9f33d84f6b35d5663474c" title="sound_allowed" alt="" coords="2831,2179,2939,2205"/>
+<area shape="rect" id="node106" href="$d0/d51/animdecide_8qc.html#ada84f7ee6c4814b1cd8d979586eb61d1" title="animdecide_setaction" alt="" coords="1578,2989,1726,3016"/>
+<area shape="rect" id="node107" href="$d6/d57/weaponstats_8qc.html#a92da13209374adaf40062e250635050f" title="WeaponStats_LogDamage" alt="" coords="1563,3727,1741,3753"/>
+<area shape="rect" id="node110" href="$d6/d57/weaponstats_8qc.html#a8f2f79e647a2d2bc87cac66e6f5a7f62" title="WeaponStats_LogKill" alt="" coords="1579,3777,1725,3804"/>
+<area shape="rect" id="node111" href="$d5/dac/g__damage_8qc.html#aefe2100f893d5dd01fdab059d9b5d348" title="Obituary" alt="" coords="2094,3375,2165,3401"/>
+<area shape="rect" id="node133" href="$da/d68/accuracy_8qc.html#a8ad5119b525659cbc971123f303fa416" title="accuracy_isgooddamage" alt="" coords="1569,3216,1735,3243"/>
+<area shape="rect" id="node134" href="$dc/de5/classWeapon.html#a47d8efef719d62b54a5d0b1b66ab6286" title="(SERVER) called whenever a player dies " alt="" coords="1569,2787,1735,2813"/>
+<area shape="rect" id="node135" href="$de/de8/portals_8qc.html#a3a8558ea8588c386416d87c3a987d8a3" title="Portal_ClearAllLater" alt="" coords="1583,549,1721,576"/>
+<area shape="rect" id="node139" href="$df/dd7/server_2client_8qc.html#ad782a8ecd5d72aefee13e592a4906f84" title="ClientKill_Now_TeamChange" alt="" coords="1555,5039,1749,5065"/>
+<area shape="rect" id="node170" href="$db/d9b/server_2player_8qc.html#a9d529760b279c19bb3b1d15c4da335d1" title="calculate_player_respawn_time" alt="" coords="1550,2736,1754,2763"/>
+<area shape="rect" id="node172" href="$df/d64/throwing_8qc.html#a3b40c07507228066f600ea2861c78c88" title="SpawnThrownWeapon" alt="" coords="2053,3280,2206,3307"/>
+<area shape="rect" id="node185" href="$d0/d51/animdecide_8qc.html#aac8cda37db89a45a301c788ad9ee8cc5" title="animdecide_setstate" alt="" coords="1581,2939,1723,2965"/>
+<area shape="rect" id="node186" href="$db/d9b/server_2player_8qc.html#a702d414b3a7f91c3e1746aaef5f9382c" title="PlayerCorpseDamage" alt="" coords="2562,3115,2713,3141"/>
+<area shape="rect" id="node188" href="$db/d9b/server_2player_8qc.html#aef50b8473159af9d6f77b966bc0cbe00" title="CopyBody_Think" alt="" coords="1591,3115,1713,3141"/>
+<area shape="rect" id="node103" href="$d9/d19/handicap_8qc.html#a41b02148f09797e441feda396ad8c4fc" title="Returns the forced handicap of the player. " alt="" coords="2280,5645,2480,5672"/>
+<area shape="rect" id="node104" href="$d9/d19/handicap_8qc.html#a673d6ca84b1e72bc80cae2e90030056f" title="Returns the voluntary handicap of the player. " alt="" coords="2273,5544,2487,5571"/>
+<area shape="rect" id="node108" href="$d6/d57/weaponstats_8qc.html#aaff19cec643aea889b24fc730133c07c" title="WeaponStats_LogItem" alt="" coords="1817,3777,1972,3804"/>
+<area shape="rect" id="node109" href="$d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f" title="stov" alt="" coords="2106,3777,2153,3804"/>
+<area shape="rect" id="node112" href="$dc/dc6/server_2miscfunctions_8qc.html#a58725b844cf250403708dcbb8b81ce07" title="NearestLocation" alt="" coords="2321,3292,2439,3319"/>
+<area shape="rect" id="node114" href="$db/d5f/deathtypes_2all_8qc.html#ab228bbc4e90e596f0f88f2556ee96c59" title="Deathtype_Name" alt="" coords="2575,4888,2699,4915"/>
+<area shape="rect" id="node115" href="$d5/dac/g__damage_8qc.html#a30b6dcb0a5e148d3961cad10abdaf5af" title="Obituary_SpecialDeath" alt="" coords="2807,3444,2963,3471"/>
+<area shape="rect" id="node116" href="$d5/dac/g__damage_8qc.html#a54e85ad9f5560a23de3bd54026021b06" title="Obituary_WeaponDeath" alt="" coords="2299,2432,2461,2459"/>
+<area shape="rect" id="node119" href="$d5/dac/g__damage_8qc.html#aff28c78124853cc6ad4f9f330588e1d3" title="LogDeath" alt="" coords="2341,5088,2419,5115"/>
+<area shape="rect" id="node126" href="$d5/dac/g__damage_8qc.html#a449c65621d31ac988f82a49ddf881ca0" title="GiveFrags" alt="" coords="2339,2939,2421,2965"/>
+<area shape="rect" id="node130" href="$d5/d09/resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" title="Returns the current amount of resource the given entity has. " alt="" coords="2813,3115,2957,3141"/>
+<area shape="rect" id="node131" href="$d5/dac/g__damage_8qc.html#ac6e64d0173ea3a8b8ac2f97dba0add11" title="frag_centermessage\l_override" alt="" coords="2310,3809,2450,3850"/>
+<area shape="rect" id="node132" href="$d5/dac/g__damage_8qc.html#afd7d0f110617f66bd6efce062d5d16e7" title="buff_FirstFromFlags" alt="" coords="2311,3241,2449,3268"/>
+<area shape="rect" id="node113" href="$dc/dc6/server_2miscfunctions_8qc.html#a4f00c6b3475a671b4be2c3b45daaf56e" title="findnearest" alt="" coords="2594,2939,2681,2965"/>
+<area shape="rect" id="node117" href="$dc/de5/classWeapon.html#aa33a9e234103d87be809a6c13d1061b2" title="(SERVER) notification number for kill message (may inspect w_deathtype for details) ..." alt="" coords="2553,2331,2721,2357"/>
+<area shape="rect" id="node118" href="$dc/de5/classWeapon.html#a148f0ac2aabc8676f55a902b199eeed1" title="(SERVER) notification number for suicide message (may inspect w_deathtype for details) ..." alt="" coords="2541,2280,2734,2307"/>
+<area shape="rect" id="node120" href="$d5/dac/g__damage_8qc.html#ade2887aa1376d34775f751d2a81565b0" title="AppendItemcodes" alt="" coords="2574,5192,2701,5219"/>
+<area shape="rect" id="node121" href="$dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3" title="GameLogEcho" alt="" coords="2583,5648,2691,5675"/>
+<area shape="rect" id="node122" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="2849,5572,2921,5599"/>
+<area shape="rect" id="node123" href="$db/d9b/server_2player_8qc.html#a0390f6703ace29f61655694b8821d84a" title="print(), but only print if the server is not local " alt="" coords="2830,5673,2941,5700"/>
+<area shape="rect" id="node125" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="2860,5623,2911,5649"/>
+<area shape="rect" id="node124" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="3097,5673,3143,5700"/>
+<area shape="rect" id="node127" href="$d0/d2b/weapons_2all_8qc.html#ae2c872ad98c6ea89efd05ef7fe431ff8" title="W_RandomWeapons" alt="" coords="2564,3165,2711,3192"/>
+<area shape="rect" id="node128" href="$dd/de4/g__damage_8qh.html#ab9daa12e545de1878a232e10317b0a0e" title="W_SwitchWeapon_Force" alt="" coords="2552,2736,2723,2763"/>
+<area shape="rect" id="node129" href="$d5/dac/g__damage_8qc.html#a7e53366415188b2157d76a7250422580" title="UpdateFrags" alt="" coords="2589,2787,2686,2813"/>
+<area shape="rect" id="node136" href="$de/de8/portals_8qc.html#af672b26eaa74d314001e3470575cee97" title="Portal_ClearAllLater\l_PortalsOnly" alt="" coords="1825,542,1964,583"/>
+<area shape="rect" id="node137" href="$de/de8/portals_8qc.html#ae9b539a5e78533b38371cd35748e2ad9" title="Portal_RemoveLater" alt="" coords="2059,507,2200,533"/>
+<area shape="rect" id="node138" href="$de/de8/portals_8qc.html#af7cc1e89ceacf4e2efce4267a1562d3c" title="Portal_RemoveLater\l_Think" alt="" coords="2309,441,2451,482"/>
+<area shape="rect" id="node140" href="$de/d4f/teamplay_8qc.html#a924f971100a80c7dc45e39f743711765" title="JoinBestTeam" alt="" coords="1841,4988,1948,5015"/>
+<area shape="rect" id="node165" href="$de/d4f/teamplay_8qc.html#a521eb2e16efc843dcba746b6964d3515" title="SV_ChangeTeam" alt="" coords="1832,5064,1957,5091"/>
+<area shape="rect" id="node141" href="$de/d4f/teamplay_8qc.html#a838b897a9ae86e8bf932e57c356ec987" title="CheckAllowedTeams" alt="" coords="2056,5139,2203,5165"/>
+<area shape="rect" id="node144" href="$de/d4f/teamplay_8qc.html#a317914490700838803594e2a962a5d3f" title="Sets the team of the player. " alt="" coords="2304,5240,2456,5267"/>
+<area shape="rect" id="node147" href="$db/d07/teams_8qh.html#a79c60f633029beb7c4ceed0ab13725ef" title="Team_TeamToNumber" alt="" coords="2559,4939,2715,4965"/>
+<area shape="rect" id="node149" href="$de/d4f/teamplay_8qc.html#a813179225f47098b26677e3de3d088ee" title="FindSmallestTeam" alt="" coords="2064,4520,2195,4547"/>
+<area shape="rect" id="node159" href="$db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d" title="Team_NumberToTeam" alt="" coords="2302,4835,2458,4861"/>
+<area shape="rect" id="node160" href="$de/d4f/teamplay_8qc.html#a3bdfe5e750a8a5e86992d4f95eca7585" title="TeamchangeFrags" alt="" coords="2064,5341,2195,5368"/>
+<area shape="rect" id="node162" href="$de/d4f/teamplay_8qc.html#a0dd0a85daf087dad5bcbf6855f3ac9f8" title="Auto balances bots in teams after the player has changed team. " alt="" coords="2068,4811,2191,4837"/>
+<area shape="rect" id="node163" href="$de/d4f/teamplay_8qc.html#ad358e614645b7bbf926efeb9af932a5d" title="Kills player as a result of team change. " alt="" coords="2293,4179,2467,4205"/>
+<area shape="rect" id="node142" href="$d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec" title="AvailableTeams" alt="" coords="2323,4987,2437,5013"/>
+<area shape="rect" id="node143" href="$d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f" title="NumTeams" alt="" coords="2592,5040,2683,5067"/>
+<area shape="rect" id="node145" href="$de/d4f/teamplay_8qc.html#a8f6c3d852a938aab007690b9aa2875ef" title="SetPlayerColors" alt="" coords="2579,5344,2696,5371"/>
+<area shape="rect" id="node146" href="$de/d4f/teamplay_8qc.html#aad4cb62bd1f6b12bec2a35ac31385cd3" title="setcolor" alt="" coords="2851,5344,2919,5371"/>
+<area shape="rect" id="node150" href="$de/d4f/teamplay_8qc.html#a2942f2ae0d82c47009843cae3069508a" title="GetTeamCounts" alt="" coords="2321,4683,2439,4709"/>
+<area shape="rect" id="node152" href="$de/d4f/teamplay_8qc.html#a79a1d2e4089e064996738917f7251022" title="Returns the bitmask of the best teams for the player to join. " alt="" coords="2323,4608,2437,4635"/>
+<area shape="rect" id="node156" href="$d3/d46/mapinfo_8qc.html#a3f161ef2731e7a99667785631c18ae4b" title="MapInfo_Type_ToString" alt="" coords="2299,4381,2461,4408"/>
+<area shape="rect" id="node157" href="$d3/d46/mapinfo_8qc.html#a799a2e72317c8785c4b259a1c568548e" title="MapInfo_CurrentGametype" alt="" coords="2291,4432,2469,4459"/>
+<area shape="rect" id="node151" href="$de/d4f/teamplay_8qc.html#a03beeb550118f87341e3c16c53300a6d" title="PlayerValue" alt="" coords="2591,4787,2683,4813"/>
+<area shape="rect" id="node153" href="$de/d4f/teamplay_8qc.html#a9e49f8d439b6be87ad232fea7f00b856" title="Returns whether one team is smaller than the other. " alt="" coords="2551,4685,2723,4712"/>
+<area shape="rect" id="node155" href="$de/d4f/teamplay_8qc.html#afa4ffc154bbac20613d4a8f0fc8c507f" title="Returns whether one team is equal to the other. " alt="" coords="2564,4635,2711,4661"/>
+<area shape="rect" id="node154" href="$db/d07/teams_8qh.html#ad12d30ebe792c86184a4ca76a5f8055c" title="Returns whether team number is valid. " alt="" coords="2811,4635,2959,4661"/>
+<area shape="rect" id="node158" href="$d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488" title="cvar" alt="" coords="2614,4483,2661,4509"/>
+<area shape="rect" id="node164" href="$d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7" title="Damage" alt="" coords="2602,3875,2673,3901"/>
+<area shape="rect" id="node166" href="$de/d4f/teamplay_8qc.html#a9cc2e6b61ab9e327fe8562f9dc1710c2" title="Sets the team of the player. " alt="" coords="2073,5189,2185,5216"/>
+<area shape="rect" id="node167" href="$d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38" title="bprint" alt="" coords="2353,5291,2407,5317"/>
+<area shape="rect" id="node168" href="$dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe" title="playername" alt="" coords="2335,5392,2425,5419"/>
+<area shape="rect" id="node169" href="$db/d07/teams_8qh.html#a8d03f41980a641a39e8cdafc391b4a53" title="Team_ColorCode" alt="" coords="2575,5395,2699,5421"/>
+<area shape="rect" id="node171" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="1873,2736,1916,2763"/>
+<area shape="rect" id="node173" href="$df/d64/throwing_8qc.html#a778182823de27a000b41c8d47963036d" title="W_IsWeaponThrowable" alt="" coords="2299,3592,2461,3619"/>
+<area shape="rect" id="node174" href="$df/d64/throwing_8qc.html#a3a83102430c0c61efd16d46333790dd4" title="W_ThrowNewWeapon" alt="" coords="2303,3491,2457,3517"/>
+<area shape="rect" id="node184" href="$d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0" title="randomvec" alt="" coords="2594,2635,2681,2661"/>
+<area shape="rect" id="node175" href="$d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" title="spawn" alt="" coords="2855,1115,2915,1141"/>
+<area shape="rect" id="node176" href="$df/def/server_2items_8qc.html#a95b5587513272c12b9d401ba026d7550" title="Sets the item loot status. " alt="" coords="2587,3723,2687,3749"/>
+<area shape="rect" id="node177" href="$db/d15/api_8qh.html#a7ee208dfaf077cf2c6ef10818b975fd9" title="navigation_dynamicgoal_init" alt="" coords="2545,3773,2730,3800"/>
+<area shape="rect" id="node178" href="$d5/de0/weaponsystem_8qc.html#a247df313dc346cd128c991a289157b06" title="W_DropEvent" alt="" coords="2585,3571,2689,3597"/>
+<area shape="rect" id="node179" href="$df/def/server_2items_8qc.html#a242ed0408675ef4cae9101d25277c05d" title="Sets the item expiring status (i.e. " alt="" coords="2576,3621,2699,3648"/>
+<area shape="rect" id="node180" href="$d5/d26/server_2defs_8qh.html#a60096e5c98b3b608470b6130fce0b405" title="weapon_defaultspawnfunc" alt="" coords="2549,3672,2725,3699"/>
+<area shape="rect" id="node181" href="$df/d64/throwing_8qc.html#a4f3e2059bf4df2dedf5cce1c3e2350fa" title="thrown_wep_think" alt="" coords="2574,3824,2701,3851"/>
+<area shape="rect" id="node182" href="$d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df" title="min" alt="" coords="2616,3317,2659,3344"/>
+<area shape="rect" id="node183" href="$d5/d09/resources_8qc.html#a88f207f357349ddd4d1f32b85d0c3f57" title="Gives an entity some resource. " alt="" coords="2585,3064,2690,3091"/>
+<area shape="rect" id="node191" href="$da/d10/sv__vehicles_8qc.html#acb307a79d42b2864e9d2a2781dccf1f0" title="vehicles_clearreturn" alt="" coords="2568,3368,2707,3395"/>
+<area shape="rect" id="node192" href="$da/d10/sv__vehicles_8qc.html#ad3ffec386d757806619974c310f81a71" title="vehicles_showwp" alt="" coords="1376,1700,1501,1727"/>
+<area shape="rect" id="node193" href="$da/d10/sv__vehicles_8qc.html#ab4b9ee5d4ac7f6ed106fea890dd76e5c" title="vehicles_return" alt="" coords="1597,1675,1707,1701"/>
+<area shape="rect" id="node202" href="$db/d07/teams_8qh.html#a40887618c0a56497f855f5631aa428d9" title="Team_ColorRGB" alt="" coords="2576,1064,2699,1091"/>
+<area shape="rect" id="node219" href="$da/d10/sv__vehicles_8qc.html#a0c8f69e9962a7863d7d9a19fdd3bcb37" title="vehicles_showwp_goaway" alt="" coords="1563,1725,1741,1752"/>
+<area shape="rect" id="node194" href="$da/d10/sv__vehicles_8qc.html#a9be836b28cd841ff63b259fe3291693e" title="vehicles_spawn" alt="" coords="1837,1773,1952,1800"/>
+<area shape="rect" id="node195" href="$da/d10/sv__vehicles_8qc.html#a2bce3d35334f0f1d42dcfb694b1df6af" title="vehicles_touch" alt="" coords="2075,1520,2184,1547"/>
+<area shape="rect" id="node203" href="$da/d10/sv__vehicles_8qc.html#acf3816b22eb29383c2df027f7a648046" title="vehicles_damage" alt="" coords="2576,811,2699,837"/>
+<area shape="rect" id="node215" href="$da/d10/sv__vehicles_8qc.html#a4dafdad030ed16fd1dfd22d4e854fcda" title="vehicles_reset" alt="" coords="2076,2699,2183,2725"/>
+<area shape="rect" id="node216" href="$da/d10/sv__vehicles_8qc.html#a849a38f311767a9e206e878bec7932ed" title="vehicles_think" alt="" coords="2077,1875,2182,1901"/>
+<area shape="rect" id="node196" href="$d5/de0/weaponsystem_8qc.html#a1798aef9c3263ffc0fb53a9741fc3ab9" title="forbidWeaponUse" alt="" coords="2317,1469,2443,1496"/>
+<area shape="rect" id="node197" href="$da/d10/sv__vehicles_8qc.html#ab61375dcd840955138307e48e8bcc1f4" title="vehicles_crushable" alt="" coords="2313,1520,2447,1547"/>
+<area shape="rect" id="node198" href="$d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4" title="normalize" alt="" coords="2846,1013,2925,1040"/>
+<area shape="rect" id="node199" href="$dc/d23/classVehicle.html#a962d81e9c45a8f2ad1349065e65d098f" title="(SERVER) called when a vehicle hits something " alt="" coords="2315,1571,2445,1597"/>
+<area shape="rect" id="node200" href="$da/d10/sv__vehicles_8qc.html#a018387a690e307f5cc7fb250212d7eb5" title="vehicles_enter" alt="" coords="2327,1165,2433,1192"/>
+<area shape="rect" id="node201" href="$dc/d23/classVehicle.html#a0143fe165e9d96006d3e1c71cba469b0" title="(SERVER) called when a player enters this vehicle while occupied " alt="" coords="2572,1166,2703,1207"/>
+<area shape="rect" id="node208" href="$d4/dd8/antilag_8qc.html#abcb3a90f91c3e77743e76b1ed5271f6a" title="antilag_clear" alt="" coords="2838,1216,2933,1243"/>
+<area shape="rect" id="node213" href="$dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4" title="CSQCModel_UnlinkEntity" alt="" coords="3033,253,3207,280"/>
+<area shape="rect" id="node214" href="$dc/d23/classVehicle.html#ab0033bb43b823ae364fcaa9f6d73c520" title="(SERVER) called when a player enters this vehicle " alt="" coords="2577,1232,2697,1259"/>
+<area shape="rect" id="node204" href="$da/d10/sv__vehicles_8qc.html#a591286be998a76b02e9182e2d7a9f746" title="shieldhit_think" alt="" coords="2833,912,2938,939"/>
+<area shape="rect" id="node205" href="$d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c" title="vectoangles" alt="" coords="2839,709,2931,736"/>
+<area shape="rect" id="node206" href="$d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b" title="fabs" alt="" coords="2862,760,2909,787"/>
+<area shape="rect" id="node207" href="$dc/d73/server_2miscfunctions_8qh.html#ae74ffea0b7b9c115fad6b8175d19d088" title="spamsound" alt="" coords="2841,811,2930,837"/>
+<area shape="rect" id="node210" href="$dc/d23/classVehicle.html#ad29884a3f395ad9d49c4eceab06a2957" title="(SERVER) called when vehicle dies " alt="" coords="2824,861,2947,888"/>
+<area shape="rect" id="node209" href="$d4/dd8/antilag_8qc.html#ae0fbe788776aa76ba7139d692e9c7adb" title="antilag_restore" alt="" coords="3067,1240,3173,1267"/>
+<area shape="rect" id="node212" href="$dc/d23/classVehicle.html#af7f5447512b9c7b0f697dd84c35b1040" title="(SERVER) called when a vehicle&#39;s colors are being reset, so modules can be updated ..." alt="" coords="2813,1384,2957,1411"/>
+<area shape="rect" id="node217" href="$dc/d23/classVehicle.html#a96f9f5c3ac6195be77b33b68a49bed46" title="(SERVER) logic to run every frame " alt="" coords="2321,1875,2439,1901"/>
+<area shape="rect" id="node218" href="$da/d10/sv__vehicles_8qc.html#a92cdd7efbcdaa3cf61dc0991746a2b74" title="vehicles_painframe" alt="" coords="2313,2787,2447,2813"/>
 </map>

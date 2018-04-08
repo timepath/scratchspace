@@ -207,56 +207,56 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d8a/dialog__multiplayer__media__screenshot_8qc_source.html#l00027">27</a> of file <a class="el" href="../../d8/d8a/dialog__multiplayer__media__screenshot_8qc_source.html">dialog_multiplayer_media_screenshot.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d8a/dialog__multiplayer__media__screenshot_8qc_source.html#l00025">25</a> of file <a class="el" href="../../d8/d8a/dialog__multiplayer__media__screenshot_8qc_source.html">dialog_multiplayer_media_screenshot.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00026">main</a>, <a class="el" href="../../df/d28/menu_2xonotic_2button_8qc_source.html#l00010">makeXonoticButton()</a>, <a class="el" href="../../d5/d6f/xonotic_2checkbox_8qc_source.html#l00040">makeXonoticCheckBoxEx()</a>, <a class="el" href="../../d1/dbf/xonotic_2inputbox_8qc_source.html#l00010">makeXonoticInputBox()</a>, <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00008">makeXonoticScreenshotList()</a>, <a class="el" href="../../d2/d67/textlabel_8qc_source.html#l00003">makeXonoticTextLabel()</a>, <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00172">ScreenshotList_Filter_Would_Change()</a>, <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00148">ScreenshotList_Refresh_Click()</a>, <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00239">StartScreenshot_Click()</a>, and <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>.</p>
-<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, slist;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    slist = <a class="code" href="../../d9/d18/screenshotlist_8qc.html#a558c0d207af827be8ddcbceab7c86ae4">makeXonoticScreenshotList</a>();</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">float</span> slist_height = me.rows - 2;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    me.TR(me);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        me.TD(me, 1, 0.6, e = <a class="code" href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a>(1, _(<span class="stringliteral">&quot;Filter:&quot;</span>)));</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        me.TD(me, 1, 2.4, e = <a class="code" href="../../d1/dbf/xonotic_2inputbox_8qc.html#ad82f579abfc7c0c38f41515a61ac289e">makeXonoticInputBox</a>(0, <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>));</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            e.onChange = <a class="code" href="../../d9/d18/screenshotlist_8qc.html#a0fce8428404e1a6e036c70e7b8bc9022">ScreenshotList_Filter_Would_Change</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            e.onChangeEntity = slist;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            slist.screenshotViewerDialog = <a class="code" href="../../d0/d41/menu_8qh.html#a4bd11f06d96b45bdf353de5f9acb0be1">main</a>.screenshotViewerDialog;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <a class="code" href="../../d0/d41/menu_8qh.html#a4bd11f06d96b45bdf353de5f9acb0be1">main</a>.screenshotViewerDialog.scrList = slist;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    me.gotoRC(me, 0, 3.1);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        me.TD(me, 1, 1.9, e = <a class="code" href="../../d5/d6f/xonotic_2checkbox_8qc.html#afe314e4226112bc511f89bdd74939c3d">makeXonoticCheckBoxEx</a>(2, 1, <span class="stringliteral">&quot;cl_autoscreenshot&quot;</span>, _(<span class="stringliteral">&quot;Auto screenshot scoreboard&quot;</span>)));</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        me.TD(me, 1, 1, e = <a class="code" href="../../df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9">makeXonoticButton</a>(_(<span class="stringliteral">&quot;Refresh&quot;</span>), <span class="stringliteral">&#39;0 0 0&#39;</span>));</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            e.onClick = <a class="code" href="../../d9/d18/screenshotlist_8qc.html#a7e2df3e1f1cc4666efe4a050d78acccf">ScreenshotList_Refresh_Click</a>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            e.onClickEntity = slist;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">/*me.TR(me);</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">        me.TD(me, 1, 0.5, e = makeXonoticTextLabel(0, &quot;Filter:&quot;));</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">        me.TD(me, 1, me.columns - 1.5, e = makeXonoticInputBox(0, string_null));</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">            e.onChange = ScreenshotList_Filter_Would_Change;</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">            e.onChangeEntity = slist;</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">            slist.screenshotViewerDialog = main.screenshotViewerDialog;</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">            main.screenshotViewerDialog.scrList = slist;</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">        me.TD(me, 1, 1, e = makeXonoticButton(_(&quot;Refresh&quot;), &#39;0 0 0&#39;));</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">            e.onClick = ScreenshotList_Refresh_Click;</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">            e.onClickEntity = slist;*/</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    me.gotoRC(me, 1.5, 0);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        me.TD(me, me.rows - 2.5, me.columns, slist);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    me.gotoRC(me, slist_height + 1, 0);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        me.TD(me, 1, me.columns, e = <a class="code" href="../../df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9">makeXonoticButton</a>(_(<span class="stringliteral">&quot;Open in the viewer&quot;</span>), <span class="stringliteral">&#39;0 0 0&#39;</span>));</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            e.onClick = <a class="code" href="../../d9/d18/screenshotlist_8qc.html#a8c5a1f49f3d9d935a59ac0deaf343157">StartScreenshot_Click</a>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            e.onClickEntity = slist;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">    me.TR(me);</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">        me.TD(me, me.rows - me.currentRow, me.columns, e = makeXonoticScreenshotImage());</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">            e.showTitle = 0;</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">            me.screenshotImage = e;</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">            slist.screenshotPreview = e;</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">            slist.screenshotBrowserDialog = me;</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, slist;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    slist = <a class="code" href="../../d9/d18/screenshotlist_8qc.html#a558c0d207af827be8ddcbceab7c86ae4">makeXonoticScreenshotList</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">float</span> slist_height = me.rows - 2;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    me.TR(me);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        me.TD(me, 1, 0.6, e = <a class="code" href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a>(1, _(<span class="stringliteral">&quot;Filter:&quot;</span>)));</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        me.TD(me, 1, 2.4, e = <a class="code" href="../../d1/dbf/xonotic_2inputbox_8qc.html#ad82f579abfc7c0c38f41515a61ac289e">makeXonoticInputBox</a>(0, <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>));</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            e.onChange = <a class="code" href="../../d9/d18/screenshotlist_8qc.html#a0fce8428404e1a6e036c70e7b8bc9022">ScreenshotList_Filter_Would_Change</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            e.onChangeEntity = slist;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            slist.screenshotViewerDialog = <a class="code" href="../../d0/d41/menu_8qh.html#a4bd11f06d96b45bdf353de5f9acb0be1">main</a>.screenshotViewerDialog;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <a class="code" href="../../d0/d41/menu_8qh.html#a4bd11f06d96b45bdf353de5f9acb0be1">main</a>.screenshotViewerDialog.scrList = slist;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    me.gotoRC(me, 0, 3.1);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        me.TD(me, 1, 1.9, e = <a class="code" href="../../d5/d6f/xonotic_2checkbox_8qc.html#afe314e4226112bc511f89bdd74939c3d">makeXonoticCheckBoxEx</a>(2, 1, <span class="stringliteral">&quot;cl_autoscreenshot&quot;</span>, _(<span class="stringliteral">&quot;Auto screenshot scoreboard&quot;</span>)));</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        me.TD(me, 1, 1, e = <a class="code" href="../../df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9">makeXonoticButton</a>(_(<span class="stringliteral">&quot;Refresh&quot;</span>), <span class="stringliteral">&#39;0 0 0&#39;</span>));</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            e.onClick = <a class="code" href="../../d9/d18/screenshotlist_8qc.html#a7e2df3e1f1cc4666efe4a050d78acccf">ScreenshotList_Refresh_Click</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            e.onClickEntity = slist;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">/*me.TR(me);</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">        me.TD(me, 1, 0.5, e = makeXonoticTextLabel(0, &quot;Filter:&quot;));</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">        me.TD(me, 1, me.columns - 1.5, e = makeXonoticInputBox(0, string_null));</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">            e.onChange = ScreenshotList_Filter_Would_Change;</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">            e.onChangeEntity = slist;</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">            slist.screenshotViewerDialog = main.screenshotViewerDialog;</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">            main.screenshotViewerDialog.scrList = slist;</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">        me.TD(me, 1, 1, e = makeXonoticButton(_(&quot;Refresh&quot;), &#39;0 0 0&#39;));</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">            e.onClick = ScreenshotList_Refresh_Click;</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">            e.onClickEntity = slist;*/</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    me.gotoRC(me, 1.5, 0);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        me.TD(me, me.rows - 2.5, me.columns, slist);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    me.gotoRC(me, slist_height + 1, 0);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        me.TD(me, 1, me.columns, e = <a class="code" href="../../df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9">makeXonoticButton</a>(_(<span class="stringliteral">&quot;Open in the viewer&quot;</span>), <span class="stringliteral">&#39;0 0 0&#39;</span>));</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            e.onClick = <a class="code" href="../../d9/d18/screenshotlist_8qc.html#a8c5a1f49f3d9d935a59ac0deaf343157">StartScreenshot_Click</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            e.onClickEntity = slist;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">    me.TR(me);</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">        me.TD(me, me.rows - me.currentRow, me.columns, e = makeXonoticScreenshotImage());</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">            e.showTitle = 0;</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">            me.screenshotImage = e;</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">            slist.screenshotPreview = e;</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">            slist.screenshotBrowserDialog = me;</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="screenshotlist_8qc_html_a8c5a1f49f3d9d935a59ac0deaf343157"><div class="ttname"><a href="../../d9/d18/screenshotlist_8qc.html#a8c5a1f49f3d9d935a59ac0deaf343157">StartScreenshot_Click</a></div><div class="ttdeci">void StartScreenshot_Click(entity btn, entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d18/screenshotlist_8qc_source.html#l00239">screenshotlist.qc:239</a></div></div>
 <div class="ttc" id="xonotic_2checkbox_8qc_html_afe314e4226112bc511f89bdd74939c3d"><div class="ttname"><a href="../../d5/d6f/xonotic_2checkbox_8qc.html#afe314e4226112bc511f89bdd74939c3d">makeXonoticCheckBoxEx</a></div><div class="ttdeci">entity makeXonoticCheckBoxEx(float theYesValue, float theNoValue, string theCvar, string theText)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6f/xonotic_2checkbox_8qc_source.html#l00040">checkbox.qc:40</a></div></div>
@@ -307,28 +307,15 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/d8a/dialog__multiplayer__media__screenshot_8qc_source.html#l00018">18</a> of file <a class="el" href="../../d8/d8a/dialog__multiplayer__media__screenshot_8qc_source.html">dialog_multiplayer_media_screenshot.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
+<p>References <a class="el" href="../../d2/db4/string_8qh_source.html#l00030">strcpy</a>.</p>
 <div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (me.currentScrPath == scrImage)</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span> (me.currentScrPath)</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(me.currentScrPath);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    me.currentScrPath = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(scrImage);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    me.screenshotImage.load(me.screenshotImage, me.currentScrPath);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
-<div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
-<div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a>(me.currentScrPath, scrImage);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    me.screenshotImage.load(me.screenshotImage, me.currentScrPath);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="ttc" id="string_8qh_html_a9911c5e0b0c9ecae050a2193eb6c2af5"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a></div><div class="ttdeci">#define strcpy(this, s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00030">string.qh:30</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d8a/dialog__multiplayer__media__screenshot_8qc_a34bd69c525919273e00a8b55edf956f0_cgraph.svg" width="328" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -337,7 +324,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d8/d8a/dialog__multiplayer__media__screenshot_8qc.html">dialog_multiplayer_media_screenshot.qc</a></li>
-    <li class="footer">Generated on Fri Apr 6 2018 17:59:54 for Xonotic by
+    <li class="footer">Generated on Sun Apr 8 2018 03:33:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

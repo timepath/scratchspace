@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"d9/d8c/classWaypoint.html#aee21256ea168a3b419a9cc2ab24125ed":[1,0,141,2],
 "d9/d8c/classWaypoint.html#af3482425b308c3fb38fc4809dc1c103d":[1,0,141,6],
 "d9/d8e/gamemode__assault_8qc.html":[2,0,6,3,0,2],
 "d9/d8e/gamemode__assault_8qc.html#a04d93982d839a10d20cb7453aa9050bc":[2,0,6,3,0,2,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "d9/dba/cl__player_8qh.html#a80b5a6070b815239f4b21b503b44cb0a":[2,0,4,0,5,5],
 "d9/dba/cl__player_8qh.html#a8efa3dff8614ab3d6a00736ec8580a18":[2,0,4,0,5,10],
 "d9/dba/cl__player_8qh.html#a8f53d59bae8daea04c980b64d5371909":[2,0,4,0,5,8],
-"d9/dba/cl__player_8qh.html#a9023433fb8a4dcfd3394db40e9036837":[2,0,4,0,5,4],
-"d9/dba/cl__player_8qh.html#a91e3fc3dbb2381411cc3b4068da45275":[2,0,4,0,5,12]
+"d9/dba/cl__player_8qh.html#a9023433fb8a4dcfd3394db40e9036837":[2,0,4,0,5,4]
 };

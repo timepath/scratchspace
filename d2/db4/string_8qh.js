@@ -7,6 +7,7 @@ var string_8qh =
     [ "IS_DIGIT", "d2/db4/string_8qh.html#a5d094027c5b25aa2cb2dd91cffdf0437", null ],
     [ "IS_HEXDIGIT", "d2/db4/string_8qh.html#abcc29d17efe4fff029717d5a8ed99c3e", null ],
     [ "startsWith", "d2/db4/string_8qh.html#a97b9c9eb2587047924a05f9f0df6903f", null ],
+    [ "strcpy", "d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5", null ],
     [ "strhasword", "d2/db4/string_8qh.html#a836225e275d6595a6f0e1b644ea8ba30", null ],
     [ "_shufflewords_swapfunc", "d2/db4/string_8qh.html#a6332abca4daaaa4b227fa3b267668b52", null ],
     [ "buf_load", "d2/db4/string_8qh.html#a1d0e883111c8be02c8329ff1021e4141", null ],

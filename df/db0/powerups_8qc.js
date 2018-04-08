@@ -8,7 +8,7 @@ var powerups_8qc =
     [ "count", "df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a", null ],
     [ "lifetime", "df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a", null ],
     [ "message", "df/db0/powerups_8qc.html#ae1ed0d7a6f352c7ee3ad978429822c6f", null ],
-    [ "netname", "df/db0/powerups_8qc.html#aa3617b17b0191b4d9454096aff09e1fe", null ],
+    [ "netname", "df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa", null ],
     [ "powerupItems", "df/db0/powerups_8qc.html#a1f1fca7e9f1d6a7ac9bf7bf9f89b169f", null ],
     [ "powerupItemsCount", "df/db0/powerups_8qc.html#aebc75135b1cbe6e36b848a73662a3318", null ]
 ];

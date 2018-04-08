@@ -1,5 +1,6 @@
 var NAVTREEINDEX137 =
 {
+"df/df7/classOffhandBlaster.html":[1,0,91],
 "df/df7/classOffhandBlaster.html#a3eebb9e4c20d2c338b773a030eca0ee0":[1,0,91,2],
 "df/df7/classOffhandBlaster.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,91,0],
 "df/df7/classOffhandBlaster.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,91,1],
@@ -239,8 +240,8 @@ var NAVTREEINDEX137 =
 "functions_d.html":[1,3,0,4],
 "functions_e.html":[1,3,0,5],
 "functions_f.html":[1,3,0,6],
-"functions_func.html":[1,3,1,0],
 "functions_func.html":[1,3,1],
+"functions_func.html":[1,3,1,0],
 "functions_func_a.html":[1,3,1,1],
 "functions_func_c.html":[1,3,1,2],
 "functions_func_d.html":[1,3,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX137 =
 "functions_func_f.html":[1,3,1,5],
 "functions_func_g.html":[1,3,1,6],
 "functions_func_h.html":[1,3,1,7],
-"functions_func_i.html":[1,3,1,8],
-"functions_func_k.html":[1,3,1,9]
+"functions_func_i.html":[1,3,1,8]
 };
