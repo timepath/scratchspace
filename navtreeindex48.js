@@ -1,5 +1,8 @@
 var NAVTREEINDEX48 =
 {
+"d5/d69/gamemode__cts_8qc.html#af5dfc6ea461bc4a16a26b29235a3ace8":[2,0,6,3,0,8,28],
+"d5/d69/gamemode__cts_8qc.html#afb08ceca30d90cb07ae055619990a79c":[2,0,6,3,0,8,24],
+"d5/d69/gamemode__cts_8qc.html#afcc761ec5d37bff059a0739d34f96a7a":[2,0,6,3,0,8,8],
 "d5/d69/gamemode__cts_8qc_source.html":[2,0,6,3,0,8],
 "d5/d6c/classXonoticHUDSkinList.html":[1,0,199],
 "d5/d6c/classXonoticHUDSkinList.html#a016e6f096a8e1ee3144f4625bab507e0":[1,0,199,26],
@@ -246,8 +249,5 @@ var NAVTREEINDEX48 =
 "d5/d8e/container_8qh.html#adfa1b30aeabb8629df67adbf17b32e69":[2,0,5,2,9,8],
 "d5/d8e/container_8qh_source.html":[2,0,5,2,9],
 "d5/d8f/item__key_8qh.html":[2,0,6,40],
-"d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b":[2,0,6,40,0],
-"d5/d8f/item__key_8qh.html#aaa1b14c30df8ce79e67b18ee42fbf912":[2,0,6,40,1],
-"d5/d8f/item__key_8qh_source.html":[2,0,6,40],
-"d5/d92/dialog__firstrun_8qh.html":[2,0,5,4,43]
+"d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b":[2,0,6,40,0]
 };

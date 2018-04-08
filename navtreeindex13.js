@@ -1,5 +1,8 @@
 var NAVTREEINDEX13 =
 {
+"d1/d9a/navigation_8qc.html#a956bb41e292b7dcbfaa013f178202584":[2,0,6,0,0,9,34],
+"d1/d9a/navigation_8qc.html#aa11c1bcb734cd6504a02ed3d2c634163":[2,0,6,0,0,9,11],
+"d1/d9a/navigation_8qc.html#aa51b44c16bb8770ff694c1a9f30cd28e":[2,0,6,0,0,9,13],
 "d1/d9a/navigation_8qc.html#aaf2e6c6ef36f70025f39c74a8e2ab08d":[2,0,6,0,0,9,6],
 "d1/d9a/navigation_8qc.html#ab5ecf1417a2c982fe294c52d7d1f9fad":[2,0,6,0,0,9,24],
 "d1/d9a/navigation_8qc.html#ab6d01fa32a875613a62f92c12a06bddd":[2,0,6,0,0,9,20],
@@ -136,8 +139,8 @@ var NAVTREEINDEX13 =
 "d1/dad/server_2command_2vote_8qc.html#aaa71782429a29dc1281807e966deaf7a":[2,0,6,1,16,33],
 "d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f":[2,0,6,1,16,15],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
-"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
+"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
 "d1/dad/server_2command_2vote_8qc.html#ac42f429ba6ba4289fa7af9310f40a0a4":[2,0,6,1,16,14],
 "d1/dad/server_2command_2vote_8qc.html#aeb5a1f746f1d97c3cc25df64e6b0ef68":[2,0,6,1,16,7],
 "d1/dad/server_2command_2vote_8qc.html#afa3842ee6c4c5d4bf93d915d2a3bfe2b":[2,0,6,1,16,17],
@@ -246,8 +249,5 @@ var NAVTREEINDEX13 =
 "d1/dba/server_2weapons_2common_8qh.html#aa32ee577201a563600a7666b730104d8":[2,0,6,5,5,6],
 "d1/dba/server_2weapons_2common_8qh.html#ab5df352ada1ad850a3d504fdc704c49f":[2,0,6,5,5,2],
 "d1/dba/server_2weapons_2common_8qh.html#abdb95a527623dfa15b93ce4c4df829f5":[2,0,6,5,5,5],
-"d1/dba/server_2weapons_2common_8qh.html#af7a217a45ded9e6d0af468fe18d2d65f":[2,0,6,5,5,1],
-"d1/dba/server_2weapons_2common_8qh_source.html":[2,0,6,5,5],
-"d1/dbb/server_2items_8qh.html":[2,0,6,42],
-"d1/dbb/server_2items_8qh.html#a08b65b29d4e4daae4c85d1dd01cf7fda":[2,0,6,42,0]
+"d1/dba/server_2weapons_2common_8qh.html#af7a217a45ded9e6d0af468fe18d2d65f":[2,0,6,5,5,1]
 };

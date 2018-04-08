@@ -1,5 +1,9 @@
 var NAVTREEINDEX130 =
 {
+"df/d30/client_2main_8qc.html#adf345a213a00d15b4ace5d029dfaaa2d":[2,0,0,15,9],
+"df/d30/client_2main_8qc.html#ae7a71c50fddc1b6cede7022e0304a3fe":[2,0,0,15,5],
+"df/d30/client_2main_8qc.html#aebc3e3dc95c54f2ad30ffd22350afc3f":[2,0,0,15,23],
+"df/d30/client_2main_8qc.html#aec1dc28d132f1f985b53b4b69f0f3b2f":[2,0,0,15,24],
 "df/d30/client_2main_8qc.html#aedccf761b7aed12682143b7596b1fac8":[2,0,0,15,32],
 "df/d30/client_2main_8qc.html#affd4aa7fbce73d395d146b6e164eb8e6":[2,0,0,15,18],
 "df/d30/client_2main_8qc_source.html":[2,0,0,15],
@@ -110,10 +114,10 @@ var NAVTREEINDEX130 =
 "df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,155,1],
 "df/d44/dialog__settings__video_8qh_source.html":[2,0,5,4,155],
 "df/d49/classSound.html":[1,0,123],
-"df/d49/classSound.html#a2d1ec80135b30ebeaf6b83fbc866245f":[1,0,123,2],
+"df/d49/classSound.html#a0b93830d7c6ceb2d2787197ebad366fd":[1,0,123,2],
+"df/d49/classSound.html#a2d1ec80135b30ebeaf6b83fbc866245f":[1,0,123,1],
 "df/d49/classSound.html#a3ed2cad33866839887c319ee5c10dd67":[1,0,123,0],
 "df/d49/classSound.html#a62a0dfe148f6ebd2ecf59f872dfec298":[1,0,123,4],
-"df/d49/classSound.html#ab00e99633c0c7e997a4745557395263a":[1,0,123,1],
 "df/d49/classSound.html#ad3474b173c3cc7d35fa96a04929d0378":[1,0,123,3],
 "df/d4a/common_2triggers_2trigger_2impulse_8qh.html":[2,0,1,13,3,19],
 "df/d4a/common_2triggers_2trigger_2impulse_8qh.html#a2c1c8f9331368f38bfc3eaee260b59a6":[2,0,1,13,3,19,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX130 =
 "df/d6e/classXonoticSingleplayerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,244,1],
 "df/d6e/classXonoticSingleplayerDialog.html#a3c3530831d992c56d8cd3c69b4a00575":[1,0,244,58],
 "df/d6e/classXonoticSingleplayerDialog.html#a3d4de5a21e8c26b649c275e35a9dbbe1":[1,0,244,5],
-"df/d6e/classXonoticSingleplayerDialog.html#a42f80ae577f4961d9d000a73830a7cdd":[1,0,244,59],
-"df/d6e/classXonoticSingleplayerDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,244,13],
-"df/d6e/classXonoticSingleplayerDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,244,74],
-"df/d6e/classXonoticSingleplayerDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,244,22],
-"df/d6e/classXonoticSingleplayerDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,244,49]
+"df/d6e/classXonoticSingleplayerDialog.html#a42f80ae577f4961d9d000a73830a7cdd":[1,0,244,59]
 };

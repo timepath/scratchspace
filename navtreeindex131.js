@@ -1,5 +1,9 @@
 var NAVTREEINDEX131 =
 {
+"df/d6e/classXonoticSingleplayerDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,244,13],
+"df/d6e/classXonoticSingleplayerDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,244,74],
+"df/d6e/classXonoticSingleplayerDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,244,22],
+"df/d6e/classXonoticSingleplayerDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,244,49],
 "df/d6e/classXonoticSingleplayerDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,244,27],
 "df/d6e/classXonoticSingleplayerDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,244,56],
 "df/d6e/classXonoticSingleplayerDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,244,33],
@@ -217,9 +221,9 @@ var NAVTREEINDEX131 =
 "df/d8c/cl__cmd_8qc.html#ac6ad4f76e1fab870cd7b34e038a0a6c0":[2,0,0,0,2,14],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,2,20],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,2,30],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,2,27],
 "df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7":[2,0,0,0,2,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX131 =
 "df/d92/classXonoticWinnerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,261,38],
 "df/d92/classXonoticWinnerDialog.html#a06cd3a718c21d0341739fb48f6496614":[1,0,261,67],
 "df/d92/classXonoticWinnerDialog.html#a06f22f349baac36d094647744aa008ac":[1,0,261,23],
-"df/d92/classXonoticWinnerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,261,3],
-"df/d92/classXonoticWinnerDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,261,81],
-"df/d92/classXonoticWinnerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,261,79],
-"df/d92/classXonoticWinnerDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,261,46],
-"df/d92/classXonoticWinnerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,261,24]
+"df/d92/classXonoticWinnerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,261,3]
 };

@@ -62,6 +62,8 @@ var searchData=
   ['_5fscores',['_scores',['../da/dc3/common_2scores_8qh.html#a9a73718d00603e50d00d9d1c265f10d4',1,'scores.qh']]],
   ['_5fselftemp',['_selftemp',['../d3/dd0/self_8qh.html#ace5065346de94dacc037daf771ec60ea',1,'self.qh']]],
   ['_5fshufflewords_5fstr',['_shufflewords_str',['../d2/db4/string_8qh.html#ab3e0957f7f441bf477eb9e5c9d9a17f1',1,'string.qh']]],
+  ['_5fsound_5ffixpath_5fcached',['_Sound_fixpath_cached',['../d0/df5/sound_8qh.html#afec83245c2f4d34847fcb23c9a9b01ad',1,'sound.qh']]],
+  ['_5fsound_5ffixpath_5fthis',['_Sound_fixpath_this',['../d0/df5/sound_8qh.html#a72e532b65a9766199b767533e2db3318',1,'sound.qh']]],
   ['_5fteamscores',['_teamscores',['../da/dc3/common_2scores_8qh.html#ab97882f6a5ab387abdbe993d8baf9292',1,'scores.qh']]],
   ['_5fteamscores_5fflags',['_teamscores_flags',['../da/dc3/common_2scores_8qh.html#a57152a5493477078063dc1044309b70a',1,'scores.qh']]],
   ['_5fteamscores_5flabel',['_teamscores_label',['../da/dc3/common_2scores_8qh.html#a7319c4c366cbbafadbe68affd67db198',1,'scores.qh']]],

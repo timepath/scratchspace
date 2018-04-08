@@ -1,5 +1,8 @@
 var NAVTREEINDEX37 =
 {
+"d4/d3b/classXonoticBigButton.html#a25fb94f638529791b1b30962fac50912":[1,0,147,50],
+"d4/d3b/classXonoticBigButton.html#a27b635e0916726012b7e8c4dca05064e":[1,0,147,34],
+"d4/d3b/classXonoticBigButton.html#a29ef318627232b8879b7e81131f937f7":[1,0,147,2],
 "d4/d3b/classXonoticBigButton.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,147,12],
 "d4/d3b/classXonoticBigButton.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,147,15],
 "d4/d3b/classXonoticBigButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,147,72],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d49/common_2mutators_2mutator_2kick__teamkiller_2__mod_8qh_source.html":[2,0,1,9,0,15,1],
 "d4/d4c/corner_8qc.html":[2,0,1,13,1,2],
 "d4/d4c/corner_8qc_source.html":[2,0,1,13,1,2],
-"d4/d4c/dialog__multiplayer__media__demo_8qc.html":[2,0,5,4,100],
-"d4/d4c/dialog__multiplayer__media__demo_8qc.html#a3f9f2caf67aab8fc5b5de8a6127aae6a":[2,0,5,4,100,4],
-"d4/d4c/dialog__multiplayer__media__demo_8qc.html#a65d685f1b5403e58720176cd5f77f71e":[2,0,5,4,100,1],
-"d4/d4c/dialog__multiplayer__media__demo_8qc.html#a85c659687c19c62a4fce8bbd23f51e76":[2,0,5,4,100,3]
+"d4/d4c/dialog__multiplayer__media__demo_8qc.html":[2,0,5,4,100]
 };

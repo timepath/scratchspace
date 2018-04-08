@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"d7/d39/classXonoticVideoSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,258,63],
+"d7/d39/classXonoticVideoSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,258,55],
+"d7/d39/classXonoticVideoSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,258,18],
+"d7/d39/classXonoticVideoSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,258,82],
 "d7/d39/classXonoticVideoSettingsTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,258,8],
 "d7/d39/classXonoticVideoSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,258,65],
 "d7/d39/classXonoticVideoSettingsTab.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,258,27],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "d7/d50/classXonoticPlayerList.html#afdcf1fb79903f747cda494b27206526b":[1,0,222,1],
 "d7/d52/common_2mutators_2mutator_2breakablehook_2__mod_8qh.html":[2,0,1,9,0,1,1],
 "d7/d52/common_2mutators_2mutator_2breakablehook_2__mod_8qh_source.html":[2,0,1,9,0,1,1],
-"d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh.html":[2,0,5,4,105],
-"d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh_source.html":[2,0,5,4,105],
-"d7/d5a/dialog__settings__user_8qh.html":[2,0,5,4,151],
-"d7/d5a/dialog__settings__user_8qh.html#a66f02ce333f6fc2ba9cfd196973b1295":[2,0,5,4,151,1],
-"d7/d5a/dialog__settings__user_8qh_source.html":[2,0,5,4,151]
+"d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh.html":[2,0,5,4,105]
 };

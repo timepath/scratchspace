@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('d6/d3f/nades_8qc_source.html','../../'
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../da/d3e/nades_8qh.html#a686132c927272e4033947a9294ac783b">Nade_FromProjectile</a>(proj.cnt) != NADE_TYPE_Null)</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(proj, MDL_PROJECTILE_NADE);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(proj, MDL_PROJECTILE_NADE);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> trail = Nade_TrailEffect(proj.cnt, proj.team);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">if</span> (trail.eent_eff_name) proj.traileffect = trail.m_id;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
@@ -289,7 +289,7 @@ $(document).ready(function(){initNavTree('d6/d3f/nades_8qc_source.html','../../'
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="keywordtype">void</span> nade_spawn(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> _nade)</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;{</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> timer = <span class="keyword">new</span>(nade_timer);</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(timer, MDL_NADE_TIMER);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(timer, MDL_NADE_TIMER);</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    setattachment(timer, _nade, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    timer.colormap = _nade.colormap;</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    timer.glowmod = _nade.glowmod;</div>
@@ -391,7 +391,7 @@ $(document).ready(function(){initNavTree('d6/d3f/nades_8qc_source.html','../../'
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(proj, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>);</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    proj.projectiledeathtype = DEATH_NADE_NAPALM.m_id;</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <a class="code" href="../../d5/d26/server_2defs_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628">PROJECTILE_MAKETRIGGER</a>(proj);</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(proj, MDL_Null);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(proj, MDL_Null);</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    proj.scale = 1;<span class="comment">//0.5;</span></div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    setsize(proj, <span class="stringliteral">&#39;-4 -4 -4&#39;</span>, <span class="stringliteral">&#39;4 4 4&#39;</span>);</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(proj, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a>);</div>
@@ -577,9 +577,9 @@ $(document).ready(function(){initNavTree('d6/d3f/nades_8qc_source.html','../../'
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;</div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;    <span class="keywordflow">if</span> ( <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a0a8d756db14b8361ebf721fb228169cc">autocvar_g_nades_ice_explode</a> )</div>
 <div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;    {</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;        <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(fountain, MDL_PROJECTILE_GRENADE);</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;        <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(fountain, MDL_PROJECTILE_GRENADE);</div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> timer = <span class="keyword">new</span>(nade_timer);</div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;        <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(timer, MDL_NADE_TIMER);</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;        <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(timer, MDL_NADE_TIMER);</div>
 <div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;        setattachment(timer, fountain, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;        timer.colormap = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa59079d98811e29214cd8415533a69e3">colormap</a>;</div>
 <div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;        timer.glowmod = this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#ab45736fb36b0b5641315be92b9747beb">glowmod</a>;</div>
@@ -590,7 +590,7 @@ $(document).ready(function(){initNavTree('d6/d3f/nades_8qc_source.html','../../'
 <div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;        timer.skin = 10;</div>
 <div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    }</div>
 <div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;        <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(fountain, MDL_Null);</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;        <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(fountain, MDL_Null);</div>
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;}</div>
 <div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;</div>
 <div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;<span class="keywordtype">void</span> nade_translocate_boom(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
@@ -664,7 +664,7 @@ $(document).ready(function(){initNavTree('d6/d3f/nades_8qc_source.html','../../'
 <div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;    orb.team = realown.team;</div>
 <div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;    orb.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a3973fdf525463133ef775c885b63b989">SOLID_TRIGGER</a>;</div>
 <div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;</div>
-<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(orb, MDL_NADE_ORB);</div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(orb, MDL_NADE_ORB);</div>
 <div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;    orb.skin = 1;</div>
 <div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;    orb.orb_radius = orb_rad; <span class="comment">// required for fading</span></div>
 <div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9771e20b5e6deab7a8bf4ba7e0c1ddc8">size</a> = <span class="stringliteral">&#39;1 1 1&#39;</span> * orb.orb_radius / 2;</div>
@@ -1189,7 +1189,7 @@ $(document).ready(function(){initNavTree('d6/d3f/nades_8qc_source.html','../../'
 <div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;</div>
 <div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;    .entity weaponentity = <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[0]; <span class="comment">// TODO: unhardcode</span></div>
 <div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;</div>
-<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(n, MDL_PROJECTILE_NADE);</div>
+<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(n, MDL_PROJECTILE_NADE);</div>
 <div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;    <span class="comment">//setattachment(n, player, &quot;bip01 l hand&quot;);</span></div>
 <div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;    n.exteriormodeltoclient = player;</div>
 <div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;    setcefc(n, nade_customize);</div>
@@ -1207,7 +1207,7 @@ $(document).ready(function(){initNavTree('d6/d3f/nades_8qc_source.html','../../'
 <div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;    n.nade_lifetime = ntime;</div>
 <div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;    n.alpha = <a class="code" href="../../da/d3e/nades_8qh.html#a287e485b78921bfb12751b2ef06e0460">Nades_from</a>(STAT(NADE_BONUS_TYPE, n)).m_alpha;</div>
 <div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;</div>
-<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(fn, MDL_NADE_VIEW);</div>
+<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(fn, MDL_NADE_VIEW);</div>
 <div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;    setattachment(fn, player.(weaponentity), <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;    fn.realowner = fn.owner = player;</div>
 <div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;    fn.colormod = <a class="code" href="../../da/d3e/nades_8qh.html#a287e485b78921bfb12751b2ef06e0460">Nades_from</a>(STAT(NADE_BONUS_TYPE, n)).m_color;</div>
@@ -1765,6 +1765,7 @@ $(document).ready(function(){initNavTree('d6/d3f/nades_8qc_source.html','../../'
 <div class="ttc" id="mathlib_8qc_html_a66f6ff0260855f272e4f24b7a3d724ea"><div class="ttname"><a href="../../df/d38/mathlib_8qc.html#a66f6ff0260855f272e4f24b7a3d724ea">exp</a></div><div class="ttdeci">float exp(float e)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00064">mathlib.qc:64</a></div></div>
 <div class="ttc" id="gamemode__freezetag_8qh_html_a22c1b1fa2cc3380d509007bc888e137c"><div class="ttname"><a href="../../d8/d89/gamemode__freezetag_8qh.html#a22c1b1fa2cc3380d509007bc888e137c">autocvar_g_freezetag_revive_nade_health</a></div><div class="ttdeci">float autocvar_g_freezetag_revive_nade_health</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00036">gamemode_freezetag.qh:36</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a674eb821c95b9034223bd1fcb8f8ff8e"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a674eb821c95b9034223bd1fcb8f8ff8e">autocvar_g_nades_napalm_blast</a></div><div class="ttdeci">bool autocvar_g_nades_napalm_blast</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00438">autocvars.qh:438</a></div></div>
+<div class="ttc" id="common_2models_2model_8qh_html_a3a2e813cbbc45c7871552b449f633298"><div class="ttname"><a href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a></div><div class="ttdeci">#define setmodel(this, m)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5e/common_2models_2model_8qh_source.html#l00026">model.qh:26</a></div></div>
 <div class="ttc" id="sv__buffs_8qc_html_aa29572fe821be9b2b28140848bff4f2a"><div class="ttname"><a href="../../d2/dac/sv__buffs_8qc.html#aa29572fe821be9b2b28140848bff4f2a">REPLICATE</a></div><div class="ttdeci">REPLICATE(cvar_cl_buffs_autoreplace, bool,&quot;cl_buffs_autoreplace&quot;)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aba5ae084f5790a34ce49a63cfc031b9f"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aba5ae084f5790a34ce49a63cfc031b9f">absmax</a></div><div class="ttdeci">vector absmax</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00092">csprogsdefs.qc:92</a></div></div>
 <div class="ttc" id="base_8qh_html_a4aa0be358192aebe98876abc370873a6"><div class="ttname"><a href="../../db/d38/base_8qh.html#a4aa0be358192aebe98876abc370873a6">CBC_ORDER_LAST</a></div><div class="ttdeci">const int CBC_ORDER_LAST</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00008">base.qh:8</a></div></div>
@@ -1780,7 +1781,6 @@ $(document).ready(function(){initNavTree('d6/d3f/nades_8qc_source.html','../../'
 <div class="ttc" id="server_2miscfunctions_8qh_html_a922a1c50f8ed3891e52d1ddd5ca15b40"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a922a1c50f8ed3891e52d1ddd5ca15b40">g_weaponspreadfactor</a></div><div class="ttdeci">float g_weaponspreadfactor</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00178">miscfunctions.qh:178</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_aeb4012d45ed047757f0a48605193564c"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#aeb4012d45ed047757f0a48605193564c">g_bot_dodge</a></div><div class="ttdeci">IntrusiveList g_bot_dodge</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00419">defs.qh:419</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a818a3a01a056d7a1bd0318928eabb76e"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a818a3a01a056d7a1bd0318928eabb76e">spawnshieldtime</a></div><div class="ttdeci">float spawnshieldtime</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00152">defs.qh:152</a></div></div>
-<div class="ttc" id="common_2models_2model_8qh_html_afcd7089918b04edc6747ce58850b51ae"><div class="ttname"><a href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a></div><div class="ttdeci">#define setmodel(e, m)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5e/common_2models_2model_8qh_source.html#l00003">model.qh:3</a></div></div>
 <div class="ttc" id="dpextensions_8qc_html_ac16842ea1e26ebf936c61382a2e6e0bd"><div class="ttname"><a href="../../de/d5e/dpextensions_8qc.html#ac16842ea1e26ebf936c61382a2e6e0bd">exteriormodeltoclient</a></div><div class="ttdeci">entity exteriormodeltoclient</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/dpextensions_8qc_source.html#l00248">dpextensions.qc:248</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_ae41319f12c8b4435bb09ff0f96745217"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ae41319f12c8b4435bb09ff0f96745217">autocvar_g_nades_bonus_score_minor</a></div><div class="ttdeci">int autocvar_g_nades_bonus_score_minor</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00456">autocvars.qh:456</a></div></div>
 <div class="ttc" id="intrusivelist_8qh_html_a1dc3261f72901c53357b5e01d94cb556"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a></div><div class="ttdeci">ERASEABLE entity IL_PUSH(IntrusiveList this, entity it)</div><div class="ttdoc">Push to tail. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00054">intrusivelist.qh:54</a></div></div>
@@ -1936,7 +1936,7 @@ $(document).ready(function(){initNavTree('d6/d3f/nades_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_17ef1929f5ae280d86dfb12dff4430d9.html">nades</a></li><li class="navelem"><a class="el" href="../../d6/d3f/nades_8qc.html">nades.qc</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 11:25:14 for Xonotic by
+    <li class="footer">Generated on Sun Apr 8 2018 12:13:39 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,8 @@
 var NAVTREEINDEX28 =
 {
+"d3/d77/shotgun_8qh.html":[2,0,1,16,0,35],
+"d3/d77/shotgun_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,35,1],
+"d3/d77/shotgun_8qh.html#a51afb043612b0929d78d6e88e0576d0e":[2,0,1,16,0,35,2],
 "d3/d77/shotgun_8qh_source.html":[2,0,1,16,0,35],
 "d3/d78/classAnimHost.html":[1,0,2],
 "d3/d78/classAnimHost.html#a1138a9b635e88f56850b424f5d1860b5":[1,0,2,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX28 =
 "d3/d9d/bgmscript_8qh_source.html":[2,0,0,10],
 "d3/d9e/common_2items_2item_2ammo_8qc.html":[2,0,1,5,0,2],
 "d3/d9e/common_2items_2item_2ammo_8qc_source.html":[2,0,1,5,0,2],
-"d3/d9e/dpextensions_8qh.html":[2,0,2,2],
-"d3/d9e/dpextensions_8qh.html#a03da3a537f9764333e85cbed8b52f4e4":[2,0,2,2,9],
-"d3/d9e/dpextensions_8qh.html#a06290390a8e4a515c220120b75b6d10a":[2,0,2,2,7],
-"d3/d9e/dpextensions_8qh.html#a1dbdad540b7732fb83c9f5799ac5e108":[2,0,2,2,28]
+"d3/d9e/dpextensions_8qh.html":[2,0,2,2]
 };

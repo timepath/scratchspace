@@ -1,5 +1,8 @@
 var NAVTREEINDEX16 =
 {
+"d2/d1c/weapons_2weapon_8qh.html#a7444bff240ad3f518a5cc595e9bc8d15":[2,0,1,16,13,11],
+"d2/d1c/weapons_2weapon_8qh.html#a79fb53e58c432f7bb94bc2e881f4c2b6":[2,0,1,16,13,15],
+"d2/d1c/weapons_2weapon_8qh.html#a823fa59ed5af69da8b4af13e01ee203c":[2,0,1,16,13,37],
 "d2/d1c/weapons_2weapon_8qh.html#a8291d5f4c89b48b838806f5f916d137e":[2,0,1,16,13,28],
 "d2/d1c/weapons_2weapon_8qh.html#a8cb060a205a71010c7ccc6bc72ba5331":[2,0,1,16,13,36],
 "d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2":[2,0,1,16,13,23],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "d2/d3a/rules_8qc.html":[2,0,1,3,3],
 "d2/d3a/rules_8qc_source.html":[2,0,1,3,3],
 "d2/d3b/weapons_2config_8qh.html":[2,0,1,16,11],
-"d2/d3b/weapons_2config_8qh_source.html":[2,0,1,16,11],
-"d2/d3c/dialog__hudpanel__score_8qh.html":[2,0,5,4,75],
-"d2/d3c/dialog__hudpanel__score_8qh_source.html":[2,0,5,4,75],
-"d2/d3d/classTurret.html":[1,0,135]
+"d2/d3b/weapons_2config_8qh_source.html":[2,0,1,16,11]
 };

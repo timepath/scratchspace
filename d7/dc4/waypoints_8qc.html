@@ -2793,7 +2793,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00159">159</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00241">autocvar_g_waypointeditor</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l00274">EF_LOWPRECISION</a>, <a class="el" href="../../da/d5e/common_2models_2model_8qh_source.html#l00003">setmodel</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00007">WAYPOINTFLAG_GENERATED</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00008">WAYPOINTFLAG_ITEM</a>.</p>
+<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00241">autocvar_g_waypointeditor</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l00274">EF_LOWPRECISION</a>, <a class="el" href="../../da/d5e/common_2models_2model_8qh_source.html#l00026">setmodel</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00007">WAYPOINTFLAG_GENERATED</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00008">WAYPOINTFLAG_ITEM</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00825">waypoint_load_or_remove_links_hardwired()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00641">waypoint_schedulerelink()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;{</div>
@@ -2802,7 +2802,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="comment">// TODO: add some sort of visible box in edit mode for box waypoints</span></div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> m1 = wp.mins;</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> m2 = wp.maxs;</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(wp, MDL_WAYPOINT);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(wp, MDL_WAYPOINT);</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        setsize(wp, m1, m2);</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        wp.effects = <a class="code" href="../../de/d5e/dpextensions_8qc.html#a7ef46523bf1f305084e2ca69db4f24ee">EF_LOWPRECISION</a>;</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">if</span> (wp.wpflags &amp; <a class="code" href="../../db/d15/api_8qh.html#a8e5726bbd3b42d3894887a4965ecd5e4">WAYPOINTFLAG_ITEM</a>)</div>
@@ -2817,9 +2817,9 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        wp.model = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;}</div>
+<div class="ttc" id="common_2models_2model_8qh_html_a3a2e813cbbc45c7871552b449f633298"><div class="ttname"><a href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a></div><div class="ttdeci">#define setmodel(this, m)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5e/common_2models_2model_8qh_source.html#l00026">model.qh:26</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_ab7c9b0a0e2167a533222cb4da7518def"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ab7c9b0a0e2167a533222cb4da7518def">autocvar_g_waypointeditor</a></div><div class="ttdeci">bool autocvar_g_waypointeditor</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00241">autocvars.qh:241</a></div></div>
-<div class="ttc" id="common_2models_2model_8qh_html_afcd7089918b04edc6747ce58850b51ae"><div class="ttname"><a href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a></div><div class="ttdeci">#define setmodel(e, m)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5e/common_2models_2model_8qh_source.html#l00003">model.qh:3</a></div></div>
 <div class="ttc" id="api_8qh_html_aa1fb4917cec6ee1ff962de8af430f46d"><div class="ttname"><a href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a></div><div class="ttdeci">const int WAYPOINTFLAG_GENERATED</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00007">api.qh:7</a></div></div>
 <div class="ttc" id="api_8qh_html_a8e5726bbd3b42d3894887a4965ecd5e4"><div class="ttname"><a href="../../db/d15/api_8qh.html#a8e5726bbd3b42d3894887a4965ecd5e4">WAYPOINTFLAG_ITEM</a></div><div class="ttdeci">const int WAYPOINTFLAG_ITEM</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00008">api.qh:8</a></div></div>
 <div class="ttc" id="dpextensions_8qc_html_a7ef46523bf1f305084e2ca69db4f24ee"><div class="ttname"><a href="../../de/d5e/dpextensions_8qc.html#a7ef46523bf1f305084e2ca69db4f24ee">EF_LOWPRECISION</a></div><div class="ttdeci">float EF_LOWPRECISION</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/dpextensions_8qc_source.html#l00274">dpextensions.qc:274</a></div></div>
@@ -4204,7 +4204,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../d7/dc4/waypoints_8qc.html">waypoints.qc</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 11:25:29 for Xonotic by
+    <li class="footer">Generated on Sun Apr 8 2018 12:13:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

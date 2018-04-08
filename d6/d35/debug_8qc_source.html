@@ -167,7 +167,7 @@ $(document).ready(function(){initNavTree('d6/d35/debug_8qc_source.html','../../'
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    node.scale     = <a class="code" href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a> / 512.001;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    node.solid     = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(node, MDL_SQUARE);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(node, MDL_SQUARE);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(node, node.origin);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    node.colormod = ncolor;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
@@ -195,7 +195,7 @@ $(document).ready(function(){initNavTree('d6/d35/debug_8qc_source.html','../../'
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    s.scale     = <a class="code" href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a> / 512.001;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    s.solid     = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(s, goodsquare ? MDL_SQUARE_GOOD : MDL_SQUARE_BAD);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(s, goodsquare ? MDL_SQUARE_GOOD : MDL_SQUARE_BAD);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    traceline(where + <span class="stringliteral">&#39;0 0 32&#39;</span>,where - <span class="stringliteral">&#39;0 0 128&#39;</span>,<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ae0d7c9ee7d3e6ed43d37c30912a68497">MOVE_WORLDONLY</a>,s);</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
@@ -220,7 +220,7 @@ $(document).ready(function(){initNavTree('d6/d35/debug_8qc_source.html','../../'
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    e.scale     = <a class="code" href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a> / 512;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    e.solid     = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>;</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(e, where);</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(e, MDL_EDGE);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(e, MDL_EDGE);</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="comment">//traceline(where + &#39;0 0 32&#39;,where - &#39;0 0 128&#39;,MOVE_WORLDONLY,e);</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="comment">//e.angles = vectoangles(trace_plane_normal);</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    e.angles_y = rot;</div>
@@ -237,9 +237,9 @@ $(document).ready(function(){initNavTree('d6/d35/debug_8qc_source.html','../../'
 <div class="ttc" id="powerups_8qc_html_a5d9cc36a06664262be19fae94fd8e00a"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a">lifetime</a></div><div class="ttdeci">float lifetime</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00015">powerups.qc:15</a></div></div>
 <div class="ttc" id="pathlib_8qh_html_ac8c87cdb7bc1d4999213ef3ab33a53a4"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#ac8c87cdb7bc1d4999213ef3ab33a53a4">path_next</a></div><div class="ttdeci">entity path_next</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00008">pathlib.qh:8</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00033">main.qh:33</a></div></div>
+<div class="ttc" id="common_2models_2model_8qh_html_a3a2e813cbbc45c7871552b449f633298"><div class="ttname"><a href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a></div><div class="ttdeci">#define setmodel(this, m)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5e/common_2models_2model_8qh_source.html#l00026">model.qh:26</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a822ea10e75a853993f2fa21149d76f4c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a></div><div class="ttdeci">vector vectoangles(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-<div class="ttc" id="common_2models_2model_8qh_html_afcd7089918b04edc6747ce58850b51ae"><div class="ttname"><a href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a></div><div class="ttdeci">#define setmodel(e, m)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5e/common_2models_2model_8qh_source.html#l00003">model.qh:3</a></div></div>
 <div class="ttc" id="pathlib_8qh_html_ada7c213b6d8fe67b52a785998106ed55"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a></div><div class="ttdeci">float pathlib_gridsize</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00055">pathlib.qh:55</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_ae0d7c9ee7d3e6ed43d37c30912a68497"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ae0d7c9ee7d3e6ed43d37c30912a68497">MOVE_WORLDONLY</a></div><div class="ttdeci">const int MOVE_WORLDONLY</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00137">csqc_constants.qh:137</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9d4fb8ccfb13fa0bd762af0b2b50dcf6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a></div><div class="ttdeci">float nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">csprogsdefs.qc:121</a></div></div>
@@ -254,7 +254,7 @@ $(document).ready(function(){initNavTree('d6/d35/debug_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_038facabb326e47524555c6946dd7e55.html">pathlib</a></li><li class="navelem"><a class="el" href="../../d6/d35/debug_8qc.html">debug.qc</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 11:25:17 for Xonotic by
+    <li class="footer">Generated on Sun Apr 8 2018 12:13:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

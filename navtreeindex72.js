@@ -1,5 +1,9 @@
 var NAVTREEINDEX72 =
 {
+"d7/dea/hagar_8qh.html":[2,0,1,16,0,15],
+"d7/dea/hagar_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,15,1],
+"d7/dea/hagar_8qh.html#af1ebae9389955ec1e35cc42d29e23c2c":[2,0,1,16,0,15,2],
+"d7/dea/hagar_8qh_source.html":[2,0,1,16,0,15],
 "d7/df0/hk__weapon_8qc.html":[2,0,1,14,0,18],
 "d7/df0/hk__weapon_8qc_source.html":[2,0,1,14,0,18],
 "d7/df4/commandbutton_8qc.html":[2,0,5,4,24],
@@ -245,9 +249,5 @@ var NAVTREEINDEX72 =
 "d8/d14/scripting_8qh.html#aa57f65b94ca8c45e5d65243036b86bc0":[2,0,6,0,0,12,13],
 "d8/d14/scripting_8qh.html#aaa716b1dd6d179a14a48cf56e37f0c45":[2,0,6,0,0,12,23],
 "d8/d14/scripting_8qh.html#aaf52cae7093a847ed99ca317c73fe73d":[2,0,6,0,0,12,33],
-"d8/d14/scripting_8qh.html#ab20a0b227adf2a518a753749718030f9":[2,0,6,0,0,12,49],
-"d8/d14/scripting_8qh.html#ab60ec58fc647af4d0feb4a3e839a853d":[2,0,6,0,0,12,16],
-"d8/d14/scripting_8qh.html#ab67baa1ea1f9c2ed4b7bf4abc41a735e":[2,0,6,0,0,12,8],
-"d8/d14/scripting_8qh.html#ab77590220a6986879310726d8ffeee00":[2,0,6,0,0,12,39],
-"d8/d14/scripting_8qh.html#abad1d3e4714ca1832aab73ee2b8862ea":[2,0,6,0,0,12,7]
+"d8/d14/scripting_8qh.html#ab20a0b227adf2a518a753749718030f9":[2,0,6,0,0,12,49]
 };

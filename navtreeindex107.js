@@ -1,5 +1,9 @@
 var NAVTREEINDEX107 =
 {
+"dc/d06/classDialog.html#add68d35176324007cc9ed8d72d847f37":[1,0,29,55],
+"dc/d06/classDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,29,29],
+"dc/d06/classDialog.html#ae06afa48e87c8abcda0c0d5e15b761e4":[1,0,29,64],
+"dc/d06/classDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,29,57],
 "dc/d06/classDialog.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,29,85],
 "dc/d06/classDialog.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,29,81],
 "dc/d06/classDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,29,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX107 =
 "dc/d30/classBallStealer.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,6,18],
 "dc/d30/gibs_8qh.html":[2,0,1,2,0,7],
 "dc/d30/gibs_8qh_source.html":[2,0,1,2,0,7],
-"dc/d36/walker_8qh.html":[2,0,1,14,0,43],
-"dc/d36/walker_8qh.html#ab38fa2db96349127fa767e499d74500f":[2,0,1,14,0,43,1],
-"dc/d36/walker_8qh_source.html":[2,0,1,14,0,43],
-"dc/d37/classXonoticHUDExitDialog.html":[1,0,186],
-"dc/d37/classXonoticHUDExitDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,186,30]
+"dc/d36/walker_8qh.html":[2,0,1,14,0,43]
 };

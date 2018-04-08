@@ -66,7 +66,7 @@ var searchData=
   ['_5fmovetype_5funstickentity',['_Movetype_UnstickEntity',['../d2/db1/movetypes_8qc.html#ab024873d80d2f0654e96629b7b47fd6a',1,'_Movetype_UnstickEntity(entity this):&#160;movetypes.qc'],['../d4/dd7/movetypes_8qh.html#a251727549d9304470e0bc547573eabcf',1,'_Movetype_UnstickEntity(entity this):&#160;movetypes.qc']]],
   ['_5fmovetype_5fwallfriction',['_Movetype_WallFriction',['../d2/db1/movetypes_8qc.html#ad797154b1325fa6f3b8aa5d2224d77b5',1,'_Movetype_WallFriction(entity this, vector stepnormal):&#160;movetypes.qc'],['../d4/dd7/movetypes_8qh.html#ad797154b1325fa6f3b8aa5d2224d77b5',1,'_Movetype_WallFriction(entity this, vector stepnormal):&#160;movetypes.qc']]],
   ['_5fshufflewords_5fswapfunc',['_shufflewords_swapfunc',['../d2/db4/string_8qh.html#a6332abca4daaaa4b227fa3b267668b52',1,'string.qh']]],
-  ['_5fsound_5ffixpath',['_Sound_fixpath',['../df/d49/classSound.html#ab00e99633c0c7e997a4745557395263a',1,'Sound']]],
+  ['_5fsound_5ffixpath',['_Sound_fixpath',['../d0/df5/sound_8qh.html#ac9b429b7924cfc7d494968e1f72b2b4d',1,'sound.qh']]],
   ['_5fspawn',['_spawn',['../db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4',1,'oo.qh']]],
   ['_5fwepset_5ffromweapon',['_WepSet_FromWeapon',['../d0/d2b/weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee',1,'_WepSet_FromWeapon(int a):&#160;all.qc'],['../d0/ddd/weapons_2all_8qh.html#afa58eea7e5b202d3baf065ef2d96e0f0',1,'_WepSet_FromWeapon(int i):&#160;all.qc']]]
 ];

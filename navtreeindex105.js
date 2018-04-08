@@ -1,5 +1,9 @@
 var NAVTREEINDEX105 =
 {
+"db/ddb/classXonoticCvarList.html#a39faad4c275af7a96e30379428646997":[1,0,162,19],
+"db/ddb/classXonoticCvarList.html#a3d20e31207b45594b949c746a97aa6cb":[1,0,162,2],
+"db/ddb/classXonoticCvarList.html#a405b285a76ac127664593c89281a5b63":[1,0,162,60],
+"db/ddb/classXonoticCvarList.html#a4135daca6398e567dcc912b57f2d083d":[1,0,162,3],
 "db/ddb/classXonoticCvarList.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,162,27],
 "db/ddb/classXonoticCvarList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,162,87],
 "db/ddb/classXonoticCvarList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,162,70],
@@ -245,9 +249,5 @@ var NAVTREEINDEX105 =
 "db/df7/colorpicker__string_8qc.html#a52448411886373146acf4ced2fda7793":[2,0,5,4,22,3],
 "db/df7/colorpicker__string_8qc.html#a5655c6477084f26b12a3be1295c06d65":[2,0,5,4,22,4],
 "db/df7/colorpicker__string_8qc.html#a674519a2325794456afd27a6c198d271":[2,0,5,4,22,2],
-"db/df7/colorpicker__string_8qc.html#ac089079e4c7d228aad0135be8da22610":[2,0,5,4,22,1],
-"db/df7/colorpicker__string_8qc.html#ac64e1f0e091335c86e6f64adb61e48f3":[2,0,5,4,22,6],
-"db/df7/colorpicker__string_8qc.html#adddeddac6ab0dc7ec36befe111ba9602":[2,0,5,4,22,0],
-"db/df7/colorpicker__string_8qc.html#ae8f08cb04b2436532cdfcd16f5204192":[2,0,5,4,22,5],
-"db/df7/colorpicker__string_8qc_source.html":[2,0,5,4,22]
+"db/df7/colorpicker__string_8qc.html#ac089079e4c7d228aad0135be8da22610":[2,0,5,4,22,1]
 };
