@@ -357,39 +357,35 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00154">154</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00148">ScreenshotList_Refresh_Click()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00042">strstrofs</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
+<p>References <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00148">ScreenshotList_Refresh_Click()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00056">strfree</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00042">strstrofs</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00178">XonoticScreenshotList_draw()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00175">XonoticScreenshotList_draw()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;{</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordflow">if</span>(me.filterString)</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(me.filterString);</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">if</span>(box.text != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    {</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(box.text, <span class="stringliteral">&quot;*&quot;</span>, 0) &gt;= 0 || <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(box.text, <span class="stringliteral">&quot;?&quot;</span>, 0) &gt;= 0)</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            me.filterString = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(box.text);</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            me.filterString = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;*&quot;</span>, box.text, <span class="stringliteral">&quot;*&quot;</span>));</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        me.filterString = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <a class="code" href="../../d9/d18/screenshotlist_8qc.html#a7e2df3e1f1cc4666efe4a050d78acccf">ScreenshotList_Refresh_Click</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, me);</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;}</div>
-<div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="code" href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a>(me.filterString);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">if</span>(box.text != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(box.text, <span class="stringliteral">&quot;*&quot;</span>, 0) &gt;= 0 || <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(box.text, <span class="stringliteral">&quot;?&quot;</span>, 0) &gt;= 0)</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            me.filterString = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(box.text);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            me.filterString = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;*&quot;</span>, box.text, <span class="stringliteral">&quot;*&quot;</span>));</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    }</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <a class="code" href="../../d9/d18/screenshotlist_8qc.html#a7e2df3e1f1cc4666efe4a050d78acccf">ScreenshotList_Refresh_Click</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, me);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
-<div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="dpextensions_8qh_html_a2ac3100017ecf2236493ea038c4d2083"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a></div><div class="ttdeci">#define strstrofs</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00042">dpextensions.qh:42</a></div></div>
 <div class="ttc" id="screenshotlist_8qc_html_a7e2df3e1f1cc4666efe4a050d78acccf"><div class="ttname"><a href="../../d9/d18/screenshotlist_8qc.html#a7e2df3e1f1cc4666efe4a050d78acccf">ScreenshotList_Refresh_Click</a></div><div class="ttdeci">void ScreenshotList_Refresh_Click(entity btn, entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d18/screenshotlist_8qc_source.html#l00148">screenshotlist.qc:148</a></div></div>
+<div class="ttc" id="string_8qh_html_a77e89c547b817664c0ed9b728b4c124f"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a></div><div class="ttdeci">#define strfree(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00056">string.qh:56</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d18/screenshotlist_8qc_ad54e6f81c64a6a9462cd99ec72833c4e_cgraph.svg" width="368" height="204"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d18/screenshotlist_8qc_ad54e6f81c64a6a9462cd99ec72833c4e_cgraph.svg" width="368" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -430,15 +426,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00172">172</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00169">169</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d8/d8a/dialog__multiplayer__media__screenshot_8qc_source.html#l00025">XonoticScreenshotBrowserTab_fill()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;{</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    me.filterBox = box;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    me.filterTime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.5;</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    me.filterBox = box;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    me.filterTime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.5;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -521,12 +517,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00239">239</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00236">236</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d8/d8a/dialog__multiplayer__media__screenshot_8qc_source.html#l00025">XonoticScreenshotBrowserTab_fill()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;{</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    me.startScreenshot(me);</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;{</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    me.startScreenshot(me);</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -614,10 +610,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00244">244</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;{</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    me.startScreenshot(me);</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00241">241</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;{</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    me.startScreenshot(me);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -635,33 +631,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00178">178</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00175">175</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
 
 <p>References <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00154">ScreenshotList_Filter_Change()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00225">SUPER</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
-<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;{</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keywordflow">if</span> (me.filterTime &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; me.filterTime)</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    {</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <a class="code" href="../../d9/d18/screenshotlist_8qc.html#ad54e6f81c64a6a9462cd99ec72833c4e">ScreenshotList_Filter_Change</a>(me.filterBox, me);</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        me.filterTime = 0;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    }</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">if</span> (me.newScreenshotTime &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; me.newScreenshotTime)</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    {</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        me.previewScreenshot(me);</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        me.newScreenshotTime = 0;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    }</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (me.newSlideShowScreenshotTime &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; me.newSlideShowScreenshotTime)</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    {</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">if</span> (me.selectedItem == me.nItems - 1) <span class="comment">//last screenshot?</span></div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        {</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            <span class="comment">// restart from the first screenshot</span></div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            me.setSelected(me, 0);</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            me.goScreenshot(me, +0);</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        }</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            me.goScreenshot(me, +1);</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    }</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../dc/d44/classXonoticScreenshotList.html">XonoticScreenshotList</a>).draw(me);</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;{</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordflow">if</span> (me.filterTime &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; me.filterTime)</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <a class="code" href="../../d9/d18/screenshotlist_8qc.html#ad54e6f81c64a6a9462cd99ec72833c4e">ScreenshotList_Filter_Change</a>(me.filterBox, me);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        me.filterTime = 0;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keywordflow">if</span> (me.newScreenshotTime &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; me.newScreenshotTime)</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        me.previewScreenshot(me);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        me.newScreenshotTime = 0;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    }</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (me.newSlideShowScreenshotTime &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; me.newSlideShowScreenshotTime)</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">if</span> (me.selectedItem == me.nItems - 1) <span class="comment">//last screenshot?</span></div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <span class="comment">// restart from the first screenshot</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            me.setSelected(me, 0);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            me.goScreenshot(me, +0);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        }</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            me.goScreenshot(me, +1);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../dc/d44/classXonoticScreenshotList.html">XonoticScreenshotList</a>).draw(me);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;}</div>
 <div class="ttc" id="screenshotlist_8qc_html_ad54e6f81c64a6a9462cd99ec72833c4e"><div class="ttname"><a href="../../d9/d18/screenshotlist_8qc.html#ad54e6f81c64a6a9462cd99ec72833c4e">ScreenshotList_Filter_Change</a></div><div class="ttdeci">void ScreenshotList_Filter_Change(entity box, entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d18/screenshotlist_8qc_source.html#l00154">screenshotlist.qc:154</a></div></div>
 <div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00225">oo.qh:225</a></div></div>
 <div class="ttc" id="classXonoticScreenshotList_html"><div class="ttname"><a href="../../dc/d44/classXonoticScreenshotList.html">XonoticScreenshotList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df2/screenshotlist_8qh_source.html#l00004">screenshotlist.qh:4</a></div></div>
@@ -672,7 +668,7 @@ Functions</h2></td></tr>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d18/screenshotlist_8qc_a302a1c1f1f4755f523e78fa7c2b82b3c_cgraph.svg" width="606" height="204"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d18/screenshotlist_8qc_a302a1c1f1f4755f523e78fa7c2b82b3c_cgraph.svg" width="606" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -723,7 +719,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00126">126</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/db1/draw_8qc_source.html#l00086">draw_Fill()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00271">draw_Text()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00366">draw_TextShortenToWidth()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00293">draw_TextWidth()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00046">eY</a>, and <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00830">getFadedAlpha()</a>.</p>
+<p>References <a class="el" href="../../d6/db1/draw_8qc_source.html#l00086">draw_Fill()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00271">draw_Text()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00366">draw_TextShortenToWidth()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00293">draw_TextWidth()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00046">eY</a>, and <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00829">getFadedAlpha()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;{</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordtype">string</span> s;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">if</span>(isSelected)</div>
@@ -738,7 +734,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    s = <a class="code" href="../../d6/db1/draw_8qc.html#a30c4ca2338b35f847f0b38491dad2c2b">draw_TextShortenToWidth</a>(s, me.columnNameSize, 0, me.realFontSize);</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <a class="code" href="../../d6/db1/draw_8qc.html#a9317e58388dd0f4801ecd46178a0f334">draw_Text</a>(me.realUpperMargin * <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> + (me.columnNameOrigin + 0.00 * (me.columnNameSize - <a class="code" href="../../d6/db1/draw_8qc.html#aa29fccebf6a85e8456bb1b2f86f9edb7">draw_TextWidth</a>(s, 0, me.realFontSize))) * <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a>, s, me.realFontSize, <span class="stringliteral">&#39;1 1 1&#39;</span>, SKINALPHA_TEXT, 1);</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;}</div>
-<div class="ttc" id="menu_2xonotic_2util_8qc_html_ab82c9c370db86ec43c7e9ef75a7fff6c"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ab82c9c370db86ec43c7e9ef75a7fff6c">getFadedAlpha</a></div><div class="ttdeci">float getFadedAlpha(float currentAlpha, float startAlpha, float targetAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00830">util.qc:830</a></div></div>
+<div class="ttc" id="menu_2xonotic_2util_8qc_html_ab82c9c370db86ec43c7e9ef75a7fff6c"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ab82c9c370db86ec43c7e9ef75a7fff6c">getFadedAlpha</a></div><div class="ttdeci">float getFadedAlpha(float currentAlpha, float startAlpha, float targetAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00829">util.qc:829</a></div></div>
 <div class="ttc" id="vector_8qh_html_a13163379d56e777f08a20fca27f20c2a"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a></div><div class="ttdeci">const vector eY</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00046">vector.qh:46</a></div></div>
 <div class="ttc" id="draw_8qc_html_ae1fc75c93136d527f4c296ce527311da"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#ae1fc75c93136d527f4c296ce527311da">draw_Fill</a></div><div class="ttdeci">void draw_Fill(vector theOrigin, vector theSize, vector theColor, float theAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00086">draw.qc:86</a></div></div>
 <div class="ttc" id="draw_8qc_html_aa29fccebf6a85e8456bb1b2f86f9edb7"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#aa29fccebf6a85e8456bb1b2f86f9edb7">draw_TextWidth</a></div><div class="ttdeci">float draw_TextWidth(string theText, float ICanHasKallerz, vector SizeThxBye)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00293">draw.qc:293</a></div></div>
@@ -830,15 +826,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00214">214</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00211">211</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;{</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordflow">if</span>(!me.screenshotViewerDialog)</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    me.setSelected(me, me.selectedItem + d);</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    me.screenshotViewerDialog.loadScreenshot(me.screenshotViewerDialog, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;/screenshots/&quot;</span>, strdecolorize(me.screenshotName(me,me.selectedItem))));</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;{</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordflow">if</span>(!me.screenshotViewerDialog)</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    me.setSelected(me, me.selectedItem + d);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    me.screenshotViewerDialog.loadScreenshot(me.screenshotViewerDialog, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;/screenshots/&quot;</span>, strdecolorize(me.screenshotName(me,me.selectedItem))));</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -889,16 +885,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00249">249</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00246">246</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
 
 <p>References <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00008">K_ENTER</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00074">K_KP_ENTER</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00130">K_MOUSE2</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00010">K_SPACE</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00225">SUPER</a>.</p>
-<div class="fragment"><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;{</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">if</span>(scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a773609a6bdeb929d39dad442cd5f9e66">K_ENTER</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a9387c1d3181db6665a4ed4c200a9f5bd">K_MOUSE2</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a73fbabbe0208abd0c8e74dd03b8ec69a">K_SPACE</a>) {</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        me.startScreenshot(me);</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    }</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../dc/d44/classXonoticScreenshotList.html">XonoticScreenshotList</a>).keyDown(me, scan, ascii, shift);</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;{</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordflow">if</span>(scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a773609a6bdeb929d39dad442cd5f9e66">K_ENTER</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a9387c1d3181db6665a4ed4c200a9f5bd">K_MOUSE2</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a73fbabbe0208abd0c8e74dd03b8ec69a">K_SPACE</a>) {</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        me.startScreenshot(me);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    }</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../dc/d44/classXonoticScreenshotList.html">XonoticScreenshotList</a>).keyDown(me, scan, ascii, shift);</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;}</div>
 <div class="ttc" id="keycodes_8qc_html_a73fbabbe0208abd0c8e74dd03b8ec69a"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a73fbabbe0208abd0c8e74dd03b8ec69a">K_SPACE</a></div><div class="ttdeci">float K_SPACE</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00010">keycodes.qc:10</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_aa4d21cae4374f406578b21e06ee55c28"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a></div><div class="ttdeci">float K_KP_ENTER</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00074">keycodes.qc:74</a></div></div>
 <div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00225">oo.qh:225</a></div></div>
@@ -922,17 +918,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00229">229</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00226">226</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;{</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordflow">if</span>(!me.screenshotBrowserDialog)</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keywordflow">if</span> (me.nItems &lt;= 0)</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        me.screenshotBrowserDialog.loadPreviewScreenshot(me.screenshotBrowserDialog, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        me.screenshotBrowserDialog.loadPreviewScreenshot(me.screenshotBrowserDialog, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;/screenshots/&quot;</span>, strdecolorize(me.screenshotName(me,me.selectedItem))));</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;{</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="keywordflow">if</span>(!me.screenshotBrowserDialog)</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordflow">if</span> (me.nItems &lt;= 0)</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        me.screenshotBrowserDialog.loadPreviewScreenshot(me.screenshotBrowserDialog, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        me.screenshotBrowserDialog.loadPreviewScreenshot(me.screenshotBrowserDialog, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;/screenshots/&quot;</span>, strdecolorize(me.screenshotName(me,me.selectedItem))));</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1144,14 +1140,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00222">222</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00219">219</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
 
 <p>References <a class="el" href="../../d9/d19/modalcontroller_8qc_source.html#l00035">DialogOpenButton_Click_withCoords()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00046">eY</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;{</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    me.screenshotViewerDialog.loadScreenshot(me.screenshotViewerDialog, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;/screenshots/&quot;</span>, strdecolorize(me.screenshotName(me,me.selectedItem))));</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="comment">// pop up screenshot</span></div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab299c36738ab44965d57a68db9ac255e">DialogOpenButton_Click_withCoords</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, me.screenshotViewerDialog, me.origin + <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a> * (me.columnNameOrigin * me.size.x) + <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> * ((me.itemHeight * me.selectedItem - me.scrollPos) * me.size.y), <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> * me.itemAbsSize.y + <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a> * (me.itemAbsSize.x * me.columnNameSize));</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;{</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    me.screenshotViewerDialog.loadScreenshot(me.screenshotViewerDialog, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;/screenshots/&quot;</span>, strdecolorize(me.screenshotName(me,me.selectedItem))));</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="comment">// pop up screenshot</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab299c36738ab44965d57a68db9ac255e">DialogOpenButton_Click_withCoords</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, me.screenshotViewerDialog, me.origin + <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a> * (me.columnNameOrigin * me.size.x) + <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> * ((me.itemHeight * me.selectedItem - me.scrollPos) * me.size.y), <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> * me.itemAbsSize.y + <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a> * (me.itemAbsSize.x * me.columnNameSize));</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;}</div>
 <div class="ttc" id="vector_8qh_html_a13163379d56e777f08a20fca27f20c2a"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a></div><div class="ttdeci">const vector eY</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00046">vector.qh:46</a></div></div>
 <div class="ttc" id="modalcontroller_8qc_html_ab299c36738ab44965d57a68db9ac255e"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#ab299c36738ab44965d57a68db9ac255e">DialogOpenButton_Click_withCoords</a></div><div class="ttdeci">void DialogOpenButton_Click_withCoords(entity button, entity tab, vector theOrigin, vector theSize)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d19/modalcontroller_8qc_source.html#l00035">modalcontroller.qc:35</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
@@ -1184,12 +1180,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00204">204</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00201">201</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
-<div class="fragment"><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;{</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    me.newSlideShowScreenshotTime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 3;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;{</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    me.newSlideShowScreenshotTime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 3;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -1208,10 +1204,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00209">209</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;{</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    me.newSlideShowScreenshotTime = 0;</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00206">206</a> of file <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html">screenshotlist.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;{</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    me.newSlideShowScreenshotTime = 0;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1221,7 +1217,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d9/d18/screenshotlist_8qc.html">screenshotlist.qc</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 12:13:51 for Xonotic by
+    <li class="footer">Generated on Mon Apr 9 2018 10:28:14 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -238,7 +238,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00111">NEW</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/dbf/xonotic_2inputbox_8qc_source.html#l00010">makeXonoticInputBox()</a>, <a class="el" href="../../d3/dbd/dialog__firstrun_8qc_source.html#l00031">XonoticFirstRunDialog_fill()</a>, <a class="el" href="../../d9/d63/dialog__settings__misc_8qc_source.html#l00021">XonoticMiscSettingsTab_fill()</a>, <a class="el" href="../../d2/dd3/dialog__multiplayer__profile_8qc_source.html#l00030">XonoticProfileTab_fill()</a>, and <a class="el" href="../../d7/de3/dialog__multiplayer__create_8qc_source.html#l00090">XonoticServerCreateTab_fill()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/dbf/xonotic_2inputbox_8qc_source.html#l00010">makeXonoticInputBox()</a>, <a class="el" href="../../d3/dbd/dialog__firstrun_8qc_source.html#l00031">XonoticFirstRunDialog_fill()</a>, <a class="el" href="../../d9/d63/dialog__settings__misc_8qc_source.html#l00021">XonoticMiscSettingsTab_fill()</a>, <a class="el" href="../../d2/dd3/dialog__multiplayer__profile_8qc_source.html#l00030">XonoticProfileTab_fill()</a>, and <a class="el" href="../../d7/de3/dialog__multiplayer__create_8qc_source.html#l00082">XonoticServerCreateTab_fill()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    me = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../d8/d8f/classXonoticInputBox.html">XonoticInputBox</a>);</div>
@@ -327,7 +327,7 @@ Functions</h2></td></tr>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/dbf/xonotic_2inputbox_8qc_acad6cccc92cf8d76b453d5f5d424cb46_cgraph.svg" width="480" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/dbf/xonotic_2inputbox_8qc_acad6cccc92cf8d76b453d5f5d424cb46_cgraph.svg" width="467" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -472,14 +472,14 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/dbf/xonotic_2inputbox_8qc_source.html#l00046">46</a> of file <a class="el" href="../../d1/dbf/xonotic_2inputbox_8qc_source.html">inputbox.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00839">CheckSendCvars()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>.</p>
+<p>References <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00838">CheckSendCvars()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">if</span> (!me.cvarName)</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(me.cvarName, me.text);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#ab1a12c6efcea09204c8c4461ca36efff">CheckSendCvars</a>(me, me.cvarName);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
-<div class="ttc" id="menu_2xonotic_2util_8qc_html_ab1a12c6efcea09204c8c4461ca36efff"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ab1a12c6efcea09204c8c4461ca36efff">CheckSendCvars</a></div><div class="ttdeci">void CheckSendCvars(entity me, string cvarnamestring)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00839">util.qc:839</a></div></div>
+<div class="ttc" id="menu_2xonotic_2util_8qc_html_ab1a12c6efcea09204c8c4461ca36efff"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ab1a12c6efcea09204c8c4461ca36efff">CheckSendCvars</a></div><div class="ttdeci">void CheckSendCvars(entity me, string cvarnamestring)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00838">util.qc:838</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -544,7 +544,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d1/dbf/xonotic_2inputbox_8qc.html">inputbox.qc</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 12:13:50 for Xonotic by
+    <li class="footer">Generated on Mon Apr 9 2018 10:28:13 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

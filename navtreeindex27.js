@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"d3/d5a/gamemode__keepaway_8qc.html#a6983dd2aab63c06e454ba4d8d859b541":[2,0,6,3,0,18,39],
 "d3/d5a/gamemode__keepaway_8qc.html#a6f593188e0c0fe51e4a50f3b081a0d4e":[2,0,6,3,0,18,31],
 "d3/d5a/gamemode__keepaway_8qc.html#a7a47c74d2d38348c8860cc777559ff63":[2,0,6,3,0,18,28],
 "d3/d5a/gamemode__keepaway_8qc.html#a86061be148c622702eb7f2c9a2c935f4":[2,0,6,3,0,18,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d73/gamemode__ctf_8qc.html#afb2c59bc3b1ee0e0518cc645b93ddaff":[2,0,6,3,0,6,29],
 "d3/d73/gamemode__ctf_8qc.html#afe308b36c08b5e6098983cbf5e00a85d":[2,0,6,3,0,6,93],
 "d3/d73/gamemode__ctf_8qc.html#afe47e50b88a1c1cd6e88bbec6ab3fc53":[2,0,6,3,0,6,38],
-"d3/d73/gamemode__ctf_8qc.html#afed4d3a24a50b50e05de100f031897a9":[2,0,6,3,0,6,123],
-"d3/d73/gamemode__ctf_8qc_source.html":[2,0,6,3,0,6]
+"d3/d73/gamemode__ctf_8qc.html#afed4d3a24a50b50e05de100f031897a9":[2,0,6,3,0,6,123]
 };

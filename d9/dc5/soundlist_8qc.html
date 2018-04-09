@@ -237,12 +237,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00118">118</a> of file <a class="el" href="../../d9/dc5/soundlist_8qc_source.html">soundlist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00115">115</a> of file <a class="el" href="../../d9/dc5/soundlist_8qc_source.html">soundlist.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d3e/dialog__multiplayer__media__musicplayer_8qc_source.html#l00018">XonoticMusicPlayerTab_fill()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;{</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    me.playlist.addToPlayList(me.playlist, me.soundName(me, me.selectedItem));</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;{</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    me.playlist.addToPlayList(me.playlist, me.soundName(me, me.selectedItem));</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -280,14 +280,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00123">123</a> of file <a class="el" href="../../d9/dc5/soundlist_8qc_source.html">soundlist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00120">120</a> of file <a class="el" href="../../d9/dc5/soundlist_8qc_source.html">soundlist.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d3e/dialog__multiplayer__media__musicplayer_8qc_source.html#l00018">XonoticMusicPlayerTab_fill()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;{</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordtype">int</span> i;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt; me.nItems; ++i)</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        me.playlist.addToPlayList(me.playlist, me.soundName(me, i));</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;{</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">int</span> i;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt; me.nItems; ++i)</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        me.playlist.addToPlayList(me.playlist, me.soundName(me, i));</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -327,30 +327,26 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00105">105</a> of file <a class="el" href="../../d9/dc5/soundlist_8qc_source.html">soundlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
+<p>References <a class="el" href="../../d2/db4/string_8qh_source.html#l00056">strfree</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d3e/dialog__multiplayer__media__musicplayer_8qc_source.html#l00018">XonoticMusicPlayerTab_fill()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">if</span>(me.filterString)</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(me.filterString);</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">if</span>(box.text != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        me.filterString = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(box.text);</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        me.filterString = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    me.getSounds(me);</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
-<div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a>(me.filterString);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">if</span>(box.text != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        me.filterString = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(box.text);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    me.getSounds(me);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
-<div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
+<div class="ttc" id="string_8qh_html_a77e89c547b817664c0ed9b728b4c124f"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a></div><div class="ttdeci">#define strfree(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00056">string.qh:56</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc5/soundlist_8qc_abd04dbedc30d309d248f4e669c4e98f7_cgraph.svg" width="307" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc5/soundlist_8qc_abd04dbedc30d309d248f4e669c4e98f7_cgraph.svg" width="294" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -567,10 +563,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00130">130</a> of file <a class="el" href="../../d9/dc5/soundlist_8qc_source.html">soundlist.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;{</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    me.playlist.addToPlayList(me.playlist, me.soundName(me, i));</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00127">127</a> of file <a class="el" href="../../d9/dc5/soundlist_8qc_source.html">soundlist.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;{</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    me.playlist.addToPlayList(me.playlist, me.soundName(me, i));</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -618,7 +614,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00069">69</a> of file <a class="el" href="../../d9/dc5/soundlist_8qc_source.html">soundlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8">cvar_defstring()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00287">draw_CenterText()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00086">draw_Fill()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00271">draw_Text()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00366">draw_TextShortenToWidth()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00046">eY</a>, and <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00830">getFadedAlpha()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8">cvar_defstring()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00287">draw_CenterText()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00086">draw_Fill()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00271">draw_Text()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00366">draw_TextShortenToWidth()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00046">eY</a>, and <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00829">getFadedAlpha()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">string</span> s;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">if</span>(isSelected)</div>
@@ -638,7 +634,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    s = <a class="code" href="../../d6/db1/draw_8qc.html#a30c4ca2338b35f847f0b38491dad2c2b">draw_TextShortenToWidth</a>(s, me.columnNameSize, 0, me.realFontSize);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="../../d6/db1/draw_8qc.html#a9317e58388dd0f4801ecd46178a0f334">draw_Text</a>(me.realUpperMargin * <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> + me.columnNameOrigin * <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a>, s, me.realFontSize, <span class="stringliteral">&#39;1 1 1&#39;</span>, SKINALPHA_TEXT, 0);</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
-<div class="ttc" id="menu_2xonotic_2util_8qc_html_ab82c9c370db86ec43c7e9ef75a7fff6c"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ab82c9c370db86ec43c7e9ef75a7fff6c">getFadedAlpha</a></div><div class="ttdeci">float getFadedAlpha(float currentAlpha, float startAlpha, float targetAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00830">util.qc:830</a></div></div>
+<div class="ttc" id="menu_2xonotic_2util_8qc_html_ab82c9c370db86ec43c7e9ef75a7fff6c"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ab82c9c370db86ec43c7e9ef75a7fff6c">getFadedAlpha</a></div><div class="ttdeci">float getFadedAlpha(float currentAlpha, float startAlpha, float targetAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00829">util.qc:829</a></div></div>
 <div class="ttc" id="vector_8qh_html_a13163379d56e777f08a20fca27f20c2a"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a></div><div class="ttdeci">const vector eY</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00046">vector.qh:46</a></div></div>
 <div class="ttc" id="draw_8qc_html_ae1fc75c93136d527f4c296ce527311da"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#ae1fc75c93136d527f4c296ce527311da">draw_Fill</a></div><div class="ttdeci">void draw_Fill(vector theOrigin, vector theSize, vector theColor, float theAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00086">draw.qc:86</a></div></div>
 <div class="ttc" id="draw_8qc_html_abb689f87717c7ad95d58db46ee9cf9b4"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#abb689f87717c7ad95d58db46ee9cf9b4">draw_CenterText</a></div><div class="ttdeci">void draw_CenterText(vector theOrigin, string theText, vector theSize, vector theColor, float theAlpha, float ICanHasKallerz)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00287">draw.qc:287</a></div></div>
@@ -746,17 +742,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00135">135</a> of file <a class="el" href="../../d9/dc5/soundlist_8qc_source.html">soundlist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00132">132</a> of file <a class="el" href="../../d9/dc5/soundlist_8qc_source.html">soundlist.qc</a>.</p>
 
 <p>References <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00008">K_ENTER</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00074">K_KP_ENTER</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00010">K_SPACE</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00225">SUPER</a>.</p>
-<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;{</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordflow">if</span>(scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a773609a6bdeb929d39dad442cd5f9e66">K_ENTER</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a73fbabbe0208abd0c8e74dd03b8ec69a">K_SPACE</a>) {</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        me.playlist.addToPlayList(me.playlist, me.soundName(me, me.selectedItem));</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d1/d70/classXonoticSoundList.html">XonoticSoundList</a>).keyDown(me, scan, ascii, shift);</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;{</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">if</span>(scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a773609a6bdeb929d39dad442cd5f9e66">K_ENTER</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a73fbabbe0208abd0c8e74dd03b8ec69a">K_SPACE</a>) {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        me.playlist.addToPlayList(me.playlist, me.soundName(me, me.selectedItem));</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    }</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d1/d70/classXonoticSoundList.html">XonoticSoundList</a>).keyDown(me, scan, ascii, shift);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;}</div>
 <div class="ttc" id="classXonoticSoundList_html"><div class="ttname"><a href="../../d1/d70/classXonoticSoundList.html">XonoticSoundList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dda/soundlist_8qh_source.html#l00004">soundlist.qh:4</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_a73fbabbe0208abd0c8e74dd03b8ec69a"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a73fbabbe0208abd0c8e74dd03b8ec69a">K_SPACE</a></div><div class="ttdeci">float K_SPACE</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00010">keycodes.qc:10</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_aa4d21cae4374f406578b21e06ee55c28"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a></div><div class="ttdeci">float K_KP_ENTER</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00074">keycodes.qc:74</a></div></div>
@@ -905,7 +901,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d9/dc5/soundlist_8qc.html">soundlist.qc</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 12:13:52 for Xonotic by
+    <li class="footer">Generated on Mon Apr 9 2018 10:28:15 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

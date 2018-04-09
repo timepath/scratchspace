@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"d7/d39/classXonoticVideoSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,258,21],
 "d7/d39/classXonoticVideoSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,258,63],
 "d7/d39/classXonoticVideoSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,258,55],
 "d7/d39/classXonoticVideoSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,258,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "d7/d50/classXonoticPlayerList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,222,21],
 "d7/d50/classXonoticPlayerList.html#afdcf1fb79903f747cda494b27206526b":[1,0,222,1],
 "d7/d52/common_2mutators_2mutator_2breakablehook_2__mod_8qh.html":[2,0,1,9,0,1,1],
-"d7/d52/common_2mutators_2mutator_2breakablehook_2__mod_8qh_source.html":[2,0,1,9,0,1,1],
-"d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh.html":[2,0,5,4,105]
+"d7/d52/common_2mutators_2mutator_2breakablehook_2__mod_8qh_source.html":[2,0,1,9,0,1,1]
 };

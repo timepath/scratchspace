@@ -1,5 +1,6 @@
 var NAVTREEINDEX105 =
 {
+"db/ddb/classXonoticCvarList.html#a39f577a04dcc5c31e497468541d43f67":[1,0,162,6],
 "db/ddb/classXonoticCvarList.html#a39faad4c275af7a96e30379428646997":[1,0,162,19],
 "db/ddb/classXonoticCvarList.html#a3d20e31207b45594b949c746a97aa6cb":[1,0,162,2],
 "db/ddb/classXonoticCvarList.html#a405b285a76ac127664593c89281a5b63":[1,0,162,60],
@@ -248,6 +249,5 @@ var NAVTREEINDEX105 =
 "db/df7/colorpicker__string_8qc.html#a4295e1a543aa3694e2987c6731c226ad":[2,0,5,4,22,7],
 "db/df7/colorpicker__string_8qc.html#a52448411886373146acf4ced2fda7793":[2,0,5,4,22,3],
 "db/df7/colorpicker__string_8qc.html#a5655c6477084f26b12a3be1295c06d65":[2,0,5,4,22,4],
-"db/df7/colorpicker__string_8qc.html#a674519a2325794456afd27a6c198d271":[2,0,5,4,22,2],
-"db/df7/colorpicker__string_8qc.html#ac089079e4c7d228aad0135be8da22610":[2,0,5,4,22,1]
+"db/df7/colorpicker__string_8qc.html#a674519a2325794456afd27a6c198d271":[2,0,5,4,22,2]
 };

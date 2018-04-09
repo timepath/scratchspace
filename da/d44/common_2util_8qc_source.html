@@ -1502,228 +1502,227 @@ $(document).ready(function(){initNavTree('da/d44/common_2util_8qc_source.html','
 <div class="line"><a name="l01395"></a><span class="lineno"> 1395</span>&#160;    <span class="keywordflow">if</span>(to_execute_next_frame)</div>
 <div class="line"><a name="l01396"></a><span class="lineno"> 1396</span>&#160;    {</div>
 <div class="line"><a name="l01397"></a><span class="lineno"> 1397</span>&#160;        <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;\n&quot;</span>, to_execute_next_frame, <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l01398"></a><span class="lineno"> 1398</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(to_execute_next_frame);</div>
-<div class="line"><a name="l01399"></a><span class="lineno"> 1399</span>&#160;        to_execute_next_frame = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
-<div class="line"><a name="l01400"></a><span class="lineno"> 1400</span>&#160;    }</div>
-<div class="line"><a name="l01401"></a><span class="lineno"> 1401</span>&#160;}</div>
-<div class="line"><a name="l01402"></a><span class="lineno"><a class="line" href="../../d5/df2/common_2util_8qh.html#a154ba8224ee5f36a7e74adc8e625df72"> 1402</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/d44/common_2util_8qc.html#a154ba8224ee5f36a7e74adc8e625df72">queue_to_execute_next_frame</a>(<span class="keywordtype">string</span> s)</div>
-<div class="line"><a name="l01403"></a><span class="lineno"> 1403</span>&#160;{</div>
-<div class="line"><a name="l01404"></a><span class="lineno"> 1404</span>&#160;    <span class="keywordflow">if</span>(to_execute_next_frame)</div>
-<div class="line"><a name="l01405"></a><span class="lineno"> 1405</span>&#160;    {</div>
-<div class="line"><a name="l01406"></a><span class="lineno"> 1406</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot;\n&quot;</span>, to_execute_next_frame);</div>
-<div class="line"><a name="l01407"></a><span class="lineno"> 1407</span>&#160;    }</div>
-<div class="line"><a name="l01408"></a><span class="lineno"> 1408</span>&#160;    <a class="code" href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a>(to_execute_next_frame, s);</div>
-<div class="line"><a name="l01409"></a><span class="lineno"> 1409</span>&#160;}</div>
-<div class="line"><a name="l01410"></a><span class="lineno"> 1410</span>&#160;</div>
-<div class="line"><a name="l01411"></a><span class="lineno"><a class="line" href="../../da/d44/common_2util_8qc.html#a660af060bf692b399b145963746ca2ff"> 1411</a></span>&#160;.float <a class="code" href="../../da/d44/common_2util_8qc.html#a660af060bf692b399b145963746ca2ff">FindConnectedComponent_processing</a>;</div>
-<div class="line"><a name="l01412"></a><span class="lineno"><a class="line" href="../../d5/df2/common_2util_8qh.html#a1371630f3443945a1ff175145d2012f3"> 1412</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/d44/common_2util_8qc.html#a1371630f3443945a1ff175145d2012f3">FindConnectedComponent</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, .<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> fld, <a class="code" href="../../d5/df2/common_2util_8qh.html#a0ae7eb2c590ab7061aeb7631e45534ae">findNextEntityNearFunction_t</a> nxt, <a class="code" href="../../d5/df2/common_2util_8qh.html#a6035eddf0c50a91369cd5fe73afc1640">isConnectedFunction_t</a> iscon, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a>)</div>
-<div class="line"><a name="l01413"></a><span class="lineno"> 1413</span>&#160;{</div>
-<div class="line"><a name="l01414"></a><span class="lineno"> 1414</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> queue_start, queue_end;</div>
-<div class="line"><a name="l01415"></a><span class="lineno"> 1415</span>&#160;</div>
-<div class="line"><a name="l01416"></a><span class="lineno"> 1416</span>&#160;    <span class="comment">// we build a queue of to-be-processed entities.</span></div>
-<div class="line"><a name="l01417"></a><span class="lineno"> 1417</span>&#160;    <span class="comment">// queue_start is the next entity to be checked for neighbors</span></div>
-<div class="line"><a name="l01418"></a><span class="lineno"> 1418</span>&#160;    <span class="comment">// queue_end is the last entity added</span></div>
-<div class="line"><a name="l01419"></a><span class="lineno"> 1419</span>&#160;</div>
-<div class="line"><a name="l01420"></a><span class="lineno"> 1420</span>&#160;    <span class="keywordflow">if</span>(e.FindConnectedComponent_processing)</div>
-<div class="line"><a name="l01421"></a><span class="lineno"> 1421</span>&#160;        <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;recursion or broken cleanup&quot;</span>);</div>
-<div class="line"><a name="l01422"></a><span class="lineno"> 1422</span>&#160;</div>
-<div class="line"><a name="l01423"></a><span class="lineno"> 1423</span>&#160;    <span class="comment">// start with a 1-element queue</span></div>
-<div class="line"><a name="l01424"></a><span class="lineno"> 1424</span>&#160;    queue_start = queue_end = e;</div>
-<div class="line"><a name="l01425"></a><span class="lineno"> 1425</span>&#160;    queue_end.(fld) = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l01426"></a><span class="lineno"> 1426</span>&#160;    queue_end.FindConnectedComponent_processing = 1;</div>
-<div class="line"><a name="l01427"></a><span class="lineno"> 1427</span>&#160;</div>
-<div class="line"><a name="l01428"></a><span class="lineno"> 1428</span>&#160;    <span class="comment">// for each queued item:</span></div>
-<div class="line"><a name="l01429"></a><span class="lineno"> 1429</span>&#160;    <span class="keywordflow">for</span> (; queue_start; queue_start = queue_start.(fld))</div>
-<div class="line"><a name="l01430"></a><span class="lineno"> 1430</span>&#160;    {</div>
-<div class="line"><a name="l01431"></a><span class="lineno"> 1431</span>&#160;        <span class="comment">// find all neighbors of queue_start</span></div>
-<div class="line"><a name="l01432"></a><span class="lineno"> 1432</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> t;</div>
-<div class="line"><a name="l01433"></a><span class="lineno"> 1433</span>&#160;        <span class="keywordflow">for</span>(t = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (t = nxt(t, queue_start, pass)); )</div>
-<div class="line"><a name="l01434"></a><span class="lineno"> 1434</span>&#160;        {</div>
-<div class="line"><a name="l01435"></a><span class="lineno"> 1435</span>&#160;            <span class="keywordflow">if</span>(t.FindConnectedComponent_processing)</div>
-<div class="line"><a name="l01436"></a><span class="lineno"> 1436</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01437"></a><span class="lineno"> 1437</span>&#160;            <span class="keywordflow">if</span>(iscon(t, queue_start, pass))</div>
-<div class="line"><a name="l01438"></a><span class="lineno"> 1438</span>&#160;            {</div>
-<div class="line"><a name="l01439"></a><span class="lineno"> 1439</span>&#160;                <span class="comment">// it is connected? ADD IT. It will look for neighbors soon too.</span></div>
-<div class="line"><a name="l01440"></a><span class="lineno"> 1440</span>&#160;                queue_end.(fld) = t;</div>
-<div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;                queue_end = t;</div>
-<div class="line"><a name="l01442"></a><span class="lineno"> 1442</span>&#160;                queue_end.(fld) = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l01443"></a><span class="lineno"> 1443</span>&#160;                queue_end.FindConnectedComponent_processing = 1;</div>
-<div class="line"><a name="l01444"></a><span class="lineno"> 1444</span>&#160;            }</div>
-<div class="line"><a name="l01445"></a><span class="lineno"> 1445</span>&#160;        }</div>
-<div class="line"><a name="l01446"></a><span class="lineno"> 1446</span>&#160;    }</div>
-<div class="line"><a name="l01447"></a><span class="lineno"> 1447</span>&#160;</div>
-<div class="line"><a name="l01448"></a><span class="lineno"> 1448</span>&#160;    <span class="comment">// unmark</span></div>
-<div class="line"><a name="l01449"></a><span class="lineno"> 1449</span>&#160;    <span class="keywordflow">for</span> (queue_start = e; queue_start; queue_start = queue_start.(fld))</div>
-<div class="line"><a name="l01450"></a><span class="lineno"> 1450</span>&#160;        queue_start.FindConnectedComponent_processing = 0;</div>
-<div class="line"><a name="l01451"></a><span class="lineno"> 1451</span>&#160;}</div>
-<div class="line"><a name="l01452"></a><span class="lineno"> 1452</span>&#160;</div>
-<div class="line"><a name="l01453"></a><span class="lineno"> 1453</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
-<div class="line"><a name="l01454"></a><span class="lineno"> 1454</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> animfixfps(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> a, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> b)</div>
-<div class="line"><a name="l01455"></a><span class="lineno"> 1455</span>&#160;{</div>
-<div class="line"><a name="l01456"></a><span class="lineno"> 1456</span>&#160;    <span class="comment">// multi-frame anim: keep as-is</span></div>
-<div class="line"><a name="l01457"></a><span class="lineno"> 1457</span>&#160;    <span class="keywordflow">if</span>(a.y == 1)</div>
-<div class="line"><a name="l01458"></a><span class="lineno"> 1458</span>&#160;    {</div>
-<div class="line"><a name="l01459"></a><span class="lineno"> 1459</span>&#160;        <span class="keywordtype">float</span> dur = frameduration(e.modelindex, a.x);</div>
-<div class="line"><a name="l01460"></a><span class="lineno"> 1460</span>&#160;        <span class="keywordflow">if</span> (dur &lt;= 0 &amp;&amp; b.y)</div>
-<div class="line"><a name="l01461"></a><span class="lineno"> 1461</span>&#160;        {</div>
-<div class="line"><a name="l01462"></a><span class="lineno"> 1462</span>&#160;            a = b;</div>
-<div class="line"><a name="l01463"></a><span class="lineno"> 1463</span>&#160;            dur = frameduration(e.modelindex, a.x);</div>
-<div class="line"><a name="l01464"></a><span class="lineno"> 1464</span>&#160;        }</div>
-<div class="line"><a name="l01465"></a><span class="lineno"> 1465</span>&#160;        <span class="keywordflow">if</span> (dur &gt; 0)</div>
-<div class="line"><a name="l01466"></a><span class="lineno"> 1466</span>&#160;            a.z = 1.0 / dur;</div>
-<div class="line"><a name="l01467"></a><span class="lineno"> 1467</span>&#160;    }</div>
-<div class="line"><a name="l01468"></a><span class="lineno"> 1468</span>&#160;    <span class="keywordflow">return</span> a;</div>
-<div class="line"><a name="l01469"></a><span class="lineno"> 1469</span>&#160;}</div>
-<div class="line"><a name="l01470"></a><span class="lineno"> 1470</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l01471"></a><span class="lineno"> 1471</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01472"></a><span class="lineno"> 1472</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
-<div class="line"><a name="l01473"></a><span class="lineno"> 1473</span>&#160;<span class="preprocessor"></span><a class="code" href="../../dc/d8f/notifications_2all_8qh.html#aa46580df20165dd8315928c81936292e">Notification</a> Announcer_PickNumber(<span class="keywordtype">int</span> type, <span class="keywordtype">int</span> num)</div>
-<div class="line"><a name="l01474"></a><span class="lineno"> 1474</span>&#160;{</div>
-<div class="line"><a name="l01475"></a><span class="lineno"> 1475</span>&#160;    <span class="keywordflow">return</span> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l01476"></a><span class="lineno"> 1476</span>&#160;    <span class="keywordflow">switch</span> (type)</div>
-<div class="line"><a name="l01477"></a><span class="lineno"> 1477</span>&#160;    {</div>
-<div class="line"><a name="l01478"></a><span class="lineno"> 1478</span>&#160;        <span class="keywordflow">case</span> CNT_GAMESTART:</div>
-<div class="line"><a name="l01479"></a><span class="lineno"> 1479</span>&#160;        {</div>
-<div class="line"><a name="l01480"></a><span class="lineno"> 1480</span>&#160;            <span class="keywordflow">switch</span>(num)</div>
-<div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;            {</div>
-<div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;                <span class="keywordflow">case</span> 10: <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_10;</div>
-<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;                <span class="keywordflow">case</span> 9:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_9;</div>
-<div class="line"><a name="l01484"></a><span class="lineno"> 1484</span>&#160;                <span class="keywordflow">case</span> 8:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_8;</div>
-<div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;                <span class="keywordflow">case</span> 7:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_7;</div>
-<div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;                <span class="keywordflow">case</span> 6:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_6;</div>
-<div class="line"><a name="l01487"></a><span class="lineno"> 1487</span>&#160;                <span class="keywordflow">case</span> 5:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_5;</div>
-<div class="line"><a name="l01488"></a><span class="lineno"> 1488</span>&#160;                <span class="keywordflow">case</span> 4:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_4;</div>
-<div class="line"><a name="l01489"></a><span class="lineno"> 1489</span>&#160;                <span class="keywordflow">case</span> 3:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_3;</div>
-<div class="line"><a name="l01490"></a><span class="lineno"> 1490</span>&#160;                <span class="keywordflow">case</span> 2:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_2;</div>
-<div class="line"><a name="l01491"></a><span class="lineno"> 1491</span>&#160;                <span class="keywordflow">case</span> 1:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_1;</div>
-<div class="line"><a name="l01492"></a><span class="lineno"> 1492</span>&#160;            }</div>
-<div class="line"><a name="l01493"></a><span class="lineno"> 1493</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l01494"></a><span class="lineno"> 1494</span>&#160;        }</div>
-<div class="line"><a name="l01495"></a><span class="lineno"> 1495</span>&#160;        <span class="keywordflow">case</span> CNT_IDLE:</div>
-<div class="line"><a name="l01496"></a><span class="lineno"> 1496</span>&#160;        {</div>
-<div class="line"><a name="l01497"></a><span class="lineno"> 1497</span>&#160;            <span class="keywordflow">switch</span>(num)</div>
-<div class="line"><a name="l01498"></a><span class="lineno"> 1498</span>&#160;            {</div>
-<div class="line"><a name="l01499"></a><span class="lineno"> 1499</span>&#160;                <span class="keywordflow">case</span> 10: <span class="keywordflow">return</span> ANNCE_NUM_IDLE_10;</div>
-<div class="line"><a name="l01500"></a><span class="lineno"> 1500</span>&#160;                <span class="keywordflow">case</span> 9:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_9;</div>
-<div class="line"><a name="l01501"></a><span class="lineno"> 1501</span>&#160;                <span class="keywordflow">case</span> 8:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_8;</div>
-<div class="line"><a name="l01502"></a><span class="lineno"> 1502</span>&#160;                <span class="keywordflow">case</span> 7:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_7;</div>
-<div class="line"><a name="l01503"></a><span class="lineno"> 1503</span>&#160;                <span class="keywordflow">case</span> 6:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_6;</div>
-<div class="line"><a name="l01504"></a><span class="lineno"> 1504</span>&#160;                <span class="keywordflow">case</span> 5:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_5;</div>
-<div class="line"><a name="l01505"></a><span class="lineno"> 1505</span>&#160;                <span class="keywordflow">case</span> 4:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_4;</div>
-<div class="line"><a name="l01506"></a><span class="lineno"> 1506</span>&#160;                <span class="keywordflow">case</span> 3:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_3;</div>
-<div class="line"><a name="l01507"></a><span class="lineno"> 1507</span>&#160;                <span class="keywordflow">case</span> 2:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_2;</div>
-<div class="line"><a name="l01508"></a><span class="lineno"> 1508</span>&#160;                <span class="keywordflow">case</span> 1:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_1;</div>
-<div class="line"><a name="l01509"></a><span class="lineno"> 1509</span>&#160;            }</div>
-<div class="line"><a name="l01510"></a><span class="lineno"> 1510</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l01511"></a><span class="lineno"> 1511</span>&#160;        }</div>
-<div class="line"><a name="l01512"></a><span class="lineno"> 1512</span>&#160;        <span class="keywordflow">case</span> CNT_KILL:</div>
-<div class="line"><a name="l01513"></a><span class="lineno"> 1513</span>&#160;        {</div>
-<div class="line"><a name="l01514"></a><span class="lineno"> 1514</span>&#160;            <span class="keywordflow">switch</span>(num)</div>
-<div class="line"><a name="l01515"></a><span class="lineno"> 1515</span>&#160;            {</div>
-<div class="line"><a name="l01516"></a><span class="lineno"> 1516</span>&#160;                <span class="keywordflow">case</span> 10: <span class="keywordflow">return</span> ANNCE_NUM_KILL_10;</div>
-<div class="line"><a name="l01517"></a><span class="lineno"> 1517</span>&#160;                <span class="keywordflow">case</span> 9:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_9;</div>
-<div class="line"><a name="l01518"></a><span class="lineno"> 1518</span>&#160;                <span class="keywordflow">case</span> 8:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_8;</div>
-<div class="line"><a name="l01519"></a><span class="lineno"> 1519</span>&#160;                <span class="keywordflow">case</span> 7:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_7;</div>
-<div class="line"><a name="l01520"></a><span class="lineno"> 1520</span>&#160;                <span class="keywordflow">case</span> 6:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_6;</div>
-<div class="line"><a name="l01521"></a><span class="lineno"> 1521</span>&#160;                <span class="keywordflow">case</span> 5:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_5;</div>
-<div class="line"><a name="l01522"></a><span class="lineno"> 1522</span>&#160;                <span class="keywordflow">case</span> 4:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_4;</div>
-<div class="line"><a name="l01523"></a><span class="lineno"> 1523</span>&#160;                <span class="keywordflow">case</span> 3:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_3;</div>
-<div class="line"><a name="l01524"></a><span class="lineno"> 1524</span>&#160;                <span class="keywordflow">case</span> 2:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_2;</div>
-<div class="line"><a name="l01525"></a><span class="lineno"> 1525</span>&#160;                <span class="keywordflow">case</span> 1:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_1;</div>
-<div class="line"><a name="l01526"></a><span class="lineno"> 1526</span>&#160;            }</div>
-<div class="line"><a name="l01527"></a><span class="lineno"> 1527</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l01528"></a><span class="lineno"> 1528</span>&#160;        }</div>
-<div class="line"><a name="l01529"></a><span class="lineno"> 1529</span>&#160;        <span class="keywordflow">case</span> CNT_RESPAWN:</div>
-<div class="line"><a name="l01530"></a><span class="lineno"> 1530</span>&#160;        {</div>
-<div class="line"><a name="l01531"></a><span class="lineno"> 1531</span>&#160;            <span class="keywordflow">switch</span>(num)</div>
-<div class="line"><a name="l01532"></a><span class="lineno"> 1532</span>&#160;            {</div>
-<div class="line"><a name="l01533"></a><span class="lineno"> 1533</span>&#160;                <span class="keywordflow">case</span> 10: <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_10;</div>
-<div class="line"><a name="l01534"></a><span class="lineno"> 1534</span>&#160;                <span class="keywordflow">case</span> 9:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_9;</div>
-<div class="line"><a name="l01535"></a><span class="lineno"> 1535</span>&#160;                <span class="keywordflow">case</span> 8:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_8;</div>
-<div class="line"><a name="l01536"></a><span class="lineno"> 1536</span>&#160;                <span class="keywordflow">case</span> 7:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_7;</div>
-<div class="line"><a name="l01537"></a><span class="lineno"> 1537</span>&#160;                <span class="keywordflow">case</span> 6:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_6;</div>
-<div class="line"><a name="l01538"></a><span class="lineno"> 1538</span>&#160;                <span class="keywordflow">case</span> 5:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_5;</div>
-<div class="line"><a name="l01539"></a><span class="lineno"> 1539</span>&#160;                <span class="keywordflow">case</span> 4:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_4;</div>
-<div class="line"><a name="l01540"></a><span class="lineno"> 1540</span>&#160;                <span class="keywordflow">case</span> 3:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_3;</div>
-<div class="line"><a name="l01541"></a><span class="lineno"> 1541</span>&#160;                <span class="keywordflow">case</span> 2:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_2;</div>
-<div class="line"><a name="l01542"></a><span class="lineno"> 1542</span>&#160;                <span class="keywordflow">case</span> 1:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_1;</div>
-<div class="line"><a name="l01543"></a><span class="lineno"> 1543</span>&#160;            }</div>
-<div class="line"><a name="l01544"></a><span class="lineno"> 1544</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l01545"></a><span class="lineno"> 1545</span>&#160;        }</div>
-<div class="line"><a name="l01546"></a><span class="lineno"> 1546</span>&#160;        <span class="keywordflow">case</span> CNT_ROUNDSTART:</div>
-<div class="line"><a name="l01547"></a><span class="lineno"> 1547</span>&#160;        {</div>
-<div class="line"><a name="l01548"></a><span class="lineno"> 1548</span>&#160;            <span class="keywordflow">switch</span>(num)</div>
-<div class="line"><a name="l01549"></a><span class="lineno"> 1549</span>&#160;            {</div>
-<div class="line"><a name="l01550"></a><span class="lineno"> 1550</span>&#160;                <span class="keywordflow">case</span> 10: <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_10;</div>
-<div class="line"><a name="l01551"></a><span class="lineno"> 1551</span>&#160;                <span class="keywordflow">case</span> 9:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_9;</div>
-<div class="line"><a name="l01552"></a><span class="lineno"> 1552</span>&#160;                <span class="keywordflow">case</span> 8:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_8;</div>
-<div class="line"><a name="l01553"></a><span class="lineno"> 1553</span>&#160;                <span class="keywordflow">case</span> 7:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_7;</div>
-<div class="line"><a name="l01554"></a><span class="lineno"> 1554</span>&#160;                <span class="keywordflow">case</span> 6:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_6;</div>
-<div class="line"><a name="l01555"></a><span class="lineno"> 1555</span>&#160;                <span class="keywordflow">case</span> 5:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_5;</div>
-<div class="line"><a name="l01556"></a><span class="lineno"> 1556</span>&#160;                <span class="keywordflow">case</span> 4:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_4;</div>
-<div class="line"><a name="l01557"></a><span class="lineno"> 1557</span>&#160;                <span class="keywordflow">case</span> 3:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_3;</div>
-<div class="line"><a name="l01558"></a><span class="lineno"> 1558</span>&#160;                <span class="keywordflow">case</span> 2:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_2;</div>
-<div class="line"><a name="l01559"></a><span class="lineno"> 1559</span>&#160;                <span class="keywordflow">case</span> 1:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_1;</div>
-<div class="line"><a name="l01560"></a><span class="lineno"> 1560</span>&#160;            }</div>
-<div class="line"><a name="l01561"></a><span class="lineno"> 1561</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l01562"></a><span class="lineno"> 1562</span>&#160;        }</div>
-<div class="line"><a name="l01563"></a><span class="lineno"> 1563</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l01564"></a><span class="lineno"> 1564</span>&#160;        {</div>
-<div class="line"><a name="l01565"></a><span class="lineno"> 1565</span>&#160;            <span class="keywordflow">switch</span>(num)</div>
-<div class="line"><a name="l01566"></a><span class="lineno"> 1566</span>&#160;            {</div>
-<div class="line"><a name="l01567"></a><span class="lineno"> 1567</span>&#160;                <span class="keywordflow">case</span> 10: <span class="keywordflow">return</span> ANNCE_NUM_10;</div>
-<div class="line"><a name="l01568"></a><span class="lineno"> 1568</span>&#160;                <span class="keywordflow">case</span> 9:  <span class="keywordflow">return</span> ANNCE_NUM_9;</div>
-<div class="line"><a name="l01569"></a><span class="lineno"> 1569</span>&#160;                <span class="keywordflow">case</span> 8:  <span class="keywordflow">return</span> ANNCE_NUM_8;</div>
-<div class="line"><a name="l01570"></a><span class="lineno"> 1570</span>&#160;                <span class="keywordflow">case</span> 7:  <span class="keywordflow">return</span> ANNCE_NUM_7;</div>
-<div class="line"><a name="l01571"></a><span class="lineno"> 1571</span>&#160;                <span class="keywordflow">case</span> 6:  <span class="keywordflow">return</span> ANNCE_NUM_6;</div>
-<div class="line"><a name="l01572"></a><span class="lineno"> 1572</span>&#160;                <span class="keywordflow">case</span> 5:  <span class="keywordflow">return</span> ANNCE_NUM_5;</div>
-<div class="line"><a name="l01573"></a><span class="lineno"> 1573</span>&#160;                <span class="keywordflow">case</span> 4:  <span class="keywordflow">return</span> ANNCE_NUM_4;</div>
-<div class="line"><a name="l01574"></a><span class="lineno"> 1574</span>&#160;                <span class="keywordflow">case</span> 3:  <span class="keywordflow">return</span> ANNCE_NUM_3;</div>
-<div class="line"><a name="l01575"></a><span class="lineno"> 1575</span>&#160;                <span class="keywordflow">case</span> 2:  <span class="keywordflow">return</span> ANNCE_NUM_2;</div>
-<div class="line"><a name="l01576"></a><span class="lineno"> 1576</span>&#160;                <span class="keywordflow">case</span> 1:  <span class="keywordflow">return</span> ANNCE_NUM_1;</div>
-<div class="line"><a name="l01577"></a><span class="lineno"> 1577</span>&#160;            }</div>
-<div class="line"><a name="l01578"></a><span class="lineno"> 1578</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l01579"></a><span class="lineno"> 1579</span>&#160;        }</div>
-<div class="line"><a name="l01580"></a><span class="lineno"> 1580</span>&#160;    }</div>
-<div class="line"><a name="l01581"></a><span class="lineno"> 1581</span>&#160;}</div>
-<div class="line"><a name="l01582"></a><span class="lineno"> 1582</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l01583"></a><span class="lineno"> 1583</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01584"></a><span class="lineno"> 1584</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
-<div class="line"><a name="l01585"></a><span class="lineno"> 1585</span>&#160;<span class="preprocessor"></span><span class="keywordtype">int</span> Mod_Q1BSP_SuperContentsFromNativeContents(<span class="keywordtype">int</span> nativecontents)</div>
-<div class="line"><a name="l01586"></a><span class="lineno"> 1586</span>&#160;{</div>
-<div class="line"><a name="l01587"></a><span class="lineno"> 1587</span>&#160;    <span class="keywordflow">switch</span>(nativecontents)</div>
-<div class="line"><a name="l01588"></a><span class="lineno"> 1588</span>&#160;    {</div>
-<div class="line"><a name="l01589"></a><span class="lineno"> 1589</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a04614b5903216f8aef49d3d944458bb1">CONTENT_EMPTY</a>:</div>
-<div class="line"><a name="l01590"></a><span class="lineno"> 1590</span>&#160;            <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l01591"></a><span class="lineno"> 1591</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#aebd6ea12b4eb1cbea6c45c2e7d6691a5">CONTENT_SOLID</a>:</div>
-<div class="line"><a name="l01592"></a><span class="lineno"> 1592</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a34857d93b57ccb6265adbe8ad217b489">DPCONTENTS_SOLID</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8ce15a7e615f8cd7828703f424b54aea">DPCONTENTS_OPAQUE</a>;</div>
-<div class="line"><a name="l01593"></a><span class="lineno"> 1593</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a412e0449cfbae9626fca149614b8b574">CONTENT_WATER</a>:</div>
-<div class="line"><a name="l01594"></a><span class="lineno"> 1594</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ad6cdf655f5b9a54a0f234c14ef1869fe">DPCONTENTS_WATER</a>;</div>
-<div class="line"><a name="l01595"></a><span class="lineno"> 1595</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a92cfd5b0d710d150ec4bb7e43f3f408b">CONTENT_SLIME</a>:</div>
-<div class="line"><a name="l01596"></a><span class="lineno"> 1596</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a88ffdcc7016d354f0f0d2396201897a3">DPCONTENTS_SLIME</a>;</div>
-<div class="line"><a name="l01597"></a><span class="lineno"> 1597</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a9f0ff49de895bd9dc96abb8af825974d">CONTENT_LAVA</a>:</div>
-<div class="line"><a name="l01598"></a><span class="lineno"> 1598</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ace92e6ff43ade0a6ded4b955869dbc47">DPCONTENTS_LAVA</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a13e8a64072ad7e7269806ef37e134654">DPCONTENTS_NODROP</a>;</div>
-<div class="line"><a name="l01599"></a><span class="lineno"> 1599</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a034d026d90e5211ad008a59f58248f33">CONTENT_SKY</a>:</div>
-<div class="line"><a name="l01600"></a><span class="lineno"> 1600</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a08a3d8f2b0f760d0901d61152b8eb5ca">DPCONTENTS_SKY</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a13e8a64072ad7e7269806ef37e134654">DPCONTENTS_NODROP</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8ce15a7e615f8cd7828703f424b54aea">DPCONTENTS_OPAQUE</a>; <span class="comment">// to match behaviour of Q3 maps, let sky count as opaque</span></div>
-<div class="line"><a name="l01601"></a><span class="lineno"> 1601</span>&#160;    }</div>
-<div class="line"><a name="l01602"></a><span class="lineno"> 1602</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l01603"></a><span class="lineno"> 1603</span>&#160;}</div>
-<div class="line"><a name="l01604"></a><span class="lineno"> 1604</span>&#160;</div>
-<div class="line"><a name="l01605"></a><span class="lineno"> 1605</span>&#160;<span class="keywordtype">int</span> Mod_Q1BSP_NativeContentsFromSuperContents(<span class="keywordtype">int</span> supercontents)</div>
-<div class="line"><a name="l01606"></a><span class="lineno"> 1606</span>&#160;{</div>
-<div class="line"><a name="l01607"></a><span class="lineno"> 1607</span>&#160;    <span class="keywordflow">if</span>(supercontents &amp; (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a34857d93b57ccb6265adbe8ad217b489">DPCONTENTS_SOLID</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a7426354055efce7db1f2489f6b350b62">DPCONTENTS_BODY</a>))</div>
-<div class="line"><a name="l01608"></a><span class="lineno"> 1608</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#aebd6ea12b4eb1cbea6c45c2e7d6691a5">CONTENT_SOLID</a>;</div>
-<div class="line"><a name="l01609"></a><span class="lineno"> 1609</span>&#160;    <span class="keywordflow">if</span>(supercontents &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a08a3d8f2b0f760d0901d61152b8eb5ca">DPCONTENTS_SKY</a>)</div>
-<div class="line"><a name="l01610"></a><span class="lineno"> 1610</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a034d026d90e5211ad008a59f58248f33">CONTENT_SKY</a>;</div>
-<div class="line"><a name="l01611"></a><span class="lineno"> 1611</span>&#160;    <span class="keywordflow">if</span>(supercontents &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ace92e6ff43ade0a6ded4b955869dbc47">DPCONTENTS_LAVA</a>)</div>
-<div class="line"><a name="l01612"></a><span class="lineno"> 1612</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a9f0ff49de895bd9dc96abb8af825974d">CONTENT_LAVA</a>;</div>
-<div class="line"><a name="l01613"></a><span class="lineno"> 1613</span>&#160;    <span class="keywordflow">if</span>(supercontents &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a88ffdcc7016d354f0f0d2396201897a3">DPCONTENTS_SLIME</a>)</div>
-<div class="line"><a name="l01614"></a><span class="lineno"> 1614</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a92cfd5b0d710d150ec4bb7e43f3f408b">CONTENT_SLIME</a>;</div>
-<div class="line"><a name="l01615"></a><span class="lineno"> 1615</span>&#160;    <span class="keywordflow">if</span>(supercontents &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ad6cdf655f5b9a54a0f234c14ef1869fe">DPCONTENTS_WATER</a>)</div>
-<div class="line"><a name="l01616"></a><span class="lineno"> 1616</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a412e0449cfbae9626fca149614b8b574">CONTENT_WATER</a>;</div>
-<div class="line"><a name="l01617"></a><span class="lineno"> 1617</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a04614b5903216f8aef49d3d944458bb1">CONTENT_EMPTY</a>;</div>
-<div class="line"><a name="l01618"></a><span class="lineno"> 1618</span>&#160;}</div>
-<div class="line"><a name="l01619"></a><span class="lineno"> 1619</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01398"></a><span class="lineno"> 1398</span>&#160;        <a class="code" href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a>(to_execute_next_frame);</div>
+<div class="line"><a name="l01399"></a><span class="lineno"> 1399</span>&#160;    }</div>
+<div class="line"><a name="l01400"></a><span class="lineno"> 1400</span>&#160;}</div>
+<div class="line"><a name="l01401"></a><span class="lineno"><a class="line" href="../../d5/df2/common_2util_8qh.html#a154ba8224ee5f36a7e74adc8e625df72"> 1401</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/d44/common_2util_8qc.html#a154ba8224ee5f36a7e74adc8e625df72">queue_to_execute_next_frame</a>(<span class="keywordtype">string</span> s)</div>
+<div class="line"><a name="l01402"></a><span class="lineno"> 1402</span>&#160;{</div>
+<div class="line"><a name="l01403"></a><span class="lineno"> 1403</span>&#160;    <span class="keywordflow">if</span>(to_execute_next_frame)</div>
+<div class="line"><a name="l01404"></a><span class="lineno"> 1404</span>&#160;    {</div>
+<div class="line"><a name="l01405"></a><span class="lineno"> 1405</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot;\n&quot;</span>, to_execute_next_frame);</div>
+<div class="line"><a name="l01406"></a><span class="lineno"> 1406</span>&#160;    }</div>
+<div class="line"><a name="l01407"></a><span class="lineno"> 1407</span>&#160;    <a class="code" href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a>(to_execute_next_frame, s);</div>
+<div class="line"><a name="l01408"></a><span class="lineno"> 1408</span>&#160;}</div>
+<div class="line"><a name="l01409"></a><span class="lineno"> 1409</span>&#160;</div>
+<div class="line"><a name="l01410"></a><span class="lineno"><a class="line" href="../../da/d44/common_2util_8qc.html#a660af060bf692b399b145963746ca2ff"> 1410</a></span>&#160;.float <a class="code" href="../../da/d44/common_2util_8qc.html#a660af060bf692b399b145963746ca2ff">FindConnectedComponent_processing</a>;</div>
+<div class="line"><a name="l01411"></a><span class="lineno"><a class="line" href="../../d5/df2/common_2util_8qh.html#a1371630f3443945a1ff175145d2012f3"> 1411</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/d44/common_2util_8qc.html#a1371630f3443945a1ff175145d2012f3">FindConnectedComponent</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, .<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> fld, <a class="code" href="../../d5/df2/common_2util_8qh.html#a0ae7eb2c590ab7061aeb7631e45534ae">findNextEntityNearFunction_t</a> nxt, <a class="code" href="../../d5/df2/common_2util_8qh.html#a6035eddf0c50a91369cd5fe73afc1640">isConnectedFunction_t</a> iscon, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a>)</div>
+<div class="line"><a name="l01412"></a><span class="lineno"> 1412</span>&#160;{</div>
+<div class="line"><a name="l01413"></a><span class="lineno"> 1413</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> queue_start, queue_end;</div>
+<div class="line"><a name="l01414"></a><span class="lineno"> 1414</span>&#160;</div>
+<div class="line"><a name="l01415"></a><span class="lineno"> 1415</span>&#160;    <span class="comment">// we build a queue of to-be-processed entities.</span></div>
+<div class="line"><a name="l01416"></a><span class="lineno"> 1416</span>&#160;    <span class="comment">// queue_start is the next entity to be checked for neighbors</span></div>
+<div class="line"><a name="l01417"></a><span class="lineno"> 1417</span>&#160;    <span class="comment">// queue_end is the last entity added</span></div>
+<div class="line"><a name="l01418"></a><span class="lineno"> 1418</span>&#160;</div>
+<div class="line"><a name="l01419"></a><span class="lineno"> 1419</span>&#160;    <span class="keywordflow">if</span>(e.FindConnectedComponent_processing)</div>
+<div class="line"><a name="l01420"></a><span class="lineno"> 1420</span>&#160;        <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;recursion or broken cleanup&quot;</span>);</div>
+<div class="line"><a name="l01421"></a><span class="lineno"> 1421</span>&#160;</div>
+<div class="line"><a name="l01422"></a><span class="lineno"> 1422</span>&#160;    <span class="comment">// start with a 1-element queue</span></div>
+<div class="line"><a name="l01423"></a><span class="lineno"> 1423</span>&#160;    queue_start = queue_end = e;</div>
+<div class="line"><a name="l01424"></a><span class="lineno"> 1424</span>&#160;    queue_end.(fld) = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l01425"></a><span class="lineno"> 1425</span>&#160;    queue_end.FindConnectedComponent_processing = 1;</div>
+<div class="line"><a name="l01426"></a><span class="lineno"> 1426</span>&#160;</div>
+<div class="line"><a name="l01427"></a><span class="lineno"> 1427</span>&#160;    <span class="comment">// for each queued item:</span></div>
+<div class="line"><a name="l01428"></a><span class="lineno"> 1428</span>&#160;    <span class="keywordflow">for</span> (; queue_start; queue_start = queue_start.(fld))</div>
+<div class="line"><a name="l01429"></a><span class="lineno"> 1429</span>&#160;    {</div>
+<div class="line"><a name="l01430"></a><span class="lineno"> 1430</span>&#160;        <span class="comment">// find all neighbors of queue_start</span></div>
+<div class="line"><a name="l01431"></a><span class="lineno"> 1431</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> t;</div>
+<div class="line"><a name="l01432"></a><span class="lineno"> 1432</span>&#160;        <span class="keywordflow">for</span>(t = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (t = nxt(t, queue_start, pass)); )</div>
+<div class="line"><a name="l01433"></a><span class="lineno"> 1433</span>&#160;        {</div>
+<div class="line"><a name="l01434"></a><span class="lineno"> 1434</span>&#160;            <span class="keywordflow">if</span>(t.FindConnectedComponent_processing)</div>
+<div class="line"><a name="l01435"></a><span class="lineno"> 1435</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01436"></a><span class="lineno"> 1436</span>&#160;            <span class="keywordflow">if</span>(iscon(t, queue_start, pass))</div>
+<div class="line"><a name="l01437"></a><span class="lineno"> 1437</span>&#160;            {</div>
+<div class="line"><a name="l01438"></a><span class="lineno"> 1438</span>&#160;                <span class="comment">// it is connected? ADD IT. It will look for neighbors soon too.</span></div>
+<div class="line"><a name="l01439"></a><span class="lineno"> 1439</span>&#160;                queue_end.(fld) = t;</div>
+<div class="line"><a name="l01440"></a><span class="lineno"> 1440</span>&#160;                queue_end = t;</div>
+<div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;                queue_end.(fld) = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l01442"></a><span class="lineno"> 1442</span>&#160;                queue_end.FindConnectedComponent_processing = 1;</div>
+<div class="line"><a name="l01443"></a><span class="lineno"> 1443</span>&#160;            }</div>
+<div class="line"><a name="l01444"></a><span class="lineno"> 1444</span>&#160;        }</div>
+<div class="line"><a name="l01445"></a><span class="lineno"> 1445</span>&#160;    }</div>
+<div class="line"><a name="l01446"></a><span class="lineno"> 1446</span>&#160;</div>
+<div class="line"><a name="l01447"></a><span class="lineno"> 1447</span>&#160;    <span class="comment">// unmark</span></div>
+<div class="line"><a name="l01448"></a><span class="lineno"> 1448</span>&#160;    <span class="keywordflow">for</span> (queue_start = e; queue_start; queue_start = queue_start.(fld))</div>
+<div class="line"><a name="l01449"></a><span class="lineno"> 1449</span>&#160;        queue_start.FindConnectedComponent_processing = 0;</div>
+<div class="line"><a name="l01450"></a><span class="lineno"> 1450</span>&#160;}</div>
+<div class="line"><a name="l01451"></a><span class="lineno"> 1451</span>&#160;</div>
+<div class="line"><a name="l01452"></a><span class="lineno"> 1452</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
+<div class="line"><a name="l01453"></a><span class="lineno"> 1453</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> animfixfps(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> a, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> b)</div>
+<div class="line"><a name="l01454"></a><span class="lineno"> 1454</span>&#160;{</div>
+<div class="line"><a name="l01455"></a><span class="lineno"> 1455</span>&#160;    <span class="comment">// multi-frame anim: keep as-is</span></div>
+<div class="line"><a name="l01456"></a><span class="lineno"> 1456</span>&#160;    <span class="keywordflow">if</span>(a.y == 1)</div>
+<div class="line"><a name="l01457"></a><span class="lineno"> 1457</span>&#160;    {</div>
+<div class="line"><a name="l01458"></a><span class="lineno"> 1458</span>&#160;        <span class="keywordtype">float</span> dur = frameduration(e.modelindex, a.x);</div>
+<div class="line"><a name="l01459"></a><span class="lineno"> 1459</span>&#160;        <span class="keywordflow">if</span> (dur &lt;= 0 &amp;&amp; b.y)</div>
+<div class="line"><a name="l01460"></a><span class="lineno"> 1460</span>&#160;        {</div>
+<div class="line"><a name="l01461"></a><span class="lineno"> 1461</span>&#160;            a = b;</div>
+<div class="line"><a name="l01462"></a><span class="lineno"> 1462</span>&#160;            dur = frameduration(e.modelindex, a.x);</div>
+<div class="line"><a name="l01463"></a><span class="lineno"> 1463</span>&#160;        }</div>
+<div class="line"><a name="l01464"></a><span class="lineno"> 1464</span>&#160;        <span class="keywordflow">if</span> (dur &gt; 0)</div>
+<div class="line"><a name="l01465"></a><span class="lineno"> 1465</span>&#160;            a.z = 1.0 / dur;</div>
+<div class="line"><a name="l01466"></a><span class="lineno"> 1466</span>&#160;    }</div>
+<div class="line"><a name="l01467"></a><span class="lineno"> 1467</span>&#160;    <span class="keywordflow">return</span> a;</div>
+<div class="line"><a name="l01468"></a><span class="lineno"> 1468</span>&#160;}</div>
+<div class="line"><a name="l01469"></a><span class="lineno"> 1469</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01470"></a><span class="lineno"> 1470</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01471"></a><span class="lineno"> 1471</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
+<div class="line"><a name="l01472"></a><span class="lineno"> 1472</span>&#160;<span class="preprocessor"></span><a class="code" href="../../dc/d8f/notifications_2all_8qh.html#aa46580df20165dd8315928c81936292e">Notification</a> Announcer_PickNumber(<span class="keywordtype">int</span> type, <span class="keywordtype">int</span> num)</div>
+<div class="line"><a name="l01473"></a><span class="lineno"> 1473</span>&#160;{</div>
+<div class="line"><a name="l01474"></a><span class="lineno"> 1474</span>&#160;    <span class="keywordflow">return</span> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l01475"></a><span class="lineno"> 1475</span>&#160;    <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><a name="l01476"></a><span class="lineno"> 1476</span>&#160;    {</div>
+<div class="line"><a name="l01477"></a><span class="lineno"> 1477</span>&#160;        <span class="keywordflow">case</span> CNT_GAMESTART:</div>
+<div class="line"><a name="l01478"></a><span class="lineno"> 1478</span>&#160;        {</div>
+<div class="line"><a name="l01479"></a><span class="lineno"> 1479</span>&#160;            <span class="keywordflow">switch</span>(num)</div>
+<div class="line"><a name="l01480"></a><span class="lineno"> 1480</span>&#160;            {</div>
+<div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;                <span class="keywordflow">case</span> 10: <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_10;</div>
+<div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;                <span class="keywordflow">case</span> 9:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_9;</div>
+<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;                <span class="keywordflow">case</span> 8:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_8;</div>
+<div class="line"><a name="l01484"></a><span class="lineno"> 1484</span>&#160;                <span class="keywordflow">case</span> 7:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_7;</div>
+<div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;                <span class="keywordflow">case</span> 6:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_6;</div>
+<div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;                <span class="keywordflow">case</span> 5:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_5;</div>
+<div class="line"><a name="l01487"></a><span class="lineno"> 1487</span>&#160;                <span class="keywordflow">case</span> 4:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_4;</div>
+<div class="line"><a name="l01488"></a><span class="lineno"> 1488</span>&#160;                <span class="keywordflow">case</span> 3:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_3;</div>
+<div class="line"><a name="l01489"></a><span class="lineno"> 1489</span>&#160;                <span class="keywordflow">case</span> 2:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_2;</div>
+<div class="line"><a name="l01490"></a><span class="lineno"> 1490</span>&#160;                <span class="keywordflow">case</span> 1:  <span class="keywordflow">return</span> ANNCE_NUM_GAMESTART_1;</div>
+<div class="line"><a name="l01491"></a><span class="lineno"> 1491</span>&#160;            }</div>
+<div class="line"><a name="l01492"></a><span class="lineno"> 1492</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01493"></a><span class="lineno"> 1493</span>&#160;        }</div>
+<div class="line"><a name="l01494"></a><span class="lineno"> 1494</span>&#160;        <span class="keywordflow">case</span> CNT_IDLE:</div>
+<div class="line"><a name="l01495"></a><span class="lineno"> 1495</span>&#160;        {</div>
+<div class="line"><a name="l01496"></a><span class="lineno"> 1496</span>&#160;            <span class="keywordflow">switch</span>(num)</div>
+<div class="line"><a name="l01497"></a><span class="lineno"> 1497</span>&#160;            {</div>
+<div class="line"><a name="l01498"></a><span class="lineno"> 1498</span>&#160;                <span class="keywordflow">case</span> 10: <span class="keywordflow">return</span> ANNCE_NUM_IDLE_10;</div>
+<div class="line"><a name="l01499"></a><span class="lineno"> 1499</span>&#160;                <span class="keywordflow">case</span> 9:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_9;</div>
+<div class="line"><a name="l01500"></a><span class="lineno"> 1500</span>&#160;                <span class="keywordflow">case</span> 8:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_8;</div>
+<div class="line"><a name="l01501"></a><span class="lineno"> 1501</span>&#160;                <span class="keywordflow">case</span> 7:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_7;</div>
+<div class="line"><a name="l01502"></a><span class="lineno"> 1502</span>&#160;                <span class="keywordflow">case</span> 6:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_6;</div>
+<div class="line"><a name="l01503"></a><span class="lineno"> 1503</span>&#160;                <span class="keywordflow">case</span> 5:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_5;</div>
+<div class="line"><a name="l01504"></a><span class="lineno"> 1504</span>&#160;                <span class="keywordflow">case</span> 4:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_4;</div>
+<div class="line"><a name="l01505"></a><span class="lineno"> 1505</span>&#160;                <span class="keywordflow">case</span> 3:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_3;</div>
+<div class="line"><a name="l01506"></a><span class="lineno"> 1506</span>&#160;                <span class="keywordflow">case</span> 2:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_2;</div>
+<div class="line"><a name="l01507"></a><span class="lineno"> 1507</span>&#160;                <span class="keywordflow">case</span> 1:  <span class="keywordflow">return</span> ANNCE_NUM_IDLE_1;</div>
+<div class="line"><a name="l01508"></a><span class="lineno"> 1508</span>&#160;            }</div>
+<div class="line"><a name="l01509"></a><span class="lineno"> 1509</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01510"></a><span class="lineno"> 1510</span>&#160;        }</div>
+<div class="line"><a name="l01511"></a><span class="lineno"> 1511</span>&#160;        <span class="keywordflow">case</span> CNT_KILL:</div>
+<div class="line"><a name="l01512"></a><span class="lineno"> 1512</span>&#160;        {</div>
+<div class="line"><a name="l01513"></a><span class="lineno"> 1513</span>&#160;            <span class="keywordflow">switch</span>(num)</div>
+<div class="line"><a name="l01514"></a><span class="lineno"> 1514</span>&#160;            {</div>
+<div class="line"><a name="l01515"></a><span class="lineno"> 1515</span>&#160;                <span class="keywordflow">case</span> 10: <span class="keywordflow">return</span> ANNCE_NUM_KILL_10;</div>
+<div class="line"><a name="l01516"></a><span class="lineno"> 1516</span>&#160;                <span class="keywordflow">case</span> 9:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_9;</div>
+<div class="line"><a name="l01517"></a><span class="lineno"> 1517</span>&#160;                <span class="keywordflow">case</span> 8:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_8;</div>
+<div class="line"><a name="l01518"></a><span class="lineno"> 1518</span>&#160;                <span class="keywordflow">case</span> 7:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_7;</div>
+<div class="line"><a name="l01519"></a><span class="lineno"> 1519</span>&#160;                <span class="keywordflow">case</span> 6:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_6;</div>
+<div class="line"><a name="l01520"></a><span class="lineno"> 1520</span>&#160;                <span class="keywordflow">case</span> 5:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_5;</div>
+<div class="line"><a name="l01521"></a><span class="lineno"> 1521</span>&#160;                <span class="keywordflow">case</span> 4:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_4;</div>
+<div class="line"><a name="l01522"></a><span class="lineno"> 1522</span>&#160;                <span class="keywordflow">case</span> 3:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_3;</div>
+<div class="line"><a name="l01523"></a><span class="lineno"> 1523</span>&#160;                <span class="keywordflow">case</span> 2:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_2;</div>
+<div class="line"><a name="l01524"></a><span class="lineno"> 1524</span>&#160;                <span class="keywordflow">case</span> 1:  <span class="keywordflow">return</span> ANNCE_NUM_KILL_1;</div>
+<div class="line"><a name="l01525"></a><span class="lineno"> 1525</span>&#160;            }</div>
+<div class="line"><a name="l01526"></a><span class="lineno"> 1526</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01527"></a><span class="lineno"> 1527</span>&#160;        }</div>
+<div class="line"><a name="l01528"></a><span class="lineno"> 1528</span>&#160;        <span class="keywordflow">case</span> CNT_RESPAWN:</div>
+<div class="line"><a name="l01529"></a><span class="lineno"> 1529</span>&#160;        {</div>
+<div class="line"><a name="l01530"></a><span class="lineno"> 1530</span>&#160;            <span class="keywordflow">switch</span>(num)</div>
+<div class="line"><a name="l01531"></a><span class="lineno"> 1531</span>&#160;            {</div>
+<div class="line"><a name="l01532"></a><span class="lineno"> 1532</span>&#160;                <span class="keywordflow">case</span> 10: <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_10;</div>
+<div class="line"><a name="l01533"></a><span class="lineno"> 1533</span>&#160;                <span class="keywordflow">case</span> 9:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_9;</div>
+<div class="line"><a name="l01534"></a><span class="lineno"> 1534</span>&#160;                <span class="keywordflow">case</span> 8:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_8;</div>
+<div class="line"><a name="l01535"></a><span class="lineno"> 1535</span>&#160;                <span class="keywordflow">case</span> 7:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_7;</div>
+<div class="line"><a name="l01536"></a><span class="lineno"> 1536</span>&#160;                <span class="keywordflow">case</span> 6:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_6;</div>
+<div class="line"><a name="l01537"></a><span class="lineno"> 1537</span>&#160;                <span class="keywordflow">case</span> 5:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_5;</div>
+<div class="line"><a name="l01538"></a><span class="lineno"> 1538</span>&#160;                <span class="keywordflow">case</span> 4:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_4;</div>
+<div class="line"><a name="l01539"></a><span class="lineno"> 1539</span>&#160;                <span class="keywordflow">case</span> 3:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_3;</div>
+<div class="line"><a name="l01540"></a><span class="lineno"> 1540</span>&#160;                <span class="keywordflow">case</span> 2:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_2;</div>
+<div class="line"><a name="l01541"></a><span class="lineno"> 1541</span>&#160;                <span class="keywordflow">case</span> 1:  <span class="keywordflow">return</span> ANNCE_NUM_RESPAWN_1;</div>
+<div class="line"><a name="l01542"></a><span class="lineno"> 1542</span>&#160;            }</div>
+<div class="line"><a name="l01543"></a><span class="lineno"> 1543</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01544"></a><span class="lineno"> 1544</span>&#160;        }</div>
+<div class="line"><a name="l01545"></a><span class="lineno"> 1545</span>&#160;        <span class="keywordflow">case</span> CNT_ROUNDSTART:</div>
+<div class="line"><a name="l01546"></a><span class="lineno"> 1546</span>&#160;        {</div>
+<div class="line"><a name="l01547"></a><span class="lineno"> 1547</span>&#160;            <span class="keywordflow">switch</span>(num)</div>
+<div class="line"><a name="l01548"></a><span class="lineno"> 1548</span>&#160;            {</div>
+<div class="line"><a name="l01549"></a><span class="lineno"> 1549</span>&#160;                <span class="keywordflow">case</span> 10: <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_10;</div>
+<div class="line"><a name="l01550"></a><span class="lineno"> 1550</span>&#160;                <span class="keywordflow">case</span> 9:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_9;</div>
+<div class="line"><a name="l01551"></a><span class="lineno"> 1551</span>&#160;                <span class="keywordflow">case</span> 8:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_8;</div>
+<div class="line"><a name="l01552"></a><span class="lineno"> 1552</span>&#160;                <span class="keywordflow">case</span> 7:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_7;</div>
+<div class="line"><a name="l01553"></a><span class="lineno"> 1553</span>&#160;                <span class="keywordflow">case</span> 6:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_6;</div>
+<div class="line"><a name="l01554"></a><span class="lineno"> 1554</span>&#160;                <span class="keywordflow">case</span> 5:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_5;</div>
+<div class="line"><a name="l01555"></a><span class="lineno"> 1555</span>&#160;                <span class="keywordflow">case</span> 4:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_4;</div>
+<div class="line"><a name="l01556"></a><span class="lineno"> 1556</span>&#160;                <span class="keywordflow">case</span> 3:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_3;</div>
+<div class="line"><a name="l01557"></a><span class="lineno"> 1557</span>&#160;                <span class="keywordflow">case</span> 2:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_2;</div>
+<div class="line"><a name="l01558"></a><span class="lineno"> 1558</span>&#160;                <span class="keywordflow">case</span> 1:  <span class="keywordflow">return</span> ANNCE_NUM_ROUNDSTART_1;</div>
+<div class="line"><a name="l01559"></a><span class="lineno"> 1559</span>&#160;            }</div>
+<div class="line"><a name="l01560"></a><span class="lineno"> 1560</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01561"></a><span class="lineno"> 1561</span>&#160;        }</div>
+<div class="line"><a name="l01562"></a><span class="lineno"> 1562</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l01563"></a><span class="lineno"> 1563</span>&#160;        {</div>
+<div class="line"><a name="l01564"></a><span class="lineno"> 1564</span>&#160;            <span class="keywordflow">switch</span>(num)</div>
+<div class="line"><a name="l01565"></a><span class="lineno"> 1565</span>&#160;            {</div>
+<div class="line"><a name="l01566"></a><span class="lineno"> 1566</span>&#160;                <span class="keywordflow">case</span> 10: <span class="keywordflow">return</span> ANNCE_NUM_10;</div>
+<div class="line"><a name="l01567"></a><span class="lineno"> 1567</span>&#160;                <span class="keywordflow">case</span> 9:  <span class="keywordflow">return</span> ANNCE_NUM_9;</div>
+<div class="line"><a name="l01568"></a><span class="lineno"> 1568</span>&#160;                <span class="keywordflow">case</span> 8:  <span class="keywordflow">return</span> ANNCE_NUM_8;</div>
+<div class="line"><a name="l01569"></a><span class="lineno"> 1569</span>&#160;                <span class="keywordflow">case</span> 7:  <span class="keywordflow">return</span> ANNCE_NUM_7;</div>
+<div class="line"><a name="l01570"></a><span class="lineno"> 1570</span>&#160;                <span class="keywordflow">case</span> 6:  <span class="keywordflow">return</span> ANNCE_NUM_6;</div>
+<div class="line"><a name="l01571"></a><span class="lineno"> 1571</span>&#160;                <span class="keywordflow">case</span> 5:  <span class="keywordflow">return</span> ANNCE_NUM_5;</div>
+<div class="line"><a name="l01572"></a><span class="lineno"> 1572</span>&#160;                <span class="keywordflow">case</span> 4:  <span class="keywordflow">return</span> ANNCE_NUM_4;</div>
+<div class="line"><a name="l01573"></a><span class="lineno"> 1573</span>&#160;                <span class="keywordflow">case</span> 3:  <span class="keywordflow">return</span> ANNCE_NUM_3;</div>
+<div class="line"><a name="l01574"></a><span class="lineno"> 1574</span>&#160;                <span class="keywordflow">case</span> 2:  <span class="keywordflow">return</span> ANNCE_NUM_2;</div>
+<div class="line"><a name="l01575"></a><span class="lineno"> 1575</span>&#160;                <span class="keywordflow">case</span> 1:  <span class="keywordflow">return</span> ANNCE_NUM_1;</div>
+<div class="line"><a name="l01576"></a><span class="lineno"> 1576</span>&#160;            }</div>
+<div class="line"><a name="l01577"></a><span class="lineno"> 1577</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01578"></a><span class="lineno"> 1578</span>&#160;        }</div>
+<div class="line"><a name="l01579"></a><span class="lineno"> 1579</span>&#160;    }</div>
+<div class="line"><a name="l01580"></a><span class="lineno"> 1580</span>&#160;}</div>
+<div class="line"><a name="l01581"></a><span class="lineno"> 1581</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01582"></a><span class="lineno"> 1582</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01583"></a><span class="lineno"> 1583</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
+<div class="line"><a name="l01584"></a><span class="lineno"> 1584</span>&#160;<span class="preprocessor"></span><span class="keywordtype">int</span> Mod_Q1BSP_SuperContentsFromNativeContents(<span class="keywordtype">int</span> nativecontents)</div>
+<div class="line"><a name="l01585"></a><span class="lineno"> 1585</span>&#160;{</div>
+<div class="line"><a name="l01586"></a><span class="lineno"> 1586</span>&#160;    <span class="keywordflow">switch</span>(nativecontents)</div>
+<div class="line"><a name="l01587"></a><span class="lineno"> 1587</span>&#160;    {</div>
+<div class="line"><a name="l01588"></a><span class="lineno"> 1588</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a04614b5903216f8aef49d3d944458bb1">CONTENT_EMPTY</a>:</div>
+<div class="line"><a name="l01589"></a><span class="lineno"> 1589</span>&#160;            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l01590"></a><span class="lineno"> 1590</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#aebd6ea12b4eb1cbea6c45c2e7d6691a5">CONTENT_SOLID</a>:</div>
+<div class="line"><a name="l01591"></a><span class="lineno"> 1591</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a34857d93b57ccb6265adbe8ad217b489">DPCONTENTS_SOLID</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8ce15a7e615f8cd7828703f424b54aea">DPCONTENTS_OPAQUE</a>;</div>
+<div class="line"><a name="l01592"></a><span class="lineno"> 1592</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a412e0449cfbae9626fca149614b8b574">CONTENT_WATER</a>:</div>
+<div class="line"><a name="l01593"></a><span class="lineno"> 1593</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ad6cdf655f5b9a54a0f234c14ef1869fe">DPCONTENTS_WATER</a>;</div>
+<div class="line"><a name="l01594"></a><span class="lineno"> 1594</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a92cfd5b0d710d150ec4bb7e43f3f408b">CONTENT_SLIME</a>:</div>
+<div class="line"><a name="l01595"></a><span class="lineno"> 1595</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a88ffdcc7016d354f0f0d2396201897a3">DPCONTENTS_SLIME</a>;</div>
+<div class="line"><a name="l01596"></a><span class="lineno"> 1596</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a9f0ff49de895bd9dc96abb8af825974d">CONTENT_LAVA</a>:</div>
+<div class="line"><a name="l01597"></a><span class="lineno"> 1597</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ace92e6ff43ade0a6ded4b955869dbc47">DPCONTENTS_LAVA</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a13e8a64072ad7e7269806ef37e134654">DPCONTENTS_NODROP</a>;</div>
+<div class="line"><a name="l01598"></a><span class="lineno"> 1598</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a034d026d90e5211ad008a59f58248f33">CONTENT_SKY</a>:</div>
+<div class="line"><a name="l01599"></a><span class="lineno"> 1599</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a08a3d8f2b0f760d0901d61152b8eb5ca">DPCONTENTS_SKY</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a13e8a64072ad7e7269806ef37e134654">DPCONTENTS_NODROP</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8ce15a7e615f8cd7828703f424b54aea">DPCONTENTS_OPAQUE</a>; <span class="comment">// to match behaviour of Q3 maps, let sky count as opaque</span></div>
+<div class="line"><a name="l01600"></a><span class="lineno"> 1600</span>&#160;    }</div>
+<div class="line"><a name="l01601"></a><span class="lineno"> 1601</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l01602"></a><span class="lineno"> 1602</span>&#160;}</div>
+<div class="line"><a name="l01603"></a><span class="lineno"> 1603</span>&#160;</div>
+<div class="line"><a name="l01604"></a><span class="lineno"> 1604</span>&#160;<span class="keywordtype">int</span> Mod_Q1BSP_NativeContentsFromSuperContents(<span class="keywordtype">int</span> supercontents)</div>
+<div class="line"><a name="l01605"></a><span class="lineno"> 1605</span>&#160;{</div>
+<div class="line"><a name="l01606"></a><span class="lineno"> 1606</span>&#160;    <span class="keywordflow">if</span>(supercontents &amp; (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a34857d93b57ccb6265adbe8ad217b489">DPCONTENTS_SOLID</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a7426354055efce7db1f2489f6b350b62">DPCONTENTS_BODY</a>))</div>
+<div class="line"><a name="l01607"></a><span class="lineno"> 1607</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#aebd6ea12b4eb1cbea6c45c2e7d6691a5">CONTENT_SOLID</a>;</div>
+<div class="line"><a name="l01608"></a><span class="lineno"> 1608</span>&#160;    <span class="keywordflow">if</span>(supercontents &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a08a3d8f2b0f760d0901d61152b8eb5ca">DPCONTENTS_SKY</a>)</div>
+<div class="line"><a name="l01609"></a><span class="lineno"> 1609</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a034d026d90e5211ad008a59f58248f33">CONTENT_SKY</a>;</div>
+<div class="line"><a name="l01610"></a><span class="lineno"> 1610</span>&#160;    <span class="keywordflow">if</span>(supercontents &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ace92e6ff43ade0a6ded4b955869dbc47">DPCONTENTS_LAVA</a>)</div>
+<div class="line"><a name="l01611"></a><span class="lineno"> 1611</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a9f0ff49de895bd9dc96abb8af825974d">CONTENT_LAVA</a>;</div>
+<div class="line"><a name="l01612"></a><span class="lineno"> 1612</span>&#160;    <span class="keywordflow">if</span>(supercontents &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a88ffdcc7016d354f0f0d2396201897a3">DPCONTENTS_SLIME</a>)</div>
+<div class="line"><a name="l01613"></a><span class="lineno"> 1613</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a92cfd5b0d710d150ec4bb7e43f3f408b">CONTENT_SLIME</a>;</div>
+<div class="line"><a name="l01614"></a><span class="lineno"> 1614</span>&#160;    <span class="keywordflow">if</span>(supercontents &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ad6cdf655f5b9a54a0f234c14ef1869fe">DPCONTENTS_WATER</a>)</div>
+<div class="line"><a name="l01615"></a><span class="lineno"> 1615</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a412e0449cfbae9626fca149614b8b574">CONTENT_WATER</a>;</div>
+<div class="line"><a name="l01616"></a><span class="lineno"> 1616</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a04614b5903216f8aef49d3d944458bb1">CONTENT_EMPTY</a>;</div>
+<div class="line"><a name="l01617"></a><span class="lineno"> 1617</span>&#160;}</div>
+<div class="line"><a name="l01618"></a><span class="lineno"> 1618</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="common_2util_8qh_html_a249698b97e7e0846920b8c4de52e6e71"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a249698b97e7e0846920b8c4de52e6e71">get_model_parameters_weight</a></div><div class="ttdeci">float get_model_parameters_weight</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00123">util.qh:123</a></div></div>
 <div class="ttc" id="mapinfo_8qc_html_a3f161ef2731e7a99667785631c18ae4b"><div class="ttname"><a href="../../d3/d46/mapinfo_8qc.html#a3f161ef2731e7a99667785631c18ae4b">MapInfo_Type_ToString</a></div><div class="ttdeci">string MapInfo_Type_ToString(Gametype t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d46/mapinfo_8qc_source.html#l00631">mapinfo.qc:631</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_aa2768b93f157e5fec4abc65b6a5d8622"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#aa2768b93f157e5fec4abc65b6a5d8622">get_model_datafilename</a></div><div class="ttdeci">string get_model_datafilename(string m, float sk, string fil)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01183">util.qc:1183</a></div></div>
@@ -1740,7 +1739,7 @@ $(document).ready(function(){initNavTree('da/d44/common_2util_8qc_source.html','
 <div class="ttc" id="math_8qh_html_abecdd1d5bfb1c569c5d4fe16f3c0ef3a"><div class="ttname"><a href="../../d0/d79/math_8qh.html#abecdd1d5bfb1c569c5d4fe16f3c0ef3a">solve_quadratic</a></div><div class="ttdeci">ERASEABLE vector solve_quadratic(float a, float b, float c)</div><div class="ttdoc">ax^2 + bx + c = 0 </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00274">math.qh:274</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a5f4732a3d07850ca4c4dcd2bca80c188"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a5f4732a3d07850ca4c4dcd2bca80c188">getWrappedLine_remaining</a></div><div class="ttdeci">string getWrappedLine_remaining</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00091">util.qh:91</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
-<div class="ttc" id="common_2util_8qc_html_a660af060bf692b399b145963746ca2ff"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a660af060bf692b399b145963746ca2ff">FindConnectedComponent_processing</a></div><div class="ttdeci">float FindConnectedComponent_processing</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01411">util.qc:1411</a></div></div>
+<div class="ttc" id="common_2util_8qc_html_a660af060bf692b399b145963746ca2ff"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a660af060bf692b399b145963746ca2ff">FindConnectedComponent_processing</a></div><div class="ttdeci">float FindConnectedComponent_processing</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01410">util.qc:1410</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_adf7a46756346d8546b7f6bdf705d2a17"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#adf7a46756346d8546b7f6bdf705d2a17">get_model_parameters</a></div><div class="ttdeci">float get_model_parameters(string m, float sk)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01196">util.qc:1196</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_ab6502642132678c20db7fd26c09ddcf0"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#ab6502642132678c20db7fd26c09ddcf0">textLengthUpToWidth</a></div><div class="ttdeci">float textLengthUpToWidth(string theText, float maxWidth, vector theSize, textLengthUpToWidth_widthFunction_t w)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00713">util.qc:713</a></div></div>
 <div class="ttc" id="dpextensions_8qh_html_a03da3a537f9764333e85cbed8b52f4e4"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a03da3a537f9764333e85cbed8b52f4e4">str2chr</a></div><div class="ttdeci">#define str2chr</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00045">dpextensions.qh:45</a></div></div>
@@ -1763,9 +1762,9 @@ $(document).ready(function(){initNavTree('da/d44/common_2util_8qc_source.html','
 <div class="ttc" id="common_2util_8qc_html_a3af4d9415148d72aac89cdd137db92ee"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a3af4d9415148d72aac89cdd137db92ee">depthfirst</a></div><div class="ttdeci">void depthfirst(entity start,.entity up,.entity downleft,.entity right, void(entity, entity) funcPre, void(entity, entity) funcPost, entity pass)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00156">util.qc:156</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_a18192ef8986311737efd890375b7a2aa"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a18192ef8986311737efd890375b7a2aa">shutdown_running</a></div><div class="ttdeci">float shutdown_running</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01352">util.qc:1352</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_aebd6ea12b4eb1cbea6c45c2e7d6691a5"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#aebd6ea12b4eb1cbea6c45c2e7d6691a5">CONTENT_SOLID</a></div><div class="ttdeci">const int CONTENT_SOLID</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00046">csqc_constants.qh:46</a></div></div>
-<div class="ttc" id="string_8qh_html_a6a42b8e34a0b2f8c73ed10b4735e41de"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a6a42b8e34a0b2f8c73ed10b4735e41de">cdr</a></div><div class="ttdeci">ERASEABLE string cdr(string s)</div><div class="ttdoc">returns all but first word </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00175">string.qh:175</a></div></div>
+<div class="ttc" id="string_8qh_html_a6a42b8e34a0b2f8c73ed10b4735e41de"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a6a42b8e34a0b2f8c73ed10b4735e41de">cdr</a></div><div class="ttdeci">ERASEABLE string cdr(string s)</div><div class="ttdoc">returns all but first word </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00182">string.qh:182</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a08a3d8f2b0f760d0901d61152b8eb5ca"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a08a3d8f2b0f760d0901d61152b8eb5ca">DPCONTENTS_SKY</a></div><div class="ttdeci">float DPCONTENTS_SKY</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01128">csprogsdefs.qc:1128</a></div></div>
-<div class="ttc" id="common_2util_8qc_html_a1371630f3443945a1ff175145d2012f3"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a1371630f3443945a1ff175145d2012f3">FindConnectedComponent</a></div><div class="ttdeci">void FindConnectedComponent(entity e,.entity fld, findNextEntityNearFunction_t nxt, isConnectedFunction_t iscon, entity pass)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01412">util.qc:1412</a></div></div>
+<div class="ttc" id="common_2util_8qc_html_a1371630f3443945a1ff175145d2012f3"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a1371630f3443945a1ff175145d2012f3">FindConnectedComponent</a></div><div class="ttdeci">void FindConnectedComponent(entity e,.entity fld, findNextEntityNearFunction_t nxt, isConnectedFunction_t iscon, entity pass)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01411">util.qc:1411</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_a0c6829767aa2400e49284b242c194d95"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a0c6829767aa2400e49284b242c194d95">getWrappedLineLen</a></div><div class="ttdeci">string getWrappedLineLen(float w, textLengthUpToLength_lenFunction_t tw)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00858">util.qc:858</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_a5f119916e6e7513d8e7375c84a2e5dcf"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a5f119916e6e7513d8e7375c84a2e5dcf">textShortenToLength</a></div><div class="ttdeci">string textShortenToLength(string theText, float maxWidth, textLengthUpToLength_lenFunction_t tw)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00912">util.qc:912</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_a73cc543cc744ae536ed0ef34b8d481c4"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a73cc543cc744ae536ed0ef34b8d481c4">textShortenToWidth</a></div><div class="ttdeci">string textShortenToWidth(string theText, float maxWidth, vector theFontSize, textLengthUpToWidth_widthFunction_t tw)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00904">util.qc:904</a></div></div>
@@ -1774,7 +1773,7 @@ $(document).ready(function(){initNavTree('da/d44/common_2util_8qc_source.html','
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a29f845de4b90aadc941703c5588f71bc"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a29f845de4b90aadc941703c5588f71bc">get_model_parameters_fixbone</a></div><div class="ttdeci">float get_model_parameters_fixbone</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00132">util.qh:132</a></div></div>
 <div class="ttc" id="weapons_2weapon_8qh_html_acc68544d7beb97a08e0a2c0bab42d818"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818">WEP_FLAG_HIDDEN</a></div><div class="ttdeci">const int WEP_FLAG_HIDDEN</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00193">weapon.qh:193</a></div></div>
-<div class="ttc" id="string_8qh_html_a2070f8704d8eb36e69d6d129330758cb"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a2070f8704d8eb36e69d6d129330758cb">car</a></div><div class="ttdeci">ERASEABLE string car(string s)</div><div class="ttdoc">returns first word </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00166">string.qh:166</a></div></div>
+<div class="ttc" id="string_8qh_html_a2070f8704d8eb36e69d6d129330758cb"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a2070f8704d8eb36e69d6d129330758cb">car</a></div><div class="ttdeci">ERASEABLE string car(string s)</div><div class="ttdoc">returns first word </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00173">string.qh:173</a></div></div>
 <div class="ttc" id="effectinfo_8qc_html_af1209ce3d4344049c1084fab900909cf"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a></div><div class="ttdeci">#define p(f, type, default)</div></div>
 <div class="ttc" id="common_2util_8qc_html_a46c92afa65e4bfbf80594927f615bd86"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a46c92afa65e4bfbf80594927f615bd86">matchacl</a></div><div class="ttdeci">float matchacl(string acl, string str)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01149">util.qc:1149</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_ae1958a532419b5580361c8f32a53a538"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#ae1958a532419b5580361c8f32a53a538">mapPriorityList</a></div><div class="ttdeci">string mapPriorityList(string order, string(string) mapfunc)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00416">util.qc:416</a></div></div>
@@ -1834,7 +1833,7 @@ $(document).ready(function(){initNavTree('da/d44/common_2util_8qc_source.html','
 <div class="ttc" id="common_2util_8qc_html_ac2f87b85d12a5f954f4cecf4322f5dbe"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#ac2f87b85d12a5f954f4cecf4322f5dbe">swapInPriorityList</a></div><div class="ttdeci">string swapInPriorityList(string order, float i, float j)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00429">util.qc:429</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a0aa16fb4b5a880866ece61e87fab71ed"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a0aa16fb4b5a880866ece61e87fab71ed">SPECIES_ANIMAL</a></div><div class="ttdeci">const int SPECIES_ANIMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00036">constants.qh:36</a></div></div>
 <div class="ttc" id="deathtypes_2all_8qh_html"><div class="ttname"><a href="../../d9/d4f/deathtypes_2all_8qh.html">all.qh</a></div></div>
-<div class="ttc" id="string_8qh_html_a5d094027c5b25aa2cb2dd91cffdf0437"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a5d094027c5b25aa2cb2dd91cffdf0437">IS_DIGIT</a></div><div class="ttdeci">#define IS_DIGIT(d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00430">string.qh:430</a></div></div>
+<div class="ttc" id="string_8qh_html_a5d094027c5b25aa2cb2dd91cffdf0437"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a5d094027c5b25aa2cb2dd91cffdf0437">IS_DIGIT</a></div><div class="ttdeci">#define IS_DIGIT(d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00437">string.qh:437</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_ad6cdf655f5b9a54a0f234c14ef1869fe"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#ad6cdf655f5b9a54a0f234c14ef1869fe">DPCONTENTS_WATER</a></div><div class="ttdeci">float DPCONTENTS_WATER</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01125">csprogsdefs.qc:1125</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_a385f0188c1e3165ae6918116e7d3772a"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a385f0188c1e3165ae6918116e7d3772a">decompressShortVector</a></div><div class="ttdeci">vector decompressShortVector(int data)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00260">util.qc:260</a></div></div>
@@ -1846,7 +1845,7 @@ $(document).ready(function(){initNavTree('da/d44/common_2util_8qc_source.html','
 <div class="ttc" id="common_2util_8qh_html_ab4bc22996711e2769e3743a5b68e0ee3"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ab4bc22996711e2769e3743a5b68e0ee3">get_model_parameters_bone_upperbody</a></div><div class="ttdeci">string get_model_parameters_bone_upperbody</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00127">util.qh:127</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8ce15a7e615f8cd7828703f424b54aea"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8ce15a7e615f8cd7828703f424b54aea">DPCONTENTS_OPAQUE</a></div><div class="ttdeci">float DPCONTENTS_OPAQUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01137">csprogsdefs.qc:1137</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a53c4a8e7afd17cad92bc00adba96bb78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a></div><div class="ttdeci">entity find(entity start,.string field, string match)</div></div>
-<div class="ttc" id="string_8qh_html_abcc29d17efe4fff029717d5a8ed99c3e"><div class="ttname"><a href="../../d2/db4/string_8qh.html#abcc29d17efe4fff029717d5a8ed99c3e">IS_HEXDIGIT</a></div><div class="ttdeci">#define IS_HEXDIGIT(d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00427">string.qh:427</a></div></div>
+<div class="ttc" id="string_8qh_html_abcc29d17efe4fff029717d5a8ed99c3e"><div class="ttname"><a href="../../d2/db4/string_8qh.html#abcc29d17efe4fff029717d5a8ed99c3e">IS_HEXDIGIT</a></div><div class="ttdeci">#define IS_HEXDIGIT(d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00434">string.qh:434</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_a49bf75a4ee9889876bd90bb6527b6650"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a49bf75a4ee9889876bd90bb6527b6650">solve_shotdirection</a></div><div class="ttdeci">vector solve_shotdirection(vector myorg, vector myvel, vector eorg, vector evel, float spd, float newton_style)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00966">util.qc:966</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_ad685ca07f0d3d06a0b8f109a25114ceb"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#ad685ca07f0d3d06a0b8f109a25114ceb">wordwrap</a></div><div class="ttdeci">string wordwrap(string s, float l)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00046">util.qc:46</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_ad3ca9bafcd2a989067df572beb120b12"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ad3ca9bafcd2a989067df572beb120b12">SPECIES_HUMAN</a></div><div class="ttdeci">const int SPECIES_HUMAN</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00033">constants.qh:33</a></div></div>
@@ -1862,6 +1861,7 @@ $(document).ready(function(){initNavTree('da/d44/common_2util_8qc_source.html','
 <div class="ttc" id="csprogsdefs_8qc_html_a88ffdcc7016d354f0f0d2396201897a3"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a88ffdcc7016d354f0f0d2396201897a3">DPCONTENTS_SLIME</a></div><div class="ttdeci">float DPCONTENTS_SLIME</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01126">csprogsdefs.qc:1126</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_aca0fd08ce5173d4d922e285b33301115"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#aca0fd08ce5173d4d922e285b33301115">g_saved_cvars</a></div><div class="ttdeci">IntrusiveList g_saved_cvars</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00016">util.qh:16</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ad0749a19efcd793d906512a9ab0fb724"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ad0749a19efcd793d906512a9ab0fb724">textLengthUpToLength_lenFunction_t</a></div><div class="ttdeci">float(string s) textLengthUpToLength_lenFunction_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00085">util.qh:85</a></div></div>
+<div class="ttc" id="string_8qh_html_a77e89c547b817664c0ed9b728b4c124f"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a></div><div class="ttdeci">#define strfree(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00056">string.qh:56</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_aa55c475c5d919e5dfc2f38fa3968b81b"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#aa55c475c5d919e5dfc2f38fa3968b81b">get_model_parameters_hidden</a></div><div class="ttdeci">bool get_model_parameters_hidden</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00125">util.qh:125</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_a1947b4b6a690f32caa5364746c7526c6"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a1947b4b6a690f32caa5364746c7526c6">execute_next_frame</a></div><div class="ttdeci">void execute_next_frame()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01393">util.qc:1393</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a73facb0284fea0ce62e29dbd91418f1a"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a73facb0284fea0ce62e29dbd91418f1a">get_model_parameters_bone_aimweight</a></div><div class="ttdeci">float get_model_parameters_bone_aimweight[MAX_AIM_BONES]</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00131">util.qh:131</a></div></div>
@@ -1890,7 +1890,7 @@ $(document).ready(function(){initNavTree('da/d44/common_2util_8qc_source.html','
 <div class="ttc" id="csqc__constants_8qh_html_ac71bfc8a179f9d612bf713943c8cb5e1"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a></div><div class="ttdeci">const int FILE_READ</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00101">csqc_constants.qh:101</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a6f8c7ef6ee4a4d851aaa5fd1789eab9a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a></div><div class="ttdeci">const string cvar_string(string name)</div></div>
 <div class="ttc" id="common_2util_8qc_html_a1c708493a4e4d0c7a50fbfec0c256f9c"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a1c708493a4e4d0c7a50fbfec0c256f9c">wordwrap_cb</a></div><div class="ttdeci">void wordwrap_cb(string s, float l, void(string) callback)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00091">util.qc:91</a></div></div>
-<div class="ttc" id="common_2util_8qc_html_a154ba8224ee5f36a7e74adc8e625df72"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a154ba8224ee5f36a7e74adc8e625df72">queue_to_execute_next_frame</a></div><div class="ttdeci">void queue_to_execute_next_frame(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01402">util.qc:1402</a></div></div>
+<div class="ttc" id="common_2util_8qc_html_a154ba8224ee5f36a7e74adc8e625df72"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a154ba8224ee5f36a7e74adc8e625df72">queue_to_execute_next_frame</a></div><div class="ttdeci">void queue_to_execute_next_frame(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01401">util.qc:1401</a></div></div>
 <div class="ttc" id="log_8qh_html_a754b3d074e0af4ad3c7b918dd77ecb2d"><div class="ttname"><a href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00082">log.qh:82</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a7a1f2da448d59847e8c0633453024463"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a7a1f2da448d59847e8c0633453024463">get_model_parameters_name</a></div><div class="ttdeci">string get_model_parameters_name</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00120">util.qh:120</a></div></div>
 <div class="ttc" id="classGametype_html"><div class="ttname"><a href="../../d1/d6b/classGametype.html">Gametype</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00022">mapinfo.qh:22</a></div></div>
@@ -1903,7 +1903,7 @@ $(document).ready(function(){initNavTree('da/d44/common_2util_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../da/d44/common_2util_8qc.html">util.qc</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 12:13:39 for Xonotic by
+    <li class="footer">Generated on Mon Apr 9 2018 10:28:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

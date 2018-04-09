@@ -456,7 +456,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/d1b/ps_8qc_source.html#l00132">132</a> of file <a class="el" href="../../d8/d1b/ps_8qc_source.html">ps.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d6/dbd/minigames_8qh_source.html#l00112">MINIG_SF_ALL</a>, <a class="el" href="../../d3/dbf/minigames_8qc_source.html#l00078">minigame_server_sendflags()</a>, <a class="el" href="../../d3/dbf/minigames_8qc_source.html#l00034">minigame_tile_buildname()</a>, <a class="el" href="../../d8/d1b/ps_8qc_source.html#l00015">ps_find_piece()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00049">strcpy</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d6/dbd/minigames_8qh_source.html#l00112">MINIG_SF_ALL</a>, <a class="el" href="../../d3/dbf/minigames_8qc_source.html#l00078">minigame_server_sendflags()</a>, <a class="el" href="../../d3/dbf/minigames_8qc_source.html#l00034">minigame_tile_buildname()</a>, <a class="el" href="../../d8/d1b/ps_8qc_source.html#l00015">ps_find_piece()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00049">strcpy</a>, and <a class="el" href="../../d2/db4/string_8qh_source.html#l00056">strfree</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d8/d1b/ps_8qc_source.html#l00153">ps_move()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;{</div>
@@ -468,7 +468,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordflow">if</span>(!middle)</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordflow">if</span>(middle.netname) { <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(middle.netname); }</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <a class="code" href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a>(middle.netname);</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keyword">delete</span>(middle);</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <a class="code" href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a>(piece.netname, pos);</div>
@@ -481,16 +481,16 @@ Variables</h2></td></tr>
 <div class="ttc" id="minigames_8qh_html_a602cde096f65a1ecb86033e5ee57522f"><div class="ttname"><a href="../../d6/dbd/minigames_8qh.html#a602cde096f65a1ecb86033e5ee57522f">MINIG_SF_ALL</a></div><div class="ttdeci">const int MINIG_SF_ALL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbd/minigames_8qh_source.html#l00112">minigames.qh:112</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="ps_8qc_html_a824bdde2bf66a70354ef02ff54892acb"><div class="ttname"><a href="../../d8/d1b/ps_8qc.html#a824bdde2bf66a70354ef02ff54892acb">ps_find_piece</a></div><div class="ttdeci">entity ps_find_piece(entity minig, string tile)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1b/ps_8qc_source.html#l00015">ps.qc:15</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
 <div class="ttc" id="string_8qh_html_a9911c5e0b0c9ecae050a2193eb6c2af5"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a></div><div class="ttdeci">#define strcpy(this, s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00049">string.qh:49</a></div></div>
 <div class="ttc" id="minigames_8qc_html_adbfd9d3db8c920f23ecda1e18d9a65ab"><div class="ttname"><a href="../../d3/dbf/minigames_8qc.html#adbfd9d3db8c920f23ecda1e18d9a65ab">minigame_tile_buildname</a></div><div class="ttdeci">string minigame_tile_buildname(int letter, int number)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbf/minigames_8qc_source.html#l00034">minigames.qc:34</a></div></div>
+<div class="ttc" id="string_8qh_html_a77e89c547b817664c0ed9b728b4c124f"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a></div><div class="ttdeci">#define strfree(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00056">string.qh:56</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d1b/ps_8qc_a9efe0e1355cfcd23ef738c9b56d563d7_cgraph.svg" width="480" height="218"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d1b/ps_8qc_a9efe0e1355cfcd23ef738c9b56d563d7_cgraph.svg" width="480" height="215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -918,7 +918,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../dir_f3c5fe65fc7d6f300d22d67107da5495.html">minigame</a></li><li class="navelem"><a class="el" href="../../d8/d1b/ps_8qc.html">ps.qc</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 12:13:46 for Xonotic by
+    <li class="footer">Generated on Mon Apr 9 2018 10:28:08 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

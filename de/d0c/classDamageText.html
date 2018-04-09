@@ -318,29 +318,19 @@ Static Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html#l00181">181</a> of file <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html">cl_damagetext.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>.</p>
+<p>References <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, and <a class="el" href="../../d2/db4/string_8qh_source.html#l00056">strfree</a>.</p>
 <div class="fragment"><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                           {</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../de/d0c/classDamageText.html#a48cbef0feb76ac585c931dbc47c2dc97">text</a>) <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(this.<a class="code" href="../../de/d0c/classDamageText.html#a48cbef0feb76ac585c931dbc47c2dc97">text</a>);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <a class="code" href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a>(this.<a class="code" href="../../de/d0c/classDamageText.html#a48cbef0feb76ac585c931dbc47c2dc97">text</a>);</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <span class="keywordflow">if</span> (<span class="keyword">this</span> == DamageText_screen_first) {</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;            <span class="comment">// start from 0 offset again, hopefully, others (if any) will have faded away by now</span></div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            DamageText_screen_first = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            DamageText_screen_count = 0;</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        }</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div>
-<div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="classDamageText_html_a48cbef0feb76ac585c931dbc47c2dc97"><div class="ttname"><a href="../../de/d0c/classDamageText.html#a48cbef0feb76ac585c931dbc47c2dc97">DamageText::text</a></div><div class="ttdeci">string text</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3f/cl__damagetext_8qc_source.html#l00055">cl_damagetext.qc:55</a></div></div>
+<div class="ttc" id="string_8qh_html_a77e89c547b817664c0ed9b728b4c124f"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a></div><div class="ttdeci">#define strfree(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00056">string.qh:56</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d0c/classDamageText_a65f22853f37f14deba2d878d3dcacded_cgraph.svg" width="328" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -424,11 +414,11 @@ Static Public Attributes</h2></td></tr>
 <div class="ttc" id="classDamageText_html_a9645f7d63653fc889f97f6c27963e8a2"><div class="ttname"><a href="../../de/d0c/classDamageText.html#a9645f7d63653fc889f97f6c27963e8a2">DamageText::m_deathtype</a></div><div class="ttdeci">int m_deathtype</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3f/cl__damagetext_8qc_source.html#l00053">cl_damagetext.qc:53</a></div></div>
 <div class="ttc" id="classDamageText_html_a24f43e5dd01ca37a1dd6977a8c8b7847"><div class="ttname"><a href="../../de/d0c/classDamageText.html#a24f43e5dd01ca37a1dd6977a8c8b7847">DamageText::m_shrink_rate</a></div><div class="ttdeci">float m_shrink_rate</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3f/cl__damagetext_8qc_source.html#l00047">cl_damagetext.qc:47</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d0c/classDamageText_a1bb3fadcd65ec6a18fd5840879e003f5_cgraph.svg" width="363" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -494,7 +484,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html#l00096">96</a> of file <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html">cl_damagetext.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/d79/math_8qh_source.html#l00196">almost_equals_eps()</a>, <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00010">alpha</a>, <a class="el" href="../../dd/d79/damagetext_8qh_source.html#l00003">DAMAGETEXT_PRECISION_MULTIPLIER</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00108">health</a>, <a class="el" href="../../d0/d79/math_8qh_source.html#l00342">map_bound_ranges()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00049">strcpy</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00042">strstrofs</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00199">substring_range()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../d0/d79/math_8qh_source.html#l00196">almost_equals_eps()</a>, <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00010">alpha</a>, <a class="el" href="../../dd/d79/damagetext_8qh_source.html#l00003">DAMAGETEXT_PRECISION_MULTIPLIER</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00108">health</a>, <a class="el" href="../../d0/d79/math_8qh_source.html#l00342">map_bound_ranges()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00049">strcpy</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00042">strstrofs</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00206">substring_range()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 <div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                                                                                                            {</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        this.<a class="code" href="../../de/d0c/classDamageText.html#a2146d44740bd3501dfa815d44aa376cd">m_healthdamage</a> = _health;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        this.<a class="code" href="../../de/d0c/classDamageText.html#ae4c1f8aa207896e527bb3598dbdce3bd">m_armordamage</a> = _armor;</div>
@@ -568,7 +558,7 @@ Static Public Attributes</h2></td></tr>
 <div class="ttc" id="classDamageText_html_a72d6238a28d367c6b1315b01674d691c"><div class="ttname"><a href="../../de/d0c/classDamageText.html#a72d6238a28d367c6b1315b01674d691c">DamageText::m_size</a></div><div class="ttdeci">float m_size</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3f/cl__damagetext_8qc_source.html#l00044">cl_damagetext.qc:44</a></div></div>
 <div class="ttc" id="classDamageText_html_a40af78a51b4e68605dc9079e5b6c34b9"><div class="ttname"><a href="../../de/d0c/classDamageText.html#a40af78a51b4e68605dc9079e5b6c34b9">DamageText::m_screen_coords</a></div><div class="ttdeci">bool m_screen_coords</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3f/cl__damagetext_8qc_source.html#l00056">cl_damagetext.qc:56</a></div></div>
 <div class="ttc" id="damagetext_8qh_html_aec79b6285984eef22af18f273205c4b2"><div class="ttname"><a href="../../dd/d79/damagetext_8qh.html#aec79b6285984eef22af18f273205c4b2">DAMAGETEXT_PRECISION_MULTIPLIER</a></div><div class="ttdeci">#define DAMAGETEXT_PRECISION_MULTIPLIER</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/damagetext_8qh_source.html#l00003">damagetext.qh:3</a></div></div>
-<div class="ttc" id="string_8qh_html_a6ed37ac9986b5f629728ff34571a3ef5"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a6ed37ac9986b5f629728ff34571a3ef5">substring_range</a></div><div class="ttdeci">ERASEABLE string substring_range(string s, float b, float e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00199">string.qh:199</a></div></div>
+<div class="ttc" id="string_8qh_html_a6ed37ac9986b5f629728ff34571a3ef5"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a6ed37ac9986b5f629728ff34571a3ef5">substring_range</a></div><div class="ttdeci">ERASEABLE string substring_range(string s, float b, float e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00206">string.qh:206</a></div></div>
 <div class="ttc" id="string_8qh_html_a9911c5e0b0c9ecae050a2193eb6c2af5"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a></div><div class="ttdeci">#define strcpy(this, s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00049">string.qh:49</a></div></div>
 <div class="ttc" id="math_8qh_html_ae72916d6ffdcecef7d4c9faaa9970c1d"><div class="ttname"><a href="../../d0/d79/math_8qh.html#ae72916d6ffdcecef7d4c9faaa9970c1d">map_bound_ranges</a></div><div class="ttdeci">ERASEABLE float map_bound_ranges(float value, float src_min, float src_max, float dest_min, float dest_max)</div><div class="ttdoc">Same as map_ranges except that values outside the source range are clamped to min or max...</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00342">math.qh:342</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
@@ -586,11 +576,11 @@ Static Public Attributes</h2></td></tr>
 <div class="ttc" id="classDamageText_html_a2146d44740bd3501dfa815d44aa376cd"><div class="ttname"><a href="../../de/d0c/classDamageText.html#a2146d44740bd3501dfa815d44aa376cd">DamageText::m_healthdamage</a></div><div class="ttdeci">int m_healthdamage</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3f/cl__damagetext_8qc_source.html#l00050">cl_damagetext.qc:50</a></div></div>
 <div class="ttc" id="classDamageText_html_a2a23458a49f8174ef3fc937ad8f81a40"><div class="ttname"><a href="../../de/d0c/classDamageText.html#a2a23458a49f8174ef3fc937ad8f81a40">DamageText::m_potential_damage</a></div><div class="ttdeci">int m_potential_damage</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3f/cl__damagetext_8qc_source.html#l00052">cl_damagetext.qc:52</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d0c/classDamageText_a95a7a03c14103583821720970c1830eb_cgraph.svg" width="518" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -878,7 +868,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d0c/classDamageText.html">DamageText</a></li>
-    <li class="footer">Generated on Sun Apr 8 2018 12:13:56 for Xonotic by
+    <li class="footer">Generated on Mon Apr 9 2018 10:28:20 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

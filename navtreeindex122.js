@@ -1,5 +1,6 @@
 var NAVTREEINDEX122 =
 {
+"de/d40/gamemode__keyhunt_8qc.html#a0411010ca825838d10464f8da5825df9":[2,0,6,3,0,20,84],
 "de/d40/gamemode__keyhunt_8qc.html#a04faf2679fdcfe0ec94f5efedf316eef":[2,0,6,3,0,20,33],
 "de/d40/gamemode__keyhunt_8qc.html#a05fc29853c73faa635782df0536b3812":[2,0,6,3,0,20,4],
 "de/d40/gamemode__keyhunt_8qc.html#a0762849f04090d517155ac123bbcd625":[2,0,6,3,0,20,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX122 =
 "de/d4f/teamplay_8qc.html#a317914490700838803594e2a962a5d3f":[2,0,6,74,18],
 "de/d4f/teamplay_8qc.html#a3bdfe5e750a8a5e86992d4f95eca7585":[2,0,6,74,20],
 "de/d4f/teamplay_8qc.html#a521eb2e16efc843dcba746b6964d3515":[2,0,6,74,19],
-"de/d4f/teamplay_8qc.html#a56ec2606774cb524ffec45087d474bca":[2,0,6,74,5],
-"de/d4f/teamplay_8qc.html#a5f4692aa7896daea45fe2a5b380ca559":[2,0,6,74,2]
+"de/d4f/teamplay_8qc.html#a56ec2606774cb524ffec45087d474bca":[2,0,6,74,5]
 };
