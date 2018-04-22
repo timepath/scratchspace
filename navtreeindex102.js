@@ -1,8 +1,5 @@
 var NAVTREEINDEX102 =
 {
-"db/d7f/effectinfo_8inc.html#accb016a039a53ac3201ef4a7af4b7d25":[2,0,1,2,7,210],
-"db/d7f/effectinfo_8inc.html#acd1be520c6f7997698f8512ea3281d5c":[2,0,1,2,7,280],
-"db/d7f/effectinfo_8inc.html#acdba90a603f64accd60e241ce4b73609":[2,0,1,2,7,47],
 "db/d7f/effectinfo_8inc.html#ace2f2eb8fa3abc018fb3084a17161d64":[2,0,1,2,7,243],
 "db/d7f/effectinfo_8inc.html#aceaef505de3578b9fe04a46a6317626d":[2,0,1,2,7,341],
 "db/d7f/effectinfo_8inc.html#ad15e2560d41ff0d706b5f4d0feacacf6":[2,0,1,2,7,356],
@@ -249,5 +246,8 @@ var NAVTREEINDEX102 =
 "db/db1/classXonoticHUDRaceTimerDialog.html#a0e4b1a8ba11fd32348e435bb6e2bdf5d":[1,0,196,57],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,196,46],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,196,24],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,196,17]
+"db/db1/classXonoticHUDRaceTimerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,196,17],
+"db/db1/classXonoticHUDRaceTimerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,196,72],
+"db/db1/classXonoticHUDRaceTimerDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,196,69],
+"db/db1/classXonoticHUDRaceTimerDialog.html#a1c99834aa928bd039ef9e623eb735f8b":[1,0,196,85]
 };

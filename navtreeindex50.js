@@ -1,6 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"d5/dac/g__damage_8qc.html#a24aaf696797544264665df5f05253d1c":[2,0,6,21,12],
 "d5/dac/g__damage_8qc.html#a2606d7979cdea514c3d8271956430a8d":[2,0,6,21,17],
 "d5/dac/g__damage_8qc.html#a30b6dcb0a5e148d3961cad10abdaf5af":[2,0,6,21,15],
 "d5/dac/g__damage_8qc.html#a449c65621d31ac988f82a49ddf881ca0":[2,0,6,21,11],
@@ -79,9 +78,8 @@ var NAVTREEINDEX50 =
 "d5/dc4/hook_8qh_source.html":[2,0,1,16,0,19],
 "d5/dc5/sv__cloaked_8qc.html":[2,0,1,9,0,5,2],
 "d5/dc5/sv__cloaked_8qc.html#a36b438ea8fc2069f3a3827446713175a":[2,0,1,9,0,5,2,1],
-"d5/dc5/sv__cloaked_8qc.html#a4713b534418c91107cf1c1dd15f0e853":[2,0,1,9,0,5,2,4],
+"d5/dc5/sv__cloaked_8qc.html#a68ab1c6206e40baacb636ab3b0b2acd3":[2,0,1,9,0,5,2,2],
 "d5/dc5/sv__cloaked_8qc.html#a86412a081b2be4d61112c2654e1bc581":[2,0,1,9,0,5,2,3],
-"d5/dc5/sv__cloaked_8qc.html#a9a5c57b486b5d1cf0d4599836dde935d":[2,0,1,9,0,5,2,2],
 "d5/dc5/sv__cloaked_8qc.html#ae410968a5ae838f85296dfde4da60aa7":[2,0,1,9,0,5,2,0],
 "d5/dc5/sv__cloaked_8qc_source.html":[2,0,1,9,0,5,2],
 "d5/dc5/weaponslist_8qh.html":[2,0,5,4,235],
@@ -249,5 +247,7 @@ var NAVTREEINDEX50 =
 "d5/df2/common_2util_8qh.html#a0c6829767aa2400e49284b242c194d95":[2,0,1,50,32],
 "d5/df2/common_2util_8qh.html#a1371630f3443945a1ff175145d2012f3":[2,0,1,50,25],
 "d5/df2/common_2util_8qh.html#a13c26cd88e3905c0852467115ff159cb":[2,0,1,50,48],
-"d5/df2/common_2util_8qh.html#a154ba8224ee5f36a7e74adc8e625df72":[2,0,1,50,36]
+"d5/df2/common_2util_8qh.html#a154ba8224ee5f36a7e74adc8e625df72":[2,0,1,50,36],
+"d5/df2/common_2util_8qh.html#a1947b4b6a690f32caa5364746c7526c6":[2,0,1,50,24],
+"d5/df2/common_2util_8qh.html#a1bdccada8e15a2921dd2ee0a7464ad65":[2,0,1,50,41]
 };

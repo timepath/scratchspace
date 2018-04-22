@@ -31,7 +31,6 @@ var searchData=
   ['g_5fhook_2eqc',['g_hook.qc',['../d7/de2/g__hook_8qc.html',1,'']]],
   ['g_5fhook_2eqh',['g_hook.qh',['../d7/de1/g__hook_8qh.html',1,'']]],
   ['g_5finitforplayer',['g_initforplayer',['../d5/d26/server_2defs_8qh.html#a75c45e23a5f40e4d47fb95c01575e39b',1,'defs.qh']]],
-  ['g_5finstagib',['g_instagib',['../d5/d26/server_2defs_8qh.html#a2bd71e8090c09dc399620eacd69b6e73',1,'defs.qh']]],
   ['g_5finvasion',['g_invasion',['../da/dd2/gamemode__invasion_8qh.html#a1da95251eb07c840640be54b71e94ecb',1,'gamemode_invasion.qh']]],
   ['g_5finvasion_5froundends',['g_invasion_roundends',['../d5/d1f/gamemode__invasion_8qc.html#a423f16bd8faa1757e975a1d17c01f6b2',1,'gamemode_invasion.qc']]],
   ['g_5finvasion_5fspawns',['g_invasion_spawns',['../d5/d1f/gamemode__invasion_8qc.html#ad0172f050477dc1d65d9e21b5ae0bd3b',1,'gamemode_invasion.qc']]],

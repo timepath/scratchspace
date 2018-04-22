@@ -1,8 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"de/d7a/classXonoticHUDScoreDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,198,84],
-"de/d7a/classXonoticHUDScoreDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,198,10],
-"de/d7e/common_2weapons_2__all_8inc.html":[2,0,1,16,1],
 "de/d7e/common_2weapons_2__all_8inc_source.html":[2,0,1,16,1],
 "de/d82/classDataSource.html":[1,0,26],
 "de/d82/classDataSource.html#a1bfb6b238d890bf4155028dc97cd230a":[1,0,26,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX126 =
 "de/dab/classObserver.html#a5d9df5ac0abeed28dc3a5e64a1ad3336":[1,0,90,77],
 "de/dab/classObserver.html#a5debad0a069dcef7c24158a8db6db7ae":[1,0,90,49],
 "de/dab/classObserver.html#a5f204f701cd40543d1e0e08e1648bd16":[1,0,90,34],
-"de/dab/classObserver.html#a5ffe68e3b3028b5b83443e5e5b51925f":[1,0,90,85]
+"de/dab/classObserver.html#a5ffe68e3b3028b5b83443e5e5b51925f":[1,0,90,85],
+"de/dab/classObserver.html#a625e7430ff09edf633282f5c0bb64c53":[1,0,90,48],
+"de/dab/classObserver.html#a65f9df4b1ebe7629080c7fc3f7edf81d":[1,0,90,28],
+"de/dab/classObserver.html#a67d23901aa908fbbb2762d8b9924c8f1":[1,0,90,54]
 };

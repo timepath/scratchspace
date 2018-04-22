@@ -124,7 +124,6 @@ var server_2defs_8qh =
     [ "g_footsteps", "d5/d26/server_2defs_8qh.html#a31e05dca1562dcacdfd5a7d126f64758", null ],
     [ "g_grappling_hook", "d5/d26/server_2defs_8qh.html#a20b8fd2c223a945ae85aa2105e9cc078", null ],
     [ "g_initforplayer", "d5/d26/server_2defs_8qh.html#a75c45e23a5f40e4d47fb95c01575e39b", null ],
-    [ "g_instagib", "d5/d26/server_2defs_8qh.html#a2bd71e8090c09dc399620eacd69b6e73", null ],
     [ "g_items", "d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5", null ],
     [ "g_jetpack", "d5/d26/server_2defs_8qh.html#a3bc1238ebb2ffbad59083120a2fafef8", null ],
     [ "g_ladders", "d5/d26/server_2defs_8qh.html#adcbd1a233f8372f5432acdeaeb4d1d14", null ],

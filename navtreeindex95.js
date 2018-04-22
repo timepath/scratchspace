@@ -1,8 +1,5 @@
 var NAVTREEINDEX95 =
 {
-"da/ded/classSeeker.html#a4337268c8cad6836bae8efd4a8835070":[1,0,116,22],
-"da/ded/classSeeker.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,116,2],
-"da/ded/classSeeker.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,116,16],
 "da/ded/classSeeker.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,116,10],
 "da/ded/classSeeker.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,116,9],
 "da/ded/classSeeker.html#a6ef51387db20a968542626c5e2843b14":[1,0,116,36],
@@ -249,5 +246,8 @@ var NAVTREEINDEX95 =
 "db/d11/classBumblebee.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,11,8],
 "db/d11/classBumblebee.html#a2042c34036059a8116785dd379c692fe":[1,0,11,17],
 "db/d11/classBumblebee.html#a23b5d8a4e07000e6d08fe727bdf23471":[1,0,11,14],
-"db/d11/classBumblebee.html#a269c42fb128fc5d56fac3abb21fbcdca":[1,0,11,3]
+"db/d11/classBumblebee.html#a269c42fb128fc5d56fac3abb21fbcdca":[1,0,11,3],
+"db/d11/classBumblebee.html#a2de5efac4c3bcb69f250249b7442db59":[1,0,11,26],
+"db/d11/classBumblebee.html#a2fb62f5fc889f0fb67479232a71ef73b":[1,0,11,24],
+"db/d11/classBumblebee.html#a2ffa6e7541d6fc166d266d2d7f13e25a":[1,0,11,27]
 };

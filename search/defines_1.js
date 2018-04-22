@@ -84,6 +84,7 @@ var searchData=
   ['autocvar_5fg_5ffriendlyfire',['autocvar_g_friendlyfire',['../d7/da7/server_2autocvars_8qh.html#afc7cbd9fb03b61fdee2c9a4e00514540',1,'autocvars.qh']]],
   ['autocvar_5fg_5ffriendlyfire_5fvirtual',['autocvar_g_friendlyfire_virtual',['../d7/da7/server_2autocvars_8qh.html#a25bb793e3a39cf90a4f5c1ced11b5ca2',1,'autocvars.qh']]],
   ['autocvar_5fg_5ffriendlyfire_5fvirtual_5fforce',['autocvar_g_friendlyfire_virtual_force',['../d7/da7/server_2autocvars_8qh.html#aea51f1b0bee08cd3bad454cc72dd275b',1,'autocvars.qh']]],
+  ['autocvar_5fg_5finstagib',['autocvar_g_instagib',['../d7/da7/server_2autocvars_8qh.html#ab9aba65c06b415dc9faf258e206b8ba9',1,'autocvars.qh']]],
   ['autocvar_5fg_5finvasion_5fpoint_5flimit',['autocvar_g_invasion_point_limit',['../da/dd2/gamemode__invasion_8qh.html#aa796ea7b6c0f35ad5a7b8ecba186b192',1,'gamemode_invasion.qh']]],
   ['autocvar_5fg_5fkeyhunt_5fpoint_5flimit',['autocvar_g_keyhunt_point_limit',['../d8/de1/gamemode__keyhunt_8qh.html#aa5133eefef59c4cbe046575fa6ad9e05',1,'gamemode_keyhunt.qh']]],
   ['autocvar_5fg_5flms_5flives_5foverride',['autocvar_g_lms_lives_override',['../d8/d2c/gamemode__lms_8qh.html#a6c7bc0da7745d3049dd2641ece20b3da',1,'gamemode_lms.qh']]],

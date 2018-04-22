@@ -17,7 +17,7 @@ var sv__overkill_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d8/d0c/sv__overkill_8qc.html#a8c34739cb15da34b18acf3a993117a64", null ],
     [ "ok_DropItem", "d8/d0c/sv__overkill_8qc.html#af9ffca40bf7744bacacbc7b729c20241", null ],
     [ "ok_HandleItemWaypoints", "d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2", null ],
-    [ "REGISTER_MUTATOR", "d8/d0c/sv__overkill_8qc.html#a081aa40d5576f73ef1ed05bed19ce05d", null ],
+    [ "REGISTER_MUTATOR", "d8/d0c/sv__overkill_8qc.html#aa9859ed2ab17688530986602cb7f250b", null ],
     [ "W_Blaster_Attack", "d8/d0c/sv__overkill_8qc.html#a35da7c6368e9601b8efff8c975740526", null ],
     [ "autocvar_g_overkill", "d8/d0c/sv__overkill_8qc.html#a3df1ad4e7a39586701f0ad22f045c87e", null ],
     [ "autocvar_g_overkill_itemwaypoints", "d8/d0c/sv__overkill_8qc.html#a32804d520c2a33728a97813dceef84e5", null ],

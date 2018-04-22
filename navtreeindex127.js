@@ -1,8 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"de/dab/classObserver.html#a625e7430ff09edf633282f5c0bb64c53":[1,0,90,48],
-"de/dab/classObserver.html#a65f9df4b1ebe7629080c7fc3f7edf81d":[1,0,90,28],
-"de/dab/classObserver.html#a67d23901aa908fbbb2762d8b9924c8f1":[1,0,90,54],
 "de/dab/classObserver.html#a69207eb6a3c917e14314d11ba6d811f8":[1,0,90,15],
 "de/dab/classObserver.html#a6e2b1750af9db4c97521dce1478513a4":[1,0,90,117],
 "de/dab/classObserver.html#a6e452940b61f8458bd7153967a423d3e":[1,0,90,44],
@@ -104,11 +101,11 @@ var NAVTREEINDEX127 =
 "de/dc2/sv__melee__only_8qc.html#a186b55e5f37eb79c0588e2375abc4905":[2,0,1,9,0,16,2,5],
 "de/dc2/sv__melee__only_8qc.html#a23f93aaf08a2f1e8ffee4eecab2fdb1f":[2,0,1,9,0,16,2,3],
 "de/dc2/sv__melee__only_8qc.html#a4cc89aa28edf36b1c3e483b7cab6afcb":[2,0,1,9,0,16,2,8],
-"de/dc2/sv__melee__only_8qc.html#a760e32eb18a9fd762448e7cb12176109":[2,0,1,9,0,16,2,7],
 "de/dc2/sv__melee__only_8qc.html#a8d50624c9ba11743e921defd34fb9471":[2,0,1,9,0,16,2,2],
 "de/dc2/sv__melee__only_8qc.html#ac703feded73e34d3fcaca45debdc68df":[2,0,1,9,0,16,2,0],
 "de/dc2/sv__melee__only_8qc.html#ad5ac287028021a6d0eeb43e77880cf11":[2,0,1,9,0,16,2,6],
 "de/dc2/sv__melee__only_8qc.html#aebe9a2c4f8605de51e12cc76f8ce8108":[2,0,1,9,0,16,2,1],
+"de/dc2/sv__melee__only_8qc.html#af6ec3955681de963d3f174bd71702b59":[2,0,1,9,0,16,2,7],
 "de/dc2/sv__melee__only_8qc.html#afe2036e23120afaf50c25eff1b9cbdb4":[2,0,1,9,0,16,2,4],
 "de/dc2/sv__melee__only_8qc_source.html":[2,0,1,9,0,16,2],
 "de/dc3/teamradar_8qc.html":[2,0,0,26],
@@ -249,5 +246,8 @@ var NAVTREEINDEX127 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,189,24],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,189,17],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,189,72],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,189,69]
+"de/de7/classXonoticHUDItemsTimeDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,189,69],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a19f4c0331f6d07b15792efc7fd5fa49d":[1,0,189,85],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,189,68],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,189,7]
 };
