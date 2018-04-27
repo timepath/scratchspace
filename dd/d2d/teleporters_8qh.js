@@ -12,10 +12,10 @@ var teleporters_8qh =
     [ "WarpZone_PostTeleportPlayer_Callback", "dd/d2d/teleporters_8qh.html#aa4ad657aa593e009d50c6e19a4647ba5", null ],
     [ "g_teleporters", "dd/d2d/teleporters_8qh.html#acce302c0f2186fb419328bb3a9c5a1a7", null ],
     [ "pusher", "dd/d2d/teleporters_8qh.html#a798f63d3b40c416811743d9bfc9b1d28", null ],
-    [ "TELEPORT_FLAG_FORCE_TDEATH", "dd/d2d/teleporters_8qh.html#a6750eb60aa50c771e9cc1cbb36ba86d8", null ],
-    [ "TELEPORT_FLAG_PARTICLES", "dd/d2d/teleporters_8qh.html#a967ae5431f5c5d9e24e40d9ed5247a58", null ],
-    [ "TELEPORT_FLAG_SOUND", "dd/d2d/teleporters_8qh.html#a99157f0030f161529d4df955309fe5d0", null ],
-    [ "TELEPORT_FLAG_TDEATH", "dd/d2d/teleporters_8qh.html#a6454a61dd1c1dc4592b9fbeecb5fde07", null ],
-    [ "TELEPORT_NORMAL", "dd/d2d/teleporters_8qh.html#aa89586aff91c233165538a19c07e87d4", null ],
-    [ "TELEPORT_SIMPLE", "dd/d2d/teleporters_8qh.html#a8fdd5e6e5b177edb086c3c0e182c8ebd", null ]
+    [ "TELEPORT_FLAG_FORCE_TDEATH", "dd/d2d/teleporters_8qh.html#aac63863f08dec7e6fb0d29f6217466ad", null ],
+    [ "TELEPORT_FLAG_PARTICLES", "dd/d2d/teleporters_8qh.html#a2282a0f8baf0a645619e7911a38a3d93", null ],
+    [ "TELEPORT_FLAG_SOUND", "dd/d2d/teleporters_8qh.html#a0ef580965c1907c2c387c11859587598", null ],
+    [ "TELEPORT_FLAG_TDEATH", "dd/d2d/teleporters_8qh.html#a285cab94d4430757740a7d5ce95f99b8", null ],
+    [ "TELEPORT_NORMAL", "dd/d2d/teleporters_8qh.html#a2e98016bb3ba2c249de1e779bcce86cf", null ],
+    [ "TELEPORT_SIMPLE", "dd/d2d/teleporters_8qh.html#af02a303f75617b6a9d414ca8f8ea05f5", null ]
 ];

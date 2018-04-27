@@ -6,6 +6,7 @@ var searchData=
   ['unfollow_5fsameorigin',['unfollow_sameorigin',['../dc/dc6/server_2miscfunctions_8qc.html#a03c1b8950eeb6441164aa0ee8ae330a5',1,'miscfunctions.qc']]],
   ['unfreeze',['Unfreeze',['../d5/dac/g__damage_8qc.html#a705ff21e2e789e10d1eeb3bd16f97c86',1,'Unfreeze(entity targ):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#a705ff21e2e789e10d1eeb3bd16f97c86',1,'Unfreeze(entity targ):&#160;g_damage.qc']]],
   ['unquote',['unquote',['../d3/d46/mapinfo_8qc.html#a909ab91933ee8b125ca839d26c3116d2',1,'mapinfo.qc']]],
+  ['unref',['unref',['../d2/dce/promise_8qc.html#a712a7e556da708f2c2de4a0bf5fcaae9',1,'promise.qc']]],
   ['unsetmovetypefollow',['UnsetMovetypeFollow',['../dc/dc6/server_2miscfunctions_8qc.html#a9634e44df040223a44cd0063ac141c9f',1,'miscfunctions.qc']]],
   ['update',['update',['../d0/d5d/classAnimation.html#a4318baf0b0735e7da87b2c6d3d3a2705',1,'Animation']]],
   ['update_5fmousepos',['update_mousepos',['../dc/d98/client_2miscfunctions_8qc.html#a08d24097586a6fc4539ce644d1c66e54',1,'update_mousepos():&#160;miscfunctions.qc'],['../d8/db6/client_2miscfunctions_8qh.html#a08d24097586a6fc4539ce644d1c66e54',1,'update_mousepos():&#160;miscfunctions.qc']]],

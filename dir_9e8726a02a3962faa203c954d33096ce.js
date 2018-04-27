@@ -6,6 +6,7 @@ var dir_9e8726a02a3962faa203c954d33096ce =
     [ "trigger", "dir_68c7af0e850d11bf6ba23fecbd658357.html", "dir_68c7af0e850d11bf6ba23fecbd658357" ],
     [ "_mod.inc", "dd/de2/common_2triggers_2__mod_8inc.html", null ],
     [ "_mod.qh", "d0/dd1/common_2triggers_2__mod_8qh.html", null ],
+    [ "defs.qh", "d0/d2b/common_2triggers_2defs_8qh.html", "d0/d2b/common_2triggers_2defs_8qh" ],
     [ "include.qc", "d8/dfa/include_8qc.html", null ],
     [ "include.qh", "d9/d7e/include_8qh.html", null ],
     [ "platforms.qc", "d1/d08/platforms_8qc.html", "d1/d08/platforms_8qc" ],

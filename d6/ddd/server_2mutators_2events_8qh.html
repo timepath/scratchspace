@@ -360,6 +360,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a41503423dd2a1ef8ea4eb70e616c536c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a41503423dd2a1ef8ea4eb70e616c536c">EV_PlayerDies</a>(i, o)</td></tr>
 <tr class="memdesc:a41503423dd2a1ef8ea4eb70e616c536c"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a player dies to e.g.  <a href="#a41503423dd2a1ef8ea4eb70e616c536c">More...</a><br/></td></tr>
 <tr class="separator:a41503423dd2a1ef8ea4eb70e616c536c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06b703b20af9ddda50461e3390975583"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a06b703b20af9ddda50461e3390975583">EV_PlayerPhysics_PostUpdateStats</a>(i, o)</td></tr>
+<tr class="memdesc:a06b703b20af9ddda50461e3390975583"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after physics stats are set on a player, allows post-initialization modifications  <a href="#a06b703b20af9ddda50461e3390975583">More...</a><br/></td></tr>
+<tr class="separator:a06b703b20af9ddda50461e3390975583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af557f5991dd0faf88c21b4f046959e56"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#af557f5991dd0faf88c21b4f046959e56">EV_PlayerPhysics_UpdateStats</a>(i, o)&#160;&#160;&#160;/** player */             i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:af557f5991dd0faf88c21b4f046959e56"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before physics stats are set on a player, allows limited early customization  <a href="#af557f5991dd0faf88c21b4f046959e56">More...</a><br/></td></tr>
 <tr class="separator:af557f5991dd0faf88c21b4f046959e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -484,35 +487,35 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a385c44f6fb256e5716a2302a5b940388"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a83fa3412f7b9ca0cdf727708e0a4c89a">MUT_FUSREAC_TARG_CONTINUE</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a0b727707d8a1f3e255acb85bebbd1761">MUT_FUSREAC_TARG_VALID</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a82492ff4719762fa9752cd4ee82dc393">MUT_FUSREAC_TARG_INVALID</a>
+<tr class="memitem:a385c44f6fb256e5716a2302a5b940388"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a8168d5d80f0fe8ae36ce88761b83f3b9">MUT_SPECCMD_CONTINUE</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a16923782cb89db5bf0021537cca9d490">MUT_SPECCMD_RETURN</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a6bdf812d9a913a38cdb3aaebad56c89a">MUT_SPECCMD_FORCE</a>
  }</td></tr>
 <tr class="separator:a385c44f6fb256e5716a2302a5b940388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc5c98fcc1211af2b80116dd6e0a035d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dadccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a>
+<tr class="memitem:abc5c98fcc1211af2b80116dd6e0a035d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da83fa3412f7b9ca0cdf727708e0a4c89a">MUT_FUSREAC_TARG_CONTINUE</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da0b727707d8a1f3e255acb85bebbd1761">MUT_FUSREAC_TARG_VALID</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da82492ff4719762fa9752cd4ee82dc393">MUT_FUSREAC_TARG_INVALID</a>
  }</td></tr>
 <tr class="separator:abc5c98fcc1211af2b80116dd6e0a035d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a726ca809ffd3d67ab4b8476646f26635"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635afae122758cc06d2452f6817e998671dd">MUT_ITEMTOUCH_CONTINUE</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a9c5e9086f06ed095b2a2e86617459fb4">MUT_ITEMTOUCH_RETURN</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a37783ea67506cbfd8e6905ee995061be">MUT_ITEMTOUCH_PICKUP</a>
+<tr class="memitem:ac36f475ca5b446f4fde4c9b90bec77c8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8ae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8adccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a>
  }</td></tr>
-<tr class="separator:a726ca809ffd3d67ab4b8476646f26635"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0411cd49bb5b71852cecd93bcbf0ca2d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2daf472ec535e6e4b6b39552253d5128c6c">MUT_ACCADD_VALID</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2dabba6311be4f5a35fa3e04dfaad7ee09e">MUT_ACCADD_INVALID</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da708c50a7b7fff1d0a28ef250fcc171d2">MUT_ACCADD_INDIFFERENT</a>
+<tr class="separator:ac36f475ca5b446f4fde4c9b90bec77c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0411cd49bb5b71852cecd93bcbf0ca2d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2dafae122758cc06d2452f6817e998671dd">MUT_ITEMTOUCH_CONTINUE</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da9c5e9086f06ed095b2a2e86617459fb4">MUT_ITEMTOUCH_RETURN</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da37783ea67506cbfd8e6905ee995061be">MUT_ITEMTOUCH_PICKUP</a>
  }</td></tr>
 <tr class="separator:a0411cd49bb5b71852cecd93bcbf0ca2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abed82baf7f470b522273a3e37c24c600"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600ad6826cc8e1309c0d70a9b3340b0a5df1">MUT_SPECPREV_CONTINUE</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600a0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600adbb1898d9ed2292ba439603e3ecb0d78">MUT_SPECPREV_FOUND</a>
+<tr class="memitem:abed82baf7f470b522273a3e37c24c600"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600af472ec535e6e4b6b39552253d5128c6c">MUT_ACCADD_VALID</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600abba6311be4f5a35fa3e04dfaad7ee09e">MUT_ACCADD_INVALID</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600a708c50a7b7fff1d0a28ef250fcc171d2">MUT_ACCADD_INDIFFERENT</a>
  }</td></tr>
 <tr class="separator:abed82baf7f470b522273a3e37c24c600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab04a0655cd1e3bcac5e8f48c18df1a57"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a8168d5d80f0fe8ae36ce88761b83f3b9">MUT_SPECCMD_CONTINUE</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a16923782cb89db5bf0021537cca9d490">MUT_SPECCMD_RETURN</a>, 
-<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a6bdf812d9a913a38cdb3aaebad56c89a">MUT_SPECCMD_FORCE</a>
+<tr class="memitem:ab04a0655cd1e3bcac5e8f48c18df1a57"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57ad6826cc8e1309c0d70a9b3340b0a5df1">MUT_SPECPREV_CONTINUE</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a>, 
+<a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57adbb1898d9ed2292ba439603e3ecb0d78">MUT_SPECPREV_FOUND</a>
  }</td></tr>
 <tr class="separator:ab04a0655cd1e3bcac5e8f48c18df1a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -796,6 +799,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5f9b5667d7f2f727b9bbe231a117ea7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06ab8cdbbf3d551b0c430022576a0091"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a06ab8cdbbf3d551b0c430022576a0091">MUTATOR_HOOKABLE</a> (PlayerPhysics_UpdateStats, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#af557f5991dd0faf88c21b4f046959e56">EV_PlayerPhysics_UpdateStats</a>)</td></tr>
 <tr class="separator:a06ab8cdbbf3d551b0c430022576a0091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a681f96033260fbba0c7fe84da4c3e7ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a681f96033260fbba0c7fe84da4c3e7ed">MUTATOR_HOOKABLE</a> (PlayerPhysics_PostUpdateStats, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a06b703b20af9ddda50461e3390975583">EV_PlayerPhysics_PostUpdateStats</a>)</td></tr>
+<tr class="separator:a681f96033260fbba0c7fe84da4c3e7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71bbf8e969ec569ac7aaf7e15e60654a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a71bbf8e969ec569ac7aaf7e15e60654a">MUTATOR_HOOKABLE</a> (HavocBot_Aim, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a50af8688b94f7351c9831c80170c1cf7">EV_HavocBot_Aim</a>)</td></tr>
 <tr class="separator:a71bbf8e969ec569ac7aaf7e15e60654a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af82048eef48364d24aa9dc06a0834ab3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#af82048eef48364d24aa9dc06a0834ab3">MUTATOR_HOOKABLE</a> (CalculateRespawnTime, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aafb4cc64ad58e37c8ae14ca8c4c7ba7c">EV_CalculateRespawnTime</a>)</td></tr>
@@ -1153,7 +1158,7 @@ Variables</h2></td></tr>
 
 <p>return true to skip respawn time calculations </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01116">1116</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01123">1123</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -2452,7 +2457,7 @@ Variables</h2></td></tr>
 
 <p>return true to use your own aim target (or none at all) </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01110">1110</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01117">1117</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -3335,6 +3340,38 @@ Variables</h2></td></tr>
 <p>remove stuff he was carrying. </p>
 
 <p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00071">71</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a06b703b20af9ddda50461e3390975583"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_PlayerPhysics_PostUpdateStats</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">             i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \       i(<span class="keywordtype">float</span>, MUTATOR_ARGV_1_float) \</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+</div><!-- fragment -->
+<p>called after physics stats are set on a player, allows post-initialization modifications </p>
+
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01110">1110</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -4586,7 +4623,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>called when parsing a vote command. </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01122">1122</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01129">1129</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -4763,23 +4800,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a385c44f6fb256e5716a2302a5b940388a83fa3412f7b9ca0cdf727708e0a4c89a"></a>MUT_FUSREAC_TARG_CONTINUE</em>&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a385c44f6fb256e5716a2302a5b940388a8168d5d80f0fe8ae36ce88761b83f3b9"></a>MUT_SPECCMD_CONTINUE</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a385c44f6fb256e5716a2302a5b940388a0b727707d8a1f3e255acb85bebbd1761"></a>MUT_FUSREAC_TARG_VALID</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="a385c44f6fb256e5716a2302a5b940388a16923782cb89db5bf0021537cca9d490"></a>MUT_SPECCMD_RETURN</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a385c44f6fb256e5716a2302a5b940388a82492ff4719762fa9752cd4ee82dc393"></a>MUT_FUSREAC_TARG_INVALID</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="a385c44f6fb256e5716a2302a5b940388a6bdf812d9a913a38cdb3aaebad56c89a"></a>MUT_SPECCMD_FORCE</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01084">1084</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;     {</div>
-<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a83fa3412f7b9ca0cdf727708e0a4c89a">MUT_FUSREAC_TARG_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
-<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a0b727707d8a1f3e255acb85bebbd1761">MUT_FUSREAC_TARG_VALID</a>, <span class="comment">// return this flag to make the function return true (valid target)</span></div>
-<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a82492ff4719762fa9752cd4ee82dc393">MUT_FUSREAC_TARG_INVALID</a> <span class="comment">// return this flag to make the function return false (invalid target)</span></div>
-<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;};</div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a385c44f6fb256e5716a2302a5b940388a0b727707d8a1f3e255acb85bebbd1761"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a0b727707d8a1f3e255acb85bebbd1761">MUT_FUSREAC_TARG_VALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01086">events.qh:1086</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a385c44f6fb256e5716a2302a5b940388a82492ff4719762fa9752cd4ee82dc393"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a82492ff4719762fa9752cd4ee82dc393">MUT_FUSREAC_TARG_INVALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01087">events.qh:1087</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a385c44f6fb256e5716a2302a5b940388a83fa3412f7b9ca0cdf727708e0a4c89a"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a83fa3412f7b9ca0cdf727708e0a4c89a">MUT_FUSREAC_TARG_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01085">events.qh:1085</a></div></div>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00900">900</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;     {</div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a8168d5d80f0fe8ae36ce88761b83f3b9">MUT_SPECCMD_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
+<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a16923782cb89db5bf0021537cca9d490">MUT_SPECCMD_RETURN</a>, <span class="comment">// return this flag to make the function return (don&#39;t spectate)</span></div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a6bdf812d9a913a38cdb3aaebad56c89a">MUT_SPECCMD_FORCE</a> <span class="comment">// return this flag to force the player to spectate, even if they&#39;re not a player</span></div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;};</div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_a385c44f6fb256e5716a2302a5b940388a16923782cb89db5bf0021537cca9d490"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a16923782cb89db5bf0021537cca9d490">MUT_SPECCMD_RETURN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00902">events.qh:902</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_a385c44f6fb256e5716a2302a5b940388a8168d5d80f0fe8ae36ce88761b83f3b9"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a8168d5d80f0fe8ae36ce88761b83f3b9">MUT_SPECCMD_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00901">events.qh:901</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_a385c44f6fb256e5716a2302a5b940388a6bdf812d9a913a38cdb3aaebad56c89a"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a6bdf812d9a913a38cdb3aaebad56c89a">MUT_SPECCMD_FORCE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00903">events.qh:903</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -4793,31 +4830,27 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="abc5c98fcc1211af2b80116dd6e0a035da1b140984b84abfc87e4bfa00a40c8a25"></a>MUT_VOTEPARSE_CONTINUE</em>&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="abc5c98fcc1211af2b80116dd6e0a035da83fa3412f7b9ca0cdf727708e0a4c89a"></a>MUT_FUSREAC_TARG_CONTINUE</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="abc5c98fcc1211af2b80116dd6e0a035dae67d5d033501401988c1790a3d19624e"></a>MUT_VOTEPARSE_SUCCESS</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="abc5c98fcc1211af2b80116dd6e0a035da0b727707d8a1f3e255acb85bebbd1761"></a>MUT_FUSREAC_TARG_VALID</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="abc5c98fcc1211af2b80116dd6e0a035dadccefef0c63d202f83ec5f05988c435e"></a>MUT_VOTEPARSE_INVALID</em>&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="abc5c98fcc1211af2b80116dd6e0a035da8023c437c0cb9ea726bfe3cfc77fc5f8"></a>MUT_VOTEPARSE_UNACCEPTABLE</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="abc5c98fcc1211af2b80116dd6e0a035da82492ff4719762fa9752cd4ee82dc393"></a>MUT_FUSREAC_TARG_INVALID</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01131">1131</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;     {</div>
-<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
-<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a>, <span class="comment">// return 1 (vote parsed)</span></div>
-<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dadccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a>, <span class="comment">// return -1 (vote parsed but counted as invalid, no action or vote)</span></div>
-<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a> <span class="comment">// return 0 (vote parameter counted as unacceptable, warns caller)</span></div>
-<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;};</div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da1b140984b84abfc87e4bfa00a40c8a25"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01132">events.qh:1132</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035dae67d5d033501401988c1790a3d19624e"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01133">events.qh:1133</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da8023c437c0cb9ea726bfe3cfc77fc5f8"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01135">events.qh:1135</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035dadccefef0c63d202f83ec5f05988c435e"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035dadccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01134">events.qh:1134</a></div></div>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01084">1084</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;     {</div>
+<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da83fa3412f7b9ca0cdf727708e0a4c89a">MUT_FUSREAC_TARG_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
+<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da0b727707d8a1f3e255acb85bebbd1761">MUT_FUSREAC_TARG_VALID</a>, <span class="comment">// return this flag to make the function return true (valid target)</span></div>
+<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da82492ff4719762fa9752cd4ee82dc393">MUT_FUSREAC_TARG_INVALID</a> <span class="comment">// return this flag to make the function return false (invalid target)</span></div>
+<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;};</div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da82492ff4719762fa9752cd4ee82dc393"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da82492ff4719762fa9752cd4ee82dc393">MUT_FUSREAC_TARG_INVALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01087">events.qh:1087</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da0b727707d8a1f3e255acb85bebbd1761"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da0b727707d8a1f3e255acb85bebbd1761">MUT_FUSREAC_TARG_VALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01086">events.qh:1086</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da83fa3412f7b9ca0cdf727708e0a4c89a"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da83fa3412f7b9ca0cdf727708e0a4c89a">MUT_FUSREAC_TARG_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01085">events.qh:1085</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a726ca809ffd3d67ab4b8476646f26635"></a>
+<a class="anchor" id="ac36f475ca5b446f4fde4c9b90bec77c8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -4827,23 +4860,27 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a726ca809ffd3d67ab4b8476646f26635afae122758cc06d2452f6817e998671dd"></a>MUT_ITEMTOUCH_CONTINUE</em>&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ac36f475ca5b446f4fde4c9b90bec77c8a1b140984b84abfc87e4bfa00a40c8a25"></a>MUT_VOTEPARSE_CONTINUE</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a726ca809ffd3d67ab4b8476646f26635a9c5e9086f06ed095b2a2e86617459fb4"></a>MUT_ITEMTOUCH_RETURN</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="ac36f475ca5b446f4fde4c9b90bec77c8ae67d5d033501401988c1790a3d19624e"></a>MUT_VOTEPARSE_SUCCESS</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a726ca809ffd3d67ab4b8476646f26635a37783ea67506cbfd8e6905ee995061be"></a>MUT_ITEMTOUCH_PICKUP</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="ac36f475ca5b446f4fde4c9b90bec77c8adccefef0c63d202f83ec5f05988c435e"></a>MUT_VOTEPARSE_INVALID</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ac36f475ca5b446f4fde4c9b90bec77c8a8023c437c0cb9ea726bfe3cfc77fc5f8"></a>MUT_VOTEPARSE_UNACCEPTABLE</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00661">661</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;     {</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635afae122758cc06d2452f6817e998671dd">MUT_ITEMTOUCH_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a9c5e9086f06ed095b2a2e86617459fb4">MUT_ITEMTOUCH_RETURN</a>, <span class="comment">// return this flag to make the function return (handled entirely by mutator)</span></div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a37783ea67506cbfd8e6905ee995061be">MUT_ITEMTOUCH_PICKUP</a> <span class="comment">// return this flag to have the item &quot;picked up&quot; and taken even after mutator handled it</span></div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;};</div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a726ca809ffd3d67ab4b8476646f26635a37783ea67506cbfd8e6905ee995061be"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a37783ea67506cbfd8e6905ee995061be">MUT_ITEMTOUCH_PICKUP</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00664">events.qh:664</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a726ca809ffd3d67ab4b8476646f26635a9c5e9086f06ed095b2a2e86617459fb4"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a9c5e9086f06ed095b2a2e86617459fb4">MUT_ITEMTOUCH_RETURN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00663">events.qh:663</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a726ca809ffd3d67ab4b8476646f26635afae122758cc06d2452f6817e998671dd"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635afae122758cc06d2452f6817e998671dd">MUT_ITEMTOUCH_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00662">events.qh:662</a></div></div>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01138">1138</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;     {</div>
+<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
+<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8ae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a>, <span class="comment">// return 1 (vote parsed)</span></div>
+<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8adccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a>, <span class="comment">// return -1 (vote parsed but counted as invalid, no action or vote)</span></div>
+<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a> <span class="comment">// return 0 (vote parameter counted as unacceptable, warns caller)</span></div>
+<div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;};</div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_ac36f475ca5b446f4fde4c9b90bec77c8a1b140984b84abfc87e4bfa00a40c8a25"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01139">events.qh:1139</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_ac36f475ca5b446f4fde4c9b90bec77c8adccefef0c63d202f83ec5f05988c435e"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8adccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01141">events.qh:1141</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_ac36f475ca5b446f4fde4c9b90bec77c8ae67d5d033501401988c1790a3d19624e"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8ae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01140">events.qh:1140</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_ac36f475ca5b446f4fde4c9b90bec77c8a8023c437c0cb9ea726bfe3cfc77fc5f8"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01142">events.qh:1142</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -4857,23 +4894,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a0411cd49bb5b71852cecd93bcbf0ca2daf472ec535e6e4b6b39552253d5128c6c"></a>MUT_ACCADD_VALID</em>&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a0411cd49bb5b71852cecd93bcbf0ca2dafae122758cc06d2452f6817e998671dd"></a>MUT_ITEMTOUCH_CONTINUE</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a0411cd49bb5b71852cecd93bcbf0ca2dabba6311be4f5a35fa3e04dfaad7ee09e"></a>MUT_ACCADD_INVALID</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="a0411cd49bb5b71852cecd93bcbf0ca2da9c5e9086f06ed095b2a2e86617459fb4"></a>MUT_ITEMTOUCH_RETURN</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a0411cd49bb5b71852cecd93bcbf0ca2da708c50a7b7fff1d0a28ef250fcc171d2"></a>MUT_ACCADD_INDIFFERENT</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="a0411cd49bb5b71852cecd93bcbf0ca2da37783ea67506cbfd8e6905ee995061be"></a>MUT_ITEMTOUCH_PICKUP</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00756">756</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;     {</div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2daf472ec535e6e4b6b39552253d5128c6c">MUT_ACCADD_VALID</a>, <span class="comment">// return this flag to make the function continue if target is a client</span></div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2dabba6311be4f5a35fa3e04dfaad7ee09e">MUT_ACCADD_INVALID</a>, <span class="comment">// return this flag to make the function always continue</span></div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da708c50a7b7fff1d0a28ef250fcc171d2">MUT_ACCADD_INDIFFERENT</a> <span class="comment">// return this flag to make the function always return</span></div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;};</div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a0411cd49bb5b71852cecd93bcbf0ca2dabba6311be4f5a35fa3e04dfaad7ee09e"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2dabba6311be4f5a35fa3e04dfaad7ee09e">MUT_ACCADD_INVALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00758">events.qh:758</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a0411cd49bb5b71852cecd93bcbf0ca2daf472ec535e6e4b6b39552253d5128c6c"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2daf472ec535e6e4b6b39552253d5128c6c">MUT_ACCADD_VALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00757">events.qh:757</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a0411cd49bb5b71852cecd93bcbf0ca2da708c50a7b7fff1d0a28ef250fcc171d2"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da708c50a7b7fff1d0a28ef250fcc171d2">MUT_ACCADD_INDIFFERENT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00759">events.qh:759</a></div></div>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00661">661</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;     {</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2dafae122758cc06d2452f6817e998671dd">MUT_ITEMTOUCH_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da9c5e9086f06ed095b2a2e86617459fb4">MUT_ITEMTOUCH_RETURN</a>, <span class="comment">// return this flag to make the function return (handled entirely by mutator)</span></div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da37783ea67506cbfd8e6905ee995061be">MUT_ITEMTOUCH_PICKUP</a> <span class="comment">// return this flag to have the item &quot;picked up&quot; and taken even after mutator handled it</span></div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;};</div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_a0411cd49bb5b71852cecd93bcbf0ca2da37783ea67506cbfd8e6905ee995061be"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da37783ea67506cbfd8e6905ee995061be">MUT_ITEMTOUCH_PICKUP</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00664">events.qh:664</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_a0411cd49bb5b71852cecd93bcbf0ca2dafae122758cc06d2452f6817e998671dd"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2dafae122758cc06d2452f6817e998671dd">MUT_ITEMTOUCH_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00662">events.qh:662</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_a0411cd49bb5b71852cecd93bcbf0ca2da9c5e9086f06ed095b2a2e86617459fb4"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da9c5e9086f06ed095b2a2e86617459fb4">MUT_ITEMTOUCH_RETURN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00663">events.qh:663</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -4887,23 +4924,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="abed82baf7f470b522273a3e37c24c600ad6826cc8e1309c0d70a9b3340b0a5df1"></a>MUT_SPECPREV_CONTINUE</em>&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="abed82baf7f470b522273a3e37c24c600af472ec535e6e4b6b39552253d5128c6c"></a>MUT_ACCADD_VALID</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="abed82baf7f470b522273a3e37c24c600a0b818567cf927d275b053840c0f01fb6"></a>MUT_SPECPREV_RETURN</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="abed82baf7f470b522273a3e37c24c600abba6311be4f5a35fa3e04dfaad7ee09e"></a>MUT_ACCADD_INVALID</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="abed82baf7f470b522273a3e37c24c600adbb1898d9ed2292ba439603e3ecb0d78"></a>MUT_SPECPREV_FOUND</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="abed82baf7f470b522273a3e37c24c600a708c50a7b7fff1d0a28ef250fcc171d2"></a>MUT_ACCADD_INDIFFERENT</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00880">880</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;     {</div>
-<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600ad6826cc8e1309c0d70a9b3340b0a5df1">MUT_SPECPREV_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
-<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600a0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a>, <span class="comment">// return this flag to make the function return (handled entirely by mutator)</span></div>
-<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600adbb1898d9ed2292ba439603e3ecb0d78">MUT_SPECPREV_FOUND</a> <span class="comment">// return this flag to make the function continue without default functions (handled mostly by mutator)</span></div>
-<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;};</div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_abed82baf7f470b522273a3e37c24c600ad6826cc8e1309c0d70a9b3340b0a5df1"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600ad6826cc8e1309c0d70a9b3340b0a5df1">MUT_SPECPREV_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00881">events.qh:881</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_abed82baf7f470b522273a3e37c24c600a0b818567cf927d275b053840c0f01fb6"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600a0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00882">events.qh:882</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_abed82baf7f470b522273a3e37c24c600adbb1898d9ed2292ba439603e3ecb0d78"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600adbb1898d9ed2292ba439603e3ecb0d78">MUT_SPECPREV_FOUND</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00883">events.qh:883</a></div></div>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00756">756</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;     {</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600af472ec535e6e4b6b39552253d5128c6c">MUT_ACCADD_VALID</a>, <span class="comment">// return this flag to make the function continue if target is a client</span></div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600abba6311be4f5a35fa3e04dfaad7ee09e">MUT_ACCADD_INVALID</a>, <span class="comment">// return this flag to make the function always continue</span></div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600a708c50a7b7fff1d0a28ef250fcc171d2">MUT_ACCADD_INDIFFERENT</a> <span class="comment">// return this flag to make the function always return</span></div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;};</div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abed82baf7f470b522273a3e37c24c600a708c50a7b7fff1d0a28ef250fcc171d2"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600a708c50a7b7fff1d0a28ef250fcc171d2">MUT_ACCADD_INDIFFERENT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00759">events.qh:759</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abed82baf7f470b522273a3e37c24c600af472ec535e6e4b6b39552253d5128c6c"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600af472ec535e6e4b6b39552253d5128c6c">MUT_ACCADD_VALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00757">events.qh:757</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abed82baf7f470b522273a3e37c24c600abba6311be4f5a35fa3e04dfaad7ee09e"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600abba6311be4f5a35fa3e04dfaad7ee09e">MUT_ACCADD_INVALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00758">events.qh:758</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -4917,23 +4954,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ab04a0655cd1e3bcac5e8f48c18df1a57a8168d5d80f0fe8ae36ce88761b83f3b9"></a>MUT_SPECCMD_CONTINUE</em>&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ab04a0655cd1e3bcac5e8f48c18df1a57ad6826cc8e1309c0d70a9b3340b0a5df1"></a>MUT_SPECPREV_CONTINUE</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="ab04a0655cd1e3bcac5e8f48c18df1a57a16923782cb89db5bf0021537cca9d490"></a>MUT_SPECCMD_RETURN</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="ab04a0655cd1e3bcac5e8f48c18df1a57a0b818567cf927d275b053840c0f01fb6"></a>MUT_SPECPREV_RETURN</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="ab04a0655cd1e3bcac5e8f48c18df1a57a6bdf812d9a913a38cdb3aaebad56c89a"></a>MUT_SPECCMD_FORCE</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="ab04a0655cd1e3bcac5e8f48c18df1a57adbb1898d9ed2292ba439603e3ecb0d78"></a>MUT_SPECPREV_FOUND</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00900">900</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;     {</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a8168d5d80f0fe8ae36ce88761b83f3b9">MUT_SPECCMD_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a16923782cb89db5bf0021537cca9d490">MUT_SPECCMD_RETURN</a>, <span class="comment">// return this flag to make the function return (don&#39;t spectate)</span></div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a6bdf812d9a913a38cdb3aaebad56c89a">MUT_SPECCMD_FORCE</a> <span class="comment">// return this flag to force the player to spectate, even if they&#39;re not a player</span></div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;};</div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_ab04a0655cd1e3bcac5e8f48c18df1a57a8168d5d80f0fe8ae36ce88761b83f3b9"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a8168d5d80f0fe8ae36ce88761b83f3b9">MUT_SPECCMD_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00901">events.qh:901</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_ab04a0655cd1e3bcac5e8f48c18df1a57a16923782cb89db5bf0021537cca9d490"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a16923782cb89db5bf0021537cca9d490">MUT_SPECCMD_RETURN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00902">events.qh:902</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_ab04a0655cd1e3bcac5e8f48c18df1a57a6bdf812d9a913a38cdb3aaebad56c89a"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a6bdf812d9a913a38cdb3aaebad56c89a">MUT_SPECCMD_FORCE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00903">events.qh:903</a></div></div>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00880">880</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;     {</div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57ad6826cc8e1309c0d70a9b3340b0a5df1">MUT_SPECPREV_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a>, <span class="comment">// return this flag to make the function return (handled entirely by mutator)</span></div>
+<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57adbb1898d9ed2292ba439603e3ecb0d78">MUT_SPECPREV_FOUND</a> <span class="comment">// return this flag to make the function continue without default functions (handled mostly by mutator)</span></div>
+<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;};</div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_ab04a0655cd1e3bcac5e8f48c18df1a57ad6826cc8e1309c0d70a9b3340b0a5df1"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57ad6826cc8e1309c0d70a9b3340b0a5df1">MUT_SPECPREV_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00881">events.qh:881</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_ab04a0655cd1e3bcac5e8f48c18df1a57a0b818567cf927d275b053840c0f01fb6"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57a0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00882">events.qh:882</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_ab04a0655cd1e3bcac5e8f48c18df1a57adbb1898d9ed2292ba439603e3ecb0d78"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ab04a0655cd1e3bcac5e8f48c18df1a57adbb1898d9ed2292ba439603e3ecb0d78">MUT_SPECPREV_FOUND</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00883">events.qh:883</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -8464,6 +8501,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a681f96033260fbba0c7fe84da4c3e7ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype">PlayerPhysics_PostUpdateStats&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a06b703b20af9ddda50461e3390975583">EV_PlayerPhysics_PostUpdateStats</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a71bbf8e969ec569ac7aaf7e15e60654a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -8597,7 +8660,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Wed Apr 25 2018 13:08:33 for Xonotic by
+    <li class="footer">Generated on Fri Apr 27 2018 09:48:56 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

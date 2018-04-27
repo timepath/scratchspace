@@ -18,6 +18,7 @@ var sound_8qh =
     [ "ATTEN_NORM", "d0/df5/sound_8qh.html#ab7d311180e6c1130c970d08fe9b6c638", null ],
     [ "ATTEN_STATIC", "d0/df5/sound_8qh.html#aefa44cb546d31aaeb6db963293b2666a", null ],
     [ "CH_AMBIENT", "d0/df5/sound_8qh.html#a743da76e2dcb9ac9dbff60b790b04d00", null ],
+    [ "CH_AMBIENT_SINGLE", "d0/df5/sound_8qh.html#aa4ea61f7b845964a7798de9540c47549", null ],
     [ "CH_BGM_SINGLE", "d0/df5/sound_8qh.html#ad2a1791190709a5980e416c9c63d29de", null ],
     [ "CH_INFO", "d0/df5/sound_8qh.html#a4e0c8bee221a97110576caa9cd14be47", null ],
     [ "CH_PAIN", "d0/df5/sound_8qh.html#a1b8e3f23d9c455ca03342b3f25ea5032", null ],

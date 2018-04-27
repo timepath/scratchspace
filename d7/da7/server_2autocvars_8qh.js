@@ -360,6 +360,7 @@ var server_2autocvars_8qh =
     [ "autocvar_g_use_ammunition", "d7/da7/server_2autocvars_8qh.html#a064fb983778370f8dbfed9374886c11b", null ],
     [ "autocvar_g_waypointeditor", "d7/da7/server_2autocvars_8qh.html#ab7c9b0a0e2167a533222cb4da7518def", null ],
     [ "autocvar_g_waypointeditor_symmetrical", "d7/da7/server_2autocvars_8qh.html#aad952c6dc84c3b3079fadcaf229cba2d", null ],
+    [ "autocvar_g_waypointeditor_symmetrical_allowload", "d7/da7/server_2autocvars_8qh.html#a73d919b87fcf598cb7543facde20b0b6", null ],
     [ "autocvar_g_waypointeditor_symmetrical_axis", "d7/da7/server_2autocvars_8qh.html#a2e2121f91f7d15329735e08b83d1f727", null ],
     [ "autocvar_g_waypointeditor_symmetrical_order", "d7/da7/server_2autocvars_8qh.html#af907fe1ba59ed9c1fd5b8a89bfeb16bb", null ],
     [ "autocvar_g_waypointeditor_symmetrical_origin", "d7/da7/server_2autocvars_8qh.html#abdc600bb5946ea4da57194e3ffa34524", null ],

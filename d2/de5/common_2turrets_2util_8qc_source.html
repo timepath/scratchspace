@@ -223,7 +223,7 @@ $(document).ready(function(){initNavTree('d2/de5/common_2turrets_2util_8qc_sourc
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="keywordtype">void</span> mark_error(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> where,<span class="keywordtype">float</span> <a class="code" href="../../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a">lifetime</a>)</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;{</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> err = <span class="keyword">new</span>(error_marker);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d2/dce/promise_8qc.html#a7f1d1efb06ea7990060037c8ded0139b">err</a> = <span class="keyword">new</span>(error_marker);</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(err, MDL_MARKER);</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(err, where);</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(err, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>);</div>
@@ -258,7 +258,7 @@ $(document).ready(function(){initNavTree('d2/de5/common_2turrets_2util_8qc_sourc
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    err.skin = 3;</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordflow">if</span>(lifetime)</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        err.cnt = lifetime + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordflow">return</span> err;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/dce/promise_8qc.html#a7f1d1efb06ea7990060037c8ded0139b">err</a>;</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;}</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<a class="code" href="../../dd/d65/models_2all_8qh.html#a684da11740152ec2a19925538503fb9a">MODEL</a>(TUR_C512, <span class="stringliteral">&quot;models/turrets/c512.md3&quot;</span>);</div>
@@ -328,6 +328,7 @@ $(document).ready(function(){initNavTree('d2/de5/common_2turrets_2util_8qc_sourc
 <div class="ttc" id="csqc__constants_8qh_html_a80f88020d757084daf5da0a022f59e05"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a></div><div class="ttdeci">const int SOLID_NOT</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00126">csqc_constants.qh:126</a></div></div>
 <div class="ttc" id="sv__turrets_8qh_html_ac541faa688eeead026348ad699585d0c"><div class="ttname"><a href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a></div><div class="ttdeci">entity tur_head</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/sv__turrets_8qh_source.html#l00013">sv_turrets.qh:13</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="promise_8qc_html_a7f1d1efb06ea7990060037c8ded0139b"><div class="ttname"><a href="../../d2/dce/promise_8qc.html#a7f1d1efb06ea7990060037c8ded0139b">err</a></div><div class="ttdeci">entity err</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dce/promise_8qc_source.html#l00044">promise.qc:44</a></div></div>
 <div class="ttc" id="powerups_8qc_html_a5d9cc36a06664262be19fae94fd8e00a"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a">lifetime</a></div><div class="ttdeci">float lifetime</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00015">powerups.qc:15</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a7d15659b92a2ebcd68cc184e3a3824a3"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a7d15659b92a2ebcd68cc184e3a3824a3">DMG_NOWEP</a></div><div class="ttdeci">#define DMG_NOWEP</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00232">defs.qh:232</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a1ca977fd4fb6900884c2cea28062c8a7"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7">Damage</a></div><div class="ttdeci">void Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype,.entity weaponentity, vector hitloc, vector force)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00608">g_damage.qc:608</a></div></div>
@@ -361,7 +362,7 @@ $(document).ready(function(){initNavTree('d2/de5/common_2turrets_2util_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../d2/de5/common_2turrets_2util_8qc.html">util.qc</a></li>
-    <li class="footer">Generated on Wed Apr 25 2018 13:08:28 for Xonotic by
+    <li class="footer">Generated on Fri Apr 27 2018 09:48:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

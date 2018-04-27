@@ -195,6 +195,8 @@ var searchData=
   ['gotscores',['gotscores',['../d0/d2a/client_2main_8qh.html#a9992832874454ccdbd566d5a84017df3',1,'main.qh']]],
   ['grab',['grab',['../d5/d26/server_2defs_8qh.html#a6f34f8320d12028a7513dccc40735a24',1,'defs.qh']]],
   ['gravity',['gravity',['../de/d70/common_2physics_2player_8qh.html#a31924e6c9b17aad7f861e818b8be5d8f',1,'player.qh']]],
+  ['gravity_5fstart_5fdisabled',['GRAVITY_START_DISABLED',['../d2/d3d/gravity_8qh.html#a34cd27e7ebeaafa8b9449396440c7049',1,'gravity.qh']]],
+  ['gravity_5fsticky',['GRAVITY_STICKY',['../d2/d3d/gravity_8qh.html#ac61dee97c52ee9df0079f9602d6cb2b4',1,'gravity.qh']]],
   ['grayimage',['grayImage',['../d4/d3b/classXonoticBigButton.html#a35765335b88ee4489504808bf8bbda78',1,'XonoticBigButton::grayImage()'],['../d4/da5/classXonoticBigCommandButton.html#ac683a82fc9351ea9f7f9564e1cbf5791',1,'XonoticBigCommandButton::grayImage()'],['../da/d9b/classXonoticButton.html#a3a740bc65a83689ad7304710ece43f5c',1,'XonoticButton::grayImage()']]],
   ['grecordholder',['grecordholder',['../d0/d2a/client_2main_8qh.html#a73ebcacb07f95089fb8a7e440c8cdfc1',1,'main.qh']]],
   ['grecordtime',['grecordtime',['../d0/d2a/client_2main_8qh.html#a208eb700ebf0004c052acb8dfb602deb',1,'main.qh']]],

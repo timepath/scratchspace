@@ -8,5 +8,5 @@ var platforms_8qh =
     [ "plat_trigger_use", "d0/d1a/platforms_8qh.html#a9ea0c4bf592308ee089a459c0bc0c3d2", null ],
     [ "dmg", "d0/d1a/platforms_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b", null ],
     [ "dmgtime2", "d0/d1a/platforms_8qh.html#ae6317bd7023aa44d18718aceb2606e7a", null ],
-    [ "PLAT_LOW_TRIGGER", "d0/d1a/platforms_8qh.html#a5bb654e60b845ec18e83cec9a80b61ea", null ]
+    [ "PLAT_LOW_TRIGGER", "d0/d1a/platforms_8qh.html#aac4ba62c9d34f407b9deaf736ab186a8", null ]
 ];

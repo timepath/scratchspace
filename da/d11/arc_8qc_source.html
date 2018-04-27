@@ -530,7 +530,7 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;            <span class="comment">// that&#39;s an engine bug that needs proper debugging.</span></div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> hitorigin = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>;</div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;            <span class="keywordtype">float</span> <a class="code" href="../../df/d4a/common_2triggers_2trigger_2impulse_8qh.html#ac37c534efda2a140f52238e2c4eb31a4">falloff</a> = <a class="code" href="../../d0/d79/math_8qh.html#a101a4ddf4a2cb6b9fa2736ef0c68917d">ExponentialFalloff</a>(</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;            <span class="keywordtype">float</span> <a class="code" href="../../df/d4a/common_2triggers_2trigger_2impulse_8qh.html#ae95a3d370bae116fe948a1b2c7163f4f">falloff</a> = <a class="code" href="../../d0/d79/math_8qh.html#a101a4ddf4a2cb6b9fa2736ef0c68917d">ExponentialFalloff</a>(</div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;                <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(arc, beam_falloff_mindist),</div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;                <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(arc, beam_falloff_maxdist),</div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;                <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(arc, beam_falloff_halflifedist),</div>
@@ -1399,7 +1399,7 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="line"><a name="l01292"></a><span class="lineno"> 1292</span>&#160;        {</div>
 <div class="line"><a name="l01293"></a><span class="lineno"> 1293</span>&#160;            <span class="keywordflow">case</span> ARC_BT_MISS:</div>
 <div class="line"><a name="l01294"></a><span class="lineno"> 1294</span>&#160;            {</div>
-<div class="line"><a name="l01295"></a><span class="lineno"> 1295</span>&#160;                this.beam_color = beamcolor;</div>
+<div class="line"><a name="l01295"></a><span class="lineno"> 1295</span>&#160;                this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a> = beamcolor;</div>
 <div class="line"><a name="l01296"></a><span class="lineno"> 1296</span>&#160;                this.beam_alpha = 0.5;</div>
 <div class="line"><a name="l01297"></a><span class="lineno"> 1297</span>&#160;                this.beam_thickness = 8;</div>
 <div class="line"><a name="l01298"></a><span class="lineno"> 1298</span>&#160;                this.beam_traileffect = (EFFECT_ARC_BEAM);</div>
@@ -1418,14 +1418,14 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="line"><a name="l01311"></a><span class="lineno"> 1311</span>&#160;                {</div>
 <div class="line"><a name="l01312"></a><span class="lineno"> 1312</span>&#160;                    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(flash, MDL_ARC_MUZZLEFLASH);</div>
 <div class="line"><a name="l01313"></a><span class="lineno"> 1313</span>&#160;                    flash.alpha = this.beam_alpha;</div>
-<div class="line"><a name="l01314"></a><span class="lineno"> 1314</span>&#160;                    flash.colormod = this.beam_color;</div>
+<div class="line"><a name="l01314"></a><span class="lineno"> 1314</span>&#160;                    flash.colormod = this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a>;</div>
 <div class="line"><a name="l01315"></a><span class="lineno"> 1315</span>&#160;                    flash.scale = 0.35;</div>
 <div class="line"><a name="l01316"></a><span class="lineno"> 1316</span>&#160;                }</div>
 <div class="line"><a name="l01317"></a><span class="lineno"> 1317</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l01318"></a><span class="lineno"> 1318</span>&#160;            }</div>
 <div class="line"><a name="l01319"></a><span class="lineno"> 1319</span>&#160;            <span class="keywordflow">case</span> ARC_BT_WALL: <span class="comment">// grenadelauncher_muzzleflash healray_muzzleflash</span></div>
 <div class="line"><a name="l01320"></a><span class="lineno"> 1320</span>&#160;            {</div>
-<div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;                this.beam_color = beamcolor;</div>
+<div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;                this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a> = beamcolor;</div>
 <div class="line"><a name="l01322"></a><span class="lineno"> 1322</span>&#160;                this.beam_alpha = 0.5;</div>
 <div class="line"><a name="l01323"></a><span class="lineno"> 1323</span>&#160;                this.beam_thickness = 8;</div>
 <div class="line"><a name="l01324"></a><span class="lineno"> 1324</span>&#160;                this.beam_traileffect = (EFFECT_ARC_BEAM);</div>
@@ -1444,14 +1444,14 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="line"><a name="l01337"></a><span class="lineno"> 1337</span>&#160;                {</div>
 <div class="line"><a name="l01338"></a><span class="lineno"> 1338</span>&#160;                    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(flash, MDL_ARC_MUZZLEFLASH);</div>
 <div class="line"><a name="l01339"></a><span class="lineno"> 1339</span>&#160;                    flash.alpha = this.beam_alpha;</div>
-<div class="line"><a name="l01340"></a><span class="lineno"> 1340</span>&#160;                    flash.colormod = this.beam_color;</div>
+<div class="line"><a name="l01340"></a><span class="lineno"> 1340</span>&#160;                    flash.colormod = this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a>;</div>
 <div class="line"><a name="l01341"></a><span class="lineno"> 1341</span>&#160;                    flash.scale = 0.35;</div>
 <div class="line"><a name="l01342"></a><span class="lineno"> 1342</span>&#160;                }</div>
 <div class="line"><a name="l01343"></a><span class="lineno"> 1343</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l01344"></a><span class="lineno"> 1344</span>&#160;            }</div>
 <div class="line"><a name="l01345"></a><span class="lineno"> 1345</span>&#160;            <span class="keywordflow">case</span> ARC_BT_HEAL:</div>
 <div class="line"><a name="l01346"></a><span class="lineno"> 1346</span>&#160;            {</div>
-<div class="line"><a name="l01347"></a><span class="lineno"> 1347</span>&#160;                this.beam_color = beamcolor;</div>
+<div class="line"><a name="l01347"></a><span class="lineno"> 1347</span>&#160;                this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a> = beamcolor;</div>
 <div class="line"><a name="l01348"></a><span class="lineno"> 1348</span>&#160;                this.beam_alpha = 0.5;</div>
 <div class="line"><a name="l01349"></a><span class="lineno"> 1349</span>&#160;                this.beam_thickness = 8;</div>
 <div class="line"><a name="l01350"></a><span class="lineno"> 1350</span>&#160;                this.beam_traileffect = (EFFECT_ARC_BEAM_HEAL);</div>
@@ -1470,14 +1470,14 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="line"><a name="l01363"></a><span class="lineno"> 1363</span>&#160;                {</div>
 <div class="line"><a name="l01364"></a><span class="lineno"> 1364</span>&#160;                    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(flash, MDL_ARC_MUZZLEFLASH);</div>
 <div class="line"><a name="l01365"></a><span class="lineno"> 1365</span>&#160;                    flash.alpha = this.beam_alpha;</div>
-<div class="line"><a name="l01366"></a><span class="lineno"> 1366</span>&#160;                    flash.colormod = this.beam_color;</div>
+<div class="line"><a name="l01366"></a><span class="lineno"> 1366</span>&#160;                    flash.colormod = this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a>;</div>
 <div class="line"><a name="l01367"></a><span class="lineno"> 1367</span>&#160;                    flash.scale = 0.35;</div>
 <div class="line"><a name="l01368"></a><span class="lineno"> 1368</span>&#160;                }</div>
 <div class="line"><a name="l01369"></a><span class="lineno"> 1369</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l01370"></a><span class="lineno"> 1370</span>&#160;            }</div>
 <div class="line"><a name="l01371"></a><span class="lineno"> 1371</span>&#160;            <span class="keywordflow">case</span> ARC_BT_HIT:</div>
 <div class="line"><a name="l01372"></a><span class="lineno"> 1372</span>&#160;            {</div>
-<div class="line"><a name="l01373"></a><span class="lineno"> 1373</span>&#160;                this.beam_color = beamcolor;</div>
+<div class="line"><a name="l01373"></a><span class="lineno"> 1373</span>&#160;                this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a> = beamcolor;</div>
 <div class="line"><a name="l01374"></a><span class="lineno"> 1374</span>&#160;                this.beam_alpha = 0.5;</div>
 <div class="line"><a name="l01375"></a><span class="lineno"> 1375</span>&#160;                this.beam_thickness = 8;</div>
 <div class="line"><a name="l01376"></a><span class="lineno"> 1376</span>&#160;                this.beam_traileffect = (EFFECT_ARC_BEAM);</div>
@@ -1496,14 +1496,14 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="line"><a name="l01389"></a><span class="lineno"> 1389</span>&#160;                {</div>
 <div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;                    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(flash, MDL_ARC_MUZZLEFLASH);</div>
 <div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;                    flash.alpha = this.beam_alpha;</div>
-<div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;                    flash.colormod = this.beam_color;</div>
+<div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;                    flash.colormod = this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a>;</div>
 <div class="line"><a name="l01393"></a><span class="lineno"> 1393</span>&#160;                    flash.scale = 0.35;</div>
 <div class="line"><a name="l01394"></a><span class="lineno"> 1394</span>&#160;                }</div>
 <div class="line"><a name="l01395"></a><span class="lineno"> 1395</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l01396"></a><span class="lineno"> 1396</span>&#160;            }</div>
 <div class="line"><a name="l01397"></a><span class="lineno"> 1397</span>&#160;            <span class="keywordflow">case</span> ARC_BT_BURST_MISS:</div>
 <div class="line"><a name="l01398"></a><span class="lineno"> 1398</span>&#160;            {</div>
-<div class="line"><a name="l01399"></a><span class="lineno"> 1399</span>&#160;                this.beam_color = beamcolor;</div>
+<div class="line"><a name="l01399"></a><span class="lineno"> 1399</span>&#160;                this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a> = beamcolor;</div>
 <div class="line"><a name="l01400"></a><span class="lineno"> 1400</span>&#160;                this.beam_alpha = 0.5;</div>
 <div class="line"><a name="l01401"></a><span class="lineno"> 1401</span>&#160;                this.beam_thickness = 14;</div>
 <div class="line"><a name="l01402"></a><span class="lineno"> 1402</span>&#160;                this.beam_traileffect = (EFFECT_ARC_BEAM);</div>
@@ -1522,14 +1522,14 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="line"><a name="l01415"></a><span class="lineno"> 1415</span>&#160;                {</div>
 <div class="line"><a name="l01416"></a><span class="lineno"> 1416</span>&#160;                    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(flash, MDL_ARC_MUZZLEFLASH);</div>
 <div class="line"><a name="l01417"></a><span class="lineno"> 1417</span>&#160;                    flash.alpha = this.beam_alpha;</div>
-<div class="line"><a name="l01418"></a><span class="lineno"> 1418</span>&#160;                    flash.colormod = this.beam_color;</div>
+<div class="line"><a name="l01418"></a><span class="lineno"> 1418</span>&#160;                    flash.colormod = this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a>;</div>
 <div class="line"><a name="l01419"></a><span class="lineno"> 1419</span>&#160;                    flash.scale = 0.35;</div>
 <div class="line"><a name="l01420"></a><span class="lineno"> 1420</span>&#160;                }</div>
 <div class="line"><a name="l01421"></a><span class="lineno"> 1421</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l01422"></a><span class="lineno"> 1422</span>&#160;            }</div>
 <div class="line"><a name="l01423"></a><span class="lineno"> 1423</span>&#160;            <span class="keywordflow">case</span> ARC_BT_BURST_WALL:</div>
 <div class="line"><a name="l01424"></a><span class="lineno"> 1424</span>&#160;            {</div>
-<div class="line"><a name="l01425"></a><span class="lineno"> 1425</span>&#160;                this.beam_color = beamcolor;</div>
+<div class="line"><a name="l01425"></a><span class="lineno"> 1425</span>&#160;                this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a> = beamcolor;</div>
 <div class="line"><a name="l01426"></a><span class="lineno"> 1426</span>&#160;                this.beam_alpha = 0.5;</div>
 <div class="line"><a name="l01427"></a><span class="lineno"> 1427</span>&#160;                this.beam_thickness = 14;</div>
 <div class="line"><a name="l01428"></a><span class="lineno"> 1428</span>&#160;                this.beam_traileffect = (EFFECT_ARC_BEAM);</div>
@@ -1548,14 +1548,14 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;                {</div>
 <div class="line"><a name="l01442"></a><span class="lineno"> 1442</span>&#160;                    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(flash, MDL_ARC_MUZZLEFLASH);</div>
 <div class="line"><a name="l01443"></a><span class="lineno"> 1443</span>&#160;                    flash.alpha = this.beam_alpha;</div>
-<div class="line"><a name="l01444"></a><span class="lineno"> 1444</span>&#160;                    flash.colormod = this.beam_color;</div>
+<div class="line"><a name="l01444"></a><span class="lineno"> 1444</span>&#160;                    flash.colormod = this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a>;</div>
 <div class="line"><a name="l01445"></a><span class="lineno"> 1445</span>&#160;                    flash.scale = 0.35;</div>
 <div class="line"><a name="l01446"></a><span class="lineno"> 1446</span>&#160;                }</div>
 <div class="line"><a name="l01447"></a><span class="lineno"> 1447</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l01448"></a><span class="lineno"> 1448</span>&#160;            }</div>
 <div class="line"><a name="l01449"></a><span class="lineno"> 1449</span>&#160;            <span class="keywordflow">case</span> ARC_BT_BURST_HEAL:</div>
 <div class="line"><a name="l01450"></a><span class="lineno"> 1450</span>&#160;            {</div>
-<div class="line"><a name="l01451"></a><span class="lineno"> 1451</span>&#160;                this.beam_color = beamcolor;</div>
+<div class="line"><a name="l01451"></a><span class="lineno"> 1451</span>&#160;                this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a> = beamcolor;</div>
 <div class="line"><a name="l01452"></a><span class="lineno"> 1452</span>&#160;                this.beam_alpha = 0.5;</div>
 <div class="line"><a name="l01453"></a><span class="lineno"> 1453</span>&#160;                this.beam_thickness = 14;</div>
 <div class="line"><a name="l01454"></a><span class="lineno"> 1454</span>&#160;                this.beam_traileffect = (EFFECT_ARC_BEAM_HEAL);</div>
@@ -1574,14 +1574,14 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="line"><a name="l01467"></a><span class="lineno"> 1467</span>&#160;                {</div>
 <div class="line"><a name="l01468"></a><span class="lineno"> 1468</span>&#160;                    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(flash, MDL_ARC_MUZZLEFLASH);</div>
 <div class="line"><a name="l01469"></a><span class="lineno"> 1469</span>&#160;                    flash.alpha = this.beam_alpha;</div>
-<div class="line"><a name="l01470"></a><span class="lineno"> 1470</span>&#160;                    flash.colormod = this.beam_color;</div>
+<div class="line"><a name="l01470"></a><span class="lineno"> 1470</span>&#160;                    flash.colormod = this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a>;</div>
 <div class="line"><a name="l01471"></a><span class="lineno"> 1471</span>&#160;                    flash.scale = 0.35;</div>
 <div class="line"><a name="l01472"></a><span class="lineno"> 1472</span>&#160;                }</div>
 <div class="line"><a name="l01473"></a><span class="lineno"> 1473</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l01474"></a><span class="lineno"> 1474</span>&#160;            }</div>
 <div class="line"><a name="l01475"></a><span class="lineno"> 1475</span>&#160;            <span class="keywordflow">case</span> ARC_BT_BURST_HIT:</div>
 <div class="line"><a name="l01476"></a><span class="lineno"> 1476</span>&#160;            {</div>
-<div class="line"><a name="l01477"></a><span class="lineno"> 1477</span>&#160;                this.beam_color = beamcolor;</div>
+<div class="line"><a name="l01477"></a><span class="lineno"> 1477</span>&#160;                this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a> = beamcolor;</div>
 <div class="line"><a name="l01478"></a><span class="lineno"> 1478</span>&#160;                this.beam_alpha = 0.5;</div>
 <div class="line"><a name="l01479"></a><span class="lineno"> 1479</span>&#160;                this.beam_thickness = 14;</div>
 <div class="line"><a name="l01480"></a><span class="lineno"> 1480</span>&#160;                this.beam_traileffect = (EFFECT_ARC_BEAM);</div>
@@ -1600,7 +1600,7 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="line"><a name="l01493"></a><span class="lineno"> 1493</span>&#160;                {</div>
 <div class="line"><a name="l01494"></a><span class="lineno"> 1494</span>&#160;                    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(flash, MDL_ARC_MUZZLEFLASH);</div>
 <div class="line"><a name="l01495"></a><span class="lineno"> 1495</span>&#160;                    flash.alpha = this.beam_alpha;</div>
-<div class="line"><a name="l01496"></a><span class="lineno"> 1496</span>&#160;                    flash.colormod = this.beam_color;</div>
+<div class="line"><a name="l01496"></a><span class="lineno"> 1496</span>&#160;                    flash.colormod = this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a>;</div>
 <div class="line"><a name="l01497"></a><span class="lineno"> 1497</span>&#160;                    flash.scale = 0.35;</div>
 <div class="line"><a name="l01498"></a><span class="lineno"> 1498</span>&#160;                }</div>
 <div class="line"><a name="l01499"></a><span class="lineno"> 1499</span>&#160;                <span class="keywordflow">break</span>;</div>
@@ -1609,7 +1609,7 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="line"><a name="l01502"></a><span class="lineno"> 1502</span>&#160;            <span class="comment">// shouldn&#39;t be possible, but lets make it colorful if it does :D</span></div>
 <div class="line"><a name="l01503"></a><span class="lineno"> 1503</span>&#160;            <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l01504"></a><span class="lineno"> 1504</span>&#160;            {</div>
-<div class="line"><a name="l01505"></a><span class="lineno"> 1505</span>&#160;                this.beam_color = <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>();</div>
+<div class="line"><a name="l01505"></a><span class="lineno"> 1505</span>&#160;                this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>();</div>
 <div class="line"><a name="l01506"></a><span class="lineno"> 1506</span>&#160;                this.beam_alpha = 1;</div>
 <div class="line"><a name="l01507"></a><span class="lineno"> 1507</span>&#160;                this.beam_thickness = 8;</div>
 <div class="line"><a name="l01508"></a><span class="lineno"> 1508</span>&#160;                this.beam_traileffect = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
@@ -1628,7 +1628,7 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="line"><a name="l01521"></a><span class="lineno"> 1521</span>&#160;                {</div>
 <div class="line"><a name="l01522"></a><span class="lineno"> 1522</span>&#160;                    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#a3a2e813cbbc45c7871552b449f633298">setmodel</a>(flash, MDL_ARC_MUZZLEFLASH);</div>
 <div class="line"><a name="l01523"></a><span class="lineno"> 1523</span>&#160;                    flash.alpha = this.beam_alpha;</div>
-<div class="line"><a name="l01524"></a><span class="lineno"> 1524</span>&#160;                    flash.colormod = this.beam_color;</div>
+<div class="line"><a name="l01524"></a><span class="lineno"> 1524</span>&#160;                    flash.colormod = this.<a class="code" href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a>;</div>
 <div class="line"><a name="l01525"></a><span class="lineno"> 1525</span>&#160;                    flash.scale = 0.35;</div>
 <div class="line"><a name="l01526"></a><span class="lineno"> 1526</span>&#160;                }</div>
 <div class="line"><a name="l01527"></a><span class="lineno"> 1527</span>&#160;                <span class="keywordflow">break</span>;</div>
@@ -1653,7 +1653,6 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="ttc" id="client_2main_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00108">main.qh:108</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a66ca3d9dc1f3bc5a039abad59d986d40"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a></div><div class="ttdeci">void w_ready(Weapon thiswep, entity actor,.entity weaponentity, int fire)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00212">weaponsystem.qc:212</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_ac3abcfcfe52fe9dd6076f88d4930d6da"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ac3abcfcfe52fe9dd6076f88d4930d6da">weapon_load</a></div><div class="ttdeci">float weapon_load[Weapons_MAX]</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00316">defs.qh:316</a></div></div>
-<div class="ttc" id="common_2triggers_2trigger_2impulse_8qh_html_ac37c534efda2a140f52238e2c4eb31a4"><div class="ttname"><a href="../../df/d4a/common_2triggers_2trigger_2impulse_8qh.html#ac37c534efda2a140f52238e2c4eb31a4">falloff</a></div><div class="ttdeci">float falloff</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d4a/common_2triggers_2trigger_2impulse_8qh_source.html#l00005">impulse.qh:5</a></div></div>
 <div class="ttc" id="interpolate_8qh_html_af7b5d3033d38549c00ab5e033e858911"><div class="ttname"><a href="../../d8/da6/interpolate_8qh.html#af7b5d3033d38549c00ab5e033e858911">iflags</a></div><div class="ttdeci">int iflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da6/interpolate_8qh_source.html#l00024">interpolate.qh:24</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a60338c2153150633178af678cf3ca57c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a></div><div class="ttdeci">entity spawn(void)</div></div>
 <div class="ttc" id="tracing_8qh_html_aced556a90ea3cc9950877ff32ba08566"><div class="ttname"><a href="../../d4/d3f/tracing_8qh.html#aced556a90ea3cc9950877ff32ba08566">w_shotorg</a></div><div class="ttdeci">vector w_shotorg</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3f/tracing_8qh_source.html#l00006">tracing.qh:6</a></div></div>
@@ -1675,6 +1674,7 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="ttc" id="csqc__constants_8qh_html_af8cdb030bc0344c57967ab7de062e810"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a></div><div class="ttdeci">const int MOVE_NOMONSTERS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00134">csqc_constants.qh:134</a></div></div>
 <div class="ttc" id="tracing_8qh_html_ae1cd4c4db87b1f4217931df71491062f"><div class="ttname"><a href="../../d4/d3f/tracing_8qh.html#ae1cd4c4db87b1f4217931df71491062f">W_SetupShot_Range</a></div><div class="ttdeci">#define W_SetupShot_Range(ent, wepent, antilag, recoil, snd, chan, maxdamage, range, deathtype)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3f/tracing_8qh_source.html#l00019">tracing.qh:19</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="laser_8qh_html_a634ca37a53b5b0cce8a9c25fc9b41e29"><div class="ttname"><a href="../../d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29">beam_color</a></div><div class="ttdeci">vector beam_color</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db7/laser_8qh_source.html#l00018">laser.qh:18</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a83f110aec024c6632cd713cf64cb136e"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a83f110aec024c6632cd713cf64cb136e">WarpZone_TransformOrigin</a></div><div class="ttdeci">vector WarpZone_TransformOrigin(entity wz, vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00499">common.qc:499</a></div></div>
 <div class="ttc" id="vector_8qh_html_aff5e2534cd0b37bd75c3f51baa19b12e"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a></div><div class="ttdeci">#define vec3(_x, _y, _z)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00113">vector.qh:113</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a8e6aea49b9bc341cc7a3e4bec79f866f"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a8e6aea49b9bc341cc7a3e4bec79f866f">MASK_NORMAL</a></div><div class="ttdeci">const int MASK_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00006">csqc_constants.qh:6</a></div></div>
@@ -1765,6 +1765,7 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div class="ttc" id="menudefs_8qc_html_ae4cf1ba5867cb0c1c0e74926ff8b0a5c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae4cf1ba5867cb0c1c0e74926ff8b0a5c">findfloat</a></div><div class="ttdeci">entity findfloat(entity start,.float field, float match)</div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
 <div class="ttc" id="g__subs_8qc_html_aa349f780b5d2d608e278935b6e4c60db"><div class="ttname"><a href="../../d2/d11/g__subs_8qc.html#aa349f780b5d2d608e278935b6e4c60db">WarpZone_traceline_antilag</a></div><div class="ttdeci">void WarpZone_traceline_antilag(entity source, vector v1, vector v2, float nomonst, entity forent, float lag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d11/g__subs_8qc_source.html#l00091">g_subs.qc:91</a></div></div>
+<div class="ttc" id="common_2triggers_2trigger_2impulse_8qh_html_ae95a3d370bae116fe948a1b2c7163f4f"><div class="ttname"><a href="../../df/d4a/common_2triggers_2trigger_2impulse_8qh.html#ae95a3d370bae116fe948a1b2c7163f4f">falloff</a></div><div class="ttdeci">int falloff</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d4a/common_2triggers_2trigger_2impulse_8qh_source.html#l00005">impulse.qh:5</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a37f59b6a1a00560f47d41387a3666338"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a37f59b6a1a00560f47d41387a3666338">WarpZone_TraceLine</a></div><div class="ttdeci">void WarpZone_TraceLine(vector org, vector end, float nomonsters, entity forent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00338">common.qc:338</a></div></div>
 <div class="ttc" id="notifications_2all_8qh_html_aa46580df20165dd8315928c81936292e"><div class="ttname"><a href="../../dc/d8f/notifications_2all_8qh.html#aa46580df20165dd8315928c81936292e">Notification</a></div><div class="ttdeci">entity Notification</div><div class="ttdoc">always last </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d8f/notifications_2all_8qh_source.html#l00079">all.qh:79</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_ae9c0c332ef21ebb1268a39c96b4cf087"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ae9c0c332ef21ebb1268a39c96b4cf087">w_issilent</a></div><div class="ttdeci">float w_issilent</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00110">defs.qh:110</a></div></div>
@@ -1819,7 +1820,7 @@ $(document).ready(function(){initNavTree('da/d11/arc_8qc_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_67782cf2b73ff31781b25ce4541674e7.html">weapons</a></li><li class="navelem"><a class="el" href="../../dir_ed9f126d3b57bae7ce3e2e9ba5d7e270.html">weapon</a></li><li class="navelem"><a class="el" href="../../da/d11/arc_8qc.html">arc.qc</a></li>
-    <li class="footer">Generated on Wed Apr 25 2018 13:08:28 for Xonotic by
+    <li class="footer">Generated on Fri Apr 27 2018 09:48:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

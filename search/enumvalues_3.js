@@ -1,18 +1,6 @@
 var searchData=
 [
-  ['random_5fitem_5ftype_5fall',['RANDOM_ITEM_TYPE_ALL',['../d8/d48/sv__random__items_8qh.html#a99fb83031ce9923c84392b4e92f956b5a1ab0d0464a37be7bab719f753037338a',1,'sv_random_items.qh']]],
-  ['random_5fitem_5ftype_5farmor',['RANDOM_ITEM_TYPE_ARMOR',['../d8/d48/sv__random__items_8qh.html#a99fb83031ce9923c84392b4e92f956b5ae1e2514003b6f463d560cd9116b9ecae',1,'sv_random_items.qh']]],
-  ['random_5fitem_5ftype_5fhealth',['RANDOM_ITEM_TYPE_HEALTH',['../d8/d48/sv__random__items_8qh.html#a99fb83031ce9923c84392b4e92f956b5abcf75f0bd73b947f6d54073fe1594831',1,'sv_random_items.qh']]],
-  ['random_5fitem_5ftype_5fpowerup',['RANDOM_ITEM_TYPE_POWERUP',['../d8/d48/sv__random__items_8qh.html#a99fb83031ce9923c84392b4e92f956b5afc21086a73874ad57e9611c19cf3fe3c',1,'sv_random_items.qh']]],
-  ['random_5fitem_5ftype_5fresource',['RANDOM_ITEM_TYPE_RESOURCE',['../d8/d48/sv__random__items_8qh.html#a99fb83031ce9923c84392b4e92f956b5a11819c3966c85bbb8d5d1ff541775f37',1,'sv_random_items.qh']]],
-  ['random_5fitem_5ftype_5fweapon',['RANDOM_ITEM_TYPE_WEAPON',['../d8/d48/sv__random__items_8qh.html#a99fb83031ce9923c84392b4e92f956b5aca1568de239917247ed02a06e4b276f9',1,'sv_random_items.qh']]],
-  ['resource_5farmor',['RESOURCE_ARMOR',['../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a48ca02fb37a423a78b5144de8dc911a6',1,'resources.qh']]],
-  ['resource_5fbullets',['RESOURCE_BULLETS',['../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a6c0323d9bf18f34868b4ec5d850cf861',1,'resources.qh']]],
-  ['resource_5fcells',['RESOURCE_CELLS',['../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a0115d194a8ee77f582bb43e6215f6b0b',1,'resources.qh']]],
-  ['resource_5ffuel',['RESOURCE_FUEL',['../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a4aca57194cf9936fd939ea3f1b762766',1,'resources.qh']]],
-  ['resource_5fhealth',['RESOURCE_HEALTH',['../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04add4f7611e0b4061b847289f90e846a14',1,'resources.qh']]],
-  ['resource_5fnone',['RESOURCE_NONE',['../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04ad2b226575839aec528dc85bf2e8fa9b2',1,'resources.qh']]],
-  ['resource_5fplasma',['RESOURCE_PLASMA',['../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a34368e7b18e7950fcbf0799012fa45d8',1,'resources.qh']]],
-  ['resource_5frockets',['RESOURCE_ROCKETS',['../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a72dadd07573e3178775d13ae32777711',1,'resources.qh']]],
-  ['resource_5fshells',['RESOURCE_SHELLS',['../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a21fb6fb8eff77e137df0cc9a2700b9e1',1,'resources.qh']]]
+  ['promise_5fpending',['PROMISE_PENDING',['../d2/dce/promise_8qc.html#a61dadd085c1777f559549e05962b2c9ea7077d699a6f69c894bb9fbf22c3e33a9',1,'promise.qc']]],
+  ['promise_5frejected',['PROMISE_REJECTED',['../d2/dce/promise_8qc.html#a61dadd085c1777f559549e05962b2c9eab6b15a586632f4fe88b9e10191239783',1,'promise.qc']]],
+  ['promise_5fresolved',['PROMISE_RESOLVED',['../d2/dce/promise_8qc.html#a61dadd085c1777f559549e05962b2c9ea198e8812fe3ed0483e83800c8a2899af',1,'promise.qc']]]
 ];

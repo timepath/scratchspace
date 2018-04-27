@@ -107,17 +107,29 @@ $(document).ready(function(){initNavTree('df/df2/breakable_8qh_source.html','../
 <div class="contents">
 <a href="../../df/df2/breakable_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(func_breakable);</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="spawnfunc_8qh_html_a9ad7f6cd69a76791c4b63b9c09126153"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a></div><div class="ttdeci">#define spawnfunc(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00270">spawnfunc.qh:270</a></div></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../df/df2/breakable_8qh.html#a64c6cf073f0eb736d4507be2d05b8a34">    4</a></span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../df/df2/breakable_8qh.html#a64c6cf073f0eb736d4507be2d05b8a34">BREAKABLE_INDICATE_DAMAGE</a> = <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(1);</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../df/df2/breakable_8qh.html#a16eaf5a9935b4f4c3885f932e10680f9">    5</a></span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../df/df2/breakable_8qh.html#a16eaf5a9935b4f4c3885f932e10680f9">BREAKABLE_NODAMAGE</a> = <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(2);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../df/df2/breakable_8qh.html#a7e2bef7a3d000e10f371b3a8613e8fd5">    7</a></span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../df/df2/breakable_8qh.html#a7e2bef7a3d000e10f371b3a8613e8fd5">STATE_ALIVE</a> = 0;</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../df/df2/breakable_8qh.html#a26ef1d510db54bb2aaec5170a8ab2852">    8</a></span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../df/df2/breakable_8qh.html#a26ef1d510db54bb2aaec5170a8ab2852">STATE_BROKEN</a> = 1;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor"></span><a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(func_breakable);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="breakable_8qh_html_a64c6cf073f0eb736d4507be2d05b8a34"><div class="ttname"><a href="../../df/df2/breakable_8qh.html#a64c6cf073f0eb736d4507be2d05b8a34">BREAKABLE_INDICATE_DAMAGE</a></div><div class="ttdeci">const int BREAKABLE_INDICATE_DAMAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../df/df2/breakable_8qh_source.html#l00004">breakable.qh:4</a></div></div>
+<div class="ttc" id="bits_8qh_html_a3a8ea58898cb58fc96013383d39f482c"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a></div><div class="ttdeci">#define BIT(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00005">bits.qh:5</a></div></div>
+<div class="ttc" id="breakable_8qh_html_a16eaf5a9935b4f4c3885f932e10680f9"><div class="ttname"><a href="../../df/df2/breakable_8qh.html#a16eaf5a9935b4f4c3885f932e10680f9">BREAKABLE_NODAMAGE</a></div><div class="ttdeci">const int BREAKABLE_NODAMAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../df/df2/breakable_8qh_source.html#l00005">breakable.qh:5</a></div></div>
+<div class="ttc" id="breakable_8qh_html_a26ef1d510db54bb2aaec5170a8ab2852"><div class="ttname"><a href="../../df/df2/breakable_8qh.html#a26ef1d510db54bb2aaec5170a8ab2852">STATE_BROKEN</a></div><div class="ttdeci">const int STATE_BROKEN</div><div class="ttdef"><b>Definition:</b> <a href="../../df/df2/breakable_8qh_source.html#l00008">breakable.qh:8</a></div></div>
+<div class="ttc" id="spawnfunc_8qh_html_a9ad7f6cd69a76791c4b63b9c09126153"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a></div><div class="ttdeci">#define spawnfunc(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00276">spawnfunc.qh:276</a></div></div>
+<div class="ttc" id="breakable_8qh_html_a7e2bef7a3d000e10f371b3a8613e8fd5"><div class="ttname"><a href="../../df/df2/breakable_8qh.html#a7e2bef7a3d000e10f371b3a8613e8fd5">STATE_ALIVE</a></div><div class="ttdeci">const int STATE_ALIVE</div><div class="ttdef"><b>Definition:</b> <a href="../../df/df2/breakable_8qh_source.html#l00007">breakable.qh:7</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../dir_dac21ea200edd94d2597bdcb9e2f297b.html">func</a></li><li class="navelem"><a class="el" href="../../df/df2/breakable_8qh.html">breakable.qh</a></li>
-    <li class="footer">Generated on Wed Apr 25 2018 13:08:28 for Xonotic by
+    <li class="footer">Generated on Fri Apr 27 2018 09:48:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

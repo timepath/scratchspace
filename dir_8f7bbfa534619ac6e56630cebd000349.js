@@ -3,7 +3,7 @@ var dir_8f7bbfa534619ac6e56630cebd000349 =
     [ "_mod.inc", "d0/d49/common_2triggers_2target_2__mod_8inc.html", null ],
     [ "_mod.qh", "d3/d4b/common_2triggers_2target_2__mod_8qh.html", null ],
     [ "changelevel.qc", "d9/df8/changelevel_8qc.html", null ],
-    [ "changelevel.qh", "dd/d1f/changelevel_8qh.html", null ],
+    [ "changelevel.qh", "dd/d1f/changelevel_8qh.html", "dd/d1f/changelevel_8qh" ],
     [ "include.qc", "d9/d5e/target_2include_8qc.html", null ],
     [ "include.qh", "dc/d38/target_2include_8qh.html", null ],
     [ "kill.qc", "d1/dc2/kill_8qc.html", null ],
@@ -19,7 +19,7 @@ var dir_8f7bbfa534619ac6e56630cebd000349 =
     [ "spawnpoint.qc", "d4/d5b/spawnpoint_8qc.html", null ],
     [ "spawnpoint.qh", "d4/d13/spawnpoint_8qh.html", null ],
     [ "speaker.qc", "d5/d06/speaker_8qc.html", null ],
-    [ "speaker.qh", "d4/d48/speaker_8qh.html", null ],
+    [ "speaker.qh", "d4/d48/speaker_8qh.html", "d4/d48/speaker_8qh" ],
     [ "voicescript.qc", "da/dc5/voicescript_8qc.html", null ],
     [ "voicescript.qh", "d4/dde/voicescript_8qh.html", null ]
 ];

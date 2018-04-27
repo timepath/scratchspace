@@ -16,6 +16,7 @@ var subs_8qh =
     [ "killtarget", "db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70", null ],
     [ "lip", "db/d2f/subs_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46", null ],
     [ "mangle", "db/d2f/subs_8qh.html#a69b97ec45f7d1f6cf75089eea61c38cd", null ],
+    [ "move_controller", "db/d2f/subs_8qh.html#a463b69d2838a5012186969bd6ee8495b", null ],
     [ "platmovetype", "db/d2f/subs_8qh.html#afaf503fe7190a8bf2d2f7e651f3e5d82", null ],
     [ "platmovetype_end", "db/d2f/subs_8qh.html#a935f045292d52ce58d7c2fbbf9fd6f47", null ],
     [ "platmovetype_start", "db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36", null ],

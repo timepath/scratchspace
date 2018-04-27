@@ -44,6 +44,8 @@ var dir_97aefd0d527b934f1d99a682da8fe6a9 =
     [ "p2mathlib.qh", "d1/d84/p2mathlib_8qh.html", "d1/d84/p2mathlib_8qh" ],
     [ "p99.qh", "de/d21/p99_8qh.html", "de/d21/p99_8qh" ],
     [ "progname.qh", "d1/ddc/progname_8qh.html", null ],
+    [ "promise.qc", "d2/dce/promise_8qc.html", "d2/dce/promise_8qc" ],
+    [ "promise.qh", "da/d22/promise_8qh.html", "da/d22/promise_8qh" ],
     [ "random.qc", "dc/d95/random_8qc.html", "dc/d95/random_8qc" ],
     [ "random.qh", "db/d55/random_8qh.html", "db/d55/random_8qh" ],
     [ "registry.qh", "d2/d5e/registry_8qh.html", "d2/d5e/registry_8qh" ],
