@@ -2255,7 +2255,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;    <span class="keywordflow">if</span> (privatesay &amp;&amp; source &amp;&amp; !<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(source))</div>
 <div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;    {</div>
 <div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;        <span class="keywordflow">if</span> (!game_stopped)</div>
-<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;        <span class="keywordflow">if</span> ((privatesay &amp;&amp; !<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(privatesay)) || (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a5b52a509cd75821ce7d2f2efb635c539">autocvar_g_chat_nospectators</a> == 1) || (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a5b52a509cd75821ce7d2f2efb635c539">autocvar_g_chat_nospectators</a> == 2 &amp;&amp; !<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>))</div>
+<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;        <span class="keywordflow">if</span> ((privatesay &amp;&amp; <a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(privatesay)) &amp;&amp; ((<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a5b52a509cd75821ce7d2f2efb635c539">autocvar_g_chat_nospectators</a> == 1) || (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a5b52a509cd75821ce7d2f2efb635c539">autocvar_g_chat_nospectators</a> == 2 &amp;&amp; !<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>)))</div>
 <div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;            ret = -1; <span class="comment">// just hide the message completely</span></div>
 <div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;    }</div>
 <div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;</div>
@@ -2392,7 +2392,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/d9b/server_2player_8qc.html">player.qc</a></li>
-    <li class="footer">Generated on Sat May 12 2018 05:42:32 for Xonotic by
+    <li class="footer">Generated on Sun May 13 2018 02:35:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
