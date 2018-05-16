@@ -1862,7 +1862,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00093">93</a> of file <a class="el" href="../../d1/d9a/navigation_8qc_source.html">navigation.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../d9/de7/jumppads_8qh_source.html#l00040">dest</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../d9/de7/jumppads_8qh_source.html#l00041">dest</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00287">havocbot_bunnyhop()</a>, and <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01413">havocbot_moveto()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;{</div>
@@ -1879,7 +1879,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        dest = ent.origin;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/de7/jumppads_8qh.html#ae06022ef64f0fecd8f5ab5ad77f1ee3d">dest</a>;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
-<div class="ttc" id="jumppads_8qh_html_ae06022ef64f0fecd8f5ab5ad77f1ee3d"><div class="ttname"><a href="../../d9/de7/jumppads_8qh.html#ae06022ef64f0fecd8f5ab5ad77f1ee3d">dest</a></div><div class="ttdeci">vector dest</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de7/jumppads_8qh_source.html#l00040">jumppads.qh:40</a></div></div>
+<div class="ttc" id="jumppads_8qh_html_ae06022ef64f0fecd8f5ab5ad77f1ee3d"><div class="ttname"><a href="../../d9/de7/jumppads_8qh.html#ae06022ef64f0fecd8f5ab5ad77f1ee3d">dest</a></div><div class="ttdeci">vector dest</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de7/jumppads_8qh_source.html#l00041">jumppads.qh:41</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 </div><!-- fragment -->
@@ -4909,7 +4909,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01284">1284</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00230">teleport_findtarget()</a>, and <a class="el" href="../../d2/d9b/jumppads_8qc_source.html#l00315">trigger_push_test()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00230">teleport_findtarget()</a>, and <a class="el" href="../../d2/d9b/jumppads_8qc_source.html#l00333">trigger_push_test()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01285"></a><span class="lineno"> 1285</span>&#160;{</div>
 <div class="line"><a name="l01286"></a><span class="lineno"> 1286</span>&#160;    destination = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5">waypoint_fixorigin</a>(destination, tracetest_ent);</div>
 <div class="line"><a name="l01287"></a><span class="lineno"> 1287</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a9c0e75596a3367797023f3ea16d29fb9">waypoint_spawnforteleporter_boxes</a>(e, <a class="code" href="../../db/d15/api_8qh.html#a21c64a1d975a853a3361ec08c53c5c27">WAYPOINTFLAG_TELEPORT</a>, e.absmin - <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a> + <span class="stringliteral">&#39;1 1 1&#39;</span>, e.absmax - <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a> + <span class="stringliteral">&#39;-1 -1 -1&#39;</span>, destination, destination, timetaken);</div>
@@ -6757,7 +6757,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../db/d15/api_8qh.html">api.qh</a></li>
-    <li class="footer">Generated on Wed May 16 2018 14:38:50 for Xonotic by
+    <li class="footer">Generated on Wed May 16 2018 22:08:58 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
