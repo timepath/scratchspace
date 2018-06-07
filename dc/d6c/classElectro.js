@@ -39,6 +39,5 @@ var classElectro =
     [ "w_crosshair", "dc/d6c/classElectro.html#a75900c7b0a9b5c9fa32bc6d4a7d2e1be", null ],
     [ "w_crosshair_size", "dc/d6c/classElectro.html#ae3457a5c4e0e0c7c6196b90eb96e5aa1", null ],
     [ "w_reticle", "dc/d6c/classElectro.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "dc/d6c/classElectro.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "dc/d6c/classElectro.html#acb531bfd0ef2c4deb970cef50c66e3ae", null ]
 ];

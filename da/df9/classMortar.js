@@ -39,6 +39,5 @@ var classMortar =
     [ "w_crosshair", "da/df9/classMortar.html#a17758b4384c3b674d680393f9abfae89", null ],
     [ "w_crosshair_size", "da/df9/classMortar.html#a3b87e226204dc544063f206fee5e6f06", null ],
     [ "w_reticle", "da/df9/classMortar.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "da/df9/classMortar.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "da/df9/classMortar.html#a0df1d3a75a5959e8e463a363e22b99a9", null ]
 ];

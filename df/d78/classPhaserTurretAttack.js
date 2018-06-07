@@ -39,6 +39,5 @@ var classPhaserTurretAttack =
     [ "w_crosshair", "df/d78/classPhaserTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3", null ],
     [ "w_crosshair_size", "df/d78/classPhaserTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d", null ],
     [ "w_reticle", "df/d78/classPhaserTurretAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "df/d78/classPhaserTurretAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "df/d78/classPhaserTurretAttack.html#ac59ca04ae3ae9de45817a65da1e606be", null ]
 ];

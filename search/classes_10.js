@@ -9,6 +9,5 @@ var searchData=
   ['raptorbomb',['RaptorBomb',['../d4/da9/classRaptorBomb.html',1,'']]],
   ['raptorcannon',['RaptorCannon',['../d6/d01/classRaptorCannon.html',1,'']]],
   ['raptorflare',['RaptorFlare',['../dd/d90/classRaptorFlare.html',1,'']]],
-  ['rifle',['Rifle',['../d0/d81/classRifle.html',1,'']]],
-  ['rocketpropelledchainsaw',['RocketPropelledChainsaw',['../d1/d00/classRocketPropelledChainsaw.html',1,'']]]
+  ['rifle',['Rifle',['../d0/d81/classRifle.html',1,'']]]
 ];

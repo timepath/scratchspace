@@ -39,6 +39,5 @@ var classSeeker =
     [ "w_crosshair", "da/ded/classSeeker.html#a6ef51387db20a968542626c5e2843b14", null ],
     [ "w_crosshair_size", "da/ded/classSeeker.html#a2b65c340d4e4376caa0dc5bdca8c2b27", null ],
     [ "w_reticle", "da/ded/classSeeker.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "da/ded/classSeeker.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "da/ded/classSeeker.html#ae26610a90258da2f6766e7dbb9ea8289", null ]
 ];

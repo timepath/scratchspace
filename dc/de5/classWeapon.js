@@ -38,6 +38,5 @@ var classWeapon =
     [ "w_crosshair", "dc/de5/classWeapon.html#a4c93f155e978ff2356e110a617ab3c39", null ],
     [ "w_crosshair_size", "dc/de5/classWeapon.html#aadf51e7fb4ada8bff51507cc383495e9", null ],
     [ "w_reticle", "dc/de5/classWeapon.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "dc/de5/classWeapon.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "dc/de5/classWeapon.html#a89d6c6ec494acffc4fa8fa1a8855f16d", null ]
 ];

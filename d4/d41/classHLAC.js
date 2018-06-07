@@ -39,6 +39,5 @@ var classHLAC =
     [ "w_crosshair", "d4/d41/classHLAC.html#afbdabdb2e8772177265e1ea2078942a3", null ],
     [ "w_crosshair_size", "d4/d41/classHLAC.html#a8d4ee78e19da8207e3ecc454c868ebdf", null ],
     [ "w_reticle", "d4/d41/classHLAC.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "d4/d41/classHLAC.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d4/d41/classHLAC.html#aab6bd20badae67a3fa57609fdb783f9d", null ]
 ];

@@ -39,6 +39,5 @@ var classDevastator =
     [ "w_crosshair", "d4/d0b/classDevastator.html#aa44d96daa638e941dd431df80d72dc80", null ],
     [ "w_crosshair_size", "d4/d0b/classDevastator.html#a7eea850317d5119292744a1f76f08594", null ],
     [ "w_reticle", "d4/d0b/classDevastator.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "d4/d0b/classDevastator.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d4/d0b/classDevastator.html#a573567b81b1f9d3a5e01f00e4ef1c871", null ]
 ];

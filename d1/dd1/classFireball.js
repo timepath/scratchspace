@@ -39,6 +39,5 @@ var classFireball =
     [ "w_crosshair", "d1/dd1/classFireball.html#ac7174b509e6b9e5597f8f4b56589f2bb", null ],
     [ "w_crosshair_size", "d1/dd1/classFireball.html#aadf51e7fb4ada8bff51507cc383495e9", null ],
     [ "w_reticle", "d1/dd1/classFireball.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "d1/dd1/classFireball.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d1/dd1/classFireball.html#a08f282907b8847c86c673c62df52ea9b", null ]
 ];

@@ -39,6 +39,5 @@ var classArc =
     [ "w_crosshair", "db/d3c/classArc.html#ab9d7b14784b0a00aecaf78277f7fcd01", null ],
     [ "w_crosshair_size", "db/d3c/classArc.html#aca5d135f1a061005156a689cf8728a85", null ],
     [ "w_reticle", "db/d3c/classArc.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "db/d3c/classArc.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "db/d3c/classArc.html#a86c22d48b4bf520b46b6ac6941fa18f3", null ]
 ];

@@ -233,7 +233,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../df/def/server_2items_8qc_source.html#l00060">Item_Initialize()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00294">RandomItems_ReplaceMapItem()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00292">RandomItems_ReplaceMapItem()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    item.classname = class_name;</div>
@@ -327,7 +327,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../df/def/server_2items_8qc_source.html#l00086">Item_InitializeLoot()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00366">RandomItems_SpawnLootItem()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00364">RandomItems_SpawnLootItem()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;{</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../df/def/server_2items_8qc.html#a89f5174a26e743b85637afa34f5a6f81">Item_InitializeLoot</a>(item, class_name, position, vel, time_to_live))</div>
@@ -455,7 +455,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, and <a class="el" href="../../dc/dab/spawning_8qc_source.html#l00029">weapon_defaultspawnfunc()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/def/server_2items_8qc_source.html#l00045">Item_Create()</a>, <a class="el" href="../../df/def/server_2items_8qc_source.html#l00086">Item_InitializeLoot()</a>, <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00209">MUTATOR_HOOKFUNCTION()</a>, and <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00294">RandomItems_ReplaceMapItem()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/def/server_2items_8qc_source.html#l00045">Item_Create()</a>, <a class="el" href="../../df/def/server_2items_8qc_source.html#l00086">Item_InitializeLoot()</a>, <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00158">MUTATOR_HOOKFUNCTION()</a>, and <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00292">RandomItems_ReplaceMapItem()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;{</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it.m_canonical_spawnfunc == class_name,</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    {</div>
@@ -553,7 +553,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../df/def/server_2items_8qc_source.html#l00060">Item_Initialize()</a>, <a class="el" href="../../df/def/server_2items_8qc_source.html#l00111">Item_SetLoot()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00068">SUB_SetFade()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/def/server_2items_8qc_source.html#l00075">Item_CreateLoot()</a>, <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00080">ok_DropItem()</a>, and <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00366">RandomItems_SpawnLootItem()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/def/server_2items_8qc_source.html#l00075">Item_CreateLoot()</a>, <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00030">ok_DropItem()</a>, and <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00364">RandomItems_SpawnLootItem()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;{</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    item.classname = class_name;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <a class="code" href="../../df/def/server_2items_8qc.html#a95b5587513272c12b9d401ba026d7550">Item_SetLoot</a>(item, <span class="keyword">true</span>);</div>
@@ -677,7 +677,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../db/d38/base_8qh_source.html#l00140">MUTATOR_CALLHOOK</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/def/server_2items_8qc_source.html#l00030">Item_IsAllowed()</a>, <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00201">RandomItems_GetRandomInstagibItemClassName()</a>, <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00272">RandomItems_GetRandomItemClassNameWithProperty()</a>, and <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00219">RandomItems_GetRandomOverkillItemClassName()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/def/server_2items_8qc_source.html#l00030">Item_IsAllowed()</a>, <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00199">RandomItems_GetRandomInstagibItemClassName()</a>, <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00270">RandomItems_GetRandomItemClassNameWithProperty()</a>, and <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00217">RandomItems_GetRandomOverkillItemClassName()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> !<a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(FilterItemDefinition, definition);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
@@ -751,7 +751,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/def/server_2items_8qc_source.html#l00106">106</a> of file <a class="el" href="../../df/def/server_2items_8qc_source.html">items.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01427">isPushable()</a>, <a class="el" href="../../d4/db0/sv__instagib_8qc_source.html#l00401">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../dc/dab/spawning_8qc_source.html#l00029">weapon_defaultspawnfunc()</a>, and <a class="el" href="../../d2/d62/selection_8qc_source.html#l00024">Weapon_whereis()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01427">isPushable()</a>, <a class="el" href="../../d4/db0/sv__instagib_8qc_source.html#l00385">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../dc/dab/spawning_8qc_source.html#l00029">weapon_defaultspawnfunc()</a>, and <a class="el" href="../../d2/d62/selection_8qc_source.html#l00024">Weapon_whereis()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;{</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">return</span> item.m_isloot;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
@@ -900,7 +900,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/def/server_2items_8qc_source.html#l00116">116</a> of file <a class="el" href="../../df/def/server_2items_8qc_source.html">items.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00403">buff_SpawnReplacement()</a>, <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00209">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00294">RandomItems_ReplaceMapItem()</a>, and <a class="el" href="../../d4/db0/sv__instagib_8qc_source.html#l00390">replace_with_insta_cells()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00403">buff_SpawnReplacement()</a>, <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00158">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../d2/de3/sv__random__items_8qc_source.html#l00292">RandomItems_ReplaceMapItem()</a>, and <a class="el" href="../../d4/db0/sv__instagib_8qc_source.html#l00374">replace_with_insta_cells()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;{</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">return</span> item.noalign || (item.spawnflags &amp; 1);</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}</div>
@@ -956,7 +956,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../df/def/server_2items_8qc.html">items.qc</a></li>
-    <li class="footer">Generated on Sun May 20 2018 05:43:11 for Xonotic by
+    <li class="footer">Generated on Thu Jun 7 2018 15:55:14 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

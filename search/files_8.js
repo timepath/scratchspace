@@ -26,8 +26,6 @@ var searchData=
   ['hk_5fweapon_2eqh',['hk_weapon.qh',['../df/da5/hk__weapon_8qh.html',1,'']]],
   ['hlac_2eqc',['hlac.qc',['../d1/dc9/hlac_8qc.html',1,'']]],
   ['hlac_2eqh',['hlac.qh',['../d1/dd8/hlac_8qh.html',1,'']]],
-  ['hmg_2eqc',['hmg.qc',['../d1/d31/hmg_8qc.html',1,'']]],
-  ['hmg_2eqh',['hmg.qh',['../de/d0b/hmg_8qh.html',1,'']]],
   ['hook_2eqc',['hook.qc',['../d8/de7/hook_8qc.html',1,'']]],
   ['hook_2eqh',['hook.qh',['../d5/dc4/hook_8qh.html',1,'']]],
   ['hud_2eqc',['hud.qc',['../d7/d15/hud_8qc.html',1,'']]],

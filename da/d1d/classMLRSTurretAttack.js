@@ -39,6 +39,5 @@ var classMLRSTurretAttack =
     [ "w_crosshair", "da/d1d/classMLRSTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3", null ],
     [ "w_crosshair_size", "da/d1d/classMLRSTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d", null ],
     [ "w_reticle", "da/d1d/classMLRSTurretAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "da/d1d/classMLRSTurretAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "da/d1d/classMLRSTurretAttack.html#ac59ca04ae3ae9de45817a65da1e606be", null ]
 ];

@@ -39,6 +39,5 @@ var classRaptorCannon =
     [ "w_crosshair", "d6/d01/classRaptorCannon.html#a01e7b060bcfa83adc60236efeca16fd3", null ],
     [ "w_crosshair_size", "d6/d01/classRaptorCannon.html#a79fc26acbd9b11c52f841a4f550dd52d", null ],
     [ "w_reticle", "d6/d01/classRaptorCannon.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "d6/d01/classRaptorCannon.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d6/d01/classRaptorCannon.html#ac59ca04ae3ae9de45817a65da1e606be", null ]
 ];

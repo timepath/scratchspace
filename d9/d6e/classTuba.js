@@ -39,6 +39,5 @@ var classTuba =
     [ "w_crosshair", "d9/d6e/classTuba.html#af765598ed8e13079da67cd5058d93e37", null ],
     [ "w_crosshair_size", "d9/d6e/classTuba.html#aadf51e7fb4ada8bff51507cc383495e9", null ],
     [ "w_reticle", "d9/d6e/classTuba.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "d9/d6e/classTuba.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d9/d6e/classTuba.html#a9443a3ec591e599e13edc07d14c723b0", null ]
 ];

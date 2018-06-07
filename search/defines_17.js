@@ -55,7 +55,6 @@ var searchData=
   ['waypoint_5fversion',['WAYPOINT_VERSION',['../d1/d2a/waypoints_8qh.html#a1d1e8f23a0f7d69411c808de27d4cfc6',1,'waypoints.qh']]],
   ['waypoints_5ffrom',['Waypoints_from',['../d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a8b37b20d26109b8964674245d9481a68',1,'all.qh']]],
   ['weapon2mode',['weapon2mode',['../d5/dd4/cl__vehicles_8qh.html#aa60049ea2d01943dd53fe6a3b3d53cd0',1,'cl_vehicles.qh']]],
-  ['weapons',['weapons',['../d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9',1,'defs.qh']]],
   ['weapons_5fall_5fc',['WEAPONS_ALL_C',['../d0/d2b/weapons_2all_8qc.html#a5f8f672e8335b2e06ac57a8be36e2b66',1,'all.qc']]],
   ['weapons_5ffrom',['Weapons_from',['../d0/ddd/weapons_2all_8qh.html#a1f0a48799ac85436679ce72c5a670052',1,'all.qh']]],
   ['weaponstats_5fgetindex',['WEAPONSTATS_GETINDEX',['../d9/df0/weaponstats_8qh.html#af22a35d618b56e7fc7f2e71a5de60a3d',1,'weaponstats.qh']]],

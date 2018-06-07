@@ -39,6 +39,5 @@ var classMachineGun =
     [ "w_crosshair", "dd/d73/classMachineGun.html#af7d6495e25b21a90a534b6a8d1321c27", null ],
     [ "w_crosshair_size", "dd/d73/classMachineGun.html#a5a74bd7bd031ea75c7c9dc244b2e127f", null ],
     [ "w_reticle", "dd/d73/classMachineGun.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "dd/d73/classMachineGun.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "dd/d73/classMachineGun.html#a6e5ae444304018d7d189bb5f692715df", null ]
 ];

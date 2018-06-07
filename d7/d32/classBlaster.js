@@ -39,6 +39,5 @@ var classBlaster =
     [ "w_crosshair", "d7/d32/classBlaster.html#a4492bc785b4f25852f81c60837c97a3c", null ],
     [ "w_crosshair_size", "d7/d32/classBlaster.html#a10c47300d4c1aafc412621ac3192a994", null ],
     [ "w_reticle", "d7/d32/classBlaster.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "d7/d32/classBlaster.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d7/d32/classBlaster.html#a2d77314a674f60c71de27667cb5113ad", null ]
 ];

@@ -39,6 +39,5 @@ var classShotgun =
     [ "w_crosshair", "d8/dd3/classShotgun.html#a05066a88debd4c8e355031e5498f6090", null ],
     [ "w_crosshair_size", "d8/dd3/classShotgun.html#ac25202922ce0eebb5ae67a140184b949", null ],
     [ "w_reticle", "d8/dd3/classShotgun.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "d8/dd3/classShotgun.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d8/dd3/classShotgun.html#a906b33b6bbdff003c26560c4401892b1", null ]
 ];

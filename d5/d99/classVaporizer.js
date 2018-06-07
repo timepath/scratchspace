@@ -39,6 +39,5 @@ var classVaporizer =
     [ "w_crosshair", "d5/d99/classVaporizer.html#a98d7fef68d0f301e5a5dbab0a4906793", null ],
     [ "w_crosshair_size", "d5/d99/classVaporizer.html#a432315e873c28ba284538f78c22f55de", null ],
     [ "w_reticle", "d5/d99/classVaporizer.html#ac6b3f33d3bc5bddbb2ecc8cf5d43653d", null ],
-    [ "weapons", "d5/d99/classVaporizer.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d5/d99/classVaporizer.html#a7acecf71fe5accb2cc9d3098c0db7d91", null ]
 ];

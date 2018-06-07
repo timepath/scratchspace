@@ -39,6 +39,5 @@ var classCrylink =
     [ "w_crosshair", "d8/db8/classCrylink.html#a71f665728d949ab406810aef09ad230e", null ],
     [ "w_crosshair_size", "d8/db8/classCrylink.html#afae852aee04f756c5dea8e4339aacc1b", null ],
     [ "w_reticle", "d8/db8/classCrylink.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "d8/db8/classCrylink.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d8/db8/classCrylink.html#a6d8606f6981133d83bc31403afbef709", null ]
 ];

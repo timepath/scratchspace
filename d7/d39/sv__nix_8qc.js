@@ -12,7 +12,7 @@ var sv__nix_8qc =
     [ "NIX_CanChooseWeapon", "d7/d39/sv__nix_8qc.html#a7bcb5b58de02894dfb32251eb9de36d3", null ],
     [ "NIX_ChooseNextWeapon", "d7/d39/sv__nix_8qc.html#a7855e69af6ee0d89fe8ad835500790b2", null ],
     [ "NIX_GiveCurrentWeapon", "d7/d39/sv__nix_8qc.html#a71c80b0c1234dc67733b6ae5b492b009", null ],
-    [ "REGISTER_MUTATOR", "d7/d39/sv__nix_8qc.html#af82b28516cae00c9c758b008efbb8a84", null ],
+    [ "REGISTER_MUTATOR", "d7/d39/sv__nix_8qc.html#a9e76fa69ac8c4b687112682560ea65e7", null ],
     [ "autocvar_g_balance_nix_ammo_cells", "d7/d39/sv__nix_8qc.html#a558051ac69c7017715cbf42dac8516b1", null ],
     [ "autocvar_g_balance_nix_ammo_fuel", "d7/d39/sv__nix_8qc.html#a109934be0973771628ac9a323a127a12", null ],
     [ "autocvar_g_balance_nix_ammo_nails", "d7/d39/sv__nix_8qc.html#af28b3501e56882d1765a080193a20b3e", null ],

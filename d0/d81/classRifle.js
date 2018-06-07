@@ -39,6 +39,5 @@ var classRifle =
     [ "w_crosshair", "d0/d81/classRifle.html#ab896604f179116b89c13cf8449b18e12", null ],
     [ "w_crosshair_size", "d0/d81/classRifle.html#a1814f9f831862d698869cb6f3198a49e", null ],
     [ "w_reticle", "d0/d81/classRifle.html#a9e623c812e0ecb906913320952e58c2d", null ],
-    [ "weapons", "d0/d81/classRifle.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d0/d81/classRifle.html#a7cdfdb1aa5f889a6c27481251d07add2", null ]
 ];

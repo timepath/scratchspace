@@ -6,7 +6,7 @@ var sv__new__toys_8qc =
     [ "nt_GetFullReplacement", "df/dca/sv__new__toys_8qc.html#a140a9a5cc79b88e43850562ba3fe896d", null ],
     [ "nt_GetReplacement", "df/dca/sv__new__toys_8qc.html#a94cd64ed7e06913195863e07e3bba758", null ],
     [ "nt_IsNewToy", "df/dca/sv__new__toys_8qc.html#ad70a0d19606e645ff91e3a4906e2d3d9", null ],
-    [ "REGISTER_MUTATOR", "df/dca/sv__new__toys_8qc.html#a21c8cba9aee3b885ffd41d853528e5b5", null ],
+    [ "REGISTER_MUTATOR", "df/dca/sv__new__toys_8qc.html#a90e4302b6a96b785f331939085dd5f7b", null ],
     [ "autocvar_g_new_toys_autoreplace", "df/dca/sv__new__toys_8qc.html#a48dcd67d39576681f2e7b935407387eb", null ],
     [ "autocvar_g_new_toys_use_pickupsound", "df/dca/sv__new__toys_8qc.html#afaa63922b4e9f8d6db7baf0f4f971002", null ],
     [ "new_toys", "df/dca/sv__new__toys_8qc.html#a87b0fb534891abbe698ac9b87124d64b", null ],

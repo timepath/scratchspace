@@ -39,6 +39,5 @@ var classMineLayer =
     [ "w_crosshair", "d3/da9/classMineLayer.html#a6e7cf931640ad5920875b53d6aef94e5", null ],
     [ "w_crosshair_size", "d3/da9/classMineLayer.html#a106f2fdc7c16d0167b1f83e4d63569e9", null ],
     [ "w_reticle", "d3/da9/classMineLayer.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "d3/da9/classMineLayer.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d3/da9/classMineLayer.html#a0bd25e8922366620f95386d9be824e77", null ]
 ];

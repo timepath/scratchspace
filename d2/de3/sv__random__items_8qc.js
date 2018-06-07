@@ -13,8 +13,6 @@ var sv__random__items_8qc =
     [ "RandomItems_GetRandomVanillaItemClassName", "d2/de3/sv__random__items_8qc.html#aa670ed34cdba4589a36484d70406a798", null ],
     [ "RandomItems_ReplaceMapItem", "d2/de3/sv__random__items_8qc.html#a470a4fe03f93be6c62663d96818cddce", null ],
     [ "RandomItems_SpawnLootItem", "d2/de3/sv__random__items_8qc.html#aea68046b18b6c21762249c71fa669164", null ],
-    [ "REGISTER_MUTATOR", "d2/de3/sv__random__items_8qc.html#a218f16a1eb8b7cc05f02ee4783ef7f46", null ],
-    [ "autocvar_g_random_loot", "d2/de3/sv__random__items_8qc.html#a4a43d5a1a8a55dee1a4c53393bcf2bb3", null ],
     [ "autocvar_g_random_loot_max", "d2/de3/sv__random__items_8qc.html#a99c632ce11212be115361f84b90ea7a3", null ],
     [ "autocvar_g_random_loot_min", "d2/de3/sv__random__items_8qc.html#a685a26cc5a49bc7ff32390751267a8de", null ],
     [ "autocvar_g_random_loot_spread", "d2/de3/sv__random__items_8qc.html#aeb19f1c8b6bc877777f98b784dd428e7", null ],

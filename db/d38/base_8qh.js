@@ -22,6 +22,7 @@ var base_8qh =
     [ "MUTATOR_HOOKFUNCTION", "db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0", null ],
     [ "MUTATOR_HOOKFUNCTION_2", "db/d38/base_8qh.html#a66e9cb6c6f118b7def730a2d2589decc", null ],
     [ "MUTATOR_HOOKFUNCTION_3", "db/d38/base_8qh.html#a26468c5445cf0643a70b0c7f3ce73794", null ],
+    [ "MUTATOR_IS_ENABLED", "db/d38/base_8qh.html#a2b8d088a5750d767a3add69fe3788ba7", null ],
     [ "MUTATOR_ONADD", "db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992", null ],
     [ "MUTATOR_ONREMOVE", "db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e", null ],
     [ "MUTATOR_ONROLLBACK_OR_REMOVE", "db/d38/base_8qh.html#a18b6800f2d1093efff7a7c8fcdae7f40", null ],

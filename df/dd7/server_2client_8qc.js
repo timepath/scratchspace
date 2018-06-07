@@ -86,5 +86,6 @@ var server_2client_8qc =
     [ "shootfromfixedorigin", "df/dd7/server_2client_8qc.html#ae84ed56b100e14c362b437744f16644a", null ],
     [ "team", "df/dd7/server_2client_8qc.html#aa44b2778d23d1f4efed985b6cc12375a", null ],
     [ "team_selected", "df/dd7/server_2client_8qc.html#ab71754893182e8830b826e9e9692db91", null ],
+    [ "would_spectate", "df/dd7/server_2client_8qc.html#a6775640a6c7c6c616306d18724dff398", null ],
     [ "zoomstate_set", "df/dd7/server_2client_8qc.html#a5b6fdfd29020d840be5d04d7a4fe9cf6", null ]
 ];

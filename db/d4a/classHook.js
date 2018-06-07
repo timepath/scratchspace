@@ -40,6 +40,5 @@ var classHook =
     [ "w_crosshair", "db/d4a/classHook.html#a273ba5500276b429f0a0ec569238dc78", null ],
     [ "w_crosshair_size", "db/d4a/classHook.html#a53a02647ecab059ed5b4af3a9826291e", null ],
     [ "w_reticle", "db/d4a/classHook.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "db/d4a/classHook.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "db/d4a/classHook.html#ae4df56cc15b996e29b940bbfb71d3059", null ]
 ];

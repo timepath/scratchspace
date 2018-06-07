@@ -39,6 +39,5 @@ var classVortex =
     [ "w_crosshair", "d4/d17/classVortex.html#aae90c5f91d3d02c37c4a62c47684659a", null ],
     [ "w_crosshair_size", "d4/d17/classVortex.html#af4e2227648a5cad1bc418229db570d13", null ],
     [ "w_reticle", "d4/d17/classVortex.html#a335d0535a48550c7ffb96a0a0fc77c0d", null ],
-    [ "weapons", "d4/d17/classVortex.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d4/d17/classVortex.html#a7a98b6f53b6194fa1f69a350b51051ee", null ]
 ];

@@ -39,6 +39,5 @@ var classShockwave =
     [ "w_crosshair", "da/d13/classShockwave.html#a2cc907c7050437b5cb97d67587bba62c", null ],
     [ "w_crosshair_size", "da/d13/classShockwave.html#a8f3e2d89ff1bfae1334a5bf43011bbf7", null ],
     [ "w_reticle", "da/d13/classShockwave.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "da/d13/classShockwave.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "da/d13/classShockwave.html#a63c4ff29db394bde747d09312ed69684", null ]
 ];

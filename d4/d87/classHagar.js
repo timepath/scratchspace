@@ -39,6 +39,5 @@ var classHagar =
     [ "w_crosshair", "d4/d87/classHagar.html#a5e8f6060761bb31dcb6c1de05569e01c", null ],
     [ "w_crosshair_size", "d4/d87/classHagar.html#a22952de3e49fe194111b6a0d76de86d4", null ],
     [ "w_reticle", "d4/d87/classHagar.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
-    [ "weapons", "d4/d87/classHagar.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d4/d87/classHagar.html#adcde8fd0f6fa50ab508ca98e0fa9bab5", null ]
 ];
