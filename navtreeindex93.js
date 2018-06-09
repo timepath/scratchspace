@@ -1,5 +1,10 @@
 var NAVTREEINDEX93 =
 {
+"da/d9b/classXonoticButton.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,152,14],
+"da/d9b/classXonoticButton.html#a326ef5bb1dd02a2667460d795c0a46df":[1,0,152,56],
+"da/d9b/classXonoticButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,152,71],
+"da/d9b/classXonoticButton.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,152,7],
+"da/d9b/classXonoticButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,152,66],
 "da/d9b/classXonoticButton.html#a3a740bc65a83689ad7304710ece43f5c":[1,0,152,55],
 "da/d9b/classXonoticButton.html#a3a88ebd44b9abf22558ee9a6cfaf03dd":[1,0,152,72],
 "da/d9b/classXonoticButton.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,152,57],
@@ -244,10 +249,5 @@ var NAVTREEINDEX93 =
 "da/db7/classXonoticServerInfoDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,243,1],
 "da/db7/classXonoticServerInfoDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,243,32],
 "da/db7/classXonoticServerInfoDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,243,103],
-"da/db7/classXonoticServerInfoDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,243,50],
-"da/db7/classXonoticServerInfoDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,243,78],
-"da/db7/classXonoticServerInfoDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,243,55],
-"da/db7/classXonoticServerInfoDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,243,85],
-"da/db7/classXonoticServerInfoDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,243,62],
-"da/db7/classXonoticServerInfoDialog.html#a4ee2e27fd5a7c6a28e299d2e21caf470":[1,0,243,35]
+"da/db7/classXonoticServerInfoDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,243,50]
 };

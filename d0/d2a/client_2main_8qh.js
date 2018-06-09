@@ -60,6 +60,7 @@ var client_2main_8qh =
     [ "ping_packetloss", "d0/d2a/client_2main_8qh.html#a2a7d9a9aaf21d2c888a2b7deb4fa3ce2", null ],
     [ "playerslots", "d0/d2a/client_2main_8qh.html#a02482608b1eca1bf0591f7589db11994", null ],
     [ "postinit", "d0/d2a/client_2main_8qh.html#ac2c74229b57db3567e177821f9ee120a", null ],
+    [ "RANKINGS_DISPLAY_CNT", "d0/d2a/client_2main_8qh.html#a8fb4b36ddfc0c9aa32b7868e0a2dd867", null ],
     [ "RANKINGS_RECEIVED_CNT", "d0/d2a/client_2main_8qh.html#a21101a6b514ed0aad419d464b62e4c64", null ],
     [ "ready", "d0/d2a/client_2main_8qh.html#a8f1a257495dcbeb0d62845e580d8d86d", null ],
     [ "ready_waiting", "d0/d2a/client_2main_8qh.html#acf90c50afe774621facc0ca5fb22ff97", null ],

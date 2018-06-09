@@ -1,5 +1,10 @@
 var NAVTREEINDEX127 =
 {
+"de/d95/classEffectInfo.html":[1,0,33],
+"de/d95/classEffectInfo.html#a37d2c021ca1abd3145fbd147505e92fe":[1,0,33,3],
+"de/d95/classEffectInfo.html#a8242ac14f0f12e7dfe151951333faf82":[1,0,33,0],
+"de/d95/classEffectInfo.html#a966d6afecabdd6ce7eb2ef9157f88226":[1,0,33,1],
+"de/d95/classEffectInfo.html#afd551afac097fdbeeabde98c8aa1bfc8":[1,0,33,2],
 "de/d9a/item_8qc.html":[2,0,5,11],
 "de/d9a/item_8qc.html#a2884065abdd89fe2349ff849e8f0d338":[2,0,5,11,0],
 "de/d9a/item_8qc.html#af10a456226e2bd11255baff142ec9bc1":[2,0,5,11,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX127 =
 "de/db0/common_2mutators_2mutator_2new__toys_2__mod_8inc.html":[2,0,1,9,0,20,0],
 "de/db0/common_2mutators_2mutator_2new__toys_2__mod_8inc_source.html":[2,0,1,9,0,20,0],
 "de/dbb/sv__spawner_8qc.html":[2,0,1,8,10],
-"de/dbb/sv__spawner_8qc.html#a1251dfcf5b3c88b4572dfc13273f6f39":[2,0,1,8,10,0],
-"de/dbb/sv__spawner_8qc.html#a3123c628538f58eb7dbc04b5f8435901":[2,0,1,8,10,1],
-"de/dbb/sv__spawner_8qc_source.html":[2,0,1,8,10],
-"de/dbd/banning_8qh.html":[2,0,6,1,3],
-"de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b":[2,0,6,1,3,0],
-"de/dbd/banning_8qh.html#a1a7772963018e41992c65dfbe12b63fe":[2,0,6,1,3,5]
+"de/dbb/sv__spawner_8qc.html#a1251dfcf5b3c88b4572dfc13273f6f39":[2,0,1,8,10,0]
 };

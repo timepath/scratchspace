@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"d0/d91/handicap_8qh_source.html":[2,0,6,34],
 "d0/d93/common_2mutators_2mutator_2superspec_2__mod_8inc.html":[2,0,1,9,0,34,0],
 "d0/d93/common_2mutators_2mutator_2superspec_2__mod_8inc_source.html":[2,0,1,9,0,34,0],
 "d0/d95/menudefs_8qh.html":[2,0,2,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "d0/dae/classItem.html#ac6094922668d013ada3893854eec6b0f":[1,0,59,6],
 "d0/dae/classItem.html#ace6b33f60db102ae3b061eb3c0b93ec2":[1,0,59,12],
 "d0/dae/classItem.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,59,16],
-"d0/dae/classItem.html#ad71eeb6583cea8aa38e8ef1cc2f34718":[1,0,59,14],
-"d0/dae/classItem.html#ad7b2477ab4a07abbf34cc0cd3461253c":[1,0,59,9]
+"d0/dae/classItem.html#ad71eeb6583cea8aa38e8ef1cc2f34718":[1,0,59,14]
 };

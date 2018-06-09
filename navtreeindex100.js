@@ -1,5 +1,10 @@
 var NAVTREEINDEX100 =
 {
+"db/d59/classXonoticPlayList.html#afa2fda0688ef3dfdc143963a9366a71b":[1,0,227,51],
+"db/d59/classXonoticPlayList.html#afdcf1fb79903f747cda494b27206526b":[1,0,227,2],
+"db/d5a/classXonoticHUDPowerupsDialog.html":[1,0,196],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,196,30],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,196,11],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,196,38],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,196,3],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,196,82],
@@ -244,10 +249,5 @@ var NAVTREEINDEX100 =
 "db/d6b/okrpc_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,9,0,23,11,1],
 "db/d6b/okrpc_8qh.html#a969a862c23d37f5592502820e4c8e345":[2,0,1,9,0,23,11,2],
 "db/d6b/okrpc_8qh_source.html":[2,0,1,9,0,23,11],
-"db/d73/campaign__setup_8qc.html":[2,0,1,27],
-"db/d73/campaign__setup_8qc.html#aaa64dc89313bcf520b231ef1f80bee48":[2,0,1,27,0],
-"db/d73/campaign__setup_8qc_source.html":[2,0,1,27],
-"db/d76/classXonoticHUDNotificationDialog.html":[1,0,194],
-"db/d76/classXonoticHUDNotificationDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,194,30],
-"db/d76/classXonoticHUDNotificationDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,194,11]
+"db/d73/campaign__setup_8qc.html":[2,0,1,27]
 };

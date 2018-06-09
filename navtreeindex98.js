@@ -1,5 +1,10 @@
 var NAVTREEINDEX98 =
 {
+"db/d29/machinegun__weapon_8qh.html":[2,0,1,14,0,23],
+"db/d29/machinegun__weapon_8qh.html#a1d67f6931a2ea189e5f33ef332554c58":[2,0,1,14,0,23,1],
+"db/d29/machinegun__weapon_8qh_source.html":[2,0,1,14,0,23],
+"db/d2a/client_2hud_2panel_2ammo_8qh.html":[2,0,0,1,0,3],
+"db/d2a/client_2hud_2panel_2ammo_8qh.html#ad637fa0fc1c06d190bf1b831f4c12846":[2,0,0,1,0,3,0],
 "db/d2a/client_2hud_2panel_2ammo_8qh_source.html":[2,0,0,1,0,3],
 "db/d2b/sv__spawn__near__teammate_8qh.html":[2,0,1,9,0,32,3],
 "db/d2b/sv__spawn__near__teammate_8qh_source.html":[2,0,1,9,0,32,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX98 =
 "db/d3c/classArc.html#a97df2fcca62083efe293f759373b2e98":[1,0,3,31],
 "db/d3c/classArc.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,3,25],
 "db/d3c/classArc.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,3,14],
-"db/d3c/classArc.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,3,1],
-"db/d3c/classArc.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,3,24],
-"db/d3c/classArc.html#aa62aabf3ce1e2e873112bf47b477a38c":[1,0,3,29],
-"db/d3c/classArc.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,3,15],
-"db/d3c/classArc.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,3,13],
-"db/d3c/classArc.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,3,6]
+"db/d3c/classArc.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,3,1]
 };

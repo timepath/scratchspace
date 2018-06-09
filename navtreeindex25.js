@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"d3/d1d/classOverkillNex.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,96,15],
 "d3/d1d/classOverkillNex.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,96,13],
 "d3/d1d/classOverkillNex.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,96,6],
 "d3/d1d/classOverkillNex.html#abb1bca66bce23d21c0d716285ab9575c":[1,0,96,36],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "d3/d47/classXonoticTabController.html#a21c7071e5024d898349acbe2717e16cc":[1,0,254,5],
 "d3/d47/classXonoticTabController.html#a236de9cc6ba5d15df5f7b9b8d364c56c":[1,0,254,55],
 "d3/d47/classXonoticTabController.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,254,38],
-"d3/d47/classXonoticTabController.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,254,22],
-"d3/d47/classXonoticTabController.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,254,12]
+"d3/d47/classXonoticTabController.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,254,22]
 };

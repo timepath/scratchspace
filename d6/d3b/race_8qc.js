@@ -21,6 +21,7 @@ var race_8qc =
     [ "race_readTime", "d6/d3b/race_8qc.html#a09be8f93dea17575b988e542ee34da21", null ],
     [ "race_readUID", "d6/d3b/race_8qc.html#ae05ef2b5b27ff3e99decabbc4410e718", null ],
     [ "race_RetractPlayer", "d6/d3b/race_8qc.html#ab8d2b87ee2d54b1402a27901ebdae164", null ],
+    [ "race_send_rankings_cnt", "d6/d3b/race_8qc.html#ae68f84616d944507a6f89c625224d2ff", null ],
     [ "race_send_recordtime", "d6/d3b/race_8qc.html#adde3148534e8ffc72f956ef1031467ab", null ],
     [ "race_send_speedaward", "d6/d3b/race_8qc.html#ab495eed7037d0ad7adc9a102993fb226", null ],
     [ "race_send_speedaward_alltimebest", "d6/d3b/race_8qc.html#aa77a445ff7257d62eb6cfed505be32cc", null ],

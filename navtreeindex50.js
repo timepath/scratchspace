@@ -1,5 +1,9 @@
 var NAVTREEINDEX50 =
 {
+"d5/d99/classVaporizer.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,139,7],
+"d5/d99/classVaporizer.html#a98d7fef68d0f301e5a5dbab0a4906793":[1,0,139,36],
+"d5/d99/classVaporizer.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,139,25],
+"d5/d99/classVaporizer.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,139,14],
 "d5/d99/classVaporizer.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,139,1],
 "d5/d99/classVaporizer.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,139,24],
 "d5/d99/classVaporizer.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,139,15],
@@ -245,9 +249,5 @@ var NAVTREEINDEX50 =
 "d5/dd7/gamemode__race_8qc.html#a1d9daae0d23fe27704033b2fbd597c5d":[2,0,6,3,0,24,11],
 "d5/dd7/gamemode__race_8qc.html#a2520fc6c0cdc72a2e629e1080643c14b":[2,0,6,3,0,24,27],
 "d5/dd7/gamemode__race_8qc.html#a3b261b32268df9b8054fd11440ec03dd":[2,0,6,3,0,24,25],
-"d5/dd7/gamemode__race_8qc.html#a40e2dfc3d363c3bb950e0a77cc035419":[2,0,6,3,0,24,15],
-"d5/dd7/gamemode__race_8qc.html#a4495f462188aa040af14bbd05f4c0404":[2,0,6,3,0,24,2],
-"d5/dd7/gamemode__race_8qc.html#a4b3d01eeb2b479b98ac9ff0419c71f6c":[2,0,6,3,0,24,17],
-"d5/dd7/gamemode__race_8qc.html#a509e249e191f5cacce8e132341a38756":[2,0,6,3,0,24,4],
-"d5/dd7/gamemode__race_8qc.html#a5b5f7c4bfea49f77b0feb3b040390b70":[2,0,6,3,0,24,7]
+"d5/dd7/gamemode__race_8qc.html#a40e2dfc3d363c3bb950e0a77cc035419":[2,0,6,3,0,24,15]
 };

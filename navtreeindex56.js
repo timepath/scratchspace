@@ -1,5 +1,10 @@
 var NAVTREEINDEX56 =
 {
+"d6/d77/colorbutton_8qc.html#a44c5431ffbf4069165b70051f0dc38b9":[2,0,5,4,18,5],
+"d6/d77/colorbutton_8qc.html#aacaf8a34627af55c71fcfbc3534dbc10":[2,0,5,4,18,1],
+"d6/d77/colorbutton_8qc.html#ab7202b7221a20a9f9aef7d8ab00ee647":[2,0,5,4,18,2],
+"d6/d77/colorbutton_8qc.html#af5e884f627dc84410da32327332d7749":[2,0,5,4,18,3],
+"d6/d77/colorbutton_8qc.html#afbfe01b1f8f6bcfb70431bcdfb4c2992":[2,0,5,4,18,4],
 "d6/d77/colorbutton_8qc_source.html":[2,0,5,4,18],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html":[1,0,176],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,176,34],
@@ -244,10 +249,5 @@ var NAVTREEINDEX56 =
 "d6/d8f/score_8qc.html#af299e2a5219b4b963a923527b78ed9a7":[2,0,0,1,0,32,0],
 "d6/d8f/score_8qc_source.html":[2,0,0,1,0,32],
 "d6/d92/classClientState.html":[1,0,19],
-"d6/d92/classClientState.html#a01eec6f88959bca456197b5fe9b5cf90":[1,0,19,1],
-"d6/d92/classClientState.html#a0774a1243839c8151d2f16f63a500bb6":[1,0,19,0],
-"d6/d92/classClientState.html#a796e5412ca7f00990187accb366124ba":[1,0,19,2],
-"d6/d92/common_2weapons_2__mod_8qh.html":[2,0,1,16,4],
-"d6/d92/common_2weapons_2__mod_8qh_source.html":[2,0,1,16,4],
-"d6/d93/animhost_8qh.html":[2,0,5,0,5]
+"d6/d92/classClientState.html#a01eec6f88959bca456197b5fe9b5cf90":[1,0,19,1]
 };

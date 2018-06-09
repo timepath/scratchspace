@@ -1,5 +1,9 @@
 var NAVTREEINDEX51 =
 {
+"d5/dd7/gamemode__race_8qc.html#a4495f462188aa040af14bbd05f4c0404":[2,0,6,3,0,24,2],
+"d5/dd7/gamemode__race_8qc.html#a4b3d01eeb2b479b98ac9ff0419c71f6c":[2,0,6,3,0,24,17],
+"d5/dd7/gamemode__race_8qc.html#a509e249e191f5cacce8e132341a38756":[2,0,6,3,0,24,4],
+"d5/dd7/gamemode__race_8qc.html#a5b5f7c4bfea49f77b0feb3b040390b70":[2,0,6,3,0,24,7],
 "d5/dd7/gamemode__race_8qc.html#a5e1cad53c7dcf45d9a6bb29274699f72":[2,0,6,3,0,24,0],
 "d5/dd7/gamemode__race_8qc.html#a62595dfeef2e3fba5e476a7fdd2701c2":[2,0,6,3,0,24,8],
 "d5/dd7/gamemode__race_8qc.html#a628848864479dbc529cec63337d13c2a":[2,0,6,3,0,24,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX51 =
 "d6/d01/classRaptorCannon.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,116,12],
 "d6/d01/classRaptorCannon.html#a4337268c8cad6836bae8efd4a8835070":[1,0,116,22],
 "d6/d01/classRaptorCannon.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,116,2],
-"d6/d01/classRaptorCannon.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,116,16],
-"d6/d01/classRaptorCannon.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,116,10],
-"d6/d01/classRaptorCannon.html#a6e0a37eaab3d64cff4542800f42b1c4c":[1,0,116,29],
-"d6/d01/classRaptorCannon.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,116,9],
-"d6/d01/classRaptorCannon.html#a7515d4131829927372fd6583d4ae610a":[1,0,116,0]
+"d6/d01/classRaptorCannon.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,116,16]
 };

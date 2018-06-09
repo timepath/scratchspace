@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"d0/d41/menu_8qh.html#a4bd11f06d96b45bdf353de5f9acb0be1":[2,0,5,16,20],
 "d0/d41/menu_8qh.html#a4cb43de29b90c061fba35ee52c3a1889":[2,0,5,16,13],
 "d0/d41/menu_8qh.html#a5070a4bd9a225227fd5da0dcd7a754d0":[2,0,5,16,19],
 "d0/d41/menu_8qh.html#a530c45dfca7fd6aa5bd5c5241d2e4aa8":[2,0,5,16,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "d0/d70/server_2weapons_2__mod_8inc_source.html":[2,0,6,5,0],
 "d0/d72/lib_2warpzone_2client_8qc.html":[2,0,4,2,4],
 "d0/d72/lib_2warpzone_2client_8qc.html#a18508bf93d97584800184066cf8e520a":[2,0,4,2,4,11],
-"d0/d72/lib_2warpzone_2client_8qc.html#a274e545688e9b9fd16d9ecef34d7a074":[2,0,4,2,4,13],
-"d0/d72/lib_2warpzone_2client_8qc.html#a295339443c4957cce0bd0fe831cf64c8":[2,0,4,2,4,3]
+"d0/d72/lib_2warpzone_2client_8qc.html#a274e545688e9b9fd16d9ecef34d7a074":[2,0,4,2,4,13]
 };

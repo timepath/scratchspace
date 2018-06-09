@@ -10,6 +10,7 @@ var net__linked_8qh =
     [ "RACE_NET_CHECKPOINT_NEXT_SPEC_QUALIFYING", "d5/d08/net__linked_8qh.html#acec20719aa37ca052ba76a9feced79df", null ],
     [ "RACE_NET_PENALTY_QUALIFYING", "d5/d08/net__linked_8qh.html#a60dc3ce41fc5433efedb7d598c2edd17", null ],
     [ "RACE_NET_PENALTY_RACE", "d5/d08/net__linked_8qh.html#a597f1b9b25351b6bc1fb0444f644e1d5", null ],
+    [ "RACE_NET_RANKINGS_CNT", "d5/d08/net__linked_8qh.html#ac70d2cbdc3becc927b792211e8745314", null ],
     [ "RACE_NET_SERVER_RANKINGS", "d5/d08/net__linked_8qh.html#aea84e6383141165cb22706f75d32ec77", null ],
     [ "RACE_NET_SERVER_RECORD", "d5/d08/net__linked_8qh.html#a42f9db68e1c9a1c28b606b9fb0c9b760", null ],
     [ "RACE_NET_SERVER_STATUS", "d5/d08/net__linked_8qh.html#a5b202eff03c220285a469372bca5ffc5", null ],

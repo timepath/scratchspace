@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"d1/dbb/server_2items_8qh_source.html":[2,0,6,42],
 "d1/dbf/xonotic_2inputbox_8qc.html":[2,0,5,4,170],
 "d1/dbf/xonotic_2inputbox_8qc.html#a60b4fb7c9c70fcc02c4a7bff364acf8d":[2,0,5,4,170,7],
 "d1/dbf/xonotic_2inputbox_8qc.html#a75a8453a24d1f158e180656773282100":[2,0,5,4,170,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "d1/dec/classInputBox.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,54,69],
 "d1/dec/classInputBox.html#afc9428d371ed63dd0316db5558e81d30":[1,0,54,71],
 "d1/dec/classInputBox.html#afdcf1fb79903f747cda494b27206526b":[1,0,54,5],
-"d1/dec/triggers_2misc_2follow_8qh.html":[2,0,1,13,1,5],
-"d1/dec/triggers_2misc_2follow_8qh.html#a329ed8f98830136c42762abaeb209188":[2,0,1,13,1,5,0]
+"d1/dec/triggers_2misc_2follow_8qh.html":[2,0,1,13,1,5]
 };

@@ -1,14 +1,17 @@
 var NAVTREEINDEX37 =
 {
-"d4/d1b/race_8qh.html#adde3148534e8ffc72f956ef1031467ab":[2,0,6,57,12],
+"d4/d1b/race_8qh.html#ad56f115b3e8bff12a396118eafdd99b3":[2,0,6,57,24],
+"d4/d1b/race_8qh.html#add05daf56f22c7ae8c345b7b400bab1e":[2,0,6,57,21],
+"d4/d1b/race_8qh.html#adde3148534e8ffc72f956ef1031467ab":[2,0,6,57,13],
 "d4/d1b/race_8qh.html#ae05ef2b5b27ff3e99decabbc4410e718":[2,0,6,57,10],
 "d4/d1b/race_8qh.html#ae0c5dbe57d8a837df10255bee683ff10":[2,0,6,57,0],
-"d4/d1b/race_8qh.html#ae12c1c9683fdacff4f1a7b6eea72f0f4":[2,0,6,57,46],
-"d4/d1b/race_8qh.html#ae526a80b21c7a500f4e86b074552fd2e":[2,0,6,57,23],
-"d4/d1b/race_8qh.html#ae952a847e056ec6806ee293a26715447":[2,0,6,57,43],
-"d4/d1b/race_8qh.html#aed3e7eeefa007399c2c062b2b038a594":[2,0,6,57,42],
-"d4/d1b/race_8qh.html#aeea8ac23a101c900b79ac67b637b7f70":[2,0,6,57,40],
-"d4/d1b/race_8qh.html#af388c4e5001dfa76a890f8f07c52f8ab":[2,0,6,57,26],
+"d4/d1b/race_8qh.html#ae12c1c9683fdacff4f1a7b6eea72f0f4":[2,0,6,57,48],
+"d4/d1b/race_8qh.html#ae526a80b21c7a500f4e86b074552fd2e":[2,0,6,57,25],
+"d4/d1b/race_8qh.html#ae68f84616d944507a6f89c625224d2ff":[2,0,6,57,12],
+"d4/d1b/race_8qh.html#ae952a847e056ec6806ee293a26715447":[2,0,6,57,45],
+"d4/d1b/race_8qh.html#aed3e7eeefa007399c2c062b2b038a594":[2,0,6,57,44],
+"d4/d1b/race_8qh.html#aeea8ac23a101c900b79ac67b637b7f70":[2,0,6,57,42],
+"d4/d1b/race_8qh.html#af388c4e5001dfa76a890f8f07c52f8ab":[2,0,6,57,28],
 "d4/d1b/race_8qh.html#afa5e1361b7c998c73649e0ac53556901":[2,0,6,57,3],
 "d4/d1b/race_8qh_source.html":[2,0,6,57],
 "d4/d1b/radar_8qh.html":[2,0,0,1,0,31],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d3f/classXonoticKeyBinder.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,209,21],
 "d4/d3f/classXonoticKeyBinder.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,209,41],
 "d4/d3f/classXonoticKeyBinder.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,209,46],
-"d4/d3f/classXonoticKeyBinder.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,209,55],
-"d4/d3f/classXonoticKeyBinder.html#ad77e32004130154cab38df0030a152d8":[1,0,209,64],
-"d4/d3f/classXonoticKeyBinder.html#ad846133b373b0bb53e0c5e99e5ba2d05":[1,0,209,28],
-"d4/d3f/classXonoticKeyBinder.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,209,82]
+"d4/d3f/classXonoticKeyBinder.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,209,55]
 };
