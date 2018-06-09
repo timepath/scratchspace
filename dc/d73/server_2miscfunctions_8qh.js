@@ -75,7 +75,6 @@ var server_2miscfunctions_8qh =
     [ "g_weaponarena", "dc/d73/server_2miscfunctions_8qh.html#a8fb81e5e74fcfefe13d3071a96ca9c66", null ],
     [ "g_weaponarena_list", "dc/d73/server_2miscfunctions_8qh.html#ad6222665136ecc4551f6c488d10a22bb", null ],
     [ "g_weaponarena_random", "dc/d73/server_2miscfunctions_8qh.html#acf4322a92b1a4367d26558e30af33ca5", null ],
-    [ "g_weaponarena_random_with_blaster", "dc/d73/server_2miscfunctions_8qh.html#ac72bb29eb754a1f916513b1957b241e6", null ],
     [ "g_weaponarena_weapons", "dc/d73/server_2miscfunctions_8qh.html#a774b159b06ee91811f6b278a0696b722", null ],
     [ "g_weapondamagefactor", "dc/d73/server_2miscfunctions_8qh.html#ad598502f260527ce9d1378b251c4a355", null ],
     [ "g_weaponforcefactor", "dc/d73/server_2miscfunctions_8qh.html#ad0bd67642d9bbaab1a6e4ba3d34d747e", null ],

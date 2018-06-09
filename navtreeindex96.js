@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"da/dfc/common_2triggers_2func_2button_8qc.html":[2,0,1,13,0,6],
+"da/dfc/common_2triggers_2func_2button_8qc_source.html":[2,0,1,13,0,6],
 "db/d07/teams_8qh.html":[2,0,1,48],
 "db/d07/teams_8qh.html#a00e243821d8a07b60c8bddb11aeffa2c":[2,0,1,48,0],
 "db/d07/teams_8qh.html#a09735bf77f5ce880b58823cd58c68f12":[2,0,1,48,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "db/d15/api_8qh.html#a7ee208dfaf077cf2c6ef10818b975fd9":[2,0,6,0,5,22],
 "db/d15/api_8qh.html#a7f490c136a567f38dcdcb155c0c34cb9":[2,0,6,0,5,33],
 "db/d15/api_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8":[2,0,6,0,5,82],
-"db/d15/api_8qh.html#a807c00d9a769abc84a4c23890964bc0c":[2,0,6,0,5,136],
-"db/d15/api_8qh.html#a8088f6a69e55e7f94121ff2f3072562b":[2,0,6,0,5,65],
-"db/d15/api_8qh.html#a80b4f8901c6e6f1d5c0e6d22d8965144":[2,0,6,0,5,17]
+"db/d15/api_8qh.html#a807c00d9a769abc84a4c23890964bc0c":[2,0,6,0,5,136]
 };

@@ -94,6 +94,8 @@ var NAVTREEINDEX130 =
 "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html":[2,0,5,4,111],
 "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh_source.html":[2,0,5,4,111],
 "df/d27/sv__weaponarena__random_8qh.html":[2,0,1,9,0,40,3],
+"df/d27/sv__weaponarena__random_8qh.html#ab8170ae9b28e781d5f6918e851aeda70":[2,0,1,9,0,40,3,1],
+"df/d27/sv__weaponarena__random_8qh.html#ac72bb29eb754a1f916513b1957b241e6":[2,0,1,9,0,40,3,0],
 "df/d27/sv__weaponarena__random_8qh_source.html":[2,0,1,9,0,40,3],
 "df/d28/menu_2xonotic_2button_8qc.html":[2,0,5,4,6],
 "df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[2,0,5,4,6,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX130 =
 "df/d38/mathlib_8qc.html#a6a8a7c048a7f9a645c6938e21fad4796":[2,0,4,2,8,28],
 "df/d38/mathlib_8qc.html#a6c941103cab43ce14def139f7a6a8efa":[2,0,4,2,8,18],
 "df/d38/mathlib_8qc.html#a7015726879809083a920c0338dedbad9":[2,0,4,2,8,40],
-"df/d38/mathlib_8qc.html#a7370c5a05d949b0842b35dcb96cba00d":[2,0,4,2,8,5],
-"df/d38/mathlib_8qc.html#a78694f207dbd1c20883880487c2db48f":[2,0,4,2,8,32],
-"df/d38/mathlib_8qc.html#a78b2dabdaeeec0788f39bc1ec4af8033":[2,0,4,2,8,4]
+"df/d38/mathlib_8qc.html#a7370c5a05d949b0842b35dcb96cba00d":[2,0,4,2,8,5]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"db/d15/api_8qh.html#a8088f6a69e55e7f94121ff2f3072562b":[2,0,6,0,5,65],
+"db/d15/api_8qh.html#a80b4f8901c6e6f1d5c0e6d22d8965144":[2,0,6,0,5,17],
 "db/d15/api_8qh.html#a8437899c3d001f7890b2044e3b7890c9":[2,0,6,0,5,154],
 "db/d15/api_8qh.html#a8467c850cba8957cd36040241ed1e68b":[2,0,6,0,5,81],
 "db/d15/api_8qh.html#a84c4b28f9537ee1a4354cf4392c0bced":[2,0,6,0,5,56],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "db/d29/machinegun__weapon_8qh.html#a1d67f6931a2ea189e5f33ef332554c58":[2,0,1,14,0,23,1],
 "db/d29/machinegun__weapon_8qh_source.html":[2,0,1,14,0,23],
 "db/d2a/client_2hud_2panel_2ammo_8qh.html":[2,0,0,1,0,3],
-"db/d2a/client_2hud_2panel_2ammo_8qh.html#ad637fa0fc1c06d190bf1b831f4c12846":[2,0,0,1,0,3,0],
-"db/d2a/client_2hud_2panel_2ammo_8qh_source.html":[2,0,0,1,0,3],
-"db/d2b/sv__spawn__near__teammate_8qh.html":[2,0,1,9,0,32,3]
+"db/d2a/client_2hud_2panel_2ammo_8qh.html#ad637fa0fc1c06d190bf1b831f4c12846":[2,0,0,1,0,3,0]
 };

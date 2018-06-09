@@ -36,7 +36,6 @@ var g__damage_8qh =
     [ "fire_endtime", "dd/de4/g__damage_8qh.html#a3f696c9f9260834902e2b430e0d71f8e", null ],
     [ "fire_hitsound", "dd/de4/g__damage_8qh.html#af8497f54dc2d95ad1364dc3996de30ee", null ],
     [ "fire_owner", "dd/de4/g__damage_8qh.html#aa943832211a94aaee4ef828f9ba1d618", null ],
-    [ "GiveFrags_randomweapons", "dd/de4/g__damage_8qh.html#ab8170ae9b28e781d5f6918e851aeda70", null ],
     [ "istypefrag", "dd/de4/g__damage_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9", null ],
     [ "pusher", "dd/de4/g__damage_8qh.html#a798f63d3b40c416811743d9bfc9b1d28", null ],
     [ "RadiusDamage_running", "dd/de4/g__damage_8qh.html#a71cbd3b7045074352ef5de0d1711f3d6", null ],

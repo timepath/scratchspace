@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"da/d1d/mainwindow_8qc_source.html":[2,0,5,4,178],
+"da/d1e/phaser__weapon_8qc.html":[2,0,1,14,0,30],
 "da/d1e/phaser__weapon_8qc_source.html":[2,0,1,14,0,30],
 "da/d20/spawnfunc_8qh.html":[2,0,4,55],
 "da/d20/spawnfunc_8qh.html#a0337431cd5614e4984c6012eea5be3ad":[2,0,4,55,24],
@@ -24,8 +26,8 @@ var NAVTREEINDEX90 =
 "da/d20/spawnfunc_8qh.html#aba58f0f254a7470e43b0294be317a734":[2,0,4,55,11],
 "da/d20/spawnfunc_8qh.html#ac237ac49370487f5d91312a3bdd04abc":[2,0,4,55,12],
 "da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6":[2,0,4,55,14],
-"da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6":[2,0,4,55,15],
 "da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6":[2,0,4,55,16],
+"da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6":[2,0,4,55,15],
 "da/d20/spawnfunc_8qh.html#accf25e4d095ddcca539fa7bf35d2e64b":[2,0,4,55,0],
 "da/d20/spawnfunc_8qh.html#acf818192a10457d834cc057718d25ad3":[2,0,4,55,27],
 "da/d20/spawnfunc_8qh.html#ae520c557d0e22b803e268760bc77f205":[2,0,4,55,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX90 =
 "da/d44/common_2util_8qc.html#affc8d3643262baf7a22651259f9598ac":[2,0,1,49,28],
 "da/d44/common_2util_8qc_source.html":[2,0,1,49],
 "da/d45/gamemode__ca_8qh.html":[2,0,6,3,0,5],
-"da/d45/gamemode__ca_8qh.html#a2d5316421d04d94cdcdf74c325085e0e":[2,0,6,3,0,5,3],
-"da/d45/gamemode__ca_8qh.html#a326da87721b996b70f4abde42e83145e":[2,0,6,3,0,5,10],
-"da/d45/gamemode__ca_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7":[2,0,6,3,0,5,5]
+"da/d45/gamemode__ca_8qh.html#a2d5316421d04d94cdcdf74c325085e0e":[2,0,6,3,0,5,3]
 };

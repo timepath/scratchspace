@@ -205,8 +205,10 @@ var NAVTREEINDEX71 =
 "d7/de2/g__hook_8qc.html#ae2567f613b4799b5612e9c755231e62f":[2,0,6,23,0],
 "d7/de2/g__hook_8qc_source.html":[2,0,6,23],
 "d7/de2/sv__weaponarena__random_8qc.html":[2,0,1,9,0,40,2],
-"d7/de2/sv__weaponarena__random_8qc.html#a0c03f18fcfdc30a52261407556598d03":[2,0,1,9,0,40,2,1],
-"d7/de2/sv__weaponarena__random_8qc.html#ae550281e61c7f7e4cabd5b78d70ac824":[2,0,1,9,0,40,2,0],
+"d7/de2/sv__weaponarena__random_8qc.html#a0c03f18fcfdc30a52261407556598d03":[2,0,1,9,0,40,2,3],
+"d7/de2/sv__weaponarena__random_8qc.html#abb2c78b56faac486467b897771da7c17":[2,0,1,9,0,40,2,0],
+"d7/de2/sv__weaponarena__random_8qc.html#ae550281e61c7f7e4cabd5b78d70ac824":[2,0,1,9,0,40,2,1],
+"d7/de2/sv__weaponarena__random_8qc.html#afad0f4ef6580e9d971c3ca0057f355c4":[2,0,1,9,0,40,2,2],
 "d7/de2/sv__weaponarena__random_8qc_source.html":[2,0,1,9,0,40,2],
 "d7/de3/dialog__multiplayer__create_8qc.html":[2,0,5,4,88],
 "d7/de3/dialog__multiplayer__create_8qc.html#a0551d863eb32ced7a0f48f9834708dbe":[2,0,5,4,88,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "d7/de6/classXonoticSkinList.html#a11c731470352fc810a17be97e1755ea6":[1,0,248,51],
 "d7/de6/classXonoticSkinList.html#a151e0ec9dca93787cd82446a1b2e5ffa":[1,0,248,52],
 "d7/de6/classXonoticSkinList.html#a18456fc3d44b3528c7595c73f42a8acc":[1,0,248,63],
-"d7/de6/classXonoticSkinList.html#a2188ecd49040da1f5cb826f6dd52e8c3":[1,0,248,29],
-"d7/de6/classXonoticSkinList.html#a230ddb1a3db4e3db29b3c2e1590dd22e":[1,0,248,83],
-"d7/de6/classXonoticSkinList.html#a235355aace741c77462c66d35b2c5e2a":[1,0,248,3]
+"d7/de6/classXonoticSkinList.html#a2188ecd49040da1f5cb826f6dd52e8c3":[1,0,248,29]
 };
