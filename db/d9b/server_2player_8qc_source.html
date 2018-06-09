@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;../common/animdecide.qh&quot;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;../common/csqcmodel_settings.qh&quot;</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;../common/deathtypes/all.qh&quot;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;../common/triggers/subs.qh&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;../common/mapobjects/subs.qh&quot;</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;../common/playerstats.qh&quot;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;../lib/csqcmodel/sv_model.qh&quot;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;../common/physics/player.qh&quot;</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;../common/effects/qc/_mod.qh&quot;</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;../common/mutators/mutator/waypoints/waypointsprites.qh&quot;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;../common/triggers/include.qh&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;../common/mapobjects/_mod.qh&quot;</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;../common/wepent.qh&quot;</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/df0/weaponstats_8qh.html">weapons/weaponstats.qh</a>&quot;</span></div>
@@ -1305,7 +1305,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div class="ttc" id="server_2autocvars_8qh_html_ac820ff8638896aaaba8258513be03a4e"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ac820ff8638896aaaba8258513be03a4e">autocvar_sv_gibhealth</a></div><div class="ttdeci">float autocvar_sv_gibhealth</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00368">autocvars.qh:368</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_ac6ce93e67a20b4848e89230aca3acaf9"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#ac6ce93e67a20b4848e89230aca3acaf9">autocvar_ekg</a></div><div class="ttdeci">int autocvar_ekg</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00154">autocvars.qh:154</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a6df054c823ea4b68912d26da63107539"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a6df054c823ea4b68912d26da63107539">teleportable</a></div><div class="ttdeci">float teleportable</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00105">defs.qh:105</a></div></div>
-<div class="ttc" id="subs_8qc_html_aaee12b410e85192641c50f8eeeef532f"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#aaee12b410e85192641c50f8eeeef532f">SUB_SetFade</a></div><div class="ttdeci">void SUB_SetFade(entity ent, float when, float fading_time)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00068">subs.qc:68</a></div></div>
+<div class="ttc" id="subs_8qc_html_aaee12b410e85192641c50f8eeeef532f"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#aaee12b410e85192641c50f8eeeef532f">SUB_SetFade</a></div><div class="ttdeci">void SUB_SetFade(entity ent, float when, float fading_time)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00076">subs.qc:76</a></div></div>
 <div class="ttc" id="common_2physics_2player_8qh_html"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html">player.qh</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00049">ent_cs.qc:49</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_abfe9a5ddfb6e7e96f7c61d70a0dc3c24"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#abfe9a5ddfb6e7e96f7c61d70a0dc3c24">deadflag</a></div><div class="ttdeci">float deadflag</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00149">progsdefs.qc:149</a></div></div>
@@ -1387,7 +1387,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/d9b/server_2player_8qc.html">player.qc</a></li>
-    <li class="footer">Generated on Sat Jun 9 2018 15:57:13 for Xonotic by
+    <li class="footer">Generated on Sat Jun 9 2018 16:37:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

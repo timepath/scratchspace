@@ -113,8 +113,8 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;../common/constants.qh&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;../common/deathtypes/all.qh&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;../common/notifications/all.qh&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;../common/triggers/teleporters.qh&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;../common/triggers/subs.qh&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;../common/mapobjects/teleporters.qh&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;../common/mapobjects/subs.qh&quot;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;../common/util.qh&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d4/d4f/__all_8qh.html">common/weapons/_all.qh</a>&gt;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;../lib/csqcmodel/sv_model.qh&quot;</span></div>
@@ -877,7 +877,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="ttc" id="utils_8qh_html_ada2e50d916105b5a32d7c97d39d226d5"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ada2e50d916105b5a32d7c97d39d226d5">IS_VEHICLE</a></div><div class="ttdeci">#define IS_VEHICLE(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00022">utils.qh:22</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a80973079ff043c7890bc2db4af6896c4"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a80973079ff043c7890bc2db4af6896c4">SOLID_BSP</a></div><div class="ttdeci">const int SOLID_BSP</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00130">csqc_constants.qh:130</a></div></div>
 <div class="ttc" id="portals_8qc_html_a701b865d8e05ebcc34d0e4bc2dbaf099"><div class="ttname"><a href="../../de/de8/portals_8qc.html#a701b865d8e05ebcc34d0e4bc2dbaf099">Portal_SpawnOutPortalAtTrace</a></div><div class="ttdeci">float Portal_SpawnOutPortalAtTrace(entity own, vector dir, float portal_id_val)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de8/portals_8qc_source.html#l00680">portals.qc:680</a></div></div>
-<div class="ttc" id="subs_8qc_html_aaee12b410e85192641c50f8eeeef532f"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#aaee12b410e85192641c50f8eeeef532f">SUB_SetFade</a></div><div class="ttdeci">void SUB_SetFade(entity ent, float when, float fading_time)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00068">subs.qc:68</a></div></div>
+<div class="ttc" id="subs_8qc_html_aaee12b410e85192641c50f8eeeef532f"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#aaee12b410e85192641c50f8eeeef532f">SUB_SetFade</a></div><div class="ttdeci">void SUB_SetFade(entity ent, float when, float fading_time)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00076">subs.qc:76</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00049">ent_cs.qc:49</a></div></div>
 <div class="ttc" id="portals_8qc_html_af7cc1e89ceacf4e2efce4267a1562d3c"><div class="ttname"><a href="../../de/de8/portals_8qc.html#af7cc1e89ceacf4e2efce4267a1562d3c">Portal_RemoveLater_Think</a></div><div class="ttdeci">void Portal_RemoveLater_Think(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de8/portals_8qc_source.html#l00582">portals.qc:582</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a5ae2f838da18fe5ea81151c4e3735220"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5ae2f838da18fe5ea81151c4e3735220">vectoyaw</a></div><div class="ttdeci">float vectoyaw(vector v)</div></div>
@@ -929,7 +929,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../de/de8/portals_8qc.html">portals.qc</a></li>
-    <li class="footer">Generated on Sat Jun 9 2018 15:57:16 for Xonotic by
+    <li class="footer">Generated on Sat Jun 9 2018 16:37:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Xonotic: common/triggers/func/pendulum.qc Source File</title>
+<title>Xonotic: common/mapobjects/func/pendulum.qc Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('d9/ddb/pendulum_8qc_source.html','../.
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    setblocked(<span class="keyword">this</span>, <a class="code" href="../../d1/d08/platforms_8qc.html#a2e6fb73fa2429185a78a769de38b77e2">generic_plat_blocked</a>);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    this.avelocity_z = 0.0000001;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d2/d11/g__subs_8qc.html#a36cdf81a62f8df66eff065eb38de7241">InitMovingBrushTrigger</a>(<span class="keyword">this</span>))</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> (!InitMovingBrushTrigger(<span class="keyword">this</span>))</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">if</span>(!this.freq)</div>
@@ -193,7 +193,6 @@ $(document).ready(function(){initNavTree('d9/ddb/pendulum_8qc_source.html','../.
 <div class="ttc" id="server_2defs_8qh_html_a460f6470e11584cd894c55c977224efb"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a460f6470e11584cd894c55c977224efb">active</a></div><div class="ttdeci">float active</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00356">defs.qh:356</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00034">main.qh:34</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a9a82a4d363a39e85151eaec7a4f8dae2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a></div><div class="ttdeci">string precache_sound(string sample)</div></div>
-<div class="ttc" id="g__subs_8qc_html_a36cdf81a62f8df66eff065eb38de7241"><div class="ttname"><a href="../../d2/d11/g__subs_8qc.html#a36cdf81a62f8df66eff065eb38de7241">InitMovingBrushTrigger</a></div><div class="ttdeci">bool InitMovingBrushTrigger(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d11/g__subs_8qc_source.html#l00426">g_subs.qc:426</a></div></div>
 <div class="ttc" id="sound_8qh_html_a353d870104b3e8ae2a5fc5584279c735"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a353d870104b3e8ae2a5fc5584279c735">VOL_BASE</a></div><div class="ttdeci">const float VOL_BASE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00035">sound.qh:35</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a067c6fc2c94c080c9e94a020c41f036e"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a067c6fc2c94c080c9e94a020c41f036e">message2</a></div><div class="ttdeci">string message2</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00271">defs.qh:271</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9d4fb8ccfb13fa0bd762af0b2b50dcf6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a></div><div class="ttdeci">float nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">csprogsdefs.qc:121</a></div></div>
@@ -221,8 +220,8 @@ $(document).ready(function(){initNavTree('d9/ddb/pendulum_8qc_source.html','../.
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../dir_dac21ea200edd94d2597bdcb9e2f297b.html">func</a></li><li class="navelem"><a class="el" href="../../d9/ddb/pendulum_8qc.html">pendulum.qc</a></li>
-    <li class="footer">Generated on Sat Jun 9 2018 15:57:13 for Xonotic by
+    <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_45a15a852bc80fb55f8b66b90fc237b2.html">mapobjects</a></li><li class="navelem"><a class="el" href="../../dir_899c74de539ee16ef2ef488b03fd83c2.html">func</a></li><li class="navelem"><a class="el" href="../../d9/ddb/pendulum_8qc.html">pendulum.qc</a></li>
+    <li class="footer">Generated on Sat Jun 9 2018 16:37:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

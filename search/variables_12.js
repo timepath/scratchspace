@@ -85,7 +85,7 @@ var searchData=
   ['rad2deg',['RAD2DEG',['../d4/d0c/csprogsdefs_8qc.html#a3b775b609d9c8c038e103ca6d4e4aca6',1,'RAD2DEG():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#a3b775b609d9c8c038e103ca6d4e4aca6',1,'RAD2DEG():&#160;dpextensions.qc']]],
   ['radar_5fpanel_5fmodified',['radar_panel_modified',['../d3/d05/hud_8qh.html#a212420950513f6a82dd3893bae65bae2',1,'hud.qh']]],
   ['radar_5fshowennemies',['radar_showennemies',['../d5/d26/server_2defs_8qh.html#ace84bb9485d6470a12441cca242fa3e0',1,'defs.qh']]],
-  ['radius',['radius',['../df/d4a/common_2triggers_2trigger_2impulse_8qh.html#a5050a760c11da521cd4aee6336f6529f',1,'radius():&#160;impulse.qh'],['../dd/d36/halflife_8qc.html#a5050a760c11da521cd4aee6336f6529f',1,'radius():&#160;halflife.qc']]],
+  ['radius',['radius',['../d8/d14/common_2mapobjects_2trigger_2impulse_8qh.html#a5050a760c11da521cd4aee6336f6529f',1,'radius():&#160;impulse.qh'],['../dd/d36/halflife_8qc.html#a5050a760c11da521cd4aee6336f6529f',1,'radius():&#160;halflife.qc']]],
   ['radiusdamage_5frunning',['RadiusDamage_running',['../dd/de4/g__damage_8qh.html#a71cbd3b7045074352ef5de0d1711f3d6',1,'g_damage.qh']]],
   ['railgundistance',['railgundistance',['../d4/d3f/tracing_8qh.html#a5d7aef17f84882da4b18a217740cb539',1,'tracing.qh']]],
   ['railgunforce',['railgunforce',['../d4/d3f/tracing_8qh.html#a422c1c35415a2024465aa98ff2c444dc',1,'tracing.qh']]],

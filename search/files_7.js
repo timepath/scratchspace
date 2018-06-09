@@ -6,8 +6,6 @@ var searchData=
   ['g_5fhook_2eqh',['g_hook.qh',['../d7/de1/g__hook_8qh.html',1,'']]],
   ['g_5flights_2eqc',['g_lights.qc',['../dd/daa/g__lights_8qc.html',1,'']]],
   ['g_5flights_2eqh',['g_lights.qh',['../d1/d0a/g__lights_8qh.html',1,'']]],
-  ['g_5fmodels_2eqc',['g_models.qc',['../d2/d37/g__models_8qc.html',1,'']]],
-  ['g_5fmodels_2eqh',['g_models.qh',['../da/dd4/g__models_8qh.html',1,'']]],
   ['g_5fsubs_2eqc',['g_subs.qc',['../d2/d11/g__subs_8qc.html',1,'']]],
   ['g_5fsubs_2eqh',['g_subs.qh',['../d6/d93/g__subs_8qh.html',1,'']]],
   ['g_5fworld_2eqc',['g_world.qc',['../db/dcc/g__world_8qc.html',1,'']]],

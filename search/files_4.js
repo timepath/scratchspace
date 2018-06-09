@@ -10,7 +10,7 @@ var searchData=
   ['debug_2eqh',['debug.qh',['../dc/d1d/server_2pathlib_2debug_8qh.html',1,'']]],
   ['debug_2eqh',['debug.qh',['../da/df5/common_2debug_8qh.html',1,'']]],
   ['defer_2eqh',['defer.qh',['../d5/d95/defer_8qh.html',1,'']]],
-  ['defs_2eqh',['defs.qh',['../d0/d2b/common_2triggers_2defs_8qh.html',1,'']]],
+  ['defs_2eqh',['defs.qh',['../df/d16/common_2mapobjects_2defs_8qh.html',1,'']]],
   ['defs_2eqh',['defs.qh',['../d9/d08/client_2defs_8qh.html',1,'']]],
   ['defs_2eqh',['defs.qh',['../d5/d26/server_2defs_8qh.html',1,'']]],
   ['delay_2eqc',['delay.qc',['../de/d69/delay_8qc.html',1,'']]],
@@ -21,8 +21,8 @@ var searchData=
   ['devastator_2eqh',['devastator.qh',['../d9/dfa/devastator_8qh.html',1,'']]],
   ['dialog_2eqc',['dialog.qc',['../d7/d4b/item_2dialog_8qc.html',1,'']]],
   ['dialog_2eqc',['dialog.qc',['../d9/d55/xonotic_2dialog_8qc.html',1,'']]],
-  ['dialog_2eqh',['dialog.qh',['../d6/d88/item_2dialog_8qh.html',1,'']]],
   ['dialog_2eqh',['dialog.qh',['../d5/d05/xonotic_2dialog_8qh.html',1,'']]],
+  ['dialog_2eqh',['dialog.qh',['../d6/d88/item_2dialog_8qh.html',1,'']]],
   ['dialog_5fcredits_2eqc',['dialog_credits.qc',['../d3/d71/dialog__credits_8qc.html',1,'']]],
   ['dialog_5fcredits_2eqh',['dialog_credits.qh',['../dd/d95/dialog__credits_8qh.html',1,'']]],
   ['dialog_5ffirstrun_2eqc',['dialog_firstrun.qc',['../d3/dbd/dialog__firstrun_8qc.html',1,'']]],
@@ -160,6 +160,6 @@ var searchData=
   ['dpextensions_2eqc',['dpextensions.qc',['../de/d5e/dpextensions_8qc.html',1,'']]],
   ['dpextensions_2eqh',['dpextensions.qh',['../d3/d9e/dpextensions_8qh.html',1,'']]],
   ['draw_2eqc',['draw.qc',['../d6/db1/draw_8qc.html',1,'']]],
-  ['draw_2eqh',['draw.qh',['../d1/dd2/lib_2draw_8qh.html',1,'']]],
-  ['draw_2eqh',['draw.qh',['../d9/d62/menu_2draw_8qh.html',1,'']]]
+  ['draw_2eqh',['draw.qh',['../d9/d62/menu_2draw_8qh.html',1,'']]],
+  ['draw_2eqh',['draw.qh',['../d1/dd2/lib_2draw_8qh.html',1,'']]]
 ];

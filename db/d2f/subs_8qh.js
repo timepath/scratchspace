@@ -1,5 +1,15 @@
 var subs_8qh =
 [
+    [ "SUB_CalcAngleMove", "db/d2f/subs_8qh.html#a9f52f1ab3e5f360bfe0de175c3f16e6c", null ],
+    [ "SUB_CalcAngleMoveDone", "db/d2f/subs_8qh.html#afa53bb9aaf31d08e9b3e68b0b215596c", null ],
+    [ "SUB_CalcAngleMoveEnt", "db/d2f/subs_8qh.html#a59257f95f3d7671625c35a3e3a4afbc8", null ],
+    [ "SUB_CalcMove", "db/d2f/subs_8qh.html#adf72da94012ed6f3ee8d3d25a6634e2b", null ],
+    [ "SUB_CalcMove_Bezier", "db/d2f/subs_8qh.html#af3e9ed532069ed0ac58d81c4275535bb", null ],
+    [ "SUB_CalcMove_controller_setbezier", "db/d2f/subs_8qh.html#a61fddc8912a338e95306f37cbe0a8581", null ],
+    [ "SUB_CalcMove_controller_setlinear", "db/d2f/subs_8qh.html#a501ab8f1c3f9a28c0caa5307816a067d", null ],
+    [ "SUB_CalcMove_controller_think", "db/d2f/subs_8qh.html#a44f0cc6d8a3712d8968f0271dcc6dcb4", null ],
+    [ "SUB_CalcMoveDone", "db/d2f/subs_8qh.html#a03279c1cb9d39ce02457862222cfb9eb", null ],
+    [ "SUB_CalcMoveEnt", "db/d2f/subs_8qh.html#ab98375d0b27a874a6dfb67d8ec295610", null ],
     [ "SUB_SetFade", "db/d2f/subs_8qh.html#aaee12b410e85192641c50f8eeeef532f", null ],
     [ "SUB_VanishOrRemove", "db/d2f/subs_8qh.html#ad0806fe42eadae7a1a7a48660cbbd755", null ],
     [ "void", "db/d2f/subs_8qh.html#aea0b7edf80fc3a7aead17f2b38dc050c", null ],
@@ -20,6 +30,7 @@ var subs_8qh =
     [ "platmovetype", "db/d2f/subs_8qh.html#afaf503fe7190a8bf2d2f7e651f3e5d82", null ],
     [ "platmovetype_end", "db/d2f/subs_8qh.html#a935f045292d52ce58d7c2fbbf9fd6f47", null ],
     [ "platmovetype_start", "db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36", null ],
+    [ "platmovetype_turn", "db/d2f/subs_8qh.html#acfc05d721470c3c19835fe5d5bc5a3e9", null ],
     [ "pos1", "db/d2f/subs_8qh.html#a9b33712b5a37138e7c60e621a1182713", null ],
     [ "pos2", "db/d2f/subs_8qh.html#a5e3c857e323d0afe657b7a8f63380149", null ],
     [ "sounds", "db/d2f/subs_8qh.html#a7b725c275eb61febdd76c2d3780516c8", null ],
@@ -32,5 +43,9 @@ var subs_8qh =
     [ "target4", "db/d2f/subs_8qh.html#ab615cf80c934c52fa8bdd27f8eaa5094", null ],
     [ "target_random", "db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c", null ],
     [ "trigger_reverse", "db/d2f/subs_8qh.html#a1011e9a424929d99bdbf9ffb117f4192", null ],
+    [ "TSPEED_END", "db/d2f/subs_8qh.html#a3b7ba754e1b4ec5d4e09ab3bc18972c5", null ],
+    [ "TSPEED_LINEAR", "db/d2f/subs_8qh.html#ad9345237c2c4854c8a01a4f020ec5c45", null ],
+    [ "TSPEED_START", "db/d2f/subs_8qh.html#a401d1b92cc1c2b238e8fd7a38d390ddd", null ],
+    [ "TSPEED_TIME", "db/d2f/subs_8qh.html#ad332b038b853a2d7a8c264bfe3bf53d8", null ],
     [ "wait", "db/d2f/subs_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683", null ]
 ];

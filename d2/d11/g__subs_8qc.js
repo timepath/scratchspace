@@ -1,18 +1,10 @@
 var g__subs_8qc =
 [
-    [ "ApplyMinMaxScaleAngles", "d2/d11/g__subs_8qc.html#a1a4bbd8167f5c8536222892f98565b04", null ],
     [ "findbetterlocation", "d2/d11/g__subs_8qc.html#ade6067d4eee255157e9f7eff9b226639", null ],
-    [ "InitMovingBrushTrigger", "d2/d11/g__subs_8qc.html#a36cdf81a62f8df66eff065eb38de7241", null ],
-    [ "InitSolidBSPTrigger", "d2/d11/g__subs_8qc.html#a6544bf4e8216a7ad4cc54b109d84624f", null ],
-    [ "InitTrigger", "d2/d11/g__subs_8qc.html#aebccc6fb4b4825ccb7f6eff7c3cc4bd2", null ],
     [ "LOD_customize", "d2/d11/g__subs_8qc.html#a85b02a7cb75cdb9e471532f35097b3cc", null ],
     [ "LOD_uncustomize", "d2/d11/g__subs_8qc.html#aa3e8d68ec770fa910013f8186680b28e", null ],
     [ "LODmodel_attach", "d2/d11/g__subs_8qc.html#ad6b999617407d6b8cc64860a447b4cb4", null ],
     [ "main", "d2/d11/g__subs_8qc.html#acdef7a1fd863a6d3770c1268cb06add3", null ],
-    [ "SetBrushEntityModel", "d2/d11/g__subs_8qc.html#a485e7432dec762bc92b88170f858a2b4", null ],
-    [ "SetBrushEntityModelNoLOD", "d2/d11/g__subs_8qc.html#af6735d681840d5190cb58915726656e6", null ],
-    [ "SetMovedir", "d2/d11/g__subs_8qc.html#a0fffd02c032443a0189a5bb8d6f47b69", null ],
-    [ "spawnfunc", "d2/d11/g__subs_8qc.html#addd517c7794686f85d035a434be1b7ac", null ],
     [ "tracebox_antilag", "d2/d11/g__subs_8qc.html#a098ba0cc6ccdbc147f0bf68b30238cc5", null ],
     [ "tracebox_antilag_force_wz", "d2/d11/g__subs_8qc.html#a16360420959782f6972ac30eec10327a", null ],
     [ "tracebox_inverted", "d2/d11/g__subs_8qc.html#a28dfa671bb87b15fe8ffd237fd6fb68b", null ],

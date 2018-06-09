@@ -27,8 +27,6 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "g_hook.qh", "d7/de1/g__hook_8qh.html", "d7/de1/g__hook_8qh" ],
     [ "g_lights.qc", "dd/daa/g__lights_8qc.html", "dd/daa/g__lights_8qc" ],
     [ "g_lights.qh", "d1/d0a/g__lights_8qh.html", null ],
-    [ "g_models.qc", "d2/d37/g__models_8qc.html", "d2/d37/g__models_8qc" ],
-    [ "g_models.qh", "da/dd4/g__models_8qh.html", null ],
     [ "g_subs.qc", "d2/d11/g__subs_8qc.html", "d2/d11/g__subs_8qc" ],
     [ "g_subs.qh", "d6/d93/g__subs_8qh.html", "d6/d93/g__subs_8qh" ],
     [ "g_world.qc", "db/dcc/g__world_8qc.html", "db/dcc/g__world_8qc" ],

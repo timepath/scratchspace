@@ -1,29 +1,10 @@
 var g__subs_8qh =
 [
-    [ "angc", "d6/d93/g__subs_8qh.html#a3beea75a8f5936cd10f1b7319347a884", null ],
-    [ "ApplyMinMaxScaleAngles", "d6/d93/g__subs_8qh.html#a1a4bbd8167f5c8536222892f98565b04", null ],
     [ "findbetterlocation", "d6/d93/g__subs_8qh.html#ade6067d4eee255157e9f7eff9b226639", null ],
-    [ "InitMovingBrushTrigger", "d6/d93/g__subs_8qh.html#a36cdf81a62f8df66eff065eb38de7241", null ],
-    [ "InitSolidBSPTrigger", "d6/d93/g__subs_8qh.html#a6544bf4e8216a7ad4cc54b109d84624f", null ],
-    [ "InitTrigger", "d6/d93/g__subs_8qh.html#aebccc6fb4b4825ccb7f6eff7c3cc4bd2", null ],
     [ "LOD_customize", "d6/d93/g__subs_8qh.html#a85b02a7cb75cdb9e471532f35097b3cc", null ],
     [ "LOD_uncustomize", "d6/d93/g__subs_8qh.html#aa3e8d68ec770fa910013f8186680b28e", null ],
     [ "LODmodel_attach", "d6/d93/g__subs_8qh.html#ad6b999617407d6b8cc64860a447b4cb4", null ],
     [ "main", "d6/d93/g__subs_8qh.html#acdef7a1fd863a6d3770c1268cb06add3", null ],
-    [ "SetBrushEntityModel", "d6/d93/g__subs_8qh.html#a485e7432dec762bc92b88170f858a2b4", null ],
-    [ "SetBrushEntityModelNoLOD", "d6/d93/g__subs_8qh.html#af6735d681840d5190cb58915726656e6", null ],
-    [ "SetMovedir", "d6/d93/g__subs_8qh.html#a0fffd02c032443a0189a5bb8d6f47b69", null ],
-    [ "spawnfunc", "d6/d93/g__subs_8qh.html#addd517c7794686f85d035a434be1b7ac", null ],
-    [ "SUB_CalcAngleMove", "d6/d93/g__subs_8qh.html#a9f52f1ab3e5f360bfe0de175c3f16e6c", null ],
-    [ "SUB_CalcAngleMoveDone", "d6/d93/g__subs_8qh.html#afa53bb9aaf31d08e9b3e68b0b215596c", null ],
-    [ "SUB_CalcAngleMoveEnt", "d6/d93/g__subs_8qh.html#a59257f95f3d7671625c35a3e3a4afbc8", null ],
-    [ "SUB_CalcMove", "d6/d93/g__subs_8qh.html#adf72da94012ed6f3ee8d3d25a6634e2b", null ],
-    [ "SUB_CalcMove_Bezier", "d6/d93/g__subs_8qh.html#af3e9ed532069ed0ac58d81c4275535bb", null ],
-    [ "SUB_CalcMove_controller_setbezier", "d6/d93/g__subs_8qh.html#a61fddc8912a338e95306f37cbe0a8581", null ],
-    [ "SUB_CalcMove_controller_setlinear", "d6/d93/g__subs_8qh.html#a501ab8f1c3f9a28c0caa5307816a067d", null ],
-    [ "SUB_CalcMove_controller_think", "d6/d93/g__subs_8qh.html#a44f0cc6d8a3712d8968f0271dcc6dcb4", null ],
-    [ "SUB_CalcMoveDone", "d6/d93/g__subs_8qh.html#a03279c1cb9d39ce02457862222cfb9eb", null ],
-    [ "SUB_CalcMoveEnt", "d6/d93/g__subs_8qh.html#ab98375d0b27a874a6dfb67d8ec295610", null ],
     [ "SUB_Friction", "d6/d93/g__subs_8qh.html#a5d9d5695ccf2b8c610dca410cbd576a7", null ],
     [ "SUB_NullThink", "d6/d93/g__subs_8qh.html#a8ed167ee1a9e29cad462eccfe9a7ca09", null ],
     [ "SUB_SetFade", "d6/d93/g__subs_8qh.html#aa5f39279e0925de5c1c079d5ca52dff7", null ],
@@ -47,6 +28,5 @@ var g__subs_8qh =
     [ "lodmodelindex1", "d6/d93/g__subs_8qh.html#a19ee9e9157c79a2b957c3eaa52eb68cd", null ],
     [ "lodmodelindex2", "d6/d93/g__subs_8qh.html#ad04a1d90929cbe7578fa5038ab825698", null ],
     [ "lodtarget1", "d6/d93/g__subs_8qh.html#a4950894f9633214854e7c6e08873b65f", null ],
-    [ "lodtarget2", "d6/d93/g__subs_8qh.html#a6f6baed6003ba8c7f8af3305899f08a5", null ],
-    [ "platmovetype_turn", "d6/d93/g__subs_8qh.html#acfc05d721470c3c19835fe5d5bc5a3e9", null ]
+    [ "lodtarget2", "d6/d93/g__subs_8qh.html#a6f6baed6003ba8c7f8af3305899f08a5", null ]
 ];

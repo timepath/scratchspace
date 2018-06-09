@@ -101,7 +101,7 @@ var searchData=
   ['defrag_5fents',['defrag_ents',['../d6/d3b/race_8qc.html#a70fbde94d1d32b56ca60fda6a5c34e83',1,'race.qc']]],
   ['defragcpexists',['defragcpexists',['../d6/d3b/race_8qc.html#a5df20a0be3e9e2fe0fd82f4f1d18e372',1,'race.qc']]],
   ['defs_2eqh',['defs.qh',['../d9/d08/client_2defs_8qh.html',1,'']]],
-  ['defs_2eqh',['defs.qh',['../d0/d2b/common_2triggers_2defs_8qh.html',1,'']]],
+  ['defs_2eqh',['defs.qh',['../df/d16/common_2mapobjects_2defs_8qh.html',1,'']]],
   ['defs_2eqh',['defs.qh',['../d5/d26/server_2defs_8qh.html',1,'']]],
   ['deg2rad',['DEG2RAD',['../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494',1,'DEG2RAD():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#a2fe322be5170d3e7916dfb2003f00494',1,'DEG2RAD():&#160;dpextensions.qc']]],
   ['delay',['delay',['../db/d2f/subs_8qh.html#abdc33cf25e725134a9b48e79c7031bcf',1,'delay():&#160;subs.qh'],['../df/d42/quake3_8qc.html#abdc33cf25e725134a9b48e79c7031bcf',1,'delay():&#160;quake3.qc'],['../db/d20/round__handler_8qh.html#abdc33cf25e725134a9b48e79c7031bcf',1,'delay():&#160;round_handler.qh']]],

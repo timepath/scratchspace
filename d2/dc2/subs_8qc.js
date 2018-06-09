@@ -16,9 +16,5 @@ var subs_8qc =
     [ "SUB_SetFade_Think", "d2/dc2/subs_8qc.html#a90e45de578dd2a4e3ea4cbc3c20008b1", null ],
     [ "SUB_VanishOrRemove", "d2/dc2/subs_8qc.html#ad0806fe42eadae7a1a7a48660cbbd755", null ],
     [ "friction", "d2/dc2/subs_8qc.html#a585bd15db005143bac988d78710e4e93", null ],
-    [ "platmovetype_turn", "d2/dc2/subs_8qc.html#acfc05d721470c3c19835fe5d5bc5a3e9", null ],
-    [ "TSPEED_END", "d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0", null ],
-    [ "TSPEED_LINEAR", "d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4", null ],
-    [ "TSPEED_START", "d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0", null ],
-    [ "TSPEED_TIME", "d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c", null ]
+    [ "platmovetype_turn", "d2/dc2/subs_8qc.html#acfc05d721470c3c19835fe5d5bc5a3e9", null ]
 ];
