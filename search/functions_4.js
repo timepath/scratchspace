@@ -45,7 +45,6 @@ var searchData=
   ['destroy_5fall_5fnotifications',['Destroy_All_Notifications',['../d8/d79/notifications_2all_8qc.html#ab2ba4995bd0ca717f5a1612dcea04e08',1,'Destroy_All_Notifications():&#160;all.qc'],['../dc/d8f/notifications_2all_8qh.html#ab2ba4995bd0ca717f5a1612dcea04e08',1,'Destroy_All_Notifications():&#160;all.qc']]],
   ['destroy_5fnotification_5fentity',['Destroy_Notification_Entity',['../d8/d79/notifications_2all_8qc.html#a3928a6ac0250db86d0e96cae9f44b7f4',1,'all.qc']]],
   ['detach_5fsameorigin',['detach_sameorigin',['../dc/dc6/server_2miscfunctions_8qc.html#ad5f11a27c578036c6dab37bd91bcb744',1,'detach_sameorigin(entity e):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#ad5f11a27c578036c6dab37bd91bcb744',1,'detach_sameorigin(entity e):&#160;miscfunctions.qc']]],
-  ['detect_5fmaptype',['detect_maptype',['../db/dcc/g__world_8qc.html#aaf92ec79f8aec9319c8a513bd5577e48',1,'g_world.qc']]],
   ['determine_5fforce',['determine_force',['../d5/da6/sv__dodging_8qc.html#afcb119d9be24d9609d67dcca8421ff9b',1,'sv_dodging.qc']]],
   ['dialog_5fadditemsimple',['Dialog_addItemSimple',['../d7/d4b/item_2dialog_8qc.html#a8653d6b69ea808114ecfd61646db4d29',1,'dialog.qc']]],
   ['dialog_5fclose',['Dialog_Close',['../d2/dc3/menu_2item_2button_8qc.html#aad8a5f6e981257d1408bd0dab913f701',1,'Dialog_Close(entity button, entity me):&#160;dialog.qc'],['../d7/d4b/item_2dialog_8qc.html#aad8a5f6e981257d1408bd0dab913f701',1,'Dialog_Close(entity button, entity me):&#160;dialog.qc'],['../d6/d88/item_2dialog_8qh.html#aad8a5f6e981257d1408bd0dab913f701',1,'Dialog_Close(entity button, entity me):&#160;dialog.qc'],['../d7/d4b/item_2dialog_8qc.html#a1a1f1bf322d1488c3128f89bed9a46a4',1,'Dialog_close(entity me):&#160;dialog.qc']]],
@@ -198,10 +197,5 @@ var searchData=
   ['dumpnode',['dumpnode',['../df/d4c/server_2pathlib_2main_8qc.html#a402be18908ff31765c1ff5ba030db5e9',1,'main.qc']]],
   ['dumpstats',['DumpStats',['../db/dcc/g__world_8qc.html#a1207e599d7420b0af40007a89426efec',1,'DumpStats(float final):&#160;g_world.qc'],['../d7/d97/g__world_8qh.html#a1207e599d7420b0af40007a89426efec',1,'DumpStats(float final):&#160;g_world.qc']]],
   ['dynamichandicap_5fclamphandicap',['DynamicHandicap_ClampHandicap',['../dc/df0/sv__dynamic__handicap_8qc.html#ad84335a4961497559003fa72e98f38f9',1,'sv_dynamic_handicap.qc']]],
-  ['dynamichandicap_5fupdatehandicap',['DynamicHandicap_UpdateHandicap',['../dc/df0/sv__dynamic__handicap_8qc.html#ac9ba84270f2bb6e0dc26d5a61e077cff',1,'sv_dynamic_handicap.qc']]],
-  ['dynlight_5ffind_5faiment',['dynlight_find_aiment',['../dd/daa/g__lights_8qc.html#abcd95c9f614d026130fa87d14cd76a21',1,'g_lights.qc']]],
-  ['dynlight_5ffind_5fpath',['dynlight_find_path',['../dd/daa/g__lights_8qc.html#a5e62ba16138c20eb7792585e72ff358c',1,'g_lights.qc']]],
-  ['dynlight_5ffind_5ftarget',['dynlight_find_target',['../dd/daa/g__lights_8qc.html#af2fa133f7e214360915d1ecac346c6ee',1,'g_lights.qc']]],
-  ['dynlight_5fthink',['dynlight_think',['../dd/daa/g__lights_8qc.html#a401ab18baf23dce1497f19c2573dc9c9',1,'g_lights.qc']]],
-  ['dynlight_5fuse',['dynlight_use',['../dd/daa/g__lights_8qc.html#a44cc374a911b3a8c5583bd880a389e74',1,'g_lights.qc']]]
+  ['dynamichandicap_5fupdatehandicap',['DynamicHandicap_UpdateHandicap',['../dc/df0/sv__dynamic__handicap_8qc.html#ac9ba84270f2bb6e0dc26d5a61e077cff',1,'sv_dynamic_handicap.qc']]]
 ];

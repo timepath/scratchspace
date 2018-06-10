@@ -163,8 +163,6 @@ var NAVTREEINDEX6 =
 "d1/d08/platforms_8qc.html#af1a9f78bf35db47348e63dc8c1622c49":[2,0,1,6,9,5],
 "d1/d08/platforms_8qc.html#af53e48db51b43664a2d6ae7143b4c21b":[2,0,1,6,9,16],
 "d1/d08/platforms_8qc_source.html":[2,0,1,6,9],
-"d1/d0a/g__lights_8qh.html":[2,0,6,26],
-"d1/d0a/g__lights_8qh_source.html":[2,0,6,26],
 "d1/d0b/oknex_8qh.html":[2,0,1,10,0,23,9],
 "d1/d0b/oknex_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,10,0,23,9,1],
 "d1/d0b/oknex_8qh.html#a838a2fda273b37e6b42b550431438cae":[2,0,1,10,0,23,9,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX6 =
 "d1/d19/classButton.html#afdcf1fb79903f747cda494b27206526b":[1,0,12,10],
 "d1/d1f/effectinfo__gentle_8inc.html":[2,0,1,2,12],
 "d1/d1f/effectinfo__gentle_8inc.html#a1868fd8670b7bc8475e81e5a18441924":[2,0,1,2,12,1],
-"d1/d1f/effectinfo__gentle_8inc.html#a2dd9c9ab1ae00126e4e01f9b9450dc94":[2,0,1,2,12,3]
+"d1/d1f/effectinfo__gentle_8inc.html#a2dd9c9ab1ae00126e4e01f9b9450dc94":[2,0,1,2,12,3],
+"d1/d1f/effectinfo__gentle_8inc.html#a6bdb2713ef4ca7971293fa45005db623":[2,0,1,2,12,2],
+"d1/d1f/effectinfo__gentle_8inc.html#aa8f7bc139555532f372bf7e5783c1f8c":[2,0,1,2,12,0]
 };

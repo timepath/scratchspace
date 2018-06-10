@@ -1,8 +1,5 @@
 var NAVTREEINDEX115 =
 {
-"dd/d0f/classTeslaCoilTurretAttack.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,135,15],
-"dd/d0f/classTeslaCoilTurretAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,135,13],
-"dd/d0f/classTeslaCoilTurretAttack.html#aade624faa82ff26da9e51f1be39be298":[1,0,135,26],
 "dd/d0f/classTeslaCoilTurretAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,135,6],
 "dd/d0f/classTeslaCoilTurretAttack.html#ab39ead48189a4839b8acfa1376c68dc0":[1,0,135,35],
 "dd/d0f/classTeslaCoilTurretAttack.html#abb0fb58ffbc9dd30e89b0f5612b9c5e2":[1,0,135,34],
@@ -94,10 +91,10 @@ var NAVTREEINDEX115 =
 "dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921":[2,0,6,1,2,6],
 "dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324":[2,0,6,1,2,7],
 "dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1":[2,0,6,1,2,8],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,2],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,3],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
 "dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0":[2,0,6,1,2,11],
 "dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca":[2,0,6,1,2,12],
 "dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114":[2,0,6,1,2,9],
@@ -241,13 +238,16 @@ var NAVTREEINDEX115 =
 "dd/d36/halflife_8qc.html#ae5b9f848b65ebe23f77bc0162845fe4b":[2,0,6,2,2,14],
 "dd/d36/halflife_8qc.html#ae7d02eb493757fd3a3ef4e30edaa0c30":[2,0,6,2,2,22],
 "dd/d36/halflife_8qc_source.html":[2,0,6,2,2],
-"dd/d3a/mapobjects_2misc_2follow_8qc.html":[2,0,1,6,1,4],
-"dd/d3a/mapobjects_2misc_2follow_8qc_source.html":[2,0,1,6,1,4],
+"dd/d3a/mapobjects_2misc_2follow_8qc.html":[2,0,1,6,1,6],
+"dd/d3a/mapobjects_2misc_2follow_8qc_source.html":[2,0,1,6,1,6],
 "dd/d41/sv__hook_8qc.html":[2,0,1,10,0,11,2],
 "dd/d41/sv__hook_8qc_source.html":[2,0,1,10,0,11,2],
 "dd/d43/cl__turrets_8qc.html":[2,0,1,14,7],
 "dd/d43/cl__turrets_8qc.html#a181aadf6b8196e68aec17f8def47adda":[2,0,1,14,7,1],
 "dd/d43/cl__turrets_8qc.html#a201951011a4a5099f9acf57f98bf0559":[2,0,1,14,7,6],
 "dd/d43/cl__turrets_8qc.html#a3b700ba20a1e659f0f6012249ae62afd":[2,0,1,14,7,3],
-"dd/d43/cl__turrets_8qc.html#a3ef76a50f8c6b47647e267278a9482a6":[2,0,1,14,7,0]
+"dd/d43/cl__turrets_8qc.html#a3ef76a50f8c6b47647e267278a9482a6":[2,0,1,14,7,0],
+"dd/d43/cl__turrets_8qc.html#a5d418fca3cce0471a26810a234feae15":[2,0,1,14,7,10],
+"dd/d43/cl__turrets_8qc.html#a64d2520acfd864817d8e1ddc8c94089f":[2,0,1,14,7,4],
+"dd/d43/cl__turrets_8qc.html#a765708b12a85db1317da69da39087124":[2,0,1,14,7,8]
 };

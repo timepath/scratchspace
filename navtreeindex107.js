@@ -1,10 +1,5 @@
 var NAVTREEINDEX107 =
 {
-"dc/d03/keycodes_8qc.html#a8d8862abd2289a6523a1f6ec51219849":[2,0,2,0,2,46],
-"dc/d03/keycodes_8qc.html#a9157bc5d21a68934a4a8821bbb8e3c83":[2,0,2,0,2,5],
-"dc/d03/keycodes_8qc.html#a92218f5a369ee45fadb6fba1fcbdff77":[2,0,2,0,2,106],
-"dc/d03/keycodes_8qc.html#a92caf6975b7a248f393a5c2dbfe20cb7":[2,0,2,0,2,56],
-"dc/d03/keycodes_8qc.html#a9387c1d3181db6665a4ed4c200a9f5bd":[2,0,2,0,2,96],
 "dc/d03/keycodes_8qc.html#a9725d5a0831eef75431b645a98def3ad":[2,0,2,0,2,17],
 "dc/d03/keycodes_8qc.html#a9ae363a9c70d60b65d53e5d467c9ae2e":[2,0,2,0,2,89],
 "dc/d03/keycodes_8qc.html#a9da25338270a580a0c624e3a92618f28":[2,0,2,0,2,53],
@@ -249,5 +244,10 @@ var NAVTREEINDEX107 =
 "dc/d16/classXonoticMediaTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,215,13],
 "dc/d16/classXonoticMediaTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,215,7],
 "dc/d1b/tesla__weapon_8qh.html":[2,0,1,14,0,41],
-"dc/d1b/tesla__weapon_8qh.html#a2def26a59cde378b3abf06de44305bf2":[2,0,1,14,0,41,1]
+"dc/d1b/tesla__weapon_8qh.html#a2def26a59cde378b3abf06de44305bf2":[2,0,1,14,0,41,1],
+"dc/d1b/tesla__weapon_8qh_source.html":[2,0,1,14,0,41],
+"dc/d1d/server_2pathlib_2debug_8qh.html":[2,0,6,4,5],
+"dc/d1d/server_2pathlib_2debug_8qh_source.html":[2,0,6,4,5],
+"dc/d20/modeleffects_8qc.html":[2,0,1,2,0,12],
+"dc/d20/modeleffects_8qc_source.html":[2,0,1,2,0,12]
 };

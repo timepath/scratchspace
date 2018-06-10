@@ -1,7 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"d9/d18/screenshotlist_8qc.html#a8c5a1f49f3d9d935a59ac0deaf343157":[2,0,5,4,198,5],
-"d9/d18/screenshotlist_8qc.html#a90c401f45b81892ad38ac241c26b118f":[2,0,5,4,198,21],
 "d9/d18/screenshotlist_8qc.html#aafc6d8389fecfab2e006a59a962a689a":[2,0,5,4,198,18],
 "d9/d18/screenshotlist_8qc.html#ab3253ff13f50b3b01102d1e2fce8276b":[2,0,5,4,198,12],
 "d9/d18/screenshotlist_8qc.html#ab3668ca4a5d66f456c5e5523d07ad0eb":[2,0,5,4,198,19],
@@ -12,14 +10,14 @@ var NAVTREEINDEX83 =
 "d9/d18/screenshotlist_8qc.html#af995fcf70036ff2733377c5d44a5ab21":[2,0,5,4,198,10],
 "d9/d18/screenshotlist_8qc.html#afad0eb6c7f7acad6d0e0a509906d4d70":[2,0,5,4,198,14],
 "d9/d18/screenshotlist_8qc_source.html":[2,0,5,4,198],
-"d9/d19/handicap_8qc.html":[2,0,6,31],
-"d9/d19/handicap_8qc.html#a252940bd48dd3ccfad23adddf28e02ae":[2,0,6,31,3],
-"d9/d19/handicap_8qc.html#a41b02148f09797e441feda396ad8c4fc":[2,0,6,31,0],
-"d9/d19/handicap_8qc.html#a4f458f5ffa45353fadde9936cbd0279a":[2,0,6,31,4],
-"d9/d19/handicap_8qc.html#a673d6ca84b1e72bc80cae2e90030056f":[2,0,6,31,2],
-"d9/d19/handicap_8qc.html#a8073140ff6d4f3cf85c3ef2a9d4780d4":[2,0,6,31,5],
-"d9/d19/handicap_8qc.html#ac42efcf2d233a8425c35dbfc9fccc278":[2,0,6,31,1],
-"d9/d19/handicap_8qc_source.html":[2,0,6,31],
+"d9/d19/handicap_8qc.html":[2,0,6,29],
+"d9/d19/handicap_8qc.html#a252940bd48dd3ccfad23adddf28e02ae":[2,0,6,29,3],
+"d9/d19/handicap_8qc.html#a41b02148f09797e441feda396ad8c4fc":[2,0,6,29,0],
+"d9/d19/handicap_8qc.html#a4f458f5ffa45353fadde9936cbd0279a":[2,0,6,29,4],
+"d9/d19/handicap_8qc.html#a673d6ca84b1e72bc80cae2e90030056f":[2,0,6,29,2],
+"d9/d19/handicap_8qc.html#a8073140ff6d4f3cf85c3ef2a9d4780d4":[2,0,6,29,5],
+"d9/d19/handicap_8qc.html#ac42efcf2d233a8425c35dbfc9fccc278":[2,0,6,29,1],
+"d9/d19/handicap_8qc_source.html":[2,0,6,29],
 "d9/d19/modalcontroller_8qc.html":[2,0,5,2,22],
 "d9/d19/modalcontroller_8qc.html#a17af5dff33420a075b3b4e7802024e99":[2,0,5,2,22,18],
 "d9/d19/modalcontroller_8qc.html#a36ebc30de316e0c31a992577b8da728c":[2,0,5,2,22,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX83 =
 "d9/d40/dialog__settings__audio_8qh.html":[2,0,5,4,121],
 "d9/d40/dialog__settings__audio_8qh.html#a9897d4b9ae8916a24d87fccc5defa1fa":[2,0,5,4,121,1],
 "d9/d40/dialog__settings__audio_8qh_source.html":[2,0,5,4,121],
-"d9/d45/globalsound_8qc.html":[2,0,1,2,0,8]
+"d9/d45/globalsound_8qc.html":[2,0,1,2,0,8],
+"d9/d45/globalsound_8qc.html#a0f76411e16fb1a91bf97121690907cd7":[2,0,1,2,0,8,4],
+"d9/d45/globalsound_8qc.html#a15365d2ccf8bbab98e934281f11ed6fc":[2,0,1,2,0,8,8]
 };

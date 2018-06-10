@@ -10,7 +10,6 @@ var g__world_8qc =
     [ "ClearWinners", "db/dcc/g__world_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820", null ],
     [ "ClientInit_Spawn", "db/dcc/g__world_8qc.html#addbfa5c0ba866c7ffd66239839bc9942", null ],
     [ "cvar_changes_init", "db/dcc/g__world_8qc.html#ae90b93bec2a0e6486266371cb04b86bb", null ],
-    [ "detect_maptype", "db/dcc/g__world_8qc.html#aaf92ec79f8aec9319c8a513bd5577e48", null ],
     [ "DumpStats", "db/dcc/g__world_8qc.html#a1207e599d7420b0af40007a89426efec", null ],
     [ "EndFrame", "db/dcc/g__world_8qc.html#ab61dd957a2c44ebabe227060941cb391", null ],
     [ "FixIntermissionClient", "db/dcc/g__world_8qc.html#a15fcd02eea3f51317f896a817e6c3431", null ],

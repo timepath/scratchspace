@@ -1,10 +1,5 @@
 var NAVTREEINDEX114 =
 {
-"dc/de9/classXonoticRootDialog.html#a67d95732d49da439095483530aca8804":[1,0,234,51],
-"dc/de9/classXonoticRootDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,234,74],
-"dc/de9/classXonoticRootDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,234,14],
-"dc/de9/classXonoticRootDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,234,64],
-"dc/de9/classXonoticRootDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,234,23],
 "dc/de9/classXonoticRootDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,234,86],
 "dc/de9/classXonoticRootDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,234,78],
 "dc/de9/classXonoticRootDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,234,77],
@@ -173,6 +168,8 @@ var NAVTREEINDEX114 =
 "dc/df7/classXonoticCvarsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,166,39],
 "dc/df7/classXonoticCvarsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,166,83],
 "dc/df7/classXonoticCvarsDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,166,10],
+"dc/df8/dynlight_8qc.html":[2,0,1,6,1,4],
+"dc/df8/dynlight_8qc_source.html":[2,0,1,6,1,4],
 "dc/dff/anticheat_8qh.html":[2,0,6,9],
 "dc/dff/anticheat_8qh.html#a068a96ae9ccf8a1fd9cd99e95d5e1c7e":[2,0,6,9,1],
 "dc/dff/anticheat_8qh.html#a620f7cf1b6c95a9c13fb4ee6c0476309":[2,0,6,9,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX114 =
 "dd/d0f/classTeslaCoilTurretAttack.html#aa0a5f1de6ba7228907295012902a136a":[1,0,135,32],
 "dd/d0f/classTeslaCoilTurretAttack.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,135,14],
 "dd/d0f/classTeslaCoilTurretAttack.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,135,1],
-"dd/d0f/classTeslaCoilTurretAttack.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,135,24]
+"dd/d0f/classTeslaCoilTurretAttack.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,135,24],
+"dd/d0f/classTeslaCoilTurretAttack.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,135,15],
+"dd/d0f/classTeslaCoilTurretAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,135,13],
+"dd/d0f/classTeslaCoilTurretAttack.html#aade624faa82ff26da9e51f1be39be298":[1,0,135,26]
 };

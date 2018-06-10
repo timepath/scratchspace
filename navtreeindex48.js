@@ -1,7 +1,5 @@
 var NAVTREEINDEX48 =
 {
-"d5/d68/common_2weapons_2__mod_8inc_source.html":[2,0,1,16,3],
-"d5/d69/classFlac.html":[1,0,39],
 "d5/d69/classFlac.html#a073ba48993ebfb318001ed36eb5e2589":[1,0,39,17],
 "d5/d69/classFlac.html#a138adca099fbd117101fe56edb53d8aa":[1,0,39,5],
 "d5/d69/classFlac.html#a2612fb7926078848b2a2dc5b5ee4323f":[1,0,39,19],
@@ -249,5 +247,7 @@ var NAVTREEINDEX48 =
 "d5/d73/classXonoticEffectsSettingsTab.html#afc52860717e88454d9c1eb3479b510f3":[1,0,174,68],
 "d5/d73/classXonoticEffectsSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,174,43],
 "d5/d73/classXonoticEffectsSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,174,85],
-"d5/d73/classXonoticEffectsSettingsTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,174,13]
+"d5/d73/classXonoticEffectsSettingsTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,174,13],
+"d5/d73/classXonoticEffectsSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,174,7],
+"d5/d73/statslist_8qh.html":[2,0,5,4,221]
 };

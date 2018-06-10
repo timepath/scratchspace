@@ -1,7 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"d8/dc1/sv__monsters_8qh.html#a3ec1615b6dd141149c6e4882c2a88ef1":[2,0,1,9,7,36],
-"d8/dc1/sv__monsters_8qh.html#a40ba0db34c8d22d6517cb2574d504136":[2,0,1,9,7,49],
 "d8/dc1/sv__monsters_8qh.html#a40d9742c6201d2fdb578836ba12fa4dd":[2,0,1,9,7,63],
 "d8/dc1/sv__monsters_8qh.html#a42d30e7a608c26893d82843007381f98":[2,0,1,9,7,44],
 "d8/dc1/sv__monsters_8qh.html#a4a9e1ed1d40fd6a7405341d605ed13f2":[2,0,1,9,7,58],
@@ -249,5 +247,7 @@ var NAVTREEINDEX78 =
 "d8/de1/sv__offhand__blaster_8qc.html#aa5313df08ed8216838f30c117e6057d2":[2,0,1,10,0,22,2,3],
 "d8/de1/sv__offhand__blaster_8qc.html#ac82c26e97fbc4f80156e4387d355f5bd":[2,0,1,10,0,22,2,5],
 "d8/de1/sv__offhand__blaster_8qc.html#ad9054c654ddf10b401a3a5a1c335ab8a":[2,0,1,10,0,22,2,2],
-"d8/de1/sv__offhand__blaster_8qc.html#af41162268521de2ff0e517bfc82a5a1c":[2,0,1,10,0,22,2,0]
+"d8/de1/sv__offhand__blaster_8qc.html#af41162268521de2ff0e517bfc82a5a1c":[2,0,1,10,0,22,2,0],
+"d8/de1/sv__offhand__blaster_8qc_source.html":[2,0,1,10,0,22,2],
+"d8/de2/menudefs_8qc.html":[2,0,2,0,3]
 };

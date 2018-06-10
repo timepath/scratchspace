@@ -1,7 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"d2/d42/classXonoticUserbindEditDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,259,79],
-"d2/d42/classXonoticUserbindEditDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,259,18],
 "d2/d42/classXonoticUserbindEditDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,259,69],
 "d2/d42/classXonoticUserbindEditDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,259,27],
 "d2/d42/classXonoticUserbindEditDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,259,91],
@@ -54,6 +52,8 @@ var NAVTREEINDEX17 =
 "d2/d42/classXonoticUserbindEditDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,259,14],
 "d2/d44/sv__vampire_8qh.html":[2,0,1,10,0,36,3],
 "d2/d44/sv__vampire_8qh_source.html":[2,0,1,10,0,36,3],
+"d2/d46/dynlight_8qh.html":[2,0,1,6,1,5],
+"d2/d46/dynlight_8qh_source.html":[2,0,1,6,1,5],
 "d2/d47/common_2mutators_2mutator_2__mod_8qh.html":[2,0,1,10,0,42],
 "d2/d47/common_2mutators_2mutator_2__mod_8qh_source.html":[2,0,1,10,0,42],
 "d2/d4b/classPlayer.html":[1,0,105],

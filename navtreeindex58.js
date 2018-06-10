@@ -1,7 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"d6/dbf/dialog__settings__misc_8qh.html#a5786cd08c685fc121f4bb2b2a0941e75":[2,0,5,4,145,1],
-"d6/dbf/dialog__settings__misc_8qh_source.html":[2,0,5,4,145],
 "d6/dbf/maplist_8qh.html":[2,0,5,4,181],
 "d6/dbf/maplist_8qh.html#a1b4eddbd7e834677492229d25d24b8d0":[2,0,5,4,181,7],
 "d6/dbf/maplist_8qh.html#a855dbd3ffe4b0bb76e5161e0e7f33e0d":[2,0,5,4,181,8],
@@ -249,5 +247,7 @@ var NAVTREEINDEX58 =
 "d6/dd0/okmachinegun_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,10,0,23,7,1],
 "d6/dd0/okmachinegun_8qh.html#a69a1be6aac76bbffbc85d1a64d957384":[2,0,1,10,0,23,7,2],
 "d6/dd0/okmachinegun_8qh_source.html":[2,0,1,10,0,23,7],
-"d6/dd1/classXonoticHUDCenterprintDialog.html":[1,0,185]
+"d6/dd1/classXonoticHUDCenterprintDialog.html":[1,0,185],
+"d6/dd1/classXonoticHUDCenterprintDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,185,30],
+"d6/dd1/classXonoticHUDCenterprintDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,185,11]
 };

@@ -22,8 +22,6 @@ var server_2defs_8qh =
     [ "player_setupanimsformodel", "d5/d26/server_2defs_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1", null ],
     [ "PlayerUseKey", "d5/d26/server_2defs_8qh.html#a457d60bc0a50d32a90da5a3acb9e8db1", null ],
     [ "STATIC_INIT", "d5/d26/server_2defs_8qh.html#ac3dfc179547394bd55485e83ee947d50", null ],
-    [ "SUB_DontUseTargets", "d5/d26/server_2defs_8qh.html#a867a4a5f27063de0e88ac03b187dc928", null ],
-    [ "SUB_UseTargets", "d5/d26/server_2defs_8qh.html#a3905086b3426d8a7b89fe8eff17368c6", null ],
     [ "tracebox_hits_trigger_hurt", "d5/d26/server_2defs_8qh.html#a099ad087f6b1981b1c6333cf4a62334a", null ],
     [ "UpdateFrags", "d5/d26/server_2defs_8qh.html#a7e53366415188b2157d76a7250422580", null ],
     [ "void", "d5/d26/server_2defs_8qh.html#aed51894adcba9645d9239d004bc332e0", null ],

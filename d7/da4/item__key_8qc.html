@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('d7/da4/item__key_8qc.html','../../');}
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d5/d8f/item__key_8qh_source.html">item_key.qh</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../db/d2f/subs_8qh_source.html">../common/mapobjects/subs.qh</a>&quot;</code><br/>
+<code>#include &lt;<a class="el" href="../../d6/d25/triggers_8qh_source.html">common/mapobjects/triggers.qh</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="../../da/d2d/common_2monsters_2__mod_8qh_source.html">../common/monsters/_mod.qh</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../dc/d8f/notifications_2all_8qh_source.html">../common/notifications/all.qh</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../d5/df2/common_2util_8qh_source.html">../common/util.qh</a>&quot;</code><br/>
@@ -178,29 +179,29 @@ Functions</h2></td></tr>
 
 <p>Key touch handler. </p>
 
-<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00071">71</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00072">72</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f">centerprint()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00038">itemkeys</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00007">message</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00209">noise</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896">play2()</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00018">PS</a>, and <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00352">SUB_UseTargets()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00094">spawn_item_key()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(toucher))</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// player already picked up this key</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(toucher).<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> &amp; this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>)</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(toucher).itemkeys |= this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896">play2</a>(toucher, this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a>);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f">centerprint</a>(toucher, this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a>);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">string</span> oldmsg = this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a>(<span class="keyword">this</span>, toucher, toucher); <span class="comment">// TODO: should we be using toucher for the trigger here?</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = oldmsg;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;};</div>
+<p>Referenced by <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00095">spawn_item_key()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;{</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(toucher))</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// player already picked up this key</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(toucher).<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> &amp; this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>)</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(toucher).itemkeys |= this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896">play2</a>(toucher, this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f">centerprint</a>(toucher, this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a>);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">string</span> oldmsg = this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a>(<span class="keyword">this</span>, toucher, toucher); <span class="comment">// TODO: should we be using toucher for the trigger here?</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = oldmsg;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;};</div>
 <div class="ttc" id="menudefs_8qc_html_aa90038262dd0464a4c251487bc5efc9f"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f">centerprint</a></div><div class="ttdeci">void centerprint(string text,...)</div></div>
 <div class="ttc" id="progsdefs_8qc_html_a18041cde62044b96045c275f98c7d3a7"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a></div><div class="ttdeci">string noise</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00209">progsdefs.qc:209</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_ae1ed0d7a6f352c7ee3ad978429822c6f"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a></div><div class="ttdeci">string message</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00007">defs.qh:7</a></div></div>
@@ -246,35 +247,35 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00036">36</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00037">37</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
 
 <p>References <a class="el" href="../../d5/d52/bits_8qh_source.html#l00014">lowestbit()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00155">door_check_keys()</a>, and <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00022">trigger_keylock_touch()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                                        {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// no keys</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> (!keylist)</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// one key</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span> ((keylist &amp; (keylist-1)) == 0)</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;the &quot;</span>, item_keys_names[<a class="code" href="../../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445">lowestbit</a>(keylist)]);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">string</span> n = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">int</span> base = 0;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">while</span> (keylist) {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">int</span> l = <a class="code" href="../../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445">lowestbit</a>(keylist);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">if</span> (n)</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            n = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(n, <span class="stringliteral">&quot;, the &quot;</span>, item_keys_names[base + l]);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            n = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;the &quot;</span>, item_keys_names[base + l]);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        keylist = bitshift(keylist,  -(l + 1));</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        base+= l + 1;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">return</span> n;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                                        {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">// no keys</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">if</span> (!keylist)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// one key</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">if</span> ((keylist &amp; (keylist-1)) == 0)</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;the &quot;</span>, item_keys_names[<a class="code" href="../../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445">lowestbit</a>(keylist)]);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">string</span> n = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">int</span> base = 0;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">while</span> (keylist) {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordtype">int</span> l = <a class="code" href="../../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445">lowestbit</a>(keylist);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">if</span> (n)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            n = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(n, <span class="stringliteral">&quot;, the &quot;</span>, item_keys_names[base + l]);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            n = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;the &quot;</span>, item_keys_names[base + l]);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        keylist = bitshift(keylist,  -(l + 1));</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        base+= l + 1;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> n;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
 <div class="ttc" id="bits_8qh_html_a808f053d5430a7745f7ebe68554b1445"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445">lowestbit</a></div><div class="ttdeci">ERASEABLE int lowestbit(int f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00014">bits.qh:14</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 </div><!-- fragment -->
@@ -324,27 +325,27 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00018">18</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00019">19</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
 
 <p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00018">PS</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00022">trigger_keylock_touch()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">int</span> valid = l.itemkeys &amp; <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>).itemkeys;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span> (!valid) {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="comment">// player has none of the needed keys</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (l.itemkeys == valid) {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="comment">// ALL needed keys were given</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        l.itemkeys = 0;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="comment">// only some of the needed keys were given</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        l.itemkeys &amp;= ~valid;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">int</span> valid = l.itemkeys &amp; <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>).itemkeys;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">if</span> (!valid) {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="comment">// player has none of the needed keys</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (l.itemkeys == valid) {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="comment">// ALL needed keys were given</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        l.itemkeys = 0;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="comment">// only some of the needed keys were given</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        l.itemkeys &amp;= ~valid;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
 <div class="ttc" id="state_8qh_html_a6228dce6d2ac6b96b7ebe5d2b44be40c"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a></div><div class="ttdeci">#define PS(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00018">state.qh:18</a></div></div>
 <div class="ttc" id="effectinfo_8qc_html_af1209ce3d4344049c1084fab900909cf"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a></div><div class="ttdeci">#define p(f, type, default)</div></div>
 </div><!-- fragment -->
@@ -376,48 +377,48 @@ Functions</h2></td></tr>
 
 <p>Spawn a key with given model, key code and color. </p>
 
-<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00094">94</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00095">95</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
 
-<p>References <a class="el" href="../../d2/d77/pre_8qh_source.html#l00005">droptofloor</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l00274">EF_LOWPRECISION</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00111">effects</a>, <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00071">item_key_touch()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00068">mdl</a>, <a class="el" href="../../d3/dfc/csqcmodel__hooks_8qh_source.html#l00016">MF_ROTATE</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00108">model</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00019">modelflags</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00246">MOVETYPE_NONE</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00252">MOVETYPE_TOSS</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00158">noalign</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00209">noise</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00047">origin</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound()</a>, <a class="el" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00099">solid</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00127">SOLID_TRIGGER</a>, and <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00191">spawnflags</a>.</p>
+<p>References <a class="el" href="../../d2/d77/pre_8qh_source.html#l00005">droptofloor</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l00274">EF_LOWPRECISION</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00111">effects</a>, <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00072">item_key_touch()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00068">mdl</a>, <a class="el" href="../../d3/dfc/csqcmodel__hooks_8qh_source.html#l00016">MF_ROTATE</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00108">model</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00019">modelflags</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00246">MOVETYPE_NONE</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00252">MOVETYPE_TOSS</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00158">noalign</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00209">noise</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00047">origin</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound()</a>, <a class="el" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00099">solid</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00127">SOLID_TRIGGER</a>, and <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00191">spawnflags</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00155">spawnfunc()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    precache_model(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 1) <span class="comment">// FLOATING</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#aae0dd271c529c7dce9c8e58d068396bd">noalign</a> = 1;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#aae0dd271c529c7dce9c8e58d068396bd">noalign</a>)</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>);</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#ad57b224e8fae8cd012cd3a12cd4bb371">MOVETYPE_TOSS</a>);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a>);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a8b1ec103accfa735fef1463c0883ccde">mdl</a> = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> = <a class="code" href="../../de/d5e/dpextensions_8qc.html#a7ef46523bf1f305084e2ca69db4f24ee">EF_LOWPRECISION</a>;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    _setmodel(<span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="comment">//setsize(this, &#39;-16 -16 -24&#39;, &#39;16 16 32&#39;);</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a> + <span class="stringliteral">&#39;0 0 32&#39;</span>);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    setsize(<span class="keyword">this</span>, <span class="stringliteral">&#39;-16 -16 -56&#39;</span>, <span class="stringliteral">&#39;16 16 0&#39;</span>);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a2d651a2465a2b55127d67c245e3af6db">modelflags</a> |= <a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#a06409fcec54f12151c914edd07a80c37">MF_ROTATE</a>;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d">solid</a> = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a3973fdf525463133ef775c885b63b989">SOLID_TRIGGER</a>;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">if</span> (!this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#aae0dd271c529c7dce9c8e58d068396bd">noalign</a>)</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="comment">// first nudge it off the floor a little bit to avoid math errors</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a> + <span class="stringliteral">&#39;0 0 1&#39;</span>);</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="comment">// note droptofloor returns false if stuck/or would fall too far</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <a class="code" href="../../d2/d77/pre_8qh.html#a1b69a3a134506189b3d054e6c6f2896c">droptofloor</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    settouch(<span class="keyword">this</span>, <a class="code" href="../../d7/da4/item__key_8qc.html#ade59d3b32b090329971fe3438b1fbc57">item_key_touch</a>);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;};</div>
+<p>Referenced by <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00156">spawnfunc()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    precache_model(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 1) <span class="comment">// FLOATING</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#aae0dd271c529c7dce9c8e58d068396bd">noalign</a> = 1;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#aae0dd271c529c7dce9c8e58d068396bd">noalign</a>)</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#ad57b224e8fae8cd012cd3a12cd4bb371">MOVETYPE_TOSS</a>);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a>);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a8b1ec103accfa735fef1463c0883ccde">mdl</a> = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> = <a class="code" href="../../de/d5e/dpextensions_8qc.html#a7ef46523bf1f305084e2ca69db4f24ee">EF_LOWPRECISION</a>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    _setmodel(<span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="comment">//setsize(this, &#39;-16 -16 -24&#39;, &#39;16 16 32&#39;);</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a> + <span class="stringliteral">&#39;0 0 32&#39;</span>);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    setsize(<span class="keyword">this</span>, <span class="stringliteral">&#39;-16 -16 -56&#39;</span>, <span class="stringliteral">&#39;16 16 0&#39;</span>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a2d651a2465a2b55127d67c245e3af6db">modelflags</a> |= <a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#a06409fcec54f12151c914edd07a80c37">MF_ROTATE</a>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d">solid</a> = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a3973fdf525463133ef775c885b63b989">SOLID_TRIGGER</a>;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">if</span> (!this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#aae0dd271c529c7dce9c8e58d068396bd">noalign</a>)</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="comment">// first nudge it off the floor a little bit to avoid math errors</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a> + <span class="stringliteral">&#39;0 0 1&#39;</span>);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="comment">// note droptofloor returns false if stuck/or would fall too far</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <a class="code" href="../../d2/d77/pre_8qh.html#a1b69a3a134506189b3d054e6c6f2896c">droptofloor</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    }</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    settouch(<span class="keyword">this</span>, <a class="code" href="../../d7/da4/item__key_8qc.html#ade59d3b32b090329971fe3438b1fbc57">item_key_touch</a>);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;};</div>
 <div class="ttc" id="progsdefs_8qc_html_a87a61c6894ded1456e2e4fee955bf7b1"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a></div><div class="ttdeci">float MOVETYPE_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00246">progsdefs.qc:246</a></div></div>
 <div class="ttc" id="csqcmodel__hooks_8qh_html_a06409fcec54f12151c914edd07a80c37"><div class="ttname"><a href="../../d3/dfc/csqcmodel__hooks_8qh.html#a06409fcec54f12151c914edd07a80c37">MF_ROTATE</a></div><div class="ttdeci">const int MF_ROTATE</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfc/csqcmodel__hooks_8qh_source.html#l00016">csqcmodel_hooks.qh:16</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a18041cde62044b96045c275f98c7d3a7"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a></div><div class="ttdeci">string noise</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00209">progsdefs.qc:209</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_ad57b224e8fae8cd012cd3a12cd4bb371"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#ad57b224e8fae8cd012cd3a12cd4bb371">MOVETYPE_TOSS</a></div><div class="ttdeci">float MOVETYPE_TOSS</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00252">progsdefs.qc:252</a></div></div>
-<div class="ttc" id="item__key_8qc_html_ade59d3b32b090329971fe3438b1fbc57"><div class="ttname"><a href="../../d7/da4/item__key_8qc.html#ade59d3b32b090329971fe3438b1fbc57">item_key_touch</a></div><div class="ttdeci">void item_key_touch(entity this, entity toucher)</div><div class="ttdoc">Key touch handler. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da4/item__key_8qc_source.html#l00071">item_key.qc:71</a></div></div>
+<div class="ttc" id="item__key_8qc_html_ade59d3b32b090329971fe3438b1fbc57"><div class="ttname"><a href="../../d7/da4/item__key_8qc.html#ade59d3b32b090329971fe3438b1fbc57">item_key_touch</a></div><div class="ttdeci">void item_key_touch(entity this, entity toucher)</div><div class="ttdoc">Key touch handler. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da4/item__key_8qc_source.html#l00072">item_key.qc:72</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a3973fdf525463133ef775c885b63b989"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a3973fdf525463133ef775c885b63b989">SOLID_TRIGGER</a></div><div class="ttdeci">const int SOLID_TRIGGER</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00127">csqc_constants.qh:127</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_a06dbc3a3eb5aaab80edf32ea607f1ef3"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a></div><div class="ttdeci">origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00047">ent_cs.qc:47</a></div></div>
 <div class="ttc" id="pre_8qh_html_a1b69a3a134506189b3d054e6c6f2896c"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a1b69a3a134506189b3d054e6c6f2896c">droptofloor</a></div><div class="ttdeci">#define droptofloor</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00005">pre.qh:5</a></div></div>
@@ -469,104 +470,104 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00155">155</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00156">156</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00013">colormod</a>, <a class="el" href="../../d5/d8f/item__key_8qh_source.html#l00006">ITEM_KEY_BIT</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00038">itemkeys</a>, <a class="el" href="../../d5/d52/bits_8qh_source.html#l00014">lowestbit()</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00007">message</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00108">model</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00012">netname</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00209">noise</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror()</a>, <a class="el" href="../../df/dc2/sounds_2all_8qh_source.html#l00014">SND</a>, <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00094">spawn_item_key()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;{</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordtype">string</span> _netname;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> _colormod;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="comment">// reject this entity if more than one key was set!</span></div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>&gt;0 &amp;&amp; (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> &amp; (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>-1)) != 0) {</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;item_key.itemkeys must contain only 1 bit set specifying the key it represents!&quot;</span>);</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="comment">// find default netname and colormod</span></div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordflow">switch</span>(this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>) {</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(0):</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        _netname = <span class="stringliteral">&quot;GOLD key&quot;</span>;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        _colormod = <span class="stringliteral">&#39;1 .9 0&#39;</span>;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(1):</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        _netname = <span class="stringliteral">&quot;SILVER key&quot;</span>;</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        _colormod = <span class="stringliteral">&#39;.9 .9 .9&#39;</span>;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(2):</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        _netname = <span class="stringliteral">&quot;BRONZE key&quot;</span>;</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        _colormod = <span class="stringliteral">&#39;.6 .25 0&#39;</span>;</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(3):</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        _netname = <span class="stringliteral">&quot;RED keycard&quot;</span>;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        _colormod = <span class="stringliteral">&#39;.9 0 0&#39;</span>;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(4):</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        _netname = <span class="stringliteral">&quot;BLUE keycard&quot;</span>;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        _colormod = <span class="stringliteral">&#39;0 0 .9&#39;</span>;</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(5):</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        _netname = <span class="stringliteral">&quot;GREEN keycard&quot;</span>;</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        _colormod = <span class="stringliteral">&#39;0 .9 0&#39;</span>;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        _netname = <span class="stringliteral">&quot;FLUFFY PINK keycard&quot;</span>;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        _colormod = <span class="stringliteral">&#39;1 1 1&#39;</span>;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a> == <span class="stringliteral">&quot;&quot;</span>) {</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;item_key doesn&#39;t have a default name for this key and a custom one was not specified!&quot;</span>);</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        }</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    }</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="comment">// find default model</span></div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordtype">string</span> _model = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> &lt;= <a class="code" href="../../d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b">ITEM_KEY_BIT</a>(2)) {</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        _model = <span class="stringliteral">&quot;models/keys/key.md3&quot;</span>;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> &gt;= <a class="code" href="../../d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b">ITEM_KEY_BIT</a>(3) &amp;&amp; this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> &lt;= <a class="code" href="../../d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b">ITEM_KEY_BIT</a>(5)) {</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        _model = <span class="stringliteral">&quot;models/keys/key.md3&quot;</span>; <span class="comment">// FIXME: replace it by a keycard model!</span></div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> == <span class="stringliteral">&quot;&quot;</span>) {</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;item_key doesn&#39;t have a default model for this key and a custom one was not specified!&quot;</span>);</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    }</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="comment">// set defailt netname</span></div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a> = _netname;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="comment">// set default colormod</span></div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordflow">if</span> (!this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>)</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a> = _colormod;</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="comment">// set default model</span></div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> = _model;</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="comment">// set default pickup message</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;You&#39;ve picked up the &quot;</span>, this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>, <span class="stringliteral">&quot;!&quot;</span>));</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../df/dc2/sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a>(ITEMPICKUP));</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="comment">// save the name for later</span></div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    item_keys_names[<a class="code" href="../../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445">lowestbit</a>(this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>)] = this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>;</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="comment">// put the key on the map</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <a class="code" href="../../d7/da4/item__key_8qc.html#af3a13762fb065eb4a038e6a3e897007e">spawn_item_key</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;}</div>
+<p>References <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00013">colormod</a>, <a class="el" href="../../d5/d8f/item__key_8qh_source.html#l00006">ITEM_KEY_BIT</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00038">itemkeys</a>, <a class="el" href="../../d5/d52/bits_8qh_source.html#l00014">lowestbit()</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00007">message</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00108">model</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00012">netname</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00209">noise</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror()</a>, <a class="el" href="../../df/dc2/sounds_2all_8qh_source.html#l00014">SND</a>, <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00095">spawn_item_key()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;{</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordtype">string</span> _netname;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> _colormod;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="comment">// reject this entity if more than one key was set!</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>&gt;0 &amp;&amp; (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> &amp; (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>-1)) != 0) {</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;item_key.itemkeys must contain only 1 bit set specifying the key it represents!&quot;</span>);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    }</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="comment">// find default netname and colormod</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">switch</span>(this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(0):</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        _netname = <span class="stringliteral">&quot;GOLD key&quot;</span>;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        _colormod = <span class="stringliteral">&#39;1 .9 0&#39;</span>;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(1):</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        _netname = <span class="stringliteral">&quot;SILVER key&quot;</span>;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        _colormod = <span class="stringliteral">&#39;.9 .9 .9&#39;</span>;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(2):</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        _netname = <span class="stringliteral">&quot;BRONZE key&quot;</span>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        _colormod = <span class="stringliteral">&#39;.6 .25 0&#39;</span>;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(3):</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        _netname = <span class="stringliteral">&quot;RED keycard&quot;</span>;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        _colormod = <span class="stringliteral">&#39;.9 0 0&#39;</span>;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(4):</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        _netname = <span class="stringliteral">&quot;BLUE keycard&quot;</span>;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        _colormod = <span class="stringliteral">&#39;0 0 .9&#39;</span>;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(5):</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        _netname = <span class="stringliteral">&quot;GREEN keycard&quot;</span>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        _colormod = <span class="stringliteral">&#39;0 .9 0&#39;</span>;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        _netname = <span class="stringliteral">&quot;FLUFFY PINK keycard&quot;</span>;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        _colormod = <span class="stringliteral">&#39;1 1 1&#39;</span>;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a> == <span class="stringliteral">&quot;&quot;</span>) {</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;item_key doesn&#39;t have a default name for this key and a custom one was not specified!&quot;</span>);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        }</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    }</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="comment">// find default model</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordtype">string</span> _model = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> &lt;= <a class="code" href="../../d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b">ITEM_KEY_BIT</a>(2)) {</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        _model = <span class="stringliteral">&quot;models/keys/key.md3&quot;</span>;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> &gt;= <a class="code" href="../../d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b">ITEM_KEY_BIT</a>(3) &amp;&amp; this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> &lt;= <a class="code" href="../../d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b">ITEM_KEY_BIT</a>(5)) {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        _model = <span class="stringliteral">&quot;models/keys/key.md3&quot;</span>; <span class="comment">// FIXME: replace it by a keycard model!</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> == <span class="stringliteral">&quot;&quot;</span>) {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;item_key doesn&#39;t have a default model for this key and a custom one was not specified!&quot;</span>);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    }</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="comment">// set defailt netname</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a> = _netname;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="comment">// set default colormod</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordflow">if</span> (!this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>)</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a> = _colormod;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="comment">// set default model</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> = _model;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="comment">// set default pickup message</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;You&#39;ve picked up the &quot;</span>, this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>, <span class="stringliteral">&quot;!&quot;</span>));</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../df/dc2/sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a>(ITEMPICKUP));</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="comment">// save the name for later</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    item_keys_names[<a class="code" href="../../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445">lowestbit</a>(this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>)] = this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="comment">// put the key on the map</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <a class="code" href="../../d7/da4/item__key_8qc.html#af3a13762fb065eb4a038e6a3e897007e">spawn_item_key</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;}</div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
-<div class="ttc" id="item__key_8qc_html_af3a13762fb065eb4a038e6a3e897007e"><div class="ttname"><a href="../../d7/da4/item__key_8qc.html#af3a13762fb065eb4a038e6a3e897007e">spawn_item_key</a></div><div class="ttdeci">void spawn_item_key(entity this)</div><div class="ttdoc">Spawn a key with given model, key code and color. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da4/item__key_8qc_source.html#l00094">item_key.qc:94</a></div></div>
+<div class="ttc" id="item__key_8qc_html_af3a13762fb065eb4a038e6a3e897007e"><div class="ttname"><a href="../../d7/da4/item__key_8qc.html#af3a13762fb065eb4a038e6a3e897007e">spawn_item_key</a></div><div class="ttdeci">void spawn_item_key(entity this)</div><div class="ttdoc">Spawn a key with given model, key code and color. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da4/item__key_8qc_source.html#l00095">item_key.qc:95</a></div></div>
 <div class="ttc" id="sounds_2all_8qh_html_a95b575d77a4c36658bf10f40dd84893d"><div class="ttname"><a href="../../df/dc2/sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a></div><div class="ttdeci">#define SND(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/sounds_2all_8qh_source.html#l00014">all.qh:14</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a18041cde62044b96045c275f98c7d3a7"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a></div><div class="ttdeci">string noise</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00209">progsdefs.qc:209</a></div></div>
 <div class="ttc" id="powerups_8qc_html_ae8da69f90cbd357d76d977b2fd3fb2af"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a></div><div class="ttdeci">vector colormod</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00013">powerups.qc:13</a></div></div>
@@ -608,14 +609,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00262">262</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00263">263</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d5/d8f/item__key_8qh_source.html#l00006">ITEM_KEY_BIT</a>, and <a class="el" href="../../db/d2f/subs_8qh_source.html#l00038">itemkeys</a>.</p>
-<div class="fragment"><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;{</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;item_key&quot;</span>;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> = <a class="code" href="../../d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b">ITEM_KEY_BIT</a>(1);</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    spawnfunc_item_key(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;};</div>
+<div class="fragment"><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;{</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;item_key&quot;</span>;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> = <a class="code" href="../../d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b">ITEM_KEY_BIT</a>(1);</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    spawnfunc_item_key(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;};</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="subs_8qh_html_a6cd088ee55afdde918610024676b0d4d"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a></div><div class="ttdeci">float itemkeys</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00038">subs.qh:38</a></div></div>
 <div class="ttc" id="item__key_8qh_html_a2e758f44a774c1c39313ead683b7be1b"><div class="ttname"><a href="../../d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b">ITEM_KEY_BIT</a></div><div class="ttdeci">#define ITEM_KEY_BIT(n)</div><div class="ttdoc">Returns the bit ID of a key. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/item__key_8qh_source.html#l00006">item_key.qh:6</a></div></div>
@@ -636,14 +637,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00281">281</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00282">282</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d5/d8f/item__key_8qh_source.html#l00006">ITEM_KEY_BIT</a>, and <a class="el" href="../../db/d2f/subs_8qh_source.html#l00038">itemkeys</a>.</p>
-<div class="fragment"><div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;{</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;item_key&quot;</span>;</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> = <a class="code" href="../../d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b">ITEM_KEY_BIT</a>(0);</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    spawnfunc_item_key(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;};</div>
+<div class="fragment"><div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;{</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;item_key&quot;</span>;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> = <a class="code" href="../../d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b">ITEM_KEY_BIT</a>(0);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    spawnfunc_item_key(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;};</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="subs_8qh_html_a6cd088ee55afdde918610024676b0d4d"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a></div><div class="ttdeci">float itemkeys</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00038">subs.qh:38</a></div></div>
 <div class="ttc" id="item__key_8qh_html_a2e758f44a774c1c39313ead683b7be1b"><div class="ttname"><a href="../../d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b">ITEM_KEY_BIT</a></div><div class="ttdeci">#define ITEM_KEY_BIT(n)</div><div class="ttdoc">Returns the bit ID of a key. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/item__key_8qh_source.html#l00006">item_key.qh:6</a></div></div>
@@ -656,7 +657,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d7/da4/item__key_8qc.html">item_key.qc</a></li>
-    <li class="footer">Generated on Sat Jun 9 2018 16:37:44 for Xonotic by
+    <li class="footer">Generated on Sun Jun 10 2018 04:37:03 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

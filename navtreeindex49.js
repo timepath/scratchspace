@@ -1,7 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"d5/d73/classXonoticEffectsSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,174,7],
-"d5/d73/statslist_8qh.html":[2,0,5,4,221],
 "d5/d73/statslist_8qh.html#a541bd08a242818503c5005025e25bdcd":[2,0,5,4,221,1],
 "d5/d73/statslist_8qh.html#a805ce8fff65b47ff491afbce6f9fbf0c":[2,0,5,4,221,2],
 "d5/d73/statslist_8qh_source.html":[2,0,5,4,221],
@@ -50,10 +48,10 @@ var NAVTREEINDEX49 =
 "d5/d8e/container_8qh.html#ada3f4dbaf48fecfa1a3543c005170d19":[2,0,5,2,9,5],
 "d5/d8e/container_8qh.html#adfa1b30aeabb8629df67adbf17b32e69":[2,0,5,2,9,8],
 "d5/d8e/container_8qh_source.html":[2,0,5,2,9],
-"d5/d8f/item__key_8qh.html":[2,0,6,38],
-"d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b":[2,0,6,38,0],
-"d5/d8f/item__key_8qh.html#aaa1b14c30df8ce79e67b18ee42fbf912":[2,0,6,38,1],
-"d5/d8f/item__key_8qh_source.html":[2,0,6,38],
+"d5/d8f/item__key_8qh.html":[2,0,6,36],
+"d5/d8f/item__key_8qh.html#a2e758f44a774c1c39313ead683b7be1b":[2,0,6,36,0],
+"d5/d8f/item__key_8qh.html#aaa1b14c30df8ce79e67b18ee42fbf912":[2,0,6,36,1],
+"d5/d8f/item__key_8qh_source.html":[2,0,6,36],
 "d5/d92/dialog__firstrun_8qh.html":[2,0,5,4,43],
 "d5/d92/dialog__firstrun_8qh_source.html":[2,0,5,4,43],
 "d5/d95/classXonoticDialog.html":[1,0,173],
@@ -249,5 +247,7 @@ var NAVTREEINDEX49 =
 "d5/da4/playermodel_8qh.html#aa959fa692eff32b9efbcf85799bf916c":[2,0,5,4,189,3],
 "d5/da4/playermodel_8qh_source.html":[2,0,5,4,189],
 "d5/da5/racer__weapon_8qc.html":[2,0,1,15,0,8],
-"d5/da5/racer__weapon_8qc_source.html":[2,0,1,15,0,8]
+"d5/da5/racer__weapon_8qc_source.html":[2,0,1,15,0,8],
+"d5/da6/sv__dodging_8qc.html":[2,0,1,10,0,7,2],
+"d5/da6/sv__dodging_8qc.html#a1c76fd262a218a95cb8d47db9c3c11c2":[2,0,1,10,0,7,2,25]
 };

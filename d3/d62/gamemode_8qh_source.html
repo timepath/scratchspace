@@ -204,15 +204,16 @@ $(document).ready(function(){initNavTree('d3/d62/gamemode_8qh_source.html','../.
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dc/d8f/notifications_2all_8qh.html">common/notifications/all.qh</a>&gt;</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dd/d2d/teleporters_8qh.html">common/mapobjects/teleporters.qh</a>&gt;</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/d2f/subs_8qh.html">common/mapobjects/subs.qh</a>&gt;</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/d5c/common_2stats_8qh.html">common/stats.qh</a>&gt;</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/d07/teams_8qh.html">common/teams.qh</a>&gt;</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/dd4/server_8qh.html">lib/warpzone/server.qh</a>&gt;</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d9b/util__server_8qh.html">lib/warpzone/util_server.qh</a>&gt;</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
-<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="../../d3/d62/gamemode_8qh.html#ab803f80764072efe357d4f09fa570bd9">  106</a></span>&#160;.float <a class="code" href="../../d3/d62/gamemode_8qh.html#ab803f80764072efe357d4f09fa570bd9">lastground</a>;</div>
-<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="../../d3/d62/gamemode_8qh.html#af39c434e324c1dab87f08a2368e414ce">  107</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d3/d62/gamemode_8qh.html#af39c434e324c1dab87f08a2368e414ce">total_players</a>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="../../d3/d62/gamemode_8qh.html#ab299853acad4e8210662b02ab2aef52b">  108</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d3/d62/gamemode_8qh.html#a990a920632336f4aed89f1745434a203">redalive</a>, <a class="code" href="../../d3/d62/gamemode_8qh.html#a4b82f3594ebb19e01348f179d0c7bd04">bluealive</a>, <a class="code" href="../../d3/d62/gamemode_8qh.html#ab299853acad4e8210662b02ab2aef52b">yellowalive</a>, <a class="code" href="../../d3/d62/gamemode_8qh.html#a94f7dfb485a988da25947983ebe8cd59">pinkalive</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/d25/triggers_8qh.html">common/mapobjects/triggers.qh</a>&gt;</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/d5c/common_2stats_8qh.html">common/stats.qh</a>&gt;</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/d07/teams_8qh.html">common/teams.qh</a>&gt;</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/dd4/server_8qh.html">lib/warpzone/server.qh</a>&gt;</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d9b/util__server_8qh.html">lib/warpzone/util_server.qh</a>&gt;</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="../../d3/d62/gamemode_8qh.html#ab803f80764072efe357d4f09fa570bd9">  107</a></span>&#160;.float <a class="code" href="../../d3/d62/gamemode_8qh.html#ab803f80764072efe357d4f09fa570bd9">lastground</a>;</div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="../../d3/d62/gamemode_8qh.html#af39c434e324c1dab87f08a2368e414ce">  108</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d3/d62/gamemode_8qh.html#af39c434e324c1dab87f08a2368e414ce">total_players</a>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="../../d3/d62/gamemode_8qh.html#ab299853acad4e8210662b02ab2aef52b">  109</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d3/d62/gamemode_8qh.html#a990a920632336f4aed89f1745434a203">redalive</a>, <a class="code" href="../../d3/d62/gamemode_8qh.html#a4b82f3594ebb19e01348f179d0c7bd04">bluealive</a>, <a class="code" href="../../d3/d62/gamemode_8qh.html#ab299853acad4e8210662b02ab2aef52b">yellowalive</a>, <a class="code" href="../../d3/d62/gamemode_8qh.html#a94f7dfb485a988da25947983ebe8cd59">pinkalive</a>;</div>
 <div class="ttc" id="throwing_8qh_html"><div class="ttname"><a href="../../de/d58/throwing_8qh.html">throwing.qh</a></div></div>
 <div class="ttc" id="cheats_8qh_html"><div class="ttname"><a href="../../d3/dca/cheats_8qh.html">cheats.qh</a></div></div>
 <div class="ttc" id="playerstats_8qh_html"><div class="ttname"><a href="../../db/daf/playerstats_8qh.html">playerstats.qh</a></div></div>
@@ -255,13 +256,13 @@ $(document).ready(function(){initNavTree('d3/d62/gamemode_8qh_source.html','../.
 <div class="ttc" id="cmd_8qh_html"><div class="ttname"><a href="../../d8/d4c/cmd_8qh.html">cmd.qh</a></div></div>
 <div class="ttc" id="pathlib_8qh_html"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html">pathlib.qh</a></div></div>
 <div class="ttc" id="server_2player_8qh_html"><div class="ttname"><a href="../../da/dc1/server_2player_8qh.html">player.qh</a></div></div>
-<div class="ttc" id="gamemode_8qh_html_ab803f80764072efe357d4f09fa570bd9"><div class="ttname"><a href="../../d3/d62/gamemode_8qh.html#ab803f80764072efe357d4f09fa570bd9">lastground</a></div><div class="ttdeci">float lastground</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/gamemode_8qh_source.html#l00106">gamemode.qh:106</a></div></div>
+<div class="ttc" id="gamemode_8qh_html_ab803f80764072efe357d4f09fa570bd9"><div class="ttname"><a href="../../d3/d62/gamemode_8qh.html#ab803f80764072efe357d4f09fa570bd9">lastground</a></div><div class="ttdeci">float lastground</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/gamemode_8qh_source.html#l00107">gamemode.qh:107</a></div></div>
 <div class="ttc" id="common_2util_8qh_html"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html">util.qh</a></div></div>
 <div class="ttc" id="sv__monsters_8qh_html"><div class="ttname"><a href="../../d8/dc1/sv__monsters_8qh.html">sv_monsters.qh</a></div></div>
-<div class="ttc" id="gamemode_8qh_html_a94f7dfb485a988da25947983ebe8cd59"><div class="ttname"><a href="../../d3/d62/gamemode_8qh.html#a94f7dfb485a988da25947983ebe8cd59">pinkalive</a></div><div class="ttdeci">float pinkalive</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/gamemode_8qh_source.html#l00108">gamemode.qh:108</a></div></div>
+<div class="ttc" id="gamemode_8qh_html_a94f7dfb485a988da25947983ebe8cd59"><div class="ttname"><a href="../../d3/d62/gamemode_8qh.html#a94f7dfb485a988da25947983ebe8cd59">pinkalive</a></div><div class="ttdeci">float pinkalive</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/gamemode_8qh_source.html#l00109">gamemode.qh:109</a></div></div>
 <div class="ttc" id="weapons_2config_8qh_html"><div class="ttname"><a href="../../d2/d3b/weapons_2config_8qh.html">config.qh</a></div></div>
 <div class="ttc" id="weaponstats_8qh_html"><div class="ttname"><a href="../../d9/df0/weaponstats_8qh.html">weaponstats.qh</a></div></div>
-<div class="ttc" id="gamemode_8qh_html_af39c434e324c1dab87f08a2368e414ce"><div class="ttname"><a href="../../d3/d62/gamemode_8qh.html#af39c434e324c1dab87f08a2368e414ce">total_players</a></div><div class="ttdeci">float total_players</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/gamemode_8qh_source.html#l00107">gamemode.qh:107</a></div></div>
+<div class="ttc" id="gamemode_8qh_html_af39c434e324c1dab87f08a2368e414ce"><div class="ttname"><a href="../../d3/d62/gamemode_8qh.html#af39c434e324c1dab87f08a2368e414ce">total_players</a></div><div class="ttdeci">float total_players</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/gamemode_8qh_source.html#l00108">gamemode.qh:108</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html">mapinfo.qh</a></div></div>
 <div class="ttc" id="common_2scores_8qh_html"><div class="ttname"><a href="../../da/dc3/common_2scores_8qh.html">scores.qh</a></div></div>
 <div class="ttc" id="mutator_8qh_html"><div class="ttname"><a href="../../d0/d9c/mutator_8qh.html">mutator.qh</a></div></div>
@@ -276,14 +277,15 @@ $(document).ready(function(){initNavTree('d3/d62/gamemode_8qh_source.html','../.
 <div class="ttc" id="spawnpoints_8qh_html"><div class="ttname"><a href="../../d4/dd1/spawnpoints_8qh.html">spawnpoints.qh</a></div></div>
 <div class="ttc" id="notifications_2all_8qh_html"><div class="ttname"><a href="../../dc/d8f/notifications_2all_8qh.html">all.qh</a></div></div>
 <div class="ttc" id="teamplay_8qh_html"><div class="ttname"><a href="../../d2/d76/teamplay_8qh.html">teamplay.qh</a></div></div>
-<div class="ttc" id="gamemode_8qh_html_a990a920632336f4aed89f1745434a203"><div class="ttname"><a href="../../d3/d62/gamemode_8qh.html#a990a920632336f4aed89f1745434a203">redalive</a></div><div class="ttdeci">float redalive</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/gamemode_8qh_source.html#l00108">gamemode.qh:108</a></div></div>
+<div class="ttc" id="gamemode_8qh_html_a990a920632336f4aed89f1745434a203"><div class="ttname"><a href="../../d3/d62/gamemode_8qh.html#a990a920632336f4aed89f1745434a203">redalive</a></div><div class="ttdeci">float redalive</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/gamemode_8qh_source.html#l00109">gamemode.qh:109</a></div></div>
 <div class="ttc" id="deathtypes_2all_8qh_html"><div class="ttname"><a href="../../d9/d4f/deathtypes_2all_8qh.html">all.qh</a></div></div>
 <div class="ttc" id="server_2command_2vote_8qh_html"><div class="ttname"><a href="../../d7/d16/server_2command_2vote_8qh.html">vote.qh</a></div></div>
-<div class="ttc" id="gamemode_8qh_html_a4b82f3594ebb19e01348f179d0c7bd04"><div class="ttname"><a href="../../d3/d62/gamemode_8qh.html#a4b82f3594ebb19e01348f179d0c7bd04">bluealive</a></div><div class="ttdeci">float bluealive</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/gamemode_8qh_source.html#l00108">gamemode.qh:108</a></div></div>
+<div class="ttc" id="gamemode_8qh_html_a4b82f3594ebb19e01348f179d0c7bd04"><div class="ttname"><a href="../../d3/d62/gamemode_8qh.html#a4b82f3594ebb19e01348f179d0c7bd04">bluealive</a></div><div class="ttdeci">float bluealive</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/gamemode_8qh_source.html#l00109">gamemode.qh:109</a></div></div>
 <div class="ttc" id="teams_8qh_html"><div class="ttname"><a href="../../db/d07/teams_8qh.html">teams.qh</a></div></div>
 <div class="ttc" id="common_2physics_2player_8qh_html"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html">player.qh</a></div></div>
 <div class="ttc" id="net__notice_8qh_html"><div class="ttname"><a href="../../dd/da3/net__notice_8qh.html">net_notice.qh</a></div></div>
 <div class="ttc" id="accuracy_8qh_html"><div class="ttname"><a href="../../d3/d2d/accuracy_8qh.html">accuracy.qh</a></div></div>
+<div class="ttc" id="triggers_8qh_html"><div class="ttname"><a href="../../d6/d25/triggers_8qh.html">triggers.qh</a></div></div>
 <div class="ttc" id="teleporters_8qh_html"><div class="ttname"><a href="../../dd/d2d/teleporters_8qh.html">teleporters.qh</a></div></div>
 <div class="ttc" id="t__items_8qh_html"><div class="ttname"><a href="../../de/d75/t__items_8qh.html">t_items.qh</a></div></div>
 <div class="ttc" id="selection_8qh_html"><div class="ttname"><a href="../../d8/d6b/selection_8qh.html">selection.qh</a></div></div>
@@ -297,14 +299,14 @@ $(document).ready(function(){initNavTree('d3/d62/gamemode_8qh_source.html','../.
 <div class="ttc" id="animdecide_8qh_html"><div class="ttname"><a href="../../d3/d42/animdecide_8qh.html">animdecide.qh</a></div></div>
 <div class="ttc" id="vehicles_2all_8qh_html"><div class="ttname"><a href="../../db/d83/vehicles_2all_8qh.html">all.qh</a></div></div>
 <div class="ttc" id="server_8qh_html"><div class="ttname"><a href="../../d7/dd4/server_8qh.html">server.qh</a></div></div>
-<div class="ttc" id="gamemode_8qh_html_ab299853acad4e8210662b02ab2aef52b"><div class="ttname"><a href="../../d3/d62/gamemode_8qh.html#ab299853acad4e8210662b02ab2aef52b">yellowalive</a></div><div class="ttdeci">float yellowalive</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/gamemode_8qh_source.html#l00108">gamemode.qh:108</a></div></div>
+<div class="ttc" id="gamemode_8qh_html_ab299853acad4e8210662b02ab2aef52b"><div class="ttname"><a href="../../d3/d62/gamemode_8qh.html#ab299853acad4e8210662b02ab2aef52b">yellowalive</a></div><div class="ttdeci">float yellowalive</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/gamemode_8qh_source.html#l00109">gamemode.qh:109</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d3/d62/gamemode_8qh.html">gamemode.qh</a></li>
-    <li class="footer">Generated on Sat Jun 9 2018 16:37:31 for Xonotic by
+    <li class="footer">Generated on Sun Jun 10 2018 04:36:51 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

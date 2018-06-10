@@ -21,8 +21,8 @@ var searchData=
   ['devastator_2eqh',['devastator.qh',['../d9/dfa/devastator_8qh.html',1,'']]],
   ['dialog_2eqc',['dialog.qc',['../d7/d4b/item_2dialog_8qc.html',1,'']]],
   ['dialog_2eqc',['dialog.qc',['../d9/d55/xonotic_2dialog_8qc.html',1,'']]],
-  ['dialog_2eqh',['dialog.qh',['../d5/d05/xonotic_2dialog_8qh.html',1,'']]],
   ['dialog_2eqh',['dialog.qh',['../d6/d88/item_2dialog_8qh.html',1,'']]],
+  ['dialog_2eqh',['dialog.qh',['../d5/d05/xonotic_2dialog_8qh.html',1,'']]],
   ['dialog_5fcredits_2eqc',['dialog_credits.qc',['../d3/d71/dialog__credits_8qc.html',1,'']]],
   ['dialog_5fcredits_2eqh',['dialog_credits.qh',['../dd/d95/dialog__credits_8qh.html',1,'']]],
   ['dialog_5ffirstrun_2eqc',['dialog_firstrun.qc',['../d3/dbd/dialog__firstrun_8qc.html',1,'']]],
@@ -161,5 +161,7 @@ var searchData=
   ['dpextensions_2eqh',['dpextensions.qh',['../d3/d9e/dpextensions_8qh.html',1,'']]],
   ['draw_2eqc',['draw.qc',['../d6/db1/draw_8qc.html',1,'']]],
   ['draw_2eqh',['draw.qh',['../d9/d62/menu_2draw_8qh.html',1,'']]],
-  ['draw_2eqh',['draw.qh',['../d1/dd2/lib_2draw_8qh.html',1,'']]]
+  ['draw_2eqh',['draw.qh',['../d1/dd2/lib_2draw_8qh.html',1,'']]],
+  ['dynlight_2eqc',['dynlight.qc',['../dc/df8/dynlight_8qc.html',1,'']]],
+  ['dynlight_2eqh',['dynlight.qh',['../d2/d46/dynlight_8qh.html',1,'']]]
 ];

@@ -1,7 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"d7/de6/classXonoticSkinList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,248,22],
-"d7/de6/classXonoticSkinList.html#afcf2fcc518cc5cca6e472f72bec87733":[1,0,248,75],
 "d7/de6/classXonoticSkinList.html#afdcf1fb79903f747cda494b27206526b":[1,0,248,1],
 "d7/de6/classXonoticWeaponarenaCheckBox.html":[1,0,262],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#a01ea34df21e396c890a3dcf6326cb5b3":[1,0,262,61],
@@ -249,5 +247,7 @@ var NAVTREEINDEX72 =
 "d8/d0e/client_2mutators_2events_8qh.html#aea3a2f390fc291608806c3dfe18f489a":[2,0,0,2,3,27],
 "d8/d0e/client_2mutators_2events_8qh.html#af6fe2b39621abade1069ae32c014b9e5":[2,0,0,2,3,43],
 "d8/d0e/client_2mutators_2events_8qh.html#afef9967024f4798cac5e735d0caae72e":[2,0,0,2,3,51],
-"d8/d0e/client_2mutators_2events_8qh_source.html":[2,0,0,2,3]
+"d8/d0e/client_2mutators_2events_8qh_source.html":[2,0,0,2,3],
+"d8/d0e/lazy_8qh.html":[2,0,4,28],
+"d8/d0e/lazy_8qh.html#a1d51651b802a95d07a7a0406f8922476":[2,0,4,28,1]
 };

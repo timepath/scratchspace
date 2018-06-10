@@ -1,17 +1,15 @@
 var NAVTREEINDEX55 =
 {
-"d6/d4c/colorpicker_8qc.html#aa7d5123ce7481594141faf014b3a30cf":[2,0,5,4,20,6],
-"d6/d4c/colorpicker_8qc.html#acb8936a6f5742488486a7d6e09c0f132":[2,0,5,4,20,8],
 "d6/d4c/colorpicker_8qc.html#ad991d24e2da3f4a463e3b4236b8e3b92":[2,0,5,4,20,0],
 "d6/d4c/colorpicker_8qc.html#af5da62045b5266962f209f057f2905ba":[2,0,5,4,20,5],
 "d6/d4c/colorpicker_8qc_source.html":[2,0,5,4,20],
-"d6/d4e/scores__rules_8qh.html":[2,0,6,63],
-"d6/d4e/scores__rules_8qh.html#a70c01ecc880399b0cc5fa84520d93a05":[2,0,6,63,3],
-"d6/d4e/scores__rules_8qh.html#a9b29c13c36dd33cc7f639cb97e8e6470":[2,0,6,63,4],
-"d6/d4e/scores__rules_8qh.html#ac67defd12e305443ab1cf4266ca03c8f":[2,0,6,63,2],
-"d6/d4e/scores__rules_8qh.html#ae01e878023ee1a5ecc45cc3d62c3895f":[2,0,6,63,1],
-"d6/d4e/scores__rules_8qh.html#ae9adf848be0a903b09499cbc48313cec":[2,0,6,63,0],
-"d6/d4e/scores__rules_8qh_source.html":[2,0,6,63],
+"d6/d4e/scores__rules_8qh.html":[2,0,6,61],
+"d6/d4e/scores__rules_8qh.html#a70c01ecc880399b0cc5fa84520d93a05":[2,0,6,61,3],
+"d6/d4e/scores__rules_8qh.html#a9b29c13c36dd33cc7f639cb97e8e6470":[2,0,6,61,4],
+"d6/d4e/scores__rules_8qh.html#ac67defd12e305443ab1cf4266ca03c8f":[2,0,6,61,2],
+"d6/d4e/scores__rules_8qh.html#ae01e878023ee1a5ecc45cc3d62c3895f":[2,0,6,61,1],
+"d6/d4e/scores__rules_8qh.html#ae9adf848be0a903b09499cbc48313cec":[2,0,6,61,0],
+"d6/d4e/scores__rules_8qh_source.html":[2,0,6,61],
 "d6/d50/common_2minigames_2minigame_2__mod_8inc.html":[2,0,1,7,0,0],
 "d6/d50/common_2minigames_2minigame_2__mod_8inc_source.html":[2,0,1,7,0,0],
 "d6/d55/dialog__uid2name_8qc.html":[2,0,5,4,162],
@@ -249,5 +247,7 @@ var NAVTREEINDEX55 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,176,66],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a88bcdc5e91f56bb9a674ff80abb541f8":[1,0,176,86],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a8c69bff6caa5a174cca653ecc5adc27d":[1,0,176,68],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a8d28118be67c0fe0dc1cc5fabbd44615":[1,0,176,82]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a8d28118be67c0fe0dc1cc5fabbd44615":[1,0,176,82],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,176,72],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a9722cca71d111932abd29de2cecb4167":[1,0,176,59]
 };
