@@ -1,5 +1,11 @@
 var NAVTREEINDEX87 =
 {
+"da/d16/dialog__settings__user__languagewarning_8qc_source.html":[2,0,5,4,152],
+"da/d1b/plasma__dual_8qh.html":[2,0,1,14,0,35],
+"da/d1b/plasma__dual_8qh.html#a2ba344e280582584d2f49cb3c532c4a4":[2,0,1,14,0,35,2],
+"da/d1b/plasma__dual_8qh.html#a7cac5a96a715a67bed63c6914dc911c0":[2,0,1,14,0,35,3],
+"da/d1b/plasma__dual_8qh_source.html":[2,0,1,14,0,35],
+"da/d1d/classMLRSTurretAttack.html":[1,0,79],
 "da/d1d/classMLRSTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,79,36],
 "da/d1d/classMLRSTurretAttack.html#a116d6ce0c61ad0fc8a56c596c39a06a1":[1,0,79,31],
 "da/d1d/classMLRSTurretAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,79,20],
@@ -243,11 +249,5 @@ var NAVTREEINDEX87 =
 "da/d40/common_2mutators_2mutator_2weaponarena__random_2__mod_8qh.html":[2,0,1,10,0,40,1],
 "da/d40/common_2mutators_2mutator_2weaponarena__random_2__mod_8qh_source.html":[2,0,1,10,0,40,1],
 "da/d41/dialog__singleplayer_8qc.html":[2,0,5,4,156],
-"da/d41/dialog__singleplayer_8qc.html#a688fce87e81db4573d97935bb9e2cd8c":[2,0,5,4,156,0],
-"da/d41/dialog__singleplayer_8qc.html#a845e97e974f104e8b4edcb06a3e8aa73":[2,0,5,4,156,1],
-"da/d41/dialog__singleplayer_8qc_source.html":[2,0,5,4,156],
-"da/d44/common_2util_8qc.html":[2,0,1,49],
-"da/d44/common_2util_8qc.html#a0213b116f3e8b8deecdae1cfbf0c3482":[2,0,1,49,24],
-"da/d44/common_2util_8qc.html#a0c6829767aa2400e49284b242c194d95":[2,0,1,49,17],
-"da/d44/common_2util_8qc.html#a1371630f3443945a1ff175145d2012f3":[2,0,1,49,10]
+"da/d41/dialog__singleplayer_8qc.html#a688fce87e81db4573d97935bb9e2cd8c":[2,0,5,4,156,0]
 };

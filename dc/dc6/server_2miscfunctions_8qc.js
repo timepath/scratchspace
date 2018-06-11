@@ -6,6 +6,7 @@ var server_2miscfunctions_8qc =
     [ "attach_sameorigin", "dc/dc6/server_2miscfunctions_8qc.html#ac300f1843627f4956ab0088d6bff8b7e", null ],
     [ "crosshair_trace", "dc/dc6/server_2miscfunctions_8qc.html#a8292725ec840a49d42ef6453aaf838f6", null ],
     [ "crosshair_trace_plusvisibletriggers", "dc/dc6/server_2miscfunctions_8qc.html#a9890a696168a390303c18532e659a7b9", null ],
+    [ "dedicated_print", "dc/dc6/server_2miscfunctions_8qc.html#a0390f6703ace29f61655694b8821d84a", null ],
     [ "detach_sameorigin", "dc/dc6/server_2miscfunctions_8qc.html#ad5f11a27c578036c6dab37bd91bcb744", null ],
     [ "droptofloor", "dc/dc6/server_2miscfunctions_8qc.html#a05b8906b19daf9c40e70c7374813e23d", null ],
     [ "DropToFloor_Handler", "dc/dc6/server_2miscfunctions_8qc.html#a04608bc242fb7b07fa01cc69ee1412aa", null ],

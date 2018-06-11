@@ -1,13 +1,5 @@
 var NAVTREEINDEX103 =
 {
-"db/ddb/classXonoticCvarList.html#a85505fa55d068c43d98d17eed6b3fe12":[1,0,165,56],
-"db/ddb/classXonoticCvarList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,165,51],
-"db/ddb/classXonoticCvarList.html#a86a11cd3d337aaa2a5355e5e04c469cd":[1,0,165,55],
-"db/ddb/classXonoticCvarList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,165,25],
-"db/ddb/classXonoticCvarList.html#a8c539467e3831f5420d97206cf918cf8":[1,0,165,30],
-"db/ddb/classXonoticCvarList.html#a905b47b262dc68eda970bc0afd24f243":[1,0,165,83],
-"db/ddb/classXonoticCvarList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,165,53],
-"db/ddb/classXonoticCvarList.html#a955acbbda432fb19399292cbac96e0af":[1,0,165,66],
 "db/ddb/classXonoticCvarList.html#a9f5da5f21762c051a93ea11dc9330689":[1,0,165,20],
 "db/ddb/classXonoticCvarList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,165,65],
 "db/ddb/classXonoticCvarList.html#aa0be1afcee01b4904e9b7ccc15674b53":[1,0,165,12],
@@ -249,5 +241,13 @@ var NAVTREEINDEX103 =
 "db/dfa/classPlasmaAttack.html#a6e0a37eaab3d64cff4542800f42b1c4c":[1,0,102,29],
 "db/dfa/classPlasmaAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,102,9],
 "db/dfa/classPlasmaAttack.html#a7515d4131829927372fd6583d4ae610a":[1,0,102,0],
-"db/dfa/classPlasmaAttack.html#a7743c52f3dec3ee134a204bdedb78e21":[1,0,102,34]
+"db/dfa/classPlasmaAttack.html#a7743c52f3dec3ee134a204bdedb78e21":[1,0,102,34],
+"db/dfa/classPlasmaAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,102,37],
+"db/dfa/classPlasmaAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,102,30],
+"db/dfa/classPlasmaAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,102,5],
+"db/dfa/classPlasmaAttack.html#a853b558fa5b7811a959533e7eb513d0b":[1,0,102,31],
+"db/dfa/classPlasmaAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,102,7],
+"db/dfa/classPlasmaAttack.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,102,25],
+"db/dfa/classPlasmaAttack.html#aa0a5f1de6ba7228907295012902a136a":[1,0,102,32],
+"db/dfa/classPlasmaAttack.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,102,14]
 };

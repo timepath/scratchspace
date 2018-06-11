@@ -1,5 +1,11 @@
 var NAVTREEINDEX85 =
 {
+"d9/dc5/soundlist_8qc_source.html":[2,0,5,4,218],
+"d9/dc7/turrets_2turret_2machinegun_8qh.html":[2,0,1,14,0,21],
+"d9/dc7/turrets_2turret_2machinegun_8qh.html#aecbe2e46be1185432a33bbc16b9e3026":[2,0,1,14,0,21,1],
+"d9/dc7/turrets_2turret_2machinegun_8qh_source.html":[2,0,1,14,0,21],
+"d9/dc8/ecs_2events_2__mod_8qh.html":[2,0,3,1,1],
+"d9/dc8/ecs_2events_2__mod_8qh_source.html":[2,0,3,1,1],
 "d9/dca/classXonoticCommandButton.html":[1,0,160],
 "d9/dca/classXonoticCommandButton.html#a09558581cc0090d8cdcfd1ec9411f74c":[1,0,160,47],
 "d9/dca/classXonoticCommandButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,160,71],
@@ -243,11 +249,5 @@ var NAVTREEINDEX85 =
 "d9/deb/classXonoticHUDTimerDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,203,12],
 "d9/deb/classXonoticHUDTimerDialog.html#a43eac0d1e22668e15dac104b83dc17dd":[1,0,203,22],
 "d9/deb/classXonoticHUDTimerDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,203,73],
-"d9/deb/classXonoticHUDTimerDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,203,21],
-"d9/deb/classXonoticHUDTimerDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,203,48],
-"d9/deb/classXonoticHUDTimerDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,203,26],
-"d9/deb/classXonoticHUDTimerDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,203,55],
-"d9/deb/classXonoticHUDTimerDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,203,32],
-"d9/deb/classXonoticHUDTimerDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,203,40],
-"d9/deb/classXonoticHUDTimerDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,203,62]
+"d9/deb/classXonoticHUDTimerDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,203,21]
 };

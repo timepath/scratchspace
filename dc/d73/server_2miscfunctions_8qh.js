@@ -12,6 +12,7 @@ var server_2miscfunctions_8qh =
     [ "crosshair_trace_plusvisibletriggers", "dc/d73/server_2miscfunctions_8qh.html#a9890a696168a390303c18532e659a7b9", null ],
     [ "cvar_normal", "dc/d73/server_2miscfunctions_8qh.html#a1a1c887b029cca0568b046152aea10ff", null ],
     [ "cvar_string_normal", "dc/d73/server_2miscfunctions_8qh.html#aa3719dc578ac9c6f94b0faebb041c5d9", null ],
+    [ "dedicated_print", "dc/d73/server_2miscfunctions_8qh.html#a0390f6703ace29f61655694b8821d84a", null ],
     [ "detach_sameorigin", "dc/d73/server_2miscfunctions_8qh.html#ad5f11a27c578036c6dab37bd91bcb744", null ],
     [ "droptofloor", "dc/d73/server_2miscfunctions_8qh.html#a05b8906b19daf9c40e70c7374813e23d", null ],
     [ "EliminatedPlayers_Init", "dc/d73/server_2miscfunctions_8qh.html#aa721e0361c092a5999388d9ce9c707ce", null ],
