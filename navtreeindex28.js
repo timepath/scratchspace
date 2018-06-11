@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"d3/d92/roles_8qh.html":[2,0,6,0,0,0,5],
+"d3/d92/roles_8qh_source.html":[2,0,6,0,0,0,5],
 "d3/d93/item_2textslider_8qh.html":[2,0,5,2,33],
 "d3/d93/item_2textslider_8qh_source.html":[2,0,5,2,33],
 "d3/d93/spawning_8qh.html":[2,0,6,5,13],
@@ -68,6 +70,8 @@ var NAVTREEINDEX28 =
 "d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh_source.html":[2,0,1,10,0,24,1],
 "d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh.html":[2,0,1,10,0,25,1],
 "d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh_source.html":[2,0,1,10,0,25,1],
+"d3/da6/client_2mutators_2events_8qc.html":[2,0,0,2,2],
+"d3/da6/client_2mutators_2events_8qc_source.html":[2,0,0,2,2],
 "d3/da9/classMineLayer.html":[1,0,77],
 "d3/da9/classMineLayer.html#a0495da57f2ea15799bb58ca5ce313c9a":[1,0,77,32],
 "d3/da9/classMineLayer.html#a0bd25e8922366620f95386d9be824e77":[1,0,77,39],
@@ -245,9 +249,5 @@ var NAVTREEINDEX28 =
 "d3/dba/classXonoticLanguageList.html#a359a4dd3fa3a6f4eac07267c7476a349":[1,0,210,33],
 "d3/dba/classXonoticLanguageList.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,210,0],
 "d3/dba/classXonoticLanguageList.html#a39faad4c275af7a96e30379428646997":[1,0,210,9],
-"d3/dba/classXonoticLanguageList.html#a405b285a76ac127664593c89281a5b63":[1,0,210,54],
-"d3/dba/classXonoticLanguageList.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,210,17],
-"d3/dba/classXonoticLanguageList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,210,81],
-"d3/dba/classXonoticLanguageList.html#a4bed1a4701fb6f7680f98b79fbd967c2":[1,0,210,37],
-"d3/dba/classXonoticLanguageList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,210,62]
+"d3/dba/classXonoticLanguageList.html#a405b285a76ac127664593c89281a5b63":[1,0,210,54]
 };

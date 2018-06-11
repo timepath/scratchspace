@@ -1,5 +1,9 @@
 var NAVTREEINDEX98 =
 {
+"db/d63/classXonoticColorpicker.html#a731ef2d8cdb302ddcd41f3ed9e6a2be0":[1,0,158,23],
+"db/d63/classXonoticColorpicker.html#a761b1aa54332517ebda3fa7ce1428fb6":[1,0,158,31],
+"db/d63/classXonoticColorpicker.html#a7b13cdc101cd55528465440586a004f6":[1,0,158,29],
+"db/d63/classXonoticColorpicker.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,158,10],
 "db/d63/classXonoticColorpicker.html#a7cea07252f472c51148b01ba739afda2":[1,0,158,9],
 "db/d63/classXonoticColorpicker.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,158,36],
 "db/d63/classXonoticColorpicker.html#a9c1954f7b83b5c474f5c6ddefbe58320":[1,0,158,32],
@@ -245,9 +249,5 @@ var NAVTREEINDEX98 =
 "db/d7f/effectinfo_8inc.html#a3e5003e47ad54ce83504e12307569aba":[2,0,1,2,7,203],
 "db/d7f/effectinfo_8inc.html#a3e7845d81ec98e70a6e3e53becaae2f5":[2,0,1,2,7,259],
 "db/d7f/effectinfo_8inc.html#a3fd261078b3848a9e6e539c6794dd249":[2,0,1,2,7,267],
-"db/d7f/effectinfo_8inc.html#a3fd3ee6e2a348cd831ca6355a8526888":[2,0,1,2,7,51],
-"db/d7f/effectinfo_8inc.html#a3ffa57ce9d22a01bfc8dd6a3408ab2e0":[2,0,1,2,7,134],
-"db/d7f/effectinfo_8inc.html#a4007f40639b1f4eacc48f7bd17d94049":[2,0,1,2,7,182],
-"db/d7f/effectinfo_8inc.html#a404b05053deae15477d16f89c672ca48":[2,0,1,2,7,206],
-"db/d7f/effectinfo_8inc.html#a40540c0f32eded914300761f19aebc24":[2,0,1,2,7,237]
+"db/d7f/effectinfo_8inc.html#a3fd3ee6e2a348cd831ca6355a8526888":[2,0,1,2,7,51]
 };

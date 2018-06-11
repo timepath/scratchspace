@@ -1,5 +1,9 @@
 var NAVTREEINDEX105 =
 {
+"dc/d0f/slider__sbfadetime_8qc_source.html":[2,0,5,4,216],
+"dc/d11/common_2gamemodes_2gamemode_2freezetag_2__mod_8qh.html":[2,0,1,3,0,6,1],
+"dc/d11/common_2gamemodes_2gamemode_2freezetag_2__mod_8qh_source.html":[2,0,1,3,0,6,1],
+"dc/d12/common_2turrets_2turret_2__mod_8inc.html":[2,0,1,14,0,0],
 "dc/d12/common_2turrets_2turret_2__mod_8inc_source.html":[2,0,1,14,0,0],
 "dc/d12/multi_8qh.html":[2,0,1,6,3,29],
 "dc/d12/multi_8qh_source.html":[2,0,1,6,3,29],
@@ -245,9 +249,5 @@ var NAVTREEINDEX105 =
 "dc/d37/classXonoticHUDExitDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,189,41],
 "dc/d37/classXonoticHUDExitDialog.html#a27399741282a2e811da475ebac4ea9ff":[1,0,189,67],
 "dc/d37/classXonoticHUDExitDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,189,19],
-"dc/d37/classXonoticHUDExitDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,189,47],
-"dc/d37/classXonoticHUDExitDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,189,52],
-"dc/d37/classXonoticHUDExitDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,189,27],
-"dc/d37/classXonoticHUDExitDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,189,18],
-"dc/d37/classXonoticHUDExitDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,189,20]
+"dc/d37/classXonoticHUDExitDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,189,47]
 };

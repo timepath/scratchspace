@@ -1,5 +1,9 @@
 var NAVTREEINDEX78 =
 {
+"d8/df3/weaponslist_8qc.html#ae5c9433e0b99f44b5a67fccba50c67ad":[2,0,5,4,234,9],
+"d8/df3/weaponslist_8qc_source.html":[2,0,5,4,234],
+"d8/df5/corner_8qh.html":[2,0,1,6,1,3],
+"d8/df5/corner_8qh_source.html":[2,0,1,6,1,3],
 "d8/df7/classXonoticParticlesSlider.html":[1,0,222],
 "d8/df7/classXonoticParticlesSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,222,93],
 "d8/df7/classXonoticParticlesSlider.html#a03b39828cfca5042da326cc07cc8f7b4":[1,0,222,62],
@@ -245,9 +249,5 @@ var NAVTREEINDEX78 =
 "d9/d09/notifications_2all_8inc.html#a0a518bae28556a2fde4e17628b9a3460":[2,0,1,11,2,59],
 "d9/d09/notifications_2all_8inc.html#a0b6ee998bfc8d3b46e7dd201641205f4":[2,0,1,11,2,35],
 "d9/d09/notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b":[2,0,1,11,2,98],
-"d9/d09/notifications_2all_8inc.html#a128c53bc312981ecb98e4fbe477dfb97":[2,0,1,11,2,23],
-"d9/d09/notifications_2all_8inc.html#a12f9b5596aefd94d99671fc01008ebf3":[2,0,1,11,2,86],
-"d9/d09/notifications_2all_8inc.html#a14884e977067962b47f3c5ea441f3476":[2,0,1,11,2,52],
-"d9/d09/notifications_2all_8inc.html#a16a885a1161cce3f2850eb2a3a86922e":[2,0,1,11,2,12],
-"d9/d09/notifications_2all_8inc.html#a1880baf7c026fc367ee3ed09788943f1":[2,0,1,11,2,63]
+"d9/d09/notifications_2all_8inc.html#a128c53bc312981ecb98e4fbe477dfb97":[2,0,1,11,2,23]
 };

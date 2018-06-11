@@ -23,6 +23,8 @@ var NAVTREEINDEX27 =
 "d3/d69/menu_2xonotic_2campaign_8qc.html#aee9a915b1483aedbf694717a64d8643f":[2,0,5,4,8,4],
 "d3/d69/menu_2xonotic_2campaign_8qc.html#afd06bb7c1c9b077cb29bfd7682b826f8":[2,0,5,4,8,7],
 "d3/d69/menu_2xonotic_2campaign_8qc_source.html":[2,0,5,4,8],
+"d3/d6b/menu_2mutators_2events_8qc.html":[2,0,5,3,2],
+"d3/d6b/menu_2mutators_2events_8qc_source.html":[2,0,5,3,2],
 "d3/d70/menu_2progs_8inc.html":[2,0,5,17],
 "d3/d70/menu_2progs_8inc_source.html":[2,0,5,17],
 "d3/d71/dialog__credits_8qc.html":[2,0,5,4,40],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d86/classXonoticMapList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,214,29],
 "d3/d86/classXonoticMapList.html#afdcf1fb79903f747cda494b27206526b":[1,0,214,2],
 "d3/d88/bot__null_8qc.html":[2,0,6,0,1,2],
-"d3/d88/bot__null_8qc_source.html":[2,0,6,0,1,2],
-"d3/d92/roles_8qh.html":[2,0,6,0,0,0,5],
-"d3/d92/roles_8qh_source.html":[2,0,6,0,0,0,5]
+"d3/d88/bot__null_8qc_source.html":[2,0,6,0,1,2]
 };

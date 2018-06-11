@@ -1,5 +1,9 @@
 var NAVTREEINDEX83 =
 {
+"d9/d67/turret_8qh.html#a2a823d874940c900d6e05f19d269e8c3":[2,0,1,14,15,8],
+"d9/d67/turret_8qh.html#a2add5de88316272764ca016b83c1df5c":[2,0,1,14,15,29],
+"d9/d67/turret_8qh.html#a2d284ac74d40ebf243c3614bdc51b373":[2,0,1,14,15,88],
+"d9/d67/turret_8qh.html#a2f78eea73827fa6196a2803732412f2b":[2,0,1,14,15,83],
 "d9/d67/turret_8qh.html#a30afbd4dc43425f09bfafafc4d3c1cca":[2,0,1,14,15,47],
 "d9/d67/turret_8qh.html#a30d9301d34cbcad9f1b530dd80ac9218":[2,0,1,14,15,35],
 "d9/d67/turret_8qh.html#a316a9d1bb21b5e1bfb4ee23225cecc53":[2,0,1,14,15,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX83 =
 "d9/d89/getreplies_8qc.html#acd14453c3d874fef97b4619c5987158e":[2,0,6,1,8,2],
 "d9/d89/getreplies_8qc.html#ad3483ec4e1d1d3b9ab6323bfcf01b876":[2,0,6,1,8,6],
 "d9/d89/getreplies_8qc_source.html":[2,0,6,1,8],
-"d9/d8b/dialog__hudpanel__vote_8qc.html":[2,0,5,4,78],
-"d9/d8b/dialog__hudpanel__vote_8qc.html#a99db81b12f29535edee78548db09a83f":[2,0,5,4,78,0],
-"d9/d8b/dialog__hudpanel__vote_8qc_source.html":[2,0,5,4,78],
-"d9/d8c/classWaypoint.html":[1,0,144],
-"d9/d8c/classWaypoint.html#a7582ca2dcce2971313caac02a72da70c":[1,0,144,1]
+"d9/d8b/dialog__hudpanel__vote_8qc.html":[2,0,5,4,78]
 };

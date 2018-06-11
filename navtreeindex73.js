@@ -1,5 +1,9 @@
 var NAVTREEINDEX73 =
 {
+"d8/d76/xonotic_2checkbox_8qh.html#a7dc2985c3982e5fb466f48215abb8069":[2,0,5,4,13,2],
+"d8/d76/xonotic_2checkbox_8qh.html#ac556c363097bb2c326f8681f5b38e28a":[2,0,5,4,13,4],
+"d8/d76/xonotic_2checkbox_8qh.html#ae01b150bc158d5b5fb5ee649324b9706":[2,0,5,4,13,3],
+"d8/d76/xonotic_2checkbox_8qh.html#ae6725ad239c958cb43c1254ea3be7554":[2,0,5,4,13,1],
 "d8/d76/xonotic_2checkbox_8qh_source.html":[2,0,5,4,13],
 "d8/d79/notifications_2all_8qc.html":[2,0,1,11,3],
 "d8/d79/notifications_2all_8qc.html#a0271f2897012f4c89692ef7cea9745da":[2,0,1,11,3,38],
@@ -46,10 +50,10 @@ var NAVTREEINDEX73 =
 "d8/d79/notifications_2all_8qc.html#adccbc5e955002f3e2d26f36496349f2f":[2,0,1,11,3,29],
 "d8/d79/notifications_2all_8qc.html#ae93ed72c8bc25a3db70a3dce5a8070d9":[2,0,1,11,3,42],
 "d8/d79/notifications_2all_8qc.html#aebba04739a8cedbc68c1561271936be9":[2,0,1,11,3,36],
-"d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,27],
 "d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,25],
 "d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,26],
 "d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,28],
+"d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,27],
 "d8/d79/notifications_2all_8qc_source.html":[2,0,1,11,3],
 "d8/d7f/sv__dodging_8qh.html":[2,0,1,10,0,7,3],
 "d8/d7f/sv__dodging_8qh_source.html":[2,0,1,10,0,7,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX73 =
 "d8/d8f/classXonoticInputBox.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,207,30],
 "d8/d8f/classXonoticInputBox.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,207,80],
 "d8/d8f/classXonoticInputBox.html#afc9428d371ed63dd0316db5558e81d30":[1,0,207,84],
-"d8/d8f/classXonoticInputBox.html#afdcf1fb79903f747cda494b27206526b":[1,0,207,10],
-"d8/d93/client_2hud_2panel_2__mod_8inc.html":[2,0,0,1,0,0],
-"d8/d93/client_2hud_2panel_2__mod_8inc_source.html":[2,0,0,1,0,0],
-"d8/d93/powerup_8qc.html":[2,0,1,5,0,12],
-"d8/d93/powerup_8qc_source.html":[2,0,1,5,0,12]
+"d8/d8f/classXonoticInputBox.html#afdcf1fb79903f747cda494b27206526b":[1,0,207,10]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"d8/d14/common_2mapobjects_2trigger_2impulse_8qh.html#a382c206f14326afc076c7b7a3fffd632":[2,0,1,6,3,19,6],
+"d8/d14/common_2mapobjects_2trigger_2impulse_8qh.html#a5050a760c11da521cd4aee6336f6529f":[2,0,1,6,3,19,11],
+"d8/d14/common_2mapobjects_2trigger_2impulse_8qh.html#a72f8ea06b519d2f9250f004b224a6fc0":[2,0,1,6,3,19,5],
+"d8/d14/common_2mapobjects_2trigger_2impulse_8qh.html#a7771365575e48670a44c27c11c27b1c6":[2,0,1,6,3,19,8],
 "d8/d14/common_2mapobjects_2trigger_2impulse_8qh.html#a8b056e96f854ff4877bca912be5b37e0":[2,0,1,6,3,19,10],
 "d8/d14/common_2mapobjects_2trigger_2impulse_8qh.html#a9a09b12d3797a6a2f4ad33646ac31308":[2,0,1,6,3,19,1],
 "d8/d14/common_2mapobjects_2trigger_2impulse_8qh.html#aa0d193641c29397c62018a5b8fe0e325":[2,0,1,6,3,19,4],
@@ -137,10 +141,10 @@ var NAVTREEINDEX71 =
 "d8/d1c/sv__spawn_8qc.html#a6cfe31b7427d7ec23125a64297039731":[2,0,1,9,8,0],
 "d8/d1c/sv__spawn_8qc_source.html":[2,0,1,9,8],
 "d8/d1d/cmd_8qc.html":[2,0,6,1,4],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,3],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,0],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,1],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,2],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,3],
 "d8/d1d/cmd_8qc.html#a0702129e58317d01f1e8a8f6d9d75ed9":[2,0,6,1,4,17],
 "d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665":[2,0,6,1,4,28],
 "d8/d1d/cmd_8qc.html#a0f2b9dadcca7d1430005c2ac984b79f4":[2,0,6,1,4,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX71 =
 "d8/d35/classXonoticHUDChatDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,186,55],
 "d8/d35/classXonoticHUDChatDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,186,32],
 "d8/d35/classXonoticHUDChatDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,186,40],
-"d8/d35/classXonoticHUDChatDialog.html#a54e38d6145b42b9d72d2deb494602ae4":[1,0,186,67],
-"d8/d35/classXonoticHUDChatDialog.html#a588c2bad65ee0a1e6478f7d9fda23d06":[1,0,186,58],
-"d8/d35/classXonoticHUDChatDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,186,62],
-"d8/d35/classXonoticHUDChatDialog.html#a67d95732d49da439095483530aca8804":[1,0,186,51],
-"d8/d35/classXonoticHUDChatDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,186,74]
+"d8/d35/classXonoticHUDChatDialog.html#a54e38d6145b42b9d72d2deb494602ae4":[1,0,186,67]
 };

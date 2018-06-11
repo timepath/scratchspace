@@ -1,5 +1,11 @@
 var NAVTREEINDEX36 =
 {
+"d4/d3b/classXonoticBigButton.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,150,68],
+"d4/d3b/classXonoticBigButton.html#a4bc36460031aeb99fc60b108f2f22f19":[1,0,150,62],
+"d4/d3b/classXonoticBigButton.html#a4cec67ef8bea911bbbe8e837e8c1f4fe":[1,0,150,71],
+"d4/d3b/classXonoticBigButton.html#a4cf08b5cf5b03694b1ab99f4eb3cd6da":[1,0,150,6],
+"d4/d3b/classXonoticBigButton.html#a54e592697c83dd2e7a6d27472cd00698":[1,0,150,38],
+"d4/d3b/classXonoticBigButton.html#a551caf43464ecebace012d2b272c7bad":[1,0,150,11],
 "d4/d3b/classXonoticBigButton.html#a56159c764874bed976add81f81298c31":[1,0,150,43],
 "d4/d3b/classXonoticBigButton.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,150,48],
 "d4/d3b/classXonoticBigButton.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,150,33],
@@ -243,11 +249,5 @@ var NAVTREEINDEX36 =
 "d4/d4f/__all_8qh.html":[2,0,1,16,2],
 "d4/d4f/__all_8qh_source.html":[2,0,1,16,2],
 "d4/d51/healtharmor_8qh.html":[2,0,0,1,0,11],
-"d4/d51/healtharmor_8qh_source.html":[2,0,0,1,0,11],
-"d4/d52/menu_2item_2__mod_8qh.html":[2,0,5,2,1],
-"d4/d52/menu_2item_2__mod_8qh_source.html":[2,0,5,2,1],
-"d4/d53/server_2impulse_8qc.html":[2,0,6,29],
-"d4/d53/server_2impulse_8qc.html#a000f3768d67eb4aa34fdb961874c6ef7":[2,0,6,29,47],
-"d4/d53/server_2impulse_8qc.html#a0a90854941130a0639aa845f837855b2":[2,0,6,29,39],
-"d4/d53/server_2impulse_8qc.html#a0c9d920eee1a7461bfe36492d2610671":[2,0,6,29,26]
+"d4/d51/healtharmor_8qh_source.html":[2,0,0,1,0,11]
 };

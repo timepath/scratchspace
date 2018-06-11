@@ -1,5 +1,9 @@
 var NAVTREEINDEX84 =
 {
+"d9/d8b/dialog__hudpanel__vote_8qc.html#a99db81b12f29535edee78548db09a83f":[2,0,5,4,78,0],
+"d9/d8b/dialog__hudpanel__vote_8qc_source.html":[2,0,5,4,78],
+"d9/d8c/classWaypoint.html":[1,0,144],
+"d9/d8c/classWaypoint.html#a7582ca2dcce2971313caac02a72da70c":[1,0,144,1],
 "d9/d8c/classWaypoint.html#a7a687a0ab5a9f2299f6a4b93862834fc":[1,0,144,5],
 "d9/d8c/classWaypoint.html#aa5bca311573381ef35ec56610d15d538":[1,0,144,0],
 "d9/d8c/classWaypoint.html#abe42e95092e4d122f39586a740325ce5":[1,0,144,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "d9/dc7/turrets_2turret_2machinegun_8qh.html#aecbe2e46be1185432a33bbc16b9e3026":[2,0,1,14,0,21,1],
 "d9/dc7/turrets_2turret_2machinegun_8qh_source.html":[2,0,1,14,0,21],
 "d9/dc8/ecs_2events_2__mod_8qh.html":[2,0,3,1,1],
-"d9/dc8/ecs_2events_2__mod_8qh_source.html":[2,0,3,1,1],
-"d9/dca/classXonoticCommandButton.html":[1,0,160],
-"d9/dca/classXonoticCommandButton.html#a09558581cc0090d8cdcfd1ec9411f74c":[1,0,160,47],
-"d9/dca/classXonoticCommandButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,160,71],
-"d9/dca/classXonoticCommandButton.html#a10cf88734594fed24be93889407c0bda":[1,0,160,22]
+"d9/dc8/ecs_2events_2__mod_8qh_source.html":[2,0,3,1,1]
 };
