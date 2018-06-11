@@ -1,8 +1,6 @@
 var searchData=
 [
   ['c2s_5fprotocol_5ffrom',['C2S_Protocol_from',['../d9/d48/lib_2net_8qh.html#a6e4c8aabf20d96d568a3a13b9e492f7c',1,'net.qh']]],
-  ['ca_5falive_5fteams',['CA_ALIVE_TEAMS',['../dc/da9/gamemode__ca_8qc.html#ad51c357bdac24d15f33294005d117381',1,'gamemode_ca.qc']]],
-  ['ca_5falive_5fteams_5fok',['CA_ALIVE_TEAMS_OK',['../dc/da9/gamemode__ca_8qc.html#a2675140ec89f3ccfdaeb09d3297e6814',1,'gamemode_ca.qc']]],
   ['call_5faccumulated_5ffunction',['CALL_ACCUMULATED_FUNCTION',['../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be',1,'accumulate.qh']]],
   ['campaign_5fgetarg',['CAMPAIGN_GETARG',['../db/d55/campaign__file_8qc.html#a5f7b644249dd0af2317f7a98abfd332d',1,'campaign_file.qc']]],
   ['campaign_5fmax_5fentries',['CAMPAIGN_MAX_ENTRIES',['../d7/d13/campaign__common_8qh.html#a741735ba63f01d1145221581ba8e4803',1,'CAMPAIGN_MAX_ENTRIES():&#160;campaign_common.qh'],['../dd/d66/server_2campaign_8qh.html#a741735ba63f01d1145221581ba8e4803',1,'CAMPAIGN_MAX_ENTRIES():&#160;campaign.qh']]],

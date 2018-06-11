@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('de/d43/common_2items_2item_2ammo_8qh_s
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d7/d61/misc_8qh.html#a58f95a3dea8a46c174f20eab6751836d">PROPERTY</a>(<span class="keywordtype">int</span>, g_pickup_nails);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> ammo_bullets_init(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item)</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> ammo_bullets_init(<a class="code" href="../../d4/d93/classPickup.html">Pickup</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item)</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">if</span>(!item.ammo_nails)</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        item.ammo_nails = g_pickup_nails;</div>
@@ -179,7 +179,7 @@ $(document).ready(function(){initNavTree('de/d43/common_2items_2item_2ammo_8qh_s
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d7/d61/misc_8qh.html#a58f95a3dea8a46c174f20eab6751836d">PROPERTY</a>(<span class="keywordtype">int</span>, g_pickup_cells);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keywordtype">void</span> ammo_cells_init(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keywordtype">void</span> ammo_cells_init(<a class="code" href="../../d4/d93/classPickup.html">Pickup</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item)</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;{</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">if</span>(!item.ammo_cells)</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        item.ammo_cells = g_pickup_cells;</div>
@@ -209,7 +209,7 @@ $(document).ready(function(){initNavTree('de/d43/common_2items_2item_2ammo_8qh_s
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d7/d61/misc_8qh.html#a58f95a3dea8a46c174f20eab6751836d">PROPERTY</a>(<span class="keywordtype">int</span>, g_pickup_plasma);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="keywordtype">void</span> ammo_plasma_init(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item)</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="keywordtype">void</span> ammo_plasma_init(<a class="code" href="../../d4/d93/classPickup.html">Pickup</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item)</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">if</span>(!item.ammo_plasma)</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        item.ammo_plasma = g_pickup_plasma;</div>
@@ -239,7 +239,7 @@ $(document).ready(function(){initNavTree('de/d43/common_2items_2item_2ammo_8qh_s
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d7/d61/misc_8qh.html#a58f95a3dea8a46c174f20eab6751836d">PROPERTY</a>(<span class="keywordtype">int</span>, g_pickup_rockets);</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="keywordtype">void</span> ammo_rockets_init(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item)</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="keywordtype">void</span> ammo_rockets_init(<a class="code" href="../../d4/d93/classPickup.html">Pickup</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item)</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;{</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordflow">if</span>(!item.ammo_rockets)</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        item.ammo_rockets = g_pickup_rockets;</div>
@@ -269,7 +269,7 @@ $(document).ready(function(){initNavTree('de/d43/common_2items_2item_2ammo_8qh_s
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d7/d61/misc_8qh.html#a58f95a3dea8a46c174f20eab6751836d">PROPERTY</a>(<span class="keywordtype">int</span>, g_pickup_shells);</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="keywordtype">void</span> ammo_shells_init(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item)</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="keywordtype">void</span> ammo_shells_init(<a class="code" href="../../d4/d93/classPickup.html">Pickup</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item)</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;{</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordflow">if</span>(!item.ammo_shells)</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        item.ammo_shells = g_pickup_shells;</div>
@@ -335,7 +335,7 @@ $(document).ready(function(){initNavTree('de/d43/common_2items_2item_2ammo_8qh_s
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_e220edc87b29ed8f83fd5a560ddf76b2.html">items</a></li><li class="navelem"><a class="el" href="../../dir_eb421a12fa3ad96b2d69a2d89197bc6b.html">item</a></li><li class="navelem"><a class="el" href="../../de/d43/common_2items_2item_2ammo_8qh.html">ammo.qh</a></li>
-    <li class="footer">Generated on Sun Jun 10 2018 04:36:47 for Xonotic by
+    <li class="footer">Generated on Mon Jun 11 2018 04:49:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -6,6 +6,7 @@ var sv__instagib_8qc =
     [ "instagib_speed", "d4/db0/sv__instagib_8qc.html#ad4749d5439232c47d46b49b88d52ed93", null ],
     [ "instagib_stop_countdown", "d4/db0/sv__instagib_8qc.html#aab68562a7f2f51ca47ef2605b869e93c", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#aadb124271c24b9f536987977d4694934", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a26c025b5bfa9cb04a1ad19f9902d8d10", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a434c8277d68b79b7098cd103b10902ba", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a71e71b047b8790ff7a47a1bf91cafd9a", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#aa8149e780b012c6960b74182d8fbf7da", null ],
@@ -29,7 +30,9 @@ var sv__instagib_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a8c366ab4abc1f7f7a16dbc0d56e45486", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#acb6236ab59840374ab2c3d20ab679c28", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a3bc437942b31087c3b05f7fe7442ce60", null ],
+    [ "RandomItems_GetRandomInstagibItemClassName", "d4/db0/sv__instagib_8qc.html#af288d5699858924210c3052cd73c3ae8", null ],
     [ "replace_with_insta_cells", "d4/db0/sv__instagib_8qc.html#a0abfe12ffff043db18c754ba133722e0", null ],
+    [ "STATIC_INIT", "d4/db0/sv__instagib_8qc.html#aa457a64c4ccdd09f421107c5d224b7fd", null ],
     [ "autocvar_g_instagib_ammo_convert_bullets", "d4/db0/sv__instagib_8qc.html#a78703ecb39fe304d6e9206d472e90d9c", null ],
     [ "autocvar_g_instagib_ammo_convert_cells", "d4/db0/sv__instagib_8qc.html#a1286f970b5765b4dbbc76d9fd9ecefc3", null ],
     [ "autocvar_g_instagib_ammo_convert_rockets", "d4/db0/sv__instagib_8qc.html#af9001132951b56cd5f5c292620d5ad9b", null ],
@@ -41,6 +44,7 @@ var sv__instagib_8qc =
     [ "autocvar_g_instagib_friendlypush", "d4/db0/sv__instagib_8qc.html#a1682eb98a87e6e332841618128744512", null ],
     [ "autocvar_g_instagib_mirrordamage", "d4/db0/sv__instagib_8qc.html#a7ca8902e2ca213af048e4e23a82a8784", null ],
     [ "autocvar_g_instagib_speed_highspeed", "d4/db0/sv__instagib_8qc.html#ad1fd29211b9a3896b05bd64a4d7f746b", null ],
+    [ "g_instagib_items", "d4/db0/sv__instagib_8qc.html#ad3d0af0f354ef381be8e31e03e17f61a", null ],
     [ "instagib_needammo", "d4/db0/sv__instagib_8qc.html#a554958a3958a9d1c380533878187ce8c", null ],
     [ "instagib_nextthink", "d4/db0/sv__instagib_8qc.html#a76ae79b41dba64f62cf2fa76c60eda6e", null ]
 ];

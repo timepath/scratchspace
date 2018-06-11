@@ -1,7 +1,6 @@
 var searchData=
 [
   ['backgroundimage',['backgroundImage',['../d5/d95/classXonoticDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea',1,'XonoticDialog']]],
-  ['ballcarried',['ballcarried',['../d3/d5a/gamemode__keepaway_8qc.html#a137a4251a46a5fea7db7d4f16b190dcb',1,'gamemode_keepaway.qc']]],
   ['ballistics_5fdensity',['ballistics_density',['../d2/d4b/classPlayer.html#abfb4d82d39f5940c20f2e866eefb10ec',1,'Player::ballistics_density()'],['../d5/d26/server_2defs_8qh.html#a4fb2fb54df1e968eb7ecb8cc92f0f3ec',1,'ballistics_density():&#160;defs.qh']]],
   ['ban_5fchecked',['ban_checked',['../d6/d95/ipban_8qc.html#a0cc14f1baeb0997f35d7d929b2836628',1,'ipban.qc']]],
   ['ban_5fcount',['ban_count',['../d6/d95/ipban_8qc.html#adb129794ee531ea662996f0475b4a686',1,'ipban.qc']]],
@@ -63,7 +62,7 @@ var searchData=
   ['blacklisted',['blacklisted',['../df/dd4/navigation_8qh.html#abb6daa71f72c8c9f713e934539950256',1,'navigation.qh']]],
   ['blockspectators',['blockSpectators',['../d5/d26/server_2defs_8qh.html#a611426eabd1041c62519ae6d9391a9e4',1,'defs.qh']]],
   ['bloodloss_5ftimer',['bloodloss_timer',['../d0/dd2/sv__bloodloss_8qc.html#adeeb6493d547be2d8a3c3e541e7df8f9',1,'sv_bloodloss.qc']]],
-  ['bluealive',['bluealive',['../d3/d62/gamemode_8qh.html#a4b82f3594ebb19e01348f179d0c7bd04',1,'gamemode.qh']]],
+  ['bluealive',['bluealive',['../db/d55/sv__rules_8qh.html#a4b82f3594ebb19e01348f179d0c7bd04',1,'sv_rules.qh']]],
   ['blueflag_5fprevframe',['blueflag_prevframe',['../dd/d59/modicons_8qc.html#a82d6dc4f545d9102ec6dfc4b048c4c4b',1,'modicons.qc']]],
   ['blueflag_5fprevstatus',['blueflag_prevstatus',['../dd/d59/modicons_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922',1,'modicons.qc']]],
   ['blueflag_5fstatuschange_5ftime',['blueflag_statuschange_time',['../dd/d59/modicons_8qc.html#affcd2de913713ea56d0f03e0f0b2d610',1,'modicons.qc']]],

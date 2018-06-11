@@ -142,6 +142,7 @@ var searchData=
   ['ev_5fprepareexplosionbydamage',['EV_PrepareExplosionByDamage',['../d6/ddd/server_2mutators_2events_8qh.html#ab3419a5ab4de419f2bb550089b2d935b',1,'events.qh']]],
   ['ev_5fputclientinserver',['EV_PutClientInServer',['../d6/ddd/server_2mutators_2events_8qh.html#aba63b5332da43d068c64badbf1fb6bc9',1,'events.qh']]],
   ['ev_5frace_5ffinalcheckpoint',['EV_Race_FinalCheckpoint',['../d6/ddd/server_2mutators_2events_8qh.html#af4b8adf6a8f24cf3220606e56536c0e8',1,'events.qh']]],
+  ['ev_5frandomitems_5fgetrandomitemclassname',['EV_RandomItems_GetRandomItemClassName',['../d8/d48/sv__random__items_8qh.html#aa09e53a2ad5990bcd88aa9eb49be9f4b',1,'sv_random_items.qh']]],
   ['ev_5freset_5fmap_5fglobal',['EV_reset_map_global',['../d6/ddd/server_2mutators_2events_8qh.html#a634e1e52880be66364aedb4a97780818',1,'events.qh']]],
   ['ev_5freset_5fmap_5fplayers',['EV_reset_map_players',['../d6/ddd/server_2mutators_2events_8qh.html#a7cb1ffaffcd3e31bb22b5a67e6b87a22',1,'events.qh']]],
   ['ev_5fresourceamountchanged',['EV_ResourceAmountChanged',['../d6/ddd/server_2mutators_2events_8qh.html#aeac6d6eae9e6316a4c0d098773ad5da2',1,'events.qh']]],

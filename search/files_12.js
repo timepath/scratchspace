@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['race_2eqc',['race.qc',['../d6/d3b/race_8qc.html',1,'']]],
-  ['race_2eqh',['race.qh',['../d4/d1b/race_8qh.html',1,'']]],
+  ['race_2eqc',['race.qc',['../df/d2e/common_2gamemodes_2gamemode_2race_2race_8qc.html',1,'']]],
+  ['race_2eqc',['race.qc',['../df/d4a/server_2race_8qc.html',1,'']]],
+  ['race_2eqh',['race.qh',['../db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html',1,'']]],
+  ['race_2eqh',['race.qh',['../db/d36/server_2race_8qh.html',1,'']]],
   ['racer_2eqc',['racer.qc',['../dd/de3/racer_8qc.html',1,'']]],
   ['racer_2eqh',['racer.qh',['../d6/dd3/racer_8qh.html',1,'']]],
   ['racer_5fweapon_2eqc',['racer_weapon.qc',['../d5/da5/racer__weapon_8qc.html',1,'']]],
@@ -40,8 +42,8 @@ var searchData=
   ['relay_5fteamcheck_2eqh',['relay_teamcheck.qh',['../df/d9e/relay__teamcheck_8qh.html',1,'']]],
   ['replicate_2eqh',['replicate.qh',['../d1/d3c/replicate_8qh.html',1,'']]],
   ['resources_2eqc',['resources.qc',['../d5/d09/resources_8qc.html',1,'']]],
-  ['resources_2eqh',['resources.qh',['../d4/d3c/common_2resources_8qh.html',1,'']]],
   ['resources_2eqh',['resources.qh',['../d3/dd6/server_2resources_8qh.html',1,'']]],
+  ['resources_2eqh',['resources.qh',['../d4/d3c/common_2resources_8qh.html',1,'']]],
   ['rifle_2eqc',['rifle.qc',['../da/d5e/rifle_8qc.html',1,'']]],
   ['rifle_2eqh',['rifle.qh',['../dc/d24/rifle_8qh.html',1,'']]],
   ['roles_2eqc',['roles.qc',['../db/deb/roles_8qc.html',1,'']]],

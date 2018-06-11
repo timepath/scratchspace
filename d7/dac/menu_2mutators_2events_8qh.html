@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('d7/dac/menu_2mutators_2events_8qh.html
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a0c16dc103706d889b12ff7c66400866f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html#a0c16dc103706d889b12ff7c66400866f">EV_ConfigureDialogs</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d6/d93/g__subs_8qh.html#acdef7a1fd863a6d3770c1268cb06add3">main</a> window <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
+<tr class="memitem:a0c16dc103706d889b12ff7c66400866f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html#a0c16dc103706d889b12ff7c66400866f">EV_ConfigureDialogs</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d7/d38/sv__main_8qh.html#acdef7a1fd863a6d3770c1268cb06add3">main</a> window <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="separator:a0c16dc103706d889b12ff7c66400866f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af07547c358b616af655bf0c55ff812b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html#af07547c358b616af655bf0c55ff812b4">EV_Menu_ConsoleCommand</a>(i, o)</td></tr>
 <tr class="memdesc:af07547c358b616af655bf0c55ff812b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a menu command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, Menu_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }.  <a href="#af07547c358b616af655bf0c55ff812b4">More...</a><br/></td></tr>
@@ -173,7 +173,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d6/d93/g__subs_8qh.html#acdef7a1fd863a6d3770c1268cb06add3">main</a> window <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d7/d38/sv__main_8qh.html#acdef7a1fd863a6d3770c1268cb06add3">main</a> window <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -298,7 +298,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00012">12</a> of file <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l01238">_getcommandkey()</a>, and <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01950">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l01237">_getcommandkey()</a>, and <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01950">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -322,7 +322,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_fa6bab312750b9471bc957ec38c4d399.html">mutators</a></li><li class="navelem"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Sun Jun 10 2018 04:36:53 for Xonotic by
+    <li class="footer">Generated on Mon Jun 11 2018 04:49:58 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

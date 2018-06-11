@@ -139,7 +139,7 @@ var searchData=
   ['getfilteredentity',['GetFilteredEntity',['../de/d55/server_2command_2common_8qc.html#afff16d75dc358b9f81513350d82d92f3',1,'GetFilteredEntity(string input):&#160;common.qc'],['../d2/d06/server_2command_2common_8qh.html#afff16d75dc358b9f81513350d82d92f3',1,'GetFilteredEntity(string input):&#160;common.qc']]],
   ['getfilterednumber',['GetFilteredNumber',['../de/d55/server_2command_2common_8qc.html#a3aec534374edb56c6d6cbf0902fb9756',1,'GetFilteredNumber(string input):&#160;common.qc'],['../d2/d06/server_2command_2common_8qh.html#a3aec534374edb56c6d6cbf0902fb9756',1,'GetFilteredNumber(string input):&#160;common.qc']]],
   ['getfirstfullyvisibleitematscrollpos',['getFirstFullyVisibleItemAtScrollPos',['../d9/de9/classListBox.html#ae34be9a0d7d98d5f0ee153f8f0094988',1,'ListBox']]],
-  ['getgametype',['GetGametype',['../db/dcc/g__world_8qc.html#a7bd98f24d513342b45d7ec36af6564be',1,'GetGametype():&#160;g_world.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a7bd98f24d513342b45d7ec36af6564be',1,'GetGametype():&#160;g_world.qc']]],
+  ['getgametype',['GetGametype',['../db/dcc/g__world_8qc.html#a7bd98f24d513342b45d7ec36af6564be',1,'GetGametype():&#160;g_world.qc'],['../d7/d97/g__world_8qh.html#a7bd98f24d513342b45d7ec36af6564be',1,'GetGametype():&#160;g_world.qc']]],
   ['gethostcacheindexforkey',['gethostcacheindexforkey',['../d8/de2/menudefs_8qc.html#a51d138f7004b197f05c336c53d0cf6b2',1,'menudefs.qc']]],
   ['gethostcachenumber',['gethostcachenumber',['../d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f',1,'menudefs.qc']]],
   ['gethostcachestring',['gethostcachestring',['../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73',1,'menudefs.qc']]],

@@ -3,7 +3,7 @@ var searchData=
   ['yaw',['YAW',['../de/dcb/vector_8qh.html#aa70255a5968cc612e91c1aec32e41344',1,'vector.qh']]],
   ['yaw_5fspeed',['yaw_speed',['../d6/d11/progsdefs_8qc.html#a6e3ccdfe76e71ca7c0a9a339bb768d3a',1,'progsdefs.qc']]],
   ['ydec_5fsingle',['ydec_single',['../df/d58/yenc_8qh.html#a99af444acc00b3c6c194d21b7150b1e7',1,'yenc.qh']]],
-  ['yellowalive',['yellowalive',['../d3/d62/gamemode_8qh.html#ab299853acad4e8210662b02ab2aef52b',1,'gamemode.qh']]],
+  ['yellowalive',['yellowalive',['../db/d55/sv__rules_8qh.html#ab299853acad4e8210662b02ab2aef52b',1,'sv_rules.qh']]],
   ['yellowflag_5fprevframe',['yellowflag_prevframe',['../dd/d59/modicons_8qc.html#a9fba4055eb7a12732e45c9864109ce0a',1,'modicons.qc']]],
   ['yellowflag_5fprevstatus',['yellowflag_prevstatus',['../dd/d59/modicons_8qc.html#abb4b022156f7d6a6605893e79d3de30a',1,'modicons.qc']]],
   ['yellowflag_5fstatuschange_5ftime',['yellowflag_statuschange_time',['../dd/d59/modicons_8qc.html#aeecd993d717869f49fbb751b95237e8b',1,'modicons.qc']]],

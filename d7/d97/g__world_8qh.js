@@ -3,6 +3,7 @@ var g__world_8qh =
     [ "CheckRules_World", "d7/d97/g__world_8qh.html#a233af455133bc7ba4e3e100115bf2885", null ],
     [ "DoNextMapOverride", "d7/d97/g__world_8qh.html#a9e369a2585eeee66299a21fc034e9cc1", null ],
     [ "DumpStats", "d7/d97/g__world_8qh.html#a1207e599d7420b0af40007a89426efec", null ],
+    [ "GetGametype", "d7/d97/g__world_8qh.html#a7bd98f24d513342b45d7ec36af6564be", null ],
     [ "GetNextMap", "d7/d97/g__world_8qh.html#a558290ac2f061ad16a1fb895ab32f6d6", null ],
     [ "GotoNextMap", "d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64", null ],
     [ "IntermissionThink", "d7/d97/g__world_8qh.html#a178d61b734362fd8c466adb1234e0f53", null ],

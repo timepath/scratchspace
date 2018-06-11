@@ -1,5 +1,17 @@
 var NAVTREEINDEX10 =
 {
+"d1/d55/classXonoticGameHUDSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,177,40],
+"d1/d55/classXonoticGameHUDSettingsTab.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,177,37],
+"d1/d55/classXonoticGameHUDSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,177,84],
+"d1/d55/classXonoticGameHUDSettingsTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,177,53],
+"d1/d55/classXonoticGameHUDSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,177,57],
+"d1/d55/classXonoticGameHUDSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,177,62],
+"d1/d55/classXonoticGameHUDSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,177,75],
+"d1/d55/classXonoticGameHUDSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,177,33],
+"d1/d55/classXonoticGameHUDSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,177,61],
+"d1/d55/classXonoticGameHUDSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,177,90],
+"d1/d55/classXonoticGameHUDSettingsTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,177,12],
+"d1/d55/classXonoticGameHUDSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,177,67],
 "d1/d55/classXonoticGameHUDSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,177,29],
 "d1/d55/classXonoticGameHUDSettingsTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,177,5],
 "d1/d55/classXonoticGameHUDSettingsTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,177,19],
@@ -237,17 +249,5 @@ var NAVTREEINDEX10 =
 "d1/d6a/lib_2warpzone_2common_8qc.html#a30ce8e2353a411425608ff0e568edef9":[2,0,4,2,6,9],
 "d1/d6a/lib_2warpzone_2common_8qc.html#a31a57e4a858357d155799a106c2b3fae":[2,0,4,2,6,61],
 "d1/d6a/lib_2warpzone_2common_8qc.html#a368f7c4b2bb0959e80033bce124f640d":[2,0,4,2,6,34],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a37f59b6a1a00560f47d41387a3666338":[2,0,4,2,6,35],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a3a6e609bb2a6ab621645f4744cf76eea":[2,0,4,2,6,51],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a3b658166026c9935d7177ad10c2c9e70":[2,0,4,2,6,55],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a41cf8548d069adaa8207d7b8dd7cd976":[2,0,4,2,6,42],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a44d1db135b45319600668854e74e8a22":[2,0,4,2,6,43],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a477e969f6457aad447cae7dbaebfabc9":[2,0,4,2,6,23],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a4a0631162e93630a6ea1d1f7b7b33329":[2,0,4,2,6,50],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a50f2162534b375ca0b1f6eeffe89df2a":[2,0,4,2,6,20],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a555fa907020eba7e1edd6c583d840636":[2,0,4,2,6,19],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a556da543683b9184701a9b7ab557e463":[2,0,4,2,6,48],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a620d47d74a5a8dafb8664640137f67a9":[2,0,4,2,6,40],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a663a24692802c95fdde997a23b773146":[2,0,4,2,6,38],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a709b87db314dc8aaf6df3d3adc456b1d":[2,0,4,2,6,11]
+"d1/d6a/lib_2warpzone_2common_8qc.html#a37f59b6a1a00560f47d41387a3666338":[2,0,4,2,6,35]
 };

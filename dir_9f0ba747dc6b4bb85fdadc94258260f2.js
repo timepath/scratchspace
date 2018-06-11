@@ -15,5 +15,6 @@ var dir_9f0ba747dc6b4bb85fdadc94258260f2 =
     [ "okshotgun.qc", "d0/de5/okshotgun_8qc.html", null ],
     [ "okshotgun.qh", "d6/d2d/okshotgun_8qh.html", "d6/d2d/okshotgun_8qh" ],
     [ "sv_overkill.qc", "d8/d0c/sv__overkill_8qc.html", "d8/d0c/sv__overkill_8qc" ],
-    [ "sv_overkill.qh", "d9/dbc/sv__overkill_8qh.html", "d9/dbc/sv__overkill_8qh" ]
+    [ "sv_overkill.qh", "d9/dbc/sv__overkill_8qh.html", "d9/dbc/sv__overkill_8qh" ],
+    [ "sv_weapons.qc", "da/d4c/sv__weapons_8qc.html", "da/d4c/sv__weapons_8qc" ]
 ];

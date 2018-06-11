@@ -8,5 +8,12 @@ var antilag_8qh =
     [ "antilag_takeback", "d0/dd2/antilag_8qh.html#ae42be1431ef90dedfc2cb8bf7b792bfd", null ],
     [ "antilag_takeback_all", "d0/dd2/antilag_8qh.html#a49f979cfa6c28c22aa67a1b903160407", null ],
     [ "antilag_takebackorigin", "d0/dd2/antilag_8qh.html#a655b5399f3832b3ecd9a7659ef624b4a", null ],
+    [ "tracebox_antilag", "d0/dd2/antilag_8qh.html#a098ba0cc6ccdbc147f0bf68b30238cc5", null ],
+    [ "tracebox_antilag_force_wz", "d0/dd2/antilag_8qh.html#a16360420959782f6972ac30eec10327a", null ],
+    [ "traceline_antilag", "d0/dd2/antilag_8qh.html#a5edf83b72581bc3ed7f4b512f534fbfe", null ],
+    [ "traceline_antilag_force", "d0/dd2/antilag_8qh.html#ae2572b5fa7a3e76a4ff54cd41a55cf04", null ],
+    [ "WarpZone_tracebox_antilag", "d0/dd2/antilag_8qh.html#a9cacf5619ae2d9d345af6f30d59cc9c8", null ],
+    [ "WarpZone_traceline_antilag", "d0/dd2/antilag_8qh.html#aa349f780b5d2d608e278935b6e4c60db", null ],
+    [ "WarpZone_traceline_antilag_force", "d0/dd2/antilag_8qh.html#ad351eda3d83e3ac892325b85272f5f1b", null ],
     [ "antilag_debug", "d0/dd2/antilag_8qh.html#a49674596bf4a83d1e58de9ba14487d49", null ]
 ];

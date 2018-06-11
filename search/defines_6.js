@@ -20,7 +20,6 @@ var searchData=
   ['flag_5fteam_5f4',['FLAG_TEAM_4',['../db/d07/teams_8qh.html#adbc0074001363ddef68675aac96a3599',1,'teams.qh']]],
   ['flag_5ftouch',['flag_touch',['../d7/d16/effectinfo__ctf_8inc.html#a6d93f2c8d9abc0c40c571aa365bbffd9',1,'effectinfo_ctf.inc']]],
   ['flare',['flare',['../db/d7f/effectinfo_8inc.html#a2ae93913da7a9ba93a236bf67820d2f5',1,'effectinfo.inc']]],
-  ['for_5feach_5fkh_5fkey',['FOR_EACH_KH_KEY',['../d8/de1/gamemode__keyhunt_8qh.html#aac9fba35b1682c6c203245cd8bb4b840',1,'gamemode_keyhunt.qh']]],
   ['foreach',['FOREACH',['../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5',1,'iter.qh']]],
   ['foreach_5farray',['FOREACH_ARRAY',['../d4/d18/iter_8qh.html#a8614ee1ae50d1fdc20326a643c4f7a4a',1,'iter.qh']]],
   ['foreach_5fchar',['FOREACH_CHAR',['../d4/d18/iter_8qh.html#aaf9f179b8ccf83655c57de4e4f63307a',1,'iter.qh']]],
@@ -50,7 +49,5 @@ var searchData=
   ['foreach_5fminigame_5fentity',['FOREACH_MINIGAME_ENTITY',['../de/d3d/cl__minigames_8qh.html#acb1eb2cf269d4b57f8d9a3350ef514f7',1,'cl_minigames.qh']]],
   ['foreach_5fword',['FOREACH_WORD',['../d4/d18/iter_8qh.html#a632ecf2fc79f8dc7dce33e3de72a6d6e',1,'iter.qh']]],
   ['fprintf',['fprintf',['../d5/df2/common_2util_8qh.html#a461e83c88c5ac01576ef0f8554408da3',1,'util.qh']]],
-  ['freezetag_5falive_5fteams',['FREEZETAG_ALIVE_TEAMS',['../db/d26/gamemode__freezetag_8qc.html#affefc266eb3d84294da41b9fd66e0a84',1,'gamemode_freezetag.qc']]],
-  ['freezetag_5falive_5fteams_5fok',['FREEZETAG_ALIVE_TEAMS_OK',['../db/d26/gamemode__freezetag_8qc.html#a9e9a8521c54e924036535cec46d0ea10',1,'gamemode_freezetag.qc']]],
   ['ftoi',['FTOI',['../d2/d65/unsafe_8qh.html#a28163937cdfc9d15144074ee0f1ef1c4',1,'unsafe.qh']]]
 ];

@@ -1,5 +1,11 @@
 var NAVTREEINDEX4 =
 {
+"d0/d95/menudefs_8qh.html#a65e9886d74aaee76545e83dd09011727":[2,0,2,4,2],
+"d0/d95/menudefs_8qh.html#a6b5d9a1031ac2602e31df1ba551bfafe":[2,0,2,4,8],
+"d0/d95/menudefs_8qh.html#a7463baf5fb1b8c9bc859d5352d97313a":[2,0,2,4,10],
+"d0/d95/menudefs_8qh.html#a86a9c1d0cd6519b9a452c01b2574d0e4":[2,0,2,4,14],
+"d0/d95/menudefs_8qh.html#a877cc20fbb3e2a65f2a97bfedc2cd723":[2,0,2,4,17],
+"d0/d95/menudefs_8qh.html#a8b4993380ac4865a1180ed7cf868adef":[2,0,2,4,19],
 "d0/d95/menudefs_8qh.html#a94d75aff95b06ea63d48d65883035df1":[2,0,2,4,16],
 "d0/d95/menudefs_8qh.html#a9b88d1543a84de9785952d34dedb754c":[2,0,2,4,0],
 "d0/d95/menudefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d":[2,0,2,4,13],
@@ -12,6 +18,8 @@ var NAVTREEINDEX4 =
 "d0/d95/menudefs_8qh_source.html":[2,0,2,4],
 "d0/d96/item_2listbox_8qh.html":[2,0,5,2,21],
 "d0/d96/item_2listbox_8qh_source.html":[2,0,5,2,21],
+"d0/d97/common_2gamemodes_2gamemode_2deathmatch_2__mod_8qh.html":[2,0,1,3,0,4,1],
+"d0/d97/common_2gamemodes_2gamemode_2deathmatch_2__mod_8qh_source.html":[2,0,1,3,0,4,1],
 "d0/d99/bumblebee_8qc.html":[2,0,1,15,0,2],
 "d0/d99/bumblebee_8qc.html#ab3991f27a4a9f44dfd26e870e816bd37":[2,0,1,15,0,2,1],
 "d0/d99/bumblebee_8qc.html#acbc25258849bd1317be574e62791457e":[2,0,1,15,0,2,2],
@@ -29,8 +37,6 @@ var NAVTREEINDEX4 =
 "d0/d9a/classGameItem.html#ac88de49ea35f4990740cb804bbe94f28":[1,0,43,6],
 "d0/d9a/classGameItem.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,43,3],
 "d0/d9a/classGameItem.html#aed5edf1e0fca7439c3693efe6756ff51":[1,0,43,7],
-"d0/d9c/mutator_8qh.html":[2,0,6,3,7],
-"d0/d9c/mutator_8qh_source.html":[2,0,6,3,7],
 "d0/d9d/classXonoticHUDConfirmDialog.html":[1,0,187],
 "d0/d9d/classXonoticHUDConfirmDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,187,30],
 "d0/d9d/classXonoticHUDConfirmDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,187,11],
@@ -154,6 +160,8 @@ var NAVTREEINDEX4 =
 "d0/da3/mortar_8qc_source.html":[2,0,1,16,0,24],
 "d0/da4/damagetext_8qc.html":[2,0,1,10,0,6,4],
 "d0/da4/damagetext_8qc_source.html":[2,0,1,10,0,6,4],
+"d0/da5/domination_8qc.html":[2,0,1,3,0,5,2],
+"d0/da5/domination_8qc_source.html":[2,0,1,3,0,5,2],
 "d0/da7/armor_8qc.html":[2,0,1,5,0,4],
 "d0/da7/armor_8qc_source.html":[2,0,1,5,0,4],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html":[2,0,1,10,0,2,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX4 =
 "d0/dae/classItem.html#afdcf1fb79903f747cda494b27206526b":[1,0,59,1],
 "d0/db7/classJetpack.html":[1,0,60],
 "d0/db7/classJetpack.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,60,0],
-"d0/db7/classJetpack.html#a48b78d497828537731feaa167c8af4f1":[1,0,60,13],
-"d0/db7/classJetpack.html#a6131dbf54f626ebf2c9d610833da9fb5":[1,0,60,1],
-"d0/db7/classJetpack.html#a656d982600d7ada1460e143bbae0a3e9":[1,0,60,2],
-"d0/db7/classJetpack.html#a6815e793548a5b534973a237a97dc189":[1,0,60,11],
-"d0/db7/classJetpack.html#a727d6f42f79f0bd5ffc674423645471c":[1,0,60,3],
-"d0/db7/classJetpack.html#a7357a3badf480bbfe18c110d15cbd2f8":[1,0,60,6],
-"d0/db7/classJetpack.html#a7d7a1817ddfcece5aa3e23c939a0097e":[1,0,60,10],
-"d0/db7/classJetpack.html#a7d8cf6b7a18644fba549fe489903901d":[1,0,60,4],
-"d0/db7/classJetpack.html#a95e7f0cf091386e07ce2add2ab653934":[1,0,60,7]
+"d0/db7/classJetpack.html#a48b78d497828537731feaa167c8af4f1":[1,0,60,13]
 };

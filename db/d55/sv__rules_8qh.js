@@ -18,5 +18,10 @@ var sv__rules_8qh =
     [ "GameRules_scoring_is_vip", "db/d55/sv__rules_8qh.html#ac7d86021bd2a709ebe1042ec3ab33347", null ],
     [ "GameRules_scoring_vip", "db/d55/sv__rules_8qh.html#a45421c6953dd81519e25361836938249", null ],
     [ "GameRules_spawning_teams", "db/d55/sv__rules_8qh.html#a26b7dbcc38a3e20303d28e49cca3da08", null ],
-    [ "GameRules_teams", "db/d55/sv__rules_8qh.html#aadde099aa9d91e5bad4328d9481021cb", null ]
+    [ "GameRules_teams", "db/d55/sv__rules_8qh.html#aadde099aa9d91e5bad4328d9481021cb", null ],
+    [ "bluealive", "db/d55/sv__rules_8qh.html#a4b82f3594ebb19e01348f179d0c7bd04", null ],
+    [ "pinkalive", "db/d55/sv__rules_8qh.html#a94f7dfb485a988da25947983ebe8cd59", null ],
+    [ "redalive", "db/d55/sv__rules_8qh.html#a990a920632336f4aed89f1745434a203", null ],
+    [ "total_players", "db/d55/sv__rules_8qh.html#af39c434e324c1dab87f08a2368e414ce", null ],
+    [ "yellowalive", "db/d55/sv__rules_8qh.html#ab299853acad4e8210662b02ab2aef52b", null ]
 ];

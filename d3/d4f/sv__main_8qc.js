@@ -9,6 +9,7 @@ var sv__main_8qc =
     [ "CreatureFrame_Liquids", "d3/d4f/sv__main_8qc.html#a76853aeafe130f8c85d194596b3475c6", null ],
     [ "DoesQ3ARemoveThisEntity", "d3/d4f/sv__main_8qc.html#a589e1206acb6c0ac2f8ec3bba25222b3", null ],
     [ "expr_evaluate", "d3/d4f/sv__main_8qc.html#a561d61ff3f398e13794e58b7c4eefe32", null ],
+    [ "main", "d3/d4f/sv__main_8qc.html#acdef7a1fd863a6d3770c1268cb06add3", null ],
     [ "Pause_TryPause", "d3/d4f/sv__main_8qc.html#a32d164732e884bd8c162fd1ff75f4b24", null ],
     [ "RedirectionThink", "d3/d4f/sv__main_8qc.html#a562ca164f7d8783b2be2864ba5fdc6f5", null ],
     [ "StartFrame", "d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1", null ],
