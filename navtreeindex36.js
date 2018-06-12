@@ -1,5 +1,8 @@
 var NAVTREEINDEX36 =
 {
+"d4/d3b/classXonoticBigButton.html#a476349ed1a0d044310253e867c496c16":[1,0,150,42],
+"d4/d3b/classXonoticBigButton.html#a47ec54ba5a75b70927a3e25a09e6d5ea":[1,0,150,16],
+"d4/d3b/classXonoticBigButton.html#a4985255a6e0984252ab7ccedd6347d5b":[1,0,150,40],
 "d4/d3b/classXonoticBigButton.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,150,68],
 "d4/d3b/classXonoticBigButton.html#a4bc36460031aeb99fc60b108f2f22f19":[1,0,150,62],
 "d4/d3b/classXonoticBigButton.html#a4cec67ef8bea911bbbe8e837e8c1f4fe":[1,0,150,71],
@@ -246,8 +249,5 @@ var NAVTREEINDEX36 =
 "d4/d4c/dialog__multiplayer__media__demo_8qc_source.html":[2,0,5,4,100],
 "d4/d4e/datasource_8qc.html":[2,0,5,4,34],
 "d4/d4e/datasource_8qc_source.html":[2,0,5,4,34],
-"d4/d4f/__all_8qh.html":[2,0,1,16,2],
-"d4/d4f/__all_8qh_source.html":[2,0,1,16,2],
-"d4/d51/healtharmor_8qh.html":[2,0,0,1,0,11],
-"d4/d51/healtharmor_8qh_source.html":[2,0,0,1,0,11]
+"d4/d4f/__all_8qh.html":[2,0,1,16,2]
 };

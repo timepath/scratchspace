@@ -1,5 +1,11 @@
 var NAVTREEINDEX129 =
 {
+"df/d6e/globalsound_8qh.html#ade5a893a0df675ef05a5bd0c946b4419":[2,0,1,2,0,9,25],
+"df/d6e/globalsound_8qh.html#ae2c525418d0124bca40ef3c1528d3eed":[2,0,1,2,0,9,9],
+"df/d6e/globalsound_8qh.html#aeedefbf23bafa7202fe2fac90c46b86c":[2,0,1,2,0,9,20],
+"df/d6e/globalsound_8qh.html#af71e173be2de0af430b59f2aae5c47b3":[2,0,1,2,0,9,4],
+"df/d6e/globalsound_8qh.html#af82f9f032718fd74a2a63db1c527e921":[2,0,1,2,0,9,3],
+"df/d6e/globalsound_8qh.html#afc2182c6e48551ceaedd10c046d041ce":[2,0,1,2,0,9,30],
 "df/d6e/globalsound_8qh.html#afff52730d3053fc9102cec5246ee16d6":[2,0,1,2,0,9,13],
 "df/d6e/globalsound_8qh_source.html":[2,0,1,2,0,9],
 "df/d71/announcer_8qh.html":[2,0,0,7],
@@ -131,10 +137,10 @@ var NAVTREEINDEX129 =
 "df/d8c/cl__cmd_8qc.html#ac1a03af5c66e122f2e7ab5298a3df6f0":[2,0,0,0,2,33],
 "df/d8c/cl__cmd_8qc.html#ac6ad4f76e1fab870cd7b34e038a0a6c0":[2,0,0,0,2,14],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,2,20],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,2,30],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,2,27],
 "df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7":[2,0,0,0,2,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX129 =
 "df/d92/classXonoticWinnerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,264,35],
 "df/d92/classXonoticWinnerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,264,39],
 "df/d92/classXonoticWinnerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,264,83],
-"df/d92/classXonoticWinnerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,264,10],
-"df/d97/menu_2xonotic_2util_8qh.html":[2,0,5,4,231],
-"df/d97/menu_2xonotic_2util_8qh.html#a0ecc182d931f638095b163ce20b85b86":[2,0,5,4,231,18],
-"df/d97/menu_2xonotic_2util_8qh.html#a26806fad571ec451328ac79c060cd921":[2,0,5,4,231,29],
-"df/d97/menu_2xonotic_2util_8qh.html#a2683d47bdd4a902cb60ec09f5ba3e67f":[2,0,5,4,231,24],
-"df/d97/menu_2xonotic_2util_8qh.html#a33132c559dad0e1c8227935613fa6c55":[2,0,5,4,231,27],
-"df/d97/menu_2xonotic_2util_8qh.html#a44167665bad1f9b48425b468cdca42b6":[2,0,5,4,231,5]
+"df/d92/classXonoticWinnerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,264,10]
 };

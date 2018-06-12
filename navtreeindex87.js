@@ -1,5 +1,10 @@
 var NAVTREEINDEX87 =
 {
+"da/d13/classShockwave.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,123,23],
+"da/d13/classShockwave.html#adce573c56f03f0bc817eb4c8e21bc522":[1,0,123,29],
+"da/d13/classShockwave.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,123,18],
+"da/d16/dialog__settings__user__languagewarning_8qc.html":[2,0,5,4,152],
+"da/d16/dialog__settings__user__languagewarning_8qc.html#ac4788c4b8fb9c5c682957a2d5d72aae6":[2,0,5,4,152,0],
 "da/d16/dialog__settings__user__languagewarning_8qc_source.html":[2,0,5,4,152],
 "da/d1b/plasma__dual_8qh.html":[2,0,1,14,0,35],
 "da/d1b/plasma__dual_8qh.html#a2ba344e280582584d2f49cb3c532c4a4":[2,0,1,14,0,35,2],
@@ -76,8 +81,8 @@ var NAVTREEINDEX87 =
 "da/d20/spawnfunc_8qh.html#aba58f0f254a7470e43b0294be317a734":[2,0,4,55,11],
 "da/d20/spawnfunc_8qh.html#ac237ac49370487f5d91312a3bdd04abc":[2,0,4,55,12],
 "da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6":[2,0,4,55,16],
-"da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6":[2,0,4,55,14],
 "da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6":[2,0,4,55,15],
+"da/d20/spawnfunc_8qh.html#ac92ceb3acefe46f4765946553b0048d6":[2,0,4,55,14],
 "da/d20/spawnfunc_8qh.html#accf25e4d095ddcca539fa7bf35d2e64b":[2,0,4,55,0],
 "da/d20/spawnfunc_8qh.html#acf818192a10457d834cc057718d25ad3":[2,0,4,55,27],
 "da/d20/spawnfunc_8qh.html#ae520c557d0e22b803e268760bc77f205":[2,0,4,55,25],
@@ -244,10 +249,5 @@ var NAVTREEINDEX87 =
 "da/d3e/nades_8qh.html#aeacb41548c87fd5752e09719e2f00817":[2,0,1,10,0,19,5,10],
 "da/d3e/nades_8qh.html#aeda42b695452b903e810990493c5761e":[2,0,1,10,0,19,5,13],
 "da/d3e/nades_8qh.html#af6aecc7745e224df6494e86a57dd06ce":[2,0,1,10,0,19,5,14],
-"da/d3e/nades_8qh.html#afd84321ae1ea88d01df919ce8bc54518":[2,0,1,10,0,19,5,15],
-"da/d3e/nades_8qh_source.html":[2,0,1,10,0,19,5],
-"da/d40/common_2mutators_2mutator_2weaponarena__random_2__mod_8qh.html":[2,0,1,10,0,40,1],
-"da/d40/common_2mutators_2mutator_2weaponarena__random_2__mod_8qh_source.html":[2,0,1,10,0,40,1],
-"da/d41/dialog__singleplayer_8qc.html":[2,0,5,4,156],
-"da/d41/dialog__singleplayer_8qc.html#a688fce87e81db4573d97935bb9e2cd8c":[2,0,5,4,156,0]
+"da/d3e/nades_8qh.html#afd84321ae1ea88d01df919ce8bc54518":[2,0,1,10,0,19,5,15]
 };

@@ -87,6 +87,7 @@ var server_2client_8qc =
     [ "frame", "df/dd7/server_2client_8qc.html#a6828e314f91bec7a1445f0be1b00d7c0", null ],
     [ "items_added", "df/dd7/server_2client_8qc.html#a1566e9e3058439870cbcfd72542b4792", null ],
     [ "last_vehiclecheck", "df/dd7/server_2client_8qc.html#a8dd80f958cebe7a215c3ebfd7895e623", null ],
+    [ "MIN_SPEC_TIME", "df/dd7/server_2client_8qc.html#a5949b9ebfecda6bea39a7064bc80b1ba", null ],
     [ "model_randomizer", "df/dd7/server_2client_8qc.html#a796e7f6d76eff169d587d849ed8c29f0", null ],
     [ "move_qcphysics", "df/dd7/server_2client_8qc.html#a75cfcf63e40ea6ecc20f7181b2cebd35", null ],
     [ "shootfromfixedorigin", "df/dd7/server_2client_8qc.html#ae84ed56b100e14c362b437744f16644a", null ],

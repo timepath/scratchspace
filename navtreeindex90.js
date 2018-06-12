@@ -1,5 +1,10 @@
 var NAVTREEINDEX90 =
 {
+"da/d94/classXonoticSettingsDialog.html#ae1a933237a7e592c481659b551f3674c":[1,0,246,87],
+"da/d94/classXonoticSettingsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,246,53],
+"da/d94/classXonoticSettingsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,246,89],
+"da/d94/classXonoticSettingsDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,246,8],
+"da/d94/classXonoticSettingsDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,246,66],
 "da/d94/classXonoticSettingsDialog.html#af1aab403dc54575707fd57991312b201":[1,0,246,45],
 "da/d94/classXonoticSettingsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,246,25],
 "da/d94/classXonoticSettingsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,246,15],
@@ -244,10 +249,5 @@ var NAVTREEINDEX90 =
 "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#a142e52b387628b2fec2e45519a47e2ab":[2,0,5,4,104,1],
 "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#ac0078baa760c9d4ecac11e76f36369a1":[2,0,5,4,104,0],
 "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc_source.html":[2,0,5,4,104],
-"da/db7/classXonoticServerInfoDialog.html":[1,0,243],
-"da/db7/classXonoticServerInfoDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,243,59],
-"da/db7/classXonoticServerInfoDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,243,30],
-"da/db7/classXonoticServerInfoDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,243,68],
-"da/db7/classXonoticServerInfoDialog.html#a049ea0d4b7e40a198e97727748304d6c":[1,0,243,15],
-"da/db7/classXonoticServerInfoDialog.html#a059f864f51d5061e38b5884cf9e5ffed":[1,0,243,16]
+"da/db7/classXonoticServerInfoDialog.html":[1,0,243]
 };

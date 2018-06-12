@@ -1,5 +1,8 @@
 var NAVTREEINDEX54 =
 {
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,176,52],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,176,30],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,176,36],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,176,44],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,176,56],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,176,87],
@@ -246,8 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d95/ipban_8qc.html#ad7174054ad76d672732a64c0a20d658e":[2,0,6,31,15],
 "d6/d95/ipban_8qc.html#adb129794ee531ea662996f0475b4a686":[2,0,6,31,17],
 "d6/d95/ipban_8qc.html#adea1b3142068ed7d96870a33fcec4eb8":[2,0,6,31,23],
-"d6/d95/ipban_8qc.html#aeb7c8522041f6354afc641f907b1e3f2":[2,0,6,31,19],
-"d6/d95/ipban_8qc.html#af51c28998f80bfe0ae47392282da7e2b":[2,0,6,31,12],
-"d6/d95/ipban_8qc.html#af5400e642692dd6c542af18b03d9946f":[2,0,6,31,7],
-"d6/d95/ipban_8qc.html#affc9ae77186a86d812c98295cfbbd1da":[2,0,6,31,26]
+"d6/d95/ipban_8qc.html#aeb7c8522041f6354afc641f907b1e3f2":[2,0,6,31,19]
 };

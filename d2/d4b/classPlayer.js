@@ -8,6 +8,7 @@ var classPlayer =
     [ "accuracy", "d2/d4b/classPlayer.html#a7c8df93f8d890fe9c559215401df85e3", null ],
     [ "active_minigame", "d2/d4b/classPlayer.html#a91b092f35e86a03d3ed8313f355eefcf", null ],
     [ "allowed_timeouts", "d2/d4b/classPlayer.html#a95f22e07598510ef39de6c6225e07e95", null ],
+    [ "autojoin_checked", "d2/d4b/classPlayer.html#a1cf874d43029147ab8f2a537b17c5eb1", null ],
     [ "autoswitch", "d2/d4b/classPlayer.html#a2b7697358e33aa388b9cd99b7f0b2794", null ],
     [ "ballistics_density", "d2/d4b/classPlayer.html#abfb4d82d39f5940c20f2e866eefb10ec", null ],
     [ "buff_shield", "d2/d4b/classPlayer.html#ace840d3a11e23f99e3d7cb26a8b2b096", null ],

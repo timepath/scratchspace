@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"d1/da9/bot_8qh.html#a0b031ceaaa5fdecc3a5213187509375c":[2,0,6,0,0,6,48],
+"d1/da9/bot_8qh.html#a0e21b4fb9434e34e78ec2a02506fe84f":[2,0,6,0,0,6,25],
 "d1/da9/bot_8qh.html#a0f1eef88f69680f3f2ca4360302ccb02":[2,0,6,0,0,6,22],
 "d1/da9/bot_8qh.html#a149b91aca5a3d2ea793bcd23631ee96d":[2,0,6,0,0,6,26],
 "d1/da9/bot_8qh.html#a14ef1c073a5d40b9c36f3dfbee406d6c":[2,0,6,0,0,6,69],
@@ -107,9 +109,9 @@ var NAVTREEINDEX13 =
 "d1/dad/server_2command_2vote_8qc.html#aa99c167d0e48d02a04c9a00b63521659":[2,0,6,1,16,27],
 "d1/dad/server_2command_2vote_8qc.html#aaa71782429a29dc1281807e966deaf7a":[2,0,6,1,16,33],
 "d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f":[2,0,6,1,16,15],
+"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
-"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
 "d1/dad/server_2command_2vote_8qc.html#ac42f429ba6ba4289fa7af9310f40a0a4":[2,0,6,1,16,14],
 "d1/dad/server_2command_2vote_8qc.html#aeb5a1f746f1d97c3cc25df64e6b0ef68":[2,0,6,1,16,7],
 "d1/dad/server_2command_2vote_8qc.html#afa3842ee6c4c5d4bf93d915d2a3bfe2b":[2,0,6,1,16,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "d1/dbf/xonotic_2inputbox_8qc_source.html":[2,0,5,4,170],
 "d1/dc2/bugrigs_8qc.html":[2,0,1,10,0,3,2],
 "d1/dc2/bugrigs_8qc_source.html":[2,0,1,10,0,3,2],
-"d1/dc2/kill_8qc.html":[2,0,1,6,2,4],
-"d1/dc2/kill_8qc_source.html":[2,0,1,6,2,4],
-"d1/dc3/classEWheelAttack.html":[1,0,37]
+"d1/dc2/kill_8qc.html":[2,0,1,6,2,4]
 };

@@ -1,5 +1,10 @@
 var NAVTREEINDEX112 =
 {
+"dd/d0a/classMachineGunTurret.html#ab51103697656de906079b6537d3800bc":[1,0,72,8],
+"dd/d0a/classMachineGunTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,72,6],
+"dd/d0a/classMachineGunTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,72,10],
+"dd/d0a/classMachineGunTurret.html#ac3fece7e710a0c15f72efe00069d74c4":[1,0,72,11],
+"dd/d0a/classMachineGunTurret.html#ade53c264d2eaeb4bbe18a978251a705e":[1,0,72,20],
 "dd/d0a/classMachineGunTurret.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,72,3],
 "dd/d0a/classMachineGunTurret.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,72,4],
 "dd/d0a/classMachineGunTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,72,0],
@@ -134,9 +139,9 @@ var NAVTREEINDEX112 =
 "dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921":[2,0,6,1,2,6],
 "dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324":[2,0,6,1,2,7],
 "dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1":[2,0,6,1,2,8],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,3],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,2],
 "dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0":[2,0,6,1,2,11],
 "dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca":[2,0,6,1,2,12],
@@ -244,10 +249,5 @@ var NAVTREEINDEX112 =
 "dd/d36/classXonoticGameViewSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,182,2],
 "dd/d36/classXonoticGameViewSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,182,39],
 "dd/d36/classXonoticGameViewSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,182,43],
-"dd/d36/classXonoticGameViewSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,182,85],
-"dd/d36/classXonoticGameViewSettingsTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,182,13],
-"dd/d36/classXonoticGameViewSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,182,7],
-"dd/d36/halflife_8qc.html":[2,0,6,2,2],
-"dd/d36/halflife_8qc.html#a0fc7890c64f67efed2d83078a65cc505":[2,0,6,2,2,9],
-"dd/d36/halflife_8qc.html#a282e7d4378d4a18a805b8980295ac86c":[2,0,6,2,2,26]
+"dd/d36/classXonoticGameViewSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,182,85]
 };

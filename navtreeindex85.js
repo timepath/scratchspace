@@ -1,5 +1,10 @@
 var NAVTREEINDEX85 =
 {
+"d9/dc5/soundlist_8qc.html#abe6517767ab9e15581df8c6b23b07998":[2,0,5,4,218,0],
+"d9/dc5/soundlist_8qc.html#ad41573f7b16b8655e8cdd1b1494f1a95":[2,0,5,4,218,5],
+"d9/dc5/soundlist_8qc.html#ad632576d21cb4fc888d153a8565b0cb1":[2,0,5,4,218,4],
+"d9/dc5/soundlist_8qc.html#aeb4e0eb3761f07bb4b9370b3be190642":[2,0,5,4,218,13],
+"d9/dc5/soundlist_8qc.html#af50b0ed8dccaa8291ca24f628a62be8a":[2,0,5,4,218,2],
 "d9/dc5/soundlist_8qc_source.html":[2,0,5,4,218],
 "d9/dc7/turrets_2turret_2machinegun_8qh.html":[2,0,1,14,0,21],
 "d9/dc7/turrets_2turret_2machinegun_8qh.html#aecbe2e46be1185432a33bbc16b9e3026":[2,0,1,14,0,21,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX85 =
 "d9/deb/classXonoticHUDTimerDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,203,28],
 "d9/deb/classXonoticHUDTimerDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,203,6],
 "d9/deb/classXonoticHUDTimerDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,203,44],
-"d9/deb/classXonoticHUDTimerDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,203,54],
-"d9/deb/classXonoticHUDTimerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,203,1],
-"d9/deb/classXonoticHUDTimerDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,203,12],
-"d9/deb/classXonoticHUDTimerDialog.html#a43eac0d1e22668e15dac104b83dc17dd":[1,0,203,22],
-"d9/deb/classXonoticHUDTimerDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,203,73],
-"d9/deb/classXonoticHUDTimerDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,203,21]
+"d9/deb/classXonoticHUDTimerDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,203,54]
 };

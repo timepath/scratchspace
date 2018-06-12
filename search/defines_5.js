@@ -31,6 +31,7 @@ var searchData=
   ['ev_5fallowmobbutcher',['EV_AllowMobButcher',['../d6/ddd/server_2mutators_2events_8qh.html#a05f54275e33dee1147c8c5811d03e261',1,'events.qh']]],
   ['ev_5fallowmobspawning',['EV_AllowMobSpawning',['../d6/ddd/server_2mutators_2events_8qh.html#acb6b40b7e533c6c5161ebc3473365bc9',1,'events.qh']]],
   ['ev_5fannounceroption',['EV_AnnouncerOption',['../d8/d0e/client_2mutators_2events_8qh.html#a25bfd691414ad6357c67077eb7917f73',1,'events.qh']]],
+  ['ev_5fautojoinonconnection',['EV_AutoJoinOnConnection',['../d6/ddd/server_2mutators_2events_8qh.html#abad526984137a7bd9f74061cd50562a7',1,'events.qh']]],
   ['ev_5fbot_5ffixcount',['EV_Bot_FixCount',['../d6/ddd/server_2mutators_2events_8qh.html#a644db3c174f0b5c02e2e5b399b30b70d',1,'events.qh']]],
   ['ev_5fbotshouldattack',['EV_BotShouldAttack',['../d6/ddd/server_2mutators_2events_8qh.html#a6387e22b41332282ac9bf8c743a774a9',1,'events.qh']]],
   ['ev_5fbuffmodel_5fcustomize',['EV_BuffModel_Customize',['../d6/ddd/server_2mutators_2events_8qh.html#aace387db280fd4d72f74eeea6256fd14',1,'events.qh']]],

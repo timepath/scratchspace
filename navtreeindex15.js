@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"d1/df8/lightningarc_8qc_source.html":[2,0,1,2,0,10],
+"d1/df8/mlrs__weapon_8qc.html":[2,0,1,14,0,26],
 "d1/df8/mlrs__weapon_8qc_source.html":[2,0,1,14,0,26],
 "d1/dfd/flac__weapon_8qh.html":[2,0,1,14,0,9],
 "d1/dfd/flac__weapon_8qh.html#aa6913b38d25461cdbe2fed7c405630e0":[2,0,1,14,0,9,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a2e9d5ae39f9cd77842ba6f37e0f17c82":[1,0,171,67],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,171,18],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,171,20],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,171,13],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,171,59],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,171,28]
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,171,13]
 };

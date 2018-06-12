@@ -1,5 +1,10 @@
 var NAVTREEINDEX82 =
 {
+"d9/d4f/deathtypes_2all_8qh.html#aef6fa079502aff69a43b0627c85d8efb":[2,0,1,1,4,20],
+"d9/d4f/deathtypes_2all_8qh_source.html":[2,0,1,1,4],
+"d9/d51/intrusivelist_8qh.html":[2,0,4,24],
+"d9/d51/intrusivelist_8qh.html#a083743d5b35bd05fe3438b4a1f9adab1":[2,0,4,24,14],
+"d9/d51/intrusivelist_8qh.html#a15824e121406233afa92238ad4f8ac0a":[2,0,4,24,13],
 "d9/d51/intrusivelist_8qh.html#a174c5e1663141fca4c79834b1b4d71e1":[2,0,4,24,20],
 "d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556":[2,0,4,24,19],
 "d9/d51/intrusivelist_8qh.html#a216380637a63d5b22d7db4ccaa575eac":[2,0,4,24,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX82 =
 "d9/d67/common_2gamemodes_2__mod_8inc_source.html":[2,0,1,3,1],
 "d9/d67/turret_8qh.html":[2,0,1,14,15],
 "d9/d67/turret_8qh.html#a02f4425939723a8f3fcc0cf7b6f2cef0":[2,0,1,14,15,91],
-"d9/d67/turret_8qh.html#a0a361d9783482bb833eaee8f7a495778":[2,0,1,14,15,61],
-"d9/d67/turret_8qh.html#a0a5ba228ea10877a8767fb0cbb1b4a5f":[2,0,1,14,15,48],
-"d9/d67/turret_8qh.html#a0a9cdc73840412292168070aa88028c4":[2,0,1,14,15,95],
-"d9/d67/turret_8qh.html#a0d102afb12aa277b4ed0f115a3fea952":[2,0,1,14,15,36],
-"d9/d67/turret_8qh.html#a18df068610050c4bba9a48c21f2ece04":[2,0,1,14,15,23],
-"d9/d67/turret_8qh.html#a1b17700f4b482d033a42877d84068f1b":[2,0,1,14,15,75]
+"d9/d67/turret_8qh.html#a0a361d9783482bb833eaee8f7a495778":[2,0,1,14,15,61]
 };

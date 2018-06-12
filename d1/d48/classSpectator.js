@@ -8,6 +8,7 @@ var classSpectator =
     [ "accuracy", "d1/d48/classSpectator.html#a7c8df93f8d890fe9c559215401df85e3", null ],
     [ "active_minigame", "d1/d48/classSpectator.html#a91b092f35e86a03d3ed8313f355eefcf", null ],
     [ "allowed_timeouts", "d1/d48/classSpectator.html#a95f22e07598510ef39de6c6225e07e95", null ],
+    [ "autojoin_checked", "d1/d48/classSpectator.html#a1cf874d43029147ab8f2a537b17c5eb1", null ],
     [ "autoswitch", "d1/d48/classSpectator.html#a2b7697358e33aa388b9cd99b7f0b2794", null ],
     [ "button0", "d1/d48/classSpectator.html#a9949f317e826a11c87e0d5c76aa4404f", null ],
     [ "button10", "d1/d48/classSpectator.html#a7e1a3186ea83b5cbc944abb9dd299ccb", null ],

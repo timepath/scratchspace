@@ -1,5 +1,8 @@
 var NAVTREEINDEX20 =
 {
+"d2/db4/string_8qh.html#ab38904ebe2d7ba412716db9fb92dc3cb":[2,0,4,58,25],
+"d2/db4/string_8qh.html#ab3e0957f7f441bf477eb9e5c9d9a17f1":[2,0,4,58,36],
+"d2/db4/string_8qh.html#ab3eb2270af4613832a52d512e62e4f40":[2,0,4,58,16],
 "d2/db4/string_8qh.html#ab4a763bbfa941f4b63cf5b5fd018345c":[2,0,4,58,32],
 "d2/db4/string_8qh.html#ab9cc51225f98703626978ab0de95744b":[2,0,4,58,0],
 "d2/db4/string_8qh.html#abcc29d17efe4fff029717d5a8ed99c3e":[2,0,4,58,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX20 =
 "d2/dcc/sv__cmd_8qh_source.html":[2,0,6,1,15],
 "d2/dce/dialog__hudpanel__powerups_8qc.html":[2,0,5,4,64],
 "d2/dce/dialog__hudpanel__powerups_8qc.html#a2db7b4af42002188cf03660c88108ddf":[2,0,5,4,64,0],
-"d2/dce/dialog__hudpanel__powerups_8qc_source.html":[2,0,5,4,64],
-"d2/dce/promise_8qc.html":[2,0,4,44],
-"d2/dce/promise_8qc.html#a249614263d20d2a581e3745646d36c59":[2,0,4,44,26],
-"d2/dce/promise_8qc.html#a32d6c9ec840f039aae137c6edceb546f":[2,0,4,44,12]
+"d2/dce/dialog__hudpanel__powerups_8qc_source.html":[2,0,5,4,64]
 };
