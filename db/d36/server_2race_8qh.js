@@ -20,6 +20,7 @@ var server_2race_8qh =
     [ "race_SendRankings", "db/d36/server_2race_8qh.html#a2b2a6102f551e81871f8b1e030a2e9e0", null ],
     [ "race_setTime", "db/d36/server_2race_8qh.html#ad40c8cd52859377201760075057590a0", null ],
     [ "race_StartCompleting", "db/d36/server_2race_8qh.html#a98ec5468ec6281fade27fb92541c7174", null ],
+    [ "spawnfunc", "db/d36/server_2race_8qh.html#a696329dda631e76ee7c5542c9fabc8a5", null ],
     [ "STATIC_INIT", "db/d36/server_2race_8qh.html#a20f130b5dc3608fb7738ab51bd0fd3ba", null ],
     [ "autocvar_g_cts_send_rankings_cnt", "db/d36/server_2race_8qh.html#add05daf56f22c7ae8c345b7b400bab1e", null ],
     [ "g_race_qualifying", "db/d36/server_2race_8qh.html#a7e260fe5773769b74b068a6483ddb83d", null ],

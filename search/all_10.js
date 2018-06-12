@@ -616,7 +616,7 @@ var searchData=
   ['portal_5fspawninportalattrace',['Portal_SpawnInPortalAtTrace',['../de/de8/portals_8qc.html#adb9a4eb4faff19f5377e0ec7d7c2632f',1,'Portal_SpawnInPortalAtTrace(entity own, vector dir, float portal_id_val):&#160;portals.qc'],['../d2/d21/portals_8qh.html#ad6014ad4c8afce121d5183314be58543',1,'Portal_SpawnInPortalAtTrace(entity own, vector dir, float id):&#160;portals.qc']]],
   ['portal_5fspawnoutportalattrace',['Portal_SpawnOutPortalAtTrace',['../de/de8/portals_8qc.html#a701b865d8e05ebcc34d0e4bc2dbaf099',1,'Portal_SpawnOutPortalAtTrace(entity own, vector dir, float portal_id_val):&#160;portals.qc'],['../d2/d21/portals_8qh.html#a8849dab687b3151d500f6338dd1a66a2',1,'Portal_SpawnOutPortalAtTrace(entity own, vector dir, float id):&#160;portals.qc']]],
   ['portal_5fteleportplayer',['Portal_TeleportPlayer',['../de/de8/portals_8qc.html#a919a724c4997049c1316cda5adb99d52',1,'portals.qc']]],
-  ['portal_5fthink',['Portal_Think',['../de/de8/portals_8qc.html#a094624b4f82802e6d53a8b12f370727f',1,'portals.qc']]],
+  ['portal_5fthink',['Portal_Think',['../de/de8/portals_8qc.html#a094624b4f82802e6d53a8b12f370727f',1,'Portal_Think(entity this):&#160;portals.qc'],['../d2/d21/portals_8qh.html#a094624b4f82802e6d53a8b12f370727f',1,'Portal_Think(entity this):&#160;portals.qc']]],
   ['portal_5fthink_5ftryteleportplayer',['Portal_Think_TryTeleportPlayer',['../de/de8/portals_8qc.html#a5ceb346f0a2fd166c47465cf73c6af78',1,'portals.qc']]],
   ['portal_5ftouch',['Portal_Touch',['../de/de8/portals_8qc.html#afb9c655ff00c5556b90c9b759154bace',1,'portals.qc']]],
   ['portal_5ftransform',['portal_transform',['../de/de8/portals_8qc.html#ae3ce02e26dea768820d80305db0e64e8',1,'portals.qc']]],
@@ -634,7 +634,7 @@ var searchData=
   ['positionsortbutton',['positionSortButton',['../d2/dec/classXonoticServerList.html#a44a06bcb45a11bcb45950cf46054c37f',1,'XonoticServerList']]],
   ['positive_5fpitch_5fis_5fdown',['POSITIVE_PITCH_IS_DOWN',['../df/dee/anglestransform_8qh.html#a0909075e90b39b50ba4d318a27871c4c',1,'anglestransform.qh']]],
   ['post_2eqh',['post.qh',['../d6/da0/post_8qh.html',1,'']]],
-  ['postinit',['postinit',['../d0/d2a/client_2main_8qh.html#ac2c74229b57db3567e177821f9ee120a',1,'postinit():&#160;main.qh'],['../df/d30/client_2main_8qc.html#a46ab77a8e6731f82b57ed43c3fe5eeea',1,'PostInit():&#160;main.qc'],['../d6/dd3/view_8qc.html#a46ab77a8e6731f82b57ed43c3fe5eeea',1,'PostInit():&#160;main.qc']]],
+  ['postinit',['PostInit',['../df/d30/client_2main_8qc.html#a46ab77a8e6731f82b57ed43c3fe5eeea',1,'PostInit():&#160;main.qc'],['../d6/dd3/view_8qc.html#a46ab77a8e6731f82b57ed43c3fe5eeea',1,'PostInit():&#160;main.qc'],['../d0/d2a/client_2main_8qh.html#ac2c74229b57db3567e177821f9ee120a',1,'postinit():&#160;main.qh']]],
   ['postmenudraw',['postMenuDraw',['../d0/d41/menu_8qh.html#a7a28b2aedbcabdb5e69a23eaf843e669',1,'postMenuDraw():&#160;util.qc'],['../df/d9b/menu_2xonotic_2util_8qc.html#a7a28b2aedbcabdb5e69a23eaf843e669',1,'postMenuDraw():&#160;util.qc']]],
   ['pow',['pow',['../d4/dfb/lib_2__all_8inc.html#aa391d511789e8a504009e65ff2903c9d',1,'pow():&#160;_all.inc'],['../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d',1,'pow(float a, float b):&#160;menudefs.qc']]],
   ['power2of',['power2of',['../d0/d79/math_8qh.html#a75b3d35654d365097112d73cca34acd6',1,'math.qh']]],
@@ -868,7 +868,7 @@ var searchData=
   ['pusher',['pusher',['../dd/d2d/teleporters_8qh.html#a798f63d3b40c416811743d9bfc9b1d28',1,'pusher():&#160;teleporters.qh'],['../dd/de4/g__damage_8qh.html#a798f63d3b40c416811743d9bfc9b1d28',1,'pusher():&#160;g_damage.qh'],['../da/dc1/server_2player_8qh.html#a798f63d3b40c416811743d9bfc9b1d28',1,'pusher():&#160;player.qh']]],
   ['pushltime',['pushltime',['../d9/de7/jumppads_8qh.html#aea48339798453aef3726fe26f97a9bc2',1,'pushltime():&#160;jumppads.qh'],['../da/dc1/server_2player_8qh.html#aea48339798453aef3726fe26f97a9bc2',1,'pushltime():&#160;player.qh']]],
   ['putclientinserver',['PutClientInServer',['../df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a',1,'PutClientInServer(this):&#160;client.qc'],['../df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951',1,'PutClientInServer(entity this):&#160;client.qc']]],
-  ['putobserverinserver',['PutObserverInServer',['../df/dd7/server_2client_8qc.html#a5e3082357cac2361155d16ee49c91224',1,'PutObserverInServer(entity this):&#160;client.qc'],['../d3/df2/sv__cmd_8qc.html#a5e3082357cac2361155d16ee49c91224',1,'PutObserverInServer(entity this):&#160;client.qc']]],
+  ['putobserverinserver',['PutObserverInServer',['../df/dd7/server_2client_8qc.html#a5e3082357cac2361155d16ee49c91224',1,'PutObserverInServer(entity this):&#160;client.qc'],['../d8/de2/server_2client_8qh.html#a5e3082357cac2361155d16ee49c91224',1,'PutObserverInServer(entity this):&#160;client.qc']]],
   ['putplayerinserver',['PutPlayerInServer',['../df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3',1,'client.qc']]],
   ['pymod',['pymod',['../df/d38/mathlib_8qc.html#af2ebfe97850db3a54400d8ae78b1461b',1,'pymod(float e, float f):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#af2ebfe97850db3a54400d8ae78b1461b',1,'pymod(float e, float f):&#160;mathlib.qc']]]
 ];

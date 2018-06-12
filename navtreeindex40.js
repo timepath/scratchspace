@@ -1,5 +1,15 @@
 var NAVTREEINDEX40 =
 {
+"d4/d90/skin-customizables_8inc.html#ae24388de01dfb5075f8f99a5d6d81227":[2,0,5,18,99],
+"d4/d90/skin-customizables_8inc.html#ae384e8a8bc174c28980d592539f80a09":[2,0,5,18,67],
+"d4/d90/skin-customizables_8inc.html#ae38fa993de44e3c61f06ebefd744c1c7":[2,0,5,18,16],
+"d4/d90/skin-customizables_8inc.html#ae43a0d4dd61e828da9b41a5743fe42f7":[2,0,5,18,60],
+"d4/d90/skin-customizables_8inc.html#ae83c3a5d031bba394651e8e7a49446fe":[2,0,5,18,116],
+"d4/d90/skin-customizables_8inc.html#aedd413f93d646fdfb46fbf412afc453c":[2,0,5,18,128],
+"d4/d90/skin-customizables_8inc.html#aee9559c8ba7bbc96fa2a78185e6e660a":[2,0,5,18,65],
+"d4/d90/skin-customizables_8inc.html#aeea98dc13fa5a1513e667373461921c7":[2,0,5,18,22],
+"d4/d90/skin-customizables_8inc.html#af03d23810278917149a860ae7e463b35":[2,0,5,18,25],
+"d4/d90/skin-customizables_8inc.html#af23bb2255a965204a6b5dfccb0568092":[2,0,5,18,121],
 "d4/d90/skin-customizables_8inc.html#af30cf9cf2059169cd90e34cc89078947":[2,0,5,18,15],
 "d4/d90/skin-customizables_8inc.html#af34fce2e23e24ceb9603765d4758ab3a":[2,0,5,18,50],
 "d4/d90/skin-customizables_8inc.html#af427ee82374403f2fa962ad874a9676e":[2,0,5,18,87],
@@ -239,15 +249,5 @@ var NAVTREEINDEX40 =
 "d4/d93/classPickup.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,101,5],
 "d4/d93/classPickup.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,101,12],
 "d4/d94/classXonoticHUDVoteDialog.html":[1,0,204],
-"d4/d94/classXonoticHUDVoteDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,204,30],
-"d4/d94/classXonoticHUDVoteDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,204,11],
-"d4/d94/classXonoticHUDVoteDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,204,38],
-"d4/d94/classXonoticHUDVoteDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,204,3],
-"d4/d94/classXonoticHUDVoteDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,204,82],
-"d4/d94/classXonoticHUDVoteDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,204,80],
-"d4/d94/classXonoticHUDVoteDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,204,46],
-"d4/d94/classXonoticHUDVoteDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,204,24],
-"d4/d94/classXonoticHUDVoteDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,204,17],
-"d4/d94/classXonoticHUDVoteDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,204,72],
-"d4/d94/classXonoticHUDVoteDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,204,69]
+"d4/d94/classXonoticHUDVoteDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,204,30]
 };

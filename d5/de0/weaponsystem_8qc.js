@@ -21,7 +21,6 @@ var weaponsystem_8qc =
     [ "weapon_prepareattack_checkammo", "d5/de0/weaponsystem_8qc.html#ac1e5d3a9a2d4fb2b5105efcb08fba822", null ],
     [ "weapon_prepareattack_do", "d5/de0/weaponsystem_8qc.html#a8333b89e537957bfd5529a40b6c3a19d", null ],
     [ "weapon_thinkf", "d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49", null ],
-    [ "wframe_send", "d5/de0/weaponsystem_8qc.html#ad121c05ab5bd334ef01604c5db34c005", null ],
     [ "hook_switchweapon", "d5/de0/weaponsystem_8qc.html#af1db5c42a721484bc8d112cf227abbd6", null ],
     [ "m_alpha", "d5/de0/weaponsystem_8qc.html#ac3dc9d68570cfcacf32d6f0e7fcf2ed8", null ],
     [ "prevdryfire", "d5/de0/weaponsystem_8qc.html#a87be562254bc4d6bc2d01f3def1ec6a1", null ],

@@ -1,5 +1,6 @@
 var server_2command_2vote_8qh =
 [
+    [ "Nagger_Init", "d7/d16/server_2command_2vote_8qh.html#a46448826729592b90ee5ec53da2e0fe6", null ],
     [ "ReadyCount", "d7/d16/server_2command_2vote_8qh.html#a11f792d86f16e821bb9f127715f2234e", null ],
     [ "ReadyRestart_force", "d7/d16/server_2command_2vote_8qh.html#a6b7b78c23e6cfd78e7d1e09d1e44ed9d", null ],
     [ "reset_map", "d7/d16/server_2command_2vote_8qh.html#a62d1fce00cb89ca61d52532204e21db0", null ],

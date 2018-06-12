@@ -7,6 +7,7 @@ var portals_8qh =
     [ "Portal_ClearWithID", "d2/d21/portals_8qh.html#a9fc26b0745f3d64c350be8b74ec0e183", null ],
     [ "Portal_SpawnInPortalAtTrace", "d2/d21/portals_8qh.html#ad6014ad4c8afce121d5183314be58543", null ],
     [ "Portal_SpawnOutPortalAtTrace", "d2/d21/portals_8qh.html#a8849dab687b3151d500f6338dd1a66a2", null ],
+    [ "Portal_Think", "d2/d21/portals_8qh.html#a094624b4f82802e6d53a8b12f370727f", null ],
     [ "portal_id", "d2/d21/portals_8qh.html#aa7888e75b7d89e1cb50bfd932495c37b", null ],
     [ "portal_in", "d2/d21/portals_8qh.html#a00ff6c6d1511fa979790a1465dbd8c45", null ],
     [ "portal_out", "d2/d21/portals_8qh.html#a9b9176b9114c0b555c5d64afe62f166c", null ]

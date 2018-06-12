@@ -1,5 +1,13 @@
 var NAVTREEINDEX75 =
 {
+"d8/da8/xonotic_2nexposee_8qc.html#ae25f64a5661a1f208a0bd0f671331303":[2,0,5,4,182,0],
+"d8/da8/xonotic_2nexposee_8qc_source.html":[2,0,5,4,182],
+"d8/dae/music_8qc.html":[2,0,1,6,2,10],
+"d8/dae/music_8qc_source.html":[2,0,1,6,2,10],
+"d8/db3/slider__decibels_8qc.html":[2,0,5,4,208],
+"d8/db3/slider__decibels_8qc.html#a13f465b048489a8a935abc23b76f43cd":[2,0,5,4,208,9],
+"d8/db3/slider__decibels_8qc.html#a231f02af2977bc665b9ef7cc8d6dcf00":[2,0,5,4,208,3],
+"d8/db3/slider__decibels_8qc.html#a41de33f3e9ba6abe242ca82c83f5f014":[2,0,5,4,208,6],
 "d8/db3/slider__decibels_8qc.html#a8069769b4af3b799387654e5dc25302e":[2,0,5,4,208,0],
 "d8/db3/slider__decibels_8qc.html#ab3d904b0d683f7a811ca372a2bd49f5a":[2,0,5,4,208,2],
 "d8/db3/slider__decibels_8qc.html#abaf4ab8aaf726d4069cb6e2fc485948e":[2,0,5,4,208,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX75 =
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#aaa0f988701dbafcda468124fd8a423a8":[2,0,1,10,0,39,3,3],
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#ac534dfd1c9dfa2a364aa7b73eb0a66e8":[2,0,1,10,0,39,3,12],
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#acd1023667128c7b2700ec9843069b95b":[2,0,1,10,0,39,3,20],
-"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#ae061f2af24dd0ba16f8779dff011e399":[2,0,1,10,0,39,3,11],
-"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#aee58ab3c2b2221c72bff8efa74da352a":[2,0,1,10,0,39,3,21],
-"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#afd4efdecaabcc967d352594cacfddd00":[2,0,1,10,0,39,3,17],
-"d8/dcb/mutators_2mutator_2waypoints_2all_8qh_source.html":[2,0,1,10,0,39,3],
-"d8/dcc/classKeyHunt.html":[1,0,64],
-"d8/dcc/classKeyHunt.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,64,1],
-"d8/dcc/classKeyHunt.html#a353db82280437c3b38f0ad1934a7d666":[1,0,64,16],
-"d8/dcc/classKeyHunt.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,64,12],
-"d8/dcc/classKeyHunt.html#a4b9840a3c603c77c47ab8e60ffc27573":[1,0,64,11]
+"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#ae061f2af24dd0ba16f8779dff011e399":[2,0,1,10,0,39,3,11]
 };

@@ -27,7 +27,7 @@ var searchData=
   ['nades_5fclear',['nades_Clear',['../d0/de4/sv__onslaught_8qc.html#ab106e734b4687c7b25b43e1e81a5899d',1,'sv_onslaught.qc']]],
   ['nades_5ffrom',['Nades_from',['../da/d3e/nades_8qh.html#a287e485b78921bfb12751b2ef06e0460',1,'nades.qh']]],
   ['nagger',['nagger',['../d7/d16/server_2command_2vote_8qh.html#a563ec6544164649c6a41190259018c1f',1,'vote.qh']]],
-  ['nagger_5finit',['Nagger_Init',['../d1/dad/server_2command_2vote_8qc.html#a46448826729592b90ee5ec53da2e0fe6',1,'Nagger_Init():&#160;vote.qc'],['../db/dcc/g__world_8qc.html#a46448826729592b90ee5ec53da2e0fe6',1,'Nagger_Init():&#160;vote.qc']]],
+  ['nagger_5finit',['Nagger_Init',['../d1/dad/server_2command_2vote_8qc.html#a46448826729592b90ee5ec53da2e0fe6',1,'Nagger_Init():&#160;vote.qc'],['../d7/d16/server_2command_2vote_8qh.html#a46448826729592b90ee5ec53da2e0fe6',1,'Nagger_Init():&#160;vote.qc']]],
   ['nagger_5freadycounted',['Nagger_ReadyCounted',['../d1/dad/server_2command_2vote_8qc.html#a8d1f0d6bff6c0f65f7f206d4445d0f56',1,'vote.qc']]],
   ['nagger_5fsendentity',['Nagger_SendEntity',['../d1/dad/server_2command_2vote_8qc.html#aeb5a1f746f1d97c3cc25df64e6b0ef68',1,'vote.qc']]],
   ['nagger_5fvotechanged',['Nagger_VoteChanged',['../d1/dad/server_2command_2vote_8qc.html#a9c49c9479913e0acfad979107e6ee3f7',1,'vote.qc']]],

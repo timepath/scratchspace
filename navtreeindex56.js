@@ -1,5 +1,13 @@
 var NAVTREEINDEX56 =
 {
+"d6/dbd/minigames_8qh_source.html":[2,0,1,7,8],
+"d6/dbf/dialog__settings__misc_8qh.html":[2,0,5,4,145],
+"d6/dbf/dialog__settings__misc_8qh.html#a5786cd08c685fc121f4bb2b2a0941e75":[2,0,5,4,145,1],
+"d6/dbf/dialog__settings__misc_8qh_source.html":[2,0,5,4,145],
+"d6/dbf/maplist_8qh.html":[2,0,5,4,181],
+"d6/dbf/maplist_8qh.html#a1b4eddbd7e834677492229d25d24b8d0":[2,0,5,4,181,7],
+"d6/dbf/maplist_8qh.html#a855dbd3ffe4b0bb76e5161e0e7f33e0d":[2,0,5,4,181,8],
+"d6/dbf/maplist_8qh.html#a9976b4694579990176beabe321eb1fb5":[2,0,5,4,181,5],
 "d6/dbf/maplist_8qh.html#aa9263c5b705f45b060442d7f10da11e5":[2,0,5,4,181,1],
 "d6/dbf/maplist_8qh.html#aaaa78078daa37c70d24c60050c1df44b":[2,0,5,4,181,3],
 "d6/dbf/maplist_8qh.html#ae748f862222e209d8709137d29929d2c":[2,0,5,4,181,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX56 =
 "d6/dce/sounds_2all_8inc_source.html":[2,0,1,13,2],
 "d6/dd0/okmachinegun_8qh.html":[2,0,1,10,0,23,7],
 "d6/dd0/okmachinegun_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,10,0,23,7,1],
-"d6/dd0/okmachinegun_8qh.html#a69a1be6aac76bbffbc85d1a64d957384":[2,0,1,10,0,23,7,2],
-"d6/dd0/okmachinegun_8qh_source.html":[2,0,1,10,0,23,7],
-"d6/dd1/classXonoticHUDCenterprintDialog.html":[1,0,185],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,185,30],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,185,11],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,185,38],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,185,3],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,185,82],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,185,80]
+"d6/dd0/okmachinegun_8qh.html#a69a1be6aac76bbffbc85d1a64d957384":[2,0,1,10,0,23,7,2]
 };

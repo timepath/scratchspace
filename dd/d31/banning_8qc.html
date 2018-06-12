@@ -372,7 +372,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../dd/d31/banning_8qc_source.html#l00288">BanCommand_macro_command()</a>, and <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00024">tokenize_console</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01783">GameCommand()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01776">GameCommand()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;{</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="keywordtype">float</span> argc = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a>(command);</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
@@ -443,7 +443,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d31/banning_8qc_source.html#l00021">21</a> of file <a class="el" href="../../dd/d31/banning_8qc_source.html">banning.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00098">autocvar_g_ban_default_bantime</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00493">Ban_Insert()</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>, <a class="el" href="../../de/dbd/banning_8qh_source.html#l00008">GET_BAN_ARG</a>, <a class="el" href="../../de/dbd/banning_8qh_source.html#l00009">GET_BAN_REASON</a>, and <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00098">autocvar_g_ban_default_bantime</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00491">Ban_Insert()</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>, <a class="el" href="../../de/dbd/banning_8qh_source.html#l00008">GET_BAN_ARG</a>, <a class="el" href="../../de/dbd/banning_8qh_source.html#l00009">GET_BAN_REASON</a>, and <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>.</p>
 <div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div>
@@ -460,7 +460,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                <a class="code" href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a>(bantime, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ad351a5b10dd698f9d4bc03bc2547328c">autocvar_g_ban_default_bantime</a>);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                <a class="code" href="../../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe">GET_BAN_REASON</a>(reason, <span class="stringliteral">&quot;No reason provided&quot;</span>);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <a class="code" href="../../de/dbd/banning_8qh.html#a808faa01ebcd03108b55a09f87bcabe5">Ban_Insert</a>(ip, bantime, reason, 1);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <a class="code" href="../../d6/d95/ipban_8qc.html#a808faa01ebcd03108b55a09f87bcabe5">Ban_Insert</a>(ip, bantime, reason, 1);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }</div>
@@ -478,10 +478,10 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<div class="ttc" id="ipban_8qc_html_a808faa01ebcd03108b55a09f87bcabe5"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#a808faa01ebcd03108b55a09f87bcabe5">Ban_Insert</a></div><div class="ttdeci">float Ban_Insert(string ip, float bantime, string reason, float dosync)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00491">ipban.qc:491</a></div></div>
 <div class="ttc" id="banning_8qh_html_a0e7455562aacf2de0c12a8445306ed5b"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a></div><div class="ttdeci">#define GET_BAN_ARG(v, d)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dbd/banning_8qh_source.html#l00008">banning.qh:8</a></div></div>
 <div class="ttc" id="common_2command_2command_8qh_html_ab9e24d8681128fd9913308f8dc3e026a"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a></div><div class="ttdeci">const int CMD_REQUEST_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">command.qh:4</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_ad351a5b10dd698f9d4bc03bc2547328c"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ad351a5b10dd698f9d4bc03bc2547328c">autocvar_g_ban_default_bantime</a></div><div class="ttdeci">float autocvar_g_ban_default_bantime</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00098">autocvars.qh:98</a></div></div>
-<div class="ttc" id="banning_8qh_html_a808faa01ebcd03108b55a09f87bcabe5"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#a808faa01ebcd03108b55a09f87bcabe5">Ban_Insert</a></div><div class="ttdeci">float Ban_Insert(string ip, float bantime, string reason, float dosync)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00493">ipban.qc:493</a></div></div>
 <div class="ttc" id="common_2command_2command_8qh_html_a07f6d442e5d9ae5399caa2ee6d795f04"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a></div><div class="ttdeci">const int CMD_REQUEST_COMMAND</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">command.qh:3</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
@@ -515,13 +515,13 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d31/banning_8qc_source.html#l00057">57</a> of file <a class="el" href="../../dd/d31/banning_8qc_source.html">banning.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00323">Ban_View()</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>, and <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>.</p>
+<p>References <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00321">Ban_View()</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>, and <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>.</p>
 <div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <a class="code" href="../../de/dbd/banning_8qh.html#a1a7772963018e41992c65dfbe12b63fe">Ban_View</a>();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <a class="code" href="../../d6/d95/ipban_8qc.html#a1a7772963018e41992c65dfbe12b63fe">Ban_View</a>();</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        }</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
@@ -535,10 +535,10 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
+<div class="ttc" id="ipban_8qc_html_a1a7772963018e41992c65dfbe12b63fe"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#a1a7772963018e41992c65dfbe12b63fe">Ban_View</a></div><div class="ttdeci">void Ban_View()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00321">ipban.qc:321</a></div></div>
 <div class="ttc" id="common_2command_2command_8qh_html_ab9e24d8681128fd9913308f8dc3e026a"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a></div><div class="ttdeci">const int CMD_REQUEST_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">command.qh:4</a></div></div>
 <div class="ttc" id="common_2command_2command_8qh_html_a07f6d442e5d9ae5399caa2ee6d795f04"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a></div><div class="ttdeci">const int CMD_REQUEST_COMMAND</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">command.qh:3</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
-<div class="ttc" id="banning_8qh_html_a1a7772963018e41992c65dfbe12b63fe"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#a1a7772963018e41992c65dfbe12b63fe">Ban_View</a></div><div class="ttdeci">void Ban_View()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00323">ipban.qc:323</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -584,7 +584,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d31/banning_8qc_source.html#l00078">78</a> of file <a class="el" href="../../dd/d31/banning_8qc_source.html">banning.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00098">autocvar_g_ban_default_bantime</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00099">autocvar_g_ban_default_masksize</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00570">Ban_KickBanClient()</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../de/dbd/banning_8qh_source.html#l00008">GET_BAN_ARG</a>, <a class="el" href="../../de/dbd/banning_8qh_source.html#l00009">GET_BAN_REASON</a>, <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00079">GetClientErrorString</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00079">GetIndexedEntity()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00063">next_token</a>, and <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00036">VerifyKickableEntity()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00098">autocvar_g_ban_default_bantime</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00099">autocvar_g_ban_default_masksize</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00568">Ban_KickBanClient()</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../de/dbd/banning_8qh_source.html#l00008">GET_BAN_ARG</a>, <a class="el" href="../../de/dbd/banning_8qh_source.html#l00009">GET_BAN_REASON</a>, <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00079">GetClientErrorString</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00079">GetIndexedEntity()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00063">next_token</a>, and <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00036">VerifyKickableEntity()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
@@ -605,7 +605,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a>(masksize, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ade7c91d7a953c8eb6d8a172aee7fa66f">autocvar_g_ban_default_masksize</a>);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe">GET_BAN_REASON</a>(reason, <span class="stringliteral">&quot;No reason provided&quot;</span>);</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#ac89ccc1209193c2c02b5d3f992b8ec69">Ban_KickBanClient</a>(client, bantime, masksize, reason);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                    <a class="code" href="../../d6/d95/ipban_8qc.html#ac89ccc1209193c2c02b5d3f992b8ec69">Ban_KickBanClient</a>(client, bantime, masksize, reason);</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                }</div>
@@ -639,10 +639,10 @@ Functions</h2></td></tr>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
 <div class="ttc" id="server_2command_2common_8qh_html_a26c245e2f5023bf7fb274f14cde7ec74"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74">GetClientErrorString</a></div><div class="ttdeci">#define GetClientErrorString(clienterror, original_input)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d06/server_2command_2common_8qh_source.html#l00079">common.qh:79</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
+<div class="ttc" id="ipban_8qc_html_ac89ccc1209193c2c02b5d3f992b8ec69"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#ac89ccc1209193c2c02b5d3f992b8ec69">Ban_KickBanClient</a></div><div class="ttdeci">void Ban_KickBanClient(entity client, float bantime, float masksize, string reason)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00568">ipban.qc:568</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_ade7c91d7a953c8eb6d8a172aee7fa66f"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ade7c91d7a953c8eb6d8a172aee7fa66f">autocvar_g_ban_default_masksize</a></div><div class="ttdeci">float autocvar_g_ban_default_masksize</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00099">autocvars.qh:99</a></div></div>
 <div class="ttc" id="server_2command_2common_8qc_html_a227052057c08e1288dd13a4e7bfc5508"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#a227052057c08e1288dd13a4e7bfc5508">GetIndexedEntity</a></div><div class="ttdeci">entity GetIndexedEntity(float argc, float start_index)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00079">common.qc:79</a></div></div>
 <div class="ttc" id="banning_8qh_html_a756c765021c19ce2f9ac91dbc889bdfe"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe">GET_BAN_REASON</a></div><div class="ttdeci">#define GET_BAN_REASON(v, d)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dbd/banning_8qh_source.html#l00009">banning.qh:9</a></div></div>
-<div class="ttc" id="banning_8qh_html_ac89ccc1209193c2c02b5d3f992b8ec69"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#ac89ccc1209193c2c02b5d3f992b8ec69">Ban_KickBanClient</a></div><div class="ttdeci">void Ban_KickBanClient(entity client, float bantime, float masksize, string reason)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00570">ipban.qc:570</a></div></div>
 <div class="ttc" id="server_2command_2common_8qc_html_aab19b445aac1c8d745c4c56c516db0d1"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#aab19b445aac1c8d745c4c56c516db0d1">VerifyKickableEntity</a></div><div class="ttdeci">float VerifyKickableEntity(entity client)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00036">common.qc:36</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -727,7 +727,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../dd/d31/banning_8qc_source.html#l00270">BAN_COMMANDS</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01783">GameCommand()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01776">GameCommand()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;{</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor">    #define BAN_COMMAND(name, function, description) \</span></div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor">        { if (strtolower(description) != &quot;&quot;) { LOG_INFO(&quot;  ^2&quot;, name, &quot;^7: &quot;, description); } }</span></div>
@@ -767,7 +767,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../dd/d31/banning_8qc_source.html#l00270">BAN_COMMANDS</a>, and <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01783">GameCommand()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01776">GameCommand()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;{</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor">    #define BAN_COMMAND(name, function, description) \</span></div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="preprocessor">        { if (name == strtolower(argv(1))) { function; return true; } }</span></div>
@@ -946,7 +946,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d31/banning_8qc_source.html#l00160">160</a> of file <a class="el" href="../../dd/d31/banning_8qc_source.html">banning.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00281">Ban_Delete()</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00279">Ban_Delete()</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">CMD_REQUEST_USAGE</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;{</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    {</div>
@@ -975,7 +975,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                <span class="keywordflow">if</span> (tmp_number &gt;= 0)</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                {</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#ab915b826ebbe3fa641b6dcf17dbe4fc3">Ban_Delete</a>(tmp_number);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                    <a class="code" href="../../d6/d95/ipban_8qc.html#ab915b826ebbe3fa641b6dcf17dbe4fc3">Ban_Delete</a>(tmp_number);</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                }</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            }</div>
@@ -995,9 +995,9 @@ Functions</h2></td></tr>
 <div class="ttc" id="common_2command_2command_8qh_html_ab9e24d8681128fd9913308f8dc3e026a"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a></div><div class="ttdeci">const int CMD_REQUEST_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">command.qh:4</a></div></div>
 <div class="ttc" id="common_2command_2command_8qh_html_a07f6d442e5d9ae5399caa2ee6d795f04"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a></div><div class="ttdeci">const int CMD_REQUEST_COMMAND</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00003">command.qh:3</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
+<div class="ttc" id="ipban_8qc_html_ab915b826ebbe3fa641b6dcf17dbe4fc3"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#ab915b826ebbe3fa641b6dcf17dbe4fc3">Ban_Delete</a></div><div class="ttdeci">float Ban_Delete(float i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00279">ipban.qc:279</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
-<div class="ttc" id="banning_8qh_html_ab915b826ebbe3fa641b6dcf17dbe4fc3"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#ab915b826ebbe3fa641b6dcf17dbe4fc3">Ban_Delete</a></div><div class="ttdeci">float Ban_Delete(float i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00281">ipban.qc:281</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1099,7 +1099,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../dd/d31/banning_8qc.html">banning.qc</a></li>
-    <li class="footer">Generated on Tue Jun 12 2018 03:03:45 for Xonotic by
+    <li class="footer">Generated on Tue Jun 12 2018 04:16:37 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

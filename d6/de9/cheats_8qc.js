@@ -11,7 +11,6 @@ var cheats_8qc =
     [ "CheatInit", "d6/de9/cheats_8qc.html#a2a937c6b018ccfb5185e8d5af1415472", null ],
     [ "CheatsAllowed", "d6/de9/cheats_8qc.html#a45a998ce5f3256bd5c9671595ca8a9c8", null ],
     [ "CheatShutdown", "d6/de9/cheats_8qc.html#a04ede6834b82bb3efbfcd4961fbc6f54", null ],
-    [ "CopyBody", "d6/de9/cheats_8qc.html#af2cf7e359cda23b596ac40cda3f9ba87", null ],
     [ "Drag", "d6/de9/cheats_8qc.html#a5fc7c576740d16f6075adccdc64c84a1", null ],
     [ "Drag_Begin", "d6/de9/cheats_8qc.html#a7ffe194900db20bff4bb3439d850c6ff", null ],
     [ "Drag_CanDrag", "d6/de9/cheats_8qc.html#a0f189147745b897a7928d2ad433047ce", null ],

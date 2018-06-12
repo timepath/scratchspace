@@ -1,5 +1,12 @@
 var NAVTREEINDEX53 =
 {
+"d6/d38/urllib_8qc.html#ae59acd535d84239699a4f5f2468687b4":[2,0,4,63,6],
+"d6/d38/urllib_8qc.html#aec3e4f91f4163ffc70108838821510cc":[2,0,4,63,0],
+"d6/d38/urllib_8qc.html#aede03c2c907aba6df600c6d0328109fe":[2,0,4,63,21],
+"d6/d38/urllib_8qc.html#aeee4fd0bc75c3452eb1a10414bece5b9":[2,0,4,63,15],
+"d6/d38/urllib_8qc_source.html":[2,0,4,63],
+"d6/d3e/dialog__multiplayer__media__musicplayer_8qc.html":[2,0,5,4,106],
+"d6/d3e/dialog__multiplayer__media__musicplayer_8qc.html#ae82044ad6b56c5d7803a8922b42ac371":[2,0,5,4,106,0],
 "d6/d3e/dialog__multiplayer__media__musicplayer_8qc.html#ae9b7f89bd3642548beae29d55d467f5b":[2,0,5,4,106,1],
 "d6/d3e/dialog__multiplayer__media__musicplayer_8qc_source.html":[2,0,5,4,106],
 "d6/d3f/dialog__hudpanel__physics_8qh.html":[2,0,5,4,63],
@@ -242,12 +249,5 @@ var NAVTREEINDEX53 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,176,22],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,176,24],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,176,17],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,176,32],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,176,10],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,176,48],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,176,1],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a40643e9611c16672a13b051daf682d99":[1,0,176,26],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,176,16],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4869983b8dc750584479ade5447c8413":[1,0,176,25],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,176,74]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,176,32]
 };

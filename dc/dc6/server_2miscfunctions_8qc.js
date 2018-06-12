@@ -66,7 +66,6 @@ var server_2miscfunctions_8qc =
     [ "unfollow_sameorigin", "dc/dc6/server_2miscfunctions_8qc.html#a03c1b8950eeb6441164aa0ee8ae330a5", null ],
     [ "UnsetMovetypeFollow", "dc/dc6/server_2miscfunctions_8qc.html#a9634e44df040223a44cd0063ac141c9f", null ],
     [ "URI_Get_Callback", "dc/dc6/server_2miscfunctions_8qc.html#a16aac93ba5b972ed98ff17320dda1b93", null ],
-    [ "W_Crylink_Dequeue", "dc/dc6/server_2miscfunctions_8qc.html#ae468daae6c8d2aaa2b30a3ad700809d1", null ],
     [ "W_FixWeaponOrder_ForceComplete_AndBuildImpulseList", "dc/dc6/server_2miscfunctions_8qc.html#aa4ac3dd1f661621de6a9f2bf5e6fb289", null ],
     [ "want_weapon", "dc/dc6/server_2miscfunctions_8qc.html#a11d594b32f31a1c10458b18981d3b612", null ],
     [ "WarpZone_crosshair_trace", "dc/dc6/server_2miscfunctions_8qc.html#ae60e63a20482389086630191d5d8d336", null ],

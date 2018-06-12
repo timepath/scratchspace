@@ -240,9 +240,9 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/de0/costs_8qc_source.html#l00021">21</a> of file <a class="el" href="../../dc/de0/costs_8qc_source.html">costs.qc</a>.</p>
 
-<p>References <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00011">inwater</a>, <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00058">pathlib_movecost_waterfactor</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
+<p>References <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00011">inwater</a>, <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00053">pathlib_movecost_waterfactor</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00354">pathlib_astar()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00352">pathlib_astar()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3">inwater</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>))</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#a51d0693fdc1dd0c84341d4220a0b33ca">parent</a>.pathlib_node_g + <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<a class="code" href="../../d7/d8a/animhost_8qc.html#a51d0693fdc1dd0c84341d4220a0b33ca">parent</a>.origin - <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>) * <a class="code" href="../../dd/d70/pathlib_8qh.html#ab42d02da36944be54f7d03dfda2e2de5">pathlib_movecost_waterfactor</a>;</div>
@@ -253,7 +253,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00096">self.qh:96</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="pathlib_8qh_html_a018abfbcb97490c6b47e7e4c5484cec3"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3">inwater</a></div><div class="ttdeci">#define inwater(point)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00011">pathlib.qh:11</a></div></div>
-<div class="ttc" id="pathlib_8qh_html_ab42d02da36944be54f7d03dfda2e2de5"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#ab42d02da36944be54f7d03dfda2e2de5">pathlib_movecost_waterfactor</a></div><div class="ttdeci">float pathlib_movecost_waterfactor</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00058">pathlib.qh:58</a></div></div>
+<div class="ttc" id="pathlib_8qh_html_ab42d02da36944be54f7d03dfda2e2de5"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#ab42d02da36944be54f7d03dfda2e2de5">pathlib_movecost_waterfactor</a></div><div class="ttdeci">float pathlib_movecost_waterfactor</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00053">pathlib.qh:53</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -347,7 +347,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/de0/costs_8qc_source.html#l00008">8</a> of file <a class="el" href="../../dc/de0/costs_8qc_source.html">costs.qc</a>.</p>
 
-<p>References <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00011">inwater</a>, and <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00058">pathlib_movecost_waterfactor</a>.</p>
+<p>References <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00011">inwater</a>, and <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00053">pathlib_movecost_waterfactor</a>.</p>
 <div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3">inwater</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>))</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#a51d0693fdc1dd0c84341d4220a0b33ca">parent</a>.pathlib_node_g + static_cost * <a class="code" href="../../dd/d70/pathlib_8qh.html#ab42d02da36944be54f7d03dfda2e2de5">pathlib_movecost_waterfactor</a>;</div>
@@ -357,7 +357,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="animhost_8qc_html_a51d0693fdc1dd0c84341d4220a0b33ca"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#a51d0693fdc1dd0c84341d4220a0b33ca">parent</a></div><div class="ttdeci">entity parent</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00007">animhost.qc:7</a></div></div>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00096">self.qh:96</a></div></div>
 <div class="ttc" id="pathlib_8qh_html_a018abfbcb97490c6b47e7e4c5484cec3"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3">inwater</a></div><div class="ttdeci">#define inwater(point)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00011">pathlib.qh:11</a></div></div>
-<div class="ttc" id="pathlib_8qh_html_ab42d02da36944be54f7d03dfda2e2de5"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#ab42d02da36944be54f7d03dfda2e2de5">pathlib_movecost_waterfactor</a></div><div class="ttdeci">float pathlib_movecost_waterfactor</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00058">pathlib.qh:58</a></div></div>
+<div class="ttc" id="pathlib_8qh_html_ab42d02da36944be54f7d03dfda2e2de5"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#ab42d02da36944be54f7d03dfda2e2de5">pathlib_movecost_waterfactor</a></div><div class="ttdeci">float pathlib_movecost_waterfactor</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00053">pathlib.qh:53</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -389,9 +389,9 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/de0/costs_8qc_source.html#l00049">49</a> of file <a class="el" href="../../dc/de0/costs_8qc_source.html">costs.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, and <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00056">pathlib_movecost</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, and <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00051">pathlib_movecost</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00354">pathlib_astar()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00352">pathlib_astar()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">//h(n) = D * max(abs(n.x-goal.x), abs(n.y-goal.y))</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
@@ -402,7 +402,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">return</span> h;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
-<div class="ttc" id="pathlib_8qh_html_acac11d5095a82efc7d2a26c880b18388"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#acac11d5095a82efc7d2a26c880b18388">pathlib_movecost</a></div><div class="ttdeci">float pathlib_movecost</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00056">pathlib.qh:56</a></div></div>
+<div class="ttc" id="pathlib_8qh_html_acac11d5095a82efc7d2a26c880b18388"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#acac11d5095a82efc7d2a26c880b18388">pathlib_movecost</a></div><div class="ttdeci">float pathlib_movecost</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00051">pathlib.qh:51</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_accccfae161879454243b3a8695a9bf3b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a></div><div class="ttdeci">float fabs(float f)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -455,7 +455,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/de0/costs_8qc_source.html#l00074">74</a> of file <a class="el" href="../../dc/de0/costs_8qc_source.html">costs.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min()</a>, <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00056">pathlib_movecost</a>, and <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00057">pathlib_movecost_diag</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min()</a>, <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00051">pathlib_movecost</a>, and <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00052">pathlib_movecost_diag</a>.</p>
 <div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">/*</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">    h_diagonal(n) = min(abs(n.x-goal.x), abs(n.y-goal.y))</span></div>
@@ -475,8 +475,8 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">return</span> h;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
-<div class="ttc" id="pathlib_8qh_html_acac11d5095a82efc7d2a26c880b18388"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#acac11d5095a82efc7d2a26c880b18388">pathlib_movecost</a></div><div class="ttdeci">float pathlib_movecost</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00056">pathlib.qh:56</a></div></div>
-<div class="ttc" id="pathlib_8qh_html_a09965754c70dee3e4bd6cc3ab27ebdfa"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a09965754c70dee3e4bd6cc3ab27ebdfa">pathlib_movecost_diag</a></div><div class="ttdeci">float pathlib_movecost_diag</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00057">pathlib.qh:57</a></div></div>
+<div class="ttc" id="pathlib_8qh_html_acac11d5095a82efc7d2a26c880b18388"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#acac11d5095a82efc7d2a26c880b18388">pathlib_movecost</a></div><div class="ttdeci">float pathlib_movecost</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00051">pathlib.qh:51</a></div></div>
+<div class="ttc" id="pathlib_8qh_html_a09965754c70dee3e4bd6cc3ab27ebdfa"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a09965754c70dee3e4bd6cc3ab27ebdfa">pathlib_movecost_diag</a></div><div class="ttdeci">float pathlib_movecost_diag</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00052">pathlib.qh:52</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_accccfae161879454243b3a8695a9bf3b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a></div><div class="ttdeci">float fabs(float f)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -531,7 +531,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/de0/costs_8qc_source.html#l00098">98</a> of file <a class="el" href="../../dc/de0/costs_8qc_source.html">costs.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize()</a>, <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00056">pathlib_movecost</a>, <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00057">pathlib_movecost_diag</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize()</a>, <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00051">pathlib_movecost</a>, <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00052">pathlib_movecost_diag</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;{</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="comment">//h_diagonal(n) = min(abs(n.x-goal.x), abs(n.y-goal.y))</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="comment">//h_straight(n) = (abs(n.x-goal.x) + abs(n.y-goal.y))</span></div>
@@ -556,8 +556,8 @@ Functions</h2></td></tr>
 <div class="ttc" id="impulses_2all_8qh_html_a5ea3f8c3f8afcd9e2839d3c46973d866"><div class="ttname"><a href="../../d0/d6e/impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a></div><div class="ttdeci">prev</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d6e/impulses_2all_8qh_source.html#l00057">all.qh:57</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-<div class="ttc" id="pathlib_8qh_html_acac11d5095a82efc7d2a26c880b18388"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#acac11d5095a82efc7d2a26c880b18388">pathlib_movecost</a></div><div class="ttdeci">float pathlib_movecost</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00056">pathlib.qh:56</a></div></div>
-<div class="ttc" id="pathlib_8qh_html_a09965754c70dee3e4bd6cc3ab27ebdfa"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a09965754c70dee3e4bd6cc3ab27ebdfa">pathlib_movecost_diag</a></div><div class="ttdeci">float pathlib_movecost_diag</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00057">pathlib.qh:57</a></div></div>
+<div class="ttc" id="pathlib_8qh_html_acac11d5095a82efc7d2a26c880b18388"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#acac11d5095a82efc7d2a26c880b18388">pathlib_movecost</a></div><div class="ttdeci">float pathlib_movecost</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00051">pathlib.qh:51</a></div></div>
+<div class="ttc" id="pathlib_8qh_html_a09965754c70dee3e4bd6cc3ab27ebdfa"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a09965754c70dee3e4bd6cc3ab27ebdfa">pathlib_movecost_diag</a></div><div class="ttdeci">float pathlib_movecost_diag</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00052">pathlib.qh:52</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_accccfae161879454243b3a8695a9bf3b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a></div><div class="ttdeci">float fabs(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8f7213273f7de03df213240376ce9f4"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a></div><div class="ttdeci">vector normalize(vector v)</div></div>
 </div><!-- fragment -->
@@ -599,7 +599,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/de0/costs_8qc_source.html#l00122">122</a> of file <a class="el" href="../../dc/de0/costs_8qc_source.html">costs.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00056">pathlib_movecost</a>, and <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00057">pathlib_movecost_diag</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00051">pathlib_movecost</a>, and <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00052">pathlib_movecost_diag</a>.</p>
 <div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;{</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordtype">float</span> hx = <a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(a.x - b.x);</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordtype">float</span> hy = <a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(a.y - b.y);</div>
@@ -613,8 +613,8 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">return</span> h;</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;}</div>
-<div class="ttc" id="pathlib_8qh_html_acac11d5095a82efc7d2a26c880b18388"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#acac11d5095a82efc7d2a26c880b18388">pathlib_movecost</a></div><div class="ttdeci">float pathlib_movecost</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00056">pathlib.qh:56</a></div></div>
-<div class="ttc" id="pathlib_8qh_html_a09965754c70dee3e4bd6cc3ab27ebdfa"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a09965754c70dee3e4bd6cc3ab27ebdfa">pathlib_movecost_diag</a></div><div class="ttdeci">float pathlib_movecost_diag</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00057">pathlib.qh:57</a></div></div>
+<div class="ttc" id="pathlib_8qh_html_acac11d5095a82efc7d2a26c880b18388"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#acac11d5095a82efc7d2a26c880b18388">pathlib_movecost</a></div><div class="ttdeci">float pathlib_movecost</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00051">pathlib.qh:51</a></div></div>
+<div class="ttc" id="pathlib_8qh_html_a09965754c70dee3e4bd6cc3ab27ebdfa"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a09965754c70dee3e4bd6cc3ab27ebdfa">pathlib_movecost_diag</a></div><div class="ttdeci">float pathlib_movecost_diag</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00052">pathlib.qh:52</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_accccfae161879454243b3a8695a9bf3b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a></div><div class="ttdeci">float fabs(float f)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -705,7 +705,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/de0/costs_8qc_source.html#l00034">34</a> of file <a class="el" href="../../dc/de0/costs_8qc_source.html">costs.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, and <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00055">pathlib_gridsize</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, and <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00050">pathlib_gridsize</a>.</p>
 <div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">//h(n) = D * (abs(n.x-goal.x) + abs(n.y-goal.y))</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
@@ -715,7 +715,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> h;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
-<div class="ttc" id="pathlib_8qh_html_ada7c213b6d8fe67b52a785998106ed55"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a></div><div class="ttdeci">float pathlib_gridsize</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00055">pathlib.qh:55</a></div></div>
+<div class="ttc" id="pathlib_8qh_html_ada7c213b6d8fe67b52a785998106ed55"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a></div><div class="ttdeci">float pathlib_gridsize</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00050">pathlib.qh:50</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_accccfae161879454243b3a8695a9bf3b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a></div><div class="ttdeci">float fabs(float f)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -736,7 +736,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_038facabb326e47524555c6946dd7e55.html">pathlib</a></li><li class="navelem"><a class="el" href="../../dc/de0/costs_8qc.html">costs.qc</a></li>
-    <li class="footer">Generated on Tue Jun 12 2018 03:03:46 for Xonotic by
+    <li class="footer">Generated on Tue Jun 12 2018 04:16:38 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

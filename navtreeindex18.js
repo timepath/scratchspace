@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"d2/d65/unsafe_8qh.html#adca1c983a98dba734ec82a49766ac278":[2,0,4,62,6],
 "d2/d65/unsafe_8qh.html#aed54631dded82395af39f5531ba70ed8":[2,0,4,62,10],
 "d2/d65/unsafe_8qh.html#af20da66dcba3c7abb25ce8cacd85da2e":[2,0,4,62,11],
 "d2/d65/unsafe_8qh_source.html":[2,0,4,62],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b":[2,0,1,35,19],
 "d2/d9e/mapinfo_8qh.html#a08443022ec3c3e2ca75a56c47c1e5e9f":[2,0,1,35,85],
 "d2/d9e/mapinfo_8qh.html#a0bcf686f28320d226b3e7583dc1f9fd1":[2,0,1,35,93],
-"d2/d9e/mapinfo_8qh.html#a143ae9a972e236a600ee064e49bd2d75":[2,0,1,35,27],
-"d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790":[2,0,1,35,22]
+"d2/d9e/mapinfo_8qh.html#a143ae9a972e236a600ee064e49bd2d75":[2,0,1,35,27]
 };
