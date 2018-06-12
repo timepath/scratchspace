@@ -31,7 +31,7 @@ var dir_026fecbde05aca2ce3aaca1260d474bc =
     [ "racetimer.qc", "d4/d12/racetimer_8qc.html", "d4/d12/racetimer_8qc" ],
     [ "racetimer.qh", "d4/da9/racetimer_8qh.html", null ],
     [ "radar.qc", "d0/d83/radar_8qc.html", "d0/d83/radar_8qc" ],
-    [ "radar.qh", "d4/d1b/radar_8qh.html", null ],
+    [ "radar.qh", "d4/d1b/radar_8qh.html", "d4/d1b/radar_8qh" ],
     [ "score.qc", "d6/d8f/score_8qc.html", "d6/d8f/score_8qc" ],
     [ "score.qh", "d6/db8/score_8qh.html", null ],
     [ "scoreboard.qc", "d3/d07/scoreboard_8qc.html", "d3/d07/scoreboard_8qc" ],

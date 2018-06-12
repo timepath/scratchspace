@@ -3,6 +3,7 @@ var sv__turrets_8qh =
     [ "bool", "df/d28/sv__turrets_8qh.html#ae3691f9f56c3c032bf818304ab4baf22", null ],
     [ "float", "df/d28/sv__turrets_8qh.html#ae1ff9191021b805b8017bb279c14af4b", null ],
     [ "float", "df/d28/sv__turrets_8qh.html#a15df8a6498e96a76f4a5e0213150f6a8", null ],
+    [ "turret_closetotarget", "df/d28/sv__turrets_8qh.html#a7af3ed0c2fcc26fc952937b3facaf253", null ],
     [ "turret_do_updates", "df/d28/sv__turrets_8qh.html#aeecd9275b04ef56133834fe9ec106c3d", null ],
     [ "turret_firecheck", "df/d28/sv__turrets_8qh.html#a2b7119286e47892c55289192607cd528", null ],
     [ "turret_initialize", "df/d28/sv__turrets_8qh.html#adcbe72d1ef1f8286ed98c8a024b12647", null ],

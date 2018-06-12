@@ -1,6 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"d3/d88/bot__null_8qc.html":[2,0,6,0,1,2],
 "d3/d88/bot__null_8qc_source.html":[2,0,6,0,1,2],
 "d3/d92/roles_8qh.html":[2,0,6,0,0,0,5],
 "d3/d92/roles_8qh_source.html":[2,0,6,0,0,0,5],
@@ -217,17 +216,16 @@ var NAVTREEINDEX28 =
 "d3/db6/projectile_8qc.html":[2,0,0,3,2],
 "d3/db6/projectile_8qc.html#a0425d4c4b6b30c19a7f206ec3b83406b":[2,0,0,3,2,5],
 "d3/db6/projectile_8qc.html#a07d63755334d8ccb23787ee7001d16d1":[2,0,0,3,2,6],
-"d3/db6/projectile_8qc.html#a1d28dec57cce925ad92342891bd71e7c":[2,0,0,3,2,12],
+"d3/db6/projectile_8qc.html#a1d28dec57cce925ad92342891bd71e7c":[2,0,0,3,2,11],
 "d3/db6/projectile_8qc.html#a80c34c3e86a9ef71dfcdff65bd795540":[2,0,0,3,2,3],
 "d3/db6/projectile_8qc.html#a9f8c39b72e4cac7db813d64f6b47da53":[2,0,0,3,2,2],
 "d3/db6/projectile_8qc.html#aa0569f1b060229bf8b6d0c13b4dff8f1":[2,0,0,3,2,1],
-"d3/db6/projectile_8qc.html#aa12d111ca27797a792f8738195db5a76":[2,0,0,3,2,7],
 "d3/db6/projectile_8qc.html#aa212ff44982cb3d66e1a0eff0bea547e":[2,0,0,3,2,0],
-"d3/db6/projectile_8qc.html#aafb6ab318b9d8923d5fb0d4e56242d87":[2,0,0,3,2,9],
-"d3/db6/projectile_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b":[2,0,0,3,2,10],
+"d3/db6/projectile_8qc.html#aafb6ab318b9d8923d5fb0d4e56242d87":[2,0,0,3,2,8],
+"d3/db6/projectile_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b":[2,0,0,3,2,9],
 "d3/db6/projectile_8qc.html#ac4299ed240f883c226a73f8b7c4da3fa":[2,0,0,3,2,4],
-"d3/db6/projectile_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af":[2,0,0,3,2,11],
-"d3/db6/projectile_8qc.html#afa735eeb763e03508cd4e27a1921b593":[2,0,0,3,2,8],
+"d3/db6/projectile_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af":[2,0,0,3,2,10],
+"d3/db6/projectile_8qc.html#afa735eeb763e03508cd4e27a1921b593":[2,0,0,3,2,7],
 "d3/db6/projectile_8qc_source.html":[2,0,0,3,2],
 "d3/dba/classXonoticLanguageList.html":[1,0,210],
 "d3/dba/classXonoticLanguageList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,210,43],
@@ -249,5 +247,7 @@ var NAVTREEINDEX28 =
 "d3/dba/classXonoticLanguageList.html#a2b77f2136fde67276c6fe15752ef7feb":[1,0,210,26],
 "d3/dba/classXonoticLanguageList.html#a2e784d6bdbceeafaad14d59f83b39d81":[1,0,210,29],
 "d3/dba/classXonoticLanguageList.html#a359a4dd3fa3a6f4eac07267c7476a349":[1,0,210,33],
-"d3/dba/classXonoticLanguageList.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,210,0]
+"d3/dba/classXonoticLanguageList.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,210,0],
+"d3/dba/classXonoticLanguageList.html#a39faad4c275af7a96e30379428646997":[1,0,210,9],
+"d3/dba/classXonoticLanguageList.html#a405b285a76ac127664593c89281a5b63":[1,0,210,54]
 };

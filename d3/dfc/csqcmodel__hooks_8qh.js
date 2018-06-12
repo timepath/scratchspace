@@ -1,6 +1,7 @@
 var csqcmodel__hooks_8qh =
 [
     [ "CSQCModel_Effects_Apply", "d3/dfc/csqcmodel__hooks_8qh.html#abdef5fa000daea2663d082046a110e10", null ],
+    [ "CSQCModel_Hook_PreDraw", "d3/dfc/csqcmodel__hooks_8qh.html#a2624228f82a5ae03006d9a33fc1b707c", null ],
     [ "csqcmodel_effects", "d3/dfc/csqcmodel__hooks_8qh.html#a49a184cdfcfeb7438f45b216e8cf66d6", null ],
     [ "csqcmodel_modelflags", "d3/dfc/csqcmodel__hooks_8qh.html#ac684f20e961177dbb0cfa738c5c5716c", null ],
     [ "csqcmodel_traileffect", "d3/dfc/csqcmodel__hooks_8qh.html#a221c05a35e0b4eace994cd98e7ddcd9f", null ],

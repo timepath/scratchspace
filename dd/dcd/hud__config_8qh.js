@@ -2,7 +2,9 @@ var hud__config_8qh =
 [
     [ "HUD_Configure_Frame", "dd/dcd/hud__config_8qh.html#aff11757a3172f4f26585a7edc21785f0", null ],
     [ "HUD_Configure_PostDraw", "dd/dcd/hud__config_8qh.html#a997bcd4a77add62b1ec1ed127a5bd1bb", null ],
+    [ "HUD_Panel_EnableMenu", "dd/dcd/hud__config_8qh.html#ac4325f87797d58b1c1e4b23d81945214", null ],
     [ "HUD_Panel_ExportCfg", "dd/dcd/hud__config_8qh.html#a22efbfe26e334ef2923e0ee491323829", null ],
+    [ "HUD_Panel_FirstInDrawQ", "dd/dcd/hud__config_8qh.html#a048da86e3f83ccfe7f4891b2074c74fe", null ],
     [ "HUD_Panel_InputEvent", "dd/dcd/hud__config_8qh.html#a909082b7b3de632938d841419eb2905a", null ],
     [ "HUD_Panel_Mouse", "dd/dcd/hud__config_8qh.html#a272f972366e65bdb7303c3d43e397c31", null ],
     [ "hud_configure_checkcollisions", "dd/dcd/hud__config_8qh.html#a3de9f52b1fb3a94ed8d7948a9af16f12", null ],

@@ -388,374 +388,376 @@ $(document).ready(function(){initNavTree('db/d5c/walker_8qc_source.html','../../
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;{</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor">#ifdef WALKER_FANCYPATHING</span></div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="preprocessor"></span>    <span class="comment">// Are we close enougth to a path node to switch to the next?</span></div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a> - this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.origin, &lt;, 64))</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.path_next == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        {</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            <span class="comment">// Path endpoint reached</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            <a class="code" href="../../df/d4c/server_2pathlib_2main_8qc.html#a03b9aba43bfb042a5123b809a630a852">pathlib_deletepath</a>(this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.owner);</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            <span class="keywordflow">if</span> (this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>)</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            {</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                <span class="keywordflow">if</span> (this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.use)</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                    this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.use(<span class="keyword">this</span>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                <span class="keywordflow">if</span> (this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.enemy)</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                {</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                    this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a> = <a class="code" href="../../df/d4c/server_2pathlib_2main_8qc.html#a50572e73e7e27b5eb8e52c539109a13e">pathlib_astar</a>(<span class="keyword">this</span>, this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.origin, <span class="keyword">this</span>.pathgoal.enemy.origin);</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                    this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a> = this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.enemy;</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                }</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            }</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        }</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;            this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a> = this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.path_next;</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    this.moveto = this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.origin;</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    this.<a class="code" href="../../da/df7/steerlib_8qh.html#a38b07fd8443f963bdf6737e00b39118c">steerto</a> = <a class="code" href="../../de/d9b/steerlib_8qc.html#aa285512e4bcd6a3b28eefa0a85558042">steerlib_attract2</a>(<span class="keyword">this</span>, this.moveto,0.5,500,0.95);</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    walker_move_to(<span class="keyword">this</span>, this.moveto, 0);</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a> - this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.origin, &lt;, 64))</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a> = this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.enemy;</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    <span class="keywordflow">if</span>(!this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>)</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    this.moveto = this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.origin;</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    this.<a class="code" href="../../da/df7/steerlib_8qh.html#a38b07fd8443f963bdf6737e00b39118c">steerto</a> = <a class="code" href="../../de/d9b/steerlib_8qc.html#aa285512e4bcd6a3b28eefa0a85558042">steerlib_attract2</a>(<span class="keyword">this</span>, this.moveto, 0.5, 500, 0.95);</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    walker_move_to(<span class="keyword">this</span>, this.moveto, 0);</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor"></span>}</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="keywordtype">void</span> walker_findtarget(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;{</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>);</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    <span class="keywordflow">if</span> (!e)</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    {</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Initital waypoint for walker does NOT exist, fix your map!&quot;</span>);</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    }</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    <span class="keywordflow">if</span> (e.classname != <span class="stringliteral">&quot;turret_checkpoint&quot;</span>)</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Warning: not a turrret path&quot;</span>);</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    {</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="preprocessor">#ifdef WALKER_FANCYPATHING</span></div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor"></span>        this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a> = <a class="code" href="../../df/d4c/server_2pathlib_2main_8qc.html#a50572e73e7e27b5eb8e52c539109a13e">pathlib_astar</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a>, e.origin);</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a> = e;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="preprocessor"></span>        this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a> = e;</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<span class="preprocessor"></span>    }</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <span class="comment">// TODO: this doesn&#39;t reset target, so tur_defend will be the checkpoint too!</span></div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;}</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(turret_walker) { <span class="keywordflow">if</span>(!<a class="code" href="../../df/d28/sv__turrets_8qh.html#adcbe72d1ef1f8286ed98c8a024b12647">turret_initialize</a>(<span class="keyword">this</span>, TUR_WALKER)) <span class="keyword">delete</span>(<span class="keyword">this</span>); }</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7af3ed0c2fcc26fc952937b3facaf253">turret_closetotarget</a>(<span class="keyword">this</span>, this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.origin))</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.path_next == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            <span class="comment">// Path endpoint reached</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            <a class="code" href="../../df/d4c/server_2pathlib_2main_8qc.html#a03b9aba43bfb042a5123b809a630a852">pathlib_deletepath</a>(this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.owner);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            <span class="keywordflow">if</span> (this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>)</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            {</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                <span class="keywordflow">if</span> (this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.use)</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                    this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.use(<span class="keyword">this</span>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                <span class="keywordflow">if</span> (this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.enemy)</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                {</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                    this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a> = <a class="code" href="../../df/d4c/server_2pathlib_2main_8qc.html#a50572e73e7e27b5eb8e52c539109a13e">pathlib_astar</a>(<span class="keyword">this</span>, this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.origin, <span class="keyword">this</span>.pathgoal.enemy.origin);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                    this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a> = this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.enemy;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                }</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            }</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        }</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a> = this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.path_next;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    }</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    this.moveto = this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.origin;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    this.<a class="code" href="../../da/df7/steerlib_8qh.html#a38b07fd8443f963bdf6737e00b39118c">steerto</a> = <a class="code" href="../../de/d9b/steerlib_8qc.html#aa285512e4bcd6a3b28eefa0a85558042">steerlib_attract2</a>(<span class="keyword">this</span>, this.moveto,0.5,500,0.95);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    walker_move_to(<span class="keyword">this</span>, this.moveto, 0);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7af3ed0c2fcc26fc952937b3facaf253">turret_closetotarget</a>(<span class="keyword">this</span>, this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.origin))</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a> = this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.enemy;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keywordflow">if</span>(!this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>)</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    this.moveto = this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a>.origin;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    this.<a class="code" href="../../da/df7/steerlib_8qh.html#a38b07fd8443f963bdf6737e00b39118c">steerto</a> = <a class="code" href="../../de/d9b/steerlib_8qc.html#aa285512e4bcd6a3b28eefa0a85558042">steerlib_attract2</a>(<span class="keyword">this</span>, this.moveto, 0.5, 500, 0.95);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    walker_move_to(<span class="keyword">this</span>, this.moveto, 0);</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="keywordtype">void</span> walker_findtarget(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;{</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>);</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="keywordflow">if</span> (!e)</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    {</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Initital waypoint for walker does NOT exist, fix your map!&quot;</span>);</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    }</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <span class="keywordflow">if</span> (e.classname != <span class="stringliteral">&quot;turret_checkpoint&quot;</span>)</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Warning: not a turrret path&quot;</span>);</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    {</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="preprocessor">#ifdef WALKER_FANCYPATHING</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="preprocessor"></span>        this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a> = <a class="code" href="../../df/d4c/server_2pathlib_2main_8qc.html#a50572e73e7e27b5eb8e52c539109a13e">pathlib_astar</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a>, e.origin);</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a> = e;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<span class="preprocessor"></span>        this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a> = e;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="preprocessor"></span>    }</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    <span class="comment">// TODO: this doesn&#39;t reset target, so tur_defend will be the checkpoint too!</span></div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;}</div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a>, tr_think, <span class="keywordtype">void</span>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a> thistur, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it))</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;{</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <a class="code" href="../../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e">fixedmakevectors</a>(it.angles);</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordflow">if</span> (it.spawnflags &amp; <a class="code" href="../../d9/d67/turret_8qh.html#a5f33d720914f6502aef6dd946e0ef227">TSF_NO_PATHBREAK</a> &amp;&amp; it.pathcurrent)</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        walker_move_path(it);</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (it.enemy == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    {</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        <span class="keywordflow">if</span>(it.pathcurrent)</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;            walker_move_path(it);</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        {</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;            <span class="keywordflow">if</span>(it.enemy_last_time != 0)</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;            {</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(it.origin - it.enemy_last_loc, &lt;, 128) || <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - it.enemy_last_time &gt; 10)</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                    it.enemy_last_time = 0;</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                    walker_move_to(it, it.enemy_last_loc, 0);</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;            }</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;            {</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;                <span class="keywordflow">if</span>(it.animflag != ANIM_NO)</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;                {</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                    traceline(it.origin + <span class="stringliteral">&#39;0 0 64&#39;</span>, it.origin + <span class="stringliteral">&#39;0 0 64&#39;</span> + v_forward * 128, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, it);</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;                    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> != 1.0)</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;                        it.tur_head.idletime = -1337;</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;                    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;                    {</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                        traceline(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> - <span class="stringliteral">&#39;0 0 256&#39;</span>, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, it);</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;                        <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> == 1.0)</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;                            it.tur_head.idletime = -1337;</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;                    }</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;                    <span class="keywordflow">if</span>(it.tur_head.idletime == -1337)</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;                    {</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;                        it.moveto = it.origin + <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * 256;</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                        it.tur_head.idletime = 0;</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                    }</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;                    it.moveto = it.moveto * 0.9 + ((it.origin + v_forward * 500) + <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * 400) * 0.1;</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;                    it.moveto_z = it.origin_z + 64;</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;                    walker_move_to(it, it.moveto, 0);</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;                }</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;                <span class="keywordflow">if</span>(it.idletime &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;                {</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;                    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.5 || !(it.spawnflags &amp; <a class="code" href="../../d9/d67/turret_8qh.html#ad36933b6b80799503bd3c5462a04c7f1">TSL_ROAM</a>))</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;                    {</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;                        it.idletime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 1 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 5;</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;                        it.moveto = it.origin;</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;                        it.animflag = ANIM_NO;</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;                    }</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;                    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;                    {</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;                        it.animflag = ANIM_WALK;</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;                        it.idletime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 4 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2;</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;                        it.moveto = it.origin + <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * 256;</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;                        it.tur_head.moveto = it.moveto;</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;                        it.tur_head.idletime = 0;</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;                    }</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;                }</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;            }</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        }</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    }</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    {</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        <span class="keywordflow">if</span> (it.tur_dist_enemy &lt; (autocvar_g_turrets_unit_walker_melee_range) &amp;&amp; it.animflag != ANIM_MELEE)</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        {</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> wish_angle;</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;            wish_angle = <a class="code" href="../../d9/da8/angle_8qc.html#adbdcb565f74da318a69ef740aa3c90c2">angleofs</a>(it, it.enemy);</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;            <span class="keywordflow">if</span> (it.animflag != ANIM_SWIM)</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(wish_angle_y) &lt; 15)</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;            {</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;                it.moveto   = it.enemy.origin;</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;                it.steerto  = <a class="code" href="../../de/d9b/steerlib_8qc.html#aa285512e4bcd6a3b28eefa0a85558042">steerlib_attract2</a>(it, it.moveto, 0.5, 500, 0.95);</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;                it.animflag = ANIM_MELEE;</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;            }</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;        }</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (it.tur_head.attack_finished_single[0] &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        {</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;            <span class="keywordflow">if</span>(it.tur_head.shot_volly)</div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;            {</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;                it.animflag = ANIM_NO;</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;                it.tur_head.shot_volly = it.tur_head.shot_volly -1;</div>
-<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;                <span class="keywordflow">if</span>(it.tur_head.shot_volly == 0)</div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;                    it.tur_head.attack_finished_single[0] = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + (autocvar_g_turrets_unit_walker_rocket_refire);</div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;                    it.tur_head.attack_finished_single[0] = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.2;</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;</div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;                <span class="keywordflow">if</span>(it.tur_head.shot_volly &gt; 1)</div>
-<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;                    walker_fire_rocket(it, gettaginfo(it, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8">gettagindex</a>(it, <span class="stringliteral">&quot;tag_rocket01&quot;</span>)));</div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;                    walker_fire_rocket(it, gettaginfo(it, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8">gettagindex</a>(it, <span class="stringliteral">&quot;tag_rocket02&quot;</span>)));</div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;            }</div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;            {</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;                <span class="keywordflow">if</span> (it.tur_dist_enemy &gt; (autocvar_g_turrets_unit_walker_rocket_range_min))</div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;                <span class="keywordflow">if</span> (it.tur_dist_enemy &lt; (autocvar_g_turrets_unit_walker_rocket_range))</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;                    it.tur_head.shot_volly = 4;</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;            }</div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        }</div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        {</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;            <span class="keywordflow">if</span> (it.animflag != ANIM_MELEE)</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;                walker_move_to(it, it.enemy.origin, it.tur_dist_enemy);</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;        }</div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    }</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;</div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    {</div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> real_angle;</div>
-<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;        <span class="keywordtype">float</span> turny = 0, turnx = 0;</div>
-<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;        <span class="keywordtype">float</span> vz;</div>
-<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;</div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;        real_angle = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(it.steerto) - it.angles;</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;        vz = it.velocity_z;</div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;</div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;        <span class="keywordflow">switch</span> (it.animflag)</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;        {</div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;            <span class="keywordflow">case</span> ANIM_NO:</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;                movelib_brake_simple(it, (autocvar_g_turrets_unit_walker_speed_stop));</div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;            <span class="keywordflow">case</span> ANIM_TURN:</div>
-<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn);</div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;                movelib_brake_simple(it, (autocvar_g_turrets_unit_walker_speed_stop));</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;</div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;            <span class="keywordflow">case</span> ANIM_WALK:</div>
-<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn_walk);</div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;                movelib_move_simple(it, v_forward, (autocvar_g_turrets_unit_walker_speed_walk), 0.6);</div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;</div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;            <span class="keywordflow">case</span> ANIM_RUN:</div>
-<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn_run);</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;                movelib_move_simple(it, v_forward, (autocvar_g_turrets_unit_walker_speed_run), 0.6);</div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;</div>
-<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;            <span class="keywordflow">case</span> ANIM_STRAFE_L:</div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn_strafe);</div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;                movelib_move_simple(it, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a> * -1, (autocvar_g_turrets_unit_walker_speed_walk), 0.8);</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;</div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;            <span class="keywordflow">case</span> ANIM_STRAFE_R:</div>
-<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn_strafe);</div>
-<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;                movelib_move_simple(it, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a>, (autocvar_g_turrets_unit_walker_speed_walk), 0.8);</div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;</div>
-<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;            <span class="keywordflow">case</span> ANIM_JUMP:</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;                it.velocity += <span class="stringliteral">&#39;0 0 1&#39;</span> * (autocvar_g_turrets_unit_walker_speed_jump);</div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;</div>
-<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;            <span class="keywordflow">case</span> ANIM_LAND:</div>
-<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;</div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;            <span class="keywordflow">case</span> ANIM_PAIN:</div>
-<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;                <span class="keywordflow">if</span>(it.frame != ANIM_PAIN)</div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;                    defer(it, 0.25, walker_setnoanim);</div>
-<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;</div>
-<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(turret_walker) { <span class="keywordflow">if</span>(!<a class="code" href="../../df/d28/sv__turrets_8qh.html#adcbe72d1ef1f8286ed98c8a024b12647">turret_initialize</a>(<span class="keyword">this</span>, TUR_WALKER)) <span class="keyword">delete</span>(<span class="keyword">this</span>); }</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a>, tr_think, <span class="keywordtype">void</span>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a> thistur, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it))</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;{</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <a class="code" href="../../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e">fixedmakevectors</a>(it.angles);</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordflow">if</span> ((it.spawnflags &amp; <a class="code" href="../../d9/d67/turret_8qh.html#a5f33d720914f6502aef6dd946e0ef227">TSF_NO_PATHBREAK</a>) &amp;&amp; it.pathcurrent)</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        walker_move_path(it);</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (it.enemy == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    {</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        <span class="keywordflow">if</span>(it.pathcurrent)</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;            walker_move_path(it);</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        {</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;            <span class="keywordflow">if</span>(it.enemy_last_time != 0)</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;            {</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(it.origin - it.enemy_last_loc, &lt;, 128) || <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - it.enemy_last_time &gt; 10)</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                    it.enemy_last_time = 0;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                    walker_move_to(it, it.enemy_last_loc, 0);</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;            }</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;            {</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                <span class="keywordflow">if</span>(it.animflag != ANIM_NO)</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;                {</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;                    traceline(it.origin + <span class="stringliteral">&#39;0 0 64&#39;</span>, it.origin + <span class="stringliteral">&#39;0 0 64&#39;</span> + v_forward * 128, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, it);</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;                    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> != 1.0)</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;                        it.tur_head.idletime = -1337;</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;                    {</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;                        traceline(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> - <span class="stringliteral">&#39;0 0 256&#39;</span>, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, it);</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;                        <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> == 1.0)</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;                            it.tur_head.idletime = -1337;</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;                    }</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;                    <span class="keywordflow">if</span>(it.tur_head.idletime == -1337)</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                    {</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                        it.moveto = it.origin + <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * 256;</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;                        it.tur_head.idletime = 0;</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;                    }</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;                    it.moveto = it.moveto * 0.9 + ((it.origin + v_forward * 500) + <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * 400) * 0.1;</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;                    it.moveto_z = it.origin_z + 64;</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;                    walker_move_to(it, it.moveto, 0);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;                }</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;                <span class="keywordflow">if</span>(it.idletime &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;                {</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;                    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.5 || !(it.spawnflags &amp; <a class="code" href="../../d9/d67/turret_8qh.html#ad36933b6b80799503bd3c5462a04c7f1">TSL_ROAM</a>))</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;                    {</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;                        it.idletime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 1 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 5;</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;                        it.moveto = it.origin;</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;                        it.animflag = ANIM_NO;</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;                    }</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;                    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;                    {</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;                        it.animflag = ANIM_WALK;</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;                        it.idletime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 4 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;                        it.moveto = it.origin + <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * 256;</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;                        it.tur_head.moveto = it.moveto;</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;                        it.tur_head.idletime = 0;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;                    }</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;                }</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;            }</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        }</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    }</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    {</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        <span class="keywordflow">if</span> (it.tur_dist_enemy &lt; (autocvar_g_turrets_unit_walker_melee_range) &amp;&amp; it.animflag != ANIM_MELEE)</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        {</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> wish_angle;</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;            wish_angle = <a class="code" href="../../d9/da8/angle_8qc.html#adbdcb565f74da318a69ef740aa3c90c2">angleofs</a>(it, it.enemy);</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;            <span class="keywordflow">if</span> (it.animflag != ANIM_SWIM)</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(wish_angle_y) &lt; 15)</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;            {</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;                it.moveto   = it.enemy.origin;</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;                it.steerto  = <a class="code" href="../../de/d9b/steerlib_8qc.html#aa285512e4bcd6a3b28eefa0a85558042">steerlib_attract2</a>(it, it.moveto, 0.5, 500, 0.95);</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;                it.animflag = ANIM_MELEE;</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;            }</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        }</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (it.tur_head.attack_finished_single[0] &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;        {</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;            <span class="keywordflow">if</span>(it.tur_head.shot_volly)</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;            {</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;                it.animflag = ANIM_NO;</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;                it.tur_head.shot_volly = it.tur_head.shot_volly -1;</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;                <span class="keywordflow">if</span>(it.tur_head.shot_volly == 0)</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;                    it.tur_head.attack_finished_single[0] = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + (autocvar_g_turrets_unit_walker_rocket_refire);</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;                    it.tur_head.attack_finished_single[0] = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.2;</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;                <span class="keywordflow">if</span>(it.tur_head.shot_volly &gt; 1)</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;                    walker_fire_rocket(it, gettaginfo(it, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8">gettagindex</a>(it, <span class="stringliteral">&quot;tag_rocket01&quot;</span>)));</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;                    walker_fire_rocket(it, gettaginfo(it, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8">gettagindex</a>(it, <span class="stringliteral">&quot;tag_rocket02&quot;</span>)));</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;            }</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;            {</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;                <span class="keywordflow">if</span> (it.tur_dist_enemy &gt; (autocvar_g_turrets_unit_walker_rocket_range_min))</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;                <span class="keywordflow">if</span> (it.tur_dist_enemy &lt; (autocvar_g_turrets_unit_walker_rocket_range))</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;                    it.tur_head.shot_volly = 4;</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;            }</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        }</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        {</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;            <span class="keywordflow">if</span> (it.animflag != ANIM_MELEE)</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;                walker_move_to(it, it.enemy.origin, it.tur_dist_enemy);</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;        }</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    }</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    {</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> real_angle;</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        <span class="keywordtype">float</span> turny = 0, turnx = 0;</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;        <span class="keywordtype">float</span> vz;</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;        real_angle = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(it.steerto) - it.angles;</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;        vz = it.velocity_z;</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;        <span class="keywordflow">switch</span> (it.animflag)</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;        {</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;            <span class="keywordflow">case</span> ANIM_NO:</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;                movelib_brake_simple(it, (autocvar_g_turrets_unit_walker_speed_stop));</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;            <span class="keywordflow">case</span> ANIM_TURN:</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn);</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;                movelib_brake_simple(it, (autocvar_g_turrets_unit_walker_speed_stop));</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;            <span class="keywordflow">case</span> ANIM_WALK:</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn_walk);</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;                movelib_move_simple(it, v_forward, (autocvar_g_turrets_unit_walker_speed_walk), 0.6);</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;            <span class="keywordflow">case</span> ANIM_RUN:</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn_run);</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;                movelib_move_simple(it, v_forward, (autocvar_g_turrets_unit_walker_speed_run), 0.6);</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;            <span class="keywordflow">case</span> ANIM_STRAFE_L:</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn_strafe);</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;                movelib_move_simple(it, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a> * -1, (autocvar_g_turrets_unit_walker_speed_walk), 0.8);</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;            <span class="keywordflow">case</span> ANIM_STRAFE_R:</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn_strafe);</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;                movelib_move_simple(it, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a>, (autocvar_g_turrets_unit_walker_speed_walk), 0.8);</div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;            <span class="keywordflow">case</span> ANIM_JUMP:</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;                it.velocity += <span class="stringliteral">&#39;0 0 1&#39;</span> * (autocvar_g_turrets_unit_walker_speed_jump);</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;            <span class="keywordflow">case</span> ANIM_LAND:</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;            <span class="keywordflow">case</span> ANIM_PAIN:</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;                <span class="keywordflow">if</span>(it.frame != ANIM_PAIN)</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;                    defer(it, 0.25, walker_setnoanim);</div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;</div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;            <span class="keywordflow">case</span> ANIM_MELEE:</div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;                <span class="keywordflow">if</span>(it.frame != ANIM_MELEE)</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;                {</div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;                    defer(it, 0.41, walker_setnoanim);</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;                    defer(it, 0.21, walker_melee_do_dmg);</div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;                }</div>
-<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;</div>
-<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;                movelib_brake_simple(it, (autocvar_g_turrets_unit_walker_speed_stop));</div>
-<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;</div>
-<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;            <span class="keywordflow">case</span> ANIM_SWIM:</div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn_swim);</div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;                turnx = (autocvar_g_turrets_unit_walker_turn_swim);</div>
-<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;</div>
-<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;                it.angles_x += <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(-10, <a class="code" href="../../d9/da8/angle_8qc.html#ad6ba5c9ce5ba555a8fe05c66916bf3a0">shortangle_f</a>(real_angle_x, it.angles_x), 10);</div>
-<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;                movelib_move_simple(it, v_forward, (autocvar_g_turrets_unit_walker_speed_swim), 0.3);</div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;                vz = it.velocity_z + <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> * 4) * 8;</div>
-<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;</div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;            <span class="keywordflow">case</span> ANIM_ROAM:</div>
-<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn_walk);</div>
-<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;                movelib_move_simple(it, v_forward ,(autocvar_g_turrets_unit_walker_speed_roam), 0.5);</div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;        }</div>
-<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;</div>
-<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;        <span class="keywordflow">if</span>(turny)</div>
-<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;        {</div>
-<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;            turny = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>( turny * -1, <a class="code" href="../../d9/da8/angle_8qc.html#ad6ba5c9ce5ba555a8fe05c66916bf3a0">shortangle_f</a>(real_angle_y, it.angles_y), turny );</div>
-<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;            it.angles_y += turny;</div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;        }</div>
-<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;</div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;        <span class="keywordflow">if</span>(turnx)</div>
-<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;        {</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;            turnx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>( turnx * -1, <a class="code" href="../../d9/da8/angle_8qc.html#ad6ba5c9ce5ba555a8fe05c66916bf3a0">shortangle_f</a>(real_angle_x, it.angles_x), turnx );</div>
-<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;            it.angles_x += turnx;</div>
-<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;        }</div>
-<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;</div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        it.velocity_z = vz;</div>
-<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;    }</div>
-<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;</div>
-<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;</div>
-<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    <span class="keywordflow">if</span>(it.origin != it.oldorigin)</div>
-<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;        it.SendFlags |= <a class="code" href="../../d9/d67/turret_8qh.html#a8e2d911c42f4438dbcc781cf99605bdb">TNSF_MOVE</a>;</div>
-<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;</div>
-<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;    it.oldorigin = it.origin;</div>
-<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;    <a class="code" href="../../df/d28/sv__turrets_8qh.html#aee867619d0b8d86bc0c22a766aee92fd">turrets_setframe</a>(it, it.animflag, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;}</div>
-<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a>, tr_death, <span class="keywordtype">void</span>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it))</div>
-<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;{</div>
-<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;<span class="preprocessor">#ifdef WALKER_FANCYPATHING</span></div>
-<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span> (it.pathcurrent)</div>
-<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;        <a class="code" href="../../df/d4c/server_2pathlib_2main_8qc.html#a03b9aba43bfb042a5123b809a630a852">pathlib_deletepath</a>(it.pathcurrent.owner);</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;<span class="preprocessor"></span>    it.pathcurrent = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;}</div>
-<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a>, tr_setup, <span class="keywordtype">void</span>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it))</div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;{</div>
-<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;    it.ticrate = 0.05;</div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;</div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    <span class="comment">// Respawn is called &amp; first spawn to, to set team. need to make sure we do not move the initial spawn.</span></div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;    <span class="keywordflow">if</span>(it.move_movetype == <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>)</div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    {</div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;        <span class="keywordflow">if</span>(it.pos1)</div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;            <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(it, it.pos1);</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;        <span class="keywordflow">if</span>(it.pos2)</div>
-<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;            it.angles = it.pos2;</div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;    }</div>
-<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;</div>
-<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    it.ammo_flags = <a class="code" href="../../d9/d67/turret_8qh.html#a744804562ab03101561a3941f70dbb8c">TFL_AMMO_BULLETS</a> | <a class="code" href="../../d9/d67/turret_8qh.html#ab18f6716f65ae5a24655adf0403bfb30">TFL_AMMO_RECHARGE</a> | <a class="code" href="../../d9/d67/turret_8qh.html#ac534dca03d2448d6ce588aee578d5ad9">TFL_AMMO_RECIEVE</a>;</div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;    it.aim_flags = <a class="code" href="../../d9/d67/turret_8qh.html#a316a9d1bb21b5e1bfb4ee23225cecc53">TFL_AIM_LEAD</a>;</div>
-<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    it.turret_flags |= <a class="code" href="../../d9/d67/turret_8qh.html#a226eeb882d88627843929bd17604e01b">TUR_FLAG_HITSCAN</a>;</div>
-<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;</div>
-<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;    it.target_select_flags = <a class="code" href="../../d9/d67/turret_8qh.html#a3da70e0df6e32f9a82d3141699e1a5f0">TFL_TARGETSELECT_PLAYERS</a> | <a class="code" href="../../d9/d67/turret_8qh.html#a54a8888b13e06d27372b0c69121dff48">TFL_TARGETSELECT_RANGELIMITS</a> | <a class="code" href="../../d9/d67/turret_8qh.html#a204092caa868ede3a6412a0581a440ea">TFL_TARGETSELECT_TEAMCHECK</a> | <a class="code" href="../../d9/d67/turret_8qh.html#aab08857d1ed7cb5a09488fa0a322c739">TFL_TARGETSELECT_LOS</a>;</div>
-<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;    it.target_validate_flags = <a class="code" href="../../d9/d67/turret_8qh.html#a3da70e0df6e32f9a82d3141699e1a5f0">TFL_TARGETSELECT_PLAYERS</a> | <a class="code" href="../../d9/d67/turret_8qh.html#a54a8888b13e06d27372b0c69121dff48">TFL_TARGETSELECT_RANGELIMITS</a> | <a class="code" href="../../d9/d67/turret_8qh.html#a204092caa868ede3a6412a0581a440ea">TFL_TARGETSELECT_TEAMCHECK</a> | <a class="code" href="../../d9/d67/turret_8qh.html#aab08857d1ed7cb5a09488fa0a322c739">TFL_TARGETSELECT_LOS</a>;</div>
-<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;    it.iscreature = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;    it.teleportable = <a class="code" href="../../dd/d2d/teleporters_8qh.html#a2e98016bb3ba2c249de1e779bcce86cf">TELEPORT_NORMAL</a>;</div>
-<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;    <span class="keywordflow">if</span>(!it.damagedbycontents)</div>
-<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a570becfa48d2a2f3b0061334ed002c88">g_damagedbycontents</a>, it);</div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;    it.damagedbycontents = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;    it.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a484c1181c0ccb7b6488598a9f2ede6ef">SOLID_SLIDEBOX</a>;</div>
-<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;    it.takedamage = <a class="code" href="../../d6/d11/progsdefs_8qc.html#aa9ea10d4f0d0ed19674dae09c99d635b">DAMAGE_AIM</a>;</div>
-<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;    <span class="keywordflow">if</span>(it.move_movetype != <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>)</div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    {</div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(it, it.origin);</div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        tracebox(it.origin + <span class="stringliteral">&#39;0 0 128&#39;</span>, it.mins, it.maxs, it.origin - <span class="stringliteral">&#39;0 0 10000&#39;</span>, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, it);</div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(it, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> + <span class="stringliteral">&#39;0 0 4&#39;</span>);</div>
-<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        it.pos1 = it.origin;</div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        it.pos2 = it.angles;</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    }</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(it, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>);</div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    it.idle_aim = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    it.turret_firecheckfunc = walker_firecheck;</div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;</div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    <span class="keywordflow">if</span> (it.target != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(it, walker_findtarget, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a>);</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;}</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;</div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;<span class="preprocessor">#endif // SVQC</span></div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef CSQC</span></div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/dc4/movelib_8qh.html">common/physics/movelib.qh</a>&gt;</span></div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;<span class="keywordtype">void</span> walker_draw(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;{</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    <span class="keywordtype">float</span> dt;</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    dt = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#aaa2abfa04cefcf14baf80ba2ec1eb96c">move_time</a>;</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    this.move_time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;    <span class="keywordflow">if</span>(dt &lt;= 0)</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;</div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    <a class="code" href="../../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e">fixedmakevectors</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>);</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    <a class="code" href="../../d4/d7a/movelib_8qc.html#aa514946bfa921bfcd0f67fb31fe9ac7a">movelib_groundalign4point</a>(<span class="keyword">this</span>, 300, 100, 0.25, 45);</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a> + this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a> * dt);</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.angles += dt * this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.avelocity;</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> &lt; 127)</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.15)</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        te_spark(this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a> + <span class="stringliteral">&#39;0 0 40&#39;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * 256 + <span class="stringliteral">&#39;0 0 256&#39;</span>, 16);</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;}</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a>, tr_setup, <span class="keywordtype">void</span>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it))</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;        {</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;            it.gravity      = 1;</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(it, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>);</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;            it.move_time        = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;            it.draw         = walker_draw;</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        }</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;<span class="preprocessor">#endif // CSQC</span></div>
-<div class="ttc" id="client_2main_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00109">main.qh:109</a></div></div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;            <span class="keywordflow">case</span> ANIM_MELEE:</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;                <span class="keywordflow">if</span>(it.frame != ANIM_MELEE)</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;                {</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;                    defer(it, 0.41, walker_setnoanim);</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;                    defer(it, 0.21, walker_melee_do_dmg);</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;                }</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;                movelib_brake_simple(it, (autocvar_g_turrets_unit_walker_speed_stop));</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;            <span class="keywordflow">case</span> ANIM_SWIM:</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn_swim);</div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;                turnx = (autocvar_g_turrets_unit_walker_turn_swim);</div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;                it.angles_x += <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(-10, <a class="code" href="../../d9/da8/angle_8qc.html#ad6ba5c9ce5ba555a8fe05c66916bf3a0">shortangle_f</a>(real_angle_x, it.angles_x), 10);</div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;                movelib_move_simple(it, v_forward, (autocvar_g_turrets_unit_walker_speed_swim), 0.3);</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;                vz = it.velocity_z + <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> * 4) * 8;</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;</div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;            <span class="keywordflow">case</span> ANIM_ROAM:</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;                turny = (autocvar_g_turrets_unit_walker_turn_walk);</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;                movelib_move_simple(it, v_forward ,(autocvar_g_turrets_unit_walker_speed_roam), 0.5);</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;        }</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;</div>
+<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;        <span class="keywordflow">if</span>(turny)</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;        {</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;            turny = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>( turny * -1, <a class="code" href="../../d9/da8/angle_8qc.html#ad6ba5c9ce5ba555a8fe05c66916bf3a0">shortangle_f</a>(real_angle_y, it.angles_y), turny );</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;            it.angles_y += turny;</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;        }</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;        <span class="keywordflow">if</span>(turnx)</div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;        {</div>
+<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;            turnx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>( turnx * -1, <a class="code" href="../../d9/da8/angle_8qc.html#ad6ba5c9ce5ba555a8fe05c66916bf3a0">shortangle_f</a>(real_angle_x, it.angles_x), turnx );</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;            it.angles_x += turnx;</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        }</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;</div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;        it.velocity_z = vz;</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    }</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;    <span class="keywordflow">if</span>(it.origin != it.oldorigin)</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;        it.SendFlags |= <a class="code" href="../../d9/d67/turret_8qh.html#a8e2d911c42f4438dbcc781cf99605bdb">TNSF_MOVE</a>;</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;</div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;    it.oldorigin = it.origin;</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;    <a class="code" href="../../df/d28/sv__turrets_8qh.html#aee867619d0b8d86bc0c22a766aee92fd">turrets_setframe</a>(it, it.animflag, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;}</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a>, tr_death, <span class="keywordtype">void</span>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it))</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;{</div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;<span class="preprocessor">#ifdef WALKER_FANCYPATHING</span></div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span> (it.pathcurrent)</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;        <a class="code" href="../../df/d4c/server_2pathlib_2main_8qc.html#a03b9aba43bfb042a5123b809a630a852">pathlib_deletepath</a>(it.pathcurrent.owner);</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;<span class="preprocessor"></span>    it.pathcurrent = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;}</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a>, tr_setup, <span class="keywordtype">void</span>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it))</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;{</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    it.ticrate = 0.05;</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    <span class="comment">// Respawn is called &amp; first spawn to, to set team. need to make sure we do not move the initial spawn.</span></div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    <span class="keywordflow">if</span>(it.move_movetype == <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>)</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    {</div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;        <span class="keywordflow">if</span>(it.pos1)</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;            <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(it, it.pos1);</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;        <span class="keywordflow">if</span>(it.pos2)</div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;            it.angles = it.pos2;</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    }</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;</div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    it.ammo_flags = <a class="code" href="../../d9/d67/turret_8qh.html#a744804562ab03101561a3941f70dbb8c">TFL_AMMO_BULLETS</a> | <a class="code" href="../../d9/d67/turret_8qh.html#ab18f6716f65ae5a24655adf0403bfb30">TFL_AMMO_RECHARGE</a> | <a class="code" href="../../d9/d67/turret_8qh.html#ac534dca03d2448d6ce588aee578d5ad9">TFL_AMMO_RECIEVE</a>;</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;    it.aim_flags = <a class="code" href="../../d9/d67/turret_8qh.html#a316a9d1bb21b5e1bfb4ee23225cecc53">TFL_AIM_LEAD</a>;</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;    it.turret_flags |= <a class="code" href="../../d9/d67/turret_8qh.html#a226eeb882d88627843929bd17604e01b">TUR_FLAG_HITSCAN</a>;</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;    it.target_select_flags = <a class="code" href="../../d9/d67/turret_8qh.html#a3da70e0df6e32f9a82d3141699e1a5f0">TFL_TARGETSELECT_PLAYERS</a> | <a class="code" href="../../d9/d67/turret_8qh.html#a54a8888b13e06d27372b0c69121dff48">TFL_TARGETSELECT_RANGELIMITS</a> | <a class="code" href="../../d9/d67/turret_8qh.html#a204092caa868ede3a6412a0581a440ea">TFL_TARGETSELECT_TEAMCHECK</a> | <a class="code" href="../../d9/d67/turret_8qh.html#aab08857d1ed7cb5a09488fa0a322c739">TFL_TARGETSELECT_LOS</a>;</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;    it.target_validate_flags = <a class="code" href="../../d9/d67/turret_8qh.html#a3da70e0df6e32f9a82d3141699e1a5f0">TFL_TARGETSELECT_PLAYERS</a> | <a class="code" href="../../d9/d67/turret_8qh.html#a54a8888b13e06d27372b0c69121dff48">TFL_TARGETSELECT_RANGELIMITS</a> | <a class="code" href="../../d9/d67/turret_8qh.html#a204092caa868ede3a6412a0581a440ea">TFL_TARGETSELECT_TEAMCHECK</a> | <a class="code" href="../../d9/d67/turret_8qh.html#aab08857d1ed7cb5a09488fa0a322c739">TFL_TARGETSELECT_LOS</a>;</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;    it.iscreature = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;    it.teleportable = <a class="code" href="../../dd/d2d/teleporters_8qh.html#a2e98016bb3ba2c249de1e779bcce86cf">TELEPORT_NORMAL</a>;</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;    <span class="keywordflow">if</span>(!it.damagedbycontents)</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a570becfa48d2a2f3b0061334ed002c88">g_damagedbycontents</a>, it);</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;    it.damagedbycontents = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;    it.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a484c1181c0ccb7b6488598a9f2ede6ef">SOLID_SLIDEBOX</a>;</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    it.takedamage = <a class="code" href="../../d6/d11/progsdefs_8qc.html#aa9ea10d4f0d0ed19674dae09c99d635b">DAMAGE_AIM</a>;</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    <span class="keywordflow">if</span>(it.move_movetype != <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>)</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    {</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(it, it.origin);</div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        tracebox(it.origin + <span class="stringliteral">&#39;0 0 128&#39;</span>, it.mins, it.maxs, it.origin - <span class="stringliteral">&#39;0 0 10000&#39;</span>, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, it);</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(it, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> + <span class="stringliteral">&#39;0 0 4&#39;</span>);</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;        it.pos1 = it.origin;</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        it.pos2 = it.angles;</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    }</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(it, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>);</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    it.idle_aim = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    it.turret_firecheckfunc = walker_firecheck;</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    <span class="keywordflow">if</span> (it.target != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(it, walker_findtarget, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a>);</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;}</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;<span class="preprocessor">#endif // SVQC</span></div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef CSQC</span></div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/dc4/movelib_8qh.html">common/physics/movelib.qh</a>&gt;</span></div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;<span class="keywordtype">void</span> walker_draw(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;{</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    <span class="keywordtype">float</span> dt;</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;    dt = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#aaa2abfa04cefcf14baf80ba2ec1eb96c">move_time</a>;</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    this.move_time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    <span class="keywordflow">if</span>(dt &lt;= 0)</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    <a class="code" href="../../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e">fixedmakevectors</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>);</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    <a class="code" href="../../d4/d7a/movelib_8qc.html#aa514946bfa921bfcd0f67fb31fe9ac7a">movelib_groundalign4point</a>(<span class="keyword">this</span>, 300, 100, 0.25, 45);</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a> + this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a> * dt);</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.angles += dt * this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.avelocity;</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> &lt; 127)</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.15)</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;        te_spark(this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a> + <span class="stringliteral">&#39;0 0 40&#39;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * 256 + <span class="stringliteral">&#39;0 0 256&#39;</span>, 16);</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;}</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a>, tr_setup, <span class="keywordtype">void</span>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it))</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;        {</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;            it.gravity      = 1;</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;            <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(it, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>);</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;            it.move_time        = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;            it.draw         = walker_draw;</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;        }</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;<span class="preprocessor">#endif // CSQC</span></div>
+<div class="ttc" id="client_2main_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00117">main.qh:117</a></div></div>
 <div class="ttc" id="sv__turrets_8qh_html_a5bb0d9e6f4a0edd9ebd6c763dd6da6d8"><div class="ttname"><a href="../../df/d28/sv__turrets_8qh.html#a5bb0d9e6f4a0edd9ebd6c763dd6da6d8">tur_shotorg</a></div><div class="ttdeci">vector tur_shotorg</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/sv__turrets_8qh_source.html#l00015">sv_turrets.qh:15</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a31938f237dbe4b58beccf0af8ee3713f"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a></div><div class="ttdeci">float MOVETYPE_WALK</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00249">progsdefs.qc:249</a></div></div>
 <div class="ttc" id="sv__turrets_8qh_html_a53b1f94a93f57dc271b0377b8d314b5e"><div class="ttname"><a href="../../df/d28/sv__turrets_8qh.html#a53b1f94a93f57dc271b0377b8d314b5e">turret_validate_target</a></div><div class="ttdeci">float turret_validate_target(entity e_turret, entity e_target, float validate_flags)</div></div>
 <div class="ttc" id="movelib_8qc_html_aa514946bfa921bfcd0f67fb31fe9ac7a"><div class="ttname"><a href="../../d4/d7a/movelib_8qc.html#aa514946bfa921bfcd0f67fb31fe9ac7a">movelib_groundalign4point</a></div><div class="ttdeci">void movelib_groundalign4point(entity this, float spring_length, float spring_up, float blendrate, float _max)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7a/movelib_8qc_source.html#l00185">movelib.qc:185</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_a048269a249dd2d958fa3ebbccb21c877"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a></div><div class="ttdeci">void InitializeEntity(entity e, void(entity this) func, float order)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00878">miscfunctions.qc:878</a></div></div>
 <div class="ttc" id="movetypes_8qh_html_a34ca566662a26587b84114499a69e6d4"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a34ca566662a26587b84114499a69e6d4">WATERLEVEL_SUBMERGED</a></div><div class="ttdeci">const int WATERLEVEL_SUBMERGED</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00007">movetypes.qh:7</a></div></div>
-<div class="ttc" id="sv__turrets_8qh_html_a7d1fc3b45329d9e17d6a23c60c6a0a2a"><div class="ttname"><a href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a></div><div class="ttdeci">entity pathgoal</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/sv__turrets_8qh_source.html#l00099">sv_turrets.qh:99</a></div></div>
+<div class="ttc" id="sv__turrets_8qh_html_a7d1fc3b45329d9e17d6a23c60c6a0a2a"><div class="ttname"><a href="../../df/d28/sv__turrets_8qh.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a></div><div class="ttdeci">entity pathgoal</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/sv__turrets_8qh_source.html#l00102">sv_turrets.qh:102</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a71aea70843465fbe264062c4cd2df57f"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a71aea70843465fbe264062c4cd2df57f">SOLID_BBOX</a></div><div class="ttdeci">const int SOLID_BBOX</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00128">csqc_constants.qh:128</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aa156cc8dd51c39572de799ab8a0dd8d0"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a></div><div class="ttdeci">vector randomvec(void)</div></div>
 <div class="ttc" id="classWalkerTurret_html"><div class="ttname"><a href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d36/walker_8qh_source.html#l00007">walker.qh:7</a></div></div>
@@ -780,7 +782,7 @@ $(document).ready(function(){initNavTree('db/d5c/walker_8qc_source.html','../../
 <div class="ttc" id="server_2defs_8qh_html_a7d15659b92a2ebcd68cc184e3a3824a3"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a7d15659b92a2ebcd68cc184e3a3824a3">DMG_NOWEP</a></div><div class="ttdeci">#define DMG_NOWEP</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00230">defs.qh:230</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a1ca977fd4fb6900884c2cea28062c8a7"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7">Damage</a></div><div class="ttdeci">void Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype,.entity weaponentity, vector hitloc, vector force)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00567">g_damage.qc:567</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
-<div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00034">main.qh:34</a></div></div>
+<div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00042">main.qh:42</a></div></div>
 <div class="ttc" id="turret_8qh_html_ab18f6716f65ae5a24655adf0403bfb30"><div class="ttname"><a href="../../d9/d67/turret_8qh.html#ab18f6716f65ae5a24655adf0403bfb30">TFL_AMMO_RECHARGE</a></div><div class="ttdeci">const int TFL_AMMO_RECHARGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d67/turret_8qh_source.html#l00144">turret.qh:144</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a43d4911c37299de085f3a00735956514"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a></div><div class="ttdeci">const int MOVE_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00133">csqc_constants.qh:133</a></div></div>
 <div class="ttc" id="dpextensions_8qh_html_a2b52021bdb54f8185679661d54611cd8"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8">gettagindex</a></div><div class="ttdeci">#define gettagindex</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00016">dpextensions.qh:16</a></div></div>
@@ -817,7 +819,7 @@ $(document).ready(function(){initNavTree('db/d5c/walker_8qc_source.html','../../
 <div class="ttc" id="movetypes_8qh_html_a23878f171fe94c2b5c31a13077e1c845"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a23878f171fe94c2b5c31a13077e1c845">WATERLEVEL_WETFEET</a></div><div class="ttdeci">const int WATERLEVEL_WETFEET</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00005">movetypes.qh:5</a></div></div>
 <div class="ttc" id="sound_8qh_html_ab7d311180e6c1130c970d08fe9b6c638"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#ab7d311180e6c1130c970d08fe9b6c638">ATTEN_NORM</a></div><div class="ttdeci">const float ATTEN_NORM</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00029">sound.qh:29</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9d4fb8ccfb13fa0bd762af0b2b50dcf6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a></div><div class="ttdeci">float nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">csprogsdefs.qc:121</a></div></div>
-<div class="ttc" id="sv__turrets_8qh_html_a63fd2adda1d11b04fc23f6288358d1a2"><div class="ttname"><a href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a></div><div class="ttdeci">entity pathcurrent</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/sv__turrets_8qh_source.html#l00097">sv_turrets.qh:97</a></div></div>
+<div class="ttc" id="sv__turrets_8qh_html_a63fd2adda1d11b04fc23f6288358d1a2"><div class="ttname"><a href="../../df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2">pathcurrent</a></div><div class="ttdeci">entity pathcurrent</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/sv__turrets_8qh_source.html#l00100">sv_turrets.qh:100</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9bdd141f634714eab30642bf42f63862"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a></div><div class="ttdeci">entity enemy</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00127">csprogsdefs.qc:127</a></div></div>
 <div class="ttc" id="spawnfunc_8qh_html_a9ad7f6cd69a76791c4b63b9c09126153"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a></div><div class="ttdeci">#define spawnfunc(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00276">spawnfunc.qh:276</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a53c4a8e7afd17cad92bc00adba96bb78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a></div><div class="ttdeci">entity find(entity start,.string field, string match)</div></div>
@@ -825,7 +827,8 @@ $(document).ready(function(){initNavTree('db/d5c/walker_8qc_source.html','../../
 <div class="ttc" id="movetypes_8qh_html_aaa2abfa04cefcf14baf80ba2ec1eb96c"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#aaa2abfa04cefcf14baf80ba2ec1eb96c">move_time</a></div><div class="ttdeci">float move_time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00059">movetypes.qh:59</a></div></div>
 <div class="ttc" id="vector_8qh_html_a1c6e194f67b0befe85d6613c75d44d30"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a></div><div class="ttdeci">#define vdist(v, cmp, f)</div><div class="ttdoc">Vector distance comparison, avoids sqrt() </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00009">vector.qh:9</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
-<div class="ttc" id="steerlib_8qc_html_aa285512e4bcd6a3b28eefa0a85558042"><div class="ttname"><a href="../../de/d9b/steerlib_8qc.html#aa285512e4bcd6a3b28eefa0a85558042">steerlib_attract2</a></div><div class="ttdeci">vector steerlib_attract2(entity this, vector point, float min_influense, float max_distance, float max_influense)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9b/steerlib_8qc_source.html#l00054">steerlib.qc:54</a></div></div>
+<div class="ttc" id="steerlib_8qc_html_aa285512e4bcd6a3b28eefa0a85558042"><div class="ttname"><a href="../../de/d9b/steerlib_8qc.html#aa285512e4bcd6a3b28eefa0a85558042">steerlib_attract2</a></div><div class="ttdeci">vector steerlib_attract2(entity this, vector point, float min_influense, float max_distance, float max_influense)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9b/steerlib_8qc_source.html#l00048">steerlib.qc:48</a></div></div>
+<div class="ttc" id="sv__turrets_8qh_html_a7af3ed0c2fcc26fc952937b3facaf253"><div class="ttname"><a href="../../df/d28/sv__turrets_8qh.html#a7af3ed0c2fcc26fc952937b3facaf253">turret_closetotarget</a></div><div class="ttdeci">bool turret_closetotarget(entity this, vector targ)</div></div>
 <div class="ttc" id="server_2defs_8qh_html_a61f846996c811b4ad89a8cbfeade1ee5"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a61f846996c811b4ad89a8cbfeade1ee5">MIF_PROXY</a></div><div class="ttdeci">const int MIF_PROXY</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00384">defs.qh:384</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a63bce1d11afa658ec5e4b4f98ccfa511"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a></div><div class="ttdeci">string targetname</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00194">progsdefs.qc:194</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8f1a4afecc1d18c8149c7662c8f1addd"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a></div><div class="ttdeci">vector v_right</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">csprogsdefs.qc:31</a></div></div>
@@ -864,7 +867,7 @@ $(document).ready(function(){initNavTree('db/d5c/walker_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../dir_fa2a09f1361e1aa682b62127b5a1aaea.html">turret</a></li><li class="navelem"><a class="el" href="../../db/d5c/walker_8qc.html">walker.qc</a></li>
-    <li class="footer">Generated on Tue Jun 12 2018 04:16:23 for Xonotic by
+    <li class="footer">Generated on Tue Jun 12 2018 09:03:27 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX14 =
 {
+"d1/dbf/xonotic_2inputbox_8qc_source.html":[2,0,5,4,170],
+"d1/dc2/bugrigs_8qc.html":[2,0,1,10,0,3,2],
+"d1/dc2/bugrigs_8qc_source.html":[2,0,1,10,0,3,2],
+"d1/dc2/kill_8qc.html":[2,0,1,6,2,4],
 "d1/dc2/kill_8qc_source.html":[2,0,1,6,2,4],
 "d1/dc3/classEWheelAttack.html":[1,0,37],
 "d1/dc3/classEWheelAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,37,36],
@@ -245,9 +249,5 @@ var NAVTREEINDEX14 =
 "d1/df3/weaponarenacheckbox_8qc_source.html":[2,0,5,4,232],
 "d1/df6/tuba_8qc.html":[2,0,1,16,0,36],
 "d1/df6/tuba_8qc_source.html":[2,0,1,16,0,36],
-"d1/df7/nil_8qh.html":[2,0,4,37],
-"d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44":[2,0,4,37,0],
-"d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91":[2,0,4,37,1],
-"d1/df7/nil_8qh_source.html":[2,0,4,37],
-"d1/df8/lightningarc_8qc.html":[2,0,1,2,0,10]
+"d1/df7/nil_8qh.html":[2,0,4,37]
 };

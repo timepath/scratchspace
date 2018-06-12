@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 813;
+var viewWidth = 888;
 var viewHeight = 432;
 var sectionId = 'dynsection-1';
 </script>
@@ -56,34 +56,48 @@ var sectionId = 'dynsection-1';
 <title>client/hud/panel/radar.qh</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="378.5,-404.5 378.5,-423.5 501.5,-423.5 501.5,-404.5 378.5,-404.5"/>
-<text text-anchor="middle" x="440" y="-411.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/hud/panel/radar.qh</text>
+<polygon fill="#bfbfbf" stroke="black" points="666.5,-404.5 666.5,-423.5 789.5,-423.5 789.5,-404.5 666.5,-404.5"/>
+<text text-anchor="middle" x="728" y="-411.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/hud/panel/radar.qh</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="../../d1/d06/client_2hud_2panel_2__mod_8qh.html" target="_top" xlink:title="client/hud/panel/_mod.qh">
-<polygon fill="none" stroke="black" points="322.5,-348.5 322.5,-367.5 447.5,-367.5 447.5,-348.5 322.5,-348.5"/>
-<text text-anchor="middle" x="385" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/hud/panel/_mod.qh</text>
+<polygon fill="none" stroke="black" points="434.5,-348.5 434.5,-367.5 559.5,-367.5 559.5,-348.5 434.5,-348.5"/>
+<text text-anchor="middle" x="497" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/hud/panel/_mod.qh</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M423.706,-397.002C413.959,-387.433 401.947,-375.639 393.913,-367.751"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="421.33,-399.575 430.918,-404.083 426.234,-394.58 421.33,-399.575"/>
+<path fill="none" stroke="midnightblue" d="M681.598,-402.153C637.953,-391.95 573.49,-376.881 533.431,-367.516"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="680.863,-405.575 691.397,-404.444 682.457,-398.759 680.863,-405.575"/>
+</g>
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="../../df/d8c/cl__cmd_8qc.html" target="_top" xlink:title="client/commands/cl\l_cmd.qc">
+<polygon fill="none" stroke="black" points="688.5,-225 688.5,-255 789.5,-255 789.5,-225 688.5,-225"/>
+<text text-anchor="start" x="696.5" y="-243" font-family="Helvetica,sans-Serif" font-size="10.00">client/commands/cl</text>
+<text text-anchor="middle" x="739" y="-232" font-family="Helvetica,sans-Serif" font-size="10.00">_cmd.qc</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node16 -->
+<g id="edge24" class="edge"><title>Node1&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M729.214,-394.011C731.443,-359.162 736.138,-285.756 738.104,-255.012"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="725.706,-394.031 728.561,-404.234 732.692,-394.478 725.706,-394.031"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
 <g id="a_node17"><a xlink:href="../../d0/d83/radar_8qc.html" target="_top" xlink:title="client/hud/panel/radar.qc">
-<polygon fill="none" stroke="black" points="609.5,-292.5 609.5,-311.5 732.5,-311.5 732.5,-292.5 609.5,-292.5"/>
-<text text-anchor="middle" x="671" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/hud/panel/radar.qc</text>
+<polygon fill="none" stroke="black" points="756.5,-292.5 756.5,-311.5 879.5,-311.5 879.5,-292.5 756.5,-292.5"/>
+<text text-anchor="middle" x="818" y="-299.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/hud/panel/radar.qc</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node17 -->
 <g id="edge22" class="edge"><title>Node1&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M467.255,-400.021C515.029,-377.272 612.639,-330.791 652.958,-311.591"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="465.65,-396.909 458.126,-404.368 468.66,-403.229 465.65,-396.909"/>
+<path fill="none" stroke="midnightblue" d="M741.43,-396.586C760.833,-372.871 796.016,-329.869 810.971,-311.591"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="738.686,-394.413 735.062,-404.368 744.103,-398.845 738.686,-394.413"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -95,8 +109,8 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M381.85,-338.101C380.356,-329.136 378.643,-318.858 377.459,-311.751"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="378.417,-338.794 383.514,-348.083 385.322,-337.644 378.417,-338.794"/>
+<path fill="none" stroke="midnightblue" d="M468.694,-344.368C446.035,-334.255 414.874,-320.349 395.083,-311.516"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="467.269,-347.564 477.827,-348.444 470.122,-341.172 467.269,-347.564"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
@@ -202,15 +216,6 @@ var sectionId = 'dynsection-1';
 <path fill="none" stroke="midnightblue" d="M429.057,-290.424C470.382,-281.916 529.088,-269.233 580,-256 587.456,-254.062 595.473,-251.758 602.856,-249.543"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="428.298,-287.007 419.204,-292.442 429.703,-293.865 428.298,-287.007"/>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="../../df/d8c/cl__cmd_8qc.html" target="_top" xlink:title="client/commands/cl\l_cmd.qc">
-<polygon fill="none" stroke="black" points="688.5,-225 688.5,-255 789.5,-255 789.5,-225 688.5,-225"/>
-<text text-anchor="start" x="696.5" y="-243" font-family="Helvetica,sans-Serif" font-size="10.00">client/commands/cl</text>
-<text text-anchor="middle" x="739" y="-232" font-family="Helvetica,sans-Serif" font-size="10.00">_cmd.qc</text>
-</a>
-</g>
-</g>
 <!-- Node3&#45;&gt;Node16 -->
 <g id="edge21" class="edge"><title>Node3&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M435.855,-293.862C497.191,-286.137 595.176,-272.661 679,-256 682.054,-255.393 685.186,-254.731 688.339,-254.034"/>
@@ -300,8 +305,8 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node17&#45;&gt;Node13 -->
 <g id="edge23" class="edge"><title>Node17&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M742.459,-291.782C763.829,-285.311 785.006,-274.389 798,-256 806.207,-244.385 807.173,-234.869 798,-224 772.923,-194.287 667.93,-184.191 598.146,-180.762"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="741.384,-288.448 732.655,-294.453 743.224,-295.201 741.384,-288.448"/>
+<path fill="none" stroke="midnightblue" d="M818.512,-282.108C817.901,-264.467 814.024,-238.712 798,-224 769.531,-197.861 666.699,-186.694 598.096,-182.077"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="815.013,-282.34 818.538,-292.332 822.013,-282.323 815.013,-282.34"/>
 </g>
 </g>
 </svg>

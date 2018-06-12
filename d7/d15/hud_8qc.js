@@ -1,8 +1,5 @@
 var hud_8qc =
 [
-    [ "calc_followmodel_ofs", "d7/d15/hud_8qc.html#a431d7c5844117b08d49e16c53095b9ea", null ],
-    [ "CSQC_BUMBLE_GUN_HUD", "d7/d15/hud_8qc.html#aeb5a957125115e4514fce07b3ce1382e", null ],
-    [ "CSQCModel_server2csqc", "d7/d15/hud_8qc.html#a73d0507b397c6e606b96e5008de41cb4", null ],
     [ "DrawNumIcon", "d7/d15/hud_8qc.html#a7b6e84742c9baae35fde5975fb825116", null ],
     [ "DrawNumIcon_expanding", "d7/d15/hud_8qc.html#a7526fd85f93fc7af908af59a70d07467", null ],
     [ "Hud_Dynamic_Frame", "d7/d15/hud_8qc.html#ad7ec85390e221721fcceeff66b7f663f", null ],

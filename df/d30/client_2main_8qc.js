@@ -2,7 +2,6 @@ var client_2main_8qc =
 [
     [ "DP_CSQC_ENTITY_REMOVE_IS_B0RKED", "df/d30/client_2main_8qc.html#a829c94418af5c1e25d9beef673e25f94", null ],
     [ "_getcommandkey", "df/d30/client_2main_8qc.html#a0698c589ddb7333f4485bee9dae8bd16", null ],
-    [ "ConsoleCommand_macro_init", "df/d30/client_2main_8qc.html#ab2acfe6a73bd0d158e3e9a62b9185725", null ],
     [ "CSQC_Ent_Remove", "df/d30/client_2main_8qc.html#a9b635841c31e627a3854f61176533152", null ],
     [ "CSQC_Ent_Update", "df/d30/client_2main_8qc.html#a46d8c3e096c855bf3690956e9ba1e862", null ],
     [ "CSQC_Init", "df/d30/client_2main_8qc.html#ae7a71c50fddc1b6cede7022e0304a3fe", null ],
@@ -41,7 +40,6 @@ var client_2main_8qc =
     [ "Shutdown", "df/d30/client_2main_8qc.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9", null ],
     [ "Spawn_Draw", "df/d30/client_2main_8qc.html#ad588feebc12ed1a2def99b4d4e70d92e", null ],
     [ "Spawn_PreDraw", "df/d30/client_2main_8qc.html#ac642f51eabb19c565bfbe0072388e146", null ],
-    [ "TrueAim_Init", "df/d30/client_2main_8qc.html#a468fbc523e176ec4adf829a18606b5f6", null ],
     [ "forcefog", "df/d30/client_2main_8qc.html#ac6d66624aeafa1c2684b5931d82b2008", null ],
     [ "has_team", "df/d30/client_2main_8qc.html#a33415c58794cf70af080dcfa3213a501", null ]
 ];

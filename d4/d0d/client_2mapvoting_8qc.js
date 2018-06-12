@@ -3,7 +3,6 @@ var client_2mapvoting_8qc =
     [ "Cmd_MapVote_MapDownload", "d4/d0d/client_2mapvoting_8qc.html#a08c0aab74864d494f4b7ef702a0703ca", null ],
     [ "GameTypeVote_DrawGameTypeItem", "d4/d0d/client_2mapvoting_8qc.html#ac0b940b69fe411f626169357481ff8b9", null ],
     [ "GameTypeVote_ReadOption", "d4/d0d/client_2mapvoting_8qc.html#a2d18123ee9cdfee569be86229f2cf9aa", null ],
-    [ "HUD_GetTableSize_BestItemAR", "d4/d0d/client_2mapvoting_8qc.html#abed4aa2c37e69cf8b4fdeab69c7e0076", null ],
     [ "MapVote_CheckPic", "d4/d0d/client_2mapvoting_8qc.html#a4e309a8481e1eb672068396a8da29efc", null ],
     [ "MapVote_CheckPK3", "d4/d0d/client_2mapvoting_8qc.html#a6d03f5e30fcc06b0a00062693556e1aa", null ],
     [ "MapVote_Draw", "d4/d0d/client_2mapvoting_8qc.html#aa818f8084baf251c8c1215262ebe1022", null ],

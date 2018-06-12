@@ -137,6 +137,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a15df8a6498e96a76f4a5e0213150f6a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/sv__turrets_8qh.html#a15df8a6498e96a76f4a5e0213150f6a8">float</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> _turret, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> _target) turret_score_target</td></tr>
 <tr class="memdesc:a15df8a6498e96a76f4a5e0213150f6a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to use for target evaluation. usualy turret_targetscore_generic.  <a href="#a15df8a6498e96a76f4a5e0213150f6a8">More...</a><br/></td></tr>
 <tr class="separator:a15df8a6498e96a76f4a5e0213150f6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7af3ed0c2fcc26fc952937b3facaf253"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/sv__turrets_8qh.html#a7af3ed0c2fcc26fc952937b3facaf253">turret_closetotarget</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> targ)</td></tr>
+<tr class="separator:a7af3ed0c2fcc26fc952937b3facaf253"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeecd9275b04ef56133834fe9ec106c3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/sv__turrets_8qh.html#aeecd9275b04ef56133834fe9ec106c3d">turret_do_updates</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> e_turret)</td></tr>
 <tr class="memdesc:aeecd9275b04ef56133834fe9ec106c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates aim org, shot org, shot dir and enemy org for selected turret  <a href="#aeecd9275b04ef56133834fe9ec106c3d">More...</a><br/></td></tr>
 <tr class="separator:aeecd9275b04ef56133834fe9ec106c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -361,6 +363,32 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function to use for target evaluation. usualy turret_targetscore_generic. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7af3ed0c2fcc26fc952937b3facaf253"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a> turret_closetotarget </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
+          <td class="paramname"><em>targ</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -679,7 +707,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00050">50</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00024">DrawAmmoItem()</a>, <a class="el" href="../../df/d42/quake3_8qc_source.html#l00139">target_give_init()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00659">W_DecreaseAmmo()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00699">W_ReloadedAndReady()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00221">weapon_prepareattack_checkammo()</a>.</p>
+<p>Referenced by <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00023">DrawAmmoItem()</a>, <a class="el" href="../../df/d42/quake3_8qc_source.html#l00139">target_give_init()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00659">W_DecreaseAmmo()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00699">W_ReloadedAndReady()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00221">weapon_prepareattack_checkammo()</a>.</p>
 
 </div>
 </div>
@@ -735,7 +763,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00097">97</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00100">100</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
 
 </div>
 </div>
@@ -749,7 +777,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00099">99</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00102">102</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
 
 </div>
 </div>
@@ -1277,7 +1305,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00101">101</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00104">104</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
 
 </div>
 </div>
@@ -1403,7 +1431,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00123">123</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00126">126</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
 
 </div>
 </div>
@@ -1417,7 +1445,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00122">122</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00125">125</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
 
 </div>
 </div>
@@ -1431,7 +1459,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00120">120</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00123">123</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
 
 </div>
 </div>
@@ -1445,7 +1473,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00121">121</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00124">124</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
 
 </div>
 </div>
@@ -1459,7 +1487,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00119">119</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00122">122</a> of file <a class="el" href="../../df/d28/sv__turrets_8qh_source.html">sv_turrets.qh</a>.</p>
 
 </div>
 </div>
@@ -1483,7 +1511,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../df/d28/sv__turrets_8qh.html">sv_turrets.qh</a></li>
-    <li class="footer">Generated on Tue Jun 12 2018 04:16:31 for Xonotic by
+    <li class="footer">Generated on Tue Jun 12 2018 09:03:35 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

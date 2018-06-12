@@ -1,5 +1,8 @@
 var NAVTREEINDEX126 =
 {
+"df/d07/cl__generator_8qc.html":[2,0,1,3,0,12,4],
+"df/d07/cl__generator_8qc.html#a163e03ef7146952b01f9ecbf3f144828":[2,0,1,3,0,12,4,10],
+"df/d07/cl__generator_8qc.html#a17113ca9f8dc87e435cd5941bfcb71f2":[2,0,1,3,0,12,4,2],
 "df/d07/cl__generator_8qc.html#a1d28dec57cce925ad92342891bd71e7c":[2,0,1,3,0,12,4,11],
 "df/d07/cl__generator_8qc.html#a586288fac677e9574d44023edda79579":[2,0,1,3,0,12,4,1],
 "df/d07/cl__generator_8qc.html#a7945b6c27743d9c111ffd61a56cc36ae":[2,0,1,3,0,12,4,6],
@@ -90,18 +93,17 @@ var NAVTREEINDEX126 =
 "df/d1f/client_2hud_2panel_2vote_8qc.html#a297e9e4e75bcd558a43f78eb74dd2140":[2,0,0,1,0,38,0],
 "df/d1f/client_2hud_2panel_2vote_8qc_source.html":[2,0,0,1,0,38],
 "df/d21/infomessages_8qc.html":[2,0,0,1,0,12],
-"df/d21/infomessages_8qc.html#a136d53754af4a701e9cf50e042fdb681":[2,0,0,1,0,12,6],
+"df/d21/infomessages_8qc.html#a136d53754af4a701e9cf50e042fdb681":[2,0,0,1,0,12,5],
 "df/d21/infomessages_8qc.html#a34ab7f0b1f8fc8af94288e83c3f42798":[2,0,0,1,0,12,1],
 "df/d21/infomessages_8qc.html#a7854c8f2dc9b65b6d10fc18b713b87c6":[2,0,0,1,0,12,3],
-"df/d21/infomessages_8qc.html#a7e53e2a607b198713b184d00f9004616":[2,0,0,1,0,12,5],
-"df/d21/infomessages_8qc.html#a8e161aec172d183f96319a9abf2d3991":[2,0,0,1,0,12,9],
-"df/d21/infomessages_8qc.html#a9879c240a398b7d776811dabae4eb074":[2,0,0,1,0,12,11],
-"df/d21/infomessages_8qc.html#abe6c17d7df92bfbd29be434f9d09e5f4":[2,0,0,1,0,12,8],
-"df/d21/infomessages_8qc.html#adecaa1d4a4e69349bc85620d7b43993a":[2,0,0,1,0,12,7],
+"df/d21/infomessages_8qc.html#a7e53e2a607b198713b184d00f9004616":[2,0,0,1,0,12,4],
+"df/d21/infomessages_8qc.html#a8e161aec172d183f96319a9abf2d3991":[2,0,0,1,0,12,8],
+"df/d21/infomessages_8qc.html#a9879c240a398b7d776811dabae4eb074":[2,0,0,1,0,12,10],
+"df/d21/infomessages_8qc.html#abe6c17d7df92bfbd29be434f9d09e5f4":[2,0,0,1,0,12,7],
+"df/d21/infomessages_8qc.html#adecaa1d4a4e69349bc85620d7b43993a":[2,0,0,1,0,12,6],
 "df/d21/infomessages_8qc.html#ae47a4e840ff3bb34af0bb26f0cdf9810":[2,0,0,1,0,12,2],
 "df/d21/infomessages_8qc.html#af23bd3d7f1b2f4092741c44d01402a2d":[2,0,0,1,0,12,0],
-"df/d21/infomessages_8qc.html#af4f7c295b6f5f3c16714897baa77f312":[2,0,0,1,0,12,10],
-"df/d21/infomessages_8qc.html#af74c7e53de726f384aa8ad37571c783a":[2,0,0,1,0,12,4],
+"df/d21/infomessages_8qc.html#af4f7c295b6f5f3c16714897baa77f312":[2,0,0,1,0,12,9],
 "df/d21/infomessages_8qc_source.html":[2,0,0,1,0,12],
 "df/d26/classXonoticGameSettingsTab.html":[1,0,180],
 "df/d26/classXonoticGameSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,180,36],
@@ -247,7 +249,5 @@ var NAVTREEINDEX126 =
 "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh_source.html":[2,0,5,4,111],
 "df/d27/sv__weaponarena__random_8qh.html":[2,0,1,10,0,40,3],
 "df/d27/sv__weaponarena__random_8qh.html#ab8170ae9b28e781d5f6918e851aeda70":[2,0,1,10,0,40,3,1],
-"df/d27/sv__weaponarena__random_8qh.html#ac72bb29eb754a1f916513b1957b241e6":[2,0,1,10,0,40,3,0],
-"df/d27/sv__weaponarena__random_8qh_source.html":[2,0,1,10,0,40,3],
-"df/d28/menu_2xonotic_2button_8qc.html":[2,0,5,4,6]
+"df/d27/sv__weaponarena__random_8qh.html#ac72bb29eb754a1f916513b1957b241e6":[2,0,1,10,0,40,3,0]
 };

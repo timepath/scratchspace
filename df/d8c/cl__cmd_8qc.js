@@ -21,10 +21,6 @@ var cl__cmd_8qc =
     [ "CSQC_ConsoleCommand", "df/d8c/cl__cmd_8qc.html#a8ee68a14511a9aca94752cff6863af16", null ],
     [ "DrawDebugModel", "df/d8c/cl__cmd_8qc.html#a54daafbdbda2cf0eb8d7d53fef76cc6b", null ],
     [ "GameCommand", "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc", null ],
-    [ "HUD_MinigameMenu_Close", "df/d8c/cl__cmd_8qc.html#a99e723ab8b6ed89a42df35b13fc1681a", null ],
-    [ "HUD_MinigameMenu_IsOpened", "df/d8c/cl__cmd_8qc.html#ab1c5f554f29bac879163c40cc284d949", null ],
-    [ "HUD_MinigameMenu_Open", "df/d8c/cl__cmd_8qc.html#ab99d36760ffb8dd4ffd00761540f9876", null ],
-    [ "HUD_Radar_Show_Maximized", "df/d8c/cl__cmd_8qc.html#a24215331902b6304b11f3a12541f150d", null ],
     [ "LocalCommand_blurtest", "df/d8c/cl__cmd_8qc.html#a583d60e89f85e9e630914fd49db2ab82", null ],
     [ "LocalCommand_boxparticles", "df/d8c/cl__cmd_8qc.html#a3ef21ff354d1b7e25bf2ab8608b438d9", null ],
     [ "LocalCommand_create_scrshot_ent", "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc", null ],
@@ -37,8 +33,5 @@ var cl__cmd_8qc =
     [ "LocalCommand_macro_usage", "df/d8c/cl__cmd_8qc.html#a1d2657033c7343e97c079ba5b3a24e66", null ],
     [ "LocalCommand_macro_write_aliases", "df/d8c/cl__cmd_8qc.html#aebf1ae53e8c9359198463705f0b9e32d", null ],
     [ "LocalCommand_mv_download", "df/d8c/cl__cmd_8qc.html#a176783735cb19cc02e72e6fb9cfa39a9", null ],
-    [ "LocalCommand_sendcvar", "df/d8c/cl__cmd_8qc.html#aefa88bf5523ddb9a16c2de624306cd11", null ],
-    [ "QuickMenu_Close", "df/d8c/cl__cmd_8qc.html#a842da1e1b814366ffd55d4096c8123c1", null ],
-    [ "QuickMenu_IsOpened", "df/d8c/cl__cmd_8qc.html#a83c6625cfcd8716e5e481969fa957f6f", null ],
-    [ "QuickMenu_Open", "df/d8c/cl__cmd_8qc.html#a51c446db94a7b8cfe9997f4c92f84bb0", null ]
+    [ "LocalCommand_sendcvar", "df/d8c/cl__cmd_8qc.html#aefa88bf5523ddb9a16c2de624306cd11", null ]
 ];

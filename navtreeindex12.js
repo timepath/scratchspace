@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"d1/d7e/classXonoticServerListTab.html#aec007ee57238e1ed77e1c452f0df4df1":[1,0,245,59],
+"d1/d7e/classXonoticServerListTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,245,12],
+"d1/d7e/classXonoticServerListTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,245,67],
+"d1/d7e/classXonoticServerListTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,245,29],
 "d1/d7e/classXonoticServerListTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,245,5],
 "d1/d7e/classXonoticServerListTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,245,19],
 "d1/d7e/classXonoticServerListTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,245,58],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "d1/da8/xonotic_2radiobutton_8qh.html":[2,0,5,4,193],
 "d1/da8/xonotic_2radiobutton_8qh.html#a923eeffb1f7b493924b67a5029de1ee0":[2,0,5,4,193,2],
 "d1/da8/xonotic_2radiobutton_8qh.html#ac48ddaf493228fb16b2123568132265d":[2,0,5,4,193,1],
-"d1/da8/xonotic_2radiobutton_8qh_source.html":[2,0,5,4,193],
-"d1/da9/bot_8qh.html":[2,0,6,0,0,6],
-"d1/da9/bot_8qh.html#a06c17c81eb5f8e98fb033a094c4f4180":[2,0,6,0,0,6,38],
-"d1/da9/bot_8qh.html#a0760ea09ba9263d4068ae99c1df1f1da":[2,0,6,0,0,6,72],
-"d1/da9/bot_8qh.html#a08187c673c7b07026a86fe4da827833f":[2,0,6,0,0,6,71]
+"d1/da8/xonotic_2radiobutton_8qh_source.html":[2,0,5,4,193]
 };

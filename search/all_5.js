@@ -114,7 +114,7 @@ var searchData=
   ['engineinfo_2eqh',['engineinfo.qh',['../d5/ded/engineinfo_8qh.html',1,'']]],
   ['ent_5fcs_2eqc',['ent_cs.qc',['../d5/dff/ent__cs_8qc.html',1,'']]],
   ['ent_5fcs_2eqh',['ent_cs.qh',['../db/d18/ent__cs_8qh.html',1,'']]],
-  ['ent_5fremove',['Ent_Remove',['../df/d30/client_2main_8qc.html#a1d922be75e197cf896ed7a7b95979296',1,'main.qc']]],
+  ['ent_5fremove',['Ent_Remove',['../df/d30/client_2main_8qc.html#a1d922be75e197cf896ed7a7b95979296',1,'Ent_Remove(entity this):&#160;main.qc'],['../d0/d2a/client_2main_8qh.html#a1d922be75e197cf896ed7a7b95979296',1,'Ent_Remove(entity this):&#160;main.qc']]],
   ['ent_5fremoveplayerscore',['Ent_RemovePlayerScore',['../df/d30/client_2main_8qc.html#a55741734b1484ff2d8f3d76de5e7dc2f',1,'main.qc']]],
   ['ent_5fremoveprojectile',['Ent_RemoveProjectile',['../d3/db6/projectile_8qc.html#aa0569f1b060229bf8b6d0c13b4dff8f1',1,'Ent_RemoveProjectile(entity this):&#160;projectile.qc'],['../dc/dc7/projectile_8qh.html#aa0569f1b060229bf8b6d0c13b4dff8f1',1,'Ent_RemoveProjectile(entity this):&#160;projectile.qc']]],
   ['entcs_5fattach',['entcs_attach',['../d0/d3f/state_8qc.html#ad3d6ec59a6310645b11d417739f69552',1,'state.qc']]],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX111 =
 {
+"dc/de5/classWeapon.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,145,12],
+"dc/de5/classWeapon.html#a4337268c8cad6836bae8efd4a8835070":[1,0,145,22],
+"dc/de5/classWeapon.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,145,2],
+"dc/de5/classWeapon.html#a469800bbb95ee106d8b555dff1c9d8e4":[1,0,145,26],
+"dc/de5/classWeapon.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,145,16],
 "dc/de5/classWeapon.html#a4c93f155e978ff2356e110a617ab3c39":[1,0,145,35],
 "dc/de5/classWeapon.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,145,10],
 "dc/de5/classWeapon.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,145,9],
@@ -244,10 +249,5 @@ var NAVTREEINDEX111 =
 "dc/df8/dynlight_8qc.html":[2,0,1,6,1,4],
 "dc/df8/dynlight_8qc_source.html":[2,0,1,6,1,4],
 "dc/dff/anticheat_8qh.html":[2,0,6,9],
-"dc/dff/anticheat_8qh.html#a068a96ae9ccf8a1fd9cd99e95d5e1c7e":[2,0,6,9,1],
-"dc/dff/anticheat_8qh.html#a620f7cf1b6c95a9c13fb4ee6c0476309":[2,0,6,9,2],
-"dc/dff/anticheat_8qh.html#a73c8115f7960c486fe50a285959605e7":[2,0,6,9,7],
-"dc/dff/anticheat_8qh.html#a8637d5f3a3ed106d36e9d7448931bd90":[2,0,6,9,8],
-"dc/dff/anticheat_8qh.html#a9993370ad69e2211b3046e5d1261bae0":[2,0,6,9,9],
-"dc/dff/anticheat_8qh.html#ab77a6f0f9b4de4381e9c1c2e79226f07":[2,0,6,9,3]
+"dc/dff/anticheat_8qh.html#a068a96ae9ccf8a1fd9cd99e95d5e1c7e":[2,0,6,9,1]
 };

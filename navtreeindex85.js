@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"d9/dbc/sv__overkill_8qh.html#aa2724857bc1c527fa9f4707a8be63f28":[2,0,1,10,0,23,15,3],
+"d9/dbc/sv__overkill_8qh_source.html":[2,0,1,10,0,23,15],
 "d9/dbd/turrets_2config_8qh.html":[2,0,1,14,10],
 "d9/dbd/turrets_2config_8qh_source.html":[2,0,1,14,10],
 "d9/dbf/common_2gamemodes_2gamemode_2nexball_2__mod_8qh.html":[2,0,1,3,0,11,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "d9/deb/classXonoticHUDTimerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,203,80],
 "d9/deb/classXonoticHUDTimerDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,203,46],
 "d9/deb/classXonoticHUDTimerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,203,24],
-"d9/deb/classXonoticHUDTimerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,203,17],
-"d9/deb/classXonoticHUDTimerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,203,72],
-"d9/deb/classXonoticHUDTimerDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,203,69]
+"d9/deb/classXonoticHUDTimerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,203,17]
 };

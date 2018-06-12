@@ -51,8 +51,6 @@ var hud_8qh =
     [ "REGISTER_HUD_PANEL", "d3/d05/hud_8qh.html#a5d35dd8e7381ea04f5bd7ca5abb15ec3", null ],
     [ "REGISTER_HUD_PANEL", "d3/d05/hud_8qh.html#a328a512ea8348230e86d251ac6ac82ba", null ],
     [ "REGISTER_HUD_PANEL", "d3/d05/hud_8qh.html#ada71edad3409fb9d24b5b6efabf13134", null ],
-    [ "stringwidth_colors", "d3/d05/hud_8qh.html#af74c7e53de726f384aa8ad37571c783a", null ],
-    [ "stringwidth_nocolors", "d3/d05/hud_8qh.html#ae120100ae5b73d97f092b093d21b0f9c", null ],
     [ "armor_beforedamage", "d3/d05/hud_8qh.html#ae494d7fa87353cdafb83ab1e1166cc5b", null ],
     [ "armor_damagetime", "d3/d05/hud_8qh.html#a93e2a831211bc4be0b41693cbe4bf6e3", null ],
     [ "autocvar_hud_dynamic_follow", "d3/d05/hud_8qh.html#a69c91c6d7f670ebd0fa1dcc6fd4a4233", null ],

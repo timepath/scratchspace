@@ -1,6 +1,5 @@
 var NAVTREEINDEX27 =
 {
-"d3/d64/sv__model_8qh.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,16,2],
 "d3/d64/sv__model_8qh_source.html":[2,0,4,0,16],
 "d3/d68/common_2mutators_2mutator_2melee__only_2__mod_8qh.html":[2,0,1,10,0,16,1],
 "d3/d68/common_2mutators_2mutator_2melee__only_2__mod_8qh_source.html":[2,0,1,10,0,16,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX27 =
 "d3/d86/classXonoticMapList.html#af3b8f1fe69ad4a262d0f669b9b43d0bb":[1,0,214,50],
 "d3/d86/classXonoticMapList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,214,39],
 "d3/d86/classXonoticMapList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,214,29],
-"d3/d86/classXonoticMapList.html#afdcf1fb79903f747cda494b27206526b":[1,0,214,2]
+"d3/d86/classXonoticMapList.html#afdcf1fb79903f747cda494b27206526b":[1,0,214,2],
+"d3/d88/bot__null_8qc.html":[2,0,6,0,1,2]
 };
