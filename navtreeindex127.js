@@ -1,5 +1,7 @@
 var NAVTREEINDEX127 =
 {
+"df/d27/sv__weaponarena__random_8qh.html#ab8170ae9b28e781d5f6918e851aeda70":[2,0,1,10,0,40,3,1],
+"df/d27/sv__weaponarena__random_8qh.html#ac72bb29eb754a1f916513b1957b241e6":[2,0,1,10,0,40,3,0],
 "df/d27/sv__weaponarena__random_8qh_source.html":[2,0,1,10,0,40,3],
 "df/d28/menu_2xonotic_2button_8qc.html":[2,0,5,4,6],
 "df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[2,0,5,4,6,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX127 =
 "df/d49/classSound.html#a3ed2cad33866839887c319ee5c10dd67":[1,0,126,0],
 "df/d49/classSound.html#a62a0dfe148f6ebd2ecf59f872dfec298":[1,0,126,4],
 "df/d49/classSound.html#ad3474b173c3cc7d35fa96a04929d0378":[1,0,126,3],
-"df/d4a/dialog__hudpanel__chat_8qh.html":[2,0,5,4,49],
-"df/d4a/dialog__hudpanel__chat_8qh_source.html":[2,0,5,4,49],
-"df/d4a/server_2race_8qc.html":[2,0,6,50]
+"df/d4a/dialog__hudpanel__chat_8qh.html":[2,0,5,4,49]
 };
