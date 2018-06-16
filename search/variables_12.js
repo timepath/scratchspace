@@ -169,6 +169,7 @@ var searchData=
   ['resizecorner',['resizeCorner',['../d3/d05/hud_8qh.html#a7022deeb2c5992f82699a94679c5dda5',1,'hud.qh']]],
   ['resized',['resized',['../d5/d8e/container_8qh.html#a1d72ffa0887b6d488078d724449d0126',1,'container.qh']]],
   ['resource_5famount_5fhard_5flimit',['RESOURCE_AMOUNT_HARD_LIMIT',['../d3/dd6/server_2resources_8qh.html#a2d9be923c7402e7f93be7e1d13636c33',1,'resources.qh']]],
+  ['resource_5fhealth',['RESOURCE_HEALTH',['../d5/dff/ent__cs_8qc.html#a8394e59edbb08b1e4fb28fb7ea60d1cc',1,'ent_cs.qc']]],
   ['respawn_5fcountdown',['respawn_countdown',['../d5/d26/server_2defs_8qh.html#abcc345daf13f439f825e1383675beed4',1,'defs.qh']]],
   ['respawn_5fdeny',['RESPAWN_DENY',['../d9/de7/server_2constants_8qh.html#a8e50268234b73d1e1b264db2e06f14fc',1,'constants.qh']]],
   ['respawn_5fflags',['respawn_flags',['../d5/d26/server_2defs_8qh.html#a1c3633042c332123715fd7a35136a449',1,'defs.qh']]],

@@ -1,29 +1,32 @@
 <map id="door_damage" name="door_damage">
-<area shape="rect" id="node2" href="$d6/d9c/door_8qc.html#a337674d43d5772b78184bf240a40f104" title="door_use" alt="" coords="155,395,229,421"/>
-<area shape="rect" id="node3" href="$d6/d9c/door_8qc.html#ae87674ba0b9d41767ee95397dabe1029" title="door_fire" alt="" coords="277,395,349,421"/>
-<area shape="rect" id="node4" href="$d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b" title="objerror" alt="" coords="1370,415,1435,441"/>
-<area shape="rect" id="node5" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1571,428,1626,455"/>
-<area shape="rect" id="node6" href="$d6/d9c/door_8qc.html#ab1bcfdc401011109dbfbec373e08244d" title="door_go_down" alt="" coords="731,192,837,219"/>
-<area shape="rect" id="node20" href="$d6/d9c/door_8qc.html#aff3250044af884a25a96e74e6f42ae24" title="door_go_up" alt="" coords="398,192,487,219"/>
-<area shape="rect" id="node7" href="$d2/dc2/subs_8qc.html#adf72da94012ed6f3ee8d3d25a6634e2b" title="SUB_CalcMove" alt="" coords="925,141,1041,168"/>
-<area shape="rect" id="node19" href="$d6/d9c/door_8qc.html#a4dab5a6c37fd9d7e8dc27ac97d82b91a" title="door_hit_bottom" alt="" coords="925,192,1040,219"/>
-<area shape="rect" id="node8" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1569,309,1628,336"/>
-<area shape="rect" id="node9" href="$d2/dc2/subs_8qc.html#a03279c1cb9d39ce02457862222cfb9eb" title="SUB_CalcMoveDone" alt="" coords="1329,29,1476,56"/>
-<area shape="rect" id="node11" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="1379,313,1426,340"/>
-<area shape="rect" id="node12" href="$d2/dc2/subs_8qc.html#af3e9ed532069ed0ac58d81c4275535bb" title="SUB_CalcMove_Bezier" alt="" coords="1107,183,1267,209"/>
-<area shape="rect" id="node10" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="1563,41,1634,68"/>
-<area shape="rect" id="node13" href="$d2/dc2/subs_8qc.html#a3a60987a3ea76236af8eff0d6f65d6cb" title="SUB_CalcMove_controller\l_setbezier" alt="" coords="1315,81,1491,122"/>
-<area shape="rect" id="node14" href="$d2/dc2/subs_8qc.html#a44f0cc6d8a3712d8968f0271dcc6dcb4" title="SUB_CalcMove_controller\l_think" alt="" coords="1315,146,1491,187"/>
-<area shape="rect" id="node18" href="$d2/dc2/subs_8qc.html#a8ed167ee1a9e29cad462eccfe9a7ca09" title="SUB_NullThink" alt="" coords="1347,212,1459,239"/>
-<area shape="rect" id="node15" href="$d0/d79/math_8qh.html#a23557eb0538d1c7732c47c4b4ef7d0b5" title="cubic_speedfunc" alt="" coords="1539,103,1659,129"/>
-<area shape="rect" id="node16" href="$d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c" title="vectoangles" alt="" coords="1553,153,1645,180"/>
-<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1575,204,1622,231"/>
-<area shape="rect" id="node21" href="$d6/d9c/door_8qc.html#afbebfb6226c33715b304c0e6afa30ce4" title="door_hit_top" alt="" coords="552,192,645,219"/>
-<area shape="rect" id="node22" href="$d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6" title="SUB_UseTargets" alt="" coords="536,293,661,320"/>
-<area shape="rect" id="node23" href="$d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282" title="SUB_UseTargets_Ex" alt="" coords="710,344,858,371"/>
-<area shape="rect" id="node24" href="$d6/d57/triggers_8qc.html#a1c58d77ea3f4858ed96288710690cf98" title="DelayThink" alt="" coords="939,243,1027,269"/>
-<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f" title="centerprint" alt="" coords="941,293,1024,320"/>
-<area shape="rect" id="node26" href="$dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896" title="play2" alt="" coords="956,344,1009,371"/>
-<area shape="rect" id="node27" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="961,395,1004,421"/>
-<area shape="rect" id="node28" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="907,445,1058,472"/>
+<area shape="rect" id="node2" href="$d6/d9c/door_8qc.html#a337674d43d5772b78184bf240a40f104" title="door_use" alt="" coords="155,741,229,768"/>
+<area shape="rect" id="node7" href="$d5/d09/resources_8qc.html#a23a90e7288eaba490cdcc7941274f254" title="Sets the resource amount of an entity without calling any hooks. " alt="" coords="979,817,1165,844"/>
+<area shape="rect" id="node31" href="$d5/d09/resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" title="Returns the current amount of resource the given entity has. " alt="" coords="277,868,421,895"/>
+<area shape="rect" id="node3" href="$d6/d9c/door_8qc.html#ae87674ba0b9d41767ee95397dabe1029" title="door_fire" alt="" coords="313,716,385,743"/>
+<area shape="rect" id="node4" href="$d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b" title="objerror" alt="" coords="1477,757,1542,784"/>
+<area shape="rect" id="node5" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1678,296,1733,323"/>
+<area shape="rect" id="node6" href="$d6/d9c/door_8qc.html#ab1bcfdc401011109dbfbec373e08244d" title="door_go_down" alt="" coords="803,691,909,717"/>
+<area shape="rect" id="node22" href="$d6/d9c/door_8qc.html#aff3250044af884a25a96e74e6f42ae24" title="door_go_up" alt="" coords="470,640,559,667"/>
+<area shape="rect" id="node9" href="$d2/dc2/subs_8qc.html#adf72da94012ed6f3ee8d3d25a6634e2b" title="SUB_CalcMove" alt="" coords="1014,615,1130,641"/>
+<area shape="rect" id="node21" href="$d6/d9c/door_8qc.html#a4dab5a6c37fd9d7e8dc27ac97d82b91a" title="door_hit_bottom" alt="" coords="1015,691,1129,717"/>
+<area shape="rect" id="node8" href="$d5/d09/resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf" title="Converts resource type (a RESOURCE_* constant) to entity field. " alt="" coords="1230,843,1357,869"/>
+<area shape="rect" id="node10" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1676,499,1735,525"/>
+<area shape="rect" id="node11" href="$d2/dc2/subs_8qc.html#a03279c1cb9d39ce02457862222cfb9eb" title="SUB_CalcMoveDone" alt="" coords="1436,707,1583,733"/>
+<area shape="rect" id="node13" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="1486,632,1533,659"/>
+<area shape="rect" id="node14" href="$d2/dc2/subs_8qc.html#af3e9ed532069ed0ac58d81c4275535bb" title="SUB_CalcMove_Bezier" alt="" coords="1213,564,1373,591"/>
+<area shape="rect" id="node12" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="1670,640,1741,667"/>
+<area shape="rect" id="node15" href="$d2/dc2/subs_8qc.html#a3a60987a3ea76236af8eff0d6f65d6cb" title="SUB_CalcMove_controller\l_setbezier" alt="" coords="1421,566,1597,607"/>
+<area shape="rect" id="node16" href="$d2/dc2/subs_8qc.html#a44f0cc6d8a3712d8968f0271dcc6dcb4" title="SUB_CalcMove_controller\l_think" alt="" coords="1421,398,1597,439"/>
+<area shape="rect" id="node20" href="$d2/dc2/subs_8qc.html#a8ed167ee1a9e29cad462eccfe9a7ca09" title="SUB_NullThink" alt="" coords="1453,515,1565,541"/>
+<area shape="rect" id="node17" href="$d0/d79/math_8qh.html#a23557eb0538d1c7732c47c4b4ef7d0b5" title="cubic_speedfunc" alt="" coords="1645,347,1765,373"/>
+<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c" title="vectoangles" alt="" coords="1659,397,1751,424"/>
+<area shape="rect" id="node19" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1682,448,1729,475"/>
+<area shape="rect" id="node23" href="$d6/d9c/door_8qc.html#afbebfb6226c33715b304c0e6afa30ce4" title="door_hit_top" alt="" coords="624,665,717,692"/>
+<area shape="rect" id="node24" href="$d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6" title="SUB_UseTargets" alt="" coords="608,169,733,196"/>
+<area shape="rect" id="node25" href="$d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282" title="SUB_UseTargets_Ex" alt="" coords="782,169,930,196"/>
+<area shape="rect" id="node26" href="$d6/d57/triggers_8qc.html#a1c58d77ea3f4858ed96288710690cf98" title="DelayThink" alt="" coords="1028,43,1116,69"/>
+<area shape="rect" id="node27" href="$d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f" title="centerprint" alt="" coords="1031,144,1113,171"/>
+<area shape="rect" id="node28" href="$dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896" title="play2" alt="" coords="1045,195,1099,221"/>
+<area shape="rect" id="node29" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="1051,245,1093,272"/>
+<area shape="rect" id="node30" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="997,93,1147,120"/>
 </map>
