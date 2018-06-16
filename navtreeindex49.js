@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"d5/dc1/sv__touchexplode_8qh.html":[2,0,1,10,0,35,3],
+"d5/dc1/sv__touchexplode_8qh_source.html":[2,0,1,10,0,35,3],
 "d5/dc4/hook_8qh.html":[2,0,1,16,0,19],
 "d5/dc4/hook_8qh.html#a26c1ac788f42d8ea1729fee825f749fd":[2,0,1,16,0,19,5],
 "d5/dc4/hook_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,19,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "d5/dfa/timer_8qc_source.html":[2,0,0,1,0,36],
 "d5/dff/ent__cs_8qc.html":[2,0,1,32],
 "d5/dff/ent__cs_8qc.html#a010b8f628edd49273a243ca7f5b7c734":[2,0,1,32,0],
-"d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3":[2,0,1,32,21],
-"d5/dff/ent__cs_8qc.html#a12f6852eb93da8c1fba032b751d6ded6":[2,0,1,32,13],
-"d5/dff/ent__cs_8qc.html#a1a24fc2eb8c1af6d06ac15bcec47f088":[2,0,1,32,23]
+"d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3":[2,0,1,32,21]
 };

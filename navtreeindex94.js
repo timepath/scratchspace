@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"db/d15/api_8qh.html#a52606451f4e3182f48937fafcf3d2142":[2,0,6,0,5,62],
+"db/d15/api_8qh.html#a54e7b6621d45ed5fe0226602c982ae94":[2,0,6,0,5,154],
 "db/d15/api_8qh.html#a574328bd2a46ee79334d847a285ead74":[2,0,6,0,5,100],
 "db/d15/api_8qh.html#a57aebfdaf806fba9b970fd6a5e9d9a8b":[2,0,6,0,5,81],
 "db/d15/api_8qh.html#a58006022b7f6d1b7131ed30b053c6165":[2,0,6,0,5,79],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "db/d2b/sv__spawn__near__teammate_8qh_source.html":[2,0,1,10,0,32,3],
 "db/d2f/common_2turrets_2__mod_8qh.html":[2,0,1,14,2],
 "db/d2f/common_2turrets_2__mod_8qh_source.html":[2,0,1,14,2],
-"db/d2f/playlist_8qh.html":[2,0,5,4,191],
-"db/d2f/playlist_8qh.html#a1dbedfd230e5c37f9b67aa6903f2180b":[2,0,5,4,191,8],
-"db/d2f/playlist_8qh.html#a331bef2777893f465cb8785b3c1bc904":[2,0,5,4,191,2]
+"db/d2f/playlist_8qh.html":[2,0,5,4,191]
 };

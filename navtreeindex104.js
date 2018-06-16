@@ -1,5 +1,7 @@
 var NAVTREEINDEX104 =
 {
+"db/df7/colorpicker__string_8qc.html#ac089079e4c7d228aad0135be8da22610":[2,0,5,4,22,1],
+"db/df7/colorpicker__string_8qc.html#ac64e1f0e091335c86e6f64adb61e48f3":[2,0,5,4,22,6],
 "db/df7/colorpicker__string_8qc.html#adddeddac6ab0dc7ec36befe111ba9602":[2,0,5,4,22,0],
 "db/df7/colorpicker__string_8qc.html#ae8f08cb04b2436532cdfcd16f5204192":[2,0,5,4,22,5],
 "db/df7/colorpicker__string_8qc_source.html":[2,0,5,4,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX104 =
 "dc/d06/classDialog.html#ac7a366c264efd1111261adb37ce64cac":[1,0,29,69],
 "dc/d06/classDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,29,31],
 "dc/d06/classDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,29,36],
-"dc/d06/classDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,29,33],
-"dc/d06/classDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,29,79],
-"dc/d06/classDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,29,49]
+"dc/d06/classDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,29,33]
 };

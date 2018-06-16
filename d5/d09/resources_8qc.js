@@ -6,5 +6,6 @@ var resources_8qc =
     [ "GetResourceType", "d5/d09/resources_8qc.html#a46ef4f78ef7d5b3ef361c118c2999172", null ],
     [ "GiveResource", "d5/d09/resources_8qc.html#a88f207f357349ddd4d1f32b85d0c3f57", null ],
     [ "GiveResourceWithLimit", "d5/d09/resources_8qc.html#a1b1ff2e419436cd7236668176c97c9ac", null ],
-    [ "SetResourceAmount", "d5/d09/resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d", null ]
+    [ "SetResourceAmount", "d5/d09/resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d", null ],
+    [ "SetResourceAmountExplicit", "d5/d09/resources_8qc.html#a23a90e7288eaba490cdcc7941274f254", null ]
 ];

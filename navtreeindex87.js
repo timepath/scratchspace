@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"da/d13/classShockwave.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,123,10],
+"da/d13/classShockwave.html#a6a2ecbec331fdeefcb8ed171bab217b8":[1,0,123,28],
 "da/d13/classShockwave.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,123,9],
 "da/d13/classShockwave.html#a7495a799cf73beef58b25f94e4052af3":[1,0,123,34],
 "da/d13/classShockwave.html#a7515d4131829927372fd6583d4ae610a":[1,0,123,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "da/d3b/weapons_2weapon_2machinegun_8qc_source.html":[2,0,1,16,0,20],
 "da/d3e/nades_8qh.html":[2,0,1,10,0,19,5],
 "da/d3e/nades_8qh.html#a0975ec4cf12ce7bc07a3b2fb5da68db4":[2,0,1,10,0,19,5,23],
-"da/d3e/nades_8qh.html#a0d4feb055b436b5aedbcfc76bcbe2107":[2,0,1,10,0,19,5,12],
-"da/d3e/nades_8qh.html#a21649cf9858df4e2f195e438407284b3":[2,0,1,10,0,19,5,6],
-"da/d3e/nades_8qh.html#a287e485b78921bfb12751b2ef06e0460":[2,0,1,10,0,19,5,1]
+"da/d3e/nades_8qh.html#a0d4feb055b436b5aedbcfc76bcbe2107":[2,0,1,10,0,19,5,12]
 };

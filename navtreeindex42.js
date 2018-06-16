@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"d4/da5/classXonoticBigCommandButton.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,151,8],
 "d4/da5/classXonoticBigCommandButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,151,70],
 "d4/da5/classXonoticBigCommandButton.html#a3a88ebd44b9abf22558ee9a6cfaf03dd":[1,0,151,76],
 "d4/da5/classXonoticBigCommandButton.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,151,61],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a9eb08ee58b662172d4b67359b9632bd0":[2,0,5,4,110,2],
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#ada7aa19b110f5b065492b52281765547":[2,0,5,4,110,3],
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#ae0737fc468331503c83816fcb3c5f9f8":[2,0,5,4,110,8],
-"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#afa4aad2a534374149043f5c3ab313db5":[2,0,5,4,110,6],
-"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#aff0960818a9a72706ab6b675bd541a7d":[2,0,5,4,110,1]
+"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#afa4aad2a534374149043f5c3ab313db5":[2,0,5,4,110,6]
 };

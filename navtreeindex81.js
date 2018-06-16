@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"d9/d23/sv__stale__move__negation_8qc.html#a551ec2755571c3a0fd85fd48f3b0ef77":[2,0,1,10,0,33,2,0],
+"d9/d23/sv__stale__move__negation_8qc.html#a69d6c39f84bb91c747f008767ec51f5f":[2,0,1,10,0,33,2,7],
 "d9/d23/sv__stale__move__negation_8qc.html#a9333622ed7ea7b0338535c1c47596a20":[2,0,1,10,0,33,2,5],
 "d9/d23/sv__stale__move__negation_8qc.html#a99059ed1df65035ce75c20769235a0d3":[2,0,1,10,0,33,2,6],
 "d9/d23/sv__stale__move__negation_8qc.html#aa31593325466363437fcae33e42dc8d4":[2,0,1,10,0,33,2,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "d9/d48/lib_2net_8qh_source.html":[2,0,4,36],
 "d9/d4a/dialog__hudpanel__quickmenu_8qh.html":[2,0,5,4,69],
 "d9/d4a/dialog__hudpanel__quickmenu_8qh_source.html":[2,0,5,4,69],
-"d9/d4f/deathtypes_2all_8qh.html":[2,0,1,1,4],
-"d9/d4f/deathtypes_2all_8qh.html#a387734666d7aaca5f931efd84bbf6eee":[2,0,1,1,4,0],
-"d9/d4f/deathtypes_2all_8qh.html#a3c6266eb4d661b2ff3ea997e2ca8d939":[2,0,1,1,4,4]
+"d9/d4f/deathtypes_2all_8qh.html":[2,0,1,1,4]
 };
