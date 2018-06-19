@@ -47,7 +47,6 @@ var client_2main_8qh =
     [ "gotscores", "d0/d2a/client_2main_8qh.html#a9992832874454ccdbd566d5a84017df3", null ],
     [ "grecordholder", "d0/d2a/client_2main_8qh.html#a73ebcacb07f95089fb8a7e440c8cdfc1", null ],
     [ "grecordtime", "d0/d2a/client_2main_8qh.html#a208eb700ebf0004c052acb8dfb602deb", null ],
-    [ "health", "d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5", null ],
     [ "HOOK_END", "d0/d2a/client_2main_8qh.html#aaa81abb1276b7f54d1f113399e1bdb2c", null ],
     [ "HOOK_START", "d0/d2a/client_2main_8qh.html#a65867ce8ec783d680bc9ba6a7cdbb6ba", null ],
     [ "hud", "d0/d2a/client_2main_8qh.html#aa8422ed61064cfd6ef67f7ead72114e2", null ],

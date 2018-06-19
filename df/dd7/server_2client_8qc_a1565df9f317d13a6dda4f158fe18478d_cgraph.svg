@@ -29,19 +29,19 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" target="_top" xlink:title="CS">
-<polygon fill="none" stroke="black" points="453.5,-48.5 453.5,-67.5 484.5,-67.5 484.5,-48.5 453.5,-48.5"/>
-<text text-anchor="middle" x="469" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00">CS</text>
+<polygon fill="none" stroke="black" points="453.5,-133.5 453.5,-152.5 484.5,-152.5 484.5,-133.5 453.5,-133.5"/>
+<text text-anchor="middle" x="469" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">CS</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge3" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M54.8761,-114.559C69.3711,-123.918 93.1423,-137.54 116,-143 244.219,-173.629 295.946,-186.528 412,-124 432.158,-113.139 448.159,-91.8249 457.81,-76.349"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="460.899,-78.0019 462.979,-67.6132 454.874,-74.4372 460.899,-78.0019"/>
+<path fill="none" stroke="midnightblue" d="M54.8761,-114.559C69.3711,-123.918 93.1423,-137.54 116,-143 235.777,-171.612 385.093,-155.18 443.228,-146.888"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="443.918,-150.325 453.3,-145.401 442.896,-143.4 443.918,-150.325"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d5/d09/resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" target="_top" xlink:title="Returns the current amount of resource the given entity has. ">
+<g id="a_node4"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" target="_top" xlink:title="Returns the current amount of resource the given entity has. ">
 <polygon fill="none" stroke="black" points="132,-114.5 132,-133.5 240,-133.5 240,-114.5 132,-114.5"/>
 <text text-anchor="middle" x="186" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetResourceAmount</text>
 </a>
@@ -52,103 +52,85 @@
 <path fill="none" stroke="midnightblue" d="M79.5894,-110.092C92.5277,-111.799 107.316,-113.75 121.641,-115.64"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="121.585,-119.163 131.956,-117.001 122.5,-112.223 121.585,-119.163"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" target="_top" xlink:title="setorigin">
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" target="_top" xlink:title="setorigin">
 <polygon fill="none" stroke="black" points="159.5,-76.5 159.5,-95.5 212.5,-95.5 212.5,-76.5 159.5,-76.5"/>
 <text text-anchor="middle" x="186" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">setorigin</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node6 -->
-<g id="edge6" class="edge"><title>Node1&#45;&gt;Node6</title>
+<!-- Node1&#45;&gt;Node5 -->
+<g id="edge5" class="edge"><title>Node1&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M79.5894,-99.9083C101.255,-97.0497 128.107,-93.5067 149.287,-90.7122"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="150.028,-94.1448 159.484,-89.3667 149.112,-87.205 150.028,-94.1448"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d5/d09/resources_8qc.html#a23a90e7288eaba490cdcc7941274f254" target="_top" xlink:title="Sets the resource amount of an entity without calling any hooks. ">
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a23a90e7288eaba490cdcc7941274f254" target="_top" xlink:title="Sets the resource amount of an entity without calling any hooks. ">
 <polygon fill="none" stroke="black" points="116,-38.5 116,-57.5 256,-57.5 256,-38.5 116,-38.5"/>
 <text text-anchor="middle" x="186" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetResourceAmountExplicit</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge7" class="edge"><title>Node1&#45;&gt;Node7</title>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge6" class="edge"><title>Node1&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M57.5369,-95.4059C72.448,-87.0524 95.1689,-75.0517 116,-67 122.229,-64.5922 128.885,-62.3579 135.512,-60.3304"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="136.535,-63.6781 145.15,-57.5117 134.57,-56.9595 136.535,-63.6781"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../df/dd7/server_2client_8qc.html#a68daad7634d404da1ba88b4177dc6d32" target="_top" xlink:title="SetZoomState">
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="../../df/dd7/server_2client_8qc.html#a68daad7634d404da1ba88b4177dc6d32" target="_top" xlink:title="SetZoomState">
 <polygon fill="none" stroke="black" points="146,-0.5 146,-19.5 226,-19.5 226,-0.5 146,-0.5"/>
 <text text-anchor="middle" x="186" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetZoomState</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge9" class="edge"><title>Node1&#45;&gt;Node8</title>
+<!-- Node1&#45;&gt;Node7 -->
+<g id="edge7" class="edge"><title>Node1&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M47.7006,-95.4933C59.5812,-79.3526 85.9373,-46.6289 116,-29 122.263,-25.3271 129.263,-22.341 136.336,-19.9195"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="137.436,-23.243 145.964,-16.956 135.377,-16.5527 137.436,-23.243"/>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M388.583,-190.44C396.987,-186.928 405.409,-182.227 412,-176 440.989,-148.611 456.578,-103.161 463.496,-77.3933"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="466.898,-78.2169 465.944,-67.6651 460.109,-76.5087 466.898,-78.2169"/>
+<path fill="none" stroke="midnightblue" d="M378.917,-190.406C389.348,-186.3 401.395,-181.247 412,-176 422.884,-170.615 434.513,-163.927 444.337,-157.982"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="446.438,-160.799 453.12,-152.577 442.769,-154.837 446.438,-160.799"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d5/d09/resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf" target="_top" xlink:title="Converts resource type (a RESOURCE_* constant) to entity field. ">
-<polygon fill="none" stroke="black" points="304.5,-95.5 304.5,-114.5 399.5,-114.5 399.5,-95.5 304.5,-95.5"/>
-<text text-anchor="middle" x="352" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetResourceField</text>
+<!-- Node7&#45;&gt;Node3 -->
+<g id="edge11" class="edge"><title>Node7&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M226.189,-19.1494C236.064,-21.9 246.542,-25.211 256,-29 260.895,-30.9609 389.907,-100.723 444.237,-130.132"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="442.712,-133.286 453.172,-134.969 446.045,-127.13 442.712,-133.286"/>
+</g>
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="../../df/dd7/server_2client_8qc.html#adcfb83073eb66c355f220a7fc94a479d" target="_top" xlink:title="ClientData_Touch">
+<polygon fill="none" stroke="black" points="304.5,-19.5 304.5,-38.5 399.5,-38.5 399.5,-19.5 304.5,-19.5"/>
+<text text-anchor="middle" x="352" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientData_Touch</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge5" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M240.246,-117.831C257.525,-115.829 276.754,-113.602 294.276,-111.572"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="294.838,-115.03 304.368,-110.402 294.032,-108.077 294.838,-115.03"/>
-</g>
-<!-- Node7&#45;&gt;Node5 -->
-<g id="edge8" class="edge"><title>Node7&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M224.832,-57.5983C235.021,-60.4054 245.99,-63.6316 256,-67 277.549,-74.2515 301.298,-83.7511 319.661,-91.4381"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="318.421,-94.714 328.995,-95.3834 321.147,-88.2663 318.421,-94.714"/>
+<!-- Node7&#45;&gt;Node8 -->
+<g id="edge8" class="edge"><title>Node7&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M226.282,-14.551C246.662,-16.912 271.926,-19.8389 294.375,-22.4397"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="294.127,-25.9344 304.463,-23.6086 294.933,-18.9809 294.127,-25.9344"/>
 </g>
 <!-- Node8&#45;&gt;Node3 -->
-<g id="edge13" class="edge"><title>Node8&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M225.231,-19.6017C245.065,-24.3632 269.74,-29.9466 292,-34 345.658,-43.7708 409.178,-51.4959 443.323,-55.3385"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="443.003,-58.8243 453.328,-56.4473 443.774,-51.8669 443.003,-58.8243"/>
+<g id="edge9" class="edge"><title>Node8&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M362.805,-38.7196C382.41,-58.1541 426.652,-102.011 451.052,-126.199"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="448.654,-128.751 458.22,-133.305 453.582,-123.779 448.654,-128.751"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../df/dd7/server_2client_8qc.html#adcfb83073eb66c355f220a7fc94a479d" target="_top" xlink:title="ClientData_Touch">
-<polygon fill="none" stroke="black" points="304.5,-5.5 304.5,-24.5 399.5,-24.5 399.5,-5.5 304.5,-5.5"/>
-<text text-anchor="middle" x="352" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientData_Touch</text>
+<g id="a_node9"><a xlink:href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" target="_top" xlink:title="entity">
+<polygon fill="none" stroke="black" points="448.5,-19.5 448.5,-38.5 489.5,-38.5 489.5,-19.5 448.5,-19.5"/>
+<text text-anchor="middle" x="469" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">entity</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node9 -->
 <g id="edge10" class="edge"><title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M226.282,-11.1976C246.662,-11.819 271.926,-12.5892 294.375,-13.2736"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="294.361,-16.7747 304.463,-13.5812 294.575,-9.77799 294.361,-16.7747"/>
-</g>
-<!-- Node9&#45;&gt;Node3 -->
-<g id="edge11" class="edge"><title>Node9&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M378.522,-24.5431C398.042,-31.8417 424.771,-41.8359 443.922,-48.9969"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="442.835,-52.3272 453.428,-52.5513 445.287,-45.7706 442.835,-52.3272"/>
-</g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" target="_top" xlink:title="entity">
-<polygon fill="none" stroke="black" points="448.5,-5.5 448.5,-24.5 489.5,-24.5 489.5,-5.5 448.5,-5.5"/>
-<text text-anchor="middle" x="469" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">entity</text>
-</a>
-</g>
-</g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge12" class="edge"><title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M399.775,-15C412.725,-15 426.427,-15 438.127,-15"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="438.231,-18.5001 448.231,-15 438.231,-11.5001 438.231,-18.5001"/>
+<path fill="none" stroke="midnightblue" d="M399.775,-29C412.725,-29 426.427,-29 438.127,-29"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="438.231,-32.5001 448.231,-29 438.231,-25.5001 438.231,-32.5001"/>
 </g>
 </g>
 </svg>

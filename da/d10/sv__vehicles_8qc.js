@@ -24,6 +24,7 @@ var sv__vehicles_8qc =
     [ "vehicles_gib_explode", "da/d10/sv__vehicles_8qc.html#a97a9fd22e536b33a55e88bb56fdb5ee1", null ],
     [ "vehicles_gib_think", "da/d10/sv__vehicles_8qc.html#ae4ad6ead0893944940ce66bd17ca9375", null ],
     [ "vehicles_gib_touch", "da/d10/sv__vehicles_8qc.html#ac5f4b60f4f1bce9de8e73d862f42beff", null ],
+    [ "vehicles_heal", "da/d10/sv__vehicles_8qc.html#a7c9a375d5640b98833d03781091a00c2", null ],
     [ "vehicles_impact", "da/d10/sv__vehicles_8qc.html#a092be05e296a14ac0cb1e22b3e0786d8", null ],
     [ "vehicles_locktarget", "da/d10/sv__vehicles_8qc.html#afd879692d8ef40010a2dddb2080a722f", null ],
     [ "vehicles_painframe", "da/d10/sv__vehicles_8qc.html#a92cdd7efbcdaa3cf61dc0991746a2b74", null ],

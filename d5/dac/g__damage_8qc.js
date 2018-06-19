@@ -11,6 +11,7 @@ var g__damage_8qc =
     [ "frag_centermessage_override", "d5/dac/g__damage_8qc.html#ac6e64d0173ea3a8b8ac2f97dba0add11", null ],
     [ "Freeze", "d5/dac/g__damage_8qc.html#ad8b8b53d4f94e8fe911c28d3a2709d7c", null ],
     [ "GiveFrags", "d5/dac/g__damage_8qc.html#a449c65621d31ac988f82a49ddf881ca0", null ],
+    [ "Heal", "d5/dac/g__damage_8qc.html#a20c748d061a8595dc442ff0dbcdb0768", null ],
     [ "Ice_Think", "d5/dac/g__damage_8qc.html#a24aaf696797544264665df5f05253d1c", null ],
     [ "LogDeath", "d5/dac/g__damage_8qc.html#aff28c78124853cc6ad4f9f330588e1d3", null ],
     [ "Obituary", "d5/dac/g__damage_8qc.html#aefe2100f893d5dd01fdab059d9b5d348", null ],

@@ -372,6 +372,7 @@ var searchData=
   ['svc_5fsetview',['SVC_SETVIEW',['../d9/de7/server_2constants_8qh.html#abcaa28dc0348cdebac8dcc5d19f4ba11',1,'constants.qh']]],
   ['svc_5ftempentity',['SVC_TEMPENTITY',['../d6/d11/progsdefs_8qc.html#aecdeb127146159e9b5dd52d686b9abd9',1,'progsdefs.qc']]],
   ['swamp_5finterval',['swamp_interval',['../d0/dda/swamp_8qc.html#a8773a15cbc36038a74cc581f6aecf76e',1,'swamp_interval():&#160;swamp.qc'],['../da/d96/swamp_8qh.html#a8773a15cbc36038a74cc581f6aecf76e',1,'swamp_interval():&#160;swamp.qh']]],
+  ['swamp_5flifetime',['swamp_lifetime',['../d0/dda/swamp_8qc.html#a3b7a2a38c1e870a10bdb5778fcc81899',1,'swamp.qc']]],
   ['swamp_5fslowdown',['swamp_slowdown',['../d0/dda/swamp_8qc.html#a72409ccf4513611408270e2c17712b3d',1,'swamp_slowdown():&#160;swamp.qc'],['../da/d96/swamp_8qh.html#a72409ccf4513611408270e2c17712b3d',1,'swamp_slowdown():&#160;swamp.qh'],['../de/d70/common_2physics_2player_8qh.html#a72409ccf4513611408270e2c17712b3d',1,'swamp_slowdown():&#160;player.qh']]],
   ['swampslug',['swampslug',['../d0/dda/swamp_8qc.html#a824536dd09d6161ba0f9df38979bd81c',1,'swampslug():&#160;swamp.qc'],['../da/d96/swamp_8qh.html#a824536dd09d6161ba0f9df38979bd81c',1,'swampslug():&#160;swamp.qh']]],
   ['sys_5fframetime',['sys_frametime',['../d2/d06/server_2command_2common_8qh.html#ab58184b20db3f9f0f708ec4522156ca2',1,'common.qh']]]

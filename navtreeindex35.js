@@ -1,5 +1,15 @@
 var NAVTREEINDEX35 =
 {
+"d4/d0d/client_2mapvoting_8qc.html#a8c7face99361ed1475b5818879d137c4":[2,0,0,17,33],
+"d4/d0d/client_2mapvoting_8qc.html#a9371fedb04eb1cf116a3dfc87248a8d8":[2,0,0,17,25],
+"d4/d0d/client_2mapvoting_8qc.html#a9852822dbb8fff882c554355d54c2c27":[2,0,0,17,13],
+"d4/d0d/client_2mapvoting_8qc.html#a9d43150cf07f300714982c5f9caf7a3b":[2,0,0,17,30],
+"d4/d0d/client_2mapvoting_8qc.html#a9d66cb2f3fbf1461a7e44678042af2fd":[2,0,0,17,11],
+"d4/d0d/client_2mapvoting_8qc.html#a9e185dd08b2c3b9bc966efd8246d7b45":[2,0,0,17,39],
+"d4/d0d/client_2mapvoting_8qc.html#a9e1da0c2cbd20d81f47fe945a307dd9c":[2,0,0,17,24],
+"d4/d0d/client_2mapvoting_8qc.html#aa02a7858026ab986e154231aae514df0":[2,0,0,17,23],
+"d4/d0d/client_2mapvoting_8qc.html#aa374405c519770744337d111aacc12e5":[2,0,0,17,32],
+"d4/d0d/client_2mapvoting_8qc.html#aa68ce2080397b2fd4f7485cc7abd00b8":[2,0,0,17,47],
 "d4/d0d/client_2mapvoting_8qc.html#aa78c91635c38ec29a12e3516087a72a2":[2,0,0,17,42],
 "d4/d0d/client_2mapvoting_8qc.html#aa818f8084baf251c8c1215262ebe1022":[2,0,0,17,5],
 "d4/d0d/client_2mapvoting_8qc.html#aa848f4340520e00debbeeff469387bcf":[2,0,0,17,27],
@@ -239,15 +249,5 @@ var NAVTREEINDEX35 =
 "d4/d3b/classXonoticBigButton.html#a10cf88734594fed24be93889407c0bda":[1,0,150,21],
 "d4/d3b/classXonoticBigButton.html#a10f084ce6991717bfb4153928818feba":[1,0,150,18],
 "d4/d3b/classXonoticBigButton.html#a11a99dd0d7e621888583908e0be2cd66":[1,0,150,5],
-"d4/d3b/classXonoticBigButton.html#a1384d244201f945385ed59b53e4aee96":[1,0,150,37],
-"d4/d3b/classXonoticBigButton.html#a144092f0c6dc11da003aba4eb91adbc4":[1,0,150,24],
-"d4/d3b/classXonoticBigButton.html#a17586d0ed66d76f042dedade63f4addf":[1,0,150,26],
-"d4/d3b/classXonoticBigButton.html#a1a55e3b961b4986ce5dda62bd05b8ec5":[1,0,150,41],
-"d4/d3b/classXonoticBigButton.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,150,27],
-"d4/d3b/classXonoticBigButton.html#a1f71e31fd265ca4fba4bccee3a807b09":[1,0,150,31],
-"d4/d3b/classXonoticBigButton.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,150,47],
-"d4/d3b/classXonoticBigButton.html#a21fdc6c151d9e721da87eaaa8a04e3f9":[1,0,150,8],
-"d4/d3b/classXonoticBigButton.html#a257f9c325381f4b29b5c7acbaa0ba5ae":[1,0,150,20],
-"d4/d3b/classXonoticBigButton.html#a25fb94f638529791b1b30962fac50912":[1,0,150,50],
-"d4/d3b/classXonoticBigButton.html#a27b635e0916726012b7e8c4dca05064e":[1,0,150,34]
+"d4/d3b/classXonoticBigButton.html#a1384d244201f945385ed59b53e4aee96":[1,0,150,37]
 };

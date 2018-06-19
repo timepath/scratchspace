@@ -8,5 +8,7 @@ var common_2resources_8qh =
     [ "RESOURCE_ROCKETS", "d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a72dadd07573e3178775d13ae32777711", null ],
     [ "RESOURCE_CELLS", "d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a0115d194a8ee77f582bb43e6215f6b0b", null ],
     [ "RESOURCE_PLASMA", "d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a34368e7b18e7950fcbf0799012fa45d8", null ],
-    [ "RESOURCE_FUEL", "d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a4aca57194cf9936fd939ea3f1b762766", null ]
+    [ "RESOURCE_FUEL", "d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a4aca57194cf9936fd939ea3f1b762766", null ],
+    [ "RESOURCE_AMOUNT_HARD_LIMIT", "d4/d3c/common_2resources_8qh.html#a2d9be923c7402e7f93be7e1d13636c33", null ],
+    [ "RESOURCE_LIMIT_NONE", "d4/d3c/common_2resources_8qh.html#ad98c8b8daab3205148dd857723e82c96", null ]
 ];

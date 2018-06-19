@@ -9,5 +9,6 @@ var server_2player_8qc =
     [ "player_setupanimsformodel", "db/d9b/server_2player_8qc.html#af02653db703c3e3f494f19b4f6f8b8b1", null ],
     [ "PlayerCorpseDamage", "db/d9b/server_2player_8qc.html#a702d414b3a7f91c3e1746aaef5f9382c", null ],
     [ "PlayerDamage", "db/d9b/server_2player_8qc.html#a2c4acf85cd876d0e628435d91592d615", null ],
+    [ "PlayerHeal", "db/d9b/server_2player_8qc.html#ae245d92e33b2c7cffe13cf28980afa34", null ],
     [ "Say", "db/d9b/server_2player_8qc.html#abb0f165077ac886332b821ac30314b8a", null ]
 ];

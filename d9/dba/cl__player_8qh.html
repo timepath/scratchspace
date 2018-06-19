@@ -133,7 +133,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a9023433fb8a4dcfd3394db40e9036837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dba/cl__player_8qh.html#a9023433fb8a4dcfd3394db40e9036837">autocvar_cl_movement</a> = <a class="el" href="../../dd/d54/bool_8qh.html#a3ad98e54fafae1497bd42b491d9742cc">true</a></td></tr>
+<tr class="memitem:a9023433fb8a4dcfd3394db40e9036837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dba/cl__player_8qh.html#a9023433fb8a4dcfd3394db40e9036837">autocvar_cl_movement</a> = <a class="el" href="../../dd/d54/bool_8qh.html#a3ad98e54fafae1497bd42b491d9742cc">true</a></td></tr>
 <tr class="separator:a9023433fb8a4dcfd3394db40e9036837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80b5a6070b815239f4b21b503b44cb0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dba/cl__player_8qh.html#a80b5a6070b815239f4b21b503b44cb0a">csqcplayer</a></td></tr>
 <tr class="separator:a80b5a6070b815239f4b21b503b44cb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -399,7 +399,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        <span class="comment">// note: these two only work in WIP2, but are harmless in WIP1</span></div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#aea134bd6fe83f33917ef11ddcde6ffbd">PHYS_HEALTH</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) &lt;= 0 &amp;&amp; <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#aea134bd6fe83f33917ef11ddcde6ffbd">PHYS_HEALTH</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) != -666 &amp;&amp; <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#aea134bd6fe83f33917ef11ddcde6ffbd">PHYS_HEALTH</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) != -2342) refdefflags |= <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a20ee8a5882f1bb8fa15467e0ba1a1085">REFDEFFLAG_DEAD</a>;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ab987b9c2edbce593e3a9e6cf0f6ee3b4">intermission</a>) refdefflags |= <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa09b64e4fa22d9a0c4875ef61c60c389">REFDEFFLAG_INTERMISSION</a>;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        V_CalcRefdef(view, refdefflags);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        V_CalcRefdef(view, refdefflags); <span class="comment">// TODO? uses .health stat in the engine when this isn&#39;t called here, may be broken!</span></div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    }</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    {</div>
@@ -480,7 +480,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a> autocvar_cl_movement = <a class="el" href="../../dd/d54/bool_8qh.html#a3ad98e54fafae1497bd42b491d9742cc">true</a></td>
+          <td class="memname"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a> autocvar_cl_movement = <a class="el" href="../../dd/d54/bool_8qh.html#a3ad98e54fafae1497bd42b491d9742cc">true</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -625,7 +625,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_d5fd5ebb74d9aac6232b0b4eda80dfde.html">csqcmodel</a></li><li class="navelem"><a class="el" href="../../d9/dba/cl__player_8qh.html">cl_player.qh</a></li>
-    <li class="footer">Generated on Sat Jun 16 2018 17:15:35 for Xonotic by
+    <li class="footer">Generated on Tue Jun 19 2018 03:20:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

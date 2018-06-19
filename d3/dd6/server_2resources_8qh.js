@@ -8,5 +8,6 @@ var server_2resources_8qh =
     [ "GiveResourceWithLimit", "d3/dd6/server_2resources_8qh.html#a1b1ff2e419436cd7236668176c97c9ac", null ],
     [ "SetResourceAmount", "d3/dd6/server_2resources_8qh.html#aeb1e1a4f093400cfefbf59332798a93d", null ],
     [ "SetResourceAmountExplicit", "d3/dd6/server_2resources_8qh.html#a23a90e7288eaba490cdcc7941274f254", null ],
-    [ "RESOURCE_AMOUNT_HARD_LIMIT", "d3/dd6/server_2resources_8qh.html#a2d9be923c7402e7f93be7e1d13636c33", null ]
+    [ "TakeResource", "d3/dd6/server_2resources_8qh.html#a94703297455af921f296d634ca643943", null ],
+    [ "TakeResourceWithLimit", "d3/dd6/server_2resources_8qh.html#ad388ffc3b3efbe73d4ff318f2281d429", null ]
 ];

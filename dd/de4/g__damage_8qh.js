@@ -11,6 +11,7 @@ var g__damage_8qh =
     [ "fireburner_think", "dd/de4/g__damage_8qh.html#ac8e7365380b51642cac52fd3e70733aa", null ],
     [ "Freeze", "dd/de4/g__damage_8qh.html#a2d30d51fdeb3f05c8ade32e74ca54a7c", null ],
     [ "GiveFrags", "dd/de4/g__damage_8qh.html#a449c65621d31ac988f82a49ddf881ca0", null ],
+    [ "Heal", "dd/de4/g__damage_8qh.html#a20c748d061a8595dc442ff0dbcdb0768", null ],
     [ "Ice_Think", "dd/de4/g__damage_8qh.html#a24aaf696797544264665df5f05253d1c", null ],
     [ "IsFlying", "dd/de4/g__damage_8qh.html#ad12ecb991101a763f3c195a49064e4d7", null ],
     [ "LogDeath", "dd/de4/g__damage_8qh.html#aff28c78124853cc6ad4f9f330588e1d3", null ],

@@ -39,6 +39,7 @@ var searchData=
   ['havocbot_5frole_5fons_5fsetrole',['havocbot_role_ons_setrole',['../d0/de4/sv__onslaught_8qc.html#a360ee86718d1d90b3d6bf02c731d164b',1,'sv_onslaught.qc']]],
   ['havocbot_5fselect_5fan_5fitem_5fof_5fgroup',['havocbot_select_an_item_of_group',['../d2/de9/havocbot_8qc.html#a07d345aa14ff656b3ef0c24301ec6efe',1,'havocbot.qc']]],
   ['havocbot_5fsetupbot',['havocbot_setupbot',['../d2/de9/havocbot_8qc.html#afb882bcf6c4a44e801e4fb9eafbbf1f4',1,'havocbot_setupbot(entity this):&#160;havocbot.qc'],['../d8/d39/havocbot_8qh.html#afb882bcf6c4a44e801e4fb9eafbbf1f4',1,'havocbot_setupbot(entity this):&#160;havocbot.qc']]],
+  ['heal',['Heal',['../d5/dac/g__damage_8qc.html#a20c748d061a8595dc442ff0dbcdb0768',1,'Heal(entity targ, entity inflictor, float amount, float limit):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#a20c748d061a8595dc442ff0dbcdb0768',1,'Heal(entity targ, entity inflictor, float amount, float limit):&#160;g_damage.qc']]],
   ['heapsort',['heapsort',['../db/def/sort_8qh.html#a819f1c3300f552419896b2c53088c05c',1,'sort.qh']]],
   ['hideall',['hideAll',['../d6/d1a/classModalController.html#a918765695e02e3fd2b1fd9d6a97ce8b5',1,'ModalController']]],
   ['hidechild',['hideChild',['../d6/d1a/classModalController.html#a17de24af1814ab04ff410d3321622ddb',1,'ModalController']]],

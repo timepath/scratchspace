@@ -24,6 +24,8 @@ var dir_db3a54907829b36871118d03417739cd =
     [ "player_skeleton.qc", "d3/dab/player__skeleton_8qc.html", "d3/dab/player__skeleton_8qc" ],
     [ "player_skeleton.qh", "d0/ddf/player__skeleton_8qh.html", "d0/ddf/player__skeleton_8qh" ],
     [ "progs.inc", "d3/dfc/client_2progs_8inc.html", null ],
+    [ "resources.qc", "d8/d06/client_2resources_8qc.html", "d8/d06/client_2resources_8qc" ],
+    [ "resources.qh", "d0/d50/client_2resources_8qh.html", "d0/d50/client_2resources_8qh" ],
     [ "shownames.qc", "d7/d39/shownames_8qc.html", "d7/d39/shownames_8qc" ],
     [ "shownames.qh", "d8/dd7/shownames_8qh.html", "d8/dd7/shownames_8qh" ],
     [ "teamradar.qc", "de/dc3/teamradar_8qc.html", "de/dc3/teamradar_8qc" ],

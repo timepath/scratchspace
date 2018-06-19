@@ -1,5 +1,13 @@
 var NAVTREEINDEX54 =
 {
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,176,50],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,176,28],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,176,70],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,176,11],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,176,71],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,176,4],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,176,45],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,176,23],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,176,51],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,176,31],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,176,22],
@@ -241,13 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d95/ipban_8qc.html#a05777902da0fd5ebdff5d4b6703a0a17":[2,0,6,31,5],
 "d6/d95/ipban_8qc.html#a070df4ab303d353bd83f5bfa4c2e99df":[2,0,6,31,20],
 "d6/d95/ipban_8qc.html#a0cc14f1baeb0997f35d7d929b2836628":[2,0,6,31,16],
-"d6/d95/ipban_8qc.html#a0dc48623cdc782ca4db211ec8064a04c":[2,0,6,31,27],
-"d6/d95/ipban_8qc.html#a10b8286167b369fed0b7618fd625ba9f":[2,0,6,31,18],
-"d6/d95/ipban_8qc.html#a1a7772963018e41992c65dfbe12b63fe":[2,0,6,31,11],
-"d6/d95/ipban_8qc.html#a4f942705c5a8a0feb9883049b88df044":[2,0,6,31,22],
-"d6/d95/ipban_8qc.html#a5574d1f6c14538afc0d13ec0542f47c7":[2,0,6,31,3],
-"d6/d95/ipban_8qc.html#a6ede5b06f1e06fc0c51303e19be81bba":[2,0,6,31,9],
-"d6/d95/ipban_8qc.html#a808faa01ebcd03108b55a09f87bcabe5":[2,0,6,31,4],
-"d6/d95/ipban_8qc.html#a87020945808f132e6fd70be728e19ff3":[2,0,6,31,25],
-"d6/d95/ipban_8qc.html#a8e08ee132dee2a6db0915edfdbf0d9ff":[2,0,6,31,0]
+"d6/d95/ipban_8qc.html#a0dc48623cdc782ca4db211ec8064a04c":[2,0,6,31,27]
 };

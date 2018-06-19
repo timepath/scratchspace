@@ -1,57 +1,61 @@
 <map id="spawnfunc" name="spawnfunc">
-<area shape="rect" id="node2" href="$d0/de4/sv__onslaught_8qc.html#a2849214180784c7aa4438defd7386adc" title="ons_ControlPoint_Setup" alt="" coords="139,985,301,1012"/>
-<area shape="rect" id="node3" href="$dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877" title="InitializeEntity" alt="" coords="380,1149,484,1176"/>
-<area shape="rect" id="node5" href="$d0/de4/sv__onslaught_8qc.html#aaaf46f46f5c6b7bbed9e29b9f4c047ec" title="ons_ControlPoint_Reset" alt="" coords="1190,195,1354,221"/>
-<area shape="rect" id="node6" href="$d0/de4/sv__onslaught_8qc.html#a254f74b99f7bc98f6e9d0c3692087b91" title="ons_ControlPoint_Think" alt="" coords="1418,69,1579,96"/>
-<area shape="rect" id="node21" href="$d0/de4/sv__onslaught_8qc.html#a5f2f1eb1adcfb22ee2c9c01ab95e63ac" title="setmodel_fixsize" alt="" coords="1439,148,1559,175"/>
-<area shape="rect" id="node30" href="$d0/de4/sv__onslaught_8qc.html#a0b8bd7394d3f4ab45ad96a223c23f3c9" title="ons_ControlPoint_Touch" alt="" coords="349,903,515,929"/>
-<area shape="rect" id="node46" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="1707,1228,1778,1255"/>
-<area shape="rect" id="node48" href="$d0/de4/sv__onslaught_8qc.html#a0b78c27456e6cf678324cdce9f5830ee" title="ons_DelayedControlPoint\l_Setup" alt="" coords="1187,1283,1357,1325"/>
-<area shape="rect" id="node56" href="$d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78" title="set_movetype" alt="" coords="1691,1481,1795,1508"/>
-<area shape="rect" id="node4" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1958,1000,2013,1027"/>
-<area shape="rect" id="node7" href="$d0/de4/sv__onslaught_8qc.html#a1477271959738583b926d0e754d4aada" title="onslaught_updatelinks" alt="" coords="1423,856,1574,883"/>
-<area shape="rect" id="node23" href="$d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6" title="SUB_UseTargets" alt="" coords="1436,245,1561,272"/>
-<area shape="rect" id="node8" href="$d8/de2/menudefs_8qc.html#afa1339a9821a14fdbaa610abaac80ef3" title="etos" alt="" coords="1719,721,1766,748"/>
-<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="1721,772,1765,799"/>
-<area shape="rect" id="node10" href="$d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" title="Push to tail. " alt="" coords="1703,1177,1782,1204"/>
-<area shape="rect" id="node12" href="$d9/d51/intrusivelist_8qh.html#a174c5e1663141fca4c79834b1b4d71e1" title="Remove any element, anywhere in the list. " alt="" coords="1693,975,1792,1001"/>
-<area shape="rect" id="node13" href="$d0/de4/sv__onslaught_8qc.html#a454ff61c95c49d302e981f5f04574bef" title="ons_ControlPoint_UpdateSprite" alt="" coords="1640,823,1845,849"/>
-<area shape="rect" id="node19" href="$d0/de4/sv__onslaught_8qc.html#afc2045eedb7684968edd66aab118783a" title="ons_Generator_UpdateSprite" alt="" coords="1647,873,1838,900"/>
-<area shape="rect" id="node11" href="$d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" title="IL_CONTAINS" alt="" coords="1930,1177,2041,1204"/>
-<area shape="rect" id="node14" href="$d5/d09/resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" title="Returns the current amount of resource the given entity has. " alt="" coords="1913,569,2057,596"/>
-<area shape="rect" id="node16" href="$d0/de4/sv__onslaught_8qc.html#ab76b7c1b21505c7a9bafc68a2453be61" title="ons_ControlPoint_CanBeLinked" alt="" coords="2366,975,2573,1001"/>
-<area shape="rect" id="node17" href="$d0/de4/sv__onslaught_8qc.html#a2dcc0fbf7a48cc2a696a43ee971dcd3c" title="ons_ControlPoint_Waypoint" alt="" coords="1893,873,2077,900"/>
-<area shape="rect" id="node15" href="$d5/d09/resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf" title="Converts resource type (a RESOURCE_* constant) to entity field. " alt="" coords="2158,487,2285,513"/>
-<area shape="rect" id="node18" href="$d0/de4/sv__onslaught_8qc.html#ada86cbc7321f4e2c633a5117f1195e15" title="ons_ControlPoint_Attackable" alt="" coords="2126,975,2317,1001"/>
-<area shape="rect" id="node20" href="$d0/de4/sv__onslaught_8qc.html#a5b9c24ecb2c59e66da9f4d047c8063b1" title="ons_Generator_Waypoint" alt="" coords="1901,924,2070,951"/>
-<area shape="rect" id="node22" href="$d0/de4/sv__onslaught_8qc.html#ae3b2b9ab5e59b7825352e92ec024f767" title="FixSize" alt="" coords="1709,148,1776,175"/>
-<area shape="rect" id="node24" href="$d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282" title="SUB_UseTargets_Ex" alt="" coords="1669,252,1817,279"/>
-<area shape="rect" id="node25" href="$d6/d57/triggers_8qc.html#a1c58d77ea3f4858ed96288710690cf98" title="DelayThink" alt="" coords="1941,151,2029,177"/>
-<area shape="rect" id="node26" href="$d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f" title="centerprint" alt="" coords="1944,201,2027,228"/>
-<area shape="rect" id="node27" href="$dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896" title="play2" alt="" coords="1959,353,2012,380"/>
-<area shape="rect" id="node28" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="1964,252,2007,279"/>
-<area shape="rect" id="node29" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="1910,303,2061,329"/>
-<area shape="rect" id="node31" href="$d0/de4/sv__onslaught_8qc.html#aded10d9a89e3977de028f2e9b8b20a9b" title="ons_ControlPoint_Icon\l_Spawn" alt="" coords="563,895,717,937"/>
-<area shape="rect" id="node47" href="$d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71" title="rint" alt="" coords="620,844,660,871"/>
-<area shape="rect" id="node32" href="$d9/d95/effects_2all_8inc.html#ae5430fc43016d59081a9edc8ed86bc7b" title="EFFECT_FLAG_TOUCH" alt="" coords="765,877,936,904"/>
-<area shape="rect" id="node33" href="$d0/de4/sv__onslaught_8qc.html#ac838107e46dcafc3e9ff17bac7af1ee5" title="ons_ControlPoint_Icon\l_BuildThink" alt="" coords="773,609,928,650"/>
-<area shape="rect" id="node37" href="$d0/de4/sv__onslaught_8qc.html#aa53ce26cc8f3335c2ad4269967171c79" title="ons_ControlPoint_Icon\l_Damage" alt="" coords="1195,297,1349,338"/>
-<area shape="rect" id="node40" href="$d5/d09/resources_8qc.html#a23a90e7288eaba490cdcc7941274f254" title="Sets the resource amount of an entity without calling any hooks. " alt="" coords="1405,507,1592,533"/>
-<area shape="rect" id="node42" href="$d0/de4/sv__onslaught_8qc.html#afc44af413028da09208c031b9fb3f4e0" title="onslaught_controlpoint\l_icon_link" alt="" coords="775,979,927,1021"/>
-<area shape="rect" id="node34" href="$d9/d95/effects_2all_8inc.html#a0bbe1f33a4e782c4b3afeabbc5c0c5d1" title="EFFECT_CAP" alt="" coords="1007,667,1116,693"/>
-<area shape="rect" id="node35" href="$d0/de4/sv__onslaught_8qc.html#a2458556ae1c4bb19c6b830583d449b18" title="ons_ControlPoint_Icon\l_Think" alt="" coords="984,499,1139,541"/>
-<area shape="rect" id="node39" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="1466,456,1531,483"/>
-<area shape="rect" id="node41" href="$d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0" title="randomvec" alt="" coords="1018,717,1105,744"/>
-<area shape="rect" id="node36" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="1243,464,1301,491"/>
-<area shape="rect" id="node38" href="$dc/d73/server_2miscfunctions_8qh.html#a410e46f892e7f134035c4afe149f8f27" title="play2team" alt="" coords="1457,405,1540,432"/>
-<area shape="rect" id="node43" href="$de/d4d/sv__controlpoint_8qc.html#a82df6e0da0f9ef689ce91cd247f56513" title="cpicon_send" alt="" coords="1014,983,1109,1009"/>
-<area shape="rect" id="node44" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="1251,1029,1293,1056"/>
-<area shape="rect" id="node45" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="1232,979,1312,1005"/>
-<area shape="rect" id="node49" href="$d0/de4/sv__onslaught_8qc.html#a12c18d9acaf5421b4c25663d6e54dd28" title="ons_CaptureShield_Spawn" alt="" coords="1409,1380,1588,1407"/>
-<area shape="rect" id="node50" href="$d0/de4/sv__onslaught_8qc.html#ae9c745cc2f400b7191a0a4bb71a3748c" title="ons_CaptureShield_Customize" alt="" coords="1641,1329,1844,1356"/>
-<area shape="rect" id="node51" href="$d0/de4/sv__onslaught_8qc.html#ae92bb822e0b1a545198eb5e60b54dc19" title="ons_CaptureShield_Reset" alt="" coords="1655,1431,1830,1457"/>
-<area shape="rect" id="node52" href="$d0/de4/sv__onslaught_8qc.html#acf907464f6495ea6d91a0ace50b055ea" title="ons_CaptureShield_Touch" alt="" coords="1655,1380,1830,1407"/>
-<area shape="rect" id="node53" href="$d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7" title="Damage" alt="" coords="1950,1380,2021,1407"/>
-<area shape="rect" id="node54" href="$d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4" title="normalize" alt="" coords="1946,1431,2025,1457"/>
-<area shape="rect" id="node55" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1956,1329,2015,1356"/>
+<area shape="rect" id="node2" href="$d0/de4/sv__onslaught_8qc.html#a2849214180784c7aa4438defd7386adc" title="ons_ControlPoint_Setup" alt="" coords="139,1379,301,1406"/>
+<area shape="rect" id="node3" href="$dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877" title="InitializeEntity" alt="" coords="380,1607,484,1634"/>
+<area shape="rect" id="node5" href="$d0/de4/sv__onslaught_8qc.html#aaaf46f46f5c6b7bbed9e29b9f4c047ec" title="ons_ControlPoint_Reset" alt="" coords="1225,1354,1389,1380"/>
+<area shape="rect" id="node6" href="$d0/de4/sv__onslaught_8qc.html#a254f74b99f7bc98f6e9d0c3692087b91" title="ons_ControlPoint_Think" alt="" coords="1449,1430,1610,1456"/>
+<area shape="rect" id="node20" href="$d0/de4/sv__onslaught_8qc.html#a5f2f1eb1adcfb22ee2c9c01ab95e63ac" title="setmodel_fixsize" alt="" coords="1469,1354,1589,1380"/>
+<area shape="rect" id="node29" href="$d0/de4/sv__onslaught_8qc.html#a0b8bd7394d3f4ab45ad96a223c23f3c9" title="ons_ControlPoint_Touch" alt="" coords="349,952,515,979"/>
+<area shape="rect" id="node50" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="1734,1540,1805,1567"/>
+<area shape="rect" id="node52" href="$d0/de4/sv__onslaught_8qc.html#a0b78c27456e6cf678324cdce9f5830ee" title="ons_DelayedControlPoint\l_Setup" alt="" coords="1221,1186,1392,1228"/>
+<area shape="rect" id="node60" href="$d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78" title="set_movetype" alt="" coords="1717,550,1821,576"/>
+<area shape="rect" id="node4" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1985,1110,2039,1136"/>
+<area shape="rect" id="node7" href="$d0/de4/sv__onslaught_8qc.html#a1477271959738583b926d0e754d4aada" title="onslaught_updatelinks" alt="" coords="1454,1135,1605,1162"/>
+<area shape="rect" id="node22" href="$d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6" title="SUB_UseTargets" alt="" coords="1467,878,1592,904"/>
+<area shape="rect" id="node8" href="$d8/de2/menudefs_8qc.html#afa1339a9821a14fdbaa610abaac80ef3" title="etos" alt="" coords="1746,1236,1793,1263"/>
+<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="1747,1135,1791,1162"/>
+<area shape="rect" id="node10" href="$d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" title="Push to tail. " alt="" coords="1730,1034,1809,1060"/>
+<area shape="rect" id="node12" href="$d9/d51/intrusivelist_8qh.html#a174c5e1663141fca4c79834b1b4d71e1" title="Remove any element, anywhere in the list. " alt="" coords="1720,1084,1819,1111"/>
+<area shape="rect" id="node13" href="$d0/de4/sv__onslaught_8qc.html#a454ff61c95c49d302e981f5f04574bef" title="ons_ControlPoint_UpdateSprite" alt="" coords="1667,932,1872,959"/>
+<area shape="rect" id="node18" href="$d0/de4/sv__onslaught_8qc.html#afc2045eedb7684968edd66aab118783a" title="ons_Generator_UpdateSprite" alt="" coords="1674,1287,1865,1314"/>
+<area shape="rect" id="node11" href="$d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" title="IL_CONTAINS" alt="" coords="1957,1034,2067,1060"/>
+<area shape="rect" id="node14" href="$d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" title="Returns the current amount of resource the given entity has. " alt="" coords="1940,347,2084,374"/>
+<area shape="rect" id="node15" href="$d0/de4/sv__onslaught_8qc.html#ab76b7c1b21505c7a9bafc68a2453be61" title="ons_ControlPoint_CanBeLinked" alt="" coords="2393,932,2599,959"/>
+<area shape="rect" id="node16" href="$d0/de4/sv__onslaught_8qc.html#a2dcc0fbf7a48cc2a696a43ee971dcd3c" title="ons_ControlPoint_Waypoint" alt="" coords="1920,983,2104,1010"/>
+<area shape="rect" id="node17" href="$d0/de4/sv__onslaught_8qc.html#ada86cbc7321f4e2c633a5117f1195e15" title="ons_ControlPoint_Attackable" alt="" coords="2153,983,2343,1010"/>
+<area shape="rect" id="node19" href="$d0/de4/sv__onslaught_8qc.html#a5b9c24ecb2c59e66da9f4d047c8063b1" title="ons_Generator_Waypoint" alt="" coords="1927,1211,2097,1238"/>
+<area shape="rect" id="node21" href="$d0/de4/sv__onslaught_8qc.html#ae3b2b9ab5e59b7825352e92ec024f767" title="FixSize" alt="" coords="1736,1591,1803,1618"/>
+<area shape="rect" id="node23" href="$d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282" title="SUB_UseTargets_Ex" alt="" coords="1695,730,1843,756"/>
+<area shape="rect" id="node24" href="$d6/d57/triggers_8qc.html#a1c58d77ea3f4858ed96288710690cf98" title="DelayThink" alt="" coords="1968,780,2056,807"/>
+<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f" title="centerprint" alt="" coords="1971,628,2053,655"/>
+<area shape="rect" id="node26" href="$dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896" title="play2" alt="" coords="1985,831,2039,858"/>
+<area shape="rect" id="node27" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="1991,679,2033,706"/>
+<area shape="rect" id="node28" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="1937,730,2087,756"/>
+<area shape="rect" id="node30" href="$d0/de4/sv__onslaught_8qc.html#aded10d9a89e3977de028f2e9b8b20a9b" title="ons_ControlPoint_Icon\l_Spawn" alt="" coords="563,752,717,793"/>
+<area shape="rect" id="node51" href="$d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71" title="rint" alt="" coords="620,952,660,979"/>
+<area shape="rect" id="node31" href="$d9/d95/effects_2all_8inc.html#ae5430fc43016d59081a9edc8ed86bc7b" title="EFFECT_FLAG_TOUCH" alt="" coords="765,700,936,727"/>
+<area shape="rect" id="node32" href="$d0/de4/sv__onslaught_8qc.html#ac838107e46dcafc3e9ff17bac7af1ee5" title="ons_ControlPoint_Icon\l_BuildThink" alt="" coords="773,752,928,793"/>
+<area shape="rect" id="node39" href="$d0/de4/sv__onslaught_8qc.html#aa53ce26cc8f3335c2ad4269967171c79" title="ons_ControlPoint_Icon\l_Damage" alt="" coords="1229,769,1384,810"/>
+<area shape="rect" id="node44" href="$d8/d06/client_2resources_8qc.html#a23a90e7288eaba490cdcc7941274f254" title="Sets the resource amount of an entity without calling any hooks. " alt="" coords="985,987,1172,1014"/>
+<area shape="rect" id="node45" href="$d0/de4/sv__onslaught_8qc.html#a2e2f7af24697ab48835f3375f66d3f84" title="ons_ControlPoint_Icon_Heal" alt="" coords="985,296,1173,323"/>
+<area shape="rect" id="node46" href="$d0/de4/sv__onslaught_8qc.html#afc44af413028da09208c031b9fb3f4e0" title="onslaught_controlpoint\l_icon_link" alt="" coords="775,250,927,292"/>
+<area shape="rect" id="node33" href="$d9/d95/effects_2all_8inc.html#a0bbe1f33a4e782c4b3afeabbc5c0c5d1" title="EFFECT_CAP" alt="" coords="1024,784,1133,811"/>
+<area shape="rect" id="node34" href="$d4/d91/server_2resources_8qc.html#a88f207f357349ddd4d1f32b85d0c3f57" title="Gives an entity some resource. " alt="" coords="1477,422,1582,448"/>
+<area shape="rect" id="node37" href="$d0/de4/sv__onslaught_8qc.html#a2458556ae1c4bb19c6b830583d449b18" title="ons_ControlPoint_Icon\l_Think" alt="" coords="1001,566,1156,608"/>
+<area shape="rect" id="node41" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="1497,624,1562,651"/>
+<area shape="rect" id="node43" href="$d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0" title="randomvec" alt="" coords="1035,632,1122,659"/>
+<area shape="rect" id="node35" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="1746,499,1793,526"/>
+<area shape="rect" id="node36" href="$d8/d06/client_2resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d" title="Sets the current amount of resource the given entity will have. " alt="" coords="1698,448,1841,475"/>
+<area shape="rect" id="node38" href="$d4/d91/server_2resources_8qc.html#a1b1ff2e419436cd7236668176c97c9ac" title="Gives an entity some resource but not more than a limit. " alt="" coords="1227,422,1387,448"/>
+<area shape="rect" id="node40" href="$dc/d73/server_2miscfunctions_8qh.html#a410e46f892e7f134035c4afe149f8f27" title="play2team" alt="" coords="1488,776,1571,803"/>
+<area shape="rect" id="node42" href="$d8/d06/client_2resources_8qc.html#a94703297455af921f296d634ca643943" title="Takes an entity some resource. " alt="" coords="1476,726,1583,752"/>
+<area shape="rect" id="node47" href="$de/d4d/sv__controlpoint_8qc.html#a82df6e0da0f9ef689ce91cd247f56513" title="cpicon_send" alt="" coords="1031,220,1126,247"/>
+<area shape="rect" id="node48" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="1285,144,1328,171"/>
+<area shape="rect" id="node49" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="1267,195,1347,222"/>
+<area shape="rect" id="node53" href="$d0/de4/sv__onslaught_8qc.html#a12c18d9acaf5421b4c25663d6e54dd28" title="ons_CaptureShield_Spawn" alt="" coords="1440,1202,1619,1228"/>
+<area shape="rect" id="node54" href="$d0/de4/sv__onslaught_8qc.html#ae9c745cc2f400b7191a0a4bb71a3748c" title="ons_CaptureShield_Customize" alt="" coords="1668,1490,1871,1516"/>
+<area shape="rect" id="node55" href="$d0/de4/sv__onslaught_8qc.html#ae92bb822e0b1a545198eb5e60b54dc19" title="ons_CaptureShield_Reset" alt="" coords="1682,1388,1857,1415"/>
+<area shape="rect" id="node56" href="$d0/de4/sv__onslaught_8qc.html#acf907464f6495ea6d91a0ace50b055ea" title="ons_CaptureShield_Touch" alt="" coords="1682,1338,1857,1364"/>
+<area shape="rect" id="node57" href="$d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7" title="Damage" alt="" coords="1977,1262,2047,1288"/>
+<area shape="rect" id="node58" href="$d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4" title="normalize" alt="" coords="1973,1312,2051,1339"/>
+<area shape="rect" id="node59" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1983,1363,2041,1390"/>
 </map>

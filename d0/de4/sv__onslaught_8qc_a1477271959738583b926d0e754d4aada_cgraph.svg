@@ -48,7 +48,7 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 858;
 var viewHeight = 256;
-var sectionId = 'dynsection-118';
+var sectionId = 'dynsection-122';
 </script>
 <script xlink:href="../../svgpan.js"/>
 <svg id="graph" class="graph">
@@ -137,16 +137,16 @@ var sectionId = 'dynsection-118';
 <path fill="none" stroke="midnightblue" d="M113.942,-124C122.243,-124 130.957,-124 139.705,-124"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="139.966,-127.5 149.966,-124 139.966,-120.5 139.966,-127.5"/>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="../../d0/de4/sv__onslaught_8qc.html#afc2045eedb7684968edd66aab118783a" target="_top" xlink:title="ons_Generator_UpdateSprite">
+<!-- Node13 -->
+<g id="node13" class="node"><title>Node13</title>
+<g id="a_node13"><a xlink:href="../../d0/de4/sv__onslaught_8qc.html#afc2045eedb7684968edd66aab118783a" target="_top" xlink:title="ons_Generator_UpdateSprite">
 <polygon fill="none" stroke="black" points="155.5,-76.5 155.5,-95.5 298.5,-95.5 298.5,-76.5 155.5,-76.5"/>
 <text text-anchor="middle" x="227" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">ons_Generator_UpdateSprite</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node14 -->
-<g id="edge17" class="edge"><title>Node1&#45;&gt;Node14</title>
+<!-- Node1&#45;&gt;Node13 -->
+<g id="edge16" class="edge"><title>Node1&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M100.393,-114.411C122.763,-109.351 150.398,-103.1 174.047,-97.7512"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="174.93,-101.14 183.911,-95.5201 173.386,-94.3125 174.93,-101.14"/>
 </g>
@@ -180,7 +180,7 @@ var sectionId = 'dynsection-118';
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d5/d09/resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" target="_top" xlink:title="Returns the current amount of resource the given entity has. ">
+<g id="a_node9"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" target="_top" xlink:title="Returns the current amount of resource the given entity has. ">
 <polygon fill="none" stroke="black" points="355,-152.5 355,-171.5 463,-171.5 463,-152.5 355,-152.5"/>
 <text text-anchor="middle" x="409" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetResourceAmount</text>
 </a>
@@ -191,78 +191,65 @@ var sectionId = 'dynsection-118';
 <path fill="none" stroke="midnightblue" d="M273.422,-133.589C297.603,-138.694 327.527,-145.011 353.014,-150.392"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="352.398,-153.839 362.905,-152.48 353.844,-146.99 352.398,-153.839"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d0/de4/sv__onslaught_8qc.html#ab76b7c1b21505c7a9bafc68a2453be61" target="_top" xlink:title="ons_ControlPoint_CanBeLinked">
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="../../d0/de4/sv__onslaught_8qc.html#ab76b7c1b21505c7a9bafc68a2453be61" target="_top" xlink:title="ons_ControlPoint_CanBeLinked">
 <polygon fill="none" stroke="black" points="694.5,-95.5 694.5,-114.5 849.5,-114.5 849.5,-95.5 694.5,-95.5"/>
 <text text-anchor="middle" x="772" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">ons_ControlPoint_CanBeLinked</text>
 </a>
 </g>
 </g>
+<!-- Node8&#45;&gt;Node10 -->
+<g id="edge12" class="edge"><title>Node8&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M304.074,-121.338C403.927,-117.844 578.806,-111.725 683.869,-108.049"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="684.255,-111.537 694.127,-107.69 684.011,-104.542 684.255,-111.537"/>
+</g>
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="../../d0/de4/sv__onslaught_8qc.html#a2dcc0fbf7a48cc2a696a43ee971dcd3c" target="_top" xlink:title="ons_ControlPoint_Waypoint">
+<polygon fill="none" stroke="black" points="340,-76.5 340,-95.5 478,-95.5 478,-76.5 340,-76.5"/>
+<text text-anchor="middle" x="409" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">ons_ControlPoint_Waypoint</text>
+</a>
+</g>
+</g>
 <!-- Node8&#45;&gt;Node11 -->
 <g id="edge13" class="edge"><title>Node8&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M273.552,-114.488C293.8,-110.722 317.989,-106.854 340,-105 458.88,-94.9879 596.86,-97.4469 684.037,-100.726"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="684.021,-104.228 694.149,-101.119 684.293,-97.2337 684.021,-104.228"/>
+<path fill="none" stroke="midnightblue" d="M273.422,-114.411C297.603,-109.306 327.527,-102.989 353.014,-97.6082"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="353.844,-101.01 362.905,-95.5201 352.398,-94.1612 353.844,-101.01"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d0/de4/sv__onslaught_8qc.html#a2dcc0fbf7a48cc2a696a43ee971dcd3c" target="_top" xlink:title="ons_ControlPoint_Waypoint">
-<polygon fill="none" stroke="black" points="340,-114.5 340,-133.5 478,-133.5 478,-114.5 340,-114.5"/>
-<text text-anchor="middle" x="409" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">ons_ControlPoint_Waypoint</text>
+<g id="a_node12"><a xlink:href="../../d0/de4/sv__onslaught_8qc.html#ada86cbc7321f4e2c633a5117f1195e15" target="_top" xlink:title="ons_ControlPoint_Attackable">
+<polygon fill="none" stroke="black" points="514.5,-76.5 514.5,-95.5 657.5,-95.5 657.5,-76.5 514.5,-76.5"/>
+<text text-anchor="middle" x="586" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">ons_ControlPoint_Attackable</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node12 -->
-<g id="edge14" class="edge"><title>Node8&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M304.075,-124C312.534,-124 321.161,-124 329.647,-124"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="329.908,-127.5 339.908,-124 329.908,-120.5 329.908,-127.5"/>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge14" class="edge"><title>Node11&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M478.161,-86C486.714,-86 495.527,-86 504.25,-86"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="504.428,-89.5001 514.428,-86 504.428,-82.5001 504.428,-89.5001"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d5/d09/resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf" target="_top" xlink:title="Converts resource type (a RESOURCE_* constant) to entity field. ">
-<polygon fill="none" stroke="black" points="538.5,-152.5 538.5,-171.5 633.5,-171.5 633.5,-152.5 538.5,-152.5"/>
-<text text-anchor="middle" x="586" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetResourceField</text>
-</a>
+<!-- Node12&#45;&gt;Node10 -->
+<g id="edge15" class="edge"><title>Node12&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M657.613,-93.2916C666.375,-94.1964 675.412,-95.1295 684.38,-96.0555"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="684.151,-99.5504 694.458,-97.0962 684.87,-92.5875 684.151,-99.5504"/>
 </g>
-</g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge12" class="edge"><title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M463.457,-162C483.922,-162 507.331,-162 528.106,-162"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="528.383,-165.5 538.383,-162 528.383,-158.5 528.383,-165.5"/>
-</g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d0/de4/sv__onslaught_8qc.html#ada86cbc7321f4e2c633a5117f1195e15" target="_top" xlink:title="ons_ControlPoint_Attackable">
-<polygon fill="none" stroke="black" points="514.5,-114.5 514.5,-133.5 657.5,-133.5 657.5,-114.5 514.5,-114.5"/>
-<text text-anchor="middle" x="586" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">ons_ControlPoint_Attackable</text>
-</a>
-</g>
-</g>
-<!-- Node12&#45;&gt;Node13 -->
-<g id="edge15" class="edge"><title>Node12&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M478.161,-124C486.714,-124 495.527,-124 504.25,-124"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="504.428,-127.5 514.428,-124 504.428,-120.5 504.428,-127.5"/>
-</g>
-<!-- Node13&#45;&gt;Node11 -->
-<g id="edge16" class="edge"><title>Node13&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M657.613,-116.708C666.375,-115.804 675.412,-114.871 684.38,-113.944"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="684.87,-117.413 694.458,-112.904 684.151,-110.45 684.87,-117.413"/>
-</g>
-<!-- Node14&#45;&gt;Node2 -->
-<g id="edge18" class="edge"><title>Node14&#45;&gt;Node2</title>
+<!-- Node13&#45;&gt;Node2 -->
+<g id="edge17" class="edge"><title>Node13&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M288.135,-95.5373C293.85,-98.0167 299.267,-101.12 304,-105 332.904,-128.696 311.424,-156.909 340,-181 350.723,-190.04 365.443,-194.794 378.447,-197.288"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="377.978,-200.758 388.398,-198.843 379.058,-193.841 377.978,-200.758"/>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="../../d0/de4/sv__onslaught_8qc.html#a5b9c24ecb2c59e66da9f4d047c8063b1" target="_top" xlink:title="ons_Generator_Waypoint">
+<!-- Node14 -->
+<g id="node14" class="node"><title>Node14</title>
+<g id="a_node14"><a xlink:href="../../d0/de4/sv__onslaught_8qc.html#a5b9c24ecb2c59e66da9f4d047c8063b1" target="_top" xlink:title="ons_Generator_Waypoint">
 <polygon fill="none" stroke="black" points="345.5,-38.5 345.5,-57.5 472.5,-57.5 472.5,-38.5 345.5,-38.5"/>
 <text text-anchor="middle" x="409" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">ons_Generator_Waypoint</text>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node15 -->
-<g id="edge19" class="edge"><title>Node14&#45;&gt;Node15</title>
+<!-- Node13&#45;&gt;Node14 -->
+<g id="edge18" class="edge"><title>Node13&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M273.422,-76.411C297.603,-71.3061 327.527,-64.9887 353.014,-59.6082"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="353.844,-63.0102 362.905,-57.5201 352.398,-56.1612 353.844,-63.0102"/>
 </g>

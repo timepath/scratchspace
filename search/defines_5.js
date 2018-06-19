@@ -164,6 +164,8 @@ var searchData=
   ['ev_5fsv_5fparseservercommand',['EV_SV_ParseServerCommand',['../d6/ddd/server_2mutators_2events_8qh.html#af153c2e6f073353327ac276ae7c6fad0',1,'events.qh']]],
   ['ev_5ftagindex_5fapply',['EV_TagIndex_Apply',['../d8/d0e/client_2mutators_2events_8qh.html#a7ec170daca62fad6eb6d6dc1aadb349f',1,'events.qh']]],
   ['ev_5ftagindex_5fupdate',['EV_TagIndex_Update',['../d8/d0e/client_2mutators_2events_8qh.html#ac565948f62c39b18ab0d5054823ec530',1,'events.qh']]],
+  ['ev_5ftakeresource',['EV_TakeResource',['../d6/ddd/server_2mutators_2events_8qh.html#a97cdd84788298f5b06119288495add2a',1,'events.qh']]],
+  ['ev_5ftakeresourcewithlimit',['EV_TakeResourceWithLimit',['../d6/ddd/server_2mutators_2events_8qh.html#a21d2b0d05c1402e4e7d92ee8fc95e458',1,'events.qh']]],
   ['ev_5fturret_5fcheckfire',['EV_Turret_CheckFire',['../d6/ddd/server_2mutators_2events_8qh.html#a605bdc82163dc28bde20a2a0abc16870',1,'events.qh']]],
   ['ev_5fturretfire',['EV_TurretFire',['../d6/ddd/server_2mutators_2events_8qh.html#a9f2d5bdc1f698ad6ed949a61ddf47821',1,'events.qh']]],
   ['ev_5fturretspawn',['EV_TurretSpawn',['../d6/ddd/server_2mutators_2events_8qh.html#af1f65920450de6628be0ae68c5be8cfb',1,'events.qh']]],

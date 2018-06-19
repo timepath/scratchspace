@@ -397,7 +397,7 @@ $(document).ready(function(){initNavTree('d7/da2/cl__player_8qc_source.html','..
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        <span class="comment">// note: these two only work in WIP2, but are harmless in WIP1</span></div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#aea134bd6fe83f33917ef11ddcde6ffbd">PHYS_HEALTH</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) &lt;= 0 &amp;&amp; <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#aea134bd6fe83f33917ef11ddcde6ffbd">PHYS_HEALTH</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) != -666 &amp;&amp; <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#aea134bd6fe83f33917ef11ddcde6ffbd">PHYS_HEALTH</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) != -2342) refdefflags |= <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a20ee8a5882f1bb8fa15467e0ba1a1085">REFDEFFLAG_DEAD</a>;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ab987b9c2edbce593e3a9e6cf0f6ee3b4">intermission</a>) refdefflags |= <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa09b64e4fa22d9a0c4875ef61c60c389">REFDEFFLAG_INTERMISSION</a>;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        V_CalcRefdef(view, refdefflags);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        V_CalcRefdef(view, refdefflags); <span class="comment">// TODO? uses .health stat in the engine when this isn&#39;t called here, may be broken!</span></div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    }</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    {</div>
@@ -534,7 +534,7 @@ $(document).ready(function(){initNavTree('d7/da2/cl__player_8qc_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_d5fd5ebb74d9aac6232b0b4eda80dfde.html">csqcmodel</a></li><li class="navelem"><a class="el" href="../../d7/da2/cl__player_8qc.html">cl_player.qc</a></li>
-    <li class="footer">Generated on Sat Jun 16 2018 17:15:26 for Xonotic by
+    <li class="footer">Generated on Tue Jun 19 2018 03:20:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -23,6 +23,7 @@ var sv__monsters_8qc =
     [ "Monster_Enemy_Check", "da/d4e/sv__monsters_8qc.html#ad69779350e013b9e2d020b2230cf0cdc", null ],
     [ "Monster_FindTarget", "da/d4e/sv__monsters_8qc.html#a963d18ab6edf428beff8de4ae117b055", null ],
     [ "Monster_Frozen_Think", "da/d4e/sv__monsters_8qc.html#aaf4700ca55826805ecbdb9f140d77888", null ],
+    [ "Monster_Heal", "da/d4e/sv__monsters_8qc.html#a0d56de87e685d62204284f78fbb67ba9", null ],
     [ "monster_makevectors", "da/d4e/sv__monsters_8qc.html#aa7607c99a4f26065ec3a769e79adc696", null ],
     [ "Monster_Miniboss_Check", "da/d4e/sv__monsters_8qc.html#a5d5092804b9a6377cc7092ac9b967c52", null ],
     [ "Monster_Move", "da/d4e/sv__monsters_8qc.html#a37f7dbf3b68666c1a9348403d38490b8", null ],

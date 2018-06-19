@@ -1,28 +1,25 @@
 <map id="NIX_GiveCurrentWeapon" name="NIX_GiveCurrentWeapon">
 <area shape="rect" id="node2" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="289,5,332,32"/>
 <area shape="rect" id="node3" href="$d5/d26/server_2defs_8qh.html#aba6ed323f0e8f5773f5d7de51e2d3411" title="client_hasweapon" alt="" coords="247,56,374,83"/>
-<area shape="rect" id="node4" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="730,308,785,335"/>
-<area shape="rect" id="node5" href="$d5/d09/resources_8qc.html#a88f207f357349ddd4d1f32b85d0c3f57" title="Gives an entity some resource. " alt="" coords="258,131,363,157"/>
-<area shape="rect" id="node6" href="$d5/d09/resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d" title="Sets the current amount of resource the given entity will have. " alt="" coords="459,181,602,208"/>
-<area shape="rect" id="node12" href="$d7/d39/sv__nix_8qc.html#a7855e69af6ee0d89fe8ad835500790b2" title="NIX_ChooseNextWeapon" alt="" coords="224,283,397,309"/>
-<area shape="rect" id="node15" href="$d2/d62/selection_8qc.html#ab8ebfddd0ba2d6a481fdfdf96bb05c51" title="W_SwitchWeapon" alt="" coords="245,460,376,487"/>
-<area shape="rect" id="node10" href="$d5/d09/resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" title="Returns the current amount of resource the given entity has. " alt="" coords="459,56,603,83"/>
-<area shape="rect" id="node11" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="507,107,554,133"/>
-<area shape="rect" id="node7" href="$d5/d09/resources_8qc.html#af36a97298b550267aad36794d0f66c0f" title="Returns the maximum amount of the given resource. " alt="" coords="694,131,821,157"/>
-<area shape="rect" id="node8" href="$d5/d09/resources_8qc.html#a23a90e7288eaba490cdcc7941274f254" title="Sets the resource amount of an entity without calling any hooks. " alt="" coords="664,181,851,208"/>
-<area shape="rect" id="node9" href="$d5/d09/resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf" title="Converts resource type (a RESOURCE_* constant) to entity field. " alt="" coords="899,119,1026,145"/>
-<area shape="rect" id="node13" href="$d7/d39/sv__nix_8qc.html#a7bcb5b58de02894dfb32251eb9de36d3" title="NIX_CanChooseWeapon" alt="" coords="446,333,615,360"/>
-<area shape="rect" id="node14" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="455,283,606,309"/>
-<area shape="rect" id="node16" href="$d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411" title="client_hasweapon" alt="" coords="467,485,594,512"/>
-<area shape="rect" id="node25" href="$d2/d62/selection_8qc.html#a26a298ee4ff7a3e0706b8892030ecf1a" title="W_SwitchWeapon_Force" alt="" coords="445,536,616,563"/>
-<area shape="rect" id="node26" href="$d5/de0/weaponsystem_8qc.html#a1798aef9c3263ffc0fb53a9741fc3ab9" title="forbidWeaponUse" alt="" coords="467,587,594,613"/>
-<area shape="rect" id="node27" href="$dc/de5/classWeapon.html#a30558a4b50b31b3794b4b6b41acc8151" title="(SERVER) handles reloading for weapon " alt="" coords="463,384,598,411"/>
-<area shape="rect" id="node17" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="737,561,778,588"/>
-<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f" title="sprint" alt="" coords="730,612,785,639"/>
-<area shape="rect" id="node19" href="$d2/d1c/weapons_2weapon_8qh.html#ac3cbbc1f9884e78a2816ff88760748d5" title="weaponslot" alt="" coords="713,663,801,689"/>
-<area shape="rect" id="node20" href="$dc/de5/classWeapon.html#ab1963e9f2e85c7c11304531a7a8e4313" title="(SERVER) checks ammo for weapon primary " alt="" coords="669,359,846,385"/>
-<area shape="rect" id="node21" href="$dc/de5/classWeapon.html#a8adc0f68d514782dc8fe0a1d5af3b310" title="(SERVER) checks ammo for weapon second " alt="" coords="669,409,846,436"/>
-<area shape="rect" id="node22" href="$dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896" title="play2" alt="" coords="731,460,784,487"/>
-<area shape="rect" id="node23" href="$d2/d62/selection_8qc.html#a6f9b75f17639bb910d8445a136d4a837" title="Send_WeaponComplain" alt="" coords="676,511,839,537"/>
-<area shape="rect" id="node24" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="923,511,1003,537"/>
+<area shape="rect" id="node4" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="726,284,781,311"/>
+<area shape="rect" id="node5" href="$d4/d91/server_2resources_8qc.html#a88f207f357349ddd4d1f32b85d0c3f57" title="Gives an entity some resource. " alt="" coords="258,208,363,235"/>
+<area shape="rect" id="node8" href="$d8/d06/client_2resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d" title="Sets the current amount of resource the given entity will have. " alt="" coords="459,259,602,285"/>
+<area shape="rect" id="node9" href="$d7/d39/sv__nix_8qc.html#a7855e69af6ee0d89fe8ad835500790b2" title="NIX_ChooseNextWeapon" alt="" coords="224,309,397,336"/>
+<area shape="rect" id="node12" href="$d2/d62/selection_8qc.html#ab8ebfddd0ba2d6a481fdfdf96bb05c51" title="W_SwitchWeapon" alt="" coords="245,487,376,513"/>
+<area shape="rect" id="node6" href="$d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" title="Returns the current amount of resource the given entity has. " alt="" coords="459,157,603,184"/>
+<area shape="rect" id="node7" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="507,208,554,235"/>
+<area shape="rect" id="node10" href="$d7/d39/sv__nix_8qc.html#a7bcb5b58de02894dfb32251eb9de36d3" title="NIX_CanChooseWeapon" alt="" coords="446,309,615,336"/>
+<area shape="rect" id="node11" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="455,360,606,387"/>
+<area shape="rect" id="node13" href="$d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411" title="client_hasweapon" alt="" coords="467,461,594,488"/>
+<area shape="rect" id="node22" href="$d2/d62/selection_8qc.html#a26a298ee4ff7a3e0706b8892030ecf1a" title="W_SwitchWeapon_Force" alt="" coords="445,512,616,539"/>
+<area shape="rect" id="node23" href="$d5/de0/weaponsystem_8qc.html#a1798aef9c3263ffc0fb53a9741fc3ab9" title="forbidWeaponUse" alt="" coords="467,563,594,589"/>
+<area shape="rect" id="node24" href="$dc/de5/classWeapon.html#a30558a4b50b31b3794b4b6b41acc8151" title="(SERVER) handles reloading for weapon " alt="" coords="463,613,598,640"/>
+<area shape="rect" id="node14" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="733,335,774,361"/>
+<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f" title="sprint" alt="" coords="726,385,781,412"/>
+<area shape="rect" id="node16" href="$d2/d1c/weapons_2weapon_8qh.html#ac3cbbc1f9884e78a2816ff88760748d5" title="weaponslot" alt="" coords="709,436,797,463"/>
+<area shape="rect" id="node17" href="$dc/de5/classWeapon.html#ab1963e9f2e85c7c11304531a7a8e4313" title="(SERVER) checks ammo for weapon primary " alt="" coords="665,487,842,513"/>
+<area shape="rect" id="node18" href="$dc/de5/classWeapon.html#a8adc0f68d514782dc8fe0a1d5af3b310" title="(SERVER) checks ammo for weapon second " alt="" coords="665,537,842,564"/>
+<area shape="rect" id="node19" href="$dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896" title="play2" alt="" coords="727,588,780,615"/>
+<area shape="rect" id="node20" href="$d2/d62/selection_8qc.html#a6f9b75f17639bb910d8445a136d4a837" title="Send_WeaponComplain" alt="" coords="672,639,835,665"/>
+<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="891,639,971,665"/>
 </map>

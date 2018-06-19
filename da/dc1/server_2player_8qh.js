@@ -10,6 +10,7 @@ var server_2player_8qh =
     [ "player_setupanimsformodel", "da/dc1/server_2player_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1", null ],
     [ "PlayerCorpseDamage", "da/dc1/server_2player_8qh.html#a702d414b3a7f91c3e1746aaef5f9382c", null ],
     [ "PlayerDamage", "da/dc1/server_2player_8qh.html#a2c4acf85cd876d0e628435d91592d615", null ],
+    [ "PlayerHeal", "da/dc1/server_2player_8qh.html#ae245d92e33b2c7cffe13cf28980afa34", null ],
     [ "Say", "da/dc1/server_2player_8qh.html#a3ec86404101072a18190c63b450c508b", null ],
     [ "void", "da/dc1/server_2player_8qh.html#a5a67bcf7261b3f7f78c6abc4ef614984", null ],
     [ "CopyBody_nextthink", "da/dc1/server_2player_8qh.html#abd30a605660c74c4236227e1c594535f", null ],
