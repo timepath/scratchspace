@@ -1795,43 +1795,43 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01464">1464</a> of file <a class="el" href="../../db/dcc/g__world_8qc_source.html">g_world.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01465">1465</a> of file <a class="el" href="../../db/dcc/g__world_8qc_source.html">g_world.qc</a>.</p>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00308">autocvar_sv_intermission_cdtrack</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00061">EF_NODRAW</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00111">effects</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00035">FOREACH_WORD</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>, <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00013">MAX_WEAPONSLOTS</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00063">msg_entity</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00056">MSG_ONE</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00016">RandomSelection_AddString</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00007">RandomSelection_chosen_string</a>, <a class="el" href="../../dc/d95/random_8qc_source.html#l00004">RandomSelection_Init()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00080">RESOURCE_HEALTH</a>, <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00014">SetResourceAmountExplicit()</a>, <a class="el" href="../../d8/dc0/progsdefs_8qh_source.html#l00023">stuffcmd</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00340">SVC_INTERMISSION</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00014">weaponentities</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01281">IntermissionThink()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01502">NextLevel()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01465"></a><span class="lineno"> 1465</span>&#160;{</div>
-<div class="line"><a name="l01466"></a><span class="lineno"> 1466</span>&#160;    <span class="keywordflow">if</span>(!e.autoscreenshot) <span class="comment">// initial call</span></div>
-<div class="line"><a name="l01467"></a><span class="lineno"> 1467</span>&#160;    {</div>
-<div class="line"><a name="l01468"></a><span class="lineno"> 1468</span>&#160;        e.autoscreenshot = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.8;  <span class="comment">// used for autoscreenshot</span></div>
-<div class="line"><a name="l01469"></a><span class="lineno"> 1469</span>&#160;        <a class="code" href="../../d8/d06/client_2resources_8qc.html#a23a90e7288eaba490cdcc7941274f254">SetResourceAmountExplicit</a>(e, <a class="code" href="../../d5/dff/ent__cs_8qc.html#a8394e59edbb08b1e4fb28fb7ea60d1cc">RESOURCE_HEALTH</a>, -2342);</div>
-<div class="line"><a name="l01470"></a><span class="lineno"> 1470</span>&#160;        <span class="comment">// first intermission phase; voting phase has positive health (used to decide whether to send SVC_FINALE or not)</span></div>
-<div class="line"><a name="l01471"></a><span class="lineno"> 1471</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> slot = 0; slot &lt; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b">MAX_WEAPONSLOTS</a>; ++slot)</div>
-<div class="line"><a name="l01472"></a><span class="lineno"> 1472</span>&#160;        {</div>
-<div class="line"><a name="l01473"></a><span class="lineno"> 1473</span>&#160;            .entity weaponentity = <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[slot];</div>
-<div class="line"><a name="l01474"></a><span class="lineno"> 1474</span>&#160;            <span class="keywordflow">if</span>(e.(weaponentity))</div>
-<div class="line"><a name="l01475"></a><span class="lineno"> 1475</span>&#160;            {</div>
-<div class="line"><a name="l01476"></a><span class="lineno"> 1476</span>&#160;                e.(weaponentity).<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad2b893560aa07db2329d6531c0966e79">EF_NODRAW</a>;</div>
-<div class="line"><a name="l01477"></a><span class="lineno"> 1477</span>&#160;                <span class="keywordflow">if</span> (e.(weaponentity).weaponchild)</div>
-<div class="line"><a name="l01478"></a><span class="lineno"> 1478</span>&#160;                    e.(weaponentity).weaponchild.effects = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad2b893560aa07db2329d6531c0966e79">EF_NODRAW</a>;</div>
-<div class="line"><a name="l01479"></a><span class="lineno"> 1479</span>&#160;            }</div>
-<div class="line"><a name="l01480"></a><span class="lineno"> 1480</span>&#160;        }</div>
-<div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(e))</div>
-<div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;        {</div>
-<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;            <a class="code" href="../../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c">stuffcmd</a>(e, <span class="stringliteral">&quot;\nscr_printspeed 1000000\n&quot;</span>);</div>
-<div class="line"><a name="l01484"></a><span class="lineno"> 1484</span>&#160;            <a class="code" href="../../dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf">RandomSelection_Init</a>();</div>
-<div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;            <a class="code" href="../../d4/d18/iter_8qh.html#a632ecf2fc79f8dc7dce33e3de72a6d6e">FOREACH_WORD</a>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a1537d360fec4d889582b7ca0ec4852f6">autocvar_sv_intermission_cdtrack</a>, <span class="keyword">true</span>, {</div>
-<div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;                <a class="code" href="../../db/d55/random_8qh.html#aeff0dbe25ce4ec35e40ff63cfc6156c6">RandomSelection_AddString</a>(it, 1, 1);</div>
-<div class="line"><a name="l01487"></a><span class="lineno"> 1487</span>&#160;            });</div>
-<div class="line"><a name="l01488"></a><span class="lineno"> 1488</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36">RandomSelection_chosen_string</a> != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l01489"></a><span class="lineno"> 1489</span>&#160;            {</div>
-<div class="line"><a name="l01490"></a><span class="lineno"> 1490</span>&#160;                <a class="code" href="../../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c">stuffcmd</a>(e, sprintf(<span class="stringliteral">&quot;\ncd loop %s\n&quot;</span>, <a class="code" href="../../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36">RandomSelection_chosen_string</a>));</div>
-<div class="line"><a name="l01491"></a><span class="lineno"> 1491</span>&#160;            }</div>
-<div class="line"><a name="l01492"></a><span class="lineno"> 1492</span>&#160;            <a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a> = e;</div>
-<div class="line"><a name="l01493"></a><span class="lineno"> 1493</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a515dcba5aed2fe4e93e7afce1bc62ace">SVC_INTERMISSION</a>);</div>
-<div class="line"><a name="l01494"></a><span class="lineno"> 1494</span>&#160;        }</div>
-<div class="line"><a name="l01495"></a><span class="lineno"> 1495</span>&#160;    }</div>
-<div class="line"><a name="l01496"></a><span class="lineno"> 1496</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01282">IntermissionThink()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01503">NextLevel()</a>.</p>
+<div class="fragment"><div class="line"><a name="l01466"></a><span class="lineno"> 1466</span>&#160;{</div>
+<div class="line"><a name="l01467"></a><span class="lineno"> 1467</span>&#160;    <span class="keywordflow">if</span>(!e.autoscreenshot) <span class="comment">// initial call</span></div>
+<div class="line"><a name="l01468"></a><span class="lineno"> 1468</span>&#160;    {</div>
+<div class="line"><a name="l01469"></a><span class="lineno"> 1469</span>&#160;        e.autoscreenshot = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.8;  <span class="comment">// used for autoscreenshot</span></div>
+<div class="line"><a name="l01470"></a><span class="lineno"> 1470</span>&#160;        <a class="code" href="../../d8/d06/client_2resources_8qc.html#a23a90e7288eaba490cdcc7941274f254">SetResourceAmountExplicit</a>(e, <a class="code" href="../../d5/dff/ent__cs_8qc.html#a8394e59edbb08b1e4fb28fb7ea60d1cc">RESOURCE_HEALTH</a>, -2342);</div>
+<div class="line"><a name="l01471"></a><span class="lineno"> 1471</span>&#160;        <span class="comment">// first intermission phase; voting phase has positive health (used to decide whether to send SVC_FINALE or not)</span></div>
+<div class="line"><a name="l01472"></a><span class="lineno"> 1472</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> slot = 0; slot &lt; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b">MAX_WEAPONSLOTS</a>; ++slot)</div>
+<div class="line"><a name="l01473"></a><span class="lineno"> 1473</span>&#160;        {</div>
+<div class="line"><a name="l01474"></a><span class="lineno"> 1474</span>&#160;            .entity weaponentity = <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[slot];</div>
+<div class="line"><a name="l01475"></a><span class="lineno"> 1475</span>&#160;            <span class="keywordflow">if</span>(e.(weaponentity))</div>
+<div class="line"><a name="l01476"></a><span class="lineno"> 1476</span>&#160;            {</div>
+<div class="line"><a name="l01477"></a><span class="lineno"> 1477</span>&#160;                e.(weaponentity).<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad2b893560aa07db2329d6531c0966e79">EF_NODRAW</a>;</div>
+<div class="line"><a name="l01478"></a><span class="lineno"> 1478</span>&#160;                <span class="keywordflow">if</span> (e.(weaponentity).weaponchild)</div>
+<div class="line"><a name="l01479"></a><span class="lineno"> 1479</span>&#160;                    e.(weaponentity).weaponchild.effects = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad2b893560aa07db2329d6531c0966e79">EF_NODRAW</a>;</div>
+<div class="line"><a name="l01480"></a><span class="lineno"> 1480</span>&#160;            }</div>
+<div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;        }</div>
+<div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(e))</div>
+<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;        {</div>
+<div class="line"><a name="l01484"></a><span class="lineno"> 1484</span>&#160;            <a class="code" href="../../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c">stuffcmd</a>(e, <span class="stringliteral">&quot;\nscr_printspeed 1000000\n&quot;</span>);</div>
+<div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;            <a class="code" href="../../dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf">RandomSelection_Init</a>();</div>
+<div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;            <a class="code" href="../../d4/d18/iter_8qh.html#a632ecf2fc79f8dc7dce33e3de72a6d6e">FOREACH_WORD</a>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a1537d360fec4d889582b7ca0ec4852f6">autocvar_sv_intermission_cdtrack</a>, <span class="keyword">true</span>, {</div>
+<div class="line"><a name="l01487"></a><span class="lineno"> 1487</span>&#160;                <a class="code" href="../../db/d55/random_8qh.html#aeff0dbe25ce4ec35e40ff63cfc6156c6">RandomSelection_AddString</a>(it, 1, 1);</div>
+<div class="line"><a name="l01488"></a><span class="lineno"> 1488</span>&#160;            });</div>
+<div class="line"><a name="l01489"></a><span class="lineno"> 1489</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36">RandomSelection_chosen_string</a> != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l01490"></a><span class="lineno"> 1490</span>&#160;            {</div>
+<div class="line"><a name="l01491"></a><span class="lineno"> 1491</span>&#160;                <a class="code" href="../../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c">stuffcmd</a>(e, sprintf(<span class="stringliteral">&quot;\ncd loop %s\n&quot;</span>, <a class="code" href="../../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36">RandomSelection_chosen_string</a>));</div>
+<div class="line"><a name="l01492"></a><span class="lineno"> 1492</span>&#160;            }</div>
+<div class="line"><a name="l01493"></a><span class="lineno"> 1493</span>&#160;            <a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a> = e;</div>
+<div class="line"><a name="l01494"></a><span class="lineno"> 1494</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a515dcba5aed2fe4e93e7afce1bc62ace">SVC_INTERMISSION</a>);</div>
+<div class="line"><a name="l01495"></a><span class="lineno"> 1495</span>&#160;        }</div>
+<div class="line"><a name="l01496"></a><span class="lineno"> 1496</span>&#160;    }</div>
+<div class="line"><a name="l01497"></a><span class="lineno"> 1497</span>&#160;}</div>
 <div class="ttc" id="csqc__constants_8qh_html_ad2b893560aa07db2329d6531c0966e79"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ad2b893560aa07db2329d6531c0966e79">EF_NODRAW</a></div><div class="ttdeci">const int EF_NODRAW</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00061">csqc_constants.qh:61</a></div></div>
 <div class="ttc" id="random_8qh_html_a51879a4a245c602a28721b5596846f36"><div class="ttname"><a href="../../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36">RandomSelection_chosen_string</a></div><div class="ttdeci">string RandomSelection_chosen_string</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d55/random_8qh_source.html#l00007">random.qh:7</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abd23315350cd01304b6bd77c4c5c07e6"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a></div><div class="ttdeci">void WriteByte(float data, float dest, float desto)</div></div>
@@ -3048,7 +3048,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00136">136</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01194">DoNextMapOverride()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01925">GotoMap()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01255">GotoNextMap()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00420">MapVote_Finished()</a>, and <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00636">MapVote_Think()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01195">DoNextMapOverride()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01926">GotoMap()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01256">GotoNextMap()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00420">MapVote_Finished()</a>, and <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00636">MapVote_Think()</a>.</p>
 
 </div>
 </div>
@@ -3196,7 +3196,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00197">197</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01321">havocbot_goalrating_ons_controlpoints_attack()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00581">spawnfunc()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01244">waypoint_spawnforitem()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01321">havocbot_goalrating_ons_controlpoints_attack()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00582">spawnfunc()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01244">waypoint_spawnforitem()</a>.</p>
 
 </div>
 </div>
@@ -3362,7 +3362,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00024">24</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00572">bot_fixcount()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00360">bot_relinkplayerlist()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00666">bot_serverframe()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00051">bot_spawn()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01194">DoNextMapOverride()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00950">MapHasRightSize()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00572">bot_fixcount()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00360">bot_relinkplayerlist()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00666">bot_serverframe()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00051">bot_spawn()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01195">DoNextMapOverride()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00951">MapHasRightSize()</a>.</p>
 
 </div>
 </div>
@@ -4306,7 +4306,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00408">408</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00138">antilag_restore_all()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00125">antilag_takeback_all()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00325">CommonCommand_editmob()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l02016">EndFrame()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01318">Monster_Spawn()</a>, and <a class="el" href="../../de/dbb/sv__spawner_8qc_source.html#l00004">spawner_use()</a>.</p>
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00138">antilag_restore_all()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00125">antilag_takeback_all()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00325">CommonCommand_editmob()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l02017">EndFrame()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01318">Monster_Spawn()</a>, and <a class="el" href="../../de/dbb/sv__spawner_8qc_source.html#l00004">spawner_use()</a>.</p>
 
 </div>
 </div>
@@ -4354,7 +4354,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00413">413</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00138">antilag_restore_all()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00125">antilag_takeback_all()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l02016">EndFrame()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00361">FireGrapplingHook()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00173">StartFrame()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00248">vehicles_projectile()</a>, and <a class="el" href="../../de/d4e/sv__weapon_8qc_source.html#l00144">W_Nexball_Attack2()</a>.</p>
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00138">antilag_restore_all()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00125">antilag_takeback_all()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l02017">EndFrame()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00361">FireGrapplingHook()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00173">StartFrame()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00248">vehicles_projectile()</a>, and <a class="el" href="../../de/d4e/sv__weapon_8qc_source.html#l00144">W_Nexball_Attack2()</a>.</p>
 
 </div>
 </div>
@@ -4402,7 +4402,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00417">417</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01165">MoveToRandomLocationWithinBounds()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00530">spawnfunc()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01165">MoveToRandomLocationWithinBounds()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00531">spawnfunc()</a>.</p>
 
 </div>
 </div>
@@ -4496,7 +4496,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00145">145</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01784">CheckRules_World()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01639">WinningCondition_Scores()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01785">CheckRules_World()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01640">WinningCondition_Scores()</a>.</p>
 
 </div>
 </div>
@@ -4558,7 +4558,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00221">221</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d39/sv__rules_8qc_source.html#l00020">GameRules_spawning_teams()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00071">relocate_spawnpoint()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00330">SelectSpawnPoint()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00060">spawnpoint_use()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00322">SV_OnEntityPreSpawnFunction()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01710">WinningCondition_RanOutOfSpawns()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d39/sv__rules_8qc_source.html#l00020">GameRules_spawning_teams()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00071">relocate_spawnpoint()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00330">SelectSpawnPoint()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00060">spawnpoint_use()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00322">SV_OnEntityPreSpawnFunction()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01711">WinningCondition_RanOutOfSpawns()</a>.</p>
 
 </div>
 </div>
@@ -4634,7 +4634,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00135">135</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01281">IntermissionThink()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01502">NextLevel()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01282">IntermissionThink()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01503">NextLevel()</a>.</p>
 
 </div>
 </div>
@@ -4650,7 +4650,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00134">134</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00666">bot_serverframe()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01784">CheckRules_World()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00143">ClientCommand_mv_getpicture()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00482">ClientCommand_spectate()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01502">NextLevel()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00455">playername()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02196">PlayerThink()</a>, and <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00009">round_handler_Think()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00666">bot_serverframe()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01785">CheckRules_World()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00143">ClientCommand_mv_getpicture()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00482">ClientCommand_spectate()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01503">NextLevel()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00455">playername()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02196">PlayerThink()</a>, and <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00009">round_handler_Think()</a>.</p>
 
 </div>
 </div>
@@ -4738,7 +4738,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00147">147</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00774">CommonCommand_who()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01362">DumpStats()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02183">joinAllowed()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00774">CommonCommand_who()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01363">DumpStats()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02183">joinAllowed()</a>.</p>
 
 </div>
 </div>
@@ -4848,7 +4848,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00304">304</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00581">spawnfunc()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00080">W_HitPlotOpen()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00582">spawnfunc()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00080">W_HitPlotOpen()</a>.</p>
 
 </div>
 </div>
@@ -5122,7 +5122,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00381">381</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00581">spawnfunc()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00410">WinningConditionHelper()</a>, <a class="el" href="../../dc/db5/dialog__multiplayer__join__serverinfo_8qc_source.html#l00010">XonoticServerInfoDialog_loadServerInfo()</a>, and <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00793">XonoticServerList_drawListBoxItem()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00582">spawnfunc()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00410">WinningConditionHelper()</a>, <a class="el" href="../../dc/db5/dialog__multiplayer__join__serverinfo_8qc_source.html#l00010">XonoticServerInfoDialog_loadServerInfo()</a>, and <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00793">XonoticServerList_drawListBoxItem()</a>.</p>
 
 </div>
 </div>
@@ -5168,7 +5168,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00243">243</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00581">spawnfunc()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00582">spawnfunc()</a>.</p>
 
 </div>
 </div>
@@ -5462,7 +5462,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00023">23</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00360">bot_relinkplayerlist()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01784">CheckRules_World()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01179">ClientConnect()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01194">DoNextMapOverride()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00950">MapHasRightSize()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00636">MapVote_Think()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01502">NextLevel()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00581">spawnfunc()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00360">bot_relinkplayerlist()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01785">CheckRules_World()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01179">ClientConnect()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01195">DoNextMapOverride()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00951">MapHasRightSize()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00636">MapVote_Think()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01503">NextLevel()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00582">spawnfunc()</a>.</p>
 
 </div>
 </div>
@@ -5810,7 +5810,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00033">33</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d79/notifications_2all_8qc_source.html#l00489">Create_Notification_Entity_InfoCenter()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00071">dedicated_print()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00581">spawnfunc()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00173">StartFrame()</a>, and <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00155">SV_PausedTic()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d79/notifications_2all_8qc_source.html#l00489">Create_Notification_Entity_InfoCenter()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00071">dedicated_print()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00582">spawnfunc()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00173">StartFrame()</a>, and <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00155">SV_PausedTic()</a>.</p>
 
 </div>
 </div>
@@ -5856,7 +5856,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00215">215</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00472">GameCommand_database()</a>, <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00068">getladder()</a>, <a class="el" href="../../df/d4a/server_2race_8qc_source.html#l00350">race_deleteTime()</a>, <a class="el" href="../../df/d4a/server_2race_8qc_source.html#l00097">race_readName()</a>, <a class="el" href="../../df/d4a/server_2race_8qc_source.html#l00034">race_readTime()</a>, <a class="el" href="../../df/d4a/server_2race_8qc_source.html#l00041">race_readUID()</a>, <a class="el" href="../../df/d4a/server_2race_8qc_source.html#l00060">race_writeTime()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l02105">RestoreGame()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l02122">Shutdown()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00581">spawnfunc()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01144">uid2name()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00472">GameCommand_database()</a>, <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00068">getladder()</a>, <a class="el" href="../../df/d4a/server_2race_8qc_source.html#l00350">race_deleteTime()</a>, <a class="el" href="../../df/d4a/server_2race_8qc_source.html#l00097">race_readName()</a>, <a class="el" href="../../df/d4a/server_2race_8qc_source.html#l00034">race_readTime()</a>, <a class="el" href="../../df/d4a/server_2race_8qc_source.html#l00041">race_readUID()</a>, <a class="el" href="../../df/d4a/server_2race_8qc_source.html#l00060">race_writeTime()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l02106">RestoreGame()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l02123">Shutdown()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00582">spawnfunc()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01144">uid2name()</a>.</p>
 
 </div>
 </div>
@@ -5888,7 +5888,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00220">220</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00330">SelectSpawnPoint()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00060">spawnpoint_use()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01710">WinningCondition_RanOutOfSpawns()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00330">SelectSpawnPoint()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00060">spawnpoint_use()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01711">WinningCondition_RanOutOfSpawns()</a>.</p>
 
 </div>
 </div>
@@ -6186,7 +6186,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00030">30</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00647">IsTeamEqualToTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00541">IsTeamSmallerThanTeam()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01710">WinningCondition_RanOutOfSpawns()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01639">WinningCondition_Scores()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00647">IsTeamEqualToTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00541">IsTeamSmallerThanTeam()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01711">WinningCondition_RanOutOfSpawns()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01640">WinningCondition_Scores()</a>.</p>
 
 </div>
 </div>
@@ -6202,7 +6202,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00030">30</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00647">IsTeamEqualToTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00541">IsTeamSmallerThanTeam()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01710">WinningCondition_RanOutOfSpawns()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01639">WinningCondition_Scores()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00647">IsTeamEqualToTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00541">IsTeamSmallerThanTeam()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01711">WinningCondition_RanOutOfSpawns()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01640">WinningCondition_Scores()</a>.</p>
 
 </div>
 </div>
@@ -6218,7 +6218,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00030">30</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00647">IsTeamEqualToTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00541">IsTeamSmallerThanTeam()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01710">WinningCondition_RanOutOfSpawns()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01639">WinningCondition_Scores()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00647">IsTeamEqualToTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00541">IsTeamSmallerThanTeam()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01711">WinningCondition_RanOutOfSpawns()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01640">WinningCondition_Scores()</a>.</p>
 
 </div>
 </div>
@@ -6234,7 +6234,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00030">30</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00647">IsTeamEqualToTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00541">IsTeamSmallerThanTeam()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01710">WinningCondition_RanOutOfSpawns()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01639">WinningCondition_Scores()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00647">IsTeamEqualToTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00541">IsTeamSmallerThanTeam()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01711">WinningCondition_RanOutOfSpawns()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01640">WinningCondition_Scores()</a>.</p>
 
 </div>
 </div>
@@ -6298,7 +6298,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00216">216</a> of file <a class="el" href="../../d5/d26/server_2defs_8qh_source.html">defs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00068">getladder()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l02122">Shutdown()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00581">spawnfunc()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00068">getladder()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l02123">Shutdown()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00582">spawnfunc()</a>.</p>
 
 </div>
 </div>
@@ -6518,7 +6518,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/d26/server_2defs_8qh.html">defs.qh</a></li>
-    <li class="footer">Generated on Tue Jun 19 2018 05:40:42 for Xonotic by
+    <li class="footer">Generated on Tue Jun 19 2018 06:50:27 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
