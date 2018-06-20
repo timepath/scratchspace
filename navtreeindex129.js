@@ -1,5 +1,10 @@
 var NAVTREEINDEX129 =
 {
+"df/d6e/classXonoticSingleplayerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,247,84],
+"df/d6e/classXonoticSingleplayerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,247,11],
+"df/d6e/common_2mutators_2__mod_8inc.html":[2,0,1,10,1],
+"df/d6e/common_2mutators_2__mod_8inc_source.html":[2,0,1,10,1],
+"df/d6e/globalsound_8qh.html":[2,0,1,2,0,9],
 "df/d6e/globalsound_8qh.html#a0115b049d32f08dfe7bb44d74939ac58":[2,0,1,2,0,9,12],
 "df/d6e/globalsound_8qh.html#a0f76411e16fb1a91bf97121690907cd7":[2,0,1,2,0,9,7],
 "df/d6e/globalsound_8qh.html#a174e24bd7d11e99d648c9333e3fb4adb":[2,0,1,2,0,9,26],
@@ -155,9 +160,9 @@ var NAVTREEINDEX129 =
 "df/d8c/cl__cmd_8qc.html#ac6ad4f76e1fab870cd7b34e038a0a6c0":[2,0,0,0,2,14],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,2,20],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,2,26],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,2,23],
 "df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7":[2,0,0,0,2,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX129 =
 "df/d92/classXonoticWinnerDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,264,0],
 "df/d92/classXonoticWinnerDialog.html#ac7925ad29fbe0a79a954add7ad560dd6":[1,0,264,58],
 "df/d92/classXonoticWinnerDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,264,31],
-"df/d92/classXonoticWinnerDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,264,36],
-"df/d92/classXonoticWinnerDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,264,56],
-"df/d92/classXonoticWinnerDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,264,33],
-"df/d92/classXonoticWinnerDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,264,82],
-"df/d92/classXonoticWinnerDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,264,49],
-"df/d92/classXonoticWinnerDialog.html#ad0e2dd605dede88871a086b25be14420":[1,0,264,57]
+"df/d92/classXonoticWinnerDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,264,36]
 };

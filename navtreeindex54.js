@@ -1,5 +1,9 @@
 var NAVTREEINDEX54 =
 {
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,176,42],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,176,9],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,176,3],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,176,76],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,176,83],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,176,80],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,176,50],
@@ -245,9 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d93/animhost_8qh.html":[2,0,5,0,5],
 "d6/d93/animhost_8qh_source.html":[2,0,5,0,5],
 "d6/d95/common_2mutators_2mutator_2offhand__blaster_2__mod_8qh.html":[2,0,1,10,0,22,1],
-"d6/d95/common_2mutators_2mutator_2offhand__blaster_2__mod_8qh_source.html":[2,0,1,10,0,22,1],
-"d6/d95/ipban_8qc.html":[2,0,6,31],
-"d6/d95/ipban_8qc.html#a04090e689e3bf01db8617ce67872c1c6":[2,0,6,31,14],
-"d6/d95/ipban_8qc.html#a05777902da0fd5ebdff5d4b6703a0a17":[2,0,6,31,5],
-"d6/d95/ipban_8qc.html#a070df4ab303d353bd83f5bfa4c2e99df":[2,0,6,31,20]
+"d6/d95/common_2mutators_2mutator_2offhand__blaster_2__mod_8qh_source.html":[2,0,1,10,0,22,1]
 };

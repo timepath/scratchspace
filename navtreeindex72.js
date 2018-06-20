@@ -1,5 +1,9 @@
 var NAVTREEINDEX72 =
 {
+"d8/d29/playlist_8qc_source.html":[2,0,5,4,190],
+"d8/d34/door__rotating_8qc.html":[2,0,1,6,0,12],
+"d8/d34/door__rotating_8qc_source.html":[2,0,1,6,0,12],
+"d8/d35/classXonoticHUDChatDialog.html":[1,0,186],
 "d8/d35/classXonoticHUDChatDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,186,30],
 "d8/d35/classXonoticHUDChatDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,186,11],
 "d8/d35/classXonoticHUDChatDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,186,38],
@@ -245,9 +249,5 @@ var NAVTREEINDEX72 =
 "d8/d4f/net__notice_8qc.html":[2,0,1,37],
 "d8/d4f/net__notice_8qc_source.html":[2,0,1,37],
 "d8/d52/server_2pathlib_2__mod_8inc.html":[2,0,6,4,0],
-"d8/d52/server_2pathlib_2__mod_8inc_source.html":[2,0,6,4,0],
-"d8/d56/modeleffects_8qh.html":[2,0,1,2,0,13],
-"d8/d56/modeleffects_8qh_source.html":[2,0,1,2,0,13],
-"d8/d57/sv__random__gravity_8qh.html":[2,0,1,10,0,26,3],
-"d8/d57/sv__random__gravity_8qh_source.html":[2,0,1,10,0,26,3]
+"d8/d52/server_2pathlib_2__mod_8inc_source.html":[2,0,6,4,0]
 };

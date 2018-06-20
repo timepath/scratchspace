@@ -4,6 +4,8 @@ var server_2resources_8qc =
     [ "GetResourceField", "d4/d91/server_2resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf", null ],
     [ "GetResourceLimit", "d4/d91/server_2resources_8qc.html#af36a97298b550267aad36794d0f66c0f", null ],
     [ "GetResourceType", "d4/d91/server_2resources_8qc.html#a46ef4f78ef7d5b3ef361c118c2999172", null ],
+    [ "GiveOrTakeResource", "d4/d91/server_2resources_8qc.html#a9528f8b15897b26b733ab07875a2a8dc", null ],
+    [ "GiveOrTakeResourceWithLimit", "d4/d91/server_2resources_8qc.html#a63171b3ae80d3457279fc0fe2f280b8f", null ],
     [ "GiveResource", "d4/d91/server_2resources_8qc.html#a88f207f357349ddd4d1f32b85d0c3f57", null ],
     [ "GiveResourceWithLimit", "d4/d91/server_2resources_8qc.html#a1b1ff2e419436cd7236668176c97c9ac", null ],
     [ "SetResourceAmount", "d4/d91/server_2resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d", null ],
