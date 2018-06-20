@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"d5/df9/menu__cmd_8qh.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,5,1,3,0],
+"d5/df9/menu__cmd_8qh_source.html":[2,0,5,1,3],
 "d5/dfa/common_2weapons_2weapon_2__mod_8inc.html":[2,0,1,16,0,0],
 "d5/dfa/common_2weapons_2weapon_2__mod_8inc_source.html":[2,0,1,16,0,0],
 "d5/dfa/timer_8qc.html":[2,0,0,1,0,36],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "d6/d11/progsdefs_8qc.html#aa0a1fe9bfae9550e7acbd5682da9b635":[2,0,2,0,4,15],
 "d6/d11/progsdefs_8qc.html#aa166bc30f4723216b1460efee929b786":[2,0,2,0,4,244],
 "d6/d11/progsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6":[2,0,2,0,4,41],
-"d6/d11/progsdefs_8qc.html#aa3bcc10a638812404eb05380a58db9fa":[2,0,2,0,4,148],
-"d6/d11/progsdefs_8qc.html#aa50ff217bd58c781dc9890fa59c529ca":[2,0,2,0,4,99],
-"d6/d11/progsdefs_8qc.html#aa570764877a56b885e2ba8425389b347":[2,0,2,0,4,26]
+"d6/d11/progsdefs_8qc.html#aa3bcc10a638812404eb05380a58db9fa":[2,0,2,0,4,148]
 };

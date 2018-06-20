@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"d2/dcb/classXonoticPicmipSlider.html#af9fddf9420dfbf92a4fb716acfaa260c":[1,0,224,56],
+"d2/dcb/classXonoticPicmipSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,224,85],
 "d2/dcb/classXonoticPicmipSlider.html#afc9428d371ed63dd0316db5558e81d30":[1,0,224,87],
 "d2/dcb/classXonoticPicmipSlider.html#afdcf1fb79903f747cda494b27206526b":[1,0,224,8],
 "d2/dcc/classMutator.html":[1,0,84],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "d2/de9/havocbot_8qc.html#a6907660d101acdfc13c217f1e8b8b062":[2,0,6,0,0,0,2,6],
 "d2/de9/havocbot_8qc.html#a6942c73e794b5ae39ea6211ae7f22d0f":[2,0,6,0,0,0,2,10],
 "d2/de9/havocbot_8qc.html#a7f7e4724cf57d59513b39c5ecc81adc8":[2,0,6,0,0,0,2,17],
-"d2/de9/havocbot_8qc.html#a8ed5fd4e5d6f286c17a895c7d269c607":[2,0,6,0,0,0,2,8],
-"d2/de9/havocbot_8qc.html#aafb530d767cc0dfb9cc3ce3c1cea4f0e":[2,0,6,0,0,0,2,9],
-"d2/de9/havocbot_8qc.html#ab0324a13bb61651c4ea52327da7bd4b4":[2,0,6,0,0,0,2,0]
+"d2/de9/havocbot_8qc.html#a8ed5fd4e5d6f286c17a895c7d269c607":[2,0,6,0,0,0,2,8]
 };

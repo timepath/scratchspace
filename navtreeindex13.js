@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"d1/d9a/navigation_8qc.html#af6010fb90061dda5f6b7b7fe8e172489":[2,0,6,0,0,9,9],
+"d1/d9a/navigation_8qc_source.html":[2,0,6,0,0,9],
 "d1/d9f/dialog__multiplayer_8qc.html":[2,0,5,4,86],
 "d1/d9f/dialog__multiplayer_8qc.html#af83637108621204488c5ae95da509066":[2,0,5,4,86,0],
 "d1/d9f/dialog__multiplayer_8qc_source.html":[2,0,5,4,86],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "d1/dbb/server_2items_8qh.html#a447cadc74ccb697013c256e5bb45f75b":[2,0,6,36,7],
 "d1/dbb/server_2items_8qh.html#a74c05dd595595612bcb3f2b9450e7591":[2,0,6,36,8],
 "d1/dbb/server_2items_8qh.html#a88f34c0b048ed43a25139649a01d6d98":[2,0,6,36,6],
-"d1/dbb/server_2items_8qh.html#a89f5174a26e743b85637afa34f5a6f81":[2,0,6,36,4],
-"d1/dbb/server_2items_8qh.html#a95b5587513272c12b9d401ba026d7550":[2,0,6,36,10],
-"d1/dbb/server_2items_8qh.html#ab5451d104f3ede269c50d8605c168341":[2,0,6,36,12]
+"d1/dbb/server_2items_8qh.html#a89f5174a26e743b85637afa34f5a6f81":[2,0,6,36,4]
 };

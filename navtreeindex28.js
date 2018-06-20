@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"d3/d86/classXonoticMapList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,214,42],
+"d3/d86/classXonoticMapList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,214,92],
 "d3/d86/classXonoticMapList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,214,47],
 "d3/d86/classXonoticMapList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,214,22],
 "d3/d86/classXonoticMapList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,214,74],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "d3/dba/classXonoticLanguageList.html#a11a8209afcff1a9a74262609d1b92646":[1,0,210,70],
 "d3/dba/classXonoticLanguageList.html#a151e0ec9dca93787cd82446a1b2e5ffa":[1,0,210,52],
 "d3/dba/classXonoticLanguageList.html#a15e8b1c846e84fb49a0df3fb9e4e5558":[1,0,210,23],
-"d3/dba/classXonoticLanguageList.html#a178286fa4abcb8667ec71e65b102a198":[1,0,210,5],
-"d3/dba/classXonoticLanguageList.html#a18456fc3d44b3528c7595c73f42a8acc":[1,0,210,64],
-"d3/dba/classXonoticLanguageList.html#a2188ecd49040da1f5cb826f6dd52e8c3":[1,0,210,30]
+"d3/dba/classXonoticLanguageList.html#a178286fa4abcb8667ec71e65b102a198":[1,0,210,5]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"d2/d63/casings_8qc.html":[2,0,1,2,0,2],
+"d2/d63/casings_8qc_source.html":[2,0,1,2,0,2],
 "d2/d64/dialog__settings__game__messages_8qc.html":[2,0,5,4,132],
 "d2/d64/dialog__settings__game__messages_8qc.html#a06a0a03bab3b31fc5354446fdb1df3bb":[2,0,5,4,132,1],
 "d2/d64/dialog__settings__game__messages_8qc.html#a56f858039cd189ac5d33cda3f01a4667":[2,0,5,4,132,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d94/xonotic_2tab_8qc_source.html":[2,0,5,4,222],
 "d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc.html":[2,0,1,10,0,11,0],
 "d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc_source.html":[2,0,1,10,0,11,0],
-"d2/d9b/common_2effects_2qc_2__mod_8qh.html":[2,0,1,2,0,1],
-"d2/d9b/common_2effects_2qc_2__mod_8qh_source.html":[2,0,1,2,0,1],
-"d2/d9b/jumppads_8qc.html":[2,0,1,6,3,20]
+"d2/d9b/common_2effects_2qc_2__mod_8qh.html":[2,0,1,2,0,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX115 =
 {
+"dd/d8b/sys-pre_8qh.html#a52ed0b31f77a5a94a19dedd278f0803f":[2,0,6,65,20],
+"dd/d8b/sys-pre_8qh.html#a6ba166b0f324250745d0897a482d08bb":[2,0,6,65,25],
 "dd/d8b/sys-pre_8qh.html#a73fc96708dae2a67ab1d2487dd5fcd64":[2,0,6,65,16],
 "dd/d8b/sys-pre_8qh.html#a793b702c48d2708acddc7d6104ca795d":[2,0,6,65,11],
 "dd/d8b/sys-pre_8qh.html#a84c9ab8381deb6a38b55341281f0e6ce":[2,0,6,65,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX115 =
 "dd/d9a/classXonoticSandboxToolsDialog.html#af1aab403dc54575707fd57991312b201":[1,0,235,45],
 "dd/d9a/classXonoticSandboxToolsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,235,25],
 "dd/d9a/classXonoticSandboxToolsDialog.html#af792c32c472bf21943cf8bd55ff6faa7":[1,0,235,58],
-"dd/d9a/classXonoticSandboxToolsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,235,15],
-"dd/d9a/classXonoticSandboxToolsDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,235,37],
-"dd/d9a/classXonoticSandboxToolsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,235,2]
+"dd/d9a/classXonoticSandboxToolsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,235,15]
 };

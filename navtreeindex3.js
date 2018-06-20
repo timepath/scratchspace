@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"d0/d72/lib_2warpzone_2client_8qc.html":[2,0,4,2,4],
+"d0/d72/lib_2warpzone_2client_8qc.html#a18508bf93d97584800184066cf8e520a":[2,0,4,2,4,11],
 "d0/d72/lib_2warpzone_2client_8qc.html#a274e545688e9b9fd16d9ecef34d7a074":[2,0,4,2,4,13],
 "d0/d72/lib_2warpzone_2client_8qc.html#a295339443c4957cce0bd0fe831cf64c8":[2,0,4,2,4,3],
 "d0/d72/lib_2warpzone_2client_8qc.html#a3ffef105e69ca5cd4e07ffeae58d80e8":[2,0,4,2,4,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "d0/d8d/dialog__settings__misc__reset_8qc.html":[2,0,5,4,148],
 "d0/d8d/dialog__settings__misc__reset_8qc.html#aa097f16ad431b5b0da34a4454c36e031":[2,0,5,4,148,0],
 "d0/d8d/dialog__settings__misc__reset_8qc_source.html":[2,0,5,4,148],
-"d0/d91/handicap_8qh.html":[2,0,6,28],
-"d0/d91/handicap_8qh.html#a252940bd48dd3ccfad23adddf28e02ae":[2,0,6,28,3],
-"d0/d91/handicap_8qh.html#a41b02148f09797e441feda396ad8c4fc":[2,0,6,28,0]
+"d0/d91/handicap_8qh.html":[2,0,6,28]
 };

@@ -21,8 +21,10 @@ var NAVTREEINDEX2 =
 "d0/d41/spawnpoints_8qc.html#a73614c4d1cf94f6f38d40c927a797fb4":[2,0,6,58,10],
 "d0/d41/spawnpoints_8qc.html#a8347ef016b1d7298855b9447af157844":[2,0,6,58,11],
 "d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698":[2,0,6,58,4],
+"d0/d41/spawnpoints_8qc.html#a9fbf3b118f1bba5784862c6ad385c892":[2,0,6,58,18],
 "d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625":[2,0,6,58,5],
 "d0/d41/spawnpoints_8qc.html#abb661914e057e88f5191457801e406ab":[2,0,6,58,0],
+"d0/d41/spawnpoints_8qc.html#ac48bff0f799d58855d9ac7db1bef357a":[2,0,6,58,19],
 "d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901":[2,0,6,58,2],
 "d0/d41/spawnpoints_8qc.html#acfbd90447ab6c8bb55634c7936e20ece":[2,0,6,58,17],
 "d0/d41/spawnpoints_8qc.html#adb306ba6ed0866d22bb8f9318d8c4488":[2,0,6,58,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "d0/d6e/impulses_2all_8qh.html#afd231f63eb3804e5b7ee7d12d186d620":[2,0,1,4,3,3],
 "d0/d6e/impulses_2all_8qh_source.html":[2,0,1,4,3],
 "d0/d70/server_2weapons_2__mod_8inc.html":[2,0,6,5,0],
-"d0/d70/server_2weapons_2__mod_8inc_source.html":[2,0,6,5,0],
-"d0/d72/lib_2warpzone_2client_8qc.html":[2,0,4,2,4],
-"d0/d72/lib_2warpzone_2client_8qc.html#a18508bf93d97584800184066cf8e520a":[2,0,4,2,4,11]
+"d0/d70/server_2weapons_2__mod_8inc_source.html":[2,0,6,5,0]
 };
