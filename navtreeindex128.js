@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"df/d44/dialog__settings__video_8qh_source.html":[2,0,5,4,155],
 "df/d49/classSound.html":[1,0,126],
 "df/d49/classSound.html#a0b93830d7c6ceb2d2787197ebad366fd":[1,0,126,2],
 "df/d49/classSound.html#a2d1ec80135b30ebeaf6b83fbc866245f":[1,0,126,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "df/d6e/classXonoticSingleplayerDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,247,16],
 "df/d6e/classXonoticSingleplayerDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,247,38],
 "df/d6e/classXonoticSingleplayerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,247,2],
-"df/d6e/classXonoticSingleplayerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,247,36],
-"df/d6e/classXonoticSingleplayerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,247,40]
+"df/d6e/classXonoticSingleplayerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,247,36]
 };

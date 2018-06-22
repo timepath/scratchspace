@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"da/d94/classXonoticSettingsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,246,59],
 "da/d94/classXonoticSettingsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,246,28],
 "da/d94/classXonoticSettingsDialog.html#a35febc4699b486ec00bb66071ba3892c":[1,0,246,84],
 "da/d94/classXonoticSettingsDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,246,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "da/da6/shockwave_8qh_source.html":[2,0,1,16,0,33],
 "da/da9/classSpiderAttack.html":[1,0,129],
 "da/da9/classSpiderAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,129,36],
-"da/da9/classSpiderAttack.html#a066947bb269fd604de64212bba222ef2":[1,0,129,31],
-"da/da9/classSpiderAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,129,20]
+"da/da9/classSpiderAttack.html#a066947bb269fd604de64212bba222ef2":[1,0,129,31]
 };

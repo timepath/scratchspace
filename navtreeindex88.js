@@ -1,5 +1,6 @@
 var NAVTREEINDEX88 =
 {
+"da/d2a/classXonoticDecibelsSlider.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,168,1],
 "da/d2a/classXonoticDecibelsSlider.html#ac6094922668d013ada3893854eec6b0f":[1,0,168,16],
 "da/d2a/classXonoticDecibelsSlider.html#ac9ab5df94b55a1b947c9069e4d3a86ad":[1,0,168,41],
 "da/d2a/classXonoticDecibelsSlider.html#acd339ed42a2f51ac07364931d53de5a1":[1,0,168,74],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "da/d60/json_8qh_source.html":[2,0,4,27],
 "da/d68/accuracy_8qc.html":[2,0,6,5,2],
 "da/d68/accuracy_8qc.html#a082ad02679d6c3f6814e4b69b91d64c8":[2,0,6,5,2,7],
-"da/d68/accuracy_8qc.html#a09c590a107c1d139fd8fc8cd57544da9":[2,0,6,5,2,8],
-"da/d68/accuracy_8qc.html#a5e7ead8d3ab4cd12e97b4af2e670444a":[2,0,6,5,2,3]
+"da/d68/accuracy_8qc.html#a09c590a107c1d139fd8fc8cd57544da9":[2,0,6,5,2,8]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"d4/df7/common_2mutators_2mutator_2cloaked_2__mod_8qh.html":[2,0,1,10,0,5,1],
 "d4/df7/common_2mutators_2mutator_2cloaked_2__mod_8qh_source.html":[2,0,1,10,0,5,1],
 "d4/df8/classXonoticHUDRadarDialog.html":[1,0,200],
 "d4/df8/classXonoticHUDRadarDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,200,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "d5/d26/server_2defs_8qh.html#a0a919d55d52dbf66dcb1fe03efe8f1a8":[2,0,6,20,99],
 "d5/d26/server_2defs_8qh.html#a0ae1b54e0a7968da8ad5a9cdb72038df":[2,0,6,20,101],
 "d5/d26/server_2defs_8qh.html#a101b6cf59e13f6e8a43e45d2a44f5692":[2,0,6,20,27],
-"d5/d26/server_2defs_8qh.html#a114651a635db56741dc92c082059ffc7":[2,0,6,20,269],
-"d5/d26/server_2defs_8qh.html#a11bce15c86a53867b5bbce09363048b2":[2,0,6,20,154]
+"d5/d26/server_2defs_8qh.html#a114651a635db56741dc92c082059ffc7":[2,0,6,20,269]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"df/d27/classXonoticPicker.html#af9acf6d00c179c136dd3c4c84028cc6e":[1,0,223,7],
 "df/d27/classXonoticPicker.html#afc9428d371ed63dd0316db5558e81d30":[1,0,223,38],
 "df/d27/classXonoticPicker.html#afdcf1fb79903f747cda494b27206526b":[1,0,223,1],
 "df/d27/common_2mutators_2mutator_2__mod_8inc.html":[2,0,1,10,0,41],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "df/d42/vaporizer_8qc.html":[2,0,1,16,0,38],
 "df/d42/vaporizer_8qc_source.html":[2,0,1,16,0,38],
 "df/d44/dialog__settings__video_8qh.html":[2,0,5,4,155],
-"df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,155,1],
-"df/d44/dialog__settings__video_8qh_source.html":[2,0,5,4,155]
+"df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,155,1]
 };
