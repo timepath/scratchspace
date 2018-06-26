@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"d7/dc4/waypoints_8qc.html#aeffebe843059e44cb1df1bf5b6b7403c":[2,0,6,0,0,13,2],
+"d7/dc4/waypoints_8qc.html#af24c589cb11c9c5209960d92d3929aac":[2,0,6,0,0,13,13],
+"d7/dc4/waypoints_8qc.html#af85db2f228ad24c8f013717be024365f":[2,0,6,0,0,13,24],
+"d7/dc4/waypoints_8qc.html#afe185aa6fad31214f669f13f08a37b2e":[2,0,6,0,0,13,5],
 "d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7":[2,0,6,0,0,13,27],
 "d7/dc4/waypoints_8qc.html#affb1afdea03789ee4a2585c6ef4a01d4":[2,0,6,0,0,13,41],
 "d7/dc4/waypoints_8qc_source.html":[2,0,6,0,0,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "d7/de6/classXonoticSkinList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,248,30],
 "d7/de6/classXonoticSkinList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,248,22],
 "d7/de6/classXonoticSkinList.html#afcf2fcc518cc5cca6e472f72bec87733":[1,0,248,75],
-"d7/de6/classXonoticSkinList.html#afdcf1fb79903f747cda494b27206526b":[1,0,248,1],
-"d7/de6/classXonoticWeaponarenaCheckBox.html":[1,0,262],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a01ea34df21e396c890a3dcf6326cb5b3":[1,0,262,61],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,262,75],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a10cf88734594fed24be93889407c0bda":[1,0,262,23]
+"d7/de6/classXonoticSkinList.html#afdcf1fb79903f747cda494b27206526b":[1,0,248,1]
 };
