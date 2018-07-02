@@ -1,12 +1,12 @@
 <map id="UpdateCSQCProjectile" name="UpdateCSQCProjectile">
 <area shape="rect" id="node2" href="$d9/d35/csqcprojectile_8qh.html#a70b20e50e8eacc4a4f59b799ad04b2ea" title="CSQCProjectile_Check" alt="" coords="1472,5,1632,32"/>
 <area shape="rect" id="node4" href="$dd/de4/g__damage_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7" title="Damage" alt="" coords="250,208,321,235"/>
-<area shape="rect" id="node25" href="$d7/de1/g__hook_8qh.html#adf8618e75e4ca34d6ec87bd20ef2657d" title="GrapplingHookThink" alt="" coords="215,267,355,293"/>
-<area shape="rect" id="node29" href="$d2/d9b/jumppads_8qc.html#ae9271783043a000e2b18d8be9543c580" title="jumppad_push" alt="" coords="232,317,339,344"/>
-<area shape="rect" id="node31" href="$df/d35/common_2mapobjects_2trigger_2impulse_8qc.html#abaeb9fd77cd12381a2d04d2e3d1b00a5" title="trigger_impulse_touch\l_accel" alt="" coords="211,369,360,410"/>
-<area shape="rect" id="node32" href="$df/d35/common_2mapobjects_2trigger_2impulse_8qc.html#a393f9b3de1ec85328d26c102158989a6" title="trigger_impulse_touch\l_directional" alt="" coords="211,434,360,475"/>
-<area shape="rect" id="node33" href="$df/d35/common_2mapobjects_2trigger_2impulse_8qc.html#afca3e2db5e59817c0b1882f719fee2f1" title="trigger_impulse_touch\l_radial" alt="" coords="211,499,360,541"/>
-<area shape="rect" id="node34" href="$dc/dc6/server_2miscfunctions_8qc.html#a14781e74a33437af873581ed381d2397" title="WarpZone_Projectile\l_Touch_ImpactFilter\l_Callback" alt="" coords="214,564,357,620"/>
+<area shape="rect" id="node27" href="$d7/de1/g__hook_8qh.html#adf8618e75e4ca34d6ec87bd20ef2657d" title="GrapplingHookThink" alt="" coords="215,267,355,293"/>
+<area shape="rect" id="node31" href="$d2/d9b/jumppads_8qc.html#ae9271783043a000e2b18d8be9543c580" title="jumppad_push" alt="" coords="232,317,339,344"/>
+<area shape="rect" id="node33" href="$df/d35/common_2mapobjects_2trigger_2impulse_8qc.html#abaeb9fd77cd12381a2d04d2e3d1b00a5" title="trigger_impulse_touch\l_accel" alt="" coords="211,369,360,410"/>
+<area shape="rect" id="node34" href="$df/d35/common_2mapobjects_2trigger_2impulse_8qc.html#a393f9b3de1ec85328d26c102158989a6" title="trigger_impulse_touch\l_directional" alt="" coords="211,434,360,475"/>
+<area shape="rect" id="node35" href="$df/d35/common_2mapobjects_2trigger_2impulse_8qc.html#afca3e2db5e59817c0b1882f719fee2f1" title="trigger_impulse_touch\l_radial" alt="" coords="211,499,360,541"/>
+<area shape="rect" id="node36" href="$dc/dc6/server_2miscfunctions_8qc.html#a14781e74a33437af873581ed381d2397" title="WarpZone_Projectile\l_Touch_ImpactFilter\l_Callback" alt="" coords="214,564,357,620"/>
 <area shape="rect" id="node3" href="$d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1" title="StartFrame" alt="" coords="1681,56,1767,83"/>
 <area shape="rect" id="node5" href="$dd/de4/g__damage_8qh.html#abd4b4c82626ed46a05b72420db7257a1" title="Fire_ApplyDamage" alt="" coords="428,132,561,159"/>
 <area shape="rect" id="node14" href="$dd/de4/g__damage_8qh.html#a1f5edb01679024970f2cf5fa92de80ee" title="RadiusDamageForSource" alt="" coords="409,208,581,235"/>
@@ -20,17 +20,19 @@
 <area shape="rect" id="node13" href="$df/dd7/server_2client_8qc.html#aa07f86bdc6b9c9a812296f5c5ff48f95" title="PlayerThink" alt="" coords="848,107,939,133"/>
 <area shape="rect" id="node15" href="$dd/de4/g__damage_8qh.html#a2606d7979cdea514c3d8271956430a8d" title="RadiusDamage" alt="" coords="645,208,757,235"/>
 <area shape="rect" id="node16" href="$d3/dca/cheats_8qh.html#a73c94da2bf38acf3536154e899458024" title="CheatImpulse" alt="" coords="842,157,945,184"/>
-<area shape="rect" id="node19" href="$d4/df8/sv__touchexplode_8qc.html#a8dcb3e7f9e67cb4cd164f35b3aca50eb" title="PlayerTouchExplode" alt="" coords="822,208,965,235"/>
-<area shape="rect" id="node21" href="$da/d10/sv__vehicles_8qc.html#a72196919d56a565921774b27b5788785" title="vehicles_projectile\l_explode" alt="" coords="829,259,958,301"/>
+<area shape="rect" id="node21" href="$d4/df8/sv__touchexplode_8qc.html#a8dcb3e7f9e67cb4cd164f35b3aca50eb" title="PlayerTouchExplode" alt="" coords="822,208,965,235"/>
+<area shape="rect" id="node23" href="$da/d10/sv__vehicles_8qc.html#a72196919d56a565921774b27b5788785" title="vehicles_projectile\l_explode" alt="" coords="829,259,958,301"/>
 <area shape="rect" id="node17" href="$d3/dd1/server_2impulse_8qh.html#a592fd33e424a2e05854957b679c37e1b" title="ImpulseCommands" alt="" coords="1049,157,1183,184"/>
-<area shape="rect" id="node18" href="$df/dd7/server_2client_8qc.html#a35da2ff46a7d16ee6dd935fc1e65a72c" title="PlayerPostThink" alt="" coords="1493,132,1611,159"/>
-<area shape="rect" id="node20" href="$d4/df8/sv__touchexplode_8qc.html#a2cf518db3522b3c9f9a50a64d199656d" title="MUTATOR_HOOKFUNCTION" alt="" coords="1014,208,1218,235"/>
-<area shape="rect" id="node22" href="$da/d10/sv__vehicles_8qc.html#a6e5c573964dc1f64a84660225655a8db" title="vehicles_projectile" alt="" coords="1281,320,1410,347"/>
-<area shape="rect" id="node23" href="$da/d10/sv__vehicles_8qc.html#ab6d5900a2dde193aa46c678c04258373" title="vehicles_projectile\l_explode_think" alt="" coords="1051,310,1181,351"/>
-<area shape="rect" id="node24" href="$da/d10/sv__vehicles_8qc.html#ad8fab4bff1fd3bd8871f5141c39085ad" title="vehicles_projectile\l_explode_use" alt="" coords="1051,375,1181,417"/>
-<area shape="rect" id="node26" href="$d7/de2/g__hook_8qc.html#ae2567f613b4799b5612e9c755231e62f" title="FireGrapplingHook" alt="" coords="828,325,959,352"/>
-<area shape="rect" id="node27" href="$d7/de2/g__hook_8qc.html#a52c0efc43e29a365b4703fc1255502a5" title="GrapplingHook_Stop" alt="" coords="423,317,566,344"/>
-<area shape="rect" id="node28" href="$d7/de2/g__hook_8qc.html#a963fd687df2343a151d97df9af7d8667" title="GrapplingHookTouch" alt="" coords="629,321,773,348"/>
-<area shape="rect" id="node30" href="$d9/de7/jumppads_8qh.html#affeed36a4bfbccc789a223127cd20da4" title="trigger_push_touch" alt="" coords="429,368,561,395"/>
-<area shape="rect" id="node35" href="$d7/d2b/server_8qc.html#a600d8b2d9c69e214ed132fff42b3e9ed" title="WarpZone_Projectile\l_Touch" alt="" coords="423,571,566,613"/>
+<area shape="rect" id="node18" href="$df/dd7/server_2client_8qc.html#a35da2ff46a7d16ee6dd935fc1e65a72c" title="PlayerPostThink" alt="" coords="1493,107,1611,133"/>
+<area shape="rect" id="node19" href="$df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3" title="PutPlayerInServer" alt="" coords="1281,157,1409,184"/>
+<area shape="rect" id="node20" href="$df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951" title="Called when a client spawns in the server. " alt="" coords="1489,157,1615,184"/>
+<area shape="rect" id="node22" href="$d4/df8/sv__touchexplode_8qc.html#a2cf518db3522b3c9f9a50a64d199656d" title="MUTATOR_HOOKFUNCTION" alt="" coords="1014,208,1218,235"/>
+<area shape="rect" id="node24" href="$da/d10/sv__vehicles_8qc.html#a6e5c573964dc1f64a84660225655a8db" title="vehicles_projectile" alt="" coords="1281,320,1410,347"/>
+<area shape="rect" id="node25" href="$da/d10/sv__vehicles_8qc.html#ab6d5900a2dde193aa46c678c04258373" title="vehicles_projectile\l_explode_think" alt="" coords="1051,310,1181,351"/>
+<area shape="rect" id="node26" href="$da/d10/sv__vehicles_8qc.html#ad8fab4bff1fd3bd8871f5141c39085ad" title="vehicles_projectile\l_explode_use" alt="" coords="1051,375,1181,417"/>
+<area shape="rect" id="node28" href="$d7/de2/g__hook_8qc.html#ae2567f613b4799b5612e9c755231e62f" title="FireGrapplingHook" alt="" coords="828,325,959,352"/>
+<area shape="rect" id="node29" href="$d7/de2/g__hook_8qc.html#a52c0efc43e29a365b4703fc1255502a5" title="GrapplingHook_Stop" alt="" coords="423,317,566,344"/>
+<area shape="rect" id="node30" href="$d7/de2/g__hook_8qc.html#a963fd687df2343a151d97df9af7d8667" title="GrapplingHookTouch" alt="" coords="629,321,773,348"/>
+<area shape="rect" id="node32" href="$d9/de7/jumppads_8qh.html#affeed36a4bfbccc789a223127cd20da4" title="trigger_push_touch" alt="" coords="429,368,561,395"/>
+<area shape="rect" id="node37" href="$d7/d2b/server_8qc.html#a600d8b2d9c69e214ed132fff42b3e9ed" title="WarpZone_Projectile\l_Touch" alt="" coords="423,571,566,613"/>
 </map>

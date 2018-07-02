@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 844;
+var viewWidth = 878;
 var viewHeight = 154;
 var sectionId = 'dynsection-10';
 </script>
@@ -72,16 +72,16 @@ var sectionId = 'dynsection-10';
 <path fill="none" stroke="midnightblue" d="M126.076,-84.9979C149.3,-88.1134 174.178,-91.4507 192.914,-93.9641"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="126.276,-81.4935 115.899,-83.6328 125.345,-88.4314 126.276,-81.4935"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d3/dfc/csqcmodel__hooks_8qh.html#a2624228f82a5ae03006d9a33fc1b707c" target="_top" xlink:title="CSQCModel_Hook_PreDraw">
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="../../d3/dfc/csqcmodel__hooks_8qh.html#a2624228f82a5ae03006d9a33fc1b707c" target="_top" xlink:title="CSQCModel_Hook_PreDraw">
 <polygon fill="none" stroke="black" points="152,-44.5 152,-63.5 296,-63.5 296,-44.5 152,-44.5"/>
 <text text-anchor="middle" x="224" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">CSQCModel_Hook_PreDraw</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node9 -->
-<g id="edge9" class="edge"><title>Node1&#45;&gt;Node9</title>
+<!-- Node1&#45;&gt;Node11 -->
+<g id="edge11" class="edge"><title>Node1&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M125.888,-67.0272C134.508,-65.8709 143.359,-64.6836 152.042,-63.5188"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="125.345,-63.5686 115.899,-68.3672 126.276,-70.5065 125.345,-63.5686"/>
 </g>
@@ -144,72 +144,98 @@ var sectionId = 'dynsection-10';
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../df/dd7/server_2client_8qc.html#a35da2ff46a7d16ee6dd935fc1e65a72c" target="_top" xlink:title="PlayerPostThink">
-<polygon fill="none" stroke="black" points="644.5,-88.5 644.5,-107.5 733.5,-107.5 733.5,-88.5 644.5,-88.5"/>
-<text text-anchor="middle" x="689" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerPostThink</text>
+<g id="a_node7"><a xlink:href="../../df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3" target="_top" xlink:title="PutPlayerInServer">
+<polygon fill="none" stroke="black" points="644,-107.5 644,-126.5 740,-126.5 740,-107.5 644,-107.5"/>
+<text text-anchor="middle" x="692" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00">PutPlayerInServer</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge7" class="edge"><title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M617.539,-98C626.5,-98 635.6,-98 644.152,-98"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="617.518,-94.5001 607.518,-98 617.518,-101.5 617.518,-94.5001"/>
+<path fill="none" stroke="midnightblue" d="M617.64,-106.52C626.351,-107.764 635.22,-109.031 643.641,-110.234"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="617.919,-103.024 607.524,-105.075 616.929,-109.954 617.919,-103.024"/>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="../../df/dd7/server_2client_8qc.html#a35da2ff46a7d16ee6dd935fc1e65a72c" target="_top" xlink:title="PlayerPostThink">
+<polygon fill="none" stroke="black" points="647.5,-69.5 647.5,-88.5 736.5,-88.5 736.5,-69.5 647.5,-69.5"/>
+<text text-anchor="middle" x="692" y="-76.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerPostThink</text>
+</a>
+</g>
+</g>
+<!-- Node6&#45;&gt;Node9 -->
+<g id="edge9" class="edge"><title>Node6&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M617.725,-89.4678C627.62,-88.0542 637.718,-86.6118 647.128,-85.2674"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="616.929,-86.046 607.524,-90.9251 617.919,-92.9756 616.929,-86.046"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1" target="_top" xlink:title="StartFrame">
-<polygon fill="none" stroke="black" points="770.5,-88.5 770.5,-107.5 835.5,-107.5 835.5,-88.5 770.5,-88.5"/>
-<text text-anchor="middle" x="803" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">StartFrame</text>
+<g id="a_node8"><a xlink:href="../../df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951" target="_top" xlink:title="Called when a client spawns in the server. ">
+<polygon fill="none" stroke="black" points="776,-107.5 776,-126.5 870,-126.5 870,-107.5 776,-107.5"/>
+<text text-anchor="middle" x="823" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00">PutClientInServer</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge8" class="edge"><title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M743.836,-98C752.956,-98 762.153,-98 770.457,-98"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="743.623,-94.5001 733.623,-98 743.623,-101.5 743.623,-94.5001"/>
+<path fill="none" stroke="midnightblue" d="M750.566,-117C759.08,-117 767.757,-117 775.994,-117"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="750.302,-113.5 740.302,-117 750.302,-120.5 750.302,-113.5"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../dc/d3d/csqcmodel__hooks_8qc.html#a2b971c267f8e7807ea8b60a6070d3a2c" target="_top" xlink:title="CSQCModel_AutoTagIndex\l_Apply">
+<g id="a_node10"><a xlink:href="../../d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1" target="_top" xlink:title="StartFrame">
+<polygon fill="none" stroke="black" points="790.5,-69.5 790.5,-88.5 855.5,-88.5 855.5,-69.5 790.5,-69.5"/>
+<text text-anchor="middle" x="823" y="-76.5" font-family="Helvetica,sans-Serif" font-size="10.00">StartFrame</text>
+</a>
+</g>
+</g>
+<!-- Node9&#45;&gt;Node10 -->
+<g id="edge10" class="edge"><title>Node9&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M746.744,-79C761.527,-79 777.086,-79 790.195,-79"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="746.674,-75.5001 736.674,-79 746.673,-82.5001 746.674,-75.5001"/>
+</g>
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="../../dc/d3d/csqcmodel__hooks_8qc.html#a2b971c267f8e7807ea8b60a6070d3a2c" target="_top" xlink:title="CSQCModel_AutoTagIndex\l_Apply">
 <polygon fill="none" stroke="black" points="332,-39 332,-69 470,-69 470,-39 332,-39"/>
 <text text-anchor="start" x="340" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">CSQCModel_AutoTagIndex</text>
 <text text-anchor="middle" x="401" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">_Apply</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge10" class="edge"><title>Node9&#45;&gt;Node10</title>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge12" class="edge"><title>Node11&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M306.237,-47.2654C314.854,-47.223 323.553,-47.2682 331.996,-47.4012"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="306.147,-43.766 296.179,-47.3555 306.21,-50.7657 306.147,-43.766"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d5/dc9/cl__model_8qc.html#ae40ce01eb52f361833d2902006b37695" target="_top" xlink:title="CSQCModel_Draw">
+<!-- Node13 -->
+<g id="node13" class="node"><title>Node13</title>
+<g id="a_node13"><a xlink:href="../../d5/dc9/cl__model_8qc.html#ae40ce01eb52f361833d2902006b37695" target="_top" xlink:title="CSQCModel_Draw">
 <polygon fill="none" stroke="black" points="350.5,-0.5 350.5,-19.5 451.5,-19.5 451.5,-0.5 350.5,-0.5"/>
 <text text-anchor="middle" x="401" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">CSQCModel_Draw</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node11 -->
-<g id="edge12" class="edge"><title>Node9&#45;&gt;Node11</title>
+<!-- Node11&#45;&gt;Node13 -->
+<g id="edge14" class="edge"><title>Node11&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M272.973,-41.9383C301.039,-34.8815 335.976,-26.0976 362.102,-19.5287"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="271.817,-38.6198 262.972,-44.4527 273.524,-45.4085 271.817,-38.6198"/>
 </g>
-<!-- Node10&#45;&gt;Node9 -->
-<g id="edge11" class="edge"><title>Node10&#45;&gt;Node9</title>
+<!-- Node12&#45;&gt;Node11 -->
+<g id="edge13" class="edge"><title>Node12&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M321.987,-60.7146C313.396,-60.7789 304.681,-60.7556 296.179,-60.6445"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="322.037,-64.2144 331.996,-60.5988 321.956,-57.2148 322.037,-64.2144"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d5/dc9/cl__model_8qc.html#a26e61ab9cc5ce7c7cb105124b1c53337" target="_top" xlink:title="NET_HANDLE">
+<!-- Node14 -->
+<g id="node14" class="node"><title>Node14</title>
+<g id="a_node14"><a xlink:href="../../d5/dc9/cl__model_8qc.html#a26e61ab9cc5ce7c7cb105124b1c53337" target="_top" xlink:title="NET_HANDLE">
 <polygon fill="none" stroke="black" points="515.5,-0.5 515.5,-19.5 598.5,-19.5 598.5,-0.5 515.5,-0.5"/>
 <text text-anchor="middle" x="557" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">NET_HANDLE</text>
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node12 -->
-<g id="edge13" class="edge"><title>Node11&#45;&gt;Node12</title>
+<!-- Node13&#45;&gt;Node14 -->
+<g id="edge15" class="edge"><title>Node13&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M461.662,-10C479.599,-10 498.859,-10 515.271,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="461.574,-6.5001 451.574,-10 461.574,-13.5001 461.574,-6.5001"/>
 </g>

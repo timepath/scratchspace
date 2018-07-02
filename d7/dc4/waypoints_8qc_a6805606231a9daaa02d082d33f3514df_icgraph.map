@@ -1,17 +1,19 @@
 <map id="waypoint_spawnforteleporter" name="waypoint_spawnforteleporter">
-<area shape="rect" id="node2" href="$dd/d2d/teleporters_8qh.html#a81fd4ead0a476556c12fb89d6bd9d834" title="teleport_findtarget" alt="" coords="243,31,370,57"/>
-<area shape="rect" id="node15" href="$d9/de7/jumppads_8qh.html#a8395a082e3537066195813075d3ec553" title="if (item != NULL) returns true if the item can be reached by using this jumppad, false otherwise if (..." alt="" coords="245,81,368,108"/>
-<area shape="rect" id="node3" href="$d3/dca/cheats_8qh.html#a1549477544784a0c7e5134dbd72b3a28" title="CheatCommand" alt="" coords="437,31,555,57"/>
-<area shape="rect" id="node4" href="$d3/dca/cheats_8qh.html#a73c94da2bf38acf3536154e899458024" title="CheatImpulse" alt="" coords="658,5,761,32"/>
-<area shape="rect" id="node8" href="$d8/d1d/cmd_8qc.html#a67c2dd926692b0635c83bcef05983b3b" title="SV_ParseClientCommand" alt="" coords="622,56,797,83"/>
-<area shape="rect" id="node5" href="$d3/dd1/server_2impulse_8qh.html#a592fd33e424a2e05854957b679c37e1b" title="ImpulseCommands" alt="" coords="846,5,981,32"/>
+<area shape="rect" id="node2" href="$dd/d2d/teleporters_8qh.html#a81fd4ead0a476556c12fb89d6bd9d834" title="teleport_findtarget" alt="" coords="243,81,370,108"/>
+<area shape="rect" id="node17" href="$d9/de7/jumppads_8qh.html#a8395a082e3537066195813075d3ec553" title="if (item != NULL) returns true if the item can be reached by using this jumppad, false otherwise if (..." alt="" coords="245,132,368,159"/>
+<area shape="rect" id="node3" href="$d3/dca/cheats_8qh.html#a1549477544784a0c7e5134dbd72b3a28" title="CheatCommand" alt="" coords="437,81,555,108"/>
+<area shape="rect" id="node4" href="$d3/dca/cheats_8qh.html#a73c94da2bf38acf3536154e899458024" title="CheatImpulse" alt="" coords="658,56,761,83"/>
+<area shape="rect" id="node10" href="$d8/d1d/cmd_8qc.html#a67c2dd926692b0635c83bcef05983b3b" title="SV_ParseClientCommand" alt="" coords="622,107,797,133"/>
+<area shape="rect" id="node5" href="$d3/dd1/server_2impulse_8qh.html#a592fd33e424a2e05854957b679c37e1b" title="ImpulseCommands" alt="" coords="846,56,981,83"/>
 <area shape="rect" id="node6" href="$df/dd7/server_2client_8qc.html#a35da2ff46a7d16ee6dd935fc1e65a72c" title="PlayerPostThink" alt="" coords="1070,5,1189,32"/>
+<area shape="rect" id="node8" href="$df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3" title="PutPlayerInServer" alt="" coords="1065,56,1193,83"/>
 <area shape="rect" id="node7" href="$d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1" title="StartFrame" alt="" coords="1317,5,1403,32"/>
-<area shape="rect" id="node9" href="$d6/d27/scripting_8qc.html#a9337e576a1412382ff54132dd8d46b28" title="bot_cmd_cc" alt="" coords="867,56,960,83"/>
-<area shape="rect" id="node10" href="$d6/d27/scripting_8qc.html#aaca537ca751853fba4204c751942df21" title="bot_execute_commands_once" alt="" coords="1030,56,1229,83"/>
-<area shape="rect" id="node11" href="$d8/d14/scripting_8qh.html#abad1d3e4714ca1832aab73ee2b8862ea" title="bot_execute_commands" alt="" coords="1278,56,1442,83"/>
-<area shape="rect" id="node12" href="$d8/d39/havocbot_8qh.html#ade0b4e09f77eaadd022af3ee44c6a3fc" title="havocbot_ai" alt="" coords="1491,56,1583,83"/>
-<area shape="rect" id="node13" href="$d8/d39/havocbot_8qh.html#afb882bcf6c4a44e801e4fb9eafbbf1f4" title="havocbot_setupbot" alt="" coords="1633,56,1765,83"/>
-<area shape="rect" id="node14" href="$d1/da9/bot_8qh.html#abd19370e4d61d3549dbbe44826531536" title="bot_clientconnect" alt="" coords="1814,56,1938,83"/>
-<area shape="rect" id="node16" href="$d9/de7/jumppads_8qh.html#a66ad79d10244774bb2ebf5c354538d26" title="trigger_push_findtarget" alt="" coords="419,81,573,108"/>
+<area shape="rect" id="node9" href="$df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951" title="Called when a client spawns in the server. " alt="" coords="1297,56,1423,83"/>
+<area shape="rect" id="node11" href="$d6/d27/scripting_8qc.html#a9337e576a1412382ff54132dd8d46b28" title="bot_cmd_cc" alt="" coords="867,107,960,133"/>
+<area shape="rect" id="node12" href="$d6/d27/scripting_8qc.html#aaca537ca751853fba4204c751942df21" title="bot_execute_commands_once" alt="" coords="1030,107,1229,133"/>
+<area shape="rect" id="node13" href="$d8/d14/scripting_8qh.html#abad1d3e4714ca1832aab73ee2b8862ea" title="bot_execute_commands" alt="" coords="1278,107,1442,133"/>
+<area shape="rect" id="node14" href="$d8/d39/havocbot_8qh.html#ade0b4e09f77eaadd022af3ee44c6a3fc" title="havocbot_ai" alt="" coords="1491,107,1583,133"/>
+<area shape="rect" id="node15" href="$d8/d39/havocbot_8qh.html#afb882bcf6c4a44e801e4fb9eafbbf1f4" title="havocbot_setupbot" alt="" coords="1633,107,1765,133"/>
+<area shape="rect" id="node16" href="$d1/da9/bot_8qh.html#abd19370e4d61d3549dbbe44826531536" title="bot_clientconnect" alt="" coords="1814,107,1938,133"/>
+<area shape="rect" id="node18" href="$d9/de7/jumppads_8qh.html#a66ad79d10244774bb2ebf5c354538d26" title="trigger_push_findtarget" alt="" coords="419,132,573,159"/>
 </map>
