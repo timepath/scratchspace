@@ -2555,7 +2555,7 @@ Variables</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00139">CheatImpulse()</a>, <a class="el" href="../../d4/df8/sv__touchexplode_8qc_source.html#l00013">PlayerTouchExplode()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00219">vehicles_projectile_explode()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;{</div>
-<div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dac/g__damage_8qc.html#a1f5edb01679024970f2cf5fa92de80ee">RadiusDamageForSource</a> (inflictor, (inflictor.origin + (inflictor.mins + inflictor.maxs) * 0.5), inflictor.velocity, attacker, coredamage, edgedamage, rad, cantbe, mustbe, <span class="keyword">false</span>, forceintensity, deathtype, weaponentity, directhitentity);</div>
+<div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dac/g__damage_8qc.html#a1f5edb01679024970f2cf5fa92de80ee">RadiusDamageForSource</a>(inflictor, (inflictor.origin + (inflictor.mins + inflictor.maxs) * 0.5), inflictor.velocity, attacker, coredamage, edgedamage, rad, cantbe, mustbe, <span class="keyword">false</span>, forceintensity, deathtype, weaponentity, directhitentity);</div>
 <div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;}</div>
 <div class="ttc" id="g__damage_8qc_html_a1f5edb01679024970f2cf5fa92de80ee"><div class="ttname"><a href="../../d5/dac/g__damage_8qc.html#a1f5edb01679024970f2cf5fa92de80ee">RadiusDamageForSource</a></div><div class="ttdeci">float RadiusDamageForSource(entity inflictor, vector inflictororigin, vector inflictorvelocity, entity attacker, float coredamage, float edgedamage, float rad, entity cantbe, entity mustbe, float inflictorselfdamage, float forceintensity, int deathtype,.entity weaponentity, entity directhitentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00871">g_damage.qc:871</a></div></div>
 </div><!-- fragment -->
@@ -2851,9 +2851,9 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01040"></a><span class="lineno"> 1040</span>&#160;                        }</div>
 <div class="line"><a name="l01041"></a><span class="lineno"> 1041</span>&#160;</div>
 <div class="line"><a name="l01042"></a><span class="lineno"> 1042</span>&#160;                        <span class="keywordflow">if</span>(targ == directhitentity || <a class="code" href="../../d9/d4f/deathtypes_2all_8qh.html#a86e2dd2f96cc63d9835d9e496dbc67af">DEATH_ISSPECIAL</a>(deathtype))</div>
-<div class="line"><a name="l01043"></a><span class="lineno"> 1043</span>&#160;                            <a class="code" href="../../d5/dac/g__damage_8qc.html#a1ca977fd4fb6900884c2cea28062c8a7">Damage</a> (targ, inflictor, attacker, finaldmg, deathtype, weaponentity, nearest, force);</div>
+<div class="line"><a name="l01043"></a><span class="lineno"> 1043</span>&#160;                            <a class="code" href="../../d5/dac/g__damage_8qc.html#a1ca977fd4fb6900884c2cea28062c8a7">Damage</a>(targ, inflictor, attacker, finaldmg, deathtype, weaponentity, nearest, force);</div>
 <div class="line"><a name="l01044"></a><span class="lineno"> 1044</span>&#160;                        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01045"></a><span class="lineno"> 1045</span>&#160;                            <a class="code" href="../../d5/dac/g__damage_8qc.html#a1ca977fd4fb6900884c2cea28062c8a7">Damage</a> (targ, inflictor, attacker, finaldmg, deathtype | <a class="code" href="../../d9/d4f/deathtypes_2all_8qh.html#abfeb8ab3b6f6ad47eabcf0cb3d206b5a">HITTYPE_SPLASH</a>, weaponentity, nearest, force);</div>
+<div class="line"><a name="l01045"></a><span class="lineno"> 1045</span>&#160;                            <a class="code" href="../../d5/dac/g__damage_8qc.html#a1ca977fd4fb6900884c2cea28062c8a7">Damage</a>(targ, inflictor, attacker, finaldmg, deathtype | <a class="code" href="../../d9/d4f/deathtypes_2all_8qh.html#abfeb8ab3b6f6ad47eabcf0cb3d206b5a">HITTYPE_SPLASH</a>, weaponentity, nearest, force);</div>
 <div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;                    }</div>
 <div class="line"><a name="l01047"></a><span class="lineno"> 1047</span>&#160;                }</div>
 <div class="line"><a name="l01048"></a><span class="lineno"> 1048</span>&#160;            }</div>
@@ -3476,7 +3476,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dd/de4/g__damage_8qh.html">g_damage.qh</a></li>
-    <li class="footer">Generated on Mon Jul 2 2018 11:12:03 for Xonotic by
+    <li class="footer">Generated on Tue Jul 3 2018 03:31:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
