@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['c1',['c1',['../d2/d76/teamplay_8qh.html#a7fea4d2f6f3c31b60301494b136558af',1,'teamplay.qh']]],
-  ['c2',['c2',['../d2/d76/teamplay_8qh.html#a0fe1885b4d10c978f52619ab968adadc',1,'teamplay.qh']]],
-  ['c3',['c3',['../d2/d76/teamplay_8qh.html#a1b932a1e2adf36a4506e7470f831da40',1,'teamplay.qh']]],
-  ['c4',['c4',['../d2/d76/teamplay_8qh.html#a374cc32da17a4d3fea4faa48066ea8bc',1,'teamplay.qh']]],
   ['c4_5flet_5fcnt',['C4_LET_CNT',['../d5/d00/c4_8qc.html#a491681d481dc96668439550debd264fe',1,'c4.qc']]],
   ['c4_5fmax_5ftiles',['C4_MAX_TILES',['../d5/d00/c4_8qc.html#ac0e0abe946a63c4cbd223f3825bb29c6',1,'c4.qc']]],
   ['c4_5fnexteam',['c4_nexteam',['../d5/d00/c4_8qc.html#a3ab4a10a64e003dbd0c73523bfd80a76',1,'c4.qc']]],
@@ -18,8 +14,8 @@ var searchData=
   ['c4_5fturn_5fteam2',['C4_TURN_TEAM2',['../d5/d00/c4_8qc.html#a1600649b7a36d66749e7b4954c606f1d',1,'c4.qc']]],
   ['c4_5fturn_5fwin',['C4_TURN_WIN',['../d5/d00/c4_8qc.html#a9bb9e1989a86984648e75aebe7535377',1,'c4.qc']]],
   ['c4_5fwin_5fcnt',['C4_WIN_CNT',['../d5/d00/c4_8qc.html#ac422cae60e3bb8264607d61a4c9a04e1',1,'c4.qc']]],
-  ['cache_5flastmutatormsg',['cache_lastmutatormsg',['../d2/d76/teamplay_8qh.html#a8801bcd8219a784f96599328753a1d25',1,'teamplay.qh']]],
-  ['cache_5fmutatormsg',['cache_mutatormsg',['../d2/d76/teamplay_8qh.html#afb83b1d6cc1d1144d6db6342f3d0f4cc',1,'teamplay.qh']]],
+  ['cache_5flastmutatormsg',['cache_lastmutatormsg',['../d7/d97/g__world_8qh.html#a8801bcd8219a784f96599328753a1d25',1,'g_world.qh']]],
+  ['cache_5fmutatormsg',['cache_mutatormsg',['../d7/d97/g__world_8qh.html#afb83b1d6cc1d1144d6db6342f3d0f4cc',1,'g_world.qh']]],
   ['callbackchain_5freturnvalue',['CallbackChain_ReturnValue',['../db/d38/base_8qh.html#acecafad90538c657bb562c3b8708eb8c',1,'base.qh']]],
   ['calledhooks',['calledhooks',['../d0/d2a/client_2main_8qh.html#a2676f480b74434d4fd8a4ef45dcf4692',1,'main.qh']]],
   ['cam',['cam',['../d0/de4/sv__onslaught_8qc.html#a9641ac13d9a9f9707f50e498b2be47c7',1,'sv_onslaught.qc']]],

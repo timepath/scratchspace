@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('db/d07/teams_8qh.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a00e243821d8a07b60c8bddb11aeffa2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a00e243821d8a07b60c8bddb11aeffa2c">ColorByTeam</a>(number)&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d">Team_NumberToTeam</a>(number + 1)</td></tr>
+<tr class="memitem:a00e243821d8a07b60c8bddb11aeffa2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a00e243821d8a07b60c8bddb11aeffa2c">ColorByTeam</a>(number)&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a">Team_IndexToTeam</a>(number + 1)</td></tr>
 <tr class="separator:a00e243821d8a07b60c8bddb11aeffa2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3cad6bbbe99c12c662ec0c90e30095b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(a, b)&#160;&#160;&#160;(<a class="el" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> ? (<a class="el" href="../../df/dd7/server_2client_8qc.html#aa44b2778d23d1f4efed985b6cc12375a">a.team</a> != <a class="el" href="../../df/dd7/server_2client_8qc.html#aa44b2778d23d1f4efed985b6cc12375a">b.team</a>) : (a != b))</td></tr>
 <tr class="separator:ab3cad6bbbe99c12c662ec0c90e30095b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,11 +178,11 @@ Macros</h2></td></tr>
 <tr class="separator:aa3d6cc5893db93228eebe2c913555b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac861db76d5f4acfd97ed29922f92eabc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ac861db76d5f4acfd97ed29922f92eabc">Team_FullName</a>(teamid)&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="el" href="../../db/d07/teams_8qh.html#aa74c7673bc954e453a8779de1b9f9884">Team_ColorName</a>(teamid), &quot; &quot;, <a class="el" href="../../db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab">NAME_TEAM</a>, &quot;^7&quot;)</td></tr>
 <tr class="separator:ac861db76d5f4acfd97ed29922f92eabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0e4a7d1b3b18f694a7498bc9019d637"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ae0e4a7d1b3b18f694a7498bc9019d637">Team_NumberToColoredFullName</a>(number)&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#aa417cabfc2bf10d554c0dee7aa17a991">Team_ColoredFullName</a>(<a class="el" href="../../db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d">Team_NumberToTeam</a>(number))</td></tr>
-<tr class="separator:ae0e4a7d1b3b18f694a7498bc9019d637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a566bc38c723c83db64b29a0a3a0a138e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a566bc38c723c83db64b29a0a3a0a138e">Team_NumberToFullName</a>(number)&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#ac861db76d5f4acfd97ed29922f92eabc">Team_FullName</a>(<a class="el" href="../../db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d">Team_NumberToTeam</a>(number))</td></tr>
-<tr class="separator:a566bc38c723c83db64b29a0a3a0a138e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac413002acb046e7e7c82f421f5927750"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ac413002acb046e7e7c82f421f5927750">TeamByColor</a>(teamid)&#160;&#160;&#160;(<a class="el" href="../../db/d07/teams_8qh.html#a79c60f633029beb7c4ceed0ab13725ef">Team_TeamToNumber</a>(teamid) - 1)</td></tr>
+<tr class="memitem:a61415f652588151b6e523dfc2141c54c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a61415f652588151b6e523dfc2141c54c">Team_IndexToColoredFullName</a>(index)&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#aa417cabfc2bf10d554c0dee7aa17a991">Team_ColoredFullName</a>(<a class="el" href="../../db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a">Team_IndexToTeam</a>(index))</td></tr>
+<tr class="separator:a61415f652588151b6e523dfc2141c54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b468dea11d8c1a37f7ea31fd2bfde70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a8b468dea11d8c1a37f7ea31fd2bfde70">Team_IndexToFullName</a>(index)&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#ac861db76d5f4acfd97ed29922f92eabc">Team_FullName</a>(<a class="el" href="../../db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a">Team_IndexToTeam</a>(index))</td></tr>
+<tr class="separator:a8b468dea11d8c1a37f7ea31fd2bfde70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac413002acb046e7e7c82f421f5927750"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ac413002acb046e7e7c82f421f5927750">TeamByColor</a>(teamid)&#160;&#160;&#160;(<a class="el" href="../../db/d07/teams_8qh.html#a897aed6be6a82e4d6622abde399e002d">Team_TeamToIndex</a>(teamid) - 1)</td></tr>
 <tr class="separator:ac413002acb046e7e7c82f421f5927750"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -197,16 +197,24 @@ Functions</h2></td></tr>
 <tr class="separator:a40887618c0a56497f855f5631aa428d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca16bbbb9a21bac9cf7fbc0426f77cd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#aca16bbbb9a21bac9cf7fbc0426f77cd7">Team_ColorToTeam</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> team_color)</td></tr>
 <tr class="separator:aca16bbbb9a21bac9cf7fbc0426f77cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad12d30ebe792c86184a4ca76a5f8055c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ad12d30ebe792c86184a4ca76a5f8055c">Team_IsValidNumber</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> number)</td></tr>
-<tr class="memdesc:ad12d30ebe792c86184a4ca76a5f8055c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether team number is valid.  <a href="#ad12d30ebe792c86184a4ca76a5f8055c">More...</a><br/></td></tr>
-<tr class="separator:ad12d30ebe792c86184a4ca76a5f8055c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a486f351f60a7deac5d3ac06a7994053f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a486f351f60a7deac5d3ac06a7994053f">Team_IsValidTeam</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> team_)</td></tr>
-<tr class="memdesc:a486f351f60a7deac5d3ac06a7994053f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether team is valid.  <a href="#a486f351f60a7deac5d3ac06a7994053f">More...</a><br/></td></tr>
-<tr class="separator:a486f351f60a7deac5d3ac06a7994053f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74380f9b9488344d9f05f5e5113dc90d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d">Team_NumberToTeam</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> number)</td></tr>
-<tr class="separator:a74380f9b9488344d9f05f5e5113dc90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79c60f633029beb7c4ceed0ab13725ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a79c60f633029beb7c4ceed0ab13725ef">Team_TeamToNumber</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> teamid)</td></tr>
-<tr class="separator:a79c60f633029beb7c4ceed0ab13725ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac15de12fd4822619b3536b1061cbff75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ac15de12fd4822619b3536b1061cbff75">Team_IndexToBit</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> index)</td></tr>
+<tr class="memdesc:ac15de12fd4822619b3536b1061cbff75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts team index into bit value that is used in team bitmasks.  <a href="#ac15de12fd4822619b3536b1061cbff75">More...</a><br/></td></tr>
+<tr class="separator:ac15de12fd4822619b3536b1061cbff75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa49da3080c81857b2c70be950f953e9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a">Team_IndexToTeam</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> index)</td></tr>
+<tr class="memdesc:aa49da3080c81857b2c70be950f953e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts team index into team value.  <a href="#aa49da3080c81857b2c70be950f953e9a">More...</a><br/></td></tr>
+<tr class="separator:aa49da3080c81857b2c70be950f953e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412e0e869a48ecb20307b6c916be7001"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001">Team_IsValidIndex</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> index)</td></tr>
+<tr class="memdesc:a412e0e869a48ecb20307b6c916be7001"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the team index is valid.  <a href="#a412e0e869a48ecb20307b6c916be7001">More...</a><br/></td></tr>
+<tr class="separator:a412e0e869a48ecb20307b6c916be7001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19e04bfb672edb4669be6b04609b0be7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7">Team_IsValidTeam</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> team_num)</td></tr>
+<tr class="memdesc:a19e04bfb672edb4669be6b04609b0be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether team value is valid.  <a href="#a19e04bfb672edb4669be6b04609b0be7">More...</a><br/></td></tr>
+<tr class="separator:a19e04bfb672edb4669be6b04609b0be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c97cb946e2101e17ab6982e28f13ad3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a2c97cb946e2101e17ab6982e28f13ad3">Team_TeamToBit</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> team_num)</td></tr>
+<tr class="memdesc:a2c97cb946e2101e17ab6982e28f13ad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts team value into bit value that is used in team bitmasks.  <a href="#a2c97cb946e2101e17ab6982e28f13ad3">More...</a><br/></td></tr>
+<tr class="separator:a2c97cb946e2101e17ab6982e28f13ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a897aed6be6a82e4d6622abde399e002d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a897aed6be6a82e4d6622abde399e002d">Team_TeamToIndex</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> team_num)</td></tr>
+<tr class="memdesc:a897aed6be6a82e4d6622abde399e002d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts team value into team index.  <a href="#a897aed6be6a82e4d6622abde399e002d">More...</a><br/></td></tr>
+<tr class="separator:a897aed6be6a82e4d6622abde399e002d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -228,6 +236,9 @@ Variables</h2></td></tr>
 <tr class="separator:a9fd5fa5c63a948398af68af5629e40bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72db51a685e97d7d76a082746041fa56"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a> = 10</td></tr>
 <tr class="separator:a72db51a685e97d7d76a082746041fa56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8a8578145df7c2533066d103319ba22"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#aa8a8578145df7c2533066d103319ba22">NUM_TEAMS</a> = 4</td></tr>
+<tr class="memdesc:aa8a8578145df7c2533066d103319ba22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of teams in the game.  <a href="#aa8a8578145df7c2533066d103319ba22">More...</a><br/></td></tr>
+<tr class="separator:aa8a8578145df7c2533066d103319ba22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94d54dcd91f274b0cf14942028160419"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a94d54dcd91f274b0cf14942028160419">STATIC_NAME_TEAM_1</a> = &quot;Red&quot;</td></tr>
 <tr class="separator:a94d54dcd91f274b0cf14942028160419"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a700d838c6711603d833d9c54cdfb7fe6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a700d838c6711603d833d9c54cdfb7fe6">STATIC_NAME_TEAM_2</a> = &quot;Blue&quot;</td></tr>
@@ -247,12 +258,12 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">number</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d">Team_NumberToTeam</a>(number + 1)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a">Team_IndexToTeam</a>(number + 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00193">193</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00219">219</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d8f/score_8qc_source.html#l00013">HUD_Score_Rankings()</a>.</p>
 
@@ -282,9 +293,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00214">214</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00240">240</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00323">buff_Customize()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00149">buff_Touch()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00139">CheatImpulse()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00569">Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00700">Monster_Move()</a>, <a class="el" href="../../dc/d38/sv__breakablehook_8qc_source.html#l00011">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01156">Onslaught_CheckWinner()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00123">onslaught_updatelinks()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00308">PlayerDamage()</a>, <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00015">Teleport_Active()</a>, <a class="el" href="../../d2/d9b/jumppads_8qc_source.html#l00250">trigger_push_touch()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00952">vehicles_enter()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00323">buff_Customize()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00149">buff_Touch()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00139">CheatImpulse()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00569">Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00700">Monster_Move()</a>, <a class="el" href="../../dc/d38/sv__breakablehook_8qc_source.html#l00011">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01162">Onslaught_CheckWinner()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00123">onslaught_updatelinks()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00308">PlayerDamage()</a>, <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00015">Teleport_Active()</a>, <a class="el" href="../../d2/d9b/jumppads_8qc_source.html#l00250">trigger_push_touch()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00952">vehicles_enter()</a>.</p>
 
 </div>
 </div>
@@ -298,7 +309,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00041">41</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00043">43</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -312,7 +323,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00042">42</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00044">44</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -326,7 +337,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00043">43</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00045">45</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -340,7 +351,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00044">44</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00046">46</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -354,7 +365,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00045">45</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00047">47</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -368,7 +379,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00046">46</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00048">48</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -382,7 +393,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00047">47</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00049">49</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -396,7 +407,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00048">48</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00050">50</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -410,7 +421,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00037">37</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00039">39</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -424,7 +435,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00038">38</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00040">40</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -438,7 +449,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00039">39</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00041">41</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -452,7 +463,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00040">40</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00042">42</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -466,9 +477,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00034">34</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00036">36</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00101">Static_Team_ColorName()</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00087">Team_ColorName()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00103">Static_Team_ColorName()</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00089">Team_ColorName()</a>.</p>
 
 </div>
 </div>
@@ -482,7 +493,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00033">33</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00035">35</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -496,9 +507,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00029">29</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00031">31</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00087">Team_ColorName()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00089">Team_ColorName()</a>.</p>
 
 </div>
 </div>
@@ -512,9 +523,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00030">30</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00032">32</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00087">Team_ColorName()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00089">Team_ColorName()</a>.</p>
 
 </div>
 </div>
@@ -528,9 +539,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00031">31</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00033">33</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00087">Team_ColorName()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00089">Team_ColorName()</a>.</p>
 
 </div>
 </div>
@@ -544,9 +555,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00032">32</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00034">34</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00087">Team_ColorName()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00089">Team_ColorName()</a>.</p>
 
 </div>
 </div>
@@ -574,9 +585,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00213">213</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00239">239</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00092">accuracy_isgooddamage()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00422">buff_Medic_Heal()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00019">buffs_BuffModel_Customize()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00569">Damage()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00760">Drag()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01326">havocbot_goalrating_ons_controlpoints_attack()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01445">havocbot_goalrating_ons_generator_attack()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00074">Monster_ValidTarget()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01731">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00225">Obituary()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00050">ons_CaptureShield_Customize()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00060">ons_CaptureShield_Touch()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00467">ons_ControlPoint_Icon_Think()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00684">ons_ControlPoint_Touch()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01631">ons_Count_SelfControlPoints()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00881">ons_GeneratorDamage()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00983">ons_GeneratorThink()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01563">ons_Nearest_ControlPoint()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01590">ons_Nearest_ControlPoint_2D()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01049">onslaught_generator_touch()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00123">onslaught_updatelinks()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02507">PlayerPreThink()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02450">PlayerUseKey()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00952">vehicles_enter()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00091">vehicles_locktarget()</a>, and <a class="el" href="../../de/d4e/sv__weapon_8qc_source.html#l00077">W_Nexball_Touch()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00092">accuracy_isgooddamage()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00422">buff_Medic_Heal()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00019">buffs_BuffModel_Customize()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00569">Damage()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00760">Drag()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01334">havocbot_goalrating_ons_controlpoints_attack()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01453">havocbot_goalrating_ons_generator_attack()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00074">Monster_ValidTarget()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01739">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00225">Obituary()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00050">ons_CaptureShield_Customize()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00060">ons_CaptureShield_Touch()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00467">ons_ControlPoint_Icon_Think()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00684">ons_ControlPoint_Touch()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01639">ons_Count_SelfControlPoints()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00881">ons_GeneratorDamage()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00983">ons_GeneratorThink()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01571">ons_Nearest_ControlPoint()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01598">ons_Nearest_ControlPoint_2D()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01049">onslaught_generator_touch()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00123">onslaught_updatelinks()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02574">PlayerPreThink()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02517">PlayerUseKey()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00952">vehicles_enter()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00091">vehicles_locktarget()</a>, and <a class="el" href="../../de/d4e/sv__weapon_8qc_source.html#l00077">W_Nexball_Touch()</a>.</p>
 
 </div>
 </div>
@@ -594,7 +605,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00200">200</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00226">226</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -612,7 +623,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00201">201</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00227">227</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -646,7 +657,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00210">210</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00236">236</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -664,7 +675,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00204">204</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00230">230</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01059">ons_GeneratorSetup()</a>, and <a class="el" href="../../d2/d79/scores_8qc_source.html#l00813">Score_NicePrint_Team()</a>.</p>
 
@@ -684,7 +695,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00196">196</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00222">222</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -702,7 +713,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00197">197</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00223">223</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -720,45 +731,43 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00203">203</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00229">229</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae0e4a7d1b3b18f694a7498bc9019d637"></a>
+<a class="anchor" id="a61415f652588151b6e523dfc2141c54c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define Team_NumberToColoredFullName</td>
+          <td class="memname">#define Team_IndexToColoredFullName</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">number</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#aa417cabfc2bf10d554c0dee7aa17a991">Team_ColoredFullName</a>(<a class="el" href="../../db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d">Team_NumberToTeam</a>(number))</td>
+          <td class="paramname">index</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#aa417cabfc2bf10d554c0dee7aa17a991">Team_ColoredFullName</a>(<a class="el" href="../../db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a">Team_IndexToTeam</a>(index))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00207">207</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00214">SetPlayerTeam()</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00233">233</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a566bc38c723c83db64b29a0a3a0a138e"></a>
+<a class="anchor" id="a8b468dea11d8c1a37f7ea31fd2bfde70"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define Team_NumberToFullName</td>
+          <td class="memname">#define Team_IndexToFullName</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">number</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#ac861db76d5f4acfd97ed29922f92eabc">Team_FullName</a>(<a class="el" href="../../db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d">Team_NumberToTeam</a>(number))</td>
+          <td class="paramname">index</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#ac861db76d5f4acfd97ed29922f92eabc">Team_FullName</a>(<a class="el" href="../../db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a">Team_IndexToTeam</a>(index))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00206">206</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00232">232</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -771,12 +780,12 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">teamid</td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="../../db/d07/teams_8qh.html#a79c60f633029beb7c4ceed0ab13725ef">Team_TeamToNumber</a>(teamid) - 1)</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="../../db/d07/teams_8qh.html#a897aed6be6a82e4d6622abde399e002d">Team_TeamToIndex</a>(teamid) - 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00192">192</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00218">218</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 </div>
 </div>
@@ -795,31 +804,31 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00101">101</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00103">103</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00034">NAME_NEUTRAL</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00016">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00017">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_3</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_4</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00051">STATIC_NAME_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00052">STATIC_NAME_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00053">STATIC_NAME_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00054">STATIC_NAME_TEAM_4</a>.</p>
+<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00036">NAME_NEUTRAL</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00020">NUM_TEAM_3</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00021">NUM_TEAM_4</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00053">STATIC_NAME_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00054">STATIC_NAME_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00055">STATIC_NAME_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00056">STATIC_NAME_TEAM_4</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d8f/notifications_2all_8qh_source.html#l00700">Get_Notif_CvarName()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;{</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">switch</span>(teamid)</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a94d54dcd91f274b0cf14942028160419">STATIC_NAME_TEAM_1</a>;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a700d838c6711603d833d9c54cdfb7fe6">STATIC_NAME_TEAM_2</a>;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#aac887328a14941f3eb0ad2c025f989cf">STATIC_NAME_TEAM_3</a>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a0cb02eb79415047b3553ff29b7837dbe">STATIC_NAME_TEAM_4</a>;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce">NAME_NEUTRAL</a>;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}</div>
-<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00017">teams.qh:17</a></div></div>
-<div class="ttc" id="teams_8qh_html_a94d54dcd91f274b0cf14942028160419"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a94d54dcd91f274b0cf14942028160419">STATIC_NAME_TEAM_1</a></div><div class="ttdeci">const string STATIC_NAME_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00051">teams.qh:51</a></div></div>
-<div class="ttc" id="teams_8qh_html_aac887328a14941f3eb0ad2c025f989cf"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aac887328a14941f3eb0ad2c025f989cf">STATIC_NAME_TEAM_3</a></div><div class="ttdeci">const string STATIC_NAME_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00053">teams.qh:53</a></div></div>
-<div class="ttc" id="teams_8qh_html_a700d838c6711603d833d9c54cdfb7fe6"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a700d838c6711603d833d9c54cdfb7fe6">STATIC_NAME_TEAM_2</a></div><div class="ttdeci">const string STATIC_NAME_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00052">teams.qh:52</a></div></div>
-<div class="ttc" id="teams_8qh_html_acc9a6631e64c3dba27fec38ba6a960ce"><div class="ttname"><a href="../../db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce">NAME_NEUTRAL</a></div><div class="ttdeci">#define NAME_NEUTRAL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00034">teams.qh:34</a></div></div>
-<div class="ttc" id="teams_8qh_html_a0cb02eb79415047b3553ff29b7837dbe"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a0cb02eb79415047b3553ff29b7837dbe">STATIC_NAME_TEAM_4</a></div><div class="ttdeci">const string STATIC_NAME_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00054">teams.qh:54</a></div></div>
-<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
-<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00016">teams.qh:16</a></div></div>
-<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">switch</span>(teamid)</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a94d54dcd91f274b0cf14942028160419">STATIC_NAME_TEAM_1</a>;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a700d838c6711603d833d9c54cdfb7fe6">STATIC_NAME_TEAM_2</a>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#aac887328a14941f3eb0ad2c025f989cf">STATIC_NAME_TEAM_3</a>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a0cb02eb79415047b3553ff29b7837dbe">STATIC_NAME_TEAM_4</a>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce">NAME_NEUTRAL</a>;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;}</div>
+<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
+<div class="ttc" id="teams_8qh_html_a94d54dcd91f274b0cf14942028160419"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a94d54dcd91f274b0cf14942028160419">STATIC_NAME_TEAM_1</a></div><div class="ttdeci">const string STATIC_NAME_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00053">teams.qh:53</a></div></div>
+<div class="ttc" id="teams_8qh_html_aac887328a14941f3eb0ad2c025f989cf"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aac887328a14941f3eb0ad2c025f989cf">STATIC_NAME_TEAM_3</a></div><div class="ttdeci">const string STATIC_NAME_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00055">teams.qh:55</a></div></div>
+<div class="ttc" id="teams_8qh_html_a700d838c6711603d833d9c54cdfb7fe6"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a700d838c6711603d833d9c54cdfb7fe6">STATIC_NAME_TEAM_2</a></div><div class="ttdeci">const string STATIC_NAME_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00054">teams.qh:54</a></div></div>
+<div class="ttc" id="teams_8qh_html_acc9a6631e64c3dba27fec38ba6a960ce"><div class="ttname"><a href="../../db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce">NAME_NEUTRAL</a></div><div class="ttdeci">#define NAME_NEUTRAL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00036">teams.qh:36</a></div></div>
+<div class="ttc" id="teams_8qh_html_a0cb02eb79415047b3553ff29b7837dbe"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a0cb02eb79415047b3553ff29b7837dbe">STATIC_NAME_TEAM_4</a></div><div class="ttdeci">const string STATIC_NAME_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00056">teams.qh:56</a></div></div>
+<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00021">teams.qh:21</a></div></div>
+<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00020">teams.qh:20</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -847,30 +856,30 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00061">61</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00063">63</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00024">COL_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00025">COL_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00026">COL_TEAM_3</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00027">COL_TEAM_4</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00016">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00017">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_4</a>.</p>
+<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00026">COL_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00027">COL_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00028">COL_TEAM_3</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00029">COL_TEAM_4</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00020">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00021">NUM_TEAM_4</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00163">playername()</a>, and <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00700">Say()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">switch</span>(teamid)</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#aa6ee472ee546c802674773aa4ccefa5e">COL_TEAM_1</a>;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#ad58976dc8edb654a9245d69ee4f2b27f">COL_TEAM_2</a>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a223346a1d4096a7e7408d831b3ac8dd9">COL_TEAM_3</a>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a14a11ce0b10148db1820423fb8226b26">COL_TEAM_4</a>;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;^7&quot;</span>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
-<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00017">teams.qh:17</a></div></div>
-<div class="ttc" id="teams_8qh_html_a223346a1d4096a7e7408d831b3ac8dd9"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a223346a1d4096a7e7408d831b3ac8dd9">COL_TEAM_3</a></div><div class="ttdeci">const string COL_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00026">teams.qh:26</a></div></div>
-<div class="ttc" id="teams_8qh_html_a14a11ce0b10148db1820423fb8226b26"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a14a11ce0b10148db1820423fb8226b26">COL_TEAM_4</a></div><div class="ttdeci">const string COL_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00027">teams.qh:27</a></div></div>
-<div class="ttc" id="teams_8qh_html_ad58976dc8edb654a9245d69ee4f2b27f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#ad58976dc8edb654a9245d69ee4f2b27f">COL_TEAM_2</a></div><div class="ttdeci">const string COL_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00025">teams.qh:25</a></div></div>
-<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
-<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00016">teams.qh:16</a></div></div>
-<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
-<div class="ttc" id="teams_8qh_html_aa6ee472ee546c802674773aa4ccefa5e"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aa6ee472ee546c802674773aa4ccefa5e">COL_TEAM_1</a></div><div class="ttdeci">const string COL_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00024">teams.qh:24</a></div></div>
+<p>Referenced by <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00163">playername()</a>, and <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00685">Say()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;{</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">switch</span>(teamid)</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#aa6ee472ee546c802674773aa4ccefa5e">COL_TEAM_1</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#ad58976dc8edb654a9245d69ee4f2b27f">COL_TEAM_2</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a223346a1d4096a7e7408d831b3ac8dd9">COL_TEAM_3</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a14a11ce0b10148db1820423fb8226b26">COL_TEAM_4</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;^7&quot;</span>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
+<div class="ttc" id="teams_8qh_html_a223346a1d4096a7e7408d831b3ac8dd9"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a223346a1d4096a7e7408d831b3ac8dd9">COL_TEAM_3</a></div><div class="ttdeci">const string COL_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00028">teams.qh:28</a></div></div>
+<div class="ttc" id="teams_8qh_html_a14a11ce0b10148db1820423fb8226b26"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a14a11ce0b10148db1820423fb8226b26">COL_TEAM_4</a></div><div class="ttdeci">const string COL_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00029">teams.qh:29</a></div></div>
+<div class="ttc" id="teams_8qh_html_ad58976dc8edb654a9245d69ee4f2b27f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#ad58976dc8edb654a9245d69ee4f2b27f">COL_TEAM_2</a></div><div class="ttdeci">const string COL_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00027">teams.qh:27</a></div></div>
+<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00021">teams.qh:21</a></div></div>
+<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00020">teams.qh:20</a></div></div>
+<div class="ttc" id="teams_8qh_html_aa6ee472ee546c802674773aa4ccefa5e"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aa6ee472ee546c802674773aa4ccefa5e">COL_TEAM_1</a></div><div class="ttdeci">const string COL_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00026">teams.qh:26</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -898,29 +907,29 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00087">87</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00089">89</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00034">NAME_NEUTRAL</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00029">NAME_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00030">NAME_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00031">NAME_TEAM_3</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00032">NAME_TEAM_4</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00016">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00017">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_4</a>.</p>
-<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;{</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">switch</span>(teamid)</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a5585b53dde38603073c9309b31817e62">NAME_TEAM_1</a>;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a357988f2499b4c85f7f1091794e9e043">NAME_TEAM_2</a>;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a8044b8f8baa7b9e0ddb6c6ef7dba7922">NAME_TEAM_3</a>;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a60a132226a89386e69517d266e83be67">NAME_TEAM_4</a>;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce">NAME_NEUTRAL</a>;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
-<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00017">teams.qh:17</a></div></div>
-<div class="ttc" id="teams_8qh_html_a8044b8f8baa7b9e0ddb6c6ef7dba7922"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a8044b8f8baa7b9e0ddb6c6ef7dba7922">NAME_TEAM_3</a></div><div class="ttdeci">#define NAME_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00031">teams.qh:31</a></div></div>
-<div class="ttc" id="teams_8qh_html_a5585b53dde38603073c9309b31817e62"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a5585b53dde38603073c9309b31817e62">NAME_TEAM_1</a></div><div class="ttdeci">#define NAME_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00029">teams.qh:29</a></div></div>
-<div class="ttc" id="teams_8qh_html_a60a132226a89386e69517d266e83be67"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a60a132226a89386e69517d266e83be67">NAME_TEAM_4</a></div><div class="ttdeci">#define NAME_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00032">teams.qh:32</a></div></div>
-<div class="ttc" id="teams_8qh_html_acc9a6631e64c3dba27fec38ba6a960ce"><div class="ttname"><a href="../../db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce">NAME_NEUTRAL</a></div><div class="ttdeci">#define NAME_NEUTRAL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00034">teams.qh:34</a></div></div>
-<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
-<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00016">teams.qh:16</a></div></div>
-<div class="ttc" id="teams_8qh_html_a357988f2499b4c85f7f1091794e9e043"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a357988f2499b4c85f7f1091794e9e043">NAME_TEAM_2</a></div><div class="ttdeci">#define NAME_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00030">teams.qh:30</a></div></div>
-<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00036">NAME_NEUTRAL</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00031">NAME_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00032">NAME_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00033">NAME_TEAM_3</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00034">NAME_TEAM_4</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00020">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00021">NUM_TEAM_4</a>.</p>
+<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;{</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">switch</span>(teamid)</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a5585b53dde38603073c9309b31817e62">NAME_TEAM_1</a>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a357988f2499b4c85f7f1091794e9e043">NAME_TEAM_2</a>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a8044b8f8baa7b9e0ddb6c6ef7dba7922">NAME_TEAM_3</a>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a60a132226a89386e69517d266e83be67">NAME_TEAM_4</a>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce">NAME_NEUTRAL</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
+<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
+<div class="ttc" id="teams_8qh_html_a8044b8f8baa7b9e0ddb6c6ef7dba7922"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a8044b8f8baa7b9e0ddb6c6ef7dba7922">NAME_TEAM_3</a></div><div class="ttdeci">#define NAME_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00033">teams.qh:33</a></div></div>
+<div class="ttc" id="teams_8qh_html_a5585b53dde38603073c9309b31817e62"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a5585b53dde38603073c9309b31817e62">NAME_TEAM_1</a></div><div class="ttdeci">#define NAME_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00031">teams.qh:31</a></div></div>
+<div class="ttc" id="teams_8qh_html_a60a132226a89386e69517d266e83be67"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a60a132226a89386e69517d266e83be67">NAME_TEAM_4</a></div><div class="ttdeci">#define NAME_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00034">teams.qh:34</a></div></div>
+<div class="ttc" id="teams_8qh_html_acc9a6631e64c3dba27fec38ba6a960ce"><div class="ttname"><a href="../../db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce">NAME_NEUTRAL</a></div><div class="ttdeci">#define NAME_NEUTRAL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00036">teams.qh:36</a></div></div>
+<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00021">teams.qh:21</a></div></div>
+<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<div class="ttc" id="teams_8qh_html_a357988f2499b4c85f7f1091794e9e043"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a357988f2499b4c85f7f1091794e9e043">NAME_TEAM_2</a></div><div class="ttdeci">#define NAME_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00032">teams.qh:32</a></div></div>
+<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00020">teams.qh:20</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -938,26 +947,26 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00074">74</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00076">76</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00016">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00017">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_4</a>.</p>
+<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00020">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00021">NUM_TEAM_4</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/dc8/cl__controlpoint_8qc_source.html#l00142">cpicon_changeteam()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00480">Freeze()</a>, <a class="el" href="../../df/d07/cl__generator_8qc_source.html#l00172">generator_changeteam()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00138">HUD_Score()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00013">HUD_Score_Rankings()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00170">monster_changeteam()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01253">Monster_Spawn_Setup()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01472">Scoreboard_Draw()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00010">turret_changeteam()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00952">vehicles_enter()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00494">vehicles_showwp()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">switch</span>(teamid)</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>: <span class="keywordflow">return</span> <span class="stringliteral">&#39;1 0.0625 0.0625&#39;</span>; <span class="comment">// 0xFF0F0F</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>: <span class="keywordflow">return</span> <span class="stringliteral">&#39;0.0625 0.0625 1&#39;</span>; <span class="comment">// 0x0F0FFF</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>: <span class="keywordflow">return</span> <span class="stringliteral">&#39;1 1 0.0625&#39;</span>; <span class="comment">// 0xFFFF0F</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>: <span class="keywordflow">return</span> <span class="stringliteral">&#39;1 0.0625 1&#39;</span>; <span class="comment">// 0xFF0FFF</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
-<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00017">teams.qh:17</a></div></div>
-<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
-<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00016">teams.qh:16</a></div></div>
-<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;{</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">switch</span>(teamid)</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>: <span class="keywordflow">return</span> <span class="stringliteral">&#39;1 0.0625 0.0625&#39;</span>; <span class="comment">// 0xFF0F0F</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>: <span class="keywordflow">return</span> <span class="stringliteral">&#39;0.0625 0.0625 1&#39;</span>; <span class="comment">// 0x0F0FFF</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>: <span class="keywordflow">return</span> <span class="stringliteral">&#39;1 1 0.0625&#39;</span>; <span class="comment">// 0xFFFF0F</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>: <span class="keywordflow">return</span> <span class="stringliteral">&#39;1 0.0625 1&#39;</span>; <span class="comment">// 0xFF0FFF</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;}</div>
+<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
+<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00021">teams.qh:21</a></div></div>
+<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00020">teams.qh:20</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -985,27 +994,27 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00114">114</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00116">116</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00016">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00017">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_4</a>.</p>
+<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00020">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00021">NUM_TEAM_4</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">switch</span>(strtolower(team_color))</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    {</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;red&quot;</span>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;blue&quot;</span>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;yellow&quot;</span>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;pink&quot;</span>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;auto&quot;</span>: <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;}</div>
-<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00017">teams.qh:17</a></div></div>
-<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
-<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00016">teams.qh:16</a></div></div>
-<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;{</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">switch</span>(strtolower(team_color))</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;red&quot;</span>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;blue&quot;</span>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;yellow&quot;</span>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;pink&quot;</span>: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;auto&quot;</span>: <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    }</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
+<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
+<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00021">teams.qh:21</a></div></div>
+<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00020">teams.qh:20</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -1019,59 +1028,159 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad12d30ebe792c86184a4ca76a5f8055c"></a>
+<a class="anchor" id="ac15de12fd4822619b3536b1061cbff75"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a> Team_IsValidNumber </td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> Team_IndexToBit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
-          <td class="paramname"><em>number</em></td><td>)</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns whether team number is valid. </p>
+<p>Converts team index into bit value that is used in team bitmasks. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">number</td><td>Team number to check. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>Team index to convert. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>True if team number is valid, false otherwise. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Team bit. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00149">149</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00211">211</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00993">AutoBalanceBots()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00647">IsTeamEqualToTeam()</a>, and <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00541">IsTeamSmallerThanTeam()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;{</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">switch</span> (number)</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    {</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="keywordflow">case</span> 1:</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordflow">case</span> 2:</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">case</span> 3:</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordflow">case</span> 4:</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        {</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        }</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;}</div>
+<p>References <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00322">ClientCommand_selectteam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00879">SV_ChangeTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00551">TeamBalance_FindBestTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00588">TeamBalance_FindBestTeams()</a>, and <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00410">TeamBalance_GetAllowedTeams()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;{</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(index - 1);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;}</div>
+<div class="ttc" id="bits_8qh_html_a3a8ea58898cb58fc96013383d39f482c"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a></div><div class="ttdeci">#define BIT(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00005">bits.qh:5</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_ad12d30ebe792c86184a4ca76a5f8055c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_ac15de12fd4822619b3536b1061cbff75_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a486f351f60a7deac5d3ac06a7994053f"></a>
+<a class="anchor" id="aa49da3080c81857b2c70be950f953e9a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> Team_IndexToTeam </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts team index into team value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>Team index to convert. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Team value. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00169">169</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+
+<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00020">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00021">NUM_TEAM_4</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01135">Onslaught_GetWinnerTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00168">Player_SetTeamIndex()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00257">TeamBalance_CheckAllowedTeams()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01693">WinningCondition_Scores()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">switch</span> (index)</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="keywordflow">case</span> 1: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordflow">case</span> 2: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">case</span> 3: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">case</span> 4: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    }</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;}</div>
+<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
+<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00021">teams.qh:21</a></div></div>
+<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00020">teams.qh:20</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_aa49da3080c81857b2c70be950f953e9a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a412e0e869a48ecb20307b6c916be7001"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a> Team_IsValidIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns whether the team index is valid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>Team index to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if team index is valid, false otherwise. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00151">151</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00144">Entity_GetTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00050">Team_GetTeamFromIndex()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00719">TeamBalance_AutoBalanceBots()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00688">TeamBalance_CompareTeams()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00531">TeamBalance_GetNumberOfPlayers()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00806">TeamBalance_GetTeamFromIndex()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00432">TeamBalance_IsTeamAllowed()</a>, and <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00634">TeamBalance_JoinBestTeam()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;{</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keywordflow">switch</span> (index)</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">case</span> 1:</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordflow">case</span> 2:</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="keywordflow">case</span> 3:</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordflow">case</span> 4:</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        }</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    }</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;}</div>
+</div><!-- fragment -->
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_a412e0e869a48ecb20307b6c916be7001_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a19e04bfb672edb4669be6b04609b0be7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1079,132 +1188,166 @@ Variables</h2></td></tr>
           <td class="memname"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a> Team_IsValidTeam </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
-          <td class="paramname"><em>team_</em></td><td>)</td>
+          <td class="paramname"><em>team_num</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns whether team is valid. </p>
+<p>Returns whether team value is valid. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">team_</td><td>Team to check. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">team_num</td><td>Team to check. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if team is valid, false otherwise. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00131">131</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00133">133</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00016">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00017">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_4</a>.</p>
-<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;{</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">switch</span> (team_)</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    {</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>:</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>:</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>:</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>:</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        {</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        }</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;}</div>
-<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00017">teams.qh:17</a></div></div>
-<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
-<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00016">teams.qh:16</a></div></div>
-<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00020">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00021">NUM_TEAM_4</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00251">EFFECT_ROCKETMINSTA_LASER()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00134">Entity_HasValidTeam()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01971">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00059">Team_GetTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00199">Team_TeamToBit()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00257">TeamBalance_CheckAllowedTeams()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00451">TeamBalance_GetTeamCounts()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01765">WinningCondition_RanOutOfSpawns()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;{</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">switch</span> (team_num)</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>:</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>:</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>:</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>:</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        }</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;}</div>
+<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
+<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00021">teams.qh:21</a></div></div>
+<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00020">teams.qh:20</a></div></div>
 </div><!-- fragment -->
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-</div>
-<a class="anchor" id="a74380f9b9488344d9f05f5e5113dc90d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> Team_NumberToTeam </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
-          <td class="paramname"><em>number</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00164">164</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
-
-<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00016">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00017">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_4</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00993">AutoBalanceBots()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01259">GameCommand_shuffleteams()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00852">JoinBestTeam()</a>, and <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00214">SetPlayerTeam()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;{</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">switch</span>(number)</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    {</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordflow">case</span> 1: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>;</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">case</span> 2: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keywordflow">case</span> 3: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">case</span> 4: <span class="keywordflow">return</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;}</div>
-<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00017">teams.qh:17</a></div></div>
-<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
-<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00016">teams.qh:16</a></div></div>
-<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
-</div><!-- fragment -->
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_a74380f9b9488344d9f05f5e5113dc90d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_a19e04bfb672edb4669be6b04609b0be7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a79c60f633029beb7c4ceed0ab13725ef"></a>
+<a class="anchor" id="a2c97cb946e2101e17ab6982e28f13ad3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> Team_TeamToNumber </td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> Team_TeamToBit </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
-          <td class="paramname"><em>teamid</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
+          <td class="paramname"><em>team_num</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00177">177</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Converts team value into bit value that is used in team bitmasks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">team_num</td><td>Team value to convert. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Team bit. </dd></dl>
 
-<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00016">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00017">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_4</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00199">199</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00322">ClientCommand_selectteam()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00251">EFFECT_ROCKETMINSTA_LASER()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00852">JoinBestTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00193">SetPlayerTeamSimple()</a>, and <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00918">SV_ChangeTeam()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;{</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">switch</span>(teamid)</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    {</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>: <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>: <span class="keywordflow">return</span> 2;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>: <span class="keywordflow">return</span> 3;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>: <span class="keywordflow">return</span> 4;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    }</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;}</div>
-<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00017">teams.qh:17</a></div></div>
-<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
-<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00016">teams.qh:16</a></div></div>
-<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<p>References <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00133">Team_IsValidTeam()</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00184">Team_TeamToIndex()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01971">MUTATOR_HOOKFUNCTION()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;{</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7">Team_IsValidTeam</a>(team_num))</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    {</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    }</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(<a class="code" href="../../db/d07/teams_8qh.html#a897aed6be6a82e4d6622abde399e002d">Team_TeamToIndex</a>(team_num) - 1);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;}</div>
+<div class="ttc" id="bits_8qh_html_a3a8ea58898cb58fc96013383d39f482c"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a></div><div class="ttdeci">#define BIT(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00005">bits.qh:5</a></div></div>
+<div class="ttc" id="teams_8qh_html_a897aed6be6a82e4d6622abde399e002d"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a897aed6be6a82e4d6622abde399e002d">Team_TeamToIndex</a></div><div class="ttdeci">int Team_TeamToIndex(int team_num)</div><div class="ttdoc">Converts team value into team index. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00184">teams.qh:184</a></div></div>
+<div class="ttc" id="teams_8qh_html_a19e04bfb672edb4669be6b04609b0be7"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7">Team_IsValidTeam</a></div><div class="ttdeci">bool Team_IsValidTeam(int team_num)</div><div class="ttdoc">Returns whether team value is valid. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00133">teams.qh:133</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_a79c60f633029beb7c4ceed0ab13725ef_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_a2c97cb946e2101e17ab6982e28f13ad3_cgraph.svg" width="331" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_a2c97cb946e2101e17ab6982e28f13ad3_icgraph.svg" width="392" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a897aed6be6a82e4d6622abde399e002d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> Team_TeamToIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
+          <td class="paramname"><em>team_num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts team value into team index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">team_num</td><td>Team value to convert. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Team index. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00184">184</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+
+<p>References <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">NUM_TEAM_1</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">NUM_TEAM_2</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00020">NUM_TEAM_3</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00021">NUM_TEAM_4</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00322">ClientCommand_selectteam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00139">Entity_GetTeamIndex()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00168">Player_SetTeamIndex()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00879">SV_ChangeTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00059">Team_GetTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00199">Team_TeamToBit()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00815">TeamBalance_GetTeam()</a>, and <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00634">TeamBalance_JoinBestTeam()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;{</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">switch</span> (team_num)</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>: <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>: <span class="keywordflow">return</span> 2;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>: <span class="keywordflow">return</span> 3;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>: <span class="keywordflow">return</span> 4;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    }</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;}</div>
+<div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00019">teams.qh:19</a></div></div>
+<div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00021">teams.qh:21</a></div></div>
+<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00020">teams.qh:20</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_a897aed6be6a82e4d6622abde399e002d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -1222,9 +1365,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00024">24</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00026">26</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00061">Team_ColorCode()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00063">Team_ColorCode()</a>.</p>
 
 </div>
 </div>
@@ -1238,9 +1381,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00025">25</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00027">27</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00061">Team_ColorCode()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00063">Team_ColorCode()</a>.</p>
 
 </div>
 </div>
@@ -1254,9 +1397,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00026">26</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00028">28</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00061">Team_ColorCode()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00063">Team_ColorCode()</a>.</p>
 
 </div>
 </div>
@@ -1270,9 +1413,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00027">27</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00029">29</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00061">Team_ColorCode()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00063">Team_ColorCode()</a>.</p>
 
 </div>
 </div>
@@ -1286,7 +1429,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00021">21</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00023">23</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00095">CSQC_Init()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00662">EnemyHitCheck()</a>, <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00122">GetTeam()</a>, <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00058">HUD_InfoMessages()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00564">HUD_Main()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00749">HUD_Quickmenu_PlayerListEntries()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00138">HUD_Score()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00013">HUD_Score_Rankings()</a>, <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00082">RegisterTeam()</a>, <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00101">RemoveTeam()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00193">Scoreboard_ComparePlayerScores()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00250">Scoreboard_CompareTeamScores()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01472">Scoreboard_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00841">Scoreboard_DrawItem()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00935">Scoreboard_DrawOthers()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00231">SetTeam()</a>.</p>
 
@@ -1302,9 +1445,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00016">16</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">18</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00410">bot_clientconnect()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00391">buff_Init_Compat()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00232">CheckAllowedTeams()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00322">ClientCommand_selectteam()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01185">ClientConnect()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00199">EFFECT_CAP()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00167">EFFECT_FLAG_TOUCH()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00008">EFFECT_NADE_EXPLODE()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00024">EFFECT_NADE_TRAIL()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00040">EFFECT_NADE_TRAIL_BURN()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00183">EFFECT_PASS()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00251">EFFECT_ROCKETMINSTA_LASER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00066">EFFECT_VAPORIZER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00076">EFFECT_VAPORIZER_HIT()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00404">FixPlayermodel()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00337">GetTeamCounts()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00100">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00285">HUD_Mod_KH()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00852">JoinBestTeam()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01963">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00692">NET_HANDLE()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00640">ons_ControlPoint_UpdateSprite()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01113">Onslaught_count_generators()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01127">Onslaught_GetWinnerTeam()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00071">relocate_spawnpoint()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00210">ScoreInfo_Init()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00231">SetTeam()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00117">SND_CTF_CAPTURE()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00132">SND_CTF_DROPPED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00150">SND_CTF_RETURNED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00165">SND_CTF_TAKEN()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00178">spawnfunc()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00101">Static_Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00061">Team_ColorCode()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00087">Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00074">Team_ColorRGB()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00114">Team_ColorToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00131">Team_IsValidTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00164">Team_NumberToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00177">Team_TeamToNumber()</a>, <a class="el" href="../../dd/dde/tests_8qc_source.html#l00010">TEST()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01711">WinningCondition_RanOutOfSpawns()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01640">WinningCondition_Scores()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00410">bot_clientconnect()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00391">buff_Init_Compat()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00322">ClientCommand_selectteam()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01253">ClientConnect()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00199">EFFECT_CAP()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00167">EFFECT_FLAG_TOUCH()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00008">EFFECT_NADE_EXPLODE()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00024">EFFECT_NADE_TRAIL()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00040">EFFECT_NADE_TRAIL_BURN()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00183">EFFECT_PASS()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00251">EFFECT_ROCKETMINSTA_LASER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00066">EFFECT_VAPORIZER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00076">EFFECT_VAPORIZER_HIT()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00402">FixPlayermodel()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00100">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00285">HUD_Mod_KH()</a>, <a class="el" href="../../d2/d08/sv__spawn__near__teammate_8qc_source.html#l00057">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00692">NET_HANDLE()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00640">ons_ControlPoint_UpdateSprite()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01135">Onslaught_GetWinnerTeam()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00071">relocate_spawnpoint()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00210">ScoreInfo_Init()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00231">SetTeam()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00117">SND_CTF_CAPTURE()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00132">SND_CTF_DROPPED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00150">SND_CTF_RETURNED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00165">SND_CTF_TAKEN()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00178">spawnfunc()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00103">Static_Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00063">Team_ColorCode()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00089">Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00076">Team_ColorRGB()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00116">Team_ColorToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00169">Team_IndexToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00133">Team_IsValidTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00184">Team_TeamToIndex()</a>, and <a class="el" href="../../dd/dde/tests_8qc_source.html#l00010">TEST()</a>.</p>
 
 </div>
 </div>
@@ -1318,9 +1461,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00017">17</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">19</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00410">bot_clientconnect()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00391">buff_Init_Compat()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00232">CheckAllowedTeams()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00322">ClientCommand_selectteam()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01185">ClientConnect()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00199">EFFECT_CAP()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00167">EFFECT_FLAG_TOUCH()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00008">EFFECT_NADE_EXPLODE()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00024">EFFECT_NADE_TRAIL()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00040">EFFECT_NADE_TRAIL_BURN()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00183">EFFECT_PASS()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00251">EFFECT_ROCKETMINSTA_LASER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00066">EFFECT_VAPORIZER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00076">EFFECT_VAPORIZER_HIT()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00404">FixPlayermodel()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00337">GetTeamCounts()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00100">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00285">HUD_Mod_KH()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00852">JoinBestTeam()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01963">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00692">NET_HANDLE()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00640">ons_ControlPoint_UpdateSprite()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01113">Onslaught_count_generators()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01127">Onslaught_GetWinnerTeam()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00071">relocate_spawnpoint()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00210">ScoreInfo_Init()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00231">SetTeam()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00117">SND_CTF_CAPTURE()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00132">SND_CTF_DROPPED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00150">SND_CTF_RETURNED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00165">SND_CTF_TAKEN()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00188">spawnfunc()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00101">Static_Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00061">Team_ColorCode()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00087">Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00074">Team_ColorRGB()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00114">Team_ColorToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00131">Team_IsValidTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00164">Team_NumberToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00177">Team_TeamToNumber()</a>, <a class="el" href="../../dd/dde/tests_8qc_source.html#l00010">TEST()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01711">WinningCondition_RanOutOfSpawns()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01640">WinningCondition_Scores()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00410">bot_clientconnect()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00391">buff_Init_Compat()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00322">ClientCommand_selectteam()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01253">ClientConnect()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00199">EFFECT_CAP()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00167">EFFECT_FLAG_TOUCH()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00008">EFFECT_NADE_EXPLODE()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00024">EFFECT_NADE_TRAIL()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00040">EFFECT_NADE_TRAIL_BURN()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00183">EFFECT_PASS()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00251">EFFECT_ROCKETMINSTA_LASER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00066">EFFECT_VAPORIZER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00076">EFFECT_VAPORIZER_HIT()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00402">FixPlayermodel()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00100">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00285">HUD_Mod_KH()</a>, <a class="el" href="../../d2/d08/sv__spawn__near__teammate_8qc_source.html#l00057">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00692">NET_HANDLE()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00640">ons_ControlPoint_UpdateSprite()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00071">relocate_spawnpoint()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00210">ScoreInfo_Init()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00231">SetTeam()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00117">SND_CTF_CAPTURE()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00132">SND_CTF_DROPPED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00150">SND_CTF_RETURNED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00165">SND_CTF_TAKEN()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00188">spawnfunc()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00103">Static_Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00063">Team_ColorCode()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00089">Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00076">Team_ColorRGB()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00116">Team_ColorToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00169">Team_IndexToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00133">Team_IsValidTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00184">Team_TeamToIndex()</a>, and <a class="el" href="../../dd/dde/tests_8qc_source.html#l00010">TEST()</a>.</p>
 
 </div>
 </div>
@@ -1334,9 +1477,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00018">18</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00020">20</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00410">bot_clientconnect()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00232">CheckAllowedTeams()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00322">ClientCommand_selectteam()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01185">ClientConnect()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00199">EFFECT_CAP()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00167">EFFECT_FLAG_TOUCH()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00008">EFFECT_NADE_EXPLODE()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00024">EFFECT_NADE_TRAIL()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00040">EFFECT_NADE_TRAIL_BURN()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00183">EFFECT_PASS()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00251">EFFECT_ROCKETMINSTA_LASER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00066">EFFECT_VAPORIZER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00076">EFFECT_VAPORIZER_HIT()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00404">FixPlayermodel()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00337">GetTeamCounts()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00100">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00285">HUD_Mod_KH()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00852">JoinBestTeam()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01963">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00692">NET_HANDLE()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00640">ons_ControlPoint_UpdateSprite()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01113">Onslaught_count_generators()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01127">Onslaught_GetWinnerTeam()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00071">relocate_spawnpoint()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00210">ScoreInfo_Init()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00231">SetTeam()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00117">SND_CTF_CAPTURE()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00132">SND_CTF_DROPPED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00150">SND_CTF_RETURNED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00165">SND_CTF_TAKEN()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00197">spawnfunc()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00101">Static_Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00061">Team_ColorCode()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00087">Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00074">Team_ColorRGB()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00114">Team_ColorToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00131">Team_IsValidTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00164">Team_NumberToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00177">Team_TeamToNumber()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01711">WinningCondition_RanOutOfSpawns()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01640">WinningCondition_Scores()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00410">bot_clientconnect()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00322">ClientCommand_selectteam()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01253">ClientConnect()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00199">EFFECT_CAP()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00167">EFFECT_FLAG_TOUCH()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00008">EFFECT_NADE_EXPLODE()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00024">EFFECT_NADE_TRAIL()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00040">EFFECT_NADE_TRAIL_BURN()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00183">EFFECT_PASS()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00251">EFFECT_ROCKETMINSTA_LASER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00066">EFFECT_VAPORIZER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00076">EFFECT_VAPORIZER_HIT()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00402">FixPlayermodel()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00100">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00285">HUD_Mod_KH()</a>, <a class="el" href="../../d2/d08/sv__spawn__near__teammate_8qc_source.html#l00057">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00692">NET_HANDLE()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00640">ons_ControlPoint_UpdateSprite()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00071">relocate_spawnpoint()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00210">ScoreInfo_Init()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00231">SetTeam()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00117">SND_CTF_CAPTURE()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00132">SND_CTF_DROPPED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00150">SND_CTF_RETURNED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00165">SND_CTF_TAKEN()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00197">spawnfunc()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00103">Static_Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00063">Team_ColorCode()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00089">Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00076">Team_ColorRGB()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00116">Team_ColorToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00169">Team_IndexToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00133">Team_IsValidTeam()</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00184">Team_TeamToIndex()</a>.</p>
 
 </div>
 </div>
@@ -1350,9 +1493,27 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00019">19</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00021">21</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00410">bot_clientconnect()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00232">CheckAllowedTeams()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00322">ClientCommand_selectteam()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01185">ClientConnect()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00199">EFFECT_CAP()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00167">EFFECT_FLAG_TOUCH()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00008">EFFECT_NADE_EXPLODE()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00024">EFFECT_NADE_TRAIL()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00040">EFFECT_NADE_TRAIL_BURN()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00183">EFFECT_PASS()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00251">EFFECT_ROCKETMINSTA_LASER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00066">EFFECT_VAPORIZER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00076">EFFECT_VAPORIZER_HIT()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00404">FixPlayermodel()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00337">GetTeamCounts()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00100">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00285">HUD_Mod_KH()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00852">JoinBestTeam()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01963">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00692">NET_HANDLE()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00640">ons_ControlPoint_UpdateSprite()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01113">Onslaught_count_generators()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01127">Onslaught_GetWinnerTeam()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00071">relocate_spawnpoint()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00210">ScoreInfo_Init()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00231">SetTeam()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00117">SND_CTF_CAPTURE()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00132">SND_CTF_DROPPED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00150">SND_CTF_RETURNED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00165">SND_CTF_TAKEN()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00207">spawnfunc()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00101">Static_Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00061">Team_ColorCode()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00087">Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00074">Team_ColorRGB()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00114">Team_ColorToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00131">Team_IsValidTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00164">Team_NumberToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00177">Team_TeamToNumber()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01711">WinningCondition_RanOutOfSpawns()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01640">WinningCondition_Scores()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00410">bot_clientconnect()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00322">ClientCommand_selectteam()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01253">ClientConnect()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00199">EFFECT_CAP()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00167">EFFECT_FLAG_TOUCH()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00008">EFFECT_NADE_EXPLODE()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00024">EFFECT_NADE_TRAIL()</a>, <a class="el" href="../../dd/d0a/effects_8inc_source.html#l00040">EFFECT_NADE_TRAIL_BURN()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00183">EFFECT_PASS()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00251">EFFECT_ROCKETMINSTA_LASER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00066">EFFECT_VAPORIZER()</a>, <a class="el" href="../../d9/d95/effects_2all_8inc_source.html#l00076">EFFECT_VAPORIZER_HIT()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00402">FixPlayermodel()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00997">GameCommand_moveplayer()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00100">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00285">HUD_Mod_KH()</a>, <a class="el" href="../../d2/d08/sv__spawn__near__teammate_8qc_source.html#l00057">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00692">NET_HANDLE()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00640">ons_ControlPoint_UpdateSprite()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00071">relocate_spawnpoint()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00210">ScoreInfo_Init()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00231">SetTeam()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00117">SND_CTF_CAPTURE()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00132">SND_CTF_DROPPED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00150">SND_CTF_RETURNED()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00165">SND_CTF_TAKEN()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00207">spawnfunc()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00103">Static_Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00063">Team_ColorCode()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00089">Team_ColorName()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00076">Team_ColorRGB()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00116">Team_ColorToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00169">Team_IndexToTeam()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00133">Team_IsValidTeam()</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00184">Team_TeamToIndex()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa8a8578145df7c2533066d103319ba22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> NUM_TEAMS = 4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of teams in the game. </p>
+
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00003">3</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01302">GameCommand_shuffleteams()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01113">Onslaught_count_generators()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01135">Onslaught_GetWinnerTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00042">STATIC_INIT()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00088">Team_GetNumberOfAliveTeams()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00111">Team_GetNumberOfTeamsWithControlPoints()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00795">TeamBalance_BanTeamsExcept()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00257">TeamBalance_CheckAllowedTeams()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00397">TeamBalance_Destroy()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00551">TeamBalance_FindBestTeam()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00588">TeamBalance_FindBestTeams()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00410">TeamBalance_GetAllowedTeams()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00451">TeamBalance_GetTeamCounts()</a>, and <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00634">TeamBalance_JoinBestTeam()</a>.</p>
 
 </div>
 </div>
@@ -1366,9 +1527,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00051">51</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00053">53</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00101">Static_Team_ColorName()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00103">Static_Team_ColorName()</a>.</p>
 
 </div>
 </div>
@@ -1382,9 +1543,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00052">52</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00054">54</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00101">Static_Team_ColorName()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00103">Static_Team_ColorName()</a>.</p>
 
 </div>
 </div>
@@ -1398,9 +1559,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00053">53</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00055">55</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00101">Static_Team_ColorName()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00103">Static_Team_ColorName()</a>.</p>
 
 </div>
 </div>
@@ -1414,9 +1575,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00054">54</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d07/teams_8qh_source.html#l00056">56</a> of file <a class="el" href="../../db/d07/teams_8qh_source.html">teams.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00101">Static_Team_ColorName()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d07/teams_8qh_source.html#l00103">Static_Team_ColorName()</a>.</p>
 
 </div>
 </div>
@@ -1426,7 +1587,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../db/d07/teams_8qh.html">teams.qh</a></li>
-    <li class="footer">Generated on Sat Jul 14 2018 05:41:39 for Xonotic by
+    <li class="footer">Generated on Mon Jul 16 2018 04:57:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -55,7 +55,6 @@ var searchData=
   ['cheatinit',['CheatInit',['../d6/de9/cheats_8qc.html#a2a937c6b018ccfb5185e8d5af1415472',1,'CheatInit():&#160;cheats.qc'],['../d3/dca/cheats_8qh.html#a2a937c6b018ccfb5185e8d5af1415472',1,'CheatInit():&#160;cheats.qc']]],
   ['cheatsallowed',['CheatsAllowed',['../d6/de9/cheats_8qc.html#a45a998ce5f3256bd5c9671595ca8a9c8',1,'cheats.qc']]],
   ['cheatshutdown',['CheatShutdown',['../d6/de9/cheats_8qc.html#a04ede6834b82bb3efbfcd4961fbc6f54',1,'CheatShutdown():&#160;cheats.qc'],['../d3/dca/cheats_8qh.html#a04ede6834b82bb3efbfcd4961fbc6f54',1,'CheatShutdown():&#160;cheats.qc']]],
-  ['checkallowedteams',['CheckAllowedTeams',['../de/d4f/teamplay_8qc.html#a838b897a9ae86e8bf932e57c356ec987',1,'CheckAllowedTeams(entity for_whom):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a838b897a9ae86e8bf932e57c356ec987',1,'CheckAllowedTeams(entity for_whom):&#160;teamplay.qc']]],
   ['checkbox_5fclick',['CheckBox_Click',['../dd/df9/classCheckBox.html#a66dc7c080c86babb8a59f97e5a1e82fa',1,'CheckBox::CheckBox_Click()'],['../d0/dab/item_2checkbox_8qc.html#a636d94d040cf0ddeda12d71293638f63',1,'CheckBox_Click():&#160;checkbox.qc']]],
   ['checkbox_5fclick_5fredisplay',['CheckBox_Click_Redisplay',['../d1/d61/dialog__settings__input_8qc.html#a1f23bee2ae8169b44afceb091226cf7d',1,'dialog_settings_input.qc']]],
   ['checkbox_5fconfigurecheckbox',['CheckBox_configureCheckBox',['../d0/dab/item_2checkbox_8qc.html#a4c56bc89f8620e4cde3de6641c315a69',1,'checkbox.qc']]],

@@ -1,30 +1,41 @@
 <map id="SERVER_COMMAND" name="SERVER_COMMAND">
-<area shape="rect" id="node2" href="$d3/df2/sv__cmd_8qc.html#a4de27b89578957b4828cc0d73be85c4f" title="GameCommand_shuffleteams" alt="" coords="211,588,410,615"/>
-<area shape="rect" id="node3" href="$de/d4f/teamplay_8qc.html#a838b897a9ae86e8bf932e57c356ec987" title="CheckAllowedTeams" alt="" coords="464,563,611,589"/>
-<area shape="rect" id="node8" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="514,613,561,640"/>
-<area shape="rect" id="node9" href="$db/d9b/server_2player_8qc.html#ae8276f30524c449f10ae9a9885707888" title="MoveToTeam" alt="" coords="486,436,589,463"/>
-<area shape="rect" id="node29" href="$db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d" title="Team_NumberToTeam" alt="" coords="459,664,615,691"/>
-<area shape="rect" id="node4" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1098,563,1153,589"/>
-<area shape="rect" id="node5" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="719,639,761,665"/>
-<area shape="rect" id="node6" href="$d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec" title="AvailableTeams" alt="" coords="683,537,797,564"/>
-<area shape="rect" id="node7" href="$d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f" title="NumTeams" alt="" coords="897,537,988,564"/>
-<area shape="rect" id="node10" href="$d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7" title="Damage" alt="" coords="705,487,775,513"/>
-<area shape="rect" id="node11" href="$de/d4f/teamplay_8qc.html#af954f9f806424a8cb8467d9372d8049e" title="LogTeamchange" alt="" coords="681,259,799,285"/>
-<area shape="rect" id="node22" href="$de/d4f/teamplay_8qc.html#a317914490700838803594e2a962a5d3f" title="Sets the team of the player. " alt="" coords="664,385,816,412"/>
-<area shape="rect" id="node26" href="$de/d4f/teamplay_8qc.html#a3bdfe5e750a8a5e86992d4f95eca7585" title="TeamchangeFrags" alt="" coords="675,436,805,463"/>
-<area shape="rect" id="node12" href="$dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3" title="GameLogEcho" alt="" coords="889,208,997,235"/>
-<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="1103,360,1147,387"/>
-<area shape="rect" id="node19" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="1098,5,1153,32"/>
-<area shape="rect" id="node13" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="1089,157,1161,184"/>
-<area shape="rect" id="node14" href="$dc/dc6/server_2miscfunctions_8qc.html#a0390f6703ace29f61655694b8821d84a" title="print(), but only print if the server is not local " alt="" coords="1070,208,1181,235"/>
-<area shape="rect" id="node16" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="1098,259,1153,285"/>
-<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="1100,309,1151,336"/>
-<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="1098,56,1153,83"/>
-<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="1088,107,1163,133"/>
-<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="1230,208,1277,235"/>
-<area shape="rect" id="node23" href="$de/d4f/teamplay_8qc.html#a8f6c3d852a938aab007690b9aa2875ef" title="SetPlayerColors" alt="" coords="884,385,1001,412"/>
-<area shape="rect" id="node25" href="$db/d07/teams_8qh.html#a79c60f633029beb7c4ceed0ab13725ef" title="Team_TeamToNumber" alt="" coords="865,436,1021,463"/>
-<area shape="rect" id="node24" href="$de/d4f/teamplay_8qc.html#aad4cb62bd1f6b12bec2a35ac31385cd3" title="setcolor" alt="" coords="1091,411,1159,437"/>
-<area shape="rect" id="node27" href="$d2/d79/scores_8qc.html#a408a3ce2d8238dea7575fb00e5b0df63" title="Initialize the score of this player if needed. " alt="" coords="877,487,1008,513"/>
-<area shape="rect" id="node28" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="1105,487,1146,513"/>
+<area shape="rect" id="node2" href="$d3/df2/sv__cmd_8qc.html#a4de27b89578957b4828cc0d73be85c4f" title="GameCommand_shuffleteams" alt="" coords="211,411,410,437"/>
+<area shape="rect" id="node3" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1054,411,1109,437"/>
+<area shape="rect" id="node4" href="$de/d4f/teamplay_8qc.html#a22c172b1bbd702efeb58f24a2cb5ac27" title="Returns the team index of the given entity. " alt="" coords="1007,309,1156,336"/>
+<area shape="rect" id="node6" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="535,360,582,387"/>
+<area shape="rect" id="node7" href="$de/d4f/teamplay_8qc.html#afe0ef467f494e30d9b3e48b8d1a0a341" title="Moves player to the specified team. " alt="" coords="507,259,610,285"/>
+<area shape="rect" id="node28" href="$de/d4f/teamplay_8qc.html#acb73b42eb788f18df47e8496810cb6e3" title="Checks whether the player can join teams according to global configuration and mutator settings..." alt="" coords="462,657,655,698"/>
+<area shape="rect" id="node30" href="$de/d4f/teamplay_8qc.html#a30e7d9bb583ec1b560c17ecde4b0a681" title="Destroy the team balance entity. " alt="" coords="736,461,891,488"/>
+<area shape="rect" id="node40" href="$de/d4f/teamplay_8qc.html#acc837925d29f532c0c1668ff6b53a5c1" title="Returns whether the team change to the specified team is allowed. " alt="" coords="459,925,658,952"/>
+<area shape="rect" id="node5" href="$db/d07/teams_8qh.html#a897aed6be6a82e4d6622abde399e002d" title="Converts team value into team index. " alt="" coords="1243,360,1386,387"/>
+<area shape="rect" id="node8" href="$d2/d79/scores_8qc.html#a408a3ce2d8238dea7575fb00e5b0df63" title="Initialize the score of this player if needed. " alt="" coords="748,360,879,387"/>
+<area shape="rect" id="node10" href="$de/d4f/teamplay_8qc.html#a6188cc09d10faf2c92656588faa367f9" title="Sets the team of the player. " alt="" coords="757,259,869,285"/>
+<area shape="rect" id="node9" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="1061,360,1102,387"/>
+<area shape="rect" id="node11" href="$de/d4f/teamplay_8qc.html#a6e4c589ab38a038773f6bd50178dae9e" title="Sets the team of the player using its index. " alt="" coords="1006,259,1157,285"/>
+<area shape="rect" id="node15" href="$de/d4f/teamplay_8qc.html#a66faf25d360a435784525de9aeba4d9e" title="LogTeamchange" alt="" coords="1022,120,1141,147"/>
+<area shape="rect" id="node26" href="$de/d4f/teamplay_8qc.html#ad358e614645b7bbf926efeb9af932a5d" title="Kills player as a result of team change. " alt="" coords="994,208,1169,235"/>
+<area shape="rect" id="node12" href="$db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a" title="Converts team index into team value. " alt="" coords="1243,309,1386,336"/>
+<area shape="rect" id="node13" href="$de/d4f/teamplay_8qc.html#a8f6c3d852a938aab007690b9aa2875ef" title="SetPlayerColors" alt="" coords="1256,259,1373,285"/>
+<area shape="rect" id="node14" href="$de/d4f/teamplay_8qc.html#aad4cb62bd1f6b12bec2a35ac31385cd3" title="setcolor" alt="" coords="1457,411,1525,437"/>
+<area shape="rect" id="node16" href="$dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3" title="GameLogEcho" alt="" coords="1261,157,1369,184"/>
+<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="1469,5,1513,32"/>
+<area shape="rect" id="node23" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="1463,56,1518,83"/>
+<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="1455,157,1527,184"/>
+<area shape="rect" id="node18" href="$dc/dc6/server_2miscfunctions_8qc.html#a0390f6703ace29f61655694b8821d84a" title="print(), but only print if the server is not local " alt="" coords="1435,208,1546,235"/>
+<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="1463,259,1518,285"/>
+<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="1465,309,1516,336"/>
+<area shape="rect" id="node24" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="1463,360,1518,387"/>
+<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="1453,107,1528,133"/>
+<area shape="rect" id="node19" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="1595,208,1642,235"/>
+<area shape="rect" id="node27" href="$d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7" title="Damage" alt="" coords="1279,208,1350,235"/>
+<area shape="rect" id="node29" href="$d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" title="spawn" alt="" coords="783,563,843,589"/>
+<area shape="rect" id="node31" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="792,613,835,640"/>
+<area shape="rect" id="node32" href="$db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7" title="Returns whether team value is valid. " alt="" coords="746,664,881,691"/>
+<area shape="rect" id="node33" href="$de/d4f/teamplay_8qc.html#aebcef3dce1a9a78c04ff5a26d9aaf8b7" title="Returns the team entity of the team balance entity that corresponds to the given TEAM_NUM value..." alt="" coords="732,765,895,792"/>
+<area shape="rect" id="node36" href="$d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec" title="AvailableTeams" alt="" coords="756,867,871,893"/>
+<area shape="rect" id="node38" href="$de/d4f/teamplay_8qc.html#aa51e7262063512a9c4720abdc5568d48" title="Returns whether the team change to the specified team is allowed. " alt="" coords="714,918,913,959"/>
+<area shape="rect" id="node39" href="$de/d4f/teamplay_8qc.html#a313d54cad51a44d5b27a6b03366b728a" title="Bans team change to all teams except the given one. " alt="" coords="707,816,920,843"/>
+<area shape="rect" id="node34" href="$de/d4f/teamplay_8qc.html#af3b1646b76af378b8a2c420213e0a4a4" title="Returns the team entity of the team balance entity at the given index. " alt="" coords="969,816,1194,843"/>
+<area shape="rect" id="node35" href="$db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001" title="Returns whether the team index is valid. " alt="" coords="1247,900,1382,927"/>
+<area shape="rect" id="node37" href="$d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f" title="NumTeams" alt="" coords="1036,867,1127,893"/>
 </map>

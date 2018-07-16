@@ -1,5 +1,7 @@
 var NAVTREEINDEX100 =
 {
+"db/d7f/effectinfo_8inc.html#ab8d4358ab892592963444382c51dabe0":[2,0,1,2,7,121],
+"db/d7f/effectinfo_8inc.html#ab90223961508f645ad16d0e986ddee4b":[2,0,1,2,7,100],
 "db/d7f/effectinfo_8inc.html#ab9287e334e48eb1ba92dc8389db02cfc":[2,0,1,2,7,372],
 "db/d7f/effectinfo_8inc.html#abab5799519027d747452ebc4e1b8efa5":[2,0,1,2,7,250],
 "db/d7f/effectinfo_8inc.html#abb6112854e17d6ca58c689e8097ff03b":[2,0,1,2,7,308],
@@ -206,16 +208,15 @@ var NAVTREEINDEX100 =
 "db/d98/common_2gamemodes_2gamemode_2ctf_2__mod_8inc.html":[2,0,1,3,0,2,0],
 "db/d98/common_2gamemodes_2gamemode_2ctf_2__mod_8inc_source.html":[2,0,1,3,0,2,0],
 "db/d9b/server_2player_8qc.html":[2,0,6,43],
-"db/d9b/server_2player_8qc.html#a2c4acf85cd876d0e628435d91592d615":[2,0,6,43,8],
-"db/d9b/server_2player_8qc.html#a51c4a1afebc1206d7849ebd9f21e2f3b":[2,0,6,43,5],
-"db/d9b/server_2player_8qc.html#a702d414b3a7f91c3e1746aaef5f9382c":[2,0,6,43,7],
+"db/d9b/server_2player_8qc.html#a2c4acf85cd876d0e628435d91592d615":[2,0,6,43,7],
+"db/d9b/server_2player_8qc.html#a51c4a1afebc1206d7849ebd9f21e2f3b":[2,0,6,43,4],
+"db/d9b/server_2player_8qc.html#a702d414b3a7f91c3e1746aaef5f9382c":[2,0,6,43,6],
 "db/d9b/server_2player_8qc.html#a74a2991ad4b1aad6bfc27e899c563d29":[2,0,6,43,3],
 "db/d9b/server_2player_8qc.html#a9d529760b279c19bb3b1d15c4da335d1":[2,0,6,43,0],
-"db/d9b/server_2player_8qc.html#abb0f165077ac886332b821ac30314b8a":[2,0,6,43,10],
-"db/d9b/server_2player_8qc.html#ae245d92e33b2c7cffe13cf28980afa34":[2,0,6,43,9],
-"db/d9b/server_2player_8qc.html#ae8276f30524c449f10ae9a9885707888":[2,0,6,43,4],
+"db/d9b/server_2player_8qc.html#abb0f165077ac886332b821ac30314b8a":[2,0,6,43,9],
+"db/d9b/server_2player_8qc.html#ae245d92e33b2c7cffe13cf28980afa34":[2,0,6,43,8],
 "db/d9b/server_2player_8qc.html#aef50b8473159af9d6f77b966bc0cbe00":[2,0,6,43,2],
-"db/d9b/server_2player_8qc.html#af02653db703c3e3f494f19b4f6f8b8b1":[2,0,6,43,6],
+"db/d9b/server_2player_8qc.html#af02653db703c3e3f494f19b4f6f8b8b1":[2,0,6,43,5],
 "db/d9b/server_2player_8qc.html#af2cf7e359cda23b596ac40cda3f9ba87":[2,0,6,43,1],
 "db/d9b/server_2player_8qc_source.html":[2,0,6,43],
 "db/d9d/common_2vehicles_2vehicle_2__mod_8qh.html":[2,0,1,15,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX100 =
 "db/da0/log_8qh.html#a58c994180e09d2f6400133b19b1d7036":[2,0,4,30,29],
 "db/da0/log_8qh.html#a5fd496d0ac3b596309d4b9f3428c2622":[2,0,4,30,4],
 "db/da0/log_8qh.html#a6a22381a4dadac3410d2caae6765d47e":[2,0,4,30,5],
-"db/da0/log_8qh.html#a6aebf22c1f26cea3e620968d6e8a4022":[2,0,4,30,0],
-"db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e":[2,0,4,30,28]
+"db/da0/log_8qh.html#a6aebf22c1f26cea3e620968d6e8a4022":[2,0,4,30,0]
 };

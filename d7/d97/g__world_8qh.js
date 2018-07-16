@@ -16,6 +16,8 @@ var g__world_8qh =
     [ "SetWinners", "d7/d97/g__world_8qh.html#a5e4e81a9c481420994df74eef50865c8", null ],
     [ "ShuffleMaplist", "d7/d97/g__world_8qh.html#a828a5409a4543c1aa36549252a04fb0f", null ],
     [ "WinningCondition_Scores", "d7/d97/g__world_8qh.html#a78c0ed0111dcca8924305a46bbf880bd", null ],
+    [ "cache_lastmutatormsg", "d7/d97/g__world_8qh.html#a8801bcd8219a784f96599328753a1d25", null ],
+    [ "cache_mutatormsg", "d7/d97/g__world_8qh.html#afb83b1d6cc1d1144d6db6342f3d0f4cc", null ],
     [ "checkrules_equality", "d7/d97/g__world_8qh.html#a97caeb65352f57bb47a6e6c68717d340", null ],
     [ "checkrules_overtimesadded", "d7/d97/g__world_8qh.html#aa828ac5e3b48ed829d4aac6a23588e7c", null ],
     [ "checkrules_suddendeathend", "d7/d97/g__world_8qh.html#a81db127801d7028f9604ec186e49abe5", null ],

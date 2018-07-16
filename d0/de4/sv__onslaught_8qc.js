@@ -1,7 +1,5 @@
 var sv__onslaught_8qc =
 [
-    [ "ONS_OWNED_GENERATORS", "d0/de4/sv__onslaught_8qc.html#a32276966b2981b593951bac548f72bd3", null ],
-    [ "ONS_OWNED_GENERATORS_OK", "d0/de4/sv__onslaught_8qc.html#aa085a181dec5164bf6bf421e17b95ffd", null ],
     [ "clientcamera_send", "d0/de4/sv__onslaught_8qc.html#a330d402bc81f9b3c18362a59ad76707a", null ],
     [ "FixSize", "d0/de4/sv__onslaught_8qc.html#ae3b2b9ab5e59b7825352e92ec024f767", null ],
     [ "havocbot_goalrating_ons_controlpoints_attack", "d0/de4/sv__onslaught_8qc.html#a2162e5e10c6371e662d77220d09fad9f", null ],
@@ -21,7 +19,7 @@ var sv__onslaught_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#acdbc147f58aa71c52025d345f5148b94", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#a23925223ae748d91aa5afac60d73dfde", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#ab7605909625a2540be9c13415706209d", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#a7e5334a2fe5726f6dece5bb21e8a37de", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#ab8c241813e4421639ae66a6991563418", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#a0ecbce96eab77cec8cddc6ec6effb537", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#a60075dce221d6912949ccf44eea03465", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#ac987891f2cb3533a6913344b85bec3ca", null ],

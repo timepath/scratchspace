@@ -180,7 +180,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00008">campaign_entries</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00017">campaign_level</a>, <a class="el" href="../../d7/d13/campaign__common_8qh.html#ae2f904eeb0bb4119ac6be954bf3223d3">CampaignFile_Load()</a>, <a class="el" href="../../db/d55/campaign__file_8qc_source.html#l00087">CampaignFile_Unload()</a>, <a class="el" href="../../d7/d13/campaign__common_8qh.html#a8b3642c3f26e338a0bfdc5d435852b0e">CampaignSetup()</a>, and <a class="el" href="../../d2/d77/pre_8qh_source.html#l00006">error</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01564">GameCommand_warp()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01614">GameCommand_warp()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;{</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <span class="keywordflow">if</span>(n &lt; 0)</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        n = <a class="code" href="../../de/d75/server_2campaign_8qc.html#aeee1343f634f4c3dd793da5866d2dc7b">campaign_level</a> + 1;</div>
@@ -238,7 +238,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00004">autocvar__campaign_testrun</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00014">campaign_fraglimit</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00061">Campaign_Invalid()</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00015">campaign_timelimit</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00030">cvar_set_normal</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00582">spawnfunc()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00635">spawnfunc()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;{</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="comment">// now some sanity checks</span></div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../de/d75/server_2campaign_8qc.html#abfea39da7117c15c75361680cf612c4b">Campaign_Invalid</a>())</div>
@@ -305,7 +305,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00008">campaign_entries</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00019">campaign_index_var</a>, <a class="el" href="../../dd/d66/server_2campaign_8qh_source.html#l00006">campaign_message</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00026">campaign_name</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00018">campaign_won</a>, <a class="el" href="../../db/d55/campaign__file_8qc_source.html#l00087">CampaignFile_Unload()</a>, <a class="el" href="../../d7/d13/campaign__common_8qh.html#a8b3642c3f26e338a0bfdc5d435852b0e">CampaignSetup()</a>, <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00021">localcmd</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00082">LOG_DEBUG</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01195">DoNextMapOverride()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01248">DoNextMapOverride()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;{</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="comment">// NOTE: campaign_won is 0 or 1, that is, points to the next level</span></div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
@@ -375,7 +375,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00005">autocvar__campaign_index</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00006">autocvar__campaign_name</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00110">autocvar_g_campaign_skill</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00277">autocvar_sv_cheats</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00307">autocvar_sv_gravity</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00012">campaign_bots</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00013">campaign_botskill</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00008">campaign_entries</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00010">campaign_gametype</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00019">campaign_index_var</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00061">Campaign_Invalid()</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00017">campaign_level</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00018">campaign_longdesc</a>, <a class="el" href="../../dd/d66/server_2campaign_8qh_source.html#l00006">campaign_message</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00016">campaign_mutators</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00026">campaign_name</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00017">campaign_shortdesc</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00022">CampaignBailout()</a>, <a class="el" href="../../d7/d13/campaign__common_8qh.html#ae2f904eeb0bb4119ac6be954bf3223d3">CampaignFile_Load()</a>, <a class="el" href="../../db/d55/campaign__file_8qc_source.html#l00087">CampaignFile_Unload()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00047">cvar_campaignwrapper()</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00034">cvar_campaignwrapper_list</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00051">cvar_set_campaignwrapper()</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00030">cvar_set_normal</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00035">cvar_string_campaignwrapper()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l01178">MapInfo_SwitchGameType()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00605">MapInfo_Type_FromString()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00582">spawnfunc()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00635">spawnfunc()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">float</span> baseskill;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">string</span> title;</div>
@@ -504,7 +504,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00004">autocvar__campaign_testrun</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00015">autocvar_fraglimit</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00371">autocvar_timelimit</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38">bprint()</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00008">campaign_entries</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00019">campaign_index_var</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00017">campaign_level</a>, <a class="el" href="../../d7/d13/campaign__common_8qh_source.html#l00026">campaign_name</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00018">campaign_won</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00151">CampaignSaveCvar()</a>, <a class="el" href="../../d3/dca/cheats_8qh_source.html#l00007">cheatcount_total</a>, <a class="el" href="../../d7/d97/g__world_8qh_source.html#l00003">checkrules_equality</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00025">cvar_normal()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01503">NextLevel()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01556">NextLevel()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;{</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keywordtype">int</span> won = 0;</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordtype">int</span> lost = 0;</div>
@@ -626,7 +626,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d66/server_2campaign_8qh_source.html#l00019">19</a> of file <a class="el" href="../../dd/d66/server_2campaign_8qh_source.html">campaign.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00066">bot_think()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02053">Join()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00700">Monster_Move()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01075">Monster_Move_2D()</a>, <a class="el" href="../../d1/d98/sv__campcheck_8qc_source.html#l00036">MUTATOR_HOOKFUNCTION()</a>, and <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00009">round_handler_Think()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00066">bot_think()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02118">Join()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00700">Monster_Move()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01075">Monster_Move_2D()</a>, <a class="el" href="../../d1/d98/sv__campcheck_8qc_source.html#l00036">MUTATOR_HOOKFUNCTION()</a>, and <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00009">round_handler_Think()</a>.</p>
 
 </div>
 </div>
@@ -642,7 +642,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d66/server_2campaign_8qh_source.html#l00006">6</a> of file <a class="el" href="../../dd/d66/server_2campaign_8qh_source.html">campaign.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00258">CampaignPostIntermission()</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00074">CampaignPreInit()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02141">PrintWelcomeMessage()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00258">CampaignPostIntermission()</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00074">CampaignPreInit()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02208">PrintWelcomeMessage()</a>.</p>
 
 </div>
 </div>
@@ -652,7 +652,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dd/d66/server_2campaign_8qh.html">campaign.qh</a></li>
-    <li class="footer">Generated on Sat Jul 14 2018 05:41:43 for Xonotic by
+    <li class="footer">Generated on Mon Jul 16 2018 04:57:36 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

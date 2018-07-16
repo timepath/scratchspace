@@ -406,6 +406,10 @@ $(document).ready(function(){initNavTree('globals_func_p.html','');});
 <li>player_regen()
 : <a class="el" href="df/dd7/server_2client_8qc.html#a86d11ca9bae40e7268a22973fe720d53">client.qc</a>
 </li>
+<li>Player_SetTeamIndex()
+: <a class="el" href="de/d4f/teamplay_8qc.html#a6e4c589ab38a038773f6bd50178dae9e">teamplay.qc</a>
+, <a class="el" href="d2/d76/teamplay_8qh.html#a6e4c589ab38a038773f6bd50178dae9e">teamplay.qh</a>
+</li>
 <li>player_setupanimsformodel()
 : <a class="el" href="d5/d26/server_2defs_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1">defs.qh</a>
 , <a class="el" href="db/d9b/server_2player_8qc.html#af02653db703c3e3f494f19b4f6f8b8b1">player.qc</a>
@@ -523,10 +527,6 @@ $(document).ready(function(){initNavTree('globals_func_p.html','');});
 <li>PlayerUseKey()
 : <a class="el" href="df/dd7/server_2client_8qc.html#a457d60bc0a50d32a90da5a3acb9e8db1">client.qc</a>
 , <a class="el" href="d5/d26/server_2defs_8qh.html#a457d60bc0a50d32a90da5a3acb9e8db1">defs.qh</a>
-</li>
-<li>PlayerValue()
-: <a class="el" href="de/d4f/teamplay_8qc.html#a03beeb550118f87341e3c16c53300a6d">teamplay.qc</a>
-, <a class="el" href="d2/d76/teamplay_8qh.html#a03beeb550118f87341e3c16c53300a6d">teamplay.qh</a>
 </li>
 <li>PlayList_Remove()
 : <a class="el" href="d8/d29/playlist_8qc.html#ad70aacf2537ac90edf75bdfb0e4501c0">playlist.qc</a>
@@ -731,18 +731,19 @@ $(document).ready(function(){initNavTree('globals_func_p.html','');});
 : <a class="el" href="db/d55/random_8qh.html#ac9374eebe45a9ddc064240323c12d086">random.qh</a>
 , <a class="el" href="dc/d95/random_8qc.html#ac9374eebe45a9ddc064240323c12d086">random.qc</a>
 </li>
-<li>PRECACHE()
-: <a class="el" href="df/d6e/globalsound_8qh.html#a8e39938ef99c4d1672b2aa03d96f023f">globalsound.qh</a>
-, <a class="el" href="dd/d65/models_2all_8qh.html#a7bfa27dc43063519d067fe7d01f70850">all.qh</a>
-</li>
 <li>precache()
 : <a class="el" href="dc/d73/server_2miscfunctions_8qh.html#a98a446c0272a8ef358d2113f9694a14a">miscfunctions.qh</a>
 </li>
 <li>PRECACHE()
 : <a class="el" href="d3/db6/projectile_8qc.html#ac4299ed240f883c226a73f8b7c4da3fa">projectile.qc</a>
+, <a class="el" href="df/d6e/globalsound_8qh.html#a8e39938ef99c4d1672b2aa03d96f023f">globalsound.qh</a>
+, <a class="el" href="df/dc2/sounds_2all_8qh.html#a81bc2d94213d22271252a8bed7e9887d">all.qh</a>
 </li>
 <li>precache()
 : <a class="el" href="dc/dc6/server_2miscfunctions_8qc.html#a98a446c0272a8ef358d2113f9694a14a">miscfunctions.qc</a>
+</li>
+<li>PRECACHE()
+: <a class="el" href="dd/d65/models_2all_8qh.html#a7bfa27dc43063519d067fe7d01f70850">all.qh</a>
 </li>
 <li>precache_all_playermodels()
 : <a class="el" href="dc/d73/server_2miscfunctions_8qh.html#a5ea7bf591f44cf22ed52a48b1aa4f012">miscfunctions.qh</a>
@@ -915,7 +916,7 @@ $(document).ready(function(){initNavTree('globals_func_p.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 14 2018 05:41:54 for Xonotic by
+    <li class="footer">Generated on Mon Jul 16 2018 04:57:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

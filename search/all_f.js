@@ -113,8 +113,6 @@ var searchData=
   ['ons_5fnearest_5fcontrolpoint_5f2d',['ons_Nearest_ControlPoint_2D',['../d0/de4/sv__onslaught_8qc.html#a45727bfadb959a8ece04a33598e0e261',1,'sv_onslaught.qc']]],
   ['ons_5fnotification_5ftime',['ons_notification_time',['../d7/dd0/sv__onslaught_8qh.html#a1515a1275117558fddca317190ee2c3b',1,'sv_onslaught.qh']]],
   ['ons_5fovertime_5fdamagedelay',['ons_overtime_damagedelay',['../d7/dd0/sv__onslaught_8qh.html#aae070ab121f6ef048c190ae84f2f882c',1,'sv_onslaught.qh']]],
-  ['ons_5fowned_5fgenerators',['ONS_OWNED_GENERATORS',['../d0/de4/sv__onslaught_8qc.html#a32276966b2981b593951bac548f72bd3',1,'sv_onslaught.qc']]],
-  ['ons_5fowned_5fgenerators_5fok',['ONS_OWNED_GENERATORS_OK',['../d0/de4/sv__onslaught_8qc.html#aa085a181dec5164bf6bf421e17b95ffd',1,'sv_onslaught.qc']]],
   ['ons_5fscorerules',['ons_ScoreRules',['../d0/de4/sv__onslaught_8qc.html#a14d65ec90152a736bb77ef787a7048ce',1,'sv_onslaught.qc']]],
   ['ons_5fspawn_5fby',['ons_spawn_by',['../d7/dd0/sv__onslaught_8qh.html#a62cbb170bbfeec4295f50d47b5b2bb37',1,'sv_onslaught.qh']]],
   ['ons_5fstalemate',['ons_stalemate',['../d7/dd0/sv__onslaught_8qh.html#a5b68d076e8c95387a77d53ccfdb6ab49',1,'sv_onslaught.qh']]],

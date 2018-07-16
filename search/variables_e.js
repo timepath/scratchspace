@@ -156,10 +156,6 @@ var searchData=
   ['nt_5fautoreplace_5frandom',['NT_AUTOREPLACE_RANDOM',['../df/dca/sv__new__toys_8qc.html#afabf9f47c6b778afe1c8c35d68052ed2',1,'sv_new_toys.qc']]],
   ['null_5fentity',['null_entity',['../d8/de2/menudefs_8qc.html#a25734e9b66e6a907c21fc3d4417ecd63',1,'menudefs.qc']]],
   ['num_5fautoscreenshot',['num_autoscreenshot',['../d6/de9/cheats_8qc.html#ac8c324931fb0af19eddfa7d523f12321',1,'cheats.qc']]],
-  ['num_5fbots_5fteam1',['num_bots_team1',['../d2/d76/teamplay_8qh.html#a2679b5f3a66bc4ff11da6a36e6e5343d',1,'teamplay.qh']]],
-  ['num_5fbots_5fteam2',['num_bots_team2',['../d2/d76/teamplay_8qh.html#ae778fbc2294600989cfb890d0bee7cf8',1,'teamplay.qh']]],
-  ['num_5fbots_5fteam3',['num_bots_team3',['../d2/d76/teamplay_8qh.html#aa2b2e362f45dc3db0e8bdaa97e3ed0fb',1,'teamplay.qh']]],
-  ['num_5fbots_5fteam4',['num_bots_team4',['../d2/d76/teamplay_8qh.html#aa0603bc6333fb65d4ac973e6029fdc3e',1,'teamplay.qh']]],
   ['num_5fjumppadsused',['NUM_JUMPPADSUSED',['../d9/de7/jumppads_8qh.html#a77892eee020bbf3a667b5c4c14b83f17',1,'jumppads.qh']]],
   ['num_5fmarkups',['NUM_MARKUPS',['../d8/d96/markup_8qh.html#a50935ffcf920afcf2b48e968cc12bb38',1,'markup.qh']]],
   ['num_5fnearest_5fentities',['NUM_NEAREST_ENTITIES',['../dc/d73/server_2miscfunctions_8qh.html#aef022c04c63946dd9efc31db4b657cdb',1,'miscfunctions.qh']]],
@@ -171,6 +167,7 @@ var searchData=
   ['num_5fteam_5f2',['NUM_TEAM_2',['../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f',1,'teams.qh']]],
   ['num_5fteam_5f3',['NUM_TEAM_3',['../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd',1,'teams.qh']]],
   ['num_5fteam_5f4',['NUM_TEAM_4',['../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56',1,'teams.qh']]],
+  ['num_5fteams',['NUM_TEAMS',['../db/d07/teams_8qh.html#aa8a8578145df7c2533066d103319ba22',1,'teams.qh']]],
   ['nummodels',['numModels',['../da/d6d/classXonoticPlayerModelSelector.html#a4ba44159ca25c30a542d1d28ced0d394',1,'XonoticPlayerModelSelector']]],
   ['nvalues',['nValues',['../db/db4/classTextSlider.html#aa85ac553a7c9b2131fb49fe64205bc00',1,'TextSlider']]]
 ];

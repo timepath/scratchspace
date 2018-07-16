@@ -47,6 +47,7 @@ var searchData=
   ['g_5fsaved_5fteam',['g_saved_team',['../d5/d26/server_2defs_8qh.html#a3f48b5d42d9436789de6314586bf47cd',1,'defs.qh']]],
   ['g_5fspawn_5fqueue',['g_spawn_queue',['../da/d20/spawnfunc_8qh.html#ae520c557d0e22b803e268760bc77f205',1,'spawnfunc.qh']]],
   ['g_5fspawnpoints',['g_spawnpoints',['../d5/d26/server_2defs_8qh.html#aad1564de97f4fade819668ac308c7133',1,'defs.qh']]],
+  ['g_5fteam_5fentities',['g_team_entities',['../de/d4f/teamplay_8qc.html#a643c2c8c28746d522f4cc4356bf34849',1,'teamplay.qc']]],
   ['g_5fteleporters',['g_teleporters',['../dd/d2d/teleporters_8qh.html#acce302c0f2186fb419328bb3a9c5a1a7',1,'teleporters.qh']]],
   ['g_5ftrueaim_5fminrange',['g_trueaim_minrange',['../d0/d2a/client_2main_8qh.html#a03cabea65bbb5dff4c8ffa4657e18a46',1,'main.qh']]],
   ['g_5fturrets',['g_turrets',['../d5/d26/server_2defs_8qh.html#a71d9d85444edb3e24612182fe26fbfff',1,'defs.qh']]],

@@ -5,7 +5,6 @@ var server_2player_8qh =
     [ "ClientKill_Now_TeamChange", "da/dc1/server_2player_8qh.html#ad782a8ecd5d72aefee13e592a4906f84", null ],
     [ "CopyBody", "da/dc1/server_2player_8qh.html#af2cf7e359cda23b596ac40cda3f9ba87", null ],
     [ "CopyBody_Think", "da/dc1/server_2player_8qh.html#aef50b8473159af9d6f77b966bc0cbe00", null ],
-    [ "MoveToTeam", "da/dc1/server_2player_8qh.html#a314f6cfc744b1dbe79349c3534610087", null ],
     [ "player_anim", "da/dc1/server_2player_8qh.html#a51c4a1afebc1206d7849ebd9f21e2f3b", null ],
     [ "player_setupanimsformodel", "da/dc1/server_2player_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1", null ],
     [ "PlayerCorpseDamage", "da/dc1/server_2player_8qh.html#a702d414b3a7f91c3e1746aaef5f9382c", null ],
