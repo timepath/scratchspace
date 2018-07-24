@@ -587,7 +587,7 @@ var searchData=
   ['spawnfunc_5f2',['spawnfunc_2',['../da/d20/spawnfunc_8qh.html#ac237ac49370487f5d91312a3bdd04abc',1,'spawnfunc.qh']]],
   ['spawnfunc_5fchecked',['spawnfunc_checked',['../da/d20/spawnfunc_8qh.html#acf818192a10457d834cc057718d25ad3',1,'spawnfunc.qh']]],
   ['spawnfunc_5finternal_5ffields',['SPAWNFUNC_INTERNAL_FIELDS',['../da/d20/spawnfunc_8qh.html#a3b46bba07f5bf76ddd3eea7763bd03cb',1,'spawnfunc.qh']]],
-  ['spawnfunc_5fitem',['SPAWNFUNC_ITEM',['../d7/d7c/common_2items_2item_8qh.html#a7bdf5dd6eba15157f42fd849a7e4f8b2',1,'SPAWNFUNC_ITEM():&#160;item.qh'],['../d0/da9/quake_8qc.html#ada4a015192791f313c8ce838ab20306e',1,'SPAWNFUNC_ITEM(item_armorInv, ITEM_ArmorMega) spawnfunc(item_health):&#160;quake.qc']]],
+  ['spawnfunc_5fitem',['SPAWNFUNC_ITEM',['../d7/d7c/common_2items_2item_8qh.html#a7bdf5dd6eba15157f42fd849a7e4f8b2',1,'item.qh']]],
   ['spawnfunc_5fweapon',['SPAWNFUNC_WEAPON',['../d2/d1c/weapons_2weapon_8qh.html#ac134501dee727ad9b18d7842f86275a4',1,'weapon.qh']]],
   ['spawning_2eqc',['spawning.qc',['../dc/dab/spawning_8qc.html',1,'']]],
   ['spawning_2eqh',['spawning.qh',['../d3/d93/spawning_8qh.html',1,'']]],

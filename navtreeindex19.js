@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"d2/d94/xonotic_2tab_8qc.html#a13fe5728a418b314ab87bb874e42231d":[2,0,5,4,222,0],
 "d2/d94/xonotic_2tab_8qc_source.html":[2,0,5,4,222],
 "d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc.html":[2,0,1,10,0,11,0],
 "d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc_source.html":[2,0,1,10,0,11,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "d2/db4/string_8qh.html#a18d360dae8acec6fc943d884ad153f8d":[2,0,4,58,15],
 "d2/db4/string_8qh.html#a1d0e883111c8be02c8329ff1021e4141":[2,0,4,58,11],
 "d2/db4/string_8qh.html#a2070f8704d8eb36e69d6d129330758cb":[2,0,4,58,13],
-"d2/db4/string_8qh.html#a3600e318ed92e9cfc237b214fcd1713d":[2,0,4,58,34]
+"d2/db4/string_8qh.html#a3600e318ed92e9cfc237b214fcd1713d":[2,0,4,58,34],
+"d2/db4/string_8qh.html#a3666b550a6b7dd5708c32be524c0f95e":[2,0,4,58,38]
 };

@@ -197,7 +197,6 @@ var NAVTREEINDEX4 =
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#affc47b0cc8d3babeb395799cb08dbd8a":[2,0,1,10,0,2,2,5],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc_source.html":[2,0,1,10,0,2,2],
 "d0/da9/quake_8qc.html":[2,0,6,2,4],
-"d0/da9/quake_8qc.html#ada4a015192791f313c8ce838ab20306e":[2,0,6,2,4,0],
 "d0/da9/quake_8qc_source.html":[2,0,6,2,4],
 "d0/dab/classOnslaught.html":[1,0,93],
 "d0/dab/classOnslaught.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,93,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "d0/dae/classItem.html#a78a12a1a3e37a6dbc14a2ba79587c18a":[1,0,59,11],
 "d0/dae/classItem.html#a7b13cdc101cd55528465440586a004f6":[1,0,59,19],
 "d0/dae/classItem.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,59,4],
-"d0/dae/classItem.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,59,21]
+"d0/dae/classItem.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,59,21],
+"d0/dae/classItem.html#a8b21e5939eeacdcdd0d48af03f27f91c":[1,0,59,7]
 };
