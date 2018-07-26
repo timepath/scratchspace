@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"d9/db3/classXonoticGameModelSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,179,7],
 "d9/db4/secret_8qc.html":[2,0,1,6,3,40],
 "d9/db4/secret_8qc_source.html":[2,0,1,6,3,40],
 "d9/db6/nades_8inc.html":[2,0,1,10,0,19,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "d9/de9/classListBox.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,70,54],
 "d9/de9/classListBox.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,70,13],
 "d9/de9/classListBox.html#a8d5a935747a7f96703877a0d28788eea":[1,0,70,67],
-"d9/de9/classListBox.html#a955acbbda432fb19399292cbac96e0af":[1,0,70,48],
-"d9/de9/classListBox.html#aa089b7b1be6d628383e60c872a900c79":[1,0,70,47]
+"d9/de9/classListBox.html#a955acbbda432fb19399292cbac96e0af":[1,0,70,48]
 };

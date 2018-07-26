@@ -1,5 +1,6 @@
 var sv__sandbox_8qc =
 [
+    [ "SANDBOX_GETARG", "d3/d59/sv__sandbox_8qc.html#a29d2c4027162621e85bef5db0197d290", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d59/sv__sandbox_8qc.html#a6f79da83c2648a1ac994c05e6fe5fc6d", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d59/sv__sandbox_8qc.html#ac145d26d95e61f3913b6a3c0b4ab6d7e", null ],
     [ "sandbox_Database_Load", "d3/d59/sv__sandbox_8qc.html#ae04de84f5572160d33a028c58e54401b", null ],
