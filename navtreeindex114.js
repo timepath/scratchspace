@@ -1,7 +1,5 @@
 var NAVTREEINDEX114 =
 {
-"dd/d70/pathlib_8qh.html#a0eedbf47f8c1205a64eb45dc215188cd":[2,0,6,4,14,7],
-"dd/d70/pathlib_8qh.html#a100221a5bce094152cfaf278eb45c2c3":[2,0,6,4,14,41],
 "dd/d70/pathlib_8qh.html#a101028c0b857ab5c0c2c7947948f8984":[2,0,6,4,14,18],
 "dd/d70/pathlib_8qh.html#a12c1d56571501d1b6635f7e59008e224":[2,0,6,4,14,52],
 "dd/d70/pathlib_8qh.html#a12da171f51a922eda37e7dd9158f8b9b":[2,0,6,4,14,76],
@@ -249,5 +247,7 @@ var NAVTREEINDEX114 =
 "dd/d8a/dialog__settings__game__hudconfirm_8qh.html":[2,0,5,4,131],
 "dd/d8a/dialog__settings__game__hudconfirm_8qh_source.html":[2,0,5,4,131],
 "dd/d8a/sv__weapon_8qh.html":[2,0,1,3,0,11,5],
-"dd/d8a/sv__weapon_8qh_source.html":[2,0,1,3,0,11,5]
+"dd/d8a/sv__weapon_8qh_source.html":[2,0,1,3,0,11,5],
+"dd/d8b/sys-pre_8qh.html":[2,0,6,65],
+"dd/d8b/sys-pre_8qh.html#a0c0bbf4dba535c4665b7ed0f51b0abbc":[2,0,6,65,17]
 };

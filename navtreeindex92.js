@@ -1,7 +1,5 @@
 var NAVTREEINDEX92 =
 {
-"da/dc1/classXonoticAudioSettingsTab.html#a5e98dc8a860c812481bf478f796b706d":[1,0,149,60],
-"da/dc1/classXonoticAudioSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,149,22],
 "da/dc1/classXonoticAudioSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,149,64],
 "da/dc1/classXonoticAudioSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,149,56],
 "da/dc1/classXonoticAudioSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,149,19],
@@ -249,5 +247,7 @@ var NAVTREEINDEX92 =
 "da/def/classClanArena.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,17,15],
 "da/def/classClanArena.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,17,4],
 "da/def/classClanArena.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,17,3],
-"da/def/classClanArena.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,17,17]
+"da/def/classClanArena.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,17,17],
+"da/def/classClanArena.html#aca750e744e5d1a4d337de74f06a92468":[1,0,17,13],
+"da/def/classClanArena.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,17,6]
 };

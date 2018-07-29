@@ -582,7 +582,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(this.<a class="code" href="../../db/d15/api_8qh.html#a0b031ceaaa5fdecc3a5213187509375c">bot_forced_team</a>==4)</div>
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> = <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>;</div>
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;        <a class="code" href="../../de/d4f/teamplay_8qc.html#ad6295975533b06b1d180f5a7fd219e1f">TeamBalance_JoinBestTeam</a>(<span class="keyword">this</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;        <a class="code" href="../../de/d4f/teamplay_8qc.html#a560ea908640c9411ae84ef007b48912e">TeamBalance_JoinBestTeam</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;</div>
 <div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <a class="code" href="../../d2/de9/havocbot_8qc.html#afb882bcf6c4a44e801e4fb9eafbbf1f4">havocbot_setupbot</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;}</div>
@@ -590,6 +590,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="bot_8qh_html_ab454a200327d3ee63d039c814b6967e1"><div class="ttname"><a href="../../d1/da9/bot_8qh.html#ab454a200327d3ee63d039c814b6967e1">bot_preferredcolors</a></div><div class="ttdeci">float bot_preferredcolors</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da9/bot_8qh_source.html#l00058">bot.qh:58</a></div></div>
 <div class="ttc" id="bot_8qc_html_a4091d9d692953b7614ba80259c2cf631"><div class="ttname"><a href="../../d2/dc0/bot_8qc.html#a4091d9d692953b7614ba80259c2cf631">bot_setclientfields</a></div><div class="ttdeci">void bot_setclientfields(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc0/bot_8qc_source.html#l00045">bot.qc:45</a></div></div>
 <div class="ttc" id="aim_8qc_html_af8050ab8c527644541f6663b6ea42874"><div class="ttname"><a href="../../df/dc9/aim_8qc.html#af8050ab8c527644541f6663b6ea42874">bot_lagfunc</a></div><div class="ttdeci">void bot_lagfunc(entity this, float t, float f1, float f2, entity e1, vector v1, vector v2, vector v3, vector v4)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc9/aim_8qc_source.html#l00155">aim.qc:155</a></div></div>
+<div class="ttc" id="teamplay_8qc_html_a560ea908640c9411ae84ef007b48912e"><div class="ttname"><a href="../../de/d4f/teamplay_8qc.html#a560ea908640c9411ae84ef007b48912e">TeamBalance_JoinBestTeam</a></div><div class="ttdeci">void TeamBalance_JoinBestTeam(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4f/teamplay_8qc_source.html#l00634">teamplay.qc:634</a></div></div>
 <div class="ttc" id="bot_8qh_html_a49f0ddb4fe9cf28cf6727a2b3983d0c5"><div class="ttname"><a href="../../d1/da9/bot_8qh.html#a49f0ddb4fe9cf28cf6727a2b3983d0c5">bot_nextthink</a></div><div class="ttdeci">float bot_nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da9/bot_8qh_source.html#l00055">bot.qh:55</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
 <div class="ttc" id="bot_8qc_html_aad1b37739cf0bb1675c68a90aa48c797"><div class="ttname"><a href="../../d2/dc0/bot_8qc.html#aad1b37739cf0bb1675c68a90aa48c797">bot_setnameandstuff</a></div><div class="ttdeci">void bot_setnameandstuff(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc0/bot_8qc_source.html#l00140">bot.qc:140</a></div></div>
@@ -605,7 +606,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="api_8qh_html_acf6e5642e2a48bb69f631e9166056c87"><div class="ttname"><a href="../../db/d15/api_8qh.html#acf6e5642e2a48bb69f631e9166056c87">isbot</a></div><div class="ttdeci">float isbot</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00038">api.qh:38</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a663ea6aa3c4923b3e065cf91cc319f1b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a></div><div class="ttdeci">float random(void)</div></div>
 <div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00020">teams.qh:20</a></div></div>
-<div class="ttc" id="teamplay_8qc_html_ad6295975533b06b1d180f5a7fd219e1f"><div class="ttname"><a href="../../de/d4f/teamplay_8qc.html#ad6295975533b06b1d180f5a7fd219e1f">TeamBalance_JoinBestTeam</a></div><div class="ttdeci">void TeamBalance_JoinBestTeam(entity this, bool force_best_team)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4f/teamplay_8qc_source.html#l00634">teamplay.qc:634</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1561,7 +1561,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    this.<a class="code" href="../../d1/da9/bot_8qh.html#a400d981a6a9a77f9c4eb7e29f4ef72d5">bot_config_loaded</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="comment">// this is really only a default, JoinBestTeam is called later</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="comment">// this is really only a default, TeamBalance_JoinBestTeam is called later</span></div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <a class="code" href="../../d2/d77/pre_8qh.html#ae4e6e2f3aae182e05b8706a3d80ebb5a">setcolor</a>(<span class="keyword">this</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(bot_shirt) * 16 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(bot_pants));</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    this.<a class="code" href="../../d1/da9/bot_8qh.html#ab454a200327d3ee63d039c814b6967e1">bot_preferredcolors</a> = this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#af27bfb7932d169929756ba06c521ee71">clientcolors</a>;</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div>
@@ -2773,7 +2773,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../d1/da9/bot_8qh.html">bot.qh</a></li>
-    <li class="footer">Generated on Thu Jul 26 2018 13:03:05 for Xonotic by
+    <li class="footer">Generated on Sun Jul 29 2018 15:05:59 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

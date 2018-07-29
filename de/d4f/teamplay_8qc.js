@@ -40,7 +40,7 @@ var teamplay_8qc =
     [ "TeamBalance_GetTeamFromIndex", "de/d4f/teamplay_8qc.html#af3b1646b76af378b8a2c420213e0a4a4", null ],
     [ "TeamBalance_IsTeamAllowed", "de/d4f/teamplay_8qc.html#acc837925d29f532c0c1668ff6b53a5c1", null ],
     [ "TeamBalance_IsTeamAllowedInternal", "de/d4f/teamplay_8qc.html#aa51e7262063512a9c4720abdc5568d48", null ],
-    [ "TeamBalance_JoinBestTeam", "de/d4f/teamplay_8qc.html#ad6295975533b06b1d180f5a7fd219e1f", null ],
+    [ "TeamBalance_JoinBestTeam", "de/d4f/teamplay_8qc.html#a560ea908640c9411ae84ef007b48912e", null ],
     [ "TeamBalanceTeam_GetNumberOfBots", "de/d4f/teamplay_8qc.html#a7d6b36f279459efbc8fb4b828ed89fe8", null ],
     [ "TeamBalanceTeam_GetNumberOfPlayers", "de/d4f/teamplay_8qc.html#a522ae8d4e7ffbf8494d967eff0700de7", null ],
     [ "TeamBalanceTeam_IsAllowed", "de/d4f/teamplay_8qc.html#a15c597622e4d17e585cb2383642bb9b9", null ],

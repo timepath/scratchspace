@@ -1,10 +1,8 @@
 var teamplay_8qh =
 [
-    [ "TEAM_CHANGE_CONNECT", "d2/d76/teamplay_8qh.html#a16af7b253440dadd46a80a4b9fddba4da3076d715b36e1b1cae0931b46cb474bd", null ],
     [ "TEAM_CHANGE_AUTO", "d2/d76/teamplay_8qh.html#a16af7b253440dadd46a80a4b9fddba4da1579c5cc27a7e9d75feff0f40fcf8bd2", null ],
     [ "TEAM_CHANGE_MANUAL", "d2/d76/teamplay_8qh.html#a16af7b253440dadd46a80a4b9fddba4da6100ece6deb0eca52d7c1438e155efb3", null ],
     [ "TEAM_CHANGE_SPECTATOR", "d2/d76/teamplay_8qh.html#a16af7b253440dadd46a80a4b9fddba4da6aba2fef4411093aca6bb8ccb75ca76b", null ],
-    [ "TEAM_CHANGE_AUTO_RELAXED", "d2/d76/teamplay_8qh.html#a16af7b253440dadd46a80a4b9fddba4da1837d8ca198f035e51ab17c8937d7394", null ],
     [ "TEAMS_COMPARE_INVALID", "d2/d76/teamplay_8qh.html#aba01db17f4a2bfbc3db60dc172972a25a4de5740fcf1820894296ff18c5b5205b", null ],
     [ "TEAMS_COMPARE_LESS", "d2/d76/teamplay_8qh.html#aba01db17f4a2bfbc3db60dc172972a25aad8f5d3180d3fdcbcbda65dacdcd763c", null ],
     [ "TEAMS_COMPARE_EQUAL", "d2/d76/teamplay_8qh.html#aba01db17f4a2bfbc3db60dc172972a25abdd9def83fd9df6eb781a8f2f41f8d48", null ],
@@ -44,7 +42,7 @@ var teamplay_8qh =
     [ "TeamBalance_GetTeamFromIndex", "d2/d76/teamplay_8qh.html#af3b1646b76af378b8a2c420213e0a4a4", null ],
     [ "TeamBalance_IsTeamAllowed", "d2/d76/teamplay_8qh.html#acc837925d29f532c0c1668ff6b53a5c1", null ],
     [ "TeamBalance_IsTeamAllowedInternal", "d2/d76/teamplay_8qh.html#aa51e7262063512a9c4720abdc5568d48", null ],
-    [ "TeamBalance_JoinBestTeam", "d2/d76/teamplay_8qh.html#ad6295975533b06b1d180f5a7fd219e1f", null ],
+    [ "TeamBalance_JoinBestTeam", "d2/d76/teamplay_8qh.html#a560ea908640c9411ae84ef007b48912e", null ],
     [ "TeamBalanceTeam_GetNumberOfBots", "d2/d76/teamplay_8qh.html#a7d6b36f279459efbc8fb4b828ed89fe8", null ],
     [ "TeamBalanceTeam_GetNumberOfPlayers", "d2/d76/teamplay_8qh.html#a522ae8d4e7ffbf8494d967eff0700de7", null ],
     [ "TeamBalanceTeam_IsAllowed", "d2/d76/teamplay_8qh.html#a15c597622e4d17e585cb2383642bb9b9", null ],
