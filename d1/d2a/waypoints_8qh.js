@@ -2,7 +2,6 @@ var waypoints_8qh =
 [
     [ "waypoint_load_links_hardwired", "d1/d2a/waypoints_8qh.html#ae9a53e740892c2216c8d2427abce02d4", null ],
     [ "waypoint_remove_links_hardwired", "d1/d2a/waypoints_8qh.html#a40bfed6bc89d27553a396b182bf796cc", null ],
-    [ "WAYPOINT_VERSION", "d1/d2a/waypoints_8qh.html#a1d1e8f23a0f7d69411c808de27d4cfc6", null ],
     [ "botframe_autowaypoints", "d1/d2a/waypoints_8qh.html#aeffebe843059e44cb1df1bf5b6b7403c", null ],
     [ "botframe_showwaypointlinks", "d1/d2a/waypoints_8qh.html#adc1610e5d4a39012b64c05f12d9ccd82", null ],
     [ "spawnfunc", "d1/d2a/waypoints_8qh.html#ac764e32c571128b0b58a9a10cb3ef9d1", null ],
@@ -41,6 +40,7 @@ var waypoints_8qh =
     [ "relink_pvsculled", "d1/d2a/waypoints_8qh.html#aad1048069313c8cbabe03cb259173378", null ],
     [ "relink_total", "d1/d2a/waypoints_8qh.html#a099eeed09ef5dff2c3c5a507f4f6f1b2", null ],
     [ "relink_walkculled", "d1/d2a/waypoints_8qh.html#a96eea87743be9af285b8c13978359ded", null ],
+    [ "WAYPOINT_VERSION", "d1/d2a/waypoints_8qh.html#a67365813b668a94a58f022d46f7ad0b3", null ],
     [ "wp00", "d1/d2a/waypoints_8qh.html#aa21af0cc87b5bad942368ea4b059d95e", null ],
     [ "wp00mincost", "d1/d2a/waypoints_8qh.html#a6da855c25006ed03bc47ebfdbfee7b65", null ],
     [ "wp01", "d1/d2a/waypoints_8qh.html#a1600fb4bfb6b587e1340942d93c0e28f", null ],

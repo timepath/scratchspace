@@ -235,12 +235,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/db8/gametypelist_8qc_source.html#l00123">123</a> of file <a class="el" href="../../d2/db8/gametypelist_8qc_source.html">gametypelist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/db8/gametypelist_8qc_source.html#l00125">125</a> of file <a class="el" href="../../d2/db8/gametypelist_8qc_source.html">gametypelist.qc</a>.</p>
 
 <p>References <a class="el" href="../../df/dc2/menu_8qc_source.html#l00991">m_play_click_sound()</a>, and <a class="el" href="../../d0/d41/menu_8qh_source.html#l00054">MENU_SOUND_SELECT</a>.</p>
-<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;{</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <a class="code" href="../../df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9">m_play_click_sound</a>(<a class="code" href="../../d0/d41/menu_8qh.html#a6821d71fd3bce5f85dd799c16c74c009">MENU_SOUND_SELECT</a>);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;{</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9">m_play_click_sound</a>(<a class="code" href="../../d0/d41/menu_8qh.html#a6821d71fd3bce5f85dd799c16c74c009">MENU_SOUND_SELECT</a>);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
 <div class="ttc" id="menu_8qh_html_a6821d71fd3bce5f85dd799c16c74c009"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a6821d71fd3bce5f85dd799c16c74c009">MENU_SOUND_SELECT</a></div><div class="ttdeci">const string MENU_SOUND_SELECT</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00054">menu.qh:54</a></div></div>
 <div class="ttc" id="menu_8qc_html_a0839df76702206b09937c44849bbe9f9"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9">m_play_click_sound</a></div><div class="ttdeci">void m_play_click_sound(string soundfile)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00991">menu.qc:991</a></div></div>
 </div><!-- fragment -->
@@ -461,15 +461,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/db8/gametypelist_8qc_source.html#l00127">127</a> of file <a class="el" href="../../d2/db8/gametypelist_8qc_source.html">gametypelist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/db8/gametypelist_8qc_source.html#l00129">129</a> of file <a class="el" href="../../d2/db8/gametypelist_8qc_source.html">gametypelist.qc</a>.</p>
 
 <p>References <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00274">clearTooltip()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00701">GameType_GetID()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00626">MapInfo_Type_Description()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00254">setZonedTooltip()</a>, and <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>.</p>
-<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;{</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">if</span>(me.focusedItem &gt;= 0)</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#afe98f5a378a0f97c190687977beb0c1d">setZonedTooltip</a>(me, <a class="code" href="../../d3/d46/mapinfo_8qc.html#a64dec8604825bec73d85cbc37a1e75ae">MapInfo_Type_Description</a>(<a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#a0146272636324af38d85f06953d0ab19">GameType_GetID</a>(me.focusedItem)), <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556">clearTooltip</a>(me);</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;{</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordflow">if</span>(me.focusedItem &gt;= 0)</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#afe98f5a378a0f97c190687977beb0c1d">setZonedTooltip</a>(me, <a class="code" href="../../d3/d46/mapinfo_8qc.html#a64dec8604825bec73d85cbc37a1e75ae">MapInfo_Type_Description</a>(<a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#a0146272636324af38d85f06953d0ab19">GameType_GetID</a>(me.focusedItem)), <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556">clearTooltip</a>(me);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;}</div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="menu_2xonotic_2util_8qc_html_afe98f5a378a0f97c190687977beb0c1d"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#afe98f5a378a0f97c190687977beb0c1d">setZonedTooltip</a></div><div class="ttdeci">void setZonedTooltip(entity e, string theTooltip, string theCvar)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00254">util.qc:254</a></div></div>
 <div class="ttc" id="menu_2xonotic_2util_8qc_html_ad765c653d11adeb645af29a3beb33556"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556">clearTooltip</a></div><div class="ttdeci">void clearTooltip(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00274">util.qc:274</a></div></div>
@@ -524,19 +524,19 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/db8/gametypelist_8qc_source.html#l00112">112</a> of file <a class="el" href="../../d2/db8/gametypelist_8qc_source.html">gametypelist.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/db8/gametypelist_8qc_source.html#l00114">114</a> of file <a class="el" href="../../d2/db8/gametypelist_8qc_source.html">gametypelist.qc</a>.</p>
 
 <p>References <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00008">K_ENTER</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00074">K_KP_ENTER</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00991">m_play_click_sound()</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00051">MENU_SOUND_EXECUTE</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00225">SUPER</a>.</p>
-<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;{</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">if</span>(scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a773609a6bdeb929d39dad442cd5f9e66">K_ENTER</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a>)</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    {</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <a class="code" href="../../df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9">m_play_click_sound</a>(<a class="code" href="../../d0/d41/menu_8qh.html#ab3bea1bb438407cf4d0b3072cc534e97">MENU_SOUND_EXECUTE</a>);</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        me.parent.gameTypeSelectNotify(me.parent);</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d8/d39/classXonoticGametypeList.html">XonoticGametypeList</a>).keyDown(me, scan, ascii, shift);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">if</span>(scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a773609a6bdeb929d39dad442cd5f9e66">K_ENTER</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a>)</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="../../df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9">m_play_click_sound</a>(<a class="code" href="../../d0/d41/menu_8qh.html#ab3bea1bb438407cf4d0b3072cc534e97">MENU_SOUND_EXECUTE</a>);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        me.parent.gameTypeSelectNotify(me.parent);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d8/d39/classXonoticGametypeList.html">XonoticGametypeList</a>).keyDown(me, scan, ascii, shift);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div>
 <div class="ttc" id="keycodes_8qc_html_aa4d21cae4374f406578b21e06ee55c28"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a></div><div class="ttdeci">float K_KP_ENTER</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00074">keycodes.qc:74</a></div></div>
 <div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00225">oo.qh:225</a></div></div>
 <div class="ttc" id="menu_8qc_html_a0839df76702206b09937c44849bbe9f9"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9">m_play_click_sound</a></div><div class="ttdeci">void m_play_click_sound(string soundfile)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00991">menu.qc:991</a></div></div>
@@ -656,14 +656,16 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    me.itemAbsSize = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d8/d39/classXonoticGametypeList.html">XonoticGametypeList</a>).resizeNotify(me, relOrigin, relSize, absOrigin, absSize);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    me.realFontSize_y = me.fontSize / (me.itemAbsSize_y = (absSize.y * me.itemHeight));</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    me.realFontSize_x = me.fontSize / (me.itemAbsSize_x = (absSize.x * (1 - me.controlWidth)));</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    me.realUpperMargin = 0.5 * (1 - me.realFontSize.y);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    me.columnIconOrigin = 0;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    me.columnIconSize = me.itemAbsSize.y / me.itemAbsSize.x;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    me.columnNameOrigin = me.columnIconOrigin + me.columnIconSize + (0.5 * me.realFontSize.x);</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    me.columnNameSize = 1 - me.columnIconSize - (1.5 * me.realFontSize.x);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    me.itemAbsSize.y = absSize.y * me.itemHeight;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    me.itemAbsSize.x = absSize.x * (1 - me.controlWidth);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    me.realFontSize.y = me.fontSize / me.itemAbsSize.y;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    me.realFontSize.x = me.fontSize / me.itemAbsSize.x;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    me.realUpperMargin = 0.5 * (1 - me.realFontSize.y);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    me.columnIconOrigin = 0;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    me.columnIconSize = me.itemAbsSize.y / me.itemAbsSize.x;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    me.columnNameOrigin = me.columnIconOrigin + me.columnIconSize + (0.5 * me.realFontSize.x);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    me.columnNameSize = 1 - me.columnIconSize - (1.5 * me.realFontSize.x);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;}</div>
 <div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00225">oo.qh:225</a></div></div>
 <div class="ttc" id="classXonoticGametypeList_html"><div class="ttname"><a href="../../d8/d39/classXonoticGametypeList.html">XonoticGametypeList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d43/gametypelist_8qh_source.html#l00004">gametypelist.qh:4</a></div></div>
 </div><!-- fragment -->
@@ -758,7 +760,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d2/db8/gametypelist_8qc.html">gametypelist.qc</a></li>
-    <li class="footer">Generated on Sun Jul 29 2018 15:49:28 for Xonotic by
+    <li class="footer">Generated on Thu Aug 2 2018 13:08:59 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

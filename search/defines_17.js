@@ -52,7 +52,6 @@ var searchData=
   ['waypoint_5ffixorigin',['waypoint_fixorigin',['../d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5',1,'waypoints.qc']]],
   ['waypoint_5fload_5flinks_5fhardwired',['waypoint_load_links_hardwired',['../d1/d2a/waypoints_8qh.html#ae9a53e740892c2216c8d2427abce02d4',1,'waypoints.qh']]],
   ['waypoint_5fremove_5flinks_5fhardwired',['waypoint_remove_links_hardwired',['../d1/d2a/waypoints_8qh.html#a40bfed6bc89d27553a396b182bf796cc',1,'waypoints.qh']]],
-  ['waypoint_5fversion',['WAYPOINT_VERSION',['../d1/d2a/waypoints_8qh.html#a1d1e8f23a0f7d69411c808de27d4cfc6',1,'waypoints.qh']]],
   ['waypoints_5ffrom',['Waypoints_from',['../d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a8b37b20d26109b8964674245d9481a68',1,'all.qh']]],
   ['weapon2mode',['weapon2mode',['../d5/dd4/cl__vehicles_8qh.html#aa60049ea2d01943dd53fe6a3b3d53cd0',1,'cl_vehicles.qh']]],
   ['weapons_5fall_5fc',['WEAPONS_ALL_C',['../d0/d2b/weapons_2all_8qc.html#a5f8f672e8335b2e06ac57a8be36e2b66',1,'all.qc']]],

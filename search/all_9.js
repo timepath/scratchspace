@@ -101,7 +101,7 @@ var searchData=
   ['inactive',['inactive',['../d5/d26/server_2defs_8qh.html#ac6b9339527d76074ab576ec555ec5987',1,'defs.qh']]],
   ['increasezoom_5fclick',['increaseZoom_Click',['../d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#aff0960818a9a72706ab6b675bd541a7d',1,'dialog_multiplayer_media_screenshot_viewer.qc']]],
   ['independent_5fattack_5ffinished',['INDEPENDENT_ATTACK_FINISHED',['../d5/d26/server_2defs_8qh.html#afb4dc63f33cdd3551eb4195391bbdd62',1,'defs.qh']]],
-  ['independent_5fplayers',['independent_players',['../d5/d26/server_2defs_8qh.html#a1a96238519dd8043d47e2c96aea837d1',1,'independent_players():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a5569af9e685ed7b20b30d4eecc09653a',1,'INDEPENDENT_PLAYERS():&#160;defs.qh']]],
+  ['independent_5fplayers',['INDEPENDENT_PLAYERS',['../d5/d26/server_2defs_8qh.html#a5569af9e685ed7b20b30d4eecc09653a',1,'INDEPENDENT_PLAYERS():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a1a96238519dd8043d47e2c96aea837d1',1,'independent_players():&#160;defs.qh']]],
   ['indexof',['indexOf',['../de/d82/classDataSource.html#a9b20cefca0e6f285f67d0222f3a45465',1,'DataSource']]],
   ['info_5fautoscreenshot_5ffindtarget',['info_autoscreenshot_findtarget',['../d6/de9/cheats_8qc.html#a62bc88be90a8739d8745f255f67a3784',1,'cheats.qc']]],
   ['infomessage',['InfoMessage',['../df/d21/infomessages_8qc.html#af23bd3d7f1b2f4092741c44d01402a2d',1,'infomessages.qc']]],
