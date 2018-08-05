@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"d8/d4c/dialog__settings__user_8qc.html":[2,0,5,4,150],
 "d8/d4c/dialog__settings__user_8qc.html#a66f02ce333f6fc2ba9cfd196973b1295":[2,0,5,4,150,0],
 "d8/d4c/dialog__settings__user_8qc.html#a7d9483f1096ab8aeb837fe9027824c91":[2,0,5,4,150,1],
 "d8/d4c/dialog__settings__user_8qc_source.html":[2,0,5,4,150],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "d8/d8f/classXonoticInputBox.html#a578f3c4e27a2ae569fc865726e538d6f":[1,0,207,12],
 "d8/d8f/classXonoticInputBox.html#a593656a073061cbbb031670df363defa":[1,0,207,58],
 "d8/d8f/classXonoticInputBox.html#a5effefc719d51f661c8fded2f2160836":[1,0,207,42],
-"d8/d8f/classXonoticInputBox.html#a61d121be25ad0f3b6759d2f4e818623b":[1,0,207,59],
-"d8/d8f/classXonoticInputBox.html#a6300d1a6147b5400f21525d2f5925908":[1,0,207,70]
+"d8/d8f/classXonoticInputBox.html#a61d121be25ad0f3b6759d2f4e818623b":[1,0,207,59]
 };

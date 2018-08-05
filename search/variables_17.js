@@ -92,6 +92,7 @@ var searchData=
   ['waterlevel_5fwetfeet',['WATERLEVEL_WETFEET',['../d4/dd7/movetypes_8qh.html#a23878f171fe94c2b5c31a13077e1c845',1,'movetypes.qh']]],
   ['watersound_5ffinished',['watersound_finished',['../d5/d26/server_2defs_8qh.html#a4559bb7f78065ba068480a3b6063db69',1,'defs.qh']]],
   ['watertype',['watertype',['../d6/d11/progsdefs_8qc.html#a76498923ec065444226e91702d44413d',1,'progsdefs.qc']]],
+  ['waypoint_5ftime',['waypoint_time',['../d1/d2a/waypoints_8qh.html#ac9d93aecf512af7a1537662c87b59bdb',1,'waypoints.qh']]],
   ['waypoint_5fversion',['WAYPOINT_VERSION',['../d1/d2a/waypoints_8qh.html#a67365813b668a94a58f022d46f7ad0b3',1,'waypoints.qh']]],
   ['waypointflag_5fdead_5fend',['WAYPOINTFLAG_DEAD_END',['../db/d15/api_8qh.html#a1cb7af67d4a7ef4a8aa3291363c0d602',1,'api.qh']]],
   ['waypointflag_5fgenerated',['WAYPOINTFLAG_GENERATED',['../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d',1,'api.qh']]],

@@ -40,6 +40,7 @@ var waypoints_8qh =
     [ "relink_pvsculled", "d1/d2a/waypoints_8qh.html#aad1048069313c8cbabe03cb259173378", null ],
     [ "relink_total", "d1/d2a/waypoints_8qh.html#a099eeed09ef5dff2c3c5a507f4f6f1b2", null ],
     [ "relink_walkculled", "d1/d2a/waypoints_8qh.html#a96eea87743be9af285b8c13978359ded", null ],
+    [ "waypoint_time", "d1/d2a/waypoints_8qh.html#ac9d93aecf512af7a1537662c87b59bdb", null ],
     [ "WAYPOINT_VERSION", "d1/d2a/waypoints_8qh.html#a67365813b668a94a58f022d46f7ad0b3", null ],
     [ "wp00", "d1/d2a/waypoints_8qh.html#aa21af0cc87b5bad942368ea4b059d95e", null ],
     [ "wp00mincost", "d1/d2a/waypoints_8qh.html#a6da855c25006ed03bc47ebfdbfee7b65", null ],
