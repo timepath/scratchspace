@@ -1350,7 +1350,7 @@ $(document).ready(function(){initNavTree('df/da0/ctf_8qc_source.html','../../');
 <div class="line"><a name="l01243"></a><span class="lineno"> 1243</span>&#160;    flag.netname = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(sprintf(<span class="stringliteral">&quot;%s%s^7 flag&quot;</span>, <a class="code" href="../../db/d07/teams_8qh.html#a8d03f41980a641a39e8cdafc391b4a53">Team_ColorCode</a>(teamnumber), <a class="code" href="../../db/d07/teams_8qh.html#aa3d6cc5893db93228eebe2c913555b55">Team_ColorName_Upper</a>(teamnumber)));</div>
 <div class="line"><a name="l01244"></a><span class="lineno"> 1244</span>&#160;    flag.team = teamnumber;</div>
 <div class="line"><a name="l01245"></a><span class="lineno"> 1245</span>&#160;    flag.classname = <span class="stringliteral">&quot;item_flag_team&quot;</span>;</div>
-<div class="line"><a name="l01246"></a><span class="lineno"> 1246</span>&#160;    flag.target = <span class="stringliteral">&quot;###item###&quot;</span>; <span class="comment">// wut?</span></div>
+<div class="line"><a name="l01246"></a><span class="lineno"> 1246</span>&#160;    flag.target = <span class="stringliteral">&quot;###item###&quot;</span>; <span class="comment">// for finding the nearest item using findnearest</span></div>
 <div class="line"><a name="l01247"></a><span class="lineno"> 1247</span>&#160;    flag.flags = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a06604aa8501b047dd6e84f7f9d176089">FL_ITEM</a> | <a class="code" href="../../d6/d11/progsdefs_8qc.html#a9789908621957fddc82d162fa0b0d103">FL_NOTARGET</a>;</div>
 <div class="line"><a name="l01248"></a><span class="lineno"> 1248</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5">g_items</a>, flag);</div>
 <div class="line"><a name="l01249"></a><span class="lineno"> 1249</span>&#160;    flag.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a3973fdf525463133ef775c885b63b989">SOLID_TRIGGER</a>;</div>
@@ -3143,7 +3143,7 @@ $(document).ready(function(){initNavTree('df/da0/ctf_8qc_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_93e7636bc110cd16e1c44dc534d07e3c.html">ctf</a></li><li class="navelem"><a class="el" href="../../df/da0/ctf_8qc.html">ctf.qc</a></li>
-    <li class="footer">Generated on Wed Aug 15 2018 08:43:08 for Xonotic by
+    <li class="footer">Generated on Wed Aug 15 2018 14:32:59 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
