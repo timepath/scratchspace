@@ -1,5 +1,8 @@
 var NAVTREEINDEX126 =
 {
+"de/de8/portals_8qc.html#a919a724c4997049c1316cda5adb99d52":[2,0,6,45,25],
+"de/de8/portals_8qc.html#a91dd758cdb23261b97234f5538cb34f6":[2,0,6,45,10],
+"de/de8/portals_8qc.html#a94945ba06c07e9e789d5a0dca5a66e91":[2,0,6,45,34],
 "de/de8/portals_8qc.html#a94efdb12f32b35c654a889a88e17b5f3":[2,0,6,45,14],
 "de/de8/portals_8qc.html#a9fc26b0745f3d64c350be8b74ec0e183":[2,0,6,45,7],
 "de/de8/portals_8qc.html#ab5ab86c6b943c158c01eddebb04cf490":[2,0,6,45,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX126 =
 "df/d26/classXonoticGameSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,180,61],
 "df/d26/classXonoticGameSettingsTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,180,43],
 "df/d26/classXonoticGameSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,180,3],
-"df/d26/classXonoticGameSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,180,41],
-"df/d26/classXonoticGameSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,180,45],
-"df/d26/classXonoticGameSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,180,89],
-"df/d26/classXonoticGameSettingsTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,180,15]
+"df/d26/classXonoticGameSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,180,41]
 };

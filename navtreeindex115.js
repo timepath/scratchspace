@@ -1,5 +1,8 @@
 var NAVTREEINDEX115 =
 {
+"dd/d8a/sv__weapon_8qh.html":[2,0,1,3,0,11,5],
+"dd/d8a/sv__weapon_8qh_source.html":[2,0,1,3,0,11,5],
+"dd/d8b/sys-pre_8qh.html":[2,0,6,65],
 "dd/d8b/sys-pre_8qh.html#a0c0bbf4dba535c4665b7ed0f51b0abbc":[2,0,6,65,17],
 "dd/d8b/sys-pre_8qh.html#a0d27ea6bfcb93303d6fada5560bd3c51":[2,0,6,65,13],
 "dd/d8b/sys-pre_8qh.html#a1112c2e77939aff99ea33249bf2992fd":[2,0,6,65,15],
@@ -246,8 +249,5 @@ var NAVTREEINDEX115 =
 "dd/d9a/classXonoticSandboxToolsDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,235,31],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,235,36],
 "dd/d9a/classXonoticSandboxToolsDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,235,56],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,235,33],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,235,83],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,235,49],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,235,61]
+"dd/d9a/classXonoticSandboxToolsDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,235,33]
 };
