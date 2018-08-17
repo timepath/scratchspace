@@ -70,7 +70,7 @@ var bot_8qh =
     [ "botframe_spawnedwaypoints", "d1/da9/bot_8qh.html#a480d32fa549e3b157ca70e8eeb0c400b", null ],
     [ "cleanname", "d1/da9/bot_8qh.html#ad3f7bd315ecf5bb0f4037153d6b46441", null ],
     [ "createdtime", "d1/da9/bot_8qh.html#a14ef1c073a5d40b9c36f3dfbee406d6c", null ],
-    [ "isbot", "d1/da9/bot_8qh.html#acf6e5642e2a48bb69f631e9166056c87", null ],
+    [ "isbot", "d1/da9/bot_8qh.html#a5274eace62982692dc6548a10104c4ff", null ],
     [ "netname_freeme", "d1/da9/bot_8qh.html#a08187c673c7b07026a86fe4da827833f", null ],
     [ "nextbot", "d1/da9/bot_8qh.html#a0760ea09ba9263d4068ae99c1df1f1da", null ],
     [ "playermodel_freeme", "d1/da9/bot_8qh.html#a3f7afc27089f83892326dc9f6cc968ab", null ],

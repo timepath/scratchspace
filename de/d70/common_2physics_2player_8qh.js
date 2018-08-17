@@ -92,6 +92,6 @@ var common_2physics_2player_8qh =
     [ "swamp_slowdown", "de/d70/common_2physics_2player_8qh.html#a72409ccf4513611408270e2c17712b3d", null ],
     [ "teleport_time", "de/d70/common_2physics_2player_8qh.html#a5b22fb02e46104adf892ccf37392f741", null ],
     [ "v_angle_old", "de/d70/common_2physics_2player_8qh.html#a363f777d30bb51c67376300a5d7f49be", null ],
-    [ "wasFlying", "de/d70/common_2physics_2player_8qh.html#a57030d0513a6d9774b1aaccd1c792b6e", null ],
+    [ "wasFlying", "de/d70/common_2physics_2player_8qh.html#a8bfc9438d3556ee850e62ef6860d0b95", null ],
     [ "waterjump_time", "de/d70/common_2physics_2player_8qh.html#a6123d4f4ec07cdad146eb4e01d0c4d3a", null ]
 ];

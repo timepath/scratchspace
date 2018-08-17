@@ -1,6 +1,5 @@
 var NAVTREEINDEX110 =
 {
-"dc/dc6/server_2miscfunctions_8qc.html#a14781e74a33437af873581ed381d2397":[2,0,6,41,71],
 "dc/dc6/server_2miscfunctions_8qc.html#a16aac93ba5b972ed98ff17320dda1b93":[2,0,6,41,66],
 "dc/dc6/server_2miscfunctions_8qc.html#a1889ccb32094735b4d97fbbb1ac4631b":[2,0,6,41,34],
 "dc/dc6/server_2miscfunctions_8qc.html#a1b8159005e384418a4c002417e229497":[2,0,6,41,47],
@@ -69,6 +68,7 @@ var NAVTREEINDEX110 =
 "dc/dc6/server_2miscfunctions_8qc.html#adb60a180886d4dfa682f79bf827c5ce4":[2,0,6,41,29],
 "dc/dc6/server_2miscfunctions_8qc.html#ae60e63a20482389086630191d5d8d336":[2,0,6,41,69],
 "dc/dc6/server_2miscfunctions_8qc.html#ae79a7e9cd4d8835118ccb584fe645e6f":[2,0,6,41,0],
+"dc/dc6/server_2miscfunctions_8qc.html#aef9b6a1e3d47e62ce4d96e73b3dba237":[2,0,6,41,27],
 "dc/dc6/server_2miscfunctions_8qc.html#af695d661864cdf0f78273b0a8717a1e9":[2,0,6,41,1],
 "dc/dc6/server_2miscfunctions_8qc_source.html":[2,0,6,41],
 "dc/dc7/projectile_8qh.html":[2,0,0,3,3],

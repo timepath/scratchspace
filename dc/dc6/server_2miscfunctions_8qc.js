@@ -27,7 +27,7 @@ var server_2miscfunctions_8qc =
     [ "GetCvars_handleString_Fixup", "dc/dc6/server_2miscfunctions_8qc.html#aad818a177c42603ffc7dc6e34406c050", null ],
     [ "gettaginfo_relative", "dc/dc6/server_2miscfunctions_8qc.html#a59a00571f7c6dad282ee583b3bd5b297", null ],
     [ "InitializeEntitiesRun", "dc/dc6/server_2miscfunctions_8qc.html#a504192d334de7d4502ffbaa71c6b8228", null ],
-    [ "InitializeEntity", "dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877", null ],
+    [ "InitializeEntity", "dc/dc6/server_2miscfunctions_8qc.html#aef9b6a1e3d47e62ce4d96e73b3dba237", null ],
     [ "isPushable", "dc/dc6/server_2miscfunctions_8qc.html#a5b86d62af04bbd33aa2bca5635a1e2fa", null ],
     [ "LostMovetypeFollow", "dc/dc6/server_2miscfunctions_8qc.html#adb60a180886d4dfa682f79bf827c5ce4", null ],
     [ "make_safe_for_remove", "dc/dc6/server_2miscfunctions_8qc.html#a512d742bedcc9a27b9fa5fe4b3d9ab86", null ],

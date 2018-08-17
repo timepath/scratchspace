@@ -164,19 +164,19 @@ Macros</h2></td></tr>
 <tr class="separator:a60a132226a89386e69517d266e83be67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20256da9a327868240f1e864e6051ad4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(a, b)&#160;&#160;&#160;(<a class="el" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> ? (<a class="el" href="../../df/dd7/server_2client_8qc.html#aa44b2778d23d1f4efed985b6cc12375a">a.team</a> == <a class="el" href="../../df/dd7/server_2client_8qc.html#aa44b2778d23d1f4efed985b6cc12375a">b.team</a>) : (a == b))</td></tr>
 <tr class="separator:a20256da9a327868240f1e864e6051ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a801d5d7bec102c3573e8a3ca8781236c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a801d5d7bec102c3573e8a3ca8781236c">Static_Team_ColorName_Lower</a>(teamid)&#160;&#160;&#160;strtolower(<a class="el" href="../../db/d07/teams_8qh.html#ab62a8f5d76670c9a0f07b2bf860f3ef9">Static_Team_ColorName</a>(teamid))</td></tr>
+<tr class="memitem:a801d5d7bec102c3573e8a3ca8781236c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a801d5d7bec102c3573e8a3ca8781236c">Static_Team_ColorName_Lower</a>(teamid)&#160;&#160;&#160;strtolower(<a class="el" href="../../db/d07/teams_8qh.html#a1616b51fc01b410a6623285036c51997">Static_Team_ColorName</a>(teamid))</td></tr>
 <tr class="separator:a801d5d7bec102c3573e8a3ca8781236c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a393b7c72fe5fae97bc6abd3db442fd4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a393b7c72fe5fae97bc6abd3db442fd4c">Static_Team_ColorName_Upper</a>(teamid)&#160;&#160;&#160;strtoupper(<a class="el" href="../../db/d07/teams_8qh.html#ab62a8f5d76670c9a0f07b2bf860f3ef9">Static_Team_ColorName</a>(teamid))</td></tr>
+<tr class="memitem:a393b7c72fe5fae97bc6abd3db442fd4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a393b7c72fe5fae97bc6abd3db442fd4c">Static_Team_ColorName_Upper</a>(teamid)&#160;&#160;&#160;strtoupper(<a class="el" href="../../db/d07/teams_8qh.html#a1616b51fc01b410a6623285036c51997">Static_Team_ColorName</a>(teamid))</td></tr>
 <tr class="separator:a393b7c72fe5fae97bc6abd3db442fd4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d96b2379c33b381d721c971e72c5637"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a0d96b2379c33b381d721c971e72c5637">TCR</a>(input, type, <a class="el" href="../../df/dd7/server_2client_8qc.html#aa44b2778d23d1f4efed985b6cc12375a">team</a>)&#160;&#160;&#160;strreplace(&quot;^TC&quot;, COL_TEAM_##<a class="el" href="../../df/dd7/server_2client_8qc.html#aa44b2778d23d1f4efed985b6cc12375a">team</a>, strreplace(&quot;^TT&quot;, strtoupper(type##_TEAM_##<a class="el" href="../../df/dd7/server_2client_8qc.html#aa44b2778d23d1f4efed985b6cc12375a">team</a>), input))</td></tr>
 <tr class="separator:a0d96b2379c33b381d721c971e72c5637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa417cabfc2bf10d554c0dee7aa17a991"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#aa417cabfc2bf10d554c0dee7aa17a991">Team_ColoredFullName</a>(teamid)&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="el" href="../../db/d07/teams_8qh.html#a8d03f41980a641a39e8cdafc391b4a53">Team_ColorCode</a>(teamid), <a class="el" href="../../db/d07/teams_8qh.html#aa74c7673bc954e453a8779de1b9f9884">Team_ColorName</a>(teamid), &quot; &quot;, <a class="el" href="../../db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab">NAME_TEAM</a>, &quot;^7&quot;)</td></tr>
+<tr class="memitem:aa417cabfc2bf10d554c0dee7aa17a991"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#aa417cabfc2bf10d554c0dee7aa17a991">Team_ColoredFullName</a>(teamid)&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="el" href="../../db/d07/teams_8qh.html#ac42e5e5b463fcb15cb60f68a648afea0">Team_ColorCode</a>(teamid), <a class="el" href="../../db/d07/teams_8qh.html#a462f05a4a626804eedd6badd274bb08e">Team_ColorName</a>(teamid), &quot; &quot;, <a class="el" href="../../db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab">NAME_TEAM</a>, &quot;^7&quot;)</td></tr>
 <tr class="separator:aa417cabfc2bf10d554c0dee7aa17a991"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a395c04d3db11362a1c25d2d4853fc180"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a395c04d3db11362a1c25d2d4853fc180">Team_ColorName_Lower</a>(teamid)&#160;&#160;&#160;strtolower(<a class="el" href="../../db/d07/teams_8qh.html#aa74c7673bc954e453a8779de1b9f9884">Team_ColorName</a>(teamid))</td></tr>
+<tr class="memitem:a395c04d3db11362a1c25d2d4853fc180"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a395c04d3db11362a1c25d2d4853fc180">Team_ColorName_Lower</a>(teamid)&#160;&#160;&#160;strtolower(<a class="el" href="../../db/d07/teams_8qh.html#a462f05a4a626804eedd6badd274bb08e">Team_ColorName</a>(teamid))</td></tr>
 <tr class="separator:a395c04d3db11362a1c25d2d4853fc180"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3d6cc5893db93228eebe2c913555b55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#aa3d6cc5893db93228eebe2c913555b55">Team_ColorName_Upper</a>(teamid)&#160;&#160;&#160;strtoupper(<a class="el" href="../../db/d07/teams_8qh.html#aa74c7673bc954e453a8779de1b9f9884">Team_ColorName</a>(teamid))</td></tr>
+<tr class="memitem:aa3d6cc5893db93228eebe2c913555b55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#aa3d6cc5893db93228eebe2c913555b55">Team_ColorName_Upper</a>(teamid)&#160;&#160;&#160;strtoupper(<a class="el" href="../../db/d07/teams_8qh.html#a462f05a4a626804eedd6badd274bb08e">Team_ColorName</a>(teamid))</td></tr>
 <tr class="separator:aa3d6cc5893db93228eebe2c913555b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac861db76d5f4acfd97ed29922f92eabc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ac861db76d5f4acfd97ed29922f92eabc">Team_FullName</a>(teamid)&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="el" href="../../db/d07/teams_8qh.html#aa74c7673bc954e453a8779de1b9f9884">Team_ColorName</a>(teamid), &quot; &quot;, <a class="el" href="../../db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab">NAME_TEAM</a>, &quot;^7&quot;)</td></tr>
+<tr class="memitem:ac861db76d5f4acfd97ed29922f92eabc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ac861db76d5f4acfd97ed29922f92eabc">Team_FullName</a>(teamid)&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="el" href="../../db/d07/teams_8qh.html#a462f05a4a626804eedd6badd274bb08e">Team_ColorName</a>(teamid), &quot; &quot;, <a class="el" href="../../db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab">NAME_TEAM</a>, &quot;^7&quot;)</td></tr>
 <tr class="separator:ac861db76d5f4acfd97ed29922f92eabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61415f652588151b6e523dfc2141c54c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a61415f652588151b6e523dfc2141c54c">Team_IndexToColoredFullName</a>(index)&#160;&#160;&#160;<a class="el" href="../../db/d07/teams_8qh.html#aa417cabfc2bf10d554c0dee7aa17a991">Team_ColoredFullName</a>(<a class="el" href="../../db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a">Team_IndexToTeam</a>(index))</td></tr>
 <tr class="separator:a61415f652588151b6e523dfc2141c54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,14 +187,14 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab62a8f5d76670c9a0f07b2bf860f3ef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ab62a8f5d76670c9a0f07b2bf860f3ef9">Static_Team_ColorName</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> teamid)</td></tr>
-<tr class="separator:ab62a8f5d76670c9a0f07b2bf860f3ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d03f41980a641a39e8cdafc391b4a53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a8d03f41980a641a39e8cdafc391b4a53">Team_ColorCode</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> teamid)</td></tr>
-<tr class="separator:a8d03f41980a641a39e8cdafc391b4a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa74c7673bc954e453a8779de1b9f9884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#aa74c7673bc954e453a8779de1b9f9884">Team_ColorName</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> teamid)</td></tr>
-<tr class="separator:aa74c7673bc954e453a8779de1b9f9884"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40887618c0a56497f855f5631aa428d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a40887618c0a56497f855f5631aa428d9">Team_ColorRGB</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> teamid)</td></tr>
-<tr class="separator:a40887618c0a56497f855f5631aa428d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1616b51fc01b410a6623285036c51997"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a1616b51fc01b410a6623285036c51997">Static_Team_ColorName</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> teamid)</td></tr>
+<tr class="separator:a1616b51fc01b410a6623285036c51997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac42e5e5b463fcb15cb60f68a648afea0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ac42e5e5b463fcb15cb60f68a648afea0">Team_ColorCode</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> teamid)</td></tr>
+<tr class="separator:ac42e5e5b463fcb15cb60f68a648afea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a462f05a4a626804eedd6badd274bb08e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a462f05a4a626804eedd6badd274bb08e">Team_ColorName</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> teamid)</td></tr>
+<tr class="separator:a462f05a4a626804eedd6badd274bb08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83e349718aa3a32da8b60b39747ef8e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a83e349718aa3a32da8b60b39747ef8e8">Team_ColorRGB</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> teamid)</td></tr>
+<tr class="separator:a83e349718aa3a32da8b60b39747ef8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca16bbbb9a21bac9cf7fbc0426f77cd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#aca16bbbb9a21bac9cf7fbc0426f77cd7">Team_ColorToTeam</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> team_color)</td></tr>
 <tr class="separator:aca16bbbb9a21bac9cf7fbc0426f77cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac15de12fd4822619b3536b1061cbff75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ac15de12fd4822619b3536b1061cbff75">Team_IndexToBit</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> index)</td></tr>
@@ -203,10 +203,10 @@ Functions</h2></td></tr>
 <tr class="memitem:aa49da3080c81857b2c70be950f953e9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a">Team_IndexToTeam</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> index)</td></tr>
 <tr class="memdesc:aa49da3080c81857b2c70be950f953e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts team index into team value.  <a href="#aa49da3080c81857b2c70be950f953e9a">More...</a><br/></td></tr>
 <tr class="separator:aa49da3080c81857b2c70be950f953e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a412e0e869a48ecb20307b6c916be7001"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001">Team_IsValidIndex</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> index)</td></tr>
+<tr class="memitem:a412e0e869a48ecb20307b6c916be7001"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001">Team_IsValidIndex</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> index)</td></tr>
 <tr class="memdesc:a412e0e869a48ecb20307b6c916be7001"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the team index is valid.  <a href="#a412e0e869a48ecb20307b6c916be7001">More...</a><br/></td></tr>
 <tr class="separator:a412e0e869a48ecb20307b6c916be7001"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19e04bfb672edb4669be6b04609b0be7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7">Team_IsValidTeam</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> team_num)</td></tr>
+<tr class="memitem:a19e04bfb672edb4669be6b04609b0be7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7">Team_IsValidTeam</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> team_num)</td></tr>
 <tr class="memdesc:a19e04bfb672edb4669be6b04609b0be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether team value is valid.  <a href="#a19e04bfb672edb4669be6b04609b0be7">More...</a><br/></td></tr>
 <tr class="separator:a19e04bfb672edb4669be6b04609b0be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c97cb946e2101e17ab6982e28f13ad3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a2c97cb946e2101e17ab6982e28f13ad3">Team_TeamToBit</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> team_num)</td></tr>
@@ -600,7 +600,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">teamid</td><td>)</td>
-          <td>&#160;&#160;&#160;strtolower(<a class="el" href="../../db/d07/teams_8qh.html#ab62a8f5d76670c9a0f07b2bf860f3ef9">Static_Team_ColorName</a>(teamid))</td>
+          <td>&#160;&#160;&#160;strtolower(<a class="el" href="../../db/d07/teams_8qh.html#a1616b51fc01b410a6623285036c51997">Static_Team_ColorName</a>(teamid))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -618,7 +618,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">teamid</td><td>)</td>
-          <td>&#160;&#160;&#160;strtoupper(<a class="el" href="../../db/d07/teams_8qh.html#ab62a8f5d76670c9a0f07b2bf860f3ef9">Static_Team_ColorName</a>(teamid))</td>
+          <td>&#160;&#160;&#160;strtoupper(<a class="el" href="../../db/d07/teams_8qh.html#a1616b51fc01b410a6623285036c51997">Static_Team_ColorName</a>(teamid))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -670,7 +670,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">teamid</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="el" href="../../db/d07/teams_8qh.html#a8d03f41980a641a39e8cdafc391b4a53">Team_ColorCode</a>(teamid), <a class="el" href="../../db/d07/teams_8qh.html#aa74c7673bc954e453a8779de1b9f9884">Team_ColorName</a>(teamid), &quot; &quot;, <a class="el" href="../../db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab">NAME_TEAM</a>, &quot;^7&quot;)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="el" href="../../db/d07/teams_8qh.html#ac42e5e5b463fcb15cb60f68a648afea0">Team_ColorCode</a>(teamid), <a class="el" href="../../db/d07/teams_8qh.html#a462f05a4a626804eedd6badd274bb08e">Team_ColorName</a>(teamid), &quot; &quot;, <a class="el" href="../../db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab">NAME_TEAM</a>, &quot;^7&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -690,7 +690,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">teamid</td><td>)</td>
-          <td>&#160;&#160;&#160;strtolower(<a class="el" href="../../db/d07/teams_8qh.html#aa74c7673bc954e453a8779de1b9f9884">Team_ColorName</a>(teamid))</td>
+          <td>&#160;&#160;&#160;strtolower(<a class="el" href="../../db/d07/teams_8qh.html#a462f05a4a626804eedd6badd274bb08e">Team_ColorName</a>(teamid))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -708,7 +708,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">teamid</td><td>)</td>
-          <td>&#160;&#160;&#160;strtoupper(<a class="el" href="../../db/d07/teams_8qh.html#aa74c7673bc954e453a8779de1b9f9884">Team_ColorName</a>(teamid))</td>
+          <td>&#160;&#160;&#160;strtoupper(<a class="el" href="../../db/d07/teams_8qh.html#a462f05a4a626804eedd6badd274bb08e">Team_ColorName</a>(teamid))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -726,7 +726,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">teamid</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="el" href="../../db/d07/teams_8qh.html#aa74c7673bc954e453a8779de1b9f9884">Team_ColorName</a>(teamid), &quot; &quot;, <a class="el" href="../../db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab">NAME_TEAM</a>, &quot;^7&quot;)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="el" href="../../db/d07/teams_8qh.html#a462f05a4a626804eedd6badd274bb08e">Team_ColorName</a>(teamid), &quot; &quot;, <a class="el" href="../../db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab">NAME_TEAM</a>, &quot;^7&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -790,14 +790,14 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ab62a8f5d76670c9a0f07b2bf860f3ef9"></a>
+<a class="anchor" id="a1616b51fc01b410a6623285036c51997"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> Static_Team_ColorName </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
           <td class="paramname"><em>teamid</em></td><td>)</td>
           <td></td>
         </tr>
@@ -835,21 +835,21 @@ Variables</h2></td></tr>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_ab62a8f5d76670c9a0f07b2bf860f3ef9_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_a1616b51fc01b410a6623285036c51997_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a8d03f41980a641a39e8cdafc391b4a53"></a>
+<a class="anchor" id="ac42e5e5b463fcb15cb60f68a648afea0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> Team_ColorCode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
           <td class="paramname"><em>teamid</em></td><td>)</td>
           <td></td>
         </tr>
@@ -886,21 +886,21 @@ Variables</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_a8d03f41980a641a39e8cdafc391b4a53_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_ac42e5e5b463fcb15cb60f68a648afea0_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="aa74c7673bc954e453a8779de1b9f9884"></a>
+<a class="anchor" id="a462f05a4a626804eedd6badd274bb08e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> Team_ColorName </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
           <td class="paramname"><em>teamid</em></td><td>)</td>
           <td></td>
         </tr>
@@ -933,14 +933,14 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a40887618c0a56497f855f5631aa428d9"></a>
+<a class="anchor" id="a83e349718aa3a32da8b60b39747ef8e8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> Team_ColorRGB </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
           <td class="paramname"><em>teamid</em></td><td>)</td>
           <td></td>
         </tr>
@@ -973,7 +973,7 @@ Variables</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_a40887618c0a56497f855f5631aa428d9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d07/teams_8qh_a83e349718aa3a32da8b60b39747ef8e8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -1133,7 +1133,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a> Team_IsValidIndex </td>
+          <td class="memname"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a> Team_IsValidIndex </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -1185,7 +1185,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a> Team_IsValidTeam </td>
+          <td class="memname"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a> Team_IsValidTeam </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
           <td class="paramname"><em>team_num</em></td><td>)</td>
@@ -1587,7 +1587,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../db/d07/teams_8qh.html">teams.qh</a></li>
-    <li class="footer">Generated on Thu Aug 16 2018 12:03:08 for Xonotic by
+    <li class="footer">Generated on Fri Aug 17 2018 18:25:51 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

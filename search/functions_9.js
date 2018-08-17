@@ -30,7 +30,7 @@ var searchData=
   ['initgameplaymode',['InitGameplayMode',['../db/dcc/g__world_8qc.html#a25599ad73603f2e4e2b78726400732c8',1,'g_world.qc']]],
   ['initializedialog',['initializeDialog',['../d6/d1a/classModalController.html#ab822fa2e09910c1fe52cba5498a0d503',1,'ModalController']]],
   ['initializeentitiesrun',['InitializeEntitiesRun',['../dc/dc6/server_2miscfunctions_8qc.html#a504192d334de7d4502ffbaa71c6b8228',1,'InitializeEntitiesRun():&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a504192d334de7d4502ffbaa71c6b8228',1,'InitializeEntitiesRun():&#160;miscfunctions.qc']]],
-  ['initializeentity',['InitializeEntity',['../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877',1,'InitializeEntity(entity e, void(entity this) func, float order):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a048269a249dd2d958fa3ebbccb21c877',1,'InitializeEntity(entity e, void(entity this) func, float order):&#160;miscfunctions.qc']]],
+  ['initializeentity',['InitializeEntity',['../dc/dc6/server_2miscfunctions_8qc.html#aef9b6a1e3d47e62ce4d96e73b3dba237',1,'InitializeEntity(entity e, void(entity this) func, int order):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#aef9b6a1e3d47e62ce4d96e73b3dba237',1,'InitializeEntity(entity e, void(entity this) func, int order):&#160;miscfunctions.qc']]],
   ['initiateovertime',['InitiateOvertime',['../db/dcc/g__world_8qc.html#a0fd5f40979f78949f532776847eaaf7c',1,'g_world.qc']]],
   ['initiatesuddendeath',['InitiateSuddenDeath',['../db/dcc/g__world_8qc.html#acc6df1e031164092cd42e041e294ad93',1,'g_world.qc']]],
   ['initzoom',['initZoom',['../d8/d00/classImage.html#ab5fc85464d60d355588bce324d3df6da',1,'Image']]],

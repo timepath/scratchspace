@@ -3,7 +3,7 @@ var campaign__common_8qh =
     [ "CAMPAIGN_MAX_ENTRIES", "d7/d13/campaign__common_8qh.html#a741735ba63f01d1145221581ba8e4803", null ],
     [ "CampaignFile_Load", "d7/d13/campaign__common_8qh.html#ae2f904eeb0bb4119ac6be954bf3223d3", null ],
     [ "CampaignFile_Unload", "d7/d13/campaign__common_8qh.html#a60eb1da8586e91aa4e5ba36eb255b903", null ],
-    [ "CampaignSetup", "d7/d13/campaign__common_8qh.html#a8b3642c3f26e338a0bfdc5d435852b0e", null ],
+    [ "CampaignSetup", "d7/d13/campaign__common_8qh.html#aaa64dc89313bcf520b231ef1f80bee48", null ],
     [ "campaign_bots", "d7/d13/campaign__common_8qh.html#a50bd07c33fd69d90da3289256b6479e3", null ],
     [ "campaign_botskill", "d7/d13/campaign__common_8qh.html#a557ae0456453e3e4c7aba8d5ca20ae54", null ],
     [ "campaign_entries", "d7/d13/campaign__common_8qh.html#ad1cedff3e303471c758c7c7a9ce1bd0a", null ],

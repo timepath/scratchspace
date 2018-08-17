@@ -185,7 +185,7 @@ var searchData=
   ['goalstack29',['goalstack29',['../df/dd4/navigation_8qh.html#a9bae5b93c6af5f9bfe12ddb7d952ab03',1,'navigation.qh']]],
   ['goalstack30',['goalstack30',['../df/dd4/navigation_8qh.html#a99cf839a93c401169d4f0dca52f1d76e',1,'navigation.qh']]],
   ['goalstack31',['goalstack31',['../df/dd4/navigation_8qh.html#ad2bd8bd2a08366fd2c06e708460e59bd',1,'navigation.qh']]],
-  ['gotscores',['gotscores',['../d0/d2a/client_2main_8qh.html#a9992832874454ccdbd566d5a84017df3',1,'main.qh']]],
+  ['gotscores',['gotscores',['../d0/d2a/client_2main_8qh.html#a03fcf5b062738aace9647bccc348880a',1,'main.qh']]],
   ['grab',['grab',['../d5/d26/server_2defs_8qh.html#a6f34f8320d12028a7513dccc40735a24',1,'defs.qh']]],
   ['gravity',['gravity',['../de/d70/common_2physics_2player_8qh.html#a31924e6c9b17aad7f861e818b8be5d8f',1,'player.qh']]],
   ['gravity_5fstart_5fdisabled',['GRAVITY_START_DISABLED',['../d2/d3d/gravity_8qh.html#a34cd27e7ebeaafa8b9449396440c7049',1,'gravity.qh']]],

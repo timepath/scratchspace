@@ -164,7 +164,7 @@ Functions</h2></td></tr>
 <tr class="separator:aa5e0439843364cfdf2701a9992dac50e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7106641b219836128248d423976191df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/cl__minigames_8qh.html#a7106641b219836128248d423976191df">minigame_hud_denormalize_size</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> pos, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> mySize)</td></tr>
 <tr class="separator:a7106641b219836128248d423976191df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b4976c5caa2806d8bf77936fb1173c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/cl__minigames_8qh.html#a3b4976c5caa2806d8bf77936fb1173c1">minigame_hud_mouse_in</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> pos, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> sz)</td></tr>
+<tr class="memitem:a3b4976c5caa2806d8bf77936fb1173c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/cl__minigames_8qh.html#a3b4976c5caa2806d8bf77936fb1173c1">minigame_hud_mouse_in</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> pos, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> sz)</td></tr>
 <tr class="separator:a3b4976c5caa2806d8bf77936fb1173c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2cd35412f7acb8a32e8fdfb670b7558"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/cl__minigames_8qh.html#ac2cd35412f7acb8a32e8fdfb670b7558">minigame_hud_normalize</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> pos, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> mySize)</td></tr>
 <tr class="separator:ac2cd35412f7acb8a32e8fdfb670b7558"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -308,7 +308,7 @@ Variables</h2></td></tr>
 <div class="line">    mySize = <a class="code" href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;hud_panel_&quot;</span>, <a class="code" href="../../d3/d05/hud_8qh.html#a2bf8c8746e287dd49aa6097880e189ee">HUD_PANEL</a>(panelID).panel_name, <span class="stringliteral">&quot;_size&quot;</span>))); \</div>
 <div class="line">    pos##_x *= vid_conwidth; pos##_y *= <a class="code" href="../../d9/d08/client_2defs_8qh.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a>; \</div>
 <div class="line">    mySize##_x *= vid_conwidth; mySize##_y *= <a class="code" href="../../d9/d08/client_2defs_8qh.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a>;</div>
-<div class="ttc" id="client_2defs_8qh_html_ad3c7cac75202a988d6b5017d4da6796c"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a></div><div class="ttdeci">float vid_conheight</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00030">defs.qh:30</a></div></div>
+<div class="ttc" id="client_2defs_8qh_html_ad3c7cac75202a988d6b5017d4da6796c"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a></div><div class="ttdeci">float vid_conheight</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00029">defs.qh:29</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="hud_8qh_html_a2bf8c8746e287dd49aa6097880e189ee"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a2bf8c8746e287dd49aa6097880e189ee">HUD_PANEL</a></div><div class="ttdeci">#define HUD_PANEL(NAME)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00025">hud.qh:25</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a65fcee980f5a018b481188a84ead405f"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a></div><div class="ttdeci">vector stov(string s)</div></div>
@@ -1041,7 +1041,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a707109587d304a07d8692fd6d12404a1">bool</a> minigame_hud_mouse_in </td>
+          <td class="memname"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a> minigame_hud_mouse_in </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
@@ -1345,7 +1345,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../de/d3d/cl__minigames_8qh.html">cl_minigames.qh</a></li>
-    <li class="footer">Generated on Thu Aug 16 2018 12:03:07 for Xonotic by
+    <li class="footer">Generated on Fri Aug 17 2018 18:25:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

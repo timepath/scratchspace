@@ -9,7 +9,7 @@ var cheats_8qc =
     [ "CheatFrame", "d6/de9/cheats_8qc.html#ab12ab680ff52099e78d6e3a7968815dc", null ],
     [ "CheatImpulse", "d6/de9/cheats_8qc.html#a73c94da2bf38acf3536154e899458024", null ],
     [ "CheatInit", "d6/de9/cheats_8qc.html#a2a937c6b018ccfb5185e8d5af1415472", null ],
-    [ "CheatsAllowed", "d6/de9/cheats_8qc.html#a45a998ce5f3256bd5c9671595ca8a9c8", null ],
+    [ "CheatsAllowed", "d6/de9/cheats_8qc.html#a65aa9a671b803d866122dfadfd359284", null ],
     [ "CheatShutdown", "d6/de9/cheats_8qc.html#a04ede6834b82bb3efbfcd4961fbc6f54", null ],
     [ "Drag", "d6/de9/cheats_8qc.html#a5fc7c576740d16f6075adccdc64c84a1", null ],
     [ "Drag_Begin", "d6/de9/cheats_8qc.html#a7ffe194900db20bff4bb3439d850c6ff", null ],
@@ -36,6 +36,6 @@ var cheats_8qc =
     [ "dragmovetype", "d6/de9/cheats_8qc.html#a46b51188e1200db0f6fd1b4dd3198509", null ],
     [ "dragspeed", "d6/de9/cheats_8qc.html#a492dd354dd810faf1c15c2cead788849", null ],
     [ "gamestart_sv_cheats", "d6/de9/cheats_8qc.html#ae9d36814925a74febb4ea1d621c300a5", null ],
-    [ "maycheat", "d6/de9/cheats_8qc.html#affd68caf8089e024ad13b9a58366272f", null ],
+    [ "maycheat", "d6/de9/cheats_8qc.html#a1f24ce9b6b924b845e44452262dd3b61", null ],
     [ "num_autoscreenshot", "d6/de9/cheats_8qc.html#ac8c324931fb0af19eddfa7d523f12321", null ]
 ];

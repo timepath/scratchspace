@@ -160,7 +160,7 @@ $(document).ready(function(){initNavTree('d7/d72/rpn_8qc_source.html','../../');
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../d7/d72/rpn_8qc.html#a5ac51a3dfe244e4138560e7e52be204c">   53</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d72/rpn_8qc.html#a5ac51a3dfe244e4138560e7e52be204c">rpn_pushf</a>(<span class="keywordtype">float</span> f) { <span class="keywordflow">return</span> <a class="code" href="../../d7/d72/rpn_8qc.html#a6167b3871a1d21cfc4e526358f3fdeff">rpn_push</a>(sprintf(<span class="stringliteral">&quot;%.9g&quot;</span>, f)); }</div>
 <div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="../../d7/d72/rpn_8qc.html#a48a7b8ad30548d5c25c241d5b79feeec">   54</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d72/rpn_8qc.html#a48a7b8ad30548d5c25c241d5b79feeec">rpn_setf</a>(<span class="keywordtype">float</span> f) { <span class="keywordflow">return</span> <a class="code" href="../../d7/d72/rpn_8qc.html#a167a687ffdac1076826a4c8dd17f2980">rpn_set</a>(sprintf(<span class="stringliteral">&quot;%.9g&quot;</span>, f)); }</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../d4/db4/rpn_8qh.html#a91770b53b3c43e42b3291c2dbd21b6d2">   56</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d72/rpn_8qc.html#a91770b53b3c43e42b3291c2dbd21b6d2">GenericCommand_rpn</a>(<span class="keywordtype">float</span> request, <span class="keywordtype">float</span> argc, <span class="keywordtype">string</span> command)</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../d4/db4/rpn_8qh.html#a0c55a38cff032ae68a145740b6cc5728">   56</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d72/rpn_8qc.html#a0c55a38cff032ae68a145740b6cc5728">GenericCommand_rpn</a>(<span class="keywordtype">int</span> request, <span class="keywordtype">int</span> argc, <span class="keywordtype">string</span> command)</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">switch</span>(request)</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    {</div>
@@ -710,6 +710,7 @@ $(document).ready(function(){initNavTree('d7/d72/rpn_8qc_source.html','../../');
 <div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        }</div>
 <div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    }</div>
 <div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;}</div>
+<div class="ttc" id="rpn_8qc_html_a0c55a38cff032ae68a145740b6cc5728"><div class="ttname"><a href="../../d7/d72/rpn_8qc.html#a0c55a38cff032ae68a145740b6cc5728">GenericCommand_rpn</a></div><div class="ttdeci">void GenericCommand_rpn(int request, int argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d72/rpn_8qc_source.html#l00056">rpn.qc:56</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
 <div class="ttc" id="map_8qh_html_a96597f604fb02d0697d224f21a5b7964"><div class="ttname"><a href="../../d4/d54/map_8qh.html#a96597f604fb02d0697d224f21a5b7964">db_create</a></div><div class="ttdeci">ERASEABLE int db_create()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00025">map.qh:25</a></div></div>
 <div class="ttc" id="map_8qh_html_ac189c2086b07ba1ebaf3e630390ae0af"><div class="ttname"><a href="../../d4/d54/map_8qh.html#ac189c2086b07ba1ebaf3e630390ae0af">db_put</a></div><div class="ttdeci">ERASEABLE void db_put(int db, string key, string value)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00101">map.qh:101</a></div></div>
@@ -759,7 +760,6 @@ $(document).ready(function(){initNavTree('d7/d72/rpn_8qc_source.html','../../');
 <div class="ttc" id="menudefs_8qc_html_aaabd4c5f172530d93a3b9c30a9e21b88"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a></div><div class="ttdeci">float sin(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a6f8c7ef6ee4a4d851aaa5fd1789eab9a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a></div><div class="ttdeci">const string cvar_string(string name)</div></div>
 <div class="ttc" id="rpn_8qh_html_afafe3dbc1f1e8c61511ba4b223719ec4"><div class="ttname"><a href="../../d4/db4/rpn_8qh.html#afafe3dbc1f1e8c61511ba4b223719ec4">MAX_RPN_STACK</a></div><div class="ttdeci">const int MAX_RPN_STACK</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db4/rpn_8qh_source.html#l00008">rpn.qh:8</a></div></div>
-<div class="ttc" id="rpn_8qc_html_a91770b53b3c43e42b3291c2dbd21b6d2"><div class="ttname"><a href="../../d7/d72/rpn_8qc.html#a91770b53b3c43e42b3291c2dbd21b6d2">GenericCommand_rpn</a></div><div class="ttdeci">void GenericCommand_rpn(float request, float argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d72/rpn_8qc_source.html#l00056">rpn.qc:56</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -767,7 +767,7 @@ $(document).ready(function(){initNavTree('d7/d72/rpn_8qc_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_a56f470e76ece29cc39dabf8fca9d882.html">command</a></li><li class="navelem"><a class="el" href="../../d7/d72/rpn_8qc.html">rpn.qc</a></li>
-    <li class="footer">Generated on Thu Aug 16 2018 12:02:58 for Xonotic by
+    <li class="footer">Generated on Fri Aug 17 2018 18:25:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -13,7 +13,7 @@ var server_2player_8qh =
     [ "Say", "da/dc1/server_2player_8qh.html#a3ec86404101072a18190c63b450c508b", null ],
     [ "void", "da/dc1/server_2player_8qh.html#a5a67bcf7261b3f7f78c6abc4ef614984", null ],
     [ "CopyBody_nextthink", "da/dc1/server_2player_8qh.html#abd30a605660c74c4236227e1c594535f", null ],
-    [ "istypefrag", "da/dc1/server_2player_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9", null ],
+    [ "istypefrag", "da/dc1/server_2player_8qh.html#af31fb2a0bf66fd4b03890e6cb74d24d3", null ],
     [ "pusher", "da/dc1/server_2player_8qh.html#a798f63d3b40c416811743d9bfc9b1d28", null ],
     [ "pushltime", "da/dc1/server_2player_8qh.html#aea48339798453aef3726fe26f97a9bc2", null ]
 ];

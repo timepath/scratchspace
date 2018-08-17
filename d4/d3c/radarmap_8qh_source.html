@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('d4/d3c/radarmap_8qh_source.html','../.
 <div class="contents">
 <a href="../../d4/d3c/radarmap_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifndef RADARMAP</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d4/d3c/radarmap_8qh.html#a8e00d4986133ccf16907642ac0064fd3">    3</a></span>&#160;<span class="preprocessor"></span><span class="keywordtype">bool</span> <a class="code" href="../../d4/d3c/radarmap_8qh.html#a8e00d4986133ccf16907642ac0064fd3">RadarMap_Make</a>(<span class="keywordtype">float</span> argc) { <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;radarmap is disabled, compile with -DRADARMAP to enable it.&quot;</span>); <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d4/d3c/radarmap_8qh.html#ac9d189e43f7423c95b96bcfb4f923dce">    3</a></span>&#160;<span class="preprocessor"></span><span class="keywordtype">bool</span> <a class="code" href="../../d4/d3c/radarmap_8qh.html#ac9d189e43f7423c95b96bcfb4f923dce">RadarMap_Make</a>(<span class="keywordtype">int</span> argc) { <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;radarmap is disabled, compile with -DRADARMAP to enable it.&quot;</span>); <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// ===========================================</span></div>
@@ -124,19 +124,19 @@ $(document).ready(function(){initNavTree('d4/d3c/radarmap_8qh_source.html','../.
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">// FF is contained twice, to map 256 to FF too</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">// removes the need to bound()</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d4/d3c/radarmap_8qh.html#a8e00d4986133ccf16907642ac0064fd3">RadarMap_Make</a>(<span class="keywordtype">float</span> argc);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d4/d3c/radarmap_8qh.html#ac9d189e43f7423c95b96bcfb4f923dce">RadarMap_Make</a>(<span class="keywordtype">int</span> argc);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="radarmap_8qh_html_a8e00d4986133ccf16907642ac0064fd3"><div class="ttname"><a href="../../d4/d3c/radarmap_8qh.html#a8e00d4986133ccf16907642ac0064fd3">RadarMap_Make</a></div><div class="ttdeci">bool RadarMap_Make(float argc)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/radarmap_8qh_source.html#l00003">radarmap.qh:3</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
+<div class="ttc" id="radarmap_8qh_html_ac9d189e43f7423c95b96bcfb4f923dce"><div class="ttname"><a href="../../d4/d3c/radarmap_8qh.html#ac9d189e43f7423c95b96bcfb4f923dce">RadarMap_Make</a></div><div class="ttdeci">bool RadarMap_Make(int argc)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/radarmap_8qh_source.html#l00003">radarmap.qh:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d4/d3c/radarmap_8qh.html">radarmap.qh</a></li>
-    <li class="footer">Generated on Thu Aug 16 2018 12:03:02 for Xonotic by
+    <li class="footer">Generated on Fri Aug 17 2018 18:25:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

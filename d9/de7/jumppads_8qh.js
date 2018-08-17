@@ -8,7 +8,7 @@ var jumppads_8qh =
     [ "dest", "d9/de7/jumppads_8qh.html#ae06022ef64f0fecd8f5ab5ad77f1ee3d", null ],
     [ "g_jumppads", "d9/de7/jumppads_8qh.html#a890e2681c683826ce47067a8b0f6886d", null ],
     [ "height", "d9/de7/jumppads_8qh.html#a48083b65ac9a863566dc3e3fff09a5b4", null ],
-    [ "istypefrag", "d9/de7/jumppads_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9", null ],
+    [ "istypefrag", "d9/de7/jumppads_8qh.html#af31fb2a0bf66fd4b03890e6cb74d24d3", null ],
     [ "jumppadcount", "d9/de7/jumppads_8qh.html#aeb124e9cd9ff6aa1d896e02a10fc6ff9", null ],
     [ "jumppadsused", "d9/de7/jumppads_8qh.html#a670dbbce52ae308428b66fd8c8813714", null ],
     [ "NUM_JUMPPADSUSED", "d9/de7/jumppads_8qh.html#a77892eee020bbf3a667b5c4c14b83f17", null ],
