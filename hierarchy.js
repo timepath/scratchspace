@@ -35,6 +35,7 @@ var hierarchy =
           ] ],
           [ "Armor", "d5/df0/classArmor.html", null ],
           [ "Buff", "de/d3c/classBuff.html", null ],
+          [ "Flag", "db/d08/classFlag.html", null ],
           [ "Health", "d5/d64/classHealth.html", null ],
           [ "Powerup", "d5/d65/classPowerup.html", [
             [ "Jetpack", "d0/db7/classJetpack.html", null ],

@@ -41,6 +41,7 @@ var annotated =
     [ "Fireball", "d1/dd1/classFireball.html", "d1/dd1/classFireball" ],
     [ "Flac", "d5/d69/classFlac.html", "d5/d69/classFlac" ],
     [ "FlacAttack", "d2/dae/classFlacAttack.html", "d2/dae/classFlacAttack" ],
+    [ "Flag", "db/d08/classFlag.html", "db/d08/classFlag" ],
     [ "FreezeTag", "d1/de2/classFreezeTag.html", "d1/de2/classFreezeTag" ],
     [ "FusionReactor", "d1/d2b/classFusionReactor.html", "d1/d2b/classFusionReactor" ],
     [ "GameItem", "d0/d9a/classGameItem.html", "d0/d9a/classGameItem" ],

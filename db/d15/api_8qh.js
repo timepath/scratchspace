@@ -23,7 +23,7 @@ var api_8qh =
     [ "havocbot_goalrating_items", "db/d15/api_8qh.html#a3e9df5e35d2e1a1d92cb47e72b572d4a", null ],
     [ "havocbot_goalrating_waypoints", "db/d15/api_8qh.html#a0375becf8030b1b6159611d74c885238", null ],
     [ "navigation_dynamicgoal_init", "db/d15/api_8qh.html#a7ee208dfaf077cf2c6ef10818b975fd9", null ],
-    [ "navigation_dynamicgoal_set", "db/d15/api_8qh.html#a5848061af05382b84c2d5231c59759f1", null ],
+    [ "navigation_dynamicgoal_set", "db/d15/api_8qh.html#a9e5e0dd9aeaae70b2532fede548bd5ea", null ],
     [ "navigation_dynamicgoal_unset", "db/d15/api_8qh.html#af3180b7544df1c7106b080ca79486a19", null ],
     [ "navigation_findnearestwaypoint", "db/d15/api_8qh.html#a1e85d59acc7aee165d5cb268454a594c", null ],
     [ "navigation_goalrating_end", "db/d15/api_8qh.html#ab6d01fa32a875613a62f92c12a06bddd", null ],

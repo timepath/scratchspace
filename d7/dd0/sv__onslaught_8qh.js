@@ -24,7 +24,6 @@ var sv__onslaught_8qh =
     [ "HAVOCBOT_ONS_ROLE_NONE", "d7/dd0/sv__onslaught_8qh.html#a7fe86ecd018bac3db78f34ef6cfd9af9", null ],
     [ "HAVOCBOT_ONS_ROLE_OFFENSE", "d7/dd0/sv__onslaught_8qh.html#a2dbf1fa4a91f3f8179c56c75e3e5a816", null ],
     [ "havocbot_ons_target", "d7/dd0/sv__onslaught_8qh.html#abb67ec3027a86df957e3ec331b96b310", null ],
-    [ "havocbot_role_flags", "d7/dd0/sv__onslaught_8qh.html#a0ac3d078a3d265b901ef367a940be615", null ],
     [ "iscaptured", "d7/dd0/sv__onslaught_8qh.html#a9f8bfa25b20af5e346f55db729e6b9e5", null ],
     [ "islinked", "d7/dd0/sv__onslaught_8qh.html#a3e11d4bec5c568403eae4c6a5ecfcbe0", null ],
     [ "isshielded", "d7/dd0/sv__onslaught_8qh.html#a164067ce13ef274fa6d9741dbce0108b", null ],

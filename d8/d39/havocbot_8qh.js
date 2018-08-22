@@ -34,8 +34,6 @@ var havocbot_8qh =
     [ "havocbot_stickenemy", "d8/d39/havocbot_8qh.html#a7a99b2aba3c814bec0fdc20512734fe4", null ],
     [ "ignoregoal", "d8/d39/havocbot_8qh.html#a2240a7c6b5dca92561126c36734701bf", null ],
     [ "ignoregoaltime", "d8/d39/havocbot_8qh.html#af097bc66957f78a84601ef1a8fa4b8eb", null ],
-    [ "ladder_entity", "d8/d39/havocbot_8qh.html#ac7991a33f246233f749dbc74c6504b83", null ],
-    [ "ladder_time", "d8/d39/havocbot_8qh.html#aa60a516fc0a4e7635ac3ac1a854b9266", null ],
     [ "lastcombotime", "d8/d39/havocbot_8qh.html#a5beeada640329036cd1a2a90ffc489df", null ],
     [ "lastfiredweapon", "d8/d39/havocbot_8qh.html#a396af7f920857814ff544952f4482e04", null ],
     [ "nextaim", "d8/d39/havocbot_8qh.html#a1c3778c269ac926414e63f7e55251c2a", null ],

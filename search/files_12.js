@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['race_2eqc',['race.qc',['../df/d2e/common_2gamemodes_2gamemode_2race_2race_8qc.html',1,'']]],
-  ['race_2eqc',['race.qc',['../df/d4a/server_2race_8qc.html',1,'']]],
-  ['race_2eqh',['race.qh',['../db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html',1,'']]],
-  ['race_2eqh',['race.qh',['../db/d36/server_2race_8qh.html',1,'']]],
+  ['race_2eqc',['race.qc',['../d6/d3b/race_8qc.html',1,'']]],
+  ['race_2eqh',['race.qh',['../d4/d1b/race_8qh.html',1,'']]],
   ['racer_2eqc',['racer.qc',['../dd/de3/racer_8qc.html',1,'']]],
   ['racer_2eqh',['racer.qh',['../d6/dd3/racer_8qh.html',1,'']]],
   ['racer_5fweapon_2eqc',['racer_weapon.qc',['../d5/da5/racer__weapon_8qc.html',1,'']]],
@@ -16,8 +14,8 @@ var searchData=
   ['radarmap_2eqh',['radarmap.qh',['../d4/d3c/radarmap_8qh.html',1,'']]],
   ['radiobutton_2eqc',['radiobutton.qc',['../d3/d29/item_2radiobutton_8qc.html',1,'']]],
   ['radiobutton_2eqc',['radiobutton.qc',['../d9/dad/xonotic_2radiobutton_8qc.html',1,'']]],
-  ['radiobutton_2eqh',['radiobutton.qh',['../db/d30/item_2radiobutton_8qh.html',1,'']]],
   ['radiobutton_2eqh',['radiobutton.qh',['../d1/da8/xonotic_2radiobutton_8qh.html',1,'']]],
+  ['radiobutton_2eqh',['radiobutton.qh',['../db/d30/item_2radiobutton_8qh.html',1,'']]],
   ['rainsnow_2eqc',['rainsnow.qc',['../d4/d38/rainsnow_8qc.html',1,'']]],
   ['rainsnow_2eqh',['rainsnow.qh',['../d4/d79/rainsnow_8qh.html',1,'']]],
   ['random_2eqc',['random.qc',['../dc/d95/random_8qc.html',1,'']]],

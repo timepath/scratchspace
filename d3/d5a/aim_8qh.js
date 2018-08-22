@@ -14,6 +14,7 @@ var aim_8qh =
     [ "bot_3th_order_aimfilter", "d3/d5a/aim_8qh.html#a1d0fd5cbe5eff8d182de0b0c9041b4ea", null ],
     [ "bot_4th_order_aimfilter", "d3/d5a/aim_8qh.html#a074223603bedb18aabcf658c0a9ea61f", null ],
     [ "bot_5th_order_aimfilter", "d3/d5a/aim_8qh.html#adcdc102832e0016a0facd02dff7559b2", null ],
+    [ "bot_aimdir_executed", "d3/d5a/aim_8qh.html#a4c65633aa5e1a92ac549a4a468b9f41a", null ],
     [ "bot_aimlatency", "d3/d5a/aim_8qh.html#a42f0a350fc2c5a6544522a76b3488cfa", null ],
     [ "bot_aimtarg", "d3/d5a/aim_8qh.html#a9f0625eca4b7bbaa4a74aa342cbf42c1", null ],
     [ "bot_aimtargorigin", "d3/d5a/aim_8qh.html#a8003fde7b1f95f58b1429dc141aca92f", null ],

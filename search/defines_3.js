@@ -1,6 +1,7 @@
 var searchData=
 [
   ['c2s_5fprotocol_5ffrom',['C2S_Protocol_from',['../d9/d48/lib_2net_8qh.html#a6e4c8aabf20d96d568a3a13b9e492f7c',1,'net.qh']]],
+  ['ca_5falive_5fteams_5fok',['CA_ALIVE_TEAMS_OK',['../d7/db6/sv__clanarena_8qc.html#a2675140ec89f3ccfdaeb09d3297e6814',1,'sv_clanarena.qc']]],
   ['call_5faccumulated_5ffunction',['CALL_ACCUMULATED_FUNCTION',['../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be',1,'accumulate.qh']]],
   ['campaign_5fgetarg',['CAMPAIGN_GETARG',['../db/d55/campaign__file_8qc.html#a5f7b644249dd0af2317f7a98abfd332d',1,'campaign_file.qc']]],
   ['campaign_5fmax_5fentries',['CAMPAIGN_MAX_ENTRIES',['../d7/d13/campaign__common_8qh.html#a741735ba63f01d1145221581ba8e4803',1,'CAMPAIGN_MAX_ENTRIES():&#160;campaign_common.qh'],['../dd/d66/server_2campaign_8qh.html#a741735ba63f01d1145221581ba8e4803',1,'CAMPAIGN_MAX_ENTRIES():&#160;campaign.qh']]],
@@ -73,7 +74,10 @@ var searchData=
   ['csqcmodel_5fproperty_5fscaled',['CSQCMODEL_PROPERTY_SCALED',['../d5/dc9/cl__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9',1,'CSQCMODEL_PROPERTY_SCALED():&#160;cl_model.qc'],['../df/d05/cl__model_8qh.html#a075440bd5f3803f15b4507c99d0c2bf9',1,'CSQCMODEL_PROPERTY_SCALED():&#160;cl_model.qh'],['../dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9',1,'CSQCMODEL_PROPERTY_SCALED():&#160;sv_model.qc'],['../dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9',1,'CSQCMODEL_PROPERTY_SCALED():&#160;sv_model.qc'],['../d3/d64/sv__model_8qh.html#a075440bd5f3803f15b4507c99d0c2bf9',1,'CSQCMODEL_PROPERTY_SCALED():&#160;sv_model.qh']]],
   ['csqcplayer_5fforce_5fupdates',['CSQCPLAYER_FORCE_UPDATES',['../d1/d20/csqcmodel__settings_8qh.html#afa3788f017d2c00503a944c4176a3f65',1,'CSQCPLAYER_FORCE_UPDATES():&#160;csqcmodel_settings.qh'],['../d3/d24/settings_8qh.html#afa3788f017d2c00503a944c4176a3f65',1,'CSQCPLAYER_FORCE_UPDATES():&#160;settings.qh']]],
   ['csqcplayer_5fhook_5fpostcamerasetup',['CSQCPLAYER_HOOK_POSTCAMERASETUP',['../d1/d20/csqcmodel__settings_8qh.html#a878299eeec068b73303c1906e6de74dd',1,'CSQCPLAYER_HOOK_POSTCAMERASETUP():&#160;csqcmodel_settings.qh'],['../d3/d24/settings_8qh.html#ae5b0ec72421fbd4ccf2ec65d726589f4',1,'CSQCPLAYER_HOOK_POSTCAMERASETUP():&#160;settings.qh']]],
+  ['ctf_5fdiffteam',['CTF_DIFFTEAM',['../d6/db0/sv__ctf_8qh.html#adf6df42ec8d9e6ec0f12b7f2a972113b',1,'sv_ctf.qh']]],
   ['ctf_5frecord',['CTF_RECORD',['../d5/df2/common_2util_8qh.html#a47c2694cbc7dedf16ec1ebae633381a7',1,'util.qh']]],
+  ['ctf_5fsameteam',['CTF_SAMETEAM',['../d6/db0/sv__ctf_8qh.html#a5ca1bd30bcd95a7d053137be6fec125d',1,'sv_ctf.qh']]],
+  ['ctf_5fspawnorigin',['ctf_spawnorigin',['../d6/db0/sv__ctf_8qh.html#a2ac21612da16c72a7fc07469ffa05737',1,'sv_ctf.qh']]],
   ['cts_5frecord',['CTS_RECORD',['../d5/df2/common_2util_8qh.html#a2ab892f127a1745ff993deeb083df749',1,'util.qh']]],
   ['ctx_5fcache',['CTX_CACHE',['../d0/dfe/i18n_8qh.html#aa1f361d4b0c21e4e579c98dcd1754d8a',1,'i18n.qh']]],
   ['cvar',['cvar',['../dd/d8b/sys-pre_8qh.html#a8bec2d5b8558bb04f35ff39b753bd8bd',1,'sys-pre.qh']]],

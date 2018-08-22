@@ -1,6 +1,7 @@
 var searchData=
 [
   ['backgroundimage',['backgroundImage',['../d5/d95/classXonoticDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea',1,'XonoticDialog']]],
+  ['ballcarried',['ballcarried',['../de/da1/sv__keepaway_8qc.html#a137a4251a46a5fea7db7d4f16b190dcb',1,'sv_keepaway.qc']]],
   ['ballistics_5fdensity',['ballistics_density',['../d2/d4b/classPlayer.html#abfb4d82d39f5940c20f2e866eefb10ec',1,'Player::ballistics_density()'],['../d5/d26/server_2defs_8qh.html#a4fb2fb54df1e968eb7ecb8cc92f0f3ec',1,'ballistics_density():&#160;defs.qh']]],
   ['ban_5fchecked',['ban_checked',['../d6/d95/ipban_8qc.html#a0cc14f1baeb0997f35d7d929b2836628',1,'ipban.qc']]],
   ['ban_5fcount',['ban_count',['../d6/d95/ipban_8qc.html#adb129794ee531ea662996f0475b4a686',1,'ipban.qc']]],
@@ -80,6 +81,7 @@ var searchData=
   ['bot_5f4th_5forder_5faimfilter',['bot_4th_order_aimfilter',['../d3/d5a/aim_8qh.html#a074223603bedb18aabcf658c0a9ea61f',1,'aim.qh']]],
   ['bot_5f5th_5forder_5faimfilter',['bot_5th_order_aimfilter',['../d3/d5a/aim_8qh.html#adcdc102832e0016a0facd02dff7559b2',1,'aim.qh']]],
   ['bot_5faggresskill',['bot_aggresskill',['../d1/da9/bot_8qh.html#a16e2c32d3da542f7b82a5e7aa79285b6',1,'bot.qh']]],
+  ['bot_5faimdir_5fexecuted',['bot_aimdir_executed',['../d3/d5a/aim_8qh.html#a4c65633aa5e1a92ac549a4a468b9f41a',1,'aim.qh']]],
   ['bot_5faimlatency',['bot_aimlatency',['../d3/d5a/aim_8qh.html#a42f0a350fc2c5a6544522a76b3488cfa',1,'aim.qh']]],
   ['bot_5faimskill',['bot_aimskill',['../d1/da9/bot_8qh.html#a7c3b450e486f54cec139b80493380d40',1,'bot.qh']]],
   ['bot_5faimtarg',['bot_aimtarg',['../d3/d5a/aim_8qh.html#a9f0625eca4b7bbaa4a74aa342cbf42c1',1,'aim.qh']]],

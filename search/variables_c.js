@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['ladder_5fentity',['ladder_entity',['../df/d4f/ladder_8qh.html#ac7991a33f246233f749dbc74c6504b83',1,'ladder_entity():&#160;ladder.qh'],['../d8/d39/havocbot_8qh.html#ac7991a33f246233f749dbc74c6504b83',1,'ladder_entity():&#160;havocbot.qh']]],
+  ['ladder_5fentity',['ladder_entity',['../df/d4f/ladder_8qh.html#ac7991a33f246233f749dbc74c6504b83',1,'ladder.qh']]],
   ['ladder_5ffirstpoint',['LADDER_FIRSTPOINT',['../d2/de3/getreplies_8qh.html#a456cc1d0b65bd05759ceaa0918d48101',1,'getreplies.qh']]],
   ['ladder_5fsize',['LADDER_SIZE',['../d2/de3/getreplies_8qh.html#a5259d3a8b09f9f9fb7497728f4d5e6df',1,'getreplies.qh']]],
-  ['ladder_5ftime',['ladder_time',['../df/d4f/ladder_8qh.html#aa60a516fc0a4e7635ac3ac1a854b9266',1,'ladder_time():&#160;ladder.qh'],['../d8/d39/havocbot_8qh.html#aa60a516fc0a4e7635ac3ac1a854b9266',1,'ladder_time():&#160;havocbot.qh']]],
+  ['ladder_5ftime',['ladder_time',['../df/d4f/ladder_8qh.html#aa60a516fc0a4e7635ac3ac1a854b9266',1,'ladder.qh']]],
   ['lag1_5fentity1',['lag1_entity1',['../d3/d5a/aim_8qh.html#accc07f43cdf8d5a054fa99abf268a43e',1,'aim.qh']]],
   ['lag1_5ffloat1',['lag1_float1',['../d3/d5a/aim_8qh.html#af76677092069c923a4eaf1e8712906dc',1,'aim.qh']]],
   ['lag1_5ffloat2',['lag1_float2',['../d3/d5a/aim_8qh.html#a3f02b7b6d1c36cba00e0d6e40b99774e',1,'aim.qh']]],
@@ -62,6 +62,7 @@ var searchData=
   ['last_5fenemycheck',['last_enemycheck',['../d8/dc1/sv__monsters_8qh.html#ae390f0411202437977d0c074774a3fb5',1,'sv_monsters.qh']]],
   ['last_5fforward_5fkey_5ftime',['last_FORWARD_KEY_time',['../d5/da6/sv__dodging_8qc.html#ab5f0538073a7569c752c13373e4a91de',1,'sv_dodging.qc']]],
   ['last_5fleft_5fkey_5ftime',['last_LEFT_KEY_time',['../d5/da6/sv__dodging_8qc.html#abbbb0affc8ab2477c4d3c906dce57da0',1,'sv_dodging.qc']]],
+  ['last_5frespawn',['last_respawn',['../dd/d0c/sv__ctf_8qc.html#ad172da3a68520139c9f19ae947302039',1,'sv_ctf.qc']]],
   ['last_5fright_5fkey_5ftime',['last_RIGHT_KEY_time',['../d5/da6/sv__dodging_8qc.html#a62ee826ed38b4d8199deced643ee6dfa',1,'sv_dodging.qc']]],
   ['last_5fswitchweapon',['last_switchweapon',['../d3/d05/hud_8qh.html#a44e28a39776951eb09d2f8fad4a2ef3e',1,'hud.qh']]],
   ['last_5ftrace',['last_trace',['../d8/dc1/sv__monsters_8qh.html#a57fcc373690ec53ba1bc2020b939e9c6',1,'sv_monsters.qh']]],
@@ -107,6 +108,8 @@ var searchData=
   ['listscreenshot',['listScreenshot',['../dc/d44/classXonoticScreenshotList.html#afd9459a203a4cb8a9108b960621e1925',1,'XonoticScreenshotList']]],
   ['listsound',['listSound',['../d1/d70/classXonoticSoundList.html#aca01acfe02e493b03b11badc157c59f2',1,'XonoticSoundList']]],
   ['liststats',['listStats',['../d0/d25/classXonoticStatsList.html#a251a14a740ca5ea4649d0fa4d956baa9',1,'XonoticStatsList']]],
+  ['lms_5flowest_5flives',['lms_lowest_lives',['../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c',1,'sv_lms.qh']]],
+  ['lms_5fspectate_5fwarning',['lms_spectate_warning',['../df/d58/sv__lms_8qh.html#a527fc9d748c9dc351af8068227b8ce32',1,'sv_lms.qh']]],
   ['lockedselecteditem',['lockedSelectedItem',['../d2/dec/classXonoticServerList.html#ac74328a1d9e5cf5040523008475a4b13',1,'XonoticServerList']]],
   ['lockteams',['lockteams',['../d2/d76/teamplay_8qh.html#afe2141cda6a112f2c145aa449bb31f95',1,'teamplay.qh']]],
   ['lodmodelindex0',['lodmodelindex0',['../dc/d3d/csqcmodel__hooks_8qc.html#ab473803a0773142ae861faea6bd995e3',1,'csqcmodel_hooks.qc']]],

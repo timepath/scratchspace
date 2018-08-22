@@ -4,7 +4,6 @@ var sv__onslaught_8qc =
     [ "FixSize", "d0/de4/sv__onslaught_8qc.html#ae3b2b9ab5e59b7825352e92ec024f767", null ],
     [ "havocbot_goalrating_ons_controlpoints_attack", "d0/de4/sv__onslaught_8qc.html#a2162e5e10c6371e662d77220d09fad9f", null ],
     [ "havocbot_goalrating_ons_generator_attack", "d0/de4/sv__onslaught_8qc.html#adf0ba2f0f5009398b9d71635f5b63151", null ],
-    [ "havocbot_goalrating_ons_offenseitems", "d0/de4/sv__onslaught_8qc.html#adfef4548e3d9f46f16f8a558b6b963b1", null ],
     [ "havocbot_ons_reset_role", "d0/de4/sv__onslaught_8qc.html#ae3892bcbd6e838183c105330ce7374a0", null ],
     [ "havocbot_role_ons_assistant", "d0/de4/sv__onslaught_8qc.html#af54132466fbe97816d84f69960ffaf65", null ],
     [ "havocbot_role_ons_defense", "d0/de4/sv__onslaught_8qc.html#acdf185a2c6ffdd3a60599b3f8bd44d64", null ],
