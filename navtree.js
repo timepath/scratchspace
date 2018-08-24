@@ -85,7 +85,7 @@ var NAVTREEINDEX =
 "d6/d3b/race_8qc.html#a44f2d02591475477365d7f7ec9d55f3c",
 "d6/d74/serverlist_8qc.html#ac25113395e23fb033caa4ed0b9e5c261",
 "d6/d8f/ecs_2components_2__mod_8qh.html",
-"d6/db0/sv__ctf_8qh.html#a39bb0f2e8506e3f580d7e2ed9edc3537",
+"d6/db0/sv__ctf_8qh.html#a38c042084d90f5ad5f0d48170f26bac0",
 "d6/dce/sounds_2all_8inc.html#a44076010d39d91a4d7d623e9db4f7f19",
 "d6/dd3/view_8qc.html#a114651a635db56741dc92c082059ffc7",
 "d6/ddd/server_2mutators_2events_8qh.html#a5885e929edf0130e200eea743ed9acdd",

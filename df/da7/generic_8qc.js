@@ -19,11 +19,11 @@ var generic_8qc =
     [ "GenericCommand_macro_usage", "df/da7/generic_8qc.html#a778874f1edcb478c0faef7b757c50554", null ],
     [ "GenericCommand_macro_write_aliases", "df/da7/generic_8qc.html#a4949cbdd574b98248ac7c6fe9e48a096", null ],
     [ "GenericCommand_maplist", "df/da7/generic_8qc.html#aea900706d16b669fe4be7157fa40710c", null ],
-    [ "GenericCommand_nextframe", "df/da7/generic_8qc.html#a7c2ba510808f0d8901cdf95be900634b", null ],
+    [ "GenericCommand_nextframe", "df/da7/generic_8qc.html#a4ff73c005c847f402445e72cb3de12c3", null ],
     [ "GenericCommand_qc_curl", "df/da7/generic_8qc.html#a76541b6f353700250da04830fd8e4b87", null ],
     [ "GenericCommand_removefromlist", "df/da7/generic_8qc.html#a2c589af47e77da23f2ca87ec74689866", null ],
     [ "GenericCommand_restartnotifs", "df/da7/generic_8qc.html#a0a2b35dea5d192e46d5ca7e112ba1942", null ],
     [ "GenericCommand_runtest", "df/da7/generic_8qc.html#a52ab5c0463c1bccf14930c9e407c7c8c", null ],
     [ "GenericCommand_settemp", "df/da7/generic_8qc.html#a9c7edc3a0c8762ef21ee60663c55311a", null ],
-    [ "GenericCommand_settemp_restore", "df/da7/generic_8qc.html#ac3342d35bc210e07985b261684d0a0de", null ]
+    [ "GenericCommand_settemp_restore", "df/da7/generic_8qc.html#aa236dd42ebb4fdf9df5f676b020ea0d5", null ]
 ];
