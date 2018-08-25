@@ -1,5 +1,7 @@
 var NAVTREEINDEX114 =
 {
+"dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,146,18],
+"dc/de7/bumblebee__weapons_8qc.html":[2,0,1,15,0,4],
 "dc/de7/bumblebee__weapons_8qc_source.html":[2,0,1,15,0,4],
 "dc/de9/classXonoticRootDialog.html":[1,0,235],
 "dc/de9/classXonoticRootDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,235,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX114 =
 "dd/d0a/classMachineGunTurret.html#a6b7ea20bce905b65ee654a87ab41b9fb":[1,0,73,15],
 "dd/d0a/classMachineGunTurret.html#a6d399b09e4c9806affbf61fa141690d9":[1,0,73,18],
 "dd/d0a/classMachineGunTurret.html#a9cbd0273110d224aa83170c43e29f691":[1,0,73,9],
-"dd/d0a/classMachineGunTurret.html#ab51103697656de906079b6537d3800bc":[1,0,73,8],
-"dd/d0a/classMachineGunTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,73,6],
-"dd/d0a/classMachineGunTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,73,10]
+"dd/d0a/classMachineGunTurret.html#ab51103697656de906079b6537d3800bc":[1,0,73,8]
 };

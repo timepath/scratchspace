@@ -5,6 +5,8 @@ var searchData=
   ['has_5forigin',['has_origin',['../db/d18/ent__cs_8qh.html#af17dfd90e88595249957c1539ebe1c17',1,'ent_cs.qh']]],
   ['has_5fsv_5forigin',['has_sv_origin',['../db/d18/ent__cs_8qh.html#a154ebd8673f5dbd02db9c5d6300fefc5',1,'ent_cs.qh']]],
   ['has_5fteam',['has_team',['../df/d30/client_2main_8qc.html#a33415c58794cf70af080dcfa3213a501',1,'main.qc']]],
+  ['hasnextcampaign',['hasNextCampaign',['../d4/d91/classXonoticCampaignList.html#a2c323d82578b381efc9730e7017ec98b',1,'XonoticCampaignList']]],
+  ['hasprevcampaign',['hasPrevCampaign',['../d4/d91/classXonoticCampaignList.html#abbd29ade66c2c1a48ed795560a2fcb22',1,'XonoticCampaignList']]],
   ['hasweapon_5fcomplain_5fspam',['hasweapon_complain_spam',['../d1/d37/classClient.html#a2e357040c9fcbd4d35a09b094b7c329f',1,'Client::hasweapon_complain_spam()'],['../d8/d6b/selection_8qh.html#aeffb5f5c575c97f12381045f6f091403',1,'hasweapon_complain_spam():&#160;selection.qh']]],
   ['have_5fs3tc',['have_s3tc',['../d2/dcb/classXonoticPicmipSlider.html#ab1d7fb62f7e6c638ebad21f79aad0178',1,'XonoticPicmipSlider']]],
   ['have_5fteam_5fspawns',['have_team_spawns',['../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3',1,'defs.qh']]],

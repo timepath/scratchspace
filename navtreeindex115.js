@@ -1,5 +1,7 @@
 var NAVTREEINDEX115 =
 {
+"dd/d0a/classMachineGunTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,73,6],
+"dd/d0a/classMachineGunTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,73,10],
 "dd/d0a/classMachineGunTurret.html#ac3fece7e710a0c15f72efe00069d74c4":[1,0,73,11],
 "dd/d0a/classMachineGunTurret.html#ade53c264d2eaeb4bbe18a978251a705e":[1,0,73,20],
 "dd/d0a/classMachineGunTurret.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,73,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX115 =
 "dd/d1a/client_2mapvoting_8qh.html#a5c6190dc7aa1bd7aafb9592a64f7046d":[2,0,0,18,8],
 "dd/d1a/client_2mapvoting_8qh.html#a9371fedb04eb1cf116a3dfc87248a8d8":[2,0,0,18,3],
 "dd/d1a/client_2mapvoting_8qh.html#a9c42f51718ed192ed1841a53d2b0e507":[2,0,0,18,5],
-"dd/d1a/client_2mapvoting_8qh.html#aa0ea6db360d44f69361202c0a6eea1c8":[2,0,0,18,2],
-"dd/d1a/client_2mapvoting_8qh.html#aa818f8084baf251c8c1215262ebe1022":[2,0,0,18,1],
-"dd/d1a/client_2mapvoting_8qh.html#acee1a082369857c7ee64924a0d9bc706":[2,0,0,18,7]
+"dd/d1a/client_2mapvoting_8qh.html#aa0ea6db360d44f69361202c0a6eea1c8":[2,0,0,18,2]
 };

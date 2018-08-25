@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"da/db7/classXonoticServerInfoDialog.html#ae07a729392c814177aa3ff3a43de1a37":[1,0,244,21],
+"da/db7/classXonoticServerInfoDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,244,90],
 "da/db7/classXonoticServerInfoDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,244,83],
 "da/db7/classXonoticServerInfoDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,244,118],
 "da/db7/classXonoticServerInfoDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,244,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "da/dd5/enumclass_8qh.html#a93090b9631c9cca1cb2e94328e2889ed":[2,0,4,18,3],
 "da/dd5/enumclass_8qh.html#ab9035c4cdfdbaa88cf7ec5cc33a5c6f8":[2,0,4,18,0],
 "da/dd5/enumclass_8qh.html#ac13d792e49df3610c3a5b5d37f98ba4b":[2,0,4,18,2],
-"da/dd5/enumclass_8qh.html#aff68acbe705eabfb48461c1875991505":[2,0,4,18,1],
-"da/dd5/enumclass_8qh_source.html":[2,0,4,18],
-"da/dd7/common_2gamemodes_2gamemode_2domination_2__mod_8inc.html":[2,0,1,3,0,5,0]
+"da/dd5/enumclass_8qh.html#aff68acbe705eabfb48461c1875991505":[2,0,4,18,1]
 };
