@@ -1,5 +1,12 @@
 var NAVTREEINDEX32 =
 {
+"d3/dea/lib_2matrix_2__mod_8qh_source.html":[2,0,4,1,1],
+"d3/deb/dialog__multiplayer__media_8qh.html":[2,0,5,4,99],
+"d3/deb/dialog__multiplayer__media_8qh.html#a048e9d55578bbd55fa3acb96f76ad670":[2,0,5,4,99,1],
+"d3/deb/dialog__multiplayer__media_8qh_source.html":[2,0,5,4,99],
+"d3/dec/common_2mutators_2mutator_2instagib_2items_8qc.html":[2,0,1,10,0,12,2],
+"d3/dec/common_2mutators_2mutator_2instagib_2items_8qc_source.html":[2,0,1,10,0,12,2],
+"d3/def/sv__turrets_8qc.html":[2,0,1,14,11],
 "d3/def/sv__turrets_8qc_source.html":[2,0,1,14,11],
 "d3/df2/classDualPlasmaTurret.html":[1,0,31],
 "d3/df2/classDualPlasmaTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,31,5],
@@ -242,12 +249,5 @@ var NAVTREEINDEX32 =
 "d4/d0a/classXonoticMiscSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,217,11],
 "d4/d0a/classXonoticMiscSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,217,71],
 "d4/d0a/classXonoticMiscSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,217,4],
-"d4/d0a/classXonoticMiscSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,217,45],
-"d4/d0a/classXonoticMiscSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,217,23],
-"d4/d0a/classXonoticMiscSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,217,51],
-"d4/d0a/classXonoticMiscSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,217,31],
-"d4/d0a/classXonoticMiscSettingsTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,217,22],
-"d4/d0a/classXonoticMiscSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,217,24],
-"d4/d0a/classXonoticMiscSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,217,17],
-"d4/d0a/classXonoticMiscSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,217,32]
+"d4/d0a/classXonoticMiscSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,217,45]
 };

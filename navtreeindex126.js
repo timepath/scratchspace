@@ -1,5 +1,14 @@
 var NAVTREEINDEX126 =
 {
+"de/d65/classXonoticHUDInfoMessagesDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,192,84],
+"de/d65/classXonoticHUDInfoMessagesDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,192,10],
+"de/d65/classXonoticHUDInfoMessagesDialog.html#afeab97e923ba85af0994c0c39b787337":[1,0,192,57],
+"de/d66/healtharmor_8qc.html":[2,0,0,1,0,10],
+"de/d66/healtharmor_8qc.html#a160501021e3210ed1258c66ae9a881ba":[2,0,0,1,0,10,0],
+"de/d66/healtharmor_8qc_source.html":[2,0,0,1,0,10],
+"de/d68/accumulate_8qh.html":[2,0,4,6],
+"de/d68/accumulate_8qh.html#a0b97c92b7b9830a6f25d3aae9aaf7863":[2,0,4,6,3],
+"de/d68/accumulate_8qh.html#a402f916520763cc54bd64476d42b43ba":[2,0,4,6,4],
 "de/d68/accumulate_8qh.html#a63caa863ede3c6510744c01983e44648":[2,0,4,6,2],
 "de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be":[2,0,4,6,1],
 "de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5":[2,0,4,6,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX126 =
 "de/d7a/classXonoticHUDScoreDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,202,37],
 "de/d7a/classXonoticHUDScoreDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,202,2],
 "de/d7a/classXonoticHUDScoreDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,202,35],
-"de/d7a/classXonoticHUDScoreDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,202,39],
-"de/d7a/classXonoticHUDScoreDialog.html#afc6684260830101c451372e3a2e0b7f5":[1,0,202,58],
-"de/d7a/classXonoticHUDScoreDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,202,84],
-"de/d7a/classXonoticHUDScoreDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,202,10],
-"de/d7e/common_2weapons_2__all_8inc.html":[2,0,1,16,1],
-"de/d7e/common_2weapons_2__all_8inc_source.html":[2,0,1,16,1],
-"de/d82/classDataSource.html":[1,0,26],
-"de/d82/classDataSource.html#a1bfb6b238d890bf4155028dc97cd230a":[1,0,26,3],
-"de/d82/classDataSource.html#a1ca30518a2e736ed25fb28222344771d":[1,0,26,1],
-"de/d82/classDataSource.html#a6113433aefe29a4e9977321048a26e18":[1,0,26,4]
+"de/d7a/classXonoticHUDScoreDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,202,39]
 };

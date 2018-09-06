@@ -67,6 +67,8 @@ var searchData=
   ['client_2eqc',['client.qc',['../df/dd7/server_2client_8qc.html',1,'']]],
   ['client_2eqh',['client.qh',['../d2/d35/lib_2warpzone_2client_8qh.html',1,'']]],
   ['client_2eqh',['client.qh',['../d8/de2/server_2client_8qh.html',1,'']]],
+  ['clientkill_2eqc',['clientkill.qc',['../dc/d55/clientkill_8qc.html',1,'']]],
+  ['clientkill_2eqh',['clientkill.qh',['../d2/d4d/clientkill_8qh.html',1,'']]],
   ['cmd_2eqc',['cmd.qc',['../d8/d1d/cmd_8qc.html',1,'']]],
   ['cmd_2eqh',['cmd.qh',['../d8/d4c/cmd_8qh.html',1,'']]],
   ['color_2eqh',['color.qh',['../de/d11/color_8qh.html',1,'']]],

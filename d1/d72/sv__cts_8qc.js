@@ -1,12 +1,9 @@
 var sv__cts_8qc =
 [
-    [ "ClientKill_Now", "d1/d72/sv__cts_8qc.html#a85c92f8d62dbd468b7fd55f41b7eda21", null ],
-    [ "CTS_ClientKill", "d1/d72/sv__cts_8qc.html#a6e877ec0cfc1400b24891e9504a99d52", null ],
     [ "cts_EventLog", "d1/d72/sv__cts_8qc.html#a240c42bc7cb54d9cacd4b74cfa36925e", null ],
     [ "cts_Initialize", "d1/d72/sv__cts_8qc.html#ac49eff46dad63fa11dfcf4c78bc0803e", null ],
     [ "cts_ScoreRules", "d1/d72/sv__cts_8qc.html#a9b15c0c4fb2a70ddec86a6d47c026023", null ],
     [ "havocbot_role_cts", "d1/d72/sv__cts_8qc.html#a9edd66c8072975c0b0ac13dea2dc92d9", null ],
-    [ "KillIndicator_Think", "d1/d72/sv__cts_8qc.html#a07ed282ad92406a801203975b2c36ad4", null ],
     [ "MUTATOR_HOOKFUNCTION", "d1/d72/sv__cts_8qc.html#a5471fc5c9b0a3da53c323c4f14ab3cfc", null ],
     [ "MUTATOR_HOOKFUNCTION", "d1/d72/sv__cts_8qc.html#afcc761ec5d37bff059a0739d34f96a7a", null ],
     [ "MUTATOR_HOOKFUNCTION", "d1/d72/sv__cts_8qc.html#a3ac72324ed619c6db0947c5757caa66c", null ],

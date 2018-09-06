@@ -247,7 +247,7 @@ var NAVTREEINDEX3 =
 "d0/d8d/dialog__settings__misc__reset_8qc.html":[2,0,5,4,148],
 "d0/d8d/dialog__settings__misc__reset_8qc.html#aa097f16ad431b5b0da34a4454c36e031":[2,0,5,4,148,0],
 "d0/d8d/dialog__settings__misc__reset_8qc_source.html":[2,0,5,4,148],
-"d0/d91/handicap_8qh.html":[2,0,6,28],
-"d0/d91/handicap_8qh.html#a252940bd48dd3ccfad23adddf28e02ae":[2,0,6,28,3],
-"d0/d91/handicap_8qh.html#a41b02148f09797e441feda396ad8c4fc":[2,0,6,28,0]
+"d0/d91/handicap_8qh.html":[2,0,6,30],
+"d0/d91/handicap_8qh.html#a252940bd48dd3ccfad23adddf28e02ae":[2,0,6,30,3],
+"d0/d91/handicap_8qh.html#a41b02148f09797e441feda396ad8c4fc":[2,0,6,30,0]
 };

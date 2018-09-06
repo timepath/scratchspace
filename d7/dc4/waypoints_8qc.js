@@ -18,7 +18,7 @@ var waypoints_8qc =
     [ "waypoint_getlinearcost", "d7/dc4/waypoints_8qc.html#ae6323b7e0f8ebe2aff52580a4a043072", null ],
     [ "waypoint_getlinearcost_underwater", "d7/dc4/waypoints_8qc.html#a399549857abcd6c3f94901ec1b6b5be4", null ],
     [ "waypoint_getlinkcost", "d7/dc4/waypoints_8qc.html#aa5407b0b7212365767c0a9bfe9656c2f", null ],
-    [ "waypoint_getSymmetricalOrigin", "d7/dc4/waypoints_8qc.html#aa8b9345c7e20288dfd29ee4bc758aba9", null ],
+    [ "waypoint_getSymmetricalPoint", "d7/dc4/waypoints_8qc.html#ab9297c97f07308992a47fadf9d4c5345", null ],
     [ "waypoint_gettravelcost", "d7/dc4/waypoints_8qc.html#a4ff6fb4088c04ce31f0ca8c9e688777a", null ],
     [ "waypoint_islinked", "d7/dc4/waypoints_8qc.html#a5c2ed2db425ae03dadf19dede5799956", null ],
     [ "waypoint_load_links", "d7/dc4/waypoints_8qc.html#a059d616d0acff05a510d864cbecb6879", null ],

@@ -10,7 +10,6 @@ var server_2client_8qh =
     [ "CalcRotRegen", "d8/de2/server_2client_8qh.html#ae65b054c6752ac6d32c4212a3b9a4294", null ],
     [ "ClientInit_misc", "d8/de2/server_2client_8qh.html#aec6cdba5f75bbb56090f5e085e9bcfeb", null ],
     [ "ClientInit_Spawn", "d8/de2/server_2client_8qh.html#addbfa5c0ba866c7ffd66239839bc9942", null ],
-    [ "ClientKill_TeamChange", "d8/de2/server_2client_8qh.html#a97b74d9774c1336d930dd5a88961726e", null ],
     [ "ClientState_attach", "d8/de2/server_2client_8qh.html#afc32312bf25df126b18e078bedab7837", null ],
     [ "DebugPrintToChat", "d8/de2/server_2client_8qh.html#af4eb45b5c44af7661d1ef9a3e7d3cb19", null ],
     [ "DebugPrintToChatAll", "d8/de2/server_2client_8qh.html#acd6554a25e5a6c81d0ebe4eea07ecb07", null ],

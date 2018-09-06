@@ -1,9 +1,9 @@
 var NAVTREEINDEX4 =
 {
-"d0/d91/handicap_8qh.html#a4f458f5ffa45353fadde9936cbd0279a":[2,0,6,28,4],
-"d0/d91/handicap_8qh.html#a673d6ca84b1e72bc80cae2e90030056f":[2,0,6,28,2],
-"d0/d91/handicap_8qh.html#ac42efcf2d233a8425c35dbfc9fccc278":[2,0,6,28,1],
-"d0/d91/handicap_8qh_source.html":[2,0,6,28],
+"d0/d91/handicap_8qh.html#a4f458f5ffa45353fadde9936cbd0279a":[2,0,6,30,4],
+"d0/d91/handicap_8qh.html#a673d6ca84b1e72bc80cae2e90030056f":[2,0,6,30,2],
+"d0/d91/handicap_8qh.html#ac42efcf2d233a8425c35dbfc9fccc278":[2,0,6,30,1],
+"d0/d91/handicap_8qh_source.html":[2,0,6,30],
 "d0/d93/common_2mutators_2mutator_2superspec_2__mod_8inc.html":[2,0,1,10,0,34,0],
 "d0/d93/common_2mutators_2mutator_2superspec_2__mod_8inc_source.html":[2,0,1,10,0,34,0],
 "d0/d95/menudefs_8qh.html":[2,0,2,4],

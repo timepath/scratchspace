@@ -159,8 +159,6 @@ var server_2defs_8qh =
     [ "jointime", "d5/d26/server_2defs_8qh.html#a90ecbc11824e99dab4a925f22e38d0c5", null ],
     [ "just_joined", "d5/d26/server_2defs_8qh.html#a66417efa3cbc9bf4992fd06cfa8f5203", null ],
     [ "killcount", "d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003", null ],
-    [ "killindicator", "d5/d26/server_2defs_8qh.html#a59f3bedf42216e820a4817519548bd90", null ],
-    [ "killindicator_teamchange", "d5/d26/server_2defs_8qh.html#a33fa8ce82dd2df9d9af4e0e8c6814de2", null ],
     [ "killsound", "d5/d26/server_2defs_8qh.html#ae6bd352ab3129bbecd9993d9f61c30d6", null ],
     [ "matchid", "d5/d26/server_2defs_8qh.html#a14f03778c94942a52bf20c98c362415b", null ],
     [ "MAX_DAMAGEEXTRARADIUS", "d5/d26/server_2defs_8qh.html#a16e46f2a8ffe60be975420fded893146", null ],

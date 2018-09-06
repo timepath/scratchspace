@@ -83,7 +83,6 @@ var sv__keyhunt_8qc =
     [ "KH_KEY_XYDIST", "da/d2c/sv__keyhunt_8qc.html#afec5d177d0f96378fc3d6a257d0bf0cf", null ],
     [ "KH_KEY_XYSPEED", "da/d2c/sv__keyhunt_8qc.html#a8cc903e5ef44f343a8ce6b8e967ad9a6", null ],
     [ "KH_KEY_ZSHIFT", "da/d2c/sv__keyhunt_8qc.html#a22263245235943bd4e1f0aace916b0bb", null ],
-    [ "kh_keystatus", "da/d2c/sv__keyhunt_8qc.html#af5d369bca016452a0f70a245b3fc2491", null ],
     [ "kh_next", "da/d2c/sv__keyhunt_8qc.html#a0411010ca825838d10464f8da5825df9", null ],
     [ "kh_no_radar_circles", "da/d2c/sv__keyhunt_8qc.html#a43c2721f68c0abd5ad13c6f94663f1f9", null ],
     [ "kh_prev", "da/d2c/sv__keyhunt_8qc.html#a7478343cacd66fb2eabd82baa3697669", null ],

@@ -1,5 +1,14 @@
 var NAVTREEINDEX120 =
 {
+"dd/da3/classXonoticMusicPlayerTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,220,43],
+"dd/da3/classXonoticMusicPlayerTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,220,86],
+"dd/da3/classXonoticMusicPlayerTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,220,13],
+"dd/da3/classXonoticMusicPlayerTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,220,7],
+"dd/da3/net__notice_8qh.html":[2,0,1,38],
+"dd/da3/net__notice_8qh_source.html":[2,0,1,38],
+"dd/da6/classXonoticCreditsDialog.html":[1,0,162],
+"dd/da6/classXonoticCreditsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,162,31],
+"dd/da6/classXonoticCreditsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,162,12],
 "dd/da6/classXonoticCreditsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,162,39],
 "dd/da6/classXonoticCreditsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,162,3],
 "dd/da6/classXonoticCreditsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,162,82],
@@ -240,14 +249,5 @@ var NAVTREEINDEX120 =
 "dd/dcd/hud__config_8qh.html#acbb661be531ec12a66e835a78c4723a6":[2,0,0,1,6,9],
 "dd/dcd/hud__config_8qh.html#add51661a00f7fd1fc2f545bf2dcb2f88":[2,0,0,1,6,17],
 "dd/dcd/hud__config_8qh.html#aff11757a3172f4f26585a7edc21785f0":[2,0,0,1,6,0],
-"dd/dcd/hud__config_8qh_source.html":[2,0,0,1,6],
-"dd/dd0/classRace.html":[1,0,110],
-"dd/dd0/classRace.html#a13397714cb41912d55bd54c4eddf76f5":[1,0,110,12],
-"dd/dd0/classRace.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,110,1],
-"dd/dd0/classRace.html#a351f212954e056cd030a7207934f1570":[1,0,110,0],
-"dd/dd0/classRace.html#a353db82280437c3b38f0ad1934a7d666":[1,0,110,15],
-"dd/dd0/classRace.html#a4145e386d4b4137697bc3c14d1f9ac3c":[1,0,110,10],
-"dd/dd0/classRace.html#a4ca4c03add94dcfec615bc620cbd8cce":[1,0,110,13],
-"dd/dd0/classRace.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,110,8],
-"dd/dd0/classRace.html#a7880c3511ceeabb277b860085f1073ee":[1,0,110,11]
+"dd/dcd/hud__config_8qh_source.html":[2,0,0,1,6]
 };

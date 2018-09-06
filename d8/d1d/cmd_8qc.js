@@ -24,6 +24,7 @@ var cmd_8qc =
     [ "ClientCommand_suggestmap", "d8/d1d/cmd_8qc.html#af68d1f74b4f155ec0c96912f9c03acf4", null ],
     [ "ClientCommand_tell", "d8/d1d/cmd_8qc.html#a6a487ac8c19cb81bdc5e6be5c57e2567", null ],
     [ "ClientCommand_voice", "d8/d1d/cmd_8qc.html#ad904eec6e67d62ccfcce161b8218250a", null ],
+    [ "ClientCommand_wpeditor", "d8/d1d/cmd_8qc.html#a0c42ae5ee5b88c336b9cf1d7307c0ed5", null ],
     [ "SV_ParseClientCommand", "d8/d1d/cmd_8qc.html#a67c2dd926692b0635c83bcef05983b3b", null ],
     [ "SV_ParseClientCommand_floodcheck", "d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665", null ],
     [ "team_selected", "d8/d1d/cmd_8qc.html#ab71754893182e8830b826e9e9692db91", null ]

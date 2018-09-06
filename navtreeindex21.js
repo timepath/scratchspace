@@ -1,5 +1,12 @@
 var NAVTREEINDEX21 =
 {
+"d2/dcb/classXonoticPicmipSlider.html#a27b635e0916726012b7e8c4dca05064e":[1,0,225,49],
+"d2/dcb/classXonoticPicmipSlider.html#a29c89320843260961f920637db5d3ee1":[1,0,225,14],
+"d2/dcb/classXonoticPicmipSlider.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,225,11],
+"d2/dcb/classXonoticPicmipSlider.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,225,18],
+"d2/dcb/classXonoticPicmipSlider.html#a3493da2e0332713e4691ff21cd5ec07b":[1,0,225,64],
+"d2/dcb/classXonoticPicmipSlider.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,225,5],
+"d2/dcb/classXonoticPicmipSlider.html#a365ded1aad15f8cac9448983a229cfe7":[1,0,225,100],
 "d2/dcb/classXonoticPicmipSlider.html#a3dec4b76f3643e5645d9ce69b636f3d1":[1,0,225,94],
 "d2/dcb/classXonoticPicmipSlider.html#a3e93c43bb97f5831c98a56b905c1a207":[1,0,225,22],
 "d2/dcb/classXonoticPicmipSlider.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,225,70],
@@ -242,12 +249,5 @@ var NAVTREEINDEX21 =
 "d2/dd6/classXonoticInputSettingsTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,209,0],
 "d2/dd6/classXonoticInputSettingsTab.html#ac7df7e4db0cedfd0867e1b13e685e312":[1,0,209,59],
 "d2/dd6/classXonoticInputSettingsTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,209,35],
-"d2/dd6/classXonoticInputSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,209,40],
-"d2/dd6/classXonoticInputSettingsTab.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,209,37],
-"d2/dd6/classXonoticInputSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,209,84],
-"d2/dd6/classXonoticInputSettingsTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,209,53],
-"d2/dd6/classXonoticInputSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,209,57],
-"d2/dd6/classXonoticInputSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,209,62],
-"d2/dd6/classXonoticInputSettingsTab.html#ad92f1dfd0d9924af43f1bfec57cc9bd1":[1,0,209,26],
-"d2/dd6/classXonoticInputSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,209,75]
+"d2/dd6/classXonoticInputSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,209,40]
 };

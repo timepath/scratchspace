@@ -1,5 +1,14 @@
 var NAVTREEINDEX114 =
 {
+"dc/de5/classWeapon.html#aadf51e7fb4ada8bff51507cc383495e9":[1,0,146,36],
+"dc/de5/classWeapon.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,146,6],
+"dc/de5/classWeapon.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,146,11],
+"dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55":[1,0,146,32],
+"dc/de5/classWeapon.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,146,8],
+"dc/de5/classWeapon.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,146,3],
+"dc/de5/classWeapon.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,146,37],
+"dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,146,23],
+"dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84":[1,0,146,27],
 "dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,146,18],
 "dc/de7/bumblebee__weapons_8qc.html":[2,0,1,15,0,4],
 "dc/de7/bumblebee__weapons_8qc_source.html":[2,0,1,15,0,4],
@@ -240,14 +249,5 @@ var NAVTREEINDEX114 =
 "dd/d0a/classMachineGunTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,73,5],
 "dd/d0a/classMachineGunTurret.html#a2982ed21729ec03d94d82f749fdb1e55":[1,0,73,16],
 "dd/d0a/classMachineGunTurret.html#a2daafacb55ed4d518d4189f435b7d95a":[1,0,73,19],
-"dd/d0a/classMachineGunTurret.html#a3144102787442a58055180121b5e9536":[1,0,73,12],
-"dd/d0a/classMachineGunTurret.html#a34980e66ed09a68af3e3fa9e204a18ca":[1,0,73,1],
-"dd/d0a/classMachineGunTurret.html#a3adf9e8b337471a63c8c22a2fc5cfdca":[1,0,73,14],
-"dd/d0a/classMachineGunTurret.html#a3f55a0540df468e6f0406b2907921e9a":[1,0,73,2],
-"dd/d0a/classMachineGunTurret.html#a56e07d5aa23850f9cc9cd5eaa68f0880":[1,0,73,7],
-"dd/d0a/classMachineGunTurret.html#a579f9164789a12dcfb646c16d6b76f8a":[1,0,73,13],
-"dd/d0a/classMachineGunTurret.html#a6b7ea20bce905b65ee654a87ab41b9fb":[1,0,73,15],
-"dd/d0a/classMachineGunTurret.html#a6d399b09e4c9806affbf61fa141690d9":[1,0,73,18],
-"dd/d0a/classMachineGunTurret.html#a9cbd0273110d224aa83170c43e29f691":[1,0,73,9],
-"dd/d0a/classMachineGunTurret.html#ab51103697656de906079b6537d3800bc":[1,0,73,8]
+"dd/d0a/classMachineGunTurret.html#a3144102787442a58055180121b5e9536":[1,0,73,12]
 };
