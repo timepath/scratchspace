@@ -6,8 +6,10 @@ var searchData=
   ['team_5fchange_5fauto',['TEAM_CHANGE_AUTO',['../d2/d76/teamplay_8qh.html#a16af7b253440dadd46a80a4b9fddba4da1579c5cc27a7e9d75feff0f40fcf8bd2',1,'teamplay.qh']]],
   ['team_5fchange_5fmanual',['TEAM_CHANGE_MANUAL',['../d2/d76/teamplay_8qh.html#a16af7b253440dadd46a80a4b9fddba4da6100ece6deb0eca52d7c1438e155efb3',1,'teamplay.qh']]],
   ['team_5fchange_5fspectator',['TEAM_CHANGE_SPECTATOR',['../d2/d76/teamplay_8qh.html#a16af7b253440dadd46a80a4b9fddba4da6aba2fef4411093aca6bb8ccb75ca76b',1,'teamplay.qh']]],
-  ['teams_5fcompare_5fequal',['TEAMS_COMPARE_EQUAL',['../d2/d76/teamplay_8qh.html#aba01db17f4a2bfbc3db60dc172972a25abdd9def83fd9df6eb781a8f2f41f8d48',1,'teamplay.qh']]],
-  ['teams_5fcompare_5fgreater',['TEAMS_COMPARE_GREATER',['../d2/d76/teamplay_8qh.html#aba01db17f4a2bfbc3db60dc172972a25a93e0832a7d493950e474e8fa41de08b1',1,'teamplay.qh']]],
-  ['teams_5fcompare_5finvalid',['TEAMS_COMPARE_INVALID',['../d2/d76/teamplay_8qh.html#aba01db17f4a2bfbc3db60dc172972a25a4de5740fcf1820894296ff18c5b5205b',1,'teamplay.qh']]],
-  ['teams_5fcompare_5fless',['TEAMS_COMPARE_LESS',['../d2/d76/teamplay_8qh.html#aba01db17f4a2bfbc3db60dc172972a25aad8f5d3180d3fdcbcbda65dacdcd763c',1,'teamplay.qh']]]
+  ['team_5fforce_5fdefault',['TEAM_FORCE_DEFAULT',['../d2/d76/teamplay_8qh.html#aba01db17f4a2bfbc3db60dc172972a25a1c9e01467883a47944fc80b49509550f',1,'teamplay.qh']]],
+  ['team_5fforce_5fspectator',['TEAM_FORCE_SPECTATOR',['../d2/d76/teamplay_8qh.html#aba01db17f4a2bfbc3db60dc172972a25ae46d8f160b8b3862059f259c0a4d323c',1,'teamplay.qh']]],
+  ['teams_5fcompare_5fequal',['TEAMS_COMPARE_EQUAL',['../d2/d76/teamplay_8qh.html#aaf105ae5beaca1dee30ae54530691fceabdd9def83fd9df6eb781a8f2f41f8d48',1,'teamplay.qh']]],
+  ['teams_5fcompare_5fgreater',['TEAMS_COMPARE_GREATER',['../d2/d76/teamplay_8qh.html#aaf105ae5beaca1dee30ae54530691fcea93e0832a7d493950e474e8fa41de08b1',1,'teamplay.qh']]],
+  ['teams_5fcompare_5finvalid',['TEAMS_COMPARE_INVALID',['../d2/d76/teamplay_8qh.html#aaf105ae5beaca1dee30ae54530691fcea4de5740fcf1820894296ff18c5b5205b',1,'teamplay.qh']]],
+  ['teams_5fcompare_5fless',['TEAMS_COMPARE_LESS',['../d2/d76/teamplay_8qh.html#aaf105ae5beaca1dee30ae54530691fceaad8f5d3180d3fdcbcbda65dacdcd763c',1,'teamplay.qh']]]
 ];

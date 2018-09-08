@@ -40,6 +40,7 @@ var notifications_2all_8qh =
     [ "Get_Notif_TypeName", "dc/d8f/notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb", null ],
     [ "Local_Notification", "dc/d8f/notifications_2all_8qh.html#a4533800e729b98bacf130e45337d6e50", null ],
     [ "Local_Notification_WOVA", "dc/d8f/notifications_2all_8qh.html#ab191ea2d6864d62cf12f82140b351f66", null ],
+    [ "notif_arg_item_wepammo", "dc/d8f/notifications_2all_8qh.html#a66a6adad11286d5ff0241df569fa6897", null ],
     [ "notif_arg_spree_inf", "dc/d8f/notifications_2all_8qh.html#aca86269ef3485ce384ae8480ce58fd6e", null ],
     [ "REGISTRY_BEGIN", "dc/d8f/notifications_2all_8qh.html#a10900f5e542ea98dbc30d7911f8affc0", null ],
     [ "REGISTRY_END", "dc/d8f/notifications_2all_8qh.html#afc4e5dd17e5f887df22a3d33b59384d0", null ],

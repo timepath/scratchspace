@@ -7,6 +7,7 @@ var server_2miscfunctions_8qh =
     [ "ITEM_TOUCH_NEEDKILL", "dc/d73/server_2miscfunctions_8qh.html#a277f5e186f80cd980204cb7d55042890", null ],
     [ "PROJECTILE_TOUCH", "dc/d73/server_2miscfunctions_8qh.html#a50ae929b40916f98cffeb538fd0951dd", null ],
     [ "WARMUP_START_WEAPONS", "dc/d73/server_2miscfunctions_8qh.html#a29c235bed1ff0287066a442759cbfe3a", null ],
+    [ "AmmoNameFromWeaponentity", "dc/d73/server_2miscfunctions_8qh.html#ab43315cb7fcd38c5dd0f0825b8c92ba8", null ],
     [ "attach_sameorigin", "dc/d73/server_2miscfunctions_8qh.html#ac300f1843627f4956ab0088d6bff8b7e", null ],
     [ "crosshair_trace", "dc/d73/server_2miscfunctions_8qh.html#a8292725ec840a49d42ef6453aaf838f6", null ],
     [ "crosshair_trace_plusvisibletriggers", "dc/d73/server_2miscfunctions_8qh.html#a9890a696168a390303c18532e659a7b9", null ],

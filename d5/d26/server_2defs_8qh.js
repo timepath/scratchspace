@@ -248,7 +248,6 @@ var server_2defs_8qh =
     [ "sv_ready_restart", "d5/d26/server_2defs_8qh.html#a1fac9f68df5b03755384b5ba9502bc5e", null ],
     [ "sv_ready_restart_after_countdown", "d5/d26/server_2defs_8qh.html#af019b49a9905fe5b45f60a47c4473d78", null ],
     [ "sv_ready_restart_repeatable", "d5/d26/server_2defs_8qh.html#afb6f653b25964a434439fc89b0de3fc3", null ],
-    [ "team_forced", "d5/d26/server_2defs_8qh.html#a6af3cf814cbd9f6282a206846022ba60", null ],
     [ "team_saved", "d5/d26/server_2defs_8qh.html#a68ea638cf57ad32ab79b8a96b0a77788", null ],
     [ "teleportable", "d5/d26/server_2defs_8qh.html#a6df054c823ea4b68912d26da63107539", null ],
     [ "TemporaryDB", "d5/d26/server_2defs_8qh.html#a6fd78c37e1e70f4587b10000e80e19d0", null ],

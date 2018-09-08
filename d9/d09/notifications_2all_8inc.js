@@ -59,7 +59,7 @@ var notifications_2all_8inc =
     [ "MSG_CENTER_NOTIF", "d9/d09/notifications_2all_8inc.html#a7945b47126126ee0f2f22640172ce36d", null ],
     [ "MSG_INFO_NOTIF", "d9/d09/notifications_2all_8inc.html#a79aaea5506a4259f708e82ca31ba0e5a", null ],
     [ "MSG_INFO_NOTIF", "d9/d09/notifications_2all_8inc.html#a04536c849389404fd61ae7bf78ee8412", null ],
-    [ "MSG_INFO_NOTIF", "d9/d09/notifications_2all_8inc.html#a0a518bae28556a2fde4e17628b9a3460", null ],
+    [ "MSG_INFO_NOTIF", "d9/d09/notifications_2all_8inc.html#afed4f42ee37ab530651ba85d1ce38197", null ],
     [ "VERBOSE_MURDER", "d9/d09/notifications_2all_8inc.html#ab46a7a80541737a1426fb041ae89174f", null ],
     [ "VERBOSE_MURDER", "d9/d09/notifications_2all_8inc.html#a4954d754c4dd0573ea2c8e456ee5e3ae", null ],
     [ "VERBOSE_MURDER", "d9/d09/notifications_2all_8inc.html#a4f53fd857c0072aec38e0a333ff9c259", null ],

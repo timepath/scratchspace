@@ -1,5 +1,13 @@
 var NAVTREEINDEX120 =
 {
+"dd/da3/classXonoticMusicPlayerTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,220,67],
+"dd/da3/classXonoticMusicPlayerTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,220,29],
+"dd/da3/classXonoticMusicPlayerTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,220,5],
+"dd/da3/classXonoticMusicPlayerTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,220,19],
+"dd/da3/classXonoticMusicPlayerTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,220,58],
+"dd/da3/classXonoticMusicPlayerTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,220,41],
+"dd/da3/classXonoticMusicPlayerTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,220,2],
+"dd/da3/classXonoticMusicPlayerTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,220,39],
 "dd/da3/classXonoticMusicPlayerTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,220,43],
 "dd/da3/classXonoticMusicPlayerTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,220,86],
 "dd/da3/classXonoticMusicPlayerTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,220,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX120 =
 "dd/dcd/hud__config_8qh.html#a5204a80cd5e9fe439aba0169b70e6cfe":[2,0,0,1,6,11],
 "dd/dcd/hud__config_8qh.html#a909082b7b3de632938d841419eb2905a":[2,0,0,1,6,5],
 "dd/dcd/hud__config_8qh.html#a9213dbc97dc594fd1bcaff31e5a562f8":[2,0,0,1,6,13],
-"dd/dcd/hud__config_8qh.html#a997bcd4a77add62b1ec1ed127a5bd1bb":[2,0,0,1,6,1],
-"dd/dcd/hud__config_8qh.html#a99f36338c9c7bd502906d8bf9082c01b":[2,0,0,1,6,18],
-"dd/dcd/hud__config_8qh.html#aada18f5681a314c0fbe20bd694c96a0e":[2,0,0,1,6,14],
-"dd/dcd/hud__config_8qh.html#abc8e50cc73fef1d666edc33c8c23050f":[2,0,0,1,6,12],
-"dd/dcd/hud__config_8qh.html#ac4325f87797d58b1c1e4b23d81945214":[2,0,0,1,6,2],
-"dd/dcd/hud__config_8qh.html#acbb661be531ec12a66e835a78c4723a6":[2,0,0,1,6,9],
-"dd/dcd/hud__config_8qh.html#add51661a00f7fd1fc2f545bf2dcb2f88":[2,0,0,1,6,17],
-"dd/dcd/hud__config_8qh.html#aff11757a3172f4f26585a7edc21785f0":[2,0,0,1,6,0],
-"dd/dcd/hud__config_8qh_source.html":[2,0,0,1,6]
+"dd/dcd/hud__config_8qh.html#a997bcd4a77add62b1ec1ed127a5bd1bb":[2,0,0,1,6,1]
 };
