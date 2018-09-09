@@ -61,6 +61,7 @@ var turret_8qh =
     [ "TFL_TARGETSELECT_RANGELIMITS", "d9/d67/turret_8qh.html#a54a8888b13e06d27372b0c69121dff48", null ],
     [ "TFL_TARGETSELECT_TEAMCHECK", "d9/d67/turret_8qh.html#a204092caa868ede3a6412a0581a440ea", null ],
     [ "TFL_TARGETSELECT_TRIGGERTARGET", "d9/d67/turret_8qh.html#a3294c9ce8ab7418f842c17bf1c840ee4", null ],
+    [ "TFL_TARGETSELECT_VEHICLES", "d9/d67/turret_8qh.html#a860f5884e5b3d4b537d9715dea537278", null ],
     [ "TFL_TRACK_NO", "d9/d67/turret_8qh.html#a0a361d9783482bb833eaee8f7a495778", null ],
     [ "TFL_TRACK_PITCH", "d9/d67/turret_8qh.html#ac46bb7d81a3be62a644815eef4bbbdd6", null ],
     [ "TFL_TRACK_ROTATE", "d9/d67/turret_8qh.html#a649c5558d3543d12cdc22318f25bc8b8", null ],

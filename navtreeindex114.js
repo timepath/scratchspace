@@ -1,5 +1,6 @@
 var NAVTREEINDEX114 =
 {
+"dc/de5/classWeapon.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,146,7],
 "dc/de5/classWeapon.html#a94b9194f95513e0ad7c17da8a7fda0e0":[1,0,146,33],
 "dc/de5/classWeapon.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,146,25],
 "dc/de5/classWeapon.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,146,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX114 =
 "dc/dff/anticheat_8qh_source.html":[2,0,6,9],
 "dc/dff/lib_2matrix_2command_8qh.html":[2,0,4,1,3],
 "dc/dff/lib_2matrix_2command_8qh_source.html":[2,0,4,1,3],
-"dd/d00/common_2mutators_2mutator_2nix_2__mod_8qh.html":[2,0,1,10,0,21,1],
-"dd/d00/common_2mutators_2mutator_2nix_2__mod_8qh_source.html":[2,0,1,10,0,21,1]
+"dd/d00/common_2mutators_2mutator_2nix_2__mod_8qh.html":[2,0,1,10,0,21,1]
 };

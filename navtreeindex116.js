@@ -1,5 +1,6 @@
 var NAVTREEINDEX116 =
 {
+"dd/d13/borderimage_8qc.html":[2,0,5,2,2],
 "dd/d13/borderimage_8qc.html#a16c0083a266b855baf996fb122a53e15":[2,0,5,2,2,0],
 "dd/d13/borderimage_8qc.html#a662c8926836339f7964c80c386d28417":[2,0,5,2,2,3],
 "dd/d13/borderimage_8qc.html#a77b67c740e2ac71606c51918ee2b9017":[2,0,5,2,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX116 =
 "dd/d43/gametypelist_8qh_source.html":[2,0,5,4,165],
 "dd/d45/sv__damagetext_8qh.html":[2,0,1,10,0,6,7],
 "dd/d45/sv__damagetext_8qh_source.html":[2,0,1,10,0,6,7],
-"dd/d46/dialog__multiplayer_8qh.html":[2,0,5,4,87],
-"dd/d46/dialog__multiplayer_8qh_source.html":[2,0,5,4,87]
+"dd/d46/dialog__multiplayer_8qh.html":[2,0,5,4,87]
 };
