@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"df/d9b/menu_2xonotic_2util_8qc.html#a0330bf9cca143c45e0acdf50026babbf":[2,0,5,4,230,39],
 "df/d9b/menu_2xonotic_2util_8qc.html#a06840fb84f6c9ecdd5a8a28ec98f9bf7":[2,0,5,4,230,67],
 "df/d9b/menu_2xonotic_2util_8qc.html#a0ecc182d931f638095b163ce20b85b86":[2,0,5,4,230,36],
 "df/d9b/menu_2xonotic_2util_8qc.html#a165d9740a1a3122cd23bc47842156d9f":[2,0,5,4,230,57],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "df/dc2/sounds_2all_8qh_source.html":[2,0,1,13,4],
 "df/dc5/common_2gamemodes_2gamemode_2cts_2__mod_8qh.html":[2,0,1,3,0,3,1],
 "df/dc5/common_2gamemodes_2gamemode_2cts_2__mod_8qh_source.html":[2,0,1,3,0,3,1],
-"df/dc7/ewheel__weapon_8qc.html":[2,0,1,14,0,4],
-"df/dc7/ewheel__weapon_8qc_source.html":[2,0,1,14,0,4]
+"df/dc7/ewheel__weapon_8qc.html":[2,0,1,14,0,4]
 };

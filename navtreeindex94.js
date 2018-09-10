@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"da/db7/classXonoticServerInfoDialog.html#ad070c3210a4dc78468a1568bfcfb2f60":[1,0,244,60],
 "da/db7/classXonoticServerInfoDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,244,79],
 "da/db7/classXonoticServerInfoDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,244,91],
 "da/db7/classXonoticServerInfoDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,244,115],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "da/dd4/effectinfo__onslaught_8inc.html#abf46a52bffaae6a3a20903b4eada2125":[2,0,1,2,18,2],
 "da/dd4/effectinfo__onslaught_8inc.html#ae12c63fbc86ebf5a12bf42691b3b2337":[2,0,1,2,18,1],
 "da/dd4/effectinfo__onslaught_8inc_source.html":[2,0,1,2,18],
-"da/dd5/enumclass_8qh.html":[2,0,4,18],
-"da/dd5/enumclass_8qh.html#a10f4c592b56e8ae136d22fc7a9cd22f0":[2,0,4,18,5]
+"da/dd5/enumclass_8qh.html":[2,0,4,18]
 };

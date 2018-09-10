@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"dd/d00/common_2mutators_2mutator_2nix_2__mod_8qh.html":[2,0,1,10,0,21,1],
 "dd/d00/common_2mutators_2mutator_2nix_2__mod_8qh_source.html":[2,0,1,10,0,21,1],
 "dd/d06/deathtypes_2all_8inc.html":[2,0,1,1,2],
 "dd/d06/deathtypes_2all_8inc_source.html":[2,0,1,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "dd/d0f/classTeslaCoilTurretAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,136,38],
 "dd/d0f/classTeslaCoilTurretAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,136,23],
 "dd/d0f/classTeslaCoilTurretAttack.html#ae55baa4968bc26696f50174e6d0cb215":[1,0,136,28],
-"dd/d0f/classTeslaCoilTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,136,27],
-"dd/d0f/classTeslaCoilTurretAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,136,18]
+"dd/d0f/classTeslaCoilTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,136,27]
 };
