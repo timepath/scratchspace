@@ -118,15 +118,17 @@ $(document).ready(function(){initNavTree('d5/de0/pickup_8qc_source.html','../../
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d4/d93/classPickup.html">Pickup</a>, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordtype">bool</span> b = Item_GiveTo(item, player);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">if</span> (b) {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ad2f8b948e71ddedcb93c360f01351de3">LOG_DEBUGF</a>(<span class="stringliteral">&quot;entity %i picked up %s&quot;</span>, player, this.<a class="code" href="../../da/dc3/common_2scores_8qh.html#ab76434042ddfc9d5e703e038f0ad0b1f">m_name</a>);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        player.inventory.inv_items[this.<a class="code" href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>]++;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        Inventory_update(player);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">return</span> b;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="comment">//LOG_DEBUGF(&quot;entity %i picked up %s&quot;, player, this.m_name);</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> store = <a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(player) ? <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(player) : player;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        store.inventory.inv_items[this.<a class="code" href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>]++;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        Inventory_update(store);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">return</span> b;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="state_8qh_html_a6228dce6d2ac6b96b7ebe5d2b44be40c"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a></div><div class="ttdeci">#define PS(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00018">state.qh:18</a></div></div>
 <div class="ttc" id="classPickup_html"><div class="ttname"><a href="../../d4/d93/classPickup.html">Pickup</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dda/pickup_8qh_source.html#l00022">pickup.qh:22</a></div></div>
 <div class="ttc" id="oo_8qh_html_a926d5d6965300dccae308bb74a713894"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a></div><div class="ttdeci">#define METHOD(cname, name, prototype)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00263">oo.qh:263</a></div></div>
 <div class="ttc" id="inventory_8qh_html"><div class="ttname"><a href="../../dc/d9d/inventory_8qh.html">inventory.qh</a></div></div>
@@ -134,15 +136,14 @@ $(document).ready(function(){initNavTree('d5/de0/pickup_8qc_source.html','../../
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00082">_all.inc:82</a></div></div>
 <div class="ttc" id="common_2items_2item_8qh_html_ae7615b4e3cf65501fdd057a3b418d795"><div class="ttname"><a href="../../d7/d7c/common_2items_2item_8qh.html#ae7615b4e3cf65501fdd057a3b418d795">ITEM_HANDLE</a></div><div class="ttdeci">#define ITEM_HANDLE(signal,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7c/common_2items_2item_8qh_source.html#l00089">item.qh:89</a></div></div>
 <div class="ttc" id="pickup_8qh_html"><div class="ttname"><a href="../../de/dda/pickup_8qh.html">pickup.qh</a></div></div>
-<div class="ttc" id="log_8qh_html_ad2f8b948e71ddedcb93c360f01351de3"><div class="ttname"><a href="../../db/da0/log_8qh.html#ad2f8b948e71ddedcb93c360f01351de3">LOG_DEBUGF</a></div><div class="ttdeci">#define LOG_DEBUGF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00083">log.qh:83</a></div></div>
-<div class="ttc" id="common_2scores_8qh_html_ab76434042ddfc9d5e703e038f0ad0b1f"><div class="ttname"><a href="../../da/dc3/common_2scores_8qh.html#ab76434042ddfc9d5e703e038f0ad0b1f">m_name</a></div><div class="ttdeci">string m_name</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc3/common_2scores_8qh_source.html#l00132">scores.qh:132</a></div></div>
+<div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_e220edc87b29ed8f83fd5a560ddf76b2.html">items</a></li><li class="navelem"><a class="el" href="../../dir_eb421a12fa3ad96b2d69a2d89197bc6b.html">item</a></li><li class="navelem"><a class="el" href="../../d5/de0/pickup_8qc.html">pickup.qc</a></li>
-    <li class="footer">Generated on Mon Sep 10 2018 15:32:43 for Xonotic by
+    <li class="footer">Generated on Mon Sep 10 2018 15:53:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
