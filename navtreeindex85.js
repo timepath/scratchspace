@@ -1,14 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"d9/d61/classNade.html#afdabcbdbf8942855db3f96c0fb4e90e2":[1,0,86,5],
-"d9/d61/step_8qc.html":[2,0,1,12,0,7],
-"d9/d61/step_8qc.html#a0a14f8cfdb8ee1552e28910ad5121bd8":[2,0,1,12,0,7,0],
-"d9/d61/step_8qc_source.html":[2,0,1,12,0,7],
-"d9/d62/menu_2draw_8qh.html":[2,0,5,9],
-"d9/d62/menu_2draw_8qh.html#a1626f905a9e51f0d3379c579ba433e61":[2,0,5,9,31],
-"d9/d62/menu_2draw_8qh.html#a20a66f747ac869698db7c591064a606b":[2,0,5,9,4],
-"d9/d62/menu_2draw_8qh.html#a267bea2ddb66f16087b6fe65ca2fcd4d":[2,0,5,9,12],
-"d9/d62/menu_2draw_8qh.html#a2b0e20994e9ac8c898b4bb17c7bcc50a":[2,0,5,9,15],
 "d9/d62/menu_2draw_8qh.html#a347cc6fa1234ea432234300e426a7393":[2,0,5,9,7],
 "d9/d62/menu_2draw_8qh.html#a38889102a2190267fcd3e711e646cad7":[2,0,5,9,16],
 "d9/d62/menu_2draw_8qh.html#a3d7ac10697d969669149cae8735f83e9":[2,0,5,9,27],
@@ -249,5 +240,14 @@ var NAVTREEINDEX85 =
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,189,26],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,189,55],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,189,32],
-"d9/d85/classXonoticHUDEngineInfoDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,189,40]
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,189,40],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,189,62],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a67d95732d49da439095483530aca8804":[1,0,189,51],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,189,74],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,189,14],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a73f26782ae2e3c51d77f3d28b309ae74":[1,0,189,58],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,189,64],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,189,23],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,189,87],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,189,78]
 };

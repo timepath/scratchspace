@@ -1,35 +1,32 @@
 <map id="door_trigger_touch" name="door_trigger_touch">
-<area shape="rect" id="node2" href="$d6/d9c/door_8qc.html#a442c07929af7af860cd6e92fb41b1ed3" title="door_check_keys" alt="" coords="821,132,945,159"/>
-<area shape="rect" id="node8" href="$d6/d9c/door_8qc.html#a337674d43d5772b78184bf240a40f104" title="door_use" alt="" coords="219,367,293,393"/>
-<area shape="rect" id="node34" href="$d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" title="Returns the current amount of resource the given entity has. " alt="" coords="184,417,328,444"/>
-<area shape="rect" id="node3" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1705,335,1759,361"/>
-<area shape="rect" id="node4" href="$d7/da4/item__key_8qc.html#afdfd0f20ed686bb7ad013a01f5aded19" title="item_keys_keylist" alt="" coords="1035,56,1162,83"/>
-<area shape="rect" id="node7" href="$dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896" title="play2" alt="" coords="1072,157,1125,184"/>
-<area shape="rect" id="node5" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="1293,56,1347,83"/>
-<area shape="rect" id="node6" href="$d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445" title="lowestbit" alt="" coords="1283,5,1357,32"/>
-<area shape="rect" id="node9" href="$d6/d9c/door_8qc.html#ae87674ba0b9d41767ee95397dabe1029" title="door_fire" alt="" coords="376,499,448,525"/>
-<area shape="rect" id="node10" href="$d6/d9c/door_8qc.html#ab1bcfdc401011109dbfbec373e08244d" title="door_go_down" alt="" coords="829,588,936,615"/>
-<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b" title="objerror" alt="" coords="1503,744,1569,771"/>
-<area shape="rect" id="node26" href="$d6/d9c/door_8qc.html#aff3250044af884a25a96e74e6f42ae24" title="door_go_up" alt="" coords="497,499,586,525"/>
-<area shape="rect" id="node11" href="$d6/d9c/door_8qc.html#a4dab5a6c37fd9d7e8dc27ac97d82b91a" title="door_hit_bottom" alt="" coords="1041,639,1156,665"/>
-<area shape="rect" id="node12" href="$d8/d06/client_2resources_8qc.html#a23a90e7288eaba490cdcc7941274f254" title="Sets the resource amount of an entity without calling any hooks. " alt="" coords="1005,588,1192,615"/>
-<area shape="rect" id="node13" href="$d2/dc2/subs_8qc.html#adf72da94012ed6f3ee8d3d25a6634e2b" title="SUB_CalcMove" alt="" coords="1041,537,1157,564"/>
-<area shape="rect" id="node14" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1703,791,1761,817"/>
-<area shape="rect" id="node16" href="$d2/dc2/subs_8qc.html#a03279c1cb9d39ce02457862222cfb9eb" title="SUB_CalcMoveDone" alt="" coords="1463,460,1609,487"/>
-<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="1513,385,1559,412"/>
-<area shape="rect" id="node19" href="$d2/dc2/subs_8qc.html#af3e9ed532069ed0ac58d81c4275535bb" title="SUB_CalcMove_Bezier" alt="" coords="1240,557,1400,584"/>
-<area shape="rect" id="node17" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="1697,521,1767,548"/>
-<area shape="rect" id="node20" href="$d2/dc2/subs_8qc.html#a3a60987a3ea76236af8eff0d6f65d6cb" title="SUB_CalcMove_controller\l_setbezier" alt="" coords="1448,613,1624,654"/>
-<area shape="rect" id="node21" href="$d2/dc2/subs_8qc.html#a44f0cc6d8a3712d8968f0271dcc6dcb4" title="SUB_CalcMove_controller\l_think" alt="" coords="1448,678,1624,719"/>
-<area shape="rect" id="node25" href="$d2/dc2/subs_8qc.html#a8ed167ee1a9e29cad462eccfe9a7ca09" title="SUB_NullThink" alt="" coords="1480,561,1592,588"/>
-<area shape="rect" id="node22" href="$d0/d79/math_8qh.html#a23557eb0538d1c7732c47c4b4ef7d0b5" title="cubic_speedfunc" alt="" coords="1672,635,1792,661"/>
-<area shape="rect" id="node23" href="$d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c" title="vectoangles" alt="" coords="1686,685,1778,712"/>
-<area shape="rect" id="node24" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1709,736,1755,763"/>
-<area shape="rect" id="node27" href="$d6/d9c/door_8qc.html#afbebfb6226c33715b304c0e6afa30ce4" title="door_hit_top" alt="" coords="651,549,744,576"/>
-<area shape="rect" id="node28" href="$d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6" title="SUB_UseTargets" alt="" coords="635,448,760,475"/>
-<area shape="rect" id="node29" href="$d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282" title="SUB_UseTargets_Ex" alt="" coords="809,360,957,387"/>
-<area shape="rect" id="node30" href="$d6/d57/triggers_8qc.html#a1c58d77ea3f4858ed96288710690cf98" title="DelayThink" alt="" coords="1055,461,1143,488"/>
-<area shape="rect" id="node31" href="$d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f" title="centerprint" alt="" coords="1057,309,1140,336"/>
-<area shape="rect" id="node32" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="1077,360,1120,387"/>
-<area shape="rect" id="node33" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="1023,259,1174,285"/>
+<area shape="rect" id="node2" href="$d6/d9c/door_8qc.html#a442c07929af7af860cd6e92fb41b1ed3" title="door_check_keys" alt="" coords="821,50,945,77"/>
+<area shape="rect" id="node5" href="$d6/d9c/door_8qc.html#a337674d43d5772b78184bf240a40f104" title="door_use" alt="" coords="219,278,293,305"/>
+<area shape="rect" id="node31" href="$d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" title="Returns the current amount of resource the given entity has. " alt="" coords="184,329,328,355"/>
+<area shape="rect" id="node3" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1705,302,1759,329"/>
+<area shape="rect" id="node4" href="$dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896" title="play2" alt="" coords="1072,151,1125,178"/>
+<area shape="rect" id="node6" href="$d6/d9c/door_8qc.html#ae87674ba0b9d41767ee95397dabe1029" title="door_fire" alt="" coords="376,481,448,507"/>
+<area shape="rect" id="node7" href="$d6/d9c/door_8qc.html#ab1bcfdc401011109dbfbec373e08244d" title="door_go_down" alt="" coords="829,481,936,507"/>
+<area shape="rect" id="node12" href="$d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b" title="objerror" alt="" coords="1503,711,1569,738"/>
+<area shape="rect" id="node23" href="$d6/d9c/door_8qc.html#aff3250044af884a25a96e74e6f42ae24" title="door_go_up" alt="" coords="497,481,586,507"/>
+<area shape="rect" id="node8" href="$d6/d9c/door_8qc.html#a4dab5a6c37fd9d7e8dc27ac97d82b91a" title="door_hit_bottom" alt="" coords="1041,455,1156,482"/>
+<area shape="rect" id="node9" href="$d8/d06/client_2resources_8qc.html#a23a90e7288eaba490cdcc7941274f254" title="Sets the resource amount of an entity without calling any hooks. " alt="" coords="1005,506,1192,533"/>
+<area shape="rect" id="node10" href="$d2/dc2/subs_8qc.html#adf72da94012ed6f3ee8d3d25a6634e2b" title="SUB_CalcMove" alt="" coords="1041,557,1157,583"/>
+<area shape="rect" id="node11" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1703,610,1761,637"/>
+<area shape="rect" id="node13" href="$d2/dc2/subs_8qc.html#a03279c1cb9d39ce02457862222cfb9eb" title="SUB_CalcMoveDone" alt="" coords="1463,661,1609,687"/>
+<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="1513,353,1559,379"/>
+<area shape="rect" id="node16" href="$d2/dc2/subs_8qc.html#af3e9ed532069ed0ac58d81c4275535bb" title="SUB_CalcMove_Bezier" alt="" coords="1240,525,1400,551"/>
+<area shape="rect" id="node14" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="1697,661,1767,687"/>
+<area shape="rect" id="node17" href="$d2/dc2/subs_8qc.html#a3a60987a3ea76236af8eff0d6f65d6cb" title="SUB_CalcMove_controller\l_setbezier" alt="" coords="1448,571,1624,612"/>
+<area shape="rect" id="node18" href="$d2/dc2/subs_8qc.html#a44f0cc6d8a3712d8968f0271dcc6dcb4" title="SUB_CalcMove_controller\l_think" alt="" coords="1448,505,1624,547"/>
+<area shape="rect" id="node22" href="$d2/dc2/subs_8qc.html#a8ed167ee1a9e29cad462eccfe9a7ca09" title="SUB_NullThink" alt="" coords="1480,454,1592,481"/>
+<area shape="rect" id="node19" href="$d0/d79/math_8qh.html#a23557eb0538d1c7732c47c4b4ef7d0b5" title="cubic_speedfunc" alt="" coords="1672,559,1792,586"/>
+<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c" title="vectoangles" alt="" coords="1686,458,1778,485"/>
+<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1709,509,1755,535"/>
+<area shape="rect" id="node24" href="$d6/d9c/door_8qc.html#afbebfb6226c33715b304c0e6afa30ce4" title="door_hit_top" alt="" coords="651,481,744,507"/>
+<area shape="rect" id="node25" href="$d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6" title="SUB_UseTargets" alt="" coords="635,405,760,431"/>
+<area shape="rect" id="node26" href="$d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282" title="SUB_UseTargets_Ex" alt="" coords="809,303,957,330"/>
+<area shape="rect" id="node27" href="$d6/d57/triggers_8qc.html#a1c58d77ea3f4858ed96288710690cf98" title="DelayThink" alt="" coords="1055,405,1143,431"/>
+<area shape="rect" id="node28" href="$d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f" title="centerprint" alt="" coords="1057,202,1140,229"/>
+<area shape="rect" id="node29" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="1077,253,1120,279"/>
+<area shape="rect" id="node30" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="1023,303,1174,330"/>
 </map>

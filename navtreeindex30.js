@@ -1,5 +1,9 @@
 var NAVTREEINDEX30 =
 {
+"d3/dbe/classSlider.html#a27b635e0916726012b7e8c4dca05064e":[1,0,126,33],
+"d3/dbe/classSlider.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,126,7],
+"d3/dbe/classSlider.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,126,10],
+"d3/dbe/classSlider.html#a3365869e1a8d467195d6b2c766789bb3":[1,0,126,26],
 "d3/dbe/classSlider.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,126,3],
 "d3/dbe/classSlider.html#a365ded1aad15f8cac9448983a229cfe7":[1,0,126,78],
 "d3/dbe/classSlider.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,126,52],
@@ -69,8 +73,8 @@ var NAVTREEINDEX30 =
 "d3/dbf/minigames_8qc.html#a50da88a37fb88826817f7d669b24c423":[2,0,1,7,7,2],
 "d3/dbf/minigames_8qc.html#a5568c7bdd5bad578cdc98deb0789b79c":[2,0,1,7,7,5],
 "d3/dbf/minigames_8qc.html#a6a7ba74fcc2a57d2d4d7aa64ab15d4c6":[2,0,1,7,7,14],
-"d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,7,7,1],
 "d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,7,7,0],
+"d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,7,7,1],
 "d3/dbf/minigames_8qc.html#a861b76acd237a6c594cb831085a9af9a":[2,0,1,7,7,4],
 "d3/dbf/minigames_8qc.html#ab50b72cd401e642ccfaa7614ac58d414":[2,0,1,7,7,9],
 "d3/dbf/minigames_8qc.html#ab62771fe024e72ee184cdef2774646f3":[2,0,1,7,7,13],
@@ -235,8 +239,8 @@ var NAVTREEINDEX30 =
 "d3/dd0/self_8qh.html#a624c0216024b958a39da9130aaf8c959":[2,0,4,51,23],
 "d3/dd0/self_8qh.html#a67462ca0b9ea239b3801ff8489218885":[2,0,4,51,18],
 "d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e":[2,0,4,51,8],
-"d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,4,51,14],
 "d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,4,51,13],
+"d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,4,51,14],
 "d3/dd0/self_8qh.html#ab0f9fbed8238871df6f5ff5609840aa3":[2,0,4,51,26],
 "d3/dd0/self_8qh.html#ab666435fc4955cc75aebf3360ee86861":[2,0,4,51,5],
 "d3/dd0/self_8qh.html#aba1f01394a0aa649fde132cb094e7111":[2,0,4,51,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX30 =
 "d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686":[2,0,4,51,33],
 "d3/dd0/self_8qh.html#ace5065346de94dacc037daf771ec60ea":[2,0,4,51,28],
 "d3/dd0/self_8qh.html#ae08b42db946dd6ce413ebdc4c2acda1c":[2,0,4,51,16],
-"d3/dd0/self_8qh.html#aeb65df370cf4a41121aec1c4105bf606":[2,0,4,51,1],
-"d3/dd0/self_8qh.html#af3776fe4f43e6cf9b504a095c7f61db0":[2,0,4,51,27],
-"d3/dd0/self_8qh.html#af6a258d8f3ee5206d682d799316314b1":[2,0,4,51,29],
-"d3/dd0/self_8qh_source.html":[2,0,4,51],
-"d3/dd1/menu_2xonotic_2button_8qh.html":[2,0,5,4,7]
+"d3/dd0/self_8qh.html#aeb65df370cf4a41121aec1c4105bf606":[2,0,4,51,1]
 };

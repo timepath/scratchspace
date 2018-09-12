@@ -1,5 +1,9 @@
 var NAVTREEINDEX45 =
 {
+"d4/df8/classXonoticHUDRadarDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,201,69],
+"d4/df8/classXonoticHUDRadarDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,201,68],
+"d4/df8/classXonoticHUDRadarDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,201,7],
+"d4/df8/classXonoticHUDRadarDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,201,70],
 "d4/df8/classXonoticHUDRadarDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,201,4],
 "d4/df8/classXonoticHUDRadarDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,201,41],
 "d4/df8/classXonoticHUDRadarDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,201,19],
@@ -188,14 +192,14 @@ var NAVTREEINDEX45 =
 "d5/d14/lib_8qh_source.html":[2,0,3,5],
 "d5/d14/menu_2xonotic_2__mod_8qh.html":[2,0,5,4,1],
 "d5/d14/menu_2xonotic_2__mod_8qh_source.html":[2,0,5,4,1],
-"d5/d14/scores__rules_8qc.html":[2,0,6,58],
-"d5/d14/scores__rules_8qc.html#a62db4b0b1c96e1bd902ca44acc8215cd":[2,0,6,58,5],
-"d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05":[2,0,6,58,3],
-"d5/d14/scores__rules_8qc.html#a9b29c13c36dd33cc7f639cb97e8e6470":[2,0,6,58,4],
-"d5/d14/scores__rules_8qc.html#ac67defd12e305443ab1cf4266ca03c8f":[2,0,6,58,2],
-"d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f":[2,0,6,58,1],
-"d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec":[2,0,6,58,0],
-"d5/d14/scores__rules_8qc_source.html":[2,0,6,58],
+"d5/d14/scores__rules_8qc.html":[2,0,6,56],
+"d5/d14/scores__rules_8qc.html#a62db4b0b1c96e1bd902ca44acc8215cd":[2,0,6,56,5],
+"d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05":[2,0,6,56,3],
+"d5/d14/scores__rules_8qc.html#a9b29c13c36dd33cc7f639cb97e8e6470":[2,0,6,56,4],
+"d5/d14/scores__rules_8qc.html#ac67defd12e305443ab1cf4266ca03c8f":[2,0,6,56,2],
+"d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f":[2,0,6,56,1],
+"d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec":[2,0,6,56,0],
+"d5/d14/scores__rules_8qc_source.html":[2,0,6,56],
 "d5/d16/weaponarenacheckbox_8qh.html":[2,0,5,4,233],
 "d5/d16/weaponarenacheckbox_8qh.html#adf56d4bc38e7c5065719b469089a3ba5":[2,0,5,4,233,1],
 "d5/d16/weaponarenacheckbox_8qh_source.html":[2,0,5,4,233],
@@ -245,9 +249,5 @@ var NAVTREEINDEX45 =
 "d5/d26/server_2defs_8qh.html#a1af62b08fa4568eb824b39cccc803e57":[2,0,6,22,255],
 "d5/d26/server_2defs_8qh.html#a1b25d8e95136b5a09a597e62b3d1bc4c":[2,0,6,22,90],
 "d5/d26/server_2defs_8qh.html#a1b65a42fdab6dd120422cf8e3e7d3df7":[2,0,6,22,236],
-"d5/d26/server_2defs_8qh.html#a1c3633042c332123715fd7a35136a449":[2,0,6,22,213],
-"d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7":[2,0,6,22,16],
-"d5/d26/server_2defs_8qh.html#a1caaa8fe4d9b590202c8347fa835470f":[2,0,6,22,237],
-"d5/d26/server_2defs_8qh.html#a1d54f461e8d603bbdb4bd49cbc4e6f2f":[2,0,6,22,55],
-"d5/d26/server_2defs_8qh.html#a1dbdd71f4bd171fd17727f4225bba5e6":[2,0,6,22,117]
+"d5/d26/server_2defs_8qh.html#a1c3633042c332123715fd7a35136a449":[2,0,6,22,213]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX22 =
 {
+"d2/dd6/classXonoticInputSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,209,54],
+"d2/dd6/classXonoticInputSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,209,47],
+"d2/dd6/classXonoticInputSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,209,73],
+"d2/dd6/classXonoticInputSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,209,66],
 "d2/dd6/classXonoticInputSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,209,72],
 "d2/dd6/classXonoticInputSettingsTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,209,60],
 "d2/dd6/classXonoticInputSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,209,64],
@@ -231,8 +235,8 @@ var NAVTREEINDEX22 =
 "d2/dec/classXonoticServerList.html#afcc190d88f860ff5a15153eeb969f308":[1,0,245,2],
 "d2/dec/classXonoticServerList.html#afdcf1fb79903f747cda494b27206526b":[1,0,245,1],
 "d2/dec/classXonoticServerList.html#aff1d3e3df59851da0dd39c6365a10a63":[1,0,245,42],
-"d2/df7/teleport__dest_8qc.html":[2,0,1,6,1,10],
-"d2/df7/teleport__dest_8qc_source.html":[2,0,1,6,1,10],
+"d2/df7/teleport__dest_8qc.html":[2,0,1,6,1,12],
+"d2/df7/teleport__dest_8qc_source.html":[2,0,1,6,1,12],
 "d2/dfa/xonotic_2listbox_8qh.html":[2,0,5,4,177],
 "d2/dfa/xonotic_2listbox_8qh.html#a6c6b5899d7e694efe5e2975e07d74ff9":[2,0,5,4,177,1],
 "d2/dfa/xonotic_2listbox_8qh_source.html":[2,0,5,4,177],
@@ -245,9 +249,5 @@ var NAVTREEINDEX22 =
 "d3/d01/classXonoticMultiplayerDialog.html#a08fb85ec7a303af9745adfe957048e9e":[1,0,219,80],
 "d3/d01/classXonoticMultiplayerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,219,79],
 "d3/d01/classXonoticMultiplayerDialog.html#a0e46b5e6e1b8e90686fed7e9ca5b5164":[1,0,219,57],
-"d3/d01/classXonoticMultiplayerDialog.html#a0ed86a2c9f9b58ee8185099867004b0b":[1,0,219,87],
-"d3/d01/classXonoticMultiplayerDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,219,46],
-"d3/d01/classXonoticMultiplayerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,219,24],
-"d3/d01/classXonoticMultiplayerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,219,17],
-"d3/d01/classXonoticMultiplayerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,219,72]
+"d3/d01/classXonoticMultiplayerDialog.html#a0ed86a2c9f9b58ee8185099867004b0b":[1,0,219,87]
 };

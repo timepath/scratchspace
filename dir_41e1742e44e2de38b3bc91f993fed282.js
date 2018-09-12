@@ -35,8 +35,6 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "impulse.qh", "d3/dd1/server_2impulse_8qh.html", "d3/dd1/server_2impulse_8qh" ],
     [ "ipban.qc", "d6/d95/ipban_8qc.html", "d6/d95/ipban_8qc" ],
     [ "ipban.qh", "da/ddd/ipban_8qh.html", "da/ddd/ipban_8qh" ],
-    [ "item_key.qc", "d7/da4/item__key_8qc.html", "d7/da4/item__key_8qc" ],
-    [ "item_key.qh", "d5/d8f/item__key_8qh.html", "d5/d8f/item__key_8qh" ],
     [ "items.qc", "df/def/server_2items_8qc.html", "df/def/server_2items_8qc" ],
     [ "items.qh", "d1/dbb/server_2items_8qh.html", "d1/dbb/server_2items_8qh" ],
     [ "mapvoting.qc", "d2/d76/server_2mapvoting_8qc.html", "d2/d76/server_2mapvoting_8qc" ],

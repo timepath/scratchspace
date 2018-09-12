@@ -1,12 +1,5 @@
 var NAVTREEINDEX138 =
 {
-"functions_m.html":[1,3,0,13],
-"functions_n.html":[1,3,0,14],
-"functions_o.html":[1,3,0,15],
-"functions_p.html":[1,3,0,16],
-"functions_r.html":[1,3,0,17],
-"functions_s.html":[1,3,0,18],
-"functions_t.html":[1,3,0,19],
 "functions_u.html":[1,3,0,20],
 "functions_v.html":[1,3,0,21],
 "functions_vars.html":[1,3,2,0],
@@ -39,8 +32,8 @@ var NAVTREEINDEX138 =
 "functions_y.html":[1,3,0,24],
 "functions_z.html":[1,3,0,25],
 "functions_~.html":[1,3,0,26],
-"globals.html":[2,1,0],
 "globals.html":[2,1,0,0],
+"globals.html":[2,1,0],
 "globals_a.html":[2,1,0,1],
 "globals_b.html":[2,1,0,2],
 "globals_c.html":[2,1,0,3],

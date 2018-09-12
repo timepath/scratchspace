@@ -1,12 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"de/d65/classXonoticHUDInfoMessagesDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,192,16],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,192,31],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,192,36],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,192,56],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,192,33],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,192,83],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,192,49],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,192,61],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,192,86],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,192,29],
@@ -249,5 +242,12 @@ var NAVTREEINDEX126 =
 "de/d7a/classXonoticHUDScoreDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,202,0],
 "de/d7a/classXonoticHUDScoreDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,202,16],
 "de/d7a/classXonoticHUDScoreDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,202,31],
-"de/d7a/classXonoticHUDScoreDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,202,36]
+"de/d7a/classXonoticHUDScoreDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,202,36],
+"de/d7a/classXonoticHUDScoreDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,202,56],
+"de/d7a/classXonoticHUDScoreDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,202,33],
+"de/d7a/classXonoticHUDScoreDialog.html#ad007eff3cc3cb9d85a7d493ee2c0a948":[1,0,202,67],
+"de/d7a/classXonoticHUDScoreDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,202,83],
+"de/d7a/classXonoticHUDScoreDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,202,49],
+"de/d7a/classXonoticHUDScoreDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,202,61],
+"de/d7a/classXonoticHUDScoreDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,202,86]
 };

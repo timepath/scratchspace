@@ -8,6 +8,8 @@ var dir_3860373e75a81d125f005ae3240a7f81 =
     [ "dynlight.qh", "d2/d46/dynlight_8qh.html", null ],
     [ "follow.qc", "dd/d3a/mapobjects_2misc_2follow_8qc.html", null ],
     [ "follow.qh", "dc/d45/mapobjects_2misc_2follow_8qh.html", "dc/d45/mapobjects_2misc_2follow_8qh" ],
+    [ "keys.qc", "de/d4a/keys_8qc.html", null ],
+    [ "keys.qh", "d2/d76/keys_8qh.html", "d2/d76/keys_8qh" ],
     [ "laser.qc", "d7/d79/laser_8qc.html", null ],
     [ "laser.qh", "d7/db7/laser_8qh.html", "d7/db7/laser_8qh" ],
     [ "teleport_dest.qc", "d2/df7/teleport__dest_8qc.html", null ],

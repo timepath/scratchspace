@@ -1,14 +1,5 @@
 var NAVTREEINDEX122 =
 {
-"dd/df9/classCheckBox.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,16,17],
-"dd/df9/classCheckBox.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,16,66],
-"dd/df9/classCheckBox.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,16,0],
-"dd/df9/classCheckBox.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,16,67],
-"dd/df9/classCheckBox.html#a886e4df91aff3f4b1bda33666f8174d6":[1,0,16,74],
-"dd/df9/classCheckBox.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,16,65],
-"dd/df9/classCheckBox.html#a8b3010fc463034904b21d7d6da17a127":[1,0,16,64],
-"dd/df9/classCheckBox.html#a8c568c803f49400fd0165b69f82d4161":[1,0,16,63],
-"dd/df9/classCheckBox.html#a94b10ad636073784624c4ccf9ce64d26":[1,0,16,49],
 "dd/df9/classCheckBox.html#a95e3e1c82a75a5ee33b08f1da84c05bd":[1,0,16,41],
 "dd/df9/classCheckBox.html#a988e29ab41a7d5b537a2abb5019991c5":[1,0,16,57],
 "dd/df9/classCheckBox.html#a98e9b29dfe2a91ddb3b653eee1003b2f":[1,0,16,54],
@@ -249,5 +240,14 @@ var NAVTREEINDEX122 =
 "de/d3a/classXonoticCrosshairPreview.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,165,13],
 "de/d3a/classXonoticCrosshairPreview.html#a4fd3dcf22a9c68d934a6c923c1020989":[1,0,165,22],
 "de/d3a/classXonoticCrosshairPreview.html#a67d95732d49da439095483530aca8804":[1,0,165,20],
-"de/d3a/classXonoticCrosshairPreview.html#a731ef2d8cdb302ddcd41f3ed9e6a2be0":[1,0,165,18]
+"de/d3a/classXonoticCrosshairPreview.html#a731ef2d8cdb302ddcd41f3ed9e6a2be0":[1,0,165,18],
+"de/d3a/classXonoticCrosshairPreview.html#a754eb52c935d65ccbe2c852e115f4408":[1,0,165,23],
+"de/d3a/classXonoticCrosshairPreview.html#a78a12a1a3e37a6dbc14a2ba79587c18a":[1,0,165,14],
+"de/d3a/classXonoticCrosshairPreview.html#a7b13cdc101cd55528465440586a004f6":[1,0,165,24],
+"de/d3a/classXonoticCrosshairPreview.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,165,7],
+"de/d3a/classXonoticCrosshairPreview.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,165,26],
+"de/d3a/classXonoticCrosshairPreview.html#a8b21e5939eeacdcdd0d48af03f27f91c":[1,0,165,10],
+"de/d3a/classXonoticCrosshairPreview.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,165,25],
+"de/d3a/classXonoticCrosshairPreview.html#ac6094922668d013ada3893854eec6b0f":[1,0,165,9],
+"de/d3a/classXonoticCrosshairPreview.html#ace6b33f60db102ae3b061eb3c0b93ec2":[1,0,165,15]
 };
