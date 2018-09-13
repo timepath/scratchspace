@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"d7/dc4/waypoints_8qc_source.html":[2,0,6,0,0,13],
 "d7/dd0/sv__onslaught_8qh.html":[2,0,1,3,0,12,17],
 "d7/dd0/sv__onslaught_8qh.html#a019ea322c4d8ca223e33077996f3acbe":[2,0,1,3,0,12,17,12],
 "d7/dd0/sv__onslaught_8qh.html#a01c98ce49147346d16b791a900bc9d26":[2,0,1,3,0,12,17,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "d7/de6/classXonoticSkinList.html#afcf2fcc518cc5cca6e472f72bec87733":[1,0,249,75],
 "d7/de6/classXonoticSkinList.html#afdcf1fb79903f747cda494b27206526b":[1,0,249,1],
 "d7/de6/classXonoticWeaponarenaCheckBox.html":[1,0,263],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a01ea34df21e396c890a3dcf6326cb5b3":[1,0,263,61],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,263,75]
+"d7/de6/classXonoticWeaponarenaCheckBox.html#a01ea34df21e396c890a3dcf6326cb5b3":[1,0,263,61]
 };

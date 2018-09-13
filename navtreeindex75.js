@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"d8/d57/sv__random__gravity_8qh.html":[2,0,1,10,0,26,3],
 "d8/d57/sv__random__gravity_8qh_source.html":[2,0,1,10,0,26,3],
 "d8/d58/calculations_8qc.html":[2,0,1,16,8],
 "d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7":[2,0,1,16,8,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "d8/d8f/classXonoticInputBox.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,208,36],
 "d8/d8f/classXonoticInputBox.html#a72792cd1040e00c2b59bbdc3e9f0eacf":[1,0,208,81],
 "d8/d8f/classXonoticInputBox.html#a7642beed5a82948e21add31abf4a4b0a":[1,0,208,35],
-"d8/d8f/classXonoticInputBox.html#a7b13cdc101cd55528465440586a004f6":[1,0,208,62],
-"d8/d8f/classXonoticInputBox.html#a7ba277f3c886c7d391915d273fede63c":[1,0,208,67]
+"d8/d8f/classXonoticInputBox.html#a7b13cdc101cd55528465440586a004f6":[1,0,208,62]
 };

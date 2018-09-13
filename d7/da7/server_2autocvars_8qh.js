@@ -118,6 +118,7 @@ var server_2autocvars_8qh =
     [ "autocvar_g_ban_sync_trusted_servers", "d7/da7/server_2autocvars_8qh.html#a036d5b4370d0fb8d5f34a23e2612ccce", null ],
     [ "autocvar_g_ban_sync_trusted_servers_verify", "d7/da7/server_2autocvars_8qh.html#a4a163c4cb8b7125a82f9f16a3d1acab4", null ],
     [ "autocvar_g_ban_sync_uri", "d7/da7/server_2autocvars_8qh.html#af099e0d3d578dd8bdde6fb123250eb03", null ],
+    [ "autocvar_g_ban_telluser", "d7/da7/server_2autocvars_8qh.html#a600f5ed07d53356be08818b987713db5", null ],
     [ "autocvar_g_banned_list", "d7/da7/server_2autocvars_8qh.html#aa2e47c771ee44580c3752d160a080930", null ],
     [ "autocvar_g_banned_list_idmode", "d7/da7/server_2autocvars_8qh.html#ab17c1ef5c1c0d8005df685d3aa685dfd", null ],
     [ "autocvar_g_botclip_collisions", "d7/da7/server_2autocvars_8qh.html#a5f5cfd8fc62a63d45bbfabca85e75ec5", null ],

@@ -892,6 +892,7 @@ var searchData=
   ['autocvar_5fg_5fban_5fsync_5ftrusted_5fservers',['autocvar_g_ban_sync_trusted_servers',['../d7/da7/server_2autocvars_8qh.html#a036d5b4370d0fb8d5f34a23e2612ccce',1,'autocvars.qh']]],
   ['autocvar_5fg_5fban_5fsync_5ftrusted_5fservers_5fverify',['autocvar_g_ban_sync_trusted_servers_verify',['../d7/da7/server_2autocvars_8qh.html#a4a163c4cb8b7125a82f9f16a3d1acab4',1,'autocvars.qh']]],
   ['autocvar_5fg_5fban_5fsync_5furi',['autocvar_g_ban_sync_uri',['../d7/da7/server_2autocvars_8qh.html#af099e0d3d578dd8bdde6fb123250eb03',1,'autocvars.qh']]],
+  ['autocvar_5fg_5fban_5ftelluser',['autocvar_g_ban_telluser',['../d7/da7/server_2autocvars_8qh.html#a600f5ed07d53356be08818b987713db5',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbanned_5flist',['autocvar_g_banned_list',['../d7/da7/server_2autocvars_8qh.html#aa2e47c771ee44580c3752d160a080930',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbanned_5flist_5fidmode',['autocvar_g_banned_list_idmode',['../d7/da7/server_2autocvars_8qh.html#ab17c1ef5c1c0d8005df685d3aa685dfd',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbloodloss',['autocvar_g_bloodloss',['../d0/dd2/sv__bloodloss_8qc.html#a1a2a741e3a5234c8197b6ad811178a09',1,'sv_bloodloss.qc']]],
