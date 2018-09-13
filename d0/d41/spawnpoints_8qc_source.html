@@ -355,7 +355,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> spawn_score = prio * <span class="stringliteral">&#39;1 0 0&#39;</span> + shortest * <span class="stringliteral">&#39;0 1 0&#39;</span>;</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="comment">// filter out spots for assault</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">if</span>(spot.target != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">if</span>(spot.target &amp;&amp; spot.target != <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    {</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <span class="keywordtype">int</span> found = 0;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = findchain(<a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, spot.target); targ; targ = targ.chain)</div>
@@ -622,7 +622,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d0/d41/spawnpoints_8qc.html">spawnpoints.qc</a></li>
-    <li class="footer">Generated on Thu Sep 13 2018 11:27:27 for Xonotic by
+    <li class="footer">Generated on Thu Sep 13 2018 17:56:56 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
