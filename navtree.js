@@ -117,7 +117,7 @@ var NAVTREEINDEX =
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a7f475a142ac6b96a1c71aecb16730322",
 "d9/db6/nades_8inc.html#a70747c21755a3a28bd288d01681fc77c",
 "d9/de9/classListBox.html#ac7bb2899505cda435bebb004940f97a4",
-"da/d10/sv__vehicles_8qc.html#ac5f4b60f4f1bce9de8e73d862f42beff",
+"da/d10/sv__vehicles_8qc.html#ac2f20854fe6c7c70d74e6c5867f98809",
 "da/d2a/classXonoticDecibelsSlider.html#ac40c387fa816abb4367ff86fe85c386e",
 "da/d4b/ttt_8qc.html#a4afede0140af0f88d36f63a79c2d29f3",
 "da/d8d/classXonoticHUDPhysicsDialog.html#a341abe470ef9e332df40dc7223deff5a",
