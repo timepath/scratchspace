@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"df/d27/sv__weaponarena__random_8qh_source.html":[2,0,1,10,0,40,3],
 "df/d28/menu_2xonotic_2button_8qc.html":[2,0,5,4,6],
 "df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[2,0,5,4,6,2],
 "df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[2,0,5,4,6,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "df/d4a/dialog__hudpanel__chat_8qh_source.html":[2,0,5,4,49],
 "df/d4c/server_2pathlib_2main_8qc.html":[2,0,6,4,8],
 "df/d4c/server_2pathlib_2main_8qc.html#a03b9aba43bfb042a5123b809a630a852":[2,0,6,4,8,9],
-"df/d4c/server_2pathlib_2main_8qc.html#a1f4d68b295cbc7d62c9932abbcf986a9":[2,0,6,4,8,0],
-"df/d4c/server_2pathlib_2main_8qc.html#a247f038e9726975a0d8ba91d55927e59":[2,0,6,4,8,13]
+"df/d4c/server_2pathlib_2main_8qc.html#a1f4d68b295cbc7d62c9932abbcf986a9":[2,0,6,4,8,0]
 };

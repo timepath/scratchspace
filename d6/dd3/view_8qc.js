@@ -58,6 +58,7 @@ var view_8qc =
     [ "autocvar_cl_leanmodel_limit", "d6/dd3/view_8qc.html#ad7b6b14d49fce36a42714c6a64fdfede", null ],
     [ "autocvar_cl_leanmodel_lowpass", "d6/dd3/view_8qc.html#a0bd68895ce3d9024dc0b7e575b4daea2", null ],
     [ "autocvar_cl_leanmodel_speed", "d6/dd3/view_8qc.html#adc5d3b139f99285f31ea8a270e9fae1c", null ],
+    [ "autocvar_cl_viewmodel_alpha", "d6/dd3/view_8qc.html#a92735b8bbdede6513e51a1f963853ec0", null ],
     [ "autocvar_cl_viewmodel_scale", "d6/dd3/view_8qc.html#a53e84681873ff4141b765b685d7e9f3c", null ],
     [ "avgspeed", "d6/dd3/view_8qc.html#aba02b9d95dcdb5ede530a4bd20e6a634", null ],
     [ "CAMERA_CHASE", "d6/dd3/view_8qc.html#a4f58e51e0e77579ccc7b58a1ee5b74f3", null ],
