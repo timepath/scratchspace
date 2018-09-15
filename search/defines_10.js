@@ -125,6 +125,7 @@ var searchData=
   ['phys_5fteleport_5ftime',['PHYS_TELEPORT_TIME',['../de/d70/common_2physics_2player_8qh.html#a4fb98c405f4df107b990223d015aea08',1,'player.qh']]],
   ['phys_5ftrack_5fcanjump',['PHYS_TRACK_CANJUMP',['../de/d70/common_2physics_2player_8qh.html#a7ae09eefc465db502d0a0a5a1285b719',1,'player.qh']]],
   ['phys_5fviewheight',['PHYS_VIEWHEIGHT',['../de/d70/common_2physics_2player_8qh.html#ace4105b137245448834e286957121470',1,'player.qh']]],
+  ['phys_5fwallclip',['PHYS_WALLCLIP',['../d4/dd7/movetypes_8qh.html#a51e7c343a03f101ca5e5e557c10ac0ba',1,'movetypes.qh']]],
   ['phys_5fwallfriction',['PHYS_WALLFRICTION',['../d4/dd7/movetypes_8qh.html#a87540168103cd2b723eed0a5717f3554',1,'movetypes.qh']]],
   ['phys_5fwarsowbunny_5faccel',['PHYS_WARSOWBUNNY_ACCEL',['../de/d70/common_2physics_2player_8qh.html#a1b0a438d266d9ef604392b0c167dae00',1,'player.qh']]],
   ['phys_5fwarsowbunny_5fairforwardaccel',['PHYS_WARSOWBUNNY_AIRFORWARDACCEL',['../de/d70/common_2physics_2player_8qh.html#a400e8df3b3286c389b6fa2b8a140aa9e',1,'player.qh']]],

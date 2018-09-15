@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"d9/d19/handicap_8qc_source.html":[2,0,6,29],
 "d9/d19/modalcontroller_8qc.html":[2,0,5,2,22],
 "d9/d19/modalcontroller_8qc.html#a17af5dff33420a075b3b4e7802024e99":[2,0,5,2,22,18],
 "d9/d19/modalcontroller_8qc.html#a36ebc30de316e0c31a992577b8da728c":[2,0,5,2,22,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "d9/d47/cvarlist_8qh.html#a59b8ea8092fc1d518741fcad07d4caf8":[2,0,5,4,33,7],
 "d9/d47/cvarlist_8qh.html#a90f6310a9c53f45daff834bad1b4846b":[2,0,5,4,33,3],
 "d9/d47/cvarlist_8qh.html#ab4a51be7c5169ef3e25c573a84135360":[2,0,5,4,33,4],
-"d9/d47/cvarlist_8qh_source.html":[2,0,5,4,33],
-"d9/d48/lib_2net_8qh.html":[2,0,4,36]
+"d9/d47/cvarlist_8qh_source.html":[2,0,5,4,33]
 };
