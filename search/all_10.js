@@ -384,7 +384,7 @@ var searchData=
   ['pinkflag_5fprevframe',['pinkflag_prevframe',['../dd/d59/modicons_8qc.html#aff1244f89a47d203e4c8bf07e5a4d229',1,'modicons.qc']]],
   ['pinkflag_5fprevstatus',['pinkflag_prevstatus',['../dd/d59/modicons_8qc.html#a181577243bef6d9dab313de308de6366',1,'modicons.qc']]],
   ['pinkflag_5fstatuschange_5ftime',['pinkflag_statuschange_time',['../dd/d59/modicons_8qc.html#a55b3f33e2368367b7a89769be831c2fc',1,'modicons.qc']]],
-  ['pitch',['pitch',['../dd/d36/halflife_8qc.html#a282e7d4378d4a18a805b8980295ac86c',1,'pitch():&#160;halflife.qc'],['../de/dcb/vector_8qh.html#a81a1a1679a2fe78af8f6decac3806c97',1,'PITCH():&#160;vector.qh']]],
+  ['pitch',['PITCH',['../de/dcb/vector_8qh.html#a81a1a1679a2fe78af8f6decac3806c97',1,'PITCH():&#160;vector.qh'],['../dd/d36/halflife_8qc.html#a282e7d4378d4a18a805b8980295ac86c',1,'pitch():&#160;halflife.qc']]],
   ['pitch_5fspeed',['pitch_speed',['../de/d5e/dpextensions_8qc.html#a7e44d174f976d9341b559070a36be94c',1,'dpextensions.qc']]],
   ['pl_5fmax_5fconst',['PL_MAX_CONST',['../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579',1,'constants.qh']]],
   ['pl_5fmin_5fconst',['PL_MIN_CONST',['../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb',1,'constants.qh']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX91 =
 {
+"da/d4b/ttt_8qc.html#a2aedef13328868ea2a6301b22b003ff3":[2,0,1,7,0,15,7],
 "da/d4b/ttt_8qc.html#a408c73821cc12651d3cb9dae965dae5e":[2,0,1,7,0,15,14],
 "da/d4b/ttt_8qc.html#a4afede0140af0f88d36f63a79c2d29f3":[2,0,1,7,0,15,0],
 "da/d4b/ttt_8qc.html#a578aec3d7cf07a5170e017f07ddc447f":[2,0,1,7,0,15,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX91 =
 "da/d8d/classXonoticHUDPhysicsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,196,20],
 "da/d8d/classXonoticHUDPhysicsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,196,48],
 "da/d8d/classXonoticHUDPhysicsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,196,53],
-"da/d8d/classXonoticHUDPhysicsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,196,28],
-"da/d8d/classXonoticHUDPhysicsDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,196,19]
+"da/d8d/classXonoticHUDPhysicsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,196,28]
 };
