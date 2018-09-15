@@ -1,6 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"d7/dc4/waypoints_8qc.html#afefbc8e9e4269359534b8f4b253ddeb7":[2,0,6,0,0,13,27],
 "d7/dc4/waypoints_8qc.html#affb1afdea03789ee4a2585c6ef4a01d4":[2,0,6,0,0,13,41],
 "d7/dc4/waypoints_8qc_source.html":[2,0,6,0,0,13],
 "d7/dd0/sv__onslaught_8qh.html":[2,0,1,3,0,12,17],
@@ -69,6 +68,7 @@ var NAVTREEINDEX71 =
 "d7/dd7/xonotic_2slider_8qc.html#af5e8dec4bee4c2f85ecf9c82542ad3d3":[2,0,5,4,206,3],
 "d7/dd7/xonotic_2slider_8qc_source.html":[2,0,5,4,206],
 "d7/ddc/hurt_8qh.html":[2,0,1,6,3,17],
+"d7/ddc/hurt_8qh.html#a1867eb9e787a00e0df1256aa62ad566d":[2,0,1,6,3,17,0],
 "d7/ddc/hurt_8qh_source.html":[2,0,1,6,3,17],
 "d7/dde/classLinkedList.html":[1,0,69],
 "d7/dde/classLinkedList.html#a0036dcfdc3e6087bc723876d9d8142d8":[1,0,69,0],

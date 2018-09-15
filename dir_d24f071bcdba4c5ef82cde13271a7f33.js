@@ -17,7 +17,7 @@ var dir_d24f071bcdba4c5ef82cde13271a7f33 =
     [ "heal.qc", "d4/d14/heal_8qc.html", null ],
     [ "heal.qh", "d0/d9d/heal_8qh.html", "d0/d9d/heal_8qh" ],
     [ "hurt.qc", "df/d89/hurt_8qc.html", null ],
-    [ "hurt.qh", "d7/ddc/hurt_8qh.html", null ],
+    [ "hurt.qh", "d7/ddc/hurt_8qh.html", "d7/ddc/hurt_8qh" ],
     [ "impulse.qc", "df/d35/common_2mapobjects_2trigger_2impulse_8qc.html", "df/d35/common_2mapobjects_2trigger_2impulse_8qc" ],
     [ "impulse.qh", "d8/d14/common_2mapobjects_2trigger_2impulse_8qh.html", "d8/d14/common_2mapobjects_2trigger_2impulse_8qh" ],
     [ "jumppads.qc", "d2/d9b/jumppads_8qc.html", "d2/d9b/jumppads_8qc" ],

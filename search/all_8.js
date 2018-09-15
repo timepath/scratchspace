@@ -410,5 +410,6 @@ var searchData=
   ['hunterkillerattack',['HunterKillerAttack',['../d4/d56/classHunterKillerAttack.html',1,'']]],
   ['hurt_2eqc',['hurt.qc',['../df/d89/hurt_8qc.html',1,'']]],
   ['hurt_2eqh',['hurt.qh',['../d7/ddc/hurt_8qh.html',1,'']]],
+  ['hurt_5fslow',['HURT_SLOW',['../d7/ddc/hurt_8qh.html#a1867eb9e787a00e0df1256aa62ad566d',1,'hurt.qh']]],
   ['hypot',['hypot',['../df/d38/mathlib_8qc.html#a6c941103cab43ce14def139f7a6a8efa',1,'hypot(float e, float f):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a6c941103cab43ce14def139f7a6a8efa',1,'hypot(float e, float f):&#160;mathlib.qc']]]
 ];
