@@ -1,5 +1,6 @@
 var NAVTREEINDEX123 =
 {
+"de/d3a/classXonoticCrosshairPreview.html#a8b21e5939eeacdcdd0d48af03f27f91c":[1,0,165,10],
 "de/d3a/classXonoticCrosshairPreview.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,165,25],
 "de/d3a/classXonoticCrosshairPreview.html#ac6094922668d013ada3893854eec6b0f":[1,0,165,9],
 "de/d3a/classXonoticCrosshairPreview.html#ace6b33f60db102ae3b061eb3c0b93ec2":[1,0,165,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX123 =
 "de/d4f/teamplay_8qc.html#a8f6c3d852a938aab007690b9aa2875ef":[2,0,6,66,16],
 "de/d4f/teamplay_8qc.html#a91cff70f1031d187a8c76567364a9bb6":[2,0,6,66,60],
 "de/d4f/teamplay_8qc.html#a92599c2cd904ce57a7f0c386bbf5f39c":[2,0,6,66,43],
-"de/d4f/teamplay_8qc.html#a9292eda1b2801d6e34e7996d136e5944":[2,0,6,66,51],
-"de/d4f/teamplay_8qc.html#a96de1a7c1839781923fd43a6bd00b2bd":[2,0,6,66,10]
+"de/d4f/teamplay_8qc.html#a9292eda1b2801d6e34e7996d136e5944":[2,0,6,66,51]
 };
