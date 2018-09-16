@@ -286,6 +286,7 @@ var searchData=
   ['copybody_5fnextthink',['CopyBody_nextthink',['../da/dc1/server_2player_8qh.html#abd30a605660c74c4236227e1c594535f',1,'player.qh']]],
   ['count',['count',['../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a',1,'count():&#160;powerups.qc'],['../db/dc8/cl__controlpoint_8qc.html#ad43c3812e6d13e0518d9f8b8f463ffcf',1,'count():&#160;cl_controlpoint.qc'],['../df/d07/cl__generator_8qc.html#ad43c3812e6d13e0518d9f8b8f463ffcf',1,'count():&#160;cl_generator.qc'],['../d5/d26/server_2defs_8qh.html#afea6e77db19a2f8c91419904fe665a3a',1,'count():&#160;defs.qh'],['../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a',1,'count():&#160;round_handler.qh']]],
   ['counter_5ffire_5fat_5fcount',['COUNTER_FIRE_AT_COUNT',['../d3/d9c/counter_8qh.html#a714b761a8590742eafa366fb845cd483',1,'counter.qh']]],
+  ['counter_5fper_5fplayer',['COUNTER_PER_PLAYER',['../d3/d9c/counter_8qh.html#ab7a8acadf32c0bafb4f36984c5a019ab',1,'counter.qh']]],
   ['cp_5fbob_5fdmg',['cp_bob_dmg',['../db/dc8/cl__controlpoint_8qc.html#a166d83216aec800e561b87dbdb863acc',1,'cl_controlpoint.qc']]],
   ['cp_5fbob_5forigin',['cp_bob_origin',['../db/dc8/cl__controlpoint_8qc.html#affb5aa5736b5506a83143017f811ffcb',1,'cl_controlpoint.qc']]],
   ['cp_5fbob_5fspd',['cp_bob_spd',['../db/dc8/cl__controlpoint_8qc.html#a89f3cd3806dbdfa37c7572e620839f68',1,'cl_controlpoint.qc']]],

@@ -65,6 +65,7 @@ var searchData=
   ['fpscounter_5fupdate',['fpscounter_update',['../d6/dd3/view_8qc.html#a392ee8cc05410982516cad055945c38b',1,'view.qc']]],
   ['fputs',['fputs',['../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df',1,'menudefs.qc']]],
   ['frag_5fcentermessage_5foverride',['frag_centermessage_override',['../d5/dac/g__damage_8qc.html#ac6e64d0173ea3a8b8ac2f97dba0add11',1,'g_damage.qc']]],
+  ['fragsfilter_5fuse',['fragsfilter_use',['../df/d42/quake3_8qc.html#abaec4a24bf36aa1665bbdb27e217f819',1,'quake3.qc']]],
   ['free_5fskeleton_5ffrom_5fframes',['free_skeleton_from_frames',['../d3/dab/player__skeleton_8qc.html#ae34e60c32bc60eebb73851ebe508b3ed',1,'free_skeleton_from_frames(entity e):&#160;player_skeleton.qc'],['../d0/ddf/player__skeleton_8qh.html#ae34e60c32bc60eebb73851ebe508b3ed',1,'free_skeleton_from_frames(entity e):&#160;player_skeleton.qc']]],
   ['freepic',['freepic',['../d8/de2/menudefs_8qc.html#acb693031fd387043042ba41d785ab049',1,'menudefs.qc']]],
   ['freeze',['Freeze',['../d5/dac/g__damage_8qc.html#a74a905bd8950c5b2bd0555961dc29722',1,'Freeze(entity targ, float revivespeed, int frozen_type, bool show_waypoint):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#ac2b759987d6cb6a3662f62189c460b6c',1,'Freeze(entity targ, float freeze_time, int frozen_type, bool show_waypoint):&#160;g_damage.qc']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"d4/d93/cl__controlpoint_8qh.html#a4e21ea690a77be8367e5608dfdebe26f":[2,0,1,3,0,12,3,2],
 "d4/d93/cl__controlpoint_8qh.html#a71fedd372003f8a38071cb6c5ee68e35":[2,0,1,3,0,12,3,3],
 "d4/d93/cl__controlpoint_8qh_source.html":[2,0,1,3,0,12,3],
 "d4/d93/classPickup.html":[1,0,102],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "d4/da4/pointparticles_8qc_source.html":[2,0,1,6,0,24],
 "d4/da5/classXonoticBigCommandButton.html":[1,0,152],
 "d4/da5/classXonoticBigCommandButton.html#a09558581cc0090d8cdcfd1ec9411f74c":[1,0,152,48],
-"d4/da5/classXonoticBigCommandButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,152,72],
-"d4/da5/classXonoticBigCommandButton.html#a10cf88734594fed24be93889407c0bda":[1,0,152,23]
+"d4/da5/classXonoticBigCommandButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,152,72]
 };

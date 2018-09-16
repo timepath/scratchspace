@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"d4/d48/speaker_8qh.html#aa0e59e279fad2703c0fa3c4f7c047a0d":[2,0,1,6,2,17,1],
 "d4/d48/speaker_8qh.html#aaad09e099a1368fe3c70aa8eaf6d6fc2":[2,0,1,6,2,17,3],
 "d4/d48/speaker_8qh.html#ac2905c80978e1bce55ef377bf0191a3a":[2,0,1,6,2,17,2],
 "d4/d48/speaker_8qh_source.html":[2,0,1,6,2,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "d4/d5f/classXonoticFirstRunDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,176,39],
 "d4/d5f/classXonoticFirstRunDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,176,3],
 "d4/d5f/classXonoticFirstRunDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,176,84],
-"d4/d5f/classXonoticFirstRunDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,176,82],
-"d4/d5f/classXonoticFirstRunDialog.html#a0da8cba9fc8cc22a1e704e3b0fabab1f":[1,0,176,58]
+"d4/d5f/classXonoticFirstRunDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,176,82]
 };

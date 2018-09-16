@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"dd/d49/targettrigger_8qh.html":[2,0,1,14,14],
+"dd/d49/targettrigger_8qh_source.html":[2,0,1,14,14],
 "dd/d50/sortlist_8qh.html":[2,0,4,54],
 "dd/d50/sortlist_8qh.html#a450da787d7a603b58fa43e2c6ec08e87":[2,0,4,54,4],
 "dd/d50/sortlist_8qh.html#a652c86b37dd42d03c9e82ee0d8e1cfd8":[2,0,4,54,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "dd/d73/classMachineGun.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,72,1],
 "dd/d73/classMachineGun.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,72,24],
 "dd/d73/classMachineGun.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,72,15],
-"dd/d73/classMachineGun.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,72,13],
-"dd/d73/classMachineGun.html#aae93ec4cdbab0e4962d71c8f7e81f911":[1,0,72,29],
-"dd/d73/classMachineGun.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,72,6]
+"dd/d73/classMachineGun.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,72,13]
 };

@@ -784,7 +784,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, and <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00290">ClientCommand_ready()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01168">ClientDisconnect()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00225">PutObserverInServer()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00290">ClientCommand_ready()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01174">ClientDisconnect()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00228">PutObserverInServer()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;{</div>
 <div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    <span class="keywordtype">float</span> ready_needed_factor, ready_needed_count;</div>
 <div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;    <span class="keywordtype">float</span> t_ready = 0, t_players = 0;</div>
@@ -842,7 +842,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00021">localcmd</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00140">MUTATOR_CALLHOOK</a>, <a class="el" href="../../d4/d1b/race_8qh_source.html#l00025">race_completing</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00410">ReadyRestart_force()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00284">Score_ClearAll()</a>, and <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00017">sv_ready_restart_after_countdown</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01849">CheckRules_World()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00163">GameCommand_allready()</a>, and <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00173">StartFrame()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01847">CheckRules_World()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00163">GameCommand_allready()</a>, and <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00173">StartFrame()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;{</div>
 <div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(ReadyRestart_Deny) || game_stopped || <a class="code" href="../../d4/d1b/race_8qh.html#ae526a80b21c7a500f4e86b074552fd2e">race_completing</a>) <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;restart\n&quot;</span>);</div>
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    <span class="keywordflow">else</span> <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;\nsv_hook_gamerestart\n&quot;</span>);</div>
@@ -2890,7 +2890,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00013">IS_CLIENT</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00106">Nagger_VoteCountChanged()</a>, <a class="el" href="../../d7/d16/server_2command_2vote_8qh_source.html#l00031">vote_abstain_count</a>, <a class="el" href="../../d7/d16/server_2command_2vote_8qh_source.html#l00029">vote_accept_count</a>, <a class="el" href="../../d7/d16/server_2command_2vote_8qh_source.html#l00030">vote_reject_count</a>, and <a class="el" href="../../d7/d16/server_2command_2vote_8qh_source.html#l00015">VOTE_SELECT_REJECT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01168">ClientDisconnect()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00225">PutObserverInServer()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00744">VoteCommand_abstain()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00776">VoteCommand_call()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00863">VoteCommand_master()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00978">VoteCommand_no()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01060">VoteCommand_yes()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00323">VoteThink()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01174">ClientDisconnect()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00228">PutObserverInServer()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00744">VoteCommand_abstain()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00776">VoteCommand_call()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00863">VoteCommand_master()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00978">VoteCommand_no()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l01060">VoteCommand_yes()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00323">VoteThink()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;{</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="comment">// declarations</span></div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <a class="code" href="../../d7/d16/server_2command_2vote_8qh.html#a73fd0ac6ea821535293f72234ed48887">vote_accept_count</a> = <a class="code" href="../../d7/d16/server_2command_2vote_8qh.html#a49b079123b9d64077536a862ce4f7614">vote_reject_count</a> = <a class="code" href="../../d7/d16/server_2command_2vote_8qh.html#a19f9361beae709b1d1cc00c9d8d18133">vote_abstain_count</a> = 0;</div>
@@ -3322,7 +3322,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d7/d16/server_2command_2vote_8qh_source.html#l00028">vote_endtime</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00206">VoteCount()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01849">CheckRules_World()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01847">CheckRules_World()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;{</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/d16/server_2command_2vote_8qh.html#a38d06641c1d3e4ed12745c6fd9556098">vote_endtime</a> &gt; 0)        <span class="comment">// a vote was called</span></div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    {</div>
@@ -3401,7 +3401,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d1/dad/server_2command_2vote_8qc.html">vote.qc</a></li>
-    <li class="footer">Generated on Sun Sep 16 2018 04:25:40 for Xonotic by
+    <li class="footer">Generated on Sun Sep 16 2018 11:29:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

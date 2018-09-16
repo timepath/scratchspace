@@ -1,5 +1,7 @@
 var NAVTREEINDEX114 =
 {
+"dc/de5/classWeapon.html#a94b9194f95513e0ad7c17da8a7fda0e0":[1,0,146,33],
+"dc/de5/classWeapon.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,146,25],
 "dc/de5/classWeapon.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,146,14],
 "dc/de5/classWeapon.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,146,1],
 "dc/de5/classWeapon.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,146,24],
@@ -247,7 +249,5 @@ var NAVTREEINDEX114 =
 "dc/dff/lib_2matrix_2command_8qh.html":[2,0,4,1,3],
 "dc/dff/lib_2matrix_2command_8qh_source.html":[2,0,4,1,3],
 "dd/d00/common_2mutators_2mutator_2nix_2__mod_8qh.html":[2,0,1,10,0,21,1],
-"dd/d00/common_2mutators_2mutator_2nix_2__mod_8qh_source.html":[2,0,1,10,0,21,1],
-"dd/d06/deathtypes_2all_8inc.html":[2,0,1,1,2],
-"dd/d06/deathtypes_2all_8inc_source.html":[2,0,1,1,2]
+"dd/d00/common_2mutators_2mutator_2nix_2__mod_8qh_source.html":[2,0,1,10,0,21,1]
 };

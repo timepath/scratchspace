@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"d6/d74/serverlist_8qc.html#a587213c0e3ae8ab5fa77efb6b74ab13e":[2,0,5,4,202,21],
 "d6/d74/serverlist_8qc.html#a62aa9f3d9ee5465384acc07cb1a50fb9":[2,0,5,4,202,34],
 "d6/d74/serverlist_8qc.html#a684de7d771e8759c28b3d09b2b667b78":[2,0,5,4,202,20],
 "d6/d74/serverlist_8qc.html#a6a0b094454f1d89c5c2b0c878977934f":[2,0,5,4,202,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "d6/d80/blaster_8qh_source.html":[2,0,1,16,0,5],
 "d6/d82/dialog__hudpanel__infomessages_8qh.html":[2,0,5,4,55],
 "d6/d82/dialog__hudpanel__infomessages_8qh_source.html":[2,0,5,4,55],
-"d6/d85/buffs_8qh.html":[2,0,1,10,0,2,4],
-"d6/d85/buffs_8qh.html#a03c0b2cbc8a5193a423a14bff9fdbc26":[2,0,1,10,0,2,4,8]
+"d6/d85/buffs_8qh.html":[2,0,1,10,0,2,4]
 };
