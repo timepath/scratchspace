@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"df/d4a/dialog__hudpanel__chat_8qh_source.html":[2,0,5,4,49],
 "df/d4c/server_2pathlib_2main_8qc.html":[2,0,6,4,8],
 "df/d4c/server_2pathlib_2main_8qc.html#a03b9aba43bfb042a5123b809a630a852":[2,0,6,4,8,9],
 "df/d4c/server_2pathlib_2main_8qc.html#a1f4d68b295cbc7d62c9932abbcf986a9":[2,0,6,4,8,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "df/d75/keybinder_8qc.html#a5cd46dbd69ee4086b6e89cac75717139":[2,0,5,4,172,26],
 "df/d75/keybinder_8qc.html#a7053a03b462c92dce42616709c1cc500":[2,0,5,4,172,9],
 "df/d75/keybinder_8qc.html#a8a4e76d61ea24d2bf22adf37d2bea543":[2,0,5,4,172,3],
-"df/d75/keybinder_8qc.html#a8b88a14dde16d0dd2ca22cff1ba7a2b7":[2,0,5,4,172,0],
-"df/d75/keybinder_8qc.html#a8cbec42c3a22af496ec94cf941fc1542":[2,0,5,4,172,7]
+"df/d75/keybinder_8qc.html#a8b88a14dde16d0dd2ca22cff1ba7a2b7":[2,0,5,4,172,0]
 };

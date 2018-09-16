@@ -160,13 +160,13 @@ var NAVTREEINDEX =
 "de/dcb/vector_8qh.html#a7f8a5f63bb6820dbb4290a5b08f938a8",
 "df/d05/cl__model_8qh.html#af60c1d5a9c42d0889bfd60c6197556cd",
 "df/d27/sv__weaponarena__random_8qh.html",
-"df/d4c/server_2pathlib_2main_8qc.html",
-"df/d75/keybinder_8qc.html#a8d951d6525e6ce2093c502661291acf9",
-"df/d9b/menu_2xonotic_2util_8qc.html#a0ecc182d931f638095b163ce20b85b86",
-"df/dc9/aim_8qc.html#a0a9f57cfe39f89603a6d3fc82738c957",
-"df/dd7/server_2client_8qc.html#a52938fcb4ad71b8d1989ef7a955155c2",
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a29c89320843260961f920637db5d3ee1",
-"functions_o.html"
+"df/d4a/dialog__hudpanel__chat_8qh_source.html",
+"df/d75/keybinder_8qc.html#a8cbec42c3a22af496ec94cf941fc1542",
+"df/d9b/menu_2xonotic_2util_8qc.html#a06840fb84f6c9ecdd5a8a28ec98f9bf7",
+"df/dc9/aim_8qc.html",
+"df/dd7/server_2client_8qc.html#a4b793ead3ecba4010f267f2a20373890",
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a27b635e0916726012b7e8c4dca05064e",
+"functions_n.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
