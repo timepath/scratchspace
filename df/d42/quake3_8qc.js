@@ -3,7 +3,6 @@ var quake3_8qc =
     [ "DoesQ3ARemoveThisEntity", "df/d42/quake3_8qc.html#a589e1206acb6c0ac2f8ec3bba25222b3", null ],
     [ "spawnfunc", "df/d42/quake3_8qc.html#ae6af28f0406185d406556f691af0f8f2", null ],
     [ "spawnfunc", "df/d42/quake3_8qc.html#a4dd02ae75f61d8a4517454c8e6f82f1e", null ],
-    [ "spawnfunc", "df/d42/quake3_8qc.html#a1381cf920b9e275bebd7db17470541b1", null ],
     [ "target_give_init", "df/d42/quake3_8qc.html#a150f5bd0f1c8300bca00748f5222a9e6", null ],
     [ "target_init_use", "df/d42/quake3_8qc.html#a8e4bde1ae214abebec59d65ca0c27df9", null ],
     [ "target_init_verify", "df/d42/quake3_8qc.html#a61742c0334dce4be11adeb7ba6664685", null ],

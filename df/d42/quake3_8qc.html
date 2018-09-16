@@ -144,8 +144,6 @@ Functions</h2></td></tr>
 <tr class="separator:ae6af28f0406185d406556f691af0f8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dd02ae75f61d8a4517454c8e6f82f1e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d42/quake3_8qc.html#a4dd02ae75f61d8a4517454c8e6f82f1e">spawnfunc</a> (target_give)</td></tr>
 <tr class="separator:a4dd02ae75f61d8a4517454c8e6f82f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1381cf920b9e275bebd7db17470541b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d42/quake3_8qc.html#a1381cf920b9e275bebd7db17470541b1">spawnfunc</a> (target_fragsFilter)</td></tr>
-<tr class="separator:a1381cf920b9e275bebd7db17470541b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150f5bd0f1c8300bca00748f5222a9e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d42/quake3_8qc.html#a150f5bd0f1c8300bca00748f5222a9e6">target_give_init</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>)</td></tr>
 <tr class="separator:a150f5bd0f1c8300bca00748f5222a9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e4bde1ae214abebec59d65ca0c27df9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d42/quake3_8qc.html#a8e4bde1ae214abebec59d65ca0c27df9">target_init_use</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> actor, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> trigger)</td></tr>
@@ -330,32 +328,6 @@ Variables</h2></td></tr>
 </div>
 </p>
 
-</div>
-</div>
-<a class="anchor" id="a1381cf920b9e275bebd7db17470541b1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">spawnfunc </td>
-          <td>(</td>
-          <td class="paramtype">target_fragsFilter&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../df/d42/quake3_8qc_source.html#l00188">188</a> of file <a class="el" href="../../df/d42/quake3_8qc_source.html">quake3.qc</a>.</p>
-
-<p>References <a class="el" href="../../df/db0/powerups_8qc_source.html#l00014">count</a>, and <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00104">frags</a>.</p>
-<div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;{</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    this.<a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a> = this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a25e96bce6bfbe6aa5dffc5f44f7edbc7">frags</a>;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    spawnfunc_trigger_counter(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;}</div>
-<div class="ttc" id="powerups_8qc_html_afea6e77db19a2f8c91419904fe665a3a"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a></div><div class="ttdeci">float count</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00014">powerups.qc:14</a></div></div>
-<div class="ttc" id="ent__cs_8qc_html_a25e96bce6bfbe6aa5dffc5f44f7edbc7"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a25e96bce6bfbe6aa5dffc5f44f7edbc7">frags</a></div><div class="ttdeci">frags</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00104">ent_cs.qc:104</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a150f5bd0f1c8300bca00748f5222a9e6"></a>
@@ -779,7 +751,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_bbe38578498df534a0ce6f3162a4def1.html">compat</a></li><li class="navelem"><a class="el" href="../../df/d42/quake3_8qc.html">quake3.qc</a></li>
-    <li class="footer">Generated on Sun Sep 16 2018 04:05:04 for Xonotic by
+    <li class="footer">Generated on Sun Sep 16 2018 04:25:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
