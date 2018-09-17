@@ -310,7 +310,7 @@ $(document).ready(function(){initNavTree('df/d42/quake3_8qc_source.html','../../
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;{</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(actor))</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">if</span>(actor.fragsfilter_cnt == <span class="keyword">this</span>.frags)</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">if</span>(actor.fragsfilter_cnt &gt;= <span class="keyword">this</span>.frags)</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <a class="code" href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a>(<span class="keyword">this</span>, actor, trigger);</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;}</div>
 <div class="line"><a name="l00209"></a><span class="lineno"><a class="line" href="../../df/d42/quake3_8qc.html#a1381cf920b9e275bebd7db17470541b1">  209</a></span>&#160;<a class="code" href="../../df/d42/quake3_8qc.html#ae6af28f0406185d406556f691af0f8f2">spawnfunc</a>(target_fragsFilter)</div>
@@ -468,7 +468,7 @@ $(document).ready(function(){initNavTree('df/d42/quake3_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_bbe38578498df534a0ce6f3162a4def1.html">compat</a></li><li class="navelem"><a class="el" href="../../df/d42/quake3_8qc.html">quake3.qc</a></li>
-    <li class="footer">Generated on Mon Sep 17 2018 08:10:16 for Xonotic by
+    <li class="footer">Generated on Mon Sep 17 2018 08:30:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
