@@ -19,5 +19,5 @@ var sv__rules_8qh =
     [ "GameRules_scoring_vip", "db/d55/sv__rules_8qh.html#a45421c6953dd81519e25361836938249", null ],
     [ "GameRules_spawning_teams", "db/d55/sv__rules_8qh.html#a26b7dbcc38a3e20303d28e49cca3da08", null ],
     [ "GameRules_teams", "db/d55/sv__rules_8qh.html#aadde099aa9d91e5bad4328d9481021cb", null ],
-    [ "total_players", "db/d55/sv__rules_8qh.html#af39c434e324c1dab87f08a2368e414ce", null ]
+    [ "total_players", "db/d55/sv__rules_8qh.html#aaa34bfc86f16c81e1d99092a184af2bd", null ]
 ];

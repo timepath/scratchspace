@@ -407,7 +407,7 @@ var searchData=
   ['total_5fcontrol_5fpoints',['total_control_points',['../d3/de3/sv__domination_8qc.html#a83d4a6af2a75d212385b2b0dd4ec1c9d',1,'sv_domination.qc']]],
   ['total_5fgenerators',['total_generators',['../d0/de4/sv__onslaught_8qc.html#a626501f012b2eaf506e9ce8cb7056a7a',1,'sv_onslaught.qc']]],
   ['total_5fmonsters',['total_monsters',['../d6/d11/progsdefs_8qc.html#aaa9c81cf890c4babf0c6363c12a73ac9',1,'progsdefs.qc']]],
-  ['total_5fplayers',['total_players',['../db/d55/sv__rules_8qh.html#af39c434e324c1dab87f08a2368e414ce',1,'sv_rules.qh']]],
+  ['total_5fplayers',['total_players',['../db/d55/sv__rules_8qh.html#aaa34bfc86f16c81e1d99092a184af2bd',1,'sv_rules.qh']]],
   ['total_5fpps',['total_pps',['../da/de5/sv__domination_8qh.html#a43b6f3e1f1ae9795689438e9baf977e1',1,'sv_domination.qh']]],
   ['total_5fsecrets',['total_secrets',['../d6/d11/progsdefs_8qc.html#a509b0880a96c7d7081e3bdae3c0b18f2',1,'progsdefs.qc']]],
   ['totalfrags',['totalfrags',['../d5/d26/server_2defs_8qh.html#a4647c37c2ceec013c552e4a2979c3787',1,'defs.qh']]],
