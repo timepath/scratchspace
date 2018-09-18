@@ -97,7 +97,7 @@ var classClient =
     [ "ping_packetloss", "d1/d37/classClient.html#a9c57279f6f4beda5ed8b56fc05e4c733", null ],
     [ "playerid", "d1/d37/classClient.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b", null ],
     [ "playermodel", "d1/d37/classClient.html#a486563026f66dc61e671c089890b2be9", null ],
-    [ "playerskin", "d1/d37/classClient.html#af04000dc778c4b1b0ec980ea3541b0f8", null ],
+    [ "playerskin", "d1/d37/classClient.html#a28a121a37dcb2d9fd7db1c7c74b7328a", null ],
     [ "pm_frametime", "d1/d37/classClient.html#a3f6b48423c8fa00300cf5de0f10abeef", null ],
     [ "pressedkeys", "d1/d37/classClient.html#ac0b4c14857eb756ac47df1fe7a410764", null ],
     [ "race_completed", "d1/d37/classClient.html#ac5d7195b93d170598741431176eb79ad", null ],

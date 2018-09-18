@@ -195,7 +195,7 @@ var searchData=
   ['playerparm_5fscore',['PLAYERPARM_SCORE',['../de/d40/playerlist_8qc.html#a8eb2d4a7a39dac19bcbefb3ebcb6e762',1,'playerlist.qc']]],
   ['playerparm_5fteam',['PLAYERPARM_TEAM',['../de/d40/playerlist_8qc.html#a2da2f534e7d95310a3a7e562a417548d',1,'playerlist.qc']]],
   ['players',['players',['../d8/db6/client_2miscfunctions_8qh.html#a44b5ea3f2e11df716c1affcd1cff5bef',1,'miscfunctions.qh']]],
-  ['playerskin',['playerskin',['../d1/d37/classClient.html#af04000dc778c4b1b0ec980ea3541b0f8',1,'Client::playerskin()'],['../de/d5e/dpextensions_8qc.html#a4d36bbde6c78ea09441e7d499baa1022',1,'playerskin():&#160;dpextensions.qc'],['../d5/d26/server_2defs_8qh.html#a4d36bbde6c78ea09441e7d499baa1022',1,'playerskin():&#160;defs.qh']]],
+  ['playerskin',['playerskin',['../d1/d37/classClient.html#a28a121a37dcb2d9fd7db1c7c74b7328a',1,'Client::playerskin()'],['../de/d5e/dpextensions_8qc.html#a4d36bbde6c78ea09441e7d499baa1022',1,'playerskin():&#160;dpextensions.qc'],['../d5/d26/server_2defs_8qh.html#a4d36bbde6c78ea09441e7d499baa1022',1,'playerskin():&#160;defs.qh']]],
   ['playerskin_5ffreeme',['playerskin_freeme',['../d1/da9/bot_8qh.html#aabcec630a918fbcf2229c6446fb8a199',1,'bot.qh']]],
   ['playerslots',['playerslots',['../d0/d2a/client_2main_8qh.html#a02482608b1eca1bf0591f7589db11994',1,'main.qh']]],
   ['playingtrack',['playingTrack',['../db/d59/classXonoticPlayList.html#a1fced09e46578d8594ca861e174d3c8c',1,'XonoticPlayList']]],

@@ -100,7 +100,7 @@ var classPlayer =
     [ "ping_packetloss", "d2/d4b/classPlayer.html#a9c57279f6f4beda5ed8b56fc05e4c733", null ],
     [ "playerid", "d2/d4b/classPlayer.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b", null ],
     [ "playermodel", "d2/d4b/classPlayer.html#a486563026f66dc61e671c089890b2be9", null ],
-    [ "playerskin", "d2/d4b/classPlayer.html#af04000dc778c4b1b0ec980ea3541b0f8", null ],
+    [ "playerskin", "d2/d4b/classPlayer.html#a28a121a37dcb2d9fd7db1c7c74b7328a", null ],
     [ "pm_frametime", "d2/d4b/classPlayer.html#a3f6b48423c8fa00300cf5de0f10abeef", null ],
     [ "pressedkeys", "d2/d4b/classPlayer.html#ac0b4c14857eb756ac47df1fe7a410764", null ],
     [ "prevstrengthsound", "d2/d4b/classPlayer.html#a14a63567d35b894151a5bb9e61e72061", null ],

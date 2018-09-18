@@ -96,7 +96,7 @@ var classObserver =
     [ "ping_packetloss", "de/dab/classObserver.html#a9c57279f6f4beda5ed8b56fc05e4c733", null ],
     [ "playerid", "de/dab/classObserver.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b", null ],
     [ "playermodel", "de/dab/classObserver.html#a486563026f66dc61e671c089890b2be9", null ],
-    [ "playerskin", "de/dab/classObserver.html#af04000dc778c4b1b0ec980ea3541b0f8", null ],
+    [ "playerskin", "de/dab/classObserver.html#a28a121a37dcb2d9fd7db1c7c74b7328a", null ],
     [ "pm_frametime", "de/dab/classObserver.html#a3f6b48423c8fa00300cf5de0f10abeef", null ],
     [ "pressedkeys", "de/dab/classObserver.html#ac0b4c14857eb756ac47df1fe7a410764", null ],
     [ "race_completed", "de/dab/classObserver.html#ac5d7195b93d170598741431176eb79ad", null ],

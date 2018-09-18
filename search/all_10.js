@@ -496,7 +496,7 @@ var searchData=
   ['playerscore_5fsort',['PlayerScore_Sort',['../d2/d79/scores_8qc.html#ae62eb8bcfc2596312a8b44c3aabdef19',1,'PlayerScore_Sort(.float field, float teams, float strict, float nospectators):&#160;scores.qc'],['../d5/dac/server_2scores_8qh.html#ae62eb8bcfc2596312a8b44c3aabdef19',1,'PlayerScore_Sort(.float field, float teams, float strict, float nospectators):&#160;scores.qc']]],
   ['playerscore_5fteamstats',['PlayerScore_TeamStats',['../d2/d79/scores_8qc.html#affe961b21a56acd5eb8779b56607356d',1,'scores.qc']]],
   ['playerscorefield',['PlayerScoreField',['../da/dc3/common_2scores_8qh.html#a4c294a172143568571dc9cf169b82314',1,'scores.qh']]],
-  ['playerskin',['playerskin',['../d1/d37/classClient.html#af04000dc778c4b1b0ec980ea3541b0f8',1,'Client::playerskin()'],['../de/d5e/dpextensions_8qc.html#a4d36bbde6c78ea09441e7d499baa1022',1,'playerskin():&#160;dpextensions.qc'],['../d5/d26/server_2defs_8qh.html#a4d36bbde6c78ea09441e7d499baa1022',1,'playerskin():&#160;defs.qh']]],
+  ['playerskin',['playerskin',['../d1/d37/classClient.html#a28a121a37dcb2d9fd7db1c7c74b7328a',1,'Client::playerskin()'],['../de/d5e/dpextensions_8qc.html#a4d36bbde6c78ea09441e7d499baa1022',1,'playerskin():&#160;dpextensions.qc'],['../d5/d26/server_2defs_8qh.html#a4d36bbde6c78ea09441e7d499baa1022',1,'playerskin():&#160;defs.qh']]],
   ['playerskin_5ffreeme',['playerskin_freeme',['../d1/da9/bot_8qh.html#aabcec630a918fbcf2229c6446fb8a199',1,'bot.qh']]],
   ['playerslots',['playerslots',['../d0/d2a/client_2main_8qh.html#a02482608b1eca1bf0591f7589db11994',1,'main.qh']]],
   ['playersounds_5ffrom',['PlayerSounds_from',['../df/d6e/globalsound_8qh.html#a1f8a6acaa0307f5e57ea172ca84b785a',1,'globalsound.qh']]],

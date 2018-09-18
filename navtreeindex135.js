@@ -1,6 +1,5 @@
 var NAVTREEINDEX135 =
 {
-"df/dc2/sounds_2all_8qh_source.html":[2,0,1,13,4],
 "df/dc5/common_2gamemodes_2gamemode_2cts_2__mod_8qh.html":[2,0,1,3,0,3,1],
 "df/dc5/common_2gamemodes_2gamemode_2cts_2__mod_8qh_source.html":[2,0,1,3,0,3,1],
 "df/dc7/ewheel__weapon_8qc.html":[2,0,1,14,0,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX135 =
 "df/dd7/server_2client_8qc.html#a35da2ff46a7d16ee6dd935fc1e65a72c":[2,0,6,17,42],
 "df/dd7/server_2client_8qc.html#a382a41c29c6967c613db86ec13c1201c":[2,0,6,17,49],
 "df/dd7/server_2client_8qc.html#a39100bf12dae7e7b38dea9b4cf3075b5":[2,0,6,17,64],
-"df/dd7/server_2client_8qc.html#a3cb890504a3e0218ed83a60fcba8b17c":[2,0,6,17,5]
+"df/dd7/server_2client_8qc.html#a3cb890504a3e0218ed83a60fcba8b17c":[2,0,6,17,5],
+"df/dd7/server_2client_8qc.html#a3e9a26edec819b4a5e84fce635a1fa68":[2,0,6,17,70]
 };

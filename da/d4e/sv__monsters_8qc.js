@@ -54,6 +54,5 @@ var sv__monsters_8qc =
     [ "pass_distance", "da/d4e/sv__monsters_8qc.html#afe9468b2df7f18dff6619caf77e7f8d8", null ],
     [ "pos1", "da/d4e/sv__monsters_8qc.html#a9b33712b5a37138e7c60e621a1182713", null ],
     [ "pos2", "da/d4e/sv__monsters_8qc.html#a5e3c857e323d0afe657b7a8f63380149", null ],
-    [ "skin_for_monstersound", "da/d4e/sv__monsters_8qc.html#accde0cec931f1d0e128eb90ad7145b5f", null ],
-    [ "target2", "da/d4e/sv__monsters_8qc.html#ae1bb0e25f173db5fbb2977f72a489f93", null ]
+    [ "skin_for_monstersound", "da/d4e/sv__monsters_8qc.html#accde0cec931f1d0e128eb90ad7145b5f", null ]
 ];
