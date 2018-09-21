@@ -1477,7 +1477,7 @@ $(document).ready(function(){initNavTree('d3/dd5/bd_8qc_source.html','../../');}
 <div class="line"><a name="l01370"></a><span class="lineno"> 1370</span>&#160;                {</div>
 <div class="line"><a name="l01371"></a><span class="lineno"> 1371</span>&#160;                    sent.message = bd_turn_to_string(sent.minigame_flags);</div>
 <div class="line"><a name="l01372"></a><span class="lineno"> 1372</span>&#160;                    <span class="comment">//if ( sent.minigame_flags &amp; minigame_self.team )</span></div>
-<div class="line"><a name="l01373"></a><span class="lineno"> 1373</span>&#160;                        <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a0e95d808ea50b0343ffb6f1b6d5ae445">minigame_prompt</a>();</div>
+<div class="line"><a name="l01373"></a><span class="lineno"> 1373</span>&#160;                        <span class="comment">//minigame_prompt();</span></div>
 <div class="line"><a name="l01374"></a><span class="lineno"> 1374</span>&#160;                }</div>
 <div class="line"><a name="l01375"></a><span class="lineno"> 1375</span>&#160;            }</div>
 <div class="line"><a name="l01376"></a><span class="lineno"> 1376</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(sent.classname == <span class="stringliteral">&quot;minigame_board_piece&quot;</span>)</div>
@@ -1639,7 +1639,6 @@ $(document).ready(function(){initNavTree('d3/dd5/bd_8qc_source.html','../../');}
 <div class="ttc" id="minigames_8qc_html_a470fe7b6bbd7d246af06920a80ebcadd"><div class="ttname"><a href="../../d3/dbf/minigames_8qc.html#a470fe7b6bbd7d246af06920a80ebcadd">minigame_relative_tile</a></div><div class="ttdeci">string minigame_relative_tile(string start_id, int dx, int dy, int rows, int columns)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbf/minigames_8qc_source.html#l00040">minigames.qc:40</a></div></div>
 <div class="ttc" id="bd_8qc_html_a32babbdca50e13b2b3c89df082b135e1"><div class="ttname"><a href="../../d3/dd5/bd_8qc.html#a32babbdca50e13b2b3c89df082b135e1">bd_move</a></div><div class="ttdeci">void bd_move(entity minigame, entity player, string dir)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd5/bd_8qc_source.html#l00338">bd.qc:338</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_a3555627cb4a3ca93d324f36fd94cff87"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a3555627cb4a3ca93d324f36fd94cff87">K_MOUSE1</a></div><div class="ttdeci">float K_MOUSE1</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00129">keycodes.qc:129</a></div></div>
-<div class="ttc" id="cl__minigames_8qc_html_a0e95d808ea50b0343ffb6f1b6d5ae445"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#a0e95d808ea50b0343ffb6f1b6d5ae445">minigame_prompt</a></div><div class="ttdeci">void minigame_prompt()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/cl__minigames_8qc_source.html#l00378">cl_minigames.qc:378</a></div></div>
 <div class="ttc" id="bd_8qc_html_a82686aa9a580c930ed89b2278e5441d2"><div class="ttname"><a href="../../d3/dd5/bd_8qc.html#a82686aa9a580c930ed89b2278e5441d2">bd_save_controller_piece</a></div><div class="ttdeci">string bd_save_controller_piece(entity minigame, entity e, int number)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd5/bd_8qc_source.html#l00649">bd.qc:649</a></div></div>
 <div class="ttc" id="bd_8qc_html_af8908b11ae2be6959a2a5b95d323cdc7"><div class="ttname"><a href="../../d3/dd5/bd_8qc.html#af8908b11ae2be6959a2a5b95d323cdc7">bd_valid_tile</a></div><div class="ttdeci">bool bd_valid_tile(string tile)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd5/bd_8qc_source.html#l00086">bd.qc:86</a></div></div>
 <div class="ttc" id="minigames_8qc_html_a50da88a37fb88826817f7d669b24c423"><div class="ttname"><a href="../../d3/dbf/minigames_8qc.html#a50da88a37fb88826817f7d669b24c423">minigame_count_players</a></div><div class="ttdeci">int minigame_count_players(entity minigame)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbf/minigames_8qc_source.html#l00123">minigames.qc:123</a></div></div>
@@ -1689,7 +1688,7 @@ $(document).ready(function(){initNavTree('d3/dd5/bd_8qc_source.html','../../');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../dir_f3c5fe65fc7d6f300d22d67107da5495.html">minigame</a></li><li class="navelem"><a class="el" href="../../d3/dd5/bd_8qc.html">bd.qc</a></li>
-    <li class="footer">Generated on Fri Sep 21 2018 01:40:49 for Xonotic by
+    <li class="footer">Generated on Fri Sep 21 2018 02:31:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

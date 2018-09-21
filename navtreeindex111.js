@@ -1,5 +1,7 @@
 var NAVTREEINDEX111 =
 {
+"dc/d73/server_2miscfunctions_8qh.html#aca7c673e6d637dd16b6a9bbcc3f73a63":[2,0,6,42,124],
+"dc/d73/server_2miscfunctions_8qh.html#acf4322a92b1a4367d26558e30af33ca5":[2,0,6,42,77],
 "dc/d73/server_2miscfunctions_8qh.html#ad0bd67642d9bbaab1a6e4ba3d34d747e":[2,0,6,42,80],
 "dc/d73/server_2miscfunctions_8qh.html#ad191ebfe2ae9f209e0284fdf4c5e520f":[2,0,6,42,117],
 "dc/d73/server_2miscfunctions_8qh.html#ad598502f260527ce9d1378b251c4a355":[2,0,6,42,79],
@@ -247,7 +249,5 @@ var NAVTREEINDEX111 =
 "dc/d98/client_2miscfunctions_8qc.html#af50992ec9f2e9611b555b1986b1d0c13":[2,0,0,19,21],
 "dc/d98/client_2miscfunctions_8qc.html#af98fdc6dc4f7c3096e2d2cbd74853de8":[2,0,0,19,11],
 "dc/d98/client_2miscfunctions_8qc.html#afc198f5b8ad430fd865a828902319624":[2,0,0,19,4],
-"dc/d98/client_2miscfunctions_8qc_source.html":[2,0,0,19],
-"dc/d99/bumblebee__weapons_8qh.html":[2,0,1,15,0,5],
-"dc/d99/bumblebee__weapons_8qh_source.html":[2,0,1,15,0,5]
+"dc/d98/client_2miscfunctions_8qc_source.html":[2,0,0,19]
 };

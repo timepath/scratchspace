@@ -62,6 +62,7 @@ var client_2defs_8qh =
     [ "shortmapname", "d9/d08/client_2defs_8qh.html#a975b1c325510de22e8029cb4a50841b8", null ],
     [ "silent", "d9/d08/client_2defs_8qh.html#ad24c893e4fad94ab257de2153e3d7c75", null ],
     [ "spectatee_status", "d9/d08/client_2defs_8qh.html#ad19574d03b3580d4e1fcb06490f68f59", null ],
+    [ "spectatee_status_changed_time", "d9/d08/client_2defs_8qh.html#a07512dad815dcdb9df1190aceea11b2e", null ],
     [ "sv_entnum", "d9/d08/client_2defs_8qh.html#a8036e7ff202b8dfa10a7e15e849bebe7", null ],
     [ "team", "d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2", null ],
     [ "team_size", "d9/d08/client_2defs_8qh.html#af181b46d8560f88b6a4612ac35d57a46", null ],

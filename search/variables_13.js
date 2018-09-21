@@ -259,6 +259,7 @@ var searchData=
   ['species_5frobot_5fshiny',['SPECIES_ROBOT_SHINY',['../d0/d8b/common_2constants_8qh.html#abc67b0dd866695bf305b900ab23f1b3d',1,'constants.qh']]],
   ['species_5frobot_5fsolid',['SPECIES_ROBOT_SOLID',['../d0/d8b/common_2constants_8qh.html#a18df8f3283e5d34055f11657c529e421',1,'constants.qh']]],
   ['spectatee_5fstatus',['spectatee_status',['../d1/d37/classClient.html#a7726503c7f30546802017511a4c25937',1,'Client::spectatee_status()'],['../d9/d08/client_2defs_8qh.html#ad19574d03b3580d4e1fcb06490f68f59',1,'spectatee_status():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a704447ea9059d13d1c39b3fdd340bf16',1,'spectatee_status():&#160;defs.qh']]],
+  ['spectatee_5fstatus_5fchanged_5ftime',['spectatee_status_changed_time',['../d9/d08/client_2defs_8qh.html#a07512dad815dcdb9df1190aceea11b2e',1,'defs.qh']]],
   ['spectatorbutton_5fzoom',['spectatorbutton_zoom',['../d0/d2a/client_2main_8qh.html#ae4ca437935cc9b8d346bfd086c7261b1',1,'main.qh']]],
   ['spectatorlist',['spectatorlist',['../d0/d2a/client_2main_8qh.html#a4f69572558cdff43ae69b93ee3e0a8f8',1,'main.qh']]],
   ['spectatortime',['spectatortime',['../d1/d37/classClient.html#aa707f23bd099623cdeaa19d50afd3351',1,'Client::spectatortime()'],['../d5/d26/server_2defs_8qh.html#ad8cc5742c76a6d38a1205a2171ea5239',1,'spectatortime():&#160;defs.qh']]],
