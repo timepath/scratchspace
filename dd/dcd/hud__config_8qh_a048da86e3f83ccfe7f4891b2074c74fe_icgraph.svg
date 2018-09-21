@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 580;
+var viewWidth = 690;
 var viewHeight = 66;
 var sectionId = 'dynsection-9';
 </script>
@@ -72,16 +72,16 @@ var sectionId = 'dynsection-9';
 <path fill="none" stroke="midnightblue" d="M144.027,-37.9167C154.221,-39.1124 164.521,-40.3204 174.277,-41.4646"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="144.231,-34.4168 133.892,-36.728 143.416,-41.3691 144.231,-34.4168"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../dd/dcd/hud__config_8qh.html#a909082b7b3de632938d841419eb2905a" target="_top" xlink:title="HUD_Panel_InputEvent">
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="../../dd/dcd/hud__config_8qh.html#a909082b7b3de632938d841419eb2905a" target="_top" xlink:title="HUD_Panel_InputEvent">
 <polygon fill="none" stroke="black" points="170,-0.5 170,-19.5 292,-19.5 292,-0.5 170,-0.5"/>
 <text text-anchor="middle" x="231" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">HUD_Panel_InputEvent</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node1&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M144.027,-20.0833C152.711,-19.0648 161.472,-18.0373 169.907,-17.0479"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="143.416,-16.6309 133.892,-21.272 144.231,-23.5832 143.416,-16.6309"/>
 </g>
@@ -100,27 +100,40 @@ var sectionId = 'dynsection-9';
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d6/dd3/view_8qc.html#a7b9e2c12c6a461c93afb197bd1a93c8f" target="_top" xlink:title="CSQC_UpdateView">
-<polygon fill="none" stroke="black" points="468,-38.5 468,-57.5 572,-57.5 572,-38.5 468,-38.5"/>
-<text text-anchor="middle" x="520" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">CSQC_UpdateView</text>
+<g id="a_node4"><a xlink:href="../../d6/dd3/view_8qc.html#ac8c4bbed4fba5aa3e717b5dbbd813ca4" target="_top" xlink:title="HUD_Mouse">
+<polygon fill="none" stroke="black" points="468,-38.5 468,-57.5 542,-57.5 542,-38.5 468,-38.5"/>
+<text text-anchor="middle" x="505" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">HUD_Mouse</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M442.496,-48C450.872,-48 459.398,-48 467.571,-48"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="442.386,-44.5001 432.386,-48 442.386,-51.5001 442.386,-44.5001"/>
+<path fill="none" stroke="midnightblue" d="M442.317,-48C451.064,-48 459.815,-48 467.864,-48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="442.095,-44.5001 432.095,-48 442.094,-51.5001 442.095,-44.5001"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../df/d30/client_2main_8qc.html#a374deadb3d19478a9370dff0c498c6e6" target="_top" xlink:title="CSQC_InputEvent">
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="../../d6/dd3/view_8qc.html#a7b9e2c12c6a461c93afb197bd1a93c8f" target="_top" xlink:title="CSQC_UpdateView">
+<polygon fill="none" stroke="black" points="578,-38.5 578,-57.5 682,-57.5 682,-38.5 578,-38.5"/>
+<text text-anchor="middle" x="630" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">CSQC_UpdateView</text>
+</a>
+</g>
+</g>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M552.241,-48C560.644,-48 569.452,-48 577.983,-48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="552.239,-44.5001 542.239,-48 552.239,-51.5001 552.239,-44.5001"/>
+</g>
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="../../df/d30/client_2main_8qc.html#a374deadb3d19478a9370dff0c498c6e6" target="_top" xlink:title="CSQC_InputEvent">
 <polygon fill="none" stroke="black" points="331,-0.5 331,-19.5 429,-19.5 429,-0.5 331,-0.5"/>
 <text text-anchor="middle" x="380" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">CSQC_InputEvent</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
+<!-- Node6&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M302.233,-10C311.9,-10 321.642,-10 330.789,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="302.215,-6.5001 292.215,-10 302.215,-13.5001 302.215,-6.5001"/>
 </g>

@@ -1,5 +1,17 @@
 var NAVTREEINDEX83 =
 {
+"d9/d18/screenshotlist_8qc.html#ab3668ca4a5d66f456c5e5523d07ad0eb":[2,0,5,4,198,19],
+"d9/d18/screenshotlist_8qc.html#abf6ff44c5085b283fc706ad349767ce3":[2,0,5,4,198,13],
+"d9/d18/screenshotlist_8qc.html#ad54e6f81c64a6a9462cd99ec72833c4e":[2,0,5,4,198,2],
+"d9/d18/screenshotlist_8qc.html#ad927265481124d25dbd8df0bbd128eb1":[2,0,5,4,198,11],
+"d9/d18/screenshotlist_8qc.html#af85698549b02adc05f2517067b72420f":[2,0,5,4,198,17],
+"d9/d18/screenshotlist_8qc.html#af995fcf70036ff2733377c5d44a5ab21":[2,0,5,4,198,10],
+"d9/d18/screenshotlist_8qc.html#afad0eb6c7f7acad6d0e0a509906d4d70":[2,0,5,4,198,14],
+"d9/d18/screenshotlist_8qc_source.html":[2,0,5,4,198],
+"d9/d19/handicap_8qc.html":[2,0,6,29],
+"d9/d19/handicap_8qc.html#a252940bd48dd3ccfad23adddf28e02ae":[2,0,6,29,3],
+"d9/d19/handicap_8qc.html#a41b02148f09797e441feda396ad8c4fc":[2,0,6,29,0],
+"d9/d19/handicap_8qc.html#a4f458f5ffa45353fadde9936cbd0279a":[2,0,6,29,4],
 "d9/d19/handicap_8qc.html#a673d6ca84b1e72bc80cae2e90030056f":[2,0,6,29,2],
 "d9/d19/handicap_8qc.html#a8073140ff6d4f3cf85c3ef2a9d4780d4":[2,0,6,29,5],
 "d9/d19/handicap_8qc.html#ac42efcf2d233a8425c35dbfc9fccc278":[2,0,6,29,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX83 =
 "d9/d45/globalsound_8qc.html#a4fc1198a586672f2b9459c628d386ca7":[2,0,1,2,0,8,2],
 "d9/d45/globalsound_8qc.html#a63392d4ab2c2d2eed41bab4b430cf06a":[2,0,1,2,0,8,13],
 "d9/d45/globalsound_8qc.html#a6d27dd45d58d423f7c352182ea854ef7":[2,0,1,2,0,8,5],
-"d9/d45/globalsound_8qc.html#a7022de3163c4d07ba4bc0547443ae346":[2,0,1,2,0,8,3],
-"d9/d45/globalsound_8qc.html#aa3e301b3f194eb417622653ae6f0669d":[2,0,1,2,0,8,11],
-"d9/d45/globalsound_8qc.html#acc226d4ed744cf98c0ee5ff8356757b8":[2,0,1,2,0,8,1],
-"d9/d45/globalsound_8qc.html#ae2c525418d0124bca40ef3c1528d3eed":[2,0,1,2,0,8,6],
-"d9/d45/globalsound_8qc.html#af5ade693227db52106302b5745813c76":[2,0,1,2,0,8,12],
-"d9/d45/globalsound_8qc.html#afff52730d3053fc9102cec5246ee16d6":[2,0,1,2,0,8,9],
-"d9/d45/globalsound_8qc_source.html":[2,0,1,2,0,8],
-"d9/d47/cvarlist_8qh.html":[2,0,5,4,33],
-"d9/d47/cvarlist_8qh.html#a1887a2da6825992ddb99acd7cbcc0388":[2,0,5,4,33,2],
-"d9/d47/cvarlist_8qh.html#a39f82a66971a7a85c801c09ca60e34f0":[2,0,5,4,33,5],
-"d9/d47/cvarlist_8qh.html#a3afb09be4df0236ad8b1247b9db22458":[2,0,5,4,33,1],
-"d9/d47/cvarlist_8qh.html#a5971da398283d35ee922ebc812fa0de7":[2,0,5,4,33,6],
-"d9/d47/cvarlist_8qh.html#a59b8ea8092fc1d518741fcad07d4caf8":[2,0,5,4,33,7]
+"d9/d45/globalsound_8qc.html#a7022de3163c4d07ba4bc0547443ae346":[2,0,1,2,0,8,3]
 };

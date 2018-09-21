@@ -1,5 +1,17 @@
 var NAVTREEINDEX99 =
 {
+"db/d4a/classHook.html#a8295741ee9b8a02375d724d1a5c08a00":[1,0,51,32],
+"db/d4a/classHook.html#a82a0db5347dd6f81d181dd0d444eb61f":[1,0,51,34],
+"db/d4a/classHook.html#a86d94cfb6a32970c632e4175836fab21":[1,0,51,30],
+"db/d4a/classHook.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,51,7],
+"db/d4a/classHook.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,51,25],
+"db/d4a/classHook.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,51,14],
+"db/d4a/classHook.html#aa36489e999607ea0c02344e86f0349cc":[1,0,51,29],
+"db/d4a/classHook.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,51,1],
+"db/d4a/classHook.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,51,24],
+"db/d4a/classHook.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,51,15],
+"db/d4a/classHook.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,51,13],
+"db/d4a/classHook.html#ab0e92b71baa0432b2ba02172122fcd3e":[1,0,51,33],
 "db/d4a/classHook.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,51,6],
 "db/d4a/classHook.html#ab71de1fab1a32f9ae18ac7132fc53632":[1,0,51,27],
 "db/d4a/classHook.html#abf2fbef9b9e0a252ba8f0a2817b21872":[1,0,51,26],
@@ -237,17 +249,5 @@ var NAVTREEINDEX99 =
 "db/d5a/classXonoticHUDPowerupsDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,197,74],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,197,14],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a753c04cd7558e6bc44731ac618983f5c":[1,0,197,22],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,197,64],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,197,23],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,197,87],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,197,78],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,197,50],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,197,43],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,197,65],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a86f06cc51f21cd57661a6c87b2c19465":[1,0,197,85],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,197,71],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,197,75],
-"db/d5a/classXonoticHUDPowerupsDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,197,63],
-"db/d5a/classXonoticHUDPowerupsDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,197,9],
-"db/d5a/classXonoticHUDPowerupsDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,197,34]
+"db/d5a/classXonoticHUDPowerupsDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,197,64]
 };

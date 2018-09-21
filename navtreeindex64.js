@@ -1,5 +1,16 @@
 var NAVTREEINDEX64 =
 {
+"d7/d50/classXonoticPlayerList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,226,21],
+"d7/d50/classXonoticPlayerList.html#afdcf1fb79903f747cda494b27206526b":[1,0,226,1],
+"d7/d52/common_2mutators_2mutator_2breakablehook_2__mod_8qh.html":[2,0,1,10,0,1,1],
+"d7/d52/common_2mutators_2mutator_2breakablehook_2__mod_8qh_source.html":[2,0,1,10,0,1,1],
+"d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh.html":[2,0,5,4,105],
+"d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh_source.html":[2,0,5,4,105],
+"d7/d5a/dialog__settings__user_8qh.html":[2,0,5,4,151],
+"d7/d5a/dialog__settings__user_8qh.html#a66f02ce333f6fc2ba9cfd196973b1295":[2,0,5,4,151,1],
+"d7/d5a/dialog__settings__user_8qh_source.html":[2,0,5,4,151],
+"d7/d5c/common_2stats_8qh.html":[2,0,1,45],
+"d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08":[2,0,1,45,0],
 "d7/d5c/common_2stats_8qh.html#addc676e25f2065875621b35f9daadb18":[2,0,1,45,2],
 "d7/d5c/common_2stats_8qh.html#ae813f754c6e1e144ad044d9c15ba1295":[2,0,1,45,3],
 "d7/d5c/common_2stats_8qh.html#af79aea212cd212293b11203367c6a5b3":[2,0,1,45,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX64 =
 "d7/d7c/common_2items_2item_8qh.html#a1e585e63d0c165fe1edf0f2559075de0":[2,0,1,5,6,19],
 "d7/d7c/common_2items_2item_8qh.html#a2274753e40504da52eab0d26cf69d623":[2,0,1,5,6,30],
 "d7/d7c/common_2items_2item_8qh.html#a2b00ad5f160e65a5882024625f9fbebf":[2,0,1,5,6,16],
-"d7/d7c/common_2items_2item_8qh.html#a2b69c3e71b54c58b92f68569a449b6c7":[2,0,1,5,6,15],
-"d7/d7c/common_2items_2item_8qh.html#a2c80e68c8b9e464f9706d0917ed7af65":[2,0,1,5,6,25],
-"d7/d7c/common_2items_2item_8qh.html#a3f6f6a8713fbbbba4ade21d07fe704ff":[2,0,1,5,6,17],
-"d7/d7c/common_2items_2item_8qh.html#a6fac748d32a744bc82febff652ac5faa":[2,0,1,5,6,12],
-"d7/d7c/common_2items_2item_8qh.html#a7bd005ba2aac68c6c62c5eb4b0b56644":[2,0,1,5,6,24],
-"d7/d7c/common_2items_2item_8qh.html#a7bdf5dd6eba15157f42fd849a7e4f8b2":[2,0,1,5,6,2],
-"d7/d7c/common_2items_2item_8qh.html#a839da261947d39c2849cd8f5ebf570ac":[2,0,1,5,6,20],
-"d7/d7c/common_2items_2item_8qh.html#a87d312bb98475fdeb00b9dac2ed0b350":[2,0,1,5,6,21],
-"d7/d7c/common_2items_2item_8qh.html#a8864d9b0a0fd7ee357db12f504728e6b":[2,0,1,5,6,26],
-"d7/d7c/common_2items_2item_8qh.html#a904db53d8b41e63b49bfa1e7d79b93e4":[2,0,1,5,6,9],
-"d7/d7c/common_2items_2item_8qh.html#a986394a32b6f3c39af3455f7962fab9b":[2,0,1,5,6,29],
-"d7/d7c/common_2items_2item_8qh.html#a99851bb72af977b9233a84a2b9b1c6e2":[2,0,1,5,6,23]
+"d7/d7c/common_2items_2item_8qh.html#a2b69c3e71b54c58b92f68569a449b6c7":[2,0,1,5,6,15]
 };

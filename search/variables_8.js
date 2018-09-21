@@ -109,7 +109,6 @@ var searchData=
   ['hud_5fminigamemenu_5flast_5fentry',['HUD_MinigameMenu_last_entry',['../d5/d4a/cl__minigames__hud_8qc.html#a34717727bac59a62df9c33c21e0b190a',1,'cl_minigames_hud.qc']]],
   ['hud_5fmodel',['hud_model',['../db/d11/classBumblebee.html#a45c031e26578bb6ecec87b300e247167',1,'Bumblebee::hud_model()'],['../dd/dd7/classRacer.html#ae64e1174e26aa83ba277ccc22c90e510',1,'Racer::hud_model()'],['../d8/d12/classRaptor.html#a713328fe8218d2758bf406937828e458',1,'Raptor::hud_model()'],['../df/d0f/classSpiderbot.html#a65029f9f9de70ed0d698c691eca5d3bb',1,'Spiderbot::hud_model()'],['../dc/d23/classVehicle.html#a094dc470383a4158c584ddf7b130dc67',1,'Vehicle::hud_model()']]],
   ['hud_5fnormal',['HUD_NORMAL',['../d0/d8b/common_2constants_8qh.html#a839c489f06be0719ab5390cf2957d4c3',1,'constants.qh']]],
-  ['hud_5fpanel_5fquickmenu',['hud_panel_quickmenu',['../d3/d05/hud_8qh.html#a67ad010fe4c3b3c26aec70dae2a20e8b',1,'hud.qh']]],
   ['hud_5fpanel_5fradar_5fbottom',['hud_panel_radar_bottom',['../d3/d05/hud_8qh.html#a1b1b63565f719d36c27bc039f929fdba',1,'hud.qh']]],
   ['hud_5fpanel_5fradar_5fforeground_5falpha',['hud_panel_radar_foreground_alpha',['../d0/d84/teamradar_8qh.html#ae5a4ea55e61c15b83313c8658e039a49',1,'teamradar.qh']]],
   ['hud_5fpanel_5fradar_5fmaximized',['hud_panel_radar_maximized',['../d3/d05/hud_8qh.html#a5ff072dc76b8ee671ef47ebc1cee86d8',1,'hud.qh']]],

@@ -14,6 +14,7 @@ var hud_8qc =
     [ "HUD_Reset", "d7/d15/hud_8qc.html#a2cb9eb667b5191a841d4fb82824b7cca", null ],
     [ "Hud_Shake_Update", "d7/d15/hud_8qc.html#a346ca21750dc6c018430ab766d945da0", null ],
     [ "HUD_Vehicle", "d7/d15/hud_8qc.html#a769cb2e43233e88dc29540614e7a4e03", null ],
+    [ "HUD_WouldShowCursor", "d7/d15/hud_8qc.html#a6ec7d131e953e75f57e7f49d6ad5f44e", null ],
     [ "autocvar_hud_dynamic_shake", "d7/d15/hud_8qc.html#a059bf1ec85f2c301ebd508746966ffaa", null ],
     [ "autocvar_hud_dynamic_shake_damage_max", "d7/d15/hud_8qc.html#a016a0fcf08900a461b8f001adcd8ae38", null ],
     [ "autocvar_hud_dynamic_shake_damage_min", "d7/d15/hud_8qc.html#abf03db2bbdaaed29a0ddeaa24cd7d5a8", null ],

@@ -1,5 +1,16 @@
 var NAVTREEINDEX117 =
 {
+"dd/d43/cl__turrets_8qc.html#a8a5aa44dc52f648c1cbbb4bcce5d119a":[2,0,1,14,7,2],
+"dd/d43/cl__turrets_8qc.html#ab45736fb36b0b5641315be92b9747beb":[2,0,1,14,7,11],
+"dd/d43/cl__turrets_8qc.html#ab489777485c16d894a5d054c34bf4ca6":[2,0,1,14,7,7],
+"dd/d43/cl__turrets_8qc.html#afa0c6aa2cc876260c989857c91f7b13d":[2,0,1,14,7,9],
+"dd/d43/cl__turrets_8qc_source.html":[2,0,1,14,7],
+"dd/d43/gametypelist_8qh.html":[2,0,5,4,165],
+"dd/d43/gametypelist_8qh.html#a6dec0dd03e2658b2ff6cb6a7a7ae0a88":[2,0,5,4,165,1],
+"dd/d43/gametypelist_8qh_source.html":[2,0,5,4,165],
+"dd/d45/sv__damagetext_8qh.html":[2,0,1,10,0,6,7],
+"dd/d45/sv__damagetext_8qh_source.html":[2,0,1,10,0,6,7],
+"dd/d46/dialog__multiplayer_8qh.html":[2,0,5,4,87],
 "dd/d46/dialog__multiplayer_8qh_source.html":[2,0,5,4,87],
 "dd/d49/targettrigger_8qh.html":[2,0,1,14,14],
 "dd/d49/targettrigger_8qh_source.html":[2,0,1,14,14],
@@ -238,16 +249,5 @@ var NAVTREEINDEX117 =
 "dd/d73/classMachineGun.html#a5a74bd7bd031ea75c7c9dc244b2e127f":[1,0,72,37],
 "dd/d73/classMachineGun.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,72,10],
 "dd/d73/classMachineGun.html#a6a4ca1cbdcc772ba519c2e7ad0a9b973":[1,0,72,34],
-"dd/d73/classMachineGun.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,72,9],
-"dd/d73/classMachineGun.html#a6e5ae444304018d7d189bb5f692715df":[1,0,72,39],
-"dd/d73/classMachineGun.html#a7515d4131829927372fd6583d4ae610a":[1,0,72,0],
-"dd/d73/classMachineGun.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,72,30],
-"dd/d73/classMachineGun.html#a80fa9a65e19370473a29baebc04d0626":[1,0,72,5],
-"dd/d73/classMachineGun.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,72,7],
-"dd/d73/classMachineGun.html#a9159b466879abe9b0896a8489e1473d8":[1,0,72,33],
-"dd/d73/classMachineGun.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,72,25],
-"dd/d73/classMachineGun.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,72,14],
-"dd/d73/classMachineGun.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,72,1],
-"dd/d73/classMachineGun.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,72,24],
-"dd/d73/classMachineGun.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,72,15]
+"dd/d73/classMachineGun.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,72,9]
 };

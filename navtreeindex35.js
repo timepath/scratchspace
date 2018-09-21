@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"d4/d0c/csprogsdefs_8qc.html#ab3bd32febe563c36ba645320c5f36ff1":[2,0,2,0,0,105],
 "d4/d0c/csprogsdefs_8qc.html#ab44bfa7b44bbc15ad858ceca52854ef6":[2,0,2,0,0,431],
 "d4/d0c/csprogsdefs_8qc.html#ab45acae0df590fd7bce5dcaaa2275cc0":[2,0,2,0,0,522],
 "d4/d0c/csprogsdefs_8qc.html#ab6222ff5aada93cc35a258b153a40286":[2,0,2,0,0,368],
@@ -176,7 +177,7 @@ var NAVTREEINDEX35 =
 "d4/d0d/client_2mapvoting_8qc.html#a22f77bb9a65003450d61a9314f82f145":[2,0,0,17,28],
 "d4/d0d/client_2mapvoting_8qc.html#a2d18123ee9cdfee569be86229f2cf9aa":[2,0,0,17,2],
 "d4/d0d/client_2mapvoting_8qc.html#a31bff6c863a19e61357526310c39f395":[2,0,0,17,21],
-"d4/d0d/client_2mapvoting_8qc.html#a40012f98faf7c1e5b08e68eeecf9a991":[2,0,0,17,52],
+"d4/d0d/client_2mapvoting_8qc.html#a40012f98faf7c1e5b08e68eeecf9a991":[2,0,0,17,53],
 "d4/d0d/client_2mapvoting_8qc.html#a45d814217734adf57e72f4a352cc75d7":[2,0,0,17,35],
 "d4/d0d/client_2mapvoting_8qc.html#a470d0e06ac436efbcb76ffb899ebaec4":[2,0,0,17,14],
 "d4/d0d/client_2mapvoting_8qc.html#a4765b303dbf97b05b7e292df100f3688":[2,0,0,17,48],
@@ -207,6 +208,7 @@ var NAVTREEINDEX35 =
 "d4/d0d/client_2mapvoting_8qc.html#aa818f8084baf251c8c1215262ebe1022":[2,0,0,17,5],
 "d4/d0d/client_2mapvoting_8qc.html#aa848f4340520e00debbeeff469387bcf":[2,0,0,17,27],
 "d4/d0d/client_2mapvoting_8qc.html#aa9a69df73a5ddee4fc0cdef5fd79ce20":[2,0,0,17,51],
+"d4/d0d/client_2mapvoting_8qc.html#ab070079ec3e376324a8aed8f4a47ca16":[2,0,0,17,52],
 "d4/d0d/client_2mapvoting_8qc.html#ab2a03aab43806a5e9fc79dca1c1eaab4":[2,0,0,17,8],
 "d4/d0d/client_2mapvoting_8qc.html#ab80a012b6d9531a38dd52069edc63811":[2,0,0,17,18],
 "d4/d0d/client_2mapvoting_8qc.html#ac0b940b69fe411f626169357481ff8b9":[2,0,0,17,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "d4/d16/label_8qc_source.html":[2,0,5,2,18],
 "d4/d17/classVortex.html":[1,0,142],
 "d4/d17/classVortex.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,142,20],
-"d4/d17/classVortex.html#a158f36c4de5936f233a77ff66f6fe910":[1,0,142,33],
-"d4/d17/classVortex.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,142,19],
-"d4/d17/classVortex.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,142,17]
+"d4/d17/classVortex.html#a158f36c4de5936f233a77ff66f6fe910":[1,0,142,33]
 };

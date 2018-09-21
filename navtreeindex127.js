@@ -1,5 +1,16 @@
 var NAVTREEINDEX127 =
 {
+"de/d7a/classXonoticHUDScoreDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,202,63],
+"de/d7a/classXonoticHUDScoreDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,202,9],
+"de/d7a/classXonoticHUDScoreDialog.html#aac97196033c47e57675b8acea8054d79":[1,0,202,57],
+"de/d7a/classXonoticHUDScoreDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,202,34],
+"de/d7a/classXonoticHUDScoreDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,202,5],
+"de/d7a/classXonoticHUDScoreDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,202,88],
+"de/d7a/classXonoticHUDScoreDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,202,77],
+"de/d7a/classXonoticHUDScoreDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,202,42],
+"de/d7a/classXonoticHUDScoreDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,202,0],
+"de/d7a/classXonoticHUDScoreDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,202,16],
+"de/d7a/classXonoticHUDScoreDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,202,31],
 "de/d7a/classXonoticHUDScoreDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,202,36],
 "de/d7a/classXonoticHUDScoreDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,202,56],
 "de/d7a/classXonoticHUDScoreDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,202,33],
@@ -238,16 +249,5 @@ var NAVTREEINDEX127 =
 "de/da1/sv__keepaway_8qc.html#a8794086f299436c0f3ad85428fbe8e3e":[2,0,1,3,0,8,2,15],
 "de/da1/sv__keepaway_8qc.html#a8cc9041f6ceb06901aaf551fe9185841":[2,0,1,3,0,8,2,43],
 "de/da1/sv__keepaway_8qc.html#a918f60aac6917ab91d28888e6f0fade3":[2,0,1,3,0,8,2,10],
-"de/da1/sv__keepaway_8qc.html#a947e14f15617f6434aeeaeef914c62fb":[2,0,1,3,0,8,2,17],
-"de/da1/sv__keepaway_8qc.html#a9b503874ac510522dc72d0b593489361":[2,0,1,3,0,8,2,42],
-"de/da1/sv__keepaway_8qc.html#a9f97ec6d4961eea75d416813ba4704d0":[2,0,1,3,0,8,2,36],
-"de/da1/sv__keepaway_8qc.html#aa1a2aa8ae07900242b232886cf4bc00f":[2,0,1,3,0,8,2,32],
-"de/da1/sv__keepaway_8qc.html#aa5860056b36d396ef83793b3442cf173":[2,0,1,3,0,8,2,34],
-"de/da1/sv__keepaway_8qc.html#aa67ca021ca035e8fd4b994d94da5218f":[2,0,1,3,0,8,2,38],
-"de/da1/sv__keepaway_8qc.html#aa95f631b3e19d4de9d5362822909e82c":[2,0,1,3,0,8,2,27],
-"de/da1/sv__keepaway_8qc.html#aac10b6fca59a918f3708da8333b43a46":[2,0,1,3,0,8,2,18],
-"de/da1/sv__keepaway_8qc.html#ab06fea865fdeb7f803cbc648e8500ce2":[2,0,1,3,0,8,2,0],
-"de/da1/sv__keepaway_8qc.html#ab89d0e6381ce1c8063c585292d27b381":[2,0,1,3,0,8,2,39],
-"de/da1/sv__keepaway_8qc.html#aba900e001d432363ed6e93c6b5499a84":[2,0,1,3,0,8,2,3],
-"de/da1/sv__keepaway_8qc.html#abbf02f92af7cca347d884d06e05b7399":[2,0,1,3,0,8,2,11]
+"de/da1/sv__keepaway_8qc.html#a947e14f15617f6434aeeaeef914c62fb":[2,0,1,3,0,8,2,17]
 };

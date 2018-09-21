@@ -1,5 +1,16 @@
 var NAVTREEINDEX63 =
 {
+"d7/d39/classXonoticVideoSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,262,44],
+"d7/d39/classXonoticVideoSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,262,56],
+"d7/d39/classXonoticVideoSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,262,88],
+"d7/d39/classXonoticVideoSettingsTab.html#a58fb684b9035dc506eb888f42bcc9641":[1,0,262,77],
+"d7/d39/classXonoticVideoSettingsTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,262,49],
+"d7/d39/classXonoticVideoSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,262,21],
+"d7/d39/classXonoticVideoSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,262,63],
+"d7/d39/classXonoticVideoSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,262,55],
+"d7/d39/classXonoticVideoSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,262,18],
+"d7/d39/classXonoticVideoSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,262,82],
+"d7/d39/classXonoticVideoSettingsTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,262,8],
 "d7/d39/classXonoticVideoSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,262,65],
 "d7/d39/classXonoticVideoSettingsTab.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,262,27],
 "d7/d39/classXonoticVideoSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,262,90],
@@ -238,16 +249,5 @@ var NAVTREEINDEX63 =
 "d7/d50/classXonoticPlayerList.html#aed05f75651928be9263a2073856f33cd":[1,0,226,74],
 "d7/d50/classXonoticPlayerList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,226,4],
 "d7/d50/classXonoticPlayerList.html#af381c35224a0cdacf3c7ec000e158202":[1,0,226,70],
-"d7/d50/classXonoticPlayerList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,226,28],
-"d7/d50/classXonoticPlayerList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,226,21],
-"d7/d50/classXonoticPlayerList.html#afdcf1fb79903f747cda494b27206526b":[1,0,226,1],
-"d7/d52/common_2mutators_2mutator_2breakablehook_2__mod_8qh.html":[2,0,1,10,0,1,1],
-"d7/d52/common_2mutators_2mutator_2breakablehook_2__mod_8qh_source.html":[2,0,1,10,0,1,1],
-"d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh.html":[2,0,5,4,105],
-"d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh_source.html":[2,0,5,4,105],
-"d7/d5a/dialog__settings__user_8qh.html":[2,0,5,4,151],
-"d7/d5a/dialog__settings__user_8qh.html#a66f02ce333f6fc2ba9cfd196973b1295":[2,0,5,4,151,1],
-"d7/d5a/dialog__settings__user_8qh_source.html":[2,0,5,4,151],
-"d7/d5c/common_2stats_8qh.html":[2,0,1,45],
-"d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08":[2,0,1,45,0]
+"d7/d50/classXonoticPlayerList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,226,28]
 };
