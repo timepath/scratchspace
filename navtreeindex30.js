@@ -1,5 +1,10 @@
 var NAVTREEINDEX30 =
 {
+"d3/dbe/classSlider.html#a1c228ffb13fb785a4d69c1fc3cba8290":[1,0,126,9],
+"d3/dbe/classSlider.html#a1d02ac64cd2c844a3a1328e155243fef":[1,0,126,29],
+"d3/dbe/classSlider.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,126,21],
+"d3/dbe/classSlider.html#a1ed92bdbe845237ab3ba60c4b9b0f185":[1,0,126,62],
+"d3/dbe/classSlider.html#a1f49a81a5c3860beb9953615562cc5d2":[1,0,126,15],
 "d3/dbe/classSlider.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,126,44],
 "d3/dbe/classSlider.html#a21940ad168efbea189d0efffd28d2586":[1,0,126,11],
 "d3/dbe/classSlider.html#a27b635e0916726012b7e8c4dca05064e":[1,0,126,33],
@@ -224,9 +229,9 @@ var NAVTREEINDEX30 =
 "d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87":[2,0,4,51,24],
 "d3/dd0/self_8qh.html#a15aa1aefc40b6101fd278636531103d1":[2,0,4,51,4],
 "d3/dd0/self_8qh.html#a203e953e46ef05b0373f8bccaeb5378c":[2,0,4,51,15],
+"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,51,12],
 "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,51,10],
 "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,51,11],
-"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,51,12],
 "d3/dd0/self_8qh.html#a259aac00ed43fd7ac58196b770963525":[2,0,4,51,6],
 "d3/dd0/self_8qh.html#a29c098c7bd67a60d2dd9d94db782aaa6":[2,0,4,51,0],
 "d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8":[2,0,4,51,20],
@@ -244,10 +249,5 @@ var NAVTREEINDEX30 =
 "d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,4,51,13],
 "d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,4,51,14],
 "d3/dd0/self_8qh.html#ab0f9fbed8238871df6f5ff5609840aa3":[2,0,4,51,26],
-"d3/dd0/self_8qh.html#ab666435fc4955cc75aebf3360ee86861":[2,0,4,51,5],
-"d3/dd0/self_8qh.html#aba1f01394a0aa649fde132cb094e7111":[2,0,4,51,19],
-"d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113":[2,0,4,51,31],
-"d3/dd0/self_8qh.html#ac84d1104dbf6b831fbad7f3de6a8cf02":[2,0,4,51,2],
-"d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686":[2,0,4,51,33],
-"d3/dd0/self_8qh.html#ace5065346de94dacc037daf771ec60ea":[2,0,4,51,28]
+"d3/dd0/self_8qh.html#ab666435fc4955cc75aebf3360ee86861":[2,0,4,51,5]
 };

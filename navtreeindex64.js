@@ -1,5 +1,11 @@
 var NAVTREEINDEX64 =
 {
+"d7/d50/classXonoticPlayerList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,226,61],
+"d7/d50/classXonoticPlayerList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,226,30],
+"d7/d50/classXonoticPlayerList.html#aed05f75651928be9263a2073856f33cd":[1,0,226,74],
+"d7/d50/classXonoticPlayerList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,226,4],
+"d7/d50/classXonoticPlayerList.html#af381c35224a0cdacf3c7ec000e158202":[1,0,226,70],
+"d7/d50/classXonoticPlayerList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,226,28],
 "d7/d50/classXonoticPlayerList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,226,21],
 "d7/d50/classXonoticPlayerList.html#afdcf1fb79903f747cda494b27206526b":[1,0,226,1],
 "d7/d52/common_2mutators_2mutator_2breakablehook_2__mod_8qh.html":[2,0,1,10,0,1,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX64 =
 "d7/d7b/turrets_2turret_2machinegun_8qc.html":[2,0,1,14,0,20],
 "d7/d7b/turrets_2turret_2machinegun_8qc_source.html":[2,0,1,14,0,20],
 "d7/d7c/common_2items_2item_8qh.html":[2,0,1,5,6],
-"d7/d7c/common_2items_2item_8qh.html#a06fc87d81c62e9abb8790b6e5713c55ba316fbbf37327cad99846329c4a741175":[2,0,1,5,6,4],
-"d7/d7c/common_2items_2item_8qh.html#a06fc87d81c62e9abb8790b6e5713c55ba73f1b0e1ba8911505f110745b0b73b5a":[2,0,1,5,6,5],
-"d7/d7c/common_2items_2item_8qh.html#a06fc87d81c62e9abb8790b6e5713c55ba9a835d3cc458c89ae00029921ac3f37e":[2,0,1,5,6,3],
-"d7/d7c/common_2items_2item_8qh.html#a1e585e63d0c165fe1edf0f2559075de0":[2,0,1,5,6,19],
-"d7/d7c/common_2items_2item_8qh.html#a2274753e40504da52eab0d26cf69d623":[2,0,1,5,6,30],
-"d7/d7c/common_2items_2item_8qh.html#a2b00ad5f160e65a5882024625f9fbebf":[2,0,1,5,6,16],
-"d7/d7c/common_2items_2item_8qh.html#a2b69c3e71b54c58b92f68569a449b6c7":[2,0,1,5,6,15]
+"d7/d7c/common_2items_2item_8qh.html#a06fc87d81c62e9abb8790b6e5713c55ba316fbbf37327cad99846329c4a741175":[2,0,1,5,6,4]
 };

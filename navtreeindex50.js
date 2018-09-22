@@ -1,5 +1,11 @@
 var NAVTREEINDEX50 =
 {
+"d5/db1/server_2bot_2default_2__mod_8qh.html":[2,0,6,0,0,2],
+"d5/db1/server_2bot_2default_2__mod_8qh_source.html":[2,0,6,0,0,2],
+"d5/db2/dialog__hudpanel__notification_8qc.html":[2,0,5,4,60],
+"d5/db2/dialog__hudpanel__notification_8qc.html#ab31627f8b7c7a82a9d458011f2184631":[2,0,5,4,60,0],
+"d5/db2/dialog__hudpanel__notification_8qc_source.html":[2,0,5,4,60],
+"d5/db3/common_2mutators_2mutator_2dynamic__handicap_2__mod_8inc.html":[2,0,1,10,0,9,0],
 "d5/db3/common_2mutators_2mutator_2dynamic__handicap_2__mod_8inc_source.html":[2,0,1,10,0,9,0],
 "d5/db4/halflife_8qh.html":[2,0,6,2,3],
 "d5/db4/halflife_8qh_source.html":[2,0,6,2,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX50 =
 "d5/df9/menu__cmd_8qh_source.html":[2,0,5,1,3],
 "d5/dfa/common_2weapons_2weapon_2__mod_8inc.html":[2,0,1,16,0,0],
 "d5/dfa/common_2weapons_2weapon_2__mod_8inc_source.html":[2,0,1,16,0,0],
-"d5/dfa/timer_8qc.html":[2,0,0,1,0,36],
-"d5/dfa/timer_8qc.html#a83d664db53940b5493a6233fbc021db3":[2,0,0,1,0,36,0],
-"d5/dfa/timer_8qc_source.html":[2,0,0,1,0,36],
-"d5/dff/ent__cs_8qc.html":[2,0,1,32],
-"d5/dff/ent__cs_8qc.html#a010b8f628edd49273a243ca7f5b7c734":[2,0,1,32,0],
-"d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3":[2,0,1,32,20],
-"d5/dff/ent__cs_8qc.html#a12f6852eb93da8c1fba032b751d6ded6":[2,0,1,32,13]
+"d5/dfa/timer_8qc.html":[2,0,0,1,0,36]
 };

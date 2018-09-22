@@ -1383,6 +1383,8 @@ var searchData=
   ['autocvar_5fhud_5fpanel_5fscoreboard_5faccuracy',['autocvar_hud_panel_scoreboard_accuracy',['../d3/d07/scoreboard_8qc.html#ac721d0e85393f0f95b69b7c96c479476',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5faccuracy_5fdoublerows',['autocvar_hud_panel_scoreboard_accuracy_doublerows',['../d3/d07/scoreboard_8qc.html#ad2f206530a1388c8395633fca6a11ded',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5faccuracy_5fnocolors',['autocvar_hud_panel_scoreboard_accuracy_nocolors',['../d3/d07/scoreboard_8qc.html#a45d874b3d772e7e1c4a191388d4d24d8',1,'scoreboard.qc']]],
+  ['autocvar_5fhud_5fpanel_5fscoreboard_5faccuracy_5fshowdelay',['autocvar_hud_panel_scoreboard_accuracy_showdelay',['../d3/d07/scoreboard_8qc.html#af1e5c4c30c1ce8719600541972797946',1,'scoreboard.qc']]],
+  ['autocvar_5fhud_5fpanel_5fscoreboard_5faccuracy_5fshowdelay_5fminpos',['autocvar_hud_panel_scoreboard_accuracy_showdelay_minpos',['../d3/d07/scoreboard_8qc.html#ac9c66c5f7e95ba92695cdca89c4dcb0b',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5fbg',['autocvar_hud_panel_scoreboard_bg',['../d3/d07/scoreboard_8qc.html#a9dffc17391e00ba52244d6a92e5827f6',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5fbg_5falpha',['autocvar_hud_panel_scoreboard_bg_alpha',['../d3/d07/scoreboard_8qc.html#ad56ce64509d8d021514b1ce2767a4937',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5fbg_5fborder',['autocvar_hud_panel_scoreboard_bg_border',['../d3/d07/scoreboard_8qc.html#abe965d1698806eacb0ba0c5a61c969c0',1,'scoreboard.qc']]],

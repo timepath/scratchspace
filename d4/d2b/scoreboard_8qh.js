@@ -7,6 +7,7 @@ var scoreboard_8qh =
     [ "Scoreboard_UpdatePlayerTeams", "d4/d2b/scoreboard_8qh.html#a786ae1643fa32d62926c79d548105082", null ],
     [ "Scoreboard_UpdateTeamPos", "d4/d2b/scoreboard_8qh.html#acbbc03b93a5e6007c8655e4bc66a1a38", null ],
     [ "Scoreboard_WouldDraw", "d4/d2b/scoreboard_8qh.html#a18f2a8b645ab4cc7fc09a25e3a932757", null ],
+    [ "scoreboard_acc_fade_alpha", "d4/d2b/scoreboard_8qh.html#a281e75379427b350104ddcd9c19cdfa1", null ],
     [ "scoreboard_active", "d4/d2b/scoreboard_8qh.html#a9e07478dc906c451cdaf11df6a458786", null ],
     [ "scoreboard_fade_alpha", "d4/d2b/scoreboard_8qh.html#aa6b8f97cefad819218cd7aef293559ea", null ]
 ];

@@ -5,6 +5,7 @@ var scoreboard_8qc =
     [ "Cmd_Scoreboard_SetFields", "d3/d07/scoreboard_8qc.html#a7375d6776cc772c7aa6a43c7f66ea3d5", null ],
     [ "MapStats_DrawKeyValue", "d3/d07/scoreboard_8qc.html#a8dbf960bcfd2e2e9d94d08d4ed297aaf", null ],
     [ "Scoreboard_AccuracyStats_Draw", "d3/d07/scoreboard_8qc.html#ab68d3f55b27c12a82760019c80aef931", null ],
+    [ "Scoreboard_AccuracyStats_WouldDraw", "d3/d07/scoreboard_8qc.html#aebd9c21a6d8e2d27566af62418f5a9ab", null ],
     [ "Scoreboard_ComparePlayerScores", "d3/d07/scoreboard_8qc.html#a7396887b795263e2550e0336c507d697", null ],
     [ "Scoreboard_CompareScore", "d3/d07/scoreboard_8qc.html#a594023b6dfdb6c060e92e6d558f1269b", null ],
     [ "Scoreboard_CompareTeamScores", "d3/d07/scoreboard_8qc.html#a945e9931205171a7c7ee94146625c6e1", null ],
@@ -29,6 +30,8 @@ var scoreboard_8qc =
     [ "autocvar_hud_panel_scoreboard_accuracy", "d3/d07/scoreboard_8qc.html#ac721d0e85393f0f95b69b7c96c479476", null ],
     [ "autocvar_hud_panel_scoreboard_accuracy_doublerows", "d3/d07/scoreboard_8qc.html#ad2f206530a1388c8395633fca6a11ded", null ],
     [ "autocvar_hud_panel_scoreboard_accuracy_nocolors", "d3/d07/scoreboard_8qc.html#a45d874b3d772e7e1c4a191388d4d24d8", null ],
+    [ "autocvar_hud_panel_scoreboard_accuracy_showdelay", "d3/d07/scoreboard_8qc.html#af1e5c4c30c1ce8719600541972797946", null ],
+    [ "autocvar_hud_panel_scoreboard_accuracy_showdelay_minpos", "d3/d07/scoreboard_8qc.html#ac9c66c5f7e95ba92695cdca89c4dcb0b", null ],
     [ "autocvar_hud_panel_scoreboard_bg", "d3/d07/scoreboard_8qc.html#a9dffc17391e00ba52244d6a92e5827f6", null ],
     [ "autocvar_hud_panel_scoreboard_bg_alpha", "d3/d07/scoreboard_8qc.html#ad56ce64509d8d021514b1ce2767a4937", null ],
     [ "autocvar_hud_panel_scoreboard_bg_border", "d3/d07/scoreboard_8qc.html#abe965d1698806eacb0ba0c5a61c969c0", null ],
@@ -57,6 +60,7 @@ var scoreboard_8qc =
     [ "autocvar_hud_panel_scoreboard_table_highlight_alpha", "d3/d07/scoreboard_8qc.html#a74115e0ab563be72aa55c1eb17821b42", null ],
     [ "autocvar_hud_panel_scoreboard_table_highlight_alpha_self", "d3/d07/scoreboard_8qc.html#aaf870062442b80e096e897517f9b9d5b", null ],
     [ "average_accuracy", "d3/d07/scoreboard_8qc.html#aaa5eb41e22d77cd3026131224c82308b", null ],
+    [ "have_weapon_stats", "d3/d07/scoreboard_8qc.html#a313e3c28505a0db78e74b5d12e370a4c", null ],
     [ "hud_fontsize_str", "d3/d07/scoreboard_8qc.html#ac127f6ed3538bb0ccfa2d65f6b0dbeca", null ],
     [ "max_namesize", "d3/d07/scoreboard_8qc.html#a3c8a9aed142caf1f193e74609c601961", null ],
     [ "MAX_SBT_FIELDS", "d3/d07/scoreboard_8qc.html#a9bf722ae68431773c4bde7eebad02446", null ],
@@ -79,5 +83,6 @@ var scoreboard_8qc =
     [ "sbt_highlight", "d3/d07/scoreboard_8qc.html#aeb5b8d7517335ac69d17ab2814ddb793", null ],
     [ "sbt_highlight_alpha", "d3/d07/scoreboard_8qc.html#a94ddd037ffb67797e205f1daf4e394d9", null ],
     [ "sbt_highlight_alpha_self", "d3/d07/scoreboard_8qc.html#a1ef885e2eef24ceb79a125ac81b8fef0", null ],
-    [ "sbt_num_fields", "d3/d07/scoreboard_8qc.html#a1d5dfa661227f35bf953ae3740062648", null ]
+    [ "sbt_num_fields", "d3/d07/scoreboard_8qc.html#a1d5dfa661227f35bf953ae3740062648", null ],
+    [ "scoreboard_time", "d3/d07/scoreboard_8qc.html#a2dd15cccb6df3379298c9bb9ceafdb1b", null ]
 ];

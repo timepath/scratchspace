@@ -27,6 +27,7 @@ var searchData=
   ['have_5fs3tc',['have_s3tc',['../d2/dcb/classXonoticPicmipSlider.html#ab1d7fb62f7e6c638ebad21f79aad0178',1,'XonoticPicmipSlider']]],
   ['have_5fteam_5fspawns',['have_team_spawns',['../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3',1,'defs.qh']]],
   ['have_5fteam_5fspawns_5fforteams',['have_team_spawns_forteams',['../d5/d26/server_2defs_8qh.html#a5f869a37a426248cd642f64144854d20',1,'defs.qh']]],
+  ['have_5fweapon_5fstats',['have_weapon_stats',['../d3/d07/scoreboard_8qc.html#a313e3c28505a0db78e74b5d12e370a4c',1,'scoreboard.qc']]],
   ['havocbot_2eqc',['havocbot.qc',['../d2/de9/havocbot_8qc.html',1,'']]],
   ['havocbot_2eqh',['havocbot.qh',['../d8/d39/havocbot_8qh.html',1,'']]],
   ['havocbot_5fai',['havocbot_ai',['../d2/de9/havocbot_8qc.html#ade0b4e09f77eaadd022af3ee44c6a3fc',1,'havocbot_ai(entity this):&#160;havocbot.qc'],['../d8/d39/havocbot_8qh.html#ade0b4e09f77eaadd022af3ee44c6a3fc',1,'havocbot_ai(entity this):&#160;havocbot.qc']]],

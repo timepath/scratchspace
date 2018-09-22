@@ -1,5 +1,11 @@
 var NAVTREEINDEX49 =
 {
+"d5/d95/classXonoticDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,174,71],
+"d5/d95/classXonoticDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,174,75],
+"d5/d95/classXonoticDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,174,63],
+"d5/d95/classXonoticDialog.html#aa159f566ac6fbcac38235794af37f876":[1,0,174,22],
+"d5/d95/classXonoticDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,174,16],
+"d5/d95/classXonoticDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,174,9],
 "d5/d95/classXonoticDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,174,34],
 "d5/d95/classXonoticDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,174,5],
 "d5/d95/classXonoticDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,174,87],
@@ -243,11 +249,5 @@ var NAVTREEINDEX49 =
 "d5/db0/teleport_8qc.html":[2,0,1,6,3,44],
 "d5/db0/teleport_8qc.html#a03f34562010302b43db73a920b807d9e":[2,0,1,6,3,44,0],
 "d5/db0/teleport_8qc.html#a92ff553068677feebff8a10a9acef5f2":[2,0,1,6,3,44,1],
-"d5/db0/teleport_8qc_source.html":[2,0,1,6,3,44],
-"d5/db1/server_2bot_2default_2__mod_8qh.html":[2,0,6,0,0,2],
-"d5/db1/server_2bot_2default_2__mod_8qh_source.html":[2,0,6,0,0,2],
-"d5/db2/dialog__hudpanel__notification_8qc.html":[2,0,5,4,60],
-"d5/db2/dialog__hudpanel__notification_8qc.html#ab31627f8b7c7a82a9d458011f2184631":[2,0,5,4,60,0],
-"d5/db2/dialog__hudpanel__notification_8qc_source.html":[2,0,5,4,60],
-"d5/db3/common_2mutators_2mutator_2dynamic__handicap_2__mod_8inc.html":[2,0,1,10,0,9,0]
+"d5/db0/teleport_8qc_source.html":[2,0,1,6,3,44]
 };

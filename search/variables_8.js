@@ -11,6 +11,7 @@ var searchData=
   ['have_5fs3tc',['have_s3tc',['../d2/dcb/classXonoticPicmipSlider.html#ab1d7fb62f7e6c638ebad21f79aad0178',1,'XonoticPicmipSlider']]],
   ['have_5fteam_5fspawns',['have_team_spawns',['../d5/d26/server_2defs_8qh.html#a5594c59ad277a5bde42f3670de5077b3',1,'defs.qh']]],
   ['have_5fteam_5fspawns_5fforteams',['have_team_spawns_forteams',['../d5/d26/server_2defs_8qh.html#a5f869a37a426248cd642f64144854d20',1,'defs.qh']]],
+  ['have_5fweapon_5fstats',['have_weapon_stats',['../d3/d07/scoreboard_8qc.html#a313e3c28505a0db78e74b5d12e370a4c',1,'scoreboard.qc']]],
   ['havocbot_5fast_5frole_5fdefense',['HAVOCBOT_AST_ROLE_DEFENSE',['../d2/ddd/sv__assault_8qh.html#a7c876617d922cd16d5dab82fe6fce4e3',1,'sv_assault.qh']]],
   ['havocbot_5fast_5frole_5fnone',['HAVOCBOT_AST_ROLE_NONE',['../d2/ddd/sv__assault_8qh.html#af8389fdc85e65f8ba4b3d508404af1b1',1,'sv_assault.qh']]],
   ['havocbot_5fast_5frole_5foffense',['HAVOCBOT_AST_ROLE_OFFENSE',['../d2/ddd/sv__assault_8qh.html#a6c1be8aa70a07ec6b91cfb1050ddcbc8',1,'sv_assault.qh']]],
