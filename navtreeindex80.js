@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"d8/de2/menudefs_8qc.html#aee13e6dcbefa1d48bb865efd3cbae955":[2,0,2,0,3,68],
 "d8/de2/menudefs_8qc.html#af05f0326332455c8573651d51dd07f55":[2,0,2,0,3,221],
 "d8/de2/menudefs_8qc.html#af1347920710ac1800c21a951b23629e4":[2,0,2,0,3,254],
 "d8/de2/menudefs_8qc.html#af166cf6e4c741ca9d03859141e0e8bc3":[2,0,2,0,3,238],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "d9/d06/hagar_8qc_source.html":[2,0,1,16,0,14],
 "d9/d08/client_2defs_8qh.html":[2,0,0,14],
 "d9/d08/client_2defs_8qh.html#a01abf7b3e592cec08aab4327a3d18cc3":[2,0,0,14,27],
-"d9/d08/client_2defs_8qh.html#a01b9d63c00330be2acbedfa4d4694e58":[2,0,0,14,9],
-"d9/d08/client_2defs_8qh.html#a02ef20f4a77ad7b4fe4f5bb97c2e30a6":[2,0,0,14,74]
+"d9/d08/client_2defs_8qh.html#a01b9d63c00330be2acbedfa4d4694e58":[2,0,0,14,9]
 };

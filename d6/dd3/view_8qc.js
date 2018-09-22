@@ -85,6 +85,7 @@ var view_8qc =
     [ "liquidcolor_prev", "d6/dd3/view_8qc.html#a79c714e8ff85f4908b51826be9513843", null ],
     [ "MAX_SPECIALCOMMAND", "d6/dd3/view_8qc.html#a17baea3e1c027b4a6e9101faa322a0d0", null ],
     [ "MAX_TIME_DIFF", "d6/dd3/view_8qc.html#a3b2570f7e3d94fb176257491a9fe220a", null ],
+    [ "minigame_wasactive", "d6/dd3/view_8qc.html#a10e52e12446eece1c6dffce170bfec85", null ],
     [ "mouse_angles", "d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920", null ],
     [ "myhealth", "d6/dd3/view_8qc.html#a996094f3250a1ecb84c42c874dcf87e7", null ],
     [ "myhealth_flash", "d6/dd3/view_8qc.html#a56545b485dae595125a6e1ad12852155", null ],

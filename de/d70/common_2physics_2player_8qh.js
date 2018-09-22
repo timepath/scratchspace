@@ -39,6 +39,7 @@ var common_2physics_2player_8qh =
     [ "PHYS_INPUT_BUTTON_JUMP", "de/d70/common_2physics_2player_8qh.html#a3fe11e0eaa42c3b7557cd166b338ba6f", null ],
     [ "PHYS_INPUT_BUTTON_LEFT", "de/d70/common_2physics_2player_8qh.html#a100cd2ee90ef7069bdb2aaaa6e2b7812", null ],
     [ "PHYS_INPUT_BUTTON_MASK", "de/d70/common_2physics_2player_8qh.html#afc9a92c1d5699587f22a6c615cffd06c", null ],
+    [ "PHYS_INPUT_BUTTON_MINIGAME", "de/d70/common_2physics_2player_8qh.html#aba091e4078ed4669293a8a74d07f3869", null ],
     [ "PHYS_INPUT_BUTTON_PRYDON", "de/d70/common_2physics_2player_8qh.html#af273923c03e2f86ebc460030e090745e", null ],
     [ "PHYS_INPUT_BUTTON_RIGHT", "de/d70/common_2physics_2player_8qh.html#a885b83cd97fa91673fc61310f4bb48cf", null ],
     [ "PHYS_INPUT_BUTTON_USE", "de/d70/common_2physics_2player_8qh.html#ae21534eb0b8aa3bacce3e0d1e76a986e", null ],

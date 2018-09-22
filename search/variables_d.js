@@ -249,6 +249,7 @@ var searchData=
   ['minigame_5fplayerslot',['minigame_playerslot',['../de/d3d/cl__minigames_8qh.html#ae6f3121e64bf13d1f759fdcea23cf6d3',1,'cl_minigames.qh']]],
   ['minigame_5fself',['minigame_self',['../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b',1,'cl_minigames.qh']]],
   ['minigame_5fsessions',['minigame_sessions',['../d3/df9/sv__minigames_8qh.html#a524d14ba3717c12b77821c1fd959d8a0',1,'sv_minigames.qh']]],
+  ['minigame_5fwasactive',['minigame_wasactive',['../d6/dd3/view_8qc.html#a10e52e12446eece1c6dffce170bfec85',1,'view.qc']]],
   ['minimapname',['minimapname',['../d0/d2a/client_2main_8qh.html#ac53aaf82ef2963a8445fa8f1f1fe4057',1,'main.qh']]],
   ['mins',['mins',['../d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987',1,'mins():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987',1,'mins():&#160;progsdefs.qc']]],
   ['misc_5fbulletcounter',['misc_bulletcounter',['../d5/d26/server_2defs_8qh.html#ad074b805790481ed3367d5308ad8ae38',1,'defs.qh']]],
