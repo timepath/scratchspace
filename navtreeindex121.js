@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"dd/db3/classXonoticQuitDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,231,14],
+"dd/db3/classXonoticQuitDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,231,18],
 "dd/db3/classXonoticQuitDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,231,87],
 "dd/db3/classXonoticQuitDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,231,79],
 "dd/db3/classXonoticQuitDialog.html#a80127f430d0a900e43e8388449582075":[1,0,231,76],
@@ -118,12 +120,12 @@ var NAVTREEINDEX121 =
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,15,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,15,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,15,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,0],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,1],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,0],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,15,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,15,12],
-"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,2],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,4],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,5],
 "dd/dd5/sv__model_8qc_source.html":[2,0,4,0,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "dd/dee/functional_8qh.html#a460896f19d716ae3a817996c80bbb2a9":[2,0,4,21,7],
 "dd/dee/functional_8qh.html#a4eb8c3e185523b1673a568bd37e83abf":[2,0,4,21,12],
 "dd/dee/functional_8qh.html#a6a99b24bffb3c6152edef19d255ae714":[2,0,4,21,23],
-"dd/dee/functional_8qh.html#a76c9c74237795e07741b978e4338b77c":[2,0,4,21,24],
-"dd/dee/functional_8qh.html#a7c44e6c58755e4f8c76c53437c77e5e3":[2,0,4,21,3],
-"dd/dee/functional_8qh.html#a89a8a00622d0fcb0fbaab651676d2f9f":[2,0,4,21,16]
+"dd/dee/functional_8qh.html#a76c9c74237795e07741b978e4338b77c":[2,0,4,21,24]
 };

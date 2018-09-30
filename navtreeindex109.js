@@ -1,5 +1,7 @@
 var NAVTREEINDEX109 =
 {
+"dc/d23/classVehicle.html#af1e7a9d937de540345fea6c3f4058b0f":[1,0,142,26],
+"dc/d23/classVehicle.html#af6f42dcff19b7fb5b76462a7d5848b97":[1,0,142,9],
 "dc/d23/classVehicle.html#af7f5447512b9c7b0f697dd84c35b1040":[1,0,142,12],
 "dc/d23/classVehicle.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,142,0],
 "dc/d23/dialog__settings_8qh.html":[2,0,5,4,119],
@@ -247,7 +249,5 @@ var NAVTREEINDEX109 =
 "dc/d3d/csqcmodel__hooks_8qc.html#a719f872049af163a9cb80cb7c35f632c":[2,0,0,12,33],
 "dc/d3d/csqcmodel__hooks_8qc.html#a739966029ac9ca745964423a3965367e":[2,0,0,12,14],
 "dc/d3d/csqcmodel__hooks_8qc.html#a74b93819d767c643fc8a0676c7df5c6c":[2,0,0,12,13],
-"dc/d3d/csqcmodel__hooks_8qc.html#a74e062d7d339e97ed5ea2f4e81665663":[2,0,0,12,44],
-"dc/d3d/csqcmodel__hooks_8qc.html#a7503ea49fcdc9d45df61562eb8987e60":[2,0,0,12,43],
-"dc/d3d/csqcmodel__hooks_8qc.html#a7a0bb38422aa7b8c500328523d39a9cb":[2,0,0,12,55]
+"dc/d3d/csqcmodel__hooks_8qc.html#a74e062d7d339e97ed5ea2f4e81665663":[2,0,0,12,44]
 };
