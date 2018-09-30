@@ -8,6 +8,7 @@ var cmd_8qc =
     [ "ClientCommand_autoswitch", "d8/d1d/cmd_8qc.html#acbddbb2b904974448dd7fb4a8a2adca1", null ],
     [ "ClientCommand_clientversion", "d8/d1d/cmd_8qc.html#ade788f51c3c1a4bf2599d97557ef038d", null ],
     [ "ClientCommand_join", "d8/d1d/cmd_8qc.html#a9a9a7d7625e31759190617120ba34fe1", null ],
+    [ "ClientCommand_kill", "d8/d1d/cmd_8qc.html#a3231ee18f3f3e692cd5e8be50e12c505", null ],
     [ "ClientCommand_macro_command", "d8/d1d/cmd_8qc.html#aa31cd4a6309426777765e7cb944dead0", null ],
     [ "ClientCommand_macro_help", "d8/d1d/cmd_8qc.html#a65afa177bc34e899ac2ea54945c1ee86", null ],
     [ "ClientCommand_macro_usage", "d8/d1d/cmd_8qc.html#a2f573bb68d8a885ab67871d5da4ef076", null ],

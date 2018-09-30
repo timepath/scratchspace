@@ -302,13 +302,11 @@ $(document).ready(function(){initNavTree('dc/d55/clientkill_8qc_source.html','..
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="comment">// Called when a client types &#39;kill&#39; in the console</span></div>
 <div class="line"><a name="l00196"></a><span class="lineno"><a class="line" href="../../d2/d4d/clientkill_8qh.html#ad4e6ef235cc1911ad7654ecd808ff4c1">  196</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/d55/clientkill_8qc.html#ad4e6ef235cc1911ad7654ecd808ff4c1">ClientKill</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;{</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="comment">// TODO: once .health is removed, will need to check it here for the &quot;already dead&quot; message!</span></div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordflow">if</span> (game_stopped || this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a4addf48c215463bd5d149d190b4be749">player_blocked</a> || STAT(FROZEN, <span class="keyword">this</span>))</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <a class="code" href="../../dc/d55/clientkill_8qc.html#a97b74d9774c1336d930dd5a88961726e">ClientKill_TeamChange</a>(<span class="keyword">this</span>, 0);</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordflow">if</span> (game_stopped || this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a4addf48c215463bd5d149d190b4be749">player_blocked</a> || STAT(FROZEN, <span class="keyword">this</span>))</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <a class="code" href="../../dc/d55/clientkill_8qc.html#a97b74d9774c1336d930dd5a88961726e">ClientKill_TeamChange</a>(<span class="keyword">this</span>, 0);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;}</div>
 <div class="ttc" id="csqcmodel__settings_8qh_html_a4d51648d080806031196f806ec59c803"><div class="ttname"><a href="../../d1/d20/csqcmodel__settings_8qh.html#a4d51648d080806031196f806ec59c803">CSQCMODEL_EF_RESPAWNGHOST</a></div><div class="ttdeci">#define CSQCMODEL_EF_RESPAWNGHOST</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d20/csqcmodel__settings_8qh_source.html#l00088">csqcmodel_settings.qh:88</a></div></div>
 <div class="ttc" id="clientkill_8qc_html_a97b74d9774c1336d930dd5a88961726e"><div class="ttname"><a href="../../dc/d55/clientkill_8qc.html#a97b74d9774c1336d930dd5a88961726e">ClientKill_TeamChange</a></div><div class="ttdeci">void ClientKill_TeamChange(entity this, float targetteam)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d55/clientkill_8qc_source.html#l00092">clientkill.qc:92</a></div></div>
 <div class="ttc" id="notifications_2all_8qh_html_ac486a7d1f513b54ae53f7fd9c21c0f3f"><div class="ttname"><a href="../../dc/d8f/notifications_2all_8qh.html#ac486a7d1f513b54ae53f7fd9c21c0f3f">APP_TEAM_NUM</a></div><div class="ttdeci">#define APP_TEAM_NUM(num, prefix)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d8f/notifications_2all_8qh_source.html#l00084">all.qh:84</a></div></div>
@@ -374,7 +372,7 @@ $(document).ready(function(){initNavTree('dc/d55/clientkill_8qc_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/d55/clientkill_8qc.html">clientkill.qc</a></li>
-    <li class="footer">Generated on Sun Sep 30 2018 17:47:44 for Xonotic by
+    <li class="footer">Generated on Sun Sep 30 2018 18:11:11 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

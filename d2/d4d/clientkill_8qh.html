@@ -160,15 +160,13 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00092">ClientKill_TeamChange()</a>, and <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00360">player_blocked</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00092">ClientKill_TeamChange()</a>, and <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00547">IMPULSE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00250">ClientCommand_kill()</a>, <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00092">ClientKill_TeamChange()</a>, and <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00547">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;{</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="comment">// TODO: once .health is removed, will need to check it here for the &quot;already dead&quot; message!</span></div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordflow">if</span> (game_stopped || this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a4addf48c215463bd5d149d190b4be749">player_blocked</a> || STAT(FROZEN, <span class="keyword">this</span>))</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <a class="code" href="../../dc/d55/clientkill_8qc.html#a97b74d9774c1336d930dd5a88961726e">ClientKill_TeamChange</a>(<span class="keyword">this</span>, 0);</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordflow">if</span> (game_stopped || this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a4addf48c215463bd5d149d190b4be749">player_blocked</a> || STAT(FROZEN, <span class="keyword">this</span>))</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <a class="code" href="../../dc/d55/clientkill_8qc.html#a97b74d9774c1336d930dd5a88961726e">ClientKill_TeamChange</a>(<span class="keyword">this</span>, 0);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;}</div>
 <div class="ttc" id="clientkill_8qc_html_a97b74d9774c1336d930dd5a88961726e"><div class="ttname"><a href="../../dc/d55/clientkill_8qc.html#a97b74d9774c1336d930dd5a88961726e">ClientKill_TeamChange</a></div><div class="ttdeci">void ClientKill_TeamChange(entity this, float targetteam)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d55/clientkill_8qc_source.html#l00092">clientkill.qc:92</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a4addf48c215463bd5d149d190b4be749"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a4addf48c215463bd5d149d190b4be749">player_blocked</a></div><div class="ttdeci">bool player_blocked</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00360">defs.qh:360</a></div></div>
 </div><!-- fragment -->
@@ -267,7 +265,7 @@ Variables</h2></td></tr>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d4d/clientkill_8qh_a85c92f8d62dbd468b7fd55f41b7eda21_icgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d4d/clientkill_8qh_a85c92f8d62dbd468b7fd55f41b7eda21_icgraph.svg" width="100%" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -437,7 +435,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00069">autocvar_g_balance_kill_antispam</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00068">autocvar_g_balance_kill_delay</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil()</a>, <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00196">ClientKill()</a>, <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00091">clientkill_nexttime</a>, <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00032">ClientKill_Now()</a>, <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00090">clientkilltime</a>, <a class="el" href="../../d1/d20/csqcmodel__settings_8qh_source.html#l00088">CSQCMODEL_EF_RESPAWNGHOST</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00411">g_clones</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00167">IL_EACH</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d2/d4d/clientkill_8qh_source.html#l00003">killindicator</a>, <a class="el" href="../../d2/d4d/clientkill_8qh_source.html#l00004">killindicator_teamchange</a>, <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00059">KillIndicator_Think()</a>, <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00089">lip</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00140">MUTATOR_CALLHOOK</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00103">ClientCommand_clientversion()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00381">ClientCommand_selectteam()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00544">ClientCommand_spectate()</a>, and <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00196">ClientKill()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00103">ClientCommand_clientversion()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00411">ClientCommand_selectteam()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00574">ClientCommand_spectate()</a>, and <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00196">ClientKill()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">if</span> (game_stopped)</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span>;</div>
@@ -572,7 +570,7 @@ Variables</h2></td></tr>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d4d/clientkill_8qh_a97b74d9774c1336d930dd5a88961726e_icgraph.svg" width="547" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d4d/clientkill_8qh_a97b74d9774c1336d930dd5a88961726e_icgraph.svg" width="603" height="215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -652,7 +650,7 @@ Variables</h2></td></tr>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d4d/clientkill_8qh_a07ed282ad92406a801203975b2c36ad4_icgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d4d/clientkill_8qh_a07ed282ad92406a801203975b2c36ad4_icgraph.svg" width="100%" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -698,7 +696,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d2/d4d/clientkill_8qh.html">clientkill.qh</a></li>
-    <li class="footer">Generated on Sun Sep 30 2018 17:47:58 for Xonotic by
+    <li class="footer">Generated on Sun Sep 30 2018 18:11:24 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
