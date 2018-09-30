@@ -6,6 +6,7 @@ var dir_2c8f0fc99d1cf2e0f6564f3405184140 =
     [ "cts", "dir_e8d65224de9f0ea7401d27c4d8eb57f5.html", "dir_e8d65224de9f0ea7401d27c4d8eb57f5" ],
     [ "deathmatch", "dir_3f382526e2313415741373284303c055.html", "dir_3f382526e2313415741373284303c055" ],
     [ "domination", "dir_d7212405ef34f4066399d2cf760ec21f.html", "dir_d7212405ef34f4066399d2cf760ec21f" ],
+    [ "duel", "dir_996aa2695cfb7849f651d9f8092e8019.html", "dir_996aa2695cfb7849f651d9f8092e8019" ],
     [ "freezetag", "dir_e9bc208092084a9b02e28661ad42f174.html", "dir_e9bc208092084a9b02e28661ad42f174" ],
     [ "invasion", "dir_fba1453116866a6c9c08a8494156e5de.html", "dir_fba1453116866a6c9c08a8494156e5de" ],
     [ "keepaway", "dir_d729e1ab68c1ac74eaa51e91eeaa4e9c.html", "dir_d729e1ab68c1ac74eaa51e91eeaa4e9c" ],

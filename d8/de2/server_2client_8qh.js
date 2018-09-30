@@ -15,6 +15,7 @@ var server_2client_8qh =
     [ "DebugPrintToChatAll", "d8/de2/server_2client_8qh.html#acd6554a25e5a6c81d0ebe4eea07ecb07", null ],
     [ "DebugPrintToChatTeam", "d8/de2/server_2client_8qh.html#a6d096a58438e31209ebb36b2064102d4", null ],
     [ "FixPlayermodel", "d8/de2/server_2client_8qh.html#ad9d369ba8098cf9cc8ded4f0b4974c76", null ],
+    [ "GetPlayerLimit", "d8/de2/server_2client_8qh.html#a3e717ff42f4aecad0eaade0b3e32f822", null ],
     [ "Join", "d8/de2/server_2client_8qh.html#a77ba4c685ebf7e80884df5fb16f6e587", null ],
     [ "joinAllowed", "d8/de2/server_2client_8qh.html#a5f32182c9463bf8c77afb1502ade553c", null ],
     [ "play_countdown", "d8/de2/server_2client_8qh.html#a06fa68229b5a8bf0f5931e23bc3612b6", null ],

@@ -250,6 +250,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a0df2684a8ff65547eca9cec2701e1eec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0df2684a8ff65547eca9cec2701e1eec">EV_GetModelParams</a>(i, o)</td></tr>
 <tr class="memdesc:a0df2684a8ff65547eca9cec2701e1eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when getting the global parameters for a model.  <a href="#a0df2684a8ff65547eca9cec2701e1eec">More...</a><br/></td></tr>
 <tr class="separator:a0df2684a8ff65547eca9cec2701e1eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa313ef7f0aaa504a1b59b97dc84f6bb7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aa313ef7f0aaa504a1b59b97dc84f6bb7">EV_GetPlayerLimit</a>(i, o)</td></tr>
+<tr class="memdesc:aa313ef7f0aaa504a1b59b97dc84f6bb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a player is trying to join, argument is the number of players allowed to join the match.  <a href="#aa313ef7f0aaa504a1b59b97dc84f6bb7">More...</a><br/></td></tr>
+<tr class="separator:aa313ef7f0aaa504a1b59b97dc84f6bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0caac66f1b7f34eca6add32d638ab7a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad0caac66f1b7f34eca6add32d638ab7a">EV_GetPlayerStatus</a>(i, o)&#160;&#160;&#160;/** player */    i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="separator:ad0caac66f1b7f34eca6add32d638ab7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7684d4b9703ec7e8c02d70e8040c2947"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a7684d4b9703ec7e8c02d70e8040c2947">EV_GetPressedKeys</a>(i, o)&#160;&#160;&#160;/** player */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
@@ -835,8 +838,10 @@ Functions</h2></td></tr>
 <tr class="separator:a251408c4c4888bc5b34ce36c8ff72f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd9ae456e69800d216f8eb97ceee5cc8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#acd9ae456e69800d216f8eb97ceee5cc8">MUTATOR_HOOKABLE</a> (<a class="el" href="../../dd/de4/g__damage_8qh.html#ac2b759987d6cb6a3662f62189c460b6c">Freeze</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abcc6140b02dafca216dc90916a8b04c0">EV_Freeze</a>)</td></tr>
 <tr class="separator:acd9ae456e69800d216f8eb97ceee5cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bf9d94161287f35b060055189b53fe3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a3bf9d94161287f35b060055189b53fe3">MUTATOR_HOOKABLE</a> (<a class="el" href="../../dd/de4/g__damage_8qh.html#a705ff21e2e789e10d1eeb3bd16f97c86">Unfreeze</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a28040098190f6586f1e14b03b911a64b">EV_Unfreeze</a>)</td></tr>
+<tr class="memitem:a3bf9d94161287f35b060055189b53fe3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a3bf9d94161287f35b060055189b53fe3">MUTATOR_HOOKABLE</a> (<a class="el" href="../../dd/de4/g__damage_8qh.html#acc99d1a4f941f72826f41d22d035dcee">Unfreeze</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a28040098190f6586f1e14b03b911a64b">EV_Unfreeze</a>)</td></tr>
 <tr class="separator:a3bf9d94161287f35b060055189b53fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f225a62b68f5c2c4a83ec51f69bb41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a56f225a62b68f5c2c4a83ec51f69bb41">MUTATOR_HOOKABLE</a> (<a class="el" href="../../d8/de2/server_2client_8qh.html#a3e717ff42f4aecad0eaade0b3e32f822">GetPlayerLimit</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aa313ef7f0aaa504a1b59b97dc84f6bb7">EV_GetPlayerLimit</a>)</td></tr>
+<tr class="separator:a56f225a62b68f5c2c4a83ec51f69bb41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -2160,6 +2165,38 @@ Variables</h2></td></tr>
 <p>Called when getting the global parameters for a model. </p>
 
 <p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00810">810</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa313ef7f0aaa504a1b59b97dc84f6bb7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_GetPlayerLimit</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">             i(<span class="keywordtype">int</span>, MUTATOR_ARGV_0_int) \</div>
+<div class="line">                                o(<span class="keywordtype">int</span>, MUTATOR_ARGV_0_int) \</div>
+</div><!-- fragment -->
+<p>Called when a player is trying to join, argument is the number of players allowed to join the match. </p>
+
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01210">1210</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -8965,13 +9002,39 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">MUTATOR_HOOKABLE </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/de4/g__damage_8qh.html#a705ff21e2e789e10d1eeb3bd16f97c86">Unfreeze</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/de4/g__damage_8qh.html#acc99d1a4f941f72826f41d22d035dcee">Unfreeze</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a28040098190f6586f1e14b03b911a64b">EV_Unfreeze</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a56f225a62b68f5c2c4a83ec51f69bb41"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/de2/server_2client_8qh.html#a3e717ff42f4aecad0eaade0b3e32f822">GetPlayerLimit</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aa313ef7f0aaa504a1b59b97dc84f6bb7">EV_GetPlayerLimit</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -8997,7 +9060,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00313">313</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00422">GetCvars()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00424">GetCvars()</a>.</p>
 
 </div>
 </div>
@@ -9013,7 +9076,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00314">314</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00422">GetCvars()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00424">GetCvars()</a>.</p>
 
 </div>
 </div>
@@ -9039,7 +9102,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Sat Sep 22 2018 22:04:28 for Xonotic by
+    <li class="footer">Generated on Sun Sep 30 2018 14:45:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

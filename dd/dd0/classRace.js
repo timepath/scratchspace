@@ -12,6 +12,7 @@ var classRace =
     [ "gametype_init", "dd/dd0/classRace.html#aef3a65f4987590d66b653b91180860ca", null ],
     [ "m_generate_mapinfo", "dd/dd0/classRace.html#a4145e386d4b4137697bc3c14d1f9ac3c", null ],
     [ "m_isAlwaysSupported", "dd/dd0/classRace.html#a7880c3511ceeabb277b860085f1073ee", null ],
+    [ "m_isForcedSupported", "dd/dd0/classRace.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "dd/dd0/classRace.html#a13397714cb41912d55bd54c4eddf76f5", null ],
     [ "m_parse_mapinfo", "dd/dd0/classRace.html#a4ca4c03add94dcfec615bc620cbd8cce", null ],
     [ "items", "dd/dd0/classRace.html#ab19cc492a58b50138d04d98c704e61c7", null ],

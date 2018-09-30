@@ -58,6 +58,7 @@ var server_2miscfunctions_8qc =
     [ "REPLICATE", "dc/dc6/server_2miscfunctions_8qc.html#a4a03fdabe8f7631607b1f22cae80cb60", null ],
     [ "REPLICATE", "dc/dc6/server_2miscfunctions_8qc.html#a2f81a9963527556cf9f1c12bace4245e", null ],
     [ "REPLICATE", "dc/dc6/server_2miscfunctions_8qc.html#a66be1bd498c66b540b076cd3c5c81d46", null ],
+    [ "REPLICATE", "dc/dc6/server_2miscfunctions_8qc.html#a4a142c534abf4696e89592975fe8bd95", null ],
     [ "SetMovetypeFollow", "dc/dc6/server_2miscfunctions_8qc.html#a0de4787aed1c8c80a23725b4708dfa75", null ],
     [ "SUB_NoImpactCheck", "dc/dc6/server_2miscfunctions_8qc.html#a91ea4b67745c35eca3b72b1c8c0fb8a6", null ],
     [ "trace_hits_box", "dc/dc6/server_2miscfunctions_8qc.html#ac0fb8d3651371f4916d29974d721fa47", null ],

@@ -12,6 +12,7 @@ var classInvasion =
     [ "gametype_init", "d2/d26/classInvasion.html#aef3a65f4987590d66b653b91180860ca", null ],
     [ "m_generate_mapinfo", "d2/d26/classInvasion.html#a408c0cd2467d1aeb2687a4a686f0c2cf", null ],
     [ "m_isAlwaysSupported", "d2/d26/classInvasion.html#a7880c3511ceeabb277b860085f1073ee", null ],
+    [ "m_isForcedSupported", "d2/d26/classInvasion.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "d2/d26/classInvasion.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "d2/d26/classInvasion.html#a31e39a092f4e1d7a09ba996bb208cd33", null ],
     [ "items", "d2/d26/classInvasion.html#ab19cc492a58b50138d04d98c704e61c7", null ],

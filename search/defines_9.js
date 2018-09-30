@@ -49,6 +49,7 @@ var searchData=
   ['is_5fplayer',['IS_PLAYER',['../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808',1,'utils.qh']]],
   ['is_5fpure',['is_pure',['../db/d0a/oo_8qh.html#a07aa0cef4764b55dd4dc31ea09c870ba',1,'oo.qh']]],
   ['is_5freal_5fclient',['IS_REAL_CLIENT',['../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d',1,'utils.qh']]],
+  ['is_5freviving',['IS_REVIVING',['../d3/d60/sv__freezetag_8qc.html#a7687bfee92a2d2d15758fd23e44d9300',1,'sv_freezetag.qc']]],
   ['is_5fspec',['IS_SPEC',['../db/d7a/utils_8qh.html#a267d55f1e2caab1f644733587acbc378',1,'utils.qh']]],
   ['is_5fstring',['is_string',['../d4/dfb/lib_2__all_8inc.html#a046921b096faba016150b5e82bda924f',1,'_all.inc']]],
   ['is_5fsvqc',['IS_SVQC',['../d4/dfb/lib_2__all_8inc.html#ae42a3c5efcb721e4c168c4b85ff8c1d9',1,'_all.inc']]],

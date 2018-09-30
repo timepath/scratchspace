@@ -12,6 +12,7 @@ var classTeamDeathmatch =
     [ "gametype_init", "d6/df8/classTeamDeathmatch.html#aef3a65f4987590d66b653b91180860ca", null ],
     [ "m_generate_mapinfo", "d6/df8/classTeamDeathmatch.html#a689c2a1afc56d93f77ebdebad6b168bf", null ],
     [ "m_isAlwaysSupported", "d6/df8/classTeamDeathmatch.html#aa73ef351412f677fbb3a8e30c495f34e", null ],
+    [ "m_isForcedSupported", "d6/df8/classTeamDeathmatch.html#a59bb5b93fbf9a06143bcc64b65d4c0f6", null ],
     [ "m_isTwoBaseMode", "d6/df8/classTeamDeathmatch.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "d6/df8/classTeamDeathmatch.html#a70e3413650e02e5936bfacca40904d26", null ],
     [ "m_setTeams", "d6/df8/classTeamDeathmatch.html#a5fffc4f52a5bc0abc31e336889718a89", null ],

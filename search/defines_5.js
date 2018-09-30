@@ -80,6 +80,7 @@ var searchData=
   ['ev_5ffusionreactor_5fvalidtarget',['EV_FusionReactor_ValidTarget',['../d6/ddd/server_2mutators_2events_8qh.html#aadf4821ac74bbbb9f93f51908b041a17',1,'events.qh']]],
   ['ev_5fgetcvars',['EV_GetCvars',['../d6/ddd/server_2mutators_2events_8qh.html#a4058887e62ba12bb36fb25b977b246bc',1,'events.qh']]],
   ['ev_5fgetmodelparams',['EV_GetModelParams',['../d8/d0e/client_2mutators_2events_8qh.html#a0df2684a8ff65547eca9cec2701e1eec',1,'EV_GetModelParams():&#160;events.qh'],['../d6/ddd/server_2mutators_2events_8qh.html#a0df2684a8ff65547eca9cec2701e1eec',1,'EV_GetModelParams():&#160;events.qh']]],
+  ['ev_5fgetplayerlimit',['EV_GetPlayerLimit',['../d6/ddd/server_2mutators_2events_8qh.html#aa313ef7f0aaa504a1b59b97dc84f6bb7',1,'events.qh']]],
   ['ev_5fgetplayerstatus',['EV_GetPlayerStatus',['../d6/ddd/server_2mutators_2events_8qh.html#ad0caac66f1b7f34eca6add32d638ab7a',1,'events.qh']]],
   ['ev_5fgetpressedkeys',['EV_GetPressedKeys',['../d6/ddd/server_2mutators_2events_8qh.html#a7684d4b9703ec7e8c02d70e8040c2947',1,'events.qh']]],
   ['ev_5fgetrecords',['EV_GetRecords',['../d6/ddd/server_2mutators_2events_8qh.html#a0523c1d6541bb2302acb5ee91beeae12',1,'events.qh']]],

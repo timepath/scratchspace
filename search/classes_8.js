@@ -5,6 +5,5 @@ var searchData=
   ['inputcontainer',['InputContainer',['../d8/da4/classInputContainer.html',1,'']]],
   ['intrusivelist',['IntrusiveList',['../d1/d74/classIntrusiveList.html',1,'']]],
   ['invasion',['Invasion',['../d2/d26/classInvasion.html',1,'']]],
-  ['inventory',['Inventory',['../dd/d7a/classInventory.html',1,'']]],
-  ['item',['Item',['../d0/dae/classItem.html',1,'']]]
+  ['inventory',['Inventory',['../dd/d7a/classInventory.html',1,'']]]
 ];

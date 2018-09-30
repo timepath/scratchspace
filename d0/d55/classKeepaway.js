@@ -12,6 +12,7 @@ var classKeepaway =
     [ "gametype_init", "d0/d55/classKeepaway.html#aef3a65f4987590d66b653b91180860ca", null ],
     [ "m_generate_mapinfo", "d0/d55/classKeepaway.html#a689c2a1afc56d93f77ebdebad6b168bf", null ],
     [ "m_isAlwaysSupported", "d0/d55/classKeepaway.html#a0052330236514ac452a3cb3cc049142c", null ],
+    [ "m_isForcedSupported", "d0/d55/classKeepaway.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "d0/d55/classKeepaway.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "d0/d55/classKeepaway.html#a87258d972a8b677bc431c763afd6e0fb", null ],
     [ "items", "d0/d55/classKeepaway.html#ab19cc492a58b50138d04d98c704e61c7", null ],

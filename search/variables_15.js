@@ -2,6 +2,9 @@ var searchData=
 [
   ['uid2name_5fdialog',['uid2name_dialog',['../d9/d08/client_2defs_8qh.html#aefcc49bccd6f180d68d17fd01a7fed66',1,'defs.qh']]],
   ['unaccounted_5fdamage',['unaccounted_damage',['../d6/dd3/view_8qc.html#a1de1360295996dacb39d141955580aac',1,'view.qc']]],
+  ['unstick_5ffine',['UNSTICK_FINE',['../d4/dd7/movetypes_8qh.html#a41b3403d019e66765768235463b4c610',1,'movetypes.qh']]],
+  ['unstick_5ffixed',['UNSTICK_FIXED',['../d4/dd7/movetypes_8qh.html#ad8c36f0339fc62ca37ab55728fc1d0db',1,'movetypes.qh']]],
+  ['unstick_5fstuck',['UNSTICK_STUCK',['../d4/dd7/movetypes_8qh.html#aa34c3cc0054de37e2ff93a91038fb147',1,'movetypes.qh']]],
   ['update_5fbinary',['UPDATE_BINARY',['../d6/d11/progsdefs_8qc.html#a311bb1da46769c6fa0c11d7b01626439',1,'progsdefs.qc']]],
   ['update_5fgeneral',['UPDATE_GENERAL',['../d6/d11/progsdefs_8qc.html#a63f72bb1bbec3ac3b2f89509acb5d2ca',1,'progsdefs.qc']]],
   ['update_5fstatic',['UPDATE_STATIC',['../d6/d11/progsdefs_8qc.html#abe09fbedb7ab79dbd0ddd4c9d5316f50',1,'progsdefs.qc']]],

@@ -192,7 +192,6 @@ var searchData=
   ['return_5ftimeout',['RETURN_TIMEOUT',['../d6/db0/sv__ctf_8qh.html#ae358f8b5429276b6ef20a5d4ef5dfce7',1,'sv_ctf.qh']]],
   ['revival_5ftime',['revival_time',['../d5/d26/server_2defs_8qh.html#a5320d5d56b57e2f1ffa6e137f496d2ef',1,'defs.qh']]],
   ['revive_5fspeed',['revive_speed',['../d5/d26/server_2defs_8qh.html#ac23b2cb7f13b7d1d2aa27fd6027237b0',1,'defs.qh']]],
-  ['reviving',['reviving',['../d7/d2d/sv__freezetag_8qh.html#ab965c3736b393741449e48e9a0ebd597',1,'sv_freezetag.qh']]],
   ['rf_5fadditive',['RF_ADDITIVE',['../d4/d92/csqc__constants_8qh.html#ade93702ee7ceb06f7b63d63452045f83',1,'RF_ADDITIVE():&#160;csqc_constants.qh'],['../d4/d0c/csprogsdefs_8qc.html#a314d61ba7c05fb18a76bcf0ef757f279',1,'RF_ADDITIVE():&#160;csprogsdefs.qc']]],
   ['rf_5fdepthhack',['RF_DEPTHHACK',['../d4/d92/csqc__constants_8qh.html#a81357977cfaaf4db3d8d0f83252b0c92',1,'RF_DEPTHHACK():&#160;csqc_constants.qh'],['../d4/d0c/csprogsdefs_8qc.html#aeff5b0ff596446c46cd2757e11c429d3',1,'RF_DEPTHHACK():&#160;csprogsdefs.qc']]],
   ['rf_5fdynamicmodellight',['RF_DYNAMICMODELLIGHT',['../d4/d0c/csprogsdefs_8qc.html#adf5a6a5226f3e244cbcc54073cd7c971',1,'csprogsdefs.qc']]],

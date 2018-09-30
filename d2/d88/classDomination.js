@@ -12,6 +12,7 @@ var classDomination =
     [ "gametype_init", "d2/d88/classDomination.html#aef3a65f4987590d66b653b91180860ca", null ],
     [ "m_generate_mapinfo", "d2/d88/classDomination.html#a4db6ad0ff6ca1f3b5bdc0cb58c9e3f1e", null ],
     [ "m_isAlwaysSupported", "d2/d88/classDomination.html#a7880c3511ceeabb277b860085f1073ee", null ],
+    [ "m_isForcedSupported", "d2/d88/classDomination.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "d2/d88/classDomination.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "d2/d88/classDomination.html#abd8c38cc79b962b76c29572d618b9fd4", null ],
     [ "items", "d2/d88/classDomination.html#ab19cc492a58b50138d04d98c704e61c7", null ],

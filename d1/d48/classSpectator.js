@@ -53,6 +53,7 @@ var classSpectator =
     [ "cvar_cl_autotaunt", "d1/d48/classSpectator.html#a5debad0a069dcef7c24158a8db6db7ae", null ],
     [ "cvar_cl_buffs_autoreplace", "d1/d48/classSpectator.html#af3577e884d8246712e785234d6ad3e61", null ],
     [ "cvar_cl_clippedspectating", "d1/d48/classSpectator.html#a26036b7494d9b1e5634683ccd2270113", null ],
+    [ "cvar_cl_cts_noautoswitch", "d1/d48/classSpectator.html#a1da889e7ccc1c050939ba9380bd6c0d0", null ],
     [ "cvar_cl_dodging_timeout", "d1/d48/classSpectator.html#a1ff444c49a92236b916c54bc08797f9e", null ],
     [ "cvar_cl_gunalign", "d1/d48/classSpectator.html#aca0549b88bbbd855b73a3df973561e6c", null ],
     [ "cvar_cl_handicap", "d1/d48/classSpectator.html#a67d23901aa908fbbb2762d8b9924c8f1", null ],

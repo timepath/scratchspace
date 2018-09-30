@@ -707,7 +707,7 @@ $(document).ready(function(){initNavTree('dc/d3d/csqcmodel__hooks_8qc_source.htm
 <div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;    this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#abea5becd51afc048db807e874ba78e40">csqcmodel_predraw_run</a> = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a4d4f553dce504b38a16b9164049195a6">framecount</a>;</div>
 <div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;    <span class="keywordflow">if</span>(!this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2f3957a8a9e7c1c19755835bb81af37c">modelindex</a> || this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> == <span class="stringliteral">&quot;null&quot;</span>)</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;    <span class="keywordflow">if</span>(!this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2f3957a8a9e7c1c19755835bb81af37c">modelindex</a> || this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> == <span class="stringliteral">&quot;null&quot;</span> || this.<a class="code" href="../../d3/db6/projectile_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> &lt; 0)</div>
 <div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    {</div>
 <div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a14769f9d8ebf5bb5c99f1cddeb99f567">drawmask</a> = 0;</div>
 <div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;        <span class="keywordflow">return</span>;</div>
@@ -715,7 +715,7 @@ $(document).ready(function(){initNavTree('dc/d3d/csqcmodel__hooks_8qc_source.htm
 <div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a14769f9d8ebf5bb5c99f1cddeb99f567">drawmask</a> = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a8e6aea49b9bc341cc7a3e4bec79f866f">MASK_NORMAL</a>;</div>
 <div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;</div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a17a6c58f046d5ba0a992704a55bee50e">isplayermodel</a>) <span class="comment">// this checks if it&#39;s a player MODEL!</span></div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a17a6c58f046d5ba0a992704a55bee50e">isplayermodel</a> &amp;&amp; this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a14769f9d8ebf5bb5c99f1cddeb99f567">drawmask</a>) <span class="comment">// this checks if it&#39;s a player MODEL!</span></div>
 <div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    {</div>
 <div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;        <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a596834cdaff21f84dbe1cd4b67f48c35">CSQCPlayer_ModelAppearance_Apply</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a> == <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a58ed33525b1e1a9e60f989f03f488503">player_localnum</a> + 1);</div>
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;        <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a739966029ac9ca745964423a3965367e">CSQCPlayer_LOD_Apply</a>(<span class="keyword">this</span>);</div>
@@ -1050,7 +1050,7 @@ $(document).ready(function(){initNavTree('dc/d3d/csqcmodel__hooks_8qc_source.htm
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc.html">csqcmodel_hooks.qc</a></li>
-    <li class="footer">Generated on Sat Sep 22 2018 22:04:22 for Xonotic by
+    <li class="footer">Generated on Sun Sep 30 2018 14:45:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

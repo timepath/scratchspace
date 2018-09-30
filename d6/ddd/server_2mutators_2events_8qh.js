@@ -42,6 +42,7 @@ var server_2mutators_2events_8qh =
     [ "EV_FusionReactor_ValidTarget", "d6/ddd/server_2mutators_2events_8qh.html#aadf4821ac74bbbb9f93f51908b041a17", null ],
     [ "EV_GetCvars", "d6/ddd/server_2mutators_2events_8qh.html#a4058887e62ba12bb36fb25b977b246bc", null ],
     [ "EV_GetModelParams", "d6/ddd/server_2mutators_2events_8qh.html#a0df2684a8ff65547eca9cec2701e1eec", null ],
+    [ "EV_GetPlayerLimit", "d6/ddd/server_2mutators_2events_8qh.html#aa313ef7f0aaa504a1b59b97dc84f6bb7", null ],
     [ "EV_GetPlayerStatus", "d6/ddd/server_2mutators_2events_8qh.html#ad0caac66f1b7f34eca6add32d638ab7a", null ],
     [ "EV_GetPressedKeys", "d6/ddd/server_2mutators_2events_8qh.html#a7684d4b9703ec7e8c02d70e8040c2947", null ],
     [ "EV_GetRecords", "d6/ddd/server_2mutators_2events_8qh.html#a0523c1d6541bb2302acb5ee91beeae12", null ],
@@ -296,6 +297,7 @@ var server_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a251408c4c4888bc5b34ce36c8ff72f50", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#acd9ae456e69800d216f8eb97ceee5cc8", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a3bf9d94161287f35b060055189b53fe3", null ],
+    [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a56f225a62b68f5c2c4a83ec51f69bb41", null ],
     [ "get_cvars_f", "d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2", null ],
     [ "get_cvars_s", "d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f", null ],
     [ "monster_loot", "d6/ddd/server_2mutators_2events_8qh.html#a3b05b0b07f8bfac621be16b7588af844", null ]

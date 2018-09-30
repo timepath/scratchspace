@@ -27,6 +27,7 @@ var server_2client_8qc =
     [ "FixClientCvars", "df/dd7/server_2client_8qc.html#a63b8eac90f2650512291bfaa482f9732", null ],
     [ "FixPlayermodel", "df/dd7/server_2client_8qc.html#ad9d369ba8098cf9cc8ded4f0b4974c76", null ],
     [ "GetClientVersionMessage", "df/dd7/server_2client_8qc.html#a56ec2606774cb524ffec45087d474bca", null ],
+    [ "GetPlayerLimit", "df/dd7/server_2client_8qc.html#a3e717ff42f4aecad0eaade0b3e32f822", null ],
     [ "GetPressedKeys", "df/dd7/server_2client_8qc.html#a4564823376ee9ef5de34a0227bfc9646", null ],
     [ "getwelcomemessage", "df/dd7/server_2client_8qc.html#a76e164c174bdeaccb8f664d77d2adcf9", null ],
     [ "Join", "df/dd7/server_2client_8qc.html#a77ba4c685ebf7e80884df5fb16f6e587", null ],

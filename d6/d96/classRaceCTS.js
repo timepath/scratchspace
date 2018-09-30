@@ -12,6 +12,7 @@ var classRaceCTS =
     [ "gametype_init", "d6/d96/classRaceCTS.html#aef3a65f4987590d66b653b91180860ca", null ],
     [ "m_generate_mapinfo", "d6/d96/classRaceCTS.html#ab012546589284a9f8f556527fbfb3a8f", null ],
     [ "m_isAlwaysSupported", "d6/d96/classRaceCTS.html#a7880c3511ceeabb277b860085f1073ee", null ],
+    [ "m_isForcedSupported", "d6/d96/classRaceCTS.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "d6/d96/classRaceCTS.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "d6/d96/classRaceCTS.html#a87258d972a8b677bc431c763afd6e0fb", null ],
     [ "m_setTeams", "d6/d96/classRaceCTS.html#a5626374345176757fae169da0ab1cb1f", null ],

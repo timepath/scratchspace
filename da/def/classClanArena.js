@@ -12,6 +12,7 @@ var classClanArena =
     [ "gametype_init", "da/def/classClanArena.html#aef3a65f4987590d66b653b91180860ca", null ],
     [ "m_generate_mapinfo", "da/def/classClanArena.html#a689c2a1afc56d93f77ebdebad6b168bf", null ],
     [ "m_isAlwaysSupported", "da/def/classClanArena.html#a4109ad22533b3aee7521df4dc36a516b", null ],
+    [ "m_isForcedSupported", "da/def/classClanArena.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "da/def/classClanArena.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "da/def/classClanArena.html#aca750e744e5d1a4d337de74f06a92468", null ],
     [ "m_setTeams", "da/def/classClanArena.html#a2fc71291259528295ec77875fe2a16f8", null ],

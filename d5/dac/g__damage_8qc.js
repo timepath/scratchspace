@@ -19,7 +19,7 @@ var g__damage_8qc =
     [ "Obituary_WeaponDeath", "d5/dac/g__damage_8qc.html#a54e85ad9f5560a23de3bd54026021b06", null ],
     [ "RadiusDamage", "d5/dac/g__damage_8qc.html#a2606d7979cdea514c3d8271956430a8d", null ],
     [ "RadiusDamageForSource", "d5/dac/g__damage_8qc.html#a1f5edb01679024970f2cf5fa92de80ee", null ],
-    [ "Unfreeze", "d5/dac/g__damage_8qc.html#a705ff21e2e789e10d1eeb3bd16f97c86", null ],
+    [ "Unfreeze", "d5/dac/g__damage_8qc.html#acc99d1a4f941f72826f41d22d035dcee", null ],
     [ "UpdateFrags", "d5/dac/g__damage_8qc.html#a7e53366415188b2157d76a7250422580", null ],
     [ "kh_next", "d5/dac/g__damage_8qc.html#a0411010ca825838d10464f8da5825df9", null ]
 ];

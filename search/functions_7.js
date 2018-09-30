@@ -166,6 +166,7 @@ var searchData=
   ['getnewchildvalue',['getNewChildValue',['../d2/d58/keyframe_8qc.html#ad8cd70bf82f02ed5fc9e4347bb0ab9da',1,'getNewChildValue(entity this):&#160;keyframe.qc'],['../df/dac/keyframe_8qh.html#abef6c8e69f77c44568ebce4e17439064',1,'getNewChildValue(entity):&#160;keyframe.qc']]],
   ['getnextmap',['GetNextMap',['../db/dcc/g__world_8qc.html#a558290ac2f061ad16a1fb895ab32f6d6',1,'GetNextMap():&#160;g_world.qc'],['../d7/d97/g__world_8qh.html#a558290ac2f061ad16a1fb895ab32f6d6',1,'GetNextMap():&#160;g_world.qc']]],
   ['getorthoviewfov',['GetOrthoviewFOV',['../d6/dd3/view_8qc.html#a3ea9f138fb2b9c31233274c9aaa01574',1,'view.qc']]],
+  ['getplayerlimit',['GetPlayerLimit',['../df/dd7/server_2client_8qc.html#a3e717ff42f4aecad0eaade0b3e32f822',1,'GetPlayerLimit():&#160;client.qc'],['../d8/de2/server_2client_8qh.html#a3e717ff42f4aecad0eaade0b3e32f822',1,'GetPlayerLimit():&#160;client.qc']]],
   ['getplayerlist',['getPlayerList',['../d7/d50/classXonoticPlayerList.html#a2101979bc8f41cbf828f3f4e62e0c372',1,'XonoticPlayerList']]],
   ['getplayerscorestring',['GetPlayerScoreString',['../d2/d79/scores_8qc.html#ad28463ced5516457ad57a090398dfa49',1,'GetPlayerScoreString(entity pl, float shortString):&#160;scores.qc'],['../d5/dac/server_2scores_8qh.html#ad28463ced5516457ad57a090398dfa49',1,'GetPlayerScoreString(entity pl, float shortString):&#160;scores.qc']]],
   ['getplayersound',['GetPlayerSound',['../d9/d45/globalsound_8qc.html#a4fc1198a586672f2b9459c628d386ca7',1,'globalsound.qc']]],

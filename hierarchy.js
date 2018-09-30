@@ -50,6 +50,7 @@ var hierarchy =
         [ "ClanArena", "da/def/classClanArena.html", null ],
         [ "Deathmatch", "d8/dd3/classDeathmatch.html", null ],
         [ "Domination", "d2/d88/classDomination.html", null ],
+        [ "Duel", "d0/d0a/classDuel.html", null ],
         [ "FreezeTag", "d1/de2/classFreezeTag.html", null ],
         [ "Invasion", "d2/d26/classInvasion.html", null ],
         [ "Keepaway", "d0/d55/classKeepaway.html", null ],
@@ -63,7 +64,10 @@ var hierarchy =
       ] ],
       [ "IntrusiveList", "d1/d74/classIntrusiveList.html", null ],
       [ "Inventory", "dd/d7a/classInventory.html", null ],
-      [ "Item", "d0/dae/classItem.html", [
+      [ "Lazy", "d3/dde/classLazy.html", null ],
+      [ "LinkedList", "d7/dde/classLinkedList.html", null ],
+      [ "LinkedListNode", "de/d6d/classLinkedListNode.html", null ],
+      [ "MenuItem", "d7/dce/classMenuItem.html", [
         [ "Container", "d0/d7b/classContainer.html", [
           [ "InputContainer", "d8/da4/classInputContainer.html", [
             [ "Dialog", "dc/d06/classDialog.html", [
@@ -223,9 +227,6 @@ var hierarchy =
           [ "XonoticCrosshairPicker", "d3/d10/classXonoticCrosshairPicker.html", null ]
         ] ]
       ] ],
-      [ "Lazy", "d3/dde/classLazy.html", null ],
-      [ "LinkedList", "d7/dde/classLinkedList.html", null ],
-      [ "LinkedListNode", "de/d6d/classLinkedListNode.html", null ],
       [ "Model", "d6/d18/classModel.html", null ],
       [ "Monster", "d1/d5c/classMonster.html", [
         [ "Mage", "d0/d28/classMage.html", null ],
