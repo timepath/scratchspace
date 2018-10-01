@@ -797,6 +797,7 @@ var searchData=
   ['autocvar_5fg_5fdomination_5froundbased_5fpoint_5flimit',['autocvar_g_domination_roundbased_point_limit',['../da/de5/sv__domination_8qh.html#a0b81aadbb9b1abb5f4b60e3680cf6813',1,'sv_domination.qh']]],
   ['autocvar_5fg_5fdomination_5fteams_5foverride',['autocvar_g_domination_teams_override',['../d3/de3/sv__domination_8qc.html#a903d6d01ea71c8066c5ae4dfaa673829',1,'sv_domination.qc']]],
   ['autocvar_5fg_5fdomination_5fwarmup',['autocvar_g_domination_warmup',['../d3/de3/sv__domination_8qc.html#ae336684bd379b3fd72cf71faa9f5d694',1,'sv_domination.qc']]],
+  ['autocvar_5fg_5fduel_5fwarmup',['autocvar_g_duel_warmup',['../d9/da4/sv__duel_8qh.html#a3cf15fcf5a9399aea2356f28309b1a94',1,'sv_duel.qh']]],
   ['autocvar_5fg_5fduel_5fwith_5fpowerups',['autocvar_g_duel_with_powerups',['../d9/da4/sv__duel_8qh.html#af99a9bf907c4d7932148f049786b9034',1,'sv_duel.qh']]],
   ['autocvar_5fg_5fdynamic_5fhandicap',['autocvar_g_dynamic_handicap',['../dc/df0/sv__dynamic__handicap_8qc.html#a5e6d5d8ccf163871367b7472f3747aee',1,'sv_dynamic_handicap.qc']]],
   ['autocvar_5fg_5fdynamic_5fhandicap_5fexponent',['autocvar_g_dynamic_handicap_exponent',['../dc/df0/sv__dynamic__handicap_8qc.html#a75789ad40ceb4f40a1d2d31aafb87461',1,'sv_dynamic_handicap.qc']]],
