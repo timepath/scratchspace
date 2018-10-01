@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"db/d29/classXonoticRegisteredSettingsList.html#afd0d89a4240b5d670c0cdfa8c777824c":[1,0,233,73],
+"db/d29/dialog__hudpanel__weapons_8qh.html":[2,0,5,4,81],
 "db/d29/dialog__hudpanel__weapons_8qh_source.html":[2,0,5,4,81],
 "db/d29/machinegun__weapon_8qh.html":[2,0,1,14,0,23],
 "db/d29/machinegun__weapon_8qh.html#a1d67f6931a2ea189e5f33ef332554c58":[2,0,1,14,0,23,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "db/d3c/classArc.html":[1,0,3],
 "db/d3c/classArc.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,3,20],
 "db/d3c/classArc.html#a208658ab5d31e9cd86fb5256c4864d75":[1,0,3,35],
-"db/d3c/classArc.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,3,19],
-"db/d3c/classArc.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,3,17],
-"db/d3c/classArc.html#a312755d5709b880f99cf89d7a76237fe":[1,0,3,4]
+"db/d3c/classArc.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,3,19]
 };

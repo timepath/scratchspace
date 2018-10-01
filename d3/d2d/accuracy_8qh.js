@@ -1,6 +1,6 @@
 var accuracy_8qh =
 [
-    [ "accuracy_add", "d3/d2d/accuracy_8qh.html#ab84e00d63d2ddaf481f24a890700199e", null ],
+    [ "accuracy_add", "d3/d2d/accuracy_8qh.html#a667006f9ad3eac15cec30bde1f6cb56b", null ],
     [ "accuracy_canbegooddamage", "d3/d2d/accuracy_8qh.html#a92354049648146157a9f3a60e08caba3", null ],
     [ "accuracy_free", "d3/d2d/accuracy_8qh.html#a5e7ead8d3ab4cd12e97b4af2e670444a", null ],
     [ "accuracy_init", "d3/d2d/accuracy_8qh.html#a7fabb764d4f54825debd9e866f4bf96b", null ],

@@ -2,7 +2,7 @@ var searchData=
 [
   ['a_5fthink',['a_think',['../d5/d53/movenode_8qc.html#a6fe9453a5267797164dcff57bb20a431',1,'movenode.qc']]],
   ['accumulate_5fcall',['ACCUMULATE_call',['../de/d68/accumulate_8qh.html#ade70a07ed0ace4db1fdea0a7cf3bb2d0',1,'accumulate.qh']]],
-  ['accuracy_5fadd',['accuracy_add',['../da/d68/accuracy_8qc.html#a7a31db5f41f5e5ab6f93aa4021c80411',1,'accuracy_add(entity this, int w, int fired, int hit):&#160;accuracy.qc'],['../d3/d2d/accuracy_8qh.html#ab84e00d63d2ddaf481f24a890700199e',1,'accuracy_add(entity e, float w, float fired, float hit):&#160;accuracy.qh']]],
+  ['accuracy_5fadd',['accuracy_add',['../da/d68/accuracy_8qc.html#ae40174f6ba06ff9c6d8ad5b0fde05e06',1,'accuracy_add(entity this, Weapon w, int fired, int hit):&#160;accuracy.qc'],['../d3/d2d/accuracy_8qh.html#a667006f9ad3eac15cec30bde1f6cb56b',1,'accuracy_add(entity e, Weapon w, float fired, float hit):&#160;accuracy.qh']]],
   ['accuracy_5fbyte',['accuracy_byte',['../da/d68/accuracy_8qc.html#addc590d48822d285d5025af942f6ef4e',1,'accuracy.qc']]],
   ['accuracy_5fcanbegooddamage',['accuracy_canbegooddamage',['../da/d68/accuracy_8qc.html#a92354049648146157a9f3a60e08caba3',1,'accuracy_canbegooddamage(entity attacker):&#160;accuracy.qc'],['../d3/d2d/accuracy_8qh.html#a92354049648146157a9f3a60e08caba3',1,'accuracy_canbegooddamage(entity attacker):&#160;accuracy.qc']]],
   ['accuracy_5ffree',['accuracy_free',['../d0/d3f/state_8qc.html#a34f4025222e4edd5d1dcee5b90656bec',1,'accuracy_free(entity this):&#160;accuracy.qc'],['../da/d68/accuracy_8qc.html#a5e7ead8d3ab4cd12e97b4af2e670444a',1,'accuracy_free(entity e):&#160;accuracy.qc'],['../d3/d2d/accuracy_8qh.html#a5e7ead8d3ab4cd12e97b4af2e670444a',1,'accuracy_free(entity e):&#160;accuracy.qc']]],

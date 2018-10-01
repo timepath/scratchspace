@@ -203,6 +203,7 @@ var NAVTREEINDEX86 =
 "d9/da1/vehicles_8qh_source.html":[2,0,1,15,11],
 "d9/da4/sv__duel_8qh.html":[2,0,1,3,0,6,3],
 "d9/da4/sv__duel_8qh.html#a70edffe7da8888861d7ab34da4e21fe4":[2,0,1,3,0,6,3,0],
+"d9/da4/sv__duel_8qh.html#af99a9bf907c4d7932148f049786b9034":[2,0,1,3,0,6,3,1],
 "d9/da4/sv__duel_8qh_source.html":[2,0,1,3,0,6,3],
 "d9/da8/angle_8qc.html":[2,0,4,7],
 "d9/da8/angle_8qc.html#a191b877d788960dbca95f37477547802":[2,0,4,7,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX86 =
 "d9/db3/classXonoticGameModelSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,181,70],
 "d9/db3/classXonoticGameModelSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,181,11],
 "d9/db3/classXonoticGameModelSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,181,71],
-"d9/db3/classXonoticGameModelSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,181,4],
-"d9/db3/classXonoticGameModelSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,181,45]
+"d9/db3/classXonoticGameModelSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,181,4]
 };

@@ -127,6 +127,8 @@ Functions</h2></td></tr>
 <tr class="separator:a63d14df1510faaffd7f26c9e796f39b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75669e8f84b8a0bfb909f0d71677d3f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df4/sv__duel_8qc.html#a75669e8f84b8a0bfb909f0d71677d3f4">MUTATOR_HOOKFUNCTION</a> (duel, Scores_CountFragsRemaining)</td></tr>
 <tr class="separator:a75669e8f84b8a0bfb909f0d71677d3f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8003bb09221cfa3f362eecf812f89d82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df4/sv__duel_8qc.html#a8003bb09221cfa3f362eecf812f89d82">MUTATOR_HOOKFUNCTION</a> (duel, FilterItemDefinition)</td></tr>
+<tr class="separator:a8003bb09221cfa3f362eecf812f89d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a816f77aa7fc22606694c6a6f821ad6d4"></a>
@@ -230,13 +232,66 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
+<a class="anchor" id="a8003bb09221cfa3f362eecf812f89d82"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKFUNCTION </td>
+          <td>(</td>
+          <td class="paramtype">duel&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FilterItemDefinition&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../da/df4/sv__duel_8qc_source.html#l00020">20</a> of file <a class="el" href="../../da/df4/sv__duel_8qc_source.html">sv_duel.qc</a>.</p>
+
+<p>References <a class="el" href="../../d9/da4/sv__duel_8qh_source.html#l00010">autocvar_g_duel_with_powerups</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> definition = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">if</span>(definition.instanceOfPowerup)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">return</span> !<a class="code" href="../../d9/da4/sv__duel_8qh.html#af99a9bf907c4d7932148f049786b9034">autocvar_g_duel_with_powerups</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="sv__duel_8qh_html_af99a9bf907c4d7932148f049786b9034"><div class="ttname"><a href="../../d9/da4/sv__duel_8qh.html#af99a9bf907c4d7932148f049786b9034">autocvar_g_duel_with_powerups</a></div><div class="ttdeci">bool autocvar_g_duel_with_powerups</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da4/sv__duel_8qh_source.html#l00010">sv_duel.qh:10</a></div></div>
+<div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/df4/sv__duel_8qc_a8003bb09221cfa3f362eecf812f89d82_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_996aa2695cfb7849f651d9f8092e8019.html">duel</a></li><li class="navelem"><a class="el" href="../../da/df4/sv__duel_8qc.html">sv_duel.qc</a></li>
-    <li class="footer">Generated on Sun Sep 30 2018 19:28:31 for Xonotic by
+    <li class="footer">Generated on Mon Oct 1 2018 05:45:13 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
