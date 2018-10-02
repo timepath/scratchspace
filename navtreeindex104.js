@@ -1,5 +1,6 @@
 var NAVTREEINDEX104 =
 {
+"db/da5/sv__invasion_8qc.html#aff0df3dfdc8b2936711b973638f070df":[2,0,1,3,0,8,2,10],
 "db/da5/sv__invasion_8qc_source.html":[2,0,1,3,0,8,2],
 "db/da8/common_2gamemodes_2gamemode_2onslaught_2__mod_8inc.html":[2,0,1,3,0,13,0],
 "db/da8/common_2gamemodes_2gamemode_2onslaught_2__mod_8inc_source.html":[2,0,1,3,0,13,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX104 =
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,199,87],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,199,50],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,199,43],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,199,65],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,199,71]
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,199,65]
 };

@@ -42,7 +42,7 @@ var view_8qc =
     [ "ViewLocation_Mouse", "d6/dd3/view_8qc.html#a3002fc01879df1c04d02a17a92106379", null ],
     [ "viewmodel_animate", "d6/dd3/view_8qc.html#ae5dc3684cbb64e6740ca3f1dd8e97b33", null ],
     [ "viewmodel_draw", "d6/dd3/view_8qc.html#ac393da9659f9d96ef1e25885cd495e2f", null ],
-    [ "WantEventchase", "d6/dd3/view_8qc.html#aaedfb15dac0fc5308e64d3b3d58cf76f", null ],
+    [ "WantEventchase", "d6/dd3/view_8qc.html#a12141ce366ad271e8c6f38f6511821fb", null ],
     [ "autocvar_cl_bobmodel", "d6/dd3/view_8qc.html#adfe9a3e6cc6a3bafe879067804e8594b", null ],
     [ "autocvar_cl_bobmodel_side", "d6/dd3/view_8qc.html#ab8d843b88de066b53e04e63deccb6fe4", null ],
     [ "autocvar_cl_bobmodel_speed", "d6/dd3/view_8qc.html#a64f8a6244eefc1944d77cc329104d18e", null ],

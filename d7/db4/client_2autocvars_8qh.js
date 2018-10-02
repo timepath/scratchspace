@@ -59,6 +59,7 @@ var client_2autocvars_8qh =
     [ "autocvar_cl_eventchase_maxs", "d7/db4/client_2autocvars_8qh.html#ad8968b416783abc8262468960dba598e", null ],
     [ "autocvar_cl_eventchase_mins", "d7/db4/client_2autocvars_8qh.html#a681bff6e624baf3af2f0334052bd2ca8", null ],
     [ "autocvar_cl_eventchase_spectated_change", "d7/db4/client_2autocvars_8qh.html#a7a7c94643829eb476a5b7e6c9c703f0a", null ],
+    [ "autocvar_cl_eventchase_spectated_change_time", "d7/db4/client_2autocvars_8qh.html#ab43b18956a26502893ed5397ab1e5682", null ],
     [ "autocvar_cl_eventchase_speed", "d7/db4/client_2autocvars_8qh.html#a03a38164b52dbfea40d0d73ef61de13b", null ],
     [ "autocvar_cl_eventchase_vehicle", "d7/db4/client_2autocvars_8qh.html#a259aeeff3ccba332515970b0d5ea350c", null ],
     [ "autocvar_cl_eventchase_vehicle_distance", "d7/db4/client_2autocvars_8qh.html#a216921fa65219c3f4524f50ef8dd8002", null ],

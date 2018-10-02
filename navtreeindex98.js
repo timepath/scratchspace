@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"db/d29/classXonoticRegisteredSettingsList.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,233,42],
 "db/d29/classXonoticRegisteredSettingsList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,233,28],
 "db/d29/classXonoticRegisteredSettingsList.html#afd0d89a4240b5d670c0cdfa8c777824c":[1,0,233,73],
 "db/d29/dialog__hudpanel__weapons_8qh.html":[2,0,5,4,81],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "db/d3a/location_8qc.html":[2,0,1,6,2,8],
 "db/d3a/location_8qc_source.html":[2,0,1,6,2,8],
 "db/d3c/classArc.html":[1,0,3],
-"db/d3c/classArc.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,3,20],
-"db/d3c/classArc.html#a208658ab5d31e9cd86fb5256c4864d75":[1,0,3,35]
+"db/d3c/classArc.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,3,20]
 };
