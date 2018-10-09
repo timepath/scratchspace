@@ -22,6 +22,7 @@ var subs_8qh =
     [ "dest2", "db/d2f/subs_8qh.html#acb98bc938048ba07095a2042c4d67a0a", null ],
     [ "destvec", "db/d2f/subs_8qh.html#a0823459dff40c14b3de0c9e92a13e444", null ],
     [ "destvec2", "db/d2f/subs_8qh.html#a6e6e4951244e097d680dcba5a0261288", null ],
+    [ "fade_rate", "db/d2f/subs_8qh.html#a5a08fa477287e8869e228d790a885d87", null ],
     [ "finalangle", "db/d2f/subs_8qh.html#a2407b77363881e70772e79338a5505ed", null ],
     [ "finaldest", "db/d2f/subs_8qh.html#ad73b2c126ec080d6c9d12b8a98d8395a", null ],
     [ "friction", "db/d2f/subs_8qh.html#a585bd15db005143bac988d78710e4e93", null ],

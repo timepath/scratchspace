@@ -1,7 +1,6 @@
 var sv__onslaught_8qc =
 [
     [ "clientcamera_send", "d0/de4/sv__onslaught_8qc.html#a330d402bc81f9b3c18362a59ad76707a", null ],
-    [ "FixSize", "d0/de4/sv__onslaught_8qc.html#ae3b2b9ab5e59b7825352e92ec024f767", null ],
     [ "havocbot_goalrating_ons_controlpoints_attack", "d0/de4/sv__onslaught_8qc.html#a2162e5e10c6371e662d77220d09fad9f", null ],
     [ "havocbot_goalrating_ons_generator_attack", "d0/de4/sv__onslaught_8qc.html#adf0ba2f0f5009398b9d71635f5b63151", null ],
     [ "havocbot_ons_reset_role", "d0/de4/sv__onslaught_8qc.html#ae3892bcbd6e838183c105330ce7374a0", null ],
@@ -74,7 +73,6 @@ var sv__onslaught_8qc =
     [ "Onslaught_GetWinnerTeam", "d0/de4/sv__onslaught_8qc.html#ad405e8650c15f62101c34ff4bc3374cf", null ],
     [ "Onslaught_RoundStart", "d0/de4/sv__onslaught_8qc.html#a8ff94c5e74a9a374a202b8afbd672613", null ],
     [ "onslaught_updatelinks", "d0/de4/sv__onslaught_8qc.html#a1477271959738583b926d0e754d4aada", null ],
-    [ "setmodel_fixsize", "d0/de4/sv__onslaught_8qc.html#a5f2f1eb1adcfb22ee2c9c01ab95e63ac", null ],
     [ "spawnfunc", "d0/de4/sv__onslaught_8qc.html#ade9761c58f1699ab7f1f73a27c04390d", null ],
     [ "spawnfunc", "d0/de4/sv__onslaught_8qc.html#a666d8dad9ed1b6e64643960ca9f12e7a", null ],
     [ "spawnfunc", "d0/de4/sv__onslaught_8qc.html#a5fe62bc628d64e864a5a92a7a71650a0", null ],

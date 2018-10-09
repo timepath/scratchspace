@@ -1,7 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh.html":[2,0,1,10,0,25,1],
-"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh_source.html":[2,0,1,10,0,25,1],
 "d3/da6/client_2mutators_2events_8qc.html":[2,0,0,2,2],
 "d3/da6/client_2mutators_2events_8qc_source.html":[2,0,0,2,2],
 "d3/da9/classMineLayer.html":[1,0,79],
@@ -249,5 +247,7 @@ var NAVTREEINDEX29 =
 "d3/dbd/dialog__firstrun_8qc.html#a543ea137d7c256f4c31c0c37f9c905f8":[2,0,5,4,42,0],
 "d3/dbd/dialog__firstrun_8qc.html#a60f77e8c6fbba2ed1675fb85e95e291a":[2,0,5,4,42,1],
 "d3/dbd/dialog__firstrun_8qc.html#af14c0e82df6c85f775189f7b91226253":[2,0,5,4,42,2],
-"d3/dbd/dialog__firstrun_8qc_source.html":[2,0,5,4,42]
+"d3/dbd/dialog__firstrun_8qc_source.html":[2,0,5,4,42],
+"d3/dbe/classSlider.html":[1,0,127],
+"d3/dbe/classSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,127,74]
 };

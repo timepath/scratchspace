@@ -1,7 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"d2/d1c/weapons_2weapon_8qh.html#ac4c200d7aeff290dde6743501557676e":[2,0,1,16,13,24],
-"d2/d1c/weapons_2weapon_8qh.html#acb6d8a69c18135cd85a99ff515fe5bf6":[2,0,1,16,13,6],
 "d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818":[2,0,1,16,13,22],
 "d2/d1c/weapons_2weapon_8qh.html#ad0bb51681cf0cb1275151afa8b5953c7":[2,0,1,16,13,35],
 "d2/d1c/weapons_2weapon_8qh.html#ade7b3795466e850b0acb38ad649ea87b":[2,0,1,16,13,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX16 =
 "d2/d42/classXonoticUserbindEditDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,261,43],
 "d2/d42/classXonoticUserbindEditDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,261,3],
 "d2/d42/classXonoticUserbindEditDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,261,86],
-"d2/d42/classXonoticUserbindEditDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,261,84]
+"d2/d42/classXonoticUserbindEditDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,261,84],
+"d2/d42/classXonoticUserbindEditDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,261,51],
+"d2/d42/classXonoticUserbindEditDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,261,28]
 };

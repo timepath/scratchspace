@@ -1,8 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"d6/d30/dialog__teamselect_8qc.html#aef68d50cc290b76e2c8fc62888560c00":[2,0,5,4,160,2],
-"d6/d30/dialog__teamselect_8qc.html#af1c89445ad12552325475410a8cc2902":[2,0,5,4,160,0],
-"d6/d30/dialog__teamselect_8qc_source.html":[2,0,5,4,160],
 "d6/d35/debug_8qc.html":[2,0,6,4,4],
 "d6/d35/debug_8qc_source.html":[2,0,6,4,4],
 "d6/d35/server_2bot_2default_2havocbot_2__mod_8inc.html":[2,0,6,0,0,0,0],
@@ -141,11 +138,10 @@ var NAVTREEINDEX54 =
 "d6/d55/dialog__uid2name_8qc_source.html":[2,0,5,4,162],
 "d6/d57/triggers_8qc.html":[2,0,1,6,15],
 "d6/d57/triggers_8qc.html#a1c58d77ea3f4858ed96288710690cf98":[2,0,1,6,15,0],
-"d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6":[2,0,1,6,15,3],
-"d6/d57/triggers_8qc.html#a60ab99c7fe3155c9f0ad190a38d3bfbe":[2,0,1,6,15,5],
-"d6/d57/triggers_8qc.html#a867a4a5f27063de0e88ac03b187dc928":[2,0,1,6,15,2],
-"d6/d57/triggers_8qc.html#ae3b2b9ab5e59b7825352e92ec024f767":[2,0,1,6,15,1],
-"d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282":[2,0,1,6,15,4],
+"d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6":[2,0,1,6,15,2],
+"d6/d57/triggers_8qc.html#a60ab99c7fe3155c9f0ad190a38d3bfbe":[2,0,1,6,15,4],
+"d6/d57/triggers_8qc.html#a867a4a5f27063de0e88ac03b187dc928":[2,0,1,6,15,1],
+"d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282":[2,0,1,6,15,3],
 "d6/d57/triggers_8qc_source.html":[2,0,1,6,15],
 "d6/d57/walljump_8qc.html":[2,0,1,10,0,38,2],
 "d6/d57/walljump_8qc_source.html":[2,0,1,10,0,38,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX54 =
 "d6/d74/cvars_8qh.html#aba86912b12b8542fb08acb29adb49b49":[2,0,6,0,0,8,28],
 "d6/d74/cvars_8qh.html#abd0ccefe8815ccd845617d79b35eadf0":[2,0,6,0,0,8,55],
 "d6/d74/cvars_8qh.html#ac547a74dc5c93425a3aa5131909a1d61":[2,0,6,0,0,8,21],
-"d6/d74/cvars_8qh.html#ac7233eae6f795dcd357ba1d0e5148306":[2,0,6,0,0,8,7]
+"d6/d74/cvars_8qh.html#ac7233eae6f795dcd357ba1d0e5148306":[2,0,6,0,0,8,7],
+"d6/d74/cvars_8qh.html#ac747f43315dc1c23d13dad916b78871c":[2,0,6,0,0,8,25],
+"d6/d74/cvars_8qh.html#ad2131cb7beed5d90883e4ad0b8df9c93":[2,0,6,0,0,8,32],
+"d6/d74/cvars_8qh.html#ad50d717b75b829c49cf776aae7bdab0c":[2,0,6,0,0,8,8],
+"d6/d74/cvars_8qh.html#ad598c59c3f1f1971d0fe11218dbff2e2":[2,0,6,0,0,8,43]
 };

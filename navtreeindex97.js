@@ -1,9 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"db/d15/api_8qh.html#a358c03c146429341aa5bc1bbaac3b62b":[2,0,6,0,5,99],
-"db/d15/api_8qh.html#a376ae543437e85413013fbf01dcc2cf4":[2,0,6,0,5,34],
-"db/d15/api_8qh.html#a3785e13d7c3841061a68a34eca316b09":[2,0,6,0,5,46],
-"db/d15/api_8qh.html#a3814de61b054d9dfe64c0d3b4a92191f":[2,0,6,0,5,8],
 "db/d15/api_8qh.html#a398da247e048b55829c8e993789e171d":[2,0,6,0,5,70],
 "db/d15/api_8qh.html#a3ac8ce540ecde9fbb20e7fa61992e841":[2,0,6,0,5,32],
 "db/d15/api_8qh.html#a3aeb7b8d02c2e26723b3a64736abc3ba":[2,0,6,0,5,29],
@@ -249,5 +245,9 @@ var NAVTREEINDEX97 =
 "db/d29/classXonoticRegisteredSettingsList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,233,38],
 "db/d29/classXonoticRegisteredSettingsList.html#aed05f75651928be9263a2073856f33cd":[1,0,233,76],
 "db/d29/classXonoticRegisteredSettingsList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,233,11],
-"db/d29/classXonoticRegisteredSettingsList.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,233,8]
+"db/d29/classXonoticRegisteredSettingsList.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,233,8],
+"db/d29/classXonoticRegisteredSettingsList.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,233,42],
+"db/d29/classXonoticRegisteredSettingsList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,233,28],
+"db/d29/classXonoticRegisteredSettingsList.html#afd0d89a4240b5d670c0cdfa8c777824c":[1,0,233,73],
+"db/d29/dialog__hudpanel__weapons_8qh.html":[2,0,5,4,81]
 };
