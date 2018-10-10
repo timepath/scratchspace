@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"d2/dae/classFlacAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,41,30],
 "d2/dae/classFlacAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,41,5],
 "d2/dae/classFlacAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,41,7],
 "d2/dae/classFlacAttack.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,41,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "d2/dc3/menu_2item_2button_8qc.html#ad7dc81a3d5526c217fa59ecd05a3609e":[2,0,5,2,4,7],
 "d2/dc3/menu_2item_2button_8qc_source.html":[2,0,5,2,4],
 "d2/dc3/vaporizer_8qh.html":[2,0,1,16,0,39],
-"d2/dc3/vaporizer_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,39,1],
-"d2/dc3/vaporizer_8qh.html#ade59b6be72d74beb2c7a1b563156e396":[2,0,1,16,0,39,2]
+"d2/dc3/vaporizer_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,39,1]
 };

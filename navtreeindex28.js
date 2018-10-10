@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,192,24],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,192,17],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,192,72],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,192,69],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d3/da1/common_2monsters_2monster_2__mod_8qh_source.html":[2,0,1,9,0,1],
 "d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh.html":[2,0,1,10,0,24,1],
 "d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh_source.html":[2,0,1,10,0,24,1],
-"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh.html":[2,0,1,10,0,25,1],
-"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh_source.html":[2,0,1,10,0,25,1]
+"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh.html":[2,0,1,10,0,25,1]
 };

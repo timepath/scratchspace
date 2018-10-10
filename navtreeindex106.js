@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"db/ddb/classXonoticCvarList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,167,18],
 "db/ddb/classXonoticCvarList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,167,49],
 "db/ddb/classXonoticCvarList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,167,52],
 "db/ddb/classXonoticCvarList.html#a113d1a91bed3f1f7bc3a24306c2c68e7":[1,0,167,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "db/dec/sv__race_8qc_source.html":[2,0,1,3,0,14,2],
 "db/dee/projectiles_8qh.html":[2,0,1,16,12],
 "db/dee/projectiles_8qh.html#a0556af9f0eb745cf179e0646459aa60c":[2,0,1,16,12,16],
-"db/dee/projectiles_8qh.html#a067303b9b6c3042213c631b2f88886df":[2,0,1,16,12,32],
-"db/dee/projectiles_8qh.html#a0bb47bbecbc4f5cbff9a00d98da3c0c6":[2,0,1,16,12,28]
+"db/dee/projectiles_8qh.html#a067303b9b6c3042213c631b2f88886df":[2,0,1,16,12,32]
 };

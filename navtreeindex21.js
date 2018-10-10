@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"d2/dc3/vaporizer_8qh.html#ade59b6be72d74beb2c7a1b563156e396":[2,0,1,16,0,39,2],
 "d2/dc3/vaporizer_8qh_source.html":[2,0,1,16,0,39],
 "d2/dcb/classXonoticPicmipSlider.html":[1,0,226],
 "d2/dcb/classXonoticPicmipSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,226,95],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "d2/dd6/classXonoticInputSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,210,21],
 "d2/dd6/classXonoticInputSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,210,63],
 "d2/dd6/classXonoticInputSettingsTab.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,210,10],
-"d2/dd6/classXonoticInputSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,210,18],
-"d2/dd6/classXonoticInputSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,210,81]
+"d2/dd6/classXonoticInputSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,210,18]
 };

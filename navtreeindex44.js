@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"d4/db7/cl__minigames_8qc.html#af4ac269f89c21103a9eea35b0310414a":[2,0,1,7,3,22],
 "d4/db7/cl__minigames_8qc_source.html":[2,0,1,7,3],
 "d4/db8/bigbutton_8qh.html":[2,0,5,4,3],
 "d4/db8/bigbutton_8qh.html#abdf3953c0db4a6184bf90e59974e0f6a":[2,0,5,4,3,1],
@@ -49,12 +50,12 @@ var NAVTREEINDEX44 =
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,5,19,5],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,19,0],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,19,1],
-"d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,19,3],
 "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,19,2],
+"d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,19,3],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,19,8],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,19,9],
-"d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,19,7],
 "d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,19,6],
+"d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,19,7],
 "d4/dcc/skin_8qh_source.html":[2,0,5,19],
 "d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc.html":[2,0,1,10,0,28,0],
 "d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc_source.html":[2,0,1,10,0,28,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "d4/de8/classRacerAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,114,8],
 "d4/de8/classRacerAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,114,39],
 "d4/de8/classRacerAttack.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,114,3],
-"d4/de8/classRacerAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,114,38],
-"d4/de8/classRacerAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,114,23]
+"d4/de8/classRacerAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,114,38]
 };
