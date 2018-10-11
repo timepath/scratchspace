@@ -411,7 +411,7 @@ $(document).ready(function(){initNavTree('d6/d57/triggers_8qc_source.html','../.
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        {</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> t = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (t = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(t, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, s)); )</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;            {</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                <span class="keywordflow">if</span>(t.use &amp;&amp; (t.sub_target_used != <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> || !preventReuse))</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                <span class="keywordflow">if</span>(t != <span class="keyword">this</span> &amp;&amp; t.use &amp;&amp; (t.sub_target_used != <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> || !preventReuse))</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                {</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                    <span class="keywordflow">if</span>(this.<a class="code" href="../../db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c">target_random</a>)</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                    {</div>
@@ -509,7 +509,7 @@ $(document).ready(function(){initNavTree('d6/d57/triggers_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_45a15a852bc80fb55f8b66b90fc237b2.html">mapobjects</a></li><li class="navelem"><a class="el" href="../../d6/d57/triggers_8qc.html">triggers.qc</a></li>
-    <li class="footer">Generated on Wed Oct 10 2018 11:04:34 for Xonotic by
+    <li class="footer">Generated on Thu Oct 11 2018 03:26:58 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
