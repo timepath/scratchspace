@@ -1207,6 +1207,7 @@ var searchData=
   ['autocvar_5fg_5fwaypoints_5ffor_5fitems',['autocvar_g_waypoints_for_items',['../d7/da7/server_2autocvars_8qh.html#ae72da1f8004d8b75a946f9c00e1abe6c',1,'autocvars.qh']]],
   ['autocvar_5fg_5fweapon_5fthrowable',['autocvar_g_weapon_throwable',['../d7/da7/server_2autocvars_8qh.html#a04798e251224631c0c5ad6f02881f64f',1,'autocvars.qh']]],
   ['autocvar_5fg_5fweaponswitch_5fdebug',['autocvar_g_weaponswitch_debug',['../d7/da7/server_2autocvars_8qh.html#a7fa1b028c3f2a22fcf9dae6b1b016b17',1,'autocvars.qh']]],
+  ['autocvar_5fg_5fweaponswitch_5fdebug_5falternate',['autocvar_g_weaponswitch_debug_alternate',['../d7/da7/server_2autocvars_8qh.html#ad0c0dae2709aaf83b7fe3b8bfaefc05a',1,'autocvars.qh']]],
   ['autocvar_5fg_5fxonoticversion',['autocvar_g_xonoticversion',['../d7/da7/server_2autocvars_8qh.html#a19942ca5ac896842568cf8bfaf21eab6',1,'autocvars.qh']]],
   ['autocvar_5fgameversion',['autocvar_gameversion',['../d7/da7/server_2autocvars_8qh.html#adfd8dc048b0bac1ee66e09e0f41d58c2',1,'autocvars.qh']]],
   ['autocvar_5fgameversion_5fmax',['autocvar_gameversion_max',['../d7/da7/server_2autocvars_8qh.html#affa1f57c9adfa3456693c3b31a53c8b1',1,'autocvars.qh']]],

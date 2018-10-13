@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"de/d9c/classTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,134,61],
 "de/d9c/classTab.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,134,8],
 "de/d9c/classTab.html#a72c0e76156762fbda152032add5f1630":[1,0,134,16],
 "de/d9c/classTab.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,134,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "de/dbe/client_2__mod_8inc_source.html":[2,0,0,4],
 "de/dbe/mage_8qc.html":[2,0,1,9,0,2],
 "de/dbe/mage_8qc_source.html":[2,0,1,9,0,2],
-"de/dbf/common_2mutators_2mutator_2offhand__blaster_2__mod_8inc.html":[2,0,1,10,0,22,0],
-"de/dbf/common_2mutators_2mutator_2offhand__blaster_2__mod_8inc_source.html":[2,0,1,10,0,22,0]
+"de/dbf/common_2mutators_2mutator_2offhand__blaster_2__mod_8inc.html":[2,0,1,10,0,22,0]
 };
