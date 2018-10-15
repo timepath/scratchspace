@@ -199,7 +199,7 @@ var searchData=
   ['asf_5fshowwhat',['ASF_SHOWWHAT',['../da/d6b/sv__superspec_8qc.html#a758da662e4dd1dc96cdbba3bee332c22',1,'sv_superspec.qc']]],
   ['asf_5fssim',['ASF_SSIM',['../da/d6b/sv__superspec_8qc.html#aed82076c75906a0b1137dfdffe3d7a27',1,'sv_superspec.qc']]],
   ['asf_5fstrength',['ASF_STRENGTH',['../da/d6b/sv__superspec_8qc.html#a7142ab102eb8ead3d8cd2914057e41d7',1,'sv_superspec.qc']]],
-  ['assault_5fattacker_5fteam',['assault_attacker_team',['../d5/d26/server_2defs_8qh.html#afa0e73d2a3a3b9c2beee04b1b284b90a',1,'defs.qh']]],
+  ['assault_5fattacker_5fteam',['assault_attacker_team',['../d2/ddd/sv__assault_8qh.html#afa0e73d2a3a3b9c2beee04b1b284b90a',1,'sv_assault.qh']]],
   ['assault_5fdecreaser',['assault_decreaser',['../d2/ddd/sv__assault_8qh.html#a0494762bdff1811919ef03e61c894e3e',1,'sv_assault.qh']]],
   ['assault_5fsprite',['assault_sprite',['../d2/ddd/sv__assault_8qh.html#aa8464a01888d74a2efa42f05a8946ba0',1,'sv_assault.qh']]],
   ['assault_5fvalue_5finactive',['ASSAULT_VALUE_INACTIVE',['../d2/ddd/sv__assault_8qh.html#a60dc5332f25db6149f189046a8915af2',1,'sv_assault.qh']]],

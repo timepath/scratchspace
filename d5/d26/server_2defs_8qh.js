@@ -1,6 +1,6 @@
 var server_2defs_8qh =
 [
-    [ "ATTACK_FINISHED", "d5/d26/server_2defs_8qh.html#a495fd06d5c01d644dd6b1708ebfe3549", null ],
+    [ "ATTACK_FINISHED", "d5/d26/server_2defs_8qh.html#aa0d76f549d018d5cc5dc0bedec6f354f", null ],
     [ "ATTACK_FINISHED_FOR", "d5/d26/server_2defs_8qh.html#af35b608e51a05386e4f74c57e77d9dcc", null ],
     [ "DMG_NOWEP", "d5/d26/server_2defs_8qh.html#a7d15659b92a2ebcd68cc184e3a3824a3", null ],
     [ "INDEPENDENT_ATTACK_FINISHED", "d5/d26/server_2defs_8qh.html#afb4dc63f33cdd3551eb4195391bbdd62", null ],
@@ -48,7 +48,6 @@ var server_2defs_8qh =
     [ "alreadychangedlevel", "d5/d26/server_2defs_8qh.html#a780886abb2977703f8904a374f63e3bd", null ],
     [ "ammo_fuel", "d5/d26/server_2defs_8qh.html#a41fa1b446e3bb2f0e5320753d6c76ce1", null ],
     [ "ammo_none", "d5/d26/server_2defs_8qh.html#ae0a21a0484e5bf8b8fe8e359578f5ddc", null ],
-    [ "assault_attacker_team", "d5/d26/server_2defs_8qh.html#afa0e73d2a3a3b9c2beee04b1b284b90a", null ],
     [ "attack_finished_for", "d5/d26/server_2defs_8qh.html#af9f3faae355b2456bb75c134663831d0", null ],
     [ "attack_finished_single", "d5/d26/server_2defs_8qh.html#ad896d889c6a5568ab728f7233e86e258", null ],
     [ "autocvar__independent_players", "d5/d26/server_2defs_8qh.html#ae64d0818d5fd9cc7d8ee57138f1463fd", null ],

@@ -4,6 +4,7 @@ var sv__assault_8qh =
     [ "target_objective_decrease_activate", "d2/ddd/sv__assault_8qh.html#aae75592036bbad8155a2c2b1f82aa17c", null ],
     [ "void", "d2/ddd/sv__assault_8qh.html#afe260750fc27fa6c1af650f371653e80", null ],
     [ "void", "d2/ddd/sv__assault_8qh.html#ae3a79e8bfe6edb7284009e4102637da4", null ],
+    [ "assault_attacker_team", "d2/ddd/sv__assault_8qh.html#afa0e73d2a3a3b9c2beee04b1b284b90a", null ],
     [ "assault_decreaser", "d2/ddd/sv__assault_8qh.html#a0494762bdff1811919ef03e61c894e3e", null ],
     [ "assault_sprite", "d2/ddd/sv__assault_8qh.html#aa8464a01888d74a2efa42f05a8946ba0", null ],
     [ "ASSAULT_VALUE_INACTIVE", "d2/ddd/sv__assault_8qh.html#a60dc5332f25db6149f189046a8915af2", null ],

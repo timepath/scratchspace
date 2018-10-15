@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"d4/de8/classRacerAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,114,38],
 "d4/de8/classRacerAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,114,23],
 "d4/de8/classRacerAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,114,27],
 "d4/de8/classRacerAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,114,18],
@@ -243,11 +244,10 @@ var NAVTREEINDEX45 =
 "d5/d23/dialog__hudpanel__weapons_8qc.html#aee76c4f17e6e2862e822223192dddb97":[2,0,5,4,80,0],
 "d5/d23/dialog__hudpanel__weapons_8qc_source.html":[2,0,5,4,80],
 "d5/d26/server_2defs_8qh.html":[2,0,6,22],
-"d5/d26/server_2defs_8qh.html#a007e97f904a08307b01bb1e9d9bb4441":[2,0,6,22,257],
-"d5/d26/server_2defs_8qh.html#a01afd0d1a091e3feeaacacebb74b6433":[2,0,6,22,104],
-"d5/d26/server_2defs_8qh.html#a02bc0ed2dad26a552548fc97d9f5b1ec":[2,0,6,22,142],
-"d5/d26/server_2defs_8qh.html#a034d7dc235642e26bd4ecc95532ed089":[2,0,6,22,258],
-"d5/d26/server_2defs_8qh.html#a0640d49b2a9b773eb33f5162c069c431":[2,0,6,22,209],
-"d5/d26/server_2defs_8qh.html#a067c6fc2c94c080c9e94a020c41f036e":[2,0,6,22,167],
-"d5/d26/server_2defs_8qh.html#a06bf944f94071c6cf5e71694ffbb5734":[2,0,6,22,188]
+"d5/d26/server_2defs_8qh.html#a007e97f904a08307b01bb1e9d9bb4441":[2,0,6,22,256],
+"d5/d26/server_2defs_8qh.html#a01afd0d1a091e3feeaacacebb74b6433":[2,0,6,22,103],
+"d5/d26/server_2defs_8qh.html#a02bc0ed2dad26a552548fc97d9f5b1ec":[2,0,6,22,141],
+"d5/d26/server_2defs_8qh.html#a034d7dc235642e26bd4ecc95532ed089":[2,0,6,22,257],
+"d5/d26/server_2defs_8qh.html#a0640d49b2a9b773eb33f5162c069c431":[2,0,6,22,208],
+"d5/d26/server_2defs_8qh.html#a067c6fc2c94c080c9e94a020c41f036e":[2,0,6,22,166]
 };
