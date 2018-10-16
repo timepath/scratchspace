@@ -10,12 +10,15 @@ var classLastManStanding =
     [ "describe", "d3/d09/classLastManStanding.html#ae6f43fb252cffabdcb79a863987a5683", null ],
     [ "display", "d3/d09/classLastManStanding.html#a51550ad7b1e68706e89c9a555aa42b22", null ],
     [ "gametype_init", "d3/d09/classLastManStanding.html#aef3a65f4987590d66b653b91180860ca", null ],
+    [ "m_configuremenu", "d3/d09/classLastManStanding.html#ad6fc04a250167568b035a7928100f803", null ],
     [ "m_generate_mapinfo", "d3/d09/classLastManStanding.html#a689c2a1afc56d93f77ebdebad6b168bf", null ],
     [ "m_isAlwaysSupported", "d3/d09/classLastManStanding.html#ad065be50a7274d5df865cdd249203cf7", null ],
     [ "m_isForcedSupported", "d3/d09/classLastManStanding.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "d3/d09/classLastManStanding.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "d3/d09/classLastManStanding.html#a87258d972a8b677bc431c763afd6e0fb", null ],
+    [ "frags", "d3/d09/classLastManStanding.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "d3/d09/classLastManStanding.html#ab19cc492a58b50138d04d98c704e61c7", null ],
     [ "m_id", "d3/d09/classLastManStanding.html#a353db82280437c3b38f0ad1934a7d666", null ],
+    [ "m_legacydefaults", "d3/d09/classLastManStanding.html#a5b8b7c328b4a49b57dd827eda3d89760", null ],
     [ "team", "d3/d09/classLastManStanding.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

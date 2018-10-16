@@ -10,12 +10,15 @@ var classDomination =
     [ "describe", "d2/d88/classDomination.html#ae6f43fb252cffabdcb79a863987a5683", null ],
     [ "display", "d2/d88/classDomination.html#a51550ad7b1e68706e89c9a555aa42b22", null ],
     [ "gametype_init", "d2/d88/classDomination.html#aef3a65f4987590d66b653b91180860ca", null ],
+    [ "m_configuremenu", "d2/d88/classDomination.html#ac6215c33ee743f1d3f89eade0ec98b5d", null ],
     [ "m_generate_mapinfo", "d2/d88/classDomination.html#a4db6ad0ff6ca1f3b5bdc0cb58c9e3f1e", null ],
     [ "m_isAlwaysSupported", "d2/d88/classDomination.html#a7880c3511ceeabb277b860085f1073ee", null ],
     [ "m_isForcedSupported", "d2/d88/classDomination.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "d2/d88/classDomination.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "d2/d88/classDomination.html#abd8c38cc79b962b76c29572d618b9fd4", null ],
+    [ "frags", "d2/d88/classDomination.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "d2/d88/classDomination.html#ab19cc492a58b50138d04d98c704e61c7", null ],
     [ "m_id", "d2/d88/classDomination.html#a353db82280437c3b38f0ad1934a7d666", null ],
+    [ "m_legacydefaults", "d2/d88/classDomination.html#a9fe1a8c5f5e8e087e4e5d252452318af", null ],
     [ "team", "d2/d88/classDomination.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

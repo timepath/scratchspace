@@ -148,7 +148,7 @@ var searchData=
   ['fp_5fzero',['FP_ZERO',['../d9/df7/mathlib_8qh.html#aef8fd13dfea3527597bd8678dda10c4c',1,'mathlib.qh']]],
   ['frag_5fping',['frag_ping',['../d9/d09/notifications_2all_8inc.html#ace9312d80092b317f20470828ec4df77',1,'all.inc']]],
   ['frag_5fstats',['frag_stats',['../d9/d09/notifications_2all_8inc.html#a6d05b2e8b8256ea681e8c5a089a314ba',1,'all.inc']]],
-  ['frags',['frags',['../d5/dff/ent__cs_8qc.html#a25e96bce6bfbe6aa5dffc5f44f7edbc7',1,'frags():&#160;ent_cs.qc'],['../d6/d11/progsdefs_8qc.html#a230b823d612df01afcfecc0f4a611b90',1,'frags():&#160;progsdefs.qc']]],
+  ['frags',['frags',['../d1/d6b/classGametype.html#ae9227aebbcb0aaca925bbdc438958136',1,'Gametype::frags()'],['../d5/dff/ent__cs_8qc.html#a25e96bce6bfbe6aa5dffc5f44f7edbc7',1,'frags():&#160;ent_cs.qc'],['../d6/d11/progsdefs_8qc.html#a230b823d612df01afcfecc0f4a611b90',1,'frags():&#160;progsdefs.qc']]],
   ['frags_5flms_5floser',['FRAGS_LMS_LOSER',['../d0/d8b/common_2constants_8qh.html#ae2502553257cc9ab52b97b8529cd3dc0',1,'constants.qh']]],
   ['frags_5fplayer',['FRAGS_PLAYER',['../d0/d8b/common_2constants_8qh.html#ab23f9aa261fdff0ab3357f75b4274718',1,'constants.qh']]],
   ['frags_5fplayer_5fnonsolid',['FRAGS_PLAYER_NONSOLID',['../d0/d8b/common_2constants_8qh.html#a8de55c6395f6d556774d7bbafc331934',1,'constants.qh']]],

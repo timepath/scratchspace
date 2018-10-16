@@ -10,12 +10,15 @@ var classOnslaught =
     [ "describe", "d0/dab/classOnslaught.html#ae6f43fb252cffabdcb79a863987a5683", null ],
     [ "display", "d0/dab/classOnslaught.html#a51550ad7b1e68706e89c9a555aa42b22", null ],
     [ "gametype_init", "d0/dab/classOnslaught.html#aef3a65f4987590d66b653b91180860ca", null ],
+    [ "m_configuremenu", "d0/dab/classOnslaught.html#a8b80cda6fc2c97e9948cc00e5b1228d5", null ],
     [ "m_generate_mapinfo", "d0/dab/classOnslaught.html#a5f0ce14eb6b6b02b3442c725df15fb2c", null ],
     [ "m_isAlwaysSupported", "d0/dab/classOnslaught.html#a7880c3511ceeabb277b860085f1073ee", null ],
     [ "m_isForcedSupported", "d0/dab/classOnslaught.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "d0/dab/classOnslaught.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "d0/dab/classOnslaught.html#a87258d972a8b677bc431c763afd6e0fb", null ],
+    [ "frags", "d0/dab/classOnslaught.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "d0/dab/classOnslaught.html#ab19cc492a58b50138d04d98c704e61c7", null ],
     [ "m_id", "d0/dab/classOnslaught.html#a353db82280437c3b38f0ad1934a7d666", null ],
+    [ "m_legacydefaults", "d0/dab/classOnslaught.html#a1759a6245b9f5caac6b54e97b13a4f42", null ],
     [ "team", "d0/dab/classOnslaught.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

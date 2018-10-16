@@ -9,12 +9,15 @@ var classGametype =
     [ "describe", "d1/d6b/classGametype.html#ae6f43fb252cffabdcb79a863987a5683", null ],
     [ "display", "d1/d6b/classGametype.html#a51550ad7b1e68706e89c9a555aa42b22", null ],
     [ "gametype_init", "d1/d6b/classGametype.html#aef3a65f4987590d66b653b91180860ca", null ],
+    [ "m_configuremenu", "d1/d6b/classGametype.html#a949f7846462119cafac10c1fb4aa46ca", null ],
     [ "m_generate_mapinfo", "d1/d6b/classGametype.html#a689c2a1afc56d93f77ebdebad6b168bf", null ],
     [ "m_isAlwaysSupported", "d1/d6b/classGametype.html#a7880c3511ceeabb277b860085f1073ee", null ],
     [ "m_isForcedSupported", "d1/d6b/classGametype.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "d1/d6b/classGametype.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "d1/d6b/classGametype.html#a87258d972a8b677bc431c763afd6e0fb", null ],
+    [ "frags", "d1/d6b/classGametype.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "d1/d6b/classGametype.html#ab19cc492a58b50138d04d98c704e61c7", null ],
     [ "m_id", "d1/d6b/classGametype.html#a353db82280437c3b38f0ad1934a7d666", null ],
+    [ "m_legacydefaults", "d1/d6b/classGametype.html#a48219a8b6e9dc1e20431926319aa7aa3", null ],
     [ "team", "d1/d6b/classGametype.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

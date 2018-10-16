@@ -10,13 +10,16 @@ var classFreezeTag =
     [ "describe", "d1/de2/classFreezeTag.html#ae6f43fb252cffabdcb79a863987a5683", null ],
     [ "display", "d1/de2/classFreezeTag.html#a51550ad7b1e68706e89c9a555aa42b22", null ],
     [ "gametype_init", "d1/de2/classFreezeTag.html#aef3a65f4987590d66b653b91180860ca", null ],
+    [ "m_configuremenu", "d1/de2/classFreezeTag.html#a20843387ebc72129fa1ffefbb246eab6", null ],
     [ "m_generate_mapinfo", "d1/de2/classFreezeTag.html#a689c2a1afc56d93f77ebdebad6b168bf", null ],
     [ "m_isAlwaysSupported", "d1/de2/classFreezeTag.html#a9f678d47ed56b6147ac135ca3a9584cc", null ],
     [ "m_isForcedSupported", "d1/de2/classFreezeTag.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "d1/de2/classFreezeTag.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "d1/de2/classFreezeTag.html#a1c3ad24ed170a3db98942e74803680f3", null ],
     [ "m_setTeams", "d1/de2/classFreezeTag.html#af9790aef5af3ed2134fefcb9d01c19b2", null ],
+    [ "frags", "d1/de2/classFreezeTag.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "d1/de2/classFreezeTag.html#ab19cc492a58b50138d04d98c704e61c7", null ],
     [ "m_id", "d1/de2/classFreezeTag.html#a353db82280437c3b38f0ad1934a7d666", null ],
+    [ "m_legacydefaults", "d1/de2/classFreezeTag.html#ac7a231399b9bb7e204d95c3ded3535b7", null ],
     [ "team", "d1/de2/classFreezeTag.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

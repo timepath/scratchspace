@@ -10,12 +10,15 @@ var classRace =
     [ "describe", "dd/dd0/classRace.html#ae6f43fb252cffabdcb79a863987a5683", null ],
     [ "display", "dd/dd0/classRace.html#a51550ad7b1e68706e89c9a555aa42b22", null ],
     [ "gametype_init", "dd/dd0/classRace.html#aef3a65f4987590d66b653b91180860ca", null ],
+    [ "m_configuremenu", "dd/dd0/classRace.html#ac59eca6da13b78d41f427e6a080c88db", null ],
     [ "m_generate_mapinfo", "dd/dd0/classRace.html#a4145e386d4b4137697bc3c14d1f9ac3c", null ],
     [ "m_isAlwaysSupported", "dd/dd0/classRace.html#a7880c3511ceeabb277b860085f1073ee", null ],
     [ "m_isForcedSupported", "dd/dd0/classRace.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "dd/dd0/classRace.html#a13397714cb41912d55bd54c4eddf76f5", null ],
     [ "m_parse_mapinfo", "dd/dd0/classRace.html#a4ca4c03add94dcfec615bc620cbd8cce", null ],
+    [ "frags", "dd/dd0/classRace.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "dd/dd0/classRace.html#ab19cc492a58b50138d04d98c704e61c7", null ],
     [ "m_id", "dd/dd0/classRace.html#a353db82280437c3b38f0ad1934a7d666", null ],
+    [ "m_legacydefaults", "dd/dd0/classRace.html#a034a4fc92a50d73609686c935bd4b687", null ],
     [ "team", "dd/dd0/classRace.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

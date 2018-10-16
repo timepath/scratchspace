@@ -10,12 +10,15 @@ var classDeathmatch =
     [ "describe", "d8/dd3/classDeathmatch.html#ae6f43fb252cffabdcb79a863987a5683", null ],
     [ "display", "d8/dd3/classDeathmatch.html#a51550ad7b1e68706e89c9a555aa42b22", null ],
     [ "gametype_init", "d8/dd3/classDeathmatch.html#aef3a65f4987590d66b653b91180860ca", null ],
+    [ "m_configuremenu", "d8/dd3/classDeathmatch.html#a949f7846462119cafac10c1fb4aa46ca", null ],
     [ "m_generate_mapinfo", "d8/dd3/classDeathmatch.html#a689c2a1afc56d93f77ebdebad6b168bf", null ],
     [ "m_isAlwaysSupported", "d8/dd3/classDeathmatch.html#a80e71727ec0d6bf7fd74ab184070697c", null ],
     [ "m_isForcedSupported", "d8/dd3/classDeathmatch.html#af1a6db9207b7000984864c8176081b52", null ],
     [ "m_isTwoBaseMode", "d8/dd3/classDeathmatch.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "d8/dd3/classDeathmatch.html#a87258d972a8b677bc431c763afd6e0fb", null ],
+    [ "frags", "d8/dd3/classDeathmatch.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "d8/dd3/classDeathmatch.html#ab19cc492a58b50138d04d98c704e61c7", null ],
     [ "m_id", "d8/dd3/classDeathmatch.html#a353db82280437c3b38f0ad1934a7d666", null ],
+    [ "m_legacydefaults", "d8/dd3/classDeathmatch.html#a8b775d2f320d51836471e17e324002b8", null ],
     [ "team", "d8/dd3/classDeathmatch.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];
