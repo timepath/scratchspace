@@ -1,5 +1,8 @@
 var NAVTREEINDEX114 =
 {
+"dc/dda/classAmmo.html#aaca9d5c571d73c2274a3356ef2fcdc53":[1,0,0,9],
+"dc/dda/classAmmo.html#ac88de49ea35f4990740cb804bbe94f28":[1,0,0,8],
+"dc/dda/classAmmo.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,0,5],
 "dc/dda/classAmmo.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,0,12],
 "dc/ddf/common_2gamemodes_2gamemode_2assault_2__mod_8qh.html":[2,0,1,3,0,0,1],
 "dc/ddf/common_2gamemodes_2gamemode_2assault_2__mod_8qh_source.html":[2,0,1,3,0,0,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX114 =
 "dc/def/vortex_8qc.html":[2,0,1,16,0,40],
 "dc/def/vortex_8qc_source.html":[2,0,1,16,0,40],
 "dc/df0/sv__dynamic__handicap_8qc.html":[2,0,1,10,0,9,2],
-"dc/df0/sv__dynamic__handicap_8qc.html#a20b2a6c9063db0482fe1a8eac7ce0748":[2,0,1,10,0,9,2,7],
-"dc/df0/sv__dynamic__handicap_8qc.html#a2aeafca791bf3d9c9c922cf0bead909c":[2,0,1,10,0,9,2,3],
-"dc/df0/sv__dynamic__handicap_8qc.html#a3701baef0424660c2f8432a86b62be1e":[2,0,1,10,0,9,2,11],
-"dc/df0/sv__dynamic__handicap_8qc.html#a426d883bd1c37632dd429f62d6615608":[2,0,1,10,0,9,2,13]
+"dc/df0/sv__dynamic__handicap_8qc.html#a20b2a6c9063db0482fe1a8eac7ce0748":[2,0,1,10,0,9,2,7]
 };

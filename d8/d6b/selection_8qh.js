@@ -10,8 +10,9 @@ var selection_8qh =
     [ "W_NextWeaponOnImpulse", "d8/d6b/selection_8qh.html#aa9ed52c05bcae706e07b86117f1165df", null ],
     [ "W_PreviousWeapon", "d8/d6b/selection_8qh.html#a0f321b3257e4e705a6d2ad7ad4f00bdf", null ],
     [ "W_SwitchToOtherWeapon", "d8/d6b/selection_8qh.html#ac84b5920c2121ae19b3e269c60244bfd", null ],
-    [ "W_SwitchWeapon", "d8/d6b/selection_8qh.html#a7e2426ae180c23d1a760ea0951ddd2f1", null ],
+    [ "W_SwitchWeapon", "d8/d6b/selection_8qh.html#ae352bd73422975da6158d357ee6fd96b", null ],
     [ "W_SwitchWeapon_Force", "d8/d6b/selection_8qh.html#ab9daa12e545de1878a232e10317b0a0e", null ],
+    [ "W_SwitchWeapon_TryOthers", "d8/d6b/selection_8qh.html#a5b47c201b89b8b6e54e71b63d84f2830", null ],
     [ "hasweapon_complain_spam", "d8/d6b/selection_8qh.html#aeffb5f5c575c97f12381045f6f091403", null ],
     [ "weaponcomplainindex", "d8/d6b/selection_8qh.html#a3daae79918286c9352ba30495957db79", null ]
 ];

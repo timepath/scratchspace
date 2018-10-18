@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"d7/dbb/sv__assault_8qc.html#a6aba73e43c0b74410e84f978addfbc1b":[2,0,1,3,0,0,2,36],
+"d7/dbb/sv__assault_8qc.html#a6b0949e5d4a26c66dc7036e96ab2f3e4":[2,0,1,3,0,0,2,12],
 "d7/dbb/sv__assault_8qc.html#a6d92e52847e213d962c4ec83d92172d5":[2,0,1,3,0,0,2,31],
 "d7/dbb/sv__assault_8qc.html#a6f4edbea3efa7b76739a74aff758b159":[2,0,1,3,0,0,2,44],
 "d7/dbb/sv__assault_8qc.html#a72842c12d593cf3a8ab8639f0aab2f16":[2,0,1,3,0,0,2,43],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "d7/de3/dialog__multiplayer__create_8qc.html#a94bcd6120df81d66b7301391e876efe9":[2,0,5,4,88,3],
 "d7/de3/dialog__multiplayer__create_8qc_source.html":[2,0,5,4,88],
 "d7/de3/pong_8qc.html":[2,0,1,7,0,9],
-"d7/de3/pong_8qc.html#a061e2e80b7d00037922865df3a1223b8":[2,0,1,7,0,9,10],
-"d7/de3/pong_8qc.html#a236510888a4598c95e8f2be4d512a223":[2,0,1,7,0,9,11],
-"d7/de3/pong_8qc.html#a3aa84d8d8617354b2ebe47c33e68999f":[2,0,1,7,0,9,5]
+"d7/de3/pong_8qc.html#a061e2e80b7d00037922865df3a1223b8":[2,0,1,7,0,9,10]
 };

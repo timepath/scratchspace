@@ -1,5 +1,8 @@
 var NAVTREEINDEX132 =
 {
+"df/d30/client_2main_8qc.html#a457fb0914a984ccdfa934d4b5376b495":[2,0,0,15,29],
+"df/d30/client_2main_8qc.html#a46ab77a8e6731f82b57ed43c3fe5eeea":[2,0,0,15,35],
+"df/d30/client_2main_8qc.html#a46d8c3e096c855bf3690956e9ba1e862":[2,0,0,15,3],
 "df/d30/client_2main_8qc.html#a55741734b1484ff2d8f3d76de5e7dc2f":[2,0,0,15,13],
 "df/d30/client_2main_8qc.html#a5ea5788d48177f45ca8b60fcaf5561f7":[2,0,0,15,24],
 "df/d30/client_2main_8qc.html#a626fa4f891c177f48176172aac58dc39":[2,0,0,15,18],
@@ -246,8 +249,5 @@ var NAVTREEINDEX132 =
 "df/d64/throwing_8qc_source.html":[2,0,6,5,14],
 "df/d69/sv__midair_8qh.html":[2,0,1,10,0,17,3],
 "df/d69/sv__midair_8qh_source.html":[2,0,1,10,0,17,3],
-"df/d6c/powerups_8qh.html":[2,0,0,1,0,23],
-"df/d6c/powerups_8qh.html#a0548d6d5f32ee93186047be9beff7348":[2,0,0,1,0,23,0],
-"df/d6c/powerups_8qh_source.html":[2,0,0,1,0,23],
-"df/d6e/classXonoticSingleplayerDialog.html":[1,0,249]
+"df/d6c/powerups_8qh.html":[2,0,0,1,0,23]
 };

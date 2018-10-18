@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"d2/d77/pre_8qh.html#acfc02c0fbdcbeabc16e0464a468b680f":[2,0,2,6,0],
+"d2/d77/pre_8qh.html#ad4c7d5cf3db03e818d037012f8be2d23":[2,0,2,6,8],
 "d2/d77/pre_8qh.html#ae4e6e2f3aae182e05b8706a3d80ebb5a":[2,0,2,6,7],
 "d2/d77/pre_8qh_source.html":[2,0,2,6],
 "d2/d79/scores_8qc.html":[2,0,6,54],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "d2/dac/sv__buffs_8qc.html#aa2b9baeed98377cf9f5add370f7d75e1":[2,0,1,10,0,2,7,4],
 "d2/dac/sv__buffs_8qc.html#aa78312bd62159314cb873fa3f929c644":[2,0,1,10,0,2,7,31],
 "d2/dac/sv__buffs_8qc.html#aa957b53e0a005706f3dc00d4932cb7d4":[2,0,1,10,0,2,7,23],
-"d2/dac/sv__buffs_8qc.html#aacc6f7c849fc64756a890cff7908a32a":[2,0,1,10,0,2,7,39],
-"d2/dac/sv__buffs_8qc.html#ac28f3795113a2f85e8a1547a29e1f99a":[2,0,1,10,0,2,7,41],
-"d2/dac/sv__buffs_8qc.html#ac2c9ef91e30426e385f5797b5d732409":[2,0,1,10,0,2,7,34]
+"d2/dac/sv__buffs_8qc.html#aacc6f7c849fc64756a890cff7908a32a":[2,0,1,10,0,2,7,39]
 };

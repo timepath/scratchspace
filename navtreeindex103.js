@@ -1,5 +1,8 @@
 var NAVTREEINDEX103 =
 {
+"db/d7f/effectinfo_8inc.html#ac20b8f5245ead4599382f1015b682055":[2,0,1,2,7,314],
+"db/d7f/effectinfo_8inc.html#ac28693364383c750f85f7b2a4b9afb9e":[2,0,1,2,7,317],
+"db/d7f/effectinfo_8inc.html#ac2cb4e8e6ec6f3968fb459d983ebdc1c":[2,0,1,2,7,345],
 "db/d7f/effectinfo_8inc.html#ac2fe3dba345548b4bc9db6a6982c050a":[2,0,1,2,7,196],
 "db/d7f/effectinfo_8inc.html#ac352683aa4e78a8fcc21aded10effb3c":[2,0,1,2,7,124],
 "db/d7f/effectinfo_8inc.html#ac3d3a0b44ea1a2c6391a38b9cfda2b24":[2,0,1,2,7,58],
@@ -246,8 +249,5 @@ var NAVTREEINDEX103 =
 "db/da0/log_8qh_source.html":[2,0,4,30],
 "db/da4/common_2mutators_2mutator_2hook_2__mod_8qh.html":[2,0,1,10,0,11,1],
 "db/da4/common_2mutators_2mutator_2hook_2__mod_8qh_source.html":[2,0,1,10,0,11,1],
-"db/da5/common_2gamemodes_2gamemode_2invasion_2__mod_8qh.html":[2,0,1,3,0,8,1],
-"db/da5/common_2gamemodes_2gamemode_2invasion_2__mod_8qh_source.html":[2,0,1,3,0,8,1],
-"db/da5/sv__invasion_8qc.html":[2,0,1,3,0,8,2],
-"db/da5/sv__invasion_8qc.html#a008001822cf0758a7351f712319d04ee":[2,0,1,3,0,8,2,19]
+"db/da5/common_2gamemodes_2gamemode_2invasion_2__mod_8qh.html":[2,0,1,3,0,8,1]
 };

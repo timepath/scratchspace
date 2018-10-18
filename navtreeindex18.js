@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"d2/d4d/clientkill_8qh.html#ad782a8ecd5d72aefee13e592a4906f84":[2,0,6,20,2],
 "d2/d4d/clientkill_8qh_source.html":[2,0,6,20],
 "d2/d52/classEffectInfoGroup.html":[1,0,35],
 "d2/d52/classEffectInfoGroup.html#a043e791cec10eac21aad429adc6edb40":[1,0,35,1],
@@ -57,14 +58,15 @@ var NAVTREEINDEX18 =
 "d2/d5e/registry_8qh.html#ae6f0dc111350c68957c77f16dd9a3da7":[2,0,4,48,9],
 "d2/d5e/registry_8qh_source.html":[2,0,4,48],
 "d2/d62/selection_8qc.html":[2,0,6,5,10],
+"d2/d62/selection_8qc.html#a040fef5835b1141797bcb28e880c7f5a":[2,0,6,5,10,9],
 "d2/d62/selection_8qc.html#a0f321b3257e4e705a6d2ad7ad4f00bdf":[2,0,6,5,10,7],
 "d2/d62/selection_8qc.html#a26a298ee4ff7a3e0706b8892030ecf1a":[2,0,6,5,10,10],
 "d2/d62/selection_8qc.html#a5f709942f88a08901c4e7b646b2dee9b":[2,0,6,5,10,5],
 "d2/d62/selection_8qc.html#a6f9b75f17639bb910d8445a136d4a837":[2,0,6,5,10,1],
 "d2/d62/selection_8qc.html#a6feb08ba7d01d611762b08aeb5dd7dd6":[2,0,6,5,10,2],
-"d2/d62/selection_8qc.html#a8ebba9ca88508abccc39d23b9c40defd":[2,0,6,5,10,11],
+"d2/d62/selection_8qc.html#a8031c259652162f4aeefa9a0fc3183dc":[2,0,6,5,10,11],
+"d2/d62/selection_8qc.html#a8ebba9ca88508abccc39d23b9c40defd":[2,0,6,5,10,12],
 "d2/d62/selection_8qc.html#aa9ed52c05bcae706e07b86117f1165df":[2,0,6,5,10,6],
-"d2/d62/selection_8qc.html#ab8ebfddd0ba2d6a481fdfdf96bb05c51":[2,0,6,5,10,9],
 "d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411":[2,0,6,5,10,0],
 "d2/d62/selection_8qc.html#ac84b5920c2121ae19b3e269c60244bfd":[2,0,6,5,10,8],
 "d2/d62/selection_8qc.html#ad4bf72dfdd0aaeca5bc1da4fb607fb3b":[2,0,6,5,10,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d77/pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1":[2,0,2,6,5],
 "d2/d77/pre_8qh.html#a1b69a3a134506189b3d054e6c6f2896c":[2,0,2,6,2],
 "d2/d77/pre_8qh.html#a21c8e4427c0616d11bc8e6bb66141a73":[2,0,2,6,6],
-"d2/d77/pre_8qh.html#a3f343622b2740c82c96dc62b3028fa9f":[2,0,2,6,1],
-"d2/d77/pre_8qh.html#acfc02c0fbdcbeabc16e0464a468b680f":[2,0,2,6,0],
-"d2/d77/pre_8qh.html#ad4c7d5cf3db03e818d037012f8be2d23":[2,0,2,6,8]
+"d2/d77/pre_8qh.html#a3f343622b2740c82c96dc62b3028fa9f":[2,0,2,6,1]
 };

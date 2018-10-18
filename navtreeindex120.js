@@ -1,5 +1,8 @@
 var NAVTREEINDEX120 =
 {
+"dd/d9a/classXonoticSandboxToolsDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,237,6],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a6d000dd3d64ff4841ee06454f03fd15f":[1,0,237,67],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,237,14],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,237,18],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,237,87],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a817de90f13d13de4c7b07a1886ebce00":[1,0,237,81],
@@ -246,8 +249,5 @@ var NAVTREEINDEX120 =
 "dd/db0/sv__rocketflying_8qc.html#a13915ad0ee78b445f550ece48ae3e808":[2,0,1,10,0,28,2,1],
 "dd/db0/sv__rocketflying_8qc.html#a14ac805a3ee973aa1b7aefab1c56dd85":[2,0,1,10,0,28,2,2],
 "dd/db0/sv__rocketflying_8qc.html#a1b960f04b46f7f044d0110f9acf87cac":[2,0,1,10,0,28,2,3],
-"dd/db0/sv__rocketflying_8qc.html#a45229b427d8c40beaf8a6848bd386a20":[2,0,1,10,0,28,2,0],
-"dd/db0/sv__rocketflying_8qc.html#a4b972fe40a96354f968f5243bec0e961":[2,0,1,10,0,28,2,4],
-"dd/db0/sv__rocketflying_8qc_source.html":[2,0,1,10,0,28,2],
-"dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh.html":[2,0,1,10,0,17,1]
+"dd/db0/sv__rocketflying_8qc.html#a45229b427d8c40beaf8a6848bd386a20":[2,0,1,10,0,28,2,0]
 };

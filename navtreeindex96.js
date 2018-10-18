@@ -1,5 +1,8 @@
 var NAVTREEINDEX96 =
 {
+"da/def/classClanArena.html#aef3a65f4987590d66b653b91180860ca":[1,0,17,9],
+"da/def/classClanArena.html#af1a6db9207b7000984864c8176081b52":[1,0,17,13],
+"da/def/classClanArena.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,17,5],
 "da/df4/announcer_8qc.html":[2,0,0,6],
 "da/df4/announcer_8qc.html#a208f21df98f913db80920e91f35c10b0":[2,0,0,6,4],
 "da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a":[2,0,0,6,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX96 =
 "db/d11/classBumblebee.html#af6f42dcff19b7fb5b76462a7d5848b97":[1,0,11,9],
 "db/d11/classBumblebee.html#af7289e6ce9c0c39635159c491c7d622a":[1,0,11,16],
 "db/d11/classBumblebee.html#af7f5447512b9c7b0f697dd84c35b1040":[1,0,11,12],
-"db/d11/classBumblebee.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,11,0],
-"db/d11/classBumblebee.html#afc7d7ad9b88461bdf5d8a182847ba11d":[1,0,11,28],
-"db/d12/common_2effects_2qc_2__mod_8inc.html":[2,0,1,2,0,0],
-"db/d12/common_2effects_2qc_2__mod_8inc_source.html":[2,0,1,2,0,0]
+"db/d11/classBumblebee.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,11,0]
 };

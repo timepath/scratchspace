@@ -1,5 +1,8 @@
 var NAVTREEINDEX88 =
 {
+"d9/dca/classXonoticCommandButton.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,162,10],
+"d9/dca/classXonoticCommandButton.html#ab8c1f8a33ad8cabc1c88dedb99d6efa4":[1,0,162,14],
+"d9/dca/classXonoticCommandButton.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,162,2],
 "d9/dca/classXonoticCommandButton.html#ac99bbef7da50394f5ed0362e4e2181b1":[1,0,162,50],
 "d9/dca/classXonoticCommandButton.html#ad3916b930a4e2a364ab072d2c3523edf":[1,0,162,5],
 "d9/dca/classXonoticCommandButton.html#ad3fd3842dce4bfe4409e7be7b7d5e5ff":[1,0,162,23],
@@ -246,8 +249,5 @@ var NAVTREEINDEX88 =
 "d9/df0/weaponstats_8qh.html#af22a35d618b56e7fc7f2e71a5de60a3d":[2,0,6,5,19,0],
 "d9/df0/weaponstats_8qh_source.html":[2,0,6,5,19],
 "d9/df2/common_2command_2__mod_8qh.html":[2,0,1,0,1],
-"d9/df2/common_2command_2__mod_8qh_source.html":[2,0,1,0,1],
-"d9/df7/mathlib_8qh.html":[2,0,4,2,9],
-"d9/df7/mathlib_8qh.html#a037789ddb4bd5a1a3e61d73c3de3ec0a":[2,0,4,2,9,51],
-"d9/df7/mathlib_8qh.html#a0468400adec281798a1be036b1bd4f00":[2,0,4,2,9,65]
+"d9/df2/common_2command_2__mod_8qh_source.html":[2,0,1,0,1]
 };

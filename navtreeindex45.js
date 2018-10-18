@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"d4/de8/classRacerAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,114,17],
+"d4/de8/classRacerAttack.html#a312755d5709b880f99cf89d7a76237fe":[1,0,114,4],
 "d4/de8/classRacerAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,114,21],
 "d4/de8/classRacerAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,114,12],
 "d4/de8/classRacerAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,114,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "d5/d14/lib_8qh_source.html":[2,0,3,5],
 "d5/d14/menu_2xonotic_2__mod_8qh.html":[2,0,5,4,1],
 "d5/d14/menu_2xonotic_2__mod_8qh_source.html":[2,0,5,4,1],
-"d5/d14/scores__rules_8qc.html":[2,0,6,56],
-"d5/d14/scores__rules_8qc.html#a62db4b0b1c96e1bd902ca44acc8215cd":[2,0,6,56,5],
-"d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05":[2,0,6,56,3]
+"d5/d14/scores__rules_8qc.html":[2,0,6,56]
 };

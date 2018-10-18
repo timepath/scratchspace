@@ -2,6 +2,7 @@ var client_2main_8qh =
 [
     [ "getcommandkey", "d0/d2a/client_2main_8qh.html#a537681a91350ee056f096009250154e1", null ],
     [ "getcommandkey_forcename", "d0/d2a/client_2main_8qh.html#a2995001977225984118cc464fb5b9b6e", null ],
+    [ "ISGAMETYPE", "d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc", null ],
     [ "_getcommandkey", "d0/d2a/client_2main_8qh.html#af30af57d5ec5027ab9eda0adf24fa567", null ],
     [ "centerprint_generic", "d0/d2a/client_2main_8qh.html#a1b0f2a3ff628c84741514ccd9c7b2334", null ],
     [ "centerprint_hud", "d0/d2a/client_2main_8qh.html#a3af1bb857e7f0803f57f1982580927ff", null ],

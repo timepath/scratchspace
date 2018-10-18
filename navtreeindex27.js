@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"d3/d52/classXonoticResetDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,234,43],
+"d3/d52/classXonoticResetDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,234,65],
 "d3/d52/classXonoticResetDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,234,71],
 "d3/d52/classXonoticResetDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,234,75],
 "d3/d52/classXonoticResetDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,234,63],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d77/shotgun_8qh_source.html":[2,0,1,16,0,35],
 "d3/d78/classAnimHost.html":[1,0,2],
 "d3/d78/classAnimHost.html#a1138a9b635e88f56850b424f5d1860b5":[1,0,2,2],
-"d3/d78/classAnimHost.html#a17baecdbb5c3793fd271a3b76dc02716":[1,0,2,0],
-"d3/d78/classAnimHost.html#a2208a428918ae8e59d2024f84b097e5f":[1,0,2,9],
-"d3/d78/classAnimHost.html#a3f0e2aad6d307e591a6390d1af802c43":[1,0,2,3]
+"d3/d78/classAnimHost.html#a17baecdbb5c3793fd271a3b76dc02716":[1,0,2,0]
 };

@@ -275,6 +275,8 @@ Functions</h2></td></tr>
 <p>Definition at line <a class="el" href="../../de/dc3/teamradar_8qc_source.html#l00129">129</a> of file <a class="el" href="../../de/dc3/teamradar_8qc_source.html">teamradar.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00318">DRAWFLAG_ADDITIVE</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../d0/d84/teamradar_8qh_source.html#l00003">MAX_TEAMRADAR_TIMES</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../de/dc3/teamradar_8qc_source.html#l00010">teamradar_3dcoord_to_texcoord()</a>, <a class="el" href="../../d0/d84/teamradar_8qh_source.html#l00017">teamradar_size</a>, <a class="el" href="../../de/dc3/teamradar_8qc_source.html#l00019">teamradar_texcoord_to_2dcoord()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00074">v</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d83/radar_8qc_source.html#l00166">HUD_Radar()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;{</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    coord = <a class="code" href="../../de/dc3/teamradar_8qc.html#acc159f2fe7a18525736a2d686d7f974f">teamradar_texcoord_to_2dcoord</a>(<a class="code" href="../../de/dc3/teamradar_8qc.html#ab67c3387547f7b4aee8bea85e926244d">teamradar_3dcoord_to_texcoord</a>(coord));</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    drawpic_builtin(coord - <span class="stringliteral">&#39;4 4 0&#39;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;gfx/teamradar_icon_&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(icon.m_radaricon)), <span class="stringliteral">&#39;8 8 0&#39;</span>, rgb, a, 0);</div>
@@ -311,6 +313,16 @@ Functions</h2></td></tr>
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_ad02297956a1dfca47d08bfe1512fc9ec_cgraph.svg" width="558" height="290"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_ad02297956a1dfca47d08bfe1512fc9ec_icgraph.svg" width="302" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -382,21 +394,21 @@ Functions</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_ab8f7213273f7de03df213240376ce9f4"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a></div><div class="ttdeci">vector normalize(vector v)</div></div>
 <div class="ttc" id="color_8qh_html_a34bf2b7bb0a03d25672d3f956f0a23a4"><div class="ttname"><a href="../../de/d11/color_8qh.html#a34bf2b7bb0a03d25672d3f956f0a23a4">colormapPaletteColor</a></div><div class="ttdeci">#define colormapPaletteColor(c, isPants)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d11/color_8qh_source.html#l00005">color.qh:5</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_ae9ba6e1072e311a7403fa46bf7091a79_cgraph.svg" width="555" height="239"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_ae9ba6e1072e311a7403fa46bf7091a79_icgraph.svg" width="299" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -485,11 +497,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_ab8f7213273f7de03df213240376ce9f4"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a></div><div class="ttdeci">vector normalize(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_abc0e012c94ed572a5872822390265cec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a></div><div class="ttdeci">vector v_forward</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">csprogsdefs.qc:31</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_a169f74caee20619f758765f49a29cfc7_cgraph.svg" width="568" height="239"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -523,7 +535,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/dc3/teamradar_8qc_source.html#l00199">199</a> of file <a class="el" href="../../de/dc3/teamradar_8qc_source.html">teamradar.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00056">g_radarlinks</a>, <a class="el" href="../../d8/da6/interpolate_8qh_source.html#l00034">IFLAG_ORIGIN</a>, <a class="el" href="../../d8/da6/interpolate_8qh_source.html#l00025">IFLAG_VELOCITY</a>, <a class="el" href="../../d8/da6/interpolate_8qh_source.html#l00024">iflags</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00054">IL_PUSH()</a>, <a class="el" href="../../d7/d06/interpolate_8qc_source.html#l00037">InterpolateOrigin_Note()</a>, <a class="el" href="../../d7/d06/interpolate_8qc_source.html#l00157">InterpolateOrigin_Undo()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00072">origin</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00096">sendflags</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00026">team</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00103">velocity</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00058">g_radarlinks</a>, <a class="el" href="../../d8/da6/interpolate_8qh_source.html#l00034">IFLAG_ORIGIN</a>, <a class="el" href="../../d8/da6/interpolate_8qh_source.html#l00025">IFLAG_VELOCITY</a>, <a class="el" href="../../d8/da6/interpolate_8qh_source.html#l00024">iflags</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00054">IL_PUSH()</a>, <a class="el" href="../../d7/d06/interpolate_8qc_source.html#l00037">InterpolateOrigin_Note()</a>, <a class="el" href="../../d7/d06/interpolate_8qc_source.html#l00157">InterpolateOrigin_Undo()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00072">origin</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00096">sendflags</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00026">team</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00103">velocity</a>.</p>
 <div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;{</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d3/dd0/self_8qh.html#a60dde61404d8e446ac2ff0b455678262">sendflags</a> = ReadByte();</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
@@ -556,7 +568,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="interpolate_8qc_html_aba40025d8d50d62ac2687367f14df4c0"><div class="ttname"><a href="../../d7/d06/interpolate_8qc.html#aba40025d8d50d62ac2687367f14df4c0">InterpolateOrigin_Note</a></div><div class="ttdeci">void InterpolateOrigin_Note(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d06/interpolate_8qc_source.html#l00037">interpolate.qc:37</a></div></div>
 <div class="ttc" id="interpolate_8qh_html_af7b5d3033d38549c00ab5e033e858911"><div class="ttname"><a href="../../d8/da6/interpolate_8qh.html#af7b5d3033d38549c00ab5e033e858911">iflags</a></div><div class="ttdeci">int iflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da6/interpolate_8qh_source.html#l00024">interpolate.qh:24</a></div></div>
 <div class="ttc" id="interpolate_8qc_html_a899389673f84dccfe9c1c8bc5fc1db25"><div class="ttname"><a href="../../d7/d06/interpolate_8qc.html#a899389673f84dccfe9c1c8bc5fc1db25">InterpolateOrigin_Undo</a></div><div class="ttdeci">void InterpolateOrigin_Undo(entity this)</div><div class="ttdoc">snap origin to iorigin2 (actual origin) </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d06/interpolate_8qc_source.html#l00157">interpolate.qc:157</a></div></div>
-<div class="ttc" id="client_2main_8qh_html_a8f9b7f72557a124c4bdacb09cadec22b"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a8f9b7f72557a124c4bdacb09cadec22b">g_radarlinks</a></div><div class="ttdeci">IntrusiveList g_radarlinks</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00056">main.qh:56</a></div></div>
+<div class="ttc" id="client_2main_8qh_html_a8f9b7f72557a124c4bdacb09cadec22b"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a8f9b7f72557a124c4bdacb09cadec22b">g_radarlinks</a></div><div class="ttdeci">IntrusiveList g_radarlinks</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00058">main.qh:58</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_a06dbc3a3eb5aaab80edf32ea607f1ef3"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a></div><div class="ttdeci">origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00072">ent_cs.qc:72</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="interpolate_8qh_html_a7c4006704a54ac12614479ae53124f32"><div class="ttname"><a href="../../d8/da6/interpolate_8qh.html#a7c4006704a54ac12614479ae53124f32">IFLAG_VELOCITY</a></div><div class="ttdeci">const int IFLAG_VELOCITY</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da6/interpolate_8qh_source.html#l00025">interpolate.qh:25</a></div></div>
@@ -567,11 +579,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a714da6649d97bc92a86a76f1be278180"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a></div><div class="ttdeci">vector velocity</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00103">csprogsdefs.qc:103</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_a532ed8f294844e37cb50d646a922e40a_cgraph.svg" width="486" height="215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -623,21 +635,21 @@ Functions</h2></td></tr>
 <div class="ttc" id="teamradar_8qh_html_ad0f40b5cbab756851e62d0ae118f42cc"><div class="ttname"><a href="../../d0/d84/teamradar_8qh.html#ad0f40b5cbab756851e62d0ae118f42cc">teamradar_origin3d_in_texcoord</a></div><div class="ttdeci">vector teamradar_origin3d_in_texcoord</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/teamradar_8qh_source.html#l00013">teamradar.qh:13</a></div></div>
 <div class="ttc" id="teamradar_8qh_html_a7dd414e634c0312ad0f38d7653b4ca2c"><div class="ttname"><a href="../../d0/d84/teamradar_8qh.html#a7dd414e634c0312ad0f38d7653b4ca2c">teamradar_origin2d</a></div><div class="ttdeci">vector teamradar_origin2d</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/teamradar_8qh_source.html#l00014">teamradar.qh:14</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_ae039c2e84a848ec82816975aa2658438_cgraph.svg" width="363" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_ae039c2e84a848ec82816975aa2658438_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -673,21 +685,21 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_ab67c3387547f7b4aee8bea85e926244d_cgraph.svg" width="270" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_ab67c3387547f7b4aee8bea85e926244d_icgraph.svg" width="512" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -754,11 +766,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="teamradar_8qh_html_ab35c4a878032f79bde72085e74a58c4b"><div class="ttname"><a href="../../d0/d84/teamradar_8qh.html#ab35c4a878032f79bde72085e74a58c4b">hud_panel_radar_rotation</a></div><div class="ttdeci">float hud_panel_radar_rotation</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/teamradar_8qh_source.html#l00022">teamradar.qh:22</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a05547a83051133d14594e82603519b13"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a05547a83051133d14594e82603519b13">autocvar_hud_panel_radar_foreground_alpha</a></div><div class="ttdeci">float autocvar_hud_panel_radar_foreground_alpha</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00311">autocvars.qh:311</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_ad80e64c27e436b0f60d695353d84b3d6_icgraph.svg" width="299" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -807,21 +819,21 @@ Functions</h2></td></tr>
 <div class="ttc" id="teamradar_8qh_html_ad0f40b5cbab756851e62d0ae118f42cc"><div class="ttname"><a href="../../d0/d84/teamradar_8qh.html#ad0f40b5cbab756851e62d0ae118f42cc">teamradar_origin3d_in_texcoord</a></div><div class="ttdeci">vector teamradar_origin3d_in_texcoord</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/teamradar_8qh_source.html#l00013">teamradar.qh:13</a></div></div>
 <div class="ttc" id="teamradar_8qh_html_a7dd414e634c0312ad0f38d7653b4ca2c"><div class="ttname"><a href="../../d0/d84/teamradar_8qh.html#a7dd414e634c0312ad0f38d7653b4ca2c">teamradar_origin2d</a></div><div class="ttdeci">vector teamradar_origin2d</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/teamradar_8qh_source.html#l00014">teamradar.qh:14</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_acc159f2fe7a18525736a2d686d7f974f_cgraph.svg" width="350" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_acc159f2fe7a18525736a2d686d7f974f_icgraph.svg" width="531" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -867,21 +879,21 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_a0bbb90fda4cf263b6dc7bed8ea102b1f_cgraph.svg" width="256" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/dc3/teamradar_8qc_a0bbb90fda4cf263b6dc7bed8ea102b1f_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -895,7 +907,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../de/dc3/teamradar_8qc.html">teamradar.qc</a></li>
-    <li class="footer">Generated on Tue Oct 16 2018 20:48:57 for Xonotic by
+    <li class="footer">Generated on Thu Oct 18 2018 22:53:42 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
