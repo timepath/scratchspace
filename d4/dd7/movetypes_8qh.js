@@ -26,7 +26,7 @@ var movetypes_8qh =
     [ "_Movetype_FlyMove", "d4/dd7/movetypes_8qh.html#a79e4edd38f331d8a2df4fe27b9df91cf", null ],
     [ "_Movetype_LinkEdict", "d4/dd7/movetypes_8qh.html#a08001d7539f498833d366bf73fe26e65", null ],
     [ "_Movetype_LinkEdict_TouchAreaGrid", "d4/dd7/movetypes_8qh.html#a9eab855e43664a019197c6c63e17698b", null ],
-    [ "_Movetype_PushEntity", "d4/dd7/movetypes_8qh.html#a9052cba181c72b3b3e3d49edfd6356f3", null ],
+    [ "_Movetype_PushEntity", "d4/dd7/movetypes_8qh.html#ac2a2788f1bd90de6ef5c48ac86619a6f", null ],
     [ "_Movetype_PushEntityTrace", "d4/dd7/movetypes_8qh.html#a2ad725bc81de4f1ffff07adfb63a64c1", null ],
     [ "_Movetype_UnstickEntity", "d4/dd7/movetypes_8qh.html#a9be12bcd59f3b9ae5f8b7587e917db0f", null ],
     [ "_Movetype_WallFriction", "d4/dd7/movetypes_8qh.html#ad797154b1325fa6f3b8aa5d2224d77b5", null ],

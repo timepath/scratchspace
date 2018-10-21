@@ -981,7 +981,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(<span class="keyword">this</span>))</div>
 <div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;        sv_notice_join(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;</div>
-<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;    this.<a class="code" href="../../df/dd7/server_2client_8qc.html#a75cfcf63e40ea6ecc20f7181b2cebd35">move_qcphysics</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;    this.<a class="code" href="../../df/dd7/server_2client_8qc.html#a75cfcf63e40ea6ecc20f7181b2cebd35">move_qcphysics</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;</div>
 <div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;    <span class="comment">// update physics stats (players can spawn before physics runs)</span></div>
 <div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;    Physics_UpdateStats(<span class="keyword">this</span>);</div>
@@ -3234,7 +3234,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02578">2578</a> of file <a class="el" href="../../df/dd7/server_2client_8qc_source.html">client.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00017">frametime</a>, <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00062">move_movetype</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02576">move_qcphysics</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00098">movetype</a>, <a class="el" href="../../d2/db1/movetypes_8qc_source.html#l00610">Movetype_Physics_NoMatchTicrate()</a>, and <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00135">MOVETYPE_QCPLAYER</a>.</p>
+<p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00017">frametime</a>, <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00062">move_movetype</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02576">move_qcphysics</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00098">movetype</a>, <a class="el" href="../../d2/db1/movetypes_8qc_source.html#l00622">Movetype_Physics_NoMatchTicrate()</a>, and <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00135">MOVETYPE_QCPLAYER</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02600">PlayerPostThink()</a>.</p>
 <div class="fragment"><div class="line"><a name="l02579"></a><span class="lineno"> 2579</span>&#160;{</div>
@@ -3251,7 +3251,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l02590"></a><span class="lineno"> 2590</span>&#160;    <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(<span class="keyword">this</span>).pm_frametime = 0;</div>
 <div class="line"><a name="l02591"></a><span class="lineno"> 2591</span>&#160;}</div>
 <div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
-<div class="ttc" id="movetypes_8qc_html_a9dc4beb8296f404512228731929339d3"><div class="ttname"><a href="../../d2/db1/movetypes_8qc.html#a9dc4beb8296f404512228731929339d3">Movetype_Physics_NoMatchTicrate</a></div><div class="ttdeci">void Movetype_Physics_NoMatchTicrate(entity this, float movedt, bool isclient)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db1/movetypes_8qc_source.html#l00610">movetypes.qc:610</a></div></div>
+<div class="ttc" id="movetypes_8qc_html_a9dc4beb8296f404512228731929339d3"><div class="ttname"><a href="../../d2/db1/movetypes_8qc.html#a9dc4beb8296f404512228731929339d3">Movetype_Physics_NoMatchTicrate</a></div><div class="ttdeci">void Movetype_Physics_NoMatchTicrate(entity this, float movedt, bool isclient)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db1/movetypes_8qc_source.html#l00622">movetypes.qc:622</a></div></div>
 <div class="ttc" id="server_2client_8qc_html_a75cfcf63e40ea6ecc20f7181b2cebd35"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#a75cfcf63e40ea6ecc20f7181b2cebd35">move_qcphysics</a></div><div class="ttdeci">bool move_qcphysics</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd7/server_2client_8qc_source.html#l02576">client.qc:2576</a></div></div>
 <div class="ttc" id="movetypes_8qh_html_abb1ac1b4eea6138162b84796904eb961"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#abb1ac1b4eea6138162b84796904eb961">move_movetype</a></div><div class="ttdeci">float move_movetype</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00062">movetypes.qh:62</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a491da4d42d2639395d76dcf8d9d1dff4"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a></div><div class="ttdeci">float frametime</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00017">csprogsdefs.qc:17</a></div></div>
@@ -7938,7 +7938,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../df/dd7/server_2client_8qc.html">client.qc</a></li>
-    <li class="footer">Generated on Sat Oct 20 2018 18:51:55 for Xonotic by
+    <li class="footer">Generated on Sun Oct 21 2018 00:35:39 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
