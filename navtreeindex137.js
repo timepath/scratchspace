@@ -1,5 +1,17 @@
 var NAVTREEINDEX137 =
 {
+"df/dee/anglestransform_8qh.html#a0e8b572bfcc4dcbdcd63106b1ffbf277":[2,0,4,2,3,6],
+"df/dee/anglestransform_8qh.html#a15af3793156583fd0299d2c7d2029f0c":[2,0,4,2,3,16],
+"df/dee/anglestransform_8qh.html#a2f9e8c363a97f75b165ce584697baaea":[2,0,4,2,3,12],
+"df/dee/anglestransform_8qh.html#a3e15416efc8d5e17ebc24e871037fca3":[2,0,4,2,3,10],
+"df/dee/anglestransform_8qh.html#a3e980438b803ac9b1cc81a157247959d":[2,0,4,2,3,18],
+"df/dee/anglestransform_8qh.html#a6eef2b5d1dcd28a89fa2ab3146011775":[2,0,4,2,3,4],
+"df/dee/anglestransform_8qh.html#a7306b623ecb07a5c62ec3d5b3094e1b7":[2,0,4,2,3,2],
+"df/dee/anglestransform_8qh.html#a750aab23b894604054f58b46a0276c96":[2,0,4,2,3,13],
+"df/dee/anglestransform_8qh.html#a8383340e6af9aad3ed3a36610b98055d":[2,0,4,2,3,9],
+"df/dee/anglestransform_8qh.html#a847652083025638d0721b27759d2ec92":[2,0,4,2,3,15],
+"df/dee/anglestransform_8qh.html#a84a5233ab143cd9654d618b094d4e1b4":[2,0,4,2,3,17],
+"df/dee/anglestransform_8qh.html#aa7b4d823e207f6300ea5503279fb9905":[2,0,4,2,3,19],
 "df/dee/anglestransform_8qh.html#ab16e50b7b9398057b0e28c85b20d6ca5":[2,0,4,2,3,1],
 "df/dee/anglestransform_8qh.html#ab60788299d5604752e91c6e191a8af9f":[2,0,4,2,3,14],
 "df/dee/anglestransform_8qh.html#ab8052308fccf9186235840e7404d9f55":[2,0,4,2,3,21],
@@ -237,17 +249,5 @@ var NAVTREEINDEX137 =
 "df/dfd/easing_8qh.html#a285c6f8d89651804f751c07794d5c09c":[2,0,5,0,7,4],
 "df/dfd/easing_8qh.html#a3e7849ececbf47dc984feb4673ec0a8a":[2,0,5,0,7,5],
 "df/dfd/easing_8qh.html#a56eca0d70f80853b61237989a85dcb77":[2,0,5,0,7,1],
-"df/dfd/easing_8qh.html#a627676a95db0144ff5f4b5c76ac20a0e":[2,0,5,0,7,6],
-"df/dfd/easing_8qh.html#ab54c0bedee1bf5c4fdebecf8aeb1968f":[2,0,5,0,7,3],
-"df/dfd/easing_8qh.html#ad55d1443467c597fd6f9a1dcb5fac862":[2,0,5,0,7,2],
-"df/dfd/easing_8qh_source.html":[2,0,5,0,7],
-"df/dff/plasma__weapon_8qh.html":[2,0,1,14,0,37],
-"df/dff/plasma__weapon_8qh.html#aebb212a865a997894589e58496c3e070":[2,0,1,14,0,37,1],
-"df/dff/plasma__weapon_8qh_source.html":[2,0,1,14,0,37],
-"dir_026fecbde05aca2ce3aaca1260d474bc.html":[2,0,0,1,0],
-"dir_038facabb326e47524555c6946dd7e55.html":[2,0,6,4],
-"dir_041ec6f984a6b19402431933346033dd.html":[2,0,1,15],
-"dir_07eb8bb3d19ce8165a5aaf6eac26591d.html":[2,0,1,10,0,2],
-"dir_08b4cf75afed9a7734ab4c2d9f3e6fae.html":[2,0,0,2],
-"dir_08eb729653096ffb41c6f3b8eed4f2d5.html":[2,0,5,0]
+"df/dfd/easing_8qh.html#a627676a95db0144ff5f4b5c76ac20a0e":[2,0,5,0,7,6]
 };

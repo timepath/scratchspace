@@ -1,5 +1,13 @@
 var NAVTREEINDEX85 =
 {
+"d9/d58/classXonoticResolutionSlider.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,235,61],
+"d9/d58/classXonoticResolutionSlider.html#a214c8d0b487b81321f6052ace4bae550":[1,0,235,1],
+"d9/d58/classXonoticResolutionSlider.html#a22105255fd05dd45cd50264403c6599a":[1,0,235,101],
+"d9/d58/classXonoticResolutionSlider.html#a27b635e0916726012b7e8c4dca05064e":[1,0,235,50],
+"d9/d58/classXonoticResolutionSlider.html#a29c89320843260961f920637db5d3ee1":[1,0,235,14],
+"d9/d58/classXonoticResolutionSlider.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,235,11],
+"d9/d58/classXonoticResolutionSlider.html#a30e76204a36bc7d61d806aad8f0c5ced":[1,0,235,21],
+"d9/d58/classXonoticResolutionSlider.html#a3493da2e0332713e4691ff21cd5ec07b":[1,0,235,65],
 "d9/d58/classXonoticResolutionSlider.html#a365ded1aad15f8cac9448983a229cfe7":[1,0,235,102],
 "d9/d58/classXonoticResolutionSlider.html#a39b77a1923845447d837ff9f399e9aff":[1,0,235,89],
 "d9/d58/classXonoticResolutionSlider.html#a3dec4b76f3643e5645d9ce69b636f3d1":[1,0,235,96],
@@ -241,13 +249,5 @@ var NAVTREEINDEX85 =
 "d9/d67/turret_8qh.html#aba6e4da100ed92cc4a7a40c56871af49":[2,0,1,14,15,4],
 "d9/d67/turret_8qh.html#abab91a6920c9fc02e5030cd6a74bc7ae":[2,0,1,14,15,22],
 "d9/d67/turret_8qh.html#abafa6ebbe55dc23e66eb1096f399972e":[2,0,1,14,15,71],
-"d9/d67/turret_8qh.html#abc4c2c28ec7598f3b6e88e2983bf3290":[2,0,1,14,15,41],
-"d9/d67/turret_8qh.html#ac0834d1edd6182a7b8e06722b2e1083f":[2,0,1,14,15,82],
-"d9/d67/turret_8qh.html#ac092b0b518a3ef61d703005701d6be78":[2,0,1,14,15,49],
-"d9/d67/turret_8qh.html#ac46bb7d81a3be62a644815eef4bbbdd6":[2,0,1,14,15,63],
-"d9/d67/turret_8qh.html#ac4ff4688f92b9bb9dd941e7914c0418e":[2,0,1,14,15,45],
-"d9/d67/turret_8qh.html#ac534dca03d2448d6ce588aee578d5ad9":[2,0,1,14,15,19],
-"d9/d67/turret_8qh.html#ac541faa688eeead026348ad699585d0c":[2,0,1,14,15,97],
-"d9/d67/turret_8qh.html#ac8e921262e96b469ede3950a35b1ddd4":[2,0,1,14,15,95],
-"d9/d67/turret_8qh.html#ac964a012400339635188b11a5f95ffba":[2,0,1,14,15,87]
+"d9/d67/turret_8qh.html#abc4c2c28ec7598f3b6e88e2983bf3290":[2,0,1,14,15,41]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX95 =
 {
+"da/dc1/classXonoticAudioSettingsTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,151,36],
+"da/dc1/classXonoticAudioSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,151,41],
+"da/dc1/classXonoticAudioSettingsTab.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,151,38],
+"da/dc1/classXonoticAudioSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,151,85],
+"da/dc1/classXonoticAudioSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,151,58],
+"da/dc1/classXonoticAudioSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,151,63],
+"da/dc1/classXonoticAudioSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,151,76],
+"da/dc1/classXonoticAudioSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,151,34],
 "da/dc1/classXonoticAudioSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,151,62],
 "da/dc1/classXonoticAudioSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,151,91],
 "da/dc1/classXonoticAudioSettingsTab.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,151,87],
@@ -241,13 +249,5 @@ var NAVTREEINDEX95 =
 "da/def/classClanArena.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,17,8],
 "da/def/classClanArena.html#a689c2a1afc56d93f77ebdebad6b168bf":[1,0,17,11],
 "da/def/classClanArena.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,17,2],
-"da/def/classClanArena.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,17,18],
-"da/def/classClanArena.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,17,4],
-"da/def/classClanArena.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,17,3],
-"da/def/classClanArena.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,17,21],
-"da/def/classClanArena.html#aca750e744e5d1a4d337de74f06a92468":[1,0,17,15],
-"da/def/classClanArena.html#ad37c29a0bbe0c184de1f7584ae36c5ed":[1,0,17,20],
-"da/def/classClanArena.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,17,6],
-"da/def/classClanArena.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,17,7],
-"da/def/classClanArena.html#ae9227aebbcb0aaca925bbdc438958136":[1,0,17,17]
+"da/def/classClanArena.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,17,18]
 };

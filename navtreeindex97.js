@@ -1,5 +1,13 @@
 var NAVTREEINDEX97 =
 {
+"db/d11/classBumblebee.html#ad29884a3f395ad9d49c4eceab06a2957":[1,0,11,6],
+"db/d11/classBumblebee.html#ae466b4d9881e2db910bdb7eafab7b3c3":[1,0,11,22],
+"db/d11/classBumblebee.html#aed5bedf38ef93d6d6acb42d59d515dc7":[1,0,11,21],
+"db/d11/classBumblebee.html#af1e7a9d937de540345fea6c3f4058b0f":[1,0,11,30],
+"db/d11/classBumblebee.html#af6f42dcff19b7fb5b76462a7d5848b97":[1,0,11,9],
+"db/d11/classBumblebee.html#af7289e6ce9c0c39635159c491c7d622a":[1,0,11,16],
+"db/d11/classBumblebee.html#af7f5447512b9c7b0f697dd84c35b1040":[1,0,11,12],
+"db/d11/classBumblebee.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,11,0],
 "db/d11/classBumblebee.html#afc7d7ad9b88461bdf5d8a182847ba11d":[1,0,11,28],
 "db/d12/common_2effects_2qc_2__mod_8inc.html":[2,0,1,2,0,0],
 "db/d12/common_2effects_2qc_2__mod_8inc_source.html":[2,0,1,2,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX97 =
 "db/d29/classXonoticRegisteredSettingsList.html#a565f8d33b46815606f1860162d71339a":[1,0,233,25],
 "db/d29/classXonoticRegisteredSettingsList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,233,12],
 "db/d29/classXonoticRegisteredSettingsList.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,233,30],
-"db/d29/classXonoticRegisteredSettingsList.html#a5ba34a106025be4faae9dff6ae9e763d":[1,0,233,72],
-"db/d29/classXonoticRegisteredSettingsList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,233,20],
-"db/d29/classXonoticRegisteredSettingsList.html#a613fdac3e896f97462f5f85acbaae0d5":[1,0,233,18],
-"db/d29/classXonoticRegisteredSettingsList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,233,31],
-"db/d29/classXonoticRegisteredSettingsList.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,233,7],
-"db/d29/classXonoticRegisteredSettingsList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,233,54],
-"db/d29/classXonoticRegisteredSettingsList.html#a711c93d30da081956701927ec6089fe1":[1,0,233,60],
-"db/d29/classXonoticRegisteredSettingsList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,233,32],
-"db/d29/classXonoticRegisteredSettingsList.html#a764e355b65af202e87289c596432c780":[1,0,233,59]
+"db/d29/classXonoticRegisteredSettingsList.html#a5ba34a106025be4faae9dff6ae9e763d":[1,0,233,72]
 };

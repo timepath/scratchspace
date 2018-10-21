@@ -1,5 +1,13 @@
 var NAVTREEINDEX106 =
 {
+"db/dcc/g__world_8qc.html#a8be822947584a768a2dc80a2e5129043":[2,0,6,27,42],
+"db/dcc/g__world_8qc.html#a8dce5fe1733c12f65d15354bf9d4f3b0":[2,0,6,27,19],
+"db/dcc/g__world_8qc.html#a8de1beddd651b67787ba2753ea71d5b2":[2,0,6,27,1],
+"db/dcc/g__world_8qc.html#a8f7565a7318ba27627a5f2d17d044172":[2,0,6,27,4],
+"db/dcc/g__world_8qc.html#a95bbd6b9aa214a845cb50bbbb44cb939":[2,0,6,27,28],
+"db/dcc/g__world_8qc.html#a96536d95b1e8120e296cc667b543bb0b":[2,0,6,27,64],
+"db/dcc/g__world_8qc.html#a979696d004a9ca8222f40058685320ad":[2,0,6,27,69],
+"db/dcc/g__world_8qc.html#a9e369a2585eeee66299a21fc034e9cc1":[2,0,6,27,10],
 "db/dcc/g__world_8qc.html#aac7f083651dfcb99dbbd8afc5e339233":[2,0,6,27,54],
 "db/dcc/g__world_8qc.html#ab4721c41868f8c9a5e7ac2bc6161b303":[2,0,6,27,40],
 "db/dcc/g__world_8qc.html#ab61dd957a2c44ebabe227060941cb391":[2,0,6,27,12],
@@ -241,13 +249,5 @@ var NAVTREEINDEX106 =
 "db/de8/effectinfo__gentle__particlegibs_8inc.html":[2,0,1,2,15],
 "db/de8/effectinfo__gentle__particlegibs_8inc.html#a5753e509cf8cab9e0d669008e7beacf9":[2,0,1,2,15,0],
 "db/de8/effectinfo__gentle__particlegibs_8inc.html#a791c8254cff0ba6137a154c9f713b7b5":[2,0,1,2,15,3],
-"db/de8/effectinfo__gentle__particlegibs_8inc.html#abae54c99829691b761e2cc31786b0f7a":[2,0,1,2,15,2],
-"db/de8/effectinfo__gentle__particlegibs_8inc.html#ad182bfc5aec87ce49d43bb47d7426e79":[2,0,1,2,15,1],
-"db/de8/effectinfo__gentle__particlegibs_8inc_source.html":[2,0,1,2,15],
-"db/deb/roles_8qc.html":[2,0,6,0,0,0,4],
-"db/deb/roles_8qc.html#a0375becf8030b1b6159611d74c885238":[2,0,6,0,0,0,4,7],
-"db/deb/roles_8qc.html#a03a514f72d64cab07a07c86c2323ef6e":[2,0,6,0,0,0,4,5],
-"db/deb/roles_8qc.html#a0a29d835b1478b985f45d60e02d30c54":[2,0,6,0,0,0,4,0],
-"db/deb/roles_8qc.html#a3e9df5e35d2e1a1d92cb47e72b572d4a":[2,0,6,0,0,0,4,6],
-"db/deb/roles_8qc.html#a4c36d9fcd24202f73d536c95f9bc634e":[2,0,6,0,0,0,4,13]
+"db/de8/effectinfo__gentle__particlegibs_8inc.html#abae54c99829691b761e2cc31786b0f7a":[2,0,1,2,15,2]
 };

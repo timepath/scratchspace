@@ -1,5 +1,13 @@
 var NAVTREEINDEX93 =
 {
+"da/d94/classXonoticSettingsDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,248,18],
+"da/d94/classXonoticSettingsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,248,86],
+"da/d94/classXonoticSettingsDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,248,78],
+"da/d94/classXonoticSettingsDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,248,50],
+"da/d94/classXonoticSettingsDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,248,43],
+"da/d94/classXonoticSettingsDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,248,65],
+"da/d94/classXonoticSettingsDialog.html#a8d4393cba5d9d3dca6c7b0377a6fc3f6":[1,0,248,80],
+"da/d94/classXonoticSettingsDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,248,71],
 "da/d94/classXonoticSettingsDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,248,75],
 "da/d94/classXonoticSettingsDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,248,63],
 "da/d94/classXonoticSettingsDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,248,16],
@@ -241,13 +249,5 @@ var NAVTREEINDEX93 =
 "da/da9/classSpiderAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,131,7],
 "da/da9/classSpiderAttack.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,131,25],
 "da/da9/classSpiderAttack.html#aa0a5f1de6ba7228907295012902a136a":[1,0,131,32],
-"da/da9/classSpiderAttack.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,131,14],
-"da/da9/classSpiderAttack.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,131,1],
-"da/da9/classSpiderAttack.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,131,24],
-"da/da9/classSpiderAttack.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,131,15],
-"da/da9/classSpiderAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,131,13],
-"da/da9/classSpiderAttack.html#aade624faa82ff26da9e51f1be39be298":[1,0,131,26],
-"da/da9/classSpiderAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,131,6],
-"da/da9/classSpiderAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,131,11],
-"da/da9/classSpiderAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,131,8]
+"da/da9/classSpiderAttack.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,131,14]
 };

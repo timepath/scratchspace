@@ -1,5 +1,13 @@
 var NAVTREEINDEX98 =
 {
+"db/d29/classXonoticRegisteredSettingsList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,233,20],
+"db/d29/classXonoticRegisteredSettingsList.html#a613fdac3e896f97462f5f85acbaae0d5":[1,0,233,18],
+"db/d29/classXonoticRegisteredSettingsList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,233,31],
+"db/d29/classXonoticRegisteredSettingsList.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,233,7],
+"db/d29/classXonoticRegisteredSettingsList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,233,54],
+"db/d29/classXonoticRegisteredSettingsList.html#a711c93d30da081956701927ec6089fe1":[1,0,233,60],
+"db/d29/classXonoticRegisteredSettingsList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,233,32],
+"db/d29/classXonoticRegisteredSettingsList.html#a764e355b65af202e87289c596432c780":[1,0,233,59],
 "db/d29/classXonoticRegisteredSettingsList.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,233,13],
 "db/d29/classXonoticRegisteredSettingsList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,233,70],
 "db/d29/classXonoticRegisteredSettingsList.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,233,79],
@@ -241,13 +249,5 @@ var NAVTREEINDEX98 =
 "db/d38/classXonoticSliderCheckBox.html#a4e5f3b4dda55b50588c4fb421585cf94":[1,0,252,68],
 "db/d38/classXonoticSliderCheckBox.html#a551caf43464ecebace012d2b272c7bad":[1,0,252,13],
 "db/d38/classXonoticSliderCheckBox.html#a56159c764874bed976add81f81298c31":[1,0,252,48],
-"db/d38/classXonoticSliderCheckBox.html#a5626cd33050001065cd6ea40d6177b80":[1,0,252,16],
-"db/d38/classXonoticSliderCheckBox.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,252,53],
-"db/d38/classXonoticSliderCheckBox.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,252,23],
-"db/d38/classXonoticSliderCheckBox.html#a5acde129549a09a7c5e99b8bc5555ebd":[1,0,252,28],
-"db/d38/classXonoticSliderCheckBox.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,252,37],
-"db/d38/classXonoticSliderCheckBox.html#a662fbc0a9d1104fe7e00960f25c7d165":[1,0,252,49],
-"db/d38/classXonoticSliderCheckBox.html#a66dc7c080c86babb8a59f97e5a1e82fa":[1,0,252,12],
-"db/d38/classXonoticSliderCheckBox.html#a6c1cc42796dfc8787fb58ce0945fb6ea":[1,0,252,27],
-"db/d38/classXonoticSliderCheckBox.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,252,8]
+"db/d38/classXonoticSliderCheckBox.html#a5626cd33050001065cd6ea40d6177b80":[1,0,252,16]
 };

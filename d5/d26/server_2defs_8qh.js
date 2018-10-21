@@ -81,6 +81,8 @@ var server_2defs_8qh =
     [ "cvar_cl_physics", "d5/d26/server_2defs_8qh.html#a5b37f6d6590607d860c95fe8e8d2825a", null ],
     [ "cvar_cl_voice_directional", "d5/d26/server_2defs_8qh.html#a3e23c99b6aac8bdae683662f1758ada1", null ],
     [ "cvar_cl_voice_directional_taunt_attenuation", "d5/d26/server_2defs_8qh.html#ad3c646b1a384158634a41a50d44fa5ee", null ],
+    [ "cvar_cl_weapon_switch_fallback_to_impulse", "d5/d26/server_2defs_8qh.html#aa6620e04794c22225c420e4c5a963fd3", null ],
+    [ "cvar_cl_weapon_switch_reload", "d5/d26/server_2defs_8qh.html#a8ce0faf3e0327dfd21b01086a77df791", null ],
     [ "cvar_cl_weaponimpulsemode", "d5/d26/server_2defs_8qh.html#ad277f45f5b374b2a3ec7d6c2259dc2b4", null ],
     [ "cvar_cl_weaponpriorities", "d5/d26/server_2defs_8qh.html#a5babf489842d0146673e3e9b26a791c0", null ],
     [ "cvar_cl_weaponpriority", "d5/d26/server_2defs_8qh.html#a3a621acc5bcc0632bf084abe282f4c5e", null ],

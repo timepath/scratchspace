@@ -1,5 +1,11 @@
 var NAVTREEINDEX44 =
 {
+"d4/db7/cl__minigames_8qc.html#a1f6ef69cdb8e81bc1e15fabab69263ad":[2,0,1,7,3,12],
+"d4/db7/cl__minigames_8qc.html#a2bfa41f483dd2261456f0d4dfd480ca3":[2,0,1,7,3,13],
+"d4/db7/cl__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7":[2,0,1,7,3,0],
+"d4/db7/cl__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7":[2,0,1,7,3,1],
+"d4/db7/cl__minigames_8qc.html#a3248db1aa7a2ca4c46e7cbe9e220b3f2":[2,0,1,7,3,19],
+"d4/db7/cl__minigames_8qc.html#a37ea072c5a8a7cfd95436fae838b9c52":[2,0,1,7,3,6],
 "d4/db7/cl__minigames_8qc.html#a3b4976c5caa2806d8bf77936fb1173c1":[2,0,1,7,3,29],
 "d4/db7/cl__minigames_8qc.html#a3f50d48603ccc5c4949bf5d84b0daa78":[2,0,1,7,3,31],
 "d4/db7/cl__minigames_8qc.html#a494190b92b736511115345e0437821b6":[2,0,1,7,3,16],
@@ -78,14 +84,14 @@ var NAVTREEINDEX44 =
 "d4/dcc/skin_8qh.html":[2,0,5,19],
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,5,19,4],
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,5,19,5],
-"d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,19,1],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,19,0],
+"d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,19,1],
 "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,19,3],
 "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,19,2],
-"d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,19,9],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,19,8],
-"d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,19,7],
+"d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,19,9],
 "d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,19,6],
+"d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,19,7],
 "d4/dcc/skin_8qh_source.html":[2,0,5,19],
 "d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc.html":[2,0,1,10,0,28,0],
 "d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc_source.html":[2,0,1,10,0,28,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX44 =
 "d4/ddc/monster_8qh_source.html":[2,0,1,9,5],
 "d4/dde/voicescript_8qh.html":[2,0,1,6,2,19],
 "d4/dde/voicescript_8qh_source.html":[2,0,1,6,2,19],
-"d4/de5/client_2hud_2panel_2physics_8qh.html":[2,0,0,1,0,21],
-"d4/de5/client_2hud_2panel_2physics_8qh_source.html":[2,0,0,1,0,21],
-"d4/de8/classRacerAttack.html":[1,0,114],
-"d4/de8/classRacerAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,114,36],
-"d4/de8/classRacerAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,114,20],
-"d4/de8/classRacerAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,114,19],
-"d4/de8/classRacerAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,114,33]
+"d4/de5/client_2hud_2panel_2physics_8qh.html":[2,0,0,1,0,21]
 };

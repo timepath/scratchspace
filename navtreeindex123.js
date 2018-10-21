@@ -1,5 +1,15 @@
 var NAVTREEINDEX123 =
 {
+"de/d0c/classDamageText.html#a40af78a51b4e68605dc9079e5b6c34b9":[1,0,25,16],
+"de/d0c/classDamageText.html#a48cbef0feb76ac585c931dbc47c2dc97":[1,0,25,21],
+"de/d0c/classDamageText.html#a65f22853f37f14deba2d878d3dcacded":[1,0,25,1],
+"de/d0c/classDamageText.html#a6849153fc604a5bced7c74d7a52ccd92":[1,0,25,13],
+"de/d0c/classDamageText.html#a6c1713c1ec4ddf63ec1134423d0a8b99":[1,0,25,10],
+"de/d0c/classDamageText.html#a72d6238a28d367c6b1315b01674d691c":[1,0,25,18],
+"de/d0c/classDamageText.html#a7782a3053d6f6ee7279746b02edfcf4d":[1,0,25,12],
+"de/d0c/classDamageText.html#a8422fc97bfd57ab9a4f5373ea2868f4d":[1,0,25,20],
+"de/d0c/classDamageText.html#a8d3a832a231b46109547156eaf7dd0ec":[1,0,25,4],
+"de/d0c/classDamageText.html#a95a7a03c14103583821720970c1830eb":[1,0,25,3],
 "de/d0c/classDamageText.html#a9645f7d63653fc889f97f6c27963e8a2":[1,0,25,11],
 "de/d0c/classDamageText.html#ab08d815b69e6b2fde74a2f6703442ffc":[1,0,25,9],
 "de/d0c/classDamageText.html#aca8978475a45b3a88f27984419c2d7c8":[1,0,25,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX123 =
 "de/d42/classXonoticCheckBox.html#a22ef5ac27f9f844bb1cb269ccb417594":[1,0,157,39],
 "de/d42/classXonoticCheckBox.html#a257f9c325381f4b29b5c7acbaa0ba5ae":[1,0,157,23],
 "de/d42/classXonoticCheckBox.html#a27b635e0916726012b7e8c4dca05064e":[1,0,157,41],
-"de/d42/classXonoticCheckBox.html#a29ef318627232b8879b7e81131f937f7":[1,0,157,2],
-"de/d42/classXonoticCheckBox.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,157,16],
-"de/d42/classXonoticCheckBox.html#a30e76204a36bc7d61d806aad8f0c5ced":[1,0,157,21],
-"de/d42/classXonoticCheckBox.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,157,81],
-"de/d42/classXonoticCheckBox.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,157,75],
-"de/d42/classXonoticCheckBox.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,157,65],
-"de/d42/classXonoticCheckBox.html#a3f9c5e6943891f335099fe380661b70c":[1,0,157,32],
-"de/d42/classXonoticCheckBox.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,157,68],
-"de/d42/classXonoticCheckBox.html#a47dc7659527e9bd3a1b42da1d9de7102":[1,0,157,62],
-"de/d42/classXonoticCheckBox.html#a48cb7ef12145dc9cc085ddcaae312fe5":[1,0,157,64],
-"de/d42/classXonoticCheckBox.html#a4985255a6e0984252ab7ccedd6347d5b":[1,0,157,47]
+"de/d42/classXonoticCheckBox.html#a29ef318627232b8879b7e81131f937f7":[1,0,157,2]
 };

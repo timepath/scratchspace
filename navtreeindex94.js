@@ -1,5 +1,13 @@
 var NAVTREEINDEX94 =
 {
+"da/da9/classSpiderAttack.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,131,1],
+"da/da9/classSpiderAttack.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,131,24],
+"da/da9/classSpiderAttack.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,131,15],
+"da/da9/classSpiderAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,131,13],
+"da/da9/classSpiderAttack.html#aade624faa82ff26da9e51f1be39be298":[1,0,131,26],
+"da/da9/classSpiderAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,131,6],
+"da/da9/classSpiderAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,131,11],
+"da/da9/classSpiderAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,131,8],
 "da/da9/classSpiderAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,131,39],
 "da/da9/classSpiderAttack.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,131,3],
 "da/da9/classSpiderAttack.html#ad21b378ac5d2468f18b0314367640fbc":[1,0,131,34],
@@ -241,13 +249,5 @@ var NAVTREEINDEX94 =
 "da/dc1/classXonoticAudioSettingsTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,151,47],
 "da/dc1/classXonoticAudioSettingsTab.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,151,56],
 "da/dc1/classXonoticAudioSettingsTab.html#ac4bb854e279de0577aac67b476bc7dc1":[1,0,151,27],
-"da/dc1/classXonoticAudioSettingsTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,151,0],
-"da/dc1/classXonoticAudioSettingsTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,151,36],
-"da/dc1/classXonoticAudioSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,151,41],
-"da/dc1/classXonoticAudioSettingsTab.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,151,38],
-"da/dc1/classXonoticAudioSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,151,85],
-"da/dc1/classXonoticAudioSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,151,58],
-"da/dc1/classXonoticAudioSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,151,63],
-"da/dc1/classXonoticAudioSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,151,76],
-"da/dc1/classXonoticAudioSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,151,34]
+"da/dc1/classXonoticAudioSettingsTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,151,0]
 };

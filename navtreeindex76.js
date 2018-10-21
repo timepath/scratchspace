@@ -1,5 +1,13 @@
 var NAVTREEINDEX76 =
 {
+"d8/d8a/classXonoticDamageTextSettings.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,169,32],
+"d8/d8a/classXonoticDamageTextSettings.html#a331c55a30b4bc22951a251062508326b":[1,0,169,25],
+"d8/d8a/classXonoticDamageTextSettings.html#a341abe470ef9e332df40dc7223deff5a":[1,0,169,18],
+"d8/d8a/classXonoticDamageTextSettings.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,169,33],
+"d8/d8a/classXonoticDamageTextSettings.html#a362e89e4a7d913cf830c56fc477456be":[1,0,169,50],
+"d8/d8a/classXonoticDamageTextSettings.html#a39b77a1923845447d837ff9f399e9aff":[1,0,169,87],
+"d8/d8a/classXonoticDamageTextSettings.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,169,2],
+"d8/d8a/classXonoticDamageTextSettings.html#a3f9c5e6943891f335099fe380661b70c":[1,0,169,43],
 "d8/d8a/classXonoticDamageTextSettings.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,169,17],
 "d8/d8a/classXonoticDamageTextSettings.html#a4869983b8dc750584479ade5447c8413":[1,0,169,26],
 "d8/d8a/classXonoticDamageTextSettings.html#a4ad8d403de20048384fe85b379309436":[1,0,169,76],
@@ -241,13 +249,5 @@ var NAVTREEINDEX76 =
 "d8/da4/classInputContainer.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,57,18],
 "d8/da4/classInputContainer.html#a331c55a30b4bc22951a251062508326b":[1,0,57,13],
 "d8/da4/classInputContainer.html#a362e89e4a7d913cf830c56fc477456be":[1,0,57,34],
-"d8/da4/classInputContainer.html#a39b77a1923845447d837ff9f399e9aff":[1,0,57,44],
-"d8/da4/classInputContainer.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,57,1],
-"d8/da4/classInputContainer.html#a3f9c5e6943891f335099fe380661b70c":[1,0,57,28],
-"d8/da4/classInputContainer.html#a4869983b8dc750584479ade5447c8413":[1,0,57,14],
-"d8/da4/classInputContainer.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,57,15],
-"d8/da4/classInputContainer.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,57,17],
-"d8/da4/classInputContainer.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,57,23],
-"d8/da4/classInputContainer.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,57,31],
-"d8/da4/classInputContainer.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,57,5]
+"d8/da4/classInputContainer.html#a39b77a1923845447d837ff9f399e9aff":[1,0,57,44]
 };

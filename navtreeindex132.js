@@ -1,5 +1,17 @@
 var NAVTREEINDEX132 =
 {
+"df/d30/client_2main_8qc.html#a0ea74b0011b3f41a4e0f744608765323":[2,0,0,15,14],
+"df/d30/client_2main_8qc.html#a0f5ebfcfdad6b51d2604d613119d289f":[2,0,0,15,30],
+"df/d30/client_2main_8qc.html#a1074345dcdd4fb944413bf5ac575fd0b":[2,0,0,15,15],
+"df/d30/client_2main_8qc.html#a14c98f605ea44a820ec9c04575f50b59":[2,0,0,15,6],
+"df/d30/client_2main_8qc.html#a17432988ef7a28b058fec9318b29fea3":[2,0,0,15,11],
+"df/d30/client_2main_8qc.html#a1d922be75e197cf896ed7a7b95979296":[2,0,0,15,12],
+"df/d30/client_2main_8qc.html#a1e55c54aad85b1c6f6c8ef2fc91b1c6d":[2,0,0,15,32],
+"df/d30/client_2main_8qc.html#a33415c58794cf70af080dcfa3213a501":[2,0,0,15,41],
+"df/d30/client_2main_8qc.html#a354256327d864c9cb61a6a33dcc7e9f3":[2,0,0,15,19],
+"df/d30/client_2main_8qc.html#a374deadb3d19478a9370dff0c498c6e6":[2,0,0,15,5],
+"df/d30/client_2main_8qc.html#a39ffefc27ab1926e8e31d7c136a4035d":[2,0,0,15,21],
+"df/d30/client_2main_8qc.html#a3a4d75b1666fc0c35a999aae66cf6fd2":[2,0,0,15,16],
 "df/d30/client_2main_8qc.html#a457fb0914a984ccdfa934d4b5376b495":[2,0,0,15,29],
 "df/d30/client_2main_8qc.html#a46ab77a8e6731f82b57ed43c3fe5eeea":[2,0,0,15,35],
 "df/d30/client_2main_8qc.html#a46d8c3e096c855bf3690956e9ba1e862":[2,0,0,15,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX132 =
 "df/d61/sv__random__gravity_8qc.html#a7ea5031dc2dc5b5dd9fb0e4b718fd1ec":[2,0,1,10,0,26,2,7],
 "df/d61/sv__random__gravity_8qc.html#af47c54833d29c54228f0e88ab4a5fa43":[2,0,1,10,0,26,2,0],
 "df/d61/sv__random__gravity_8qc.html#af918ad05520eed3a58fa4072cc3091a6":[2,0,1,10,0,26,2,6],
-"df/d61/sv__random__gravity_8qc.html#afa477797c8ed6e783c4cbcac004c15a7":[2,0,1,10,0,26,2,2],
-"df/d61/sv__random__gravity_8qc.html#afb13caba3ca363c92b43e858b3084639":[2,0,1,10,0,26,2,8],
-"df/d61/sv__random__gravity_8qc_source.html":[2,0,1,10,0,26,2],
-"df/d64/throwing_8qc.html":[2,0,6,5,14],
-"df/d64/throwing_8qc.html#a05eb21093e88700cf4449c10e7cf4b1b":[2,0,6,5,14,4],
-"df/d64/throwing_8qc.html#a3b40c07507228066f600ea2861c78c88":[2,0,6,5,14,0],
-"df/d64/throwing_8qc.html#a4f3e2059bf4df2dedf5cce1c3e2350fa":[2,0,6,5,14,1],
-"df/d64/throwing_8qc.html#a778182823de27a000b41c8d47963036d":[2,0,6,5,14,2],
-"df/d64/throwing_8qc.html#ac1203fc8c2d30ac799d34c06c456d7dc":[2,0,6,5,14,3],
-"df/d64/throwing_8qc_source.html":[2,0,6,5,14],
-"df/d69/sv__midair_8qh.html":[2,0,1,10,0,17,3],
-"df/d69/sv__midair_8qh_source.html":[2,0,1,10,0,17,3],
-"df/d6c/powerups_8qh.html":[2,0,0,1,0,23]
+"df/d61/sv__random__gravity_8qc.html#afa477797c8ed6e783c4cbcac004c15a7":[2,0,1,10,0,26,2,2]
 };

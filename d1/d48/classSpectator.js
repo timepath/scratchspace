@@ -68,6 +68,8 @@ var classSpectator =
     [ "cvar_cl_spawn_near_teammate", "d1/d48/classSpectator.html#a52e9dc37c381169e1b9d1b491050dab8", null ],
     [ "cvar_cl_voice_directional", "d1/d48/classSpectator.html#a8c608dc8fc22fe4c04c79e744f19daae", null ],
     [ "cvar_cl_voice_directional_taunt_attenuation", "d1/d48/classSpectator.html#afbcb6d31b9c6a03aa69d726ea7fe9784", null ],
+    [ "cvar_cl_weapon_switch_fallback_to_impulse", "d1/d48/classSpectator.html#a429473e62b50c2b2ec6680051a1e8f1b", null ],
+    [ "cvar_cl_weapon_switch_reload", "d1/d48/classSpectator.html#a1246e3afcd8e70b9a60abeeb709a0d23", null ],
     [ "cvar_cl_weaponimpulsemode", "d1/d48/classSpectator.html#af21e04f2cdb01e08ac61542f9ceaa538", null ],
     [ "cvar_cl_weaponpriorities", "d1/d48/classSpectator.html#a5903158f43e01ded75a88f624294d288", null ],
     [ "cvar_cl_weaponpriority", "d1/d48/classSpectator.html#a532c4faed18d8eaa90e6b872b5f0fa63", null ],
