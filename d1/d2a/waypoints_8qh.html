@@ -410,27 +410,27 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01652">1652</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01653">1653</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/d74/cvars_8qh_source.html#l00059">autocvar_g_waypointeditor_auto</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01557">botframe_autowaypoints_fix()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01572">botframe_deleteuselesswaypoints()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, and <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>.</p>
-<div class="fragment"><div class="line"><a name="l01653"></a><span class="lineno"> 1653</span>&#160;{</div>
-<div class="line"><a name="l01654"></a><span class="lineno"> 1654</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; !<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(it), {</div>
-<div class="line"><a name="l01655"></a><span class="lineno"> 1655</span>&#160;        <span class="comment">// going back is broken, so only fix waypoints to walk TO the player</span></div>
-<div class="line"><a name="l01656"></a><span class="lineno"> 1656</span>&#160;        <span class="comment">//botframe_autowaypoints_fix(p, false, botframe_autowaypoints_lastwp0);</span></div>
-<div class="line"><a name="l01657"></a><span class="lineno"> 1657</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#a01e8fff3ff689e909ba40e64f7a65053">botframe_autowaypoints_fix</a>(it, <span class="keyword">true</span>, <a class="code" href="../../d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866">botframe_autowaypoints_lastwp1</a>);</div>
-<div class="line"><a name="l01658"></a><span class="lineno"> 1658</span>&#160;        <span class="comment">//te_explosion(p.botframe_autowaypoints_lastwp0.origin);</span></div>
-<div class="line"><a name="l01659"></a><span class="lineno"> 1659</span>&#160;    });</div>
-<div class="line"><a name="l01660"></a><span class="lineno"> 1660</span>&#160;</div>
-<div class="line"><a name="l01661"></a><span class="lineno"> 1661</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756">autocvar_g_waypointeditor_auto</a> &gt;= 2) {</div>
-<div class="line"><a name="l01662"></a><span class="lineno"> 1662</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#a4f04a7e429856a63db83b70e53d92a30">botframe_deleteuselesswaypoints</a>();</div>
-<div class="line"><a name="l01663"></a><span class="lineno"> 1663</span>&#160;    }</div>
-<div class="line"><a name="l01664"></a><span class="lineno"> 1664</span>&#160;}</div>
+<p>References <a class="el" href="../../d6/d74/cvars_8qh_source.html#l00059">autocvar_g_waypointeditor_auto</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01558">botframe_autowaypoints_fix()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01573">botframe_deleteuselesswaypoints()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, and <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>.</p>
+<div class="fragment"><div class="line"><a name="l01654"></a><span class="lineno"> 1654</span>&#160;{</div>
+<div class="line"><a name="l01655"></a><span class="lineno"> 1655</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; !<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(it), {</div>
+<div class="line"><a name="l01656"></a><span class="lineno"> 1656</span>&#160;        <span class="comment">// going back is broken, so only fix waypoints to walk TO the player</span></div>
+<div class="line"><a name="l01657"></a><span class="lineno"> 1657</span>&#160;        <span class="comment">//botframe_autowaypoints_fix(p, false, botframe_autowaypoints_lastwp0);</span></div>
+<div class="line"><a name="l01658"></a><span class="lineno"> 1658</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#a01e8fff3ff689e909ba40e64f7a65053">botframe_autowaypoints_fix</a>(it, <span class="keyword">true</span>, <a class="code" href="../../d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866">botframe_autowaypoints_lastwp1</a>);</div>
+<div class="line"><a name="l01659"></a><span class="lineno"> 1659</span>&#160;        <span class="comment">//te_explosion(p.botframe_autowaypoints_lastwp0.origin);</span></div>
+<div class="line"><a name="l01660"></a><span class="lineno"> 1660</span>&#160;    });</div>
+<div class="line"><a name="l01661"></a><span class="lineno"> 1661</span>&#160;</div>
+<div class="line"><a name="l01662"></a><span class="lineno"> 1662</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756">autocvar_g_waypointeditor_auto</a> &gt;= 2) {</div>
+<div class="line"><a name="l01663"></a><span class="lineno"> 1663</span>&#160;        <a class="code" href="../../d7/dc4/waypoints_8qc.html#a4f04a7e429856a63db83b70e53d92a30">botframe_deleteuselesswaypoints</a>();</div>
+<div class="line"><a name="l01664"></a><span class="lineno"> 1664</span>&#160;    }</div>
+<div class="line"><a name="l01665"></a><span class="lineno"> 1665</span>&#160;}</div>
 <div class="ttc" id="utils_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00046">utils.qh:46</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_a01e8fff3ff689e909ba40e64f7a65053"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a01e8fff3ff689e909ba40e64f7a65053">botframe_autowaypoints_fix</a></div><div class="ttdeci">void botframe_autowaypoints_fix(entity p, float walkfromwp,.entity fld)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01557">waypoints.qc:1557</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_a01e8fff3ff689e909ba40e64f7a65053"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a01e8fff3ff689e909ba40e64f7a65053">botframe_autowaypoints_fix</a></div><div class="ttdeci">void botframe_autowaypoints_fix(entity p, float walkfromwp,.entity fld)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01558">waypoints.qc:1558</a></div></div>
 <div class="ttc" id="utils_8qh_html_a8069d572672171c56fdffd290ed4979d"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a></div><div class="ttdeci">#define IS_REAL_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00017">utils.qh:17</a></div></div>
 <div class="ttc" id="cvars_8qh_html_a86f217891f6f79f282dfb6407961e756"><div class="ttname"><a href="../../d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756">autocvar_g_waypointeditor_auto</a></div><div class="ttdeci">int autocvar_g_waypointeditor_auto</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/cvars_8qh_source.html#l00059">cvars.qh:59</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_a5315bf22974e39f68c425217cc1cf866"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866">botframe_autowaypoints_lastwp1</a></div><div class="ttdeci">entity botframe_autowaypoints_lastwp1</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01556">waypoints.qc:1556</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_a4f04a7e429856a63db83b70e53d92a30"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a4f04a7e429856a63db83b70e53d92a30">botframe_deleteuselesswaypoints</a></div><div class="ttdeci">void botframe_deleteuselesswaypoints()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01572">waypoints.qc:1572</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_a5315bf22974e39f68c425217cc1cf866"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866">botframe_autowaypoints_lastwp1</a></div><div class="ttdeci">entity botframe_autowaypoints_lastwp1</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01557">waypoints.qc:1557</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_a4f04a7e429856a63db83b70e53d92a30"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a4f04a7e429856a63db83b70e53d92a30">botframe_deleteuselesswaypoints</a></div><div class="ttdeci">void botframe_deleteuselesswaypoints()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01573">waypoints.qc:1573</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
 <div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
 </div><!-- fragment -->
@@ -459,49 +459,49 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01367">1367</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01368">1368</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00015">botframe_waypointeditorlightningtime</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00009">IS_ONGROUND</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01010">navigation_findnearestwaypoint()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../de/d70/common_2physics_2player_8qh_source.html#l00102">PHYS_INPUT_BUTTON_CROUCH</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00004">WATERLEVEL_NONE</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01347">waypoint_showlinks_from()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01338">waypoint_showlinks_to()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01368"></a><span class="lineno"> 1368</span>&#160;{</div>
-<div class="line"><a name="l01369"></a><span class="lineno"> 1369</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; <a class="code" href="../../d1/d2a/waypoints_8qh.html#a80fe1ab0339096321eaecb2bccfc283d">botframe_waypointeditorlightningtime</a>)</div>
-<div class="line"><a name="l01370"></a><span class="lineno"> 1370</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01371"></a><span class="lineno"> 1371</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a80fe1ab0339096321eaecb2bccfc283d">botframe_waypointeditorlightningtime</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.5;</div>
-<div class="line"><a name="l01372"></a><span class="lineno"> 1372</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; !it.isbot,</div>
-<div class="line"><a name="l01373"></a><span class="lineno"> 1373</span>&#160;    {</div>
-<div class="line"><a name="l01374"></a><span class="lineno"> 1374</span>&#160;        <span class="keywordtype">int</span> display_type = 0;</div>
-<div class="line"><a name="l01375"></a><span class="lineno"> 1375</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> head = <a class="code" href="../../db/d15/api_8qh.html#a1e85d59acc7aee165d5cb268454a594c">navigation_findnearestwaypoint</a>(it, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l01376"></a><span class="lineno"> 1376</span>&#160;        it.nearestwaypoint = head; <span class="comment">// mainly useful for debug</span></div>
-<div class="line"><a name="l01377"></a><span class="lineno"> 1377</span>&#160;        it.nearestwaypointtimeout = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 2; <span class="comment">// while I&#39;m at it...</span></div>
-<div class="line"><a name="l01378"></a><span class="lineno"> 1378</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27">IS_ONGROUND</a>(it) || it.waterlevel &gt; <a class="code" href="../../d4/dd7/movetypes_8qh.html#a4bec948f47848ed35986ca695c61f431">WATERLEVEL_NONE</a>)</div>
-<div class="line"><a name="l01379"></a><span class="lineno"> 1379</span>&#160;            display_type = 1; <span class="comment">// default</span></div>
-<div class="line"><a name="l01380"></a><span class="lineno"> 1380</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(head &amp;&amp; (head.wphardwired))</div>
-<div class="line"><a name="l01381"></a><span class="lineno"> 1381</span>&#160;            display_type = 2; <span class="comment">// only hardwired</span></div>
-<div class="line"><a name="l01382"></a><span class="lineno"> 1382</span>&#160;</div>
-<div class="line"><a name="l01383"></a><span class="lineno"> 1383</span>&#160;        if (display_type)</div>
-<div class="line"><a name="l01384"></a><span class="lineno"> 1384</span>&#160;        {</div>
-<div class="line"><a name="l01385"></a><span class="lineno"> 1385</span>&#160;            <span class="comment">//navigation_testtracewalk = true;</span></div>
-<div class="line"><a name="l01386"></a><span class="lineno"> 1386</span>&#160;            <span class="comment">//print(&quot;currently selected WP is &quot;, etos(head), &quot;\n&quot;);</span></div>
-<div class="line"><a name="l01387"></a><span class="lineno"> 1387</span>&#160;            <span class="comment">//navigation_testtracewalk = false;</span></div>
-<div class="line"><a name="l01388"></a><span class="lineno"> 1388</span>&#160;            <span class="keywordflow">if</span> (head)</div>
-<div class="line"><a name="l01389"></a><span class="lineno"> 1389</span>&#160;            {</div>
-<div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;                te_lightning2(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, head.origin, it.origin);</div>
-<div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9">PHYS_INPUT_BUTTON_CROUCH</a>(it))</div>
-<div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;                    <a class="code" href="../../d7/dc4/waypoints_8qc.html#aa65277b30188b03e609312d6e9134be6">waypoint_showlinks_to</a>(head, display_type);</div>
-<div class="line"><a name="l01393"></a><span class="lineno"> 1393</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01394"></a><span class="lineno"> 1394</span>&#160;                    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a7b0c20d01c7d531cfc611c5092ecac99">waypoint_showlinks_from</a>(head, display_type);</div>
-<div class="line"><a name="l01395"></a><span class="lineno"> 1395</span>&#160;            }</div>
-<div class="line"><a name="l01396"></a><span class="lineno"> 1396</span>&#160;        }</div>
-<div class="line"><a name="l01397"></a><span class="lineno"> 1397</span>&#160;    });</div>
-<div class="line"><a name="l01398"></a><span class="lineno"> 1398</span>&#160;}</div>
+<p>References <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00015">botframe_waypointeditorlightningtime</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00009">IS_ONGROUND</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01010">navigation_findnearestwaypoint()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../de/d70/common_2physics_2player_8qh_source.html#l00102">PHYS_INPUT_BUTTON_CROUCH</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00004">WATERLEVEL_NONE</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01348">waypoint_showlinks_from()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01339">waypoint_showlinks_to()</a>.</p>
+<div class="fragment"><div class="line"><a name="l01369"></a><span class="lineno"> 1369</span>&#160;{</div>
+<div class="line"><a name="l01370"></a><span class="lineno"> 1370</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; <a class="code" href="../../d1/d2a/waypoints_8qh.html#a80fe1ab0339096321eaecb2bccfc283d">botframe_waypointeditorlightningtime</a>)</div>
+<div class="line"><a name="l01371"></a><span class="lineno"> 1371</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01372"></a><span class="lineno"> 1372</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a80fe1ab0339096321eaecb2bccfc283d">botframe_waypointeditorlightningtime</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.5;</div>
+<div class="line"><a name="l01373"></a><span class="lineno"> 1373</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; !it.isbot,</div>
+<div class="line"><a name="l01374"></a><span class="lineno"> 1374</span>&#160;    {</div>
+<div class="line"><a name="l01375"></a><span class="lineno"> 1375</span>&#160;        <span class="keywordtype">int</span> display_type = 0;</div>
+<div class="line"><a name="l01376"></a><span class="lineno"> 1376</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> head = <a class="code" href="../../db/d15/api_8qh.html#a1e85d59acc7aee165d5cb268454a594c">navigation_findnearestwaypoint</a>(it, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l01377"></a><span class="lineno"> 1377</span>&#160;        it.nearestwaypoint = head; <span class="comment">// mainly useful for debug</span></div>
+<div class="line"><a name="l01378"></a><span class="lineno"> 1378</span>&#160;        it.nearestwaypointtimeout = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 2; <span class="comment">// while I&#39;m at it...</span></div>
+<div class="line"><a name="l01379"></a><span class="lineno"> 1379</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27">IS_ONGROUND</a>(it) || it.waterlevel &gt; <a class="code" href="../../d4/dd7/movetypes_8qh.html#a4bec948f47848ed35986ca695c61f431">WATERLEVEL_NONE</a>)</div>
+<div class="line"><a name="l01380"></a><span class="lineno"> 1380</span>&#160;            display_type = 1; <span class="comment">// default</span></div>
+<div class="line"><a name="l01381"></a><span class="lineno"> 1381</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(head &amp;&amp; (head.wphardwired))</div>
+<div class="line"><a name="l01382"></a><span class="lineno"> 1382</span>&#160;            display_type = 2; <span class="comment">// only hardwired</span></div>
+<div class="line"><a name="l01383"></a><span class="lineno"> 1383</span>&#160;</div>
+<div class="line"><a name="l01384"></a><span class="lineno"> 1384</span>&#160;        if (display_type)</div>
+<div class="line"><a name="l01385"></a><span class="lineno"> 1385</span>&#160;        {</div>
+<div class="line"><a name="l01386"></a><span class="lineno"> 1386</span>&#160;            <span class="comment">//navigation_testtracewalk = true;</span></div>
+<div class="line"><a name="l01387"></a><span class="lineno"> 1387</span>&#160;            <span class="comment">//print(&quot;currently selected WP is &quot;, etos(head), &quot;\n&quot;);</span></div>
+<div class="line"><a name="l01388"></a><span class="lineno"> 1388</span>&#160;            <span class="comment">//navigation_testtracewalk = false;</span></div>
+<div class="line"><a name="l01389"></a><span class="lineno"> 1389</span>&#160;            <span class="keywordflow">if</span> (head)</div>
+<div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;            {</div>
+<div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;                te_lightning2(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, head.origin, it.origin);</div>
+<div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9">PHYS_INPUT_BUTTON_CROUCH</a>(it))</div>
+<div class="line"><a name="l01393"></a><span class="lineno"> 1393</span>&#160;                    <a class="code" href="../../d7/dc4/waypoints_8qc.html#aa65277b30188b03e609312d6e9134be6">waypoint_showlinks_to</a>(head, display_type);</div>
+<div class="line"><a name="l01394"></a><span class="lineno"> 1394</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01395"></a><span class="lineno"> 1395</span>&#160;                    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a7b0c20d01c7d531cfc611c5092ecac99">waypoint_showlinks_from</a>(head, display_type);</div>
+<div class="line"><a name="l01396"></a><span class="lineno"> 1396</span>&#160;            }</div>
+<div class="line"><a name="l01397"></a><span class="lineno"> 1397</span>&#160;        }</div>
+<div class="line"><a name="l01398"></a><span class="lineno"> 1398</span>&#160;    });</div>
+<div class="line"><a name="l01399"></a><span class="lineno"> 1399</span>&#160;}</div>
 <div class="ttc" id="common_2physics_2player_8qh_html_a0a98773cc29db37e636391cbdfd2aef9"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9">PHYS_INPUT_BUTTON_CROUCH</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_CROUCH(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00102">player.qh:102</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="utils_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00046">utils.qh:46</a></div></div>
 <div class="ttc" id="movetypes_8qh_html_afcd99b2a90a921a7e3e7f52f8ac86a27"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27">IS_ONGROUND</a></div><div class="ttdeci">#define IS_ONGROUND(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00009">movetypes.qh:9</a></div></div>
 <div class="ttc" id="movetypes_8qh_html_a4bec948f47848ed35986ca695c61f431"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a4bec948f47848ed35986ca695c61f431">WATERLEVEL_NONE</a></div><div class="ttdeci">const int WATERLEVEL_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00004">movetypes.qh:4</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_aa65277b30188b03e609312d6e9134be6"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#aa65277b30188b03e609312d6e9134be6">waypoint_showlinks_to</a></div><div class="ttdeci">void waypoint_showlinks_to(entity wp, int display_type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01338">waypoints.qc:1338</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_aa65277b30188b03e609312d6e9134be6"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#aa65277b30188b03e609312d6e9134be6">waypoint_showlinks_to</a></div><div class="ttdeci">void waypoint_showlinks_to(entity wp, int display_type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01339">waypoints.qc:1339</a></div></div>
 <div class="ttc" id="waypoints_8qh_html_a80fe1ab0339096321eaecb2bccfc283d"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a80fe1ab0339096321eaecb2bccfc283d">botframe_waypointeditorlightningtime</a></div><div class="ttdeci">float botframe_waypointeditorlightningtime</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00015">waypoints.qh:15</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_a7b0c20d01c7d531cfc611c5092ecac99"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a7b0c20d01c7d531cfc611c5092ecac99">waypoint_showlinks_from</a></div><div class="ttdeci">void waypoint_showlinks_from(entity wp, int display_type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01347">waypoints.qc:1347</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_a7b0c20d01c7d531cfc611c5092ecac99"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a7b0c20d01c7d531cfc611c5092ecac99">waypoint_showlinks_from</a></div><div class="ttdeci">void waypoint_showlinks_from(entity wp, int display_type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01348">waypoints.qc:1348</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
 <div class="ttc" id="api_8qh_html_a1e85d59acc7aee165d5cb268454a594c"><div class="ttname"><a href="../../db/d15/api_8qh.html#a1e85d59acc7aee165d5cb268454a594c">navigation_findnearestwaypoint</a></div><div class="ttdeci">entity navigation_findnearestwaypoint(entity ent, float walkfromwp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/navigation_8qc_source.html#l01010">navigation.qc:1010</a></div></div>
@@ -803,31 +803,43 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01223">1223</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00134">MOVE_NOMONSTERS</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00053">PL_MAX_CONST</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00054">PL_MIN_CONST</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">trace_endpos</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00036">trace_fraction</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00035">trace_startsolid</a>.</p>
+<p>References <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00134">MOVE_NOMONSTERS</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00053">PL_MAX_CONST</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00054">PL_MIN_CONST</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">trace_endpos</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00036">trace_fraction</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00035">trace_startsolid</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01287">waypoint_spawnforteleporter_wz()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01288">waypoint_spawnforteleporter_wz()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01224"></a><span class="lineno"> 1224</span>&#160;{</div>
-<div class="line"><a name="l01225"></a><span class="lineno"> 1225</span>&#160;    tracebox(position + <span class="stringliteral">&#39;0 0 1&#39;</span>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a>, position + down_dir * 3000, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a>, tracetest_ent);</div>
-<div class="line"><a name="l01226"></a><span class="lineno"> 1226</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a>)</div>
-<div class="line"><a name="l01227"></a><span class="lineno"> 1227</span>&#160;        tracebox(position + <span class="stringliteral">&#39;0 0 1&#39;</span> * (1 - <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>.z / 2), <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a>, position + down_dir * 3000, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a>, tracetest_ent);</div>
-<div class="line"><a name="l01228"></a><span class="lineno"> 1228</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a>)</div>
-<div class="line"><a name="l01229"></a><span class="lineno"> 1229</span>&#160;        tracebox(position + <span class="stringliteral">&#39;0 0 1&#39;</span> * (1 - <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>.z), <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a>, position + down_dir * 3000, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a>, tracetest_ent);</div>
-<div class="line"><a name="l01230"></a><span class="lineno"> 1230</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> &lt; 1)</div>
-<div class="line"><a name="l01231"></a><span class="lineno"> 1231</span>&#160;        position = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>;</div>
-<div class="line"><a name="l01232"></a><span class="lineno"> 1232</span>&#160;    <span class="keywordflow">return</span> position;</div>
-<div class="line"><a name="l01233"></a><span class="lineno"> 1233</span>&#160;}</div>
+<div class="line"><a name="l01225"></a><span class="lineno"> 1225</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> endpos = position + down_dir * 3000;</div>
+<div class="line"><a name="l01226"></a><span class="lineno"> 1226</span>&#160;    tracebox(position + <span class="stringliteral">&#39;0 0 1&#39;</span>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a>, endpos, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a>, tracetest_ent);</div>
+<div class="line"><a name="l01227"></a><span class="lineno"> 1227</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a>)</div>
+<div class="line"><a name="l01228"></a><span class="lineno"> 1228</span>&#160;        tracebox(position + <span class="stringliteral">&#39;0 0 1&#39;</span> * (1 - <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>.z / 2), <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a>, endpos, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a>, tracetest_ent);</div>
+<div class="line"><a name="l01229"></a><span class="lineno"> 1229</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a>)</div>
+<div class="line"><a name="l01230"></a><span class="lineno"> 1230</span>&#160;        tracebox(position + <span class="stringliteral">&#39;0 0 1&#39;</span> * (1 - <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>.z), <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a>, endpos, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a>, tracetest_ent);</div>
+<div class="line"><a name="l01231"></a><span class="lineno"> 1231</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> &lt; 1)</div>
+<div class="line"><a name="l01232"></a><span class="lineno"> 1232</span>&#160;        position = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>;</div>
+<div class="line"><a name="l01233"></a><span class="lineno"> 1233</span>&#160;    <span class="keywordflow">return</span> position;</div>
+<div class="line"><a name="l01234"></a><span class="lineno"> 1234</span>&#160;}</div>
 <div class="ttc" id="common_2constants_8qh_html_ae735c3b4d1ab1d9ef277732a76b77579"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a></div><div class="ttdeci">const vector PL_MAX_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00053">constants.qh:53</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_af8cdb030bc0344c57967ab7de062e810"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a></div><div class="ttdeci">const int MOVE_NOMONSTERS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00134">csqc_constants.qh:134</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a93c78c5087546131c4eefb9b2d733adf"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a></div><div class="ttdeci">vector trace_endpos</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">csprogsdefs.qc:37</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9709fd6a18e9d6bafb5a0e9d8ba42c9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a></div><div class="ttdeci">float trace_startsolid</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00035">csprogsdefs.qc:35</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a1152f65c7a1285be22940ded1706fdbb"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a></div><div class="ttdeci">const vector PL_MIN_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00054">constants.qh:54</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aca94f7b0cad3ddee5f2a42a762e0eafa"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a></div><div class="ttdeci">float trace_fraction</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00036">csprogsdefs.qc:36</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_af24c589cb11c9c5209960d92d3929aac_cgraph.svg" width="246" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_af24c589cb11c9c5209960d92d3929aac_icgraph.svg" width="400" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -863,11 +875,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="cvars_8qh_html_ac547a74dc5c93425a3aa5131909a1d61"><div class="ttname"><a href="../../d6/d74/cvars_8qh.html#ac547a74dc5c93425a3aa5131909a1d61">autocvar_bot_ai_bunnyhop_skilloffset</a></div><div class="ttdeci">float autocvar_bot_ai_bunnyhop_skilloffset</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/cvars_8qh_source.html#l00022">cvars.qh:22</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a57a53cbc0b921bbf6282cb262490d975"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a57a53cbc0b921bbf6282cb262490d975">autocvar_sv_maxspeed</a></div><div class="ttdeci">float autocvar_sv_maxspeed</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00314">autocvars.qh:314</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_ae6323b7e0f8ebe2aff52580a4a043072_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -928,21 +940,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_aa5407b0b7212365767c0a9bfe9656c2f_cgraph.svg" width="603" height="270"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_aa5407b0b7212365767c0a9bfe9656c2f_icgraph.svg" width="100%" height="463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1024,21 +1036,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_a83f4d3f317a80e82e6b16ea61ea5efc3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a></div><div class="ttdeci">float sqrt(float f)</div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a3a3fda7522a89e6ed8782bf057897967"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a3a3fda7522a89e6ed8782bf057897967">autocvar_sv_gravity</a></div><div class="ttdeci">#define autocvar_sv_gravity</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00300">autocvars.qh:300</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a4ff6fb4088c04ce31f0ca8c9e688777a_cgraph.svg" width="411" height="270"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a4ff6fb4088c04ce31f0ca8c9e688777a_icgraph.svg" width="100%" height="573"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1072,7 +1084,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00396">396</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01170">navigation_markroutes_inverted()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00507">waypoint_addlink_customcost()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00296">waypoint_remove()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01338">waypoint_showlinks_to()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01170">navigation_markroutes_inverted()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00507">waypoint_addlink_customcost()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00296">waypoint_remove()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01339">waypoint_showlinks_to()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;{</div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    <span class="keywordflow">if</span> (from.wp00 == <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>) <span class="keywordflow">return</span> <span class="keyword">true</span>;<span class="keywordflow">if</span> (from.wp01 == <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>) <span class="keywordflow">return</span> <span class="keyword">true</span>;<span class="keywordflow">if</span> (from.wp02 == <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>) <span class="keywordflow">return</span> <span class="keyword">true</span>;<span class="keywordflow">if</span> (from.wp03 == <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <span class="keywordflow">if</span> (from.wp04 == <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>) <span class="keywordflow">return</span> <span class="keyword">true</span>;<span class="keywordflow">if</span> (from.wp05 == <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>) <span class="keywordflow">return</span> <span class="keyword">true</span>;<span class="keywordflow">if</span> (from.wp06 == <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>) <span class="keywordflow">return</span> <span class="keyword">true</span>;<span class="keywordflow">if</span> (from.wp07 == <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
@@ -1086,11 +1098,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;}</div>
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00096">self.qh:96</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a5c2ed2db425ae03dadf19dede5799956_icgraph.svg" width="100%" height="485"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1289,11 +1301,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="csqc__constants_8qh_html_ac71bfc8a179f9d612bf713943c8cb5e1"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a></div><div class="ttdeci">const int FILE_READ</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00101">csqc_constants.qh:101</a></div></div>
 <div class="ttc" id="waypoints_8qh_html_a67365813b668a94a58f022d46f7ad0b3"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a67365813b668a94a58f022d46f7ad0b3">WAYPOINT_VERSION</a></div><div class="ttdeci">const float WAYPOINT_VERSION</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00009">waypoints.qh:9</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a059d616d0acff05a510d864cbecb6879_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1449,11 +1461,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="csqc__constants_8qh_html_ac71bfc8a179f9d612bf713943c8cb5e1"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a></div><div class="ttdeci">const int FILE_READ</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00101">csqc_constants.qh:101</a></div></div>
 <div class="ttc" id="waypoints_8qc_html_abb264e1745062ac2ad6d46a0b8c5e6c9"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#abb264e1745062ac2ad6d46a0b8c5e6c9">waypoint_setupmodel</a></div><div class="ttdeci">void waypoint_setupmodel(entity wp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00159">waypoints.qc:159</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_ae8116b951b4efe0da268667c754d94b5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1613,11 +1625,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="waypoints_8qh_html_a67365813b668a94a58f022d46f7ad0b3"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a67365813b668a94a58f022d46f7ad0b3">WAYPOINT_VERSION</a></div><div class="ttdeci">const float WAYPOINT_VERSION</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00009">waypoints.qh:9</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a8bcfafa22e1b3188f0b1f9c1399af552_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1655,11 +1667,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="waypoints_8qc_html_a5c2ed2db425ae03dadf19dede5799956"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a5c2ed2db425ae03dadf19dede5799956">waypoint_islinked</a></div><div class="ttdeci">bool waypoint_islinked(entity from, entity to)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00396">waypoints.qc:396</a></div></div>
 <div class="ttc" id="waypoints_8qc_html_a7caa23c12bbb5f161ff6104a3fb429d2"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a7caa23c12bbb5f161ff6104a3fb429d2">waypoint_removelink</a></div><div class="ttdeci">void waypoint_removelink(entity from, entity to)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00356">waypoints.qc:356</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_af85db2f228ad24c8f013717be024365f_cgraph.svg" width="328" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1751,11 +1763,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="waypoints_8qc_html_af85db2f228ad24c8f013717be024365f"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#af85db2f228ad24c8f013717be024365f">waypoint_remove</a></div><div class="ttdeci">void waypoint_remove(entity wp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00296">waypoints.qc:296</a></div></div>
 <div class="ttc" id="api_8qh_html_a1e85d59acc7aee165d5cb268454a594c"><div class="ttname"><a href="../../db/d15/api_8qh.html#a1e85d59acc7aee165d5cb268454a594c">navigation_findnearestwaypoint</a></div><div class="ttdeci">entity navigation_findnearestwaypoint(entity ent, float walkfromwp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/navigation_8qc_source.html#l01010">navigation.qc:1010</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_ac8d6f2bde9d2d499154e66eda254c4e9_cgraph.svg" width="654" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1834,11 +1846,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="api_8qh_html_a60ade385fee1250d5868d155686175ac"><div class="ttname"><a href="../../db/d15/api_8qh.html#a60ade385fee1250d5868d155686175ac">WAYPOINTFLAG_NORELINK</a></div><div class="ttdeci">const int WAYPOINTFLAG_NORELINK</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00010">api.qh:10</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a7caa23c12bbb5f161ff6104a3fb429d2_icgraph.svg" width="376" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1925,21 +1937,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="waypoints_8qc_html_a8767ac6530ddf16a3a7e333a3ad20772"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a8767ac6530ddf16a3a7e333a3ad20772">waypoint_get_link</a></div><div class="ttdeci">entity waypoint_get_link(entity w, float i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00951">waypoints.qc:951</a></div></div>
 <div class="ttc" id="waypoints_8qh_html_a67365813b668a94a58f022d46f7ad0b3"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a67365813b668a94a58f022d46f7ad0b3">WAYPOINT_VERSION</a></div><div class="ttdeci">const float WAYPOINT_VERSION</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00009">waypoints.qh:9</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_afefbc8e9e4269359534b8f4b253ddeb7_cgraph.svg" width="331" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_afefbc8e9e4269359534b8f4b253ddeb7_icgraph.svg" width="326" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2058,11 +2070,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="string_8qh_html_ab3eb2270af4613832a52d512e62e4f40"><div class="ttname"><a href="../../d2/db4/string_8qh.html#ab3eb2270af4613832a52d512e62e4f40">cons</a></div><div class="ttdeci">ERASEABLE string cons(string a, string b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00190">string.qh:190</a></div></div>
 <div class="ttc" id="waypoints_8qh_html_a67365813b668a94a58f022d46f7ad0b3"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a67365813b668a94a58f022d46f7ad0b3">WAYPOINT_VERSION</a></div><div class="ttdeci">const float WAYPOINT_VERSION</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00009">waypoints.qh:9</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_ae9248ef358c77def1111a1abe1ebf1fb_cgraph.svg" width="502" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2088,7 +2100,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l00274">EF_LOWPRECISION</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00009">vdist</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00634">waypoint_clearlinks()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00159">waypoint_setupmodel()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00560">waypoint_think()</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00011">WAYPOINTFLAG_PERSONAL</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00696">waypoint_load_links()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00683">waypoint_schedulerelinkall()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00245">waypoint_spawn_fromeditor()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01308">waypoint_spawnpersonal()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00696">waypoint_load_links()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00683">waypoint_schedulerelinkall()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00245">waypoint_spawn_fromeditor()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01309">waypoint_spawnpersonal()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;{</div>
 <div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;    <span class="keywordflow">if</span> (wp == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;        <span class="keywordflow">return</span>;</div>
@@ -2116,21 +2128,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="dpextensions_8qc_html_a7ef46523bf1f305084e2ca69db4f24ee"><div class="ttname"><a href="../../de/d5e/dpextensions_8qc.html#a7ef46523bf1f305084e2ca69db4f24ee">EF_LOWPRECISION</a></div><div class="ttdeci">float EF_LOWPRECISION</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/dpextensions_8qc_source.html#l00274">dpextensions.qc:274</a></div></div>
 <div class="ttc" id="waypoints_8qc_html_abb264e1745062ac2ad6d46a0b8c5e6c9"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#abb264e1745062ac2ad6d46a0b8c5e6c9">waypoint_setupmodel</a></div><div class="ttdeci">void waypoint_setupmodel(entity wp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00159">waypoints.qc:159</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a7b401ce3982d2ff32e2581b69ce746b5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a7b401ce3982d2ff32e2581b69ce746b5_icgraph.svg" width="100%" height="423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2173,21 +2185,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="waypoints_8qh_html_a099eeed09ef5dff2c3c5a507f4f6f1b2"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a099eeed09ef5dff2c3c5a507f4f6f1b2">relink_total</a></div><div class="ttdeci">float relink_total</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00013">waypoints.qh:13</a></div></div>
 <div class="ttc" id="waypoints_8qh_html_a96eea87743be9af285b8c13978359ded"><div class="ttname"><a href="../../d1/d2a/waypoints_8qh.html#a96eea87743be9af285b8c13978359ded">relink_walkculled</a></div><div class="ttdeci">float relink_walkculled</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2a/waypoints_8qh_source.html#l00013">waypoints.qh:13</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a179e3b775f919c65b3b961ef5c2262b9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a179e3b775f919c65b3b961ef5c2262b9_icgraph.svg" width="376" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2229,7 +2241,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../de/dcb/vector_8qh_source.html#l00086">boxesoverlap()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00403">g_waypoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00167">IL_EACH</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00007">WAYPOINTFLAG_GENERATED</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00011">WAYPOINTFLAG_PERSONAL</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01109">waypoint_loadall()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00245">waypoint_spawn_fromeditor()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01272">waypoint_spawnforteleporter_boxes()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01308">waypoint_spawnpersonal()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01109">waypoint_loadall()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00245">waypoint_spawn_fromeditor()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01273">waypoint_spawnforteleporter_boxes()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01309">waypoint_spawnpersonal()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;{</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">if</span>(!(f &amp; (<a class="code" href="../../db/d15/api_8qh.html#a16465cf087c71e05a2a1cefaaa09093f">WAYPOINTFLAG_PERSONAL</a> | <a class="code" href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a>)) &amp;&amp; m1 == m2)</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    {</div>
@@ -2318,21 +2330,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="common_2constants_8qh_html_a1152f65c7a1285be22940ded1706fdbb"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a></div><div class="ttdeci">const vector PL_MIN_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00054">constants.qh:54</a></div></div>
 <div class="ttc" id="waypoints_8qc_html_abb264e1745062ac2ad6d46a0b8c5e6c9"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#abb264e1745062ac2ad6d46a0b8c5e6c9">waypoint_setupmodel</a></div><div class="ttdeci">void waypoint_setupmodel(entity wp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00159">waypoints.qc:159</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_ab34f7a15ca9eb4899a266cf5bead4efb_cgraph.svg" width="278" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_ab34f7a15ca9eb4899a266cf5bead4efb_icgraph.svg" width="100%" height="454"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2426,11 +2438,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="common_2constants_8qh_html_a1152f65c7a1285be22940ded1706fdbb"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a></div><div class="ttdeci">const vector PL_MIN_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00054">constants.qh:54</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a21516c4e202f0fa473d6b010d8b651b5"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5">g_items</a></div><div class="ttdeci">IntrusiveList g_items</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00408">defs.qh:408</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a3785e13d7c3841061a68a34eca316b09_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2452,23 +2464,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01264">1264</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01265">1265</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00198">bot_waypoints_for_items</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01235">waypoint_spawnforitem_force()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01265"></a><span class="lineno"> 1265</span>&#160;{</div>
-<div class="line"><a name="l01266"></a><span class="lineno"> 1266</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d5/d26/server_2defs_8qh.html#a1d54f461e8d603bbdb4bd49cbc4e6f2f">bot_waypoints_for_items</a>)</div>
-<div class="line"><a name="l01267"></a><span class="lineno"> 1267</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01268"></a><span class="lineno"> 1268</span>&#160;</div>
-<div class="line"><a name="l01269"></a><span class="lineno"> 1269</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#ad27523bc57e3e597f8bfa75bf7ddd72e">waypoint_spawnforitem_force</a>(e, e.origin);</div>
-<div class="line"><a name="l01270"></a><span class="lineno"> 1270</span>&#160;}</div>
-<div class="ttc" id="waypoints_8qc_html_ad27523bc57e3e597f8bfa75bf7ddd72e"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ad27523bc57e3e597f8bfa75bf7ddd72e">waypoint_spawnforitem_force</a></div><div class="ttdeci">void waypoint_spawnforitem_force(entity e, vector org)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01235">waypoints.qc:1235</a></div></div>
+<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00198">bot_waypoints_for_items</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01236">waypoint_spawnforitem_force()</a>.</p>
+<div class="fragment"><div class="line"><a name="l01266"></a><span class="lineno"> 1266</span>&#160;{</div>
+<div class="line"><a name="l01267"></a><span class="lineno"> 1267</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d5/d26/server_2defs_8qh.html#a1d54f461e8d603bbdb4bd49cbc4e6f2f">bot_waypoints_for_items</a>)</div>
+<div class="line"><a name="l01268"></a><span class="lineno"> 1268</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01269"></a><span class="lineno"> 1269</span>&#160;</div>
+<div class="line"><a name="l01270"></a><span class="lineno"> 1270</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#ad27523bc57e3e597f8bfa75bf7ddd72e">waypoint_spawnforitem_force</a>(e, e.origin);</div>
+<div class="line"><a name="l01271"></a><span class="lineno"> 1271</span>&#160;}</div>
+<div class="ttc" id="waypoints_8qc_html_ad27523bc57e3e597f8bfa75bf7ddd72e"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ad27523bc57e3e597f8bfa75bf7ddd72e">waypoint_spawnforitem_force</a></div><div class="ttdeci">void waypoint_spawnforitem_force(entity e, vector org)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01236">waypoints.qc:1236</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a1d54f461e8d603bbdb4bd49cbc4e6f2f"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a1d54f461e8d603bbdb4bd49cbc4e6f2f">bot_waypoints_for_items</a></div><div class="ttdeci">float bot_waypoints_for_items</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00198">defs.qh:198</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a0db40651441e28142df8beee126d70a3_cgraph.svg" width="526" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2500,38 +2512,38 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01235">1235</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01236">1236</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
 <p>References <a class="el" href="../../de/dcb/vector_8qh_source.html#l00086">boxesoverlap()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00403">g_waypoints</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00167">IL_EACH</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01220">waypoint_fixorigin</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01264">waypoint_spawnforitem()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01236"></a><span class="lineno"> 1236</span>&#160;{</div>
-<div class="line"><a name="l01237"></a><span class="lineno"> 1237</span>&#160;    <span class="comment">// Fix the waypoint altitude if necessary</span></div>
-<div class="line"><a name="l01238"></a><span class="lineno"> 1238</span>&#160;    org = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5">waypoint_fixorigin</a>(org, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l01239"></a><span class="lineno"> 1239</span>&#160;</div>
-<div class="line"><a name="l01240"></a><span class="lineno"> 1240</span>&#160;    <span class="comment">// don&#39;t spawn an item spawnfunc_waypoint if it already exists</span></div>
-<div class="line"><a name="l01241"></a><span class="lineno"> 1241</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <span class="keyword">true</span>,</div>
-<div class="line"><a name="l01242"></a><span class="lineno"> 1242</span>&#160;    {</div>
-<div class="line"><a name="l01243"></a><span class="lineno"> 1243</span>&#160;        <span class="keywordflow">if</span>(it.wpisbox)</div>
-<div class="line"><a name="l01244"></a><span class="lineno"> 1244</span>&#160;        {</div>
-<div class="line"><a name="l01245"></a><span class="lineno"> 1245</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a9d1cd3b60eb67f1ec2a17fc2022e4276">boxesoverlap</a>(org, org, it.absmin, it.absmax))</div>
-<div class="line"><a name="l01246"></a><span class="lineno"> 1246</span>&#160;            {</div>
-<div class="line"><a name="l01247"></a><span class="lineno"> 1247</span>&#160;                e.nearestwaypoint = it;</div>
-<div class="line"><a name="l01248"></a><span class="lineno"> 1248</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01249"></a><span class="lineno"> 1249</span>&#160;            }</div>
-<div class="line"><a name="l01250"></a><span class="lineno"> 1250</span>&#160;        }</div>
-<div class="line"><a name="l01251"></a><span class="lineno"> 1251</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01252"></a><span class="lineno"> 1252</span>&#160;        {</div>
-<div class="line"><a name="l01253"></a><span class="lineno"> 1253</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(it.origin - org, &lt;, 16))</div>
-<div class="line"><a name="l01254"></a><span class="lineno"> 1254</span>&#160;            {</div>
-<div class="line"><a name="l01255"></a><span class="lineno"> 1255</span>&#160;                e.nearestwaypoint = it;</div>
-<div class="line"><a name="l01256"></a><span class="lineno"> 1256</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01257"></a><span class="lineno"> 1257</span>&#160;            }</div>
-<div class="line"><a name="l01258"></a><span class="lineno"> 1258</span>&#160;        }</div>
-<div class="line"><a name="l01259"></a><span class="lineno"> 1259</span>&#160;    });</div>
-<div class="line"><a name="l01260"></a><span class="lineno"> 1260</span>&#160;</div>
-<div class="line"><a name="l01261"></a><span class="lineno"> 1261</span>&#160;    e.nearestwaypoint = <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a>(org, org, <a class="code" href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a> | <a class="code" href="../../db/d15/api_8qh.html#a8e5726bbd3b42d3894887a4965ecd5e4">WAYPOINTFLAG_ITEM</a>);</div>
-<div class="line"><a name="l01262"></a><span class="lineno"> 1262</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01265">waypoint_spawnforitem()</a>.</p>
+<div class="fragment"><div class="line"><a name="l01237"></a><span class="lineno"> 1237</span>&#160;{</div>
+<div class="line"><a name="l01238"></a><span class="lineno"> 1238</span>&#160;    <span class="comment">// Fix the waypoint altitude if necessary</span></div>
+<div class="line"><a name="l01239"></a><span class="lineno"> 1239</span>&#160;    org = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5">waypoint_fixorigin</a>(org, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l01240"></a><span class="lineno"> 1240</span>&#160;</div>
+<div class="line"><a name="l01241"></a><span class="lineno"> 1241</span>&#160;    <span class="comment">// don&#39;t spawn an item spawnfunc_waypoint if it already exists</span></div>
+<div class="line"><a name="l01242"></a><span class="lineno"> 1242</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <span class="keyword">true</span>,</div>
+<div class="line"><a name="l01243"></a><span class="lineno"> 1243</span>&#160;    {</div>
+<div class="line"><a name="l01244"></a><span class="lineno"> 1244</span>&#160;        <span class="keywordflow">if</span>(it.wpisbox)</div>
+<div class="line"><a name="l01245"></a><span class="lineno"> 1245</span>&#160;        {</div>
+<div class="line"><a name="l01246"></a><span class="lineno"> 1246</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a9d1cd3b60eb67f1ec2a17fc2022e4276">boxesoverlap</a>(org, org, it.absmin, it.absmax))</div>
+<div class="line"><a name="l01247"></a><span class="lineno"> 1247</span>&#160;            {</div>
+<div class="line"><a name="l01248"></a><span class="lineno"> 1248</span>&#160;                e.nearestwaypoint = it;</div>
+<div class="line"><a name="l01249"></a><span class="lineno"> 1249</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01250"></a><span class="lineno"> 1250</span>&#160;            }</div>
+<div class="line"><a name="l01251"></a><span class="lineno"> 1251</span>&#160;        }</div>
+<div class="line"><a name="l01252"></a><span class="lineno"> 1252</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01253"></a><span class="lineno"> 1253</span>&#160;        {</div>
+<div class="line"><a name="l01254"></a><span class="lineno"> 1254</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(it.origin - org, &lt;, 16))</div>
+<div class="line"><a name="l01255"></a><span class="lineno"> 1255</span>&#160;            {</div>
+<div class="line"><a name="l01256"></a><span class="lineno"> 1256</span>&#160;                e.nearestwaypoint = it;</div>
+<div class="line"><a name="l01257"></a><span class="lineno"> 1257</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01258"></a><span class="lineno"> 1258</span>&#160;            }</div>
+<div class="line"><a name="l01259"></a><span class="lineno"> 1259</span>&#160;        }</div>
+<div class="line"><a name="l01260"></a><span class="lineno"> 1260</span>&#160;    });</div>
+<div class="line"><a name="l01261"></a><span class="lineno"> 1261</span>&#160;</div>
+<div class="line"><a name="l01262"></a><span class="lineno"> 1262</span>&#160;    e.nearestwaypoint = <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a>(org, org, <a class="code" href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a> | <a class="code" href="../../db/d15/api_8qh.html#a8e5726bbd3b42d3894887a4965ecd5e4">WAYPOINTFLAG_ITEM</a>);</div>
+<div class="line"><a name="l01263"></a><span class="lineno"> 1263</span>&#160;}</div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00167">intrusivelist.qh:167</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_aff439bd5f2dcecaf112d934029e0fb85"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a></div><div class="ttdeci">IntrusiveList g_waypoints</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00403">defs.qh:403</a></div></div>
 <div class="ttc" id="waypoints_8qc_html_a706250013c5b4dab1edd27954290a4b5"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5">waypoint_fixorigin</a></div><div class="ttdeci">#define waypoint_fixorigin(position, tracetest_ent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01220">waypoints.qc:1220</a></div></div>
@@ -2542,21 +2554,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="api_8qh_html_aa1fb4917cec6ee1ff962de8af430f46d"><div class="ttname"><a href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a></div><div class="ttdeci">const int WAYPOINTFLAG_GENERATED</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00007">api.qh:7</a></div></div>
 <div class="ttc" id="api_8qh_html_a8e5726bbd3b42d3894887a4965ecd5e4"><div class="ttname"><a href="../../db/d15/api_8qh.html#a8e5726bbd3b42d3894887a4965ecd5e4">WAYPOINTFLAG_ITEM</a></div><div class="ttdeci">const int WAYPOINTFLAG_ITEM</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00008">api.qh:8</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_ad27523bc57e3e597f8bfa75bf7ddd72e_cgraph.svg" width="318" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_ad27523bc57e3e597f8bfa75bf7ddd72e_icgraph.svg" width="379" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2600,24 +2612,24 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01302">1302</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01303">1303</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00053">PL_MAX_CONST</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00054">PL_MIN_CONST</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01220">waypoint_fixorigin</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01272">waypoint_spawnforteleporter_boxes()</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00009">WAYPOINTFLAG_TELEPORT</a>.</p>
-<div class="fragment"><div class="line"><a name="l01303"></a><span class="lineno"> 1303</span>&#160;{</div>
-<div class="line"><a name="l01304"></a><span class="lineno"> 1304</span>&#160;    destination = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5">waypoint_fixorigin</a>(destination, tracetest_ent);</div>
-<div class="line"><a name="l01305"></a><span class="lineno"> 1305</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a9c0e75596a3367797023f3ea16d29fb9">waypoint_spawnforteleporter_boxes</a>(e, <a class="code" href="../../db/d15/api_8qh.html#a21c64a1d975a853a3361ec08c53c5c27">WAYPOINTFLAG_TELEPORT</a>, e.absmin - <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a> + <span class="stringliteral">&#39;1 1 1&#39;</span>, e.absmax - <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a> + <span class="stringliteral">&#39;-1 -1 -1&#39;</span>, destination, destination, timetaken);</div>
-<div class="line"><a name="l01306"></a><span class="lineno"> 1306</span>&#160;}</div>
+<p>References <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00053">PL_MAX_CONST</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00054">PL_MIN_CONST</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01220">waypoint_fixorigin</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01273">waypoint_spawnforteleporter_boxes()</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00009">WAYPOINTFLAG_TELEPORT</a>.</p>
+<div class="fragment"><div class="line"><a name="l01304"></a><span class="lineno"> 1304</span>&#160;{</div>
+<div class="line"><a name="l01305"></a><span class="lineno"> 1305</span>&#160;    destination = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5">waypoint_fixorigin</a>(destination, tracetest_ent);</div>
+<div class="line"><a name="l01306"></a><span class="lineno"> 1306</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a9c0e75596a3367797023f3ea16d29fb9">waypoint_spawnforteleporter_boxes</a>(e, <a class="code" href="../../db/d15/api_8qh.html#a21c64a1d975a853a3361ec08c53c5c27">WAYPOINTFLAG_TELEPORT</a>, e.absmin - <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a> + <span class="stringliteral">&#39;1 1 1&#39;</span>, e.absmax - <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a> + <span class="stringliteral">&#39;-1 -1 -1&#39;</span>, destination, destination, timetaken);</div>
+<div class="line"><a name="l01307"></a><span class="lineno"> 1307</span>&#160;}</div>
 <div class="ttc" id="common_2constants_8qh_html_ae735c3b4d1ab1d9ef277732a76b77579"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a></div><div class="ttdeci">const vector PL_MAX_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00053">constants.qh:53</a></div></div>
 <div class="ttc" id="waypoints_8qc_html_a706250013c5b4dab1edd27954290a4b5"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5">waypoint_fixorigin</a></div><div class="ttdeci">#define waypoint_fixorigin(position, tracetest_ent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01220">waypoints.qc:1220</a></div></div>
 <div class="ttc" id="api_8qh_html_a21c64a1d975a853a3361ec08c53c5c27"><div class="ttname"><a href="../../db/d15/api_8qh.html#a21c64a1d975a853a3361ec08c53c5c27">WAYPOINTFLAG_TELEPORT</a></div><div class="ttdeci">const int WAYPOINTFLAG_TELEPORT</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00009">api.qh:9</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_a9c0e75596a3367797023f3ea16d29fb9"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a9c0e75596a3367797023f3ea16d29fb9">waypoint_spawnforteleporter_boxes</a></div><div class="ttdeci">void waypoint_spawnforteleporter_boxes(entity e, int teleport_flag, vector org1, vector org2, vector destination1, vector destination2, float timetaken)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01272">waypoints.qc:1272</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_a9c0e75596a3367797023f3ea16d29fb9"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a9c0e75596a3367797023f3ea16d29fb9">waypoint_spawnforteleporter_boxes</a></div><div class="ttdeci">void waypoint_spawnforteleporter_boxes(entity e, int teleport_flag, vector org1, vector org2, vector destination1, vector destination2, float timetaken)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01273">waypoints.qc:1273</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a1152f65c7a1285be22940ded1706fdbb"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a></div><div class="ttdeci">const vector PL_MIN_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00054">constants.qh:54</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a6805606231a9daaa02d082d33f3514df_cgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2673,32 +2685,32 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01287">1287</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01288">1288</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01223">waypoint_fixorigin_down_dir()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01272">waypoint_spawnforteleporter_boxes()</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00009">WAYPOINTFLAG_TELEPORT</a>.</p>
-<div class="fragment"><div class="line"><a name="l01288"></a><span class="lineno"> 1288</span>&#160;{</div>
-<div class="line"><a name="l01289"></a><span class="lineno"> 1289</span>&#160;    <span class="comment">// warpzones with oblique warp plane rely on down_dir to snap waypoints</span></div>
-<div class="line"><a name="l01290"></a><span class="lineno"> 1290</span>&#160;    <span class="comment">// to the ground without leaving the warp plane</span></div>
-<div class="line"><a name="l01291"></a><span class="lineno"> 1291</span>&#160;    <span class="comment">// warpzones with horizontal warp plane (down_dir.x == -1) generate</span></div>
-<div class="line"><a name="l01292"></a><span class="lineno"> 1292</span>&#160;    <span class="comment">// destination waypoint snapped to the ground (leaving warpzone), source</span></div>
-<div class="line"><a name="l01293"></a><span class="lineno"> 1293</span>&#160;    <span class="comment">// waypoint in the center of the warp plane</span></div>
-<div class="line"><a name="l01294"></a><span class="lineno"> 1294</span>&#160;    <span class="keywordflow">if</span>(down_dir.x != -1)</div>
-<div class="line"><a name="l01295"></a><span class="lineno"> 1295</span>&#160;        org = <a class="code" href="../../d7/dc4/waypoints_8qc.html#af24c589cb11c9c5209960d92d3929aac">waypoint_fixorigin_down_dir</a>(org, tracetest_ent, down_dir);</div>
-<div class="line"><a name="l01296"></a><span class="lineno"> 1296</span>&#160;    <span class="keywordflow">if</span>(down_dir.x == -1)</div>
-<div class="line"><a name="l01297"></a><span class="lineno"> 1297</span>&#160;        down_dir = <span class="stringliteral">&#39;0 0 -1&#39;</span>;</div>
-<div class="line"><a name="l01298"></a><span class="lineno"> 1298</span>&#160;    destination = <a class="code" href="../../d7/dc4/waypoints_8qc.html#af24c589cb11c9c5209960d92d3929aac">waypoint_fixorigin_down_dir</a>(destination, tracetest_ent, down_dir);</div>
-<div class="line"><a name="l01299"></a><span class="lineno"> 1299</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a9c0e75596a3367797023f3ea16d29fb9">waypoint_spawnforteleporter_boxes</a>(e, <a class="code" href="../../db/d15/api_8qh.html#a21c64a1d975a853a3361ec08c53c5c27">WAYPOINTFLAG_TELEPORT</a>, org, org, destination, destination, timetaken);</div>
-<div class="line"><a name="l01300"></a><span class="lineno"> 1300</span>&#160;}</div>
+<p>References <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01223">waypoint_fixorigin_down_dir()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01273">waypoint_spawnforteleporter_boxes()</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00009">WAYPOINTFLAG_TELEPORT</a>.</p>
+<div class="fragment"><div class="line"><a name="l01289"></a><span class="lineno"> 1289</span>&#160;{</div>
+<div class="line"><a name="l01290"></a><span class="lineno"> 1290</span>&#160;    <span class="comment">// warpzones with oblique warp plane rely on down_dir to snap waypoints</span></div>
+<div class="line"><a name="l01291"></a><span class="lineno"> 1291</span>&#160;    <span class="comment">// to the ground without leaving the warp plane</span></div>
+<div class="line"><a name="l01292"></a><span class="lineno"> 1292</span>&#160;    <span class="comment">// warpzones with horizontal warp plane (down_dir.x == -1) generate</span></div>
+<div class="line"><a name="l01293"></a><span class="lineno"> 1293</span>&#160;    <span class="comment">// destination waypoint snapped to the ground (leaving warpzone), source</span></div>
+<div class="line"><a name="l01294"></a><span class="lineno"> 1294</span>&#160;    <span class="comment">// waypoint in the center of the warp plane</span></div>
+<div class="line"><a name="l01295"></a><span class="lineno"> 1295</span>&#160;    <span class="keywordflow">if</span>(down_dir.x != -1)</div>
+<div class="line"><a name="l01296"></a><span class="lineno"> 1296</span>&#160;        org = <a class="code" href="../../d7/dc4/waypoints_8qc.html#af24c589cb11c9c5209960d92d3929aac">waypoint_fixorigin_down_dir</a>(org, tracetest_ent, down_dir);</div>
+<div class="line"><a name="l01297"></a><span class="lineno"> 1297</span>&#160;    <span class="keywordflow">if</span>(down_dir.x == -1)</div>
+<div class="line"><a name="l01298"></a><span class="lineno"> 1298</span>&#160;        down_dir = <span class="stringliteral">&#39;0 0 -1&#39;</span>;</div>
+<div class="line"><a name="l01299"></a><span class="lineno"> 1299</span>&#160;    destination = <a class="code" href="../../d7/dc4/waypoints_8qc.html#af24c589cb11c9c5209960d92d3929aac">waypoint_fixorigin_down_dir</a>(destination, tracetest_ent, down_dir);</div>
+<div class="line"><a name="l01300"></a><span class="lineno"> 1300</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a9c0e75596a3367797023f3ea16d29fb9">waypoint_spawnforteleporter_boxes</a>(e, <a class="code" href="../../db/d15/api_8qh.html#a21c64a1d975a853a3361ec08c53c5c27">WAYPOINTFLAG_TELEPORT</a>, org, org, destination, destination, timetaken);</div>
+<div class="line"><a name="l01301"></a><span class="lineno"> 1301</span>&#160;}</div>
 <div class="ttc" id="waypoints_8qc_html_af24c589cb11c9c5209960d92d3929aac"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#af24c589cb11c9c5209960d92d3929aac">waypoint_fixorigin_down_dir</a></div><div class="ttdeci">vector waypoint_fixorigin_down_dir(vector position, entity tracetest_ent, vector down_dir)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01223">waypoints.qc:1223</a></div></div>
 <div class="ttc" id="api_8qh_html_a21c64a1d975a853a3361ec08c53c5c27"><div class="ttname"><a href="../../db/d15/api_8qh.html#a21c64a1d975a853a3361ec08c53c5c27">WAYPOINTFLAG_TELEPORT</a></div><div class="ttdeci">const int WAYPOINTFLAG_TELEPORT</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00009">api.qh:9</a></div></div>
-<div class="ttc" id="waypoints_8qc_html_a9c0e75596a3367797023f3ea16d29fb9"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a9c0e75596a3367797023f3ea16d29fb9">waypoint_spawnforteleporter_boxes</a></div><div class="ttdeci">void waypoint_spawnforteleporter_boxes(entity e, int teleport_flag, vector org1, vector org2, vector destination1, vector destination2, float timetaken)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01272">waypoints.qc:1272</a></div></div>
+<div class="ttc" id="waypoints_8qc_html_a9c0e75596a3367797023f3ea16d29fb9"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a9c0e75596a3367797023f3ea16d29fb9">waypoint_spawnforteleporter_boxes</a></div><div class="ttdeci">void waypoint_spawnforteleporter_boxes(entity e, int teleport_flag, vector org1, vector org2, vector destination1, vector destination2, float timetaken)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01273">waypoints.qc:1273</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-36-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_affb1afdea03789ee4a2585c6ef4a01d4_cgraph.svg" width="100%" height="420"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_affb1afdea03789ee4a2585c6ef4a01d4_cgraph.svg" width="100%" height="409"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -2729,28 +2741,28 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01308">1308</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01309">1309</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01220">waypoint_fixorigin</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00652">waypoint_schedulerelink()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00182">waypoint_spawn()</a>, and <a class="el" href="../../db/d15/api_8qh_source.html#l00011">WAYPOINTFLAG_PERSONAL</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01500">havocbot_moveto()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01309"></a><span class="lineno"> 1309</span>&#160;{</div>
-<div class="line"><a name="l01310"></a><span class="lineno"> 1310</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> w;</div>
-<div class="line"><a name="l01311"></a><span class="lineno"> 1311</span>&#160;</div>
-<div class="line"><a name="l01312"></a><span class="lineno"> 1312</span>&#160;    <span class="comment">// drop the waypoint to a proper location:</span></div>
-<div class="line"><a name="l01313"></a><span class="lineno"> 1313</span>&#160;    <span class="comment">//   first move it up by a player height</span></div>
-<div class="line"><a name="l01314"></a><span class="lineno"> 1314</span>&#160;    <span class="comment">//   then move it down to hit the floor with player bbox size</span></div>
-<div class="line"><a name="l01315"></a><span class="lineno"> 1315</span>&#160;    position = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5">waypoint_fixorigin</a>(position, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l01316"></a><span class="lineno"> 1316</span>&#160;</div>
-<div class="line"><a name="l01317"></a><span class="lineno"> 1317</span>&#160;    w = <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a>(position, position, <a class="code" href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a> | <a class="code" href="../../db/d15/api_8qh.html#a16465cf087c71e05a2a1cefaaa09093f">WAYPOINTFLAG_PERSONAL</a>);</div>
-<div class="line"><a name="l01318"></a><span class="lineno"> 1318</span>&#160;    w.nearestwaypoint = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l01319"></a><span class="lineno"> 1319</span>&#160;    w.nearestwaypointtimeout = 0;</div>
-<div class="line"><a name="l01320"></a><span class="lineno"> 1320</span>&#160;    w.owner = <span class="keyword">this</span>;</div>
-<div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;</div>
-<div class="line"><a name="l01322"></a><span class="lineno"> 1322</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5">waypoint_schedulerelink</a>(w);</div>
-<div class="line"><a name="l01323"></a><span class="lineno"> 1323</span>&#160;</div>
-<div class="line"><a name="l01324"></a><span class="lineno"> 1324</span>&#160;    <span class="keywordflow">return</span> w;</div>
-<div class="line"><a name="l01325"></a><span class="lineno"> 1325</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l01310"></a><span class="lineno"> 1310</span>&#160;{</div>
+<div class="line"><a name="l01311"></a><span class="lineno"> 1311</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> w;</div>
+<div class="line"><a name="l01312"></a><span class="lineno"> 1312</span>&#160;</div>
+<div class="line"><a name="l01313"></a><span class="lineno"> 1313</span>&#160;    <span class="comment">// drop the waypoint to a proper location:</span></div>
+<div class="line"><a name="l01314"></a><span class="lineno"> 1314</span>&#160;    <span class="comment">//   first move it up by a player height</span></div>
+<div class="line"><a name="l01315"></a><span class="lineno"> 1315</span>&#160;    <span class="comment">//   then move it down to hit the floor with player bbox size</span></div>
+<div class="line"><a name="l01316"></a><span class="lineno"> 1316</span>&#160;    position = <a class="code" href="../../d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5">waypoint_fixorigin</a>(position, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l01317"></a><span class="lineno"> 1317</span>&#160;</div>
+<div class="line"><a name="l01318"></a><span class="lineno"> 1318</span>&#160;    w = <a class="code" href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a>(position, position, <a class="code" href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a> | <a class="code" href="../../db/d15/api_8qh.html#a16465cf087c71e05a2a1cefaaa09093f">WAYPOINTFLAG_PERSONAL</a>);</div>
+<div class="line"><a name="l01319"></a><span class="lineno"> 1319</span>&#160;    w.nearestwaypoint = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l01320"></a><span class="lineno"> 1320</span>&#160;    w.nearestwaypointtimeout = 0;</div>
+<div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;    w.owner = <span class="keyword">this</span>;</div>
+<div class="line"><a name="l01322"></a><span class="lineno"> 1322</span>&#160;</div>
+<div class="line"><a name="l01323"></a><span class="lineno"> 1323</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5">waypoint_schedulerelink</a>(w);</div>
+<div class="line"><a name="l01324"></a><span class="lineno"> 1324</span>&#160;</div>
+<div class="line"><a name="l01325"></a><span class="lineno"> 1325</span>&#160;    <span class="keywordflow">return</span> w;</div>
+<div class="line"><a name="l01326"></a><span class="lineno"> 1326</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="waypoints_8qc_html_a706250013c5b4dab1edd27954290a4b5"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a706250013c5b4dab1edd27954290a4b5">waypoint_fixorigin</a></div><div class="ttdeci">#define waypoint_fixorigin(position, tracetest_ent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01220">waypoints.qc:1220</a></div></div>
 <div class="ttc" id="waypoints_8qc_html_ab34f7a15ca9eb4899a266cf5bead4efb"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb">waypoint_spawn</a></div><div class="ttdeci">entity waypoint_spawn(vector m1, vector m2, float f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00182">waypoints.qc:182</a></div></div>
@@ -2759,21 +2771,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="api_8qh_html_aa1fb4917cec6ee1ff962de8af430f46d"><div class="ttname"><a href="../../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a></div><div class="ttdeci">const int WAYPOINTFLAG_GENERATED</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00007">api.qh:7</a></div></div>
 <div class="ttc" id="api_8qh_html_a16465cf087c71e05a2a1cefaaa09093f"><div class="ttname"><a href="../../db/d15/api_8qh.html#a16465cf087c71e05a2a1cefaaa09093f">WAYPOINTFLAG_PERSONAL</a></div><div class="ttdeci">const int WAYPOINTFLAG_PERSONAL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00011">api.qh:11</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_aab164ee392b5c403e32390e58807707f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_aab164ee392b5c403e32390e58807707f_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2906,21 +2918,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="common_2constants_8qh_html_a1152f65c7a1285be22940ded1706fdbb"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a></div><div class="ttdeci">const vector PL_MIN_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00054">constants.qh:54</a></div></div>
 <div class="ttc" id="cvars_8qh_html_a198923cedc40559d92a6d1558f4ef55a"><div class="ttname"><a href="../../d6/d74/cvars_8qh.html#a198923cedc40559d92a6d1558f4ef55a">autocvar_bot_navigation_ignoreplayers</a></div><div class="ttdeci">bool autocvar_bot_navigation_ignoreplayers</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/cvars_8qh_source.html#l00049">cvars.qh:49</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
+<div id="dynsection-40-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a7ab4015afd0d98a36207a9186a62d127_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-40-content" class="dyncontent" style="display:none;">
+<div id="dynsection-41-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a7ab4015afd0d98a36207a9186a62d127_icgraph.svg" width="100%" height="423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3078,11 +3090,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2defs_8qh_html_a21516c4e202f0fa473d6b010d8b651b5"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5">g_items</a></div><div class="ttdeci">IntrusiveList g_items</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00408">defs.qh:408</a></div></div>
 <div class="ttc" id="api_8qh_html_a1e85d59acc7aee165d5cb268454a594c"><div class="ttname"><a href="../../db/d15/api_8qh.html#a1e85d59acc7aee165d5cb268454a594c">navigation_findnearestwaypoint</a></div><div class="ttdeci">entity navigation_findnearestwaypoint(entity ent, float walkfromwp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/navigation_8qc_source.html#l01010">navigation.qc:1010</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-41-content" class="dyncontent" style="display:none;">
+<div id="dynsection-42-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a71c65fa95801766d4248ba2799352c8a_cgraph.svg" width="416" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -3150,21 +3162,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="waypoints_8qc_html_aa5407b0b7212365767c0a9bfe9656c2f"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#aa5407b0b7212365767c0a9bfe9656c2f">waypoint_getlinkcost</a></div><div class="ttdeci">float waypoint_getlinkcost(entity from, entity to)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00484">waypoints.qc:484</a></div></div>
 <div class="ttc" id="api_8qh_html_a21c64a1d975a853a3361ec08c53c5c27"><div class="ttname"><a href="../../db/d15/api_8qh.html#a21c64a1d975a853a3361ec08c53c5c27">WAYPOINTFLAG_TELEPORT</a></div><div class="ttdeci">const int WAYPOINTFLAG_TELEPORT</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00009">api.qh:9</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-42-content" class="dyncontent" style="display:none;">
+<div id="dynsection-43-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a639e3964af580a5a3e7507684de9bcf4_cgraph.svg" width="100%" height="502"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-43-content" class="dyncontent" style="display:none;">
+<div id="dynsection-44-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d2a/waypoints_8qh_a639e3964af580a5a3e7507684de9bcf4_icgraph.svg" width="323" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -3217,7 +3229,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00015">15</a> of file <a class="el" href="../../d1/d2a/waypoints_8qh_source.html">waypoints.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01367">botframe_showwaypointlinks()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01368">botframe_showwaypointlinks()</a>.</p>
 
 </div>
 </div>
@@ -4333,7 +4345,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../d1/d2a/waypoints_8qh.html">waypoints.qh</a></li>
-    <li class="footer">Generated on Sun Oct 21 2018 21:24:08 for Xonotic by
+    <li class="footer">Generated on Mon Oct 22 2018 15:48:23 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -24,7 +24,7 @@ var server_2client_8qh =
     [ "PrintToChatAll", "d8/de2/server_2client_8qh.html#a2c29b93080851a8b1b00d0bca0c7cee9", null ],
     [ "PrintToChatTeam", "d8/de2/server_2client_8qh.html#a382a41c29c6967c613db86ec13c1201c", null ],
     [ "PutObserverInServer", "d8/de2/server_2client_8qh.html#a5e3082357cac2361155d16ee49c91224", null ],
-    [ "Say", "d8/de2/server_2client_8qh.html#a3ec86404101072a18190c63b450c508b", null ],
+    [ "Say", "d8/de2/server_2client_8qh.html#abb0f165077ac886332b821ac30314b8a", null ],
     [ "SetSpectatee", "d8/de2/server_2client_8qh.html#aee20b07617d4d8b3cf12723424d93532", null ],
     [ "SetSpectatee_status", "d8/de2/server_2client_8qh.html#ac4f7e6fc7e9a311d90c6379198d0bd9c", null ],
     [ "Spectate", "d8/de2/server_2client_8qh.html#acd1560ca258ee21a90fd35530c8127b0", null ],

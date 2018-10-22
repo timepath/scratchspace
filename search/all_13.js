@@ -38,7 +38,7 @@ var searchData=
   ['savenextthink',['savenextthink',['../de/d58/throwing_8qh.html#a41af2888d1c8d83398fc0b007b8f2b25',1,'throwing.qh']]],
   ['saverelorigin',['saveRelOrigin',['../d7/d5d/classBorderImage.html#a55fa87b5349ef30c674d5a13b2018ae1',1,'BorderImage']]],
   ['saverelsize',['saveRelSize',['../d7/d5d/classBorderImage.html#ac68d6c5ca71bf698d8ee488f4280cb2d',1,'BorderImage']]],
-  ['say',['Say',['../df/dd7/server_2client_8qc.html#abb0f165077ac886332b821ac30314b8a',1,'Say(entity source, int teamsay, entity privatesay, string msgin, bool floodcontrol):&#160;client.qc'],['../d8/de2/server_2client_8qh.html#a3ec86404101072a18190c63b450c508b',1,'Say(entity source, float teamsay, entity privatesay, string msgin, float floodcontrol):&#160;client.qh']]],
+  ['say',['Say',['../df/dd7/server_2client_8qc.html#abb0f165077ac886332b821ac30314b8a',1,'Say(entity source, int teamsay, entity privatesay, string msgin, bool floodcontrol):&#160;client.qc'],['../d8/de2/server_2client_8qh.html#abb0f165077ac886332b821ac30314b8a',1,'Say(entity source, int teamsay, entity privatesay, string msgin, bool floodcontrol):&#160;client.qc']]],
   ['sbrm_5fartillery',['SBRM_ARTILLERY',['../dc/d76/spiderbot_8qc.html#ab3db41953741eda4e5f3348a66667556',1,'spiderbot.qc']]],
   ['sbrm_5ffirst',['SBRM_FIRST',['../dc/d76/spiderbot_8qc.html#aad244c9a8dc8ffa7f1ee43b8ebb38b2f',1,'spiderbot.qc']]],
   ['sbrm_5fguide',['SBRM_GUIDE',['../dc/d76/spiderbot_8qc.html#a2990519fa5f4b6c49ad313bf1cc04aea',1,'spiderbot.qc']]],
