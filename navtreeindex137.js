@@ -1,5 +1,6 @@
 var NAVTREEINDEX137 =
 {
+"df/dec/fourier_8qc_source.html":[2,0,1,6,0,16],
 "df/dee/anglestransform_8qh.html":[2,0,4,2,3],
 "df/dee/anglestransform_8qh.html#a087f14c7e52559b3cc53eddc323b77a0":[2,0,4,2,3,20],
 "df/dee/anglestransform_8qh.html#a0909075e90b39b50ba4d318a27871c4c":[2,0,4,2,3,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX137 =
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#af6491199d7c16232c6ec828661a64ecf":[1,0,238,11],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#af9fddf9420dfbf92a4fb716acfaa260c":[1,0,238,55],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,238,83],
-"df/dfd/easing_8qh.html":[2,0,5,0,7],
-"df/dfd/easing_8qh.html#a285c6f8d89651804f751c07794d5c09c":[2,0,5,0,7,4]
+"df/dfd/easing_8qh.html":[2,0,5,0,7]
 };

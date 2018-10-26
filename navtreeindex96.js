@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"da/def/classClanArena.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,17,14],
 "da/def/classClanArena.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,17,8],
 "da/def/classClanArena.html#a689c2a1afc56d93f77ebdebad6b168bf":[1,0,17,11],
 "da/def/classClanArena.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,17,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "db/d11/classBumblebee.html#a8ce2a1db2b82992926802c8ce6d7d22b":[1,0,11,1],
 "db/d11/classBumblebee.html#a91f922352c8e6ca7b9b56617c530b8b4":[1,0,11,11],
 "db/d11/classBumblebee.html#a962d81e9c45a8f2ad1349065e65d098f":[1,0,11,10],
-"db/d11/classBumblebee.html#a96f9f5c3ac6195be77b33b68a49bed46":[1,0,11,15],
-"db/d11/classBumblebee.html#aab0ece981ccf1ff5cfdd9c33d3e9a278":[1,0,11,20]
+"db/d11/classBumblebee.html#a96f9f5c3ac6195be77b33b68a49bed46":[1,0,11,15]
 };

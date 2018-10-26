@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"d9/d35/csqcprojectile_8qh_source.html":[2,0,6,5,7],
 "d9/d37/classXonoticScreenshotBrowserTab.html":[1,0,239],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,239,36],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,239,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "d9/d58/classXonoticResolutionSlider.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,235,23],
 "d9/d58/classXonoticResolutionSlider.html#a12cae2879a01520f0d08f21a673a4d3f":[1,0,235,10],
 "d9/d58/classXonoticResolutionSlider.html#a1384d244201f945385ed59b53e4aee96":[1,0,235,53],
-"d9/d58/classXonoticResolutionSlider.html#a14b2c1b630609675816d233dd0ef3c7f":[1,0,235,44],
-"d9/d58/classXonoticResolutionSlider.html#a1c228ffb13fb785a4d69c1fc3cba8290":[1,0,235,13]
+"d9/d58/classXonoticResolutionSlider.html#a14b2c1b630609675816d233dd0ef3c7f":[1,0,235,44]
 };

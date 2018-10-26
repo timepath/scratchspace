@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#ac8dc1403277ff8d1fff42e122d9fa907":[2,0,6,3,3,206],
 "d6/ddd/server_2mutators_2events_8qh.html#ac8f8113a11eaec1ab526be7a422ff63e":[2,0,6,3,3,212],
 "d6/ddd/server_2mutators_2events_8qh.html#acb6b40b7e533c6c5161ebc3473365bc9":[2,0,6,3,3,5],
 "d6/ddd/server_2mutators_2events_8qh.html#acb987800997fcc9d6e5ff435d09acc32":[2,0,6,3,3,126],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "d7/d13/campaign__common_8qh_source.html":[2,0,1,24],
 "d7/d13/classXonoticHUDAmmoDialog.html":[1,0,186],
 "d7/d13/classXonoticHUDAmmoDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,186,30],
-"d7/d13/classXonoticHUDAmmoDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,186,11],
-"d7/d13/classXonoticHUDAmmoDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,186,38]
+"d7/d13/classXonoticHUDAmmoDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,186,11]
 };

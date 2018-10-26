@@ -1,5 +1,6 @@
 var NAVTREEINDEX136 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,200,36],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,200,56],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,200,33],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,200,83],
@@ -248,6 +249,5 @@ var NAVTREEINDEX136 =
 "df/de5/screenshotimage_8qh_source.html":[2,0,5,4,197],
 "df/deb/common_2gamemodes_2gamemode_2clanarena_2__mod_8inc.html":[2,0,1,3,0,1,0],
 "df/deb/common_2gamemodes_2gamemode_2clanarena_2__mod_8inc_source.html":[2,0,1,3,0,1,0],
-"df/dec/fourier_8qc.html":[2,0,1,6,0,16],
-"df/dec/fourier_8qc_source.html":[2,0,1,6,0,16]
+"df/dec/fourier_8qc.html":[2,0,1,6,0,16]
 };
