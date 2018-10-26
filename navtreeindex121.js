@@ -1,5 +1,8 @@
 var NAVTREEINDEX121 =
 {
+"dd/da6/classXonoticCreditsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,163,16],
+"dd/da6/classXonoticCreditsDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,163,50],
+"dd/da6/classXonoticCreditsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,163,2],
 "dd/da6/classXonoticCreditsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,163,36],
 "dd/da6/classXonoticCreditsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,163,40],
 "dd/dac/dialog__hudsetup__exit_8qc.html":[2,0,5,4,82],
@@ -182,12 +185,12 @@ var NAVTREEINDEX121 =
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,15,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,15,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,15,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,0],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,1],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,0],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,15,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,15,12],
-"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,2],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,4],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,5],
 "dd/dd5/sv__model_8qc_source.html":[2,0,4,0,15],
@@ -246,8 +249,5 @@ var NAVTREEINDEX121 =
 "dd/de4/classNexBall.html#ab101bcbde1ba6e7e5b6bf407695604a7":[1,0,88,10],
 "dd/de4/classNexBall.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,88,17],
 "dd/de4/classNexBall.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,88,4],
-"dd/de4/classNexBall.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,88,3],
-"dd/de4/classNexBall.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,88,20],
-"dd/de4/classNexBall.html#ac604c69f4377f2ec7894592403d28148":[1,0,88,0],
-"dd/de4/classNexBall.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,88,6]
+"dd/de4/classNexBall.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,88,3]
 };

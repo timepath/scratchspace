@@ -13,6 +13,7 @@ var csqcmodel__hooks_8qh =
     [ "EF_NOSELFSHADOW", "d3/dfc/csqcmodel__hooks_8qh.html#ae4b99cdb8615a6bdfb9dc79b5f6548a9", null ],
     [ "EF_RESTARTANIM_BIT", "d3/dfc/csqcmodel__hooks_8qh.html#acd9d00d9aad1f54ff833ef7cfab8e3d4", null ],
     [ "EF_TELEPORT_BIT", "d3/dfc/csqcmodel__hooks_8qh.html#a59b8c94bae8e8b41f417fab6789ffaf8", null ],
+    [ "isplayermodel", "d3/dfc/csqcmodel__hooks_8qh.html#aec0737976a360128bbd3f7c83daba8f5", null ],
     [ "MF_GIB", "d3/dfc/csqcmodel__hooks_8qh.html#a937e0bac5e7a4637d7e31d15aa8978ee", null ],
     [ "MF_GRENADE", "d3/dfc/csqcmodel__hooks_8qh.html#a09657390dc894b882c6e91ffebb4fdc5", null ],
     [ "MF_ROCKET", "d3/dfc/csqcmodel__hooks_8qh.html#a8d44b8410ee6587dbd842554833dd0f8", null ],

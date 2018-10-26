@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"d9/dca/classXonoticCommandButton.html#a8f3ca31037b6409920075b141b5d6c10":[1,0,162,0],
+"d9/dca/classXonoticCommandButton.html#a91496430c97151830db0169a7c482e82":[1,0,162,63],
+"d9/dca/classXonoticCommandButton.html#a95e3e1c82a75a5ee33b08f1da84c05bd":[1,0,162,40],
+"d9/dca/classXonoticCommandButton.html#a98e9b29dfe2a91ddb3b653eee1003b2f":[1,0,162,52],
 "d9/dca/classXonoticCommandButton.html#a99459ab62c745d1a8e9e5c65a15294e0":[1,0,162,46],
 "d9/dca/classXonoticCommandButton.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,162,36],
 "d9/dca/classXonoticCommandButton.html#aa7f27de3ff5b3d20ac6122783d29ad40":[1,0,162,56],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "d9/deb/classXonoticHUDTimerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,205,2],
 "d9/deb/classXonoticHUDTimerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,205,35],
 "d9/deb/classXonoticHUDTimerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,205,39],
-"d9/deb/classXonoticHUDTimerDialog.html#afdf6ccb6fb63aba4d853217aba0b06cc":[1,0,205,67],
-"d9/df0/weaponstats_8qh.html":[2,0,6,5,19],
-"d9/df0/weaponstats_8qh.html#a456ded6f061320557b90765d8d34c0f3":[2,0,6,5,19,5],
-"d9/df0/weaponstats_8qh.html#a658592c9d038c8940b9d17f4330cf72d":[2,0,6,5,19,1],
-"d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829":[2,0,6,5,19,7]
+"d9/deb/classXonoticHUDTimerDialog.html#afdf6ccb6fb63aba4d853217aba0b06cc":[1,0,205,67]
 };

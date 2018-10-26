@@ -1,5 +1,8 @@
 var NAVTREEINDEX130 =
 {
+"de/dde/gravity_8qc.html":[2,0,1,6,3,12],
+"de/dde/gravity_8qc_source.html":[2,0,1,6,3,12],
+"de/dde/slider__resolution_8qh.html":[2,0,5,4,215],
 "de/dde/slider__resolution_8qh.html#a149905fe320ea86a270c6f41cd86f003":[2,0,5,4,215,2],
 "de/dde/slider__resolution_8qh.html#a4117a9323add7535cf7a34c995b85018":[2,0,5,4,215,1],
 "de/dde/slider__resolution_8qh_source.html":[2,0,5,4,215],
@@ -246,8 +249,5 @@ var NAVTREEINDEX130 =
 "df/d16/common_2mapobjects_2defs_8qh.html#ae215e45f58a640fcf883e5899afbb69c":[2,0,1,6,6,1],
 "df/d16/common_2mapobjects_2defs_8qh.html#af43b684e7eb3c10d92f3e4867998c3ad":[2,0,1,6,6,4],
 "df/d16/common_2mapobjects_2defs_8qh_source.html":[2,0,1,6,6],
-"df/d16/common_2mapobjects_2misc_2__mod_8qh.html":[2,0,1,6,1,1],
-"df/d16/common_2mapobjects_2misc_2__mod_8qh_source.html":[2,0,1,6,1,1],
-"df/d17/cvars_8qc.html":[2,0,6,0,0,7],
-"df/d17/cvars_8qc_source.html":[2,0,6,0,0,7]
+"df/d16/common_2mapobjects_2misc_2__mod_8qh.html":[2,0,1,6,1,1]
 };

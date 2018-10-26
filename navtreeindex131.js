@@ -1,5 +1,8 @@
 var NAVTREEINDEX131 =
 {
+"df/d16/common_2mapobjects_2misc_2__mod_8qh_source.html":[2,0,1,6,1,1],
+"df/d17/cvars_8qc.html":[2,0,6,0,0,7],
+"df/d17/cvars_8qc_source.html":[2,0,6,0,0,7],
 "df/d18/checkpoint_8qc.html":[2,0,1,14,5],
 "df/d18/checkpoint_8qc_source.html":[2,0,1,14,5],
 "df/d1e/common_2mutators_2mutator_2walljump_2__mod_8inc.html":[2,0,1,10,0,38,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX131 =
 "df/d28/sv__turrets_8qh.html#afc5bab0042155b03537a5da62de4050b":[2,0,1,14,12,56],
 "df/d28/sv__turrets_8qh.html#aff66c7c0115341f74d7ed89fce94dc43":[2,0,1,14,12,62],
 "df/d28/sv__turrets_8qh_source.html":[2,0,1,14,12],
-"df/d2c/hellion_8qc.html":[2,0,1,14,0,12],
-"df/d2c/hellion_8qc_source.html":[2,0,1,14,0,12],
-"df/d30/client_2main_8qc.html":[2,0,0,15],
-"df/d30/client_2main_8qc.html#a0698c589ddb7333f4485bee9dae8bd16":[2,0,0,15,1]
+"df/d2c/hellion_8qc.html":[2,0,1,14,0,12]
 };

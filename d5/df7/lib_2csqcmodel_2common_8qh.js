@@ -17,6 +17,9 @@ var lib_2csqcmodel_2common_8qh =
     [ "frame2", "d5/df7/lib_2csqcmodel_2common_8qh.html#a0954428f79ce489bc83d67658677c5cd", null ],
     [ "frame2time", "d5/df7/lib_2csqcmodel_2common_8qh.html#a341181399408e081772bb34806df08b8", null ],
     [ "glowmod", "d5/df7/lib_2csqcmodel_2common_8qh.html#ab45736fb36b0b5641315be92b9747beb", null ],
+    [ "ISPLAYER_ENT", "d5/df7/lib_2csqcmodel_2common_8qh.html#a484c093a4acbc3119f02387355cff76e", null ],
+    [ "ISPLAYER_LOCAL", "d5/df7/lib_2csqcmodel_2common_8qh.html#a53300c3182a618a305716a1d59c9895f", null ],
+    [ "ISPLAYER_MODEL", "d5/df7/lib_2csqcmodel_2common_8qh.html#a749c487a8dc5eff2744d3b05aeecf69a", null ],
     [ "lerpfrac", "d5/df7/lib_2csqcmodel_2common_8qh.html#a4dfb495f19f535f5aac08ff7084e8a7a", null ],
     [ "view_ofs", "d5/df7/lib_2csqcmodel_2common_8qh.html#a62c3b9f9bf0fae21452c48c7c87265f7", null ]
 ];

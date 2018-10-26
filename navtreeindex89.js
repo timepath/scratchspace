@@ -1,5 +1,9 @@
 var NAVTREEINDEX89 =
 {
+"d9/df0/weaponstats_8qh.html":[2,0,6,5,19],
+"d9/df0/weaponstats_8qh.html#a456ded6f061320557b90765d8d34c0f3":[2,0,6,5,19,5],
+"d9/df0/weaponstats_8qh.html#a658592c9d038c8940b9d17f4330cf72d":[2,0,6,5,19,1],
+"d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829":[2,0,6,5,19,7],
 "d9/df0/weaponstats_8qh.html#a8f2f79e647a2d2bc87cac66e6f5a7f62":[2,0,6,5,19,4],
 "d9/df0/weaponstats_8qh.html#a92da13209374adaf40062e250635050f":[2,0,6,5,19,2],
 "d9/df0/weaponstats_8qh.html#aa8f9d7c732fe1401e1ee110adfafa840":[2,0,6,5,19,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX89 =
 "da/d1e/phaser__weapon_8qc.html":[2,0,1,14,0,30],
 "da/d1e/phaser__weapon_8qc_source.html":[2,0,1,14,0,30],
 "da/d20/spawnfunc_8qh.html":[2,0,4,55],
-"da/d20/spawnfunc_8qh.html#a0337431cd5614e4984c6012eea5be3ad":[2,0,4,55,24],
-"da/d20/spawnfunc_8qh.html#a09349a71324a154b90ff0ed86d833a14":[2,0,4,55,1],
-"da/d20/spawnfunc_8qh.html#a0b9d427233f1fc585de8da601a0d3f38":[2,0,4,55,4],
-"da/d20/spawnfunc_8qh.html#a19f19ce6180312d0bcdafcc71e46a559":[2,0,4,55,3],
-"da/d20/spawnfunc_8qh.html#a3b46bba07f5bf76ddd3eea7763bd03cb":[2,0,4,55,13]
+"da/d20/spawnfunc_8qh.html#a0337431cd5614e4984c6012eea5be3ad":[2,0,4,55,24]
 };

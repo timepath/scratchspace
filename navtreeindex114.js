@@ -1,5 +1,8 @@
 var NAVTREEINDEX114 =
 {
+"dc/dd8/dialog__settings__game__view_8qh.html#ad2c0275b75acbfb7f440c6f86cbaa4b2":[2,0,5,4,137,2],
+"dc/dd8/dialog__settings__game__view_8qh_source.html":[2,0,5,4,137],
+"dc/dda/classAmmo.html":[1,0,0],
 "dc/dda/classAmmo.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,0,0],
 "dc/dda/classAmmo.html#a48b78d497828537731feaa167c8af4f1":[1,0,0,13],
 "dc/dda/classAmmo.html#a6131dbf54f626ebf2c9d610833da9fb5":[1,0,0,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX114 =
 "dc/de9/classXonoticRootDialog.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,236,84],
 "dc/de9/classXonoticRootDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,236,88],
 "dc/de9/classXonoticRootDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,236,8],
-"dc/de9/classXonoticRootDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,236,66],
-"dc/de9/classXonoticRootDialog.html#af1aab403dc54575707fd57991312b201":[1,0,236,45],
-"dc/de9/classXonoticRootDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,236,25],
-"dc/de9/classXonoticRootDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,236,10]
+"dc/de9/classXonoticRootDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,236,66]
 };

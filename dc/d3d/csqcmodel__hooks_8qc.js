@@ -50,7 +50,6 @@ var csqcmodel__hooks_8qc =
     [ "forceplayermodels_saveskin", "dc/d3d/csqcmodel__hooks_8qc.html#a2cff298ea0a3612eecc46e934a570df0", null ],
     [ "forceplayermodels_skin", "dc/d3d/csqcmodel__hooks_8qc.html#a504d2f48a0fe6edc24a2563a071c9608", null ],
     [ "glowmod", "dc/d3d/csqcmodel__hooks_8qc.html#ab45736fb36b0b5641315be92b9747beb", null ],
-    [ "isplayermodel", "dc/d3d/csqcmodel__hooks_8qc.html#a17a6c58f046d5ba0a992704a55bee50e", null ],
     [ "lodmodelindex0", "dc/d3d/csqcmodel__hooks_8qc.html#ab473803a0773142ae861faea6bd995e3", null ],
     [ "lodmodelindex1", "dc/d3d/csqcmodel__hooks_8qc.html#a1c17b346dec89b6434e65d185e8aa494", null ],
     [ "lodmodelindex2", "dc/d3d/csqcmodel__hooks_8qc.html#a0f179309458eca2fb0e79ee5a321e603", null ],
