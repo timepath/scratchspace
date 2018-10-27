@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"d3/d45/physics_2movetypes_2follow_8qc_source.html":[2,0,1,12,0,3],
 "d3/d46/mapinfo_8qc.html":[2,0,1,34],
 "d3/d46/mapinfo_8qc.html#a0b27177a0f6dc1d8a84867b3ad610a82":[2,0,1,34,56],
 "d3/d46/mapinfo_8qc.html#a11cccf2aa8a2cd574781fcd4193fb1d0":[2,0,1,34,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "d3/d52/classXonoticResetDialog.html#a5c5c193450c2d627bccca7f7701e027f":[1,0,234,58],
 "d3/d52/classXonoticResetDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,234,62],
 "d3/d52/classXonoticResetDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,234,74],
-"d3/d52/classXonoticResetDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,234,6],
-"d3/d52/classXonoticResetDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,234,14]
+"d3/d52/classXonoticResetDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,234,6]
 };

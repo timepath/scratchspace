@@ -1,5 +1,8 @@
 var NAVTREEINDEX137 =
 {
+"df/deb/common_2gamemodes_2gamemode_2clanarena_2__mod_8inc.html":[2,0,1,3,0,1,0],
+"df/deb/common_2gamemodes_2gamemode_2clanarena_2__mod_8inc_source.html":[2,0,1,3,0,1,0],
+"df/dec/fourier_8qc.html":[2,0,1,6,0,16],
 "df/dec/fourier_8qc_source.html":[2,0,1,6,0,16],
 "df/dee/anglestransform_8qh.html":[2,0,4,2,3],
 "df/dee/anglestransform_8qh.html#a087f14c7e52559b3cc53eddc323b77a0":[2,0,4,2,3,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX137 =
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#aee9fee5e1e798ea7d1b0905bc107ed8c":[1,0,238,99],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#aeeea196cce280d4e95730a8f06b80518":[1,0,238,25],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,238,8],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#af6491199d7c16232c6ec828661a64ecf":[1,0,238,11],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#af9fddf9420dfbf92a4fb716acfaa260c":[1,0,238,55],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,238,83],
-"df/dfd/easing_8qh.html":[2,0,5,0,7]
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#af6491199d7c16232c6ec828661a64ecf":[1,0,238,11]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"d3/d77/shotgun_8qh.html":[2,0,1,16,0,35],
 "d3/d77/shotgun_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,35,1],
 "d3/d77/shotgun_8qh.html#a51afb043612b0929d78d6e88e0576d0e":[2,0,1,16,0,35,2],
 "d3/d77/shotgun_8qh_source.html":[2,0,1,16,0,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d3/d9d/bgmscript_8qh_source.html":[2,0,0,10],
 "d3/d9e/common_2items_2item_2ammo_8qc.html":[2,0,1,5,0,2],
 "d3/d9e/common_2items_2item_2ammo_8qc_source.html":[2,0,1,5,0,2],
-"d3/d9e/dpextensions_8qh.html":[2,0,2,2],
-"d3/d9e/dpextensions_8qh.html#a03da3a537f9764333e85cbed8b52f4e4":[2,0,2,2,9]
+"d3/d9e/dpextensions_8qh.html":[2,0,2,2]
 };

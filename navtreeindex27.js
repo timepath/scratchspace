@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"d3/d52/classXonoticResetDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,234,14],
 "d3/d52/classXonoticResetDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,234,18],
 "d3/d52/classXonoticResetDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,234,87],
 "d3/d52/classXonoticResetDialog.html#a7c8df2c0abfce497d5caa63c35d56080":[1,0,234,67],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d71/dialog__credits_8qc.html":[2,0,5,4,40],
 "d3/d71/dialog__credits_8qc.html#a4d438bd9a1255103dc2cf53f91f1aed7":[2,0,5,4,40,1],
 "d3/d71/dialog__credits_8qc.html#a4ea4520463328028f51785ada19f0259":[2,0,5,4,40,0],
-"d3/d71/dialog__credits_8qc_source.html":[2,0,5,4,40],
-"d3/d77/shotgun_8qh.html":[2,0,1,16,0,35]
+"d3/d71/dialog__credits_8qc_source.html":[2,0,5,4,40]
 };

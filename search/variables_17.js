@@ -97,6 +97,7 @@ var searchData=
   ['waypointflag_5fdead_5fend',['WAYPOINTFLAG_DEAD_END',['../db/d15/api_8qh.html#a1cb7af67d4a7ef4a8aa3291363c0d602',1,'api.qh']]],
   ['waypointflag_5fgenerated',['WAYPOINTFLAG_GENERATED',['../db/d15/api_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d',1,'api.qh']]],
   ['waypointflag_5fitem',['WAYPOINTFLAG_ITEM',['../db/d15/api_8qh.html#a8e5726bbd3b42d3894887a4965ecd5e4',1,'api.qh']]],
+  ['waypointflag_5fjump',['WAYPOINTFLAG_JUMP',['../db/d15/api_8qh.html#aeceb41f0fb7e75152f9e7f9c8edf1195',1,'api.qh']]],
   ['waypointflag_5fladder',['WAYPOINTFLAG_LADDER',['../db/d15/api_8qh.html#a1a9a9bff5b5adab2c3aa76636c5726d5',1,'api.qh']]],
   ['waypointflag_5fnorelink',['WAYPOINTFLAG_NORELINK',['../db/d15/api_8qh.html#a60ade385fee1250d5868d155686175ac',1,'api.qh']]],
   ['waypointflag_5fpersonal',['WAYPOINTFLAG_PERSONAL',['../db/d15/api_8qh.html#a16465cf087c71e05a2a1cefaaa09093f',1,'api.qh']]],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX89 =
 {
+"d9/deb/classXonoticHUDTimerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,205,35],
+"d9/deb/classXonoticHUDTimerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,205,39],
 "d9/deb/classXonoticHUDTimerDialog.html#afdf6ccb6fb63aba4d853217aba0b06cc":[1,0,205,67],
 "d9/df0/weaponstats_8qh.html":[2,0,6,5,19],
 "d9/df0/weaponstats_8qh.html#a456ded6f061320557b90765d8d34c0f3":[2,0,6,5,19,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX89 =
 "da/d1d/mainwindow_8qc.html#a1ead6224d662a11e80d74b913e8db41f":[2,0,5,4,178,0],
 "da/d1d/mainwindow_8qc.html#a906f272ebdf9a21d99b8d95e184866f3":[2,0,5,4,178,1],
 "da/d1d/mainwindow_8qc_source.html":[2,0,5,4,178],
-"da/d1e/phaser__weapon_8qc.html":[2,0,1,14,0,30],
-"da/d1e/phaser__weapon_8qc_source.html":[2,0,1,14,0,30],
-"da/d20/spawnfunc_8qh.html":[2,0,4,55]
+"da/d1e/phaser__weapon_8qc.html":[2,0,1,14,0,30]
 };

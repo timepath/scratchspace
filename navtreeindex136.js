@@ -1,5 +1,8 @@
 var NAVTREEINDEX136 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,200,16],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ac8ff390cca131390f263bd3a63dffae0":[1,0,200,76],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,200,31],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,200,36],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,200,56],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,200,33],
@@ -246,8 +249,5 @@ var NAVTREEINDEX136 =
 "df/de0/checkbox__slider__invalid_8qh_source.html":[2,0,5,4,15],
 "df/de5/screenshotimage_8qh.html":[2,0,5,4,197],
 "df/de5/screenshotimage_8qh.html#ab8ebc2ca1c2fa345f7d5b92facac2c98":[2,0,5,4,197,1],
-"df/de5/screenshotimage_8qh_source.html":[2,0,5,4,197],
-"df/deb/common_2gamemodes_2gamemode_2clanarena_2__mod_8inc.html":[2,0,1,3,0,1,0],
-"df/deb/common_2gamemodes_2gamemode_2clanarena_2__mod_8inc_source.html":[2,0,1,3,0,1,0],
-"df/dec/fourier_8qc.html":[2,0,1,6,0,16]
+"df/de5/screenshotimage_8qh_source.html":[2,0,5,4,197]
 };
