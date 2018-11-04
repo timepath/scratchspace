@@ -161,13 +161,13 @@ var NAVTREEINDEX =
 "de/ddc/classOverkillMachineGun.html#ad5415bf8852fce4b7aee2bb71fe284dd",
 "df/d16/common_2mapobjects_2defs_8qh.html#ae215e45f58a640fcf883e5899afbb69c",
 "df/d28/sv__turrets_8qh.html#afc5bab0042155b03537a5da62de4050b",
-"df/d61/sv__random__gravity_8qc.html#a44a0f5d45579f464f8855176d39bd101",
-"df/d8c/cl__cmd_8qc.html#a1d2657033c7343e97c079ba5b3a24e66",
-"df/d9b/menu_2xonotic_2util_8qc.html#ae6725ad239c958cb43c1254ea3be7554",
-"df/dc9/classXonoticHUDQuickMenuDialog.html#ac7550f84fc8660cd7a3921fbc016d51f",
-"df/deb/common_2gamemodes_2gamemode_2clanarena_2__mod_8inc.html",
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#af9fddf9420dfbf92a4fb716acfaa260c",
-"globals_func.html"
+"df/d58/yenc_8qh_source.html",
+"df/d8c/cl__cmd_8qc.html#a08467d55e8f32d8f69efe2011e00f340",
+"df/d9b/menu_2xonotic_2util_8qc.html#ada73b695059752dc4c9de93567017ca8",
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ac13a9ba025e6a5f544526088cfb294e2",
+"df/de5/screenshotimage_8qh.html",
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aeeea196cce280d4e95730a8f06b80518",
+"globals_e.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

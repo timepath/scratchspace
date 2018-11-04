@@ -1023,6 +1023,7 @@ var searchData=
   ['curl_5furi_5fget_5fcvar',['curl_uri_get_cvar',['../d7/d88/generic_8qh.html#a39d724775165a6eed9f5a054ef603dc4',1,'generic.qh']]],
   ['curl_5furi_5fget_5fexec',['curl_uri_get_exec',['../d7/d88/generic_8qh.html#a5f8848943d5e2e9f5be637396b97fddd',1,'generic.qh']]],
   ['curl_5furi_5fget_5fpos',['curl_uri_get_pos',['../d7/d88/generic_8qh.html#ab781771d2345a4946d8ec5c19b01ec3c',1,'generic.qh']]],
+  ['current_5falpha',['current_alpha',['../df/d3f/cl__damagetext_8qc.html#aeb408197f0defc96de3609460b5d1cc7',1,'cl_damagetext.qc']]],
   ['current_5fangles',['current_angles',['../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6',1,'view.qc']]],
   ['current_5fcamera_5foffset',['current_camera_offset',['../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4',1,'view.qc']]],
   ['current_5forigin',['current_origin',['../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8',1,'view.qc']]],
