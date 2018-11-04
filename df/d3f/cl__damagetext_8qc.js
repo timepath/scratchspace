@@ -15,7 +15,7 @@ var cl__damagetext_8qc =
     [ "AUTOCVAR_SAVE", "df/d3f/cl__damagetext_8qc.html#a7dce1aa8600ff0b85599c41947a679e3", null ],
     [ "AUTOCVAR_SAVE", "df/d3f/cl__damagetext_8qc.html#a983b53842224a37a7c899909a96b62b5", null ],
     [ "AUTOCVAR_SAVE", "df/d3f/cl__damagetext_8qc.html#ab3244b07d19cb1587b3fa459a868f0b1", null ],
-    [ "AUTOCVAR_SAVE", "df/d3f/cl__damagetext_8qc.html#af863053bc73e25e22638b3a1eedcecf3", null ],
+    [ "AUTOCVAR_SAVE", "df/d3f/cl__damagetext_8qc.html#aeac25d5713f0e5b88e7cc1b36490bffc", null ],
     [ "AUTOCVAR_SAVE", "df/d3f/cl__damagetext_8qc.html#a3b9265bf58a274061a2cbad7de6bf8e3", null ],
     [ "AUTOCVAR_SAVE", "df/d3f/cl__damagetext_8qc.html#a898e0324e6ab0cf3c9fd1f325c3aade8", null ],
     [ "AUTOCVAR_SAVE", "df/d3f/cl__damagetext_8qc.html#aeea53a563927b4265ef1a1446a19a400", null ],
