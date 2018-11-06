@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"d6/d11/progsdefs_8qc.html#a69686067f5f49541b6f7735aeec1640a":[2,0,2,0,4,231],
 "d6/d11/progsdefs_8qc.html#a6e3ccdfe76e71ca7c0a9a339bb768d3a":[2,0,2,0,4,271],
 "d6/d11/progsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180":[2,0,2,0,4,263],
 "d6/d11/progsdefs_8qc.html#a7241f7b6b665b924a4622e2593c97fc7":[2,0,2,0,4,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "d6/d16/sv__kick__teamkiller_8qc.html":[2,0,1,10,0,15,2],
 "d6/d16/sv__kick__teamkiller_8qc.html#a3b230d53545f54263c0a2ff3c1086b4e":[2,0,1,10,0,15,2,0],
 "d6/d16/sv__kick__teamkiller_8qc.html#a657a6c1fda25555ef02deb6134dbda7a":[2,0,1,10,0,15,2,2],
-"d6/d16/sv__kick__teamkiller_8qc.html#a97834c73a5d537174b194a032b85f607":[2,0,1,10,0,15,2,1],
-"d6/d16/sv__kick__teamkiller_8qc.html#afbd0e5bb50260402c47a87e3d97cb5c0":[2,0,1,10,0,15,2,3]
+"d6/d16/sv__kick__teamkiller_8qc.html#a97834c73a5d537174b194a032b85f607":[2,0,1,10,0,15,2,1]
 };

@@ -10,181 +10,194 @@
 <title>bot_calculate_stepheightvec</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="0,-95.5 0,-114.5 140,-114.5 140,-95.5 0,-95.5"/>
-<text text-anchor="middle" x="70" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">bot_calculate_stepheightvec</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-114.5 0,-133.5 140,-133.5 140,-114.5 0,-114.5"/>
+<text text-anchor="middle" x="70" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">bot_calculate_stepheightvec</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="../../d1/da9/bot_8qh.html#aca1687b4e440adf8111b9438919a0b0a" target="_top" xlink:title="bot_serverframe">
-<polygon fill="none" stroke="black" points="176.5,-114.5 176.5,-133.5 263.5,-133.5 263.5,-114.5 176.5,-114.5"/>
-<text text-anchor="middle" x="220" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">bot_serverframe</text>
+<polygon fill="none" stroke="black" points="176.5,-152.5 176.5,-171.5 263.5,-171.5 263.5,-152.5 176.5,-152.5"/>
+<text text-anchor="middle" x="220" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">bot_serverframe</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M150.366,-115.189C159.326,-116.339 168.18,-117.476 176.4,-118.531"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="150.598,-111.69 140.233,-113.888 149.706,-118.633 150.598,-111.69"/>
+<path fill="none" stroke="midnightblue" d="M118.173,-136.112C138.786,-141.404 162.609,-147.521 181.922,-152.48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="118.903,-132.686 108.347,-133.589 117.162,-139.466 118.903,-132.686"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d1/d2a/waypoints_8qh.html#a7ab4015afd0d98a36207a9186a62d127" target="_top" xlink:title="waypoint_think">
-<polygon fill="none" stroke="black" points="179,-76.5 179,-95.5 261,-95.5 261,-76.5 179,-76.5"/>
-<text text-anchor="middle" x="220" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">waypoint_think</text>
+<g id="a_node3"><a xlink:href="../../d2/dc0/bot_8qc.html#abe817dccf0768daac6974fd170fc0657" target="_top" xlink:title="STATIC_INIT">
+<polygon fill="none" stroke="black" points="181.5,-114.5 181.5,-133.5 258.5,-133.5 258.5,-114.5 181.5,-114.5"/>
+<text text-anchor="middle" x="220" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">STATIC_INIT</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M150.176,-94.8356C160.103,-93.5611 169.905,-92.3027 178.864,-91.1526"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="149.706,-91.367 140.233,-96.1119 150.598,-98.31 149.706,-91.367"/>
+<path fill="none" stroke="midnightblue" d="M150.521,-124C161.232,-124 171.789,-124 181.285,-124"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="150.233,-120.5 140.233,-124 150.233,-127.5 150.233,-120.5"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d1/d2a/waypoints_8qh.html#a7b401ce3982d2ff32e2581b69ce746b5" target="_top" xlink:title="waypoint_schedulerelink">
+<g id="a_node4"><a xlink:href="../../d1/d2a/waypoints_8qh.html#a7ab4015afd0d98a36207a9186a62d127" target="_top" xlink:title="waypoint_think">
+<polygon fill="none" stroke="black" points="179,-76.5 179,-95.5 261,-95.5 261,-76.5 179,-76.5"/>
+<text text-anchor="middle" x="220" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">waypoint_think</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M118.173,-111.888C138.786,-106.596 162.609,-100.479 181.922,-95.5201"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="117.162,-108.534 108.347,-114.411 118.903,-115.314 117.162,-108.534"/>
+</g>
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="../../d1/d2a/waypoints_8qh.html#a7b401ce3982d2ff32e2581b69ce746b5" target="_top" xlink:title="waypoint_schedulerelink">
 <polygon fill="none" stroke="black" points="300.5,-76.5 300.5,-95.5 423.5,-95.5 423.5,-76.5 300.5,-76.5"/>
 <text text-anchor="middle" x="362" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">waypoint_schedulerelink</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M271.12,-86C280.561,-86 290.529,-86 300.253,-86"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="271.118,-82.5001 261.118,-86 271.118,-89.5001 271.118,-82.5001"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d1/d2a/waypoints_8qh.html#a3785e13d7c3841061a68a34eca316b09" target="_top" xlink:title="waypoint_spawn_fromeditor">
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="../../d1/d2a/waypoints_8qh.html#a3785e13d7c3841061a68a34eca316b09" target="_top" xlink:title="waypoint_spawn_fromeditor">
 <polygon fill="none" stroke="black" points="460,-152.5 460,-171.5 598,-171.5 598,-152.5 460,-152.5"/>
 <text text-anchor="middle" x="529" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">waypoint_spawn_fromeditor</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M385.17,-101.277C404.287,-113.891 432.997,-131.524 460,-143 468.574,-146.644 478.05,-149.799 487.137,-152.434"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="387.109,-98.364 376.853,-95.7064 383.214,-104.18 387.109,-98.364"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d1/d2a/waypoints_8qh.html#a7caa23c12bbb5f161ff6104a3fb429d2" target="_top" xlink:title="waypoint_removelink">
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="../../d1/d2a/waypoints_8qh.html#a7caa23c12bbb5f161ff6104a3fb429d2" target="_top" xlink:title="waypoint_removelink">
 <polygon fill="none" stroke="black" points="475,-114.5 475,-133.5 583,-133.5 583,-114.5 475,-114.5"/>
 <text text-anchor="middle" x="529" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">waypoint_removelink</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node4&#45;&gt;Node6</title>
+<!-- Node5&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node5&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M414.654,-97.8961C437.846,-103.237 464.838,-109.454 486.663,-114.48"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="415.167,-94.4226 404.636,-95.589 413.596,-101.244 415.167,-94.4226"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d1/d2a/waypoints_8qh.html#a179e3b775f919c65b3b961ef5c2262b9" target="_top" xlink:title="waypoint_schedulerelinkall">
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="../../d1/d2a/waypoints_8qh.html#a179e3b775f919c65b3b961ef5c2262b9" target="_top" xlink:title="waypoint_schedulerelinkall">
 <polygon fill="none" stroke="black" points="462.5,-76.5 462.5,-95.5 595.5,-95.5 595.5,-76.5 462.5,-76.5"/>
 <text text-anchor="middle" x="529" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">waypoint_schedulerelinkall</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node4&#45;&gt;Node9</title>
+<!-- Node5&#45;&gt;Node10 -->
+<g id="edge9" class="edge"><title>Node5&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M433.676,-86C443.15,-86 452.837,-86 462.223,-86"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="433.503,-82.5001 423.503,-86 433.503,-89.5001 433.503,-82.5001"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d1/d2a/waypoints_8qh.html#a059d616d0acff05a510d864cbecb6879" target="_top" xlink:title="waypoint_load_links">
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="../../d1/d2a/waypoints_8qh.html#a059d616d0acff05a510d864cbecb6879" target="_top" xlink:title="waypoint_load_links">
 <polygon fill="none" stroke="black" points="647,-46.5 647,-65.5 751,-65.5 751,-46.5 647,-46.5"/>
 <text text-anchor="middle" x="699" y="-53.5" font-family="Helvetica,sans-Serif" font-size="10.00">waypoint_load_links</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node10 -->
-<g id="edge10" class="edge"><title>Node4&#45;&gt;Node10</title>
+<!-- Node5&#45;&gt;Node11 -->
+<g id="edge11" class="edge"><title>Node5&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M414.658,-74.4184C429.25,-71.5463 445.188,-68.7831 460,-67 524.065,-59.2877 598.429,-56.8901 646.751,-56.1937"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="413.909,-70.999 404.802,-76.4134 415.297,-77.8599 413.909,-70.999"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d1/d2a/waypoints_8qh.html#aab164ee392b5c403e32390e58807707f" target="_top" xlink:title="waypoint_spawnpersonal">
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="../../d1/d2a/waypoints_8qh.html#aab164ee392b5c403e32390e58807707f" target="_top" xlink:title="waypoint_spawnpersonal">
 <polygon fill="none" stroke="black" points="466,-0.5 466,-19.5 592,-19.5 592,-0.5 466,-0.5"/>
 <text text-anchor="middle" x="529" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">waypoint_spawnpersonal</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node11 -->
-<g id="edge11" class="edge"><title>Node4&#45;&gt;Node11</title>
+<!-- Node5&#45;&gt;Node12 -->
+<g id="edge12" class="edge"><title>Node5&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M387.849,-71.3161C407.14,-60.2539 434.763,-45.1401 460,-34 472.14,-28.6411 485.885,-23.6053 497.825,-19.5438"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="385.995,-68.3455 379.095,-76.3861 389.503,-74.4029 385.995,-68.3455"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d1/d2a/waypoints_8qh.html#af85db2f228ad24c8f013717be024365f" target="_top" xlink:title="waypoint_remove">
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="../../d1/d2a/waypoints_8qh.html#af85db2f228ad24c8f013717be024365f" target="_top" xlink:title="waypoint_remove">
 <polygon fill="none" stroke="black" points="652.5,-150.5 652.5,-169.5 745.5,-169.5 745.5,-150.5 652.5,-150.5"/>
 <text text-anchor="middle" x="699" y="-157.5" font-family="Helvetica,sans-Serif" font-size="10.00">waypoint_remove</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
+<!-- Node7&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node7&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M584.578,-135.695C606.883,-140.475 632.356,-145.933 653.504,-150.465"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="585.091,-132.226 574.58,-133.553 583.624,-139.071 585.091,-132.226"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d1/d2a/waypoints_8qh.html#ae8116b951b4efe0da268667c754d94b5" target="_top" xlink:title="waypoint_load_or_remove\l_links_hardwired">
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="../../d1/d2a/waypoints_8qh.html#ae8116b951b4efe0da268667c754d94b5" target="_top" xlink:title="waypoint_load_or_remove\l_links_hardwired">
 <polygon fill="none" stroke="black" points="634,-101 634,-131 764,-131 764,-101 634,-101"/>
 <text text-anchor="start" x="642" y="-119" font-family="Helvetica,sans-Serif" font-size="10.00">waypoint_load_or_remove</text>
 <text text-anchor="middle" x="699" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00">_links_hardwired</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node8 -->
-<g id="edge7" class="edge"><title>Node6&#45;&gt;Node8</title>
+<!-- Node7&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node7&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M593.522,-120.975C606.67,-120.349 620.531,-119.689 633.707,-119.062"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="592.978,-117.497 583.156,-121.469 593.311,-124.489 592.978,-117.497"/>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge9" class="edge"><title>Node9&#45;&gt;Node10</title>
+<!-- Node10&#45;&gt;Node11 -->
+<g id="edge10" class="edge"><title>Node10&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M593.786,-74.6097C611.343,-71.4744 630.153,-68.1155 646.893,-65.1262"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="592.847,-71.2218 583.618,-76.4253 594.078,-78.1128 592.847,-71.2218"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d8/d39/havocbot_8qh.html#a220d6282b351b7a69e7ee1bfce73098f" target="_top" xlink:title="havocbot_moveto">
+<!-- Node13 -->
+<g id="node13" class="node"><title>Node13</title>
+<g id="a_node13"><a xlink:href="../../d8/d39/havocbot_8qh.html#a220d6282b351b7a69e7ee1bfce73098f" target="_top" xlink:title="havocbot_moveto">
 <polygon fill="none" stroke="black" points="652,-0.5 652,-19.5 746,-19.5 746,-0.5 652,-0.5"/>
 <text text-anchor="middle" x="699" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">havocbot_moveto</text>
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node12 -->
-<g id="edge12" class="edge"><title>Node11&#45;&gt;Node12</title>
+<!-- Node12&#45;&gt;Node13 -->
+<g id="edge13" class="edge"><title>Node12&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M602.428,-10C619.217,-10 636.635,-10 651.93,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="602.08,-6.5001 592.08,-10 602.08,-13.5001 602.08,-6.5001"/>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d8/d39/havocbot_8qh.html#afb882bcf6c4a44e801e4fb9eafbbf1f4" target="_top" xlink:title="havocbot_setupbot">
+<!-- Node14 -->
+<g id="node14" class="node"><title>Node14</title>
+<g id="a_node14"><a xlink:href="../../d8/d39/havocbot_8qh.html#afb882bcf6c4a44e801e4fb9eafbbf1f4" target="_top" xlink:title="havocbot_setupbot">
 <polygon fill="none" stroke="black" points="800.5,-0.5 800.5,-19.5 899.5,-19.5 899.5,-0.5 800.5,-0.5"/>
 <text text-anchor="middle" x="850" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">havocbot_setupbot</text>
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node13 -->
-<g id="edge13" class="edge"><title>Node12&#45;&gt;Node13</title>
+<!-- Node13&#45;&gt;Node14 -->
+<g id="edge14" class="edge"><title>Node13&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M756.624,-10C771.039,-10 786.404,-10 800.381,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="756.328,-6.5001 746.328,-10 756.328,-13.5001 756.328,-6.5001"/>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="../../d1/da9/bot_8qh.html#abd19370e4d61d3549dbbe44826531536" target="_top" xlink:title="bot_clientconnect">
+<!-- Node15 -->
+<g id="node15" class="node"><title>Node15</title>
+<g id="a_node15"><a xlink:href="../../d1/da9/bot_8qh.html#abd19370e4d61d3549dbbe44826531536" target="_top" xlink:title="bot_clientconnect">
 <polygon fill="none" stroke="black" points="936.5,-0.5 936.5,-19.5 1029.5,-19.5 1029.5,-0.5 936.5,-0.5"/>
 <text text-anchor="middle" x="983" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">bot_clientconnect</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node14 -->
-<g id="edge14" class="edge"><title>Node13&#45;&gt;Node14</title>
+<!-- Node14&#45;&gt;Node15 -->
+<g id="edge15" class="edge"><title>Node14&#45;&gt;Node15</title>
 <path fill="none" stroke="midnightblue" d="M909.995,-10C918.792,-10 927.747,-10 936.217,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="909.78,-6.5001 899.78,-10 909.78,-13.5001 909.78,-6.5001"/>
 </g>

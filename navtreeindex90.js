@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"da/d1e/phaser__weapon_8qc.html":[2,0,1,14,0,30],
 "da/d1e/phaser__weapon_8qc_source.html":[2,0,1,14,0,30],
 "da/d20/spawnfunc_8qh.html":[2,0,4,55],
 "da/d20/spawnfunc_8qh.html#a0337431cd5614e4984c6012eea5be3ad":[2,0,4,55,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "da/d2c/sv__keyhunt_8qc.html#ae841525a53ae8d7528b880ee1b2a061e":[2,0,1,3,0,10,2,60],
 "da/d2c/sv__keyhunt_8qc.html#ae955d4effbbc7642be80664ccb7fdaad":[2,0,1,3,0,10,2,0],
 "da/d2c/sv__keyhunt_8qc.html#ae96b15ad211db1ea8f4da4aca4347233":[2,0,1,3,0,10,2,2],
-"da/d2c/sv__keyhunt_8qc.html#aec5ba95e431cc6f41dacc6f33aa31f16":[2,0,1,3,0,10,2,61],
-"da/d2c/sv__keyhunt_8qc.html#af0205f884b65245c59767ebaf4ac57d0":[2,0,1,3,0,10,2,41]
+"da/d2c/sv__keyhunt_8qc.html#aec5ba95e431cc6f41dacc6f33aa31f16":[2,0,1,3,0,10,2,61]
 };
