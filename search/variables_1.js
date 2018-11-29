@@ -1627,6 +1627,7 @@ var searchData=
   ['autocvar_5fsv_5fplayer_5fscale',['autocvar_sv_player_scale',['../d7/da7/server_2autocvars_8qh.html#a615c3c35c70f81e539659e9737ab8da8',1,'autocvars.qh']]],
   ['autocvar_5fsv_5fprecacheplayermodels',['autocvar_sv_precacheplayermodels',['../d7/da7/server_2autocvars_8qh.html#a5c10211fe0abd23e1e51067696817e5d',1,'autocvars.qh']]],
   ['autocvar_5fsv_5fq3acompat_5fmachineshotgunswap',['autocvar_sv_q3acompat_machineshotgunswap',['../d7/da7/server_2autocvars_8qh.html#a709d598e919683713db93154820f53b7',1,'autocvars.qh']]],
+  ['autocvar_5fsv_5fqcphysics',['autocvar_sv_qcphysics',['../df/dd7/server_2client_8qc.html#ab0e1d4b28271a65528dff22463304ca2',1,'client.qc']]],
   ['autocvar_5fsv_5fservermodelsonly',['autocvar_sv_servermodelsonly',['../d7/da7/server_2autocvars_8qh.html#a2f922a52027cffacd40223e47d919229',1,'autocvars.qh']]],
   ['autocvar_5fsv_5fshowspectators',['autocvar_sv_showspectators',['../d7/da7/server_2autocvars_8qh.html#afab6009f0cf0755d3c04db3dc857b498',1,'autocvars.qh']]],
   ['autocvar_5fsv_5fspectate',['autocvar_sv_spectate',['../d7/da7/server_2autocvars_8qh.html#a4582f43ca3fd1deed36d5de154683148',1,'autocvars.qh']]],

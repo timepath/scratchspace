@@ -77,6 +77,7 @@ var server_2client_8qc =
     [ "TRANSMUTE", "df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80", null ],
     [ "UpdateChatBubble", "df/dd7/server_2client_8qc.html#a616f8875b0e8641acc7d4a19a0824be2", null ],
     [ "WriteSpectators", "df/dd7/server_2client_8qc.html#a199cb8defbbeacacf578f7c12b16004f", null ],
+    [ "autocvar_sv_qcphysics", "df/dd7/server_2client_8qc.html#ab0e1d4b28271a65528dff22463304ca2", null ],
     [ "chatbubbleentity", "df/dd7/server_2client_8qc.html#a0ea52ed96e6d3b34c2c0eac9ec813fe7", null ],
     [ "FallbackPlayerModel", "df/dd7/server_2client_8qc.html#af5e87ff2e4692a9299766df3a8d949d7", null ],
     [ "frame", "df/dd7/server_2client_8qc.html#a6828e314f91bec7a1445f0be1b00d7c0", null ],
