@@ -3,7 +3,7 @@ var view_8qc =
     [ "avg_factor", "d6/dd3/view_8qc.html#acf17fe1577abc1aa82494a0b875cc7b8", null ],
     [ "CROSSHAIR_DO_BLUR", "d6/dd3/view_8qc.html#a5c1d7d4d57c3d93e1b0759629efd1173", null ],
     [ "CROSSHAIR_DRAW", "d6/dd3/view_8qc.html#a5e7f89840c2bfa715e35ac94ce385944", null ],
-    [ "CROSSHAIR_DRAW_SINGLE", "d6/dd3/view_8qc.html#a51a99bd2115fc45f7b8d121c7b8d6014", null ],
+    [ "CROSSHAIR_DRAW_SINGLE", "d6/dd3/view_8qc.html#ab9849ddc326e1fbd3e1f6f63656ac310", null ],
     [ "EFMASK_CHEAP", "d6/dd3/view_8qc.html#af31e2da8f9f15c1d3665c6b48f04a6e0", null ],
     [ "highpass", "d6/dd3/view_8qc.html#ac0abe074472e3c080ad742e31c3c395b", null ],
     [ "highpass2", "d6/dd3/view_8qc.html#a398d42095e9784afce66ee46bbf786ab", null ],

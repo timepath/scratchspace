@@ -788,7 +788,7 @@ var searchData=
   ['cross',['cross',['../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5',1,'vector.qh']]],
   ['crosshair_5fdo_5fblur',['CROSSHAIR_DO_BLUR',['../d6/dd3/view_8qc.html#a5c1d7d4d57c3d93e1b0759629efd1173',1,'view.qc']]],
   ['crosshair_5fdraw',['CROSSHAIR_DRAW',['../d6/dd3/view_8qc.html#a5e7f89840c2bfa715e35ac94ce385944',1,'view.qc']]],
-  ['crosshair_5fdraw_5fsingle',['CROSSHAIR_DRAW_SINGLE',['../d6/dd3/view_8qc.html#a51a99bd2115fc45f7b8d121c7b8d6014',1,'view.qc']]],
+  ['crosshair_5fdraw_5fsingle',['CROSSHAIR_DRAW_SINGLE',['../d6/dd3/view_8qc.html#ab9849ddc326e1fbd3e1f6f63656ac310',1,'view.qc']]],
   ['crosshair_5fgetcolor',['crosshair_getcolor',['../d6/dd3/view_8qc.html#ae12e2fa9f814f4f88da1d5259fd4721f',1,'crosshair_getcolor(entity this, float health_stat):&#160;view.qc'],['../d5/d8c/view_8qh.html#ae12e2fa9f814f4f88da1d5259fd4721f',1,'crosshair_getcolor(entity this, float health_stat):&#160;view.qc']]],
   ['crosshair_5ftrace',['crosshair_trace',['../dc/dc6/server_2miscfunctions_8qc.html#a8292725ec840a49d42ef6453aaf838f6',1,'crosshair_trace(entity pl):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a8292725ec840a49d42ef6453aaf838f6',1,'crosshair_trace(entity pl):&#160;miscfunctions.qc']]],
   ['crosshair_5ftrace_5fplusvisibletriggers',['crosshair_trace_plusvisibletriggers',['../dc/dc6/server_2miscfunctions_8qc.html#a9890a696168a390303c18532e659a7b9',1,'crosshair_trace_plusvisibletriggers(entity pl):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a9890a696168a390303c18532e659a7b9',1,'crosshair_trace_plusvisibletriggers(entity pl):&#160;miscfunctions.qc']]],
