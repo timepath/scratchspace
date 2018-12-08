@@ -1,6 +1,7 @@
 var aim_8qc =
 [
     [ "bot_aim", "df/dc9/aim_8qc.html#ae876c215515375799091388af5fc15ae", null ],
+    [ "bot_aim_reset", "df/dc9/aim_8qc.html#ab8a774722467f5e4d60086ab429df89b", null ],
     [ "bot_aimdir", "df/dc9/aim_8qc.html#aecfef2eda1200592801a4613a7318266", null ],
     [ "bot_lagfunc", "df/dc9/aim_8qc.html#af8050ab8c527644541f6663b6ea42874", null ],
     [ "bot_shotlead", "df/dc9/aim_8qc.html#a796f9908be3ee5088545f483aaa689ee", null ],

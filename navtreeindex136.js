@@ -1,5 +1,16 @@
 var NAVTREEINDEX136 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,200,71],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,200,75],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,200,63],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#aa793b84be0fb3ce79695c27e9d7cb3d7":[1,0,200,85],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,200,64],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,200,9],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#aabb64325ec115e93b3ee8b5c492a456d":[1,0,200,81],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,200,78],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,200,77],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,200,34],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,200,5],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,200,88],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,200,42],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,200,51],
@@ -238,16 +249,5 @@ var NAVTREEINDEX136 =
 "df/dd7/server_2client_8qc.html#ade766288e98d9de45e646c8212f6f14a":[2,0,6,17,11],
 "df/dd7/server_2client_8qc.html#ae1ed9a146c5c791944277a4ff2c890c6":[2,0,6,17,7],
 "df/dd7/server_2client_8qc.html#ae55541fef89bf17be7eedf1e1b8d9c91":[2,0,6,17,21],
-"df/dd7/server_2client_8qc.html#ae65b054c6752ac6d32c4212a3b9a4294":[2,0,6,17,2],
-"df/dd7/server_2client_8qc.html#ae84ed56b100e14c362b437744f16644a":[2,0,6,17,86],
-"df/dd7/server_2client_8qc.html#aec6cdba5f75bbb56090f5e085e9bcfeb":[2,0,6,17,14],
-"df/dd7/server_2client_8qc.html#aee20b07617d4d8b3cf12723424d93532":[2,0,6,17,62],
-"df/dd7/server_2client_8qc.html#af26e733ad0d007af7a721579c731e890":[2,0,6,17,61],
-"df/dd7/server_2client_8qc.html#af4eb45b5c44af7661d1ef9a3e7d3cb19":[2,0,6,17,18],
-"df/dd7/server_2client_8qc.html#af5e87ff2e4692a9299766df3a8d949d7":[2,0,6,17,79],
-"df/dd7/server_2client_8qc.html#aff186c20f705125efa07fdd452114768":[2,0,6,17,9],
-"df/dd7/server_2client_8qc_source.html":[2,0,6,17],
-"df/dd9/location_8qh.html":[2,0,1,6,2,9],
-"df/dd9/location_8qh_source.html":[2,0,1,6,2,9],
-"df/de0/checkbox__slider__invalid_8qh.html":[2,0,5,4,15]
+"df/dd7/server_2client_8qc.html#ae65b054c6752ac6d32c4212a3b9a4294":[2,0,6,17,2]
 };

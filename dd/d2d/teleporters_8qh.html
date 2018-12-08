@@ -244,66 +244,66 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00173">173</a> of file <a class="el" href="../../d0/d6b/teleporters_8qc_source.html">teleporters.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00178">178</a> of file <a class="el" href="../../d0/d6b/teleporters_8qc_source.html">teleporters.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00188">FOREACH_ENTITY_STRING</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00014">RandomSelection_AddEnt</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00005">RandomSelection_chosen_ent</a>, <a class="el" href="../../dc/d95/random_8qc_source.html#l00004">RandomSelection_Init()</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00194">targetname</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00295">CheatCommand()</a>, and <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00045">Teleport_Touch()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;{</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> locout;</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="comment">// Find the output teleporter</span></div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">if</span>(teleporter.enemy)</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    {</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        e = teleporter.enemy;</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    }</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    {</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="comment">// sorry CSQC, random stuff ain&#39;t gonna happen</span></div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf">RandomSelection_Init</a>();</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ad7fe88fd0110be973f33790914a7955c">FOREACH_ENTITY_STRING</a>(<a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, teleporter.target,</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        {</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <span class="keywordflow">if</span>(STAT(TELEPORT_TELEFRAG_AVOID, player))</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            {</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="preprocessor">            #ifdef SVQC</span></div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="preprocessor"></span>                locout = it.origin + <span class="stringliteral">&#39;0 0 1&#39;</span> * (1 - player.mins.z - 24);</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="preprocessor">            #elif defined(CSQC)</span></div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="preprocessor"></span>                locout = it.origin + <span class="stringliteral">&#39;0 0 1&#39;</span> * (1 - player.mins.z - 24);</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="preprocessor">            #endif</span></div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="preprocessor"></span>                <span class="keywordflow">if</span>(check_tdeath(player, locout, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;0 0 0&#39;</span>))</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                    <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            }</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#a49a2adfdf5f027b14f01add2097e6df7">RandomSelection_AddEnt</a>(it, (it.cnt ? it.cnt : 1), <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>);</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        });</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        e = <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="preprocessor"></span>    }</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(!e) { <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(player, <span class="stringliteral">&quot;Teleport destination vanished. Sorry... please complain to the mapper.\n&quot;</span>); }</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="preprocessor">#elif defined(CSQC)</span></div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(!e) { <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Teleport destination could not be found from CSQC.&quot;</span>); }</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    makevectors(e.mangle);</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="keywordflow">if</span>(e.speed)</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(player.velocity, &gt;, e.speed))</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            player.velocity = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(player.velocity) * <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, e.speed);</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="keywordflow">if</span>(STAT(TELEPORT_MAXSPEED, player))</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(player.velocity, &gt;, STAT(TELEPORT_MAXSPEED, player)))</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            player.velocity = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(player.velocity) * <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, STAT(TELEPORT_MAXSPEED, player));</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    locout = e.origin + <span class="stringliteral">&#39;0 0 1&#39;</span> * (1 - player.mins.z - 24);</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <a class="code" href="../../d0/d6b/teleporters_8qc.html#ab3fd6d0aedddaa968142b4ea0bb6c041">TeleportPlayer</a>(teleporter, player, locout, e.mangle, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(player.velocity), <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;0 0 0&#39;</span>, <a class="code" href="../../dd/d2d/teleporters_8qh.html#a5daecf64276e6826577ae7b897f02943">TELEPORT_FLAGS_TELEPORTER</a>);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordflow">return</span> e;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;{</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> locout;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="comment">// Find the output teleporter</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">if</span>(teleporter.enemy)</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        e = teleporter.enemy;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    }</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="comment">// sorry CSQC, random stuff ain&#39;t gonna happen</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf">RandomSelection_Init</a>();</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ad7fe88fd0110be973f33790914a7955c">FOREACH_ENTITY_STRING</a>(<a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, teleporter.target,</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            <span class="keywordflow">if</span>(STAT(TELEPORT_TELEFRAG_AVOID, player))</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="preprocessor">            #ifdef SVQC</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="preprocessor"></span>                locout = it.origin + <span class="stringliteral">&#39;0 0 1&#39;</span> * (1 - player.mins.z - 24);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="preprocessor">            #elif defined(CSQC)</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<span class="preprocessor"></span>                locout = it.origin + <span class="stringliteral">&#39;0 0 1&#39;</span> * (1 - player.mins.z - 24);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;<span class="preprocessor">            #endif</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="preprocessor"></span>                <span class="keywordflow">if</span>(check_tdeath(player, locout, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;0 0 0&#39;</span>))</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                    <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            }</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#a49a2adfdf5f027b14f01add2097e6df7">RandomSelection_AddEnt</a>(it, (it.cnt ? it.cnt : 1), <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        });</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        e = <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="preprocessor"></span>    }</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(!e) { <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(player, <span class="stringliteral">&quot;Teleport destination vanished. Sorry... please complain to the mapper.\n&quot;</span>); }</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="preprocessor">#elif defined(CSQC)</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(!e) { <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Teleport destination could not be found from CSQC.&quot;</span>); }</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    makevectors(e.mangle);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keywordflow">if</span>(e.speed)</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(player.velocity, &gt;, e.speed))</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            player.velocity = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(player.velocity) * <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, e.speed);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">if</span>(STAT(TELEPORT_MAXSPEED, player))</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(player.velocity, &gt;, STAT(TELEPORT_MAXSPEED, player)))</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            player.velocity = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(player.velocity) * <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, STAT(TELEPORT_MAXSPEED, player));</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    locout = e.origin + <span class="stringliteral">&#39;0 0 1&#39;</span> * (1 - player.mins.z - 24);</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <a class="code" href="../../d0/d6b/teleporters_8qc.html#ab3fd6d0aedddaa968142b4ea0bb6c041">TeleportPlayer</a>(teleporter, player, locout, e.mangle, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(player.velocity), <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;0 0 0&#39;</span>, <a class="code" href="../../dd/d2d/teleporters_8qh.html#a5daecf64276e6826577ae7b897f02943">TELEPORT_FLAGS_TELEPORTER</a>);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keywordflow">return</span> e;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;}</div>
 <div class="ttc" id="random_8qc_html_a3405965b1da9657276caec225d4b3acf"><div class="ttname"><a href="../../dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf">RandomSelection_Init</a></div><div class="ttdeci">ERASEABLE void RandomSelection_Init()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d95/random_8qc_source.html#l00004">random.qc:4</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
@@ -392,16 +392,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00278">278</a> of file <a class="el" href="../../d0/d6b/teleporters_8qc_source.html">teleporters.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00283">283</a> of file <a class="el" href="../../d0/d6b/teleporters_8qc_source.html">teleporters.qc</a>.</p>
 
 <p>References <a class="el" href="../../dd/d2d/teleporters_8qh_source.html#l00004">g_teleporters</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00167">IL_EACH</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00135">WarpZoneLib_BoxTouchesBrush()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;{</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../dd/d2d/teleporters_8qh.html#acce302c0f2186fb419328bb3a9c5a1a7">g_teleporters</a>, <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1b87d3cc5d237220e1d7def92aca4632">WarpZoneLib_BoxTouchesBrush</a>(mi, ma, it, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>),</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    {</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        <span class="keywordflow">return</span> it;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    });</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;{</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../dd/d2d/teleporters_8qh.html#acce302c0f2186fb419328bb3a9c5a1a7">g_teleporters</a>, <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1b87d3cc5d237220e1d7def92aca4632">WarpZoneLib_BoxTouchesBrush</a>(mi, ma, it, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>),</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    {</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        <span class="keywordflow">return</span> it;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    });</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;}</div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00167">intrusivelist.qh:167</a></div></div>
 <div class="ttc" id="teleporters_8qh_html_acce302c0f2186fb419328bb3a9c5a1a7"><div class="ttname"><a href="../../dd/d2d/teleporters_8qh.html#acce302c0f2186fb419328bb3a9c5a1a7">g_teleporters</a></div><div class="ttdeci">IntrusiveList g_teleporters</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2d/teleporters_8qh_source.html#l00004">teleporters.qh:4</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a1b87d3cc5d237220e1d7def92aca4632"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1b87d3cc5d237220e1d7def92aca4632">WarpZoneLib_BoxTouchesBrush</a></div><div class="ttdeci">float WarpZoneLib_BoxTouchesBrush(vector mi, vector ma, entity e, entity ig)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00135">common.qc:135</a></div></div>
@@ -433,57 +433,57 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00230">230</a> of file <a class="el" href="../../d0/d6b/teleporters_8qc_source.html">teleporters.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00235">235</a> of file <a class="el" href="../../d0/d6b/teleporters_8qc_source.html">teleporters.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l01129">DPCONTENTS_BODY</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l01136">DPCONTENTS_BOTCLIP</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l01132">DPCONTENTS_PLAYERCLIP</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l01124">DPCONTENTS_SOLID</a>, <a class="el" href="../../d6/db0/sv__ctf_8qh_source.html#l00135">enemy</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00246">MOVETYPE_NONE</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror()</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00053">PL_MAX_CONST</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00054">PL_MIN_CONST</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00099">solid</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00127">SOLID_TRIGGER</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn()</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00193">target</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00194">targetname</a>, <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00045">Teleport_Touch()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01339">waypoint_spawnforteleporter()</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l01129">DPCONTENTS_BODY</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l01136">DPCONTENTS_BOTCLIP</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l01132">DPCONTENTS_PLAYERCLIP</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l01124">DPCONTENTS_SOLID</a>, <a class="el" href="../../d6/db0/sv__ctf_8qh_source.html#l00135">enemy</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00246">MOVETYPE_NONE</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror()</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00053">PL_MAX_CONST</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00054">PL_MIN_CONST</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00099">solid</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00127">SOLID_TRIGGER</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn()</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00193">target</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00194">targetname</a>, <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00045">Teleport_Touch()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01442">waypoint_spawnforteleporter()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00295">CheatCommand()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;{</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keywordtype">bool</span> istrigger = (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d">solid</a> == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a3973fdf525463133ef775c885b63b989">SOLID_TRIGGER</a>);</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="keywordtype">int</span> n = 0;</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(e, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>)); )</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    {</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        ++n;</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">if</span>(e.move_movetype == <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>)</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        {</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> tracetest_ent = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            setsize(tracetest_ent, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a>);</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            tracetest_ent.dphitcontentsmask = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a34857d93b57ccb6265adbe8ad217b489">DPCONTENTS_SOLID</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a7426354055efce7db1f2489f6b350b62">DPCONTENTS_BODY</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a877ab9885479279b43f8a47782f9785a">DPCONTENTS_PLAYERCLIP</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a27b81f4d1187ee99894e35e4119013ab">DPCONTENTS_BOTCLIP</a>;</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;            <a class="code" href="../../db/d15/api_8qh.html#a6805606231a9daaa02d082d33f3514df">waypoint_spawnforteleporter</a>(<span class="keyword">this</span>, e.origin, 0, tracetest_ent);</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            <span class="keyword">delete</span>(tracetest_ent);</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        }</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="keywordflow">if</span>(e.classname != <span class="stringliteral">&quot;info_teleport_destination&quot;</span>)</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;^3MAPPER ERROR: teleporter does target an invalid teleport destination entity. Angles will not work.&quot;</span>);</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="preprocessor"></span>    }</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">if</span>(n == 0)</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    {</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="comment">// no dest!</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a> (<span class="keyword">this</span>, <span class="stringliteral">&quot;Teleporter with nonexistant target&quot;</span>);</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    }</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(n == 1)</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    {</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="comment">// exactly one dest - bots love that</span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        this.<a class="code" href="../../d6/db0/sv__ctf_8qh.html#a9bdd141f634714eab30642bf42f63862">enemy</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>);</div>
+<div class="fragment"><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;{</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keywordtype">bool</span> istrigger = (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d">solid</a> == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a3973fdf525463133ef775c885b63b989">SOLID_TRIGGER</a>);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keywordtype">int</span> n = 0;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(e, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>)); )</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    {</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        ++n;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">if</span>(e.move_movetype == <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>)</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        {</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> tracetest_ent = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            setsize(tracetest_ent, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a>);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            tracetest_ent.dphitcontentsmask = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a34857d93b57ccb6265adbe8ad217b489">DPCONTENTS_SOLID</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a7426354055efce7db1f2489f6b350b62">DPCONTENTS_BODY</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a877ab9885479279b43f8a47782f9785a">DPCONTENTS_PLAYERCLIP</a> | <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a27b81f4d1187ee99894e35e4119013ab">DPCONTENTS_BOTCLIP</a>;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            <a class="code" href="../../db/d15/api_8qh.html#a6805606231a9daaa02d082d33f3514df">waypoint_spawnforteleporter</a>(<span class="keyword">this</span>, e.origin, 0, tracetest_ent);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            <span class="keyword">delete</span>(tracetest_ent);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        }</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordflow">if</span>(e.classname != <span class="stringliteral">&quot;info_teleport_destination&quot;</span>)</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;^3MAPPER ERROR: teleporter does target an invalid teleport destination entity. Angles will not work.&quot;</span>);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor"></span>    }</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <span class="keywordflow">if</span>(n == 0)</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <span class="comment">// no dest!</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a> (<span class="keyword">this</span>, <span class="stringliteral">&quot;Teleporter with nonexistant target&quot;</span>);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    }</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(n == 1)</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    {</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="comment">// have to use random selection every single time</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        this.<a class="code" href="../../d6/db0/sv__ctf_8qh.html#a9bdd141f634714eab30642bf42f63862">enemy</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="comment">// exactly one dest - bots love that</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        this.<a class="code" href="../../d6/db0/sv__ctf_8qh.html#a9bdd141f634714eab30642bf42f63862">enemy</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>);</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    }</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <span class="comment">// now enable touch</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">if</span>(istrigger)</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        settouch(<span class="keyword">this</span>, <a class="code" href="../../dd/d2d/teleporters_8qh.html#a92ff553068677feebff8a10a9acef5f2">Teleport_Touch</a>);</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(istrigger)</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        trigger_teleport_link(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    {</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <span class="comment">// have to use random selection every single time</span></div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        this.<a class="code" href="../../d6/db0/sv__ctf_8qh.html#a9bdd141f634714eab30642bf42f63862">enemy</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    }</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    <span class="comment">// now enable touch</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <span class="keywordflow">if</span>(istrigger)</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        settouch(<span class="keyword">this</span>, <a class="code" href="../../dd/d2d/teleporters_8qh.html#a92ff553068677feebff8a10a9acef5f2">Teleport_Touch</a>);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(istrigger)</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        trigger_teleport_link(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="ttc" id="progsdefs_8qc_html_a87a61c6894ded1456e2e4fee955bf7b1"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a></div><div class="ttdeci">float MOVETYPE_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00246">progsdefs.qc:246</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a60338c2153150633178af678cf3ca57c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a></div><div class="ttdeci">entity spawn(void)</div></div>
 <div class="ttc" id="common_2constants_8qh_html_ae735c3b4d1ab1d9ef277732a76b77579"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a></div><div class="ttdeci">const vector PL_MAX_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00053">constants.qh:53</a></div></div>
@@ -496,7 +496,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a34857d93b57ccb6265adbe8ad217b489"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a34857d93b57ccb6265adbe8ad217b489">DPCONTENTS_SOLID</a></div><div class="ttdeci">float DPCONTENTS_SOLID</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01124">csprogsdefs.qc:1124</a></div></div>
-<div class="ttc" id="api_8qh_html_a6805606231a9daaa02d082d33f3514df"><div class="ttname"><a href="../../db/d15/api_8qh.html#a6805606231a9daaa02d082d33f3514df">waypoint_spawnforteleporter</a></div><div class="ttdeci">void waypoint_spawnforteleporter(entity e, vector destination, float timetaken, entity tracetest_ent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01339">waypoints.qc:1339</a></div></div>
+<div class="ttc" id="api_8qh_html_a6805606231a9daaa02d082d33f3514df"><div class="ttname"><a href="../../db/d15/api_8qh.html#a6805606231a9daaa02d082d33f3514df">waypoint_spawnforteleporter</a></div><div class="ttdeci">void waypoint_spawnforteleporter(entity e, vector destination, float timetaken, entity tracetest_ent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l01442">waypoints.qc:1442</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a53c4a8e7afd17cad92bc00adba96bb78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a></div><div class="ttdeci">entity find(entity start,.string field, string match)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a7426354055efce7db1f2489f6b350b62"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a7426354055efce7db1f2489f6b350b62">DPCONTENTS_BODY</a></div><div class="ttdeci">float DPCONTENTS_BODY</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01129">csprogsdefs.qc:1129</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a63bce1d11afa658ec5e4b4f98ccfa511"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a></div><div class="ttdeci">string targetname</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00194">progsdefs.qc:194</a></div></div>
@@ -553,9 +553,9 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00045">45</a> of file <a class="el" href="../../d5/db0/teleport_8qc_source.html">teleport.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00116">EXACTTRIGGER_TOUCH</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00077">RemoveGrapplingHooks()</a>, <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00173">Simple_TeleportPlayer()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00332">SUB_UseTargets()</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00193">target</a>, and <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00015">Teleport_Active()</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00116">EXACTTRIGGER_TOUCH</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00077">RemoveGrapplingHooks()</a>, <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00178">Simple_TeleportPlayer()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00332">SUB_UseTargets()</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00193">target</a>, and <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00015">Teleport_Active()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00230">teleport_findtarget()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00235">teleport_findtarget()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = toucher;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
@@ -585,7 +585,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="lib_2warpzone_2common_8qh_html_a14f4fc2c65ce6e5be0cc8b508e29139f"><div class="ttname"><a href="../../d7/d71/lib_2warpzone_2common_8qh.html#a14f4fc2c65ce6e5be0cc8b508e29139f">EXACTTRIGGER_TOUCH</a></div><div class="ttdeci">#define EXACTTRIGGER_TOUCH(e, t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00116">common.qh:116</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="triggers_8qc_html_a3905086b3426d8a7b89fe8eff17368c6"><div class="ttname"><a href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a></div><div class="ttdeci">void SUB_UseTargets(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/triggers_8qc_source.html#l00332">triggers.qc:332</a></div></div>
-<div class="ttc" id="teleporters_8qc_html_a883996b20943d07115cb929039dd0956"><div class="ttname"><a href="../../d0/d6b/teleporters_8qc.html#a883996b20943d07115cb929039dd0956">Simple_TeleportPlayer</a></div><div class="ttdeci">entity Simple_TeleportPlayer(entity teleporter, entity player)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d6b/teleporters_8qc_source.html#l00173">teleporters.qc:173</a></div></div>
+<div class="ttc" id="teleporters_8qc_html_a883996b20943d07115cb929039dd0956"><div class="ttname"><a href="../../d0/d6b/teleporters_8qc.html#a883996b20943d07115cb929039dd0956">Simple_TeleportPlayer</a></div><div class="ttdeci">entity Simple_TeleportPlayer(entity teleporter, entity player)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d6b/teleporters_8qc_source.html#l00178">teleporters.qc:178</a></div></div>
 <div class="ttc" id="teleport_8qc_html_a03f34562010302b43db73a920b807d9e"><div class="ttname"><a href="../../d5/db0/teleport_8qc.html#a03f34562010302b43db73a920b807d9e">Teleport_Active</a></div><div class="ttdeci">bool Teleport_Active(entity this, entity player)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/teleport_8qc_source.html#l00015">teleport.qc:15</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_afa8adf762827679f2bfa706be7144fe2"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a></div><div class="ttdeci">string target</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00193">progsdefs.qc:193</a></div></div>
 <div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
@@ -724,62 +724,67 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(player, <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>);</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    player.oldorigin = <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>; <span class="comment">// don&#39;t undo the teleport by unsticking</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    player.angles = to_angles;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    player.fixangle = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    player.velocity = to_velocity;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#af237b225c4ce5816d3d14362818addab">BITXOR_ASSIGN</a>(player.effects, <a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#a59b8c94bae8e8b41f417fab6789ffaf8">EF_TELEPORT_BIT</a>);</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    makevectors(player.angles);</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a62e1ac6caa59233c184e5c92b09198c0">Reset_ArcBeam</a>(player, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#ae4d3ae90944ee0a34a21572d58c16df0">UpdateCSQCProjectileAfterTeleport</a>(player);</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    UpdateItemAfterTeleport(player);</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor">#elif defined(CSQC)</span></div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor"></span>    from = player.origin;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(player, <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>);</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    player.angles = to_angles;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    player.velocity = to_velocity;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#abe20324d138f110c779274c157be381f">UNSET_ONGROUND</a>(player);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    player.iflags |= <a class="code" href="../../d8/da6/interpolate_8qh.html#af1c60cbbf6fa15c25a08bad25dd7f23b">IFLAG_TELEPORTED</a> | <a class="code" href="../../d8/da6/interpolate_8qh.html#a3780573ed7bdd32ade50ed6f1636b0fe">IFLAG_V_ANGLE</a> | <a class="code" href="../../d8/da6/interpolate_8qh.html#ac7816a73d6856d50745f997a8ff5cacc">IFLAG_ANGLES</a>;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    player.csqcmodel_teleported = 1;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    player.v_angle = to_angles;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">if</span>(player == <a class="code" href="../../d9/dba/cl__player_8qh.html#a80b5a6070b815239f4b21b503b44cb0a">csqcplayer</a>) <span class="comment">// not for anything but the main player</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    {</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#a4b905ecd0e878e5d661430acefa6d2e0">VF_ANGLES</a>, player.angles);</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#a3a78bcfc4ec166e6729712ad32a64d74">VF_CL_VIEWANGLES</a>, player.angles);</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(player))</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    {</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">if</span>(tflags &amp; <a class="code" href="../../dd/d2d/teleporters_8qh.html#a285cab94d4430757740a7d5ce95f99b8">TELEPORT_FLAG_TDEATH</a>)</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="keywordflow">if</span>(player.takedamage &amp;&amp; !<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(player) &amp;&amp; !<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790">g_race</a> &amp;&amp; !<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b">g_cts</a> &amp;&amp; (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ad9f04e9cd6fd43f4db93a4fcaa34e37b">autocvar_g_telefrags</a> || (tflags &amp; <a class="code" href="../../dd/d2d/teleporters_8qh.html#aac63863f08dec7e6fb0d29f6217466ad">TELEPORT_FLAG_FORCE_TDEATH</a>)))</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                tdeath(player, teleporter, telefragger, telefragmin, telefragmax);</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="comment">// player no longer is on ground</span></div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#abe20324d138f110c779274c157be381f">UNSET_ONGROUND</a>(player);</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="comment">// reset tracking of oldvelocity for impact damage (sudden velocity changes)</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        player.oldvelocity = player.velocity;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="comment">// reset tracking of who pushed you into a hazard (for kill credit)</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">if</span>(teleporter.owner)</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        {</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            player.pusher = teleporter.owner;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            player.pushltime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ae253d926dc28a4ca0b1475d37f2d67a3">autocvar_g_maxpushtime</a>;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            player.istypefrag = <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a507eb34316e1e6ce99a3dc40abe68474">PHYS_INPUT_BUTTON_CHAT</a>(player);</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        }</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        {</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            player.pushltime = 0;</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            player.istypefrag = 0;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d7a/utils_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(player))</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        player.v_angle = player.angles;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <a class="code" href="../../db/d15/api_8qh.html#ab8a774722467f5e4d60086ab429df89b">bot_aim_reset</a>(player);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    player.fixangle = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    player.velocity = to_velocity;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#af237b225c4ce5816d3d14362818addab">BITXOR_ASSIGN</a>(player.effects, <a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#a59b8c94bae8e8b41f417fab6789ffaf8">EF_TELEPORT_BIT</a>);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    makevectors(player.angles);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a62e1ac6caa59233c184e5c92b09198c0">Reset_ArcBeam</a>(player, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#ae4d3ae90944ee0a34a21572d58c16df0">UpdateCSQCProjectileAfterTeleport</a>(player);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    UpdateItemAfterTeleport(player);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor">#elif defined(CSQC)</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor"></span>    from = player.origin;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(player, <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    player.angles = to_angles;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    player.velocity = to_velocity;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#abe20324d138f110c779274c157be381f">UNSET_ONGROUND</a>(player);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    player.iflags |= <a class="code" href="../../d8/da6/interpolate_8qh.html#af1c60cbbf6fa15c25a08bad25dd7f23b">IFLAG_TELEPORTED</a> | <a class="code" href="../../d8/da6/interpolate_8qh.html#a3780573ed7bdd32ade50ed6f1636b0fe">IFLAG_V_ANGLE</a> | <a class="code" href="../../d8/da6/interpolate_8qh.html#ac7816a73d6856d50745f997a8ff5cacc">IFLAG_ANGLES</a>;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    player.csqcmodel_teleported = 1;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    player.v_angle = to_angles;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordflow">if</span>(player == <a class="code" href="../../d9/dba/cl__player_8qh.html#a80b5a6070b815239f4b21b503b44cb0a">csqcplayer</a>) <span class="comment">// not for anything but the main player</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#a4b905ecd0e878e5d661430acefa6d2e0">VF_ANGLES</a>, player.angles);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#a3a78bcfc4ec166e6729712ad32a64d74">VF_CL_VIEWANGLES</a>, player.angles);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(player))</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    {</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordflow">if</span>(tflags &amp; <a class="code" href="../../dd/d2d/teleporters_8qh.html#a285cab94d4430757740a7d5ce95f99b8">TELEPORT_FLAG_TDEATH</a>)</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <span class="keywordflow">if</span>(player.takedamage &amp;&amp; !<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(player) &amp;&amp; !<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790">g_race</a> &amp;&amp; !<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b">g_cts</a> &amp;&amp; (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ad9f04e9cd6fd43f4db93a4fcaa34e37b">autocvar_g_telefrags</a> || (tflags &amp; <a class="code" href="../../dd/d2d/teleporters_8qh.html#aac63863f08dec7e6fb0d29f6217466ad">TELEPORT_FLAG_FORCE_TDEATH</a>)))</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                tdeath(player, teleporter, telefragger, telefragmin, telefragmax);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="comment">// player no longer is on ground</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#abe20324d138f110c779274c157be381f">UNSET_ONGROUND</a>(player);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="comment">// reset tracking of oldvelocity for impact damage (sudden velocity changes)</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        player.oldvelocity = player.velocity;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="comment">// reset tracking of who pushed you into a hazard (for kill credit)</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">if</span>(teleporter.owner)</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            player.pusher = teleporter.owner;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            player.pushltime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ae253d926dc28a4ca0b1475d37f2d67a3">autocvar_g_maxpushtime</a>;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            player.istypefrag = <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a507eb34316e1e6ce99a3dc40abe68474">PHYS_INPUT_BUTTON_CHAT</a>(player);</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        }</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        player.lastteleporttime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        player.lastteleport_origin = from;</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        {</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            player.pushltime = 0;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            player.istypefrag = 0;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        }</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        player.lastteleporttime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        player.lastteleport_origin = from;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    }</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="ttc" id="common_2physics_2player_8qh_html_a507eb34316e1e6ce99a3dc40abe68474"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#a507eb34316e1e6ce99a3dc40abe68474">PHYS_INPUT_BUTTON_CHAT</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_CHAT(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00107">player.qh:107</a></div></div>
 <div class="ttc" id="teleporters_8qh_html_a285cab94d4430757740a7d5ce95f99b8"><div class="ttname"><a href="../../dd/d2d/teleporters_8qh.html#a285cab94d4430757740a7d5ce95f99b8">TELEPORT_FLAG_TDEATH</a></div><div class="ttdeci">const int TELEPORT_FLAG_TDEATH</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2d/teleporters_8qh_source.html#l00011">teleporters.qh:11</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html_a0559c59a90e69f78061d34ecfa0afb7b"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b">g_cts</a></div><div class="ttdeci">#define g_cts</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00213">mapinfo.qh:213</a></div></div>
@@ -787,6 +792,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="sounds_2all_8qh_html_a95b575d77a4c36658bf10f40dd84893d"><div class="ttname"><a href="../../df/dc2/sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a></div><div class="ttdeci">#define SND(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/sounds_2all_8qh_source.html#l00014">all.qh:14</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_ae253d926dc28a4ca0b1475d37f2d67a3"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ae253d926dc28a4ca0b1475d37f2d67a3">autocvar_g_maxpushtime</a></div><div class="ttdeci">float autocvar_g_maxpushtime</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00161">autocvars.qh:161</a></div></div>
 <div class="ttc" id="teleporters_8qh_html_a2e98016bb3ba2c249de1e779bcce86cf"><div class="ttname"><a href="../../dd/d2d/teleporters_8qh.html#a2e98016bb3ba2c249de1e779bcce86cf">TELEPORT_NORMAL</a></div><div class="ttdeci">const int TELEPORT_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2d/teleporters_8qh_source.html#l00019">teleporters.qh:19</a></div></div>
+<div class="ttc" id="api_8qh_html_ab8a774722467f5e4d60086ab429df89b"><div class="ttname"><a href="../../db/d15/api_8qh.html#ab8a774722467f5e4d60086ab429df89b">bot_aim_reset</a></div><div class="ttdeci">void bot_aim_reset(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc9/aim_8qc_source.html#l00173">aim.qc:173</a></div></div>
 <div class="ttc" id="random_8qc_html_a3405965b1da9657276caec225d4b3acf"><div class="ttname"><a href="../../dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf">RandomSelection_Init</a></div><div class="ttdeci">ERASEABLE void RandomSelection_Init()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d95/random_8qc_source.html#l00004">random.qc:4</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a3a78bcfc4ec166e6729712ad32a64d74"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a3a78bcfc4ec166e6729712ad32a64d74">VF_CL_VIEWANGLES</a></div><div class="ttdeci">const int VF_CL_VIEWANGLES</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00039">csqc_constants.qh:39</a></div></div>
@@ -807,6 +813,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
 <div class="ttc" id="sound_8qh_html_ab3244e946a9d251f139b92bca26b13a3"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#ab3244e946a9d251f139b92bca26b13a3">_sound</a></div><div class="ttdeci">#define _sound(e, c, s, v, a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00050">sound.qh:50</a></div></div>
 <div class="ttc" id="teleporters_8qh_html_a0ef580965c1907c2c387c11859587598"><div class="ttname"><a href="../../dd/d2d/teleporters_8qh.html#a0ef580965c1907c2c387c11859587598">TELEPORT_FLAG_SOUND</a></div><div class="ttdeci">const int TELEPORT_FLAG_SOUND</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2d/teleporters_8qh_source.html#l00009">teleporters.qh:9</a></div></div>
+<div class="ttc" id="utils_8qh_html_afff35aba15a6e110ae0fe9e4a8d1a0f6"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a></div><div class="ttdeci">#define IS_BOT_CLIENT(v)</div><div class="ttdoc">want: (IS_CLIENT(v) &amp;&amp; !IS_REAL_CLIENT(v)) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00015">utils.qh:15</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
 <div class="ttc" id="csqcprojectile_8qc_html_ae4d3ae90944ee0a34a21572d58c16df0"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#ae4d3ae90944ee0a34a21572d58c16df0">UpdateCSQCProjectileAfterTeleport</a></div><div class="ttdeci">void UpdateCSQCProjectileAfterTeleport(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00116">csqcprojectile.qc:116</a></div></div>
 <div class="ttc" id="cl__player_8qh_html_a80b5a6070b815239f4b21b503b44cb0a"><div class="ttname"><a href="../../d9/dba/cl__player_8qh.html#a80b5a6070b815239f4b21b503b44cb0a">csqcplayer</a></div><div class="ttdeci">entity csqcplayer</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dba/cl__player_8qh_source.html#l00026">cl_player.qh:26</a></div></div>
@@ -855,39 +862,39 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00287">287</a> of file <a class="el" href="../../d0/d6b/teleporters_8qc_source.html">teleporters.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00292">292</a> of file <a class="el" href="../../d0/d6b/teleporters_8qc_source.html">teleporters.qc</a>.</p>
 
 <p>References <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00228">anticheat_fixangle()</a>, <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>, <a class="el" href="../../dc/dc7/projectile_8qh_source.html#l00033">FL_PROJECTILE</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a62e1ac6caa59233c184e5c92b09198c0">Reset_ArcBeam()</a>, <a class="el" href="../../d0/dcd/csqcprojectile_8qc_source.html#l00116">UpdateCSQCProjectileAfterTeleport()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_forward</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d2b/server_8qc_source.html#l00038">WarpZone_TeleportPlayer()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;{</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor"></span>    makevectors(pl.angles);</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a62e1ac6caa59233c184e5c92b09198c0">Reset_ArcBeam</a>(pl, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>);</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#ae4d3ae90944ee0a34a21572d58c16df0">UpdateCSQCProjectileAfterTeleport</a>(pl);</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    UpdateItemAfterTeleport(pl);</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(pl)) <a class="code" href="../../d6/d29/anticheat_8qc.html#a068a96ae9ccf8a1fd9cd99e95d5e1c7e">anticheat_fixangle</a>(pl);</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="preprocessor"></span>    <span class="comment">// &quot;disown&quot; projectiles after teleport</span></div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="keywordflow">if</span>(pl.owner)</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="keywordflow">if</span>(pl.owner == pl.realowner)</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    {</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="preprocessor">    #ifdef SVQC</span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">if</span>(!(pl.flags &amp; <a class="code" href="../../dc/dc7/projectile_8qh.html#a1377cbecee41e6bb05e56a90280ff3eb">FL_PROJECTILE</a>))</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="preprocessor">    #elif defined(CSQC)</span></div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">if</span>(!(pl.flags &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(15))) <span class="comment">// FL_PROJECTILE</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="preprocessor"></span>            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;A non-projectile got through a warpzone and its owner cleared. It&#39;s a &quot;</span>, pl.classname, <span class="stringliteral">&quot;.&quot;</span>);</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        pl.owner = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    }</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(pl))</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    {</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <span class="comment">// reset tracking of oldvelocity for impact damage (sudden velocity changes)</span></div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="preprocessor">    #ifdef SVQC</span></div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="preprocessor"></span>        pl.oldvelocity = pl.velocity;</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="preprocessor"></span>    }</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d7/d2b/server_8qc_source.html#l00039">WarpZone_TeleportPlayer()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;{</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="preprocessor"></span>    makevectors(pl.angles);</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a62e1ac6caa59233c184e5c92b09198c0">Reset_ArcBeam</a>(pl, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#ae4d3ae90944ee0a34a21572d58c16df0">UpdateCSQCProjectileAfterTeleport</a>(pl);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    UpdateItemAfterTeleport(pl);</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(pl)) <a class="code" href="../../d6/d29/anticheat_8qc.html#a068a96ae9ccf8a1fd9cd99e95d5e1c7e">anticheat_fixangle</a>(pl);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor"></span>    <span class="comment">// &quot;disown&quot; projectiles after teleport</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">if</span>(pl.owner)</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <span class="keywordflow">if</span>(pl.owner == pl.realowner)</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    {</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="preprocessor">    #ifdef SVQC</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">if</span>(!(pl.flags &amp; <a class="code" href="../../dc/dc7/projectile_8qh.html#a1377cbecee41e6bb05e56a90280ff3eb">FL_PROJECTILE</a>))</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="preprocessor">    #elif defined(CSQC)</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">if</span>(!(pl.flags &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(15))) <span class="comment">// FL_PROJECTILE</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="preprocessor"></span>            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;A non-projectile got through a warpzone and its owner cleared. It&#39;s a &quot;</span>, pl.classname, <span class="stringliteral">&quot;.&quot;</span>);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        pl.owner = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    }</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(pl))</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    {</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        <span class="comment">// reset tracking of oldvelocity for impact damage (sudden velocity changes)</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="preprocessor">    #ifdef SVQC</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="preprocessor"></span>        pl.oldvelocity = pl.velocity;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="preprocessor"></span>    }</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;}</div>
 <div class="ttc" id="csqcmodel__hooks_8qc_html_a62e1ac6caa59233c184e5c92b09198c0"><div class="ttname"><a href="../../dc/d3d/csqcmodel__hooks_8qc.html#a62e1ac6caa59233c184e5c92b09198c0">Reset_ArcBeam</a></div><div class="ttdeci">void Reset_ArcBeam()</div></div>
 <div class="ttc" id="bits_8qh_html_a3a8ea58898cb58fc96013383d39f482c"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a></div><div class="ttdeci">#define BIT(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00005">bits.qh:5</a></div></div>
 <div class="ttc" id="anticheat_8qc_html_a068a96ae9ccf8a1fd9cd99e95d5e1c7e"><div class="ttname"><a href="../../d6/d29/anticheat_8qc.html#a068a96ae9ccf8a1fd9cd99e95d5e1c7e">anticheat_fixangle</a></div><div class="ttdeci">void anticheat_fixangle(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d29/anticheat_8qc_source.html#l00228">anticheat.qc:228</a></div></div>
@@ -933,7 +940,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d2d/teleporters_8qh_source.html#l00004">4</a> of file <a class="el" href="../../dd/d2d/teleporters_8qh_source.html">teleporters.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01511">havocbot_moveto()</a>, and <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00278">Teleport_Find()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01549">havocbot_moveto()</a>, and <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00283">Teleport_Find()</a>.</p>
 
 </div>
 </div>
@@ -1051,7 +1058,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_45a15a852bc80fb55f8b66b90fc237b2.html">mapobjects</a></li><li class="navelem"><a class="el" href="../../dd/d2d/teleporters_8qh.html">teleporters.qh</a></li>
-    <li class="footer">Generated on Sat Dec 1 2018 19:43:29 for Xonotic by
+    <li class="footer">Generated on Sat Dec 8 2018 14:17:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

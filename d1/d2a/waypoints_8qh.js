@@ -107,6 +107,8 @@ var waypoints_8qh =
     [ "wp30mincost", "d1/d2a/waypoints_8qh.html#ab8a60b2fdd67b0f50ebb54742072af4a", null ],
     [ "wp31", "d1/d2a/waypoints_8qh.html#a8437899c3d001f7890b2044e3b7890c9", null ],
     [ "wp31mincost", "d1/d2a/waypoints_8qh.html#aa9934a14c64f838c41354a8395354542", null ],
+    [ "wp_aimed", "d1/d2a/waypoints_8qh.html#af2bbd58143cf83d71fe385adc7a93680", null ],
+    [ "wp_locked", "d1/d2a/waypoints_8qh.html#a96a2ea258a7a783e18238a4ff2a3b10d", null ],
     [ "wpconsidered", "d1/d2a/waypoints_8qh.html#ad12de12cc79497b6a505fe7e2c13523c", null ],
     [ "wpcost", "d1/d2a/waypoints_8qh.html#aa1363c8d97096deb6665edfb0b3cddb6", null ],
     [ "wpfire", "d1/d2a/waypoints_8qh.html#a5b4f1452a2b99b841103569645d7c726", null ],

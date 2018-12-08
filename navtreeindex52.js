@@ -1,5 +1,8 @@
 var NAVTREEINDEX52 =
 {
+"d6/d11/progsdefs_8qc.html#a65280b945e7f2c21f2760e4dcca95e02":[2,0,2,0,4,230],
+"d6/d11/progsdefs_8qc.html#a65357cc6cf35b52aa2c4a01ee0229ffd":[2,0,2,0,4,189],
+"d6/d11/progsdefs_8qc.html#a69377a131365560f95cf64b6462ebd5e":[2,0,2,0,4,117],
 "d6/d11/progsdefs_8qc.html#a69686067f5f49541b6f7735aeec1640a":[2,0,2,0,4,231],
 "d6/d11/progsdefs_8qc.html#a6e3ccdfe76e71ca7c0a9a339bb768d3a":[2,0,2,0,4,271],
 "d6/d11/progsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180":[2,0,2,0,4,263],
@@ -246,8 +249,5 @@ var NAVTREEINDEX52 =
 "d6/d15/classXonoticWeaponsList.html#af06292d63525aff5cb5f9e6e9657bc8f":[1,0,265,7],
 "d6/d15/classXonoticWeaponsList.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,265,2],
 "d6/d15/classXonoticWeaponsList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,265,22],
-"d6/d16/sv__kick__teamkiller_8qc.html":[2,0,1,10,0,15,2],
-"d6/d16/sv__kick__teamkiller_8qc.html#a3b230d53545f54263c0a2ff3c1086b4e":[2,0,1,10,0,15,2,0],
-"d6/d16/sv__kick__teamkiller_8qc.html#a657a6c1fda25555ef02deb6134dbda7a":[2,0,1,10,0,15,2,2],
-"d6/d16/sv__kick__teamkiller_8qc.html#a97834c73a5d537174b194a032b85f607":[2,0,1,10,0,15,2,1]
+"d6/d16/sv__kick__teamkiller_8qc.html":[2,0,1,10,0,15,2]
 };

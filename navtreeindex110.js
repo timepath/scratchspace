@@ -1,5 +1,15 @@
 var NAVTREEINDEX110 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,191,8],
+"dc/d37/classXonoticHUDExitDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,191,66],
+"dc/d37/classXonoticHUDExitDialog.html#af1aab403dc54575707fd57991312b201":[1,0,191,45],
+"dc/d37/classXonoticHUDExitDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,191,25],
+"dc/d37/classXonoticHUDExitDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,191,10],
+"dc/d37/classXonoticHUDExitDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,191,15],
+"dc/d37/classXonoticHUDExitDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,191,49],
+"dc/d37/classXonoticHUDExitDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,191,2],
+"dc/d37/classXonoticHUDExitDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,191,35],
+"dc/d37/classXonoticHUDExitDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,191,39],
 "dc/d38/sv__breakablehook_8qc.html":[2,0,1,10,0,1,2],
 "dc/d38/sv__breakablehook_8qc.html#a3b957610c7a0faa8c462a76fb89b5321":[2,0,1,10,0,1,2,1],
 "dc/d38/sv__breakablehook_8qc.html#ab0da61e3209875db1877c60178457dee":[2,0,1,10,0,1,2,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX110 =
 "dc/d56/cvarlist_8qc.html#ad1e3f4ef6db904611e2e405f22040646":[2,0,5,4,32,8],
 "dc/d56/cvarlist_8qc.html#adb640b53207e5cca8d01d176859fc151":[2,0,5,4,32,13],
 "dc/d56/cvarlist_8qc.html#ae49bf6a638d904a9be842d2af8f18c0f":[2,0,5,4,32,10],
-"dc/d56/cvarlist_8qc.html#ae786eefcee93700ae518980a7ecaf766":[2,0,5,4,32,16],
-"dc/d56/cvarlist_8qc.html#af5cde358e9b2de1004e0cb902b395382":[2,0,5,4,32,15],
-"dc/d56/cvarlist_8qc.html#af8f11081ec07f426c6f01449e41789e1":[2,0,5,4,32,3],
-"dc/d56/cvarlist_8qc_source.html":[2,0,5,4,32],
-"dc/d5a/nexball_8qc.html":[2,0,1,3,0,12,2],
-"dc/d5a/nexball_8qc_source.html":[2,0,1,3,0,12,2],
-"dc/d5a/systems_2input_8qc.html":[2,0,3,2,3],
-"dc/d5a/systems_2input_8qc.html#af69d77679d9f7d414bdecd06694f6120":[2,0,3,2,3,0],
-"dc/d5a/systems_2input_8qc_source.html":[2,0,3,2,3],
-"dc/d5b/common_2gamemodes_2gamemode_2__mod_8qh.html":[2,0,1,3,0,17],
-"dc/d5b/common_2gamemodes_2gamemode_2__mod_8qh_source.html":[2,0,1,3,0,17]
+"dc/d56/cvarlist_8qc.html#ae786eefcee93700ae518980a7ecaf766":[2,0,5,4,32,16]
 };

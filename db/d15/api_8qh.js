@@ -1,6 +1,7 @@
 var api_8qh =
 [
     [ "bot_aim", "db/d15/api_8qh.html#ad5c2128681fde08a8b97393b2d192a29", null ],
+    [ "bot_aim_reset", "db/d15/api_8qh.html#ab8a774722467f5e4d60086ab429df89b", null ],
     [ "bot_clear", "db/d15/api_8qh.html#aaab6595d20cc13a72a099b0256b9f056", null ],
     [ "bot_clientconnect", "db/d15/api_8qh.html#abd19370e4d61d3549dbbe44826531536", null ],
     [ "bot_clientdisconnect", "db/d15/api_8qh.html#ab10bcd46b240e1fd8154de39ddd5c40e", null ],
@@ -40,6 +41,8 @@ var api_8qh =
     [ "set_tracewalk_dest_2", "db/d15/api_8qh.html#ac30d35265519e728fa87ad6eb81d92e5", null ],
     [ "tracewalk", "db/d15/api_8qh.html#a6fd9d052d1e171ea3729410e8c98c218", null ],
     [ "void", "db/d15/api_8qh.html#aeec709ac24ea54914787f032f0bedc54", null ],
+    [ "waypoint_getSymmetricalAxis_cmd", "db/d15/api_8qh.html#a1bf065cf69f1a2df2a315917f0208ca6", null ],
+    [ "waypoint_getSymmetricalOrigin_cmd", "db/d15/api_8qh.html#a61bcdb7f04fb4e5d365896649be7d773", null ],
     [ "waypoint_remove", "db/d15/api_8qh.html#af85db2f228ad24c8f013717be024365f", null ],
     [ "waypoint_remove_fromeditor", "db/d15/api_8qh.html#ac8d6f2bde9d2d499154e66eda254c4e9", null ],
     [ "waypoint_saveall", "db/d15/api_8qh.html#ae9248ef358c77def1111a1abe1ebf1fb", null ],

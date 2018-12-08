@@ -1,5 +1,12 @@
 var NAVTREEINDEX88 =
 {
+"d9/dca/classXonoticCommandButton.html#a6c1cc42796dfc8787fb58ce0945fb6ea":[1,0,162,26],
+"d9/dca/classXonoticCommandButton.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,162,8],
+"d9/dca/classXonoticCommandButton.html#a706c85a524ce44b84070ec439bbd9acd":[1,0,162,24],
+"d9/dca/classXonoticCommandButton.html#a74d0ade102c16d31d2b3dd8098e8119d":[1,0,162,53],
+"d9/dca/classXonoticCommandButton.html#a7642beed5a82948e21add31abf4a4b0a":[1,0,162,33],
+"d9/dca/classXonoticCommandButton.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,162,16],
+"d9/dca/classXonoticCommandButton.html#a7ba277f3c886c7d391915d273fede63c":[1,0,162,61],
 "d9/dca/classXonoticCommandButton.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,162,67],
 "d9/dca/classXonoticCommandButton.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,162,1],
 "d9/dca/classXonoticCommandButton.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,162,66],
@@ -242,12 +249,5 @@ var NAVTREEINDEX88 =
 "d9/deb/classXonoticHUDTimerDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,205,60],
 "d9/deb/classXonoticHUDTimerDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,205,53],
 "d9/deb/classXonoticHUDTimerDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,205,89],
-"d9/deb/classXonoticHUDTimerDialog.html#ae79a725cf1ad186cda8bd51b64227720":[1,0,205,58],
-"d9/deb/classXonoticHUDTimerDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,205,8],
-"d9/deb/classXonoticHUDTimerDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,205,66],
-"d9/deb/classXonoticHUDTimerDialog.html#af1aab403dc54575707fd57991312b201":[1,0,205,45],
-"d9/deb/classXonoticHUDTimerDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,205,25],
-"d9/deb/classXonoticHUDTimerDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,205,10],
-"d9/deb/classXonoticHUDTimerDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,205,15],
-"d9/deb/classXonoticHUDTimerDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,205,49]
+"d9/deb/classXonoticHUDTimerDialog.html#ae79a725cf1ad186cda8bd51b64227720":[1,0,205,58]
 };
