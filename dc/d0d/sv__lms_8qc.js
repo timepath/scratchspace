@@ -7,6 +7,7 @@ var sv__lms_8qc =
     [ "lms_RemovePlayer", "dc/d0d/sv__lms_8qc.html#a0a66f0e0fcbcfdc582cfd3709335dbea", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a2385f734cb636ada6774fcf460a1ff68", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a9c11e4b5ceee9ae029eaead407748ade", null ],
+    [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a97f239d2e377ad28156a7a2cb04f5b04", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a66a5026b1608e1f0eab9e95832cbba85", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a00d0bee22e2d7e192024954e73adb427", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a590793b8e36df9f63f29bce9f40758ca", null ],
