@@ -8,7 +8,7 @@ var bot_8qc =
     [ "bot_clientdisconnect", "d2/dc0/bot_8qc.html#ab10bcd46b240e1fd8154de39ddd5c40e", null ],
     [ "bot_custom_weapon_priority_setup", "d2/dc0/bot_8qc.html#a2106f3a69bfc83423ff921b8c7aa15a0", null ],
     [ "bot_endgame", "d2/dc0/bot_8qc.html#ab31cf9d9b7d9ba690bed2e44648a403d", null ],
-    [ "bot_fixcount", "d2/dc0/bot_8qc.html#a2fee5495c041d9197ee7d76cccd1d889", null ],
+    [ "bot_fixcount", "d2/dc0/bot_8qc.html#a24b55d27684241fa9da5c23810d49f26", null ],
     [ "bot_relinkplayerlist", "d2/dc0/bot_8qc.html#afea81f6c762e4dd1232aba6bb0e5144e", null ],
     [ "bot_remove_from_bot_list", "d2/dc0/bot_8qc.html#a86e20f51637fbc4bb1b17bf6c198a537", null ],
     [ "bot_removefromlargestteam", "d2/dc0/bot_8qc.html#aaecc23c5c2524bcea745aa6d2afa718a", null ],
