@@ -1,46 +1,47 @@
 <map id="ClientCommand_say_team" name="ClientCommand_say_team">
-<area shape="rect" id="node2" href="$df/dd7/server_2client_8qc.html#abb0f165077ac886332b821ac30314b8a" title="message &quot;&quot;: do not say, just test flood control return value: 1 = accept 0 = reject &#45;1 = fake accept ..." alt="" coords="235,857,280,884"/>
-<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="1221,1263,1296,1289"/>
-<area shape="rect" id="node45" href="$d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f" title="sprint" alt="" coords="370,1541,425,1568"/>
-<area shape="rect" id="node3" href="$d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f" title="centerprint" alt="" coords="356,309,439,336"/>
-<area shape="rect" id="node4" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="377,360,418,387"/>
-<area shape="rect" id="node5" href="$dc/dc6/server_2miscfunctions_8qc.html#a0390f6703ace29f61655694b8821d84a" title="print(), but only print if the server is not local " alt="" coords="342,31,453,57"/>
-<area shape="rect" id="node7" href="$dc/dc6/server_2miscfunctions_8qc.html#aa2ad35c3e1dd50ef39b80d690512357a" title="formatmessage" alt="" coords="341,857,453,884"/>
-<area shape="rect" id="node12" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="1075,157,1119,184"/>
-<area shape="rect" id="node14" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="594,512,641,539"/>
-<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="590,1491,645,1517"/>
-<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="853,1288,907,1315"/>
-<area shape="rect" id="node28" href="$da/d44/common_2util_8qc.html#a0c6829767aa2400e49284b242c194d95" title="getWrappedLineLen" alt="" coords="329,1339,466,1365"/>
-<area shape="rect" id="node33" href="$d0/d44/lib_2matrix_2matrix_8qc.html#a3020e21f8ef834ecd9401574b1b92d9b" title="MX_Say" alt="" coords="361,411,433,437"/>
-<area shape="rect" id="node43" href="$dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe" title="playername" alt="" coords="353,1440,442,1467"/>
-<area shape="rect" id="node44" href="$db/d07/teams_8qh.html#ac42e5e5b463fcb15cb60f68a648afea0" title="Team_ColorCode" alt="" coords="555,1541,679,1568"/>
-<area shape="rect" id="node6" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="1074,5,1121,32"/>
-<area shape="rect" id="node8" href="$dc/dc6/server_2miscfunctions_8qc.html#ab43315cb7fcd38c5dd0f0825b8c92ba8" title="AmmoNameFromWeaponentity" alt="" coords="515,1085,720,1112"/>
-<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="596,664,639,691"/>
-<area shape="rect" id="node10" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1231,461,1286,488"/>
-<area shape="rect" id="node11" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="857,933,903,960"/>
-<area shape="rect" id="node13" href="$d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" title="Returns the current amount of resource the given entity has. " alt="" coords="545,781,689,808"/>
-<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df" title="min" alt="" coords="596,832,639,859"/>
-<area shape="rect" id="node16" href="$dc/dc6/server_2miscfunctions_8qc.html#a58725b844cf250403708dcbb8b81ce07" title="NearestLocation" alt="" coords="559,563,676,589"/>
-<area shape="rect" id="node18" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1068,849,1127,876"/>
-<area shape="rect" id="node19" href="$d2/db4/string_8qh.html#ab38904ebe2d7ba412716db9fb92dc3cb" title="seconds_tostring" alt="" coords="557,883,678,909"/>
-<area shape="rect" id="node23" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="594,1035,641,1061"/>
-<area shape="rect" id="node24" href="$dc/dc6/server_2miscfunctions_8qc.html#a99b1922d2166b931b0626b1721e19a6e" title="WarpZone_crosshair\l_trace_plusvisibletriggers" alt="" coords="533,715,702,757"/>
-<area shape="rect" id="node17" href="$dc/dc6/server_2miscfunctions_8qc.html#a4f00c6b3475a671b4be2c3b45daaf56e" title="findnearest" alt="" coords="837,563,923,589"/>
-<area shape="rect" id="node25" href="$dc/dc6/server_2miscfunctions_8qc.html#a9f01f40e04dadcf88fb9236e5146c9c3" title="crosshair_trace_plusvisibletriggers\l__is_wz" alt="" coords="769,690,991,731"/>
-<area shape="rect" id="node26" href="$d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" title="Push to tail. " alt="" coords="1058,613,1137,640"/>
-<area shape="rect" id="node27" href="$d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" title="IL_CONTAINS" alt="" coords="1203,613,1314,640"/>
-<area shape="rect" id="node29" href="$da/d44/common_2util_8qc.html#a50cc7a8a3dd3b67a3b5a2180c2db9562" title="find_last_color_code" alt="" coords="547,1389,688,1416"/>
-<area shape="rect" id="node30" href="$da/d44/common_2util_8qc.html#affc8d3643262baf7a22651259f9598ac" title="textLengthUpToLength" alt="" coords="540,1187,695,1213"/>
-<area shape="rect" id="node31" href="$da/d44/common_2util_8qc.html#a0213b116f3e8b8deecdae1cfbf0c3482" title="skipIncompleteTag" alt="" coords="814,1237,946,1264"/>
-<area shape="rect" id="node32" href="$da/d44/common_2util_8qc.html#a982fd634e013860a72d17598569dfa5b" title="isCaretEscaped" alt="" coords="1040,1237,1155,1264"/>
-<area shape="rect" id="node34" href="$d0/d44/lib_2matrix_2matrix_8qc.html#a21e0c1b4a12ceeeeabcb6992091d9ceb" title="MX_Say_" alt="" coords="578,157,657,184"/>
-<area shape="rect" id="node40" href="$d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db" title="strzone" alt="" coords="1065,360,1130,387"/>
-<area shape="rect" id="node41" href="$d6/d38/urllib_8qc.html#ae51bb013e8aabbd09bbbdaa7f814c07d" title="url_single_fopen" alt="" coords="822,259,938,285"/>
-<area shape="rect" id="node35" href="$d6/d38/urllib_8qc.html#aec3e4f91f4163ffc70108838821510cc" title="url_fclose" alt="" coords="841,157,919,184"/>
-<area shape="rect" id="node38" href="$d6/d38/urllib_8qc.html#aaf2ed354d49867ce414ae7b4da8945b5" title="url_fputs" alt="" coords="844,56,916,83"/>
-<area shape="rect" id="node36" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="1061,208,1133,235"/>
-<area shape="rect" id="node37" href="$d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09" title="fclose" alt="" coords="1069,107,1126,133"/>
-<area shape="rect" id="node39" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="1072,56,1123,83"/>
-<area shape="rect" id="node42" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="1070,309,1125,336"/>
+<area shape="rect" id="node2" href="$df/dd7/server_2client_8qc.html#abb0f165077ac886332b821ac30314b8a" title="message &quot;&quot;: do not say, just test flood control return value: 1 = accept 0 = reject &#45;1 = fake accept ..." alt="" coords="235,776,280,803"/>
+<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="1221,1730,1296,1756"/>
+<area shape="rect" id="node46" href="$d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f" title="sprint" alt="" coords="370,1907,425,1934"/>
+<area shape="rect" id="node3" href="$d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f" title="centerprint" alt="" coords="356,599,439,626"/>
+<area shape="rect" id="node4" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="377,650,418,676"/>
+<area shape="rect" id="node5" href="$dc/dc6/server_2miscfunctions_8qc.html#a0390f6703ace29f61655694b8821d84a" title="print(), but only print if the server is not local " alt="" coords="825,67,935,94"/>
+<area shape="rect" id="node7" href="$dc/dc6/server_2miscfunctions_8qc.html#aa2ad35c3e1dd50ef39b80d690512357a" title="formatmessage" alt="" coords="341,1071,453,1098"/>
+<area shape="rect" id="node12" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="1075,574,1119,600"/>
+<area shape="rect" id="node14" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="594,650,641,676"/>
+<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="853,1122,907,1148"/>
+<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="853,1578,907,1604"/>
+<area shape="rect" id="node28" href="$dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3" title="GameLogEcho" alt="" coords="563,498,671,524"/>
+<area shape="rect" id="node32" href="$da/d44/common_2util_8qc.html#a0c6829767aa2400e49284b242c194d95" title="getWrappedLineLen" alt="" coords="329,1704,466,1731"/>
+<area shape="rect" id="node37" href="$d0/d44/lib_2matrix_2matrix_8qc.html#a3020e21f8ef834ecd9401574b1b92d9b" title="MX_Say" alt="" coords="361,258,433,284"/>
+<area shape="rect" id="node44" href="$dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe" title="playername" alt="" coords="353,802,442,828"/>
+<area shape="rect" id="node45" href="$db/d07/teams_8qh.html#ac42e5e5b463fcb15cb60f68a648afea0" title="Team_ColorCode" alt="" coords="555,548,679,575"/>
+<area shape="rect" id="node6" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="1074,92,1121,119"/>
+<area shape="rect" id="node8" href="$dc/dc6/server_2miscfunctions_8qc.html#ab43315cb7fcd38c5dd0f0825b8c92ba8" title="AmmoNameFromWeaponentity" alt="" coords="515,1020,720,1047"/>
+<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="596,1071,639,1098"/>
+<area shape="rect" id="node10" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1231,726,1286,752"/>
+<area shape="rect" id="node11" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="857,1375,903,1402"/>
+<area shape="rect" id="node13" href="$d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" title="Returns the current amount of resource the given entity has. " alt="" coords="545,1172,689,1199"/>
+<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df" title="min" alt="" coords="596,1223,639,1250"/>
+<area shape="rect" id="node16" href="$dc/dc6/server_2miscfunctions_8qc.html#a58725b844cf250403708dcbb8b81ce07" title="NearestLocation" alt="" coords="559,868,676,895"/>
+<area shape="rect" id="node18" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1068,970,1127,996"/>
+<area shape="rect" id="node19" href="$d2/db4/string_8qh.html#ab38904ebe2d7ba412716db9fb92dc3cb" title="seconds_tostring" alt="" coords="557,1375,678,1402"/>
+<area shape="rect" id="node23" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="594,1274,641,1300"/>
+<area shape="rect" id="node24" href="$dc/dc6/server_2miscfunctions_8qc.html#a99b1922d2166b931b0626b1721e19a6e" title="WarpZone_crosshair\l_trace_plusvisibletriggers" alt="" coords="533,802,702,844"/>
+<area shape="rect" id="node17" href="$dc/dc6/server_2miscfunctions_8qc.html#a4f00c6b3475a671b4be2c3b45daaf56e" title="findnearest" alt="" coords="837,944,923,971"/>
+<area shape="rect" id="node25" href="$dc/dc6/server_2miscfunctions_8qc.html#a9f01f40e04dadcf88fb9236e5146c9c3" title="crosshair_trace_plusvisibletriggers\l__is_wz" alt="" coords="769,828,991,869"/>
+<area shape="rect" id="node26" href="$d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" title="Push to tail. " alt="" coords="1058,776,1137,803"/>
+<area shape="rect" id="node27" href="$d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" title="IL_CONTAINS" alt="" coords="1203,776,1314,803"/>
+<area shape="rect" id="node29" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="1061,371,1133,398"/>
+<area shape="rect" id="node30" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="853,472,907,499"/>
+<area shape="rect" id="node31" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="1072,168,1123,195"/>
+<area shape="rect" id="node33" href="$da/d44/common_2util_8qc.html#a50cc7a8a3dd3b67a3b5a2180c2db9562" title="find_last_color_code" alt="" coords="547,1780,688,1807"/>
+<area shape="rect" id="node34" href="$da/d44/common_2util_8qc.html#affc8d3643262baf7a22651259f9598ac" title="textLengthUpToLength" alt="" coords="540,1730,695,1756"/>
+<area shape="rect" id="node35" href="$da/d44/common_2util_8qc.html#a0213b116f3e8b8deecdae1cfbf0c3482" title="skipIncompleteTag" alt="" coords="814,1730,946,1756"/>
+<area shape="rect" id="node36" href="$da/d44/common_2util_8qc.html#a982fd634e013860a72d17598569dfa5b" title="isCaretEscaped" alt="" coords="1040,1679,1155,1706"/>
+<area shape="rect" id="node38" href="$d0/d44/lib_2matrix_2matrix_8qc.html#a21e0c1b4a12ceeeeabcb6992091d9ceb" title="MX_Say_" alt="" coords="578,258,657,284"/>
+<area shape="rect" id="node42" href="$d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db" title="strzone" alt="" coords="847,168,913,195"/>
+<area shape="rect" id="node43" href="$d6/d38/urllib_8qc.html#ae51bb013e8aabbd09bbbdaa7f814c07d" title="url_single_fopen" alt="" coords="559,359,675,386"/>
+<area shape="rect" id="node39" href="$d6/d38/urllib_8qc.html#aec3e4f91f4163ffc70108838821510cc" title="url_fclose" alt="" coords="841,320,919,347"/>
+<area shape="rect" id="node41" href="$d6/d38/urllib_8qc.html#aaf2ed354d49867ce414ae7b4da8945b5" title="url_fputs" alt="" coords="844,118,916,144"/>
+<area shape="rect" id="node40" href="$d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09" title="fclose" alt="" coords="1069,320,1126,347"/>
 </map>
