@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"d6/dbd/minigames_8qh_source.html":[2,0,1,7,8],
+"d6/dbf/dialog__settings__misc_8qh.html":[2,0,5,4,145],
 "d6/dbf/dialog__settings__misc_8qh.html#a5786cd08c685fc121f4bb2b2a0941e75":[2,0,5,4,145,1],
 "d6/dbf/dialog__settings__misc_8qh_source.html":[2,0,5,4,145],
 "d6/dbf/maplist_8qh.html":[2,0,5,4,181],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "d6/dce/sounds_2all_8inc_source.html":[2,0,1,13,2],
 "d6/dd0/okmachinegun_8qh.html":[2,0,1,10,0,23,7],
 "d6/dd0/okmachinegun_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,10,0,23,7,1],
-"d6/dd0/okmachinegun_8qh.html#a69a1be6aac76bbffbc85d1a64d957384":[2,0,1,10,0,23,7,2],
-"d6/dd0/okmachinegun_8qh_source.html":[2,0,1,10,0,23,7],
-"d6/dd1/classXonoticHUDCenterprintDialog.html":[1,0,187]
+"d6/dd0/okmachinegun_8qh.html#a69a1be6aac76bbffbc85d1a64d957384":[2,0,1,10,0,23,7,2]
 };

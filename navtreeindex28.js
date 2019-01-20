@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"d3/d70/menu_2progs_8inc.html":[2,0,5,17],
+"d3/d70/menu_2progs_8inc_source.html":[2,0,5,17],
 "d3/d71/dialog__credits_8qc.html":[2,0,5,4,40],
 "d3/d71/dialog__credits_8qc.html#a4d438bd9a1255103dc2cf53f91f1aed7":[2,0,5,4,40,1],
 "d3/d71/dialog__credits_8qc.html#a4ea4520463328028f51785ada19f0259":[2,0,5,4,40,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "d3/d9c/counter_8qh_source.html":[2,0,1,6,3,3],
 "d3/d9c/plasma__dual_8qc.html":[2,0,1,14,0,34],
 "d3/d9c/plasma__dual_8qc_source.html":[2,0,1,14,0,34],
-"d3/d9d/bgmscript_8qh.html":[2,0,0,10],
-"d3/d9d/bgmscript_8qh.html#a63eb389bb05182428e5fa83c4786914a":[2,0,0,10,0],
-"d3/d9d/bgmscript_8qh.html#a9120ce405f8dde05592f4869794f8fee":[2,0,0,10,1]
+"d3/d9d/bgmscript_8qh.html":[2,0,0,10]
 };

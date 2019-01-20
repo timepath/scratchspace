@@ -5,6 +5,7 @@ var searchData=
   ['label_2eqh',['label.qh',['../df/d4d/label_8qh.html',1,'']]],
   ['label_5fconfigurelabel',['Label_configureLabel',['../d4/d16/label_8qc.html#afb7185f15bb2b9ebf7c5d05ac7d7c553',1,'label.qc']]],
   ['label_5fdraw',['Label_draw',['../d4/d16/label_8qc.html#afd8334cae30cb0a7cee0f707c9024c9c',1,'label.qc']]],
+  ['label_5fgetinfo',['Label_getInfo',['../d3/d07/scoreboard_8qc.html#ad6d00f8de5e6305096b675d5d23532f3',1,'scoreboard.qc']]],
   ['label_5frecalcpositionwithtext',['Label_recalcPositionWithText',['../d4/d16/label_8qc.html#aec39292cc952b6ce3d9f074916ef22c1',1,'label.qc']]],
   ['label_5fresizenotify',['Label_resizeNotify',['../d4/d16/label_8qc.html#ad8426cd7a9402d42a0c5ab2c27de1d48',1,'label.qc']]],
   ['label_5fsettext',['Label_setText',['../d4/d16/label_8qc.html#a4a114b337a768306130a7b0533d6c5fb',1,'label.qc']]],

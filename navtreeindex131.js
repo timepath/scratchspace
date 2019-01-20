@@ -1,5 +1,7 @@
 var NAVTREEINDEX131 =
 {
+"df/d13/anglestransform_8qc.html#af64b5ad6d44b097e630186f854137e5d":[2,0,4,2,2,5],
+"df/d13/anglestransform_8qc_source.html":[2,0,4,2,2],
 "df/d16/common_2mapobjects_2defs_8qh.html":[2,0,1,6,6],
 "df/d16/common_2mapobjects_2defs_8qh.html#a1ef4ce56a7c42cd82dc702b4f635375c":[2,0,1,6,6,7],
 "df/d16/common_2mapobjects_2defs_8qh.html#a3326a807a35e2d2f03cd918a7a105482":[2,0,1,6,6,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX131 =
 "df/d28/sv__turrets_8qh.html#abdff73d9d6c1f73a10601dfed099bcb4":[2,0,1,14,12,23],
 "df/d28/sv__turrets_8qh.html#ac2b03c802f630aa56642892c8646d1dd":[2,0,1,14,12,13],
 "df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c":[2,0,1,14,12,54],
-"df/d28/sv__turrets_8qh.html#ac67f6b99387c99ea50d2077040744b70":[2,0,1,14,12,52],
-"df/d28/sv__turrets_8qh.html#ac9f33d3efe2605b684741296c7f49639":[2,0,1,14,12,44],
-"df/d28/sv__turrets_8qh.html#adc9337924d4dea4b60215bbce55dc593":[2,0,1,14,12,49]
+"df/d28/sv__turrets_8qh.html#ac67f6b99387c99ea50d2077040744b70":[2,0,1,14,12,52]
 };
