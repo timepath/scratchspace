@@ -1,5 +1,6 @@
 var NAVTREEINDEX113 =
 {
+"dc/da0/classXonoticMapInfoDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,215,0],
 "dc/da0/classXonoticMapInfoDialog.html#ac677c3e20620ff307510e67965271653":[1,0,215,72],
 "dc/da0/classXonoticMapInfoDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,215,42],
 "dc/da0/classXonoticMapInfoDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,215,47],
@@ -248,6 +249,5 @@ var NAVTREEINDEX113 =
 "dc/dc8/ecs_2systems_2physics_8qh.html#a6fedf9253d02f5b700db55425ff16368":[2,0,3,2,6,6],
 "dc/dc8/ecs_2systems_2physics_8qh.html#aa4d68982e5ca4141554c3510a02fa0b2":[2,0,3,2,6,5],
 "dc/dc8/ecs_2systems_2physics_8qh.html#ac53d59b489abbc3503122f45b66a33cf":[2,0,3,2,6,2],
-"dc/dc8/ecs_2systems_2physics_8qh.html#ae1cea1af66c766eadc75f5285878d39e":[2,0,3,2,6,1],
-"dc/dc8/ecs_2systems_2physics_8qh_source.html":[2,0,3,2,6]
+"dc/dc8/ecs_2systems_2physics_8qh.html#ae1cea1af66c766eadc75f5285878d39e":[2,0,3,2,6,1]
 };

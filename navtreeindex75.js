@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"d8/d39/classXonoticGametypeList.html#a42fb6e1271b7088e12a3384e4e53b122":[1,0,183,72],
 "d8/d39/classXonoticGametypeList.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,183,17],
 "d8/d39/classXonoticGametypeList.html#a44f82bb2186f56f4dea7f791b47e2952":[1,0,183,35],
 "d8/d39/classXonoticGametypeList.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,183,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "d8/d88/keylock_8qc.html#a1f7801877acc75d67d14be456bf88ac8":[2,0,1,6,3,22,2],
 "d8/d88/keylock_8qc.html#a9d744747a2cc9d20b3f786e635fa3c76":[2,0,1,6,3,22,1],
 "d8/d88/keylock_8qc.html#aedab72402ed81e3b45d4e61d16ceb2fe":[2,0,1,6,3,22,0],
-"d8/d88/keylock_8qc_source.html":[2,0,1,6,3,22],
-"d8/d8a/classXonoticDamageTextSettings.html":[1,0,169]
+"d8/d88/keylock_8qc_source.html":[2,0,1,6,3,22]
 };

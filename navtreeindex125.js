@@ -1,5 +1,6 @@
 var NAVTREEINDEX125 =
 {
+"de/d58/throwing_8qh.html#ac1203fc8c2d30ac799d34c06c456d7dc":[2,0,6,5,15,3],
 "de/d58/throwing_8qh_source.html":[2,0,6,5,15],
 "de/d5b/arc_8qh.html":[2,0,1,16,0,3],
 "de/d5b/arc_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,3,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX125 =
 "de/d5e/dpextensions_8qc.html#aaf39de2b8f89150e5df6a03df1847a6d":[2,0,2,0,1,25],
 "de/d5e/dpextensions_8qc.html#ab0e794a349c8943192d972f5a88f0a67":[2,0,2,0,1,95],
 "de/d5e/dpextensions_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b":[2,0,2,0,1,108],
-"de/d5e/dpextensions_8qc.html#ab1b4a9bd4948d5653ef075bc23df3753":[2,0,2,0,1,288],
-"de/d5e/dpextensions_8qc.html#ab3055b65f6791a7f29a36f539fe73732":[2,0,2,0,1,75]
+"de/d5e/dpextensions_8qc.html#ab1b4a9bd4948d5653ef075bc23df3753":[2,0,2,0,1,288]
 };

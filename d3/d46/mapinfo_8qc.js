@@ -1,6 +1,7 @@
 var mapinfo_8qc =
 [
     [ "deprecate", "d3/d46/mapinfo_8qc.html#a802a9dfeae2a8991ff7b3dbf754abb66", null ],
+    [ "WARN_COND", "d3/d46/mapinfo_8qc.html#a97c45d4e9e042407a79c7a8fc2f8a304", null ],
     [ "_MapInfo_CheckMap", "d3/d46/mapinfo_8qc.html#ab6ff1312fd2c85c03304ce5cd50ea4a0", null ],
     [ "_MapInfo_FilterGametype", "d3/d46/mapinfo_8qc.html#aebb56edd95a3122a4b338d4a8e22ff69", null ],
     [ "_MapInfo_FilterList_cmp", "d3/d46/mapinfo_8qc.html#a99eaeaa292df03c1333d95546ca3eeb8", null ],
