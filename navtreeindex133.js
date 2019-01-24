@@ -1,5 +1,8 @@
 var NAVTREEINDEX133 =
 {
+"df/d56/classSpider.html#abbd3a53ddd2019b6933a9e40910cfc58":[1,0,130,3],
+"df/d56/classSpider.html#adc5acc9cbff0fdce03b8253cfa102777":[1,0,130,5],
+"df/d56/classSpider.html#af1f6c7f83357720dcafe8ea53e07276b":[1,0,130,6],
 "df/d56/classSpider.html#af7f6c083a7f8a432a0579b3f03918174":[1,0,130,8],
 "df/d56/weapons_2all_8inc.html":[2,0,1,16,5],
 "df/d56/weapons_2all_8inc_source.html":[2,0,1,16,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX133 =
 "df/d78/classPhaserTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,102,27],
 "df/d78/classPhaserTurretAttack.html#ae7a4367569506c9c7bc4402342c0ebf5":[1,0,102,35],
 "df/d78/classPhaserTurretAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,102,18],
-"df/d7d/dialog__monstertools_8qh.html":[2,0,5,4,85],
-"df/d7d/dialog__monstertools_8qh_source.html":[2,0,5,4,85],
-"df/d7d/dialog__multiplayer__create__mapinfo_8qc.html":[2,0,5,4,90],
-"df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#a81b771e7581da0653ae9997c03b7d3bc":[2,0,5,4,90,1]
+"df/d7d/dialog__monstertools_8qh.html":[2,0,5,4,85]
 };
