@@ -1005,7 +1005,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00971">971</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00034">eliminatedPlayers</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00021">maxclients</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a33e75150e29fa01dc3c2fbe55610e1fd">nextent()</a>, and <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00233">serialize</a>.</p>
+<p>References <a class="el" href="../../d5/d52/bits_8qh_source.html#l00008">BIT</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00034">eliminatedPlayers</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00021">maxclients</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a33e75150e29fa01dc3c2fbe55610e1fd">nextent()</a>, and <a class="el" href="../../d9/d48/lib_2net_8qh_source.html#l00233">serialize</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00991">EliminatedPlayers_Init()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;{</div>
@@ -1030,7 +1030,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a1a3ca31bd4d3da8f4dc1931e82cb04b5"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a></div><div class="ttdeci">float maxclients</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00021">csprogsdefs.qc:21</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a9a5d758c3f0baae25a5df42278c834c7"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a9a5d758c3f0baae25a5df42278c834c7">eliminatedPlayers</a></div><div class="ttdeci">entity eliminatedPlayers</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00034">miscfunctions.qh:34</a></div></div>
-<div class="ttc" id="bits_8qh_html_a3a8ea58898cb58fc96013383d39f482c"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a></div><div class="ttdeci">#define BIT(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00005">bits.qh:5</a></div></div>
+<div class="ttc" id="bits_8qh_html_a3a8ea58898cb58fc96013383d39f482c"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a></div><div class="ttdeci">#define BIT(n)</div><div class="ttdoc">Only ever assign into the first 24 bits in QC (so max is BIT(23)). </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00008">bits.qh:8</a></div></div>
 <div class="ttc" id="lib_2net_8qh_html_a3177d21b061e1bd32c45621c9ad6b3a0"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#a3177d21b061e1bd32c45621c9ad6b3a0">serialize</a></div><div class="ttdeci">#define serialize(T, stream,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00233">net.qh:233</a></div></div>
 <div class="ttc" id="self_8qh_html_a60dde61404d8e446ac2ff0b455678262"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a60dde61404d8e446ac2ff0b455678262">sendflags</a></div><div class="ttdeci">entity int sendflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00096">self.qh:96</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a33e75150e29fa01dc3c2fbe55610e1fd"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a33e75150e29fa01dc3c2fbe55610e1fd">nextent</a></div><div class="ttdeci">entity nextent(entity e)</div></div>
@@ -5420,7 +5420,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/dc6/server_2miscfunctions_8qc.html">miscfunctions.qc</a></li>
-    <li class="footer">Generated on Thu Jan 24 2019 16:56:57 for Xonotic by
+    <li class="footer">Generated on Fri Jan 25 2019 17:51:36 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
