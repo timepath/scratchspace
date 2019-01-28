@@ -1494,6 +1494,7 @@ var searchData=
   ['autocvar_5fhud_5fshownames_5fself',['autocvar_hud_shownames_self',['../d7/db4/client_2autocvars_8qh.html#a1d9d264d32d51f15e18cf866410c372b',1,'autocvars.qh']]],
   ['autocvar_5fhud_5fshownames_5fstatus',['autocvar_hud_shownames_status',['../d7/db4/client_2autocvars_8qh.html#a20613542b79a253c38e345abab3afeda',1,'autocvars.qh']]],
   ['autocvar_5fhud_5fshownames_5fstatusbar_5fheight',['autocvar_hud_shownames_statusbar_height',['../d7/db4/client_2autocvars_8qh.html#a52b61a00fbfba05de53cfbdd706e4700',1,'autocvars.qh']]],
+  ['autocvar_5fhud_5fshownames_5fstatusbar_5fhighlight',['autocvar_hud_shownames_statusbar_highlight',['../d7/db4/client_2autocvars_8qh.html#aa9e528e8e4e9e7fef846079abe75e298',1,'autocvars.qh']]],
   ['autocvar_5fhud_5fskin',['autocvar_hud_skin',['../d7/db4/client_2autocvars_8qh.html#a5cc2f6b5268f15fb3a674175fbf1a34d',1,'autocvars.qh']]],
   ['autocvar_5flastlevel',['autocvar_lastlevel',['../d7/da7/server_2autocvars_8qh.html#ab0ee1e9c51d6499aedac4727cd4b8ad9',1,'autocvars.qh']]],
   ['autocvar_5fleadlimit_5fand_5ffraglimit',['autocvar_leadlimit_and_fraglimit',['../d7/da7/server_2autocvars_8qh.html#a2c1f1fbc11eee72e21bda0bc39ce9c4f',1,'autocvars.qh']]],

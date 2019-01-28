@@ -432,6 +432,7 @@ var client_2autocvars_8qh =
     [ "autocvar_hud_shownames_self", "d7/db4/client_2autocvars_8qh.html#a1d9d264d32d51f15e18cf866410c372b", null ],
     [ "autocvar_hud_shownames_status", "d7/db4/client_2autocvars_8qh.html#a20613542b79a253c38e345abab3afeda", null ],
     [ "autocvar_hud_shownames_statusbar_height", "d7/db4/client_2autocvars_8qh.html#a52b61a00fbfba05de53cfbdd706e4700", null ],
+    [ "autocvar_hud_shownames_statusbar_highlight", "d7/db4/client_2autocvars_8qh.html#aa9e528e8e4e9e7fef846079abe75e298", null ],
     [ "autocvar_hud_skin", "d7/db4/client_2autocvars_8qh.html#a5cc2f6b5268f15fb3a674175fbf1a34d", null ],
     [ "autocvar_menu_mouse_speed", "d7/db4/client_2autocvars_8qh.html#a9c98f8575624437f3c4e14709601e5dd", null ],
     [ "autocvar_menu_skin", "d7/db4/client_2autocvars_8qh.html#ac75c75386f87a1a51d6628fe73d88e77", null ],
