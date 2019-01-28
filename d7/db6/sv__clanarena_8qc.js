@@ -1,6 +1,5 @@
 var sv__clanarena_8qc =
 [
-    [ "CA_ALIVE_TEAMS_OK", "d7/db6/sv__clanarena_8qc.html#a2675140ec89f3ccfdaeb09d3297e6814", null ],
     [ "CA_CheckTeams", "d7/db6/sv__clanarena_8qc.html#a4eb56906efb5c8da7820d434817d4a0e", null ],
     [ "CA_CheckWinner", "d7/db6/sv__clanarena_8qc.html#aa6ddf48df388628329e00ba071a90dba", null ],
     [ "CA_count_alive_players", "d7/db6/sv__clanarena_8qc.html#a7b44031b9b3e81ef13dad8a190d736ff", null ],

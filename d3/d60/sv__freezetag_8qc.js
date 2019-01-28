@@ -1,6 +1,5 @@
 var sv__freezetag_8qc =
 [
-    [ "FREEZETAG_ALIVE_TEAMS_OK", "d3/d60/sv__freezetag_8qc.html#a9e9a8521c54e924036535cec46d0ea10", null ],
     [ "IS_REVIVING", "d3/d60/sv__freezetag_8qc.html#a7687bfee92a2d2d15758fd23e44d9300", null ],
     [ "freezetag_Add_Score", "d3/d60/sv__freezetag_8qc.html#a93cb74d10f623856d7c09250f69f4aac", null ],
     [ "freezetag_CheckTeams", "d3/d60/sv__freezetag_8qc.html#ac8afc1e08193f20ab1164638901f2eeb", null ],

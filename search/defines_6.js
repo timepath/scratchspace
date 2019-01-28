@@ -1,7 +1,7 @@
 var searchData=
 [
   ['fail',['FAIL',['../d4/d5b/test_8qh.html#a292ad803e75cf5ca00676b8595513ace',1,'test.qh']]],
-  ['false',['FALSE',['../da/dde/csprogsdefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1',1,'FALSE():&#160;csprogsdefs.qh'],['../d0/d95/menudefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1',1,'FALSE():&#160;menudefs.qh'],['../d8/dc0/progsdefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1',1,'FALSE():&#160;progsdefs.qh'],['../da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727',1,'false():&#160;csprogsdefs.qh'],['../d0/d95/menudefs_8qh.html#a65e9886d74aaee76545e83dd09011727',1,'false():&#160;menudefs.qh'],['../d8/dc0/progsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727',1,'false():&#160;progsdefs.qh']]],
+  ['false',['false',['../da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727',1,'false():&#160;csprogsdefs.qh'],['../d0/d95/menudefs_8qh.html#a65e9886d74aaee76545e83dd09011727',1,'false():&#160;menudefs.qh'],['../d8/dc0/progsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727',1,'false():&#160;progsdefs.qh'],['../da/dde/csprogsdefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1',1,'FALSE():&#160;csprogsdefs.qh'],['../d0/d95/menudefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1',1,'FALSE():&#160;menudefs.qh'],['../d8/dc0/progsdefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1',1,'FALSE():&#160;progsdefs.qh']]],
   ['field',['FIELD',['../d4/db7/cl__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7',1,'FIELD():&#160;cl_minigames.qc'],['../d4/db7/cl__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7',1,'FIELD():&#160;cl_minigames.qc'],['../d7/d33/sv__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7',1,'FIELD():&#160;sv_minigames.qc']]],
   ['field_5fscalar',['FIELD_SCALAR',['../da/d20/spawnfunc_8qh.html#a0b9d427233f1fc585de8da601a0d3f38',1,'spawnfunc.qh']]],
   ['field_5fvec',['FIELD_VEC',['../da/d20/spawnfunc_8qh.html#a82f4dd939d49e3dbc4926a5823ffb0c8',1,'spawnfunc.qh']]],
@@ -51,6 +51,5 @@ var searchData=
   ['foreach_5fminigame_5fentity',['FOREACH_MINIGAME_ENTITY',['../de/d3d/cl__minigames_8qh.html#acb1eb2cf269d4b57f8d9a3350ef514f7',1,'cl_minigames.qh']]],
   ['foreach_5fword',['FOREACH_WORD',['../d4/d18/iter_8qh.html#a632ecf2fc79f8dc7dce33e3de72a6d6e',1,'iter.qh']]],
   ['fprintf',['fprintf',['../d5/df2/common_2util_8qh.html#a461e83c88c5ac01576ef0f8554408da3',1,'util.qh']]],
-  ['freezetag_5falive_5fteams_5fok',['FREEZETAG_ALIVE_TEAMS_OK',['../d3/d60/sv__freezetag_8qc.html#a9e9a8521c54e924036535cec46d0ea10',1,'sv_freezetag.qc']]],
   ['ftoi',['FTOI',['../d2/d65/unsafe_8qh.html#a28163937cdfc9d15144074ee0f1ef1c4',1,'unsafe.qh']]]
 ];
