@@ -2,8 +2,8 @@ var server_2impulse_8qc =
 [
     [ "_IMPULSE", "d4/d53/server_2impulse_8qc.html#a3b4445edf4d24ffe5d35ce13622a32dd", null ],
     [ "IMPULSE", "d4/d53/server_2impulse_8qc.html#a8a5e4c11b6e61837eab14424981c9959", null ],
-    [ "X", "d4/d53/server_2impulse_8qc.html#ab5db254e0f17c56c4b1ea3976da5d32f", null ],
-    [ "X", "d4/d53/server_2impulse_8qc.html#a98c32617ebeb8e573bfdcd78da37e12d", null ],
+    [ "X", "d4/d53/server_2impulse_8qc.html#a3c23c2da17712d95e32cd500f6e10216", null ],
+    [ "X", "d4/d53/server_2impulse_8qc.html#a814f1e5e674586f4842342fb2dd79242", null ],
     [ "X", "d4/d53/server_2impulse_8qc.html#a3c23c2da17712d95e32cd500f6e10216", null ],
     [ "X", "d4/d53/server_2impulse_8qc.html#a4452d9f9709cb7490ae7d6ad6c061214", null ],
     [ "IMPULSE", "d4/d53/server_2impulse_8qc.html#a3e4c8eb269d6bdee930be3277adc905a", null ],
