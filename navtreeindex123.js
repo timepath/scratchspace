@@ -1,5 +1,8 @@
 var NAVTREEINDEX123 =
 {
+"de/d03/effectinfo__vehicles_8inc.html#af5426ccc2c16d160ba5e1e334f3aab02":[2,0,1,2,19,18],
+"de/d03/effectinfo__vehicles_8inc.html#af75d60a6fe9f14a3eb8ab5ca174d8850":[2,0,1,2,19,9],
+"de/d03/effectinfo__vehicles_8inc.html#af9671b0328a8366ba77040d48a78cac9":[2,0,1,2,19,28],
 "de/d03/effectinfo__vehicles_8inc_source.html":[2,0,1,2,19],
 "de/d09/linkedlist_8qh.html":[2,0,4,29],
 "de/d09/linkedlist_8qh.html#a08e4d23cbcd37a4f692e83dd58acf874":[2,0,4,29,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX123 =
 "de/d40/playerlist_8qc.html":[2,0,5,4,186],
 "de/d40/playerlist_8qc.html#a2da2f534e7d95310a3a7e562a417548d":[2,0,5,4,186,9],
 "de/d40/playerlist_8qc.html#a512fdfff0ae79b90dd37cba610dfbcba":[2,0,5,4,186,7],
-"de/d40/playerlist_8qc.html#a5c5e590dde4677eca458d95b8a4fbba2":[2,0,5,4,186,2],
-"de/d40/playerlist_8qc.html#a6d4ecee6a0c8ce64ce98498c969c819c":[2,0,5,4,186,10],
-"de/d40/playerlist_8qc.html#a78c6468eb705f16613a2e365dfdd7a1d":[2,0,5,4,186,0],
-"de/d40/playerlist_8qc.html#a8eb2d4a7a39dac19bcbefb3ebcb6e762":[2,0,5,4,186,8]
+"de/d40/playerlist_8qc.html#a5c5e590dde4677eca458d95b8a4fbba2":[2,0,5,4,186,2]
 };

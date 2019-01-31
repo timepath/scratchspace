@@ -1,5 +1,8 @@
 var NAVTREEINDEX58 =
 {
+"d6/dbd/minigames_8qh.html#ac4a43a55db4827c2a47a075462e401c0":[2,0,1,7,8,19],
+"d6/dbd/minigames_8qh.html#adbfd9d3db8c920f23ecda1e18d9a65ab":[2,0,1,7,8,7],
+"d6/dbd/minigames_8qh.html#ae011c2511486cc58bc0e82ec8be494cf":[2,0,1,7,8,16],
 "d6/dbd/minigames_8qh.html#ae1211c15a8a3c4fb201c07380b1367bd":[2,0,1,7,8,17],
 "d6/dbd/minigames_8qh.html#ae654db0c0ec8adbcddf96b15d435b5d4":[2,0,1,7,8,10],
 "d6/dbd/minigames_8qh.html#af9bd9e8c66a24ce94dce85d3224987eb":[2,0,1,7,8,15],
@@ -246,8 +249,5 @@ var NAVTREEINDEX58 =
 "d6/dce/sounds_2all_8inc.html#af69151c93f665f01838cd7c6fc86edb0":[2,0,1,13,2,91],
 "d6/dce/sounds_2all_8inc.html#afcb40b544f828be9ead80e51cb03fce6":[2,0,1,13,2,116],
 "d6/dce/sounds_2all_8inc.html#afd011f59ea9a61bbf8f15861730686a6":[2,0,1,13,2,83],
-"d6/dce/sounds_2all_8inc.html#afdc053d39a7d09e59db95c511ba5244f":[2,0,1,13,2,177],
-"d6/dce/sounds_2all_8inc.html#afedc4a78b525a015b4f726e0790c37c6":[2,0,1,13,2,11],
-"d6/dce/sounds_2all_8inc.html#afefacd72f0f908615c01a9e47419028a":[2,0,1,13,2,190],
-"d6/dce/sounds_2all_8inc_source.html":[2,0,1,13,2]
+"d6/dce/sounds_2all_8inc.html#afdc053d39a7d09e59db95c511ba5244f":[2,0,1,13,2,177]
 };
