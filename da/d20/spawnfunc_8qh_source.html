@@ -199,11 +199,11 @@ $(document).ready(function(){initNavTree('da/d20/spawnfunc_8qh_source.html','../
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">                static_init_early(); \</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">            } \</span></div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">            bool dospawn = true; \</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">            if (__spawnfunc_expecting &gt; 1) { __spawnfunc_expecting = false; } \</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">            if (__spawnfunc_expecting &gt; 1) { __spawnfunc_expecting = 0; } \</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">            else if (__spawnfunc_expecting) { \</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">                </span><span class="comment">/* engine call */</span><span class="preprocessor"> \</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">                if (!g_spawn_queue) { g_spawn_queue = IL_NEW(); } \</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">                __spawnfunc_expecting = false; \</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">                __spawnfunc_expecting = 0; \</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">                this = __spawnfunc_expect; \</span></div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">                __spawnfunc_expect = NULL; \</span></div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">                dospawn = false; \</span></div>
@@ -406,7 +406,7 @@ $(document).ready(function(){initNavTree('da/d20/spawnfunc_8qh_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../da/d20/spawnfunc_8qh.html">spawnfunc.qh</a></li>
-    <li class="footer">Generated on Thu Jan 31 2019 15:23:53 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 16:05:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -353,15 +353,15 @@ $(document).ready(function(){initNavTree('db/d38/base_8qh_source.html','../../')
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
 <div class="line"><a name="l00261"></a><span class="lineno"><a class="line" href="../../db/d38/base_8qh.html#a34fe2a48e1aba3b8dcca44eb4bb02177">  261</a></span>&#160;<span class="preprocessor">#define REGISTER_MUTATOR(id, dependence) \</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor">    bool MUTATORFUNCTION_##id##_hooks(int mode) { return = false; } \</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="preprocessor">    bool MUTATORFUNCTION_##id(int mode) { \</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor">    bool MUTATORFUNC_##id##_hooks(int mode) { return = false; } \</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="preprocessor">    bool MUTATORFUNC_##id(int mode) { \</span></div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="preprocessor">        return = false; \</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor">        bool ret = MUTATORFUNCTION_##id##_hooks(mode); if (ret) return ret; \</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor">        bool ret = MUTATORFUNC_##id##_hooks(mode); if (ret) return ret; \</span></div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor">    } \</span></div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor">    bool MUTATOR_##id##_check() { return dependence; } \</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor">    REGISTER(Mutators, MUTATOR, id, m_id, NEW(Mutator, #id, MUTATORFUNCTION_##id)) \</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor">    REGISTER(Mutators, MUTATOR, id, m_id, NEW(Mutator, #id, MUTATORFUNC_##id)) \</span></div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor">    { this.mutatorcheck = MUTATOR_##id##_check; } \</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">    ACCUMULATE bool MUTATORFUNCTION_##id(int mode)</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">    ACCUMULATE bool MUTATORFUNC_##id(int mode)</span></div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00272"></a><span class="lineno"><a class="line" href="../../db/d38/base_8qh.html#a8f36889dc2deda16262f5f50565ad6f2">  272</a></span>&#160;<a class="code" href="../../db/d38/base_8qh.html#a8f36889dc2deda16262f5f50565ad6f2">STATIC_INIT</a>(Mutators) {</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#abc35fc162c1da758be8ceb95a757773a">RegisterHooks</a>();</div>
@@ -395,9 +395,9 @@ $(document).ready(function(){initNavTree('db/d38/base_8qh_source.html','../../')
 <div class="line"><a name="l00301"></a><span class="lineno"><a class="line" href="../../db/d38/base_8qh.html#ae802749af56eba2b7d9d38cddd3f9596">  301</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define MUTATOR_RETURNVALUE             CallbackChain_ReturnValue</span></div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00303"></a><span class="lineno"><a class="line" href="../../db/d38/base_8qh.html#a63adb76f4570420c116e7c8f127bbd62">  303</a></span>&#160;<span class="preprocessor">#define _MUTATOR_CALLBACK(name, func) \</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="preprocessor">    Callback CALLBACK_##name; \</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="preprocessor">    Callback CB_##name; \</span></div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="preprocessor">    bool func(); \</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="preprocessor">    ACCUMULATE void RegisterCallbacks() { CALLBACK_##name = NEW(Callback, func); }</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="preprocessor">    ACCUMULATE void RegisterCallbacks() { CB_##name = NEW(Callback, func); }</span></div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00308"></a><span class="lineno"><a class="line" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">  308</a></span>&#160;<span class="preprocessor">#define MUTATOR_HOOKFUNCTION(...) \</span></div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="preprocessor">    EVAL_MUTATOR_HOOKFUNCTION(OVERLOAD(MUTATOR_HOOKFUNCTION, __VA_ARGS__))</span></div>
@@ -408,20 +408,20 @@ $(document).ready(function(){initNavTree('db/d38/base_8qh_source.html','../../')
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00315"></a><span class="lineno"><a class="line" href="../../db/d38/base_8qh.html#a26468c5445cf0643a70b0c7f3ce73794">  315</a></span>&#160;<span class="preprocessor">#define MUTATOR_HOOKFUNCTION_3(mut, cb, order) \</span></div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="preprocessor">    _MUTATOR_CALLBACK(mut##_##cb, mut##_##cb) \</span></div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="preprocessor">    ACCUMULATE bool MUTATORFUNCTION_##mut##_hooks(int mode) { MUTATOR_HOOK(cb, mut##_##cb, order); } \</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="preprocessor">    ACCUMULATE bool MUTATORFUNC_##mut##_hooks(int mode) { MUTATOR_HOOK(cb, mut##_##cb, order); } \</span></div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="preprocessor">    bool mut##_##cb() { return = false; } \</span></div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="preprocessor">    ACCUMULATE bool mut##_##cb()</span></div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00321"></a><span class="lineno"><a class="line" href="../../db/d38/base_8qh.html#a8fca73c53ad262fe3202fd62a4089fa1">  321</a></span>&#160;<span class="preprocessor">#define MUTATOR_HOOK(cb, func, order) MACRO_BEGIN {                     \</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="preprocessor">    MUTATOR_ONADD {                                                     \</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor">        if (!CallbackChain_Add(HOOK_##cb, CALLBACK_##func, order)) {    \</span></div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="preprocessor">            LOG_INFO(&quot;HOOK FAILED: &quot;, #cb, &quot;:&quot;, #func);                 \</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="preprocessor">            return true;                                                \</span></div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="preprocessor">        }                                                               \</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="preprocessor">    }                                                                   \</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="preprocessor">    MUTATOR_ONROLLBACK_OR_REMOVE {                                      \</span></div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="preprocessor">        CallbackChain_Remove(HOOK_##cb, CALLBACK_##func);               \</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="preprocessor">    }                                                                   \</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno"><a class="line" href="../../db/d38/base_8qh.html#a8fca73c53ad262fe3202fd62a4089fa1">  321</a></span>&#160;<span class="preprocessor">#define MUTATOR_HOOK(cb, func, order) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="preprocessor">    MUTATOR_ONADD { \</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor">        if (!CallbackChain_Add(HOOK_##cb, CB_##func, order)) { \</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="preprocessor">            LOG_INFO(&quot;HOOK FAILED: &quot;, #cb, &quot;:&quot;, #func); \</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="preprocessor">            return true; \</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="preprocessor">        } \</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="preprocessor">    } \</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="preprocessor">    MUTATOR_ONROLLBACK_OR_REMOVE { \</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="preprocessor">        CallbackChain_Remove(HOOK_##cb, CB_##func); \</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="preprocessor">    } \</span></div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html">events.qh</a>&quot;</span></div>
@@ -487,7 +487,7 @@ $(document).ready(function(){initNavTree('db/d38/base_8qh_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../db/d38/base_8qh.html">base.qh</a></li>
-    <li class="footer">Generated on Thu Jan 31 2019 15:23:51 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 16:05:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

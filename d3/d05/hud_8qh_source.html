@@ -347,107 +347,107 @@ $(document).ready(function(){initNavTree('d3/d05/hud_8qh_source.html','../../');
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="comment">// Get value for panel.current_panel_bg: if &quot;&quot; fetch default, else use panel_bg_str</span></div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="comment">// comment on last line of macro: // we probably want to see a background in config mode at all times...</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="preprocessor">#define HUD_Panel_GetBg() MACRO_BEGIN {                                                                             \</span></div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="preprocessor">    string panel_bg;                                                                                                \</span></div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="preprocessor">    if (!autocvar__hud_configure &amp;&amp; panel_bg_str == &quot;0&quot;) {                                                          \</span></div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="preprocessor">        panel_bg = &quot;0&quot;;                                                                                             \</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="preprocessor">    } else {                                                                                                        \</span></div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor">        if (panel_bg_str == &quot;&quot;) {                                                                                   \</span></div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="preprocessor">            panel_bg_str = autocvar_hud_panel_bg;                                                                   \</span></div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="preprocessor">        }                                                                                                           \</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="preprocessor">        if (panel_bg_str == &quot;0&quot; &amp;&amp; !autocvar__hud_configure) {                                                      \</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="preprocessor">            panel_bg = &quot;0&quot;;                                                                                         \</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor">        } else {                                                                                                    \</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="preprocessor">            if (panel_bg_str == &quot;0&quot; &amp;&amp; autocvar__hud_configure)                                                     \</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor">                panel_bg_alpha_str = &quot;0&quot;;                                                                           \</span></div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="preprocessor">            panel_bg = strcat(hud_skin_path, &quot;/&quot;, panel_bg_str);                                                    \</span></div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="preprocessor">            if (precache_pic(panel_bg) == &quot;&quot;) {                                                                     \</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="preprocessor">                panel_bg = strcat(hud_skin_path, &quot;/&quot;, &quot;border_default&quot;);                                            \</span></div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="preprocessor">                if (precache_pic(panel_bg) == &quot;&quot;) {                                                                 \</span></div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="preprocessor">                    panel_bg = strcat(&quot;gfx/hud/default/&quot;, &quot;border_default&quot;);                                        \</span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor">                }                                                                                                   \</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor">            }                                                                                                       \</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="preprocessor">        }                                                                                                           \</span></div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="preprocessor">    }                                                                                                               \</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor">    strcpy(panel.current_panel_bg, panel_bg);                                                                       \</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="preprocessor">#define HUD_Panel_GetBg() MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="preprocessor">    string panel_bg; \</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="preprocessor">    if (!autocvar__hud_configure &amp;&amp; panel_bg_str == &quot;0&quot;) { \</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="preprocessor">        panel_bg = &quot;0&quot;; \</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="preprocessor">    } else { \</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor">        if (panel_bg_str == &quot;&quot;) { \</span></div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="preprocessor">            panel_bg_str = autocvar_hud_panel_bg; \</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="preprocessor">        } \</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="preprocessor">        if (panel_bg_str == &quot;0&quot; &amp;&amp; !autocvar__hud_configure) { \</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="preprocessor">            panel_bg = &quot;0&quot;; \</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor">        } else { \</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="preprocessor">            if (panel_bg_str == &quot;0&quot; &amp;&amp; autocvar__hud_configure) \</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor">                panel_bg_alpha_str = &quot;0&quot;; \</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="preprocessor">            panel_bg = strcat(hud_skin_path, &quot;/&quot;, panel_bg_str); \</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="preprocessor">            if (precache_pic(panel_bg) == &quot;&quot;) { \</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="preprocessor">                panel_bg = strcat(hud_skin_path, &quot;/&quot;, &quot;border_default&quot;); \</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="preprocessor">                if (precache_pic(panel_bg) == &quot;&quot;) { \</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="preprocessor">                    panel_bg = strcat(&quot;gfx/hud/default/&quot;, &quot;border_default&quot;); \</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor">                } \</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor">            } \</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="preprocessor">        } \</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="preprocessor">    } \</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor">    strcpy(panel.current_panel_bg, panel_bg); \</span></div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="comment">// Get value for panel_bg_color: if &quot;&quot; fetch default, else use panel_bg_color. Convert pants, shirt or teamcolor into a vector.</span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor">#define HUD_Panel_GetColor() MACRO_BEGIN {                                                                          \</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">    if ((teamplay) &amp;&amp; panel_bg_color_team &gt; 0) {                                                                        \</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">        if (autocvar__hud_configure &amp;&amp; myteam == NUM_SPECTATOR)                                                     \</span></div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor">            panel_bg_color = &#39;1 0 0&#39; * panel_bg_color_team;                                                         \</span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">        else                                                                                                        \</span></div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor">            panel_bg_color = myteamcolors * panel_bg_color_team;                                                    \</span></div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor">    } else if (autocvar_hud_configure_teamcolorforced &amp;&amp; autocvar__hud_configure &amp;&amp; panel_bg_color_team &gt; 0) {          \</span></div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="preprocessor">        panel_bg_color = &#39;1 0 0&#39; * panel_bg_color_team;                                                             \</span></div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="preprocessor">    } else {                                                                                                        \</span></div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="preprocessor">        if (panel_bg_color_str == &quot;&quot;) {                                                                             \</span></div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="preprocessor">            panel_bg_color = autocvar_hud_panel_bg_color;                                                           \</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="preprocessor">        } else {                                                                                                    \</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor">            if (panel_bg_color_str == &quot;shirt&quot;) {                                                                    \</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor">#define HUD_Panel_GetColor() MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">    if ((teamplay) &amp;&amp; panel_bg_color_team &gt; 0) { \</span></div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">        if (autocvar__hud_configure &amp;&amp; myteam == NUM_SPECTATOR) \</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor">            panel_bg_color = &#39;1 0 0&#39; * panel_bg_color_team; \</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">        else \</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor">            panel_bg_color = myteamcolors * panel_bg_color_team; \</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor">    } else if (autocvar_hud_configure_teamcolorforced &amp;&amp; autocvar__hud_configure &amp;&amp; panel_bg_color_team &gt; 0) { \</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="preprocessor">        panel_bg_color = &#39;1 0 0&#39; * panel_bg_color_team; \</span></div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="preprocessor">    } else { \</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="preprocessor">        if (panel_bg_color_str == &quot;&quot;) { \</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="preprocessor">            panel_bg_color = autocvar_hud_panel_bg_color; \</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="preprocessor">        } else { \</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor">            if (panel_bg_color_str == &quot;shirt&quot;) { \</span></div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor">                panel_bg_color = colormapPaletteColor(floor(entcs_GetClientColors(current_player) / 16), 0); \</span></div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="preprocessor">            } else if (panel_bg_color_str == &quot;pants&quot;) {                                                             \</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="preprocessor">            } else if (panel_bg_color_str == &quot;pants&quot;) { \</span></div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="preprocessor">                panel_bg_color = colormapPaletteColor(entcs_GetClientColors(current_player) % 16, 1); \</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="preprocessor">            } else {                                                                                                \</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor">                panel_bg_color = stov(panel_bg_color_str);                                                          \</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">            }                                                                                                       \</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">        }                                                                                                           \</span></div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor">    }                                                                                                               \</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="preprocessor">            } else { \</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor">                panel_bg_color = stov(panel_bg_color_str); \</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">            } \</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">        } \</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor">    } \</span></div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="comment">// Get value for panel_bg_color_team: if &quot;&quot; fetch default, else use panel_bg_color_team_str</span></div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="preprocessor">#define HUD_Panel_GetColorTeam() MACRO_BEGIN {                                                                      \</span></div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="preprocessor">    if (panel_bg_color_team_str == &quot;&quot;) {                                                                            \</span></div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="preprocessor">        panel_bg_color_team = autocvar_hud_panel_bg_color_team;                                                     \</span></div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="preprocessor">    } else {                                                                                                        \</span></div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;<span class="preprocessor">        panel_bg_color_team = stof(panel_bg_color_team_str);                                                        \</span></div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="preprocessor">    }                                                                                                               \</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="preprocessor">#define HUD_Panel_GetColorTeam() MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="preprocessor">    if (panel_bg_color_team_str == &quot;&quot;) { \</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="preprocessor">        panel_bg_color_team = autocvar_hud_panel_bg_color_team; \</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="preprocessor">    } else { \</span></div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;<span class="preprocessor">        panel_bg_color_team = stof(panel_bg_color_team_str); \</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="preprocessor">    } \</span></div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="comment">// Get value for panel_bg_alpha: if &quot;&quot; fetch default, else use panel_bg_alpha. Also do various menu dialog fadeout/in checks, and minalpha checks</span></div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="comment">// comment on line 3 of macro: // do not set a minalpha cap when showing the config dialog for this panel</span></div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="preprocessor">#define HUD_Panel_GetBgAlpha() MACRO_BEGIN {                                                                        \</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="preprocessor">    if (panel_bg_alpha_str == &quot;&quot;) {                                                                                 \</span></div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="preprocessor">        panel_bg_alpha_str = ftos(autocvar_hud_panel_bg_alpha);                                                     \</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="preprocessor">    }                                                                                                               \</span></div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="preprocessor">    panel_bg_alpha = stof(panel_bg_alpha_str);                                                                      \</span></div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="preprocessor">    if (autocvar__hud_configure) {                                                                                  \</span></div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="preprocessor">        if (!panel_enabled)                                                                                         \</span></div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="preprocessor">            panel_bg_alpha = 0.25;                                                                                  \</span></div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="preprocessor">        else if (hud_configure_menu_open == 2 &amp;&amp; panel == highlightedPanel)                                                    \</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="preprocessor">#define HUD_Panel_GetBgAlpha() MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="preprocessor">    if (panel_bg_alpha_str == &quot;&quot;) { \</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="preprocessor">        panel_bg_alpha_str = ftos(autocvar_hud_panel_bg_alpha); \</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="preprocessor">    } \</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="preprocessor">    panel_bg_alpha = stof(panel_bg_alpha_str); \</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="preprocessor">    if (autocvar__hud_configure) { \</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="preprocessor">        if (!panel_enabled) \</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="preprocessor">            panel_bg_alpha = 0.25; \</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="preprocessor">        else if (hud_configure_menu_open == 2 &amp;&amp; panel == highlightedPanel) \</span></div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="preprocessor">            panel_bg_alpha = (1 - autocvar__menu_alpha) * max(cvar(&quot;hud_configure_bg_minalpha&quot;), panel_bg_alpha) + autocvar__menu_alpha * panel_bg_alpha;\</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="preprocessor">        else                                                                                                        \</span></div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="preprocessor">            panel_bg_alpha = max(cvar(&quot;hud_configure_bg_minalpha&quot;), panel_bg_alpha);                                \</span></div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="preprocessor">    }                                                                                                               \</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="preprocessor">        else \</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="preprocessor">            panel_bg_alpha = max(cvar(&quot;hud_configure_bg_minalpha&quot;), panel_bg_alpha); \</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="preprocessor">    } \</span></div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="comment">// Get value for panel_fg_alpha. Also do various minalpha checks</span></div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="comment">// comment on line 2 of macro: // ALWAYS show disabled panels at 0.25 alpha when in config mode</span></div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="preprocessor">#define HUD_Panel_GetFgAlpha() MACRO_BEGIN {                                                                        \</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="preprocessor">    panel_fg_alpha = autocvar_hud_panel_fg_alpha;                                                                   \</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="preprocessor">    if (autocvar__hud_configure &amp;&amp; !panel_enabled)                                                                  \</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor">        panel_fg_alpha = 0.25;                                                                                      \</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="preprocessor">#define HUD_Panel_GetFgAlpha() MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="preprocessor">    panel_fg_alpha = autocvar_hud_panel_fg_alpha; \</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="preprocessor">    if (autocvar__hud_configure &amp;&amp; !panel_enabled) \</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor">        panel_fg_alpha = 0.25; \</span></div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="comment">// Get border. See comments above, it&#39;s similar.</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="preprocessor">#define HUD_Panel_GetBorder() MACRO_BEGIN {                                                                         \</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="preprocessor">    if (panel_bg_border_str == &quot;&quot;) {                                                                                \</span></div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="preprocessor">        panel_bg_border = autocvar_hud_panel_bg_border;                                                             \</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="preprocessor">    } else {                                                                                                        \</span></div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="preprocessor">        panel_bg_border = stof(panel_bg_border_str);                                                                \</span></div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="preprocessor">    }                                                                                                               \</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="preprocessor">#define HUD_Panel_GetBorder() MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="preprocessor">    if (panel_bg_border_str == &quot;&quot;) { \</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="preprocessor">        panel_bg_border = autocvar_hud_panel_bg_border; \</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="preprocessor">    } else { \</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="preprocessor">        panel_bg_border = stof(panel_bg_border_str); \</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="preprocessor">    } \</span></div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="comment">// Get padding. See comments above, it&#39;s similar.</span></div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="comment">// last line is a port of the old function, basically always make sure the panel contents are at least 5 pixels tall/wide, to disallow extreme padding values</span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="preprocessor">#define HUD_Panel_GetPadding() MACRO_BEGIN {                                                                        \</span></div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="preprocessor">    if (panel_bg_padding_str == &quot;&quot;) {                                                                               \</span></div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">        panel_bg_padding = autocvar_hud_panel_bg_padding;                                                           \</span></div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="preprocessor">    } else {                                                                                                        \</span></div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="preprocessor">        panel_bg_padding = stof(panel_bg_padding_str);                                                              \</span></div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="preprocessor">    }                                                                                                               \</span></div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor">    panel_bg_padding = min(min(panel_size.x, panel_size.y)/2 - 5, panel_bg_padding);                                \</span></div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="preprocessor">#define HUD_Panel_GetPadding() MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="preprocessor">    if (panel_bg_padding_str == &quot;&quot;) { \</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">        panel_bg_padding = autocvar_hud_panel_bg_padding; \</span></div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="preprocessor">    } else { \</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="preprocessor">        panel_bg_padding = stof(panel_bg_padding_str); \</span></div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="preprocessor">    } \</span></div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor">    panel_bg_padding = min(min(panel_size.x, panel_size.y)/2 - 5, panel_bg_padding); \</span></div>
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="comment">// return smoothly faded pos and size of given panel when a dialog is active</span></div>
@@ -466,9 +466,9 @@ $(document).ready(function(){initNavTree('d3/d05/hud_8qh_source.html','../../');
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;<span class="comment">// Scale the pos and size vectors to absolute coordinates</span></div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;<span class="preprocessor">#define HUD_Panel_ScalePosSize() MACRO_BEGIN {                                                                      \</span></div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<span class="preprocessor">    panel_pos.x *= vid_conwidth;  panel_pos.y *= vid_conheight;                                                     \</span></div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;<span class="preprocessor">    panel_size.x *= vid_conwidth; panel_size.y *= vid_conheight;                                                    \</span></div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;<span class="preprocessor">#define HUD_Panel_ScalePosSize() MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<span class="preprocessor">    panel_pos.x *= vid_conwidth; panel_pos.y *= vid_conheight; \</span></div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;<span class="preprocessor">    panel_size.x *= vid_conwidth; panel_size.y *= vid_conheight; \</span></div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;<span class="keywordtype">float</span> panel_fade_alpha;</div>
@@ -478,16 +478,16 @@ $(document).ready(function(){initNavTree('d3/d05/hud_8qh_source.html','../../');
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;<span class="preprocessor">    panel_enabled = ((panel.panel_configflags &amp; PANEL_CONFIG_CANBEOFF) \</span></div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;<span class="preprocessor">                    ? cvar(strcat(&quot;hud_panel_&quot;, panel.panel_name)) : true)</span></div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00374"></a><span class="lineno"><a class="line" href="../../d3/d05/hud_8qh.html#a6795706920a11c7b9423a789b5be5e44">  374</a></span>&#160;<span class="preprocessor">#define HUD_Panel_UpdatePosSize() MACRO_BEGIN {                                                                     \</span></div>
+<div class="line"><a name="l00374"></a><span class="lineno"><a class="line" href="../../d3/d05/hud_8qh.html#a6795706920a11c7b9423a789b5be5e44">  374</a></span>&#160;<span class="preprocessor">#define HUD_Panel_UpdatePosSize() MACRO_BEGIN { \</span></div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;<span class="preprocessor">    Hud_Panel_GetPanelEnabled(); \</span></div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;<span class="preprocessor">    panel_pos = stov(cvar_string(strcat(&quot;hud_panel_&quot;, panel.panel_name, &quot;_pos&quot;)));                                  \</span></div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;<span class="preprocessor">    panel_size = stov(cvar_string(strcat(&quot;hud_panel_&quot;, panel.panel_name, &quot;_size&quot;)));                                \</span></div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;<span class="preprocessor">    HUD_Panel_ScalePosSize();                                                                                       \</span></div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;<span class="preprocessor">    if (hud_configure_menu_open == 2 &amp;&amp; panel == highlightedPanel) {                                                           \</span></div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;<span class="preprocessor">        HUD_Panel_UpdatePosSize_ForMenu();                                                                          \</span></div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="preprocessor">    }                                                                                                               \</span></div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="preprocessor">    panel_bg_border_str = cvar_string(strcat(&quot;hud_panel_&quot;, panel.panel_name, &quot;_bg_border&quot;));                        \</span></div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;<span class="preprocessor">    HUD_Panel_GetBorder();                                                                                          \</span></div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;<span class="preprocessor">    panel_pos = stov(cvar_string(strcat(&quot;hud_panel_&quot;, panel.panel_name, &quot;_pos&quot;))); \</span></div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;<span class="preprocessor">    panel_size = stov(cvar_string(strcat(&quot;hud_panel_&quot;, panel.panel_name, &quot;_size&quot;))); \</span></div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;<span class="preprocessor">    HUD_Panel_ScalePosSize(); \</span></div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;<span class="preprocessor">    if (hud_configure_menu_open == 2 &amp;&amp; panel == highlightedPanel) { \</span></div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;<span class="preprocessor">        HUD_Panel_UpdatePosSize_ForMenu(); \</span></div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="preprocessor">    } \</span></div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="preprocessor">    panel_bg_border_str = cvar_string(strcat(&quot;hud_panel_&quot;, panel.panel_name, &quot;_bg_border&quot;)); \</span></div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;<span class="preprocessor">    HUD_Panel_GetBorder(); \</span></div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00386"></a><span class="lineno"><a class="line" href="../../d3/d05/hud_8qh.html#a5ac8deafe7bbfd89bc5200cb5d1cde26">  386</a></span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../d3/d05/hud_8qh.html#a5ac8deafe7bbfd89bc5200cb5d1cde26">NOTIFY_MAX_ENTRIES</a> = 10;</div>
@@ -552,7 +552,7 @@ $(document).ready(function(){initNavTree('d3/d05/hud_8qh_source.html','../../');
 <div class="ttc" id="hud_8qh_html_ad902dfa9da2c70df5f4aee3dfe810387"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#ad902dfa9da2c70df5f4aee3dfe810387">HUD_HealthArmor</a></div><div class="ttdeci">PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME HUD_HealthArmor</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00211">hud.qh:211</a></div></div>
 <div class="ttc" id="hud_8qh_html_a70a2f0626e905caee470dbb25f1e8d11"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a70a2f0626e905caee470dbb25f1e8d11">chat_sizey</a></div><div class="ttdeci">float chat_sizey</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00156">hud.qh:156</a></div></div>
 <div class="ttc" id="hud_8qh_html_a48688ead41adeb3ee4b2d28e608234d7"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a48688ead41adeb3ee4b2d28e608234d7">hud_dynamic_shake_factor</a></div><div class="ttdeci">float hud_dynamic_shake_factor</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00165">hud.qh:165</a></div></div>
-<div class="ttc" id="registry_8qh_html_a9a50560d358790fd046b58cc5fbfd467"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a9a50560d358790fd046b58cc5fbfd467">REGISTER_REGISTRY</a></div><div class="ttdeci">#define REGISTER_REGISTRY(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00186">registry.qh:186</a></div></div>
+<div class="ttc" id="registry_8qh_html_a9a50560d358790fd046b58cc5fbfd467"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a9a50560d358790fd046b58cc5fbfd467">REGISTER_REGISTRY</a></div><div class="ttdeci">#define REGISTER_REGISTRY(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00184">registry.qh:184</a></div></div>
 <div class="ttc" id="hud_8qh_html_a390be23f7307635d28f245f8a439d7db"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a390be23f7307635d28f245f8a439d7db">HUD_MinigameHelp</a></div><div class="ttdeci">PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_SHOW_MINIGAME PANEL_SHOW_WITH_SB PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_SHOW_MINIGAME PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_SHOW_MINIGAME PANEL_SHOW_MAPVOTE PANEL_SHOW_WITH_SB PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_SHOW_MINIGAME PANEL_SHOW_MAPVOTE PANEL_SHOW_WITH_SB PANEL_CONFIG_MAIN PANEL_SHOW_MAINGAME PANEL_SHOW_MINIGAME PANEL_SHOW_WITH_SB HUD_MinigameHelp</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00227">hud.qh:227</a></div></div>
 <div class="ttc" id="hud_8qh_html_a3f5b12641d26b1a0bd06d160f143d105"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a3f5b12641d26b1a0bd06d160f143d105">PANEL_CONFIG_MAIN</a></div><div class="ttdeci">const int PANEL_CONFIG_MAIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00190">hud.qh:190</a></div></div>
 <div class="ttc" id="hud_8qh_html_a8396b10f62bd900ae0c2cf5e80aa6e59"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a8396b10f62bd900ae0c2cf5e80aa6e59">panel_configflags</a></div><div class="ttdeci">int panel_configflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00188">hud.qh:188</a></div></div>
@@ -683,7 +683,7 @@ $(document).ready(function(){initNavTree('d3/d05/hud_8qh_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../d3/d05/hud_8qh.html">hud.qh</a></li>
-    <li class="footer">Generated on Thu Jan 31 2019 15:23:49 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 16:05:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
