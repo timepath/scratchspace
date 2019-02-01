@@ -243,14 +243,14 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="comment">// when status CHANGES, set old status into prevstatus and current status into status</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor">    #define X(team) MACRO_BEGIN {                                                   \</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="preprocessor">        if (team##flag != team##flag_prevframe) {                                   \</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="preprocessor">            team##flag_statuschange_time = time;                                    \</span></div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="preprocessor">            team##flag_prevstatus = team##flag_prevframe;                           \</span></div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="preprocessor">            team##flag_prevframe = team##flag;                                      \</span></div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="preprocessor">        }                                                                           \</span></div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="preprocessor">        team##flag_statuschange_elapsedtime = time - team##flag_statuschange_time;  \</span></div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor">    #define X(team) MACRO_BEGIN \</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="preprocessor">        if (team##flag != team##flag_prevframe) { \</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="preprocessor">            team##flag_statuschange_time = time; \</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="preprocessor">            team##flag_prevstatus = team##flag_prevframe; \</span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="preprocessor">            team##flag_prevframe = team##flag; \</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="preprocessor">        } \</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="preprocessor">        team##flag_statuschange_elapsedtime = time - team##flag_statuschange_time; \</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="preprocessor">    MACRO_END</span></div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>(red);</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>(blue);</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>(yellow);</div>
@@ -271,7 +271,7 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor">    string team##_icon = string_null, team##_icon_prevstatus = string_null; \</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="preprocessor">    int team##_alpha, team##_alpha_prevstatus; \</span></div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="preprocessor">    team##_alpha = team##_alpha_prevstatus = 1; \</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="preprocessor">    MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="preprocessor">    MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="preprocessor">        switch (team##flag) { \</span></div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="preprocessor">            case 1: team##_icon = &quot;flag_&quot; #team &quot;_taken&quot;; break; \</span></div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="preprocessor">            case 2: team##_icon = &quot;flag_&quot; #team &quot;_lost&quot;; break; \</span></div>
@@ -298,7 +298,7 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;<span class="preprocessor">                } \</span></div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="preprocessor">                break; \</span></div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="preprocessor">        } \</span></div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="preprocessor">    MACRO_END</span></div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>(red, myteam != <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a> &amp;&amp; (nteams &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(0)));</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>(blue, myteam != <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a> &amp;&amp; (nteams &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(1)));</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>(yellow, myteam != <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a> &amp;&amp; (nteams &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(2)));</div>
@@ -369,7 +369,7 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    neutralflag_pos = pos;</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    flag_size = e1 * fs * size1 + e2 * size2;</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor">    #define X(team) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor">    #define X(team) MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor">        f = bound(0, team##flag_statuschange_elapsedtime * 2, 1); \</span></div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor">        if (team##_icon &amp;&amp; ctf_stalemate) \</span></div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor">            drawpic_aspect_skin(team##flag_pos, &quot;flag_stalemate&quot;, flag_size, &#39;1 1 1&#39;, panel_fg_alpha, DRAWFLAG_NORMAL); \</span></div>
@@ -377,7 +377,7 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">            drawpic_aspect_skin_expanding(team##flag_pos, team##_icon_prevstatus, flag_size, &#39;1 1 1&#39;, panel_fg_alpha * team##_alpha_prevstatus, DRAWFLAG_NORMAL, f); \</span></div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">        if (team##_icon) \</span></div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor">            drawpic_aspect_skin(team##flag_pos, team##_icon, flag_size, &#39;1 1 1&#39;, panel_fg_alpha * team##_alpha * f, DRAWFLAG_NORMAL); \</span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">    MACRO_END</span></div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>(red);</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>(blue);</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>(yellow);</div>
@@ -901,7 +901,7 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div class="ttc" id="modicons_8qc_html_a3ddd3b44e087e9f81d7f958eebf45183"><div class="ttname"><a href="../../dd/d59/modicons_8qc.html#a3ddd3b44e087e9f81d7f958eebf45183">crecordtime_prev</a></div><div class="ttdeci">float crecordtime_prev</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d59/modicons_8qc_source.html#l00487">modicons.qc:487</a></div></div>
 <div class="ttc" id="modicons_8qc_html_a0f1af36f04cd98c81be8103026295459"><div class="ttname"><a href="../../dd/d59/modicons_8qc.html#a0f1af36f04cd98c81be8103026295459">srecordtime_change_time</a></div><div class="ttdeci">float srecordtime_change_time</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d59/modicons_8qc_source.html#l00490">modicons.qc:490</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ae9037dc83bdcfd223a3560fe1da7d345"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ae9037dc83bdcfd223a3560fe1da7d345">RACE_RECORD</a></div><div class="ttdeci">#define RACE_RECORD</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00062">util.qh:62</a></div></div>
-<div class="ttc" id="common_2util_8qc_html_a73cc543cc744ae536ed0ef34b8d481c4"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a73cc543cc744ae536ed0ef34b8d481c4">textShortenToWidth</a></div><div class="ttdeci">string textShortenToWidth(string theText, float maxWidth, vector theFontSize, textLengthUpToWidth_widthFunction_t tw)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01025">util.qc:1025</a></div></div>
+<div class="ttc" id="common_2util_8qc_html_a73cc543cc744ae536ed0ef34b8d481c4"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a73cc543cc744ae536ed0ef34b8d481c4">textShortenToWidth</a></div><div class="ttdeci">string textShortenToWidth(string theText, float maxWidth, vector theFontSize, textLengthUpToWidth_widthFunction_t tw)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l01026">util.qc:1026</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 <div class="ttc" id="modicons_8qc_html_aac6f0acb8b301e02ced8c4d2486e1922"><div class="ttname"><a href="../../dd/d59/modicons_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922">blueflag_prevstatus</a></div><div class="ttdeci">int blueflag_prevstatus</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d59/modicons_8qc_source.html#l00089">modicons.qc:89</a></div></div>
 <div class="ttc" id="ctf_8qh_html_a46918a34b610a8df6f5be3746b3905f0"><div class="ttname"><a href="../../dc/dc8/ctf_8qh.html#a46918a34b610a8df6f5be3746b3905f0">CTF_PINK_FLAG_TAKEN</a></div><div class="ttdeci">const int CTF_PINK_FLAG_TAKEN</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc8/ctf_8qh_source.html#l00012">ctf.qh:12</a></div></div>
@@ -1022,7 +1022,7 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../dd/d59/modicons_8qc.html">modicons.qc</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:44 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:17:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

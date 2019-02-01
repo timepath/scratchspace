@@ -269,14 +269,14 @@ $(document).ready(function(){initNavTree('d4/dfb/lib_2__all_8inc_source.html','.
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor">    #define objerror_safe(e) make_safe_for_remove(e)</span></div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="../../d4/dfb/lib_2__all_8inc.html#aa355d14312871eb0e1d9c34d952224ef">  165</a></span>&#160;<span class="preprocessor">#define objerror(this, msg) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="../../d4/dfb/lib_2__all_8inc.html#aa355d14312871eb0e1d9c34d952224ef">  165</a></span>&#160;<span class="preprocessor">#define objerror(this, msg) MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="preprocessor">    LOG_WARN(&quot;======OBJECT ERROR======&quot;); \</span></div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="preprocessor">    entity _e = (this); \</span></div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="preprocessor">    eprint(_e); \</span></div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="preprocessor">    objerror_safe(_e); \</span></div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="preprocessor">    delete(_e); \</span></div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="preprocessor">    LOG_WARNF(&quot;%s OBJECT ERROR in %s:\n%s\nTip: read above for entity information&quot;, PROGNAME, __FUNC__, msg); \</span></div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor">MACRO_END</span></div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="preprocessor">#ifdef MENUQC</span></div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">void</span> _m_init();</div>
@@ -453,7 +453,7 @@ $(document).ready(function(){initNavTree('d4/dfb/lib_2__all_8inc_source.html','.
 <div class="ttc" id="counting_8qh_html"><div class="ttname"><a href="../../d7/de1/counting_8qh.html">counting.qh</a></div></div>
 <div class="ttc" id="color_8qh_html"><div class="ttname"><a href="../../de/d11/color_8qh.html">color.qh</a></div></div>
 <div class="ttc" id="promise_8qc_html"><div class="ttname"><a href="../../d2/dce/promise_8qc.html">promise.qc</a></div></div>
-<div class="ttc" id="menu_8qc_html_a4456a23d7ead3b0729cac4936b2c1422"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a4456a23d7ead3b0729cac4936b2c1422">m_toggle</a></div><div class="ttdeci">void m_toggle(int mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00875">menu.qc:875</a></div></div>
+<div class="ttc" id="menu_8qc_html_a4456a23d7ead3b0729cac4936b2c1422"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a4456a23d7ead3b0729cac4936b2c1422">m_toggle</a></div><div class="ttdeci">void m_toggle(int mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00876">menu.qc:876</a></div></div>
 <div class="ttc" id="functional_8qh_html"><div class="ttname"><a href="../../dd/dee/functional_8qh.html">functional.qh</a></div></div>
 <div class="ttc" id="csprogsdefs_8qh_html_a65e9886d74aaee76545e83dd09011727"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727">false</a></div><div class="ttdeci">#define false</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dde/csprogsdefs_8qh_source.html#l00006">csprogsdefs.qh:6</a></div></div>
 <div class="ttc" id="progname_8qh_html"><div class="ttname"><a href="../../d1/ddc/progname_8qh.html">progname.qh</a></div></div>
@@ -463,7 +463,7 @@ $(document).ready(function(){initNavTree('d4/dfb/lib_2__all_8inc_source.html','.
 <div class="ttc" id="int_8qh_html"><div class="ttname"><a href="../../de/d0d/int_8qh.html">int.qh</a></div></div>
 <div class="ttc" id="mathlib_8qc_html"><div class="ttname"><a href="../../df/d38/mathlib_8qc.html">mathlib.qc</a></div></div>
 <div class="ttc" id="registry__net_8qh_html"><div class="ttname"><a href="../../dd/df1/registry__net_8qh.html">registry_net.qh</a></div></div>
-<div class="ttc" id="menu_8qc_html_a844e5015c7d134d4dc7a682948215763"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a844e5015c7d134d4dc7a682948215763">m_draw</a></div><div class="ttdeci">void m_draw(float width, float height)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00672">menu.qc:672</a></div></div>
+<div class="ttc" id="menu_8qc_html_a844e5015c7d134d4dc7a682948215763"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a844e5015c7d134d4dc7a682948215763">m_draw</a></div><div class="ttdeci">void m_draw(float width, float height)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00673">menu.qc:673</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_acf9c719e766113bad854907e87812e98"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a></div><div class="ttdeci">void print(string text,...)</div></div>
 <div class="ttc" id="bool_8qh_html"><div class="ttname"><a href="../../dd/d54/bool_8qh.html">bool.qh</a></div></div>
 <div class="ttc" id="sys-pre_8qh_html"><div class="ttname"><a href="../../dd/d8b/sys-pre_8qh.html">sys-pre.qh</a></div></div>
@@ -493,7 +493,7 @@ $(document).ready(function(){initNavTree('d4/dfb/lib_2__all_8inc_source.html','.
 <div class="ttc" id="test_8qc_html"><div class="ttname"><a href="../../da/dc7/test_8qc.html">test.qc</a></div></div>
 <div class="ttc" id="keycodes_8qh_html"><div class="ttname"><a href="../../dc/d43/keycodes_8qh.html">keycodes.qh</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
-<div class="ttc" id="view_8qc_html_a7b9e2c12c6a461c93afb197bd1a93c8f"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a7b9e2c12c6a461c93afb197bd1a93c8f">CSQC_UpdateView</a></div><div class="ttdeci">void CSQC_UpdateView(entity this, float w, float h)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01635">view.qc:1635</a></div></div>
+<div class="ttc" id="view_8qc_html_a7b9e2c12c6a461c93afb197bd1a93c8f"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a7b9e2c12c6a461c93afb197bd1a93c8f">CSQC_UpdateView</a></div><div class="ttdeci">void CSQC_UpdateView(entity this, float w, float h)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01627">view.qc:1627</a></div></div>
 <div class="ttc" id="accumulate_8qh_html"><div class="ttname"><a href="../../de/d68/accumulate_8qh.html">accumulate.qh</a></div></div>
 <div class="ttc" id="pre_8qh_html"><div class="ttname"><a href="../../d2/d77/pre_8qh.html">pre.qh</a></div></div>
 <div class="ttc" id="menu_8qc_html_a2302a361845bfd3437200633ffaf6c5d"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a2302a361845bfd3437200633ffaf6c5d">m_init</a></div><div class="ttdeci">void m_init()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00056">menu.qc:56</a></div></div>
@@ -534,7 +534,7 @@ $(document).ready(function(){initNavTree('d4/dfb/lib_2__all_8inc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html">_all.inc</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:44 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:17:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

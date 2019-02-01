@@ -215,7 +215,7 @@ $(document).ready(function(){initNavTree('da/df4/announcer_8qc_source.html','../
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="../../da/df4/announcer_8qc.html#add205a06b0bcf100c9346951fdabee42">previous_game_starttime</a> = startTime;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
-<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="../../da/df4/announcer_8qc.html#af849d803cb328d40fe38558b26cdb4bb">  118</a></span>&#160;<span class="preprocessor">#define ANNOUNCER_CHECKMINUTE(minute) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="../../da/df4/announcer_8qc.html#af849d803cb328d40fe38558b26cdb4bb">  118</a></span>&#160;<span class="preprocessor">#define ANNOUNCER_CHECKMINUTE(minute) MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">    if(announcer_##minute##min) { \</span></div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">        if(timeleft &gt; minute * 60) \</span></div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">            announcer_##minute##min = false; \</span></div>
@@ -225,7 +225,7 @@ $(document).ready(function(){initNavTree('da/df4/announcer_8qc_source.html','../
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor">            Local_Notification(MSG_ANNCE, ANNCE_REMAINING_MIN_##minute); \</span></div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="preprocessor">        } \</span></div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="preprocessor">    } \</span></div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor">MACRO_END</span></div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="../../da/df4/announcer_8qc.html#a208f21df98f913db80920e91f35c10b0">  130</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/df4/announcer_8qc.html#a208f21df98f913db80920e91f35c10b0">Announcer_Time</a>()</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;{</div>
@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('da/df4/announcer_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../da/df4/announcer_8qc.html">announcer.qc</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:43 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:17:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

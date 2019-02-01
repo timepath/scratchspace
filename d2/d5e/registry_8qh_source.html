@@ -170,20 +170,20 @@ $(document).ready(function(){initNavTree('d2/d5e/registry_8qh_source.html','../.
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">    ACCUMULATE_FUNCTION(_Register##registry, Register_##id) \</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">    REGISTER_INIT(id)</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496">   92</a></span>&#160;<span class="preprocessor">#define REGISTRY_PUSH(registry, fld, it) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496">   92</a></span>&#160;<span class="preprocessor">#define REGISTRY_PUSH(registry, fld, it) MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">    it.fld = registry##_COUNT; \</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">    _R_SET(_##registry, registry##_COUNT, it); \</span></div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">    ++registry##_COUNT; \</span></div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">    if (!registry##_first) registry##_first = it; \</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">    if (registry##_last)   registry##_last.REGISTRY_NEXT = it; \</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">    registry##_last = it; \</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">MACRO_END</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a130163c913e43d21eb7ffa3129847fb2">  101</a></span>&#160;<span class="preprocessor">#define REGISTRY_RESERVE(registry, fld, id, suffix) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a130163c913e43d21eb7ffa3129847fb2">  101</a></span>&#160;<span class="preprocessor">#define REGISTRY_RESERVE(registry, fld, id, suffix) MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">    entity e = new_pure(registry_reserved); \</span></div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">    e.registered_id = #id &quot;/&quot; #suffix; \</span></div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">    REGISTRY_PUSH(registry, fld, e); \</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">MACRO_END</span></div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">  107</a></span>&#160;<span class="preprocessor">#define REGISTER_INIT(id) ACCUMULATE void Register_##id##_init(entity this)</span></div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor"></span></div>
@@ -292,7 +292,7 @@ $(document).ready(function(){initNavTree('d2/d5e/registry_8qh_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d2/d5e/registry_8qh.html">registry.qh</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:47 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:17:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -178,12 +178,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { \</div>
+<b>Value:</b><div class="fragment"><div class="line">MACRO_BEGIN \</div>
 <div class="line">    pos = <a class="code" href="../../df/d21/infomessages_8qc.html#a7854c8f2dc9b65b6d10fc18b713b87c6">InfoMessages_drawstring</a>(s, pos, mySize, ((img_curr_group &gt;= 0) ? <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a> * <a class="code" href="../../df/d21/infomessages_8qc.html#af4f7c295b6f5f3c16714897baa77f312">img_fade</a>[img_curr_group] : <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>), fontsize); \</div>
-<div class="line">    img_curr_group = -1; \</div>
-<div class="line">} <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
+<div class="line">    img_curr_group = -1; <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">\</a></div>
+<div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="hud_8qh_html_a2671d9cf07f1ce849bb5d039d7f27b7e"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a></div><div class="ttdeci">float panel_fg_alpha</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00143">hud.qh:143</a></div></div>
-<div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00007">macro.qh:7</a></div></div>
 <div class="ttc" id="infomessages_8qc_html_a7854c8f2dc9b65b6d10fc18b713b87c6"><div class="ttname"><a href="../../df/d21/infomessages_8qc.html#a7854c8f2dc9b65b6d10fc18b713b87c6">InfoMessages_drawstring</a></div><div class="ttdeci">vector InfoMessages_drawstring(string s, vector pos, vector sz, float a, vector fontsize)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d21/infomessages_8qc_source.html#l00036">infomessages.qc:36</a></div></div>
 <div class="ttc" id="infomessages_8qc_html_af4f7c295b6f5f3c16714897baa77f312"><div class="ttname"><a href="../../df/d21/infomessages_8qc.html#af4f7c295b6f5f3c16714897baa77f312">img_fade</a></div><div class="ttdeci">float img_fade[IMG_COUNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d21/infomessages_8qc_source.html#l00015">infomessages.qc:15</a></div></div>
@@ -549,7 +548,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00036">36</a> of file <a class="el" href="../../df/d21/infomessages_8qc_source.html">infomessages.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/db4/client_2autocvars_8qh_source.html#l00267">autocvar_hud_panel_infomessages_flip</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a66804fbc3a76c60d59f50aa1bc4557d1">drawcolorcodedstring()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00317">DRAWFLAG_NORMAL</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eX</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00933">getWrappedLine()</a>, and <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00112">getWrappedLine_remaining</a>.</p>
+<p>References <a class="el" href="../../d7/db4/client_2autocvars_8qh_source.html#l00267">autocvar_hud_panel_infomessages_flip</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a66804fbc3a76c60d59f50aa1bc4557d1">drawcolorcodedstring()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00317">DRAWFLAG_NORMAL</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eX</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00934">getWrappedLine()</a>, and <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00112">getWrappedLine_remaining</a>.</p>
 <div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#a5f4732a3d07850ca4c4dcd2bca80c188">getWrappedLine_remaining</a> = s;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">float</span> offset = 0;</div>
@@ -570,7 +569,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_a66804fbc3a76c60d59f50aa1bc4557d1"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a66804fbc3a76c60d59f50aa1bc4557d1">drawcolorcodedstring</a></div><div class="ttdeci">float drawcolorcodedstring(vector position, string text, vector scale, float alpha, float flag)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a0b04e01c228e625bb2627bee15484910"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a></div><div class="ttdeci">const float DRAWFLAG_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00317">csprogsdefs.qc:317</a></div></div>
 <div class="ttc" id="vector_8qh_html_adce3aade2f97ac6fb4688fe0a7005d27"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a></div><div class="ttdeci">const vector eX</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00045">vector.qh:45</a></div></div>
-<div class="ttc" id="common_2util_8qc_html_af7c603246e2964761664e6a53904ba61"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#af7c603246e2964761664e6a53904ba61">getWrappedLine</a></div><div class="ttdeci">string getWrappedLine(float w, vector theFontSize, textLengthUpToWidth_widthFunction_t tw)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00933">util.qc:933</a></div></div>
+<div class="ttc" id="common_2util_8qc_html_af7c603246e2964761664e6a53904ba61"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#af7c603246e2964761664e6a53904ba61">getWrappedLine</a></div><div class="ttdeci">string getWrappedLine(float w, vector theFontSize, textLengthUpToWidth_widthFunction_t tw)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00934">util.qc:934</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -701,7 +700,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../df/d21/infomessages_8qc.html">infomessages.qc</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:49 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:18:00 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -181,13 +181,13 @@ $(document).ready(function(){initNavTree('db/d0a/oo_8qh_source.html','../../');}
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;.void(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>) dtor;</div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="../../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f">   78</a></span>&#160;<span class="preprocessor">#define delete(this) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="../../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f">   78</a></span>&#160;<span class="preprocessor">#define delete(this) MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">    entity _this = (this); \</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">    void(entity) _dtor = _this.dtor; \</span></div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">    ONREMOVE(this); \</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">    if (_dtor) _dtor(_this); else delete_fn(_this); \</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">    </span><span class="comment">/* this = NULL; */</span><span class="preprocessor">  \</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">MACRO_END</span></div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="../../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996">   86</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996">_clearentity_ent</a>;</div>
 <div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="../../db/d0a/oo_8qh.html#ad312499c578788933fd022f7249ab698">   87</a></span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#ad312499c578788933fd022f7249ab698">STATIC_INIT</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a4d8e141e1e8e506c1776f2082858e1c5">clearentity</a>)</div>
@@ -494,7 +494,7 @@ $(document).ready(function(){initNavTree('db/d0a/oo_8qh_source.html','../../');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../db/d0a/oo_8qh.html">oo.qh</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:47 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:17:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

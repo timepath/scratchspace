@@ -146,7 +146,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="../../d0/df5/sound_8qh_source.html#l00120">120</a> of file <a class="el" href="../../d0/df5/sound_8qh_source.html">sound.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/df5/sound_8qh_source.html#l00118">118</a> of file <a class="el" href="../../d0/df5/sound_8qh_source.html">sound.qh</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a3ed2cad33866839887c319ee5c10dd67"></a>
 <div class="memitem">
@@ -170,15 +170,15 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/df5/sound_8qh_source.html#l00124">124</a> of file <a class="el" href="../../d0/df5/sound_8qh_source.html">sound.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/df5/sound_8qh_source.html#l00122">122</a> of file <a class="el" href="../../d0/df5/sound_8qh_source.html">sound.qh</a>.</p>
 
 <p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00117">CONSTRUCT</a>.</p>
-<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    {</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(<a class="code" href="../../df/d49/classSound.html">Sound</a>);</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        this.sound_str = path;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(<a class="code" href="../../df/d49/classSound.html">Sound</a>);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        this.sound_str = path;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
 <div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00117">oo.qh:117</a></div></div>
-<div class="ttc" id="classSound_html"><div class="ttname"><a href="../../df/d49/classSound.html">Sound</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00120">sound.qh:120</a></div></div>
+<div class="ttc" id="classSound_html"><div class="ttname"><a href="../../df/d49/classSound.html">Sound</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00118">sound.qh:118</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -268,23 +268,23 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/df5/sound_8qh_source.html#l00129">129</a> of file <a class="el" href="../../d0/df5/sound_8qh_source.html">sound.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/df5/sound_8qh_source.html#l00127">127</a> of file <a class="el" href="../../d0/df5/sound_8qh_source.html">sound.qh</a>.</p>
 
-<p>References <a class="el" href="../../d0/df5/sound_8qh_source.html#l00095">_Sound_fixpath()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound()</a>, <a class="el" href="../../d4/d1a/static_8qh_source.html#l00011">profile()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00049">strcpy</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00082">TC</a>.</p>
-<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    {</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../df/d49/classSound.html">Sound</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordtype">string</span> s = <a class="code" href="../../d0/df5/sound_8qh.html#ac9b429b7924cfc7d494968e1f72b2b4d">_Sound_fixpath</a>(this.sound_str());</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">if</span> (!s) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <a class="code" href="../../d4/d1a/static_8qh.html#a48a305b3b9baa8868a26fd3dc4daa51f">profile</a>(sprintf(<span class="stringliteral">&quot;precache_sound(\&quot;%s\&quot;)&quot;</span>, s));</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a>(s);</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <a class="code" href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a>(this.sound_str_, s);</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    }</div>
-<div class="ttc" id="sound_8qh_html_ac9b429b7924cfc7d494968e1f72b2b4d"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#ac9b429b7924cfc7d494968e1f72b2b4d">_Sound_fixpath</a></div><div class="ttdeci">string _Sound_fixpath(string base)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00095">sound.qh:95</a></div></div>
+<p>References <a class="el" href="../../d0/df5/sound_8qh_source.html#l00093">_Sound_fixpath()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound()</a>, <a class="el" href="../../d4/d1a/static_8qh_source.html#l00011">profile()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00049">strcpy</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00082">TC</a>.</p>
+<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../df/d49/classSound.html">Sound</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="keywordtype">string</span> s = <a class="code" href="../../d0/df5/sound_8qh.html#ac9b429b7924cfc7d494968e1f72b2b4d">_Sound_fixpath</a>(this.sound_str());</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordflow">if</span> (!s) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <a class="code" href="../../d4/d1a/static_8qh.html#a48a305b3b9baa8868a26fd3dc4daa51f">profile</a>(sprintf(<span class="stringliteral">&quot;precache_sound(\&quot;%s\&quot;)&quot;</span>, s));</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a>(s);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <a class="code" href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a>(this.sound_str_, s);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    }</div>
+<div class="ttc" id="sound_8qh_html_ac9b429b7924cfc7d494968e1f72b2b4d"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#ac9b429b7924cfc7d494968e1f72b2b4d">_Sound_fixpath</a></div><div class="ttdeci">string _Sound_fixpath(string base)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00093">sound.qh:93</a></div></div>
 <div class="ttc" id="static_8qh_html_a48a305b3b9baa8868a26fd3dc4daa51f"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a48a305b3b9baa8868a26fd3dc4daa51f">profile</a></div><div class="ttdeci">ERASEABLE void profile(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00011">static.qh:11</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a9a82a4d363a39e85151eaec7a4f8dae2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a></div><div class="ttdeci">string precache_sound(string sample)</div></div>
 <div class="ttc" id="string_8qh_html_a9911c5e0b0c9ecae050a2193eb6c2af5"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a></div><div class="ttdeci">#define strcpy(this, s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00049">string.qh:49</a></div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00082">_all.inc:82</a></div></div>
-<div class="ttc" id="classSound_html"><div class="ttname"><a href="../../df/d49/classSound.html">Sound</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00120">sound.qh:120</a></div></div>
+<div class="ttc" id="classSound_html"><div class="ttname"><a href="../../df/d49/classSound.html">Sound</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00118">sound.qh:118</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -309,7 +309,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/df5/sound_8qh_source.html#l00121">121</a> of file <a class="el" href="../../d0/df5/sound_8qh_source.html">sound.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/df5/sound_8qh_source.html#l00119">119</a> of file <a class="el" href="../../d0/df5/sound_8qh_source.html">sound.qh</a>.</p>
 
 </div>
 </div>
@@ -322,7 +322,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d49/classSound.html">Sound</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:06:05 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:18:16 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

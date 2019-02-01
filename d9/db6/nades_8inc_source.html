@@ -106,10 +106,10 @@ $(document).ready(function(){initNavTree('d9/db6/nades_8inc_source.html','../../
 </div><!--header-->
 <div class="contents">
 <a href="../../d9/db6/nades_8inc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define NADE_PROJECTILE(i, projectile, trail) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define NADE_PROJECTILE(i, projectile, trail) MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">    this.m_projectile[i] = projectile; \</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">    this.m_trail[i] = trail; \</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">MACRO_END</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d9/db6/nades_8inc.html#a58ed3c5c8df7c5b1fae0fce5ea88b5e2">    7</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define NADE_PROJECTILE(i, projectile, trail)</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
@@ -210,7 +210,7 @@ $(document).ready(function(){initNavTree('d9/db6/nades_8inc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_17ef1929f5ae280d86dfb12dff4430d9.html">nades</a></li><li class="navelem"><a class="el" href="../../d9/db6/nades_8inc.html">nades.inc</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:46 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:17:56 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

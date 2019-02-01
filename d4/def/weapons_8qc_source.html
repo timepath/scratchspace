@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('d4/def/weapons_8qc_source.html','../..
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> aj - ai; <span class="comment">// the string is in REVERSE order (higher prio at the right is what we want, but higher prio first is the string)</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../d4/def/weapons_8qc.html#a3e043e62296dd243ac34238acbe48b54">   29</a></span>&#160;<span class="preprocessor">#define HUD_WEAPONS_GET_FULL_LAYOUT() MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../d4/def/weapons_8qc.html#a3e043e62296dd243ac34238acbe48b54">   29</a></span>&#160;<span class="preprocessor">#define HUD_WEAPONS_GET_FULL_LAYOUT() MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">    int nHidden = 0; \</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">    FOREACH(Weapons, it != WEP_Null, { \</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">        if (weapons_stat &amp; WepSet_FromWeapon(it)) continue; \</span></div>
@@ -144,7 +144,7 @@ $(document).ready(function(){initNavTree('d4/def/weapons_8qc_source.html','../..
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">    rows = table_size.y; \</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">    weapon_size.x = panel_size.x / columns; \</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">    weapon_size.y = panel_size.y / rows; \</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">MACRO_END</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../d4/def/weapons_8qc.html#ab7c3acfa47aaf4f25f4775921b6be5ae">   42</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/def/weapons_8qc.html#ab7c3acfa47aaf4f25f4775921b6be5ae">HUD_Weapons</a>()</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
@@ -805,7 +805,7 @@ $(document).ready(function(){initNavTree('d4/def/weapons_8qc_source.html','../..
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="effectinfo__ctf_8inc_html_a73709cb0008f2faa193bce8415f41a95"><div class="ttname"><a href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a></div><div class="ttdeci">#define pass(name, colormin, colormax)</div></div>
 <div class="ttc" id="client_2defs_8qh_html"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html">defs.qh</a></div></div>
-<div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
+<div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00019">iter.qh:19</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a65fcee980f5a018b481188a84ead405f"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a></div><div class="ttdeci">vector stov(string s)</div></div>
 <div class="ttc" id="weapons_8qc_html_ab7c3acfa47aaf4f25f4775921b6be5ae"><div class="ttname"><a href="../../d4/def/weapons_8qc.html#ab7c3acfa47aaf4f25f4775921b6be5ae">HUD_Weapons</a></div><div class="ttdeci">void HUD_Weapons()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/def/weapons_8qc_source.html#l00042">weapons.qc:42</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a5cf71a27ac7ef66fc94f756d6762302b"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a5cf71a27ac7ef66fc94f756d6762302b">autocvar_hud_panel_weapons_aspect</a></div><div class="ttdeci">float autocvar_hud_panel_weapons_aspect</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00337">autocvars.qh:337</a></div></div>
@@ -824,7 +824,7 @@ $(document).ready(function(){initNavTree('d4/def/weapons_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d4/def/weapons_8qc.html">weapons.qc</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:44 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:17:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

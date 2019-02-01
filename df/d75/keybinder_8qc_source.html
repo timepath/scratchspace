@@ -125,13 +125,13 @@ $(document).ready(function(){initNavTree('df/d75/keybinder_8qc_source.html','../
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../df/d75/keybinder_8qc.html#addd8449b1115873ac6cc36031e1d41e4">Xonotic_KeyBinds_Count</a> = 0;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">    #define KEYBIND_DEF(func, desc) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">    #define KEYBIND_DEF(func, desc) MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">        if((Xonotic_KeyBinds_Count &lt; MAX_KEYBINDS)) { \</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">            Xonotic_KeyBinds_Functions[Xonotic_KeyBinds_Count] = strzone(func); \</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">            Xonotic_KeyBinds_Descriptions[Xonotic_KeyBinds_Count] = strzone(desc); \</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">            ++Xonotic_KeyBinds_Count; \</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">        } \</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">    MACRO_END</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../df/d75/keybinder_8qc.html#aee7e1ce8b7d8a2c1713f59f6be6d423e">KEYBIND_DEF</a>(<span class="stringliteral">&quot;&quot;</span>                                      , _(<span class="stringliteral">&quot;Moving&quot;</span>));</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../df/d75/keybinder_8qc.html#aee7e1ce8b7d8a2c1713f59f6be6d423e">KEYBIND_DEF</a>(<span class="stringliteral">&quot;+forward&quot;</span>                              , _(<span class="stringliteral">&quot;forward&quot;</span>));</div>
@@ -596,7 +596,7 @@ $(document).ready(function(){initNavTree('df/d75/keybinder_8qc_source.html','../
 <div class="ttc" id="keybinder_8qc_html_a8d951d6525e6ce2093c502661291acf9"><div class="ttname"><a href="../../df/d75/keybinder_8qc.html#a8d951d6525e6ce2093c502661291acf9">XonoticKeyBinder_doubleClickListBoxItem</a></div><div class="ttdeci">void XonoticKeyBinder_doubleClickListBoxItem(entity me, float i, vector where)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d75/keybinder_8qc_source.html#l00325">keybinder.qc:325</a></div></div>
 <div class="ttc" id="keybinder_8qc_html_a16e4d3a58129392375657f4c01119fca"><div class="ttname"><a href="../../df/d75/keybinder_8qc.html#a16e4d3a58129392375657f4c01119fca">XonoticKeyBinder_loadKeyBinds</a></div><div class="ttdeci">void XonoticKeyBinder_loadKeyBinds(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d75/keybinder_8qc_source.html#l00157">keybinder.qc:157</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
-<div class="ttc" id="menu_8qc_html_a0839df76702206b09937c44849bbe9f9"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9">m_play_click_sound</a></div><div class="ttdeci">void m_play_click_sound(string soundfile)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00991">menu.qc:991</a></div></div>
+<div class="ttc" id="menu_8qc_html_a0839df76702206b09937c44849bbe9f9"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9">m_play_click_sound</a></div><div class="ttdeci">void m_play_click_sound(string soundfile)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00992">menu.qc:992</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
 <div class="ttc" id="keybinder_8qc_html_ab0947edc01b04773d3a03c7e3dda2fb0"><div class="ttname"><a href="../../df/d75/keybinder_8qc.html#ab0947edc01b04773d3a03c7e3dda2fb0">makeXonoticKeyBinder</a></div><div class="ttdeci">entity makeXonoticKeyBinder()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d75/keybinder_8qc_source.html#l00119">keybinder.qc:119</a></div></div>
 <div class="ttc" id="keybinder_8qc_html_addd8449b1115873ac6cc36031e1d41e4"><div class="ttname"><a href="../../df/d75/keybinder_8qc.html#addd8449b1115873ac6cc36031e1d41e4">Xonotic_KeyBinds_Count</a></div><div class="ttdeci">int Xonotic_KeyBinds_Count</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d75/keybinder_8qc_source.html#l00015">keybinder.qc:15</a></div></div>
@@ -635,7 +635,7 @@ $(document).ready(function(){initNavTree('df/d75/keybinder_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../df/d75/keybinder_8qc.html">keybinder.qc</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:47 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:17:58 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

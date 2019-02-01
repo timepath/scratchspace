@@ -115,59 +115,57 @@ $(document).ready(function(){initNavTree('db/def/sort_8qh_source.html','../../')
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">    #define heapify(_count) \</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">        MACRO_BEGIN \</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">        { \</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">            for (int start = floor(((_count) - 2) / 2); start &gt;= 0; --start) \</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">            { \</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">                siftdown(start, (_count) - 1); \</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">            } \</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">    #define siftdown(_start, _end) \</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">        MACRO_BEGIN \</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">        { \</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">            for (int root = (_start); root * 2 + 1 &lt;= (_end); ) \</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">            { \</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">                int child = root * 2 + 1; \</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">                if (child &lt; (_end) &amp;&amp; cmp(child, child + 1, pass) &lt; 0) child += 1; \</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">                if (cmp(root, child, pass) &gt;= 0) break; \</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">                swap(root, child, pass); \</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">                root = child; \</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">            } \</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../db/def/sort_8qh.html#adbcf7bdce2adadeafd5773ee731de221">heapify</a>(n);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">int</span> end = n - 1;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">while</span> (end &gt; 0)</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        swap(0, end, pass);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        end -= 1;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../db/def/sort_8qh.html#a3ddcb3e4e37b9c578711255f911c582b">siftdown</a>(0, end);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<a class="code" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a></div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../db/def/sort_8qh.html#a5663a1e21360de2743b86ce2179eb1ca">   44</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/def/sort_8qh.html#a5663a1e21360de2743b86ce2179eb1ca">shuffle</a>(<span class="keywordtype">float</span> n, <a class="code" href="../../db/def/sort_8qh.html#ad8f0562632e6f98768f7b9201e0fe51e">swapfunc_t</a> swap, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a>)</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; n; ++i)</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">// swap i-th item at a random position from 0 to i</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="comment">// proof for even distribution:</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="comment">//   n = 1: obvious</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="comment">//   n -&gt; n+1:</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">//     item n+1 gets at any position with chance 1/(n+1)</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="comment">//     all others will get their 1/n chance reduced by factor n/(n+1)</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="comment">//     to be on place n+1, their chance will be 1/(n+1)</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">//     1/n * n/(n+1) = 1/(n+1)</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="comment">//     q.e.d.</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordtype">int</span> j = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * (i + 1));</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">if</span> (j != i) swap(j, i, pass);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">            for (int start = floor(((_count) - 2) / 2); start &gt;= 0; --start) \</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">            { \</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">                siftdown(start, (_count) - 1); \</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">            } \</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">        MACRO_END</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">    #define siftdown(_start, _end) \</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">        MACRO_BEGIN \</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">            for (int root = (_start); root * 2 + 1 &lt;= (_end); ) \</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">            { \</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">                int child = root * 2 + 1; \</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">                if (child &lt; (_end) &amp;&amp; cmp(child, child + 1, pass) &lt; 0) child += 1; \</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">                if (cmp(root, child, pass) &gt;= 0) break; \</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">                swap(root, child, pass); \</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">                root = child; \</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">            } \</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">        MACRO_END</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../db/def/sort_8qh.html#adbcf7bdce2adadeafd5773ee731de221">heapify</a>(n);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">int</span> end = n - 1;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">while</span> (end &gt; 0)</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        swap(0, end, pass);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        end -= 1;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="../../db/def/sort_8qh.html#a3ddcb3e4e37b9c578711255f911c582b">siftdown</a>(0, end);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<a class="code" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a></div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../db/def/sort_8qh.html#a5663a1e21360de2743b86ce2179eb1ca">   42</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/def/sort_8qh.html#a5663a1e21360de2743b86ce2179eb1ca">shuffle</a>(<span class="keywordtype">float</span> n, <a class="code" href="../../db/def/sort_8qh.html#ad8f0562632e6f98768f7b9201e0fe51e">swapfunc_t</a> swap, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a>)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; n; ++i)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="comment">// swap i-th item at a random position from 0 to i</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="comment">// proof for even distribution:</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">//   n = 1: obvious</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="comment">//   n -&gt; n+1:</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="comment">//     item n+1 gets at any position with chance 1/(n+1)</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="comment">//     all others will get their 1/n chance reduced by factor n/(n+1)</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">//     to be on place n+1, their chance will be 1/(n+1)</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="comment">//     1/n * n/(n+1) = 1/(n+1)</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="comment">//     q.e.d.</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordtype">int</span> j = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * (i + 1));</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">if</span> (j != i) swap(j, i, pass);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
 <div class="ttc" id="sort_8qh_html_acfadea3ab4515517029f36ef3dccb9a2"><div class="ttname"><a href="../../db/def/sort_8qh.html#acfadea3ab4515517029f36ef3dccb9a2">comparefunc_t</a></div><div class="ttdeci">int(int i1, int i2, entity pass) comparefunc_t</div><div class="ttdoc">&lt;0 for &lt;, ==0 for ==, &gt;0 for &gt; (like strcmp) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/def/sort_8qh_source.html#l00006">sort.qh:6</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="sort_8qh_html_a819f1c3300f552419896b2c53088c05c"><div class="ttname"><a href="../../db/def/sort_8qh.html#a819f1c3300f552419896b2c53088c05c">heapsort</a></div><div class="ttdeci">ERASEABLE void heapsort(int n, swapfunc_t swap, comparefunc_t cmp, entity pass)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/def/sort_8qh_source.html#l00009">sort.qh:9</a></div></div>
 <div class="ttc" id="lib_2__all_8inc_html_a36a5d653a73a8e98a048122d18aac121"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a></div><div class="ttdeci">#define ERASEABLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00035">_all.inc:35</a></div></div>
-<div class="ttc" id="sort_8qh_html_a5663a1e21360de2743b86ce2179eb1ca"><div class="ttname"><a href="../../db/def/sort_8qh.html#a5663a1e21360de2743b86ce2179eb1ca">shuffle</a></div><div class="ttdeci">ERASEABLE void shuffle(float n, swapfunc_t swap, entity pass)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/def/sort_8qh_source.html#l00044">sort.qh:44</a></div></div>
+<div class="ttc" id="sort_8qh_html_a5663a1e21360de2743b86ce2179eb1ca"><div class="ttname"><a href="../../db/def/sort_8qh.html#a5663a1e21360de2743b86ce2179eb1ca">shuffle</a></div><div class="ttdeci">ERASEABLE void shuffle(float n, swapfunc_t swap, entity pass)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/def/sort_8qh_source.html#l00042">sort.qh:42</a></div></div>
 <div class="ttc" id="sort_8qh_html_a3ddcb3e4e37b9c578711255f911c582b"><div class="ttname"><a href="../../db/def/sort_8qh.html#a3ddcb3e4e37b9c578711255f911c582b">siftdown</a></div><div class="ttdeci">#define siftdown(_start, _end)</div></div>
 <div class="ttc" id="sort_8qh_html_ad8f0562632e6f98768f7b9201e0fe51e"><div class="ttname"><a href="../../db/def/sort_8qh.html#ad8f0562632e6f98768f7b9201e0fe51e">swapfunc_t</a></div><div class="ttdeci">void(int i1, int i2, entity pass) swapfunc_t</div><div class="ttdoc">is only ever called for i1 &lt; i2 </div><div class="ttdef"><b>Definition:</b> <a href="../../db/def/sort_8qh_source.html#l00004">sort.qh:4</a></div></div>
 <div class="ttc" id="sort_8qh_html_adbcf7bdce2adadeafd5773ee731de221"><div class="ttname"><a href="../../db/def/sort_8qh.html#adbcf7bdce2adadeafd5773ee731de221">heapify</a></div><div class="ttdeci">#define heapify(_count)</div></div>
@@ -181,7 +179,7 @@ $(document).ready(function(){initNavTree('db/def/sort_8qh_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../db/def/sort_8qh.html">sort.qh</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:47 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:17:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

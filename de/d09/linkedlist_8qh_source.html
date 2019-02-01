@@ -150,39 +150,36 @@ $(document).ready(function(){initNavTree('de/d09/linkedlist_8qh_source.html','..
 <div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="../../de/d09/linkedlist_8qh.html#ad7288ed22aca7a8878a40423e7ba62e1">   49</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LL_CLEAR_1(this) LL_CLEAR_2(this, LAMBDA())</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../de/d09/linkedlist_8qh.html#acd06e79f63713052c4524c26942ca23d">   50</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LL_CLEAR_2(this, dtor) \</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">    MACRO_BEGIN \</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">    { \</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">        LinkedList _ll = this; \</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">        assert(_ll); \</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">        while (_ll.ll_tail) \</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">        { \</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">            entity it = LL_POP(_ll); \</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">            if (!it) continue; \</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">            dtor \</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">            delete(it); \</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">        } \</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="../../de/d09/linkedlist_8qh.html#a08e4d23cbcd37a4f692e83dd58acf874">   64</a></span>&#160;<span class="preprocessor">#define LL_DELETE(...) EVAL_LL_DELETE(OVERLOAD(LL_DELETE, __VA_ARGS__))</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="../../de/d09/linkedlist_8qh.html#aba68dac02d2aa7fea2c34beda839b108">   65</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define EVAL_LL_DELETE(...) __VA_ARGS__</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="../../de/d09/linkedlist_8qh.html#aabcd34bd83546d80452d9af104864f3e">   66</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LL_DELETE_1(this) LL_DELETE_2(this, LAMBDA())</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="../../de/d09/linkedlist_8qh.html#a678dda6863e659830db0b5e6b5a0d69b">   67</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LL_DELETE_2(this, dtor) \</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">    MACRO_BEGIN \</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">    { \</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">        LL_CLEAR_2(this, dtor); \</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">        delete(this); \</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">        this = NULL; \</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../de/d09/linkedlist_8qh.html#accc6c5d3ab06c26b8e5408db31cf0247">   75</a></span>&#160;<span class="preprocessor">#define LL_EACH(list, cond, body) \</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">    MACRO_BEGIN                                                         \</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">    {                                                                   \</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">        noref int i = 0;                                                \</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">        for (entity _it = list.ll_head; _it; (_it = _it.ll_next, ++i))  \</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">        {                                                               \</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">            ITER_CONST noref entity it = _it.ll_data;                   \</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">            if (cond) { body }                                          \</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">        }                                                               \</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">        LinkedList _ll = this; \</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">        assert(_ll); \</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">        while (_ll.ll_tail) \</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">        { \</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">            entity it = LL_POP(_ll); \</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">            if (!it) continue; \</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">            dtor \</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">            delete(it); \</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">        } \</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">    MACRO_END</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="../../de/d09/linkedlist_8qh.html#a08e4d23cbcd37a4f692e83dd58acf874">   63</a></span>&#160;<span class="preprocessor">#define LL_DELETE(...) EVAL_LL_DELETE(OVERLOAD(LL_DELETE, __VA_ARGS__))</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="../../de/d09/linkedlist_8qh.html#aba68dac02d2aa7fea2c34beda839b108">   64</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define EVAL_LL_DELETE(...) __VA_ARGS__</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="../../de/d09/linkedlist_8qh.html#aabcd34bd83546d80452d9af104864f3e">   65</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LL_DELETE_1(this) LL_DELETE_2(this, LAMBDA())</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="../../de/d09/linkedlist_8qh.html#a678dda6863e659830db0b5e6b5a0d69b">   66</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LL_DELETE_2(this, dtor) \</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">    MACRO_BEGIN \</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">        LL_CLEAR_2(this, dtor); \</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">        delete(this); \</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">        this = NULL; \</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">    MACRO_END</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="../../de/d09/linkedlist_8qh.html#accc6c5d3ab06c26b8e5408db31cf0247">   73</a></span>&#160;<span class="preprocessor">#define LL_EACH(list, cond, body) \</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">    MACRO_BEGIN                                                         \</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">        noref int i = 0;                                                \</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">        for (entity _it = list.ll_head; _it; (_it = _it.ll_next, ++i))  \</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">        {                                                               \</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">            ITER_CONST noref entity it = _it.ll_data;                   \</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">            if (cond) { body }                                          \</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">        }                                                               \</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">    MACRO_END</span></div>
 <div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div></div>
 <div class="ttc" id="log_8qh_html_a98b360dc9fac616757f41f728705e8e0"><div class="ttname"><a href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a></div><div class="ttdeci">#define assert(expr,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00005">log.qh:5</a></div></div>
 <div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00111">oo.qh:111</a></div></div>
@@ -202,7 +199,7 @@ $(document).ready(function(){initNavTree('de/d09/linkedlist_8qh_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../de/d09/linkedlist_8qh.html">linkedlist.qh</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:47 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:17:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

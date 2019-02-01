@@ -179,16 +179,16 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">    #define addstat_int(id, fld) addstat(id, AS_INT, fld)</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define addstat_bool(id, fld) addstat(id, AS_INT, fld)</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define addstat_float(id, fld) addstat(id, AS_FLOAT, fld)</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define addstat_vector(id, fld) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define addstat_vector(id, fld) MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">        addstat_float(id + 0, fld##_x); \</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">        addstat_float(id + 1, fld##_y); \</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">        addstat_float(id + 2, fld##_z); \</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define addstat_vectori(id, fld) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">    MACRO_END</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define addstat_vectori(id, fld) MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">        addstat_int(id + 0, fld##_x); \</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">        addstat_int(id + 1, fld##_y); \</span></div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">        addstat_int(id + 2, fld##_z); \</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">    MACRO_END</span></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor"></span>    <span class="keyword">const</span> <span class="keywordtype">int</span> AS_STRING = 1;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> AS_INT = 2;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> AS_FLOAT = 8;</div>
@@ -263,14 +263,14 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div class="ttc" id="registry_8qh_html"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html">registry.qh</a></div></div>
 <div class="ttc" id="lib_2stats_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/lib_2stats_8qh_source.html#l00008">stats.qh:8</a></div></div>
 <div class="ttc" id="lib_2__all_8inc_html_abe8eb52fc5e52351ecda2a477108abed"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#abe8eb52fc5e52351ecda2a477108abed">USING</a></div><div class="ttdeci">#define USING(name, T)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00072">_all.inc:72</a></div></div>
-<div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
+<div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00019">iter.qh:19</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d0/ddd/lib_2stats_8qh.html">stats.qh</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:46 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:17:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

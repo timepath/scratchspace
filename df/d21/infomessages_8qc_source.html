@@ -157,10 +157,10 @@ $(document).ready(function(){initNavTree('df/d21/infomessages_8qc_source.html','
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">return</span> pos;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../df/d21/infomessages_8qc.html#af23bd3d7f1b2f4092741c44d01402a2d">   53</a></span>&#160;<span class="preprocessor">#define InfoMessage(s) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../df/d21/infomessages_8qc.html#af23bd3d7f1b2f4092741c44d01402a2d">   53</a></span>&#160;<span class="preprocessor">#define InfoMessage(s) MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">    pos = InfoMessages_drawstring(s, pos, mySize, ((img_curr_group &gt;= 0) ? panel_fg_alpha * img_fade[img_curr_group] : panel_fg_alpha), fontsize); \</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">    img_curr_group = -1; \</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">MACRO_END</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="../../df/d21/infomessages_8qc.html#a34ab7f0b1f8fc8af94288e83c3f42798">   58</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../df/d21/infomessages_8qc.html#a34ab7f0b1f8fc8af94288e83c3f42798">HUD_InfoMessages</a>()</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{</div>
@@ -392,7 +392,7 @@ $(document).ready(function(){initNavTree('df/d21/infomessages_8qc_source.html','
 <div class="ttc" id="hud_8qh_html_ab6ffdccb0d8f0e1a965c08b45cb3eee9"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#ab6ffdccb0d8f0e1a965c08b45cb3eee9">ps_primary</a></div><div class="ttdeci">PlayerScoreField ps_primary</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00093">hud.qh:93</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
 <div class="ttc" id="client_2miscfunctions_8qc_html_ab1762d75cc18535fa62c519ff652e0c9"><div class="ttname"><a href="../../dc/d98/client_2miscfunctions_8qc.html#ab1762d75cc18535fa62c519ff652e0c9">GetTeam</a></div><div class="ttdeci">entity GetTeam(int Team, bool add)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00122">miscfunctions.qc:122</a></div></div>
-<div class="ttc" id="common_2util_8qc_html_af7c603246e2964761664e6a53904ba61"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#af7c603246e2964761664e6a53904ba61">getWrappedLine</a></div><div class="ttdeci">string getWrappedLine(float w, vector theFontSize, textLengthUpToWidth_widthFunction_t tw)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00933">util.qc:933</a></div></div>
+<div class="ttc" id="common_2util_8qc_html_af7c603246e2964761664e6a53904ba61"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#af7c603246e2964761664e6a53904ba61">getWrappedLine</a></div><div class="ttdeci">string getWrappedLine(float w, vector theFontSize, textLengthUpToWidth_widthFunction_t tw)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00934">util.qc:934</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a4f69572558cdff43ae69b93ee3e0a8f8"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4f69572558cdff43ae69b93ee3e0a8f8">spectatorlist</a></div><div class="ttdeci">int spectatorlist[MAX_SPECTATORS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00117">main.qh:117</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a58ed33525b1e1a9e60f989f03f488503"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a58ed33525b1e1a9e60f989f03f488503">player_localnum</a></div><div class="ttdeci">float player_localnum</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00020">csprogsdefs.qc:20</a></div></div>
@@ -404,7 +404,7 @@ $(document).ready(function(){initNavTree('df/d21/infomessages_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../df/d21/infomessages_8qc.html">infomessages.qc</a></li>
-    <li class="footer">Generated on Fri Feb 1 2019 16:05:44 for Xonotic by
+    <li class="footer">Generated on Fri Feb 1 2019 23:17:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
