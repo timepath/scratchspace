@@ -1,8 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"d5/d8e/container_8qh.html":[2,0,5,2,9],
-"d5/d8e/container_8qh.html#a1b051b2ab8116af77c757eb6139bf646":[2,0,5,2,9,1],
-"d5/d8e/container_8qh.html#a1d72ffa0887b6d488078d724449d0126":[2,0,5,2,9,11],
 "d5/d8e/container_8qh.html#a333510eb3e695bd259d836d9b3879bf3":[2,0,5,2,9,9],
 "d5/d8e/container_8qh.html#a5a67a6cc12ea3bac4da3e8149e0818a6":[2,0,5,2,9,4],
 "d5/d8e/container_8qh.html#a6b3f19654611fb035d1163d4996095fa":[2,0,5,2,9,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX49 =
 "d5/da7/dialog__hudpanel__chat_8qc.html#a97bba5cf1e62015d82292c0d6efccf42":[2,0,5,4,48,0],
 "d5/da7/dialog__hudpanel__chat_8qc_source.html":[2,0,5,4,48],
 "d5/daa/vortex_8qh.html":[2,0,1,16,0,41],
-"d5/daa/vortex_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,41,1]
+"d5/daa/vortex_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,41,1],
+"d5/daa/vortex_8qh.html#ad9ec0d37a2dafc0ca6030e77ef81f3c4":[2,0,1,16,0,41,2],
+"d5/daa/vortex_8qh_source.html":[2,0,1,16,0,41],
+"d5/dab/dialog__settings__game_8qh.html":[2,0,5,4,125]
 };

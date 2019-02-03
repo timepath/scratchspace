@@ -1,7 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"d4/d3f/tracing_8qh.html#a9b83ae72305e6981aae3a78f1f75a13d":[2,0,6,5,17,14],
-"d4/d3f/tracing_8qh.html#a9dc2f25f30700871705fee7741649471":[2,0,6,5,17,1],
 "d4/d3f/tracing_8qh.html#ac1d4ea33014c2b30492e5b1679ca6b2e":[2,0,6,5,17,4],
 "d4/d3f/tracing_8qh.html#aced556a90ea3cc9950877ff32ba08566":[2,0,6,5,17,26],
 "d4/d3f/tracing_8qh.html#adb01a7fe8a972f768dac9c50fcd5911b":[2,0,6,5,17,21],
@@ -249,5 +247,7 @@ var NAVTREEINDEX38 =
 "d4/d56/classHunterKillerAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,54,30],
 "d4/d56/classHunterKillerAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,54,5],
 "d4/d56/classHunterKillerAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,54,7],
-"d4/d56/classHunterKillerAttack.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,54,25]
+"d4/d56/classHunterKillerAttack.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,54,25],
+"d4/d56/classHunterKillerAttack.html#aa0a5f1de6ba7228907295012902a136a":[1,0,54,32],
+"d4/d56/classHunterKillerAttack.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,54,14]
 };

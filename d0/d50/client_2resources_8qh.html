@@ -145,9 +145,6 @@ Functions</h2></td></tr>
 <tr class="memitem:aeb1e1a4f093400cfefbf59332798a93d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d50/client_2resources_8qh.html#aeb1e1a4f093400cfefbf59332798a93d">SetResourceAmount</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> e, <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> resource_type, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> amount)</td></tr>
 <tr class="memdesc:aeb1e1a4f093400cfefbf59332798a93d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current amount of resource the given entity will have.  <a href="#aeb1e1a4f093400cfefbf59332798a93d">More...</a><br/></td></tr>
 <tr class="separator:aeb1e1a4f093400cfefbf59332798a93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23a90e7288eaba490cdcc7941274f254"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d50/client_2resources_8qh.html#a23a90e7288eaba490cdcc7941274f254">SetResourceAmountExplicit</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> e, <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> resource_type, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> amount)</td></tr>
-<tr class="memdesc:a23a90e7288eaba490cdcc7941274f254"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the resource amount of an entity without calling any hooks.  <a href="#a23a90e7288eaba490cdcc7941274f254">More...</a><br/></td></tr>
-<tr class="separator:a23a90e7288eaba490cdcc7941274f254"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94703297455af921f296d634ca643943"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d50/client_2resources_8qh.html#a94703297455af921f296d634ca643943">TakeResource</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> receiver, <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> resource_type, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> amount)</td></tr>
 <tr class="memdesc:a94703297455af921f296d634ca643943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes an entity some resource.  <a href="#a94703297455af921f296d634ca643943">More...</a><br/></td></tr>
 <tr class="separator:a94703297455af921f296d634ca643943"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,7 +205,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    .float resource_field = <a class="code" href="../../d8/d06/client_2resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf">GetResourceField</a>(resource_type);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> e.(resource_field);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="ttc" id="client_2resources_8qc_html_a71dd6195c49049c92fe8bd28377ea1cf"><div class="ttname"><a href="../../d8/d06/client_2resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf">GetResourceField</a></div><div class="ttdeci">float GetResourceField(int resource_type)</div><div class="ttdoc">Converts resource type (a RESOURCE_* constant) to entity field. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d06/client_2resources_8qc_source.html#l00072">resources.qc:72</a></div></div>
+<div class="ttc" id="client_2resources_8qc_html_a71dd6195c49049c92fe8bd28377ea1cf"><div class="ttname"><a href="../../d8/d06/client_2resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf">GetResourceField</a></div><div class="ttdeci">float GetResourceField(int resource_type)</div><div class="ttdoc">Converts resource type (a RESOURCE_* constant) to entity field. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d06/client_2resources_8qc_source.html#l00062">resources.qc:62</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -235,22 +232,22 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Entity field for that resource. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00072">72</a> of file <a class="el" href="../../d8/d06/client_2resources_8qc_source.html">resources.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;{</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">switch</span> (resource_type)</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a8394e59edbb08b1e4fb28fb7ea60d1cc">RESOURCE_HEALTH</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d0/d50/client_2resources_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a>; }</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a48ca02fb37a423a78b5144de8dc911a6">RESOURCE_ARMOR</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d0/d50/client_2resources_8qh.html#a8f1fedffff0fe0b96c93d099a3aa02b9">armorvalue</a>; }</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a21fb6fb8eff77e137df0cc9a2700b9e1">RESOURCE_SHELLS</a>: { <span class="keywordflow">return</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a7f0f6109cd99633e526e2a2226501332">ammo_shells</a>; }</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a6c0323d9bf18f34868b4ec5d850cf861">RESOURCE_BULLETS</a>: { <span class="keywordflow">return</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a1697c68bcf32142b7f3c86755b8a4623">ammo_nails</a>; }</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a72dadd07573e3178775d13ae32777711">RESOURCE_ROCKETS</a>: { <span class="keywordflow">return</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#acc258bdef877e65e97005690d5d4377b">ammo_rockets</a>; }</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a0115d194a8ee77f582bb43e6215f6b0b">RESOURCE_CELLS</a>: { <span class="keywordflow">return</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a6715dfac92377d87e4d0d8d138138628">ammo_cells</a>; }</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a34368e7b18e7950fcbf0799012fa45d8">RESOURCE_PLASMA</a>: { <span class="keywordflow">return</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#ac3d31d9a7ce998c3babc4632ef41907f">ammo_plasma</a>; }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a4aca57194cf9936fd939ea3f1b762766">RESOURCE_FUEL</a>: { <span class="keywordflow">return</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a56204895a2307b1195fbd09486a56651">ammo_fuel</a>; }</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;GetResourceField: Invalid resource type.&quot;</span>);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d50/client_2resources_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a>;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00062">62</a> of file <a class="el" href="../../d8/d06/client_2resources_8qc_source.html">resources.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">switch</span> (resource_type)</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a8394e59edbb08b1e4fb28fb7ea60d1cc">RESOURCE_HEALTH</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d0/d50/client_2resources_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a>; }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a48ca02fb37a423a78b5144de8dc911a6">RESOURCE_ARMOR</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d0/d50/client_2resources_8qh.html#a8f1fedffff0fe0b96c93d099a3aa02b9">armorvalue</a>; }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a21fb6fb8eff77e137df0cc9a2700b9e1">RESOURCE_SHELLS</a>: { <span class="keywordflow">return</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a7f0f6109cd99633e526e2a2226501332">ammo_shells</a>; }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a6c0323d9bf18f34868b4ec5d850cf861">RESOURCE_BULLETS</a>: { <span class="keywordflow">return</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a1697c68bcf32142b7f3c86755b8a4623">ammo_nails</a>; }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a72dadd07573e3178775d13ae32777711">RESOURCE_ROCKETS</a>: { <span class="keywordflow">return</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#acc258bdef877e65e97005690d5d4377b">ammo_rockets</a>; }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a0115d194a8ee77f582bb43e6215f6b0b">RESOURCE_CELLS</a>: { <span class="keywordflow">return</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a6715dfac92377d87e4d0d8d138138628">ammo_cells</a>; }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a34368e7b18e7950fcbf0799012fa45d8">RESOURCE_PLASMA</a>: { <span class="keywordflow">return</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#ac3d31d9a7ce998c3babc4632ef41907f">ammo_plasma</a>; }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a4aca57194cf9936fd939ea3f1b762766">RESOURCE_FUEL</a>: { <span class="keywordflow">return</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a56204895a2307b1195fbd09486a56651">ammo_fuel</a>; }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;GetResourceField: Invalid resource type.&quot;</span>);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d50/client_2resources_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
 <div class="ttc" id="common_2resources_8qh_html_abc6126af1d45847bc59afa0aa3216b04a72dadd07573e3178775d13ae32777711"><div class="ttname"><a href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a72dadd07573e3178775d13ae32777711">RESOURCE_ROCKETS</a></div><div class="ttdoc">Rockets (used by mortar, hagar, devastator, etc). </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/common_2resources_8qh_source.html#l00020">resources.qh:20</a></div></div>
 <div class="ttc" id="common_2resources_8qh_html_abc6126af1d45847bc59afa0aa3216b04a34368e7b18e7950fcbf0799012fa45d8"><div class="ttname"><a href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a34368e7b18e7950fcbf0799012fa45d8">RESOURCE_PLASMA</a></div><div class="ttdoc">Plasma (unused). </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/common_2resources_8qh_source.html#l00022">resources.qh:22</a></div></div>
 <div class="ttc" id="common_2resources_8qh_html_abc6126af1d45847bc59afa0aa3216b04a6c0323d9bf18f34868b4ec5d850cf861"><div class="ttname"><a href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a6c0323d9bf18f34868b4ec5d850cf861">RESOURCE_BULLETS</a></div><div class="ttdoc">Bullets (used by machinegun, rifle, HMG) </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/common_2resources_8qh_source.html#l00019">resources.qh:19</a></div></div>
@@ -263,10 +260,10 @@ Variables</h2></td></tr>
 <div class="ttc" id="ent__cs_8qc_html_a8394e59edbb08b1e4fb28fb7ea60d1cc"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a8394e59edbb08b1e4fb28fb7ea60d1cc">RESOURCE_HEALTH</a></div><div class="ttdeci">RESOURCE_HEALTH</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00120">ent_cs.qc:120</a></div></div>
 <div class="ttc" id="common_2items_2item_2ammo_8qh_html_a6715dfac92377d87e4d0d8d138138628"><div class="ttname"><a href="../../de/d43/common_2items_2item_2ammo_8qh.html#a6715dfac92377d87e4d0d8d138138628">ammo_cells</a></div><div class="ttdeci">int ammo_cells</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d43/common_2items_2item_2ammo_8qh_source.html#l00015">ammo.qh:15</a></div></div>
 <div class="ttc" id="common_2resources_8qh_html_abc6126af1d45847bc59afa0aa3216b04a48ca02fb37a423a78b5144de8dc911a6"><div class="ttname"><a href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a48ca02fb37a423a78b5144de8dc911a6">RESOURCE_ARMOR</a></div><div class="ttdoc">Armor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/common_2resources_8qh_source.html#l00017">resources.qh:17</a></div></div>
-<div class="ttc" id="client_2resources_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d50/client_2resources_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdoc">Legacy fields for the resources. To be removed. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d50/client_2resources_8qh_source.html#l00060">resources.qh:60</a></div></div>
+<div class="ttc" id="client_2resources_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d50/client_2resources_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdoc">Legacy fields for the resources. To be removed. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d50/client_2resources_8qh_source.html#l00053">resources.qh:53</a></div></div>
 <div class="ttc" id="common_2items_2item_2ammo_8qh_html_acc258bdef877e65e97005690d5d4377b"><div class="ttname"><a href="../../de/d43/common_2items_2item_2ammo_8qh.html#acc258bdef877e65e97005690d5d4377b">ammo_rockets</a></div><div class="ttdeci">int ammo_rockets</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d43/common_2items_2item_2ammo_8qh_source.html#l00014">ammo.qh:14</a></div></div>
 <div class="ttc" id="common_2items_2item_2ammo_8qh_html_a1697c68bcf32142b7f3c86755b8a4623"><div class="ttname"><a href="../../de/d43/common_2items_2item_2ammo_8qh.html#a1697c68bcf32142b7f3c86755b8a4623">ammo_nails</a></div><div class="ttdeci">int ammo_nails</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d43/common_2items_2item_2ammo_8qh_source.html#l00013">ammo.qh:13</a></div></div>
-<div class="ttc" id="client_2resources_8qh_html_a8f1fedffff0fe0b96c93d099a3aa02b9"><div class="ttname"><a href="../../d0/d50/client_2resources_8qh.html#a8f1fedffff0fe0b96c93d099a3aa02b9">armorvalue</a></div><div class="ttdeci">float armorvalue</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d50/client_2resources_8qh_source.html#l00061">resources.qh:61</a></div></div>
+<div class="ttc" id="client_2resources_8qh_html_a8f1fedffff0fe0b96c93d099a3aa02b9"><div class="ttname"><a href="../../d0/d50/client_2resources_8qh.html#a8f1fedffff0fe0b96c93d099a3aa02b9">armorvalue</a></div><div class="ttdeci">float armorvalue</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d50/client_2resources_8qh_source.html#l00054">resources.qh:54</a></div></div>
 <div class="ttc" id="common_2resources_8qh_html_abc6126af1d45847bc59afa0aa3216b04a4aca57194cf9936fd939ea3f1b762766"><div class="ttname"><a href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a4aca57194cf9936fd939ea3f1b762766">RESOURCE_FUEL</a></div><div class="ttdoc">Fuel (used by jetpack). </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/common_2resources_8qh_source.html#l00023">resources.qh:23</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -294,22 +291,22 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Resource type (a RESOURCE_* constant). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00055">55</a> of file <a class="el" href="../../d8/d06/client_2resources_8qc_source.html">resources.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">switch</span> (resource_field)</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d0/d50/client_2resources_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a8394e59edbb08b1e4fb28fb7ea60d1cc">RESOURCE_HEALTH</a>; }</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d0/d50/client_2resources_8qh.html#a8f1fedffff0fe0b96c93d099a3aa02b9">armorvalue</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a48ca02fb37a423a78b5144de8dc911a6">RESOURCE_ARMOR</a>; }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a7f0f6109cd99633e526e2a2226501332">ammo_shells</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a21fb6fb8eff77e137df0cc9a2700b9e1">RESOURCE_SHELLS</a>; }</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a1697c68bcf32142b7f3c86755b8a4623">ammo_nails</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a6c0323d9bf18f34868b4ec5d850cf861">RESOURCE_BULLETS</a>; }</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#acc258bdef877e65e97005690d5d4377b">ammo_rockets</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a72dadd07573e3178775d13ae32777711">RESOURCE_ROCKETS</a>; }</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a6715dfac92377d87e4d0d8d138138628">ammo_cells</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a0115d194a8ee77f582bb43e6215f6b0b">RESOURCE_CELLS</a>; }</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#ac3d31d9a7ce998c3babc4632ef41907f">ammo_plasma</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a34368e7b18e7950fcbf0799012fa45d8">RESOURCE_PLASMA</a>; }</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a56204895a2307b1195fbd09486a56651">ammo_fuel</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a4aca57194cf9936fd939ea3f1b762766">RESOURCE_FUEL</a>; }</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;GetResourceType: Invalid field.&quot;</span>);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00045">45</a> of file <a class="el" href="../../d8/d06/client_2resources_8qc_source.html">resources.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">switch</span> (resource_field)</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d0/d50/client_2resources_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a8394e59edbb08b1e4fb28fb7ea60d1cc">RESOURCE_HEALTH</a>; }</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d0/d50/client_2resources_8qh.html#a8f1fedffff0fe0b96c93d099a3aa02b9">armorvalue</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a48ca02fb37a423a78b5144de8dc911a6">RESOURCE_ARMOR</a>; }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a7f0f6109cd99633e526e2a2226501332">ammo_shells</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a21fb6fb8eff77e137df0cc9a2700b9e1">RESOURCE_SHELLS</a>; }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a1697c68bcf32142b7f3c86755b8a4623">ammo_nails</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a6c0323d9bf18f34868b4ec5d850cf861">RESOURCE_BULLETS</a>; }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#acc258bdef877e65e97005690d5d4377b">ammo_rockets</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a72dadd07573e3178775d13ae32777711">RESOURCE_ROCKETS</a>; }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a6715dfac92377d87e4d0d8d138138628">ammo_cells</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a0115d194a8ee77f582bb43e6215f6b0b">RESOURCE_CELLS</a>; }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#ac3d31d9a7ce998c3babc4632ef41907f">ammo_plasma</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a34368e7b18e7950fcbf0799012fa45d8">RESOURCE_PLASMA</a>; }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../de/d43/common_2items_2item_2ammo_8qh.html#a56204895a2307b1195fbd09486a56651">ammo_fuel</a>: { <span class="keywordflow">return</span> <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a4aca57194cf9936fd939ea3f1b762766">RESOURCE_FUEL</a>; }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;GetResourceType: Invalid field.&quot;</span>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
 <div class="ttc" id="common_2resources_8qh_html_abc6126af1d45847bc59afa0aa3216b04a72dadd07573e3178775d13ae32777711"><div class="ttname"><a href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a72dadd07573e3178775d13ae32777711">RESOURCE_ROCKETS</a></div><div class="ttdoc">Rockets (used by mortar, hagar, devastator, etc). </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/common_2resources_8qh_source.html#l00020">resources.qh:20</a></div></div>
 <div class="ttc" id="common_2resources_8qh_html_abc6126af1d45847bc59afa0aa3216b04a34368e7b18e7950fcbf0799012fa45d8"><div class="ttname"><a href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a34368e7b18e7950fcbf0799012fa45d8">RESOURCE_PLASMA</a></div><div class="ttdoc">Plasma (unused). </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/common_2resources_8qh_source.html#l00022">resources.qh:22</a></div></div>
 <div class="ttc" id="common_2resources_8qh_html_abc6126af1d45847bc59afa0aa3216b04a6c0323d9bf18f34868b4ec5d850cf861"><div class="ttname"><a href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a6c0323d9bf18f34868b4ec5d850cf861">RESOURCE_BULLETS</a></div><div class="ttdoc">Bullets (used by machinegun, rifle, HMG) </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/common_2resources_8qh_source.html#l00019">resources.qh:19</a></div></div>
@@ -322,10 +319,10 @@ Variables</h2></td></tr>
 <div class="ttc" id="ent__cs_8qc_html_a8394e59edbb08b1e4fb28fb7ea60d1cc"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a8394e59edbb08b1e4fb28fb7ea60d1cc">RESOURCE_HEALTH</a></div><div class="ttdeci">RESOURCE_HEALTH</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00120">ent_cs.qc:120</a></div></div>
 <div class="ttc" id="common_2items_2item_2ammo_8qh_html_a6715dfac92377d87e4d0d8d138138628"><div class="ttname"><a href="../../de/d43/common_2items_2item_2ammo_8qh.html#a6715dfac92377d87e4d0d8d138138628">ammo_cells</a></div><div class="ttdeci">int ammo_cells</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d43/common_2items_2item_2ammo_8qh_source.html#l00015">ammo.qh:15</a></div></div>
 <div class="ttc" id="common_2resources_8qh_html_abc6126af1d45847bc59afa0aa3216b04a48ca02fb37a423a78b5144de8dc911a6"><div class="ttname"><a href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a48ca02fb37a423a78b5144de8dc911a6">RESOURCE_ARMOR</a></div><div class="ttdoc">Armor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/common_2resources_8qh_source.html#l00017">resources.qh:17</a></div></div>
-<div class="ttc" id="client_2resources_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d50/client_2resources_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdoc">Legacy fields for the resources. To be removed. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d50/client_2resources_8qh_source.html#l00060">resources.qh:60</a></div></div>
+<div class="ttc" id="client_2resources_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d50/client_2resources_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdoc">Legacy fields for the resources. To be removed. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d50/client_2resources_8qh_source.html#l00053">resources.qh:53</a></div></div>
 <div class="ttc" id="common_2items_2item_2ammo_8qh_html_acc258bdef877e65e97005690d5d4377b"><div class="ttname"><a href="../../de/d43/common_2items_2item_2ammo_8qh.html#acc258bdef877e65e97005690d5d4377b">ammo_rockets</a></div><div class="ttdeci">int ammo_rockets</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d43/common_2items_2item_2ammo_8qh_source.html#l00014">ammo.qh:14</a></div></div>
 <div class="ttc" id="common_2items_2item_2ammo_8qh_html_a1697c68bcf32142b7f3c86755b8a4623"><div class="ttname"><a href="../../de/d43/common_2items_2item_2ammo_8qh.html#a1697c68bcf32142b7f3c86755b8a4623">ammo_nails</a></div><div class="ttdeci">int ammo_nails</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d43/common_2items_2item_2ammo_8qh_source.html#l00013">ammo.qh:13</a></div></div>
-<div class="ttc" id="client_2resources_8qh_html_a8f1fedffff0fe0b96c93d099a3aa02b9"><div class="ttname"><a href="../../d0/d50/client_2resources_8qh.html#a8f1fedffff0fe0b96c93d099a3aa02b9">armorvalue</a></div><div class="ttdeci">float armorvalue</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d50/client_2resources_8qh_source.html#l00061">resources.qh:61</a></div></div>
+<div class="ttc" id="client_2resources_8qh_html_a8f1fedffff0fe0b96c93d099a3aa02b9"><div class="ttname"><a href="../../d0/d50/client_2resources_8qh.html#a8f1fedffff0fe0b96c93d099a3aa02b9">armorvalue</a></div><div class="ttdeci">float armorvalue</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d50/client_2resources_8qh_source.html#l00054">resources.qh:54</a></div></div>
 <div class="ttc" id="common_2resources_8qh_html_abc6126af1d45847bc59afa0aa3216b04a4aca57194cf9936fd939ea3f1b762766"><div class="ttname"><a href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a4aca57194cf9936fd939ea3f1b762766">RESOURCE_FUEL</a></div><div class="ttdoc">Fuel (used by jetpack). </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/common_2resources_8qh_source.html#l00023">resources.qh:23</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -371,66 +368,12 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>No return. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00025">25</a> of file <a class="el" href="../../d8/d06/client_2resources_8qc_source.html">resources.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../d8/d06/client_2resources_8qc.html#a23a90e7288eaba490cdcc7941274f254">SetResourceAmountExplicit</a>(e, resource_type, amount);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
-<div class="ttc" id="client_2resources_8qc_html_a23a90e7288eaba490cdcc7941274f254"><div class="ttname"><a href="../../d8/d06/client_2resources_8qc.html#a23a90e7288eaba490cdcc7941274f254">SetResourceAmountExplicit</a></div><div class="ttdeci">bool SetResourceAmountExplicit(entity e, int resource_type, float amount)</div><div class="ttdoc">Sets the resource amount of an entity without calling any hooks. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d06/client_2resources_8qc_source.html#l00014">resources.qc:14</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a class="anchor" id="a23a90e7288eaba490cdcc7941274f254"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a> SetResourceAmountExplicit </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
-          <td class="paramname"><em>e</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
-          <td class="paramname"><em>resource_type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
-          <td class="paramname"><em>amount</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the resource amount of an entity without calling any hooks. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">e</td><td>Entity to adjust. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">resource_type</td><td>Type of the resource (a RESOURCE_* constant). </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">amount</td><td>Amount of resource to set. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Boolean for whether the ammo amount was changed </dd></dl>
-
 <p>Definition at line <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00014">14</a> of file <a class="el" href="../../d8/d06/client_2resources_8qc_source.html">resources.qc</a>.</p>
 <div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    .float resource_field = <a class="code" href="../../d8/d06/client_2resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf">GetResourceField</a>(resource_type);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span> (e.(resource_field) != amount)</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        e.(resource_field) = amount;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
-<div class="ttc" id="client_2resources_8qc_html_a71dd6195c49049c92fe8bd28377ea1cf"><div class="ttname"><a href="../../d8/d06/client_2resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf">GetResourceField</a></div><div class="ttdeci">float GetResourceField(int resource_type)</div><div class="ttdoc">Converts resource type (a RESOURCE_* constant) to entity field. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d06/client_2resources_8qc_source.html#l00072">resources.qc:72</a></div></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    e.(resource_field) = amount;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="ttc" id="client_2resources_8qc_html_a71dd6195c49049c92fe8bd28377ea1cf"><div class="ttname"><a href="../../d8/d06/client_2resources_8qc.html#a71dd6195c49049c92fe8bd28377ea1cf">GetResourceField</a></div><div class="ttdeci">float GetResourceField(int resource_type)</div><div class="ttdoc">Converts resource type (a RESOURCE_* constant) to entity field. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d06/client_2resources_8qc_source.html#l00062">resources.qc:62</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -475,16 +418,16 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>No return. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00030">30</a> of file <a class="el" href="../../d8/d06/client_2resources_8qc_source.html">resources.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">if</span> (amount == 0)</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../d8/d06/client_2resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d">SetResourceAmount</a>(receiver, resource_type,</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="../../d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9">GetResourceAmount</a>(receiver, resource_type) - amount);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
-<div class="ttc" id="client_2resources_8qc_html_aeb1e1a4f093400cfefbf59332798a93d"><div class="ttname"><a href="../../d8/d06/client_2resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d">SetResourceAmount</a></div><div class="ttdeci">void SetResourceAmount(entity e, int resource_type, float amount)</div><div class="ttdoc">Sets the current amount of resource the given entity will have. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d06/client_2resources_8qc_source.html#l00025">resources.qc:25</a></div></div>
+<p>Definition at line <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00020">20</a> of file <a class="el" href="../../d8/d06/client_2resources_8qc_source.html">resources.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span> (amount == 0)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../d8/d06/client_2resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d">SetResourceAmount</a>(receiver, resource_type,</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9">GetResourceAmount</a>(receiver, resource_type) - amount);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="ttc" id="client_2resources_8qc_html_aeb1e1a4f093400cfefbf59332798a93d"><div class="ttname"><a href="../../d8/d06/client_2resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d">SetResourceAmount</a></div><div class="ttdeci">void SetResourceAmount(entity e, int resource_type, float amount)</div><div class="ttdoc">Sets the current amount of resource the given entity will have. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d06/client_2resources_8qc_source.html#l00014">resources.qc:14</a></div></div>
 <div class="ttc" id="client_2resources_8qc_html_a41987053c5ea9c2c1c31b808887845e9"><div class="ttname"><a href="../../d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9">GetResourceAmount</a></div><div class="ttdeci">float GetResourceAmount(entity e, int resource_type)</div><div class="ttdoc">Returns the current amount of resource the given entity has. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d06/client_2resources_8qc_source.html#l00008">resources.qc:8</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -537,20 +480,20 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>No return. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00040">40</a> of file <a class="el" href="../../d8/d06/client_2resources_8qc_source.html">resources.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">if</span> (amount == 0)</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">float</span> current_amount = <a class="code" href="../../d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9">GetResourceAmount</a>(receiver, resource_type);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">if</span> (current_amount - amount &lt; limit)</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        amount = limit + current_amount;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../d8/d06/client_2resources_8qc.html#a94703297455af921f296d634ca643943">TakeResource</a>(receiver, resource_type, amount);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
-<div class="ttc" id="client_2resources_8qc_html_a94703297455af921f296d634ca643943"><div class="ttname"><a href="../../d8/d06/client_2resources_8qc.html#a94703297455af921f296d634ca643943">TakeResource</a></div><div class="ttdeci">void TakeResource(entity receiver, int resource_type, float amount)</div><div class="ttdoc">Takes an entity some resource. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d06/client_2resources_8qc_source.html#l00030">resources.qc:30</a></div></div>
+<p>Definition at line <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00030">30</a> of file <a class="el" href="../../d8/d06/client_2resources_8qc_source.html">resources.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span> (amount == 0)</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">float</span> current_amount = <a class="code" href="../../d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9">GetResourceAmount</a>(receiver, resource_type);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> (current_amount - amount &lt; limit)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        amount = limit + current_amount;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../d8/d06/client_2resources_8qc.html#a94703297455af921f296d634ca643943">TakeResource</a>(receiver, resource_type, amount);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
+<div class="ttc" id="client_2resources_8qc_html_a94703297455af921f296d634ca643943"><div class="ttname"><a href="../../d8/d06/client_2resources_8qc.html#a94703297455af921f296d634ca643943">TakeResource</a></div><div class="ttdeci">void TakeResource(entity receiver, int resource_type, float amount)</div><div class="ttdoc">Takes an entity some resource. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d06/client_2resources_8qc_source.html#l00020">resources.qc:20</a></div></div>
 <div class="ttc" id="client_2resources_8qc_html_a41987053c5ea9c2c1c31b808887845e9"><div class="ttname"><a href="../../d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9">GetResourceAmount</a></div><div class="ttdeci">float GetResourceAmount(entity e, int resource_type)</div><div class="ttdoc">Returns the current amount of resource the given entity has. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d06/client_2resources_8qc_source.html#l00008">resources.qc:8</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -566,9 +509,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d50/client_2resources_8qh_source.html#l00061">61</a> of file <a class="el" href="../../d0/d50/client_2resources_8qh_source.html">resources.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d50/client_2resources_8qh_source.html#l00054">54</a> of file <a class="el" href="../../d0/d50/client_2resources_8qh_source.html">resources.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00072">GetResourceField()</a>, and <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00055">GetResourceType()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00062">GetResourceField()</a>, and <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00045">GetResourceType()</a>.</p>
 
 </div>
 </div>
@@ -584,9 +527,9 @@ Variables</h2></td></tr>
 
 <p>Legacy fields for the resources. To be removed. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d50/client_2resources_8qh_source.html#l00060">60</a> of file <a class="el" href="../../d0/d50/client_2resources_8qh_source.html">resources.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d50/client_2resources_8qh_source.html#l00053">53</a> of file <a class="el" href="../../d0/d50/client_2resources_8qh_source.html">resources.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html#l00106">DamageText::DamageText_update()</a>, <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00072">GetResourceField()</a>, <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00055">GetResourceType()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00489">Hud_Dynamic_Frame()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00010">HUD_HealthArmor()</a>, <a class="el" href="../../d9/d94/sv__damagetext_8qc_source.html#l00011">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html#l00206">NET_HANDLE()</a>, and <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00142">Vehicles_drawHUD()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html#l00106">DamageText::DamageText_update()</a>, <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00062">GetResourceField()</a>, <a class="el" href="../../d8/d06/client_2resources_8qc_source.html#l00045">GetResourceType()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00489">Hud_Dynamic_Frame()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00010">HUD_HealthArmor()</a>, <a class="el" href="../../d9/d94/sv__damagetext_8qc_source.html#l00011">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html#l00206">NET_HANDLE()</a>, and <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00142">Vehicles_drawHUD()</a>.</p>
 
 </div>
 </div>
@@ -596,7 +539,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d0/d50/client_2resources_8qh.html">resources.qh</a></li>
-    <li class="footer">Generated on Sat Feb 2 2019 22:11:41 for Xonotic by
+    <li class="footer">Generated on Sun Feb 3 2019 16:49:10 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

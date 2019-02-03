@@ -1,6 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"d3/dce/classXonoticTab.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,255,55],
 "d3/dce/classXonoticTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,255,0],
 "d3/dce/classXonoticTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,255,35],
 "d3/dce/classXonoticTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,255,40],
@@ -156,15 +155,14 @@ var NAVTREEINDEX31 =
 "d3/dd5/bd_8qc_source.html":[2,0,1,7,0,3],
 "d3/dd6/server_2resources_8qh.html":[2,0,6,51],
 "d3/dd6/server_2resources_8qh.html#a1b1ff2e419436cd7236668176c97c9ac":[2,0,6,51,7],
-"d3/dd6/server_2resources_8qh.html#a23a90e7288eaba490cdcc7941274f254":[2,0,6,51,9],
 "d3/dd6/server_2resources_8qh.html#a41987053c5ea9c2c1c31b808887845e9":[2,0,6,51,0],
 "d3/dd6/server_2resources_8qh.html#a46ef4f78ef7d5b3ef361c118c2999172":[2,0,6,51,3],
 "d3/dd6/server_2resources_8qh.html#a63171b3ae80d3457279fc0fe2f280b8f":[2,0,6,51,5],
 "d3/dd6/server_2resources_8qh.html#a71dd6195c49049c92fe8bd28377ea1cf":[2,0,6,51,1],
 "d3/dd6/server_2resources_8qh.html#a88f207f357349ddd4d1f32b85d0c3f57":[2,0,6,51,6],
-"d3/dd6/server_2resources_8qh.html#a94703297455af921f296d634ca643943":[2,0,6,51,10],
+"d3/dd6/server_2resources_8qh.html#a94703297455af921f296d634ca643943":[2,0,6,51,9],
 "d3/dd6/server_2resources_8qh.html#a9528f8b15897b26b733ab07875a2a8dc":[2,0,6,51,4],
-"d3/dd6/server_2resources_8qh.html#ad388ffc3b3efbe73d4ff318f2281d429":[2,0,6,51,11],
+"d3/dd6/server_2resources_8qh.html#ad388ffc3b3efbe73d4ff318f2281d429":[2,0,6,51,10],
 "d3/dd6/server_2resources_8qh.html#aeb1e1a4f093400cfefbf59332798a93d":[2,0,6,51,8],
 "d3/dd6/server_2resources_8qh.html#af36a97298b550267aad36794d0f66c0f":[2,0,6,51,2],
 "d3/dd6/server_2resources_8qh_source.html":[2,0,6,51],
@@ -249,5 +247,7 @@ var NAVTREEINDEX31 =
 "d3/de2/effectinfo_8qh_source.html":[2,0,1,2,9],
 "d3/de3/classHellionAttack.html":[1,0,50],
 "d3/de3/classHellionAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,50,36],
-"d3/de3/classHellionAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,50,20]
+"d3/de3/classHellionAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,50,20],
+"d3/de3/classHellionAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,50,19],
+"d3/de3/classHellionAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,50,33]
 };
