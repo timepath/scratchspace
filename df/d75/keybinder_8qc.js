@@ -6,9 +6,9 @@ var keybinder_8qc =
     [ "KeyBinder_Bind_Clear", "df/d75/keybinder_8qc.html#a8a4e76d61ea24d2bf22adf37d2bea543", null ],
     [ "KeyBinder_Bind_Edit", "df/d75/keybinder_8qc.html#a24d293cb1e7ea055ad7ddf8afbff6d59", null ],
     [ "KeyBinder_Bind_Reset_All", "df/d75/keybinder_8qc.html#a07b1c813a45195e732bdbb97ef390c78", null ],
+    [ "KeyBinds_Read", "df/d75/keybinder_8qc.html#afb521b8e7c65e3adf2fe7ad292e09357", null ],
     [ "makeXonoticKeyBinder", "df/d75/keybinder_8qc.html#ab0947edc01b04773d3a03c7e3dda2fb0", null ],
     [ "replace_bind", "df/d75/keybinder_8qc.html#a8cbec42c3a22af496ec94cf941fc1542", null ],
-    [ "Xonotic_KeyBinds_Read", "df/d75/keybinder_8qc.html#a1228cbee3a98b27d1fa42df8e8a4e8b3", null ],
     [ "XonoticKeyBinder_configureXonoticKeyBinder", "df/d75/keybinder_8qc.html#a7053a03b462c92dce42616709c1cc500", null ],
     [ "XonoticKeyBinder_destroy", "df/d75/keybinder_8qc.html#a199013939039b94eab3675b953cdb961", null ],
     [ "XonoticKeyBinder_doubleClickListBoxItem", "df/d75/keybinder_8qc.html#a8d951d6525e6ce2093c502661291acf9", null ],
@@ -22,9 +22,9 @@ var keybinder_8qc =
     [ "XonoticKeyBinder_showNotify", "df/d75/keybinder_8qc.html#a37fb300f330e857fd3b08842f8f3db58", null ],
     [ "flags", "df/d75/keybinder_8qc.html#ac8bf36fe0577cba66bccda3a6f7e80a4", null ],
     [ "KEY_NOT_BOUND_CMD", "df/d75/keybinder_8qc.html#a251bc143f7e5e7cde93587d3220ecf96", null ],
+    [ "KeyBinds_Count", "df/d75/keybinder_8qc.html#aef214399a3610dcc06f6b545039317f2", null ],
+    [ "KeyBinds_Descriptions", "df/d75/keybinder_8qc.html#a7a964104d5391d7889378c6163428ab1", null ],
+    [ "KeyBinds_Functions", "df/d75/keybinder_8qc.html#a4f43ea47b33549f1b4d893803e3fb925", null ],
     [ "MAX_KEYBINDS", "df/d75/keybinder_8qc.html#abeb43a2ba74e131149bca30e59f10e5c", null ],
-    [ "MAX_KEYS_PER_FUNCTION", "df/d75/keybinder_8qc.html#a136765a2f9eec2b238e1d2d831048343", null ],
-    [ "Xonotic_KeyBinds_Count", "df/d75/keybinder_8qc.html#addd8449b1115873ac6cc36031e1d41e4", null ],
-    [ "Xonotic_KeyBinds_Descriptions", "df/d75/keybinder_8qc.html#aec643c0dbd7777189673430d44f06280", null ],
-    [ "Xonotic_KeyBinds_Functions", "df/d75/keybinder_8qc.html#a5cd46dbd69ee4086b6e89cac75717139", null ]
+    [ "MAX_KEYS_PER_FUNCTION", "df/d75/keybinder_8qc.html#a136765a2f9eec2b238e1d2d831048343", null ]
 ];

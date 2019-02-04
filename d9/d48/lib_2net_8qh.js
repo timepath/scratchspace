@@ -24,8 +24,8 @@ var lib_2net_8qh =
     [ "WriteRegistered", "d9/d48/lib_2net_8qh.html#ad6164466023bdea2ceb4e0d4f156f228", null ],
     [ "Stream", "d9/d48/lib_2net_8qh.html#a0bb8b8c115905df16cbe81f7431e671a", null ],
     [ "bool", "d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e", null ],
-    [ "STATIC_INIT", "d9/d48/lib_2net_8qh.html#a9ed95d3bc607e9c3064d283621a20afb", null ],
-    [ "STATIC_INIT", "d9/d48/lib_2net_8qh.html#a14ddf15ea93c80882f9e39981096fd9c", null ],
+    [ "STATIC_INIT", "d9/d48/lib_2net_8qh.html#a78fa0e32dddcb481ad2a9064f7cdab3d", null ],
+    [ "STATIC_INIT", "d9/d48/lib_2net_8qh.html#a732eff7a275a93bd6a2c8a133ea61497", null ],
     [ "STATIC_INIT", "d9/d48/lib_2net_8qh.html#ac5018e1bd72c932af0c0e652174c7b9f", null ],
     [ "m_id", "d9/d48/lib_2net_8qh.html#aad966617e7e050bedbead762727808a5", null ],
     [ "netname", "d9/d48/lib_2net_8qh.html#a32c4a483932ac5a2b0fcad13b0abdefa", null ]
