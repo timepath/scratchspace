@@ -1,5 +1,7 @@
 var NAVTREEINDEX130 =
 {
+"de/ddc/classOverkillMachineGun.html#a7515d4131829927372fd6583d4ae610a":[1,0,97,0],
+"de/ddc/classOverkillMachineGun.html#a7667844319b21f5f0633c937be59dab9":[1,0,97,32],
 "de/ddc/classOverkillMachineGun.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,97,30],
 "de/ddc/classOverkillMachineGun.html#a80fa9a65e19370473a29baebc04d0626":[1,0,97,5],
 "de/ddc/classOverkillMachineGun.html#a87b1eda4a6eeb2ea1fe087d1a9b4cb0c":[1,0,97,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX130 =
 "df/d13/anglestransform_8qc.html#a8383340e6af9aad3ed3a36610b98055d":[2,0,4,2,2,6],
 "df/d13/anglestransform_8qc.html#a847652083025638d0721b27759d2ec92":[2,0,4,2,2,12],
 "df/d13/anglestransform_8qc.html#a84a5233ab143cd9654d618b094d4e1b4":[2,0,4,2,2,14],
-"df/d13/anglestransform_8qc.html#aa7b4d823e207f6300ea5503279fb9905":[2,0,4,2,2,16],
-"df/d13/anglestransform_8qc.html#ab60788299d5604752e91c6e191a8af9f":[2,0,4,2,2,11],
-"df/d13/anglestransform_8qc.html#ac06d70078794b4df23a48f86b7aabf21":[2,0,4,2,2,8]
+"df/d13/anglestransform_8qc.html#aa7b4d823e207f6300ea5503279fb9905":[2,0,4,2,2,16]
 };
