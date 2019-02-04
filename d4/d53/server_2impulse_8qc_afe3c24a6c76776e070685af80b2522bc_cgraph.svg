@@ -302,9 +302,9 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" target="_top" xlink:title="Returns the current amount of resource the given entity has. ">
-<polygon fill="none" stroke="black" points="1946,-1284.5 1946,-1303.5 2054,-1303.5 2054,-1284.5 1946,-1284.5"/>
-<text text-anchor="middle" x="2000" y="-1291.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetResourceAmount</text>
+<g id="a_node14"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a53ec0a3c5a395e2b64d468c08f49b63f" target="_top" xlink:title="Returns the current amount of resource the given entity has. ">
+<polygon fill="none" stroke="black" points="1963,-1284.5 1963,-1303.5 2037,-1303.5 2037,-1284.5 1963,-1284.5"/>
+<text text-anchor="middle" x="2000" y="-1291.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetResource</text>
 </a>
 </g>
 </g>
@@ -380,7 +380,7 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a94703297455af921f296d634ca643943" target="_top" xlink:title="Takes an entity some resource. ">
+<g id="a_node22"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a031a5073a6f47ef9ed1de8dfe48ceb65" target="_top" xlink:title="Takes an entity some resource. ">
 <polygon fill="none" stroke="black" points="1572,-1730.5 1572,-1749.5 1652,-1749.5 1652,-1730.5 1572,-1730.5"/>
 <text text-anchor="middle" x="1612" y="-1737.5" font-family="Helvetica,sans-Serif" font-size="10.00">TakeResource</text>
 </a>
@@ -699,8 +699,8 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node30&#45;&gt;Node14 -->
 <g id="edge65" class="edge"><title>Node30&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M1232.54,-2737.3C1243,-2696.92 1282.97,-2538.16 1300,-2405 1309.66,-2329.51 1293.51,-1784.14 1336,-1721 1380.4,-1655.02 1450.47,-1708.77 1498,-1645 1562.46,-1558.52 1463.63,-1486.74 1534,-1405 1592.24,-1337.35 1639.22,-1366.94 1726,-1346 1795.33,-1329.27 1813.97,-1331.51 1884,-1318 1903.95,-1314.15 1925.79,-1309.66 1945.03,-1305.62"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1945.77,-1309.04 1954.83,-1303.55 1944.32,-1302.19 1945.77,-1309.04"/>
+<path fill="none" stroke="midnightblue" d="M1232.54,-2737.3C1243,-2696.92 1282.97,-2538.16 1300,-2405 1309.66,-2329.51 1293.51,-1784.14 1336,-1721 1380.4,-1655.02 1450.47,-1708.77 1498,-1645 1562.46,-1558.52 1463.63,-1486.74 1534,-1405 1592.24,-1337.35 1639.22,-1366.94 1726,-1346 1795.33,-1329.27 1813.97,-1331.51 1884,-1318 1906.72,-1313.62 1931.88,-1308.41 1952.86,-1303.96"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1953.75,-1307.35 1962.8,-1301.85 1952.29,-1300.51 1953.75,-1307.35"/>
 </g>
 <!-- Node30&#45;&gt;Node17 -->
 <g id="edge42" class="edge"><title>Node30&#45;&gt;Node17</title>
@@ -2169,16 +2169,16 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node212 -->
 <g id="node212" class="node"><title>Node212</title>
-<g id="a_node212"><a xlink:href="../../d8/d06/client_2resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d" target="_top" xlink:title="Sets the current amount of resource the given entity will have. ">
-<polygon fill="none" stroke="black" points="1946.5,-1986.5 1946.5,-2005.5 2053.5,-2005.5 2053.5,-1986.5 1946.5,-1986.5"/>
-<text text-anchor="middle" x="2000" y="-1993.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetResourceAmount</text>
+<g id="a_node212"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a07f27dec0520a6bfdffc084639470886" target="_top" xlink:title="Sets the current amount of resource the given entity will have. ">
+<polygon fill="none" stroke="black" points="1963,-1986.5 1963,-2005.5 2037,-2005.5 2037,-1986.5 1963,-1986.5"/>
+<text text-anchor="middle" x="2000" y="-1993.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetResource</text>
 </a>
 </g>
 </g>
 <!-- Node110&#45;&gt;Node212 -->
 <g id="edge460" class="edge"><title>Node110&#45;&gt;Node212</title>
-<path fill="none" stroke="midnightblue" d="M716.716,-4060.27C722.57,-3980.56 763.085,-3426.88 792,-2977 800.71,-2841.49 776.387,-2492.6 828,-2367 883.54,-2231.84 898.874,-2120 1045,-2120 1045,-2120 1045,-2120 1230,-2120 1370.46,-2120 1789.3,-2038.36 1942.26,-2007.56"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1943.27,-2010.93 1952.38,-2005.52 1941.89,-2004.07 1943.27,-2010.93"/>
+<path fill="none" stroke="midnightblue" d="M716.716,-4060.27C722.57,-3980.56 763.085,-3426.88 792,-2977 800.71,-2841.49 776.387,-2492.6 828,-2367 883.54,-2231.84 898.874,-2120 1045,-2120 1045,-2120 1045,-2120 1230,-2120 1373.8,-2120 1809.42,-2034.42 1952.74,-2005.45"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1953.84,-2008.8 1962.94,-2003.39 1952.45,-2001.94 1953.84,-2008.8"/>
 </g>
 <!-- Node216 -->
 <g id="node216" class="node"><title>Node216</title>
@@ -4209,8 +4209,8 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node211&#45;&gt;Node212 -->
 <g id="edge430" class="edge"><title>Node211&#45;&gt;Node212</title>
-<path fill="none" stroke="midnightblue" d="M905.295,-1892.41C952.655,-1871.78 1060.86,-1818.78 1122,-1742 1150.13,-1706.68 1130.5,-1682.81 1158,-1647 1217.34,-1569.71 1243.25,-1548.88 1336,-1519 1404.53,-1496.92 1443.44,-1472.02 1498,-1519 1579.73,-1589.38 1461.24,-1679.38 1534,-1759 1582.14,-1811.68 1639.3,-1746.78 1690,-1797 1736.25,-1842.82 1679,-1893.95 1726,-1939 1781.84,-1992.52 1874.31,-2001.44 1935.94,-2000.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1936.39,-2004.07 1946.31,-2000.34 1936.23,-1997.08 1936.39,-2004.07"/>
+<path fill="none" stroke="midnightblue" d="M905.295,-1892.41C952.655,-1871.78 1060.86,-1818.78 1122,-1742 1150.13,-1706.68 1130.5,-1682.81 1158,-1647 1217.34,-1569.71 1243.25,-1548.88 1336,-1519 1404.53,-1496.92 1443.44,-1472.02 1498,-1519 1579.73,-1589.38 1461.24,-1679.38 1534,-1759 1582.14,-1811.68 1639.3,-1746.78 1690,-1797 1736.25,-1842.82 1679,-1893.95 1726,-1939 1787.13,-1997.59 1892.14,-2002.73 1952.55,-2000.11"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1952.77,-2003.6 1962.57,-1999.58 1952.4,-1996.61 1952.77,-2003.6"/>
 </g>
 <!-- Node213 -->
 <g id="node213" class="node"><title>Node213</title>
@@ -4515,8 +4515,8 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node233&#45;&gt;Node212 -->
 <g id="edge502" class="edge"><title>Node233&#45;&gt;Node212</title>
-<path fill="none" stroke="midnightblue" d="M1669.74,-1633C1677.17,-1635.83 1684.2,-1639.71 1690,-1645 1726.13,-1677.97 1689.77,-1716.13 1726,-1749 1779.49,-1797.53 1834.06,-1734.82 1884,-1787 1941.92,-1847.51 1863.89,-1909.81 1920,-1972 1924.71,-1977.22 1930.51,-1981.32 1936.82,-1984.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1935.78,-1987.9 1946.35,-1988.65 1938.56,-1981.48 1935.78,-1987.9"/>
+<path fill="none" stroke="midnightblue" d="M1669.74,-1633C1677.17,-1635.83 1684.2,-1639.71 1690,-1645 1726.13,-1677.97 1689.77,-1716.13 1726,-1749 1779.49,-1797.53 1834.06,-1734.82 1884,-1787 1941.92,-1847.51 1863.89,-1909.81 1920,-1972 1928.56,-1981.49 1940.74,-1987.28 1952.98,-1990.8"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1952.2,-1994.21 1962.75,-1993.16 1953.85,-1987.41 1952.2,-1994.21"/>
 </g>
 <!-- Node234 -->
 <g id="node234" class="node"><title>Node234</title>
@@ -4598,7 +4598,7 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node240 -->
 <g id="node240" class="node"><title>Node240</title>
-<g id="a_node240"><a xlink:href="../../d4/d91/server_2resources_8qc.html#a88f207f357349ddd4d1f32b85d0c3f57" target="_top" xlink:title="Gives an entity some resource. ">
+<g id="a_node240"><a xlink:href="../../d4/d91/server_2resources_8qc.html#ab0a657f02ad46df5e2aa7f9f38428ff8" target="_top" xlink:title="Gives an entity some resource. ">
 <polygon fill="none" stroke="black" points="1765.5,-1664.5 1765.5,-1683.5 1844.5,-1683.5 1844.5,-1664.5 1765.5,-1664.5"/>
 <text text-anchor="middle" x="1805" y="-1671.5" font-family="Helvetica,sans-Serif" font-size="10.00">GiveResource</text>
 </a>
@@ -4631,8 +4631,8 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node240&#45;&gt;Node212 -->
 <g id="edge501" class="edge"><title>Node240&#45;&gt;Node212</title>
-<path fill="none" stroke="midnightblue" d="M1844.07,-1683.55C1858.77,-1689.16 1874.34,-1697.82 1884,-1711 1953.22,-1805.45 1843.99,-1882.93 1920,-1972 1924.63,-1977.42 1930.44,-1981.64 1936.79,-1984.92"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1935.86,-1988.33 1946.43,-1989.09 1938.64,-1981.91 1935.86,-1988.33"/>
+<path fill="none" stroke="midnightblue" d="M1844.07,-1683.55C1858.77,-1689.16 1874.34,-1697.82 1884,-1711 1953.22,-1805.45 1843.99,-1882.93 1920,-1972 1928.37,-1981.81 1940.61,-1987.69 1952.97,-1991.19"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1952.3,-1994.62 1962.84,-1993.51 1953.91,-1987.81 1952.3,-1994.62"/>
 </g>
 <!-- Node240&#45;&gt;Node240 -->
 <g id="edge499" class="edge"><title>Node240&#45;&gt;Node240</title>
@@ -4651,8 +4651,8 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node243&#45;&gt;Node14 -->
 <g id="edge510" class="edge"><title>Node243&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M1429.75,-1730.35C1447.96,-1714.62 1482.51,-1681.53 1498,-1645 1528.61,-1572.81 1475.8,-1346.54 1534,-1294 1591.3,-1242.28 1822.46,-1267.83 1935.76,-1284.07"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1935.29,-1287.54 1945.69,-1285.51 1936.3,-1280.61 1935.29,-1287.54"/>
+<path fill="none" stroke="midnightblue" d="M1429.75,-1730.35C1447.96,-1714.62 1482.51,-1681.53 1498,-1645 1528.61,-1572.81 1475.8,-1346.54 1534,-1294 1594.31,-1239.56 1847.28,-1270.73 1952.64,-1286.54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1952.25,-1290.02 1962.66,-1288.07 1953.3,-1283.1 1952.25,-1290.02"/>
 </g>
 <!-- Node243&#45;&gt;Node19 -->
 <g id="edge509" class="edge"><title>Node243&#45;&gt;Node19</title>
@@ -5232,7 +5232,7 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node268 -->
 <g id="node268" class="node"><title>Node268</title>
-<g id="a_node268"><a xlink:href="../../d4/d91/server_2resources_8qc.html#a1b1ff2e419436cd7236668176c97c9ac" target="_top" xlink:title="Gives an entity some resource but not more than a limit. ">
+<g id="a_node268"><a xlink:href="../../d4/d91/server_2resources_8qc.html#a7c6f3edfddb9ea11b62e009c419f1e26" target="_top" xlink:title="Gives an entity some resource but not more than a limit. ">
 <polygon fill="none" stroke="black" points="1552,-1303.5 1552,-1322.5 1672,-1322.5 1672,-1303.5 1552,-1303.5"/>
 <text text-anchor="middle" x="1612" y="-1310.5" font-family="Helvetica,sans-Serif" font-size="10.00">GiveResourceWithLimit</text>
 </a>
@@ -5245,8 +5245,8 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node268&#45;&gt;Node14 -->
 <g id="edge564" class="edge"><title>Node268&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M1672.05,-1310.09C1743.35,-1306.58 1862.78,-1300.7 1935.87,-1297.11"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1936.05,-1300.6 1945.86,-1296.62 1935.7,-1293.61 1936.05,-1300.6"/>
+<path fill="none" stroke="midnightblue" d="M1672.05,-1310.09C1749.08,-1306.3 1882.31,-1299.74 1952.55,-1296.29"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1953.04,-1299.77 1962.86,-1295.78 1952.7,-1292.77 1953.04,-1299.77"/>
 </g>
 <!-- Node268&#45;&gt;Node240 -->
 <g id="edge565" class="edge"><title>Node268&#45;&gt;Node240</title>

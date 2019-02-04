@@ -154,7 +154,7 @@ Macros</h2></td></tr>
 <tr class="separator:aa2bcb1156b1b03549c9a8d6bc45e97c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a307c017362dc67218ed9fcce03381841"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db6/client_2miscfunctions_8qh.html#a307c017362dc67218ed9fcce03381841">HUD_ShiftY</a>(f)&#160;&#160;&#160;(f + hud_shift.y + hud_shift.z * (f - hud_scale_center.y))</td></tr>
 <tr class="separator:a307c017362dc67218ed9fcce03381841"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30122e95b404a119ce026ed3b92d0944"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(s)&#160;&#160;&#160;(((s).<a class="el" href="../../db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec">classname</a> == &quot;csqcmodel&quot;) ? (s).<a class="el" href="../../d9/d08/client_2defs_8qh.html#ae960f7b274cdaebd6bb5faa14d3ee15c">csqcmodel_isdead</a> : (<a class="el" href="../../d3/dd6/server_2resources_8qh.html#a41987053c5ea9c2c1c31b808887845e9">GetResourceAmount</a>((s), <a class="el" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04add4f7611e0b4061b847289f90e846a14">RESOURCE_HEALTH</a>) &lt;= 0))</td></tr>
+<tr class="memitem:a30122e95b404a119ce026ed3b92d0944"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(s)&#160;&#160;&#160;(((s).<a class="el" href="../../db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec">classname</a> == &quot;csqcmodel&quot;) ? (s).<a class="el" href="../../d9/d08/client_2defs_8qh.html#ae960f7b274cdaebd6bb5faa14d3ee15c">csqcmodel_isdead</a> : (<a class="el" href="../../d3/dd6/server_2resources_8qh.html#a53ec0a3c5a395e2b64d468c08f49b63f">GetResource</a>((s), <a class="el" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a499b33f203f88335e424f02b50f9978a">RES_HEALTH</a>) &lt;= 0))</td></tr>
 <tr class="separator:a30122e95b404a119ce026ed3b92d0944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afca582b58637cfce855d26f6cb2a75e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db6/client_2miscfunctions_8qh.html#afca582b58637cfce855d26f6cb2a75e6">SET_POS_AND_SZ_Y_ASPECT</a>(allow_colors)</td></tr>
 <tr class="separator:afca582b58637cfce855d26f6cb2a75e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -972,7 +972,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">s</td><td>)</td>
-          <td>&#160;&#160;&#160;(((s).<a class="el" href="../../db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec">classname</a> == &quot;csqcmodel&quot;) ? (s).<a class="el" href="../../d9/d08/client_2defs_8qh.html#ae960f7b274cdaebd6bb5faa14d3ee15c">csqcmodel_isdead</a> : (<a class="el" href="../../d3/dd6/server_2resources_8qh.html#a41987053c5ea9c2c1c31b808887845e9">GetResourceAmount</a>((s), <a class="el" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04add4f7611e0b4061b847289f90e846a14">RESOURCE_HEALTH</a>) &lt;= 0))</td>
+          <td>&#160;&#160;&#160;(((s).<a class="el" href="../../db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec">classname</a> == &quot;csqcmodel&quot;) ? (s).<a class="el" href="../../d9/d08/client_2defs_8qh.html#ae960f7b274cdaebd6bb5faa14d3ee15c">csqcmodel_isdead</a> : (<a class="el" href="../../d3/dd6/server_2resources_8qh.html#a53ec0a3c5a395e2b64d468c08f49b63f">GetResource</a>((s), <a class="el" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a499b33f203f88335e424f02b50f9978a">RES_HEALTH</a>) &lt;= 0))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3904,7 +3904,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d8/db6/client_2miscfunctions_8qh.html">miscfunctions.qh</a></li>
-    <li class="footer">Generated on Sun Feb 3 2019 16:49:09 for Xonotic by
+    <li class="footer">Generated on Mon Feb 4 2019 10:55:19 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

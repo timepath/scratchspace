@@ -365,9 +365,9 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" target="_top" xlink:title="Returns the current amount of resource the given entity has. ">
-<polygon fill="none" stroke="black" points="1470,-1254.5 1470,-1273.5 1578,-1273.5 1578,-1254.5 1470,-1254.5"/>
-<text text-anchor="middle" x="1524" y="-1261.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetResourceAmount</text>
+<g id="a_node12"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a53ec0a3c5a395e2b64d468c08f49b63f" target="_top" xlink:title="Returns the current amount of resource the given entity has. ">
+<polygon fill="none" stroke="black" points="1487,-1254.5 1487,-1273.5 1561,-1273.5 1561,-1254.5 1487,-1254.5"/>
+<text text-anchor="middle" x="1524" y="-1261.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetResource</text>
 </a>
 </g>
 </g>
@@ -391,7 +391,7 @@
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a94703297455af921f296d634ca643943" target="_top" xlink:title="Takes an entity some resource. ">
+<g id="a_node16"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a031a5073a6f47ef9ed1de8dfe48ceb65" target="_top" xlink:title="Takes an entity some resource. ">
 <polygon fill="none" stroke="black" points="1288,-2354.5 1288,-2373.5 1368,-2373.5 1368,-2354.5 1288,-2354.5"/>
 <text text-anchor="middle" x="1328" y="-2361.5" font-family="Helvetica,sans-Serif" font-size="10.00">TakeResource</text>
 </a>
@@ -680,9 +680,9 @@
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="../../d8/d06/client_2resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d" target="_top" xlink:title="Sets the current amount of resource the given entity will have. ">
-<polygon fill="none" stroke="black" points="1470.5,-1898.5 1470.5,-1917.5 1577.5,-1917.5 1577.5,-1898.5 1470.5,-1898.5"/>
-<text text-anchor="middle" x="1524" y="-1905.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetResourceAmount</text>
+<g id="a_node22"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a07f27dec0520a6bfdffc084639470886" target="_top" xlink:title="Sets the current amount of resource the given entity will have. ">
+<polygon fill="none" stroke="black" points="1487,-1898.5 1487,-1917.5 1561,-1917.5 1561,-1898.5 1487,-1898.5"/>
+<text text-anchor="middle" x="1524" y="-1905.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetResource</text>
 </a>
 </g>
 </g>
@@ -956,8 +956,8 @@
 </g>
 <!-- Node46&#45;&gt;Node22 -->
 <g id="edge68" class="edge"><title>Node46&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M1164.25,-1995.22C1187.05,-1988.02 1220.48,-1977.78 1250,-1970 1324.33,-1950.4 1411.01,-1931.36 1466.42,-1919.66"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1467.32,-1923.05 1476.39,-1917.56 1465.88,-1916.2 1467.32,-1923.05"/>
+<path fill="none" stroke="midnightblue" d="M1164.25,-1995.22C1187.05,-1988.02 1220.48,-1977.78 1250,-1970 1329.03,-1949.16 1422.03,-1928.95 1476.55,-1917.53"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1477.52,-1920.9 1486.6,-1915.43 1476.09,-1914.05 1477.52,-1920.9"/>
 </g>
 <!-- Node46&#45;&gt;Node46 -->
 <g id="edge73" class="edge"><title>Node46&#45;&gt;Node46</title>
@@ -1097,7 +1097,7 @@
 </g>
 <!-- Node55 -->
 <g id="node55" class="node"><title>Node55</title>
-<g id="a_node55"><a xlink:href="../../d4/d91/server_2resources_8qc.html#a88f207f357349ddd4d1f32b85d0c3f57" target="_top" xlink:title="Gives an entity some resource. ">
+<g id="a_node55"><a xlink:href="../../d4/d91/server_2resources_8qc.html#ab0a657f02ad46df5e2aa7f9f38428ff8" target="_top" xlink:title="Gives an entity some resource. ">
 <polygon fill="none" stroke="black" points="1288.5,-1330.5 1288.5,-1349.5 1367.5,-1349.5 1367.5,-1330.5 1288.5,-1330.5"/>
 <text text-anchor="middle" x="1328" y="-1337.5" font-family="Helvetica,sans-Serif" font-size="10.00">GiveResource</text>
 </a>
@@ -1236,12 +1236,12 @@
 </g>
 <!-- Node67&#45;&gt;Node12 -->
 <g id="edge110" class="edge"><title>Node67&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M595.415,-1499.26C623.868,-1449.5 761.534,-1226 939,-1226 939,-1226 939,-1226 1137,-1226 1251.23,-1226 1383.56,-1242.69 1459.85,-1253.94"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1459.37,-1257.41 1469.78,-1255.42 1460.4,-1250.49 1459.37,-1257.41"/>
+<path fill="none" stroke="midnightblue" d="M595.415,-1499.26C623.868,-1449.5 761.534,-1226 939,-1226 939,-1226 939,-1226 1137,-1226 1260.23,-1226 1404.53,-1245.42 1476.8,-1256.49"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1476.51,-1259.99 1486.93,-1258.06 1477.58,-1253.07 1476.51,-1259.99"/>
 </g>
 <!-- Node68 -->
 <g id="node68" class="node"><title>Node68</title>
-<g id="a_node68"><a xlink:href="../../d4/d91/server_2resources_8qc.html#a1b1ff2e419436cd7236668176c97c9ac" target="_top" xlink:title="Gives an entity some resource but not more than a limit. ">
+<g id="a_node68"><a xlink:href="../../d4/d91/server_2resources_8qc.html#a7c6f3edfddb9ea11b62e009c419f1e26" target="_top" xlink:title="Gives an entity some resource but not more than a limit. ">
 <polygon fill="none" stroke="black" points="1076,-1292.5 1076,-1311.5 1196,-1311.5 1196,-1292.5 1076,-1292.5"/>
 <text text-anchor="middle" x="1136" y="-1299.5" font-family="Helvetica,sans-Serif" font-size="10.00">GiveResourceWithLimit</text>
 </a>
@@ -1254,8 +1254,8 @@
 </g>
 <!-- Node68&#45;&gt;Node12 -->
 <g id="edge112" class="edge"><title>Node68&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M1196.09,-1297.24C1250.62,-1292.73 1333.83,-1285.54 1406,-1278 1423.43,-1276.18 1442.3,-1274.01 1459.7,-1271.93"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1460.24,-1275.39 1469.74,-1270.72 1459.4,-1268.44 1460.24,-1275.39"/>
+<path fill="none" stroke="midnightblue" d="M1196.09,-1297.24C1250.62,-1292.73 1333.83,-1285.54 1406,-1278 1429.34,-1275.56 1455.26,-1272.5 1476.76,-1269.86"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1477.43,-1273.3 1486.93,-1268.6 1476.57,-1266.35 1477.43,-1273.3"/>
 </g>
 <!-- Node68&#45;&gt;Node55 -->
 <g id="edge113" class="edge"><title>Node68&#45;&gt;Node55</title>
@@ -1274,8 +1274,8 @@
 </g>
 <!-- Node70&#45;&gt;Node22 -->
 <g id="edge118" class="edge"><title>Node70&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M981.642,-1996.4C1035.33,-1985.99 1132.61,-1965.84 1214,-1942 1230.33,-1937.22 1233.37,-1932.57 1250,-1929 1320.99,-1913.75 1404.45,-1909.22 1460.23,-1908.05"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1460.38,-1911.55 1470.32,-1907.87 1460.26,-1904.55 1460.38,-1911.55"/>
+<path fill="none" stroke="midnightblue" d="M981.642,-1996.4C1035.33,-1985.99 1132.61,-1965.84 1214,-1942 1230.33,-1937.22 1233.37,-1932.57 1250,-1929 1328.37,-1912.16 1421.95,-1908.39 1476.7,-1907.78"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1476.81,-1911.28 1486.78,-1907.7 1476.76,-1904.28 1476.81,-1911.28"/>
 </g>
 <!-- Node70&#45;&gt;Node46 -->
 <g id="edge119" class="edge"><title>Node70&#45;&gt;Node46</title>
@@ -1304,8 +1304,8 @@
 </g>
 <!-- Node72&#45;&gt;Node22 -->
 <g id="edge261" class="edge"><title>Node72&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M590.601,-1121.74C593.627,-1164.27 610.129,-1336.58 684,-1451 870.955,-1740.58 1307.25,-1861.17 1464.88,-1896.3"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1464.34,-1899.76 1474.86,-1898.49 1465.84,-1892.93 1464.34,-1899.76"/>
+<path fill="none" stroke="midnightblue" d="M590.601,-1121.74C593.627,-1164.27 610.129,-1336.58 684,-1451 875.963,-1748.34 1330.81,-1867.5 1476.94,-1898.94"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1476.41,-1902.41 1486.92,-1901.05 1477.86,-1895.56 1476.41,-1902.41"/>
 </g>
 <!-- Node72&#45;&gt;Node31 -->
 <g id="edge129" class="edge"><title>Node72&#45;&gt;Node31</title>
@@ -2170,8 +2170,8 @@
 </g>
 <!-- Node120&#45;&gt;Node12 -->
 <g id="edge206" class="edge"><title>Node120&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M944.98,-1424.22C957.026,-1396.08 996.105,-1314.93 1058,-1283 1126.24,-1247.8 1349.47,-1254.4 1459.93,-1260.13"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1459.77,-1263.62 1469.94,-1260.66 1460.14,-1256.63 1459.77,-1263.62"/>
+<path fill="none" stroke="midnightblue" d="M944.98,-1424.22C957.026,-1396.08 996.105,-1314.93 1058,-1283 1129.94,-1245.89 1374.13,-1255.23 1476.86,-1261.04"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1476.74,-1264.54 1486.93,-1261.63 1477.15,-1257.56 1476.74,-1264.54"/>
 </g>
 <!-- Node120&#45;&gt;Node22 -->
 <g id="edge208" class="edge"><title>Node120&#45;&gt;Node22</title>

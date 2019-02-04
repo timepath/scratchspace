@@ -100,7 +100,7 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d4/d91/server_2resources_8qc.html#a88f207f357349ddd4d1f32b85d0c3f57" target="_top" xlink:title="Gives an entity some resource. ">
+<g id="a_node5"><a xlink:href="../../d4/d91/server_2resources_8qc.html#ab0a657f02ad46df5e2aa7f9f38428ff8" target="_top" xlink:title="Gives an entity some resource. ">
 <polygon fill="none" stroke="black" points="189.5,-361.5 189.5,-380.5 268.5,-380.5 268.5,-361.5 189.5,-361.5"/>
 <text text-anchor="middle" x="229" y="-368.5" font-family="Helvetica,sans-Serif" font-size="10.00">GiveResource</text>
 </a>
@@ -113,16 +113,16 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d8/d06/client_2resources_8qc.html#aeb1e1a4f093400cfefbf59332798a93d" target="_top" xlink:title="Sets the current amount of resource the given entity will have. ">
-<polygon fill="none" stroke="black" points="340.5,-323.5 340.5,-342.5 447.5,-342.5 447.5,-323.5 340.5,-323.5"/>
-<text text-anchor="middle" x="394" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetResourceAmount</text>
+<g id="a_node8"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a07f27dec0520a6bfdffc084639470886" target="_top" xlink:title="Sets the current amount of resource the given entity will have. ">
+<polygon fill="none" stroke="black" points="357,-323.5 357,-342.5 431,-342.5 431,-323.5 357,-323.5"/>
+<text text-anchor="middle" x="394" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetResource</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge13" class="edge"><title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M109.187,-361.473C126.247,-358.07 145.967,-354.471 164,-352 219.853,-344.346 283.821,-339.352 329.927,-336.415"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="330.308,-339.898 340.071,-335.783 329.873,-332.911 330.308,-339.898"/>
+<path fill="none" stroke="midnightblue" d="M109.187,-361.473C126.247,-358.07 145.967,-354.471 164,-352 227.018,-343.364 300.368,-338.115 346.735,-335.384"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="346.994,-338.875 356.777,-334.807 346.592,-331.887 346.994,-338.875"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
@@ -157,16 +157,16 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a41987053c5ea9c2c1c31b808887845e9" target="_top" xlink:title="Returns the current amount of resource the given entity has. ">
-<polygon fill="none" stroke="black" points="340,-399.5 340,-418.5 448,-418.5 448,-399.5 340,-399.5"/>
-<text text-anchor="middle" x="394" y="-406.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetResourceAmount</text>
+<g id="a_node6"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a53ec0a3c5a395e2b64d468c08f49b63f" target="_top" xlink:title="Returns the current amount of resource the given entity has. ">
+<polygon fill="none" stroke="black" points="357,-399.5 357,-418.5 431,-418.5 431,-399.5 357,-399.5"/>
+<text text-anchor="middle" x="394" y="-406.5" font-family="Helvetica,sans-Serif" font-size="10.00">GetResource</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M268.629,-380.005C290.623,-385.133 318.44,-391.618 342.188,-397.154"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="341.553,-400.6 352.087,-399.462 343.143,-393.783 341.553,-400.6"/>
+<path fill="none" stroke="midnightblue" d="M268.629,-380.005C292.128,-385.484 322.274,-392.512 347.001,-398.276"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="346.348,-401.718 356.882,-400.58 347.938,-394.901 346.348,-401.718"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
@@ -183,8 +183,8 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node5&#45;&gt;Node8 -->
 <g id="edge8" class="edge"><title>Node5&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M268.629,-361.995C290.623,-356.867 318.44,-350.382 342.188,-344.846"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="343.143,-348.217 352.087,-342.538 341.553,-341.4 343.143,-348.217"/>
+<path fill="none" stroke="midnightblue" d="M268.629,-361.995C292.128,-356.516 322.274,-349.488 347.001,-343.724"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="347.938,-347.099 356.882,-341.42 346.348,-340.282 347.938,-347.099"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>

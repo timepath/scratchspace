@@ -1,11 +1,11 @@
 var client_2resources_8qh =
 [
-    [ "GetResourceAmount", "d0/d50/client_2resources_8qh.html#a41987053c5ea9c2c1c31b808887845e9", null ],
-    [ "GetResourceField", "d0/d50/client_2resources_8qh.html#a71dd6195c49049c92fe8bd28377ea1cf", null ],
-    [ "GetResourceType", "d0/d50/client_2resources_8qh.html#a46ef4f78ef7d5b3ef361c118c2999172", null ],
-    [ "SetResourceAmount", "d0/d50/client_2resources_8qh.html#aeb1e1a4f093400cfefbf59332798a93d", null ],
-    [ "TakeResource", "d0/d50/client_2resources_8qh.html#a94703297455af921f296d634ca643943", null ],
-    [ "TakeResourceWithLimit", "d0/d50/client_2resources_8qh.html#ad388ffc3b3efbe73d4ff318f2281d429", null ],
+    [ "GetResource", "d0/d50/client_2resources_8qh.html#a53ec0a3c5a395e2b64d468c08f49b63f", null ],
+    [ "GetResourceField", "d0/d50/client_2resources_8qh.html#abd0a415be4ae30b28fc11e8dd858e736", null ],
+    [ "GetResourceType", "d0/d50/client_2resources_8qh.html#a437056fcc28643aab2513646bc4a5988", null ],
+    [ "SetResource", "d0/d50/client_2resources_8qh.html#a07f27dec0520a6bfdffc084639470886", null ],
+    [ "TakeResource", "d0/d50/client_2resources_8qh.html#a031a5073a6f47ef9ed1de8dfe48ceb65", null ],
+    [ "TakeResourceWithLimit", "d0/d50/client_2resources_8qh.html#a1b0d678afb4b07e0f698c37f5eedecce", null ],
     [ "armorvalue", "d0/d50/client_2resources_8qh.html#a8f1fedffff0fe0b96c93d099a3aa02b9", null ],
     [ "health", "d0/d50/client_2resources_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5", null ]
 ];

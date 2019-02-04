@@ -149,7 +149,7 @@ var searchData=
   ['ev_5fresourcewasted',['EV_ResourceWasted',['../d6/ddd/server_2mutators_2events_8qh.html#a8da6b170da464b2ec7e80f7054273363',1,'events.qh']]],
   ['ev_5fsendwaypoint',['EV_SendWaypoint',['../d6/ddd/server_2mutators_2events_8qh.html#a5e8573b30805433fe6403406ffe9a9cc',1,'events.qh']]],
   ['ev_5fsetmodname',['EV_SetModname',['../d6/ddd/server_2mutators_2events_8qh.html#a533943d2612da3ee1d4b8715ed59e6cb',1,'events.qh']]],
-  ['ev_5fsetresourceamount',['EV_SetResourceAmount',['../d6/ddd/server_2mutators_2events_8qh.html#a83623e65c39d6c2f247c7c8a866fdae2',1,'events.qh']]],
+  ['ev_5fsetresource',['EV_SetResource',['../d6/ddd/server_2mutators_2events_8qh.html#ab0c647e82f4e5af11e0975c2b3c7112b',1,'events.qh']]],
   ['ev_5fsetweaponarena',['EV_SetWeaponArena',['../d6/ddd/server_2mutators_2events_8qh.html#af89a99ddd5f875229218867fdd19109b',1,'events.qh']]],
   ['ev_5fsetweaponreplace',['EV_SetWeaponreplace',['../d6/ddd/server_2mutators_2events_8qh.html#a39e2db370cd7a1e148594c4d17fe0d1f',1,'events.qh']]],
   ['ev_5fskeleton_5fcheckbones',['EV_Skeleton_CheckBones',['../d8/d0e/client_2mutators_2events_8qh.html#a5e5156dd306c9a01e35a9e4d3c28f43e',1,'events.qh']]],

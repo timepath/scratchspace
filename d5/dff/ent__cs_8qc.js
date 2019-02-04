@@ -10,7 +10,7 @@ var ent__cs_8qc =
     [ "ENTCS_PROP", "d5/dff/ent__cs_8qc.html#a6776fb05fb16d18dcb52e0a3f76ee985", null ],
     [ "ENTCS_PROP", "d5/dff/ent__cs_8qc.html#a5c103f2e0392faffa43e379537466777", null ],
     [ "ENTCS_PROP_CODED", "d5/dff/ent__cs_8qc.html#ab7aec458a9867afd9c40669371cd0349", null ],
-    [ "ENTCS_PROP_RESOURCE", "d5/dff/ent__cs_8qc.html#ad98182efcb4574e7afa51e54651677ab", null ],
+    [ "ENTCS_PROP_RESOURCE", "d5/dff/ent__cs_8qc.html#af9b05f09e4802dfc6913a588b4872288", null ],
     [ "setorigin", "d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8", null ],
     [ "STATIC_INIT", "d5/dff/ent__cs_8qc.html#a38c6f68880542a1bcf0d6cee6e17943a", null ],
     [ "STATIC_INIT", "d5/dff/ent__cs_8qc.html#a5ebe4353360749c483e3471f90f1cedf", null ],
@@ -27,7 +27,7 @@ var ent__cs_8qc =
     [ "m_public", "d5/dff/ent__cs_8qc.html#a4d9f8f3fc6976dad79e966bcbb5a63f9", null ],
     [ "netname", "d5/dff/ent__cs_8qc.html#af3ff537bf0c985dddd5e8e458fd701dd", null ],
     [ "origin", "d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3", null ],
-    [ "RESOURCE_HEALTH", "d5/dff/ent__cs_8qc.html#a8394e59edbb08b1e4fb28fb7ea60d1cc", null ],
+    [ "RES_HEALTH", "d5/dff/ent__cs_8qc.html#ad2d7a2f4fd344b8f21d7b07ca2fd9346", null ],
     [ "skin", "d5/dff/ent__cs_8qc.html#a4a71e1a0228e5137bd88f375acd8c15c", null ],
     [ "true", "d5/dff/ent__cs_8qc.html#a1a24fc2eb8c1af6d06ac15bcec47f088", null ],
     [ "v", "d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669", null ]

@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('d8/db6/client_2miscfunctions_8qh_sourc
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#ad91aed42765e2e8c710999dfdcbac770">Rotate</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, <span class="keywordtype">float</span> a);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">   37</a></span>&#160;<span class="preprocessor">#define IS_DEAD(s) (((s).classname == &quot;csqcmodel&quot;) ? (s).csqcmodel_isdead : (GetResourceAmount((s), RESOURCE_HEALTH) &lt;= 0))</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">   37</a></span>&#160;<span class="preprocessor">#define IS_DEAD(s) (((s).classname == &quot;csqcmodel&quot;) ? (s).csqcmodel_isdead : (GetResource((s), RES_HEALTH) &lt;= 0))</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">// decolorizes and team colors the player name when needed</span></div>
@@ -385,7 +385,7 @@ $(document).ready(function(){initNavTree('d8/db6/client_2miscfunctions_8qh_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d8/db6/client_2miscfunctions_8qh.html">miscfunctions.qh</a></li>
-    <li class="footer">Generated on Sun Feb 3 2019 16:49:03 for Xonotic by
+    <li class="footer">Generated on Mon Feb 4 2019 10:55:13 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
