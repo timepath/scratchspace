@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"d3/d42/animdecide_8qh_source.html":[2,0,1,23],
 "d3/d45/dialog__settings__misc__cvars_8qc.html":[2,0,5,4,146],
 "d3/d45/dialog__settings__misc__cvars_8qc.html#a6c94b7330c3e7e6f67707875b1e3297c":[2,0,5,4,146,0],
 "d3/d45/dialog__settings__misc__cvars_8qc.html#a8aa8d70f55cad2a44f1d58fa76b03768":[2,0,5,4,146,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "d3/d52/classXonoticResetDialog.html#a49ba7b9737604d22bf24d6145473d080":[1,0,234,57],
 "d3/d52/classXonoticResetDialog.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,234,23],
 "d3/d52/classXonoticResetDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,234,48],
-"d3/d52/classXonoticResetDialog.html#a4b8c9e63601c244aa3458ba7bad36bd9":[1,0,234,85],
-"d3/d52/classXonoticResetDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,234,26]
+"d3/d52/classXonoticResetDialog.html#a4b8c9e63601c244aa3458ba7bad36bd9":[1,0,234,85]
 };

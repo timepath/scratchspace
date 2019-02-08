@@ -9,6 +9,7 @@ var server_2resources_8qc =
     [ "GiveResource", "d4/d91/server_2resources_8qc.html#ab0a657f02ad46df5e2aa7f9f38428ff8", null ],
     [ "GiveResourceWithLimit", "d4/d91/server_2resources_8qc.html#a7c6f3edfddb9ea11b62e009c419f1e26", null ],
     [ "SetResource", "d4/d91/server_2resources_8qc.html#a07f27dec0520a6bfdffc084639470886", null ],
+    [ "SetResourceExplicit", "d4/d91/server_2resources_8qc.html#aac64e7b0dde144256d4f447c8a4ba3d0", null ],
     [ "TakeResource", "d4/d91/server_2resources_8qc.html#a031a5073a6f47ef9ed1de8dfe48ceb65", null ],
     [ "TakeResourceWithLimit", "d4/d91/server_2resources_8qc.html#a1b0d678afb4b07e0f698c37f5eedecce", null ]
 ];

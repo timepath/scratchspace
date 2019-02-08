@@ -1,24 +1,25 @@
 <map id="MUTATOR_HOOKFUNCTION" name="MUTATOR_HOOKFUNCTION">
-<area shape="rect" id="node2" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="305,5,362,32"/>
+<area shape="rect" id="node2" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="305,32,362,59"/>
 <area shape="rect" id="node3" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="782,132,837,159"/>
-<area shape="rect" id="node4" href="$d3/d60/sv__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5" title="freezetag_count_alive\l_players" alt="" coords="259,302,408,343"/>
-<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="310,368,357,395"/>
-<area shape="rect" id="node16" href="$d3/d60/sv__freezetag_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3" title="nades_GiveBonus" alt="" coords="269,419,397,445"/>
-<area shape="rect" id="node17" href="$d8/d06/client_2resources_8qc.html#a07f27dec0520a6bfdffc084639470886" title="Sets the current amount of resource the given entity will have. " alt="" coords="515,208,613,235"/>
-<area shape="rect" id="node18" href="$d5/dac/g__damage_8qc.html#acc99d1a4f941f72826f41d22d035dcee" title="Unfreeze" alt="" coords="296,168,371,195"/>
-<area shape="rect" id="node23" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="304,469,363,496"/>
-<area shape="rect" id="node5" href="$de/d4f/teamplay_8qc.html#a361810464bed269f4adfdde1177100bf" title="Returns the team entity of the given entity. " alt="" coords="505,512,623,539"/>
-<area shape="rect" id="node9" href="$de/d4f/teamplay_8qc.html#ad8e889fc6c60b768543862d4e3454a49" title="Returns the global team entity at the given index. " alt="" coords="720,563,899,589"/>
-<area shape="rect" id="node10" href="$de/d4f/teamplay_8qc.html#aad39064989d234d4d486a31899e4f137" title="Returns whether the given entity belongs to a valid team. " alt="" coords="489,461,639,488"/>
-<area shape="rect" id="node12" href="$d8/d06/client_2resources_8qc.html#a53ec0a3c5a395e2b64d468c08f49b63f" title="Returns the current amount of resource the given entity has. " alt="" coords="515,309,613,336"/>
-<area shape="rect" id="node13" href="$de/d4f/teamplay_8qc.html#a2765472626f92378c08a7de683d8555d" title="Returns the number of alive players in a team. " alt="" coords="456,360,672,387"/>
-<area shape="rect" id="node14" href="$de/d4f/teamplay_8qc.html#ad893032506a755dcca370f86840e3b28" title="Sets the number of alive players in a team. " alt="" coords="457,411,671,437"/>
-<area shape="rect" id="node6" href="$de/d4f/teamplay_8qc.html#a22c172b1bbd702efeb58f24a2cb5ac27" title="Returns the team index of the given entity. " alt="" coords="735,461,884,488"/>
-<area shape="rect" id="node8" href="$db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001" title="Returns whether the team index is valid. " alt="" coords="951,537,1086,564"/>
-<area shape="rect" id="node7" href="$db/d07/teams_8qh.html#a897aed6be6a82e4d6622abde399e002d" title="Converts team value into team index. " alt="" coords="947,461,1090,488"/>
-<area shape="rect" id="node11" href="$db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7" title="Returns whether team value is valid. " alt="" coords="742,411,877,437"/>
-<area shape="rect" id="node19" href="$d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" title="Push to tail. " alt="" coords="525,157,603,184"/>
-<area shape="rect" id="node21" href="$d7/de2/g__hook_8qc.html#a50f68d93243e10c5a552caae3c7a2413" title="RemoveHook" alt="" coords="513,107,615,133"/>
-<area shape="rect" id="node20" href="$d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" title="IL_CONTAINS" alt="" coords="754,183,865,209"/>
-<area shape="rect" id="node22" href="$d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78" title="set_movetype" alt="" coords="757,81,861,108"/>
+<area shape="rect" id="node4" href="$d3/d60/sv__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5" title="freezetag_count_alive\l_players" alt="" coords="259,277,408,318"/>
+<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="310,343,357,369"/>
+<area shape="rect" id="node16" href="$d3/d60/sv__freezetag_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3" title="nades_GiveBonus" alt="" coords="269,393,397,420"/>
+<area shape="rect" id="node17" href="$d8/d06/client_2resources_8qc.html#aac64e7b0dde144256d4f447c8a4ba3d0" title="Sets the resource amount of an entity without calling any hooks. " alt="" coords="263,444,404,471"/>
+<area shape="rect" id="node18" href="$d5/dac/g__damage_8qc.html#acc99d1a4f941f72826f41d22d035dcee" title="Unfreeze" alt="" coords="296,107,371,133"/>
+<area shape="rect" id="node24" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="304,495,363,521"/>
+<area shape="rect" id="node5" href="$de/d4f/teamplay_8qc.html#a361810464bed269f4adfdde1177100bf" title="Returns the team entity of the given entity. " alt="" coords="505,461,623,488"/>
+<area shape="rect" id="node9" href="$de/d4f/teamplay_8qc.html#ad8e889fc6c60b768543862d4e3454a49" title="Returns the global team entity at the given index. " alt="" coords="720,512,899,539"/>
+<area shape="rect" id="node10" href="$de/d4f/teamplay_8qc.html#aad39064989d234d4d486a31899e4f137" title="Returns whether the given entity belongs to a valid team. " alt="" coords="489,411,639,437"/>
+<area shape="rect" id="node12" href="$d8/d06/client_2resources_8qc.html#a53ec0a3c5a395e2b64d468c08f49b63f" title="Returns the current amount of resource the given entity has. " alt="" coords="515,259,613,285"/>
+<area shape="rect" id="node13" href="$de/d4f/teamplay_8qc.html#a2765472626f92378c08a7de683d8555d" title="Returns the number of alive players in a team. " alt="" coords="456,309,672,336"/>
+<area shape="rect" id="node14" href="$de/d4f/teamplay_8qc.html#ad893032506a755dcca370f86840e3b28" title="Sets the number of alive players in a team. " alt="" coords="457,360,671,387"/>
+<area shape="rect" id="node6" href="$de/d4f/teamplay_8qc.html#a22c172b1bbd702efeb58f24a2cb5ac27" title="Returns the team index of the given entity. " alt="" coords="735,411,884,437"/>
+<area shape="rect" id="node8" href="$db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001" title="Returns whether the team index is valid. " alt="" coords="951,487,1086,513"/>
+<area shape="rect" id="node7" href="$db/d07/teams_8qh.html#a897aed6be6a82e4d6622abde399e002d" title="Converts team value into team index. " alt="" coords="947,411,1090,437"/>
+<area shape="rect" id="node11" href="$db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7" title="Returns whether team value is valid. " alt="" coords="742,360,877,387"/>
+<area shape="rect" id="node19" href="$d8/d06/client_2resources_8qc.html#a07f27dec0520a6bfdffc084639470886" title="Sets the current amount of resource the given entity will have. " alt="" coords="515,107,613,133"/>
+<area shape="rect" id="node20" href="$d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" title="Push to tail. " alt="" coords="525,5,603,32"/>
+<area shape="rect" id="node22" href="$d7/de2/g__hook_8qc.html#a50f68d93243e10c5a552caae3c7a2413" title="RemoveHook" alt="" coords="513,56,615,83"/>
+<area shape="rect" id="node21" href="$d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" title="IL_CONTAINS" alt="" coords="754,5,865,32"/>
+<area shape="rect" id="node23" href="$d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78" title="set_movetype" alt="" coords="757,56,861,83"/>
 </map>

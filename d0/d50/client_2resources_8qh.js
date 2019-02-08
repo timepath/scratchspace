@@ -4,6 +4,7 @@ var client_2resources_8qh =
     [ "GetResourceField", "d0/d50/client_2resources_8qh.html#abd0a415be4ae30b28fc11e8dd858e736", null ],
     [ "GetResourceType", "d0/d50/client_2resources_8qh.html#a437056fcc28643aab2513646bc4a5988", null ],
     [ "SetResource", "d0/d50/client_2resources_8qh.html#a07f27dec0520a6bfdffc084639470886", null ],
+    [ "SetResourceExplicit", "d0/d50/client_2resources_8qh.html#aac64e7b0dde144256d4f447c8a4ba3d0", null ],
     [ "TakeResource", "d0/d50/client_2resources_8qh.html#a031a5073a6f47ef9ed1de8dfe48ceb65", null ],
     [ "TakeResourceWithLimit", "d0/d50/client_2resources_8qh.html#a1b0d678afb4b07e0f698c37f5eedecce", null ],
     [ "armorvalue", "d0/d50/client_2resources_8qh.html#a8f1fedffff0fe0b96c93d099a3aa02b9", null ],

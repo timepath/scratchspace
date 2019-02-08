@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"d3/dce/classXonoticTab.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,255,6],
 "d3/dce/classXonoticTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,255,46],
 "d3/dce/classXonoticTab.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,255,55],
 "d3/dce/classXonoticTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,255,0],
@@ -156,15 +157,16 @@ var NAVTREEINDEX31 =
 "d3/dd5/bd_8qc.html#afe9c277643ffc32e37baccc473968cb6":[2,0,1,7,0,3,60],
 "d3/dd5/bd_8qc_source.html":[2,0,1,7,0,3],
 "d3/dd6/server_2resources_8qh.html":[2,0,6,51],
-"d3/dd6/server_2resources_8qh.html#a031a5073a6f47ef9ed1de8dfe48ceb65":[2,0,6,51,9],
+"d3/dd6/server_2resources_8qh.html#a031a5073a6f47ef9ed1de8dfe48ceb65":[2,0,6,51,10],
 "d3/dd6/server_2resources_8qh.html#a07f27dec0520a6bfdffc084639470886":[2,0,6,51,8],
-"d3/dd6/server_2resources_8qh.html#a1b0d678afb4b07e0f698c37f5eedecce":[2,0,6,51,10],
+"d3/dd6/server_2resources_8qh.html#a1b0d678afb4b07e0f698c37f5eedecce":[2,0,6,51,11],
 "d3/dd6/server_2resources_8qh.html#a437056fcc28643aab2513646bc4a5988":[2,0,6,51,3],
 "d3/dd6/server_2resources_8qh.html#a53ec0a3c5a395e2b64d468c08f49b63f":[2,0,6,51,0],
 "d3/dd6/server_2resources_8qh.html#a5ec274ded255ae9f57af17ad8616e56d":[2,0,6,51,4],
 "d3/dd6/server_2resources_8qh.html#a7c3c91197c9bd5420e5e751e939fe460":[2,0,6,51,5],
 "d3/dd6/server_2resources_8qh.html#a7c6f3edfddb9ea11b62e009c419f1e26":[2,0,6,51,7],
 "d3/dd6/server_2resources_8qh.html#a807ebc197b3606803d9db79f052ac4c5":[2,0,6,51,2],
+"d3/dd6/server_2resources_8qh.html#aac64e7b0dde144256d4f447c8a4ba3d0":[2,0,6,51,9],
 "d3/dd6/server_2resources_8qh.html#ab0a657f02ad46df5e2aa7f9f38428ff8":[2,0,6,51,6],
 "d3/dd6/server_2resources_8qh.html#abd0a415be4ae30b28fc11e8dd858e736":[2,0,6,51,1],
 "d3/dd6/server_2resources_8qh_source.html":[2,0,6,51],
@@ -247,7 +249,5 @@ var NAVTREEINDEX31 =
 "d3/de1/cl__physics_8qc_source.html":[2,0,3,2,2],
 "d3/de2/effectinfo_8qh.html":[2,0,1,2,9],
 "d3/de2/effectinfo_8qh_source.html":[2,0,1,2,9],
-"d3/de3/classHellionAttack.html":[1,0,50],
-"d3/de3/classHellionAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,50,36],
-"d3/de3/classHellionAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,50,20]
+"d3/de3/classHellionAttack.html":[1,0,50]
 };
