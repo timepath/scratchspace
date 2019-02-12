@@ -55,7 +55,7 @@ var dir_97aefd0d527b934f1d99a682da8fe6a9 =
     [ "sort.qh", "db/def/sort_8qh.html", "db/def/sort_8qh" ],
     [ "sortlist.qc", "dd/d85/sortlist_8qc.html", "dd/d85/sortlist_8qc" ],
     [ "sortlist.qh", "dd/d50/sortlist_8qh.html", "dd/d50/sortlist_8qh" ],
-    [ "spawnfunc.qh", "da/d20/spawnfunc_8qh.html", "da/d20/spawnfunc_8qh" ],
+    [ "spawnfunc.qh", "da/d20/spawnfunc_8qh.html", null ],
     [ "static.qh", "d4/d1a/static_8qh.html", "d4/d1a/static_8qh" ],
     [ "stats.qh", "d0/ddd/lib_2stats_8qh.html", "d0/ddd/lib_2stats_8qh" ],
     [ "string.qh", "d2/db4/string_8qh.html", "d2/db4/string_8qh" ],

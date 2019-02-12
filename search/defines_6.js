@@ -1,15 +1,9 @@
 var searchData=
 [
   ['fail',['FAIL',['../d4/d5b/test_8qh.html#a292ad803e75cf5ca00676b8595513ace',1,'test.qh']]],
-  ['false',['false',['../da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727',1,'false():&#160;csprogsdefs.qh'],['../d0/d95/menudefs_8qh.html#a65e9886d74aaee76545e83dd09011727',1,'false():&#160;menudefs.qh'],['../d8/dc0/progsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727',1,'false():&#160;progsdefs.qh'],['../da/dde/csprogsdefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1',1,'FALSE():&#160;csprogsdefs.qh'],['../d0/d95/menudefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1',1,'FALSE():&#160;menudefs.qh'],['../d8/dc0/progsdefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1',1,'FALSE():&#160;progsdefs.qh']]],
+  ['false',['FALSE',['../da/dde/csprogsdefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1',1,'FALSE():&#160;csprogsdefs.qh'],['../d0/d95/menudefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1',1,'FALSE():&#160;menudefs.qh'],['../d8/dc0/progsdefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1',1,'FALSE():&#160;progsdefs.qh'],['../da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727',1,'false():&#160;csprogsdefs.qh'],['../d0/d95/menudefs_8qh.html#a65e9886d74aaee76545e83dd09011727',1,'false():&#160;menudefs.qh'],['../d8/dc0/progsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727',1,'false():&#160;progsdefs.qh']]],
   ['field',['FIELD',['../d4/db7/cl__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7',1,'FIELD():&#160;cl_minigames.qc'],['../d4/db7/cl__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7',1,'FIELD():&#160;cl_minigames.qc'],['../d7/d33/sv__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7',1,'FIELD():&#160;sv_minigames.qc']]],
-  ['field_5fscalar',['FIELD_SCALAR',['../da/d20/spawnfunc_8qh.html#a0b9d427233f1fc585de8da601a0d3f38',1,'spawnfunc.qh']]],
-  ['field_5fvec',['FIELD_VEC',['../da/d20/spawnfunc_8qh.html#a82f4dd939d49e3dbc4926a5823ffb0c8',1,'spawnfunc.qh']]],
   ['fields',['FIELDS',['../dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b',1,'effectinfo.qc']]],
-  ['fields_5fall',['FIELDS_ALL',['../da/d20/spawnfunc_8qh.html#ab76cf6e2005f73caa6f26550a642fdb0',1,'spawnfunc.qh']]],
-  ['fields_5fcommon',['FIELDS_COMMON',['../da/d20/spawnfunc_8qh.html#a88ddff5232ca6a3ebf1e0c263da3576b',1,'spawnfunc.qh']]],
-  ['fields_5fnone',['FIELDS_NONE',['../da/d20/spawnfunc_8qh.html#aa84e4fe4fa33b1c501a7b73363c7cc2f',1,'spawnfunc.qh']]],
-  ['fields_5funion',['FIELDS_UNION',['../da/d20/spawnfunc_8qh.html#a6db22713f1e01f024520460c92911ade',1,'spawnfunc.qh']]],
   ['fix_5fframetime',['FIX_FRAMETIME',['../dc/d3d/csqcmodel__hooks_8qc.html#ac19ec3f81ef5660364e37a797b3d2a95',1,'csqcmodel_hooks.qc']]],
   ['fixedmakevectors',['fixedmakevectors',['../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e',1,'anglestransform.qh']]],
   ['fixedvectoangles',['fixedvectoangles',['../df/dee/anglestransform_8qh.html#ab16e50b7b9398057b0e28c85b20d6ca5',1,'anglestransform.qh']]],

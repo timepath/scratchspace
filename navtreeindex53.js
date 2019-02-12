@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"d6/d15/classXonoticWeaponsList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,265,37],
 "d6/d15/classXonoticWeaponsList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,265,15],
 "d6/d15/classXonoticWeaponsList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,265,57],
 "d6/d15/classXonoticWeaponsList.html#aec898bd435ad9b49d25c605c7cd4df17":[1,0,265,65],
@@ -154,9 +155,10 @@ var NAVTREEINDEX53 =
 "d6/d1a/classModalController.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,82,29],
 "d6/d1a/classModalController.html#afc37ae459c4e9167272f3b7dc10c6c45":[1,0,82,12],
 "d6/d1c/weapons_2config_8qc.html":[2,0,1,16,10],
-"d6/d1c/weapons_2config_8qc.html#a171f7fe10ce3530bccc733d80a50c7e6":[2,0,1,16,10,2],
-"d6/d1c/weapons_2config_8qc.html#a77363565e51ceb80f230ad7020747f23":[2,0,1,16,10,0],
-"d6/d1c/weapons_2config_8qc.html#accb173662eea2523d629cb8f7381ec51":[2,0,1,16,10,1],
+"d6/d1c/weapons_2config_8qc.html#a171f7fe10ce3530bccc733d80a50c7e6":[2,0,1,16,10,3],
+"d6/d1c/weapons_2config_8qc.html#a543b990813e5cae82b7f27c875589de9":[2,0,1,16,10,0],
+"d6/d1c/weapons_2config_8qc.html#a77363565e51ceb80f230ad7020747f23":[2,0,1,16,10,1],
+"d6/d1c/weapons_2config_8qc.html#accb173662eea2523d629cb8f7381ec51":[2,0,1,16,10,2],
 "d6/d1c/weapons_2config_8qc_source.html":[2,0,1,16,10],
 "d6/d25/triggers_8qh.html":[2,0,1,6,16],
 "d6/d25/triggers_8qh.html#a016abda2855c77dcc1630f9d2f9f8d18":[2,0,1,6,16,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "d6/d27/scripting_8qc.html#af9f73d37d16d0fa7815d9bce888af483":[2,0,6,0,0,11,60],
 "d6/d27/scripting_8qc.html#afce44d266501b8e5f980a8c89b1e35e7":[2,0,6,0,0,11,29],
 "d6/d27/scripting_8qc.html#afd2c66dcbc6acd06c70014204f880b16":[2,0,6,0,0,11,62],
-"d6/d27/scripting_8qc_source.html":[2,0,6,0,0,11],
-"d6/d29/anticheat_8qc.html":[2,0,6,8],
-"d6/d29/anticheat_8qc.html#a061e1f4db8a4e99ba4c89b4ee24b5ea8":[2,0,6,8,18]
+"d6/d27/scripting_8qc_source.html":[2,0,6,0,0,11]
 };

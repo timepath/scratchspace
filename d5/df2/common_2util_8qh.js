@@ -47,6 +47,7 @@ var common_2util_8qh =
     [ "textShortenToWidth", "d5/df2/common_2util_8qh.html#aa1c30c930feeac7a589f75ef6d984bcf", null ],
     [ "wordwrap", "d5/df2/common_2util_8qh.html#ad685ca07f0d3d06a0b8f109a25114ceb", null ],
     [ "wordwrap_cb", "d5/df2/common_2util_8qh.html#a1c708493a4e4d0c7a50fbfec0c256f9c", null ],
+    [ "write_String_To_File", "d5/df2/common_2util_8qh.html#ae728a9c68ce46e764dc8225c4c5f5cfd", null ],
     [ "xdecode", "d5/df2/common_2util_8qh.html#a2a5b72f03e72d2dc7dcc77613290c1f4", null ],
     [ "xencode", "d5/df2/common_2util_8qh.html#a13c26cd88e3905c0852467115ff159cb", null ],
     [ "draw_currentSkin", "d5/df2/common_2util_8qh.html#a2487aefe8b9f0c9382be0e1b7d696ce9", null ],

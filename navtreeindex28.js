@@ -1,6 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"d3/d6b/menu_2mutators_2events_8qc.html":[2,0,5,3,2],
 "d3/d6b/menu_2mutators_2events_8qc_source.html":[2,0,5,3,2],
 "d3/d70/menu_2progs_8inc.html":[2,0,5,17],
 "d3/d70/menu_2progs_8inc_source.html":[2,0,5,17],
@@ -249,5 +248,6 @@ var NAVTREEINDEX28 =
 "d3/d9c/counter_8qh.html#a714b761a8590742eafa366fb845cd483":[2,0,1,6,3,3,0],
 "d3/d9c/counter_8qh.html#ab7a8acadf32c0bafb4f36984c5a019ab":[2,0,1,6,3,3,1],
 "d3/d9c/counter_8qh_source.html":[2,0,1,6,3,3],
-"d3/d9c/plasma__dual_8qc.html":[2,0,1,14,0,34]
+"d3/d9c/plasma__dual_8qc.html":[2,0,1,14,0,34],
+"d3/d9c/plasma__dual_8qc_source.html":[2,0,1,14,0,34]
 };

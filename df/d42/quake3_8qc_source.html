@@ -281,7 +281,7 @@ $(document).ready(function(){initNavTree('df/d42/quake3_8qc_source.html','../../
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        it.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    });</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> = 2;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    this.<a class="code" href="../../da/d20/spawnfunc_8qh.html#acf818192a10457d834cc057718d25ad3">spawnfunc_checked</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    this.spawnfunc_checked = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    spawnfunc_target_items(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#aef9b6a1e3d47e62ce4d96e73b3dba237">InitializeEntity</a>(<span class="keyword">this</span>, <a class="code" href="../../df/d42/quake3_8qc.html#a61742c0334dce4be11adeb7ba6664685">target_init_verify</a>, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a>);</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;}</div>
@@ -455,7 +455,6 @@ $(document).ready(function(){initNavTree('df/d42/quake3_8qc_source.html','../../
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="csprogsdefs_8qh_html_aeda5446032a08fece73ec569b861a72c"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c">use</a></div><div class="ttdeci">#define use</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dde/csprogsdefs_8qh_source.html#l00043">csprogsdefs.qh:43</a></div></div>
 <div class="ttc" id="string_8qh_html_ab3eb2270af4613832a52d512e62e4f40"><div class="ttname"><a href="../../d2/db4/string_8qh.html#ab3eb2270af4613832a52d512e62e4f40">cons</a></div><div class="ttdeci">ERASEABLE string cons(string a, string b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00190">string.qh:190</a></div></div>
-<div class="ttc" id="spawnfunc_8qh_html_acf818192a10457d834cc057718d25ad3"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#acf818192a10457d834cc057718d25ad3">spawnfunc_checked</a></div><div class="ttdeci">bool spawnfunc_checked</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00005">spawnfunc.qh:5</a></div></div>
 <div class="ttc" id="quake3_8qc_html_a9d332582c2bec448cb50598d5d39bbd2"><div class="ttname"><a href="../../df/d42/quake3_8qc.html#a9d332582c2bec448cb50598d5d39bbd2">notfree</a></div><div class="ttdeci">float notfree</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d42/quake3_8qc_source.html#l00231">quake3.qc:231</a></div></div>
 <div class="ttc" id="common_2items_2item_2ammo_8qh_html_acc258bdef877e65e97005690d5d4377b"><div class="ttname"><a href="../../de/d43/common_2items_2item_2ammo_8qh.html#acc258bdef877e65e97005690d5d4377b">ammo_rockets</a></div><div class="ttdeci">int ammo_rockets</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d43/common_2items_2item_2ammo_8qh_source.html#l00014">ammo.qh:14</a></div></div>
 <div class="ttc" id="quake3_8qc_html_abaec4a24bf36aa1665bbdb27e217f819"><div class="ttname"><a href="../../df/d42/quake3_8qc.html#abaec4a24bf36aa1665bbdb27e217f819">fragsfilter_use</a></div><div class="ttdeci">void fragsfilter_use(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d42/quake3_8qc_source.html#l00202">quake3.qc:202</a></div></div>
@@ -471,7 +470,7 @@ $(document).ready(function(){initNavTree('df/d42/quake3_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_bbe38578498df534a0ce6f3162a4def1.html">compat</a></li><li class="navelem"><a class="el" href="../../df/d42/quake3_8qc.html">quake3.qc</a></li>
-    <li class="footer">Generated on Tue Feb 12 2019 09:16:24 for Xonotic by
+    <li class="footer">Generated on Tue Feb 12 2019 18:09:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

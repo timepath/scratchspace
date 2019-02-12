@@ -2,7 +2,6 @@ var searchData=
 [
   ['_5f_5fautocvar',['__AUTOCVAR',['../d0/d4f/cvar_8qh.html#ad829a97772ab6b1521d3cee89f1d57e7',1,'cvar.qh']]],
   ['_5f_5fsourceloc_5f_5f',['__SOURCELOC__',['../db/da0/log_8qh.html#a6aebf22c1f26cea3e620968d6e8a4022',1,'log.qh']]],
-  ['_5f_5fspawnfunc_5fspawn_5fall',['__spawnfunc_spawn_all',['../da/d20/spawnfunc_8qh.html#accf25e4d095ddcca539fa7bf35d2e64b',1,'spawnfunc.qh']]],
   ['_5fal_5ftype_5f_5fe',['_AL_type__e',['../d2/d74/arraylist_8qh.html#aedcc756ec90880e55ffdd902526acb6d',1,'arraylist.qh']]],
   ['_5fal_5ftype_5f_5ff',['_AL_type__f',['../d2/d74/arraylist_8qh.html#a618381e74f9c2944725ff61f9ac2fb63',1,'arraylist.qh']]],
   ['_5fal_5ftype_5f_5fs',['_AL_type__s',['../d2/d74/arraylist_8qh.html#a169167365710678425e87eef9f2188c4',1,'arraylist.qh']]],
@@ -47,8 +46,6 @@ var searchData=
   ['_5fselfwrap_5fget',['_SELFWRAP_GET',['../d3/dd0/self_8qh.html#a29c098c7bd67a60d2dd9d94db782aaa6',1,'self.qh']]],
   ['_5fselfwrap_5fset',['_SELFWRAP_SET',['../d3/dd0/self_8qh.html#aeb65df370cf4a41121aec1c4105bf606',1,'self.qh']]],
   ['_5fsound',['_sound',['../d0/df5/sound_8qh.html#ab3244e946a9d251f139b92bca26b13a3',1,'sound.qh']]],
-  ['_5fspawnfunc_5fcheck',['_spawnfunc_check',['../da/d20/spawnfunc_8qh.html#a09349a71324a154b90ff0ed86d833a14',1,'spawnfunc.qh']]],
-  ['_5fspawnfunc_5fchecktypes',['_spawnfunc_checktypes',['../da/d20/spawnfunc_8qh.html#a4de816e6692271520f0bd3d32a2760cc',1,'spawnfunc.qh']]],
   ['_5fssmagix',['_SSMAGIX',['../da/d6b/sv__superspec_8qc.html#a31dc829545889e2c1ffe41b9237a02d0',1,'sv_superspec.qc']]],
   ['_5fstatic_5finit',['_STATIC_INIT',['../d4/d1a/static_8qh.html#af5e40a7e475a8a59d5c7237f48d75a1b',1,'static.qh']]],
   ['_5fstr',['_STR',['../d3/dc9/macro_8qh.html#a49acb15fcfb6e6f65b49b947c8b3b4cc',1,'macro.qh']]],

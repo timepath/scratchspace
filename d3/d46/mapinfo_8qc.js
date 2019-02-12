@@ -1,6 +1,5 @@
 var mapinfo_8qc =
 [
-    [ "deprecate", "d3/d46/mapinfo_8qc.html#a802a9dfeae2a8991ff7b3dbf754abb66", null ],
     [ "WARN_COND", "d3/d46/mapinfo_8qc.html#a97c45d4e9e042407a79c7a8fc2f8a304", null ],
     [ "_MapInfo_CheckMap", "d3/d46/mapinfo_8qc.html#ab6ff1312fd2c85c03304ce5cd50ea4a0", null ],
     [ "_MapInfo_FilterGametype", "d3/d46/mapinfo_8qc.html#aebb56edd95a3122a4b338d4a8e22ff69", null ],
@@ -46,7 +45,7 @@ var mapinfo_8qc =
     [ "MapInfo_Shutdown", "d3/d46/mapinfo_8qc.html#a35067a51ccac37f37425551af83b6eaa", null ],
     [ "MapInfo_SwitchGameType", "d3/d46/mapinfo_8qc.html#ac43d7df975709e1184a5873609338a81", null ],
     [ "MapInfo_Type_Description", "d3/d46/mapinfo_8qc.html#a64dec8604825bec73d85cbc37a1e75ae", null ],
-    [ "MapInfo_Type_FromString", "d3/d46/mapinfo_8qc.html#a7323b63f0d7fb28a98629b5a71a55d47", null ],
+    [ "MapInfo_Type_FromString", "d3/d46/mapinfo_8qc.html#a0f0cc671a85bbc336d85c22c29c9a324", null ],
     [ "MapInfo_Type_ToString", "d3/d46/mapinfo_8qc.html#a3f161ef2731e7a99667785631c18ae4b", null ],
     [ "MapInfo_Type_ToText", "d3/d46/mapinfo_8qc.html#aaa2f22ba4219608acd37ebed9cbe56f8", null ],
     [ "unquote", "d3/d46/mapinfo_8qc.html#a909ab91933ee8b125ca839d26c3116d2", null ],

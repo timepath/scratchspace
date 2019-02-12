@@ -37,6 +37,7 @@ var sv__cmd_8qc =
     [ "GameCommand_unlockteams", "d3/df2/sv__cmd_8qc.html#a19648d69f2c3dda48e57fcef84ac870b", null ],
     [ "GameCommand_warp", "d3/df2/sv__cmd_8qc.html#aad44db8b993e7d7679eb65f8431f37f5", null ],
     [ "make_mapinfo_Think", "d3/df2/sv__cmd_8qc.html#a769e396292c0441ea520ccf1d256c8a0", null ],
+    [ "print_Effect_Index", "d3/df2/sv__cmd_8qc.html#a2873c045bdbd0678c07ce4182b99e3a9", null ],
     [ "SERVER_COMMAND", "d3/df2/sv__cmd_8qc.html#ae61b803a140486053af9c24c492601fc", null ],
     [ "SERVER_COMMAND", "d3/df2/sv__cmd_8qc.html#aee077b39ab5fe2ea0e9520179451cf00", null ],
     [ "SERVER_COMMAND", "d3/df2/sv__cmd_8qc.html#aff32df26570a337e3f7f9d0649041b06", null ],

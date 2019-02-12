@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"d7/d32/classBlaster.html#a17f155a849bf1aad1fb6f97232996be9":[1,0,7,28],
+"d7/d32/classBlaster.html#a1c8437833108d8e5fee3535929d05f32":[1,0,7,27],
 "d7/d32/classBlaster.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,7,19],
 "d7/d32/classBlaster.html#a2d77314a674f60c71de27667cb5113ad":[1,0,7,39],
 "d7/d32/classBlaster.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,7,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "d7/d47/menu__cmd_8qc.html#ac475b9372dac09416fe834d14d6231c6":[2,0,5,1,2,1],
 "d7/d47/menu__cmd_8qc_source.html":[2,0,5,1,2],
 "d7/d4b/common_2mutators_2mutator_2doublejump_2__mod_8inc.html":[2,0,1,10,0,8,0],
-"d7/d4b/common_2mutators_2mutator_2doublejump_2__mod_8inc_source.html":[2,0,1,10,0,8,0],
-"d7/d4b/item_2dialog_8qc.html":[2,0,5,2,10],
-"d7/d4b/item_2dialog_8qc.html#a11131633f12f47ca1f24836be68222cf":[2,0,5,2,10,3]
+"d7/d4b/common_2mutators_2mutator_2doublejump_2__mod_8inc_source.html":[2,0,1,10,0,8,0]
 };

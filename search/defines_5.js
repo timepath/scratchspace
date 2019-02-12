@@ -209,7 +209,6 @@ var searchData=
   ['eval_5fregister_5fstat',['EVAL_REGISTER_STAT',['../d0/ddd/lib_2stats_8qh.html#a4daf4c0a09910c02804d9564348f8309',1,'stats.qh']]],
   ['eval_5fregister_5fweapon',['EVAL_REGISTER_WEAPON',['../d0/ddd/weapons_2all_8qh.html#a0054af2e4d2f284ef1ed59222d1e9821',1,'all.qh']]],
   ['eval_5fregistry_5fsort',['EVAL_REGISTRY_SORT',['../d2/d5e/registry_8qh.html#ad419d03f23bac744c367193d6ca794cf',1,'registry.qh']]],
-  ['eval_5fspawnfunc',['EVAL_spawnfunc',['../da/d20/spawnfunc_8qh.html#a19f19ce6180312d0bcdafcc71e46a559',1,'spawnfunc.qh']]],
   ['event',['EVENT',['../d5/d14/lib_8qh.html#ab1202c917075250869e00a74b1a33446',1,'lib.qh']]],
   ['exacttrigger_5finit',['EXACTTRIGGER_INIT',['../d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0',1,'common.qh']]],
   ['exacttrigger_5ftouch',['EXACTTRIGGER_TOUCH',['../d7/d71/lib_2warpzone_2common_8qh.html#a14f4fc2c65ce6e5be0cc8b508e29139f',1,'common.qh']]],

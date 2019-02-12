@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"d9/d67/turret_8qh.html#a6caad5e282b3f4959d96f399b24b354c":[2,0,1,14,15,7],
+"d9/d67/turret_8qh.html#a6dfc1516d059ec53303c4b3b51b1ba0a":[2,0,1,14,15,21],
 "d9/d67/turret_8qh.html#a7377b3377fd6882c8c15cc5d0ed9e0b6":[2,0,1,14,15,53],
 "d9/d67/turret_8qh.html#a744804562ab03101561a3941f70dbb8c":[2,0,1,14,15,15],
 "d9/d67/turret_8qh.html#a7847760f5ddaabc4effb0c7f184809af":[2,0,1,14,15,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "d9/d98/multivibrator_8qh.html":[2,0,1,6,3,31],
 "d9/d98/multivibrator_8qh_source.html":[2,0,1,6,3,31],
 "d9/d9a/generator_8qc.html":[2,0,1,3,0,13,8],
-"d9/d9a/generator_8qc_source.html":[2,0,1,3,0,13,8],
-"d9/d9d/tesla_8qh.html":[2,0,1,14,0,39],
-"d9/d9d/tesla_8qh.html#a88ddb1cfd3cb7e0c6e1bc9829f67b5c3":[2,0,1,14,0,39,1]
+"d9/d9a/generator_8qc_source.html":[2,0,1,3,0,13,8]
 };

@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['_5f_5fspawnfunc_5fexpect',['__spawnfunc_expect',['../da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd',1,'spawnfunc.qh']]],
-  ['_5f_5fspawnfunc_5fexpecting',['__spawnfunc_expecting',['../da/d20/spawnfunc_8qh.html#ae93978bfef4efb8b9ae17161b5dbea51',1,'spawnfunc.qh']]],
-  ['_5f_5fspawnfunc_5ffirst',['__spawnfunc_first',['../da/d20/spawnfunc_8qh.html#a3cc52b4571edcf33ca77ce7f224e04ab',1,'spawnfunc.qh']]],
-  ['_5f_5fspawnfunc_5funreachable_5fworkaround',['__spawnfunc_unreachable_workaround',['../da/d20/spawnfunc_8qh.html#a5b40421c6298962d4011eddd0c72802a',1,'spawnfunc.qh']]],
   ['_5fclearentity_5fent',['_clearentity_ent',['../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996',1,'oo.qh']]],
   ['_5fcontent_5ftype',['_content_type',['../d1/da9/bot_8qh.html#a785b0de707ae9db0198a7c12da5b7459',1,'bot.qh']]],
   ['_5fcs',['_cs',['../db/d9f/state_8qh.html#a1960d1c0908e7286f74096a0a3618086',1,'state.qh']]],

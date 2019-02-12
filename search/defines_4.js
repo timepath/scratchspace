@@ -21,7 +21,6 @@ var searchData=
   ['delete',['delete',['../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f',1,'oo.qh']]],
   ['delete_5ffn',['delete_fn',['../db/d0a/oo_8qh.html#a0986caaf6941d347f68b37c3a8803538',1,'oo.qh']]],
   ['demand',['demand',['../db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37',1,'log.qh']]],
-  ['deprecate',['deprecate',['../d3/d46/mapinfo_8qc.html#a802a9dfeae2a8991ff7b3dbf754abb66',1,'mapinfo.qc']]],
   ['destructor',['DESTRUCTOR',['../db/d0a/oo_8qh.html#a8259d5b8ddaa05cbf3128401fa8423c1',1,'oo.qh']]],
   ['devassert',['devassert',['../db/da0/log_8qh.html#a759f0b81b68be04a0b7b1741e39347d6',1,'log.qh']]],
   ['devassert_5fonce',['devassert_once',['../db/da0/log_8qh.html#ac0728eb9b46661ff2f6b488856396d5c',1,'log.qh']]],

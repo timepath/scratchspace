@@ -1,6 +1,5 @@
 var serverlist_8qc =
 [
-    [ "PROCESS_OVERRIDE", "d6/d74/serverlist_8qc.html#a23e51a6850c6a0b940b2c5c12557e66d", null ],
     [ "SET_YRANGE", "d6/d74/serverlist_8qc.html#a41281346890a95d43f53bbeebe9b1c81", null ],
     [ "SLIST_CATEGORY", "d6/d74/serverlist_8qc.html#a1eae804c887ba8242e503dbcf97f4962", null ],
     [ "SLIST_FIELD", "d6/d74/serverlist_8qc.html#a8a70c6eb19b1e00e40cd4abce963a8ef", null ],
@@ -23,6 +22,7 @@ var serverlist_8qc =
     [ "ServerList_ShowFull_Click", "d6/d74/serverlist_8qc.html#a684de7d771e8759c28b3d09b2b667b78", null ],
     [ "ServerList_TypeSort_Click", "d6/d74/serverlist_8qc.html#a587213c0e3ae8ab5fa77efb6b74ab13e", null ],
     [ "ServerList_Update_favoriteButton", "d6/d74/serverlist_8qc.html#abbb15d670a9ff9ee5f9c6263474960b7", null ],
+    [ "SL_ProcessCategoryOverrides", "d6/d74/serverlist_8qc.html#a68ee87c5a2abc1c237c67e8e14b9ded6", null ],
     [ "XonoticServerList_configureXonoticServerList", "d6/d74/serverlist_8qc.html#a3af4d0674d8fd92e4e0b87aea8f1bd29", null ],
     [ "XonoticServerList_doubleClickListBoxItem", "d6/d74/serverlist_8qc.html#ab3179684275c8e6f9efef464f9b05456", null ],
     [ "XonoticServerList_draw", "d6/d74/serverlist_8qc.html#a0299a902125f81a656db3405d4cfca2d", null ],

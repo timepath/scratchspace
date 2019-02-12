@@ -33,6 +33,8 @@ var log_8qh =
     [ "LOG_TRACEF", "db/da0/log_8qh.html#a2872337768358857f71a83488272df5b", null ],
     [ "LOG_WARN", "db/da0/log_8qh.html#add82efa459e0af380b68522c29b9fd44", null ],
     [ "LOG_WARNF", "db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9", null ],
+    [ "print_assertfailed_fatal", "db/da0/log_8qh.html#ab79f4c8ab26ac979ff3aeb4766c37e91", null ],
+    [ "print_assertfailed_severe", "db/da0/log_8qh.html#af708cc0bf9db0ebcddb40a671f751ed8", null ],
     [ "string", "db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7", null ],
     [ "autocvar_developer", "db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8", null ],
     [ "autocvar_prvm_backtraceforwarnings", "db/da0/log_8qh.html#a8d782ca78c0d8d5edc5f0f03086528f1", null ]

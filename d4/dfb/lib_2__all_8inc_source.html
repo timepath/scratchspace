@@ -316,7 +316,7 @@ $(document).ready(function(){initNavTree('d4/dfb/lib_2__all_8inc_source.html','.
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keywordflow">if</span> (!_StartFrame_init) {</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            _StartFrame_init = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="keywordtype">float</span> oldtime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> = 1;</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <a class="code" href="../../da/d20/spawnfunc_8qh.html#ae93978bfef4efb8b9ae17161b5dbea51">__spawnfunc_expecting</a> = 2; <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>.__spawnfunc_constructor(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            __spawnfunc_expecting = 2; <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>.__spawnfunc_constructor(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> = oldtime;</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        }</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keywordflow">if</span> (_StartFrame) _StartFrame();</div>
@@ -369,8 +369,8 @@ $(document).ready(function(){initNavTree('d4/dfb/lib_2__all_8inc_source.html','.
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d3/d4f/sv__main_8qc.html#aaeee7cc678766015fe1abcdf876ee80e">SV_OnEntityPreSpawnFunction</a>()</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    {</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#ab666435fc4955cc75aebf3360ee86861">ENGINE_EVENT</a>();</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <a class="code" href="../../da/d20/spawnfunc_8qh.html#ae93978bfef4efb8b9ae17161b5dbea51">__spawnfunc_expecting</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <a class="code" href="../../da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd">__spawnfunc_expect</a> = <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        __spawnfunc_expecting = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        __spawnfunc_expect = <span class="keyword">this</span>;</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    }</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor">    #define SV_OnEntityPreSpawnFunction _SV_OnEntityPreSpawnFunction</span></div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor"></span></div>
@@ -430,7 +430,6 @@ $(document).ready(function(){initNavTree('d4/dfb/lib_2__all_8inc_source.html','.
 <div class="ttc" id="json_8qc_html"><div class="ttname"><a href="../../d6/dce/json_8qc.html">json.qc</a></div></div>
 <div class="ttc" id="bits_8qh_html"><div class="ttname"><a href="../../d5/d52/bits_8qh.html">bits.qh</a></div></div>
 <div class="ttc" id="menu_8qc_html_ad20a44ccbe5e8ffefe7d18ed772f5dae"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#ad20a44ccbe5e8ffefe7d18ed772f5dae">m_keydown</a></div><div class="ttdeci">void m_keydown(float key, float ascii)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00247">menu.qc:247</a></div></div>
-<div class="ttc" id="spawnfunc_8qh_html_ae93978bfef4efb8b9ae17161b5dbea51"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#ae93978bfef4efb8b9ae17161b5dbea51">__spawnfunc_expecting</a></div><div class="ttdeci">noref int __spawnfunc_expecting</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00030">spawnfunc.qh:30</a></div></div>
 <div class="ttc" id="dpextensions_8qh_html"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html">dpextensions.qh</a></div></div>
 <div class="ttc" id="server_2client_8qc_html_a54fdd4fa0492ab020e0a35c817a8f472"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#a54fdd4fa0492ab020e0a35c817a8f472">ClientConnect</a></div><div class="ttdeci">void ClientConnect(entity this)</div><div class="ttdoc"> ClientConnect </div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd7/server_2client_8qc_source.html#l01071">client.qc:1071</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
@@ -524,8 +523,7 @@ $(document).ready(function(){initNavTree('d4/dfb/lib_2__all_8inc_source.html','.
 <div class="ttc" id="misc_8qh_html"><div class="ttname"><a href="../../d7/d61/misc_8qh.html">misc.qh</a></div></div>
 <div class="ttc" id="post_8qh_html"><div class="ttname"><a href="../../d6/da0/post_8qh.html">post.qh</a></div></div>
 <div class="ttc" id="cvar_8qh_html"><div class="ttname"><a href="../../d0/d4f/cvar_8qh.html">cvar.qh</a></div></div>
-<div class="ttc" id="spawnfunc_8qh_html_aa4a06d71be717f7c6f93ac9d936fe1cd"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd">__spawnfunc_expect</a></div><div class="ttdeci">noref entity __spawnfunc_expect</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00031">spawnfunc.qh:31</a></div></div>
-<div class="ttc" id="sv__main_8qc_html_aaeee7cc678766015fe1abcdf876ee80e"><div class="ttname"><a href="../../d3/d4f/sv__main_8qc.html#aaeee7cc678766015fe1abcdf876ee80e">SV_OnEntityPreSpawnFunction</a></div><div class="ttdeci">void SV_OnEntityPreSpawnFunction(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d4f/sv__main_8qc_source.html#l00322">sv_main.qc:322</a></div></div>
+<div class="ttc" id="sv__main_8qc_html_aaeee7cc678766015fe1abcdf876ee80e"><div class="ttname"><a href="../../d3/d4f/sv__main_8qc.html#aaeee7cc678766015fe1abcdf876ee80e">SV_OnEntityPreSpawnFunction</a></div><div class="ttdeci">void SV_OnEntityPreSpawnFunction(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d4f/sv__main_8qc_source.html#l00321">sv_main.qc:321</a></div></div>
 <div class="ttc" id="compiler_8qh_html"><div class="ttname"><a href="../../d6/d63/compiler_8qh.html">compiler.qh</a></div></div>
 <div class="ttc" id="server_2client_8qc_html_a59afde0701d7bebc1eed5a734da7637b"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#a59afde0701d7bebc1eed5a734da7637b">SetNewParms</a></div><div class="ttdeci">void SetNewParms()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd7/server_2client_8qc_source.html#l00878">client.qc:878</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -534,7 +532,7 @@ $(document).ready(function(){initNavTree('d4/dfb/lib_2__all_8inc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html">_all.inc</a></li>
-    <li class="footer">Generated on Tue Feb 12 2019 09:16:20 for Xonotic by
+    <li class="footer">Generated on Tue Feb 12 2019 18:09:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
