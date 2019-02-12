@@ -371,6 +371,7 @@ var server_2autocvars_8qh =
     [ "autocvar_leadlimit_and_fraglimit", "d7/da7/server_2autocvars_8qh.html#a2c1f1fbc11eee72e21bda0bc39ce9c4f", null ],
     [ "autocvar_leadlimit_override", "d7/da7/server_2autocvars_8qh.html#aa67893e7a8710883f652e2605ef84554", null ],
     [ "autocvar_minplayers", "d7/da7/server_2autocvars_8qh.html#a5c98324cfd163efd161fa89a7f368885", null ],
+    [ "autocvar_minplayers_per_team", "d7/da7/server_2autocvars_8qh.html#a9707abf38aaf3d436997bb8c73507284", null ],
     [ "autocvar_nextmap", "d7/da7/server_2autocvars_8qh.html#a65d58aa722d513abdc70cab66f8b75a9", null ],
     [ "autocvar_physics_ode", "d7/da7/server_2autocvars_8qh.html#aec8c0ea582e0956ce4d81d67c4db700f", null ],
     [ "autocvar_quit_and_redirect", "d7/da7/server_2autocvars_8qh.html#a5cf35da9a0a7b2ae1935f8fe9ed7acd4", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"db/d0e/common_2monsters_2__mod_8inc.html":[2,0,1,9,1],
 "db/d0e/common_2monsters_2__mod_8inc_source.html":[2,0,1,9,1],
 "db/d11/classBumblebee.html":[1,0,11],
 "db/d11/classBumblebee.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,11,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "db/d21/demolist_8qc.html#afa78eb32ccd5d5cba109c0a5198e480f":[2,0,5,4,36,5],
 "db/d21/demolist_8qc_source.html":[2,0,5,4,36],
 "db/d25/common_2physics_2movetypes_2__mod_8inc.html":[2,0,1,12,0,0],
-"db/d25/common_2physics_2movetypes_2__mod_8inc_source.html":[2,0,1,12,0,0],
-"db/d29/classXonoticRegisteredSettingsList.html":[1,0,233]
+"db/d25/common_2physics_2movetypes_2__mod_8inc_source.html":[2,0,1,12,0,0]
 };

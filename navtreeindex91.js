@@ -1,5 +1,6 @@
 var NAVTREEINDEX91 =
 {
+"da/d2c/sv__keyhunt_8qc.html#ac424bffde3e5ff6093b81edd08b9f690":[2,0,1,3,0,10,2,17],
 "da/d2c/sv__keyhunt_8qc.html#ac64c45eb3e792a5c9bcb395561f1ed3b":[2,0,1,3,0,10,2,50],
 "da/d2c/sv__keyhunt_8qc.html#ac89805d33ddd927612643777fa5bab00":[2,0,1,3,0,10,2,57],
 "da/d2c/sv__keyhunt_8qc.html#ace346d591bd46596d2f80f111b3ea948":[2,0,1,3,0,10,2,47],
@@ -248,6 +249,5 @@ var NAVTREEINDEX91 =
 "da/d5e/rifle_8qc.html":[2,0,1,16,0,28],
 "da/d5e/rifle_8qc_source.html":[2,0,1,16,0,28],
 "da/d60/json_8qh.html":[2,0,4,27],
-"da/d60/json_8qh_source.html":[2,0,4,27],
-"da/d68/accuracy_8qc.html":[2,0,6,5,2]
+"da/d60/json_8qh_source.html":[2,0,4,27]
 };

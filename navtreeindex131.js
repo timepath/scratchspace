@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"df/d13/anglestransform_8qc.html#a750aab23b894604054f58b46a0276c96":[2,0,4,2,2,10],
 "df/d13/anglestransform_8qc.html#a8383340e6af9aad3ed3a36610b98055d":[2,0,4,2,2,6],
 "df/d13/anglestransform_8qc.html#a847652083025638d0721b27759d2ec92":[2,0,4,2,2,12],
 "df/d13/anglestransform_8qc.html#a84a5233ab143cd9654d618b094d4e1b4":[2,0,4,2,2,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "df/d28/sv__turrets_8qh.html#aa0bf25c9ffb02c20d44d7ba32beac77a":[2,0,1,14,12,41],
 "df/d28/sv__turrets_8qh.html#aa710b24bb1d68d903bfc5f631e84446e":[2,0,1,14,12,17],
 "df/d28/sv__turrets_8qh.html#aac1ed683126fa66c2c6f353434659ad2":[2,0,1,14,12,35],
-"df/d28/sv__turrets_8qh.html#aad2259acd563eb1bb060e962a8085e6b":[2,0,1,14,12,65],
-"df/d28/sv__turrets_8qh.html#ab301ce4d3e21954a5e60c6b293610ba8":[2,0,1,14,12,67]
+"df/d28/sv__turrets_8qh.html#aad2259acd563eb1bb060e962a8085e6b":[2,0,1,14,12,65]
 };

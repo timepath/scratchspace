@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"db/d29/classXonoticRegisteredSettingsList.html":[1,0,233],
 "db/d29/classXonoticRegisteredSettingsList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,233,14],
 "db/d29/classXonoticRegisteredSettingsList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,233,46],
 "db/d29/classXonoticRegisteredSettingsList.html#a0b3e0ee2d3e6fef269d1948bd03ae6a5":[1,0,233,45],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "db/d38/classXonoticSliderCheckBox.html":[1,0,252],
 "db/d38/classXonoticSliderCheckBox.html#a08cda08ecde39493de593ab7695e404b":[1,0,252,42],
 "db/d38/classXonoticSliderCheckBox.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,252,75],
-"db/d38/classXonoticSliderCheckBox.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,252,21],
-"db/d38/classXonoticSliderCheckBox.html#a11a99dd0d7e621888583908e0be2cd66":[1,0,252,6]
+"db/d38/classXonoticSliderCheckBox.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,252,21]
 };
