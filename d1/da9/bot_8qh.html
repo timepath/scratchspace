@@ -885,7 +885,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;        <span class="comment">// cap bots to the max players allowed by the server</span></div>
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;        <span class="keywordtype">int</span> player_limit = <a class="code" href="../../df/dd7/server_2client_8qc.html#a3e717ff42f4aecad0eaade0b3e32f822">GetPlayerLimit</a>();</div>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;        <span class="keywordflow">if</span>(player_limit)</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;            bots = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(bots, player_limit - activerealplayers);</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;            bots = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(bots, <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(player_limit - activerealplayers, 0));</div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        bots = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(bots, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a> - realplayers);</div>
 <div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;</div>
 <div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;        <span class="keywordflow">if</span>(bots &gt; minbots)</div>
@@ -908,7 +908,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;            }</div>
 <div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;        }</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> &gt; bots)</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244">currentbots</a> &gt; bots &amp;&amp; bots &gt;= 0)</div>
 <div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;            <a class="code" href="../../d2/dc0/bot_8qc.html#afaeae8b4cc57aae2b5db95dbc5440464">bot_removenewest</a>();</div>
 <div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;    }</div>
 <div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;</div>
@@ -2781,7 +2781,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../d1/da9/bot_8qh.html">bot.qh</a></li>
-    <li class="footer">Generated on Fri Feb 15 2019 18:03:34 for Xonotic by
+    <li class="footer">Generated on Sat Feb 16 2019 23:23:13 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
