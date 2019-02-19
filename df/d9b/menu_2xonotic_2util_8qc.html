@@ -139,11 +139,11 @@ $(document).ready(function(){initNavTree('df/d9b/menu_2xonotic_2util_8qc.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a9ec6ea7efcd66f0d5031d001a132b0cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb">GAMETYPE</a>(it)&#160;&#160;&#160;if (i++ == <a class="el" href="../../db/d20/round__handler_8qh.html#abfa4eafbc361865597bedf1979325249">cnt</a>) return it;</td></tr>
+<tr class="memitem:a9ec6ea7efcd66f0d5031d001a132b0cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb">GAMETYPE</a>(it)&#160;&#160;&#160;{ if (i++ == <a class="el" href="../../db/d20/round__handler_8qh.html#abfa4eafbc361865597bedf1979325249">cnt</a>) return it; }</td></tr>
 <tr class="separator:a9ec6ea7efcd66f0d5031d001a132b0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3ffa7817b6a89da410b8dc940eb7e1a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a">GAMETYPE</a>(id)&#160;&#160;&#160;++i;</td></tr>
 <tr class="separator:ad3ffa7817b6a89da410b8dc940eb7e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ec6ea7efcd66f0d5031d001a132b0cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb">GAMETYPE</a>(it)&#160;&#160;&#160;if (dev) ++i;</td></tr>
+<tr class="memitem:a9ec6ea7efcd66f0d5031d001a132b0cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb">GAMETYPE</a>(it)&#160;&#160;&#160;{ if (dev) ++i; }</td></tr>
 <tr class="separator:a9ec6ea7efcd66f0d5031d001a132b0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3ffa7817b6a89da410b8dc940eb7e1a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a">GAMETYPE</a>(id)&#160;&#160;&#160;++i;</td></tr>
 <tr class="separator:ad3ffa7817b6a89da410b8dc940eb7e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,7 +340,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">it</td><td>)</td>
-          <td>&#160;&#160;&#160;if (i++ == <a class="el" href="../../db/d20/round__handler_8qh.html#abfa4eafbc361865597bedf1979325249">cnt</a>) return it;</td>
+          <td>&#160;&#160;&#160;{ if (i++ == <a class="el" href="../../db/d20/round__handler_8qh.html#abfa4eafbc361865597bedf1979325249">cnt</a>) return it; }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -372,7 +372,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">it</td><td>)</td>
-          <td>&#160;&#160;&#160;if (dev) ++i;</td>
+          <td>&#160;&#160;&#160;{ if (dev) ++i; }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -963,7 +963,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;<span class="preprocessor">    #define GAMETYPE(id) ++i;</span></div>
 <div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#a31610cece5e7eefa4bd93e2a89fe9001">GAMETYPES</a></div>
 <div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;<span class="preprocessor">    #undef GAMETYPE</span></div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define GAMETYPE(it) if (dev) ++i;</span></div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define GAMETYPE(it) { if (dev) ++i; }</span></div>
 <div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#ad18fa120b3ff7def2f7c47a178855468">HIDDEN_GAMETYPES</a></div>
 <div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;<span class="preprocessor">    #undef GAMETYPE</span></div>
 <div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">return</span> i;</div>
@@ -1066,7 +1066,7 @@ Variables</h2></td></tr>
 <p>Referenced by <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00741">GameType_GetIcon()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00735">GameType_GetName()</a>, <a class="el" href="../../d2/db8/gametypelist_8qc_source.html#l00071">XonoticGametypeList_drawListBoxItem()</a>, <a class="el" href="../../d2/db8/gametypelist_8qc_source.html#l00130">XonoticGametypeList_focusedItemChangeNotify()</a>, <a class="el" href="../../d2/db8/gametypelist_8qc_source.html#l00031">XonoticGametypeList_loadCvars()</a>, <a class="el" href="../../d2/db8/gametypelist_8qc_source.html#l00050">XonoticGametypeList_saveCvars()</a>, <a class="el" href="../../df/d7d/dialog__multiplayer__create__mapinfo_8qc_source.html#l00039">XonoticMapInfoDialog_fill()</a>, and <a class="el" href="../../df/d7d/dialog__multiplayer__create__mapinfo_8qc_source.html#l00009">XonoticMapInfoDialog_loadMapInfo()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;{</div>
 <div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;    <span class="keywordtype">int</span> i = 0;</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;<span class="preprocessor">    #define GAMETYPE(it) if (i++ == cnt) return it;</span></div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;<span class="preprocessor">    #define GAMETYPE(it) { if (i++ == cnt) return it; }</span></div>
 <div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#a31610cece5e7eefa4bd93e2a89fe9001">GAMETYPES</a></div>
 <div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;    <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#ad18fa120b3ff7def2f7c47a178855468">HIDDEN_GAMETYPES</a></div>
 <div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;<span class="preprocessor">    #undef GAMETYPE</span></div>
@@ -4300,7 +4300,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc.html">util.qc</a></li>
-    <li class="footer">Generated on Mon Feb 18 2019 06:40:16 for Xonotic by
+    <li class="footer">Generated on Tue Feb 19 2019 00:21:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
