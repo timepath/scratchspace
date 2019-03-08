@@ -3,6 +3,7 @@ var cvars_8qh =
     [ "autocvar_bot_prefix", "d6/d74/cvars_8qh.html#adb0413a50e75ae2d3f52007abb7879e4", null ],
     [ "autocvar_bot_suffix", "d6/d74/cvars_8qh.html#a3e4c1f143d6fda74a8931c5dc3982dca", null ],
     [ "autocvar_bot_ai_aimskill_blendrate", "d6/d74/cvars_8qh.html#ae0cd8130a5c94da77970f2ccbb414ce6", null ],
+    [ "autocvar_bot_ai_aimskill_firetolerance", "d6/d74/cvars_8qh.html#a0ee63ec1d89910da3f592202b417a467", null ],
     [ "autocvar_bot_ai_aimskill_firetolerance_distdegrees", "d6/d74/cvars_8qh.html#affac4a8b791a5636b36817e639399054", null ],
     [ "autocvar_bot_ai_aimskill_firetolerance_maxdegrees", "d6/d74/cvars_8qh.html#a4c5e10975d462266779f1ed7da43b1d6", null ],
     [ "autocvar_bot_ai_aimskill_firetolerance_mindegrees", "d6/d74/cvars_8qh.html#a5928d1dea5788c24799b50197807c9ea", null ],

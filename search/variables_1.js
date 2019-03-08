@@ -241,6 +241,7 @@ var searchData=
   ['autocvar_5faccuracy_5fcolor_5flevels',['autocvar_accuracy_color_levels',['../d7/db4/client_2autocvars_8qh.html#a620eb0969506f76c89f16dce69ac2859',1,'autocvars.qh']]],
   ['autocvar_5fbgmvolume',['autocvar_bgmvolume',['../d7/db4/client_2autocvars_8qh.html#aa50d64c7aecadbb2590ccdb7bc636098',1,'autocvars.qh']]],
   ['autocvar_5fbot_5fai_5faimskill_5fblendrate',['autocvar_bot_ai_aimskill_blendrate',['../d6/d74/cvars_8qh.html#ae0cd8130a5c94da77970f2ccbb414ce6',1,'cvars.qh']]],
+  ['autocvar_5fbot_5fai_5faimskill_5ffiretolerance',['autocvar_bot_ai_aimskill_firetolerance',['../d6/d74/cvars_8qh.html#a0ee63ec1d89910da3f592202b417a467',1,'cvars.qh']]],
   ['autocvar_5fbot_5fai_5faimskill_5ffiretolerance_5fdistdegrees',['autocvar_bot_ai_aimskill_firetolerance_distdegrees',['../d6/d74/cvars_8qh.html#affac4a8b791a5636b36817e639399054',1,'cvars.qh']]],
   ['autocvar_5fbot_5fai_5faimskill_5ffiretolerance_5fmaxdegrees',['autocvar_bot_ai_aimskill_firetolerance_maxdegrees',['../d6/d74/cvars_8qh.html#a4c5e10975d462266779f1ed7da43b1d6',1,'cvars.qh']]],
   ['autocvar_5fbot_5fai_5faimskill_5ffiretolerance_5fmindegrees',['autocvar_bot_ai_aimskill_firetolerance_mindegrees',['../d6/d74/cvars_8qh.html#a5928d1dea5788c24799b50197807c9ea',1,'cvars.qh']]],

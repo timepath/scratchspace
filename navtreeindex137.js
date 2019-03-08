@@ -1,5 +1,6 @@
 var NAVTREEINDEX137 =
 {
+"df/de5/screenshotimage_8qh.html":[2,0,5,4,197],
 "df/de5/screenshotimage_8qh.html#ab8ebc2ca1c2fa345f7d5b92facac2c98":[2,0,5,4,197,1],
 "df/de5/screenshotimage_8qh_source.html":[2,0,5,4,197],
 "df/deb/common_2gamemodes_2gamemode_2clanarena_2__mod_8inc.html":[2,0,1,3,0,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX137 =
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#ae8ee3415d580757cf4b8434973484ead":[1,0,238,58],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#aeb77597d24e1461bf90096f4cc61a0d8":[1,0,238,3],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,238,36],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aee9fee5e1e798ea7d1b0905bc107ed8c":[1,0,238,99],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aeeea196cce280d4e95730a8f06b80518":[1,0,238,25]
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aee9fee5e1e798ea7d1b0905bc107ed8c":[1,0,238,99]
 };
