@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"d2/d76/teamplay_8qh.html#af3b1646b76af378b8a2c420213e0a4a4":[2,0,6,67,49],
 "d2/d76/teamplay_8qh.html#af5afaa4f4416a5297c8f3a8195c8dbad":[2,0,6,67,56],
 "d2/d76/teamplay_8qh.html#afe0ef467f494e30d9b3e48b8d1a0a341":[2,0,6,67,14],
 "d2/d76/teamplay_8qh.html#afe2141cda6a112f2c145aa449bb31f95":[2,0,6,67,61],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "d2/dac/sv__buffs_8qc.html#a874b57de9b337be20d3aa67f2bdf8124":[2,0,1,10,0,2,7,44],
 "d2/dac/sv__buffs_8qc.html#a883c3faf0e935cd0bc1e0a69c9c7ba30":[2,0,1,10,0,2,7,24],
 "d2/dac/sv__buffs_8qc.html#a888c41c0fac61de0e167b7a2166b4197":[2,0,1,10,0,2,7,6],
-"d2/dac/sv__buffs_8qc.html#a88a6a9d42ed6ff5a7094ef51e75bd806":[2,0,1,10,0,2,7,47],
-"d2/dac/sv__buffs_8qc.html#a8a4a5cd8a94e69dcd4a753bb7eece163":[2,0,1,10,0,2,7,0]
+"d2/dac/sv__buffs_8qc.html#a88a6a9d42ed6ff5a7094ef51e75bd806":[2,0,1,10,0,2,7,47]
 };

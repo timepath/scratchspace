@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"d7/da7/server_2autocvars_8qh.html#abe89ba0944eebb2fc363e37725efd607":[2,0,6,12,399],
 "d7/da7/server_2autocvars_8qh.html#abf510a5d28b1413041f7349923fafae6":[2,0,6,12,280],
 "d7/da7/server_2autocvars_8qh.html#abfea74b79dde176ae1872881a64328cb":[2,0,6,12,152],
 "d7/da7/server_2autocvars_8qh.html#ac05b4e8e354498fc4cdcd7aaa4142178":[2,0,6,12,52],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "d7/db1/common_2command_2__mod_8inc_source.html":[2,0,1,0,0],
 "d7/db2/dialog__singleplayer__winner_8qc.html":[2,0,5,4,158],
 "d7/db2/dialog__singleplayer__winner_8qc.html#a3771f6f203b33af849a31b9d0a8a5cf5":[2,0,5,4,158,0],
-"d7/db2/dialog__singleplayer__winner_8qc.html#ab760c2bcafe6cd6d238f8e97779394c2":[2,0,5,4,158,1],
-"d7/db2/dialog__singleplayer__winner_8qc_source.html":[2,0,5,4,158]
+"d7/db2/dialog__singleplayer__winner_8qc.html#ab760c2bcafe6cd6d238f8e97779394c2":[2,0,5,4,158,1]
 };

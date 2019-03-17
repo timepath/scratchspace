@@ -20,6 +20,7 @@ var weapons_2weapon_8qh =
     [ "MAX_WEAPONSLOTS", "d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b", null ],
     [ "weaponentities", "d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad", null ],
     [ "weaponorder_byid", "d2/d1c/weapons_2weapon_8qh.html#a33a5fa56c7d71ec499a00d0ed547de24", null ],
+    [ "WEP_FLAG_BLEED", "d2/d1c/weapons_2weapon_8qh.html#a7c53b11150898162637b85ea4aa29442", null ],
     [ "WEP_FLAG_CANCLIMB", "d2/d1c/weapons_2weapon_8qh.html#a110a94ff60352bf5502a014f3bc56209", null ],
     [ "WEP_FLAG_DUALWIELD", "d2/d1c/weapons_2weapon_8qh.html#aa14261a0af883da3631846ba5fd3555d", null ],
     [ "WEP_FLAG_HIDDEN", "d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818", null ],
