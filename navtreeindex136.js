@@ -1,6 +1,5 @@
 var NAVTREEINDEX136 =
 {
-"df/dc9/classXonoticHUDQuickMenuDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,200,5],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,200,88],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,200,42],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,200,51],
@@ -249,5 +248,6 @@ var NAVTREEINDEX136 =
 "df/dd7/server_2client_8qc.html#aff186c20f705125efa07fdd452114768":[2,0,6,17,9],
 "df/dd7/server_2client_8qc_source.html":[2,0,6,17],
 "df/dd9/location_8qh.html":[2,0,1,6,2,9],
-"df/dd9/location_8qh_source.html":[2,0,1,6,2,9]
+"df/dd9/location_8qh_source.html":[2,0,1,6,2,9],
+"df/de0/checkbox__slider__invalid_8qh.html":[2,0,5,4,15]
 };

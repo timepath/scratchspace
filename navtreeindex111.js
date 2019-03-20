@@ -1,6 +1,5 @@
 var NAVTREEINDEX111 =
 {
-"dc/d62/dialog__singleplayer_8qh.html":[2,0,5,4,157],
 "dc/d62/dialog__singleplayer_8qh_source.html":[2,0,5,4,157],
 "dc/d69/weapon_8qc.html":[2,0,1,3,0,12,6],
 "dc/d69/weapon_8qc_source.html":[2,0,1,3,0,12,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX111 =
 "dc/d8f/notifications_2all_8qh.html#a672b6700065cabe0574280d05abb8b5d":[2,0,1,11,4,49],
 "dc/d8f/notifications_2all_8qh.html#a682b66e5aae4a02b19ba825760896610":[2,0,1,11,4,29],
 "dc/d8f/notifications_2all_8qh.html#a6ec21cd14e3274606e94ae690c0dda77":[2,0,1,11,4,86],
-"dc/d8f/notifications_2all_8qh.html#a7063e2fefa67ce5bb96fcde8f4df4079":[2,0,1,11,4,13]
+"dc/d8f/notifications_2all_8qh.html#a7063e2fefa67ce5bb96fcde8f4df4079":[2,0,1,11,4,13],
+"dc/d8f/notifications_2all_8qh.html#a77f88494996f9426ad3c4fad41b9b52b":[2,0,1,11,4,14]
 };

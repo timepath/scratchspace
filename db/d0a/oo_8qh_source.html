@@ -162,11 +162,11 @@ $(document).ready(function(){initNavTree('db/d0a/oo_8qh_source.html','../../');}
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifndef QCC_SUPPORT_ENTITYCLASS</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="../../db/d0a/oo_8qh.html#ae88def7d8ef552d745b4b87bece3adc4">   57</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define entityclass_2(name, base) USING(name, entity)</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="../../db/d0a/oo_8qh.html#ad9367c1eef2cccdcd7cb7271be26a0f1">   58</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define classfield(name)</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="../../db/d0a/oo_8qh.html#abb1f528f2bd7f47d39b83eab72230797">   59</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define _new(class, pure) __spawn( #class, __FILE__ &quot;:&quot; STR(__LINE__), pure)</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="../../db/d0a/oo_8qh.html#abb1f528f2bd7f47d39b83eab72230797">   59</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define _new(class, pure) __spawn(#class, __FILE__ &quot;:&quot; STR(__LINE__), pure)</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define entityclass_2(name, base) entityclass name : base {}</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define classfield(name) [[class(name)]]</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define _new(class, pure) ((class) __spawn( #class, __FILE__ &quot;:&quot; STR(__LINE__), pure))</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define _new(class, pure) ((class) __spawn(#class, __FILE__ &quot;:&quot; STR(__LINE__), pure))</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="../../db/d0a/oo_8qh.html#ab92f7aae1a80b93313256ec9a7389ed1">   66</a></span>&#160;<span class="preprocessor">#define new(class) _new(class, false)</span></div>
@@ -494,7 +494,7 @@ $(document).ready(function(){initNavTree('db/d0a/oo_8qh_source.html','../../');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../db/d0a/oo_8qh.html">oo.qh</a></li>
-    <li class="footer">Generated on Wed Mar 20 2019 19:15:01 for Xonotic by
+    <li class="footer">Generated on Wed Mar 20 2019 19:34:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -53,7 +53,6 @@ var client_2defs_8qh =
     [ "race_status_name", "d9/d08/client_2defs_8qh.html#a3d830aeb6b5bfa00b2413dd9e0ef1683", null ],
     [ "race_time", "d9/d08/client_2defs_8qh.html#a9ca3664d438b8f1dac1a68ceee61d5a6", null ],
     [ "renderflags", "d9/d08/client_2defs_8qh.html#a5e3272b73abeef46b1aa4b3ca4a1c6ff", null ],
-    [ "scoreboard_showaccuracy", "d9/d08/client_2defs_8qh.html#a5523d7b1ba2514ca9b4de2e79a39e200", null ],
     [ "scoreboard_showscores", "d9/d08/client_2defs_8qh.html#ae863614c1b490a13d1d72a792992b9b4", null ],
     [ "scoreboard_showscores_force", "d9/d08/client_2defs_8qh.html#adb370211fdbf7cf34007a2cc240e6ee2", null ],
     [ "serverdeltatime", "d9/d08/client_2defs_8qh.html#ac2a88716bca7ffcfe0242ed562ce52a5", null ],

@@ -546,36 +546,36 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00594">594</a> of file <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html">cl_cmd.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00595">595</a> of file <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html">cl_cmd.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00575">CONSOLE_COMMANDS_MOVEMENT</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00568">CONSOLE_COMMANDS_NORMAL</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a15433f7569b9361acf17695cf9df7ecd">isdemo()</a>.</p>
+<p>References <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00576">CONSOLE_COMMANDS_MOVEMENT</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00569">CONSOLE_COMMANDS_NORMAL</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a15433f7569b9361acf17695cf9df7ecd">isdemo()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00095">CSQC_Init()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;{</div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    <span class="comment">// first init normal commands</span></div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;<span class="preprocessor">    #define CONSOLE_COMMAND(name, execution) \</span></div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;<span class="preprocessor">        { registercommand(name); }</span></div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;    <a class="code" href="../../df/d8c/cl__cmd_8qc.html#a52fac36d1549571cfbdfd34efc007ef6">CONSOLE_COMMANDS_NORMAL</a>();</div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;<span class="preprocessor">    #undef CONSOLE_COMMAND</span></div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;    <span class="comment">// then init movement commands</span></div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;<span class="preprocessor">    #ifndef CAMERATEST</span></div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a15433f7569b9361acf17695cf9df7ecd">isdemo</a>())</div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    {</div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CONSOLE_COMMAND(name, execution) \</span></div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;<span class="preprocessor">        registercommand(name);</span></div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    <a class="code" href="../../df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7">CONSOLE_COMMANDS_MOVEMENT</a>();</div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;<span class="preprocessor">        #undef CONSOLE_COMMAND</span></div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #ifndef CAMERATEST</span></div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;<span class="preprocessor"></span>}</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="fragment"><div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;{</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    <span class="comment">// first init normal commands</span></div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;<span class="preprocessor">    #define CONSOLE_COMMAND(name, execution) \</span></div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;<span class="preprocessor">        { registercommand(name); }</span></div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;    <a class="code" href="../../df/d8c/cl__cmd_8qc.html#a52fac36d1549571cfbdfd34efc007ef6">CONSOLE_COMMANDS_NORMAL</a>();</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;<span class="preprocessor">    #undef CONSOLE_COMMAND</span></div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    <span class="comment">// then init movement commands</span></div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;<span class="preprocessor">    #ifndef CAMERATEST</span></div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a15433f7569b9361acf17695cf9df7ecd">isdemo</a>())</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    {</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CONSOLE_COMMAND(name, execution) \</span></div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;<span class="preprocessor">        registercommand(name);</span></div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    <a class="code" href="../../df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7">CONSOLE_COMMANDS_MOVEMENT</a>();</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;<span class="preprocessor">        #undef CONSOLE_COMMAND</span></div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #ifndef CAMERATEST</span></div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="ttc" id="menudefs_8qc_html_a15433f7569b9361acf17695cf9df7ecd"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a15433f7569b9361acf17695cf9df7ecd">isdemo</a></div><div class="ttdeci">float isdemo()</div></div>
-<div class="ttc" id="cl__cmd_8qc_html_ae174afbae94543b1db72d897e4595ee7"><div class="ttname"><a href="../../df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7">CONSOLE_COMMANDS_MOVEMENT</a></div><div class="ttdeci">#define CONSOLE_COMMANDS_MOVEMENT()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d8c/cl__cmd_8qc_source.html#l00575">cl_cmd.qc:575</a></div></div>
-<div class="ttc" id="cl__cmd_8qc_html_a52fac36d1549571cfbdfd34efc007ef6"><div class="ttname"><a href="../../df/d8c/cl__cmd_8qc.html#a52fac36d1549571cfbdfd34efc007ef6">CONSOLE_COMMANDS_NORMAL</a></div><div class="ttdeci">#define CONSOLE_COMMANDS_NORMAL()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d8c/cl__cmd_8qc_source.html#l00568">cl_cmd.qc:568</a></div></div>
+<div class="ttc" id="cl__cmd_8qc_html_ae174afbae94543b1db72d897e4595ee7"><div class="ttname"><a href="../../df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7">CONSOLE_COMMANDS_MOVEMENT</a></div><div class="ttdeci">#define CONSOLE_COMMANDS_MOVEMENT()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d8c/cl__cmd_8qc_source.html#l00576">cl_cmd.qc:576</a></div></div>
+<div class="ttc" id="cl__cmd_8qc_html_a52fac36d1549571cfbdfd34efc007ef6"><div class="ttname"><a href="../../df/d8c/cl__cmd_8qc.html#a52fac36d1549571cfbdfd34efc007ef6">CONSOLE_COMMANDS_NORMAL</a></div><div class="ttdeci">#define CONSOLE_COMMANDS_NORMAL()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d8c/cl__cmd_8qc_source.html#l00569">cl_cmd.qc:569</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -669,7 +669,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_6d330f67e9a5efc8c508ff076d3c6103.html">commands</a></li><li class="navelem"><a class="el" href="../../d4/d70/cl__cmd_8qh.html">cl_cmd.qh</a></li>
-    <li class="footer">Generated on Wed Mar 20 2019 19:15:03 for Xonotic by
+    <li class="footer">Generated on Wed Mar 20 2019 19:34:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

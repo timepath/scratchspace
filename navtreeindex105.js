@@ -1,6 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"db/db4/classTextSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,138,76],
 "db/db4/dialog__settings__misc__cvars_8qh.html":[2,0,5,4,147],
 "db/db4/dialog__settings__misc__cvars_8qh_source.html":[2,0,5,4,147],
 "db/db5/common_2models_2__mod_8inc.html":[2,0,1,8,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX105 =
 "db/dcc/g__world_8qc.html#a5d071a7011835f6a1e0c40767327e628":[2,0,6,27,55],
 "db/dcc/g__world_8qc.html#a5e4e81a9c481420994df74eef50865c8":[2,0,6,27,50],
 "db/dcc/g__world_8qc.html#a5f4692aa7896daea45fe2a5b380ca559":[2,0,6,27,9],
-"db/dcc/g__world_8qc.html#a61bd70129e557ffad13fa1c21a5d9af3":[2,0,6,27,53]
+"db/dcc/g__world_8qc.html#a61bd70129e557ffad13fa1c21a5d9af3":[2,0,6,27,53],
+"db/dcc/g__world_8qc.html#a665a3549db99a167e6d8e8e63e95e9d3":[2,0,6,27,5]
 };
