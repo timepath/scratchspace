@@ -1,6 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"d2/d1c/weapons_2weapon_8qh.html#a110a94ff60352bf5502a014f3bc56209":[2,0,1,16,13,21],
 "d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b":[2,0,1,16,13,17],
 "d2/d1c/weapons_2weapon_8qh.html#a259e403c09376539bec67dda6a1164bc":[2,0,1,16,13,10],
 "d2/d1c/weapons_2weapon_8qh.html#a300f8a85518c66b86f3ba3d208117241":[2,0,1,16,13,28],
@@ -249,5 +248,6 @@ var NAVTREEINDEX16 =
 "d2/d3a/rules_8qc.html":[2,0,1,3,3],
 "d2/d3a/rules_8qc_source.html":[2,0,1,3,3],
 "d2/d3b/weapons_2config_8qh.html":[2,0,1,16,11],
-"d2/d3b/weapons_2config_8qh_source.html":[2,0,1,16,11]
+"d2/d3b/weapons_2config_8qh_source.html":[2,0,1,16,11],
+"d2/d3c/dialog__hudpanel__score_8qh.html":[2,0,5,4,75]
 };

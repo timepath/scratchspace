@@ -145,7 +145,7 @@ Macros</h2></td></tr>
 <tr class="separator:a5569af9e685ed7b20b30d4eecc09653a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8556a3ededb6cf803915e2c22f444aa0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a8556a3ededb6cf803915e2c22f444aa0">IS_INDEPENDENT_PLAYER</a>(e)&#160;&#160;&#160;((e).<a class="el" href="../../d6/d11/progsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d">solid</a> == <a class="el" href="../../d6/d11/progsdefs_8qc.html#a1b3f9b775a7b94a87f685c03a5250d6d">SOLID_TRIGGER</a>)</td></tr>
 <tr class="separator:a8556a3ededb6cf803915e2c22f444aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2f5ceae940caa9d4ef34c8a3cc6aefb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d26/server_2defs_8qh.html#ab2f5ceae940caa9d4ef34c8a3cc6aefb">MAKE_INDEPENDENT_PLAYER</a>(e)&#160;&#160;&#160;(((e).<a class="el" href="../../d6/d11/progsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d">solid</a> = <a class="el" href="../../d6/d11/progsdefs_8qc.html#a1b3f9b775a7b94a87f685c03a5250d6d">SOLID_TRIGGER</a>), ((e).<a class="el" href="../../d6/d11/progsdefs_8qc.html#a230b823d612df01afcfecc0f4a611b90">frags</a> = <a class="el" href="../../d0/d8b/common_2constants_8qh.html#a8de55c6395f6d556774d7bbafc331934">FRAGS_PLAYER_NONSOLID</a>))</td></tr>
+<tr class="memitem:ab2f5ceae940caa9d4ef34c8a3cc6aefb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d26/server_2defs_8qh.html#ab2f5ceae940caa9d4ef34c8a3cc6aefb">MAKE_INDEPENDENT_PLAYER</a>(e)&#160;&#160;&#160;(((e).<a class="el" href="../../d6/d11/progsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d">solid</a> = <a class="el" href="../../d6/d11/progsdefs_8qc.html#a1b3f9b775a7b94a87f685c03a5250d6d">SOLID_TRIGGER</a>), ((e).<a class="el" href="../../d6/d11/progsdefs_8qc.html#a230b823d612df01afcfecc0f4a611b90">frags</a> = <a class="el" href="../../d0/d8b/common_2constants_8qh.html#a8fb26853bca170280dba1a301c735661">FRAGS_PLAYER_OUT_OF_GAME</a>))</td></tr>
 <tr class="separator:ab2f5ceae940caa9d4ef34c8a3cc6aefb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbdfdfbef5d6cf5585bc1725bca0eac7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d26/server_2defs_8qh.html#acbdfdfbef5d6cf5585bc1725bca0eac7">MISSILE_IS_CONFUSABLE</a>(m)&#160;&#160;&#160;((<a class="el" href="../../d5/d26/server_2defs_8qh.html#a444b62d606749f309da722e1d36407a7">m.missile_flags</a> &amp; <a class="el" href="../../d5/d26/server_2defs_8qh.html#aab0305fede019d07be905cbea0f072d5">MIF_GUIDED_CONFUSABLE</a>) ? <a class="el" href="../../dd/d54/bool_8qh.html#a3ad98e54fafae1497bd42b491d9742cc">true</a> : <a class="el" href="../../dd/d54/bool_8qh.html#a4bd6d4d04b1126eefee5484b1521c6f9">false</a>)</td></tr>
 <tr class="separator:acbdfdfbef5d6cf5585bc1725bca0eac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -829,7 +829,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">e</td><td>)</td>
-          <td>&#160;&#160;&#160;(((e).<a class="el" href="../../d6/d11/progsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d">solid</a> = <a class="el" href="../../d6/d11/progsdefs_8qc.html#a1b3f9b775a7b94a87f685c03a5250d6d">SOLID_TRIGGER</a>), ((e).<a class="el" href="../../d6/d11/progsdefs_8qc.html#a230b823d612df01afcfecc0f4a611b90">frags</a> = <a class="el" href="../../d0/d8b/common_2constants_8qh.html#a8de55c6395f6d556774d7bbafc331934">FRAGS_PLAYER_NONSOLID</a>))</td>
+          <td>&#160;&#160;&#160;(((e).<a class="el" href="../../d6/d11/progsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d">solid</a> = <a class="el" href="../../d6/d11/progsdefs_8qc.html#a1b3f9b775a7b94a87f685c03a5250d6d">SOLID_TRIGGER</a>), ((e).<a class="el" href="../../d6/d11/progsdefs_8qc.html#a230b823d612df01afcfecc0f4a611b90">frags</a> = <a class="el" href="../../d0/d8b/common_2constants_8qh.html#a8fb26853bca170280dba1a301c735661">FRAGS_PLAYER_OUT_OF_GAME</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -6478,7 +6478,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/d26/server_2defs_8qh.html">defs.qh</a></li>
-    <li class="footer">Generated on Fri Mar 29 2019 16:48:12 for Xonotic by
+    <li class="footer">Generated on Fri Mar 29 2019 23:26:51 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,6 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"d2/d3c/dialog__hudpanel__score_8qh.html":[2,0,5,4,75],
 "d2/d3c/dialog__hudpanel__score_8qh_source.html":[2,0,5,4,75],
 "d2/d3d/classTurret.html":[1,0,140],
 "d2/d3d/classTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,140,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX17 =
 "d2/d4b/classPlayer.html#aebb2f970915f520a2fa9a55c9b91bf3e":[1,0,107,90],
 "d2/d4b/classPlayer.html#af21e04f2cdb01e08ac61542f9ceaa538":[1,0,107,72],
 "d2/d4b/classPlayer.html#af3577e884d8246712e785234d6ad3e61":[1,0,107,53],
-"d2/d4b/classPlayer.html#afaf857445a540ea4fef6ab11fa112699":[1,0,107,88]
+"d2/d4b/classPlayer.html#afaf857445a540ea4fef6ab11fa112699":[1,0,107,88],
+"d2/d4b/classPlayer.html#afbcb6d31b9c6a03aa69d726ea7fe9784":[1,0,107,69]
 };

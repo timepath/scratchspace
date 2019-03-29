@@ -351,7 +351,7 @@ $(document).ready(function(){initNavTree('d5/d26/server_2defs_8qh_source.html','
 <div class="line"><a name="l00244"></a><span class="lineno"><a class="line" href="../../d5/d26/server_2defs_8qh.html#a1a96238519dd8043d47e2c96aea837d1">  244</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d5/d26/server_2defs_8qh.html#a1a96238519dd8043d47e2c96aea837d1">independent_players</a>;</div>
 <div class="line"><a name="l00245"></a><span class="lineno"><a class="line" href="../../d5/d26/server_2defs_8qh.html#a5569af9e685ed7b20b30d4eecc09653a">  245</a></span>&#160;<span class="preprocessor">#define INDEPENDENT_PLAYERS (autocvar__independent_players ? (autocvar__independent_players &gt; 0) : independent_players)</span></div>
 <div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="../../d5/d26/server_2defs_8qh.html#a8556a3ededb6cf803915e2c22f444aa0">  246</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define IS_INDEPENDENT_PLAYER(e) ((e).solid == SOLID_TRIGGER)</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno"><a class="line" href="../../d5/d26/server_2defs_8qh.html#ab2f5ceae940caa9d4ef34c8a3cc6aefb">  247</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define MAKE_INDEPENDENT_PLAYER(e) (((e).solid = SOLID_TRIGGER), ((e).frags = FRAGS_PLAYER_NONSOLID))</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno"><a class="line" href="../../d5/d26/server_2defs_8qh.html#ab2f5ceae940caa9d4ef34c8a3cc6aefb">  247</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define MAKE_INDEPENDENT_PLAYER(e) (((e).solid = SOLID_TRIGGER), ((e).frags = FRAGS_PLAYER_OUT_OF_GAME))</span></div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00249"></a><span class="lineno"><a class="line" href="../../d5/d26/server_2defs_8qh.html#a286703f809e7592d1737c49857aeb264">  249</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../d5/d26/server_2defs_8qh.html#a286703f809e7592d1737c49857aeb264">clientstuff</a>;</div>
 <div class="line"><a name="l00250"></a><span class="lineno"><a class="line" href="../../d5/d26/server_2defs_8qh.html#a275dd6dafe5d4455e599ffd15feb06f8">  250</a></span>&#160;.float <a class="code" href="../../d5/d26/server_2defs_8qh.html#a275dd6dafe5d4455e599ffd15feb06f8">phase</a>;</div>
@@ -816,7 +816,7 @@ $(document).ready(function(){initNavTree('d5/d26/server_2defs_8qh_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/d26/server_2defs_8qh.html">defs.qh</a></li>
-    <li class="footer">Generated on Fri Mar 29 2019 16:48:07 for Xonotic by
+    <li class="footer">Generated on Fri Mar 29 2019 23:26:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

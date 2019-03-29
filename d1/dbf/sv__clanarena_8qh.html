@@ -366,18 +366,18 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/db6/sv__clanarena_8qc_source.html#l00148">148</a> of file <a class="el" href="../../d7/db6/sv__clanarena_8qc_source.html">sv_clanarena.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00043">FRAGS_LMS_LOSER</a>, and <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>.</p>
+<p>References <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00043">FRAGS_PLAYER_OUT_OF_GAME</a>, and <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/dbf/sv__clanarena_8qh_source.html#l00026">REGISTER_MUTATOR()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;{</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordflow">if</span>(e.caplayer == 1 &amp;&amp; (<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(e) || e.frags == <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae2502553257cc9ab52b97b8529cd3dc0">FRAGS_LMS_LOSER</a>))</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordflow">if</span>(e.caplayer == 1 &amp;&amp; (<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(e) || e.frags == <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a8fb26853bca170280dba1a301c735661">FRAGS_PLAYER_OUT_OF_GAME</a>))</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordflow">if</span>(e.caplayer == 0.5)</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;}</div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
-<div class="ttc" id="common_2constants_8qh_html_ae2502553257cc9ab52b97b8529cd3dc0"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae2502553257cc9ab52b97b8529cd3dc0">FRAGS_LMS_LOSER</a></div><div class="ttdeci">const int FRAGS_LMS_LOSER</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00043">constants.qh:43</a></div></div>
+<div class="ttc" id="common_2constants_8qh_html_a8fb26853bca170280dba1a301c735661"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a8fb26853bca170280dba1a301c735661">FRAGS_PLAYER_OUT_OF_GAME</a></div><div class="ttdeci">const int FRAGS_PLAYER_OUT_OF_GAME</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00043">constants.qh:43</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -687,7 +687,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_743df9d5368f599d623f697bc203bee0.html">clanarena</a></li><li class="navelem"><a class="el" href="../../d1/dbf/sv__clanarena_8qh.html">sv_clanarena.qh</a></li>
-    <li class="footer">Generated on Fri Mar 29 2019 16:48:16 for Xonotic by
+    <li class="footer">Generated on Fri Mar 29 2019 23:26:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
