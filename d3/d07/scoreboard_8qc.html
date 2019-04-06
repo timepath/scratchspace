@@ -2086,7 +2086,7 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;{</div>
 <div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<span class="keywordtype">bool</span>, is_self); <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<span class="keywordtype">int</span>, pl_number);</div>
 <div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;    <span class="keywordtype">string</span> str;</div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;    <span class="keywordtype">bool</span> is_spec = entcs_IsSpectating(pl.sv_entnum);</div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;    <span class="keywordtype">bool</span> is_spec = (entcs_GetSpecState(pl.sv_entnum) == ENTCS_SPEC_PURE);</div>
 <div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;</div>
 <div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> h_pos = item_pos;</div>
 <div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> h_size = <a class="code" href="../../de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910">vec2</a>(<a class="code" href="../../d3/d05/hud_8qh.html#a0fd201f7499f7a61e1dacbabf5327ea7">panel_size</a>.x, <a class="code" href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a>.y * 1.25);</div>
@@ -4704,7 +4704,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d3/d07/scoreboard_8qc.html">scoreboard.qc</a></li>
-    <li class="footer">Generated on Sun Mar 31 2019 11:36:03 for Xonotic by
+    <li class="footer">Generated on Sat Apr 6 2019 18:21:59 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
