@@ -2,8 +2,6 @@ var searchData=
 [
   ['hagar_5fload',['hagar_load',['../d0/d56/wepent_8qh.html#aac7d3f508a055df76a2b01961f24ed16',1,'hagar_load():&#160;wepent.qh'],['../d5/d26/server_2defs_8qh.html#aac7d3f508a055df76a2b01961f24ed16',1,'hagar_load():&#160;defs.qh']]],
   ['handle',['handle',['../db/ddb/classXonoticCvarList.html#a73fc2f6190b3004092ed63ea6cd252a1',1,'XonoticCvarList']]],
-  ['has_5forigin',['has_origin',['../db/d18/ent__cs_8qh.html#af17dfd90e88595249957c1539ebe1c17',1,'ent_cs.qh']]],
-  ['has_5fsv_5forigin',['has_sv_origin',['../db/d18/ent__cs_8qh.html#a154ebd8673f5dbd02db9c5d6300fefc5',1,'ent_cs.qh']]],
   ['has_5fteam',['has_team',['../df/d30/client_2main_8qc.html#a33415c58794cf70af080dcfa3213a501',1,'main.qc']]],
   ['hasnextcampaign',['hasNextCampaign',['../d4/d91/classXonoticCampaignList.html#a2c323d82578b381efc9730e7017ec98b',1,'XonoticCampaignList']]],
   ['hasprevcampaign',['hasPrevCampaign',['../d4/d91/classXonoticCampaignList.html#abbd29ade66c2c1a48ed795560a2fcb22',1,'XonoticCampaignList']]],

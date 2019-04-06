@@ -1,8 +1,5 @@
 var NAVTREEINDEX138 =
 {
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aee9fee5e1e798ea7d1b0905bc107ed8c":[1,0,238,99],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aeeea196cce280d4e95730a8f06b80518":[1,0,238,25],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,238,8],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#af6491199d7c16232c6ec828661a64ecf":[1,0,238,11],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#af9fddf9420dfbf92a4fb716acfaa260c":[1,0,238,55],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,238,83],
@@ -140,8 +137,8 @@ var NAVTREEINDEX138 =
 "dir_fe472327f69aa9464440251988e1566b.html":[2,0,1,9],
 "dir_ff27e448fac324d88c702b7803ed56f3.html":[2,0,1,10,0,35],
 "files.html":[2,0],
-"functions.html":[1,3,0,0],
 "functions.html":[1,3,0],
+"functions.html":[1,3,0,0],
 "functions_a.html":[1,3,0,1],
 "functions_b.html":[1,3,0,2],
 "functions_c.html":[1,3,0,3],
@@ -187,8 +184,8 @@ var NAVTREEINDEX138 =
 "functions_t.html":[1,3,0,19],
 "functions_u.html":[1,3,0,20],
 "functions_v.html":[1,3,0,21],
-"functions_vars.html":[1,3,2,0],
 "functions_vars.html":[1,3,2],
+"functions_vars.html":[1,3,2,0],
 "functions_vars_b.html":[1,3,2,1],
 "functions_vars_c.html":[1,3,2,2],
 "functions_vars_d.html":[1,3,2,3],
@@ -217,8 +214,8 @@ var NAVTREEINDEX138 =
 "functions_y.html":[1,3,0,24],
 "functions_z.html":[1,3,0,25],
 "functions_~.html":[1,3,0,26],
-"globals.html":[2,1,0],
 "globals.html":[2,1,0,0],
+"globals.html":[2,1,0],
 "globals_a.html":[2,1,0,1],
 "globals_b.html":[2,1,0,2],
 "globals_c.html":[2,1,0,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX138 =
 "globals_defs_v.html":[2,1,5,22],
 "globals_defs_w.html":[2,1,5,23],
 "globals_defs_x.html":[2,1,5,24],
-"globals_defs_y.html":[2,1,5,25]
+"globals_defs_y.html":[2,1,5,25],
+"globals_defs_z.html":[2,1,5,26],
+"globals_e.html":[2,1,0,5],
+"globals_eval.html":[2,1,4]
 };

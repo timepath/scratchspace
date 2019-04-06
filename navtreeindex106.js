@@ -1,8 +1,5 @@
 var NAVTREEINDEX106 =
 {
-"db/dcc/g__world_8qc.html#a78c0ed0111dcca8924305a46bbf880bd":[2,0,6,27,59],
-"db/dcc/g__world_8qc.html#a795b76ebd603f2cfb3384547ac184da1":[2,0,6,27,79],
-"db/dcc/g__world_8qc.html#a7bd98f24d513342b45d7ec36af6564be":[2,0,6,27,14],
 "db/dcc/g__world_8qc.html#a7ddf10ff440a05521030d342d616f211":[2,0,6,27,43],
 "db/dcc/g__world_8qc.html#a828a5409a4543c1aa36549252a04fb0f":[2,0,6,27,51],
 "db/dcc/g__world_8qc.html#a84147cbd8197c98a9f450a3239313ad5":[2,0,6,27,44],
@@ -249,5 +246,8 @@ var NAVTREEINDEX106 =
 "db/de2/classXonoticScreenshotViewerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,242,40],
 "db/de2/classXonoticScreenshotViewerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,242,44],
 "db/de6/porto_8qh.html":[2,0,1,16,0,27],
-"db/de6/porto_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,27,1]
+"db/de6/porto_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,27,1],
+"db/de6/porto_8qh.html#aa3a215ab9ec8c4e8b6cde70c1f82d7fa":[2,0,1,16,0,27,2],
+"db/de6/porto_8qh_source.html":[2,0,1,16,0,27],
+"db/de8/effectinfo__gentle__particlegibs_8inc.html":[2,0,1,2,15]
 };
