@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"d9/da1/common_2command_2command_8qh.html":[2,0,1,0,2],
 "d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04":[2,0,1,0,2,1],
 "d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a":[2,0,1,0,2,2],
 "d9/da1/common_2command_2command_8qh_source.html":[2,0,1,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "d9/dca/classXonoticCommandButton.html#a476349ed1a0d044310253e867c496c16":[1,0,162,43],
 "d9/dca/classXonoticCommandButton.html#a47ec54ba5a75b70927a3e25a09e6d5ea":[1,0,162,17],
 "d9/dca/classXonoticCommandButton.html#a4985255a6e0984252ab7ccedd6347d5b":[1,0,162,41],
-"d9/dca/classXonoticCommandButton.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,162,70],
-"d9/dca/classXonoticCommandButton.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,162,18]
+"d9/dca/classXonoticCommandButton.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,162,70]
 };

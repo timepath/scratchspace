@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"dd/d36/classXonoticGameViewSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,184,34],
 "dd/d36/classXonoticGameViewSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,184,15],
 "dd/d36/classXonoticGameViewSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,184,42],
 "dd/d36/classXonoticGameViewSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,184,9],
@@ -215,8 +216,8 @@ var NAVTREEINDEX117 =
 "dd/d59/modicons_8qc.html#a90abcb5dfd155425638f8823221e96a7":[2,0,0,1,0,16,37],
 "dd/d59/modicons_8qc.html#a90b00643b4f9e53be543cdb107e4d527":[2,0,0,1,0,16,26],
 "dd/d59/modicons_8qc.html#a9245f9b7b4151715d667f06cbaf831cd":[2,0,0,1,0,16,8],
-"dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,2],
 "dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,0],
+"dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,2],
 "dd/d59/modicons_8qc.html#a9fba4055eb7a12732e45c9864109ce0a":[2,0,0,1,0,16,42],
 "dd/d59/modicons_8qc.html#aa31974f3ee04983fc466c46abdbe5625":[2,0,0,1,0,16,10],
 "dd/d59/modicons_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922":[2,0,0,1,0,16,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "dd/d5e/door_8qh.html#a719e6f009c974e863488d99b5cfb6532":[2,0,1,6,0,11,5],
 "dd/d5e/door_8qh.html#a811d13fb74bd06d261d4c8307f7d4b43":[2,0,1,6,0,11,0],
 "dd/d5e/door_8qh.html#a8e9c86ac648bfa776b10db0976ee4304":[2,0,1,6,0,11,4],
-"dd/d5e/door_8qh.html#aacc6cae9e0f967ad449b943bfc1526fc":[2,0,1,6,0,11,3],
-"dd/d5e/door_8qh.html#ae42ce4025618f0c563c4094835389764":[2,0,1,6,0,11,2]
+"dd/d5e/door_8qh.html#aacc6cae9e0f967ad449b943bfc1526fc":[2,0,1,6,0,11,3]
 };

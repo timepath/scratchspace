@@ -1522,6 +1522,7 @@ var searchData=
   ['autocvar_5fmenu_5fwatermark',['autocvar_menu_watermark',['../df/d9b/menu_2xonotic_2util_8qc.html#a9ba01c55dd4d8896b1f02ef83b22acc8',1,'util.qc']]],
   ['autocvar_5fminplayers',['autocvar_minplayers',['../d7/da7/server_2autocvars_8qh.html#a5c98324cfd163efd161fa89a7f368885',1,'autocvars.qh']]],
   ['autocvar_5fminplayers_5fper_5fteam',['autocvar_minplayers_per_team',['../d7/da7/server_2autocvars_8qh.html#a9707abf38aaf3d436997bb8c73507284',1,'autocvars.qh']]],
+  ['autocvar_5fname_5fmaxlength',['autocvar_name_maxlength',['../d7/da7/server_2autocvars_8qh.html#aeda3f09f8d8fc0ba72d4a7f0d73acd42',1,'autocvars.qh']]],
   ['autocvar_5fnet_5fconnecttimeout',['autocvar_net_connecttimeout',['../d9/d76/common_2__all_8inc.html#aa7b16301ef62cf95937fe7cc30f29366',1,'_all.inc']]],
   ['autocvar_5fnextmap',['autocvar_nextmap',['../d7/da7/server_2autocvars_8qh.html#a65d58aa722d513abdc70cab66f8b75a9',1,'autocvars.qh']]],
   ['autocvar_5fnotification_5fallow_5fchatboxprint',['autocvar_notification_allow_chatboxprint',['../dc/d8f/notifications_2all_8qh.html#a585051c403f71e0d55036ee1ee54ba65',1,'all.qh']]],
