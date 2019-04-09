@@ -154,6 +154,7 @@ var annotated =
     [ "XonoticAudioSettingsTab", "da/dc1/classXonoticAudioSettingsTab.html", "da/dc1/classXonoticAudioSettingsTab" ],
     [ "XonoticBigButton", "d4/d3b/classXonoticBigButton.html", "d4/d3b/classXonoticBigButton" ],
     [ "XonoticBigCommandButton", "d4/da5/classXonoticBigCommandButton.html", "d4/da5/classXonoticBigCommandButton" ],
+    [ "XonoticBindingsResetDialog", "de/d93/classXonoticBindingsResetDialog.html", "de/d93/classXonoticBindingsResetDialog" ],
     [ "XonoticButton", "da/d9b/classXonoticButton.html", "da/d9b/classXonoticButton" ],
     [ "XonoticCampaignList", "d4/d91/classXonoticCampaignList.html", "d4/d91/classXonoticCampaignList" ],
     [ "XonoticCharmap", "d5/d53/classXonoticCharmap.html", "d5/d53/classXonoticCharmap" ],

@@ -5,6 +5,7 @@ var classXonoticKeyBinder =
     [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#a6cc59c1de971510be31db1dbba9ec665", null ],
     [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#a13609a330433433b9dd3530506132650", null ],
     [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#aa06527dceffa3a23d331de29474ffc42", null ],
+    [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#a3344fcf541e574fe496d4b81687311ee", null ],
     [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#af3a31a2cea0e185a1b793a1b539377b8", null ],
     [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#aa0be1afcee01b4904e9b7ccc15674b53", null ],
     [ "clickListBoxItem", "d4/d3f/classXonoticKeyBinder.html#a235355aace741c77462c66d35b2c5e2a", null ],

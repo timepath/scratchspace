@@ -190,6 +190,10 @@ var dir_53efa11b035745576779f641909983cd =
     ] ],
     [ "dialog_settings_audio.qc", "d4/d87/dialog__settings__audio_8qc.html", "d4/d87/dialog__settings__audio_8qc" ],
     [ "dialog_settings_audio.qh", "d9/d40/dialog__settings__audio_8qh.html", "d9/d40/dialog__settings__audio_8qh" ],
+    [ "dialog_settings_bindings_reset.qc", "d3/db7/dialog__settings__bindings__reset_8qc.html", "d3/db7/dialog__settings__bindings__reset_8qc" ],
+    [ "dialog_settings_bindings_reset.qh", "dd/d5d/dialog__settings__bindings__reset_8qh.html", [
+      [ "XonoticBindingsResetDialog", "de/d93/classXonoticBindingsResetDialog.html", "de/d93/classXonoticBindingsResetDialog" ]
+    ] ],
     [ "dialog_settings_effects.qc", "d2/de6/dialog__settings__effects_8qc.html", "d2/de6/dialog__settings__effects_8qc" ],
     [ "dialog_settings_effects.qh", "de/dc5/dialog__settings__effects_8qh.html", "de/dc5/dialog__settings__effects_8qh" ],
     [ "dialog_settings_game.qc", "de/d48/dialog__settings__game_8qc.html", "de/d48/dialog__settings__game_8qc" ],

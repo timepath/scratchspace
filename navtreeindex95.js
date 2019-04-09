@@ -1,5 +1,10 @@
 var NAVTREEINDEX95 =
 {
+"da/dc1/classXonoticAudioSettingsTab.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,151,56],
+"da/dc1/classXonoticAudioSettingsTab.html#ac4bb854e279de0577aac67b476bc7dc1":[1,0,151,27],
+"da/dc1/classXonoticAudioSettingsTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,151,0],
+"da/dc1/classXonoticAudioSettingsTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,151,36],
+"da/dc1/classXonoticAudioSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,151,41],
 "da/dc1/classXonoticAudioSettingsTab.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,151,38],
 "da/dc1/classXonoticAudioSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,151,85],
 "da/dc1/classXonoticAudioSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,151,58],
@@ -137,8 +142,8 @@ var NAVTREEINDEX95 =
 "da/dd7/common_2gamemodes_2gamemode_2domination_2__mod_8inc_source.html":[2,0,1,3,0,5,0],
 "da/dd7/common_2turrets_2__mod_8inc.html":[2,0,1,14,1],
 "da/dd7/common_2turrets_2__mod_8inc_source.html":[2,0,1,14,1],
-"da/ddd/dialog__singleplayer__winner_8qh.html":[2,0,5,4,159],
-"da/ddd/dialog__singleplayer__winner_8qh_source.html":[2,0,5,4,159],
+"da/ddd/dialog__singleplayer__winner_8qh.html":[2,0,5,4,161],
+"da/ddd/dialog__singleplayer__winner_8qh_source.html":[2,0,5,4,161],
 "da/ddd/ipban_8qh.html":[2,0,6,34],
 "da/ddd/ipban_8qh.html#a00561ab100b941912528ea8344521047":[2,0,6,34,4],
 "da/ddd/ipban_8qh.html#a1a7772963018e41992c65dfbe12b63fe":[2,0,6,34,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX95 =
 "da/def/classClanArena.html#a3f4f5b175eb3ae95d7be4ba80daf0eb3":[1,0,17,0],
 "da/def/classClanArena.html#a4109ad22533b3aee7521df4dc36a516b":[1,0,17,12],
 "da/def/classClanArena.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,17,14],
-"da/def/classClanArena.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,17,8],
-"da/def/classClanArena.html#a689c2a1afc56d93f77ebdebad6b168bf":[1,0,17,11],
-"da/def/classClanArena.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,17,2],
-"da/def/classClanArena.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,17,18],
-"da/def/classClanArena.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,17,4],
-"da/def/classClanArena.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,17,3]
+"da/def/classClanArena.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,17,8]
 };

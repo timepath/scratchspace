@@ -3,6 +3,7 @@ var searchData=
   ['xonoticaudiosettingstab',['XonoticAudioSettingsTab',['../da/dc1/classXonoticAudioSettingsTab.html',1,'']]],
   ['xonoticbigbutton',['XonoticBigButton',['../d4/d3b/classXonoticBigButton.html',1,'']]],
   ['xonoticbigcommandbutton',['XonoticBigCommandButton',['../d4/da5/classXonoticBigCommandButton.html',1,'']]],
+  ['xonoticbindingsresetdialog',['XonoticBindingsResetDialog',['../de/d93/classXonoticBindingsResetDialog.html',1,'']]],
   ['xonoticbutton',['XonoticButton',['../da/d9b/classXonoticButton.html',1,'']]],
   ['xonoticcampaignlist',['XonoticCampaignList',['../d4/d91/classXonoticCampaignList.html',1,'']]],
   ['xonoticcharmap',['XonoticCharmap',['../d5/d53/classXonoticCharmap.html',1,'']]],

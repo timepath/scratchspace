@@ -6,6 +6,7 @@ var searchData=
   ['xonoticaudiosettingstab_5ffill',['XonoticAudioSettingsTab_fill',['../d4/d87/dialog__settings__audio_8qc.html#adcafbc93d8765f378e35d8e650160da6',1,'dialog_settings_audio.qc']]],
   ['xonoticbigbutton_5fconfigurexonoticbigbutton',['XonoticBigButton_configureXonoticBigButton',['../df/d4f/bigbutton_8qc.html#aa0feb9e63dbc800be8f95216ea5d2c68',1,'bigbutton.qc']]],
   ['xonoticbigcommandbutton_5fconfigurexonoticbigcommandbutton',['XonoticBigCommandButton_configureXonoticBigCommandButton',['../d7/d0d/bigcommandbutton_8qc.html#a032835115310f2e38bc75d3166070fba',1,'bigcommandbutton.qc']]],
+  ['xonoticbindingsresetdialog_5ffill',['XonoticBindingsResetDialog_fill',['../d3/db7/dialog__settings__bindings__reset_8qc.html#acce924b3ec8d10aaca50b175851e87b7',1,'dialog_settings_bindings_reset.qc']]],
   ['xonoticbutton_5fconfigurexonoticbutton',['XonoticButton_configureXonoticButton',['../df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5',1,'button.qc']]],
   ['xonoticcampaignlist_5fcampaigngo',['XonoticCampaignList_campaignGo',['../d3/d69/menu_2xonotic_2campaign_8qc.html#a16700dd4a97a5faa8c63d9afeb9bc409',1,'campaign.qc']]],
   ['xonoticcampaignlist_5fconfigurexonoticcampaignlist',['XonoticCampaignList_configureXonoticCampaignList',['../d3/d69/menu_2xonotic_2campaign_8qc.html#a777c57a47c14fab1a818091cb2eabe41',1,'campaign.qc']]],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX61 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600a708c50a7b7fff1d0a28ef250fcc171d2":[2,0,6,3,3,148],
+"d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600abba6311be4f5a35fa3e04dfaad7ee09e":[2,0,6,3,3,147],
+"d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600af472ec535e6e4b6b39552253d5128c6c":[2,0,6,3,3,146],
+"d6/ddd/server_2mutators_2events_8qh.html#abee1b05701002fdd967af13764d92bc2":[2,0,6,3,3,167],
+"d6/ddd/server_2mutators_2events_8qh.html#abf3b7e1977679a3e88eb6af04bd4f0d0":[2,0,6,3,3,197],
 "d6/ddd/server_2mutators_2events_8qh.html#ac06363c859c5125ac4a46c40ced2c14e":[2,0,6,3,3,267],
 "d6/ddd/server_2mutators_2events_8qh.html#ac0d79fd7b6ad42fd4c85851b79855fc9":[2,0,6,3,3,192],
 "d6/ddd/server_2mutators_2events_8qh.html#ac169f1a08d376dea6f0329bd09fcbb26":[2,0,6,3,3,132],
@@ -230,11 +235,11 @@ var NAVTREEINDEX61 =
 "d7/d0d/bigcommandbutton_8qc.html#a3585c81eab0e3c921741fd4edcec39c9":[2,0,5,4,4,1],
 "d7/d0d/bigcommandbutton_8qc.html#ab7f0ec07e81d9178eae782be68d7a3f8":[2,0,5,4,4,0],
 "d7/d0d/bigcommandbutton_8qc_source.html":[2,0,5,4,4],
-"d7/d0e/dialog__settings__game__weapons_8qc.html":[2,0,5,4,138],
-"d7/d0e/dialog__settings__game__weapons_8qc.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,138,0],
-"d7/d0e/dialog__settings__game__weapons_8qc.html#acf4cc204368768bf74b724575fb387ab":[2,0,5,4,138,2],
-"d7/d0e/dialog__settings__game__weapons_8qc.html#ae437727300e145636490fbb37f0a84fe":[2,0,5,4,138,1],
-"d7/d0e/dialog__settings__game__weapons_8qc_source.html":[2,0,5,4,138],
+"d7/d0e/dialog__settings__game__weapons_8qc.html":[2,0,5,4,140],
+"d7/d0e/dialog__settings__game__weapons_8qc.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,140,0],
+"d7/d0e/dialog__settings__game__weapons_8qc.html#acf4cc204368768bf74b724575fb387ab":[2,0,5,4,140,2],
+"d7/d0e/dialog__settings__game__weapons_8qc.html#ae437727300e145636490fbb37f0a84fe":[2,0,5,4,140,1],
+"d7/d0e/dialog__settings__game__weapons_8qc_source.html":[2,0,5,4,140],
 "d7/d0f/classCallbackChain_1_1CallbackNode.html":[1,0,14,0],
 "d7/d0f/classCallbackChain_1_1CallbackNode.html#a2b470d9ce857fd3fa94d52e07182b52e":[1,0,14,0,1],
 "d7/d0f/classCallbackChain_1_1CallbackNode.html#a415ac521cfeeaeb9de3fd09c2c192d9b":[1,0,14,0,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX61 =
 "d7/d11/common_2mapobjects_2func_2__mod_8inc_source.html":[2,0,1,6,0,0],
 "d7/d13/campaign__common_8qh.html":[2,0,1,24],
 "d7/d13/campaign__common_8qh.html#a038cf4d3317389d708a6fb8a6964cdb8":[2,0,1,24,14],
-"d7/d13/campaign__common_8qh.html#a16e9b6f1180b1bc884a02690785fe7d0":[2,0,1,24,11],
-"d7/d13/campaign__common_8qh.html#a198e6c5a18c20ce353645bc2c7ad88d6":[2,0,1,24,15],
-"d7/d13/campaign__common_8qh.html#a2ce607f1482680ba4c46208bf2c0ff36":[2,0,1,24,13],
-"d7/d13/campaign__common_8qh.html#a322494a97620eb78447e2c7fd603f2cc":[2,0,1,24,16],
-"d7/d13/campaign__common_8qh.html#a44682faf528bd6a366926572a26da360":[2,0,1,24,12],
-"d7/d13/campaign__common_8qh.html#a50bd07c33fd69d90da3289256b6479e3":[2,0,1,24,4]
+"d7/d13/campaign__common_8qh.html#a16e9b6f1180b1bc884a02690785fe7d0":[2,0,1,24,11]
 };

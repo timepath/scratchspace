@@ -1,5 +1,9 @@
 var NAVTREEINDEX51 =
 {
+"d5/df2/common_2util_8qh.html#a6ae03133beaeec492cebebfa5a815214":[2,0,1,50,23],
+"d5/df2/common_2util_8qh.html#a6ae089383a3f0a95ad7b568cc736eaea":[2,0,1,50,33],
+"d5/df2/common_2util_8qh.html#a6d5759eacadb49c4df578d938532d2a8":[2,0,1,50,20],
+"d5/df2/common_2util_8qh.html#a704c498a020ee983a4c8e851a2d42a78":[2,0,1,50,9],
 "d5/df2/common_2util_8qh.html#a73facb0284fea0ce62e29dbd91418f1a":[2,0,1,50,54],
 "d5/df2/common_2util_8qh.html#a74266eb1e0df9ab1fc0b8c4afe4c71f7":[2,0,1,50,31],
 "d5/df2/common_2util_8qh.html#a77d276d801f4e93f46fefac297900ea7":[2,0,1,50,17],
@@ -146,10 +150,10 @@ var NAVTREEINDEX51 =
 "d6/d01/classRaptorCannon.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,118,18],
 "d6/d02/raptor_8qc.html":[2,0,1,15,0,10],
 "d6/d02/raptor_8qc_source.html":[2,0,1,15,0,10],
-"d6/d07/dialog__settings__video_8qc.html":[2,0,5,4,154],
-"d6/d07/dialog__settings__video_8qc.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,154,0],
-"d6/d07/dialog__settings__video_8qc.html#a86fb8897afd7559870c26c10874a8773":[2,0,5,4,154,1],
-"d6/d07/dialog__settings__video_8qc_source.html":[2,0,5,4,154],
+"d6/d07/dialog__settings__video_8qc.html":[2,0,5,4,156],
+"d6/d07/dialog__settings__video_8qc.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,156,0],
+"d6/d07/dialog__settings__video_8qc.html#a86fb8897afd7559870c26c10874a8773":[2,0,5,4,156,1],
+"d6/d07/dialog__settings__video_8qc_source.html":[2,0,5,4,156],
 "d6/d07/monoflop_8qc.html":[2,0,1,6,3,26],
 "d6/d07/monoflop_8qc_source.html":[2,0,1,6,3,26],
 "d6/d10/common_2mapobjects_2func_2button_8qh.html":[2,0,1,6,0,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX51 =
 "d6/d11/progsdefs_8qc.html#a5730a5d99021203efb546d3b48f7b293":[2,0,2,0,4,254],
 "d6/d11/progsdefs_8qc.html#a57543f4504ac47638c83710dd5b3cddb":[2,0,2,0,4,46],
 "d6/d11/progsdefs_8qc.html#a576248ac976402e69bbf6dad03623ae3":[2,0,2,0,4,156],
-"d6/d11/progsdefs_8qc.html#a5879b8fab6867440c2cb28e88ed6eb0c":[2,0,2,0,4,227],
-"d6/d11/progsdefs_8qc.html#a588ddcbfad5363fccd2936b8db1e3307":[2,0,2,0,4,109],
-"d6/d11/progsdefs_8qc.html#a5afb17a6aea8c14b3af0af620c725244":[2,0,2,0,4,118],
-"d6/d11/progsdefs_8qc.html#a5b22fb02e46104adf892ccf37392f741":[2,0,2,0,4,236],
-"d6/d11/progsdefs_8qc.html#a5b834d2f3b730660e13fbf6180071669":[2,0,2,0,4,154]
+"d6/d11/progsdefs_8qc.html#a5879b8fab6867440c2cb28e88ed6eb0c":[2,0,2,0,4,227]
 };

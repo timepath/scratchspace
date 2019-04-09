@@ -97,6 +97,7 @@ var hierarchy =
                 ] ]
               ] ],
               [ "XonoticDialog", "d5/d95/classXonoticDialog.html", [
+                [ "XonoticBindingsResetDialog", "de/d93/classXonoticBindingsResetDialog.html", null ],
                 [ "XonoticCreditsDialog", "dd/da6/classXonoticCreditsDialog.html", null ],
                 [ "XonoticCvarsDialog", "dc/df7/classXonoticCvarsDialog.html", null ],
                 [ "XonoticDemoStartConfirmDialog", "d2/d25/classXonoticDemoStartConfirmDialog.html", null ],

@@ -105,6 +105,8 @@ var searchData=
   ['dialog_5fsettings_2eqh',['dialog_settings.qh',['../dc/d23/dialog__settings_8qh.html',1,'']]],
   ['dialog_5fsettings_5faudio_2eqc',['dialog_settings_audio.qc',['../d4/d87/dialog__settings__audio_8qc.html',1,'']]],
   ['dialog_5fsettings_5faudio_2eqh',['dialog_settings_audio.qh',['../d9/d40/dialog__settings__audio_8qh.html',1,'']]],
+  ['dialog_5fsettings_5fbindings_5freset_2eqc',['dialog_settings_bindings_reset.qc',['../d3/db7/dialog__settings__bindings__reset_8qc.html',1,'']]],
+  ['dialog_5fsettings_5fbindings_5freset_2eqh',['dialog_settings_bindings_reset.qh',['../dd/d5d/dialog__settings__bindings__reset_8qh.html',1,'']]],
   ['dialog_5fsettings_5feffects_2eqc',['dialog_settings_effects.qc',['../d2/de6/dialog__settings__effects_8qc.html',1,'']]],
   ['dialog_5fsettings_5feffects_2eqh',['dialog_settings_effects.qh',['../de/dc5/dialog__settings__effects_8qh.html',1,'']]],
   ['dialog_5fsettings_5fgame_2eqc',['dialog_settings_game.qc',['../de/d48/dialog__settings__game_8qc.html',1,'']]],
