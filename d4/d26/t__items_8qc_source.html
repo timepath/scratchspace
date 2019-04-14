@@ -1963,7 +1963,7 @@ $(document).ready(function(){initNavTree('d4/d26/t__items_8qc_source.html','../.
 <div class="line"><a name="l01857"></a><span class="lineno"> 1857</span>&#160;    POSTGIVE_RES_ROT(e, <a class="code" href="../../d5/dff/ent__cs_8qc.html#ad2d7a2f4fd344b8f21d7b07ca2fd9346">RES_HEALTH</a>, 1, <a class="code" href="../../d5/d26/server_2defs_8qh.html#ab449c96dec12874833ce78d1027bbbe2">pauserothealth_finished</a>, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ac5cf68d52e95cb08f6104c22b76f412b">autocvar_g_balance_pause_health_rot</a>, <a class="code" href="../../d5/d26/server_2defs_8qh.html#aaf6a15488255d175853227438f389670">pauseregen_finished</a>, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ad3662de5cf14d2c41af014ee0928c91c">autocvar_g_balance_pause_health_regen</a>, SND_MEGAHEALTH, SND_Null);</div>
 <div class="line"><a name="l01858"></a><span class="lineno"> 1858</span>&#160;</div>
 <div class="line"><a name="l01859"></a><span class="lineno"> 1859</span>&#160;    <span class="keywordflow">if</span>(e.superweapons_finished &lt;= 0)</div>
-<div class="line"><a name="l01860"></a><span class="lineno"> 1860</span>&#160;        <span class="keywordflow">if</span>(STAT(WEAPONS, e) &amp; WEPSET_SUPERWEAPONS)</div>
+<div class="line"><a name="l01860"></a><span class="lineno"> 1860</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a8fb81e5e74fcfefe13d3071a96ca9c66">g_weaponarena</a> &amp;&amp; STAT(WEAPONS, e) &amp; WEPSET_SUPERWEAPONS)</div>
 <div class="line"><a name="l01861"></a><span class="lineno"> 1861</span>&#160;            e.superweapons_finished = <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a0f8e8aea2af6ef8befbff36f321e12c2">autocvar_g_balance_superweapons_time</a>;</div>
 <div class="line"><a name="l01862"></a><span class="lineno"> 1862</span>&#160;</div>
 <div class="line"><a name="l01863"></a><span class="lineno"> 1863</span>&#160;    <span class="keywordflow">if</span>(e.strength_finished &lt;= 0)</div>
@@ -2301,7 +2301,7 @@ $(document).ready(function(){initNavTree('d4/d26/t__items_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../d4/d26/t__items_8qc.html">t_items.qc</a></li>
-    <li class="footer">Generated on Sun Apr 14 2019 05:40:10 for Xonotic by
+    <li class="footer">Generated on Sun Apr 14 2019 13:11:36 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
