@@ -1,5 +1,8 @@
 var NAVTREEINDEX88 =
 {
+"d9/dca/classXonoticCommandButton.html#a3a740bc65a83689ad7304710ece43f5c":[1,0,163,58],
+"d9/dca/classXonoticCommandButton.html#a3a88ebd44b9abf22558ee9a6cfaf03dd":[1,0,163,75],
+"d9/dca/classXonoticCommandButton.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,163,60],
 "d9/dca/classXonoticCommandButton.html#a3f9c5e6943891f335099fe380661b70c":[1,0,163,29],
 "d9/dca/classXonoticCommandButton.html#a476349ed1a0d044310253e867c496c16":[1,0,163,43],
 "d9/dca/classXonoticCommandButton.html#a47ec54ba5a75b70927a3e25a09e6d5ea":[1,0,163,17],
@@ -246,8 +249,5 @@ var NAVTREEINDEX88 =
 "d9/deb/classXonoticHUDTimerDialog.html#ab46e248b9c0df874422af3bb68e284f7":[1,0,206,76],
 "d9/deb/classXonoticHUDTimerDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,206,77],
 "d9/deb/classXonoticHUDTimerDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,206,34],
-"d9/deb/classXonoticHUDTimerDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,206,5],
-"d9/deb/classXonoticHUDTimerDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,206,88],
-"d9/deb/classXonoticHUDTimerDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,206,42],
-"d9/deb/classXonoticHUDTimerDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,206,51]
+"d9/deb/classXonoticHUDTimerDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,206,5]
 };

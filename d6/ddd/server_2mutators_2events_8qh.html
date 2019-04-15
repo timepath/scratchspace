@@ -306,6 +306,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a5667cdc3ce5325ca57f7e7c31850fb8d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a5667cdc3ce5325ca57f7e7c31850fb8d">EV_ItemTouched</a>(i, o)</td></tr>
 <tr class="memdesc:a5667cdc3ce5325ca57f7e7c31850fb8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after the item has been touched.  <a href="#a5667cdc3ce5325ca57f7e7c31850fb8d">More...</a><br/></td></tr>
 <tr class="separator:a5667cdc3ce5325ca57f7e7c31850fb8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfe6e2aa4474d7f7c05e577c5c11a6d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abfe6e2aa4474d7f7c05e577c5c11a6d6">EV_LockWeapon</a>(i, o)&#160;&#160;&#160;/** player */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
+<tr class="memdesc:abfe6e2aa4474d7f7c05e577c5c11a6d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true to lock weapon (can't be used nor changed) for a player  <a href="#abfe6e2aa4474d7f7c05e577c5c11a6d6">More...</a><br/></td></tr>
+<tr class="separator:abfe6e2aa4474d7f7c05e577c5c11a6d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df6d95c530e55136fdc89785b9b27fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a3df6d95c530e55136fdc89785b9b27fc">EV_MakePlayerObserver</a>(i, o)&#160;&#160;&#160;/** player */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:a3df6d95c530e55136fdc89785b9b27fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a player becomes observer, after shared setup  <a href="#a3df6d95c530e55136fdc89785b9b27fc">More...</a><br/></td></tr>
 <tr class="separator:a3df6d95c530e55136fdc89785b9b27fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -809,6 +812,8 @@ Functions</h2></td></tr>
 <tr class="separator:af0cd6d32bbeb365dcd2d1f06e477fc1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc988234d12ab905cfc6ccf48be12325"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#adc988234d12ab905cfc6ccf48be12325">MUTATOR_HOOKABLE</a> (URI_GetCallback, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a1670169f8619835af93a9bdedbbb9689">EV_URI_GetCallback</a>)</td></tr>
 <tr class="separator:adc988234d12ab905cfc6ccf48be12325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d3ad17bb52d550b56bc19e77c9956a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a1d3ad17bb52d550b56bc19e77c9956a2">MUTATOR_HOOKABLE</a> (LockWeapon, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abfe6e2aa4474d7f7c05e577c5c11a6d6">EV_LockWeapon</a>)</td></tr>
+<tr class="separator:a1d3ad17bb52d550b56bc19e77c9956a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac5f40e0440c0d379bb7b53071ff36d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aac5f40e0440c0d379bb7b53071ff36d6">MUTATOR_HOOKABLE</a> (ForbidWeaponUse, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a3c1330bd14d70ce54c36e80af99c40bd">EV_ForbidWeaponUse</a>)</td></tr>
 <tr class="separator:aac5f40e0440c0d379bb7b53071ff36d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa23cbe266895ab63dc32086beaa5e18b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aa23cbe266895ab63dc32086beaa5e18b">MUTATOR_HOOKABLE</a> (<a class="el" href="../../da/dc1/server_2player_8qh.html#af2cf7e359cda23b596ac40cda3f9ba87">CopyBody</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0c042ea3a7cc0f41fcaafa0b80651ac9">EV_CopyBody</a>)</td></tr>
@@ -1223,7 +1228,7 @@ Variables</h2></td></tr>
 
 <p>return true to skip respawn time calculations </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01169">1169</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01177">1177</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -1256,7 +1261,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>called when sending a chat message, ret argument can be changed to prevent the message </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01106">1106</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01114">1114</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -1288,7 +1293,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>return true to prevent sending a chat (private, team or regular) message from reaching a certain player </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01114">1114</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01122">1122</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -1503,7 +1508,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>called when creating a clone of the player (usually for corpses that stay after the player has re-spawned) </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01098">1098</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01106">1106</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -1970,7 +1975,7 @@ Variables</h2></td></tr>
 
 <p>return true to prevent weapon use for a player </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01092">1092</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01100">1100</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -2067,7 +2072,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>Called when freezing an entity (monster or player), return true to force showing a waypoint. </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01194">1194</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01202">1202</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -2099,7 +2104,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>called when a fusion reactor is validating its target </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01124">1124</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01132">1132</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -2196,7 +2201,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>Called when a player is trying to join, argument is the number of players allowed to join the match. </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01212">1212</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01220">1220</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -2484,7 +2489,7 @@ Variables</h2></td></tr>
 
 <p>return true to use your own aim target (or none at all) </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01163">1163</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01171">1171</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -2572,7 +2577,7 @@ Variables</h2></td></tr>
 
 <p>return true to hide the 'teamnumbers are imbalanced' message </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01137">1137</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01145">1145</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -2634,7 +2639,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>return true to show a waypoint while the item is spawning </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01143">1143</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01151">1151</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -2795,6 +2800,36 @@ Variables</h2></td></tr>
 <p>called after the item has been touched. </p>
 
 <p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00688">688</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abfe6e2aa4474d7f7c05e577c5c11a6d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_LockWeapon</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;/** player */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return true to lock weapon (can't be used nor changed) for a player </p>
+
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01092">1092</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -3398,7 +3433,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>called after physics stats are set on a player, allows post-initialization modifications </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01156">1156</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01164">1164</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -3428,7 +3463,7 @@ Variables</h2></td></tr>
 
 <p>called before physics stats are set on a player, allows limited early customization </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01150">1150</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01158">1158</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -4696,7 +4731,7 @@ Variables</h2></td></tr>
 
 <p>Called when an entity (monster or player) is defrosted. </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01204">1204</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01212">1212</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -4883,7 +4918,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>called when parsing a vote command. </p>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01175">1175</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01183">1183</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -5098,15 +5133,15 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01130">1130</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;     {</div>
-<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da83fa3412f7b9ca0cdf727708e0a4c89a">MUT_FUSREAC_TARG_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
-<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da0b727707d8a1f3e255acb85bebbd1761">MUT_FUSREAC_TARG_VALID</a>, <span class="comment">// return this flag to make the function return true (valid target)</span></div>
-<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da82492ff4719762fa9752cd4ee82dc393">MUT_FUSREAC_TARG_INVALID</a> <span class="comment">// return this flag to make the function return false (invalid target)</span></div>
-<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;};</div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da82492ff4719762fa9752cd4ee82dc393"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da82492ff4719762fa9752cd4ee82dc393">MUT_FUSREAC_TARG_INVALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01133">events.qh:1133</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da0b727707d8a1f3e255acb85bebbd1761"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da0b727707d8a1f3e255acb85bebbd1761">MUT_FUSREAC_TARG_VALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01132">events.qh:1132</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da83fa3412f7b9ca0cdf727708e0a4c89a"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da83fa3412f7b9ca0cdf727708e0a4c89a">MUT_FUSREAC_TARG_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01131">events.qh:1131</a></div></div>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01138">1138</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;     {</div>
+<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da83fa3412f7b9ca0cdf727708e0a4c89a">MUT_FUSREAC_TARG_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
+<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da0b727707d8a1f3e255acb85bebbd1761">MUT_FUSREAC_TARG_VALID</a>, <span class="comment">// return this flag to make the function return true (valid target)</span></div>
+<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da82492ff4719762fa9752cd4ee82dc393">MUT_FUSREAC_TARG_INVALID</a> <span class="comment">// return this flag to make the function return false (invalid target)</span></div>
+<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;};</div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da82492ff4719762fa9752cd4ee82dc393"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da82492ff4719762fa9752cd4ee82dc393">MUT_FUSREAC_TARG_INVALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01141">events.qh:1141</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da0b727707d8a1f3e255acb85bebbd1761"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da0b727707d8a1f3e255acb85bebbd1761">MUT_FUSREAC_TARG_VALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01140">events.qh:1140</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_abc5c98fcc1211af2b80116dd6e0a035da83fa3412f7b9ca0cdf727708e0a4c89a"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da83fa3412f7b9ca0cdf727708e0a4c89a">MUT_FUSREAC_TARG_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01139">events.qh:1139</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -5130,17 +5165,17 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01184">1184</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l01184"></a><span class="lineno"> 1184</span>&#160;     {</div>
-<div class="line"><a name="l01185"></a><span class="lineno"> 1185</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
-<div class="line"><a name="l01186"></a><span class="lineno"> 1186</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8ae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a>, <span class="comment">// return 1 (vote parsed)</span></div>
-<div class="line"><a name="l01187"></a><span class="lineno"> 1187</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8adccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a>, <span class="comment">// return -1 (vote parsed but counted as invalid, no action or vote)</span></div>
-<div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a> <span class="comment">// return 0 (vote parameter counted as unacceptable, warns caller)</span></div>
-<div class="line"><a name="l01189"></a><span class="lineno"> 1189</span>&#160;};</div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_ac36f475ca5b446f4fde4c9b90bec77c8a1b140984b84abfc87e4bfa00a40c8a25"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01185">events.qh:1185</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_ac36f475ca5b446f4fde4c9b90bec77c8adccefef0c63d202f83ec5f05988c435e"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8adccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01187">events.qh:1187</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_ac36f475ca5b446f4fde4c9b90bec77c8ae67d5d033501401988c1790a3d19624e"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8ae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01186">events.qh:1186</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_ac36f475ca5b446f4fde4c9b90bec77c8a8023c437c0cb9ea726bfe3cfc77fc5f8"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01188">events.qh:1188</a></div></div>
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01192">1192</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l01192"></a><span class="lineno"> 1192</span>&#160;     {</div>
+<div class="line"><a name="l01193"></a><span class="lineno"> 1193</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a>, <span class="comment">// return this flag to make the function continue as normal</span></div>
+<div class="line"><a name="l01194"></a><span class="lineno"> 1194</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8ae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a>, <span class="comment">// return 1 (vote parsed)</span></div>
+<div class="line"><a name="l01195"></a><span class="lineno"> 1195</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8adccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a>, <span class="comment">// return -1 (vote parsed but counted as invalid, no action or vote)</span></div>
+<div class="line"><a name="l01196"></a><span class="lineno"> 1196</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a> <span class="comment">// return 0 (vote parameter counted as unacceptable, warns caller)</span></div>
+<div class="line"><a name="l01197"></a><span class="lineno"> 1197</span>&#160;};</div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_ac36f475ca5b446f4fde4c9b90bec77c8a1b140984b84abfc87e4bfa00a40c8a25"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a1b140984b84abfc87e4bfa00a40c8a25">MUT_VOTEPARSE_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01193">events.qh:1193</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_ac36f475ca5b446f4fde4c9b90bec77c8adccefef0c63d202f83ec5f05988c435e"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8adccefef0c63d202f83ec5f05988c435e">MUT_VOTEPARSE_INVALID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01195">events.qh:1195</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_ac36f475ca5b446f4fde4c9b90bec77c8ae67d5d033501401988c1790a3d19624e"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8ae67d5d033501401988c1790a3d19624e">MUT_VOTEPARSE_SUCCESS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01194">events.qh:1194</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_ac36f475ca5b446f4fde4c9b90bec77c8a8023c437c0cb9ea726bfe3cfc77fc5f8"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ac36f475ca5b446f4fde4c9b90bec77c8a8023c437c0cb9ea726bfe3cfc77fc5f8">MUT_VOTEPARSE_UNACCEPTABLE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01196">events.qh:1196</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -8629,6 +8664,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1d3ad17bb52d550b56bc19e77c9956a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype">LockWeapon&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abfe6e2aa4474d7f7c05e577c5c11a6d6">EV_LockWeapon</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aac5f40e0440c0d379bb7b53071ff36d6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -9102,7 +9163,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Sun Apr 14 2019 13:11:40 for Xonotic by
+    <li class="footer">Generated on Mon Apr 15 2019 01:53:11 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

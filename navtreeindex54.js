@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"d6/d27/scripting_8qc.html#afd2c66dcbc6acd06c70014204f880b16":[2,0,6,0,0,11,62],
 "d6/d27/scripting_8qc_source.html":[2,0,6,0,0,11],
 "d6/d29/anticheat_8qc.html":[2,0,6,8],
 "d6/d29/anticheat_8qc.html#a061e1f4db8a4e99ba4c89b4ee24b5ea8":[2,0,6,8,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d66/classPhaserTurret.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,101,4],
 "d6/d66/classPhaserTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,101,0],
 "d6/d6b/ewheel_8qc.html":[2,0,1,14,0,2],
-"d6/d6b/ewheel_8qc_source.html":[2,0,1,14,0,2],
-"d6/d70/magicear_8qh.html":[2,0,1,6,3,25]
+"d6/d6b/ewheel_8qc_source.html":[2,0,1,14,0,2]
 };

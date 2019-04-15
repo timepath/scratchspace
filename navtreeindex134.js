@@ -1,5 +1,9 @@
 var NAVTREEINDEX134 =
 {
+"df/d71/announcer_8qh.html":[2,0,0,7],
+"df/d71/announcer_8qh.html#a74359ed785035246489934d025ae3278":[2,0,0,7,1],
+"df/d71/announcer_8qh.html#abb5b4637e37634b1b1ccc43540b8b369":[2,0,0,7,0],
+"df/d71/announcer_8qh_source.html":[2,0,0,7],
 "df/d71/walker__weapon_8qc.html":[2,0,1,14,0,44],
 "df/d71/walker__weapon_8qc_source.html":[2,0,1,14,0,44],
 "df/d75/client_2commands_2__mod_8qh.html":[2,0,0,0,1],
@@ -118,10 +122,10 @@ var NAVTREEINDEX134 =
 "df/d8c/cl__cmd_8qc.html#ac1a03af5c66e122f2e7ab5298a3df6f0":[2,0,0,0,2,29],
 "df/d8c/cl__cmd_8qc.html#ac6ad4f76e1fab870cd7b34e038a0a6c0":[2,0,0,0,2,14],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,2,20],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,2,26],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,2,23],
 "df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7":[2,0,0,0,2,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX134 =
 "df/d97/menu_2xonotic_2util_8qh.html#a725ecdf92e06cd25767619de5dca391d":[2,0,5,4,233,8],
 "df/d97/menu_2xonotic_2util_8qh.html#a7851f2ca9627c1234d96987723c7b627":[2,0,5,4,233,23],
 "df/d97/menu_2xonotic_2util_8qh.html#a83c60685c744483c0e12bba8bfa18d79":[2,0,5,4,233,15],
-"df/d97/menu_2xonotic_2util_8qh.html#a86cb046821701d82ae80ecd5c2c147b1":[2,0,5,4,233,17],
-"df/d97/menu_2xonotic_2util_8qh.html#a8aab628b518b68c2f185f69266694652":[2,0,5,4,233,16],
-"df/d97/menu_2xonotic_2util_8qh.html#a8eb356644d69441dba461bca0bb3ab9e":[2,0,5,4,233,6],
-"df/d97/menu_2xonotic_2util_8qh.html#a8ec8f4772028effaca28ae7b1fd6fc90":[2,0,5,4,233,10],
-"df/d97/menu_2xonotic_2util_8qh.html#aa156cba974687799fe21dd198b2bc00a":[2,0,5,4,233,28]
+"df/d97/menu_2xonotic_2util_8qh.html#a86cb046821701d82ae80ecd5c2c147b1":[2,0,5,4,233,17]
 };

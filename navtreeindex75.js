@@ -1,5 +1,8 @@
 var NAVTREEINDEX75 =
 {
+"d8/d39/classXonoticGametypeList.html#a113d1a91bed3f1f7bc3a24306c2c68e7":[1,0,184,19],
+"d8/d39/classXonoticGametypeList.html#a11a8209afcff1a9a74262609d1b92646":[1,0,184,65],
+"d8/d39/classXonoticGametypeList.html#a12344fbb92dc1676180712f571aad29d":[1,0,184,46],
 "d8/d39/classXonoticGametypeList.html#a151e0ec9dca93787cd82446a1b2e5ffa":[1,0,184,49],
 "d8/d39/classXonoticGametypeList.html#a18456fc3d44b3528c7595c73f42a8acc":[1,0,184,60],
 "d8/d39/classXonoticGametypeList.html#a2188ecd49040da1f5cb826f6dd52e8c3":[1,0,184,28],
@@ -237,17 +240,14 @@ var NAVTREEINDEX75 =
 "d8/d79/notifications_2all_8qc.html#ac9ddb1a1613d2392182669496dbe68cd":[2,0,1,11,3,14],
 "d8/d79/notifications_2all_8qc.html#acc65c0cb783909b47eb8c4aa39dcc3f4":[2,0,1,11,3,44],
 "d8/d79/notifications_2all_8qc.html#ad02f8d427504ef14b91645e337035578":[2,0,1,11,3,32],
+"d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,11,3,20],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,11,3,17],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,11,3,19],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,11,3,18],
-"d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,11,3,20],
 "d8/d79/notifications_2all_8qc.html#ae93ed72c8bc25a3db70a3dce5a8070d9":[2,0,1,11,3,42],
 "d8/d79/notifications_2all_8qc.html#aebba04739a8cedbc68c1561271936be9":[2,0,1,11,3,36],
-"d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,28],
 "d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,25],
 "d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,27],
-"d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,26],
-"d8/d79/notifications_2all_8qc_source.html":[2,0,1,11,3],
-"d8/d7f/sv__dodging_8qh.html":[2,0,1,10,0,7,3],
-"d8/d7f/sv__dodging_8qh_source.html":[2,0,1,10,0,7,3]
+"d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,28],
+"d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,26]
 };

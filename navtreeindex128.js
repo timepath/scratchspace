@@ -1,5 +1,9 @@
 var NAVTREEINDEX128 =
 {
+"de/d8c/classWyvernAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,150,18],
+"de/d8c/item_2image_8qh.html":[2,0,5,2,13],
+"de/d8c/item_2image_8qh_source.html":[2,0,5,2,13],
+"de/d8f/common_2gamemodes_2gamemode_2__mod_8inc.html":[2,0,1,3,0,16],
 "de/d8f/common_2gamemodes_2gamemode_2__mod_8inc_source.html":[2,0,1,3,0,16],
 "de/d93/classXonoticBindingsResetDialog.html":[1,0,154],
 "de/d93/classXonoticBindingsResetDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,154,30],
@@ -245,9 +249,5 @@ var NAVTREEINDEX128 =
 "de/da1/sv__keepaway_8qc.html#a8cc9041f6ceb06901aaf551fe9185841":[2,0,1,3,0,9,2,43],
 "de/da1/sv__keepaway_8qc.html#a918f60aac6917ab91d28888e6f0fade3":[2,0,1,3,0,9,2,10],
 "de/da1/sv__keepaway_8qc.html#a947e14f15617f6434aeeaeef914c62fb":[2,0,1,3,0,9,2,17],
-"de/da1/sv__keepaway_8qc.html#a9b503874ac510522dc72d0b593489361":[2,0,1,3,0,9,2,42],
-"de/da1/sv__keepaway_8qc.html#a9f97ec6d4961eea75d416813ba4704d0":[2,0,1,3,0,9,2,36],
-"de/da1/sv__keepaway_8qc.html#aa1a2aa8ae07900242b232886cf4bc00f":[2,0,1,3,0,9,2,32],
-"de/da1/sv__keepaway_8qc.html#aa5860056b36d396ef83793b3442cf173":[2,0,1,3,0,9,2,34],
-"de/da1/sv__keepaway_8qc.html#aa67ca021ca035e8fd4b994d94da5218f":[2,0,1,3,0,9,2,38]
+"de/da1/sv__keepaway_8qc.html#a9b503874ac510522dc72d0b593489361":[2,0,1,3,0,9,2,42]
 };

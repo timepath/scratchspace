@@ -1,5 +1,8 @@
 var NAVTREEINDEX70 =
 {
+"d7/db4/client_2autocvars_8qh.html#a87fb102a04abaade2707258f1e61f4e7":[2,0,0,8,445],
+"d7/db4/client_2autocvars_8qh.html#a88205b914d1087deba79a3cf9609cd6b":[2,0,0,8,338],
+"d7/db4/client_2autocvars_8qh.html#a88999a96c099f865da4b7a5da23c4f71":[2,0,0,8,181],
 "d7/db4/client_2autocvars_8qh.html#a8a3b9f04e4f2edf37590595e012c7256":[2,0,0,8,55],
 "d7/db4/client_2autocvars_8qh.html#a8af82dc82a1b353fa688b5c454b9e9ef":[2,0,0,8,407],
 "d7/db4/client_2autocvars_8qh.html#a8b211c6d435c66e847e327f85ea24938":[2,0,0,8,82],
@@ -246,8 +249,5 @@ var NAVTREEINDEX70 =
 "d7/db6/sv__clanarena_8qc.html#af2e5f949760406559a8cd92dedf000da":[2,0,1,3,0,1,2,17],
 "d7/db6/sv__clanarena_8qc.html#af8b2c69ed5f4b23ac47ad227f94d7243":[2,0,1,3,0,1,2,22],
 "d7/db6/sv__clanarena_8qc_source.html":[2,0,1,3,0,1,2],
-"d7/db7/laser_8qh.html":[2,0,1,6,1,11],
-"d7/db7/laser_8qh.html#a0ac43cbc0f249f64df9278bf3b2d18bc":[2,0,1,6,1,11,5],
-"d7/db7/laser_8qh.html#a1dfda4498d2d3af9a211051836108573":[2,0,1,6,1,11,8],
-"d7/db7/laser_8qh.html#a4ddd6f05e45f8483f741fe17e6a4899a":[2,0,1,6,1,11,7]
+"d7/db7/laser_8qh.html":[2,0,1,6,1,11]
 };
