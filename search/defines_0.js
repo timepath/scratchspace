@@ -61,6 +61,7 @@ var searchData=
   ['_5fstruct_5fstore_5fdst',['_STRUCT_STORE_DST',['../d9/d5b/struct_8qh.html#a972d42febb1600df113e5fbffa6d5cb5',1,'struct.qh']]],
   ['_5fstruct_5fstore_5fsrc',['_STRUCT_STORE_SRC',['../d9/d5b/struct_8qh.html#a2d9dd32e190fba7ca9ef205d7c81205a',1,'struct.qh']]],
   ['_5ftest_5fassert',['_TEST_ASSERT',['../d4/d5b/test_8qh.html#ac6f58a531e739779b344b72f6ecbd44c',1,'test.qh']]],
+  ['_5ftr_5fconfig',['_TR_CONFIG',['../db/d7f/turrets_2all_8qh.html#ad74277b527f9635ffc62703cbff2bdc4',1,'all.qh']]],
   ['_5ftransmute',['_TRANSMUTE',['../db/d0a/oo_8qh.html#a717c6662449f28aaf932733afbd02ebe',1,'oo.qh']]],
   ['_5fvtbl',['_vtbl',['../db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c',1,'oo.qh']]],
   ['_5fw_5fconfig',['_W_CONFIG',['../d0/ddd/weapons_2all_8qh.html#a694c89643db7b2eade8de9b26c697bdf',1,'all.qh']]],

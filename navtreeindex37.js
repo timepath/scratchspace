@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"d4/d24/classWalkerTurretAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,145,10],
+"d4/d24/classWalkerTurretAttack.html#a6e0a37eaab3d64cff4542800f42b1c4c":[1,0,145,29],
 "d4/d24/classWalkerTurretAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,145,9],
 "d4/d24/classWalkerTurretAttack.html#a7515d4131829927372fd6583d4ae610a":[1,0,145,0],
 "d4/d24/classWalkerTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,145,37],
@@ -53,7 +55,8 @@ var NAVTREEINDEX37 =
 "d4/d38/rainsnow_8qc.html":[2,0,1,6,0,26],
 "d4/d38/rainsnow_8qc_source.html":[2,0,1,6,0,26],
 "d4/d39/ewheel_8qh.html":[2,0,1,14,0,3],
-"d4/d39/ewheel_8qh.html#a7b39dcf9c53e1d45f9b49e549a95d343":[2,0,1,14,0,3,1],
+"d4/d39/ewheel_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,14,0,3,1],
+"d4/d39/ewheel_8qh.html#a7b39dcf9c53e1d45f9b49e549a95d343":[2,0,1,14,0,3,2],
 "d4/d39/ewheel_8qh_source.html":[2,0,1,14,0,3],
 "d4/d3b/classXonoticBigButton.html":[1,0,152],
 "d4/d3b/classXonoticBigButton.html#a09558581cc0090d8cdcfd1ec9411f74c":[1,0,152,46],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d3f/tracing_8qh.html#a431ab05ba61516052c2fc171c79b41b5":[2,0,6,5,17,7],
 "d4/d3f/tracing_8qh.html#a4d5d66471d135c3cf32fedb65f8b6f64":[2,0,6,5,17,3],
 "d4/d3f/tracing_8qh.html#a52cf4ee852e785e8283028712ce0a57f":[2,0,6,5,17,19],
-"d4/d3f/tracing_8qh.html#a535179eca3b7721460f860bfa74b3d26":[2,0,6,5,17,6],
-"d4/d3f/tracing_8qh.html#a55dd20b9a2b659db0be4fc9b65c62718":[2,0,6,5,17,8],
-"d4/d3f/tracing_8qh.html#a55f8f2b1828413bfb123a5fcb61b9f8e":[2,0,6,5,17,18],
-"d4/d3f/tracing_8qh.html#a5d7aef17f84882da4b18a217740cb539":[2,0,6,5,17,22]
+"d4/d3f/tracing_8qh.html#a535179eca3b7721460f860bfa74b3d26":[2,0,6,5,17,6]
 };

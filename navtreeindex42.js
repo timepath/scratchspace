@@ -1,5 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"d4/d92/csqc__constants_8qh.html#a73ca6f60ddec01f9094ea37863be406d":[2,0,0,11,67],
+"d4/d92/csqc__constants_8qh.html#a74c61dd95071074473825b9f9099984a":[2,0,0,11,81],
+"d4/d92/csqc__constants_8qh.html#a77d7a3d55152ac3ec644710da1e05b7d":[2,0,0,11,41],
+"d4/d92/csqc__constants_8qh.html#a78b4aad48bd91a240cf2790645b08aae":[2,0,0,11,66],
 "d4/d92/csqc__constants_8qh.html#a79db1a3114fe533d00d43940ce8297e7":[2,0,0,11,79],
 "d4/d92/csqc__constants_8qh.html#a7cd9796e2a309c5e5af427455811747b":[2,0,0,11,108],
 "d4/d92/csqc__constants_8qh.html#a7d2f5ddfe8a4f395762987f3d81c4a47":[2,0,0,11,98],
@@ -205,7 +209,8 @@ var NAVTREEINDEX42 =
 "d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh.html":[2,0,1,10,0,6,1],
 "d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh_source.html":[2,0,1,10,0,6,1],
 "d4/d9d/hellion_8qh.html":[2,0,1,14,0,13],
-"d4/d9d/hellion_8qh.html#ad7f9d755fa95936046d425e1ac3868bf":[2,0,1,14,0,13,1],
+"d4/d9d/hellion_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,14,0,13,1],
+"d4/d9d/hellion_8qh.html#ad7f9d755fa95936046d425e1ac3868bf":[2,0,1,14,0,13,2],
 "d4/d9d/hellion_8qh_source.html":[2,0,1,14,0,13],
 "d4/d9d/sounds_2all_8qc.html":[2,0,1,13,3],
 "d4/d9d/sounds_2all_8qc_source.html":[2,0,1,13,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX42 =
 "d4/da3/classXonoticDemoBrowserTab.html#a39b77a1923845447d837ff9f399e9aff":[1,0,172,87],
 "d4/da3/classXonoticDemoBrowserTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,172,1],
 "d4/da3/classXonoticDemoBrowserTab.html#a3f9c5e6943891f335099fe380661b70c":[1,0,172,41],
-"d4/da3/classXonoticDemoBrowserTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,172,16],
-"d4/da3/classXonoticDemoBrowserTab.html#a4869983b8dc750584479ade5447c8413":[1,0,172,25],
-"d4/da3/classXonoticDemoBrowserTab.html#a4ad8d403de20048384fe85b379309436":[1,0,172,75],
-"d4/da3/classXonoticDemoBrowserTab.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,172,27],
-"d4/da3/classXonoticDemoBrowserTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,172,52],
-"d4/da3/classXonoticDemoBrowserTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,172,30]
+"d4/da3/classXonoticDemoBrowserTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,172,16]
 };

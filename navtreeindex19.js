@@ -67,7 +67,8 @@ var NAVTREEINDEX19 =
 "d2/d7c/server_2command_2reg_8qh.html#af970738ae6db6a24a8bca3de59ab35cc":[2,0,6,1,13,2],
 "d2/d7c/server_2command_2reg_8qh_source.html":[2,0,6,1,13],
 "d2/d7f/phaser_8qh.html":[2,0,1,14,0,29],
-"d2/d7f/phaser_8qh.html#a2db64db683f96ecc0c896f8d6e0704a5":[2,0,1,14,0,29,1],
+"d2/d7f/phaser_8qh.html#a2db64db683f96ecc0c896f8d6e0704a5":[2,0,1,14,0,29,2],
+"d2/d7f/phaser_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,14,0,29,1],
 "d2/d7f/phaser_8qh_source.html":[2,0,1,14,0,29],
 "d2/d81/mapobjects_2trigger_2viewloc_8qc.html":[2,0,1,6,3,46],
 "d2/d81/mapobjects_2trigger_2viewloc_8qc_source.html":[2,0,1,6,3,46],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "d2/dac/sv__buffs_8qc.html#a874b57de9b337be20d3aa67f2bdf8124":[2,0,1,10,0,2,7,44],
 "d2/dac/sv__buffs_8qc.html#a883c3faf0e935cd0bc1e0a69c9c7ba30":[2,0,1,10,0,2,7,24],
 "d2/dac/sv__buffs_8qc.html#a888c41c0fac61de0e167b7a2166b4197":[2,0,1,10,0,2,7,6],
-"d2/dac/sv__buffs_8qc.html#a88a6a9d42ed6ff5a7094ef51e75bd806":[2,0,1,10,0,2,7,47],
-"d2/dac/sv__buffs_8qc.html#a8a4a5cd8a94e69dcd4a753bb7eece163":[2,0,1,10,0,2,7,0]
+"d2/dac/sv__buffs_8qc.html#a88a6a9d42ed6ff5a7094ef51e75bd806":[2,0,1,10,0,2,7,47]
 };

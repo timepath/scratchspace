@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"d4/d0d/client_2mapvoting_8qc.html#a680a95d857b4e7d8ceead1b0d8c1fe51":[2,0,0,17,45],
+"d4/d0d/client_2mapvoting_8qc.html#a6d03f5e30fcc06b0a00062693556e1aa":[2,0,0,17,4],
 "d4/d0d/client_2mapvoting_8qc.html#a6de24ba32dab2d5beaf1bd8414a4489c":[2,0,0,17,17],
 "d4/d0d/client_2mapvoting_8qc.html#a6e49a64904e746b1fc8f6ab15c0a5ed0":[2,0,0,17,6],
 "d4/d0d/client_2mapvoting_8qc.html#a748c2c7f43e2077f5f044eb3c6fd19be":[2,0,0,17,37],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "d4/d24/classWalkerTurretAttack.html#a40162d58d008cdd30f19e5368a6e17af":[1,0,145,35],
 "d4/d24/classWalkerTurretAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,145,22],
 "d4/d24/classWalkerTurretAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,145,2],
-"d4/d24/classWalkerTurretAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,145,16],
-"d4/d24/classWalkerTurretAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,145,10],
-"d4/d24/classWalkerTurretAttack.html#a6e0a37eaab3d64cff4542800f42b1c4c":[1,0,145,29]
+"d4/d24/classWalkerTurretAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,145,16]
 };

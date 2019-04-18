@@ -1,12 +1,5 @@
 var NAVTREEINDEX133 =
 {
-"df/d42/quake3_8qc.html#a911cba90e2826c0cd4ddea1cfa40ced6":[2,0,6,2,8,14],
-"df/d42/quake3_8qc.html#a9d332582c2bec448cb50598d5d39bbd2":[2,0,6,2,8,12],
-"df/d42/quake3_8qc.html#aa240f2a4301eeac02d4cfa81d7edf447":[2,0,6,2,8,13],
-"df/d42/quake3_8qc.html#aa3150d23b386b15a097a80edd3cf51b3":[2,0,6,2,8,16],
-"df/d42/quake3_8qc.html#abaec4a24bf36aa1665bbdb27e217f819":[2,0,6,2,8,1],
-"df/d42/quake3_8qc.html#abdc33cf25e725134a9b48e79c7031bcf":[2,0,6,2,8,10],
-"df/d42/quake3_8qc.html#ad4899ec0dcf98c0a39b6bc4b99b3dbcf":[2,0,6,2,8,5],
 "df/d42/quake3_8qc.html#ae6af28f0406185d406556f691af0f8f2":[2,0,6,2,8,3],
 "df/d42/quake3_8qc.html#ae6ce7348eeca30f09a3ea4aca0a44683":[2,0,6,2,8,17],
 "df/d42/quake3_8qc.html#ae85e4cca4f185075917547715465c5e3":[2,0,6,2,8,15],
@@ -52,7 +45,8 @@ var NAVTREEINDEX133 =
 "df/d4f/ladder_8qh.html#ac7991a33f246233f749dbc74c6504b83":[2,0,1,6,0,19,0],
 "df/d4f/ladder_8qh_source.html":[2,0,1,6,0,19],
 "df/d50/flac_8qh.html":[2,0,1,14,0,7],
-"df/d50/flac_8qh.html#a81b732b7e35e86fa834e33a94a11ef89":[2,0,1,14,0,7,1],
+"df/d50/flac_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,14,0,7,1],
+"df/d50/flac_8qh.html#a81b732b7e35e86fa834e33a94a11ef89":[2,0,1,14,0,7,2],
 "df/d50/flac_8qh_source.html":[2,0,1,14,0,7],
 "df/d52/monsters_2all_8qh.html":[2,0,1,9,4],
 "df/d52/monsters_2all_8qh.html#a0b2f787d93c2afd7ece3a0d0d080e94d":[2,0,1,9,4,6],
@@ -249,5 +243,11 @@ var NAVTREEINDEX133 =
 "df/d6e/globalsound_8qh.html#af82f9f032718fd74a2a63db1c527e921":[2,0,1,2,0,9,3],
 "df/d6e/globalsound_8qh.html#afc2182c6e48551ceaedd10c046d041ce":[2,0,1,2,0,9,30],
 "df/d6e/globalsound_8qh.html#afff52730d3053fc9102cec5246ee16d6":[2,0,1,2,0,9,13],
-"df/d6e/globalsound_8qh_source.html":[2,0,1,2,0,9]
+"df/d6e/globalsound_8qh_source.html":[2,0,1,2,0,9],
+"df/d71/announcer_8qh.html":[2,0,0,7],
+"df/d71/announcer_8qh.html#a74359ed785035246489934d025ae3278":[2,0,0,7,1],
+"df/d71/announcer_8qh.html#abb5b4637e37634b1b1ccc43540b8b369":[2,0,0,7,0],
+"df/d71/announcer_8qh_source.html":[2,0,0,7],
+"df/d71/walker__weapon_8qc.html":[2,0,1,14,0,44],
+"df/d71/walker__weapon_8qc_source.html":[2,0,1,14,0,44]
 };
