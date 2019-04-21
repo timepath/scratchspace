@@ -1,5 +1,9 @@
 var NAVTREEINDEX120 =
 {
+"dd/d94/wyvern_8qh_source.html":[2,0,1,9,0,9],
+"dd/d95/dialog__credits_8qh.html":[2,0,5,4,41],
+"dd/d95/dialog__credits_8qh_source.html":[2,0,5,4,41],
+"dd/d96/server_2progs_8inc.html":[2,0,6,47],
 "dd/d96/server_2progs_8inc_source.html":[2,0,6,47],
 "dd/d9a/classXonoticSandboxToolsDialog.html":[1,0,238],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,238,30],
@@ -245,9 +249,5 @@ var NAVTREEINDEX120 =
 "dd/da6/classXonoticCreditsDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,164,44],
 "dd/da6/classXonoticCreditsDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,164,66],
 "dd/da6/classXonoticCreditsDialog.html#a8c11d3aa4f662f3daa58e997b1336195":[1,0,164,68],
-"dd/da6/classXonoticCreditsDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,164,72],
-"dd/da6/classXonoticCreditsDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,164,76],
-"dd/da6/classXonoticCreditsDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,164,64],
-"dd/da6/classXonoticCreditsDialog.html#aa6d1d269ef2765d34cf88e284c4dedff":[1,0,164,24],
-"dd/da6/classXonoticCreditsDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,164,17]
+"dd/da6/classXonoticCreditsDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,164,72]
 };

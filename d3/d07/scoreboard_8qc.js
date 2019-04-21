@@ -61,6 +61,7 @@ var scoreboard_8qc =
     [ "autocvar_hud_panel_scoreboard_table_highlight", "d3/d07/scoreboard_8qc.html#a61e9d783625eb0344b582470d69416f8", null ],
     [ "autocvar_hud_panel_scoreboard_table_highlight_alpha", "d3/d07/scoreboard_8qc.html#a74115e0ab563be72aa55c1eb17821b42", null ],
     [ "autocvar_hud_panel_scoreboard_table_highlight_alpha_self", "d3/d07/scoreboard_8qc.html#aaf870062442b80e096e897517f9b9d5b", null ],
+    [ "autocvar_hud_panel_scoreboard_team_size_position", "d3/d07/scoreboard_8qc.html#a37d59fce5419c5b49d9356701850d446", null ],
     [ "average_accuracy", "d3/d07/scoreboard_8qc.html#aaa5eb41e22d77cd3026131224c82308b", null ],
     [ "have_weapon_stats", "d3/d07/scoreboard_8qc.html#a313e3c28505a0db78e74b5d12e370a4c", null ],
     [ "hud_fontsize_str", "d3/d07/scoreboard_8qc.html#ac127f6ed3538bb0ccfa2d65f6b0dbeca", null ],
@@ -82,9 +83,12 @@ var scoreboard_8qc =
     [ "sbt_fixcolumnwidth_iconlen", "d3/d07/scoreboard_8qc.html#a19f3341473f7d1700f101c03ffcf28be", null ],
     [ "sbt_fixcolumnwidth_len", "d3/d07/scoreboard_8qc.html#aaf5cd5494661624974d09657b6428ff2", null ],
     [ "sbt_fixcolumnwidth_marginlen", "d3/d07/scoreboard_8qc.html#a2fc88dc1a1263cd0c6e847cadfd3dd3c", null ],
+    [ "sbt_font_self", "d3/d07/scoreboard_8qc.html#a8cc1aa6ea1bdc7193107ec64d2e72624", null ],
     [ "sbt_highlight", "d3/d07/scoreboard_8qc.html#aeb5b8d7517335ac69d17ab2814ddb793", null ],
     [ "sbt_highlight_alpha", "d3/d07/scoreboard_8qc.html#a94ddd037ffb67797e205f1daf4e394d9", null ],
     [ "sbt_highlight_alpha_self", "d3/d07/scoreboard_8qc.html#a1ef885e2eef24ceb79a125ac81b8fef0", null ],
     [ "sbt_num_fields", "d3/d07/scoreboard_8qc.html#a1d5dfa661227f35bf953ae3740062648", null ],
+    [ "sbt_team_size_position", "d3/d07/scoreboard_8qc.html#a9360ebc44fd6cbab1162999e3cede959", null ],
+    [ "sbt_team_size_total", "d3/d07/scoreboard_8qc.html#ae5e99fb37c02d7c4569f48471b5b45e7", null ],
     [ "scoreboard_time", "d3/d07/scoreboard_8qc.html#a2dd15cccb6df3379298c9bb9ceafdb1b", null ]
 ];

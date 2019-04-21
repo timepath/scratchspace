@@ -1,5 +1,9 @@
 var NAVTREEINDEX32 =
 {
+"d3/de1/cl__physics_8qc.html#ac53d59b489abbc3503122f45b66a33cf":[2,0,3,2,2,2],
+"d3/de1/cl__physics_8qc.html#ae1cea1af66c766eadc75f5285878d39e":[2,0,3,2,2,1],
+"d3/de1/cl__physics_8qc_source.html":[2,0,3,2,2],
+"d3/de2/effectinfo_8qh.html":[2,0,1,2,9],
 "d3/de2/effectinfo_8qh_source.html":[2,0,1,2,9],
 "d3/de3/classHellionAttack.html":[1,0,50],
 "d3/de3/classHellionAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,50,36],
@@ -245,9 +249,5 @@ var NAVTREEINDEX32 =
 "d4/d09/classXonoticCheckBoxString.html#a1f71e31fd265ca4fba4bccee3a807b09":[1,0,159,38],
 "d4/d09/classXonoticCheckBoxString.html#a2006e1a249286b2e3e6f0b0c18ee91a7":[1,0,159,20],
 "d4/d09/classXonoticCheckBoxString.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,159,56],
-"d4/d09/classXonoticCheckBoxString.html#a20d313eebc9de399ef26b192015ac462":[1,0,159,65],
-"d4/d09/classXonoticCheckBoxString.html#a21fdc6c151d9e721da87eaaa8a04e3f9":[1,0,159,11],
-"d4/d09/classXonoticCheckBoxString.html#a22ef5ac27f9f844bb1cb269ccb417594":[1,0,159,40],
-"d4/d09/classXonoticCheckBoxString.html#a2300b1d98536bc6a01a76ccfdfda2aa1":[1,0,159,18],
-"d4/d09/classXonoticCheckBoxString.html#a257f9c325381f4b29b5c7acbaa0ba5ae":[1,0,159,24]
+"d4/d09/classXonoticCheckBoxString.html#a20d313eebc9de399ef26b192015ac462":[1,0,159,65]
 };
