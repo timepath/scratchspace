@@ -163,11 +163,11 @@ var NAVTREEINDEX =
 "df/d27/classXonoticPicker.html#a26e72e2e10fa919ad361eb583aa68fde",
 "df/d42/quake3_8qc.html#ae6af28f0406185d406556f691af0f8f2",
 "df/d75/client_2commands_2__mod_8qh.html",
-"df/d97/menu_2xonotic_2util_8qh.html#ab1a12c6efcea09204c8c4461ca36efff",
-"df/dc2/menu_8qc.html#ad2d59c9be1e83548281c77ba146c0ead",
-"df/dd7/server_2client_8qc.html#a0626fbb86c705b3c7be4d0195a73627e",
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a00ce8a7a0cd0548f029a3014438586a8",
-"functions_func_h.html"
+"df/d97/menu_2xonotic_2util_8qh.html#a8ec8f4772028effaca28ae7b1fd6fc90",
+"df/dc2/menu_8qc.html#abb122747ce3abb1b3feef039f875adbe",
+"df/dd5/slider__picmip_8qc_source.html",
+"df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh_source.html",
+"functions_func_d.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

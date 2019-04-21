@@ -2,6 +2,10 @@ var keybinder_8qc =
 [
     [ "ADD_TO_W_LIST", "df/d75/keybinder_8qc.html#a8b88a14dde16d0dd2ca22cff1ba7a2b7", null ],
     [ "KEYBIND_DEF", "df/d75/keybinder_8qc.html#aee7e1ce8b7d8a2c1713f59f6be6d423e", null ],
+    [ "KEYBIND_EMPTY_LINE", "df/d75/keybinder_8qc.html#ae2b97d1cf221642230551212724c24fc", null ],
+    [ "KEYBIND_HEADER", "df/d75/keybinder_8qc.html#ab790b3f9d53e8393b4c6b1bcb617ea4e", null ],
+    [ "KEYBIND_IS_SPECIAL", "df/d75/keybinder_8qc.html#a7b7c42ba580436f2edcb4a8b7c394efb", null ],
+    [ "KEYBIND_SPECIAL_DEF", "df/d75/keybinder_8qc.html#abcb188fa4cb575a60900e268136968d7", null ],
     [ "KeyBinder_Bind_Change", "df/d75/keybinder_8qc.html#a539da302060a21b7fdb057aa9a56e745", null ],
     [ "KeyBinder_Bind_Clear", "df/d75/keybinder_8qc.html#a8a4e76d61ea24d2bf22adf37d2bea543", null ],
     [ "KeyBinder_Bind_Edit", "df/d75/keybinder_8qc.html#a24d293cb1e7ea055ad7ddf8afbff6d59", null ],
