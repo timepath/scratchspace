@@ -1,7 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"d6/ddd/server_2mutators_2events_8qh.html#ab8916611edc67df5a5acc5c2f6bedec5":[2,0,6,3,3,64],
-"d6/ddd/server_2mutators_2events_8qh.html#ab9a6b94018b56f080fe915c277ec3745":[2,0,6,3,3,70],
 "d6/ddd/server_2mutators_2events_8qh.html#ab9c203cb359e059fe3fc072588d0cdca":[2,0,6,3,3,30],
 "d6/ddd/server_2mutators_2events_8qh.html#aba431db07acae1f882b8d9167c80060d":[2,0,6,3,3,274],
 "d6/ddd/server_2mutators_2events_8qh.html#aba63b5332da43d068c64badbf1fb6bc9":[2,0,6,3,3,93],
@@ -249,5 +247,7 @@ var NAVTREEINDEX61 =
 "d7/d0d/bigcommandbutton_8qc.html#ab7f0ec07e81d9178eae782be68d7a3f8":[2,0,5,4,4,0],
 "d7/d0d/bigcommandbutton_8qc_source.html":[2,0,5,4,4],
 "d7/d0e/dialog__settings__game__weapons_8qc.html":[2,0,5,4,140],
-"d7/d0e/dialog__settings__game__weapons_8qc.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,140,0]
+"d7/d0e/dialog__settings__game__weapons_8qc.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,140,0],
+"d7/d0e/dialog__settings__game__weapons_8qc.html#acf4cc204368768bf74b724575fb387ab":[2,0,5,4,140,2],
+"d7/d0e/dialog__settings__game__weapons_8qc.html#ae437727300e145636490fbb37f0a84fe":[2,0,5,4,140,1]
 };

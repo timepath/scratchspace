@@ -1,7 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"d3/d69/menu_2xonotic_2campaign_8qc.html#ac98698d95b8f7aa84664179566f957fb":[2,0,5,4,8,10],
-"d3/d69/menu_2xonotic_2campaign_8qc.html#aee9a915b1483aedbf694717a64d8643f":[2,0,5,4,8,4],
 "d3/d69/menu_2xonotic_2campaign_8qc.html#afd06bb7c1c9b077cb29bfd7682b826f8":[2,0,5,4,8,7],
 "d3/d69/menu_2xonotic_2campaign_8qc_source.html":[2,0,5,4,8],
 "d3/d6b/menu_2mutators_2events_8qc.html":[2,0,5,3,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX28 =
 "d3/d9b/util__server_8qh.html#a3a6e609bb2a6ab621645f4744cf76eea":[2,0,4,2,13,0],
 "d3/d9b/util__server_8qh.html#a8b1c87e9f6ac9d02af2e8661f8845f24":[2,0,4,2,13,1],
 "d3/d9b/util__server_8qh_source.html":[2,0,4,2,13],
-"d3/d9c/counter_8qh.html":[2,0,1,6,3,3]
+"d3/d9c/counter_8qh.html":[2,0,1,6,3,3],
+"d3/d9c/counter_8qh.html#a714b761a8590742eafa366fb845cd483":[2,0,1,6,3,3,0],
+"d3/d9c/counter_8qh.html#ab7a8acadf32c0bafb4f36984c5a019ab":[2,0,1,6,3,3,1]
 };

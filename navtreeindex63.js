@@ -1,7 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"d7/d2d/sv__freezetag_8qh.html#aaa13a46cb43eaeeec707e1630d149734":[2,0,1,3,0,7,3,8],
-"d7/d2d/sv__freezetag_8qh.html#aab6e5dd351a36e1a298791aceb0a13a3":[2,0,1,3,0,7,3,9],
 "d7/d2d/sv__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e":[2,0,1,3,0,7,3,11],
 "d7/d2d/sv__freezetag_8qh_source.html":[2,0,1,3,0,7,3],
 "d7/d31/tracing_8qc.html":[2,0,6,5,16],
@@ -249,5 +247,7 @@ var NAVTREEINDEX63 =
 "d7/d42/dialog__multiplayer__join_8qh.html":[2,0,5,4,95],
 "d7/d42/dialog__multiplayer__join_8qh.html#a23af548c6170f613544cf2ccd36bbdc4":[2,0,5,4,95,1],
 "d7/d42/dialog__multiplayer__join_8qh_source.html":[2,0,5,4,95],
-"d7/d44/sv__running__guns_8qc.html":[2,0,1,10,0,30,2]
+"d7/d44/sv__running__guns_8qc.html":[2,0,1,10,0,30,2],
+"d7/d44/sv__running__guns_8qc.html#a3fdeffef403dc4ccf4850477197c5633":[2,0,1,10,0,30,2,1],
+"d7/d44/sv__running__guns_8qc.html#a44a27a654e4e21072b4e40289c620ff8":[2,0,1,10,0,30,2,2]
 };
