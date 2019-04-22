@@ -1,6 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"d7/d0e/dialog__settings__game__weapons_8qc.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,140,0],
 "d7/d0e/dialog__settings__game__weapons_8qc.html#acf4cc204368768bf74b724575fb387ab":[2,0,5,4,140,2],
 "d7/d0e/dialog__settings__game__weapons_8qc.html#ae437727300e145636490fbb37f0a84fe":[2,0,5,4,140,1],
 "d7/d0e/dialog__settings__game__weapons_8qc_source.html":[2,0,5,4,140],
@@ -249,5 +248,6 @@ var NAVTREEINDEX62 =
 "d7/d2d/sv__freezetag_8qh.html#a5c3fd51f9babdfe94b95378108bb0e2f":[2,0,1,3,0,7,3,4],
 "d7/d2d/sv__freezetag_8qh.html#a5c7d231b29848dbe9e992548d57958bb":[2,0,1,3,0,7,3,10],
 "d7/d2d/sv__freezetag_8qh.html#a64d08325f0339534e219ec14103c2757":[2,0,1,3,0,7,3,3],
-"d7/d2d/sv__freezetag_8qh.html#a93dbe70f6f5e8c7e42c436e77d0d3348":[2,0,1,3,0,7,3,0]
+"d7/d2d/sv__freezetag_8qh.html#a93dbe70f6f5e8c7e42c436e77d0d3348":[2,0,1,3,0,7,3,0],
+"d7/d2d/sv__freezetag_8qh.html#aa6539dc2fe101f47fdac71e3ed17e482":[2,0,1,3,0,7,3,12]
 };

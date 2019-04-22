@@ -79,7 +79,7 @@ var NAVTREEINDEX24 =
 "d3/d07/scoreboard_8qc.html#a1caa42a5247fec0743cadf2078852e78":[2,0,0,1,0,34,40],
 "d3/d07/scoreboard_8qc.html#a1d5dfa661227f35bf953ae3740062648":[2,0,0,1,0,34,87],
 "d3/d07/scoreboard_8qc.html#a1ef885e2eef24ceb79a125ac81b8fef0":[2,0,0,1,0,34,86],
-"d3/d07/scoreboard_8qc.html#a2dd15cccb6df3379298c9bb9ceafdb1b":[2,0,0,1,0,34,90],
+"d3/d07/scoreboard_8qc.html#a2dd15cccb6df3379298c9bb9ceafdb1b":[2,0,0,1,0,34,89],
 "d3/d07/scoreboard_8qc.html#a2fc88dc1a1263cd0c6e847cadfd3dd3c":[2,0,0,1,0,34,82],
 "d3/d07/scoreboard_8qc.html#a30816933a780a5d60eb2216b392b72e8":[2,0,0,1,0,34,76],
 "d3/d07/scoreboard_8qc.html#a313e3c28505a0db78e74b5d12e370a4c":[2,0,0,1,0,34,63],
@@ -150,7 +150,6 @@ var NAVTREEINDEX24 =
 "d3/d07/scoreboard_8qc.html#adae35053409c3444a7a34d2013f61696":[2,0,0,1,0,34,72],
 "d3/d07/scoreboard_8qc.html#adc764830d3426136028e899530a73994":[2,0,0,1,0,34,47],
 "d3/d07/scoreboard_8qc.html#ae581cd6e3ee934e0ca99c0534414fd23":[2,0,0,1,0,34,38],
-"d3/d07/scoreboard_8qc.html#ae5e99fb37c02d7c4569f48471b5b45e7":[2,0,0,1,0,34,89],
 "d3/d07/scoreboard_8qc.html#aeb5b8d7517335ac69d17ab2814ddb793":[2,0,0,1,0,34,84],
 "d3/d07/scoreboard_8qc.html#aebd9c21a6d8e2d27566af62418f5a9ab":[2,0,0,1,0,34,7],
 "d3/d07/scoreboard_8qc.html#aede2e6f0f25dfc903c78bb06f7be0fbe":[2,0,0,1,0,34,17],
@@ -249,5 +248,6 @@ var NAVTREEINDEX24 =
 "d3/d10/classXonoticCrosshairPicker.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,166,22],
 "d3/d10/classXonoticCrosshairPicker.html#af9acf6d00c179c136dd3c4c84028cc6e":[1,0,166,8],
 "d3/d18/common_2mutators_2mutator_2nades_2__mod_8qh.html":[2,0,1,10,0,19,1],
-"d3/d18/common_2mutators_2mutator_2nades_2__mod_8qh_source.html":[2,0,1,10,0,19,1]
+"d3/d18/common_2mutators_2mutator_2nades_2__mod_8qh_source.html":[2,0,1,10,0,19,1],
+"d3/d1b/classLabel.html":[1,0,66]
 };

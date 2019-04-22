@@ -1,6 +1,5 @@
 var NAVTREEINDEX116 =
 {
-"dd/d0c/sv__ctf_8qc.html#a379a191629dc12ae99a6312bb3544ba7":[2,0,1,3,0,2,3,159],
 "dd/d0c/sv__ctf_8qc.html#a3802c9bd96e8671a9ee60b5aafb4e181":[2,0,1,3,0,2,3,136],
 "dd/d0c/sv__ctf_8qc.html#a3839fed84362d2b1fae76122755013d7":[2,0,1,3,0,2,3,35],
 "dd/d0c/sv__ctf_8qc.html#a389a5c545b7ddbc783ded98531f0cc95":[2,0,1,3,0,2,3,54],
@@ -249,5 +248,6 @@ var NAVTREEINDEX116 =
 "dd/d2d/teleporters_8qh.html#adc95b9789d4225961b9b78de6dff765f":[2,0,1,6,14,4],
 "dd/d2d/teleporters_8qh.html#ae83899906c50cefd7cfacc428fa065fe":[2,0,1,6,14,5],
 "dd/d2d/teleporters_8qh.html#af02a303f75617b6a9d414ca8f8ea05f5":[2,0,1,6,14,17],
-"dd/d2d/teleporters_8qh_source.html":[2,0,1,6,14]
+"dd/d2d/teleporters_8qh_source.html":[2,0,1,6,14],
+"dd/d31/banning_8qc.html":[2,0,6,1,2]
 };

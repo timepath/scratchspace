@@ -89,6 +89,5 @@ var scoreboard_8qc =
     [ "sbt_highlight_alpha_self", "d3/d07/scoreboard_8qc.html#a1ef885e2eef24ceb79a125ac81b8fef0", null ],
     [ "sbt_num_fields", "d3/d07/scoreboard_8qc.html#a1d5dfa661227f35bf953ae3740062648", null ],
     [ "sbt_team_size_position", "d3/d07/scoreboard_8qc.html#a9360ebc44fd6cbab1162999e3cede959", null ],
-    [ "sbt_team_size_total", "d3/d07/scoreboard_8qc.html#ae5e99fb37c02d7c4569f48471b5b45e7", null ],
     [ "scoreboard_time", "d3/d07/scoreboard_8qc.html#a2dd15cccb6df3379298c9bb9ceafdb1b", null ]
 ];

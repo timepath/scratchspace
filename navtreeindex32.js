@@ -1,6 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"d3/de1/cl__physics_8qc.html#ac53d59b489abbc3503122f45b66a33cf":[2,0,3,2,2,2],
 "d3/de1/cl__physics_8qc.html#ae1cea1af66c766eadc75f5285878d39e":[2,0,3,2,2,1],
 "d3/de1/cl__physics_8qc_source.html":[2,0,3,2,2],
 "d3/de2/effectinfo_8qh.html":[2,0,1,2,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX32 =
 "d4/d09/classXonoticCheckBoxString.html#a1f71e31fd265ca4fba4bccee3a807b09":[1,0,159,38],
 "d4/d09/classXonoticCheckBoxString.html#a2006e1a249286b2e3e6f0b0c18ee91a7":[1,0,159,20],
 "d4/d09/classXonoticCheckBoxString.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,159,56],
-"d4/d09/classXonoticCheckBoxString.html#a20d313eebc9de399ef26b192015ac462":[1,0,159,65]
+"d4/d09/classXonoticCheckBoxString.html#a20d313eebc9de399ef26b192015ac462":[1,0,159,65],
+"d4/d09/classXonoticCheckBoxString.html#a21fdc6c151d9e721da87eaaa8a04e3f9":[1,0,159,11]
 };

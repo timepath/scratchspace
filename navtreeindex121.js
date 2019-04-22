@@ -1,6 +1,5 @@
 var NAVTREEINDEX121 =
 {
-"dd/da6/classXonoticCreditsDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,164,76],
 "dd/da6/classXonoticCreditsDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,164,64],
 "dd/da6/classXonoticCreditsDialog.html#aa6d1d269ef2765d34cf88e284c4dedff":[1,0,164,24],
 "dd/da6/classXonoticCreditsDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,164,17],
@@ -214,13 +213,13 @@ var NAVTREEINDEX121 =
 "dd/dd0/classRace.html#af1a6db9207b7000984864c8176081b52":[1,0,111,13],
 "dd/dd0/classRace.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,111,5],
 "dd/dd5/sv__model_8qc.html":[2,0,4,0,15],
-"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,15,7],
 "dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,15,6],
+"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,15,7],
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,15,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,15,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,15,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,0],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,1],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,0],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,15,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,15,12],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX121 =
 "dd/dd7/classRacer.html#a96f9f5c3ac6195be77b33b68a49bed46":[1,0,113,15],
 "dd/dd7/classRacer.html#aa845af495e22a67910a5d1bc31f3b024":[1,0,113,27],
 "dd/dd7/classRacer.html#aab19ad6372932909fc68ca4be7c84852":[1,0,113,24],
-"dd/dd7/classRacer.html#ab0033bb43b823ae364fcaa9f6d73c520":[1,0,113,7]
+"dd/dd7/classRacer.html#ab0033bb43b823ae364fcaa9f6d73c520":[1,0,113,7],
+"dd/dd7/classRacer.html#ac498d3c95facce6811b1d5d01509810a":[1,0,113,20]
 };

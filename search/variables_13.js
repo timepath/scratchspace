@@ -44,7 +44,6 @@ var searchData=
   ['sbt_5fhighlight_5falpha_5fself',['sbt_highlight_alpha_self',['../d3/d07/scoreboard_8qc.html#a1ef885e2eef24ceb79a125ac81b8fef0',1,'scoreboard.qc']]],
   ['sbt_5fnum_5ffields',['sbt_num_fields',['../d3/d07/scoreboard_8qc.html#a1d5dfa661227f35bf953ae3740062648',1,'scoreboard.qc']]],
   ['sbt_5fteam_5fsize_5fposition',['sbt_team_size_position',['../d3/d07/scoreboard_8qc.html#a9360ebc44fd6cbab1162999e3cede959',1,'scoreboard.qc']]],
-  ['sbt_5fteam_5fsize_5ftotal',['sbt_team_size_total',['../d3/d07/scoreboard_8qc.html#ae5e99fb37c02d7c4569f48471b5b45e7',1,'scoreboard.qc']]],
   ['sc_5fchangetime',['sc_changetime',['../d6/dd3/view_8qc.html#af85caaa4731e2cda3628898304b41592',1,'view.qc']]],
   ['sc_5fcolor',['sc_color',['../d6/dd3/view_8qc.html#a8591c76106f30e0bce640d0da0e750ae',1,'view.qc']]],
   ['sc_5fspawntime',['sc_spawntime',['../d6/dd3/view_8qc.html#a21bafc7929452be184424e3fe11944ce',1,'view.qc']]],
