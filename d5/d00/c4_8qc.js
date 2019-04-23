@@ -5,7 +5,7 @@ var c4_8qc =
     [ "c4_move", "d5/d00/c4_8qc.html#a2473e2fde81c74b294f9d163fde113b6", null ],
     [ "c4_valid_tile", "d5/d00/c4_8qc.html#a655fb9bcc50051e3fadd0deb0baa24dc", null ],
     [ "c4_winning_piece", "d5/d00/c4_8qc.html#a89e169c240b7f8842b6072e39a7e599f", null ],
-    [ "REGISTER_MINIGAME", "d5/d00/c4_8qc.html#ae27d999eb53940f5ff1314fd174ba39c", null ],
+    [ "REGISTER_MINIGAME", "d5/d00/c4_8qc.html#a953971253f47cc1480ed859199177e25", null ],
     [ "C4_LET_CNT", "d5/d00/c4_8qc.html#a491681d481dc96668439550debd264fe", null ],
     [ "C4_MAX_TILES", "d5/d00/c4_8qc.html#ac0e0abe946a63c4cbd223f3825bb29c6", null ],
     [ "c4_nexteam", "d5/d00/c4_8qc.html#a3ab4a10a64e003dbd0c73523bfd80a76", null ],

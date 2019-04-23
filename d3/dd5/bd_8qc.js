@@ -32,7 +32,7 @@ var bd_8qc =
     [ "bd_setup_pieces", "d3/dd5/bd_8qc.html#a20c8bf6b66f72142e86b11f8f0a0395c", null ],
     [ "bd_unfill_recurse", "d3/dd5/bd_8qc.html#a051007cbf0daa912a5c4622f5f1b47d3", null ],
     [ "bd_valid_tile", "d3/dd5/bd_8qc.html#af8908b11ae2be6959a2a5b95d323cdc7", null ],
-    [ "REGISTER_MINIGAME", "d3/dd5/bd_8qc.html#a88c5e918474c1ab345d73a330bfdaf17", null ],
+    [ "REGISTER_MINIGAME", "d3/dd5/bd_8qc.html#ac36bd1a4bfd94d4dab386a0ee3c187ea", null ],
     [ "bd_dir", "d3/dd5/bd_8qc.html#ac2fe7cd3b9559d6900db0ac8dfd4dbcc", null ],
     [ "BD_DIR_DN", "d3/dd5/bd_8qc.html#a13145b213b4acf3f888615cfedc13a0b", null ],
     [ "BD_DIR_LF", "d3/dd5/bd_8qc.html#a6fc13aefd8e951b2a36a5064aa6253e8", null ],

@@ -1,6 +1,6 @@
 var ttt_8qc =
 [
-    [ "REGISTER_MINIGAME", "da/d4b/ttt_8qc.html#a4afede0140af0f88d36f63a79c2d29f3", null ],
+    [ "REGISTER_MINIGAME", "da/d4b/ttt_8qc.html#a0d8a4cc16271bf6846559304e2a02f5c", null ],
     [ "ttt_find_piece", "da/d4b/ttt_8qc.html#aa02c41396ba53a705bbbe1bf6d07ebf7", null ],
     [ "ttt_move", "da/d4b/ttt_8qc.html#a2497c595a152ce86acc72100fbf9ec2d", null ],
     [ "ttt_next_match", "da/d4b/ttt_8qc.html#acbb767866f2bd0a09eae8b342a5ebc91", null ],

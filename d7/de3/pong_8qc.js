@@ -1,6 +1,6 @@
 var pong_8qc =
 [
-    [ "REGISTER_MINIGAME", "d7/de3/pong_8qc.html#ad8dc4d71649a0ea16e3e7b09741bff4a", null ],
+    [ "REGISTER_MINIGAME", "d7/de3/pong_8qc.html#a60fb1acda8b738dc7ebfd497dd6ac518", null ],
     [ "pong_ai_paddle", "d7/de3/pong_8qc.html#a52bb5f83b53bbbdf759739d26ce7f910", null ],
     [ "PONG_KEY_BOTH", "d7/de3/pong_8qc.html#a70b3d6bf0c2e4e383bb2f819527b9f2c", null ],
     [ "PONG_KEY_DECREASE", "d7/de3/pong_8qc.html#ae2a56ee364ec402a021031f4567d1d12", null ],

@@ -11,7 +11,7 @@ var nmm_8qc =
     [ "nmm_tile_build_hmill", "db/d8b/nmm_8qc.html#a7fe9193dba90c2411f104424796a190a", null ],
     [ "nmm_tile_build_vmill", "db/d8b/nmm_8qc.html#a722f8e9581a45f2201015e798bf24510", null ],
     [ "nmm_tile_canmove", "db/d8b/nmm_8qc.html#a029242ae74de359a88e724493a1af20e", null ],
-    [ "REGISTER_MINIGAME", "db/d8b/nmm_8qc.html#ab62d158d6692cbafbe76230c4759240f", null ],
+    [ "REGISTER_MINIGAME", "db/d8b/nmm_8qc.html#a308d368648ecbd7bb67a9f438ca1cbfc", null ],
     [ "NMM_PIECE_BOARD", "db/d8b/nmm_8qc.html#ad23d4b1dd8ff398c123a2246bbc71a15", null ],
     [ "NMM_PIECE_DEAD", "db/d8b/nmm_8qc.html#a80fd0d8216f457761607634081e925aa", null ],
     [ "NMM_PIECE_HOME", "db/d8b/nmm_8qc.html#affbc3408919b68050acdf6b638108a3d", null ],

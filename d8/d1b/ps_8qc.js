@@ -8,7 +8,7 @@ var ps_8qc =
     [ "ps_tile_blacklisted", "d8/d1b/ps_8qc.html#a76b2a55fb521e5d42242c6e0f5518111", null ],
     [ "ps_valid_tile", "d8/d1b/ps_8qc.html#aa9830eaf1dd598d9517bdbc89b47029f", null ],
     [ "ps_winning_piece", "d8/d1b/ps_8qc.html#aea137e257271470ee5d1e79687bece3f", null ],
-    [ "REGISTER_MINIGAME", "d8/d1b/ps_8qc.html#aca41109d8c164ac18ab6320b1f6cc3df", null ],
+    [ "REGISTER_MINIGAME", "d8/d1b/ps_8qc.html#a224956db1fdb66acb6fc45bc564025b4", null ],
     [ "PS_LET_CNT", "d8/d1b/ps_8qc.html#af9ac2e9c7f028072120baef71c275473", null ],
     [ "PS_NUM_CNT", "d8/d1b/ps_8qc.html#a7068c16dc8334447cd3f0a45fe1579be", null ],
     [ "PS_TILE_SIZE", "d8/d1b/ps_8qc.html#ab455752b35cf9f032c9c2a00704f72bb", null ],

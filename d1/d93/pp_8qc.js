@@ -7,7 +7,7 @@ var pp_8qc =
     [ "pp_valid_move", "d1/d93/pp_8qc.html#a4baa71ae1ad68fe8d490d981865cf24b", null ],
     [ "pp_valid_tile", "d1/d93/pp_8qc.html#aff8ac439155f2d933da35af297586052", null ],
     [ "pp_winning_piece", "d1/d93/pp_8qc.html#aa2e5cc9e72be7cb7fdf08bd9dffdb135", null ],
-    [ "REGISTER_MINIGAME", "d1/d93/pp_8qc.html#a530776bf068f03e081e69fda776ecdc1", null ],
+    [ "REGISTER_MINIGAME", "d1/d93/pp_8qc.html#ac70466898d1d09b361ca5e68c1355bb3", null ],
     [ "cnt", "d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab", null ],
     [ "PP_BLOCKED_TEAM", "d1/d93/pp_8qc.html#aad6125afc74315eaf34d2e2f5c5bd06a", null ],
     [ "pp_curr_piece", "d1/d93/pp_8qc.html#a1d9679e3e49eb53394984cf2b30ff37d", null ],

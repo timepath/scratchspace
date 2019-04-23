@@ -374,11 +374,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;</div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <span class="keywordflow">if</span> ( <a class="code" href="../../d3/d05/hud_8qh.html#a1ea4e4a57b532d29d86133f49f6138ff">hud_panel_radar_mouse</a> )</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    {</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = <span class="stringliteral">&quot;Click to select teleport destination&quot;</span>;</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = _(<span class="stringliteral">&quot;Click to select teleport destination&quot;</span>);</div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;</div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        <span class="keywordflow">if</span> ( STAT(HEALTH) &lt;= 0 )</div>
 <div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        {</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;            message = <span class="stringliteral">&quot;Click to select spawn location&quot;</span>;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;            message = _(<span class="stringliteral">&quot;Click to select spawn location&quot;</span>);</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        }</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;</div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a66804fbc3a76c60d59f50aa1bc4557d1">drawcolorcodedstring</a>(pos + <span class="stringliteral">&#39;0.5 0 0&#39;</span> * (mySize_x - <a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#aac033ec101163a655b47a24ceb78bad5">stringwidth</a>(message, <span class="keyword">true</span>, <a class="code" href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a>)) - <span class="stringliteral">&#39;0 1 0&#39;</span> * hud_fontsize_y * 2,</div>
@@ -880,7 +880,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d0/d83/radar_8qc.html">radar.qc</a></li>
-    <li class="footer">Generated on Tue Apr 23 2019 16:07:42 for Xonotic by
+    <li class="footer">Generated on Tue Apr 23 2019 18:55:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
