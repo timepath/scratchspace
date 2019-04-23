@@ -45,6 +45,7 @@ var common_2util_8qh =
     [ "textLengthUpToWidth", "d5/df2/common_2util_8qh.html#a38ea2eebe599675eb18c1ff564c72db4", null ],
     [ "textShortenToLength", "d5/df2/common_2util_8qh.html#a5f119916e6e7513d8e7375c84a2e5dcf", null ],
     [ "textShortenToWidth", "d5/df2/common_2util_8qh.html#aa1c30c930feeac7a589f75ef6d984bcf", null ],
+    [ "translate_key", "d5/df2/common_2util_8qh.html#a0422bc70106ec1a8e11a4b2ad7855510", null ],
     [ "wordwrap", "d5/df2/common_2util_8qh.html#ad685ca07f0d3d06a0b8f109a25114ceb", null ],
     [ "wordwrap_cb", "d5/df2/common_2util_8qh.html#a1c708493a4e4d0c7a50fbfec0c256f9c", null ],
     [ "write_String_To_File", "d5/df2/common_2util_8qh.html#ae728a9c68ce46e764dc8225c4c5f5cfd", null ],

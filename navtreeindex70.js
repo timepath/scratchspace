@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"d7/db4/client_2autocvars_8qh.html#a808a7c521698108bd80f247bb3c3d8e3":[2,0,0,8,301],
 "d7/db4/client_2autocvars_8qh.html#a81aca95f2f2489e79387af7b9eb4d31d":[2,0,0,8,66],
 "d7/db4/client_2autocvars_8qh.html#a83a3b4a2b3ed8cba32ca672f4b7d24de":[2,0,0,8,267],
 "d7/db4/client_2autocvars_8qh.html#a8550bff945e854a13ff9cbb68da5776b":[2,0,0,8,221],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "d7/db6/sv__clanarena_8qc.html#aacbcf72df7630d29c5323a6668918b8d":[2,0,1,3,0,1,2,4],
 "d7/db6/sv__clanarena_8qc.html#ab265c26ec7f7395df1af250e97417a95":[2,0,1,3,0,1,2,9],
 "d7/db6/sv__clanarena_8qc.html#ac3c365fb88484db9da71926a7ac3d260":[2,0,1,3,0,1,2,3],
-"d7/db6/sv__clanarena_8qc.html#ac73da9272696ca850eb2cdb3cac648cf":[2,0,1,3,0,1,2,16],
-"d7/db6/sv__clanarena_8qc.html#aca2a2af14a76adefeb1460bf9e1d71ce":[2,0,1,3,0,1,2,27]
+"d7/db6/sv__clanarena_8qc.html#ac73da9272696ca850eb2cdb3cac648cf":[2,0,1,3,0,1,2,16]
 };

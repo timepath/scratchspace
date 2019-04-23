@@ -32,6 +32,7 @@ var common_2util_8qc =
     [ "textLengthUpToWidth", "da/d44/common_2util_8qc.html#ab6502642132678c20db7fd26c09ddcf0", null ],
     [ "textShortenToLength", "da/d44/common_2util_8qc.html#a5f119916e6e7513d8e7375c84a2e5dcf", null ],
     [ "textShortenToWidth", "da/d44/common_2util_8qc.html#a73cc543cc744ae536ed0ef34b8d481c4", null ],
+    [ "translate_key", "da/d44/common_2util_8qc.html#a9a2ffb5afbad544b666ddfb760c66331", null ],
     [ "wordwrap", "da/d44/common_2util_8qc.html#ad685ca07f0d3d06a0b8f109a25114ceb", null ],
     [ "wordwrap_buffer_put", "da/d44/common_2util_8qc.html#ab5c1fe81cda29f368c48e2f2c5d23e7f", null ],
     [ "wordwrap_cb", "da/d44/common_2util_8qc.html#a1c708493a4e4d0c7a50fbfec0c256f9c", null ],
