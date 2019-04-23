@@ -1,7 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"dd/d7a/serverlist_8qh.html#a895f1ba439a49ac3d508ef6fd5b1b3d9":[2,0,5,4,205,32],
-"dd/d7a/serverlist_8qh.html#a8a70c6eb19b1e00e40cd4abce963a8ef":[2,0,5,4,205,7],
 "dd/d7a/serverlist_8qh.html#a8c9729e7e11aa6366afb478979cea7c9":[2,0,5,4,205,26],
 "dd/d7a/serverlist_8qh.html#a90279a7c644f8d54f71ef656745e9e22":[2,0,5,4,205,41],
 "dd/d7a/serverlist_8qh.html#a97346b4253a15de7c1b84be9e0e5b52f":[2,0,5,4,205,14],
@@ -46,8 +44,8 @@ var NAVTREEINDEX119 =
 "dd/d85/sortlist_8qc.html#a0d971ababe220410c64666927e3db274":[2,0,4,53,0],
 "dd/d85/sortlist_8qc_source.html":[2,0,4,53],
 "dd/d87/effectinfo_8qc.html":[2,0,1,2,8],
-"dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[2,0,1,2,8,12],
 "dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[2,0,1,2,8,13],
+"dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[2,0,1,2,8,12],
 "dd/d87/effectinfo_8qc.html#a140b69e0765f293f2d0545beefa583c7":[2,0,1,2,8,17],
 "dd/d87/effectinfo_8qc.html#a331bcf6c0483f2f74b9ebc3f52b11560":[2,0,1,2,8,21],
 "dd/d87/effectinfo_8qc.html#a35d7db2ed6df1ed819677965594dad63":[2,0,1,2,8,15],
@@ -55,9 +53,9 @@ var NAVTREEINDEX119 =
 "dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802":[2,0,1,2,8,7],
 "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862":[2,0,1,2,8,2],
 "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840":[2,0,1,2,8,5],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,9],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,10],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,9],
 "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6":[2,0,1,2,8,14],
 "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e":[2,0,1,2,8,16],
 "dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b":[2,0,1,2,8,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX119 =
 "dd/d94/wyvern_8qh.html#afa039392797736207820db4cdf6234f6":[2,0,1,9,0,9,2],
 "dd/d94/wyvern_8qh_source.html":[2,0,1,9,0,9],
 "dd/d95/dialog__credits_8qh.html":[2,0,5,4,41],
-"dd/d95/dialog__credits_8qh_source.html":[2,0,5,4,41]
+"dd/d95/dialog__credits_8qh_source.html":[2,0,5,4,41],
+"dd/d96/server_2progs_8inc.html":[2,0,6,47],
+"dd/d96/server_2progs_8inc_source.html":[2,0,6,47]
 };

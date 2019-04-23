@@ -1,7 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"d4/d7b/server_2compat_2__mod_8qh_source.html":[2,0,6,2,1],
-"d4/d7e/expandnode_8qh.html":[2,0,6,4,7],
 "d4/d7e/expandnode_8qh_source.html":[2,0,6,4,7],
 "d4/d81/common_2deathtypes_2__mod_8inc.html":[2,0,1,1,0],
 "d4/d81/common_2deathtypes_2__mod_8inc_source.html":[2,0,1,1,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX40 =
 "d4/d90/skin-customizables_8inc.html#a775cd4b6e034c87986b6202fb6403e2a":[2,0,5,18,86],
 "d4/d90/skin-customizables_8inc.html#a77e4423ea3332dc6af101b6b94ab0124":[2,0,5,18,173],
 "d4/d90/skin-customizables_8inc.html#a79647354cf6eee4aaba27a6721eead9e":[2,0,5,18,49],
-"d4/d90/skin-customizables_8inc.html#a7ad667ec8be2f24a04fa07bda786d4c5":[2,0,5,18,17]
+"d4/d90/skin-customizables_8inc.html#a7ad667ec8be2f24a04fa07bda786d4c5":[2,0,5,18,17],
+"d4/d90/skin-customizables_8inc.html#a7b12867e5cf6d62f210ad55e85cfffbe":[2,0,5,18,24],
+"d4/d90/skin-customizables_8inc.html#a7eddfb5797d1259c980bca605dd96fd6":[2,0,5,18,80]
 };

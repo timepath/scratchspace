@@ -1,7 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"d6/d9c/door_8qc.html#afbebfb6226c33715b304c0e6afa30ce4":[2,0,1,6,0,10,8],
-"d6/d9c/door_8qc.html#aff3250044af884a25a96e74e6f42ae24":[2,0,1,6,0,10,6],
 "d6/d9c/door_8qc_source.html":[2,0,1,6,0,10],
 "d6/d9d/common_2physics_2__mod_8qh.html":[2,0,1,12,2],
 "d6/d9d/common_2physics_2__mod_8qh_source.html":[2,0,1,12,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX57 =
 "d6/dbd/minigames_8qh.html#a0aade82a0b9c878798a2e8a75a476a92":[2,0,1,7,8,21],
 "d6/dbd/minigames_8qh.html#a24e2eea380cf6fceca9ff570a7981200":[2,0,1,7,8,14],
 "d6/dbd/minigames_8qh.html#a33e29a863850ccf27a6195fb84af6900":[2,0,1,7,8,23],
-"d6/dbd/minigames_8qh.html#a444ee7c09c6b56ccba4e1ea20820e104":[2,0,1,7,8,24]
+"d6/dbd/minigames_8qh.html#a444ee7c09c6b56ccba4e1ea20820e104":[2,0,1,7,8,24],
+"d6/dbd/minigames_8qh.html#a470fe7b6bbd7d246af06920a80ebcadd":[2,0,1,7,8,5],
+"d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2":[2,0,1,7,8,22]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"d6/d27/scripting_8qc.html#aeeb6371fde76407df09c424fc8dd9a30":[2,0,6,0,0,11,58],
-"d6/d27/scripting_8qc.html#aef344820f4549eeb8122180a25f2e74c":[2,0,6,0,0,11,28],
 "d6/d27/scripting_8qc.html#af4528d56583ab7ed80b49fa574872c4f":[2,0,6,0,0,11,26],
 "d6/d27/scripting_8qc.html#af57e30e85a1a07cbe4af216fb0a07c20":[2,0,6,0,0,11,45],
 "d6/d27/scripting_8qc.html#af5ebd28bbd770d319c4264138e3f3f8c":[2,0,6,0,0,11,11],
@@ -249,5 +247,7 @@ var NAVTREEINDEX54 =
 "d6/d66/classPhaserTurret.html#aa9d66ccb737374aa7e53b13d22b0a4f7":[1,0,101,14],
 "d6/d66/classPhaserTurret.html#aaf4a67548f87408e3844d8ffae43070d":[1,0,101,13],
 "d6/d66/classPhaserTurret.html#ab2ebe734680a2184bd4ee55ee4b17424":[1,0,101,16],
-"d6/d66/classPhaserTurret.html#ab51103697656de906079b6537d3800bc":[1,0,101,8]
+"d6/d66/classPhaserTurret.html#ab51103697656de906079b6537d3800bc":[1,0,101,8],
+"d6/d66/classPhaserTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,101,6],
+"d6/d66/classPhaserTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,101,10]
 };

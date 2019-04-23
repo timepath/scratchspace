@@ -1,7 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"d7/de1/g__hook_8qh.html":[2,0,6,26],
-"d7/de1/g__hook_8qh.html#a0469f299c1ceff5c919a7cb71bc224dd":[2,0,6,26,7],
 "d7/de1/g__hook_8qh.html#a172d17c8d6695be10227a941e648b3a2":[2,0,6,26,4],
 "d7/de1/g__hook_8qh.html#a1f64f2d79b382fef396c0d6c96eb70a1":[2,0,6,26,6],
 "d7/de1/g__hook_8qh.html#a25732b123a44b57eae276b2e5696db13":[2,0,6,26,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX72 =
 "d7/de8/modalcontroller_8qh.html#abe72a6bafb55848ec9cd7f81a6de3c29":[2,0,5,2,23,6],
 "d7/de8/modalcontroller_8qh.html#ae6d4b13463473ae70d990fd07d4d93f2":[2,0,5,2,23,5],
 "d7/de8/modalcontroller_8qh_source.html":[2,0,5,2,23],
-"d7/dea/hagar_8qh.html":[2,0,1,16,0,15]
+"d7/dea/hagar_8qh.html":[2,0,1,16,0,15],
+"d7/dea/hagar_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,15,1],
+"d7/dea/hagar_8qh.html#af1ebae9389955ec1e35cc42d29e23c2c":[2,0,1,16,0,15,2]
 };

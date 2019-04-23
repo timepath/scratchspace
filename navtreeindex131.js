@@ -1,7 +1,5 @@
 var NAVTREEINDEX131 =
 {
-"de/de8/portals_8qc.html#ae3ce02e26dea768820d80305db0e64e8":[2,0,6,45,32],
-"de/de8/portals_8qc.html#ae9b539a5e78533b38371cd35748e2ad9":[2,0,6,45,18],
 "de/de8/portals_8qc.html#aeccea1b8fd4a35dc2c9622d878398835":[2,0,6,45,35],
 "de/de8/portals_8qc.html#af51e97ef8f515bed3c13cace5e347339":[2,0,6,45,36],
 "de/de8/portals_8qc.html#af672b26eaa74d314001e3470575cee97":[2,0,6,45,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX131 =
 "df/d27/classXonoticPicker.html#a03c78077a75e67c5ed55ddc272218280":[1,0,226,15],
 "df/d27/classXonoticPicker.html#a08cc5fd50bbb0eb73cb9b1e4679f3399":[1,0,226,19],
 "df/d27/classXonoticPicker.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,226,10],
-"df/d27/classXonoticPicker.html#a2061fae4374629deb4ba51c89a7b7ca0":[1,0,226,5]
+"df/d27/classXonoticPicker.html#a2061fae4374629deb4ba51c89a7b7ca0":[1,0,226,5],
+"df/d27/classXonoticPicker.html#a21d86774d913c4a52b570ccaf39edac1":[1,0,226,24],
+"df/d27/classXonoticPicker.html#a26e72e2e10fa919ad361eb583aa68fde":[1,0,226,3]
 };
