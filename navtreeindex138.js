@@ -1,6 +1,5 @@
 var NAVTREEINDEX138 =
 {
-"df/df7/classOffhandBlaster.html#a3eebb9e4c20d2c338b773a030eca0ee0":[1,0,92,0],
 "df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh.html":[2,0,1,10,0,4,1],
 "df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh_source.html":[2,0,1,10,0,4,1],
 "df/df8/door__secret_8qc.html":[2,0,1,6,0,14],
@@ -248,6 +247,7 @@ var NAVTREEINDEX138 =
 "functions_d.html":[1,3,0,4],
 "functions_e.html":[1,3,0,5],
 "functions_f.html":[1,3,0,6],
+"functions_func.html":[1,3,1],
 "functions_func.html":[1,3,1,0],
-"functions_func.html":[1,3,1]
+"functions_func_a.html":[1,3,1,1]
 };

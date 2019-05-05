@@ -65,7 +65,6 @@ var sv__ctf_8qh =
     [ "HAVOCBOT_CTF_ROLE_NONE", "d6/db0/sv__ctf_8qh.html#a9609c7d1f30c9385815dd1bcaa854fdf", null ],
     [ "HAVOCBOT_CTF_ROLE_OFFENSE", "d6/db0/sv__ctf_8qh.html#ab5e6b3e93bfe6227f93300f2f5405262", null ],
     [ "HAVOCBOT_CTF_ROLE_RETRIEVER", "d6/db0/sv__ctf_8qh.html#a04eb94f5dc0ccb6f93fb5390d5498724", null ],
-    [ "max_flag_health", "d6/db0/sv__ctf_8qh.html#a404985e174c140c7a0c59756e1b2c32a", null ],
     [ "next_take_time", "d6/db0/sv__ctf_8qh.html#ac9845f7b162d8a5133a4bd17cf64345e", null ],
     [ "pass_distance", "d6/db0/sv__ctf_8qh.html#afe9468b2df7f18dff6619caf77e7f8d8", null ],
     [ "pass_sender", "d6/db0/sv__ctf_8qh.html#a3fe0154331fe78246d3e4a530cb77a8e", null ],
