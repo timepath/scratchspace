@@ -73,6 +73,7 @@ var searchData=
   ['campaign_5fentries',['campaign_entries',['../d7/d13/campaign__common_8qh.html#ad1cedff3e303471c758c7c7a9ce1bd0a',1,'campaign_common.qh']]],
   ['campaign_5ffile_2eqc',['campaign_file.qc',['../db/d55/campaign__file_8qc.html',1,'']]],
   ['campaign_5ffile_2eqh',['campaign_file.qh',['../d3/d2e/campaign__file_8qh.html',1,'']]],
+  ['campaign_5fforcewin',['campaign_forcewin',['../dd/d66/server_2campaign_8qh.html#aec7ac3a68a04d119448e14cd99ae64ac',1,'campaign.qh']]],
   ['campaign_5ffraglimit',['campaign_fraglimit',['../d7/d13/campaign__common_8qh.html#ae805e83ce3bdd9c430ccc1cca77b2981',1,'campaign_common.qh']]],
   ['campaign_5fgametype',['campaign_gametype',['../d7/d13/campaign__common_8qh.html#a61903179131b13b8ac5a03f44137778b',1,'campaign_common.qh']]],
   ['campaign_5fgetarg',['CAMPAIGN_GETARG',['../db/d55/campaign__file_8qc.html#a5f7b644249dd0af2317f7a98abfd332d',1,'campaign_file.qc']]],
