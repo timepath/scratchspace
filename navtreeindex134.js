@@ -1,11 +1,5 @@
 var NAVTREEINDEX134 =
 {
-"df/d71/walker__weapon_8qc.html":[2,0,1,14,0,44],
-"df/d71/walker__weapon_8qc_source.html":[2,0,1,14,0,44],
-"df/d75/client_2commands_2__mod_8qh.html":[2,0,0,0,1],
-"df/d75/client_2commands_2__mod_8qh_source.html":[2,0,0,0,1],
-"df/d75/keybinder_8qc.html":[2,0,5,4,174],
-"df/d75/keybinder_8qc.html#a07b1c813a45195e732bdbb97ef390c78":[2,0,5,4,174,9],
 "df/d75/keybinder_8qc.html#a136765a2f9eec2b238e1d2d831048343":[2,0,5,4,174,30],
 "df/d75/keybinder_8qc.html#a1372e62ea264c577e5d9f64cf46d594a":[2,0,5,4,174,18],
 "df/d75/keybinder_8qc.html#a16e4d3a58129392375657f4c01119fca":[2,0,5,4,174,20],
@@ -249,5 +243,11 @@ var NAVTREEINDEX134 =
 "df/d97/menu_2xonotic_2util_8qh.html#a725ecdf92e06cd25767619de5dca391d":[2,0,5,4,233,8],
 "df/d97/menu_2xonotic_2util_8qh.html#a7851f2ca9627c1234d96987723c7b627":[2,0,5,4,233,23],
 "df/d97/menu_2xonotic_2util_8qh.html#a83c60685c744483c0e12bba8bfa18d79":[2,0,5,4,233,15],
-"df/d97/menu_2xonotic_2util_8qh.html#a86cb046821701d82ae80ecd5c2c147b1":[2,0,5,4,233,17]
+"df/d97/menu_2xonotic_2util_8qh.html#a86cb046821701d82ae80ecd5c2c147b1":[2,0,5,4,233,17],
+"df/d97/menu_2xonotic_2util_8qh.html#a8aab628b518b68c2f185f69266694652":[2,0,5,4,233,16],
+"df/d97/menu_2xonotic_2util_8qh.html#a8eb356644d69441dba461bca0bb3ab9e":[2,0,5,4,233,6],
+"df/d97/menu_2xonotic_2util_8qh.html#a8ec8f4772028effaca28ae7b1fd6fc90":[2,0,5,4,233,10],
+"df/d97/menu_2xonotic_2util_8qh.html#aa156cba974687799fe21dd198b2bc00a":[2,0,5,4,233,28],
+"df/d97/menu_2xonotic_2util_8qh.html#aa655bfe1be2b4063e2893929694cee00":[2,0,5,4,233,30],
+"df/d97/menu_2xonotic_2util_8qh.html#aabecb2186198cee293ff99e8806ea85e":[2,0,5,4,233,4]
 };

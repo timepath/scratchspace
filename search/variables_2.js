@@ -14,8 +14,6 @@ var searchData=
   ['ban_5fip4',['ban_ip4',['../d6/d95/ipban_8qc.html#abf0558ba34c02ae3b0f6244e933dfed2',1,'ipban.qc']]],
   ['ban_5floaded',['ban_loaded',['../d6/d95/ipban_8qc.html#a87020945808f132e6fd70be728e19ff3',1,'ipban.qc']]],
   ['ban_5fmax',['BAN_MAX',['../d6/d95/ipban_8qc.html#affc9ae77186a86d812c98295cfbbd1da',1,'ipban.qc']]],
-  ['baseline',['baseline',['../d0/ddd/weapons_2all_8qh.html#a583e81eb753ad8bf4d1992217cd71617',1,'all.qh']]],
-  ['baseline_5ftarget',['baseline_target',['../d0/ddd/weapons_2all_8qh.html#a89d257471035c7d46df502f13247a7b9',1,'all.qh']]],
   ['bd_5fdir',['bd_dir',['../d3/dd5/bd_8qc.html#ac2fe7cd3b9559d6900db0ac8dfd4dbcc',1,'bd.qc']]],
   ['bd_5fdir_5fdn',['BD_DIR_DN',['../d3/dd5/bd_8qc.html#a13145b213b4acf3f888615cfedc13a0b',1,'bd.qc']]],
   ['bd_5fdir_5flf',['BD_DIR_LF',['../d3/dd5/bd_8qc.html#a6fc13aefd8e951b2a36a5064aa6253e8',1,'bd.qc']]],

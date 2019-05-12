@@ -1,11 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"d4/d0d/client_2mapvoting_8qc.html#a6d03f5e30fcc06b0a00062693556e1aa":[2,0,0,17,4],
-"d4/d0d/client_2mapvoting_8qc.html#a6de24ba32dab2d5beaf1bd8414a4489c":[2,0,0,17,17],
-"d4/d0d/client_2mapvoting_8qc.html#a6e49a64904e746b1fc8f6ab15c0a5ed0":[2,0,0,17,6],
-"d4/d0d/client_2mapvoting_8qc.html#a748c2c7f43e2077f5f044eb3c6fd19be":[2,0,0,17,37],
-"d4/d0d/client_2mapvoting_8qc.html#a7ec875daee7cdc2ca76d0aadbe791656":[2,0,0,17,20],
-"d4/d0d/client_2mapvoting_8qc.html#a85c066fc96bd085a84d5d60be4aafaed":[2,0,0,17,22],
 "d4/d0d/client_2mapvoting_8qc.html#a8c030e0460a4b7e98aef96c1b26bdcbe":[2,0,0,17,49],
 "d4/d0d/client_2mapvoting_8qc.html#a8c437df1e36d1d6bc2c656765173f4b1":[2,0,0,17,10],
 "d4/d0d/client_2mapvoting_8qc.html#a8c7face99361ed1475b5818879d137c4":[2,0,0,17,33],
@@ -249,5 +243,11 @@ var NAVTREEINDEX36 =
 "d4/d24/classWalkerTurretAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,145,22],
 "d4/d24/classWalkerTurretAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,145,2],
 "d4/d24/classWalkerTurretAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,145,16],
-"d4/d24/classWalkerTurretAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,145,10]
+"d4/d24/classWalkerTurretAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,145,10],
+"d4/d24/classWalkerTurretAttack.html#a6e0a37eaab3d64cff4542800f42b1c4c":[1,0,145,29],
+"d4/d24/classWalkerTurretAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,145,9],
+"d4/d24/classWalkerTurretAttack.html#a7515d4131829927372fd6583d4ae610a":[1,0,145,0],
+"d4/d24/classWalkerTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,145,37],
+"d4/d24/classWalkerTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,145,30],
+"d4/d24/classWalkerTurretAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,145,5]
 };

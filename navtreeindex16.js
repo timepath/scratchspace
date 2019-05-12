@@ -1,11 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b":[2,0,1,16,13,17],
-"d2/d1c/weapons_2weapon_8qh.html#a259e403c09376539bec67dda6a1164bc":[2,0,1,16,13,10],
-"d2/d1c/weapons_2weapon_8qh.html#a300f8a85518c66b86f3ba3d208117241":[2,0,1,16,13,28],
-"d2/d1c/weapons_2weapon_8qh.html#a33a5fa56c7d71ec499a00d0ed547de24":[2,0,1,16,13,19],
-"d2/d1c/weapons_2weapon_8qh.html#a4df1be4c93f242cc9f7db93970b46f56":[2,0,1,16,13,30],
-"d2/d1c/weapons_2weapon_8qh.html#a56bca5a7cf9c3b914cb389ba09f8999c":[2,0,1,16,13,39],
 "d2/d1c/weapons_2weapon_8qh.html#a614c672f17110736e8ce160d3f78e174":[2,0,1,16,13,31],
 "d2/d1c/weapons_2weapon_8qh.html#a67d15873f7aa52ab9ed55706830a4f17":[2,0,1,16,13,34],
 "d2/d1c/weapons_2weapon_8qh.html#a68c8b4f04f6cf4bd80ef078f2bea8d16":[2,0,1,16,13,12],
@@ -249,5 +243,11 @@ var NAVTREEINDEX16 =
 "d2/d3a/rules_8qc_source.html":[2,0,1,3,3],
 "d2/d3b/weapons_2config_8qh.html":[2,0,1,16,11],
 "d2/d3b/weapons_2config_8qh_source.html":[2,0,1,16,11],
-"d2/d3c/dialog__hudpanel__score_8qh.html":[2,0,5,4,75]
+"d2/d3c/dialog__hudpanel__score_8qh.html":[2,0,5,4,75],
+"d2/d3c/dialog__hudpanel__score_8qh_source.html":[2,0,5,4,75],
+"d2/d3d/classTurret.html":[1,0,140],
+"d2/d3d/classTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,140,5],
+"d2/d3d/classTurret.html#a3144102787442a58055180121b5e9536":[1,0,140,11],
+"d2/d3d/classTurret.html#a34980e66ed09a68af3e3fa9e204a18ca":[1,0,140,1],
+"d2/d3d/classTurret.html#a3b2dc37f35e039e9904334954cfa1938":[1,0,140,12]
 };
