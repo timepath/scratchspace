@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"de/de8/portals_8qc.html#af672b26eaa74d314001e3470575cee97":[2,0,6,45,6],
 "de/de8/portals_8qc.html#af7cc1e89ceacf4e2efce4267a1562d3c":[2,0,6,45,19],
 "de/de8/portals_8qc.html#afb9c655ff00c5556b90c9b759154bace":[2,0,6,45,28],
 "de/de8/portals_8qc.html#affc66b6e12996b9964dd8fdb004dc738":[2,0,6,45,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "df/d27/classXonoticPicker.html#a21d86774d913c4a52b570ccaf39edac1":[1,0,226,24],
 "df/d27/classXonoticPicker.html#a26e72e2e10fa919ad361eb583aa68fde":[1,0,226,3],
 "df/d27/classXonoticPicker.html#a2f22d0581068cab87a6f44a4d6132792":[1,0,226,11],
-"df/d27/classXonoticPicker.html#a30e76204a36bc7d61d806aad8f0c5ced":[1,0,226,9],
-"df/d27/classXonoticPicker.html#a36cc933d348bc87ef2a65a64547852d5":[1,0,226,4]
+"df/d27/classXonoticPicker.html#a30e76204a36bc7d61d806aad8f0c5ced":[1,0,226,9]
 };

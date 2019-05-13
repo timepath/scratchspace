@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"d3/d52/classXonoticResetDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,235,62],
 "d3/d52/classXonoticResetDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,235,74],
 "d3/d52/classXonoticResetDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,235,6],
 "d3/d52/classXonoticResetDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,235,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d6b/menu_2mutators_2events_8qc_source.html":[2,0,5,3,2],
 "d3/d70/menu_2progs_8inc.html":[2,0,5,17],
 "d3/d70/menu_2progs_8inc_source.html":[2,0,5,17],
-"d3/d71/dialog__credits_8qc.html":[2,0,5,4,40],
-"d3/d71/dialog__credits_8qc.html#a4d438bd9a1255103dc2cf53f91f1aed7":[2,0,5,4,40,1]
+"d3/d71/dialog__credits_8qc.html":[2,0,5,4,40]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"d7/dac/menu_2mutators_2events_8qh.html#a6f2ca5fc85e299efa5ca946bd457c33b":[2,0,5,3,3,3],
 "d7/dac/menu_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51":[2,0,5,3,3,4],
 "d7/dac/menu_2mutators_2events_8qh.html#af07547c358b616af655bf0c55ff812b4":[2,0,5,3,3,1],
 "d7/dac/menu_2mutators_2events_8qh_source.html":[2,0,5,3,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "d7/db4/client_2autocvars_8qh.html#a83a3b4a2b3ed8cba32ca672f4b7d24de":[2,0,0,8,267],
 "d7/db4/client_2autocvars_8qh.html#a8550bff945e854a13ff9cbb68da5776b":[2,0,0,8,221],
 "d7/db4/client_2autocvars_8qh.html#a857bb59943b6657721f3b75ae9b5a27a":[2,0,0,8,99],
-"d7/db4/client_2autocvars_8qh.html#a860976cb889ff4f493bd298043715080":[2,0,0,8,188],
-"d7/db4/client_2autocvars_8qh.html#a8644883983c4c00ab8b1c64ee9b4386b":[2,0,0,8,358]
+"d7/db4/client_2autocvars_8qh.html#a860976cb889ff4f493bd298043715080":[2,0,0,8,188]
 };

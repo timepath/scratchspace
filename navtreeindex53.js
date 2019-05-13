@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"d6/d15/classXonoticWeaponsList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,266,32],
 "d6/d15/classXonoticWeaponsList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,266,74],
 "d6/d15/classXonoticWeaponsList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,266,37],
 "d6/d15/classXonoticWeaponsList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,266,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "d6/d27/scripting_8qc.html#af4528d56583ab7ed80b49fa574872c4f":[2,0,6,0,0,11,26],
 "d6/d27/scripting_8qc.html#af57e30e85a1a07cbe4af216fb0a07c20":[2,0,6,0,0,11,45],
 "d6/d27/scripting_8qc.html#af5ebd28bbd770d319c4264138e3f3f8c":[2,0,6,0,0,11,11],
-"d6/d27/scripting_8qc.html#af773d4b868ba7a2ddbcb0a60aa8f7076":[2,0,6,0,0,11,43],
-"d6/d27/scripting_8qc.html#af9f73d37d16d0fa7815d9bce888af483":[2,0,6,0,0,11,60]
+"d6/d27/scripting_8qc.html#af773d4b868ba7a2ddbcb0a60aa8f7076":[2,0,6,0,0,11,43]
 };

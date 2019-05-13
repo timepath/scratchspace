@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"d7/db7/laser_8qh.html":[2,0,1,6,1,11],
 "d7/db7/laser_8qh.html#a0ac43cbc0f249f64df9278bf3b2d18bc":[2,0,1,6,1,11,5],
 "d7/db7/laser_8qh.html#a1dfda4498d2d3af9a211051836108573":[2,0,1,6,1,11,8],
 "d7/db7/laser_8qh.html#a4ddd6f05e45f8483f741fe17e6a4899a":[2,0,1,6,1,11,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "d7/de1/g__hook_8qh.html#a1f64f2d79b382fef396c0d6c96eb70a1":[2,0,6,26,6],
 "d7/de1/g__hook_8qh.html#a25732b123a44b57eae276b2e5696db13":[2,0,6,26,12],
 "d7/de1/g__hook_8qh.html#a343331b1aad92c7a3eaecd3869f15dee":[2,0,6,26,5],
-"d7/de1/g__hook_8qh.html#a38e80451284a344ffa9c9976e3fe3e2b":[2,0,6,26,0],
-"d7/de1/g__hook_8qh.html#a50f68d93243e10c5a552caae3c7a2413":[2,0,6,26,3]
+"d7/de1/g__hook_8qh.html#a38e80451284a344ffa9c9976e3fe3e2b":[2,0,6,26,0]
 };

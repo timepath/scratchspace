@@ -153,13 +153,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8adc0f68d514782dc8fe0a1d5af3b310"><td class="mdescLeft">&#160;</td><td class="mdescRight">(SERVER) checks ammo for weapon second  <a href="#a8adc0f68d514782dc8fe0a1d5af3b310">More...</a><br/></td></tr>
 <tr class="separator:a8adc0f68d514782dc8fe0a1d5af3b310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4f204e4f73afae2ccb97d5c7bbd7752"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/classWeapon.html#ac4f204e4f73afae2ccb97d5c7bbd7752">wr_config</a> ()</td></tr>
-<tr class="memdesc:ac4f204e4f73afae2ccb97d5c7bbd7752"><td class="mdescLeft">&#160;</td><td class="mdescRight">(ALL) dump weapon cvars to config in data directory (see: sv_cmd dumpweapons)  <a href="#ac4f204e4f73afae2ccb97d5c7bbd7752">More...</a><br/></td></tr>
+<tr class="memdesc:ac4f204e4f73afae2ccb97d5c7bbd7752"><td class="mdescLeft">&#160;</td><td class="mdescRight">(SERVER) dump weapon cvars to config in data directory (see: sv_cmd dumpweapons)  <a href="#ac4f204e4f73afae2ccb97d5c7bbd7752">More...</a><br/></td></tr>
 <tr class="separator:ac4f204e4f73afae2ccb97d5c7bbd7752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e111d0b78e4f34ece57a4739dd0085a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/classWeapon.html#a6e111d0b78e4f34ece57a4739dd0085a">wr_drop</a> ()</td></tr>
 <tr class="memdesc:a6e111d0b78e4f34ece57a4739dd0085a"><td class="mdescLeft">&#160;</td><td class="mdescRight">(SERVER) the weapon is dropped  <a href="#a6e111d0b78e4f34ece57a4739dd0085a">More...</a><br/></td></tr>
 <tr class="separator:a6e111d0b78e4f34ece57a4739dd0085a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a683643b5c8cebf8291182b0c06802fa3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/classWeapon.html#a683643b5c8cebf8291182b0c06802fa3">wr_glow</a> ()</td></tr>
-<tr class="memdesc:a683643b5c8cebf8291182b0c06802fa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">(CLIENT) weapon specific glow  <a href="#a683643b5c8cebf8291182b0c06802fa3">More...</a><br/></td></tr>
+<tr class="memdesc:a683643b5c8cebf8291182b0c06802fa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">(BOTH) weapon specific glow  <a href="#a683643b5c8cebf8291182b0c06802fa3">More...</a><br/></td></tr>
 <tr class="separator:a683643b5c8cebf8291182b0c06802fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac24638b9ff1c4686778f8c890e5fb287"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/classWeapon.html#ac24638b9ff1c4686778f8c890e5fb287">wr_gonethink</a> ()</td></tr>
 <tr class="memdesc:ac24638b9ff1c4686778f8c890e5fb287"><td class="mdescLeft">&#160;</td><td class="mdescRight">(SERVER) logic to run when weapon is lost  <a href="#ac24638b9ff1c4686778f8c890e5fb287">More...</a><br/></td></tr>
@@ -581,7 +581,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>(ALL) dump weapon cvars to config in data directory (see: sv_cmd dumpweapons) </p>
+<p>(SERVER) dump weapon cvars to config in data directory (see: sv_cmd dumpweapons) </p>
 
 <p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00103">103</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 <div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;{}</div>
@@ -637,7 +637,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>(CLIENT) weapon specific glow </p>
+<p>(BOTH) weapon specific glow </p>
 
 <p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00114">114</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 <div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;{ <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>; }</div>
@@ -1448,7 +1448,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d13/classShockwave.html">Shockwave</a></li>
-    <li class="footer">Generated on Sun May 12 2019 16:07:58 for Xonotic by
+    <li class="footer">Generated on Mon May 13 2019 00:57:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
