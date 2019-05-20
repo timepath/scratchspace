@@ -1,5 +1,6 @@
 var NAVTREEINDEX122 =
 {
+"dd/dd7/classRacer.html#ae64e1174e26aa83ba277ccc22c90e510":[1,0,113,18],
 "dd/dd7/classRacer.html#af1e7a9d937de540345fea6c3f4058b0f":[1,0,113,30],
 "dd/dd7/classRacer.html#af6f42dcff19b7fb5b76462a7d5848b97":[1,0,113,9],
 "dd/dd7/classRacer.html#af7f5447512b9c7b0f697dd84c35b1040":[1,0,113,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX122 =
 "de/d03/effectinfo__vehicles_8inc.html#a9a576d6be802547bf05261a9aac981dc":[2,0,1,2,19,10],
 "de/d03/effectinfo__vehicles_8inc.html#a9b8826aa47be22ef0adcc6614da831de":[2,0,1,2,19,24],
 "de/d03/effectinfo__vehicles_8inc.html#aaa7b945150afcb6e0aa6f3e57b5ea992":[2,0,1,2,19,13],
-"de/d03/effectinfo__vehicles_8inc.html#aac8a4c2708bf95afefb77fe5d0887f1d":[2,0,1,2,19,29],
-"de/d03/effectinfo__vehicles_8inc.html#ac400aa8ee91fbf58d232b054bf71ccfc":[2,0,1,2,19,14]
+"de/d03/effectinfo__vehicles_8inc.html#aac8a4c2708bf95afefb77fe5d0887f1d":[2,0,1,2,19,29]
 };

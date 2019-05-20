@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"d9/d95/effects_2all_8inc.html#ae5430fc43016d59081a9edc8ed86bc7b":[2,0,1,2,3,1],
 "d9/d95/effects_2all_8inc.html#af7139c4648cb139695b96ab918e50422":[2,0,1,2,3,3],
 "d9/d95/effects_2all_8inc_source.html":[2,0,1,2,3],
 "d9/d98/multivibrator_8qh.html":[2,0,1,6,3,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "d9/dca/classXonoticCommandButton.html#a25fb94f638529791b1b30962fac50912":[1,0,163,51],
 "d9/dca/classXonoticCommandButton.html#a27b635e0916726012b7e8c4dca05064e":[1,0,163,35],
 "d9/dca/classXonoticCommandButton.html#a29ef318627232b8879b7e81131f937f7":[1,0,163,3],
-"d9/dca/classXonoticCommandButton.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,163,13],
-"d9/dca/classXonoticCommandButton.html#a30e76204a36bc7d61d806aad8f0c5ced":[1,0,163,19]
+"d9/dca/classXonoticCommandButton.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,163,13]
 };
