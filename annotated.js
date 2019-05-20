@@ -60,7 +60,6 @@ var annotated =
     [ "InputContainer", "d8/da4/classInputContainer.html", "d8/da4/classInputContainer" ],
     [ "IntrusiveList", "d1/d74/classIntrusiveList.html", "d1/d74/classIntrusiveList" ],
     [ "Invasion", "d2/d26/classInvasion.html", "d2/d26/classInvasion" ],
-    [ "Inventory", "dd/d7a/classInventory.html", "dd/d7a/classInventory" ],
     [ "Jetpack", "d0/db7/classJetpack.html", "d0/db7/classJetpack" ],
     [ "JetpackRegen", "d9/d0c/classJetpackRegen.html", "d9/d0c/classJetpackRegen" ],
     [ "Keepaway", "d0/d55/classKeepaway.html", "d0/d55/classKeepaway" ],

@@ -63,7 +63,6 @@ var hierarchy =
         [ "TeamDeathmatch", "d6/df8/classTeamDeathmatch.html", null ]
       ] ],
       [ "IntrusiveList", "d1/d74/classIntrusiveList.html", null ],
-      [ "Inventory", "dd/d7a/classInventory.html", null ],
       [ "Lazy", "d3/dde/classLazy.html", null ],
       [ "LinkedList", "d7/dde/classLinkedList.html", null ],
       [ "LinkedListNode", "de/d6d/classLinkedListNode.html", null ],
