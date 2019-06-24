@@ -1514,7 +1514,6 @@ var searchData=
   ['autocvar_5fmenu_5fslist_5frecommendations_5fpurethreshold',['autocvar_menu_slist_recommendations_purethreshold',['../dd/d7a/serverlist_8qh.html#a895f1ba439a49ac3d508ef6fd5b1b3d9',1,'serverlist.qh']]],
   ['autocvar_5fmenu_5fsnd_5fsliderscale',['autocvar_menu_snd_sliderscale',['../d8/db3/slider__decibels_8qc.html#afc62ac66a25850e615f8160c2d2c6ef6',1,'slider_decibels.qc']]],
   ['autocvar_5fmenu_5fvid_5fallowdualscreenresolution',['autocvar_menu_vid_allowdualscreenresolution',['../d9/d52/slider__resolution_8qc.html#abbceec00ae26a7823355990f90fc6106',1,'slider_resolution.qc']]],
-  ['autocvar_5fmenu_5fwatermark',['autocvar_menu_watermark',['../df/d9b/menu_2xonotic_2util_8qc.html#a9ba01c55dd4d8896b1f02ef83b22acc8',1,'util.qc']]],
   ['autocvar_5fminplayers',['autocvar_minplayers',['../d7/da7/server_2autocvars_8qh.html#a5c98324cfd163efd161fa89a7f368885',1,'autocvars.qh']]],
   ['autocvar_5fminplayers_5fper_5fteam',['autocvar_minplayers_per_team',['../d7/da7/server_2autocvars_8qh.html#a9707abf38aaf3d436997bb8c73507284',1,'autocvars.qh']]],
   ['autocvar_5fname_5fmaxlength',['autocvar_name_maxlength',['../d7/da7/server_2autocvars_8qh.html#aeda3f09f8d8fc0ba72d4a7f0d73acd42',1,'autocvars.qh']]],

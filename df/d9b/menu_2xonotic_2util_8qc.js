@@ -65,7 +65,6 @@ var menu_2xonotic_2util_8qc =
     [ "_Nex_ExtResponseSystem_Queried", "df/d9b/menu_2xonotic_2util_8qc.html#ab481b288154355077c74eb562fdf4cca", null ],
     [ "_Nex_ExtResponseSystem_UpdateTo", "df/d9b/menu_2xonotic_2util_8qc.html#ac9d7e87fbbe66088178f1241c5707b93", null ],
     [ "_Nex_ExtResponseSystem_UpdateToURL", "df/d9b/menu_2xonotic_2util_8qc.html#a5c87627ceb04dfb238176510fc86cbe7", null ],
-    [ "autocvar_menu_watermark", "df/d9b/menu_2xonotic_2util_8qc.html#a9ba01c55dd4d8896b1f02ef83b22acc8", null ],
     [ "campaign_name_previous", "df/d9b/menu_2xonotic_2util_8qc.html#aee34d48d402a4431320f405ccdb3c0b0", null ],
     [ "campaign_won_previous", "df/d9b/menu_2xonotic_2util_8qc.html#a06840fb84f6c9ecdd5a8a28ec98f9bf7", null ],
     [ "cvar2_setDependent", "df/d9b/menu_2xonotic_2util_8qc.html#af2ff18ea62f392a697fa8272a47fc658", null ],
