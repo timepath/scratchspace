@@ -214,8 +214,10 @@ var NAVTREEINDEX83 =
 "d9/d2d/dialog__settings__game__model_8qc_source.html":[2,0,5,4,136],
 "d9/d2e/sv__vampire_8qc.html":[2,0,1,10,0,36,2],
 "d9/d2e/sv__vampire_8qc.html#a5dc916267abb9a85b76eeaba5ece40ea":[2,0,1,10,0,36,2,1],
+"d9/d2e/sv__vampire_8qc.html#a6d31b97eb7c0efbc22a1571045dc3f5e":[2,0,1,10,0,36,2,5],
 "d9/d2e/sv__vampire_8qc.html#a7160519b109392fa7d61feab5af5bae9":[2,0,1,10,0,36,2,4],
 "d9/d2e/sv__vampire_8qc.html#a82fb2823eb40ca05c74f50b398851a74":[2,0,1,10,0,36,2,0],
+"d9/d2e/sv__vampire_8qc.html#abd4046273a862b54df508611dd67d312":[2,0,1,10,0,36,2,6],
 "d9/d2e/sv__vampire_8qc.html#ae607ec80911c6ede65e0a8ec2ff3b2db":[2,0,1,10,0,36,2,3],
 "d9/d2e/sv__vampire_8qc.html#ae7cdbe52e3d65b59dc5c72a47fa02b38":[2,0,1,10,0,36,2,2],
 "d9/d2e/sv__vampire_8qc_source.html":[2,0,1,10,0,36,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "d9/d2f/classXonoticNexposee.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,223,45],
 "d9/d2f/classXonoticNexposee.html#aa1195f6fda6b6d46993c5e7d4542d634":[1,0,223,12],
 "d9/d2f/classXonoticNexposee.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,223,46],
-"d9/d2f/classXonoticNexposee.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,223,8],
-"d9/d2f/classXonoticNexposee.html#aacc81abdcc3d6864b64ee83eba26ce31":[1,0,223,43],
-"d9/d2f/classXonoticNexposee.html#aad099a0549928c37867d05a5dde2a511":[1,0,223,49]
+"d9/d2f/classXonoticNexposee.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,223,8]
 };

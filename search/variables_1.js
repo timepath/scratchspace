@@ -1187,6 +1187,8 @@ var searchData=
   ['autocvar_5fg_5fturrets_5ftargetscan_5fmindelay',['autocvar_g_turrets_targetscan_mindelay',['../d7/da7/server_2autocvars_8qh.html#a6a76e7e7e20a6d82786614ebcf67230f',1,'autocvars.qh']]],
   ['autocvar_5fg_5fuse_5fammunition',['autocvar_g_use_ammunition',['../d7/da7/server_2autocvars_8qh.html#a064fb983778370f8dbfed9374886c11b',1,'autocvars.qh']]],
   ['autocvar_5fg_5fvampire',['autocvar_g_vampire',['../d9/d2e/sv__vampire_8qc.html#a7160519b109392fa7d61feab5af5bae9',1,'sv_vampire.qc']]],
+  ['autocvar_5fg_5fvampire_5ffactor',['autocvar_g_vampire_factor',['../d9/d2e/sv__vampire_8qc.html#a6d31b97eb7c0efbc22a1571045dc3f5e',1,'sv_vampire.qc']]],
+  ['autocvar_5fg_5fvampire_5fuse_5ftotal_5fdamage',['autocvar_g_vampire_use_total_damage',['../d9/d2e/sv__vampire_8qc.html#abd4046273a862b54df508611dd67d312',1,'sv_vampire.qc']]],
   ['autocvar_5fg_5fvampirehook',['autocvar_g_vampirehook',['../d1/d24/sv__vampirehook_8qc.html#a08692545822fcd506d094cffba9cd695',1,'sv_vampirehook.qc']]],
   ['autocvar_5fg_5fvampirehook_5fdamage',['autocvar_g_vampirehook_damage',['../d1/d24/sv__vampirehook_8qc.html#afefbda54366d05202cfa45ea573b901a',1,'sv_vampirehook.qc']]],
   ['autocvar_5fg_5fvampirehook_5fdamagerate',['autocvar_g_vampirehook_damagerate',['../d1/d24/sv__vampirehook_8qc.html#ae2d72105afb4e1d59095deafb9ade864',1,'sv_vampirehook.qc']]],
