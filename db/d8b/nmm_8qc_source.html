@@ -735,143 +735,144 @@ $(document).ready(function(){initNavTree('db/d8b/nmm_8qc_source.html','../../');
 <div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    {</div>
 <div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;        nmm_fromtile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;        <a class="code" href="../../db/d8b/nmm_8qc.html#a111c20ea512cff478ae6e4fc51c755f3">nmm_init_tiles</a>(minigame);</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;        minigame.message = nmm_turn_to_string(minigame.minigame_flags);</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;        <a class="code" href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a>(minigame.message, nmm_turn_to_string(minigame.minigame_flags));</div>
 <div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    }</div>
 <div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( event == <span class="stringliteral">&quot;deactivate&quot;</span> )</div>
 <div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    {</div>
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        nmm_fromtile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;        <a class="code" href="../../db/d8b/nmm_8qc.html#ac6c83b7395c9bf6cba1fa44f9b316a20">nmm_kill_tiles</a>(minigame);</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;    }</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( event == <span class="stringliteral">&quot;key_pressed&quot;</span> &amp;&amp; (minigame.minigame_flags&amp;NMM_TURN_TEAM) == <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a>.team )</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    {</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;        <span class="keywordflow">switch</span> ( ...(0,<span class="keywordtype">int</span>) )</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        {</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a403b2744d5225398d9265452c17f2fc4">K_RIGHTARROW</a>:</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a0dba53b3a8039bb806db85ad78ff014d">K_KP_RIGHTARROW</a>:</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;                <span class="keywordflow">if</span> ( ! nmm_currtile )</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;                    nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,<span class="stringliteral">&quot;a7&quot;</span>);</div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;                {</div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;                    <span class="keywordtype">string</span> tileid = nmm_currtile.netname;</div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;                    nmm_currtile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;                    <span class="keywordflow">while</span> ( !nmm_currtile )</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;                    {</div>
-<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;                        tileid = <a class="code" href="../../d3/dbf/minigames_8qc.html#a470fe7b6bbd7d246af06920a80ebcadd">minigame_relative_tile</a>(tileid,1,0,7,7);</div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;                        nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,tileid);</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;                    }</div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;                }</div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;                <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a8d480915019f20bd0ccf39ccde1d16a3">K_LEFTARROW</a>:</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a74257d5c4efdfa386e8c09a7353d112c">K_KP_LEFTARROW</a>:</div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;                <span class="keywordflow">if</span> ( ! nmm_currtile )</div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;                    nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,<span class="stringliteral">&quot;g7&quot;</span>);</div>
-<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;                {</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;                    <span class="keywordtype">string</span> tileid = nmm_currtile.netname;</div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;                    nmm_currtile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;                    <span class="keywordflow">while</span> ( !nmm_currtile )</div>
-<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;                    {</div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;                        tileid = <a class="code" href="../../d3/dbf/minigames_8qc.html#a470fe7b6bbd7d246af06920a80ebcadd">minigame_relative_tile</a>(tileid,-1,0,7,7);</div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;                        nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,tileid);</div>
-<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;                    }</div>
-<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;                }</div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;                <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2">K_UPARROW</a>:</div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a57ebf01258da3313cffa73c0d51d462f">K_KP_UPARROW</a>:</div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;                <span class="keywordflow">if</span> ( ! nmm_currtile )</div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;                    nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,<span class="stringliteral">&quot;a1&quot;</span>);</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;                {</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;                    <span class="keywordtype">string</span> tileid = nmm_currtile.netname;</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;                    nmm_currtile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;                    <span class="keywordflow">while</span> ( !nmm_currtile )</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;                    {</div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;                        tileid = <a class="code" href="../../d3/dbf/minigames_8qc.html#a470fe7b6bbd7d246af06920a80ebcadd">minigame_relative_tile</a>(tileid,0,1,7,7);</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;                        nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,tileid);</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;                    }</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;                }</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;                <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a315e227218f29accc4cd092b941cafaa">K_DOWNARROW</a>:</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a87a896b1715cbb9e686fdf31c8162eed">K_KP_DOWNARROW</a>:</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;                <span class="keywordflow">if</span> ( ! nmm_currtile )</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;                    nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,<span class="stringliteral">&quot;a7&quot;</span>);</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;                {</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;                    <span class="keywordtype">string</span> tileid = nmm_currtile.netname;</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;                    nmm_currtile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;                    <span class="keywordflow">while</span> ( !nmm_currtile )</div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;                    {</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;                        tileid = <a class="code" href="../../d3/dbf/minigames_8qc.html#a470fe7b6bbd7d246af06920a80ebcadd">minigame_relative_tile</a>(tileid,0,-1,7,7);</div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;                        nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,tileid);</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;                    }</div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;                }</div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;                <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a773609a6bdeb929d39dad442cd5f9e66">K_ENTER</a>:</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a>:</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a73fbabbe0208abd0c8e74dd03b8ec69a">K_SPACE</a>:</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;                nmm_make_move(minigame);</div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;                <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;        }</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;    }</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( event == <span class="stringliteral">&quot;mouse_pressed&quot;</span> &amp;&amp; ...(0,<span class="keywordtype">int</span>) == <a class="code" href="../../dc/d03/keycodes_8qc.html#a3555627cb4a3ca93d324f36fd94cff87">K_MOUSE1</a> )</div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;    {</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;        nmm_make_move(minigame);</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;        <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;    }</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( event == <span class="stringliteral">&quot;mouse_moved&quot;</span> )</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;    {</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;        nmm_currtile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> tile_pos;</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> tile_size = <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a7106641b219836128248d423976191df">minigame_hud_denormalize_size</a>(<span class="stringliteral">&#39;1 1 0&#39;</span>/7,nmm_boardpos,nmm_boardsize);</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;        <a class="code" href="../../de/d3d/cl__minigames_8qh.html#acb1eb2cf269d4b57f8d9a3350ef514f7">FOREACH_MINIGAME_ENTITY</a>(e)</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        {</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;            <span class="keywordflow">if</span> ( e.classname == <span class="stringliteral">&quot;minigame_nmm_tile&quot;</span> )</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;            {</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;                tile_pos = <a class="code" href="../../d4/db7/cl__minigames_8qc.html#aa5e0439843364cfdf2701a9992dac50e">minigame_hud_denormalize</a>(e.origin,nmm_boardpos,nmm_boardsize)-tile_size/2;</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;                <span class="keywordflow">if</span> ( <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a3b4976c5caa2806d8bf77936fb1173c1">minigame_hud_mouse_in</a>(tile_pos, tile_size) &amp;&amp; nmm_valid_selection(e) )</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;                {</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;                    nmm_currtile = e;</div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;                    <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;                }</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;            }</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;        }</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;        <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    }</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( event == <span class="stringliteral">&quot;network_receive&quot;</span> )</div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    {</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> sent = ...(0,<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;        <span class="keywordflow">if</span> ( sent.classname == <span class="stringliteral">&quot;minigame_board_piece&quot;</span> &amp;&amp; ( ...(1,<span class="keywordtype">int</span>) &amp; <a class="code" href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a> ) )</div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;        {</div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;            <span class="keywordtype">string</span> tileid = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;            <span class="keywordflow">if</span> ( sent.minigame_flags &amp; NMM_PIECE_BOARD )</div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;                tileid = <a class="code" href="../../d3/dbf/minigames_8qc.html#ab81c669b54415bca697594d9fb7f70f4">minigame_tile_name</a>(sent.origin,7,7);</div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;            <a class="code" href="../../de/d3d/cl__minigames_8qh.html#acb1eb2cf269d4b57f8d9a3350ef514f7">FOREACH_MINIGAME_ENTITY</a>(e)</div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;            {</div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;                <span class="keywordflow">if</span> ( e.classname == <span class="stringliteral">&quot;minigame_nmm_tile&quot;</span> )</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;                {</div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;                    <span class="keywordflow">if</span> ( e.nmm_tile_piece == sent )</div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;                        e.nmm_tile_piece = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;                    <span class="keywordflow">if</span> ( e.netname == tileid )</div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;                        e.nmm_tile_piece = sent;</div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;                }</div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;            }</div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;        }</div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( sent.classname == <span class="stringliteral">&quot;minigame&quot;</span> &amp;&amp; ( ...(1,<span class="keywordtype">int</span>) &amp; <a class="code" href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a> ) )</div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;        {</div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;            sent.message = nmm_turn_to_string(sent.minigame_flags);</div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;            <span class="keywordflow">if</span> ( sent.minigame_flags &amp; <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a>.team )</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;                <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a0e95d808ea50b0343ffb6f1b6d5ae445">minigame_prompt</a>();</div>
-<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;        }</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;    }</div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;</div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;}</div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;</div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;        <a class="code" href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a>(minigame.message);</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;    }</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( event == <span class="stringliteral">&quot;key_pressed&quot;</span> &amp;&amp; (minigame.minigame_flags&amp;NMM_TURN_TEAM) == <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a>.team )</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;    {</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        <span class="keywordflow">switch</span> ( ...(0,<span class="keywordtype">int</span>) )</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;        {</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a403b2744d5225398d9265452c17f2fc4">K_RIGHTARROW</a>:</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a0dba53b3a8039bb806db85ad78ff014d">K_KP_RIGHTARROW</a>:</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;                <span class="keywordflow">if</span> ( ! nmm_currtile )</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;                    nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,<span class="stringliteral">&quot;a7&quot;</span>);</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;                {</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;                    <span class="keywordtype">string</span> tileid = nmm_currtile.netname;</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;                    nmm_currtile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;                    <span class="keywordflow">while</span> ( !nmm_currtile )</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;                    {</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;                        tileid = <a class="code" href="../../d3/dbf/minigames_8qc.html#a470fe7b6bbd7d246af06920a80ebcadd">minigame_relative_tile</a>(tileid,1,0,7,7);</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;                        nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,tileid);</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;                    }</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;                }</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;                <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a8d480915019f20bd0ccf39ccde1d16a3">K_LEFTARROW</a>:</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a74257d5c4efdfa386e8c09a7353d112c">K_KP_LEFTARROW</a>:</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;                <span class="keywordflow">if</span> ( ! nmm_currtile )</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;                    nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,<span class="stringliteral">&quot;g7&quot;</span>);</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;                {</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;                    <span class="keywordtype">string</span> tileid = nmm_currtile.netname;</div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;                    nmm_currtile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;                    <span class="keywordflow">while</span> ( !nmm_currtile )</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;                    {</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;                        tileid = <a class="code" href="../../d3/dbf/minigames_8qc.html#a470fe7b6bbd7d246af06920a80ebcadd">minigame_relative_tile</a>(tileid,-1,0,7,7);</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;                        nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,tileid);</div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;                    }</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;                }</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;                <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2">K_UPARROW</a>:</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a57ebf01258da3313cffa73c0d51d462f">K_KP_UPARROW</a>:</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;                <span class="keywordflow">if</span> ( ! nmm_currtile )</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;                    nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,<span class="stringliteral">&quot;a1&quot;</span>);</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;                {</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;                    <span class="keywordtype">string</span> tileid = nmm_currtile.netname;</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;                    nmm_currtile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;                    <span class="keywordflow">while</span> ( !nmm_currtile )</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;                    {</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;                        tileid = <a class="code" href="../../d3/dbf/minigames_8qc.html#a470fe7b6bbd7d246af06920a80ebcadd">minigame_relative_tile</a>(tileid,0,1,7,7);</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;                        nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,tileid);</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;                    }</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;                }</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;                <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a315e227218f29accc4cd092b941cafaa">K_DOWNARROW</a>:</div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a87a896b1715cbb9e686fdf31c8162eed">K_KP_DOWNARROW</a>:</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;                <span class="keywordflow">if</span> ( ! nmm_currtile )</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;                    nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,<span class="stringliteral">&quot;a7&quot;</span>);</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;                {</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;                    <span class="keywordtype">string</span> tileid = nmm_currtile.netname;</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;                    nmm_currtile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;                    <span class="keywordflow">while</span> ( !nmm_currtile )</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;                    {</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;                        tileid = <a class="code" href="../../d3/dbf/minigames_8qc.html#a470fe7b6bbd7d246af06920a80ebcadd">minigame_relative_tile</a>(tileid,0,-1,7,7);</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;                        nmm_currtile = <a class="code" href="../../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1">nmm_find_tile</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,tileid);</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;                    }</div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;                }</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;                <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a773609a6bdeb929d39dad442cd5f9e66">K_ENTER</a>:</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a>:</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a73fbabbe0208abd0c8e74dd03b8ec69a">K_SPACE</a>:</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;                nmm_make_move(minigame);</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;                <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;        }</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;    }</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( event == <span class="stringliteral">&quot;mouse_pressed&quot;</span> &amp;&amp; ...(0,<span class="keywordtype">int</span>) == <a class="code" href="../../dc/d03/keycodes_8qc.html#a3555627cb4a3ca93d324f36fd94cff87">K_MOUSE1</a> )</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    {</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;        nmm_make_move(minigame);</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;    }</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( event == <span class="stringliteral">&quot;mouse_moved&quot;</span> )</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    {</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        nmm_currtile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> tile_pos;</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> tile_size = <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a7106641b219836128248d423976191df">minigame_hud_denormalize_size</a>(<span class="stringliteral">&#39;1 1 0&#39;</span>/7,nmm_boardpos,nmm_boardsize);</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        <a class="code" href="../../de/d3d/cl__minigames_8qh.html#acb1eb2cf269d4b57f8d9a3350ef514f7">FOREACH_MINIGAME_ENTITY</a>(e)</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;        {</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;            <span class="keywordflow">if</span> ( e.classname == <span class="stringliteral">&quot;minigame_nmm_tile&quot;</span> )</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;            {</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;                tile_pos = <a class="code" href="../../d4/db7/cl__minigames_8qc.html#aa5e0439843364cfdf2701a9992dac50e">minigame_hud_denormalize</a>(e.origin,nmm_boardpos,nmm_boardsize)-tile_size/2;</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;                <span class="keywordflow">if</span> ( <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a3b4976c5caa2806d8bf77936fb1173c1">minigame_hud_mouse_in</a>(tile_pos, tile_size) &amp;&amp; nmm_valid_selection(e) )</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;                {</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;                    nmm_currtile = e;</div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;                }</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;            }</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;        }</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;    }</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( event == <span class="stringliteral">&quot;network_receive&quot;</span> )</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    {</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> sent = ...(0,<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;        <span class="keywordflow">if</span> ( sent.classname == <span class="stringliteral">&quot;minigame_board_piece&quot;</span> &amp;&amp; ( ...(1,<span class="keywordtype">int</span>) &amp; <a class="code" href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a> ) )</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;        {</div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;            <span class="keywordtype">string</span> tileid = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;            <span class="keywordflow">if</span> ( sent.minigame_flags &amp; NMM_PIECE_BOARD )</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;                tileid = <a class="code" href="../../d3/dbf/minigames_8qc.html#ab81c669b54415bca697594d9fb7f70f4">minigame_tile_name</a>(sent.origin,7,7);</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;            <a class="code" href="../../de/d3d/cl__minigames_8qh.html#acb1eb2cf269d4b57f8d9a3350ef514f7">FOREACH_MINIGAME_ENTITY</a>(e)</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;            {</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;                <span class="keywordflow">if</span> ( e.classname == <span class="stringliteral">&quot;minigame_nmm_tile&quot;</span> )</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;                {</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;                    <span class="keywordflow">if</span> ( e.nmm_tile_piece == sent )</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;                        e.nmm_tile_piece = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;                    <span class="keywordflow">if</span> ( e.netname == tileid )</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;                        e.nmm_tile_piece = sent;</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;                }</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;            }</div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;        }</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( sent.classname == <span class="stringliteral">&quot;minigame&quot;</span> &amp;&amp; ( ...(1,<span class="keywordtype">int</span>) &amp; <a class="code" href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a> ) )</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;        {</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;            <a class="code" href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a>(sent.message, nmm_turn_to_string(sent.minigame_flags));</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;            <span class="keywordflow">if</span> ( sent.minigame_flags &amp; <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a>.team )</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;                <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a0e95d808ea50b0343ffb6f1b6d5ae445">minigame_prompt</a>();</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;        }</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;    }</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;}</div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;</div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="keycodes_8qc_html_a0dba53b3a8039bb806db85ad78ff014d"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a0dba53b3a8039bb806db85ad78ff014d">K_KP_RIGHTARROW</a></div><div class="ttdeci">float K_KP_RIGHTARROW</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00060">keycodes.qc:60</a></div></div>
 <div class="ttc" id="nmm_8qc_html_a308d368648ecbd7bb67a9f438ca1cbfc"><div class="ttname"><a href="../../db/d8b/nmm_8qc.html#a308d368648ecbd7bb67a9f438ca1cbfc">REGISTER_MINIGAME</a></div><div class="ttdeci">REGISTER_MINIGAME(nmm, _(&quot;Nine Men's Morris&quot;))</div></div>
 <div class="ttc" id="keycodes_8qc_html_a1657e5be2a616c50eedf52dede110ae2"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2">K_UPARROW</a></div><div class="ttdeci">float K_UPARROW</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00015">keycodes.qc:15</a></div></div>
@@ -913,6 +914,7 @@ $(document).ready(function(){initNavTree('db/d8b/nmm_8qc_source.html','../../');
 <div class="ttc" id="menudefs_8qc_html_adbf0a401c10df5580b133d71bc6d8ff4"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize</a></div><div class="ttdeci">float tokenize(string s)</div></div>
 <div class="ttc" id="nmm_8qc_html_a546ad9879bd786d89b57ac248143e188"><div class="ttname"><a href="../../db/d8b/nmm_8qc.html#a546ad9879bd786d89b57ac248143e188">NMM_TURN_TEAM2</a></div><div class="ttdeci">const int NMM_TURN_TEAM2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d8b/nmm_8qc_source.html#l00017">nmm.qc:17</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_aa4d21cae4374f406578b21e06ee55c28"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a></div><div class="ttdeci">float K_KP_ENTER</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00074">keycodes.qc:74</a></div></div>
+<div class="ttc" id="string_8qh_html_a9911c5e0b0c9ecae050a2193eb6c2af5"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a></div><div class="ttdeci">#define strcpy(this, s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00049">string.qh:49</a></div></div>
 <div class="ttc" id="minigames_8qc_html_ab81c669b54415bca697594d9fb7f70f4"><div class="ttname"><a href="../../d3/dbf/minigames_8qc.html#ab81c669b54415bca697594d9fb7f70f4">minigame_tile_name</a></div><div class="ttdeci">string minigame_tile_name(vector pos, int rows, int columns)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbf/minigames_8qc_source.html#l00054">minigames.qc:54</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a465bbb3367ce5d2f9b2a44b199cea7ce"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a465bbb3367ce5d2f9b2a44b199cea7ce">DRAWFLAG_ADDITIVE</a></div><div class="ttdeci">const float DRAWFLAG_ADDITIVE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00318">csprogsdefs.qc:318</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
@@ -971,7 +973,7 @@ $(document).ready(function(){initNavTree('db/d8b/nmm_8qc_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../dir_f3c5fe65fc7d6f300d22d67107da5495.html">minigame</a></li><li class="navelem"><a class="el" href="../../db/d8b/nmm_8qc.html">nmm.qc</a></li>
-    <li class="footer">Generated on Sat Jul 20 2019 02:02:42 for Xonotic by
+    <li class="footer">Generated on Sat Jul 20 2019 21:20:05 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
