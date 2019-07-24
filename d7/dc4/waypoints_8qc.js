@@ -50,7 +50,6 @@ var waypoints_8qc =
     [ "waypoint_think", "d7/dc4/waypoints_8qc.html#a7ab4015afd0d98a36207a9186a62d127", null ],
     [ "waypoint_unreachable", "d7/dc4/waypoints_8qc.html#a71c65fa95801766d4248ba2799352c8a", null ],
     [ "waypoint_updatecost_foralllinks", "d7/dc4/waypoints_8qc.html#a639e3964af580a5a3e7507684de9bcf4", null ],
-    [ "botframe_autowaypoints_lastwp0", "d7/dc4/waypoints_8qc.html#ad5ffadcf9a495cd46837874dfbda3674", null ],
     [ "botframe_autowaypoints_lastwp1", "d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866", null ],
     [ "spawnpointmodel", "d7/dc4/waypoints_8qc.html#a85bede8c1125729a93dce37c57096680", null ]
 ];

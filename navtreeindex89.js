@@ -1,6 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"d9/deb/classXonoticHUDTimerDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,205,9],
 "d9/deb/classXonoticHUDTimerDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,205,78],
 "d9/deb/classXonoticHUDTimerDialog.html#ab46e248b9c0df874422af3bb68e284f7":[1,0,205,76],
 "d9/deb/classXonoticHUDTimerDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,205,77],
@@ -249,5 +248,6 @@ var NAVTREEINDEX89 =
 "da/d1d/classMLRSTurretAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,80,22],
 "da/d1d/classMLRSTurretAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,80,2],
 "da/d1d/classMLRSTurretAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,80,16],
-"da/d1d/classMLRSTurretAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,80,10]
+"da/d1d/classMLRSTurretAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,80,10],
+"da/d1d/classMLRSTurretAttack.html#a6a45b8b8496e0827216ad10cc845245f":[1,0,80,28]
 };

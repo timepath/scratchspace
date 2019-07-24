@@ -1,6 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"d8/de2/menudefs_8qc.html#a7063b4b3c8a13f50d7398f55439e8fa9":[2,0,2,0,3,125],
 "d8/de2/menudefs_8qc.html#a70dc76e9658bd7c8da4e3196435cd0d3":[2,0,2,0,3,33],
 "d8/de2/menudefs_8qc.html#a7152df3cc26231d937051a4dcd2755d0":[2,0,2,0,3,151],
 "d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f":[2,0,2,0,3,85],
@@ -249,5 +248,6 @@ var NAVTREEINDEX80 =
 "d8/df7/classXonoticParticlesSlider.html#a12cae2879a01520f0d08f21a673a4d3f":[1,0,224,9],
 "d8/df7/classXonoticParticlesSlider.html#a1384d244201f945385ed59b53e4aee96":[1,0,224,51],
 "d8/df7/classXonoticParticlesSlider.html#a14b2c1b630609675816d233dd0ef3c7f":[1,0,224,42],
-"d8/df7/classXonoticParticlesSlider.html#a18e4ef929b36aa09bca1a1e7c1d50d1d":[1,0,224,34]
+"d8/df7/classXonoticParticlesSlider.html#a18e4ef929b36aa09bca1a1e7c1d50d1d":[1,0,224,34],
+"d8/df7/classXonoticParticlesSlider.html#a1c228ffb13fb785a4d69c1fc3cba8290":[1,0,224,12]
 };

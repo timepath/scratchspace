@@ -1,6 +1,5 @@
 var NAVTREEINDEX131 =
 {
-"de/df3/chat_8qh.html":[2,0,0,1,0,7],
 "de/df3/chat_8qh_source.html":[2,0,0,1,0,7],
 "de/df3/raptor__weapons_8qc.html":[2,0,1,15,0,12],
 "de/df3/raptor__weapons_8qc_source.html":[2,0,1,15,0,12],
@@ -249,5 +248,6 @@ var NAVTREEINDEX131 =
 "df/d27/classXonoticPicker.html#a39b77a1923845447d837ff9f399e9aff":[1,0,225,38],
 "df/d27/classXonoticPicker.html#a3aa36c55bd87e554a583cb681e044ff9":[1,0,225,17],
 "df/d27/classXonoticPicker.html#a3c8bca13fc56cb4fd35bc818e17a01ca":[1,0,225,16],
-"df/d27/classXonoticPicker.html#a3f9c5e6943891f335099fe380661b70c":[1,0,225,18]
+"df/d27/classXonoticPicker.html#a3f9c5e6943891f335099fe380661b70c":[1,0,225,18],
+"df/d27/classXonoticPicker.html#a44f82bb2186f56f4dea7f791b47e2952":[1,0,225,20]
 };
