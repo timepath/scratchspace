@@ -1281,7 +1281,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> pseudoprojectile = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> dir = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(end - start);</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="keywordtype">float</span> length = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(end - start);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="comment">//float max_length = vlen(end - start);</span></div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> force = dir * bforce;</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="comment">// go a little bit into the wall because we need to hit this wall later</span></div>
@@ -1342,22 +1342,22 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="comment">//explosion = spawn();</span></div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="comment">// Find all non-hit players the beam passed close by</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordflow">if</span>(deathtype == WEP_VAPORIZER.m_id || deathtype == WEP_VORTEX.m_id) <span class="comment">// WEAPONTODO</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    {</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; it != <span class="keyword">this</span>, {</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            <span class="keywordflow">if</span>(!it.railgunhit)</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            <span class="keywordflow">if</span>(!(<a class="code" href="../../db/d7a/utils_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a>(it) &amp;&amp; it.enemy == <span class="keyword">this</span>))</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordtype">float</span> length = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> - start);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordflow">if</span>(deathtype == WEP_VAPORIZER.m_id || deathtype == WEP_VORTEX.m_id) <span class="comment">// WEAPONTODO</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    {</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; it != <span class="keyword">this</span>, {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            <span class="keywordflow">if</span> (!it.railgunhit &amp;&amp; !(<a class="code" href="../../db/d7a/utils_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a>(it) &amp;&amp; it.enemy == <span class="keyword">this</span>))</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;            {</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                <a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a> = it;</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                <span class="comment">// nearest point on the beam</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> beampos = start + dir * <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, (<a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a>.origin - start) * dir, length);</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                <span class="keywordtype">float</span> f = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, 1 - <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(beampos - <a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a>.origin) / 512, 1);</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                <span class="keywordflow">if</span>(f &lt;= 0)</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                <span class="keywordflow">if</span>(!pseudoprojectile)</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                    pseudoprojectile = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>(); <span class="comment">// we need this so the sound uses the &quot;entchannel4&quot; volume</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                <span class="comment">// nearest point on the beam</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> beampos = start + dir * <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, (it.origin - start) * dir, length);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                <span class="keywordtype">float</span> f = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, 1 - <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(beampos - it.origin) / 512, 1);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                <span class="keywordflow">if</span>(f &lt;= 0)</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                <span class="keywordflow">if</span>(!pseudoprojectile)</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                    pseudoprojectile = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>(); <span class="comment">// we need this so the sound uses the &quot;entchannel4&quot; volume</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                <a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a> = it;</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a03ae2b364190aaf5a91fd684522d66ff">soundtoat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>, pseudoprojectile, beampos, <a class="code" href="../../d0/df5/sound_8qh.html#a4051c5328d378b063ec0779a9c9a75c3">CH_SHOTS</a>, <a class="code" href="../../df/dc2/sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a>(NEXWHOOSH_RANDOM()), <a class="code" href="../../d0/df5/sound_8qh.html#a353d870104b3e8ae2a5fc5584279c735">VOL_BASE</a> * f, <a class="code" href="../../d0/df5/sound_8qh.html#aa00190ab7f73439edff33680b94eaacb">ATTEN_NONE</a>);</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            }</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        });</div>
@@ -2072,7 +2072,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d4/d3f/tracing_8qh.html">tracing.qh</a></li>
-    <li class="footer">Generated on Wed Jul 24 2019 08:17:12 for Xonotic by
+    <li class="footer">Generated on Thu Jul 25 2019 09:15:51 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
