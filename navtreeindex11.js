@@ -1,8 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"d1/d6a/lib_2warpzone_2common_8qc.html#a130c3a527c5ece580ebdcfaf2c0434c1":[2,0,4,2,6,58],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a13727adbd82720336c36d3886c8fa3e5":[2,0,4,2,6,37],
-"d1/d6a/lib_2warpzone_2common_8qc.html#a14c2a8bd301ac8d49c0064f68066a256":[2,0,4,2,6,21],
 "d1/d6a/lib_2warpzone_2common_8qc.html#a14cf6d888d7b4d234b4ddf24f925ce2d":[2,0,4,2,6,28],
 "d1/d6a/lib_2warpzone_2common_8qc.html#a17cfeb262bd72e8d8dbfed975860037c":[2,0,4,2,6,36],
 "d1/d6a/lib_2warpzone_2common_8qc.html#a18310014dc1783007e71283d45e62718":[2,0,4,2,6,10],
@@ -249,5 +246,8 @@ var NAVTREEINDEX11 =
 "d1/d7e/classXonoticServerListTab.html#a3f9c5e6943891f335099fe380661b70c":[1,0,247,41],
 "d1/d7e/classXonoticServerListTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,247,16],
 "d1/d7e/classXonoticServerListTab.html#a4869983b8dc750584479ade5447c8413":[1,0,247,25],
-"d1/d7e/classXonoticServerListTab.html#a4ad8d403de20048384fe85b379309436":[1,0,247,74]
+"d1/d7e/classXonoticServerListTab.html#a4ad8d403de20048384fe85b379309436":[1,0,247,74],
+"d1/d7e/classXonoticServerListTab.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,247,27],
+"d1/d7e/classXonoticServerListTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,247,52],
+"d1/d7e/classXonoticServerListTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,247,30]
 };
