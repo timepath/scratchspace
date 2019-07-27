@@ -167,7 +167,6 @@ var searchData=
   ['portal_5fthink_5ftryteleportplayer',['Portal_Think_TryTeleportPlayer',['../de/de8/portals_8qc.html#a5ceb346f0a2fd166c47465cf73c6af78',1,'portals.qc']]],
   ['portal_5ftouch',['Portal_Touch',['../de/de8/portals_8qc.html#afb9c655ff00c5556b90c9b759154bace',1,'portals.qc']]],
   ['portal_5fwillhitplane',['Portal_WillHitPlane',['../de/de8/portals_8qc.html#a0ca576360dad6d1ba5c16681b25f958a',1,'portals.qc']]],
-  ['porto_5fdraw',['Porto_Draw',['../d6/dd3/view_8qc.html#a4fe9505f7e0a1f7a3179aab307ce75c2',1,'Porto_Draw(entity this):&#160;view.qc'],['../d5/d8c/view_8qh.html#a4fe9505f7e0a1f7a3179aab307ce75c2',1,'Porto_Draw(entity this):&#160;view.qc']]],
   ['positionsortbutton',['positionSortButton',['../d2/dec/classXonoticServerList.html#a44a06bcb45a11bcb45950cf46054c37f',1,'XonoticServerList']]],
   ['postinit',['PostInit',['../df/d30/client_2main_8qc.html#a46ab77a8e6731f82b57ed43c3fe5eeea',1,'PostInit():&#160;main.qc'],['../d0/d2a/client_2main_8qh.html#a46ab77a8e6731f82b57ed43c3fe5eeea',1,'PostInit():&#160;main.qc']]],
   ['postmenudraw',['postMenuDraw',['../d0/d41/menu_8qh.html#a7a28b2aedbcabdb5e69a23eaf843e669',1,'postMenuDraw():&#160;util.qc'],['../df/d9b/menu_2xonotic_2util_8qc.html#a7a28b2aedbcabdb5e69a23eaf843e669',1,'postMenuDraw():&#160;util.qc']]],
