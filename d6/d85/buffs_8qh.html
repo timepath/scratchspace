@@ -396,8 +396,8 @@ Functions</h2></td></tr>
 <p>References <a class="el" href="../../d5/d52/bits_8qh_source.html#l00008">BIT</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00019">FOREACH</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                            {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Buffs, <span class="keyword">true</span>, {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        it.m_itemid = <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(it.m_id - 1); \</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        it.m_sprite = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;buff-&quot;</span>, it.netname)); \</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        it.m_itemid = <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(it.m_id - 1);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        it.m_sprite = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;buff-&quot;</span>, it.netname));</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    });</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
@@ -423,7 +423,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_07eb8bb3d19ce8165a5aaf6eac26591d.html">buffs</a></li><li class="navelem"><a class="el" href="../../d6/d85/buffs_8qh.html">buffs.qh</a></li>
-    <li class="footer">Generated on Mon Jul 29 2019 11:16:24 for Xonotic by
+    <li class="footer">Generated on Mon Jul 29 2019 13:27:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
