@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"d9/d98/multivibrator_8qh_source.html":[2,0,1,6,3,31],
 "d9/d9a/generator_8qc.html":[2,0,1,3,0,13,8],
 "d9/d9a/generator_8qc_source.html":[2,0,1,3,0,13,8],
 "d9/d9d/tesla_8qh.html":[2,0,1,14,0,39],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "d9/dca/classXonoticCommandButton.html#a30e76204a36bc7d61d806aad8f0c5ced":[1,0,162,19],
 "d9/dca/classXonoticCommandButton.html#a326ef5bb1dd02a2667460d795c0a46df":[1,0,162,59],
 "d9/dca/classXonoticCommandButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,162,74],
-"d9/dca/classXonoticCommandButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,162,69],
-"d9/dca/classXonoticCommandButton.html#a3a740bc65a83689ad7304710ece43f5c":[1,0,162,58]
+"d9/dca/classXonoticCommandButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,162,69]
 };

@@ -282,6 +282,7 @@ var server_2autocvars_8qh =
     [ "autocvar_g_pickup_items", "d7/da7/server_2autocvars_8qh.html#a1c09a2abd5202dd36b8a4c5d5f5388ff", null ],
     [ "autocvar_g_player_alpha", "d7/da7/server_2autocvars_8qh.html#a20be313e458bbd86a82cd9f7f1486776", null ],
     [ "autocvar_g_player_brightness", "d7/da7/server_2autocvars_8qh.html#abf510a5d28b1413041f7349923fafae6", null ],
+    [ "autocvar_g_player_damageforcescale", "d7/da7/server_2autocvars_8qh.html#ad0f18e606e230071766f9c0370b6c0c0", null ],
     [ "autocvar_g_playerclip_collisions", "d7/da7/server_2autocvars_8qh.html#aacb56c8dead287cd3ae2b789a40c6e28", null ],
     [ "autocvar_g_powerups", "d7/da7/server_2autocvars_8qh.html#a776a92402884c6d5200afa82479528f3", null ],
     [ "autocvar_g_projectiles_damage", "d7/da7/server_2autocvars_8qh.html#aea5bd559848fd65ea307bcc9bed0ae8a", null ],

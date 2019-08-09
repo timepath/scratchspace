@@ -1065,6 +1065,7 @@ var searchData=
   ['autocvar_5fg_5fpinata',['autocvar_g_pinata',['../dd/def/sv__pinata_8qc.html#a607d7688ae65947dd8a32c10432a1dc1',1,'sv_pinata.qc']]],
   ['autocvar_5fg_5fplayer_5falpha',['autocvar_g_player_alpha',['../d7/da7/server_2autocvars_8qh.html#a20be313e458bbd86a82cd9f7f1486776',1,'autocvars.qh']]],
   ['autocvar_5fg_5fplayer_5fbrightness',['autocvar_g_player_brightness',['../d7/da7/server_2autocvars_8qh.html#abf510a5d28b1413041f7349923fafae6',1,'autocvars.qh']]],
+  ['autocvar_5fg_5fplayer_5fdamageforcescale',['autocvar_g_player_damageforcescale',['../d7/da7/server_2autocvars_8qh.html#ad0f18e606e230071766f9c0370b6c0c0',1,'autocvars.qh']]],
   ['autocvar_5fg_5fplayerclip_5fcollisions',['autocvar_g_playerclip_collisions',['../d7/da7/server_2autocvars_8qh.html#aacb56c8dead287cd3ae2b789a40c6e28',1,'autocvars.qh']]],
   ['autocvar_5fg_5fpowerups',['autocvar_g_powerups',['../d7/da7/server_2autocvars_8qh.html#a776a92402884c6d5200afa82479528f3',1,'autocvars.qh']]],
   ['autocvar_5fg_5fprojectiles_5fdamage',['autocvar_g_projectiles_damage',['../d7/da7/server_2autocvars_8qh.html#aea5bd559848fd65ea307bcc9bed0ae8a',1,'autocvars.qh']]],

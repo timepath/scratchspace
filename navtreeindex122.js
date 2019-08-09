@@ -1,5 +1,6 @@
 var NAVTREEINDEX122 =
 {
+"dd/de1/rules_8qh_source.html":[2,0,1,3,4],
 "dd/de3/racer_8qc.html":[2,0,1,15,0,6],
 "dd/de3/racer_8qc_source.html":[2,0,1,15,0,6],
 "dd/de4/classNexBall.html":[1,0,87],
@@ -248,6 +249,5 @@ var NAVTREEINDEX122 =
 "de/d03/effectinfo__vehicles_8inc_source.html":[2,0,1,2,19],
 "de/d09/linkedlist_8qh.html":[2,0,4,29],
 "de/d09/linkedlist_8qh.html#a08e4d23cbcd37a4f692e83dd58acf874":[2,0,4,29,7],
-"de/d09/linkedlist_8qh.html#a34653d18434b71c75519450a30851848":[2,0,4,29,4],
-"de/d09/linkedlist_8qh.html#a678dda6863e659830db0b5e6b5a0d69b":[2,0,4,29,9]
+"de/d09/linkedlist_8qh.html#a34653d18434b71c75519450a30851848":[2,0,4,29,4]
 };

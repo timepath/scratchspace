@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"de/df9/sv__items_8qh_source.html":[2,0,1,10,0,12,7],
 "de/dff/common_2gamemodes_2gamemode_2duel_2__mod_8inc.html":[2,0,1,3,0,6,0],
 "de/dff/common_2gamemodes_2gamemode_2duel_2__mod_8inc_source.html":[2,0,1,3,0,6,0],
 "df/d00/sv__rocketminsta_8qc.html":[2,0,1,10,0,29,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "df/d27/classXonoticPicker.html#a49a22c2c807939b78d2ddb9c9c5ef81b":[1,0,225,26],
 "df/d27/classXonoticPicker.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,225,8],
 "df/d27/classXonoticPicker.html#a51aef9e901b2f2d159f18a413153f87e":[1,0,225,27],
-"df/d27/classXonoticPicker.html#a5660477bb979670af07bdca696bf6f30":[1,0,225,29],
-"df/d27/classXonoticPicker.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,225,12]
+"df/d27/classXonoticPicker.html#a5660477bb979670af07bdca696bf6f30":[1,0,225,29]
 };
