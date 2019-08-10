@@ -1,9 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,174,88],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,174,8],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,174,66],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#af1aab403dc54575707fd57991312b201":[1,0,174,45],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,174,25],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,174,10],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,174,15],
@@ -249,5 +245,9 @@ var NAVTREEINDEX14 =
 "d1/dec/classInputBox.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,56,9],
 "d1/dec/classInputBox.html#a30e76204a36bc7d61d806aad8f0c5ced":[1,0,56,14],
 "d1/dec/classInputBox.html#a39b77a1923845447d837ff9f399e9aff":[1,0,56,71],
-"d1/dec/classInputBox.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,56,55]
+"d1/dec/classInputBox.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,56,55],
+"d1/dec/classInputBox.html#a3f9c5e6943891f335099fe380661b70c":[1,0,56,23],
+"d1/dec/classInputBox.html#a3fd0ed15d74f86687a6c62507f75e2af":[1,0,56,45],
+"d1/dec/classInputBox.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,56,59],
+"d1/dec/classInputBox.html#a484a6d75e4f68ccd25d82d5ab60b7aa4":[1,0,56,34]
 };

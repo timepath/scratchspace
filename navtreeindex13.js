@@ -1,9 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"d1/d9a/navigation_8qc.html#a41ae5feccac6ff531c3b366fe44df8d5":[2,0,6,0,0,9,7],
-"d1/d9a/navigation_8qc.html#a5366a30eadfa71d3b37653e469a20904":[2,0,6,0,0,9,37],
-"d1/d9a/navigation_8qc.html#a5aa6eb502121452578dc1d1f40b577c3":[2,0,6,0,0,9,35],
-"d1/d9a/navigation_8qc.html#a5ab6c794a48acbd0f4539a8e75049373":[2,0,6,0,0,9,19],
 "d1/d9a/navigation_8qc.html#a5ef356beaaf94d7aec6bdb2a28278636":[2,0,6,0,0,9,40],
 "d1/d9a/navigation_8qc.html#a6fd9d052d1e171ea3729410e8c98c218":[2,0,6,0,0,9,42],
 "d1/d9a/navigation_8qc.html#a6fdb5b75987a63f242081922770d2145":[2,0,6,0,0,9,30],
@@ -154,9 +150,9 @@ var NAVTREEINDEX13 =
 "d1/dad/server_2command_2vote_8qc.html#aa5bfb7647a9b350b92d600703b23919d":[2,0,6,1,16,38],
 "d1/dad/server_2command_2vote_8qc.html#aa87ee0e2c399505d83d290b4bef95caf":[2,0,6,1,16,24],
 "d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f":[2,0,6,1,16,15],
+"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
-"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
 "d1/dad/server_2command_2vote_8qc.html#abe4a2e3fd5c533319ea51970d72f95f7":[2,0,6,1,16,27],
 "d1/dad/server_2command_2vote_8qc.html#ac42f429ba6ba4289fa7af9310f40a0a4":[2,0,6,1,16,14],
 "d1/dad/server_2command_2vote_8qc.html#ae57d1ca4b4a65c6bd2200048fc0a5c62":[2,0,6,1,16,28],
@@ -249,5 +245,9 @@ var NAVTREEINDEX13 =
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,174,85],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,174,29],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,174,60],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,174,53]
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,174,53],
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,174,88],
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,174,8],
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,174,66],
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#af1aab403dc54575707fd57991312b201":[1,0,174,45]
 };

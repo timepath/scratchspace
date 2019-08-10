@@ -1,9 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"d2/d1c/weapons_2weapon_8qh.html#a67d15873f7aa52ab9ed55706830a4f17":[2,0,1,16,13,35],
-"d2/d1c/weapons_2weapon_8qh.html#a68c8b4f04f6cf4bd80ef078f2bea8d16":[2,0,1,16,13,12],
-"d2/d1c/weapons_2weapon_8qh.html#a6a9b42410f2d888f52a11253a2165203":[2,0,1,16,13,8],
-"d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad":[2,0,1,16,13,18],
 "d2/d1c/weapons_2weapon_8qh.html#a6c2b41636e883c42725c457730c8701c":[2,0,1,16,13,36],
 "d2/d1c/weapons_2weapon_8qh.html#a71ed1489c649f0e0d3e068e7e32aed35":[2,0,1,16,13,14],
 "d2/d1c/weapons_2weapon_8qh.html#a7444bff240ad3f518a5cc595e9bc8d15":[2,0,1,16,13,11],
@@ -249,5 +245,9 @@ var NAVTREEINDEX16 =
 "d2/d3d/classTurret.html#a3144102787442a58055180121b5e9536":[1,0,139,11],
 "d2/d3d/classTurret.html#a34980e66ed09a68af3e3fa9e204a18ca":[1,0,139,1],
 "d2/d3d/classTurret.html#a3b2dc37f35e039e9904334954cfa1938":[1,0,139,12],
-"d2/d3d/classTurret.html#a3f55a0540df468e6f0406b2907921e9a":[1,0,139,2]
+"d2/d3d/classTurret.html#a3f55a0540df468e6f0406b2907921e9a":[1,0,139,2],
+"d2/d3d/classTurret.html#a56e07d5aa23850f9cc9cd5eaa68f0880":[1,0,139,7],
+"d2/d3d/classTurret.html#a9cbd0273110d224aa83170c43e29f691":[1,0,139,9],
+"d2/d3d/classTurret.html#ab51103697656de906079b6537d3800bc":[1,0,139,8],
+"d2/d3d/classTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,139,6]
 };

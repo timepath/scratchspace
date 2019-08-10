@@ -1,9 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"de/dcb/classMageSpike.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,75,3],
-"de/dcb/classMageSpike.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,75,38],
-"de/dcb/classMageSpike.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,75,23],
-"de/dcb/classMageSpike.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,75,27],
 "de/dcb/classMageSpike.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,75,18],
 "de/dcb/vector_8qh.html":[2,0,4,65],
 "de/dcb/vector_8qh.html#a050d55163b23ec6432f867b0dbc3d12d":[2,0,4,65,9],
@@ -249,5 +245,9 @@ var NAVTREEINDEX130 =
 "de/df3/chat_8qh_source.html":[2,0,0,1,0,7],
 "de/df3/raptor__weapons_8qc.html":[2,0,1,15,0,12],
 "de/df3/raptor__weapons_8qc_source.html":[2,0,1,15,0,12],
-"de/df9/sv__items_8qh.html":[2,0,1,10,0,12,7]
+"de/df9/sv__items_8qh.html":[2,0,1,10,0,12,7],
+"de/df9/sv__items_8qh_source.html":[2,0,1,10,0,12,7],
+"de/dff/common_2gamemodes_2gamemode_2duel_2__mod_8inc.html":[2,0,1,3,0,6,0],
+"de/dff/common_2gamemodes_2gamemode_2duel_2__mod_8inc_source.html":[2,0,1,3,0,6,0],
+"df/d00/sv__rocketminsta_8qc.html":[2,0,1,10,0,29,2]
 };

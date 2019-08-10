@@ -1,9 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"df/d27/classXonoticPicker.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,225,12],
-"df/d27/classXonoticPicker.html#a6a288b5383a2af2d2c477650b1f37fe6":[1,0,225,23],
-"df/d27/classXonoticPicker.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,225,0],
-"df/d27/classXonoticPicker.html#a70f832f511ac0fb8f0519637f49ef4ee":[1,0,225,35],
 "df/d27/classXonoticPicker.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,225,6],
 "df/d27/classXonoticPicker.html#a9045c7416f25ec440214c672d0bafc0d":[1,0,225,36],
 "df/d27/classXonoticPicker.html#a96bb839275a1a00b50d13e67bcad8c25":[1,0,225,14],
@@ -249,5 +245,9 @@ var NAVTREEINDEX132 =
 "df/d44/dialog__settings__video_8qh_source.html":[2,0,5,4,157],
 "df/d49/classSound.html":[1,0,127],
 "df/d49/classSound.html#a0b93830d7c6ceb2d2787197ebad366fd":[1,0,127,2],
-"df/d49/classSound.html#a2d1ec80135b30ebeaf6b83fbc866245f":[1,0,127,1]
+"df/d49/classSound.html#a2d1ec80135b30ebeaf6b83fbc866245f":[1,0,127,1],
+"df/d49/classSound.html#a3ed2cad33866839887c319ee5c10dd67":[1,0,127,0],
+"df/d49/classSound.html#a62a0dfe148f6ebd2ecf59f872dfec298":[1,0,127,4],
+"df/d49/classSound.html#ad3474b173c3cc7d35fa96a04929d0378":[1,0,127,3],
+"df/d4a/dialog__hudpanel__chat_8qh.html":[2,0,5,4,49]
 };

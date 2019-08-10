@@ -38,7 +38,7 @@ var searchData=
   ['havocbot_5fpersonal_5fwaypoint',['havocbot_personal_waypoint',['../d8/d39/havocbot_8qh.html#a37a6f4cc58e1b06440022f0c80b8bef9',1,'havocbot.qh']]],
   ['havocbot_5fpersonal_5fwaypoint_5ffailcounter',['havocbot_personal_waypoint_failcounter',['../d8/d39/havocbot_8qh.html#aaf9e799f08b2651a36b0b53afbdf0187',1,'havocbot.qh']]],
   ['havocbot_5fpersonal_5fwaypoint_5fsearchtime',['havocbot_personal_waypoint_searchtime',['../d8/d39/havocbot_8qh.html#a31a3561a2695e620d91ce40ce2aad847',1,'havocbot.qh']]],
-  ['havocbot_5frole_5ftimeout',['havocbot_role_timeout',['../db/d15/api_8qh.html#abfcd73ce6fd8da8e5ae1e3086f0763c8',1,'havocbot_role_timeout():&#160;api.qh'],['../d8/d39/havocbot_8qh.html#abfcd73ce6fd8da8e5ae1e3086f0763c8',1,'havocbot_role_timeout():&#160;havocbot.qh'],['../db/deb/roles_8qc.html#abfcd73ce6fd8da8e5ae1e3086f0763c8',1,'havocbot_role_timeout():&#160;roles.qc']]],
+  ['havocbot_5frole_5ftimeout',['havocbot_role_timeout',['../db/d15/api_8qh.html#abfcd73ce6fd8da8e5ae1e3086f0763c8',1,'havocbot_role_timeout():&#160;api.qh'],['../d8/d39/havocbot_8qh.html#abfcd73ce6fd8da8e5ae1e3086f0763c8',1,'havocbot_role_timeout():&#160;havocbot.qh'],['../d3/d92/roles_8qh.html#abfcd73ce6fd8da8e5ae1e3086f0763c8',1,'havocbot_role_timeout():&#160;roles.qh']]],
   ['havocbot_5fstickenemy',['havocbot_stickenemy',['../d8/d39/havocbot_8qh.html#a7a99b2aba3c814bec0fdc20512734fe4',1,'havocbot.qh']]],
   ['havocbot_5fsymmetry_5faxis_5fm',['havocbot_symmetry_axis_m',['../db/d15/api_8qh.html#a489ff56f6b87888d383a87aed347a33f',1,'api.qh']]],
   ['havocbot_5fsymmetry_5faxis_5fq',['havocbot_symmetry_axis_q',['../db/d15/api_8qh.html#a398da247e048b55829c8e993789e171d',1,'api.qh']]],

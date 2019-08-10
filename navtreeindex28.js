@@ -1,10 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"d3/d71/dialog__credits_8qc.html#a4ea4520463328028f51785ada19f0259":[2,0,5,4,40,0],
-"d3/d71/dialog__credits_8qc_source.html":[2,0,5,4,40],
-"d3/d77/shotgun_8qh.html":[2,0,1,16,0,35],
-"d3/d77/shotgun_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,35,1],
-"d3/d77/shotgun_8qh.html#a51afb043612b0929d78d6e88e0576d0e":[2,0,1,16,0,35,2],
 "d3/d77/shotgun_8qh_source.html":[2,0,1,16,0,35],
 "d3/d78/classAnimHost.html":[1,0,2],
 "d3/d78/classAnimHost.html#a1138a9b635e88f56850b424f5d1860b5":[1,0,2,2],
@@ -222,6 +217,11 @@ var NAVTREEINDEX28 =
 "d3/d88/bot__null_8qc.html":[2,0,6,0,1,2],
 "d3/d88/bot__null_8qc_source.html":[2,0,6,0,1,2],
 "d3/d92/roles_8qh.html":[2,0,6,0,0,0,5],
+"d3/d92/roles_8qh.html#a1cc24935994a1db67f5eadfc5007ac5c":[2,0,6,0,0,0,5,1],
+"d3/d92/roles_8qh.html#a6cc3933347729c799694be0ec3c641fc":[2,0,6,0,0,0,5,3],
+"d3/d92/roles_8qh.html#aa064a39de365d0244bd476bd9ce85833":[2,0,6,0,0,0,5,2],
+"d3/d92/roles_8qh.html#abfcd73ce6fd8da8e5ae1e3086f0763c8":[2,0,6,0,0,0,5,4],
+"d3/d92/roles_8qh.html#acab64c2fe38b303fbe8907423b34fc04":[2,0,6,0,0,0,5,0],
 "d3/d92/roles_8qh_source.html":[2,0,6,0,0,0,5],
 "d3/d93/item_2textslider_8qh.html":[2,0,5,2,33],
 "d3/d93/item_2textslider_8qh_source.html":[2,0,5,2,33],

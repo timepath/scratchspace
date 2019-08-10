@@ -1,9 +1,5 @@
 var NAVTREEINDEX122 =
 {
-"dd/de1/rules_8qh_source.html":[2,0,1,3,4],
-"dd/de3/racer_8qc.html":[2,0,1,15,0,6],
-"dd/de3/racer_8qc_source.html":[2,0,1,15,0,6],
-"dd/de4/classNexBall.html":[1,0,87],
 "dd/de4/classNexBall.html#a05902969438e3b8f98943e7e8b5a20fb":[1,0,87,11],
 "dd/de4/classNexBall.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,87,1],
 "dd/de4/classNexBall.html#a353db82280437c3b38f0ad1934a7d666":[1,0,87,18],
@@ -249,5 +245,9 @@ var NAVTREEINDEX122 =
 "de/d03/effectinfo__vehicles_8inc_source.html":[2,0,1,2,19],
 "de/d09/linkedlist_8qh.html":[2,0,4,29],
 "de/d09/linkedlist_8qh.html#a08e4d23cbcd37a4f692e83dd58acf874":[2,0,4,29,7],
-"de/d09/linkedlist_8qh.html#a34653d18434b71c75519450a30851848":[2,0,4,29,4]
+"de/d09/linkedlist_8qh.html#a34653d18434b71c75519450a30851848":[2,0,4,29,4],
+"de/d09/linkedlist_8qh.html#a678dda6863e659830db0b5e6b5a0d69b":[2,0,4,29,9],
+"de/d09/linkedlist_8qh.html#a78187759e816c05bdc0b7b1c76462315":[2,0,4,29,13],
+"de/d09/linkedlist_8qh.html#a8044770794a35cab165d6f91dce02252":[2,0,4,29,11],
+"de/d09/linkedlist_8qh.html#a8ebf4a291e6a8614eb89e66383047bcf":[2,0,4,29,12]
 };

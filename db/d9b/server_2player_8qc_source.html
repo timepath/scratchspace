@@ -585,7 +585,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;            }</div>
 <div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;        }</div>
 <div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;            this.<a class="code" href="../../db/deb/roles_8qc.html#a4c36d9fcd24202f73d536c95f9bc634e">max_armorvalue</a> += (save + take);</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;            this.max_armorvalue += (save + take);</div>
 <div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;    }</div>
 <div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;    this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ae16641e20bc158d9d22c0e7505d5c284">dmg_save</a> = this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ae16641e20bc158d9d22c0e7505d5c284">dmg_save</a> + save;<span class="comment">//max(save - 10, 0);</span></div>
 <div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#a4c6422b59ff09abc013889b5241ecc2f">dmg_take</a> = this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#a4c6422b59ff09abc013889b5241ecc2f">dmg_take</a> + take;<span class="comment">//max(take - 10, 0);</span></div>
@@ -937,7 +937,6 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div class="ttc" id="server_2defs_8qh_html_abcc345daf13f439f825e1383675beed4"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#abcc345daf13f439f825e1383675beed4">respawn_countdown</a></div><div class="ttdeci">float respawn_countdown</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00196">defs.qh:196</a></div></div>
 <div class="ttc" id="weaponstats_8qc_html_a92da13209374adaf40062e250635050f"><div class="ttname"><a href="../../d6/d57/weaponstats_8qc.html#a92da13209374adaf40062e250635050f">WeaponStats_LogDamage</a></div><div class="ttdeci">void WeaponStats_LogDamage(float awep, float abot, float vwep, float vbot, float damage)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/weaponstats_8qc_source.html#l00101">weaponstats.qc:101</a></div></div>
 <div class="ttc" id="g__damage_8qc_html_acc99d1a4f941f72826f41d22d035dcee"><div class="ttname"><a href="../../d5/dac/g__damage_8qc.html#acc99d1a4f941f72826f41d22d035dcee">Unfreeze</a></div><div class="ttdeci">void Unfreeze(entity targ, bool reset_health)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00529">g_damage.qc:529</a></div></div>
-<div class="ttc" id="roles_8qc_html_a4c36d9fcd24202f73d536c95f9bc634e"><div class="ttname"><a href="../../db/deb/roles_8qc.html#a4c36d9fcd24202f73d536c95f9bc634e">max_armorvalue</a></div><div class="ttdeci">float max_armorvalue</div><div class="ttdef"><b>Definition:</b> <a href="../../db/deb/roles_8qc_source.html#l00016">roles.qc:16</a></div></div>
 <div class="ttc" id="accuracy_8qc_html_a8ad5119b525659cbc971123f303fa416"><div class="ttname"><a href="../../da/d68/accuracy_8qc.html#a8ad5119b525659cbc971123f303fa416">accuracy_isgooddamage</a></div><div class="ttdeci">bool accuracy_isgooddamage(entity attacker, entity targ)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d68/accuracy_8qc_source.html#l00093">accuracy.qc:93</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8f1a4afecc1d18c8149c7662c8f1addd"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a></div><div class="ttdeci">vector v_right</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">csprogsdefs.qc:31</a></div></div>
 <div class="ttc" id="animdecide_8qh_html_a39a647cf7a555aa6f998d4c451473d7a"><div class="ttname"><a href="../../d3/d42/animdecide_8qh.html#a39a647cf7a555aa6f998d4c451473d7a">anim_implicit_time</a></div><div class="ttdeci">float anim_implicit_time</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d42/animdecide_8qh_source.html#l00116">animdecide.qh:116</a></div></div>
@@ -993,7 +992,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/d9b/server_2player_8qc.html">player.qc</a></li>
-    <li class="footer">Generated on Sat Aug 10 2019 12:16:27 for Xonotic by
+    <li class="footer">Generated on Sat Aug 10 2019 14:01:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
