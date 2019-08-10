@@ -603,7 +603,7 @@ $(document).ready(function(){initNavTree('dc/dc6/server_2miscfunctions_8qc_sourc
 <div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    allow_mutatorblocked = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(3, <span class="keywordtype">bool</span>);</div>
 <div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;</div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    <span class="keywordflow">if</span>(allguns)</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;        d = <a class="code" href="../../dd/d54/bool_8qh.html#a8b6d61ae40e2024b8c201bf4f433986c">boolean</a>(weaponinfo.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#afd9eb87fc6f209d68b1ad956d3a72a74">WEP_FLAG_NORMAL</a>);</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;        d = <a class="code" href="../../dd/d54/bool_8qh.html#a8b6d61ae40e2024b8c201bf4f433986c">boolean</a>((weaponinfo.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#afd9eb87fc6f209d68b1ad956d3a72a74">WEP_FLAG_NORMAL</a>) &amp;&amp; !(weaponinfo.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818">WEP_FLAG_HIDDEN</a>));</div>
 <div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!mutator_returnvalue)</div>
 <div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;        d = !(!weaponinfo.weaponstart);</div>
 <div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;</div>
@@ -1915,7 +1915,7 @@ $(document).ready(function(){initNavTree('dc/dc6/server_2miscfunctions_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/dc6/server_2miscfunctions_8qc.html">miscfunctions.qc</a></li>
-    <li class="footer">Generated on Fri Aug 9 2019 10:31:16 for Xonotic by
+    <li class="footer">Generated on Sat Aug 10 2019 04:08:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
