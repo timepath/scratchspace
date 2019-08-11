@@ -65,5 +65,6 @@ var searchData=
   ['onslaught_5froundstart',['Onslaught_RoundStart',['../d0/de4/sv__onslaught_8qc.html#a8ff94c5e74a9a374a202b8afbd672613',1,'sv_onslaught.qc']]],
   ['onslaught_5fupdatelinks',['onslaught_updatelinks',['../d0/de4/sv__onslaught_8qc.html#a1477271959738583b926d0e754d4aada',1,'sv_onslaught.qc']]],
   ['originalcallername',['OriginalCallerName',['../d1/dad/server_2command_2vote_8qc.html#a4f3bd9f8d7a811cea72d9bcd0ab0573e',1,'vote.qc']]],
+  ['otherteam',['OtherTeam',['../d2/d24/sv__nexball_8qc.html#a1aad6ce5c9e00bb4e5b7ac068770d979',1,'sv_nexball.qc']]],
   ['over_5fclearbutton',['over_ClearButton',['../d3/dd8/item_2inputbox_8qc.html#a567d9eab0b2ab1696332207dd9c70d47',1,'inputbox.qc']]]
 ];

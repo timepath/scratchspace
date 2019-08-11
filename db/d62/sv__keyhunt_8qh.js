@@ -10,5 +10,7 @@ var sv__keyhunt_8qh =
     [ "autocvar_g_keyhunt_point_leadlimit", "db/d62/sv__keyhunt_8qh.html#ab5aa34fabae7071003592233558cc9fc", null ],
     [ "autocvar_g_keyhunt_team_spawns", "db/d62/sv__keyhunt_8qh.html#a63927129b40fcc3e1664b7cf9fb7480d", null ],
     [ "kh_next", "db/d62/sv__keyhunt_8qh.html#a0411010ca825838d10464f8da5825df9", null ],
-    [ "kh_tracking_enabled", "db/d62/sv__keyhunt_8qh.html#a55c2264ad3258574bb9112acc1453c69", null ]
+    [ "kh_tracking_enabled", "db/d62/sv__keyhunt_8qh.html#a55c2264ad3258574bb9112acc1453c69", null ],
+    [ "kh_worldkeylist", "db/d62/sv__keyhunt_8qh.html#a045a92c5195f8abf1d884beab42bc3f9", null ],
+    [ "kh_worldkeynext", "db/d62/sv__keyhunt_8qh.html#abb611131b031308c318e295ec74a375f", null ]
 ];

@@ -201,7 +201,7 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordtype">int</span> r = <a class="code" href="../../d0/ddd/lib_2stats_8qh.html#a2c651e70f251947fd915c2b9617ea4dd">STATS_ENGINE_RESERVE</a>;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, n = 256 - r; i &lt; n; ++i) {</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">            #define X(_, name, id) if (i == id) continue;</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor"></span>            <a class="code" href="../../d0/ddd/lib_2stats_8qh.html#a350dfb5b689e6b98109f6d86e13d6bcd">MAGIC_STATS</a>(<a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>, );</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor"></span>            <a class="code" href="../../d0/ddd/lib_2stats_8qh.html#a350dfb5b689e6b98109f6d86e13d6bcd">MAGIC_STATS</a>(<a class="code" href="../../df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>, );</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">            #undef X</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor"></span>            addstat(r + i, AS_INT, __stat_null);</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        }</div>
@@ -247,6 +247,7 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d0/ddd/lib_2stats_8qh.html#a37e6b8781974eef9aa60dc073ac65f27">STATIC_INIT</a>(stats_add) { stats_add(); }</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="lib_2stats_8qh_html_a67e87caf6f2a3da59d6da5c817316e2d"><div class="ttname"><a href="../../d0/ddd/lib_2stats_8qh.html#a67e87caf6f2a3da59d6da5c817316e2d">vectori</a></div><div class="ttdeci">vector vectori</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/lib_2stats_8qh_source.html#l00009">stats.qh:9</a></div></div>
+<div class="ttc" id="cl__ctf_8qc_html_a9ab1add14a5864cbf3f1f3638afed1a4"><div class="ttname"><a href="../../df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a></div><div class="ttdeci">#define X(team)</div></div>
 <div class="ttc" id="lib_2stats_8qh_html_a6ca3b5fefc64511157aedcfc7f99b9fe"><div class="ttname"><a href="../../d0/ddd/lib_2stats_8qh.html#a6ca3b5fefc64511157aedcfc7f99b9fe">MAGIC_STATS_FIX</a></div><div class="ttdeci">#define MAGIC_STATS_FIX(it)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/lib_2stats_8qh_source.html#l00025">stats.qh:25</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="registry_8qh_html_a9a50560d358790fd046b58cc5fbfd467"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a9a50560d358790fd046b58cc5fbfd467">REGISTER_REGISTRY</a></div><div class="ttdeci">#define REGISTER_REGISTRY(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00192">registry.qh:192</a></div></div>
@@ -257,7 +258,6 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div class="ttc" id="common_2scores_8qh_html_a7e1c9f8eb4ea61b96450dd9146770ac8"><div class="ttname"><a href="../../da/dc3/common_2scores_8qh.html#a7e1c9f8eb4ea61b96450dd9146770ac8">REGISTRY_CHECK</a></div><div class="ttdeci">REGISTRY_CHECK(Scores)</div></div>
 <div class="ttc" id="lib_2stats_8qh_html_a617cae1f2bfb4419ae068dc89d7f2b06"><div class="ttname"><a href="../../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06">g_magic_stats_hole</a></div><div class="ttdeci">int g_magic_stats_hole</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/lib_2stats_8qh_source.html#l00017">stats.qh:17</a></div></div>
 <div class="ttc" id="registry_8qh_html_ab210ffe7da897080a1f7f2e05f5a9cfa"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ab210ffe7da897080a1f7f2e05f5a9cfa">REGISTRY</a></div><div class="ttdeci">#define REGISTRY(id, max)</div><div class="ttdoc">Declare a new registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00023">registry.qh:23</a></div></div>
-<div class="ttc" id="modicons_8qc_html_a9ab1add14a5864cbf3f1f3638afed1a4"><div class="ttname"><a href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a></div><div class="ttdeci">#define X(team)</div></div>
 <div class="ttc" id="lib_2stats_8qh_html_a350dfb5b689e6b98109f6d86e13d6bcd"><div class="ttname"><a href="../../d0/ddd/lib_2stats_8qh.html#a350dfb5b689e6b98109f6d86e13d6bcd">MAGIC_STATS</a></div><div class="ttdeci">#define MAGIC_STATS(_, x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/lib_2stats_8qh_source.html#l00013">stats.qh:13</a></div></div>
 <div class="ttc" id="lib_2stats_8qh_html_a2c651e70f251947fd915c2b9617ea4dd"><div class="ttname"><a href="../../d0/ddd/lib_2stats_8qh.html#a2c651e70f251947fd915c2b9617ea4dd">STATS_ENGINE_RESERVE</a></div><div class="ttdeci">const int STATS_ENGINE_RESERVE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/lib_2stats_8qh_source.html#l00011">stats.qh:11</a></div></div>
 <div class="ttc" id="registry_8qh_html"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html">registry.qh</a></div></div>
@@ -270,7 +270,7 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d0/ddd/lib_2stats_8qh.html">stats.qh</a></li>
-    <li class="footer">Generated on Sun Aug 11 2019 11:45:39 for Xonotic by
+    <li class="footer">Generated on Sun Aug 11 2019 13:48:51 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -22,7 +22,5 @@ var sv__main_8qc =
     [ "cvarfilter", "d3/d4f/sv__main_8qc.html#af52ad31cde1568195e8358f65b9cb00e", null ],
     [ "game_delay_last", "d3/d4f/sv__main_8qc.html#a46b4c44b76f39f2f4e113c1476572ec0", null ],
     [ "gametypefilter", "d3/d4f/sv__main_8qc.html#a3091fb79d4fcf740c1042eb85822efe2", null ],
-    [ "lastground", "d3/d4f/sv__main_8qc.html#ab803f80764072efe357d4f09fa570bd9", null ],
-    [ "originjitter", "d3/d4f/sv__main_8qc.html#a60d945d76188ced9be00d86394a4f6be", null ],
-    [ "state", "d3/d4f/sv__main_8qc.html#a89f234133d3efe315836311cbf21c64b", null ]
+    [ "originjitter", "d3/d4f/sv__main_8qc.html#a60d945d76188ced9be00d86394a4f6be", null ]
 ];

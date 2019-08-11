@@ -46,6 +46,7 @@ var sv__keyhunt_8qc =
     [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#a3913dec8e96fffe66f01a6d876757981", null ],
     [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#a0c4b3f90846ae47f1373f5abf1e6cf11", null ],
     [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#a99489a4e3940f96c042720774c32948d", null ],
+    [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#a1f961e186e93a2e2185ceb8bdcd90d0c", null ],
     [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#a1dd11ec1fa8a05da68e873c0bf78e3cf", null ],
     [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#ace346d591bd46596d2f80f111b3ea948", null ],
     [ "nades_GiveBonus", "da/d2c/sv__keyhunt_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3", null ],
@@ -89,7 +90,6 @@ var sv__keyhunt_8qc =
     [ "kh_previous_owner", "da/d2c/sv__keyhunt_8qc.html#ad745b6494337f4b4cfddc2f2c5c7a007", null ],
     [ "kh_previous_owner_playerid", "da/d2c/sv__keyhunt_8qc.html#a453405eaf146ef48e63c4108bd3700ae", null ],
     [ "kh_teams", "da/d2c/sv__keyhunt_8qc.html#ad854fcb1e82836772a09f1203345400d", null ],
-    [ "kh_worldkeynext", "da/d2c/sv__keyhunt_8qc.html#abb611131b031308c318e295ec74a375f", null ],
     [ "siren_time", "da/d2c/sv__keyhunt_8qc.html#aa465e46bf7aed2129743d3e31e498590", null ],
     [ "ST_KH_CAPS", "da/d2c/sv__keyhunt_8qc.html#aa41aafec7dc08ba2d16e3508a7410f7c", null ],
     [ "STR_ITEM_KH_KEY", "da/d2c/sv__keyhunt_8qc.html#a42a822b2117fd619506fa333a9cf935f", null ]
