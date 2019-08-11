@@ -31,6 +31,7 @@ var sv__assault_8qc =
     [ "spawnfunc", "d7/dbb/sv__assault_8qc.html#a04e0263ea71bec2bee56db1ef877d059", null ],
     [ "spawnfunc", "d7/dbb/sv__assault_8qc.html#a5961aabd1db4d1af0897b34a7921952b", null ],
     [ "spawnfunc", "d7/dbb/sv__assault_8qc.html#a440128e6b2bc6353360efea28aca96c5", null ],
+    [ "spawnfunc", "d7/dbb/sv__assault_8qc.html#a6d92e52847e213d962c4ec83d92172d5", null ],
     [ "spawnfunc", "d7/dbb/sv__assault_8qc.html#ab07212491846c835c89e19cb57e4a185", null ],
     [ "spawnfunc", "d7/dbb/sv__assault_8qc.html#a91fddb216919cc324a92d5cb2752acd1", null ],
     [ "spawnfunc", "d7/dbb/sv__assault_8qc.html#a17058b94f05de0db468dcc36a56ed957", null ],

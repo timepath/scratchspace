@@ -154,7 +154,6 @@ var searchData=
   ['originalcallername',['OriginalCallerName',['../d1/dad/server_2command_2vote_8qc.html#a4f3bd9f8d7a811cea72d9bcd0ab0573e',1,'vote.qc']]],
   ['originjitter',['originjitter',['../d3/d4f/sv__main_8qc.html#a60d945d76188ced9be00d86394a4f6be',1,'sv_main.qc']]],
   ['other',['other',['../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296',1,'other():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296',1,'other():&#160;progsdefs.qc']]],
-  ['otherteam',['OtherTeam',['../d2/d24/sv__nexball_8qc.html#a1aad6ce5c9e00bb4e5b7ac068770d979',1,'sv_nexball.qc']]],
   ['ov_5fenabled',['ov_enabled',['../d6/dd3/view_8qc.html#a918db5c4348f2c596d32e50e1d8f228a',1,'view.qc']]],
   ['over_5fclearbutton',['over_ClearButton',['../d3/dd8/item_2inputbox_8qc.html#a567d9eab0b2ab1696332207dd9c70d47',1,'inputbox.qc']]],
   ['overkillheavymachinegun',['OverkillHeavyMachineGun',['../d2/dbe/classOverkillHeavyMachineGun.html',1,'']]],

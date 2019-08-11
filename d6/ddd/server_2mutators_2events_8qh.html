@@ -309,9 +309,6 @@ Macros</h2></td></tr>
 <tr class="memitem:abfe6e2aa4474d7f7c05e577c5c11a6d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abfe6e2aa4474d7f7c05e577c5c11a6d6">EV_LockWeapon</a>(i, o)&#160;&#160;&#160;/** player */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:abfe6e2aa4474d7f7c05e577c5c11a6d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true to lock weapon (can't be used nor changed) for a player  <a href="#abfe6e2aa4474d7f7c05e577c5c11a6d6">More...</a><br/></td></tr>
 <tr class="separator:abfe6e2aa4474d7f7c05e577c5c11a6d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf81ab19628f623f9bbe7565a91be735"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#adf81ab19628f623f9bbe7565a91be735">EV_LogDeath_AppendItemCodes</a>(i, o)</td></tr>
-<tr class="memdesc:adf81ab19628f623f9bbe7565a91be735"><td class="mdescLeft">&#160;</td><td class="mdescRight">include special item codes for a death to the game log  <a href="#adf81ab19628f623f9bbe7565a91be735">More...</a><br/></td></tr>
-<tr class="separator:adf81ab19628f623f9bbe7565a91be735"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df6d95c530e55136fdc89785b9b27fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a3df6d95c530e55136fdc89785b9b27fc">EV_MakePlayerObserver</a>(i, o)&#160;&#160;&#160;/** player */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:a3df6d95c530e55136fdc89785b9b27fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a player becomes observer, after shared setup  <a href="#a3df6d95c530e55136fdc89785b9b27fc">More...</a><br/></td></tr>
 <tr class="separator:a3df6d95c530e55136fdc89785b9b27fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -850,8 +847,6 @@ Functions</h2></td></tr>
 <tr class="separator:a3bf9d94161287f35b060055189b53fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56f225a62b68f5c2c4a83ec51f69bb41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a56f225a62b68f5c2c4a83ec51f69bb41">MUTATOR_HOOKABLE</a> (<a class="el" href="../../d8/de2/server_2client_8qh.html#a3e717ff42f4aecad0eaade0b3e32f822">GetPlayerLimit</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aa313ef7f0aaa504a1b59b97dc84f6bb7">EV_GetPlayerLimit</a>)</td></tr>
 <tr class="separator:a56f225a62b68f5c2c4a83ec51f69bb41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaea6370e044e59108b7c53a5396f5aba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aaea6370e044e59108b7c53a5396f5aba">MUTATOR_HOOKABLE</a> (LogDeath_AppendItemCodes, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#adf81ab19628f623f9bbe7565a91be735">EV_LogDeath_AppendItemCodes</a>)</td></tr>
-<tr class="separator:aaea6370e044e59108b7c53a5396f5aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -2835,39 +2830,6 @@ Variables</h2></td></tr>
 <p>return true to lock weapon (can't be used nor changed) for a player </p>
 
 <p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01092">1092</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="adf81ab19628f623f9bbe7565a91be735"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EV_LogDeath_AppendItemCodes</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">i, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">o&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">         i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \     i(<span class="keywordtype">string</span>, MUTATOR_ARGV_1_string) \</div>
-<div class="line">                      o(<span class="keywordtype">string</span>, MUTATOR_ARGV_1_string) \</div>
-<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-</div><!-- fragment -->
-<p>include special item codes for a death to the game log </p>
-
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01227">1227</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -9146,32 +9108,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aaea6370e044e59108b7c53a5396f5aba"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MUTATOR_HOOKABLE </td>
-          <td>(</td>
-          <td class="paramtype">LogDeath_AppendItemCodes&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#adf81ab19628f623f9bbe7565a91be735">EV_LogDeath_AppendItemCodes</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a2da559e70e6e6c7251e3121fc7550aa2"></a>
 <div class="memitem">
@@ -9227,7 +9163,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Sun Aug 11 2019 09:56:49 for Xonotic by
+    <li class="footer">Generated on Sun Aug 11 2019 10:05:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

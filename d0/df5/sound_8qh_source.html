@@ -225,7 +225,7 @@ $(document).ready(function(){initNavTree('d0/df5/sound_8qh_source.html','../../'
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../df/d49/classSound.html">Sound</a>, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordtype">string</span> s = <a class="code" href="../../d0/df5/sound_8qh.html#ac9b429b7924cfc7d494968e1f72b2b4d">_Sound_fixpath</a>(this.sound_str());</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">if</span> (!s) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="comment">//profile(sprintf(&quot;precache_sound(\&quot;%s\&quot;)&quot;, s));</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <a class="code" href="../../d4/d1a/static_8qh.html#a48a305b3b9baa8868a26fd3dc4daa51f">profile</a>(sprintf(<span class="stringliteral">&quot;precache_sound(\&quot;%s\&quot;)&quot;</span>, s));</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a>(s);</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <a class="code" href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a>(this.sound_str_, s);</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
@@ -249,6 +249,7 @@ $(document).ready(function(){initNavTree('d0/df5/sound_8qh_source.html','../../'
 <div class="ttc" id="sound_8qh_html_a1b8e3f23d9c455ca03342b3f25ea5032"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a1b8e3f23d9c455ca03342b3f25ea5032">CH_PAIN</a></div><div class="ttdeci">const int CH_PAIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00018">sound.qh:18</a></div></div>
 <div class="ttc" id="oo_8qh_html_a4627693b652f553ef276c99d9d3d9b3b"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a4627693b652f553ef276c99d9d3d9b3b">CLASS</a></div><div class="ttdeci">CLASS(Object) Object</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00324">oo.qh:324</a></div></div>
 <div class="ttc" id="sound_8qh_html_a9c121ae2d91646839cf3dcc25118ced0"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a9c121ae2d91646839cf3dcc25118ced0">ATTEN_MIN</a></div><div class="ttdeci">const float ATTEN_MIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00028">sound.qh:28</a></div></div>
+<div class="ttc" id="static_8qh_html_a48a305b3b9baa8868a26fd3dc4daa51f"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a48a305b3b9baa8868a26fd3dc4daa51f">profile</a></div><div class="ttdeci">ERASEABLE void profile(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00011">static.qh:11</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="sound_8qh_html_aa00190ab7f73439edff33680b94eaacb"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa00190ab7f73439edff33680b94eaacb">ATTEN_NONE</a></div><div class="ttdeci">const float ATTEN_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00027">sound.qh:27</a></div></div>
 <div class="ttc" id="sound_8qh_html_ad2a1791190709a5980e416c9c63d29de"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#ad2a1791190709a5980e416c9c63d29de">CH_BGM_SINGLE</a></div><div class="ttdeci">const int CH_BGM_SINGLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00023">sound.qh:23</a></div></div>
@@ -293,7 +294,7 @@ $(document).ready(function(){initNavTree('d0/df5/sound_8qh_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_d3b239bf2277a27bae01166a36b5b35f.html">sounds</a></li><li class="navelem"><a class="el" href="../../d0/df5/sound_8qh.html">sound.qh</a></li>
-    <li class="footer">Generated on Sun Aug 11 2019 09:56:45 for Xonotic by
+    <li class="footer">Generated on Sun Aug 11 2019 10:05:36 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
