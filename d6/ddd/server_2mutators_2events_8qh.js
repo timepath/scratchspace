@@ -63,7 +63,6 @@ var server_2mutators_2events_8qh =
     [ "EV_ItemTouch", "d6/ddd/server_2mutators_2events_8qh.html#ae6c76edb2d2671943f0f0c67444302de", null ],
     [ "EV_ItemTouched", "d6/ddd/server_2mutators_2events_8qh.html#a5667cdc3ce5325ca57f7e7c31850fb8d", null ],
     [ "EV_LockWeapon", "d6/ddd/server_2mutators_2events_8qh.html#abfe6e2aa4474d7f7c05e577c5c11a6d6", null ],
-    [ "EV_LogDeath_AppendItemCodes", "d6/ddd/server_2mutators_2events_8qh.html#adf81ab19628f623f9bbe7565a91be735", null ],
     [ "EV_MakePlayerObserver", "d6/ddd/server_2mutators_2events_8qh.html#a3df6d95c530e55136fdc89785b9b27fc", null ],
     [ "EV_MonsterCheckBossFlag", "d6/ddd/server_2mutators_2events_8qh.html#ab8916611edc67df5a5acc5c2f6bedec5", null ],
     [ "EV_MonsterDies", "d6/ddd/server_2mutators_2events_8qh.html#a61e3c584f71e02f34f6ab9197444db97", null ],
@@ -301,7 +300,6 @@ var server_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#acd9ae456e69800d216f8eb97ceee5cc8", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a3bf9d94161287f35b060055189b53fe3", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a56f225a62b68f5c2c4a83ec51f69bb41", null ],
-    [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#aaea6370e044e59108b7c53a5396f5aba", null ],
     [ "get_cvars_f", "d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2", null ],
     [ "get_cvars_s", "d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f", null ],
     [ "monster_loot", "d6/ddd/server_2mutators_2events_8qh.html#a3b05b0b07f8bfac621be16b7588af844", null ]

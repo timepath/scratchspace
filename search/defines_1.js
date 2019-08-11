@@ -92,7 +92,6 @@ var searchData=
   ['autocvar_5fg_5fmaplist_5fvotable',['autocvar_g_maplist_votable',['../d7/da7/server_2autocvars_8qh.html#a127fbeaa943ada40eb9bcbc3aa2b3a58',1,'autocvars.qh']]],
   ['autocvar_5fg_5fmirrordamage',['autocvar_g_mirrordamage',['../d7/da7/server_2autocvars_8qh.html#aa9bb7e6add74bf568efce2e3b789e169',1,'autocvars.qh']]],
   ['autocvar_5fg_5fmirrordamage_5fvirtual',['autocvar_g_mirrordamage_virtual',['../d7/da7/server_2autocvars_8qh.html#a4f3c41dbd7d4f2075dfde4bdaac1e432',1,'autocvars.qh']]],
-  ['autocvar_5fg_5fnexball_5fgoallimit',['autocvar_g_nexball_goallimit',['../d2/d24/sv__nexball_8qc.html#aa8560ed0f0684b02a3c9e48a42ac06f1',1,'sv_nexball.qc']]],
   ['autocvar_5fg_5frace_5flaps_5flimit',['autocvar_g_race_laps_limit',['../db/dec/sv__race_8qc.html#a5e1cad53c7dcf45d9a6bb29274699f72',1,'sv_race.qc']]],
   ['autocvar_5fg_5fweapon_5fstay',['autocvar_g_weapon_stay',['../d7/da7/server_2autocvars_8qh.html#a380d40d35f43be0054f545474db8e0dc',1,'autocvars.qh']]],
   ['autocvar_5fg_5fweaponarena',['autocvar_g_weaponarena',['../d7/da7/server_2autocvars_8qh.html#ab5c9f9cd0ac7c5284b5afcf1deb24723',1,'autocvars.qh']]],

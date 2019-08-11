@@ -1,9 +1,9 @@
 var searchData=
 [
   ['yaw_5fspeed',['yaw_speed',['../d6/d11/progsdefs_8qc.html#a6e3ccdfe76e71ca7c0a9a339bb768d3a',1,'progsdefs.qc']]],
-  ['yellowflag_5fprevframe',['yellowflag_prevframe',['../df/d41/cl__ctf_8qc.html#a9fba4055eb7a12732e45c9864109ce0a',1,'cl_ctf.qc']]],
-  ['yellowflag_5fprevstatus',['yellowflag_prevstatus',['../df/d41/cl__ctf_8qc.html#abb4b022156f7d6a6605893e79d3de30a',1,'cl_ctf.qc']]],
-  ['yellowflag_5fstatuschange_5ftime',['yellowflag_statuschange_time',['../df/d41/cl__ctf_8qc.html#aeecd993d717869f49fbb751b95237e8b',1,'cl_ctf.qc']]],
+  ['yellowflag_5fprevframe',['yellowflag_prevframe',['../dd/d59/modicons_8qc.html#a9fba4055eb7a12732e45c9864109ce0a',1,'modicons.qc']]],
+  ['yellowflag_5fprevstatus',['yellowflag_prevstatus',['../dd/d59/modicons_8qc.html#abb4b022156f7d6a6605893e79d3de30a',1,'modicons.qc']]],
+  ['yellowflag_5fstatuschange_5ftime',['yellowflag_statuschange_time',['../dd/d59/modicons_8qc.html#aeecd993d717869f49fbb751b95237e8b',1,'modicons.qc']]],
   ['yesvalue',['yesValue',['../de/d42/classXonoticCheckBox.html#a9e1f7bf3a25745cda8ff61979486d3db',1,'XonoticCheckBox']]],
   ['ymax',['ymax',['../dd/d1a/client_2mapvoting_8qh.html#acee1a082369857c7ee64924a0d9bc706',1,'mapvoting.qh']]],
   ['ymin',['ymin',['../dd/d1a/client_2mapvoting_8qh.html#a5c6190dc7aa1bd7aafb9592a64f7046d',1,'mapvoting.qh']]],
