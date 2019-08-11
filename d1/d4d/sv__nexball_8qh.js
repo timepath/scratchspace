@@ -1,0 +1,28 @@
+var sv__nexball_8qh =
+[
+    [ "DropBall", "d1/d4d/sv__nexball_8qh.html#ad4da5744e99d205ee0a2588628e653ed", null ],
+    [ "autocvar_g_nexball_basketball_delay_hold", "d1/d4d/sv__nexball_8qh.html#af352096d367a69bbd278f0e3176f2805", null ],
+    [ "autocvar_g_nexball_basketball_delay_hold_forteam", "d1/d4d/sv__nexball_8qh.html#a9faf7fe6f9942025e011be17b263484d", null ],
+    [ "autocvar_g_nexball_basketball_effects_default", "d1/d4d/sv__nexball_8qh.html#a2ac2108f95a483639d5451c6096633ee", null ],
+    [ "autocvar_g_nexball_basketball_teamsteal", "d1/d4d/sv__nexball_8qh.html#a1ca10ce0d7643d83e74c88d77d2dcee0", null ],
+    [ "autocvar_g_nexball_delay_idle", "d1/d4d/sv__nexball_8qh.html#a35e3e937f8c94d84cf41860d7c07c4d4", null ],
+    [ "autocvar_g_nexball_football_boost_forward", "d1/d4d/sv__nexball_8qh.html#abae3710d29357655573c7195a7351d7d", null ],
+    [ "autocvar_g_nexball_football_boost_up", "d1/d4d/sv__nexball_8qh.html#ac67a95f3fc947df673a7e764806cf1b6", null ],
+    [ "autocvar_g_nexball_football_physics", "d1/d4d/sv__nexball_8qh.html#a9f2779307f2624c8711e31682a560c7b", null ],
+    [ "autocvar_g_nexball_meter_period", "d1/d4d/sv__nexball_8qh.html#a7151969fa7aad5d0d801bd2b14763d69", null ],
+    [ "BALL_ATTACHORG", "d1/d4d/sv__nexball_8qh.html#a598e16a236f5f8c2d9e77ae84f1e78f2", null ],
+    [ "BALL_BASKET", "d1/d4d/sv__nexball_8qh.html#a46142d0828d6bfd73fdca7d129967bf2", null ],
+    [ "BALL_EFFECTMASK", "d1/d4d/sv__nexball_8qh.html#afd0e2a1f26daf1ced2c13050260c1414", null ],
+    [ "BALL_FOOT", "d1/d4d/sv__nexball_8qh.html#a6588de10abc6d14d895dfe02f24181c6", null ],
+    [ "BALL_MAXS", "d1/d4d/sv__nexball_8qh.html#a24a1bfba220c4ca1101fdfec084231c1", null ],
+    [ "BALL_MINS", "d1/d4d/sv__nexball_8qh.html#aea259f2ac618fc619f938e92a6692015", null ],
+    [ "ball_scale", "d1/d4d/sv__nexball_8qh.html#a1795529d3a33e434fd54cd39ff16d82f", null ],
+    [ "balls", "d1/d4d/sv__nexball_8qh.html#a58485f2e77907cb64ae6e89f74feb093", null ],
+    [ "GOAL_FAULT", "d1/d4d/sv__nexball_8qh.html#abaaa8a5426582a3a5afcbea39c289bae", null ],
+    [ "GOAL_OUT", "d1/d4d/sv__nexball_8qh.html#a78d132e1cdda747a43c46f141291561e", null ],
+    [ "GOAL_TOUCHPLAYER", "d1/d4d/sv__nexball_8qh.html#ae2d8e37817ad0c910ce30061c9a46f7f", null ],
+    [ "nb_dropper", "d1/d4d/sv__nexball_8qh.html#aad8f9174be5a8b223fd1ec68fbc35c77", null ],
+    [ "nb_droptime", "d1/d4d/sv__nexball_8qh.html#ae6aa1cfd6cadadb8a12575e89d6276cd", null ],
+    [ "nb_teams", "d1/d4d/sv__nexball_8qh.html#a3312dd328360a2f85e8a39a07af66e34", null ],
+    [ "teamtime", "d1/d4d/sv__nexball_8qh.html#adb9caae13a59cc2c0cd5fa0572b27182", null ]
+];

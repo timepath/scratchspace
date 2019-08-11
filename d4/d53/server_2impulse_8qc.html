@@ -1211,15 +1211,15 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00508">508</a> of file <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html">impulse.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">trace_endpos</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00075">WarpZone_crosshair_trace()</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">trace_endpos</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00049">WarpZone_crosshair_trace_plusvisibletriggers()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;{</div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ae60e63a20482389086630191d5d8d336">WarpZone_crosshair_trace</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a99b1922d2166b931b0626b1721e19a6e">WarpZone_crosshair_trace_plusvisibletriggers</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> wp = WaypointSprite_DeployFixed(WP_Here, <span class="keyword">false</span>, <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>, RADARICON_HERE);</div>
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <span class="keywordflow">if</span> (wp) WaypointSprite_Ping(wp);</div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;HERE spawned at crosshair\n&quot;</span>);</div>
 <div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;}</div>
-<div class="ttc" id="server_2miscfunctions_8qc_html_ae60e63a20482389086630191d5d8d336"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#ae60e63a20482389086630191d5d8d336">WarpZone_crosshair_trace</a></div><div class="ttdeci">void WarpZone_crosshair_trace(entity pl)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00075">miscfunctions.qc:75</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="server_2miscfunctions_8qc_html_a99b1922d2166b931b0626b1721e19a6e"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a99b1922d2166b931b0626b1721e19a6e">WarpZone_crosshair_trace_plusvisibletriggers</a></div><div class="ttdeci">void WarpZone_crosshair_trace_plusvisibletriggers(entity pl)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00049">miscfunctions.qc:49</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a93c78c5087546131c4eefb9b2d733adf"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a></div><div class="ttdeci">vector trace_endpos</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">csprogsdefs.qc:37</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a4ae54ed78d55acc008e6fcf8c72e779f"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a></div><div class="ttdeci">void sprint(float clientnum, string text,...)</div></div>
 </div><!-- fragment -->
@@ -1228,7 +1228,7 @@ Variables</h2></td></tr>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-17-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/d53/server_2impulse_8qc_a84bc0ed6f0e173306c02ca9a8f5491e6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/d53/server_2impulse_8qc_a84bc0ed6f0e173306c02ca9a8f5491e6_cgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -1407,7 +1407,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00547">547</a> of file <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html">impulse.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00526">autocvar_g_allow_checkpoints</a>, <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00196">ClientKill()</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00213">g_cts</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00183">g_race</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00332">personal</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint()</a>.</p>
+<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00526">autocvar_g_allow_checkpoints</a>, <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00196">ClientKill()</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00213">g_cts</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00183">g_race</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00327">personal</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;{</div>
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    WaypointSprite_ClearPersonal(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#ac6de0e82388dab2d51aafcd02f005121">personal</a>)</div>
@@ -1425,7 +1425,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="clientkill_8qc_html_ad4e6ef235cc1911ad7654ecd808ff4c1"><div class="ttname"><a href="../../dc/d55/clientkill_8qc.html#ad4e6ef235cc1911ad7654ecd808ff4c1">ClientKill</a></div><div class="ttdeci">void ClientKill(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d55/clientkill_8qc_source.html#l00196">clientkill.qc:196</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html_a169002dfc8d1b07462cb4117bca41790"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790">g_race</a></div><div class="ttdeci">#define g_race</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00183">mapinfo.qh:183</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_ac6de0e82388dab2d51aafcd02f005121"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ac6de0e82388dab2d51aafcd02f005121">personal</a></div><div class="ttdeci">entity personal</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00332">defs.qh:332</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_ac6de0e82388dab2d51aafcd02f005121"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ac6de0e82388dab2d51aafcd02f005121">personal</a></div><div class="ttdeci">entity personal</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00327">defs.qh:327</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a4ae54ed78d55acc008e6fcf8c72e779f"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a></div><div class="ttdeci">void sprint(float clientnum, string text,...)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1456,7 +1456,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00561">561</a> of file <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html">impulse.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00526">autocvar_g_allow_checkpoints</a>, <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00196">ClientKill()</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00213">g_cts</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00183">g_race</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00332">personal</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint()</a>.</p>
+<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00526">autocvar_g_allow_checkpoints</a>, <a class="el" href="../../dc/d55/clientkill_8qc_source.html#l00196">ClientKill()</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00213">g_cts</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00183">g_race</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00327">personal</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;{</div>
 <div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;    WaypointSprite_ClearOwned(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#ac6de0e82388dab2d51aafcd02f005121">personal</a>)</div>
@@ -1473,7 +1473,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="clientkill_8qc_html_ad4e6ef235cc1911ad7654ecd808ff4c1"><div class="ttname"><a href="../../dc/d55/clientkill_8qc.html#ad4e6ef235cc1911ad7654ecd808ff4c1">ClientKill</a></div><div class="ttdeci">void ClientKill(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d55/clientkill_8qc_source.html#l00196">clientkill.qc:196</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html_a169002dfc8d1b07462cb4117bca41790"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790">g_race</a></div><div class="ttdeci">#define g_race</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00183">mapinfo.qh:183</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_ac6de0e82388dab2d51aafcd02f005121"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ac6de0e82388dab2d51aafcd02f005121">personal</a></div><div class="ttdeci">entity personal</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00332">defs.qh:332</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_ac6de0e82388dab2d51aafcd02f005121"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ac6de0e82388dab2d51aafcd02f005121">personal</a></div><div class="ttdeci">entity personal</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00327">defs.qh:327</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a4ae54ed78d55acc008e6fcf8c72e779f"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a></div><div class="ttdeci">void sprint(float clientnum, string text,...)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2162,7 +2162,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d4/d53/server_2impulse_8qc.html">impulse.qc</a></li>
-    <li class="footer">Generated on Sat Aug 10 2019 14:01:50 for Xonotic by
+    <li class="footer">Generated on Sun Aug 11 2019 09:56:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

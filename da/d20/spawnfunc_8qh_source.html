@@ -153,14 +153,14 @@ $(document).ready(function(){initNavTree('da/d20/spawnfunc_8qh_source.html','../
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">        </span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">    #define X(T, fld, def) .T fld, __spawnfunc_##fld;</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"></span>    SPAWNFUNC_INTERNAL_FIELDS(<a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>)</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"></span>    SPAWNFUNC_INTERNAL_FIELDS(<a class="code" href="../../df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>)</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="preprocessor">#undef X</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> __spawnfunc_defer(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> prototype, <span class="keywordtype">void</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>) constructor)</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a>(g_spawn_queue, prototype);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">        #define X(T, fld, def) { prototype.__spawnfunc_##fld = prototype.fld; prototype.fld = def; }</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor"></span>        SPAWNFUNC_INTERNAL_FIELDS(<a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor"></span>        SPAWNFUNC_INTERNAL_FIELDS(<a class="code" href="../../df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">        #undef X</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span>        prototype.__spawnfunc_constructor = constructor;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
@@ -179,7 +179,7 @@ $(document).ready(function(){initNavTree('da/d20/spawnfunc_8qh_source.html','../
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity</a>(prototype, e);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556">IL_PUSH</a>(g_map_entities, e);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">        #define X(T, fld, def) { e.fld = e.__spawnfunc_##fld; e.__spawnfunc_##fld = def; }</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor"></span>        SPAWNFUNC_INTERNAL_FIELDS(<a class="code" href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor"></span>        SPAWNFUNC_INTERNAL_FIELDS(<a class="code" href="../../df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a>);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">        #undef X</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef SVQC</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor"></span>        _SV_OnEntityPreSpawnFunction(e);</div>
@@ -392,6 +392,7 @@ $(document).ready(function(){initNavTree('da/d20/spawnfunc_8qh_source.html','../
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor">    void __spawnfunc_##id(entity this)</span></div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="cl__ctf_8qc_html_a9ab1add14a5864cbf3f1f3638afed1a4"><div class="ttname"><a href="../../df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a></div><div class="ttdeci">#define X(team)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a1196d544e0b4dbb479f05cc4c6cc5516"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity</a></div><div class="ttdeci">void copyentity(entity src, entity dst)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="classIntrusiveList_html"><div class="ttname"><a href="../../d1/d74/classIntrusiveList.html">IntrusiveList</a></div><div class="ttdoc">limitations: NULL cannot be present elements can only be present once a maximum of IL_MAX lists can e...</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00021">intrusivelist.qh:21</a></div></div>
@@ -403,14 +404,13 @@ $(document).ready(function(){initNavTree('da/d20/spawnfunc_8qh_source.html','../
 <div class="ttc" id="pre_8qh_html_a0c5e59a7caaa02f887d077eaa467f209"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a></div><div class="ttdeci">#define error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00006">pre.qh:6</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a76f1dbe7f80fe108efcb854a887987ed"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a76f1dbe7f80fe108efcb854a887987ed">FIELD_STRING</a></div><div class="ttdeci">float FIELD_STRING</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01413">csprogsdefs.qc:1413</a></div></div>
 <div class="ttc" id="self_8qh_html_ac6e5c7e9cf195be4b7295953f6e59113"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a></div><div class="ttdeci">entity this</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00083">self.qh:83</a></div></div>
-<div class="ttc" id="modicons_8qc_html_a9ab1add14a5864cbf3f1f3638afed1a4"><div class="ttname"><a href="../../dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4">X</a></div><div class="ttdeci">#define X(team)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../da/d20/spawnfunc_8qh.html">spawnfunc.qh</a></li>
-    <li class="footer">Generated on Sat Aug 10 2019 14:01:44 for Xonotic by
+    <li class="footer">Generated on Sun Aug 11 2019 09:56:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
