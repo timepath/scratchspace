@@ -208,6 +208,7 @@ var searchData=
   ['bot_5fweapons_5ffar',['bot_weapons_far',['../db/d15/api_8qh.html#a52606451f4e3182f48937fafcf3d2142',1,'api.qh']]],
   ['bot_5fweapons_5fmid',['bot_weapons_mid',['../db/d15/api_8qh.html#a07cae87e1e2224dbffc8847e445d2c1e',1,'api.qh']]],
   ['bot_5fweaponskill',['bot_weaponskill',['../d1/da9/bot_8qh.html#a399a310a4a26584b59f3ef40127b97af',1,'bot.qh']]],
+  ['botframe_5fautowaypoints_5flastwp0',['botframe_autowaypoints_lastwp0',['../d7/dc4/waypoints_8qc.html#ad5ffadcf9a495cd46837874dfbda3674',1,'waypoints.qc']]],
   ['botframe_5fautowaypoints_5flastwp1',['botframe_autowaypoints_lastwp1',['../d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866',1,'waypoints.qc']]],
   ['botframe_5fcachedwaypointlinks',['botframe_cachedwaypointlinks',['../d1/d2a/waypoints_8qh.html#a3cdf59b59842bdac03ad7f6403c5364f',1,'waypoints.qh']]],
   ['botframe_5floadedforcedlinks',['botframe_loadedforcedlinks',['../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7',1,'waypoints.qh']]],

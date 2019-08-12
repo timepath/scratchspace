@@ -143,10 +143,10 @@ $(document).ready(function(){initNavTree('dd/df2/wepent_8qc_source.html','../../
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">    \</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">    PROP(false, porto_v_angle_held, WEPENT_SET_NORMAL, \</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">    { WriteByte(chan, this.porto_v_angle_held); if(this.porto_v_angle_held) { \</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">         WriteAngle(chan, this.owner.porto_v_angle.x); WriteAngle(chan, this.owner.porto_v_angle.y); \</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">         WriteAngle(chan, this.porto_v_angle.x); WriteAngle(chan, this.porto_v_angle.y); \</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">        } }, \</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">    { (viewmodels[this.m_wepent_slot]).angles_held_status = ReadByte(); if((viewmodels[this.m_wepent_slot]).angles_held_status) { \</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">        (viewmodels[this.m_wepent_slot]).angles_held = vec2(ReadAngle(), ReadAngle()); } \</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">        (viewmodels[this.m_wepent_slot]).angles_held_x = ReadAngle(); (viewmodels[this.m_wepent_slot]).angles_held_y = ReadAngle(); (viewmodels[this.m_wepent_slot]).angles_held_z = 0; } \</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">        else { (viewmodels[this.m_wepent_slot]).angles_held = &#39;0 0 0&#39;; } }) \</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">    \</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">    PROP(false, tuba_instrument, WEPENT_SET_NORMAL, \</span></div>
@@ -307,7 +307,7 @@ $(document).ready(function(){initNavTree('dd/df2/wepent_8qc_source.html','../../
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="wepent_8qc_html_a54b06206debb9dc5335e2b341194e156"><div class="ttname"><a href="../../dd/df2/wepent_8qc.html#a54b06206debb9dc5335e2b341194e156">WEPENT_NETPROPS</a></div><div class="ttdeci">#define WEPENT_NETPROPS(PROP)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df2/wepent_8qc_source.html#l00008">wepent.qc:8</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abd23315350cd01304b6bd77c4c5c07e6"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a></div><div class="ttdeci">void WriteByte(float data, float dest, float desto)</div></div>
-<div class="ttc" id="view_8qh_html_ae4043ba4831a9d580ebfc05793928b53"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#ae4043ba4831a9d580ebfc05793928b53">viewmodels</a></div><div class="ttdeci">entity viewmodels[MAX_WEAPONSLOTS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00013">view.qh:13</a></div></div>
+<div class="ttc" id="view_8qh_html_ae4043ba4831a9d580ebfc05793928b53"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#ae4043ba4831a9d580ebfc05793928b53">viewmodels</a></div><div class="ttdeci">entity viewmodels[MAX_WEAPONSLOTS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00015">view.qh:15</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="lib_2net_8qh_html_a2c87ee9a4aa12245bb6e80f321975ded"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a></div><div class="ttdeci">#define NET_HANDLE(id, param)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00012">net.qh:12</a></div></div>
 <div class="ttc" id="static_8qh_html_a8adce259cbe13be1381a0d1872b690c2"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a8adce259cbe13be1381a0d1872b690c2">STATIC_INIT</a></div><div class="ttdeci">#define STATIC_INIT(func)</div><div class="ttdoc">during worldspawn </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00032">static.qh:32</a></div></div>
@@ -329,7 +329,7 @@ $(document).ready(function(){initNavTree('dd/df2/wepent_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dd/df2/wepent_8qc.html">wepent.qc</a></li>
-    <li class="footer">Generated on Mon Aug 12 2019 10:41:16 for Xonotic by
+    <li class="footer">Generated on Mon Aug 12 2019 10:53:23 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,7 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"d4/d56/classHunterKillerAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,54,30],
-"d4/d56/classHunterKillerAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,54,5],
 "d4/d56/classHunterKillerAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,54,7],
 "d4/d56/classHunterKillerAttack.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,54,25],
 "d4/d56/classHunterKillerAttack.html#aa0a5f1de6ba7228907295012902a136a":[1,0,54,32],
@@ -249,5 +247,7 @@ var NAVTREEINDEX39 =
 "d4/d7e/expandnode_8qh.html":[2,0,6,4,7],
 "d4/d7e/expandnode_8qh_source.html":[2,0,6,4,7],
 "d4/d81/common_2deathtypes_2__mod_8inc.html":[2,0,1,1,0],
-"d4/d81/common_2deathtypes_2__mod_8inc_source.html":[2,0,1,1,0]
+"d4/d81/common_2deathtypes_2__mod_8inc_source.html":[2,0,1,1,0],
+"d4/d84/xonotic_2inputbox_8qh.html":[2,0,5,4,173],
+"d4/d84/xonotic_2inputbox_8qh.html#a4b256dfcaadd15bcc116e8ac58e06c23":[2,0,5,4,173,2]
 };

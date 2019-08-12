@@ -721,91 +721,86 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;    {</div>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;activate&quot;</span>:</div>
 <div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;deactivate&quot;</span>:</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        {</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;            <a class="code" href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a>(minigame.message);</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;        }</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;key_pressed&quot;</span>:</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;            <span class="keywordflow">switch</span> ( ...(0,<span class="keywordtype">int</span>) )</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;            {</div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2">K_UPARROW</a>:</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a57ebf01258da3313cffa73c0d51d462f">K_KP_UPARROW</a>:</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a8d480915019f20bd0ccf39ccde1d16a3">K_LEFTARROW</a>:</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a74257d5c4efdfa386e8c09a7353d112c">K_KP_LEFTARROW</a>:</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;                    <span class="comment">//minigame_cmd(&quot;+moved&quot;);</span></div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;                    pong_keys_pressed |= <a class="code" href="../../d7/de3/pong_8qc.html#ae2a56ee364ec402a021031f4567d1d12">PONG_KEY_DECREASE</a>;</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a315e227218f29accc4cd092b941cafaa">K_DOWNARROW</a>:</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a87a896b1715cbb9e686fdf31c8162eed">K_KP_DOWNARROW</a>:</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a403b2744d5225398d9265452c17f2fc4">K_RIGHTARROW</a>:</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a0dba53b3a8039bb806db85ad78ff014d">K_KP_RIGHTARROW</a>:</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;                    <span class="comment">//minigame_cmd(&quot;+movei&quot;);</span></div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;                    pong_keys_pressed |= <a class="code" href="../../d7/de3/pong_8qc.html#a3e201037dda61f41363f87518dd57f9c">PONG_KEY_INCREASE</a>;</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;            }</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;key_released&quot;</span>:</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;            <span class="keywordflow">switch</span> ( ...(0,<span class="keywordtype">int</span>) )</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;            {</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2">K_UPARROW</a>:</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a57ebf01258da3313cffa73c0d51d462f">K_KP_UPARROW</a>:</div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a8d480915019f20bd0ccf39ccde1d16a3">K_LEFTARROW</a>:</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a74257d5c4efdfa386e8c09a7353d112c">K_KP_LEFTARROW</a>:</div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;                    <span class="comment">//minigame_cmd(&quot;-moved&quot;);</span></div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;                    pong_keys_pressed &amp;= ~PONG_KEY_DECREASE;</div>
-<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a315e227218f29accc4cd092b941cafaa">K_DOWNARROW</a>:</div>
-<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a87a896b1715cbb9e686fdf31c8162eed">K_KP_DOWNARROW</a>:</div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a403b2744d5225398d9265452c17f2fc4">K_RIGHTARROW</a>:</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a0dba53b3a8039bb806db85ad78ff014d">K_KP_RIGHTARROW</a>:</div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;                    <span class="comment">//minigame_cmd(&quot;-movei&quot;);</span></div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;                    pong_keys_pressed &amp;= ~PONG_KEY_INCREASE;</div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;            }</div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;network_receive&quot;</span>:</div>
-<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;        {</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> sent = ...(0,<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;            <span class="keywordtype">int</span> sf = ...(1,<a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">int</a>);</div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;            <span class="keywordflow">if</span> ( sent.classname == <span class="stringliteral">&quot;minigame_player&quot;</span> &amp;&amp; (sf &amp; PONG_SF_PLAYERSCORE ) )</div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;            {</div>
-<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;                sent.pong_score = ReadLong();</div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;            }</div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( sent.classname == <span class="stringliteral">&quot;minigame&quot;</span> )</div>
-<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;            {</div>
-<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;                <span class="keywordflow">if</span> ( sf &amp; <a class="code" href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a> )</div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;                {</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;                    <a class="code" href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a>(sent.message, pong_message(sent.minigame_flags));</div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;                }</div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;            }</div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;        }</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;menu_show&quot;</span>:</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;        {</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;            <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#a5ed0885dbacdb80553f2f4ac8b9e456d">HUD_MinigameMenu_CustomEntry</a>(...(0,<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>),_(<span class="stringliteral">&quot;Start Match&quot;</span>),<span class="stringliteral">&quot;pong_throw&quot;</span>);</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;            <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#a5ed0885dbacdb80553f2f4ac8b9e456d">HUD_MinigameMenu_CustomEntry</a>(...(0,<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>),_(<span class="stringliteral">&quot;Add AI player&quot;</span>),<span class="stringliteral">&quot;pong_aimore&quot;</span>);</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;            <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#a5ed0885dbacdb80553f2f4ac8b9e456d">HUD_MinigameMenu_CustomEntry</a>(...(0,<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>),_(<span class="stringliteral">&quot;Remove AI player&quot;</span>),<span class="stringliteral">&quot;pong_ailess&quot;</span>);</div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;        }</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;menu_click&quot;</span>:</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;        {</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;            <span class="keywordtype">string</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#a977f9318008de123876b168dfa86ad22">cmd</a> = ...(0,<a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">string</a>);</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;            <span class="keywordflow">if</span>( cmd == <span class="stringliteral">&quot;pong_throw&quot;</span> &amp;&amp; minigame.minigame_flags &amp; PONG_STATUS_WAIT )</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;            {</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;                <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a>(<span class="stringliteral">&quot;throw&quot;</span>);</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;            }</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( cmd == <span class="stringliteral">&quot;pong_aimore&quot;</span> || cmd == <span class="stringliteral">&quot;pong_ailess&quot;</span> )</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;            {</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;                <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a>(cmd);</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;            }</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;        }</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    }</div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;}</div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;key_pressed&quot;</span>:</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;            <span class="keywordflow">switch</span> ( ...(0,<span class="keywordtype">int</span>) )</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;            {</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2">K_UPARROW</a>:</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a57ebf01258da3313cffa73c0d51d462f">K_KP_UPARROW</a>:</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a8d480915019f20bd0ccf39ccde1d16a3">K_LEFTARROW</a>:</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a74257d5c4efdfa386e8c09a7353d112c">K_KP_LEFTARROW</a>:</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;                    <span class="comment">//minigame_cmd(&quot;+moved&quot;);</span></div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;                    pong_keys_pressed |= <a class="code" href="../../d7/de3/pong_8qc.html#ae2a56ee364ec402a021031f4567d1d12">PONG_KEY_DECREASE</a>;</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a315e227218f29accc4cd092b941cafaa">K_DOWNARROW</a>:</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a87a896b1715cbb9e686fdf31c8162eed">K_KP_DOWNARROW</a>:</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a403b2744d5225398d9265452c17f2fc4">K_RIGHTARROW</a>:</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a0dba53b3a8039bb806db85ad78ff014d">K_KP_RIGHTARROW</a>:</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;                    <span class="comment">//minigame_cmd(&quot;+movei&quot;);</span></div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;                    pong_keys_pressed |= <a class="code" href="../../d7/de3/pong_8qc.html#a3e201037dda61f41363f87518dd57f9c">PONG_KEY_INCREASE</a>;</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;            }</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;key_released&quot;</span>:</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;            <span class="keywordflow">switch</span> ( ...(0,<span class="keywordtype">int</span>) )</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            {</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2">K_UPARROW</a>:</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a57ebf01258da3313cffa73c0d51d462f">K_KP_UPARROW</a>:</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a8d480915019f20bd0ccf39ccde1d16a3">K_LEFTARROW</a>:</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a74257d5c4efdfa386e8c09a7353d112c">K_KP_LEFTARROW</a>:</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;                    <span class="comment">//minigame_cmd(&quot;-moved&quot;);</span></div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;                    pong_keys_pressed &amp;= ~PONG_KEY_DECREASE;</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a315e227218f29accc4cd092b941cafaa">K_DOWNARROW</a>:</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a87a896b1715cbb9e686fdf31c8162eed">K_KP_DOWNARROW</a>:</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a403b2744d5225398d9265452c17f2fc4">K_RIGHTARROW</a>:</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a0dba53b3a8039bb806db85ad78ff014d">K_KP_RIGHTARROW</a>:</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;                    <span class="comment">//minigame_cmd(&quot;-movei&quot;);</span></div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;                    pong_keys_pressed &amp;= ~PONG_KEY_INCREASE;</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;            }</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;network_receive&quot;</span>:</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;        {</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> sent = ...(0,<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;            <span class="keywordtype">int</span> sf = ...(1,<a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">int</a>);</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;            <span class="keywordflow">if</span> ( sent.classname == <span class="stringliteral">&quot;minigame_player&quot;</span> &amp;&amp; (sf &amp; PONG_SF_PLAYERSCORE ) )</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;            {</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;                sent.pong_score = ReadLong();</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;            }</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( sent.classname == <span class="stringliteral">&quot;minigame&quot;</span> )</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;            {</div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;                <span class="keywordflow">if</span> ( sf &amp; <a class="code" href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a> )</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;                {</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;                    sent.message = pong_message(sent.minigame_flags);</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;                }</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;            }</div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;        }</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;menu_show&quot;</span>:</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;        {</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;            <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#a5ed0885dbacdb80553f2f4ac8b9e456d">HUD_MinigameMenu_CustomEntry</a>(...(0,<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>),_(<span class="stringliteral">&quot;Start Match&quot;</span>),<span class="stringliteral">&quot;pong_throw&quot;</span>);</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;            <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#a5ed0885dbacdb80553f2f4ac8b9e456d">HUD_MinigameMenu_CustomEntry</a>(...(0,<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>),_(<span class="stringliteral">&quot;Add AI player&quot;</span>),<span class="stringliteral">&quot;pong_aimore&quot;</span>);</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;            <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#a5ed0885dbacdb80553f2f4ac8b9e456d">HUD_MinigameMenu_CustomEntry</a>(...(0,<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>),_(<span class="stringliteral">&quot;Remove AI player&quot;</span>),<span class="stringliteral">&quot;pong_ailess&quot;</span>);</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;        }</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;menu_click&quot;</span>:</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;        {</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;            <span class="keywordtype">string</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#a977f9318008de123876b168dfa86ad22">cmd</a> = ...(0,<a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">string</a>);</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;            <span class="keywordflow">if</span>( cmd == <span class="stringliteral">&quot;pong_throw&quot;</span> &amp;&amp; minigame.minigame_flags &amp; PONG_STATUS_WAIT )</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;            {</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;                <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a>(<span class="stringliteral">&quot;throw&quot;</span>);</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;            }</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( cmd == <span class="stringliteral">&quot;pong_aimore&quot;</span> || cmd == <span class="stringliteral">&quot;pong_ailess&quot;</span> )</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;            {</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;                <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a>(cmd);</div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;            }</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;        }</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    }</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;}</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="keycodes_8qc_html_a0dba53b3a8039bb806db85ad78ff014d"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a0dba53b3a8039bb806db85ad78ff014d">K_KP_RIGHTARROW</a></div><div class="ttdeci">float K_KP_RIGHTARROW</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00060">keycodes.qc:60</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_a1657e5be2a616c50eedf52dede110ae2"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2">K_UPARROW</a></div><div class="ttdeci">float K_UPARROW</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00015">keycodes.qc:15</a></div></div>
 <div class="ttc" id="pong_8qh_html"><div class="ttname"><a href="../../dc/d4c/pong_8qh.html">pong.qh</a></div></div>
@@ -835,7 +830,6 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="ttc" id="minigames_8qh_html_a4ae426c8d7855acc6a41cc24feb795e2"><div class="ttname"><a href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a></div><div class="ttdeci">const int MINIG_SF_UPDATE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbd/minigames_8qh_source.html#l00109">minigames.qh:109</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00044">main.qh:44</a></div></div>
 <div class="ttc" id="pong_8qc_html_a3aa84d8d8617354b2ebe47c33e68999f"><div class="ttname"><a href="../../d7/de3/pong_8qc.html#a3aa84d8d8617354b2ebe47c33e68999f">pong_keys</a></div><div class="ttdeci">int pong_keys</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de3/pong_8qc_source.html#l00022">pong.qc:22</a></div></div>
-<div class="ttc" id="string_8qh_html_a9911c5e0b0c9ecae050a2193eb6c2af5"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a></div><div class="ttdeci">#define strcpy(this, s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00049">string.qh:49</a></div></div>
 <div class="ttc" id="pong_8qc_html_ab4406bbe08968c38c6d68c4554a2d5b5"><div class="ttname"><a href="../../d7/de3/pong_8qc.html#ab4406bbe08968c38c6d68c4554a2d5b5">PONG_MAX_PLAYERS</a></div><div class="ttdeci">const int PONG_MAX_PLAYERS</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de3/pong_8qc_source.html#l00020">pong.qc:20</a></div></div>
 <div class="ttc" id="int_8qh_html_ab65936840a5b666cc6c87399e9b80802"><div class="ttname"><a href="../../de/d0d/int_8qh.html#ab65936840a5b666cc6c87399e9b80802">stoi</a></div><div class="ttdeci">#define stoi(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d0d/int_8qh_source.html#l00004">int.qh:4</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a465bbb3367ce5d2f9b2a44b199cea7ce"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a465bbb3367ce5d2f9b2a44b199cea7ce">DRAWFLAG_ADDITIVE</a></div><div class="ttdeci">const float DRAWFLAG_ADDITIVE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00318">csprogsdefs.qc:318</a></div></div>
@@ -876,7 +870,6 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="ttc" id="client_2main_8qh_html_a48f386cb348d88d4ae961d010fe8b549"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a></div><div class="ttdeci">vector hud_fontsize</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00034">main.qh:34</a></div></div>
 <div class="ttc" id="pong_8qc_html_a52bb5f83b53bbbdf759739d26ce7f910"><div class="ttname"><a href="../../d7/de3/pong_8qc.html#a52bb5f83b53bbbdf759739d26ce7f910">pong_ai_paddle</a></div><div class="ttdeci">entity pong_ai_paddle</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de3/pong_8qc_source.html#l00025">pong.qc:25</a></div></div>
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
-<div class="ttc" id="string_8qh_html_a77e89c547b817664c0ed9b728b4c124f"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a77e89c547b817664c0ed9b728b4c124f">strfree</a></div><div class="ttdeci">#define strfree(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00056">string.qh:56</a></div></div>
 <div class="ttc" id="cl__minigames_8qc_html_a3f50d48603ccc5c4949bf5d84b0daa78"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#a3f50d48603ccc5c4949bf5d84b0daa78">minigame_hud_simpleboard</a></div><div class="ttdeci">void minigame_hud_simpleboard(vector pos, vector mySize, string board_texture)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/cl__minigames_8qc_source.html#l00004">cl_minigames.qc:4</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_accccfae161879454243b3a8695a9bf3b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a></div><div class="ttdeci">float fabs(float f)</div></div>
 <div class="ttc" id="progsdefs_8qc_html_afa8adf762827679f2bfa706be7144fe2"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a></div><div class="ttdeci">string target</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00193">progsdefs.qc:193</a></div></div>
@@ -898,7 +891,7 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../dir_f3c5fe65fc7d6f300d22d67107da5495.html">minigame</a></li><li class="navelem"><a class="el" href="../../d7/de3/pong_8qc.html">pong.qc</a></li>
-    <li class="footer">Generated on Mon Aug 12 2019 10:41:15 for Xonotic by
+    <li class="footer">Generated on Mon Aug 12 2019 10:53:22 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

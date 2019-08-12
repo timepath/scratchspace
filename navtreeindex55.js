@@ -1,6 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"d6/d66/classPhaserTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,100,0],
 "d6/d6b/ewheel_8qc.html":[2,0,1,14,0,2],
 "d6/d6b/ewheel_8qc_source.html":[2,0,1,14,0,2],
 "d6/d70/magicear_8qh.html":[2,0,1,6,3,25],
@@ -249,5 +248,6 @@ var NAVTREEINDEX55 =
 "d6/d79/classXonoticHUDWeaponsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,207,59],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,207,28],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,207,44],
-"d6/d79/classXonoticHUDWeaponsDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,207,54]
+"d6/d79/classXonoticHUDWeaponsDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,207,54],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,207,84]
 };

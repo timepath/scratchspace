@@ -12,7 +12,6 @@ var sound_8qh =
     [ "_Sound_fixpath_this", "d0/df5/sound_8qh.html#a72e532b65a9766199b767533e2db3318", null ],
     [ "ATTEN_IDLE", "d0/df5/sound_8qh.html#adac39d0ed99391c139261058f3bf93b3", null ],
     [ "ATTEN_LARGE", "d0/df5/sound_8qh.html#afb6fcbf07aa2ed49e154e3921ebef32d", null ],
-    [ "ATTEN_LOW", "d0/df5/sound_8qh.html#aa81eda968dd25faf78d660c148046793", null ],
     [ "ATTEN_MAX", "d0/df5/sound_8qh.html#a7aa0e96b94c2f8101397eaebc4631258", null ],
     [ "ATTEN_MIN", "d0/df5/sound_8qh.html#a9c121ae2d91646839cf3dcc25118ced0", null ],
     [ "ATTEN_NONE", "d0/df5/sound_8qh.html#aa00190ab7f73439edff33680b94eaacb", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX131 =
 {
+"de/df3/raptor__weapons_8qc.html":[2,0,1,15,0,12],
+"de/df3/raptor__weapons_8qc_source.html":[2,0,1,15,0,12],
 "de/df9/sv__items_8qh.html":[2,0,1,10,0,12,7],
 "de/df9/sv__items_8qh_source.html":[2,0,1,10,0,12,7],
 "de/dff/common_2gamemodes_2gamemode_2duel_2__mod_8inc.html":[2,0,1,3,0,6,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX131 =
 "df/d27/classXonoticPicker.html#a3c8bca13fc56cb4fd35bc818e17a01ca":[1,0,225,16],
 "df/d27/classXonoticPicker.html#a3f9c5e6943891f335099fe380661b70c":[1,0,225,18],
 "df/d27/classXonoticPicker.html#a44f82bb2186f56f4dea7f791b47e2952":[1,0,225,20],
-"df/d27/classXonoticPicker.html#a49a22c2c807939b78d2ddb9c9c5ef81b":[1,0,225,26],
-"df/d27/classXonoticPicker.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,225,8],
-"df/d27/classXonoticPicker.html#a51aef9e901b2f2d159f18a413153f87e":[1,0,225,27]
+"df/d27/classXonoticPicker.html#a49a22c2c807939b78d2ddb9c9c5ef81b":[1,0,225,26]
 };
