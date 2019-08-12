@@ -270,7 +270,7 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d5e/common_2models_2model_8qh_source.html#l00012">12</a> of file <a class="el" href="../../da/d5e/common_2models_2model_8qh_source.html">model.qh</a>.</p>
 
-<p>References <a class="el" href="../../da/d30/file_8qh_source.html#l00004">fexists()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00066">LOG_WARNF</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00049">strcpy</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00082">TC</a>.</p>
+<p>References <a class="el" href="../../da/d30/file_8qh_source.html#l00004">fexists()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00066">LOG_WARNF</a>, <a class="el" href="../../d4/d1a/static_8qh_source.html#l00011">profile()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00049">strcpy</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00082">TC</a>.</p>
 <div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d6/d18/classModel.html">Model</a>, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordtype">string</span> s = this.model_str();</div>
@@ -278,10 +278,11 @@ Public Attributes</h2></td></tr>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a>(<span class="stringliteral">&quot;Missing model: \&quot;%s\&quot;&quot;</span>, s);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        }</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="comment">//profile(sprintf(&quot;precache_model(\&quot;%s\&quot;)&quot;, s));</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../d4/d1a/static_8qh.html#a48a305b3b9baa8868a26fd3dc4daa51f">profile</a>(sprintf(<span class="stringliteral">&quot;precache_model(\&quot;%s\&quot;)&quot;</span>, s));</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        precache_model(s);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a>(this.model_str_, s);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
+<div class="ttc" id="static_8qh_html_a48a305b3b9baa8868a26fd3dc4daa51f"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a48a305b3b9baa8868a26fd3dc4daa51f">profile</a></div><div class="ttdeci">ERASEABLE void profile(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00011">static.qh:11</a></div></div>
 <div class="ttc" id="string_8qh_html_a9911c5e0b0c9ecae050a2193eb6c2af5"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a9911c5e0b0c9ecae050a2193eb6c2af5">strcpy</a></div><div class="ttdeci">#define strcpy(this, s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00049">string.qh:49</a></div></div>
 <div class="ttc" id="log_8qh_html_a0a03b23b2bda32603235b3849e76e8e9"><div class="ttname"><a href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a></div><div class="ttdeci">#define LOG_WARNF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00066">log.qh:66</a></div></div>
 <div class="ttc" id="classModel_html"><div class="ttname"><a href="../../d6/d18/classModel.html">Model</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5e/common_2models_2model_8qh_source.html#l00003">model.qh:3</a></div></div>
@@ -293,7 +294,7 @@ Public Attributes</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d18/classModel_ac2beca644fa2888a1d546465f338fd3e_cgraph.svg" width="387" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d18/classModel_ac2beca644fa2888a1d546465f338fd3e_cgraph.svg" width="387" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -324,7 +325,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d18/classModel.html">Model</a></li>
-    <li class="footer">Generated on Mon Aug 12 2019 09:59:03 for Xonotic by
+    <li class="footer">Generated on Mon Aug 12 2019 10:41:34 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -5,6 +5,6 @@ var dir_f18d5dd12b54ecfc26193d6b0c017e06 =
     [ "havocbot.qc", "d2/de9/havocbot_8qc.html", "d2/de9/havocbot_8qc" ],
     [ "havocbot.qh", "d8/d39/havocbot_8qh.html", "d8/d39/havocbot_8qh" ],
     [ "roles.qc", "db/deb/roles_8qc.html", "db/deb/roles_8qc" ],
-    [ "roles.qh", "d3/d92/roles_8qh.html", "d3/d92/roles_8qh" ],
+    [ "roles.qh", "d3/d92/roles_8qh.html", null ],
     [ "scripting.qh", "de/dae/havocbot_2scripting_8qh.html", "de/dae/havocbot_2scripting_8qh" ]
 ];

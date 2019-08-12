@@ -32,7 +32,7 @@ var sv__instagib_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a3bc437942b31087c3b05f7fe7442ce60", null ],
     [ "RandomItems_GetRandomInstagibItemClassName", "d4/db0/sv__instagib_8qc.html#af288d5699858924210c3052cd73c3ae8", null ],
     [ "replace_with_insta_cells", "d4/db0/sv__instagib_8qc.html#a0abfe12ffff043db18c754ba133722e0", null ],
-    [ "STATIC_INIT", "d4/db0/sv__instagib_8qc.html#ab0caafdd44faa89dbaee8ce889cd81ff", null ],
+    [ "STATIC_INIT", "d4/db0/sv__instagib_8qc.html#aa457a64c4ccdd09f421107c5d224b7fd", null ],
     [ "autocvar_g_instagib_ammo_convert_bullets", "d4/db0/sv__instagib_8qc.html#a78703ecb39fe304d6e9206d472e90d9c", null ],
     [ "autocvar_g_instagib_ammo_convert_cells", "d4/db0/sv__instagib_8qc.html#a1286f970b5765b4dbbc76d9fd9ecefc3", null ],
     [ "autocvar_g_instagib_ammo_convert_rockets", "d4/db0/sv__instagib_8qc.html#af9001132951b56cd5f5c292620d5ad9b", null ],

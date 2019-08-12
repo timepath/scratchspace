@@ -178,7 +178,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00014">14</a> of file <a class="el" href="../../d0/dd2/antilag_8qh_source.html">antilag.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00228">anticheat_fixangle()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00039">crosshair_trace()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00333">fireBullet()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00214">FireRailgunBullet()</a>, <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00056">W_HitPlotAnalysis()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00026">W_SetupShot_Dir_ProjectileSize_Range()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00075">WarpZone_crosshair_trace()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00228">anticheat_fixangle()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00039">crosshair_trace()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00214">FireRailgunBullet()</a>, <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00056">W_HitPlotAnalysis()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00026">W_SetupShot_Dir_ProjectileSize_Range()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00075">WarpZone_crosshair_trace()</a>.</p>
 
 </div>
 </div>
@@ -211,7 +211,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00012">ANTILAG_MAX_ORIGINS</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00101">antilag_restore()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00521">PutPlayerInServer()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00660">vehicles_damage()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00970">vehicles_enter()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00520">PutPlayerInServer()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00660">vehicles_damage()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00970">vehicles_enter()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#ae0fbe788776aa76ba7139d692e9c7adb">antilag_restore</a>(e, store);</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a>; ++i) {</div>
@@ -279,7 +279,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00012">ANTILAG_MAX_ORIGINS</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00021">antilag_record()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag_takebackorigin()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00076">VHF_PLAYERSLOT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00021">antilag_record()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l02111">EndFrame()</a>.</p>
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00021">antilag_record()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l02094">EndFrame()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">if</span> (e.vehicle) {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">if</span> (e.vehicle.vehicle_flags == <a class="code" href="../../d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7">VHF_PLAYERSLOT</a>) <span class="keywordflow">return</span>;</div>
@@ -406,9 +406,9 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00138">138</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00101">antilag_restore()</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00397">g_monsters</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00402">g_projectiles</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00165">IL_EACH</a>, and <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>.</p>
+<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00101">antilag_restore()</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00402">g_monsters</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00407">g_projectiles</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00165">IL_EACH</a>, and <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00333">fireBullet()</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00159">tracebox_antilag_force_wz()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00159">tracebox_antilag_force_wz()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;{</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != ignore, <a class="code" href="../../d4/dd8/antilag_8qc.html#ae0fbe788776aa76ba7139d692e9c7adb">antilag_restore</a>(it, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it)));</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2">g_monsters</a>, it != ignore,</div>
@@ -423,9 +423,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00165">intrusivelist.qh:165</a></div></div>
 <div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
 <div class="ttc" id="utils_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00046">utils.qh:46</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_ae5508e0d25e38548579e9905cbe3fce2"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2">g_monsters</a></div><div class="ttdeci">IntrusiveList g_monsters</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00397">defs.qh:397</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_ae5508e0d25e38548579e9905cbe3fce2"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2">g_monsters</a></div><div class="ttdeci">IntrusiveList g_monsters</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00402">defs.qh:402</a></div></div>
 <div class="ttc" id="antilag_8qc_html_ae0fbe788776aa76ba7139d692e9c7adb"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#ae0fbe788776aa76ba7139d692e9c7adb">antilag_restore</a></div><div class="ttdeci">void antilag_restore(entity e, entity store)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00101">antilag.qc:101</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_a60e662b2259d5b4ff290afd4566a17dd"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a60e662b2259d5b4ff290afd4566a17dd">g_projectiles</a></div><div class="ttdeci">IntrusiveList g_projectiles</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00402">defs.qh:402</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_a60e662b2259d5b4ff290afd4566a17dd"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a60e662b2259d5b4ff290afd4566a17dd">g_projectiles</a></div><div class="ttdeci">IntrusiveList g_projectiles</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00407">defs.qh:407</a></div></div>
 <div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -519,7 +519,7 @@ Variables</h2></td></tr>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/dd2/antilag_8qh_ae42be1431ef90dedfc2cb8bf7b792bfd_icgraph.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/dd2/antilag_8qh_ae42be1431ef90dedfc2cb8bf7b792bfd_icgraph.svg" width="100%" height="531"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -552,9 +552,9 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00125">125</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00086">antilag_takeback()</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00397">g_monsters</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00402">g_projectiles</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00165">IL_EACH</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00086">antilag_takeback()</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00402">g_monsters</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00407">g_projectiles</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00165">IL_EACH</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00333">fireBullet()</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00159">tracebox_antilag_force_wz()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00159">tracebox_antilag_force_wz()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;{</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != ignore, <a class="code" href="../../d4/dd8/antilag_8qc.html#ae42be1431ef90dedfc2cb8bf7b792bfd">antilag_takeback</a>(it, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it), <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - lag));</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2">g_monsters</a>, it != ignore,</div>
@@ -569,9 +569,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00165">intrusivelist.qh:165</a></div></div>
 <div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
 <div class="ttc" id="utils_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00046">utils.qh:46</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_ae5508e0d25e38548579e9905cbe3fce2"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2">g_monsters</a></div><div class="ttdeci">IntrusiveList g_monsters</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00397">defs.qh:397</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_ae5508e0d25e38548579e9905cbe3fce2"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2">g_monsters</a></div><div class="ttdeci">IntrusiveList g_monsters</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00402">defs.qh:402</a></div></div>
 <div class="ttc" id="antilag_8qc_html_ae42be1431ef90dedfc2cb8bf7b792bfd"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#ae42be1431ef90dedfc2cb8bf7b792bfd">antilag_takeback</a></div><div class="ttdeci">void antilag_takeback(entity e, entity store, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00086">antilag.qc:86</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_a60e662b2259d5b4ff290afd4566a17dd"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a60e662b2259d5b4ff290afd4566a17dd">g_projectiles</a></div><div class="ttdeci">IntrusiveList g_projectiles</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00402">defs.qh:402</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_a60e662b2259d5b4ff290afd4566a17dd"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a60e662b2259d5b4ff290afd4566a17dd">g_projectiles</a></div><div class="ttdeci">IntrusiveList g_projectiles</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00407">defs.qh:407</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
 </div><!-- fragment -->
@@ -667,7 +667,7 @@ Variables</h2></td></tr>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/dd2/antilag_8qh_a655b5399f3832b3ecd9a7659ef624b4a_icgraph.svg" width="100%" height="561"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/dd2/antilag_8qh_a655b5399f3832b3ecd9a7659ef624b4a_icgraph.svg" width="100%" height="532"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -895,7 +895,7 @@ Variables</h2></td></tr>
 <div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-18-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/dd2/antilag_8qh_a16360420959782f6972ac30eec10327a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/dd2/antilag_8qh_a16360420959782f6972ac30eec10327a_icgraph.svg" width="100%" height="549"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -1037,7 +1037,7 @@ Variables</h2></td></tr>
 <div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-20-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/dd2/antilag_8qh_ae2572b5fa7a3e76a4ff54cd41a55cf04_icgraph.svg" width="100%" height="517"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/dd2/antilag_8qh_ae2572b5fa7a3e76a4ff54cd41a55cf04_icgraph.svg" width="100%" height="498"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -1293,7 +1293,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d0/dd2/antilag_8qh.html">antilag.qh</a></li>
-    <li class="footer">Generated on Mon Aug 12 2019 09:58:58 for Xonotic by
+    <li class="footer">Generated on Mon Aug 12 2019 10:41:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

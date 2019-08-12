@@ -67,6 +67,5 @@ var sv__cmd_8qc =
     [ "SERVER_COMMAND", "d3/df2/sv__cmd_8qc.html#a305c082043dcf6b2454bdacb003340f8", null ],
     [ "SERVER_COMMAND", "d3/df2/sv__cmd_8qc.html#a841ca61aa6b2019024483468cd1b132e", null ],
     [ "SERVER_COMMAND", "d3/df2/sv__cmd_8qc.html#afa8c51956acdbb752db7a57272b1298d", null ],
-    [ "SERVER_COMMAND", "d3/df2/sv__cmd_8qc.html#ae7bff1f7292bf8ed2c9bc35b68c2b8e4", null ],
-    [ "shuffleteams", "d3/df2/sv__cmd_8qc.html#a60f83fe4f170673c8c383701d372b257", null ]
+    [ "SERVER_COMMAND", "d3/df2/sv__cmd_8qc.html#ae7bff1f7292bf8ed2c9bc35b68c2b8e4", null ]
 ];

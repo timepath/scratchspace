@@ -78,6 +78,8 @@ var api_8qh =
     [ "ignoregoal", "db/d15/api_8qh.html#a2240a7c6b5dca92561126c36734701bf", null ],
     [ "ignoregoaltime", "db/d15/api_8qh.html#af097bc66957f78a84601ef1a8fa4b8eb", null ],
     [ "isbot", "db/d15/api_8qh.html#acf6e5642e2a48bb69f631e9166056c87", null ],
+    [ "kh_worldkeylist", "db/d15/api_8qh.html#a045a92c5195f8abf1d884beab42bc3f9", null ],
+    [ "kh_worldkeynext", "db/d15/api_8qh.html#abb611131b031308c318e295ec74a375f", null ],
     [ "lastteleport_origin", "db/d15/api_8qh.html#a70f74c9ccb7e04b370b228a6fcc2cf15", null ],
     [ "lastteleporttime", "db/d15/api_8qh.html#a23f3b5acdc184dfba5e4bae385dca5e0", null ],
     [ "navigation_dynamicgoal", "db/d15/api_8qh.html#a58006022b7f6d1b7131ed30b053c6165", null ],

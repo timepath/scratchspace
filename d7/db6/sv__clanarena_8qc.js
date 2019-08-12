@@ -37,7 +37,6 @@ var sv__clanarena_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d7/db6/sv__clanarena_8qc.html#a19925a8c3cdeb304f528bdec6f665a5b", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/db6/sv__clanarena_8qc.html#a26d65c5d5e9c15c4e38bd2347ca6eccc", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/db6/sv__clanarena_8qc.html#a67210e90cc218accb0535570e86a9bfe", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d7/db6/sv__clanarena_8qc.html#ad9462454a5bcadebfd4971eba642da20", null ],
     [ "nades_Clear", "d7/db6/sv__clanarena_8qc.html#a515ca2e64da8af7b2b59470a6697db65", null ],
     [ "autocvar_g_ca_damage2score_multiplier", "d7/db6/sv__clanarena_8qc.html#ad975355c5fb8c137be07cbbe2741c7d0", null ],
     [ "autocvar_g_ca_spectate_enemies", "d7/db6/sv__clanarena_8qc.html#a48f46043ca7339670815fd1fbb1f6711", null ]

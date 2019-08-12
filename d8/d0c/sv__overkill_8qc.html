@@ -164,8 +164,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ab90bc7f56ad50cdab3702fc78ecfd9d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0c/sv__overkill_8qc.html#ab90bc7f56ad50cdab3702fc78ecfd9d8">RandomItems_GetRandomOverkillItemClassName</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> prefix)</td></tr>
 <tr class="memdesc:ab90bc7f56ad50cdab3702fc78ecfd9d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random classname of the overkill item.  <a href="#ab90bc7f56ad50cdab3702fc78ecfd9d8">More...</a><br/></td></tr>
 <tr class="separator:ab90bc7f56ad50cdab3702fc78ecfd9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13f86c3b5c510dd582169c84d7294c46"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0c/sv__overkill_8qc.html#a13f86c3b5c510dd582169c84d7294c46">STATIC_INIT</a> (overkill)</td></tr>
-<tr class="separator:a13f86c3b5c510dd582169c84d7294c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa457a64c4ccdd09f421107c5d224b7fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0c/sv__overkill_8qc.html#aa457a64c4ccdd09f421107c5d224b7fd">STATIC_INIT</a> ()</td></tr>
+<tr class="separator:aa457a64c4ccdd09f421107c5d224b7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -258,7 +258,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00071">71</a> of file <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html">sv_overkill.qc</a>.</p>
 
-<p>References <a class="el" href="../../d9/d4f/deathtypes_2all_8qh_source.html#l00041">DEATH_ISWEAPON</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00023">IS_TURRET</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00022">IS_VEHICLE</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../d9/d4f/deathtypes_2all_8qh_source.html#l00042">DEATH_ISWEAPON</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00023">IS_TURRET</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00022">IS_VEHICLE</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_attacker = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
@@ -284,7 +284,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="utils_8qh_html_ada2e50d916105b5a32d7c97d39d226d5"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ada2e50d916105b5a32d7c97d39d226d5">IS_VEHICLE</a></div><div class="ttdeci">#define IS_VEHICLE(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00022">utils.qh:22</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
-<div class="ttc" id="deathtypes_2all_8qh_html_a3d2a6e3591b346acd119e615627b5f5b"><div class="ttname"><a href="../../d9/d4f/deathtypes_2all_8qh.html#a3d2a6e3591b346acd119e615627b5f5b">DEATH_ISWEAPON</a></div><div class="ttdeci">#define DEATH_ISWEAPON(t, w)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d4f/deathtypes_2all_8qh_source.html#l00041">all.qh:41</a></div></div>
+<div class="ttc" id="deathtypes_2all_8qh_html_a3d2a6e3591b346acd119e615627b5f5b"><div class="ttname"><a href="../../d9/d4f/deathtypes_2all_8qh.html#a3d2a6e3591b346acd119e615627b5f5b">DEATH_ISWEAPON</a></div><div class="ttdeci">#define DEATH_ISWEAPON(t, w)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d4f/deathtypes_2all_8qh_source.html#l00042">all.qh:42</a></div></div>
 <div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -743,7 +743,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00220">220</a> of file <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html">sv_overkill.qc</a>.</p>
 
-<p>References <a class="el" href="../../d9/dbc/sv__overkill_8qh_source.html#l00006">autocvar_g_overkill_filter_armorbig</a>, <a class="el" href="../../d9/dbc/sv__overkill_8qh_source.html#l00005">autocvar_g_overkill_filter_armormedium</a>, <a class="el" href="../../d9/dbc/sv__overkill_8qh_source.html#l00007">autocvar_g_overkill_filter_armormega</a>, <a class="el" href="../../d9/dbc/sv__overkill_8qh_source.html#l00004">autocvar_g_overkill_filter_healthmega</a>, <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00007">autocvar_g_overkill_powerups_replace</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00185">autocvar_g_powerups</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../df/def/server_2items_8qc_source.html#l00060">Item_Initialize()</a>, <a class="el" href="../../df/def/server_2items_8qc_source.html#l00116">Item_ShouldKeepPosition()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>.</p>
+<p>References <a class="el" href="../../d9/dbc/sv__overkill_8qh_source.html#l00006">autocvar_g_overkill_filter_armorbig</a>, <a class="el" href="../../d9/dbc/sv__overkill_8qh_source.html#l00005">autocvar_g_overkill_filter_armormedium</a>, <a class="el" href="../../d9/dbc/sv__overkill_8qh_source.html#l00007">autocvar_g_overkill_filter_armormega</a>, <a class="el" href="../../d9/dbc/sv__overkill_8qh_source.html#l00004">autocvar_g_overkill_filter_healthmega</a>, <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00007">autocvar_g_overkill_powerups_replace</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00183">autocvar_g_powerups</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../df/def/server_2items_8qc_source.html#l00060">Item_Initialize()</a>, <a class="el" href="../../df/def/server_2items_8qc_source.html#l00116">Item_ShouldKeepPosition()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;{</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
@@ -794,7 +794,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;}</div>
 <div class="ttc" id="server_2items_8qc_html_a1abbc2840126cee768cba2d54dca5e62"><div class="ttname"><a href="../../df/def/server_2items_8qc.html#a1abbc2840126cee768cba2d54dca5e62">Item_Initialize</a></div><div class="ttdeci">void Item_Initialize(entity item, string class_name)</div><div class="ttdoc">Initializes the item according to class name. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/def/server_2items_8qc_source.html#l00060">items.qc:60</a></div></div>
 <div class="ttc" id="sv__overkill_8qc_html_a4b808bb33716252fc07eb4d5a6b49431"><div class="ttname"><a href="../../d8/d0c/sv__overkill_8qc.html#a4b808bb33716252fc07eb4d5a6b49431">autocvar_g_overkill_powerups_replace</a></div><div class="ttdeci">bool autocvar_g_overkill_powerups_replace</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0c/sv__overkill_8qc_source.html#l00007">sv_overkill.qc:7</a></div></div>
-<div class="ttc" id="server_2autocvars_8qh_html_a776a92402884c6d5200afa82479528f3"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a776a92402884c6d5200afa82479528f3">autocvar_g_powerups</a></div><div class="ttdeci">int autocvar_g_powerups</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00185">autocvars.qh:185</a></div></div>
+<div class="ttc" id="server_2autocvars_8qh_html_a776a92402884c6d5200afa82479528f3"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a776a92402884c6d5200afa82479528f3">autocvar_g_powerups</a></div><div class="ttdeci">int autocvar_g_powerups</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00183">autocvars.qh:183</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="sv__overkill_8qh_html_a783903b4a82333788defe89c0629b955"><div class="ttname"><a href="../../d9/dbc/sv__overkill_8qh.html#a783903b4a82333788defe89c0629b955">autocvar_g_overkill_filter_healthmega</a></div><div class="ttdeci">bool autocvar_g_overkill_filter_healthmega</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dbc/sv__overkill_8qh_source.html#l00004">sv_overkill.qh:4</a></div></div>
 <div class="ttc" id="sv__overkill_8qh_html_a775999ba9c0203a2477dea96451bedd1"><div class="ttname"><a href="../../d9/dbc/sv__overkill_8qh.html#a775999ba9c0203a2477dea96451bedd1">autocvar_g_overkill_filter_armorbig</a></div><div class="ttdeci">bool autocvar_g_overkill_filter_armorbig</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dbc/sv__overkill_8qh_source.html#l00006">sv_overkill.qh:6</a></div></div>
@@ -1232,14 +1232,13 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a13f86c3b5c510dd582169c84d7294c46"></a>
+<a class="anchor" id="aa457a64c4ccdd09f421107c5d224b7fd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">STATIC_INIT </td>
           <td>(</td>
-          <td class="paramtype">overkill&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1266,7 +1265,7 @@ Variables</h2></td></tr>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-17-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d0c/sv__overkill_8qc_a13f86c3b5c510dd582169c84d7294c46_cgraph.svg" width="403" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d0c/sv__overkill_8qc_aa457a64c4ccdd09f421107c5d224b7fd_cgraph.svg" width="403" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1340,7 +1339,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_9f0ba747dc6b4bb85fdadc94258260f2.html">overkill</a></li><li class="navelem"><a class="el" href="../../d8/d0c/sv__overkill_8qc.html">sv_overkill.qc</a></li>
-    <li class="footer">Generated on Mon Aug 12 2019 09:58:52 for Xonotic by
+    <li class="footer">Generated on Mon Aug 12 2019 10:41:24 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

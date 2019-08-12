@@ -15,7 +15,7 @@ var g__world_8qc =
     [ "EndFrame", "db/dcc/g__world_8qc.html#ab61dd957a2c44ebabe227060941cb391", null ],
     [ "FixIntermissionClient", "db/dcc/g__world_8qc.html#a15fcd02eea3f51317f896a817e6c3431", null ],
     [ "GetGametype", "db/dcc/g__world_8qc.html#a7bd98f24d513342b45d7ec36af6564be", null ],
-    [ "GetMaplistPosition", "db/dcc/g__world_8qc.html#a419f5c1f5a5092d800eec289b42be30f", null ],
+    [ "GetMaplistPosition", "db/dcc/g__world_8qc.html#a161f861ac5f44c81d48ecc3c40c3e465", null ],
     [ "GetMapname", "db/dcc/g__world_8qc.html#a1330c9208470a4800fb84c8810728bcb", null ],
     [ "GetNextMap", "db/dcc/g__world_8qc.html#a558290ac2f061ad16a1fb895ab32f6d6", null ],
     [ "GetWinningCode", "db/dcc/g__world_8qc.html#abed18c6e10bb666ad939e95abcaabb5d", null ],
