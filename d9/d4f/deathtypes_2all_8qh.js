@@ -19,7 +19,7 @@ var deathtypes_2all_8qh =
     [ "DT_FIRST", "d9/d4f/deathtypes_2all_8qh.html#a5e0317d3d6616fc59446bd8400a011cd", null ],
     [ "HITTYPE_ARMORPIERCE", "d9/d4f/deathtypes_2all_8qh.html#a4de07202894d6687c6df67891c6e2b0a", null ],
     [ "HITTYPE_BOUNCE", "d9/d4f/deathtypes_2all_8qh.html#a711c18b27d2eef6958316442f830587d", null ],
-    [ "HITTYPE_RESERVED", "d9/d4f/deathtypes_2all_8qh.html#a6d96d3884ef3f4c17701172adc3f424e", null ],
     [ "HITTYPE_SECONDARY", "d9/d4f/deathtypes_2all_8qh.html#aef6fa079502aff69a43b0627c85d8efb", null ],
+    [ "HITTYPE_SOUND", "d9/d4f/deathtypes_2all_8qh.html#af96ab232e33449bc79a09067610f97e6", null ],
     [ "HITTYPE_SPLASH", "d9/d4f/deathtypes_2all_8qh.html#abfeb8ab3b6f6ad47eabcf0cb3d206b5a", null ]
 ];

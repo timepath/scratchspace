@@ -27,6 +27,7 @@ var searchData=
   ['indexof',['indexOf',['../de/d82/classDataSource.html#a9b20cefca0e6f285f67d0222f3a45465',1,'DataSource']]],
   ['info_5fautoscreenshot_5ffindtarget',['info_autoscreenshot_findtarget',['../d6/de9/cheats_8qc.html#a62bc88be90a8739d8745f255f67a3784',1,'cheats.qc']]],
   ['infomessages_5fdrawstring',['InfoMessages_drawstring',['../df/d21/infomessages_8qc.html#a7854c8f2dc9b65b6d10fc18b713b87c6',1,'infomessages.qc']]],
+  ['initball',['InitBall',['../d2/d24/sv__nexball_8qc.html#a67079e7b6af821c52c1e71947ff5e291',1,'sv_nexball.qc']]],
   ['initgameplaymode',['InitGameplayMode',['../db/dcc/g__world_8qc.html#a25599ad73603f2e4e2b78726400732c8',1,'g_world.qc']]],
   ['initializedialog',['initializeDialog',['../d6/d1a/classModalController.html#ab822fa2e09910c1fe52cba5498a0d503',1,'ModalController']]],
   ['initializeentitiesrun',['InitializeEntitiesRun',['../dc/dc6/server_2miscfunctions_8qc.html#a504192d334de7d4502ffbaa71c6b8228',1,'InitializeEntitiesRun():&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a504192d334de7d4502ffbaa71c6b8228',1,'InitializeEntitiesRun():&#160;miscfunctions.qc']]],

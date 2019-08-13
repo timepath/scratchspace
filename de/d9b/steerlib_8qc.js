@@ -10,11 +10,11 @@ var steerlib_8qc =
     [ "steerlib_dodge", "de/d9b/steerlib_8qc.html#a25a4050d3645babd83636cab43dbbc91", null ],
     [ "steerlib_flock", "de/d9b/steerlib_8qc.html#abc848913a64ad27a8be0b188c270c38d", null ],
     [ "steerlib_flock2d", "de/d9b/steerlib_8qc.html#a677c93ce236072d37a87906b86226242", null ],
-    [ "steerlib_repell", "de/d9b/steerlib_8qc.html#a196be7e1d9851ab01449a7b5aeaa2b00", null ],
+    [ "steerlib_repel", "de/d9b/steerlib_8qc.html#ae1e2224f6f0050d4167f7d95251b7750", null ],
     [ "steerlib_standoff", "de/d9b/steerlib_8qc.html#aa0d777f59881416d77f3ae198fd62ead", null ],
     [ "steerlib_swarm", "de/d9b/steerlib_8qc.html#a3286ddc4822f6220e31567e2af55c83e", null ],
     [ "steerlib_traceavoid", "de/d9b/steerlib_8qc.html#ad3cbbeff1080bbc6ade7cbbc5994f59a", null ],
     [ "steerlib_traceavoid_flat", "de/d9b/steerlib_8qc.html#a202933833eafdba803e5bb95b59049eb", null ],
-    [ "steerlib_wander", "de/d9b/steerlib_8qc.html#ad53432e8bb5cca74d3b4d782bba722ff", null ],
+    [ "steerlib_wander", "de/d9b/steerlib_8qc.html#af64041b7693cbbf497f59d630f2ce0d3", null ],
     [ "flock_id", "de/d9b/steerlib_8qc.html#a0d43b60b0c297167b1277c8237474c07", null ]
 ];

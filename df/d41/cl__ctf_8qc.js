@@ -1,0 +1,24 @@
+var cl__ctf_8qc =
+[
+    [ "X", "df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4", null ],
+    [ "X", "df/d41/cl__ctf_8qc.html#ac83b4a0f58175b55bde8c7417d978068", null ],
+    [ "X", "df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4", null ],
+    [ "HUD_Mod_CTF", "df/d41/cl__ctf_8qc.html#a1f48160a8f852e24bc133de3e7df533c", null ],
+    [ "HUD_Mod_CTF_Reset", "df/d41/cl__ctf_8qc.html#a1ff8857749f1a94eeef8d6311ffa25e4", null ],
+    [ "autocvar__teams_available", "df/d41/cl__ctf_8qc.html#aca6f63aee90869443bf2830e4d6b8cf1", null ],
+    [ "blueflag_prevframe", "df/d41/cl__ctf_8qc.html#a82d6dc4f545d9102ec6dfc4b048c4c4b", null ],
+    [ "blueflag_prevstatus", "df/d41/cl__ctf_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922", null ],
+    [ "blueflag_statuschange_time", "df/d41/cl__ctf_8qc.html#affcd2de913713ea56d0f03e0f0b2d610", null ],
+    [ "neutralflag_prevframe", "df/d41/cl__ctf_8qc.html#a512502e64291f7365a8e33b557465eab", null ],
+    [ "neutralflag_prevstatus", "df/d41/cl__ctf_8qc.html#ae5fe73e0d266cd8941ebdc7252019849", null ],
+    [ "neutralflag_statuschange_time", "df/d41/cl__ctf_8qc.html#abbc271ee072031f5b5ca808991e63505", null ],
+    [ "pinkflag_prevframe", "df/d41/cl__ctf_8qc.html#aff1244f89a47d203e4c8bf07e5a4d229", null ],
+    [ "pinkflag_prevstatus", "df/d41/cl__ctf_8qc.html#a181577243bef6d9dab313de308de6366", null ],
+    [ "pinkflag_statuschange_time", "df/d41/cl__ctf_8qc.html#a55b3f33e2368367b7a89769be831c2fc", null ],
+    [ "redflag_prevframe", "df/d41/cl__ctf_8qc.html#a90abcb5dfd155425638f8823221e96a7", null ],
+    [ "redflag_prevstatus", "df/d41/cl__ctf_8qc.html#abee838c54bc89fc9d2324b5932f73b39", null ],
+    [ "redflag_statuschange_time", "df/d41/cl__ctf_8qc.html#ad54335d65a5c8387822266bcc46a3ec2", null ],
+    [ "yellowflag_prevframe", "df/d41/cl__ctf_8qc.html#a9fba4055eb7a12732e45c9864109ce0a", null ],
+    [ "yellowflag_prevstatus", "df/d41/cl__ctf_8qc.html#abb4b022156f7d6a6605893e79d3de30a", null ],
+    [ "yellowflag_statuschange_time", "df/d41/cl__ctf_8qc.html#aeecd993d717869f49fbb751b95237e8b", null ]
+];

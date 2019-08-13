@@ -69,6 +69,7 @@ var searchData=
   ['teamscores_5fflags_5fprimary',['teamscores_flags_primary',['../d2/d79/scores_8qc.html#a6e50936027a40f1b3323c85916c5aea8',1,'scores.qc']]],
   ['teamscores_5fprimary',['teamscores_primary',['../d2/d79/scores_8qc.html#a44b8f99db06745b381ae739bd57ddf6e',1,'scores.qc']]],
   ['teamslots',['teamslots',['../d0/d2a/client_2main_8qh.html#a67e28b10e917f64f11b0ab7af58076a0',1,'main.qh']]],
+  ['teamtime',['teamtime',['../d1/d4d/sv__nexball_8qh.html#adb9caae13a59cc2c0cd5fa0572b27182',1,'sv_nexball.qh']]],
   ['teleport_5fantispam',['teleport_antispam',['../d7/dd0/sv__onslaught_8qh.html#a541333fd0032c201b8f2bd4c97e5e5de',1,'sv_onslaught.qh']]],
   ['teleport_5fflag_5fforce_5ftdeath',['TELEPORT_FLAG_FORCE_TDEATH',['../dd/d2d/teleporters_8qh.html#aac63863f08dec7e6fb0d29f6217466ad',1,'teleporters.qh']]],
   ['teleport_5fflag_5fparticles',['TELEPORT_FLAG_PARTICLES',['../dd/d2d/teleporters_8qh.html#a2282a0f8baf0a645619e7911a38a3d93',1,'teleporters.qh']]],

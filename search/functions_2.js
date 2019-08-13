@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['ball_5fcustomize',['ball_customize',['../d2/d24/sv__nexball_8qc.html#ae0fee9e6e79e37e57cd16ed5aeb2f469',1,'sv_nexball.qc']]],
+  ['ball_5frestart',['ball_restart',['../d2/d24/sv__nexball_8qc.html#a94c5b0e5063e47b60f01814eba1ff94f',1,'sv_nexball.qc']]],
   ['ban_5fdelete',['Ban_Delete',['../d6/d95/ipban_8qc.html#ab915b826ebbe3fa641b6dcf17dbe4fc3',1,'Ban_Delete(float i):&#160;ipban.qc'],['../da/ddd/ipban_8qh.html#ab915b826ebbe3fa641b6dcf17dbe4fc3',1,'Ban_Delete(float i):&#160;ipban.qc']]],
   ['ban_5fenforce',['Ban_Enforce',['../d6/d95/ipban_8qc.html#ac399245a35ad503e1c565510518bfeda',1,'ipban.qc']]],
   ['ban_5fgetclientip',['Ban_GetClientIP',['../d6/d95/ipban_8qc.html#a5574d1f6c14538afc0d13ec0542f47c7',1,'ipban.qc']]],
@@ -22,6 +24,7 @@ var searchData=
   ['bancommand_5fmute',['BanCommand_mute',['../dd/d31/banning_8qc.html#accb18c92820bdc83541f2af3ac0d1461',1,'banning.qc']]],
   ['bancommand_5funban',['BanCommand_unban',['../dd/d31/banning_8qc.html#aaa20889235d234fb166936b0fcd92fc9',1,'banning.qc']]],
   ['bancommand_5funmute',['BanCommand_unmute',['../dd/d31/banning_8qc.html#ad624bb8642bfd1761192424428860a46',1,'banning.qc']]],
+  ['basketball_5ftouch',['basketball_touch',['../d2/d24/sv__nexball_8qc.html#a9ed10a688cab3b01464efc5cc3e6896c',1,'sv_nexball.qc']]],
   ['bd_5factivate_5feditor',['bd_activate_editor',['../d3/dd5/bd_8qc.html#a329dc445ea0a0979553bed8e539bcf0f',1,'bd.qc']]],
   ['bd_5fcanfill',['bd_canfill',['../d3/dd5/bd_8qc.html#a55200b553f47a278e6eb5440333b2bab',1,'bd.qc']]],
   ['bd_5fcheck_5fwinner',['bd_check_winner',['../d3/dd5/bd_8qc.html#ac5ad5fad1ee0038dff7f43b0c6863ecc',1,'bd.qc']]],

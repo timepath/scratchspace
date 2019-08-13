@@ -31,7 +31,7 @@ var registry_8qh =
     [ "REGISTRY_SORT_1", "d2/d5e/registry_8qh.html#a58438a045f1340e22199492325c77407", null ],
     [ "REGISTRY_SORT_2", "d2/d5e/registry_8qh.html#a0dbc1352a0fc19b37f4704541eb78cef", null ],
     [ "_regCheck", "d2/d5e/registry_8qh.html#ad723089001abbac9184587ba270bd53a", null ],
-    [ "Registry_check", "d2/d5e/registry_8qh.html#a6a9bcc884cbe63e74b73cc8601a49d06", null ],
+    [ "Registry_check", "d2/d5e/registry_8qh.html#adfb095cc02b855ac44f5589205370823", null ],
     [ "Registry_send_all", "d2/d5e/registry_8qh.html#a572982106d500d65859979f46c07f1a3", null ],
     [ "registered_id", "d2/d5e/registry_8qh.html#a80bc0f55561b2fdbd9bf5768df172dcf", null ],
     [ "REGISTRY_NEXT", "d2/d5e/registry_8qh.html#abdb2c4c4efccfa31f16e67f85b27b40a", null ]

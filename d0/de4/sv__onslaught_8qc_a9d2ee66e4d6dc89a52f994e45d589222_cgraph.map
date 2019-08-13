@@ -1,48 +1,50 @@
 <map id="ons_Initialize" name="ons_Initialize">
-<area shape="rect" id="node2" href="$dc/dc6/server_2miscfunctions_8qc.html#aef9b6a1e3d47e62ce4d96e73b3dba237" title="InitializeEntity" alt="" coords="568,856,672,883"/>
-<area shape="rect" id="node4" href="$d0/de4/sv__onslaught_8qc.html#a60f84a81d6901268f0cc3a4138813956" title="ons_DelayedInit" alt="" coords="153,704,269,731"/>
-<area shape="rect" id="node3" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1519,616,1574,643"/>
-<area shape="rect" id="node5" href="$d0/de4/sv__onslaught_8qc.html#a14d65ec90152a736bb77ef787a7048ce" title="ons_ScoreRules" alt="" coords="979,957,1098,984"/>
-<area shape="rect" id="node21" href="$d0/de4/sv__onslaught_8qc.html#a0115454fff93903533d20ef3ffe6c347" title="Onslaught_CheckPlayers" alt="" coords="317,755,488,781"/>
-<area shape="rect" id="node22" href="$d0/de4/sv__onslaught_8qc.html#a28e07dd5d22136c5742721b8425ce1e3" title="Onslaught_CheckWinner" alt="" coords="955,363,1122,389"/>
-<area shape="rect" id="node37" href="$db/dfc/round__handler_8qc.html#a35bf06efb917c323c9e026476ca62978" title="round_handler_Init" alt="" coords="1215,515,1343,541"/>
-<area shape="rect" id="node41" href="$d0/de4/sv__onslaught_8qc.html#a8ff94c5e74a9a374a202b8afbd672613" title="Onslaught_RoundStart" alt="" coords="752,755,907,781"/>
-<area shape="rect" id="node42" href="$db/dfc/round__handler_8qc.html#a6207e959aad9c1b0d06e33e011a71b0e" title="round_handler_Spawn" alt="" coords="327,603,478,629"/>
-<area shape="rect" id="node6" href="$de/d4f/teamplay_8qc.html#acb73b42eb788f18df47e8496810cb6e3" title="Checks whether the player can join teams according to global configuration and mutator settings..." alt="" coords="1182,1083,1375,1125"/>
-<area shape="rect" id="node8" href="$de/d4f/teamplay_8qc.html#a30e7d9bb583ec1b560c17ecde4b0a681" title="Destroy the team balance entity. " alt="" coords="1469,989,1624,1016"/>
-<area shape="rect" id="node19" href="$de/d4f/teamplay_8qc.html#abe82ea4203cb5a113135b8323a4ba4ff" title="Returns the bitmask of allowed teams. " alt="" coords="1171,957,1387,984"/>
-<area shape="rect" id="node7" href="$d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" title="spawn" alt="" coords="1517,1192,1577,1219"/>
-<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="1525,1243,1568,1269"/>
-<area shape="rect" id="node10" href="$db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7" title="Returns whether team value is valid. " alt="" coords="1479,1293,1614,1320"/>
-<area shape="rect" id="node11" href="$de/d4f/teamplay_8qc.html#aebcef3dce1a9a78c04ff5a26d9aaf8b7" title="Returns the team entity of the team balance entity that corresponds to the given TEAM_NUM value..." alt="" coords="1465,1040,1628,1067"/>
-<area shape="rect" id="node15" href="$d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec" title="AvailableTeams" alt="" coords="1489,1091,1604,1117"/>
-<area shape="rect" id="node17" href="$de/d4f/teamplay_8qc.html#aa51e7262063512a9c4720abdc5568d48" title="Returns whether the team change to the specified team is allowed. " alt="" coords="1447,923,1646,965"/>
-<area shape="rect" id="node18" href="$de/d4f/teamplay_8qc.html#a313d54cad51a44d5b27a6b03366b728a" title="Bans team change to all teams except the given one. " alt="" coords="1440,1141,1653,1168"/>
-<area shape="rect" id="node12" href="$de/d4f/teamplay_8qc.html#af3b1646b76af378b8a2c420213e0a4a4" title="Returns the team entity of the team balance entity at the given index. " alt="" coords="1707,624,1933,651"/>
-<area shape="rect" id="node14" href="$db/d07/teams_8qh.html#a897aed6be6a82e4d6622abde399e002d" title="Converts team value into team index. " alt="" coords="1982,779,2125,805"/>
-<area shape="rect" id="node13" href="$db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001" title="Returns whether the team index is valid. " alt="" coords="1986,259,2121,285"/>
-<area shape="rect" id="node16" href="$d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f" title="NumTeams" alt="" coords="1775,1091,1865,1117"/>
-<area shape="rect" id="node20" href="$db/d07/teams_8qh.html#ac15de12fd4822619b3536b1061cbff75" title="Converts team index into bit value that is used in team bitmasks. " alt="" coords="1484,872,1609,899"/>
-<area shape="rect" id="node23" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="1255,616,1302,643"/>
-<area shape="rect" id="node24" href="$d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7" title="Damage" alt="" coords="1243,363,1314,389"/>
-<area shape="rect" id="node25" href="$d0/de4/sv__onslaught_8qc.html#a4c2ceee1997b66af4d4e5510dbbbb8aa" title="Onslaught_count_generators" alt="" coords="1185,144,1373,171"/>
-<area shape="rect" id="node32" href="$de/d4f/teamplay_8qc.html#a997873b38598b2989143261c863b1af6" title="Returns the number of teams that own control points. " alt="" coords="1173,195,1384,237"/>
-<area shape="rect" id="node33" href="$d0/de4/sv__onslaught_8qc.html#ad405e8650c15f62101c34ff4bc3374cf" title="Onslaught_GetWinnerTeam" alt="" coords="1187,68,1370,95"/>
-<area shape="rect" id="node35" href="$d2/d79/scores_8qc.html#a74bac5f29749ffee855cd6a5d0e18836" title="Adds a score to the given team. " alt="" coords="1195,464,1362,491"/>
-<area shape="rect" id="node36" href="$dc/d73/server_2miscfunctions_8qh.html#aa5a5ed1fd369382ba21cb76e5803fdf3" title="play2all" alt="" coords="1245,261,1312,288"/>
-<area shape="rect" id="node40" href="$d0/de4/sv__onslaught_8qc.html#ab106e734b4687c7b25b43e1e81a5899d" title="nades_Clear" alt="" coords="1231,312,1326,339"/>
-<area shape="rect" id="node26" href="$de/d4f/teamplay_8qc.html#a680ea919ea93b4f2657953cb23cbc498" title="Sets the number of control points owned by a team. " alt="" coords="1436,208,1657,235"/>
-<area shape="rect" id="node27" href="$de/d4f/teamplay_8qc.html#ad8e889fc6c60b768543862d4e3454a49" title="Returns the global team entity at the given index. " alt="" coords="1731,183,1909,209"/>
-<area shape="rect" id="node28" href="$d8/d06/client_2resources_8qc.html#a53ec0a3c5a395e2b64d468c08f49b63f" title="Returns the current amount of resource the given entity has. " alt="" coords="1497,309,1596,336"/>
-<area shape="rect" id="node29" href="$de/d4f/teamplay_8qc.html#a361810464bed269f4adfdde1177100bf" title="Returns the team entity of the given entity. " alt="" coords="1488,259,1605,285"/>
-<area shape="rect" id="node31" href="$de/d4f/teamplay_8qc.html#af188ef80e3ea1664418d42e58a11427d" title="Returns the number of control points owned by a team. " alt="" coords="1435,107,1658,133"/>
-<area shape="rect" id="node30" href="$de/d4f/teamplay_8qc.html#a22c172b1bbd702efeb58f24a2cb5ac27" title="Returns the team index of the given entity. " alt="" coords="1745,753,1895,780"/>
-<area shape="rect" id="node34" href="$db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a" title="Converts team index into team value. " alt="" coords="1475,5,1618,32"/>
-<area shape="rect" id="node38" href="$d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b" title="fabs" alt="" coords="1523,489,1570,516"/>
-<area shape="rect" id="node39" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1523,540,1570,567"/>
-<area shape="rect" id="node43" href="$db/dfc/round__handler_8qc.html#addd3a61b04d2110fa066146acfbbf75b" title="round_handler_FirstThink" alt="" coords="536,653,704,680"/>
-<area shape="rect" id="node44" href="$db/dfc/round__handler_8qc.html#abad08b2de126a7130c60aa81481278d0" title="round_handler_Think" alt="" coords="758,653,901,680"/>
-<area shape="rect" id="node45" href="$db/dfc/round__handler_8qc.html#a9f9012d50d940fe62137392d78988b0f" title="round_handler_Reset" alt="" coords="1206,667,1351,693"/>
-<area shape="rect" id="node46" href="$db/dfc/round__handler_8qc.html#a515cacf33539a9c94c6545fb9b468602" title="round_handler_Remove" alt="" coords="959,704,1118,731"/>
-<area shape="rect" id="node47" href="$d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f" title="reset_map" alt="" coords="997,653,1080,680"/>
+<area shape="rect" id="node2" href="$dc/dc6/server_2miscfunctions_8qc.html#aef9b6a1e3d47e62ce4d96e73b3dba237" title="InitializeEntity" alt="" coords="568,972,672,999"/>
+<area shape="rect" id="node4" href="$d0/de4/sv__onslaught_8qc.html#a60f84a81d6901268f0cc3a4138813956" title="ons_DelayedInit" alt="" coords="153,508,269,535"/>
+<area shape="rect" id="node3" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1519,583,1574,609"/>
+<area shape="rect" id="node5" href="$d0/de4/sv__onslaught_8qc.html#a14d65ec90152a736bb77ef787a7048ce" title="ons_ScoreRules" alt="" coords="979,331,1098,357"/>
+<area shape="rect" id="node21" href="$d0/de4/sv__onslaught_8qc.html#a0115454fff93903533d20ef3ffe6c347" title="Onslaught_CheckPlayers" alt="" coords="317,559,488,585"/>
+<area shape="rect" id="node22" href="$d0/de4/sv__onslaught_8qc.html#a28e07dd5d22136c5742721b8425ce1e3" title="Onslaught_CheckWinner" alt="" coords="955,837,1122,864"/>
+<area shape="rect" id="node37" href="$db/dfc/round__handler_8qc.html#a35bf06efb917c323c9e026476ca62978" title="round_handler_Init" alt="" coords="1215,432,1343,459"/>
+<area shape="rect" id="node41" href="$d0/de4/sv__onslaught_8qc.html#a8ff94c5e74a9a374a202b8afbd672613" title="Onslaught_RoundStart" alt="" coords="752,432,907,459"/>
+<area shape="rect" id="node42" href="$db/dfc/round__handler_8qc.html#a6207e959aad9c1b0d06e33e011a71b0e" title="round_handler_Spawn" alt="" coords="327,508,478,535"/>
+<area shape="rect" id="node6" href="$de/d4f/teamplay_8qc.html#acb73b42eb788f18df47e8496810cb6e3" title="Checks whether the player can join teams according to global configuration and mutator settings..." alt="" coords="1182,265,1375,306"/>
+<area shape="rect" id="node8" href="$de/d4f/teamplay_8qc.html#a30e7d9bb583ec1b560c17ecde4b0a681" title="Destroy the team balance entity. " alt="" coords="1469,427,1624,453"/>
+<area shape="rect" id="node19" href="$de/d4f/teamplay_8qc.html#abe82ea4203cb5a113135b8323a4ba4ff" title="Returns the bitmask of allowed teams. " alt="" coords="1171,64,1387,91"/>
+<area shape="rect" id="node7" href="$d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" title="spawn" alt="" coords="1517,173,1577,200"/>
+<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="1525,224,1568,251"/>
+<area shape="rect" id="node10" href="$db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7" title="Returns whether team value is valid. " alt="" coords="1479,275,1614,301"/>
+<area shape="rect" id="node11" href="$de/d4f/teamplay_8qc.html#aebcef3dce1a9a78c04ff5a26d9aaf8b7" title="Returns the team entity of the team balance entity that corresponds to the given TEAM_NUM value..." alt="" coords="1465,376,1628,403"/>
+<area shape="rect" id="node15" href="$d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec" title="AvailableTeams" alt="" coords="1489,325,1604,352"/>
+<area shape="rect" id="node17" href="$de/d4f/teamplay_8qc.html#aa51e7262063512a9c4720abdc5568d48" title="Returns whether the team change to the specified team is allowed. " alt="" coords="1447,57,1646,98"/>
+<area shape="rect" id="node18" href="$de/d4f/teamplay_8qc.html#a313d54cad51a44d5b27a6b03366b728a" title="Bans team change to all teams except the given one. " alt="" coords="1440,123,1653,149"/>
+<area shape="rect" id="node12" href="$de/d4f/teamplay_8qc.html#af3b1646b76af378b8a2c420213e0a4a4" title="Returns the team entity of the team balance entity at the given index. " alt="" coords="1707,508,1933,535"/>
+<area shape="rect" id="node14" href="$db/d07/teams_8qh.html#a897aed6be6a82e4d6622abde399e002d" title="Converts team value into team index. " alt="" coords="1982,1081,2125,1108"/>
+<area shape="rect" id="node13" href="$db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001" title="Returns whether the team index is valid. " alt="" coords="1986,1005,2121,1032"/>
+<area shape="rect" id="node16" href="$d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f" title="NumTeams" alt="" coords="1775,325,1865,352"/>
+<area shape="rect" id="node20" href="$db/d07/teams_8qh.html#ac15de12fd4822619b3536b1061cbff75" title="Converts team index into bit value that is used in team bitmasks. " alt="" coords="1484,5,1609,32"/>
+<area shape="rect" id="node23" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="1255,685,1302,712"/>
+<area shape="rect" id="node24" href="$d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7" title="Damage" alt="" coords="1243,837,1314,864"/>
+<area shape="rect" id="node25" href="$d0/de4/sv__onslaught_8qc.html#a4c2ceee1997b66af4d4e5510dbbbb8aa" title="Onslaught_count_generators" alt="" coords="1185,1107,1373,1133"/>
+<area shape="rect" id="node32" href="$de/d4f/teamplay_8qc.html#a997873b38598b2989143261c863b1af6" title="Returns the number of teams that own control points. " alt="" coords="1173,889,1384,930"/>
+<area shape="rect" id="node33" href="$d0/de4/sv__onslaught_8qc.html#ad405e8650c15f62101c34ff4bc3374cf" title="Onslaught_GetWinnerTeam" alt="" coords="1187,1157,1370,1184"/>
+<area shape="rect" id="node35" href="$d2/d79/scores_8qc.html#a74bac5f29749ffee855cd6a5d0e18836" title="Adds a score to the given team. " alt="" coords="1195,736,1362,763"/>
+<area shape="rect" id="node36" href="$dc/d73/server_2miscfunctions_8qh.html#aa5a5ed1fd369382ba21cb76e5803fdf3" title="play2all" alt="" coords="1245,955,1312,981"/>
+<area shape="rect" id="node40" href="$d0/de4/sv__onslaught_8qc.html#ab106e734b4687c7b25b43e1e81a5899d" title="nades_Clear" alt="" coords="1231,1005,1326,1032"/>
+<area shape="rect" id="node26" href="$de/d4f/teamplay_8qc.html#a680ea919ea93b4f2657953cb23cbc498" title="Sets the number of control points owned by a team. " alt="" coords="1436,955,1657,981"/>
+<area shape="rect" id="node27" href="$de/d4f/teamplay_8qc.html#ad8e889fc6c60b768543862d4e3454a49" title="Returns the global team entity at the given index. " alt="" coords="1731,1005,1909,1032"/>
+<area shape="rect" id="node28" href="$d8/d06/client_2resources_8qc.html#a53ec0a3c5a395e2b64d468c08f49b63f" title="Returns the current amount of resource the given entity has. " alt="" coords="1497,1005,1596,1032"/>
+<area shape="rect" id="node29" href="$de/d4f/teamplay_8qc.html#a361810464bed269f4adfdde1177100bf" title="Returns the team entity of the given entity. " alt="" coords="1488,1107,1605,1133"/>
+<area shape="rect" id="node31" href="$de/d4f/teamplay_8qc.html#af188ef80e3ea1664418d42e58a11427d" title="Returns the number of control points owned by a team. " alt="" coords="1435,1157,1658,1184"/>
+<area shape="rect" id="node30" href="$de/d4f/teamplay_8qc.html#a22c172b1bbd702efeb58f24a2cb5ac27" title="Returns the team index of the given entity. " alt="" coords="1745,1107,1895,1133"/>
+<area shape="rect" id="node34" href="$db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a" title="Converts team index into team value. " alt="" coords="1475,1208,1618,1235"/>
+<area shape="rect" id="node38" href="$d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b" title="fabs" alt="" coords="1523,477,1570,504"/>
+<area shape="rect" id="node39" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1523,528,1570,555"/>
+<area shape="rect" id="node43" href="$db/dfc/round__handler_8qc.html#addd3a61b04d2110fa066146acfbbf75b" title="round_handler_FirstThink" alt="" coords="536,635,704,661"/>
+<area shape="rect" id="node44" href="$db/dfc/round__handler_8qc.html#abad08b2de126a7130c60aa81481278d0" title="round_handler_Think" alt="" coords="758,635,901,661"/>
+<area shape="rect" id="node45" href="$db/dfc/round__handler_8qc.html#a9f9012d50d940fe62137392d78988b0f" title="round_handler_Reset" alt="" coords="1206,584,1351,611"/>
+<area shape="rect" id="node46" href="$db/dfc/round__handler_8qc.html#a515cacf33539a9c94c6545fb9b468602" title="round_handler_Remove" alt="" coords="959,635,1118,661"/>
+<area shape="rect" id="node47" href="$d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f" title="reset_map" alt="" coords="997,685,1080,712"/>
+<area shape="rect" id="node48" href="$d3/df2/sv__cmd_8qc.html#a60f83fe4f170673c8c383701d372b257" title="shuffleteams" alt="" coords="1230,635,1327,661"/>
+<area shape="rect" id="node49" href="$de/d4f/teamplay_8qc.html#a42432e4247f20c8c02bee8b5aaf13c32" title="Returns whether player has real forced team. " alt="" coords="1451,635,1642,661"/>
 </map>

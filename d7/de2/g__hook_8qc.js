@@ -12,7 +12,5 @@ var g__hook_8qc =
     [ "RemoveHook", "d7/de2/g__hook_8qc.html#a50f68d93243e10c5a552caae3c7a2413", null ],
     [ "autocvar_g_grappling_hook_tarzan", "d7/de2/g__hook_8qc.html#aa4b859107e1f5475260beefbf52e80b2", null ],
     [ "hook_end", "d7/de2/g__hook_8qc.html#ad84fdb946ff5005b86c373cca730a4eb", null ],
-    [ "hook_length", "d7/de2/g__hook_8qc.html#a1519717f3a87a08db85ba2fc1d01f713", null ],
-    [ "hook_start", "d7/de2/g__hook_8qc.html#a0c406e8cc6d0504973d7ee4cb8fbb53a", null ],
-    [ "state", "d7/de2/g__hook_8qc.html#a89f234133d3efe315836311cbf21c64b", null ]
+    [ "hook_start", "d7/de2/g__hook_8qc.html#a0c406e8cc6d0504973d7ee4cb8fbb53a", null ]
 ];
