@@ -43,7 +43,6 @@ var sv__turrets_8qh =
     [ "turret_scale_refire", "df/d28/sv__turrets_8qh.html#aad2259acd563eb1bb060e962a8085e6b", null ],
     [ "turret_scale_respawn", "df/d28/sv__turrets_8qh.html#a1d5d8b69dda4acca14207e5ffa084ca7", null ],
     [ "tvt_dist", "df/d28/sv__turrets_8qh.html#ab301ce4d3e21954a5e60c6b293610ba8", null ],
-    [ "tvt_tadf", "df/d28/sv__turrets_8qh.html#a1176ea059ff3eb5c59e89f87b7837179", null ],
     [ "tvt_tadv", "df/d28/sv__turrets_8qh.html#a90b555cdf003b86e477a59efac8b4a14", null ],
     [ "tvt_thadf", "df/d28/sv__turrets_8qh.html#a7da351a830557a1fb4b0908c9daf45f1", null ],
     [ "tvt_thadv", "df/d28/sv__turrets_8qh.html#a332de5647b4049b0c0578521988f16fb", null ],
