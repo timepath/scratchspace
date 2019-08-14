@@ -1,5 +1,6 @@
 var NAVTREEINDEX93 =
 {
+"da/d79/dialog__hudpanel__ammo_8qh_source.html":[2,0,5,4,45],
 "da/d7c/plasma_8qh.html":[2,0,1,14,0,33],
 "da/d7c/plasma_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,14,0,33,1],
 "da/d7c/plasma_8qh.html#ad9b88151ae52fa7be5716c0a3a75c202":[2,0,1,14,0,33,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX93 =
 "da/d9b/classXonoticButton.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,154,7],
 "da/d9b/classXonoticButton.html#a706c85a524ce44b84070ec439bbd9acd":[1,0,154,22],
 "da/d9b/classXonoticButton.html#a7642beed5a82948e21add31abf4a4b0a":[1,0,154,31],
-"da/d9b/classXonoticButton.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,154,14],
-"da/d9b/classXonoticButton.html#a7ba277f3c886c7d391915d273fede63c":[1,0,154,58]
+"da/d9b/classXonoticButton.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,154,14]
 };

@@ -30,6 +30,7 @@ var weapons_2weapon_8qh =
     [ "WEP_FLAG_NOTRUEAIM", "d2/d1c/weapons_2weapon_8qh.html#a36a68b33d18e639f9ad70af1d2010c13", null ],
     [ "WEP_FLAG_PENETRATEWALLS", "d2/d1c/weapons_2weapon_8qh.html#ac1cb5337898cc2eecdffab177b8b75a8", null ],
     [ "WEP_FLAG_RELOADABLE", "d2/d1c/weapons_2weapon_8qh.html#a300f8a85518c66b86f3ba3d208117241", null ],
+    [ "WEP_FLAG_SPECIALATTACK", "d2/d1c/weapons_2weapon_8qh.html#afe1c5b9e9737a5790b6031e232606e1a", null ],
     [ "WEP_FLAG_SUPERWEAPON", "d2/d1c/weapons_2weapon_8qh.html#a8291d5f4c89b48b838806f5f916d137e", null ],
     [ "WEP_TYPE_HITSCAN", "d2/d1c/weapons_2weapon_8qh.html#a4df1be4c93f242cc9f7db93970b46f56", null ],
     [ "WEP_TYPE_MELEE_PRI", "d2/d1c/weapons_2weapon_8qh.html#a614c672f17110736e8ce160d3f78e174", null ],

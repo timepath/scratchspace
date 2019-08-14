@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"d5/d73/classXonoticEffectsSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,176,42],
 "d5/d73/classXonoticEffectsSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,176,9],
 "d5/d73/classXonoticEffectsSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,176,3],
 "d5/d73/classXonoticEffectsSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,176,76],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "d5/d95/lib_2matrix_2matrix_8qh.html#a3e890d9d392995f697202431a0aabb74":[2,0,4,1,5,2],
 "d5/d95/lib_2matrix_2matrix_8qh.html#a4422bbecfdc42523f559b11b0e0a1695":[2,0,4,1,5,3],
 "d5/d95/lib_2matrix_2matrix_8qh.html#a44a906194d4f5492f7485b9e5c7e2f35":[2,0,4,1,5,11],
-"d5/d95/lib_2matrix_2matrix_8qh.html#a768b3240e34255af819d0b64f060ab11":[2,0,4,1,5,6],
-"d5/d95/lib_2matrix_2matrix_8qh.html#a7748c528e6b4ef11851dbed2eb85b57e":[2,0,4,1,5,0]
+"d5/d95/lib_2matrix_2matrix_8qh.html#a768b3240e34255af819d0b64f060ab11":[2,0,4,1,5,6]
 };

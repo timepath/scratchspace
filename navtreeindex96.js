@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh.html":[2,0,1,3,0,12,9],
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh.html#a3db352ed2525ccc9b4fec62af48fd1ff":[2,0,1,3,0,12,9,1],
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh_source.html":[2,0,1,3,0,12,9],
 "da/dcf/jetpack_8qc.html":[2,0,1,5,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "db/d07/teams_8qh.html#a0d96b2379c33b381d721c971e72c5637":[2,0,1,48,23],
 "db/d07/teams_8qh.html#a14a11ce0b10148db1820423fb8226b26":[2,0,1,48,45],
 "db/d07/teams_8qh.html#a15980120f655a5c49e480e6da25e4241":[2,0,1,48,12],
-"db/d07/teams_8qh.html#a1616b51fc01b410a6623285036c51997":[2,0,1,48,31],
-"db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7":[2,0,1,48,39]
+"db/d07/teams_8qh.html#a1616b51fc01b410a6623285036c51997":[2,0,1,48,31]
 };

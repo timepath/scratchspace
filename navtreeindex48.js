@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c":[2,0,4,10,0],
 "d5/d52/bits_8qh.html#a436eedb0115f556bd144885d709aad27":[2,0,4,10,12],
 "d5/d52/bits_8qh.html#a5967693540f086cfa357f68978bf0be7":[2,0,4,10,1],
 "d5/d52/bits_8qh.html#a6152f5c7aad64cc41a6c5dc6eef96bf2":[2,0,4,10,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "d5/d70/common_2mutators_2mutator_2overkill_2__mod_8inc_source.html":[2,0,1,10,0,23,0],
 "d5/d73/classXonoticEffectsSettingsTab.html":[1,0,176],
 "d5/d73/classXonoticEffectsSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,176,34],
-"d5/d73/classXonoticEffectsSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,176,15],
-"d5/d73/classXonoticEffectsSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,176,42]
+"d5/d73/classXonoticEffectsSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,176,15]
 };

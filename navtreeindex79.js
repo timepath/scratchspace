@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"d8/dc1/sv__monsters_8qh.html#a14003dc713ba221ddab6bdbbc785abfa":[2,0,1,9,7,33],
 "d8/dc1/sv__monsters_8qh.html#a170809cf3435df92a29373db1d660682":[2,0,1,9,7,37],
 "d8/dc1/sv__monsters_8qh.html#a1d734f67571d6c89c8f175c941f2ae9a":[2,0,1,9,7,21],
 "d8/dc1/sv__monsters_8qh.html#a1e264a94238b71678a588bef93292d8a":[2,0,1,9,7,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "d8/dd8/sv__buffs_8qh.html#af47dcf7ea0d68f44a7894a2001c8186c":[2,0,1,10,0,2,8,31],
 "d8/dd8/sv__buffs_8qh.html#af526ec106deb74e0c7b6a7b6c5f94c7f":[2,0,1,10,0,2,8,39],
 "d8/dd8/sv__buffs_8qh.html#af5e6a1814015f1f8d2a3c648aa0c5912":[2,0,1,10,0,2,8,58],
-"d8/dd8/sv__buffs_8qh.html#af6d860d099f05c1ff62e70c7c593b163":[2,0,1,10,0,2,8,25],
-"d8/dd8/sv__buffs_8qh.html#af966850c6d875356e28e7d26aedf5c80":[2,0,1,10,0,2,8,18]
+"d8/dd8/sv__buffs_8qh.html#af6d860d099f05c1ff62e70c7c593b163":[2,0,1,10,0,2,8,25]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a89df6338f4e105645d340fa17a325a4d":[1,0,245,39],
 "da/db7/classXonoticServerInfoDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,245,101],
 "da/db7/classXonoticServerInfoDialog.html#a992e8261cb27c69ce688c94865f2083e":[1,0,245,17],
 "da/db7/classXonoticServerInfoDialog.html#a9c1bf40202684f5c4d3dd9f6137b86a1":[1,0,245,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "da/dcc/sv__keepaway_8qh.html#aafab530e463e712c9ac91ab0d74e17b6":[2,0,1,3,0,9,5,3],
 "da/dcc/sv__keepaway_8qh.html#ad066a4c24559d830eee8b0e63c5e5d0e":[2,0,1,3,0,9,5,1],
 "da/dcc/sv__keepaway_8qh.html#ae607caf6a8a2b653b882e0abf1a3afd4":[2,0,1,3,0,9,5,5],
-"da/dcc/sv__keepaway_8qh_source.html":[2,0,1,3,0,9,5],
-"da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh.html":[2,0,1,3,0,12,9]
+"da/dcc/sv__keepaway_8qh_source.html":[2,0,1,3,0,9,5]
 };

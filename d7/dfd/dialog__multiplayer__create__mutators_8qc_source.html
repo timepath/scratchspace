@@ -358,7 +358,7 @@ $(document).ready(function(){initNavTree('d7/dfd/dialog__multiplayer__create__mu
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">for</span>(i = <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a90d55a6f4174a92f4c7740dba8e236df">WEP_FIRST</a>, j = 0; i &lt;= <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a210d22e4f59e0b2747412af9978f0f00">WEP_LAST</a>; ++i)</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    {</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        w = <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a1f0a48799ac85436679ce72c5a670052">Weapons_from</a>(i);</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">if</span>(w.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818">WEP_FLAG_HIDDEN</a>)</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">if</span>((w.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818">WEP_FLAG_HIDDEN</a>) || (w.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#afe1c5b9e9737a5790b6031e232606e1a">WEP_FLAG_SPECIALATTACK</a>))</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keywordflow">if</span> ((j % 3) == 0)</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        {</div>
@@ -461,6 +461,7 @@ $(document).ready(function(){initNavTree('d7/dfd/dialog__multiplayer__create__mu
 <div class="ttc" id="menu_2xonotic_2button_8qh_html"><div class="ttname"><a href="../../d3/dd1/menu_2xonotic_2button_8qh.html">button.qh</a></div></div>
 <div class="ttc" id="dialog__multiplayer__create__mutators_8qc_html_ad3288a07f19cd1c82f703d9d47488e5f"><div class="ttname"><a href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#ad3288a07f19cd1c82f703d9d47488e5f">XonoticMutatorsDialog_showNotify</a></div><div class="ttdeci">void XonoticMutatorsDialog_showNotify(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc_source.html#l00012">dialog_multiplayer_create_mutators.qc:12</a></div></div>
 <div class="ttc" id="dialog__multiplayer__create__mutators_8qc_html_acde935bede494b1af21664b6c8aaf6bd"><div class="ttname"><a href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#acde935bede494b1af21664b6c8aaf6bd">WeaponArenaString</a></div><div class="ttdeci">string WeaponArenaString()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc_source.html#l00020">dialog_multiplayer_create_mutators.qc:20</a></div></div>
+<div class="ttc" id="weapons_2weapon_8qh_html_afe1c5b9e9737a5790b6031e232606e1a"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#afe1c5b9e9737a5790b6031e232606e1a">WEP_FLAG_SPECIALATTACK</a></div><div class="ttdeci">const int WEP_FLAG_SPECIALATTACK</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00202">weapon.qh:202</a></div></div>
 <div class="ttc" id="xonotic_2radiobutton_8qh_html"><div class="ttname"><a href="../../d1/da8/xonotic_2radiobutton_8qh.html">radiobutton.qh</a></div></div>
 <div class="ttc" id="xonotic_2checkbox_8qc_html_abd68b3cdbcebff2b5d6fc9da7b430b76"><div class="ttname"><a href="../../d5/d6f/xonotic_2checkbox_8qc.html#abd68b3cdbcebff2b5d6fc9da7b430b76">makeXonoticCheckBox</a></div><div class="ttdeci">entity makeXonoticCheckBox(float isInverted, string theCvar, string theText)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6f/xonotic_2checkbox_8qc_source.html#l00028">checkbox.qc:28</a></div></div>
 <div class="ttc" id="__all_8qh_html"><div class="ttname"><a href="../../d4/d4f/__all_8qh.html">_all.qh</a></div></div>
@@ -476,7 +477,7 @@ $(document).ready(function(){initNavTree('d7/dfd/dialog__multiplayer__create__mu
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html">dialog_multiplayer_create_mutators.qc</a></li>
-    <li class="footer">Generated on Tue Aug 13 2019 19:29:37 for Xonotic by
+    <li class="footer">Generated on Wed Aug 14 2019 20:40:42 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

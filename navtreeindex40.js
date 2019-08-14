@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"d4/d5f/classXonoticFirstRunDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,177,90],
 "d4/d5f/classXonoticFirstRunDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,177,43],
 "d4/d5f/classXonoticFirstRunDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,177,52],
 "d4/d5f/classXonoticFirstRunDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,177,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "d4/d87/classHagar.html#a5e8f6060761bb31dcb6c1de05569e01c":[1,0,47,36],
 "d4/d87/classHagar.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,47,10],
 "d4/d87/classHagar.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,47,9],
-"d4/d87/classHagar.html#a72da9b92c7eee757c86106118f2ec1b5":[1,0,47,34],
-"d4/d87/classHagar.html#a7515d4131829927372fd6583d4ae610a":[1,0,47,0]
+"d4/d87/classHagar.html#a72da9b92c7eee757c86106118f2ec1b5":[1,0,47,34]
 };

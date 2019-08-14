@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"d3/d05/classes_8inc.html":[2,0,5,7],
 "d3/d05/classes_8inc_source.html":[2,0,5,7],
 "d3/d05/hud_8qh.html":[2,0,0,1,4],
 "d3/d05/hud_8qh.html#a0160171124193a7ee2dd193882da4061":[2,0,0,1,4,39],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "d3/d07/scoreboard_8qc.html#aaf5cd5494661624974d09657b6428ff2":[2,0,0,1,0,34,81],
 "d3/d07/scoreboard_8qc.html#aaf870062442b80e096e897517f9b9d5b":[2,0,0,1,0,34,60],
 "d3/d07/scoreboard_8qc.html#ab68d3f55b27c12a82760019c80aef931":[2,0,0,1,0,34,6],
-"d3/d07/scoreboard_8qc.html#ab6d526f8ff9979fe8a64d1b5b3494b5d":[2,0,0,1,0,34,39],
-"d3/d07/scoreboard_8qc.html#ab91b2fca2d12cc0ec9a509722fd461f9":[2,0,0,1,0,34,43]
+"d3/d07/scoreboard_8qc.html#ab6d526f8ff9979fe8a64d1b5b3494b5d":[2,0,0,1,0,34,39]
 };

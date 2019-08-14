@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"d6/dce/sounds_2all_8inc.html#a3d95eb5a35f0b75e19b7bc729ba1eecd":[2,0,1,13,2,15],
 "d6/dce/sounds_2all_8inc.html#a3f2a5f8bbca547cc8de3f24b0843e3ea":[2,0,1,13,2,129],
 "d6/dce/sounds_2all_8inc.html#a40c2e0b70f106bb19d0ab096ef765841":[2,0,1,13,2,158],
 "d6/dce/sounds_2all_8inc.html#a432f49c85b766720c50e3993c9c28c08":[2,0,1,13,2,106],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "d6/dd3/racer_8qh_source.html":[2,0,1,15,0,7],
 "d6/dd3/view_8qc.html":[2,0,0,30],
 "d6/dd3/view_8qc.html#a018a6576512f5f15b72f6a1a732d2af0":[2,0,0,30,28],
-"d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0":[2,0,0,30,70],
-"d6/dd3/view_8qc.html#a07743c572915247b5ea491b781832811":[2,0,0,30,50]
+"d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0":[2,0,0,30,70]
 };
