@@ -1872,7 +1872,7 @@ $(document).ready(function(){initNavTree('d4/d26/t__items_8qc_source.html','../.
 <div class="line"><a name="l01766"></a><span class="lineno"> 1766</span>&#160;                got += GiveResourceValue(e, <a class="code" href="../../d5/dff/ent__cs_8qc.html#ad2d7a2f4fd344b8f21d7b07ca2fd9346">RES_HEALTH</a>, op, val);</div>
 <div class="line"><a name="l01767"></a><span class="lineno"> 1767</span>&#160;                got += GiveResourceValue(e, <a class="code" href="../../d4/d3c/common_2resources_8qh.html#abc6126af1d45847bc59afa0aa3216b04a0861f060780bb8786e1c2e671df167dc">RES_ARMOR</a>, op, val);</div>
 <div class="line"><a name="l01768"></a><span class="lineno"> 1768</span>&#160;            <span class="keywordflow">case</span> <span class="stringliteral">&quot;allweapons&quot;</span>:</div>
-<div class="line"><a name="l01769"></a><span class="lineno"> 1769</span>&#160;                <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null &amp;&amp; !(it.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a>) &amp;&amp; !(it.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#afe1c5b9e9737a5790b6031e232606e1a">WEP_FLAG_SPECIALATTACK</a>), got += GiveWeapon(e, it.m_id, op, val));</div>
+<div class="line"><a name="l01769"></a><span class="lineno"> 1769</span>&#160;                <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null &amp;&amp; !(it.spawnflags &amp; (<a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a> | <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#afe1c5b9e9737a5790b6031e232606e1a">WEP_FLAG_SPECIALATTACK</a>)), got += GiveWeapon(e, it.m_id, op, val));</div>
 <div class="line"><a name="l01770"></a><span class="lineno"> 1770</span>&#160;            <span class="comment">//case &quot;allbuffs&quot;: // all buffs makes a player god, do not want!</span></div>
 <div class="line"><a name="l01771"></a><span class="lineno"> 1771</span>&#160;                <span class="comment">//FOREACH(Buffs, it != BUFF_Null, got += GiveBuff(e, it.m_itemid, op, val));</span></div>
 <div class="line"><a name="l01772"></a><span class="lineno"> 1772</span>&#160;            <span class="keywordflow">case</span> <span class="stringliteral">&quot;allammo&quot;</span>:</div>
@@ -2311,7 +2311,7 @@ $(document).ready(function(){initNavTree('d4/d26/t__items_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../d4/d26/t__items_8qc.html">t_items.qc</a></li>
-    <li class="footer">Generated on Wed Aug 14 2019 20:40:41 for Xonotic by
+    <li class="footer">Generated on Thu Aug 15 2019 07:39:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -358,7 +358,7 @@ $(document).ready(function(){initNavTree('d7/dfd/dialog__multiplayer__create__mu
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">for</span>(i = <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a90d55a6f4174a92f4c7740dba8e236df">WEP_FIRST</a>, j = 0; i &lt;= <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a210d22e4f59e0b2747412af9978f0f00">WEP_LAST</a>; ++i)</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    {</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        w = <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a1f0a48799ac85436679ce72c5a670052">Weapons_from</a>(i);</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">if</span>((w.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818">WEP_FLAG_HIDDEN</a>) || (w.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#afe1c5b9e9737a5790b6031e232606e1a">WEP_FLAG_SPECIALATTACK</a>))</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">if</span> (w.spawnflags &amp; (<a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818">WEP_FLAG_HIDDEN</a> | <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#afe1c5b9e9737a5790b6031e232606e1a">WEP_FLAG_SPECIALATTACK</a>))</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keywordflow">if</span> ((j % 3) == 0)</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        {</div>
@@ -477,7 +477,7 @@ $(document).ready(function(){initNavTree('d7/dfd/dialog__multiplayer__create__mu
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc.html">dialog_multiplayer_create_mutators.qc</a></li>
-    <li class="footer">Generated on Wed Aug 14 2019 20:40:42 for Xonotic by
+    <li class="footer">Generated on Thu Aug 15 2019 07:39:30 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
