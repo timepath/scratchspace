@@ -1,5 +1,9 @@
 var NAVTREEINDEX134 =
 {
+"df/d64/throwing_8qc.html#ac1203fc8c2d30ac799d34c06c456d7dc":[2,0,6,5,14,3],
+"df/d64/throwing_8qc_source.html":[2,0,6,5,14],
+"df/d69/sv__midair_8qh.html":[2,0,1,10,0,17,3],
+"df/d69/sv__midair_8qh_source.html":[2,0,1,10,0,17,3],
 "df/d6c/powerups_8qh.html":[2,0,0,1,0,23],
 "df/d6c/powerups_8qh.html#a0548d6d5f32ee93186047be9beff7348":[2,0,0,1,0,23,0],
 "df/d6c/powerups_8qh_source.html":[2,0,0,1,0,23],
@@ -245,9 +249,5 @@ var NAVTREEINDEX134 =
 "df/d8c/cl__cmd_8qc.html#a4f450d08c8b3f9272bcc63de2ffaa10a":[2,0,0,0,2,8],
 "df/d8c/cl__cmd_8qc.html#a5075d9ab597cb96e01813773fbe5a7a9":[2,0,0,0,2,13],
 "df/d8c/cl__cmd_8qc.html#a50cc61ae7ba803e1028f793b703c4234":[2,0,0,0,2,6],
-"df/d8c/cl__cmd_8qc.html#a52fac36d1549571cfbdfd34efc007ef6":[2,0,0,0,2,5],
-"df/d8c/cl__cmd_8qc.html#a54daafbdbda2cf0eb8d7d53fef76cc6b":[2,0,0,0,2,19],
-"df/d8c/cl__cmd_8qc.html#a583d60e89f85e9e630914fd49db2ab82":[2,0,0,0,2,21],
-"df/d8c/cl__cmd_8qc.html#a6497b1027ea1b049168e22a633df8c9f":[2,0,0,0,2,16],
-"df/d8c/cl__cmd_8qc.html#a8ee68a14511a9aca94752cff6863af16":[2,0,0,0,2,18]
+"df/d8c/cl__cmd_8qc.html#a52fac36d1549571cfbdfd34efc007ef6":[2,0,0,0,2,5]
 };

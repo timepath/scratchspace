@@ -1,5 +1,8 @@
 var NAVTREEINDEX96 =
 {
+"da/dcc/sv__keepaway_8qh.html#ad066a4c24559d830eee8b0e63c5e5d0e":[2,0,1,3,0,9,5,1],
+"da/dcc/sv__keepaway_8qh.html#ae607caf6a8a2b653b882e0abf1a3afd4":[2,0,1,3,0,9,5,5],
+"da/dcc/sv__keepaway_8qh_source.html":[2,0,1,3,0,9,5],
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh.html":[2,0,1,3,0,12,9],
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh.html#a3db352ed2525ccc9b4fec62af48fd1ff":[2,0,1,3,0,12,9,1],
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh_source.html":[2,0,1,3,0,12,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX96 =
 "db/d07/teams_8qh.html#a09735bf77f5ce880b58823cd58c68f12":[2,0,1,48,3],
 "db/d07/teams_8qh.html#a0ad5561c148366b3d877b401167dfd66":[2,0,1,48,2],
 "db/d07/teams_8qh.html#a0cb02eb79415047b3553ff29b7837dbe":[2,0,1,48,55],
-"db/d07/teams_8qh.html#a0d96b2379c33b381d721c971e72c5637":[2,0,1,48,23],
-"db/d07/teams_8qh.html#a14a11ce0b10148db1820423fb8226b26":[2,0,1,48,45],
-"db/d07/teams_8qh.html#a15980120f655a5c49e480e6da25e4241":[2,0,1,48,12],
-"db/d07/teams_8qh.html#a1616b51fc01b410a6623285036c51997":[2,0,1,48,31]
+"db/d07/teams_8qh.html#a0d96b2379c33b381d721c971e72c5637":[2,0,1,48,23]
 };

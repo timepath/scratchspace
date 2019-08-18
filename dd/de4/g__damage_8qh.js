@@ -19,7 +19,7 @@ var g__damage_8qh =
     [ "Obituary_SpecialDeath", "dd/de4/g__damage_8qh.html#a30b6dcb0a5e148d3961cad10abdaf5af", null ],
     [ "Obituary_WeaponDeath", "dd/de4/g__damage_8qh.html#a54e85ad9f5560a23de3bd54026021b06", null ],
     [ "RadiusDamage", "dd/de4/g__damage_8qh.html#a2606d7979cdea514c3d8271956430a8d", null ],
-    [ "RadiusDamageForSource", "dd/de4/g__damage_8qh.html#a1f5edb01679024970f2cf5fa92de80ee", null ],
+    [ "RadiusDamageForSource", "dd/de4/g__damage_8qh.html#a0b53522295b7b52ea512c3102a5051ff", null ],
     [ "Unfreeze", "dd/de4/g__damage_8qh.html#acc99d1a4f941f72826f41d22d035dcee", null ],
     [ "UpdateFrags", "dd/de4/g__damage_8qh.html#a7e53366415188b2157d76a7250422580", null ],
     [ "W_SwitchWeapon_Force", "dd/de4/g__damage_8qh.html#ab9daa12e545de1878a232e10317b0a0e", null ],

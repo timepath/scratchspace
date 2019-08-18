@@ -5,6 +5,7 @@ var sv__buffs_8qc =
     [ "AUTOCVAR", "d2/dac/sv__buffs_8qc.html#a0f38f38cb2a21d68db8fa4402b5b9023", null ],
     [ "buff_Available", "d2/dac/sv__buffs_8qc.html#a77fd18a78f1e4c215d54d855c7230851", null ],
     [ "buff_Customize", "d2/dac/sv__buffs_8qc.html#aa2b9baeed98377cf9f5add370f7d75e1", null ],
+    [ "buff_Delete", "d2/dac/sv__buffs_8qc.html#a131c47c2d622fb4b320649ce04b82837", null ],
     [ "buff_Effect", "d2/dac/sv__buffs_8qc.html#a2f2a3a414348f4af9bd0536a440a15bf", null ],
     [ "buff_GlowColor", "d2/dac/sv__buffs_8qc.html#a888c41c0fac61de0e167b7a2166b4197", null ],
     [ "buff_Inferno_CalculateTime", "d2/dac/sv__buffs_8qc.html#a1183e50710176e0bfc31e437155a9c40", null ],
