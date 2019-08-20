@@ -316,7 +316,6 @@ var searchData=
   ['autocvar_5fcl_5fbobmodel_5fside',['autocvar_cl_bobmodel_side',['../d6/dd3/view_8qc.html#ab8d843b88de066b53e04e63deccb6fe4',1,'view.qc']]],
   ['autocvar_5fcl_5fbobmodel_5fspeed',['autocvar_cl_bobmodel_speed',['../d6/dd3/view_8qc.html#a64f8a6244eefc1944d77cc329104d18e',1,'view.qc']]],
   ['autocvar_5fcl_5fbobmodel_5fup',['autocvar_cl_bobmodel_up',['../d6/dd3/view_8qc.html#adfcdcc1a1dae2d6ed5ef216e67e63753',1,'view.qc']]],
-  ['autocvar_5fcl_5fcasings',['autocvar_cl_casings',['../d7/db4/client_2autocvars_8qh.html#a0a74c893c54d4aea1a10148be379fc2d',1,'autocvars.qh']]],
   ['autocvar_5fcl_5fcasings_5fbronze_5ftime',['autocvar_cl_casings_bronze_time',['../d7/db4/client_2autocvars_8qh.html#adf3d054c9565ed89aa9496afd7f13d3a',1,'autocvars.qh']]],
   ['autocvar_5fcl_5fcasings_5fmaxcount',['autocvar_cl_casings_maxcount',['../d7/db4/client_2autocvars_8qh.html#a0bac582169135be767df861ce506fc9c',1,'autocvars.qh']]],
   ['autocvar_5fcl_5fcasings_5fshell_5ftime',['autocvar_cl_casings_shell_time',['../d7/db4/client_2autocvars_8qh.html#a76ebeefadb32c8cc3d1c4237d7618bfe',1,'autocvars.qh']]],

@@ -149,17 +149,17 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00207">207</a> of file <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html">client.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00213">213</a> of file <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html">client.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00060">input_angles</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00054">pmove_org</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00154">WarpZone_Find()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00499">WarpZone_TransformOrigin()</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00514">WarpZone_TransformVAngles()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;{</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a191c61933b716c17f4aaac24e9049664">WarpZone_Find</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a595351befc950d820a541f1aee66803f">pmove_org</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a595351befc950d820a541f1aee66803f">pmove_org</a>);</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keywordflow">if</span>(e)</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    {</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a595351befc950d820a541f1aee66803f">pmove_org</a> = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a83f110aec024c6632cd713cf64cb136e">WarpZone_TransformOrigin</a>(e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a595351befc950d820a541f1aee66803f">pmove_org</a>);</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2dea611b70df347cd7f6bb0eed4438da">input_angles</a> = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a41cf8548d069adaa8207d7b8dd7cd976">WarpZone_TransformVAngles</a>(e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2dea611b70df347cd7f6bb0eed4438da">input_angles</a>);</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    }</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;{</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a191c61933b716c17f4aaac24e9049664">WarpZone_Find</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a595351befc950d820a541f1aee66803f">pmove_org</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a595351befc950d820a541f1aee66803f">pmove_org</a>);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordflow">if</span>(e)</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a595351befc950d820a541f1aee66803f">pmove_org</a> = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a83f110aec024c6632cd713cf64cb136e">WarpZone_TransformOrigin</a>(e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a595351befc950d820a541f1aee66803f">pmove_org</a>);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2dea611b70df347cd7f6bb0eed4438da">input_angles</a> = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a41cf8548d069adaa8207d7b8dd7cd976">WarpZone_TransformVAngles</a>(e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2dea611b70df347cd7f6bb0eed4438da">input_angles</a>);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    }</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a595351befc950d820a541f1aee66803f"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a595351befc950d820a541f1aee66803f">pmove_org</a></div><div class="ttdeci">vector pmove_org</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00054">csprogsdefs.qc:54</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a83f110aec024c6632cd713cf64cb136e"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a83f110aec024c6632cd713cf64cb136e">WarpZone_TransformOrigin</a></div><div class="ttdeci">vector WarpZone_TransformOrigin(entity wz, vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00499">common.qc:499</a></div></div>
@@ -192,80 +192,80 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00220">220</a> of file <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html">client.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00226">226</a> of file <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html">client.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00218">autocvar_cl_rollkillspeed</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00017">frametime</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00030">VF_ANGLES</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00042">VF_CL_VIEWANGLES_Z</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00026">VF_ORIGIN</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00154">WarpZone_Find()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00175">WarpZone_FixNearClip()</a>, <a class="el" href="../../d2/d35/lib_2warpzone_2client_8qh_source.html#l00009">warpzone_save_view_angles</a>, <a class="el" href="../../d2/d35/lib_2warpzone_2client_8qh_source.html#l00008">warpzone_save_view_origin</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00499">WarpZone_TransformOrigin()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00514">WarpZone_TransformVAngles()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00161">WarpZone_View_Inside()</a>, and <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00153">WarpZone_View_Outside()</a>.</p>
+<p>References <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00224">autocvar_cl_rollkillspeed</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00017">frametime</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00030">VF_ANGLES</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00042">VF_CL_VIEWANGLES_Z</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00026">VF_ORIGIN</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00154">WarpZone_Find()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00181">WarpZone_FixNearClip()</a>, <a class="el" href="../../d2/d35/lib_2warpzone_2client_8qh_source.html#l00009">warpzone_save_view_angles</a>, <a class="el" href="../../d2/d35/lib_2warpzone_2client_8qh_source.html#l00008">warpzone_save_view_origin</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00499">WarpZone_TransformOrigin()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00514">WarpZone_TransformVAngles()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00167">WarpZone_View_Inside()</a>, and <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00159">WarpZone_View_Outside()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01544">CSQC_UpdateView()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;{</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> org, ang, nearclip, corner0, corner1, corner2, corner3, o;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <a class="code" href="../../d2/d35/lib_2warpzone_2client_8qh.html#a101eeecba6795f0787ca09211a17401d">warpzone_save_view_origin</a> = org = getpropertyvec(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac6a171b14a5d68395a67b22c77ecfd15">VF_ORIGIN</a>);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <a class="code" href="../../d2/d35/lib_2warpzone_2client_8qh.html#a6a5c2713d75994d87ca375dc96906bd2">warpzone_save_view_angles</a> = ang = getpropertyvec(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#a4b905ecd0e878e5d661430acefa6d2e0">VF_ANGLES</a>);</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    e = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a191c61933b716c17f4aaac24e9049664">WarpZone_Find</a>(org, org);</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordflow">if</span>(e)</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    {</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        org = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a83f110aec024c6632cd713cf64cb136e">WarpZone_TransformOrigin</a>(e, org);</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        ang = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a41cf8548d069adaa8207d7b8dd7cd976">WarpZone_TransformVAngles</a>(e, ang);</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#abeb07031623afbfcb1e815119e202613">WarpZone_View_Inside</a>();</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    }</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#a18508bf93d97584800184066cf8e520a">WarpZone_View_Outside</a>();</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="preprocessor">#ifndef KEEP_ROLL</span></div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">float</span> rick;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordtype">float</span> f;</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> rollkill;</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keywordflow">if</span> (STAT(HEALTH) &gt; 0 || STAT(HEALTH) == -666 || STAT(HEALTH) == -2342)</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    {</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        f = 0;</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        <span class="comment">// reset roll when passing through a warpzone that change player&#39;s roll angle</span></div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>)</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            f = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, (1 - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>));</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <span class="keywordflow">if</span>(rollkill)</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            rollkill = 0;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    }</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    {</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        f = 1;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="comment">// roll the view when killed (v_deathtilt)</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>)</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        {</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            rollkill += <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            f = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(1, rollkill);</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        }</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(rollkill)</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            rollkill = 0;</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    }</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    rick = getproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad93c98449b3910d2f15c2ccdd4122940">VF_CL_VIEWANGLES_Z</a>);</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    rick *= f;</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad93c98449b3910d2f15c2ccdd4122940">VF_CL_VIEWANGLES_Z</a>, rick);</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    ang.z *= f;</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac6a171b14a5d68395a67b22c77ecfd15">VF_ORIGIN</a>, org);</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#a4b905ecd0e878e5d661430acefa6d2e0">VF_ANGLES</a>, ang);</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    nearclip = <span class="stringliteral">&#39;0 0 1&#39;</span> * (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;r_nearclip&quot;</span>) * 1.125);</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    corner0 = cs_unproject(<span class="stringliteral">&#39;0 0 0&#39;</span> + nearclip);</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    corner1 = cs_unproject(<span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conwidth&quot;</span>) + nearclip);</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    corner2 = cs_unproject(<span class="stringliteral">&#39;0 1 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conheight&quot;</span>) + nearclip);</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    corner3 = cs_unproject(<span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conwidth&quot;</span>) + <span class="stringliteral">&#39;0 1 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conheight&quot;</span>) + nearclip);</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    o = <a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab338251c1135e3e781742710d3b5689c">WarpZone_FixNearClip</a>(org, corner0, corner1, corner2, corner3);</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="keywordflow">if</span>(o != <span class="stringliteral">&#39;0 0 0&#39;</span>)</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac6a171b14a5d68395a67b22c77ecfd15">VF_ORIGIN</a>, org + o);</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;{</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> org, ang, nearclip, corner0, corner1, corner2, corner3, o;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <a class="code" href="../../d2/d35/lib_2warpzone_2client_8qh.html#a101eeecba6795f0787ca09211a17401d">warpzone_save_view_origin</a> = org = getpropertyvec(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac6a171b14a5d68395a67b22c77ecfd15">VF_ORIGIN</a>);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <a class="code" href="../../d2/d35/lib_2warpzone_2client_8qh.html#a6a5c2713d75994d87ca375dc96906bd2">warpzone_save_view_angles</a> = ang = getpropertyvec(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#a4b905ecd0e878e5d661430acefa6d2e0">VF_ANGLES</a>);</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    e = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a191c61933b716c17f4aaac24e9049664">WarpZone_Find</a>(org, org);</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordflow">if</span>(e)</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        org = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a83f110aec024c6632cd713cf64cb136e">WarpZone_TransformOrigin</a>(e, org);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        ang = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a41cf8548d069adaa8207d7b8dd7cd976">WarpZone_TransformVAngles</a>(e, ang);</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#abeb07031623afbfcb1e815119e202613">WarpZone_View_Inside</a>();</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#a18508bf93d97584800184066cf8e520a">WarpZone_View_Outside</a>();</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="preprocessor">#ifndef KEEP_ROLL</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">float</span> rick;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordtype">float</span> f;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> rollkill;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordflow">if</span> (STAT(HEALTH) &gt; 0 || STAT(HEALTH) == -666 || STAT(HEALTH) == -2342)</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        f = 0;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="comment">// reset roll when passing through a warpzone that change player&#39;s roll angle</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>)</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            f = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, (1 - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>));</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">if</span>(rollkill)</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            rollkill = 0;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    }</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        f = 1;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="comment">// roll the view when killed (v_deathtilt)</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>)</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            rollkill += <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            f = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(1, rollkill);</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        }</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(rollkill)</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            rollkill = 0;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    }</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    rick = getproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad93c98449b3910d2f15c2ccdd4122940">VF_CL_VIEWANGLES_Z</a>);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    rick *= f;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad93c98449b3910d2f15c2ccdd4122940">VF_CL_VIEWANGLES_Z</a>, rick);</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    ang.z *= f;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac6a171b14a5d68395a67b22c77ecfd15">VF_ORIGIN</a>, org);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#a4b905ecd0e878e5d661430acefa6d2e0">VF_ANGLES</a>, ang);</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    nearclip = <span class="stringliteral">&#39;0 0 1&#39;</span> * (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;r_nearclip&quot;</span>) * 1.125);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    corner0 = cs_unproject(<span class="stringliteral">&#39;0 0 0&#39;</span> + nearclip);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    corner1 = cs_unproject(<span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conwidth&quot;</span>) + nearclip);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    corner2 = cs_unproject(<span class="stringliteral">&#39;0 1 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conheight&quot;</span>) + nearclip);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    corner3 = cs_unproject(<span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conwidth&quot;</span>) + <span class="stringliteral">&#39;0 1 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conheight&quot;</span>) + nearclip);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    o = <a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab338251c1135e3e781742710d3b5689c">WarpZone_FixNearClip</a>(org, corner0, corner1, corner2, corner3);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="keywordflow">if</span>(o != <span class="stringliteral">&#39;0 0 0&#39;</span>)</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac6a171b14a5d68395a67b22c77ecfd15">VF_ORIGIN</a>, org + o);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
 <div class="ttc" id="lib_2warpzone_2client_8qh_html_a6a5c2713d75994d87ca375dc96906bd2"><div class="ttname"><a href="../../d2/d35/lib_2warpzone_2client_8qh.html#a6a5c2713d75994d87ca375dc96906bd2">warpzone_save_view_angles</a></div><div class="ttdeci">vector warpzone_save_view_angles</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d35/lib_2warpzone_2client_8qh_source.html#l00009">client.qh:9</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a83f110aec024c6632cd713cf64cb136e"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a83f110aec024c6632cd713cf64cb136e">WarpZone_TransformOrigin</a></div><div class="ttdeci">vector WarpZone_TransformOrigin(entity wz, vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00499">common.qc:499</a></div></div>
-<div class="ttc" id="lib_2warpzone_2client_8qc_html_abeb07031623afbfcb1e815119e202613"><div class="ttname"><a href="../../d0/d72/lib_2warpzone_2client_8qc.html#abeb07031623afbfcb1e815119e202613">WarpZone_View_Inside</a></div><div class="ttdeci">void WarpZone_View_Inside()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00161">client.qc:161</a></div></div>
+<div class="ttc" id="lib_2warpzone_2client_8qc_html_abeb07031623afbfcb1e815119e202613"><div class="ttname"><a href="../../d0/d72/lib_2warpzone_2client_8qc.html#abeb07031623afbfcb1e815119e202613">WarpZone_View_Inside</a></div><div class="ttdeci">void WarpZone_View_Inside()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00167">client.qc:167</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 <div class="ttc" id="lib_2warpzone_2client_8qh_html_a101eeecba6795f0787ca09211a17401d"><div class="ttname"><a href="../../d2/d35/lib_2warpzone_2client_8qh.html#a101eeecba6795f0787ca09211a17401d">warpzone_save_view_origin</a></div><div class="ttdeci">vector warpzone_save_view_origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d35/lib_2warpzone_2client_8qh_source.html#l00008">client.qh:8</a></div></div>
-<div class="ttc" id="lib_2warpzone_2client_8qc_html_a18508bf93d97584800184066cf8e520a"><div class="ttname"><a href="../../d0/d72/lib_2warpzone_2client_8qc.html#a18508bf93d97584800184066cf8e520a">WarpZone_View_Outside</a></div><div class="ttdeci">void WarpZone_View_Outside()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00153">client.qc:153</a></div></div>
+<div class="ttc" id="lib_2warpzone_2client_8qc_html_a18508bf93d97584800184066cf8e520a"><div class="ttname"><a href="../../d0/d72/lib_2warpzone_2client_8qc.html#a18508bf93d97584800184066cf8e520a">WarpZone_View_Outside</a></div><div class="ttdeci">void WarpZone_View_Outside()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00159">client.qc:159</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_ac6a171b14a5d68395a67b22c77ecfd15"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ac6a171b14a5d68395a67b22c77ecfd15">VF_ORIGIN</a></div><div class="ttdeci">const int VF_ORIGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00026">csqc_constants.qh:26</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
@@ -274,8 +274,8 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a491da4d42d2639395d76dcf8d9d1dff4"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a></div><div class="ttdeci">float frametime</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00017">csprogsdefs.qc:17</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a4b905ecd0e878e5d661430acefa6d2e0"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a4b905ecd0e878e5d661430acefa6d2e0">VF_ANGLES</a></div><div class="ttdeci">const int VF_ANGLES</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00030">csqc_constants.qh:30</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_ad93c98449b3910d2f15c2ccdd4122940"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ad93c98449b3910d2f15c2ccdd4122940">VF_CL_VIEWANGLES_Z</a></div><div class="ttdeci">const int VF_CL_VIEWANGLES_Z</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00042">csqc_constants.qh:42</a></div></div>
-<div class="ttc" id="lib_2warpzone_2client_8qc_html_ab338251c1135e3e781742710d3b5689c"><div class="ttname"><a href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab338251c1135e3e781742710d3b5689c">WarpZone_FixNearClip</a></div><div class="ttdeci">vector WarpZone_FixNearClip(vector o, vector c0, vector c1, vector c2, vector c3)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00175">client.qc:175</a></div></div>
-<div class="ttc" id="lib_2warpzone_2client_8qc_html_ab3f2a27bbe165bde5440cb0ab617a0da"><div class="ttname"><a href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a></div><div class="ttdeci">float autocvar_cl_rollkillspeed</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00218">client.qc:218</a></div></div>
+<div class="ttc" id="lib_2warpzone_2client_8qc_html_ab338251c1135e3e781742710d3b5689c"><div class="ttname"><a href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab338251c1135e3e781742710d3b5689c">WarpZone_FixNearClip</a></div><div class="ttdeci">vector WarpZone_FixNearClip(vector o, vector c0, vector c1, vector c2, vector c3)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00181">client.qc:181</a></div></div>
+<div class="ttc" id="lib_2warpzone_2client_8qc_html_ab3f2a27bbe165bde5440cb0ab617a0da"><div class="ttname"><a href="../../d0/d72/lib_2warpzone_2client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a></div><div class="ttdeci">float autocvar_cl_rollkillspeed</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00224">client.qc:224</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -312,15 +312,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00283">283</a> of file <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html">client.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00289">289</a> of file <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html">client.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00153">WarpZone_View_Outside()</a>.</p>
+<p>References <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00159">WarpZone_View_Outside()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00196">Shutdown()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;{</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#a18508bf93d97584800184066cf8e520a">WarpZone_View_Outside</a>();</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;}</div>
-<div class="ttc" id="lib_2warpzone_2client_8qc_html_a18508bf93d97584800184066cf8e520a"><div class="ttname"><a href="../../d0/d72/lib_2warpzone_2client_8qc.html#a18508bf93d97584800184066cf8e520a">WarpZone_View_Outside</a></div><div class="ttdeci">void WarpZone_View_Outside()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00153">client.qc:153</a></div></div>
+<div class="fragment"><div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;{</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <a class="code" href="../../d0/d72/lib_2warpzone_2client_8qc.html#a18508bf93d97584800184066cf8e520a">WarpZone_View_Outside</a>();</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;}</div>
+<div class="ttc" id="lib_2warpzone_2client_8qc_html_a18508bf93d97584800184066cf8e520a"><div class="ttname"><a href="../../d0/d72/lib_2warpzone_2client_8qc.html#a18508bf93d97584800184066cf8e520a">WarpZone_View_Outside</a></div><div class="ttdeci">void WarpZone_View_Outside()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00159">client.qc:159</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -357,7 +357,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/d35/lib_2warpzone_2client_8qh_source.html#l00009">9</a> of file <a class="el" href="../../d2/d35/lib_2warpzone_2client_8qh_source.html">client.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00220">WarpZone_FixView()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00226">WarpZone_FixView()</a>.</p>
 
 </div>
 </div>
@@ -373,7 +373,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/d35/lib_2warpzone_2client_8qh_source.html#l00008">8</a> of file <a class="el" href="../../d2/d35/lib_2warpzone_2client_8qh_source.html">client.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00220">WarpZone_FixView()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00226">WarpZone_FixView()</a>.</p>
 
 </div>
 </div>
@@ -383,7 +383,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_58d953ef34ccfc4a49203206a34466c3.html">warpzone</a></li><li class="navelem"><a class="el" href="../../d2/d35/lib_2warpzone_2client_8qh.html">client.qh</a></li>
-    <li class="footer">Generated on Tue Aug 20 2019 00:07:40 for Xonotic by
+    <li class="footer">Generated on Tue Aug 20 2019 00:31:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,8 @@
 var NAVTREEINDEX59 =
 {
+"d6/dce/sounds_2all_8inc.html#a3b592a48afa6dd6f3e8da119f2d67aa7":[2,0,1,13,2,160],
+"d6/dce/sounds_2all_8inc.html#a3bd499613d6533f521d20f5308b44077":[2,0,1,13,2,2],
+"d6/dce/sounds_2all_8inc.html#a3c31120fefaa5151b25d569715c72ac8":[2,0,1,13,2,65],
 "d6/dce/sounds_2all_8inc.html#a3c54eb78926c519697a877c12483eb47":[2,0,1,13,2,18],
 "d6/dce/sounds_2all_8inc.html#a3d95eb5a35f0b75e19b7bc729ba1eecd":[2,0,1,13,2,15],
 "d6/dce/sounds_2all_8inc.html#a3f2a5f8bbca547cc8de3f24b0843e3ea":[2,0,1,13,2,129],
@@ -246,8 +249,5 @@ var NAVTREEINDEX59 =
 "d6/dd1/classXonoticHUDCenterprintDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,187,35],
 "d6/dd1/classXonoticHUDCenterprintDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,187,39],
 "d6/dd3/racer_8qh.html":[2,0,1,15,0,7],
-"d6/dd3/racer_8qh.html#a435c1051f806ec86e0a57e2e1d351de2":[2,0,1,15,0,7,1],
-"d6/dd3/racer_8qh_source.html":[2,0,1,15,0,7],
-"d6/dd3/view_8qc.html":[2,0,0,30],
-"d6/dd3/view_8qc.html#a018a6576512f5f15b72f6a1a732d2af0":[2,0,0,30,28]
+"d6/dd3/racer_8qh.html#a435c1051f806ec86e0a57e2e1d351de2":[2,0,1,15,0,7,1]
 };

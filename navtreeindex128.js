@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"de/d7a/classXonoticHUDScoreDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,203,69],
+"de/d7a/classXonoticHUDScoreDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,203,68],
 "de/d7a/classXonoticHUDScoreDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,203,7],
 "de/d7a/classXonoticHUDScoreDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,203,70],
 "de/d7a/classXonoticHUDScoreDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,203,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "de/d9a/item_8qc.html#af10a456226e2bd11255baff142ec9bc1":[2,0,5,11,1],
 "de/d9a/item_8qc_source.html":[2,0,5,11],
 "de/d9b/steerlib_8qc.html":[2,0,6,60],
-"de/d9b/steerlib_8qc.html#a0d43b60b0c297167b1277c8237474c07":[2,0,6,60,16],
-"de/d9b/steerlib_8qc.html#a150ff1bca4bff561b5ced20e2e3b87d7":[2,0,6,60,1],
-"de/d9b/steerlib_8qc.html#a202933833eafdba803e5bb95b59049eb":[2,0,6,60,14]
+"de/d9b/steerlib_8qc.html#a0d43b60b0c297167b1277c8237474c07":[2,0,6,60,16]
 };

@@ -245,6 +245,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a5debad0a069dcef7c24158a8db6db7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3577e884d8246712e785234d6ad3e61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d37/classClient.html#af3577e884d8246712e785234d6ad3e61">cvar_cl_buffs_autoreplace</a> = this.cvar_cl_buffs_autoreplace</td></tr>
 <tr class="separator:af3577e884d8246712e785234d6ad3e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e8c81f1b8b9d620016488589df74af4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d37/classClient.html#a9e8c81f1b8b9d620016488589df74af4">cvar_cl_casings</a> = this.cvar_cl_casings</td></tr>
+<tr class="separator:a9e8c81f1b8b9d620016488589df74af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26036b7494d9b1e5634683ccd2270113"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d37/classClient.html#a26036b7494d9b1e5634683ccd2270113">cvar_cl_clippedspectating</a> = this.cvar_cl_clippedspectating</td></tr>
 <tr class="separator:a26036b7494d9b1e5634683ccd2270113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1da889e7ccc1c050939ba9380bd6c0d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d37/classClient.html#a1da889e7ccc1c050939ba9380bd6c0d0">cvar_cl_cts_noautoswitch</a> = this.cvar_cl_cts_noautoswitch</td></tr>
@@ -413,22 +415,22 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00157">157</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00158">158</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d0/d3f/state_8qc_source.html#l00037">ClientState_attach()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00015">make_impure</a>.</p>
-<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                 {</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../d1/d37/classClient.html#ae355958a385e61face4d5c090fd1b4ec">m_unwind</a>(<span class="keyword">this</span>)) <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;player_joining&quot;</span>;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">int</span> playerid_last;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        this.<a class="code" href="../../d1/d37/classClient.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b">playerid</a> = ++playerid_last;</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <a class="code" href="../../d8/de2/server_2client_8qh.html#afc32312bf25df126b18e078bedab7837">ClientState_attach</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                 {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../d1/d37/classClient.html#ae355958a385e61face4d5c090fd1b4ec">m_unwind</a>(<span class="keyword">this</span>)) <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;player_joining&quot;</span>;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">int</span> playerid_last;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        this.<a class="code" href="../../d1/d37/classClient.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b">playerid</a> = ++playerid_last;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <a class="code" href="../../d8/de2/server_2client_8qh.html#afc32312bf25df126b18e078bedab7837">ClientState_attach</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="oo_8qh_html_a2c6f379bca790f3aa11453fb312572a2"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a></div><div class="ttdeci">#define make_impure(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00015">oo.qh:15</a></div></div>
 <div class="ttc" id="classClient_html_a132b9bf3e3c1bcf422f36fa89ddd8e9b"><div class="ttname"><a href="../../d1/d37/classClient.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b">Client::playerid</a></div><div class="ttdeci">int playerid</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00072">client.qh:72</a></div></div>
 <div class="ttc" id="server_2client_8qh_html_afc32312bf25df126b18e078bedab7837"><div class="ttname"><a href="../../d8/de2/server_2client_8qh.html#afc32312bf25df126b18e078bedab7837">ClientState_attach</a></div><div class="ttdeci">void ClientState_attach(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d3f/state_8qc_source.html#l00037">state.qc:37</a></div></div>
-<div class="ttc" id="classClient_html_ae355958a385e61face4d5c090fd1b4ec"><div class="ttname"><a href="../../d1/d37/classClient.html#ae355958a385e61face4d5c090fd1b4ec">Client::m_unwind</a></div><div class="ttdeci">virtual void m_unwind()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00210">client.qh:210</a></div></div>
+<div class="ttc" id="classClient_html_ae355958a385e61face4d5c090fd1b4ec"><div class="ttname"><a href="../../d1/d37/classClient.html#ae355958a385e61face4d5c090fd1b4ec">Client::m_unwind</a></div><div class="ttdeci">virtual void m_unwind()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00211">client.qh:211</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -463,10 +465,10 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00165">165</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                       {</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        Client_Remove(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00166">166</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                       {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        Client_Remove(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -492,15 +494,15 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00168">168</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00169">169</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
 <p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00117">CONSTRUCT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8">cvar_defstring()</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00030">name</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l01606">netaddress</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00012">netname</a>, and <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l02379">playermodel</a>.</p>
-<div class="fragment"><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                                     {</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(<a class="code" href="../../d1/d37/classClient.html">Client</a>);</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        this.<a class="code" href="../../d1/d37/classClient.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012">netname</a> = <a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        this.<a class="code" href="../../d1/d37/classClient.html#ac7d2f552e4ce0768198744f31d7deb25">netaddress</a> = <span class="stringliteral">&quot;local&quot;</span>;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        this.<a class="code" href="../../d1/d37/classClient.html#a486563026f66dc61e671c089890b2be9">playermodel</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8">cvar_defstring</a>(<span class="stringliteral">&quot;sv_defaultplayermodel&quot;</span>);</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                                     {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(<a class="code" href="../../d1/d37/classClient.html">Client</a>);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        this.<a class="code" href="../../d1/d37/classClient.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012">netname</a> = <a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        this.<a class="code" href="../../d1/d37/classClient.html#ac7d2f552e4ce0768198744f31d7deb25">netaddress</a> = <span class="stringliteral">&quot;local&quot;</span>;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        this.<a class="code" href="../../d1/d37/classClient.html#a486563026f66dc61e671c089890b2be9">playermodel</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8">cvar_defstring</a>(<span class="stringliteral">&quot;sv_defaultplayermodel&quot;</span>);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    }</div>
 <div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00117">oo.qh:117</a></div></div>
 <div class="ttc" id="classClient_html_a486563026f66dc61e671c089890b2be9"><div class="ttname"><a href="../../d1/d37/classClient.html#a486563026f66dc61e671c089890b2be9">Client::playermodel</a></div><div class="ttdeci">string playermodel</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00019">client.qh:19</a></div></div>
 <div class="ttc" id="classClient_html"><div class="ttname"><a href="../../d1/d37/classClient.html">Client</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00011">client.qh:11</a></div></div>
@@ -543,36 +545,36 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00210">210</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00211">211</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00082">TC</a>, and <a class="el" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>.</p>
-<div class="fragment"><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;{</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d1/d37/classClient.html">Client</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="preprocessor">    #define UNWIND(class) MACRO_BEGIN if (this.instanceOf##class) { METHOD_REFERENCE(class, dtorimpl)(this); } MACRO_END</span></div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">switch</span> (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>) {</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;Observer&quot;</span>:</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            <a class="code" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>(<a class="code" href="../../d1/d48/classSpectator.html">Spectator</a>);</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            <a class="code" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>(<a class="code" href="../../d2/d4b/classPlayer.html">Player</a>);</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;Spectator&quot;</span>:</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            <a class="code" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>(<a class="code" href="../../de/dab/classObserver.html">Observer</a>);</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            <a class="code" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>(<a class="code" href="../../d2/d4b/classPlayer.html">Player</a>);</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;Player&quot;</span>:</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            <a class="code" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>(<a class="code" href="../../de/dab/classObserver.html">Observer</a>);</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            <a class="code" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>(<a class="code" href="../../d1/d48/classSpectator.html">Spectator</a>);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    }</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;<span class="preprocessor">    #undef UNWIND</span></div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;{</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d1/d37/classClient.html">Client</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="preprocessor">    #define UNWIND(class) MACRO_BEGIN if (this.instanceOf##class) { METHOD_REFERENCE(class, dtorimpl)(this); } MACRO_END</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">switch</span> (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>) {</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;Observer&quot;</span>:</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            <a class="code" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>(<a class="code" href="../../d1/d48/classSpectator.html">Spectator</a>);</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            <a class="code" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>(<a class="code" href="../../d2/d4b/classPlayer.html">Player</a>);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;Spectator&quot;</span>:</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            <a class="code" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>(<a class="code" href="../../de/dab/classObserver.html">Observer</a>);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <a class="code" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>(<a class="code" href="../../d2/d4b/classPlayer.html">Player</a>);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;Player&quot;</span>:</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            <a class="code" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>(<a class="code" href="../../de/dab/classObserver.html">Observer</a>);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <a class="code" href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a>(<a class="code" href="../../d1/d48/classSpectator.html">Spectator</a>);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    }</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="preprocessor">    #undef UNWIND</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
-<div class="ttc" id="classSpectator_html"><div class="ttname"><a href="../../d1/d48/classSpectator.html">Spectator</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00183">client.qh:183</a></div></div>
-<div class="ttc" id="classObserver_html"><div class="ttname"><a href="../../de/dab/classObserver.html">Observer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00176">client.qh:176</a></div></div>
+<div class="ttc" id="classSpectator_html"><div class="ttname"><a href="../../d1/d48/classSpectator.html">Spectator</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00184">client.qh:184</a></div></div>
+<div class="ttc" id="classObserver_html"><div class="ttname"><a href="../../de/dab/classObserver.html">Observer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00177">client.qh:177</a></div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00082">_all.inc:82</a></div></div>
 <div class="ttc" id="classClient_html"><div class="ttname"><a href="../../d1/d37/classClient.html">Client</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00011">client.qh:11</a></div></div>
 <div class="ttc" id="server_2client_8qh_html_af928e6eec681d5371be26fc5e7b329f9"><div class="ttname"><a href="../../d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9">UNWIND</a></div><div class="ttdeci">#define UNWIND(class)</div></div>
-<div class="ttc" id="classPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00190">client.qh:190</a></div></div>
+<div class="ttc" id="classPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00191">client.qh:191</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1223,7 +1225,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00145">145</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00146">146</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
 </div>
 </div>
@@ -1237,7 +1239,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00144">144</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00145">145</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
 </div>
 </div>
@@ -1311,6 +1313,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a9e8c81f1b8b9d620016488589df74af4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d20/round__handler_8qh.html#a730e4aa304d2149306a6bc30e426f98a">bool</a> Client::cvar_cl_casings = this.cvar_cl_casings</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00142">142</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a26036b7494d9b1e5634683ccd2270113"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1335,7 +1351,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00148">148</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00149">149</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
 </div>
 </div>
@@ -1349,7 +1365,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00142">142</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00143">143</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
 </div>
 </div>
@@ -1419,7 +1435,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00143">143</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00144">144</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
 </div>
 </div>
@@ -1545,7 +1561,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00150">150</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00151">151</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
 </div>
 </div>
@@ -1559,7 +1575,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00149">149</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00150">150</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
 </div>
 </div>
@@ -1587,7 +1603,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00146">146</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00147">147</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
 </div>
 </div>
@@ -1601,7 +1617,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00147">147</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00148">148</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
 </div>
 </div>
@@ -2308,7 +2324,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d37/classClient.html">Client</a></li>
-    <li class="footer">Generated on Tue Aug 20 2019 00:07:46 for Xonotic by
+    <li class="footer">Generated on Tue Aug 20 2019 00:32:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a888a5db23075b8ce59802cb9bd3c7af5":[1,0,245,6],
+"da/db7/classXonoticServerInfoDialog.html#a892990d6025ca6d817ebc07521cee922":[1,0,245,114],
 "da/db7/classXonoticServerInfoDialog.html#a89b8313739d904cb7b7b43bd10ae911e":[1,0,245,18],
 "da/db7/classXonoticServerInfoDialog.html#a89df6338f4e105645d340fa17a325a4d":[1,0,245,39],
 "da/db7/classXonoticServerInfoDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,245,101],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "da/dcc/sv__keepaway_8qh.html#a0f1d6257e47a660392dd82dfbe915f3e":[2,0,1,3,0,9,5,4],
 "da/dcc/sv__keepaway_8qh.html#a259b3a95461e18da357a2b9d7512e2e6":[2,0,1,3,0,9,5,0],
 "da/dcc/sv__keepaway_8qh.html#a5b9c6f34b2b2004f1dd81df0ecf52a38":[2,0,1,3,0,9,5,2],
-"da/dcc/sv__keepaway_8qh.html#aafab530e463e712c9ac91ab0d74e17b6":[2,0,1,3,0,9,5,3],
-"da/dcc/sv__keepaway_8qh.html#ad066a4c24559d830eee8b0e63c5e5d0e":[2,0,1,3,0,9,5,1],
-"da/dcc/sv__keepaway_8qh.html#ae607caf6a8a2b653b882e0abf1a3afd4":[2,0,1,3,0,9,5,5]
+"da/dcc/sv__keepaway_8qh.html#aafab530e463e712c9ac91ab0d74e17b6":[2,0,1,3,0,9,5,3]
 };

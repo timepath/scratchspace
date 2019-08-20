@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"da/d73/tesla__weapon_8qc.html":[2,0,1,14,0,40],
+"da/d73/tesla__weapon_8qc_source.html":[2,0,1,14,0,40],
 "da/d79/dialog__hudpanel__ammo_8qh.html":[2,0,5,4,45],
 "da/d79/dialog__hudpanel__ammo_8qh_source.html":[2,0,5,4,45],
 "da/d7c/plasma_8qh.html":[2,0,1,14,0,33],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "da/d9b/classXonoticButton.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,154,20],
 "da/d9b/classXonoticButton.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,154,32],
 "da/d9b/classXonoticButton.html#a6c1cc42796dfc8787fb58ce0945fb6ea":[1,0,154,24],
-"da/d9b/classXonoticButton.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,154,7],
-"da/d9b/classXonoticButton.html#a706c85a524ce44b84070ec439bbd9acd":[1,0,154,22],
-"da/d9b/classXonoticButton.html#a7642beed5a82948e21add31abf4a4b0a":[1,0,154,31]
+"da/d9b/classXonoticButton.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,154,7]
 };
