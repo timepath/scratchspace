@@ -1,8 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"d7/d39/classXonoticVideoSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,263,82],
-"d7/d39/classXonoticVideoSettingsTab.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,263,22],
-"d7/d39/classXonoticVideoSettingsTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,263,8],
 "d7/d39/classXonoticVideoSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,263,90],
 "d7/d39/classXonoticVideoSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,263,89],
 "d7/d39/classXonoticVideoSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,263,80],
@@ -249,5 +246,8 @@ var NAVTREEINDEX64 =
 "d7/d5a/dialog__settings__user_8qh.html":[2,0,5,4,153],
 "d7/d5a/dialog__settings__user_8qh.html#a66f02ce333f6fc2ba9cfd196973b1295":[2,0,5,4,153,1],
 "d7/d5a/dialog__settings__user_8qh_source.html":[2,0,5,4,153],
-"d7/d5c/common_2stats_8qh.html":[2,0,1,45]
+"d7/d5c/common_2stats_8qh.html":[2,0,1,45],
+"d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08":[2,0,1,45,0],
+"d7/d5c/common_2stats_8qh.html#addc676e25f2065875621b35f9daadb18":[2,0,1,45,2],
+"d7/d5c/common_2stats_8qh.html#ae813f754c6e1e144ad044d9c15ba1295":[2,0,1,45,3]
 };

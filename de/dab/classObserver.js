@@ -52,7 +52,6 @@ var classObserver =
     [ "cvar_cl_autoscreenshot", "de/dab/classObserver.html#a625e7430ff09edf633282f5c0bb64c53", null ],
     [ "cvar_cl_autotaunt", "de/dab/classObserver.html#a5debad0a069dcef7c24158a8db6db7ae", null ],
     [ "cvar_cl_buffs_autoreplace", "de/dab/classObserver.html#af3577e884d8246712e785234d6ad3e61", null ],
-    [ "cvar_cl_casings", "de/dab/classObserver.html#a9e8c81f1b8b9d620016488589df74af4", null ],
     [ "cvar_cl_clippedspectating", "de/dab/classObserver.html#a26036b7494d9b1e5634683ccd2270113", null ],
     [ "cvar_cl_cts_noautoswitch", "de/dab/classObserver.html#a1da889e7ccc1c050939ba9380bd6c0d0", null ],
     [ "cvar_cl_dodging_timeout", "de/dab/classObserver.html#a1ff444c49a92236b916c54bc08797f9e", null ],

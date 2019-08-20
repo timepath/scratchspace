@@ -617,7 +617,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d3/dd0/self_8qh.html#a67462ca0b9ea239b3801ff8489218885">setcamera_transform</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00079">WarpZone_Camera_camera_transform()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00090">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00087">NET_HANDLE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    e.warpzone_origin = my_org;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    e.warpzone_angles = my_ang;</div>
@@ -676,7 +676,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00006">g_warpzones</a>, <a class="el" href="../../d9/d51/intrusivelist_8qh_source.html#l00165">IL_EACH</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00009">warpzone_warpzones_exist</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00135">WarpZoneLib_BoxTouchesBrush()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00181">WarpZone_FixNearClip()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00213">WarpZone_FixPMove()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00226">WarpZone_FixView()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00199">WarpZone_TraceBox_ThroughZone()</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00343">WarpZone_TraceToss_ThroughZone()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00175">WarpZone_FixNearClip()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00207">WarpZone_FixPMove()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00220">WarpZone_FixView()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00199">WarpZone_TraceBox_ThroughZone()</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00343">WarpZone_TraceToss_ThroughZone()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;{</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="comment">// if we are near any warpzone planes - MOVE AWAY (work around nearclip)</span></div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#ab91dff2d443f30ac71613a988a2c4de7">warpzone_warpzones_exist</a>)</div>
@@ -859,7 +859,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00489">489</a> of file <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html">common.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00181">WarpZone_FixNearClip()</a>, and <a class="el" href="../../d7/d2b/server_8qc_source.html#l00178">WarpZone_Touch()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00175">WarpZone_FixNearClip()</a>, and <a class="el" href="../../d7/d2b/server_8qc_source.html#l00178">WarpZone_Touch()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;{</div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a> - wz.warpzone_origin) * wz.warpzone_forward;</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;}</div>
@@ -2573,7 +2573,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../df/d13/anglestransform_8qc_source.html#l00005">AnglesTransform_Apply()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00333">fireBullet()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00864">RadiusDamageForSource()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00041">WarpZone_camera_transform()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00591">WarpZone_FindRadius_Recurse()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00213">WarpZone_FixPMove()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00226">WarpZone_FixView()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00736">WarpZone_RefSys_TransformOrigin()</a>, <a class="el" href="../../d7/d2b/server_8qc_source.html#l00076">WarpZone_Teleport()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00199">WarpZone_TraceBox_ThroughZone()</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00343">WarpZone_TraceToss_ThroughZone()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00333">fireBullet()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00864">RadiusDamageForSource()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00041">WarpZone_camera_transform()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00591">WarpZone_FindRadius_Recurse()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00207">WarpZone_FixPMove()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00220">WarpZone_FixView()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00736">WarpZone_RefSys_TransformOrigin()</a>, <a class="el" href="../../d7/d2b/server_8qc_source.html#l00076">WarpZone_Teleport()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00199">WarpZone_TraceBox_ThroughZone()</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00343">WarpZone_TraceToss_ThroughZone()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;{</div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    <span class="keywordflow">return</span> wz.warpzone_shift + <a class="code" href="../../df/d13/anglestransform_8qc.html#a6eef2b5d1dcd28a89fa2ab3146011775">AnglesTransform_Apply</a>(wz.warpzone_transform, <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>);</div>
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;}</div>
@@ -2630,7 +2630,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../df/d13/anglestransform_8qc_source.html#l00135">AnglesTransform_ApplyToVAngles()</a>, <a class="el" href="../../df/d13/anglestransform_8qc_source.html#l00095">AnglesTransform_CancelRoll()</a>, and <a class="el" href="../../df/d13/anglestransform_8qc_source.html#l00075">AnglesTransform_Normalize()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01544">CSQC_UpdateView()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00143">NET_HANDLE()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00213">WarpZone_FixPMove()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00226">WarpZone_FixView()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00760">WarpZone_RefSys_TransformVAngles()</a>, and <a class="el" href="../../d7/d2b/server_8qc_source.html#l00076">WarpZone_Teleport()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01544">CSQC_UpdateView()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00137">NET_HANDLE()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00207">WarpZone_FixPMove()</a>, <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00220">WarpZone_FixView()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00760">WarpZone_RefSys_TransformVAngles()</a>, and <a class="el" href="../../d7/d2b/server_8qc_source.html#l00076">WarpZone_Teleport()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;{</div>
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;<span class="preprocessor">#ifdef KEEP_ROLL</span></div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">float</span> roll;</div>
@@ -3346,7 +3346,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00010">10</a> of file <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html">common.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00090">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00087">NET_HANDLE()</a>.</p>
 
 </div>
 </div>
@@ -3666,7 +3666,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00020">20</a> of file <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html">common.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00143">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00137">NET_HANDLE()</a>.</p>
 
 </div>
 </div>
@@ -3692,7 +3692,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_58d953ef34ccfc4a49203206a34466c3.html">warpzone</a></li><li class="navelem"><a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh.html">common.qh</a></li>
-    <li class="footer">Generated on Sun Aug 18 2019 14:02:40 for Xonotic by
+    <li class="footer">Generated on Tue Aug 20 2019 00:07:38 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

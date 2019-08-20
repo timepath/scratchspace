@@ -31,6 +31,7 @@ var client_2autocvars_8qh =
     [ "autocvar_cl_announcer_maptime", "d7/db4/client_2autocvars_8qh.html#af368263e61f9679903d96b9814dfe38e", null ],
     [ "autocvar_cl_autodemo_delete", "d7/db4/client_2autocvars_8qh.html#ae85320a0373fbb654de1ea0c8c197538", null ],
     [ "autocvar_cl_autodemo_delete_keeprecords", "d7/db4/client_2autocvars_8qh.html#aae1874a9dddbe880d342e7df4e9663a1", null ],
+    [ "autocvar_cl_casings", "d7/db4/client_2autocvars_8qh.html#a0a74c893c54d4aea1a10148be379fc2d", null ],
     [ "autocvar_cl_casings_bronze_time", "d7/db4/client_2autocvars_8qh.html#adf3d054c9565ed89aa9496afd7f13d3a", null ],
     [ "autocvar_cl_casings_maxcount", "d7/db4/client_2autocvars_8qh.html#a0bac582169135be767df861ce506fc9c", null ],
     [ "autocvar_cl_casings_shell_time", "d7/db4/client_2autocvars_8qh.html#a76ebeefadb32c8cc3d1c4237d7618bfe", null ],

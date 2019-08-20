@@ -1,8 +1,5 @@
 var NAVTREEINDEX24 =
 {
-"d3/d01/classXonoticMultiplayerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,220,35],
-"d3/d01/classXonoticMultiplayerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,220,39],
-"d3/d03/common_2gamemodes_2gamemode_2tdm_2__mod_8qh.html":[2,0,1,3,0,15,1],
 "d3/d03/common_2gamemodes_2gamemode_2tdm_2__mod_8qh_source.html":[2,0,1,3,0,15,1],
 "d3/d05/classes_8inc.html":[2,0,5,7],
 "d3/d05/classes_8inc_source.html":[2,0,5,7],
@@ -249,5 +246,8 @@ var NAVTREEINDEX24 =
 "d3/d07/scoreboard_8qc.html#a9de361ce67e82e49e91f0e3cf695c31d":[2,0,0,1,0,34,44],
 "d3/d07/scoreboard_8qc.html#a9dffc17391e00ba52244d6a92e5827f6":[2,0,0,1,0,34,34],
 "d3/d07/scoreboard_8qc.html#aa3df8ec29f084a228e11bfbfd0ca8b17":[2,0,0,1,0,34,68],
-"d3/d07/scoreboard_8qc.html#aaa5eb41e22d77cd3026131224c82308b":[2,0,0,1,0,34,62]
+"d3/d07/scoreboard_8qc.html#aaa5eb41e22d77cd3026131224c82308b":[2,0,0,1,0,34,62],
+"d3/d07/scoreboard_8qc.html#aaf5cd5494661624974d09657b6428ff2":[2,0,0,1,0,34,81],
+"d3/d07/scoreboard_8qc.html#aaf870062442b80e096e897517f9b9d5b":[2,0,0,1,0,34,60],
+"d3/d07/scoreboard_8qc.html#ab68d3f55b27c12a82760019c80aef931":[2,0,0,1,0,34,6]
 };

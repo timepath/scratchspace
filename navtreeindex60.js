@@ -1,8 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"d6/dd3/racer_8qh_source.html":[2,0,1,15,0,7],
-"d6/dd3/view_8qc.html":[2,0,0,30],
-"d6/dd3/view_8qc.html#a018a6576512f5f15b72f6a1a732d2af0":[2,0,0,30,28],
 "d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0":[2,0,0,30,70],
 "d6/dd3/view_8qc.html#a07743c572915247b5ea491b781832811":[2,0,0,30,50],
 "d6/dd3/view_8qc.html#a07b8f5af4421caf55885ca72742185fd":[2,0,0,30,97],
@@ -249,5 +246,8 @@ var NAVTREEINDEX60 =
 "d6/ddd/server_2mutators_2events_8qh.html#a45ffe38f673bd70d5c3d7ffcfbc65c33":[2,0,6,3,3,18],
 "d6/ddd/server_2mutators_2events_8qh.html#a482123779c072195e5c0884525c98455":[2,0,6,3,3,84],
 "d6/ddd/server_2mutators_2events_8qh.html#a49a3fd530833a4ce16db23805cc40c00":[2,0,6,3,3,2],
-"d6/ddd/server_2mutators_2events_8qh.html#a4d0a139fb2685d2671047a2aa790b336":[2,0,6,3,3,182]
+"d6/ddd/server_2mutators_2events_8qh.html#a4d0a139fb2685d2671047a2aa790b336":[2,0,6,3,3,182],
+"d6/ddd/server_2mutators_2events_8qh.html#a4e145ed7e7eb03b3bb6ad2fe5f53a493":[2,0,6,3,3,131],
+"d6/ddd/server_2mutators_2events_8qh.html#a4e2ab03de6bb6419fc453433da611bb6":[2,0,6,3,3,174],
+"d6/ddd/server_2mutators_2events_8qh.html#a50af8688b94f7351c9831c80170c1cf7":[2,0,6,3,3,51]
 };

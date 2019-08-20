@@ -1,8 +1,5 @@
 var NAVTREEINDEX139 =
 {
-"df/dfd/easing_8qh_source.html":[2,0,5,0,7],
-"df/dff/plasma__weapon_8qh.html":[2,0,1,14,0,37],
-"df/dff/plasma__weapon_8qh.html#aebb212a865a997894589e58496c3e070":[2,0,1,14,0,37,1],
 "df/dff/plasma__weapon_8qh_source.html":[2,0,1,14,0,37],
 "dir_026fecbde05aca2ce3aaca1260d474bc.html":[2,0,0,1,0],
 "dir_038facabb326e47524555c6946dd7e55.html":[2,0,6,4],
@@ -127,8 +124,8 @@ var NAVTREEINDEX139 =
 "dir_fe472327f69aa9464440251988e1566b.html":[2,0,1,9],
 "dir_ff27e448fac324d88c702b7803ed56f3.html":[2,0,1,10,0,35],
 "files.html":[2,0],
-"functions.html":[1,3,0,0],
 "functions.html":[1,3,0],
+"functions.html":[1,3,0,0],
 "functions_a.html":[1,3,0,1],
 "functions_b.html":[1,3,0,2],
 "functions_c.html":[1,3,0,3],
@@ -174,8 +171,8 @@ var NAVTREEINDEX139 =
 "functions_t.html":[1,3,0,19],
 "functions_u.html":[1,3,0,20],
 "functions_v.html":[1,3,0,21],
-"functions_vars.html":[1,3,2],
 "functions_vars.html":[1,3,2,0],
+"functions_vars.html":[1,3,2],
 "functions_vars_b.html":[1,3,2,1],
 "functions_vars_c.html":[1,3,2,2],
 "functions_vars_d.html":[1,3,2,3],
@@ -204,8 +201,8 @@ var NAVTREEINDEX139 =
 "functions_y.html":[1,3,0,24],
 "functions_z.html":[1,3,0,25],
 "functions_~.html":[1,3,0,26],
-"globals.html":[2,1,0],
 "globals.html":[2,1,0,0],
+"globals.html":[2,1,0],
 "globals_a.html":[2,1,0,1],
 "globals_b.html":[2,1,0,2],
 "globals_c.html":[2,1,0,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX139 =
 "globals_func_d.html":[2,1,1,4],
 "globals_func_e.html":[2,1,1,5],
 "globals_func_f.html":[2,1,1,6],
-"globals_func_g.html":[2,1,1,7]
+"globals_func_g.html":[2,1,1,7],
+"globals_func_h.html":[2,1,1,8],
+"globals_func_i.html":[2,1,1,9],
+"globals_func_j.html":[2,1,1,10]
 };
