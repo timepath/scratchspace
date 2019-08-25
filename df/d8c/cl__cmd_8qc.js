@@ -14,7 +14,7 @@ var cl__cmd_8qc =
     [ "CLIENT_COMMAND", "df/d8c/cl__cmd_8qc.html#aa2df3f3af02e1a866927650ec7c68d83", null ],
     [ "CLIENT_COMMAND", "df/d8c/cl__cmd_8qc.html#ae2138f64a4a3144be1c838400b3428e0", null ],
     [ "CLIENT_COMMAND", "df/d8c/cl__cmd_8qc.html#a5075d9ab597cb96e01813773fbe5a7a9", null ],
-    [ "CLIENT_COMMAND", "df/d8c/cl__cmd_8qc.html#ac6ad4f76e1fab870cd7b34e038a0a6c0", null ],
+    [ "CLIENT_COMMAND", "df/d8c/cl__cmd_8qc.html#a3244c6168c60506eedab5ce102f71ed5", null ],
     [ "ConsoleCommand_macro_init", "df/d8c/cl__cmd_8qc.html#ab2acfe6a73bd0d158e3e9a62b9185725", null ],
     [ "ConsoleCommand_macro_movement", "df/d8c/cl__cmd_8qc.html#a6497b1027ea1b049168e22a633df8c9f", null ],
     [ "ConsoleCommand_macro_normal", "df/d8c/cl__cmd_8qc.html#a38b84c56676c910a134fae17d7394781", null ],

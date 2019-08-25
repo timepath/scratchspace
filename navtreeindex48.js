@@ -1,5 +1,14 @@
 var NAVTREEINDEX48 =
 {
+"d5/d4a/cl__minigames__hud_8qc.html#ac4b5b084e2ab882cddcd934fa216f94b":[2,0,1,7,5,0],
+"d5/d4a/cl__minigames__hud_8qc.html#ac6eabab66d817bd2b8f5edf88f3c01ac":[2,0,1,7,5,7],
+"d5/d4a/cl__minigames__hud_8qc.html#accb30bb8176c36e5013f2ac92bb8feda":[2,0,1,7,5,2],
+"d5/d4a/cl__minigames__hud_8qc.html#aceea913bef82e231ea5929d8086deb56":[2,0,1,7,5,4],
+"d5/d4a/cl__minigames__hud_8qc.html#ad83b0ec6561c90f628420274460cdc55":[2,0,1,7,5,14],
+"d5/d4a/cl__minigames__hud_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af":[2,0,1,7,5,30],
+"d5/d4a/cl__minigames__hud_8qc_source.html":[2,0,1,7,5],
+"d5/d4c/controlpoint_8qh.html":[2,0,1,3,0,13,7],
+"d5/d4c/controlpoint_8qh_source.html":[2,0,1,3,0,13,7],
 "d5/d51/common_2mutators_2mutator_2random__items_2__mod_8inc.html":[2,0,1,10,0,27,0],
 "d5/d51/common_2mutators_2mutator_2random__items_2__mod_8inc_source.html":[2,0,1,10,0,27,0],
 "d5/d52/bits_8qh.html":[2,0,4,10],
@@ -240,14 +249,5 @@ var NAVTREEINDEX48 =
 "d5/d6d/util__server_8qc.html#a904a8bfe5319b5784c20a0470d103206":[2,0,4,2,12,0],
 "d5/d6d/util__server_8qc_source.html":[2,0,4,2,12],
 "d5/d6f/xonotic_2checkbox_8qc.html":[2,0,5,4,12],
-"d5/d6f/xonotic_2checkbox_8qc.html#a10aa8dc6f022dcc1df8ef8b5153ac9d0":[2,0,5,4,12,1],
-"d5/d6f/xonotic_2checkbox_8qc.html#a794154951852d8c93891f3567ca8783b":[2,0,5,4,12,7],
-"d5/d6f/xonotic_2checkbox_8qc.html#ab0962d6e3ca24d502f661a5c4c1eb770":[2,0,5,4,12,3],
-"d5/d6f/xonotic_2checkbox_8qc.html#abd68b3cdbcebff2b5d6fc9da7b430b76":[2,0,5,4,12,0],
-"d5/d6f/xonotic_2checkbox_8qc.html#ad6067882d4bb52128a27f3a6d52ea311":[2,0,5,4,12,5],
-"d5/d6f/xonotic_2checkbox_8qc.html#af20c2d73554a59acac7cf29010b96966":[2,0,5,4,12,4],
-"d5/d6f/xonotic_2checkbox_8qc.html#af7913795ba021937bdf5ad97f1f38e2c":[2,0,5,4,12,6],
-"d5/d6f/xonotic_2checkbox_8qc.html#afe314e4226112bc511f89bdd74939c3d":[2,0,5,4,12,2],
-"d5/d6f/xonotic_2checkbox_8qc_source.html":[2,0,5,4,12],
-"d5/d70/common_2mutators_2mutator_2overkill_2__mod_8inc.html":[2,0,1,10,0,23,0]
+"d5/d6f/xonotic_2checkbox_8qc.html#a10aa8dc6f022dcc1df8ef8b5153ac9d0":[2,0,5,4,12,1]
 };

@@ -208,7 +208,7 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="comment">//vector prevend = w_shotend;</span></div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">if</span> (antilag)</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(ent).<a class="code" href="../../d5/d26/server_2defs_8qh.html#a89fe85b717c8dee6ac1e0e86878cdcff">cvar_cl_noantilag</a>)</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(ent).<a class="code" href="../../d9/d08/client_2defs_8qh.html#a89fe85b717c8dee6ac1e0e86878cdcff">cvar_cl_noantilag</a>)</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    {</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a> == 1) <span class="comment">// switch to &quot;ghost&quot; if not hitting original</span></div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        {</div>
@@ -682,6 +682,7 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div class="ttc" id="accuracy_8qh_html"><div class="ttname"><a href="../../d3/d2d/accuracy_8qh.html">accuracy.qh</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4fd0a5bd49a45793c8abce8b16e8e115"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4fd0a5bd49a45793c8abce8b16e8e115">Q3SURFACEFLAG_NODRAW</a></div><div class="ttdeci">float Q3SURFACEFLAG_NODRAW</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01145">csprogsdefs.qc:1145</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a5a51f82b0e067ae62972297351d205d2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5a51f82b0e067ae62972297351d205d2">gettime</a></div><div class="ttdeci">float gettime(void)</div></div>
+<div class="ttc" id="client_2defs_8qh_html_a89fe85b717c8dee6ac1e0e86878cdcff"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#a89fe85b717c8dee6ac1e0e86878cdcff">cvar_cl_noantilag</a></div><div class="ttdeci">float cvar_cl_noantilag</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00120">defs.qh:120</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a2938cf8334c141eda70b56b31409d120"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a></div><div class="ttdeci">float MSG_ONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/menudefs_8qc_source.html#l00056">menudefs.qc:56</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a1a6ae864b175bb2568895a7426ea6e58"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a1a6ae864b175bb2568895a7426ea6e58">autocvar_g_trueaim_minrange</a></div><div class="ttdeci">float autocvar_g_trueaim_minrange</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00377">autocvars.qh:377</a></div></div>
 <div class="ttc" id="accuracy_8qc_html_a8ad5119b525659cbc971123f303fa416"><div class="ttname"><a href="../../da/d68/accuracy_8qc.html#a8ad5119b525659cbc971123f303fa416">accuracy_isgooddamage</a></div><div class="ttdeci">bool accuracy_isgooddamage(entity attacker, entity targ)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d68/accuracy_8qc_source.html#l00093">accuracy.qc:93</a></div></div>
@@ -710,7 +711,6 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div class="ttc" id="menudefs_8qc_html_ab8f7213273f7de03df213240376ce9f4"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a></div><div class="ttdeci">vector normalize(vector v)</div></div>
 <div class="ttc" id="sound_8qh_html_adac39d0ed99391c139261058f3bf93b3"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#adac39d0ed99391c139261058f3bf93b3">ATTEN_IDLE</a></div><div class="ttdeci">const float ATTEN_IDLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00032">sound.qh:32</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a5f01bc88548c8f6cbcb029a6e63e8a9f"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a5f01bc88548c8f6cbcb029a6e63e8a9f">DPCONTENTS_CORPSE</a></div><div class="ttdeci">float DPCONTENTS_CORPSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01130">csprogsdefs.qc:1130</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_a89fe85b717c8dee6ac1e0e86878cdcff"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a89fe85b717c8dee6ac1e0e86878cdcff">cvar_cl_noantilag</a></div><div class="ttdeci">float cvar_cl_noantilag</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00178">defs.qh:178</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_abc0e012c94ed572a5872822390265cec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a></div><div class="ttdeci">vector v_forward</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">csprogsdefs.qc:31</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -718,7 +718,7 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d7/d31/tracing_8qc.html">tracing.qc</a></li>
-    <li class="footer">Generated on Fri Aug 23 2019 09:25:15 for Xonotic by
+    <li class="footer">Generated on Sun Aug 25 2019 12:51:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

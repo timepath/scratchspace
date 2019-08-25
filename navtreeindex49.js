@@ -1,5 +1,14 @@
 var NAVTREEINDEX49 =
 {
+"d5/d6f/xonotic_2checkbox_8qc.html#a794154951852d8c93891f3567ca8783b":[2,0,5,4,12,7],
+"d5/d6f/xonotic_2checkbox_8qc.html#ab0962d6e3ca24d502f661a5c4c1eb770":[2,0,5,4,12,3],
+"d5/d6f/xonotic_2checkbox_8qc.html#abd68b3cdbcebff2b5d6fc9da7b430b76":[2,0,5,4,12,0],
+"d5/d6f/xonotic_2checkbox_8qc.html#ad6067882d4bb52128a27f3a6d52ea311":[2,0,5,4,12,5],
+"d5/d6f/xonotic_2checkbox_8qc.html#af20c2d73554a59acac7cf29010b96966":[2,0,5,4,12,4],
+"d5/d6f/xonotic_2checkbox_8qc.html#af7913795ba021937bdf5ad97f1f38e2c":[2,0,5,4,12,6],
+"d5/d6f/xonotic_2checkbox_8qc.html#afe314e4226112bc511f89bdd74939c3d":[2,0,5,4,12,2],
+"d5/d6f/xonotic_2checkbox_8qc_source.html":[2,0,5,4,12],
+"d5/d70/common_2mutators_2mutator_2overkill_2__mod_8inc.html":[2,0,1,10,0,23,0],
 "d5/d70/common_2mutators_2mutator_2overkill_2__mod_8inc_source.html":[2,0,1,10,0,23,0],
 "d5/d73/classXonoticEffectsSettingsTab.html":[1,0,176],
 "d5/d73/classXonoticEffectsSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,176,34],
@@ -105,6 +114,8 @@ var NAVTREEINDEX49 =
 "d5/d7e/classPlayerState.html#a5fadffeaa93ffd329ba28f60f0ae9f88":[1,0,107,0],
 "d5/d7e/classPlayerState.html#a5fb8ef3d2f5967f5aab906d7095a82e2":[1,0,107,1],
 "d5/d7f/cl__buffs_8qh.html":[2,0,1,10,0,2,6],
+"d5/d7f/cl__buffs_8qh.html#a9d0381c8b0a4cc43a743b4f23741763b":[2,0,1,10,0,2,6,1],
+"d5/d7f/cl__buffs_8qh.html#aa29572fe821be9b2b28140848bff4f2a":[2,0,1,10,0,2,6,0],
 "d5/d7f/cl__buffs_8qh_source.html":[2,0,1,10,0,2,6],
 "d5/d81/crylink_8qh.html":[2,0,1,16,0,7],
 "d5/d81/crylink_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,7,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX49 =
 "d5/d95/classXonoticDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,175,25],
 "d5/d95/classXonoticDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,175,10],
 "d5/d95/classXonoticDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,175,15],
-"d5/d95/classXonoticDialog.html#af88a81fd25020e249716d851c0c127bf":[1,0,175,57],
-"d5/d95/classXonoticDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,175,49],
-"d5/d95/classXonoticDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,175,2],
-"d5/d95/classXonoticDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,175,35],
-"d5/d95/classXonoticDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,175,39],
-"d5/d95/defer_8qh.html":[2,0,4,16],
-"d5/d95/defer_8qh_source.html":[2,0,4,16],
-"d5/d95/lib_2matrix_2matrix_8qh.html":[2,0,4,1,5],
-"d5/d95/lib_2matrix_2matrix_8qh.html#a0c24e49fdad79752430af7e5213b8474":[2,0,4,1,5,4],
-"d5/d95/lib_2matrix_2matrix_8qh.html#a0d0efed17bfb427e588446cbbf6cfff5":[2,0,4,1,5,8],
-"d5/d95/lib_2matrix_2matrix_8qh.html#a1e940221bb2d6fec2e3e5f8dd4b76229":[2,0,4,1,5,10],
-"d5/d95/lib_2matrix_2matrix_8qh.html#a3020e21f8ef834ecd9401574b1b92d9b":[2,0,4,1,5,5]
+"d5/d95/classXonoticDialog.html#af88a81fd25020e249716d851c0c127bf":[1,0,175,57]
 };

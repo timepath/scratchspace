@@ -1,5 +1,10 @@
 var NAVTREEINDEX45 =
 {
+"d4/dd1/spawnpoints_8qh.html#a572fb1292ba23838d08e19ed54227679":[2,0,6,59,3],
+"d4/dd1/spawnpoints_8qh.html#a5d88e76b04abc36016eda23afcc61ef1":[2,0,6,59,8],
+"d4/dd1/spawnpoints_8qh.html#a65f632ea7c75b704550b257f227230cb":[2,0,6,59,2],
+"d4/dd1/spawnpoints_8qh.html#a693d893f5755f55200d6c320c814c6a4":[2,0,6,59,10],
+"d4/dd1/spawnpoints_8qh.html#a71804b6dc31803f43afa105a34e35d04":[2,0,6,59,0],
 "d4/dd1/spawnpoints_8qh.html#ab4967b5a52be505fdfbe23d0d61b2aa1":[2,0,6,59,9],
 "d4/dd1/spawnpoints_8qh.html#ac6bf8417de66cc27e1aad493335d2901":[2,0,6,59,1],
 "d4/dd1/spawnpoints_8qh.html#afbaa6a2b464f54d5f9f6087f526bb199":[2,0,6,59,7],
@@ -15,6 +20,10 @@ var NAVTREEINDEX45 =
 "d4/dd3/common_2minigames_2__mod_8inc_source.html":[2,0,1,7,1],
 "d4/dd4/physics_2movetypes_2all_8inc.html":[2,0,1,12,0,2],
 "d4/dd4/physics_2movetypes_2all_8inc_source.html":[2,0,1,12,0,2],
+"d4/dd5/cl__spawn__near__teammate_8qh.html":[2,0,1,10,0,32,3],
+"d4/dd5/cl__spawn__near__teammate_8qh.html#a09fc68c844414a4f23b4e12046074054":[2,0,1,10,0,32,3,0],
+"d4/dd5/cl__spawn__near__teammate_8qh.html#a53bea2a352cc0c2883f23e3b1bfc59e3":[2,0,1,10,0,32,3,1],
+"d4/dd5/cl__spawn__near__teammate_8qh_source.html":[2,0,1,10,0,32,3],
 "d4/dd6/minelayer_8qc.html":[2,0,1,16,0,22],
 "d4/dd6/minelayer_8qc_source.html":[2,0,1,16,0,22],
 "d4/dd7/movetypes_8qh.html":[2,0,1,12,0,6],
@@ -240,14 +249,5 @@ var NAVTREEINDEX45 =
 "d4/df8/classXonoticHUDRadarDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,202,6],
 "d4/df8/classXonoticHUDRadarDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,202,14],
 "d4/df8/classXonoticHUDRadarDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,202,18],
-"d4/df8/classXonoticHUDRadarDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,202,87],
-"d4/df8/classXonoticHUDRadarDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,202,50],
-"d4/df8/classXonoticHUDRadarDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,202,43],
-"d4/df8/classXonoticHUDRadarDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,202,65],
-"d4/df8/classXonoticHUDRadarDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,202,71],
-"d4/df8/classXonoticHUDRadarDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,202,75],
-"d4/df8/classXonoticHUDRadarDialog.html#a9e5f679f3e3a304938e54b597e286d17":[1,0,202,81],
-"d4/df8/classXonoticHUDRadarDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,202,63],
-"d4/df8/classXonoticHUDRadarDialog.html#aa19a83400211f2f266218d782e0fa198":[1,0,202,76],
-"d4/df8/classXonoticHUDRadarDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,202,64]
+"d4/df8/classXonoticHUDRadarDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,202,87]
 };

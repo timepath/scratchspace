@@ -1,5 +1,10 @@
 var NAVTREEINDEX20 =
 {
+"d2/d9e/mapinfo_8qh.html#a03e1802ae2a81926d10fc5fd56682811":[2,0,1,35,74],
+"d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b":[2,0,1,35,20],
+"d2/d9e/mapinfo_8qh.html#a08443022ec3c3e2ca75a56c47c1e5e9f":[2,0,1,35,88],
+"d2/d9e/mapinfo_8qh.html#a0bcf686f28320d226b3e7583dc1f9fd1":[2,0,1,35,96],
+"d2/d9e/mapinfo_8qh.html#a143ae9a972e236a600ee064e49bd2d75":[2,0,1,35,29],
 "d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790":[2,0,1,35,24],
 "d2/d9e/mapinfo_8qh.html#a17c9461b0b1029f958291eebc7abfb28":[2,0,1,35,97],
 "d2/d9e/mapinfo_8qh.html#a17f35585e0c7d03f4e13f4d6ba3b1e42":[2,0,1,35,38],
@@ -244,10 +249,5 @@ var NAVTREEINDEX20 =
 "d2/db1/sv__invasion_8qh.html#ac42340c7906a32ccf91474fa3e33d826":[2,0,1,3,0,8,3,9],
 "d2/db1/sv__invasion_8qh.html#ad6ace35b1302a6f5a72b54a177b1e0bf":[2,0,1,3,0,8,3,18],
 "d2/db1/sv__invasion_8qh.html#aee2b9768513ba6b7935a33986f7621f1":[2,0,1,3,0,8,3,14],
-"d2/db1/sv__invasion_8qh.html#af804eb68afaef63774e2ce8375d96be2":[2,0,1,3,0,8,3,7],
-"d2/db1/sv__invasion_8qh_source.html":[2,0,1,3,0,8,3],
-"d2/db4/common_2gamemodes_2gamemode_2cts_2__mod_8inc.html":[2,0,1,3,0,3,0],
-"d2/db4/common_2gamemodes_2gamemode_2cts_2__mod_8inc_source.html":[2,0,1,3,0,3,0],
-"d2/db4/string_8qh.html":[2,0,4,58],
-"d2/db4/string_8qh.html#a04228c5af3e8ca402b509a7e080ba6f3":[2,0,4,58,24]
+"d2/db1/sv__invasion_8qh.html#af804eb68afaef63774e2ce8375d96be2":[2,0,1,3,0,8,3,7]
 };

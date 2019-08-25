@@ -1744,7 +1744,7 @@ var searchData=
   ['autoscreenshot',['autoscreenshot',['../db/dcc/g__world_8qc.html#a3549b57c80fceb876ffb6eb43f17fcfb',1,'g_world.qc']]],
   ['autoskill_5fnextthink',['autoskill_nextthink',['../d1/da9/bot_8qh.html#a2f15d8c4524b3af2a07108ff7e62305c',1,'bot.qh']]],
   ['autospec_5fflags',['autospec_flags',['../da/d6b/sv__superspec_8qc.html#a701b3abe8d3188f7390b7b6d0b9943bd',1,'sv_superspec.qc']]],
-  ['autoswitch',['autoswitch',['../d1/d37/classClient.html#a2b7697358e33aa388b9cd99b7f0b2794',1,'Client::autoswitch()'],['../d5/d26/server_2defs_8qh.html#a4a168a4f99ca1498c8270efce0a08675',1,'autoswitch():&#160;defs.qh']]],
+  ['autoswitch',['autoswitch',['../d1/d37/classClient.html#a2b7697358e33aa388b9cd99b7f0b2794',1,'Client::autoswitch()'],['../d9/d08/client_2defs_8qh.html#a4a168a4f99ca1498c8270efce0a08675',1,'autoswitch():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a4a168a4f99ca1498c8270efce0a08675',1,'autoswitch():&#160;defs.qh']]],
   ['auxiliaryxhair',['AuxiliaryXhair',['../d0/dee/cl__vehicles_8qc.html#ae9fd495d98dfa5d432baf01b89d5f9f5',1,'cl_vehicles.qc']]],
   ['avelocity',['avelocity',['../d4/d0c/csprogsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c',1,'avelocity():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c',1,'avelocity():&#160;progsdefs.qc']]],
   ['average_5faccuracy',['average_accuracy',['../d3/d07/scoreboard_8qc.html#aaa5eb41e22d77cd3026131224c82308b',1,'scoreboard.qc']]],
