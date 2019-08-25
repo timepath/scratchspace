@@ -206,71 +206,65 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/d4c/dialog__settings__user_8qc_source.html#l00017">17</a> of file <a class="el" href="../../d8/d4c/dialog__settings__user_8qc_source.html">dialog_settings_user.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/d27/commandbutton_8qh_source.html#l00015">COMMANDBUTTON_APPLY</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../df/d28/menu_2xonotic_2button_8qc_source.html#l00010">makeXonoticButton()</a>, <a class="el" href="../../d5/d6f/xonotic_2checkbox_8qc_source.html#l00003">makeXonoticCheckBox_T()</a>, <a class="el" href="../../d7/df4/commandbutton_8qc_source.html#l00010">makeXonoticCommandButton()</a>, <a class="el" href="../../d2/d67/textlabel_8qc_source.html#l00010">makeXonoticHeaderLabel()</a>, <a class="el" href="../../d3/d2e/languagelist_8qc_source.html#l00012">makeXonoticLanguageList()</a>, <a class="el" href="../../d9/da1/skinlist_8qc_source.html#l00009">makeXonoticSkinList()</a>, <a class="el" href="../../d3/d2e/languagelist_8qc_source.html#l00182">SetLanguage_Click()</a>, and <a class="el" href="../../d9/da1/skinlist_8qc_source.html#l00157">SetSkin_Click()</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../df/d28/menu_2xonotic_2button_8qc_source.html#l00010">makeXonoticButton()</a>, <a class="el" href="../../d5/d6f/xonotic_2checkbox_8qc_source.html#l00003">makeXonoticCheckBox_T()</a>, <a class="el" href="../../d2/d67/textlabel_8qc_source.html#l00010">makeXonoticHeaderLabel()</a>, <a class="el" href="../../d3/d2e/languagelist_8qc_source.html#l00012">makeXonoticLanguageList()</a>, <a class="el" href="../../d9/da1/skinlist_8qc_source.html#l00009">makeXonoticSkinList()</a>, <a class="el" href="../../d3/d2e/languagelist_8qc_source.html#l00182">SetLanguage_Click()</a>, and <a class="el" href="../../d9/da1/skinlist_8qc_source.html#l00157">SetSkin_Click()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, sk;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> userApplyButton = <a class="code" href="../../d7/df4/commandbutton_8qc.html#a987af68cda200c33e872603717d21f36">makeXonoticCommandButton</a>(_(<span class="stringliteral">&quot;Apply immediately&quot;</span>), <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&quot;sendcvar cl_gentle;&quot;</span>, <a class="code" href="../../d7/d27/commandbutton_8qh.html#a227592356ccf71c3341e83060b1f8ca1">COMMANDBUTTON_APPLY</a>);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    userApplyButton.disableOnClick = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    me.TR(me);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        me.TDempty(me, 0.25);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        me.TD(me, 1, 2.5, e = <a class="code" href="../../d2/d67/textlabel_8qc.html#af0d71665f63e9a598b1cda030bf7fc33">makeXonoticHeaderLabel</a>(_(<span class="stringliteral">&quot;Menu Skins&quot;</span>)));</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    me.TR(me);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        me.TDempty(me, 0.25);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        me.TD(me, me.rows - 3.5, 2.5, sk = <a class="code" href="../../d9/da1/skinlist_8qc.html#a50af8ad199b479f08528e1cd4281bcca">makeXonoticSkinList</a>());</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    me.gotoRC(me, me.rows - 2.5, 0.25);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        me.TD(me, 1, 2.5, e = <a class="code" href="../../df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9">makeXonoticButton</a>(_(<span class="stringliteral">&quot;Set skin&quot;</span>), <span class="stringliteral">&#39;0 0 0&#39;</span>));</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            e.onClick = <a class="code" href="../../d9/da1/skinlist_8qc.html#a16b63352a9c176ab5927ba98c258ff13">SetSkin_Click</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            e.onClickEntity = sk;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">/* AFTER 0.6 RELEASE TODO: Add a listbox which has fonts too, this way user can select the font they want.</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">    me.gotoRC(me, 0, 2.2); me.setFirstColumn(me, me.currentColumn);</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">        me.TD(me, 1, 1, e = makeXonoticTextLabel(0, _(&quot;Text language:&quot;)));</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    me.TR(me);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        me.TDempty(me, 0.25);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        me.TD(me, 1, 2.5, e = <a class="code" href="../../d2/d67/textlabel_8qc.html#af0d71665f63e9a598b1cda030bf7fc33">makeXonoticHeaderLabel</a>(_(<span class="stringliteral">&quot;Menu Skins&quot;</span>)));</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    me.TR(me);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        me.TDempty(me, 0.25);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        me.TD(me, me.rows - 3.5, 2.5, sk = <a class="code" href="../../d9/da1/skinlist_8qc.html#a50af8ad199b479f08528e1cd4281bcca">makeXonoticSkinList</a>());</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    me.gotoRC(me, me.rows - 2.5, 0.25);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        me.TD(me, 1, 2.5, e = <a class="code" href="../../df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9">makeXonoticButton</a>(_(<span class="stringliteral">&quot;Set skin&quot;</span>), <span class="stringliteral">&#39;0 0 0&#39;</span>));</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            e.onClick = <a class="code" href="../../d9/da1/skinlist_8qc.html#a16b63352a9c176ab5927ba98c258ff13">SetSkin_Click</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            e.onClickEntity = sk;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">/* AFTER 0.6 RELEASE TODO: Add a listbox which has fonts too, this way user can select the font they want.</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">    me.gotoRC(me, 0, 2.2); me.setFirstColumn(me, me.currentColumn);</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">        me.TD(me, 1, 1, e = makeXonoticTextLabel(0, _(&quot;Text language:&quot;)));</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">    me.TR(me);</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">        me.TD(me, 6, 1, sk = makeXonoticLanguageList());</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">    me.TR(me);</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">        me.TD(me, 6, 1, sk = makeXonoticLanguageList());</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">    me.TR(me);</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">    me.TR(me);</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">    me.TR(me);</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">    me.TR(me);</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">    me.TR(me);</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">    me.TR(me);</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">    me.TR(me);</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">        me.TD(me, 1, 1, e = makeXonoticButton(_(&quot;Set language&quot;), &#39;0 0 0&#39;));</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">            e.onClick = SetLanguage_Click;</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">            e.onClickEntity = sk;</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">    me.gotoRC(me, 0, 3.3); me.setFirstColumn(me, me.currentColumn);</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">        me.TD(me, 1, 1.5, e = makeXonoticTextLabel(0, _(&quot;Font:&quot;)));</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">        me.TD(me, 1, 1, e = makeXonoticButton(_(&quot;Set language&quot;), &#39;0 0 0&#39;));</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">            e.onClick = SetLanguage_Click;</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">            e.onClickEntity = sk;</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">    me.gotoRC(me, 0, 3.3); me.setFirstColumn(me, me.currentColumn);</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">        me.TD(me, 1, 1.5, e = makeXonoticTextLabel(0, _(&quot;Font:&quot;)));</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">    me.TR(me);</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">        me.TD(me, 2, 1.5, sk = makeXonoticLanguageList());</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">    me.TR(me);</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">        me.TD(me, 2, 1.5, sk = makeXonoticLanguageList());</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">    me.TR(me);</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">    me.TR(me);</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">    me.TR(me);</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">    me.TR(me);</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">    me.TR(me);</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">    me.TR(me);</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">    me.TR(me);</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">        me.TD(me, 1, 1.5, e = makeXonoticButton(_(&quot;Set font&quot;), &#39;0 0 0&#39;));</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">            e.onClick = SetLanguage_Click;</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">            e.onClickEntity = sk;*/</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    me.gotoRC(me, 0, 3.75); me.setFirstColumn(me, me.currentColumn);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        me.TD(me, 1, 1.5, e = <a class="code" href="../../d2/d67/textlabel_8qc.html#af0d71665f63e9a598b1cda030bf7fc33">makeXonoticHeaderLabel</a>(_(<span class="stringliteral">&quot;Text Language&quot;</span>)));</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    me.TR(me);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        me.TD(me, 8, 1.5, sk = <a class="code" href="../../d3/d2e/languagelist_8qc.html#a50f7c55bc396272158e53f3d65593e34">makeXonoticLanguageList</a>());</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    me.gotoRC(me, 9, 3.75); me.setFirstColumn(me, me.currentColumn);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        me.TD(me, 1, 1.5, e = <a class="code" href="../../df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9">makeXonoticButton</a>(_(<span class="stringliteral">&quot;Set language&quot;</span>), <span class="stringliteral">&#39;0 0 0&#39;</span>));</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            e.onClick = <a class="code" href="../../d3/d2e/languagelist_8qc.html#a2c73766616a28566d20a524a6ed2823a">SetLanguage_Click</a>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            e.onClickEntity = sk;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    me.gotoRC(me, 11.5, 3.25); me.setFirstColumn(me, me.currentColumn);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        me.TD(me, 1, 2.5, e = <a class="code" href="../../d5/d6f/xonotic_2checkbox_8qc.html#a10aa8dc6f022dcc1df8ef8b5153ac9d0">makeXonoticCheckBox_T</a>(0, <span class="stringliteral">&quot;cl_gentle&quot;</span>, _(<span class="stringliteral">&quot;Disable gore effects and harsh language&quot;</span>),</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            _(<span class="stringliteral">&quot;Replace blood and gibs with content that does not have any gore effects&quot;</span>)));</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            e.applyButton = userApplyButton;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    me.gotoRC(me, me.rows - 1, 0);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        me.TD(me, 1, 6, userApplyButton);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">        me.TD(me, 1, 1.5, e = makeXonoticButton(_(&quot;Set font&quot;), &#39;0 0 0&#39;));</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">            e.onClick = SetLanguage_Click;</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">            e.onClickEntity = sk;*/</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    me.gotoRC(me, 0, 3.75); me.setFirstColumn(me, me.currentColumn);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        me.TD(me, 1, 1.5, e = <a class="code" href="../../d2/d67/textlabel_8qc.html#af0d71665f63e9a598b1cda030bf7fc33">makeXonoticHeaderLabel</a>(_(<span class="stringliteral">&quot;Text Language&quot;</span>)));</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    me.TR(me);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        me.TD(me, 8, 1.5, sk = <a class="code" href="../../d3/d2e/languagelist_8qc.html#a50f7c55bc396272158e53f3d65593e34">makeXonoticLanguageList</a>());</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    me.gotoRC(me, 9, 3.75); me.setFirstColumn(me, me.currentColumn);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        me.TD(me, 1, 1.5, e = <a class="code" href="../../df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9">makeXonoticButton</a>(_(<span class="stringliteral">&quot;Set language&quot;</span>), <span class="stringliteral">&#39;0 0 0&#39;</span>));</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            e.onClick = <a class="code" href="../../d3/d2e/languagelist_8qc.html#a2c73766616a28566d20a524a6ed2823a">SetLanguage_Click</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            e.onClickEntity = sk;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    me.gotoRC(me, 11.5, 3.25); me.setFirstColumn(me, me.currentColumn);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        me.TD(me, 1, 2.5, e = <a class="code" href="../../d5/d6f/xonotic_2checkbox_8qc.html#a10aa8dc6f022dcc1df8ef8b5153ac9d0">makeXonoticCheckBox_T</a>(0, <span class="stringliteral">&quot;cl_gentle&quot;</span>, _(<span class="stringliteral">&quot;Disable gore effects and harsh language&quot;</span>),</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            _(<span class="stringliteral">&quot;Replace blood and gibs with content that does not have any gore effects&quot;</span>)));</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            e.sendCvars = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
 <div class="ttc" id="menu_2xonotic_2button_8qc_html_afa967f603e7a2d29dbd5badcc42997f9"><div class="ttname"><a href="../../df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9">makeXonoticButton</a></div><div class="ttdeci">entity makeXonoticButton(string theText, vector theColor)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/menu_2xonotic_2button_8qc_source.html#l00010">button.qc:10</a></div></div>
 <div class="ttc" id="textlabel_8qc_html_af0d71665f63e9a598b1cda030bf7fc33"><div class="ttname"><a href="../../d2/d67/textlabel_8qc.html#af0d71665f63e9a598b1cda030bf7fc33">makeXonoticHeaderLabel</a></div><div class="ttdeci">entity makeXonoticHeaderLabel(string theText)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d67/textlabel_8qc_source.html#l00010">textlabel.qc:10</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
@@ -279,8 +273,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="languagelist_8qc_html_a50f7c55bc396272158e53f3d65593e34"><div class="ttname"><a href="../../d3/d2e/languagelist_8qc.html#a50f7c55bc396272158e53f3d65593e34">makeXonoticLanguageList</a></div><div class="ttdeci">entity makeXonoticLanguageList()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d2e/languagelist_8qc_source.html#l00012">languagelist.qc:12</a></div></div>
 <div class="ttc" id="xonotic_2checkbox_8qc_html_a10aa8dc6f022dcc1df8ef8b5153ac9d0"><div class="ttname"><a href="../../d5/d6f/xonotic_2checkbox_8qc.html#a10aa8dc6f022dcc1df8ef8b5153ac9d0">makeXonoticCheckBox_T</a></div><div class="ttdeci">entity makeXonoticCheckBox_T(float isInverted, string theCvar, string theText, string theTooltip)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6f/xonotic_2checkbox_8qc_source.html#l00003">checkbox.qc:3</a></div></div>
 <div class="ttc" id="skinlist_8qc_html_a50af8ad199b479f08528e1cd4281bcca"><div class="ttname"><a href="../../d9/da1/skinlist_8qc.html#a50af8ad199b479f08528e1cd4281bcca">makeXonoticSkinList</a></div><div class="ttdeci">entity makeXonoticSkinList()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/skinlist_8qc_source.html#l00009">skinlist.qc:9</a></div></div>
-<div class="ttc" id="commandbutton_8qh_html_a227592356ccf71c3341e83060b1f8ca1"><div class="ttname"><a href="../../d7/d27/commandbutton_8qh.html#a227592356ccf71c3341e83060b1f8ca1">COMMANDBUTTON_APPLY</a></div><div class="ttdeci">#define COMMANDBUTTON_APPLY</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d27/commandbutton_8qh_source.html#l00015">commandbutton.qh:15</a></div></div>
-<div class="ttc" id="commandbutton_8qc_html_a987af68cda200c33e872603717d21f36"><div class="ttname"><a href="../../d7/df4/commandbutton_8qc.html#a987af68cda200c33e872603717d21f36">makeXonoticCommandButton</a></div><div class="ttdeci">entity makeXonoticCommandButton(string theText, vector theColor, string theCommand, float theFlags)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/df4/commandbutton_8qc_source.html#l00010">commandbutton.qc:10</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -300,7 +292,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d8/d4c/dialog__settings__user_8qc.html">dialog_settings_user.qc</a></li>
-    <li class="footer">Generated on Sun Aug 25 2019 12:51:58 for Xonotic by
+    <li class="footer">Generated on Sun Aug 25 2019 13:10:49 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
