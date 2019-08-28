@@ -12,6 +12,7 @@ var sv__clanarena_8qh =
     [ "autocvar_g_ca_team_spawns", "d1/dbf/sv__clanarena_8qh.html#a614fba62227a145d401a8b5c9aac612f", null ],
     [ "autocvar_g_ca_teams_override", "d1/dbf/sv__clanarena_8qh.html#a326da87721b996b70f4abde42e83145e", null ],
     [ "autocvar_g_ca_warmup", "d1/dbf/sv__clanarena_8qh.html#acf0b6576fbdf4f980d45cf06651f117e", null ],
+    [ "autocvar_g_ca_weaponarena", "d1/dbf/sv__clanarena_8qh.html#a51d5cfcf70fb5d85547b3d771d938da2", null ],
     [ "ca_teams", "d1/dbf/sv__clanarena_8qh.html#a83007e99e8d51b00452624bbadaae22a", null ],
     [ "caplayer", "d1/dbf/sv__clanarena_8qh.html#ac474faca339b17424d9d117497bae646", null ],
     [ "ST_CA_ROUNDS", "d1/dbf/sv__clanarena_8qh.html#a4f5d0f31a6f4f35eb767deb39752f117", null ]

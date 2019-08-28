@@ -1,5 +1,6 @@
 var NAVTREEINDEX89 =
 {
+"d9/dca/classXonoticCommandButton.html#aa7f27de3ff5b3d20ac6122783d29ad40":[1,0,162,56],
 "d9/dca/classXonoticCommandButton.html#aa8b22bde0938470cf0f0cb989e0c95e3":[1,0,162,45],
 "d9/dca/classXonoticCommandButton.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,162,55],
 "d9/dca/classXonoticCommandButton.html#aad099a0549928c37867d05a5dde2a511":[1,0,162,68],
@@ -248,6 +249,5 @@ var NAVTREEINDEX89 =
 "d9/df0/weaponstats_8qh.html#a658592c9d038c8940b9d17f4330cf72d":[2,0,6,5,19,1],
 "d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829":[2,0,6,5,19,7],
 "d9/df0/weaponstats_8qh.html#a8f2f79e647a2d2bc87cac66e6f5a7f62":[2,0,6,5,19,4],
-"d9/df0/weaponstats_8qh.html#a92da13209374adaf40062e250635050f":[2,0,6,5,19,2],
-"d9/df0/weaponstats_8qh.html#aa8f9d7c732fe1401e1ee110adfafa840":[2,0,6,5,19,6]
+"d9/df0/weaponstats_8qh.html#a92da13209374adaf40062e250635050f":[2,0,6,5,19,2]
 };

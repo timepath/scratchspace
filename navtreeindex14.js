@@ -78,15 +78,16 @@ var NAVTREEINDEX14 =
 "d1/dbf/sv__clanarena_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7":[2,0,1,3,0,1,3,5],
 "d1/dbf/sv__clanarena_8qh.html#a38b1cbdbfc48fe83ca4f0506a070b83b":[2,0,1,3,0,1,3,8],
 "d1/dbf/sv__clanarena_8qh.html#a4eb56906efb5c8da7820d434817d4a0e":[2,0,1,3,0,1,3,0],
-"d1/dbf/sv__clanarena_8qh.html#a4f5d0f31a6f4f35eb767deb39752f117":[2,0,1,3,0,1,3,14],
+"d1/dbf/sv__clanarena_8qh.html#a4f5d0f31a6f4f35eb767deb39752f117":[2,0,1,3,0,1,3,15],
+"d1/dbf/sv__clanarena_8qh.html#a51d5cfcf70fb5d85547b3d771d938da2":[2,0,1,3,0,1,3,12],
 "d1/dbf/sv__clanarena_8qh.html#a5474d0511a224439e6329941c45f1bd2":[2,0,1,3,0,1,3,1],
 "d1/dbf/sv__clanarena_8qh.html#a614fba62227a145d401a8b5c9aac612f":[2,0,1,3,0,1,3,9],
 "d1/dbf/sv__clanarena_8qh.html#a7e89ab97ff878f4d69aac275d25995e7":[2,0,1,3,0,1,3,7],
-"d1/dbf/sv__clanarena_8qh.html#a83007e99e8d51b00452624bbadaae22a":[2,0,1,3,0,1,3,12],
+"d1/dbf/sv__clanarena_8qh.html#a83007e99e8d51b00452624bbadaae22a":[2,0,1,3,0,1,3,13],
 "d1/dbf/sv__clanarena_8qh.html#a99970939c2b6fdffb0cb6c3693fd94a5":[2,0,1,3,0,1,3,6],
 "d1/dbf/sv__clanarena_8qh.html#aacbcf72df7630d29c5323a6668918b8d":[2,0,1,3,0,1,3,2],
 "d1/dbf/sv__clanarena_8qh.html#abc82708949d45746dfb807463502eeac":[2,0,1,3,0,1,3,4],
-"d1/dbf/sv__clanarena_8qh.html#ac474faca339b17424d9d117497bae646":[2,0,1,3,0,1,3,13],
+"d1/dbf/sv__clanarena_8qh.html#ac474faca339b17424d9d117497bae646":[2,0,1,3,0,1,3,14],
 "d1/dbf/sv__clanarena_8qh.html#acf0b6576fbdf4f980d45cf06651f117e":[2,0,1,3,0,1,3,11],
 "d1/dbf/sv__clanarena_8qh_source.html":[2,0,1,3,0,1,3],
 "d1/dbf/xonotic_2inputbox_8qc.html":[2,0,5,4,172],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "d1/de2/classFreezeTag.html#a689c2a1afc56d93f77ebdebad6b168bf":[1,0,43,11],
 "d1/de2/classFreezeTag.html#a9f678d47ed56b6147ac135ca3a9584cc":[1,0,43,12],
 "d1/de2/classFreezeTag.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,43,2],
-"d1/de2/classFreezeTag.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,43,18],
-"d1/de2/classFreezeTag.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,43,4]
+"d1/de2/classFreezeTag.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,43,18]
 };

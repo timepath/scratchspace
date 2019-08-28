@@ -179,8 +179,8 @@ Functions</h2></td></tr>
 <tr class="separator:a47190617838f7ffb750ceeb4a639e7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a303c60dad532fd2d1fa5abf54d1514b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0d/sv__lms_8qc.html#a303c60dad532fd2d1fa5abf54d1514b1">MUTATOR_HOOKFUNCTION</a> (lms, <a class="el" href="../../d7/d97/g__world_8qh.html#a233af455133bc7ba4e3e100115bf2885">CheckRules_World</a>)</td></tr>
 <tr class="separator:a303c60dad532fd2d1fa5abf54d1514b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ccc45d388420be657f68fbf266e59a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0d/sv__lms_8qc.html#a9ccc45d388420be657f68fbf266e59a0">MUTATOR_HOOKFUNCTION</a> (lms, WantWeapon)</td></tr>
-<tr class="separator:a9ccc45d388420be657f68fbf266e59a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60903305c5cfd06107bb04959ba176d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0d/sv__lms_8qc.html#a60903305c5cfd06107bb04959ba176d9">MUTATOR_HOOKFUNCTION</a> (lms, SetWeaponArena)</td></tr>
+<tr class="separator:a60903305c5cfd06107bb04959ba176d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91a11f026b8b283c7c1ec1281ee9dd81"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0d/sv__lms_8qc.html#a91a11f026b8b283c7c1ec1281ee9dd81">MUTATOR_HOOKFUNCTION</a> (lms, GetPlayerStatus)</td></tr>
 <tr class="separator:a91a11f026b8b283c7c1ec1281ee9dd81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64b27ed15e1f51527c4d2e53e6ba2343"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0d/sv__lms_8qc.html#a64b27ed15e1f51527c4d2e53e6ba2343">MUTATOR_HOOKFUNCTION</a> (lms, AddPlayerScore)</td></tr>
@@ -213,14 +213,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01713">1713</a> of file <a class="el" href="../../db/dcc/g__world_8qc_source.html">g_world.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01719">1719</a> of file <a class="el" href="../../db/dcc/g__world_8qc_source.html">g_world.qc</a>.</p>
 
 <p>References <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, and <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01881">CheckRules_World()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01724">WinningCondition_Scores()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01714"></a><span class="lineno"> 1714</span>&#160;{</div>
-<div class="line"><a name="l01715"></a><span class="lineno"> 1715</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), { it.winning = 0; });</div>
-<div class="line"><a name="l01716"></a><span class="lineno"> 1716</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01887">CheckRules_World()</a>, and <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01730">WinningCondition_Scores()</a>.</p>
+<div class="fragment"><div class="line"><a name="l01720"></a><span class="lineno"> 1720</span>&#160;{</div>
+<div class="line"><a name="l01721"></a><span class="lineno"> 1721</span>&#160;    <a class="code" href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), { it.winning = 0; });</div>
+<div class="line"><a name="l01722"></a><span class="lineno"> 1722</span>&#160;}</div>
 <div class="ttc" id="utils_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00046">utils.qh:46</a></div></div>
 <div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
 </div><!-- fragment -->
@@ -282,15 +282,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00449">449</a> of file <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html">sv_lms.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00450">450</a> of file <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html">sv_lms.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00028">lms_lowest_lives</a>.</p>
+<p>References <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00032">lms_lowest_lives</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00009">REGISTER_MUTATOR()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;{</div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    <a class="code" href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a> = 9999;</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;}</div>
-<div class="ttc" id="sv__lms_8qh_html_a5159121140b227cc1ff7ca5c0df2db3c"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a></div><div class="ttdeci">float lms_lowest_lives</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00028">sv_lms.qh:28</a></div></div>
+<p>Referenced by <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00013">REGISTER_MUTATOR()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;{</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    <a class="code" href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a> = 9999;</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;}</div>
+<div class="ttc" id="sv__lms_8qh_html_a5159121140b227cc1ff7ca5c0df2db3c"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a></div><div class="ttdeci">float lms_lowest_lives</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00032">sv_lms.qh:32</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -319,7 +319,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00013">13</a> of file <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html">sv_lms.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00015">autocvar_fraglimit</a>, <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00008">autocvar_g_lms_join_anytime</a>, <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00009">autocvar_g_lms_last_join</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, and <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00028">lms_lowest_lives</a>.</p>
+<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00015">autocvar_fraglimit</a>, <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00008">autocvar_g_lms_join_anytime</a>, <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00009">autocvar_g_lms_last_join</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, and <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00032">lms_lowest_lives</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00122">MUTATOR_HOOKFUNCTION()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
@@ -342,7 +342,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="sv__lms_8qc_html_abc480e526e3ffc223326187d18f60793"><div class="ttname"><a href="../../dc/d0d/sv__lms_8qc.html#abc480e526e3ffc223326187d18f60793">autocvar_g_lms_join_anytime</a></div><div class="ttdeci">bool autocvar_g_lms_join_anytime</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d0d/sv__lms_8qc_source.html#l00008">sv_lms.qc:8</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 <div class="ttc" id="sv__lms_8qc_html_a023242b139bb11bd657c135ee7ecb5a2"><div class="ttname"><a href="../../dc/d0d/sv__lms_8qc.html#a023242b139bb11bd657c135ee7ecb5a2">autocvar_g_lms_last_join</a></div><div class="ttdeci">int autocvar_g_lms_last_join</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d0d/sv__lms_8qc_source.html#l00009">sv_lms.qc:9</a></div></div>
-<div class="ttc" id="sv__lms_8qh_html_a5159121140b227cc1ff7ca5c0df2db3c"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a></div><div class="ttdeci">float lms_lowest_lives</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00028">sv_lms.qh:28</a></div></div>
+<div class="ttc" id="sv__lms_8qh_html_a5159121140b227cc1ff7ca5c0df2db3c"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a></div><div class="ttdeci">float lms_lowest_lives</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00032">sv_lms.qh:32</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -382,7 +382,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00181">181</a> of file <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html">sv_lms.qc</a>.</p>
 
-<p>References <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00673">bot_clear()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00043">FRAGS_PLAYER_OUT_OF_GAME</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00042">FRAGS_SPECTATOR</a>, <a class="el" href="../../db/d55/sv__rules_8qh_source.html#l00056">GameRules_scoring_add</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00015">IS_BOT_CLIENT</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, and <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00028">lms_lowest_lives</a>.</p>
+<p>References <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00673">bot_clear()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00043">FRAGS_PLAYER_OUT_OF_GAME</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00042">FRAGS_SPECTATOR</a>, <a class="el" href="../../db/d55/sv__rules_8qh_source.html#l00056">GameRules_scoring_add</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00015">IS_BOT_CLIENT</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, and <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00032">lms_lowest_lives</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00236">MUTATOR_HOOKFUNCTION()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;{</div>
@@ -448,7 +448,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="classObserver_html"><div class="ttname"><a href="../../de/dab/classObserver.html">Observer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00177">client.qh:177</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_ae0ab871c8cc78d5f023578c0969de0fe"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae0ab871c8cc78d5f023578c0969de0fe">FRAGS_SPECTATOR</a></div><div class="ttdeci">const int FRAGS_SPECTATOR</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00042">constants.qh:42</a></div></div>
 <div class="ttc" id="utils_8qh_html_afff35aba15a6e110ae0fe9e4a8d1a0f6"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a></div><div class="ttdeci">#define IS_BOT_CLIENT(v)</div><div class="ttdoc">want: (IS_CLIENT(v) &amp;&amp; !IS_REAL_CLIENT(v)) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00015">utils.qh:15</a></div></div>
-<div class="ttc" id="sv__lms_8qh_html_a5159121140b227cc1ff7ca5c0df2db3c"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a></div><div class="ttdeci">float lms_lowest_lives</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00028">sv_lms.qh:28</a></div></div>
+<div class="ttc" id="sv__lms_8qh_html_a5159121140b227cc1ff7ca5c0df2db3c"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a></div><div class="ttdeci">float lms_lowest_lives</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00032">sv_lms.qh:32</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a8fb26853bca170280dba1a301c735661"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a8fb26853bca170280dba1a301c735661">FRAGS_PLAYER_OUT_OF_GAME</a></div><div class="ttdeci">const int FRAGS_PLAYER_OUT_OF_GAME</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00043">constants.qh:43</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a50ba36a04eb6221cae468ec44dbfc003"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003">killcount</a></div><div class="ttdeci">float killcount</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00098">defs.qh:98</a></div></div>
 <div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
@@ -501,11 +501,11 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00117">117</a> of file <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html">sv_lms.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00028">lms_lowest_lives</a>.</p>
+<p>References <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00032">lms_lowest_lives</a>.</p>
 <div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;{</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a> = 999;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;}</div>
-<div class="ttc" id="sv__lms_8qh_html_a5159121140b227cc1ff7ca5c0df2db3c"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a></div><div class="ttdeci">float lms_lowest_lives</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00028">sv_lms.qh:28</a></div></div>
+<div class="ttc" id="sv__lms_8qh_html_a5159121140b227cc1ff7ca5c0df2db3c"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a></div><div class="ttdeci">float lms_lowest_lives</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00032">sv_lms.qh:32</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -625,7 +625,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00140">140</a> of file <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html">sv_lms.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00042">FRAGS_SPECTATOR</a>, <a class="el" href="../../db/d55/sv__rules_8qh_source.html#l00056">GameRules_scoring_add</a>, <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00028">lms_lowest_lives</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE()</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00073">warmup_stage</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00042">FRAGS_SPECTATOR</a>, <a class="el" href="../../db/d55/sv__rules_8qh_source.html#l00056">GameRules_scoring_add</a>, <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00032">lms_lowest_lives</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE()</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00073">warmup_stage</a>.</p>
 <div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;{</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
@@ -649,7 +649,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="classObserver_html"><div class="ttname"><a href="../../de/dab/classObserver.html">Observer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00177">client.qh:177</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_ae0ab871c8cc78d5f023578c0969de0fe"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae0ab871c8cc78d5f023578c0969de0fe">FRAGS_SPECTATOR</a></div><div class="ttdeci">const int FRAGS_SPECTATOR</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00042">constants.qh:42</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
-<div class="ttc" id="sv__lms_8qh_html_a5159121140b227cc1ff7ca5c0df2db3c"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a></div><div class="ttdeci">float lms_lowest_lives</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00028">sv_lms.qh:28</a></div></div>
+<div class="ttc" id="sv__lms_8qh_html_a5159121140b227cc1ff7ca5c0df2db3c"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a></div><div class="ttdeci">float lms_lowest_lives</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00032">sv_lms.qh:32</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1108,7 +1108,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00297">297</a> of file <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html">sv_lms.qc</a>.</p>
 
-<p>References <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00673">bot_clear()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00043">FRAGS_PLAYER_OUT_OF_GAME</a>, <a class="el" href="../../db/d55/sv__rules_8qh_source.html#l00056">GameRules_scoring_add</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00015">IS_BOT_CLIENT</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00028">lms_lowest_lives</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00073">warmup_stage</a>.</p>
+<p>References <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00673">bot_clear()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00046">FOREACH_CLIENT</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00043">FRAGS_PLAYER_OUT_OF_GAME</a>, <a class="el" href="../../db/d55/sv__rules_8qh_source.html#l00056">GameRules_scoring_add</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00015">IS_BOT_CLIENT</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00032">lms_lowest_lives</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00073">warmup_stage</a>.</p>
 <div class="fragment"><div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;{</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div>
@@ -1141,7 +1141,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="api_8qh_html_aaab6595d20cc13a72a099b0256b9f056"><div class="ttname"><a href="../../db/d15/api_8qh.html#aaab6595d20cc13a72a099b0256b9f056">bot_clear</a></div><div class="ttdeci">void bot_clear(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc0/bot_8qc_source.html#l00673">bot.qc:673</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="utils_8qh_html_afff35aba15a6e110ae0fe9e4a8d1a0f6"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a></div><div class="ttdeci">#define IS_BOT_CLIENT(v)</div><div class="ttdoc">want: (IS_CLIENT(v) &amp;&amp; !IS_REAL_CLIENT(v)) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00015">utils.qh:15</a></div></div>
-<div class="ttc" id="sv__lms_8qh_html_a5159121140b227cc1ff7ca5c0df2db3c"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a></div><div class="ttdeci">float lms_lowest_lives</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00028">sv_lms.qh:28</a></div></div>
+<div class="ttc" id="sv__lms_8qh_html_a5159121140b227cc1ff7ca5c0df2db3c"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c">lms_lowest_lives</a></div><div class="ttdeci">float lms_lowest_lives</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00032">sv_lms.qh:32</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a8fb26853bca170280dba1a301c735661"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a8fb26853bca170280dba1a301c735661">FRAGS_PLAYER_OUT_OF_GAME</a></div><div class="ttdeci">const int FRAGS_PLAYER_OUT_OF_GAME</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00043">constants.qh:43</a></div></div>
 <div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
 </div><!-- fragment -->
@@ -1598,7 +1598,7 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9ccc45d388420be657f68fbf266e59a0"></a>
+<a class="anchor" id="a60903305c5cfd06107bb04959ba176d9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1611,7 +1611,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">WantWeapon&#160;</td>
+          <td class="paramtype">SetWeaponArena&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1624,11 +1624,13 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00432">432</a> of file <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html">sv_lms.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
+<p>References <a class="el" href="../../df/d58/sv__lms_8qh_source.html#l00009">autocvar_g_lms_weaponarena</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
 <div class="fragment"><div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;{</div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <span class="keywordtype">bool</span>) = <span class="keyword">true</span>; <span class="comment">// all weapons</span></div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;}</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;0&quot;</span> || <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;        <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../df/d58/sv__lms_8qh.html#a1c16af18b745237e0d4a2bf0734a8567">autocvar_g_lms_weaponarena</a>;</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;}</div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
+<div class="ttc" id="sv__lms_8qh_html_a1c16af18b745237e0d4a2bf0734a8567"><div class="ttname"><a href="../../df/d58/sv__lms_8qh.html#a1c16af18b745237e0d4a2bf0734a8567">autocvar_g_lms_weaponarena</a></div><div class="ttdeci">string autocvar_g_lms_weaponarena</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/sv__lms_8qh_source.html#l00009">sv_lms.qh:9</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1656,10 +1658,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00437">437</a> of file <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html">sv_lms.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;{</div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00438">438</a> of file <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html">sv_lms.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;{</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1687,14 +1689,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00442">442</a> of file <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html">sv_lms.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html#l00443">443</a> of file <a class="el" href="../../dc/d0d/sv__lms_8qc_source.html">sv_lms.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;{</div>
-<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <span class="keywordflow">if</span>(game_stopped)</div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>) == SP_LMS_RANK) <span class="comment">// score field</span></div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>; <span class="comment">// allow writing to this field in intermission as it is needed for newly joining players</span></div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;{</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <span class="keywordflow">if</span>(game_stopped)</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>) == SP_LMS_RANK) <span class="comment">// score field</span></div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>; <span class="comment">// allow writing to this field in intermission as it is needed for newly joining players</span></div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
@@ -1806,7 +1808,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="comment">// Top two have different scores? Way to go for our beloved TIMELIMIT!</span></div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d97/g__world_8qh.html#a5b72936b18304effe0be1f792c755ad7">WINNING_NO</a>;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;}</div>
-<div class="ttc" id="sv__lms_8qc_html_a1e656abc1ff1500960d4cc2f55bcd820"><div class="ttname"><a href="../../dc/d0d/sv__lms_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820">ClearWinners</a></div><div class="ttdeci">void ClearWinners()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l01713">g_world.qc:1713</a></div></div>
+<div class="ttc" id="sv__lms_8qc_html_a1e656abc1ff1500960d4cc2f55bcd820"><div class="ttname"><a href="../../dc/d0d/sv__lms_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820">ClearWinners</a></div><div class="ttdeci">void ClearWinners()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l01719">g_world.qc:1719</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="g__world_8qh_html_a5b72936b18304effe0be1f792c755ad7"><div class="ttname"><a href="../../d7/d97/g__world_8qh.html#a5b72936b18304effe0be1f792c755ad7">WINNING_NO</a></div><div class="ttdeci">const int WINNING_NO</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d97/g__world_8qh_source.html#l00011">g_world.qh:11</a></div></div>
 <div class="ttc" id="utils_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00046">utils.qh:46</a></div></div>
@@ -1818,7 +1820,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2scores_8qh_html_a0bc1ee30316696f4db9daf10b6712117"><div class="ttname"><a href="../../d5/dac/server_2scores_8qh.html#a0bc1ee30316696f4db9daf10b6712117">WinningConditionHelper_secondscore</a></div><div class="ttdeci">float WinningConditionHelper_secondscore</div><div class="ttdoc">second highest score </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/server_2scores_8qh_source.html#l00107">scores.qh:107</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a7e4aa54ca2710ff1341835039c3d9b2f"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a7e4aa54ca2710ff1341835039c3d9b2f">winning</a></div><div class="ttdeci">float winning</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00144">defs.qh:144</a></div></div>
 <div class="ttc" id="framework_8qc_html_aef346455b3c2def821423a45227b45dd"><div class="ttname"><a href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a></div><div class="ttdeci">void LOG_TRACE(string s,...)</div></div>
-<div class="ttc" id="g__world_8qc_html_a5e4e81a9c481420994df74eef50865c8"><div class="ttname"><a href="../../db/dcc/g__world_8qc.html#a5e4e81a9c481420994df74eef50865c8">SetWinners</a></div><div class="ttdeci">void SetWinners(.float field, float value)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l01698">g_world.qc:1698</a></div></div>
+<div class="ttc" id="g__world_8qc_html_a5e4e81a9c481420994df74eef50865c8"><div class="ttname"><a href="../../db/dcc/g__world_8qc.html#a5e4e81a9c481420994df74eef50865c8">SetWinners</a></div><div class="ttdeci">void SetWinners(.float field, float value)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l01704">g_world.qc:1704</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a9e49d744aa004a9ba871c7301dd92e7c"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a9e49d744aa004a9ba871c7301dd92e7c">autocvar_g_campaign</a></div><div class="ttdeci">bool autocvar_g_campaign</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00106">autocvars.qh:106</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a8fb26853bca170280dba1a301c735661"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a8fb26853bca170280dba1a301c735661">FRAGS_PLAYER_OUT_OF_GAME</a></div><div class="ttdeci">const int FRAGS_PLAYER_OUT_OF_GAME</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00043">constants.qh:43</a></div></div>
@@ -1921,7 +1923,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_82567b9cb95725db77922d32d6fe9e39.html">lms</a></li><li class="navelem"><a class="el" href="../../dc/d0d/sv__lms_8qc.html">sv_lms.qc</a></li>
-    <li class="footer">Generated on Wed Aug 28 2019 15:39:06 for Xonotic by
+    <li class="footer">Generated on Wed Aug 28 2019 17:09:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

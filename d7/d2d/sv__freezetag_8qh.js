@@ -9,6 +9,7 @@ var sv__freezetag_8qh =
     [ "autocvar_g_freezetag_revive_nade_health", "d7/d2d/sv__freezetag_8qh.html#a22c1b1fa2cc3380d509007bc888e137c", null ],
     [ "autocvar_g_freezetag_revive_speed", "d7/d2d/sv__freezetag_8qh.html#a17e55bd8fb82ddd763d5fd3d506fdc5d", null ],
     [ "autocvar_g_freezetag_team_spawns", "d7/d2d/sv__freezetag_8qh.html#aaa13a46cb43eaeeec707e1630d149734", null ],
+    [ "autocvar_g_freezetag_weaponarena", "d7/d2d/sv__freezetag_8qh.html#ac73a9688fb2e8c178b283a887a2a15a9", null ],
     [ "freezetag_frozen_time", "d7/d2d/sv__freezetag_8qh.html#aab6e5dd351a36e1a298791aceb0a13a3", null ],
     [ "freezetag_frozen_timeout", "d7/d2d/sv__freezetag_8qh.html#a5c7d231b29848dbe9e992548d57958bb", null ],
     [ "freezetag_teams", "d7/d2d/sv__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e", null ],

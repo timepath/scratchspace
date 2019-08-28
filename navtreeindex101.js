@@ -1,5 +1,6 @@
 var NAVTREEINDEX101 =
 {
+"db/d59/classXonoticPlayList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,229,81],
 "db/d59/classXonoticPlayList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,229,63],
 "db/d59/classXonoticPlayList.html#a565f8d33b46815606f1860162d71339a":[1,0,229,19],
 "db/d59/classXonoticPlayList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,229,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX101 =
 "db/d5b/classXonoticGameMessageSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,180,8],
 "db/d5c/walker_8qc.html":[2,0,1,14,0,42],
 "db/d5c/walker_8qc_source.html":[2,0,1,14,0,42],
-"db/d5e/multijump_8qh.html":[2,0,1,10,0,18,3],
-"db/d5e/multijump_8qh_source.html":[2,0,1,10,0,18,3]
+"db/d5e/multijump_8qh.html":[2,0,1,10,0,18,3]
 };

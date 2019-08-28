@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"da/d3e/nades_8qh.html#af6aecc7745e224df6494e86a57dd06ce":[2,0,1,10,0,19,5,14],
 "da/d3e/nades_8qh.html#afd84321ae1ea88d01df919ce8bc54518":[2,0,1,10,0,19,5,15],
 "da/d3e/nades_8qh_source.html":[2,0,1,10,0,19,5],
 "da/d40/common_2mutators_2mutator_2weaponarena__random_2__mod_8qh.html":[2,0,1,10,0,40,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "da/d6b/sv__superspec_8qc.html#af718ac80b43bf3ea8caf199bb5ee907d":[2,0,1,10,0,34,2,15],
 "da/d6b/sv__superspec_8qc.html#afa65ea27f912d5feb51fc209b90c2597":[2,0,1,10,0,34,2,10],
 "da/d6b/sv__superspec_8qc_source.html":[2,0,1,10,0,34,2],
-"da/d6d/classXonoticPlayerModelSelector.html":[1,0,228],
-"da/d6d/classXonoticPlayerModelSelector.html#a00e73292d4ce1cafcb4784f83be1b991":[1,0,228,43]
+"da/d6d/classXonoticPlayerModelSelector.html":[1,0,228]
 };

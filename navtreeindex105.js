@@ -1,5 +1,6 @@
 var NAVTREEINDEX105 =
 {
+"db/da0/log_8qh.html#add82efa459e0af380b68522c29b9fd44":[2,0,4,30,31],
 "db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37":[2,0,4,30,16],
 "db/da0/log_8qh.html#af708cc0bf9db0ebcddb40a671f751ed8":[2,0,4,30,34],
 "db/da0/log_8qh.html#afab8de1e69e3162b5564c0197bbc8ff8":[2,0,4,30,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX105 =
 "db/db5/common_2models_2__mod_8inc_source.html":[2,0,1,8,0],
 "db/dbd/classXonoticHUDPressedKeysDialog.html":[1,0,199],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,199,30],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,199,11],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,199,38]
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,199,11]
 };

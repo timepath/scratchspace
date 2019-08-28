@@ -27,7 +27,7 @@ var sv__lms_8qc =
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#ad0541ce017c96ec780ff972d45cedf88", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a47190617838f7ffb750ceeb4a639e7cc", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a303c60dad532fd2d1fa5abf54d1514b1", null ],
-    [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a9ccc45d388420be657f68fbf266e59a0", null ],
+    [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a60903305c5cfd06107bb04959ba176d9", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a91a11f026b8b283c7c1ec1281ee9dd81", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a64b27ed15e1f51527c4d2e53e6ba2343", null ],
     [ "WinningCondition_LMS", "dc/d0d/sv__lms_8qc.html#ad70b0e43cbab79e745afa8d774d10abd", null ],

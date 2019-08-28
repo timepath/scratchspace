@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"d4/d87/classHagar.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,47,17],
 "d4/d87/classHagar.html#a312755d5709b880f99cf89d7a76237fe":[1,0,47,4],
 "d4/d87/classHagar.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,47,21],
 "d4/d87/classHagar.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,47,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "d4/d91/classXonoticCampaignList.html#a2c323d82578b381efc9730e7017ec98b":[1,0,155,70],
 "d4/d91/classXonoticCampaignList.html#a2e784d6bdbceeafaad14d59f83b39d81":[1,0,155,32],
 "d4/d91/classXonoticCampaignList.html#a2fb07026eb8baabb26a558a411861148":[1,0,155,13],
-"d4/d91/classXonoticCampaignList.html#a39d6bec834ecb0cb4bd1c25e469f484b":[1,0,155,84],
-"d4/d91/classXonoticCampaignList.html#a3f9c5e6943891f335099fe380661b70c":[1,0,155,34]
+"d4/d91/classXonoticCampaignList.html#a39d6bec834ecb0cb4bd1c25e469f484b":[1,0,155,84]
 };
