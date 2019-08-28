@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"d3/dd5/bd_8qc.html#a5b27f4c82a469bdb077f0042eabe38c7":[2,0,1,7,0,3,25],
 "d3/dd5/bd_8qc.html#a61b4517d0e8bab1bc860c2ce72d30e60":[2,0,1,7,0,3,57],
 "d3/dd5/bd_8qc.html#a6662223bd539872a144532019c5ba1df":[2,0,1,7,0,3,41],
 "d3/dd5/bd_8qc.html#a6ac6c0e0953db2f9410299982e3aed95":[2,0,1,7,0,3,68],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "d3/df2/classDualPlasmaTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,31,0],
 "d3/df2/sv__cmd_8qc.html":[2,0,6,1,14],
 "d3/df2/sv__cmd_8qc.html#a04a93c85ed8770476a04dfc7190a511d":[2,0,6,1,14,32],
-"d3/df2/sv__cmd_8qc.html#a06310d05ccc19eb55fcc3f9fa4bce797":[2,0,6,1,14,14],
-"d3/df2/sv__cmd_8qc.html#a18fb314355c789c6d3643ac28fe5bb3b":[2,0,6,1,14,9]
+"d3/df2/sv__cmd_8qc.html#a06310d05ccc19eb55fcc3f9fa4bce797":[2,0,6,1,14,14]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX87 =
 {
+"d9/d67/turret_8qh.html#ac541faa688eeead026348ad699585d0c":[2,0,1,14,15,97],
+"d9/d67/turret_8qh.html#ac8e921262e96b469ede3950a35b1ddd4":[2,0,1,14,15,95],
+"d9/d67/turret_8qh.html#ac964a012400339635188b11a5f95ffba":[2,0,1,14,15,87],
 "d9/d67/turret_8qh.html#aca1790efbdb53ea493cd4cda3c10232e":[2,0,1,14,15,5],
 "d9/d67/turret_8qh.html#acafef71d6e1f2d40cbc621dab5df3846":[2,0,1,14,15,2],
 "d9/d67/turret_8qh.html#ace08035506c5d4244ad546d175cdbe04":[2,0,1,14,15,51],
@@ -246,8 +249,5 @@ var NAVTREEINDEX87 =
 "d9/da1/vehicles_8qh_source.html":[2,0,1,15,11],
 "d9/da4/sv__duel_8qh.html":[2,0,1,3,0,6,3],
 "d9/da4/sv__duel_8qh.html#a70edffe7da8888861d7ab34da4e21fe4":[2,0,1,3,0,6,3,0],
-"d9/da4/sv__duel_8qh.html#af99a9bf907c4d7932148f049786b9034":[2,0,1,3,0,6,3,1],
-"d9/da4/sv__duel_8qh_source.html":[2,0,1,3,0,6,3],
-"d9/da8/angle_8qc.html":[2,0,4,7],
-"d9/da8/angle_8qc.html#a191b877d788960dbca95f37477547802":[2,0,4,7,4]
+"d9/da4/sv__duel_8qh.html#af99a9bf907c4d7932148f049786b9034":[2,0,1,3,0,6,3,1]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX116 =
 {
+"dc/def/vortex_8qc_source.html":[2,0,1,16,0,40],
+"dc/df0/sv__dynamic__handicap_8qc.html":[2,0,1,10,0,9,2],
+"dc/df0/sv__dynamic__handicap_8qc.html#a20b2a6c9063db0482fe1a8eac7ce0748":[2,0,1,10,0,9,2,7],
 "dc/df0/sv__dynamic__handicap_8qc.html#a2aeafca791bf3d9c9c922cf0bead909c":[2,0,1,10,0,9,2,3],
 "dc/df0/sv__dynamic__handicap_8qc.html#a3701baef0424660c2f8432a86b62be1e":[2,0,1,10,0,9,2,11],
 "dc/df0/sv__dynamic__handicap_8qc.html#a426d883bd1c37632dd429f62d6615608":[2,0,1,10,0,9,2,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX116 =
 "dd/d0c/sv__ctf_8qc.html#a6fb82c0be76c5b347710865ede3da95e":[2,0,1,3,0,2,5,136],
 "dd/d0c/sv__ctf_8qc.html#a7255a4ae3742a5a48df6bb1e7de2a518":[2,0,1,3,0,2,5,48],
 "dd/d0c/sv__ctf_8qc.html#a732a35cfcf87cfb435216455ce123da0":[2,0,1,3,0,2,5,110],
-"dd/d0c/sv__ctf_8qc.html#a73614c4d1cf94f6f38d40c927a797fb4":[2,0,1,3,0,2,5,85],
-"dd/d0c/sv__ctf_8qc.html#a737c218d55224c38b377d3c911249db1":[2,0,1,3,0,2,5,58],
-"dd/d0c/sv__ctf_8qc.html#a77969582d7acc26c088c95bde3c40a9e":[2,0,1,3,0,2,5,142],
-"dd/d0c/sv__ctf_8qc.html#a7a47b33d1dbec111614579feb8646515":[2,0,1,3,0,2,5,34]
+"dd/d0c/sv__ctf_8qc.html#a73614c4d1cf94f6f38d40c927a797fb4":[2,0,1,3,0,2,5,85]
 };

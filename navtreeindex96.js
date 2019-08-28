@@ -1,5 +1,8 @@
 var NAVTREEINDEX96 =
 {
+"da/dc1/classXonoticAudioSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,150,8],
+"da/dc1/dialog__hudpanel__modicons_8qh.html":[2,0,5,4,59],
+"da/dc1/dialog__hudpanel__modicons_8qh_source.html":[2,0,5,4,59],
 "da/dc1/server_2player_8qh.html":[2,0,6,44],
 "da/dc1/server_2player_8qh.html#a2c4acf85cd876d0e628435d91592d615":[2,0,6,44,7],
 "da/dc1/server_2player_8qh.html#a51c4a1afebc1206d7849ebd9f21e2f3b":[2,0,6,44,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX96 =
 "da/df4/announcer_8qc.html#add205a06b0bcf100c9346951fdabee42":[2,0,0,6,9],
 "da/df4/announcer_8qc.html#ae2ec52dab37e3c927a892b5eec19a8bc":[2,0,0,6,7],
 "da/df4/announcer_8qc.html#af849d803cb328d40fe38558b26cdb4bb":[2,0,0,6,0],
-"da/df4/announcer_8qc_source.html":[2,0,0,6],
-"da/df4/sv__duel_8qc.html":[2,0,1,3,0,6,2],
-"da/df4/sv__duel_8qc.html#a63d14df1510faaffd7f26c9e796f39b4":[2,0,1,3,0,6,2,0],
-"da/df4/sv__duel_8qc.html#a75669e8f84b8a0bfb909f0d71677d3f4":[2,0,1,3,0,6,2,1]
+"da/df4/announcer_8qc_source.html":[2,0,0,6]
 };

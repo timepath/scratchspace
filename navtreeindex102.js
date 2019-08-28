@@ -1,5 +1,8 @@
 var NAVTREEINDEX102 =
 {
+"db/d5f/deathtypes_2all_8qc.html":[2,0,1,1,3],
+"db/d5f/deathtypes_2all_8qc.html#ab228bbc4e90e596f0f88f2556ee96c59":[2,0,1,1,3,0],
+"db/d5f/deathtypes_2all_8qc_source.html":[2,0,1,1,3],
 "db/d5f/menu_2command_2__mod_8qh.html":[2,0,5,1,1],
 "db/d5f/menu_2command_2__mod_8qh_source.html":[2,0,5,1,1],
 "db/d62/sv__keyhunt_8qh.html":[2,0,1,3,0,10,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX102 =
 "db/d7f/effectinfo_8inc.html#a1b6ae1ed387c1fb759fb6653eb94bf86":[2,0,1,2,7,8],
 "db/d7f/effectinfo_8inc.html#a1d12fa72405f817de146fdfa79364738":[2,0,1,2,7,364],
 "db/d7f/effectinfo_8inc.html#a1df4703f6cb8fc648a3b37dea36f193c":[2,0,1,2,7,243],
-"db/d7f/effectinfo_8inc.html#a1eda1815a83ef6eb0b38e0b6b59c9bb3":[2,0,1,2,7,150],
-"db/d7f/effectinfo_8inc.html#a1ee324e860c3133ea18a16b72a43fdcf":[2,0,1,2,7,54],
-"db/d7f/effectinfo_8inc.html#a21b60ba1f65c28a5a3af70a02018b58f":[2,0,1,2,7,293],
-"db/d7f/effectinfo_8inc.html#a23befd80f039f679ad6f235725de60f6":[2,0,1,2,7,90]
+"db/d7f/effectinfo_8inc.html#a1eda1815a83ef6eb0b38e0b6b59c9bb3":[2,0,1,2,7,150]
 };

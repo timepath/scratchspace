@@ -1,5 +1,8 @@
 var NAVTREEINDEX115 =
 {
+"dc/dda/classAmmo.html#a7d7a1817ddfcece5aa3e23c939a0097e":[1,0,0,10],
+"dc/dda/classAmmo.html#a7d8cf6b7a18644fba549fe489903901d":[1,0,0,4],
+"dc/dda/classAmmo.html#a95e7f0cf091386e07ce2add2ab653934":[1,0,0,7],
 "dc/dda/classAmmo.html#aaca9d5c571d73c2274a3356ef2fcdc53":[1,0,0,9],
 "dc/dda/classAmmo.html#ac88de49ea35f4990740cb804bbe94f28":[1,0,0,8],
 "dc/dda/classAmmo.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,0,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX115 =
 "dc/de9/classXonoticRootDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,236,2],
 "dc/de9/classXonoticRootDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,236,35],
 "dc/de9/classXonoticRootDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,236,39],
-"dc/def/vortex_8qc.html":[2,0,1,16,0,40],
-"dc/def/vortex_8qc_source.html":[2,0,1,16,0,40],
-"dc/df0/sv__dynamic__handicap_8qc.html":[2,0,1,10,0,9,2],
-"dc/df0/sv__dynamic__handicap_8qc.html#a20b2a6c9063db0482fe1a8eac7ce0748":[2,0,1,10,0,9,2,7]
+"dc/def/vortex_8qc.html":[2,0,1,16,0,40]
 };

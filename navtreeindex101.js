@@ -1,5 +1,8 @@
 var NAVTREEINDEX101 =
 {
+"db/d59/classXonoticPlayList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,229,63],
+"db/d59/classXonoticPlayList.html#a565f8d33b46815606f1860162d71339a":[1,0,229,19],
+"db/d59/classXonoticPlayList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,229,6],
 "db/d59/classXonoticPlayList.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,229,24],
 "db/d59/classXonoticPlayList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,229,14],
 "db/d59/classXonoticPlayList.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,229,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX101 =
 "db/d5c/walker_8qc.html":[2,0,1,14,0,42],
 "db/d5c/walker_8qc_source.html":[2,0,1,14,0,42],
 "db/d5e/multijump_8qh.html":[2,0,1,10,0,18,3],
-"db/d5e/multijump_8qh_source.html":[2,0,1,10,0,18,3],
-"db/d5f/deathtypes_2all_8qc.html":[2,0,1,1,3],
-"db/d5f/deathtypes_2all_8qc.html#ab228bbc4e90e596f0f88f2556ee96c59":[2,0,1,1,3,0],
-"db/d5f/deathtypes_2all_8qc_source.html":[2,0,1,1,3]
+"db/d5e/multijump_8qh_source.html":[2,0,1,10,0,18,3]
 };

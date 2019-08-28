@@ -1,5 +1,6 @@
 var csqcmodel__settings_8qh =
 [
+    [ "ALPHA", "d1/d20/csqcmodel__settings_8qh.html#af5abd28c44c29b7397c84f1fec4b1d84", null ],
     [ "CSQCMODEL_EF_RESPAWNGHOST", "d1/d20/csqcmodel__settings_8qh.html#a4d51648d080806031196f806ec59c803", null ],
     [ "CSQCMODEL_EXTRAPROPERTIES", "d1/d20/csqcmodel__settings_8qh.html#a7e45169d39a4fbe54c9e7bef975dc858", null ],
     [ "CSQCPLAYER_FORCE_UPDATES", "d1/d20/csqcmodel__settings_8qh.html#afa3788f017d2c00503a944c4176a3f65", null ],

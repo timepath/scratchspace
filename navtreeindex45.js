@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"d4/dd1/spawnpoints_8qh.html#a2a7af8ac3ec4cc48b002997881b2a491":[2,0,6,59,4],
 "d4/dd1/spawnpoints_8qh.html#a572fb1292ba23838d08e19ed54227679":[2,0,6,59,3],
 "d4/dd1/spawnpoints_8qh.html#a5d88e76b04abc36016eda23afcc61ef1":[2,0,6,59,8],
 "d4/dd1/spawnpoints_8qh.html#a65f632ea7c75b704550b257f227230cb":[2,0,6,59,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "d4/df8/classXonoticHUDRadarDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,202,74],
 "d4/df8/classXonoticHUDRadarDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,202,6],
 "d4/df8/classXonoticHUDRadarDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,202,14],
-"d4/df8/classXonoticHUDRadarDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,202,18],
-"d4/df8/classXonoticHUDRadarDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,202,87]
+"d4/df8/classXonoticHUDRadarDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,202,18]
 };

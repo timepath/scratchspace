@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"d1/d5c/classCallbackChain.html#a8d9e4f61e3f5ee602f2f93f27e0515b3":[1,0,14,5],
 "d1/d5c/classCallbackChain.html#acb57017cda90c9c7fd19b66899a711b2":[1,0,14,2],
 "d1/d5c/classCallbackChain.html#adc1a82dd715c90977a8fb103f18adaea":[1,0,14,1],
 "d1/d5c/classMonster.html":[1,0,83],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "d1/d74/quake2_8qc.html":[2,0,6,2,6],
 "d1/d74/quake2_8qc_source.html":[2,0,6,2,6],
 "d1/d7c/effectinfo__instagib_8inc.html":[2,0,1,2,16],
-"d1/d7c/effectinfo__instagib_8inc.html#a0b2b68bf407372a63294f43aee78d782":[2,0,1,2,16,2],
-"d1/d7c/effectinfo__instagib_8inc.html#a76dcc91743204923893da407def28f1c":[2,0,1,2,16,1]
+"d1/d7c/effectinfo__instagib_8inc.html#a0b2b68bf407372a63294f43aee78d782":[2,0,1,2,16,2]
 };

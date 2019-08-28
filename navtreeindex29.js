@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"d3/d83/classXonoticHUDHealthArmorDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,192,49],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,192,2],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#af9f5eaac5c129584f950291c88327398":[1,0,192,76],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,192,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "d3/db2/classXonoticListBox.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,214,7],
 "d3/db2/classXonoticListBox.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,214,37],
 "d3/db2/classXonoticListBox.html#a0dc1fdac9b12e18c439f02886f13e368":[1,0,214,31],
-"d3/db2/classXonoticListBox.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,214,19],
-"d3/db2/classXonoticListBox.html#a0fa6dee7bad5c2e88437360047c892da":[1,0,214,28]
+"d3/db2/classXonoticListBox.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,214,19]
 };
