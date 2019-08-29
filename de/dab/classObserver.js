@@ -89,7 +89,7 @@ var classObserver =
     [ "motd_actived_time", "de/dab/classObserver.html#a149e59d2293d8bdb8aaedd213444c005", null ],
     [ "movement", "de/dab/classObserver.html#aebb2f970915f520a2fa9a55c9b91bf3e", null ],
     [ "movement_old", "de/dab/classObserver.html#a22ed7d5606cdae61c7d78626d729091a", null ],
-    [ "msg_choice_choices", "de/dab/classObserver.html#a845f484ce52640b17516b76a96201bd1", null ],
+    [ "msg_choice_choices", "de/dab/classObserver.html#a54d47bddbc0268a610beedccfc8bbcb7", null ],
     [ "muted", "de/dab/classObserver.html#a5ffe68e3b3028b5b83443e5e5b51925f", null ],
     [ "netaddress", "de/dab/classObserver.html#ac7d2f552e4ce0768198744f31d7deb25", null ],
     [ "netname", "de/dab/classObserver.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012", null ],

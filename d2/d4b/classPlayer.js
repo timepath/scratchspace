@@ -93,7 +93,7 @@ var classPlayer =
     [ "motd_actived_time", "d2/d4b/classPlayer.html#a149e59d2293d8bdb8aaedd213444c005", null ],
     [ "movement", "d2/d4b/classPlayer.html#aebb2f970915f520a2fa9a55c9b91bf3e", null ],
     [ "movement_old", "d2/d4b/classPlayer.html#a22ed7d5606cdae61c7d78626d729091a", null ],
-    [ "msg_choice_choices", "d2/d4b/classPlayer.html#a845f484ce52640b17516b76a96201bd1", null ],
+    [ "msg_choice_choices", "d2/d4b/classPlayer.html#a54d47bddbc0268a610beedccfc8bbcb7", null ],
     [ "muted", "d2/d4b/classPlayer.html#a5ffe68e3b3028b5b83443e5e5b51925f", null ],
     [ "netaddress", "d2/d4b/classPlayer.html#ac7d2f552e4ce0768198744f31d7deb25", null ],
     [ "netname", "d2/d4b/classPlayer.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012", null ],
