@@ -173,7 +173,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00111">oo.qh:111</a></div></div>
 <div class="ttc" id="oo_8qh_html_a4627693b652f553ef276c99d9d3d9b3b"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a4627693b652f553ef276c99d9d3d9b3b">CLASS</a></div><div class="ttdeci">CLASS(Object) Object</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00324">oo.qh:324</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00788">cmd.qc:788</a></div></div>
+<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00815">cmd.qc:815</a></div></div>
 <div class="ttc" id="oo_8qh_html_a926d5d6965300dccae308bb74a713894"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a></div><div class="ttdeci">#define METHOD(cname, name, prototype)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00263">oo.qh:263</a></div></div>
 <div class="ttc" id="oo_8qh_html_aa5c79a538e305f192747da0e028b5c15"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">ATTRIB</a></div><div class="ttdeci">#define ATTRIB(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00142">oo.qh:142</a></div></div>
 <div class="ttc" id="effect_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de6/effect_8qh_source.html#l00019">effect.qh:19</a></div></div>
@@ -615,13 +615,13 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00507">507</a> of file <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html">cl_cmd.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00788">CLIENT_COMMANDS</a>, <a class="el" href="../../d7/d88/generic_8qh_source.html#l00034">CMD_Write_Alias</a>, and <a class="el" href="../../d4/d18/iter_8qh_source.html#l00019">FOREACH</a>.</p>
+<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00815">CLIENT_COMMANDS</a>, <a class="el" href="../../d7/d88/generic_8qh_source.html#l00034">CMD_Write_Alias</a>, and <a class="el" href="../../d4/d18/iter_8qh_source.html#l00019">FOREACH</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/da7/generic_8qc_source.html#l00172">GENERIC_COMMAND()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;{</div>
 <div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(<a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>, <span class="keyword">true</span>, <a class="code" href="../../d7/d88/generic_8qh.html#a44c76290bfaf0ae7ebacd68341676cdd">CMD_Write_Alias</a>(<span class="stringliteral">&quot;qc_cmd_cl&quot;</span>, it.m_name, it.m_description));</div>
 <div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;}</div>
-<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00788">cmd.qc:788</a></div></div>
+<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00815">cmd.qc:815</a></div></div>
 <div class="ttc" id="generic_8qh_html_a44c76290bfaf0ae7ebacd68341676cdd"><div class="ttname"><a href="../../d7/d88/generic_8qh.html#a44c76290bfaf0ae7ebacd68341676cdd">CMD_Write_Alias</a></div><div class="ttdeci">#define CMD_Write_Alias(execute, command, description)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d88/generic_8qh_source.html#l00034">generic.qh:34</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00019">iter.qh:19</a></div></div>
 </div><!-- fragment -->
@@ -653,12 +653,12 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/d70/cl__cmd_8qh_source.html#l00023">23</a> of file <a class="el" href="../../d4/d70/cl__cmd_8qh_source.html">cl_cmd.qh</a>.</p>
 
-<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00788">CLIENT_COMMANDS</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00019">FOREACH</a>, and <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00021">localcmd</a>.</p>
+<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00815">CLIENT_COMMANDS</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00019">FOREACH</a>, and <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00021">localcmd</a>.</p>
 <div class="fragment"><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                                     {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(<a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>, <span class="keyword">true</span>, <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(sprintf(<span class="stringliteral">&quot;alias %1$s \&quot;%2$s %1$s ${* ?}\&quot;\n&quot;</span>, it.m_name, <span class="stringliteral">&quot;qc_cmd_cl&quot;</span>)));</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qh_html_a3d23a92a3bb3bcbb467f1fa2bdaa54b3"><div class="ttname"><a href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a></div><div class="ttdeci">#define localcmd</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d95/menudefs_8qh_source.html#l00021">menudefs.qh:21</a></div></div>
-<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00788">cmd.qc:788</a></div></div>
+<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00815">cmd.qc:815</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00019">iter.qh:19</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -669,7 +669,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_6d330f67e9a5efc8c508ff076d3c6103.html">commands</a></li><li class="navelem"><a class="el" href="../../d4/d70/cl__cmd_8qh.html">cl_cmd.qh</a></li>
-    <li class="footer">Generated on Wed Aug 28 2019 22:33:51 for Xonotic by
+    <li class="footer">Generated on Thu Aug 29 2019 04:43:21 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

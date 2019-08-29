@@ -419,7 +419,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00133">133</a> of file <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html">miscfunctions.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00114">buff_Respawn()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00237">buff_Think()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00149">buff_Touch()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00325">CommonCommand_editmob()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01235">havocbot_gettarget()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00031">monster_dropitem()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00119">Monster_FindTarget()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01073">Monster_Move_2D()</a>, <a class="el" href="../../dd/d0c/sv__ctf_8qc_source.html#l02308">MUTATOR_HOOKFUNCTION()</a>, and <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00864">RadiusDamageForSource()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00114">buff_Respawn()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00237">buff_Think()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00149">buff_Touch()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00325">CommonCommand_editmob()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01272">havocbot_gettarget()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00031">monster_dropitem()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00119">Monster_FindTarget()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01073">Monster_Move_2D()</a>, <a class="el" href="../../dd/d0c/sv__ctf_8qc_source.html#l02308">MUTATOR_HOOKFUNCTION()</a>, and <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00864">RadiusDamageForSource()</a>.</p>
 
 </div>
 </div>
@@ -712,7 +712,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00014">ANTILAG_LATENCY</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l02399">cursor_trace_endpos</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l02398">cursor_trace_start</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00133">MOVE_NORMAL</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize()</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00193">traceline_antilag()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00299">CheatCommand()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01510">crosshair_trace_waypoints()</a>, and <a class="el" href="../../d2/d24/sv__nexball_8qc_source.html#l00765">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00299">CheatCommand()</a>, and <a class="el" href="../../d2/d24/sv__nexball_8qc_source.html#l00765">MUTATOR_HOOKFUNCTION()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#a5edf83b72581bc3ed7f4b512f534fbfe">traceline_antilag</a>(pl, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).<a class="code" href="../../de/d5e/dpextensions_8qc.html#ae862a4bc72977aac3c933cf3889eec53">cursor_trace_start</a>, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).cursor_trace_start + <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).<a class="code" href="../../de/d5e/dpextensions_8qc.html#afe815af7836d1dafa5d1b27240eb58f3">cursor_trace_endpos</a> - <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).cursor_trace_start) * max_shot_distance, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, pl, <a class="code" href="../../d0/dd2/antilag_8qh.html#ab20ae59dea3092635c126d7036ae331e">ANTILAG_LATENCY</a>(pl));</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
@@ -739,7 +739,7 @@ Variables</h2></td></tr>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a8292725ec840a49d42ef6453aaf838f6_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a8292725ec840a49d42ef6453aaf838f6_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -4116,7 +4116,7 @@ Variables</h2></td></tr>
 <div id="dynsection-74-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-74-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a5edf83b72581bc3ed7f4b512f534fbfe_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a5edf83b72581bc3ed7f4b512f534fbfe_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -4308,7 +4308,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00014">ANTILAG_LATENCY</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l02399">cursor_trace_endpos</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l02398">cursor_trace_start</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00133">MOVE_NORMAL</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize()</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00211">WarpZone_traceline_antilag()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00472">IMPULSE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l02064">crosshair_trace_waypoints()</a>, and <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00472">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;{</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#aa349f780b5d2d608e278935b6e4c60db">WarpZone_traceline_antilag</a>(pl, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).<a class="code" href="../../de/d5e/dpextensions_8qc.html#ae862a4bc72977aac3c933cf3889eec53">cursor_trace_start</a>, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).cursor_trace_start + <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(<a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).<a class="code" href="../../de/d5e/dpextensions_8qc.html#afe815af7836d1dafa5d1b27240eb58f3">cursor_trace_endpos</a> - <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(pl).cursor_trace_start) * max_shot_distance, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, pl, <a class="code" href="../../d0/dd2/antilag_8qh.html#ab20ae59dea3092635c126d7036ae331e">ANTILAG_LATENCY</a>(pl));</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
@@ -4335,7 +4335,7 @@ Variables</h2></td></tr>
 <div id="dynsection-79-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-79-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_ae60e63a20482389086630191d5d8d336_icgraph.svg" width="286" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_ae60e63a20482389086630191d5d8d336_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -4467,7 +4467,7 @@ Variables</h2></td></tr>
 <div id="dynsection-83-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-83-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_aa349f780b5d2d608e278935b6e4c60db_icgraph.svg" width="518" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_aa349f780b5d2d608e278935b6e4c60db_icgraph.svg" width="100%" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -4801,7 +4801,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00178">178</a> of file <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html">miscfunctions.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01081">ClientConnect()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01391">havocbot_chooseweapon()</a>, <a class="el" href="../../d7/d39/sv__nix_8qc_source.html#l00081">NIX_CanChooseWeapon()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00608">readplayerstartcvars()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00569">weaponarena_available_all_update()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00582">weaponarena_available_devall_update()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00595">weaponarena_available_most_update()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01081">ClientConnect()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01428">havocbot_chooseweapon()</a>, <a class="el" href="../../d7/d39/sv__nix_8qc_source.html#l00081">NIX_CanChooseWeapon()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00608">readplayerstartcvars()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00569">weaponarena_available_all_update()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00582">weaponarena_available_devall_update()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00595">weaponarena_available_most_update()</a>.</p>
 
 </div>
 </div>
@@ -5559,7 +5559,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html">miscfunctions.qh</a></li>
-    <li class="footer">Generated on Wed Aug 28 2019 22:33:52 for Xonotic by
+    <li class="footer">Generated on Thu Aug 29 2019 04:43:23 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

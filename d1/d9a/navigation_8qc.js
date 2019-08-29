@@ -25,6 +25,7 @@ var navigation_8qc =
     [ "navigation_goalrating_timeout", "d1/d9a/navigation_8qc.html#a78fda59f169844ca11beb0f4fe2e1dbd", null ],
     [ "navigation_goalrating_timeout_can_be_anticipated", "d1/d9a/navigation_8qc.html#a3aeb7b8d02c2e26723b3a64736abc3ba", null ],
     [ "navigation_goalrating_timeout_expire", "d1/d9a/navigation_8qc.html#ab5ecf1417a2c982fe294c52d7d1f9fad", null ],
+    [ "navigation_goalrating_timeout_extend_if_needed", "d1/d9a/navigation_8qc.html#a8ebafce018e5b7b78b4b2e7863031977", null ],
     [ "navigation_goalrating_timeout_force", "d1/d9a/navigation_8qc.html#a2bddda1e5dde114cb54229e3cc64add6", null ],
     [ "navigation_goalrating_timeout_set", "d1/d9a/navigation_8qc.html#a3ac8ce540ecde9fbb20e7fa61992e841", null ],
     [ "navigation_markroutes", "d1/d9a/navigation_8qc.html#a7f490c136a567f38dcdcb155c0c34cb9", null ],

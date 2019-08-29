@@ -1,26 +1,31 @@
 <map id="waypoint_remove" name="waypoint_remove">
-<area shape="rect" id="node2" href="$d7/dc4/waypoints_8qc.html#a5c2ed2db425ae03dadf19dede5799956" title="waypoint_islinked" alt="" coords="1260,411,1385,437"/>
-<area shape="rect" id="node4" href="$d7/dc4/waypoints_8qc.html#a7caa23c12bbb5f161ff6104a3fb429d2" title="waypoint_removelink" alt="" coords="179,461,323,488"/>
-<area shape="rect" id="node3" href="$d7/dc4/waypoints_8qc.html#aa32dd9faacb4df51d38f981d2ec47795" title="waypoint_getlinknum" alt="" coords="1452,461,1596,488"/>
-<area shape="rect" id="node5" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="426,461,481,488"/>
-<area shape="rect" id="node6" href="$d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5" title="waypoint_schedulerelink" alt="" coords="371,233,535,260"/>
-<area shape="rect" id="node7" href="$d7/dc4/waypoints_8qc.html#a38265f752edbe2d8e696ad0c88fff34d" title="waypoint_clearlinks" alt="" coords="584,259,720,285"/>
-<area shape="rect" id="node8" href="$d7/dc4/waypoints_8qc.html#abb264e1745062ac2ad6d46a0b8c5e6c9" title="waypoint_setupmodel" alt="" coords="1027,5,1175,32"/>
-<area shape="rect" id="node10" href="$d7/dc4/waypoints_8qc.html#a7ab4015afd0d98a36207a9186a62d127" title="waypoint_think" alt="" coords="597,208,707,235"/>
-<area shape="rect" id="node9" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1495,69,1553,96"/>
-<area shape="rect" id="node11" href="$d2/dc0/bot_8qc.html#a93e7d8dfd34f0d07a3c9f4ef59ed3888" title="bot_calculate_stepheightvec" alt="" coords="768,107,955,133"/>
-<area shape="rect" id="node12" href="$de/dcb/vector_8qh.html#a9d1cd3b60eb67f1ec2a17fc2022e4276" title="requires that m2&gt;m1 in all coordinates, and that m4&gt;m3 " alt="" coords="812,208,911,235"/>
-<area shape="rect" id="node13" href="$d4/d0c/csprogsdefs_8qc.html#a94c5b969ccc333b040b402d69d3338a2" title="checkpvs" alt="" coords="822,259,901,285"/>
-<area shape="rect" id="node14" href="$db/d15/api_8qh.html#ac30d35265519e728fa87ad6eb81d92e5" title="set_tracewalk_dest_2" alt="" coords="1248,145,1397,172"/>
-<area shape="rect" id="node16" href="$db/d15/api_8qh.html#a6fd9d052d1e171ea3729410e8c98c218" title="tracewalk" alt="" coords="822,309,901,336"/>
-<area shape="rect" id="node17" href="$d7/dc4/waypoints_8qc.html#a78500a5fdfa2de7f46f627274085fe08" title="waypoint_addlink" alt="" coords="800,360,923,387"/>
-<area shape="rect" id="node15" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="1495,145,1553,172"/>
-<area shape="rect" id="node18" href="$d7/dc4/waypoints_8qc.html#a366118166944b7c3433ad78c7f388462" title="waypoint_addlink_customcost" alt="" coords="1003,360,1200,387"/>
-<area shape="rect" id="node19" href="$d7/dc4/waypoints_8qc.html#aa5407b0b7212365767c0a9bfe9656c2f" title="waypoint_getlinkcost" alt="" coords="1251,196,1395,223"/>
-<area shape="rect" id="node20" href="$d7/dc4/waypoints_8qc.html#a4ff6fb4088c04ce31f0ca8c9e688777a" title="waypoint_gettravelcost" alt="" coords="1446,196,1602,223"/>
-<area shape="rect" id="node21" href="$d1/d9a/navigation_8qc.html#aa11c1bcb734cd6504a02ed3d2c634163" title="navigation_check_submerged\l_state" alt="" coords="1651,79,1845,121"/>
-<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3" title="sqrt" alt="" coords="1726,145,1770,172"/>
-<area shape="rect" id="node23" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="1725,196,1771,223"/>
-<area shape="rect" id="node24" href="$d7/dc4/waypoints_8qc.html#ae6323b7e0f8ebe2aff52580a4a043072" title="waypoint_getlinearcost" alt="" coords="1671,247,1825,273"/>
-<area shape="rect" id="node25" href="$d7/dc4/waypoints_8qc.html#a399549857abcd6c3f94901ec1b6b5be4" title="waypoint_getlinearcost\l_underwater" alt="" coords="1671,298,1825,339"/>
+<area shape="rect" id="node2" href="$d7/dc4/waypoints_8qc.html#a3e3118a8a5201507f607f7d1025d6bec" title="waypoint_is_hardwiredlink" alt="" coords="179,286,354,313"/>
+<area shape="rect" id="node3" href="$d7/dc4/waypoints_8qc.html#a5c2ed2db425ae03dadf19dede5799956" title="waypoint_islinked" alt="" coords="1353,609,1479,636"/>
+<area shape="rect" id="node5" href="$d7/dc4/waypoints_8qc.html#a7caa23c12bbb5f161ff6104a3fb429d2" title="waypoint_removelink" alt="" coords="195,450,339,477"/>
+<area shape="rect" id="node7" href="$d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5" title="waypoint_schedulerelink" alt="" coords="425,362,589,389"/>
+<area shape="rect" id="node30" href="$d7/dc4/waypoints_8qc.html#a0cb10ed74116b60d2a26b64396373655" title="waypoint_unmark_hardwiredlink" alt="" coords="403,312,610,338"/>
+<area shape="rect" id="node4" href="$d7/dc4/waypoints_8qc.html#aa32dd9faacb4df51d38f981d2ec47795" title="waypoint_getlinknum" alt="" coords="1545,584,1689,610"/>
+<area shape="rect" id="node6" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1389,398,1443,425"/>
+<area shape="rect" id="node8" href="$d7/dc4/waypoints_8qc.html#a38265f752edbe2d8e696ad0c88fff34d" title="waypoint_clearlinks" alt="" coords="665,362,801,389"/>
+<area shape="rect" id="node9" href="$d7/dc4/waypoints_8qc.html#abb264e1745062ac2ad6d46a0b8c5e6c9" title="waypoint_setupmodel" alt="" coords="659,128,807,154"/>
+<area shape="rect" id="node12" href="$d7/dc4/waypoints_8qc.html#a7ab4015afd0d98a36207a9186a62d127" title="waypoint_think" alt="" coords="679,280,788,306"/>
+<area shape="rect" id="node10" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1588,128,1647,154"/>
+<area shape="rect" id="node11" href="$d7/dc4/waypoints_8qc.html#a1cfdf949451a5dac6113a8d2e4b272c3" title="waypoint_has_hardwiredlinks" alt="" coords="856,52,1048,78"/>
+<area shape="rect" id="node13" href="$d2/dc0/bot_8qc.html#a93e7d8dfd34f0d07a3c9f4ef59ed3888" title="bot_calculate_stepheightvec" alt="" coords="859,204,1045,230"/>
+<area shape="rect" id="node14" href="$de/dcb/vector_8qh.html#a9d1cd3b60eb67f1ec2a17fc2022e4276" title="requires that m2&gt;m1 in all coordinates, and that m4&gt;m3 " alt="" coords="1367,344,1465,370"/>
+<area shape="rect" id="node15" href="$d4/d0c/csprogsdefs_8qc.html#a94c5b969ccc333b040b402d69d3338a2" title="checkpvs" alt="" coords="913,254,991,281"/>
+<area shape="rect" id="node16" href="$db/d15/api_8qh.html#ac30d35265519e728fa87ad6eb81d92e5" title="set_tracewalk_dest_2" alt="" coords="1341,153,1491,180"/>
+<area shape="rect" id="node18" href="$db/d15/api_8qh.html#a6fd9d052d1e171ea3729410e8c98c218" title="tracewalk" alt="" coords="913,305,991,332"/>
+<area shape="rect" id="node19" href="$d7/dc4/waypoints_8qc.html#a78500a5fdfa2de7f46f627274085fe08" title="waypoint_addlink" alt="" coords="891,406,1013,433"/>
+<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="1589,289,1646,316"/>
+<area shape="rect" id="node20" href="$d7/dc4/waypoints_8qc.html#a366118166944b7c3433ad78c7f388462" title="waypoint_addlink_customcost" alt="" coords="1096,508,1293,534"/>
+<area shape="rect" id="node29" href="$d7/dc4/waypoints_8qc.html#a9a82d97a36a9a993f59a4c2474ef68d1" title="waypoint_addlink_for\l_custom_jumppad" alt="" coords="1123,391,1267,432"/>
+<area shape="rect" id="node21" href="$d7/dc4/waypoints_8qc.html#aa5407b0b7212365767c0a9bfe9656c2f" title="waypoint_getlinkcost" alt="" coords="1344,449,1488,476"/>
+<area shape="rect" id="node22" href="$d7/dc4/waypoints_8qc.html#a4ff6fb4088c04ce31f0ca8c9e688777a" title="waypoint_gettravelcost" alt="" coords="1539,449,1695,476"/>
+<area shape="rect" id="node23" href="$d1/d9a/navigation_8qc.html#aa11c1bcb734cd6504a02ed3d2c634163" title="navigation_check_submerged\l_state" alt="" coords="1744,307,1939,348"/>
+<area shape="rect" id="node24" href="$d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3" title="sqrt" alt="" coords="1819,373,1863,400"/>
+<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="1818,424,1865,450"/>
+<area shape="rect" id="node26" href="$d7/dc4/waypoints_8qc.html#ae6323b7e0f8ebe2aff52580a4a043072" title="waypoint_getlinearcost" alt="" coords="1764,474,1919,501"/>
+<area shape="rect" id="node27" href="$d7/dc4/waypoints_8qc.html#ac707b5aeee95d6eff3f2946ab35c0340" title="waypoint_getlinearcost\l_crouched" alt="" coords="1764,526,1919,567"/>
+<area shape="rect" id="node28" href="$d7/dc4/waypoints_8qc.html#a399549857abcd6c3f94901ec1b6b5be4" title="waypoint_getlinearcost\l_underwater" alt="" coords="1764,591,1919,632"/>
 </map>

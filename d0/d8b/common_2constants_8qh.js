@@ -20,6 +20,8 @@ var common_2constants_8qh =
     [ "KEY_LEFT", "d0/d8b/common_2constants_8qh.html#a940b0e2c7c4b1209ebd60f8674ce86f6", null ],
     [ "KEY_RIGHT", "d0/d8b/common_2constants_8qh.html#a59ad0bc16f2726274bf590f91ee9933b", null ],
     [ "MAPVOTE_COUNT", "d0/d8b/common_2constants_8qh.html#a40774b797818eadce12069d64081f984", null ],
+    [ "PL_CROUCH_MAX_CONST", "d0/d8b/common_2constants_8qh.html#ac5502724ae3ec5563aba60c24bee9397", null ],
+    [ "PL_CROUCH_MIN_CONST", "d0/d8b/common_2constants_8qh.html#aa93dbf8a0ef205acd5f7010f61e1aa39", null ],
     [ "PL_MAX_CONST", "d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579", null ],
     [ "PL_MIN_CONST", "d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb", null ],
     [ "RANKINGS_CNT", "d0/d8b/common_2constants_8qh.html#a2484ad7e0727cf4a5404649cad71c070", null ],
