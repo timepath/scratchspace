@@ -1,5 +1,8 @@
 var NAVTREEINDEX99 =
 {
+"db/d25/common_2physics_2movetypes_2__mod_8inc.html":[2,0,1,12,0,0],
+"db/d25/common_2physics_2movetypes_2__mod_8inc_source.html":[2,0,1,12,0,0],
+"db/d29/classXonoticRegisteredSettingsList.html":[1,0,233],
 "db/d29/classXonoticRegisteredSettingsList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,233,14],
 "db/d29/classXonoticRegisteredSettingsList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,233,46],
 "db/d29/classXonoticRegisteredSettingsList.html#a0b3e0ee2d3e6fef269d1948bd03ae6a5":[1,0,233,45],
@@ -246,8 +249,5 @@ var NAVTREEINDEX99 =
 "db/d38/classKeyframe.html#ad4e50d0614ee1bcd1cde28fca9d141f5":[1,0,63,28],
 "db/d38/classKeyframe.html#ad761cf905a85fc06b01ff951df4571b4":[1,0,63,21],
 "db/d38/classKeyframe.html#ae5ec27b5e1379289711f0a6622b2e3d1":[1,0,63,9],
-"db/d38/classKeyframe.html#af44315fcdb5187461a08ef44a82676fd":[1,0,63,12],
-"db/d38/classXonoticSliderCheckBox.html":[1,0,252],
-"db/d38/classXonoticSliderCheckBox.html#a08cda08ecde39493de593ab7695e404b":[1,0,252,42],
-"db/d38/classXonoticSliderCheckBox.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,252,75]
+"db/d38/classKeyframe.html#af44315fcdb5187461a08ef44a82676fd":[1,0,63,12]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX104 =
 {
+"db/d7f/effectinfo_8inc.html#aa499614c039fca778155946883d42539":[2,0,1,2,7,327],
+"db/d7f/effectinfo_8inc.html#aa528a1a4c78a3f66e8d8a3cb0e058b92":[2,0,1,2,7,193],
+"db/d7f/effectinfo_8inc.html#aa57f23d6bacc9c9818255444900e1657":[2,0,1,2,7,67],
 "db/d7f/effectinfo_8inc.html#aa59a081f11c444edbf78866a86d71b27":[2,0,1,2,7,164],
 "db/d7f/effectinfo_8inc.html#aa5d0f313d7332df58878e1b184838d8f":[2,0,1,2,7,23],
 "db/d7f/effectinfo_8inc.html#aa5fa0492a6db27c1d5b617b4be77e84e":[2,0,1,2,7,72],
@@ -246,8 +249,5 @@ var NAVTREEINDEX104 =
 "db/d9b/server_2player_8qc.html#a702d414b3a7f91c3e1746aaef5f9382c":[2,0,6,43,6],
 "db/d9b/server_2player_8qc.html#a74a2991ad4b1aad6bfc27e899c563d29":[2,0,6,43,3],
 "db/d9b/server_2player_8qc.html#a9d529760b279c19bb3b1d15c4da335d1":[2,0,6,43,0],
-"db/d9b/server_2player_8qc.html#ae245d92e33b2c7cffe13cf28980afa34":[2,0,6,43,8],
-"db/d9b/server_2player_8qc.html#aef50b8473159af9d6f77b966bc0cbe00":[2,0,6,43,2],
-"db/d9b/server_2player_8qc.html#af02653db703c3e3f494f19b4f6f8b8b1":[2,0,6,43,5],
-"db/d9b/server_2player_8qc.html#af2cf7e359cda23b596ac40cda3f9ba87":[2,0,6,43,1]
+"db/d9b/server_2player_8qc.html#ae245d92e33b2c7cffe13cf28980afa34":[2,0,6,43,8]
 };

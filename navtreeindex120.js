@@ -1,5 +1,9 @@
 var NAVTREEINDEX120 =
 {
+"dd/d7a/serverlist_8qh.html#a9db0cd56872525fbe2adbd0a400464d8":[2,0,5,4,205,27],
+"dd/d7a/serverlist_8qh.html#a9f14b1eb136d671302f637c6aa77d353":[2,0,5,4,205,28],
+"dd/d7a/serverlist_8qh.html#aa2ebe9e5348c1dff82345800cfd5d09f":[2,0,5,4,205,45],
+"dd/d7a/serverlist_8qh.html#aa2ff59e556502ac72000ba9410cb567f":[2,0,5,4,205,17],
 "dd/d7a/serverlist_8qh.html#aa30f357ba44e678abc2f51c91f962229":[2,0,5,4,205,44],
 "dd/d7a/serverlist_8qh.html#aa65e17b926d93109ee1b0ec291184bf6":[2,0,5,4,205,48],
 "dd/d7a/serverlist_8qh.html#aaceb069f36460b6e5fc89f528210e9fc":[2,0,5,4,205,4],
@@ -46,8 +50,8 @@ var NAVTREEINDEX120 =
 "dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802":[2,0,1,2,8,7],
 "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862":[2,0,1,2,8,2],
 "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840":[2,0,1,2,8,5],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,9],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,10],
 "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6":[2,0,1,2,8,14],
 "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e":[2,0,1,2,8,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX120 =
 "dd/d96/server_2progs_8inc_source.html":[2,0,6,47],
 "dd/d9a/classXonoticSandboxToolsDialog.html":[1,0,237],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,237,30],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,237,11],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,237,38],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,237,3],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,237,82],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,237,80]
+"dd/d9a/classXonoticSandboxToolsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,237,11]
 };

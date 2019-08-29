@@ -68,6 +68,7 @@ var server_2defs_8qh =
     [ "currentbots", "d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244", null ],
     [ "cvar_changes", "d5/d26/server_2defs_8qh.html#a1726162ec5090919a321b99c47fa2af4", null ],
     [ "cvar_cl_allow_uid2name", "d5/d26/server_2defs_8qh.html#ae1959c771ec085ea97f834b1ebee88cf", null ],
+    [ "cvar_cl_allow_uidranking", "d5/d26/server_2defs_8qh.html#a7f74a4d80c6869650cf9316fe41d7013", null ],
     [ "cvar_cl_allow_uidtracking", "d5/d26/server_2defs_8qh.html#a815c50fa6967a193e0bd0732c109ac8f", null ],
     [ "cvar_cl_autoscreenshot", "d5/d26/server_2defs_8qh.html#ad12ecbe245547b11b23f35b2d7809ea5", null ],
     [ "cvar_cl_autotaunt", "d5/d26/server_2defs_8qh.html#af06d714597d37607f8df872819639d04", null ],

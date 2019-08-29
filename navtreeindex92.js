@@ -1,5 +1,8 @@
 var NAVTREEINDEX92 =
 {
+"da/d2c/sv__keyhunt_8qc.html#af0205f884b65245c59767ebaf4ac57d0":[2,0,1,3,0,10,4,41],
+"da/d2c/sv__keyhunt_8qc.html#af0b0677c2ea223d7b4b626fa9e83ccd7":[2,0,1,3,0,10,4,34],
+"da/d2c/sv__keyhunt_8qc.html#af2354e6817aab51897afaaebc313b2f9":[2,0,1,3,0,10,4,79],
 "da/d2c/sv__keyhunt_8qc.html#af72aa33f227f13d8c94541027227d603":[2,0,1,3,0,10,4,66],
 "da/d2c/sv__keyhunt_8qc.html#af98eee08ddab671672f93767b48242b0":[2,0,1,3,0,10,4,65],
 "da/d2c/sv__keyhunt_8qc.html#afd18b0575ca03a9b7f7226e0775ac61f":[2,0,1,3,0,10,4,11],
@@ -166,8 +169,8 @@ var NAVTREEINDEX92 =
 "da/d4e/sv__monsters_8qc.html#a0d56de87e685d62204284f78fbb67ba9":[2,0,1,9,6,23],
 "da/d4e/sv__monsters_8qc.html#a10ca618a2194c7dd0b8e722730859c14":[2,0,1,9,6,33],
 "da/d4e/sv__monsters_8qc.html#a11264c2824e7a8f5b85b5197f8123d7b":[2,0,1,9,6,8],
-"da/d4e/sv__monsters_8qc.html#a13c832506cac26065a468274572e4e37":[2,0,1,9,6,1],
 "da/d4e/sv__monsters_8qc.html#a13c832506cac26065a468274572e4e37":[2,0,1,9,6,0],
+"da/d4e/sv__monsters_8qc.html#a13c832506cac26065a468274572e4e37":[2,0,1,9,6,1],
 "da/d4e/sv__monsters_8qc.html#a1601ffa4b140b54cb3c7a724f017d89b":[2,0,1,9,6,32],
 "da/d4e/sv__monsters_8qc.html#a196ded64f3c6c2324205b64a73fb9897":[2,0,1,9,6,34],
 "da/d4e/sv__monsters_8qc.html#a1a655351164d85b497d04672f12af2d2":[2,0,1,9,6,37],
@@ -246,8 +249,5 @@ var NAVTREEINDEX92 =
 "da/d6a/health_8qh.html#a8332a98989b8a6eb4fd2fea78ad89b6c":[2,0,1,5,0,7,2],
 "da/d6a/health_8qh.html#a9b3e1f042959d6d9e1029907e90f9875":[2,0,1,5,0,7,4],
 "da/d6a/health_8qh.html#ac737cbf9e6474f8f4fc5b90d844a0d93":[2,0,1,5,0,7,1],
-"da/d6a/health_8qh.html#acd779843151eff7554015c3bc54b25b1":[2,0,1,5,0,7,3],
-"da/d6a/health_8qh_source.html":[2,0,1,5,0,7],
-"da/d6b/sv__superspec_8qc.html":[2,0,1,10,0,34,2],
-"da/d6b/sv__superspec_8qc.html#a0e09ade211672fbff42c37c935698ae6":[2,0,1,10,0,34,2,0]
+"da/d6a/health_8qh.html#acd779843151eff7554015c3bc54b25b1":[2,0,1,5,0,7,3]
 };

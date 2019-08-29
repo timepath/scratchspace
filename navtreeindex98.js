@@ -1,5 +1,8 @@
 var NAVTREEINDEX98 =
 {
+"db/d11/classBumblebee.html#a2fb62f5fc889f0fb67479232a71ef73b":[1,0,11,24],
+"db/d11/classBumblebee.html#a2ffa6e7541d6fc166d266d2d7f13e25a":[1,0,11,27],
+"db/d11/classBumblebee.html#a45c031e26578bb6ecec87b300e247167":[1,0,11,18],
 "db/d11/classBumblebee.html#a4d5b7503bcb97f766b6d7bfd896ca232":[1,0,11,23],
 "db/d11/classBumblebee.html#a58d96703332d9212bf1115cfb091cd86":[1,0,11,29],
 "db/d11/classBumblebee.html#a58f0c04e5979c92f1d5329627cbf1331":[1,0,11,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX98 =
 "db/d21/demolist_8qc.html#ad52ed06b0a43cb12cda37cc8c3dd757f":[2,0,5,4,36,10],
 "db/d21/demolist_8qc.html#af878363f579f76d032d50a3b5f82fec4":[2,0,5,4,36,2],
 "db/d21/demolist_8qc.html#afa78eb32ccd5d5cba109c0a5198e480f":[2,0,5,4,36,5],
-"db/d21/demolist_8qc_source.html":[2,0,5,4,36],
-"db/d25/common_2physics_2movetypes_2__mod_8inc.html":[2,0,1,12,0,0],
-"db/d25/common_2physics_2movetypes_2__mod_8inc_source.html":[2,0,1,12,0,0],
-"db/d29/classXonoticRegisteredSettingsList.html":[1,0,233]
+"db/d21/demolist_8qc_source.html":[2,0,5,4,36]
 };
