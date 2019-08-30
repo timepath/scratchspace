@@ -1,5 +1,8 @@
 var NAVTREEINDEX94 =
 {
+"da/d94/classXonoticSettingsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,248,86],
+"da/d94/classXonoticSettingsDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,248,78],
+"da/d94/classXonoticSettingsDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,248,50],
 "da/d94/classXonoticSettingsDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,248,43],
 "da/d94/classXonoticSettingsDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,248,65],
 "da/d94/classXonoticSettingsDialog.html#a8d4393cba5d9d3dca6c7b0377a6fc3f6":[1,0,248,80],
@@ -246,8 +249,5 @@ var NAVTREEINDEX94 =
 "da/da9/classSpiderAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,130,30],
 "da/da9/classSpiderAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,130,5],
 "da/da9/classSpiderAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,130,7],
-"da/da9/classSpiderAttack.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,130,25],
-"da/da9/classSpiderAttack.html#aa0a5f1de6ba7228907295012902a136a":[1,0,130,32],
-"da/da9/classSpiderAttack.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,130,14],
-"da/da9/classSpiderAttack.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,130,1]
+"da/da9/classSpiderAttack.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,130,25]
 };

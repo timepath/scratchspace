@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"d7/de3/pong_8qc_source.html":[2,0,1,7,0,9],
 "d7/de3/relay__activators_8qh.html":[2,0,1,6,3,35],
 "d7/de3/relay__activators_8qh_source.html":[2,0,1,6,3,35],
 "d7/de4/teleport_8qh.html":[2,0,1,6,3,45],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "d8/d00/classImage.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,55,24],
 "d8/d00/classImage.html#ac783a223d75bf1d08a090ff8891725cc":[1,0,55,34],
 "d8/d00/classImage.html#ad619e3913547690106cdb4f742e182d4":[1,0,55,7],
-"d8/d00/classImage.html#ad885b93c0a103ee08204101722634fd6":[1,0,55,19],
-"d8/d00/classImage.html#ad996b1a100e82b7c67c5cbed7a92792d":[1,0,55,3]
+"d8/d00/classImage.html#ad885b93c0a103ee08204101722634fd6":[1,0,55,19]
 };

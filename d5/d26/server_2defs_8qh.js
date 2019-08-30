@@ -74,6 +74,7 @@ var server_2defs_8qh =
     [ "cvar_cl_autotaunt", "d5/d26/server_2defs_8qh.html#af06d714597d37607f8df872819639d04", null ],
     [ "cvar_cl_clippedspectating", "d5/d26/server_2defs_8qh.html#aa62257365bc37645ad41fbcebbb09056", null ],
     [ "cvar_cl_cts_noautoswitch", "d5/d26/server_2defs_8qh.html#aabc03357c1ef7f83e976b3d2d716b579", null ],
+    [ "cvar_cl_gunalign", "d5/d26/server_2defs_8qh.html#ac725c6b360afa6c5146d14525e0fc500", null ],
     [ "cvar_cl_handicap", "d5/d26/server_2defs_8qh.html#aae4bdee953dee840605d4e46ebaedcd3", null ],
     [ "cvar_cl_jetpack_jump", "d5/d26/server_2defs_8qh.html#a38f6baac0af28649135a060520883ac2", null ],
     [ "cvar_cl_movement_track_canjump", "d5/d26/server_2defs_8qh.html#ac80a46b6d7ef8c1ef5a2bfdb5258059d", null ],

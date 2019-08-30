@@ -1,5 +1,8 @@
 var NAVTREEINDEX111 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,191,5],
+"dc/d37/classXonoticHUDExitDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,191,88],
+"dc/d37/classXonoticHUDExitDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,191,42],
 "dc/d37/classXonoticHUDExitDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,191,51],
 "dc/d37/classXonoticHUDExitDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,191,0],
 "dc/d37/classXonoticHUDExitDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,191,16],
@@ -246,8 +249,5 @@ var NAVTREEINDEX111 =
 "dc/d55/clientkill_8qc.html#ad4e6ef235cc1911ad7654ecd808ff4c1":[2,0,6,19,0],
 "dc/d55/clientkill_8qc.html#ad782a8ecd5d72aefee13e592a4906f84":[2,0,6,19,2],
 "dc/d55/clientkill_8qc_source.html":[2,0,6,19],
-"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc.html":[2,0,1,3,0,12,0],
-"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc_source.html":[2,0,1,3,0,12,0],
-"dc/d56/cvarlist_8qc.html":[2,0,5,4,32],
-"dc/d56/cvarlist_8qc.html#a03af6344dc0fada817213f1c27aa4413":[2,0,5,4,32,9]
+"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc.html":[2,0,1,3,0,12,0]
 };
