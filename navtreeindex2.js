@@ -208,6 +208,8 @@ var NAVTREEINDEX2 =
 "d0/d60/minelayer_8qh_source.html":[2,0,1,16,0,23],
 "d0/d61/common_2gamemodes_2gamemode_2keyhunt_2__mod_8inc.html":[2,0,1,3,0,10,0],
 "d0/d61/common_2gamemodes_2gamemode_2keyhunt_2__mod_8inc_source.html":[2,0,1,3,0,10,0],
+"d0/d65/keepaway_8qc.html":[2,0,1,3,0,9,4],
+"d0/d65/keepaway_8qc_source.html":[2,0,1,3,0,9,4],
 "d0/d6a/dialog__hudpanel__itemstime_8qh.html":[2,0,5,4,57],
 "d0/d6a/dialog__hudpanel__itemstime_8qh_source.html":[2,0,5,4,57],
 "d0/d6a/health_8qc.html":[2,0,1,5,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "d0/d6e/impulses_2all_8qh.html#a6b0ed98120d3384494235c0337a1d354":[2,0,1,4,3,1],
 "d0/d6e/impulses_2all_8qh.html#a795c62cc76a774949d1755112b81d787":[2,0,1,4,3,22],
 "d0/d6e/impulses_2all_8qh.html#a87c9ba9426d76d0e83a555391e19d5b8":[2,0,1,4,3,8],
-"d0/d6e/impulses_2all_8qh.html#a96e9871f2a404b84b947137c554419fa":[2,0,1,4,3,25],
-"d0/d6e/impulses_2all_8qh.html#a9bb1cc539114b393e19c7e991898e2ed":[2,0,1,4,3,2],
-"d0/d6e/impulses_2all_8qh.html#a9f83e65e9f79887eddc2b6b17740882c":[2,0,1,4,3,4]
+"d0/d6e/impulses_2all_8qh.html#a96e9871f2a404b84b947137c554419fa":[2,0,1,4,3,25]
 };

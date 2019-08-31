@@ -1,5 +1,13 @@
 var NAVTREEINDEX33 =
 {
+"d3/df2/classDualPlasmaTurret.html":[1,0,31],
+"d3/df2/classDualPlasmaTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,31,5],
+"d3/df2/classDualPlasmaTurret.html#a3144102787442a58055180121b5e9536":[1,0,31,12],
+"d3/df2/classDualPlasmaTurret.html#a34980e66ed09a68af3e3fa9e204a18ca":[1,0,31,1],
+"d3/df2/classDualPlasmaTurret.html#a3f55a0540df468e6f0406b2907921e9a":[1,0,31,2],
+"d3/df2/classDualPlasmaTurret.html#a48e9f68535ac61901ebd6d2fb17e28fb":[1,0,31,11],
+"d3/df2/classDualPlasmaTurret.html#a56e07d5aa23850f9cc9cd5eaa68f0880":[1,0,31,7],
+"d3/df2/classDualPlasmaTurret.html#a5b2c7f199c6f4823bcc2aa0388cfda52":[1,0,31,14],
 "d3/df2/classDualPlasmaTurret.html#a60114047bc438fe205713179944ee45c":[1,0,31,13],
 "d3/df2/classDualPlasmaTurret.html#a6e7b572c678b2e71b897e49d6cb892ea":[1,0,31,20],
 "d3/df2/classDualPlasmaTurret.html#a704dc4dc2fd4baf352e96c0e4b8753af":[1,0,31,18],
@@ -241,13 +249,5 @@ var NAVTREEINDEX33 =
 "d4/d0a/classXonoticMiscSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,218,51],
 "d4/d0a/classXonoticMiscSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,218,31],
 "d4/d0a/classXonoticMiscSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,218,24],
-"d4/d0a/classXonoticMiscSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,218,17],
-"d4/d0a/classXonoticMiscSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,218,32],
-"d4/d0a/classXonoticMiscSettingsTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,218,48],
-"d4/d0a/classXonoticMiscSettingsTab.html#a39b77a1923845447d837ff9f399e9aff":[1,0,218,85],
-"d4/d0a/classXonoticMiscSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,218,1],
-"d4/d0a/classXonoticMiscSettingsTab.html#a3f9c5e6943891f335099fe380661b70c":[1,0,218,41],
-"d4/d0a/classXonoticMiscSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,218,16],
-"d4/d0a/classXonoticMiscSettingsTab.html#a447a482a7fc66afca58402ffd461111c":[1,0,218,82],
-"d4/d0a/classXonoticMiscSettingsTab.html#a4869983b8dc750584479ade5447c8413":[1,0,218,25]
+"d4/d0a/classXonoticMiscSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,218,17]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX24 =
 {
+"d3/d01/classXonoticMultiplayerDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,220,63],
+"d3/d01/classXonoticMultiplayerDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,220,16],
+"d3/d01/classXonoticMultiplayerDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,220,64],
+"d3/d01/classXonoticMultiplayerDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,220,9],
+"d3/d01/classXonoticMultiplayerDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,220,77],
+"d3/d01/classXonoticMultiplayerDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,220,76],
+"d3/d01/classXonoticMultiplayerDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,220,34],
+"d3/d01/classXonoticMultiplayerDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,220,5],
 "d3/d01/classXonoticMultiplayerDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,220,88],
 "d3/d01/classXonoticMultiplayerDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,220,42],
 "d3/d01/classXonoticMultiplayerDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,220,51],
@@ -241,13 +249,5 @@ var NAVTREEINDEX24 =
 "d3/d07/scoreboard_8qc.html#a464895f6cb72186edae884a4390c594a":[2,0,0,1,0,34,5],
 "d3/d07/scoreboard_8qc.html#a482a97260a6b5b3096591f97708a3287":[2,0,0,1,0,34,48],
 "d3/d07/scoreboard_8qc.html#a519ec5e3a30641e57ee68fa04f9e434d":[2,0,0,1,0,34,46],
-"d3/d07/scoreboard_8qc.html#a56cf0d8832755535e18ca5b3d3142651":[2,0,0,1,0,34,70],
-"d3/d07/scoreboard_8qc.html#a594023b6dfdb6c060e92e6d558f1269b":[2,0,0,1,0,34,9],
-"d3/d07/scoreboard_8qc.html#a5b15607a446ae96262cea7fdb2efc57d":[2,0,0,1,0,34,23],
-"d3/d07/scoreboard_8qc.html#a5b2b75e2e6c4267b05ae1cb44c20329f":[2,0,0,1,0,34,19],
-"d3/d07/scoreboard_8qc.html#a604740d3f9685b2d18506506b804202f":[2,0,0,1,0,34,73],
-"d3/d07/scoreboard_8qc.html#a61e9d783625eb0344b582470d69416f8":[2,0,0,1,0,34,58],
-"d3/d07/scoreboard_8qc.html#a688eb9831da6cf8bd965645e3d417943":[2,0,0,1,0,34,16],
-"d3/d07/scoreboard_8qc.html#a6c99617f8d4adb4cd0de989583f36d2e":[2,0,0,1,0,34,52],
-"d3/d07/scoreboard_8qc.html#a7126ad7799dfc104042c7ec8baef7e04":[2,0,0,1,0,34,54]
+"d3/d07/scoreboard_8qc.html#a56cf0d8832755535e18ca5b3d3142651":[2,0,0,1,0,34,70]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX21 =
 {
+"d2/db1/movetypes_8qc.html#aec8e38c6a6af79893d641f0ae53a2042":[2,0,1,12,0,5,9],
+"d2/db1/movetypes_8qc.html#af4e305a34cfe09004c87a91e2461330c":[2,0,1,12,0,5,26],
+"d2/db1/movetypes_8qc.html#afa4cf35feb7ab8ba2af8f8e123ad7d56":[2,0,1,12,0,5,36],
+"d2/db1/movetypes_8qc_source.html":[2,0,1,12,0,5],
+"d2/db1/sv__invasion_8qh.html":[2,0,1,3,0,8,3],
+"d2/db1/sv__invasion_8qh.html#a1696c31cdbb3e088d0e4cea7f69b0b5d":[2,0,1,3,0,8,3,11],
+"d2/db1/sv__invasion_8qh.html#a16bb2bbe7496645dd1e2f5fae7378ebe":[2,0,1,3,0,8,3,17],
+"d2/db1/sv__invasion_8qh.html#a1da95251eb07c840640be54b71e94ecb":[2,0,1,3,0,8,3,6],
 "d2/db1/sv__invasion_8qh.html#a25529cc1c6aba9e850432cf8d26a5e93":[2,0,1,3,0,8,3,1],
 "d2/db1/sv__invasion_8qh.html#a3d1da5b5736b9891b2238120195d2f2d":[2,0,1,3,0,8,3,16],
 "d2/db1/sv__invasion_8qh.html#a4642768c1d09d22d4cbc0238fcc856e1":[2,0,1,3,0,8,3,12],
@@ -241,13 +249,5 @@ var NAVTREEINDEX21 =
 "d2/dcb/classXonoticPicmipSlider.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,226,78],
 "d2/dcb/classXonoticPicmipSlider.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,226,1],
 "d2/dcb/classXonoticPicmipSlider.html#a7ffeb913774aabf92f0e992092d4e053":[1,0,226,16],
-"d2/dcb/classXonoticPicmipSlider.html#a814262edde0ecc3416067f1cb36199d4":[1,0,226,48],
-"d2/dcb/classXonoticPicmipSlider.html#a896da94f4d9e857ff8d0124b6621a802":[1,0,226,92],
-"d2/dcb/classXonoticPicmipSlider.html#a8a1e4c3b97d5be49b42dfc1f37685970":[1,0,226,19],
-"d2/dcb/classXonoticPicmipSlider.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,226,77],
-"d2/dcb/classXonoticPicmipSlider.html#a8c417c95c040a29cf9f83ee606f161ce":[1,0,226,36],
-"d2/dcb/classXonoticPicmipSlider.html#a8c568c803f49400fd0165b69f82d4161":[1,0,226,74],
-"d2/dcb/classXonoticPicmipSlider.html#a8c71ab9e185789b5862d4eca97de030e":[1,0,226,7],
-"d2/dcb/classXonoticPicmipSlider.html#a8f04cd9252d82b0da453b439558cd2e6":[1,0,226,34],
-"d2/dcb/classXonoticPicmipSlider.html#a914d4118825d1bedcc12db7b3e814f1f":[1,0,226,27]
+"d2/dcb/classXonoticPicmipSlider.html#a814262edde0ecc3416067f1cb36199d4":[1,0,226,48]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"d0/d8b/common_2constants_8qh.html#a6b10d17bdc71386b0f8f5c3b421421d2":[2,0,1,29,1],
+"d0/d8b/common_2constants_8qh.html#a7426efc65227dc2d90563513c8f0402c":[2,0,1,29,13],
 "d0/d8b/common_2constants_8qh.html#a839c489f06be0719ab5390cf2957d4c3":[2,0,1,29,10],
 "d0/d8b/common_2constants_8qh.html#a853c5a934257d5e66b5ec37f84e18064":[2,0,1,29,15],
 "d0/d8b/common_2constants_8qh.html#a8fb26853bca170280dba1a301c735661":[2,0,1,29,4],
@@ -198,6 +200,8 @@ var NAVTREEINDEX4 =
 "d0/da3/mortar_8qc_source.html":[2,0,1,16,0,24],
 "d0/da4/damagetext_8qc.html":[2,0,1,10,0,6,4],
 "d0/da4/damagetext_8qc_source.html":[2,0,1,10,0,6,4],
+"d0/da5/domination_8qc.html":[2,0,1,3,0,5,4],
+"d0/da5/domination_8qc_source.html":[2,0,1,3,0,5,4],
 "d0/da7/armor_8qc.html":[2,0,1,5,0,4],
 "d0/da7/armor_8qc_source.html":[2,0,1,5,0,4],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html":[2,0,1,10,0,2,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX4 =
 "d0/dab/item_2checkbox_8qc.html":[2,0,5,2,6],
 "d0/dab/item_2checkbox_8qc.html#a0613433efda7ff67eb76c243baade2cb":[2,0,5,2,6,4],
 "d0/dab/item_2checkbox_8qc.html#a0a906e13e37a44844dc1f2f669d652bf":[2,0,5,2,6,5],
-"d0/dab/item_2checkbox_8qc.html#a41b1f33b987f4f1d0d566cc6c75263ed":[2,0,5,2,6,2],
-"d0/dab/item_2checkbox_8qc.html#a4c56bc89f8620e4cde3de6641c315a69":[2,0,5,2,6,1],
-"d0/dab/item_2checkbox_8qc.html#a636d94d040cf0ddeda12d71293638f63":[2,0,5,2,6,0],
-"d0/dab/item_2checkbox_8qc.html#a8e3e1882ee7988b93e22b3e0bef2d4db":[2,0,5,2,6,3],
-"d0/dab/item_2checkbox_8qc_source.html":[2,0,5,2,6]
+"d0/dab/item_2checkbox_8qc.html#a41b1f33b987f4f1d0d566cc6c75263ed":[2,0,5,2,6,2]
 };

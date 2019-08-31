@@ -1,5 +1,15 @@
 var NAVTREEINDEX48 =
 {
+"d5/d45/keybinder_8qh_source.html":[2,0,5,4,175],
+"d5/d4a/cl__minigames__hud_8qc.html":[2,0,1,7,5],
+"d5/d4a/cl__minigames__hud_8qc.html#a030497aded1dcebacf1213c1242700dd":[2,0,1,7,5,32],
+"d5/d4a/cl__minigames__hud_8qc.html#a0356eff07daa02e1f48aa97f57bd4419":[2,0,1,7,5,8],
+"d5/d4a/cl__minigames__hud_8qc.html#a095bbde3ad57290772ebabf516e9881b":[2,0,1,7,5,24],
+"d5/d4a/cl__minigames__hud_8qc.html#a17e7d1f6bf523351611e6c90d7a6aa15":[2,0,1,7,5,11],
+"d5/d4a/cl__minigames__hud_8qc.html#a1875c5c56cb1e26b51eb64ae1c602ff8":[2,0,1,7,5,6],
+"d5/d4a/cl__minigames__hud_8qc.html#a1ba10a9b36cce92f0d8c066599961241":[2,0,1,7,5,21],
+"d5/d4a/cl__minigames__hud_8qc.html#a32170c7d7af7b3ca817db8ae4a1c73e0":[2,0,1,7,5,19],
+"d5/d4a/cl__minigames__hud_8qc.html#a34717727bac59a62df9c33c21e0b190a":[2,0,1,7,5,33],
 "d5/d4a/cl__minigames__hud_8qc.html#a36e72384f2fcae7156722f888cd6315b":[2,0,1,7,5,5],
 "d5/d4a/cl__minigames__hud_8qc.html#a37471c48a64ef28cb37a09cf9ab0c3d0":[2,0,1,7,5,1],
 "d5/d4a/cl__minigames__hud_8qc.html#a593fbba2d2e5390e64ec2254f11d1962":[2,0,1,7,5,31],
@@ -239,15 +249,5 @@ var NAVTREEINDEX48 =
 "d5/d6c/classXonoticHUDSkinList.html#aacd3dd599948ed41580e6a74605057ec":[1,0,204,71],
 "d5/d6c/classXonoticHUDSkinList.html#aad099a0549928c37867d05a5dde2a511":[1,0,204,72],
 "d5/d6c/classXonoticHUDSkinList.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,204,75],
-"d5/d6c/classXonoticHUDSkinList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,204,79],
-"d5/d6c/classXonoticHUDSkinList.html#abde295bcf23cc138f570ae73f5b8d279":[1,0,204,2],
-"d5/d6c/classXonoticHUDSkinList.html#ac03f21b2ed56a73716723dd13374541a":[1,0,204,63],
-"d5/d6c/classXonoticHUDSkinList.html#ac2c63b2e3a526daeb273e931bb770e5a":[1,0,204,17],
-"d5/d6c/classXonoticHUDSkinList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,204,70],
-"d5/d6c/classXonoticHUDSkinList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,204,66],
-"d5/d6c/classXonoticHUDSkinList.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,204,19],
-"d5/d6c/classXonoticHUDSkinList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,204,47],
-"d5/d6c/classXonoticHUDSkinList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,204,54],
-"d5/d6c/classXonoticHUDSkinList.html#ad8868d355da51082f1e8a5758ad2e26f":[1,0,204,29],
-"d5/d6c/classXonoticHUDSkinList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,204,81]
+"d5/d6c/classXonoticHUDSkinList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,204,79]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX41 =
 {
+"d4/d85/classXonoticUid2NameDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,260,10],
+"d4/d85/classXonoticUid2NameDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,260,15],
+"d4/d85/classXonoticUid2NameDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,260,49],
+"d4/d85/classXonoticUid2NameDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,260,2],
+"d4/d85/classXonoticUid2NameDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,260,35],
+"d4/d85/classXonoticUid2NameDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,260,39],
+"d4/d85/sv__physical__items_8qc.html":[2,0,1,10,0,24,2],
+"d4/d85/sv__physical__items_8qc.html#a051772ab21bd83f6914557f491ac4381":[2,0,1,10,0,24,2,9],
 "d4/d85/sv__physical__items_8qc.html#a0a22c548a3475e9a379dc8a3137c4cf1":[2,0,1,10,0,24,2,5],
 "d4/d85/sv__physical__items_8qc.html#a4c102a73d6b2d482288e8f6f7a45c1bb":[2,0,1,10,0,24,2,6],
 "d4/d85/sv__physical__items_8qc.html#a84e0ab5e6b85ec8fd75736dce0a7e8d8":[2,0,1,10,0,24,2,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX41 =
 "d4/d90/skin-customizables_8inc.html#af85ebb3656b9f914f0ef76afc72b8de3":[2,0,5,18,69],
 "d4/d90/skin-customizables_8inc.html#af975974ff04be2122999254c84af16f5":[2,0,5,18,109],
 "d4/d90/skin-customizables_8inc.html#afc92eac528950606dc238cba8892d5ea":[2,0,5,18,41],
-"d4/d90/skin-customizables_8inc_source.html":[2,0,5,18],
-"d4/d91/classXonoticCampaignList.html":[1,0,155],
-"d4/d91/classXonoticCampaignList.html#a03353d1ffe5d9c73b4ee54147dd268f4":[1,0,155,86],
-"d4/d91/classXonoticCampaignList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,155,49],
-"d4/d91/classXonoticCampaignList.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,155,25],
-"d4/d91/classXonoticCampaignList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,155,52],
-"d4/d91/classXonoticCampaignList.html#a113d1a91bed3f1f7bc3a24306c2c68e7":[1,0,155,24],
-"d4/d91/classXonoticCampaignList.html#a151e0ec9dca93787cd82446a1b2e5ffa":[1,0,155,60],
-"d4/d91/classXonoticCampaignList.html#a157385f4c4a8c6ed6a4e1056cd53599d":[1,0,155,45]
+"d4/d90/skin-customizables_8inc_source.html":[2,0,5,18]
 };
