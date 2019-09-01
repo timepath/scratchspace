@@ -3525,7 +3525,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d9/dba/cl__player_8qh.html#a80b5a6070b815239f4b21b503b44cb0a">csqcplayer</a> &amp;&amp; <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ad5647613978d8cde60d8c53ff9e2b7bc">crosshair_chase_playeralpha</a> &amp;&amp; <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ad5647613978d8cde60d8c53ff9e2b7bc">crosshair_chase_playeralpha</a> &lt; 1)</div>
 <div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;            {</div>
 <div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;                traceline(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>, <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a> + max_shot_distance * <a class="code" href="../../d0/d2a/client_2main_8qh.html#ad1d04b5a1386d5d90a40d7442c0bd0d8">view_forward</a>, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a> == <a class="code" href="../../d9/dba/cl__player_8qh.html#a80b5a6070b815239f4b21b503b44cb0a">csqcplayer</a>)</div>
+<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a> == <a class="code" href="../../d9/dba/cl__player_8qh.html#a80b5a6070b815239f4b21b503b44cb0a">csqcplayer</a> &amp;&amp; STAT(HEALTH) &gt; 0)</div>
 <div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;                    <a class="code" href="../../d9/dba/cl__player_8qh.html#a80b5a6070b815239f4b21b503b44cb0a">csqcplayer</a>.alpha = <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ad5647613978d8cde60d8c53ff9e2b7bc">crosshair_chase_playeralpha</a>;</div>
 <div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;                <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;                    <a class="code" href="../../d9/dba/cl__player_8qh.html#a80b5a6070b815239f4b21b503b44cb0a">csqcplayer</a>.alpha = <a class="code" href="../../d9/dba/cl__player_8qh.html#a80b5a6070b815239f4b21b503b44cb0a">csqcplayer</a>.m_alpha;</div>
@@ -7086,7 +7086,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d6/dd3/view_8qc.html">view.qc</a></li>
-    <li class="footer">Generated on Sun Sep 1 2019 08:55:01 for Xonotic by
+    <li class="footer">Generated on Sun Sep 1 2019 13:05:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
