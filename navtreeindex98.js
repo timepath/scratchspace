@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"db/d0a/oo_8qh_source.html":[2,0,4,39],
 "db/d0c/angle_8qh.html":[2,0,4,8],
 "db/d0c/angle_8qh_source.html":[2,0,4,8],
 "db/d0e/common_2monsters_2__mod_8inc.html":[2,0,1,9,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "db/d21/demolist_8qc.html#a18cf8e8d4f8265056123858092219c01":[2,0,5,4,36,7],
 "db/d21/demolist_8qc.html#a2af9da340dca4b47499a4dbbb352d9df":[2,0,5,4,36,8],
 "db/d21/demolist_8qc.html#a2ffdf12143c6e375844f2f652330f4fd":[2,0,5,4,36,0],
-"db/d21/demolist_8qc.html#a331715f6d606a04c7f78072caae73857":[2,0,5,4,36,13],
-"db/d21/demolist_8qc.html#a3470cec7a3947420172f234cf362c395":[2,0,5,4,36,6]
+"db/d21/demolist_8qc.html#a331715f6d606a04c7f78072caae73857":[2,0,5,4,36,13]
 };

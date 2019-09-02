@@ -1,5 +1,6 @@
 var NAVTREEINDEX121 =
 {
+"dd/d94/dialog__multiplayer__join_8qc.html":[2,0,5,4,94],
 "dd/d94/dialog__multiplayer__join_8qc.html#a23af548c6170f613544cf2ccd36bbdc4":[2,0,5,4,94,0],
 "dd/d94/dialog__multiplayer__join_8qc.html#a9269aa2db575bac66efdb6bc6241b23b":[2,0,5,4,94,2],
 "dd/d94/dialog__multiplayer__join_8qc.html#aedce3aeaa9449e5837b1fd8627adc4ac":[2,0,5,4,94,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX121 =
 "dd/da6/classXonoticCreditsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,163,63],
 "dd/da6/classXonoticCreditsDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,163,75],
 "dd/da6/classXonoticCreditsDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,163,7],
-"dd/da6/classXonoticCreditsDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,163,15],
-"dd/da6/classXonoticCreditsDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,163,19]
+"dd/da6/classXonoticCreditsDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,163,15]
 };

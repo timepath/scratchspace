@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,191,32],
 "dc/d37/classXonoticHUDExitDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,191,40],
 "dc/d37/classXonoticHUDExitDialog.html#a55251eb2959b1610fe039480d094a104":[1,0,191,76],
 "dc/d37/classXonoticHUDExitDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,191,62],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "dc/d45/mapobjects_2misc_2follow_8qh.html#a329ed8f98830136c42762abaeb209188":[2,0,1,6,1,7,0],
 "dc/d45/mapobjects_2misc_2follow_8qh.html#a6e0346fb7c919e40053c66d34303f82e":[2,0,1,6,1,7,1],
 "dc/d45/mapobjects_2misc_2follow_8qh_source.html":[2,0,1,6,1,7],
-"dc/d48/credits_8qh.html":[2,0,5,4,27],
-"dc/d48/credits_8qh.html#a62873c533cd0d519f7ddb479337e0e49":[2,0,5,4,27,1]
+"dc/d48/credits_8qh.html":[2,0,5,4,27]
 };
