@@ -119,8 +119,8 @@ $(document).ready(function(){initNavTree('dc/d9d/inventory_8qh_source.html','../
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<a class="code" href="../../d9/d48/lib_2net_8qh.html#aa6e94cffdff0047482b6f3bba33935de">REGISTER_NET_LINKED</a>(ENT_CLIENT_INVENTORY)</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;const <span class="keywordtype">int</span> Inventory_groups_major = 16;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;const <span class="keywordtype">int</span> Inventory_groups_minor = 8; <span class="comment">// ceil(Items_MAX / Inventory_groups_major)</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;const <span class="keywordtype">int</span> Inventory_groups_minor = 8; <span class="comment">// exactly 1 byte</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;const <span class="keywordtype">int</span> Inventory_groups_major = 3; <span class="comment">// ceil(Items_MAX / Inventory_groups_minor)</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#define G_MAJOR(id) (floor((id) / Inventory_groups_minor))</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define G_MINOR(id) ((id) % Inventory_groups_minor)</span></div>
@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('dc/d9d/inventory_8qh_source.html','../
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    g_inventory = <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> majorBits = ReadShort();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> majorBits = ReadByte();</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; Inventory_groups_major; ++i) {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span> (!(majorBits &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(i))) {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="keywordflow">continue</span>;</div>
@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('dc/d9d/inventory_8qh_source.html','../
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            minorBitsArr[maj] = <a class="code" href="../../d5/d52/bits_8qh.html#adddacc81ca0e2ceacc3f1d4de8f9c35a">BITSET</a>(minorBitsArr[maj], <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(G_MINOR(it.m_id)), <span class="keyword">true</span>);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        }</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    });</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(MSG_ENTITY, majorBits);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, majorBits);</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; Inventory_groups_major; ++i)</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
@@ -262,7 +262,7 @@ $(document).ready(function(){initNavTree('dc/d9d/inventory_8qh_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_e220edc87b29ed8f83fd5a560ddf76b2.html">items</a></li><li class="navelem"><a class="el" href="../../dc/d9d/inventory_8qh.html">inventory.qh</a></li>
-    <li class="footer">Generated on Sun Sep 1 2019 13:05:36 for Xonotic by
+    <li class="footer">Generated on Mon Sep 2 2019 07:15:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
