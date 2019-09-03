@@ -138,7 +138,7 @@ var searchData=
   ['wander_5fdelay',['wander_delay',['../d8/dc1/sv__monsters_8qh.html#a3cc6c5ace47e92be4a08f9467d7fbdd7',1,'sv_monsters.qh']]],
   ['wander_5fdistance',['wander_distance',['../d8/dc1/sv__monsters_8qh.html#a40d9742c6201d2fdb578836ba12fa4dd',1,'sv_monsters.qh']]],
   ['want_5fweapon',['want_weapon',['../dc/dc6/server_2miscfunctions_8qc.html#a11d594b32f31a1c10458b18981d3b612',1,'want_weapon(entity weaponinfo, float allguns):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a11d594b32f31a1c10458b18981d3b612',1,'want_weapon(entity weaponinfo, float allguns):&#160;miscfunctions.qc']]],
-  ['wanteventchase',['WantEventchase',['../d6/dd3/view_8qc.html#a12141ce366ad271e8c6f38f6511821fb',1,'view.qc']]],
+  ['wanteventchase',['WantEventchase',['../d6/dd3/view_8qc.html#acb109090dfd19dfdc51773394df11ff6',1,'view.qc']]],
   ['warmup_5fstage',['warmup_stage',['../d0/d2a/client_2main_8qh.html#a7630016e1ffc3d05598fb6f90fe760e1',1,'warmup_stage():&#160;main.qh'],['../d5/d26/server_2defs_8qh.html#af6088979e4328d96a754cc483d1672d9',1,'warmup_stage():&#160;defs.qh']]],
   ['warmup_5fstart_5fammo_5fcells',['warmup_start_ammo_cells',['../dc/d73/server_2miscfunctions_8qh.html#a281a1d8106f02c4e9aa8208da1747e1b',1,'miscfunctions.qh']]],
   ['warmup_5fstart_5fammo_5ffuel',['warmup_start_ammo_fuel',['../dc/d73/server_2miscfunctions_8qh.html#ad191ebfe2ae9f209e0284fdf4c5e520f',1,'miscfunctions.qh']]],
