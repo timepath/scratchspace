@@ -744,17 +744,31 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00595">595</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
 
-<p>References <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00020">m_flags</a>, and <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00013">MapInfo_Map_supportedGametypes</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00020">m_flags</a>, and <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00013">MapInfo_Map_supportedGametypes</a>.</p>
 <div class="fragment"><div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    {</div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        <span class="comment">// force all DM maps to work in duel?!</span></div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        <span class="comment">// TODO: we should really check the size of maps, some DM maps do not work for duel!</span></div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        <span class="keywordflow">if</span>(!(<a class="code" href="../../d2/d9e/mapinfo_8qh.html#afcb443b1e3edbb3edcf3a37cbb06c77f">MapInfo_Map_supportedGametypes</a> &amp; this.<a class="code" href="../../d2/d9e/mapinfo_8qh.html#acf88a9269a6bde0e77d6d64102d824ad">m_flags</a>) &amp;&amp; (<a class="code" href="../../d2/d9e/mapinfo_8qh.html#afcb443b1e3edbb3edcf3a37cbb06c77f">MapInfo_Map_supportedGametypes</a> &amp; MAPINFO_TYPE_DEATHMATCH.m_flags))</div>
-<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    }</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_duel_not_dm_maps&quot;</span>))</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        {</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;            <span class="comment">// if this is set, all DM maps support duel too</span></div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;            <span class="comment">// TODO: we should really check the size of maps, some DM maps do not work for duel!</span></div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;            <span class="keywordflow">if</span>(!(<a class="code" href="../../d2/d9e/mapinfo_8qh.html#afcb443b1e3edbb3edcf3a37cbb06c77f">MapInfo_Map_supportedGametypes</a> &amp; this.<a class="code" href="../../d2/d9e/mapinfo_8qh.html#acf88a9269a6bde0e77d6d64102d824ad">m_flags</a>) &amp;&amp; (<a class="code" href="../../d2/d9e/mapinfo_8qh.html#afcb443b1e3edbb3edcf3a37cbb06c77f">MapInfo_Map_supportedGametypes</a> &amp; MAPINFO_TYPE_DEATHMATCH.m_flags))</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>; <span class="comment">// TODO: references another gametype (alternatively, we could check which gamemodes are always enabled and append this if any are supported)</span></div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        }</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    }</div>
+<div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
 <div class="ttc" id="mapinfo_8qh_html_acf88a9269a6bde0e77d6d64102d824ad"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#acf88a9269a6bde0e77d6d64102d824ad">m_flags</a></div><div class="ttdeci">int m_flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00020">mapinfo.qh:20</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html_afcb443b1e3edbb3edcf3a37cbb06c77f"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#afcb443b1e3edbb3edcf3a37cbb06c77f">MapInfo_Map_supportedGametypes</a></div><div class="ttdeci">int MapInfo_Map_supportedGametypes</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00013">mapinfo.qh:13</a></div></div>
 </div><!-- fragment -->
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d0a/classDuel_a35cecb22602cb7f1a8394efb0390ad75_cgraph.svg" width="291" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a49421edfc295cc8be1fd857804ec5e57"></a>
@@ -953,7 +967,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d0a/classDuel.html">Duel</a></li>
-    <li class="footer">Generated on Wed Sep 4 2019 13:22:58 for Xonotic by
+    <li class="footer">Generated on Wed Sep 4 2019 15:34:27 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
