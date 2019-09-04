@@ -2,6 +2,7 @@ var antilag_8qc =
 [
     [ "antilag_clear", "d4/dd8/antilag_8qc.html#abcb3a90f91c3e77743e76b1ed5271f6a", null ],
     [ "antilag_find", "d4/dd8/antilag_8qc.html#a44007160659f27ebf8bfabc0071b9e3a", null ],
+    [ "antilag_getlag", "d4/dd8/antilag_8qc.html#af39653690dbdcf453019e553f151baa5", null ],
     [ "antilag_record", "d4/dd8/antilag_8qc.html#a6ec66093e8bf743c166fecbe5e4a636f", null ],
     [ "antilag_restore", "d4/dd8/antilag_8qc.html#ae0fbe788776aa76ba7139d692e9c7adb", null ],
     [ "antilag_restore_all", "d4/dd8/antilag_8qc.html#afcf6e9ced03532b6cd318254ef7117b8", null ],

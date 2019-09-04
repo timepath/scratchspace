@@ -1,5 +1,8 @@
 var NAVTREEINDEX50 =
 {
+"d5/d95/classXonoticDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,175,16],
+"d5/d95/classXonoticDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,175,64],
+"d5/d95/classXonoticDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,175,9],
 "d5/d95/classXonoticDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,175,77],
 "d5/d95/classXonoticDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,175,76],
 "d5/d95/classXonoticDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,175,34],
@@ -246,8 +249,5 @@ var NAVTREEINDEX50 =
 "d5/db0/teleport_8qc.html":[2,0,1,6,3,44],
 "d5/db0/teleport_8qc.html#a03f34562010302b43db73a920b807d9e":[2,0,1,6,3,44,0],
 "d5/db0/teleport_8qc.html#a92ff553068677feebff8a10a9acef5f2":[2,0,1,6,3,44,1],
-"d5/db0/teleport_8qc_source.html":[2,0,1,6,3,44],
-"d5/db1/server_2bot_2default_2__mod_8qh.html":[2,0,6,0,0,2],
-"d5/db1/server_2bot_2default_2__mod_8qh_source.html":[2,0,6,0,0,2],
-"d5/db2/dialog__hudpanel__notification_8qc.html":[2,0,5,4,60]
+"d5/db0/teleport_8qc_source.html":[2,0,1,6,3,44]
 };

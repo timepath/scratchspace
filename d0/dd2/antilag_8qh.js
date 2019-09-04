@@ -2,6 +2,7 @@ var antilag_8qh =
 [
     [ "ANTILAG_LATENCY", "d0/dd2/antilag_8qh.html#ab20ae59dea3092635c126d7036ae331e", null ],
     [ "antilag_clear", "d0/dd2/antilag_8qh.html#abcb3a90f91c3e77743e76b1ed5271f6a", null ],
+    [ "antilag_getlag", "d0/dd2/antilag_8qh.html#af39653690dbdcf453019e553f151baa5", null ],
     [ "antilag_record", "d0/dd2/antilag_8qh.html#a6ec66093e8bf743c166fecbe5e4a636f", null ],
     [ "antilag_restore", "d0/dd2/antilag_8qh.html#ae0fbe788776aa76ba7139d692e9c7adb", null ],
     [ "antilag_restore_all", "d0/dd2/antilag_8qh.html#afcf6e9ced03532b6cd318254ef7117b8", null ],

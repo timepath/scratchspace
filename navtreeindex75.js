@@ -1,5 +1,9 @@
 var NAVTREEINDEX75 =
 {
+"d8/d19/quickmenu_8qc.html#a386eb168acc6e76211f70e6f475afb17":[2,0,0,1,0,26,2],
+"d8/d19/quickmenu_8qc.html#a38e09cb3ca2db7651fa2393c9fb8450f":[2,0,0,1,0,26,26],
+"d8/d19/quickmenu_8qc.html#a3b5cdd261d16b8518c4c5d681bd42843":[2,0,0,1,0,26,27],
+"d8/d19/quickmenu_8qc.html#a3c83a68a82ea2ca3ce03b1313ea3ca1c":[2,0,0,1,0,26,5],
 "d8/d19/quickmenu_8qc.html#a43c4a63513a8a14e50baac51a458b175":[2,0,0,1,0,26,40],
 "d8/d19/quickmenu_8qc.html#a451d4b862bc25c31dc1fb6937962abab":[2,0,0,1,0,26,36],
 "d8/d19/quickmenu_8qc.html#a46816c6fc535c6a13921c56e85c3ac25":[2,0,0,1,0,26,24],
@@ -54,10 +58,10 @@ var NAVTREEINDEX75 =
 "d8/d1c/sv__spawn_8qc.html#a6cfe31b7427d7ec23125a64297039731":[2,0,1,9,8,0],
 "d8/d1c/sv__spawn_8qc_source.html":[2,0,1,9,8],
 "d8/d1d/cmd_8qc.html":[2,0,6,1,4],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,3],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,0],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,2],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,1],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,0],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,3],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,2],
 "d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665":[2,0,6,1,4,27],
 "d8/d1d/cmd_8qc.html#a0c42ae5ee5b88c336b9cf1d7307c0ed5":[2,0,6,1,4,25],
 "d8/d1d/cmd_8qc.html#a2f573bb68d8a885ab67871d5da4ef076":[2,0,6,1,4,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX75 =
 "d8/d39/classXonoticGametypeList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,183,25],
 "d8/d39/classXonoticGametypeList.html#a6927fdb0bf41e599162a9f61a22d8dac":[1,0,183,31],
 "d8/d39/classXonoticGametypeList.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,183,0],
-"d8/d39/classXonoticGametypeList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,183,52],
-"d8/d39/classXonoticGametypeList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,183,26],
-"d8/d39/classXonoticGametypeList.html#a750aeb00f85173246cb8a52a5bc7aa54":[1,0,183,47],
-"d8/d39/classXonoticGametypeList.html#a764e355b65af202e87289c596432c780":[1,0,183,57],
-"d8/d39/classXonoticGametypeList.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,183,7]
+"d8/d39/classXonoticGametypeList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,183,52]
 };

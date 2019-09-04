@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"d1/d52/spiderbot_8qh.html":[2,0,1,15,0,15],
 "d1/d52/spiderbot_8qh.html#a4ed523c7dd3ce374cd0be420899e8f8f":[2,0,1,15,0,15,1],
 "d1/d52/spiderbot_8qh_source.html":[2,0,1,15,0,15],
 "d1/d55/classXonoticGameHUDSettingsTab.html":[1,0,179],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "d1/d5b/classRadioButton.html#aad099a0549928c37867d05a5dde2a511":[1,0,114,70],
 "d1/d5b/classRadioButton.html#aaefd5f78048ffbfdf0e45b630c4b5a4b":[1,0,114,57],
 "d1/d5b/classRadioButton.html#ab0e43c94f6fb0081002fc5850d5795c1":[1,0,114,45],
-"d1/d5b/classRadioButton.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,114,9],
-"d1/d5b/classRadioButton.html#aba5218808d64a676ca69b4f43d6f523b":[1,0,114,34]
+"d1/d5b/classRadioButton.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,114,9]
 };

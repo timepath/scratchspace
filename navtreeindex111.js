@@ -1,5 +1,9 @@
 var NAVTREEINDEX111 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,191,23],
+"dc/d37/classXonoticHUDExitDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,191,48],
+"dc/d37/classXonoticHUDExitDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,191,26],
+"dc/d37/classXonoticHUDExitDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,191,55],
 "dc/d37/classXonoticHUDExitDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,191,32],
 "dc/d37/classXonoticHUDExitDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,191,40],
 "dc/d37/classXonoticHUDExitDialog.html#a55251eb2959b1610fe039480d094a104":[1,0,191,76],
@@ -245,9 +249,5 @@ var NAVTREEINDEX111 =
 "dc/d44/classXonoticScreenshotList.html#afdd5ec7df8036e1d4f97162c7b5dbbc0":[1,0,241,26],
 "dc/d44/keyhunt_8qc.html":[2,0,1,3,0,10,4],
 "dc/d44/keyhunt_8qc_source.html":[2,0,1,3,0,10,4],
-"dc/d45/mapobjects_2misc_2follow_8qh.html":[2,0,1,6,1,7],
-"dc/d45/mapobjects_2misc_2follow_8qh.html#a329ed8f98830136c42762abaeb209188":[2,0,1,6,1,7,0],
-"dc/d45/mapobjects_2misc_2follow_8qh.html#a6e0346fb7c919e40053c66d34303f82e":[2,0,1,6,1,7,1],
-"dc/d45/mapobjects_2misc_2follow_8qh_source.html":[2,0,1,6,1,7],
-"dc/d48/credits_8qh.html":[2,0,5,4,27]
+"dc/d45/mapobjects_2misc_2follow_8qh.html":[2,0,1,6,1,7]
 };

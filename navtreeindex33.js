@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"d3/def/sv__turrets_8qc_source.html":[2,0,1,14,11],
 "d3/df2/classDualPlasmaTurret.html":[1,0,31],
 "d3/df2/classDualPlasmaTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,31,5],
 "d3/df2/classDualPlasmaTurret.html#a3144102787442a58055180121b5e9536":[1,0,31,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "d4/d0a/classXonoticMiscSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,218,23],
 "d4/d0a/classXonoticMiscSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,218,51],
 "d4/d0a/classXonoticMiscSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,218,31],
-"d4/d0a/classXonoticMiscSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,218,24],
-"d4/d0a/classXonoticMiscSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,218,17]
+"d4/d0a/classXonoticMiscSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,218,24]
 };

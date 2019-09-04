@@ -1,5 +1,9 @@
 var NAVTREEINDEX94 =
 {
+"da/d94/classXonoticSettingsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,248,20],
+"da/d94/classXonoticSettingsDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,248,13],
+"da/d94/classXonoticSettingsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,248,59],
+"da/d94/classXonoticSettingsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,248,28],
 "da/d94/classXonoticSettingsDialog.html#a35febc4699b486ec00bb66071ba3892c":[1,0,248,84],
 "da/d94/classXonoticSettingsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,248,44],
 "da/d94/classXonoticSettingsDialog.html#a3914bbbebeb4c734cae33a31b8c71455":[1,0,248,22],
@@ -245,9 +249,5 @@ var NAVTREEINDEX94 =
 "da/d9c/lib_2csqcmodel_2player_8qc_source.html":[2,0,4,0,12],
 "da/da6/flipflop_8qc.html":[2,0,1,6,3,8],
 "da/da6/flipflop_8qc_source.html":[2,0,1,6,3,8],
-"da/da6/shockwave_8qh.html":[2,0,1,16,0,33],
-"da/da6/shockwave_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,33,1],
-"da/da6/shockwave_8qh.html#ae09e2d0740002cb9090be0e7de3954e9":[2,0,1,16,0,33,2],
-"da/da6/shockwave_8qh_source.html":[2,0,1,16,0,33],
-"da/da9/classSpiderAttack.html":[1,0,130]
+"da/da6/shockwave_8qh.html":[2,0,1,16,0,33]
 };

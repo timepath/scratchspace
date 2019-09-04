@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"d1/d39/classXonoticTeamSelectDialog.html#a2931e6a8153a18c2288d4480f7547a30":[1,0,257,89],
 "d1/d39/classXonoticTeamSelectDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,257,31],
 "d1/d39/classXonoticTeamSelectDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,257,24],
 "d1/d39/classXonoticTeamSelectDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,257,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "d1/d50/pendulum_8qh.html":[2,0,1,6,0,21],
 "d1/d50/pendulum_8qh_source.html":[2,0,1,6,0,21],
 "d1/d52/common_2gamemodes_2gamemode_2race_2__mod_8qh.html":[2,0,1,3,0,14,1],
-"d1/d52/common_2gamemodes_2gamemode_2race_2__mod_8qh_source.html":[2,0,1,3,0,14,1],
-"d1/d52/spiderbot_8qh.html":[2,0,1,15,0,15]
+"d1/d52/common_2gamemodes_2gamemode_2race_2__mod_8qh_source.html":[2,0,1,3,0,14,1]
 };

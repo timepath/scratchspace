@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"d3/dd5/bd_8qc.html#a02961c8f17f0e07df88f2a60c1eb7816":[2,0,1,7,0,3,45],
 "d3/dd5/bd_8qc.html#a051007cbf0daa912a5c4622f5f1b47d3":[2,0,1,7,0,3,30],
 "d3/dd5/bd_8qc.html#a05dec46dde45e134efd1d17b8fe4bc58":[2,0,1,7,0,3,67],
 "d3/dd5/bd_8qc.html#a07c06eb3b7ba1dd490c5f09cb01909ce":[2,0,1,7,0,3,47],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "d3/deb/dialog__multiplayer__media_8qh_source.html":[2,0,5,4,99],
 "d3/dec/common_2mutators_2mutator_2instagib_2items_8qc.html":[2,0,1,10,0,12,2],
 "d3/dec/common_2mutators_2mutator_2instagib_2items_8qc_source.html":[2,0,1,10,0,12,2],
-"d3/def/sv__turrets_8qc.html":[2,0,1,14,11],
-"d3/def/sv__turrets_8qc_source.html":[2,0,1,14,11]
+"d3/def/sv__turrets_8qc.html":[2,0,1,14,11]
 };
