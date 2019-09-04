@@ -505,7 +505,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a9db66d599091acdbf3b3ffdeae8852ea">sound_allowed</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">MSG_BROADCAST</a>, attacker))</div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    {</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        <span class="keywordflow">if</span> (save &gt; 10)</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        <span class="keywordflow">if</span> (save &gt; 10 &amp;&amp; (dh - take) &gt; 0) <span class="comment">// don&#39;t play armor sound if the attack is fatal</span></div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;            <a class="code" href="../../d0/df5/sound_8qh.html#aeb598ce864f72a1d490d550e1a10c32a">sound</a> (<span class="keyword">this</span>, <a class="code" href="../../d0/df5/sound_8qh.html#a4051c5328d378b063ec0779a9c9a75c3">CH_SHOTS</a>, SND_ARMORIMPACT, <a class="code" href="../../d0/df5/sound_8qh.html#a353d870104b3e8ae2a5fc5584279c735">VOL_BASE</a>, <a class="code" href="../../d0/df5/sound_8qh.html#ab7d311180e6c1130c970d08fe9b6c638">ATTEN_NORM</a>);</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (take &gt; 30)</div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;            <a class="code" href="../../d0/df5/sound_8qh.html#aeb598ce864f72a1d490d550e1a10c32a">sound</a> (<span class="keyword">this</span>, <a class="code" href="../../d0/df5/sound_8qh.html#a4051c5328d378b063ec0779a9c9a75c3">CH_SHOTS</a>, SND_BODYIMPACT2, <a class="code" href="../../d0/df5/sound_8qh.html#a353d870104b3e8ae2a5fc5584279c735">VOL_BASE</a>, <a class="code" href="../../d0/df5/sound_8qh.html#ab7d311180e6c1130c970d08fe9b6c638">ATTEN_NORM</a>);</div>
@@ -992,7 +992,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/d9b/server_2player_8qc.html">player.qc</a></li>
-    <li class="footer">Generated on Tue Sep 3 2019 10:26:51 for Xonotic by
+    <li class="footer">Generated on Wed Sep 4 2019 09:51:12 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
