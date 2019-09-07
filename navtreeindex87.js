@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"d9/d67/turret_8qh.html#a363370442334893ae9807d052c232955":[2,0,1,14,15,27],
 "d9/d67/turret_8qh.html#a3da70e0df6e32f9a82d3141699e1a5f0":[2,0,1,14,15,57],
 "d9/d67/turret_8qh.html#a42a854849e67ae27f0c5566048df5860":[2,0,1,14,15,13],
 "d9/d67/turret_8qh.html#a43f6dee43181809a5b068856f1818d48":[2,0,1,14,15,73],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "d9/d8c/classWaypoint.html#a7582ca2dcce2971313caac02a72da70c":[1,0,145,1],
 "d9/d8c/classWaypoint.html#a7a687a0ab5a9f2299f6a4b93862834fc":[1,0,145,5],
 "d9/d8c/classWaypoint.html#aa5bca311573381ef35ec56610d15d538":[1,0,145,0],
-"d9/d8c/classWaypoint.html#abe42e95092e4d122f39586a740325ce5":[1,0,145,6],
-"d9/d8c/classWaypoint.html#ac24ed0333cfa8054cfbd51df8c94c25a":[1,0,145,3]
+"d9/d8c/classWaypoint.html#abe42e95092e4d122f39586a740325ce5":[1,0,145,6]
 };

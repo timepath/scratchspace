@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"da/d9c/lib_2csqcmodel_2player_8qc_source.html":[2,0,4,0,12],
 "da/da6/flipflop_8qc.html":[2,0,1,6,3,8],
 "da/da6/flipflop_8qc_source.html":[2,0,1,6,3,8],
 "da/da6/shockwave_8qh.html":[2,0,1,16,0,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "da/dc1/classXonoticAudioSettingsTab.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,150,28],
 "da/dc1/classXonoticAudioSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,150,53],
 "da/dc1/classXonoticAudioSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,150,31],
-"da/dc1/classXonoticAudioSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,150,37],
-"da/dc1/classXonoticAudioSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,150,45]
+"da/dc1/classXonoticAudioSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,150,37]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX88 =
 {
+"d9/d8c/classWaypoint.html#ac24ed0333cfa8054cfbd51df8c94c25a":[1,0,145,3],
 "d9/d8c/classWaypoint.html#aee21256ea168a3b419a9cc2ab24125ed":[1,0,145,2],
 "d9/d8c/classWaypoint.html#af3482425b308c3fb38fc4809dc1c103d":[1,0,145,4],
 "d9/d94/sv__damagetext_8qc.html":[2,0,1,10,0,6,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "d9/dc7/turrets_2turret_2machinegun_8qh_source.html":[2,0,1,14,0,21],
 "d9/dc8/ecs_2events_2__mod_8qh.html":[2,0,3,1,1],
 "d9/dc8/ecs_2events_2__mod_8qh_source.html":[2,0,3,1,1],
-"d9/dca/classXonoticCommandButton.html":[1,0,162],
-"d9/dca/classXonoticCommandButton.html#a09558581cc0090d8cdcfd1ec9411f74c":[1,0,162,47]
+"d9/dca/classXonoticCommandButton.html":[1,0,162]
 };

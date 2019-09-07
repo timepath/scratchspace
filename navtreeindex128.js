@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"de/d6d/classLinkedListNode.html#a04b4b63e53bc3441464c7d36e44f070c":[1,0,69,1],
 "de/d6d/classLinkedListNode.html#a25e225297eb66d8fa5d8368b9dd31d9a":[1,0,69,0],
 "de/d6d/classLinkedListNode.html#a9c15551c50a9dc894925e899bbe95bfe":[1,0,69,2],
 "de/d6e/playerstats_8qc.html":[2,0,1,39],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "de/d8b/xonotic_2image_8qc.html":[2,0,5,4,170],
 "de/d8b/xonotic_2image_8qc.html#a342332e21b2ee36298df0c2c0f3f11a1":[2,0,5,4,170,0],
 "de/d8b/xonotic_2image_8qc.html#aec88164f7d8c789d9016b9f759dd96dc":[2,0,5,4,170,1],
-"de/d8b/xonotic_2image_8qc_source.html":[2,0,5,4,170],
-"de/d8c/classWyvernAttack.html":[1,0,149]
+"de/d8b/xonotic_2image_8qc_source.html":[2,0,5,4,170]
 };

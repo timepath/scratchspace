@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"dd/d0a/effects_8inc.html#ab161cbb17923e1f6e3ad7875041fc2aa":[2,0,1,10,0,19,2,1],
 "dd/d0a/effects_8inc_source.html":[2,0,1,10,0,19,2],
 "dd/d0b/mapobjects_2trigger_2viewloc_8qh.html":[2,0,1,6,3,47],
 "dd/d0b/mapobjects_2trigger_2viewloc_8qh.html#a5b6e6bb5f419942e125447726036ef43":[2,0,1,6,3,47,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "dd/d1b/step_8qh.html":[2,0,1,12,0,8],
 "dd/d1b/step_8qh_source.html":[2,0,1,12,0,8],
 "dd/d1d/common_2mutators_2mutator_2superspec_2__mod_8qh.html":[2,0,1,10,0,34,1],
-"dd/d1d/common_2mutators_2mutator_2superspec_2__mod_8qh_source.html":[2,0,1,10,0,34,1],
-"dd/d1d/spider_8qh.html":[2,0,1,9,0,7]
+"dd/d1d/common_2mutators_2mutator_2superspec_2__mod_8qh_source.html":[2,0,1,10,0,34,1]
 };

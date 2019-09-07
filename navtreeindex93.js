@@ -1,5 +1,6 @@
 var NAVTREEINDEX93 =
 {
+"da/d5e/rifle_8qc_source.html":[2,0,1,16,0,28],
 "da/d60/json_8qh.html":[2,0,4,27],
 "da/d60/json_8qh_source.html":[2,0,4,27],
 "da/d68/accuracy_8qc.html":[2,0,6,5,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX93 =
 "da/d94/classXonoticSettingsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,248,70],
 "da/d94/classXonoticSettingsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,248,4],
 "da/d94/classXonoticSettingsDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,248,41],
-"da/d94/classXonoticSettingsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,248,19],
-"da/d94/classXonoticSettingsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,248,47]
+"da/d94/classXonoticSettingsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,248,19]
 };
