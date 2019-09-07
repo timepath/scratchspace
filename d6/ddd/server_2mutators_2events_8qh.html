@@ -148,6 +148,9 @@ Macros</h2></td></tr>
 <tr class="memitem:acb6b40b7e533c6c5161ebc3473365bc9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#acb6b40b7e533c6c5161ebc3473365bc9">EV_AllowMobSpawning</a>(i, o)</td></tr>
 <tr class="memdesc:acb6b40b7e533c6c5161ebc3473365bc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a player tries to spawn a monster return 1 to prevent spawning NOTE: requires reason if disallowed  <a href="#acb6b40b7e533c6c5161ebc3473365bc9">More...</a><br/></td></tr>
 <tr class="separator:acb6b40b7e533c6c5161ebc3473365bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36547e693180bb10e745a02eb57a7828"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a36547e693180bb10e745a02eb57a7828">EV_AllowRocketJumping</a>(i, o)</td></tr>
+<tr class="memdesc:a36547e693180bb10e745a02eb57a7828"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows disabling or enabling rocket jumping independently of balance, use the parameter to force a preferred setting.  <a href="#a36547e693180bb10e745a02eb57a7828">More...</a><br/></td></tr>
+<tr class="separator:a36547e693180bb10e745a02eb57a7828"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abad526984137a7bd9f74061cd50562a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abad526984137a7bd9f74061cd50562a7">EV_AutoJoinOnConnection</a>(i, o)&#160;&#160;&#160;/** player */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:abad526984137a7bd9f74061cd50562a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if client should be put as player on connection  <a href="#abad526984137a7bd9f74061cd50562a7">More...</a><br/></td></tr>
 <tr class="separator:abad526984137a7bd9f74061cd50562a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -852,6 +855,8 @@ Functions</h2></td></tr>
 <tr class="separator:a56f225a62b68f5c2c4a83ec51f69bb41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaea6370e044e59108b7c53a5396f5aba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aaea6370e044e59108b7c53a5396f5aba">MUTATOR_HOOKABLE</a> (LogDeath_AppendItemCodes, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#adf81ab19628f623f9bbe7565a91be735">EV_LogDeath_AppendItemCodes</a>)</td></tr>
 <tr class="separator:aaea6370e044e59108b7c53a5396f5aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09feaa70d4097752ce44f21bd9a65c12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a09feaa70d4097752ce44f21bd9a65c12">MUTATOR_HOOKABLE</a> (AllowRocketJumping, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a36547e693180bb10e745a02eb57a7828">EV_AllowRocketJumping</a>)</td></tr>
+<tr class="separator:a09feaa70d4097752ce44f21bd9a65c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -1045,6 +1050,38 @@ Variables</h2></td></tr>
 <p>called when a player tries to spawn a monster return 1 to prevent spawning NOTE: requires reason if disallowed </p>
 
 <p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00399">399</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a36547e693180bb10e745a02eb57a7828"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_AllowRocketJumping</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">         i(<span class="keywordtype">bool</span>, MUTATOR_ARGV_0_bool) \</div>
+<div class="line">                                o(<span class="keywordtype">bool</span>, MUTATOR_ARGV_0_bool) \</div>
+</div><!-- fragment -->
+<p>Allows disabling or enabling rocket jumping independently of balance, use the parameter to force a preferred setting. </p>
+
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01236">1236</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -9172,6 +9209,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a09feaa70d4097752ce44f21bd9a65c12"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype">AllowRocketJumping&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a36547e693180bb10e745a02eb57a7828">EV_AllowRocketJumping</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a2da559e70e6e6c7251e3121fc7550aa2"></a>
 <div class="memitem">
@@ -9227,7 +9290,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Sat Sep 7 2019 08:24:28 for Xonotic by
+    <li class="footer">Generated on Sat Sep 7 2019 09:07:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

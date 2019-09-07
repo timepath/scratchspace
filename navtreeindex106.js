@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"db/db4/classTextSlider.html#a3f9c5e6943891f335099fe380661b70c":[1,0,137,27],
+"db/db4/classTextSlider.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,137,64],
 "db/db4/classTextSlider.html#a410bd8073e04005466f95ec4936a3328":[1,0,137,86],
 "db/db4/classTextSlider.html#a4507944a16d2de8fd3aff6bf8767f1e4":[1,0,137,83],
 "db/db4/classTextSlider.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,137,74],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "db/dc4/movelib_8qh.html#aa514946bfa921bfcd0f67fb31fe9ac7a":[2,0,1,12,5,0],
 "db/dc4/movelib_8qh_source.html":[2,0,1,12,5],
 "db/dc5/waypointsprites_8qc.html":[2,0,1,10,0,39,4],
-"db/dc5/waypointsprites_8qc.html#a87bef1dd4db308174f82e1ecc38c7bb7":[2,0,1,10,0,39,4,0],
-"db/dc5/waypointsprites_8qc_source.html":[2,0,1,10,0,39,4],
-"db/dc8/cl__controlpoint_8qc.html":[2,0,1,3,0,13,2]
+"db/dc5/waypointsprites_8qc.html#a87bef1dd4db308174f82e1ecc38c7bb7":[2,0,1,10,0,39,4,0]
 };

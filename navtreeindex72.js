@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"d7/dbb/sv__assault_8qc.html#aae75592036bbad8155a2c2b1f82aa17c":[2,0,1,3,0,0,2,38],
+"d7/dbb/sv__assault_8qc.html#ab07212491846c835c89e19cb57e4a185":[2,0,1,3,0,0,2,31],
 "d7/dbb/sv__assault_8qc.html#abdfae161ef5def6dabcef22529a4bd92":[2,0,1,3,0,0,2,18],
 "d7/dbb/sv__assault_8qc.html#ac13d7b4d4b6dca1b751a9009ee9a0a11":[2,0,1,3,0,0,2,15],
 "d7/dbb/sv__assault_8qc.html#ac718fcb423a0421dfc5f8c4ca1e571ba":[2,0,1,3,0,0,2,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "d7/de2/sv__weaponarena__random_8qc.html#afad0f4ef6580e9d971c3ca0057f355c4":[2,0,1,10,0,40,2,2],
 "d7/de2/sv__weaponarena__random_8qc_source.html":[2,0,1,10,0,40,2],
 "d7/de3/dialog__multiplayer__create_8qc.html":[2,0,5,4,88],
-"d7/de3/dialog__multiplayer__create_8qc.html#a0551d863eb32ced7a0f48f9834708dbe":[2,0,5,4,88,1],
-"d7/de3/dialog__multiplayer__create_8qc.html#a0ce9ecfe6478cb8924f5b74b1e947193":[2,0,5,4,88,0],
-"d7/de3/dialog__multiplayer__create_8qc.html#a1c795826409f636e86146e253128e3b9":[2,0,5,4,88,2]
+"d7/de3/dialog__multiplayer__create_8qc.html#a0551d863eb32ced7a0f48f9834708dbe":[2,0,5,4,88,1]
 };

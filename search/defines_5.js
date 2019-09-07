@@ -30,6 +30,7 @@ var searchData=
   ['ev_5faddplayerscore',['EV_AddPlayerScore',['../d6/ddd/server_2mutators_2events_8qh.html#a6321183452c7a8108daa4358b7dbfbc1',1,'events.qh']]],
   ['ev_5fallowmobbutcher',['EV_AllowMobButcher',['../d6/ddd/server_2mutators_2events_8qh.html#a05f54275e33dee1147c8c5811d03e261',1,'events.qh']]],
   ['ev_5fallowmobspawning',['EV_AllowMobSpawning',['../d6/ddd/server_2mutators_2events_8qh.html#acb6b40b7e533c6c5161ebc3473365bc9',1,'events.qh']]],
+  ['ev_5fallowrocketjumping',['EV_AllowRocketJumping',['../d6/ddd/server_2mutators_2events_8qh.html#a36547e693180bb10e745a02eb57a7828',1,'events.qh']]],
   ['ev_5fannounceroption',['EV_AnnouncerOption',['../d8/d0e/client_2mutators_2events_8qh.html#a25bfd691414ad6357c67077eb7917f73',1,'events.qh']]],
   ['ev_5fautojoinonconnection',['EV_AutoJoinOnConnection',['../d6/ddd/server_2mutators_2events_8qh.html#abad526984137a7bd9f74061cd50562a7',1,'events.qh']]],
   ['ev_5fbot_5ffixcount',['EV_Bot_FixCount',['../d6/ddd/server_2mutators_2events_8qh.html#a644db3c174f0b5c02e2e5b399b30b70d',1,'events.qh']]],

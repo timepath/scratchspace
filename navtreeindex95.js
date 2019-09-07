@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"da/da6/flipflop_8qc.html":[2,0,1,6,3,8],
+"da/da6/flipflop_8qc_source.html":[2,0,1,6,3,8],
 "da/da6/shockwave_8qh.html":[2,0,1,16,0,33],
 "da/da6/shockwave_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,33,1],
 "da/da6/shockwave_8qh.html#ae09e2d0740002cb9090be0e7de3954e9":[2,0,1,16,0,33,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "da/dc1/classXonoticAudioSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,150,53],
 "da/dc1/classXonoticAudioSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,150,31],
 "da/dc1/classXonoticAudioSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,150,37],
-"da/dc1/classXonoticAudioSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,150,45],
-"da/dc1/classXonoticAudioSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,150,57],
-"da/dc1/classXonoticAudioSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,150,88]
+"da/dc1/classXonoticAudioSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,150,45]
 };

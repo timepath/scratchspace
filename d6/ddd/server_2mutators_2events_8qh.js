@@ -6,6 +6,7 @@ var server_2mutators_2events_8qh =
     [ "EV_AddPlayerScore", "d6/ddd/server_2mutators_2events_8qh.html#a6321183452c7a8108daa4358b7dbfbc1", null ],
     [ "EV_AllowMobButcher", "d6/ddd/server_2mutators_2events_8qh.html#a05f54275e33dee1147c8c5811d03e261", null ],
     [ "EV_AllowMobSpawning", "d6/ddd/server_2mutators_2events_8qh.html#acb6b40b7e533c6c5161ebc3473365bc9", null ],
+    [ "EV_AllowRocketJumping", "d6/ddd/server_2mutators_2events_8qh.html#a36547e693180bb10e745a02eb57a7828", null ],
     [ "EV_AutoJoinOnConnection", "d6/ddd/server_2mutators_2events_8qh.html#abad526984137a7bd9f74061cd50562a7", null ],
     [ "EV_Bot_FixCount", "d6/ddd/server_2mutators_2events_8qh.html#a644db3c174f0b5c02e2e5b399b30b70d", null ],
     [ "EV_BotShouldAttack", "d6/ddd/server_2mutators_2events_8qh.html#a6387e22b41332282ac9bf8c743a774a9", null ],
@@ -302,6 +303,7 @@ var server_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a3bf9d94161287f35b060055189b53fe3", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a56f225a62b68f5c2c4a83ec51f69bb41", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#aaea6370e044e59108b7c53a5396f5aba", null ],
+    [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a09feaa70d4097752ce44f21bd9a65c12", null ],
     [ "get_cvars_f", "d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2", null ],
     [ "get_cvars_s", "d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f", null ],
     [ "monster_loot", "d6/ddd/server_2mutators_2events_8qh.html#a3b05b0b07f8bfac621be16b7588af844", null ]
