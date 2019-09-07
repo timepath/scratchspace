@@ -167,19 +167,20 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/db0/sv__rocketflying_8qc_source.html#l00007">7</a> of file <a class="el" href="../../dd/db0/sv__rocketflying_8qc_source.html">sv_rocketflying.qc</a>.</p>
 
-<p>References <a class="el" href="../../dd/db0/sv__rocketflying_8qc_source.html#l00004">autocvar_g_rocket_flying_disabledelays</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
+<p>References <a class="el" href="../../dd/db0/sv__rocketflying_8qc_source.html#l00004">autocvar_g_rocket_flying_disabledelays</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 <div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> proj = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../dd/db0/sv__rocketflying_8qc.html#ab353d7328912bb89462df24ad8a11e38">autocvar_g_rocket_flying_disabledelays</a> &amp;&amp; (proj.classname == <span class="stringliteral">&quot;rocket&quot;</span> || proj.classname == <span class="stringliteral">&quot;mine&quot;</span>))</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="comment">// kill detonate delay of rockets</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        proj.spawnshieldtime = -1;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        proj.spawnshieldtime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    }</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="sv__rocketflying_8qc_html_ab353d7328912bb89462df24ad8a11e38"><div class="ttname"><a href="../../dd/db0/sv__rocketflying_8qc.html#ab353d7328912bb89462df24ad8a11e38">autocvar_g_rocket_flying_disabledelays</a></div><div class="ttdeci">bool autocvar_g_rocket_flying_disabledelays</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db0/sv__rocketflying_8qc_source.html#l00004">sv_rocketflying.qc:4</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -380,7 +381,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_7cb5e0243dc500293d87d16dc902d405.html">rocketflying</a></li><li class="navelem"><a class="el" href="../../dd/db0/sv__rocketflying_8qc.html">sv_rocketflying.qc</a></li>
-    <li class="footer">Generated on Sat Sep 7 2019 11:47:40 for Xonotic by
+    <li class="footer">Generated on Sat Sep 7 2019 12:33:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
