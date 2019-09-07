@@ -1,5 +1,6 @@
 var NAVTREEINDEX104 =
 {
+"db/d7f/effectinfo_8inc.html#a983b1d45cb5c504cb51bbc8bb7e85ec8":[2,0,1,2,7,167],
 "db/d7f/effectinfo_8inc.html#a986bc3ff52e4a0c4aeccab2ec429f31f":[2,0,1,2,7,248],
 "db/d7f/effectinfo_8inc.html#a99181657fe7efbc9cd56bd984cd163db":[2,0,1,2,7,237],
 "db/d7f/effectinfo_8inc.html#a99b4514fab8ee10ccb66265db462d6f9":[2,0,1,2,7,294],
@@ -248,6 +249,5 @@ var NAVTREEINDEX104 =
 "db/d8e/server_2bot_2null_2__mod_8qh.html":[2,0,6,0,1,1],
 "db/d8e/server_2bot_2null_2__mod_8qh_source.html":[2,0,6,0,1,1],
 "db/d91/gamestart_8qc.html":[2,0,1,6,3,10],
-"db/d91/gamestart_8qc_source.html":[2,0,1,6,3,10],
-"db/d93/cl__minigames__hud_8qh.html":[2,0,1,7,6]
+"db/d91/gamestart_8qc_source.html":[2,0,1,6,3,10]
 };

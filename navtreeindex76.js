@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"d8/d39/classXonoticGametypeList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,183,52],
 "d8/d39/classXonoticGametypeList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,183,26],
 "d8/d39/classXonoticGametypeList.html#a750aeb00f85173246cb8a52a5bc7aa54":[1,0,183,47],
 "d8/d39/classXonoticGametypeList.html#a764e355b65af202e87289c596432c780":[1,0,183,57],
@@ -203,16 +204,16 @@ var NAVTREEINDEX76 =
 "d8/d79/notifications_2all_8qc.html#ab191ea2d6864d62cf12f82140b351f66":[2,0,1,11,3,45],
 "d8/d79/notifications_2all_8qc.html#ab2ba4995bd0ca717f5a1612dcea04e08":[2,0,1,11,3,40],
 "d8/d79/notifications_2all_8qc.html#ab8d04f070f34f2c33b526d29809f4d4e":[2,0,1,11,3,31],
-"d8/d79/notifications_2all_8qc.html#ac9ddb1a1613d2392182669496dbe68cd":[2,0,1,11,3,15],
 "d8/d79/notifications_2all_8qc.html#ac9ddb1a1613d2392182669496dbe68cd":[2,0,1,11,3,13],
 "d8/d79/notifications_2all_8qc.html#ac9ddb1a1613d2392182669496dbe68cd":[2,0,1,11,3,14],
 "d8/d79/notifications_2all_8qc.html#ac9ddb1a1613d2392182669496dbe68cd":[2,0,1,11,3,16],
+"d8/d79/notifications_2all_8qc.html#ac9ddb1a1613d2392182669496dbe68cd":[2,0,1,11,3,15],
 "d8/d79/notifications_2all_8qc.html#acc65c0cb783909b47eb8c4aa39dcc3f4":[2,0,1,11,3,44],
 "d8/d79/notifications_2all_8qc.html#ad02f8d427504ef14b91645e337035578":[2,0,1,11,3,32],
+"d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,11,3,19],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,11,3,17],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,11,3,18],
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,11,3,20],
-"d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,11,3,19],
 "d8/d79/notifications_2all_8qc.html#ae93ed72c8bc25a3db70a3dce5a8070d9":[2,0,1,11,3,42],
 "d8/d79/notifications_2all_8qc.html#aebba04739a8cedbc68c1561271936be9":[2,0,1,11,3,36],
 "d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "d8/d8a/classXonoticDamageTextSettings.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,169,29],
 "d8/d8a/classXonoticDamageTextSettings.html#a198d31b696946a3a688d2c943f509799":[1,0,169,72],
 "d8/d8a/classXonoticDamageTextSettings.html#a21c7071e5024d898349acbe2717e16cc":[1,0,169,12],
-"d8/d8a/classXonoticDamageTextSettings.html#a263e6145393c6d11615034c31b7cb40e":[1,0,169,73],
-"d8/d8a/classXonoticDamageTextSettings.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,169,5]
+"d8/d8a/classXonoticDamageTextSettings.html#a263e6145393c6d11615034c31b7cb40e":[1,0,169,73]
 };

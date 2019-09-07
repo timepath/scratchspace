@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,191,21],
 "dc/d37/classXonoticHUDExitDialog.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,191,23],
 "dc/d37/classXonoticHUDExitDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,191,48],
 "dc/d37/classXonoticHUDExitDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,191,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "dc/d44/classXonoticScreenshotList.html#afd9459a203a4cb8a9108b960621e1925":[1,0,241,71],
 "dc/d44/classXonoticScreenshotList.html#afdd5ec7df8036e1d4f97162c7b5dbbc0":[1,0,241,26],
 "dc/d44/keyhunt_8qc.html":[2,0,1,3,0,10,4],
-"dc/d44/keyhunt_8qc_source.html":[2,0,1,3,0,10,4],
-"dc/d45/mapobjects_2misc_2follow_8qh.html":[2,0,1,6,1,7]
+"dc/d44/keyhunt_8qc_source.html":[2,0,1,3,0,10,4]
 };

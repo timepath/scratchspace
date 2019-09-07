@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"da/d94/classXonoticSettingsDialog.html#a31049ac23a9b136a14bcbdac80d3f0eb":[1,0,248,67],
 "da/d94/classXonoticSettingsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,248,20],
 "da/d94/classXonoticSettingsDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,248,13],
 "da/d94/classXonoticSettingsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,248,59],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "da/d9c/lib_2csqcmodel_2player_8qc.html":[2,0,4,0,12],
 "da/d9c/lib_2csqcmodel_2player_8qc_source.html":[2,0,4,0,12],
 "da/da6/flipflop_8qc.html":[2,0,1,6,3,8],
-"da/da6/flipflop_8qc_source.html":[2,0,1,6,3,8],
-"da/da6/shockwave_8qh.html":[2,0,1,16,0,33]
+"da/da6/flipflop_8qc_source.html":[2,0,1,6,3,8]
 };
