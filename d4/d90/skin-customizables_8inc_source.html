@@ -105,42 +105,42 @@ $(document).ready(function(){initNavTree('d4/d90/skin-customizables_8inc_source.
 <div class="title">skin-customizables.inc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/d90/skin-customizables_8inc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#if 0</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="stringliteral">&quot;Perl code to convert this to a skinvalues.txt file.&quot;</span>;</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a> <span class="stringliteral">&quot;title Generic\n&quot;</span>;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a> <span class="stringliteral">&quot;author Morphed\n&quot;</span>;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a> <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordflow">while</span>(&lt;DATA&gt;)</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    chomp;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span>(/^\s*(?:<a class="code" href="../../d4/d90/skin-customizables_8inc.html#a143e3a0b0e24174a31e0bd71ea604f00">SKINFLOAT</a>|<a class="code" href="../../d4/d90/skin-customizables_8inc.html#a3c6832b4fb58a1075ac93b25983d91db">SKINVECTOR</a>)\(([A-Z_]+), ([-<span class="stringliteral">&#39;0-9. ]+)\);$/) #&#39;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        printf <span class="stringliteral">&quot;%-31s %s\n&quot;</span>, $1, $2;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    elsif(/^\s*<a class="code" href="../../d4/d90/skin-customizables_8inc.html#acae296be82d31996ae73bec0c5cb94d5">SKINSTRING</a>\(([A-Z_]+), <span class="stringliteral">&quot;(.*)&quot;</span>\);$/)</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">        # printf &quot;//   uses \&quot;$2\&quot; images\n&quot;;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span>        printf <span class="stringliteral">&quot;%-31s %s\n&quot;</span>, $1, $2;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    elsif(/^$/)</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a> <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    elsif(/^\s+\/\/ (.*)$/)</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a> <span class="stringliteral">&quot;// $1\n&quot;</span>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    elsif(/^<a class="code" href="../../d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77">SKINBEGIN</a>$|^<a class="code" href="../../d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c">SKINEND</a>$|^#endif$/)</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a> <span class="stringliteral">&quot;!!! $_\n&quot;</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;__DATA__</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77">SKINBEGIN</a></div>
+<a href="../../d4/d90/skin-customizables_8inc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">&quot;Perl code to convert this to a skinvalues.txt file.&quot;;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">print &quot;title Generic\n&quot;;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">print &quot;author Morphed\n&quot;;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">print &quot;\n&quot;;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">while(&lt;DATA&gt;)</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">{</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">    chomp;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    if(/^\s*(?:SKINFLOAT|SKINVECTOR)\(([A-Z_]+), ([-&#39;0-9. ]+)\);$/) #&#39;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    {</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">        printf &quot;%-31s %s\n&quot;, $1, $2;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    }</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">    elsif(/^\s*SKINSTRING\(([A-Z_]+), &quot;(.*)&quot;\);$/)</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    {</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">        # printf &quot;//   uses \&quot;$2\&quot; images\n&quot;;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">        printf &quot;%-31s %s\n&quot;, $1, $2;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">    }</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">    elsif(/^$/)</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">    {</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">        print &quot;\n&quot;;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">    }</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">    elsif(/^\s+\/\/ (.*)$/)</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">    {</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">        print &quot;// $1\n&quot;;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">    }</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">    elsif(/^SKINBEGIN$|^SKINEND$|^#endif$/)</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">    {</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">    }</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">    else</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">    {</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">        print &quot;!!! $_\n&quot;;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">    }</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">}</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">__DATA__</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<a class="code" href="../../d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77">SKINBEGIN</a></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// font sizes (used for everything)</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../d4/d90/skin-customizables_8inc.html#a143e3a0b0e24174a31e0bd71ea604f00">SKINFLOAT</a>(FONTSIZE_NORMAL, 12);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../d4/d90/skin-customizables_8inc.html#a143e3a0b0e24174a31e0bd71ea604f00">SKINFLOAT</a>(HEIGHT_NORMAL, 1.5);</div>
@@ -384,7 +384,6 @@ $(document).ready(function(){initNavTree('d4/d90/skin-customizables_8inc_source.
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<a class="code" href="../../d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c">SKINEND</a></div>
 <div class="ttc" id="client_2main_8qh_html_abe02bc8f982ce063f9878f9beae11f1b"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#abe02bc8f982ce063f9878f9beae11f1b">OFFSET_CURSOR</a></div><div class="ttdeci">vector OFFSET_CURSOR</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00020">main.qh:20</a></div></div>
 <div class="ttc" id="skin_8qh_html_a474148ecc760c0fa67739c3f8f473e77"><div class="ttname"><a href="../../d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77">SKINBEGIN</a></div><div class="ttdeci">#define SKINBEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dcc/skin_8qh_source.html#l00016">skin.qh:16</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_acf9c719e766113bad854907e87812e98"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a></div><div class="ttdeci">void print(string text,...)</div></div>
 <div class="ttc" id="skin-customizables_8inc_html_acae296be82d31996ae73bec0c5cb94d5"><div class="ttname"><a href="../../d4/d90/skin-customizables_8inc.html#acae296be82d31996ae73bec0c5cb94d5">SKINSTRING</a></div><div class="ttdeci">SKINSTRING(GFX_TOOLTIP,&quot;tooltip&quot;)</div></div>
 <div class="ttc" id="skin-customizables_8inc_html_a143e3a0b0e24174a31e0bd71ea604f00"><div class="ttname"><a href="../../d4/d90/skin-customizables_8inc.html#a143e3a0b0e24174a31e0bd71ea604f00">SKINFLOAT</a></div><div class="ttdeci">SKINBEGIN SKINFLOAT(FONTSIZE_NORMAL, 12)</div></div>
 <div class="ttc" id="client_2main_8qh_html_affb130add2c9ed5cab2cb229ad8f921d"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#affb130add2c9ed5cab2cb229ad8f921d">SIZE_CURSOR</a></div><div class="ttdeci">vector SIZE_CURSOR</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00021">main.qh:21</a></div></div>
@@ -396,7 +395,7 @@ $(document).ready(function(){initNavTree('d4/d90/skin-customizables_8inc_source.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../d4/d90/skin-customizables_8inc.html">skin-customizables.inc</a></li>
-    <li class="footer">Generated on Fri Sep 13 2019 13:05:05 for Xonotic by
+    <li class="footer">Generated on Sat Sep 14 2019 20:46:51 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
