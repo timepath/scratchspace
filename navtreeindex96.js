@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"da/dc1/classXonoticAudioSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,150,37],
 "da/dc1/classXonoticAudioSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,150,45],
 "da/dc1/classXonoticAudioSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,150,57],
 "da/dc1/classXonoticAudioSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,150,88],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "da/ded/classSeeker.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,120,10],
 "da/ded/classSeeker.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,120,9],
 "da/ded/classSeeker.html#a6ef51387db20a968542626c5e2843b14":[1,0,120,36],
-"da/ded/classSeeker.html#a7515d4131829927372fd6583d4ae610a":[1,0,120,0],
-"da/ded/classSeeker.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,120,30]
+"da/ded/classSeeker.html#a7515d4131829927372fd6583d4ae610a":[1,0,120,0]
 };

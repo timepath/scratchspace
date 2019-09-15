@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"da/d94/classXonoticSettingsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,248,19],
 "da/d94/classXonoticSettingsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,248,47],
 "da/d94/classXonoticSettingsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,248,52],
 "da/d94/classXonoticSettingsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,248,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "da/d9c/classXonoticMonsterToolsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,219,35],
 "da/d9c/classXonoticMonsterToolsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,219,39],
 "da/d9c/disablerelay_8qh.html":[2,0,1,6,3,7],
-"da/d9c/disablerelay_8qh_source.html":[2,0,1,6,3,7],
-"da/d9c/lib_2csqcmodel_2player_8qc.html":[2,0,4,0,12]
+"da/d9c/disablerelay_8qh_source.html":[2,0,1,6,3,7]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"d5/d95/classXonoticDialog.html#aa159f566ac6fbcac38235794af37f876":[1,0,175,22],
 "d5/d95/classXonoticDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,175,16],
 "d5/d95/classXonoticDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,175,64],
 "d5/d95/classXonoticDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,175,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "d5/dac/server_2scores_8qh_source.html":[2,0,6,55],
 "d5/db0/teleport_8qc.html":[2,0,1,6,3,44],
 "d5/db0/teleport_8qc.html#a03f34562010302b43db73a920b807d9e":[2,0,1,6,3,44,0],
-"d5/db0/teleport_8qc.html#a92ff553068677feebff8a10a9acef5f2":[2,0,1,6,3,44,1],
-"d5/db0/teleport_8qc_source.html":[2,0,1,6,3,44]
+"d5/db0/teleport_8qc.html#a92ff553068677feebff8a10a9acef5f2":[2,0,1,6,3,44,1]
 };

@@ -8,7 +8,7 @@ var movetypes_8qc =
     [ "_Movetype_CheckWater", "d2/db1/movetypes_8qc.html#a14cb5c9b8cf5efc10f5e55f9ae63b556", null ],
     [ "_Movetype_CheckWaterTransition", "d2/db1/movetypes_8qc.html#aa9a451c248f6edd8b206c427c6c9eea5", null ],
     [ "_Movetype_ClipVelocity", "d2/db1/movetypes_8qc.html#a8eb028ddd5ef1d5b4fa30afe433e74ae", null ],
-    [ "_Movetype_FlyMove", "d2/db1/movetypes_8qc.html#a79e4edd38f331d8a2df4fe27b9df91cf", null ],
+    [ "_Movetype_FlyMove", "d2/db1/movetypes_8qc.html#a0efcf46f27727d3c8260b004bebd9ea4", null ],
     [ "_Movetype_Impact", "d2/db1/movetypes_8qc.html#aec8e38c6a6af79893d641f0ae53a2042", null ],
     [ "_Movetype_LinkEdict", "d2/db1/movetypes_8qc.html#a1c681fcc84c5196534b06c2430e184ee", null ],
     [ "_Movetype_LinkEdict_TouchAreaGrid", "d2/db1/movetypes_8qc.html#a9eab855e43664a019197c6c63e17698b", null ],
