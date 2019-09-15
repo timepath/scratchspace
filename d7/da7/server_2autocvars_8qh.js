@@ -434,7 +434,7 @@ var server_2autocvars_8qh =
     [ "autocvar_sv_friction", "d7/da7/server_2autocvars_8qh.html#a2d3fd74a73e0f0c52780bb51ec912cd3", null ],
     [ "autocvar_sv_friction_on_land", "d7/da7/server_2autocvars_8qh.html#a04b5953daae34a71451e93b3c329391b", null ],
     [ "autocvar_sv_friction_slick", "d7/da7/server_2autocvars_8qh.html#ab785f3aecd27bf2123fa4ed3d3708eef", null ],
-    [ "autocvar_sv_gameplayfix_gravityunaffectedbyticrate", "d7/da7/server_2autocvars_8qh.html#a481ff3963fbfa794a0277f9dbad4f8cd", null ],
+    [ "autocvar_sv_gameplayfix_gravityunaffectedbyticrate", "d7/da7/server_2autocvars_8qh.html#ad36b17ec30a4061e3dd90ba6b2fa10fe", null ],
     [ "autocvar_sv_gameplayfix_q2airaccelerate", "d7/da7/server_2autocvars_8qh.html#ada63aac059fcbb281c2ab6589b055f79", null ],
     [ "autocvar_sv_gameplayfix_upwardvelocityclearsongroundflag", "d7/da7/server_2autocvars_8qh.html#abd8ecb3392902ec6a61a1918d5bea5dd", null ],
     [ "autocvar_sv_gentle", "d7/da7/server_2autocvars_8qh.html#a16717467346139434bcef31a665b5d48", null ],
