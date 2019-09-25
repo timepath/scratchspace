@@ -1,5 +1,6 @@
 var NAVTREEINDEX130 =
 {
+"de/d9c/classTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,133,10],
 "de/d9c/classTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,133,65],
 "de/d9c/classTab.html#af1aab403dc54575707fd57991312b201":[1,0,133,47],
 "de/d9c/classTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,133,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX130 =
 "de/dc3/teamradar_8qc.html#ae039c2e84a848ec82816975aa2658438":[2,0,0,28,5],
 "de/dc3/teamradar_8qc.html#ae9ba6e1072e311a7403fa46bf7091a79":[2,0,0,28,2],
 "de/dc3/teamradar_8qc_source.html":[2,0,0,28],
-"de/dc5/dialog__settings__effects_8qh.html":[2,0,5,4,125],
-"de/dc5/dialog__settings__effects_8qh.html#a8ace980a9aa0b9448962d11b51ad3f3e":[2,0,5,4,125,1]
+"de/dc5/dialog__settings__effects_8qh.html":[2,0,5,4,125]
 };

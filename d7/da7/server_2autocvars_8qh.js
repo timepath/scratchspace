@@ -423,6 +423,7 @@ var server_2autocvars_8qh =
     [ "autocvar_sv_defaultplayerskin_pink", "d7/da7/server_2autocvars_8qh.html#a1cbb56b1404760388cf1d5222b255922", null ],
     [ "autocvar_sv_defaultplayerskin_red", "d7/da7/server_2autocvars_8qh.html#aac4cbd7a03bab69beb179fb0b7a35fea", null ],
     [ "autocvar_sv_defaultplayerskin_yellow", "d7/da7/server_2autocvars_8qh.html#a28cad15c137eaec3478c7cafb9b22a84", null ],
+    [ "autocvar_sv_doors_always_open", "d7/da7/server_2autocvars_8qh.html#a096b887703468fc74a61b4197c805c21", null ],
     [ "autocvar_sv_doublejump", "d7/da7/server_2autocvars_8qh.html#a4604deb543e975017df5898d380894a8", null ],
     [ "autocvar_sv_eventlog", "d7/da7/server_2autocvars_8qh.html#af141085479aafa94cfa6b3fa30a9eaf6", null ],
     [ "autocvar_sv_eventlog_console", "d7/da7/server_2autocvars_8qh.html#aab597cecfb65556579256ad951a7298a", null ],
