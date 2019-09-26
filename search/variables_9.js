@@ -164,7 +164,6 @@ var searchData=
   ['it_5fsuperweapon',['IT_SUPERWEAPON',['../d7/d7c/common_2items_2item_8qh.html#a8864d9b0a0fd7ee357db12f504728e6b',1,'item.qh']]],
   ['it_5funlimited_5fammo',['IT_UNLIMITED_AMMO',['../d7/d7c/common_2items_2item_8qh.html#aa08f773cdabdb2324207d3f5e5c2e720',1,'item.qh']]],
   ['it_5funlimited_5fsuperweapons',['IT_UNLIMITED_SUPERWEAPONS',['../d7/d7c/common_2items_2item_8qh.html#ab2ab05137c3aa98ef7910feb1212ff36',1,'item.qh']]],
-  ['it_5funlimited_5fweapon_5fammo',['IT_UNLIMITED_WEAPON_AMMO',['../d7/d7c/common_2items_2item_8qh.html#a986394a32b6f3c39af3455f7962fab9b',1,'item.qh']]],
   ['it_5fusing_5fjetpack',['IT_USING_JETPACK',['../d7/d7c/common_2items_2item_8qh.html#a2274753e40504da52eab0d26cf69d623',1,'item.qh']]],
   ['item_5fmodel_5fent',['item_model_ent',['../d5/d26/server_2defs_8qh.html#a4fda1d9bc3bb41de582300fc0b890e9a',1,'defs.qh']]],
   ['item_5fpickupsound',['item_pickupsound',['../d5/d26/server_2defs_8qh.html#ac44e458f6333ec49d11eb8a19b107b4d',1,'defs.qh']]],

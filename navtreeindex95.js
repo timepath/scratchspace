@@ -1,6 +1,5 @@
 var NAVTREEINDEX95 =
 {
-"da/d9c/disablerelay_8qh_source.html":[2,0,1,6,3,7],
 "da/d9c/lib_2csqcmodel_2player_8qc.html":[2,0,4,0,12],
 "da/d9c/lib_2csqcmodel_2player_8qc_source.html":[2,0,4,0,12],
 "da/da6/flipflop_8qc.html":[2,0,1,6,3,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX95 =
 "da/dc1/classXonoticAudioSettingsTab.html#a4869983b8dc750584479ade5447c8413":[1,0,150,26],
 "da/dc1/classXonoticAudioSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,150,75],
 "da/dc1/classXonoticAudioSettingsTab.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,150,28],
-"da/dc1/classXonoticAudioSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,150,53]
+"da/dc1/classXonoticAudioSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,150,53],
+"da/dc1/classXonoticAudioSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,150,31]
 };
