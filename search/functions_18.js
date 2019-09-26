@@ -98,6 +98,7 @@ var searchData=
   ['xonoticdemostartconfirmdialog_5ffill',['XonoticDemoStartConfirmDialog_fill',['../d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc.html#a6197d9880184a1d95737aa7d06cafddb',1,'dialog_multiplayer_media_demo_startconfirm.qc']]],
   ['xonoticdemotimeconfirmdialog_5ffill',['XonoticDemoTimeConfirmDialog_fill',['../da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#a142e52b387628b2fec2e45519a47e2ab',1,'dialog_multiplayer_media_demo_timeconfirm.qc']]],
   ['xonoticdialog_5fconfiguredialog',['XonoticDialog_configureDialog',['../d9/d55/xonotic_2dialog_8qc.html#a84d719e408ce47b9ccc66a40bab296d7',1,'dialog.qc']]],
+  ['xonoticdisconnectdialog_5ffill',['XonoticDisconnectDialog_fill',['../d4/dee/dialog__disconnect_8qc.html#a398948941655534f3559f226caa2eb43',1,'dialog_disconnect.qc']]],
   ['xonoticeffectssettingstab_5ffill',['XonoticEffectsSettingsTab_fill',['../d2/de6/dialog__settings__effects_8qc.html#a8486e328fed1e1894ae1d02447c8df27',1,'dialog_settings_effects.qc']]],
   ['xonoticfirstrundialog_5ffill',['XonoticFirstRunDialog_fill',['../d3/dbd/dialog__firstrun_8qc.html#af14c0e82df6c85f775189f7b91226253',1,'dialog_firstrun.qc']]],
   ['xonoticgamecrosshairsettingstab_5ffill',['XonoticGameCrosshairSettingsTab_fill',['../df/dbd/dialog__settings__game__crosshair_8qc.html#ae9cf0d662c9dcada5b8c1aae7e361533',1,'dialog_settings_game_crosshair.qc']]],

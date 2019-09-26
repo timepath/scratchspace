@@ -101,6 +101,7 @@ var hierarchy =
                 [ "XonoticCvarsDialog", "dc/df7/classXonoticCvarsDialog.html", null ],
                 [ "XonoticDemoStartConfirmDialog", "d2/d25/classXonoticDemoStartConfirmDialog.html", null ],
                 [ "XonoticDemoTimeConfirmDialog", "d1/db8/classXonoticDemoTimeConfirmDialog.html", null ],
+                [ "XonoticDisconnectDialog", "de/d30/classXonoticDisconnectDialog.html", null ],
                 [ "XonoticHUDConfirmDialog", "d0/d9d/classXonoticHUDConfirmDialog.html", null ],
                 [ "XonoticLanguageWarningDialog", "d1/d84/classXonoticLanguageWarningDialog.html", null ],
                 [ "XonoticMapInfoDialog", "dc/da0/classXonoticMapInfoDialog.html", null ],

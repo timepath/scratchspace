@@ -48,6 +48,10 @@ var dir_53efa11b035745576779f641909983cd =
     [ "dialog_credits.qh", "dd/d95/dialog__credits_8qh.html", [
       [ "XonoticCreditsDialog", "dd/da6/classXonoticCreditsDialog.html", "dd/da6/classXonoticCreditsDialog" ]
     ] ],
+    [ "dialog_disconnect.qc", "d4/dee/dialog__disconnect_8qc.html", "d4/dee/dialog__disconnect_8qc" ],
+    [ "dialog_disconnect.qh", "dd/d2d/dialog__disconnect_8qh.html", [
+      [ "XonoticDisconnectDialog", "de/d30/classXonoticDisconnectDialog.html", "de/d30/classXonoticDisconnectDialog" ]
+    ] ],
     [ "dialog_firstrun.qc", "d3/dbd/dialog__firstrun_8qc.html", "d3/dbd/dialog__firstrun_8qc" ],
     [ "dialog_firstrun.qh", "d5/d92/dialog__firstrun_8qh.html", [
       [ "XonoticFirstRunDialog", "d4/d5f/classXonoticFirstRunDialog.html", "d4/d5f/classXonoticFirstRunDialog" ]

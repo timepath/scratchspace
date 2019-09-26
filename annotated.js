@@ -176,6 +176,7 @@ var annotated =
     [ "XonoticDemoStartConfirmDialog", "d2/d25/classXonoticDemoStartConfirmDialog.html", "d2/d25/classXonoticDemoStartConfirmDialog" ],
     [ "XonoticDemoTimeConfirmDialog", "d1/db8/classXonoticDemoTimeConfirmDialog.html", "d1/db8/classXonoticDemoTimeConfirmDialog" ],
     [ "XonoticDialog", "d5/d95/classXonoticDialog.html", "d5/d95/classXonoticDialog" ],
+    [ "XonoticDisconnectDialog", "de/d30/classXonoticDisconnectDialog.html", "de/d30/classXonoticDisconnectDialog" ],
     [ "XonoticEffectsSettingsTab", "d5/d73/classXonoticEffectsSettingsTab.html", "d5/d73/classXonoticEffectsSettingsTab" ],
     [ "XonoticFirstRunDialog", "d4/d5f/classXonoticFirstRunDialog.html", "d4/d5f/classXonoticFirstRunDialog" ],
     [ "XonoticGameCrosshairSettingsTab", "d6/d78/classXonoticGameCrosshairSettingsTab.html", "d6/d78/classXonoticGameCrosshairSettingsTab" ],

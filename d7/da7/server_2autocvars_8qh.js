@@ -209,6 +209,7 @@ var server_2autocvars_8qh =
     [ "autocvar_g_monsters_think_delay", "d7/da7/server_2autocvars_8qh.html#afb84bbca6dc6cd90137251cc81689ca6", null ],
     [ "autocvar_g_monsters_typefrag", "d7/da7/server_2autocvars_8qh.html#a41c7b9644061ce6297de0d2a581a421b", null ],
     [ "autocvar_g_movement_highspeed", "d7/da7/server_2autocvars_8qh.html#adfa2025f4240302bd2293566f0bb8623", null ],
+    [ "autocvar_g_movement_highspeed_q3_compat", "d7/da7/server_2autocvars_8qh.html#aec71464da19f37af66265b12e74f56ac", null ],
     [ "autocvar_g_mutatormsg", "d7/da7/server_2autocvars_8qh.html#a4390fcf9e4021d02054e60c1022b9626", null ],
     [ "autocvar_g_nades", "d7/da7/server_2autocvars_8qh.html#a0edae180adf329b89b7043b46aa562e8", null ],
     [ "autocvar_g_nades_bonus", "d7/da7/server_2autocvars_8qh.html#a8cdf84e0a53451aae5a34eec5eb9057e", null ],

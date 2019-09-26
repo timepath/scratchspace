@@ -1,5 +1,8 @@
 var NAVTREEINDEX52 =
 {
+"d5/df7/lib_2csqcmodel_2common_8qh.html#ad30f972f2e6e3e5ecab0dee38ae6cdb8":[2,0,4,0,6,12],
+"d5/df7/lib_2csqcmodel_2common_8qh.html#adb5e968612189ba56fbed93a2c758717":[2,0,4,0,6,7],
+"d5/df7/lib_2csqcmodel_2common_8qh.html#ae61a79d4bf8dbb71ed546e14cde0bf29":[2,0,4,0,6,10],
 "d5/df7/lib_2csqcmodel_2common_8qh.html#afcf1e3d0229fecfc5d7bc2746de676fa":[2,0,4,0,6,9],
 "d5/df7/lib_2csqcmodel_2common_8qh_source.html":[2,0,4,0,6],
 "d5/df9/menu__cmd_8qh.html":[2,0,5,1,3],
@@ -86,10 +89,10 @@ var NAVTREEINDEX52 =
 "d6/d01/classRaptorCannon.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,117,18],
 "d6/d02/raptor_8qc.html":[2,0,1,15,0,10],
 "d6/d02/raptor_8qc_source.html":[2,0,1,15,0,10],
-"d6/d07/dialog__settings__video_8qc.html":[2,0,5,4,156],
-"d6/d07/dialog__settings__video_8qc.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,156,0],
-"d6/d07/dialog__settings__video_8qc.html#a86fb8897afd7559870c26c10874a8773":[2,0,5,4,156,1],
-"d6/d07/dialog__settings__video_8qc_source.html":[2,0,5,4,156],
+"d6/d07/dialog__settings__video_8qc.html":[2,0,5,4,158],
+"d6/d07/dialog__settings__video_8qc.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,158,0],
+"d6/d07/dialog__settings__video_8qc.html#a86fb8897afd7559870c26c10874a8773":[2,0,5,4,158,1],
+"d6/d07/dialog__settings__video_8qc_source.html":[2,0,5,4,158],
 "d6/d07/monoflop_8qc.html":[2,0,1,6,3,26],
 "d6/d07/monoflop_8qc_source.html":[2,0,1,6,3,26],
 "d6/d10/common_2mapobjects_2func_2button_8qh.html":[2,0,1,6,0,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX52 =
 "d6/d11/progsdefs_8qc.html#a9789908621957fddc82d162fa0b0d103":[2,0,2,0,4,98],
 "d6/d11/progsdefs_8qc.html#a97ca05eeae38f536197f3e7a31b041dd":[2,0,2,0,4,33],
 "d6/d11/progsdefs_8qc.html#a97f72ab138b64c9bfac0cdabae84ffad":[2,0,2,0,4,32],
-"d6/d11/progsdefs_8qc.html#a9a3598d88b2dc90acb180649e737c8e4":[2,0,2,0,4,225],
-"d6/d11/progsdefs_8qc.html#a9a9b4694343f24d27685e886d16b423d":[2,0,2,0,4,202],
-"d6/d11/progsdefs_8qc.html#a9ace87345d9998b5ea2241ce5137dc00":[2,0,2,0,4,56],
-"d6/d11/progsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862":[2,0,2,0,4,88]
+"d6/d11/progsdefs_8qc.html#a9a3598d88b2dc90acb180649e737c8e4":[2,0,2,0,4,225]
 };

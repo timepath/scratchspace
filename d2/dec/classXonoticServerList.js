@@ -14,7 +14,6 @@ var classXonoticServerList =
     [ "ATTRIB", "d2/dec/classXonoticServerList.html#a261b8199eda1c5954b1440d59b28ca7c", null ],
     [ "ATTRIB", "d2/dec/classXonoticServerList.html#a7af9f9bed728f68ee96312d2c7ebef51", null ],
     [ "ATTRIB", "d2/dec/classXonoticServerList.html#a10953da71f4ee691193f8ae8db11f16d", null ],
-    [ "ATTRIB", "d2/dec/classXonoticServerList.html#a47d1bfdb31bcd58fd1475205d5ed166e", null ],
     [ "ATTRIB", "d2/dec/classXonoticServerList.html#a9c2fd3b237f718b25d83f9121c88d927", null ],
     [ "clickListBoxItem", "d2/dec/classXonoticServerList.html#a235355aace741c77462c66d35b2c5e2a", null ],
     [ "configureListBox", "d2/dec/classXonoticServerList.html#aef11ec27595d8d03f6c30b95ce718571", null ],

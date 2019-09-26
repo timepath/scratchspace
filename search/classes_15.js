@@ -26,6 +26,7 @@ var searchData=
   ['xonoticdemostartconfirmdialog',['XonoticDemoStartConfirmDialog',['../d2/d25/classXonoticDemoStartConfirmDialog.html',1,'']]],
   ['xonoticdemotimeconfirmdialog',['XonoticDemoTimeConfirmDialog',['../d1/db8/classXonoticDemoTimeConfirmDialog.html',1,'']]],
   ['xonoticdialog',['XonoticDialog',['../d5/d95/classXonoticDialog.html',1,'']]],
+  ['xonoticdisconnectdialog',['XonoticDisconnectDialog',['../de/d30/classXonoticDisconnectDialog.html',1,'']]],
   ['xonoticeffectssettingstab',['XonoticEffectsSettingsTab',['../d5/d73/classXonoticEffectsSettingsTab.html',1,'']]],
   ['xonoticfirstrundialog',['XonoticFirstRunDialog',['../d4/d5f/classXonoticFirstRunDialog.html',1,'']]],
   ['xonoticgamecrosshairsettingstab',['XonoticGameCrosshairSettingsTab',['../d6/d78/classXonoticGameCrosshairSettingsTab.html',1,'']]],

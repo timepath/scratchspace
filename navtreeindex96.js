@@ -1,5 +1,11 @@
 var NAVTREEINDEX96 =
 {
+"da/dc1/classXonoticAudioSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,150,17],
+"da/dc1/classXonoticAudioSettingsTab.html#a4869983b8dc750584479ade5447c8413":[1,0,150,26],
+"da/dc1/classXonoticAudioSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,150,75],
+"da/dc1/classXonoticAudioSettingsTab.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,150,28],
+"da/dc1/classXonoticAudioSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,150,53],
+"da/dc1/classXonoticAudioSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,150,31],
 "da/dc1/classXonoticAudioSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,150,37],
 "da/dc1/classXonoticAudioSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,150,45],
 "da/dc1/classXonoticAudioSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,150,57],
@@ -59,8 +65,8 @@ var NAVTREEINDEX96 =
 "da/dc1/classXonoticAudioSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,150,40],
 "da/dc1/classXonoticAudioSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,150,44],
 "da/dc1/classXonoticAudioSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,150,8],
-"da/dc1/dialog__hudpanel__modicons_8qh.html":[2,0,5,4,59],
-"da/dc1/dialog__hudpanel__modicons_8qh_source.html":[2,0,5,4,59],
+"da/dc1/dialog__hudpanel__modicons_8qh.html":[2,0,5,4,61],
+"da/dc1/dialog__hudpanel__modicons_8qh_source.html":[2,0,5,4,61],
 "da/dc1/server_2player_8qh.html":[2,0,6,44],
 "da/dc1/server_2player_8qh.html#a2c4acf85cd876d0e628435d91592d615":[2,0,6,44,7],
 "da/dc1/server_2player_8qh.html#a51c4a1afebc1206d7849ebd9f21e2f3b":[2,0,6,44,4],
@@ -174,8 +180,8 @@ var NAVTREEINDEX96 =
 "da/dd7/common_2gamemodes_2gamemode_2domination_2__mod_8inc_source.html":[2,0,1,3,0,5,0],
 "da/dd7/common_2turrets_2__mod_8inc.html":[2,0,1,14,1],
 "da/dd7/common_2turrets_2__mod_8inc_source.html":[2,0,1,14,1],
-"da/ddd/dialog__singleplayer__winner_8qh.html":[2,0,5,4,161],
-"da/ddd/dialog__singleplayer__winner_8qh_source.html":[2,0,5,4,161],
+"da/ddd/dialog__singleplayer__winner_8qh.html":[2,0,5,4,163],
+"da/ddd/dialog__singleplayer__winner_8qh_source.html":[2,0,5,4,163],
 "da/ddd/ipban_8qh.html":[2,0,6,34],
 "da/ddd/ipban_8qh.html#a00561ab100b941912528ea8344521047":[2,0,6,34,4],
 "da/ddd/ipban_8qh.html#a1a7772963018e41992c65dfbe12b63fe":[2,0,6,34,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX96 =
 "da/ded/classSeeker.html#a312755d5709b880f99cf89d7a76237fe":[1,0,120,4],
 "da/ded/classSeeker.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,120,21],
 "da/ded/classSeeker.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,120,12],
-"da/ded/classSeeker.html#a4337268c8cad6836bae8efd4a8835070":[1,0,120,22],
-"da/ded/classSeeker.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,120,2],
-"da/ded/classSeeker.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,120,16],
-"da/ded/classSeeker.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,120,10],
-"da/ded/classSeeker.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,120,9],
-"da/ded/classSeeker.html#a6ef51387db20a968542626c5e2843b14":[1,0,120,36],
-"da/ded/classSeeker.html#a7515d4131829927372fd6583d4ae610a":[1,0,120,0]
+"da/ded/classSeeker.html#a4337268c8cad6836bae8efd4a8835070":[1,0,120,22]
 };

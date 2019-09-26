@@ -130,6 +130,8 @@ var searchData=
   ['xonoticdemotimeconfirmdialog_5ffill',['XonoticDemoTimeConfirmDialog_fill',['../da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#a142e52b387628b2fec2e45519a47e2ab',1,'dialog_multiplayer_media_demo_timeconfirm.qc']]],
   ['xonoticdialog',['XonoticDialog',['../d5/d95/classXonoticDialog.html',1,'']]],
   ['xonoticdialog_5fconfiguredialog',['XonoticDialog_configureDialog',['../d9/d55/xonotic_2dialog_8qc.html#a84d719e408ce47b9ccc66a40bab296d7',1,'dialog.qc']]],
+  ['xonoticdisconnectdialog',['XonoticDisconnectDialog',['../de/d30/classXonoticDisconnectDialog.html',1,'']]],
+  ['xonoticdisconnectdialog_5ffill',['XonoticDisconnectDialog_fill',['../d4/dee/dialog__disconnect_8qc.html#a398948941655534f3559f226caa2eb43',1,'dialog_disconnect.qc']]],
   ['xonoticeffectssettingstab',['XonoticEffectsSettingsTab',['../d5/d73/classXonoticEffectsSettingsTab.html',1,'']]],
   ['xonoticeffectssettingstab_5ffill',['XonoticEffectsSettingsTab_fill',['../d2/de6/dialog__settings__effects_8qc.html#a8486e328fed1e1894ae1d02447c8df27',1,'dialog_settings_effects.qc']]],
   ['xonoticfirstrundialog',['XonoticFirstRunDialog',['../d4/d5f/classXonoticFirstRunDialog.html',1,'']]],

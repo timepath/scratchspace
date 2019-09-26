@@ -25,6 +25,8 @@ var searchData=
   ['dialog_2eqh',['dialog.qh',['../d5/d05/xonotic_2dialog_8qh.html',1,'']]],
   ['dialog_5fcredits_2eqc',['dialog_credits.qc',['../d3/d71/dialog__credits_8qc.html',1,'']]],
   ['dialog_5fcredits_2eqh',['dialog_credits.qh',['../dd/d95/dialog__credits_8qh.html',1,'']]],
+  ['dialog_5fdisconnect_2eqc',['dialog_disconnect.qc',['../d4/dee/dialog__disconnect_8qc.html',1,'']]],
+  ['dialog_5fdisconnect_2eqh',['dialog_disconnect.qh',['../dd/d2d/dialog__disconnect_8qh.html',1,'']]],
   ['dialog_5ffirstrun_2eqc',['dialog_firstrun.qc',['../d3/dbd/dialog__firstrun_8qc.html',1,'']]],
   ['dialog_5ffirstrun_2eqh',['dialog_firstrun.qh',['../d5/d92/dialog__firstrun_8qh.html',1,'']]],
   ['dialog_5fhudpanel_5fammo_2eqc',['dialog_hudpanel_ammo.qc',['../d4/d70/dialog__hudpanel__ammo_8qc.html',1,'']]],
