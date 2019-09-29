@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"d1/d39/classXonoticTeamSelectDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,258,56],
 "d1/d39/classXonoticTeamSelectDialog.html#a2931e6a8153a18c2288d4480f7547a30":[1,0,258,89],
 "d1/d39/classXonoticTeamSelectDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,258,31],
 "d1/d39/classXonoticTeamSelectDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,258,24],
@@ -70,8 +71,8 @@ var NAVTREEINDEX9 =
 "d1/d39/classXonoticTeamSelectDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,258,2],
 "d1/d39/classXonoticTeamSelectDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,258,39],
 "d1/d39/classXonoticTeamSelectDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,258,43],
-"d1/d3c/replicate_8qh.html":[2,0,4,50],
-"d1/d3c/replicate_8qh_source.html":[2,0,4,50],
+"d1/d3c/replicate_8qh.html":[2,0,4,51],
+"d1/d3c/replicate_8qh_source.html":[2,0,4,51],
 "d1/d48/classSpectator.html":[1,0,128],
 "d1/d48/classSpectator.html#a0073212531574d7fef41bb74d94dc951":[1,0,128,1],
 "d1/d48/classSpectator.html#a043a27c7af7103a7b852f960096ecc12":[1,0,128,63],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "d1/d4d/sv__nexball_8qh_source.html":[2,0,1,3,0,12,7],
 "d1/d50/pendulum_8qh.html":[2,0,1,6,0,21],
 "d1/d50/pendulum_8qh_source.html":[2,0,1,6,0,21],
-"d1/d52/common_2gamemodes_2gamemode_2race_2__mod_8qh.html":[2,0,1,3,0,14,1],
-"d1/d52/common_2gamemodes_2gamemode_2race_2__mod_8qh_source.html":[2,0,1,3,0,14,1]
+"d1/d52/common_2gamemodes_2gamemode_2race_2__mod_8qh.html":[2,0,1,3,0,14,1]
 };

@@ -1,5 +1,6 @@
 var anglestransform_8qh =
 [
+    [ "FIXED_MAKE_VECTORS", "df/dee/anglestransform_8qh.html#af9166f2e28149cce20027ed24960b20d", null ],
     [ "fixedmakevectors", "df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e", null ],
     [ "fixedvectoangles", "df/dee/anglestransform_8qh.html#ab16e50b7b9398057b0e28c85b20d6ca5", null ],
     [ "fixedvectoangles2", "df/dee/anglestransform_8qh.html#a7306b623ecb07a5c62ec3d5b3094e1b7", null ],

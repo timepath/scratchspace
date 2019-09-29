@@ -168,10 +168,11 @@ var NAVTREEINDEX2 =
 "d0/d58/ewheel__weapon_8qh.html":[2,0,1,14,0,5],
 "d0/d58/ewheel__weapon_8qh.html#ad28d60b4479123d68ab7d2f37b300cb1":[2,0,1,14,0,5,1],
 "d0/d58/ewheel__weapon_8qh_source.html":[2,0,1,14,0,5],
-"d0/d58/float_8qh.html":[2,0,4,20],
-"d0/d58/float_8qh.html#a86232f8ca6f2e3cb31772ea282250909":[2,0,4,20,1],
-"d0/d58/float_8qh.html#aa23a993f6d3b9cc60332a3a6dc5d26e1":[2,0,4,20,0],
-"d0/d58/float_8qh_source.html":[2,0,4,20],
+"d0/d58/float_8qh.html":[2,0,4,21],
+"d0/d58/float_8qh.html#a524a42bb1e0aedb4177912c6de4acf57":[2,0,4,21,2],
+"d0/d58/float_8qh.html#a86232f8ca6f2e3cb31772ea282250909":[2,0,4,21,1],
+"d0/d58/float_8qh.html#aa23a993f6d3b9cc60332a3a6dc5d26e1":[2,0,4,21,0],
+"d0/d58/float_8qh_source.html":[2,0,4,21],
 "d0/d5c/bot__null_8qh.html":[2,0,6,0,1,3],
 "d0/d5c/bot__null_8qh_source.html":[2,0,6,0,1,3],
 "d0/d5d/classAnimation.html":[1,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "d0/d6e/impulses_2all_8qh.html#a6839d4a65da268e9581368589949aaf8":[2,0,1,4,3,30],
 "d0/d6e/impulses_2all_8qh.html#a6b0ed98120d3384494235c0337a1d354":[2,0,1,4,3,1],
 "d0/d6e/impulses_2all_8qh.html#a795c62cc76a774949d1755112b81d787":[2,0,1,4,3,22],
-"d0/d6e/impulses_2all_8qh.html#a87c9ba9426d76d0e83a555391e19d5b8":[2,0,1,4,3,8],
-"d0/d6e/impulses_2all_8qh.html#a96e9871f2a404b84b947137c554419fa":[2,0,1,4,3,25]
+"d0/d6e/impulses_2all_8qh.html#a87c9ba9426d76d0e83a555391e19d5b8":[2,0,1,4,3,8]
 };

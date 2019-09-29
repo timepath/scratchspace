@@ -547,11 +547,11 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d80/credits_8qc_source.html#l00455">455</a> of file <a class="el" href="../../d0/d80/credits_8qc_source.html">credits.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/db1/draw_8qc_source.html#l00287">draw_CenterText()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00046">eY</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../d6/db1/draw_8qc_source.html#l00287">draw_CenterText()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00046">eY</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, and <a class="el" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;{</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    <span class="keywordtype">string</span> s;</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    <span class="keywordtype">float</span> theAlpha;</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> theColor;</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> theColor;</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    s = bufstr_get(me.bufferIndex, i);</div>
 <div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;</div>
@@ -576,10 +576,10 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;    <a class="code" href="../../d6/db1/draw_8qc.html#abb689f87717c7ad95d58db46ee9cf9b4">draw_CenterText</a>(me.realUpperMargin * <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> + 0.5 * <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a>, s, me.realFontSize, theColor, theAlpha, 0);</div>
 <div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;}</div>
 <div class="ttc" id="vector_8qh_html_a13163379d56e777f08a20fca27f20c2a"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a></div><div class="ttdeci">const vector eY</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00046">vector.qh:46</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="draw_8qc_html_abb689f87717c7ad95d58db46ee9cf9b4"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#abb689f87717c7ad95d58db46ee9cf9b4">draw_CenterText</a></div><div class="ttdeci">void draw_CenterText(vector theOrigin, string theText, vector theSize, vector theColor, float theAlpha, float ICanHasKallerz)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00287">draw.qc:287</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
+<div class="ttc" id="csprogsdefs_8qh_html_a2626679e4144af8478202c6c28f90cd9"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a></div><div class="ttdeci">vector(float skel, float bonenum) _skel_get_boneabs_hidden</div></div>
 <div class="ttc" id="vector_8qh_html_adce3aade2f97ac6fb4688fe0a7005d27"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a></div><div class="ttdeci">const vector eX</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00045">vector.qh:45</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -705,7 +705,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d0/d80/credits_8qc.html">credits.qc</a></li>
-    <li class="footer">Generated on Sat Sep 28 2019 10:25:28 for Xonotic by
+    <li class="footer">Generated on Sun Sep 29 2019 08:43:05 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

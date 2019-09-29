@@ -9,6 +9,9 @@ var dpextensions_8qh =
     [ "pointparticles", "d3/d9e/dpextensions_8qh.html#ac8847014472662de37600e592b86ec1f", null ],
     [ "skel_find_bone", "d3/d9e/dpextensions_8qh.html#a06290390a8e4a515c220120b75b6d10a", null ],
     [ "skel_get_boneparent", "d3/d9e/dpextensions_8qh.html#a62053cff07b6a840743bc8a3b2b55668", null ],
+    [ "skel_get_bonerel", "d3/d9e/dpextensions_8qh.html#a4c38f916d78adc4412e8becf95600e4e", null ],
+    [ "skel_mul_bone", "d3/d9e/dpextensions_8qh.html#a32cbe096e6d0f62a02c01b24c7e788c3", null ],
+    [ "skel_mul_bones", "d3/d9e/dpextensions_8qh.html#a60a68d7bdc7c5a204491fcf233169a55", null ],
     [ "str2chr", "d3/d9e/dpextensions_8qh.html#a03da3a537f9764333e85cbed8b52f4e4", null ],
     [ "strcasecmp", "d3/d9e/dpextensions_8qh.html#ac99ec3f1036620727a68aa8c25a8963c", null ],
     [ "strcmp", "d3/d9e/dpextensions_8qh.html#a6b5d9a1031ac2602e31df1ba551bfafe", null ],
@@ -30,5 +33,8 @@ var dpextensions_8qh =
     [ "int", "d3/d9e/dpextensions_8qh.html#a877cc20fbb3e2a65f2a97bfedc2cd723", null ],
     [ "int", "d3/d9e/dpextensions_8qh.html#a1dbdad540b7732fb83c9f5799ac5e108", null ],
     [ "int", "d3/d9e/dpextensions_8qh.html#a5bbac504bf91a00131c151e971eb5b46", null ],
-    [ "string", "d3/d9e/dpextensions_8qh.html#a8b4993380ac4865a1180ed7cf868adef", null ]
+    [ "string", "d3/d9e/dpextensions_8qh.html#a8b4993380ac4865a1180ed7cf868adef", null ],
+    [ "vector", "d3/d9e/dpextensions_8qh.html#a2626679e4144af8478202c6c28f90cd9", null ],
+    [ "vector", "d3/d9e/dpextensions_8qh.html#ac196ebcbde3827477e385c2ecfb60084", null ],
+    [ "void", "d3/d9e/dpextensions_8qh.html#ac0324d7dc1f6504831d939adcde02fa6", null ]
 ];

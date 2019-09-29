@@ -13,6 +13,7 @@ var searchData=
   ['defs_2eqh',['defs.qh',['../df/d16/common_2mapobjects_2defs_8qh.html',1,'']]],
   ['defs_2eqh',['defs.qh',['../d9/d08/client_2defs_8qh.html',1,'']]],
   ['defs_2eqh',['defs.qh',['../d5/d26/server_2defs_8qh.html',1,'']]],
+  ['deglobalization_2eqh',['deglobalization.qh',['../d6/daf/deglobalization_8qh.html',1,'']]],
   ['delay_2eqc',['delay.qc',['../de/d69/delay_8qc.html',1,'']]],
   ['delay_2eqh',['delay.qh',['../d8/d03/delay_8qh.html',1,'']]],
   ['demolist_2eqc',['demolist.qc',['../db/d21/demolist_8qc.html',1,'']]],
