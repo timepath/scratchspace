@@ -1,8 +1,5 @@
 var NAVTREEINDEX134 =
 {
-"df/d28/sv__turrets_8qh.html#af3742f1980248c578e62043e18aa1686":[2,0,1,14,12,28],
-"df/d28/sv__turrets_8qh.html#afc5bab0042155b03537a5da62de4050b":[2,0,1,14,12,31],
-"df/d28/sv__turrets_8qh.html#aff66c7c0115341f74d7ed89fce94dc43":[2,0,1,14,12,37],
 "df/d28/sv__turrets_8qh_source.html":[2,0,1,14,12],
 "df/d2c/hellion_8qc.html":[2,0,1,14,0,12],
 "df/d2c/hellion_8qc_source.html":[2,0,1,14,0,12],
@@ -152,8 +149,8 @@ var NAVTREEINDEX134 =
 "df/d41/cl__ctf_8qc.html#a55b3f33e2368367b7a89769be831c2fc":[2,0,1,3,0,2,2,14],
 "df/d41/cl__ctf_8qc.html#a82d6dc4f545d9102ec6dfc4b048c4c4b":[2,0,1,3,0,2,2,6],
 "df/d41/cl__ctf_8qc.html#a90abcb5dfd155425638f8823221e96a7":[2,0,1,3,0,2,2,15],
-"df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,1,3,0,2,2,0],
 "df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,1,3,0,2,2,2],
+"df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,1,3,0,2,2,0],
 "df/d41/cl__ctf_8qc.html#a9fba4055eb7a12732e45c9864109ce0a":[2,0,1,3,0,2,2,18],
 "df/d41/cl__ctf_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922":[2,0,1,3,0,2,2,7],
 "df/d41/cl__ctf_8qc.html#abb4b022156f7d6a6605893e79d3de30a":[2,0,1,3,0,2,2,19],
@@ -249,5 +246,8 @@ var NAVTREEINDEX134 =
 "df/d54/dialog__settings__game__hud_8qh.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,133,2],
 "df/d54/dialog__settings__game__hud_8qh_source.html":[2,0,5,4,133],
 "df/d56/classSpider.html":[1,0,129],
-"df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,129,0]
+"df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,129,0],
+"df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,129,11],
+"df/d56/classSpider.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,129,9],
+"df/d56/classSpider.html#a6dcca2c26e36342b5286873a74793cae":[1,0,129,2]
 };

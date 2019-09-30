@@ -115,7 +115,7 @@ var searchData=
   ['_5fmapinfo_5fmap_5fapplygametypeex',['_MapInfo_Map_ApplyGametypeEx',['../d3/d46/mapinfo_8qc.html#a228aae99dca217947bfb85d518097f4c',1,'mapinfo.qc']]],
   ['_5fmapinfo_5fmap_5freset',['_MapInfo_Map_Reset',['../d3/d46/mapinfo_8qc.html#af88daf7b5e44f0eb2017e760e06848ad',1,'mapinfo.qc']]],
   ['_5fmapinfo_5fmap_5fworldspawn_5fmusic',['_MapInfo_Map_worldspawn_music',['../d3/d46/mapinfo_8qc.html#a9bddb69c4bc8833ed7bb18fc8429ec03',1,'mapinfo.qc']]],
-  ['_5fmapinfo_5fparse_5fsettemp',['_MapInfo_Parse_Settemp',['../d3/d46/mapinfo_8qc.html#a11cccf2aa8a2cd574781fcd4193fb1d0',1,'mapinfo.qc']]],
+  ['_5fmapinfo_5fparse_5fsettemp',['_MapInfo_Parse_Settemp',['../d3/d46/mapinfo_8qc.html#a11cccf2aa8a2cd574781fcd4193fb1d0',1,'_MapInfo_Parse_Settemp(string pFilename, string acl, float type, string s, float recurse):&#160;mapinfo.qc'],['../d2/d9e/mapinfo_8qh.html#a11cccf2aa8a2cd574781fcd4193fb1d0',1,'_MapInfo_Parse_Settemp(string pFilename, string acl, float type, string s, float recurse):&#160;mapinfo.qc']]],
   ['_5fmenu_5falpha_5fprev',['_menu_alpha_prev',['../dc/d90/hud__config_8qc.html#ab101f15063f106dd54dec4906c303c69',1,'hud_config.qc']]],
   ['_5fmod_2einc',['_mod.inc',['../d8/d93/client_2hud_2panel_2__mod_8inc.html',1,'']]],
   ['_5fmod_2einc',['_mod.inc',['../d4/dad/common_2items_2item_2__mod_8inc.html',1,'']]],

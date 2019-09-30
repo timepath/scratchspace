@@ -439,7 +439,6 @@ var searchData=
   ['cvar3_5fsetdependent',['cvar3_setDependent',['../df/d9b/menu_2xonotic_2util_8qc.html#a8b9db99b866e3e51444533334ab63eb3',1,'util.qc']]],
   ['cvar3max_5fsetdependent',['cvar3Max_setDependent',['../df/d9b/menu_2xonotic_2util_8qc.html#a412b04f8c3d258abffcd81c62fd8e70a',1,'util.qc']]],
   ['cvar3min_5fsetdependent',['cvar3Min_setDependent',['../df/d9b/menu_2xonotic_2util_8qc.html#ade11aa04fbfc47f508cb92e42b6df0a0',1,'util.qc']]],
-  ['cvar_5fcampaignwrapper_5flist',['cvar_campaignwrapper_list',['../de/d75/server_2campaign_8qc.html#ada7f5f273896a311dd90191bdbf32f12',1,'campaign.qc']]],
   ['cvar_5fchanges',['cvar_changes',['../d5/d26/server_2defs_8qh.html#a1726162ec5090919a321b99c47fa2af4',1,'defs.qh']]],
   ['cvar_5fcl_5faccuracy_5fdata_5freceive',['cvar_cl_accuracy_data_receive',['../d1/d37/classClient.html#a6e452940b61f8458bd7153967a423d3e',1,'Client::cvar_cl_accuracy_data_receive()'],['../d3/d2d/accuracy_8qh.html#aedc44e2a0316419c251ac4baf1e5cc8a',1,'cvar_cl_accuracy_data_receive():&#160;accuracy.qh']]],
   ['cvar_5fcl_5faccuracy_5fdata_5fshare',['cvar_cl_accuracy_data_share',['../d1/d37/classClient.html#a4f3d4cdb6e77c3ac9951ec13e06a976b',1,'Client::cvar_cl_accuracy_data_share()'],['../d3/d2d/accuracy_8qh.html#a1184f96f0ef829d86b14be9241efdf84',1,'cvar_cl_accuracy_data_share():&#160;accuracy.qh']]],

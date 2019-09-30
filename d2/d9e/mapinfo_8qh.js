@@ -34,6 +34,7 @@ var mapinfo_8qh =
     [ "_MapInfo_FilterGametype", "d2/d9e/mapinfo_8qh.html#afbf0c0f2f0a80e1ff6f24d0dfee51ca8", null ],
     [ "_MapInfo_GetDefaultEx", "d2/d9e/mapinfo_8qh.html#a88aceb7375d732871e33861c7efd281c", null ],
     [ "_MapInfo_GetTeamPlayBool", "d2/d9e/mapinfo_8qh.html#ad0d776120274403857959a8795b88df3", null ],
+    [ "_MapInfo_Parse_Settemp", "d2/d9e/mapinfo_8qh.html#a11cccf2aa8a2cd574781fcd4193fb1d0", null ],
     [ "MapInfo_BSPName_ByID", "d2/d9e/mapinfo_8qh.html#a40688770d8068d3eff551e12e10d47f9", null ],
     [ "MapInfo_Cache_Create", "d2/d9e/mapinfo_8qh.html#a8376e1f3ab6210a25a34c278e6308070", null ],
     [ "MapInfo_Cache_Destroy", "d2/d9e/mapinfo_8qh.html#a7cbd9edfae5695f0f3e239701462b6d9", null ],

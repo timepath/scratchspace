@@ -1,5 +1,6 @@
 var NAVTREEINDEX116 =
 {
+"dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206":[1,0,146,30],
 "dc/de5/classWeapon.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,146,12],
 "dc/de5/classWeapon.html#a4337268c8cad6836bae8efd4a8835070":[1,0,146,22],
 "dc/de5/classWeapon.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,146,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX116 =
 "dc/df7/classXonoticCvarsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,168,39],
 "dc/df8/dynlight_8qc.html":[2,0,1,6,1,4],
 "dc/df8/dynlight_8qc_source.html":[2,0,1,6,1,4],
-"dc/dff/anticheat_8qh.html":[2,0,6,9],
-"dc/dff/anticheat_8qh.html#a068a96ae9ccf8a1fd9cd99e95d5e1c7e":[2,0,6,9,1]
+"dc/dff/anticheat_8qh.html":[2,0,6,9]
 };
