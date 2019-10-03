@@ -1,5 +1,7 @@
 var NAVTREEINDEX134 =
 {
+"df/d28/sv__turrets_8qh.html#afc5bab0042155b03537a5da62de4050b":[2,0,1,14,12,31],
+"df/d28/sv__turrets_8qh.html#aff66c7c0115341f74d7ed89fce94dc43":[2,0,1,14,12,37],
 "df/d28/sv__turrets_8qh_source.html":[2,0,1,14,12],
 "df/d2c/hellion_8qc.html":[2,0,1,14,0,12],
 "df/d2c/hellion_8qc_source.html":[2,0,1,14,0,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX134 =
 "df/d54/dialog__settings__game__hud_8qh_source.html":[2,0,5,4,133],
 "df/d56/classSpider.html":[1,0,129],
 "df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,129,0],
-"df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,129,11],
-"df/d56/classSpider.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,129,9],
-"df/d56/classSpider.html#a6dcca2c26e36342b5286873a74793cae":[1,0,129,2]
+"df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,129,11]
 };

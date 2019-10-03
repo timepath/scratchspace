@@ -1499,6 +1499,7 @@ var searchData=
   ['autocvar_5fhud_5fpanel_5fweapons_5fnoncurrent_5falpha',['autocvar_hud_panel_weapons_noncurrent_alpha',['../d7/db4/client_2autocvars_8qh.html#af23525913b5f147f4396067dbdb8618b',1,'autocvars.qh']]],
   ['autocvar_5fhud_5fpanel_5fweapons_5fnoncurrent_5fscale',['autocvar_hud_panel_weapons_noncurrent_scale',['../d7/db4/client_2autocvars_8qh.html#ae4e420b9936bf5feaee2ba34e406571e',1,'autocvars.qh']]],
   ['autocvar_5fhud_5fpanel_5fweapons_5fonlyowned',['autocvar_hud_panel_weapons_onlyowned',['../d7/db4/client_2autocvars_8qh.html#a147be84c143a96fb5a91cc4b5e1e3e17',1,'autocvars.qh']]],
+  ['autocvar_5fhud_5fpanel_5fweapons_5forderbyimpulse',['autocvar_hud_panel_weapons_orderbyimpulse',['../d7/db4/client_2autocvars_8qh.html#ac22ab5aed1901ffdddb5ffcbea366fc5',1,'autocvars.qh']]],
   ['autocvar_5fhud_5fpanel_5fweapons_5fselection_5fradius',['autocvar_hud_panel_weapons_selection_radius',['../d7/db4/client_2autocvars_8qh.html#a147f9cdd944b995aacae62bf8fb0968f',1,'autocvars.qh']]],
   ['autocvar_5fhud_5fpanel_5fweapons_5fselection_5fspeed',['autocvar_hud_panel_weapons_selection_speed',['../d7/db4/client_2autocvars_8qh.html#ad93983d9cab730300762ecc87bfff9d9',1,'autocvars.qh']]],
   ['autocvar_5fhud_5fpanel_5fweapons_5ftimeout',['autocvar_hud_panel_weapons_timeout',['../d7/db4/client_2autocvars_8qh.html#aea4999d348e39be0f0ee8fe021e6782f',1,'autocvars.qh']]],

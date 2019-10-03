@@ -129,5 +129,6 @@ var client_2defs_8qh =
     [ "w_org", "d9/d08/client_2defs_8qh.html#a02ef20f4a77ad7b4fe4f5bb97c2e30a6", null ],
     [ "w_random", "d9/d08/client_2defs_8qh.html#a9894fbba7243bcbf2535d172b703fb95", null ],
     [ "weaponorder_byimpulse", "d9/d08/client_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb", null ],
-    [ "weaponorder_bypriority", "d9/d08/client_2defs_8qh.html#a74fe90e74c5e7ae1ab56ba8cfe58c4c4", null ]
+    [ "weaponorder_bypriority", "d9/d08/client_2defs_8qh.html#a74fe90e74c5e7ae1ab56ba8cfe58c4c4", null ],
+    [ "weapons_orderbyimpulse", "d9/d08/client_2defs_8qh.html#aff4593c7ea0b9cb4eddf488abf73207a", null ]
 ];

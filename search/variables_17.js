@@ -146,6 +146,7 @@ var searchData=
   ['weaponorder_5fbypriority',['weaponorder_bypriority',['../d9/d08/client_2defs_8qh.html#a74fe90e74c5e7ae1ab56ba8cfe58c4c4',1,'defs.qh']]],
   ['weaponorder_5fcmp_5fstr',['weaponorder_cmp_str',['../d4/def/weapons_8qc.html#aa5a1dbdae1131edc4b6babd09d339f0d',1,'weapons.qc']]],
   ['weaponprevtime',['weaponprevtime',['../d3/d05/hud_8qh.html#a3c131b0f8f651739847e08030410b5a1',1,'hud.qh']]],
+  ['weapons_5forderbyimpulse',['weapons_orderbyimpulse',['../d9/d08/client_2defs_8qh.html#aff4593c7ea0b9cb4eddf488abf73207a',1,'defs.qh']]],
   ['weaponstats_5fbuffer',['weaponstats_buffer',['../d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829',1,'weaponstats.qh']]],
   ['weapontime',['weapontime',['../d3/d05/hud_8qh.html#ad5b3e0dc298f23f9aea300bb0e6efc6e',1,'hud.qh']]],
   ['wep_5ffirst',['WEP_FIRST',['../d0/ddd/weapons_2all_8qh.html#a90d55a6f4174a92f4c7740dba8e236df',1,'all.qh']]],

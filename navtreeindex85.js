@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"d9/d2d/dialog__settings__game__model_8qc.html#a3bc78e9a0f18de27f46e9111a30884a5":[2,0,5,4,138,1],
+"d9/d2d/dialog__settings__game__model_8qc.html#a74a9590aa3277b647d54c780cbfd3dbb":[2,0,5,4,138,2],
 "d9/d2d/dialog__settings__game__model_8qc.html#ae3352ff05cd68a276d35c458baa79048":[2,0,5,4,138,0],
 "d9/d2d/dialog__settings__game__model_8qc_source.html":[2,0,5,4,138],
 "d9/d2e/sv__vampire_8qc.html":[2,0,1,10,0,36,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "d9/d4f/deathtypes_2all_8qh.html#a511a8cb366fb4918f14fab9d9ba50557":[2,0,1,1,4,9],
 "d9/d4f/deathtypes_2all_8qh.html#a5323a267d4110e1c2a732dc9263af5c5":[2,0,1,1,4,13],
 "d9/d4f/deathtypes_2all_8qh.html#a5d776d28500a9006a4a7dd9da293f557":[2,0,1,1,4,15],
-"d9/d4f/deathtypes_2all_8qh.html#a5e0317d3d6616fc59446bd8400a011cd":[2,0,1,1,4,16],
-"d9/d4f/deathtypes_2all_8qh.html#a711c18b27d2eef6958316442f830587d":[2,0,1,1,4,18],
-"d9/d4f/deathtypes_2all_8qh.html#a857d601569050fa242aaa911e18746ac":[2,0,1,1,4,14]
+"d9/d4f/deathtypes_2all_8qh.html#a5e0317d3d6616fc59446bd8400a011cd":[2,0,1,1,4,16]
 };
