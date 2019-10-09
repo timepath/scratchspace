@@ -1,181 +1,3 @@
-var NAVTREE =
-[
-  [ "Xonotic", "index.html", [
-    [ "Deprecated List", "da/d58/deprecated.html", null ],
-    [ "Classes", null, [
-      [ "Class List", "annotated.html", "annotated" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ]
-      ] ]
-    ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", "globals_dup" ],
-        [ "Functions", "globals_func.html", "globals_func" ],
-        [ "Variables", "globals_vars.html", "globals_vars" ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
-      ] ]
-    ] ]
-  ] ]
-];
-
-var NAVTREEINDEX =
-[
-"annotated.html",
-"d0/d28/classMage.html#a98ac0625966577f6873d0ca2e901180e",
-"d0/d41/menu_8qh.html#a3cd39adc5a015bbc00182b0adf0aea8a",
-"d0/d6e/impulses_2all_8qh.html#a96e9871f2a404b84b947137c554419fa",
-"d0/d8b/common_2constants_8qh.html#a59ad0bc16f2726274bf590f91ee9933b",
-"d0/dab/item_2checkbox_8qc.html#a41b1f33b987f4f1d0d566cc6c75263ed",
-"d0/de4/sv__onslaught_8qc.html#a4308d88fb447e677e96163000a28a9f5",
-"d1/d19/classButton.html#a94b10ad636073784624c4ccf9ce64d26",
-"d1/d2b/classFusionReactor.html#aa32bd67d8b7c6dcd5c587f18c111227f",
-"d1/d39/classXonoticTeamSelectDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9",
-"d1/d52/common_2gamemodes_2gamemode_2race_2__mod_8qh_source.html",
-"d1/d5b/classRadioButton.html#ab1ec655ecda8414e0ed22a5f621dbfaa",
-"d1/d72/sv__cts_8qc.html#ab9a5853e9121676bedc993443b273e93",
-"d1/d93/pp_8qc.html",
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#a2c63df61f472ebeda80e1f553aec25f7",
-"d1/dd9/classAssault.html#adbb1ea4b0d9dc015db2ab4faa9fe9023",
-"d2/d0a/common_2physics_2player_8qc.html#a9eee2f2f5f376f53befdf1537abe179d",
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a589ec1d5b15b3a7422ba875ee34abcaf",
-"d2/d42/classXonoticUserbindEditDialog.html#ad218b9a475bfff7d8a719342afd0d40e",
-"d2/d65/unsafe_8qh.html#aae07bed82e2b12d1897fca7bf71634d1",
-"d2/d88/classDomination.html#adbb1ea4b0d9dc015db2ab4faa9fe9023",
-"d2/db1/movetypes_8qc.html#abc94399163b20fbffafbcdaeda0f8db5",
-"d2/dcb/classXonoticPicmipSlider.html#a7edc1888395b65fc0bbc556d68d0e173",
-"d2/ddd/sv__assault_8qh.html",
-"d3/d01/classXonoticMultiplayerDialog.html#a96015a1c89c1e162b571a8cdd7a211b4",
-"d3/d07/scoreboard_8qc.html#a519ec5e3a30641e57ee68fa04f9e434d",
-"d3/d1d/classOverkillNex.html#aedb36f5cb1e3f6bc4acb489b0394d25d",
-"d3/d47/classXonoticTabController.html#a521275ee1c52f6503906d1e871cceb4c",
-"d3/d59/sv__sandbox_8qc.html#ac145d26d95e61f3913b6a3c0b4ab6d7e",
-"d3/d83/classXonoticHUDHealthArmorDialog.html#aad099a0549928c37867d05a5dde2a511",
-"d3/da9/classMineLayer.html#ac72896c0e96c0f0bf6c088cb153ca74e",
-"d3/dbe/classSlider.html#a5eb816d08bd102111b268f794d42d695",
-"d3/dd3/sv__invincibleproj_8qc.html#ad34a8125c5a5a9cb7a6bcee6d4f20d38",
-"d3/dea/lib_2matrix_2__mod_8qh_source.html",
-"d4/d0a/classXonoticMiscSettingsTab.html#a263e6145393c6d11615034c31b7cb40e",
-"d4/d0c/csprogsdefs_8qc.html#a3f659424706d9f6b45c6d331bd625920",
-"d4/d0c/csprogsdefs_8qc.html#abaade74cd8297135cb52cdcef3bfebc2",
-"d4/d17/classVortex.html#a8adc0f68d514782dc8fe0a1d5af3b310",
-"d4/d3b/classXonoticBigButton.html#a4985255a6e0984252ab7ccedd6347d5b",
-"d4/d4c/dialog__multiplayer__media__demo_8qc.html#ad6524e6857c35e9c7ec53fd037370d8d",
-"d4/d5f/classXonoticFirstRunDialog.html#a289ec6231666847ace132ba4ee48d6bf",
-"d4/d85/classXonoticUid2NameDialog.html#ad998e1f49defd3f2d0767d00dfd4ad44",
-"d4/d90/skin-customizables_8inc.html#af23bb2255a965204a6b5dfccb0568092",
-"d4/d93/classPickup.html#ac88de49ea35f4990740cb804bbe94f28",
-"d4/da5/classXonoticBigCommandButton.html#a2e93b1dadbb72eb68b3501286ff568c9",
-"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a5acf1fc34ec0861c448b6e2a938d2faa",
-"d4/df8/classXonoticHUDRadarDialog.html#a086d32c9694472250922d42417bc8d66",
-"d5/d26/server_2defs_8qh.html#a177160502cceebf9005817415f6a7383",
-"d5/d37/server_2matrix_8qh_source.html",
-"d5/d6c/classXonoticHUDSkinList.html#a9115a3c2185e2fe3fac88d2a50f12875",
-"d5/d95/classXonoticDialog.html#a6cc59c1de971510be31db1dbba9ec665",
-"d5/dac/server_2scores_8qh.html#ad00aa8f918636d852f0802ab8bf16c84",
-"d5/df7/lib_2csqcmodel_2common_8qh.html#a53300c3182a618a305716a1d59c9895f",
-"d6/d11/progsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e",
-"d6/d1a/classMainWindow.html#a362e89e4a7d913cf830c56fc477456be",
-"d6/d2a/common_2mutators_2mutator_2weaponarena__random_2__mod_8inc_source.html",
-"d6/d74/cvars_8qh.html#a90bebe5d44dfc4753738e77dc56cb3c3",
-"d6/d79/classXonoticHUDWeaponsDialog.html#af1aab403dc54575707fd57991312b201",
-"d6/da5/classXonoticScrollPanel.html#aaa9e0cdecc6804ca569e30acba123c25",
-"d6/dce/json_8qc.html#a2ced2b930537cd30aa0ff504782b9093",
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a349613d24a99234384b0b7e3749bfc5c",
-"d6/ddd/server_2mutators_2events_8qh.html#a0d465dd62fdda963d66658c979484dcf",
-"d6/ddd/server_2mutators_2events_8qh.html#ad8456f263869fd3943db8dfd57134942",
-"d7/d13/classXonoticHUDAmmoDialog.html#a21c7071e5024d898349acbe2717e16cc",
-"d7/d32/classBlaster.html#aa519f8da1618f4afa74f7d924f839f77",
-"d7/d50/classXonoticPlayerList.html#a235355aace741c77462c66d35b2c5e2a",
-"d7/d71/lib_2warpzone_2common_8qh.html#aa45414613e0f0ac4716f74fdd53d512a",
-"d7/da2/cl__player_8qc.html#a89c3f07110446c9d8b355bc9f25648db",
-"d7/da7/server_2autocvars_8qh.html#a4b1c2534804d9ce6918077008c5f8561",
-"d7/da7/server_2autocvars_8qh.html#ac9636851707d86884382c2eb65a0086b",
-"d7/db4/client_2autocvars_8qh.html#a0bac582169135be767df861ce506fc9c",
-"d7/db4/client_2autocvars_8qh.html#a9823e8dfcfda2f6f222a9de03e411e1e",
-"d7/dbb/sv__assault_8qc.html#a22c7bc5c1fd881ab2ae75f2eddf1277e",
-"d7/de1/g__hook_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6",
-"d7/df4/commandbutton_8qc_source.html",
-"d8/d14/scripting_8qh.html#ab20a0b227adf2a518a753749718030f9",
-"d8/d39/classXonoticGametypeList.html#a11a8209afcff1a9a74262609d1b92646",
-"d8/d79/notifications_2all_8qc_source.html",
-"d8/d95/classNexposee.html#aec6ad845fe7ee48971a8f2a67e2be94d",
-"d8/db6/client_2miscfunctions_8qh.html#a6caf2e0c66aa3cfa4a63689e650de692",
-"d8/dd3/classDeathmatch.html#affdb854461a3463ccbe6c9d0bebf8bf1",
-"d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a",
-"d8/df7/classXonoticParticlesSlider.html#a18e4ef929b36aa09bca1a1e7c1d50d1d",
-"d9/d08/client_2defs_8qh.html#adf67d9b2b9ae37872cc64fee549a4d3b",
-"d9/d12/models_2all_8inc.html#a60f7ccf4b04cecac07a4ffd2493f726a",
-"d9/d2d/dialog__settings__game__model_8qc.html#a3bc78e9a0f18de27f46e9111a30884a5",
-"d9/d4f/deathtypes_2all_8qh.html#a711c18b27d2eef6958316442f830587d",
-"d9/d63/dialog__settings__misc_8qc_source.html",
-"d9/d85/classXonoticHUDEngineInfoDialog.html#af3a31a2cea0e185a1b793a1b539377b8",
-"d9/dbc/sv__overkill_8qh_source.html",
-"d9/deb/classXonoticHUDTimerDialog.html#a1734c2cadb53ab62f335c3df61eeb482",
-"da/d13/classShockwave.html#a683643b5c8cebf8291182b0c06802fa3",
-"da/d2c/sv__keyhunt_8qc.html#a4db66bd87795b95b20618738aac4f7b8",
-"da/d4e/sv__monsters_8qc.html#aa7607c99a4f26065ec3a769e79adc696",
-"da/d8d/classXonoticHUDPhysicsDialog.html#aeddd1791da6fd6649a97730380336cf8",
-"da/d9c/classXonoticMonsterToolsDialog.html#aba99b1ee929f1f634224a056ac4d8d40",
-"da/dc1/classXonoticAudioSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b",
-"da/dde/csprogsdefs_8qh.html#af6d4affad6b7108a456aad49f70bf508",
-"db/d0a/oo_8qh.html#a269b1d539e6116de8dc93f6891abc9a2",
-"db/d15/api_8qh.html#adbe7edbeeee5d49c2df5237b79f60c0c",
-"db/d38/base_8qh.html#a4ff4165a8479afe8baf78d1f99751778",
-"db/d4e/classOverkillShotgun.html#a148f0ac2aabc8676f55a902b199eeed1",
-"db/d5a/classXonoticHUDPowerupsDialog.html#ad218b9a475bfff7d8a719342afd0d40e",
-"db/d76/classXonoticHUDNotificationDialog.html#a85f9c719f7dbae82ac5ae2ad62bff432",
-"db/d7f/effectinfo_8inc.html#a7a55adb0ef5a0605be84c33b0bb52b08",
-"db/d8b/nmm_8qc.html#a722f8e9581a45f2201015e798bf24510",
-"db/db1/classXonoticHUDRaceTimerDialog.html#ae088b9d9402b18315ea3c87ce8ada086",
-"db/dc4/classXonoticRadioButton.html#a7e5da022638f9a7158ac368d08e1255e",
-"db/ddb/classXonoticCvarList.html#ae2a6d9e91d8187d1c6bd65f8c0333452",
-"db/dfa/classPlasmaAttack.html#aa33a9e234103d87be809a6c13d1061b2",
-"dc/d0d/sv__lms_8qc.html#a590793b8e36df9f63f29bce9f40758ca",
-"dc/d30/classBallStealer.html#ad5415bf8852fce4b7aee2bb71fe284dd",
-"dc/d44/classXonoticScreenshotList.html#a9115a3c2185e2fe3fac88d2a50f12875",
-"dc/d73/server_2miscfunctions_8qh.html#ab43315cb7fcd38c5dd0f0825b8c92ba8",
-"dc/d98/client_2miscfunctions_8qc.html#ae669df9da541a3b18d623ba33615903e",
-"dc/dc6/server_2miscfunctions_8qc.html#a62c381a8dd53927f035d3f51b303e108",
-"dc/de5/classWeapon.html#a312755d5709b880f99cf89d7a76237fe",
-"dc/df8/dynlight_8qc_source.html",
-"dd/d0f/classTeslaCoilTurretAttack.html#aa519f8da1618f4afa74f7d924f839f77",
-"dd/d3a/mapobjects_2misc_2follow_8qc.html",
-"dd/d73/classMachineGun.html#ac24638b9ff1c4686778f8c890e5fb287",
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#a6cc59c1de971510be31db1dbba9ec665",
-"dd/da3/classXonoticMusicPlayerTab.html#af7ff879638679c61596d3aba78e9f159",
-"dd/dcd/hud__config_8qh.html#ac4325f87797d58b1c1e4b23d81945214",
-"dd/df9/classCheckBox.html#a6cc59c1de971510be31db1dbba9ec665",
-"de/d30/classXonoticDisconnectDialog.html#a341abe470ef9e332df40dc7223deff5a",
-"de/d42/classXonoticCheckBox.html#ad762a94c4a36ceed8f86976dd8132ddc",
-"de/d5e/dpextensions_8qc.html#a2fe509c0b40f36507d0ca180e8aedd09",
-"de/d5e/dpextensions_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af",
-"de/d75/server_2campaign_8qc.html#aced14c1c4530221ef1ad4313dc1fde79",
-"de/d93/classXonoticBindingsResetDialog.html#acb8d0e4dab1db46676d930589dd395ee",
-"de/dab/classObserver.html#a532c4faed18d8eaa90e6b872b5f0fa63",
-"de/ddc/classOverkillMachineGun.html#a3f5c941ed9146dd8594ea21f553073e4",
-"df/d13/anglestransform_8qc.html#a3e15416efc8d5e17ebc24e871037fca3",
-"df/d28/sv__turrets_8qh.html#afc5bab0042155b03537a5da62de4050b",
-"df/d56/classSpider.html#a486a46d7eb31dc495eaf5347ba1cb5de",
-"df/d78/classPhaserTurretAttack.html#ac24638b9ff1c4686778f8c890e5fb287",
-"df/d9b/menu_2xonotic_2util_8qc.html#a8ef15205d6127cbc8982e7ba27203db1",
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a4ae369e8008551c455f967a8ddc6c430",
-"df/dd7/server_2client_8qc.html#ab71754893182e8830b826e9e9692db91",
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a8c71ab9e185789b5862d4eca97de030e",
-"functions_~.html"
-];
-
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
 
 function getData(varName)
@@ -196,6 +18,21 @@ function stripPath2(uri)
   var s = uri.substring(i+1);
   var m = uri.substring(0,i+1).match(/\/d\w\/d\w\w\/$/);
   return m ? uri.substring(i-6) : s;
+}
+
+function hashValue()
+{
+  return $(location).attr('hash').substring(1).replace(/[^\w\-]/g,'');
+}
+
+function hashUrl()
+{
+  return '#'+hashValue();
+}
+
+function pathName()
+{
+  return $(location).attr('pathname').replace(/[^-A-Za-z0-9+&@#/%?=~_|!:,.;\(\)]/g, '');
 }
 
 function localStorageSupported()
@@ -220,7 +57,7 @@ function deleteLink()
 {
   if (localStorageSupported()) {
     window.localStorage.setItem('navpath','');
-  } 
+  }
 }
 
 function cachedLink()
@@ -268,7 +105,7 @@ function createIndent(o,domNode,node,level)
     node.expandToggle.onclick = function() {
       if (node.expanded) {
         $(node.getChildrenUL()).slideUp("fast");
-        node.plus_img.src = node.relpath+"ftv2pnode.png";
+        node.plus_img.src = node.relpath+"arrowright.png";
         node.expanded = false;
       } else {
         expandNode(o, node, false, false);
@@ -276,7 +113,7 @@ function createIndent(o,domNode,node,level)
     }
     node.expandToggle.appendChild(imgNode);
     domNode.appendChild(node.expandToggle);
-    imgNode.src = node.relpath+"ftv2pnode.png";
+    imgNode.src = node.relpath+"arrowright.png";
   } else {
     var span = document.createElement("span");
     span.style.display = 'inline-block';
@@ -292,11 +129,13 @@ var animationInProgress = false;
 function gotoAnchor(anchor,aname,updateLocation)
 {
   var pos, docContent = $('#doc-content');
-  if (anchor.parent().attr('class')=='memItemLeft' ||
-      anchor.parent().attr('class')=='fieldtype' ||
-      anchor.parent().is(':header')) 
+  var ancParent = $(anchor.parent());
+  if (ancParent.hasClass('memItemLeft') ||
+      ancParent.hasClass('fieldname') ||
+      ancParent.hasClass('fieldtype') ||
+      ancParent.is(':header'))
   {
-    pos = anchor.parent().position().top;
+    pos = ancParent.position().top;
   } else if (anchor.position()) {
     pos = anchor.position().top;
   }
@@ -354,7 +193,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
     a.className = stripPath(link.replace('#',':'));
     if (link.indexOf('#')!=-1) {
       var aname = '#'+link.split('#')[1];
-      var srcPage = stripPath($(location).attr('pathname'));
+      var srcPage = stripPath(pathName());
       var targetPage = stripPath(link.split('#')[0]);
       a.href = srcPage!=targetPage ? url : "javascript:void(0)"; 
       a.onclick = function(){
@@ -430,9 +269,9 @@ function expandNode(o, node, imm, showRoot)
         $(node.getChildrenUL()).slideDown("fast");
       }
       if (node.isLast) {
-        node.plus_img.src = node.relpath+"ftv2mlastnode.png";
+        node.plus_img.src = node.relpath+"arrowdown.png";
       } else {
-        node.plus_img.src = node.relpath+"ftv2mnode.png";
+        node.plus_img.src = node.relpath+"arrowdown.png";
       }
       node.expanded = true;
     }
@@ -448,14 +287,13 @@ function glowEffect(n,duration)
 
 function highlightAnchor()
 {
-  var aname = $(location).attr('hash');
+  var aname = hashUrl();
   var anchor = $(aname);
   if (anchor.parent().attr('class')=='memItemLeft'){
-    var rows = $('.memberdecls tr[class$="'+
-               window.location.hash.substring(1)+'"]');
+    var rows = $('.memberdecls tr[class$="'+hashValue()+'"]');
     glowEffect(rows.children(),300); // member without details
-  } else if (anchor.parents().slice(2).prop('tagName')=='TR') {
-    glowEffect(anchor.parents('div.memitem'),1000); // enum value
+  } else if (anchor.parent().attr('class')=='fieldname'){
+    glowEffect(anchor.parent().parent(),1000); // enum value
   } else if (anchor.parent().attr('class')=='fieldtype'){
     glowEffect(anchor.parent().parent(),1000); // struct field
   } else if (anchor.parent().is(":header")) {
@@ -470,7 +308,7 @@ function selectAndHighlight(hash,n)
 {
   var a;
   if (hash) {
-    var link=stripPath($(location).attr('pathname'))+':'+hash.substring(1);
+    var link=stripPath(pathName())+':'+hash.substring(1);
     a=$('.item a[class$="'+link+'"]');
   }
   if (a && a.length) {
@@ -503,11 +341,7 @@ function showNode(o, node, index, hash)
         getNode(o, node);
       }
       $(node.getChildrenUL()).css({'display':'block'});
-      if (node.isLast) {
-        node.plus_img.src = node.relpath+"ftv2mlastnode.png";
-      } else {
-        node.plus_img.src = node.relpath+"ftv2mnode.png";
-      }
+      node.plus_img.src = node.relpath+"arrowdown.png";
       node.expanded = true;
       var n = node.children[o.breadcrumbs[index]];
       if (index+1<o.breadcrumbs.length) {
@@ -581,14 +415,13 @@ function navTo(o,root,hash,relpath)
   if (link) {
     var parts = link.split('#');
     root = parts[0];
-    if (parts.length>1) hash = '#'+parts[1];
+    if (parts.length>1) hash = '#'+parts[1].replace(/[^\w\-]/g,'');
     else hash='';
   }
   if (hash.match(/^#l\d+$/)) {
     var anchor=$('a[name='+hash.substring(1)+']');
     glowEffect(anchor.parent(),1000); // line number
     hash=''; // strip line number anchors
-    //root=root.replace(/_source\./,'.'); // source link to doc link
   }
   var url=root+hash;
   var i=-1;
@@ -622,7 +455,7 @@ function toggleSyncButton(relpath)
   if (navSync.hasClass('sync')) {
     navSync.removeClass('sync');
     showSyncOff(navSync,relpath);
-    storeLink(stripPath2($(location).attr('pathname'))+$(location).attr('hash'));
+    storeLink(stripPath2(pathName())+hashUrl());
   } else {
     navSync.addClass('sync');
     showSyncOn(navSync,relpath);
@@ -646,7 +479,7 @@ function initNavTree(toroot,relpath)
   o.node.expanded = false;
   o.node.isLast = true;
   o.node.plus_img = document.createElement("img");
-  o.node.plus_img.src = relpath+"ftv2pnode.png";
+  o.node.plus_img.src = relpath+"arrowright.png";
   o.node.plus_img.width = 16;
   o.node.plus_img.height = 22;
 
@@ -662,7 +495,7 @@ function initNavTree(toroot,relpath)
   }
 
   $(window).load(function(){
-    navTo(o,toroot,window.location.hash,relpath);
+    navTo(o,toroot,hashUrl(),relpath);
     showRoot();
   });
 
@@ -670,21 +503,20 @@ function initNavTree(toroot,relpath)
      if (window.location.hash && window.location.hash.length>1){
        var a;
        if ($(location).attr('hash')){
-         var clslink=stripPath($(location).attr('pathname'))+':'+
-                               $(location).attr('hash').substring(1);
-         a=$('.item a[class$="'+clslink+'"]');
+         var clslink=stripPath(pathName())+':'+hashValue();
+         a=$('.item a[class$="'+clslink.replace(/</g,'\\3c ')+'"]');
        }
        if (a==null || !$(a).parent().parent().hasClass('selected')){
          $('.item').removeClass('selected');
          $('.item').removeAttr('id');
        }
-       var link=stripPath2($(location).attr('pathname'));
-       navTo(o,link,$(location).attr('hash'),relpath);
+       var link=stripPath2(pathName());
+       navTo(o,link,hashUrl(),relpath);
      } else if (!animationInProgress) {
        $('#doc-content').scrollTop(0);
        $('.item').removeClass('selected');
        $('.item').removeAttr('id');
-       navTo(o,toroot,window.location.hash,relpath);
+       navTo(o,toroot,hashUrl(),relpath);
      }
   })
 }
