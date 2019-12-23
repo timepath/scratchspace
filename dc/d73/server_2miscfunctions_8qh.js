@@ -1,7 +1,9 @@
 var server_2miscfunctions_8qh =
 [
     [ "CENTER_OR_VIEWOFS", "dc/d73/server_2miscfunctions_8qh.html#afbe404306e2934634cd9f0d90fd177de", null ],
+    [ "cvar_normal", "dc/d73/server_2miscfunctions_8qh.html#aaa87f89f84466b07aae92e5c6490d72f", null ],
     [ "cvar_set_normal", "dc/d73/server_2miscfunctions_8qh.html#a73f087b1bdf191d3f1f869b8da083962", null ],
+    [ "cvar_string_normal", "dc/d73/server_2miscfunctions_8qh.html#a84f1df0aa745d2a0a3b06883ef5a389f", null ],
     [ "IS_DEAD", "dc/d73/server_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944", null ],
     [ "ITEM_DAMAGE_NEEDKILL", "dc/d73/server_2miscfunctions_8qh.html#a2f3f7e33fb5bc60212a8074ff9b80595", null ],
     [ "ITEM_TOUCH_NEEDKILL", "dc/d73/server_2miscfunctions_8qh.html#a277f5e186f80cd980204cb7d55042890", null ],
@@ -12,8 +14,6 @@ var server_2miscfunctions_8qh =
     [ "crosshair_trace", "dc/d73/server_2miscfunctions_8qh.html#a8292725ec840a49d42ef6453aaf838f6", null ],
     [ "crosshair_trace_plusvisibletriggers", "dc/d73/server_2miscfunctions_8qh.html#a9890a696168a390303c18532e659a7b9", null ],
     [ "crosshair_trace_plusvisibletriggers__is_wz", "dc/d73/server_2miscfunctions_8qh.html#a9f01f40e04dadcf88fb9236e5146c9c3", null ],
-    [ "cvar_normal", "dc/d73/server_2miscfunctions_8qh.html#a1a1c887b029cca0568b046152aea10ff", null ],
-    [ "cvar_string_normal", "dc/d73/server_2miscfunctions_8qh.html#aa3719dc578ac9c6f94b0faebb041c5d9", null ],
     [ "dedicated_print", "dc/d73/server_2miscfunctions_8qh.html#a0390f6703ace29f61655694b8821d84a", null ],
     [ "detach_sameorigin", "dc/d73/server_2miscfunctions_8qh.html#ad5f11a27c578036c6dab37bd91bcb744", null ],
     [ "droptofloor", "dc/d73/server_2miscfunctions_8qh.html#a05b8906b19daf9c40e70c7374813e23d", null ],
