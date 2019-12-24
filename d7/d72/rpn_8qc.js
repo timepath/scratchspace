@@ -8,5 +8,6 @@ var rpn_8qc =
     [ "rpn_push", "d7/d72/rpn_8qc.html#a6167b3871a1d21cfc4e526358f3fdeff", null ],
     [ "rpn_pushf", "d7/d72/rpn_8qc.html#a5ac51a3dfe244e4138560e7e52be204c", null ],
     [ "rpn_set", "d7/d72/rpn_8qc.html#a167a687ffdac1076826a4c8dd17f2980", null ],
-    [ "rpn_setf", "d7/d72/rpn_8qc.html#a48a7b8ad30548d5c25c241d5b79feeec", null ]
+    [ "rpn_setf", "d7/d72/rpn_8qc.html#a48a7b8ad30548d5c25c241d5b79feeec", null ],
+    [ "SHUTDOWN", "d7/d72/rpn_8qc.html#aa3b252c838464dfbe43b988838e8c808", null ]
 ];

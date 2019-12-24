@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"df/d28/sv__turrets_8qh.html#af3742f1980248c578e62043e18aa1686":[2,0,1,14,12,28],
 "df/d28/sv__turrets_8qh.html#afc5bab0042155b03537a5da62de4050b":[2,0,1,14,12,31],
 "df/d28/sv__turrets_8qh.html#aff66c7c0115341f74d7ed89fce94dc43":[2,0,1,14,12,37],
 "df/d28/sv__turrets_8qh_source.html":[2,0,1,14,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "df/d54/dialog__settings__game__hud_8qh.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,133,2],
 "df/d54/dialog__settings__game__hud_8qh_source.html":[2,0,5,4,133],
 "df/d56/classSpider.html":[1,0,129],
-"df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,129,0],
-"df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,129,11]
+"df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,129,0]
 };
