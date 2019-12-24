@@ -167,11 +167,11 @@ Macros</h2></td></tr>
 <tr class="separator:ac3d6e7493c5d9f48b1eff4ccd469507d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf957bd592ac57cf436d7dcbcb9ebd37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37">demand</a>(expr, ...)&#160;&#160;&#160;<a class="el" href="../../db/da0/log_8qh.html#ad777ba7b944cf9dc0f5ef7dbf390333e">_assert</a>(<a class="el" href="../../db/da0/log_8qh.html#ab79f4c8ab26ac979ff3aeb4766c37e91">print_assertfailed_fatal</a>, expr, __VA_ARGS__)</td></tr>
 <tr class="separator:adf957bd592ac57cf436d7dcbcb9ebd37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a759f0b81b68be04a0b7b1741e39347d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/log_8qh.html#a759f0b81b68be04a0b7b1741e39347d6">devassert</a>(...)&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8">autocvar_developer</a>) <a class="el" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a>(__VA_ARGS__); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td></tr>
+<tr class="memitem:a759f0b81b68be04a0b7b1741e39347d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/log_8qh.html#a759f0b81b68be04a0b7b1741e39347d6">devassert</a>(...)&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8">autocvar_developer</a> &gt; 0) <a class="el" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a>(__VA_ARGS__); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td></tr>
 <tr class="separator:a759f0b81b68be04a0b7b1741e39347d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0728eb9b46661ff2f6b488856396d5c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/log_8qh.html#ac0728eb9b46661ff2f6b488856396d5c">devassert_once</a>(...)&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8">autocvar_developer</a>) <a class="el" href="../../db/da0/log_8qh.html#afab8de1e69e3162b5564c0197bbc8ff8">assert_once</a>(__VA_ARGS__); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td></tr>
+<tr class="memitem:ac0728eb9b46661ff2f6b488856396d5c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/log_8qh.html#ac0728eb9b46661ff2f6b488856396d5c">devassert_once</a>(...)&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8">autocvar_developer</a> &gt; 0) <a class="el" href="../../db/da0/log_8qh.html#afab8de1e69e3162b5564c0197bbc8ff8">assert_once</a>(__VA_ARGS__); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td></tr>
 <tr class="separator:ac0728eb9b46661ff2f6b488856396d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c4069e1c34df72dc1188667ecedd168"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/log_8qh.html#a4c4069e1c34df72dc1188667ecedd168">devdemand</a>(...)&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8">autocvar_developer</a>) <a class="el" href="../../db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37">demand</a>(__VA_ARGS__); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td></tr>
+<tr class="memitem:a4c4069e1c34df72dc1188667ecedd168"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/log_8qh.html#a4c4069e1c34df72dc1188667ecedd168">devdemand</a>(...)&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8">autocvar_developer</a> &gt; 0) <a class="el" href="../../db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37">demand</a>(__VA_ARGS__); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td></tr>
 <tr class="separator:a4c4069e1c34df72dc1188667ecedd168"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14f8d12a0e12508f13be68fcb2cb5caa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/log_8qh.html#a14f8d12a0e12508f13be68fcb2cb5caa">dprint2</a>(msg)</td></tr>
 <tr class="separator:a14f8d12a0e12508f13be68fcb2cb5caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -644,7 +644,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8">autocvar_developer</a>) <a class="el" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a>(__VA_ARGS__); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8">autocvar_developer</a> &gt; 0) <a class="el" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a>(__VA_ARGS__); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -662,7 +662,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8">autocvar_developer</a>) <a class="el" href="../../db/da0/log_8qh.html#afab8de1e69e3162b5564c0197bbc8ff8">assert_once</a>(__VA_ARGS__); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8">autocvar_developer</a> &gt; 0) <a class="el" href="../../db/da0/log_8qh.html#afab8de1e69e3162b5564c0197bbc8ff8">assert_once</a>(__VA_ARGS__); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -682,7 +682,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8">autocvar_developer</a>) <a class="el" href="../../db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37">demand</a>(__VA_ARGS__); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8">autocvar_developer</a> &gt; 0) <a class="el" href="../../db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37">demand</a>(__VA_ARGS__); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1056,7 +1056,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../db/da0/log_8qh.html">log.qh</a></li>
-    <li class="footer">Generated on Tue Dec 24 2019 16:21:45 for Xonotic by
+    <li class="footer">Generated on Tue Dec 24 2019 16:53:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
