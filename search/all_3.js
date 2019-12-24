@@ -988,7 +988,7 @@ var searchData=
   ['ctf_5fflagcarrierwaypoints',['ctf_FlagcarrierWaypoints',['../dd/d0c/sv__ctf_8qc.html#a63e95cf7355d0785a115d73192b69365',1,'sv_ctf.qc']]],
   ['ctf_5fflagdamage',['ctf_FlagDamage',['../dd/d0c/sv__ctf_8qc.html#a6e5ba2c4dd878bff9922b9b0ea1d225f',1,'sv_ctf.qc']]],
   ['ctf_5fflagdamaged_5fbyworld',['ctf_flagdamaged_byworld',['../d6/db0/sv__ctf_8qh.html#ab3c471fa541d4eb4729dfe400467558c',1,'sv_ctf.qh']]],
-  ['ctf_5fflagsetup',['ctf_FlagSetup',['../dd/d0c/sv__ctf_8qc.html#ae4da0b9f3b47d57388ba498d2baed651',1,'sv_ctf.qc']]],
+  ['ctf_5fflagsetup',['ctf_FlagSetup',['../dd/d0c/sv__ctf_8qc.html#a306047455d7c429ee07e4e8bde82efcf',1,'sv_ctf.qc']]],
   ['ctf_5fflagthink',['ctf_FlagThink',['../dd/d0c/sv__ctf_8qc.html#a8edcce745140a0191b957e969f8a2cfb',1,'sv_ctf.qc']]],
   ['ctf_5fflagtouch',['ctf_FlagTouch',['../d6/db0/sv__ctf_8qh.html#a5a1d6cebc0a9c5ecdcdb6229a4ca432e',1,'sv_ctf.qh']]],
   ['ctf_5fhandle_5fcapture',['ctf_Handle_Capture',['../dd/d0c/sv__ctf_8qc.html#a25811e1a3df660687ed3240c93c5643e',1,'sv_ctf.qc']]],

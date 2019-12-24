@@ -7,7 +7,7 @@ var sv__onslaught_8qh =
     [ "havocbot_role_ons_assistant", "d7/dd0/sv__onslaught_8qh.html#af54132466fbe97816d84f69960ffaf65", null ],
     [ "havocbot_role_ons_defense", "d7/dd0/sv__onslaught_8qh.html#acdf185a2c6ffdd3a60599b3f8bd44d64", null ],
     [ "havocbot_role_ons_offense", "d7/dd0/sv__onslaught_8qh.html#a01c98ce49147346d16b791a900bc9d26", null ],
-    [ "ons_ControlPoint_Attackable", "d7/dd0/sv__onslaught_8qh.html#a10e945825d37e7666906d0c3a9002e51", null ],
+    [ "ons_ControlPoint_Attackable", "d7/dd0/sv__onslaught_8qh.html#a6e8263ddccd8105c0e49f34304b7894c", null ],
     [ "ons_ControlPoint_UpdateSprite", "d7/dd0/sv__onslaught_8qh.html#a454ff61c95c49d302e981f5f04574bef", null ],
     [ "ons_Generator_UpdateSprite", "d7/dd0/sv__onslaught_8qh.html#afc2045eedb7684968edd66aab118783a", null ],
     [ "ons_Initialize", "d7/dd0/sv__onslaught_8qh.html#a9d2ee66e4d6dc89a52f994e45d589222", null ],

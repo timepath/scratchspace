@@ -18,7 +18,7 @@ var sv__ctf_8qc =
     [ "ctf_FlagBase_Customize", "dd/d0c/sv__ctf_8qc.html#ac93b3512434b6ecf078b4c2ebdb71122", null ],
     [ "ctf_FlagcarrierWaypoints", "dd/d0c/sv__ctf_8qc.html#a63e95cf7355d0785a115d73192b69365", null ],
     [ "ctf_FlagDamage", "dd/d0c/sv__ctf_8qc.html#a6e5ba2c4dd878bff9922b9b0ea1d225f", null ],
-    [ "ctf_FlagSetup", "dd/d0c/sv__ctf_8qc.html#ae4da0b9f3b47d57388ba498d2baed651", null ],
+    [ "ctf_FlagSetup", "dd/d0c/sv__ctf_8qc.html#a306047455d7c429ee07e4e8bde82efcf", null ],
     [ "ctf_FlagThink", "dd/d0c/sv__ctf_8qc.html#a8edcce745140a0191b957e969f8a2cfb", null ],
     [ "ctf_Handle_Capture", "dd/d0c/sv__ctf_8qc.html#a25811e1a3df660687ed3240c93c5643e", null ],
     [ "ctf_Handle_Drop", "dd/d0c/sv__ctf_8qc.html#a33fe5e9b4a06f001f5ea22497811c7c6", null ],
