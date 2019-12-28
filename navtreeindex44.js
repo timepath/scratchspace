@@ -107,8 +107,9 @@ var NAVTREEINDEX44 =
 "d4/da9/racetimer_8qh.html":[2,0,0,1,0,29],
 "d4/da9/racetimer_8qh_source.html":[2,0,0,1,0,29],
 "d4/dab/common_2command_2reg_8qh.html":[2,0,1,0,8],
-"d4/dab/common_2command_2reg_8qh.html#a70e24940494d5de16a261d29b1a2aa17":[2,0,1,0,8,0],
+"d4/dab/common_2command_2reg_8qh.html#a3ee29698bba56fab636d071803b45d9d":[2,0,1,0,8,3],
 "d4/dab/common_2command_2reg_8qh.html#a791add0085e48bf07060bbc03cf2076e":[2,0,1,0,8,1],
+"d4/dab/common_2command_2reg_8qh.html#aa44bba1c4f8b1c4e0886abad7bbdea15":[2,0,1,0,8,0],
 "d4/dab/common_2command_2reg_8qh.html#abfbf846736f7f2d250dfcc4c654c9aa2":[2,0,1,0,8,2],
 "d4/dab/common_2command_2reg_8qh_source.html":[2,0,1,0,8],
 "d4/dac/counter_8qc.html":[2,0,1,6,3,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a12019b0c4fbb4a2e2f900a43770ac1d9":[2,0,5,4,112,7],
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a12922afc952041edc7e8846965840471":[2,0,5,4,112,0],
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a16297471f5289ac452149b1e62722571":[2,0,5,4,112,5],
-"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a2de01cb3b52aa5c251ca9c50aa4ee0dd":[2,0,5,4,112,10],
-"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a4e02519351dfb0b2f9e799546ef76cb9":[2,0,5,4,112,9]
+"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a2de01cb3b52aa5c251ca9c50aa4ee0dd":[2,0,5,4,112,10]
 };

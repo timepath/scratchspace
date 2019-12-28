@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"dd/d36/halflife_8qc_source.html":[2,0,6,2,2],
 "dd/d3a/mapobjects_2misc_2follow_8qc.html":[2,0,1,6,1,6],
 "dd/d3a/mapobjects_2misc_2follow_8qc_source.html":[2,0,1,6,1,6],
 "dd/d41/sv__hook_8qc.html":[2,0,1,10,0,11,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "dd/d73/classMachineGun.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,71,24],
 "dd/d73/classMachineGun.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,71,15],
 "dd/d73/classMachineGun.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,71,13],
-"dd/d73/classMachineGun.html#aae93ec4cdbab0e4962d71c8f7e81f911":[1,0,71,29],
-"dd/d73/classMachineGun.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,71,6]
+"dd/d73/classMachineGun.html#aae93ec4cdbab0e4962d71c8f7e81f911":[1,0,71,29]
 };

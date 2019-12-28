@@ -50,7 +50,7 @@ var weapons_2all_8qh =
     [ "WEPSET", "d0/ddd/weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658", null ],
     [ "WepSet_FromWeapon", "d0/ddd/weapons_2all_8qh.html#af64f4486ae6141a10160958a5e9a70b4", null ],
     [ "_WepSet_FromWeapon", "d0/ddd/weapons_2all_8qh.html#afa58eea7e5b202d3baf065ef2d96e0f0", null ],
-    [ "GENERIC_COMMAND", "d0/ddd/weapons_2all_8qh.html#aa57bf8a9c39eb97671c9cf68522ae139", null ],
+    [ "GENERIC_COMMAND", "d0/ddd/weapons_2all_8qh.html#a02bba62c7d18baa953df8c27291233ad", null ],
     [ "REGISTER_WEAPON", "d0/ddd/weapons_2all_8qh.html#a123925229da592cc21d3648a3f2d6563", null ],
     [ "REGISTRY", "d0/ddd/weapons_2all_8qh.html#a5ac40c7a1ac2d8bf44dfd73aaca2a3df", null ],
     [ "STATIC_INIT", "d0/ddd/weapons_2all_8qh.html#a18bed673185c5362badd17d0aa872311", null ],
