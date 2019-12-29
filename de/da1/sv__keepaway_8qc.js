@@ -17,6 +17,7 @@ var sv__keepaway_8qc =
     [ "MODEL", "de/da1/sv__keepaway_8qc.html#a48b4ae0374d4a37798d382112815ad4d", null ],
     [ "MUTATOR_HOOKFUNCTION", "de/da1/sv__keepaway_8qc.html#a8794086f299436c0f3ad85428fbe8e3e", null ],
     [ "MUTATOR_HOOKFUNCTION", "de/da1/sv__keepaway_8qc.html#a486197576b92b805bf08b2055ed88e0c", null ],
+    [ "MUTATOR_HOOKFUNCTION", "de/da1/sv__keepaway_8qc.html#a08699eb471b07fade0e12f803b223d01", null ],
     [ "MUTATOR_HOOKFUNCTION", "de/da1/sv__keepaway_8qc.html#a947e14f15617f6434aeeaeef914c62fb", null ],
     [ "MUTATOR_HOOKFUNCTION", "de/da1/sv__keepaway_8qc.html#aac10b6fca59a918f3708da8333b43a46", null ],
     [ "MUTATOR_HOOKFUNCTION", "de/da1/sv__keepaway_8qc.html#a57a01a9749b9445093630d283f568984", null ],

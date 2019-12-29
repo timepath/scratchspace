@@ -159,17 +159,17 @@ var NAVTREEINDEX =
 "de/d5e/dpextensions_8qc.html#ae862a4bc72977aac3c933cf3889eec53",
 "de/d75/server_2campaign_8qc.html#acddf5499bd25897be81172ad79345317",
 "de/d93/classXonoticBindingsResetDialog.html#ac648acd4d716ba6cd676f4e43345b85b",
-"de/dab/classObserver.html#a52e9dc37c381169e1b9d1b491050dab8",
-"de/ddc/classOverkillMachineGun.html#a3e155024bc1191a16efc16c9a2b44ce9",
-"df/d13/anglestransform_8qc.html#a15af3793156583fd0299d2c7d2029f0c",
-"df/d28/sv__turrets_8qh.html#aeecd9275b04ef56133834fe9ec106c3d",
-"df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793",
-"df/d78/classPhaserTurretAttack.html#ab1963e9f2e85c7c11304531a7a8e4313",
-"df/d9b/menu_2xonotic_2util_8qc.html#a8eb356644d69441dba461bca0bb3ab9e",
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a43fb32477dda33aabffb54ad7ae67ad4",
-"df/dd7/server_2client_8qc.html#ab0e1d4b28271a65528dff22463304ca2",
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a8c417c95c040a29cf9f83ee606f161ce",
-"functions_x.html"
+"de/dab/classObserver.html#a523781393cac4c56dabca8582ff95ce6",
+"de/ddc/classOverkillMachineGun.html#a32a28865e4c67cc786e85fdeb8273923",
+"df/d13/anglestransform_8qc.html#a0fdbb008cb55b09916473e7c05b0dfcc",
+"df/d28/sv__turrets_8qh.html#aee867619d0b8d86bc0c22a766aee92fd",
+"df/d56/classSpider.html",
+"df/d78/classPhaserTurretAttack.html#aade624faa82ff26da9e51f1be39be298",
+"df/d9b/menu_2xonotic_2util_8qc.html#a8b9db99b866e3e51444533334ab63eb3",
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a43b9d7745d10b4011cd0da6047c07bf4",
+"df/dd7/server_2client_8qc.html#aaac35902af8d876a6517fd1156b56aa9",
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a8a2bc534da630cd8dddc0aa9bc8df491",
+"functions_w.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

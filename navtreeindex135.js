@@ -1,5 +1,6 @@
 var NAVTREEINDEX135 =
 {
+"df/d56/classSpider.html":[1,0,129],
 "df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,129,0],
 "df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,129,11],
 "df/d56/classSpider.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,129,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX135 =
 "df/d78/classPhaserTurretAttack.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,101,1],
 "df/d78/classPhaserTurretAttack.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,101,24],
 "df/d78/classPhaserTurretAttack.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,101,15],
-"df/d78/classPhaserTurretAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,101,13],
-"df/d78/classPhaserTurretAttack.html#aade624faa82ff26da9e51f1be39be298":[1,0,101,26]
+"df/d78/classPhaserTurretAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,101,13]
 };
