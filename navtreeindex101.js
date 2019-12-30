@@ -1,5 +1,6 @@
 var NAVTREEINDEX101 =
 {
+"db/d4a/classHook.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,52,23],
 "db/d4a/classHook.html#ae4df56cc15b996e29b940bbfb71d3059":[1,0,52,40],
 "db/d4a/classHook.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,52,18],
 "db/d4e/classOverkillShotgun.html":[1,0,99],
@@ -248,6 +249,5 @@ var NAVTREEINDEX101 =
 "db/d5a/classXonoticHUDPowerupsDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,199,88],
 "db/d5a/classXonoticHUDPowerupsDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,199,42],
 "db/d5a/classXonoticHUDPowerupsDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,199,51],
-"db/d5a/classXonoticHUDPowerupsDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,199,0],
-"db/d5a/classXonoticHUDPowerupsDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,199,16]
+"db/d5a/classXonoticHUDPowerupsDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,199,0]
 };

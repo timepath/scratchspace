@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"d9/d23/sv__stale__move__negation_8qc.html#adb700ccb5a8bd0f3b508f33eea48b9e4":[2,0,1,10,0,33,2,4],
 "d9/d23/sv__stale__move__negation_8qc_source.html":[2,0,1,10,0,33,2],
 "d9/d28/client_2hud_2panel_2vote_8qh.html":[2,0,0,1,0,39],
 "d9/d28/client_2hud_2panel_2vote_8qh_source.html":[2,0,0,1,0,39],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "d9/d4a/dialog__hudpanel__quickmenu_8qh_source.html":[2,0,5,4,71],
 "d9/d4f/deathtypes_2all_8qh.html":[2,0,1,1,4],
 "d9/d4f/deathtypes_2all_8qh.html#a387734666d7aaca5f931efd84bbf6eee":[2,0,1,1,4,0],
-"d9/d4f/deathtypes_2all_8qh.html#a3c6266eb4d661b2ff3ea997e2ca8d939":[2,0,1,1,4,4],
-"d9/d4f/deathtypes_2all_8qh.html#a3d2a6e3591b346acd119e615627b5f5b":[2,0,1,1,4,6]
+"d9/d4f/deathtypes_2all_8qh.html#a3c6266eb4d661b2ff3ea997e2ca8d939":[2,0,1,1,4,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"da/d9c/classXonoticMonsterToolsDialog.html#aa4f052eae7c315deb0958e0d456e5806":[1,0,220,76],
 "da/d9c/classXonoticMonsterToolsDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,220,64],
 "da/d9c/classXonoticMonsterToolsDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,220,9],
 "da/d9c/classXonoticMonsterToolsDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,220,78],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "da/dbc/sv__globalforces_8qc.html#ad6a10acaf4806b68a1aeda3359fdf65e":[2,0,1,10,0,10,2,7],
 "da/dbc/sv__globalforces_8qc.html#ae09c28fe41c40908c61aef40104409a0":[2,0,1,10,0,10,2,5],
 "da/dbc/sv__globalforces_8qc.html#ae90b02c75446973cb9c31d93c955f99b":[2,0,1,10,0,10,2,2],
-"da/dbc/sv__globalforces_8qc.html#aed29bb1fa9cd3bfa774985c2e5fe838c":[2,0,1,10,0,10,2,6],
-"da/dbc/sv__globalforces_8qc.html#af4b5f696b25623513f4cf02a69097eea":[2,0,1,10,0,10,2,3]
+"da/dbc/sv__globalforces_8qc.html#aed29bb1fa9cd3bfa774985c2e5fe838c":[2,0,1,10,0,10,2,6]
 };

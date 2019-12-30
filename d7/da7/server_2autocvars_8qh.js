@@ -56,6 +56,7 @@ var server_2autocvars_8qh =
     [ "autocvar_g_balance_falldamage_factor", "d7/da7/server_2autocvars_8qh.html#aa4e6416a5450ad307008bcce9eafec90", null ],
     [ "autocvar_g_balance_falldamage_maxdamage", "d7/da7/server_2autocvars_8qh.html#a4a39007bf3e3aa6c4ac681a404010c0d", null ],
     [ "autocvar_g_balance_falldamage_minspeed", "d7/da7/server_2autocvars_8qh.html#a60412109a76ca02dc14da4cba3107795", null ],
+    [ "autocvar_g_balance_falldamage_onlyvertical", "d7/da7/server_2autocvars_8qh.html#af5c8b483d364e4d1557b96fe6c07ede8", null ],
     [ "autocvar_g_balance_firetransfer_damage", "d7/da7/server_2autocvars_8qh.html#a28648188df2fd6869846a548650d83c1", null ],
     [ "autocvar_g_balance_firetransfer_time", "d7/da7/server_2autocvars_8qh.html#ab6e7d82089362e6b8a144a3145283b2b", null ],
     [ "autocvar_g_balance_fuel_limit", "d7/da7/server_2autocvars_8qh.html#a1aad2436b0b68c56de75beecd4208e45", null ],

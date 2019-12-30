@@ -532,6 +532,7 @@ var searchData=
   ['autocvar_5fg_5fbalance_5ffalldamage_5ffactor',['autocvar_g_balance_falldamage_factor',['../d7/da7/server_2autocvars_8qh.html#aa4e6416a5450ad307008bcce9eafec90',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbalance_5ffalldamage_5fmaxdamage',['autocvar_g_balance_falldamage_maxdamage',['../d7/da7/server_2autocvars_8qh.html#a4a39007bf3e3aa6c4ac681a404010c0d',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbalance_5ffalldamage_5fminspeed',['autocvar_g_balance_falldamage_minspeed',['../d7/da7/server_2autocvars_8qh.html#a60412109a76ca02dc14da4cba3107795',1,'autocvars.qh']]],
+  ['autocvar_5fg_5fbalance_5ffalldamage_5fonlyvertical',['autocvar_g_balance_falldamage_onlyvertical',['../d7/da7/server_2autocvars_8qh.html#af5c8b483d364e4d1557b96fe6c07ede8',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbalance_5ffiretransfer_5fdamage',['autocvar_g_balance_firetransfer_damage',['../d7/da7/server_2autocvars_8qh.html#a28648188df2fd6869846a548650d83c1',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbalance_5ffiretransfer_5ftime',['autocvar_g_balance_firetransfer_time',['../d7/da7/server_2autocvars_8qh.html#ab6e7d82089362e6b8a144a3145283b2b',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbalance_5ffuel_5flimit',['autocvar_g_balance_fuel_limit',['../d7/da7/server_2autocvars_8qh.html#a1aad2436b0b68c56de75beecd4208e45',1,'autocvars.qh']]],

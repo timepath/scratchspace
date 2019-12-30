@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"df/d28/sv__turrets_8qh.html#adc9337924d4dea4b60215bbce55dc593":[2,0,1,14,12,24],
 "df/d28/sv__turrets_8qh.html#adcbe72d1ef1f8286ed98c8a024b12647":[2,0,1,14,12,7],
 "df/d28/sv__turrets_8qh.html#ae02387b3343e44683a93097b331380d9":[2,0,1,14,12,9],
 "df/d28/sv__turrets_8qh.html#ae1ff9191021b805b8017bb279c14af4b":[2,0,1,14,12,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "df/d52/oknex_8qc.html":[2,0,1,10,0,23,8],
 "df/d52/oknex_8qc_source.html":[2,0,1,10,0,23,8],
 "df/d53/campaign__setup_8qh.html":[2,0,1,28],
-"df/d53/campaign__setup_8qh_source.html":[2,0,1,28],
-"df/d54/dialog__settings__game__hud_8qh.html":[2,0,5,4,133]
+"df/d53/campaign__setup_8qh_source.html":[2,0,1,28]
 };
