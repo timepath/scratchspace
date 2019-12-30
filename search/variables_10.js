@@ -275,7 +275,7 @@ var searchData=
   ['prev_5farmor',['prev_armor',['../d3/d05/hud_8qh.html#a5d38628b7b19dcb6c4447be6f883d546',1,'hud.qh']]],
   ['prev_5fhealth',['prev_health',['../d3/d05/hud_8qh.html#a7eecaffe57efc9d3af0271afc46bb2d0',1,'hud.qh']]],
   ['prev_5fmousepos',['prev_mousepos',['../d4/d0d/client_2mapvoting_8qc.html#ab070079ec3e376324a8aed8f4a47ca16',1,'mapvoting.qc']]],
-  ['prev_5fmyteam',['prev_myteam',['../d6/dd3/view_8qc.html#a914e37568f3770b5427e54bdbb0b2414',1,'view.qc']]],
+  ['prev_5fmyteam',['prev_myteam',['../d7/d15/hud_8qc.html#a914e37568f3770b5427e54bdbb0b2414',1,'hud.qc']]],
   ['prev_5fp_5farmor',['prev_p_armor',['../d3/d05/hud_8qh.html#a95e8e1601d59961efded3e6151715542',1,'hud.qh']]],
   ['prev_5fp_5fhealth',['prev_p_health',['../d3/d05/hud_8qh.html#ad0a36b5ef9f5ce0110ecab626d036c0f',1,'hud.qh']]],
   ['prevcoords',['prevcoords',['../d1/d2a/classXonoticColorpickerString.html#af8167ad62f54028c227caf81ba7c8245',1,'XonoticColorpickerString']]],

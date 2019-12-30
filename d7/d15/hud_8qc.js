@@ -20,5 +20,8 @@ var hud_8qc =
     [ "autocvar_hud_dynamic_shake_damage_min", "d7/d15/hud_8qc.html#abf03db2bbdaaed29a0ddeaa24cd7d5a8", null ],
     [ "autocvar_hud_dynamic_shake_scale", "d7/d15/hud_8qc.html#ab8141bf6b381ce178ba733fa4ce0fedf", null ],
     [ "hud_dynamic_shake_x", "d7/d15/hud_8qc.html#a504034704c73c89304d3002be086be8d", null ],
-    [ "hud_dynamic_shake_y", "d7/d15/hud_8qc.html#aeba9dd91c496a5fe12a8a237525b0ae4", null ]
+    [ "hud_dynamic_shake_y", "d7/d15/hud_8qc.html#aeba9dd91c496a5fe12a8a237525b0ae4", null ],
+    [ "lasthud", "d7/d15/hud_8qc.html#a9f9f94c3a1dfd9a9580114678edf79a9", null ],
+    [ "prev_myteam", "d7/d15/hud_8qc.html#a914e37568f3770b5427e54bdbb0b2414", null ],
+    [ "vh_notice_time", "d7/d15/hud_8qc.html#a904495a10047eef2e8424eb188fa0675", null ]
 ];
