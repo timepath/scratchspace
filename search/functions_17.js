@@ -205,6 +205,7 @@ var searchData=
   ['weaponarena_5favailable_5fmost_5fupdate',['weaponarena_available_most_update',['../dc/dc6/server_2miscfunctions_8qc.html#ac98809136138fdcf12ac65171a489783',1,'miscfunctions.qc']]],
   ['weaponarenastring',['WeaponArenaString',['../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#acde935bede494b1af21664b6c8aaf6bd',1,'dialog_multiplayer_create_mutators.qc']]],
   ['weaponlocked',['weaponLocked',['../d5/de0/weaponsystem_8qc.html#ac7b6c8bdba2c394f8a3385c9bd992f9c',1,'weaponLocked(entity player):&#160;weaponsystem.qc'],['../da/db7/weaponsystem_8qh.html#ac7b6c8bdba2c394f8a3385c9bd992f9c',1,'weaponLocked(entity player):&#160;weaponsystem.qc']]],
+  ['weaponnamefromweaponentity',['WeaponNameFromWeaponentity',['../dc/dc6/server_2miscfunctions_8qc.html#a330e0f8288aa77e10d89a54d8f78ff5a',1,'miscfunctions.qc']]],
   ['weaponorder_5fcmp',['weaponorder_cmp',['../d4/def/weapons_8qc.html#a78ae21ff07fb9635d16068d921afd78e',1,'weapons.qc']]],
   ['weaponorder_5fswap',['weaponorder_swap',['../d4/def/weapons_8qc.html#a9393a669fd50c72dd3d3c71c6ff1abcb',1,'weapons.qc']]],
   ['weaponpickup',['WeaponPickup',['../d8/def/classWeaponPickup.html#a3d193f30f9a2d30e3bb270e8578a872a',1,'WeaponPickup']]],

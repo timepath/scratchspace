@@ -81,6 +81,7 @@ var server_2miscfunctions_8qc =
     [ "weaponarena_available_all_update", "dc/dc6/server_2miscfunctions_8qc.html#a7f0150e78f1bcf0f515e35ed1d37248a", null ],
     [ "weaponarena_available_devall_update", "dc/dc6/server_2miscfunctions_8qc.html#aacf644c20fb5179c50b7df7b4e1d76be", null ],
     [ "weaponarena_available_most_update", "dc/dc6/server_2miscfunctions_8qc.html#ac98809136138fdcf12ac65171a489783", null ],
+    [ "WeaponNameFromWeaponentity", "dc/dc6/server_2miscfunctions_8qc.html#a330e0f8288aa77e10d89a54d8f78ff5a", null ],
     [ "weapons_all", "dc/dc6/server_2miscfunctions_8qc.html#a31069aef88f8ac2c66b9fdf992185454", null ],
     [ "weapons_devall", "dc/dc6/server_2miscfunctions_8qc.html#acacb4772ee6179ec45a12c4340508068", null ],
     [ "weapons_most", "dc/dc6/server_2miscfunctions_8qc.html#a2144e009531a5eb4296252267e901380", null ],
