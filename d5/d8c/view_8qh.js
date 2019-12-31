@@ -10,6 +10,7 @@ var view_8qh =
     [ "CURSOR_RESIZE", "d5/d8c/view_8qh.html#a0a529b8ce360a33c2019250ad3aead48", null ],
     [ "CURSOR_RESIZE2", "d5/d8c/view_8qh.html#af6518d38f598013fbe9a3e5e428960b0", null ],
     [ "cursor_type", "d5/d8c/view_8qh.html#aa0b12cb39d4ab48808757ac079cacbdd", null ],
+    [ "drawtime", "d5/d8c/view_8qh.html#adcf7d2e33d673e2266aab8e6171f6d1a", null ],
     [ "viewloc_mousepos", "d5/d8c/view_8qh.html#a366e783c509098b1464bbc84ba4d74f4", null ],
     [ "viewmodels", "d5/d8c/view_8qh.html#ae4043ba4831a9d580ebfc05793928b53", null ]
 ];

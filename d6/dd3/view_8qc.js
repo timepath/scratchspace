@@ -83,7 +83,6 @@ var view_8qc =
     [ "current_origin", "d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8", null ],
     [ "current_position", "d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0", null ],
     [ "damage_blurpostprocess", "d6/dd3/view_8qc.html#a7e6d87a7998ec09b1647c49f62bc3a95", null ],
-    [ "drawtime", "d6/dd3/view_8qc.html#adcf7d2e33d673e2266aab8e6171f6d1a", null ],
     [ "eventchase_current_distance", "d6/dd3/view_8qc.html#af31c00efdf68afa9ed92369b83bfbcc0", null ],
     [ "eventchase_running", "d6/dd3/view_8qc.html#a9d0f43fb3f42499c39944674e8f5a562", null ],
     [ "freeze_ang", "d6/dd3/view_8qc.html#a5d847bd803d71b7de33dbe41c29bc99c", null ],

@@ -205,6 +205,7 @@ var searchData=
   ['view_5fright',['view_right',['../d0/d2a/client_2main_8qh.html#ac44c54c8b6fe942e1ab4e5cf66b9a472',1,'main.qh']]],
   ['view_5fup',['view_up',['../d0/d2a/client_2main_8qh.html#a8883f35ba614036676cd2ac2cc4b3f3f',1,'main.qh']]],
   ['view_5fupdatefov',['View_UpdateFov',['../d6/dd3/view_8qc.html#a8ba7f4698d80c09fed1d4a2761f8ca39',1,'view.qc']]],
+  ['viewheightavg',['viewheightavg',['../d7/da2/cl__player_8qc.html#af8d47383c72b9d4fa5f2e507d787cf69',1,'cl_player.qc']]],
   ['viewloc',['viewloc',['../dd/d0b/mapobjects_2trigger_2viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb',1,'viewloc():&#160;viewloc.qh'],['../db/d53/viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb',1,'viewloc():&#160;viewloc.qh']]],
   ['viewloc_2eqc',['viewloc.qc',['../d2/d81/mapobjects_2trigger_2viewloc_8qc.html',1,'']]],
   ['viewloc_2eqc',['viewloc.qc',['../d8/d6d/viewloc_8qc.html',1,'']]],
