@@ -314,6 +314,8 @@ var searchData=
   ['tvt_5fthadf',['tvt_thadf',['../df/d28/sv__turrets_8qh.html#a7da351a830557a1fb4b0908c9daf45f1',1,'sv_turrets.qh']]],
   ['tvt_5fthadv',['tvt_thadv',['../df/d28/sv__turrets_8qh.html#a332de5647b4049b0c0578521988f16fb',1,'sv_turrets.qh']]],
   ['typehitsound',['typehitsound',['../d5/d26/server_2defs_8qh.html#a2b2cad71d9088357051170c08fb286a9',1,'defs.qh']]],
+  ['typeiconorigin',['typeIconOrigin',['../d4/d91/classXonoticCampaignList.html#a5593ee25ae08090d67e210699fb6eb4e',1,'XonoticCampaignList']]],
+  ['typeiconsize',['typeIconSize',['../d4/d91/classXonoticCampaignList.html#a093efe8e6a0350a879cc57c922f3162e',1,'XonoticCampaignList']]],
   ['typelabels',['typeLabels',['../dc/da0/classXonoticMapInfoDialog.html#aeda8cfb28fca044121a77d81c55dab12',1,'XonoticMapInfoDialog']]],
   ['typetosearchtime',['typeToSearchTime',['../db/d29/classXonoticRegisteredSettingsList.html#a9237f539e335fff05171b4329ec7b08b',1,'XonoticRegisteredSettingsList::typeToSearchTime()'],['../d3/d86/classXonoticMapList.html#a2ceabdc0e34586372447c3a3913fe4bf',1,'XonoticMapList::typeToSearchTime()']]]
 ];

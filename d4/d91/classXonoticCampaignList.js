@@ -95,5 +95,7 @@ var classXonoticCampaignList =
     [ "selectionDoesntMatter", "d4/d91/classXonoticCampaignList.html#a7c163168fb6b267f1b6a0c7be61ebde8", null ],
     [ "size", "d4/d91/classXonoticCampaignList.html#a230ddb1a3db4e3db29b3c2e1590dd22e", null ],
     [ "src", "d4/d91/classXonoticCampaignList.html#ae1baefc0a227b8e5ba2da3a75da9f583", null ],
-    [ "tolerance", "d4/d91/classXonoticCampaignList.html#a2aed9b007db3378480b691b9a52f3a7e", null ]
+    [ "tolerance", "d4/d91/classXonoticCampaignList.html#a2aed9b007db3378480b691b9a52f3a7e", null ],
+    [ "typeIconOrigin", "d4/d91/classXonoticCampaignList.html#a5593ee25ae08090d67e210699fb6eb4e", null ],
+    [ "typeIconSize", "d4/d91/classXonoticCampaignList.html#a093efe8e6a0350a879cc57c922f3162e", null ]
 ];
