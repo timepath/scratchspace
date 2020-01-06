@@ -79,6 +79,7 @@ var server_2client_8qc =
     [ "WriteSpectators", "df/dd7/server_2client_8qc.html#a199cb8defbbeacacf578f7c12b16004f", null ],
     [ "autocvar_sv_qcphysics", "df/dd7/server_2client_8qc.html#ab0e1d4b28271a65528dff22463304ca2", null ],
     [ "chatbubbleentity", "df/dd7/server_2client_8qc.html#a0ea52ed96e6d3b34c2c0eac9ec813fe7", null ],
+    [ "dualwielding_prev", "df/dd7/server_2client_8qc.html#ad32e3d6bed812d2eb54b97808676b262", null ],
     [ "FallbackPlayerModel", "df/dd7/server_2client_8qc.html#af5e87ff2e4692a9299766df3a8d949d7", null ],
     [ "frame", "df/dd7/server_2client_8qc.html#a6828e314f91bec7a1445f0be1b00d7c0", null ],
     [ "items_added", "df/dd7/server_2client_8qc.html#a1566e9e3058439870cbcfd72542b4792", null ],

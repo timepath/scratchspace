@@ -1,10 +1,5 @@
 var NAVTREEINDEX103 =
 {
-"db/d66/common_2gamemodes_2gamemode_2domination_2__mod_8qh_source.html":[2,0,1,3,0,5,1],
-"db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc.html":[2,0,1,10,0,36,0],
-"db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc_source.html":[2,0,1,10,0,36,0],
-"db/d6b/okrpc_8qh.html":[2,0,1,10,0,23,11],
-"db/d6b/okrpc_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,10,0,23,11,1],
 "db/d6b/okrpc_8qh.html#a969a862c23d37f5592502820e4c8e345":[2,0,1,10,0,23,11,2],
 "db/d6b/okrpc_8qh_source.html":[2,0,1,10,0,23,11],
 "db/d6f/cl__keepaway_8qc.html":[2,0,1,3,0,9,2],
@@ -249,5 +244,10 @@ var NAVTREEINDEX103 =
 "db/d7f/effectinfo_8inc.html#a4e4df8f18ebe9b8cad15382b4aa02e54":[2,0,1,2,7,365],
 "db/d7f/effectinfo_8inc.html#a4eb21a1adda919ac91fc4f6880ed7b24":[2,0,1,2,7,378],
 "db/d7f/effectinfo_8inc.html#a4f2841554641525aa83c7fb40731db19":[2,0,1,2,7,359],
-"db/d7f/effectinfo_8inc.html#a4f6f5dcdfa6029f3094df129b7c7fdad":[2,0,1,2,7,319]
+"db/d7f/effectinfo_8inc.html#a4f6f5dcdfa6029f3094df129b7c7fdad":[2,0,1,2,7,319],
+"db/d7f/effectinfo_8inc.html#a50686571800453954319975cab343f0e":[2,0,1,2,7,161],
+"db/d7f/effectinfo_8inc.html#a51cafc5700722bb5cfeea5264ac2ae7e":[2,0,1,2,7,217],
+"db/d7f/effectinfo_8inc.html#a51fb687e6c22b28d9a3fb389ab10918b":[2,0,1,2,7,335],
+"db/d7f/effectinfo_8inc.html#a526d0cc07dc21028743952a8e99c41df":[2,0,1,2,7,41],
+"db/d7f/effectinfo_8inc.html#a528a35146b520665b394b348fd26b8b2":[2,0,1,2,7,271]
 };

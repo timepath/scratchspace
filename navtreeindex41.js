@@ -1,14 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"d4/d85/classXonoticUid2NameDialog.html#ad998e1f49defd3f2d0767d00dfd4ad44":[1,0,261,55],
-"d4/d85/classXonoticUid2NameDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,261,29],
-"d4/d85/classXonoticUid2NameDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,261,60],
-"d4/d85/classXonoticUid2NameDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,261,53],
-"d4/d85/classXonoticUid2NameDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,261,89],
-"d4/d85/classXonoticUid2NameDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,261,8],
-"d4/d85/classXonoticUid2NameDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,261,66],
-"d4/d85/classXonoticUid2NameDialog.html#af1aab403dc54575707fd57991312b201":[1,0,261,45],
-"d4/d85/classXonoticUid2NameDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,261,25],
 "d4/d85/classXonoticUid2NameDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,261,10],
 "d4/d85/classXonoticUid2NameDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,261,15],
 "d4/d85/classXonoticUid2NameDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,261,49],
@@ -249,5 +240,14 @@ var NAVTREEINDEX41 =
 "d4/d90/skin-customizables_8inc.html#aedd413f93d646fdfb46fbf412afc453c":[2,0,5,18,128],
 "d4/d90/skin-customizables_8inc.html#aee9559c8ba7bbc96fa2a78185e6e660a":[2,0,5,18,65],
 "d4/d90/skin-customizables_8inc.html#aeea98dc13fa5a1513e667373461921c7":[2,0,5,18,22],
-"d4/d90/skin-customizables_8inc.html#af03d23810278917149a860ae7e463b35":[2,0,5,18,25]
+"d4/d90/skin-customizables_8inc.html#af03d23810278917149a860ae7e463b35":[2,0,5,18,25],
+"d4/d90/skin-customizables_8inc.html#af23bb2255a965204a6b5dfccb0568092":[2,0,5,18,121],
+"d4/d90/skin-customizables_8inc.html#af30cf9cf2059169cd90e34cc89078947":[2,0,5,18,15],
+"d4/d90/skin-customizables_8inc.html#af34fce2e23e24ceb9603765d4758ab3a":[2,0,5,18,50],
+"d4/d90/skin-customizables_8inc.html#af427ee82374403f2fa962ad874a9676e":[2,0,5,18,87],
+"d4/d90/skin-customizables_8inc.html#af76e099a4616571e4c512749be2b014e":[2,0,5,18,21],
+"d4/d90/skin-customizables_8inc.html#af85ebb3656b9f914f0ef76afc72b8de3":[2,0,5,18,69],
+"d4/d90/skin-customizables_8inc.html#af975974ff04be2122999254c84af16f5":[2,0,5,18,109],
+"d4/d90/skin-customizables_8inc.html#afc92eac528950606dc238cba8892d5ea":[2,0,5,18,41],
+"d4/d90/skin-customizables_8inc_source.html":[2,0,5,18]
 };

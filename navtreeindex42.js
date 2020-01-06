@@ -1,14 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"d4/d90/skin-customizables_8inc.html#af23bb2255a965204a6b5dfccb0568092":[2,0,5,18,121],
-"d4/d90/skin-customizables_8inc.html#af30cf9cf2059169cd90e34cc89078947":[2,0,5,18,15],
-"d4/d90/skin-customizables_8inc.html#af34fce2e23e24ceb9603765d4758ab3a":[2,0,5,18,50],
-"d4/d90/skin-customizables_8inc.html#af427ee82374403f2fa962ad874a9676e":[2,0,5,18,87],
-"d4/d90/skin-customizables_8inc.html#af76e099a4616571e4c512749be2b014e":[2,0,5,18,21],
-"d4/d90/skin-customizables_8inc.html#af85ebb3656b9f914f0ef76afc72b8de3":[2,0,5,18,69],
-"d4/d90/skin-customizables_8inc.html#af975974ff04be2122999254c84af16f5":[2,0,5,18,109],
-"d4/d90/skin-customizables_8inc.html#afc92eac528950606dc238cba8892d5ea":[2,0,5,18,41],
-"d4/d90/skin-customizables_8inc_source.html":[2,0,5,18],
 "d4/d91/classXonoticCampaignList.html":[1,0,155],
 "d4/d91/classXonoticCampaignList.html#a03353d1ffe5d9c73b4ee54147dd268f4":[1,0,155,86],
 "d4/d91/classXonoticCampaignList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,155,49],
@@ -249,5 +240,14 @@ var NAVTREEINDEX42 =
 "d4/d93/classPickup.html#a727d6f42f79f0bd5ffc674423645471c":[1,0,102,3],
 "d4/d93/classPickup.html#a7357a3badf480bbfe18c110d15cbd2f8":[1,0,102,6],
 "d4/d93/classPickup.html#a7d7a1817ddfcece5aa3e23c939a0097e":[1,0,102,10],
-"d4/d93/classPickup.html#a7d8cf6b7a18644fba549fe489903901d":[1,0,102,4]
+"d4/d93/classPickup.html#a7d8cf6b7a18644fba549fe489903901d":[1,0,102,4],
+"d4/d93/classPickup.html#a95e7f0cf091386e07ce2add2ab653934":[1,0,102,7],
+"d4/d93/classPickup.html#aaca9d5c571d73c2274a3356ef2fcdc53":[1,0,102,9],
+"d4/d93/classPickup.html#ac88de49ea35f4990740cb804bbe94f28":[1,0,102,8],
+"d4/d93/classPickup.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,102,5],
+"d4/d93/classPickup.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,102,12],
+"d4/d94/classXonoticHUDVoteDialog.html":[1,0,207],
+"d4/d94/classXonoticHUDVoteDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,207,30],
+"d4/d94/classXonoticHUDVoteDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,207,11],
+"d4/d94/classXonoticHUDVoteDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,207,38]
 };

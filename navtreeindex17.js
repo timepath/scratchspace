@@ -1,16 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a589ec1d5b15b3a7422ba875ee34abcaf":[1,0,173,22],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,173,62],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,173,74],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,173,6],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,173,14],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,173,18],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,173,86],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,173,78],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,173,50],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,173,43],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,173,65],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,173,71],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,173,75],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,173,63],
@@ -149,6 +138,8 @@ var NAVTREEINDEX17 =
 "d2/d3a/common_2mutators_2mutator_2itemstime_2__mod_8qh_source.html":[2,0,1,10,0,14,1],
 "d2/d3a/rules_8qc.html":[2,0,1,3,3],
 "d2/d3a/rules_8qc_source.html":[2,0,1,3,3],
+"d2/d3b/bloodloss_8qc.html":[2,0,1,10,0,0,2],
+"d2/d3b/bloodloss_8qc_source.html":[2,0,1,10,0,0,2],
 "d2/d3b/weapons_2config_8qh.html":[2,0,1,16,11],
 "d2/d3b/weapons_2config_8qh_source.html":[2,0,1,16,11],
 "d2/d3c/dialog__hudpanel__score_8qh.html":[2,0,5,4,77],
@@ -249,5 +240,14 @@ var NAVTREEINDEX17 =
 "d2/d42/classXonoticUserbindEditDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,262,41],
 "d2/d42/classXonoticUserbindEditDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,262,61],
 "d2/d42/classXonoticUserbindEditDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,262,38],
-"d2/d42/classXonoticUserbindEditDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,262,87]
+"d2/d42/classXonoticUserbindEditDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,262,87],
+"d2/d42/classXonoticUserbindEditDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,262,66],
+"d2/d42/classXonoticUserbindEditDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,262,90],
+"d2/d42/classXonoticUserbindEditDialog.html#add56d79dbe2b7a5ca6167d702faabb67":[1,0,262,89],
+"d2/d42/classXonoticUserbindEditDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,262,33],
+"d2/d42/classXonoticUserbindEditDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,262,65],
+"d2/d42/classXonoticUserbindEditDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,262,58],
+"d2/d42/classXonoticUserbindEditDialog.html#ae3e12bc0a99ba27300c59b262f2b1114":[1,0,262,35],
+"d2/d42/classXonoticUserbindEditDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,262,93],
+"d2/d42/classXonoticUserbindEditDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,262,12]
 };

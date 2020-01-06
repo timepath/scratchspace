@@ -661,7 +661,6 @@ var searchData=
   ['autocvar_5fg_5fban_5ftelluser',['autocvar_g_ban_telluser',['../d7/da7/server_2autocvars_8qh.html#a600f5ed07d53356be08818b987713db5',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbanned_5flist',['autocvar_g_banned_list',['../d7/da7/server_2autocvars_8qh.html#aa2e47c771ee44580c3752d160a080930',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbanned_5flist_5fidmode',['autocvar_g_banned_list_idmode',['../d7/da7/server_2autocvars_8qh.html#ab17c1ef5c1c0d8005df685d3aa685dfd',1,'autocvars.qh']]],
-  ['autocvar_5fg_5fbloodloss',['autocvar_g_bloodloss',['../d0/dd2/sv__bloodloss_8qc.html#a1a2a741e3a5234c8197b6ad811178a09',1,'sv_bloodloss.qc']]],
   ['autocvar_5fg_5fbotclip_5fcollisions',['autocvar_g_botclip_collisions',['../d7/da7/server_2autocvars_8qh.html#a5f5cfd8fc62a63d45bbfabca85e75ec5',1,'autocvars.qh']]],
   ['autocvar_5fg_5fbreakablehook',['autocvar_g_breakablehook',['../dc/d38/sv__breakablehook_8qc.html#af3030dbd97f0a4e9dd56321e4e737177',1,'sv_breakablehook.qc']]],
   ['autocvar_5fg_5fbreakablehook_5fowner',['autocvar_g_breakablehook_owner',['../dc/d38/sv__breakablehook_8qc.html#aec89f9af696d4bc079f5b192c04f1eda',1,'sv_breakablehook.qc']]],

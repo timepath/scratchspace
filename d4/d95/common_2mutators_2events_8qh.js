@@ -5,6 +5,7 @@ var common_2mutators_2events_8qh =
     [ "EV_BuildMutatorsString", "d4/d95/common_2mutators_2events_8qh.html#a1c7ed0aa721d79ef23811db2156602f0", null ],
     [ "EV_IsFlying", "d4/d95/common_2mutators_2events_8qh.html#a36a035a64a899169dd5dabab57c8ff02", null ],
     [ "EV_NO_ARGS", "d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6", null ],
+    [ "EV_PlayerCanCrouch", "d4/d95/common_2mutators_2events_8qh.html#a8b99cefa3aa06a8cc4aa3ab0e67583b1", null ],
     [ "EV_PlayerJump", "d4/d95/common_2mutators_2events_8qh.html#aed928b5d4717ad38c6dfbd6c6d988d83", null ],
     [ "EV_PlayerPhysics", "d4/d95/common_2mutators_2events_8qh.html#a6946f25e5a0f0f19747e7073e762b56f", null ],
     [ "EV_PM_Physics", "d4/d95/common_2mutators_2events_8qh.html#a26df0038cd70de3a0c017c63d859ed35", null ],
@@ -23,5 +24,6 @@ var common_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#ae3a91aca82079ec3bcc302a2345cdc76", null ],
     [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#aa022e322821d9c960bcdee463363291f", null ],
     [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#aa0c0f7f24cd3dc970bd940b340c8b464", null ],
-    [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#a5e051773a4f4852360170506cb27e9c1", null ]
+    [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#a5e051773a4f4852360170506cb27e9c1", null ],
+    [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#aa3c322f9521939929a971eb94eec1fb2", null ]
 ];

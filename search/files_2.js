@@ -14,6 +14,8 @@ var searchData=
   ['bits_2eqh',['bits.qh',['../d5/d52/bits_8qh.html',1,'']]],
   ['blaster_2eqc',['blaster.qc',['../d0/d3f/blaster_8qc.html',1,'']]],
   ['blaster_2eqh',['blaster.qh',['../d6/d80/blaster_8qh.html',1,'']]],
+  ['bloodloss_2eqc',['bloodloss.qc',['../d2/d3b/bloodloss_8qc.html',1,'']]],
+  ['bloodloss_2eqh',['bloodloss.qh',['../de/d20/bloodloss_8qh.html',1,'']]],
   ['bobbing_2eqc',['bobbing.qc',['../d2/d1a/bobbing_8qc.html',1,'']]],
   ['bobbing_2eqh',['bobbing.qh',['../df/d88/bobbing_8qh.html',1,'']]],
   ['bool_2eqh',['bool.qh',['../dd/d54/bool_8qh.html',1,'']]],
@@ -33,10 +35,10 @@ var searchData=
   ['bumblebee_2eqh',['bumblebee.qh',['../d0/d7f/bumblebee_8qh.html',1,'']]],
   ['bumblebee_5fweapons_2eqc',['bumblebee_weapons.qc',['../dc/de7/bumblebee__weapons_8qc.html',1,'']]],
   ['bumblebee_5fweapons_2eqh',['bumblebee_weapons.qh',['../dc/d99/bumblebee__weapons_8qh.html',1,'']]],
-  ['button_2eqc',['button.qc',['../d2/dc3/menu_2item_2button_8qc.html',1,'']]],
-  ['button_2eqc',['button.qc',['../d4/d62/common_2mapobjects_2func_2button_8qc.html',1,'']]],
   ['button_2eqc',['button.qc',['../df/d28/menu_2xonotic_2button_8qc.html',1,'']]],
+  ['button_2eqc',['button.qc',['../d4/d62/common_2mapobjects_2func_2button_8qc.html',1,'']]],
+  ['button_2eqc',['button.qc',['../d2/dc3/menu_2item_2button_8qc.html',1,'']]],
   ['button_2eqh',['button.qh',['../d2/d81/menu_2item_2button_8qh.html',1,'']]],
-  ['button_2eqh',['button.qh',['../d3/dd1/menu_2xonotic_2button_8qh.html',1,'']]],
-  ['button_2eqh',['button.qh',['../d6/d10/common_2mapobjects_2func_2button_8qh.html',1,'']]]
+  ['button_2eqh',['button.qh',['../d6/d10/common_2mapobjects_2func_2button_8qh.html',1,'']]],
+  ['button_2eqh',['button.qh',['../d3/dd1/menu_2xonotic_2button_8qh.html',1,'']]]
 ];

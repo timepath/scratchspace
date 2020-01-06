@@ -68,7 +68,6 @@ var searchData=
   ['binddb',['binddb',['../d9/d08/client_2defs_8qh.html#a532ed2854fa3a567a32c62f7abfd7c55',1,'defs.qh']]],
   ['blacklisted',['blacklisted',['../df/dd4/navigation_8qh.html#abb6daa71f72c8c9f713e934539950256',1,'navigation.qh']]],
   ['blockspectators',['blockSpectators',['../d5/d26/server_2defs_8qh.html#a611426eabd1041c62519ae6d9391a9e4',1,'defs.qh']]],
-  ['bloodloss_5ftimer',['bloodloss_timer',['../d0/dd2/sv__bloodloss_8qc.html#adeeb6493d547be2d8a3c3e541e7df8f9',1,'sv_bloodloss.qc']]],
   ['blueflag_5fprevframe',['blueflag_prevframe',['../df/d41/cl__ctf_8qc.html#a82d6dc4f545d9102ec6dfc4b048c4c4b',1,'cl_ctf.qc']]],
   ['blueflag_5fprevstatus',['blueflag_prevstatus',['../df/d41/cl__ctf_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922',1,'cl_ctf.qc']]],
   ['blueflag_5fstatuschange_5ftime',['blueflag_statuschange_time',['../df/d41/cl__ctf_8qc.html#affcd2de913713ea56d0f03e0f0b2d610',1,'cl_ctf.qc']]],

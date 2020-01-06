@@ -563,6 +563,7 @@ var searchData=
   ['dtflag_5fsameteam',['DTFLAG_SAMETEAM',['../dd/d79/damagetext_8qh.html#a5cbdfa4026668db1c952c285071ee64d',1,'damagetext.qh']]],
   ['dual_5fweapons',['dual_weapons',['../d2/d4b/classPlayer.html#a0afd445405f3d2115f5b638c4a431493',1,'Player::dual_weapons()'],['../d5/d26/server_2defs_8qh.html#a4316cf375fa977d00f3d69165b571327',1,'dual_weapons():&#160;defs.qh']]],
   ['dualplasmaturret',['DualPlasmaTurret',['../d3/df2/classDualPlasmaTurret.html',1,'']]],
+  ['dualwielding_5fprev',['dualwielding_prev',['../df/dd7/server_2client_8qc.html#ad32e3d6bed812d2eb54b97808676b262',1,'client.qc']]],
   ['duel',['Duel',['../d0/d0a/classDuel.html',1,'Duel'],['../d0/d0a/classDuel.html#a9e8783c605e13b3e2a945fa74c212d5d',1,'Duel::Duel()']]],
   ['dump',['dump',['../de/d95/classEffectInfo.html#a37d2c021ca1abd3145fbd147505e92fe',1,'EffectInfo']]],
   ['dump_5fitems',['Dump_Items',['../d3/d1f/items_2all_8qc.html#a45f263cb1b6c252258e90c0374fb06bd',1,'Dump_Items():&#160;all.qc'],['../d0/d7e/items_2all_8qh.html#a45f263cb1b6c252258e90c0374fb06bd',1,'Dump_Items():&#160;all.qc']]],
