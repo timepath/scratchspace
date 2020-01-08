@@ -329,6 +329,7 @@ var searchData=
   ['cl_5fweapon_5fgetshotorg',['CL_Weapon_GetShotOrg',['../d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0',1,'CL_Weapon_GetShotOrg(int wpn):&#160;weaponsystem.qc'],['../da/db7/weaponsystem_8qh.html#ad315ff4e6ee9693a54edb0d18efc9245',1,'CL_Weapon_GetShotOrg(float wpn):&#160;weaponsystem.qh']]],
   ['cl_5fweaponentity_5fcustomizeentityforclient',['CL_Weaponentity_CustomizeEntityForClient',['../d5/de0/weaponsystem_8qc.html#aec5e2aede6ee988407e695b747aa1577',1,'weaponsystem.qc']]],
   ['cl_5fweaponentity_5fthink',['CL_Weaponentity_Think',['../d5/de0/weaponsystem_8qc.html#a3f9b3f390008e2bc8f0cfdcd8ca141db',1,'weaponsystem.qc']]],
+  ['cl_5fweaponpriority_5fold',['cl_weaponpriority_old',['../d4/def/weapons_8qc.html#a007f9e08be8fbcc7379b55ee0831582a',1,'weapons.qc']]],
   ['clanarena',['ClanArena',['../da/def/classClanArena.html',1,'ClanArena'],['../da/def/classClanArena.html#a3f4f5b175eb3ae95d7be4ba80daf0eb3',1,'ClanArena::ClanArena()']]],
   ['class',['CLASS',['../db/d0a/oo_8qh.html#a546debdb90e4bb6ade6aedf8f3e3d38f',1,'CLASS():&#160;oo.qh'],['../db/d0a/oo_8qh.html#a4627693b652f553ef276c99d9d3d9b3b',1,'CLASS(Object) Object:&#160;oo.qh']]],
   ['class_5f1',['CLASS_1',['../db/d0a/oo_8qh.html#af3831f7e2d864e52e68fb45c07dbdc43',1,'oo.qh']]],
