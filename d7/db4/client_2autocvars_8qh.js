@@ -149,6 +149,7 @@ var client_2autocvars_8qh =
     [ "autocvar_crosshair_2d", "d7/db4/client_2autocvars_8qh.html#a0f6a424aa5ee72c887bd448e985e8243", null ],
     [ "autocvar_crosshair_alpha", "d7/db4/client_2autocvars_8qh.html#af5b538a15e019793d979871bdf394960", null ],
     [ "autocvar_crosshair_chase", "d7/db4/client_2autocvars_8qh.html#afa0b1538569f26cca1f81961e7f6c50c", null ],
+    [ "autocvar_crosshair_chase_playeralpha", "d7/db4/client_2autocvars_8qh.html#ae8d10e5ee7ce98847fe3a04ce5fddecb", null ],
     [ "autocvar_crosshair_color", "d7/db4/client_2autocvars_8qh.html#a7b529925da4a8379c82874f9533966c6", null ],
     [ "autocvar_crosshair_color_special", "d7/db4/client_2autocvars_8qh.html#a48bad15c3f078a989c5090a6eea9216f", null ],
     [ "autocvar_crosshair_color_special_rainbow_brightness", "d7/db4/client_2autocvars_8qh.html#aa71796101fe1356187b03f679ad99c19", null ],
@@ -445,6 +446,5 @@ var client_2autocvars_8qh =
     [ "autocvar_vid_conheight", "d7/db4/client_2autocvars_8qh.html#aaa6ef9f88c6deee91e2e6a76cbec55bf", null ],
     [ "autocvar_vid_conwidth", "d7/db4/client_2autocvars_8qh.html#a9ef87741fddb47f05c9b79d15e37d78d", null ],
     [ "autocvar_vid_pixelheight", "d7/db4/client_2autocvars_8qh.html#a90661c2c1be6259a419cab1761feeae8", null ],
-    [ "autocvar_viewsize", "d7/db4/client_2autocvars_8qh.html#a87fb102a04abaade2707258f1e61f4e7", null ],
-    [ "crosshair_chase_playeralpha", "d7/db4/client_2autocvars_8qh.html#ad5647613978d8cde60d8c53ff9e2b7bc", null ]
+    [ "autocvar_viewsize", "d7/db4/client_2autocvars_8qh.html#a87fb102a04abaade2707258f1e61f4e7", null ]
 ];

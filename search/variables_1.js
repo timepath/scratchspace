@@ -478,6 +478,7 @@ var searchData=
   ['autocvar_5fcrosshair_5f2d',['autocvar_crosshair_2d',['../d7/db4/client_2autocvars_8qh.html#a0f6a424aa5ee72c887bd448e985e8243',1,'autocvars.qh']]],
   ['autocvar_5fcrosshair_5falpha',['autocvar_crosshair_alpha',['../d7/db4/client_2autocvars_8qh.html#af5b538a15e019793d979871bdf394960',1,'autocvars.qh']]],
   ['autocvar_5fcrosshair_5fchase',['autocvar_crosshair_chase',['../d7/db4/client_2autocvars_8qh.html#afa0b1538569f26cca1f81961e7f6c50c',1,'autocvars.qh']]],
+  ['autocvar_5fcrosshair_5fchase_5fplayeralpha',['autocvar_crosshair_chase_playeralpha',['../d7/db4/client_2autocvars_8qh.html#ae8d10e5ee7ce98847fe3a04ce5fddecb',1,'autocvars.qh']]],
   ['autocvar_5fcrosshair_5fcolor',['autocvar_crosshair_color',['../d7/db4/client_2autocvars_8qh.html#a7b529925da4a8379c82874f9533966c6',1,'autocvars.qh']]],
   ['autocvar_5fcrosshair_5fcolor_5fspecial',['autocvar_crosshair_color_special',['../d7/db4/client_2autocvars_8qh.html#a48bad15c3f078a989c5090a6eea9216f',1,'autocvars.qh']]],
   ['autocvar_5fcrosshair_5fcolor_5fspecial_5frainbow_5fbrightness',['autocvar_crosshair_color_special_rainbow_brightness',['../d7/db4/client_2autocvars_8qh.html#aa71796101fe1356187b03f679ad99c19',1,'autocvars.qh']]],

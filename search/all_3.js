@@ -803,7 +803,6 @@ var searchData=
   ['credits_5fperson',['CREDITS_PERSON',['../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065',1,'credits.qc']]],
   ['credits_5ftitle',['CREDITS_TITLE',['../d0/d80/credits_8qc.html#af5d546005b1fa4e5880a459abe5b02c0',1,'credits.qc']]],
   ['cross',['cross',['../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5',1,'vector.qh']]],
-  ['crosshair_5fchase_5fplayeralpha',['crosshair_chase_playeralpha',['../d7/db4/client_2autocvars_8qh.html#ad5647613978d8cde60d8c53ff9e2b7bc',1,'autocvars.qh']]],
   ['crosshair_5fdo_5fblur',['CROSSHAIR_DO_BLUR',['../d6/dd3/view_8qc.html#a5c1d7d4d57c3d93e1b0759629efd1173',1,'view.qc']]],
   ['crosshair_5fdraw',['CROSSHAIR_DRAW',['../d6/dd3/view_8qc.html#a5e7f89840c2bfa715e35ac94ce385944',1,'view.qc']]],
   ['crosshair_5fdraw_5fsingle',['CROSSHAIR_DRAW_SINGLE',['../d6/dd3/view_8qc.html#ab9849ddc326e1fbd3e1f6f63656ac310',1,'view.qc']]],

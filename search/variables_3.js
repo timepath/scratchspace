@@ -309,7 +309,6 @@ var searchData=
   ['createdtime',['createdtime',['../d1/da9/bot_8qh.html#a14ef1c073a5d40b9c36f3dfbee406d6c',1,'createdtime():&#160;bot.qh'],['../d7/dc4/waypoints_8qc.html#a14ef1c073a5d40b9c36f3dfbee406d6c',1,'createdtime():&#160;waypoints.qc']]],
   ['crecordtime_5fchange_5ftime',['crecordtime_change_time',['../dd/d59/modicons_8qc.html#ae1950a041f5fac123713bef2682edcc0',1,'modicons.qc']]],
   ['crecordtime_5fprev',['crecordtime_prev',['../dd/d59/modicons_8qc.html#a3ddd3b44e087e9f81d7f958eebf45183',1,'modicons.qc']]],
-  ['crosshair_5fchase_5fplayeralpha',['crosshair_chase_playeralpha',['../d7/db4/client_2autocvars_8qh.html#ad5647613978d8cde60d8c53ff9e2b7bc',1,'autocvars.qh']]],
   ['crouch',['crouch',['../d5/d26/server_2defs_8qh.html#adbd341618685614453016acdc9036a5d',1,'defs.qh']]],
   ['crush',['CRUSH',['../df/d16/common_2mapobjects_2defs_8qh.html#ae215e45f58a640fcf883e5899afbb69c',1,'defs.qh']]],
   ['crypto_5fencryptmethod',['crypto_encryptmethod',['../d1/d37/classClient.html#a2dae84a754cf7b77999839bf5891ca42',1,'Client::crypto_encryptmethod()'],['../de/d5e/dpextensions_8qc.html#a60f96a3b2f2b1f39c76e9bcf7ae94241',1,'crypto_encryptmethod():&#160;dpextensions.qc']]],
