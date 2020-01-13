@@ -35,6 +35,7 @@ var sv__buffs_8qh =
     [ "autocvar_g_buffs_random_location", "d8/dd8/sv__buffs_8qh.html#a7f35986c1be4e916c6d5d52c72a40be3", null ],
     [ "autocvar_g_buffs_random_location_attempts", "d8/dd8/sv__buffs_8qh.html#a28a469e184b148e580f41a6122017b8d", null ],
     [ "autocvar_g_buffs_randomize", "d8/dd8/sv__buffs_8qh.html#a4f705b3f26c151e66101524ff51a2ba1", null ],
+    [ "autocvar_g_buffs_randomize_teamplay", "d8/dd8/sv__buffs_8qh.html#a937b61577d6c65d387c3f234ae90ff49", null ],
     [ "autocvar_g_buffs_replace_powerups", "d8/dd8/sv__buffs_8qh.html#ab818392cc5dea6467e58ecd913d0bedc", null ],
     [ "autocvar_g_buffs_resistance_blockpercent", "d8/dd8/sv__buffs_8qh.html#ad75217bd4e4d9dde9c47671e4489671a", null ],
     [ "autocvar_g_buffs_spawn_count", "d8/dd8/sv__buffs_8qh.html#a58a89c904b6bf799b0c3c671826eac08", null ],

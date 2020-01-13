@@ -1,5 +1,6 @@
 var NAVTREEINDEX140 =
 {
+"df/df6/classXonoticSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,252,71],
 "df/df7/classOffhandBlaster.html":[1,0,91],
 "df/df7/classOffhandBlaster.html#a3eebb9e4c20d2c338b773a030eca0ee0":[1,0,91,0],
 "df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh.html":[2,0,1,10,0,4,1],
@@ -241,13 +242,12 @@ var NAVTREEINDEX140 =
 "dir_fe472327f69aa9464440251988e1566b.html":[2,0,1,9],
 "dir_ff27e448fac324d88c702b7803ed56f3.html":[2,0,1,10,0,35],
 "files.html":[2,0],
-"functions.html":[1,3,0,0],
 "functions.html":[1,3,0],
+"functions.html":[1,3,0,0],
 "functions_0x7e.html":[1,3,0,26],
 "functions_a.html":[1,3,0,1],
 "functions_b.html":[1,3,0,2],
 "functions_c.html":[1,3,0,3],
 "functions_d.html":[1,3,0,4],
-"functions_e.html":[1,3,0,5],
-"functions_f.html":[1,3,0,6]
+"functions_e.html":[1,3,0,5]
 };
