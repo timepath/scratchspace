@@ -28,7 +28,7 @@ var sv__vehicles_8qc =
     [ "vehicles_impact", "da/d10/sv__vehicles_8qc.html#a092be05e296a14ac0cb1e22b3e0786d8", null ],
     [ "vehicles_locktarget", "da/d10/sv__vehicles_8qc.html#afd879692d8ef40010a2dddb2080a722f", null ],
     [ "vehicles_painframe", "da/d10/sv__vehicles_8qc.html#a92cdd7efbcdaa3cf61dc0991746a2b74", null ],
-    [ "vehicles_projectile", "da/d10/sv__vehicles_8qc.html#a6e5c573964dc1f64a84660225655a8db", null ],
+    [ "vehicles_projectile", "da/d10/sv__vehicles_8qc.html#a3637cf54061280cb513cd9e2daabbe94", null ],
     [ "vehicles_projectile_damage", "da/d10/sv__vehicles_8qc.html#a6a2262956fe99adfdb3b2cb4d641d0cc", null ],
     [ "vehicles_projectile_explode", "da/d10/sv__vehicles_8qc.html#a72196919d56a565921774b27b5788785", null ],
     [ "vehicles_projectile_explode_think", "da/d10/sv__vehicles_8qc.html#ab6d5900a2dde193aa46c678c04258373", null ],
