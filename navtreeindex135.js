@@ -1,5 +1,6 @@
 var NAVTREEINDEX135 =
 {
+"df/d42/quake3_8qc.html#ad4899ec0dcf98c0a39b6bc4b99b3dbcf":[2,0,6,2,8,5],
 "df/d42/quake3_8qc.html#ae6af28f0406185d406556f691af0f8f2":[2,0,6,2,8,3],
 "df/d42/quake3_8qc.html#ae6ce7348eeca30f09a3ea4aca0a44683":[2,0,6,2,8,17],
 "df/d42/quake3_8qc.html#ae85e4cca4f185075917547715465c5e3":[2,0,6,2,8,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX135 =
 "df/d71/announcer_8qh.html":[2,0,0,7],
 "df/d71/announcer_8qh.html#a74359ed785035246489934d025ae3278":[2,0,0,7,1],
 "df/d71/announcer_8qh.html#abb5b4637e37634b1b1ccc43540b8b369":[2,0,0,7,0],
-"df/d71/announcer_8qh_source.html":[2,0,0,7],
-"df/d71/walker__weapon_8qc.html":[2,0,1,14,0,44]
+"df/d71/announcer_8qh_source.html":[2,0,0,7]
 };

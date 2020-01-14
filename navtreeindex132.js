@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"de/dcb/vector_8qh.html#a1c066643abd0bfa68136e0f3ee1101ed":[2,0,4,66,19],
 "de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30":[2,0,4,66,5],
 "de/dcb/vector_8qh.html#a272232a6508520d459ceb2120b5de8b7":[2,0,4,66,30],
 "de/dcb/vector_8qh.html#a2752638ed353eff53a93dccfa0f9be34":[2,0,4,66,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "df/d00/sv__rocketminsta_8qc.html#a1a53ccfb4926e78cfcdcad2f58f3a2cd":[2,0,1,10,0,29,2,2],
 "df/d00/sv__rocketminsta_8qc.html#a30fd30284f143ca24b319468fd0a0b0b":[2,0,1,10,0,29,2,0],
 "df/d00/sv__rocketminsta_8qc.html#af117505b73d3fe91e1f7d13bd5a5a1bf":[2,0,1,10,0,29,2,1],
-"df/d00/sv__rocketminsta_8qc_source.html":[2,0,1,10,0,29,2],
-"df/d02/electro_8qh.html":[2,0,1,16,0,11]
+"df/d00/sv__rocketminsta_8qc_source.html":[2,0,1,10,0,29,2]
 };
