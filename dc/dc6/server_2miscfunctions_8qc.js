@@ -1,6 +1,5 @@
 var server_2miscfunctions_8qc =
 [
-    [ "SUB_OwnerCheck", "dc/dc6/server_2miscfunctions_8qc.html#ae79a7e9cd4d8835118ccb584fe645e6f", null ],
     [ "adaptor_think2use_hittype_splash", "dc/dc6/server_2miscfunctions_8qc.html#af695d661864cdf0f78273b0a8717a1e9", null ],
     [ "attach_sameorigin", "dc/dc6/server_2miscfunctions_8qc.html#ac300f1843627f4956ab0088d6bff8b7e", null ],
     [ "crosshair_trace", "dc/dc6/server_2miscfunctions_8qc.html#a8292725ec840a49d42ef6453aaf838f6", null ],
@@ -29,7 +28,7 @@ var server_2miscfunctions_8qc =
     [ "isPushable", "dc/dc6/server_2miscfunctions_8qc.html#a5b86d62af04bbd33aa2bca5635a1e2fa", null ],
     [ "LostMovetypeFollow", "dc/dc6/server_2miscfunctions_8qc.html#adb60a180886d4dfa682f79bf827c5ce4", null ],
     [ "make_safe_for_remove", "dc/dc6/server_2miscfunctions_8qc.html#a512d742bedcc9a27b9fa5fe4b3d9ab86", null ],
-    [ "MoveToRandomLocationWithinBounds", "dc/dc6/server_2miscfunctions_8qc.html#a980a6f943699026265182e645ad4d8ef", null ],
+    [ "MoveToRandomLocationWithinBounds", "dc/dc6/server_2miscfunctions_8qc.html#ae87ca4212982681c43d9bddeca162345", null ],
     [ "MoveToRandomMapLocation", "dc/dc6/server_2miscfunctions_8qc.html#aa93bfe50de097cc229818a2822f45a45", null ],
     [ "NearestLocation", "dc/dc6/server_2miscfunctions_8qc.html#a58725b844cf250403708dcbb8b81ce07", null ],
     [ "PlayerHealth", "dc/dc6/server_2miscfunctions_8qc.html#a6e3369a94c6238b9abe7240938cafc43", null ],

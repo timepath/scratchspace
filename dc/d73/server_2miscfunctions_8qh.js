@@ -30,7 +30,7 @@ var server_2miscfunctions_8qh =
     [ "InitializeEntity", "dc/d73/server_2miscfunctions_8qh.html#aef9b6a1e3d47e62ce4d96e73b3dba237", null ],
     [ "isPushable", "dc/d73/server_2miscfunctions_8qh.html#a7d03b76da08d84e3f626de4010290ab7", null ],
     [ "LostMovetypeFollow", "dc/d73/server_2miscfunctions_8qh.html#adb60a180886d4dfa682f79bf827c5ce4", null ],
-    [ "MoveToRandomLocationWithinBounds", "dc/d73/server_2miscfunctions_8qh.html#a980a6f943699026265182e645ad4d8ef", null ],
+    [ "MoveToRandomLocationWithinBounds", "dc/d73/server_2miscfunctions_8qh.html#ae87ca4212982681c43d9bddeca162345", null ],
     [ "MoveToRandomMapLocation", "dc/d73/server_2miscfunctions_8qh.html#aa93bfe50de097cc229818a2822f45a45", null ],
     [ "NearestLocation", "dc/d73/server_2miscfunctions_8qh.html#a58725b844cf250403708dcbb8b81ce07", null ],
     [ "play2", "dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896", null ],
