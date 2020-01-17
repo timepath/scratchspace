@@ -3,7 +3,6 @@ var searchData=
   ['u8_5fstrsize',['u8_strsize',['../d2/db4/string_8qh.html#a7e5f5f4d3becad7a7014318e98b72e61',1,'string.qh']]],
   ['uid2name',['uid2name',['../dc/dc6/server_2miscfunctions_8qc.html#a943d9da424f168efb8d407b4de9833a2',1,'uid2name(string myuid):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a943d9da424f168efb8d407b4de9833a2',1,'uid2name(string myuid):&#160;miscfunctions.qc']]],
   ['unescape',['unescape',['../d2/db4/string_8qh.html#ab4a763bbfa941f4b63cf5b5fd018345c',1,'string.qh']]],
-  ['unfollow_5fsameorigin',['unfollow_sameorigin',['../dc/dc6/server_2miscfunctions_8qc.html#a03c1b8950eeb6441164aa0ee8ae330a5',1,'miscfunctions.qc']]],
   ['unfreeze',['Unfreeze',['../d5/dac/g__damage_8qc.html#acc99d1a4f941f72826f41d22d035dcee',1,'Unfreeze(entity targ, bool reset_health):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#acc99d1a4f941f72826f41d22d035dcee',1,'Unfreeze(entity targ, bool reset_health):&#160;g_damage.qc']]],
   ['unquote',['unquote',['../d3/d46/mapinfo_8qc.html#a909ab91933ee8b125ca839d26c3116d2',1,'mapinfo.qc']]],
   ['unref',['unref',['../d2/dce/promise_8qc.html#a712a7e556da708f2c2de4a0bf5fcaae9',1,'promise.qc']]],
