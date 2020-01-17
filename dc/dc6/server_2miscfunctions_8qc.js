@@ -2,7 +2,6 @@ var server_2miscfunctions_8qc =
 [
     [ "SUB_OwnerCheck", "dc/dc6/server_2miscfunctions_8qc.html#ae79a7e9cd4d8835118ccb584fe645e6f", null ],
     [ "adaptor_think2use_hittype_splash", "dc/dc6/server_2miscfunctions_8qc.html#af695d661864cdf0f78273b0a8717a1e9", null ],
-    [ "AmmoNameFromWeaponentity", "dc/dc6/server_2miscfunctions_8qc.html#ab43315cb7fcd38c5dd0f0825b8c92ba8", null ],
     [ "attach_sameorigin", "dc/dc6/server_2miscfunctions_8qc.html#ac300f1843627f4956ab0088d6bff8b7e", null ],
     [ "crosshair_trace", "dc/dc6/server_2miscfunctions_8qc.html#a8292725ec840a49d42ef6453aaf838f6", null ],
     [ "crosshair_trace_plusvisibletriggers", "dc/dc6/server_2miscfunctions_8qc.html#a9890a696168a390303c18532e659a7b9", null ],

@@ -296,6 +296,7 @@ var searchData=
   ['get_5fturretinfo',['get_turretinfo',['../db/d7f/turrets_2all_8qh.html#a480cc7101d2edcf64993e80de5a8e4ac',1,'all.qh']]],
   ['get_5fv_5fglobals',['GET_V_GLOBALS',['../d6/daf/deglobalization_8qh.html#af34877c9e65f9157bc91f0b79a16ba9d',1,'deglobalization.qh']]],
   ['getallhudskins',['getAllHUDSkins',['../da/d21/hudskinlist_8qc.html#ae9bd097a01ecb1433fb23a85af3d12b3',1,'hudskinlist.qc']]],
+  ['getammoname',['GetAmmoName',['../d0/d2b/weapons_2all_8qc.html#a35432dc70c423b0569a9ac237ba68952',1,'GetAmmoName(int ammotype):&#160;all.qc'],['../d2/d1c/weapons_2weapon_8qh.html#a35432dc70c423b0569a9ac237ba68952',1,'GetAmmoName(int ammotype):&#160;all.qc']]],
   ['getammopicture',['GetAmmoPicture',['../d0/d2b/weapons_2all_8qc.html#ab168af5e2615b44e7d6bb07022b09886',1,'GetAmmoPicture(int ammotype):&#160;all.qc'],['../d2/d1c/weapons_2weapon_8qh.html#ab168af5e2615b44e7d6bb07022b09886',1,'GetAmmoPicture(int ammotype):&#160;all.qc']]],
   ['getattackdecaysustainamplitude',['GetAttackDecaySustainAmplitude',['../d0/d0f/bgmscript_8qc.html#a18d6831ff735432088a81ddc4034596e',1,'bgmscript.qc']]],
   ['getattacktime',['GetAttackTime',['../d0/d0f/bgmscript_8qc.html#ad5dd9ec95ab469d6e40db63028bfc50d',1,'bgmscript.qc']]],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"d7/d13/campaign__common_8qh.html#ae2f904eeb0bb4119ac6be954bf3223d3":[2,0,1,24,1],
+"d7/d13/campaign__common_8qh.html#af1f6b2dec551adee34bd8d54e04b3b27":[2,0,1,24,15],
 "d7/d13/campaign__common_8qh_source.html":[2,0,1,24],
 "d7/d13/classXonoticHUDAmmoDialog.html":[1,0,187],
 "d7/d13/classXonoticHUDAmmoDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,187,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "d7/d32/classBlaster.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,7,19],
 "d7/d32/classBlaster.html#a2d77314a674f60c71de27667cb5113ad":[1,0,7,39],
 "d7/d32/classBlaster.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,7,17],
-"d7/d32/classBlaster.html#a312755d5709b880f99cf89d7a76237fe":[1,0,7,4],
-"d7/d32/classBlaster.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,7,21],
-"d7/d32/classBlaster.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,7,12]
+"d7/d32/classBlaster.html#a312755d5709b880f99cf89d7a76237fe":[1,0,7,4]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"d2/d8a/cl__turrets_8qh_source.html":[2,0,1,14,8],
+"d2/d93/common_2effects_2__mod_8qh.html":[2,0,1,2,2],
 "d2/d93/common_2effects_2__mod_8qh_source.html":[2,0,1,2,2],
 "d2/d94/xonotic_2tab_8qc.html":[2,0,5,4,226],
 "d2/d94/xonotic_2tab_8qc.html#a13fe5728a418b314ab87bb874e42231d":[2,0,5,4,226,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "d2/db1/movetypes_8qc.html#aec8e38c6a6af79893d641f0ae53a2042":[2,0,1,12,0,5,9],
 "d2/db1/movetypes_8qc.html#af4e305a34cfe09004c87a91e2461330c":[2,0,1,12,0,5,26],
 "d2/db1/movetypes_8qc.html#afa4cf35feb7ab8ba2af8f8e123ad7d56":[2,0,1,12,0,5,36],
-"d2/db1/movetypes_8qc_source.html":[2,0,1,12,0,5],
-"d2/db1/sv__invasion_8qh.html":[2,0,1,3,0,8,3],
-"d2/db1/sv__invasion_8qh.html#a1696c31cdbb3e088d0e4cea7f69b0b5d":[2,0,1,3,0,8,3,11]
+"d2/db1/movetypes_8qc_source.html":[2,0,1,12,0,5]
 };
