@@ -136,6 +136,7 @@ var server_2defs_8qh =
     [ "g_mines", "d5/d26/server_2defs_8qh.html#a09b90b074ff2e0e4a884221e80215fc6", null ],
     [ "g_monster_targets", "d5/d26/server_2defs_8qh.html#a60ee01a09f94613cad0362660e5b8a9f", null ],
     [ "g_monsters", "d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2", null ],
+    [ "g_moveables", "d5/d26/server_2defs_8qh.html#a8d670391e00d5ab6a70fe4963021b14e", null ],
     [ "g_nexball_meter_period", "d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778", null ],
     [ "g_pathlib_nodes", "d5/d26/server_2defs_8qh.html#a343db0b2176359fdbe813de89a4638b8", null ],
     [ "g_projectiles", "d5/d26/server_2defs_8qh.html#a60e662b2259d5b4ff290afd4566a17dd", null ],

@@ -6,5 +6,8 @@ var lib_8qh =
     [ "FOREACH_COMPONENT", "d5/d14/lib_8qh.html#a5b9578d4b80c7bc21c918fc1e9a09e1e", null ],
     [ "subscribe", "d5/d14/lib_8qh.html#afc00695087821a802a62241a5752f35b", null ],
     [ "SYSTEM", "d5/d14/lib_8qh.html#a6e24df793b7133a1c8b5b008e70cea18", null ],
-    [ "SYSTEM_UPDATE", "d5/d14/lib_8qh.html#a487497b106c0a92ab24fdd92fde403f5", null ]
+    [ "SYSTEM_UPDATE", "d5/d14/lib_8qh.html#a487497b106c0a92ab24fdd92fde403f5", null ],
+    [ "STATIC_INIT", "d5/d14/lib_8qh.html#a4430b8ca71fca5ea639614a7681d8be6", null ],
+    [ "g_components", "d5/d14/lib_8qh.html#a43dc96d8122e1fcceaea47347a54ad4f", null ],
+    [ "g_events", "d5/d14/lib_8qh.html#accc2ce3b3b50ab07f80731ab6a3934b5", null ]
 ];
