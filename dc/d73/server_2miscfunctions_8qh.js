@@ -19,6 +19,7 @@ var server_2miscfunctions_8qh =
     [ "EliminatedPlayers_Init", "dc/d73/server_2miscfunctions_8qh.html#aa721e0361c092a5999388d9ce9c707ce", null ],
     [ "follow_sameorigin", "dc/d73/server_2miscfunctions_8qh.html#ad793e10b99d7b9cc268469692be69fd8", null ],
     [ "formatmessage", "dc/d73/server_2miscfunctions_8qh.html#aa2ad35c3e1dd50ef39b80d690512357a", null ],
+    [ "GameLog_ProcessIP", "dc/d73/server_2miscfunctions_8qh.html#a79b65d6e94a0a3e0d2061c1b4c47031e", null ],
     [ "GameLogClose", "dc/d73/server_2miscfunctions_8qh.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5", null ],
     [ "GameLogEcho", "dc/d73/server_2miscfunctions_8qh.html#ad8252ef534185c1cbbde32e65a01a5b3", null ],
     [ "GameLogInit", "dc/d73/server_2miscfunctions_8qh.html#a08ac986acea412a0a46814dc880058c7", null ],

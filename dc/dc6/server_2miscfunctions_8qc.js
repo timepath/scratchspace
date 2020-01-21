@@ -15,6 +15,7 @@ var server_2miscfunctions_8qc =
     [ "float", "dc/dc6/server_2miscfunctions_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc", null ],
     [ "follow_sameorigin", "dc/dc6/server_2miscfunctions_8qc.html#ad793e10b99d7b9cc268469692be69fd8", null ],
     [ "formatmessage", "dc/dc6/server_2miscfunctions_8qc.html#aa2ad35c3e1dd50ef39b80d690512357a", null ],
+    [ "GameLog_ProcessIP", "dc/dc6/server_2miscfunctions_8qc.html#a79b65d6e94a0a3e0d2061c1b4c47031e", null ],
     [ "GameLogClose", "dc/dc6/server_2miscfunctions_8qc.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5", null ],
     [ "GameLogEcho", "dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3", null ],
     [ "GameLogInit", "dc/dc6/server_2miscfunctions_8qc.html#a08ac986acea412a0a46814dc880058c7", null ],
