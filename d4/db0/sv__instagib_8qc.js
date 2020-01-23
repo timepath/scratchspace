@@ -40,7 +40,6 @@ var sv__instagib_8qc =
     [ "autocvar_g_instagib_blaster_keepdamage", "d4/db0/sv__instagib_8qc.html#a8daa1b3d6ac07da5a3f78db372c4f219", null ],
     [ "autocvar_g_instagib_blaster_keepforce", "d4/db0/sv__instagib_8qc.html#abdefefee350e3dbf22fb415f758ac3ef", null ],
     [ "autocvar_g_instagib_damagedbycontents", "d4/db0/sv__instagib_8qc.html#a762db703a19bed054bfd5eb0411837c8", null ],
-    [ "autocvar_g_instagib_extralives", "d4/db0/sv__instagib_8qc.html#a2d7bbdfa38ab999cc346103fcae515da", null ],
     [ "autocvar_g_instagib_friendlypush", "d4/db0/sv__instagib_8qc.html#a1682eb98a87e6e332841618128744512", null ],
     [ "autocvar_g_instagib_mirrordamage", "d4/db0/sv__instagib_8qc.html#a7ca8902e2ca213af048e4e23a82a8784", null ],
     [ "autocvar_g_instagib_speed_highspeed", "d4/db0/sv__instagib_8qc.html#ad1fd29211b9a3896b05bd64a4d7f746b", null ],

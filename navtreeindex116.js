@@ -1,6 +1,5 @@
 var NAVTREEINDEX116 =
 {
-"dc/de2/classXonoticProfileTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,231,31],
 "dc/de2/classXonoticProfileTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,231,37],
 "dc/de2/classXonoticProfileTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,231,45],
 "dc/de2/classXonoticProfileTab.html#a53de8355052b658819638577356cc8f3":[1,0,231,57],
@@ -214,8 +213,9 @@ var NAVTREEINDEX116 =
 "dc/df0/sv__dynamic__handicap_8qc_source.html":[2,0,1,10,0,9,2],
 "dc/df0/sv__instagib_8qh.html":[2,0,1,10,0,12,5],
 "dc/df0/sv__instagib_8qh.html#a0380ab3112106a4d100b22c817facf9b":[2,0,1,10,0,12,5,0],
-"dc/df0/sv__instagib_8qh.html#a060ca69f38954f6c66d4c86044c4b63f":[2,0,1,10,0,12,5,4],
+"dc/df0/sv__instagib_8qh.html#a060ca69f38954f6c66d4c86044c4b63f":[2,0,1,10,0,12,5,5],
 "dc/df0/sv__instagib_8qh.html#a250376f7e22b2932e184591e3639f547":[2,0,1,10,0,12,5,1],
+"dc/df0/sv__instagib_8qh.html#a2d7bbdfa38ab999cc346103fcae515da":[2,0,1,10,0,12,5,4],
 "dc/df0/sv__instagib_8qh.html#abbe4cab2ab42e69e1684d843058a12e6":[2,0,1,10,0,12,5,3],
 "dc/df0/sv__instagib_8qh.html#ad4749d5439232c47d46b49b88d52ed93":[2,0,1,10,0,12,5,2],
 "dc/df0/sv__instagib_8qh_source.html":[2,0,1,10,0,12,5],
