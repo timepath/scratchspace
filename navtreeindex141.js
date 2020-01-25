@@ -1,6 +1,5 @@
 var NAVTREEINDEX141 =
 {
-"functions_func.html":[1,3,1,0],
 "functions_func_0x7e.html":[1,3,1,22],
 "functions_func_a.html":[1,3,1,1],
 "functions_func_c.html":[1,3,1,2],
@@ -147,8 +146,8 @@ var NAVTREEINDEX141 =
 "globals_type.html":[2,1,3],
 "globals_u.html":[2,1,0,21],
 "globals_v.html":[2,1,0,22],
-"globals_vars.html":[2,1,2,0],
 "globals_vars.html":[2,1,2],
+"globals_vars.html":[2,1,2,0],
 "globals_vars_a.html":[2,1,2,1],
 "globals_vars_b.html":[2,1,2,2],
 "globals_vars_c.html":[2,1,2,3],

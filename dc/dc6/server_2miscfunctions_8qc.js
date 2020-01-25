@@ -34,7 +34,7 @@ var server_2miscfunctions_8qc =
     [ "NearestLocation", "dc/dc6/server_2miscfunctions_8qc.html#a58725b844cf250403708dcbb8b81ce07", null ],
     [ "PlayerHealth", "dc/dc6/server_2miscfunctions_8qc.html#a6e3369a94c6238b9abe7240938cafc43", null ],
     [ "playername", "dc/dc6/server_2miscfunctions_8qc.html#a1889ccb32094735b4d97fbbb1ac4631b", null ],
-    [ "precache", "dc/dc6/server_2miscfunctions_8qc.html#a98a446c0272a8ef358d2113f9694a14a", null ],
+    [ "PRECACHE", "dc/dc6/server_2miscfunctions_8qc.html#a2460170632e0dae27be5dbfc5032b256", null ],
     [ "precache_all_playermodels", "dc/dc6/server_2miscfunctions_8qc.html#a5ea7bf591f44cf22ed52a48b1aa4f012", null ],
     [ "precache_playermodel", "dc/dc6/server_2miscfunctions_8qc.html#aca8c7fffaf94bfb8d4b962bc6b1dd9fe", null ],
     [ "precache_playermodels", "dc/dc6/server_2miscfunctions_8qc.html#ac5ac170cb0adc7b07823ff7faf9fb6a5", null ],
