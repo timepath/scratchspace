@@ -3,7 +3,7 @@ var sv__lms_8qc =
     [ "ClearWinners", "dc/d0d/sv__lms_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820", null ],
     [ "lms_extralife", "dc/d0d/sv__lms_8qc.html#ad72a14eb2aea1bdee58b59819c2f43df", null ],
     [ "lms_Initialize", "dc/d0d/sv__lms_8qc.html#aa7327441f669f21b871d3cd035f9c4e4", null ],
-    [ "LMS_NewPlayerLives", "dc/d0d/sv__lms_8qc.html#a25114f90621533d4d5bee24ebf2003f4", null ],
+    [ "LMS_NewPlayerLives", "dc/d0d/sv__lms_8qc.html#a1f2e5295a3f62fbf2b4691293eec2ec5", null ],
     [ "lms_RemovePlayer", "dc/d0d/sv__lms_8qc.html#a0a66f0e0fcbcfdc582cfd3709335dbea", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a2385f734cb636ada6774fcf460a1ff68", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a9c11e4b5ceee9ae029eaead407748ade", null ],
