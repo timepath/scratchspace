@@ -1,8 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"d3/dd5/bd_8qc.html#a02961c8f17f0e07df88f2a60c1eb7816":[2,0,1,7,0,3,45],
-"d3/dd5/bd_8qc.html#a051007cbf0daa912a5c4622f5f1b47d3":[2,0,1,7,0,3,30],
-"d3/dd5/bd_8qc.html#a05dec46dde45e134efd1d17b8fe4bc58":[2,0,1,7,0,3,67],
 "d3/dd5/bd_8qc.html#a07c06eb3b7ba1dd490c5f09cb01909ce":[2,0,1,7,0,3,47],
 "d3/dd5/bd_8qc.html#a09566807d755f082682716c0c59020b2":[2,0,1,7,0,3,23],
 "d3/dd5/bd_8qc.html#a0a073d7c243e58237f61e48f69541563":[2,0,1,7,0,3,11],
@@ -249,5 +246,8 @@ var NAVTREEINDEX32 =
 "d3/deb/dialog__multiplayer__media_8qh_source.html":[2,0,5,4,101],
 "d3/dec/common_2mutators_2mutator_2instagib_2items_8qc.html":[2,0,1,10,0,12,2],
 "d3/dec/common_2mutators_2mutator_2instagib_2items_8qc_source.html":[2,0,1,10,0,12,2],
-"d3/def/sv__turrets_8qc.html":[2,0,1,14,11]
+"d3/def/sv__turrets_8qc.html":[2,0,1,14,11],
+"d3/def/sv__turrets_8qc_source.html":[2,0,1,14,11],
+"d3/df2/classDualPlasmaTurret.html":[1,0,31],
+"d3/df2/classDualPlasmaTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,31,5]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX122 =
 {
-"dd/da3/classXonoticMusicPlayerTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,222,23],
-"dd/da3/classXonoticMusicPlayerTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,222,51],
-"dd/da3/classXonoticMusicPlayerTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,222,31],
-"dd/da3/classXonoticMusicPlayerTab.html#a331c55a30b4bc22951a251062508326b":[1,0,222,24],
-"dd/da3/classXonoticMusicPlayerTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,222,17],
-"dd/da3/classXonoticMusicPlayerTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,222,32],
-"dd/da3/classXonoticMusicPlayerTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,222,48],
-"dd/da3/classXonoticMusicPlayerTab.html#a39b77a1923845447d837ff9f399e9aff":[1,0,222,86],
 "dd/da3/classXonoticMusicPlayerTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,222,1],
 "dd/da3/classXonoticMusicPlayerTab.html#a3f9c5e6943891f335099fe380661b70c":[1,0,222,41],
 "dd/da3/classXonoticMusicPlayerTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,222,16],
@@ -249,5 +241,13 @@ var NAVTREEINDEX122 =
 "dd/db3/classXonoticQuitDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,232,77],
 "dd/db3/classXonoticQuitDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,232,34],
 "dd/db3/classXonoticQuitDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,232,5],
-"dd/db3/classXonoticQuitDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,232,89]
+"dd/db3/classXonoticQuitDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,232,89],
+"dd/db3/classXonoticQuitDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,232,42],
+"dd/db3/classXonoticQuitDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,232,51],
+"dd/db3/classXonoticQuitDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,232,0],
+"dd/db3/classXonoticQuitDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,232,31],
+"dd/db3/classXonoticQuitDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,232,36],
+"dd/db3/classXonoticQuitDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,232,56],
+"dd/db3/classXonoticQuitDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,232,33],
+"dd/db3/classXonoticQuitDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,232,83]
 };

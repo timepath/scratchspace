@@ -1,13 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"de/d8f/common_2gamemodes_2gamemode_2__mod_8inc_source.html":[2,0,1,3,0,16],
-"de/d93/classXonoticBindingsResetDialog.html":[1,0,153],
-"de/d93/classXonoticBindingsResetDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,153,30],
-"de/d93/classXonoticBindingsResetDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,153,11],
-"de/d93/classXonoticBindingsResetDialog.html#a03a588d44cbe7994aabea45505f14564":[1,0,153,57],
-"de/d93/classXonoticBindingsResetDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,153,38],
-"de/d93/classXonoticBindingsResetDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,153,3],
-"de/d93/classXonoticBindingsResetDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,153,82],
 "de/d93/classXonoticBindingsResetDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,153,80],
 "de/d93/classXonoticBindingsResetDialog.html#a0db62bb304bfc32cc5aae0efb0fe7646":[1,0,153,76],
 "de/d93/classXonoticBindingsResetDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,153,46],
@@ -249,5 +241,13 @@ var NAVTREEINDEX130 =
 "de/da1/sv__keepaway_8qc.html#a9b503874ac510522dc72d0b593489361":[2,0,1,3,0,9,6,43],
 "de/da1/sv__keepaway_8qc.html#a9f97ec6d4961eea75d416813ba4704d0":[2,0,1,3,0,9,6,37],
 "de/da1/sv__keepaway_8qc.html#aa1a2aa8ae07900242b232886cf4bc00f":[2,0,1,3,0,9,6,33],
-"de/da1/sv__keepaway_8qc.html#aa5860056b36d396ef83793b3442cf173":[2,0,1,3,0,9,6,35]
+"de/da1/sv__keepaway_8qc.html#aa5860056b36d396ef83793b3442cf173":[2,0,1,3,0,9,6,35],
+"de/da1/sv__keepaway_8qc.html#aa67ca021ca035e8fd4b994d94da5218f":[2,0,1,3,0,9,6,39],
+"de/da1/sv__keepaway_8qc.html#aa95f631b3e19d4de9d5362822909e82c":[2,0,1,3,0,9,6,28],
+"de/da1/sv__keepaway_8qc.html#aac10b6fca59a918f3708da8333b43a46":[2,0,1,3,0,9,6,19],
+"de/da1/sv__keepaway_8qc.html#ab06fea865fdeb7f803cbc648e8500ce2":[2,0,1,3,0,9,6,0],
+"de/da1/sv__keepaway_8qc.html#ab89d0e6381ce1c8063c585292d27b381":[2,0,1,3,0,9,6,40],
+"de/da1/sv__keepaway_8qc.html#aba900e001d432363ed6e93c6b5499a84":[2,0,1,3,0,9,6,3],
+"de/da1/sv__keepaway_8qc.html#abbf02f92af7cca347d884d06e05b7399":[2,0,1,3,0,9,6,11],
+"de/da1/sv__keepaway_8qc.html#ac4c4fbb459ed5ae28fa62d2a8d53a5a7":[2,0,1,3,0,9,6,13]
 };

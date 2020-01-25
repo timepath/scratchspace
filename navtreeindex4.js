@@ -63,9 +63,6 @@ var NAVTREEINDEX4 =
 "d0/d97/common_2gamemodes_2gamemode_2deathmatch_2__mod_8qh.html":[2,0,1,3,0,4,1],
 "d0/d97/common_2gamemodes_2gamemode_2deathmatch_2__mod_8qh_source.html":[2,0,1,3,0,4,1],
 "d0/d99/bumblebee_8qc.html":[2,0,1,15,0,2],
-"d0/d99/bumblebee_8qc.html#ab3991f27a4a9f44dfd26e870e816bd37":[2,0,1,15,0,2,1],
-"d0/d99/bumblebee_8qc.html#acbc25258849bd1317be574e62791457e":[2,0,1,15,0,2,2],
-"d0/d99/bumblebee_8qc.html#ad1271fcfce420b713bb9ccfc43933d72":[2,0,1,15,0,2,0],
 "d0/d99/bumblebee_8qc_source.html":[2,0,1,15,0,2],
 "d0/d9a/classGameItem.html":[1,0,45],
 "d0/d9a/classGameItem.html#a48b78d497828537731feaa167c8af4f1":[1,0,45,10],
@@ -249,5 +246,8 @@ var NAVTREEINDEX4 =
 "d0/dab/classOnslaught.html#af1a6db9207b7000984864c8176081b52":[1,0,94,13],
 "d0/dab/classOnslaught.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,94,5],
 "d0/dab/item_2checkbox_8qc.html":[2,0,5,2,6],
-"d0/dab/item_2checkbox_8qc.html#a0613433efda7ff67eb76c243baade2cb":[2,0,5,2,6,4]
+"d0/dab/item_2checkbox_8qc.html#a0613433efda7ff67eb76c243baade2cb":[2,0,5,2,6,4],
+"d0/dab/item_2checkbox_8qc.html#a0a906e13e37a44844dc1f2f669d652bf":[2,0,5,2,6,5],
+"d0/dab/item_2checkbox_8qc.html#a41b1f33b987f4f1d0d566cc6c75263ed":[2,0,5,2,6,2],
+"d0/dab/item_2checkbox_8qc.html#a4c56bc89f8620e4cde3de6641c315a69":[2,0,5,2,6,1]
 };

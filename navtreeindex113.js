@@ -1,8 +1,5 @@
 var NAVTREEINDEX113 =
 {
-"dc/d73/server_2miscfunctions_8qh.html#a34150498ceb2cfaa7494e6edbbddba51":[2,0,6,42,120],
-"dc/d73/server_2miscfunctions_8qh.html#a356100fb9799e6f8e2754365f6994cb8":[2,0,6,42,73],
-"dc/d73/server_2miscfunctions_8qh.html#a3864dd00e6d914869ec70d29a30001a6":[2,0,6,42,121],
 "dc/d73/server_2miscfunctions_8qh.html#a39ca50f89d6bc328dbb562377b7f0176":[2,0,6,42,92],
 "dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896":[2,0,6,42,34],
 "dc/d73/server_2miscfunctions_8qh.html#a3c72b53854b08604a60086ad28dca2fb":[2,0,6,42,103],
@@ -103,11 +100,6 @@ var NAVTREEINDEX113 =
 "dc/d73/server_2miscfunctions_8qh.html#afe434522c381a2b1f92dddefd27e2538":[2,0,6,42,89],
 "dc/d73/server_2miscfunctions_8qh_source.html":[2,0,6,42],
 "dc/d76/spiderbot_8qc.html":[2,0,1,15,0,14],
-"dc/d76/spiderbot_8qc.html#a05bf6fdd2769b6aeb7158ee625ee3920":[2,0,1,15,0,14,4],
-"dc/d76/spiderbot_8qc.html#a2990519fa5f4b6c49ad313bf1cc04aea":[2,0,1,15,0,14,2],
-"dc/d76/spiderbot_8qc.html#aad244c9a8dc8ffa7f1ee43b8ebb38b2f":[2,0,1,15,0,14,1],
-"dc/d76/spiderbot_8qc.html#ab3db41953741eda4e5f3348a66667556":[2,0,1,15,0,14,0],
-"dc/d76/spiderbot_8qc.html#acd2fbfed45ffe38445e0867d25386b9b":[2,0,1,15,0,14,3],
 "dc/d76/spiderbot_8qc_source.html":[2,0,1,15,0,14],
 "dc/d7e/quake3_8qh.html":[2,0,6,2,9],
 "dc/d7e/quake3_8qh.html#a589e1206acb6c0ac2f8ec3bba25222b3":[2,0,6,2,9,0],
@@ -249,5 +241,13 @@ var NAVTREEINDEX113 =
 "dc/d90/hud__config_8qc.html#a8139f676a2c372ad00642651cf828e98":[2,0,0,1,5,19],
 "dc/d90/hud__config_8qc.html#a836fc1c893e8df08e6939b97f925acb8":[2,0,0,1,5,26],
 "dc/d90/hud__config_8qc.html#a8f71e851dc8273cc146da540c869b7eb":[2,0,0,1,5,14],
-"dc/d90/hud__config_8qc.html#a909082b7b3de632938d841419eb2905a":[2,0,0,1,5,16]
+"dc/d90/hud__config_8qc.html#a909082b7b3de632938d841419eb2905a":[2,0,0,1,5,16],
+"dc/d90/hud__config_8qc.html#a9692f06595934ac32eee091e80b35c33":[2,0,0,1,5,2],
+"dc/d90/hud__config_8qc.html#a997bcd4a77add62b1ec1ed127a5bd1bb":[2,0,0,1,5,6],
+"dc/d90/hud__config_8qc.html#ab101f15063f106dd54dec4906c303c69":[2,0,0,1,5,21],
+"dc/d90/hud__config_8qc.html#ab2a385344d8bacc9b73beeaa4eebbb05":[2,0,0,1,5,23],
+"dc/d90/hud__config_8qc.html#ab5e7e895d0f21c2dcc213d9ef2042330":[2,0,0,1,5,25],
+"dc/d90/hud__config_8qc.html#aba766fc33603dfefbe5064abba204436":[2,0,0,1,5,31],
+"dc/d90/hud__config_8qc.html#abbf6988934c32970ae4faf465defcc5b":[2,0,0,1,5,18],
+"dc/d90/hud__config_8qc.html#ac4325f87797d58b1c1e4b23d81945214":[2,0,0,1,5,11]
 };
