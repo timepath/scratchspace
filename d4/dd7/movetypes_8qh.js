@@ -6,6 +6,7 @@ var movetypes_8qh =
     [ "GAMEPLAYFIX_NOAIRBORNCORPSE", "d4/dd7/movetypes_8qh.html#aca1913160098561eba882722b1b2d07a", null ],
     [ "GAMEPLAYFIX_SLIDEMOVEPROJECTILES", "d4/dd7/movetypes_8qh.html#ada4999e12988ef669599c26ec329095f", null ],
     [ "GAMEPLAYFIX_STEPDOWN", "d4/dd7/movetypes_8qh.html#a29a88512a529238f210bd12531cf3859", null ],
+    [ "GAMEPLAYFIX_STEPDOWN_MAXSPEED", "d4/dd7/movetypes_8qh.html#adbfba38430a1128eb2b3ad5919805e32", null ],
     [ "GAMEPLAYFIX_STEPMULTIPLETIMES", "d4/dd7/movetypes_8qh.html#ad06c0c0ae6b69f294b4bb1c2fd898caf", null ],
     [ "GAMEPLAYFIX_UNSTICKPLAYERS", "d4/dd7/movetypes_8qh.html#a3823e7faa5111ca7142b61cc6dfce354", null ],
     [ "GAMEPLAYFIX_WATERTRANSITION", "d4/dd7/movetypes_8qh.html#a6b498138118d9d34aa3267caa5415fde", null ],
