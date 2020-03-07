@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"d8/da8/classXonoticServerCreateTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,245,2],
 "d8/da8/classXonoticServerCreateTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,245,47],
 "d8/da8/classXonoticServerCreateTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,245,51],
 "d8/da8/classXonoticServerCreateTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,245,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a789454b5903d12bd224eda2e3a18f45c":[2,0,1,10,0,39,3,19],
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a78df896c4907aa16d744e8cd2f16eea5":[2,0,1,10,0,39,3,9],
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a7e125b9b1c95a10f859b80c7a3456266":[2,0,1,10,0,39,3,4],
-"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a86be0f909473273bc66cdb66686ab6ff":[2,0,1,10,0,39,3,22],
-"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a891fed42f39b5a92c6df9514bb28ca07":[2,0,1,10,0,39,3,7]
+"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a86be0f909473273bc66cdb66686ab6ff":[2,0,1,10,0,39,3,22]
 };

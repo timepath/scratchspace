@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"d7/d13/campaign__common_8qh.html#aaa64dc89313bcf520b231ef1f80bee48":[2,0,1,24,3],
 "d7/d13/campaign__common_8qh.html#ad1cedff3e303471c758c7c7a9ce1bd0a":[2,0,1,24,6],
 "d7/d13/campaign__common_8qh.html#ae2f904eeb0bb4119ac6be954bf3223d3":[2,0,1,24,1],
 "d7/d13/campaign__common_8qh.html#af1f6b2dec551adee34bd8d54e04b3b27":[2,0,1,24,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "d7/d32/classBlaster.html#a17f155a849bf1aad1fb6f97232996be9":[1,0,7,28],
 "d7/d32/classBlaster.html#a1c8437833108d8e5fee3535929d05f32":[1,0,7,27],
 "d7/d32/classBlaster.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,7,19],
-"d7/d32/classBlaster.html#a2d77314a674f60c71de27667cb5113ad":[1,0,7,39],
-"d7/d32/classBlaster.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,7,17]
+"d7/d32/classBlaster.html#a2d77314a674f60c71de27667cb5113ad":[1,0,7,39]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX102 =
 {
+"db/d5a/classXonoticHUDPowerupsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,199,80],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,199,46],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,199,24],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,199,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX102 =
 "db/d63/classXonoticColorpicker.html#ae043e531be6438119d7536369abaf6d1":[1,0,160,18],
 "db/d63/classXonoticColorpicker.html#ae138f23d4495900be0ede2783c05a714":[1,0,160,30],
 "db/d63/classXonoticColorpicker.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,160,3],
-"db/d63/classXonoticColorpicker.html#af88618c1f0dbd043b2eb97e89f2b9f27":[1,0,160,22],
-"db/d66/common_2gamemodes_2gamemode_2domination_2__mod_8qh.html":[2,0,1,3,0,5,1]
+"db/d63/classXonoticColorpicker.html#af88618c1f0dbd043b2eb97e89f2b9f27":[1,0,160,22]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"d9/d5b/struct_8qh.html#ae69c432837297969610c02ae676df3ef":[2,0,4,60,15],
 "d9/d5b/struct_8qh.html#af129c03c7f8ba74cb5a55dc4c2bbc571":[2,0,4,60,12],
 "d9/d5b/struct_8qh_source.html":[2,0,4,60],
 "d9/d5d/devastator_8qc.html":[2,0,1,16,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,191,68],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,191,7],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,191,70],
-"d9/d85/classXonoticHUDEngineInfoDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,191,4],
-"d9/d85/classXonoticHUDEngineInfoDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,191,41]
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,191,4]
 };
