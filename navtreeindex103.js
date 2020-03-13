@@ -1,5 +1,9 @@
 var NAVTREEINDEX103 =
 {
+"db/d63/classXonoticColorpicker.html#ae043e531be6438119d7536369abaf6d1":[1,0,160,18],
+"db/d63/classXonoticColorpicker.html#ae138f23d4495900be0ede2783c05a714":[1,0,160,30],
+"db/d63/classXonoticColorpicker.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,160,3],
+"db/d63/classXonoticColorpicker.html#af88618c1f0dbd043b2eb97e89f2b9f27":[1,0,160,22],
 "db/d66/common_2gamemodes_2gamemode_2domination_2__mod_8qh.html":[2,0,1,3,0,5,1],
 "db/d66/common_2gamemodes_2gamemode_2domination_2__mod_8qh_source.html":[2,0,1,3,0,5,1],
 "db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc.html":[2,0,1,10,0,36,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX103 =
 "db/d7f/effectinfo_8inc.html#a4989a6ae4d5b77b8848dea2254214ea9":[2,0,1,2,7,383],
 "db/d7f/effectinfo_8inc.html#a49daf9802f1fdaf4d3a78670f020dc97":[2,0,1,2,7,95],
 "db/d7f/effectinfo_8inc.html#a4af8f654858c52cf900b4b49de410f11":[2,0,1,2,7,169],
-"db/d7f/effectinfo_8inc.html#a4b2e91e226e6430fd6e392928f895fbd":[2,0,1,2,7,349],
-"db/d7f/effectinfo_8inc.html#a4d115281d8162ea625917a5bc35ad10d":[2,0,1,2,7,277],
-"db/d7f/effectinfo_8inc.html#a4e4df8f18ebe9b8cad15382b4aa02e54":[2,0,1,2,7,365],
-"db/d7f/effectinfo_8inc.html#a4eb21a1adda919ac91fc4f6880ed7b24":[2,0,1,2,7,378],
-"db/d7f/effectinfo_8inc.html#a4f2841554641525aa83c7fb40731db19":[2,0,1,2,7,359]
+"db/d7f/effectinfo_8inc.html#a4b2e91e226e6430fd6e392928f895fbd":[2,0,1,2,7,349]
 };

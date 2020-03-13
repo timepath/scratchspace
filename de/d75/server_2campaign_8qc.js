@@ -1,5 +1,7 @@
 var server_2campaign_8qc =
 [
+    [ "Campaign_GetLevelNum", "de/d75/server_2campaign_8qc.html#ae91b8fafeb0858ca316ae8e3947e1375", null ],
+    [ "Campaign_GetMessage", "de/d75/server_2campaign_8qc.html#abf8b9898403b75f51f2c746f646c5e52", null ],
     [ "Campaign_Invalid", "de/d75/server_2campaign_8qc.html#abfea39da7117c15c75361680cf612c4b", null ],
     [ "CampaignBailout", "de/d75/server_2campaign_8qc.html#ae3841e7cf893366d3376a80f43c1f2a3", null ],
     [ "CampaignLevelWarp", "de/d75/server_2campaign_8qc.html#aced14c1c4530221ef1ad4313dc1fde79", null ],
