@@ -25,6 +25,7 @@ var server_2command_2vote_8qc =
     [ "VoteCommand_checkargs", "d1/dad/server_2command_2vote_8qc.html#a22498c645f96b89fa94e3ea039fb6fcf", null ],
     [ "VoteCommand_checkinlist", "d1/dad/server_2command_2vote_8qc.html#a1a3204fe576b589231b2621d70d8eeee", null ],
     [ "VoteCommand_checknasty", "d1/dad/server_2command_2vote_8qc.html#aa87ee0e2c399505d83d290b4bef95caf", null ],
+    [ "VoteCommand_checkreplacements", "d1/dad/server_2command_2vote_8qc.html#a8748c323cc8d7aea242efebe95b81fe5", null ],
     [ "VoteCommand_extractcommand", "d1/dad/server_2command_2vote_8qc.html#a9db93d32f624e8b83f58e922cb4ede3f", null ],
     [ "VoteCommand_macro_command", "d1/dad/server_2command_2vote_8qc.html#a84398e4971abb32d49d0dd94918a281e", null ],
     [ "VoteCommand_macro_help", "d1/dad/server_2command_2vote_8qc.html#abe4a2e3fd5c533319ea51970d72f95f7", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#afa4aad2a534374149043f5c3ab313db5":[2,0,5,4,112,6],
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#aff0960818a9a72706ab6b675bd541a7d":[2,0,5,4,112,1],
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc_source.html":[2,0,5,4,112],
 "d4/dbd/fusionreactor_8qh.html":[2,0,1,14,0,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "d4/df5/overkill_8qc_source.html":[2,0,1,10,0,23,14],
 "d4/df7/common_2mutators_2mutator_2cloaked_2__mod_8qh.html":[2,0,1,10,0,5,1],
 "d4/df7/common_2mutators_2mutator_2cloaked_2__mod_8qh_source.html":[2,0,1,10,0,5,1],
-"d4/df8/classXonoticHUDRadarDialog.html":[1,0,203],
-"d4/df8/classXonoticHUDRadarDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,203,30]
+"d4/df8/classXonoticHUDRadarDialog.html":[1,0,203]
 };

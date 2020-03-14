@@ -1,5 +1,6 @@
 var NAVTREEINDEX91 =
 {
+"d9/dfe/sv__dynamic__handicap_8qh.html":[2,0,1,10,0,9,3],
 "d9/dfe/sv__dynamic__handicap_8qh_source.html":[2,0,1,10,0,9,3],
 "da/d0b/common_2mutators_2mutator_2rocketflying_2__mod_8qh.html":[2,0,1,10,0,28,1],
 "da/d0b/common_2mutators_2mutator_2rocketflying_2__mod_8qh_source.html":[2,0,1,10,0,28,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX91 =
 "da/d2a/classXonoticDecibelsSlider.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,170,0],
 "da/d2a/classXonoticDecibelsSlider.html#a868bbf91a5aa2de1bba5c969df478316":[1,0,170,45],
 "da/d2a/classXonoticDecibelsSlider.html#a896da94f4d9e857ff8d0124b6621a802":[1,0,170,78],
-"da/d2a/classXonoticDecibelsSlider.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,170,63],
-"da/d2a/classXonoticDecibelsSlider.html#a8c417c95c040a29cf9f83ee606f161ce":[1,0,170,28]
+"da/d2a/classXonoticDecibelsSlider.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,170,63]
 };

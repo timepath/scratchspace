@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"d6/da5/classXonoticScrollPanel.html#a82217d761797df8a2e65054eab910734":[1,0,244,10],
 "d6/da5/classXonoticScrollPanel.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,244,58],
 "d6/da5/classXonoticScrollPanel.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,244,40],
 "d6/da5/classXonoticScrollPanel.html#a90c99d2a372da52f90fdbd32c4415115":[1,0,244,74],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "d6/dbf/maplist_8qh_source.html":[2,0,5,4,185],
 "d6/dc8/secret_8qh.html":[2,0,1,6,3,41],
 "d6/dc8/secret_8qh_source.html":[2,0,1,6,3,41],
-"d6/dc9/menu_2anim_2__mod_8qh.html":[2,0,5,0,1],
-"d6/dc9/menu_2anim_2__mod_8qh_source.html":[2,0,5,0,1]
+"d6/dc9/menu_2anim_2__mod_8qh.html":[2,0,5,0,1]
 };

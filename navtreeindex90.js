@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"d9/de9/classListBox.html#a18456fc3d44b3528c7595c73f42a8acc":[1,0,70,51],
 "d9/de9/classListBox.html#a1faadc4a48d3d08a7575defa2b4480dc":[1,0,70,39],
 "d9/de9/classListBox.html#a2188ecd49040da1f5cb826f6dd52e8c3":[1,0,70,25],
 "d9/de9/classListBox.html#a230ddb1a3db4e3db29b3c2e1590dd22e":[1,0,70,66],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "d9/dfb/radarmap_8qc.html":[2,0,6,1,10],
 "d9/dfb/radarmap_8qc_source.html":[2,0,6,1,10],
 "d9/dfd/server_2bot_2default_2__mod_8inc.html":[2,0,6,0,0,1],
-"d9/dfd/server_2bot_2default_2__mod_8inc_source.html":[2,0,6,0,0,1],
-"d9/dfe/sv__dynamic__handicap_8qh.html":[2,0,1,10,0,9,3]
+"d9/dfd/server_2bot_2default_2__mod_8inc_source.html":[2,0,6,0,0,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"d3/d1f/items_2all_8qc_source.html":[2,0,1,5,3],
 "d3/d20/common_2gamemodes_2gamemode_2deathmatch_2__mod_8inc.html":[2,0,1,3,0,4,0],
 "d3/d20/common_2gamemodes_2gamemode_2deathmatch_2__mod_8inc_source.html":[2,0,1,3,0,4,0],
 "d3/d21/doublejump_8qh.html":[2,0,1,10,0,8,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "d3/d47/classXonoticTabController.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,257,4],
 "d3/d47/classXonoticTabController.html#a746410ea39f1849396441365b18a8ef9":[1,0,257,29],
 "d3/d47/classXonoticTabController.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,257,12],
-"d3/d47/classXonoticTabController.html#a883dcfdf451cce74f641fbc376896e2a":[1,0,257,50],
-"d3/d47/classXonoticTabController.html#a890974fd1608e18604cdc5b674b96f47":[1,0,257,51]
+"d3/d47/classXonoticTabController.html#a883dcfdf451cce74f641fbc376896e2a":[1,0,257,50]
 };
