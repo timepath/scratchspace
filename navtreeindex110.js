@@ -1,5 +1,7 @@
 var NAVTREEINDEX110 =
 {
+"dc/d06/classDialog.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,29,23],
+"dc/d06/classDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,29,48],
 "dc/d06/classDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,29,26],
 "dc/d06/classDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,29,53],
 "dc/d06/classDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,29,32],
@@ -247,7 +249,5 @@ var NAVTREEINDEX110 =
 "dc/d24/rifle_8qh.html":[2,0,1,16,0,29],
 "dc/d24/rifle_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,29,1],
 "dc/d24/rifle_8qh.html#a46f6aae3b1b726e3c84c83cc6e079c4b":[2,0,1,16,0,29,2],
-"dc/d24/rifle_8qh_source.html":[2,0,1,16,0,29],
-"dc/d24/xonotic_2textslider_8qc.html":[2,0,5,4,232],
-"dc/d24/xonotic_2textslider_8qc.html#a0e70a3e0454883e400c7ca7b8f7fbad8":[2,0,5,4,232,2]
+"dc/d24/rifle_8qh_source.html":[2,0,1,16,0,29]
 };

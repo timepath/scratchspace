@@ -70,6 +70,7 @@ var searchData=
   ['scrolling',['scrolling',['../d4/d55/classXonoticCreditsList.html#a7e648d41a7f78b2263816afdbcce9375',1,'XonoticCreditsList']]],
   ['scrollpos',['scrollPos',['../d1/dec/classInputBox.html#ac909eb899e2cd152c8d7c6b514a27d44',1,'InputBox::scrollPos()'],['../d9/de9/classListBox.html#aed05f75651928be9263a2073856f33cd',1,'ListBox::scrollPos()']]],
   ['scrollpostarget',['scrollPosTarget',['../d9/de9/classListBox.html#ad924e458ea4e11cfa81a9261cd7977ba',1,'ListBox']]],
+  ['secondscore',['secondscore',['../db/dcc/g__world_8qc.html#a29315088ffa7c064b305daf1b5dd2cfe',1,'g_world.qc']]],
   ['seenipv4',['seenIPv4',['../d2/dec/classXonoticServerList.html#a814a264f3f438a76831fe103bf23138f',1,'XonoticServerList']]],
   ['seenipv6',['seenIPv6',['../d2/dec/classXonoticServerList.html#a55846e9fdc3b7dbef1944fdaf7382534',1,'XonoticServerList']]],
   ['selectedcell',['selectedCell',['../df/d27/classXonoticPicker.html#adb75de8c448487ab259097879941191e',1,'XonoticPicker']]],
