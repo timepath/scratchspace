@@ -407,6 +407,7 @@ var client_2autocvars_8qh =
     [ "autocvar_hud_progressbar_fuel_color", "d7/db4/client_2autocvars_8qh.html#a699cf36d590be87fafe54dac79c58add", null ],
     [ "autocvar_hud_progressbar_health_color", "d7/db4/client_2autocvars_8qh.html#ae543dd9005152e4e5cfc1a79973874fa", null ],
     [ "autocvar_hud_progressbar_nexball_color", "d7/db4/client_2autocvars_8qh.html#a0ad2f52b0a32298be7bf7b9c47a9a116", null ],
+    [ "autocvar_hud_progressbar_oxygen_color", "d7/db4/client_2autocvars_8qh.html#a37e65f4a4ea67efc88b611288e88bfb8", null ],
     [ "autocvar_hud_progressbar_shield_color", "d7/db4/client_2autocvars_8qh.html#a978163bdf53685fe6296eee6840b2775", null ],
     [ "autocvar_hud_progressbar_speed_color", "d7/db4/client_2autocvars_8qh.html#a8af82dc82a1b353fa688b5c454b9e9ef", null ],
     [ "autocvar_hud_progressbar_strength_color", "d7/db4/client_2autocvars_8qh.html#aaeed0dcad6b744d362790ce89f77811b", null ],

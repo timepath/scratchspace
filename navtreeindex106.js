@@ -1,5 +1,9 @@
 var NAVTREEINDEX106 =
 {
+"db/daf/playerstats_8qh_source.html":[2,0,1,40],
+"db/db1/classXonoticHUDRaceTimerDialog.html":[1,0,202],
+"db/db1/classXonoticHUDRaceTimerDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,202,30],
+"db/db1/classXonoticHUDRaceTimerDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,202,11],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,202,38],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,202,3],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,202,82],
@@ -245,9 +249,5 @@ var NAVTREEINDEX106 =
 "db/dbd/classXonoticHUDPressedKeysDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,200,64],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,200,9],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,200,78],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,200,77],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,200,34],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,200,5],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,200,88],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,200,42]
+"db/dbd/classXonoticHUDPressedKeysDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,200,77]
 };

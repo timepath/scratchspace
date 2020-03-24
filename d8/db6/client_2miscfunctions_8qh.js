@@ -22,6 +22,8 @@ var client_2miscfunctions_8qh =
     [ "Accuracy_LoadColors", "d8/db6/client_2miscfunctions_8qh.html#ab400daf1f187c979509f50f3ec2a283c", null ],
     [ "Accuracy_LoadLevels", "d8/db6/client_2miscfunctions_8qh.html#a98516230f6e7959f7824679707baad4d", null ],
     [ "AuditLists", "d8/db6/client_2miscfunctions_8qh.html#a246d0a94a3d0249d9504aae592cf2f9d", null ],
+    [ "blink", "d8/db6/client_2miscfunctions_8qh.html#aef248138a461b2553c9291729bab74fa", null ],
+    [ "blink_synced", "d8/db6/client_2miscfunctions_8qh.html#a792ba9ae23c11db80c1cae17083dbc06", null ],
     [ "cvar_or", "d8/db6/client_2miscfunctions_8qh.html#afc198f5b8ad430fd865a828902319624", null ],
     [ "drawborderlines", "d8/db6/client_2miscfunctions_8qh.html#a6d052d69b73c05b41ab3c1636778baa7", null ],
     [ "DrawCircleClippedPic", "d8/db6/client_2miscfunctions_8qh.html#ab82e3b5481aefcca1ae05ea36128abef", null ],

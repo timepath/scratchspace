@@ -4,6 +4,8 @@ var client_2miscfunctions_8qc =
     [ "Accuracy_LoadColors", "dc/d98/client_2miscfunctions_8qc.html#ab400daf1f187c979509f50f3ec2a283c", null ],
     [ "Accuracy_LoadLevels", "dc/d98/client_2miscfunctions_8qc.html#a98516230f6e7959f7824679707baad4d", null ],
     [ "AuditLists", "dc/d98/client_2miscfunctions_8qc.html#a246d0a94a3d0249d9504aae592cf2f9d", null ],
+    [ "blink", "dc/d98/client_2miscfunctions_8qc.html#aef248138a461b2553c9291729bab74fa", null ],
+    [ "blink_synced", "dc/d98/client_2miscfunctions_8qc.html#ad78aed0e77f2c1750b4746b306e8ed46", null ],
     [ "cvar_or", "dc/d98/client_2miscfunctions_8qc.html#afc198f5b8ad430fd865a828902319624", null ],
     [ "drawborderlines", "dc/d98/client_2miscfunctions_8qc.html#a6d052d69b73c05b41ab3c1636778baa7", null ],
     [ "DrawCircleClippedPic", "dc/d98/client_2miscfunctions_8qc.html#ab82e3b5481aefcca1ae05ea36128abef", null ],
