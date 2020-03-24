@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,174,73],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,174,21],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,174,23],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,174,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "d1/ddc/progname_8qh.html":[2,0,4,44],
 "d1/ddc/progname_8qh_source.html":[2,0,4,44],
 "d1/ddc/toss_8qh.html":[2,0,1,12,0,10],
-"d1/ddc/toss_8qh_source.html":[2,0,1,12,0,10],
-"d1/de2/classFreezeTag.html":[1,0,43]
+"d1/ddc/toss_8qh_source.html":[2,0,1,12,0,10]
 };

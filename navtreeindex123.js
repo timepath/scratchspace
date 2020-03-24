@@ -1,5 +1,6 @@
 var NAVTREEINDEX123 =
 {
+"dd/db3/classXonoticQuitDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,232,5],
 "dd/db3/classXonoticQuitDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,232,89],
 "dd/db3/classXonoticQuitDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,232,42],
 "dd/db3/classXonoticQuitDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,232,51],
@@ -103,14 +104,14 @@ var NAVTREEINDEX123 =
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,15,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,15,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,15,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,1],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,0],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,1],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,15,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,15,12],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,2],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
-"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,4],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,5],
+"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,4],
 "dd/dd5/sv__model_8qc_source.html":[2,0,4,0,15],
 "dd/dd7/classRacer.html":[1,0,112],
 "dd/dd7/classRacer.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,112,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX123 =
 "dd/dee/functional_8qh.html#af104abfdba050160d20b47bb183a1cb7":[2,0,4,22,1],
 "dd/dee/functional_8qh.html#af194d3bfd67083f66de7bf4d9a426393":[2,0,4,22,19],
 "dd/dee/functional_8qh.html#af1de4b1905b6cff9221ecc312aa11474":[2,0,4,22,14],
-"dd/dee/functional_8qh.html#af2f92c6eeadf76fe4f52159f076e6a75":[2,0,4,22,11],
-"dd/dee/functional_8qh.html#af40e52a87c70411432ba1a7744c3d6cd":[2,0,4,22,21]
+"dd/dee/functional_8qh.html#af2f92c6eeadf76fe4f52159f076e6a75":[2,0,4,22,11]
 };

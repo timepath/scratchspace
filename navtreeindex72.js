@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"d7/db4/client_2autocvars_8qh.html#afebae62286efa29815e2009a88e5f188":[2,0,0,8,274],
 "d7/db4/client_2autocvars_8qh_source.html":[2,0,0,8],
 "d7/db6/sv__clanarena_8qc.html":[2,0,1,3,0,1,2],
 "d7/db6/sv__clanarena_8qc.html#a0492a20050a72a4530f1ddf7da1c030d":[2,0,1,3,0,1,2,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "d7/dd0/sv__onslaught_8qh.html#a99e0e77bd92c05ac164fd295f0d2a6af":[2,0,1,3,0,13,17,49],
 "d7/dd0/sv__onslaught_8qh.html#a9ad37dc764c506fb62e4473280cebd27":[2,0,1,3,0,13,17,44],
 "d7/dd0/sv__onslaught_8qh.html#a9b6c6ccdd530645fe875330fcacf517a":[2,0,1,3,0,13,17,27],
-"d7/dd0/sv__onslaught_8qh.html#a9d2ee66e4d6dc89a52f994e45d589222":[2,0,1,3,0,13,17,10],
-"d7/dd0/sv__onslaught_8qh.html#a9f8bfa25b20af5e346f55db729e6b9e5":[2,0,1,3,0,13,17,24]
+"d7/dd0/sv__onslaught_8qh.html#a9d2ee66e4d6dc89a52f994e45d589222":[2,0,1,3,0,13,17,10]
 };

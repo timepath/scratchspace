@@ -1,5 +1,6 @@
 var NAVTREEINDEX110 =
 {
+"dc/d06/classDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,29,21],
 "dc/d06/classDialog.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,29,23],
 "dc/d06/classDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,29,48],
 "dc/d06/classDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,29,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX110 =
 "dc/d23/dialog__settings_8qh_source.html":[2,0,5,4,121],
 "dc/d24/rifle_8qh.html":[2,0,1,16,0,29],
 "dc/d24/rifle_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,29,1],
-"dc/d24/rifle_8qh.html#a46f6aae3b1b726e3c84c83cc6e079c4b":[2,0,1,16,0,29,2],
-"dc/d24/rifle_8qh_source.html":[2,0,1,16,0,29]
+"dc/d24/rifle_8qh.html#a46f6aae3b1b726e3c84c83cc6e079c4b":[2,0,1,16,0,29,2]
 };

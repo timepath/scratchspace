@@ -728,6 +728,7 @@ var searchData=
   ['autocvar_5fg_5fcampcheck_5fdamage',['autocvar_g_campcheck_damage',['../d1/d98/sv__campcheck_8qc.html#a496724b8aa3b54fcbe1c61fc0eadb2e7',1,'sv_campcheck.qc']]],
   ['autocvar_5fg_5fcampcheck_5fdistance',['autocvar_g_campcheck_distance',['../d1/d98/sv__campcheck_8qc.html#a5baa325c38a264e891097b9c0df73030',1,'sv_campcheck.qc']]],
   ['autocvar_5fg_5fcampcheck_5finterval',['autocvar_g_campcheck_interval',['../d1/d98/sv__campcheck_8qc.html#a6f8008979c2f9a440b5432e0b34360be',1,'sv_campcheck.qc']]],
+  ['autocvar_5fg_5fcampcheck_5ftypecheck',['autocvar_g_campcheck_typecheck',['../d1/d98/sv__campcheck_8qc.html#a03bef6b1af4c9ff7fa1e979a751369bf',1,'sv_campcheck.qc']]],
   ['autocvar_5fg_5fcasings',['autocvar_g_casings',['../d7/da7/server_2autocvars_8qh.html#a2cdcf807c51d47d0bfab01bb7a949f87',1,'autocvars.qh']]],
   ['autocvar_5fg_5fchangeteam_5fbanned',['autocvar_g_changeteam_banned',['../d2/d76/teamplay_8qh.html#a40a769572e9c0c5a7bea62859d3e5fb4',1,'teamplay.qh']]],
   ['autocvar_5fg_5fchat_5fflood_5fburst',['autocvar_g_chat_flood_burst',['../d7/da7/server_2autocvars_8qh.html#af4ed050130058522aec343796d4ab930',1,'autocvars.qh']]],

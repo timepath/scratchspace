@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"d4/d3b/classXonoticBigButton.html#a551caf43464ecebace012d2b272c7bad":[1,0,151,11],
 "d4/d3b/classXonoticBigButton.html#a56159c764874bed976add81f81298c31":[1,0,151,43],
 "d4/d3b/classXonoticBigButton.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,151,48],
 "d4/d3b/classXonoticBigButton.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,151,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "d4/d4e/datasource_8qc_source.html":[2,0,5,4,34],
 "d4/d4f/__all_8qh.html":[2,0,1,16,2],
 "d4/d4f/__all_8qh_source.html":[2,0,1,16,2],
-"d4/d51/healtharmor_8qh.html":[2,0,0,1,0,11],
-"d4/d51/healtharmor_8qh_source.html":[2,0,0,1,0,11]
+"d4/d51/healtharmor_8qh.html":[2,0,0,1,0,11]
 };
