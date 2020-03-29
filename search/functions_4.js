@@ -66,7 +66,6 @@ var searchData=
   ['disableserverbackwardscompatibility',['DisableServerBackwardsCompatibility',['../df/d9b/menu_2xonotic_2util_8qc.html#a53bfe701bbbb1907a6e9f286e0bcec0f',1,'util.qc']]],
   ['disconnect_5fclick',['Disconnect_Click',['../d4/dee/dialog__disconnect_8qc.html#a629638b82eec2c823376de2fc6632a90',1,'dialog_disconnect.qc']]],
   ['display',['display',['../d0/d9a/classGameItem.html#a7357a3badf480bbfe18c110d15cbd2f8',1,'GameItem::display()'],['../d1/d6b/classGametype.html#a51550ad7b1e68706e89c9a555aa42b22',1,'Gametype::display()'],['../de/d3c/classBuff.html#acaa339ccb9cec6b5323ef674593d842f',1,'Buff::display()'],['../d9/d61/classNade.html#a1da4e2143f74e475c1dfa909f1aaf76c',1,'Nade::display()'],['../d2/d3d/classTurret.html#a138adca099fbd117101fe56edb53d8aa',1,'Turret::display()'],['../dc/de5/classWeapon.html#ad155218ce1844b7f3ce8cf880721d08f',1,'Weapon::display()']]],
-  ['dist_5fpoint_5fline',['dist_point_line',['../de/dcb/vector_8qh.html#a0db213d36a5f7477879d2ee7a97cc1b3',1,'vector.qh']]],
   ['distributeevenly_5fget',['DistributeEvenly_Get',['../dc/d95/random_8qc.html#a9ae48def58660aa0c13655057d0907c0',1,'random.qc']]],
   ['distributeevenly_5fgetrandomized',['DistributeEvenly_GetRandomized',['../dc/d95/random_8qc.html#acc8befefb27dba59131032524556e108',1,'random.qc']]],
   ['distributeevenly_5finit',['DistributeEvenly_Init',['../dc/d95/random_8qc.html#a355b7207ca87b1f0e07124897f4496a9',1,'random.qc']]],

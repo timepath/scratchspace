@@ -1,7 +1,9 @@
 var navigation_8qh =
 [
-    [ "navigation_item_addlink", "df/dd4/navigation_8qh.html#aed1823bd355300a4134a3be66e84d0b5", null ],
-    [ "navigation_item_islinked", "df/dd4/navigation_8qh.html#ab214f0d141d4e514862499c8bcc83013", null ],
+    [ "navigation_item_add_link", "df/dd4/navigation_8qh.html#afc96f4834ebbe04c2652040ef0347d36", null ],
+    [ "navigation_item_getlinknum", "df/dd4/navigation_8qh.html#a613546d2df4114c5d7ff85a0caf1adaa", null ],
+    [ "navigation_item_initlinks_ifneeded", "df/dd4/navigation_8qh.html#abfc05cc2896e27a79ed28053359de14a", null ],
+    [ "navigation_item_iswalkablelink", "df/dd4/navigation_8qh.html#a7eeca6c4f38db8bf91e8c2fc79aec177", null ],
     [ "SUBMERGED_NO", "df/dd4/navigation_8qh.html#ae3a57b786bdc98475b40ff7eab1e6f7d", null ],
     [ "SUBMERGED_UNDEFINED", "df/dd4/navigation_8qh.html#a572b0bc972dcfa6dbc86487126bce8d2", null ],
     [ "SUBMERGED_YES", "df/dd4/navigation_8qh.html#ade451e59a24812f8e5265bc9e739e855", null ],
@@ -37,6 +39,7 @@ var navigation_8qh =
     [ "tracewalk", "df/dd4/navigation_8qh.html#a9d9c345136223ace07189bcefdb13c0e", null ],
     [ "blacklisted", "df/dd4/navigation_8qh.html#abb6daa71f72c8c9f713e934539950256", null ],
     [ "bot_basewaypoint", "df/dd4/navigation_8qh.html#a215452013844cd2f22ceee67858579d2", null ],
+    [ "BOT_BUNNYHOP_WP_DETECTION_RANGE", "df/dd4/navigation_8qh.html#a81ea8c222a0e605ebb3a6e607029dace", null ],
     [ "bot_navigation_movemode", "df/dd4/navigation_8qh.html#a165f472aa8f2332847961c9f8aedaf70", null ],
     [ "bot_waypoint_queue_bestgoal", "df/dd4/navigation_8qh.html#a0a9dee1d25d36cbd28fbb1f454b9f8d6", null ],
     [ "bot_waypoint_queue_bestgoalrating", "df/dd4/navigation_8qh.html#a50ccba7a7f9b2a8ee6d943a61a1f99c7", null ],

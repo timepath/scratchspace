@@ -1,5 +1,6 @@
 var bot_8qc =
 [
+    [ "PARSE_WEAPON_PRIORITIES", "d2/dc0/bot_8qc.html#a4dc1e0807a5739f8d0b19c1d38db9ada", null ],
     [ "READSKILL", "d2/dc0/bot_8qc.html#a84c9e8e70f4e0413fd8c326931dd4f9d", null ],
     [ "autoskill", "d2/dc0/bot_8qc.html#a62777f93cd332cdb248328fd072e3547", null ],
     [ "bot_calculate_stepheightvec", "d2/dc0/bot_8qc.html#a93e7d8dfd34f0d07a3c9f4ef59ed3888", null ],
