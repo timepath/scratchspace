@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"d4/d90/skin-customizables_8inc.html#af975974ff04be2122999254c84af16f5":[2,0,5,18,109],
 "d4/d90/skin-customizables_8inc.html#afc92eac528950606dc238cba8892d5ea":[2,0,5,18,41],
 "d4/d90/skin-customizables_8inc_source.html":[2,0,5,18],
 "d4/d91/classXonoticCampaignList.html":[1,0,155],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "d4/d93/classPickup.html#ac88de49ea35f4990740cb804bbe94f28":[1,0,102,8],
 "d4/d93/classPickup.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,102,5],
 "d4/d93/classPickup.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,102,12],
-"d4/d94/classXonoticHUDVoteDialog.html":[1,0,207],
-"d4/d94/classXonoticHUDVoteDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,207,30]
+"d4/d94/classXonoticHUDVoteDialog.html":[1,0,207]
 };

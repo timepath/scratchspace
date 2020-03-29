@@ -285,6 +285,7 @@ var searchData=
   ['st_5fcts_5flaps',['ST_CTS_LAPS',['../d8/d80/sv__cts_8qh.html#a66141889a6515673a3f81a45247024ff',1,'sv_cts.qh']]],
   ['st_5fdom_5fcaps',['ST_DOM_CAPS',['../da/de5/sv__domination_8qh.html#a4775b5dabe0d519c13fa8aaa4ab574d7',1,'sv_domination.qh']]],
   ['st_5fdom_5fticks',['ST_DOM_TICKS',['../da/de5/sv__domination_8qh.html#a886393b0dcd24628acbfab1e1ba79167',1,'sv_domination.qh']]],
+  ['st_5fft_5frounds',['ST_FT_ROUNDS',['../d7/d2d/sv__freezetag_8qh.html#a7ab87b12157e4a0c082ced0c257e126d',1,'sv_freezetag.qh']]],
   ['st_5finv_5fkills',['ST_INV_KILLS',['../d2/db1/sv__invasion_8qh.html#a67bdbdbda35d6b76102987c1042da7a6',1,'sv_invasion.qh']]],
   ['st_5fkh_5fcaps',['ST_KH_CAPS',['../da/d2c/sv__keyhunt_8qc.html#aa41aafec7dc08ba2d16e3508a7410f7c',1,'sv_keyhunt.qc']]],
   ['st_5fnexball_5fgoals',['ST_NEXBALL_GOALS',['../d2/d24/sv__nexball_8qc.html#a33730788f7bdcaf32f1b82bbc2f695d8',1,'sv_nexball.qc']]],

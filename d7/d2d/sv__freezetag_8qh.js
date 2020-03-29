@@ -14,5 +14,6 @@ var sv__freezetag_8qh =
     [ "freezetag_frozen_timeout", "d7/d2d/sv__freezetag_8qh.html#a5c7d231b29848dbe9e992548d57958bb", null ],
     [ "freezetag_teams", "d7/d2d/sv__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e", null ],
     [ "ICE_MAX_ALPHA", "d7/d2d/sv__freezetag_8qh.html#aa6539dc2fe101f47fdac71e3ed17e482", null ],
-    [ "ICE_MIN_ALPHA", "d7/d2d/sv__freezetag_8qh.html#a04c8661fa0aa1a7cd957c6b739de6cde", null ]
+    [ "ICE_MIN_ALPHA", "d7/d2d/sv__freezetag_8qh.html#a04c8661fa0aa1a7cd957c6b739de6cde", null ],
+    [ "ST_FT_ROUNDS", "d7/d2d/sv__freezetag_8qh.html#a7ab87b12157e4a0c082ced0c257e126d", null ]
 ];
