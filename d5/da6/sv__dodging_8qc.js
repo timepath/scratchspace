@@ -3,6 +3,7 @@ var sv__dodging_8qc =
     [ "PHYS_DODGING", "d5/da6/sv__dodging_8qc.html#a7b00a6266d8df52d6f887ee69c84634e", null ],
     [ "PHYS_DODGING_AIR", "d5/da6/sv__dodging_8qc.html#a51caaa15fb6f8d0b46b8764fc815abcd", null ],
     [ "PHYS_DODGING_AIR_MAXSPEED", "d5/da6/sv__dodging_8qc.html#a3e888efbd3016a4846de8281d74beece", null ],
+    [ "PHYS_DODGING_CLIENTSELECT", "d5/da6/sv__dodging_8qc.html#aacdec3f6d0f30b6f4b4c04079c7d502c", null ],
     [ "PHYS_DODGING_DELAY", "d5/da6/sv__dodging_8qc.html#ab699c1967674ab3cfdde1f0f0e9fd217", null ],
     [ "PHYS_DODGING_DISTANCE_THRESHOLD", "d5/da6/sv__dodging_8qc.html#ae2fe3c4e71bac00221ee1de977cfe923", null ],
     [ "PHYS_DODGING_FROZEN_DOUBLETAP", "d5/da6/sv__dodging_8qc.html#a5162a728765c32846463479e33c2c492", null ],

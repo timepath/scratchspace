@@ -1,5 +1,11 @@
 var NAVTREEINDEX79 =
 {
+"d8/da8/classXonoticServerCreateTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,245,65],
+"d8/da8/classXonoticServerCreateTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,245,70],
+"d8/da8/classXonoticServerCreateTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,245,83],
+"d8/da8/classXonoticServerCreateTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,245,41],
+"d8/da8/classXonoticServerCreateTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,245,69],
+"d8/da8/classXonoticServerCreateTab.html#ae1258b206abbfcf1723abdc01411f4b7":[1,0,245,67],
 "d8/da8/classXonoticServerCreateTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,245,98],
 "d8/da8/classXonoticServerCreateTab.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,245,94],
 "d8/da8/classXonoticServerCreateTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,245,18],
@@ -243,11 +249,5 @@ var NAVTREEINDEX79 =
 "d8/dc1/sv__monsters_8qh.html#ad38e245a9d1d49f3b9c3314a8adf02a1":[2,0,1,9,7,52],
 "d8/dc1/sv__monsters_8qh.html#ad44ce9c84852d383c13a73159ec63607":[2,0,1,9,7,24],
 "d8/dc1/sv__monsters_8qh.html#ad8628daedf5275fcecb4ac552d7c9fc7":[2,0,1,9,7,34],
-"d8/dc1/sv__monsters_8qh.html#adfaac5a027ceff5e2b8bc95ff8b615d3":[2,0,1,9,7,43],
-"d8/dc1/sv__monsters_8qh.html#ae390f0411202437977d0c074774a3fb5":[2,0,1,9,7,19],
-"d8/dc1/sv__monsters_8qh.html#aeaede679c81cd462e3dee27a4982374f":[2,0,1,9,7,3],
-"d8/dc1/sv__monsters_8qh.html#aebb34e80bc4aafcc88ae983d13b34668":[2,0,1,9,7,14],
-"d8/dc1/sv__monsters_8qh.html#aec1e29825310819882d3a698fbdcdcb1":[2,0,1,9,7,30],
-"d8/dc1/sv__monsters_8qh.html#af65188818bc9bf87f3058a3b9dd5ffad":[2,0,1,9,7,55],
-"d8/dc1/sv__monsters_8qh.html#af6fd9a6f6a7602ea1bf37921cb674a67":[2,0,1,9,7,27]
+"d8/dc1/sv__monsters_8qh.html#adfaac5a027ceff5e2b8bc95ff8b615d3":[2,0,1,9,7,43]
 };

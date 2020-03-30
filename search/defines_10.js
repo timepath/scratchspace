@@ -60,6 +60,7 @@ var searchData=
   ['phys_5fdodging',['PHYS_DODGING',['../d5/da6/sv__dodging_8qc.html#a7b00a6266d8df52d6f887ee69c84634e',1,'sv_dodging.qc']]],
   ['phys_5fdodging_5fair',['PHYS_DODGING_AIR',['../d5/da6/sv__dodging_8qc.html#a51caaa15fb6f8d0b46b8764fc815abcd',1,'sv_dodging.qc']]],
   ['phys_5fdodging_5fair_5fmaxspeed',['PHYS_DODGING_AIR_MAXSPEED',['../d5/da6/sv__dodging_8qc.html#a3e888efbd3016a4846de8281d74beece',1,'sv_dodging.qc']]],
+  ['phys_5fdodging_5fclientselect',['PHYS_DODGING_CLIENTSELECT',['../d5/da6/sv__dodging_8qc.html#aacdec3f6d0f30b6f4b4c04079c7d502c',1,'sv_dodging.qc']]],
   ['phys_5fdodging_5fdelay',['PHYS_DODGING_DELAY',['../d5/da6/sv__dodging_8qc.html#ab699c1967674ab3cfdde1f0f0e9fd217',1,'sv_dodging.qc']]],
   ['phys_5fdodging_5fdistance_5fthreshold',['PHYS_DODGING_DISTANCE_THRESHOLD',['../d5/da6/sv__dodging_8qc.html#ae2fe3c4e71bac00221ee1de977cfe923',1,'sv_dodging.qc']]],
   ['phys_5fdodging_5ffrozen',['PHYS_DODGING_FROZEN',['../de/d70/common_2physics_2player_8qh.html#adfec9ab8c3a16be4551314422cdda4ec',1,'player.qh']]],

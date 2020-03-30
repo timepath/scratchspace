@@ -56,6 +56,7 @@ var classClient =
     [ "cvar_cl_casings", "d1/d37/classClient.html#a9e8c81f1b8b9d620016488589df74af4", null ],
     [ "cvar_cl_clippedspectating", "d1/d37/classClient.html#a26036b7494d9b1e5634683ccd2270113", null ],
     [ "cvar_cl_cts_noautoswitch", "d1/d37/classClient.html#a1da889e7ccc1c050939ba9380bd6c0d0", null ],
+    [ "cvar_cl_dodging", "d1/d37/classClient.html#afb01a95491ac64f573993d569fd35177", null ],
     [ "cvar_cl_dodging_timeout", "d1/d37/classClient.html#a1ff444c49a92236b916c54bc08797f9e", null ],
     [ "cvar_cl_gunalign", "d1/d37/classClient.html#aca0549b88bbbd855b73a3df973561e6c", null ],
     [ "cvar_cl_handicap", "d1/d37/classClient.html#a67d23901aa908fbbb2762d8b9924c8f1", null ],
