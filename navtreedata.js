@@ -110,7 +110,7 @@ var NAVTREEINDEX =
 "d8/da8/classXonoticServerCreateTab.html#ad149e91b2fa7473fc46e28c4c602a397",
 "d8/dc1/sv__monsters_8qh.html#ae390f0411202437977d0c074774a3fb5",
 "d8/de2/menudefs_8qc.html#a2599760b164ff32f823313eec8ffb6e6",
-"d8/de2/server_2client_8qh.html#a6d096a58438e31209ebb36b2064102d4",
+"d8/de2/server_2client_8qh.html#a5f32182c9463bf8c77afb1502ade553c",
 "d9/d08/client_2defs_8qh.html#a3248f6d8520a7f388ba479a02326a24d",
 "d9/d12/models_2all_8inc.html#a069e0aa4d3dfe260a14b69531e040198",
 "d9/d12/models_2all_8inc_source.html",

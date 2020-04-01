@@ -490,6 +490,7 @@ var searchData=
   ['rotate',['Rotate',['../d8/db6/client_2miscfunctions_8qh.html#ad91aed42765e2e8c710999dfdcbac770',1,'Rotate(vector v, float a):&#160;vector.qh'],['../de/dcb/vector_8qh.html#ad69a2fa91e1a42f6abdd16bbac20728c',1,'Rotate(vector v, float a):&#160;vector.qh']]],
   ['rotating_2eqc',['rotating.qc',['../d9/d01/rotating_8qc.html',1,'']]],
   ['rotating_2eqh',['rotating.qh',['../d0/dce/rotating_8qh.html',1,'']]],
+  ['rotregen',['RotRegen',['../df/dd7/server_2client_8qc.html#a9b2f54689f4d48edeed062a1e5a585d0',1,'RotRegen(entity this, int res, float regenstable, float regenfactor, float regenlinear, float regenframetime, float rotstable, float rotfactor, float rotlinear, float rotframetime, float limit_mod):&#160;client.qc'],['../d8/de2/server_2client_8qh.html#a334146765709c91d303d39b64d70960c',1,'RotRegen(entity this, float current, float regenstable, float regenfactor, float regenlinear, float regenframetime, float rotstable, float rotfactor, float rotlinear, float rotframetime, float limit_mod):&#160;client.qh']]],
   ['round_5fendtime',['round_endtime',['../db/d20/round__handler_8qh.html#af83ddd8c629ced0f8036d173746bf5d9',1,'round_handler.qh']]],
   ['round_5fhandler',['round_handler',['../db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9',1,'round_handler.qh']]],
   ['round_5fhandler_2eqc',['round_handler.qc',['../db/dfc/round__handler_8qc.html',1,'']]],

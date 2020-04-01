@@ -2,7 +2,6 @@ var server_2client_8qc =
 [
     [ "CalcRegen", "df/dd7/server_2client_8qc.html#a268c4676a29a84d1109b7de04b22f785", null ],
     [ "CalcRot", "df/dd7/server_2client_8qc.html#a9e59628b3f73816184b3bff22b8641b0", null ],
-    [ "CalcRotRegen", "df/dd7/server_2client_8qc.html#ae65b054c6752ac6d32c4212a3b9a4294", null ],
     [ "ChatBubbleThink", "df/dd7/server_2client_8qc.html#a97cf0c815bb1c93811d35628d62f751c", null ],
     [ "CheckPlayerModel", "df/dd7/server_2client_8qc.html#a81497331b22f9248fec442b8f1889f6c", null ],
     [ "checkSpectatorBlock", "df/dd7/server_2client_8qc.html#a3cb890504a3e0218ed83a60fcba8b17c", null ],
@@ -57,6 +56,7 @@ var server_2client_8qc =
     [ "PutObserverInServer", "df/dd7/server_2client_8qc.html#a5e3082357cac2361155d16ee49c91224", null ],
     [ "PutPlayerInServer", "df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3", null ],
     [ "respawn", "df/dd7/server_2client_8qc.html#a9892fecc7414ccaabfbcd27e4cd56692", null ],
+    [ "RotRegen", "df/dd7/server_2client_8qc.html#a9b2f54689f4d48edeed062a1e5a585d0", null ],
     [ "Say", "df/dd7/server_2client_8qc.html#abb0f165077ac886332b821ac30314b8a", null ],
     [ "send_CSQC_teamnagger", "df/dd7/server_2client_8qc.html#a62b8839530824d20596d155faefe0411", null ],
     [ "SetChangeParms", "df/dd7/server_2client_8qc.html#aa460e4cfe6422ab064012ebe689d7f79", null ],
