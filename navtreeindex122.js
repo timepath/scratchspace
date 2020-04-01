@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"dd/da1/dialog__settings__game__hud_8qc.html#a057008f0eb43d4c862b6e4ff9db6da28":[2,0,5,4,132,3],
+"dd/da1/dialog__settings__game__hud_8qc.html#a339f2f6d3acd74f0a18c2db26f303fa1":[2,0,5,4,132,2],
 "dd/da1/dialog__settings__game__hud_8qc.html#a57427e87f05e329a87ac5937269e8b60":[2,0,5,4,132,0],
 "dd/da1/dialog__settings__game__hud_8qc.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,132,1],
 "dd/da1/dialog__settings__game__hud_8qc_source.html":[2,0,5,4,132],
@@ -247,7 +249,5 @@ var NAVTREEINDEX122 =
 "dd/db3/classXonoticQuitDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,232,40],
 "dd/db3/classXonoticQuitDialog.html#a60ec6e360ed37efb20828c4de68a56ee":[1,0,232,81],
 "dd/db3/classXonoticQuitDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,232,62],
-"dd/db3/classXonoticQuitDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,232,74],
-"dd/db3/classXonoticQuitDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,232,6],
-"dd/db3/classXonoticQuitDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,232,14]
+"dd/db3/classXonoticQuitDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,232,74]
 };
