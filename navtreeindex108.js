@@ -1,8 +1,5 @@
 var NAVTREEINDEX108 =
 {
-"db/dd3/classCallback.html":[1,0,13],
-"db/dd3/classCallback.html#af8d4aab0572cc7fcf3dca4e1174faef8":[1,0,13,0],
-"db/dd3/classCallback.html#af99cb10117c292e3a495925c6692c412":[1,0,13,1],
 "db/dd3/dialog__settings__misc__reset_8qh.html":[2,0,5,4,153],
 "db/dd3/dialog__settings__misc__reset_8qh_source.html":[2,0,5,4,153],
 "db/dd3/doublejump_8qc.html":[2,0,1,10,0,8,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX108 =
 "db/dec/sv__race_8qc.html#af16ef4c5fe5fb7facae3c81a86bc0720":[2,0,1,3,0,14,2,14],
 "db/dec/sv__race_8qc.html#af5c1256665acff951494d182d83c080c":[2,0,1,3,0,14,2,13],
 "db/dec/sv__race_8qc.html#af9d563e6f225d1497dd79589f79e7183":[2,0,1,3,0,14,2,23],
-"db/dec/sv__race_8qc.html#afb9cfce39a940f7e0fd176fd1a159172":[2,0,1,3,0,14,2,20]
+"db/dec/sv__race_8qc.html#afb9cfce39a940f7e0fd176fd1a159172":[2,0,1,3,0,14,2,20],
+"db/dec/sv__race_8qc.html#afd8bb8bada4e4e94b04f9d0652cb62cc":[2,0,1,3,0,14,2,18],
+"db/dec/sv__race_8qc_source.html":[2,0,1,3,0,14,2],
+"db/dee/projectiles_8qh.html":[2,0,1,16,12]
 };

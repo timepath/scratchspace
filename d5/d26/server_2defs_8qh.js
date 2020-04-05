@@ -149,7 +149,6 @@ var server_2defs_8qh =
     [ "g_warmup_allguns", "d5/d26/server_2defs_8qh.html#ac1c30ec6307b210f08d78ee929599d2a", null ],
     [ "g_warmup_allow_timeout", "d5/d26/server_2defs_8qh.html#a02bc0ed2dad26a552548fc97d9f5b1ec", null ],
     [ "g_waypoints", "d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85", null ],
-    [ "game_completion_ratio", "d5/d26/server_2defs_8qh.html#ade9e09fd1e749c3e7a7cead63b9561ef", null ],
     [ "gamemode_name", "d5/d26/server_2defs_8qh.html#a28e18708dd262dd304c3371d071a5b18", null ],
     [ "grab", "d5/d26/server_2defs_8qh.html#a6f34f8320d12028a7513dccc40735a24", null ],
     [ "hagar_load", "d5/d26/server_2defs_8qh.html#aac7d3f508a055df76a2b01961f24ed16", null ],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"d9/df7/mathlib_8qh.html#afe4fd4c69320cfbb00dc777c0b63ade2":[2,0,4,2,9,13],
 "d9/df7/mathlib_8qh.html#aff2e840abf39a06175267ce0fa55de9c":[2,0,4,2,9,42],
 "d9/df7/mathlib_8qh_source.html":[2,0,4,2,9],
 "d9/df7/sv__stale__move__negation_8qh.html":[2,0,1,10,0,33,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX91 =
 "da/d2a/classXonoticDecibelsSlider.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,170,14],
 "da/d2a/classXonoticDecibelsSlider.html#a4e7cbd246f6764a75dc6408bae7bb571":[1,0,170,75],
 "da/d2a/classXonoticDecibelsSlider.html#a5443afd02f77fd76625a075a627901ff":[1,0,170,39],
-"da/d2a/classXonoticDecibelsSlider.html#a55442877dc3cf55275e549668183841c":[1,0,170,27]
+"da/d2a/classXonoticDecibelsSlider.html#a55442877dc3cf55275e549668183841c":[1,0,170,27],
+"da/d2a/classXonoticDecibelsSlider.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,170,49]
 };

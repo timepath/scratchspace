@@ -1,6 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a30e76204a36bc7d61d806aad8f0c5ced":[1,0,265,20],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,265,78],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,265,73],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,265,64],
@@ -249,5 +248,6 @@ var NAVTREEINDEX74 =
 "d8/d0e/lazy_8qh_source.html":[2,0,4,29],
 "d8/d12/classRaptor.html":[1,0,115],
 "d8/d12/classRaptor.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,115,8],
-"d8/d12/classRaptor.html#a06439f934271f5c5223cbf583f539feb":[1,0,115,25]
+"d8/d12/classRaptor.html#a06439f934271f5c5223cbf583f539feb":[1,0,115,25],
+"d8/d12/classRaptor.html#a127bbb3521b618343bb4ca069e63090f":[1,0,115,19]
 };

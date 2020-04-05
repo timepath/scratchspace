@@ -1,6 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"da/d7c/plasma_8qh_source.html":[2,0,1,14,0,33],
 "da/d7d/conveyor_8qc.html":[2,0,1,6,0,8],
 "da/d7d/conveyor_8qc.html#a957dafa8a01f330eb3610e1bb9769d88":[2,0,1,6,0,8,0],
 "da/d7d/conveyor_8qc_source.html":[2,0,1,6,0,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX94 =
 "da/d9b/classXonoticButton.html#a7ba277f3c886c7d391915d273fede63c":[1,0,154,58],
 "da/d9b/classXonoticButton.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,154,64],
 "da/d9b/classXonoticButton.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,154,0],
-"da/d9b/classXonoticButton.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,154,63]
+"da/d9b/classXonoticButton.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,154,63],
+"da/d9b/classXonoticButton.html#a8b3010fc463034904b21d7d6da17a127":[1,0,154,62]
 };

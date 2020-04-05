@@ -77,7 +77,6 @@ var searchData=
   ['g_5fweaponratefactor',['g_weaponratefactor',['../dc/d73/server_2miscfunctions_8qh.html#a1f1c89a455e88ef7b5b687554db7e56f',1,'miscfunctions.qh']]],
   ['g_5fweaponspeedfactor',['g_weaponspeedfactor',['../dc/d73/server_2miscfunctions_8qh.html#a7f799d5ca0e44070e327c4e40e9e811b',1,'miscfunctions.qh']]],
   ['g_5fweaponspreadfactor',['g_weaponspreadfactor',['../dc/d73/server_2miscfunctions_8qh.html#a922a1c50f8ed3891e52d1ddd5ca15b40',1,'miscfunctions.qh']]],
-  ['game_5fcompletion_5fratio',['game_completion_ratio',['../d5/d26/server_2defs_8qh.html#ade9e09fd1e749c3e7a7cead63b9561ef',1,'defs.qh']]],
   ['game_5fconnected',['GAME_CONNECTED',['../d0/d41/menu_8qh.html#aac7476ed4b7b54a9e8809d7082315069',1,'menu.qh']]],
   ['game_5fdelay_5flast',['game_delay_last',['../d3/d4f/sv__main_8qc.html#a46b4c44b76f39f2f4e113c1476572ec0',1,'sv_main.qc']]],
   ['game_5fdeveloper',['GAME_DEVELOPER',['../d0/d41/menu_8qh.html#a3cd39adc5a015bbc00182b0adf0aea8a',1,'menu.qh']]],

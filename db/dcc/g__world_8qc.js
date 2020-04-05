@@ -69,7 +69,6 @@ var g__world_8qc =
     [ "latency_sum", "db/dcc/g__world_8qc.html#aea3ddd39032ad2c1530fc705053048e2", null ],
     [ "LATENCY_THINKRATE", "db/dcc/g__world_8qc.html#af7053fbbaf3bf28ba21d75db78ce40c1", null ],
     [ "latency_time", "db/dcc/g__world_8qc.html#a6c92a0dc50c581d59078fde7b11d4f55", null ],
-    [ "leaderscore", "db/dcc/g__world_8qc.html#a4d4a0ac588985a0093bc6b2edb049c84", null ],
     [ "Map_Count", "db/dcc/g__world_8qc.html#a979696d004a9ca8222f40058685320ad", null ],
     [ "Map_Current", "db/dcc/g__world_8qc.html#a4dff7facc0426cc4eb7ce5d352373547", null ],
     [ "Map_Current_Name", "db/dcc/g__world_8qc.html#ac71e33fd5e820084538af82e12275688", null ],
@@ -78,7 +77,6 @@ var g__world_8qc =
     [ "redirection_nextthink", "db/dcc/g__world_8qc.html#a3a5ccf5cedf20c389fb4845c9558851d", null ],
     [ "redirection_target", "db/dcc/g__world_8qc.html#afda7c0d2e9429b1eb3477891bc970dad", null ],
     [ "redirection_timeout", "db/dcc/g__world_8qc.html#ae75fd8d37f64427f20903a79db2c9c58", null ],
-    [ "secondscore", "db/dcc/g__world_8qc.html#a29315088ffa7c064b305daf1b5dd2cfe", null ],
     [ "SPAWNFLAG_NO_WAYPOINTS_FOR_ITEMS", "db/dcc/g__world_8qc.html#ae13da0aa296e2486f3f2e17875548066", null ],
     [ "world_already_spawned", "db/dcc/g__world_8qc.html#aeaaf91b0741ea44184722f5f0ae2dfc1", null ],
     [ "world_initialized", "db/dcc/g__world_8qc.html#a795b76ebd603f2cfb3384547ac184da1", null ]
