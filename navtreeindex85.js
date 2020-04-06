@@ -1,7 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"d9/d17/models_8qc.html":[2,0,1,6,7],
-"d9/d17/models_8qc_source.html":[2,0,1,6,7],
 "d9/d17/zombie_8qh.html":[2,0,1,9,0,11],
 "d9/d17/zombie_8qh.html#a56bbf0adb61f21f9d836135c39f86f86":[2,0,1,9,0,11,1],
 "d9/d17/zombie_8qh_source.html":[2,0,1,9,0,11],
@@ -249,5 +247,7 @@ var NAVTREEINDEX85 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,240,64],
 "d9/d37/classXonoticScreenshotBrowserTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,240,94],
 "d9/d37/classXonoticScreenshotBrowserTab.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,240,90],
-"d9/d37/classXonoticScreenshotBrowserTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,240,14]
+"d9/d37/classXonoticScreenshotBrowserTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,240,14],
+"d9/d37/classXonoticScreenshotBrowserTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,240,70],
+"d9/d37/classXonoticScreenshotBrowserTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,240,31]
 };

@@ -302,7 +302,6 @@ var searchData=
   ['cpid_5fctf_5flowprio',['CPID_CTF_LOWPRIO',['../d9/d09/notifications_2all_8inc.html#a7cbab89196368679fbe28df07f4db5c8',1,'all.inc']]],
   ['cpid_5finstagib_5ffindammo',['CPID_INSTAGIB_FINDAMMO',['../d9/d09/notifications_2all_8inc.html#a642d33e48123a6cc94dc9625081d29ce',1,'all.inc']]],
   ['cpid_5fnull',['CPID_Null',['../d9/d09/notifications_2all_8inc.html#a02355a9a23911a3b4de6654ccadd1070',1,'all.inc']]],
-  ['cpid_5fovertime',['CPID_OVERTIME',['../d9/d09/notifications_2all_8inc.html#adfa916dfc7cbc54fec1542f045e1af01',1,'all.inc']]],
   ['cpm_5findex',['cpm_index',['../d4/dbb/centerprint_8qc.html#a0ad399456d0f860f3792a12c7b90ec25',1,'centerprint.qc']]],
   ['cpsf_5fsetup',['CPSF_SETUP',['../d4/d93/cl__controlpoint_8qh.html#a4e21ea690a77be8367e5608dfdebe26f',1,'CPSF_SETUP():&#160;cl_controlpoint.qh'],['../d9/d88/sv__controlpoint_8qh.html#a4e21ea690a77be8367e5608dfdebe26f',1,'CPSF_SETUP():&#160;sv_controlpoint.qh']]],
   ['cpsf_5fstatus',['CPSF_STATUS',['../d4/d93/cl__controlpoint_8qh.html#a71fedd372003f8a38071cb6c5ee68e35',1,'CPSF_STATUS():&#160;cl_controlpoint.qh'],['../d9/d88/sv__controlpoint_8qh.html#a71fedd372003f8a38071cb6c5ee68e35',1,'CPSF_STATUS():&#160;sv_controlpoint.qh']]],

@@ -1,7 +1,5 @@
 var NAVTREEINDEX108 =
 {
-"db/dd3/dialog__settings__misc__reset_8qh.html":[2,0,5,4,153],
-"db/dd3/dialog__settings__misc__reset_8qh_source.html":[2,0,5,4,153],
 "db/dd3/doublejump_8qc.html":[2,0,1,10,0,8,2],
 "db/dd3/doublejump_8qc_source.html":[2,0,1,10,0,8,2],
 "db/dd7/dialog__multiplayer__media__musicplayer_8qh.html":[2,0,5,4,109],
@@ -249,5 +247,7 @@ var NAVTREEINDEX108 =
 "db/dec/sv__race_8qc.html#afb9cfce39a940f7e0fd176fd1a159172":[2,0,1,3,0,14,2,20],
 "db/dec/sv__race_8qc.html#afd8bb8bada4e4e94b04f9d0652cb62cc":[2,0,1,3,0,14,2,18],
 "db/dec/sv__race_8qc_source.html":[2,0,1,3,0,14,2],
-"db/dee/projectiles_8qh.html":[2,0,1,16,12]
+"db/dee/projectiles_8qh.html":[2,0,1,16,12],
+"db/dee/projectiles_8qh.html#a0556af9f0eb745cf179e0646459aa60c":[2,0,1,16,12,16],
+"db/dee/projectiles_8qh.html#a067303b9b6c3042213c631b2f88886df":[2,0,1,16,12,32]
 };
