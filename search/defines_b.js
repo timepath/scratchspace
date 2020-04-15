@@ -8,6 +8,6 @@ var searchData=
   ['keybind_5fempty_5fline',['KEYBIND_EMPTY_LINE',['../df/d75/keybinder_8qc.html#ae2b97d1cf221642230551212724c24fc',1,'keybinder.qc']]],
   ['keybind_5fheader',['KEYBIND_HEADER',['../df/d75/keybinder_8qc.html#ab790b3f9d53e8393b4c6b1bcb617ea4e',1,'keybinder.qc']]],
   ['keybind_5fis_5fspecial',['KEYBIND_IS_SPECIAL',['../df/d75/keybinder_8qc.html#a7b7c42ba580436f2edcb4a8b7c394efb',1,'keybinder.qc']]],
-  ['keybind_5fspecial_5fdef',['KEYBIND_SPECIAL_DEF',['../df/d75/keybinder_8qc.html#abcb188fa4cb575a60900e268136968d7',1,'keybinder.qc']]],
+  ['keybind_5fspecial_5fdef',['KEYBIND_SPECIAL_DEF',['../df/d75/keybinder_8qc.html#a2f0f7e223b4d4360a38f81f7f47949e2',1,'keybinder.qc']]],
   ['kill_5fspree_5flist',['KILL_SPREE_LIST',['../dc/d8f/notifications_2all_8qh.html#a07d1d3059e023b686dd8b0d6efff3168',1,'all.qh']]]
 ];
