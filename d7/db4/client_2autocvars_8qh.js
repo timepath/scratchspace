@@ -265,6 +265,7 @@ var client_2autocvars_8qh =
     [ "autocvar_hud_panel_centerprint_fade_subsequent_passtwo_minalpha", "d7/db4/client_2autocvars_8qh.html#af116f8d9948f0b0a7ea40c2ac8b1bd72", null ],
     [ "autocvar_hud_panel_centerprint_flip", "d7/db4/client_2autocvars_8qh.html#a27bb728819836cbd0643cf667ff42a3f", null ],
     [ "autocvar_hud_panel_centerprint_fontscale", "d7/db4/client_2autocvars_8qh.html#ad2982f0e6346269a0023587a0dfcd152", null ],
+    [ "autocvar_hud_panel_centerprint_fontscale_bold", "d7/db4/client_2autocvars_8qh.html#a71c0247b50c90be691ec30e3f034945d", null ],
     [ "autocvar_hud_panel_centerprint_time", "d7/db4/client_2autocvars_8qh.html#ac4594e4d605f5b7424756b4d9a5b3b84", null ],
     [ "autocvar_hud_panel_chat", "d7/db4/client_2autocvars_8qh.html#a6148691a546051ca58ae47c543d51346", null ],
     [ "autocvar_hud_panel_engineinfo", "d7/db4/client_2autocvars_8qh.html#af622cdd890ca253f36a35ac28b132096", null ],

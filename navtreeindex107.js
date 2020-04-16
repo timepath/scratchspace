@@ -1,5 +1,6 @@
 var NAVTREEINDEX107 =
 {
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,200,87],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,200,50],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,200,43],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,200,65],
@@ -248,6 +249,5 @@ var NAVTREEINDEX107 =
 "db/dd3/classCallback.html#af8d4aab0572cc7fcf3dca4e1174faef8":[1,0,13,0],
 "db/dd3/classCallback.html#af99cb10117c292e3a495925c6692c412":[1,0,13,1],
 "db/dd3/dialog__settings__misc__reset_8qh.html":[2,0,5,4,153],
-"db/dd3/dialog__settings__misc__reset_8qh_source.html":[2,0,5,4,153],
-"db/dd3/doublejump_8qc.html":[2,0,1,10,0,8,2]
+"db/dd3/dialog__settings__misc__reset_8qh_source.html":[2,0,5,4,153]
 };

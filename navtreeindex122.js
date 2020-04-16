@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"dd/da1/dialog__settings__game__hud_8qc_source.html":[2,0,5,4,132],
+"dd/da3/classXonoticMusicPlayerTab.html":[1,0,222],
 "dd/da3/classXonoticMusicPlayerTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,222,34],
 "dd/da3/classXonoticMusicPlayerTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,222,15],
 "dd/da3/classXonoticMusicPlayerTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,222,42],
@@ -247,7 +249,5 @@ var NAVTREEINDEX122 =
 "dd/db3/classXonoticQuitDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,232,6],
 "dd/db3/classXonoticQuitDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,232,14],
 "dd/db3/classXonoticQuitDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,232,18],
-"dd/db3/classXonoticQuitDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,232,87],
-"dd/db3/classXonoticQuitDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,232,79],
-"dd/db3/classXonoticQuitDialog.html#a80127f430d0a900e43e8388449582075":[1,0,232,76]
+"dd/db3/classXonoticQuitDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,232,87]
 };
