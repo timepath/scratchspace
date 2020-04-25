@@ -1,13 +1,5 @@
 var NAVTREEINDEX116 =
 {
-"dc/de2/classXonoticProfileTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,231,52],
-"dc/de2/classXonoticProfileTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,231,32],
-"dc/de2/classXonoticProfileTab.html#a331c55a30b4bc22951a251062508326b":[1,0,231,25],
-"dc/de2/classXonoticProfileTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,231,18],
-"dc/de2/classXonoticProfileTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,231,33],
-"dc/de2/classXonoticProfileTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,231,49],
-"dc/de2/classXonoticProfileTab.html#a39b77a1923845447d837ff9f399e9aff":[1,0,231,87],
-"dc/de2/classXonoticProfileTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,231,1],
 "dc/de2/classXonoticProfileTab.html#a3f4c64a947374c0d57e8d2f2266164d7":[1,0,231,69],
 "dc/de2/classXonoticProfileTab.html#a3f9c5e6943891f335099fe380661b70c":[1,0,231,42],
 "dc/de2/classXonoticProfileTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,231,17],
@@ -249,5 +241,13 @@ var NAVTREEINDEX116 =
 "dc/df7/classXonoticCvarsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,168,38],
 "dc/df7/classXonoticCvarsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,168,3],
 "dc/df7/classXonoticCvarsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,168,81],
-"dc/df7/classXonoticCvarsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,168,79]
+"dc/df7/classXonoticCvarsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,168,79],
+"dc/df7/classXonoticCvarsDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,168,46],
+"dc/df7/classXonoticCvarsDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,168,24],
+"dc/df7/classXonoticCvarsDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,168,17],
+"dc/df7/classXonoticCvarsDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,168,72],
+"dc/df7/classXonoticCvarsDialog.html#a1841271fe6dcad42f46baa3827c4c6ea":[1,0,168,57],
+"dc/df7/classXonoticCvarsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,168,69],
+"dc/df7/classXonoticCvarsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,168,68],
+"dc/df7/classXonoticCvarsDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,168,7]
 };

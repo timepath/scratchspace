@@ -1,13 +1,5 @@
 var NAVTREEINDEX108 =
 {
-"db/dd3/doublejump_8qc.html":[2,0,1,10,0,8,2],
-"db/dd3/doublejump_8qc_source.html":[2,0,1,10,0,8,2],
-"db/dd7/dialog__multiplayer__media__musicplayer_8qh.html":[2,0,5,4,109],
-"db/dd7/dialog__multiplayer__media__musicplayer_8qh.html#ae82044ad6b56c5d7803a8922b42ac371":[2,0,5,4,109,1],
-"db/dd7/dialog__multiplayer__media__musicplayer_8qh_source.html":[2,0,5,4,109],
-"db/ddb/classXonoticCvarList.html":[1,0,167],
-"db/ddb/classXonoticCvarList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,167,18],
-"db/ddb/classXonoticCvarList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,167,49],
 "db/ddb/classXonoticCvarList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,167,52],
 "db/ddb/classXonoticCvarList.html#a113d1a91bed3f1f7bc3a24306c2c68e7":[1,0,167,29],
 "db/ddb/classXonoticCvarList.html#a11a8209afcff1a9a74262609d1b92646":[1,0,167,76],
@@ -249,5 +241,13 @@ var NAVTREEINDEX108 =
 "db/dec/sv__race_8qc_source.html":[2,0,1,3,0,14,2],
 "db/dee/projectiles_8qh.html":[2,0,1,16,12],
 "db/dee/projectiles_8qh.html#a0556af9f0eb745cf179e0646459aa60c":[2,0,1,16,12,16],
-"db/dee/projectiles_8qh.html#a067303b9b6c3042213c631b2f88886df":[2,0,1,16,12,32]
+"db/dee/projectiles_8qh.html#a067303b9b6c3042213c631b2f88886df":[2,0,1,16,12,32],
+"db/dee/projectiles_8qh.html#a0bb47bbecbc4f5cbff9a00d98da3c0c6":[2,0,1,16,12,28],
+"db/dee/projectiles_8qh.html#a1efcb961aaaeecfdccb6ea197ae5575b":[2,0,1,16,12,30],
+"db/dee/projectiles_8qh.html#a25e5765367658d7e70096d7e9a7f0963":[2,0,1,16,12,12],
+"db/dee/projectiles_8qh.html#a2ca316db28f9444e2cc9f63bf0286bc9":[2,0,1,16,12,6],
+"db/dee/projectiles_8qh.html#a3527344dd3bb2855a2e32b0a7aff0ee2":[2,0,1,16,12,9],
+"db/dee/projectiles_8qh.html#a3bbedc488571793867c62903c1720ce7":[2,0,1,16,12,19],
+"db/dee/projectiles_8qh.html#a3e086dee0e3cc8ae14bbf3bc4d500489":[2,0,1,16,12,8],
+"db/dee/projectiles_8qh.html#a413a0618a8674ac127928912416499e5":[2,0,1,16,12,23]
 };

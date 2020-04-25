@@ -1,13 +1,5 @@
 var NAVTREEINDEX107 =
 {
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,200,87],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,200,50],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,200,43],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,200,65],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,200,71],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,200,75],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,200,63],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,200,64],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,200,9],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,200,78],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,200,77],
@@ -249,5 +241,13 @@ var NAVTREEINDEX107 =
 "db/dd3/classCallback.html#af8d4aab0572cc7fcf3dca4e1174faef8":[1,0,13,0],
 "db/dd3/classCallback.html#af99cb10117c292e3a495925c6692c412":[1,0,13,1],
 "db/dd3/dialog__settings__misc__reset_8qh.html":[2,0,5,4,153],
-"db/dd3/dialog__settings__misc__reset_8qh_source.html":[2,0,5,4,153]
+"db/dd3/dialog__settings__misc__reset_8qh_source.html":[2,0,5,4,153],
+"db/dd3/doublejump_8qc.html":[2,0,1,10,0,8,2],
+"db/dd3/doublejump_8qc_source.html":[2,0,1,10,0,8,2],
+"db/dd7/dialog__multiplayer__media__musicplayer_8qh.html":[2,0,5,4,109],
+"db/dd7/dialog__multiplayer__media__musicplayer_8qh.html#ae82044ad6b56c5d7803a8922b42ac371":[2,0,5,4,109,1],
+"db/dd7/dialog__multiplayer__media__musicplayer_8qh_source.html":[2,0,5,4,109],
+"db/ddb/classXonoticCvarList.html":[1,0,167],
+"db/ddb/classXonoticCvarList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,167,18],
+"db/ddb/classXonoticCvarList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,167,49]
 };

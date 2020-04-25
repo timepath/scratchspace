@@ -1,8 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"d3/dbe/classSlider.html#a5e35bf30440b529b5cbe9752bf19bf95":[1,0,126,41],
-"d3/dbe/classSlider.html#a5eb816d08bd102111b268f794d42d695":[1,0,126,38],
-"d3/dbe/classSlider.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,126,32],
 "d3/dbe/classSlider.html#a694b7bae9c3b1c4ac503e040aad68f07":[1,0,126,37],
 "d3/dbe/classSlider.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,126,3],
 "d3/dbe/classSlider.html#a706c85a524ce44b84070ec439bbd9acd":[1,0,126,18],
@@ -249,5 +246,8 @@ var NAVTREEINDEX31 =
 "d3/dd3/sv__invincibleproj_8qc.html":[2,0,1,10,0,13,2],
 "d3/dd3/sv__invincibleproj_8qc.html#a0476920bc8bff7203e1b55fa4c94b5e1":[2,0,1,10,0,13,2,4],
 "d3/dd3/sv__invincibleproj_8qc.html#a1974f7f8f590fd01485135a1e1e416da":[2,0,1,10,0,13,2,2],
-"d3/dd3/sv__invincibleproj_8qc.html#a4769c50e8dacebc92bdcc08e3d8c7433":[2,0,1,10,0,13,2,1]
+"d3/dd3/sv__invincibleproj_8qc.html#a4769c50e8dacebc92bdcc08e3d8c7433":[2,0,1,10,0,13,2,1],
+"d3/dd3/sv__invincibleproj_8qc.html#abc4639ef18cd8c52a863f442d15cd398":[2,0,1,10,0,13,2,0],
+"d3/dd3/sv__invincibleproj_8qc.html#ad34a8125c5a5a9cb7a6bcee6d4f20d38":[2,0,1,10,0,13,2,3],
+"d3/dd3/sv__invincibleproj_8qc_source.html":[2,0,1,10,0,13,2]
 };

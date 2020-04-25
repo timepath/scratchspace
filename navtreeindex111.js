@@ -1,13 +1,5 @@
 var NAVTREEINDEX111 =
 {
-"dc/d23/classVehicle.html#ad29884a3f395ad9d49c4eceab06a2957":[1,0,141,6],
-"dc/d23/classVehicle.html#ad4d7eff9ce6407c3defd47bc6a846e22":[1,0,141,24],
-"dc/d23/classVehicle.html#ae40c833951cc07e56b0be1a06386348d":[1,0,141,27],
-"dc/d23/classVehicle.html#ae5b0517b592b74d40916ac35c850bf7c":[1,0,141,19],
-"dc/d23/classVehicle.html#af1e7a9d937de540345fea6c3f4058b0f":[1,0,141,26],
-"dc/d23/classVehicle.html#af6f42dcff19b7fb5b76462a7d5848b97":[1,0,141,9],
-"dc/d23/classVehicle.html#af7f5447512b9c7b0f697dd84c35b1040":[1,0,141,12],
-"dc/d23/classVehicle.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,141,0],
 "dc/d23/dialog__settings_8qh.html":[2,0,5,4,121],
 "dc/d23/dialog__settings_8qh_source.html":[2,0,5,4,121],
 "dc/d24/rifle_8qh.html":[2,0,1,16,0,29],
@@ -249,5 +241,13 @@ var NAVTREEINDEX111 =
 "dc/d3d/csqcmodel__hooks_8qc.html#a56a6722764e904912b5437624074a79e":[2,0,0,12,32],
 "dc/d3d/csqcmodel__hooks_8qc.html#a596834cdaff21f84dbe1cd4b67f48c35":[2,0,0,12,15],
 "dc/d3d/csqcmodel__hooks_8qc.html#a629d0763765a1879ec28c2d06ddeffb3":[2,0,0,12,57],
-"dc/d3d/csqcmodel__hooks_8qc.html#a62e1ac6caa59233c184e5c92b09198c0":[2,0,0,12,18]
+"dc/d3d/csqcmodel__hooks_8qc.html#a62e1ac6caa59233c184e5c92b09198c0":[2,0,0,12,18],
+"dc/d3d/csqcmodel__hooks_8qc.html#a69c846175f1cc3eb335f8b296b0b2e6b":[2,0,0,12,45],
+"dc/d3d/csqcmodel__hooks_8qc.html#a6cd2ec01b9c3577dfce4c1298c913308":[2,0,0,12,6],
+"dc/d3d/csqcmodel__hooks_8qc.html#a6e7c18e752405b4131cb59328ca1102a":[2,0,0,12,56],
+"dc/d3d/csqcmodel__hooks_8qc.html#a719f872049af163a9cb80cb7c35f632c":[2,0,0,12,33],
+"dc/d3d/csqcmodel__hooks_8qc.html#a739966029ac9ca745964423a3965367e":[2,0,0,12,14],
+"dc/d3d/csqcmodel__hooks_8qc.html#a74b93819d767c643fc8a0676c7df5c6c":[2,0,0,12,13],
+"dc/d3d/csqcmodel__hooks_8qc.html#a74e062d7d339e97ed5ea2f4e81665663":[2,0,0,12,44],
+"dc/d3d/csqcmodel__hooks_8qc.html#a7503ea49fcdc9d45df61562eb8987e60":[2,0,0,12,43]
 };

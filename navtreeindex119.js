@@ -1,13 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"dd/d36/classXonoticGameViewSettingsTab.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,185,10],
-"dd/d36/classXonoticGameViewSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,185,18],
-"dd/d36/classXonoticGameViewSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,185,81],
-"dd/d36/classXonoticGameViewSettingsTab.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,185,22],
-"dd/d36/classXonoticGameViewSettingsTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,185,8],
-"dd/d36/classXonoticGameViewSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,185,89],
-"dd/d36/classXonoticGameViewSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,185,88],
-"dd/d36/classXonoticGameViewSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,185,79],
 "dd/d36/classXonoticGameViewSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,185,54],
 "dd/d36/classXonoticGameViewSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,185,47],
 "dd/d36/classXonoticGameViewSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,185,73],
@@ -249,5 +241,13 @@ var NAVTREEINDEX119 =
 "dd/d70/pathlib_8qh.html#a535334d8a7df7d071f1a3ca2fbd76407":[2,0,6,4,14,50],
 "dd/d70/pathlib_8qh.html#a597be20127844fd3e98388d9e91f014c":[2,0,6,4,14,81],
 "dd/d70/pathlib_8qh.html#a598a4753dc93ac1005c4e18a2078a1b0":[2,0,6,4,14,20],
-"dd/d70/pathlib_8qh.html#a5e11a7a72bc01593142385ad93cff8c9":[2,0,6,4,14,15]
+"dd/d70/pathlib_8qh.html#a5e11a7a72bc01593142385ad93cff8c9":[2,0,6,4,14,15],
+"dd/d70/pathlib_8qh.html#a621471cfc97c09a71b9a5f48f55f1b33":[2,0,6,4,14,75],
+"dd/d70/pathlib_8qh.html#a62500e974c49c6906c40f6811e21656b":[2,0,6,4,14,10],
+"dd/d70/pathlib_8qh.html#a637e2443433a7cd04c7b83810484636b":[2,0,6,4,14,62],
+"dd/d70/pathlib_8qh.html#a70cdadcb7f1366743723ed26c8a1ae04":[2,0,6,4,14,65],
+"dd/d70/pathlib_8qh.html#a7176a9f0ac41891bf22825f8c02e0104":[2,0,6,4,14,21],
+"dd/d70/pathlib_8qh.html#a71fb2ef4c012c80cb2942df64b2f441f":[2,0,6,4,14,34],
+"dd/d70/pathlib_8qh.html#a75fc6c4c2aac6cf5f2830552d363204a":[2,0,6,4,14,28],
+"dd/d70/pathlib_8qh.html#a79f346ee6494ba601a944926fd465f97":[2,0,6,4,14,70]
 };

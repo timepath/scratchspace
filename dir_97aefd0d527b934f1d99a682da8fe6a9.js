@@ -17,7 +17,7 @@ var dir_97aefd0d527b934f1d99a682da8fe6a9 =
     [ "counting.qh", "d7/de1/counting_8qh.html", "d7/de1/counting_8qh" ],
     [ "cvar.qh", "d0/d4f/cvar_8qh.html", "d0/d4f/cvar_8qh" ],
     [ "defer.qh", "d5/d95/defer_8qh.html", null ],
-    [ "deglobalization.qh", "d6/daf/deglobalization_8qh.html", "d6/daf/deglobalization_8qh" ],
+    [ "deglobalization.qh", "d6/daf/deglobalization_8qh.html", null ],
     [ "draw.qh", "d1/dd2/lib_2draw_8qh.html", null ],
     [ "enumclass.qh", "da/dd5/enumclass_8qh.html", "da/dd5/enumclass_8qh" ],
     [ "file.qh", "da/d30/file_8qh.html", "da/d30/file_8qh" ],

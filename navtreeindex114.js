@@ -1,13 +1,5 @@
 var NAVTREEINDEX114 =
 {
-"dc/d90/hud__config_8qc.html#a206f2a23966e7aef885b257c61886d26":[2,0,0,1,5,1],
-"dc/d90/hud__config_8qc.html#a22efbfe26e334ef2923e0ee491323829":[2,0,0,1,5,12],
-"dc/d90/hud__config_8qc.html#a272f972366e65bdb7303c3d43e397c31":[2,0,0,1,5,17],
-"dc/d90/hud__config_8qc.html#a2b58f9e225aff3557baac36ae7b562b7":[2,0,0,1,5,20],
-"dc/d90/hud__config_8qc.html#a37b9023b39d6d024d006e427aa8e72ee":[2,0,0,1,5,8],
-"dc/d90/hud__config_8qc.html#a478cfa31403b85150ef9c9d80489a99f":[2,0,0,1,5,27],
-"dc/d90/hud__config_8qc.html#a4ca23e25abf9f4998736c75e33b01e6b":[2,0,0,1,5,30],
-"dc/d90/hud__config_8qc.html#a5f192ffd4f432cd17da4ee085a974ca8":[2,0,0,1,5,22],
 "dc/d90/hud__config_8qc.html#a665a55d00480841ad02d7ba5b3f72c69":[2,0,0,1,5,3],
 "dc/d90/hud__config_8qc.html#a7d2815ab838e5fced8ffa2fa8af5b230":[2,0,0,1,5,15],
 "dc/d90/hud__config_8qc.html#a7e6a62092f9f23614760422e891dc51f":[2,0,0,1,5,10],
@@ -249,5 +241,13 @@ var NAVTREEINDEX114 =
 "dc/db1/classXonoticTextLabel.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,259,35],
 "dc/db1/classXonoticTextLabel.html#aad099a0549928c37867d05a5dde2a511":[1,0,259,45],
 "dc/db1/classXonoticTextLabel.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,259,3],
-"dc/db1/classXonoticTextLabel.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,259,42]
+"dc/db1/classXonoticTextLabel.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,259,42],
+"dc/db1/classXonoticTextLabel.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,259,27],
+"dc/db1/classXonoticTextLabel.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,259,1],
+"dc/db1/classXonoticTextLabel.html#ad1ce92ac8ebc94d1d48a8374cd205618":[1,0,259,20],
+"dc/db1/classXonoticTextLabel.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,259,39],
+"dc/db1/classXonoticTextLabel.html#ae0c267c4f00544fa21932aa1251d6135":[1,0,259,16],
+"dc/db1/classXonoticTextLabel.html#ae3aaefe7fac0a6ad898f2b39be8a10a4":[1,0,259,6],
+"dc/db1/classXonoticTextLabel.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,259,21],
+"dc/db1/classXonoticTextLabel.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,259,4]
 };

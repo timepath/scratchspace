@@ -1,8 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"d3/dea/lib_2matrix_2__mod_8qh.html":[2,0,4,1,1],
-"d3/dea/lib_2matrix_2__mod_8qh_source.html":[2,0,4,1,1],
-"d3/deb/dialog__multiplayer__media_8qh.html":[2,0,5,4,101],
 "d3/deb/dialog__multiplayer__media_8qh.html#a048e9d55578bbd55fa3acb96f76ad670":[2,0,5,4,101,1],
 "d3/deb/dialog__multiplayer__media_8qh_source.html":[2,0,5,4,101],
 "d3/dec/common_2mutators_2mutator_2instagib_2items_8qc.html":[2,0,1,10,0,12,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX33 =
 "d4/d0a/classXonoticMiscSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,219,80],
 "d4/d0a/classXonoticMiscSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,219,50],
 "d4/d0a/classXonoticMiscSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,219,28],
-"d4/d0a/classXonoticMiscSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,219,70]
+"d4/d0a/classXonoticMiscSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,219,70],
+"d4/d0a/classXonoticMiscSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,219,11],
+"d4/d0a/classXonoticMiscSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,219,71],
+"d4/d0a/classXonoticMiscSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,219,4]
 };
