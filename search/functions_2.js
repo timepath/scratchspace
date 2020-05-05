@@ -148,7 +148,7 @@ var searchData=
   ['bprint',['bprint',['../d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38',1,'menudefs.qc']]],
   ['buf_5fload',['buf_load',['../d2/db4/string_8qh.html#a1d0e883111c8be02c8329ff1021e4141',1,'string.qh']]],
   ['buf_5fsave',['buf_save',['../d2/db4/string_8qh.html#a5c921b751721b149a74f08ef3c2e41c9',1,'string.qh']]],
-  ['buff_5favailable',['buff_Available',['../d2/dac/sv__buffs_8qc.html#a77fd18a78f1e4c215d54d855c7230851',1,'sv_buffs.qc']]],
+  ['buff_5favailable',['buff_Available',['../d2/dac/sv__buffs_8qc.html#a77fd18a78f1e4c215d54d855c7230851',1,'buff_Available(entity buff):&#160;sv_buffs.qc'],['../d8/dd8/sv__buffs_8qh.html#a77fd18a78f1e4c215d54d855c7230851',1,'buff_Available(entity buff):&#160;sv_buffs.qc']]],
   ['buff_5fcustomize',['buff_Customize',['../d2/dac/sv__buffs_8qc.html#aa2b9baeed98377cf9f5add370f7d75e1',1,'sv_buffs.qc']]],
   ['buff_5fdelete',['buff_Delete',['../d2/dac/sv__buffs_8qc.html#a131c47c2d622fb4b320649ce04b82837',1,'sv_buffs.qc']]],
   ['buff_5feffect',['buff_Effect',['../d2/dac/sv__buffs_8qc.html#a2f2a3a414348f4af9bd0536a440a15bf',1,'sv_buffs.qc']]],

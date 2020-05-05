@@ -1,5 +1,6 @@
 var sv__buffs_8qh =
 [
+    [ "buff_Available", "d8/dd8/sv__buffs_8qh.html#a77fd18a78f1e4c215d54d855c7230851", null ],
     [ "autocvar_g_buffs_bash_force", "d8/dd8/sv__buffs_8qh.html#a0d84d09ba97d91bcb26890b17348216d", null ],
     [ "autocvar_g_buffs_bash_force_self", "d8/dd8/sv__buffs_8qh.html#aaf00c5061ff8830735e234b2cd2fcaa0", null ],
     [ "autocvar_g_buffs_cooldown_activate", "d8/dd8/sv__buffs_8qh.html#a020006eca41a51b198f5c83e80f14207", null ],

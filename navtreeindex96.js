@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a9f0313b95615a1422bdede8d0a9e6c61":[1,0,246,87],
 "da/db7/classXonoticServerInfoDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,246,93],
 "da/db7/classXonoticServerInfoDialog.html#aa552936d56e3ce6b2dfa0ee498817973":[1,0,246,13],
 "da/db7/classXonoticServerInfoDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,246,45],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh.html#a3db352ed2525ccc9b4fec62af48fd1ff":[2,0,1,3,0,12,11,1],
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh_source.html":[2,0,1,3,0,12,11],
 "da/dcf/jetpack_8qc.html":[2,0,1,5,0,8],
-"da/dcf/jetpack_8qc_source.html":[2,0,1,5,0,8],
-"da/dd1/classCaptureTheFlag.html":[1,0,15]
+"da/dcf/jetpack_8qc_source.html":[2,0,1,5,0,8]
 };

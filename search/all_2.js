@@ -416,7 +416,7 @@ var searchData=
   ['buff_5factivetime_5fupdated',['buff_activetime_updated',['../d8/dd8/sv__buffs_8qh.html#a124ad9ebbcc15953196fcfca9406d4f0',1,'sv_buffs.qh']]],
   ['buff_5fammo_5fprev_5fclipload',['buff_ammo_prev_clipload',['../d8/dd8/sv__buffs_8qh.html#aea256f869f2546fe95092e2f243fd164',1,'sv_buffs.qh']]],
   ['buff_5fammo_5fprev_5finfitems',['buff_ammo_prev_infitems',['../d8/dd8/sv__buffs_8qh.html#a713258180795781aba5c409ec775ea1d',1,'sv_buffs.qh']]],
-  ['buff_5favailable',['buff_Available',['../d2/dac/sv__buffs_8qc.html#a77fd18a78f1e4c215d54d855c7230851',1,'sv_buffs.qc']]],
+  ['buff_5favailable',['buff_Available',['../d2/dac/sv__buffs_8qc.html#a77fd18a78f1e4c215d54d855c7230851',1,'buff_Available(entity buff):&#160;sv_buffs.qc'],['../d8/dd8/sv__buffs_8qh.html#a77fd18a78f1e4c215d54d855c7230851',1,'buff_Available(entity buff):&#160;sv_buffs.qc']]],
   ['buff_5fcustomize',['buff_Customize',['../d2/dac/sv__buffs_8qc.html#aa2b9baeed98377cf9f5add370f7d75e1',1,'sv_buffs.qc']]],
   ['buff_5fdelete',['buff_Delete',['../d2/dac/sv__buffs_8qc.html#a131c47c2d622fb4b320649ce04b82837',1,'sv_buffs.qc']]],
   ['buff_5fdisability_5feffect_5ftime',['buff_disability_effect_time',['../d8/dd8/sv__buffs_8qh.html#ab9a322cecb553e53835315a23354ad27',1,'sv_buffs.qh']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX123 =
 {
+"dd/db3/classXonoticQuitDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,232,63],
 "dd/db3/classXonoticQuitDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,232,16],
 "dd/db3/classXonoticQuitDialog.html#aa8da3f783d5bad11252adc81287204c1":[1,0,232,57],
 "dd/db3/classXonoticQuitDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,232,64],
@@ -107,8 +108,8 @@ var NAVTREEINDEX123 =
 "dd/dd0/classRace.html#af1a6db9207b7000984864c8176081b52":[1,0,110,13],
 "dd/dd0/classRace.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,110,5],
 "dd/dd5/sv__model_8qc.html":[2,0,4,0,15],
-"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,15,7],
 "dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,15,6],
+"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,15,7],
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,15,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,15,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,15,11],
@@ -116,10 +117,10 @@ var NAVTREEINDEX123 =
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,1],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,15,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,15,12],
-"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,2],
-"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,4],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,5],
+"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,4],
 "dd/dd5/sv__model_8qc_source.html":[2,0,4,0,15],
 "dd/dd7/classRacer.html":[1,0,112],
 "dd/dd7/classRacer.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,112,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX123 =
 "dd/dee/functional_8qh.html#a7c44e6c58755e4f8c76c53437c77e5e3":[2,0,4,22,3],
 "dd/dee/functional_8qh.html#a89a8a00622d0fcb0fbaab651676d2f9f":[2,0,4,22,16],
 "dd/dee/functional_8qh.html#a8c7e7232cf0a8d252b76bc74ab51518b":[2,0,4,22,5],
-"dd/dee/functional_8qh.html#a9324beb48e8e2766fabbd937bf8d4714":[2,0,4,22,6],
-"dd/dee/functional_8qh.html#a984a63990bd4a418a497a0f433bc1ba3":[2,0,4,22,8]
+"dd/dee/functional_8qh.html#a9324beb48e8e2766fabbd937bf8d4714":[2,0,4,22,6]
 };
