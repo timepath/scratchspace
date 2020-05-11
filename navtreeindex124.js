@@ -1,7 +1,5 @@
 var NAVTREEINDEX124 =
 {
-"dd/dee/functional_8qh.html#a984a63990bd4a418a497a0f433bc1ba3":[2,0,4,22,8],
-"dd/dee/functional_8qh.html#a9d11bac2f23bf5cb918203cbfcbfd98a":[2,0,4,22,20],
 "dd/dee/functional_8qh.html#ab737f5c10b510e43a4b84ffa421c409a":[2,0,4,22,4],
 "dd/dee/functional_8qh.html#acaaf3c0e2d085489b0151ed380a476b7":[2,0,4,22,25],
 "dd/dee/functional_8qh.html#ad4eb9421b5ac8ed95dc2e8de3a5ac00a":[2,0,4,22,18],
@@ -249,5 +247,7 @@ var NAVTREEINDEX124 =
 "de/d19/classEasing.html#af44315fcdb5187461a08ef44a82676fd":[1,0,33,8],
 "de/d19/classEasing.html#afe3aec81d866360b96939a59b2bb2ea8":[1,0,33,2],
 "de/d1c/model_8qc.html":[2,0,4,0,9],
-"de/d1c/model_8qc_source.html":[2,0,4,0,9]
+"de/d1c/model_8qc_source.html":[2,0,4,0,9],
+"de/d20/bloodloss_8qh.html":[2,0,1,10,0,0,3],
+"de/d20/bloodloss_8qh_source.html":[2,0,1,10,0,0,3]
 };

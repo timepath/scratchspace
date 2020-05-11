@@ -12,8 +12,6 @@ var cvar_8qh =
     [ "repr_cvar_int", "d0/d4f/cvar_8qh.html#a3023ed188988dda0a4b45761680f725f", null ],
     [ "repr_cvar_string", "d0/d4f/cvar_8qh.html#a3f52ceeb6ee47dcb3a9cd5f5f36afaa0", null ],
     [ "repr_cvar_vector", "d0/d4f/cvar_8qh.html#ab3fbc66ef5b4cfa8145578224e8c7edd", null ],
-    [ "cvar_archive", "d0/d4f/cvar_8qh.html#aa02633c4ca2e600b79ba9d3d380aa6f3", null ],
-    [ "cvar_describe", "d0/d4f/cvar_8qh.html#aabe3a29e69b4567cfa0548edfb779913", null ],
     [ "cvar_value_issafe", "d0/d4f/cvar_8qh.html#ad2c2cf12f9fa0c6394867e1a4d60f128", null ],
     [ "MakeConsoleSafe", "d0/d4f/cvar_8qh.html#ac62aa8dfb5dda7c8105a73098591c225", null ],
     [ "RegisterCvars", "d0/d4f/cvar_8qh.html#a9e51d46a93fe6deb2fda04f7e917d7ec", null ],

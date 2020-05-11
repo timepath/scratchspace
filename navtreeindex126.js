@@ -1,7 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"de/d40/playerlist_8qc.html#a6d4ecee6a0c8ce64ce98498c969c819c":[2,0,5,4,190,10],
-"de/d40/playerlist_8qc.html#a78c6468eb705f16613a2e365dfdd7a1d":[2,0,5,4,190,0],
 "de/d40/playerlist_8qc.html#a8eb2d4a7a39dac19bcbefb3ebcb6e762":[2,0,5,4,190,8],
 "de/d40/playerlist_8qc.html#aae418006d268f8e608ec32fa0c2852df":[2,0,5,4,190,5],
 "de/d40/playerlist_8qc.html#ab59b48faea18dd4288ae1ca4c1b8342f":[2,0,5,4,190,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX126 =
 "de/d57/walk_8qc.html":[2,0,1,12,0,11],
 "de/d57/walk_8qc.html#a3b19a847af98335e060aba36c450a6b1":[2,0,1,12,0,11,0],
 "de/d57/walk_8qc_source.html":[2,0,1,12,0,11],
-"de/d58/throwing_8qh.html":[2,0,6,5,15]
+"de/d58/throwing_8qh.html":[2,0,6,5,15],
+"de/d58/throwing_8qh.html#a05eb21093e88700cf4449c10e7cf4b1b":[2,0,6,5,15,4],
+"de/d58/throwing_8qh.html#a3b40c07507228066f600ea2861c78c88":[2,0,6,5,15,0]
 };

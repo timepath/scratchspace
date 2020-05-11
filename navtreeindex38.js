@@ -1,7 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"d4/d3b/classXonoticBigButton.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,151,17],
-"d4/d3b/classXonoticBigButton.html#a4bc36460031aeb99fc60b108f2f22f19":[1,0,151,62],
 "d4/d3b/classXonoticBigButton.html#a4cec67ef8bea911bbbe8e837e8c1f4fe":[1,0,151,71],
 "d4/d3b/classXonoticBigButton.html#a4cf08b5cf5b03694b1ab99f4eb3cd6da":[1,0,151,6],
 "d4/d3b/classXonoticBigButton.html#a54e592697c83dd2e7a6d27472cd00698":[1,0,151,38],
@@ -249,5 +247,7 @@ var NAVTREEINDEX38 =
 "d4/d4c/dialog__multiplayer__media__demo_8qc.html#a85c659687c19c62a4fce8bbd23f51e76":[2,0,5,4,102,3],
 "d4/d4c/dialog__multiplayer__media__demo_8qc.html#aab838619b4b9643633f754f12108bfbf":[2,0,5,4,102,0],
 "d4/d4c/dialog__multiplayer__media__demo_8qc.html#ad6524e6857c35e9c7ec53fd037370d8d":[2,0,5,4,102,2],
-"d4/d4c/dialog__multiplayer__media__demo_8qc_source.html":[2,0,5,4,102]
+"d4/d4c/dialog__multiplayer__media__demo_8qc_source.html":[2,0,5,4,102],
+"d4/d4e/datasource_8qc.html":[2,0,5,4,34],
+"d4/d4e/datasource_8qc_source.html":[2,0,5,4,34]
 };

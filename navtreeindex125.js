@@ -1,7 +1,5 @@
 var NAVTREEINDEX125 =
 {
-"de/d20/bloodloss_8qh.html":[2,0,1,10,0,0,3],
-"de/d20/bloodloss_8qh_source.html":[2,0,1,10,0,0,3],
 "de/d21/p99_8qh.html":[2,0,4,43],
 "de/d21/p99_8qh.html#a02ade5f6e73a325c16cf1a1f3b15c700":[2,0,4,43,14],
 "de/d21/p99_8qh.html#a03b3054d6224caeb39b77a8e75f71371":[2,0,4,43,25],
@@ -249,5 +247,7 @@ var NAVTREEINDEX125 =
 "de/d40/playerlist_8qc.html":[2,0,5,4,190],
 "de/d40/playerlist_8qc.html#a2da2f534e7d95310a3a7e562a417548d":[2,0,5,4,190,9],
 "de/d40/playerlist_8qc.html#a512fdfff0ae79b90dd37cba610dfbcba":[2,0,5,4,190,7],
-"de/d40/playerlist_8qc.html#a5c5e590dde4677eca458d95b8a4fbba2":[2,0,5,4,190,2]
+"de/d40/playerlist_8qc.html#a5c5e590dde4677eca458d95b8a4fbba2":[2,0,5,4,190,2],
+"de/d40/playerlist_8qc.html#a6d4ecee6a0c8ce64ce98498c969c819c":[2,0,5,4,190,10],
+"de/d40/playerlist_8qc.html#a78c6468eb705f16613a2e365dfdd7a1d":[2,0,5,4,190,0]
 };
