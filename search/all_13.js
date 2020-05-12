@@ -929,7 +929,7 @@ var searchData=
   ['superspec_5fmsg',['superspec_msg',['../dd/d0c/sv__ctf_8qc.html#acc3c70af8e816b0da2e3429c1a26d5de',1,'superspec_msg(string _center_title, string _con_title, entity _to, string _msg, float _spamlevel):&#160;sv_superspec.qc'],['../da/d6b/sv__superspec_8qc.html#acc3c70af8e816b0da2e3429c1a26d5de',1,'superspec_msg(string _center_title, string _con_title, entity _to, string _msg, float _spamlevel):&#160;sv_superspec.qc']]],
   ['superspec_5fsave_5fclient_5fconf',['superspec_save_client_conf',['../da/d6b/sv__superspec_8qc.html#a8afc8e57d11cf88bca30f861c6da94c2',1,'sv_superspec.qc']]],
   ['superspec_5fspectate',['superspec_Spectate',['../dd/d0c/sv__ctf_8qc.html#af718ac80b43bf3ea8caf199bb5ee907d',1,'superspec_Spectate(entity this, entity targ):&#160;sv_superspec.qc'],['../da/d6b/sv__superspec_8qc.html#af718ac80b43bf3ea8caf199bb5ee907d',1,'superspec_Spectate(entity this, entity targ):&#160;sv_superspec.qc']]],
-  ['superweapons_5ffinished',['superweapons_finished',['../d5/d26/server_2defs_8qh.html#a83f05d96f1e0d2418d9c4c993412369c',1,'defs.qh']]],
+  ['superweapons_5ffinished',['superweapons_finished',['../d5/d26/server_2defs_8qh.html#a8689f2bf666f3c481d8a00a3253cd6df',1,'defs.qh']]],
   ['support_5fwp',['SUPPORT_WP',['../d1/d2a/waypoints_8qh.html#a7bd2e7daa064ed246cf39823b0bff66c',1,'waypoints.qh']]],
   ['sv',['SV',['../dd/dee/functional_8qh.html#a76c9c74237795e07741b978e4338b77c',1,'functional.qh']]],
   ['sv_5fassault_2eqc',['sv_assault.qc',['../d7/dbb/sv__assault_8qc.html',1,'']]],

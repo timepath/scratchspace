@@ -245,7 +245,7 @@ var server_2defs_8qh =
     [ "speedrunning", "d5/d26/server_2defs_8qh.html#a79500bb643262fa91172549d03b8e076", null ],
     [ "startplaytime", "d5/d26/server_2defs_8qh.html#a1b65a42fdab6dd120422cf8e3e7d3df7", null ],
     [ "stored_netname", "d5/d26/server_2defs_8qh.html#a1caaa8fe4d9b590202c8347fa835470f", null ],
-    [ "superweapons_finished", "d5/d26/server_2defs_8qh.html#a83f05d96f1e0d2418d9c4c993412369c", null ],
+    [ "superweapons_finished", "d5/d26/server_2defs_8qh.html#a8689f2bf666f3c481d8a00a3253cd6df", null ],
     [ "sv_clones", "d5/d26/server_2defs_8qh.html#aa67674d07a79fc8a0d5f198664a2e69d", null ],
     [ "sv_foginterval", "d5/d26/server_2defs_8qh.html#add7081edbedfbaa312bac65f498b505d", null ],
     [ "sv_maxidle", "d5/d26/server_2defs_8qh.html#a4e22b61752e463874c9d52899496ce54", null ],
