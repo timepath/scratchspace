@@ -1,10 +1,5 @@
 var NAVTREEINDEX93 =
 {
-"da/d46/classMLRSTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,79,0],
-"da/d46/picker_8qc.html":[2,0,5,4,188],
-"da/d46/picker_8qc.html#a132ba96da5ba28448b61e42c019312a9":[2,0,5,4,188,11],
-"da/d46/picker_8qc.html#a31daa00a20ea0b0228b3a664c8e90483":[2,0,5,4,188,0],
-"da/d46/picker_8qc.html#a382a506870e86943c234ec726e664984":[2,0,5,4,188,1],
 "da/d46/picker_8qc.html#a408f3698cf8fe979026e81c4390ebe2e":[2,0,5,4,188,7],
 "da/d46/picker_8qc.html#a465edac60c84dfb197546d85cd2ad802":[2,0,5,4,188,2],
 "da/d46/picker_8qc.html#a496485d404c351859cefb455e61c4e54":[2,0,5,4,188,5],
@@ -249,5 +244,10 @@ var NAVTREEINDEX93 =
 "da/d7c/plasma_8qh_source.html":[2,0,1,14,0,33],
 "da/d7d/conveyor_8qc.html":[2,0,1,6,0,8],
 "da/d7d/conveyor_8qc.html#a957dafa8a01f330eb3610e1bb9769d88":[2,0,1,6,0,8,0],
-"da/d7d/conveyor_8qc_source.html":[2,0,1,6,0,8]
+"da/d7d/conveyor_8qc_source.html":[2,0,1,6,0,8],
+"da/d7d/sv__superspec_8qh.html":[2,0,1,10,0,34,3],
+"da/d7d/sv__superspec_8qh_source.html":[2,0,1,10,0,34,3],
+"da/d8d/classXonoticHUDPhysicsDialog.html":[1,0,198],
+"da/d8d/classXonoticHUDPhysicsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,198,31],
+"da/d8d/classXonoticHUDPhysicsDialog.html#a01968e39223dbcb657d0c3e15bd5f7cb":[1,0,198,77]
 };

@@ -1,10 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"d9/d17/zombie_8qh.html#a56bbf0adb61f21f9d836135c39f86f86":[2,0,1,9,0,11,1],
-"d9/d17/zombie_8qh_source.html":[2,0,1,9,0,11],
-"d9/d18/common_2gamemodes_2gamemode_2invasion_2__mod_8inc.html":[2,0,1,3,0,8,0],
-"d9/d18/common_2gamemodes_2gamemode_2invasion_2__mod_8inc_source.html":[2,0,1,3,0,8,0],
-"d9/d18/components_2input_8qc.html":[2,0,3,0,2],
 "d9/d18/components_2input_8qc.html#acc5e31313f92fa9ec4a0e06770f1a83b":[2,0,3,0,2,0],
 "d9/d18/components_2input_8qc_source.html":[2,0,3,0,2],
 "d9/d18/screenshotlist_8qc.html":[2,0,5,4,202],
@@ -249,5 +244,10 @@ var NAVTREEINDEX85 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,240,14],
 "d9/d37/classXonoticScreenshotBrowserTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,240,70],
 "d9/d37/classXonoticScreenshotBrowserTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,240,31],
-"d9/d37/classXonoticScreenshotBrowserTab.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,240,16]
+"d9/d37/classXonoticScreenshotBrowserTab.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,240,16],
+"d9/d37/classXonoticScreenshotBrowserTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,240,5],
+"d9/d37/classXonoticScreenshotBrowserTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,240,21],
+"d9/d37/classXonoticScreenshotBrowserTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,240,61],
+"d9/d37/classXonoticScreenshotBrowserTab.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,240,56],
+"d9/d37/classXonoticScreenshotBrowserTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,240,2]
 };

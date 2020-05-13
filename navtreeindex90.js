@@ -1,10 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"d9/de7/server_2constants_8qh.html#aa31964dc3bcc2c24be6b0ddf511c41f9":[2,0,6,21,8],
-"d9/de7/server_2constants_8qh.html#abcaa28dc0348cdebac8dcc5d19f4ba11":[2,0,6,21,12],
-"d9/de7/server_2constants_8qh.html#ada13fe5056a6799820233daa42d28c4c":[2,0,6,21,6],
-"d9/de7/server_2constants_8qh.html#adc2f19f83bcdfab86a54abec5fa8a95f":[2,0,6,21,10],
-"d9/de7/server_2constants_8qh.html#af31e2da8f9f15c1d3665c6b48f04a6e0":[2,0,6,21,0],
 "d9/de7/server_2constants_8qh_source.html":[2,0,6,21],
 "d9/de9/classListBox.html":[1,0,70],
 "d9/de9/classListBox.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,70,6],
@@ -249,5 +244,10 @@ var NAVTREEINDEX90 =
 "d9/df7/mathlib_8qh.html#afe4fd4c69320cfbb00dc777c0b63ade2":[2,0,4,2,9,13],
 "d9/df7/mathlib_8qh.html#aff2e840abf39a06175267ce0fa55de9c":[2,0,4,2,9,42],
 "d9/df7/mathlib_8qh_source.html":[2,0,4,2,9],
-"d9/df7/sv__stale__move__negation_8qh.html":[2,0,1,10,0,33,3]
+"d9/df7/sv__stale__move__negation_8qh.html":[2,0,1,10,0,33,3],
+"d9/df7/sv__stale__move__negation_8qh_source.html":[2,0,1,10,0,33,3],
+"d9/df8/changelevel_8qc.html":[2,0,1,6,2,2],
+"d9/df8/changelevel_8qc_source.html":[2,0,1,6,2,2],
+"d9/dfa/devastator_8qh.html":[2,0,1,16,0,9],
+"d9/dfa/devastator_8qh.html#a10084ac62f4ccb9c9d1180c5db5d573d":[2,0,1,16,0,9,2]
 };

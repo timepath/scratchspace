@@ -3,7 +3,6 @@ var searchData=
   ['ice_5fmax_5falpha',['ICE_MAX_ALPHA',['../d7/d2d/sv__freezetag_8qh.html#aa6539dc2fe101f47fdac71e3ed17e482',1,'sv_freezetag.qh']]],
   ['ice_5fmin_5falpha',['ICE_MIN_ALPHA',['../d7/d2d/sv__freezetag_8qh.html#a04c8661fa0aa1a7cd957c6b739de6cde',1,'sv_freezetag.qh']]],
   ['iceblock',['iceblock',['../d5/d26/server_2defs_8qh.html#aa5fd8592ce0fc79b6b6e428a10cb4096',1,'defs.qh']]],
-  ['icon_5fnotif',['icon_notif',['../d9/d09/notifications_2all_8inc.html#addb3a401557b41372b5fab836fa24f2c',1,'all.inc']]],
   ['icon_5frealmodel',['icon_realmodel',['../db/dc8/cl__controlpoint_8qc.html#a9143da4321217dea8a47157a0657cf34',1,'cl_controlpoint.qc']]],
   ['iconssizefactor',['iconsSizeFactor',['../d2/dec/classXonoticServerList.html#a7d965af8d1e20017d6d579d6ad0b0003',1,'XonoticServerList']]],
   ['ideal_5fyaw',['ideal_yaw',['../d6/d11/progsdefs_8qc.html#a1e5213f502ae9c507255fa7585fb7029',1,'progsdefs.qc']]],

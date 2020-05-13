@@ -1,10 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"db/d07/teams_8qh.html#a223346a1d4096a7e7408d831b3ac8dd9":[2,0,1,48,44],
-"db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab":[2,0,1,48,15],
-"db/d07/teams_8qh.html#a2c97cb946e2101e17ab6982e28f13ad3":[2,0,1,48,40],
-"db/d07/teams_8qh.html#a354715ef150f6ade4d8f44a0bcebb808":[2,0,1,48,4],
-"db/d07/teams_8qh.html#a3560044092813a5af592e9bac4e0d6e0":[2,0,1,48,10],
 "db/d07/teams_8qh.html#a357988f2499b4c85f7f1091794e9e043":[2,0,1,48,17],
 "db/d07/teams_8qh.html#a393b7c72fe5fae97bc6abd3db442fd4c":[2,0,1,48,22],
 "db/d07/teams_8qh.html#a395c04d3db11362a1c25d2d4853fc180":[2,0,1,48,25],
@@ -249,5 +244,10 @@ var NAVTREEINDEX98 =
 "db/d15/api_8qh.html#a6da855c25006ed03bc47ebfdbfee7b65":[2,0,6,0,5,103],
 "db/d15/api_8qh.html#a6fd74694f8cb198fddcbe2861259171e":[2,0,6,0,5,174],
 "db/d15/api_8qh.html#a6fd9d052d1e171ea3729410e8c98c218":[2,0,6,0,5,40],
-"db/d15/api_8qh.html#a70f74c9ccb7e04b370b228a6fcc2cf15":[2,0,6,0,5,81]
+"db/d15/api_8qh.html#a70f74c9ccb7e04b370b228a6fcc2cf15":[2,0,6,0,5,81],
+"db/d15/api_8qh.html#a71afd5747d63dac2c452ae01b34a4799":[2,0,6,0,5,72],
+"db/d15/api_8qh.html#a71c65fa95801766d4248ba2799352c8a":[2,0,6,0,5,57],
+"db/d15/api_8qh.html#a71ea3788d018d7bff912a1daef890824":[2,0,6,0,5,111],
+"db/d15/api_8qh.html#a762094d6097d3051fcc23aa1fdf22f56":[2,0,6,0,5,114],
+"db/d15/api_8qh.html#a78fda59f169844ca11beb0f4fe2e1dbd":[2,0,6,0,5,29]
 };

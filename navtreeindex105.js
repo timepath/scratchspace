@@ -1,10 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"db/d7f/effectinfo_8inc.html#aec13aa18c81eb476d299e1305a7cf019":[2,0,1,2,7,11],
-"db/d7f/effectinfo_8inc.html#aec42fa12649d21d661bd3730fd8045a4":[2,0,1,2,7,60],
-"db/d7f/effectinfo_8inc.html#aec89683f7294b9a91083d23485208d10":[2,0,1,2,7,204],
-"db/d7f/effectinfo_8inc.html#aed6124d8cc0fb066a3394b0a88651830":[2,0,1,2,7,45],
-"db/d7f/effectinfo_8inc.html#aed6bfff2246bdda1d303a7205c1d88b2":[2,0,1,2,7,305],
 "db/d7f/effectinfo_8inc.html#aee412f2d2f389322fdd4e2d27b3a866b":[2,0,1,2,7,192],
 "db/d7f/effectinfo_8inc.html#aef68745a32914725fa08ad498c38352b":[2,0,1,2,7,357],
 "db/d7f/effectinfo_8inc.html#aef8d758822fa17d11ede32aa82e2ccba":[2,0,1,2,7,202],
@@ -249,5 +244,10 @@ var NAVTREEINDEX105 =
 "db/da5/sv__invasion_8qc_source.html":[2,0,1,3,0,8,2],
 "db/da8/common_2gamemodes_2gamemode_2onslaught_2__mod_8inc.html":[2,0,1,3,0,13,0],
 "db/da8/common_2gamemodes_2gamemode_2onslaught_2__mod_8inc_source.html":[2,0,1,3,0,13,0],
-"db/dab/client_2hud_2__mod_8inc.html":[2,0,0,1,1]
+"db/dab/client_2hud_2__mod_8inc.html":[2,0,0,1,1],
+"db/dab/client_2hud_2__mod_8inc_source.html":[2,0,0,1,1],
+"db/daf/playerstats_8qh.html":[2,0,1,40],
+"db/daf/playerstats_8qh_source.html":[2,0,1,40],
+"db/db1/classXonoticHUDRaceTimerDialog.html":[1,0,202],
+"db/db1/classXonoticHUDRaceTimerDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,202,30]
 };
