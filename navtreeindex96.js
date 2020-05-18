@@ -1,14 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"da/db7/classXonoticServerInfoDialog.html#ab0f5da918d5772e40bc79148bdd525a1":[1,0,246,24],
-"da/db7/classXonoticServerInfoDialog.html#ab2528e46c0f8c6dcd11fa7fe51d302ae":[1,0,246,11],
-"da/db7/classXonoticServerInfoDialog.html#ab5705a0d84082385d0e3e594558bfb26":[1,0,246,14],
-"da/db7/classXonoticServerInfoDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,246,106],
-"da/db7/classXonoticServerInfoDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,246,64],
-"da/db7/classXonoticServerInfoDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,246,7],
-"da/db7/classXonoticServerInfoDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,246,117],
-"da/db7/classXonoticServerInfoDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,246,72],
-"da/db7/classXonoticServerInfoDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,246,81],
 "da/db7/classXonoticServerInfoDialog.html#ac5d5e617a3011f275a27b858315f968c":[1,0,246,19],
 "da/db7/classXonoticServerInfoDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,246,0],
 "da/db7/classXonoticServerInfoDialog.html#ac80f00e0dfb46145f8c3429a4dd50e27":[1,0,246,36],
@@ -249,5 +240,14 @@ var NAVTREEINDEX96 =
 "da/dd1/classCaptureTheFlag.html#a353db82280437c3b38f0ad1934a7d666":[1,0,15,19],
 "da/dd1/classCaptureTheFlag.html#a503201efc30576e8c0d77715b14c7a09":[1,0,15,11],
 "da/dd1/classCaptureTheFlag.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,15,8],
-"da/dd1/classCaptureTheFlag.html#a66645bf5e9723478c84fe45286f33fa3":[1,0,15,10]
+"da/dd1/classCaptureTheFlag.html#a66645bf5e9723478c84fe45286f33fa3":[1,0,15,10],
+"da/dd1/classCaptureTheFlag.html#a6a4ef0b5fd8bae0ab59aeab09a26c2e7":[1,0,15,14],
+"da/dd1/classCaptureTheFlag.html#a7880c3511ceeabb277b860085f1073ee":[1,0,15,12],
+"da/dd1/classCaptureTheFlag.html#a87258d972a8b677bc431c763afd6e0fb":[1,0,15,15],
+"da/dd1/classCaptureTheFlag.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,15,2],
+"da/dd1/classCaptureTheFlag.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,15,18],
+"da/dd1/classCaptureTheFlag.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,15,4],
+"da/dd1/classCaptureTheFlag.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,15,3],
+"da/dd1/classCaptureTheFlag.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,15,21],
+"da/dd1/classCaptureTheFlag.html#ac949f50dbac754e88c67b57f63051039":[1,0,15,16]
 };

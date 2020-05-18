@@ -1,14 +1,5 @@
 var NAVTREEINDEX111 =
 {
-"dc/d24/xonotic_2textslider_8qc.html":[2,0,5,4,232],
-"dc/d24/xonotic_2textslider_8qc.html#a0e70a3e0454883e400c7ca7b8f7fbad8":[2,0,5,4,232,2],
-"dc/d24/xonotic_2textslider_8qc.html#a2d2331e05086834c00e0f9158821b03b":[2,0,5,4,232,0],
-"dc/d24/xonotic_2textslider_8qc.html#a30b579b95312577da21a10ac3a35667c":[2,0,5,4,232,6],
-"dc/d24/xonotic_2textslider_8qc.html#a49c68c8603930e9b96eb74c0310920b8":[2,0,5,4,232,1],
-"dc/d24/xonotic_2textslider_8qc.html#a5f0056bfb3f1e30f1be165df68af6da1":[2,0,5,4,232,4],
-"dc/d24/xonotic_2textslider_8qc.html#a65df6b257231978b9a484b0f8ef7813a":[2,0,5,4,232,3],
-"dc/d24/xonotic_2textslider_8qc.html#a6cf1a751fa709e3346859aa34e1a3c3f":[2,0,5,4,232,7],
-"dc/d24/xonotic_2textslider_8qc.html#ae35a49284380ba6299f1eeb945cd9f6d":[2,0,5,4,232,5],
 "dc/d24/xonotic_2textslider_8qc_source.html":[2,0,5,4,232],
 "dc/d25/server_2command_2reg_8qc.html":[2,0,6,1,12],
 "dc/d25/server_2command_2reg_8qc_source.html":[2,0,6,1,12],
@@ -249,5 +240,14 @@ var NAVTREEINDEX111 =
 "dc/d3d/csqcmodel__hooks_8qc.html#a7f660b030bcdc95a7dd3b6ece24bc2fb":[2,0,0,12,30],
 "dc/d3d/csqcmodel__hooks_8qc.html#a903cee4eeaae0701c79356944774d2c7":[2,0,0,12,12],
 "dc/d3d/csqcmodel__hooks_8qc.html#a9807044877fa93310076e4f5d683c221":[2,0,0,12,25],
-"dc/d3d/csqcmodel__hooks_8qc.html#a9b73590968282143708143eadac1fcf6":[2,0,0,12,9]
+"dc/d3d/csqcmodel__hooks_8qc.html#a9b73590968282143708143eadac1fcf6":[2,0,0,12,9],
+"dc/d3d/csqcmodel__hooks_8qc.html#aaedad82d1b7beb08b7544cd8b939c92f":[2,0,0,12,41],
+"dc/d3d/csqcmodel__hooks_8qc.html#ab1b361b285ae78a2468e680bf9b76524":[2,0,0,12,39],
+"dc/d3d/csqcmodel__hooks_8qc.html#ab45736fb36b0b5641315be92b9747beb":[2,0,0,12,49],
+"dc/d3d/csqcmodel__hooks_8qc.html#ab473803a0773142ae861faea6bd995e3":[2,0,0,12,50],
+"dc/d3d/csqcmodel__hooks_8qc.html#abd4c01cd2d3057ff9d856957830c8e97":[2,0,0,12,40],
+"dc/d3d/csqcmodel__hooks_8qc.html#abdef5fa000daea2663d082046a110e10":[2,0,0,12,3],
+"dc/d3d/csqcmodel__hooks_8qc.html#abea5becd51afc048db807e874ba78e40":[2,0,0,12,29],
+"dc/d3d/csqcmodel__hooks_8qc.html#ac19ec3f81ef5660364e37a797b3d2a95":[2,0,0,12,0],
+"dc/d3d/csqcmodel__hooks_8qc.html#aca4aa10acc5a438527e50f9f1e41cda4":[2,0,0,12,24]
 };

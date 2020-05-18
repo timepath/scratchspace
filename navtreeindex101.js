@@ -1,14 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"db/d3c/classArc.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,3,6],
-"db/d3c/classArc.html#ab8aeb9c30f5600afc253dc5ba84ad31e":[1,0,3,32],
-"db/d3c/classArc.html#ab9d7b14784b0a00aecaf78277f7fcd01":[1,0,3,36],
-"db/d3c/classArc.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,3,11],
-"db/d3c/classArc.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,3,8],
-"db/d3c/classArc.html#aca5d135f1a061005156a689cf8728a85":[1,0,3,37],
-"db/d3c/classArc.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,3,3],
-"db/d3c/classArc.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,3,38],
-"db/d3c/classArc.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,3,23],
 "db/d3c/classArc.html#ae0a509098068a29d9ef781b063c35d0e":[1,0,3,27],
 "db/d3c/classArc.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,3,18],
 "db/d40/common_2mutators_2mutator_2nades_2__mod_8inc.html":[2,0,1,10,0,19,0],
@@ -249,5 +240,14 @@ var NAVTREEINDEX101 =
 "db/d59/classXonoticPlayList.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,230,40],
 "db/d59/classXonoticPlayList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,230,22],
 "db/d59/classXonoticPlayList.html#afa2fda0688ef3dfdc143963a9366a71b":[1,0,230,51],
-"db/d5a/classXonoticHUDPowerupsDialog.html":[1,0,199]
+"db/d5a/classXonoticHUDPowerupsDialog.html":[1,0,199],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,199,30],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,199,11],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,199,38],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,199,3],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,199,82],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,199,80],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,199,46],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,199,24],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,199,17]
 };

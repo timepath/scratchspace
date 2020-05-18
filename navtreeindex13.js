@@ -1,7 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"d1/d93/pp_8qc.html#a5b8dc27984bdaaa0dd3ce280523bbe00":[2,0,1,7,0,11,15],
-"d1/d93/pp_8qc.html#a5d846c72dffce3a7b65402c92bb1a353":[2,0,1,7,0,11,11],
 "d1/d93/pp_8qc.html#a631644c2cf099aed4fb43cd9bd27cd59":[2,0,1,7,0,11,3],
 "d1/d93/pp_8qc.html#a79d72e3c5387a8b58fa5d13a92590c04":[2,0,1,7,0,11,13],
 "d1/d93/pp_8qc.html#a8cd13dbbd9967615974406d6f95a0e54":[2,0,1,7,0,11,12],
@@ -204,9 +202,9 @@ var NAVTREEINDEX13 =
 "d1/dad/server_2command_2vote_8qc.html#aa5bfb7647a9b350b92d600703b23919d":[2,0,6,1,16,39],
 "d1/dad/server_2command_2vote_8qc.html#aa87ee0e2c399505d83d290b4bef95caf":[2,0,6,1,16,24],
 "d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f":[2,0,6,1,16,15],
-"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
+"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
 "d1/dad/server_2command_2vote_8qc.html#abe4a2e3fd5c533319ea51970d72f95f7":[2,0,6,1,16,28],
 "d1/dad/server_2command_2vote_8qc.html#ac42f429ba6ba4289fa7af9310f40a0a4":[2,0,6,1,16,14],
 "d1/dad/server_2command_2vote_8qc.html#ae57d1ca4b4a65c6bd2200048fc0a5c62":[2,0,6,1,16,29],
@@ -249,5 +247,7 @@ var NAVTREEINDEX13 =
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,174,28],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,174,44],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,174,54],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,174,83]
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,174,83],
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,174,1],
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,174,37]
 };

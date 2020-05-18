@@ -1,14 +1,5 @@
 var NAVTREEINDEX116 =
 {
-"dc/de2/classXonoticProfileTab.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,231,28],
-"dc/de2/classXonoticProfileTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,231,53],
-"dc/de2/classXonoticProfileTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,231,31],
-"dc/de2/classXonoticProfileTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,231,37],
-"dc/de2/classXonoticProfileTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,231,45],
-"dc/de2/classXonoticProfileTab.html#a53de8355052b658819638577356cc8f3":[1,0,231,57],
-"dc/de2/classXonoticProfileTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,231,89],
-"dc/de2/classXonoticProfileTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,231,50],
-"dc/de2/classXonoticProfileTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,231,22],
 "dc/de2/classXonoticProfileTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,231,64],
 "dc/de2/classXonoticProfileTab.html#a6926c7172a2ec3b89705f70d5f49ee28":[1,0,231,84],
 "dc/de2/classXonoticProfileTab.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,231,11],
@@ -249,5 +240,14 @@ var NAVTREEINDEX116 =
 "dc/df7/classXonoticCvarsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,168,4],
 "dc/df7/classXonoticCvarsDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,168,41],
 "dc/df7/classXonoticCvarsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,168,19],
-"dc/df7/classXonoticCvarsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,168,47]
+"dc/df7/classXonoticCvarsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,168,47],
+"dc/df7/classXonoticCvarsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,168,52],
+"dc/df7/classXonoticCvarsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,168,27],
+"dc/df7/classXonoticCvarsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,168,20],
+"dc/df7/classXonoticCvarsDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,168,13],
+"dc/df7/classXonoticCvarsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,168,59],
+"dc/df7/classXonoticCvarsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,168,28],
+"dc/df7/classXonoticCvarsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,168,44],
+"dc/df7/classXonoticCvarsDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,168,54],
+"dc/df7/classXonoticCvarsDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,168,83]
 };

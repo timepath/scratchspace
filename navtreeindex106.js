@@ -1,14 +1,5 @@
 var NAVTREEINDEX106 =
 {
-"db/db1/classXonoticHUDRaceTimerDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,202,11],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,202,38],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,202,3],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,202,82],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,202,80],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a0e4b1a8ba11fd32348e435bb6e2bdf5d":[1,0,202,57],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,202,46],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,202,24],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,202,17],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,202,72],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,202,69],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a1c99834aa928bd039ef9e623eb735f8b":[1,0,202,85],
@@ -249,5 +240,14 @@ var NAVTREEINDEX106 =
 "db/dbd/classXonoticHUDPressedKeysDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,200,77],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,200,34],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,200,5],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,200,88]
+"db/dbd/classXonoticHUDPressedKeysDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,200,88],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,200,42],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,200,51],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,200,0],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,200,16],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,200,31],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,200,36],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,200,56],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,200,33],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,200,83]
 };
