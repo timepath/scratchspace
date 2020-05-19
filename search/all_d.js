@@ -940,6 +940,7 @@ var searchData=
   ['multiteam_5fcenter',['MULTITEAM_CENTER',['../d9/d09/notifications_2all_8inc.html#a667cbcdb5a46c7439829a26f32a32ba2',1,'MULTITEAM_CENTER():&#160;all.inc'],['../d9/d09/notifications_2all_8inc.html#a15030ecf96c7d71c60ac530fd83ade0e',1,'MULTITEAM_CENTER(CTF_PICKUP_TEAM_VERBOSE, N_ENABLE, 2, 0,&quot;s1 s2 s1&quot;, CPID_CTF_LOWPRIO,&quot;0 0&quot;, _(&quot;^BGYour %steam mate (^BG%s%s)^BG got the ^TC^TT^BG flag! Protect them!&quot;),&quot;&quot;, FLAG) MSG_CENTER_NOTIF(CTF_PICKUP_TEAM_VERBOSE_NEUTRAL:&#160;all.inc']]],
   ['multiteam_5fchoice',['MULTITEAM_CHOICE',['../d9/d09/notifications_2all_8inc.html#abf1662204b632c4eb9d1bb6e04f70218',1,'all.inc']]],
   ['multiteam_5finfo',['MULTITEAM_INFO',['../d9/d09/notifications_2all_8inc.html#af991c276ad7457432d0b851f20dc48ef',1,'all.inc']]],
+  ['multiteam_5finfo_5fsprintf',['multiteam_info_sprintf',['../d9/d09/notifications_2all_8inc.html#a99275d35126e27946d051953f7d7554b',1,'all.inc']]],
   ['multiteam_5fmulti',['MULTITEAM_MULTI',['../d9/d09/notifications_2all_8inc.html#a7d16a337977604c50995088099db52a3',1,'all.inc']]],
   ['multivibrator_2eqc',['multivibrator.qc',['../df/db9/multivibrator_8qc.html',1,'']]],
   ['multivibrator_2eqh',['multivibrator.qh',['../d9/d98/multivibrator_8qh.html',1,'']]],

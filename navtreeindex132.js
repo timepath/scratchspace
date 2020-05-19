@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"de/dcb/vector_8qh.html#a10b5386494e6b2a6633409d330bdf639":[2,0,4,66,11],
 "de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a":[2,0,4,66,34],
 "de/dcb/vector_8qh.html#a1c066643abd0bfa68136e0f3ee1101ed":[2,0,4,66,19],
 "de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30":[2,0,4,66,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "de/dff/common_2gamemodes_2gamemode_2duel_2__mod_8inc_source.html":[2,0,1,3,0,6,0],
 "deprecated.html":[0],
 "df/d00/sv__rocketminsta_8qc.html":[2,0,1,10,0,29,2],
-"df/d00/sv__rocketminsta_8qc.html#a1a53ccfb4926e78cfcdcad2f58f3a2cd":[2,0,1,10,0,29,2,2],
-"df/d00/sv__rocketminsta_8qc.html#a30fd30284f143ca24b319468fd0a0b0b":[2,0,1,10,0,29,2,0]
+"df/d00/sv__rocketminsta_8qc.html#a1a53ccfb4926e78cfcdcad2f58f3a2cd":[2,0,1,10,0,29,2,2]
 };
