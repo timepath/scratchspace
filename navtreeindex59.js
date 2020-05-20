@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"d6/dbf/maplist_8qh.html#a855dbd3ffe4b0bb76e5161e0e7f33e0d":[2,0,5,4,185,8],
 "d6/dbf/maplist_8qh.html#a9976b4694579990176beabe321eb1fb5":[2,0,5,4,185,5],
 "d6/dbf/maplist_8qh.html#aa9263c5b705f45b060442d7f10da11e5":[2,0,5,4,185,1],
 "d6/dbf/maplist_8qh.html#aaaa78078daa37c70d24c60050c1df44b":[2,0,5,4,185,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "d6/dd0/okmachinegun_8qh_source.html":[2,0,1,10,0,23,7],
 "d6/dd1/classXonoticHUDCenterprintDialog.html":[1,0,188],
 "d6/dd1/classXonoticHUDCenterprintDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,188,30],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,188,11],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,188,38]
+"d6/dd1/classXonoticHUDCenterprintDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,188,11]
 };

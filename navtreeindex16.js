@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"d2/d0a/common_2physics_2player_8qc.html#af720710e7d9c6e243358bd74cac5e70e":[2,0,1,12,6,18],
 "d2/d0a/common_2physics_2player_8qc_source.html":[2,0,1,12,6],
 "d2/d11/classClipFrame.html":[1,0,20],
 "d2/d11/classClipFrame.html#abcf2ed02c6b85809434b25225814eaeb":[1,0,20,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,173,14],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,173,18],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,173,86],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,173,78],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,173,50]
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,173,78]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX130 =
 {
+"de/d8f/common_2gamemodes_2gamemode_2__mod_8inc_source.html":[2,0,1,3,0,16],
 "de/d93/classXonoticBindingsResetDialog.html":[1,0,153],
 "de/d93/classXonoticBindingsResetDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,153,30],
 "de/d93/classXonoticBindingsResetDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,153,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX130 =
 "de/da1/sv__keepaway_8qc.html#a9b503874ac510522dc72d0b593489361":[2,0,1,3,0,9,6,43],
 "de/da1/sv__keepaway_8qc.html#a9f97ec6d4961eea75d416813ba4704d0":[2,0,1,3,0,9,6,37],
 "de/da1/sv__keepaway_8qc.html#aa1a2aa8ae07900242b232886cf4bc00f":[2,0,1,3,0,9,6,33],
-"de/da1/sv__keepaway_8qc.html#aa5860056b36d396ef83793b3442cf173":[2,0,1,3,0,9,6,35],
-"de/da1/sv__keepaway_8qc.html#aa67ca021ca035e8fd4b994d94da5218f":[2,0,1,3,0,9,6,39]
+"de/da1/sv__keepaway_8qc.html#aa5860056b36d396ef83793b3442cf173":[2,0,1,3,0,9,6,35]
 };

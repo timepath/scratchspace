@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"d3/dbe/classSlider.html#a77664aa80ac34cfbe2a080f4eeb00fa5":[1,0,126,63],
 "d3/dbe/classSlider.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,126,10],
 "d3/dbe/classSlider.html#a7ba277f3c886c7d391915d273fede63c":[1,0,126,53],
 "d3/dbe/classSlider.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,126,59],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "d3/dd3/sv__invincibleproj_8qc_source.html":[2,0,1,10,0,13,2],
 "d3/dd4/dialog__multiplayer__media__screenshot_8qh.html":[2,0,5,4,111],
 "d3/dd4/dialog__multiplayer__media__screenshot_8qh.html#ad2d931e8e2f2b55df36156c1737b77f7":[2,0,5,4,111,1],
-"d3/dd4/dialog__multiplayer__media__screenshot_8qh_source.html":[2,0,5,4,111],
-"d3/dd5/bd_8qc.html":[2,0,1,7,0,3]
+"d3/dd4/dialog__multiplayer__media__screenshot_8qh_source.html":[2,0,5,4,111]
 };

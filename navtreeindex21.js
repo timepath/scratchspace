@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"d2/db1/movetypes_8qc.html#af4e305a34cfe09004c87a91e2461330c":[2,0,1,12,0,5,27],
 "d2/db1/movetypes_8qc.html#afa4cf35feb7ab8ba2af8f8e123ad7d56":[2,0,1,12,0,5,37],
 "d2/db1/movetypes_8qc_source.html":[2,0,1,12,0,5],
 "d2/db1/sv__invasion_8qh.html":[2,0,1,3,0,8,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "d2/dcb/classXonoticPicmipSlider.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,227,78],
 "d2/dcb/classXonoticPicmipSlider.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,227,1],
 "d2/dcb/classXonoticPicmipSlider.html#a7ffeb913774aabf92f0e992092d4e053":[1,0,227,16],
-"d2/dcb/classXonoticPicmipSlider.html#a814262edde0ecc3416067f1cb36199d4":[1,0,227,48],
-"d2/dcb/classXonoticPicmipSlider.html#a896da94f4d9e857ff8d0124b6621a802":[1,0,227,92]
+"d2/dcb/classXonoticPicmipSlider.html#a814262edde0ecc3416067f1cb36199d4":[1,0,227,48]
 };
