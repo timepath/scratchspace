@@ -170,6 +170,7 @@ var server_2autocvars_8qh =
     [ "autocvar_g_maplist_selectrandom", "d7/da7/server_2autocvars_8qh.html#aff6e89b0ffdf47401d46db5ae28d3d67", null ],
     [ "autocvar_g_maplist_shuffle", "d7/da7/server_2autocvars_8qh.html#a1132b1b53004f97366d5072dacebe31e", null ],
     [ "autocvar_g_maplist_sizes_count_bots", "d7/da7/server_2autocvars_8qh.html#ab4c607db0a3bec6e0ee6d99c9228afe6", null ],
+    [ "autocvar_g_maplist_sizes_count_maxplayers", "d7/da7/server_2autocvars_8qh.html#a465dd50d17df18561cc9b6decf207ae6", null ],
     [ "autocvar_g_maplist_votable_abstain", "d7/da7/server_2autocvars_8qh.html#aad5d5df3f0c67567f44b212b74cb3318", null ],
     [ "autocvar_g_maplist_votable_keeptwotime", "d7/da7/server_2autocvars_8qh.html#a7e843f164e58f424607d2e26f86f7f72", null ],
     [ "autocvar_g_maplist_votable_nodetail", "d7/da7/server_2autocvars_8qh.html#a0341c7d8abde7cef8219e9aee58581b5", null ],

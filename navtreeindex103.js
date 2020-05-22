@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"db/d66/common_2gamemodes_2gamemode_2domination_2__mod_8qh_source.html":[2,0,1,3,0,5,1],
 "db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc.html":[2,0,1,10,0,36,0],
 "db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc_source.html":[2,0,1,10,0,36,0],
 "db/d6b/okrpc_8qh.html":[2,0,1,10,0,23,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX103 =
 "db/d7f/effectinfo_8inc.html#a4b2e91e226e6430fd6e392928f895fbd":[2,0,1,2,7,350],
 "db/d7f/effectinfo_8inc.html#a4d115281d8162ea625917a5bc35ad10d":[2,0,1,2,7,278],
 "db/d7f/effectinfo_8inc.html#a4e4df8f18ebe9b8cad15382b4aa02e54":[2,0,1,2,7,366],
-"db/d7f/effectinfo_8inc.html#a4eb21a1adda919ac91fc4f6880ed7b24":[2,0,1,2,7,379],
-"db/d7f/effectinfo_8inc.html#a4f2841554641525aa83c7fb40731db19":[2,0,1,2,7,360]
+"db/d7f/effectinfo_8inc.html#a4eb21a1adda919ac91fc4f6880ed7b24":[2,0,1,2,7,379]
 };
