@@ -2,9 +2,9 @@ var spawnpoints_8qc =
 [
     [ "relocate_spawnpoint", "d0/d41/spawnpoints_8qc.html#abb661914e057e88f5191457801e406ab", null ],
     [ "SelectSpawnPoint", "d0/d41/spawnpoints_8qc.html#a71804b6dc31803f43afa105a34e35d04", null ],
-    [ "Spawn_FilterOutBadSpots", "d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901", null ],
-    [ "Spawn_Score", "d0/d41/spawnpoints_8qc.html#adb306ba6ed0866d22bb8f9318d8c4488", null ],
-    [ "Spawn_ScoreAll", "d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698", null ],
+    [ "Spawn_FilterOutBadSpots", "d0/d41/spawnpoints_8qc.html#aef6d4ecee043e51b468863cae789fa18", null ],
+    [ "Spawn_Score", "d0/d41/spawnpoints_8qc.html#acd88c0ca9be07e4597468b572358a91c", null ],
+    [ "Spawn_ScoreAll", "d0/d41/spawnpoints_8qc.html#a419b95440dbfb4aa7f716165ca1d8003", null ],
     [ "Spawn_WeightedPoint", "d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625", null ],
     [ "SpawnEvent_Send", "d0/d41/spawnpoints_8qc.html#a65f632ea7c75b704550b257f227230cb", null ],
     [ "spawnfunc", "d0/d41/spawnpoints_8qc.html#a05516b4d7d5dd71f11c6dfc8ce8c4b9e", null ],
