@@ -1,5 +1,13 @@
 var NAVTREEINDEX46 =
 {
+"d4/def/weapons_8qc.html#aa5a1dbdae1131edc4b6babd09d339f0d":[2,0,0,1,0,40,7],
+"d4/def/weapons_8qc.html#aad6bddac6be400364a66396b9468d51f":[2,0,0,1,0,40,8],
+"d4/def/weapons_8qc.html#ab7c3acfa47aaf4f25f4775921b6be5ae":[2,0,0,1,0,40,1],
+"d4/def/weapons_8qc.html#ad404b083c61c0b18b47d75dd1906b30e":[2,0,0,1,0,40,6],
+"d4/def/weapons_8qc.html#aeefd60b5b16eeb09bd4bd219b62bf124":[2,0,0,1,0,40,2],
+"d4/def/weapons_8qc_source.html":[2,0,0,1,0,40],
+"d4/df5/overkill_8qc.html":[2,0,1,10,0,23,14],
+"d4/df5/overkill_8qc_source.html":[2,0,1,10,0,23,14],
 "d4/df7/common_2mutators_2mutator_2cloaked_2__mod_8qh.html":[2,0,1,10,0,5,1],
 "d4/df7/common_2mutators_2mutator_2cloaked_2__mod_8qh_source.html":[2,0,1,10,0,5,1],
 "d4/df8/classXonoticHUDRadarDialog.html":[1,0,203],
@@ -241,13 +249,5 @@ var NAVTREEINDEX46 =
 "d5/d26/server_2defs_8qh.html#a067c6fc2c94c080c9e94a020c41f036e":[2,0,6,22,170],
 "d5/d26/server_2defs_8qh.html#a06bf944f94071c6cf5e71694ffbb5734":[2,0,6,22,191],
 "d5/d26/server_2defs_8qh.html#a072151adb9da1963c84bb1b64e9043c2":[2,0,6,22,140],
-"d5/d26/server_2defs_8qh.html#a09271a257022fb9977e0017aee98823c":[2,0,6,22,28],
-"d5/d26/server_2defs_8qh.html#a097b1a8933f813c9421c034269f3bf81":[2,0,6,22,114],
-"d5/d26/server_2defs_8qh.html#a098380b4b7c7eb9714a8eee767f42b78":[2,0,6,22,9],
-"d5/d26/server_2defs_8qh.html#a099ad087f6b1981b1c6333cf4a62334a":[2,0,6,22,23],
-"d5/d26/server_2defs_8qh.html#a09b90b074ff2e0e4a884221e80215fc6":[2,0,6,22,133],
-"d5/d26/server_2defs_8qh.html#a0a1bc515f9b22fabea96ce662d353a8e":[2,0,6,22,40],
-"d5/d26/server_2defs_8qh.html#a0a919d55d52dbf66dcb1fe03efe8f1a8":[2,0,6,22,103],
-"d5/d26/server_2defs_8qh.html#a0ae1b54e0a7968da8ad5a9cdb72038df":[2,0,6,22,105],
-"d5/d26/server_2defs_8qh.html#a101b6cf59e13f6e8a43e45d2a44f5692":[2,0,6,22,27]
+"d5/d26/server_2defs_8qh.html#a09271a257022fb9977e0017aee98823c":[2,0,6,22,28]
 };

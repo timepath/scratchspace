@@ -35,7 +35,7 @@ var searchData=
   ['hud_5fshiftx',['HUD_ShiftX',['../d8/db6/client_2miscfunctions_8qh.html#aa2bcb1156b1b03549c9a8d6bc45e97c5',1,'miscfunctions.qh']]],
   ['hud_5fshifty',['HUD_ShiftY',['../d8/db6/client_2miscfunctions_8qh.html#a307c017362dc67218ed9fcce03381841',1,'miscfunctions.qh']]],
   ['hud_5fweapons_5fget_5ffull_5flayout',['HUD_WEAPONS_GET_FULL_LAYOUT',['../d4/def/weapons_8qc.html#a3e043e62296dd243ac34238acbe48b54',1,'weapons.qc']]],
-  ['hud_5fwrite',['HUD_Write',['../dc/d90/hud__config_8qc.html#af6a5e9b71fece7ba2124a8e01b0b73b0',1,'hud_config.qc']]],
-  ['hud_5fwrite_5fcvar',['HUD_Write_Cvar',['../dc/d90/hud__config_8qc.html#a206f2a23966e7aef885b257c61886d26',1,'hud_config.qc']]],
-  ['hud_5fwrite_5fpanelcvar',['HUD_Write_PanelCvar',['../dc/d90/hud__config_8qc.html#a9692f06595934ac32eee091e80b35c33',1,'hud_config.qc']]]
+  ['hud_5fwrite',['HUD_Write',['../dd/dcd/hud__config_8qh.html#af6a5e9b71fece7ba2124a8e01b0b73b0',1,'hud_config.qh']]],
+  ['hud_5fwrite_5fcvar',['HUD_Write_Cvar',['../dd/dcd/hud__config_8qh.html#a206f2a23966e7aef885b257c61886d26',1,'hud_config.qh']]],
+  ['hud_5fwrite_5fpanelcvar',['HUD_Write_PanelCvar',['../dd/dcd/hud__config_8qh.html#a9692f06595934ac32eee091e80b35c33',1,'hud_config.qh']]]
 ];

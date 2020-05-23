@@ -4,6 +4,7 @@ var modicons_8qc =
     [ "HUD_Mod_CA", "dd/d59/modicons_8qc.html#ad1d000d7f62640740c47ca71ff44ba95", null ],
     [ "HUD_Mod_Race", "dd/d59/modicons_8qc.html#a8424826bc6a1cf734a8effc14a85fc78", null ],
     [ "HUD_ModIcons", "dd/d59/modicons_8qc.html#a33b7412629e2994dd103e2a3a6275aa8", null ],
+    [ "HUD_ModIcons_Export", "dd/d59/modicons_8qc.html#ae1cd750e7a7bfc1ed181278a122c6d5e", null ],
     [ "HUD_ModIcons_SetFunc", "dd/d59/modicons_8qc.html#a845124cf856029f19ca6551fe4993975", null ],
     [ "race_CheckName", "dd/d59/modicons_8qc.html#a0160171124193a7ee2dd193882da4061", null ],
     [ "race_showTime", "dd/d59/modicons_8qc.html#ac3feccee341c58ff935a2148dbed66b5", null ],

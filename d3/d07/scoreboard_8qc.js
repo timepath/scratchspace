@@ -12,6 +12,7 @@ var scoreboard_8qc =
     [ "Scoreboard_CompareScore", "d3/d07/scoreboard_8qc.html#a594023b6dfdb6c060e92e6d558f1269b", null ],
     [ "Scoreboard_CompareTeamScores", "d3/d07/scoreboard_8qc.html#a945e9931205171a7c7ee94146625c6e1", null ],
     [ "Scoreboard_Draw", "d3/d07/scoreboard_8qc.html#a74fe9da906a0dda510849ac57116bba3", null ],
+    [ "Scoreboard_Draw_Export", "d3/d07/scoreboard_8qc.html#ab4688ba036ccfb4993a42f8f8c14b348", null ],
     [ "Scoreboard_DrawHeader", "d3/d07/scoreboard_8qc.html#a10be64b456cb06df71b79095b6d05313", null ],
     [ "Scoreboard_DrawItem", "d3/d07/scoreboard_8qc.html#a40ea8e090013dc1a8d54a696e07f4bf6", null ],
     [ "Scoreboard_DrawOthers", "d3/d07/scoreboard_8qc.html#ac12dde29fbf9350b0c56e6a803073a92", null ],

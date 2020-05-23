@@ -1,5 +1,8 @@
 var hud__config_8qh =
 [
+    [ "HUD_Write", "dd/dcd/hud__config_8qh.html#af6a5e9b71fece7ba2124a8e01b0b73b0", null ],
+    [ "HUD_Write_Cvar", "dd/dcd/hud__config_8qh.html#a206f2a23966e7aef885b257c61886d26", null ],
+    [ "HUD_Write_PanelCvar", "dd/dcd/hud__config_8qh.html#a9692f06595934ac32eee091e80b35c33", null ],
     [ "HUD_Configure_Frame", "dd/dcd/hud__config_8qh.html#aff11757a3172f4f26585a7edc21785f0", null ],
     [ "HUD_Configure_PostDraw", "dd/dcd/hud__config_8qh.html#a997bcd4a77add62b1ec1ed127a5bd1bb", null ],
     [ "HUD_Panel_EnableMenu", "dd/dcd/hud__config_8qh.html#ac4325f87797d58b1c1e4b23d81945214", null ],

@@ -2,6 +2,7 @@ var infomessages_8qc =
 [
     [ "InfoMessage", "df/d21/infomessages_8qc.html#af23bd3d7f1b2f4092741c44d01402a2d", null ],
     [ "HUD_InfoMessages", "df/d21/infomessages_8qc.html#a34ab7f0b1f8fc8af94288e83c3f42798", null ],
+    [ "HUD_InfoMessages_Export", "df/d21/infomessages_8qc.html#a01242f4ec8b947f183c83ef09cee9dd2", null ],
     [ "img_select", "df/d21/infomessages_8qc.html#ae47a4e840ff3bb34af0bb26f0cdf9810", null ],
     [ "InfoMessages_drawstring", "df/d21/infomessages_8qc.html#a7854c8f2dc9b65b6d10fc18b713b87c6", null ],
     [ "autocvar_hud_panel_infomessages_group0", "df/d21/infomessages_8qc.html#a7e53e2a607b198713b184d00f9004616", null ],

@@ -12,6 +12,7 @@ var quickmenu_8qc =
     [ "QUICKMENU_SMENU_PL", "d8/d19/quickmenu_8qc.html#a8f48aed3cd17365ade0a1631f2049ded", null ],
     [ "HUD_QuickMenu", "d8/d19/quickmenu_8qc.html#a8d0e15d08cca8c77f6790ab61839f24f", null ],
     [ "HUD_Quickmenu_DrawEntry", "d8/d19/quickmenu_8qc.html#a114ffdb36bc1b1433b8e63e97ad3facf", null ],
+    [ "HUD_QuickMenu_Export", "d8/d19/quickmenu_8qc.html#a5d314c5345155349bc2bfc61de406df9", null ],
     [ "HUD_QuickMenu_Forbidden", "d8/d19/quickmenu_8qc.html#a9a30e7bebb5e93259aef62264d6788de", null ],
     [ "HUD_Quickmenu_PlayerListEntries", "d8/d19/quickmenu_8qc.html#a72ae9d97edf7b6fda39c874800c0d74a", null ],
     [ "HUD_Quickmenu_PlayerListEntries_Create", "d8/d19/quickmenu_8qc.html#a13bf64cdfe34bd30bd357acb7bd7364b", null ],

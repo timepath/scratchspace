@@ -6,6 +6,7 @@ var client_2mapvoting_8qc =
     [ "MapVote_CheckPic", "d4/d0d/client_2mapvoting_8qc.html#a4e309a8481e1eb672068396a8da29efc", null ],
     [ "MapVote_CheckPK3", "d4/d0d/client_2mapvoting_8qc.html#a6d03f5e30fcc06b0a00062693556e1aa", null ],
     [ "MapVote_Draw", "d4/d0d/client_2mapvoting_8qc.html#aa818f8084baf251c8c1215262ebe1022", null ],
+    [ "MapVote_Draw_Export", "d4/d0d/client_2mapvoting_8qc.html#a15db7d951bbebccb97963082efafc69e", null ],
     [ "MapVote_DrawAbstain", "d4/d0d/client_2mapvoting_8qc.html#a6e49a64904e746b1fc8f6ab15c0a5ed0", null ],
     [ "MapVote_DrawMapItem", "d4/d0d/client_2mapvoting_8qc.html#a483782bbf3cea993b4a60f5ad8b83729", null ],
     [ "MapVote_FormatMapItem", "d4/d0d/client_2mapvoting_8qc.html#ab2a03aab43806a5e9fc79dca1c1eaab4", null ],

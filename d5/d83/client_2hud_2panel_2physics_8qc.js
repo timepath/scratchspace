@@ -1,6 +1,7 @@
 var client_2hud_2panel_2physics_8qc =
 [
     [ "HUD_Physics", "d5/d83/client_2hud_2panel_2physics_8qc.html#ac8cc1c5ddb1bf262f00de667ba2124db", null ],
+    [ "HUD_Physics_Export", "d5/d83/client_2hud_2panel_2physics_8qc.html#abc69278e90a0fc39dfad5d536d2176f7", null ],
     [ "acc_avg", "d5/d83/client_2hud_2panel_2physics_8qc.html#ae0435a5f81d23ab1784a65a067103807", null ],
     [ "acc_prevspeed", "d5/d83/client_2hud_2panel_2physics_8qc.html#af1d50e259bfcbaf2f70962f36e329c80", null ],
     [ "acc_prevtime", "d5/d83/client_2hud_2panel_2physics_8qc.html#a19a97138ee157d8182facd2f3895b4df", null ],

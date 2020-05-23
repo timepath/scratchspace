@@ -1,8 +1,5 @@
 var hud__config_8qc =
 [
-    [ "HUD_Write", "dc/d90/hud__config_8qc.html#af6a5e9b71fece7ba2124a8e01b0b73b0", null ],
-    [ "HUD_Write_Cvar", "dc/d90/hud__config_8qc.html#a206f2a23966e7aef885b257c61886d26", null ],
-    [ "HUD_Write_PanelCvar", "dc/d90/hud__config_8qc.html#a9692f06595934ac32eee091e80b35c33", null ],
     [ "HUD_Configure_DrawGrid", "dc/d90/hud__config_8qc.html#a665a55d00480841ad02d7ba5b3f72c69", null ],
     [ "HUD_Configure_Exit_Force", "dc/d90/hud__config_8qc.html#afef9ec12c707c8e22a9a16a4ae8ea12a", null ],
     [ "HUD_Configure_Frame", "dc/d90/hud__config_8qc.html#aff11757a3172f4f26585a7edc21785f0", null ],
