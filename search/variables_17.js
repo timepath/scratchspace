@@ -84,7 +84,6 @@ var searchData=
   ['wasflying',['wasFlying',['../de/d70/common_2physics_2player_8qh.html#a8bfc9438d3556ee850e62ef6860d0b95',1,'player.qh']]],
   ['waslinked',['waslinked',['../d7/dd0/sv__onslaught_8qh.html#a99e0e77bd92c05ac164fd295f0d2a6af',1,'sv_onslaught.qh']]],
   ['wasplayer',['wasplayer',['../d1/d37/classClient.html#a31c687c46e05fbd204175abf8cb1a93d',1,'Client::wasplayer()'],['../d5/d26/server_2defs_8qh.html#a32a4dd8d5385cd0d5fd0dc5fa3daf732',1,'wasplayer():&#160;defs.qh']]],
-  ['waterjump_5ftime',['waterjump_time',['../de/d70/common_2physics_2player_8qh.html#a6123d4f4ec07cdad146eb4e01d0c4d3a',1,'player.qh']]],
   ['waterlevel',['waterlevel',['../d6/d11/progsdefs_8qc.html#a796f7384a7accc4479668f27b307f3f1',1,'progsdefs.qc']]],
   ['waterlevel_5fnone',['WATERLEVEL_NONE',['../d4/dd7/movetypes_8qh.html#a4bec948f47848ed35986ca695c61f431',1,'movetypes.qh']]],
   ['waterlevel_5fsubmerged',['WATERLEVEL_SUBMERGED',['../d4/dd7/movetypes_8qh.html#a34ca566662a26587b84114499a69e6d4',1,'movetypes.qh']]],

@@ -158,18 +158,18 @@ var NAVTREEINDEX =
 "de/d55/server_2command_2common_8qc.html#afff16d75dc358b9f81513350d82d92f3",
 "de/d5e/dpextensions_8qc.html#aa3a866cdc0e6b0951832c310d0b9244c",
 "de/d70/common_2physics_2player_8qh.html#a363f777d30bb51c67376300a5d7f49be",
-"de/d8c/classWyvernAttack.html#aa33a9e234103d87be809a6c13d1061b2",
-"de/da1/sv__keepaway_8qc.html#a48b4ae0374d4a37798d382112815ad4d",
-"de/dcb/classMageSpike.html#a8adc0f68d514782dc8fe0a1d5af3b310",
-"de/de8/portals_8qc.html#adf1fd6a4311c4af81f779e0e5f38a9bf",
-"df/d27/classXonoticPicker.html#a0295170719b329b2b1786ec96dfe390e",
-"df/d41/cl__ctf_8qc.html#a9fba4055eb7a12732e45c9864109ce0a",
-"df/d6e/globalsound_8qh.html#a361ab5f1d50af3c1fb9c5353781b262a",
-"df/d92/classXonoticWinnerDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea",
-"df/dc2/menu_8qc.html#a4456a23d7ead3b0729cac4936b2c1422",
-"df/dd4/navigation_8qh.html#ac4f53fe093adbbcbedc119132f5c28ea",
-"df/df6/classXonoticSlider.html#a8c568c803f49400fd0165b69f82d4161",
-"dir_e220edc87b29ed8f83fd5a560ddf76b2.html"
+"de/d8c/classWyvernAttack.html#aaad96449e7e4cdb5954638552a4dd985",
+"de/da1/sv__keepaway_8qc.html#a57a01a9749b9445093630d283f568984",
+"de/dcb/classMageSpike.html#aa0a5f1de6ba7228907295012902a136a",
+"de/de8/portals_8qc.html#ae9b539a5e78533b38371cd35748e2ad9",
+"df/d27/classXonoticPicker.html#a0e3ae62a1e789f9d1c4cee355a5aad49",
+"df/d41/cl__ctf_8qc.html#abbc271ee072031f5b5ca808991e63505",
+"df/d6e/globalsound_8qh.html#a517599a91541c3857c18c659742f96af",
+"df/d92/classXonoticWinnerDialog.html#aeddd1791da6fd6649a97730380336cf8",
+"df/dc2/menu_8qc.html#a5adcb59bc2e4522b502d6217b660d215",
+"df/dd4/navigation_8qh.html#acdb33c0ca48e8abd888a76b7ab7e71d6",
+"df/df6/classXonoticSlider.html#a9075b0498c455f256a7e2f6b0c867301",
+"dir_e8d65224de9f0ea7401d27c4d8eb57f5.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

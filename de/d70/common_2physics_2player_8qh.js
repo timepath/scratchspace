@@ -66,7 +66,6 @@ var common_2physics_2player_8qh =
     [ "PHYS_PL_VIEWOFS", "de/d70/common_2physics_2player_8qh.html#a3b4bd81f385cbcaa5c08bbaf4637837d", null ],
     [ "PHYS_SLICK_APPLYGRAVITY", "de/d70/common_2physics_2player_8qh.html#af62f64a5177117b1b796be90dd309dce", null ],
     [ "PHYS_STOPSPEED", "de/d70/common_2physics_2player_8qh.html#a5d875da0044539da8a87d3f15e5266c5", null ],
-    [ "PHYS_TELEPORT_TIME", "de/d70/common_2physics_2player_8qh.html#a4fb98c405f4df107b990223d015aea08", null ],
     [ "PHYS_TRACK_CANJUMP", "de/d70/common_2physics_2player_8qh.html#a7ae09eefc465db502d0a0a5a1285b719", null ],
     [ "PHYS_VIEWHEIGHT", "de/d70/common_2physics_2player_8qh.html#ace4105b137245448834e286957121470", null ],
     [ "PHYS_WARSOWBUNNY_ACCEL", "de/d70/common_2physics_2player_8qh.html#a1b0a438d266d9ef604392b0c167dae00", null ],
@@ -74,7 +73,6 @@ var common_2physics_2player_8qh =
     [ "PHYS_WARSOWBUNNY_BACKTOSIDERATIO", "de/d70/common_2physics_2player_8qh.html#a536bf75591f680faaf98ad32262752b1", null ],
     [ "PHYS_WARSOWBUNNY_TOPSPEED", "de/d70/common_2physics_2player_8qh.html#a3aaa42a2b4ab57536e12c907d2f99629", null ],
     [ "PHYS_WARSOWBUNNY_TURNACCEL", "de/d70/common_2physics_2player_8qh.html#ae354b8220687fcb9808a96dc1b185822", null ],
-    [ "PHYS_WATERJUMP_TIME", "de/d70/common_2physics_2player_8qh.html#a458adbf71d98283d6f38e5dbd6d0ebe7", null ],
     [ "SET_JUMP_HELD", "de/d70/common_2physics_2player_8qh.html#aef8b1c32c3402cb23008eb08e0e8cffb", null ],
     [ "UNSET_JUMP_HELD", "de/d70/common_2physics_2player_8qh.html#ac2d0dcf4a4840539e0901c7254d34ecc", null ],
     [ "WAS_ONGROUND", "de/d70/common_2physics_2player_8qh.html#a5a11a9aa52f228414844fc60042af295", null ],
@@ -93,6 +91,5 @@ var common_2physics_2player_8qh =
     [ "swamp_slowdown", "de/d70/common_2physics_2player_8qh.html#a72409ccf4513611408270e2c17712b3d", null ],
     [ "teleport_time", "de/d70/common_2physics_2player_8qh.html#a5b22fb02e46104adf892ccf37392f741", null ],
     [ "v_angle_old", "de/d70/common_2physics_2player_8qh.html#a363f777d30bb51c67376300a5d7f49be", null ],
-    [ "wasFlying", "de/d70/common_2physics_2player_8qh.html#a8bfc9438d3556ee850e62ef6860d0b95", null ],
-    [ "waterjump_time", "de/d70/common_2physics_2player_8qh.html#a6123d4f4ec07cdad146eb4e01d0c4d3a", null ]
+    [ "wasFlying", "de/d70/common_2physics_2player_8qh.html#a8bfc9438d3556ee850e62ef6860d0b95", null ]
 ];
