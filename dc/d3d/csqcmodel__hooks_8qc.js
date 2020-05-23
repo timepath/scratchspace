@@ -54,7 +54,6 @@ var csqcmodel__hooks_8qc =
     [ "lodmodelindex1", "dc/d3d/csqcmodel__hooks_8qc.html#a1c17b346dec89b6434e65d185e8aa494", null ],
     [ "lodmodelindex2", "dc/d3d/csqcmodel__hooks_8qc.html#a0f179309458eca2fb0e79ee5a321e603", null ],
     [ "modelflags", "dc/d3d/csqcmodel__hooks_8qc.html#a2d651a2465a2b55127d67c245e3af6db", null ],
-    [ "old_glowmod", "dc/d3d/csqcmodel__hooks_8qc.html#a7a0bb38422aa7b8c500328523d39a9cb", null ],
     [ "snd_looping", "dc/d3d/csqcmodel__hooks_8qc.html#af1f595b6858d99280b80dcd559ff4aff", null ],
     [ "tag_entity", "dc/d3d/csqcmodel__hooks_8qc.html#a6e7c18e752405b4131cb59328ca1102a", null ],
     [ "tag_entity_lastmodelindex", "dc/d3d/csqcmodel__hooks_8qc.html#a629d0763765a1879ec28c2d06ddeffb3", null ],

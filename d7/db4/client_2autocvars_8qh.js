@@ -45,6 +45,7 @@ var client_2autocvars_8qh =
     [ "autocvar_cl_damageeffect_ticrate", "d7/db4/client_2autocvars_8qh.html#a0e65cf2bf2719652accb4527eef89a3a", null ],
     [ "autocvar_cl_db_saveasdump", "d7/db4/client_2autocvars_8qh.html#a1455926cfe7712933a5aafc2d95e8550", null ],
     [ "autocvar_cl_deathglow", "d7/db4/client_2autocvars_8qh.html#a2a67c3fe0ee0d088017aabdcffaed8f4", null ],
+    [ "autocvar_cl_deathglow_min", "d7/db4/client_2autocvars_8qh.html#a57a49f64d88713430176bbab09086008", null ],
     [ "autocvar_cl_deathscoreboard", "d7/db4/client_2autocvars_8qh.html#a3d9c9666c352b81d61895b11cd9d69b8", null ],
     [ "autocvar_cl_effects_lightningarc_branchfactor_add", "d7/db4/client_2autocvars_8qh.html#a30f32a2fc1ba824e4cca20a3db46d143", null ],
     [ "autocvar_cl_effects_lightningarc_branchfactor_start", "d7/db4/client_2autocvars_8qh.html#a09b270ecdc2bce545a68c884d60af4c1", null ],

@@ -349,6 +349,7 @@ var searchData=
   ['autocvar_5fcl_5fdamageeffect_5fticrate',['autocvar_cl_damageeffect_ticrate',['../d7/db4/client_2autocvars_8qh.html#a0e65cf2bf2719652accb4527eef89a3a',1,'autocvars.qh']]],
   ['autocvar_5fcl_5fdb_5fsaveasdump',['autocvar_cl_db_saveasdump',['../d7/db4/client_2autocvars_8qh.html#a1455926cfe7712933a5aafc2d95e8550',1,'autocvars.qh']]],
   ['autocvar_5fcl_5fdeathglow',['autocvar_cl_deathglow',['../d7/db4/client_2autocvars_8qh.html#a2a67c3fe0ee0d088017aabdcffaed8f4',1,'autocvars.qh']]],
+  ['autocvar_5fcl_5fdeathglow_5fmin',['autocvar_cl_deathglow_min',['../d7/db4/client_2autocvars_8qh.html#a57a49f64d88713430176bbab09086008',1,'autocvars.qh']]],
   ['autocvar_5fcl_5fdeathscoreboard',['autocvar_cl_deathscoreboard',['../d7/db4/client_2autocvars_8qh.html#a3d9c9666c352b81d61895b11cd9d69b8',1,'autocvars.qh']]],
   ['autocvar_5fcl_5feffects_5flightningarc_5fbranchfactor_5fadd',['autocvar_cl_effects_lightningarc_branchfactor_add',['../d7/db4/client_2autocvars_8qh.html#a30f32a2fc1ba824e4cca20a3db46d143',1,'autocvars.qh']]],
   ['autocvar_5fcl_5feffects_5flightningarc_5fbranchfactor_5fstart',['autocvar_cl_effects_lightningarc_branchfactor_start',['../d7/db4/client_2autocvars_8qh.html#a09b270ecdc2bce545a68c884d60af4c1',1,'autocvars.qh']]],
