@@ -1,8 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"d6/ddd/server_2mutators_2events_8qh.html#ab9a6b94018b56f080fe915c277ec3745":[2,0,6,3,3,72],
-"d6/ddd/server_2mutators_2events_8qh.html#ab9c203cb359e059fe3fc072588d0cdca":[2,0,6,3,3,31],
-"d6/ddd/server_2mutators_2events_8qh.html#aba431db07acae1f882b8d9167c80060d":[2,0,6,3,3,276],
 "d6/ddd/server_2mutators_2events_8qh.html#aba63b5332da43d068c64badbf1fb6bc9":[2,0,6,3,3,95],
 "d6/ddd/server_2mutators_2events_8qh.html#abad526984137a7bd9f74061cd50562a7":[2,0,6,3,3,7],
 "d6/ddd/server_2mutators_2events_8qh.html#abc5c98fcc1211af2b80116dd6e0a035da0b727707d8a1f3e255acb85bebbd1761":[2,0,6,3,3,140],
@@ -249,5 +246,8 @@ var NAVTREEINDEX62 =
 "d7/d0b/common_2gamemodes_2__mod_8qh_source.html":[2,0,1,3,2],
 "d7/d0d/bigcommandbutton_8qc.html":[2,0,5,4,4],
 "d7/d0d/bigcommandbutton_8qc.html#a032835115310f2e38bc75d3166070fba":[2,0,5,4,4,2],
-"d7/d0d/bigcommandbutton_8qc.html#a3585c81eab0e3c921741fd4edcec39c9":[2,0,5,4,4,1]
+"d7/d0d/bigcommandbutton_8qc.html#a3585c81eab0e3c921741fd4edcec39c9":[2,0,5,4,4,1],
+"d7/d0d/bigcommandbutton_8qc.html#ab7f0ec07e81d9178eae782be68d7a3f8":[2,0,5,4,4,0],
+"d7/d0d/bigcommandbutton_8qc_source.html":[2,0,5,4,4],
+"d7/d0e/dialog__settings__game__weapons_8qc.html":[2,0,5,4,142]
 };

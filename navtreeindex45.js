@@ -1,8 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"d4/dbb/centerprint_8qc_source.html":[2,0,0,1,0,4],
-"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html":[2,0,5,4,112],
-"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a12019b0c4fbb4a2e2f900a43770ac1d9":[2,0,5,4,112,7],
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a12922afc952041edc7e8846965840471":[2,0,5,4,112,0],
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a16297471f5289ac452149b1e62722571":[2,0,5,4,112,5],
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a2de01cb3b52aa5c251ca9c50aa4ee0dd":[2,0,5,4,112,10],
@@ -249,5 +246,8 @@ var NAVTREEINDEX45 =
 "d4/def/weapons_8qc.html":[2,0,0,1,0,40],
 "d4/def/weapons_8qc.html#a007f9e08be8fbcc7379b55ee0831582a":[2,0,0,1,0,40,5],
 "d4/def/weapons_8qc.html#a3e043e62296dd243ac34238acbe48b54":[2,0,0,1,0,40,0],
-"d4/def/weapons_8qc.html#a78ae21ff07fb9635d16068d921afd78e":[2,0,0,1,0,40,3]
+"d4/def/weapons_8qc.html#a78ae21ff07fb9635d16068d921afd78e":[2,0,0,1,0,40,3],
+"d4/def/weapons_8qc.html#a9393a669fd50c72dd3d3c71c6ff1abcb":[2,0,0,1,0,40,4],
+"d4/def/weapons_8qc.html#aa5a1dbdae1131edc4b6babd09d339f0d":[2,0,0,1,0,40,7],
+"d4/def/weapons_8qc.html#aad6bddac6be400364a66396b9468d51f":[2,0,0,1,0,40,8]
 };

@@ -1,8 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"d8/d0e/client_2mutators_2events_8qh.html#ae2bf0333af1d510da7169280b11f6b75":[2,0,0,2,3,48],
-"d8/d0e/client_2mutators_2events_8qh.html#ae44e84858c630fe96b01114c016d883b":[2,0,0,2,3,29],
-"d8/d0e/client_2mutators_2events_8qh.html#ae63edee0bd54b8951776c743a63d1c2d":[2,0,0,2,3,28],
 "d8/d0e/client_2mutators_2events_8qh.html#aea3a2f390fc291608806c3dfe18f489a":[2,0,0,2,3,26],
 "d8/d0e/client_2mutators_2events_8qh.html#af6fe2b39621abade1069ae32c014b9e5":[2,0,0,2,3,42],
 "d8/d0e/client_2mutators_2events_8qh.html#afef9967024f4798cac5e735d0caae72e":[2,0,0,2,3,49],
@@ -191,10 +188,10 @@ var NAVTREEINDEX75 =
 "d8/d1c/sv__spawn_8qc.html#a6cfe31b7427d7ec23125a64297039731":[2,0,1,9,8,0],
 "d8/d1c/sv__spawn_8qc_source.html":[2,0,1,9,8],
 "d8/d1d/cmd_8qc.html":[2,0,6,1,4],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,3],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,1],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,0],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,2],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,1],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,3],
 "d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665":[2,0,6,1,4,27],
 "d8/d1d/cmd_8qc.html#a0c42ae5ee5b88c336b9cf1d7307c0ed5":[2,0,6,1,4,25],
 "d8/d1d/cmd_8qc.html#a2f573bb68d8a885ab67871d5da4ef076":[2,0,6,1,4,11],
@@ -249,5 +246,8 @@ var NAVTREEINDEX75 =
 "d8/d29/playlist_8qc.html#abe604a3e619e18e1aa6cf9623f64234e":[2,0,5,4,194,17],
 "d8/d29/playlist_8qc.html#ad70aacf2537ac90edf75bdfb0e4501c0":[2,0,5,4,194,3],
 "d8/d29/playlist_8qc.html#aefcdc232ebedc004971e8354e8f4cb27":[2,0,5,4,194,4],
-"d8/d29/playlist_8qc.html#af353173d64367e9d0882dc0a2a0da52a":[2,0,5,4,194,5]
+"d8/d29/playlist_8qc.html#af353173d64367e9d0882dc0a2a0da52a":[2,0,5,4,194,5],
+"d8/d29/playlist_8qc.html#af4101b201cb3169df0690c6d58ee4e9a":[2,0,5,4,194,6],
+"d8/d29/playlist_8qc.html#af4b5686808243d953322a71f3f743e66":[2,0,5,4,194,13],
+"d8/d29/playlist_8qc_source.html":[2,0,5,4,194]
 };

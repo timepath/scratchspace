@@ -1,11 +1,11 @@
 var centerprint_8qc =
 [
-    [ "centerprint_generic", "d4/dbb/centerprint_8qc.html#a369d3074c3a2f6caa03166cdd9f7fa4b", null ],
-    [ "centerprint_hud", "d4/dbb/centerprint_8qc.html#a3af1bb857e7f0803f57f1982580927ff", null ],
+    [ "centerprint_Add", "d4/dbb/centerprint_8qc.html#a7e7313a9ace5a60595f1424536063f84", null ],
+    [ "centerprint_AddStandard", "d4/dbb/centerprint_8qc.html#ad5224969f9aeec62f226b4e7b7ad1394", null ],
     [ "centerprint_kill", "d4/dbb/centerprint_8qc.html#abc0e0c0ccaa1f1bdffc809ea2f74e0f5", null ],
+    [ "centerprint_KillAll", "d4/dbb/centerprint_8qc.html#a133aa7316ffde4bb1306801d51d80422", null ],
     [ "HUD_CenterPrint", "d4/dbb/centerprint_8qc.html#aa9a8cf192f768286ec6a0b38c3fa010b", null ],
     [ "HUD_CenterPrint_Export", "d4/dbb/centerprint_8qc.html#a3e4de950a5758aa240933d05238dca81", null ],
-    [ "reset_centerprint_messages", "d4/dbb/centerprint_8qc.html#a6d4ddf3b0f648c4df6f12d0deae225b9", null ],
     [ "centerprint_bold", "d4/dbb/centerprint_8qc.html#a0397acf3104b2f76bbc819fa7789ac7c", null ],
     [ "centerprint_countdown_num", "d4/dbb/centerprint_8qc.html#a9731fa8afb1ec882df990e68002ace34", null ],
     [ "centerprint_expire_time", "d4/dbb/centerprint_8qc.html#aa9d2eefefc2163d347abb0eda6205b69", null ],

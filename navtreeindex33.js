@@ -1,8 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"d3/deb/dialog__multiplayer__media_8qh.html#a048e9d55578bbd55fa3acb96f76ad670":[2,0,5,4,101,1],
-"d3/deb/dialog__multiplayer__media_8qh_source.html":[2,0,5,4,101],
-"d3/dec/common_2mutators_2mutator_2instagib_2items_8qc.html":[2,0,1,10,0,12,2],
 "d3/dec/common_2mutators_2mutator_2instagib_2items_8qc_source.html":[2,0,1,10,0,12,2],
 "d3/def/sv__turrets_8qc.html":[2,0,1,14,11],
 "d3/def/sv__turrets_8qc_source.html":[2,0,1,14,11],
@@ -249,5 +246,8 @@ var NAVTREEINDEX33 =
 "d4/d0a/classXonoticMiscSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,219,70],
 "d4/d0a/classXonoticMiscSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,219,11],
 "d4/d0a/classXonoticMiscSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,219,71],
-"d4/d0a/classXonoticMiscSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,219,4]
+"d4/d0a/classXonoticMiscSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,219,4],
+"d4/d0a/classXonoticMiscSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,219,45],
+"d4/d0a/classXonoticMiscSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,219,23],
+"d4/d0a/classXonoticMiscSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,219,51]
 };
