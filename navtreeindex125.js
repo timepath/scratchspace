@@ -1,5 +1,6 @@
 var NAVTREEINDEX125 =
 {
+"de/d19/classEasing.html#ab0505df849ecb968a213407ff2046c94":[1,0,33,21],
 "de/d19/classEasing.html#ab5623f3ce8f21afa547b9bf35dc697e0":[1,0,33,12],
 "de/d19/classEasing.html#abbffd3a900fc70bd1a91d8a217f68feb":[1,0,33,10],
 "de/d19/classEasing.html#abd28f8bfa1bd4589a123994dea274c33":[1,0,33,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX125 =
 "de/d3d/cl__minigames_8qh.html#a7106641b219836128248d423976191df":[2,0,1,7,4,14],
 "de/d3d/cl__minigames_8qh.html#a7276ca5834cd946d0c493571cdb279e4":[2,0,1,7,4,2],
 "de/d3d/cl__minigames_8qh.html#a74fcaa9da40aa62de287463ceb0a2908":[2,0,1,7,4,9],
-"de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0":[2,0,1,7,4,1],
-"de/d3d/cl__minigames_8qh.html#a884351dcbf24abbf82f01d394ed6cbf4":[2,0,1,7,4,20]
+"de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0":[2,0,1,7,4,1]
 };

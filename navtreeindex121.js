@@ -1,5 +1,6 @@
 var NAVTREEINDEX121 =
 {
+"dd/d8b/sys-pre_8qh.html#a9b4ad62e8edd9bf002562910fc15e83d":[2,0,6,65,18],
 "dd/d8b/sys-pre_8qh.html#ac88570b9257cfe415b124e28ff547c34":[2,0,6,65,4],
 "dd/d8b/sys-pre_8qh.html#ac9cc4122f0b090484d80e1db768f3385":[2,0,6,65,14],
 "dd/d8b/sys-pre_8qh.html#adfea91d16e957d4143a7bb26c048b654":[2,0,6,65,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX121 =
 "dd/d9a/classXonoticSandboxToolsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,238,39],
 "dd/da1/dialog__settings__game__hud_8qc.html":[2,0,5,4,132],
 "dd/da1/dialog__settings__game__hud_8qc.html#a057008f0eb43d4c862b6e4ff9db6da28":[2,0,5,4,132,3],
-"dd/da1/dialog__settings__game__hud_8qc.html#a339f2f6d3acd74f0a18c2db26f303fa1":[2,0,5,4,132,2],
-"dd/da1/dialog__settings__game__hud_8qc.html#a57427e87f05e329a87ac5937269e8b60":[2,0,5,4,132,0]
+"dd/da1/dialog__settings__game__hud_8qc.html#a339f2f6d3acd74f0a18c2db26f303fa1":[2,0,5,4,132,2]
 };

@@ -6,6 +6,7 @@ var centerprint_8qc =
     [ "HUD_CenterPrint", "d4/dbb/centerprint_8qc.html#aa9a8cf192f768286ec6a0b38c3fa010b", null ],
     [ "HUD_CenterPrint_Export", "d4/dbb/centerprint_8qc.html#a3e4de950a5758aa240933d05238dca81", null ],
     [ "reset_centerprint_messages", "d4/dbb/centerprint_8qc.html#a6d4ddf3b0f648c4df6f12d0deae225b9", null ],
+    [ "centerprint_bold", "d4/dbb/centerprint_8qc.html#a0397acf3104b2f76bbc819fa7789ac7c", null ],
     [ "centerprint_countdown_num", "d4/dbb/centerprint_8qc.html#a9731fa8afb1ec882df990e68002ace34", null ],
     [ "centerprint_expire_time", "d4/dbb/centerprint_8qc.html#aa9d2eefefc2163d347abb0eda6205b69", null ],
     [ "CENTERPRINT_MAX_ENTRIES", "d4/dbb/centerprint_8qc.html#a4a479b1a01d233b665585b3c118c1e17", null ],

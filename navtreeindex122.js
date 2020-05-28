@@ -1,5 +1,6 @@
 var NAVTREEINDEX122 =
 {
+"dd/da1/dialog__settings__game__hud_8qc.html#a57427e87f05e329a87ac5937269e8b60":[2,0,5,4,132,0],
 "dd/da1/dialog__settings__game__hud_8qc.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,132,1],
 "dd/da1/dialog__settings__game__hud_8qc_source.html":[2,0,5,4,132],
 "dd/da3/classXonoticMusicPlayerTab.html":[1,0,222],
@@ -248,6 +249,5 @@ var NAVTREEINDEX122 =
 "dd/db3/classXonoticQuitDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,232,62],
 "dd/db3/classXonoticQuitDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,232,74],
 "dd/db3/classXonoticQuitDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,232,6],
-"dd/db3/classXonoticQuitDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,232,14],
-"dd/db3/classXonoticQuitDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,232,18]
+"dd/db3/classXonoticQuitDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,232,14]
 };
