@@ -39,7 +39,6 @@ var client_2main_8qc =
     [ "SetTeam", "df/d30/client_2main_8qc.html#acd252a66b7a6154e4eceea34d229112b", null ],
     [ "Shutdown", "df/d30/client_2main_8qc.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9", null ],
     [ "Spawn_Draw", "df/d30/client_2main_8qc.html#ad588feebc12ed1a2def99b4d4e70d92e", null ],
-    [ "Spawn_PreDraw", "df/d30/client_2main_8qc.html#ac642f51eabb19c565bfbe0072388e146", null ],
     [ "forcefog", "df/d30/client_2main_8qc.html#ac6d66624aeafa1c2684b5931d82b2008", null ],
     [ "has_team", "df/d30/client_2main_8qc.html#a33415c58794cf70af080dcfa3213a501", null ]
 ];

@@ -1607,7 +1607,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">is_pure</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00015">make_impure</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00797">CSQC_Ent_Update()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00081">STATIC_INIT()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00788">CSQC_Ent_Update()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00081">STATIC_INIT()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;{</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordtype">int</span> n = e.entnum;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">bool</span> was_pure = <a class="code" href="../../db/d0a/oo_8qh.html#a07aa0cef4764b55dd4dc31ea09c870ba">is_pure</a>(e);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity</a>(<a class="code" href="../../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996">_clearentity_ent</a>, e);</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">if</span> (!was_pure) <a class="code" href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a>(e);</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        e.entnum = n;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;}</div><div class="ttc" id="menudefs_8qc_html_a1196d544e0b4dbb479f05cc4c6cc5516"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity</a></div><div class="ttdeci">void copyentity(entity src, entity dst)</div></div>
 <div class="ttc" id="oo_8qh_html_aa6129200bc08749d8ec263f44ca6b996"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996">_clearentity_ent</a></div><div class="ttdeci">entity _clearentity_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00080">oo.qh:80</a></div></div>
 <div class="ttc" id="oo_8qh_html_a2c6f379bca790f3aa11453fb312572a2"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a></div><div class="ttdeci">#define make_impure(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00015">oo.qh:15</a></div></div>
@@ -1837,7 +1837,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00021">21</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d0a/oo_8qh_source.html#l00035">__spawn()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00797">CSQC_Ent_Update()</a>, and <a class="el" href="../../d2/dce/promise_8qc_source.html#l00019">unref()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d0a/oo_8qh_source.html#l00035">__spawn()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00788">CSQC_Ent_Update()</a>, and <a class="el" href="../../d2/dce/promise_8qc_source.html#l00019">unref()</a>.</p>
 
 </div>
 </div>
@@ -1889,7 +1889,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../db/d0a/oo_8qh.html">oo.qh</a></li>
-    <li class="footer">Generated on Fri May 29 2020 11:53:00 for Xonotic by
+    <li class="footer">Generated on Fri May 29 2020 12:13:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
