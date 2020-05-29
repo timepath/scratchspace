@@ -1,15 +1,5 @@
 var NAVTREEINDEX108 =
 {
-"db/ddb/classXonoticCvarList.html#a3d20e31207b45594b949c746a97aa6cb":[1,0,167,2],
-"db/ddb/classXonoticCvarList.html#a3f9c5e6943891f335099fe380661b70c":[1,0,167,38],
-"db/ddb/classXonoticCvarList.html#a405b285a76ac127664593c89281a5b63":[1,0,167,60],
-"db/ddb/classXonoticCvarList.html#a4135daca6398e567dcc912b57f2d083d":[1,0,167,3],
-"db/ddb/classXonoticCvarList.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,167,27],
-"db/ddb/classXonoticCvarList.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,167,22],
-"db/ddb/classXonoticCvarList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,167,87],
-"db/ddb/classXonoticCvarList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,167,70],
-"db/ddb/classXonoticCvarList.html#a4db0e73106d8636c3956fe949e1c1407":[1,0,167,81],
-"db/ddb/classXonoticCvarList.html#a4df3f6edefa84d3d792aa916aaf183d2":[1,0,167,0],
 "db/ddb/classXonoticCvarList.html#a565f8d33b46815606f1860162d71339a":[1,0,167,28],
 "db/ddb/classXonoticCvarList.html#a5723e7c38f187fcf01bc9a71a1e826a9":[1,0,167,4],
 "db/ddb/classXonoticCvarList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,167,16],
@@ -249,5 +239,15 @@ var NAVTREEINDEX108 =
 "db/dee/projectiles_8qh.html#aa1a10886760e0a686f2e8d9ea01609b4":[2,0,1,16,12,18],
 "db/dee/projectiles_8qh.html#aae458c151a9d65460eec9f35a7578561":[2,0,1,16,12,29],
 "db/dee/projectiles_8qh.html#ab162bac6ee7484554c212603e07cff9a":[2,0,1,16,12,31],
-"db/dee/projectiles_8qh.html#ab634605b1071c443ed92a346527bc043":[2,0,1,16,12,22]
+"db/dee/projectiles_8qh.html#ab634605b1071c443ed92a346527bc043":[2,0,1,16,12,22],
+"db/dee/projectiles_8qh.html#ac6ae2b2f62dcfbc71cf3421abd243e12":[2,0,1,16,12,20],
+"db/dee/projectiles_8qh.html#acbee41019c18bc7ef48d18f07e4ccc05":[2,0,1,16,12,7],
+"db/dee/projectiles_8qh.html#ad2d712051be965d2123a8433bbc45cb5":[2,0,1,16,12,21],
+"db/dee/projectiles_8qh.html#addd5e1c8d6751047baf37b07728950b3":[2,0,1,16,12,17],
+"db/dee/projectiles_8qh.html#ae7b73a62a580eb11c699c290040aa916":[2,0,1,16,12,3],
+"db/dee/projectiles_8qh.html#aede604390723f055a11318be055c6ba8":[2,0,1,16,12,11],
+"db/dee/projectiles_8qh.html#aefc68ec50cec3db8bb1362f3546fc5c6":[2,0,1,16,12,0],
+"db/dee/projectiles_8qh.html#af240a011514c0952183da1c6e3da83e5":[2,0,1,16,12,27],
+"db/dee/projectiles_8qh_source.html":[2,0,1,16,12],
+"db/def/sort_8qh.html":[2,0,4,53]
 };

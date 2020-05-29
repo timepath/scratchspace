@@ -1,15 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"d8/d35/classXonoticHUDChatDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,189,46],
-"d8/d35/classXonoticHUDChatDialog.html#a14fd4de316ed42819f2e80f3391767c7":[1,0,189,76],
-"d8/d35/classXonoticHUDChatDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,189,24],
-"d8/d35/classXonoticHUDChatDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,189,17],
-"d8/d35/classXonoticHUDChatDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,189,72],
-"d8/d35/classXonoticHUDChatDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,189,69],
-"d8/d35/classXonoticHUDChatDialog.html#a1e3ab8541b20e732388c7f862af0bd8a":[1,0,189,22],
-"d8/d35/classXonoticHUDChatDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,189,68],
-"d8/d35/classXonoticHUDChatDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,189,7],
-"d8/d35/classXonoticHUDChatDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,189,70],
 "d8/d35/classXonoticHUDChatDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,189,4],
 "d8/d35/classXonoticHUDChatDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,189,41],
 "d8/d35/classXonoticHUDChatDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,189,19],
@@ -249,5 +239,15 @@ var NAVTREEINDEX76 =
 "d8/d58/calculations_8qc.html#a4a34221f79cad0b72ecf3df3f930bda9":[2,0,1,16,8,1],
 "d8/d58/calculations_8qc.html#a8c505b0c356899393ec20a52c48b7c7f":[2,0,1,16,8,4],
 "d8/d58/calculations_8qc_source.html":[2,0,1,16,8],
-"d8/d59/waypointsprites_8qh.html":[2,0,1,10,0,39,5]
+"d8/d59/waypointsprites_8qh.html":[2,0,1,10,0,39,5],
+"d8/d59/waypointsprites_8qh.html#a29dcc04d173ff86f1b01b62a94d45c0c":[2,0,1,10,0,39,5,0],
+"d8/d59/waypointsprites_8qh.html#a2a10f4f3932f9b83f847f3e3d7c325ab":[2,0,1,10,0,39,5,3],
+"d8/d59/waypointsprites_8qh.html#a9fb1df18ea71e49ce5e98c2fc4232adf":[2,0,1,10,0,39,5,1],
+"d8/d59/waypointsprites_8qh.html#af4b738cfb11ab91755d00f44be5b314b":[2,0,1,10,0,39,5,2],
+"d8/d59/waypointsprites_8qh_source.html":[2,0,1,10,0,39,5],
+"d8/d61/picker_8qh.html":[2,0,5,4,189],
+"d8/d61/picker_8qh.html#a31daa00a20ea0b0228b3a664c8e90483":[2,0,5,4,189,1],
+"d8/d61/picker_8qh_source.html":[2,0,5,4,189],
+"d8/d6b/selection_8qh.html":[2,0,6,5,11],
+"d8/d6b/selection_8qh.html#a0f321b3257e4e705a6d2ad7ad4f00bdf":[2,0,6,5,11,8]
 };

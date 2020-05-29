@@ -1,15 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"da/dd1/classCaptureTheFlag.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,15,4],
-"da/dd1/classCaptureTheFlag.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,15,3],
-"da/dd1/classCaptureTheFlag.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,15,21],
-"da/dd1/classCaptureTheFlag.html#ac949f50dbac754e88c67b57f63051039":[1,0,15,16],
-"da/dd1/classCaptureTheFlag.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,15,6],
-"da/dd1/classCaptureTheFlag.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,15,7],
-"da/dd1/classCaptureTheFlag.html#ae9227aebbcb0aaca925bbdc438958136":[1,0,15,17],
-"da/dd1/classCaptureTheFlag.html#aef3a65f4987590d66b653b91180860ca":[1,0,15,9],
-"da/dd1/classCaptureTheFlag.html#af1a6db9207b7000984864c8176081b52":[1,0,15,13],
-"da/dd1/classCaptureTheFlag.html#af2dbc193e6456856e3745b3cb47500bb":[1,0,15,20],
 "da/dd1/classCaptureTheFlag.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,15,5],
 "da/dd4/effectinfo__onslaught_8inc.html":[2,0,1,2,18],
 "da/dd4/effectinfo__onslaught_8inc.html#a14b4a86f4eded9aa2eeeda854eb487aa":[2,0,1,2,18,0],
@@ -249,5 +239,15 @@ var NAVTREEINDEX97 =
 "db/d07/teams_8qh.html#a393b7c72fe5fae97bc6abd3db442fd4c":[2,0,1,48,22],
 "db/d07/teams_8qh.html#a395c04d3db11362a1c25d2d4853fc180":[2,0,1,48,25],
 "db/d07/teams_8qh.html#a3d97cbf2943905f75404a99d1dc9fb87":[2,0,1,48,13],
-"db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f":[2,0,1,48,48]
+"db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f":[2,0,1,48,48],
+"db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001":[2,0,1,48,38],
+"db/d07/teams_8qh.html#a41d770fecb49af6ce941da2667000651":[2,0,1,48,46],
+"db/d07/teams_8qh.html#a462f05a4a626804eedd6badd274bb08e":[2,0,1,48,33],
+"db/d07/teams_8qh.html#a5585b53dde38603073c9309b31817e62":[2,0,1,48,16],
+"db/d07/teams_8qh.html#a5bb78e43a543e34c0f27f447c65d62cc":[2,0,1,48,8],
+"db/d07/teams_8qh.html#a60a132226a89386e69517d266e83be67":[2,0,1,48,19],
+"db/d07/teams_8qh.html#a61415f652588151b6e523dfc2141c54c":[2,0,1,48,28],
+"db/d07/teams_8qh.html#a6a105d471d84967e4f141610777507da":[2,0,1,48,6],
+"db/d07/teams_8qh.html#a700d838c6711603d833d9c54cdfb7fe6":[2,0,1,48,53],
+"db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56":[2,0,1,48,50]
 };

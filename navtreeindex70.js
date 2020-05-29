@@ -1,15 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"d7/dac/classXonoticMutatorsDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,223,56],
-"d7/dac/classXonoticMutatorsDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,223,33],
-"d7/dac/classXonoticMutatorsDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,223,41],
-"d7/dac/classXonoticMutatorsDialog.html#a5642b28738273ad7e63da202f78ccb64":[1,0,223,58],
-"d7/dac/classXonoticMutatorsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,223,63],
-"d7/dac/classXonoticMutatorsDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,223,75],
-"d7/dac/classXonoticMutatorsDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,223,7],
-"d7/dac/classXonoticMutatorsDialog.html#a72bf53c21ee1c9cdd883b23a9947cc4a":[1,0,223,50],
-"d7/dac/classXonoticMutatorsDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,223,15],
-"d7/dac/classXonoticMutatorsDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,223,19],
 "d7/dac/classXonoticMutatorsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,223,87],
 "d7/dac/classXonoticMutatorsDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,223,79],
 "d7/dac/classXonoticMutatorsDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,223,51],
@@ -249,5 +239,15 @@ var NAVTREEINDEX70 =
 "d7/db4/client_2autocvars_8qh.html#a642f2600889a46ce42e67b2f697aabbc":[2,0,0,8,119],
 "d7/db4/client_2autocvars_8qh.html#a6550638d76776d4c125ad6cb8235b3ab":[2,0,0,8,237],
 "d7/db4/client_2autocvars_8qh.html#a664f78e6728a4898c043be8d0bdf7e56":[2,0,0,8,78],
-"d7/db4/client_2autocvars_8qh.html#a66a045694e571da612f2b966d238ca2a":[2,0,0,8,261]
+"d7/db4/client_2autocvars_8qh.html#a66a045694e571da612f2b966d238ca2a":[2,0,0,8,261],
+"d7/db4/client_2autocvars_8qh.html#a681bff6e624baf3af2f0334052bd2ca8":[2,0,0,8,57],
+"d7/db4/client_2autocvars_8qh.html#a68334670e016c9fb3e37c48c7eb933f9":[2,0,0,8,284],
+"d7/db4/client_2autocvars_8qh.html#a699cf36d590be87fafe54dac79c58add":[2,0,0,8,405],
+"d7/db4/client_2autocvars_8qh.html#a69b71217764e92677700792845d207f7":[2,0,0,8,35],
+"d7/db4/client_2autocvars_8qh.html#a6a05e2c70c046f1dea51f3dc64cfe176":[2,0,0,8,276],
+"d7/db4/client_2autocvars_8qh.html#a6b032798fcac37e5f6001694cf8dda86":[2,0,0,8,236],
+"d7/db4/client_2autocvars_8qh.html#a6b951a95dcffcc953a046fafafc7f33e":[2,0,0,8,171],
+"d7/db4/client_2autocvars_8qh.html#a6b9cd44ba8ec69ffaa6a5019c6438bc3":[2,0,0,8,298],
+"d7/db4/client_2autocvars_8qh.html#a6b9e0df77767dbf6c7b3bb4c3b05f470":[2,0,0,8,441],
+"d7/db4/client_2autocvars_8qh.html#a6ba0fb9106db3713eaf501ef448a1e32":[2,0,0,8,118]
 };
