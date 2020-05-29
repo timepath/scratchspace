@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"d2/d65/unsafe_8qh_source.html":[2,0,4,63],
 "d2/d66/seeker_8qh.html":[2,0,1,16,0,31],
 "d2/d66/seeker_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,31,1],
 "d2/d66/seeker_8qh.html#ae594aa390a4d9229c3b5926f4221191d":[2,0,1,16,0,31,2],
@@ -209,9 +208,8 @@ var NAVTREEINDEX19 =
 "d2/d79/scores_8qc.html#affe961b21a56acd5eb8779b56607356d":[2,0,6,54,12],
 "d2/d79/scores_8qc_source.html":[2,0,6,54],
 "d2/d7c/server_2command_2reg_8qh.html":[2,0,6,1,13],
-"d2/d7c/server_2command_2reg_8qh.html#a7fc477b2d7545cdc1d8f209f5b8fdbe6":[2,0,6,1,13,1],
 "d2/d7c/server_2command_2reg_8qh.html#ab0a0e8f203b9c34d6af61caaa2e3e1b1":[2,0,6,1,13,0],
-"d2/d7c/server_2command_2reg_8qh.html#af970738ae6db6a24a8bca3de59ab35cc":[2,0,6,1,13,2],
+"d2/d7c/server_2command_2reg_8qh.html#af970738ae6db6a24a8bca3de59ab35cc":[2,0,6,1,13,1],
 "d2/d7c/server_2command_2reg_8qh_source.html":[2,0,6,1,13],
 "d2/d7f/phaser_8qh.html":[2,0,1,14,0,29],
 "d2/d7f/phaser_8qh.html#a2db64db683f96ecc0c896f8d6e0704a5":[2,0,1,14,0,29,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX19 =
 "d2/d88/classDomination.html#aef3a65f4987590d66b653b91180860ca":[1,0,30,9],
 "d2/d88/classDomination.html#af1a6db9207b7000984864c8176081b52":[1,0,30,13],
 "d2/d88/classDomination.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,30,5],
-"d2/d8a/cl__turrets_8qh.html":[2,0,1,14,8]
+"d2/d8a/cl__turrets_8qh.html":[2,0,1,14,8],
+"d2/d8a/cl__turrets_8qh_source.html":[2,0,1,14,8],
+"d2/d93/common_2effects_2__mod_8qh.html":[2,0,1,2,2]
 };

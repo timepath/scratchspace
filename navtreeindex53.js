@@ -1,14 +1,5 @@
 var NAVTREEINDEX53 =
 {
-"d6/d11/progsdefs_8qc.html#a79945c8d192f8eac6da0268e3bef1322":[2,0,2,0,4,131],
-"d6/d11/progsdefs_8qc.html#a79b76d876886d61a7ac31bd5da614f9c":[2,0,2,0,4,52],
-"d6/d11/progsdefs_8qc.html#a79cc6016efdaffa2c11c0c2148bce7c3":[2,0,2,0,4,195],
-"d6/d11/progsdefs_8qc.html#a7a3bc08d5f68a347b14c9db5b1a3aa2e":[2,0,2,0,4,104],
-"d6/d11/progsdefs_8qc.html#a7b725c275eb61febdd76c2d3780516c8":[2,0,2,0,4,206],
-"d6/d11/progsdefs_8qc.html#a7dfd8daadbdf53f2a7505a353c62889c":[2,0,2,0,4,113],
-"d6/d11/progsdefs_8qc.html#a8001eccd2229e1bbfa4a7d7b8bd344ab":[2,0,2,0,4,203],
-"d6/d11/progsdefs_8qc.html#a8198cc56e0d5c089df0fe500436a533f":[2,0,2,0,4,259],
-"d6/d11/progsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5":[2,0,2,0,4,85],
 "d6/d11/progsdefs_8qc.html#a826b2c367250c9fb58a7ca50eb138cde":[2,0,2,0,4,110],
 "d6/d11/progsdefs_8qc.html#a82fe32384e0536648608181f84fd5dbd":[2,0,2,0,4,268],
 "d6/d11/progsdefs_8qc.html#a835802057aef3faaaaa38335100809b5":[2,0,2,0,4,6],
@@ -249,5 +240,14 @@ var NAVTREEINDEX53 =
 "d6/d19/item_2textslider_8qc.html#a2b395ff38a5b2039dfed4a7ba717cec2":[2,0,5,2,32,8],
 "d6/d19/item_2textslider_8qc.html#a5e1ea9e6b3986e13b3599969bca8cfef":[2,0,5,2,32,3],
 "d6/d19/item_2textslider_8qc.html#a5e6bda641277315482cf8c688c84f9bd":[2,0,5,2,32,6],
-"d6/d19/item_2textslider_8qc.html#a66b13438483e2a8cc46450ee3ab4e7fb":[2,0,5,2,32,9]
+"d6/d19/item_2textslider_8qc.html#a66b13438483e2a8cc46450ee3ab4e7fb":[2,0,5,2,32,9],
+"d6/d19/item_2textslider_8qc.html#a6fda399e72618bd9a2fd0859b1ac52ae":[2,0,5,2,32,1],
+"d6/d19/item_2textslider_8qc.html#aa16c0597db29e0e41b727cd5307496a3":[2,0,5,2,32,2],
+"d6/d19/item_2textslider_8qc.html#adfe01db335b98febb13f9f868af89017":[2,0,5,2,32,0],
+"d6/d19/item_2textslider_8qc.html#af29fe111fc37e1ed19f6d0f376024f02":[2,0,5,2,32,5],
+"d6/d19/item_2textslider_8qc_source.html":[2,0,5,2,32],
+"d6/d1a/classMainWindow.html":[1,0,76],
+"d6/d1a/classMainWindow.html#a00d34e885c4c66a696241eab704ce559":[1,0,76,14],
+"d6/d1a/classMainWindow.html#a0114ec8fcfe23a7cbe938a1feebe08a9":[1,0,76,29],
+"d6/d1a/classMainWindow.html#a01627abafc724fbbbb330e46f8331911":[1,0,76,44]
 };

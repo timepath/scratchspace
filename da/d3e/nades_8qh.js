@@ -1,7 +1,6 @@
 var nades_8qh =
 [
     [ "Nade", "d9/d61/classNade.html", "d9/d61/classNade" ],
-    [ "Nades_from", "da/d3e/nades_8qh.html#a287e485b78921bfb12751b2ef06e0460", null ],
     [ "REGISTER_NADE", "da/d3e/nades_8qh.html#ab9b3d6c7ff080a646f95cb35fa2859ec", null ],
     [ "Nade_FromProjectile", "da/d3e/nades_8qh.html#a686132c927272e4033947a9294ac783b", null ],
     [ "REGISTER_NADE", "da/d3e/nades_8qh.html#aadcf48091046b4806ede2c9dccc3a0b4", null ],

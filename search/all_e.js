@@ -25,7 +25,6 @@ var searchData=
   ['nades_2eqc',['nades.qc',['../d6/d3f/nades_8qc.html',1,'']]],
   ['nades_2eqh',['nades.qh',['../da/d3e/nades_8qh.html',1,'']]],
   ['nades_5fclear',['nades_Clear',['../d7/db6/sv__clanarena_8qc.html#a515ca2e64da8af7b2b59470a6697db65',1,'nades_Clear(entity player):&#160;sv_clanarena.qc'],['../d3/d60/sv__freezetag_8qc.html#a883dcd3e4f90a547637b26c3beaea8ed',1,'nades_Clear(entity):&#160;sv_freezetag.qc'],['../d0/de4/sv__onslaught_8qc.html#ab106e734b4687c7b25b43e1e81a5899d',1,'nades_Clear(entity e):&#160;sv_onslaught.qc']]],
-  ['nades_5ffrom',['Nades_from',['../da/d3e/nades_8qh.html#a287e485b78921bfb12751b2ef06e0460',1,'nades.qh']]],
   ['nades_5fgivebonus',['nades_GiveBonus',['../dd/d0c/sv__ctf_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3',1,'nades_GiveBonus(entity player, float score):&#160;sv_ctf.qc'],['../d3/d60/sv__freezetag_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3',1,'nades_GiveBonus(entity player, float score):&#160;sv_freezetag.qc'],['../da/d2c/sv__keyhunt_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3',1,'nades_GiveBonus(entity player, float score):&#160;sv_keyhunt.qc']]],
   ['nagger',['nagger',['../d7/d16/server_2command_2vote_8qh.html#a563ec6544164649c6a41190259018c1f',1,'vote.qh']]],
   ['nagger_5finit',['Nagger_Init',['../d1/dad/server_2command_2vote_8qc.html#a46448826729592b90ee5ec53da2e0fe6',1,'Nagger_Init():&#160;vote.qc'],['../d7/d16/server_2command_2vote_8qh.html#a46448826729592b90ee5ec53da2e0fe6',1,'Nagger_Init():&#160;vote.qc']]],

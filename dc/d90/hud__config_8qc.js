@@ -28,5 +28,5 @@ var hud__config_8qc =
     [ "tab_backward", "dc/d90/hud__config_8qc.html#a1ad6573e83c9ee8bd35a65a8c645dc93", null ],
     [ "tab_panel", "dc/d90/hud__config_8qc.html#afa99d222f605afe3b9f4abbc32d9163d", null ],
     [ "tab_panel_pos", "dc/d90/hud__config_8qc.html#a4ca23e25abf9f4998736c75e33b01e6b", null ],
-    [ "tab_panels", "dc/d90/hud__config_8qc.html#aba766fc33603dfefbe5064abba204436", null ]
+    [ "tab_panels", "dc/d90/hud__config_8qc.html#a6aaaf10fee41e2d0e07f93ef83d78c40", null ]
 ];

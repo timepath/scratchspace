@@ -45,6 +45,7 @@ var searchData=
   ['_5fr_5fset',['_R_SET',['../d2/d5e/registry_8qh.html#a6cce72ef2dbdfd41d46337007a264deb',1,'registry.qh']]],
   ['_5fregister_5fhud_5fpanel',['_REGISTER_HUD_PANEL',['../d3/d05/hud_8qh.html#a0230f156d1981d65426e963b99ed6d20',1,'hud.qh']]],
   ['_5fregister_5fimpulse',['_REGISTER_IMPULSE',['../d0/d6e/impulses_2all_8qh.html#a6b0ed98120d3384494235c0337a1d354',1,'all.qh']]],
+  ['_5fregister_5fregistry',['_REGISTER_REGISTRY',['../d2/d5e/registry_8qh.html#acfc6fcc9dd555566f8ddc7670863ff49',1,'registry.qh']]],
   ['_5fselfwrap_5fget',['_SELFWRAP_GET',['../d3/dd0/self_8qh.html#a29c098c7bd67a60d2dd9d94db782aaa6',1,'self.qh']]],
   ['_5fselfwrap_5fset',['_SELFWRAP_SET',['../d3/dd0/self_8qh.html#aeb65df370cf4a41121aec1c4105bf606',1,'self.qh']]],
   ['_5fsound',['_sound',['../d0/df5/sound_8qh.html#ab3244e946a9d251f139b92bca26b13a3',1,'sound.qh']]],

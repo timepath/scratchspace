@@ -1,15 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a144092f0c6dc11da003aba4eb91adbc4":[1,0,265,27],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a1a55e3b961b4986ce5dda62bd05b8ec5":[1,0,265,48],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a1cbb35748ac950ef45b070c81af0d448":[1,0,265,57],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,265,30],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a1f71e31fd265ca4fba4bccee3a807b09":[1,0,265,36],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a2006e1a249286b2e3e6f0b0c18ee91a7":[1,0,265,18],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,265,54],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a21fdc6c151d9e721da87eaaa8a04e3f9":[1,0,265,9],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a22ef5ac27f9f844bb1cb269ccb417594":[1,0,265,38],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a257f9c325381f4b29b5c7acbaa0ba5ae":[1,0,265,22],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#a27b635e0916726012b7e8c4dca05064e":[1,0,265,40],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#a29ef318627232b8879b7e81131f937f7":[1,0,265,3],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,265,15],
@@ -249,5 +239,15 @@ var NAVTREEINDEX74 =
 "d8/d0e/client_2mutators_2events_8qh.html#ae22c9ea63dc5a27519e320d6c35f98a7":[2,0,0,2,3,36],
 "d8/d0e/client_2mutators_2events_8qh.html#ae2bf0333af1d510da7169280b11f6b75":[2,0,0,2,3,48],
 "d8/d0e/client_2mutators_2events_8qh.html#ae44e84858c630fe96b01114c016d883b":[2,0,0,2,3,29],
-"d8/d0e/client_2mutators_2events_8qh.html#ae63edee0bd54b8951776c743a63d1c2d":[2,0,0,2,3,28]
+"d8/d0e/client_2mutators_2events_8qh.html#ae63edee0bd54b8951776c743a63d1c2d":[2,0,0,2,3,28],
+"d8/d0e/client_2mutators_2events_8qh.html#aea3a2f390fc291608806c3dfe18f489a":[2,0,0,2,3,26],
+"d8/d0e/client_2mutators_2events_8qh.html#af6fe2b39621abade1069ae32c014b9e5":[2,0,0,2,3,42],
+"d8/d0e/client_2mutators_2events_8qh.html#afef9967024f4798cac5e735d0caae72e":[2,0,0,2,3,49],
+"d8/d0e/client_2mutators_2events_8qh_source.html":[2,0,0,2,3],
+"d8/d0e/lazy_8qh.html":[2,0,4,29],
+"d8/d0e/lazy_8qh.html#a1d51651b802a95d07a7a0406f8922476":[2,0,4,29,1],
+"d8/d0e/lazy_8qh.html#af1684a613a0e441d7b47b6cdc4dc878f":[2,0,4,29,2],
+"d8/d0e/lazy_8qh_source.html":[2,0,4,29],
+"d8/d12/classRaptor.html":[1,0,115],
+"d8/d12/classRaptor.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,115,8]
 };

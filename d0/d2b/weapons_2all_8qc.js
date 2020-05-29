@@ -18,6 +18,6 @@ var weapons_2all_8qc =
     [ "W_RandomWeapons", "d0/d2b/weapons_2all_8qc.html#afae4153f28b2dada28a8410eef1b16c3", null ],
     [ "W_Sound", "d0/d2b/weapons_2all_8qc.html#a71ed1489c649f0e0d3e068e7e32aed35", null ],
     [ "W_UndeprecateName", "d0/d2b/weapons_2all_8qc.html#a79fb53e58c432f7bb94bc2e881f4c2b6", null ],
-    [ "W_FixWeaponOrder_BuildImpulseList_buf", "d0/d2b/weapons_2all_8qc.html#a7e417e677b59a2ee9a37169a615c5e42", null ],
+    [ "W_FixWeaponOrder_BuildImpulseList_buf", "d0/d2b/weapons_2all_8qc.html#a5deb91dbb18d4a45d334423d3d578b44", null ],
     [ "W_FixWeaponOrder_BuildImpulseList_order", "d0/d2b/weapons_2all_8qc.html#ae81c8fe2b3e2692445a310dc6e221c3c", null ]
 ];

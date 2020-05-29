@@ -7,7 +7,6 @@ var common_2scores_8qh =
     [ "REGISTER_SP", "da/dc3/common_2scores_8qh.html#a62738bb8ca547d47c1dd44ee6b2feb41", null ],
     [ "scores", "da/dc3/common_2scores_8qh.html#a33057a6d152c561394a3b599fed28313", null ],
     [ "scores_flags", "da/dc3/common_2scores_8qh.html#a9f265a37d91891818cc123502adb5676", null ],
-    [ "Scores_from", "da/dc3/common_2scores_8qh.html#a67bb1184ca4e1c28b3aa3792726b2bdc", null ],
     [ "scores_label", "da/dc3/common_2scores_8qh.html#a049cdede54fc31163cf0973ecbb05557", null ],
     [ "SFL_ZERO_IS_WORST", "da/dc3/common_2scores_8qh.html#ae7780da786465996b85f5e92850ca081", null ],
     [ "teamscores", "da/dc3/common_2scores_8qh.html#ae307c7ff5bb9c7c0dd4a9b8862680816", null ],

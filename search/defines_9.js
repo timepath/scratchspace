@@ -92,7 +92,6 @@ var searchData=
   ['item_5fkey_5fbit',['ITEM_KEY_BIT',['../d2/d76/keys_8qh.html#a2e758f44a774c1c39313ead683b7be1b',1,'keys.qh']]],
   ['item_5fkey_5fmax',['ITEM_KEY_MAX',['../d2/d76/keys_8qh.html#aaa1b14c30df8ce79e67b18ee42fbf912',1,'keys.qh']]],
   ['item_5ftouch_5fneedkill',['ITEM_TOUCH_NEEDKILL',['../dc/d73/server_2miscfunctions_8qh.html#a277f5e186f80cd980204cb7d55042890',1,'miscfunctions.qh']]],
-  ['items_5ffrom',['Items_from',['../d0/d7e/items_2all_8qh.html#a345b766bc4e38242ae34bff38f775d76',1,'all.qh']]],
   ['items_5fstat',['ITEMS_STAT',['../de/d70/common_2physics_2player_8qh.html#a7ea304a1bf4f9e551543916c8dbf8871',1,'player.qh']]],
   ['iter_5fconst',['ITER_CONST',['../d4/d18/iter_8qh.html#ac3313218a4003a4963a35392f24af4b5',1,'iter.qh']]],
   ['itof',['ITOF',['../d2/d65/unsafe_8qh.html#ab3030b73b8c6eade13f71ab13546643b',1,'unsafe.qh']]],

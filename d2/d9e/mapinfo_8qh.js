@@ -26,7 +26,6 @@ var mapinfo_8qh =
     [ "g_nexball", "d2/d9e/mapinfo_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959", null ],
     [ "g_race", "d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790", null ],
     [ "g_tdm", "d2/d9e/mapinfo_8qh.html#ad35af444524fdff9981049e5c63676c0", null ],
-    [ "Gametypes_from", "d2/d9e/mapinfo_8qh.html#a8135b60eb83d8b12418e195e562b56bc", null ],
     [ "IS_GAMETYPE", "d2/d9e/mapinfo_8qh.html#a8b3b6528d28eae213a819ebc13bd3cae", null ],
     [ "MAPINFO_SETTEMP_ACL_SYSTEM", "d2/d9e/mapinfo_8qh.html#accb514cfc60d2b316dc66862aa6089ee", null ],
     [ "MAPINFO_SETTEMP_ACL_USER", "d2/d9e/mapinfo_8qh.html#a143ae9a972e236a600ee064e49bd2d75", null ],

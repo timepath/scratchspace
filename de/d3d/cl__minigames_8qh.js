@@ -4,7 +4,6 @@ var cl__minigames_8qh =
     [ "minigame_cmd", "de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0", null ],
     [ "minigame_hud_fitsqare", "de/d3d/cl__minigames_8qh.html#a7276ca5834cd946d0c493571cdb279e4", null ],
     [ "minigame_hud_panelarea", "de/d3d/cl__minigames_8qh.html#a53191af7f1fb35ca5639b52fae1b6481", null ],
-    [ "Minigames_from", "de/d3d/cl__minigames_8qh.html#a155215c6b736bc7e27879b9f0f4ca343", null ],
     [ "REGISTER_MINIGAME", "de/d3d/cl__minigames_8qh.html#a1976bbbabc165580c5791d26bc54639b", null ],
     [ "deactivate_minigame", "de/d3d/cl__minigames_8qh.html#a494190b92b736511115345e0437821b6", null ],
     [ "minigame_cmd_workaround", "de/d3d/cl__minigames_8qh.html#a3248db1aa7a2ca4c46e7cbe9e220b3f2", null ],

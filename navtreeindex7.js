@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"d1/d19/classButton.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,12,56],
-"d1/d19/classButton.html#ad8b9115dc1d65ac99e74ae1a36f56d05":[1,0,12,34],
 "d1/d19/classButton.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,12,28],
 "d1/d19/classButton.html#aef17454d19baae5de77f47b1fb52deb1":[1,0,12,3],
 "d1/d19/classButton.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,12,27],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "d1/d31/machinegun__weapon_8qc.html":[2,0,1,14,0,22],
 "d1/d31/machinegun__weapon_8qc_source.html":[2,0,1,14,0,22],
 "d1/d33/classXonoticColorButton.html":[1,0,159],
-"d1/d33/classXonoticColorButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,159,80]
+"d1/d33/classXonoticColorButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,159,80],
+"d1/d33/classXonoticColorButton.html#a0aa85b9653eefbbd7941812898af462d":[1,0,159,34],
+"d1/d33/classXonoticColorButton.html#a0dc9110cbe226f31f0d7f442534c6965":[1,0,159,67]
 };

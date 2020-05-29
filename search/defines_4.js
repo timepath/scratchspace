@@ -11,7 +11,6 @@ var searchData=
   ['death_5fisvehicle',['DEATH_ISVEHICLE',['../d9/d4f/deathtypes_2all_8qh.html#a9fa337907adcd92c324cbd78fbb4514e',1,'all.qh']]],
   ['death_5fisweapon',['DEATH_ISWEAPON',['../d9/d4f/deathtypes_2all_8qh.html#a3d2a6e3591b346acd119e615627b5f5b',1,'all.qh']]],
   ['death_5fweaponof',['DEATH_WEAPONOF',['../d9/d4f/deathtypes_2all_8qh.html#ad5aa4530e732a8bb74be927221610971',1,'all.qh']]],
-  ['deathtypes_5ffrom',['Deathtypes_from',['../d9/d4f/deathtypes_2all_8qh.html#ab02fffb66632ecbfb66201c5e5c86203',1,'all.qh']]],
   ['debug_5fstuff',['DEBUG_STUFF',['../db/d0a/oo_8qh.html#a06c95fed21e7e5880d8b7ed56c0c34c0',1,'oo.qh']]],
   ['debugpathing',['DEBUGPATHING',['../dd/d70/pathlib_8qh.html#ac484531f596092c0ab17f29b14dbeab4',1,'pathlib.qh']]],
   ['dec_5ffactor',['DEC_FACTOR',['../d5/dff/ent__cs_8qc.html#a3d21f03f0b29e277235048ce304a96f2',1,'DEC_FACTOR():&#160;ent_cs.qc'],['../d5/dff/ent__cs_8qc.html#a3d21f03f0b29e277235048ce304a96f2',1,'DEC_FACTOR():&#160;ent_cs.qc']]],

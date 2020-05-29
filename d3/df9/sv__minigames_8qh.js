@@ -1,6 +1,5 @@
 var sv__minigames_8qh =
 [
-    [ "Minigames_from", "d3/df9/sv__minigames_8qh.html#a155215c6b736bc7e27879b9f0f4ca343", null ],
     [ "REGISTER_MINIGAME", "d3/df9/sv__minigames_8qh.html#a1976bbbabc165580c5791d26bc54639b", null ],
     [ "ClientCommand_minigame", "d3/df9/sv__minigames_8qh.html#ae8b31c763b3c1ee1b4ee61fdbd657671", null ],
     [ "end_minigame", "d3/df9/sv__minigames_8qh.html#ac11b22942e0b63b0172462375b0c2ca8", null ],

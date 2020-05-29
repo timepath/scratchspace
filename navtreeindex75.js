@@ -1,15 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"d8/d0e/client_2mutators_2events_8qh.html#aea3a2f390fc291608806c3dfe18f489a":[2,0,0,2,3,26],
-"d8/d0e/client_2mutators_2events_8qh.html#af6fe2b39621abade1069ae32c014b9e5":[2,0,0,2,3,42],
-"d8/d0e/client_2mutators_2events_8qh.html#afef9967024f4798cac5e735d0caae72e":[2,0,0,2,3,49],
-"d8/d0e/client_2mutators_2events_8qh_source.html":[2,0,0,2,3],
-"d8/d0e/lazy_8qh.html":[2,0,4,29],
-"d8/d0e/lazy_8qh.html#a1d51651b802a95d07a7a0406f8922476":[2,0,4,29,1],
-"d8/d0e/lazy_8qh.html#af1684a613a0e441d7b47b6cdc4dc878f":[2,0,4,29,2],
-"d8/d0e/lazy_8qh_source.html":[2,0,4,29],
-"d8/d12/classRaptor.html":[1,0,115],
-"d8/d12/classRaptor.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,115,8],
 "d8/d12/classRaptor.html#a06439f934271f5c5223cbf583f539feb":[1,0,115,25],
 "d8/d12/classRaptor.html#a127bbb3521b618343bb4ca069e63090f":[1,0,115,19],
 "d8/d12/classRaptor.html#a1c2bcae3c5ddb86633f429657bc7d77d":[1,0,115,16],
@@ -249,5 +239,15 @@ var NAVTREEINDEX75 =
 "d8/d29/playlist_8qc.html#af353173d64367e9d0882dc0a2a0da52a":[2,0,5,4,194,5],
 "d8/d29/playlist_8qc.html#af4101b201cb3169df0690c6d58ee4e9a":[2,0,5,4,194,6],
 "d8/d29/playlist_8qc.html#af4b5686808243d953322a71f3f743e66":[2,0,5,4,194,13],
-"d8/d29/playlist_8qc_source.html":[2,0,5,4,194]
+"d8/d29/playlist_8qc_source.html":[2,0,5,4,194],
+"d8/d34/door__rotating_8qc.html":[2,0,1,6,0,12],
+"d8/d34/door__rotating_8qc_source.html":[2,0,1,6,0,12],
+"d8/d35/classXonoticHUDChatDialog.html":[1,0,189],
+"d8/d35/classXonoticHUDChatDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,189,30],
+"d8/d35/classXonoticHUDChatDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,189,11],
+"d8/d35/classXonoticHUDChatDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,189,38],
+"d8/d35/classXonoticHUDChatDialog.html#a05bf8a102832e7ef8e5899488314ce85":[1,0,189,81],
+"d8/d35/classXonoticHUDChatDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,189,3],
+"d8/d35/classXonoticHUDChatDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,189,82],
+"d8/d35/classXonoticHUDChatDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,189,80]
 };

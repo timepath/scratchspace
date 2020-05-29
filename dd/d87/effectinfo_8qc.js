@@ -5,7 +5,6 @@ var effectinfo_8qc =
     [ "DEF", "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862", null ],
     [ "EFFECTINFO", "dd/d87/effectinfo_8qc.html#ad425a0ea2148626349dd03800e90f7b6", null ],
     [ "EFFECTINFO_PARSER", "dd/d87/effectinfo_8qc.html#abf96f615930f5438f58a99050ce6856f", null ],
-    [ "EffectInfos_from", "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840", null ],
     [ "FIELDS", "dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b", null ],
     [ "MY", "dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802", null ],
     [ "MY", "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b", null ],

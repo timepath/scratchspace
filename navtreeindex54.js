@@ -1,14 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"d6/d19/item_2textslider_8qc.html#a6fda399e72618bd9a2fd0859b1ac52ae":[2,0,5,2,32,1],
-"d6/d19/item_2textslider_8qc.html#aa16c0597db29e0e41b727cd5307496a3":[2,0,5,2,32,2],
-"d6/d19/item_2textslider_8qc.html#adfe01db335b98febb13f9f868af89017":[2,0,5,2,32,0],
-"d6/d19/item_2textslider_8qc.html#af29fe111fc37e1ed19f6d0f376024f02":[2,0,5,2,32,5],
-"d6/d19/item_2textslider_8qc_source.html":[2,0,5,2,32],
-"d6/d1a/classMainWindow.html":[1,0,76],
-"d6/d1a/classMainWindow.html#a00d34e885c4c66a696241eab704ce559":[1,0,76,14],
-"d6/d1a/classMainWindow.html#a0114ec8fcfe23a7cbe938a1feebe08a9":[1,0,76,29],
-"d6/d1a/classMainWindow.html#a01627abafc724fbbbb330e46f8331911":[1,0,76,44],
 "d6/d1a/classMainWindow.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,76,28],
 "d6/d1a/classMainWindow.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,76,52],
 "d6/d1a/classMainWindow.html#a086d32c9694472250922d42417bc8d66":[1,0,76,2],
@@ -249,5 +240,14 @@ var NAVTREEINDEX54 =
 "d6/d29/anticheat_8qc.html#a73c8115f7960c486fe50a285959605e7":[2,0,6,8,12],
 "d6/d29/anticheat_8qc.html#a7cd66344e9a16a0ff3056ed00c3260a5":[2,0,6,8,0],
 "d6/d29/anticheat_8qc.html#a7ee88f5df180be64a865c8299fca7bb3":[2,0,6,8,43],
-"d6/d29/anticheat_8qc.html#a83d5e9fea04998a5c5f6ac2758b1af75":[2,0,6,8,33]
+"d6/d29/anticheat_8qc.html#a83d5e9fea04998a5c5f6ac2758b1af75":[2,0,6,8,33],
+"d6/d29/anticheat_8qc.html#a8637d5f3a3ed106d36e9d7448931bd90":[2,0,6,8,13],
+"d6/d29/anticheat_8qc.html#a8cd702002fd00704ffa49978970d99f8":[2,0,6,8,17],
+"d6/d29/anticheat_8qc.html#a8eecfc0df3f6930fcb87691447f1f4e3":[2,0,6,8,26],
+"d6/d29/anticheat_8qc.html#a8f202c10b7a9ce94d1420e6c79eef2ac":[2,0,6,8,22],
+"d6/d29/anticheat_8qc.html#a9993370ad69e2211b3046e5d1261bae0":[2,0,6,8,14],
+"d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155":[2,0,6,8,2],
+"d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155":[2,0,6,8,1],
+"d6/d29/anticheat_8qc.html#aa610d9cc0675d7d0761bd5edec9d443c":[2,0,6,8,29],
+"d6/d29/anticheat_8qc.html#aaa7263f59361199cea1247dc432f198a":[2,0,6,8,38]
 };

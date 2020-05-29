@@ -136,10 +136,8 @@ $(document).ready(function(){initNavTree('db/d83/vehicles_2all_8qh.html','../../
 Macros</h2></td></tr>
 <tr class="memitem:a5ef00da087d222982ad759b7d833bf2a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d83/vehicles_2all_8qh.html#a5ef00da087d222982ad759b7d833bf2a">REGISTER_VEHICLE</a>(id,  inst)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(Vehicles, VEH, id, vehicleid, inst)</td></tr>
 <tr class="separator:a5ef00da087d222982ad759b7d833bf2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba69863fdadd40453198f72acc1ef4ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d83/vehicles_2all_8qh.html#aba69863fdadd40453198f72acc1ef4ca">VEH_LAST</a>&#160;&#160;&#160;(Vehicles_COUNT - 1)</td></tr>
+<tr class="memitem:aba69863fdadd40453198f72acc1ef4ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d83/vehicles_2all_8qh.html#aba69863fdadd40453198f72acc1ef4ca">VEH_LAST</a>&#160;&#160;&#160;(<a class="el" href="../../d2/d5e/registry_8qh.html#a8f573abdf2749068678c9b5121ea1ee8">REGISTRY_COUNT</a>(Vehicles) - 1)</td></tr>
 <tr class="separator:aba69863fdadd40453198f72acc1ef4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f88c632289b79fbf9690fbdbbf780a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d83/vehicles_2all_8qh.html#a0f88c632289b79fbf9690fbdbbf780a4">Vehicles_from</a>(i)&#160;&#160;&#160;_Vehicles_from(i, VEH_Null)</td></tr>
-<tr class="separator:a0f88c632289b79fbf9690fbdbbf780a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -176,7 +174,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html#l00013">13</a> of file <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html">all.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html#l00012">12</a> of file <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html">all.qh</a>.</p>
 
 </div>
 </div>
@@ -185,32 +183,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define VEH_LAST&#160;&#160;&#160;(Vehicles_COUNT - 1)</td>
+          <td class="memname">#define VEH_LAST&#160;&#160;&#160;(<a class="el" href="../../d2/d5e/registry_8qh.html#a8f573abdf2749068678c9b5121ea1ee8">REGISTRY_COUNT</a>(Vehicles) - 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html#l00011">11</a> of file <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html">all.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0f88c632289b79fbf9690fbdbbf780a4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define Vehicles_from</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">i</td><td>)</td>
-          <td>&#160;&#160;&#160;_Vehicles_from(i, VEH_Null)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html#l00006">6</a> of file <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html">all.qh</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00897">HUD_Crosshair_Vehicle()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00403">HUD_Vehicle()</a>, <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00088">NET_HANDLE()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00660">vehicles_damage()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00965">vehicles_enter()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00404">vehicles_reset_colors()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01138">vehicles_spawn()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01111">vehicles_think()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00914">vehicles_touch()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00757">View_EventChase()</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html#l00010">10</a> of file <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html">all.qh</a>.</p>
 
 </div>
 </div>
@@ -252,7 +230,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html#l00010">10</a> of file <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html">all.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html#l00009">9</a> of file <a class="el" href="../../db/d83/vehicles_2all_8qh_source.html">all.qh</a>.</p>
 
 </div>
 </div>
@@ -262,7 +240,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_041ec6f984a6b19402431933346033dd.html">vehicles</a></li><li class="navelem"><a class="el" href="../../db/d83/vehicles_2all_8qh.html">all.qh</a></li>
-    <li class="footer">Generated on Fri May 29 2020 07:41:48 for Xonotic by
+    <li class="footer">Generated on Fri May 29 2020 09:53:14 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

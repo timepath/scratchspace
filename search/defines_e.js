@@ -14,7 +14,6 @@ var searchData=
   ['nade_5fburn',['nade_burn',['../d5/d5d/effectinfo__nades_8inc.html#a4d548f450722331a64911667469c11de',1,'effectinfo_nades.inc']]],
   ['nade_5fexplode',['nade_explode',['../d5/d5d/effectinfo__nades_8inc.html#aeb218eb4f0be2219743957dc3c04e56f',1,'effectinfo_nades.inc']]],
   ['nade_5fprojectile',['NADE_PROJECTILE',['../d9/db6/nades_8inc.html#a58ed3c5c8df7c5b1fae0fce5ea88b5e2',1,'nades.inc']]],
-  ['nades_5ffrom',['Nades_from',['../da/d3e/nades_8qh.html#a287e485b78921bfb12751b2ef06e0460',1,'nades.qh']]],
   ['name_5fneutral',['NAME_NEUTRAL',['../db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce',1,'teams.qh']]],
   ['name_5fteam',['NAME_TEAM',['../db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab',1,'teams.qh']]],
   ['name_5fteam_5f1',['NAME_TEAM_1',['../db/d07/teams_8qh.html#a5585b53dde38603073c9309b31817e62',1,'teams.qh']]],

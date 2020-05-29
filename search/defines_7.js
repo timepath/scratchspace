@@ -25,7 +25,6 @@ var searchData=
   ['gametype',['GAMETYPE',['../df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb',1,'GAMETYPE():&#160;util.qc'],['../df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a',1,'GAMETYPE():&#160;util.qc'],['../df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb',1,'GAMETYPE():&#160;util.qc'],['../df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a',1,'GAMETYPE():&#160;util.qc']]],
   ['gametype_5fdefaulted_5fsetting',['GAMETYPE_DEFAULTED_SETTING',['../da/dc1/server_2player_8qh.html#ab0ddbf3a176299c044cb3499225ee3d2',1,'player.qh']]],
   ['gametypes',['GAMETYPES',['../df/d9b/menu_2xonotic_2util_8qc.html#a31610cece5e7eefa4bd93e2a89fe9001',1,'util.qc']]],
-  ['gametypes_5ffrom',['Gametypes_from',['../d2/d9e/mapinfo_8qh.html#a8135b60eb83d8b12418e195e562b56bc',1,'mapinfo.qh']]],
   ['genderwidth_5fitem',['GENDERWIDTH_ITEM',['../d2/dd3/dialog__multiplayer__profile_8qc.html#a4c8a8d766ef0c58bffb1bf76c3026077',1,'dialog_multiplayer_profile.qc']]],
   ['genderwidth_5flength',['GENDERWIDTH_LENGTH',['../d2/dd3/dialog__multiplayer__profile_8qc.html#a73c3039e24d96382bd3e84cd6fc1ece6',1,'dialog_multiplayer_profile.qc']]],
   ['genderwidth_5foffset',['GENDERWIDTH_OFFSET',['../d2/dd3/dialog__multiplayer__profile_8qc.html#a344d3ba5311c9ad516928f5c4edab962',1,'dialog_multiplayer_profile.qc']]],
@@ -34,7 +33,6 @@ var searchData=
   ['generator_5fteam_5f3',['GENERATOR_TEAM_3',['../db/d07/teams_8qh.html#a5bb78e43a543e34c0f27f447c65d62cc',1,'teams.qh']]],
   ['generator_5fteam_5f4',['GENERATOR_TEAM_4',['../db/d07/teams_8qh.html#ae812354355770545470af6b1acb70845',1,'teams.qh']]],
   ['generic_5fcommand',['GENERIC_COMMAND',['../d4/dab/common_2command_2reg_8qh.html#aa44bba1c4f8b1c4e0886abad7bbdea15',1,'reg.qh']]],
-  ['generic_5fcommands_5ffrom',['GENERIC_COMMANDS_from',['../d4/dab/common_2command_2reg_8qh.html#a791add0085e48bf07060bbc03cf2076e',1,'reg.qh']]],
   ['get',['GET',['../d7/d61/misc_8qh.html#a375e5223a8dc2ba4ec82b97a10ad826d',1,'misc.qh']]],
   ['get_5fban_5farg',['GET_BAN_ARG',['../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b',1,'banning.qh']]],
   ['get_5fban_5freason',['GET_BAN_REASON',['../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe',1,'banning.qh']]],
@@ -54,6 +52,5 @@ var searchData=
   ['getter',['GETTER',['../d7/d61/misc_8qh.html#a4ae9a65f0155ec9a053e1e9fe41c9401',1,'misc.qh']]],
   ['getthink',['getthink',['../d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e',1,'self.qh']]],
   ['gettime_5frealtime',['GETTIME_REALTIME',['../d4/d1a/static_8qh.html#a8c0b177bfb707d205b7161331701a31f',1,'static.qh']]],
-  ['globalsounds_5ffrom',['GlobalSounds_from',['../df/d6e/globalsound_8qh.html#a5fb0865b819461b71d03295bc3e263c0',1,'globalsound.qh']]],
   ['ground_5fquake',['ground_quake',['../db/d7f/effectinfo_8inc.html#a0a6f121f11331af711fae07c3a2d9b69',1,'effectinfo.inc']]]
 ];

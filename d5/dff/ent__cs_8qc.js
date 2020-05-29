@@ -4,7 +4,6 @@ var ent__cs_8qc =
     [ "DEC_FACTOR", "d5/dff/ent__cs_8qc.html#a3d21f03f0b29e277235048ce304a96f2", null ],
     [ "ENTCS_SET_MUTABLE_STRING", "d5/dff/ent__cs_8qc.html#a010b8f628edd49273a243ca7f5b7c734", null ],
     [ "ENTCS_SET_NORMAL", "d5/dff/ent__cs_8qc.html#a6306e7d46fd8823fc00fcec67b6b3f6e", null ],
-    [ "EntCSProps_from", "d5/dff/ent__cs_8qc.html#aeb8a809be23ded06cd67e783c3ab2bcc", null ],
     [ "bool", "d5/dff/ent__cs_8qc.html#abddc8c0666aac37c58bf3dfd70737439", null ],
     [ "ENTCS_PROP", "d5/dff/ent__cs_8qc.html#acadca97f4fee3c97ead20427d8cc362d", null ],
     [ "ENTCS_PROP", "d5/dff/ent__cs_8qc.html#a2e9b912cd6532dcd3e1482b6f6f855d1", null ],

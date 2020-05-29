@@ -1,15 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"d6/da5/classXonoticScrollPanel.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,244,38],
-"d6/da5/classXonoticScrollPanel.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,244,19],
-"d6/da5/classXonoticScrollPanel.html#a0ff6e859980327abddec3a8ca2ff855e":[1,0,244,54],
-"d6/da5/classXonoticScrollPanel.html#a1047817968d82f54687b5e2440af0eb8":[1,0,244,41],
-"d6/da5/classXonoticScrollPanel.html#a11a8209afcff1a9a74262609d1b92646":[1,0,244,60],
-"d6/da5/classXonoticScrollPanel.html#a151e0ec9dca93787cd82446a1b2e5ffa":[1,0,244,43],
-"d6/da5/classXonoticScrollPanel.html#a18456fc3d44b3528c7595c73f42a8acc":[1,0,244,55],
-"d6/da5/classXonoticScrollPanel.html#a2188ecd49040da1f5cb826f6dd52e8c3":[1,0,244,26],
-"d6/da5/classXonoticScrollPanel.html#a230ddb1a3db4e3db29b3c2e1590dd22e":[1,0,244,71],
-"d6/da5/classXonoticScrollPanel.html#a235355aace741c77462c66d35b2c5e2a":[1,0,244,3],
 "d6/da5/classXonoticScrollPanel.html#a2aed9b007db3378480b691b9a52f3a7e":[1,0,244,73],
 "d6/da5/classXonoticScrollPanel.html#a2e784d6bdbceeafaad14d59f83b39d81":[1,0,244,25],
 "d6/da5/classXonoticScrollPanel.html#a39faad4c275af7a96e30379428646997":[1,0,244,8],
@@ -249,5 +239,15 @@ var NAVTREEINDEX58 =
 "d6/dbd/minigames_8qh.html#ab50b72cd401e642ccfaa7614ac58d414":[2,0,1,7,8,8],
 "d6/dbd/minigames_8qh.html#ab62771fe024e72ee184cdef2774646f3":[2,0,1,7,8,12],
 "d6/dbd/minigames_8qh.html#ab81c669b54415bca697594d9fb7f70f4":[2,0,1,7,8,9],
-"d6/dbd/minigames_8qh.html#abb2f72c4f1307f3e774ad15b4235abb2":[2,0,1,7,8,2]
+"d6/dbd/minigames_8qh.html#abb2f72c4f1307f3e774ad15b4235abb2":[2,0,1,7,8,2],
+"d6/dbd/minigames_8qh.html#ac1282b42ad31f99e60e3b12c526c360d":[2,0,1,7,8,11],
+"d6/dbd/minigames_8qh.html#ac4a43a55db4827c2a47a075462e401c0":[2,0,1,7,8,19],
+"d6/dbd/minigames_8qh.html#adbfd9d3db8c920f23ecda1e18d9a65ab":[2,0,1,7,8,7],
+"d6/dbd/minigames_8qh.html#ae011c2511486cc58bc0e82ec8be494cf":[2,0,1,7,8,16],
+"d6/dbd/minigames_8qh.html#ae1211c15a8a3c4fb201c07380b1367bd":[2,0,1,7,8,17],
+"d6/dbd/minigames_8qh.html#ae654db0c0ec8adbcddf96b15d435b5d4":[2,0,1,7,8,10],
+"d6/dbd/minigames_8qh.html#af9bd9e8c66a24ce94dce85d3224987eb":[2,0,1,7,8,15],
+"d6/dbd/minigames_8qh_source.html":[2,0,1,7,8],
+"d6/dbf/dialog__settings__misc_8qh.html":[2,0,5,4,149],
+"d6/dbf/dialog__settings__misc_8qh.html#a5786cd08c685fc121f4bb2b2a0941e75":[2,0,5,4,149,1]
 };

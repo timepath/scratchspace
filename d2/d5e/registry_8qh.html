@@ -141,10 +141,10 @@ Macros</h2></td></tr>
 <tr class="separator:a222df7e88b9cdf2bcf2d8da367cf3f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cce72ef2dbdfd41d46337007a264deb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a6cce72ef2dbdfd41d46337007a264deb">_R_SET</a>(r,  i,  e)&#160;&#160;&#160;<a class="el" href="../../d2/d74/arraylist_8qh.html#a9cd2e07e60d94de02c5b9969bb0c384c">AL_sete</a>(r, i, e)</td></tr>
 <tr class="separator:a6cce72ef2dbdfd41d46337007a264deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfc6fcc9dd555566f8ddc7670863ff49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#acfc6fcc9dd555566f8ddc7670863ff49">_REGISTER_REGISTRY</a>(id,  str)</td></tr>
+<tr class="separator:acfc6fcc9dd555566f8ddc7670863ff49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53290db750ab5f89dae2f87a3c32fe9d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a53290db750ab5f89dae2f87a3c32fe9d">EVAL_REGISTER</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
 <tr class="separator:a53290db750ab5f89dae2f87a3c32fe9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e3a236884489e106efaa4e6ec2ea6e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a1e3a236884489e106efaa4e6ec2ea6e8">EVAL_REGISTER_REGISTRY</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
-<tr class="separator:a1e3a236884489e106efaa4e6ec2ea6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad419d03f23bac744c367193d6ca794cf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ad419d03f23bac744c367193d6ca794cf">EVAL_REGISTRY_SORT</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
 <tr class="separator:ad419d03f23bac744c367193d6ca794cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a212380bd462d6af1e068ef2e15844466"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(...)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a53290db750ab5f89dae2f87a3c32fe9d">EVAL_REGISTER</a>(<a class="el" href="../../d7/d61/misc_8qh.html#a8e1ea37ee089b41f42e9e123c5363ccc">OVERLOAD_</a>(REGISTER, __VA_ARGS__))</td></tr>
@@ -156,12 +156,8 @@ Macros</h2></td></tr>
 <tr class="separator:ae6f0dc111350c68957c77f16dd9a3da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadfdf30b43d2c417e6d692eb72f14a8f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">REGISTER_INIT</a>(id)&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> Register_##id##_init(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>)</td></tr>
 <tr class="separator:aadfdf30b43d2c417e6d692eb72f14a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a50560d358790fd046b58cc5fbfd467"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a9a50560d358790fd046b58cc5fbfd467">REGISTER_REGISTRY</a>(...)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a1e3a236884489e106efaa4e6ec2ea6e8">EVAL_REGISTER_REGISTRY</a>(<a class="el" href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">OVERLOAD</a>(REGISTER_REGISTRY, __VA_ARGS__))</td></tr>
-<tr class="separator:a9a50560d358790fd046b58cc5fbfd467"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22431b2b1aed12e24fddd95a45978e12"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a22431b2b1aed12e24fddd95a45978e12">REGISTER_REGISTRY_1</a>(id)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#ac4c9c0b24cb29eddb2adbd8523852149">REGISTER_REGISTRY_2</a>(id, #id)</td></tr>
-<tr class="separator:a22431b2b1aed12e24fddd95a45978e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4c9c0b24cb29eddb2adbd8523852149"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ac4c9c0b24cb29eddb2adbd8523852149">REGISTER_REGISTRY_2</a>(id,  str)</td></tr>
-<tr class="separator:ac4c9c0b24cb29eddb2adbd8523852149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ef2d9f5ddb28630337d06495bec55e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a8ef2d9f5ddb28630337d06495bec55e1">REGISTER_REGISTRY</a>(id)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#acfc6fcc9dd555566f8ddc7670863ff49">_REGISTER_REGISTRY</a>(id, #id)</td></tr>
+<tr class="separator:a8ef2d9f5ddb28630337d06495bec55e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab210ffe7da897080a1f7f2e05f5a9cfa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ab210ffe7da897080a1f7f2e05f5a9cfa">REGISTRY</a>(id,  <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>)</td></tr>
 <tr class="memdesc:ab210ffe7da897080a1f7f2e05f5a9cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare a new registry.  <a href="#ab210ffe7da897080a1f7f2e05f5a9cfa">More...</a><br /></td></tr>
 <tr class="separator:ab210ffe7da897080a1f7f2e05f5a9cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,6 +168,10 @@ Macros</h2></td></tr>
 <tr class="separator:ae5dab80510187e261f5d58e0e60f4618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0e7d24ce2ae2a3c1fadcf32633792c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ac0e7d24ce2ae2a3c1fadcf32633792c1">REGISTRY_CHECK</a>(id)</td></tr>
 <tr class="separator:ac0e7d24ce2ae2a3c1fadcf32633792c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f573abdf2749068678c9b5121ea1ee8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a8f573abdf2749068678c9b5121ea1ee8">REGISTRY_COUNT</a>(id)&#160;&#160;&#160;id##_COUNT</td></tr>
+<tr class="separator:a8f573abdf2749068678c9b5121ea1ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac843b2245726479994aac46ba379262e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ac843b2245726479994aac46ba379262e">REGISTRY_DEFINE_GET</a>(id,  null)&#160;&#160;&#160;<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id##_from(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> i) { if (i &gt;= 0 &amp;&amp; i &lt; id##_COUNT) { <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> e = <a class="el" href="../../d2/d5e/registry_8qh.html#a3720d879be4cc6baa7a307333f0da126">_R_GET</a>(_##id, i); if (e) return e; } return null; }</td></tr>
+<tr class="separator:ac843b2245726479994aac46ba379262e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7828de8cbdf7ddcddee44d5f87b1453"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ad7828de8cbdf7ddcddee44d5f87b1453">REGISTRY_DEPENDS</a>(id,  dep)&#160;&#160;&#160;<a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> Register##dep(); <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70">REGISTRY_DEPENDS_</a>(id) { Register##dep(); }</td></tr>
 <tr class="memdesc:ad7828de8cbdf7ddcddee44d5f87b1453"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add registry dependencies to a registry.  <a href="#ad7828de8cbdf7ddcddee44d5f87b1453">More...</a><br /></td></tr>
 <tr class="separator:ad7828de8cbdf7ddcddee44d5f87b1453"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,8 +182,12 @@ Macros</h2></td></tr>
 <tr class="separator:a66abbcb1a2c53101a2f18ef400138a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a437c532b2a09eb999076141de4d26e17"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a>(id)&#160;&#160;&#160;Register##id##_Done()</td></tr>
 <tr class="separator:a437c532b2a09eb999076141de4d26e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9efcf8663e15017f8acd1a218ec7cdf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#af9efcf8663e15017f8acd1a218ec7cdf">REGISTRY_GET</a>(id,  i)&#160;&#160;&#160;id##_from(i)</td></tr>
+<tr class="separator:af9efcf8663e15017f8acd1a218ec7cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1e44482946900c4f1b7526aab02df89"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">REGISTRY_HASH</a>(id)&#160;&#160;&#160;Registry_hash_##id</td></tr>
 <tr class="separator:ae1e44482946900c4f1b7526aab02df89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd48195b1ad7a30d3ce71e9834a62d33"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#afd48195b1ad7a30d3ce71e9834a62d33">REGISTRY_MAX</a>(id)&#160;&#160;&#160;id##_MAX</td></tr>
+<tr class="separator:afd48195b1ad7a30d3ce71e9834a62d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2159097a6331b05583f808f0316464b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a2159097a6331b05583f808f0316464b0">REGISTRY_NEXT</a>&#160;&#160;&#160;<a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a></td></tr>
 <tr class="memdesc:a2159097a6331b05583f808f0316464b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal next pointer  <a href="#a2159097a6331b05583f808f0316464b0">More...</a><br /></td></tr>
 <tr class="separator:a2159097a6331b05583f808f0316464b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -326,6 +330,48 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="acfc6fcc9dd555566f8ddc7670863ff49"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _REGISTER_REGISTRY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">id, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">str&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">ACCUMULATE_FUNCTION</a>(<a class="code" href="../../d4/d1a/static_8qh.html#a419356cb13b9fee093a45d00f595f3b8">__static_init_1</a>, Register##<span class="keywordtype">id</span>) <a class="code" href="../../db/d0a/oo_8qh.html#a4627693b652f553ef276c99d9d3d9b3b">\</a></div><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#a4627693b652f553ef276c99d9d3d9b3b">	CLASS</a>(<span class="keywordtype">id</span>##Registry, <a class="code" href="../../d8/d4b/classObject.html">Object</a>) <a class="code" href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">\</a></div><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">		ATTRIB</a>(<span class="keywordtype">id</span>##Registry, <a class="code" href="../../da/dc3/common_2scores_8qh.html#ab76434042ddfc9d5e703e038f0ad0b1f">m_name</a>, <span class="keywordtype">string</span>, str); <a class="code" href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">\</a></div><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">		ATTRIB</a>(<span class="keywordtype">id</span>##Registry, <a class="code" href="../../d2/d5e/registry_8qh.html#a2159097a6331b05583f808f0316464b0">REGISTRY_NEXT</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, <span class="keywordtype">id</span>##_first); <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">\</a></div><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">		METHOD</a>(<span class="keywordtype">id</span>##Registry, m_reload, <span class="keywordtype">void</span>()); <a class="code" href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">\</a></div><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">	ENDCLASS</a>(<span class="keywordtype">id</span>##Registry) <a class="code" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">	REGISTER</a>(Registries, <a class="code" href="../../d2/d5e/registry_8qh.html#ab210ffe7da897080a1f7f2e05f5a9cfa">REGISTRY</a>, <span class="keywordtype">id</span>, <a class="code" href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<span class="keywordtype">id</span>##Registry)); <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">\</a></div><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">	METHOD</a>(<span class="keywordtype">id</span>##Registry, m_reload, <span class="keywordtype">void</span>()) { \</div><div class="line">        id##_state = 0; \</div><div class="line">        Register##id(); \</div><div class="line">    }</div><div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div></div>
+<div class="ttc" id="registry_8qh_html_a212380bd462d6af1e068ef2e15844466"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a></div><div class="ttdeci">#define REGISTER(...)</div><div class="ttdoc">Register a new entity with a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00087">registry.qh:87</a></div></div>
+<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00105">oo.qh:105</a></div></div>
+<div class="ttc" id="oo_8qh_html_a4627693b652f553ef276c99d9d3d9b3b"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a4627693b652f553ef276c99d9d3d9b3b">CLASS</a></div><div class="ttdeci">CLASS(Object) Object</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00318">oo.qh:318</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="registry_8qh_html_a2159097a6331b05583f808f0316464b0"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a2159097a6331b05583f808f0316464b0">REGISTRY_NEXT</a></div><div class="ttdeci">#define REGISTRY_NEXT</div><div class="ttdoc">internal next pointer </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00125">registry.qh:125</a></div></div>
+<div class="ttc" id="static_8qh_html_a419356cb13b9fee093a45d00f595f3b8"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a419356cb13b9fee093a45d00f595f3b8">__static_init_1</a></div><div class="ttdeci">void __static_init_1()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00034">static.qh:34</a></div></div>
+<div class="ttc" id="oo_8qh_html_a926d5d6965300dccae308bb74a713894"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a></div><div class="ttdeci">#define METHOD(cname, name, prototype)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00257">oo.qh:257</a></div></div>
+<div class="ttc" id="oo_8qh_html_aa5c79a538e305f192747da0e028b5c15"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">ATTRIB</a></div><div class="ttdeci">#define ATTRIB(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00136">oo.qh:136</a></div></div>
+<div class="ttc" id="effect_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de6/effect_8qh_source.html#l00019">effect.qh:19</a></div></div>
+<div class="ttc" id="registry_8qh_html_ab210ffe7da897080a1f7f2e05f5a9cfa"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ab210ffe7da897080a1f7f2e05f5a9cfa">REGISTRY</a></div><div class="ttdeci">#define REGISTRY(id, max)</div><div class="ttdoc">Declare a new registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00026">registry.qh:26</a></div></div>
+<div class="ttc" id="oo_8qh_html_a71373c33560dcca984e1c21df4fa1d5f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a></div><div class="ttdeci">#define ENDCLASS(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00269">oo.qh:269</a></div></div>
+<div class="ttc" id="accumulate_8qh_html_ad2050ee846dff1123c50d269b32ed0d5"><div class="ttname"><a href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">ACCUMULATE_FUNCTION</a></div><div class="ttdeci">#define ACCUMULATE_FUNCTION(func, otherfunc)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d68/accumulate_8qh_source.html#l00031">accumulate.qh:31</a></div></div>
+<div class="ttc" id="common_2scores_8qh_html_ab76434042ddfc9d5e703e038f0ad0b1f"><div class="ttname"><a href="../../da/dc3/common_2scores_8qh.html#ab76434042ddfc9d5e703e038f0ad0b1f">m_name</a></div><div class="ttdeci">string m_name</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc3/common_2scores_8qh_source.html#l00133">scores.qh:133</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00199">199</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a53290db750ab5f89dae2f87a3c32fe9d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -340,25 +386,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00081">81</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1e3a236884489e106efaa4e6ec2ea6e8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EVAL_REGISTER_REGISTRY</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;__VA_ARGS__</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00193">193</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00088">88</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -376,7 +404,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00122">122</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00129">129</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -407,7 +435,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00080">80</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00087">87</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -447,15 +475,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> id; <a class="code" href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">	REGISTER_INIT</a>(<span class="keywordtype">id</span>) {} <a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">\</a></div><div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">	void</a> Register_##id() \</div><div class="line">    { <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">\</a></div><div class="line"><a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">		entity</a> <span class="keyword">this</span> = id; \</div><div class="line">        if (<span class="keyword">this</span> == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) { <a class="code" href="../../d2/d5e/registry_8qh.html#ad723089001abbac9184587ba270bd53a">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#ad723089001abbac9184587ba270bd53a">			_regCheck</a>(registry##_COUNT, registry##_MAX); <a class="code" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">\</a></div><div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">			this</a> = <span class="keywordtype">id</span> = inst; <a class="code" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">\</a></div><div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">			this</a>.registered_id = #id; <a class="code" href="../../d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496">			REGISTRY_PUSH</a>(registry, fld, <span class="keyword">this</span>); \</div><div class="line">        } \</div><div class="line">        Register_##<span class="keywordtype">id</span>##_init(<span class="keyword">this</span>); \</div><div class="line">    } <a class="code" href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">\</a></div><div class="line"><a class="code" href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">	ACCUMULATE_FUNCTION</a>(_Register##registry, Register_##<span class="keywordtype">id</span>) <a class="code" href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">	REGISTER_INIT</a>(<span class="keywordtype">id</span>)</div><div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="registry_8qh_html_ad723089001abbac9184587ba270bd53a"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ad723089001abbac9184587ba270bd53a">_regCheck</a></div><div class="ttdeci">void _regCheck(int i, int _max)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00055">registry.qh:55</a></div></div>
-<div class="ttc" id="registry_8qh_html_aadfdf30b43d2c417e6d692eb72f14a8f"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">REGISTER_INIT</a></div><div class="ttdeci">#define REGISTER_INIT(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00115">registry.qh:115</a></div></div>
+<div class="ttc" id="registry_8qh_html_ad723089001abbac9184587ba270bd53a"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ad723089001abbac9184587ba270bd53a">_regCheck</a></div><div class="ttdeci">void _regCheck(int i, int _max)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00062">registry.qh:62</a></div></div>
+<div class="ttc" id="registry_8qh_html_aadfdf30b43d2c417e6d692eb72f14a8f"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">REGISTER_INIT</a></div><div class="ttdeci">#define REGISTER_INIT(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00122">registry.qh:122</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="self_8qh_html_ac6e5c7e9cf195be4b7295953f6e59113"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a></div><div class="ttdeci">entity this</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00083">self.qh:83</a></div></div>
 <div class="ttc" id="accumulate_8qh_html_ad2050ee846dff1123c50d269b32ed0d5"><div class="ttname"><a href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">ACCUMULATE_FUNCTION</a></div><div class="ttdeci">#define ACCUMULATE_FUNCTION(func, otherfunc)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d68/accumulate_8qh_source.html#l00031">accumulate.qh:31</a></div></div>
 <div class="ttc" id="self_8qh_html_ac9c84fa68bbad002983e35ce3663c686"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">void</a></div><div class="ttdeci">void</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00083">self.qh:83</a></div></div>
-<div class="ttc" id="registry_8qh_html_ae3b0d4527e11d6be08ca6de588b10496"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496">REGISTRY_PUSH</a></div><div class="ttdeci">#define REGISTRY_PUSH(registry, fld, it)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00100">registry.qh:100</a></div></div>
+<div class="ttc" id="registry_8qh_html_ae3b0d4527e11d6be08ca6de588b10496"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496">REGISTRY_PUSH</a></div><div class="ttdeci">#define REGISTRY_PUSH(registry, fld, it)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00107">registry.qh:107</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00083">83</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00090">90</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -501,7 +529,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00082">82</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00089">89</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -519,11 +547,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00115">115</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00122">122</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9a50560d358790fd046b58cc5fbfd467"></a>
+<a class="anchor" id="a8ef2d9f5ddb28630337d06495bec55e1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -531,73 +559,15 @@ Variables</h2></td></tr>
           <td class="memname">#define REGISTER_REGISTRY</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a1e3a236884489e106efaa4e6ec2ea6e8">EVAL_REGISTER_REGISTRY</a>(<a class="el" href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">OVERLOAD</a>(REGISTER_REGISTRY, __VA_ARGS__))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00192">192</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a22431b2b1aed12e24fddd95a45978e12"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REGISTER_REGISTRY_1</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
           <td class="paramname">id</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#ac4c9c0b24cb29eddb2adbd8523852149">REGISTER_REGISTRY_2</a>(id, #id)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#acfc6fcc9dd555566f8ddc7670863ff49">_REGISTER_REGISTRY</a>(id, #id)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00194">194</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00212">212</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
-</div>
-</div>
-<a class="anchor" id="ac4c9c0b24cb29eddb2adbd8523852149"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REGISTER_REGISTRY_2</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">id, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">str&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">ACCUMULATE_FUNCTION</a>(<a class="code" href="../../d4/d1a/static_8qh.html#a419356cb13b9fee093a45d00f595f3b8">__static_init_1</a>, Register##<span class="keywordtype">id</span>) <a class="code" href="../../db/d0a/oo_8qh.html#a4627693b652f553ef276c99d9d3d9b3b">\</a></div><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#a4627693b652f553ef276c99d9d3d9b3b">	CLASS</a>(<span class="keywordtype">id</span>##Registry, <a class="code" href="../../d8/d4b/classObject.html">Object</a>) <a class="code" href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">\</a></div><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">		ATTRIB</a>(<span class="keywordtype">id</span>##Registry, <a class="code" href="../../da/dc3/common_2scores_8qh.html#ab76434042ddfc9d5e703e038f0ad0b1f">m_name</a>, <span class="keywordtype">string</span>, str); <a class="code" href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">\</a></div><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">		ATTRIB</a>(<span class="keywordtype">id</span>##Registry, <a class="code" href="../../d2/d5e/registry_8qh.html#a2159097a6331b05583f808f0316464b0">REGISTRY_NEXT</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, <span class="keywordtype">id</span>##_first); <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">\</a></div><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">		METHOD</a>(<span class="keywordtype">id</span>##Registry, m_reload, <span class="keywordtype">void</span>()); <a class="code" href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">\</a></div><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">	ENDCLASS</a>(<span class="keywordtype">id</span>##Registry) <a class="code" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">	REGISTER</a>(Registries, <a class="code" href="../../d2/d5e/registry_8qh.html#ab210ffe7da897080a1f7f2e05f5a9cfa">REGISTRY</a>, <span class="keywordtype">id</span>, <a class="code" href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<span class="keywordtype">id</span>##Registry)); <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">\</a></div><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">	METHOD</a>(<span class="keywordtype">id</span>##Registry, m_reload, <span class="keywordtype">void</span>()) { \</div><div class="line">        id##_state = 0; \</div><div class="line">        Register##id(); \</div><div class="line">    }</div><div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div></div>
-<div class="ttc" id="registry_8qh_html_a212380bd462d6af1e068ef2e15844466"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a></div><div class="ttdeci">#define REGISTER(...)</div><div class="ttdoc">Register a new entity with a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00080">registry.qh:80</a></div></div>
-<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00105">oo.qh:105</a></div></div>
-<div class="ttc" id="oo_8qh_html_a4627693b652f553ef276c99d9d3d9b3b"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a4627693b652f553ef276c99d9d3d9b3b">CLASS</a></div><div class="ttdeci">CLASS(Object) Object</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00318">oo.qh:318</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="registry_8qh_html_a2159097a6331b05583f808f0316464b0"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a2159097a6331b05583f808f0316464b0">REGISTRY_NEXT</a></div><div class="ttdeci">#define REGISTRY_NEXT</div><div class="ttdoc">internal next pointer </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00118">registry.qh:118</a></div></div>
-<div class="ttc" id="static_8qh_html_a419356cb13b9fee093a45d00f595f3b8"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a419356cb13b9fee093a45d00f595f3b8">__static_init_1</a></div><div class="ttdeci">void __static_init_1()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00034">static.qh:34</a></div></div>
-<div class="ttc" id="oo_8qh_html_a926d5d6965300dccae308bb74a713894"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a></div><div class="ttdeci">#define METHOD(cname, name, prototype)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00257">oo.qh:257</a></div></div>
-<div class="ttc" id="oo_8qh_html_aa5c79a538e305f192747da0e028b5c15"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">ATTRIB</a></div><div class="ttdeci">#define ATTRIB(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00136">oo.qh:136</a></div></div>
-<div class="ttc" id="effect_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de6/effect_8qh_source.html#l00019">effect.qh:19</a></div></div>
-<div class="ttc" id="registry_8qh_html_ab210ffe7da897080a1f7f2e05f5a9cfa"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ab210ffe7da897080a1f7f2e05f5a9cfa">REGISTRY</a></div><div class="ttdeci">#define REGISTRY(id, max)</div><div class="ttdoc">Declare a new registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00023">registry.qh:23</a></div></div>
-<div class="ttc" id="oo_8qh_html_a71373c33560dcca984e1c21df4fa1d5f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a></div><div class="ttdeci">#define ENDCLASS(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00269">oo.qh:269</a></div></div>
-<div class="ttc" id="accumulate_8qh_html_ad2050ee846dff1123c50d269b32ed0d5"><div class="ttname"><a href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">ACCUMULATE_FUNCTION</a></div><div class="ttdeci">#define ACCUMULATE_FUNCTION(func, otherfunc)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d68/accumulate_8qh_source.html#l00031">accumulate.qh:31</a></div></div>
-<div class="ttc" id="common_2scores_8qh_html_ab76434042ddfc9d5e703e038f0ad0b1f"><div class="ttname"><a href="../../da/dc3/common_2scores_8qh.html#ab76434042ddfc9d5e703e038f0ad0b1f">m_name</a></div><div class="ttdeci">string m_name</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc3/common_2scores_8qh_source.html#l00132">scores.qh:132</a></div></div>
-</div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00195">195</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00087">Gametype::gametype_init()</a>, and <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00288">GENERIC_COMMAND()</a>.</p>
 
 </div>
 </div>
@@ -624,25 +594,24 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">void</span> Register##id(); <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">\</a></div><div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">	ACCUMULATE</a> <span class="keywordtype">void</span> <a class="code" href="../../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70">REGISTRY_DEPENDS_</a>(<span class="keywordtype">id</span>) {} <a class="code" href="../../d2/d5e/registry_8qh.html#a45adacbeef98030d74adbd778f43509c">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a45adacbeef98030d74adbd778f43509c">	REGISTRY_BEGIN</a>(<span class="keywordtype">id</span>) {} <a class="code" href="../../d2/d5e/registry_8qh.html#a66abbcb1a2c53101a2f18ef400138a91">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a66abbcb1a2c53101a2f18ef400138a91">	REGISTRY_END</a>(<span class="keywordtype">id</span>) {} <a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">\</a></div><div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">	void</a> _Register##id() {} <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">\</a></div><div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">	int</a> <span class="keywordtype">id</span>##_state = 0; <a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">\</a></div><div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">	void</a> Register##id() { <span class="keywordflow">if</span> (<span class="keywordtype">id</span>##_state) <span class="keywordflow">return</span>; <span class="keywordtype">id</span>##_state = 1; <a class="code" href="../../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70">REGISTRY_DEPENDS_</a>(<span class="keywordtype">id</span>); <a class="code" href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a>(<span class="keywordtype">id</span>); _Register##id(); <span class="keywordtype">id</span>##_state = 2; <a class="code" href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a>(<span class="keywordtype">id</span>); } \</div><div class="line">    const <span class="keywordtype">int</span> <span class="keywordtype">id</span>##_MAX = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>; <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">\</a></div><div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">	int</a> <span class="keywordtype">id</span>##_COUNT; \</div><div class="line">    noref <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keywordtype">id</span>##_first, <span class="keywordtype">id</span>##_last; <a class="code" href="../../d2/d5e/registry_8qh.html#a222df7e88b9cdf2bcf2d8da367cf3f17">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a222df7e88b9cdf2bcf2d8da367cf3f17">	_R_MAP</a>(_##<span class="keywordtype">id</span>, <span class="keywordtype">id</span>##_MAX); <a class="code" href="../../d4/d1a/static_8qh.html#a041986e780f36ad84807b4914817f85c">\</a></div><div class="line"><a class="code" href="../../d4/d1a/static_8qh.html#a041986e780f36ad84807b4914817f85c">	SHUTDOWN</a>(<span class="keywordtype">id</span>) { <a class="code" href="../../d2/d5e/registry_8qh.html#ae2355f83505f4512724f06824c6734ed">_R_DEL</a>(_##<span class="keywordtype">id</span>); } <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">\</a></div><div class="line"><a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">	entity</a> _##<span class="keywordtype">id</span>##_from(<span class="keywordtype">int</span> i, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> null) { <span class="keywordflow">if</span> (i &gt;= 0 &amp;&amp; i &lt; <span class="keywordtype">id</span>##_COUNT) { <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d2/d5e/registry_8qh.html#a3720d879be4cc6baa7a307333f0da126">_R_GET</a>(_##<span class="keywordtype">id</span>, i); <span class="keywordflow">if</span> (e) <span class="keywordflow">return</span> e; } <span class="keywordflow">return</span> null; }</div><div class="ttc" id="lib_2__all_8inc_html_a98a8b6fc049d2387a098b50f5b636885"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a></div><div class="ttdeci">#define ACCUMULATE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00029">_all.inc:29</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">void</span> Register##id(); <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">\</a></div><div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">	ACCUMULATE</a> <span class="keywordtype">void</span> <a class="code" href="../../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70">REGISTRY_DEPENDS_</a>(<span class="keywordtype">id</span>) {} <a class="code" href="../../d2/d5e/registry_8qh.html#a45adacbeef98030d74adbd778f43509c">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a45adacbeef98030d74adbd778f43509c">	REGISTRY_BEGIN</a>(<span class="keywordtype">id</span>) {} <a class="code" href="../../d2/d5e/registry_8qh.html#a66abbcb1a2c53101a2f18ef400138a91">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a66abbcb1a2c53101a2f18ef400138a91">	REGISTRY_END</a>(<span class="keywordtype">id</span>) {} <a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">\</a></div><div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">	void</a> _Register##id() {} <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">\</a></div><div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">	int</a> <span class="keywordtype">id</span>##_state = 0; <a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">\</a></div><div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">	void</a> Register##id() { <span class="keywordflow">if</span> (<span class="keywordtype">id</span>##_state) <span class="keywordflow">return</span>; <span class="keywordtype">id</span>##_state = 1; <a class="code" href="../../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70">REGISTRY_DEPENDS_</a>(<span class="keywordtype">id</span>); <a class="code" href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a>(<span class="keywordtype">id</span>); _Register##id(); <span class="keywordtype">id</span>##_state = 2; <a class="code" href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a>(<span class="keywordtype">id</span>); } \</div><div class="line">    const <span class="keywordtype">int</span> <span class="keywordtype">id</span>##_MAX = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>; <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">\</a></div><div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">	int</a> <span class="keywordtype">id</span>##_COUNT; \</div><div class="line">    noref <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keywordtype">id</span>##_first, <span class="keywordtype">id</span>##_last; <a class="code" href="../../d2/d5e/registry_8qh.html#a222df7e88b9cdf2bcf2d8da367cf3f17">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a222df7e88b9cdf2bcf2d8da367cf3f17">	_R_MAP</a>(_##<span class="keywordtype">id</span>, <span class="keywordtype">id</span>##_MAX); <a class="code" href="../../d4/d1a/static_8qh.html#a041986e780f36ad84807b4914817f85c">\</a></div><div class="line"><a class="code" href="../../d4/d1a/static_8qh.html#a041986e780f36ad84807b4914817f85c">	SHUTDOWN</a>(<span class="keywordtype">id</span>) { <a class="code" href="../../d2/d5e/registry_8qh.html#ae2355f83505f4512724f06824c6734ed">_R_DEL</a>(_##<span class="keywordtype">id</span>); } \</div><div class="ttc" id="lib_2__all_8inc_html_a98a8b6fc049d2387a098b50f5b636885"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a></div><div class="ttdeci">#define ACCUMULATE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00029">_all.inc:29</a></div></div>
 <div class="ttc" id="registry_8qh_html_ae2355f83505f4512724f06824c6734ed"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ae2355f83505f4512724f06824c6734ed">_R_DEL</a></div><div class="ttdeci">#define _R_DEL(r)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00009">registry.qh:9</a></div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ae88a82478e3818cade3f598c25437904"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">int</a></div><div class="ttdeci">#define int</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00020">_all.inc:20</a></div></div>
-<div class="ttc" id="registry_8qh_html_ae5dab80510187e261f5d58e0e60f4618"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a></div><div class="ttdeci">#define REGISTRY_BEGIN_(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00044">registry.qh:44</a></div></div>
+<div class="ttc" id="registry_8qh_html_ae5dab80510187e261f5d58e0e60f4618"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a></div><div class="ttdeci">#define REGISTRY_BEGIN_(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00051">registry.qh:51</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="registry_8qh_html_a3720d879be4cc6baa7a307333f0da126"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a3720d879be4cc6baa7a307333f0da126">_R_GET</a></div><div class="ttdeci">#define _R_GET(r, i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00007">registry.qh:7</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
-<div class="ttc" id="registry_8qh_html_a45adacbeef98030d74adbd778f43509c"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a45adacbeef98030d74adbd778f43509c">REGISTRY_BEGIN</a></div><div class="ttdeci">#define REGISTRY_BEGIN(id)</div><div class="ttdoc">Called before initializing a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00043">registry.qh:43</a></div></div>
+<div class="ttc" id="registry_8qh_html_a45adacbeef98030d74adbd778f43509c"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a45adacbeef98030d74adbd778f43509c">REGISTRY_BEGIN</a></div><div class="ttdeci">#define REGISTRY_BEGIN(id)</div><div class="ttdoc">Called before initializing a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00050">registry.qh:50</a></div></div>
 <div class="ttc" id="static_8qh_html_a041986e780f36ad84807b4914817f85c"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a041986e780f36ad84807b4914817f85c">SHUTDOWN</a></div><div class="ttdeci">#define SHUTDOWN(func)</div><div class="ttdoc">before shutdown </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00049">static.qh:49</a></div></div>
 <div class="ttc" id="registry_8qh_html_a222df7e88b9cdf2bcf2d8da367cf3f17"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a222df7e88b9cdf2bcf2d8da367cf3f17">_R_MAP</a></div><div class="ttdeci">#define _R_MAP(r, max)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00006">registry.qh:6</a></div></div>
-<div class="ttc" id="registry_8qh_html_a437c532b2a09eb999076141de4d26e17"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a></div><div class="ttdeci">#define REGISTRY_END_(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00048">registry.qh:48</a></div></div>
+<div class="ttc" id="registry_8qh_html_a437c532b2a09eb999076141de4d26e17"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a></div><div class="ttdeci">#define REGISTRY_END_(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00055">registry.qh:55</a></div></div>
 <div class="ttc" id="self_8qh_html_ac9c84fa68bbad002983e35ce3663c686"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">void</a></div><div class="ttdeci">void</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00083">self.qh:83</a></div></div>
-<div class="ttc" id="registry_8qh_html_a00a4ccb27c17cb3a74f5d7c7bc6e1a70"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70">REGISTRY_DEPENDS_</a></div><div class="ttdeci">#define REGISTRY_DEPENDS_(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00040">registry.qh:40</a></div></div>
-<div class="ttc" id="registry_8qh_html_a66abbcb1a2c53101a2f18ef400138a91"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a66abbcb1a2c53101a2f18ef400138a91">REGISTRY_END</a></div><div class="ttdeci">#define REGISTRY_END(id)</div><div class="ttdoc">Called after initializing a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00047">registry.qh:47</a></div></div>
+<div class="ttc" id="registry_8qh_html_a00a4ccb27c17cb3a74f5d7c7bc6e1a70"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70">REGISTRY_DEPENDS_</a></div><div class="ttdeci">#define REGISTRY_DEPENDS_(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00047">registry.qh:47</a></div></div>
+<div class="ttc" id="registry_8qh_html_a66abbcb1a2c53101a2f18ef400138a91"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a66abbcb1a2c53101a2f18ef400138a91">REGISTRY_END</a></div><div class="ttdeci">#define REGISTRY_END(id)</div><div class="ttdoc">Called after initializing a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00054">registry.qh:54</a></div></div>
 </div><!-- fragment -->
 <p>Declare a new registry. </p>
-<p>Don't forget to call <code>REGISTER_REGISTRY</code>: <a class="el" href="../../d2/d5e/registry_8qh.html#a9a50560d358790fd046b58cc5fbfd467">REGISTER_REGISTRY(Foos)</a> </p>
+<p>Don't forget to call REGISTER_REGISTRY and REGISTRY_DEFINE_GET: <a class="el" href="../../d2/d5e/registry_8qh.html#a8ef2d9f5ddb28630337d06495bec55e1">REGISTER_REGISTRY(Foos)</a> <a class="el" href="../../d2/d5e/registry_8qh.html#ac843b2245726479994aac46ba379262e">REGISTRY_DEFINE_GET(Foos, null_ent)</a> </p>
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00023">23</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00026">26</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00087">Gametype::gametype_init()</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00288">GENERIC_COMMAND()</a>, and <a class="el" href="../../db/d38/base_8qh_source.html#l00160">Mutator::Mutator()</a>.</p>
 
@@ -664,7 +633,7 @@ Variables</h2></td></tr>
 
 <p>Called before initializing a registry. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00043">43</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00050">50</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -682,7 +651,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00044">44</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00051">51</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -699,21 +668,71 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">string</span> <a class="code" href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">REGISTRY_HASH</a>(<span class="keywordtype">id</span>); <a class="code" href="../../d4/d1a/static_8qh.html#a8adce259cbe13be1381a0d1872b690c2">\</a></div><div class="line"><a class="code" href="../../d4/d1a/static_8qh.html#a8adce259cbe13be1381a0d1872b690c2">	STATIC_INIT</a>(Registry_check_##<span class="keywordtype">id</span>) \</div><div class="line">    { \</div><div class="line">        <span class="comment">/* Note: SHA256 isn&#39;t always available, use MD4 instead */</span> <a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">\</a></div><div class="line"><a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">		string</a> s = <span class="stringliteral">&quot;&quot;</span>; <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">\</a></div><div class="line"><a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">		FOREACH</a>(<span class="keywordtype">id</span>, <span class="keyword">true</span>, s = <a class="code" href="../../d9/d09/notifications_2all_8inc.html#ad04f6b1a4889674503c3cdad58c55da1">strcat</a>(s, <span class="stringliteral">&quot;:&quot;</span>, it.registered_id)); \</div><div class="line">        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 1, -1); <span class="comment">/* remove initial &quot;:&quot; */</span> <a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">\</a></div><div class="line"><a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">		string</a> h = <a class="code" href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">REGISTRY_HASH</a>(<span class="keywordtype">id</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(digest_hex(<span class="stringliteral">&quot;MD4&quot;</span>, s)); <a class="code" href="../../db/da0/log_8qh.html#ad2f8b948e71ddedcb93c360f01351de3">\</a></div><div class="line"><a class="code" href="../../db/da0/log_8qh.html#ad2f8b948e71ddedcb93c360f01351de3">		LOG_DEBUGF</a>(#<span class="keywordtype">id</span> <span class="stringliteral">&quot;: %s\n[%s]&quot;</span>, h, s); \</div><div class="line">    } <a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">\</a></div><div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">	void</a> <a class="code" href="../../d2/d5e/registry_8qh.html#adfb095cc02b855ac44f5589205370823">Registry_check</a>(<span class="keywordtype">string</span> r, <span class="keywordtype">string</span> sv) \</div><div class="line">    { \</div><div class="line">        if (r == #<span class="keywordtype">id</span>) \</div><div class="line">        { <a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">\</a></div><div class="line"><a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">			string</a> cl = <a class="code" href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">REGISTRY_HASH</a>(<span class="keywordtype">id</span>); \</div><div class="line">            if (cl != sv) \</div><div class="line">            { <a class="code" href="../../db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80">\</a></div><div class="line"><a class="code" href="../../db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80">				LOG_FATALF</a>(<span class="stringliteral">&quot;client/server mismatch (%s).\nCL: %s\nSV: %s&quot;</span>, r, cl, sv); \</div><div class="line">            } \</div><div class="line">        } \</div><div class="line">    } <a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">\</a></div><div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">	void</a> <a class="code" href="../../d2/d5e/registry_8qh.html#a572982106d500d65859979f46c07f1a3">Registry_send_all</a>() { <a class="code" href="../../d2/d5e/registry_8qh.html#a5e0a93fc70ad04d22a28e47343ddda0b">Registry_send</a>(#<span class="keywordtype">id</span>, <a class="code" href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">REGISTRY_HASH</a>(<span class="keywordtype">id</span>)); } \</div><div class="ttc" id="registry_8qh_html_a5e0a93fc70ad04d22a28e47343ddda0b"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a5e0a93fc70ad04d22a28e47343ddda0b">Registry_send</a></div><div class="ttdeci">#define Registry_send(id, hash)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00165">registry.qh:165</a></div></div>
-<div class="ttc" id="registry_8qh_html_adfb095cc02b855ac44f5589205370823"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#adfb095cc02b855ac44f5589205370823">Registry_check</a></div><div class="ttdeci">ERASEABLE ACCUMULATE void Registry_check(string r, string sv)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00158">registry.qh:158</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">string</span> <a class="code" href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">REGISTRY_HASH</a>(<span class="keywordtype">id</span>); <a class="code" href="../../d4/d1a/static_8qh.html#a8adce259cbe13be1381a0d1872b690c2">\</a></div><div class="line"><a class="code" href="../../d4/d1a/static_8qh.html#a8adce259cbe13be1381a0d1872b690c2">	STATIC_INIT</a>(Registry_check_##<span class="keywordtype">id</span>) \</div><div class="line">    { \</div><div class="line">        <span class="comment">/* Note: SHA256 isn&#39;t always available, use MD4 instead */</span> <a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">\</a></div><div class="line"><a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">		string</a> s = <span class="stringliteral">&quot;&quot;</span>; <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">\</a></div><div class="line"><a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">		FOREACH</a>(<span class="keywordtype">id</span>, <span class="keyword">true</span>, s = <a class="code" href="../../d9/d09/notifications_2all_8inc.html#ad04f6b1a4889674503c3cdad58c55da1">strcat</a>(s, <span class="stringliteral">&quot;:&quot;</span>, it.registered_id)); \</div><div class="line">        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 1, -1); <span class="comment">/* remove initial &quot;:&quot; */</span> <a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">\</a></div><div class="line"><a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">		string</a> h = <a class="code" href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">REGISTRY_HASH</a>(<span class="keywordtype">id</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(digest_hex(<span class="stringliteral">&quot;MD4&quot;</span>, s)); <a class="code" href="../../db/da0/log_8qh.html#ad2f8b948e71ddedcb93c360f01351de3">\</a></div><div class="line"><a class="code" href="../../db/da0/log_8qh.html#ad2f8b948e71ddedcb93c360f01351de3">		LOG_DEBUGF</a>(#<span class="keywordtype">id</span> <span class="stringliteral">&quot;: %s\n[%s]&quot;</span>, h, s); \</div><div class="line">    } <a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">\</a></div><div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">	void</a> <a class="code" href="../../d2/d5e/registry_8qh.html#adfb095cc02b855ac44f5589205370823">Registry_check</a>(<span class="keywordtype">string</span> r, <span class="keywordtype">string</span> sv) \</div><div class="line">    { \</div><div class="line">        if (r == #<span class="keywordtype">id</span>) \</div><div class="line">        { <a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">\</a></div><div class="line"><a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">			string</a> cl = <a class="code" href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">REGISTRY_HASH</a>(<span class="keywordtype">id</span>); \</div><div class="line">            if (cl != sv) \</div><div class="line">            { <a class="code" href="../../db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80">\</a></div><div class="line"><a class="code" href="../../db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80">				LOG_FATALF</a>(<span class="stringliteral">&quot;client/server mismatch (%s).\nCL: %s\nSV: %s&quot;</span>, r, cl, sv); \</div><div class="line">            } \</div><div class="line">        } \</div><div class="line">    } <a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">\</a></div><div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">	void</a> <a class="code" href="../../d2/d5e/registry_8qh.html#a572982106d500d65859979f46c07f1a3">Registry_send_all</a>() { <a class="code" href="../../d2/d5e/registry_8qh.html#a5e0a93fc70ad04d22a28e47343ddda0b">Registry_send</a>(#<span class="keywordtype">id</span>, <a class="code" href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">REGISTRY_HASH</a>(<span class="keywordtype">id</span>)); } \</div><div class="ttc" id="registry_8qh_html_a5e0a93fc70ad04d22a28e47343ddda0b"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a5e0a93fc70ad04d22a28e47343ddda0b">Registry_send</a></div><div class="ttdeci">#define Registry_send(id, hash)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00172">registry.qh:172</a></div></div>
+<div class="ttc" id="registry_8qh_html_adfb095cc02b855ac44f5589205370823"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#adfb095cc02b855ac44f5589205370823">Registry_check</a></div><div class="ttdeci">ERASEABLE ACCUMULATE void Registry_check(string r, string sv)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00165">registry.qh:165</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
 <div class="ttc" id="cl__minigames_8qc_html_aac4feb173f8e9d875991d38972a828c0"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">string</a></div><div class="ttdeci">string() ReadString_Raw</div></div>
 <div class="ttc" id="static_8qh_html_a8adce259cbe13be1381a0d1872b690c2"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a8adce259cbe13be1381a0d1872b690c2">STATIC_INIT</a></div><div class="ttdeci">#define STATIC_INIT(func)</div><div class="ttdoc">during worldspawn </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00032">static.qh:32</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
-<div class="ttc" id="registry_8qh_html_ae1e44482946900c4f1b7526aab02df89"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">REGISTRY_HASH</a></div><div class="ttdeci">#define REGISTRY_HASH(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00155">registry.qh:155</a></div></div>
+<div class="ttc" id="registry_8qh_html_ae1e44482946900c4f1b7526aab02df89"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">REGISTRY_HASH</a></div><div class="ttdeci">#define REGISTRY_HASH(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00162">registry.qh:162</a></div></div>
 <div class="ttc" id="log_8qh_html_a13d54a54746c27ba1665ae15526b3d80"><div class="ttname"><a href="../../db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80">LOG_FATALF</a></div><div class="ttdeci">#define LOG_FATALF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
 <div class="ttc" id="self_8qh_html_ac9c84fa68bbad002983e35ce3663c686"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">void</a></div><div class="ttdeci">void</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00083">self.qh:83</a></div></div>
-<div class="ttc" id="registry_8qh_html_a572982106d500d65859979f46c07f1a3"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a572982106d500d65859979f46c07f1a3">Registry_send_all</a></div><div class="ttdeci">ERASEABLE ACCUMULATE void Registry_send_all()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00160">registry.qh:160</a></div></div>
+<div class="ttc" id="registry_8qh_html_a572982106d500d65859979f46c07f1a3"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a572982106d500d65859979f46c07f1a3">Registry_send_all</a></div><div class="ttdeci">ERASEABLE ACCUMULATE void Registry_send_all()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00167">registry.qh:167</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00019">iter.qh:19</a></div></div>
 <div class="ttc" id="notifications_2all_8inc_html_ad04f6b1a4889674503c3cdad58c55da1"><div class="ttname"><a href="../../d9/d09/notifications_2all_8inc.html#ad04f6b1a4889674503c3cdad58c55da1">strcat</a></div><div class="ttdeci">spree_cen s1 spree_cen s1 spree_cen s1 spree_cen s1 spree_cen s1 spree_cen s1 spree_cen s1 f1 s1 strcat(_(&quot;Level %s: &quot;),&quot;^BG%s\n^3\n&quot;, _(&quot;^BGPress ^F2%s^BG to enter the game&quot;))</div></div>
 <div class="ttc" id="log_8qh_html_ad2f8b948e71ddedcb93c360f01351de3"><div class="ttname"><a href="../../db/da0/log_8qh.html#ad2f8b948e71ddedcb93c360f01351de3">LOG_DEBUGF</a></div><div class="ttdeci">#define LOG_DEBUGF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00085">log.qh:85</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00168">168</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00175">175</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8f573abdf2749068678c9b5121ea1ee8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGISTRY_COUNT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">id</td><td>)</td>
+          <td>&#160;&#160;&#160;id##_COUNT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00018">18</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01418">havocbot_chooseweapon()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01071">HUD_Configure_Frame()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00599">HUD_Main()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00794">HUD_Panel_Check_Mouse_Pos()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00100">HUD_Panel_CheckMove()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00197">HUD_Panel_CheckResize()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00011">HUD_Panel_ExportCfg()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00838">HUD_Panel_FirstInDrawQ()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00873">HUD_Panel_Highlight()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00512">HUD_Panel_InputEvent()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00073">HUD_Weapons()</a>, <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html#l00019">SettingSource::reload()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00507">reset_tab_panels()</a>, and <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01162">Scoreboard_AccuracyStats_Draw()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac843b2245726479994aac46ba379262e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGISTRY_DEFINE_GET</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">id, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">null&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id##_from(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> i) { if (i &gt;= 0 &amp;&amp; i &lt; id##_COUNT) { <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> e = <a class="el" href="../../d2/d5e/registry_8qh.html#a3720d879be4cc6baa7a307333f0da126">_R_GET</a>(_##id, i); if (e) return e; } return null; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00040">40</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/d3e/nades_8qh_source.html#l00038">Nade::display()</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00087">Gametype::gametype_init()</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00288">GENERIC_COMMAND()</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00160">Mutator::Mutator()</a>, and <a class="el" href="../../dd/d65/models_2all_8qh_source.html#l00017">PRECACHE()</a>.</p>
 
 </div>
 </div>
@@ -743,7 +762,7 @@ Variables</h2></td></tr>
 
 <p>Add registry dependencies to a registry. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00039">39</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00046">46</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -761,7 +780,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00040">40</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00047">47</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -781,7 +800,7 @@ Variables</h2></td></tr>
 
 <p>Called after initializing a registry. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00047">47</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00054">54</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -799,7 +818,37 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00048">48</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00055">55</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af9efcf8663e15017f8acd1a218ec7cdf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGISTRY_GET</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">id, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;id##_from(i)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00043">43</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00576">bot_cmd_select_weapon()</a>, <a class="el" href="../../d4/d0f/buffs_8qc_source.html#l00003">BUFF_NAME()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00056">CL_Weapon_GetShotOrg()</a>, <a class="el" href="../../db/d5f/deathtypes_2all_8qc_source.html#l00003">Deathtype_Name()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00483">fixPriorityList()</a>, <a class="el" href="../../dc/d8f/notifications_2all_8qh_source.html#l00733">Get_Notif_Ent()</a>, <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html#l00005">SettingSource::getEntry()</a>, <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html#l00012">SettingSource::getEntryTooltip()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01418">havocbot_chooseweapon()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01071">HUD_Configure_Frame()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00897">HUD_Crosshair_Vehicle()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00599">HUD_Main()</a>, <a class="el" href="../../d4/d48/notify_8qc_source.html#l00058">HUD_Notify()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00794">HUD_Panel_Check_Mouse_Pos()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00100">HUD_Panel_CheckMove()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00197">HUD_Panel_CheckResize()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00011">HUD_Panel_ExportCfg()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00873">HUD_Panel_Highlight()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00512">HUD_Panel_InputEvent()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00179">HUD_Radar()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00403">HUD_Vehicle()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l01148">MapInfo_CurrentGametype()</a>, <a class="el" href="../../d9/d12/models_2all_8inc_source.html#l00148">MDL_GIB_ROBO_RANDOM()</a>, <a class="el" href="../../d9/d12/models_2all_8inc_source.html#l00351">MDL_NUM()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00990">Monster_Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00932">Monster_Dead()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00261">Monster_Sounds_Precache()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01317">Monster_Spawn()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01252">Monster_Spawn_Setup()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01219">Monster_Think()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00453">Monster_UpdateModel()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00074">Monster_ValidTarget()</a>, <a class="el" href="../../d0/d77/cl__buffs_8qc_source.html#l00012">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l01229">NET_HANDLE()</a>, <a class="el" href="../../d7/d39/sv__nix_8qc_source.html#l00081">NIX_CanChooseWeapon()</a>, <a class="el" href="../../d7/d39/sv__nix_8qc_source.html#l00111">NIX_GiveCurrentWeapon()</a>, <a class="el" href="../../dc/d8f/notifications_2all_8qh_source.html#l00633">notif_arg_item_wepammo()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00119">Obituary_SpecialDeath()</a>, <a class="el" href="../../d3/db6/projectile_8qc_source.html#l00036">Projectile_DrawTrail()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00607">ServerList_TypeSort_Click()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00267">SND_GIB_SPLAT_RANDOM()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00041">SND_GRENADE_BOUNCE_RANDOM()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00053">SND_HAGEXP_RANDOM()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00076">SND_NEXWHOOSH_RANDOM()</a>, <a class="el" href="../../d6/dce/sounds_2all_8inc_source.html#l00084">SND_RIC_RANDOM()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01507">SpecialCommand()</a>, <a class="el" href="../../d0/ddd/weapons_2all_8qh_source.html#l00316">STATIC_INIT()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00660">vehicles_damage()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00965">vehicles_enter()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00404">vehicles_reset_colors()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01138">vehicles_spawn()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01111">vehicles_think()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00914">vehicles_touch()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00757">View_EventChase()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00299">W_CycleWeapon()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00847">W_DropEvent()</a>, <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00156">W_FixWeaponOrder_BuildImpulseList_cmp()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00129">W_GetCycleWeapon()</a>, <a class="el" href="../../da/daa/server_2weapons_2common_8qc_source.html#l00029">W_GiveWeapon()</a>, <a class="el" href="../../df/d64/throwing_8qc_source.html#l00130">W_IsWeaponThrowable()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00338">W_LastWeapon()</a>, <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00105">W_NameWeaponOrder_MapFunc()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00307">W_NextWeaponOnImpulse()</a>, <a class="el" href="../../df/d64/throwing_8qc_source.html#l00037">W_ThrowNewWeapon()</a>, <a class="el" href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc_source.html#l00155">XonoticMutatorsDialog_fill()</a>, <a class="el" href="../../d8/df3/weaponslist_8qc_source.html#l00084">XonoticWeaponsList_drawListBoxItem()</a>, and <a class="el" href="../../d8/df3/weaponslist_8qc_source.html#l00070">XonoticWeaponsList_toString()</a>.</p>
 
 </div>
 </div>
@@ -817,7 +866,27 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00155">155</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00162">162</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd48195b1ad7a30d3ce71e9834a62d33"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGISTRY_MAX</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">id</td><td>)</td>
+          <td>&#160;&#160;&#160;id##_MAX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00017">17</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00059">_WepSet_FromWeapon()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00073">HUD_Weapons()</a>, <a class="el" href="../../d4/d90/itemstime_8qc_source.html#l00063">Item_ItemsTime_Allow()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01507">SpecialCommand()</a>, and <a class="el" href="../../d0/ddd/weapons_2all_8qh_source.html#l00316">STATIC_INIT()</a>.</p>
 
 </div>
 </div>
@@ -833,7 +902,7 @@ Variables</h2></td></tr>
 
 <p>internal next pointer </p>
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00118">118</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00125">125</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -869,7 +938,7 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">MACRO_BEGIN \</div><div class="line">    it.fld = registry##_COUNT; <a class="code" href="../../d2/d5e/registry_8qh.html#a6cce72ef2dbdfd41d46337007a264deb">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a6cce72ef2dbdfd41d46337007a264deb">	_R_SET</a>(_##registry, registry##_COUNT, it); \</div><div class="line">    ++registry##_COUNT; \</div><div class="line">    if (!registry##_first) registry##_first = it; \</div><div class="line">    if (registry##_last)   registry##_last.REGISTRY_NEXT = it; \</div><div class="line">    registry##_last = it; <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">\</a></div><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00007">macro.qh:7</a></div></div>
 <div class="ttc" id="registry_8qh_html_a6cce72ef2dbdfd41d46337007a264deb"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a6cce72ef2dbdfd41d46337007a264deb">_R_SET</a></div><div class="ttdeci">#define _R_SET(r, i, e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00008">registry.qh:8</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00100">100</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00107">107</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -911,9 +980,9 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">MACRO_BEGIN \</a></div><div class="line"><a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">	entity</a> e = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(registry_reserved); \</div><div class="line">    e.registered_id = #<span class="keywordtype">id</span> <span class="stringliteral">&quot;/&quot;</span> #suffix; <a class="code" href="../../d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496">\</a></div><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496">	REGISTRY_PUSH</a>(registry, fld, e); <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">\</a></div><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00007">macro.qh:7</a></div></div>
 <div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&amp;#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00062">oo.qh:62</a></div></div>
-<div class="ttc" id="registry_8qh_html_ae3b0d4527e11d6be08ca6de588b10496"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496">REGISTRY_PUSH</a></div><div class="ttdeci">#define REGISTRY_PUSH(registry, fld, it)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00100">registry.qh:100</a></div></div>
+<div class="ttc" id="registry_8qh_html_ae3b0d4527e11d6be08ca6de588b10496"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496">REGISTRY_PUSH</a></div><div class="ttdeci">#define REGISTRY_PUSH(registry, fld, it)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00107">registry.qh:107</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00109">109</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00116">116</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -941,9 +1010,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00165">165</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00172">172</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00160">Registry_send_all()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00167">Registry_send_all()</a>.</p>
 
 </div>
 </div>
@@ -961,7 +1030,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00121">121</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00128">128</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -979,7 +1048,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00123">123</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00130">130</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -1011,7 +1080,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="registry_8qh_html_a6cce72ef2dbdfd41d46337007a264deb"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a6cce72ef2dbdfd41d46337007a264deb">_R_SET</a></div><div class="ttdeci">#define _R_SET(r, i, e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00008">registry.qh:8</a></div></div>
 <div class="ttc" id="effectinfo__ctf_8inc_html_a73709cb0008f2faa193bce8415f41a95"><div class="ttname"><a href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a></div><div class="ttdeci">#define pass(name, colormin, colormax)</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00124">124</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00131">131</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -1040,10 +1109,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00055">55</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00062">62</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 <p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00058">LOG_FATALF</a>.</p>
-<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">// this is inside a function to avoid expanding it on compilation everytime</span></div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">// (this very long line would be repeated literally thousands times!)</span></div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">if</span> (i &gt;= _max)</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80">LOG_FATALF</a>(<span class="stringliteral">&quot;Registry capacity exceeded (%d)&quot;</span>, _max);</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div><div class="ttc" id="log_8qh_html_a13d54a54746c27ba1665ae15526b3d80"><div class="ttname"><a href="../../db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80">LOG_FATALF</a></div><div class="ttdeci">#define LOG_FATALF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="comment">// this is inside a function to avoid expanding it on compilation everytime</span></div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="comment">// (this very long line would be repeated literally thousands times!)</span></div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">if</span> (i &gt;= _max)</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80">LOG_FATALF</a>(<span class="stringliteral">&quot;Registry capacity exceeded (%d)&quot;</span>, _max);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div><div class="ttc" id="log_8qh_html_a13d54a54746c27ba1665ae15526b3d80"><div class="ttname"><a href="../../db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80">LOG_FATALF</a></div><div class="ttdeci">#define LOG_FATALF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1071,10 +1140,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00158">158</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00165">165</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 <p>References <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00035">ERASEABLE</a>.</p>
-<div class="fragment"><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;{ }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;{ }</div></div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a572982106d500d65859979f46c07f1a3"></a>
@@ -1090,12 +1159,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00160">160</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00167">167</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
-<p>References <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00165">Registry_send</a>.</p>
+<p>References <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00172">Registry_send</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00829">ClientInit_SendEntity()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;{ }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;{ }</div></div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -1121,7 +1190,7 @@ Variables</h2></td></tr>
 
 <p>registered item identifier </p>
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00053">53</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00060">60</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -1135,7 +1204,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00119">119</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d5e/registry_8qh_source.html#l00126">126</a> of file <a class="el" href="../../d2/d5e/registry_8qh_source.html">registry.qh</a>.</p>
 
 </div>
 </div>
@@ -1145,7 +1214,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d2/d5e/registry_8qh.html">registry.qh</a></li>
-    <li class="footer">Generated on Fri May 29 2020 07:41:52 for Xonotic by
+    <li class="footer">Generated on Fri May 29 2020 09:53:19 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

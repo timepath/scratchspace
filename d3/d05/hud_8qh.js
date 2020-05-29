@@ -14,7 +14,6 @@ var hud_8qh =
     [ "HUD_Panel_ScalePosSize", "d3/d05/hud_8qh.html#ade8db832be902e407bfbf623a69dbe77", null ],
     [ "HUD_Panel_UpdatePosSize", "d3/d05/hud_8qh.html#a6795706920a11c7b9423a789b5be5e44", null ],
     [ "HUD_Panel_UpdatePosSize_ForMenu", "d3/d05/hud_8qh.html#adac89db202227f9c23d1fa4433607972", null ],
-    [ "hud_panels_from", "d3/d05/hud_8qh.html#a47aa25ea67c71e2e54623d062c2393d9", null ],
     [ "REGISTER_HUD_PANEL", "d3/d05/hud_8qh.html#a78e8d3ba81c899e248beb23d1d5165e1", null ],
     [ "classfield", "d3/d05/hud_8qh.html#a41ac4d9d502861e4838bb8e4e54c21ac", null ],
     [ "DrawNumIcon", "d3/d05/hud_8qh.html#aa051beb719ad5736df867835fed60a07", null ],
@@ -140,7 +139,7 @@ var hud_8qh =
     [ "panel_configflags", "d3/d05/hud_8qh.html#a8396b10f62bd900ae0c2cf5e80aa6e59", null ],
     [ "panel_enabled", "d3/d05/hud_8qh.html#a84093248ce7a1d2e993d4200cf04e594", null ],
     [ "panel_fg_alpha", "d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e", null ],
-    [ "panel_order", "d3/d05/hud_8qh.html#a2b003817b70d7274b8399b268d25a456", null ],
+    [ "panel_order", "d3/d05/hud_8qh.html#a6266ddcae6e5a85e1d787fc24e0d9319", null ],
     [ "panel_pos", "d3/d05/hud_8qh.html#ac5cc557740a2a6794b516dd4e2251f60", null ],
     [ "panel_pos_backup", "d3/d05/hud_8qh.html#a3360d84ccc3d412e70495a5c6e2541ee", null ],
     [ "PANEL_SHOW_MAINGAME", "d3/d05/hud_8qh.html#a8b8a884e56da720f3d132d00cd255544", null ],
@@ -174,7 +173,7 @@ var hud_8qh =
     [ "vote_nocount", "d3/d05/hud_8qh.html#a06d7feb0be3ff2d1678234b908c25e1f", null ],
     [ "vote_prev", "d3/d05/hud_8qh.html#a83fb81329a002c16d541d8aec6347664", null ],
     [ "vote_yescount", "d3/d05/hud_8qh.html#a6ac0c6fb532223be80deb52a47b76011", null ],
-    [ "weapon_accuracy", "d3/d05/hud_8qh.html#aa9be1b3968369f99fd49961627b9cd59", null ],
+    [ "weapon_accuracy", "d3/d05/hud_8qh.html#a995b0cef628167a62e43fe32c900cbad", null ],
     [ "weaponprevtime", "d3/d05/hud_8qh.html#a3c131b0f8f651739847e08030410b5a1", null ],
     [ "weapontime", "d3/d05/hud_8qh.html#ad5b3e0dc298f23f9aea300bb0e6efc6e", null ]
 ];

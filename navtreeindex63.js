@@ -1,15 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"d7/d0e/dialog__settings__game__weapons_8qc.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,142,0],
-"d7/d0e/dialog__settings__game__weapons_8qc.html#acf4cc204368768bf74b724575fb387ab":[2,0,5,4,142,2],
-"d7/d0e/dialog__settings__game__weapons_8qc.html#ae437727300e145636490fbb37f0a84fe":[2,0,5,4,142,1],
-"d7/d0e/dialog__settings__game__weapons_8qc_source.html":[2,0,5,4,142],
-"d7/d0f/classCallbackChain_1_1CallbackNode.html":[1,0,14,0],
-"d7/d0f/classCallbackChain_1_1CallbackNode.html#a2b470d9ce857fd3fa94d52e07182b52e":[1,0,14,0,1],
-"d7/d0f/classCallbackChain_1_1CallbackNode.html#a415ac521cfeeaeb9de3fd09c2c192d9b":[1,0,14,0,2],
-"d7/d0f/classCallbackChain_1_1CallbackNode.html#a8df53675bb2d5a6f3ce35c279910f34d":[1,0,14,0,3],
-"d7/d0f/classCallbackChain_1_1CallbackNode.html#aa94c3d84f700fbe12007a0d54ced8240":[1,0,14,0,0],
-"d7/d11/common_2mapobjects_2func_2__mod_8inc.html":[2,0,1,6,0,0],
 "d7/d11/common_2mapobjects_2func_2__mod_8inc_source.html":[2,0,1,6,0,0],
 "d7/d13/campaign__common_8qh.html":[2,0,1,24],
 "d7/d13/campaign__common_8qh.html#a038cf4d3317389d708a6fb8a6964cdb8":[2,0,1,24,14],
@@ -249,5 +239,15 @@ var NAVTREEINDEX63 =
 "d7/d2d/sv__freezetag_8qh.html#a17e55bd8fb82ddd763d5fd3d506fdc5d":[2,0,1,3,0,7,3,7],
 "d7/d2d/sv__freezetag_8qh.html#a22c1b1fa2cc3380d509007bc888e137c":[2,0,1,3,0,7,3,6],
 "d7/d2d/sv__freezetag_8qh.html#a4ade32017fb46793f5e1ff698e05989b":[2,0,1,3,0,7,3,5],
-"d7/d2d/sv__freezetag_8qh.html#a5c3fd51f9babdfe94b95378108bb0e2f":[2,0,1,3,0,7,3,4]
+"d7/d2d/sv__freezetag_8qh.html#a5c3fd51f9babdfe94b95378108bb0e2f":[2,0,1,3,0,7,3,4],
+"d7/d2d/sv__freezetag_8qh.html#a5c7d231b29848dbe9e992548d57958bb":[2,0,1,3,0,7,3,11],
+"d7/d2d/sv__freezetag_8qh.html#a64d08325f0339534e219ec14103c2757":[2,0,1,3,0,7,3,3],
+"d7/d2d/sv__freezetag_8qh.html#a7ab87b12157e4a0c082ced0c257e126d":[2,0,1,3,0,7,3,15],
+"d7/d2d/sv__freezetag_8qh.html#a93dbe70f6f5e8c7e42c436e77d0d3348":[2,0,1,3,0,7,3,0],
+"d7/d2d/sv__freezetag_8qh.html#aa6539dc2fe101f47fdac71e3ed17e482":[2,0,1,3,0,7,3,13],
+"d7/d2d/sv__freezetag_8qh.html#aaa13a46cb43eaeeec707e1630d149734":[2,0,1,3,0,7,3,8],
+"d7/d2d/sv__freezetag_8qh.html#aab6e5dd351a36e1a298791aceb0a13a3":[2,0,1,3,0,7,3,10],
+"d7/d2d/sv__freezetag_8qh.html#ac73a9688fb2e8c178b283a887a2a15a9":[2,0,1,3,0,7,3,9],
+"d7/d2d/sv__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e":[2,0,1,3,0,7,3,12],
+"d7/d2d/sv__freezetag_8qh_source.html":[2,0,1,3,0,7,3]
 };

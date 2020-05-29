@@ -21,7 +21,6 @@ var searchData=
   ['teleport_5fflags_5fteleporter',['TELEPORT_FLAGS_TELEPORTER',['../dd/d2d/teleporters_8qh.html#a5daecf64276e6826577ae7b897f02943',1,'teleporters.qh']]],
   ['teleport_5fflags_5fwarpzone',['TELEPORT_FLAGS_WARPZONE',['../dd/d2d/teleporters_8qh.html#a8191bdd7dbc71b40f3a90cfa4b41dee8',1,'teleporters.qh']]],
   ['teleport_5fused',['TELEPORT_USED',['../df/dd4/navigation_8qh.html#aec7ad2e51a4fd82079d96648f2590945',1,'navigation.qh']]],
-  ['tempentities_5ffrom',['TempEntities_from',['../d9/d48/lib_2net_8qh.html#ab3d4af6bd6ed7be376b01923c10ca901',1,'net.qh']]],
   ['test',['TEST',['../d4/d5b/test_8qh.html#a398a2fc2687510101581083d98c2414f',1,'test.qh']]],
   ['time_5fdecode',['TIME_DECODE',['../d5/df2/common_2util_8qh.html#a98c4e48df1167fbddfff4854daae5b6f',1,'util.qh']]],
   ['time_5fencode',['TIME_ENCODE',['../d5/df2/common_2util_8qh.html#a6307fb8c8358ecb4245f4c98e2423ee4',1,'util.qh']]],
@@ -39,6 +38,5 @@ var searchData=
   ['transmute',['TRANSMUTE',['../db/d0a/oo_8qh.html#a50e8509df7e88435c3d75fb41eba495c',1,'oo.qh']]],
   ['true',['true',['../da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7',1,'true():&#160;csprogsdefs.qh'],['../d0/d95/menudefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7',1,'true():&#160;menudefs.qh'],['../d8/dc0/progsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7',1,'true():&#160;progsdefs.qh'],['../da/dde/csprogsdefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d',1,'TRUE():&#160;csprogsdefs.qh'],['../d0/d95/menudefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d',1,'TRUE():&#160;menudefs.qh'],['../d8/dc0/progsdefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d',1,'TRUE():&#160;progsdefs.qh']]],
   ['tryext',['tryext',['../d0/df5/sound_8qh.html#a03b0aea621721da3d1c54e3dcc99e4c8',1,'sound.qh']]],
-  ['tur_5flast',['TUR_LAST',['../db/d7f/turrets_2all_8qh.html#af3a4ffcd56d584a4de5f3156a6c666a3',1,'all.qh']]],
-  ['turrets_5ffrom',['Turrets_from',['../db/d7f/turrets_2all_8qh.html#a61aab00c9961e20b482e7e8aa5e0fa31',1,'all.qh']]]
+  ['tur_5flast',['TUR_LAST',['../db/d7f/turrets_2all_8qh.html#af3a4ffcd56d584a4de5f3156a6c666a3',1,'all.qh']]]
 ];

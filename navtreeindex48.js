@@ -1,13 +1,5 @@
 var NAVTREEINDEX48 =
 {
-"d5/d26/server_2defs_8qh.html#af35b608e51a05386e4f74c57e77d9dcc":[2,0,6,22,1],
-"d5/d26/server_2defs_8qh.html#af559423f7d435c0c60ca2be3353db686":[2,0,6,22,91],
-"d5/d26/server_2defs_8qh.html#af6088979e4328d96a754cc483d1672d9":[2,0,6,22,264],
-"d5/d26/server_2defs_8qh.html#af9f3faae355b2456bb75c134663831d0":[2,0,6,22,48],
-"d5/d26/server_2defs_8qh.html#afa49ea11bc4dd382cd2f042e7c94dcce":[2,0,6,22,234],
-"d5/d26/server_2defs_8qh.html#afb10ce782240d13640d1abd13fbb88d5":[2,0,6,22,89],
-"d5/d26/server_2defs_8qh.html#afb4dc63f33cdd3551eb4195391bbdd62":[2,0,6,22,3],
-"d5/d26/server_2defs_8qh.html#afb6f653b25964a434439fc89b0de3fc3":[2,0,6,22,254],
 "d5/d26/server_2defs_8qh.html#afc4b24abdd18a9959f3f6f90866a004c":[2,0,6,22,112],
 "d5/d26/server_2defs_8qh.html#afea6e77db19a2f8c91419904fe665a3a":[2,0,6,22,63],
 "d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85":[2,0,6,22,147],
@@ -249,5 +241,13 @@ var NAVTREEINDEX48 =
 "d5/d6c/classXonoticHUDSkinList.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,205,20],
 "d5/d6c/classXonoticHUDSkinList.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,205,14],
 "d5/d6c/classXonoticHUDSkinList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,205,82],
-"d5/d6c/classXonoticHUDSkinList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,205,64]
+"d5/d6c/classXonoticHUDSkinList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,205,64],
+"d5/d6c/classXonoticHUDSkinList.html#a542b779ae33a11bf49767529d5014f46":[1,0,205,52],
+"d5/d6c/classXonoticHUDSkinList.html#a565f8d33b46815606f1860162d71339a":[1,0,205,21],
+"d5/d6c/classXonoticHUDSkinList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,205,8],
+"d5/d6c/classXonoticHUDSkinList.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,205,30],
+"d5/d6c/classXonoticHUDSkinList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,205,15],
+"d5/d6c/classXonoticHUDSkinList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,205,31],
+"d5/d6c/classXonoticHUDSkinList.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,205,0],
+"d5/d6c/classXonoticHUDSkinList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,205,57]
 };
