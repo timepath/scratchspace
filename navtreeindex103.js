@@ -1,6 +1,5 @@
 var NAVTREEINDEX103 =
 {
-"db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc_source.html":[2,0,1,10,0,36,0],
 "db/d6b/okrpc_8qh.html":[2,0,1,10,0,23,11],
 "db/d6b/okrpc_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,10,0,23,11,1],
 "db/d6b/okrpc_8qh.html#a969a862c23d37f5592502820e4c8e345":[2,0,1,10,0,23,11,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX103 =
 "db/d7f/effectinfo_8inc.html#a4e4df8f18ebe9b8cad15382b4aa02e54":[2,0,1,2,7,366],
 "db/d7f/effectinfo_8inc.html#a4eb21a1adda919ac91fc4f6880ed7b24":[2,0,1,2,7,379],
 "db/d7f/effectinfo_8inc.html#a4f2841554641525aa83c7fb40731db19":[2,0,1,2,7,360],
-"db/d7f/effectinfo_8inc.html#a4f6f5dcdfa6029f3094df129b7c7fdad":[2,0,1,2,7,320]
+"db/d7f/effectinfo_8inc.html#a4f6f5dcdfa6029f3094df129b7c7fdad":[2,0,1,2,7,320],
+"db/d7f/effectinfo_8inc.html#a50686571800453954319975cab343f0e":[2,0,1,2,7,161]
 };
