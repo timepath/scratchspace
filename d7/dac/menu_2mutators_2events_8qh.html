@@ -136,7 +136,7 @@ Macros</h2></td></tr>
 <tr class="memitem:a0c16dc103706d889b12ff7c66400866f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html#a0c16dc103706d889b12ff7c66400866f">EV_ConfigureDialogs</a>(i,  o)&#160;&#160;&#160;/** <a class="el" href="../../d7/d38/sv__main_8qh.html#acdef7a1fd863a6d3770c1268cb06add3">main</a> window <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="separator:a0c16dc103706d889b12ff7c66400866f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af07547c358b616af655bf0c55ff812b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html#af07547c358b616af655bf0c55ff812b4">EV_Menu_ConsoleCommand</a>(i,  o)</td></tr>
-<tr class="memdesc:af07547c358b616af655bf0c55ff812b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a menu command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, Menu_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }.  <a href="#af07547c358b616af655bf0c55ff812b4">More...</a><br /></td></tr>
+<tr class="memdesc:af07547c358b616af655bf0c55ff812b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a menu command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, Menu_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(cvar_string(argv(1)), "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }.  <a href="#af07547c358b616af655bf0c55ff812b4">More...</a><br /></td></tr>
 <tr class="separator:af07547c358b616af655bf0c55ff812b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -150,9 +150,9 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a899dc4fde1f5c9e9b44832cd3f263c51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51">cmd_argc</a></td></tr>
 <tr class="separator:a899dc4fde1f5c9e9b44832cd3f263c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a625c9b1bdc13469449c1fe6118a71776"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776">cmd_name</a></td></tr>
+<tr class="memitem:a625c9b1bdc13469449c1fe6118a71776"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776">cmd_name</a></td></tr>
 <tr class="separator:a625c9b1bdc13469449c1fe6118a71776"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a041e3be1db40295659f495926cf77a12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12">cmd_string</a></td></tr>
+<tr class="memitem:a041e3be1db40295659f495926cf77a12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12">cmd_string</a></td></tr>
 <tr class="separator:a041e3be1db40295659f495926cf77a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -211,7 +211,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="menu_2mutators_2events_8qh_html_a625c9b1bdc13469449c1fe6118a71776"><div class="ttname"><a href="../../d7/dac/menu_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776">cmd_name</a></div><div class="ttdeci">string cmd_name</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00012">events.qh:12</a></div></div>
 <div class="ttc" id="menu_2mutators_2events_8qh_html_a041e3be1db40295659f495926cf77a12"><div class="ttname"><a href="../../d7/dac/menu_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12">cmd_string</a></div><div class="ttdeci">string cmd_string</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00014">events.qh:14</a></div></div>
 </div><!-- fragment -->
-<p>Called when a menu command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, Menu_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }. </p>
+<p>Called when a menu command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, Menu_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(cvar_string(argv(1)), "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }. </p>
 
 <p>Definition at line <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html#l00035">35</a> of file <a class="el" href="../../d7/dac/menu_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
@@ -292,7 +292,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> cmd_name</td>
+          <td class="memname"><a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a> cmd_name</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -308,7 +308,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> cmd_string</td>
+          <td class="memname"><a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a> cmd_string</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -323,7 +323,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_fa6bab312750b9471bc957ec38c4d399.html">mutators</a></li><li class="navelem"><a class="el" href="../../d7/dac/menu_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Fri May 29 2020 05:30:52 for Xonotic by
+    <li class="footer">Generated on Fri May 29 2020 07:41:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

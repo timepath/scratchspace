@@ -144,7 +144,7 @@ Macros</h2></td></tr>
 <tr class="separator:a49a3fd530833a4ce16db23805cc40c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6321183452c7a8108daa4358b7dbfbc1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a6321183452c7a8108daa4358b7dbfbc1">EV_AddPlayerScore</a>(i,  o)</td></tr>
 <tr class="separator:a6321183452c7a8108daa4358b7dbfbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05f54275e33dee1147c8c5811d03e261"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a05f54275e33dee1147c8c5811d03e261">EV_AllowMobButcher</a>(i,  o)&#160;&#160;&#160;/** reason */ o(<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>, MUTATOR_ARGV_0_string) \</td></tr>
+<tr class="memitem:a05f54275e33dee1147c8c5811d03e261"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a05f54275e33dee1147c8c5811d03e261">EV_AllowMobButcher</a>(i,  o)&#160;&#160;&#160;/** reason */ o(<a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a>, MUTATOR_ARGV_0_string) \</td></tr>
 <tr class="memdesc:a05f54275e33dee1147c8c5811d03e261"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when an admin tries to kill all monsters return 1 to prevent spawning  <a href="#a05f54275e33dee1147c8c5811d03e261">More...</a><br /></td></tr>
 <tr class="separator:a05f54275e33dee1147c8c5811d03e261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb6b40b7e533c6c5161ebc3473365bc9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#acb6b40b7e533c6c5161ebc3473365bc9">EV_AllowMobSpawning</a>(i,  o)</td></tr>
@@ -446,7 +446,7 @@ Macros</h2></td></tr>
 <tr class="memitem:aa9093fb6d9b7f9a9646d8e8a8ffa79cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aa9093fb6d9b7f9a9646d8e8a8ffa79cb">EV_SpectateSet</a>(i,  o)</td></tr>
 <tr class="separator:aa9093fb6d9b7f9a9646d8e8a8ffa79cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a969b9f935f421fd45a9c7bbe3ec57d42"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a969b9f935f421fd45a9c7bbe3ec57d42">EV_SV_ParseClientCommand</a>(i,  o)</td></tr>
-<tr class="memdesc:a969b9f935f421fd45a9c7bbe3ec57d42"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo_SV_ParseClientCommand)</a> { if (MUTATOR_RETURNVALUE) // command was already handled? return false; if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }  <a href="#a969b9f935f421fd45a9c7bbe3ec57d42">More...</a><br /></td></tr>
+<tr class="memdesc:a969b9f935f421fd45a9c7bbe3ec57d42"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo_SV_ParseClientCommand)</a> { if (MUTATOR_RETURNVALUE) // command was already handled? return false; if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(cvar_string(argv(1)), "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }  <a href="#a969b9f935f421fd45a9c7bbe3ec57d42">More...</a><br /></td></tr>
 <tr class="separator:a969b9f935f421fd45a9c7bbe3ec57d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af153c2e6f073353327ac276ae7c6fad0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#af153c2e6f073353327ac276ae7c6fad0">EV_SV_ParseServerCommand</a>(i,  o)</td></tr>
 <tr class="memdesc:af153c2e6f073353327ac276ae7c6fad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">please read EV_SV_ParseClientCommand description before using  <a href="#af153c2e6f073353327ac276ae7c6fad0">More...</a><br /></td></tr>
@@ -862,9 +862,9 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a2da559e70e6e6c7251e3121fc7550aa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2">get_cvars_f</a></td></tr>
+<tr class="memitem:a2da559e70e6e6c7251e3121fc7550aa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dc6/server_2miscfunctions_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2">get_cvars_f</a></td></tr>
 <tr class="separator:a2da559e70e6e6c7251e3121fc7550aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3b8b03a5f420f0d22bd451c4292b99f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f">get_cvars_s</a></td></tr>
+<tr class="memitem:ae3b8b03a5f420f0d22bd451c4292b99f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f">get_cvars_s</a></td></tr>
 <tr class="separator:ae3b8b03a5f420f0d22bd451c4292b99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b05b0b07f8bfac621be16b7588af844"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a3b05b0b07f8bfac621be16b7588af844">monster_loot</a></td></tr>
 <tr class="separator:a3b05b0b07f8bfac621be16b7588af844"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1008,7 +1008,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** reason */ o(<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>, MUTATOR_ARGV_0_string) \</td>
+          <td></td><td>&#160;&#160;&#160;/** reason */ o(<a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a>, MUTATOR_ARGV_0_string) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4262,7 +4262,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">       i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \                     i(<span class="keywordtype">string</span>, MUTATOR_ARGV_1_string) \  i(<span class="keywordtype">int</span>, MUTATOR_ARGV_2_int) \ i(<span class="keywordtype">string</span>, MUTATOR_ARGV_3_string) \</div><div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 </div><!-- fragment -->
-<p>called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo_SV_ParseClientCommand)</a> { if (MUTATOR_RETURNVALUE) // command was already handled? return false; if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; } </p>
+<p>called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo_SV_ParseClientCommand)</a> { if (MUTATOR_RETURNVALUE) // command was already handled? return false; if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(cvar_string(argv(1)), "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; } </p>
 
 <p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00541">541</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
@@ -9051,7 +9051,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> get_cvars_f</td>
+          <td class="memname"><a class="el" href="../../dc/dc6/server_2miscfunctions_8qc.html#a907096b2e30b3c2d52c4b3b824f2e2bc">float</a> get_cvars_f</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -9067,7 +9067,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> get_cvars_s</td>
+          <td class="memname"><a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a> get_cvars_s</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -9100,7 +9100,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Fri May 29 2020 05:30:52 for Xonotic by
+    <li class="footer">Generated on Fri May 29 2020 07:41:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

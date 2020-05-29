@@ -23,7 +23,6 @@ var searchData=
   ['bot_5fexec_5fstatus_5fpaused',['BOT_EXEC_STATUS_PAUSED',['../d8/d14/scripting_8qh.html#a4148837952b0979735faac7e4718e6ab',1,'scripting.qh']]],
   ['bot_5fexec_5fstatus_5fwaiting',['BOT_EXEC_STATUS_WAITING',['../d8/d14/scripting_8qh.html#a664dce4cbf056154d9dc0fa73ff3632b',1,'scripting.qh']]],
   ['bprintf',['bprintf',['../d5/df2/common_2util_8qh.html#af6b5f7d19eecec1c5243980c998216a6',1,'util.qh']]],
-  ['bt_5fcvar_5fset',['bt_cvar_set',['../db/da0/log_8qh.html#ac3d6e7493c5d9f48b1eff4ccd469507d',1,'log.qh']]],
   ['buf_5fcreate',['buf_create',['../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c',1,'buf_create():&#160;dpextensions.qh'],['../d0/d95/menudefs_8qh.html#a9b88d1543a84de9785952d34dedb754c',1,'buf_create():&#160;menudefs.qh']]],
   ['buff_5fonadd',['BUFF_ONADD',['../d2/dac/sv__buffs_8qc.html#a8a4a5cd8a94e69dcd4a753bb7eece163',1,'sv_buffs.qc']]],
   ['buff_5fonrem',['BUFF_ONREM',['../d2/dac/sv__buffs_8qc.html#a46844ec3711dd4b9f71323d503cd5556',1,'sv_buffs.qc']]],

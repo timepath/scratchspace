@@ -1,8 +1,5 @@
 var sys_pre_8qh =
 [
-    [ "cvar", "dd/d8b/sys-pre_8qh.html#a8bec2d5b8558bb04f35ff39b753bd8bd", null ],
-    [ "cvar_set", "dd/d8b/sys-pre_8qh.html#a459d9115670835f15ccafd805f8dba17", null ],
-    [ "cvar_string", "dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b", null ],
     [ "droptofloor", "dd/d8b/sys-pre_8qh.html#a1b69a3a134506189b3d054e6c6f2896c", null ],
     [ "IT_ARMOR1", "dd/d8b/sys-pre_8qh.html#ac88570b9257cfe415b124e28ff547c34", null ],
     [ "IT_ARMOR2", "dd/d8b/sys-pre_8qh.html#a8cd0740cb2a5488a155ae728e1a1a860", null ],

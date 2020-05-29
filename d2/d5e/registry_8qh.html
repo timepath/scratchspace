@@ -154,7 +154,7 @@ Macros</h2></td></tr>
 <tr class="separator:ade3fba5a0d1eade22f2692e182b9ef76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6f0dc111350c68957c77f16dd9a3da7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ae6f0dc111350c68957c77f16dd9a3da7">REGISTER_5</a>(registry,  ns,  id,  fld,  inst)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#ade3fba5a0d1eade22f2692e182b9ef76">REGISTER_4</a>(registry, ns##_##id, fld, inst)</td></tr>
 <tr class="separator:ae6f0dc111350c68957c77f16dd9a3da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadfdf30b43d2c417e6d692eb72f14a8f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">REGISTER_INIT</a>(id)&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> Register_##id##_init(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>)</td></tr>
+<tr class="memitem:aadfdf30b43d2c417e6d692eb72f14a8f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">REGISTER_INIT</a>(id)&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> Register_##id##_init(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>)</td></tr>
 <tr class="separator:aadfdf30b43d2c417e6d692eb72f14a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a50560d358790fd046b58cc5fbfd467"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a9a50560d358790fd046b58cc5fbfd467">REGISTER_REGISTRY</a>(...)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a1e3a236884489e106efaa4e6ec2ea6e8">EVAL_REGISTER_REGISTRY</a>(<a class="el" href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">OVERLOAD</a>(REGISTER_REGISTRY, __VA_ARGS__))</td></tr>
 <tr class="separator:a9a50560d358790fd046b58cc5fbfd467"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,19 +165,19 @@ Macros</h2></td></tr>
 <tr class="memitem:ab210ffe7da897080a1f7f2e05f5a9cfa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ab210ffe7da897080a1f7f2e05f5a9cfa">REGISTRY</a>(id,  <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>)</td></tr>
 <tr class="memdesc:ab210ffe7da897080a1f7f2e05f5a9cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare a new registry.  <a href="#ab210ffe7da897080a1f7f2e05f5a9cfa">More...</a><br /></td></tr>
 <tr class="separator:ab210ffe7da897080a1f7f2e05f5a9cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45adacbeef98030d74adbd778f43509c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a45adacbeef98030d74adbd778f43509c">REGISTRY_BEGIN</a>(id)&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a>(id) { noref <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>() f = Register##id; } <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a>(id)</td></tr>
+<tr class="memitem:a45adacbeef98030d74adbd778f43509c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a45adacbeef98030d74adbd778f43509c">REGISTRY_BEGIN</a>(id)&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a>(id) { noref <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a>() f = Register##id; } <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a>(id)</td></tr>
 <tr class="memdesc:a45adacbeef98030d74adbd778f43509c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called before initializing a registry.  <a href="#a45adacbeef98030d74adbd778f43509c">More...</a><br /></td></tr>
 <tr class="separator:a45adacbeef98030d74adbd778f43509c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5dab80510187e261f5d58e0e60f4618"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a>(id)&#160;&#160;&#160;Register##id##_First()</td></tr>
 <tr class="separator:ae5dab80510187e261f5d58e0e60f4618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0e7d24ce2ae2a3c1fadcf32633792c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ac0e7d24ce2ae2a3c1fadcf32633792c1">REGISTRY_CHECK</a>(id)</td></tr>
 <tr class="separator:ac0e7d24ce2ae2a3c1fadcf32633792c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7828de8cbdf7ddcddee44d5f87b1453"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ad7828de8cbdf7ddcddee44d5f87b1453">REGISTRY_DEPENDS</a>(id,  dep)&#160;&#160;&#160;<a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> Register##dep(); <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70">REGISTRY_DEPENDS_</a>(id) { Register##dep(); }</td></tr>
+<tr class="memitem:ad7828de8cbdf7ddcddee44d5f87b1453"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ad7828de8cbdf7ddcddee44d5f87b1453">REGISTRY_DEPENDS</a>(id,  dep)&#160;&#160;&#160;<a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> Register##dep(); <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70">REGISTRY_DEPENDS_</a>(id) { Register##dep(); }</td></tr>
 <tr class="memdesc:ad7828de8cbdf7ddcddee44d5f87b1453"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add registry dependencies to a registry.  <a href="#ad7828de8cbdf7ddcddee44d5f87b1453">More...</a><br /></td></tr>
 <tr class="separator:ad7828de8cbdf7ddcddee44d5f87b1453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00a4ccb27c17cb3a74f5d7c7bc6e1a70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70">REGISTRY_DEPENDS_</a>(id)&#160;&#160;&#160;Register##id##_Depends()</td></tr>
 <tr class="separator:a00a4ccb27c17cb3a74f5d7c7bc6e1a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66abbcb1a2c53101a2f18ef400138a91"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a66abbcb1a2c53101a2f18ef400138a91">REGISTRY_END</a>(id)&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a>(id) { noref <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>() f = Register##id; } <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a>(id)</td></tr>
+<tr class="memitem:a66abbcb1a2c53101a2f18ef400138a91"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a66abbcb1a2c53101a2f18ef400138a91">REGISTRY_END</a>(id)&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a>(id) { noref <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a>() f = Register##id; } <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a>(id)</td></tr>
 <tr class="memdesc:a66abbcb1a2c53101a2f18ef400138a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after initializing a registry.  <a href="#a66abbcb1a2c53101a2f18ef400138a91">More...</a><br /></td></tr>
 <tr class="separator:a66abbcb1a2c53101a2f18ef400138a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a437c532b2a09eb999076141de4d26e17"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a>(id)&#160;&#160;&#160;Register##id##_Done()</td></tr>
@@ -202,16 +202,16 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad723089001abbac9184587ba270bd53a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ad723089001abbac9184587ba270bd53a">_regCheck</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> i, <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> _max)</td></tr>
+<tr class="memitem:ad723089001abbac9184587ba270bd53a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#ad723089001abbac9184587ba270bd53a">_regCheck</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> i, <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> _max)</td></tr>
 <tr class="separator:ad723089001abbac9184587ba270bd53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfb095cc02b855ac44f5589205370823"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#adfb095cc02b855ac44f5589205370823">Registry_check</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> r, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> sv)</td></tr>
+<tr class="memitem:adfb095cc02b855ac44f5589205370823"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#adfb095cc02b855ac44f5589205370823">Registry_check</a> (<a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a> r, <a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a> sv)</td></tr>
 <tr class="separator:adfb095cc02b855ac44f5589205370823"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a572982106d500d65859979f46c07f1a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a572982106d500d65859979f46c07f1a3">Registry_send_all</a> ()</td></tr>
+<tr class="memitem:a572982106d500d65859979f46c07f1a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a572982106d500d65859979f46c07f1a3">Registry_send_all</a> ()</td></tr>
 <tr class="separator:a572982106d500d65859979f46c07f1a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a80bc0f55561b2fdbd9bf5768df172dcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a80bc0f55561b2fdbd9bf5768df172dcf">registered_id</a></td></tr>
+<tr class="memitem:a80bc0f55561b2fdbd9bf5768df172dcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#a80bc0f55561b2fdbd9bf5768df172dcf">registered_id</a></td></tr>
 <tr class="memdesc:a80bc0f55561b2fdbd9bf5768df172dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">registered item identifier  <a href="#a80bc0f55561b2fdbd9bf5768df172dcf">More...</a><br /></td></tr>
 <tr class="separator:a80bc0f55561b2fdbd9bf5768df172dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdb2c4c4efccfa31f16e67f85b27b40a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5e/registry_8qh.html#abdb2c4c4efccfa31f16e67f85b27b40a">REGISTRY_NEXT</a></td></tr>
@@ -514,7 +514,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">id</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> Register_##id##_init(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> Register_##id##_init(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -657,7 +657,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">id</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a>(id) { noref <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>() f = Register##id; } <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a>(id)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a>(id) { noref <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a>() f = Register##id; } <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#ae5dab80510187e261f5d58e0e60f4618">REGISTRY_BEGIN_</a>(id)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -736,7 +736,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> Register##dep(); <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70">REGISTRY_DEPENDS_</a>(id) { Register##dep(); }</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> Register##dep(); <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a00a4ccb27c17cb3a74f5d7c7bc6e1a70">REGISTRY_DEPENDS_</a>(id) { Register##dep(); }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -774,7 +774,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">id</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a>(id) { noref <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>() f = Register##id; } <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a>(id)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a>(id) { noref <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a>() f = Register##id; } <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> <a class="el" href="../../d2/d5e/registry_8qh.html#a437c532b2a09eb999076141de4d26e17">REGISTRY_END_</a>(id)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1021,7 +1021,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> _regCheck </td>
+          <td class="memname"><a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> _regCheck </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
           <td class="paramname"><em>i</em>, </td>
@@ -1052,15 +1052,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> Registry_check </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> Registry_check </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a>&#160;</td>
           <td class="paramname"><em>r</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a>&#160;</td>
           <td class="paramname"><em>sv</em>&#160;</td>
         </tr>
         <tr>
@@ -1082,7 +1082,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> Registry_send_all </td>
+          <td class="memname"><a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a36a5d653a73a8e98a048122d18aac121">ERASEABLE</a> <a class="el" href="../../d4/dfb/lib_2__all_8inc.html#a98a8b6fc049d2387a098b50f5b636885">ACCUMULATE</a> <a class="el" href="../../db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181">void</a> Registry_send_all </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1114,7 +1114,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> registered_id</td>
+          <td class="memname"><a class="el" href="../../db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7">string</a> registered_id</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1145,7 +1145,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d2/d5e/registry_8qh.html">registry.qh</a></li>
-    <li class="footer">Generated on Fri May 29 2020 05:30:57 for Xonotic by
+    <li class="footer">Generated on Fri May 29 2020 07:41:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

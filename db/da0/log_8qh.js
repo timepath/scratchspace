@@ -15,7 +15,6 @@ var log_8qh =
     [ "ASSERT_LESS", "db/da0/log_8qh.html#a48d561e3187b3cf11c704d6f9bc45619", null ],
     [ "assert_once", "db/da0/log_8qh.html#afab8de1e69e3162b5564c0197bbc8ff8", null ],
     [ "backtrace", "db/da0/log_8qh.html#a798c5f291cac3c0fbcdb2c78ba44b5ab", null ],
-    [ "bt_cvar_set", "db/da0/log_8qh.html#ac3d6e7493c5d9f48b1eff4ccd469507d", null ],
     [ "demand", "db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37", null ],
     [ "devassert", "db/da0/log_8qh.html#a759f0b81b68be04a0b7b1741e39347d6", null ],
     [ "devassert_once", "db/da0/log_8qh.html#ac0728eb9b46661ff2f6b488856396d5c", null ],
