@@ -1,5 +1,6 @@
 var spawnpoints_8qc =
 [
+    [ "link_spawnpoint", "d0/d41/spawnpoints_8qc.html#ae1a6c21401c1c00d039386c756baed1b", null ],
     [ "relocate_spawnpoint", "d0/d41/spawnpoints_8qc.html#abb661914e057e88f5191457801e406ab", null ],
     [ "SelectSpawnPoint", "d0/d41/spawnpoints_8qc.html#a71804b6dc31803f43afa105a34e35d04", null ],
     [ "Spawn_FilterOutBadSpots", "d0/d41/spawnpoints_8qc.html#aef6d4ecee043e51b468863cae789fa18", null ],

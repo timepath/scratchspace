@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"d6/dd0/okmachinegun_8qh_source.html":[2,0,1,10,0,23,7],
 "d6/dd1/classXonoticHUDCenterprintDialog.html":[1,0,188],
 "d6/dd1/classXonoticHUDCenterprintDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,188,30],
 "d6/dd1/classXonoticHUDCenterprintDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,188,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "d6/dd3/view_8qc.html#aea56c34c099473cbf7a019841debd544":[2,0,0,30,8],
 "d6/dd3/view_8qc.html#aea71af104d444d1cbb88154910c4cab3":[2,0,0,30,76],
 "d6/dd3/view_8qc.html#aee91643b511e8b853fd6fbb890aed1ec":[2,0,0,30,64],
-"d6/dd3/view_8qc.html#af31c00efdf68afa9ed92369b83bfbcc0":[2,0,0,30,83],
-"d6/dd3/view_8qc.html#af31e2da8f9f15c1d3665c6b48f04a6e0":[2,0,0,30,4]
+"d6/dd3/view_8qc.html#af31c00efdf68afa9ed92369b83bfbcc0":[2,0,0,30,83]
 };

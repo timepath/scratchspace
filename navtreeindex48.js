@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"d5/d26/server_2defs_8qh.html#afb6f653b25964a434439fc89b0de3fc3":[2,0,6,22,254],
 "d5/d26/server_2defs_8qh.html#afc4b24abdd18a9959f3f6f90866a004c":[2,0,6,22,112],
 "d5/d26/server_2defs_8qh.html#afea6e77db19a2f8c91419904fe665a3a":[2,0,6,22,63],
 "d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85":[2,0,6,22,147],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "d5/d6c/classXonoticHUDSkinList.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,205,30],
 "d5/d6c/classXonoticHUDSkinList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,205,15],
 "d5/d6c/classXonoticHUDSkinList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,205,31],
-"d5/d6c/classXonoticHUDSkinList.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,205,0],
-"d5/d6c/classXonoticHUDSkinList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,205,57]
+"d5/d6c/classXonoticHUDSkinList.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,205,0]
 };

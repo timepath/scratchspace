@@ -19,6 +19,7 @@ var searchData=
   ['leavesubitem',['leaveSubitem',['../d0/d7b/classContainer.html#a01627abafc724fbbbb330e46f8331911',1,'Container']]],
   ['lerpv',['lerpv',['../d0/d79/math_8qh.html#aba3066b97e95d3930e9205fdb186ba2e',1,'math.qh']]],
   ['lgamma',['lgamma',['../df/d38/mathlib_8qc.html#a659c66483cd7c3631f185f4fbd45affb',1,'lgamma(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a659c66483cd7c3631f185f4fbd45affb',1,'lgamma(float e):&#160;mathlib.qc']]],
+  ['link_5fspawnpoint',['link_spawnpoint',['../d0/d41/spawnpoints_8qc.html#ae1a6c21401c1c00d039386c756baed1b',1,'spawnpoints.qc']]],
   ['linkdoors',['LinkDoors',['../d6/d9c/door_8qc.html#a9b3dfef6f936841d5afaf00fe2875afa',1,'door.qc']]],
   ['linkdoors_5fisconnected',['LinkDoors_isconnected',['../d6/d9c/door_8qc.html#a5c3d7da13caad82f621f1605ee804d4b',1,'door.qc']]],
   ['linkdoors_5fnextent',['LinkDoors_nextent',['../d6/d9c/door_8qc.html#ad2038a961ab8ce526e889baf271b6104',1,'door.qc']]],
