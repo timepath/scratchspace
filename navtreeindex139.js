@@ -1,5 +1,10 @@
 var NAVTREEINDEX139 =
 {
+"df/dd7/server_2client_8qc.html#a0626fbb86c705b3c7be4d0195a73627e":[2,0,6,17,71],
+"df/dd7/server_2client_8qc.html#a06fa68229b5a8bf0f5931e23bc3612b6":[2,0,6,17,34],
+"df/dd7/server_2client_8qc.html#a0ea52ed96e6d3b34c2c0eac9ec813fe7":[2,0,6,17,78],
+"df/dd7/server_2client_8qc.html#a1565df9f317d13a6dda4f158fe18478d":[2,0,6,17,68],
+"df/dd7/server_2client_8qc.html#a159c579f136a76f2364b031fd3246182":[2,0,6,17,11],
 "df/dd7/server_2client_8qc.html#a199cb8defbbeacacf578f7c12b16004f":[2,0,6,17,76],
 "df/dd7/server_2client_8qc.html#a21041e5d38139f4b7da1e1eb951aba0d":[2,0,6,17,16],
 "df/dd7/server_2client_8qc.html#a268c4676a29a84d1109b7de04b22f785":[2,0,6,17,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX139 =
 "df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh.html":[2,0,1,10,0,4,1],
 "df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh_source.html":[2,0,1,10,0,4,1],
 "df/df8/door__secret_8qc.html":[2,0,1,6,0,14],
-"df/df8/door__secret_8qc_source.html":[2,0,1,6,0,14],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html":[1,0,239],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,239,93],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a03b39828cfca5042da326cc07cc8f7b4":[1,0,239,62],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a049908527e1af488d7acf53ac64090a1":[1,0,239,84],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0532ad63a21ab0ee3d87bed20ce60394":[1,0,239,61]
+"df/df8/door__secret_8qc_source.html":[2,0,1,6,0,14]
 };
