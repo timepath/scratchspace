@@ -2,7 +2,7 @@ var centerprint_8qc =
 [
     [ "centerprint_Add", "d4/dbb/centerprint_8qc.html#a7e7313a9ace5a60595f1424536063f84", null ],
     [ "centerprint_AddStandard", "d4/dbb/centerprint_8qc.html#ad5224969f9aeec62f226b4e7b7ad1394", null ],
-    [ "centerprint_kill", "d4/dbb/centerprint_8qc.html#abc0e0c0ccaa1f1bdffc809ea2f74e0f5", null ],
+    [ "centerprint_Kill", "d4/dbb/centerprint_8qc.html#ac158a851c4763dc6ea7b56c9c9844b01", null ],
     [ "centerprint_KillAll", "d4/dbb/centerprint_8qc.html#a133aa7316ffde4bb1306801d51d80422", null ],
     [ "HUD_CenterPrint", "d4/dbb/centerprint_8qc.html#aa9a8cf192f768286ec6a0b38c3fa010b", null ],
     [ "HUD_CenterPrint_Export", "d4/dbb/centerprint_8qc.html#a3e4de950a5758aa240933d05238dca81", null ],
