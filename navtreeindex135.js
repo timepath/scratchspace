@@ -1,6 +1,5 @@
 var NAVTREEINDEX135 =
 {
-"df/d42/vaporizer_8qc.html":[2,0,1,16,0,38],
 "df/d42/vaporizer_8qc_source.html":[2,0,1,16,0,38],
 "df/d44/dialog__settings__video_8qh.html":[2,0,5,4,159],
 "df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,159,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX135 =
 "df/d75/keybinder_8qc.html#a07b1c813a45195e732bdbb97ef390c78":[2,0,5,4,176,9],
 "df/d75/keybinder_8qc.html#a136765a2f9eec2b238e1d2d831048343":[2,0,5,4,176,30],
 "df/d75/keybinder_8qc.html#a1372e62ea264c577e5d9f64cf46d594a":[2,0,5,4,176,18],
-"df/d75/keybinder_8qc.html#a16e4d3a58129392375657f4c01119fca":[2,0,5,4,176,20]
+"df/d75/keybinder_8qc.html#a16e4d3a58129392375657f4c01119fca":[2,0,5,4,176,20],
+"df/d75/keybinder_8qc.html#a199013939039b94eab3675b953cdb961":[2,0,5,4,176,14]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"d8/dc1/sv__monsters_8qh.html#af6fd9a6f6a7602ea1bf37921cb674a67":[2,0,1,9,7,27],
 "d8/dc1/sv__monsters_8qh_source.html":[2,0,1,9,7],
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html":[2,0,1,10,0,39,3],
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a3da47aff03aeae2520d8687b6cc8d4e7":[2,0,1,10,0,39,3,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX80 =
 "d8/de2/menudefs_8qc.html#a272f4a60c541166a971760876b74889c":[2,0,2,0,3,170],
 "d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa":[2,0,2,0,3,155],
 "d8/de2/menudefs_8qc.html#a275d4f7ede17f9fe0df84ee729cc11fc":[2,0,2,0,3,276],
-"d8/de2/menudefs_8qc.html#a27ad0dbd2818ea2cdadf451db02c1853":[2,0,2,0,3,63]
+"d8/de2/menudefs_8qc.html#a27ad0dbd2818ea2cdadf451db02c1853":[2,0,2,0,3,63],
+"d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120":[2,0,2,0,3,242]
 };

@@ -2,7 +2,6 @@ var searchData=
 [
   ['identity',['IDENTITY',['../dd/dee/functional_8qh.html#a05d6aabb87d5b191a29be5186dbe1d8c',1,'functional.qh']]],
   ['if',['IF',['../dd/dee/functional_8qh.html#a7c44e6c58755e4f8c76c53437c77e5e3',1,'functional.qh']]],
-  ['iftargeted',['IFTARGETED',['../d6/d25/triggers_8qh.html#a636484386e31b6bf4361c83fb77f1b65',1,'triggers.qh']]],
   ['il_5fceil',['IL_CEIL',['../d9/d51/intrusivelist_8qh.html#a6defbf6848280a92462a1af3c1171dd2',1,'intrusivelist.qh']]],
   ['il_5fclear',['IL_CLEAR',['../d9/d51/intrusivelist_8qh.html#a8d0604a8ca08041157451b424fc64587',1,'intrusivelist.qh']]],
   ['il_5fdelete',['IL_DELETE',['../d9/d51/intrusivelist_8qh.html#af2a6bb146a6142ec734e73d5fc3a40a0',1,'intrusivelist.qh']]],

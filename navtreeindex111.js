@@ -1,6 +1,5 @@
 var NAVTREEINDEX111 =
 {
-"dc/d2a/classPlasmaTurret.html#a1ceb2f4372d786adcbf7dda9ddda2589":[1,0,105,19],
 "dc/d2a/classPlasmaTurret.html#a3144102787442a58055180121b5e9536":[1,0,105,12],
 "dc/d2a/classPlasmaTurret.html#a34980e66ed09a68af3e3fa9e204a18ca":[1,0,105,1],
 "dc/d2a/classPlasmaTurret.html#a3f55a0540df468e6f0406b2907921e9a":[1,0,105,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX111 =
 "dc/d3d/csqcmodel__hooks_8qc.html#accd8d6503887bb55560749ae4c2216fa":[2,0,0,12,38],
 "dc/d3d/csqcmodel__hooks_8qc.html#ad3da36c67529a9b3bf2d6e20a32f3d85":[2,0,0,12,27],
 "dc/d3d/csqcmodel__hooks_8qc.html#ad8f4702189f9e9e0bde8bfc1804dc17e":[2,0,0,12,57],
-"dc/d3d/csqcmodel__hooks_8qc.html#ade6f2c34ffcad4033d341921951429a7":[2,0,0,12,4]
+"dc/d3d/csqcmodel__hooks_8qc.html#ade6f2c34ffcad4033d341921951429a7":[2,0,0,12,4],
+"dc/d3d/csqcmodel__hooks_8qc.html#ae01c0c2d6e00dad783dccc242b2b1034":[2,0,0,12,17]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX123 =
 {
-"dd/db3/classXonoticQuitDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,232,90],
 "dd/db3/classXonoticQuitDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,232,8],
 "dd/db3/classXonoticQuitDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,232,66],
 "dd/db3/classXonoticQuitDialog.html#aeff76ecca42175bf48a2312421add4bd":[1,0,232,58],
@@ -91,14 +90,14 @@ var NAVTREEINDEX123 =
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,15,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,15,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,15,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,1],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,0],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,1],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,15,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,15,12],
-"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,2],
-"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,5],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,4],
+"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,5],
 "dd/dd5/sv__model_8qc_source.html":[2,0,4,0,15],
 "dd/dd7/classRacer.html":[1,0,112],
 "dd/dd7/classRacer.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,112,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX123 =
 "dd/def/dialog__settings__input__userbind_8qc.html#a737ab79b48f62178e515a7842873bbbe":[2,0,5,4,146,2],
 "dd/def/dialog__settings__input__userbind_8qc.html#aa82632934f25109e4d110818af4b509c":[2,0,5,4,146,0],
 "dd/def/dialog__settings__input__userbind_8qc_source.html":[2,0,5,4,146],
-"dd/def/sv__pinata_8qc.html":[2,0,1,10,0,25,2]
+"dd/def/sv__pinata_8qc.html":[2,0,1,10,0,25,2],
+"dd/def/sv__pinata_8qc.html#a1a750d7764d6927b4342ff1bee96f649":[2,0,1,10,0,25,2,5]
 };
