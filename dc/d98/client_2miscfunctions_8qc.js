@@ -1,5 +1,6 @@
 var client_2miscfunctions_8qc =
 [
+    [ "SET_POS_AND_SZ_Y_ASPECT", "dc/d98/client_2miscfunctions_8qc.html#afca582b58637cfce855d26f6cb2a75e6", null ],
     [ "Accuracy_GetColor", "dc/d98/client_2miscfunctions_8qc.html#a83450b42c92a0e2b70458b403babf766", null ],
     [ "Accuracy_LoadColors", "dc/d98/client_2miscfunctions_8qc.html#ab400daf1f187c979509f50f3ec2a283c", null ],
     [ "Accuracy_LoadLevels", "dc/d98/client_2miscfunctions_8qc.html#a98516230f6e7959f7824679707baad4d", null ],

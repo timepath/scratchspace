@@ -17,7 +17,6 @@ var client_2miscfunctions_8qh =
     [ "HUD_ShiftX", "d8/db6/client_2miscfunctions_8qh.html#aa2bcb1156b1b03549c9a8d6bc45e97c5", null ],
     [ "HUD_ShiftY", "d8/db6/client_2miscfunctions_8qh.html#a307c017362dc67218ed9fcce03381841", null ],
     [ "IS_DEAD", "d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944", null ],
-    [ "SET_POS_AND_SZ_Y_ASPECT", "d8/db6/client_2miscfunctions_8qh.html#afca582b58637cfce855d26f6cb2a75e6", null ],
     [ "Accuracy_GetColor", "d8/db6/client_2miscfunctions_8qh.html#a83450b42c92a0e2b70458b403babf766", null ],
     [ "Accuracy_LoadColors", "d8/db6/client_2miscfunctions_8qh.html#ab400daf1f187c979509f50f3ec2a283c", null ],
     [ "Accuracy_LoadLevels", "d8/db6/client_2miscfunctions_8qh.html#a98516230f6e7959f7824679707baad4d", null ],

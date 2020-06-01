@@ -12,7 +12,7 @@ var subs_8qc =
     [ "SUB_CalcMoveEnt", "d2/dc2/subs_8qc.html#ab98375d0b27a874a6dfb67d8ec295610", null ],
     [ "SUB_Friction", "d2/dc2/subs_8qc.html#a5d9d5695ccf2b8c610dca410cbd576a7", null ],
     [ "SUB_NullThink", "d2/dc2/subs_8qc.html#a8ed167ee1a9e29cad462eccfe9a7ca09", null ],
-    [ "SUB_SetFade", "d2/dc2/subs_8qc.html#aaee12b410e85192641c50f8eeeef532f", null ],
+    [ "SUB_SetFade", "d2/dc2/subs_8qc.html#aa5bbc49fcc96c1214bb9daba206bf744", null ],
     [ "SUB_SetFade_Think", "d2/dc2/subs_8qc.html#a90e45de578dd2a4e3ea4cbc3c20008b1", null ],
     [ "SUB_VanishOrRemove", "d2/dc2/subs_8qc.html#ad0806fe42eadae7a1a7a48660cbbd755", null ],
     [ "friction", "d2/dc2/subs_8qc.html#a585bd15db005143bac988d78710e4e93", null ],
