@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#abdc47fdb3aeea526675fdfb03c57712b":[2,0,6,3,3,272],
 "d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600a708c50a7b7fff1d0a28ef250fcc171d2":[2,0,6,3,3,151],
 "d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600abba6311be4f5a35fa3e04dfaad7ee09e":[2,0,6,3,3,150],
 "d6/ddd/server_2mutators_2events_8qh.html#abed82baf7f470b522273a3e37c24c600af472ec535e6e4b6b39552253d5128c6c":[2,0,6,3,3,149],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "d7/d0e/dialog__settings__game__weapons_8qc_source.html":[2,0,5,4,142],
 "d7/d0f/classCallbackChain_1_1CallbackNode.html":[1,0,14,0],
 "d7/d0f/classCallbackChain_1_1CallbackNode.html#a2b470d9ce857fd3fa94d52e07182b52e":[1,0,14,0,1],
-"d7/d0f/classCallbackChain_1_1CallbackNode.html#a415ac521cfeeaeb9de3fd09c2c192d9b":[1,0,14,0,2],
-"d7/d0f/classCallbackChain_1_1CallbackNode.html#a8df53675bb2d5a6f3ce35c279910f34d":[1,0,14,0,3]
+"d7/d0f/classCallbackChain_1_1CallbackNode.html#a415ac521cfeeaeb9de3fd09c2c192d9b":[1,0,14,0,2]
 };

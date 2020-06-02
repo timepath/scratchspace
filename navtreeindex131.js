@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"de/dab/classObserver.html#a191231a070ddb9890525e44cb7bc1a83":[1,0,88,81],
 "de/dab/classObserver.html#a192cd7cbe6eeea6fc550e28c03bb6f18":[1,0,88,59],
 "de/dab/classObserver.html#a19c43f80a38a332a6f694783df3c9835":[1,0,88,0],
 "de/dab/classObserver.html#a1cf874d43029147ab8f2a537b17c5eb1":[1,0,88,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "de/dcb/vector_8qh.html#ad69a2fa91e1a42f6abdd16bbac20728c":[2,0,4,66,21],
 "de/dcb/vector_8qh.html#ad71a34e21d78fdb74ec30d209b6ea3b1":[2,0,4,66,25],
 "de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27":[2,0,4,66,33],
-"de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910":[2,0,4,66,6],
-"de/dcb/vector_8qh.html#ae8d8b31974c50cca8b60d3734bc00dac":[2,0,4,66,2]
+"de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910":[2,0,4,66,6]
 };

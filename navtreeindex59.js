@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"d6/dbd/minigames_8qh_source.html":[2,0,1,7,8],
 "d6/dbf/dialog__settings__misc_8qh.html":[2,0,5,4,149],
 "d6/dbf/dialog__settings__misc_8qh.html#a5786cd08c685fc121f4bb2b2a0941e75":[2,0,5,4,149,1],
 "d6/dbf/dialog__settings__misc_8qh_source.html":[2,0,5,4,149],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "d6/dce/sounds_2all_8inc.html#afedc4a78b525a015b4f726e0790c37c6":[2,0,1,13,2,11],
 "d6/dce/sounds_2all_8inc.html#afefacd72f0f908615c01a9e47419028a":[2,0,1,13,2,192],
 "d6/dce/sounds_2all_8inc_source.html":[2,0,1,13,2],
-"d6/dd0/okmachinegun_8qh.html":[2,0,1,10,0,23,7],
-"d6/dd0/okmachinegun_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,10,0,23,7,1]
+"d6/dd0/okmachinegun_8qh.html":[2,0,1,10,0,23,7]
 };
