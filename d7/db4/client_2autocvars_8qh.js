@@ -107,6 +107,7 @@ var client_2autocvars_8qh =
     [ "autocvar_cl_race_cptimes_onlyself", "d7/db4/client_2autocvars_8qh.html#a27c39881e590417dfc3be68ddcaa6976", null ],
     [ "autocvar_cl_race_cptimes_showself", "d7/db4/client_2autocvars_8qh.html#a7409604b303ecd97f71b48647a8fe86f", null ],
     [ "autocvar_cl_readpicture_force", "d7/db4/client_2autocvars_8qh.html#a5d6ac8e97ba8b6e3e3642eea063d87dd", null ],
+    [ "autocvar_cl_respawn_ghosts_keepcolors", "d7/db4/client_2autocvars_8qh.html#a05811689b6fba057bb9415134bfb4c11", null ],
     [ "autocvar_cl_reticle", "d7/db4/client_2autocvars_8qh.html#aeeeadd22f2da073e3020aa69a474ea5b", null ],
     [ "autocvar_cl_reticle_normal_alpha", "d7/db4/client_2autocvars_8qh.html#ab6c9a0903e0f0d3a7264bca6f92c0c2b", null ],
     [ "autocvar_cl_reticle_stretch", "d7/db4/client_2autocvars_8qh.html#a600c2f988cafa913e73c8725a78c5eec", null ],

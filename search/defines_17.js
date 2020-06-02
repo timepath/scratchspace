@@ -74,7 +74,6 @@ var searchData=
   ['wpcolor_5fdroppedflag',['WPCOLOR_DROPPEDFLAG',['../d6/db0/sv__ctf_8qh.html#ae8847e710b543ca649d84f01e5e43dc1',1,'sv_ctf.qh']]],
   ['wpcolor_5fenemyfc',['WPCOLOR_ENEMYFC',['../d6/db0/sv__ctf_8qh.html#ada761077f7ab7c343e83b4fd69d325aa',1,'sv_ctf.qh']]],
   ['wpcolor_5fflagcarrier',['WPCOLOR_FLAGCARRIER',['../d6/db0/sv__ctf_8qh.html#a69f95cbd78f421bb775b4ad329bbddb5',1,'sv_ctf.qh']]],
-  ['write',['WRITE',['../dd/d87/effectinfo_8qc.html#a51e6d60006000dbaa67ed3e8db46ddb2',1,'effectinfo.qc']]],
   ['write_5fbyte',['Write_byte',['../d9/d48/lib_2net_8qh.html#a84ebbcfeb398b04d80c378ca47b809c0',1,'net.qh']]],
   ['write_5ffloat',['Write_float',['../d9/d48/lib_2net_8qh.html#a5bb63dcab5ee0b1d87a625531c81f0c5',1,'net.qh']]],
   ['write_5fint',['Write_int',['../d9/d48/lib_2net_8qh.html#a869f17eca0934474ecd4e09a341e0aaa',1,'net.qh']]],

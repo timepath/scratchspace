@@ -122,6 +122,5 @@ var searchData=
   ['mutator_5fstatic',['MUTATOR_STATIC',['../db/d38/base_8qh.html#a2e2d0c2c896c9abcbd390dd9c8db2609',1,'base.qh']]],
   ['mutator_5ftypes',['MUTATOR_TYPES',['../d4/d95/common_2mutators_2events_8qh.html#af66a8641f9b3587782fad7cc3fa7f220',1,'events.qh']]],
   ['mutex_5flock',['MUTEX_LOCK',['../d4/d18/iter_8qh.html#a7381b9ba3fc7be7a05b3c7b772160f66',1,'iter.qh']]],
-  ['mutex_5funlock',['MUTEX_UNLOCK',['../d4/d18/iter_8qh.html#a5cff76ef1c972428f5810f0261ac609d',1,'iter.qh']]],
-  ['my',['MY',['../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802',1,'MY():&#160;effectinfo.qc'],['../dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b',1,'MY():&#160;effectinfo.qc'],['../dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b',1,'MY():&#160;effectinfo.qc'],['../dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b',1,'MY():&#160;effectinfo.qc']]]
+  ['mutex_5funlock',['MUTEX_UNLOCK',['../d4/d18/iter_8qh.html#a5cff76ef1c972428f5810f0261ac609d',1,'iter.qh']]]
 ];

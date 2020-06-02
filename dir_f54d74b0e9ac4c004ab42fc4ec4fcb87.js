@@ -8,7 +8,7 @@ var dir_f54d74b0e9ac4c004ab42fc4ec4fcb87 =
     [ "all.qh", "dd/d22/effects_2all_8qh.html", "dd/d22/effects_2all_8qh" ],
     [ "effect.qh", "d5/de6/effect_8qh.html", "d5/de6/effect_8qh" ],
     [ "effectinfo.inc", "db/d7f/effectinfo_8inc.html", "db/d7f/effectinfo_8inc" ],
-    [ "effectinfo.qc", "dd/d87/effectinfo_8qc.html", "dd/d87/effectinfo_8qc" ],
+    [ "effectinfo.qc", "dd/d87/effectinfo_8qc.html", null ],
     [ "effectinfo.qh", "d3/de2/effectinfo_8qh.html", null ],
     [ "effectinfo_buffs.inc", "d6/d99/effectinfo__buffs_8inc.html", "d6/d99/effectinfo__buffs_8inc" ],
     [ "effectinfo_ctf.inc", "d7/d16/effectinfo__ctf_8inc.html", "d7/d16/effectinfo__ctf_8inc" ],

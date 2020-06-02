@@ -276,8 +276,6 @@ var searchData=
   ['checksendcvars',['CheckSendCvars',['../df/d9b/menu_2xonotic_2util_8qc.html#ab1a12c6efcea09204c8c4461ca36efff',1,'CheckSendCvars(entity me, string cvarnamestring):&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#ab1a12c6efcea09204c8c4461ca36efff',1,'CheckSendCvars(entity me, string cvarnamestring):&#160;util.qc']]],
   ['checkspectatorblock',['checkSpectatorBlock',['../df/dd7/server_2client_8qc.html#a3cb890504a3e0218ed83a60fcba8b17c',1,'checkSpectatorBlock(entity this):&#160;client.qc'],['../d5/d26/server_2defs_8qh.html#a3cb890504a3e0218ed83a60fcba8b17c',1,'checkSpectatorBlock(entity this):&#160;client.qc']]],
   ['checkwaterjump',['CheckWaterJump',['../d2/d0a/common_2physics_2player_8qc.html#abb6ca34452c1369173a1515f92dd8764',1,'player.qc']]],
-  ['children',['children',['../d2/d52/classEffectInfoGroup.html#a332c226baeefa3825b96abe8221f3a22',1,'EffectInfoGroup']]],
-  ['children_5fcount',['children_count',['../d2/d52/classEffectInfoGroup.html#a043e791cec10eac21aad429adc6edb40',1,'EffectInfoGroup']]],
   ['chimpulse',['CHIMPULSE',['../d0/d6e/impulses_2all_8qh.html#a9bb1cc539114b393e19c7e991898e2ed',1,'all.qh']]],
   ['chr',['chr',['../d8/de2/menudefs_8qc.html#a2e79c39c212b8262151d8f871ebf05bc',1,'menudefs.qc']]],
   ['chr2str',['chr2str',['../d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313',1,'chr2str():&#160;dpextensions.qh'],['../d0/d95/menudefs_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313',1,'chr2str():&#160;menudefs.qh']]],

@@ -34,8 +34,6 @@ var annotated_dup =
     [ "DualPlasmaTurret", "d3/df2/classDualPlasmaTurret.html", "d3/df2/classDualPlasmaTurret" ],
     [ "Duel", "d0/d0a/classDuel.html", "d0/d0a/classDuel" ],
     [ "Easing", "de/d19/classEasing.html", "de/d19/classEasing" ],
-    [ "EffectInfo", "de/d95/classEffectInfo.html", "de/d95/classEffectInfo" ],
-    [ "EffectInfoGroup", "d2/d52/classEffectInfoGroup.html", "d2/d52/classEffectInfoGroup" ],
     [ "Electro", "dc/d6c/classElectro.html", "dc/d6c/classElectro" ],
     [ "EWheel", "d6/d7d/classEWheel.html", "d6/d7d/classEWheel" ],
     [ "EWheelAttack", "d1/dc3/classEWheelAttack.html", "d1/dc3/classEWheelAttack" ],

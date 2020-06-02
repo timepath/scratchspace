@@ -1,8 +1,6 @@
 var searchData=
 [
   ['effect',['EFFECT',['../dd/d22/effects_2all_8qh.html#abed0c7f43dfd9647dd615e3797073590',1,'all.qh']]],
-  ['effectinfo',['EFFECTINFO',['../dd/d87/effectinfo_8qc.html#ad425a0ea2148626349dd03800e90f7b6',1,'effectinfo.qc']]],
-  ['effectinfo_5fparser',['EFFECTINFO_PARSER',['../dd/d87/effectinfo_8qc.html#abf96f615930f5438f58a99050ce6856f',1,'effectinfo.qc']]],
   ['efmask_5fcheap',['EFMASK_CHEAP',['../d6/dd3/view_8qc.html#af31e2da8f9f15c1d3665c6b48f04a6e0',1,'EFMASK_CHEAP():&#160;view.qc'],['../d9/de7/server_2constants_8qh.html#af31e2da8f9f15c1d3665c6b48f04a6e0',1,'EFMASK_CHEAP():&#160;constants.qh']]],
   ['eight_5fvars_5fto_5fvarargs_5fvarlist',['EIGHT_VARS_TO_VARARGS_VARLIST',['../dc/d8f/notifications_2all_8qh.html#a7d0f0d2bef7f5dea91eafc4181b9b045',1,'all.qh']]],
   ['emit',['emit',['../d5/d14/lib_8qh.html#adbe78ee77b211673a0ef66f04dafaf38',1,'lib.qh']]],

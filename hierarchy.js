@@ -25,8 +25,6 @@ var hierarchy =
           [ "CvarStringSource", "d2/dbe/classCvarStringSource.html", null ]
         ] ]
       ] ],
-      [ "EffectInfo", "de/d95/classEffectInfo.html", null ],
-      [ "EffectInfoGroup", "d2/d52/classEffectInfoGroup.html", null ],
       [ "GameItem", "d0/d9a/classGameItem.html", [
         [ "Pickup", "d4/d93/classPickup.html", [
           [ "Ammo", "dc/dda/classAmmo.html", [

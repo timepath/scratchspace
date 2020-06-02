@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('d0/d80/credits_8qc.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:abdeab3e539f87bfd5e98997d5b84911b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d80/credits_8qc.html#abdeab3e539f87bfd5e98997d5b84911b">_CREDITS_PERSON</a>(<a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a>)&#160;&#160;&#160;<a class="el" href="../../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065">CREDITS_PERSON</a>(#<a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a>)</td></tr>
+<tr class="memitem:abdeab3e539f87bfd5e98997d5b84911b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d80/credits_8qc.html#abdeab3e539f87bfd5e98997d5b84911b">_CREDITS_PERSON</a>(p)&#160;&#160;&#160;<a class="el" href="../../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065">CREDITS_PERSON</a>(#p)</td></tr>
 <tr class="separator:abdeab3e539f87bfd5e98997d5b84911b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a562b7ed176e0f1f11db809c27de0e9c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d80/credits_8qc.html#a562b7ed176e0f1f11db809c27de0e9c7">CREDITS</a>(TITLE,  FUNCTION,  PERSON,  PERSON_,  NL)</td></tr>
 <tr class="separator:a562b7ed176e0f1f11db809c27de0e9c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,7 +140,7 @@ Macros</h2></td></tr>
 <tr class="separator:aeece9de75586306dd54825972876f676"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32480b87731fe49f3cbbdff15c597f7c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d80/credits_8qc.html#a32480b87731fe49f3cbbdff15c597f7c">CREDITS_NL</a>()&#160;&#160;&#160;bufstr_add(n, &quot;&quot;, 0);</td></tr>
 <tr class="separator:a32480b87731fe49f3cbbdff15c597f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95171d96492bbd61e9bfbeecec5a3065"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065">CREDITS_PERSON</a>(<a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a>)&#160;&#160;&#160;bufstr_add(n, <a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a>, 0);</td></tr>
+<tr class="memitem:a95171d96492bbd61e9bfbeecec5a3065"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065">CREDITS_PERSON</a>(p)&#160;&#160;&#160;bufstr_add(n, p, 0);</td></tr>
 <tr class="separator:a95171d96492bbd61e9bfbeecec5a3065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5d546005b1fa4e5880a459abe5b02c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d80/credits_8qc.html#af5d546005b1fa4e5880a459abe5b02c0">CREDITS_TITLE</a>(t)&#160;&#160;&#160;bufstr_add(n, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(&quot;**&quot;, t), 0);</td></tr>
 <tr class="separator:af5d546005b1fa4e5880a459abe5b02c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,8 +173,8 @@ Functions</h2></td></tr>
           <td class="memname">#define _CREDITS_PERSON</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065">CREDITS_PERSON</a>(#<a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a>)</td>
+          <td class="paramname">p</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d0/d80/credits_8qc.html#a95171d96492bbd61e9bfbeecec5a3065">CREDITS_PERSON</a>(#p)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -274,8 +274,8 @@ Functions</h2></td></tr>
           <td class="memname">#define CREDITS_PERSON</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a></td><td>)</td>
-          <td>&#160;&#160;&#160;bufstr_add(n, <a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a>, 0);</td>
+          <td class="paramname">p</td><td>)</td>
+          <td>&#160;&#160;&#160;bufstr_add(n, p, 0);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -632,7 +632,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d0/d80/credits_8qc.html">credits.qc</a></li>
-    <li class="footer">Generated on Mon Jun 1 2020 11:31:19 for Xonotic by
+    <li class="footer">Generated on Tue Jun 2 2020 10:41:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
