@@ -561,7 +561,7 @@ var searchData=
   ['mif_5fsplash',['MIF_SPLASH',['../d5/d26/server_2defs_8qh.html#a177160502cceebf9005817415f6a7383',1,'defs.qh']]],
   ['min',['min',['../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df',1,'menudefs.qc']]],
   ['min_5fdamageextraradius',['MIN_DAMAGEEXTRARADIUS',['../d9/d08/client_2defs_8qh.html#a7e750772aafa38fe4dada534e30b2ce6',1,'MIN_DAMAGEEXTRARADIUS():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a7e750772aafa38fe4dada534e30b2ce6',1,'MIN_DAMAGEEXTRARADIUS():&#160;defs.qh']]],
-  ['min_5fspec_5ftime',['MIN_SPEC_TIME',['../df/dd7/server_2client_8qc.html#a5949b9ebfecda6bea39a7064bc80b1ba',1,'client.qc']]],
+  ['min_5fspec_5ftime',['MIN_SPEC_TIME',['../d8/de2/server_2client_8qh.html#a5949b9ebfecda6bea39a7064bc80b1ba',1,'client.qh']]],
   ['min_5furl_5fid',['MIN_URL_ID',['../dc/dbb/urllib_8qh.html#a9bcb43892d78bc065d0e237c9c2a27d6',1,'urllib.qh']]],
   ['minelayer',['MineLayer',['../d3/da9/classMineLayer.html',1,'']]],
   ['minelayer_2eqc',['minelayer.qc',['../d4/dd6/minelayer_8qc.html',1,'']]],

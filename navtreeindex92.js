@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"da/d2a/classXonoticDecibelsSlider.html#a7ba277f3c886c7d391915d273fede63c":[1,0,168,58],
 "da/d2a/classXonoticDecibelsSlider.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,168,64],
 "da/d2a/classXonoticDecibelsSlider.html#a7e34e8b0ce4cf44d7fa4b02a1353d0dd":[1,0,168,32],
 "da/d2a/classXonoticDecibelsSlider.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,168,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "da/d46/picker_8qc.html#a31daa00a20ea0b0228b3a664c8e90483":[2,0,5,4,188,0],
 "da/d46/picker_8qc.html#a382a506870e86943c234ec726e664984":[2,0,5,4,188,1],
 "da/d46/picker_8qc.html#a408f3698cf8fe979026e81c4390ebe2e":[2,0,5,4,188,7],
-"da/d46/picker_8qc.html#a465edac60c84dfb197546d85cd2ad802":[2,0,5,4,188,2],
-"da/d46/picker_8qc.html#a496485d404c351859cefb455e61c4e54":[2,0,5,4,188,5]
+"da/d46/picker_8qc.html#a465edac60c84dfb197546d85cd2ad802":[2,0,5,4,188,2]
 };

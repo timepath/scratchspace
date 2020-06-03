@@ -234,7 +234,7 @@ var searchData=
   ['mif_5fproxy',['MIF_PROXY',['../d5/d26/server_2defs_8qh.html#a61f846996c811b4ad89a8cbfeade1ee5',1,'defs.qh']]],
   ['mif_5fsplash',['MIF_SPLASH',['../d5/d26/server_2defs_8qh.html#a177160502cceebf9005817415f6a7383',1,'defs.qh']]],
   ['min_5fdamageextraradius',['MIN_DAMAGEEXTRARADIUS',['../d9/d08/client_2defs_8qh.html#a7e750772aafa38fe4dada534e30b2ce6',1,'MIN_DAMAGEEXTRARADIUS():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a7e750772aafa38fe4dada534e30b2ce6',1,'MIN_DAMAGEEXTRARADIUS():&#160;defs.qh']]],
-  ['min_5fspec_5ftime',['MIN_SPEC_TIME',['../df/dd7/server_2client_8qc.html#a5949b9ebfecda6bea39a7064bc80b1ba',1,'client.qc']]],
+  ['min_5fspec_5ftime',['MIN_SPEC_TIME',['../d8/de2/server_2client_8qh.html#a5949b9ebfecda6bea39a7064bc80b1ba',1,'client.qh']]],
   ['minelayer_5fmines',['minelayer_mines',['../d0/d56/wepent_8qh.html#a9b9bf4d38fc552383cc85fa05c78f977',1,'minelayer_mines():&#160;wepent.qh'],['../d5/d26/server_2defs_8qh.html#a9b9bf4d38fc552383cc85fa05c78f977',1,'minelayer_mines():&#160;defs.qh']]],
   ['minig_5fsf_5fall',['MINIG_SF_ALL',['../d6/dbd/minigames_8qh.html#a602cde096f65a1ecb86033e5ee57522f',1,'minigames.qh']]],
   ['minig_5fsf_5fcreate',['MINIG_SF_CREATE',['../d6/dbd/minigames_8qh.html#ac4a43a55db4827c2a47a075462e401c0',1,'minigames.qh']]],

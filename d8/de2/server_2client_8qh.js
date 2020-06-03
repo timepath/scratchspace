@@ -29,5 +29,6 @@ var server_2client_8qh =
     [ "SetSpectatee_status", "d8/de2/server_2client_8qh.html#ac4f7e6fc7e9a311d90c6379198d0bd9c", null ],
     [ "Spectate", "d8/de2/server_2client_8qh.html#acd1560ca258ee21a90fd35530c8127b0", null ],
     [ "STATIC_INIT", "d8/de2/server_2client_8qh.html#adb6811cf23b61f86e3887a680ada4875", null ],
-    [ "g_players", "d8/de2/server_2client_8qh.html#aa8f4a01a47bb4c0a14e796683451d2a8", null ]
+    [ "g_players", "d8/de2/server_2client_8qh.html#aa8f4a01a47bb4c0a14e796683451d2a8", null ],
+    [ "MIN_SPEC_TIME", "d8/de2/server_2client_8qh.html#a5949b9ebfecda6bea39a7064bc80b1ba", null ]
 ];
