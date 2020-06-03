@@ -254,7 +254,6 @@ var searchData=
   ['spectateset',['SpectateSet',['../df/dd7/server_2client_8qc.html#a0626fbb86c705b3c7be4d0195a73627e',1,'client.qc']]],
   ['spectateupdate',['SpectateUpdate',['../df/dd7/server_2client_8qc.html#a3e9a26edec819b4a5e84fce635a1fa68',1,'client.qc']]],
   ['spectator',['Spectator',['../d1/d48/classSpectator.html#a941b4b8ae00280b5e57dd1c7b3436494',1,'Spectator']]],
-  ['spectatorthink',['SpectatorThink',['../df/dd7/server_2client_8qc.html#aaac35902af8d876a6517fd1156b56aa9',1,'client.qc']]],
   ['sprint',['sprint',['../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f',1,'menudefs.qc']]],
   ['sqrt',['sqrt',['../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3',1,'menudefs.qc']]],
   ['stackdump',['stackdump',['../d8/de2/menudefs_8qc.html#a250248806349926d2261d6652cb1281f',1,'menudefs.qc']]],

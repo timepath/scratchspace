@@ -10,7 +10,7 @@ var searchData=
   ['objerror',['objerror',['../d2/d77/pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1',1,'objerror():&#160;pre.qh'],['../d4/dfb/lib_2__all_8inc.html#aa355d14312871eb0e1d9c34d952224ef',1,'objerror():&#160;_all.inc'],['../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b',1,'objerror(string err,...):&#160;menudefs.qc']]],
   ['objerror_5fsafe',['objerror_safe',['../d4/dfb/lib_2__all_8inc.html#ae32529f2cf1b849ec0ac1fadb12c898c',1,'_all.inc']]],
   ['observer',['Observer',['../de/dab/classObserver.html',1,'Observer'],['../de/dab/classObserver.html#a19c43f80a38a332a6f694783df3c9835',1,'Observer::Observer()']]],
-  ['observerthink',['ObserverThink',['../df/dd7/server_2client_8qc.html#a0624045451f22564103dbb3878f77fd6',1,'client.qc']]],
+  ['observerorspectatorthink',['ObserverOrSpectatorThink',['../df/dd7/server_2client_8qc.html#aa3e6c71b0017507513736e75fa53b27b',1,'client.qc']]],
   ['offhand_5fblaster',['OFFHAND_BLASTER',['../d6/d80/blaster_8qh.html#a22fd8be07e30f1e4fb8ba1fa4b19ba06',1,'blaster.qh']]],
   ['offhand_5fhook',['OFFHAND_HOOK',['../d5/dc4/hook_8qh.html#a26c1ac788f42d8ea1729fee825f749fd',1,'hook.qh']]],
   ['offhand_5fthink',['offhand_think',['../d0/dbc/classOffhandWeapon.html#a3eebb9e4c20d2c338b773a030eca0ee0',1,'OffhandWeapon']]],

@@ -5,7 +5,7 @@ var searchData=
   ['obituary_5fweapondeath',['Obituary_WeaponDeath',['../d5/dac/g__damage_8qc.html#a54e85ad9f5560a23de3bd54026021b06',1,'Obituary_WeaponDeath(entity notif_target, float murder, int deathtype, string s1, string s2, string s3, float f1, float f2):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#a54e85ad9f5560a23de3bd54026021b06',1,'Obituary_WeaponDeath(entity notif_target, float murder, int deathtype, string s1, string s2, string s3, float f1, float f2):&#160;g_damage.qc']]],
   ['objerror',['objerror',['../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b',1,'menudefs.qc']]],
   ['observer',['Observer',['../de/dab/classObserver.html#a19c43f80a38a332a6f694783df3c9835',1,'Observer']]],
-  ['observerthink',['ObserverThink',['../df/dd7/server_2client_8qc.html#a0624045451f22564103dbb3878f77fd6',1,'client.qc']]],
+  ['observerorspectatorthink',['ObserverOrSpectatorThink',['../df/dd7/server_2client_8qc.html#aa3e6c71b0017507513736e75fa53b27b',1,'client.qc']]],
   ['offhand_5fthink',['offhand_think',['../d0/dbc/classOffhandWeapon.html#a3eebb9e4c20d2c338b773a030eca0ee0',1,'OffhandWeapon']]],
   ['ok_5fdropitem',['ok_DropItem',['../d8/d0c/sv__overkill_8qc.html#af9ffca40bf7744bacacbc7b729c20241',1,'sv_overkill.qc']]],
   ['ok_5fhandleitemwaypoints',['ok_HandleItemWaypoints',['../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2',1,'sv_overkill.qc']]],
