@@ -1,5 +1,6 @@
 var NAVTREEINDEX102 =
 {
+"db/d5a/classXonoticHUDPowerupsDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,197,72],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,197,69],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,197,68],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,197,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX102 =
 "db/d66/common_2gamemodes_2gamemode_2domination_2__mod_8qh.html":[2,0,1,3,0,5,1],
 "db/d66/common_2gamemodes_2gamemode_2domination_2__mod_8qh_source.html":[2,0,1,3,0,5,1],
 "db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc.html":[2,0,1,10,0,36,0],
-"db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc_source.html":[2,0,1,10,0,36,0],
-"db/d6b/okrpc_8qh.html":[2,0,1,10,0,23,11]
+"db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc_source.html":[2,0,1,10,0,36,0]
 };

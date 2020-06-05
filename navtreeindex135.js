@@ -1,5 +1,6 @@
 var NAVTREEINDEX135 =
 {
+"df/d4c/server_2pathlib_2main_8qc.html#a83274351e21299627f57002cc1c755a0":[2,0,6,4,8,12],
 "df/d4c/server_2pathlib_2main_8qc.html#a928781de46c90ca77a40c7ece2a97535":[2,0,6,4,8,7],
 "df/d4c/server_2pathlib_2main_8qc.html#aaf14e8a6c9d0ac123bf0b6227b4fb61c":[2,0,6,4,8,10],
 "df/d4c/server_2pathlib_2main_8qc.html#aafdfe027f39c9b60fb5f165a9a000784":[2,0,6,4,8,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX135 =
 "df/d75/keybinder_8qc.html#ab0947edc01b04773d3a03c7e3dda2fb0":[2,0,5,4,176,11],
 "df/d75/keybinder_8qc.html#ab790b3f9d53e8393b4c6b1bcb617ea4e":[2,0,5,4,176,3],
 "df/d75/keybinder_8qc.html#ab7971f47e57806c3692c50905b0f99be":[2,0,5,4,176,16],
-"df/d75/keybinder_8qc.html#abeb43a2ba74e131149bca30e59f10e5c":[2,0,5,4,176,29],
-"df/d75/keybinder_8qc.html#ac0ad577819664f2be83d88a62d28d1e2":[2,0,5,4,176,22]
+"df/d75/keybinder_8qc.html#abeb43a2ba74e131149bca30e59f10e5c":[2,0,5,4,176,29]
 };
