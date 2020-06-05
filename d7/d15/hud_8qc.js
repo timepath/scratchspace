@@ -1,9 +1,10 @@
 var hud_8qc =
 [
+    [ "CASE_COLOR_BETWEEN", "d7/d15/hud_8qc.html#adfe54251d2fc3e5ec43813389afc2e48", null ],
     [ "DrawNumIcon", "d7/d15/hud_8qc.html#a7b6e84742c9baae35fde5975fb825116", null ],
     [ "DrawNumIcon_expanding", "d7/d15/hud_8qc.html#a7526fd85f93fc7af908af59a70d07467", null ],
     [ "Hud_Dynamic_Frame", "d7/d15/hud_8qc.html#ad7ec85390e221721fcceeff66b7f663f", null ],
-    [ "HUD_Get_Num_Color", "d7/d15/hud_8qc.html#a5d06b2c0927a58902e9277944eaec891", null ],
+    [ "HUD_Get_Num_Color", "d7/d15/hud_8qc.html#aef289caaf8448f5aa05b3c86b9474554", null ],
     [ "HUD_GetRowCount", "d7/d15/hud_8qc.html#aa2a5280f52a32d302277253736cc04bb", null ],
     [ "HUD_GetTableSize_BestItemAR", "d7/d15/hud_8qc.html#abed4aa2c37e69cf8b4fdeab69c7e0076", null ],
     [ "HUD_Main", "d7/d15/hud_8qc.html#a8e30e71e308ccc423418bb41350e3e05", null ],

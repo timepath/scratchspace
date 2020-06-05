@@ -20,7 +20,7 @@ var hud_8qh =
     [ "DrawNumIcon_expanding", "d3/d05/hud_8qh.html#a7526fd85f93fc7af908af59a70d07467", null ],
     [ "entityclass", "d3/d05/hud_8qh.html#ab9da54f562553a185fe2c9db8d7d010f", null ],
     [ "Hud_Dynamic_Frame", "d3/d05/hud_8qh.html#ad7ec85390e221721fcceeff66b7f663f", null ],
-    [ "HUD_Get_Num_Color", "d3/d05/hud_8qh.html#a5d06b2c0927a58902e9277944eaec891", null ],
+    [ "HUD_Get_Num_Color", "d3/d05/hud_8qh.html#aef289caaf8448f5aa05b3c86b9474554", null ],
     [ "HUD_GetRowCount", "d3/d05/hud_8qh.html#aa2a5280f52a32d302277253736cc04bb", null ],
     [ "HUD_GetTableSize_BestItemAR", "d3/d05/hud_8qh.html#abed4aa2c37e69cf8b4fdeab69c7e0076", null ],
     [ "HUD_ItemsTime", "d3/d05/hud_8qh.html#a9b99031dd1dc8583ab9379bf05b9acee", null ],
