@@ -1,7 +1,7 @@
 var searchData=
 [
   ['uid2name_5fdialog',['uid2name_dialog',['../d9/d08/client_2defs_8qh.html#aefcc49bccd6f180d68d17fd01a7fed66',1,'defs.qh']]],
-  ['unaccounted_5fdamage',['unaccounted_damage',['../d6/dd3/view_8qc.html#a1de1360295996dacb39d141955580aac',1,'view.qc']]],
+  ['unaccounted_5fdamage',['unaccounted_damage',['../d5/d8c/view_8qh.html#a1de1360295996dacb39d141955580aac',1,'view.qh']]],
   ['unstick_5ffine',['UNSTICK_FINE',['../d4/dd7/movetypes_8qh.html#a41b3403d019e66765768235463b4c610',1,'movetypes.qh']]],
   ['unstick_5ffixed',['UNSTICK_FIXED',['../d4/dd7/movetypes_8qh.html#ad8c36f0339fc62ca37ab55728fc1d0db',1,'movetypes.qh']]],
   ['unstick_5fstuck',['UNSTICK_STUCK',['../d4/dd7/movetypes_8qh.html#aa34c3cc0054de37e2ff93a91038fb147',1,'movetypes.qh']]],
@@ -37,7 +37,7 @@ var searchData=
   ['url_5fverb',['url_verb',['../d6/d38/urllib_8qc.html#aede03c2c907aba6df600c6d0328109fe',1,'urllib.qc']]],
   ['url_5fwbuf',['url_wbuf',['../d6/d38/urllib_8qc.html#a78673fcb736c083aa327582fd8548018',1,'urllib.qc']]],
   ['url_5fwbufpos',['url_wbufpos',['../d6/d38/urllib_8qc.html#ab036a2a5fbdea1feebad565380d92638',1,'urllib.qc']]],
-  ['use_5fvortex_5fchargepool',['use_vortex_chargepool',['../d6/dd3/view_8qc.html#a4dde50b10f1ffcdb861ea635e67e4fe5',1,'view.qc']]],
+  ['use_5fvortex_5fchargepool',['use_vortex_chargepool',['../de/d23/crosshair_8qc.html#a4dde50b10f1ffcdb861ea635e67e4fe5',1,'crosshair.qc']]],
   ['usedownaschecked',['useDownAsChecked',['../dd/df9/classCheckBox.html#aff20d1ead9e7a482eca46d913e6986a1',1,'CheckBox::useDownAsChecked()'],['../d1/d33/classXonoticColorButton.html#a9faf7db1c7cbe6f1f35a5103d70dad01',1,'XonoticColorButton::useDownAsChecked()']]],
   ['usekeypressed',['usekeypressed',['../d1/d37/classClient.html#a53ebb19cee46f4709b3d88a1434e5b93',1,'Client']]]
 ];

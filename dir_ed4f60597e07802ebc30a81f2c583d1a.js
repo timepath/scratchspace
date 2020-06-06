@@ -3,6 +3,8 @@ var dir_ed4f60597e07802ebc30a81f2c583d1a =
     [ "panel", "dir_026fecbde05aca2ce3aaca1260d474bc.html", "dir_026fecbde05aca2ce3aaca1260d474bc" ],
     [ "_mod.inc", "db/dab/client_2hud_2__mod_8inc.html", null ],
     [ "_mod.qh", "d6/da3/client_2hud_2__mod_8qh.html", null ],
+    [ "crosshair.qc", "de/d23/crosshair_8qc.html", "de/d23/crosshair_8qc" ],
+    [ "crosshair.qh", "df/d7f/crosshair_8qh.html", "df/d7f/crosshair_8qh" ],
     [ "hud.qc", "d7/d15/hud_8qc.html", "d7/d15/hud_8qc" ],
     [ "hud.qh", "d3/d05/hud_8qh.html", "d3/d05/hud_8qh" ],
     [ "hud_config.qc", "dc/d90/hud__config_8qc.html", "dc/d90/hud__config_8qc" ],

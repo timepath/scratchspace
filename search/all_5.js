@@ -104,7 +104,7 @@ var searchData=
   ['endswith',['endsWith',['../d2/db4/string_8qh.html#a17ef0c21cbd07ec53d7dee826fa3814d',1,'string.qh']]],
   ['enemy',['enemy',['../d6/db0/sv__ctf_8qh.html#a9bdd141f634714eab30642bf42f63862',1,'enemy():&#160;sv_ctf.qh'],['../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862',1,'enemy():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862',1,'enemy():&#160;progsdefs.qc'],['../d1/d6a/lib_2warpzone_2common_8qc.html#a9bdd141f634714eab30642bf42f63862',1,'enemy():&#160;common.qc']]],
   ['enemy_5fplayerid',['enemy_playerid',['../da/de5/sv__domination_8qh.html#a51412bf2f106037d2831e7ed0bcc917a',1,'sv_domination.qh']]],
-  ['enemyhitcheck',['EnemyHitCheck',['../d6/dd3/view_8qc.html#a2267e78c3964ccff16a7c2135a595efd',1,'view.qc']]],
+  ['enemyhitcheck',['EnemyHitCheck',['../de/d23/crosshair_8qc.html#a2267e78c3964ccff16a7c2135a595efd',1,'crosshair.qc']]],
   ['engine_5fevent',['ENGINE_EVENT',['../d3/dd0/self_8qh.html#ab666435fc4955cc75aebf3360ee86861',1,'self.qh']]],
   ['engineinfo_2eqc',['engineinfo.qc',['../dd/d31/engineinfo_8qc.html',1,'']]],
   ['engineinfo_2eqh',['engineinfo.qh',['../d5/ded/engineinfo_8qh.html',1,'']]],

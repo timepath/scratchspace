@@ -182,7 +182,7 @@ var searchData=
   ['restart_5fmapalreadyrestarted',['restart_mapalreadyrestarted',['../d7/d16/server_2command_2vote_8qh.html#aac1c8bfc2334457dda05c5f27388dac4',1,'vote.qh']]],
   ['restriction',['restriction',['../d5/d26/server_2defs_8qh.html#a25d514a9020c819c7c060d0dd4db8d73',1,'defs.qh']]],
   ['result',['result',['../d2/dce/promise_8qc.html#a249614263d20d2a581e3745646d36c59',1,'promise.qc']]],
-  ['reticle_5ftype',['reticle_type',['../d6/dd3/view_8qc.html#a8e6e68292e567e79d51bb749a4f20edf',1,'view.qc']]],
+  ['reticle_5ftype',['reticle_type',['../de/d23/crosshair_8qc.html#a8e6e68292e567e79d51bb749a4f20edf',1,'crosshair.qc']]],
   ['return',['return',['../d0/d5d/classAnimation.html#a9b86cc8c21e6c4051880c253d767d2c7',1,'Animation']]],
   ['return_5fdamage',['RETURN_DAMAGE',['../d6/db0/sv__ctf_8qh.html#a1a73f66b0f236e4ef9c6e3d77196b31e',1,'sv_ctf.qh']]],
   ['return_5fdropped',['RETURN_DROPPED',['../d6/db0/sv__ctf_8qh.html#ac8c113774d00099cba6b11f000e3a240',1,'sv_ctf.qh']]],

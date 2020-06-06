@@ -58,7 +58,7 @@ var searchData=
   ['highlightedpanel_5finitial_5fpos',['highlightedPanel_initial_pos',['../dc/d90/hud__config_8qc.html#a5f192ffd4f432cd17da4ee085a974ca8',1,'hud_config.qc']]],
   ['highlightedpanel_5finitial_5fsize',['highlightedPanel_initial_size',['../dc/d90/hud__config_8qc.html#ab2a385344d8bacc9b73beeaa4eebbb05',1,'hud_config.qc']]],
   ['hit_5ftime',['hit_time',['../de/d0c/classDamageText.html#aca8978475a45b3a88f27984419c2d7c8',1,'DamageText']]],
-  ['hitindication_5fcrosshair_5fsize',['hitindication_crosshair_size',['../d6/dd3/view_8qc.html#add6b8340e63823af3e2d024dabc0032d',1,'view.qc']]],
+  ['hitindication_5fcrosshair_5fsize',['hitindication_crosshair_size',['../de/d23/crosshair_8qc.html#add6b8340e63823af3e2d024dabc0032d',1,'crosshair.qc']]],
   ['hitplotfh',['hitplotfh',['../d1/d37/classClient.html#a90aeb156a3cfabccc0d276e33438fcfd',1,'Client::hitplotfh()'],['../dc/d8b/hitplot_8qh.html#a0dec3059937cd4f1b051bffe2632a6a6',1,'hitplotfh():&#160;hitplot.qh']]],
   ['hittype_5farmorpierce',['HITTYPE_ARMORPIERCE',['../d9/d4f/deathtypes_2all_8qh.html#a4de07202894d6687c6df67891c6e2b0a',1,'all.qh']]],
   ['hittype_5fbounce',['HITTYPE_BOUNCE',['../d9/d4f/deathtypes_2all_8qh.html#a711c18b27d2eef6958316442f830587d',1,'all.qh']]],
