@@ -78,6 +78,7 @@ var classXonoticGameMessageSettingsTab =
     [ "marginLeft", "db/d5b/classXonoticGameMessageSettingsTab.html#a4ad8d403de20048384fe85b379309436", null ],
     [ "marginRight", "db/d5b/classXonoticGameMessageSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e", null ],
     [ "marginTop", "db/d5b/classXonoticGameMessageSettingsTab.html#a09d90e607936c09918d9bad2674f57a1", null ],
+    [ "name", "db/d5b/classXonoticGameMessageSettingsTab.html#ae4426a36e8331724eb95f243e6e1dc4c", null ],
     [ "origin", "db/d5b/classXonoticGameMessageSettingsTab.html#ab5c3d70f864a91b95cf2d3685bca5308", null ],
     [ "preferredFocusPriority", "db/d5b/classXonoticGameMessageSettingsTab.html#aad099a0549928c37867d05a5dde2a511", null ],
     [ "requiresConnection", "db/d5b/classXonoticGameMessageSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c", null ],

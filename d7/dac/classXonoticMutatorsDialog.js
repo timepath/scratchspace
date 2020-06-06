@@ -77,6 +77,7 @@ var classXonoticMutatorsDialog =
     [ "marginLeft", "d7/dac/classXonoticMutatorsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4", null ],
     [ "marginRight", "d7/dac/classXonoticMutatorsDialog.html#a6c7f4bc35b82f907bf4b96bef084f045", null ],
     [ "marginTop", "d7/dac/classXonoticMutatorsDialog.html#a9d7b522cc231d6e1c83c955dc581fc58", null ],
+    [ "name", "d7/dac/classXonoticMutatorsDialog.html#ae4426a36e8331724eb95f243e6e1dc4c", null ],
     [ "origin", "d7/dac/classXonoticMutatorsDialog.html#ab5c3d70f864a91b95cf2d3685bca5308", null ],
     [ "preferredFocusPriority", "d7/dac/classXonoticMutatorsDialog.html#aad099a0549928c37867d05a5dde2a511", null ],
     [ "requiresConnection", "d7/dac/classXonoticMutatorsDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c", null ],

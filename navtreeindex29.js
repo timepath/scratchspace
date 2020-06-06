@@ -1,5 +1,15 @@
 var NAVTREEINDEX29 =
 {
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,191,65],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,191,71],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,191,75],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,191,63],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#aa850350134b14fb6ad30eaa741f75fae":[1,0,191,57],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,191,64],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,191,9],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,191,78],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,191,77],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,191,34],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,191,5],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,191,88],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,191,42],
@@ -239,15 +249,5 @@ var NAVTREEINDEX29 =
 "d3/da9/classMineLayer.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,76,1],
 "d3/da9/classMineLayer.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,76,24],
 "d3/da9/classMineLayer.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,76,15],
-"d3/da9/classMineLayer.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,76,13],
-"d3/da9/classMineLayer.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,76,6],
-"d3/da9/classMineLayer.html#ab69c7a7956de2f9b43ba243a94285f6b":[1,0,76,26],
-"d3/da9/classMineLayer.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,76,11],
-"d3/da9/classMineLayer.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,76,8],
-"d3/da9/classMineLayer.html#ac72896c0e96c0f0bf6c088cb153ca74e":[1,0,76,28],
-"d3/da9/classMineLayer.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,76,3],
-"d3/da9/classMineLayer.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,76,38],
-"d3/da9/classMineLayer.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,76,23],
-"d3/da9/classMineLayer.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,76,18],
-"d3/da9/classMineLayer.html#af922e49df9b6ab1700cdb2d3f3bbb9d5":[1,0,76,31]
+"d3/da9/classMineLayer.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,76,13]
 };

@@ -77,6 +77,7 @@ var classXonoticInputSettingsTab =
     [ "marginLeft", "d2/dd6/classXonoticInputSettingsTab.html#a4ad8d403de20048384fe85b379309436", null ],
     [ "marginRight", "d2/dd6/classXonoticInputSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e", null ],
     [ "marginTop", "d2/dd6/classXonoticInputSettingsTab.html#a09d90e607936c09918d9bad2674f57a1", null ],
+    [ "name", "d2/dd6/classXonoticInputSettingsTab.html#ae4426a36e8331724eb95f243e6e1dc4c", null ],
     [ "origin", "d2/dd6/classXonoticInputSettingsTab.html#ab5c3d70f864a91b95cf2d3685bca5308", null ],
     [ "preferredFocusPriority", "d2/dd6/classXonoticInputSettingsTab.html#aad099a0549928c37867d05a5dde2a511", null ],
     [ "requiresConnection", "d2/dd6/classXonoticInputSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c", null ],

@@ -73,6 +73,7 @@ var classDialog =
     [ "marginLeft", "dc/d06/classDialog.html#a634646fdc3d14fa0d3fcdc8cc5eb5d97", null ],
     [ "marginRight", "dc/d06/classDialog.html#a9169dbbdef945eb5e816a6b4028caec2", null ],
     [ "marginTop", "dc/d06/classDialog.html#ab0e881d7112bc58e4284fabfcb02410d", null ],
+    [ "name", "dc/d06/classDialog.html#ae4426a36e8331724eb95f243e6e1dc4c", null ],
     [ "origin", "dc/d06/classDialog.html#ab5c3d70f864a91b95cf2d3685bca5308", null ],
     [ "preferredFocusPriority", "dc/d06/classDialog.html#aad099a0549928c37867d05a5dde2a511", null ],
     [ "requiresConnection", "dc/d06/classDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c", null ],

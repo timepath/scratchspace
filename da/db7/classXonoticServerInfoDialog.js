@@ -106,6 +106,7 @@ var classXonoticServerInfoDialog =
     [ "marginLeft", "da/db7/classXonoticServerInfoDialog.html#a43fb32477dda33aabffb54ad7ae67ad4", null ],
     [ "marginRight", "da/db7/classXonoticServerInfoDialog.html#a6c7f4bc35b82f907bf4b96bef084f045", null ],
     [ "marginTop", "da/db7/classXonoticServerInfoDialog.html#a9d7b522cc231d6e1c83c955dc581fc58", null ],
+    [ "name", "da/db7/classXonoticServerInfoDialog.html#ae4426a36e8331724eb95f243e6e1dc4c", null ],
     [ "origin", "da/db7/classXonoticServerInfoDialog.html#ab5c3d70f864a91b95cf2d3685bca5308", null ],
     [ "preferredFocusPriority", "da/db7/classXonoticServerInfoDialog.html#aad099a0549928c37867d05a5dde2a511", null ],
     [ "requiresConnection", "da/db7/classXonoticServerInfoDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c", null ],

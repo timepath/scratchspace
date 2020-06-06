@@ -11,7 +11,6 @@ var crosshair_8qc =
     [ "TrueAim_Init", "de/d23/crosshair_8qc.html#a468fbc523e176ec4adf829a18606b5f6", null ],
     [ "TrueAimCheck", "de/d23/crosshair_8qc.html#ada8e157cb058a1a9ae9141acda5a4d85", null ],
     [ "hitindication_crosshair_size", "de/d23/crosshair_8qc.html#add6b8340e63823af3e2d024dabc0032d", null ],
-    [ "MAX_TIME_DIFF", "de/d23/crosshair_8qc.html#a3b2570f7e3d94fb176257491a9fe220a", null ],
     [ "pickup_crosshair_size", "de/d23/crosshair_8qc.html#a1afd02b330a8504e37c4bcf9cb8aa019", null ],
     [ "pickup_crosshair_time", "de/d23/crosshair_8qc.html#a4139dcc8a682c3e71ccc20d5771da397", null ],
     [ "reticle_type", "de/d23/crosshair_8qc.html#a8e6e68292e567e79d51bb749a4f20edf", null ],

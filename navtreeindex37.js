@@ -1,5 +1,17 @@
 var NAVTREEINDEX37 =
 {
+"d4/d17/classVortex.html#a5aeb444609121008d9fceaf964badf7c":[1,0,140,34],
+"d4/d17/classVortex.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,140,10],
+"d4/d17/classVortex.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,140,9],
+"d4/d17/classVortex.html#a7515d4131829927372fd6583d4ae610a":[1,0,140,0],
+"d4/d17/classVortex.html#a7a98b6f53b6194fa1f69a350b51051ee":[1,0,140,39],
+"d4/d17/classVortex.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,140,30],
+"d4/d17/classVortex.html#a80fa9a65e19370473a29baebc04d0626":[1,0,140,5],
+"d4/d17/classVortex.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,140,7],
+"d4/d17/classVortex.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,140,25],
+"d4/d17/classVortex.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,140,14],
+"d4/d17/classVortex.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,140,1],
+"d4/d17/classVortex.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,140,24],
 "d4/d17/classVortex.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,140,15],
 "d4/d17/classVortex.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,140,13],
 "d4/d17/classVortex.html#aae90c5f91d3d02c37c4a62c47684659a":[1,0,140,36],
@@ -237,17 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d3b/classXonoticBigButton.html#a29ef318627232b8879b7e81131f937f7":[1,0,149,2],
 "d4/d3b/classXonoticBigButton.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,149,12],
 "d4/d3b/classXonoticBigButton.html#a30e76204a36bc7d61d806aad8f0c5ced":[1,0,149,18],
-"d4/d3b/classXonoticBigButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,149,72],
-"d4/d3b/classXonoticBigButton.html#a35765335b88ee4489504808bf8bbda78":[1,0,149,56],
-"d4/d3b/classXonoticBigButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,149,67],
-"d4/d3b/classXonoticBigButton.html#a3a88ebd44b9abf22558ee9a6cfaf03dd":[1,0,149,73],
-"d4/d3b/classXonoticBigButton.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,149,58],
-"d4/d3b/classXonoticBigButton.html#a3f9c5e6943891f335099fe380661b70c":[1,0,149,28],
-"d4/d3b/classXonoticBigButton.html#a476349ed1a0d044310253e867c496c16":[1,0,149,42],
-"d4/d3b/classXonoticBigButton.html#a47ec54ba5a75b70927a3e25a09e6d5ea":[1,0,149,16],
-"d4/d3b/classXonoticBigButton.html#a4985255a6e0984252ab7ccedd6347d5b":[1,0,149,40],
-"d4/d3b/classXonoticBigButton.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,149,68],
-"d4/d3b/classXonoticBigButton.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,149,17],
-"d4/d3b/classXonoticBigButton.html#a4bc36460031aeb99fc60b108f2f22f19":[1,0,149,62],
-"d4/d3b/classXonoticBigButton.html#a4cec67ef8bea911bbbe8e837e8c1f4fe":[1,0,149,71]
+"d4/d3b/classXonoticBigButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,149,72]
 };

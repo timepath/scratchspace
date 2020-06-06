@@ -75,6 +75,7 @@ var classTab =
     [ "marginLeft", "de/d9c/classTab.html#a496c49a1de4715396cc3c7670deef632", null ],
     [ "marginRight", "de/d9c/classTab.html#af8e5453e9d6c54a85f4d8fb75d53105f", null ],
     [ "marginTop", "de/d9c/classTab.html#a11574f926044e338cc7521ef87900777", null ],
+    [ "name", "de/d9c/classTab.html#ae4426a36e8331724eb95f243e6e1dc4c", null ],
     [ "origin", "de/d9c/classTab.html#ab5c3d70f864a91b95cf2d3685bca5308", null ],
     [ "preferredFocusPriority", "de/d9c/classTab.html#aad099a0549928c37867d05a5dde2a511", null ],
     [ "requiresConnection", "de/d9c/classTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c", null ],

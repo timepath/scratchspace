@@ -78,6 +78,7 @@ var classXonoticProfileTab =
     [ "marginLeft", "dc/de2/classXonoticProfileTab.html#a4ad8d403de20048384fe85b379309436", null ],
     [ "marginRight", "dc/de2/classXonoticProfileTab.html#ad991d2be28417ee9ed2433f582cd910e", null ],
     [ "marginTop", "dc/de2/classXonoticProfileTab.html#a09d90e607936c09918d9bad2674f57a1", null ],
+    [ "name", "dc/de2/classXonoticProfileTab.html#ae4426a36e8331724eb95f243e6e1dc4c", null ],
     [ "origin", "dc/de2/classXonoticProfileTab.html#ab5c3d70f864a91b95cf2d3685bca5308", null ],
     [ "playerNameLabelAlpha", "dc/de2/classXonoticProfileTab.html#ac3c838b05ff720f5612dbddb8121170f", null ],
     [ "preferredFocusPriority", "dc/de2/classXonoticProfileTab.html#aad099a0549928c37867d05a5dde2a511", null ],

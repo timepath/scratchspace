@@ -1,5 +1,16 @@
 var NAVTREEINDEX33 =
 {
+"d3/de3/sv__domination_8qc.html#ae336684bd379b3fd72cf71faa9f5d694":[2,0,1,3,0,5,6,34],
+"d3/de3/sv__domination_8qc_source.html":[2,0,1,3,0,5,6],
+"d3/de9/damageeffects_8qh.html":[2,0,1,2,0,5],
+"d3/de9/damageeffects_8qh_source.html":[2,0,1,2,0,5],
+"d3/dea/lib_2matrix_2__mod_8qh.html":[2,0,4,1,1],
+"d3/dea/lib_2matrix_2__mod_8qh_source.html":[2,0,4,1,1],
+"d3/deb/dialog__multiplayer__media_8qh.html":[2,0,5,4,101],
+"d3/deb/dialog__multiplayer__media_8qh.html#a048e9d55578bbd55fa3acb96f76ad670":[2,0,5,4,101,1],
+"d3/deb/dialog__multiplayer__media_8qh_source.html":[2,0,5,4,101],
+"d3/dec/common_2mutators_2mutator_2instagib_2items_8qc.html":[2,0,1,10,0,12,2],
+"d3/dec/common_2mutators_2mutator_2instagib_2items_8qc_source.html":[2,0,1,10,0,12,2],
 "d3/def/sv__turrets_8qc.html":[2,0,1,14,11],
 "d3/def/sv__turrets_8qc_source.html":[2,0,1,14,11],
 "d3/df2/classDualPlasmaTurret.html":[1,0,31],
@@ -236,18 +247,7 @@ var NAVTREEINDEX33 =
 "d4/d0a/classXonoticMiscSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,217,9],
 "d4/d0a/classXonoticMiscSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,217,3],
 "d4/d0a/classXonoticMiscSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,217,76],
-"d4/d0a/classXonoticMiscSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,217,83],
+"d4/d0a/classXonoticMiscSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,217,84],
 "d4/d0a/classXonoticMiscSettingsTab.html#a0d70b85b390673511ff2dd8e70ae9154":[1,0,217,59],
-"d4/d0a/classXonoticMiscSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,217,80],
-"d4/d0a/classXonoticMiscSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,217,50],
-"d4/d0a/classXonoticMiscSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,217,28],
-"d4/d0a/classXonoticMiscSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,217,70],
-"d4/d0a/classXonoticMiscSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,217,11],
-"d4/d0a/classXonoticMiscSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,217,71],
-"d4/d0a/classXonoticMiscSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,217,4],
-"d4/d0a/classXonoticMiscSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,217,45],
-"d4/d0a/classXonoticMiscSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,217,23],
-"d4/d0a/classXonoticMiscSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,217,51],
-"d4/d0a/classXonoticMiscSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,217,31],
-"d4/d0a/classXonoticMiscSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,217,24]
+"d4/d0a/classXonoticMiscSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,217,81]
 };
