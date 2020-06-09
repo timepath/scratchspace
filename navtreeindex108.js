@@ -1,5 +1,8 @@
 var NAVTREEINDEX108 =
 {
+"db/ddb/classXonoticCvarList.html#a58dc85316d0b51cd21acd518930cc578":[1,0,165,57],
+"db/ddb/classXonoticCvarList.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,165,33],
+"db/ddb/classXonoticCvarList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,165,23],
 "db/ddb/classXonoticCvarList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,165,34],
 "db/ddb/classXonoticCvarList.html#a65253f3ac21bfcd270aaeefce4d9ac0d":[1,0,165,42],
 "db/ddb/classXonoticCvarList.html#a6655cecf0498a6f486b9e5ec31216462":[1,0,165,32],
@@ -246,8 +249,5 @@ var NAVTREEINDEX108 =
 "db/def/sort_8qh.html":[2,0,4,53],
 "db/def/sort_8qh.html#a3ddcb3e4e37b9c578711255f911c582b":[2,0,4,53,1],
 "db/def/sort_8qh.html#a5663a1e21360de2743b86ce2179eb1ca":[2,0,4,53,5],
-"db/def/sort_8qh.html#a819f1c3300f552419896b2c53088c05c":[2,0,4,53,4],
-"db/def/sort_8qh.html#acfadea3ab4515517029f36ef3dccb9a2":[2,0,4,53,2],
-"db/def/sort_8qh.html#ad8f0562632e6f98768f7b9201e0fe51e":[2,0,4,53,3],
-"db/def/sort_8qh.html#adbcf7bdce2adadeafd5773ee731de221":[2,0,4,53,0]
+"db/def/sort_8qh.html#a819f1c3300f552419896b2c53088c05c":[2,0,4,53,4]
 };

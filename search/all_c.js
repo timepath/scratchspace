@@ -258,6 +258,8 @@ var searchData=
   ['log_5fdebugf',['LOG_DEBUGF',['../db/da0/log_8qh.html#ad2f8b948e71ddedcb93c360f01351de3',1,'log.qh']]],
   ['log_5ffatal',['LOG_FATAL',['../db/da0/log_8qh.html#a89cecd05aeaafc715ebc091cf74d10fe',1,'log.qh']]],
   ['log_5ffatalf',['LOG_FATALF',['../db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80',1,'log.qh']]],
+  ['log_5fhelp',['LOG_HELP',['../db/da0/log_8qh.html#a0ae224140f2ba7aaf0f77df08bd31735',1,'log.qh']]],
+  ['log_5fhelpf',['LOG_HELPF',['../db/da0/log_8qh.html#a5dc23672a5a8377519a8b25a200adcda',1,'log.qh']]],
   ['log_5finfo',['LOG_INFO',['../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083',1,'log.qh']]],
   ['log_5finfof',['LOG_INFOF',['../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5',1,'log.qh']]],
   ['log_5fsevere',['LOG_SEVERE',['../db/da0/log_8qh.html#a8349e582c541a544b3eb5cfab6235dba',1,'log.qh']]],

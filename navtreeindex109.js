@@ -1,5 +1,8 @@
 var NAVTREEINDEX109 =
 {
+"db/def/sort_8qh.html#acfadea3ab4515517029f36ef3dccb9a2":[2,0,4,53,2],
+"db/def/sort_8qh.html#ad8f0562632e6f98768f7b9201e0fe51e":[2,0,4,53,3],
+"db/def/sort_8qh.html#adbcf7bdce2adadeafd5773ee731de221":[2,0,4,53,0],
 "db/def/sort_8qh_source.html":[2,0,4,53],
 "db/df4/phaser__weapon_8qh.html":[2,0,1,14,0,31],
 "db/df4/phaser__weapon_8qh.html#af020ecb932e64d90bbc980013cb9d3a2":[2,0,1,14,0,31,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX109 =
 "dc/d06/classDialog.html#a9169dbbdef945eb5e816a6b4028caec2":[1,0,29,71],
 "dc/d06/classDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,29,68],
 "dc/d06/classDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,29,60],
-"dc/d06/classDialog.html#aa159f566ac6fbcac38235794af37f876":[1,0,29,22],
-"dc/d06/classDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,29,16],
-"dc/d06/classDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,29,61],
-"dc/d06/classDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,29,9]
+"dc/d06/classDialog.html#aa159f566ac6fbcac38235794af37f876":[1,0,29,22]
 };
