@@ -17,7 +17,7 @@ var searchData=
   ['offhandblaster',['OffhandBlaster',['../df/df7/classOffhandBlaster.html',1,'']]],
   ['offhandhook',['OffhandHook',['../da/dde/classOffhandHook.html',1,'']]],
   ['offhandweapon',['OffhandWeapon',['../d0/dbc/classOffhandWeapon.html',1,'']]],
-  ['offset_5fcursor',['OFFSET_CURSOR',['../d0/d2a/client_2main_8qh.html#abe02bc8f982ce063f9878f9beae11f1b',1,'main.qh']]],
+  ['offset_5fcursor',['OFFSET_CURSOR',['../d3/d05/hud_8qh.html#abe02bc8f982ce063f9878f9beae11f1b',1,'hud.qh']]],
   ['offvalue',['offValue',['../db/d38/classXonoticSliderCheckBox.html#a4e5f3b4dda55b50588c4fb421585cf94',1,'XonoticSliderCheckBox']]],
   ['ok_5fdropitem',['ok_DropItem',['../d8/d0c/sv__overkill_8qc.html#af9ffca40bf7744bacacbc7b729c20241',1,'sv_overkill.qc']]],
   ['ok_5fhandleitemwaypoints',['ok_HandleItemWaypoints',['../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2',1,'sv_overkill.qc']]],

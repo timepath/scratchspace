@@ -1,5 +1,8 @@
 var NAVTREEINDEX102 =
 {
+"db/d5a/classXonoticHUDPowerupsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,197,28],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,197,44],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,197,54],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,197,84],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,197,1],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,197,37],
@@ -246,8 +249,5 @@ var NAVTREEINDEX102 =
 "db/d73/campaign__setup_8qc_source.html":[2,0,1,27],
 "db/d76/classXonoticHUDNotificationDialog.html":[1,0,195],
 "db/d76/classXonoticHUDNotificationDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,195,30],
-"db/d76/classXonoticHUDNotificationDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,195,11],
-"db/d76/classXonoticHUDNotificationDialog.html#a029b0d24c8b9db012cf07cbfcc7e717d":[1,0,195,57],
-"db/d76/classXonoticHUDNotificationDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,195,38],
-"db/d76/classXonoticHUDNotificationDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,195,3]
+"db/d76/classXonoticHUDNotificationDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,195,11]
 };

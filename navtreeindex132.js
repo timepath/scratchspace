@@ -1,5 +1,8 @@
 var NAVTREEINDEX132 =
 {
+"de/dcb/classMageSpike.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,73,27],
+"de/dcb/classMageSpike.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,73,18],
+"de/dcb/vector_8qh.html":[2,0,4,66],
 "de/dcb/vector_8qh.html#a050d55163b23ec6432f867b0dbc3d12d":[2,0,4,66,8],
 "de/dcb/vector_8qh.html#a10b5386494e6b2a6633409d330bdf639":[2,0,4,66,11],
 "de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a":[2,0,4,66,34],
@@ -246,8 +249,5 @@ var NAVTREEINDEX132 =
 "de/df3/raptor__weapons_8qc_source.html":[2,0,1,15,0,12],
 "de/df9/sv__items_8qh.html":[2,0,1,10,0,12,7],
 "de/df9/sv__items_8qh_source.html":[2,0,1,10,0,12,7],
-"de/dff/common_2gamemodes_2gamemode_2duel_2__mod_8inc.html":[2,0,1,3,0,6,0],
-"de/dff/common_2gamemodes_2gamemode_2duel_2__mod_8inc_source.html":[2,0,1,3,0,6,0],
-"deprecated.html":[0],
-"df/d00/sv__rocketminsta_8qc.html":[2,0,1,10,0,29,2]
+"de/dff/common_2gamemodes_2gamemode_2duel_2__mod_8inc.html":[2,0,1,3,0,6,0]
 };

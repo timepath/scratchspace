@@ -5,7 +5,7 @@ var searchData=
   ['object_5fflood',['object_flood',['../d3/d59/sv__sandbox_8qc.html#a53123d331fba777cd66f0c0a3a5e005e',1,'sv_sandbox.qc']]],
   ['offhand_5fblaster',['OFFHAND_BLASTER',['../d6/d80/blaster_8qh.html#a22fd8be07e30f1e4fb8ba1fa4b19ba06',1,'blaster.qh']]],
   ['offhand_5fhook',['OFFHAND_HOOK',['../d5/dc4/hook_8qh.html#a26c1ac788f42d8ea1729fee825f749fd',1,'hook.qh']]],
-  ['offset_5fcursor',['OFFSET_CURSOR',['../d0/d2a/client_2main_8qh.html#abe02bc8f982ce063f9878f9beae11f1b',1,'main.qh']]],
+  ['offset_5fcursor',['OFFSET_CURSOR',['../d3/d05/hud_8qh.html#abe02bc8f982ce063f9878f9beae11f1b',1,'hud.qh']]],
   ['offvalue',['offValue',['../db/d38/classXonoticSliderCheckBox.html#a4e5f3b4dda55b50588c4fb421585cf94',1,'XonoticSliderCheckBox']]],
   ['ok_5fitem',['ok_item',['../d9/dbc/sv__overkill_8qh.html#a45c2850f79fb413dfe83bd689f45115a',1,'sv_overkill.qh']]],
   ['ok_5flastwep',['ok_lastwep',['../d8/d0c/sv__overkill_8qc.html#a1f5b682ab4a4eb9896ca64778b726a80',1,'sv_overkill.qc']]],

@@ -1,6 +1,8 @@
 var hud_8qc =
 [
     [ "CASE_COLOR_BETWEEN", "d7/d15/hud_8qc.html#adfe54251d2fc3e5ec43813389afc2e48", null ],
+    [ "draw_cursor", "d7/d15/hud_8qc.html#a65d6b464164464ee7f99ceb0e0c16813", null ],
+    [ "draw_cursor_normal", "d7/d15/hud_8qc.html#a17432988ef7a28b058fec9318b29fea3", null ],
     [ "DrawNumIcon", "d7/d15/hud_8qc.html#a7b6e84742c9baae35fde5975fb825116", null ],
     [ "DrawNumIcon_expanding", "d7/d15/hud_8qc.html#a7526fd85f93fc7af908af59a70d07467", null ],
     [ "Hud_Dynamic_Frame", "d7/d15/hud_8qc.html#ad7ec85390e221721fcceeff66b7f663f", null ],
@@ -16,6 +18,7 @@ var hud_8qc =
     [ "Hud_Shake_Update", "d7/d15/hud_8qc.html#a346ca21750dc6c018430ab766d945da0", null ],
     [ "HUD_Vehicle", "d7/d15/hud_8qc.html#a769cb2e43233e88dc29540614e7a4e03", null ],
     [ "HUD_WouldShowCursor", "d7/d15/hud_8qc.html#a6ec7d131e953e75f57e7f49d6ad5f44e", null ],
+    [ "LoadMenuSkinValues", "d7/d15/hud_8qc.html#a626fa4f891c177f48176172aac58dc39", null ],
     [ "autocvar_hud_dynamic_shake", "d7/d15/hud_8qc.html#a059bf1ec85f2c301ebd508746966ffaa", null ],
     [ "autocvar_hud_dynamic_shake_damage_max", "d7/d15/hud_8qc.html#a016a0fcf08900a461b8f001adcd8ae38", null ],
     [ "autocvar_hud_dynamic_shake_damage_min", "d7/d15/hud_8qc.html#abf03db2bbdaaed29a0ddeaa24cd7d5a8", null ],

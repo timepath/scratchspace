@@ -214,7 +214,7 @@ var searchData=
   ['loadfromfile',['loadfromfile',['../d8/de2/menudefs_8qc.html#ab7497779c32f143447dcca70f6e1f266',1,'menudefs.qc']]],
   ['loadkeybinds',['loadKeyBinds',['../d4/d3f/classXonoticKeyBinder.html#a69905c942ded580dfb44df057bf1b312',1,'XonoticKeyBinder']]],
   ['loadmapinfo',['loadMapInfo',['../dc/da0/classXonoticMapInfoDialog.html#a1befcad575c9e2426fa1c958d3c4b31c',1,'XonoticMapInfoDialog']]],
-  ['loadmenuskinvalues',['LoadMenuSkinValues',['../df/d30/client_2main_8qc.html#a626fa4f891c177f48176172aac58dc39',1,'LoadMenuSkinValues():&#160;main.qc'],['../d0/d2a/client_2main_8qh.html#a626fa4f891c177f48176172aac58dc39',1,'LoadMenuSkinValues():&#160;main.qc']]],
+  ['loadmenuskinvalues',['LoadMenuSkinValues',['../d7/d15/hud_8qc.html#a626fa4f891c177f48176172aac58dc39',1,'LoadMenuSkinValues():&#160;hud.qc'],['../d3/d05/hud_8qh.html#a626fa4f891c177f48176172aac58dc39',1,'LoadMenuSkinValues():&#160;hud.qc']]],
   ['loadmodels',['loadModels',['../da/d6d/classXonoticPlayerModelSelector.html#a69450d9a5feb7ca8c3b235037d27c90e',1,'XonoticPlayerModelSelector']]],
   ['loadplayersounds',['LoadPlayerSounds',['../d9/d45/globalsound_8qc.html#a3e65432ddf30f6729addae6c2bf79de9',1,'LoadPlayerSounds(entity this, string f, bool strict):&#160;globalsound.qc'],['../df/d6e/globalsound_8qh.html#aa8995e359d6a413aa46221e3bb3e9ba7',1,'LoadPlayerSounds(entity this, string f, bool strict):&#160;globalsound.qc']]],
   ['loadpreviewscreenshot',['loadPreviewScreenshot',['../d9/d37/classXonoticScreenshotBrowserTab.html#ab3410097f72fc242ab699f5adbf370df',1,'XonoticScreenshotBrowserTab']]],

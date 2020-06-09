@@ -1,5 +1,8 @@
 var NAVTREEINDEX108 =
 {
+"db/ddb/classXonoticCvarList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,165,34],
+"db/ddb/classXonoticCvarList.html#a65253f3ac21bfcd270aaeefce4d9ac0d":[1,0,165,42],
+"db/ddb/classXonoticCvarList.html#a6655cecf0498a6f486b9e5ec31216462":[1,0,165,32],
 "db/ddb/classXonoticCvarList.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,165,1],
 "db/ddb/classXonoticCvarList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,165,62],
 "db/ddb/classXonoticCvarList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,165,35],
@@ -246,8 +249,5 @@ var NAVTREEINDEX108 =
 "db/def/sort_8qh.html#a819f1c3300f552419896b2c53088c05c":[2,0,4,53,4],
 "db/def/sort_8qh.html#acfadea3ab4515517029f36ef3dccb9a2":[2,0,4,53,2],
 "db/def/sort_8qh.html#ad8f0562632e6f98768f7b9201e0fe51e":[2,0,4,53,3],
-"db/def/sort_8qh.html#adbcf7bdce2adadeafd5773ee731de221":[2,0,4,53,0],
-"db/def/sort_8qh_source.html":[2,0,4,53],
-"db/df4/phaser__weapon_8qh.html":[2,0,1,14,0,31],
-"db/df4/phaser__weapon_8qh.html#af020ecb932e64d90bbc980013cb9d3a2":[2,0,1,14,0,31,1]
+"db/def/sort_8qh.html#adbcf7bdce2adadeafd5773ee731de221":[2,0,4,53,0]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX79 =
 {
+"d8/da8/xonotic_2nexposee_8qc.html#a9833815002daf195b9504b81ea2f6201":[2,0,5,4,186,1],
+"d8/da8/xonotic_2nexposee_8qc.html#acbf99fec3021aba45d363ac614a588cc":[2,0,5,4,186,2],
+"d8/da8/xonotic_2nexposee_8qc.html#ae25f64a5661a1f208a0bd0f671331303":[2,0,5,4,186,0],
 "d8/da8/xonotic_2nexposee_8qc_source.html":[2,0,5,4,186],
 "d8/dae/music_8qc.html":[2,0,1,6,2,10],
 "d8/dae/music_8qc_source.html":[2,0,1,6,2,10],
@@ -246,8 +249,5 @@ var NAVTREEINDEX79 =
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a9cd8b67897502db6ffb0af84565a9698":[2,0,1,10,0,39,3,16],
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#aa7e8dbd05d5f51932cd2372101938bf1":[2,0,1,10,0,39,3,4],
 "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#aaa0f988701dbafcda468124fd8a423a8":[2,0,1,10,0,39,3,2],
-"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#ac534dfd1c9dfa2a364aa7b73eb0a66e8":[2,0,1,10,0,39,3,10],
-"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#acd1023667128c7b2700ec9843069b95b":[2,0,1,10,0,39,3,18],
-"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#ae061f2af24dd0ba16f8779dff011e399":[2,0,1,10,0,39,3,9],
-"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#aee58ab3c2b2221c72bff8efa74da352a":[2,0,1,10,0,39,3,19]
+"d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#ac534dfd1c9dfa2a364aa7b73eb0a66e8":[2,0,1,10,0,39,3,10]
 };

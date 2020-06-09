@@ -1,10 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"d1/d39/classXonoticTeamSelectDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,256,32],
-"d1/d39/classXonoticTeamSelectDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,256,48],
-"d1/d39/classXonoticTeamSelectDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,256,58],
-"d1/d39/classXonoticTeamSelectDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,256,88],
-"d1/d39/classXonoticTeamSelectDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,256,1],
 "d1/d39/classXonoticTeamSelectDialog.html#a3f00ca32ce8d459624c340719046ed33":[1,0,256,26],
 "d1/d39/classXonoticTeamSelectDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,256,41],
 "d1/d39/classXonoticTeamSelectDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,256,16],
@@ -249,5 +244,10 @@ var NAVTREEINDEX9 =
 "d1/d52/spiderbot_8qh.html#a4ed523c7dd3ce374cd0be420899e8f8f":[2,0,1,15,0,15,1],
 "d1/d52/spiderbot_8qh_source.html":[2,0,1,15,0,15],
 "d1/d55/classXonoticGameHUDSettingsTab.html":[1,0,178],
-"d1/d55/classXonoticGameHUDSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,178,34]
+"d1/d55/classXonoticGameHUDSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,178,34],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,178,15],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,178,42],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,178,9],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,178,3],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,178,76]
 };
