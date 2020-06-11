@@ -19,7 +19,7 @@ var server_2defs_8qh =
     [ "Damage", "d5/d26/server_2defs_8qh.html#a1ca977fd4fb6900884c2cea28062c8a7", null ],
     [ "FixClientCvars", "d5/d26/server_2defs_8qh.html#a63b8eac90f2650512291bfaa482f9732", null ],
     [ "FixIntermissionClient", "d5/d26/server_2defs_8qh.html#a15fcd02eea3f51317f896a817e6c3431", null ],
-    [ "nJoinAllowed", "d5/d26/server_2defs_8qh.html#aef16dc092f69453b716c91d06060d635", null ],
+    [ "nJoinAllowed", "d5/d26/server_2defs_8qh.html#a7ffadf58adc998f1bedeafa971290500", null ],
     [ "player_setupanimsformodel", "d5/d26/server_2defs_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1", null ],
     [ "PlayerUseKey", "d5/d26/server_2defs_8qh.html#a457d60bc0a50d32a90da5a3acb9e8db1", null ],
     [ "STATIC_INIT", "d5/d26/server_2defs_8qh.html#ac3dfc179547394bd55485e83ee947d50", null ],

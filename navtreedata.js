@@ -76,7 +76,7 @@ var NAVTREEINDEX =
 "d4/dbb/centerprint_8qc.html#a9d429dfaf1247cbecc4b4fd149899e03",
 "d4/dee/dialog__disconnect_8qc_source.html",
 "d5/d26/server_2defs_8qh.html#a034d7dc235642e26bd4ecc95532ed089",
-"d5/d26/server_2defs_8qh.html#aef16dc092f69453b716c91d06060d635",
+"d5/d26/server_2defs_8qh.html#aed51894adcba9645d9239d004bc332e0",
 "d5/d6c/classXonoticHUDSkinList.html#a3a327a0d630ad33e49b9d48b8a3c9f55",
 "d5/d95/classXonoticDialog.html#a198d31b696946a3a688d2c943f509799",
 "d5/dac/g__damage_8qc.html#ac8e7365380b51642cac52fd3e70733aa",
