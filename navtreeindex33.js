@@ -1,6 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"d3/de3/sv__domination_8qc.html#ae2bad2494b8ccaf3e085a9b85a46a300":[2,0,1,3,0,5,6,13],
 "d3/de3/sv__domination_8qc.html#ae336684bd379b3fd72cf71faa9f5d694":[2,0,1,3,0,5,6,34],
 "d3/de3/sv__domination_8qc_source.html":[2,0,1,3,0,5,6],
 "d3/de9/damageeffects_8qh.html":[2,0,1,2,0,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX33 =
 "d4/d0a/classXonoticMiscSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,217,3],
 "d4/d0a/classXonoticMiscSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,217,76],
 "d4/d0a/classXonoticMiscSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,217,84],
-"d4/d0a/classXonoticMiscSettingsTab.html#a0d70b85b390673511ff2dd8e70ae9154":[1,0,217,59]
+"d4/d0a/classXonoticMiscSettingsTab.html#a0d70b85b390673511ff2dd8e70ae9154":[1,0,217,59],
+"d4/d0a/classXonoticMiscSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,217,81]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"d2/d65/unsafe_8qh.html#aae07bed82e2b12d1897fca7bf71634d1":[2,0,4,63,4],
 "d2/d65/unsafe_8qh.html#ab0f09ad13f803b85f893afec1f6a0484":[2,0,4,63,5],
 "d2/d65/unsafe_8qh.html#ab3030b73b8c6eade13f71ab13546643b":[2,0,4,63,3],
 "d2/d65/unsafe_8qh.html#ad14fdd4d14f64c10d6ae30d2c05b8aad":[2,0,4,63,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "d2/d88/classDomination.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,30,3],
 "d2/d88/classDomination.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,30,20],
 "d2/d88/classDomination.html#ac6215c33ee743f1d3f89eade0ec98b5d":[1,0,30,10],
-"d2/d88/classDomination.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,30,6]
+"d2/d88/classDomination.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,30,6],
+"d2/d88/classDomination.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,30,7]
 };

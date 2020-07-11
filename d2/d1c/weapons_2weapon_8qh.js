@@ -4,7 +4,6 @@ var weapons_2weapon_8qh =
     [ "Weapon", "dc/de5/classWeapon.html", "dc/de5/classWeapon" ],
     [ "WeaponPickup", "d8/def/classWeaponPickup.html", "d8/def/classWeaponPickup" ],
     [ "SPAWNFUNC_WEAPON", "d2/d1c/weapons_2weapon_8qh.html#ac134501dee727ad9b18d7842f86275a4", null ],
-    [ "SPAWNFUNC_WEAPON_COND", "d2/d1c/weapons_2weapon_8qh.html#a4d177ee10c27f129b6cf4e8fdce524d7", null ],
     [ "WepSet", "d2/d1c/weapons_2weapon_8qh.html#ade7b3795466e850b0acb38ad649ea87b", null ],
     [ "GetAmmoName", "d2/d1c/weapons_2weapon_8qh.html#a35432dc70c423b0569a9ac237ba68952", null ],
     [ "GetAmmoPicture", "d2/d1c/weapons_2weapon_8qh.html#ab168af5e2615b44e7d6bb07022b09886", null ],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"de/dcb/classMageSpike.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,73,39],
 "de/dcb/classMageSpike.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,73,3],
 "de/dcb/classMageSpike.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,73,38],
 "de/dcb/classMageSpike.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,73,23],
@@ -249,5 +248,6 @@ var NAVTREEINDEX132 =
 "de/de8/portals_8qc_source.html":[2,0,6,45],
 "de/df3/chat_8qh.html":[2,0,0,1,0,7],
 "de/df3/chat_8qh_source.html":[2,0,0,1,0,7],
-"de/df3/raptor__weapons_8qc.html":[2,0,1,15,0,12]
+"de/df3/raptor__weapons_8qc.html":[2,0,1,15,0,12],
+"de/df3/raptor__weapons_8qc_source.html":[2,0,1,15,0,12]
 };
