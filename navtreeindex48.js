@@ -1,5 +1,10 @@
 var NAVTREEINDEX48 =
 {
+"d5/d26/server_2defs_8qh.html#ae3919003537f2961cf085c59b097f244":[2,0,6,22,65],
+"d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2":[2,0,6,22,135],
+"d5/d26/server_2defs_8qh.html#ae64d0818d5fd9cc7d8ee57138f1463fd":[2,0,6,22,50],
+"d5/d26/server_2defs_8qh.html#ae6bd352ab3129bbecd9993d9f61c30d6":[2,0,6,22,166],
+"d5/d26/server_2defs_8qh.html#aeb4012d45ed047757f0a48605193564c":[2,0,6,22,122],
 "d5/d26/server_2defs_8qh.html#aed51894adcba9645d9239d004bc332e0":[2,0,6,22,25],
 "d5/d26/server_2defs_8qh.html#aef6ca1a08affcc61b9244da90f564da1":[2,0,6,22,187],
 "d5/d26/server_2defs_8qh.html#af019b49a9905fe5b45f60a47c4473d78":[2,0,6,22,253],
@@ -22,8 +27,8 @@ var NAVTREEINDEX48 =
 "d5/d26/server_2defs_8qh_source.html":[2,0,6,22],
 "d5/d35/common_2__mod_8qh.html":[2,0,1,19],
 "d5/d35/common_2__mod_8qh_source.html":[2,0,1,19],
-"d5/d37/server_2matrix_8qh.html":[2,0,6,40],
-"d5/d37/server_2matrix_8qh_source.html":[2,0,6,40],
+"d5/d37/server_2matrix_8qh.html":[2,0,6,42],
+"d5/d37/server_2matrix_8qh_source.html":[2,0,6,42],
 "d5/d3a/checkbox__string_8qh.html":[2,0,5,4,17],
 "d5/d3a/checkbox__string_8qh.html#a99bf8fc9169855784af2af3cb71c8998":[2,0,5,4,17,1],
 "d5/d3a/checkbox__string_8qh_source.html":[2,0,5,4,17],
@@ -244,10 +249,5 @@ var NAVTREEINDEX48 =
 "d5/d6c/classXonoticHUDSkinList.html#a2188ecd49040da1f5cb826f6dd52e8c3":[1,0,203,34],
 "d5/d6c/classXonoticHUDSkinList.html#a22d8fc56e4789c681463bf8ccc482298":[1,0,203,24],
 "d5/d6c/classXonoticHUDSkinList.html#a230ddb1a3db4e3db29b3c2e1590dd22e":[1,0,203,84],
-"d5/d6c/classXonoticHUDSkinList.html#a235355aace741c77462c66d35b2c5e2a":[1,0,203,5],
-"d5/d6c/classXonoticHUDSkinList.html#a25ca8f3f73945cb8ef3250d44528e4f1":[1,0,203,39],
-"d5/d6c/classXonoticHUDSkinList.html#a2976526ce80a74f7269a4e7532b396da":[1,0,203,45],
-"d5/d6c/classXonoticHUDSkinList.html#a299560bbc669b089834799bd0add855c":[1,0,203,67],
-"d5/d6c/classXonoticHUDSkinList.html#a2aed9b007db3378480b691b9a52f3a7e":[1,0,203,86],
-"d5/d6c/classXonoticHUDSkinList.html#a2e784d6bdbceeafaad14d59f83b39d81":[1,0,203,33]
+"d5/d6c/classXonoticHUDSkinList.html#a235355aace741c77462c66d35b2c5e2a":[1,0,203,5]
 };

@@ -270,8 +270,8 @@ var searchData=
   ['log_5fwarnf',['LOG_WARNF',['../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9',1,'log.qh']]],
   ['logb',['logb',['../df/d38/mathlib_8qc.html#a97a198a7b7b819ae7e1c6ed1d6f20899',1,'logb(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a97a198a7b7b819ae7e1c6ed1d6f20899',1,'logb(float e):&#160;mathlib.qc']]],
   ['logdeath',['LogDeath',['../d5/dac/g__damage_8qc.html#aff28c78124853cc6ad4f9f330588e1d3',1,'LogDeath(string mode, int deathtype, entity killer, entity killed):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#aff28c78124853cc6ad4f9f330588e1d3',1,'LogDeath(string mode, int deathtype, entity killer, entity killed):&#160;g_damage.qc']]],
-  ['logfile',['logfile',['../dc/d73/server_2miscfunctions_8qh.html#af5cc49ccba37ced79bc2d69b05f694a1',1,'miscfunctions.qh']]],
-  ['logfile_5fopen',['logfile_open',['../dc/d73/server_2miscfunctions_8qh.html#a276dc5b71788108563372331e9f6e31c',1,'miscfunctions.qh']]],
+  ['logfile',['logfile',['../df/df8/gamelog_8qh.html#af5cc49ccba37ced79bc2d69b05f694a1',1,'gamelog.qh']]],
+  ['logfile_5fopen',['logfile_open',['../df/df8/gamelog_8qh.html#a77855f3dbdd49c2419719632277aae72',1,'gamelog.qh']]],
   ['logn',['logn',['../df/d38/mathlib_8qc.html#a8db70f85e32fb5c3201b5b4a84cae5c2',1,'logn(float e, float base):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a8db70f85e32fb5c3201b5b4a84cae5c2',1,'logn(float e, float base):&#160;mathlib.qc']]],
   ['lognb',['LogNB',['../d2/d24/sv__nexball_8qc.html#a4531a0678031c9d5318dfffdfa1805f9',1,'sv_nexball.qc']]],
   ['logteamchange',['LogTeamChange',['../de/d4f/teamplay_8qc.html#a4784fbfa96e64e68ffd7ae232dee2dd8',1,'LogTeamChange(float player_id, float team_number, int type):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a4784fbfa96e64e68ffd7ae232dee2dd8',1,'LogTeamChange(float player_id, float team_number, int type):&#160;teamplay.qc']]],
@@ -287,5 +287,5 @@ var searchData=
   ['lp_5flightmap',['LP_LIGHTMAP',['../d4/d0c/csprogsdefs_8qc.html#a824b5ab0edd5ec093379ad17739126b6',1,'csprogsdefs.qc']]],
   ['lp_5frtworld',['LP_RTWORLD',['../d4/d0c/csprogsdefs_8qc.html#af81bfd802776796e5fcc36057ddb8c13',1,'csprogsdefs.qc']]],
   ['lsmaps_5fmax',['LSMAPS_MAX',['../d9/d89/getreplies_8qc.html#ad3483ec4e1d1d3b9ab6323bfcf01b876',1,'getreplies.qc']]],
-  ['ltime',['ltime',['../d2/db1/movetypes_8qc.html#af4e305a34cfe09004c87a91e2461330c',1,'ltime():&#160;movetypes.qc'],['../d6/d11/progsdefs_8qc.html#af4e305a34cfe09004c87a91e2461330c',1,'ltime():&#160;progsdefs.qc']]]
+  ['ltime',['ltime',['../d6/d11/progsdefs_8qc.html#af4e305a34cfe09004c87a91e2461330c',1,'progsdefs.qc']]]
 ];

@@ -163,6 +163,10 @@ var NAVTREEINDEX0 =
 "d0/d1b/dialog__settings__input_8qh.html":[2,0,5,4,145],
 "d0/d1b/dialog__settings__input_8qh.html#a822312f86da5bcf83a0a9c1534fca91a":[2,0,5,4,145,1],
 "d0/d1b/dialog__settings__input_8qh_source.html":[2,0,5,4,145],
+"d0/d20/push_8qc.html":[2,0,1,12,0,7],
+"d0/d20/push_8qc.html#a009767c91621d00e329ee78ad0aa20c9":[2,0,1,12,0,7,0],
+"d0/d20/push_8qc.html#a52e8eb0d9d1842ab69eec9914d958477":[2,0,1,12,0,7,1],
+"d0/d20/push_8qc_source.html":[2,0,1,12,0,7],
 "d0/d25/classXonoticStatsList.html":[1,0,253],
 "d0/d25/classXonoticStatsList.html#a053c845bd8e4ad4e9022eafcd324699c":[1,0,253,6],
 "d0/d25/classXonoticStatsList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,253,39],
@@ -245,9 +249,5 @@ var NAVTREEINDEX0 =
 "d0/d25/classXonoticStatsList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,253,22],
 "d0/d28/classMage.html":[1,0,72],
 "d0/d28/classMage.html#a1b84dbe029d909c54678e27a659c4793":[1,0,72,0],
-"d0/d28/classMage.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,72,9],
-"d0/d28/classMage.html#a6dcca2c26e36342b5286873a74793cae":[1,0,72,2],
-"d0/d28/classMage.html#a718c7aa6406f86acf615ba58861cfdc4":[1,0,72,7],
-"d0/d28/classMage.html#a73c9c1c97a316361f023496bfa313416":[1,0,72,11],
-"d0/d28/classMage.html#a84829255027bd85cf33ef0418ef5c975":[1,0,72,4]
+"d0/d28/classMage.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,72,9]
 };

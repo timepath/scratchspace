@@ -1,5 +1,8 @@
 var NAVTREEINDEX38 =
 {
+"d4/d3b/classXonoticBigButton.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,149,12],
+"d4/d3b/classXonoticBigButton.html#a30e76204a36bc7d61d806aad8f0c5ced":[1,0,149,18],
+"d4/d3b/classXonoticBigButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,149,72],
 "d4/d3b/classXonoticBigButton.html#a35765335b88ee4489504808bf8bbda78":[1,0,149,56],
 "d4/d3b/classXonoticBigButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,149,67],
 "d4/d3b/classXonoticBigButton.html#a3a88ebd44b9abf22558ee9a6cfaf03dd":[1,0,149,73],
@@ -246,8 +249,5 @@ var NAVTREEINDEX38 =
 "d4/d48/speaker_8qh.html":[2,0,1,6,2,17],
 "d4/d48/speaker_8qh.html#a1b968e8d902a14d1e9ed1345c1f01769":[2,0,1,6,2,17,0],
 "d4/d48/speaker_8qh.html#aa0e59e279fad2703c0fa3c4f7c047a0d":[2,0,1,6,2,17,1],
-"d4/d48/speaker_8qh.html#aaad09e099a1368fe3c70aa8eaf6d6fc2":[2,0,1,6,2,17,3],
-"d4/d48/speaker_8qh.html#ac2905c80978e1bce55ef377bf0191a3a":[2,0,1,6,2,17,2],
-"d4/d48/speaker_8qh_source.html":[2,0,1,6,2,17],
-"d4/d49/common_2mutators_2mutator_2kick__teamkiller_2__mod_8qh.html":[2,0,1,10,0,15,1]
+"d4/d48/speaker_8qh.html#aaad09e099a1368fe3c70aa8eaf6d6fc2":[2,0,1,6,2,17,3]
 };

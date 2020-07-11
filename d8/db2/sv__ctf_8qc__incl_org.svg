@@ -10,9 +10,9 @@
 <title>common/gamemodes/gamemode/ctf/sv_ctf.qc</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="828,-862.5 828,-892.5 1010,-892.5 1010,-862.5 828,-862.5"/>
-<text text-anchor="start" x="836" y="-880.5" font-family="Helvetica,sans-Serif" font-size="10.00">common/gamemodes/gamemode</text>
-<text text-anchor="middle" x="919" y="-869.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ctf/sv_ctf.qc</text>
+<polygon fill="#bfbfbf" stroke="black" points="896,-862.5 896,-892.5 1078,-892.5 1078,-862.5 896,-862.5"/>
+<text text-anchor="start" x="904" y="-880.5" font-family="Helvetica,sans-Serif" font-size="10.00">common/gamemodes/gamemode</text>
+<text text-anchor="middle" x="987" y="-869.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ctf/sv_ctf.qc</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -24,8 +24,8 @@
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M857.949,-862.475C809.039,-851.239 741.85,-835.803 699.687,-826.117"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="700.322,-822.672 689.793,-823.844 698.755,-829.494 700.322,-822.672"/>
+<path fill="none" stroke="midnightblue" d="M905.164,-862.458C848.596,-852.614 771.644,-838.951 704,-826 702.564,-825.725 701.103,-825.442 699.627,-825.154"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="700.292,-821.718 689.802,-823.202 698.928,-828.584 700.292,-821.718"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
@@ -37,8 +37,8 @@
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M884.874,-862.399C860.713,-852.416 828.598,-839.147 805.333,-829.534"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="806.532,-826.242 795.953,-825.658 803.859,-832.711 806.532,-826.242"/>
+<path fill="none" stroke="midnightblue" d="M937.027,-862.475C899.814,-852.03 849.672,-837.958 815.073,-828.247"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="815.882,-824.839 805.308,-825.506 813.991,-831.578 815.882,-824.839"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
@@ -50,34 +50,47 @@
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge7" class="edge"><title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M919,-862.399C919,-854.466 919,-844.458 919,-835.858"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="922.5,-835.658 919,-825.658 915.5,-835.658 922.5,-835.658"/>
+<path fill="none" stroke="midnightblue" d="M970.885,-862.399C960.596,-853.397 947.253,-841.721 936.674,-832.465"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="938.725,-829.609 928.895,-825.658 934.116,-834.877 938.725,-829.609"/>
 </g>
 <!-- Node64 -->
 <g id="node64" class="node"><title>Node64</title>
-<g id="a_node64"><a xlink:href="../../d2/d76/teamplay_8qh.html" target="_top" xlink:title="server/teamplay.qh">
-<polygon fill="none" stroke="black" points="1002,-806.5 1002,-825.5 1110,-825.5 1110,-806.5 1002,-806.5"/>
-<text text-anchor="middle" x="1056" y="-813.5" font-family="Helvetica,sans-Serif" font-size="10.00">server/teamplay.qh</text>
+<g id="a_node64"><a xlink:href="../../df/df8/gamelog_8qh.html" target="_top" xlink:title="server/gamelog.qh">
+<polygon fill="none" stroke="black" points="1001.5,-806.5 1001.5,-825.5 1108.5,-825.5 1108.5,-806.5 1001.5,-806.5"/>
+<text text-anchor="middle" x="1055" y="-813.5" font-family="Helvetica,sans-Serif" font-size="10.00">server/gamelog.qh</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node64 -->
 <g id="edge81" class="edge"><title>Node1&#45;&gt;Node64</title>
-<path fill="none" stroke="midnightblue" d="M951.467,-862.399C974.351,-852.461 1004.73,-839.265 1026.84,-829.662"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1028.29,-832.852 1036.07,-825.658 1025.5,-826.431 1028.29,-832.852"/>
+<path fill="none" stroke="midnightblue" d="M1003.12,-862.399C1013.4,-853.397 1026.75,-841.721 1037.33,-832.465"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1039.88,-834.877 1045.11,-825.658 1035.27,-829.609 1039.88,-834.877"/>
 </g>
 <!-- Node65 -->
 <g id="node65" class="node"><title>Node65</title>
-<g id="a_node65"><a xlink:href="../../d7/d71/lib_2warpzone_2common_8qh.html" target="_top" xlink:title="lib/warpzone/common.qh">
-<polygon fill="none" stroke="black" points="1128.5,-806.5 1128.5,-825.5 1265.5,-825.5 1265.5,-806.5 1128.5,-806.5"/>
-<text text-anchor="middle" x="1197" y="-813.5" font-family="Helvetica,sans-Serif" font-size="10.00">lib/warpzone/common.qh</text>
+<g id="a_node65"><a xlink:href="../../d2/d76/teamplay_8qh.html" target="_top" xlink:title="server/teamplay.qh">
+<polygon fill="none" stroke="black" points="1127,-806.5 1127,-825.5 1235,-825.5 1235,-806.5 1127,-806.5"/>
+<text text-anchor="middle" x="1181" y="-813.5" font-family="Helvetica,sans-Serif" font-size="10.00">server/teamplay.qh</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node65 -->
 <g id="edge82" class="edge"><title>Node1&#45;&gt;Node65</title>
-<path fill="none" stroke="midnightblue" d="M984.53,-862.475C1034.38,-851.806 1101.91,-837.352 1147.34,-827.628"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1148.21,-831.022 1157.26,-825.506 1146.74,-824.177 1148.21,-831.022"/>
+<path fill="none" stroke="midnightblue" d="M1032.98,-862.399C1066.64,-852.073 1111.78,-838.231 1143.32,-828.556"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1144.52,-831.849 1153.05,-825.571 1142.47,-825.157 1144.52,-831.849"/>
+</g>
+<!-- Node66 -->
+<g id="node66" class="node"><title>Node66</title>
+<g id="a_node66"><a xlink:href="../../d7/d71/lib_2warpzone_2common_8qh.html" target="_top" xlink:title="lib/warpzone/common.qh">
+<polygon fill="none" stroke="black" points="1253.5,-806.5 1253.5,-825.5 1390.5,-825.5 1390.5,-806.5 1253.5,-806.5"/>
+<text text-anchor="middle" x="1322" y="-813.5" font-family="Helvetica,sans-Serif" font-size="10.00">lib/warpzone/common.qh</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node66 -->
+<g id="edge83" class="edge"><title>Node1&#45;&gt;Node66</title>
+<path fill="none" stroke="midnightblue" d="M1065.97,-862.475C1126.79,-851.672 1209.47,-836.987 1264.22,-827.262"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1264.87,-830.701 1274.11,-825.506 1263.65,-823.809 1264.87,-830.701"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>

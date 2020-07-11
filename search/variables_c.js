@@ -114,12 +114,12 @@ var searchData=
   ['lodmodelindex0',['lodmodelindex0',['../dc/d3d/csqcmodel__hooks_8qc.html#ab473803a0773142ae861faea6bd995e3',1,'csqcmodel_hooks.qc']]],
   ['lodmodelindex1',['lodmodelindex1',['../dc/d3d/csqcmodel__hooks_8qc.html#a1c17b346dec89b6434e65d185e8aa494',1,'csqcmodel_hooks.qc']]],
   ['lodmodelindex2',['lodmodelindex2',['../dc/d3d/csqcmodel__hooks_8qc.html#a0f179309458eca2fb0e79ee5a321e603',1,'csqcmodel_hooks.qc']]],
-  ['logfile',['logfile',['../dc/d73/server_2miscfunctions_8qh.html#af5cc49ccba37ced79bc2d69b05f694a1',1,'miscfunctions.qh']]],
-  ['logfile_5fopen',['logfile_open',['../dc/d73/server_2miscfunctions_8qh.html#a276dc5b71788108563372331e9f6e31c',1,'miscfunctions.qh']]],
+  ['logfile',['logfile',['../df/df8/gamelog_8qh.html#af5cc49ccba37ced79bc2d69b05f694a1',1,'gamelog.qh']]],
+  ['logfile_5fopen',['logfile_open',['../df/df8/gamelog_8qh.html#a77855f3dbdd49c2419719632277aae72',1,'gamelog.qh']]],
   ['lp_5fcomplete',['LP_COMPLETE',['../d4/d0c/csprogsdefs_8qc.html#a0f8a62eaf59ead54b79e498595668d40',1,'csprogsdefs.qc']]],
   ['lp_5fdynlight',['LP_DYNLIGHT',['../d4/d0c/csprogsdefs_8qc.html#afc99c4439e2e123f250ec336150ad3af',1,'csprogsdefs.qc']]],
   ['lp_5flightmap',['LP_LIGHTMAP',['../d4/d0c/csprogsdefs_8qc.html#a824b5ab0edd5ec093379ad17739126b6',1,'csprogsdefs.qc']]],
   ['lp_5frtworld',['LP_RTWORLD',['../d4/d0c/csprogsdefs_8qc.html#af81bfd802776796e5fcc36057ddb8c13',1,'csprogsdefs.qc']]],
   ['lsmaps_5fmax',['LSMAPS_MAX',['../d9/d89/getreplies_8qc.html#ad3483ec4e1d1d3b9ab6323bfcf01b876',1,'getreplies.qc']]],
-  ['ltime',['ltime',['../d2/db1/movetypes_8qc.html#af4e305a34cfe09004c87a91e2461330c',1,'ltime():&#160;movetypes.qc'],['../d6/d11/progsdefs_8qc.html#af4e305a34cfe09004c87a91e2461330c',1,'ltime():&#160;progsdefs.qc']]]
+  ['ltime',['ltime',['../d6/d11/progsdefs_8qc.html#af4e305a34cfe09004c87a91e2461330c',1,'progsdefs.qc']]]
 ];

@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"d1/d2b/classFusionReactor.html#afaad3bd0ee22bdc2bad0d5ccd45bbf6e":[1,0,42,15],
+"d1/d31/machinegun__weapon_8qc.html":[2,0,1,14,0,22],
+"d1/d31/machinegun__weapon_8qc_source.html":[2,0,1,14,0,22],
+"d1/d33/classXonoticColorButton.html":[1,0,157],
 "d1/d33/classXonoticColorButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,157,80],
 "d1/d33/classXonoticColorButton.html#a0aa85b9653eefbbd7941812898af462d":[1,0,157,34],
 "d1/d33/classXonoticColorButton.html#a0dc9110cbe226f31f0d7f442534c6965":[1,0,157,67],
@@ -245,9 +249,5 @@ var NAVTREEINDEX8 =
 "d1/d39/classXonoticTeamSelectDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,256,24],
 "d1/d39/classXonoticTeamSelectDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,256,17],
 "d1/d39/classXonoticTeamSelectDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,256,63],
-"d1/d39/classXonoticTeamSelectDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,256,32],
-"d1/d39/classXonoticTeamSelectDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,256,48],
-"d1/d39/classXonoticTeamSelectDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,256,58],
-"d1/d39/classXonoticTeamSelectDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,256,88],
-"d1/d39/classXonoticTeamSelectDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,256,1]
+"d1/d39/classXonoticTeamSelectDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,256,32]
 };

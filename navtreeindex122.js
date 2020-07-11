@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"dd/da3/classXonoticMusicPlayerTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,220,89],
+"dd/da3/classXonoticMusicPlayerTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,220,80],
 "dd/da3/classXonoticMusicPlayerTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,220,54],
 "dd/da3/classXonoticMusicPlayerTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,220,47],
 "dd/da3/classXonoticMusicPlayerTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,220,73],
@@ -44,6 +46,12 @@ var NAVTREEINDEX122 =
 "dd/da3/classXonoticMusicPlayerTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,220,7],
 "dd/da3/net__notice_8qh.html":[2,0,1,38],
 "dd/da3/net__notice_8qh_source.html":[2,0,1,38],
+"dd/da5/gamelog_8qc.html":[2,0,6,29],
+"dd/da5/gamelog_8qc.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,29,3],
+"dd/da5/gamelog_8qc.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5":[2,0,6,29,1],
+"dd/da5/gamelog_8qc.html#a79b65d6e94a0a3e0d2061c1b4c47031e":[2,0,6,29,0],
+"dd/da5/gamelog_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3":[2,0,6,29,2],
+"dd/da5/gamelog_8qc_source.html":[2,0,6,29],
 "dd/da6/classXonoticCreditsDialog.html":[1,0,161],
 "dd/da6/classXonoticCreditsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,161,31],
 "dd/da6/classXonoticCreditsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,161,12],
@@ -241,13 +249,5 @@ var NAVTREEINDEX122 =
 "dd/db3/classXonoticQuitDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,230,15],
 "dd/db3/classXonoticQuitDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,230,49],
 "dd/db3/classXonoticQuitDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,230,2],
-"dd/db3/classXonoticQuitDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,230,35],
-"dd/db3/classXonoticQuitDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,230,39],
-"dd/db3/common_2mutators_2mutator_2running__guns_2__mod_8qh.html":[2,0,1,10,0,30,1],
-"dd/db3/common_2mutators_2mutator_2running__guns_2__mod_8qh_source.html":[2,0,1,10,0,30,1],
-"dd/db5/sv__invincibleproj_8qh.html":[2,0,1,10,0,13,3],
-"dd/db5/sv__invincibleproj_8qh_source.html":[2,0,1,10,0,13,3],
-"dd/db7/sv__globalforces_8qh.html":[2,0,1,10,0,10,3],
-"dd/db7/sv__globalforces_8qh_source.html":[2,0,1,10,0,10,3],
-"dd/dc5/client_2weapons_2__mod_8inc.html":[2,0,0,3,0]
+"dd/db3/classXonoticQuitDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,230,35]
 };

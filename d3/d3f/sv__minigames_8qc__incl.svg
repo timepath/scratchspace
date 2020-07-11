@@ -10,9 +10,9 @@
 <title>common/minigames/sv_minigames.qc</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="105,-224.5 105,-254.5 234,-254.5 234,-224.5 105,-224.5"/>
-<text text-anchor="start" x="113" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00">common/minigames/sv</text>
-<text text-anchor="middle" x="169.5" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">_minigames.qc</text>
+<polygon fill="#bfbfbf" stroke="black" points="161,-224.5 161,-254.5 290,-254.5 290,-224.5 161,-224.5"/>
+<text text-anchor="start" x="169" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00">common/minigames/sv</text>
+<text text-anchor="middle" x="225.5" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">_minigames.qc</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -24,8 +24,8 @@
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M156.466,-224.399C148.309,-215.575 137.778,-204.183 129.306,-195.018"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="131.861,-192.625 122.503,-187.658 126.721,-197.377 131.861,-192.625"/>
+<path fill="none" stroke="midnightblue" d="M199.195,-224.399C181.236,-214.773 157.576,-202.09 139.829,-192.577"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="141.119,-189.297 130.651,-187.658 137.812,-195.467 141.119,-189.297"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -37,8 +37,21 @@
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M182.771,-224.399C191.076,-215.575 201.799,-204.183 210.424,-195.018"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="213.047,-197.339 217.352,-187.658 207.949,-192.541 213.047,-197.339"/>
+<path fill="none" stroke="midnightblue" d="M225.5,-224.399C225.5,-216.466 225.5,-206.458 225.5,-197.858"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="229,-197.658 225.5,-187.658 222,-197.658 229,-197.658"/>
+</g>
+<!-- Node19 -->
+<g id="node19" class="node"><title>Node19</title>
+<g id="a_node19"><a xlink:href="../../df/df8/gamelog_8qh.html" target="_top" xlink:title="server/gamelog.qh">
+<polygon fill="none" stroke="black" points="286,-168.5 286,-187.5 393,-187.5 393,-168.5 286,-168.5"/>
+<text text-anchor="middle" x="339.5" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">server/gamelog.qh</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node19 -->
+<g id="edge18" class="edge"><title>Node1&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M252.516,-224.399C271.131,-214.684 295.71,-201.855 313.991,-192.314"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="315.666,-195.388 322.912,-187.658 312.427,-189.182 315.666,-195.388"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,184,43],
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,184,10],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,184,3],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,184,77],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,184,85],
@@ -100,8 +102,8 @@ var NAVTREEINDEX121 =
 "dd/d94/wyvern_8qh_source.html":[2,0,1,9,0,9],
 "dd/d95/dialog__credits_8qh.html":[2,0,5,4,41],
 "dd/d95/dialog__credits_8qh_source.html":[2,0,5,4,41],
-"dd/d96/server_2progs_8inc.html":[2,0,6,47],
-"dd/d96/server_2progs_8inc_source.html":[2,0,6,47],
+"dd/d96/server_2progs_8inc.html":[2,0,6,49],
+"dd/d96/server_2progs_8inc_source.html":[2,0,6,49],
 "dd/d9a/classXonoticSandboxToolsDialog.html":[1,0,236],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,236,30],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,236,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "dd/da3/classXonoticMusicPlayerTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,220,82],
 "dd/da3/classXonoticMusicPlayerTab.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,220,22],
 "dd/da3/classXonoticMusicPlayerTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,220,8],
-"dd/da3/classXonoticMusicPlayerTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,220,90],
-"dd/da3/classXonoticMusicPlayerTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,220,89],
-"dd/da3/classXonoticMusicPlayerTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,220,80]
+"dd/da3/classXonoticMusicPlayerTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,220,90]
 };

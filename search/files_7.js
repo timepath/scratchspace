@@ -6,6 +6,8 @@ var searchData=
   ['g_5fhook_2eqh',['g_hook.qh',['../d7/de1/g__hook_8qh.html',1,'']]],
   ['g_5fworld_2eqc',['g_world.qc',['../db/dcc/g__world_8qc.html',1,'']]],
   ['g_5fworld_2eqh',['g_world.qh',['../d7/d97/g__world_8qh.html',1,'']]],
+  ['gamelog_2eqc',['gamelog.qc',['../dd/da5/gamelog_8qc.html',1,'']]],
+  ['gamelog_2eqh',['gamelog.qh',['../df/df8/gamelog_8qh.html',1,'']]],
   ['gamesettings_2eqh',['gamesettings.qh',['../dd/d5d/gamesettings_8qh.html',1,'']]],
   ['gamestart_2eqc',['gamestart.qc',['../db/d91/gamestart_8qc.html',1,'']]],
   ['gamestart_2eqh',['gamestart.qh',['../d4/d08/gamestart_8qh.html',1,'']]],
