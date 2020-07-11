@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"d4/d49/common_2mutators_2mutator_2kick__teamkiller_2__mod_8qh.html":[2,0,1,10,0,15,1],
 "d4/d49/common_2mutators_2mutator_2kick__teamkiller_2__mod_8qh_source.html":[2,0,1,10,0,15,1],
 "d4/d4c/corner_8qc.html":[2,0,1,6,1,2],
 "d4/d4c/corner_8qc_source.html":[2,0,1,6,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "d4/d5f/classXonoticFirstRunDialog.html#a0da8cba9fc8cc22a1e704e3b0fabab1f":[1,0,176,58],
 "d4/d5f/classXonoticFirstRunDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,176,47],
 "d4/d5f/classXonoticFirstRunDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,176,25],
-"d4/d5f/classXonoticFirstRunDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,176,18],
-"d4/d5f/classXonoticFirstRunDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,176,73]
+"d4/d5f/classXonoticFirstRunDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,176,18]
 };
