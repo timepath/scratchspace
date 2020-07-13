@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"d7/d13/campaign__common_8qh.html#ad1cedff3e303471c758c7c7a9ce1bd0a":[2,0,1,24,6],
+"d7/d13/campaign__common_8qh.html#ae2f904eeb0bb4119ac6be954bf3223d3":[2,0,1,24,1],
 "d7/d13/campaign__common_8qh.html#af1f6b2dec551adee34bd8d54e04b3b27":[2,0,1,24,15],
 "d7/d13/campaign__common_8qh_source.html":[2,0,1,24],
 "d7/d13/classXonoticHUDAmmoDialog.html":[1,0,185],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "d7/d31/tracing_8qc_source.html":[2,0,6,5,16],
 "d7/d32/classBlaster.html":[1,0,7],
 "d7/d32/classBlaster.html#a10c47300d4c1aafc412621ac3192a994":[1,0,7,37],
-"d7/d32/classBlaster.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,7,20],
-"d7/d32/classBlaster.html#a17f155a849bf1aad1fb6f97232996be9":[1,0,7,28],
-"d7/d32/classBlaster.html#a1c8437833108d8e5fee3535929d05f32":[1,0,7,27]
+"d7/d32/classBlaster.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,7,20]
 };
