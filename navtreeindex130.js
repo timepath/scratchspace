@@ -1,6 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"de/d8c/classWyvernAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,147,6],
 "de/d8c/classWyvernAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,147,11],
 "de/d8c/classWyvernAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,147,8],
 "de/d8c/classWyvernAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,147,39],
@@ -249,5 +248,6 @@ var NAVTREEINDEX130 =
 "de/da1/sv__keepaway_8qc.html#a62c381a8dd53927f035d3f51b303e108":[2,0,1,3,0,9,6,48],
 "de/da1/sv__keepaway_8qc.html#a6983dd2aab63c06e454ba4d8d859b541":[2,0,1,3,0,9,6,42],
 "de/da1/sv__keepaway_8qc.html#a6f593188e0c0fe51e4a50f3b081a0d4e":[2,0,1,3,0,9,6,34],
-"de/da1/sv__keepaway_8qc.html#a7a47c74d2d38348c8860cc777559ff63":[2,0,1,3,0,9,6,31]
+"de/da1/sv__keepaway_8qc.html#a7a47c74d2d38348c8860cc777559ff63":[2,0,1,3,0,9,6,31],
+"de/da1/sv__keepaway_8qc.html#a86061be148c622702eb7f2c9a2c935f4":[2,0,1,3,0,9,6,29]
 };
