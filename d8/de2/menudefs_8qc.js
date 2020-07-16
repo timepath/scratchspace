@@ -69,6 +69,7 @@ var menudefs_8qc =
     [ "float", "d8/de2/menudefs_8qc.html#a6af3ef877f9d8e4491e69ebdabef47d0", null ],
     [ "float", "d8/de2/menudefs_8qc.html#a8af3b9cdd832644611b3537c48d49860", null ],
     [ "float", "d8/de2/menudefs_8qc.html#aee13e6dcbefa1d48bb865efd3cbae955", null ],
+    [ "float", "d8/de2/menudefs_8qc.html#a7de48623fc43562cd753bf0e4e108a59", null ],
     [ "float", "d8/de2/menudefs_8qc.html#a87ec93cdf836defeb5c06c5d31104d79", null ],
     [ "floor", "d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802", null ],
     [ "fopen", "d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9", null ],

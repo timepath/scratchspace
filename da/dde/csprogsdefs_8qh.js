@@ -1,5 +1,12 @@
 var csprogsdefs_8qh =
 [
+    [ "drawcharacter", "da/dde/csprogsdefs_8qh.html#a4a96281888b425309b14abf0f4f990a8", null ],
+    [ "drawcolorcodedstring", "da/dde/csprogsdefs_8qh.html#a6cecb1ff6cc8cbae6da7c6c710331fc9", null ],
+    [ "drawcolorcodedstring2", "da/dde/csprogsdefs_8qh.html#a7ebd40c324e2b80b3e61a29f6d1dd8c1", null ],
+    [ "drawfill", "da/dde/csprogsdefs_8qh.html#a050be3f134c919c23725ca5207a3e0eb", null ],
+    [ "drawpic", "da/dde/csprogsdefs_8qh.html#a433e1dfe53e9bb20783eb9b80232ba1c", null ],
+    [ "drawsetcliparea", "da/dde/csprogsdefs_8qh.html#ab93ac0522f96fcdab4d3c2f2098b186e", null ],
+    [ "drawstring", "da/dde/csprogsdefs_8qh.html#abb61e02b73e4d52cc256e631ffde6d9c", null ],
     [ "false", "da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727", null ],
     [ "FALSE", "da/dde/csprogsdefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1", null ],
     [ "particleeffectnum", "da/dde/csprogsdefs_8qh.html#a2975aa3861dc843a19aa644cbca0990c", null ],
@@ -11,6 +18,7 @@ var csprogsdefs_8qh =
     [ "STAT_MOVEVARS_TICRATE", "da/dde/csprogsdefs_8qh.html#a7ff130f5700e963263eb7d734da97842", null ],
     [ "STAT_MOVEVARS_TIMESCALE", "da/dde/csprogsdefs_8qh.html#a5d1bb17af4691ba1a8c043b63c37b391", null ],
     [ "STAT_TIMELIMIT", "da/dde/csprogsdefs_8qh.html#adaaef9f614f14b73503974ca9ecc4e4c", null ],
+    [ "stringwidth", "da/dde/csprogsdefs_8qh.html#abe6d57089ea2e2126f971108bf57dd6b", null ],
     [ "trailparticles", "da/dde/csprogsdefs_8qh.html#aae5b07ffeb72dbbe7675fda4e3a35a30", null ],
     [ "true", "da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7", null ],
     [ "TRUE", "da/dde/csprogsdefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d", null ],

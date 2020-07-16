@@ -165,6 +165,7 @@ var searchData=
   ['clip_5fscale',['clip_scale',['../d2/d11/classClipFrame.html#abcf2ed02c6b85809434b25225814eaeb',1,'ClipFrame']]],
   ['clip_5fshift',['clip_shift',['../d2/d11/classClipFrame.html#ae7584bc68c28df19690ecf7e4b94a23b',1,'ClipFrame']]],
   ['clip_5fsize',['clip_size',['../d0/d56/wepent_8qh.html#ab2096ee78f29ebc7ed032605312f919b',1,'clip_size():&#160;wepent.qh'],['../d5/d26/server_2defs_8qh.html#ab2096ee78f29ebc7ed032605312f919b',1,'clip_size():&#160;defs.qh']]],
+  ['clipgroup',['clipgroup',['../de/d5e/dpextensions_8qc.html#a6b2cc9b5596d8b27a822eeb8380e32ea',1,'dpextensions.qc']]],
   ['closable',['closable',['../dc/d06/classDialog.html#a4d104c9fbab686c1330b98d05db10330',1,'Dialog::closable()'],['../de/d9c/classTab.html#ad149e91b2fa7473fc46e28c4c602a397',1,'Tab::closable()'],['../d4/d5f/classXonoticFirstRunDialog.html#ae26971eb0798458c8fec76a5739285b5',1,'XonoticFirstRunDialog::closable()'],['../d4/d85/classXonoticUid2NameDialog.html#ad998e1f49defd3f2d0767d00dfd4ad44',1,'XonoticUid2NameDialog::closable()']]],
   ['closebuttonimage',['closeButtonImage',['../d5/d95/classXonoticDialog.html#acf16d604f022f585e58fb0b40fbce5d3',1,'XonoticDialog']]],
   ['closedlist',['closedlist',['../dd/d70/pathlib_8qh.html#aae54e100a6691b764778eafdd7dec48a',1,'pathlib.qh']]],

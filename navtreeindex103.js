@@ -1,5 +1,16 @@
 var NAVTREEINDEX103 =
 {
+"db/d66/common_2gamemodes_2gamemode_2domination_2__mod_8qh_source.html":[2,0,1,3,0,5,1],
+"db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc.html":[2,0,1,10,0,36,0],
+"db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc_source.html":[2,0,1,10,0,36,0],
+"db/d6b/okrpc_8qh.html":[2,0,1,10,0,23,11],
+"db/d6b/okrpc_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,10,0,23,11,1],
+"db/d6b/okrpc_8qh.html#a969a862c23d37f5592502820e4c8e345":[2,0,1,10,0,23,11,2],
+"db/d6b/okrpc_8qh_source.html":[2,0,1,10,0,23,11],
+"db/d6f/cl__keepaway_8qc.html":[2,0,1,3,0,9,2],
+"db/d6f/cl__keepaway_8qc.html#a33635cfa0260656409cf860dd40ca288":[2,0,1,3,0,9,2,0],
+"db/d6f/cl__keepaway_8qc.html#a7af20f53afa6853b4131acf2ab8cd7b9":[2,0,1,3,0,9,2,1],
+"db/d6f/cl__keepaway_8qc.html#ab59cf7587897b51ead74c4ecb8e71e51":[2,0,1,3,0,9,2,2],
 "db/d6f/cl__keepaway_8qc_source.html":[2,0,1,3,0,9,2],
 "db/d73/campaign__setup_8qc.html":[2,0,1,27],
 "db/d73/campaign__setup_8qc.html#aaa64dc89313bcf520b231ef1f80bee48":[2,0,1,27,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX103 =
 "db/d7f/effectinfo_8inc.html#a4af8f654858c52cf900b4b49de410f11":[2,0,1,2,7,169],
 "db/d7f/effectinfo_8inc.html#a4b2e91e226e6430fd6e392928f895fbd":[2,0,1,2,7,351],
 "db/d7f/effectinfo_8inc.html#a4d115281d8162ea625917a5bc35ad10d":[2,0,1,2,7,279],
-"db/d7f/effectinfo_8inc.html#a4e4df8f18ebe9b8cad15382b4aa02e54":[2,0,1,2,7,367],
-"db/d7f/effectinfo_8inc.html#a4eb21a1adda919ac91fc4f6880ed7b24":[2,0,1,2,7,380],
-"db/d7f/effectinfo_8inc.html#a4f2841554641525aa83c7fb40731db19":[2,0,1,2,7,361],
-"db/d7f/effectinfo_8inc.html#a4f6f5dcdfa6029f3094df129b7c7fdad":[2,0,1,2,7,321],
-"db/d7f/effectinfo_8inc.html#a50686571800453954319975cab343f0e":[2,0,1,2,7,161],
-"db/d7f/effectinfo_8inc.html#a51cafc5700722bb5cfeea5264ac2ae7e":[2,0,1,2,7,219],
-"db/d7f/effectinfo_8inc.html#a51fb687e6c22b28d9a3fb389ab10918b":[2,0,1,2,7,337],
-"db/d7f/effectinfo_8inc.html#a526d0cc07dc21028743952a8e99c41df":[2,0,1,2,7,41],
-"db/d7f/effectinfo_8inc.html#a528a35146b520665b394b348fd26b8b2":[2,0,1,2,7,273],
-"db/d7f/effectinfo_8inc.html#a53c9721f6d1012021542d05d3e00d380":[2,0,1,2,7,357],
-"db/d7f/effectinfo_8inc.html#a53ec4557c24ef8d2d23d8bfdf482203d":[2,0,1,2,7,106],
-"db/d7f/effectinfo_8inc.html#a54b107bcc3bfd3c881efe77f8d88eaf5":[2,0,1,2,7,292]
+"db/d7f/effectinfo_8inc.html#a4e4df8f18ebe9b8cad15382b4aa02e54":[2,0,1,2,7,367]
 };

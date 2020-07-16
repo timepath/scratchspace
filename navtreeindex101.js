@@ -1,5 +1,16 @@
 var NAVTREEINDEX101 =
 {
+"db/d3c/classArc.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,3,38],
+"db/d3c/classArc.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,3,23],
+"db/d3c/classArc.html#ae0a509098068a29d9ef781b063c35d0e":[1,0,3,27],
+"db/d3c/classArc.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,3,18],
+"db/d40/common_2mutators_2mutator_2nades_2__mod_8inc.html":[2,0,1,10,0,19,0],
+"db/d40/common_2mutators_2mutator_2nades_2__mod_8inc_source.html":[2,0,1,10,0,19,0],
+"db/d46/dialog__multiplayer__create_8qh.html":[2,0,5,4,91],
+"db/d46/dialog__multiplayer__create_8qh.html#a94bcd6120df81d66b7301391e876efe9":[2,0,5,4,91,1],
+"db/d46/dialog__multiplayer__create_8qh_source.html":[2,0,5,4,91],
+"db/d47/sv__physics_8qc.html":[2,0,3,2,7],
+"db/d47/sv__physics_8qc.html#a042dfde0db60e8645ae713d3de8d5641":[2,0,3,2,7,6],
 "db/d47/sv__physics_8qc.html#a2eb503fb3fc0571e20d780dd6981a0bc":[2,0,3,2,7,5],
 "db/d47/sv__physics_8qc.html#a302e8df9a5657cd0283badfac0739e83":[2,0,3,2,7,4],
 "db/d47/sv__physics_8qc.html#a50dd909e0a02aa3e18e75c75fffae1ec":[2,0,3,2,7,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX101 =
 "db/d5a/classXonoticHUDPowerupsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,197,3],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,197,82],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,197,80],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,197,46],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,197,24],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,197,17],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,197,72],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,197,69],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,197,68],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,197,7],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a255f060d3e9f13c3d11468c8982106a4":[1,0,197,67],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,197,70],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,197,4],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,197,41],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,197,19]
+"db/d5a/classXonoticHUDPowerupsDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,197,46]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"d4/d3b/classXonoticBigButton.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,149,58],
+"d4/d3b/classXonoticBigButton.html#a3f9c5e6943891f335099fe380661b70c":[1,0,149,28],
 "d4/d3b/classXonoticBigButton.html#a476349ed1a0d044310253e867c496c16":[1,0,149,42],
 "d4/d3b/classXonoticBigButton.html#a47ec54ba5a75b70927a3e25a09e6d5ea":[1,0,149,16],
 "d4/d3b/classXonoticBigButton.html#a4985255a6e0984252ab7ccedd6347d5b":[1,0,149,40],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "d4/d49/common_2mutators_2mutator_2kick__teamkiller_2__mod_8qh.html":[2,0,1,10,0,15,1],
 "d4/d49/common_2mutators_2mutator_2kick__teamkiller_2__mod_8qh_source.html":[2,0,1,10,0,15,1],
 "d4/d4c/corner_8qc.html":[2,0,1,6,1,2],
-"d4/d4c/corner_8qc_source.html":[2,0,1,6,1,2],
-"d4/d4c/dialog__multiplayer__media__demo_8qc.html":[2,0,5,4,102],
-"d4/d4c/dialog__multiplayer__media__demo_8qc.html#a3f9f2caf67aab8fc5b5de8a6127aae6a":[2,0,5,4,102,4]
+"d4/d4c/corner_8qc_source.html":[2,0,1,6,1,2]
 };
