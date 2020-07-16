@@ -116,5 +116,5 @@ var searchData=
   ['vr_5fspawn',['vr_spawn',['../dc/d23/classVehicle.html#a23b5d8a4e07000e6d08fe727bdf23471',1,'Vehicle']]],
   ['vr_5fthink',['vr_think',['../dc/d23/classVehicle.html#a96f9f5c3ac6195be77b33b68a49bed46',1,'Vehicle']]],
   ['vsnap',['vsnap',['../d0/d79/math_8qh.html#ab5b4052f66c618c61cb6bfeb5fbab22f',1,'math.qh']]],
-  ['vtos',['vtos',['../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2',1,'vtos(vector v):&#160;menudefs.qc'],['../d1/d07/framework_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2',1,'vtos(vector v):&#160;framework.qc']]]
+  ['vtos',['vtos',['../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2',1,'menudefs.qc']]]
 ];

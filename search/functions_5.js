@@ -41,7 +41,7 @@ var searchData=
   ['eprint',['eprint',['../d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15',1,'menudefs.qc']]],
   ['erf',['erf',['../df/d38/mathlib_8qc.html#a0513512658c82d265b98e105c7285297',1,'erf(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a0513512658c82d265b98e105c7285297',1,'erf(float e):&#160;mathlib.qc']]],
   ['erfc',['erfc',['../df/d38/mathlib_8qc.html#a1773a44b229521bc3921582f6d39cbfd',1,'erfc(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a1773a44b229521bc3921582f6d39cbfd',1,'erfc(float e):&#160;mathlib.qc']]],
-  ['error',['error',['../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2',1,'error(string err,...):&#160;menudefs.qc'],['../d1/d07/framework_8qc.html#af0b03969fc055dc81bb2454fca567998',1,'error(string e):&#160;framework.qc']]],
+  ['error',['error',['../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2',1,'menudefs.qc']]],
   ['etof',['etof',['../d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7',1,'menudefs.qc']]],
   ['etos',['etos',['../d8/de2/menudefs_8qc.html#afa1339a9821a14fdbaa610abaac80ef3',1,'menudefs.qc']]],
   ['event',['EVENT',['../d2/d6e/ecs_2events_2physics_8qh.html#a35060f36c00aa78b244b62f0b285ee78',1,'physics.qh']]],

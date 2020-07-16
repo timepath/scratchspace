@@ -334,5 +334,5 @@ var searchData=
   ['vtbl',['VTBL',['../db/d0a/oo_8qh.html#affebc3e5b45467922d5b040f93e132ce',1,'oo.qh']]],
   ['vtblbase',['vtblbase',['../db/d0a/oo_8qh.html#ab7246f79454bf896b228c49914b8decb',1,'oo.qh']]],
   ['vtblname',['vtblname',['../db/d0a/oo_8qh.html#ad51fa825f9684ce664ad4ca0b3131f5b',1,'oo.qh']]],
-  ['vtos',['vtos',['../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2',1,'vtos(vector v):&#160;menudefs.qc'],['../d1/d07/framework_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2',1,'vtos(vector v):&#160;framework.qc']]]
+  ['vtos',['vtos',['../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2',1,'menudefs.qc']]]
 ];

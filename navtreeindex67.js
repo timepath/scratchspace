@@ -1,13 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"d7/d9c/classMachineGunTurretAttack.html#ad7ccf84103c0dc50c2c00625f8fab823":[1,0,71,31],
-"d7/d9c/classMachineGunTurretAttack.html#ae194b82053f7fefe8dba64b54a40cc4c":[1,0,71,35],
-"d7/d9c/classMachineGunTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,71,27],
-"d7/d9c/classMachineGunTurretAttack.html#af1b051b958068eeba6d47b04096a3a2f":[1,0,71,34],
-"d7/d9c/classMachineGunTurretAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,71,18],
-"d7/da2/cl__player_8qc.html":[2,0,4,0,4],
-"d7/da2/cl__player_8qc.html#a01de4294979a63b0fc39d695cf277b1f":[2,0,4,0,4,29],
-"d7/da2/cl__player_8qc.html#a0427b5a62252de19211349ce52ef3ad3":[2,0,4,0,4,46],
 "d7/da2/cl__player_8qc.html#a0848a0159041f3099854e4defb8edf55":[2,0,4,0,4,41],
 "d7/da2/cl__player_8qc.html#a08681bb4fca2a5a6e7e41aa2d2a8f3c3":[2,0,4,0,4,17],
 "d7/da2/cl__player_8qc.html#a0f64d209d0c63261d50e064aab309a43":[2,0,4,0,4,47],
@@ -249,5 +241,13 @@ var NAVTREEINDEX67 =
 "d7/da7/server_2autocvars_8qh.html#a29449b94cbb6e640fff3fd55439a4e02":[2,0,6,12,125],
 "d7/da7/server_2autocvars_8qh.html#a296f22d6734ec4a7e810ab022fb0a0be":[2,0,6,12,280],
 "d7/da7/server_2autocvars_8qh.html#a29c417e2b5996653907004ee880e05ee":[2,0,6,12,97],
-"d7/da7/server_2autocvars_8qh.html#a2b43f149f9c2150bc15632b2911fc9ae":[2,0,6,12,101]
+"d7/da7/server_2autocvars_8qh.html#a2b43f149f9c2150bc15632b2911fc9ae":[2,0,6,12,101],
+"d7/da7/server_2autocvars_8qh.html#a2b7d5f525f50d50fb79b757a3dd73887":[2,0,6,12,220],
+"d7/da7/server_2autocvars_8qh.html#a2bba4ce044b3543b94ca4448be112703":[2,0,6,12,1],
+"d7/da7/server_2autocvars_8qh.html#a2c1f1fbc11eee72e21bda0bc39ce9c4f":[2,0,6,12,377],
+"d7/da7/server_2autocvars_8qh.html#a2c41e588db1877d982dff1193311e856":[2,0,6,12,248],
+"d7/da7/server_2autocvars_8qh.html#a2cdcf807c51d47d0bfab01bb7a949f87":[2,0,6,12,126],
+"d7/da7/server_2autocvars_8qh.html#a2d2226e6b4b056430a7d1c3e89528376":[2,0,6,12,515],
+"d7/da7/server_2autocvars_8qh.html#a2d3fd74a73e0f0c52780bb51ec912cd3":[2,0,6,12,438],
+"d7/da7/server_2autocvars_8qh.html#a2e2121f91f7d15329735e08b83d1f727":[2,0,6,12,364]
 };

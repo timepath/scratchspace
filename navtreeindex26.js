@@ -1,13 +1,5 @@
 var NAVTREEINDEX26 =
 {
-"d3/d1d/classOverkillNex.html#abb1bca66bce23d21c0d716285ab9575c":[1,0,95,36],
-"d3/d1d/classOverkillNex.html#abc826901e956f979649ef6658b6e6fa8":[1,0,95,37],
-"d3/d1d/classOverkillNex.html#ac0b5c9cb431b82cea7f2f0e1aa2784be":[1,0,95,28],
-"d3/d1d/classOverkillNex.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,95,11],
-"d3/d1d/classOverkillNex.html#ac32bac8d82004c7f529489d3cc32ca43":[1,0,95,31],
-"d3/d1d/classOverkillNex.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,95,8],
-"d3/d1d/classOverkillNex.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,95,3],
-"d3/d1d/classOverkillNex.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,95,23],
 "d3/d1d/classOverkillNex.html#ae1623f44413b7b31d20ad6e3533e5b2b":[1,0,95,33],
 "d3/d1d/classOverkillNex.html#ae4d2c6f3c76991896464b4e03312f691":[1,0,95,29],
 "d3/d1d/classOverkillNex.html#aedb36f5cb1e3f6bc4acb489b0394d25d":[1,0,95,34],
@@ -249,5 +241,13 @@ var NAVTREEINDEX26 =
 "d3/d47/classXonoticTabController.html#a236de9cc6ba5d15df5f7b9b8d364c56c":[1,0,255,55],
 "d3/d47/classXonoticTabController.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,255,38],
 "d3/d47/classXonoticTabController.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,255,22],
-"d3/d47/classXonoticTabController.html#a331c55a30b4bc22951a251062508326b":[1,0,255,14]
+"d3/d47/classXonoticTabController.html#a331c55a30b4bc22951a251062508326b":[1,0,255,14],
+"d3/d47/classXonoticTabController.html#a3490871a29ca8b28fc5fd108ab6d502c":[1,0,255,36],
+"d3/d47/classXonoticTabController.html#a362e89e4a7d913cf830c56fc477456be":[1,0,255,40],
+"d3/d47/classXonoticTabController.html#a3a907336ccc83979c4034d6154fac0da":[1,0,255,28],
+"d3/d47/classXonoticTabController.html#a3df66883cbd02b1b427fac0a46ce040a":[1,0,255,27],
+"d3/d47/classXonoticTabController.html#a3f9c5e6943891f335099fe380661b70c":[1,0,255,34],
+"d3/d47/classXonoticTabController.html#a4869983b8dc750584479ade5447c8413":[1,0,255,15],
+"d3/d47/classXonoticTabController.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,255,16],
+"d3/d47/classXonoticTabController.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,255,20]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"d1/d55/classXonoticGameHUDSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,178,42],
-"d1/d55/classXonoticGameHUDSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,178,9],
-"d1/d55/classXonoticGameHUDSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,178,3],
-"d1/d55/classXonoticGameHUDSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,178,76],
-"d1/d55/classXonoticGameHUDSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,178,84],
-"d1/d55/classXonoticGameHUDSettingsTab.html#a0d27ee7d11aed178297205e826c8e101":[1,0,178,26],
-"d1/d55/classXonoticGameHUDSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,178,81],
-"d1/d55/classXonoticGameHUDSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,178,50],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,178,28],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,178,70],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,178,11],
@@ -249,5 +241,13 @@ var NAVTREEINDEX10 =
 "d1/d5b/classRadioButton.html#ac0774bb98ca7dbc457a3028e9514c549":[1,0,112,49],
 "d1/d5b/classRadioButton.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,112,1],
 "d1/d5b/classRadioButton.html#ad3916b930a4e2a364ab072d2c3523edf":[1,0,112,4],
-"d1/d5b/classRadioButton.html#ad3fd3842dce4bfe4409e7be7b7d5e5ff":[1,0,112,23]
+"d1/d5b/classRadioButton.html#ad3fd3842dce4bfe4409e7be7b7d5e5ff":[1,0,112,23],
+"d1/d5b/classRadioButton.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,112,64],
+"d1/d5b/classRadioButton.html#ad8b9115dc1d65ac99e74ae1a36f56d05":[1,0,112,40],
+"d1/d5b/classRadioButton.html#adf2dea57b2330e856350cd2169500f8d":[1,0,112,13],
+"d1/d5b/classRadioButton.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,112,32],
+"d1/d5b/classRadioButton.html#aef17454d19baae5de77f47b1fb52deb1":[1,0,112,3],
+"d1/d5b/classRadioButton.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,112,30],
+"d1/d5b/classRadioButton.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,112,10],
+"d1/d5b/classRadioButton.html#af3a830d70442467db88dc9e6085943aa":[1,0,112,60]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"d3/dbe/classSlider.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,124,12],
-"d3/dbe/classSlider.html#a4e7cbd246f6764a75dc6408bae7bb571":[1,0,124,69],
-"d3/dbe/classSlider.html#a4f21f48b350dbede0ff84f7ecec1b17f":[1,0,124,70],
-"d3/dbe/classSlider.html#a5443afd02f77fd76625a075a627901ff":[1,0,124,35],
-"d3/dbe/classSlider.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,124,45],
-"d3/dbe/classSlider.html#a5c3e82c697908be9903332ed6b6cd46e":[1,0,124,19],
-"d3/dbe/classSlider.html#a5e35bf30440b529b5cbe9752bf19bf95":[1,0,124,41],
-"d3/dbe/classSlider.html#a5eb816d08bd102111b268f794d42d695":[1,0,124,38],
 "d3/dbe/classSlider.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,124,32],
 "d3/dbe/classSlider.html#a694b7bae9c3b1c4ac503e040aad68f07":[1,0,124,37],
 "d3/dbe/classSlider.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,124,3],
@@ -213,8 +205,8 @@ var NAVTREEINDEX31 =
 "d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87":[2,0,4,52,24],
 "d3/dd0/self_8qh.html#a15aa1aefc40b6101fd278636531103d1":[2,0,4,52,4],
 "d3/dd0/self_8qh.html#a203e953e46ef05b0373f8bccaeb5378c":[2,0,4,52,15],
-"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,10],
 "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,11],
+"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,10],
 "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,12],
 "d3/dd0/self_8qh.html#a259aac00ed43fd7ac58196b770963525":[2,0,4,52,6],
 "d3/dd0/self_8qh.html#a29c098c7bd67a60d2dd9d94db782aaa6":[2,0,4,52,0],
@@ -249,5 +241,13 @@ var NAVTREEINDEX31 =
 "d3/dd1/menu_2xonotic_2button_8qh.html#afa967f603e7a2d29dbd5badcc42997f9":[2,0,5,4,7,1],
 "d3/dd1/menu_2xonotic_2button_8qh_source.html":[2,0,5,4,7],
 "d3/dd1/server_2impulse_8qh.html":[2,0,6,34],
-"d3/dd1/server_2impulse_8qh.html#a592fd33e424a2e05854957b679c37e1b":[2,0,6,34,0]
+"d3/dd1/server_2impulse_8qh.html#a592fd33e424a2e05854957b679c37e1b":[2,0,6,34,0],
+"d3/dd1/server_2impulse_8qh_source.html":[2,0,6,34],
+"d3/dd3/common_2mutators_2mutator_2bugrigs_2__mod_8inc.html":[2,0,1,10,0,3,0],
+"d3/dd3/common_2mutators_2mutator_2bugrigs_2__mod_8inc_source.html":[2,0,1,10,0,3,0],
+"d3/dd3/sv__invincibleproj_8qc.html":[2,0,1,10,0,13,2],
+"d3/dd3/sv__invincibleproj_8qc.html#a0476920bc8bff7203e1b55fa4c94b5e1":[2,0,1,10,0,13,2,4],
+"d3/dd3/sv__invincibleproj_8qc.html#a1974f7f8f590fd01485135a1e1e416da":[2,0,1,10,0,13,2,2],
+"d3/dd3/sv__invincibleproj_8qc.html#a4769c50e8dacebc92bdcc08e3d8c7433":[2,0,1,10,0,13,2,1],
+"d3/dd3/sv__invincibleproj_8qc.html#abc4639ef18cd8c52a863f442d15cd398":[2,0,1,10,0,13,2,0]
 };

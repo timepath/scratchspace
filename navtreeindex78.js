@@ -1,13 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"d8/d8f/classXonoticInputBox.html#aae8095a1f0425143f951dd44d97bb3c1":[1,0,208,83],
-"d8/d8f/classXonoticInputBox.html#aaf63a24af65d087c271790b0dac16012":[1,0,208,1],
-"d8/d8f/classXonoticInputBox.html#ab0ef97f2aa25de5acc7f5cd5c91bc14c":[1,0,208,5],
-"d8/d8f/classXonoticInputBox.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,208,8],
-"d8/d8f/classXonoticInputBox.html#ab35e059ee8b3ede33b2184009607ce23":[1,0,208,15],
-"d8/d8f/classXonoticInputBox.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,208,73],
-"d8/d8f/classXonoticInputBox.html#ab6c9a7169a59664fadc10947c5a866ae":[1,0,208,71],
-"d8/d8f/classXonoticInputBox.html#ab6eefa0573ff767178dc4e703b5f69fb":[1,0,208,4],
 "d8/d8f/classXonoticInputBox.html#abc0c8283e997bd31641dede48d9e91d3":[1,0,208,48],
 "d8/d8f/classXonoticInputBox.html#ac2ea05aae099cd734fa143090065e902":[1,0,208,24],
 "d8/d8f/classXonoticInputBox.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,208,3],
@@ -249,5 +241,13 @@ var NAVTREEINDEX78 =
 "d8/da8/classXonoticServerCreateTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,243,18],
 "d8/da8/classXonoticServerCreateTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,243,75],
 "d8/da8/classXonoticServerCreateTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,243,37],
-"d8/da8/classXonoticServerCreateTab.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,243,20]
+"d8/da8/classXonoticServerCreateTab.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,243,20],
+"d8/da8/classXonoticServerCreateTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,243,5],
+"d8/da8/classXonoticServerCreateTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,243,25],
+"d8/da8/classXonoticServerCreateTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,243,66],
+"d8/da8/classXonoticServerCreateTab.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,243,61],
+"d8/da8/classXonoticServerCreateTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,243,2],
+"d8/da8/classXonoticServerCreateTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,243,47],
+"d8/da8/classXonoticServerCreateTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,243,51],
+"d8/da8/classXonoticServerCreateTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,243,13]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX112 =
 {
-"dc/d3d/csqcmodel__hooks_8qc.html#abdef5fa000daea2663d082046a110e10":[2,0,0,12,3],
-"dc/d3d/csqcmodel__hooks_8qc.html#abea5becd51afc048db807e874ba78e40":[2,0,0,12,29],
-"dc/d3d/csqcmodel__hooks_8qc.html#ac19ec3f81ef5660364e37a797b3d2a95":[2,0,0,12,0],
-"dc/d3d/csqcmodel__hooks_8qc.html#aca4aa10acc5a438527e50f9f1e41cda4":[2,0,0,12,24],
-"dc/d3d/csqcmodel__hooks_8qc.html#acb553a6cb9d1d7dd9b96d6f4e9c88bf3":[2,0,0,12,28],
-"dc/d3d/csqcmodel__hooks_8qc.html#accd8d6503887bb55560749ae4c2216fa":[2,0,0,12,38],
-"dc/d3d/csqcmodel__hooks_8qc.html#ad3da36c67529a9b3bf2d6e20a32f3d85":[2,0,0,12,27],
-"dc/d3d/csqcmodel__hooks_8qc.html#ad8f4702189f9e9e0bde8bfc1804dc17e":[2,0,0,12,57],
 "dc/d3d/csqcmodel__hooks_8qc.html#ade6f2c34ffcad4033d341921951429a7":[2,0,0,12,4],
 "dc/d3d/csqcmodel__hooks_8qc.html#ae01c0c2d6e00dad783dccc242b2b1034":[2,0,0,12,17],
 "dc/d3d/csqcmodel__hooks_8qc.html#aed7b08f9041e7366d7d07bd76a5b16c5":[2,0,0,12,10],
@@ -249,5 +241,13 @@ var NAVTREEINDEX112 =
 "dc/d73/server_2miscfunctions_8qh.html#a2f3f7e33fb5bc60212a8074ff9b80595":[2,0,6,44,2],
 "dc/d73/server_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944":[2,0,6,44,1],
 "dc/d73/server_2miscfunctions_8qh.html#a32e9dc7397ed2efb16728c179619f055":[2,0,6,44,97],
-"dc/d73/server_2miscfunctions_8qh.html#a34150498ceb2cfaa7494e6edbbddba51":[2,0,6,44,110]
+"dc/d73/server_2miscfunctions_8qh.html#a34150498ceb2cfaa7494e6edbbddba51":[2,0,6,44,110],
+"dc/d73/server_2miscfunctions_8qh.html#a356100fb9799e6f8e2754365f6994cb8":[2,0,6,44,65],
+"dc/d73/server_2miscfunctions_8qh.html#a3864dd00e6d914869ec70d29a30001a6":[2,0,6,44,111],
+"dc/d73/server_2miscfunctions_8qh.html#a39ca50f89d6bc328dbb562377b7f0176":[2,0,6,44,84],
+"dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896":[2,0,6,44,27],
+"dc/d73/server_2miscfunctions_8qh.html#a3c72b53854b08604a60086ad28dca2fb":[2,0,6,44,93],
+"dc/d73/server_2miscfunctions_8qh.html#a3f595687f904e846427f62493b2604a7":[2,0,6,44,100],
+"dc/d73/server_2miscfunctions_8qh.html#a404e684d8ae792ae9d300416e59f11c8":[2,0,6,44,102],
+"dc/d73/server_2miscfunctions_8qh.html#a410e46f892e7f134035c4afe149f8f27":[2,0,6,44,29]
 };

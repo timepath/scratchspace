@@ -264,7 +264,7 @@ var searchData=
   ['log_5finfof',['LOG_INFOF',['../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5',1,'log.qh']]],
   ['log_5fsevere',['LOG_SEVERE',['../db/da0/log_8qh.html#a8349e582c541a544b3eb5cfab6235dba',1,'log.qh']]],
   ['log_5fseveref',['LOG_SEVEREF',['../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e',1,'log.qh']]],
-  ['log_5ftrace',['LOG_TRACE',['../db/da0/log_8qh.html#a58c994180e09d2f6400133b19b1d7036',1,'LOG_TRACE():&#160;log.qh'],['../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd',1,'LOG_TRACE(string s,...):&#160;framework.qc']]],
+  ['log_5ftrace',['LOG_TRACE',['../db/da0/log_8qh.html#a58c994180e09d2f6400133b19b1d7036',1,'log.qh']]],
   ['log_5ftracef',['LOG_TRACEF',['../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b',1,'log.qh']]],
   ['log_5fwarn',['LOG_WARN',['../db/da0/log_8qh.html#add82efa459e0af380b68522c29b9fd44',1,'log.qh']]],
   ['log_5fwarnf',['LOG_WARNF',['../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9',1,'log.qh']]],

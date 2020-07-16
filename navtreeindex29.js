@@ -1,13 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,191,87],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,191,50],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,191,43],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,191,65],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,191,71],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,191,75],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,191,63],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#aa850350134b14fb6ad30eaa741f75fae":[1,0,191,57],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,191,64],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,191,9],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,191,78],
@@ -249,5 +241,13 @@ var NAVTREEINDEX29 =
 "d3/da9/classMineLayer.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,76,7],
 "d3/da9/classMineLayer.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,76,25],
 "d3/da9/classMineLayer.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,76,14],
-"d3/da9/classMineLayer.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,76,1]
+"d3/da9/classMineLayer.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,76,1],
+"d3/da9/classMineLayer.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,76,24],
+"d3/da9/classMineLayer.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,76,15],
+"d3/da9/classMineLayer.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,76,13],
+"d3/da9/classMineLayer.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,76,6],
+"d3/da9/classMineLayer.html#ab69c7a7956de2f9b43ba243a94285f6b":[1,0,76,26],
+"d3/da9/classMineLayer.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,76,11],
+"d3/da9/classMineLayer.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,76,8],
+"d3/da9/classMineLayer.html#ac72896c0e96c0f0bf6c088cb153ca74e":[1,0,76,28]
 };

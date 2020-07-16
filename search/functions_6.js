@@ -86,7 +86,7 @@ var searchData=
   ['fstrunzone',['fstrunzone',['../d2/db4/string_8qh.html#a87d5a82273957e1a3ef4a51c8b27f6ee',1,'string.qh']]],
   ['ft_5fremoveplayer',['ft_RemovePlayer',['../d3/d60/sv__freezetag_8qc.html#af97c2433bd423c0c85d333a28c600eea',1,'sv_freezetag.qc']]],
   ['ftoe',['ftoe',['../d8/de2/menudefs_8qc.html#a9e45cc9ba7545348f653425857419a14',1,'menudefs.qc']]],
-  ['ftos',['ftos',['../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76',1,'ftos(float f):&#160;menudefs.qc'],['../d1/d07/framework_8qc.html#abbb0d86741e0056b6c04f7280c185d76',1,'ftos(float f):&#160;framework.qc']]],
+  ['ftos',['ftos',['../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76',1,'menudefs.qc']]],
   ['ftos_5fdecimals',['ftos_decimals',['../d2/db4/string_8qh.html#a49cb9df0e85f064315fa093ad9c9ef80',1,'string.qh']]],
   ['ftos_5fmindecimals',['ftos_mindecimals',['../d2/db4/string_8qh.html#ad42b1c507805199c196102b52f28e84d',1,'string.qh']]],
   ['func_5fladder_5ftouch',['func_ladder_touch',['../d5/da1/ladder_8qc.html#aa26991a4996c0369c2f5c5d19eaf26f2',1,'ladder.qc']]],

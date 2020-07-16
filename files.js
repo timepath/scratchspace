@@ -6,6 +6,5 @@ var files =
     [ "ecs", "dir_eafb92770fbc727220bdaa0b1292f771.html", "dir_eafb92770fbc727220bdaa0b1292f771" ],
     [ "lib", "dir_97aefd0d527b934f1d99a682da8fe6a9.html", "dir_97aefd0d527b934f1d99a682da8fe6a9" ],
     [ "menu", "dir_baddde578d762c90c1d949a22a636838.html", "dir_baddde578d762c90c1d949a22a636838" ],
-    [ "server", "dir_41e1742e44e2de38b3bc91f993fed282.html", "dir_41e1742e44e2de38b3bc91f993fed282" ],
-    [ "server-testcase", "dir_c9b33d067c242428900b9dfa7f693c97.html", "dir_c9b33d067c242428900b9dfa7f693c97" ]
+    [ "server", "dir_41e1742e44e2de38b3bc91f993fed282.html", "dir_41e1742e44e2de38b3bc91f993fed282" ]
 ];

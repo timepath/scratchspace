@@ -1,13 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"d1/d39/classXonoticTeamSelectDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,256,48],
-"d1/d39/classXonoticTeamSelectDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,256,58],
-"d1/d39/classXonoticTeamSelectDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,256,88],
-"d1/d39/classXonoticTeamSelectDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,256,1],
-"d1/d39/classXonoticTeamSelectDialog.html#a3f00ca32ce8d459624c340719046ed33":[1,0,256,26],
-"d1/d39/classXonoticTeamSelectDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,256,41],
-"d1/d39/classXonoticTeamSelectDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,256,16],
-"d1/d39/classXonoticTeamSelectDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,256,77],
 "d1/d39/classXonoticTeamSelectDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,256,25],
 "d1/d39/classXonoticTeamSelectDialog.html#a4a7518e3c14fbafd506e8fffff29f251":[1,0,256,9],
 "d1/d39/classXonoticTeamSelectDialog.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,256,27],
@@ -249,5 +241,13 @@ var NAVTREEINDEX9 =
 "d1/d52/spiderbot_8qh_source.html":[2,0,1,15,0,15],
 "d1/d55/classXonoticGameHUDSettingsTab.html":[1,0,178],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,178,34],
-"d1/d55/classXonoticGameHUDSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,178,15]
+"d1/d55/classXonoticGameHUDSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,178,15],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,178,42],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,178,9],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,178,3],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,178,76],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,178,84],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a0d27ee7d11aed178297205e826c8e101":[1,0,178,26],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,178,81],
+"d1/d55/classXonoticGameHUDSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,178,50]
 };

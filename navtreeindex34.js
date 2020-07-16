@@ -1,13 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"d4/d0a/classXonoticMiscSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,217,84],
-"d4/d0a/classXonoticMiscSettingsTab.html#a0d70b85b390673511ff2dd8e70ae9154":[1,0,217,59],
-"d4/d0a/classXonoticMiscSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,217,81],
-"d4/d0a/classXonoticMiscSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,217,50],
-"d4/d0a/classXonoticMiscSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,217,28],
-"d4/d0a/classXonoticMiscSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,217,70],
-"d4/d0a/classXonoticMiscSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,217,11],
-"d4/d0a/classXonoticMiscSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,217,71],
 "d4/d0a/classXonoticMiscSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,217,4],
 "d4/d0a/classXonoticMiscSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,217,45],
 "d4/d0a/classXonoticMiscSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,217,23],
@@ -249,5 +241,13 @@ var NAVTREEINDEX34 =
 "d4/d0c/csprogsdefs_8qc.html#a3965eac8d9ed567f33d0ac25567f4856":[2,0,2,0,0,194],
 "d4/d0c/csprogsdefs_8qc.html#a39950a40e69b1c645cb4e8915c943f5a":[2,0,2,0,0,258],
 "d4/d0c/csprogsdefs_8qc.html#a3abcbe60732913a684a0f63395dcc7ea":[2,0,2,0,0,447],
-"d4/d0c/csprogsdefs_8qc.html#a3ac64c492819ec5c57cb375e41d6fa5a":[2,0,2,0,0,461]
+"d4/d0c/csprogsdefs_8qc.html#a3ac64c492819ec5c57cb375e41d6fa5a":[2,0,2,0,0,461],
+"d4/d0c/csprogsdefs_8qc.html#a3b775b609d9c8c038e103ca6d4e4aca6":[2,0,2,0,0,402],
+"d4/d0c/csprogsdefs_8qc.html#a3bdd3b71aa6f7ee802f522f95adfc0eb":[2,0,2,0,0,21],
+"d4/d0c/csprogsdefs_8qc.html#a3cb8cb686de07fb87dfebc682f424c27":[2,0,2,0,0,257],
+"d4/d0c/csprogsdefs_8qc.html#a3d1f74f6d1e7635a2bdda3f8795a0b6a":[2,0,2,0,0,84],
+"d4/d0c/csprogsdefs_8qc.html#a3e61132344a51c9c846280ef3ccd9e9a":[2,0,2,0,0,13],
+"d4/d0c/csprogsdefs_8qc.html#a3ea08e5e5bf00147522a93d30ce350d0":[2,0,2,0,0,327],
+"d4/d0c/csprogsdefs_8qc.html#a3f062a60eae6b965a3b84c38df6384b3":[2,0,2,0,0,121],
+"d4/d0c/csprogsdefs_8qc.html#a3f25ddf9698b98f6f7e944f9767b5594":[2,0,2,0,0,515]
 };

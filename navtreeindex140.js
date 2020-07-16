@@ -1,13 +1,5 @@
 var NAVTREEINDEX140 =
 {
-"df/df6/classXonoticSlider.html#aa5e6bccc7c5636f2bd16fc3a2d99e81d":[1,0,250,11],
-"df/df6/classXonoticSlider.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,250,54],
-"df/df6/classXonoticSlider.html#aad099a0549928c37867d05a5dde2a511":[1,0,250,65],
-"df/df6/classXonoticSlider.html#aaf1d36563233763f6e230f055e7f4488":[1,0,250,72],
-"df/df6/classXonoticSlider.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,250,5],
-"df/df6/classXonoticSlider.html#ab325261de54d0e642a09a739f14a1d98":[1,0,250,19],
-"df/df6/classXonoticSlider.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,250,62],
-"df/df6/classXonoticSlider.html#ac3bc03e849de03801fb2340494bebdd8":[1,0,250,2],
 "df/df6/classXonoticSlider.html#ac40c387fa816abb4367ff86fe85c386e":[1,0,250,34],
 "df/df6/classXonoticSlider.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,250,1],
 "df/df6/classXonoticSlider.html#ac9ab5df94b55a1b947c9069e4d3a86ad":[1,0,250,41],
@@ -239,7 +231,6 @@ var NAVTREEINDEX140 =
 "dir_c6da9de4494473068dbcc8756d965786.html":[2,0,5,1],
 "dir_c814fee23757456cb4490b5d684bd5e6.html":[2,0,1,3,0,12],
 "dir_c83288011515150628ea6201a715f126.html":[2,0,1,8],
-"dir_c9b33d067c242428900b9dfa7f693c97.html":[2,0,7],
 "dir_cf234ab9b9033f681804c9de340d1a43.html":[2,0,1,11],
 "dir_d24f071bcdba4c5ef82cde13271a7f33.html":[2,0,1,6,3],
 "dir_d2cfd6a11dc922a7fa47e23507d8dce8.html":[2,0,1,10,0,21],
@@ -249,5 +240,14 @@ var NAVTREEINDEX140 =
 "dir_d729e1ab68c1ac74eaa51e91eeaa4e9c.html":[2,0,1,3,0,9],
 "dir_da85d8bbd3532417aaf697237f5aceeb.html":[2,0,1,10,0,34],
 "dir_db3a54907829b36871118d03417739cd.html":[2,0,0],
-"dir_dbac0b98ebc23b841c7da477f5de39ea.html":[2,0,6,0,0]
+"dir_dbac0b98ebc23b841c7da477f5de39ea.html":[2,0,6,0,0],
+"dir_e220edc87b29ed8f83fd5a560ddf76b2.html":[2,0,1,5],
+"dir_e417185ead5e4d3394b43f6ad6b9840f.html":[2,0,1,10,0,11],
+"dir_e6c42c7209c9f61c67adece747613852.html":[2,0,1,9,0],
+"dir_e8d65224de9f0ea7401d27c4d8eb57f5.html":[2,0,1,3,0,3],
+"dir_e8f5083c96554dcbf094cef5dd04efba.html":[2,0,1,6,2],
+"dir_e993fb9997d93070d173d259a752cf4d.html":[2,0,1,10,0,3],
+"dir_e9bc208092084a9b02e28661ad42f174.html":[2,0,1,3,0,7],
+"dir_eafb92770fbc727220bdaa0b1292f771.html":[2,0,3],
+"dir_eb421a12fa3ad96b2d69a2d89197bc6b.html":[2,0,1,5,0]
 };

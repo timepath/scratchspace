@@ -1,13 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a5acde129549a09a7c5e99b8bc5555ebd":[1,0,263,29],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,263,39],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a66dc7c080c86babb8a59f97e5a1e82fa":[1,0,263,12],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a694b7bae9c3b1c4ac503e040aad68f07":[1,0,263,44],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a6c1cc42796dfc8787fb58ce0945fb6ea":[1,0,263,28],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,263,8],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a706c85a524ce44b84070ec439bbd9acd":[1,0,263,26],
-"d7/de6/classXonoticWeaponarenaCheckBox.html#a71607a3286f3b87ff841ff7ffe15a617":[1,0,263,63],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#a7806f5f95dccfaf7edc4e643e1e99e66":[1,0,263,56],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,263,17],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#a7ba277f3c886c7d391915d273fede63c":[1,0,263,65],
@@ -249,5 +241,13 @@ var NAVTREEINDEX74 =
 "d8/d12/classRaptor.html#a8ce2a1db2b82992926802c8ce6d7d22b":[1,0,113,1],
 "d8/d12/classRaptor.html#a91f922352c8e6ca7b9b56617c530b8b4":[1,0,113,11],
 "d8/d12/classRaptor.html#a962d81e9c45a8f2ad1349065e65d098f":[1,0,113,10],
-"d8/d12/classRaptor.html#a96f9f5c3ac6195be77b33b68a49bed46":[1,0,113,15]
+"d8/d12/classRaptor.html#a96f9f5c3ac6195be77b33b68a49bed46":[1,0,113,15],
+"d8/d12/classRaptor.html#a9d93074986d4ad3456faf34a02387fd0":[1,0,113,28],
+"d8/d12/classRaptor.html#ab0033bb43b823ae364fcaa9f6d73c520":[1,0,113,7],
+"d8/d12/classRaptor.html#ab8a521e4c2b1360fd8ffff369ece2428":[1,0,113,24],
+"d8/d12/classRaptor.html#abb0248cf77d78ec72661662614263acf":[1,0,113,29],
+"d8/d12/classRaptor.html#acc29b7a2d03f329a956b9df368157659":[1,0,113,21],
+"d8/d12/classRaptor.html#acd61673a42237365d55777d092f5f5ad":[1,0,113,13],
+"d8/d12/classRaptor.html#ad29884a3f395ad9d49c4eceab06a2957":[1,0,113,6],
+"d8/d12/classRaptor.html#ad2aa6eb80d6dcad5fa86a3c60f1cbfc4":[1,0,113,20]
 };
