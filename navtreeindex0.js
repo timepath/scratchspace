@@ -4,11 +4,12 @@ var NAVTREEINDEX0 =
 "classes.html":[1,1],
 "d0/d0a/classDuel.html":[1,0,32],
 "d0/d0a/classDuel.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,32,1],
-"d0/d0a/classDuel.html#a353db82280437c3b38f0ad1934a7d666":[1,0,32,18],
+"d0/d0a/classDuel.html#a353db82280437c3b38f0ad1934a7d666":[1,0,32,19],
 "d0/d0a/classDuel.html#a35cecb22602cb7f1a8394efb0390ad75":[1,0,32,13],
-"d0/d0a/classDuel.html#a48219a8b6e9dc1e20431926319aa7aa3":[1,0,32,19],
+"d0/d0a/classDuel.html#a48219a8b6e9dc1e20431926319aa7aa3":[1,0,32,20],
 "d0/d0a/classDuel.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,32,14],
 "d0/d0a/classDuel.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,32,8],
+"d0/d0a/classDuel.html#a6029db0de09a0293986e7a082970775a":[1,0,32,18],
 "d0/d0a/classDuel.html#a689c2a1afc56d93f77ebdebad6b168bf":[1,0,32,11],
 "d0/d0a/classDuel.html#a79d949cd9a682e06b131d370b46b7ee5":[1,0,32,12],
 "d0/d0a/classDuel.html#a87258d972a8b677bc431c763afd6e0fb":[1,0,32,15],
@@ -18,7 +19,8 @@ var NAVTREEINDEX0 =
 "d0/d0a/classDuel.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,32,17],
 "d0/d0a/classDuel.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,32,4],
 "d0/d0a/classDuel.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,32,3],
-"d0/d0a/classDuel.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,32,20],
+"d0/d0a/classDuel.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,32,22],
+"d0/d0a/classDuel.html#ad15993848bc92a1c7bf0c70aeee7bbd2":[1,0,32,21],
 "d0/d0a/classDuel.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,32,6],
 "d0/d0a/classDuel.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,32,7],
 "d0/d0a/classDuel.html#ae9227aebbcb0aaca925bbdc438958136":[1,0,32,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "d0/d25/classXonoticStatsList.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,253,1],
 "d0/d25/classXonoticStatsList.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,253,35],
 "d0/d25/classXonoticStatsList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,253,22],
-"d0/d28/classMage.html":[1,0,72],
-"d0/d28/classMage.html#a1b84dbe029d909c54678e27a659c4793":[1,0,72,0],
-"d0/d28/classMage.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,72,9]
+"d0/d28/classMage.html":[1,0,72]
 };

@@ -18,7 +18,9 @@ var classDeathmatch =
     [ "m_parse_mapinfo", "d8/dd3/classDeathmatch.html#a87258d972a8b677bc431c763afd6e0fb", null ],
     [ "frags", "d8/dd3/classDeathmatch.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "d8/dd3/classDeathmatch.html#ab19cc492a58b50138d04d98c704e61c7", null ],
+    [ "m_hidelimits", "d8/dd3/classDeathmatch.html#a6029db0de09a0293986e7a082970775a", null ],
     [ "m_id", "d8/dd3/classDeathmatch.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d8/dd3/classDeathmatch.html#a8b775d2f320d51836471e17e324002b8", null ],
+    [ "m_priority", "d8/dd3/classDeathmatch.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
     [ "team", "d8/dd3/classDeathmatch.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

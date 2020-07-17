@@ -19,7 +19,9 @@ var classClanArena =
     [ "m_setTeams", "da/def/classClanArena.html#a2fc71291259528295ec77875fe2a16f8", null ],
     [ "frags", "da/def/classClanArena.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "da/def/classClanArena.html#ab19cc492a58b50138d04d98c704e61c7", null ],
+    [ "m_hidelimits", "da/def/classClanArena.html#a6029db0de09a0293986e7a082970775a", null ],
     [ "m_id", "da/def/classClanArena.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "da/def/classClanArena.html#ad37c29a0bbe0c184de1f7584ae36c5ed", null ],
+    [ "m_priority", "da/def/classClanArena.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
     [ "team", "da/def/classClanArena.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

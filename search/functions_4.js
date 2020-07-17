@@ -158,7 +158,7 @@ var searchData=
   ['drawammoitem',['DrawAmmoItem',['../dd/d85/client_2hud_2panel_2ammo_8qc.html#ae7ffb410f94aaa85f977803dd74d1f71',1,'ammo.qc']]],
   ['drawbackground',['drawBackground',['../df/dc2/menu_8qc.html#abb122747ce3abb1b3feef039f875adbe',1,'menu.qc']]],
   ['drawborderlines',['drawborderlines',['../dc/d98/client_2miscfunctions_8qc.html#a6d052d69b73c05b41ab3c1636778baa7',1,'drawborderlines(float thickness, vector pos, vector dim, vector color, float theAlpha, float drawflag):&#160;miscfunctions.qc'],['../d8/db6/client_2miscfunctions_8qh.html#a6d052d69b73c05b41ab3c1636778baa7',1,'drawborderlines(float thickness, vector pos, vector dim, vector color, float theAlpha, float drawflag):&#160;miscfunctions.qc']]],
-  ['drawcaitem',['DrawCAItem',['../dd/d59/modicons_8qc.html#a2ef359c7f27b5e4f5deb34df765cf6b0',1,'modicons.qc']]],
+  ['drawcaitem',['DrawCAItem',['../d9/db1/cl__clanarena_8qc.html#a2ef359c7f27b5e4f5deb34df765cf6b0',1,'cl_clanarena.qc']]],
   ['drawcharacter',['drawcharacter',['../d8/de2/menudefs_8qc.html#ae2ab19f6497321ea0345ed9b0e35bbe7',1,'menudefs.qc']]],
   ['drawcircleclippedpic',['DrawCircleClippedPic',['../dc/d98/client_2miscfunctions_8qc.html#ab82e3b5481aefcca1ae05ea36128abef',1,'DrawCircleClippedPic(vector centre, float radi, string pic, float f, vector rgb, float a, float drawflag):&#160;miscfunctions.qc'],['../d8/db6/client_2miscfunctions_8qh.html#ab82e3b5481aefcca1ae05ea36128abef',1,'DrawCircleClippedPic(vector centre, float radi, string pic, float f, vector rgb, float a, float drawflag):&#160;miscfunctions.qc']]],
   ['drawcolorcodedstring',['drawcolorcodedstring',['../d8/de2/menudefs_8qc.html#a66804fbc3a76c60d59f50aa1bc4557d1',1,'menudefs.qc']]],

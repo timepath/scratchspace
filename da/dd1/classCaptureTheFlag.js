@@ -19,7 +19,9 @@ var classCaptureTheFlag =
     [ "m_setTeams", "da/dd1/classCaptureTheFlag.html#ac949f50dbac754e88c67b57f63051039", null ],
     [ "frags", "da/dd1/classCaptureTheFlag.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "da/dd1/classCaptureTheFlag.html#ab19cc492a58b50138d04d98c704e61c7", null ],
+    [ "m_hidelimits", "da/dd1/classCaptureTheFlag.html#a6029db0de09a0293986e7a082970775a", null ],
     [ "m_id", "da/dd1/classCaptureTheFlag.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "da/dd1/classCaptureTheFlag.html#af2dbc193e6456856e3745b3cb47500bb", null ],
+    [ "m_priority", "da/dd1/classCaptureTheFlag.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
     [ "team", "da/dd1/classCaptureTheFlag.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

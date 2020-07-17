@@ -19,7 +19,9 @@ var classRaceCTS =
     [ "m_setTeams", "d6/d96/classRaceCTS.html#a5626374345176757fae169da0ab1cb1f", null ],
     [ "frags", "d6/d96/classRaceCTS.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "d6/d96/classRaceCTS.html#ab19cc492a58b50138d04d98c704e61c7", null ],
+    [ "m_hidelimits", "d6/d96/classRaceCTS.html#a6029db0de09a0293986e7a082970775a", null ],
     [ "m_id", "d6/d96/classRaceCTS.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d6/d96/classRaceCTS.html#ad555048e655a99d3c7055b0cf930db2a", null ],
+    [ "m_priority", "d6/d96/classRaceCTS.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
     [ "team", "d6/d96/classRaceCTS.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

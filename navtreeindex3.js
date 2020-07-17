@@ -1,5 +1,12 @@
 var NAVTREEINDEX3 =
 {
+"d0/d6e/impulses_2all_8qh.html#a67eaefc7464287e1c03d1aa737c6f940":[2,0,1,4,3,0],
+"d0/d6e/impulses_2all_8qh.html#a6839d4a65da268e9581368589949aaf8":[2,0,1,4,3,30],
+"d0/d6e/impulses_2all_8qh.html#a6b0ed98120d3384494235c0337a1d354":[2,0,1,4,3,1],
+"d0/d6e/impulses_2all_8qh.html#a795c62cc76a774949d1755112b81d787":[2,0,1,4,3,22],
+"d0/d6e/impulses_2all_8qh.html#a87c9ba9426d76d0e83a555391e19d5b8":[2,0,1,4,3,8],
+"d0/d6e/impulses_2all_8qh.html#a96e9871f2a404b84b947137c554419fa":[2,0,1,4,3,25],
+"d0/d6e/impulses_2all_8qh.html#a9bb1cc539114b393e19c7e991898e2ed":[2,0,1,4,3,2],
 "d0/d6e/impulses_2all_8qh.html#a9f83e65e9f79887eddc2b6b17740882c":[2,0,1,4,3,4],
 "d0/d6e/impulses_2all_8qh.html#aa107b18b2f12e0b45d8d9357a5058abf":[2,0,1,4,3,32],
 "d0/d6e/impulses_2all_8qh.html#aa959647d8d01ba6de9dcf88371199c84":[2,0,1,4,3,26],
@@ -24,6 +31,10 @@ var NAVTREEINDEX3 =
 "d0/d6e/impulses_2all_8qh_source.html":[2,0,1,4,3],
 "d0/d70/server_2weapons_2__mod_8inc.html":[2,0,6,5,0],
 "d0/d70/server_2weapons_2__mod_8inc_source.html":[2,0,6,5,0],
+"d0/d71/duel_8qh.html":[2,0,1,3,0,6,3],
+"d0/d71/duel_8qh.html#aa0c07ae03e65aa6b40ff3dd609a883c2":[2,0,1,3,0,6,3,2],
+"d0/d71/duel_8qh.html#af14c23e3077f7a69fd825708148cad1c":[2,0,1,3,0,6,3,1],
+"d0/d71/duel_8qh_source.html":[2,0,1,3,0,6,3],
 "d0/d72/lib_2warpzone_2client_8qc.html":[2,0,4,2,4],
 "d0/d72/lib_2warpzone_2client_8qc.html#a18508bf93d97584800184066cf8e520a":[2,0,4,2,4,11],
 "d0/d72/lib_2warpzone_2client_8qc.html#a274e545688e9b9fd16d9ecef34d7a074":[2,0,4,2,4,13],
@@ -238,16 +249,5 @@ var NAVTREEINDEX3 =
 "d0/d8b/common_2constants_8qh.html":[2,0,1,29],
 "d0/d8b/common_2constants_8qh.html#a095ea4732a8f4b9969aa692f7d6c8bd4":[2,0,1,29,9],
 "d0/d8b/common_2constants_8qh.html#a0aa16fb4b5a880866ece61e87fab71ed":[2,0,1,29,29],
-"d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb":[2,0,1,29,23],
-"d0/d8b/common_2constants_8qh.html#a18df8f3283e5d34055f11657c529e421":[2,0,1,29,34],
-"d0/d8b/common_2constants_8qh.html#a19c195dfb4fe2515fff13c5bf1803257":[2,0,1,29,16],
-"d0/d8b/common_2constants_8qh.html#a1cb919cfd08037b7e1a3d226460d215c":[2,0,1,29,25],
-"d0/d8b/common_2constants_8qh.html#a1cccd9e59e5964a2aea803d3bfede97c":[2,0,1,29,32],
-"d0/d8b/common_2constants_8qh.html#a1f44d2dc612d95498959e1e389126789":[2,0,1,29,12],
-"d0/d8b/common_2constants_8qh.html#a2484ad7e0727cf4a5404649cad71c070":[2,0,1,29,24],
-"d0/d8b/common_2constants_8qh.html#a29288c622060cd640541639a45ee2b52":[2,0,1,29,7],
-"d0/d8b/common_2constants_8qh.html#a2b88d9f66de4e6e3cb6e34733d940d44":[2,0,1,29,2],
-"d0/d8b/common_2constants_8qh.html#a2fb658d4692ce7a4aad66a37d2d77311":[2,0,1,29,8],
-"d0/d8b/common_2constants_8qh.html#a40128d49216e2a2f57a563ecf9be33be":[2,0,1,29,26],
-"d0/d8b/common_2constants_8qh.html#a40774b797818eadce12069d64081f984":[2,0,1,29,19]
+"d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb":[2,0,1,29,23]
 };

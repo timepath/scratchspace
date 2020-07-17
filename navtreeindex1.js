@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"d0/d28/classMage.html#a1b84dbe029d909c54678e27a659c4793":[1,0,72,0],
+"d0/d28/classMage.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,72,9],
 "d0/d28/classMage.html#a6dcca2c26e36342b5286873a74793cae":[1,0,72,2],
 "d0/d28/classMage.html#a718c7aa6406f86acf615ba58861cfdc4":[1,0,72,7],
 "d0/d28/classMage.html#a73c9c1c97a316361f023496bfa313416":[1,0,72,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "d0/d41/menu_8qh.html#a1f9c058f2d114a39a44bf624593537c2":[2,0,5,16,23],
 "d0/d41/menu_8qh.html#a23677d034dc6d8a97a8c46075e63a45d":[2,0,5,16,1],
 "d0/d41/menu_8qh.html#a2884065abdd89fe2349ff849e8f0d338":[2,0,5,16,5],
-"d0/d41/menu_8qh.html#a352244e0d6f2bdbf4b7fb6c896188eaf":[2,0,5,16,25],
-"d0/d41/menu_8qh.html#a3cd39adc5a015bbc00182b0adf0aea8a":[2,0,5,16,16],
-"d0/d41/menu_8qh.html#a3d10a92a0b5efff2067efd3580ece642":[2,0,5,16,8]
+"d0/d41/menu_8qh.html#a352244e0d6f2bdbf4b7fb6c896188eaf":[2,0,5,16,25]
 };

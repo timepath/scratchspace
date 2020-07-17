@@ -18,7 +18,9 @@ var classDomination =
     [ "m_parse_mapinfo", "d2/d88/classDomination.html#abd8c38cc79b962b76c29572d618b9fd4", null ],
     [ "frags", "d2/d88/classDomination.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "d2/d88/classDomination.html#ab19cc492a58b50138d04d98c704e61c7", null ],
+    [ "m_hidelimits", "d2/d88/classDomination.html#a6029db0de09a0293986e7a082970775a", null ],
     [ "m_id", "d2/d88/classDomination.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d2/d88/classDomination.html#a9fe1a8c5f5e8e087e4e5d252452318af", null ],
+    [ "m_priority", "d2/d88/classDomination.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
     [ "team", "d2/d88/classDomination.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

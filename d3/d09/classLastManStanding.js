@@ -18,7 +18,9 @@ var classLastManStanding =
     [ "m_parse_mapinfo", "d3/d09/classLastManStanding.html#a87258d972a8b677bc431c763afd6e0fb", null ],
     [ "frags", "d3/d09/classLastManStanding.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "d3/d09/classLastManStanding.html#ab19cc492a58b50138d04d98c704e61c7", null ],
+    [ "m_hidelimits", "d3/d09/classLastManStanding.html#a6029db0de09a0293986e7a082970775a", null ],
     [ "m_id", "d3/d09/classLastManStanding.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d3/d09/classLastManStanding.html#a5b8b7c328b4a49b57dd827eda3d89760", null ],
+    [ "m_priority", "d3/d09/classLastManStanding.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
     [ "team", "d3/d09/classLastManStanding.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

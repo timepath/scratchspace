@@ -305,6 +305,8 @@ var searchData=
   ['freeze_5forg',['freeze_org',['../d6/dd3/view_8qc.html#a7f8a43236e09b4c3ce63af7218a9ae96',1,'view.qc']]],
   ['freeze_5ftime',['freeze_time',['../d5/d26/server_2defs_8qh.html#a7b46920a43ed8a0cc53ab1c517a26d4d',1,'defs.qh']]],
   ['freezetag',['FreezeTag',['../d1/de2/classFreezeTag.html',1,'FreezeTag'],['../d1/de2/classFreezeTag.html#ad5f1233d3e17b179710ce940bed9c99e',1,'FreezeTag::FreezeTag()']]],
+  ['freezetag_2eqc',['freezetag.qc',['../d3/da0/freezetag_8qc.html',1,'']]],
+  ['freezetag_2eqh',['freezetag.qh',['../da/d56/freezetag_8qh.html',1,'']]],
   ['freezetag_5fadd_5fscore',['freezetag_Add_Score',['../d3/d60/sv__freezetag_8qc.html#a93cb74d10f623856d7c09250f69f4aac',1,'sv_freezetag.qc']]],
   ['freezetag_5fcheckteams',['freezetag_CheckTeams',['../d3/d60/sv__freezetag_8qc.html#ac8afc1e08193f20ab1164638901f2eeb',1,'sv_freezetag.qc']]],
   ['freezetag_5fcheckwinner',['freezetag_CheckWinner',['../d3/d60/sv__freezetag_8qc.html#ad5bd998b873b2096a2e53e06f0a228cf',1,'sv_freezetag.qc']]],

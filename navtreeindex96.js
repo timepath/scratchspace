@@ -1,11 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"da/db7/classXonoticServerInfoDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,244,66],
-"da/db7/classXonoticServerInfoDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,244,86],
-"da/db7/classXonoticServerInfoDialog.html#acf1fbfa3e4b39e93f94893b20133e2c8":[1,0,244,10],
-"da/db7/classXonoticServerInfoDialog.html#acfe2ee487feac145a05fd4d8ceb2ba1f":[1,0,244,5],
-"da/db7/classXonoticServerInfoDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,244,63],
-"da/db7/classXonoticServerInfoDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,244,113],
 "da/db7/classXonoticServerInfoDialog.html#ad070c3210a4dc78468a1568bfcfb2f60":[1,0,244,60],
 "da/db7/classXonoticServerInfoDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,244,91],
 "da/db7/classXonoticServerInfoDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,244,116],
@@ -233,9 +227,10 @@ var NAVTREEINDEX96 =
 "da/dd1/classCaptureTheFlag.html":[1,0,15],
 "da/dd1/classCaptureTheFlag.html#a1607fee5ff312589eb22131e314eef3d":[1,0,15,0],
 "da/dd1/classCaptureTheFlag.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,15,1],
-"da/dd1/classCaptureTheFlag.html#a353db82280437c3b38f0ad1934a7d666":[1,0,15,19],
+"da/dd1/classCaptureTheFlag.html#a353db82280437c3b38f0ad1934a7d666":[1,0,15,20],
 "da/dd1/classCaptureTheFlag.html#a503201efc30576e8c0d77715b14c7a09":[1,0,15,11],
 "da/dd1/classCaptureTheFlag.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,15,8],
+"da/dd1/classCaptureTheFlag.html#a6029db0de09a0293986e7a082970775a":[1,0,15,19],
 "da/dd1/classCaptureTheFlag.html#a66645bf5e9723478c84fe45286f33fa3":[1,0,15,10],
 "da/dd1/classCaptureTheFlag.html#a6a4ef0b5fd8bae0ab59aeab09a26c2e7":[1,0,15,14],
 "da/dd1/classCaptureTheFlag.html#a7880c3511ceeabb277b860085f1073ee":[1,0,15,12],
@@ -244,10 +239,15 @@ var NAVTREEINDEX96 =
 "da/dd1/classCaptureTheFlag.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,15,18],
 "da/dd1/classCaptureTheFlag.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,15,4],
 "da/dd1/classCaptureTheFlag.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,15,3],
-"da/dd1/classCaptureTheFlag.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,15,21],
+"da/dd1/classCaptureTheFlag.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,15,23],
 "da/dd1/classCaptureTheFlag.html#ac949f50dbac754e88c67b57f63051039":[1,0,15,16],
+"da/dd1/classCaptureTheFlag.html#ad15993848bc92a1c7bf0c70aeee7bbd2":[1,0,15,22],
 "da/dd1/classCaptureTheFlag.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,15,6],
 "da/dd1/classCaptureTheFlag.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,15,7],
 "da/dd1/classCaptureTheFlag.html#ae9227aebbcb0aaca925bbdc438958136":[1,0,15,17],
-"da/dd1/classCaptureTheFlag.html#aef3a65f4987590d66b653b91180860ca":[1,0,15,9]
+"da/dd1/classCaptureTheFlag.html#aef3a65f4987590d66b653b91180860ca":[1,0,15,9],
+"da/dd1/classCaptureTheFlag.html#af1a6db9207b7000984864c8176081b52":[1,0,15,13],
+"da/dd1/classCaptureTheFlag.html#af2dbc193e6456856e3745b3cb47500bb":[1,0,15,21],
+"da/dd1/classCaptureTheFlag.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,15,5],
+"da/dd4/effectinfo__onslaught_8inc.html":[2,0,1,2,18]
 };

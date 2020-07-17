@@ -17,7 +17,9 @@ var classGametype =
     [ "m_parse_mapinfo", "d1/d6b/classGametype.html#a87258d972a8b677bc431c763afd6e0fb", null ],
     [ "frags", "d1/d6b/classGametype.html#ae9227aebbcb0aaca925bbdc438958136", null ],
     [ "items", "d1/d6b/classGametype.html#ab19cc492a58b50138d04d98c704e61c7", null ],
+    [ "m_hidelimits", "d1/d6b/classGametype.html#a6029db0de09a0293986e7a082970775a", null ],
     [ "m_id", "d1/d6b/classGametype.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d1/d6b/classGametype.html#a48219a8b6e9dc1e20431926319aa7aa3", null ],
+    [ "m_priority", "d1/d6b/classGametype.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
     [ "team", "d1/d6b/classGametype.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

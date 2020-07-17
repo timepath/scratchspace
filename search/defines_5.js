@@ -152,6 +152,8 @@ var searchData=
   ['ev_5fsetresource',['EV_SetResource',['../d6/ddd/server_2mutators_2events_8qh.html#ab0c647e82f4e5af11e0975c2b3c7112b',1,'events.qh']]],
   ['ev_5fsetweaponarena',['EV_SetWeaponArena',['../d6/ddd/server_2mutators_2events_8qh.html#af89a99ddd5f875229218867fdd19109b',1,'events.qh']]],
   ['ev_5fsetweaponreplace',['EV_SetWeaponreplace',['../d6/ddd/server_2mutators_2events_8qh.html#a39e2db370cd7a1e148594c4d17fe0d1f',1,'events.qh']]],
+  ['ev_5fshownames_5fdraw',['EV_ShowNames_Draw',['../d8/d0e/client_2mutators_2events_8qh.html#a23e5dc96dea9852c4b43e4d7c1f48ab3',1,'events.qh']]],
+  ['ev_5fshowrankings',['EV_ShowRankings',['../d8/d0e/client_2mutators_2events_8qh.html#ae0c82cddfccb73421b2c84dea3f39b3c',1,'events.qh']]],
   ['ev_5fskeleton_5fcheckbones',['EV_Skeleton_CheckBones',['../d8/d0e/client_2mutators_2events_8qh.html#a5e5156dd306c9a01e35a9e4d3c28f43e',1,'events.qh']]],
   ['ev_5fskeleton_5fcheckmodel',['EV_Skeleton_CheckModel',['../d8/d0e/client_2mutators_2events_8qh.html#a05a15144a0c4454d3b267e709971ae65',1,'events.qh']]],
   ['ev_5fspawn_5fscore',['EV_Spawn_Score',['../d6/ddd/server_2mutators_2events_8qh.html#a8d93b872c3b0f1e001c13e7549a3faa2',1,'events.qh']]],

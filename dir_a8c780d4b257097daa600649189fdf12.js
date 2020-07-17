@@ -5,7 +5,7 @@ var dir_a8c780d4b257097daa600649189fdf12 =
     [ "cl_keyhunt.qc", "d5/d64/cl__keyhunt_8qc.html", "d5/d64/cl__keyhunt_8qc" ],
     [ "cl_keyhunt.qh", "dc/dce/cl__keyhunt_8qh.html", "dc/dce/cl__keyhunt_8qh" ],
     [ "keyhunt.qc", "dc/d44/keyhunt_8qc.html", null ],
-    [ "keyhunt.qh", "d9/d74/keyhunt_8qh.html", null ],
+    [ "keyhunt.qh", "d9/d74/keyhunt_8qh.html", "d9/d74/keyhunt_8qh" ],
     [ "sv_keyhunt.qc", "da/d2c/sv__keyhunt_8qc.html", "da/d2c/sv__keyhunt_8qc" ],
     [ "sv_keyhunt.qh", "db/d62/sv__keyhunt_8qh.html", "db/d62/sv__keyhunt_8qh" ]
 ];
