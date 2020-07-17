@@ -132,7 +132,7 @@ var NAVTREEINDEX =
 "db/d3c/classArc.html#ad5415bf8852fce4b7aee2bb71fe284dd",
 "db/d5a/classXonoticHUDPowerupsDialog.html#a15ad4d54eac1ac669152e86d7c08c174",
 "db/d66/common_2gamemodes_2gamemode_2domination_2__mod_8qh_source.html",
-"db/d7f/effectinfo_8inc.html#a4eb21a1adda919ac91fc4f6880ed7b24",
+"db/d7f/effectinfo_8inc.html#a4f2841554641525aa83c7fb40731db19",
 "db/d7f/effectinfo_8inc.html#af17352e09df984d6ac514098ea10b4ac",
 "db/db1/classXonoticHUDRaceTimerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d",
 "db/dbd/classXonoticHUDPressedKeysDialog.html#acb8d0e4dab1db46676d930589dd395ee",
