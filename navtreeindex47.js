@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"d5/d26/server_2defs_8qh.html#a1af62b08fa4568eb824b39cccc803e57":[2,0,6,22,262],
 "d5/d26/server_2defs_8qh.html#a1b25d8e95136b5a09a597e62b3d1bc4c":[2,0,6,22,94],
 "d5/d26/server_2defs_8qh.html#a1b65a42fdab6dd120422cf8e3e7d3df7":[2,0,6,22,243],
 "d5/d26/server_2defs_8qh.html#a1c3633042c332123715fd7a35136a449":[2,0,6,22,220],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "d5/d37/server_2matrix_8qh_source.html":[2,0,6,42],
 "d5/d3a/checkbox__string_8qh.html":[2,0,5,4,17],
 "d5/d3a/checkbox__string_8qh.html#a99bf8fc9169855784af2af3cb71c8998":[2,0,5,4,17,1],
-"d5/d3a/checkbox__string_8qh_source.html":[2,0,5,4,17],
-"d5/d3a/duel_8qc.html":[2,0,1,3,0,6,2]
+"d5/d3a/checkbox__string_8qh_source.html":[2,0,5,4,17]
 };

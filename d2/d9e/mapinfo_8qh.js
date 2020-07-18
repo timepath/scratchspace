@@ -37,6 +37,7 @@ var mapinfo_8qh =
     [ "MapInfo_Type_ToString", "d2/d9e/mapinfo_8qh.html#a3f161ef2731e7a99667785631c18ae4b", null ],
     [ "MapInfo_Type_ToText", "d2/d9e/mapinfo_8qh.html#aaa2f22ba4219608acd37ebed9cbe56f8", null ],
     [ "REGISTRY_SORT", "d2/d9e/mapinfo_8qh.html#a74a44f0f9459ab804af87173e902d661", null ],
+    [ "STATIC_INIT", "d2/d9e/mapinfo_8qh.html#a6a1cf1edf7314fe606f997b08df8c562", null ],
     [ "GAMETYPE_FLAG_HIDELIMITS", "d2/d9e/mapinfo_8qh.html#ae8bf3d3dc5f9b9d25e126facd1b5bc95", null ],
     [ "GAMETYPE_FLAG_PREFERRED", "d2/d9e/mapinfo_8qh.html#aeb2251afed30fcadb39ec8cd435b2281", null ],
     [ "GAMETYPE_FLAG_PRIORITY", "d2/d9e/mapinfo_8qh.html#a0eb1cdd2bbddaf868979d3af8d2805f3", null ],
