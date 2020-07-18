@@ -1,12 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"d3/d59/sv__sandbox_8qc.html#a33e0a9447a19c2c0c0b4b662f787fb78":[2,0,1,10,0,31,2,32],
-"d3/d59/sv__sandbox_8qc.html#a34da195793c61b52052739fb948b433d":[2,0,1,10,0,31,2,8],
-"d3/d59/sv__sandbox_8qc.html#a392757d99e1b448c7c572719b9502556":[2,0,1,10,0,31,2,24],
-"d3/d59/sv__sandbox_8qc.html#a4e24361734484bb65206a7d57fd4cf29":[2,0,1,10,0,31,2,33],
-"d3/d59/sv__sandbox_8qc.html#a52ed48e37a954c876eca71bb7c0123e4":[2,0,1,10,0,31,2,37],
-"d3/d59/sv__sandbox_8qc.html#a53123d331fba777cd66f0c0a3a5e005e":[2,0,1,10,0,31,2,34],
-"d3/d59/sv__sandbox_8qc.html#a5b5823ae7d9b77abde768fe7ff69b2c6":[2,0,1,10,0,31,2,35],
 "d3/d59/sv__sandbox_8qc.html#a636af450f3ee8ba2a5bb1adcd5cf8348":[2,0,1,10,0,31,2,31],
 "d3/d59/sv__sandbox_8qc.html#a63e6e03a2df83862c086edf5d49e7f2b":[2,0,1,10,0,31,2,29],
 "d3/d59/sv__sandbox_8qc.html#a6f79da83c2648a1ac994c05e6fe5fc6d":[2,0,1,10,0,31,2,1],
@@ -249,5 +242,12 @@ var NAVTREEINDEX28 =
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,191,73],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,191,21],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,191,23],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,191,48]
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,191,48],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,191,26],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,191,55],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,191,32],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a4e21db3974005d6a1a42956c5940f445":[1,0,191,58],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,191,40],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,191,62],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,191,74]
 };

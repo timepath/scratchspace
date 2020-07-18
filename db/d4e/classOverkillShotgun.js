@@ -1,7 +1,6 @@
 var classOverkillShotgun =
 [
     [ "ATTRIB", "db/d4e/classOverkillShotgun.html#a7515d4131829927372fd6583d4ae610a", null ],
-    [ "ATTRIB", "db/d4e/classOverkillShotgun.html#aa519f8da1618f4afa74f7d924f839f77", null ],
     [ "ATTRIB", "db/d4e/classOverkillShotgun.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "display", "db/d4e/classOverkillShotgun.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "m_spawnfunc_hookreplace", "db/d4e/classOverkillShotgun.html#a312755d5709b880f99cf89d7a76237fe", null ],
