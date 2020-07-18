@@ -1009,7 +1009,6 @@ var searchData=
   ['muted',['muted',['../d1/d37/classClient.html#a5ffe68e3b3028b5b83443e5e5b51925f',1,'Client']]],
   ['mutex_5flock',['MUTEX_LOCK',['../d4/d18/iter_8qh.html#a7381b9ba3fc7be7a05b3c7b772160f66',1,'iter.qh']]],
   ['mutex_5funlock',['MUTEX_UNLOCK',['../d4/d18/iter_8qh.html#a5cff76ef1c972428f5810f0261ac609d',1,'iter.qh']]],
-  ['muzzle_5fflash',['muzzle_flash',['../d5/d26/server_2defs_8qh.html#ac9ff22e9a1a43cbbfd44ebc6d0e87b07',1,'defs.qh']]],
   ['mv_5fabstain',['mv_abstain',['../d4/d0d/client_2mapvoting_8qc.html#a9d43150cf07f300714982c5f9caf7a3b',1,'mapvoting.qc']]],
   ['mv_5factive',['mv_active',['../dd/d1a/client_2mapvoting_8qh.html#a0f8e712094eddb58a28a933ab34ad5b9',1,'mapvoting.qh']]],
   ['mv_5fcolumns',['mv_columns',['../d4/d0d/client_2mapvoting_8qc.html#a016b9da9ab9cee0ebd1cddb42f4b5311',1,'mapvoting.qc']]],

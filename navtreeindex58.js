@@ -1,6 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"d6/da5/classXonoticScrollPanel.html#afca18c82b4891239afa782f6b80bfb7b":[1,0,242,46],
 "d6/da5/common_2mutators_2mutator_2campcheck_2__mod_8inc.html":[2,0,1,10,0,4,0],
 "d6/da5/common_2mutators_2mutator_2campcheck_2__mod_8inc_source.html":[2,0,1,10,0,4,0],
 "d6/daa/quickmenu_8qh.html":[2,0,0,1,0,27],
@@ -249,5 +248,6 @@ var NAVTREEINDEX58 =
 "d6/dce/json_8qc.html#ac2e751b625bc6970fcc9cca30fdb01b9":[2,0,4,27,23],
 "d6/dce/json_8qc.html#acbd92afe884be3284eb65dac58e8dea7":[2,0,4,27,12],
 "d6/dce/json_8qc.html#ad40fe38cb8d1f7d901fcd0292f08f552":[2,0,4,27,16],
-"d6/dce/json_8qc.html#adc0e9056772a94dcfc033c0c57635826":[2,0,4,27,6]
+"d6/dce/json_8qc.html#adc0e9056772a94dcfc033c0c57635826":[2,0,4,27,6],
+"d6/dce/json_8qc.html#adead87cee3e506639f48fd8002425f03":[2,0,4,27,14]
 };

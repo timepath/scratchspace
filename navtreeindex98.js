@@ -1,6 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"db/d07/teams_8qh.html#a462f05a4a626804eedd6badd274bb08e":[2,0,1,48,33],
 "db/d07/teams_8qh.html#a5585b53dde38603073c9309b31817e62":[2,0,1,48,16],
 "db/d07/teams_8qh.html#a5bb78e43a543e34c0f27f447c65d62cc":[2,0,1,48,8],
 "db/d07/teams_8qh.html#a60a132226a89386e69517d266e83be67":[2,0,1,48,19],
@@ -249,5 +248,6 @@ var NAVTREEINDEX98 =
 "db/d15/api_8qh.html#a7b401ce3982d2ff32e2581b69ce746b5":[2,0,6,0,5,48],
 "db/d15/api_8qh.html#a7b70b1b209ca257b822f22784753bfb7":[2,0,6,0,5,66],
 "db/d15/api_8qh.html#a7bde739e04096fbb17d5d4de9e574bc6":[2,0,6,0,5,64],
-"db/d15/api_8qh.html#a7c628ec506a2b9bbee6be7f492361c5c":[2,0,6,0,5,121]
+"db/d15/api_8qh.html#a7c628ec506a2b9bbee6be7f492361c5c":[2,0,6,0,5,121],
+"db/d15/api_8qh.html#a7cdb50f8df992cf7e78c0a45a017b528":[2,0,6,0,5,117]
 };

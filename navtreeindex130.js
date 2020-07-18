@@ -1,6 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"de/d7a/classXonoticHUDScoreDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,202,83],
 "de/d7a/classXonoticHUDScoreDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,202,61],
 "de/d7a/classXonoticHUDScoreDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,202,86],
 "de/d7a/classXonoticHUDScoreDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,202,29],
@@ -249,5 +248,6 @@ var NAVTREEINDEX130 =
 "de/d9c/classTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,131,87],
 "de/d9c/classTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,131,78],
 "de/d9c/classTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,131,52],
-"de/d9c/classTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,131,45]
+"de/d9c/classTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,131,45],
+"de/d9c/classTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,131,64]
 };

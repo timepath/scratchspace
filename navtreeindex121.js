@@ -1,6 +1,5 @@
 var NAVTREEINDEX121 =
 {
-"dd/d90/classRaptorFlare.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,116,36],
 "dd/d90/classRaptorFlare.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,116,20],
 "dd/d90/classRaptorFlare.html#a1571e947669fddff894ceabfe3cdab9b":[1,0,116,31],
 "dd/d90/classRaptorFlare.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,116,19],
@@ -249,5 +248,6 @@ var NAVTREEINDEX121 =
 "dd/da1/dialog__settings__game__hud_8qc.html#a339f2f6d3acd74f0a18c2db26f303fa1":[2,0,5,4,132,2],
 "dd/da1/dialog__settings__game__hud_8qc.html#a57427e87f05e329a87ac5937269e8b60":[2,0,5,4,132,0],
 "dd/da1/dialog__settings__game__hud_8qc.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,132,1],
-"dd/da1/dialog__settings__game__hud_8qc_source.html":[2,0,5,4,132]
+"dd/da1/dialog__settings__game__hud_8qc_source.html":[2,0,5,4,132],
+"dd/da3/classXonoticMusicPlayerTab.html":[1,0,220]
 };

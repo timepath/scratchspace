@@ -188,7 +188,6 @@ var server_2defs_8qh =
     [ "missile_flags", "d5/d26/server_2defs_8qh.html#a444b62d606749f309da722e1d36407a7", null ],
     [ "modname", "d5/d26/server_2defs_8qh.html#af289ce9e49626ec727198c2d334299bd", null ],
     [ "motd_actived_time", "d5/d26/server_2defs_8qh.html#aef6ca1a08affcc61b9244da90f564da1", null ],
-    [ "muzzle_flash", "d5/d26/server_2defs_8qh.html#ac9ff22e9a1a43cbbfd44ebc6d0e87b07", null ],
     [ "next_pingtime", "d5/d26/server_2defs_8qh.html#aa58345c59717aadd82f2ffc9a6a0a0a6", null ],
     [ "nextstep", "d5/d26/server_2defs_8qh.html#a86d4e5c510b3a22124dd14dcdac8d6fd", null ],
     [ "nickspamcount", "d5/d26/server_2defs_8qh.html#a06bf944f94071c6cf5e71694ffbb5734", null ],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"d6/de1/classWalkerTurret.html#a254d4ad3b7cc46d412aad33a19c93acb":[1,0,141,17],
 "d6/de1/classWalkerTurret.html#a2ace351ab90e12e7adf9f4eb5b59d206":[1,0,141,19],
 "d6/de1/classWalkerTurret.html#a3144102787442a58055180121b5e9536":[1,0,141,12],
 "d6/de1/classWalkerTurret.html#a34980e66ed09a68af3e3fa9e204a18ca":[1,0,141,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX62 =
 "d7/d13/classXonoticHUDAmmoDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,185,75],
 "d7/d13/classXonoticHUDAmmoDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,185,63],
 "d7/d13/classXonoticHUDAmmoDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,185,64],
-"d7/d13/classXonoticHUDAmmoDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,185,9]
+"d7/d13/classXonoticHUDAmmoDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,185,9],
+"d7/d13/classXonoticHUDAmmoDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,185,78]
 };

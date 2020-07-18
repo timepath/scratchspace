@@ -1,6 +1,5 @@
 var NAVTREEINDEX116 =
 {
-"dc/de0/costs_8qc_source.html":[2,0,6,4,2],
 "dc/de1/api_8qc.html":[2,0,6,0,4],
 "dc/de1/api_8qc_source.html":[2,0,6,0,4],
 "dc/de2/classXonoticProfileTab.html":[1,0,229],
@@ -249,5 +248,6 @@ var NAVTREEINDEX116 =
 "dc/df0/sv__dynamic__handicap_8qc.html#adf373b939f134d9721cbb50b8a5de7db":[2,0,1,10,0,9,2,2],
 "dc/df0/sv__dynamic__handicap_8qc.html#af6b083c6ce18668fdb073628b89013a5":[2,0,1,10,0,9,2,12],
 "dc/df0/sv__dynamic__handicap_8qc_source.html":[2,0,1,10,0,9,2],
-"dc/df0/sv__instagib_8qh.html":[2,0,1,10,0,12,5]
+"dc/df0/sv__instagib_8qh.html":[2,0,1,10,0,12,5],
+"dc/df0/sv__instagib_8qh.html#a0380ab3112106a4d100b22c817facf9b":[2,0,1,10,0,12,5,0]
 };

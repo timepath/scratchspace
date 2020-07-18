@@ -1,6 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"d7/db4/client_2autocvars_8qh.html#a9313b8d6c76e1bb650496cdca613ea66":[2,0,0,8,88],
 "d7/db4/client_2autocvars_8qh.html#a93856d064318c16a9adb128439663588":[2,0,0,8,433],
 "d7/db4/client_2autocvars_8qh.html#a940cd60a418a5283636c1562cb556762":[2,0,0,8,170],
 "d7/db4/client_2autocvars_8qh.html#a9468afcdab2543f8c54d5fc8190603c2":[2,0,0,8,102],
@@ -249,5 +248,6 @@ var NAVTREEINDEX71 =
 "d7/db7/laser_8qh.html#ad3fe7d618cba67c56361d38b96337bd7":[2,0,1,6,1,11,3],
 "d7/db7/laser_8qh.html#ad6f2dbe61816c60cec0ce74c16f49cf8":[2,0,1,6,1,11,6],
 "d7/db7/laser_8qh.html#af07fc0e326c40c99e05bc081de0e700b":[2,0,1,6,1,11,12],
-"d7/db7/laser_8qh.html#af97f222f1df3c054e420e7c8089e7d64":[2,0,1,6,1,11,4]
+"d7/db7/laser_8qh.html#af97f222f1df3c054e420e7c8089e7d64":[2,0,1,6,1,11,4],
+"d7/db7/laser_8qh.html#afa8b028b9246cab8b99049eb40ef5c6f":[2,0,1,6,1,11,9]
 };

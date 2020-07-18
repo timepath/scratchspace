@@ -1,6 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"d8/db4/server_2pathlib_2main_8qh.html#ad4452966a687ba92bf4d168352ba5ed5":[2,0,6,4,9,1],
 "d8/db4/server_2pathlib_2main_8qh_source.html":[2,0,6,4,9],
 "d8/db6/client_2miscfunctions_8qh.html":[2,0,0,20],
 "d8/db6/client_2miscfunctions_8qh.html#a0449a7486533675d03728bbf4f318683":[2,0,0,20,71],
@@ -249,5 +248,6 @@ var NAVTREEINDEX79 =
 "d8/dcc/classKeyHunt.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,62,23],
 "d8/dcc/classKeyHunt.html#ac6ce03085fda9a98561d820c87959a2a":[1,0,62,21],
 "d8/dcc/classKeyHunt.html#ace60cb9be035830b182278fd0130785f":[1,0,62,16],
-"d8/dcc/classKeyHunt.html#ad15993848bc92a1c7bf0c70aeee7bbd2":[1,0,62,22]
+"d8/dcc/classKeyHunt.html#ad15993848bc92a1c7bf0c70aeee7bbd2":[1,0,62,22],
+"d8/dcc/classKeyHunt.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,62,6]
 };

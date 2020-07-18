@@ -405,7 +405,6 @@ var searchData=
   ['music_5fplaylist_5findex_5fbackup',['music_playlist_index_backup',['../d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a2de01cb3b52aa5c251ca9c50aa4ee0dd',1,'dialog_multiplayer_media_screenshot_viewer.qc']]],
   ['mutator_5flog',['mutator_log',['../db/d38/base_8qh.html#a9d26825e4521eb3dbc2393da614663cc',1,'base.qh']]],
   ['muted',['muted',['../d1/d37/classClient.html#a5ffe68e3b3028b5b83443e5e5b51925f',1,'Client']]],
-  ['muzzle_5fflash',['muzzle_flash',['../d5/d26/server_2defs_8qh.html#ac9ff22e9a1a43cbbfd44ebc6d0e87b07',1,'defs.qh']]],
   ['mv_5fabstain',['mv_abstain',['../d4/d0d/client_2mapvoting_8qc.html#a9d43150cf07f300714982c5f9caf7a3b',1,'mapvoting.qc']]],
   ['mv_5factive',['mv_active',['../dd/d1a/client_2mapvoting_8qh.html#a0f8e712094eddb58a28a933ab34ad5b9',1,'mapvoting.qh']]],
   ['mv_5fcolumns',['mv_columns',['../d4/d0d/client_2mapvoting_8qc.html#a016b9da9ab9cee0ebd1cddb42f4b5311',1,'mapvoting.qc']]],
