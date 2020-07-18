@@ -36,6 +36,7 @@ var searchData=
   ['g_5fitems',['g_items',['../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5',1,'defs.qh']]],
   ['g_5fjetpack',['g_jetpack',['../d5/d26/server_2defs_8qh.html#a3bc1238ebb2ffbad59083120a2fafef8',1,'defs.qh']]],
   ['g_5fjumppads',['g_jumppads',['../d9/de7/jumppads_8qh.html#a890e2681c683826ce47067a8b0f6886d',1,'jumppads.qh']]],
+  ['g_5fladderents',['g_ladderents',['../df/d4f/ladder_8qh.html#ae1dd23578ee291bc4295fa27429fb296',1,'ladder.qh']]],
   ['g_5fladders',['g_ladders',['../d5/d26/server_2defs_8qh.html#adcbd1a233f8372f5432acdeaeb4d1d14',1,'defs.qh']]],
   ['g_5flocations',['g_locations',['../d5/d26/server_2defs_8qh.html#a286aa643b808c665c740bc03537fa2d2',1,'defs.qh']]],
   ['g_5fmagic_5fstats_5fhole',['g_magic_stats_hole',['../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06',1,'stats.qh']]],

@@ -164,13 +164,13 @@ var NAVTREEINDEX =
 "de/de7/classXonoticHUDItemsTimeDialog.html#ac648acd4d716ba6cd676f4e43345b85b",
 "df/d26/classXonoticGameSettingsTab.html#a7c7e80231d41f67692ab5f902d127416",
 "df/d38/mathlib_8qc.html#af29e1bcd9b1f55ca6f0b324ccf62901d",
-"df/d61/sv__random__gravity_8qc_source.html",
-"df/d8c/cl__cmd_8qc.html#a1ac18fad9472856fdc8826c4e4a87bbe",
-"df/d9b/menu_2xonotic_2util_8qc.html#ade11aa04fbfc47f508cb92e42b6df0a0",
-"df/dc9/classXonoticHUDQuickMenuDialog.html#aba99b1ee929f1f634224a056ac4d8d40",
-"df/dd7/server_2client_8qc_source.html",
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#acd339ed42a2f51ac07364931d53de5a1",
-"globals_defs_m.html"
+"df/d61/sv__random__gravity_8qc.html#afb13caba3ca363c92b43e858b3084639",
+"df/d8c/cl__cmd_8qc.html#a176783735cb19cc02e72e6fb9cfa39a9",
+"df/d9b/menu_2xonotic_2util_8qc.html#adddeddac6ab0dc7ec36befe111ba9602",
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033",
+"df/dd7/server_2client_8qc.html#aff186c20f705125efa07fdd452114768",
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5",
+"globals_defs_l.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -89,6 +89,6 @@ var searchData=
   ['ftos',['ftos',['../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76',1,'menudefs.qc']]],
   ['ftos_5fdecimals',['ftos_decimals',['../d2/db4/string_8qh.html#a49cb9df0e85f064315fa093ad9c9ef80',1,'string.qh']]],
   ['ftos_5fmindecimals',['ftos_mindecimals',['../d2/db4/string_8qh.html#ad42b1c507805199c196102b52f28e84d',1,'string.qh']]],
-  ['func_5fladder_5ftouch',['func_ladder_touch',['../d5/da1/ladder_8qc.html#aa26991a4996c0369c2f5c5d19eaf26f2',1,'ladder.qc']]],
+  ['func_5fladder_5fthink',['func_ladder_think',['../d5/da1/ladder_8qc.html#aa88ab69fe22ee823f1e69e5fc7716f7f',1,'ladder.qc']]],
   ['func_5fnull',['func_null',['../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44',1,'nil.qh']]]
 ];
