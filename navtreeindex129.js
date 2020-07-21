@@ -1,5 +1,7 @@
 var NAVTREEINDEX129 =
 {
+"de/d6e/playerstats_8qc.html":[2,0,1,39],
+"de/d6e/playerstats_8qc_source.html":[2,0,1,39],
 "de/d6f/invasion_8qh.html":[2,0,1,3,0,8,3],
 "de/d6f/invasion_8qh.html#a5e6eeead37f00901c1b0627f2b1107e5":[2,0,1,3,0,8,3,1],
 "de/d6f/invasion_8qh_source.html":[2,0,1,3,0,8,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX129 =
 "de/d8c/classWyvernAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,147,35],
 "de/d8c/classWyvernAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,147,19],
 "de/d8c/classWyvernAttack.html#a16ceef67c41097efd03c34fd26c40791":[1,0,147,34],
-"de/d8c/classWyvernAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,147,18],
-"de/d8c/classWyvernAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,147,32],
-"de/d8c/classWyvernAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,147,16]
+"de/d8c/classWyvernAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,147,18]
 };

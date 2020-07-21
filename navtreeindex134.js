@@ -1,5 +1,7 @@
 var NAVTREEINDEX134 =
 {
+"df/d26/classXonoticGameSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,181,31],
+"df/d26/classXonoticGameSettingsTab.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,181,15],
 "df/d26/classXonoticGameSettingsTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,181,6],
 "df/d26/classXonoticGameSettingsTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,181,21],
 "df/d26/classXonoticGameSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,181,61],
@@ -247,7 +249,5 @@ var NAVTREEINDEX134 =
 "df/d3f/cl__damagetext_8qc.html#aeac25d5713f0e5b88e7cc1b36490bffc":[2,0,1,10,0,6,2,15],
 "df/d3f/cl__damagetext_8qc.html#aeb408197f0defc96de3609460b5d1cc7":[2,0,1,10,0,6,2,30],
 "df/d3f/cl__damagetext_8qc.html#aeea53a563927b4265ef1a1446a19a400":[2,0,1,10,0,6,2,18],
-"df/d3f/cl__damagetext_8qc_source.html":[2,0,1,10,0,6,2],
-"df/d41/cl__ctf_8qc.html":[2,0,1,3,0,2,2],
-"df/d41/cl__ctf_8qc.html#a0a1855a3f81125a1a68034c317313326":[2,0,1,3,0,2,2,6]
+"df/d3f/cl__damagetext_8qc_source.html":[2,0,1,10,0,6,2]
 };

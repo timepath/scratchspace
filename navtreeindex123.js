@@ -1,5 +1,7 @@
 var NAVTREEINDEX123 =
 {
+"dd/db3/classXonoticQuitDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,230,66],
+"dd/db3/classXonoticQuitDialog.html#aeff76ecca42175bf48a2312421add4bd":[1,0,230,58],
 "dd/db3/classXonoticQuitDialog.html#af1aab403dc54575707fd57991312b201":[1,0,230,45],
 "dd/db3/classXonoticQuitDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,230,25],
 "dd/db3/classXonoticQuitDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,230,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "dd/def/dialog__settings__input__userbind_8qc.html":[2,0,5,4,146],
 "dd/def/dialog__settings__input__userbind_8qc.html#a32c465ca5715f92a2335f8067b539aea":[2,0,5,4,146,1],
 "dd/def/dialog__settings__input__userbind_8qc.html#a737ab79b48f62178e515a7842873bbbe":[2,0,5,4,146,2],
-"dd/def/dialog__settings__input__userbind_8qc.html#aa82632934f25109e4d110818af4b509c":[2,0,5,4,146,0],
-"dd/def/dialog__settings__input__userbind_8qc_source.html":[2,0,5,4,146],
-"dd/def/sv__pinata_8qc.html":[2,0,1,10,0,25,2]
+"dd/def/dialog__settings__input__userbind_8qc.html#aa82632934f25109e4d110818af4b509c":[2,0,5,4,146,0]
 };

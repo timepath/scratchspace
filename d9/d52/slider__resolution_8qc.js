@@ -9,5 +9,7 @@ var slider__resolution_8qc =
     [ "XonoticResolutionSlider_loadResolutions", "d9/d52/slider__resolution_8qc.html#a97444750f2615c95ab4e1b9bd0d0d7f6", null ],
     [ "XonoticResolutionSlider_saveCvars", "d9/d52/slider__resolution_8qc.html#a051beb778d4db0e0658893922f2bb82b", null ],
     [ "autocvar_menu_vid_allowdualscreenresolution", "d9/d52/slider__resolution_8qc.html#abbceec00ae26a7823355990f90fc6106", null ],
+    [ "vid_conheight", "d9/d52/slider__resolution_8qc.html#ad3c7cac75202a988d6b5017d4da6796c", null ],
+    [ "vid_conwidth", "d9/d52/slider__resolution_8qc.html#a20d555d9b4b63c3a86ea9c41ba74efd2", null ],
     [ "XonoticResolutionSlider_DataHasChanged", "d9/d52/slider__resolution_8qc.html#a35e745e504c437f1bb0ee7558b6b3211", null ]
 ];

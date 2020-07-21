@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"da/d2c/sv__keyhunt_8qc.html":[2,0,1,3,0,10,6],
+"da/d2c/sv__keyhunt_8qc.html#a01168130e438e9531191f89bb420d650":[2,0,1,3,0,10,6,9],
 "da/d2c/sv__keyhunt_8qc.html#a0411010ca825838d10464f8da5825df9":[2,0,1,3,0,10,6,84],
 "da/d2c/sv__keyhunt_8qc.html#a04faf2679fdcfe0ec94f5efedf316eef":[2,0,1,3,0,10,6,33],
 "da/d2c/sv__keyhunt_8qc.html#a05fc29853c73faa635782df0536b3812":[2,0,1,3,0,10,6,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "da/d4c/sv__weapons_8qc_source.html":[2,0,1,10,0,23,18],
 "da/d4e/sv__monsters_8qc.html":[2,0,1,9,6],
 "da/d4e/sv__monsters_8qc.html#a02694937ddf3dc6935c9ac7db73a7668":[2,0,1,9,6,17],
-"da/d4e/sv__monsters_8qc.html#a037cce37ed3ddce0d13829cabb6216ca":[2,0,1,9,6,29],
-"da/d4e/sv__monsters_8qc.html#a07727352fce183ccb8e2db2f168ad393":[2,0,1,9,6,12],
-"da/d4e/sv__monsters_8qc.html#a0c5d94fd195b12611f3bd45c0546bfca":[2,0,1,9,6,5]
+"da/d4e/sv__monsters_8qc.html#a037cce37ed3ddce0d13829cabb6216ca":[2,0,1,9,6,29]
 };

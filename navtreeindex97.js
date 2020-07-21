@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"da/ddd/ipban_8qh.html#ad7174054ad76d672732a64c0a20d658e":[2,0,6,36,9],
+"da/ddd/ipban_8qh.html#af092a83967ab9516490e44b5736a9fe3":[2,0,6,36,8],
 "da/ddd/ipban_8qh.html#af5400e642692dd6c542af18b03d9946f":[2,0,6,36,3],
 "da/ddd/ipban_8qh_source.html":[2,0,6,36],
 "da/dde/classOffhandHook.html":[1,0,90],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "db/d07/teams_8qh.html#ac42e5e5b463fcb15cb60f68a648afea0":[2,0,1,48,32],
 "db/d07/teams_8qh.html#ac861db76d5f4acfd97ed29922f92eabc":[2,0,1,48,27],
 "db/d07/teams_8qh.html#aca16bbbb9a21bac9cf7fbc0426f77cd7":[2,0,1,48,35],
-"db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce":[2,0,1,48,14],
-"db/d07/teams_8qh.html#ad58976dc8edb654a9245d69ee4f2b27f":[2,0,1,48,43],
-"db/d07/teams_8qh.html#adbc0074001363ddef68675aac96a3599":[2,0,1,48,5]
+"db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce":[2,0,1,48,14]
 };

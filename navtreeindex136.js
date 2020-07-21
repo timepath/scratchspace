@@ -1,5 +1,7 @@
 var NAVTREEINDEX136 =
 {
+"df/d6e/classXonoticSingleplayerDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,248,55],
+"df/d6e/classXonoticSingleplayerDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,248,85],
 "df/d6e/classXonoticSingleplayerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,248,1],
 "df/d6e/classXonoticSingleplayerDialog.html#a3c3530831d992c56d8cd3c69b4a00575":[1,0,248,58],
 "df/d6e/classXonoticSingleplayerDialog.html#a3d4de5a21e8c26b649c275e35a9dbbe1":[1,0,248,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX136 =
 "df/d8c/sv__midair_8qc.html#a80f6dce1ee453d80dcce5366211df306":[2,0,1,10,0,17,2,1],
 "df/d8c/sv__midair_8qc.html#a987afcaedd63ac534342517dfab7618e":[2,0,1,10,0,17,2,2],
 "df/d8c/sv__midair_8qc.html#a9fd92cb889654577ea57717f1b1519d3":[2,0,1,10,0,17,2,4],
-"df/d8c/sv__midair_8qc.html#ab2f81cb51113a7871428e13d099bd3f9":[2,0,1,10,0,17,2,6],
-"df/d8c/sv__midair_8qc.html#acdcc0850073f641363a12079808a396c":[2,0,1,10,0,17,2,3],
-"df/d8c/sv__midair_8qc_source.html":[2,0,1,10,0,17,2]
+"df/d8c/sv__midair_8qc.html#ab2f81cb51113a7871428e13d099bd3f9":[2,0,1,10,0,17,2,6]
 };
