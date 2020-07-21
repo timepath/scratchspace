@@ -6,6 +6,7 @@ var globalsound_8qc =
     [ "GetPlayerSoundSampleField", "d9/d45/globalsound_8qc.html#a7022de3163c4d07ba4bc0547443ae346", null ],
     [ "GetVoiceMessage", "d9/d45/globalsound_8qc.html#a0f76411e16fb1a91bf97121690907cd7", null ],
     [ "GetVoiceMessageSampleField", "d9/d45/globalsound_8qc.html#a6d27dd45d58d423f7c352182ea854ef7", null ],
+    [ "GlobalSound_pitch", "d9/d45/globalsound_8qc.html#aaf07bfd5f4fe556d8d0ae2ed994eda0d", null ],
     [ "GlobalSound_sample", "d9/d45/globalsound_8qc.html#ae2c525418d0124bca40ef3c1528d3eed", null ],
     [ "LoadPlayerSounds", "d9/d45/globalsound_8qc.html#a3e65432ddf30f6729addae6c2bf79de9", null ],
     [ "PrecacheGlobalSound", "d9/d45/globalsound_8qc.html#a15365d2ccf8bbab98e934281f11ed6fc", null ],
