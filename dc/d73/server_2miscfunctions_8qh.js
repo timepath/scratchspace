@@ -46,6 +46,8 @@ var server_2miscfunctions_8qh =
     [ "stopsound", "dc/d73/server_2miscfunctions_8qh.html#abe64c8eea42324c9c7c40d08fc56ad19", null ],
     [ "stopsoundto", "dc/d73/server_2miscfunctions_8qh.html#a6e3017f7a01d0a9455f9ebc445a604ee", null ],
     [ "strcat1", "dc/d73/server_2miscfunctions_8qh.html#a9974b20c57efacc64d84960329620554", null ],
+    [ "trace_hits_box", "dc/d73/server_2miscfunctions_8qh.html#ac0fb8d3651371f4916d29974d721fa47", null ],
+    [ "trace_hits_box_1d", "dc/d73/server_2miscfunctions_8qh.html#a8d7ca374765ab2dc9de036f07b25e0a0", null ],
     [ "tracebox_hits_box", "dc/d73/server_2miscfunctions_8qh.html#a2de10fb010f38dc7ef051696ee9a940a", null ],
     [ "traceline_antilag", "dc/d73/server_2miscfunctions_8qh.html#a5edf83b72581bc3ed7f4b512f534fbfe", null ],
     [ "uid2name", "dc/d73/server_2miscfunctions_8qh.html#a943d9da424f168efb8d407b4de9833a2", null ],

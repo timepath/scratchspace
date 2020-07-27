@@ -1,5 +1,8 @@
 var NAVTREEINDEX123 =
 {
+"dd/db3/classXonoticQuitDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,230,60],
+"dd/db3/classXonoticQuitDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,230,53],
+"dd/db3/classXonoticQuitDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,230,90],
 "dd/db3/classXonoticQuitDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,230,8],
 "dd/db3/classXonoticQuitDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,230,66],
 "dd/db3/classXonoticQuitDialog.html#aeff76ecca42175bf48a2312421add4bd":[1,0,230,58],
@@ -87,13 +90,13 @@ var NAVTREEINDEX123 =
 "dd/dd0/classRace.html#af1a6db9207b7000984864c8176081b52":[1,0,108,13],
 "dd/dd0/classRace.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,108,5],
 "dd/dd5/sv__model_8qc.html":[2,0,4,0,15],
-"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,15,7],
 "dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,15,6],
+"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,15,7],
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,15,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,15,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,15,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,0],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,1],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,0],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,15,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,15,12],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX123 =
 "dd/dee/markup_8qc.html":[2,0,1,0,5],
 "dd/dee/markup_8qc.html#a088441ad2b78dddb6437e32f60ad4a01":[2,0,1,0,5,0],
 "dd/dee/markup_8qc.html#a9c875bc4a887ef4f2209ade5560e3e0c":[2,0,1,0,5,1],
-"dd/dee/markup_8qc_source.html":[2,0,1,0,5],
-"dd/def/dialog__settings__input__userbind_8qc.html":[2,0,5,4,146],
-"dd/def/dialog__settings__input__userbind_8qc.html#a32c465ca5715f92a2335f8067b539aea":[2,0,5,4,146,1],
-"dd/def/dialog__settings__input__userbind_8qc.html#a737ab79b48f62178e515a7842873bbbe":[2,0,5,4,146,2]
+"dd/dee/markup_8qc_source.html":[2,0,1,0,5]
 };

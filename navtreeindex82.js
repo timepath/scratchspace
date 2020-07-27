@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"d8/df3/weaponslist_8qc.html#ab4b1341d591bacc34cc19c7e230e5080":[2,0,5,4,238,7],
 "d8/df3/weaponslist_8qc.html#acf6ebf9620c197250e0a11dd2894eed2":[2,0,5,4,238,5],
 "d8/df3/weaponslist_8qc.html#ad576d15e8804939666948de29a2c60d6":[2,0,5,4,238,4],
 "d8/df3/weaponslist_8qc.html#ae5c9433e0b99f44b5a67fccba50c67ad":[2,0,5,4,238,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "d9/d08/client_2defs_8qh.html#aa93554894816e62efd29c7f7d6825a0d":[2,0,0,14,73],
 "d9/d08/client_2defs_8qh.html#aabc03357c1ef7f83e976b3d2d716b579":[2,0,0,14,44],
 "d9/d08/client_2defs_8qh.html#aae4bdee953dee840605d4e46ebaedcd3":[2,0,0,14,46],
-"d9/d08/client_2defs_8qh.html#abdea2ccb26df80d0c9e9f117a6d31942":[2,0,0,14,13],
-"d9/d08/client_2defs_8qh.html#ac2a88716bca7ffcfe0242ed562ce52a5":[2,0,0,14,108]
+"d9/d08/client_2defs_8qh.html#abdea2ccb26df80d0c9e9f117a6d31942":[2,0,0,14,13]
 };

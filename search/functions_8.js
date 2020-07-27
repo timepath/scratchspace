@@ -76,6 +76,7 @@ var searchData=
   ['havocbot_5frole_5frace',['havocbot_role_race',['../db/dec/sv__race_8qc.html#a688e5c51f827d856b512d70d7354c545',1,'sv_race.qc']]],
   ['havocbot_5fselect_5fan_5fitem_5fof_5fgroup',['havocbot_select_an_item_of_group',['../d2/de9/havocbot_8qc.html#a07d345aa14ff656b3ef0c24301ec6efe',1,'havocbot.qc']]],
   ['havocbot_5fsetupbot',['havocbot_setupbot',['../d2/de9/havocbot_8qc.html#afb882bcf6c4a44e801e4fb9eafbbf1f4',1,'havocbot_setupbot(entity this):&#160;havocbot.qc'],['../d8/d39/havocbot_8qh.html#afb882bcf6c4a44e801e4fb9eafbbf1f4',1,'havocbot_setupbot(entity this):&#160;havocbot.qc']]],
+  ['headshot',['Headshot',['../d7/d31/tracing_8qc.html#a136cf872a925936b32231381ccf82fae',1,'tracing.qc']]],
   ['heal',['Heal',['../d5/dac/g__damage_8qc.html#a20c748d061a8595dc442ff0dbcdb0768',1,'Heal(entity targ, entity inflictor, float amount, float limit):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#a20c748d061a8595dc442ff0dbcdb0768',1,'Heal(entity targ, entity inflictor, float amount, float limit):&#160;g_damage.qc']]],
   ['heapsort',['heapsort',['../db/def/sort_8qh.html#a819f1c3300f552419896b2c53088c05c',1,'sort.qh']]],
   ['hideall',['hideAll',['../d6/d1a/classModalController.html#a918765695e02e3fd2b1fd9d6a97ce8b5',1,'ModalController']]],
