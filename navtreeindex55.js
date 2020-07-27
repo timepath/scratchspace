@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"d6/d30/dialog__teamselect_8qc.html#aef68d50cc290b76e2c8fc62888560c00":[2,0,5,4,164,2],
 "d6/d30/dialog__teamselect_8qc.html#af1c89445ad12552325475410a8cc2902":[2,0,5,4,164,0],
 "d6/d30/dialog__teamselect_8qc_source.html":[2,0,5,4,164],
 "d6/d35/debug_8qc.html":[2,0,6,4,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "d6/d74/serverlist_8qc.html#a9ac229df5825abca0f85faff876d5836":[2,0,5,4,206,28],
 "d6/d74/serverlist_8qc.html#aa0e0784a97109433c6a862b63e0d739e":[2,0,5,4,206,14],
 "d6/d74/serverlist_8qc.html#aa2ff59e556502ac72000ba9410cb567f":[2,0,5,4,206,10],
-"d6/d74/serverlist_8qc.html#ab298f49df97241c5d4f9fae91ee09edd":[2,0,5,4,206,27],
-"d6/d74/serverlist_8qc.html#ab3179684275c8e6f9efef464f9b05456":[2,0,5,4,206,24]
+"d6/d74/serverlist_8qc.html#ab298f49df97241c5d4f9fae91ee09edd":[2,0,5,4,206,27]
 };

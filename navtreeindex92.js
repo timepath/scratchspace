@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"da/d2a/classXonoticDecibelsSlider.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,168,7],
 "da/d2a/classXonoticDecibelsSlider.html#af6491199d7c16232c6ec828661a64ecf":[1,0,168,9],
 "da/d2a/classXonoticDecibelsSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,168,71],
 "da/d2c/sv__keyhunt_8qc.html":[2,0,1,3,0,10,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "da/d4c/sv__weapons_8qc.html":[2,0,1,10,0,23,18],
 "da/d4c/sv__weapons_8qc.html#a5c59bbe2889b4639f33dd9d7c7bf06ab":[2,0,1,10,0,23,18,0],
 "da/d4c/sv__weapons_8qc.html#ae26e9cf3d1780d60bdefc83d2ee5ef29":[2,0,1,10,0,23,18,1],
-"da/d4c/sv__weapons_8qc_source.html":[2,0,1,10,0,23,18],
-"da/d4e/sv__monsters_8qc.html":[2,0,1,9,6]
+"da/d4c/sv__weapons_8qc_source.html":[2,0,1,10,0,23,18]
 };

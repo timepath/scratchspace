@@ -12,7 +12,7 @@ var sv__monsters_8qh =
     [ "Monster_Remove", "d8/dc1/sv__monsters_8qh.html#a037cce37ed3ddce0d13829cabb6216ca", null ],
     [ "monster_setupcolors", "d8/dc1/sv__monsters_8qh.html#a10ca618a2194c7dd0b8e722730859c14", null ],
     [ "Monster_Sound", "d8/dc1/sv__monsters_8qh.html#abe732ba6c33322eec8bab6750fee97bb", null ],
-    [ "Monster_Spawn", "d8/dc1/sv__monsters_8qh.html#a1e264a94238b71678a588bef93292d8a", null ],
+    [ "Monster_Spawn", "d8/dc1/sv__monsters_8qh.html#a46a9c5071074885c3fc9703fb27e1bd7", null ],
     [ "Monster_Touch", "d8/dc1/sv__monsters_8qh.html#a76ebe147579e46d75406196c26fe2089", null ],
     [ "monsters_setstatus", "d8/dc1/sv__monsters_8qh.html#aebb34e80bc4aafcc88ae983d13b34668", null ],
     [ "anim_finished", "d8/dc1/sv__monsters_8qh.html#a2c02e8f23a42bd08e8dae3393efa8f2f", null ],

@@ -21,5 +21,6 @@ var monster_8qh =
     [ "MONSTER_TYPE_FLY", "d4/ddc/monster_8qh.html#a6cd57dceeadd45826b77b7d56c18a4ab", null ],
     [ "MONSTER_TYPE_PASSIVE", "d4/ddc/monster_8qh.html#a40ee9c36998d2b2723036db640b21655", null ],
     [ "MONSTER_TYPE_SWIM", "d4/ddc/monster_8qh.html#ae582b1562514303afe897121156e60ee", null ],
-    [ "MONSTER_TYPE_UNDEAD", "d4/ddc/monster_8qh.html#aa40ec74e22f504acfcf761a9d92dea73", null ]
+    [ "MONSTER_TYPE_UNDEAD", "d4/ddc/monster_8qh.html#aa40ec74e22f504acfcf761a9d92dea73", null ],
+    [ "monsterdef", "d4/ddc/monster_8qh.html#a57e86dac2a74803860251d48a13b63e7", null ]
 ];
