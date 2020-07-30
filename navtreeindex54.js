@@ -1,10 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"d6/d1a/classMainWindow.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,74,54],
-"d6/d1a/classMainWindow.html#a549d362be4232efb07509c2d749e2ba5":[1,0,74,5],
-"d6/d1a/classMainWindow.html#a560e582c512ed981e424009118cafeaa":[1,0,74,58],
-"d6/d1a/classMainWindow.html#a57d47c9d391f762811bece4a6dfd2305":[1,0,74,21],
-"d6/d1a/classMainWindow.html#a60a0f0e87fb591e8822ca68d90588b8d":[1,0,74,32],
 "d6/d1a/classMainWindow.html#a664a226b5d87a63e5af7adede821a776":[1,0,74,0],
 "d6/d1a/classMainWindow.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,74,22],
 "d6/d1a/classMainWindow.html#a746410ea39f1849396441365b18a8ef9":[1,0,74,46],
@@ -249,5 +244,10 @@ var NAVTREEINDEX54 =
 "d6/d2d/okshotgun_8qh_source.html":[2,0,1,10,0,23,13],
 "d6/d30/dialog__teamselect_8qc.html":[2,0,5,4,164],
 "d6/d30/dialog__teamselect_8qc.html#a4131cee70165ea73d71de76b0f544a73":[2,0,5,4,164,1],
-"d6/d30/dialog__teamselect_8qc.html#abc28b8cb59bb4b64932491e1b742f5e5":[2,0,5,4,164,3]
+"d6/d30/dialog__teamselect_8qc.html#abc28b8cb59bb4b64932491e1b742f5e5":[2,0,5,4,164,3],
+"d6/d30/dialog__teamselect_8qc.html#aef68d50cc290b76e2c8fc62888560c00":[2,0,5,4,164,2],
+"d6/d30/dialog__teamselect_8qc.html#af1c89445ad12552325475410a8cc2902":[2,0,5,4,164,0],
+"d6/d30/dialog__teamselect_8qc_source.html":[2,0,5,4,164],
+"d6/d35/debug_8qc.html":[2,0,6,4,4],
+"d6/d35/debug_8qc_source.html":[2,0,6,4,4]
 };

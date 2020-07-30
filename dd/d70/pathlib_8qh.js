@@ -6,7 +6,6 @@ var pathlib_8qh =
     [ "pathlib_cost", "dd/d70/pathlib_8qh.html#a3abe1da285638119249062cdf82135c8", null ],
     [ "pathlib_expandnode", "dd/d70/pathlib_8qh.html#a8e8d72a5a60b9e68455411115b4942fe", null ],
     [ "pathlib_expandnode_box", "dd/d70/pathlib_8qh.html#ab3ea6d01ed822e19e2539c99ff4b502e", null ],
-    [ "pathlib_expandnode_octagon", "dd/d70/pathlib_8qh.html#a17f22f5c369615535efc69d5ed3212bd", null ],
     [ "pathlib_expandnode_star", "dd/d70/pathlib_8qh.html#a0eedbf47f8c1205a64eb45dc215188cd", null ],
     [ "pathlib_flynode", "dd/d70/pathlib_8qh.html#ae0e777cd933a79b684bec767d4f84a6e", null ],
     [ "pathlib_g_euclidean", "dd/d70/pathlib_8qh.html#a06d2a473c8e47a4a9c565d013acfcd7b", null ],

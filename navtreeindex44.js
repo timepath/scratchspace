@@ -1,10 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"d4/da5/classXonoticBigCommandButton.html#a91496430c97151830db0169a7c482e82":[1,0,150,64],
-"d4/da5/classXonoticBigCommandButton.html#a95e3e1c82a75a5ee33b08f1da84c05bd":[1,0,150,41],
-"d4/da5/classXonoticBigCommandButton.html#a98e9b29dfe2a91ddb3b653eee1003b2f":[1,0,150,53],
-"d4/da5/classXonoticBigCommandButton.html#a99459ab62c745d1a8e9e5c65a15294e0":[1,0,150,47],
-"d4/da5/classXonoticBigCommandButton.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,150,37],
 "d4/da5/classXonoticBigCommandButton.html#aa7f27de3ff5b3d20ac6122783d29ad40":[1,0,150,57],
 "d4/da5/classXonoticBigCommandButton.html#aa8b22bde0938470cf0f0cb989e0c95e3":[1,0,150,46],
 "d4/da5/classXonoticBigCommandButton.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,150,56],
@@ -249,5 +244,10 @@ var NAVTREEINDEX44 =
 "d4/dd1/spawnpoints_8qh.html":[2,0,6,61],
 "d4/dd1/spawnpoints_8qh.html#a147120fa263b120c8a20915dffa25c9b":[2,0,6,61,6],
 "d4/dd1/spawnpoints_8qh.html#a201908345e88f04480bb1af26b522f00":[2,0,6,61,5],
-"d4/dd1/spawnpoints_8qh.html#a2a7af8ac3ec4cc48b002997881b2a491":[2,0,6,61,4]
+"d4/dd1/spawnpoints_8qh.html#a2a7af8ac3ec4cc48b002997881b2a491":[2,0,6,61,4],
+"d4/dd1/spawnpoints_8qh.html#a572fb1292ba23838d08e19ed54227679":[2,0,6,61,3],
+"d4/dd1/spawnpoints_8qh.html#a5d88e76b04abc36016eda23afcc61ef1":[2,0,6,61,8],
+"d4/dd1/spawnpoints_8qh.html#a65f632ea7c75b704550b257f227230cb":[2,0,6,61,2],
+"d4/dd1/spawnpoints_8qh.html#a693d893f5755f55200d6c320c814c6a4":[2,0,6,61,10],
+"d4/dd1/spawnpoints_8qh.html#a71804b6dc31803f43afa105a34e35d04":[2,0,6,61,0]
 };

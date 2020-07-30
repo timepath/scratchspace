@@ -1,10 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"d7/d50/classXonoticPlayerList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,226,49],
-"d7/d50/classXonoticPlayerList.html#ad837b8706cf7ede26336c11ff615f3d9":[1,0,226,46],
-"d7/d50/classXonoticPlayerList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,226,75],
-"d7/d50/classXonoticPlayerList.html#adbc65a2089ef3278a098c80685b4b8a3":[1,0,226,52],
-"d7/d50/classXonoticPlayerList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,226,31],
 "d7/d50/classXonoticPlayerList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,226,79],
 "d7/d50/classXonoticPlayerList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,226,13],
 "d7/d50/classXonoticPlayerList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,226,61],
@@ -249,5 +244,10 @@ var NAVTREEINDEX65 =
 "d7/d75/raptor__weapons_8qh.html#aa9b5ef54832469bc07b2d2a899798d8a":[2,0,1,15,0,13,5],
 "d7/d75/raptor__weapons_8qh_source.html":[2,0,1,15,0,13],
 "d7/d76/dialog__settings__game__model_8qh.html":[2,0,5,4,139],
-"d7/d76/dialog__settings__game__model_8qh.html#a1298b6f9b4a3f8596c92a41e8c4141b0":[2,0,5,4,139,2]
+"d7/d76/dialog__settings__game__model_8qh.html#a1298b6f9b4a3f8596c92a41e8c4141b0":[2,0,5,4,139,2],
+"d7/d76/dialog__settings__game__model_8qh.html#ae3352ff05cd68a276d35c458baa79048":[2,0,5,4,139,1],
+"d7/d76/dialog__settings__game__model_8qh_source.html":[2,0,5,4,139],
+"d7/d79/laser_8qc.html":[2,0,1,6,1,10],
+"d7/d79/laser_8qc_source.html":[2,0,1,6,1,10],
+"d7/d7b/turrets_2turret_2machinegun_8qc.html":[2,0,1,14,0,20]
 };
