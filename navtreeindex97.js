@@ -1,16 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"da/ddd/ipban_8qh.html#af5400e642692dd6c542af18b03d9946f":[2,0,6,36,3],
-"da/ddd/ipban_8qh_source.html":[2,0,6,36],
-"da/dde/classOffhandHook.html":[1,0,90],
-"da/dde/classOffhandHook.html#a3eebb9e4c20d2c338b773a030eca0ee0":[1,0,90,0],
-"da/dde/csprogsdefs_8qh.html":[2,0,2,1],
-"da/dde/csprogsdefs_8qh.html#a050be3f134c919c23725ca5207a3e0eb":[2,0,2,1,3],
-"da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9":[2,0,2,1,23],
-"da/dde/csprogsdefs_8qh.html#a2975aa3861dc843a19aa644cbca0990c":[2,0,2,1,9],
-"da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7":[2,0,2,1,20],
-"da/dde/csprogsdefs_8qh.html#a433e1dfe53e9bb20783eb9b80232ba1c":[2,0,2,1,4],
-"da/dde/csprogsdefs_8qh.html#a4a96281888b425309b14abf0f4f990a8":[2,0,2,1,0],
 "da/dde/csprogsdefs_8qh.html#a5d1bb17af4691ba1a8c043b63c37b391":[2,0,2,1,16],
 "da/dde/csprogsdefs_8qh.html#a5d319a625ab29c410927327237bff14b":[2,0,2,1,26],
 "da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727":[2,0,2,1,7],
@@ -249,5 +238,16 @@ var NAVTREEINDEX97 =
 "db/d07/teams_8qh.html#aca16bbbb9a21bac9cf7fbc0426f77cd7":[2,0,1,48,35],
 "db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce":[2,0,1,48,14],
 "db/d07/teams_8qh.html#ad58976dc8edb654a9245d69ee4f2b27f":[2,0,1,48,43],
-"db/d07/teams_8qh.html#adbc0074001363ddef68675aac96a3599":[2,0,1,48,5]
+"db/d07/teams_8qh.html#adbc0074001363ddef68675aac96a3599":[2,0,1,48,5],
+"db/d07/teams_8qh.html#ae812354355770545470af6b1acb70845":[2,0,1,48,9],
+"db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473":[2,0,1,48,47],
+"db/d07/teams_8qh_source.html":[2,0,1,48],
+"db/d08/classFlag.html":[1,0,40],
+"db/d08/classFlag.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,40,0],
+"db/d08/classFlag.html#a48b78d497828537731feaa167c8af4f1":[1,0,40,15],
+"db/d08/classFlag.html#a587201a4f50b004c34d6807383c093b5":[1,0,40,13],
+"db/d08/classFlag.html#a6131dbf54f626ebf2c9d610833da9fb5":[1,0,40,1],
+"db/d08/classFlag.html#a656d982600d7ada1460e143bbae0a3e9":[1,0,40,2],
+"db/d08/classFlag.html#a6815e793548a5b534973a237a97dc189":[1,0,40,11],
+"db/d08/classFlag.html#a727d6f42f79f0bd5ffc674423645471c":[1,0,40,3]
 };

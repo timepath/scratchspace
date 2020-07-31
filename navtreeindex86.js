@@ -1,16 +1,5 @@
 var NAVTREEINDEX86 =
 {
-"d9/d48/lib_2net_8qh.html#ad6164466023bdea2ceb4e0d4f156f228":[2,0,4,37,18],
-"d9/d48/lib_2net_8qh.html#ad661cd848d0c4cf8b93ab4f27f5bd329":[2,0,4,37,4],
-"d9/d48/lib_2net_8qh.html#adbac038270773ce63aa6c69dd2b08e6e":[2,0,4,37,5],
-"d9/d48/lib_2net_8qh.html#ae2a85287667d09986aa3617151c015bd":[2,0,4,37,9],
-"d9/d48/lib_2net_8qh.html#afd71f45cdad779199c626ebf10e9d56b":[2,0,4,37,10],
-"d9/d48/lib_2net_8qh_source.html":[2,0,4,37],
-"d9/d4a/dialog__hudpanel__quickmenu_8qh.html":[2,0,5,4,71],
-"d9/d4a/dialog__hudpanel__quickmenu_8qh_source.html":[2,0,5,4,71],
-"d9/d4f/deathtypes_2all_8qh.html":[2,0,1,1,4],
-"d9/d4f/deathtypes_2all_8qh.html#a387734666d7aaca5f931efd84bbf6eee":[2,0,1,1,4,0],
-"d9/d4f/deathtypes_2all_8qh.html#a3c6266eb4d661b2ff3ea997e2ca8d939":[2,0,1,1,4,4],
 "d9/d4f/deathtypes_2all_8qh.html#a3d2a6e3591b346acd119e615627b5f5b":[2,0,1,1,4,6],
 "d9/d4f/deathtypes_2all_8qh.html#a422a33d46ff07f65430b21152a187e7f":[2,0,1,1,4,11],
 "d9/d4f/deathtypes_2all_8qh.html#a4de07202894d6687c6df67891c6e2b0a":[2,0,1,1,4,16],
@@ -249,5 +238,16 @@ var NAVTREEINDEX86 =
 "d9/d62/menu_2draw_8qh.html#a9ba27c4846a5864397cba265d25cb35c":[2,0,5,9,24],
 "d9/d62/menu_2draw_8qh.html#aa2262cc2efebbd6abf3141ff86bd6afd":[2,0,5,9,17],
 "d9/d62/menu_2draw_8qh.html#aab8b9ebf8f70fb2aba148b1d1167350a":[2,0,5,9,6],
-"d9/d62/menu_2draw_8qh.html#aabd4f2c36e1b1ec13a831b7a48f3c8b6":[2,0,5,9,32]
+"d9/d62/menu_2draw_8qh.html#aabd4f2c36e1b1ec13a831b7a48f3c8b6":[2,0,5,9,32],
+"d9/d62/menu_2draw_8qh.html#ab748bef7e2060d302493a2522b696fc5":[2,0,5,9,10],
+"d9/d62/menu_2draw_8qh.html#ac2144fdd7c0ebd4bbcaaa8aaddd45561":[2,0,5,9,1],
+"d9/d62/menu_2draw_8qh.html#ae1fc75c93136d527f4c296ce527311da":[2,0,5,9,11],
+"d9/d62/menu_2draw_8qh.html#ae2280b395846b9ad2463e931ed718be4":[2,0,5,9,2],
+"d9/d62/menu_2draw_8qh.html#ae2b84439493e9448082a9acb5e779e5c":[2,0,5,9,25],
+"d9/d62/menu_2draw_8qh.html#ae64aac37d55a26279dca938d8ca2e76e":[2,0,5,9,5],
+"d9/d62/menu_2draw_8qh.html#ae8b20802138b0f068ab87b7e39396805":[2,0,5,9,8],
+"d9/d62/menu_2draw_8qh.html#af4bc6de1670ce740891a12010931e973":[2,0,5,9,14],
+"d9/d62/menu_2draw_8qh.html#af8bc78de646f77926ed2cc3a5f7c84d4":[2,0,5,9,29],
+"d9/d62/menu_2draw_8qh.html#afe94047bbecfa66eb72ad97ed820c857":[2,0,5,9,18],
+"d9/d62/menu_2draw_8qh_source.html":[2,0,5,9]
 };

@@ -1,16 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"da/d8d/classXonoticHUDPhysicsDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,196,15],
-"da/d8d/classXonoticHUDPhysicsDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,196,19],
-"da/d8d/classXonoticHUDPhysicsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,196,88],
-"da/d8d/classXonoticHUDPhysicsDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,196,51],
-"da/d8d/classXonoticHUDPhysicsDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,196,44],
-"da/d8d/classXonoticHUDPhysicsDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,196,66],
-"da/d8d/classXonoticHUDPhysicsDialog.html#a8ca0f7e92e1648531ee4f2b461a68890":[1,0,196,82],
-"da/d8d/classXonoticHUDPhysicsDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,196,72],
-"da/d8d/classXonoticHUDPhysicsDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,196,76],
-"da/d8d/classXonoticHUDPhysicsDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,196,64],
-"da/d8d/classXonoticHUDPhysicsDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,196,65],
 "da/d8d/classXonoticHUDPhysicsDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,196,10],
 "da/d8d/classXonoticHUDPhysicsDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,196,79],
 "da/d8d/classXonoticHUDPhysicsDialog.html#ab4bdd6e32f476bb83c79012286c274ba":[1,0,196,58],
@@ -249,5 +238,16 @@ var NAVTREEINDEX94 =
 "da/d9c/classXonoticMonsterToolsDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,218,84],
 "da/d9c/classXonoticMonsterToolsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,218,1],
 "da/d9c/classXonoticMonsterToolsDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,218,37],
-"da/d9c/classXonoticMonsterToolsDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,218,12]
+"da/d9c/classXonoticMonsterToolsDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,218,12],
+"da/d9c/classXonoticMonsterToolsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,218,73],
+"da/d9c/classXonoticMonsterToolsDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,218,21],
+"da/d9c/classXonoticMonsterToolsDialog.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,218,23],
+"da/d9c/classXonoticMonsterToolsDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,218,48],
+"da/d9c/classXonoticMonsterToolsDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,218,26],
+"da/d9c/classXonoticMonsterToolsDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,218,55],
+"da/d9c/classXonoticMonsterToolsDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,218,32],
+"da/d9c/classXonoticMonsterToolsDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,218,40],
+"da/d9c/classXonoticMonsterToolsDialog.html#a592adf4c0335f6260bb6e3b6459dcc0a":[1,0,218,85],
+"da/d9c/classXonoticMonsterToolsDialog.html#a607bad2b93e0a5b5a918d4c7cfc671cd":[1,0,218,58],
+"da/d9c/classXonoticMonsterToolsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,218,62]
 };

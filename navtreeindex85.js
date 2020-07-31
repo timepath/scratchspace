@@ -1,16 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"d9/d1d/pressedkeys_8qc_source.html":[2,0,0,1,0,24],
-"d9/d23/sv__nix_8qh.html":[2,0,1,10,0,21,3],
-"d9/d23/sv__nix_8qh_source.html":[2,0,1,10,0,21,3],
-"d9/d23/sv__stale__move__negation_8qc.html":[2,0,1,10,0,33,2],
-"d9/d23/sv__stale__move__negation_8qc.html#a11766fe8d40a5d3f3f6350f72eedf179":[2,0,1,10,0,33,2,2],
-"d9/d23/sv__stale__move__negation_8qc.html#a1e11f0bd5ac8ca871f00708a683603d6":[2,0,1,10,0,33,2,1],
-"d9/d23/sv__stale__move__negation_8qc.html#a2f91f5bc625ba516849b93efc07aabfa":[2,0,1,10,0,33,2,3],
-"d9/d23/sv__stale__move__negation_8qc.html#a551ec2755571c3a0fd85fd48f3b0ef77":[2,0,1,10,0,33,2,0],
-"d9/d23/sv__stale__move__negation_8qc.html#a604d791b204778757f5bf3a29386044a":[2,0,1,10,0,33,2,9],
-"d9/d23/sv__stale__move__negation_8qc.html#a69d6c39f84bb91c747f008767ec51f5f":[2,0,1,10,0,33,2,7],
-"d9/d23/sv__stale__move__negation_8qc.html#a9333622ed7ea7b0338535c1c47596a20":[2,0,1,10,0,33,2,5],
 "d9/d23/sv__stale__move__negation_8qc.html#a99059ed1df65035ce75c20769235a0d3":[2,0,1,10,0,33,2,6],
 "d9/d23/sv__stale__move__negation_8qc.html#aa31593325466363437fcae33e42dc8d4":[2,0,1,10,0,33,2,8],
 "d9/d23/sv__stale__move__negation_8qc.html#adb700ccb5a8bd0f3b508f33eea48b9e4":[2,0,1,10,0,33,2,4],
@@ -249,5 +238,16 @@ var NAVTREEINDEX85 =
 "d9/d48/lib_2net_8qh.html#aad966617e7e050bedbead762727808a5":[2,0,4,37,24],
 "d9/d48/lib_2net_8qh.html#ac319ef5622f183ecc17162cfdb220ff7":[2,0,4,37,0],
 "d9/d48/lib_2net_8qh.html#ac49c52faedf2fa7b788a1f2b7a93f992":[2,0,4,37,7],
-"d9/d48/lib_2net_8qh.html#ac5018e1bd72c932af0c0e652174c7b9f":[2,0,4,37,23]
+"d9/d48/lib_2net_8qh.html#ac5018e1bd72c932af0c0e652174c7b9f":[2,0,4,37,23],
+"d9/d48/lib_2net_8qh.html#ad6164466023bdea2ceb4e0d4f156f228":[2,0,4,37,18],
+"d9/d48/lib_2net_8qh.html#ad661cd848d0c4cf8b93ab4f27f5bd329":[2,0,4,37,4],
+"d9/d48/lib_2net_8qh.html#adbac038270773ce63aa6c69dd2b08e6e":[2,0,4,37,5],
+"d9/d48/lib_2net_8qh.html#ae2a85287667d09986aa3617151c015bd":[2,0,4,37,9],
+"d9/d48/lib_2net_8qh.html#afd71f45cdad779199c626ebf10e9d56b":[2,0,4,37,10],
+"d9/d48/lib_2net_8qh_source.html":[2,0,4,37],
+"d9/d4a/dialog__hudpanel__quickmenu_8qh.html":[2,0,5,4,71],
+"d9/d4a/dialog__hudpanel__quickmenu_8qh_source.html":[2,0,5,4,71],
+"d9/d4f/deathtypes_2all_8qh.html":[2,0,1,1,4],
+"d9/d4f/deathtypes_2all_8qh.html#a387734666d7aaca5f931efd84bbf6eee":[2,0,1,1,4,0],
+"d9/d4f/deathtypes_2all_8qh.html#a3c6266eb4d661b2ff3ea997e2ca8d939":[2,0,1,1,4,4]
 };

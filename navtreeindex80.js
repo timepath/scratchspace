@@ -1,16 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"d8/dd3/classDeathmatch.html#a87258d972a8b677bc431c763afd6e0fb":[1,0,27,15],
-"d8/dd3/classDeathmatch.html#a8b775d2f320d51836471e17e324002b8":[1,0,27,20],
-"d8/dd3/classDeathmatch.html#a949f7846462119cafac10c1fb4aa46ca":[1,0,27,10],
-"d8/dd3/classDeathmatch.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,27,2],
-"d8/dd3/classDeathmatch.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,27,17],
-"d8/dd3/classDeathmatch.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,27,4],
-"d8/dd3/classDeathmatch.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,27,3],
-"d8/dd3/classDeathmatch.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,27,22],
-"d8/dd3/classDeathmatch.html#ad15993848bc92a1c7bf0c70aeee7bbd2":[1,0,27,21],
-"d8/dd3/classDeathmatch.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,27,6],
-"d8/dd3/classDeathmatch.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,27,7],
 "d8/dd3/classDeathmatch.html#ae9227aebbcb0aaca925bbdc438958136":[1,0,27,16],
 "d8/dd3/classDeathmatch.html#aef3a65f4987590d66b653b91180860ca":[1,0,27,9],
 "d8/dd3/classDeathmatch.html#af1a6db9207b7000984864c8176081b52":[1,0,27,13],
@@ -249,5 +238,16 @@ var NAVTREEINDEX80 =
 "d8/de2/menudefs_8qc.html#a63efd87e959a84c2e9e3197a854425b4":[2,0,2,0,3,228],
 "d8/de2/menudefs_8qc.html#a6430688f24d17bc9b9c3eea2cc586bc3":[2,0,2,0,3,98],
 "d8/de2/menudefs_8qc.html#a65d333da41392bfca8e577eb7307f6a0":[2,0,2,0,3,220],
-"d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f":[2,0,2,0,3,138]
+"d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f":[2,0,2,0,3,138],
+"d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b":[2,0,2,0,3,115],
+"d8/de2/menudefs_8qc.html#a66804fbc3a76c60d59f50aa1bc4557d1":[2,0,2,0,3,32],
+"d8/de2/menudefs_8qc.html#a66ae6f59199ebf4780d2bf9681f2b0c7":[2,0,2,0,3,112],
+"d8/de2/menudefs_8qc.html#a67b0317a458ffc50437b7d3a09a4f0a9":[2,0,2,0,3,270],
+"d8/de2/menudefs_8qc.html#a67ebab330f334a43e69eb32eb4c2acce":[2,0,2,0,3,257],
+"d8/de2/menudefs_8qc.html#a68575f63527a4462b1a294b938f1fffe":[2,0,2,0,3,83],
+"d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38":[2,0,2,0,3,10],
+"d8/de2/menudefs_8qc.html#a69ac044af95e1e9f3354c06cfbf21671":[2,0,2,0,3,247],
+"d8/de2/menudefs_8qc.html#a6a75891fea80155adff98e273466b197":[2,0,2,0,3,200],
+"d8/de2/menudefs_8qc.html#a6ab617809eecc795aa436a1022054dbd":[2,0,2,0,3,267],
+"d8/de2/menudefs_8qc.html#a6af3ef877f9d8e4491e69ebdabef47d0":[2,0,2,0,3,66]
 };

@@ -1,16 +1,5 @@
 var NAVTREEINDEX107 =
 {
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,198,55],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,198,32],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,198,40],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a598caa588010e0d9491a78aa79b7cbb7":[1,0,198,76],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,198,62],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,198,74],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,198,6],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,198,14],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,198,18],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a7ac5290d028085d0b4266257400be537":[1,0,198,79],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,198,87],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,198,50],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,198,43],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,198,65],
@@ -249,5 +238,16 @@ var NAVTREEINDEX107 =
 "db/dcc/g__world_8qc.html#af6e06dc7a3ee1cf68b86363408a385ea":[2,0,6,27,34],
 "db/dcc/g__world_8qc.html#af7053fbbaf3bf28ba21d75db78ce40c1":[2,0,6,27,67],
 "db/dcc/g__world_8qc.html#af8f462400b6e203393394085ab5bc7d1":[2,0,6,27,47],
-"db/dcc/g__world_8qc.html#af92bf03c5ee7754be730c2eaae2385a7":[2,0,6,27,27]
+"db/dcc/g__world_8qc.html#af92bf03c5ee7754be730c2eaae2385a7":[2,0,6,27,27],
+"db/dcc/g__world_8qc.html#afd2607023ed26fd5f9af908d15fa579b":[2,0,6,27,3],
+"db/dcc/g__world_8qc.html#afda7c0d2e9429b1eb3477891bc970dad":[2,0,6,27,75],
+"db/dcc/g__world_8qc_source.html":[2,0,6,27],
+"db/dd2/shambler_8qc.html":[2,0,1,9,0,4],
+"db/dd2/shambler_8qc_source.html":[2,0,1,9,0,4],
+"db/dd3/classCallback.html":[1,0,13],
+"db/dd3/classCallback.html#af8d4aab0572cc7fcf3dca4e1174faef8":[1,0,13,0],
+"db/dd3/classCallback.html#af99cb10117c292e3a495925c6692c412":[1,0,13,1],
+"db/dd3/dialog__settings__misc__reset_8qh.html":[2,0,5,4,153],
+"db/dd3/dialog__settings__misc__reset_8qh_source.html":[2,0,5,4,153],
+"db/dd3/doublejump_8qc.html":[2,0,1,10,0,8,2]
 };

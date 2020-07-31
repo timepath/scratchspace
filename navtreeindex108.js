@@ -1,16 +1,5 @@
 var NAVTREEINDEX108 =
 {
-"db/dcc/g__world_8qc.html#afd2607023ed26fd5f9af908d15fa579b":[2,0,6,27,3],
-"db/dcc/g__world_8qc.html#afda7c0d2e9429b1eb3477891bc970dad":[2,0,6,27,75],
-"db/dcc/g__world_8qc_source.html":[2,0,6,27],
-"db/dd2/shambler_8qc.html":[2,0,1,9,0,4],
-"db/dd2/shambler_8qc_source.html":[2,0,1,9,0,4],
-"db/dd3/classCallback.html":[1,0,13],
-"db/dd3/classCallback.html#af8d4aab0572cc7fcf3dca4e1174faef8":[1,0,13,0],
-"db/dd3/classCallback.html#af99cb10117c292e3a495925c6692c412":[1,0,13,1],
-"db/dd3/dialog__settings__misc__reset_8qh.html":[2,0,5,4,153],
-"db/dd3/dialog__settings__misc__reset_8qh_source.html":[2,0,5,4,153],
-"db/dd3/doublejump_8qc.html":[2,0,1,10,0,8,2],
 "db/dd3/doublejump_8qc_source.html":[2,0,1,10,0,8,2],
 "db/dd7/dialog__multiplayer__media__musicplayer_8qh.html":[2,0,5,4,109],
 "db/dd7/dialog__multiplayer__media__musicplayer_8qh.html#ae82044ad6b56c5d7803a8922b42ac371":[2,0,5,4,109,1],
@@ -249,5 +238,16 @@ var NAVTREEINDEX108 =
 "db/dec/sv__race_8qc.html#aa7e569fedc9782ded3442504ee0baab7":[2,0,1,3,0,14,6,12],
 "db/dec/sv__race_8qc.html#ad601e69c9fca1422bb42871196dba243":[2,0,1,3,0,14,6,19],
 "db/dec/sv__race_8qc.html#ad681cb8c02759a59d5b11cba5a670ec6":[2,0,1,3,0,14,6,5],
-"db/dec/sv__race_8qc.html#aeaf82bf9e9ceb0277f60b23e34429c39":[2,0,1,3,0,14,6,29]
+"db/dec/sv__race_8qc.html#aeaf82bf9e9ceb0277f60b23e34429c39":[2,0,1,3,0,14,6,29],
+"db/dec/sv__race_8qc.html#aedd0fd187ff98ac747b935a639930a4f":[2,0,1,3,0,14,6,26],
+"db/dec/sv__race_8qc.html#af16ef4c5fe5fb7facae3c81a86bc0720":[2,0,1,3,0,14,6,14],
+"db/dec/sv__race_8qc.html#af5c1256665acff951494d182d83c080c":[2,0,1,3,0,14,6,13],
+"db/dec/sv__race_8qc.html#af9d563e6f225d1497dd79589f79e7183":[2,0,1,3,0,14,6,23],
+"db/dec/sv__race_8qc.html#afb9cfce39a940f7e0fd176fd1a159172":[2,0,1,3,0,14,6,20],
+"db/dec/sv__race_8qc.html#afd8bb8bada4e4e94b04f9d0652cb62cc":[2,0,1,3,0,14,6,18],
+"db/dec/sv__race_8qc_source.html":[2,0,1,3,0,14,6],
+"db/dee/projectiles_8qh.html":[2,0,1,16,12],
+"db/dee/projectiles_8qh.html#a0556af9f0eb745cf179e0646459aa60c":[2,0,1,16,12,16],
+"db/dee/projectiles_8qh.html#a067303b9b6c3042213c631b2f88886df":[2,0,1,16,12,32],
+"db/dee/projectiles_8qh.html#a0bb47bbecbc4f5cbff9a00d98da3c0c6":[2,0,1,16,12,28]
 };

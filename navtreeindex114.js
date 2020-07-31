@@ -1,16 +1,5 @@
 var NAVTREEINDEX114 =
 {
-"dc/d8f/notifications_2all_8qh_source.html":[2,0,1,11,4],
-"dc/d90/hud__config_8qc.html":[2,0,0,1,7],
-"dc/d90/hud__config_8qc.html#a048da86e3f83ccfe7f4891b2074c74fe":[2,0,0,1,7,10],
-"dc/d90/hud__config_8qc.html#a1ad6573e83c9ee8bd35a65a8c645dc93":[2,0,0,1,7,25],
-"dc/d90/hud__config_8qc.html#a22efbfe26e334ef2923e0ee491323829":[2,0,0,1,7,9],
-"dc/d90/hud__config_8qc.html#a272f972366e65bdb7303c3d43e397c31":[2,0,0,1,7,14],
-"dc/d90/hud__config_8qc.html#a2b58f9e225aff3557baac36ae7b562b7":[2,0,0,1,7,17],
-"dc/d90/hud__config_8qc.html#a37b9023b39d6d024d006e427aa8e72ee":[2,0,0,1,7,5],
-"dc/d90/hud__config_8qc.html#a478cfa31403b85150ef9c9d80489a99f":[2,0,0,1,7,24],
-"dc/d90/hud__config_8qc.html#a4ca23e25abf9f4998736c75e33b01e6b":[2,0,0,1,7,27],
-"dc/d90/hud__config_8qc.html#a5f192ffd4f432cd17da4ee085a974ca8":[2,0,0,1,7,19],
 "dc/d90/hud__config_8qc.html#a665a55d00480841ad02d7ba5b3f72c69":[2,0,0,1,7,0],
 "dc/d90/hud__config_8qc.html#a6aaaf10fee41e2d0e07f93ef83d78c40":[2,0,0,1,7,28],
 "dc/d90/hud__config_8qc.html#a7d2815ab838e5fced8ffa2fa8af5b230":[2,0,0,1,7,12],
@@ -249,5 +238,16 @@ var NAVTREEINDEX114 =
 "dc/db1/classXonoticTextLabel.html#a967932f68a90eef8c0919e94d334aee1":[1,0,257,32],
 "dc/db1/classXonoticTextLabel.html#a9bdc1579ae8b573f83a140daf6d9ef73":[1,0,257,14],
 "dc/db1/classXonoticTextLabel.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,257,26],
-"dc/db1/classXonoticTextLabel.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,257,35]
+"dc/db1/classXonoticTextLabel.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,257,35],
+"dc/db1/classXonoticTextLabel.html#aad099a0549928c37867d05a5dde2a511":[1,0,257,45],
+"dc/db1/classXonoticTextLabel.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,257,3],
+"dc/db1/classXonoticTextLabel.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,257,42],
+"dc/db1/classXonoticTextLabel.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,257,27],
+"dc/db1/classXonoticTextLabel.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,257,1],
+"dc/db1/classXonoticTextLabel.html#ad1ce92ac8ebc94d1d48a8374cd205618":[1,0,257,20],
+"dc/db1/classXonoticTextLabel.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,257,39],
+"dc/db1/classXonoticTextLabel.html#ae0c267c4f00544fa21932aa1251d6135":[1,0,257,16],
+"dc/db1/classXonoticTextLabel.html#ae3aaefe7fac0a6ad898f2b39be8a10a4":[1,0,257,6],
+"dc/db1/classXonoticTextLabel.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,257,21],
+"dc/db1/classXonoticTextLabel.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,257,4]
 };

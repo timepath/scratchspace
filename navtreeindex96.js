@@ -1,16 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"da/db7/weaponsystem_8qh.html#a3eef678d2a46dc639f684d226fae3906":[2,0,6,5,21,10],
-"da/db7/weaponsystem_8qh.html#a460ba8ea4c78b7617eade17eb383d86b":[2,0,6,5,21,16],
-"da/db7/weaponsystem_8qh.html#a4774b540ac577e1898af7d257be0b390":[2,0,6,5,21,15],
-"da/db7/weaponsystem_8qh.html#a47ef99cc9d2abc943896ed64a5a1d5e6":[2,0,6,5,21,12],
-"da/db7/weaponsystem_8qh.html#a813254341767de735265a1836478ad03":[2,0,6,5,21,2],
-"da/db7/weaponsystem_8qh.html#a9bcd792c8ccabbcc22484eb7872f70b8":[2,0,6,5,21,7],
-"da/db7/weaponsystem_8qh.html#aa6d337210081fd47ddca43564d7bf9c3":[2,0,6,5,21,0],
-"da/db7/weaponsystem_8qh.html#aa9037cea3d518282ee50064ec34e3c4a":[2,0,6,5,21,8],
-"da/db7/weaponsystem_8qh.html#aaf88c2158300a1bec1d14a44351fe55e":[2,0,6,5,21,11],
-"da/db7/weaponsystem_8qh.html#ab77c36c89a03dbb675a9350144e5faec":[2,0,6,5,21,18],
-"da/db7/weaponsystem_8qh.html#ac7b6c8bdba2c394f8a3385c9bd992f9c":[2,0,6,5,21,14],
 "da/db7/weaponsystem_8qh.html#ad315ff4e6ee9693a54edb0d18efc9245":[2,0,6,5,21,1],
 "da/db7/weaponsystem_8qh.html#aec0fe6ceaaa481571f883bcf71378ae3":[2,0,6,5,21,6],
 "da/db7/weaponsystem_8qh_source.html":[2,0,6,5,21],
@@ -249,5 +238,16 @@ var NAVTREEINDEX96 =
 "da/ddd/ipban_8qh.html#ac01ce020dcc014d515c2b39dc5a09260":[2,0,6,36,5],
 "da/ddd/ipban_8qh.html#ac89ccc1209193c2c02b5d3f992b8ec69":[2,0,6,36,2],
 "da/ddd/ipban_8qh.html#ad7174054ad76d672732a64c0a20d658e":[2,0,6,36,9],
-"da/ddd/ipban_8qh.html#af092a83967ab9516490e44b5736a9fe3":[2,0,6,36,8]
+"da/ddd/ipban_8qh.html#af092a83967ab9516490e44b5736a9fe3":[2,0,6,36,8],
+"da/ddd/ipban_8qh.html#af5400e642692dd6c542af18b03d9946f":[2,0,6,36,3],
+"da/ddd/ipban_8qh_source.html":[2,0,6,36],
+"da/dde/classOffhandHook.html":[1,0,90],
+"da/dde/classOffhandHook.html#a3eebb9e4c20d2c338b773a030eca0ee0":[1,0,90,0],
+"da/dde/csprogsdefs_8qh.html":[2,0,2,1],
+"da/dde/csprogsdefs_8qh.html#a050be3f134c919c23725ca5207a3e0eb":[2,0,2,1,3],
+"da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9":[2,0,2,1,23],
+"da/dde/csprogsdefs_8qh.html#a2975aa3861dc843a19aa644cbca0990c":[2,0,2,1,9],
+"da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7":[2,0,2,1,20],
+"da/dde/csprogsdefs_8qh.html#a433e1dfe53e9bb20783eb9b80232ba1c":[2,0,2,1,4],
+"da/dde/csprogsdefs_8qh.html#a4a96281888b425309b14abf0f4f990a8":[2,0,2,1,0]
 };
