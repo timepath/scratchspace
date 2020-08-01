@@ -1,46 +1,48 @@
 <map id="trigger_push_findtarget" name="trigger_push_findtarget">
-<area shape="rect" id="node2" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1397,625,1456,652"/>
-<area shape="rect" id="node3" href="$d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" title="Push to tail. " alt="" coords="259,397,335,424"/>
-<area shape="rect" id="node5" href="$dc/dc6/server_2miscfunctions_8qc.html#aef9b6a1e3d47e62ce4d96e73b3dba237" title="InitializeEntity" alt="" coords="242,1461,351,1488"/>
-<area shape="rect" id="node6" href="$d2/d9b/jumppads_8qc.html#ae9271783043a000e2b18d8be9543c580" title="jumppad_push" alt="" coords="461,575,577,601"/>
-<area shape="rect" id="node17" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="1388,1740,1465,1767"/>
-<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="1385,144,1468,171"/>
-<area shape="rect" id="node19" href="$d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516" title="WriteString" alt="" coords="1381,43,1472,69"/>
-<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db" title="strzone" alt="" coords="1391,1157,1462,1184"/>
-<area shape="rect" id="node33" href="$d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b" title="WriteCoord" alt="" coords="1208,93,1299,120"/>
-<area shape="rect" id="node35" href="$d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2" title="precache_sound" alt="" coords="233,1867,360,1893"/>
-<area shape="rect" id="node36" href="$d7/dbb/sv__assault_8qc.html#ae0e300916d97354fbf4129971a5d3b4d" title="spawnfunc" alt="" coords="252,1917,341,1944"/>
-<area shape="rect" id="node37" href="$d2/d9b/jumppads_8qc.html#a8395a082e3537066195813075d3ec553" title="if (item != NULL) returns true if the item can be reached by using this jumppad, false otherwise if (..." alt="" coords="452,1259,587,1285"/>
-<area shape="rect" id="node43" href="$d2/d9b/jumppads_8qc.html#affeed36a4bfbccc789a223127cd20da4" title="trigger_push_touch" alt="" coords="224,1031,369,1057"/>
-<area shape="rect" id="node4" href="$d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" title="IL_CONTAINS" alt="" coords="467,397,572,424"/>
-<area shape="rect" id="node7" href="$d0/d51/animdecide_8qc.html#ada84f7ee6c4814b1cd8d979586eb61d1" title="animdecide_setaction" alt="" coords="695,499,858,525"/>
-<area shape="rect" id="node8" href="$d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f" title="centerprint" alt="" coords="1207,397,1299,424"/>
-<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="1231,499,1276,525"/>
-<area shape="rect" id="node10" href="$dc/dc6/server_2miscfunctions_8qc.html#a5b86d62af04bbd33aa2bca5635a1e2fa" title="isPushable" alt="" coords="731,549,822,576"/>
-<area shape="rect" id="node12" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="1173,448,1333,475"/>
-<area shape="rect" id="node13" href="$d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78" title="set_movetype" alt="" coords="720,600,833,627"/>
-<area shape="rect" id="node14" href="$d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6" title="SUB_UseTargets" alt="" coords="713,296,841,323"/>
-<area shape="rect" id="node24" href="$d2/d9b/jumppads_8qc.html#aac42770aa9202c7131759aa3341b4899" title="trigger_push_calculatevelocity" alt="" coords="669,1005,884,1032"/>
-<area shape="rect" id="node28" href="$da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9" title="vector" alt="" coords="1222,955,1285,981"/>
-<area shape="rect" id="node31" href="$d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b" title="UpdateCSQCProjectile" alt="" coords="695,144,859,171"/>
-<area shape="rect" id="node34" href="$d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c" title="vectoangles" alt="" coords="727,651,826,677"/>
-<area shape="rect" id="node11" href="$dd/dea/items_2spawning_8qc.html#a74c05dd595595612bcb3f2b9450e7591" title="Returns whether the item is loot. " alt="" coords="981,549,1077,576"/>
-<area shape="rect" id="node15" href="$d6/d57/triggers_8qc.html#a5f4833320883cad2bd53711c442d7fe9" title="SUB_UseTargets_Ex" alt="" coords="953,296,1104,323"/>
-<area shape="rect" id="node16" href="$d6/d57/triggers_8qc.html#a1c58d77ea3f4858ed96288710690cf98" title="DelayThink" alt="" coords="1208,245,1299,272"/>
-<area shape="rect" id="node23" href="$dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896" title="play2" alt="" coords="1225,296,1281,323"/>
-<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35" title="WriteShort" alt="" coords="1383,271,1471,297"/>
-<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="1395,220,1458,247"/>
-<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b" title="fabs" alt="" coords="1004,1056,1053,1083"/>
-<area shape="rect" id="node26" href="$d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4" title="normalize" alt="" coords="986,1107,1071,1133"/>
-<area shape="rect" id="node27" href="$d0/d79/math_8qh.html#abecdd1d5bfb1c569c5d4fe16f3c0ef3a" title="ax^2 + bx + c = 0 " alt="" coords="967,904,1090,931"/>
-<area shape="rect" id="node29" href="$d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3" title="sqrt" alt="" coords="1230,803,1277,829"/>
-<area shape="rect" id="node30" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="1005,1157,1053,1184"/>
-<area shape="rect" id="node32" href="$d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e" title="CSQCProjectile_SendEntity" alt="" coords="932,144,1125,171"/>
-<area shape="rect" id="node38" href="$d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" title="spawn" alt="" coords="745,1056,808,1083"/>
-<area shape="rect" id="node39" href="$d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df" title="min" alt="" coords="753,1360,800,1387"/>
-<area shape="rect" id="node40" href="$de/dcb/vector_8qh.html#a9d1cd3b60eb67f1ec2a17fc2022e4276" title="requires that m2&gt;m1 in all coordinates, and that m4&gt;m3 " alt="" coords="723,1411,830,1437"/>
-<area shape="rect" id="node41" href="$db/d15/api_8qh.html#a6805606231a9daaa02d082d33f3514df" title="waypoint_spawnforteleporter" alt="" coords="674,1512,879,1539"/>
-<area shape="rect" id="node42" href="$d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b" title="objerror" alt="" coords="741,1309,813,1336"/>
-<area shape="rect" id="node44" href="$d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44" title="func_null" alt="" coords="480,1107,559,1133"/>
-<area shape="rect" id="node45" href="$d7/dc4/waypoints_8qc.html#aa76c5d1d5c596ee232f85d89941ed479" title="trigger_push_get_push_time" alt="" coords="417,1157,621,1184"/>
+<area shape="rect" id="node2" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1401,651,1460,678"/>
+<area shape="rect" id="node3" href="$d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" title="Push to tail. " alt="" coords="259,246,335,272"/>
+<area shape="rect" id="node5" href="$dc/dc6/server_2miscfunctions_8qc.html#aef9b6a1e3d47e62ce4d96e73b3dba237" title="InitializeEntity" alt="" coords="242,854,351,880"/>
+<area shape="rect" id="node6" href="$d2/d9b/jumppads_8qc.html#ae9271783043a000e2b18d8be9543c580" title="jumppad_push" alt="" coords="461,676,577,703"/>
+<area shape="rect" id="node17" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="1392,1715,1469,1742"/>
+<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="1389,119,1472,146"/>
+<area shape="rect" id="node19" href="$d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516" title="WriteString" alt="" coords="1385,195,1476,222"/>
+<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db" title="strzone" alt="" coords="1395,1664,1466,1691"/>
+<area shape="rect" id="node33" href="$d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b" title="WriteCoord" alt="" coords="1385,31,1476,58"/>
+<area shape="rect" id="node37" href="$d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2" title="precache_sound" alt="" coords="233,1918,360,1944"/>
+<area shape="rect" id="node38" href="$d7/dbb/sv__assault_8qc.html#ae0e300916d97354fbf4129971a5d3b4d" title="spawnfunc" alt="" coords="252,1968,341,1995"/>
+<area shape="rect" id="node39" href="$d2/d9b/jumppads_8qc.html#a8395a082e3537066195813075d3ec553" title="if (item != NULL) returns true if the item can be reached by using this jumppad, false otherwise if (..." alt="" coords="452,1335,587,1362"/>
+<area shape="rect" id="node45" href="$d2/d9b/jumppads_8qc.html#affeed36a4bfbccc789a223127cd20da4" title="trigger_push_touch" alt="" coords="224,1031,369,1058"/>
+<area shape="rect" id="node4" href="$d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" title="IL_CONTAINS" alt="" coords="467,195,572,222"/>
+<area shape="rect" id="node7" href="$d0/d51/animdecide_8qc.html#ada84f7ee6c4814b1cd8d979586eb61d1" title="animdecide_setaction" alt="" coords="695,550,858,576"/>
+<area shape="rect" id="node8" href="$d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f" title="centerprint" alt="" coords="1195,460,1287,487"/>
+<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="1218,752,1263,779"/>
+<area shape="rect" id="node10" href="$dc/dc6/server_2miscfunctions_8qc.html#a5b86d62af04bbd33aa2bca5635a1e2fa" title="isPushable" alt="" coords="731,600,822,627"/>
+<area shape="rect" id="node12" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="1161,524,1321,551"/>
+<area shape="rect" id="node13" href="$d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78" title="set_movetype" alt="" coords="720,651,833,678"/>
+<area shape="rect" id="node14" href="$d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6" title="SUB_UseTargets" alt="" coords="713,752,841,779"/>
+<area shape="rect" id="node24" href="$d2/d9b/jumppads_8qc.html#aac42770aa9202c7131759aa3341b4899" title="trigger_push_calculatevelocity" alt="" coords="669,1107,884,1134"/>
+<area shape="rect" id="node28" href="$da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9" title="vector" alt="" coords="1209,1158,1272,1184"/>
+<area shape="rect" id="node31" href="$d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b" title="UpdateCSQCProjectile" alt="" coords="932,220,1096,247"/>
+<area shape="rect" id="node36" href="$d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c" title="vectoangles" alt="" coords="727,702,826,728"/>
+<area shape="rect" id="node11" href="$dd/dea/items_2spawning_8qc.html#a74c05dd595595612bcb3f2b9450e7591" title="Returns whether the item is loot. " alt="" coords="966,600,1062,627"/>
+<area shape="rect" id="node15" href="$d6/d57/triggers_8qc.html#a5f4833320883cad2bd53711c442d7fe9" title="SUB_UseTargets_Ex" alt="" coords="939,651,1089,678"/>
+<area shape="rect" id="node16" href="$d6/d57/triggers_8qc.html#a1c58d77ea3f4858ed96288710690cf98" title="DelayThink" alt="" coords="1195,702,1286,728"/>
+<area shape="rect" id="node23" href="$dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896" title="play2" alt="" coords="1213,600,1269,627"/>
+<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35" title="WriteShort" alt="" coords="1387,423,1475,450"/>
+<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="1399,702,1462,728"/>
+<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b" title="fabs" alt="" coords="989,1208,1039,1235"/>
+<area shape="rect" id="node26" href="$d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4" title="normalize" alt="" coords="971,1259,1057,1286"/>
+<area shape="rect" id="node27" href="$d0/d79/math_8qh.html#abecdd1d5bfb1c569c5d4fe16f3c0ef3a" title="ax^2 + bx + c = 0 " alt="" coords="953,1107,1075,1134"/>
+<area shape="rect" id="node29" href="$d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3" title="sqrt" alt="" coords="1217,1056,1264,1083"/>
+<area shape="rect" id="node30" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="990,1310,1038,1336"/>
+<area shape="rect" id="node32" href="$d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e" title="CSQCProjectile_SendEntity" alt="" coords="1144,94,1337,120"/>
+<area shape="rect" id="node34" href="$df/d26/server_2items_2items_8qc.html#a5170a5bfa440c6f8184412ebdf03db7b" title="ItemSend" alt="" coords="1199,195,1283,222"/>
+<area shape="rect" id="node35" href="$df/d26/server_2items_2items_8qc.html#a5b8f21a495331612074c7e7b253f1fda" title="ItemUpdate" alt="" coords="1191,246,1290,272"/>
+<area shape="rect" id="node40" href="$d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" title="spawn" alt="" coords="745,1158,808,1184"/>
+<area shape="rect" id="node41" href="$d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df" title="min" alt="" coords="753,1614,800,1640"/>
+<area shape="rect" id="node42" href="$de/dcb/vector_8qh.html#a9d1cd3b60eb67f1ec2a17fc2022e4276" title="requires that m2&gt;m1 in all coordinates, and that m4&gt;m3 " alt="" coords="723,1360,830,1387"/>
+<area shape="rect" id="node43" href="$db/d15/api_8qh.html#a6805606231a9daaa02d082d33f3514df" title="waypoint_spawnforteleporter" alt="" coords="674,1411,879,1438"/>
+<area shape="rect" id="node44" href="$d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b" title="objerror" alt="" coords="741,1563,813,1590"/>
+<area shape="rect" id="node46" href="$d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44" title="func_null" alt="" coords="480,955,559,982"/>
+<area shape="rect" id="node47" href="$d7/dc4/waypoints_8qc.html#aa76c5d1d5c596ee232f85d89941ed479" title="trigger_push_get_push_time" alt="" coords="417,1006,621,1032"/>
 </map>

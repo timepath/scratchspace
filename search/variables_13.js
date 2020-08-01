@@ -228,6 +228,7 @@ var searchData=
   ['spawnpoint_5fscore',['spawnpoint_score',['../d4/dd1/spawnpoints_8qh.html#a693d893f5755f55200d6c320c814c6a4',1,'spawnpoints.qh']]],
   ['spawnpointmodel',['spawnpointmodel',['../d7/dc4/waypoints_8qc.html#a85bede8c1125729a93dce37c57096680',1,'waypoints.qc']]],
   ['spawnshieldtime',['spawnshieldtime',['../d5/d26/server_2defs_8qh.html#a818a3a01a056d7a1bd0318928eabb76e',1,'defs.qh']]],
+  ['spawntime',['spawntime',['../d7/d22/client_2items_2items_8qh.html#a7b648662bb2e30d553201e376a365317',1,'items.qh']]],
   ['speaker_5factivator',['SPEAKER_ACTIVATOR',['../d4/d48/speaker_8qh.html#a1b968e8d902a14d1e9ed1345c1f01769',1,'speaker.qh']]],
   ['speaker_5fglobal',['SPEAKER_GLOBAL',['../d4/d48/speaker_8qh.html#aa0e59e279fad2703c0fa3c4f7c047a0d',1,'speaker.qh']]],
   ['speaker_5flooped_5foff',['SPEAKER_LOOPED_OFF',['../d4/d48/speaker_8qh.html#ac2905c80978e1bce55ef377bf0191a3a',1,'speaker.qh']]],

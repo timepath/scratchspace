@@ -2,9 +2,12 @@ var weaponsystem_8qh =
 [
     [ "CL_SpawnWeaponentity", "da/db7/weaponsystem_8qh.html#aa6d337210081fd47ddca43564d7bf9c3", null ],
     [ "CL_Weapon_GetShotOrg", "da/db7/weaponsystem_8qh.html#ad315ff4e6ee9693a54edb0d18efc9245", null ],
+    [ "void", "da/db7/weaponsystem_8qh.html#aa161c81b4029a6e3572de07692542739", null ],
     [ "W_AttachToShotorg", "da/db7/weaponsystem_8qh.html#a813254341767de735265a1836478ad03", null ],
+    [ "w_clear", "da/db7/weaponsystem_8qh.html#a6e2db8091b94c8cb9fa32263996e15b8", null ],
     [ "W_DecreaseAmmo", "da/db7/weaponsystem_8qh.html#a06b2f0eed9468ff1724e9d1e6995dbd2", null ],
     [ "W_DropEvent", "da/db7/weaponsystem_8qh.html#a247df313dc346cd128c991a289157b06", null ],
+    [ "w_ready", "da/db7/weaponsystem_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40", null ],
     [ "W_Reload", "da/db7/weaponsystem_8qh.html#a20be965c42ea2fe958748c6971f93a78", null ],
     [ "W_ResetGunAlign", "da/db7/weaponsystem_8qh.html#aec0fe6ceaaa481571f883bcf71378ae3", null ],
     [ "W_WeaponFrame", "da/db7/weaponsystem_8qh.html#a9bcd792c8ccabbcc22484eb7872f70b8", null ],
@@ -16,7 +19,14 @@ var weaponsystem_8qh =
     [ "weapon_thinkf", "da/db7/weaponsystem_8qh.html#a2c942b58576428eb5b55f9d6ca107a49", null ],
     [ "weaponLocked", "da/db7/weaponsystem_8qh.html#ac7b6c8bdba2c394f8a3385c9bd992f9c", null ],
     [ "weaponUseForbidden", "da/db7/weaponsystem_8qh.html#a4774b540ac577e1898af7d257be0b390", null ],
+    [ "ammo_none", "da/db7/weaponsystem_8qh.html#ae0a21a0484e5bf8b8fe8e359578f5ddc", null ],
+    [ "clip_load", "da/db7/weaponsystem_8qh.html#a4923eb650cdc8451fe338610a8bdeaff", null ],
+    [ "clip_size", "da/db7/weaponsystem_8qh.html#ab2096ee78f29ebc7ed032605312f919b", null ],
     [ "internalteam", "da/db7/weaponsystem_8qh.html#a460ba8ea4c78b7617eade17eb383d86b", null ],
+    [ "old_clip_load", "da/db7/weaponsystem_8qh.html#a898d6bb7e9d79981b5b74ef20aaf2ed8", null ],
+    [ "W_TICSPERFRAME", "da/db7/weaponsystem_8qh.html#ac6417073598ae2a533bf142589e66833", null ],
     [ "weapon_dropevent_item", "da/db7/weaponsystem_8qh.html#a359b963d3e3912a3abe4dcac224cf5f9", null ],
+    [ "weapon_load", "da/db7/weaponsystem_8qh.html#af0467e387992f47313eb9dd634256b51", null ],
+    [ "weapon_nextthink", "da/db7/weaponsystem_8qh.html#a114651a635db56741dc92c082059ffc7", null ],
     [ "weaponentity_fld", "da/db7/weaponsystem_8qh.html#ab77c36c89a03dbb675a9350144e5faec", null ]
 ];

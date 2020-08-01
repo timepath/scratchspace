@@ -54,6 +54,7 @@ var searchData=
   ['end_5fsys_5fglobals',['end_sys_globals',['../d4/d0c/csprogsdefs_8qc.html#a915ee629bb13889cd5b99f284c4956e5',1,'end_sys_globals():&#160;csprogsdefs.qc'],['../d8/de2/menudefs_8qc.html#a915ee629bb13889cd5b99f284c4956e5',1,'end_sys_globals():&#160;menudefs.qc'],['../d6/d11/progsdefs_8qc.html#a915ee629bb13889cd5b99f284c4956e5',1,'end_sys_globals():&#160;progsdefs.qc']]],
   ['enemy',['enemy',['../d6/db0/sv__ctf_8qh.html#a9bdd141f634714eab30642bf42f63862',1,'enemy():&#160;sv_ctf.qh'],['../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862',1,'enemy():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862',1,'enemy():&#160;progsdefs.qc'],['../d1/d6a/lib_2warpzone_2common_8qc.html#a9bdd141f634714eab30642bf42f63862',1,'enemy():&#160;common.qc']]],
   ['enemy_5fplayerid',['enemy_playerid',['../da/de5/sv__domination_8qh.html#a51412bf2f106037d2831e7ed0bcc917a',1,'sv_domination.qh']]],
+  ['ent_5fclient_5fitem_5fsimple',['ENT_CLIENT_ITEM_simple',['../d7/da7/client_2items_2items_8qc.html#ad546b02b89686ef3f37b4b089d98714e',1,'items.qc']]],
   ['ent_5fwinning',['ent_winning',['../d7/dbb/sv__assault_8qc.html#a6f4edbea3efa7b76739a74aff758b159',1,'sv_assault.qc']]],
   ['entcs_5fprop_5fentnum_5fid',['ENTCS_PROP_ENTNUM_id',['../d5/dff/ent__cs_8qc.html#a79291def54eed44a0f28427d8db93103',1,'ent_cs.qc']]],
   ['entcs_5fprop_5forigin_5fid',['ENTCS_PROP_ORIGIN_id',['../d5/dff/ent__cs_8qc.html#a94b8b3a2196fc7215a711a57f2f6e43f',1,'ent_cs.qc']]],

@@ -10,6 +10,7 @@ var searchData=
   ['target_5finit_5fuse',['target_init_use',['../df/d42/quake3_8qc.html#a8e4bde1ae214abebec59d65ca0c27df9',1,'quake3.qc']]],
   ['target_5finit_5fverify',['target_init_verify',['../df/d42/quake3_8qc.html#a61742c0334dce4be11adeb7ba6664685',1,'quake3.qc']]],
   ['target_5finvasion_5froundend_5fuse',['target_invasion_roundend_use',['../db/da5/sv__invasion_8qc.html#a1e482d9bdd9345b4203f0fe28e28008d',1,'sv_invasion.qc']]],
+  ['target_5fitems_5fuse',['target_items_use',['../df/d26/server_2items_2items_8qc.html#acf0ee3b33497570b0a4f01aa87cd8b90',1,'items.qc']]],
   ['target_5fobjective_5fdecrease_5factivate',['target_objective_decrease_activate',['../d7/dbb/sv__assault_8qc.html#aae75592036bbad8155a2c2b1f82aa17c',1,'target_objective_decrease_activate(entity this):&#160;sv_assault.qc'],['../d2/ddd/sv__assault_8qh.html#aae75592036bbad8155a2c2b1f82aa17c',1,'target_objective_decrease_activate(entity this):&#160;sv_assault.qc']]],
   ['target_5fobjective_5fdecrease_5ffindtarget',['target_objective_decrease_findtarget',['../d7/dbb/sv__assault_8qc.html#ae6b4d2c7f083a78d9284fe838a1d17dc',1,'sv_assault.qc']]],
   ['target_5fobjective_5fspawn_5fevalfunc',['target_objective_spawn_evalfunc',['../d7/dbb/sv__assault_8qc.html#aa2cf747a858e69977f9a8f0cbdced887',1,'sv_assault.qc']]],

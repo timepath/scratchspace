@@ -81,5 +81,6 @@ var searchData=
   ['_5fshufflewords_5fswapfunc',['_shufflewords_swapfunc',['../d2/db4/string_8qh.html#a6332abca4daaaa4b227fa3b267668b52',1,'string.qh']]],
   ['_5fsound_5ffixpath',['_Sound_fixpath',['../d0/df5/sound_8qh.html#ac9b429b7924cfc7d494968e1f72b2b4d',1,'sound.qh']]],
   ['_5fspawn',['_spawn',['../db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4',1,'oo.qh']]],
+  ['_5fstartitem',['_StartItem',['../df/d26/server_2items_2items_8qc.html#aaa532fe48619be920ec6c97ce44e7ae7',1,'_StartItem(entity this, entity def, float defaultrespawntime, float defaultrespawntimejitter):&#160;items.qc'],['../d0/d7d/server_2items_2items_8qh.html#aaa532fe48619be920ec6c97ce44e7ae7',1,'_StartItem(entity this, entity def, float defaultrespawntime, float defaultrespawntimejitter):&#160;items.qc']]],
   ['_5fwepset_5ffromweapon',['_WepSet_FromWeapon',['../d0/d2b/weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee',1,'_WepSet_FromWeapon(int a):&#160;all.qc'],['../d0/ddd/weapons_2all_8qh.html#afa58eea7e5b202d3baf065ef2d96e0f0',1,'_WepSet_FromWeapon(int i):&#160;all.qc']]]
 ];

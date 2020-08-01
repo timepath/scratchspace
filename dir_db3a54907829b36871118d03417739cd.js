@@ -2,6 +2,7 @@ var dir_db3a54907829b36871118d03417739cd =
 [
     [ "commands", "dir_6d330f67e9a5efc8c508ff076d3c6103.html", "dir_6d330f67e9a5efc8c508ff076d3c6103" ],
     [ "hud", "dir_ed4f60597e07802ebc30a81f2c583d1a.html", "dir_ed4f60597e07802ebc30a81f2c583d1a" ],
+    [ "items", "dir_d0745ef3e60e4d63a268985e90a8514b.html", "dir_d0745ef3e60e4d63a268985e90a8514b" ],
     [ "mutators", "dir_08b4cf75afed9a7734ab4c2d9f3e6fae.html", "dir_08b4cf75afed9a7734ab4c2d9f3e6fae" ],
     [ "weapons", "dir_495694096385bdd0c8e29295426af588.html", "dir_495694096385bdd0c8e29295426af588" ],
     [ "_mod.inc", "de/dbe/client_2__mod_8inc.html", null ],

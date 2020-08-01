@@ -1,12 +1,35 @@
 <map id="W_UndeprecateName" name="W_UndeprecateName">
-<area shape="rect" id="node2" href="$d0/d2b/weapons_2all_8qc.html#a6e455edb328362e8ea7fc75757394379" title="W_NumberWeaponOrder\l_MapFunc" alt="" coords="216,99,395,141"/>
-<area shape="rect" id="node3" href="$d2/d1c/weapons_2weapon_8qh.html#a68c8b4f04f6cf4bd80ef078f2bea8d16" title="W_NumberWeaponOrder" alt="" coords="443,107,621,133"/>
-<area shape="rect" id="node4" href="$df/d8c/cl__cmd_8qc.html#aefa88bf5523ddb9a16c2de624306cd11" title="LocalCommand_sendcvar" alt="" coords="699,5,886,32"/>
-<area shape="rect" id="node6" href="$d4/def/weapons_8qc.html#ab7c3acfa47aaf4f25f4775921b6be5ae" title="HUD_Weapons" alt="" coords="1029,56,1145,83"/>
-<area shape="rect" id="node7" href="$d2/d1c/weapons_2weapon_8qh.html#a01fb8b4722cd9503ad28af6600e7e18c" title="W_FixWeaponOrder_ForceComplete" alt="" coords="669,107,916,133"/>
-<area shape="rect" id="node10" href="$d8/df3/weaponslist_8qc.html#ad576d15e8804939666948de29a2c60d6" title="XonoticWeaponsList_draw" alt="" coords="700,157,885,184"/>
-<area shape="rect" id="node11" href="$d8/df3/weaponslist_8qc.html#ae5c9433e0b99f44b5a67fccba50c67ad" title="XonoticWeaponsList\l_toString" alt="" coords="719,209,867,250"/>
-<area shape="rect" id="node5" href="$df/d8c/cl__cmd_8qc.html#a3244c6168c60506eedab5ce102f71ed5" title="CLIENT_COMMAND" alt="" coords="1016,5,1159,32"/>
-<area shape="rect" id="node8" href="$dc/dc6/server_2miscfunctions_8qc.html#aa4ac3dd1f661621de6a9f2bf5e6fb289" title="W_FixWeaponOrder_ForceComplete\l_AndBuildImpulseList" alt="" coords="964,107,1211,149"/>
-<area shape="rect" id="node9" href="$dc/d73/server_2miscfunctions_8qh.html#a9493fdb8b379fd22c688da7be4fc7782" title="GetCvars" alt="" coords="1259,115,1340,141"/>
+<area shape="rect" id="node2" href="$d0/d7d/server_2items_2items_8qh.html#aa8f2a30c948e946b56d4fbd4f0eec07f" title="GiveItems" alt="" coords="262,259,349,285"/>
+<area shape="rect" id="node24" href="$d0/d7d/server_2items_2items_8qh.html#a77b2c8a25991e58c5400d82053fac79b" title="spawnfunc" alt="" coords="748,259,837,285"/>
+<area shape="rect" id="node25" href="$d0/d2b/weapons_2all_8qc.html#a6e455edb328362e8ea7fc75757394379" title="W_NumberWeaponOrder\l_MapFunc" alt="" coords="216,382,395,423"/>
+<area shape="rect" id="node3" href="$d3/dca/cheats_8qh.html#a1549477544784a0c7e5134dbd72b3a28" title="CheatCommand" alt="" coords="469,208,595,235"/>
+<area shape="rect" id="node23" href="$df/d26/server_2items_2items_8qc.html#acf0ee3b33497570b0a4f01aa87cd8b90" title="target_items_use" alt="" coords="465,259,599,285"/>
+<area shape="rect" id="node4" href="$d3/dca/cheats_8qh.html#a73c94da2bf38acf3536154e899458024" title="CheatImpulse" alt="" coords="737,157,848,184"/>
+<area shape="rect" id="node16" href="$d8/d1d/cmd_8qc.html#a67c2dd926692b0635c83bcef05983b3b" title="SV_ParseClientCommand" alt="" coords="700,208,885,235"/>
+<area shape="rect" id="node5" href="$d3/dd1/server_2impulse_8qh.html#a592fd33e424a2e05854957b679c37e1b" title="ImpulseCommands" alt="" coords="1014,81,1161,108"/>
+<area shape="rect" id="node14" href="$d2/d0a/common_2physics_2player_8qc.html#a3e975b1ebc6b2bf9066537dd0842faa8" title="CheckPlayerJump" alt="" coords="1021,157,1153,184"/>
+<area shape="rect" id="node6" href="$dd/d0c/sv__ctf_8qc.html#a8edcce745140a0191b957e969f8a2cfb" title="ctf_FlagThink" alt="" coords="1316,5,1420,32"/>
+<area shape="rect" id="node10" href="$df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3" title="PutPlayerInServer" alt="" coords="1301,56,1435,83"/>
+<area shape="rect" id="node12" href="$df/dd7/server_2client_8qc.html#a35da2ff46a7d16ee6dd935fc1e65a72c" title="PlayerPostThink" alt="" coords="1307,107,1429,133"/>
+<area shape="rect" id="node7" href="$dd/d0c/sv__ctf_8qc.html#a306047455d7c429ee07e4e8bde82efcf" title="ctf_FlagSetup" alt="" coords="1561,5,1670,32"/>
+<area shape="rect" id="node8" href="$dd/d0c/sv__ctf_8qc.html#a2a2129ef74628a0c8bef5d48a016e3e0" title="spawnfunc" alt="" coords="1758,5,1847,32"/>
+<area shape="rect" id="node9" href="$dd/d0c/sv__ctf_8qc.html#a4cc8588d830f40446ced8de6190b6639" title="spawnfunc" alt="" coords="1928,5,2017,32"/>
+<area shape="rect" id="node11" href="$df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951" title="Called when a client spawns in the server. " alt="" coords="1549,56,1681,83"/>
+<area shape="rect" id="node13" href="$d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1" title="StartFrame" alt="" coords="1568,132,1663,159"/>
+<area shape="rect" id="node15" href="$d3/d4f/sv__main_8qc.html#a497a408e59dc1f5697ed3f902dde1f3c" title="sys_phys_update" alt="" coords="1302,157,1434,184"/>
+<area shape="rect" id="node17" href="$d6/d27/scripting_8qc.html#a9337e576a1412382ff54132dd8d46b28" title="bot_cmd_cc" alt="" coords="1038,208,1137,235"/>
+<area shape="rect" id="node18" href="$d6/d27/scripting_8qc.html#aaca537ca751853fba4204c751942df21" title="bot_execute_commands_once" alt="" coords="1259,208,1477,235"/>
+<area shape="rect" id="node19" href="$d8/d14/scripting_8qh.html#abad1d3e4714ca1832aab73ee2b8862ea" title="bot_execute_commands" alt="" coords="1525,208,1705,235"/>
+<area shape="rect" id="node20" href="$d8/d39/havocbot_8qh.html#ade0b4e09f77eaadd022af3ee44c6a3fc" title="havocbot_ai" alt="" coords="1753,208,1852,235"/>
+<area shape="rect" id="node21" href="$d8/d39/havocbot_8qh.html#afb882bcf6c4a44e801e4fb9eafbbf1f4" title="havocbot_setupbot" alt="" coords="1900,208,2045,235"/>
+<area shape="rect" id="node22" href="$d1/da9/bot_8qh.html#abd19370e4d61d3549dbbe44826531536" title="bot_clientconnect" alt="" coords="2093,208,2228,235"/>
+<area shape="rect" id="node26" href="$d2/d1c/weapons_2weapon_8qh.html#a68c8b4f04f6cf4bd80ef078f2bea8d16" title="W_NumberWeaponOrder" alt="" coords="443,400,621,427"/>
+<area shape="rect" id="node27" href="$df/d8c/cl__cmd_8qc.html#aefa88bf5523ddb9a16c2de624306cd11" title="LocalCommand_sendcvar" alt="" coords="699,309,886,336"/>
+<area shape="rect" id="node29" href="$d4/def/weapons_8qc.html#ab7c3acfa47aaf4f25f4775921b6be5ae" title="HUD_Weapons" alt="" coords="1029,360,1145,387"/>
+<area shape="rect" id="node30" href="$d2/d1c/weapons_2weapon_8qh.html#a01fb8b4722cd9503ad28af6600e7e18c" title="W_FixWeaponOrder_ForceComplete" alt="" coords="669,411,916,437"/>
+<area shape="rect" id="node33" href="$d8/df3/weaponslist_8qc.html#ad576d15e8804939666948de29a2c60d6" title="XonoticWeaponsList_draw" alt="" coords="700,461,885,488"/>
+<area shape="rect" id="node34" href="$d8/df3/weaponslist_8qc.html#ae5c9433e0b99f44b5a67fccba50c67ad" title="XonoticWeaponsList\l_toString" alt="" coords="719,513,867,554"/>
+<area shape="rect" id="node28" href="$df/d8c/cl__cmd_8qc.html#a3244c6168c60506eedab5ce102f71ed5" title="CLIENT_COMMAND" alt="" coords="1016,309,1159,336"/>
+<area shape="rect" id="node31" href="$dc/dc6/server_2miscfunctions_8qc.html#aa4ac3dd1f661621de6a9f2bf5e6fb289" title="W_FixWeaponOrder_ForceComplete\l_AndBuildImpulseList" alt="" coords="964,411,1211,453"/>
+<area shape="rect" id="node32" href="$dc/d73/server_2miscfunctions_8qh.html#a9493fdb8b379fd22c688da7be4fc7782" title="GetCvars" alt="" coords="1327,419,1409,445"/>
 </map>
