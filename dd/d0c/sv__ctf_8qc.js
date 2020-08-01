@@ -76,7 +76,6 @@ var sv__ctf_8qc =
     [ "MUTATOR_HOOKFUNCTION", "dd/d0c/sv__ctf_8qc.html#aefed1ed28db9ccb2543fa01eb937617e", null ],
     [ "MUTATOR_HOOKFUNCTION", "dd/d0c/sv__ctf_8qc.html#a8cd7a84eac127b01ae8407bc98dc4d65", null ],
     [ "nades_GiveBonus", "dd/d0c/sv__ctf_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3", null ],
-    [ "shockwave_spawn", "dd/d0c/sv__ctf_8qc.html#a5e3a656507b1b89c7d8f5dc8e6c33936", null ],
     [ "spawnfunc", "dd/d0c/sv__ctf_8qc.html#a2a2129ef74628a0c8bef5d48a016e3e0", null ],
     [ "spawnfunc", "dd/d0c/sv__ctf_8qc.html#a2610f44adfa2f44bb2c5c848669b5ad9", null ],
     [ "spawnfunc", "dd/d0c/sv__ctf_8qc.html#a0cd52b5fe4138082745e6f92bcb1a8f3", null ],

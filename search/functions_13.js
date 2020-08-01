@@ -155,7 +155,6 @@ var searchData=
   ['setzoom',['setZoom',['../d8/d00/classImage.html#af88618c1f0dbd043b2eb97e89f2b9f27',1,'Image']]],
   ['setzoomstate',['SetZoomState',['../df/dd7/server_2client_8qc.html#a68daad7634d404da1ba88b4177dc6d32',1,'client.qc']]],
   ['shieldhit_5fthink',['shieldhit_think',['../da/d10/sv__vehicles_8qc.html#a591286be998a76b02e9182e2d7a9f746',1,'sv_vehicles.qc']]],
-  ['shockwave_5fspawn',['shockwave_spawn',['../dd/d0c/sv__ctf_8qc.html#a5e3a656507b1b89c7d8f5dc8e6c33936',1,'sv_ctf.qc']]],
   ['shortangle_5ff',['shortangle_f',['../d9/da8/angle_8qc.html#ad6ba5c9ce5ba555a8fe05c66916bf3a0',1,'angle.qc']]],
   ['shortangle_5fv',['shortangle_v',['../d9/da8/angle_8qc.html#a191b877d788960dbca95f37477547802',1,'angle.qc']]],
   ['shortangle_5fvxy',['shortangle_vxy',['../d9/da8/angle_8qc.html#ae12854bbfee3cded4e34a25bc185faee',1,'angle.qc']]],

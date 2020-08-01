@@ -1,6 +1,5 @@
 var NAVTREEINDEX140 =
 {
-"df/dee/anglestransform_8qh.html#ae62e4ce9337df904e78bc661778ba4e0":[2,0,4,2,3,6],
 "df/dee/anglestransform_8qh.html#af64b5ad6d44b097e630186f854137e5d":[2,0,4,2,3,9],
 "df/dee/anglestransform_8qh.html#af9166f2e28149cce20027ed24960b20d":[2,0,4,2,3,0],
 "df/dee/anglestransform_8qh_source.html":[2,0,4,2,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX140 =
 "df/dff/plasma__weapon_8qh_source.html":[2,0,1,14,0,37],
 "dir_026fecbde05aca2ce3aaca1260d474bc.html":[2,0,0,1,0],
 "dir_038facabb326e47524555c6946dd7e55.html":[2,0,6,4],
-"dir_041ec6f984a6b19402431933346033dd.html":[2,0,1,15]
+"dir_041ec6f984a6b19402431933346033dd.html":[2,0,1,15],
+"dir_07eb8bb3d19ce8165a5aaf6eac26591d.html":[2,0,1,10,0,2]
 };

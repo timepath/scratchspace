@@ -1,6 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"de/dcb/classMageSpike.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,73,18],
 "de/dcb/classMageSpike.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,73,32],
 "de/dcb/classMageSpike.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,73,16],
 "de/dcb/classMageSpike.html#a312755d5709b880f99cf89d7a76237fe":[1,0,73,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX132 =
 "de/de8/portals_8qc.html#a34693447c0fc0567d020e3ec42b2ae3e":[2,0,6,47,33],
 "de/de8/portals_8qc.html#a3a8558ea8588c386416d87c3a987d8a3":[2,0,6,47,5],
 "de/de8/portals_8qc.html#a5706c9ed48a9bc5cd11aab74d5a08b09":[2,0,6,47,22],
-"de/de8/portals_8qc.html#a609b1151ce1ef7aedb50a1c7e1cba5cf":[2,0,6,47,11]
+"de/de8/portals_8qc.html#a609b1151ce1ef7aedb50a1c7e1cba5cf":[2,0,6,47,11],
+"de/de8/portals_8qc.html#a6413d755f424e9ccf26b7eda5693a3be":[2,0,6,47,15]
 };
