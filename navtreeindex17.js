@@ -1,5 +1,10 @@
 var NAVTREEINDEX17 =
 {
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,171,40],
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a57078ad518c85519b90765b9a46b3b69":[1,0,171,85],
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a589ec1d5b15b3a7422ba875ee34abcaf":[1,0,171,22],
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,171,62],
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,171,74],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,171,6],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,171,14],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,171,18],
@@ -143,8 +148,8 @@ var NAVTREEINDEX17 =
 "d2/d38/mage_8qh.html#a259221d0471dbdf827c5e95930f0c1c7":[2,0,1,9,0,3,3],
 "d2/d38/mage_8qh.html#adf12fb8099f4fded0f4312f63d7d2414":[2,0,1,9,0,3,2],
 "d2/d38/mage_8qh_source.html":[2,0,1,9,0,3],
-"d2/d38/path__waypoint_8qh.html":[2,0,6,4,13],
-"d2/d38/path__waypoint_8qh_source.html":[2,0,6,4,13],
+"d2/d38/path__waypoint_8qh.html":[2,0,6,5,13],
+"d2/d38/path__waypoint_8qh_source.html":[2,0,6,5,13],
 "d2/d3a/common_2mutators_2mutator_2itemstime_2__mod_8qh.html":[2,0,1,10,0,14,1],
 "d2/d3a/common_2mutators_2mutator_2itemstime_2__mod_8qh_source.html":[2,0,1,10,0,14,1],
 "d2/d3a/rules_8qc.html":[2,0,1,3,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX17 =
 "d2/d42/classXonoticUserbindEditDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,260,7],
 "d2/d42/classXonoticUserbindEditDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,260,93],
 "d2/d42/classXonoticUserbindEditDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,260,47],
-"d2/d42/classXonoticUserbindEditDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,260,56],
-"d2/d42/classXonoticUserbindEditDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,260,0],
-"d2/d42/classXonoticUserbindEditDialog.html#ac71fb50ed2ae42ed3cb33d5ea65ce183":[1,0,260,72],
-"d2/d42/classXonoticUserbindEditDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,260,36],
-"d2/d42/classXonoticUserbindEditDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,260,41],
-"d2/d42/classXonoticUserbindEditDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,260,61]
+"d2/d42/classXonoticUserbindEditDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,260,56]
 };

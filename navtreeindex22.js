@@ -1,5 +1,10 @@
 var NAVTREEINDEX22 =
 {
+"d2/dcb/classXonoticPicmipSlider.html#a8f04cd9252d82b0da453b439558cd2e6":[1,0,225,34],
+"d2/dcb/classXonoticPicmipSlider.html#a914d4118825d1bedcc12db7b3e814f1f":[1,0,225,27],
+"d2/dcb/classXonoticPicmipSlider.html#a99f113cbca6d20b18128c10c6d236867":[1,0,225,80],
+"d2/dcb/classXonoticPicmipSlider.html#a9c04727d8b4f644f96fad98456d78dd9":[1,0,225,98],
+"d2/dcb/classXonoticPicmipSlider.html#a9db73c915b3dace3a88f396a2824a071":[1,0,225,67],
 "d2/dcb/classXonoticPicmipSlider.html#a9e2c4bf741bd04d166a2c21130d15b0b":[1,0,225,40],
 "d2/dcb/classXonoticPicmipSlider.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,225,50],
 "d2/dcb/classXonoticPicmipSlider.html#aa23332c9eb304ac4bf65130df8badac8":[1,0,225,24],
@@ -234,8 +239,8 @@ var NAVTREEINDEX22 =
 "d2/dd6/classXonoticInputSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,209,39],
 "d2/dd6/classXonoticInputSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,209,43],
 "d2/dd6/classXonoticInputSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,209,7],
-"d2/dd7/server_2pathlib_2__mod_8qh.html":[2,0,6,4,1],
-"d2/dd7/server_2pathlib_2__mod_8qh_source.html":[2,0,6,4,1],
+"d2/dd7/server_2pathlib_2__mod_8qh.html":[2,0,6,5,1],
+"d2/dd7/server_2pathlib_2__mod_8qh_source.html":[2,0,6,5,1],
 "d2/ddd/sv__assault_8qh.html":[2,0,1,3,0,0,5],
 "d2/ddd/sv__assault_8qh.html#a0494762bdff1811919ef03e61c894e3e":[2,0,1,3,0,0,5,5],
 "d2/ddd/sv__assault_8qh.html#a5753f4b0d3f0961028891e42b2d2f2ee":[2,0,1,3,0,0,5,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX22 =
 "d2/ddd/sv__assault_8qh.html#a7c876617d922cd16d5dab82fe6fce4e3":[2,0,1,3,0,0,5,8],
 "d2/ddd/sv__assault_8qh.html#a90b02641f0c7d1b01f7998fe398c95c1":[2,0,1,3,0,0,5,11],
 "d2/ddd/sv__assault_8qh.html#aa8464a01888d74a2efa42f05a8946ba0":[2,0,1,3,0,0,5,6],
-"d2/ddd/sv__assault_8qh.html#aae75592036bbad8155a2c2b1f82aa17c":[2,0,1,3,0,0,5,1],
-"d2/ddd/sv__assault_8qh.html#ab00757b4833b07df889397e6f544ab0a":[2,0,1,3,0,0,5,12],
-"d2/ddd/sv__assault_8qh.html#ae3a79e8bfe6edb7284009e4102637da4":[2,0,1,3,0,0,5,3],
-"d2/ddd/sv__assault_8qh.html#af8389fdc85e65f8ba4b3d508404af1b1":[2,0,1,3,0,0,5,9],
-"d2/ddd/sv__assault_8qh.html#afa0e73d2a3a3b9c2beee04b1b284b90a":[2,0,1,3,0,0,5,4],
-"d2/ddd/sv__assault_8qh.html#afe260750fc27fa6c1af650f371653e80":[2,0,1,3,0,0,5,2]
+"d2/ddd/sv__assault_8qh.html#aae75592036bbad8155a2c2b1f82aa17c":[2,0,1,3,0,0,5,1]
 };

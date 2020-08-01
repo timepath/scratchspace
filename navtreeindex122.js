@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"dd/da3/classXonoticMusicPlayerTab.html#a4ad8d403de20048384fe85b379309436":[1,0,220,74],
+"dd/da3/classXonoticMusicPlayerTab.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,220,27],
 "dd/da3/classXonoticMusicPlayerTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,220,52],
 "dd/da3/classXonoticMusicPlayerTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,220,30],
 "dd/da3/classXonoticMusicPlayerTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,220,36],
@@ -64,12 +66,12 @@ var NAVTREEINDEX122 =
 "dd/da3/classXonoticMusicPlayerTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,220,7],
 "dd/da3/net__notice_8qh.html":[2,0,1,40],
 "dd/da3/net__notice_8qh_source.html":[2,0,1,40],
-"dd/da5/gamelog_8qc.html":[2,0,6,29],
-"dd/da5/gamelog_8qc.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,29,3],
-"dd/da5/gamelog_8qc.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5":[2,0,6,29,1],
-"dd/da5/gamelog_8qc.html#a79b65d6e94a0a3e0d2061c1b4c47031e":[2,0,6,29,0],
-"dd/da5/gamelog_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3":[2,0,6,29,2],
-"dd/da5/gamelog_8qc_source.html":[2,0,6,29],
+"dd/da5/gamelog_8qc.html":[2,0,6,30],
+"dd/da5/gamelog_8qc.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,30,3],
+"dd/da5/gamelog_8qc.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5":[2,0,6,30,1],
+"dd/da5/gamelog_8qc.html#a79b65d6e94a0a3e0d2061c1b4c47031e":[2,0,6,30,0],
+"dd/da5/gamelog_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3":[2,0,6,30,2],
+"dd/da5/gamelog_8qc_source.html":[2,0,6,30],
 "dd/da6/classXonoticCreditsDialog.html":[1,0,161],
 "dd/da6/classXonoticCreditsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,161,31],
 "dd/da6/classXonoticCreditsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,161,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX122 =
 "dd/db3/classXonoticQuitDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,230,51],
 "dd/db3/classXonoticQuitDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,230,0],
 "dd/db3/classXonoticQuitDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,230,31],
-"dd/db3/classXonoticQuitDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,230,36],
-"dd/db3/classXonoticQuitDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,230,56],
-"dd/db3/classXonoticQuitDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,230,33]
+"dd/db3/classXonoticQuitDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,230,36]
 };

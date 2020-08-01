@@ -1,6 +1,5 @@
 var NAVTREEINDEX95 =
 {
-"da/d9c/classXonoticMonsterToolsDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,218,13],
 "da/d9c/classXonoticMonsterToolsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,218,59],
 "da/d9c/classXonoticMonsterToolsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,218,28],
 "da/d9c/classXonoticMonsterToolsDialog.html#a35273e8afb7149b785a5981d9dafcd93":[1,0,218,67],
@@ -121,13 +120,13 @@ var NAVTREEINDEX95 =
 "da/da9/classSpiderAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,128,17],
 "da/da9/ecs_2__mod_8inc.html":[2,0,3,3],
 "da/da9/ecs_2__mod_8inc_source.html":[2,0,3,3],
-"da/daa/server_2weapons_2common_8qc.html":[2,0,6,5,4],
-"da/daa/server_2weapons_2common_8qc.html#a102ac938a46377356e95bb667b1f01e2":[2,0,6,5,4,0],
-"da/daa/server_2weapons_2common_8qc.html#a15163fb722de405cc2764efd498bc2ee":[2,0,6,5,4,3],
-"da/daa/server_2weapons_2common_8qc.html#a3391149e74c975b1da289576a256819a":[2,0,6,5,4,4],
-"da/daa/server_2weapons_2common_8qc.html#a709b64ec92444ebecac5ab8a73033c7f":[2,0,6,5,4,2],
-"da/daa/server_2weapons_2common_8qc.html#af7a217a45ded9e6d0af468fe18d2d65f":[2,0,6,5,4,1],
-"da/daa/server_2weapons_2common_8qc_source.html":[2,0,6,5,4],
+"da/daa/server_2weapons_2common_8qc.html":[2,0,6,6,4],
+"da/daa/server_2weapons_2common_8qc.html#a102ac938a46377356e95bb667b1f01e2":[2,0,6,6,4,0],
+"da/daa/server_2weapons_2common_8qc.html#a15163fb722de405cc2764efd498bc2ee":[2,0,6,6,4,3],
+"da/daa/server_2weapons_2common_8qc.html#a3391149e74c975b1da289576a256819a":[2,0,6,6,4,4],
+"da/daa/server_2weapons_2common_8qc.html#a709b64ec92444ebecac5ab8a73033c7f":[2,0,6,6,4,2],
+"da/daa/server_2weapons_2common_8qc.html#af7a217a45ded9e6d0af468fe18d2d65f":[2,0,6,6,4,1],
+"da/daa/server_2weapons_2common_8qc_source.html":[2,0,6,6,4],
 "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html":[2,0,5,4,106],
 "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#a142e52b387628b2fec2e45519a47e2ab":[2,0,5,4,106,1],
 "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#ac0078baa760c9d4ecac11e76f36369a1":[2,0,5,4,106,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX95 =
 "da/db7/classXonoticServerInfoDialog.html#af33b9410e02c4996863f495f7e56cba8":[1,0,244,31],
 "da/db7/classXonoticServerInfoDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,244,28],
 "da/db7/classXonoticServerInfoDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,244,44],
-"da/db7/classXonoticServerInfoDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,244,79]
+"da/db7/classXonoticServerInfoDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,244,79],
+"da/db7/classXonoticServerInfoDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,244,2]
 };

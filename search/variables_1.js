@@ -65,7 +65,7 @@ var searchData=
   ['alreadychangedlevel',['alreadychangedlevel',['../d5/d26/server_2defs_8qh.html#a780886abb2977703f8904a374f63e3bd',1,'defs.qh']]],
   ['ammo',['ammo',['../df/d28/sv__turrets_8qh.html#aa710b24bb1d68d903bfc5f631e84446e',1,'sv_turrets.qh']]],
   ['ammo_5fcells',['ammo_cells',['../de/d43/common_2items_2item_2ammo_8qh.html#a6715dfac92377d87e4d0d8d138138628',1,'ammo_cells():&#160;ammo.qh'],['../d6/d11/progsdefs_8qc.html#ad82b5331367ad172c129a75b405f1ca7',1,'ammo_cells():&#160;progsdefs.qc']]],
-  ['ammo_5fcount',['AMMO_COUNT',['../d9/d20/common_2items_8qh.html#a609d4e275d044b04314d1e6e20bd6621',1,'items.qh']]],
+  ['ammo_5fcount',['AMMO_COUNT',['../d0/d37/items_8qh.html#a609d4e275d044b04314d1e6e20bd6621',1,'items.qh']]],
   ['ammo_5ffactor',['ammo_factor',['../db/d4a/classHook.html#abf2fbef9b9e0a252ba8f0a2817b21872',1,'Hook']]],
   ['ammo_5ffuel',['ammo_fuel',['../de/d43/common_2items_2item_2ammo_8qh.html#a56204895a2307b1195fbd09486a56651',1,'ammo_fuel():&#160;ammo.qh'],['../d5/d26/server_2defs_8qh.html#a41fa1b446e3bb2f0e5320753d6c76ce1',1,'ammo_fuel():&#160;defs.qh']]],
   ['ammo_5fnails',['ammo_nails',['../de/d43/common_2items_2item_2ammo_8qh.html#a1697c68bcf32142b7f3c86755b8a4623',1,'ammo_nails():&#160;ammo.qh'],['../d6/d11/progsdefs_8qc.html#ab0f292a1a2d8dfa60ac0a5f29989204e',1,'ammo_nails():&#160;progsdefs.qc']]],

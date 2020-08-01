@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../df/def/server_2items_8qc.html#a74c05dd595595612bcb3f2b9450e7591" target="_top" xlink:title="Returns whether the item is loot. ">
+<g id="a_node3"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a74c05dd595595612bcb3f2b9450e7591" target="_top" xlink:title="Returns whether the item is loot. ">
 <polygon fill="none" stroke="black" points="228.5,-193.482 228.5,-212.482 300.5,-212.482 300.5,-193.482 228.5,-193.482"/>
 <text text-anchor="middle" x="264.5" y="-200.482" font-family="Helvetica,sans-Serif" font-size="10.00">Item_IsLoot</text>
 </a>
@@ -126,7 +126,7 @@
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="../../df/def/server_2items_8qc.html#a08b65b29d4e4daae4c85d1dd01cf7fda" target="_top" xlink:title="Creates a new item. ">
+<g id="a_node16"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a08b65b29d4e4daae4c85d1dd01cf7fda" target="_top" xlink:title="Creates a new item. ">
 <polygon fill="none" stroke="black" points="441,-193.482 441,-212.482 517,-212.482 517,-193.482 441,-193.482"/>
 <text text-anchor="middle" x="479" y="-200.482" font-family="Helvetica,sans-Serif" font-size="10.00">Item_Create</text>
 </a>
@@ -139,14 +139,14 @@
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="../../df/def/server_2items_8qc.html#a1abbc2840126cee768cba2d54dca5e62" target="_top" xlink:title="Initializes the item according to class name. ">
-<polygon fill="none" stroke="black" points="657,-126.482 657,-145.482 739,-145.482 739,-126.482 657,-126.482"/>
-<text text-anchor="middle" x="698" y="-133.482" font-family="Helvetica,sans-Serif" font-size="10.00">Item_Initialize</text>
+<g id="a_node17"><a xlink:href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" target="_top" xlink:title="spawn">
+<polygon fill="none" stroke="black" points="674.5,-126.482 674.5,-145.482 721.5,-145.482 721.5,-126.482 674.5,-126.482"/>
+<text text-anchor="middle" x="698" y="-133.482" font-family="Helvetica,sans-Serif" font-size="10.00">spawn</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node17 -->
-<g id="edge27" class="edge"><title>Node4&#45;&gt;Node17</title>
+<g id="edge26" class="edge"><title>Node4&#45;&gt;Node17</title>
 <path fill="none" stroke="midnightblue" d="M334.859,-231.474C339.677,-228.938 344.143,-225.815 348,-221.982 397.242,-173.044 329.546,-113.046 384,-69.982 473.334,0.665475 620.41,-84.2361 675.381,-120.804"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="673.438,-123.715 683.68,-126.426 677.364,-117.92 673.438,-123.715"/>
 </g>
@@ -165,16 +165,16 @@
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" target="_top" xlink:title="spawn">
-<polygon fill="none" stroke="black" points="674.5,-212.482 674.5,-231.482 721.5,-231.482 721.5,-212.482 674.5,-212.482"/>
-<text text-anchor="middle" x="698" y="-219.482" font-family="Helvetica,sans-Serif" font-size="10.00">spawn</text>
+<g id="a_node19"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a1abbc2840126cee768cba2d54dca5e62" target="_top" xlink:title="Initializes the item according to class name. ">
+<polygon fill="none" stroke="black" points="657,-212.482 657,-231.482 739,-231.482 739,-212.482 657,-212.482"/>
+<text text-anchor="middle" x="698" y="-219.482" font-family="Helvetica,sans-Serif" font-size="10.00">Item_Initialize</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node19 -->
-<g id="edge26" class="edge"><title>Node4&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M348.187,-237.341C443.924,-233.126 597.011,-226.385 663.909,-223.439"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="664.419,-226.92 674.255,-222.984 664.111,-219.927 664.419,-226.92"/>
+<g id="edge27" class="edge"><title>Node4&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M348.187,-237.341C436.353,-233.459 573.156,-227.435 646.491,-224.206"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="647,-227.687 656.837,-223.751 646.692,-220.694 647,-227.687"/>
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
@@ -191,7 +191,7 @@
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="../../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8" target="_top" xlink:title="Returns whether item should keep its position or be dropped to the ground. ">
+<g id="a_node21"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a1273442a78b247ad612a19fc4b6529a8" target="_top" xlink:title="Returns whether item should keep its position or be dropped to the ground. ">
 <polygon fill="none" stroke="black" points="410.5,-337.482 410.5,-356.482 547.5,-356.482 547.5,-337.482 410.5,-337.482"/>
 <text text-anchor="middle" x="479" y="-344.482" font-family="Helvetica,sans-Serif" font-size="10.00">Item_ShouldKeepPosition</text>
 </a>
@@ -286,7 +286,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../df/def/server_2items_8qc.html#a88f34c0b048ed43a25139649a01d6d98" target="_top" xlink:title="Checks whether the items with the specified definition are allowed to spawn. ">
+<g id="a_node12"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a88f34c0b048ed43a25139649a01d6d98" target="_top" xlink:title="Checks whether the items with the specified definition are allowed to spawn. ">
 <polygon fill="none" stroke="black" points="1025,-275.482 1025,-294.482 1157,-294.482 1157,-275.482 1025,-275.482"/>
 <text text-anchor="middle" x="1091" y="-282.482" font-family="Helvetica,sans-Serif" font-size="10.00">Item_IsDefinitionAllowed</text>
 </a>
@@ -314,8 +314,8 @@
 </g>
 <!-- Node16&#45;&gt;Node19 -->
 <g id="edge23" class="edge"><title>Node16&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M517.304,-206.248C558.707,-209.873 624.875,-215.667 664.317,-219.12"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="664.185,-222.622 674.452,-220.008 664.796,-215.649 664.185,-222.622"/>
+<path fill="none" stroke="midnightblue" d="M517.304,-206.248C553.087,-209.381 607.368,-214.134 646.907,-217.596"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="646.609,-221.083 656.876,-218.469 647.219,-214.11 646.609,-221.083"/>
 </g>
 </g>
 </svg>

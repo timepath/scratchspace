@@ -1,5 +1,12 @@
 var NAVTREEINDEX114 =
 {
+"dc/d8f/notifications_2all_8qh.html#ae3c51076171de8556998d6722a01f629":[2,0,1,11,4,60],
+"dc/d8f/notifications_2all_8qh.html#ae93ed72c8bc25a3db70a3dce5a8070d9":[2,0,1,11,4,34],
+"dc/d8f/notifications_2all_8qh.html#aea1087d1f42a8793518229f15626391a":[2,0,1,11,4,64],
+"dc/d8f/notifications_2all_8qh.html#aea5a1958d6dc953f8ae9485c5ad84b68":[2,0,1,11,4,0],
+"dc/d8f/notifications_2all_8qh.html#aebba04739a8cedbc68c1561271936be9":[2,0,1,11,4,29],
+"dc/d8f/notifications_2all_8qh.html#aecc1451803519ab7ae643b6195658055":[2,0,1,11,4,79],
+"dc/d8f/notifications_2all_8qh.html#aeeacde5ea17a37e95a1c2b3abcb0af9d":[2,0,1,11,4,69],
 "dc/d8f/notifications_2all_8qh.html#aef3fd0daf0345e3d7bc49e330bbe932c":[2,0,1,11,4,61],
 "dc/d8f/notifications_2all_8qh.html#af06430382919fd851fc752e37e110e3d":[2,0,1,11,4,90],
 "dc/d8f/notifications_2all_8qh.html#af0c48fce18f26213974f18d2d31f5a93":[2,0,1,11,4,102],
@@ -218,11 +225,6 @@ var NAVTREEINDEX114 =
 "dc/da7/cl__overkill_8qc.html":[2,0,1,10,0,23,2],
 "dc/da7/cl__overkill_8qc.html#affae722d85277145e1a8bff398c3aae5":[2,0,1,10,0,23,2,0],
 "dc/da7/cl__overkill_8qc_source.html":[2,0,1,10,0,23,2],
-"dc/dab/spawning_8qc.html":[2,0,6,5,12],
-"dc/dab/spawning_8qc.html#a25be1073e295bb4eef5ac16dfdbf5718":[2,0,6,5,12,1],
-"dc/dab/spawning_8qc.html#a3358be5aced5db427622164fd550e978":[2,0,6,5,12,2],
-"dc/dab/spawning_8qc.html#ac7b155ae9b6d6ccef4940bf9ef0b5dc9":[2,0,6,5,12,0],
-"dc/dab/spawning_8qc_source.html":[2,0,6,5,12],
 "dc/db1/classXonoticTextLabel.html":[1,0,257],
 "dc/db1/classXonoticTextLabel.html#a07f89922c68c012b3c0e6dea5c3963f5":[1,0,257,36],
 "dc/db1/classXonoticTextLabel.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,257,47],
@@ -247,7 +249,5 @@ var NAVTREEINDEX114 =
 "dc/db1/classXonoticTextLabel.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,257,31],
 "dc/db1/classXonoticTextLabel.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,257,13],
 "dc/db1/classXonoticTextLabel.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,257,24],
-"dc/db1/classXonoticTextLabel.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,257,2],
-"dc/db1/classXonoticTextLabel.html#a706c85a524ce44b84070ec439bbd9acd":[1,0,257,15],
-"dc/db1/classXonoticTextLabel.html#a7642beed5a82948e21add31abf4a4b0a":[1,0,257,23]
+"dc/db1/classXonoticTextLabel.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,257,2]
 };

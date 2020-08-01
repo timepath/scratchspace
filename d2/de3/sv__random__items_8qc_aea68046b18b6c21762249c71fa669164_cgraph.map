@@ -1,20 +1,20 @@
 <map id="RandomItems_SpawnLootItem" name="RandomItems_SpawnLootItem">
-<area shape="rect" id="node2" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="629,72,688,99"/>
-<area shape="rect" id="node3" href="$df/def/server_2items_8qc.html#a325bcd8c6dbc081d320c9d749de65e20" title="Creates a loot item. " alt="" coords="317,169,447,196"/>
-<area shape="rect" id="node4" href="$df/def/server_2items_8qc.html#a89f5174a26e743b85637afa34f5a6f81" title="Initializes the loot item. " alt="" coords="590,128,727,155"/>
-<area shape="rect" id="node11" href="$d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" title="spawn" alt="" coords="627,200,690,227"/>
-<area shape="rect" id="node12" href="$d2/de3/sv__random__items_8qc.html#a732923b4ae4678be286a01f9ae75ebd4" title="Returns a random classname of the item. " alt="" coords="271,295,493,337"/>
-<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0" title="randomvec" alt="" coords="335,361,429,388"/>
-<area shape="rect" id="node19" href="$da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9" title="vector" alt="" coords="351,412,413,439"/>
-<area shape="rect" id="node5" href="$df/def/server_2items_8qc.html#a1abbc2840126cee768cba2d54dca5e62" title="Initializes the item according to class name. " alt="" coords="881,80,990,107"/>
-<area shape="rect" id="node6" href="$df/def/server_2items_8qc.html#a95b5587513272c12b9d401ba026d7550" title="Sets the item loot status. " alt="" coords="881,131,989,157"/>
-<area shape="rect" id="node7" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="897,181,974,208"/>
-<area shape="rect" id="node8" href="$d2/dc2/subs_8qc.html#aa5bbc49fcc96c1214bb9daba206bf744" title="SUB_SetFade" alt="" coords="881,29,990,56"/>
-<area shape="rect" id="node9" href="$d2/dc2/subs_8qc.html#a90e45de578dd2a4e3ea4cbc3c20008b1" title="SUB_SetFade_Think" alt="" coords="1108,29,1257,56"/>
-<area shape="rect" id="node10" href="$d2/dc2/subs_8qc.html#ad0806fe42eadae7a1a7a48660cbbd755" title="SUB_VanishOrRemove" alt="" coords="1319,29,1484,56"/>
-<area shape="rect" id="node13" href="$d2/de3/sv__random__items_8qc.html#aa670ed34cdba4589a36484d70406a798" title="Returns a random classname of the vanilla item. " alt="" coords="541,295,776,337"/>
-<area shape="rect" id="node14" href="$d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488" title="cvar" alt="" coords="1158,357,1207,384"/>
-<area shape="rect" id="node15" href="$d2/de3/sv__random__items_8qc.html#a67a18349934bc81bcd9d5bbcd5783fc0" title="Returns a random classname of the item with specific property. " alt="" coords="824,295,1047,337"/>
-<area shape="rect" id="node17" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="1103,248,1263,275"/>
-<area shape="rect" id="node16" href="$df/def/server_2items_8qc.html#a88f34c0b048ed43a25139649a01d6d98" title="Checks whether the items with the specified definition are allowed to spawn. " alt="" coords="1095,303,1271,329"/>
+<area shape="rect" id="node2" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="629,29,688,56"/>
+<area shape="rect" id="node3" href="$dd/dea/items_2spawning_8qc.html#a325bcd8c6dbc081d320c9d749de65e20" title="Creates a loot item. " alt="" coords="317,131,447,157"/>
+<area shape="rect" id="node4" href="$d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" title="spawn" alt="" coords="627,80,690,107"/>
+<area shape="rect" id="node5" href="$dd/dea/items_2spawning_8qc.html#a89f5174a26e743b85637afa34f5a6f81" title="Initializes the loot item. " alt="" coords="590,131,727,157"/>
+<area shape="rect" id="node12" href="$d2/de3/sv__random__items_8qc.html#a732923b4ae4678be286a01f9ae75ebd4" title="Returns a random classname of the item. " alt="" coords="271,257,493,298"/>
+<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0" title="randomvec" alt="" coords="335,323,429,349"/>
+<area shape="rect" id="node19" href="$da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9" title="vector" alt="" coords="351,373,413,400"/>
+<area shape="rect" id="node6" href="$dd/dea/items_2spawning_8qc.html#a95b5587513272c12b9d401ba026d7550" title="Sets the item loot status. " alt="" coords="881,80,989,107"/>
+<area shape="rect" id="node7" href="$d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" title="setorigin" alt="" coords="897,131,974,157"/>
+<area shape="rect" id="node8" href="$dd/dea/items_2spawning_8qc.html#a1abbc2840126cee768cba2d54dca5e62" title="Initializes the item according to class name. " alt="" coords="881,181,990,208"/>
+<area shape="rect" id="node9" href="$d2/dc2/subs_8qc.html#aa5bbc49fcc96c1214bb9daba206bf744" title="SUB_SetFade" alt="" coords="881,29,990,56"/>
+<area shape="rect" id="node10" href="$d2/dc2/subs_8qc.html#a90e45de578dd2a4e3ea4cbc3c20008b1" title="SUB_SetFade_Think" alt="" coords="1108,29,1257,56"/>
+<area shape="rect" id="node11" href="$d2/dc2/subs_8qc.html#ad0806fe42eadae7a1a7a48660cbbd755" title="SUB_VanishOrRemove" alt="" coords="1319,29,1484,56"/>
+<area shape="rect" id="node13" href="$d2/de3/sv__random__items_8qc.html#aa670ed34cdba4589a36484d70406a798" title="Returns a random classname of the vanilla item. " alt="" coords="541,270,776,311"/>
+<area shape="rect" id="node14" href="$d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488" title="cvar" alt="" coords="1158,345,1207,372"/>
+<area shape="rect" id="node15" href="$d2/de3/sv__random__items_8qc.html#a67a18349934bc81bcd9d5bbcd5783fc0" title="Returns a random classname of the item with specific property. " alt="" coords="824,283,1047,325"/>
+<area shape="rect" id="node17" href="$dc/d95/random_8qc.html#a3405965b1da9657276caec225d4b3acf" title="RandomSelection_Init" alt="" coords="1103,236,1263,263"/>
+<area shape="rect" id="node16" href="$dd/dea/items_2spawning_8qc.html#a88f34c0b048ed43a25139649a01d6d98" title="Checks whether the items with the specified definition are allowed to spawn. " alt="" coords="1095,291,1271,317"/>
 </map>

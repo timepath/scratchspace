@@ -1,5 +1,12 @@
 var NAVTREEINDEX111 =
 {
+"dc/d1b/tesla__weapon_8qh.html#a2def26a59cde378b3abf06de44305bf2":[2,0,1,14,0,41,1],
+"dc/d1b/tesla__weapon_8qh_source.html":[2,0,1,14,0,41],
+"dc/d1d/server_2pathlib_2debug_8qh.html":[2,0,6,5,5],
+"dc/d1d/server_2pathlib_2debug_8qh_source.html":[2,0,6,5,5],
+"dc/d1f/common_2gamemodes_2gamemode_2duel_2__mod_8qh.html":[2,0,1,3,0,6,1],
+"dc/d1f/common_2gamemodes_2gamemode_2duel_2__mod_8qh_source.html":[2,0,1,3,0,6,1],
+"dc/d20/modeleffects_8qc.html":[2,0,1,2,0,12],
 "dc/d20/modeleffects_8qc_source.html":[2,0,1,2,0,12],
 "dc/d23/classVehicle.html":[1,0,139],
 "dc/d23/classVehicle.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,139,8],
@@ -242,12 +249,5 @@ var NAVTREEINDEX111 =
 "dc/d3d/container_8qc.html#ae4bad6802b9c1482d78e5c166e7e3add":[2,0,5,2,8,9],
 "dc/d3d/container_8qc.html#aeb61dbefd999daae23915818c75f17fa":[2,0,5,2,8,15],
 "dc/d3d/container_8qc.html#aec3d6e5d4cb9289404db07b6b7906150":[2,0,5,2,8,1],
-"dc/d3d/container_8qc.html#af2aaaca08e442db9b25784326a7e5730":[2,0,5,2,8,16],
-"dc/d3d/container_8qc.html#af42326fa28ec79fa56057d2fdbd0985e":[2,0,5,2,8,4],
-"dc/d3d/container_8qc.html#afb93c24343e73a71eed73fcdf4de2a3f":[2,0,5,2,8,13],
-"dc/d3d/container_8qc.html#afe20d7dbb55ca5539e40e3f850d81f15":[2,0,5,2,8,6],
-"dc/d3d/container_8qc_source.html":[2,0,5,2,8],
-"dc/d3d/csqcmodel__hooks_8qc.html":[2,0,0,12],
-"dc/d3d/csqcmodel__hooks_8qc.html#a03e325439a3c7e40dda1730cd4251a4c":[2,0,0,12,1],
-"dc/d3d/csqcmodel__hooks_8qc.html#a0f179309458eca2fb0e79ee5a321e603":[2,0,0,12,52]
+"dc/d3d/container_8qc.html#af2aaaca08e442db9b25784326a7e5730":[2,0,5,2,8,16]
 };

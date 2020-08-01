@@ -61,7 +61,7 @@ var sectionId = 'dynsection-22';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d1/dbb/server_2items_8qh.html#a89f5174a26e743b85637afa34f5a6f81" target="_top" xlink:title="Initializes the loot item. ">
+<g id="a_node2"><a xlink:href="../../d3/d9f/items_2spawning_8qh.html#a89f5174a26e743b85637afa34f5a6f81" target="_top" xlink:title="Initializes the loot item. ">
 <polygon fill="none" stroke="black" points="123.5,-1024.5 123.5,-1043.5 226.5,-1043.5 226.5,-1024.5 123.5,-1024.5"/>
 <text text-anchor="middle" x="175" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_InitializeLoot</text>
 </a>
@@ -152,73 +152,73 @@ var sectionId = 'dynsection-22';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d1/dbb/server_2items_8qh.html#a325bcd8c6dbc081d320c9d749de65e20" target="_top" xlink:title="Creates a loot item. ">
-<polygon fill="none" stroke="black" points="277.5,-1043.5 277.5,-1062.5 374.5,-1062.5 374.5,-1043.5 277.5,-1043.5"/>
-<text text-anchor="middle" x="326" y="-1050.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_CreateLoot</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M237.006,-1041.78C250.469,-1043.5 264.54,-1045.29 277.38,-1046.93"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="237.223,-1038.28 226.861,-1040.49 236.338,-1045.22 237.223,-1038.28"/>
-</g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d2/de3/sv__random__items_8qc.html#aea68046b18b6c21762249c71fa669164" target="_top" xlink:title="Spawns a random loot item. ">
-<polygon fill="none" stroke="black" points="420,-1024.5 420,-1043.5 583,-1043.5 583,-1024.5 420,-1024.5"/>
-<text text-anchor="middle" x="501.5" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">RandomItems_SpawnLootItem</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node4 -->
-<g id="edge7" class="edge"><title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M236.727,-1034C288.438,-1034 363.151,-1034 419.87,-1034"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="236.703,-1030.5 226.703,-1034 236.703,-1037.5 236.703,-1030.5"/>
-</g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d8/d0c/sv__overkill_8qc.html#af9ffca40bf7744bacacbc7b729c20241" target="_top" xlink:title="ok_DropItem">
+<g id="a_node3"><a xlink:href="../../d8/d0c/sv__overkill_8qc.html#af9ffca40bf7744bacacbc7b729c20241" target="_top" xlink:title="ok_DropItem">
 <polygon fill="none" stroke="black" points="287,-1081.5 287,-1100.5 365,-1100.5 365,-1081.5 287,-1081.5"/>
 <text text-anchor="middle" x="326" y="-1088.5" font-family="Helvetica,sans-Serif" font-size="10.00">ok_DropItem</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node2&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M207.412,-1047.61C225.092,-1055.11 247.642,-1064.41 268,-1072 276.699,-1075.24 286.239,-1078.53 294.984,-1081.43"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="208.707,-1044.36 198.136,-1043.65 205.959,-1050.8 208.707,-1044.36"/>
-</g>
-<!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M384.925,-1046.66C396.124,-1045.43 408.046,-1044.12 419.818,-1042.84"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="384.428,-1043.19 374.869,-1047.76 385.191,-1050.15 384.428,-1043.19"/>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M210.513,-1047.2C237.872,-1057.67 275.454,-1072.05 299.979,-1081.43"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="211.53,-1043.84 200.939,-1043.54 209.029,-1050.38 211.53,-1043.84"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d2/de3/sv__random__items_8qc.html#a76c736edbcbf5583892557c60402667b" target="_top" xlink:title="Hook which is called when the player dies. ">
-<polygon fill="none" stroke="black" points="619,-1024.5 619,-1043.5 764,-1043.5 764,-1024.5 619,-1024.5"/>
-<text text-anchor="middle" x="691.5" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">MUTATOR_HOOKFUNCTION</text>
+<g id="a_node5"><a xlink:href="../../d2/de3/sv__random__items_8qc.html#aea68046b18b6c21762249c71fa669164" target="_top" xlink:title="Spawns a random loot item. ">
+<polygon fill="none" stroke="black" points="420,-1024.5 420,-1043.5 583,-1043.5 583,-1024.5 420,-1024.5"/>
+<text text-anchor="middle" x="501.5" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">RandomItems_SpawnLootItem</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M593.106,-1034C601.704,-1034 610.339,-1034 618.725,-1034"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="593.047,-1030.5 583.047,-1034 593.047,-1037.5 593.047,-1030.5"/>
+<!-- Node2&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node2&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M236.727,-1034C288.438,-1034 363.151,-1034 419.87,-1034"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="236.703,-1030.5 226.703,-1034 236.703,-1037.5 236.703,-1030.5"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d8/d0c/sv__overkill_8qc.html#aa469fe882d86cd05387ef9c28bcef3b3" target="_top" xlink:title="MUTATOR_HOOKFUNCTION">
+<g id="a_node7"><a xlink:href="../../d3/d9f/items_2spawning_8qh.html#a325bcd8c6dbc081d320c9d749de65e20" target="_top" xlink:title="Creates a loot item. ">
+<polygon fill="none" stroke="black" points="277.5,-1005.5 277.5,-1024.5 374.5,-1024.5 374.5,-1005.5 277.5,-1005.5"/>
+<text text-anchor="middle" x="326" y="-1012.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_CreateLoot</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node2&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M237.006,-1026.22C250.469,-1024.5 264.54,-1022.71 277.38,-1021.07"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="236.338,-1022.78 226.861,-1027.51 237.223,-1029.72 236.338,-1022.78"/>
+</g>
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:href="../../d8/d0c/sv__overkill_8qc.html#aa469fe882d86cd05387ef9c28bcef3b3" target="_top" xlink:title="MUTATOR_HOOKFUNCTION">
 <polygon fill="none" stroke="black" points="429,-1081.5 429,-1100.5 574,-1100.5 574,-1081.5 429,-1081.5"/>
 <text text-anchor="middle" x="501.5" y="-1088.5" font-family="Helvetica,sans-Serif" font-size="10.00">MUTATOR_HOOKFUNCTION</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M375.113,-1091C391.778,-1091 410.833,-1091 428.972,-1091"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="375.075,-1087.5 365.075,-1091 375.075,-1094.5 375.075,-1087.5"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="../../d2/de3/sv__random__items_8qc.html#a76c736edbcbf5583892557c60402667b" target="_top" xlink:title="Hook which is called when the player dies. ">
+<polygon fill="none" stroke="black" points="619,-1024.5 619,-1043.5 764,-1043.5 764,-1024.5 619,-1024.5"/>
+<text text-anchor="middle" x="691.5" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">MUTATOR_HOOKFUNCTION</text>
+</a>
+</g>
+</g>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M593.106,-1034C601.704,-1034 610.339,-1034 618.725,-1034"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="593.047,-1030.5 583.047,-1034 593.047,-1037.5 593.047,-1030.5"/>
+</g>
+<!-- Node7&#45;&gt;Node5 -->
+<g id="edge7" class="edge"><title>Node7&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M384.925,-1021.34C396.124,-1022.57 408.046,-1023.88 419.818,-1025.16"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="385.191,-1017.85 374.869,-1020.24 384.428,-1024.81 385.191,-1017.85"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>

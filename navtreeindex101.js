@@ -1,6 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"db/d3c/classArc.html":[1,0,3],
 "db/d3c/classArc.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,3,19],
 "db/d3c/classArc.html#a208658ab5d31e9cd86fb5256c4864d75":[1,0,3,34],
 "db/d3c/classArc.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,3,18],
@@ -141,8 +140,8 @@ var NAVTREEINDEX101 =
 "db/d4e/classOverkillShotgun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,97,22],
 "db/d4e/classOverkillShotgun.html#ad9f410e7e45f82491c8f2ecddd440068":[1,0,97,36],
 "db/d4e/classOverkillShotgun.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,97,17],
-"db/d52/server_2__mod_8qh.html":[2,0,6,7],
-"db/d52/server_2__mod_8qh_source.html":[2,0,6,7],
+"db/d52/server_2__mod_8qh.html":[2,0,6,8],
+"db/d52/server_2__mod_8qh_source.html":[2,0,6,8],
 "db/d53/viewloc_8qh.html":[2,0,1,52],
 "db/d53/viewloc_8qh.html#ad4224551c2b606237629fa6bd79384d8":[2,0,1,52,0],
 "db/d53/viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb":[2,0,1,52,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX101 =
 "db/d59/classXonoticPlayList.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,228,72],
 "db/d59/classXonoticPlayList.html#aad099a0549928c37867d05a5dde2a511":[1,0,228,71],
 "db/d59/classXonoticPlayList.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,228,74],
-"db/d59/classXonoticPlayList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,228,78]
+"db/d59/classXonoticPlayList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,228,78],
+"db/d59/classXonoticPlayList.html#ab7d57f0a3855ec519168d609bb8c8c0b":[1,0,228,11]
 };

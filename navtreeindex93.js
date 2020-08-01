@@ -1,6 +1,5 @@
 var NAVTREEINDEX93 =
 {
-"da/d4b/ttt_8qc_source.html":[2,0,1,7,0,15],
 "da/d4c/sv__weapons_8qc.html":[2,0,1,10,0,23,18],
 "da/d4c/sv__weapons_8qc.html#a5c59bbe2889b4639f33dd9d7c7bf06ab":[2,0,1,10,0,23,18,0],
 "da/d4c/sv__weapons_8qc.html#ae26e9cf3d1780d60bdefc83d2ee5ef29":[2,0,1,10,0,23,18,1],
@@ -81,17 +80,17 @@ var NAVTREEINDEX93 =
 "da/d5e/rifle_8qc_source.html":[2,0,1,16,0,28],
 "da/d60/json_8qh.html":[2,0,4,28],
 "da/d60/json_8qh_source.html":[2,0,4,28],
-"da/d68/accuracy_8qc.html":[2,0,6,5,2],
-"da/d68/accuracy_8qc.html#a082ad02679d6c3f6814e4b69b91d64c8":[2,0,6,5,2,7],
-"da/d68/accuracy_8qc.html#a09c590a107c1d139fd8fc8cd57544da9":[2,0,6,5,2,8],
-"da/d68/accuracy_8qc.html#a5e7ead8d3ab4cd12e97b4af2e670444a":[2,0,6,5,2,3],
-"da/d68/accuracy_8qc.html#a7fabb764d4f54825debd9e866f4bf96b":[2,0,6,5,2,4],
-"da/d68/accuracy_8qc.html#a8ad5119b525659cbc971123f303fa416":[2,0,6,5,2,5],
-"da/d68/accuracy_8qc.html#a92354049648146157a9f3a60e08caba3":[2,0,6,5,2,2],
-"da/d68/accuracy_8qc.html#aad4882ef9eb34b565690f771aec07c2d":[2,0,6,5,2,6],
-"da/d68/accuracy_8qc.html#addc590d48822d285d5025af942f6ef4e":[2,0,6,5,2,1],
-"da/d68/accuracy_8qc.html#ae40174f6ba06ff9c6d8ad5b0fde05e06":[2,0,6,5,2,0],
-"da/d68/accuracy_8qc_source.html":[2,0,6,5,2],
+"da/d68/accuracy_8qc.html":[2,0,6,6,2],
+"da/d68/accuracy_8qc.html#a082ad02679d6c3f6814e4b69b91d64c8":[2,0,6,6,2,7],
+"da/d68/accuracy_8qc.html#a09c590a107c1d139fd8fc8cd57544da9":[2,0,6,6,2,8],
+"da/d68/accuracy_8qc.html#a5e7ead8d3ab4cd12e97b4af2e670444a":[2,0,6,6,2,3],
+"da/d68/accuracy_8qc.html#a7fabb764d4f54825debd9e866f4bf96b":[2,0,6,6,2,4],
+"da/d68/accuracy_8qc.html#a8ad5119b525659cbc971123f303fa416":[2,0,6,6,2,5],
+"da/d68/accuracy_8qc.html#a92354049648146157a9f3a60e08caba3":[2,0,6,6,2,2],
+"da/d68/accuracy_8qc.html#aad4882ef9eb34b565690f771aec07c2d":[2,0,6,6,2,6],
+"da/d68/accuracy_8qc.html#addc590d48822d285d5025af942f6ef4e":[2,0,6,6,2,1],
+"da/d68/accuracy_8qc.html#ae40174f6ba06ff9c6d8ad5b0fde05e06":[2,0,6,6,2,0],
+"da/d68/accuracy_8qc_source.html":[2,0,6,6,2],
 "da/d6a/health_8qh.html":[2,0,1,5,0,7],
 "da/d6a/health_8qh.html#a8332a98989b8a6eb4fd2fea78ad89b6c":[2,0,1,5,0,7,2],
 "da/d6a/health_8qh.html#a9b3e1f042959d6d9e1029907e90f9875":[2,0,1,5,0,7,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX93 =
 "da/d8d/classXonoticHUDPhysicsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,196,1],
 "da/d8d/classXonoticHUDPhysicsDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,196,38],
 "da/d8d/classXonoticHUDPhysicsDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,196,13],
-"da/d8d/classXonoticHUDPhysicsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,196,74]
+"da/d8d/classXonoticHUDPhysicsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,196,74],
+"da/d8d/classXonoticHUDPhysicsDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,196,22]
 };

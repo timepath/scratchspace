@@ -105,7 +105,7 @@ var sectionId = 'dynsection-3';
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../df/def/server_2items_8qc.html#a89f5174a26e743b85637afa34f5a6f81" target="_top" xlink:title="Initializes the loot item. ">
+<g id="a_node5"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a89f5174a26e743b85637afa34f5a6f81" target="_top" xlink:title="Initializes the loot item. ">
 <polygon fill="none" stroke="black" points="295,-57.5 295,-76.5 398,-76.5 398,-57.5 295,-57.5"/>
 <text text-anchor="middle" x="346.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_InitializeLoot</text>
 </a>
@@ -131,9 +131,9 @@ var sectionId = 'dynsection-3';
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../df/def/server_2items_8qc.html#a1abbc2840126cee768cba2d54dca5e62" target="_top" xlink:title="Initializes the item according to class name. ">
-<polygon fill="none" stroke="black" points="434,-114.5 434,-133.5 516,-133.5 516,-114.5 434,-114.5"/>
-<text text-anchor="middle" x="475" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_Initialize</text>
+<g id="a_node6"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a95b5587513272c12b9d401ba026d7550" target="_top" xlink:title="Sets the item loot status. ">
+<polygon fill="none" stroke="black" points="434.5,-114.5 434.5,-133.5 515.5,-133.5 515.5,-114.5 434.5,-114.5"/>
+<text text-anchor="middle" x="475" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_SetLoot</text>
 </a>
 </g>
 </g>
@@ -144,29 +144,29 @@ var sectionId = 'dynsection-3';
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../df/def/server_2items_8qc.html#a95b5587513272c12b9d401ba026d7550" target="_top" xlink:title="Sets the item loot status. ">
-<polygon fill="none" stroke="black" points="434.5,-76.5 434.5,-95.5 515.5,-95.5 515.5,-76.5 434.5,-76.5"/>
-<text text-anchor="middle" x="475" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_SetLoot</text>
+<g id="a_node7"><a xlink:href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" target="_top" xlink:title="setorigin">
+<polygon fill="none" stroke="black" points="446,-76.5 446,-95.5 504,-95.5 504,-76.5 446,-76.5"/>
+<text text-anchor="middle" x="475" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">setorigin</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node7 -->
 <g id="edge7" class="edge"><title>Node5&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M398.224,-74.6185C406.726,-75.8957 415.544,-77.2201 424.028,-78.4943"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="423.758,-81.993 434.167,-80.0172 424.798,-75.0706 423.758,-81.993"/>
+<path fill="none" stroke="midnightblue" d="M398.224,-74.6185C410.77,-76.503 424.002,-78.4904 435.835,-80.2678"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="435.413,-83.7436 445.822,-81.7678 436.453,-76.8212 435.413,-83.7436"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8" target="_top" xlink:title="setorigin">
-<polygon fill="none" stroke="black" points="446,-38.5 446,-57.5 504,-57.5 504,-38.5 446,-38.5"/>
-<text text-anchor="middle" x="475" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">setorigin</text>
+<g id="a_node8"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a1abbc2840126cee768cba2d54dca5e62" target="_top" xlink:title="Initializes the item according to class name. ">
+<polygon fill="none" stroke="black" points="434,-38.5 434,-57.5 516,-57.5 516,-38.5 434,-38.5"/>
+<text text-anchor="middle" x="475" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_Initialize</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node8 -->
 <g id="edge8" class="edge"><title>Node5&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M398.224,-59.3815C410.77,-57.497 424.002,-55.5096 435.835,-53.7322"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="436.453,-57.1788 445.822,-52.2322 435.413,-50.2564 436.453,-57.1788"/>
+<path fill="none" stroke="midnightblue" d="M398.224,-59.3815C406.629,-58.119 415.341,-56.8104 423.735,-55.5496"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="424.404,-58.9885 433.774,-54.0419 423.365,-52.0661 424.404,-58.9885"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>

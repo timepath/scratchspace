@@ -177,7 +177,7 @@ var searchData=
   ['ammo_5f9mmar',['ammo_9mmAR',['../dd/d36/halflife_8qc.html#a8e051b81df670556d7f1a977cd41e1fe',1,'halflife.qc']]],
   ['ammo_5fargrenades',['ammo_ARgrenades',['../dd/d36/halflife_8qc.html#adb7e2bed6760c9bee5db46ed79a963d2',1,'halflife.qc']]],
   ['ammo_5fcells',['ammo_cells',['../de/d43/common_2items_2item_2ammo_8qh.html#a6715dfac92377d87e4d0d8d138138628',1,'ammo_cells():&#160;ammo.qh'],['../d6/d11/progsdefs_8qc.html#ad82b5331367ad172c129a75b405f1ca7',1,'ammo_cells():&#160;progsdefs.qc']]],
-  ['ammo_5fcount',['AMMO_COUNT',['../d9/d20/common_2items_8qh.html#a609d4e275d044b04314d1e6e20bd6621',1,'items.qh']]],
+  ['ammo_5fcount',['AMMO_COUNT',['../d0/d37/items_8qh.html#a609d4e275d044b04314d1e6e20bd6621',1,'items.qh']]],
   ['ammo_5ffactor',['ammo_factor',['../db/d4a/classHook.html#abf2fbef9b9e0a252ba8f0a2817b21872',1,'Hook']]],
   ['ammo_5fflags',['ammo_flags',['../d9/d67/turret_8qh.html#affa742d4eca50b31c02ccd236a563b6b',1,'turret.qh']]],
   ['ammo_5ffuel',['ammo_fuel',['../de/d43/common_2items_2item_2ammo_8qh.html#a56204895a2307b1195fbd09486a56651',1,'ammo_fuel():&#160;ammo.qh'],['../d5/d26/server_2defs_8qh.html#a41fa1b446e3bb2f0e5320753d6c76ce1',1,'ammo_fuel():&#160;defs.qh']]],

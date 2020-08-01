@@ -100,7 +100,7 @@ var sectionId = 'dynsection-14';
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../df/def/server_2items_8qc.html#a08b65b29d4e4daae4c85d1dd01cf7fda" target="_top" xlink:title="Creates a new item. ">
+<g id="a_node5"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a08b65b29d4e4daae4c85d1dd01cf7fda" target="_top" xlink:title="Creates a new item. ">
 <polygon fill="none" stroke="black" points="260,-345.5 260,-364.5 336,-364.5 336,-345.5 260,-345.5"/>
 <text text-anchor="middle" x="298" y="-352.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_Create</text>
 </a>
@@ -113,16 +113,16 @@ var sectionId = 'dynsection-14';
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../df/def/server_2items_8qc.html#a1abbc2840126cee768cba2d54dca5e62" target="_top" xlink:title="Initializes the item according to class name. ">
-<polygon fill="none" stroke="black" points="476,-369.5 476,-388.5 558,-388.5 558,-369.5 476,-369.5"/>
-<text text-anchor="middle" x="517" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_Initialize</text>
+<g id="a_node6"><a xlink:href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" target="_top" xlink:title="spawn">
+<polygon fill="none" stroke="black" points="493.5,-369.5 493.5,-388.5 540.5,-388.5 540.5,-369.5 493.5,-369.5"/>
+<text text-anchor="middle" x="517" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">spawn</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
-<g id="edge9" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M90.745,-269.796C106.303,-293.172 149.423,-351.914 203,-374 289.743,-409.759 401.837,-399.562 465.642,-389.13"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="466.566,-392.523 475.836,-387.393 465.39,-385.622 466.566,-392.523"/>
+<g id="edge24" class="edge"><title>Node1&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M90.745,-269.796C106.303,-293.172 149.423,-351.914 203,-374 298.51,-413.373 424.754,-397.031 483.431,-386.007"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="484.103,-389.441 493.248,-384.091 482.763,-382.571 484.103,-389.441"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
@@ -139,20 +139,20 @@ var sectionId = 'dynsection-14';
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" target="_top" xlink:title="spawn">
-<polygon fill="none" stroke="black" points="493.5,-271.5 493.5,-290.5 540.5,-290.5 540.5,-271.5 493.5,-271.5"/>
-<text text-anchor="middle" x="517" y="-278.5" font-family="Helvetica,sans-Serif" font-size="10.00">spawn</text>
+<g id="a_node8"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a1abbc2840126cee768cba2d54dca5e62" target="_top" xlink:title="Initializes the item according to class name. ">
+<polygon fill="none" stroke="black" points="476,-271.5 476,-290.5 558,-290.5 558,-271.5 476,-271.5"/>
+<text text-anchor="middle" x="517" y="-278.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_Initialize</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
-<g id="edge24" class="edge"><title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M167.187,-264.024C262.924,-268.683 416.011,-276.134 482.909,-279.39"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="483.097,-282.903 493.255,-279.893 483.437,-275.911 483.097,-282.903"/>
+<g id="edge9" class="edge"><title>Node1&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M167.187,-264.024C255.353,-268.315 392.156,-274.973 465.491,-278.542"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="465.678,-282.055 475.837,-279.045 466.019,-275.063 465.678,-282.055"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../df/def/server_2items_8qc.html#a1273442a78b247ad612a19fc4b6529a8" target="_top" xlink:title="Returns whether item should keep its position or be dropped to the ground. ">
+<g id="a_node9"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a1273442a78b247ad612a19fc4b6529a8" target="_top" xlink:title="Returns whether item should keep its position or be dropped to the ground. ">
 <polygon fill="none" stroke="black" points="229.5,-193.5 229.5,-212.5 366.5,-212.5 366.5,-193.5 229.5,-193.5"/>
 <text text-anchor="middle" x="298" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_ShouldKeepPosition</text>
 </a>
@@ -224,8 +224,8 @@ var sectionId = 'dynsection-14';
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge6" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M336.304,-359.126C372.087,-363.083 426.368,-369.087 465.907,-373.46"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="465.552,-376.942 475.876,-374.562 466.321,-369.984 465.552,-376.942"/>
+<path fill="none" stroke="midnightblue" d="M336.304,-359.126C377.707,-363.705 443.875,-371.023 483.317,-375.385"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="483.128,-378.886 493.452,-376.506 483.898,-371.928 483.128,-378.886"/>
 </g>
 <!-- Node5&#45;&gt;Node7 -->
 <g id="edge7" class="edge"><title>Node5&#45;&gt;Node7</title>
@@ -234,8 +234,8 @@ var sectionId = 'dynsection-14';
 </g>
 <!-- Node5&#45;&gt;Node8 -->
 <g id="edge8" class="edge"><title>Node5&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M320.3,-345.463C345.789,-334.289 389.929,-315.692 429,-303 446.625,-297.275 466.653,-292.12 483.047,-288.242"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="484.28,-291.55 493.233,-285.885 482.701,-284.73 484.28,-291.55"/>
+<path fill="none" stroke="midnightblue" d="M320.3,-345.463C345.789,-334.289 389.929,-315.692 429,-303 440.808,-299.164 453.694,-295.585 465.844,-292.474"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="466.984,-295.797 475.836,-289.975 465.286,-289.006 466.984,-295.797"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
@@ -316,7 +316,7 @@ var sectionId = 'dynsection-14';
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="../../df/def/server_2items_8qc.html#a88f34c0b048ed43a25139649a01d6d98" target="_top" xlink:title="Checks whether the items with the specified definition are allowed to spawn. ">
+<g id="a_node17"><a xlink:href="../../dd/dea/items_2spawning_8qc.html#a88f34c0b048ed43a25139649a01d6d98" target="_top" xlink:title="Checks whether the items with the specified definition are allowed to spawn. ">
 <polygon fill="none" stroke="black" points="844,-44.5 844,-63.5 976,-63.5 976,-44.5 844,-44.5"/>
 <text text-anchor="middle" x="910" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">Item_IsDefinitionAllowed</text>
 </a>
