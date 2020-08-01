@@ -226,6 +226,8 @@ var NAVTREEINDEX19 =
 "d2/d7f/phaser_8qh.html#a2db64db683f96ecc0c896f8d6e0704a5":[2,0,1,14,0,29,2],
 "d2/d7f/phaser_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,14,0,29,1],
 "d2/d7f/phaser_8qh_source.html":[2,0,1,14,0,29],
+"d2/d81/common_2items_8qc.html":[2,0,1,34],
+"d2/d81/common_2items_8qc_source.html":[2,0,1,34],
 "d2/d81/mapobjects_2trigger_2viewloc_8qc.html":[2,0,1,6,3,46],
 "d2/d81/mapobjects_2trigger_2viewloc_8qc_source.html":[2,0,1,6,3,46],
 "d2/d81/menu_2item_2button_8qh.html":[2,0,5,2,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "d2/d88/classDomination.html#a9fe1a8c5f5e8e087e4e5d252452318af":[1,0,30,20],
 "d2/d88/classDomination.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,30,2],
 "d2/d88/classDomination.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,30,17],
-"d2/d88/classDomination.html#ab6abc87484433123a94107a1fc7c27b9":[1,0,30,0],
-"d2/d88/classDomination.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,30,4],
-"d2/d88/classDomination.html#abd8c38cc79b962b76c29572d618b9fd4":[1,0,30,15]
+"d2/d88/classDomination.html#ab6abc87484433123a94107a1fc7c27b9":[1,0,30,0]
 };

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['t_5fitems_2eqc',['t_items.qc',['../d4/d26/t__items_8qc.html',1,'']]],
-  ['t_5fitems_2eqh',['t_items.qh',['../de/d75/t__items_8qh.html',1,'']]],
   ['tab_2eqc',['tab.qc',['../d8/de6/item_2tab_8qc.html',1,'']]],
   ['tab_2eqc',['tab.qc',['../d2/d94/xonotic_2tab_8qc.html',1,'']]],
   ['tab_2eqh',['tab.qh',['../de/d23/item_2tab_8qh.html',1,'']]],

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['t_5fitems_2eqc',['t_items.qc',['../d4/d26/t__items_8qc.html',1,'']]],
-  ['t_5fitems_2eqh',['t_items.qh',['../de/d75/t__items_8qh.html',1,'']]],
   ['t_5flength',['t_length',['../db/d2f/subs_8qh.html#acce33f776714141af48e41e4839a1ff2',1,'subs.qh']]],
   ['t_5fwidth',['t_width',['../db/d2f/subs_8qh.html#aa20b7d4d57b8e1a126fd8e8435018901',1,'subs.qh']]],
   ['tab',['Tab',['../de/d9c/classTab.html',1,'']]],
@@ -244,8 +242,8 @@ var searchData=
   ['textshortentolength',['textShortenToLength',['../da/d44/common_2util_8qc.html#a5f119916e6e7513d8e7375c84a2e5dcf',1,'textShortenToLength(string theText, float maxWidth, textLengthUpToLength_lenFunction_t tw):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#a5f119916e6e7513d8e7375c84a2e5dcf',1,'textShortenToLength(string theText, float maxWidth, textLengthUpToLength_lenFunction_t tw):&#160;util.qc']]],
   ['textshortentowidth',['textShortenToWidth',['../da/d44/common_2util_8qc.html#a73cc543cc744ae536ed0ef34b8d481c4',1,'textShortenToWidth(string theText, float maxWidth, vector theFontSize, textLengthUpToWidth_widthFunction_t tw):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#aa1c30c930feeac7a589f75ef6d984bcf',1,'textShortenToWidth(string theText, float maxWidth, vector size, textLengthUpToWidth_widthFunction_t tw):&#160;util.qc']]],
   ['textslider',['TextSlider',['../db/db4/classTextSlider.html',1,'']]],
-  ['textslider_2eqc',['textslider.qc',['../dc/d24/xonotic_2textslider_8qc.html',1,'']]],
   ['textslider_2eqc',['textslider.qc',['../d6/d19/item_2textslider_8qc.html',1,'']]],
+  ['textslider_2eqc',['textslider.qc',['../dc/d24/xonotic_2textslider_8qc.html',1,'']]],
   ['textslider_2eqh',['textslider.qh',['../dd/d23/xonotic_2textslider_8qh.html',1,'']]],
   ['textslider_2eqh',['textslider.qh',['../d3/d93/item_2textslider_8qh.html',1,'']]],
   ['textslider_5faddvalue',['TextSlider_addValue',['../d6/d19/item_2textslider_8qc.html#adfe01db335b98febb13f9f868af89017',1,'textslider.qc']]],
@@ -467,7 +465,7 @@ var searchData=
   ['train_5fwait_5fturning',['train_wait_turning',['../de/d2e/train_8qc.html#a430911ebac04a400f968088c40c897b9',1,'train.qc']]],
   ['translate_5fkey',['translate_key',['../da/d44/common_2util_8qc.html#a9a2ffb5afbad544b666ddfb760c66331',1,'translate_key(string key):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#a0422bc70106ec1a8e11a4b2ad7855510',1,'translate_key(string key):&#160;util.qc']]],
   ['translatescoreslabel',['TranslateScoresLabel',['../d3/d07/scoreboard_8qc.html#a35d6557bb2fffacd2793e5c94bc50510',1,'scoreboard.qc']]],
-  ['transmute',['transmute',['../db/d0a/oo_8qh.html#a269b1d539e6116de8dc93f6891abc9a2',1,'transmute():&#160;oo.qh'],['../db/d0a/oo_8qh.html#a50e8509df7e88435c3d75fb41eba495c',1,'TRANSMUTE():&#160;oo.qh'],['../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80',1,'TRANSMUTE(Player, this):&#160;client.qc']]],
+  ['transmute',['TRANSMUTE',['../db/d0a/oo_8qh.html#a50e8509df7e88435c3d75fb41eba495c',1,'TRANSMUTE():&#160;oo.qh'],['../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80',1,'TRANSMUTE(Player, this):&#160;client.qc'],['../db/d0a/oo_8qh.html#a269b1d539e6116de8dc93f6891abc9a2',1,'transmute():&#160;oo.qh']]],
   ['transparent_5foffset',['transparent_offset',['../d4/d0c/csprogsdefs_8qc.html#a63e01c4a81add07f51c9fa501f4550c1',1,'csprogsdefs.qc']]],
   ['trigger_5fimpulse_5ftouch_5faccel',['trigger_impulse_touch_accel',['../df/d35/common_2mapobjects_2trigger_2impulse_8qc.html#abaeb9fd77cd12381a2d04d2e3d1b00a5',1,'impulse.qc']]],
   ['trigger_5fimpulse_5ftouch_5fdirectional',['trigger_impulse_touch_directional',['../df/d35/common_2mapobjects_2trigger_2impulse_8qc.html#a393f9b3de1ec85328d26c102158989a6',1,'impulse.qc']]],

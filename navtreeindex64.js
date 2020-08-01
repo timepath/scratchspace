@@ -249,5 +249,5 @@ var NAVTREEINDEX64 =
 "d7/d5a/dialog__settings__user_8qh.html":[2,0,5,4,155],
 "d7/d5a/dialog__settings__user_8qh.html#a66f02ce333f6fc2ba9cfd196973b1295":[2,0,5,4,155,1],
 "d7/d5a/dialog__settings__user_8qh_source.html":[2,0,5,4,155],
-"d7/d5c/common_2stats_8qh.html":[2,0,1,45]
+"d7/d5c/common_2stats_8qh.html":[2,0,1,47]
 };
