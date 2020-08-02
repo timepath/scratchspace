@@ -8,7 +8,7 @@ var dir_45a15a852bc80fb55f8b66b90fc237b2 =
     [ "_mod.qh", "d0/df4/common_2mapobjects_2__mod_8qh.html", null ],
     [ "bgmscript.qc", "d1/de3/common_2mapobjects_2bgmscript_8qc.html", null ],
     [ "bgmscript.qh", "df/d9b/common_2mapobjects_2bgmscript_8qh.html", "df/d9b/common_2mapobjects_2bgmscript_8qh" ],
-    [ "defs.qh", "df/d16/common_2mapobjects_2defs_8qh.html", "df/d16/common_2mapobjects_2defs_8qh" ],
+    [ "defs.qh", "d1/dbc/defs_8qh.html", "d1/dbc/defs_8qh" ],
     [ "models.qc", "d9/d17/models_8qc.html", null ],
     [ "models.qh", "dd/d92/models_8qh.html", "dd/d92/models_8qh" ],
     [ "platforms.qc", "d1/d08/platforms_8qc.html", "d1/d08/platforms_8qc" ],

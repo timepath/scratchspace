@@ -134,7 +134,7 @@ var searchData=
   ['phys_5fwarsowbunny_5ftopspeed',['PHYS_WARSOWBUNNY_TOPSPEED',['../de/d70/common_2physics_2player_8qh.html#a3aaa42a2b4ab57536e12c907d2f99629',1,'player.qh']]],
   ['phys_5fwarsowbunny_5fturnaccel',['PHYS_WARSOWBUNNY_TURNACCEL',['../de/d70/common_2physics_2player_8qh.html#ae354b8220687fcb9808a96dc1b185822',1,'player.qh']]],
   ['pitch',['PITCH',['../de/dcb/vector_8qh.html#a81a1a1679a2fe78af8f6decac3806c97',1,'vector.qh']]],
-  ['player_5fcurrententnum',['player_currententnum',['../d9/d08/client_2defs_8qh.html#a6b17a65dd7a85e465430a85ae6a3cdcf',1,'defs.qh']]],
+  ['player_5fcurrententnum',['player_currententnum',['../d0/d2a/client_2main_8qh.html#a6b17a65dd7a85e465430a85ae6a3cdcf',1,'main.qh']]],
   ['playerscore_5fget',['PlayerScore_Get',['../d5/dac/server_2scores_8qh.html#a4112e3811c1c08ea31a12b6035f4f391',1,'scores.qh']]],
   ['pointparticles',['pointparticles',['../da/dde/csprogsdefs_8qh.html#ac8847014472662de37600e592b86ec1f',1,'pointparticles():&#160;csprogsdefs.qh'],['../d3/d9e/dpextensions_8qh.html#ac8847014472662de37600e592b86ec1f',1,'pointparticles():&#160;dpextensions.qh']]],
   ['portals_5fare_5fnot_5fsolid',['PORTALS_ARE_NOT_SOLID',['../de/de8/portals_8qc.html#ab5ab86c6b943c158c01eddebb04cf490',1,'portals.qc']]],

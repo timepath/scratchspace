@@ -248,6 +248,6 @@ var NAVTREEINDEX0 =
 "d0/d28/classMage.html#ab7129c75f69af50d0b1d1d13f87d7e5f":[1,0,72,10],
 "d0/d28/classMage.html#abbd3a53ddd2019b6933a9e40910cfc58":[1,0,72,3],
 "d0/d28/classMage.html#adc5acc9cbff0fdce03b8253cfa102777":[1,0,72,5],
-"d0/d2a/client_2main_8qh.html":[2,0,0,17],
-"d0/d2a/client_2main_8qh.html#a02482608b1eca1bf0591f7589db11994":[2,0,0,17,52]
+"d0/d2a/client_2main_8qh.html":[2,0,0,16],
+"d0/d2a/client_2main_8qh.html#a01b9d63c00330be2acbedfa4d4694e58":[2,0,0,16,31]
 };

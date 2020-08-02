@@ -4,7 +4,7 @@ var searchData=
   ['ui_5fdamagetext_2eqc',['ui_damagetext.qc',['../d0/da2/ui__damagetext_8qc.html',1,'']]],
   ['ui_5fdamagetext_2eqh',['ui_damagetext.qh',['../d1/d68/ui__damagetext_8qh.html',1,'']]],
   ['uid2name',['uid2name',['../dc/dc6/server_2miscfunctions_8qc.html#a943d9da424f168efb8d407b4de9833a2',1,'uid2name(string myuid):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a943d9da424f168efb8d407b4de9833a2',1,'uid2name(string myuid):&#160;miscfunctions.qc']]],
-  ['uid2name_5fdialog',['uid2name_dialog',['../d9/d08/client_2defs_8qh.html#aefcc49bccd6f180d68d17fd01a7fed66',1,'defs.qh']]],
+  ['uid2name_5fdialog',['uid2name_dialog',['../d9/d28/client_2hud_2panel_2vote_8qh.html#aefcc49bccd6f180d68d17fd01a7fed66',1,'vote.qh']]],
   ['unaccounted_5fdamage',['unaccounted_damage',['../d5/d8c/view_8qh.html#a1de1360295996dacb39d141955580aac',1,'view.qh']]],
   ['unescape',['unescape',['../d2/db4/string_8qh.html#ab4a763bbfa941f4b63cf5b5fd018345c',1,'string.qh']]],
   ['unfreeze',['Unfreeze',['../d5/dac/g__damage_8qc.html#acc99d1a4f941f72826f41d22d035dcee',1,'Unfreeze(entity targ, bool reset_health):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#acc99d1a4f941f72826f41d22d035dcee',1,'Unfreeze(entity targ, bool reset_health):&#160;g_damage.qc']]],

@@ -6,6 +6,8 @@ var spawnpoints_8qh =
     [ "SpawnEvent_Send", "d4/dd1/spawnpoints_8qh.html#a65f632ea7c75b704550b257f227230cb", null ],
     [ "spawnfunc", "d4/dd1/spawnpoints_8qh.html#a572fb1292ba23838d08e19ed54227679", null ],
     [ "spawnpoint_use", "d4/dd1/spawnpoints_8qh.html#a2a7af8ac3ec4cc48b002997881b2a491", null ],
+    [ "STATIC_INIT", "d4/dd1/spawnpoints_8qh.html#a09c352969fa9b63bf47d2518e944007a", null ],
+    [ "g_spawnpoints", "d4/dd1/spawnpoints_8qh.html#aad1564de97f4fade819668ac308c7133", null ],
     [ "have_team_spawns", "d4/dd1/spawnpoints_8qh.html#a5594c59ad277a5bde42f3670de5077b3", null ],
     [ "have_team_spawns_forteams", "d4/dd1/spawnpoints_8qh.html#a5f869a37a426248cd642f64144854d20", null ],
     [ "restriction", "d4/dd1/spawnpoints_8qh.html#a25d514a9020c819c7c060d0dd4db8d73", null ],

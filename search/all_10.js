@@ -436,7 +436,7 @@ var searchData=
   ['player_5fblocked',['player_blocked',['../d8/de2/server_2client_8qh.html#a4addf48c215463bd5d149d190b4be749',1,'client.qh']]],
   ['player_5fclear_5fminigame',['player_clear_minigame',['../d7/d33/sv__minigames_8qc.html#a4d6b42df9791a27b66f0da64c6ace473',1,'sv_minigames.qc']]],
   ['player_5fcount',['player_count',['../db/d15/api_8qh.html#ad00577f0675231a156b05ce289d7bb6f',1,'api.qh']]],
-  ['player_5fcurrententnum',['player_currententnum',['../d9/d08/client_2defs_8qh.html#a6b17a65dd7a85e465430a85ae6a3cdcf',1,'defs.qh']]],
+  ['player_5fcurrententnum',['player_currententnum',['../d0/d2a/client_2main_8qh.html#a6b17a65dd7a85e465430a85ae6a3cdcf',1,'main.qh']]],
   ['player_5fdetermineforcedteam',['Player_DetermineForcedTeam',['../de/d4f/teamplay_8qc.html#a3b8bbfc47faa42b457bcd3268b72f2a3',1,'Player_DetermineForcedTeam(entity player):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a3b8bbfc47faa42b457bcd3268b72f2a3',1,'Player_DetermineForcedTeam(entity player):&#160;teamplay.qc']]],
   ['player_5fgetforcedteamindex',['Player_GetForcedTeamIndex',['../de/d4f/teamplay_8qc.html#a96de1a7c1839781923fd43a6bd00b2bd',1,'Player_GetForcedTeamIndex(entity player):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a96de1a7c1839781923fd43a6bd00b2bd',1,'Player_GetForcedTeamIndex(entity player):&#160;teamplay.qc']]],
   ['player_5fgetspecies',['player_getspecies',['../df/dd7/server_2client_8qc.html#a04003ae2140daf692afaee96c6b305df',1,'client.qc']]],

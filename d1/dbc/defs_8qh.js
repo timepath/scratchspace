@@ -1,0 +1,27 @@
+var defs_8qh =
+[
+    [ "void", "d1/dbc/defs_8qh.html#a09271a257022fb9977e0017aee98823c", null ],
+    [ "active", "d1/dbc/defs_8qh.html#aa5805c5e936174e5092bf7a5b78e7e64", null ],
+    [ "ACTIVE_ACTIVE", "d1/dbc/defs_8qh.html#aaccfa035780092274c0f79d6ab7a7c0f", null ],
+    [ "ACTIVE_BUSY", "d1/dbc/defs_8qh.html#ad3ae4460bdd4334b700fb22d3ea592b4", null ],
+    [ "ACTIVE_IDLE", "d1/dbc/defs_8qh.html#ad13a30ce4c80ddda877eb203e3206bd1", null ],
+    [ "ACTIVE_NOT", "d1/dbc/defs_8qh.html#a2bcfc0310a1a55d743b811e6a9b86caa", null ],
+    [ "ACTIVE_TOGGLE", "d1/dbc/defs_8qh.html#a0a1bc515f9b22fabea96ce662d353a8e", null ],
+    [ "ALL_ENTITIES", "d1/dbc/defs_8qh.html#a64331fc264b1546232bee72d3d216786", null ],
+    [ "CRUSH", "d1/dbc/defs_8qh.html#ae215e45f58a640fcf883e5899afbb69c", null ],
+    [ "INVERT_TEAMS", "d1/dbc/defs_8qh.html#a4bd1132b3ee77c8096c32f94a5799118", null ],
+    [ "NOSPLASH", "d1/dbc/defs_8qh.html#a981c962e9fafecde0aebbe571048aa7d", null ],
+    [ "ON_MAPLOAD", "d1/dbc/defs_8qh.html#af43b684e7eb3c10d92f3e4867998c3ad", null ],
+    [ "ONLY_PLAYERS", "d1/dbc/defs_8qh.html#a65214a454cb98f7765af32a35afd408d", null ],
+    [ "SF_TRIGGER_INIT", "d1/dbc/defs_8qh.html#a6cc04a1203c21773e30f3aa18848be8b", null ],
+    [ "SF_TRIGGER_RESET", "d1/dbc/defs_8qh.html#a1ef4ce56a7c42cd82dc702b4f635375c", null ],
+    [ "SF_TRIGGER_UPDATE", "d1/dbc/defs_8qh.html#ad4f312670832caca3589d9438c40283b", null ],
+    [ "SPAWNFLAG_NOMESSAGE", "d1/dbc/defs_8qh.html#a619fb901f4f83170a282270f9354c0b1", null ],
+    [ "SPAWNFLAG_NOTOUCH", "d1/dbc/defs_8qh.html#ac90d4d704c88307f22c96436106105ca", null ],
+    [ "START_DISABLED", "d1/dbc/defs_8qh.html#a3326a807a35e2d2f03cd918a7a105482", null ],
+    [ "START_ENABLED", "d1/dbc/defs_8qh.html#ab4826bb94cd9b832ce6aedd08887292c", null ],
+    [ "STATE_BOTTOM", "d1/dbc/defs_8qh.html#ad45315735590a260f7236fb6f65b9df2", null ],
+    [ "STATE_DOWN", "d1/dbc/defs_8qh.html#af79aa361409f5b9cc00d7be07e8243f0", null ],
+    [ "STATE_TOP", "d1/dbc/defs_8qh.html#a228e239e6c3a450f7ef7bd3527ed14d2", null ],
+    [ "STATE_UP", "d1/dbc/defs_8qh.html#aed12767924e90c7c3b4d9223fc484508", null ]
+];

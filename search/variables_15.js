@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['uid2name_5fdialog',['uid2name_dialog',['../d9/d08/client_2defs_8qh.html#aefcc49bccd6f180d68d17fd01a7fed66',1,'defs.qh']]],
+  ['uid2name_5fdialog',['uid2name_dialog',['../d9/d28/client_2hud_2panel_2vote_8qh.html#aefcc49bccd6f180d68d17fd01a7fed66',1,'vote.qh']]],
   ['unaccounted_5fdamage',['unaccounted_damage',['../d5/d8c/view_8qh.html#a1de1360295996dacb39d141955580aac',1,'view.qh']]],
   ['unstick_5ffine',['UNSTICK_FINE',['../d4/dd7/movetypes_8qh.html#a41b3403d019e66765768235463b4c610',1,'movetypes.qh']]],
   ['unstick_5ffixed',['UNSTICK_FIXED',['../d4/dd7/movetypes_8qh.html#ad8c36f0339fc62ca37ab55728fc1d0db',1,'movetypes.qh']]],

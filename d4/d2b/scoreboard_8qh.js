@@ -9,5 +9,6 @@ var scoreboard_8qh =
     [ "Scoreboard_WouldDraw", "d4/d2b/scoreboard_8qh.html#a18f2a8b645ab4cc7fc09a25e3a932757", null ],
     [ "scoreboard_acc_fade_alpha", "d4/d2b/scoreboard_8qh.html#a281e75379427b350104ddcd9c19cdfa1", null ],
     [ "scoreboard_active", "d4/d2b/scoreboard_8qh.html#a9e07478dc906c451cdaf11df6a458786", null ],
-    [ "scoreboard_fade_alpha", "d4/d2b/scoreboard_8qh.html#aa6b8f97cefad819218cd7aef293559ea", null ]
+    [ "scoreboard_fade_alpha", "d4/d2b/scoreboard_8qh.html#aa6b8f97cefad819218cd7aef293559ea", null ],
+    [ "scoreboard_showscores", "d4/d2b/scoreboard_8qh.html#a82122038f6f96da3e271a63cc06516eb", null ]
 ];

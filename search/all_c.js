@@ -137,7 +137,7 @@ var searchData=
   ['lib_2eqh',['lib.qh',['../d5/d14/lib_8qh.html',1,'']]],
   ['lifetime',['lifetime',['../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a',1,'lifetime():&#160;powerups.qc'],['../d2/d21/music_8qh.html#a5d9cc36a06664262be19fae94fd8e00a',1,'lifetime():&#160;music.qh']]],
   ['light_5flev',['light_lev',['../de/d5e/dpextensions_8qc.html#a18379ef749fb656f345ba3af58870510',1,'dpextensions.qc']]],
-  ['lightning_5fshotorigin',['lightning_shotorigin',['../d9/d08/client_2defs_8qh.html#a4949aba9582bad726867510c4275515d',1,'defs.qh']]],
+  ['lightning_5fshotorigin',['lightning_shotorigin',['../d0/d2a/client_2main_8qh.html#a4949aba9582bad726867510c4275515d',1,'main.qh']]],
   ['lightningarc_2eqc',['lightningarc.qc',['../d1/df8/lightningarc_8qc.html',1,'']]],
   ['lightningarc_2eqh',['lightningarc.qh',['../d4/dba/lightningarc_8qh.html',1,'']]],
   ['link_5fspawnpoint',['link_spawnpoint',['../d0/d41/spawnpoints_8qc.html#ae1a6c21401c1c00d039386c756baed1b',1,'spawnpoints.qc']]],

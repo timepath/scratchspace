@@ -29,7 +29,7 @@ var dir_026fecbde05aca2ce3aaca1260d474bc =
     [ "quickmenu.qc", "d8/d19/quickmenu_8qc.html", "d8/d19/quickmenu_8qc" ],
     [ "quickmenu.qh", "d6/daa/quickmenu_8qh.html", "d6/daa/quickmenu_8qh" ],
     [ "racetimer.qc", "d4/d12/racetimer_8qc.html", "d4/d12/racetimer_8qc" ],
-    [ "racetimer.qh", "d4/da9/racetimer_8qh.html", null ],
+    [ "racetimer.qh", "d4/da9/racetimer_8qh.html", "d4/da9/racetimer_8qh" ],
     [ "radar.qc", "d0/d83/radar_8qc.html", "d0/d83/radar_8qc" ],
     [ "radar.qh", "d4/d1b/radar_8qh.html", "d4/d1b/radar_8qh" ],
     [ "score.qc", "d6/d8f/score_8qc.html", "d6/d8f/score_8qc" ],
@@ -39,7 +39,7 @@ var dir_026fecbde05aca2ce3aaca1260d474bc =
     [ "timer.qc", "d5/dfa/timer_8qc.html", "d5/dfa/timer_8qc" ],
     [ "timer.qh", "d9/d76/timer_8qh.html", null ],
     [ "vote.qc", "df/d1f/client_2hud_2panel_2vote_8qc.html", "df/d1f/client_2hud_2panel_2vote_8qc" ],
-    [ "vote.qh", "d9/d28/client_2hud_2panel_2vote_8qh.html", null ],
+    [ "vote.qh", "d9/d28/client_2hud_2panel_2vote_8qh.html", "d9/d28/client_2hud_2panel_2vote_8qh" ],
     [ "weapons.qc", "d4/def/weapons_8qc.html", "d4/def/weapons_8qc" ],
     [ "weapons.qh", "d4/dce/weapons_8qh.html", null ]
 ];

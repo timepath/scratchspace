@@ -15,7 +15,6 @@ var dir_db3a54907829b36871118d03417739cd =
     [ "csqc_constants.qh", "d4/d92/csqc__constants_8qh.html", "d4/d92/csqc__constants_8qh" ],
     [ "csqcmodel_hooks.qc", "dc/d3d/csqcmodel__hooks_8qc.html", "dc/d3d/csqcmodel__hooks_8qc" ],
     [ "csqcmodel_hooks.qh", "d3/dfc/csqcmodel__hooks_8qh.html", "d3/dfc/csqcmodel__hooks_8qh" ],
-    [ "defs.qh", "d9/d08/client_2defs_8qh.html", "d9/d08/client_2defs_8qh" ],
     [ "main.qc", "df/d30/client_2main_8qc.html", "df/d30/client_2main_8qc" ],
     [ "main.qh", "d0/d2a/client_2main_8qh.html", "d0/d2a/client_2main_8qh" ],
     [ "mapvoting.qc", "d4/d0d/client_2mapvoting_8qc.html", "d4/d0d/client_2mapvoting_8qc" ],
