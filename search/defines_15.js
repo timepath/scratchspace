@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['unset_5fducked',['UNSET_DUCKED',['../de/d70/common_2physics_2player_8qh.html#a3f994f50815f8ce4e56c2091ff19e7e6',1,'player.qh']]],
   ['unset_5fjump_5fheld',['UNSET_JUMP_HELD',['../de/d70/common_2physics_2player_8qh.html#ac2d0dcf4a4840539e0901c7254d34ecc',1,'player.qh']]],
   ['unset_5fonground',['UNSET_ONGROUND',['../d4/dd7/movetypes_8qh.html#abe20324d138f110c779274c157be381f',1,'movetypes.qh']]],
   ['unset_5fonslick',['UNSET_ONSLICK',['../d4/dd7/movetypes_8qh.html#ab272cbf23bd04d5cc6181d3b4d61d0be',1,'movetypes.qh']]],

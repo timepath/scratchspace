@@ -1,5 +1,7 @@
 var common_2mapobjects_2defs_8qh =
 [
+    [ "void", "df/d16/common_2mapobjects_2defs_8qh.html#a09271a257022fb9977e0017aee98823c", null ],
+    [ "active", "df/d16/common_2mapobjects_2defs_8qh.html#aa5805c5e936174e5092bf7a5b78e7e64", null ],
     [ "ACTIVE_ACTIVE", "df/d16/common_2mapobjects_2defs_8qh.html#aaccfa035780092274c0f79d6ab7a7c0f", null ],
     [ "ACTIVE_BUSY", "df/d16/common_2mapobjects_2defs_8qh.html#ad3ae4460bdd4334b700fb22d3ea592b4", null ],
     [ "ACTIVE_IDLE", "df/d16/common_2mapobjects_2defs_8qh.html#ad13a30ce4c80ddda877eb203e3206bd1", null ],

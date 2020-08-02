@@ -76,7 +76,7 @@ var searchData=
   ['hook_5freleasing',['HOOK_RELEASING',['../d7/de1/g__hook_8qh.html#a0469f299c1ceff5c919a7cb71bc224dd',1,'g_hook.qh']]],
   ['hook_5fremoving',['HOOK_REMOVING',['../d7/de1/g__hook_8qh.html#aa533d5a58d1d23a9a7b40fb83281a11c',1,'g_hook.qh']]],
   ['hook_5fshotorigin',['hook_shotorigin',['../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6',1,'hook_shotorigin():&#160;defs.qh'],['../d7/de1/g__hook_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6',1,'hook_shotorigin():&#160;g_hook.qh']]],
-  ['hook_5fstart',['hook_start',['../d7/de2/g__hook_8qc.html#a0c406e8cc6d0504973d7ee4cb8fbb53a',1,'hook_start():&#160;g_hook.qc'],['../d0/d2a/client_2main_8qh.html#a65867ce8ec783d680bc9ba6a7cdbb6ba',1,'HOOK_START():&#160;main.qh']]],
+  ['hook_5fstart',['HOOK_START',['../d0/d2a/client_2main_8qh.html#a65867ce8ec783d680bc9ba6a7cdbb6ba',1,'HOOK_START():&#160;main.qh'],['../d7/de2/g__hook_8qc.html#a0c406e8cc6d0504973d7ee4cb8fbb53a',1,'hook_start():&#160;g_hook.qc']]],
   ['hook_5fstate',['hook_state',['../d7/de1/g__hook_8qh.html#a9c197479bfbed093afef9d498d650998',1,'g_hook.qh']]],
   ['hook_5fswitchweapon',['hook_switchweapon',['../d5/de0/weaponsystem_8qc.html#af1db5c42a721484bc8d112cf227abbd6',1,'weaponsystem.qc']]],
   ['hook_5ftime',['hook_time',['../d7/de1/g__hook_8qh.html#a645c3e567b695beebb1b1203bcab59db',1,'g_hook.qh']]],
@@ -139,6 +139,5 @@ var searchData=
   ['hudskinparm_5fcount',['HUDSKINPARM_COUNT',['../da/d21/hudskinlist_8qc.html#af0eb91f57f2676c2921dfbe15763735d',1,'hudskinlist.qc']]],
   ['hudskinparm_5fname',['HUDSKINPARM_NAME',['../da/d21/hudskinlist_8qc.html#ab2bb334c8fba7bf37dc0ae68eb1f530d',1,'hudskinlist.qc']]],
   ['hudskinparm_5fpath',['HUDSKINPARM_PATH',['../da/d21/hudskinlist_8qc.html#a6a8a49f456405209a95b08961913fcb4',1,'hudskinlist.qc']]],
-  ['hudskinparm_5ftitle',['HUDSKINPARM_TITLE',['../da/d21/hudskinlist_8qc.html#a42f53dead8afaff8ce99edf79c1ecbca',1,'hudskinlist.qc']]],
-  ['hurt_5fslow',['HURT_SLOW',['../d7/ddc/hurt_8qh.html#a1867eb9e787a00e0df1256aa62ad566d',1,'hurt.qh']]]
+  ['hudskinparm_5ftitle',['HUDSKINPARM_TITLE',['../da/d21/hudskinlist_8qc.html#a42f53dead8afaff8ce99edf79c1ecbca',1,'hudskinlist.qc']]]
 ];

@@ -143,7 +143,7 @@ var searchData=
   ['gamelogecho',['GameLogEcho',['../dd/da5/gamelog_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3',1,'GameLogEcho(string s):&#160;gamelog.qc'],['../df/df8/gamelog_8qh.html#ad8252ef534185c1cbbde32e65a01a5b3',1,'GameLogEcho(string s):&#160;gamelog.qc']]],
   ['gameloginit',['GameLogInit',['../dd/da5/gamelog_8qc.html#a08ac986acea412a0a46814dc880058c7',1,'GameLogInit():&#160;gamelog.qc'],['../df/df8/gamelog_8qh.html#a08ac986acea412a0a46814dc880058c7',1,'GameLogInit():&#160;gamelog.qc']]],
   ['gamemode_5finit',['Gamemode_Init',['../df/d30/client_2main_8qc.html#a1074345dcdd4fb944413bf5ac575fd0b',1,'Gamemode_Init():&#160;main.qc'],['../d0/d2a/client_2main_8qh.html#a1074345dcdd4fb944413bf5ac575fd0b',1,'Gamemode_Init():&#160;main.qc']]],
-  ['gamemode_5fname',['gamemode_name',['../d5/d26/server_2defs_8qh.html#a28e18708dd262dd304c3371d071a5b18',1,'defs.qh']]],
+  ['gamemode_5fname',['gamemode_name',['../d7/d97/g__world_8qh.html#a28e18708dd262dd304c3371d071a5b18',1,'g_world.qh']]],
   ['gameplayfix_5fdowntraceonground',['GAMEPLAYFIX_DOWNTRACEONGROUND',['../d4/dd7/movetypes_8qh.html#a355ad000887bfbb3fa387376ce9116ef',1,'movetypes.qh']]],
   ['gameplayfix_5feasierwaterjump',['GAMEPLAYFIX_EASIERWATERJUMP',['../d4/dd7/movetypes_8qh.html#a86866b9ab036632e4b60c4dc204e1347',1,'movetypes.qh']]],
   ['gameplayfix_5fgrenadebounceslopes',['GAMEPLAYFIX_GRENADEBOUNCESLOPES',['../d4/dd7/movetypes_8qh.html#ad6aa4c7770400eec75a4d8739b2f695a',1,'movetypes.qh']]],

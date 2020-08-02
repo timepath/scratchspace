@@ -17,5 +17,6 @@ var teleporters_8qh =
     [ "TELEPORT_FLAG_SOUND", "dd/d2d/teleporters_8qh.html#a0ef580965c1907c2c387c11859587598", null ],
     [ "TELEPORT_FLAG_TDEATH", "dd/d2d/teleporters_8qh.html#a285cab94d4430757740a7d5ce95f99b8", null ],
     [ "TELEPORT_NORMAL", "dd/d2d/teleporters_8qh.html#a2e98016bb3ba2c249de1e779bcce86cf", null ],
-    [ "TELEPORT_SIMPLE", "dd/d2d/teleporters_8qh.html#af02a303f75617b6a9d414ca8f8ea05f5", null ]
+    [ "TELEPORT_SIMPLE", "dd/d2d/teleporters_8qh.html#af02a303f75617b6a9d414ca8f8ea05f5", null ],
+    [ "teleportable", "dd/d2d/teleporters_8qh.html#a6df054c823ea4b68912d26da63107539", null ]
 ];

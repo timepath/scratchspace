@@ -10,7 +10,7 @@ var searchData=
   ['join_5fkey',['join_key',['../d9/d09/notifications_2all_8inc.html#a8201b29f51d40add73c1d48b70f94f94',1,'all.inc']]],
   ['join_5fminigame',['join_minigame',['../d7/d33/sv__minigames_8qc.html#a94a8da7936949035982110ab04a468d4',1,'join_minigame(entity player, string game_id):&#160;sv_minigames.qc'],['../d3/df9/sv__minigames_8qh.html#a94a8da7936949035982110ab04a468d4',1,'join_minigame(entity player, string game_id):&#160;sv_minigames.qc']]],
   ['joinallowed',['joinAllowed',['../df/dd7/server_2client_8qc.html#a5f32182c9463bf8c77afb1502ade553c',1,'joinAllowed(entity this):&#160;client.qc'],['../d8/de2/server_2client_8qh.html#a5f32182c9463bf8c77afb1502ade553c',1,'joinAllowed(entity this):&#160;client.qc']]],
-  ['jointime',['jointime',['../d1/d37/classClient.html#a06a738c4cb9a23813f16775a5877dd12',1,'Client::jointime()'],['../d5/d26/server_2defs_8qh.html#a90ecbc11824e99dab4a925f22e38d0c5',1,'jointime():&#160;defs.qh']]],
+  ['jointime',['jointime',['../d1/d37/classClient.html#a06a738c4cb9a23813f16775a5877dd12',1,'Client::jointime()'],['../d8/de2/server_2client_8qh.html#a90ecbc11824e99dab4a925f22e38d0c5',1,'jointime():&#160;client.qh']]],
   ['jointtype',['jointtype',['../de/d5e/dpextensions_8qc.html#a8eac69eb249fc212140e892255053e89',1,'dpextensions.qc']]],
   ['jointtype_5ffixed',['JOINTTYPE_FIXED',['../de/d5e/dpextensions_8qc.html#a1703cc0064b99e080ee84893aca2fb1d',1,'dpextensions.qc']]],
   ['jointtype_5fhinge',['JOINTTYPE_HINGE',['../de/d5e/dpextensions_8qc.html#a83575a1216d6aa3723c78f094a89ed98',1,'dpextensions.qc']]],

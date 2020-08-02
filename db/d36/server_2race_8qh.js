@@ -48,5 +48,6 @@ var server_2race_8qh =
     [ "speedaward_lastupdate", "db/d36/server_2race_8qh.html#a7d873efbcde54abb5c6024328ed5b5bf", null ],
     [ "speedaward_speed", "db/d36/server_2race_8qh.html#a5556d6ab44fced2e2f2424cda680514c", null ],
     [ "speedaward_uid", "db/d36/server_2race_8qh.html#ae12c1c9683fdacff4f1a7b6eea72f0f4", null ],
-    [ "ST_RACE_LAPS", "db/d36/server_2race_8qh.html#a3af52531d4aea38c0d8a0b5594a80c4f", null ]
+    [ "ST_RACE_LAPS", "db/d36/server_2race_8qh.html#a3af52531d4aea38c0d8a0b5594a80c4f", null ],
+    [ "stored_netname", "db/d36/server_2race_8qh.html#a1caaa8fe4d9b590202c8347fa835470f", null ]
 ];

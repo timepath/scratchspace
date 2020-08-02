@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"d0/d83/radar_8qc_source.html":[2,0,0,1,0,30],
+"d0/d84/teamradar_8qh.html":[2,0,0,30],
 "d0/d84/teamradar_8qh.html#a0190d8006bd4c479f9f9af634d6f6484":[2,0,0,30,12],
 "d0/d84/teamradar_8qh.html#a0bbb90fda4cf263b6dc7bed8ea102b1f":[2,0,0,30,10],
 "d0/d84/teamradar_8qh.html#a169f74caee20619f758765f49a29cfc7":[2,0,0,30,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "d0/da3/mortar_8qc_source.html":[2,0,1,16,0,24],
 "d0/da4/damagetext_8qc.html":[2,0,1,10,0,6,4],
 "d0/da4/damagetext_8qc_source.html":[2,0,1,10,0,6,4],
-"d0/da5/domination_8qc.html":[2,0,1,3,0,5,4],
-"d0/da5/domination_8qc_source.html":[2,0,1,3,0,5,4],
-"d0/da7/armor_8qc.html":[2,0,1,5,0,4]
+"d0/da5/domination_8qc.html":[2,0,1,3,0,5,4]
 };

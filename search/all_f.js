@@ -57,7 +57,7 @@ var searchData=
   ['oldr_5fuseportalculling',['oldr_useportalculling',['../d6/dd3/view_8qc.html#abdb33e348dca6361b37104eb33cee849',1,'view.qc']]],
   ['oldskin',['oldskin',['../d8/dc1/sv__monsters_8qh.html#a86d0c5966652246bba6931f125ae4970',1,'sv_monsters.qh']]],
   ['oldtarget2',['oldtarget2',['../d8/dc1/sv__monsters_8qh.html#ad0709bca80c35f0cb1ecd6e07d68d46a',1,'sv_monsters.qh']]],
-  ['oldvelocity',['oldvelocity',['../d5/d26/server_2defs_8qh.html#a3e22c8ced0d427b277b14fc646a0d2e3',1,'defs.qh']]],
+  ['oldvelocity',['oldvelocity',['../d7/d38/sv__main_8qh.html#a3e22c8ced0d427b277b14fc646a0d2e3',1,'sv_main.qh']]],
   ['on_5fmapload',['ON_MAPLOAD',['../df/d16/common_2mapobjects_2defs_8qh.html#af43b684e7eb3c10d92f3e4867998c3ad',1,'defs.qh']]],
   ['onground_5ftime',['onground_time',['../d7/d22/client_2items_2items_8qh.html#a27e7c92dd78340273163a08a8d603977',1,'items.qh']]],
   ['onlinebanlist_5frequestwaiting',['OnlineBanList_RequestWaiting',['../d6/d95/ipban_8qc.html#a0dc48623cdc782ca4db211ec8064a04c',1,'ipban.qc']]],

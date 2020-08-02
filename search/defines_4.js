@@ -25,7 +25,7 @@ var searchData=
   ['devdemand',['devdemand',['../db/da0/log_8qh.html#a4c4069e1c34df72dc1188667ecedd168',1,'log.qh']]],
   ['did_5fcheat',['DID_CHEAT',['../d6/de9/cheats_8qc.html#a30dfb2e8033210719c190a020d8705b4',1,'cheats.qc']]],
   ['diff_5fteam',['DIFF_TEAM',['../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b',1,'teams.qh']]],
-  ['dmg_5fnowep',['DMG_NOWEP',['../d5/d26/server_2defs_8qh.html#a7d15659b92a2ebcd68cc184e3a3824a3',1,'defs.qh']]],
+  ['dmg_5fnowep',['DMG_NOWEP',['../dd/de4/g__damage_8qh.html#a7d15659b92a2ebcd68cc184e3a3824a3',1,'g_damage.qh']]],
   ['dotproduct',['dotproduct',['../de/dcb/vector_8qh.html#ae8d8b31974c50cca8b60d3734bc00dac',1,'vector.qh']]],
   ['dp_5fcsqc_5fentity_5fremove_5fis_5fb0rked',['DP_CSQC_ENTITY_REMOVE_IS_B0RKED',['../df/d30/client_2main_8qc.html#a829c94418af5c1e25d9beef673e25f94',1,'main.qc']]],
   ['dprint2',['dprint2',['../db/da0/log_8qh.html#a14f8d12a0e12508f13be68fcb2cb5caa',1,'log.qh']]],

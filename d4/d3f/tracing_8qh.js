@@ -21,6 +21,7 @@ var tracing_8qh =
     [ "W_CalculateProjectileVelocity", "d4/d3f/tracing_8qh.html#a01fdafeeb02668e5b55cce3baccf9d01", null ],
     [ "W_SetupProjVelocity_Explicit", "d4/d3f/tracing_8qh.html#a55f8f2b1828413bfb123a5fcb61b9f8e", null ],
     [ "W_SetupShot_Dir_ProjectileSize_Range", "d4/d3f/tracing_8qh.html#a52cf4ee852e785e8283028712ce0a57f", null ],
+    [ "ballistics_density", "d4/d3f/tracing_8qh.html#a4fb2fb54df1e968eb7ecb8cc92f0f3ec", null ],
     [ "fireBullet_last_hit", "d4/d3f/tracing_8qh.html#af3cb4ea16b3d71a76b55754ccd713632", null ],
     [ "fireBullet_trace_callback_eff", "d4/d3f/tracing_8qh.html#adb01a7fe8a972f768dac9c50fcd5911b", null ],
     [ "railgundistance", "d4/d3f/tracing_8qh.html#a5d7aef17f84882da4b18a217740cb539", null ],

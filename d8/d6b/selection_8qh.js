@@ -14,5 +14,6 @@ var selection_8qh =
     [ "W_SwitchWeapon_Force", "d8/d6b/selection_8qh.html#ab9daa12e545de1878a232e10317b0a0e", null ],
     [ "W_SwitchWeapon_TryOthers", "d8/d6b/selection_8qh.html#a5b47c201b89b8b6e54e71b63d84f2830", null ],
     [ "hasweapon_complain_spam", "d8/d6b/selection_8qh.html#aeffb5f5c575c97f12381045f6f091403", null ],
+    [ "selectweapon", "d8/d6b/selection_8qh.html#a792474bccd27fb2b24c8631866f6b203", null ],
     [ "weaponcomplainindex", "d8/d6b/selection_8qh.html#a3daae79918286c9352ba30495957db79", null ]
 ];

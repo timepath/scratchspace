@@ -1,16 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"de/d30/classXonoticDisconnectDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,174,49],
-"de/d30/classXonoticDisconnectDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,174,2],
-"de/d30/classXonoticDisconnectDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,174,35],
-"de/d30/classXonoticDisconnectDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,174,39],
-"de/d33/minigames_2minigame_2all_8qh.html":[2,0,1,7,0,2],
-"de/d33/minigames_2minigame_2all_8qh.html#aa0ff481414c04850bd6f6b1a205d81cd":[2,0,1,7,0,2,0],
-"de/d33/minigames_2minigame_2all_8qh_source.html":[2,0,1,7,0,2],
-"de/d37/common_2gamemodes_2gamemode_2assault_2__mod_8inc.html":[2,0,1,3,0,0,0],
-"de/d37/common_2gamemodes_2gamemode_2assault_2__mod_8inc_source.html":[2,0,1,3,0,0,0],
-"de/d39/screenshotimage_8qc.html":[2,0,5,4,200],
-"de/d39/screenshotimage_8qc.html#a57d982b404b71320708a4ddc5d1dbb82":[2,0,5,4,200,2],
 "de/d39/screenshotimage_8qc.html#a847428d1cd4ec7f82a9f7fe5b462eb27":[2,0,5,4,200,4],
 "de/d39/screenshotimage_8qc.html#a85cb98a5f930323d02e4282a37c4ae4a":[2,0,5,4,200,1],
 "de/d39/screenshotimage_8qc.html#a887b25e323e25ace32ad8982d3828007":[2,0,5,4,200,6],
@@ -249,5 +238,16 @@ var NAVTREEINDEX126 =
 "de/d4e/sv__weapon_8qc.html#ad9923a6162cade3e72575753d49f7188":[2,0,1,3,0,12,8,1],
 "de/d4e/sv__weapon_8qc.html#add653768d77813e1e771f12e50282cd8":[2,0,1,3,0,12,8,4],
 "de/d4e/sv__weapon_8qc_source.html":[2,0,1,3,0,12,8],
-"de/d4f/teamplay_8qc.html":[2,0,6,67]
+"de/d4f/teamplay_8qc.html":[2,0,6,67],
+"de/d4f/teamplay_8qc.html#a05589fbab0657f08285ebdfe93f5ec9ea0be46e8be9d9075ad4f81718bc0a8a3a":[2,0,6,67,2],
+"de/d4f/teamplay_8qc.html#a05589fbab0657f08285ebdfe93f5ec9ea9000d9cfb862d4f73cdc2d816ae31ce9":[2,0,6,67,1],
+"de/d4f/teamplay_8qc.html#a05589fbab0657f08285ebdfe93f5ec9eaf2caf2a6a14b7384b941b99ec7d58447":[2,0,6,67,0],
+"de/d4f/teamplay_8qc.html#a15c597622e4d17e585cb2383642bb9b9":[2,0,6,67,50],
+"de/d4f/teamplay_8qc.html#a181fb38178b204874619fc77f33ffef5":[2,0,6,67,53],
+"de/d4f/teamplay_8qc.html#a22c172b1bbd702efeb58f24a2cb5ac27":[2,0,6,67,4],
+"de/d4f/teamplay_8qc.html#a2765472626f92378c08a7de683d8555d":[2,0,6,67,20],
+"de/d4f/teamplay_8qc.html#a2ca02a05f9e6b11bfcc7fba6c525bb39":[2,0,6,67,24],
+"de/d4f/teamplay_8qc.html#a2e2a7385ed3b8973b21b1cf510dff412":[2,0,6,67,30],
+"de/d4f/teamplay_8qc.html#a30e7d9bb583ec1b560c17ecde4b0a681":[2,0,6,67,35],
+"de/d4f/teamplay_8qc.html#a30ec74d43300169c8a67bb21fd0f3dad":[2,0,6,67,34]
 };

@@ -1,6 +1,7 @@
 var common_2physics_2player_8qh =
 [
     [ "BUFFS_STAT", "de/d70/common_2physics_2player_8qh.html#a6f91fe72ae285d61537e8d41d600c127", null ],
+    [ "IS_DUCKED", "de/d70/common_2physics_2player_8qh.html#ab1b7abb8d77615cb49b3be0ca28be73e", null ],
     [ "IS_JUMP_HELD", "de/d70/common_2physics_2player_8qh.html#a982c4b1086e8011ac24a31ff67e34bab", null ],
     [ "ITEMS_STAT", "de/d70/common_2physics_2player_8qh.html#a7ea304a1bf4f9e551543916c8dbf8871", null ],
     [ "PHYS_ACCELERATE", "de/d70/common_2physics_2player_8qh.html#a9da068493e25e7f3bbeeed2faad2718c", null ],
@@ -73,7 +74,9 @@ var common_2physics_2player_8qh =
     [ "PHYS_WARSOWBUNNY_BACKTOSIDERATIO", "de/d70/common_2physics_2player_8qh.html#a536bf75591f680faaf98ad32262752b1", null ],
     [ "PHYS_WARSOWBUNNY_TOPSPEED", "de/d70/common_2physics_2player_8qh.html#a3aaa42a2b4ab57536e12c907d2f99629", null ],
     [ "PHYS_WARSOWBUNNY_TURNACCEL", "de/d70/common_2physics_2player_8qh.html#ae354b8220687fcb9808a96dc1b185822", null ],
+    [ "SET_DUCKED", "de/d70/common_2physics_2player_8qh.html#ad3303f044ee620461e60ee374748dbb7", null ],
     [ "SET_JUMP_HELD", "de/d70/common_2physics_2player_8qh.html#aef8b1c32c3402cb23008eb08e0e8cffb", null ],
+    [ "UNSET_DUCKED", "de/d70/common_2physics_2player_8qh.html#a3f994f50815f8ce4e56c2091ff19e7e6", null ],
     [ "UNSET_JUMP_HELD", "de/d70/common_2physics_2player_8qh.html#ac2d0dcf4a4840539e0901c7254d34ecc", null ],
     [ "WAS_ONGROUND", "de/d70/common_2physics_2player_8qh.html#a5a11a9aa52f228414844fc60042af295", null ],
     [ "WAS_ONSLICK", "de/d70/common_2physics_2player_8qh.html#a646755508f6d5ed9cd571a6dbd1d8f7b", null ],
@@ -82,6 +85,7 @@ var common_2physics_2player_8qh =
     [ "IsFlying", "de/d70/common_2physics_2player_8qh.html#a40c67f235c369a3d7a4d77832bbd72e2", null ],
     [ "buttons_old", "de/d70/common_2physics_2player_8qh.html#a3b841facfe90cdf48a5ec487b4429229", null ],
     [ "conveyor", "de/d70/common_2physics_2player_8qh.html#aea182bf63f444cfd93df2b6a193525e7", null ],
+    [ "FL_DUCKED", "de/d70/common_2physics_2player_8qh.html#a8efa3dff8614ab3d6a00736ec8580a18", null ],
     [ "gravity", "de/d70/common_2physics_2player_8qh.html#a31924e6c9b17aad7f861e818b8be5d8f", null ],
     [ "lastclassname", "de/d70/common_2physics_2player_8qh.html#a2c9db25cec8344f67ac5c99c73213853", null ],
     [ "lastflags", "de/d70/common_2physics_2player_8qh.html#a1334a71146999f9285f3d037c7f9a404", null ],

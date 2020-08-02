@@ -46,7 +46,9 @@ var server_2items_2items_8qh =
     [ "item_group_count", "d0/d7d/server_2items_2items_8qh.html#a6c6e3b4234832c79c54969f25659181e", null ],
     [ "ITEM_RESPAWN_TICKS", "d0/d7d/server_2items_2items_8qh.html#a8732bc93136b21cd48f890bc8c767cab", null ],
     [ "item_respawncounter", "d0/d7d/server_2items_2items_8qh.html#a210ade4a6633608e4246717f4e2d87b9", null ],
+    [ "item_spawnshieldtime", "d0/d7d/server_2items_2items_8qh.html#abed5a4333a92b743908138f32d45b720", null ],
     [ "itemdef", "d0/d7d/server_2items_2items_8qh.html#a44f52152a4ac7c01ad134d2c8b3d82db", null ],
     [ "max_armorvalue", "d0/d7d/server_2items_2items_8qh.html#a4c36d9fcd24202f73d536c95f9bc634e", null ],
-    [ "pickup_anyway", "d0/d7d/server_2items_2items_8qh.html#aa5fcc8b01036a7e9721a43c0eb3808a1", null ]
+    [ "pickup_anyway", "d0/d7d/server_2items_2items_8qh.html#aa5fcc8b01036a7e9721a43c0eb3808a1", null ],
+    [ "superweapons_finished", "d0/d7d/server_2items_2items_8qh.html#a8689f2bf666f3c481d8a00a3253cd6df", null ]
 ];

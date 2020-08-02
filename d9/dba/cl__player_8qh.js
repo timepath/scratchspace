@@ -10,7 +10,6 @@ var cl__player_8qh =
     [ "CSQCPLAYERSTATUS_FROMSERVER", "d9/dba/cl__player_8qh.html#a9e7e8470ff3236f1b3d582a1f4331619", null ],
     [ "CSQCPLAYERSTATUS_PREDICTED", "d9/dba/cl__player_8qh.html#a8f53d59bae8daea04c980b64d5371909", null ],
     [ "CSQCPLAYERSTATUS_UNPREDICTED", "d9/dba/cl__player_8qh.html#a48431f5b2524177bd4dd8aff5bb7f213", null ],
-    [ "FL_DUCKED", "d9/dba/cl__player_8qh.html#a8efa3dff8614ab3d6a00736ec8580a18", null ],
     [ "PMF_JUMP_HELD", "d9/dba/cl__player_8qh.html#a7407940b79cf846ea89c55c819860aa1", null ],
     [ "pmove_flags", "d9/dba/cl__player_8qh.html#a91e3fc3dbb2381411cc3b4068da45275", null ]
 ];

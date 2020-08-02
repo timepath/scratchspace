@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"d0/da5/domination_8qc_source.html":[2,0,1,3,0,5,4],
+"d0/da7/armor_8qc.html":[2,0,1,5,0,4],
 "d0/da7/armor_8qc_source.html":[2,0,1,5,0,4],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html":[2,0,1,10,0,2,2],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2d2a096950143f69fe15206eefa4d0eb":[2,0,1,10,0,2,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "d0/ddd/weapons_2all_8qh.html#af64f4486ae6141a10160958a5e9a70b4":[2,0,1,16,7,47],
 "d0/ddd/weapons_2all_8qh.html#afa58eea7e5b202d3baf065ef2d96e0f0":[2,0,1,16,7,48],
 "d0/ddd/weapons_2all_8qh.html#aff66521cb678cd0a0b4dad724dc28cfb":[2,0,1,16,7,13],
-"d0/ddd/weapons_2all_8qh_source.html":[2,0,1,16,7],
-"d0/ddf/player__skeleton_8qh.html":[2,0,0,23],
-"d0/ddf/player__skeleton_8qh.html#a1f69a8a19f24e9310085490a184b9ba4":[2,0,0,23,0]
+"d0/ddd/weapons_2all_8qh_source.html":[2,0,1,16,7]
 };

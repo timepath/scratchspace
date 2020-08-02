@@ -1,16 +1,5 @@
 var NAVTREEINDEX124 =
 {
-"dd/de4/g__damage_8qh.html#ad12ecb991101a763f3c195a49064e4d7":[2,0,6,25,13],
-"dd/de4/g__damage_8qh.html#ada84d02b9423a5be23cb1433ab3680e4":[2,0,6,25,29],
-"dd/de4/g__damage_8qh.html#ade2887aa1376d34775f751d2a81565b0":[2,0,6,25,0],
-"dd/de4/g__damage_8qh.html#ae8b4306212ed20679d59a512581309dd":[2,0,6,25,32],
-"dd/de4/g__damage_8qh.html#aefe2100f893d5dd01fdab059d9b5d348":[2,0,6,25,15],
-"dd/de4/g__damage_8qh.html#af1915ea9d450669a5a0672749148448f":[2,0,6,25,2],
-"dd/de4/g__damage_8qh.html#af31fb2a0bf66fd4b03890e6cb74d24d3":[2,0,6,25,37],
-"dd/de4/g__damage_8qh.html#af8497f54dc2d95ad1364dc3996de30ee":[2,0,6,25,35],
-"dd/de4/g__damage_8qh.html#afc5e9270d0757dc47de743b6bd4e33dc":[2,0,6,25,6],
-"dd/de4/g__damage_8qh.html#aff28c78124853cc6ad4f9f330588e1d3":[2,0,6,25,14],
-"dd/de4/g__damage_8qh_source.html":[2,0,6,25],
 "dd/dea/items_2spawning_8qc.html":[2,0,6,3,4],
 "dd/dea/items_2spawning_8qc.html#a08b65b29d4e4daae4c85d1dd01cf7fda":[2,0,6,3,4,0],
 "dd/dea/items_2spawning_8qc.html#a1273442a78b247ad612a19fc4b6529a8":[2,0,6,3,4,11],
@@ -249,5 +238,16 @@ var NAVTREEINDEX124 =
 "de/d0c/classDamageText.html#a72d6238a28d367c6b1315b01674d691c":[1,0,25,18],
 "de/d0c/classDamageText.html#a7782a3053d6f6ee7279746b02edfcf4d":[1,0,25,12],
 "de/d0c/classDamageText.html#a8422fc97bfd57ab9a4f5373ea2868f4d":[1,0,25,20],
-"de/d0c/classDamageText.html#a8d3a832a231b46109547156eaf7dd0ec":[1,0,25,4]
+"de/d0c/classDamageText.html#a8d3a832a231b46109547156eaf7dd0ec":[1,0,25,4],
+"de/d0c/classDamageText.html#a95a7a03c14103583821720970c1830eb":[1,0,25,3],
+"de/d0c/classDamageText.html#a9645f7d63653fc889f97f6c27963e8a2":[1,0,25,11],
+"de/d0c/classDamageText.html#ab08d815b69e6b2fde74a2f6703442ffc":[1,0,25,9],
+"de/d0c/classDamageText.html#aca8978475a45b3a88f27984419c2d7c8":[1,0,25,7],
+"de/d0c/classDamageText.html#ad05fc05aa6d4066c73d44250d6128e92":[1,0,25,6],
+"de/d0c/classDamageText.html#ae4c1f8aa207896e527bb3598dbdce3bd":[1,0,25,8],
+"de/d0d/int_8qh.html":[2,0,4,24],
+"de/d0d/int_8qh.html#ab65936840a5b666cc6c87399e9b80802":[2,0,4,24,2],
+"de/d0d/int_8qh.html#ad0a2a81b9a9d0396a40a45d23c83d647":[2,0,4,24,1],
+"de/d0d/int_8qh.html#ad77a5a11dca20b65e1953044f7652057":[2,0,4,24,0],
+"de/d0d/int_8qh_source.html":[2,0,4,24]
 };

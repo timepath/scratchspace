@@ -118,7 +118,7 @@ var searchData=
   ['playerteamscore_5fcompare',['PlayerTeamScore_Compare',['../d2/d79/scores_8qc.html#ae4fe65e7dbeb8050e420d6dfbbee1d5a',1,'scores.qc']]],
   ['playerthink',['PlayerThink',['../df/dd7/server_2client_8qc.html#aa07f86bdc6b9c9a812296f5c5ff48f95',1,'client.qc']]],
   ['playertouchexplode',['PlayerTouchExplode',['../d4/df8/sv__touchexplode_8qc.html#a8dcb3e7f9e67cb4cd164f35b3aca50eb',1,'sv_touchexplode.qc']]],
-  ['playerusekey',['PlayerUseKey',['../df/dd7/server_2client_8qc.html#a457d60bc0a50d32a90da5a3acb9e8db1',1,'PlayerUseKey(entity this):&#160;client.qc'],['../d5/d26/server_2defs_8qh.html#a457d60bc0a50d32a90da5a3acb9e8db1',1,'PlayerUseKey(entity this):&#160;client.qc']]],
+  ['playerusekey',['PlayerUseKey',['../df/dd7/server_2client_8qc.html#a457d60bc0a50d32a90da5a3acb9e8db1',1,'PlayerUseKey(entity this):&#160;client.qc'],['../d8/de2/server_2client_8qh.html#a457d60bc0a50d32a90da5a3acb9e8db1',1,'PlayerUseKey(entity this):&#160;client.qc']]],
   ['playlist_5fremove',['PlayList_Remove',['../d8/d29/playlist_8qc.html#ad70aacf2537ac90edf75bdfb0e4501c0',1,'PlayList_Remove(entity btn, entity me):&#160;playlist.qc'],['../db/d2f/playlist_8qh.html#ad70aacf2537ac90edf75bdfb0e4501c0',1,'PlayList_Remove(entity btn, entity me):&#160;playlist.qc']]],
   ['playlist_5fremove_5fall',['PlayList_Remove_All',['../d8/d29/playlist_8qc.html#aefcdc232ebedc004971e8354e8f4cb27',1,'PlayList_Remove_All(entity btn, entity me):&#160;playlist.qc'],['../db/d2f/playlist_8qh.html#aefcdc232ebedc004971e8354e8f4cb27',1,'PlayList_Remove_All(entity btn, entity me):&#160;playlist.qc']]],
   ['pm_5faccelerate',['PM_Accelerate',['../d2/d0a/common_2physics_2player_8qc.html#ae011b0b8c9891eb366486a2b8c815940',1,'player.qc']]],

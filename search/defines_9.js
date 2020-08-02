@@ -31,6 +31,7 @@ var searchData=
   ['is_5fdead_5fframe',['IS_DEAD_FRAME',['../dc/d3d/csqcmodel__hooks_8qc.html#a03e325439a3c7e40dda1730cd4251a4c',1,'csqcmodel_hooks.qc']]],
   ['is_5fdecreasing',['IS_DECREASING',['../da/dc3/common_2scores_8qh.html#a1310f6ab1eb47643385baab1b3227603',1,'scores.qh']]],
   ['is_5fdigit',['IS_DIGIT',['../d2/db4/string_8qh.html#a5d094027c5b25aa2cb2dd91cffdf0437',1,'string.qh']]],
+  ['is_5fducked',['IS_DUCKED',['../de/d70/common_2physics_2player_8qh.html#ab1b7abb8d77615cb49b3be0ca28be73e',1,'player.qh']]],
   ['is_5fentity',['is_entity',['../d4/dfb/lib_2__all_8inc.html#aea821d6e0d2d54c0ab8c11c6255f8f8c',1,'_all.inc']]],
   ['is_5ffake_5fclient',['IS_FAKE_CLIENT',['../db/d7a/utils_8qh.html#ade2cd0e40162e24f9205797020945ead',1,'utils.qh']]],
   ['is_5ffloat',['is_float',['../d4/dfb/lib_2__all_8inc.html#a785503d00c1718a04f0957b406a55092',1,'_all.inc']]],

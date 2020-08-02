@@ -22,5 +22,6 @@ var cheats_8qh =
     [ "DragBox_Think", "d3/dca/cheats_8qh.html#a2fcc7654979b1be3219cf09be9f64812", null ],
     [ "cheatcount", "d3/dca/cheats_8qh.html#a185217a3fecaeb55c9f9f0dda572b4aa", null ],
     [ "cheatcount_total", "d3/dca/cheats_8qh.html#a0bb834c275268bdf1e60ea2ec84732a5", null ],
-    [ "CHRAME_DRAG", "d3/dca/cheats_8qh.html#a69313ad528f972d123b822d0c7684351", null ]
+    [ "CHRAME_DRAG", "d3/dca/cheats_8qh.html#a69313ad528f972d123b822d0c7684351", null ],
+    [ "speedrunning", "d3/dca/cheats_8qh.html#aac976e2b26b0eedd9de5a29bc729d2cf", null ]
 ];
