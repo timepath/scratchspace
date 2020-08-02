@@ -2,6 +2,8 @@ var triggers_8qh =
 [
     [ "antiwall_flag", "d6/d25/triggers_8qh.html#a39f89c7165f3fe4cb77a64df7d722ed3", null ],
     [ "atten", "d6/d25/triggers_8qh.html#a0d6814c3343b8821d1f3efd623adf053", null ],
+    [ "cnt", "d6/d25/triggers_8qh.html#abfa4eafbc361865597bedf1979325249", null ],
+    [ "count", "d6/d25/triggers_8qh.html#afea6e77db19a2f8c91419904fe665a3a", null ],
     [ "dest", "d6/d25/triggers_8qh.html#ae06022ef64f0fecd8f5ab5ad77f1ee3d", null ],
     [ "height", "d6/d25/triggers_8qh.html#a48083b65ac9a863566dc3e3fff09a5b4", null ],
     [ "lip", "d6/d25/triggers_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46", null ],

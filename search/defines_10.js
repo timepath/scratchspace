@@ -152,7 +152,7 @@ var searchData=
   ['pregive',['PREGIVE',['../d0/d7d/server_2items_2items_8qh.html#a6facdeb6599e48857637c1ee2a783d4e',1,'items.qh']]],
   ['pregive_5fresource',['PREGIVE_RESOURCE',['../d0/d7d/server_2items_2items_8qh.html#aa37d9b735f665496e1662b1c305f4aa9',1,'items.qh']]],
   ['pregive_5fweapons',['PREGIVE_WEAPONS',['../d0/d7d/server_2items_2items_8qh.html#a3a68f5b7940139ecfe898ad0ac83f45e',1,'items.qh']]],
-  ['projectile_5fmaketrigger',['PROJECTILE_MAKETRIGGER',['../d5/d26/server_2defs_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628',1,'defs.qh']]],
+  ['projectile_5fmaketrigger',['PROJECTILE_MAKETRIGGER',['../d1/dba/server_2weapons_2common_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628',1,'common.qh']]],
   ['projectile_5ftouch',['PROJECTILE_TOUCH',['../dc/d73/server_2miscfunctions_8qh.html#a50ae929b40916f98cffeb538fd0951dd',1,'miscfunctions.qh']]],
   ['promise_5fcatch',['Promise_catch',['../da/d22/promise_8qh.html#ab03e98c62f98cfce6a03292faa2ac07f',1,'promise.qh']]],
   ['promise_5fnew',['Promise_new',['../da/d22/promise_8qh.html#ad2d6ec4fc68e3a8f322603069806ea01',1,'promise.qh']]],

@@ -256,7 +256,7 @@ var searchData=
   ['bufmodels_5fmodel',['BUFMODELS_MODEL',['../de/dd6/playermodel_8qc.html#a97719c8781585e595cda8951fcf244c2',1,'playermodel.qc']]],
   ['bufmodels_5fskin',['BUFMODELS_SKIN',['../de/dd6/playermodel_8qc.html#a8df5d13f26ffe0d5c7217429601280fe',1,'playermodel.qc']]],
   ['bufmodels_5ftitle',['BUFMODELS_TITLE',['../de/dd6/playermodel_8qc.html#a42798688c0664ce87dae8c9d66a8b2a5',1,'playermodel.qc']]],
-  ['bulletcounter',['bulletcounter',['../d5/d26/server_2defs_8qh.html#aa71f8c2a96bf170f2e773e0aa82b2716',1,'defs.qh']]],
+  ['bulletcounter',['bulletcounter',['../da/db7/weaponsystem_8qh.html#aa71f8c2a96bf170f2e773e0aa82b2716',1,'weaponsystem.qh']]],
   ['button0',['button0',['../d1/d37/classClient.html#a9949f317e826a11c87e0d5c76aa4404f',1,'Client::button0()'],['../d6/d11/progsdefs_8qc.html#a415692d814debc841324e70547fb2c94',1,'button0():&#160;progsdefs.qc']]],
   ['button1',['button1',['../d6/d11/progsdefs_8qc.html#ad7671eb124fd9702392c8891c6f99a58',1,'progsdefs.qc']]],
   ['button10',['button10',['../d1/d37/classClient.html#a7e1a3186ea83b5cbc944abb9dd299ccb',1,'Client::button10()'],['../de/d5e/dpextensions_8qc.html#a0b7933316d1c25801d07c7cb4fcbd847',1,'button10():&#160;dpextensions.qc']]],

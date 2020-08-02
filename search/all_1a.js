@@ -14,7 +14,7 @@ var searchData=
   ['zoomoffset',['zoomOffset',['../d8/d00/classImage.html#ab6480e1fe1f3eed5568c59a859abc9cd',1,'Image']]],
   ['zoomscript_5fcaught',['zoomscript_caught',['../d5/d8c/view_8qh.html#a4b0031b0355fc84d1100bd449180d885',1,'view.qh']]],
   ['zoomsnaptothebox',['zoomSnapToTheBox',['../d8/d00/classImage.html#ab9f53ba31d7aebc313bcfd3f677add53',1,'Image']]],
-  ['zoomstate',['zoomstate',['../d1/d37/classClient.html#a6e2b1750af9db4c97521dce1478513a4',1,'Client::zoomstate()'],['../d5/d26/server_2defs_8qh.html#a9f4baf7071a40408773ac112c01ed137',1,'zoomstate():&#160;defs.qh']]],
+  ['zoomstate',['zoomstate',['../d1/d37/classClient.html#a6e2b1750af9db4c97521dce1478513a4',1,'Client::zoomstate()'],['../d8/de2/server_2client_8qh.html#a9f4baf7071a40408773ac112c01ed137',1,'zoomstate():&#160;client.qh']]],
   ['zoomstate_5fset',['zoomstate_set',['../df/dd7/server_2client_8qc.html#a5b6fdfd29020d840be5d04d7a4fe9cf6',1,'client.qc']]],
   ['zoomtime',['zoomTime',['../d8/d00/classImage.html#a17ad45daebe710a3c8bd4bea33facf3d',1,'Image']]]
 ];

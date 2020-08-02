@@ -16,5 +16,5 @@ var searchData=
   ['jumppadcount',['jumppadcount',['../d9/de7/jumppads_8qh.html#aeb124e9cd9ff6aa1d896e02a10fc6ff9',1,'jumppads.qh']]],
   ['jumppadsused',['jumppadsused',['../d9/de7/jumppads_8qh.html#a670dbbce52ae308428b66fd8c8813714',1,'jumppads.qh']]],
   ['jumpstepheightvec',['jumpstepheightvec',['../df/dd4/navigation_8qh.html#a75221be7d8873635bc580f7f8bec5d40',1,'navigation.qh']]],
-  ['just_5fjoined',['just_joined',['../d1/d37/classClient.html#a191231a070ddb9890525e44cb7bc1a83',1,'Client::just_joined()'],['../d5/d26/server_2defs_8qh.html#a66417efa3cbc9bf4992fd06cfa8f5203',1,'just_joined():&#160;defs.qh']]]
+  ['just_5fjoined',['just_joined',['../d1/d37/classClient.html#a191231a070ddb9890525e44cb7bc1a83',1,'Client::just_joined()'],['../d8/de2/server_2client_8qh.html#a66417efa3cbc9bf4992fd06cfa8f5203',1,'just_joined():&#160;client.qh']]]
 ];

@@ -7,6 +7,8 @@ var platforms_8qh =
     [ "plat_outside_touch", "d0/d1a/platforms_8qh.html#a83d9da1182ae8db2d73dbf2ea1aef766", null ],
     [ "plat_trigger_use", "d0/d1a/platforms_8qh.html#a9ea0c4bf592308ee089a459c0bc0c3d2", null ],
     [ "dmg", "d0/d1a/platforms_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b", null ],
+    [ "dmgtime", "d0/d1a/platforms_8qh.html#a0a919d55d52dbf66dcb1fe03efe8f1a8", null ],
     [ "dmgtime2", "d0/d1a/platforms_8qh.html#ae6317bd7023aa44d18718aceb2606e7a", null ],
+    [ "phase", "d0/d1a/platforms_8qh.html#a275dd6dafe5d4455e599ffd15feb06f8", null ],
     [ "PLAT_LOW_TRIGGER", "d0/d1a/platforms_8qh.html#aac4ba62c9d34f407b9deaf736ab186a8", null ]
 ];

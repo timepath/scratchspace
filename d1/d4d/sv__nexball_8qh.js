@@ -18,6 +18,7 @@ var sv__nexball_8qh =
     [ "BALL_MINS", "d1/d4d/sv__nexball_8qh.html#aea259f2ac618fc619f938e92a6692015", null ],
     [ "ball_scale", "d1/d4d/sv__nexball_8qh.html#a1795529d3a33e434fd54cd39ff16d82f", null ],
     [ "balls", "d1/d4d/sv__nexball_8qh.html#a58485f2e77907cb64ae6e89f74feb093", null ],
+    [ "g_nexball_meter_period", "d1/d4d/sv__nexball_8qh.html#a5294a01cfccb2161bd3ab24c65e30778", null ],
     [ "GOAL_FAULT", "d1/d4d/sv__nexball_8qh.html#abaaa8a5426582a3a5afcbea39c289bae", null ],
     [ "GOAL_OUT", "d1/d4d/sv__nexball_8qh.html#a78d132e1cdda747a43c46f141291561e", null ],
     [ "GOAL_TOUCHPLAYER", "d1/d4d/sv__nexball_8qh.html#ae2d8e37817ad0c910ce30061c9a46f7f", null ],

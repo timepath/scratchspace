@@ -165,10 +165,10 @@ var searchData=
   ['kh_5ftracking_5fenabled',['kh_tracking_enabled',['../db/d62/sv__keyhunt_8qh.html#a55c2264ad3258574bb9112acc1453c69',1,'sv_keyhunt.qh']]],
   ['kh_5fworldkeylist',['kh_worldkeylist',['../db/d62/sv__keyhunt_8qh.html#a045a92c5195f8abf1d884beab42bc3f9',1,'sv_keyhunt.qh']]],
   ['kh_5fworldkeynext',['kh_worldkeynext',['../db/d62/sv__keyhunt_8qh.html#abb611131b031308c318e295ec74a375f',1,'sv_keyhunt.qh']]],
-  ['killcount',['killcount',['../d1/d37/classClient.html#afd3da46f8613f02a2a7f1f2f0bcd2f07',1,'Client::killcount()'],['../d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003',1,'killcount():&#160;defs.qh']]],
+  ['killcount',['killcount',['../d1/d37/classClient.html#afd3da46f8613f02a2a7f1f2f0bcd2f07',1,'Client::killcount()'],['../d8/de2/server_2client_8qh.html#a00db75a9a91dc4efb93f782992d227e8',1,'killcount():&#160;client.qh']]],
   ['killed_5fmonsters',['killed_monsters',['../d6/d11/progsdefs_8qc.html#a36860577d5e193383858a6256d509ee1',1,'progsdefs.qc']]],
   ['killindicator',['killindicator',['../d2/d4d/clientkill_8qh.html#a59f3bedf42216e820a4817519548bd90',1,'clientkill.qh']]],
   ['killindicator_5fteamchange',['killindicator_teamchange',['../d2/d4d/clientkill_8qh.html#a33fa8ce82dd2df9d9af4e0e8c6814de2',1,'clientkill.qh']]],
-  ['killsound',['killsound',['../d5/d26/server_2defs_8qh.html#ae6bd352ab3129bbecd9993d9f61c30d6',1,'defs.qh']]],
+  ['killsound',['killsound',['../dd/de4/g__damage_8qh.html#ae6bd352ab3129bbecd9993d9f61c30d6',1,'g_damage.qh']]],
   ['killtarget',['killtarget',['../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70',1,'subs.qh']]]
 ];

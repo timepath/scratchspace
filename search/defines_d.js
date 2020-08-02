@@ -9,7 +9,7 @@ var searchData=
   ['magic_5fstats_5ffix_5fauto',['MAGIC_STATS_FIX_AUTO',['../d0/ddd/lib_2stats_8qh.html#ab18144f27985652d7c9079c3659a7051',1,'stats.qh']]],
   ['magic_5fstats_5ffix_5fmanual',['MAGIC_STATS_FIX_MANUAL',['../d0/ddd/lib_2stats_8qh.html#a52f1dd7436bec5893a9829e9d23bb260',1,'stats.qh']]],
   ['make_5fimpure',['make_impure',['../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2',1,'oo.qh']]],
-  ['make_5findependent_5fplayer',['MAKE_INDEPENDENT_PLAYER',['../d5/d26/server_2defs_8qh.html#ab2f5ceae940caa9d4ef34c8a3cc6aefb',1,'defs.qh']]],
+  ['make_5findependent_5fplayer',['MAKE_INDEPENDENT_PLAYER',['../d8/de2/server_2client_8qh.html#ab2f5ceae940caa9d4ef34c8a3cc6aefb',1,'client.qh']]],
   ['make_5fpure',['make_pure',['../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff',1,'oo.qh']]],
   ['makestatic',['makestatic',['../d6/da0/post_8qh.html#ac889b4d0866a154f62163b1322db4737',1,'post.qh']]],
   ['makevectors',['makevectors',['../d6/da0/post_8qh.html#a98c2eee1538955763b0cd5b580707456',1,'post.qh']]],

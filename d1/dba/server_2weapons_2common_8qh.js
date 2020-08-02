@@ -1,10 +1,13 @@
 var server_2weapons_2common_8qh =
 [
+    [ "PROJECTILE_MAKETRIGGER", "d1/dba/server_2weapons_2common_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628", null ],
     [ "W_CheckProjectileDamage", "d1/dba/server_2weapons_2common_8qh.html#a102ac938a46377356e95bb667b1f01e2", null ],
     [ "W_DualWielding", "d1/dba/server_2weapons_2common_8qh.html#af7a217a45ded9e6d0af468fe18d2d65f", null ],
     [ "W_GiveWeapon", "d1/dba/server_2weapons_2common_8qh.html#ab5df352ada1ad850a3d504fdc704c49f", null ],
     [ "W_PlayStrengthSound", "d1/dba/server_2weapons_2common_8qh.html#a15163fb722de405cc2764efd498bc2ee", null ],
     [ "W_PrepareExplosionByDamage", "d1/dba/server_2weapons_2common_8qh.html#a3391149e74c975b1da289576a256819a", null ],
+    [ "fade_rate", "d1/dba/server_2weapons_2common_8qh.html#a5a08fa477287e8869e228d790a885d87", null ],
+    [ "fade_time", "d1/dba/server_2weapons_2common_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952", null ],
     [ "MIF_ARC", "d1/dba/server_2weapons_2common_8qh.html#a7750d096272e5de9c40305b77fd910cc", null ],
     [ "MIF_GUIDED_AI", "d1/dba/server_2weapons_2common_8qh.html#aa05c5052f6ef69d1f18a9760252503b3", null ],
     [ "MIF_GUIDED_ALL", "d1/dba/server_2weapons_2common_8qh.html#a2dd2c6b1c064a51973af2322056d9d0c", null ],
@@ -19,5 +22,7 @@ var server_2weapons_2common_8qh =
     [ "misc_bulletcounter", "d1/dba/server_2weapons_2common_8qh.html#ad074b805790481ed3367d5308ad8ae38", null ],
     [ "missile_flags", "d1/dba/server_2weapons_2common_8qh.html#a444b62d606749f309da722e1d36407a7", null ],
     [ "prevstrengthsound", "d1/dba/server_2weapons_2common_8qh.html#abdb95a527623dfa15b93ce4c4df829f5", null ],
-    [ "prevstrengthsoundattempt", "d1/dba/server_2weapons_2common_8qh.html#aa32ee577201a563600a7666b730104d8", null ]
+    [ "prevstrengthsoundattempt", "d1/dba/server_2weapons_2common_8qh.html#aa32ee577201a563600a7666b730104d8", null ],
+    [ "projectiledeathtype", "d1/dba/server_2weapons_2common_8qh.html#a17edd654dd2ae440463e420932c7bd84", null ],
+    [ "realowner", "d1/dba/server_2weapons_2common_8qh.html#a6ff047c33f58c5833c291c636078e712", null ]
 ];

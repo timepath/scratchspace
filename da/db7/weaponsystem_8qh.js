@@ -25,6 +25,7 @@ var weaponsystem_8qh =
     [ "ammo_none", "da/db7/weaponsystem_8qh.html#ae0a21a0484e5bf8b8fe8e359578f5ddc", null ],
     [ "attack_finished_for", "da/db7/weaponsystem_8qh.html#a262822480a16bbc5d1276ccd4322f709", null ],
     [ "attack_finished_single", "da/db7/weaponsystem_8qh.html#ad896d889c6a5568ab728f7233e86e258", null ],
+    [ "bulletcounter", "da/db7/weaponsystem_8qh.html#aa71f8c2a96bf170f2e773e0aa82b2716", null ],
     [ "clip_load", "da/db7/weaponsystem_8qh.html#a4923eb650cdc8451fe338610a8bdeaff", null ],
     [ "clip_size", "da/db7/weaponsystem_8qh.html#ab2096ee78f29ebc7ed032605312f919b", null ],
     [ "internalteam", "da/db7/weaponsystem_8qh.html#a460ba8ea4c78b7617eade17eb383d86b", null ],

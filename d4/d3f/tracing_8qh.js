@@ -26,6 +26,9 @@ var tracing_8qh =
     [ "fireBullet_trace_callback_eff", "d4/d3f/tracing_8qh.html#adb01a7fe8a972f768dac9c50fcd5911b", null ],
     [ "railgundistance", "d4/d3f/tracing_8qh.html#a5d7aef17f84882da4b18a217740cb539", null ],
     [ "railgunforce", "d4/d3f/tracing_8qh.html#a422c1c35415a2024465aa98ff2c444dc", null ],
+    [ "railgunhit", "d4/d3f/tracing_8qh.html#ade245d364785b7d828d0b1c75022efc9", null ],
+    [ "railgunhitloc", "d4/d3f/tracing_8qh.html#a5e206ba3e3f62a9ec778d8ebc39b95ed", null ],
+    [ "railgunhitsolidbackup", "d4/d3f/tracing_8qh.html#a424cdec2e704031834c5827181d1c676", null ],
     [ "w_shotdir", "d4/d3f/tracing_8qh.html#a41dc0e466407c3a9330a708dc56d5bb1", null ],
     [ "w_shotend", "d4/d3f/tracing_8qh.html#afe82ab753075705a632f02ce66e0f3dc", null ],
     [ "w_shotorg", "d4/d3f/tracing_8qh.html#aced556a90ea3cc9950877ff32ba08566", null ]

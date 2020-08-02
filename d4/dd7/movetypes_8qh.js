@@ -43,7 +43,6 @@ var movetypes_8qh =
     [ "set_movetype", "d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78", null ],
     [ "void", "d4/dd7/movetypes_8qh.html#a591e49a1a9ef818948667335d5e6c76a", null ],
     [ "aiment", "d4/dd7/movetypes_8qh.html#a9d8f05707745e18415d786a00cd398e8", null ],
-    [ "FL_ONSLICK", "d4/dd7/movetypes_8qh.html#ab732e709f5cda6ca05a2af0b8d52ba29", null ],
     [ "groundentity", "d4/dd7/movetypes_8qh.html#a826b2c367250c9fb58a7ca50eb138cde", null ],
     [ "MAX_CLIP_PLANES", "d4/dd7/movetypes_8qh.html#a46c1d9c12616edadd00cc17892aa9006", null ],
     [ "move_didgravity", "d4/dd7/movetypes_8qh.html#adc76b474270aeb1261d12d16e6ec9fda", null ],

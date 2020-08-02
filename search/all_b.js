@@ -247,12 +247,12 @@ var searchData=
   ['kill_2eqc',['kill.qc',['../d1/dc2/kill_8qc.html',1,'']]],
   ['kill_2eqh',['kill.qh',['../d4/dd0/kill_8qh.html',1,'']]],
   ['kill_5fspree_5flist',['KILL_SPREE_LIST',['../dc/d8f/notifications_2all_8qh.html#a07d1d3059e023b686dd8b0d6efff3168',1,'all.qh']]],
-  ['killcount',['killcount',['../d1/d37/classClient.html#afd3da46f8613f02a2a7f1f2f0bcd2f07',1,'Client::killcount()'],['../d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003',1,'killcount():&#160;defs.qh']]],
+  ['killcount',['killcount',['../d1/d37/classClient.html#afd3da46f8613f02a2a7f1f2f0bcd2f07',1,'Client::killcount()'],['../d8/de2/server_2client_8qh.html#a00db75a9a91dc4efb93f782992d227e8',1,'killcount():&#160;client.qh']]],
   ['killed_5fmonsters',['killed_monsters',['../d6/d11/progsdefs_8qc.html#a36860577d5e193383858a6256d509ee1',1,'progsdefs.qc']]],
   ['killindicator',['killindicator',['../d2/d4d/clientkill_8qh.html#a59f3bedf42216e820a4817519548bd90',1,'clientkill.qh']]],
   ['killindicator_5fteamchange',['killindicator_teamchange',['../d2/d4d/clientkill_8qh.html#a33fa8ce82dd2df9d9af4e0e8c6814de2',1,'clientkill.qh']]],
   ['killindicator_5fthink',['KillIndicator_Think',['../dc/d55/clientkill_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'KillIndicator_Think(entity this):&#160;clientkill.qc'],['../d2/d4d/clientkill_8qh.html#a07ed282ad92406a801203975b2c36ad4',1,'KillIndicator_Think(entity this):&#160;clientkill.qc']]],
   ['killplayerforteamchange',['KillPlayerForTeamChange',['../de/d4f/teamplay_8qc.html#ad358e614645b7bbf926efeb9af932a5d',1,'KillPlayerForTeamChange(entity player):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#ad358e614645b7bbf926efeb9af932a5d',1,'KillPlayerForTeamChange(entity player):&#160;teamplay.qc']]],
-  ['killsound',['killsound',['../d5/d26/server_2defs_8qh.html#ae6bd352ab3129bbecd9993d9f61c30d6',1,'defs.qh']]],
+  ['killsound',['killsound',['../dd/de4/g__damage_8qh.html#ae6bd352ab3129bbecd9993d9f61c30d6',1,'g_damage.qh']]],
   ['killtarget',['killtarget',['../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70',1,'subs.qh']]]
 ];

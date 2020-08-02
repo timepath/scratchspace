@@ -85,7 +85,6 @@ var common_2physics_2player_8qh =
     [ "IsFlying", "de/d70/common_2physics_2player_8qh.html#a40c67f235c369a3d7a4d77832bbd72e2", null ],
     [ "buttons_old", "de/d70/common_2physics_2player_8qh.html#a3b841facfe90cdf48a5ec487b4429229", null ],
     [ "conveyor", "de/d70/common_2physics_2player_8qh.html#aea182bf63f444cfd93df2b6a193525e7", null ],
-    [ "FL_DUCKED", "de/d70/common_2physics_2player_8qh.html#a8efa3dff8614ab3d6a00736ec8580a18", null ],
     [ "gravity", "de/d70/common_2physics_2player_8qh.html#a31924e6c9b17aad7f861e818b8be5d8f", null ],
     [ "lastclassname", "de/d70/common_2physics_2player_8qh.html#a2c9db25cec8344f67ac5c99c73213853", null ],
     [ "lastflags", "de/d70/common_2physics_2player_8qh.html#a1334a71146999f9285f3d037c7f9a404", null ],

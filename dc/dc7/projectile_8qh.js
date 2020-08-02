@@ -9,6 +9,5 @@ var projectile_8qh =
     [ "Projectile_ResetTrail", "dc/dc7/projectile_8qh.html#afa735eeb763e03508cd4e27a1921b593", null ],
     [ "SUB_Stop", "dc/dc7/projectile_8qh.html#aafb6ab318b9d8923d5fb0d4e56242d87", null ],
     [ "fade_rate", "dc/dc7/projectile_8qh.html#a66ebaab056a734dac49a78d19be21d71", null ],
-    [ "FL_PROJECTILE", "dc/dc7/projectile_8qh.html#a1377cbecee41e6bb05e56a90280ff3eb", null ],
     [ "iorigin2", "dc/dc7/projectile_8qh.html#a94378845a3c4417c9029635f61ec46c6", null ]
 ];

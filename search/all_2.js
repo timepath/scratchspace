@@ -479,7 +479,7 @@ var searchData=
   ['buildpath_5fnodefilter_5fdirectional',['buildpath_nodefilter_directional',['../df/d4c/server_2pathlib_2main_8qc.html#a1f4d68b295cbc7d62c9932abbcf986a9',1,'main.qc']]],
   ['buildpath_5fnodefilter_5fmoveskip',['buildpath_nodefilter_moveskip',['../df/d4c/server_2pathlib_2main_8qc.html#aef82ce329f37e65eaf421f8d4d1e9652',1,'main.qc']]],
   ['buildpath_5fnodefilter_5fnone',['buildpath_nodefilter_none',['../df/d4c/server_2pathlib_2main_8qc.html#aafdfe027f39c9b60fb5f165a9a000784',1,'buildpath_nodefilter_none(vector n, vector c, vector p):&#160;main.qc'],['../d8/db4/server_2pathlib_2main_8qh.html#aafdfe027f39c9b60fb5f165a9a000784',1,'buildpath_nodefilter_none(vector n, vector c, vector p):&#160;main.qc']]],
-  ['bulletcounter',['bulletcounter',['../d5/d26/server_2defs_8qh.html#aa71f8c2a96bf170f2e773e0aa82b2716',1,'defs.qh']]],
+  ['bulletcounter',['bulletcounter',['../da/db7/weaponsystem_8qh.html#aa71f8c2a96bf170f2e773e0aa82b2716',1,'weaponsystem.qh']]],
   ['bullets',['Bullets',['../d1/d8d/classBullets.html',1,'']]],
   ['bumblebee',['Bumblebee',['../db/d11/classBumblebee.html',1,'']]],
   ['bumblebee_2eqc',['bumblebee.qc',['../d0/d99/bumblebee_8qc.html',1,'']]],

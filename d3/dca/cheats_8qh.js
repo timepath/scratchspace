@@ -23,5 +23,7 @@ var cheats_8qh =
     [ "cheatcount", "d3/dca/cheats_8qh.html#a185217a3fecaeb55c9f9f0dda572b4aa", null ],
     [ "cheatcount_total", "d3/dca/cheats_8qh.html#a0bb834c275268bdf1e60ea2ec84732a5", null ],
     [ "CHRAME_DRAG", "d3/dca/cheats_8qh.html#a69313ad528f972d123b822d0c7684351", null ],
+    [ "grab", "d3/dca/cheats_8qh.html#a6f34f8320d12028a7513dccc40735a24", null ],
+    [ "personal", "d3/dca/cheats_8qh.html#ac6de0e82388dab2d51aafcd02f005121", null ],
     [ "speedrunning", "d3/dca/cheats_8qh.html#aac976e2b26b0eedd9de5a29bc729d2cf", null ]
 ];
