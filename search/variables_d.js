@@ -172,7 +172,7 @@ var searchData=
   ['max_5frpn_5fstack',['MAX_RPN_STACK',['../d4/db4/rpn_8qh.html#afafe3dbc1f1e8c61511ba4b223719ec4',1,'rpn.qh']]],
   ['max_5fsbt_5ffields',['MAX_SBT_FIELDS',['../d3/d07/scoreboard_8qc.html#a9bf722ae68431773c4bde7eebad02446',1,'scoreboard.qc']]],
   ['max_5fspecialcommand',['MAX_SPECIALCOMMAND',['../d6/dd3/view_8qc.html#a17baea3e1c027b4a6e9101faa322a0d0',1,'view.qc']]],
-  ['max_5fspectators',['MAX_SPECTATORS',['../d0/d2a/client_2main_8qh.html#afe961ffd5f538ba62097d9a39f91e1a4',1,'main.qh']]],
+  ['max_5fspectators',['MAX_SPECTATORS',['../d0/d2a/client_2main_8qh.html#afe961ffd5f538ba62097d9a39f91e1a4',1,'MAX_SPECTATORS():&#160;main.qh'],['../d8/de2/server_2client_8qh.html#afe961ffd5f538ba62097d9a39f91e1a4',1,'MAX_SPECTATORS():&#160;client.qh']]],
   ['max_5fteamradar_5ftimes',['MAX_TEAMRADAR_TIMES',['../d0/d84/teamradar_8qh.html#a1d39c142e0d9f64f317c11702a020571',1,'teamradar.qh']]],
   ['max_5fweaponslots',['MAX_WEAPONSLOTS',['../d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b',1,'weapon.qh']]],
   ['maxallowedheight',['maxAllowedHeight',['../d9/d58/classXonoticResolutionSlider.html#a08c5bf54e17d5e9d3f5e3f35612f60a7',1,'XonoticResolutionSlider']]],

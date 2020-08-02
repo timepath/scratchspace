@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"d9/deb/classXonoticHUDTimerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,204,39],
 "d9/deb/classXonoticHUDTimerDialog.html#afdf6ccb6fb63aba4d853217aba0b06cc":[1,0,204,67],
 "d9/df0/weaponstats_8qh.html":[2,0,6,6,19],
 "d9/df0/weaponstats_8qh.html#a456ded6f061320557b90765d8d34c0f3":[2,0,6,6,19,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "da/d1d/classMLRSTurretAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,78,22],
 "da/d1d/classMLRSTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,78,26],
 "da/d1d/classMLRSTurretAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,78,17],
-"da/d1d/mainwindow_8qc.html":[2,0,5,4,182],
-"da/d1d/mainwindow_8qc.html#a0d7d1629f65a255e16e302d73b331bb5":[2,0,5,4,182,2]
+"da/d1d/mainwindow_8qc.html":[2,0,5,4,182]
 };

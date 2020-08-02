@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"da/ded/classSeeker.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,118,2],
 "da/ded/classSeeker.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,118,37],
 "da/ded/classSeeker.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,118,22],
 "da/ded/classSeeker.html#ae26610a90258da2f6766e7dbb9ea8289":[1,0,118,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "db/d0c/angle_8qh_source.html":[2,0,4,8],
 "db/d0e/common_2monsters_2__mod_8inc.html":[2,0,1,9,1],
 "db/d0e/common_2monsters_2__mod_8inc_source.html":[2,0,1,9,1],
-"db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html":[2,0,1,3,0,14,5],
-"db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html#a169002dfc8d1b07462cb4117bca41790":[2,0,1,3,0,14,5,1]
+"db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html":[2,0,1,3,0,14,5]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"da/da9/ecs_2__mod_8inc.html":[2,0,3,3],
 "da/da9/ecs_2__mod_8inc_source.html":[2,0,3,3],
 "da/daa/server_2weapons_2common_8qc.html":[2,0,6,6,4],
 "da/daa/server_2weapons_2common_8qc.html#a102ac938a46377356e95bb667b1f01e2":[2,0,6,6,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "da/dc1/classXonoticAudioSettingsTab.html#aad099a0549928c37867d05a5dde2a511":[1,0,148,80],
 "da/dc1/classXonoticAudioSettingsTab.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,148,79],
 "da/dc1/classXonoticAudioSettingsTab.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,148,39],
-"da/dc1/classXonoticAudioSettingsTab.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,148,7],
-"da/dc1/classXonoticAudioSettingsTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,148,47]
+"da/dc1/classXonoticAudioSettingsTab.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,148,7]
 };

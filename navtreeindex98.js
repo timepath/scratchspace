@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html#a169002dfc8d1b07462cb4117bca41790":[2,0,1,3,0,14,5,1],
 "db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html#a38c1ebdc89e92acf83df75fab22c7b60":[2,0,1,3,0,14,5,2],
 "db/d10/common_2gamemodes_2gamemode_2race_2race_8qh_source.html":[2,0,1,3,0,14,5],
 "db/d11/classBumblebee.html":[1,0,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181":[2,0,6,53,10],
 "db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a":[2,0,6,53,12],
 "db/d20/round__handler_8qh_source.html":[2,0,6,53],
-"db/d21/demolist_8qc.html":[2,0,5,4,36],
-"db/d21/demolist_8qc.html#a0d2b7acc22b692c00b61a94679118b18":[2,0,5,4,36,15]
+"db/d21/demolist_8qc.html":[2,0,5,4,36]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"dd/d43/cl__turrets_8qc_source.html":[2,0,1,14,7],
 "dd/d43/gametypelist_8qh.html":[2,0,5,4,169],
 "dd/d43/gametypelist_8qh.html#a6dec0dd03e2658b2ff6cb6a7a7ae0a88":[2,0,5,4,169,1],
 "dd/d43/gametypelist_8qh_source.html":[2,0,5,4,169],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "dd/d77/item_2nexposee_8qh.html#a0cfe8533c42f7b5a11c996f76413a84d":[2,0,5,2,25,1],
 "dd/d77/item_2nexposee_8qh.html#a4cb410b54f522789f043c8cdd262b357":[2,0,5,2,25,7],
 "dd/d77/item_2nexposee_8qh.html#a5c77c92b2a85c35612682dd10fa47945":[2,0,5,2,25,5],
-"dd/d77/item_2nexposee_8qh.html#a77820f2816a50a29d9437a0377722467":[2,0,5,2,25,11],
-"dd/d77/item_2nexposee_8qh.html#a99dd3eddff7c29fa9cfbc82fb4106a35":[2,0,5,2,25,12]
+"dd/d77/item_2nexposee_8qh.html#a77820f2816a50a29d9437a0377722467":[2,0,5,2,25,11]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX121 =
 {
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#ae4a91435e55b1625786a372ad255ea78":[1,0,184,84],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#ae6a2b73fc421073777efa8be72694b37":[1,0,184,88],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,184,13],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,184,68],
@@ -248,6 +249,5 @@ var NAVTREEINDEX121 =
 "dd/da6/classXonoticCreditsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,161,4],
 "dd/da6/classXonoticCreditsDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,161,42],
 "dd/da6/classXonoticCreditsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,161,20],
-"dd/da6/classXonoticCreditsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,161,48],
-"dd/da6/classXonoticCreditsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,161,53]
+"dd/da6/classXonoticCreditsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,161,48]
 };

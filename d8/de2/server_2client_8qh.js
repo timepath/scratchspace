@@ -57,6 +57,7 @@ var server_2client_8qh =
     [ "jointime", "d8/de2/server_2client_8qh.html#a90ecbc11824e99dab4a925f22e38d0c5", null ],
     [ "just_joined", "d8/de2/server_2client_8qh.html#a66417efa3cbc9bf4992fd06cfa8f5203", null ],
     [ "killcount", "d8/de2/server_2client_8qh.html#a00db75a9a91dc4efb93f782992d227e8", null ],
+    [ "MAX_SPECTATORS", "d8/de2/server_2client_8qh.html#afe961ffd5f538ba62097d9a39f91e1a4", null ],
     [ "MIN_SPEC_TIME", "d8/de2/server_2client_8qh.html#a5949b9ebfecda6bea39a7064bc80b1ba", null ],
     [ "motd_actived_time", "d8/de2/server_2client_8qh.html#aef6ca1a08affcc61b9244da90f564da1", null ],
     [ "nickspamcount", "d8/de2/server_2client_8qh.html#a06bf944f94071c6cf5e71694ffbb5734", null ],

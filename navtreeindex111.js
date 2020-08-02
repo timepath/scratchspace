@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"dc/d30/classBallStealer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,6,29],
 "dc/d30/classBallStealer.html#a80fa9a65e19370473a29baebc04d0626":[1,0,6,4],
 "dc/d30/classBallStealer.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,6,6],
 "dc/d30/classBallStealer.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,6,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "dc/d44/classXonoticScreenshotList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,240,88],
 "dc/d44/classXonoticScreenshotList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,240,68],
 "dc/d44/classXonoticScreenshotList.html#a565f8d33b46815606f1860162d71339a":[1,0,240,23],
-"dc/d44/classXonoticScreenshotList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,240,10],
-"dc/d44/classXonoticScreenshotList.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,240,30]
+"dc/d44/classXonoticScreenshotList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,240,10]
 };

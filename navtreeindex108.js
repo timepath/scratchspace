@@ -1,5 +1,6 @@
 var NAVTREEINDEX108 =
 {
+"db/ddb/classXonoticCvarList.html#abab27a1de641c92ee50a81272064c2d2":[1,0,165,5],
 "db/ddb/classXonoticCvarList.html#abcb4fb11cab9714d5c77c93cf8f3cff2":[1,0,165,39],
 "db/ddb/classXonoticCvarList.html#abcca171d61124f9e1581d7786a820cdb":[1,0,165,9],
 "db/ddb/classXonoticCvarList.html#ac12318a9727a9d8ab8286f0dc7f78bd3":[1,0,165,43],
@@ -248,6 +249,5 @@ var NAVTREEINDEX108 =
 "db/dfa/classPlasmaAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,101,16],
 "db/dfa/classPlasmaAttack.html#a312755d5709b880f99cf89d7a76237fe":[1,0,101,3],
 "db/dfa/classPlasmaAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,101,20],
-"db/dfa/classPlasmaAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,101,11],
-"db/dfa/classPlasmaAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,101,21]
+"db/dfa/classPlasmaAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,101,11]
 };
