@@ -1,5 +1,8 @@
 var weaponsystem_8qh =
 [
+    [ "ATTACK_FINISHED", "da/db7/weaponsystem_8qh.html#aa0d76f549d018d5cc5dc0bedec6f354f", null ],
+    [ "ATTACK_FINISHED_FOR", "da/db7/weaponsystem_8qh.html#af35b608e51a05386e4f74c57e77d9dcc", null ],
+    [ "INDEPENDENT_ATTACK_FINISHED", "da/db7/weaponsystem_8qh.html#afb4dc63f33cdd3551eb4195391bbdd62", null ],
     [ "CL_SpawnWeaponentity", "da/db7/weaponsystem_8qh.html#aa6d337210081fd47ddca43564d7bf9c3", null ],
     [ "CL_Weapon_GetShotOrg", "da/db7/weaponsystem_8qh.html#ad315ff4e6ee9693a54edb0d18efc9245", null ],
     [ "void", "da/db7/weaponsystem_8qh.html#aa161c81b4029a6e3572de07692542739", null ],
@@ -20,6 +23,8 @@ var weaponsystem_8qh =
     [ "weaponLocked", "da/db7/weaponsystem_8qh.html#ac7b6c8bdba2c394f8a3385c9bd992f9c", null ],
     [ "weaponUseForbidden", "da/db7/weaponsystem_8qh.html#a4774b540ac577e1898af7d257be0b390", null ],
     [ "ammo_none", "da/db7/weaponsystem_8qh.html#ae0a21a0484e5bf8b8fe8e359578f5ddc", null ],
+    [ "attack_finished_for", "da/db7/weaponsystem_8qh.html#a262822480a16bbc5d1276ccd4322f709", null ],
+    [ "attack_finished_single", "da/db7/weaponsystem_8qh.html#ad896d889c6a5568ab728f7233e86e258", null ],
     [ "clip_load", "da/db7/weaponsystem_8qh.html#a4923eb650cdc8451fe338610a8bdeaff", null ],
     [ "clip_size", "da/db7/weaponsystem_8qh.html#ab2096ee78f29ebc7ed032605312f919b", null ],
     [ "internalteam", "da/db7/weaponsystem_8qh.html#a460ba8ea4c78b7617eade17eb383d86b", null ],

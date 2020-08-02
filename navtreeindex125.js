@@ -1,13 +1,5 @@
 var NAVTREEINDEX125 =
 {
-"de/d0c/classDamageText.html#a48cbef0feb76ac585c931dbc47c2dc97":[1,0,25,21],
-"de/d0c/classDamageText.html#a65f22853f37f14deba2d878d3dcacded":[1,0,25,1],
-"de/d0c/classDamageText.html#a6849153fc604a5bced7c74d7a52ccd92":[1,0,25,13],
-"de/d0c/classDamageText.html#a6c1713c1ec4ddf63ec1134423d0a8b99":[1,0,25,10],
-"de/d0c/classDamageText.html#a72d6238a28d367c6b1315b01674d691c":[1,0,25,18],
-"de/d0c/classDamageText.html#a7782a3053d6f6ee7279746b02edfcf4d":[1,0,25,12],
-"de/d0c/classDamageText.html#a8422fc97bfd57ab9a4f5373ea2868f4d":[1,0,25,20],
-"de/d0c/classDamageText.html#a8d3a832a231b46109547156eaf7dd0ec":[1,0,25,4],
 "de/d0c/classDamageText.html#a95a7a03c14103583821720970c1830eb":[1,0,25,3],
 "de/d0c/classDamageText.html#a9645f7d63653fc889f97f6c27963e8a2":[1,0,25,11],
 "de/d0c/classDamageText.html#ab08d815b69e6b2fde74a2f6703442ffc":[1,0,25,9],
@@ -249,5 +241,13 @@ var NAVTREEINDEX125 =
 "de/d30/classXonoticDisconnectDialog.html#add68d35176324007cc9ed8d72d847f37":[1,0,174,58],
 "de/d30/classXonoticDisconnectDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,174,29],
 "de/d30/classXonoticDisconnectDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,174,61],
-"de/d30/classXonoticDisconnectDialog.html#ae1e178f47107b2d93f447db5617452e0":[1,0,174,77]
+"de/d30/classXonoticDisconnectDialog.html#ae1e178f47107b2d93f447db5617452e0":[1,0,174,77],
+"de/d30/classXonoticDisconnectDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,174,53],
+"de/d30/classXonoticDisconnectDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,174,91],
+"de/d30/classXonoticDisconnectDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,174,8],
+"de/d30/classXonoticDisconnectDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,174,67],
+"de/d30/classXonoticDisconnectDialog.html#af1aab403dc54575707fd57991312b201":[1,0,174,45],
+"de/d30/classXonoticDisconnectDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,174,25],
+"de/d30/classXonoticDisconnectDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,174,10],
+"de/d30/classXonoticDisconnectDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,174,15]
 };

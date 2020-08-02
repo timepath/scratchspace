@@ -1,13 +1,5 @@
 var NAVTREEINDEX129 =
 {
-"de/d65/classXonoticHUDInfoMessagesDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,192,59],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,192,28],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,192,44],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,192,54],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,192,84],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,192,1],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,192,37],
-"de/d65/classXonoticHUDInfoMessagesDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,192,12],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,192,73],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,192,21],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,192,23],
@@ -249,5 +241,13 @@ var NAVTREEINDEX129 =
 "de/d7a/classXonoticHUDScoreDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,202,40],
 "de/d7a/classXonoticHUDScoreDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,202,62],
 "de/d7a/classXonoticHUDScoreDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,202,74],
-"de/d7a/classXonoticHUDScoreDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,202,6]
+"de/d7a/classXonoticHUDScoreDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,202,6],
+"de/d7a/classXonoticHUDScoreDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,202,14],
+"de/d7a/classXonoticHUDScoreDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,202,18],
+"de/d7a/classXonoticHUDScoreDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,202,87],
+"de/d7a/classXonoticHUDScoreDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,202,50],
+"de/d7a/classXonoticHUDScoreDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,202,43],
+"de/d7a/classXonoticHUDScoreDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,202,65],
+"de/d7a/classXonoticHUDScoreDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,202,71],
+"de/d7a/classXonoticHUDScoreDialog.html#a9d507237bff8e6e5c411e38a63446836":[1,0,202,79]
 };

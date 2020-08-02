@@ -162,6 +162,14 @@ Macros</h2></td></tr>
 <tr class="separator:a6ba166b0f324250745d0897a482d08bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af049e5748138e84b5a3570816901699b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8b/sys-pre_8qh.html#af049e5748138e84b5a3570816901699b">IT_SUPERHEALTH</a>&#160;&#160;&#160;_IT_SUPERHEALTH /* <a class="el" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(16) */</td></tr>
 <tr class="separator:af049e5748138e84b5a3570816901699b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdf1aa86db04b7df918eff5089db0ab5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8b/sys-pre_8qh.html#abdf1aa86db04b7df918eff5089db0ab5">STATE_BOTTOM</a>&#160;&#160;&#160;_STATE_BOTTOM /* 1 */</td></tr>
+<tr class="separator:abdf1aa86db04b7df918eff5089db0ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d485ea16647d3bb7691188e29779975"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8b/sys-pre_8qh.html#a7d485ea16647d3bb7691188e29779975">STATE_DOWN</a>&#160;&#160;&#160;_STATE_DOWN /* 3 */</td></tr>
+<tr class="separator:a7d485ea16647d3bb7691188e29779975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab01542df68d092620118f1b7bafa66d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8b/sys-pre_8qh.html#ab01542df68d092620118f1b7bafa66d0">STATE_TOP</a>&#160;&#160;&#160;_STATE_TOP /* 0 */</td></tr>
+<tr class="separator:ab01542df68d092620118f1b7bafa66d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16aee7b54d541a57df858c817bf88bb8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8b/sys-pre_8qh.html#a16aee7b54d541a57df858c817bf88bb8">STATE_UP</a>&#160;&#160;&#160;_STATE_UP /* 2 */</td></tr>
+<tr class="separator:a16aee7b54d541a57df858c817bf88bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a1b69a3a134506189b3d054e6c6f2896c"></a>
@@ -500,13 +508,77 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abdf1aa86db04b7df918eff5089db0ab5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STATE_BOTTOM&#160;&#160;&#160;_STATE_BOTTOM /* 1 */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00031">31</a> of file <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html">sys-pre.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00211">door_fire()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00102">door_hit_bottom()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00613">door_reset()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00090">plat_center_touch()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00070">plat_hit_bottom()</a>, and <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00180">plat_reset()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7d485ea16647d3bb7691188e29779975"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STATE_DOWN&#160;&#160;&#160;_STATE_DOWN /* 3 */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00033">33</a> of file <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html">sys-pre.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00028">door_blocked()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00211">door_fire()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00313">door_generic_plat_blocked()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00109">door_go_down()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00138">plat_crush()</a>, and <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00076">plat_go_down()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab01542df68d092620118f1b7bafa66d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STATE_TOP&#160;&#160;&#160;_STATE_TOP /* 0 */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00030">30</a> of file <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html">sys-pre.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00211">door_fire()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00123">door_go_up()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00085">door_hit_top()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00090">plat_center_touch()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00061">plat_hit_top()</a>, and <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00111">plat_outside_touch()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a16aee7b54d541a57df858c817bf88bb8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STATE_UP&#160;&#160;&#160;_STATE_UP /* 2 */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00032">32</a> of file <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html">sys-pre.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00211">door_fire()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00123">door_go_up()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00138">plat_crush()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00083">plat_go_up()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00180">plat_reset()</a>, and <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00168">plat_use()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dd/d8b/sys-pre_8qh.html">sys-pre.qh</a></li>
-    <li class="footer">Generated on Sat Aug 1 2020 23:07:27 for Xonotic by
+    <li class="footer">Generated on Sun Aug 2 2020 00:27:30 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

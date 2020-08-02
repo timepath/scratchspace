@@ -1,6 +1,5 @@
 var server_2player_8qc =
 [
-    [ "calculate_player_respawn_time", "db/d9b/server_2player_8qc.html#a9d529760b279c19bb3b1d15c4da335d1", null ],
     [ "CopyBody", "db/d9b/server_2player_8qc.html#af2cf7e359cda23b596ac40cda3f9ba87", null ],
     [ "CopyBody_Think", "db/d9b/server_2player_8qc.html#aef50b8473159af9d6f77b966bc0cbe00", null ],
     [ "Drop_Special_Items", "db/d9b/server_2player_8qc.html#a74a2991ad4b1aad6bfc27e899c563d29", null ],

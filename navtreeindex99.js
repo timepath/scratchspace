@@ -1,16 +1,5 @@
 var NAVTREEINDEX99 =
 {
-"db/d15/api_8qh.html#a4c86184e4fc608ec47e05f5170a57d13":[2,0,6,0,5,86],
-"db/d15/api_8qh.html#a54ad8a821fb238d402ee6fb1c376aeb8":[2,0,6,0,5,176],
-"db/d15/api_8qh.html#a54e7b6621d45ed5fe0226602c982ae94":[2,0,6,0,5,162],
-"db/d15/api_8qh.html#a574328bd2a46ee79334d847a285ead74":[2,0,6,0,5,108],
-"db/d15/api_8qh.html#a57aebfdaf806fba9b970fd6a5e9d9a8b":[2,0,6,0,5,85],
-"db/d15/api_8qh.html#a58006022b7f6d1b7131ed30b053c6165":[2,0,6,0,5,83],
-"db/d15/api_8qh.html#a585249bd360c2209030c209744e70e4e":[2,0,6,0,5,136],
-"db/d15/api_8qh.html#a5a2e538e769fa41a909133b1f3ae44c1":[2,0,6,0,5,5],
-"db/d15/api_8qh.html#a5ef356beaaf94d7aec6bdb2a28278636":[2,0,6,0,5,38],
-"db/d15/api_8qh.html#a61bcdb7f04fb4e5d365896649be7d773":[2,0,6,0,5,43],
-"db/d15/api_8qh.html#a6376176e4bdb1175ecafc13fb818dab2":[2,0,6,0,5,99],
 "db/d15/api_8qh.html#a6456f6b6523f83904a00a909d0a87236":[2,0,6,0,5,19],
 "db/d15/api_8qh.html#a66030abaadaaa3ea3a8d194bbb3a0654":[2,0,6,0,5,129],
 "db/d15/api_8qh.html#a6805606231a9daaa02d082d33f3514df":[2,0,6,0,5,54],
@@ -249,5 +238,16 @@ var NAVTREEINDEX99 =
 "db/d29/classXonoticRegisteredSettingsList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,232,28],
 "db/d29/classXonoticRegisteredSettingsList.html#afd0d89a4240b5d670c0cdfa8c777824c":[1,0,232,73],
 "db/d29/dialog__hudpanel__weapons_8qh.html":[2,0,5,4,83],
-"db/d29/dialog__hudpanel__weapons_8qh_source.html":[2,0,5,4,83]
+"db/d29/dialog__hudpanel__weapons_8qh_source.html":[2,0,5,4,83],
+"db/d29/machinegun__weapon_8qh.html":[2,0,1,14,0,23],
+"db/d29/machinegun__weapon_8qh.html#a1d67f6931a2ea189e5f33ef332554c58":[2,0,1,14,0,23,1],
+"db/d29/machinegun__weapon_8qh_source.html":[2,0,1,14,0,23],
+"db/d2a/client_2hud_2panel_2ammo_8qh.html":[2,0,0,1,0,3],
+"db/d2a/client_2hud_2panel_2ammo_8qh.html#ad637fa0fc1c06d190bf1b831f4c12846":[2,0,0,1,0,3,0],
+"db/d2a/client_2hud_2panel_2ammo_8qh_source.html":[2,0,0,1,0,3],
+"db/d2b/sv__spawn__near__teammate_8qh.html":[2,0,1,10,0,32,7],
+"db/d2b/sv__spawn__near__teammate_8qh_source.html":[2,0,1,10,0,32,7],
+"db/d2f/common_2turrets_2__mod_8qh.html":[2,0,1,14,2],
+"db/d2f/common_2turrets_2__mod_8qh_source.html":[2,0,1,14,2],
+"db/d2f/playlist_8qh.html":[2,0,5,4,195]
 };

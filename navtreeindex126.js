@@ -1,13 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"de/d30/classXonoticDisconnectDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,174,53],
-"de/d30/classXonoticDisconnectDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,174,91],
-"de/d30/classXonoticDisconnectDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,174,8],
-"de/d30/classXonoticDisconnectDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,174,67],
-"de/d30/classXonoticDisconnectDialog.html#af1aab403dc54575707fd57991312b201":[1,0,174,45],
-"de/d30/classXonoticDisconnectDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,174,25],
-"de/d30/classXonoticDisconnectDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,174,10],
-"de/d30/classXonoticDisconnectDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,174,15],
 "de/d30/classXonoticDisconnectDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,174,49],
 "de/d30/classXonoticDisconnectDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,174,2],
 "de/d30/classXonoticDisconnectDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,174,35],
@@ -249,5 +241,13 @@ var NAVTREEINDEX126 =
 "de/d4d/sv__controlpoint_8qc.html#afc44af413028da09208c031b9fb3f4e0":[2,0,1,3,0,13,12,1],
 "de/d4d/sv__controlpoint_8qc_source.html":[2,0,1,3,0,13,12],
 "de/d4e/bugrigs_8qh.html":[2,0,1,10,0,3,3],
-"de/d4e/bugrigs_8qh_source.html":[2,0,1,10,0,3,3]
+"de/d4e/bugrigs_8qh_source.html":[2,0,1,10,0,3,3],
+"de/d4e/sv__weapon_8qc.html":[2,0,1,3,0,12,8],
+"de/d4e/sv__weapon_8qc.html#a09f8093e4bb52827b3f8a7b56e4902bf":[2,0,1,3,0,12,8,3],
+"de/d4e/sv__weapon_8qc.html#aac42770aa9202c7131759aa3341b4899":[2,0,1,3,0,12,8,0],
+"de/d4e/sv__weapon_8qc.html#ad0c85c229f2bbffc9a6bf92036db4f56":[2,0,1,3,0,12,8,2],
+"de/d4e/sv__weapon_8qc.html#ad9923a6162cade3e72575753d49f7188":[2,0,1,3,0,12,8,1],
+"de/d4e/sv__weapon_8qc.html#add653768d77813e1e771f12e50282cd8":[2,0,1,3,0,12,8,4],
+"de/d4e/sv__weapon_8qc_source.html":[2,0,1,3,0,12,8],
+"de/d4f/teamplay_8qc.html":[2,0,6,67]
 };

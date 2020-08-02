@@ -23,7 +23,7 @@ var searchData=
   ['gamerules_5fscoring_5fadd',['GameRules_scoring_add',['../db/d55/sv__rules_8qh.html#a84cd094615e02e85cc65103bf28fbdc3',1,'sv_rules.qh']]],
   ['gamerules_5fscoring_5fadd_5fteam',['GameRules_scoring_add_team',['../db/d55/sv__rules_8qh.html#aa9f4c0ea2b1c326c952668ed886f6bb0',1,'sv_rules.qh']]],
   ['gametype',['GAMETYPE',['../df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb',1,'GAMETYPE():&#160;util.qc'],['../df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a',1,'GAMETYPE():&#160;util.qc'],['../df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb',1,'GAMETYPE():&#160;util.qc'],['../df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a',1,'GAMETYPE():&#160;util.qc']]],
-  ['gametype_5fdefaulted_5fsetting',['GAMETYPE_DEFAULTED_SETTING',['../da/dc1/server_2player_8qh.html#ab0ddbf3a176299c044cb3499225ee3d2',1,'player.qh']]],
+  ['gametype_5fdefaulted_5fsetting',['GAMETYPE_DEFAULTED_SETTING',['../d8/de2/server_2client_8qh.html#ab0ddbf3a176299c044cb3499225ee3d2',1,'client.qh']]],
   ['gametypes',['GAMETYPES',['../df/d9b/menu_2xonotic_2util_8qc.html#a31610cece5e7eefa4bd93e2a89fe9001',1,'util.qc']]],
   ['genderwidth_5fitem',['GENDERWIDTH_ITEM',['../d2/dd3/dialog__multiplayer__profile_8qc.html#a4c8a8d766ef0c58bffb1bf76c3026077',1,'dialog_multiplayer_profile.qc']]],
   ['genderwidth_5flength',['GENDERWIDTH_LENGTH',['../d2/dd3/dialog__multiplayer__profile_8qc.html#a73c3039e24d96382bd3e84cd6fc1ece6',1,'dialog_multiplayer_profile.qc']]],

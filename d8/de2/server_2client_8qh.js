@@ -4,9 +4,12 @@ var server_2client_8qh =
     [ "Observer", "de/dab/classObserver.html", "de/dab/classObserver" ],
     [ "Player", "d2/d4b/classPlayer.html", "d2/d4b/classPlayer" ],
     [ "Spectator", "d1/d48/classSpectator.html", "d1/d48/classSpectator" ],
+    [ "GAMETYPE_DEFAULTED_SETTING", "d8/de2/server_2client_8qh.html#ab0ddbf3a176299c044cb3499225ee3d2", null ],
     [ "SPECTATE_COPY", "d8/de2/server_2client_8qh.html#aebf1adea3382d9b7117f54a7d338ad41", null ],
     [ "SPECTATE_COPYFIELD", "d8/de2/server_2client_8qh.html#a78d6b1a9d49f7d040f67eb1bac3805ce", null ],
     [ "UNWIND", "d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9", null ],
+    [ "calculate_player_respawn_time", "d8/de2/server_2client_8qh.html#a9d529760b279c19bb3b1d15c4da335d1", null ],
+    [ "ClientData_Touch", "d8/de2/server_2client_8qh.html#adcfb83073eb66c355f220a7fc94a479d", null ],
     [ "ClientInit_misc", "d8/de2/server_2client_8qh.html#aec6cdba5f75bbb56090f5e085e9bcfeb", null ],
     [ "ClientInit_Spawn", "d8/de2/server_2client_8qh.html#addbfa5c0ba866c7ffd66239839bc9942", null ],
     [ "ClientState_attach", "d8/de2/server_2client_8qh.html#afc32312bf25df126b18e078bedab7837", null ],
@@ -30,5 +33,8 @@ var server_2client_8qh =
     [ "Spectate", "d8/de2/server_2client_8qh.html#acd1560ca258ee21a90fd35530c8127b0", null ],
     [ "STATIC_INIT", "d8/de2/server_2client_8qh.html#adb6811cf23b61f86e3887a680ada4875", null ],
     [ "g_players", "d8/de2/server_2client_8qh.html#aa8f4a01a47bb4c0a14e796683451d2a8", null ],
-    [ "MIN_SPEC_TIME", "d8/de2/server_2client_8qh.html#a5949b9ebfecda6bea39a7064bc80b1ba", null ]
+    [ "MIN_SPEC_TIME", "d8/de2/server_2client_8qh.html#a5949b9ebfecda6bea39a7064bc80b1ba", null ],
+    [ "respawn_flags", "d8/de2/server_2client_8qh.html#a1c3633042c332123715fd7a35136a449", null ],
+    [ "respawn_time", "d8/de2/server_2client_8qh.html#aa01ace5e3f0ccc839c766bf1815668e4", null ],
+    [ "respawn_time_max", "d8/de2/server_2client_8qh.html#a1816ae4a78e7d4f5895d3562e0e6a8c5", null ]
 ];

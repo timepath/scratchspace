@@ -1,17 +1,5 @@
 var NAVTREEINDEX115 =
 {
-"dc/da0/classXonoticMapInfoDialog.html#aeda8cfb28fca044121a77d81c55dab12":[1,0,214,100],
-"dc/da0/classXonoticMapInfoDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,214,78],
-"dc/da0/classXonoticMapInfoDialog.html#af1aab403dc54575707fd57991312b201":[1,0,214,56],
-"dc/da0/classXonoticMapInfoDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,214,35],
-"dc/da0/classXonoticMapInfoDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,214,19],
-"dc/da0/classXonoticMapInfoDialog.html#af5714da7ffb13eae46c5a9747ed49e8c":[1,0,214,6],
-"dc/da0/classXonoticMapInfoDialog.html#af6a340fc47e93ed723e305b466b99578":[1,0,214,5],
-"dc/da0/classXonoticMapInfoDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,214,25],
-"dc/da0/classXonoticMapInfoDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,214,60],
-"dc/da0/classXonoticMapInfoDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,214,2],
-"dc/da0/classXonoticMapInfoDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,214,46],
-"dc/da0/classXonoticMapInfoDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,214,50],
 "dc/da0/classXonoticMapInfoDialog.html#afe889034c467d5448df7cbfe873a6ed3":[1,0,214,68],
 "dc/da0/classXonoticMapInfoDialog.html#afe90c2a439db5e88fc84819236391f76":[1,0,214,79],
 "dc/da4/common_2mutators_2mutator_2random__gravity_2__mod_8qh.html":[2,0,1,10,0,26,1],
@@ -249,5 +237,17 @@ var NAVTREEINDEX115 =
 "dc/dda/classAmmo.html#a656d982600d7ada1460e143bbae0a3e9":[1,0,0,2],
 "dc/dda/classAmmo.html#a6815e793548a5b534973a237a97dc189":[1,0,0,11],
 "dc/dda/classAmmo.html#a727d6f42f79f0bd5ffc674423645471c":[1,0,0,3],
-"dc/dda/classAmmo.html#a7357a3badf480bbfe18c110d15cbd2f8":[1,0,0,6]
+"dc/dda/classAmmo.html#a7357a3badf480bbfe18c110d15cbd2f8":[1,0,0,6],
+"dc/dda/classAmmo.html#a7d7a1817ddfcece5aa3e23c939a0097e":[1,0,0,10],
+"dc/dda/classAmmo.html#a7d8cf6b7a18644fba549fe489903901d":[1,0,0,4],
+"dc/dda/classAmmo.html#a95e7f0cf091386e07ce2add2ab653934":[1,0,0,7],
+"dc/dda/classAmmo.html#aaca9d5c571d73c2274a3356ef2fcdc53":[1,0,0,9],
+"dc/dda/classAmmo.html#ac88de49ea35f4990740cb804bbe94f28":[1,0,0,8],
+"dc/dda/classAmmo.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,0,5],
+"dc/dda/classAmmo.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,0,12],
+"dc/ddf/common_2gamemodes_2gamemode_2assault_2__mod_8qh.html":[2,0,1,3,0,0,1],
+"dc/ddf/common_2gamemodes_2gamemode_2assault_2__mod_8qh_source.html":[2,0,1,3,0,0,1],
+"dc/de0/costs_8qc.html":[2,0,6,5,2],
+"dc/de0/costs_8qc.html#a06d2a473c8e47a4a9c565d013acfcd7b":[2,0,6,5,2,0],
+"dc/de0/costs_8qc.html#a101028c0b857ab5c0c2c7947948f8984":[2,0,6,5,2,9]
 };

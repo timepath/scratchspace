@@ -57,6 +57,7 @@ var sv__ctf_8qh =
     [ "FLAG_THINKRATE", "d6/db0/sv__ctf_8qh.html#ab4cc9313572d4a97e7de745b494ccacb", null ],
     [ "FLAG_TOUCHRATE", "d6/db0/sv__ctf_8qh.html#a2dae0598e3cb23dd33293fa28da1108b", null ],
     [ "FLAG_WAYPOINT_OFFSET", "d6/db0/sv__ctf_8qh.html#a31ae613dc38131fce4333938cf2fad65", null ],
+    [ "flagcarried", "d6/db0/sv__ctf_8qh.html#a9af85bea96652f5d30c74019d7dca396", null ],
     [ "havocbot_cantfindflag", "d6/db0/sv__ctf_8qh.html#a6269bcd057dde063ed469521f5caaa9f", null ],
     [ "HAVOCBOT_CTF_ROLE_CARRIER", "d6/db0/sv__ctf_8qh.html#ae3bacb3e05d4911efc120b885702c4eb", null ],
     [ "HAVOCBOT_CTF_ROLE_DEFENSE", "d6/db0/sv__ctf_8qh.html#a39bb0f2e8506e3f580d7e2ed9edc3537", null ],

@@ -199,7 +199,6 @@ var searchData=
   ['nexposee_5fsmallorigin',['Nexposee_smallOrigin',['../dd/d77/item_2nexposee_8qh.html#a77820f2816a50a29d9437a0377722467',1,'nexposee.qh']]],
   ['nexposee_5fsmallsize',['Nexposee_smallSize',['../dd/d77/item_2nexposee_8qh.html#a99dd3eddff7c29fa9cfbc82fb4106a35',1,'nexposee.qh']]],
   ['next',['next',['../d0/d6e/impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670',1,'all.qh']]],
-  ['next_5fpingtime',['next_pingtime',['../d5/d26/server_2defs_8qh.html#aa58345c59717aadd82f2ffc9a6a0a0a6',1,'defs.qh']]],
   ['next_5ftake_5ftime',['next_take_time',['../d6/db0/sv__ctf_8qh.html#ac9845f7b162d8a5133a4bd17cf64345e',1,'sv_ctf.qh']]],
   ['next_5ftoken',['next_token',['../d2/d06/server_2command_2common_8qh.html#aedf91dab889fba563d3808503f2f9144',1,'common.qh']]],
   ['nextafter',['nextafter',['../df/d38/mathlib_8qc.html#a7015726879809083a920c0338dedbad9',1,'nextafter(float e, float f):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a7015726879809083a920c0338dedbad9',1,'nextafter(float e, float f):&#160;mathlib.qc']]],

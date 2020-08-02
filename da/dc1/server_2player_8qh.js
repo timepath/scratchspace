@@ -1,7 +1,5 @@
 var server_2player_8qh =
 [
-    [ "GAMETYPE_DEFAULTED_SETTING", "da/dc1/server_2player_8qh.html#ab0ddbf3a176299c044cb3499225ee3d2", null ],
-    [ "calculate_player_respawn_time", "da/dc1/server_2player_8qh.html#a9d529760b279c19bb3b1d15c4da335d1", null ],
     [ "CopyBody", "da/dc1/server_2player_8qh.html#af2cf7e359cda23b596ac40cda3f9ba87", null ],
     [ "CopyBody_Think", "da/dc1/server_2player_8qh.html#aef50b8473159af9d6f77b966bc0cbe00", null ],
     [ "player_anim", "da/dc1/server_2player_8qh.html#a51c4a1afebc1206d7849ebd9f21e2f3b", null ],

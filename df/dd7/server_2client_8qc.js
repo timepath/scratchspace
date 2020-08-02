@@ -2,6 +2,7 @@ var server_2client_8qc =
 [
     [ "CalcRegen", "df/dd7/server_2client_8qc.html#a268c4676a29a84d1109b7de04b22f785", null ],
     [ "CalcRot", "df/dd7/server_2client_8qc.html#a9e59628b3f73816184b3bff22b8641b0", null ],
+    [ "calculate_player_respawn_time", "df/dd7/server_2client_8qc.html#a9d529760b279c19bb3b1d15c4da335d1", null ],
     [ "ChatBubbleThink", "df/dd7/server_2client_8qc.html#a97cf0c815bb1c93811d35628d62f751c", null ],
     [ "CheckPlayerModel", "df/dd7/server_2client_8qc.html#a81497331b22f9248fec442b8f1889f6c", null ],
     [ "checkSpectatorBlock", "df/dd7/server_2client_8qc.html#a3cb890504a3e0218ed83a60fcba8b17c", null ],

@@ -1,17 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"dd/d31/engineinfo_8qc.html#aa28d10af907276566641e95e7853122a":[2,0,0,1,0,8,8],
-"dd/d31/engineinfo_8qc.html#ad9120350a46853333c624c497c4d2dac":[2,0,0,1,0,8,7],
-"dd/d31/engineinfo_8qc.html#addd2220d49d11f3443e66dd9457a4a49":[2,0,0,1,0,8,0],
-"dd/d31/engineinfo_8qc.html#adffe31726c5e15929e4e9574771d5d98":[2,0,0,1,0,8,5],
-"dd/d31/engineinfo_8qc_source.html":[2,0,0,1,0,8],
-"dd/d36/classXonoticGameViewSettingsTab.html":[1,0,183],
-"dd/d36/classXonoticGameViewSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,183,34],
-"dd/d36/classXonoticGameViewSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,183,15],
-"dd/d36/classXonoticGameViewSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,183,42],
-"dd/d36/classXonoticGameViewSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,183,9],
-"dd/d36/classXonoticGameViewSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,183,3],
-"dd/d36/classXonoticGameViewSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,183,76],
 "dd/d36/classXonoticGameViewSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,183,84],
 "dd/d36/classXonoticGameViewSettingsTab.html#a0b8f11883d0cb27a89f64eb30f16e8b1":[1,0,183,68],
 "dd/d36/classXonoticGameViewSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,183,81],
@@ -249,5 +237,17 @@ var NAVTREEINDEX119 =
 "dd/d6d/hudskinlist_8qh.html#a0b3df13308d0a4e7cfd2533b4e6c6903":[2,0,5,4,171,5],
 "dd/d6d/hudskinlist_8qh.html#a12363157393141759d4502328392bbe3":[2,0,5,4,171,4],
 "dd/d6d/hudskinlist_8qh.html#a4c1818587158441809b721f75e7513db":[2,0,5,4,171,1],
-"dd/d6d/hudskinlist_8qh.html#a6c944483c123c794135739c4adabbf1c":[2,0,5,4,171,7]
+"dd/d6d/hudskinlist_8qh.html#a6c944483c123c794135739c4adabbf1c":[2,0,5,4,171,7],
+"dd/d6d/hudskinlist_8qh.html#af6621274846460272cf8f5cdf082da5f":[2,0,5,4,171,3],
+"dd/d6d/hudskinlist_8qh.html#af698d1283463851fb9e67807d6d34f7a":[2,0,5,4,171,2],
+"dd/d6d/hudskinlist_8qh_source.html":[2,0,5,4,171],
+"dd/d6e/plat_8qc.html":[2,0,1,6,0,22],
+"dd/d6e/plat_8qc_source.html":[2,0,1,6,0,22],
+"dd/d70/pathlib_8qh.html":[2,0,6,5,14],
+"dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3":[2,0,6,5,14,1],
+"dd/d70/pathlib_8qh.html#a0576e617652793d2f11b3b32549170ca":[2,0,6,5,14,63],
+"dd/d70/pathlib_8qh.html#a06d2a473c8e47a4a9c565d013acfcd7b":[2,0,6,5,14,8],
+"dd/d70/pathlib_8qh.html#a0881ffe28801d90324af2eb500898d38":[2,0,6,5,14,57],
+"dd/d70/pathlib_8qh.html#a09965754c70dee3e4bd6cc3ab27ebdfa":[2,0,6,5,14,54],
+"dd/d70/pathlib_8qh.html#a0ae0c5798445692348f11dd4826bc739":[2,0,6,5,14,36]
 };

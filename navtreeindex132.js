@@ -1,13 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"de/dae/havocbot_2scripting_8qh.html":[2,0,6,0,0,0,6],
-"de/dae/havocbot_2scripting_8qh.html#a6893523d5caad3e47941ebb88916a721":[2,0,6,0,0,0,6,0],
-"de/dae/havocbot_2scripting_8qh_source.html":[2,0,6,0,0,0,6],
-"de/daf/common_2mutators_2mutator_2multijump_2__mod_8qh.html":[2,0,1,10,0,18,1],
-"de/daf/common_2mutators_2mutator_2multijump_2__mod_8qh_source.html":[2,0,1,10,0,18,1],
-"de/db0/common_2mutators_2mutator_2new__toys_2__mod_8inc.html":[2,0,1,10,0,20,0],
-"de/db0/common_2mutators_2mutator_2new__toys_2__mod_8inc_source.html":[2,0,1,10,0,20,0],
-"de/dbb/sv__spawner_8qc.html":[2,0,1,9,10],
 "de/dbb/sv__spawner_8qc.html#a1251dfcf5b3c88b4572dfc13273f6f39":[2,0,1,9,10,0],
 "de/dbb/sv__spawner_8qc.html#a3123c628538f58eb7dbc04b5f8435901":[2,0,1,9,10,1],
 "de/dbb/sv__spawner_8qc_source.html":[2,0,1,9,10],
@@ -249,5 +241,13 @@ var NAVTREEINDEX132 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,193,48],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,193,26],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,193,55],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,193,32]
+"de/de7/classXonoticHUDItemsTimeDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,193,32],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,193,40],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,193,62],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,193,74],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,193,6],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a6d69a3e3970de44dc69a1eff709d535c":[1,0,193,76],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,193,14],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,193,18],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,193,87]
 };

@@ -23,5 +23,9 @@ var sys_pre_8qh =
     [ "IT_SUIT", "dd/d8b/sys-pre_8qh.html#a173c801a82c3c297d24e3b7630fbad3b", null ],
     [ "IT_SUPER_NAILGUN", "dd/d8b/sys-pre_8qh.html#a93d41bf1a89a98cda58348c77f373420", null ],
     [ "IT_SUPER_SHOTGUN", "dd/d8b/sys-pre_8qh.html#a6ba166b0f324250745d0897a482d08bb", null ],
-    [ "IT_SUPERHEALTH", "dd/d8b/sys-pre_8qh.html#af049e5748138e84b5a3570816901699b", null ]
+    [ "IT_SUPERHEALTH", "dd/d8b/sys-pre_8qh.html#af049e5748138e84b5a3570816901699b", null ],
+    [ "STATE_BOTTOM", "dd/d8b/sys-pre_8qh.html#abdf1aa86db04b7df918eff5089db0ab5", null ],
+    [ "STATE_DOWN", "dd/d8b/sys-pre_8qh.html#a7d485ea16647d3bb7691188e29779975", null ],
+    [ "STATE_TOP", "dd/d8b/sys-pre_8qh.html#ab01542df68d092620118f1b7bafa66d0", null ],
+    [ "STATE_UP", "dd/d8b/sys-pre_8qh.html#a16aee7b54d541a57df858c817bf88bb8", null ]
 ];
