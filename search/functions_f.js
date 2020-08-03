@@ -17,7 +17,7 @@ var searchData=
   ['ons_5fcamsetup',['ons_camSetup',['../d0/de4/sv__onslaught_8qc.html#a0f6b57a7dd7debf7ad21f843bf216a3c',1,'sv_onslaught.qc']]],
   ['ons_5fcaptureshield_5fcustomize',['ons_CaptureShield_Customize',['../d0/de4/sv__onslaught_8qc.html#ae9c745cc2f400b7191a0a4bb71a3748c',1,'sv_onslaught.qc']]],
   ['ons_5fcaptureshield_5freset',['ons_CaptureShield_Reset',['../d0/de4/sv__onslaught_8qc.html#ae92bb822e0b1a545198eb5e60b54dc19',1,'sv_onslaught.qc']]],
-  ['ons_5fcaptureshield_5fspawn',['ons_CaptureShield_Spawn',['../d0/de4/sv__onslaught_8qc.html#a12c18d9acaf5421b4c25663d6e54dd28',1,'sv_onslaught.qc']]],
+  ['ons_5fcaptureshield_5fspawn',['ons_CaptureShield_Spawn',['../d0/de4/sv__onslaught_8qc.html#a6cc3391645d2d8976a6f72bb4dfd6256',1,'sv_onslaught.qc']]],
   ['ons_5fcaptureshield_5ftouch',['ons_CaptureShield_Touch',['../d0/de4/sv__onslaught_8qc.html#acf907464f6495ea6d91a0ace50b055ea',1,'sv_onslaught.qc']]],
   ['ons_5fcontrolpoint_5fattackable',['ons_ControlPoint_Attackable',['../d0/de4/sv__onslaught_8qc.html#ad4de85332b51f10766eb99f90425e519',1,'ons_ControlPoint_Attackable(entity cp, int teamnum):&#160;sv_onslaught.qc'],['../d7/dd0/sv__onslaught_8qh.html#a6e8263ddccd8105c0e49f34304b7894c',1,'ons_ControlPoint_Attackable(entity cp, int teamnum):&#160;sv_onslaught.qc']]],
   ['ons_5fcontrolpoint_5fcanbelinked',['ons_ControlPoint_CanBeLinked',['../d0/de4/sv__onslaught_8qc.html#afdf275e67aaa77252e82bc2d2ad18dfb',1,'sv_onslaught.qc']]],

@@ -29,7 +29,7 @@ var sv__onslaught_8qc =
     [ "ons_camSetup", "d0/de4/sv__onslaught_8qc.html#a0f6b57a7dd7debf7ad21f843bf216a3c", null ],
     [ "ons_CaptureShield_Customize", "d0/de4/sv__onslaught_8qc.html#ae9c745cc2f400b7191a0a4bb71a3748c", null ],
     [ "ons_CaptureShield_Reset", "d0/de4/sv__onslaught_8qc.html#ae92bb822e0b1a545198eb5e60b54dc19", null ],
-    [ "ons_CaptureShield_Spawn", "d0/de4/sv__onslaught_8qc.html#a12c18d9acaf5421b4c25663d6e54dd28", null ],
+    [ "ons_CaptureShield_Spawn", "d0/de4/sv__onslaught_8qc.html#a6cc3391645d2d8976a6f72bb4dfd6256", null ],
     [ "ons_CaptureShield_Touch", "d0/de4/sv__onslaught_8qc.html#acf907464f6495ea6d91a0ace50b055ea", null ],
     [ "ons_ControlPoint_Attackable", "d0/de4/sv__onslaught_8qc.html#ad4de85332b51f10766eb99f90425e519", null ],
     [ "ons_ControlPoint_CanBeLinked", "d0/de4/sv__onslaught_8qc.html#afdf275e67aaa77252e82bc2d2ad18dfb", null ],
