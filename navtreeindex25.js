@@ -1,5 +1,17 @@
 var NAVTREEINDEX25 =
 {
+"d3/d05/hud_8qh.html#a7022deeb2c5992f82699a94679c5dda5":[2,0,0,1,6,161],
+"d3/d05/hud_8qh.html#a70a2f0626e905caee470dbb25f1e8d11":[2,0,0,1,6,64],
+"d3/d05/hud_8qh.html#a711440b54ea916e04bba98d3af55afa0":[2,0,0,1,6,44],
+"d3/d05/hud_8qh.html#a71930d6a71b5a13e6e40828d6cbe3b14":[2,0,0,1,6,134],
+"d3/d05/hud_8qh.html#a72b9824b4096edc99cd8e156c5da6ddc":[2,0,0,1,6,96],
+"d3/d05/hud_8qh.html#a7526fd85f93fc7af908af59a70d07467":[2,0,0,1,6,19],
+"d3/d05/hud_8qh.html#a77182fb9f215ea82853be36112121e61":[2,0,0,1,6,129],
+"d3/d05/hud_8qh.html#a78e8d3ba81c899e248beb23d1d5165e1":[2,0,0,1,6,14],
+"d3/d05/hud_8qh.html#a7ab7c3e93706aaff7d51fdea3b4ead62":[2,0,0,1,6,90],
+"d3/d05/hud_8qh.html#a7b8ae130234737fe1b1cd08fe21bb4dc":[2,0,0,1,6,55],
+"d3/d05/hud_8qh.html#a7c7ae5202a4224d642223a2f680479cf":[2,0,0,1,6,6],
+"d3/d05/hud_8qh.html#a7eecaffe57efc9d3af0271afc46bb2d0":[2,0,0,1,6,155],
 "d3/d05/hud_8qh.html#a7ef054a06739f09725b30b4560838c8a":[2,0,0,1,6,147],
 "d3/d05/hud_8qh.html#a7f566871608834fc16c44772eab41017":[2,0,0,1,6,167],
 "d3/d05/hud_8qh.html#a80400626eec08f591ef8ef3d10527851":[2,0,0,1,6,43],
@@ -237,17 +249,5 @@ var NAVTREEINDEX25 =
 "d3/d10/classXonoticCrosshairPicker.html#a03c78077a75e67c5ed55ddc272218280":[1,0,163,16],
 "d3/d10/classXonoticCrosshairPicker.html#a08cc5fd50bbb0eb73cb9b1e4679f3399":[1,0,163,20],
 "d3/d10/classXonoticCrosshairPicker.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,163,11],
-"d3/d10/classXonoticCrosshairPicker.html#a2061fae4374629deb4ba51c89a7b7ca0":[1,0,163,6],
-"d3/d10/classXonoticCrosshairPicker.html#a2964a9c889f0e6167b81e4e621c194d9":[1,0,163,3],
-"d3/d10/classXonoticCrosshairPicker.html#a2f22d0581068cab87a6f44a4d6132792":[1,0,163,12],
-"d3/d10/classXonoticCrosshairPicker.html#a30e76204a36bc7d61d806aad8f0c5ced":[1,0,163,10],
-"d3/d10/classXonoticCrosshairPicker.html#a39b77a1923845447d837ff9f399e9aff":[1,0,163,39],
-"d3/d10/classXonoticCrosshairPicker.html#a3aa36c55bd87e554a583cb681e044ff9":[1,0,163,18],
-"d3/d10/classXonoticCrosshairPicker.html#a3c8bca13fc56cb4fd35bc818e17a01ca":[1,0,163,17],
-"d3/d10/classXonoticCrosshairPicker.html#a3f9c5e6943891f335099fe380661b70c":[1,0,163,19],
-"d3/d10/classXonoticCrosshairPicker.html#a44f82bb2186f56f4dea7f791b47e2952":[1,0,163,21],
-"d3/d10/classXonoticCrosshairPicker.html#a49a22c2c807939b78d2ddb9c9c5ef81b":[1,0,163,27],
-"d3/d10/classXonoticCrosshairPicker.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,163,9],
-"d3/d10/classXonoticCrosshairPicker.html#a51aef9e901b2f2d159f18a413153f87e":[1,0,163,28],
-"d3/d10/classXonoticCrosshairPicker.html#a5660477bb979670af07bdca696bf6f30":[1,0,163,30]
+"d3/d10/classXonoticCrosshairPicker.html#a2061fae4374629deb4ba51c89a7b7ca0":[1,0,163,6]
 };

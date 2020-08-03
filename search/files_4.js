@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['damage_2eqc',['damage.qc',['../da/ded/damage_8qc.html',1,'']]],
+  ['damage_2eqh',['damage.qh',['../d4/d62/damage_8qh.html',1,'']]],
   ['damageeffects_2eqc',['damageeffects.qc',['../d9/ddd/damageeffects_8qc.html',1,'']]],
   ['damageeffects_2eqh',['damageeffects.qh',['../d3/de9/damageeffects_8qh.html',1,'']]],
   ['damagetext_2eqc',['damagetext.qc',['../d0/da4/damagetext_8qc.html',1,'']]],
@@ -169,8 +171,8 @@ var searchData=
   ['dpextensions_2eqc',['dpextensions.qc',['../de/d5e/dpextensions_8qc.html',1,'']]],
   ['dpextensions_2eqh',['dpextensions.qh',['../d3/d9e/dpextensions_8qh.html',1,'']]],
   ['draw_2eqc',['draw.qc',['../d6/db1/draw_8qc.html',1,'']]],
-  ['draw_2eqh',['draw.qh',['../d9/d62/menu_2draw_8qh.html',1,'']]],
   ['draw_2eqh',['draw.qh',['../d1/dd2/lib_2draw_8qh.html',1,'']]],
+  ['draw_2eqh',['draw.qh',['../d9/d62/menu_2draw_8qh.html',1,'']]],
   ['duel_2eqc',['duel.qc',['../d5/d3a/duel_8qc.html',1,'']]],
   ['duel_2eqh',['duel.qh',['../d0/d71/duel_8qh.html',1,'']]],
   ['dynlight_2eqc',['dynlight.qc',['../dc/df8/dynlight_8qc.html',1,'']]],

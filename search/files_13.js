@@ -156,8 +156,6 @@ var searchData=
   ['sv_5fkick_5fteamkiller_2eqh',['sv_kick_teamkiller.qh',['../d8/d25/sv__kick__teamkiller_8qh.html',1,'']]],
   ['sv_5flms_2eqc',['sv_lms.qc',['../dc/d0d/sv__lms_8qc.html',1,'']]],
   ['sv_5flms_2eqh',['sv_lms.qh',['../df/d58/sv__lms_8qh.html',1,'']]],
-  ['sv_5fmain_2eqc',['sv_main.qc',['../d3/d4f/sv__main_8qc.html',1,'']]],
-  ['sv_5fmain_2eqh',['sv_main.qh',['../d7/d38/sv__main_8qh.html',1,'']]],
   ['sv_5fmelee_5fonly_2eqc',['sv_melee_only.qc',['../de/dc2/sv__melee__only_8qc.html',1,'']]],
   ['sv_5fmelee_5fonly_2eqh',['sv_melee_only.qh',['../d1/d21/sv__melee__only_8qh.html',1,'']]],
   ['sv_5fmidair_2eqc',['sv_midair.qc',['../df/d8c/sv__midair_8qc.html',1,'']]],

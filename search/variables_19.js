@@ -7,5 +7,5 @@ var searchData=
   ['yesvalue',['yesValue',['../de/d42/classXonoticCheckBox.html#a9e1f7bf3a25745cda8ff61979486d3db',1,'XonoticCheckBox']]],
   ['ymax',['ymax',['../dd/d1a/client_2mapvoting_8qh.html#acee1a082369857c7ee64924a0d9bc706',1,'mapvoting.qh']]],
   ['ymin',['ymin',['../dd/d1a/client_2mapvoting_8qh.html#a5c6190dc7aa1bd7aafb9592a64f7046d',1,'mapvoting.qh']]],
-  ['yoda',['yoda',['../dd/de4/g__damage_8qh.html#a1e3b2f601afaa75fbe6749c4931d1367',1,'g_damage.qh']]]
+  ['yoda',['yoda',['../d4/d62/damage_8qh.html#a1e3b2f601afaa75fbe6749c4931d1367',1,'damage.qh']]]
 ];

@@ -1,17 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html#a169002dfc8d1b07462cb4117bca41790":[2,0,1,3,0,14,5,1],
-"db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html#a38c1ebdc89e92acf83df75fab22c7b60":[2,0,1,3,0,14,5,2],
-"db/d10/common_2gamemodes_2gamemode_2race_2race_8qh_source.html":[2,0,1,3,0,14,5],
-"db/d11/classBumblebee.html":[1,0,11],
-"db/d11/classBumblebee.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,11,8],
-"db/d11/classBumblebee.html#a2042c34036059a8116785dd379c692fe":[1,0,11,17],
-"db/d11/classBumblebee.html#a23b5d8a4e07000e6d08fe727bdf23471":[1,0,11,14],
-"db/d11/classBumblebee.html#a269c42fb128fc5d56fac3abb21fbcdca":[1,0,11,3],
-"db/d11/classBumblebee.html#a2de5efac4c3bcb69f250249b7442db59":[1,0,11,26],
-"db/d11/classBumblebee.html#a2fb62f5fc889f0fb67479232a71ef73b":[1,0,11,24],
-"db/d11/classBumblebee.html#a2ffa6e7541d6fc166d266d2d7f13e25a":[1,0,11,27],
-"db/d11/classBumblebee.html#a45c031e26578bb6ecec87b300e247167":[1,0,11,18],
 "db/d11/classBumblebee.html#a4d5b7503bcb97f766b6d7bfd896ca232":[1,0,11,23],
 "db/d11/classBumblebee.html#a58d96703332d9212bf1115cfb091cd86":[1,0,11,29],
 "db/d11/classBumblebee.html#a58f0c04e5979c92f1d5329627cbf1331":[1,0,11,5],
@@ -249,5 +237,17 @@ var NAVTREEINDEX98 =
 "db/d20/round__handler_8qh.html#af9508dbdb2e3250d6a7dfb6f79770181":[2,0,6,53,10],
 "db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a":[2,0,6,53,12],
 "db/d20/round__handler_8qh_source.html":[2,0,6,53],
-"db/d21/demolist_8qc.html":[2,0,5,4,36]
+"db/d21/demolist_8qc.html":[2,0,5,4,36],
+"db/d21/demolist_8qc.html#a0d2b7acc22b692c00b61a94679118b18":[2,0,5,4,36,15],
+"db/d21/demolist_8qc.html#a135f1c46b5a65c4d123af0007cff3189":[2,0,5,4,36,4],
+"db/d21/demolist_8qc.html#a18cf8e8d4f8265056123858092219c01":[2,0,5,4,36,7],
+"db/d21/demolist_8qc.html#a2af9da340dca4b47499a4dbbb352d9df":[2,0,5,4,36,8],
+"db/d21/demolist_8qc.html#a2ffdf12143c6e375844f2f652330f4fd":[2,0,5,4,36,0],
+"db/d21/demolist_8qc.html#a331715f6d606a04c7f78072caae73857":[2,0,5,4,36,13],
+"db/d21/demolist_8qc.html#a3470cec7a3947420172f234cf362c395":[2,0,5,4,36,6],
+"db/d21/demolist_8qc.html#a73e9e4d5ec23ca0b176cd7876b82f4fe":[2,0,5,4,36,12],
+"db/d21/demolist_8qc.html#aa05343f190db729f94548087a07d0804":[2,0,5,4,36,3],
+"db/d21/demolist_8qc.html#aa1062300c6607a557e9487800bc59d16":[2,0,5,4,36,9],
+"db/d21/demolist_8qc.html#aa8526ec1cdb69844186356e812fad6c2":[2,0,5,4,36,11],
+"db/d21/demolist_8qc.html#acb159adfd4ad13a4ce7038043d2bf19a":[2,0,5,4,36,14]
 };

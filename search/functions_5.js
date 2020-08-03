@@ -20,7 +20,7 @@ var searchData=
   ['eliminatedplayers_5fsendentity',['EliminatedPlayers_SendEntity',['../dc/dc6/server_2miscfunctions_8qc.html#a6f15ae777c8a50be8876911f3462b901',1,'miscfunctions.qc']]],
   ['end_5fminigame',['end_minigame',['../d7/d33/sv__minigames_8qc.html#ac11b22942e0b63b0172462375b0c2ca8',1,'end_minigame(entity minigame_session):&#160;sv_minigames.qc'],['../d3/df9/sv__minigames_8qh.html#ac11b22942e0b63b0172462375b0c2ca8',1,'end_minigame(entity minigame_session):&#160;sv_minigames.qc']]],
   ['end_5fminigames',['end_minigames',['../d7/d33/sv__minigames_8qc.html#a9f07dda7618fa1c23b18601f1058c147',1,'end_minigames():&#160;sv_minigames.qc'],['../d3/df9/sv__minigames_8qh.html#a9f07dda7618fa1c23b18601f1058c147',1,'end_minigames():&#160;sv_minigames.qc']]],
-  ['endframe',['EndFrame',['../db/dcc/g__world_8qc.html#ab61dd957a2c44ebabe227060941cb391',1,'g_world.qc']]],
+  ['endframe',['EndFrame',['../dd/dbe/world_8qc.html#ab61dd957a2c44ebabe227060941cb391',1,'world.qc']]],
   ['enemyhitcheck',['EnemyHitCheck',['../de/d23/crosshair_8qc.html#a2267e78c3964ccff16a7c2135a595efd',1,'crosshair.qc']]],
   ['ent_5fremove',['Ent_Remove',['../df/d30/client_2main_8qc.html#a1d922be75e197cf896ed7a7b95979296',1,'Ent_Remove(entity this):&#160;main.qc'],['../d0/d2a/client_2main_8qh.html#a1d922be75e197cf896ed7a7b95979296',1,'Ent_Remove(entity this):&#160;main.qc']]],
   ['ent_5fremoveplayerscore',['Ent_RemovePlayerScore',['../df/d30/client_2main_8qc.html#a55741734b1484ff2d8f3d76de5e7dc2f',1,'main.qc']]],
@@ -54,5 +54,5 @@ var searchData=
   ['expm1',['expm1',['../df/d38/mathlib_8qc.html#a3668a068ecb747f0242ef2ac55222fde',1,'expm1(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a3668a068ecb747f0242ef2ac55222fde',1,'expm1(float e):&#160;mathlib.qc']]],
   ['exponentialfalloff',['ExponentialFalloff',['../d0/d79/math_8qh.html#a101a4ddf4a2cb6b9fa2736ef0c68917d',1,'math.qh']]],
   ['exposeeclosebutton_5fclick',['ExposeeCloseButton_Click',['../d3/ddf/item_2nexposee_8qc.html#a0cfe8533c42f7b5a11c996f76413a84d',1,'ExposeeCloseButton_Click(entity button, entity other):&#160;nexposee.qc'],['../dd/d77/item_2nexposee_8qh.html#a0cfe8533c42f7b5a11c996f76413a84d',1,'ExposeeCloseButton_Click(entity button, entity other):&#160;nexposee.qc']]],
-  ['expr_5fevaluate',['expr_evaluate',['../d3/d4f/sv__main_8qc.html#a561d61ff3f398e13794e58b7c4eefe32',1,'expr_evaluate(string s):&#160;sv_main.qc'],['../d7/d38/sv__main_8qh.html#a561d61ff3f398e13794e58b7c4eefe32',1,'expr_evaluate(string s):&#160;sv_main.qc']]]
+  ['expr_5fevaluate',['expr_evaluate',['../db/d95/server_2main_8qc.html#a561d61ff3f398e13794e58b7c4eefe32',1,'expr_evaluate(string s):&#160;main.qc'],['../d1/dd8/server_2main_8qh.html#a561d61ff3f398e13794e58b7c4eefe32',1,'expr_evaluate(string s):&#160;main.qc']]]
 ];

@@ -1,17 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"da/ded/classSeeker.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,118,2],
-"da/ded/classSeeker.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,118,37],
-"da/ded/classSeeker.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,118,22],
-"da/ded/classSeeker.html#ae26610a90258da2f6766e7dbb9ea8289":[1,0,118,38],
-"da/ded/classSeeker.html#af2401c8ad318d37b3f937d00928177f4":[1,0,118,25],
-"da/ded/classSeeker.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,118,17],
-"da/def/classClanArena.html":[1,0,17],
-"da/def/classClanArena.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,17,1],
-"da/def/classClanArena.html#a2fc71291259528295ec77875fe2a16f8":[1,0,17,16],
-"da/def/classClanArena.html#a31ea19377d365d501be1b128675b148d":[1,0,17,10],
-"da/def/classClanArena.html#a353db82280437c3b38f0ad1934a7d666":[1,0,17,20],
-"da/def/classClanArena.html#a3f4f5b175eb3ae95d7be4ba80daf0eb3":[1,0,17,0],
 "da/def/classClanArena.html#a4109ad22533b3aee7521df4dc36a516b":[1,0,17,12],
 "da/def/classClanArena.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,17,14],
 "da/def/classClanArena.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,17,8],
@@ -249,5 +237,17 @@ var NAVTREEINDEX97 =
 "db/d0c/angle_8qh_source.html":[2,0,4,8],
 "db/d0e/common_2monsters_2__mod_8inc.html":[2,0,1,9,1],
 "db/d0e/common_2monsters_2__mod_8inc_source.html":[2,0,1,9,1],
-"db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html":[2,0,1,3,0,14,5]
+"db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html":[2,0,1,3,0,14,5],
+"db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html#a169002dfc8d1b07462cb4117bca41790":[2,0,1,3,0,14,5,1],
+"db/d10/common_2gamemodes_2gamemode_2race_2race_8qh.html#a38c1ebdc89e92acf83df75fab22c7b60":[2,0,1,3,0,14,5,2],
+"db/d10/common_2gamemodes_2gamemode_2race_2race_8qh_source.html":[2,0,1,3,0,14,5],
+"db/d11/classBumblebee.html":[1,0,11],
+"db/d11/classBumblebee.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,11,8],
+"db/d11/classBumblebee.html#a2042c34036059a8116785dd379c692fe":[1,0,11,17],
+"db/d11/classBumblebee.html#a23b5d8a4e07000e6d08fe727bdf23471":[1,0,11,14],
+"db/d11/classBumblebee.html#a269c42fb128fc5d56fac3abb21fbcdca":[1,0,11,3],
+"db/d11/classBumblebee.html#a2de5efac4c3bcb69f250249b7442db59":[1,0,11,26],
+"db/d11/classBumblebee.html#a2fb62f5fc889f0fb67479232a71ef73b":[1,0,11,24],
+"db/d11/classBumblebee.html#a2ffa6e7541d6fc166d266d2d7f13e25a":[1,0,11,27],
+"db/d11/classBumblebee.html#a45c031e26578bb6ecec87b300e247167":[1,0,11,18]
 };

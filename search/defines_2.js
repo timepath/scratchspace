@@ -1,13 +1,13 @@
 var searchData=
 [
   ['backtrace',['backtrace',['../db/da0/log_8qh.html#a798c5f291cac3c0fbcdb2c78ba44b5ab',1,'log.qh']]],
-  ['badcvar',['BADCVAR',['../db/dcc/g__world_8qc.html#a1499559ec4eb80768644485c0ddd4fb8',1,'g_world.qc']]],
-  ['badprefix',['BADPREFIX',['../db/dcc/g__world_8qc.html#a8de1beddd651b67787ba2753ea71d5b2',1,'g_world.qc']]],
-  ['badpresuffix',['BADPRESUFFIX',['../db/dcc/g__world_8qc.html#ae923ed115dc19fb738ee4b85677546f2',1,'g_world.qc']]],
+  ['badcvar',['BADCVAR',['../dd/dbe/world_8qc.html#a1499559ec4eb80768644485c0ddd4fb8',1,'world.qc']]],
+  ['badprefix',['BADPREFIX',['../dd/dbe/world_8qc.html#a8de1beddd651b67787ba2753ea71d5b2',1,'world.qc']]],
+  ['badpresuffix',['BADPRESUFFIX',['../dd/dbe/world_8qc.html#ae923ed115dc19fb738ee4b85677546f2',1,'world.qc']]],
   ['ban_5fcommand',['BAN_COMMAND',['../dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae',1,'BAN_COMMAND():&#160;banning.qc'],['../dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae',1,'BAN_COMMAND():&#160;banning.qc'],['../dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae',1,'BAN_COMMAND():&#160;banning.qc'],['../dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae',1,'BAN_COMMAND():&#160;banning.qc']]],
   ['ban_5fcommands',['BAN_COMMANDS',['../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8',1,'banning.qc']]],
   ['begin_5fcheat_5ffunction',['BEGIN_CHEAT_FUNCTION',['../d6/de9/cheats_8qc.html#a5e499f71859f2e744d2d40b443f3942f',1,'cheats.qc']]],
-  ['binop',['BINOP',['../d3/d4f/sv__main_8qc.html#a54e650d0a371793b77c66d8985e9051e',1,'sv_main.qc']]],
+  ['binop',['BINOP',['../db/d95/server_2main_8qc.html#a54e650d0a371793b77c66d8985e9051e',1,'main.qc']]],
   ['bit',['BIT',['../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c',1,'bits.qh']]],
   ['bitclr',['BITCLR',['../d7/d71/lib_2warpzone_2common_8qh.html#a98fd61e000412d1e33408f3c0b3145d3',1,'common.qh']]],
   ['bitclr_5fassign',['BITCLR_ASSIGN',['../d7/d71/lib_2warpzone_2common_8qh.html#a69a1cd9231b0e5e94f20cc3022c2c8e2',1,'common.qh']]],

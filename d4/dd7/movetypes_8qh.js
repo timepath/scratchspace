@@ -1,5 +1,6 @@
 var movetypes_8qh =
 [
+    [ "GAMEPLAYFIX_DELAYPROJECTILES", "d4/dd7/movetypes_8qh.html#a566422ea3033ed676205fb28768cf4b3", null ],
     [ "GAMEPLAYFIX_DOWNTRACEONGROUND", "d4/dd7/movetypes_8qh.html#a355ad000887bfbb3fa387376ce9116ef", null ],
     [ "GAMEPLAYFIX_EASIERWATERJUMP", "d4/dd7/movetypes_8qh.html#a86866b9ab036632e4b60c4dc204e1347", null ],
     [ "GAMEPLAYFIX_GRENADEBOUNCESLOPES", "d4/dd7/movetypes_8qh.html#ad6aa4c7770400eec75a4d8739b2f695a", null ],

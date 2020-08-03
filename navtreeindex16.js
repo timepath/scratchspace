@@ -1,5 +1,17 @@
 var NAVTREEINDEX16 =
 {
+"d1/dec/classInputBox.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,54,69],
+"d1/df1/server_2bot_2null_2__mod_8inc.html":[2,0,6,0,1,0],
+"d1/df1/server_2bot_2null_2__mod_8inc_source.html":[2,0,6,0,1,0],
+"d1/df1/xonotic_2tab_8qh.html":[2,0,5,4,227],
+"d1/df1/xonotic_2tab_8qh_source.html":[2,0,5,4,227],
+"d1/df3/weaponarenacheckbox_8qc.html":[2,0,5,4,236],
+"d1/df3/weaponarenacheckbox_8qc.html#a92c1e0f47c165f4e9e63990989a25c2d":[2,0,5,4,236,4],
+"d1/df3/weaponarenacheckbox_8qc.html#aa2fa38c72aeb87705fe3d7573b635b04":[2,0,5,4,236,1],
+"d1/df3/weaponarenacheckbox_8qc.html#ad30a4e87dca3ac2440f613806ce02a73":[2,0,5,4,236,2],
+"d1/df3/weaponarenacheckbox_8qc.html#add182d72741aa7b8b7ee6f187e24f990":[2,0,5,4,236,0],
+"d1/df3/weaponarenacheckbox_8qc.html#af7d835c4fce526b25918f49a8c33853c":[2,0,5,4,236,3],
+"d1/df3/weaponarenacheckbox_8qc_source.html":[2,0,5,4,236],
 "d1/df6/tuba_8qc.html":[2,0,1,16,0,36],
 "d1/df6/tuba_8qc_source.html":[2,0,1,16,0,36],
 "d1/df7/nil_8qh.html":[2,0,4,38],
@@ -237,17 +249,5 @@ var NAVTREEINDEX16 =
 "d2/d22/common_2weapons_2weapon_2__mod_8qh.html":[2,0,1,16,0,1],
 "d2/d22/common_2weapons_2weapon_2__mod_8qh_source.html":[2,0,1,16,0,1],
 "d2/d24/common_2effects_2__mod_8inc.html":[2,0,1,2,1],
-"d2/d24/common_2effects_2__mod_8inc_source.html":[2,0,1,2,1],
-"d2/d24/sv__nexball_8qc.html":[2,0,1,3,0,12,6],
-"d2/d24/sv__nexball_8qc.html#a01b0720634cf466beb42103943b0aa1e":[2,0,1,3,0,12,6,32],
-"d2/d24/sv__nexball_8qc.html#a01d8d6c578b996120287e4d455eaa566":[2,0,1,3,0,12,6,84],
-"d2/d24/sv__nexball_8qc.html#a058fe50d7087f0e7bd093c91722bbcd7":[2,0,1,3,0,12,6,69],
-"d2/d24/sv__nexball_8qc.html#a071f98a8342b60701ec76dd2051fcfe1":[2,0,1,3,0,12,6,12],
-"d2/d24/sv__nexball_8qc.html#a0d1c9a7e35cd2948e8ed1058231f2383":[2,0,1,3,0,12,6,88],
-"d2/d24/sv__nexball_8qc.html#a0dd573643f4ae0b5d0f8499e45808e3c":[2,0,1,3,0,12,6,15],
-"d2/d24/sv__nexball_8qc.html#a0df771af7be6f6b32c8e20dc0463756a":[2,0,1,3,0,12,6,27],
-"d2/d24/sv__nexball_8qc.html#a137a4251a46a5fea7db7d4f16b190dcb":[2,0,1,3,0,12,6,87],
-"d2/d24/sv__nexball_8qc.html#a1a1d50ac1463606f0e8fc326782a08f6":[2,0,1,3,0,12,6,77],
-"d2/d24/sv__nexball_8qc.html#a1aad6ce5c9e00bb4e5b7ac068770d979":[2,0,1,3,0,12,6,33],
-"d2/d24/sv__nexball_8qc.html#a1b164ed700ac3d07d11e6fc6bb0ae625":[2,0,1,3,0,12,6,35]
+"d2/d24/common_2effects_2__mod_8inc_source.html":[2,0,1,2,1]
 };
