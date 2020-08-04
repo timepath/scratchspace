@@ -53,5 +53,7 @@ var searchData=
   ['getter',['GETTER',['../d7/d61/misc_8qh.html#a4ae9a65f0155ec9a053e1e9fe41c9401',1,'misc.qh']]],
   ['getthink',['getthink',['../d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e',1,'self.qh']]],
   ['gettime_5frealtime',['GETTIME_REALTIME',['../d4/d1a/static_8qh.html#a8c0b177bfb707d205b7161331701a31f',1,'static.qh']]],
-  ['ground_5fquake',['ground_quake',['../db/d7f/effectinfo_8inc.html#a0a6f121f11331af711fae07c3a2d9b69',1,'effectinfo.inc']]]
+  ['ground_5fquake',['ground_quake',['../db/d7f/effectinfo_8inc.html#a0a6f121f11331af711fae07c3a2d9b69',1,'effectinfo.inc']]],
+  ['groundentity_5fname',['GROUNDENTITY_NAME',['../d1/d20/csqcmodel__settings_8qh.html#a03b0269a96aa0bfc653592729d4e7212',1,'csqcmodel_settings.qh']]],
+  ['groundentity_5ftype',['GROUNDENTITY_TYPE',['../d1/d20/csqcmodel__settings_8qh.html#aaf1f9494b590affaeea1326638bcad29',1,'csqcmodel_settings.qh']]]
 ];

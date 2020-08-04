@@ -1,7 +1,6 @@
 var view_8qc =
 [
     [ "avg_factor", "d6/dd3/view_8qc.html#acf17fe1577abc1aa82494a0b875cc7b8", null ],
-    [ "EFMASK_CHEAP", "d6/dd3/view_8qc.html#af31e2da8f9f15c1d3665c6b48f04a6e0", null ],
     [ "highpass", "d6/dd3/view_8qc.html#ac0abe074472e3c080ad742e31c3c395b", null ],
     [ "highpass2", "d6/dd3/view_8qc.html#a398d42095e9784afce66ee46bbf786ab", null ],
     [ "highpass2_limited", "d6/dd3/view_8qc.html#a11a611d82bbe2891e3c842f67f18e69e", null ],

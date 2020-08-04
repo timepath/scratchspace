@@ -22,7 +22,6 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "client.qh", "d8/de2/server_2client_8qh.html", "d8/de2/server_2client_8qh" ],
     [ "clientkill.qc", "dc/d55/clientkill_8qc.html", "dc/d55/clientkill_8qc" ],
     [ "clientkill.qh", "d2/d4d/clientkill_8qh.html", "d2/d4d/clientkill_8qh" ],
-    [ "constants.qh", "d9/de7/server_2constants_8qh.html", "d9/de7/server_2constants_8qh" ],
     [ "damage.qc", "da/ded/damage_8qc.html", "da/ded/damage_8qc" ],
     [ "damage.qh", "d4/d62/damage_8qh.html", "d4/d62/damage_8qh" ],
     [ "gamelog.qc", "dd/da5/gamelog_8qc.html", "dd/da5/gamelog_8qc" ],

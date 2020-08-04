@@ -72,7 +72,10 @@ var server_2client_8qh =
     [ "playerskin", "d8/de2/server_2client_8qh.html#a4d36bbde6c78ea09441e7d499baa1022", null ],
     [ "pressedkeys", "d8/de2/server_2client_8qh.html#a0640d49b2a9b773eb33f5162c069c431", null ],
     [ "respawn_countdown", "d8/de2/server_2client_8qh.html#abcc345daf13f439f825e1383675beed4", null ],
+    [ "RESPAWN_DENY", "d8/de2/server_2client_8qh.html#a8e50268234b73d1e1b264db2e06f14fc", null ],
     [ "respawn_flags", "d8/de2/server_2client_8qh.html#a1c3633042c332123715fd7a35136a449", null ],
+    [ "RESPAWN_FORCE", "d8/de2/server_2client_8qh.html#adc2f19f83bcdfab86a54abec5fa8a95f", null ],
+    [ "RESPAWN_SILENT", "d8/de2/server_2client_8qh.html#a1face232aebba576519417144cd5362e", null ],
     [ "respawn_time", "d8/de2/server_2client_8qh.html#aa01ace5e3f0ccc839c766bf1815668e4", null ],
     [ "respawn_time_max", "d8/de2/server_2client_8qh.html#a1816ae4a78e7d4f5895d3562e0e6a8c5", null ],
     [ "spectatee_status", "d8/de2/server_2client_8qh.html#a704447ea9059d13d1c39b3fdd340bf16", null ],
@@ -82,6 +85,7 @@ var server_2client_8qh =
     [ "sv_maxidle_slots", "d8/de2/server_2client_8qh.html#a149e3869acd1111237a465d9d4a5edb2", null ],
     [ "sv_maxidle_slots_countbots", "d8/de2/server_2client_8qh.html#a6e0ff495c3850f44c069191c51b4fb25", null ],
     [ "sv_maxidle_spectatorsareidle", "d8/de2/server_2client_8qh.html#a9e03aaab2a1cfc05664c6a5db7bbb4cd", null ],
+    [ "SVC_SETVIEW", "d8/de2/server_2client_8qh.html#abcaa28dc0348cdebac8dcc5d19f4ba11", null ],
     [ "wasplayer", "d8/de2/server_2client_8qh.html#a32a4dd8d5385cd0d5fd0dc5fa3daf732", null ],
     [ "weaponorder_byimpulse", "d8/de2/server_2client_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb", null ],
     [ "zoomstate", "d8/de2/server_2client_8qh.html#a9f4baf7071a40408773ac112c01ed137", null ]
