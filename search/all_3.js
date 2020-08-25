@@ -218,6 +218,7 @@ var searchData=
   ['chase_5factive_5fbackup',['chase_active_backup',['../d0/d2a/client_2main_8qh.html#a551f2b128282373f6efd025c468ce520',1,'main.qh']]],
   ['chat_2eqc',['chat.qc',['../dc/d2b/chat_8qc.html',1,'']]],
   ['chat_2eqh',['chat.qh',['../de/df3/chat_8qh.html',1,'']]],
+  ['chat_5fnospectators',['CHAT_NOSPECTATORS',['../df/dd7/server_2client_8qc.html#aac84c4d5d23a22bd1323778eccf1461f',1,'client.qc']]],
   ['chat_5fpanel_5fmodified',['chat_panel_modified',['../d3/d05/hud_8qh.html#af1ea65cc101371fce0ad1aca1ddf7301',1,'hud.qh']]],
   ['chat_5fposy',['chat_posy',['../d3/d05/hud_8qh.html#acc6b389d9670817b3a2dd7453b7b2d0f',1,'hud.qh']]],
   ['chat_5fsizey',['chat_sizey',['../d3/d05/hud_8qh.html#a70a2f0626e905caee470dbb25f1e8d11',1,'hud.qh']]],

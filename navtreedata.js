@@ -168,9 +168,9 @@ var NAVTREEINDEX =
 "df/d92/classXonoticWinnerDialog.html#a2c63df61f472ebeda80e1f553aec25f7",
 "df/dad/sv__spawner_8qh_source.html",
 "df/dd4/navigation_8qh.html#a41ae5feccac6ff531c3b366fe44df8d5",
-"df/df6/classXonoticSlider.html#a0e3ae62a1e789f9d1c4cee355a5aad49",
-"dir_743df9d5368f599d623f697bc203bee0.html",
-"globals_vars_o.html"
+"df/df6/classXonoticSlider.html#a0cdefa43305a32e38b127bde32dbce26",
+"dir_7318b2fb7c051dcf4be3004ea6618cfd.html",
+"globals_vars_n.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,6 @@
 var server_2client_8qc =
 [
+    [ "CHAT_NOSPECTATORS", "df/dd7/server_2client_8qc.html#aac84c4d5d23a22bd1323778eccf1461f", null ],
     [ "CalcRegen", "df/dd7/server_2client_8qc.html#a268c4676a29a84d1109b7de04b22f785", null ],
     [ "CalcRot", "df/dd7/server_2client_8qc.html#a9e59628b3f73816184b3bff22b8641b0", null ],
     [ "calculate_player_respawn_time", "df/dd7/server_2client_8qc.html#a9d529760b279c19bb3b1d15c4da335d1", null ],
