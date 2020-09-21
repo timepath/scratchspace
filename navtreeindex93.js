@@ -1,5 +1,16 @@
 var NAVTREEINDEX93 =
 {
+"da/d6d/classXonoticPlayerModelSelector.html#af88618c1f0dbd043b2eb97e89f2b9f27":[1,0,227,30],
+"da/d6d/classXonoticPlayerModelSelector.html#aff8d6c43c5e313e7e491d932a8887da0":[1,0,227,19],
+"da/d6d/classXonoticPlayerModelSelector.html#aff9563c36ca47597b17f595a5c77c80e":[1,0,227,31],
+"da/d6f/client_2mutators_2__mod_8qh.html":[2,0,0,3,1],
+"da/d6f/client_2mutators_2__mod_8qh_source.html":[2,0,0,3,1],
+"da/d70/common_2sounds_2__mod_8inc.html":[2,0,1,13,0],
+"da/d70/common_2sounds_2__mod_8inc_source.html":[2,0,1,13,0],
+"da/d70/zombie_8qc.html":[2,0,1,9,0,10],
+"da/d70/zombie_8qc_source.html":[2,0,1,9,0,10],
+"da/d71/vehicles_2all_8qc.html":[2,0,1,15,3],
+"da/d71/vehicles_2all_8qc_source.html":[2,0,1,15,3],
 "da/d73/tesla__weapon_8qc.html":[2,0,1,14,0,40],
 "da/d73/tesla__weapon_8qc_source.html":[2,0,1,14,0,40],
 "da/d79/dialog__hudpanel__ammo_8qh.html":[2,0,5,4,47],
@@ -238,16 +249,5 @@ var NAVTREEINDEX93 =
 "da/d9b/classXonoticButton.html#a4cf08b5cf5b03694b1ab99f4eb3cd6da":[1,0,152,6],
 "da/d9b/classXonoticButton.html#a54e592697c83dd2e7a6d27472cd00698":[1,0,152,37],
 "da/d9b/classXonoticButton.html#a551caf43464ecebace012d2b272c7bad":[1,0,152,11],
-"da/d9b/classXonoticButton.html#a56159c764874bed976add81f81298c31":[1,0,152,42],
-"da/d9b/classXonoticButton.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,152,47],
-"da/d9b/classXonoticButton.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,152,20],
-"da/d9b/classXonoticButton.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,152,32],
-"da/d9b/classXonoticButton.html#a6c1cc42796dfc8787fb58ce0945fb6ea":[1,0,152,24],
-"da/d9b/classXonoticButton.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,152,7],
-"da/d9b/classXonoticButton.html#a706c85a524ce44b84070ec439bbd9acd":[1,0,152,22],
-"da/d9b/classXonoticButton.html#a7642beed5a82948e21add31abf4a4b0a":[1,0,152,31],
-"da/d9b/classXonoticButton.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,152,14],
-"da/d9b/classXonoticButton.html#a7ba277f3c886c7d391915d273fede63c":[1,0,152,58],
-"da/d9b/classXonoticButton.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,152,64],
-"da/d9b/classXonoticButton.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,152,0]
+"da/d9b/classXonoticButton.html#a56159c764874bed976add81f81298c31":[1,0,152,42]
 };

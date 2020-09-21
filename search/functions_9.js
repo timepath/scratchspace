@@ -108,7 +108,7 @@ var searchData=
   ['isnormal',['isnormal',['../df/d38/mathlib_8qc.html#a6a8a7c048a7f9a645c6938e21fad4796',1,'isnormal(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a6a8a7c048a7f9a645c6938e21fad4796',1,'isnormal(float e):&#160;mathlib.qc']]],
   ['isnt_5fbool',['isnt_bool',['../d4/dfb/lib_2__all_8inc.html#a0286756d17c84fdf4ea3cbfb02afcccd',1,'_all.inc']]],
   ['isnt_5fint',['isnt_int',['../d4/dfb/lib_2__all_8inc.html#a7623c081a110e425bd8508c969ef7008',1,'_all.inc']]],
-  ['ispushable',['isPushable',['../dc/dc6/server_2miscfunctions_8qc.html#a5b86d62af04bbd33aa2bca5635a1e2fa',1,'isPushable(entity e):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a7d03b76da08d84e3f626de4010290ab7',1,'isPushable(entity e):&#160;miscfunctions.qc']]],
+  ['ispushable',['isPushable',['../d6/d57/triggers_8qc.html#a5b86d62af04bbd33aa2bca5635a1e2fa',1,'triggers.qc']]],
   ['isscrolling',['isScrolling',['../d9/de9/classListBox.html#af9d941569d16ba17cec674b89df93ad0',1,'ListBox']]],
   ['isserver',['isserver',['../d8/de2/menudefs_8qc.html#aa4f47b3f2aeec7161d7d9bd868db164a',1,'menudefs.qc']]],
   ['isserverinlist',['IsServerInList',['../d6/d74/serverlist_8qc.html#a50a4352b03fb4631db004d5a549c95a2',1,'IsServerInList(string list, string srv):&#160;serverlist.qc'],['../dd/d7a/serverlist_8qh.html#a340e0b77971ad02e447a45a555ce1283',1,'IsServerInList(string list, string srv):&#160;serverlist.qc']]],

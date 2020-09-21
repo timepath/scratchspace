@@ -1,5 +1,10 @@
 var NAVTREEINDEX17 =
 {
+"d2/d24/sv__nexball_8qc.html#a674c93fcb275e65388d4e392180aa2ca":[2,0,1,3,0,12,6,24],
+"d2/d24/sv__nexball_8qc.html#a6c34366e44e95b46e16d000abe36d03f":[2,0,1,3,0,12,6,64],
+"d2/d24/sv__nexball_8qc.html#a6d44629e4305e238efc284ff616dcba6":[2,0,1,3,0,12,6,28],
+"d2/d24/sv__nexball_8qc.html#a6dfc7031fca0ef1a6ca77098efe9519a":[2,0,1,3,0,12,6,90],
+"d2/d24/sv__nexball_8qc.html#a747ed6b00eaccb06c178b161ae14a0e8":[2,0,1,3,0,12,6,6],
 "d2/d24/sv__nexball_8qc.html#a75f9e4f8593178e2c4a5b24381927bca":[2,0,1,3,0,12,6,22],
 "d2/d24/sv__nexball_8qc.html#a7695de14e87f50cd5486bf67e87f2e90":[2,0,1,3,0,12,6,43],
 "d2/d24/sv__nexball_8qc.html#a77df32734bbc3472f36bf3d51ce91e59":[2,0,1,3,0,12,6,60],
@@ -244,10 +249,5 @@ var NAVTREEINDEX17 =
 "d2/d38/path__waypoint_8qh_source.html":[2,0,6,5,13],
 "d2/d3a/common_2mutators_2mutator_2itemstime_2__mod_8qh.html":[2,0,1,10,0,14,1],
 "d2/d3a/common_2mutators_2mutator_2itemstime_2__mod_8qh_source.html":[2,0,1,10,0,14,1],
-"d2/d3a/rules_8qc.html":[2,0,1,3,3],
-"d2/d3a/rules_8qc_source.html":[2,0,1,3,3],
-"d2/d3b/bloodloss_8qc.html":[2,0,1,10,0,0,2],
-"d2/d3b/bloodloss_8qc_source.html":[2,0,1,10,0,0,2],
-"d2/d3b/weapons_2config_8qh.html":[2,0,1,16,11],
-"d2/d3b/weapons_2config_8qh_source.html":[2,0,1,16,11]
+"d2/d3a/rules_8qc.html":[2,0,1,3,3]
 };

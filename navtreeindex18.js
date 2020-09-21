@@ -1,5 +1,10 @@
 var NAVTREEINDEX18 =
 {
+"d2/d3a/rules_8qc_source.html":[2,0,1,3,3],
+"d2/d3b/bloodloss_8qc.html":[2,0,1,10,0,0,2],
+"d2/d3b/bloodloss_8qc_source.html":[2,0,1,10,0,0,2],
+"d2/d3b/weapons_2config_8qh.html":[2,0,1,16,11],
+"d2/d3b/weapons_2config_8qh_source.html":[2,0,1,16,11],
 "d2/d3c/dialog__hudpanel__score_8qh.html":[2,0,5,4,77],
 "d2/d3c/dialog__hudpanel__score_8qh_source.html":[2,0,5,4,77],
 "d2/d3d/classTurret.html":[1,0,137],
@@ -244,10 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d4b/classPlayer.html#adbc59e37e184e760484bc8aa1aea4f93":[1,0,104,122],
 "d2/d4b/classPlayer.html#addc036d3aa8fc1e551842be6effd5b4e":[1,0,104,15],
 "d2/d4b/classPlayer.html#adece4de9ee5ff3046c9ee0973dd13a30":[1,0,104,19],
-"d2/d4b/classPlayer.html#adf8537a27ab5aef0756b7e3575c5905e":[1,0,104,43],
-"d2/d4b/classPlayer.html#ae1163b3229a44d5ba5552508fded0ce6":[1,0,104,44],
-"d2/d4b/classPlayer.html#ae355958a385e61face4d5c090fd1b4ec":[1,0,104,2],
-"d2/d4b/classPlayer.html#ae36b0dc9d9ffc299eb71f0e579e5f805":[1,0,104,115],
-"d2/d4b/classPlayer.html#aebb2f970915f520a2fa9a55c9b91bf3e":[1,0,104,92],
-"d2/d4b/classPlayer.html#af21e04f2cdb01e08ac61542f9ceaa538":[1,0,104,74]
+"d2/d4b/classPlayer.html#adf8537a27ab5aef0756b7e3575c5905e":[1,0,104,43]
 };

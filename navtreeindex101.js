@@ -1,5 +1,16 @@
 var NAVTREEINDEX101 =
 {
+"db/d4e/classOverkillShotgun.html#a9167052aa669b69a9e80b63b2247faa4":[1,0,97,28],
+"db/d4e/classOverkillShotgun.html#a98565782d4df6bc3b7fef4c37270d2bc":[1,0,97,32],
+"db/d4e/classOverkillShotgun.html#a9b87f6f400cec69b85317087726acd3f":[1,0,97,35],
+"db/d4e/classOverkillShotgun.html#a9ca24d1250564504f9e7b2641569d3b5":[1,0,97,24],
+"db/d4e/classOverkillShotgun.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,97,13],
+"db/d4e/classOverkillShotgun.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,97,23],
+"db/d4e/classOverkillShotgun.html#aa745d0ef4624ddf6a242eb7b9aa5b9ea":[1,0,97,25],
+"db/d4e/classOverkillShotgun.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,97,14],
+"db/d4e/classOverkillShotgun.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,97,12],
+"db/d4e/classOverkillShotgun.html#aadac826fbbab9fcfabf42e2206e3a973":[1,0,97,26],
+"db/d4e/classOverkillShotgun.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,97,5],
 "db/d4e/classOverkillShotgun.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,97,10],
 "db/d4e/classOverkillShotgun.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,97,7],
 "db/d4e/classOverkillShotgun.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,97,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX101 =
 "db/d5a/classXonoticHUDPowerupsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,197,35],
 "db/d5a/classXonoticHUDPowerupsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,197,39],
 "db/d5b/classXonoticGameMessageSettingsTab.html":[1,0,179],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,179,35],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,179,16],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,179,43],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,179,10],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,179,3],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,179,77],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,179,85],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,179,82],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,179,51],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,179,29],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,179,71],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,179,12]
+"db/d5b/classXonoticGameMessageSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,179,35]
 };

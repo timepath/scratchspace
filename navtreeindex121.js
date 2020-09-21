@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"dd/d9a/classXonoticSandboxToolsDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,236,42],
+"dd/d9a/classXonoticSandboxToolsDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,236,51],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ac5657d1a88024e70ea47e22465fb6057":[1,0,236,57],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,236,0],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,236,16],
@@ -127,12 +129,12 @@ var NAVTREEINDEX121 =
 "dd/da3/classXonoticMusicPlayerTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,220,7],
 "dd/da3/net__notice_8qh.html":[2,0,1,38],
 "dd/da3/net__notice_8qh_source.html":[2,0,1,38],
-"dd/da5/gamelog_8qc.html":[2,0,6,24],
-"dd/da5/gamelog_8qc.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,24,3],
-"dd/da5/gamelog_8qc.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5":[2,0,6,24,1],
-"dd/da5/gamelog_8qc.html#a79b65d6e94a0a3e0d2061c1b4c47031e":[2,0,6,24,0],
-"dd/da5/gamelog_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3":[2,0,6,24,2],
-"dd/da5/gamelog_8qc_source.html":[2,0,6,24],
+"dd/da5/gamelog_8qc.html":[2,0,6,26],
+"dd/da5/gamelog_8qc.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,26,3],
+"dd/da5/gamelog_8qc.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5":[2,0,6,26,1],
+"dd/da5/gamelog_8qc.html#a79b65d6e94a0a3e0d2061c1b4c47031e":[2,0,6,26,0],
+"dd/da5/gamelog_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3":[2,0,6,26,2],
+"dd/da5/gamelog_8qc_source.html":[2,0,6,26],
 "dd/da6/classXonoticCreditsDialog.html":[1,0,161],
 "dd/da6/classXonoticCreditsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,161,31],
 "dd/da6/classXonoticCreditsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,161,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "dd/db3/classXonoticQuitDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,230,38],
 "dd/db3/classXonoticQuitDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,230,3],
 "dd/db3/classXonoticQuitDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,230,82],
-"dd/db3/classXonoticQuitDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,230,80],
-"dd/db3/classXonoticQuitDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,230,46],
-"dd/db3/classXonoticQuitDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,230,24]
+"dd/db3/classXonoticQuitDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,230,80]
 };

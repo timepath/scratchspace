@@ -1,5 +1,9 @@
 var NAVTREEINDEX5 =
 {
+"d0/da7/mutators_2mutator_2buffs_2all_8inc.html":[2,0,1,10,0,2,2],
+"d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2d2a096950143f69fe15206eefa4d0eb":[2,0,1,10,0,2,2,3],
+"d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2dd0f3f919c755f75d4b34e310c90256":[2,0,1,10,0,2,2,14],
+"d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2e21b54419051837a5fcf6f7f1999a5c":[2,0,1,10,0,2,2,6],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a41b6701b1c6e96e3043c0019b527226c":[2,0,1,10,0,2,2,2],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a434f7ac5499cca8d6d40d3cefb516368":[2,0,1,10,0,2,2,4],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a529a82989f56f66e5eff2624e62fcea3":[2,0,1,10,0,2,2,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX5 =
 "d0/ddd/weapons_2all_8qh_source.html":[2,0,1,16,7],
 "d0/ddf/player__skeleton_8qh.html":[2,0,0,22],
 "d0/ddf/player__skeleton_8qh.html#a1f69a8a19f24e9310085490a184b9ba4":[2,0,0,22,0],
-"d0/ddf/player__skeleton_8qh.html#a475bb5589ccf136fb7b89c04120c832b":[2,0,0,22,4],
-"d0/ddf/player__skeleton_8qh.html#a534e6d446262b5f6cedb96f0f1b5c295":[2,0,0,22,3],
-"d0/ddf/player__skeleton_8qh.html#a535d9510a6042c3be3bfc1c896006f53":[2,0,0,22,1],
-"d0/ddf/player__skeleton_8qh.html#ae34e60c32bc60eebb73851ebe508b3ed":[2,0,0,22,2],
-"d0/ddf/player__skeleton_8qh_source.html":[2,0,0,22]
+"d0/ddf/player__skeleton_8qh.html#a475bb5589ccf136fb7b89c04120c832b":[2,0,0,22,4]
 };

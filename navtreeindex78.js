@@ -1,5 +1,16 @@
 var NAVTREEINDEX78 =
 {
+"d8/da8/classXonoticServerCreateTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,243,15],
+"d8/da8/classXonoticServerCreateTab.html#a086d32c9694472250922d42417bc8d66":[1,0,243,3],
+"d8/da8/classXonoticServerCreateTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,243,84],
+"d8/da8/classXonoticServerCreateTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,243,92],
+"d8/da8/classXonoticServerCreateTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,243,89],
+"d8/da8/classXonoticServerCreateTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,243,58],
+"d8/da8/classXonoticServerCreateTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,243,34],
+"d8/da8/classXonoticServerCreateTab.html#a198d31b696946a3a688d2c943f509799":[1,0,243,78],
+"d8/da8/classXonoticServerCreateTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,243,17],
+"d8/da8/classXonoticServerCreateTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,243,79],
+"d8/da8/classXonoticServerCreateTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,243,4],
 "d8/da8/classXonoticServerCreateTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,243,53],
 "d8/da8/classXonoticServerCreateTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,243,29],
 "d8/da8/classXonoticServerCreateTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,243,59],
@@ -238,16 +249,5 @@ var NAVTREEINDEX78 =
 "d8/db8/classCrylink.html#afae852aee04f756c5dea8e4339aacc1b":[1,0,23,36],
 "d8/dbb/lib_2matrix_2__mod_8inc.html":[2,0,4,1,0],
 "d8/dbb/lib_2matrix_2__mod_8inc_source.html":[2,0,4,1,0],
-"d8/dbf/dialog__hudpanel__quickmenu_8qc.html":[2,0,5,4,70],
-"d8/dbf/dialog__hudpanel__quickmenu_8qc.html#a9f95265a206d226c4179c86779feb483":[2,0,5,4,70,0],
-"d8/dbf/dialog__hudpanel__quickmenu_8qc_source.html":[2,0,5,4,70],
-"d8/dc0/progsdefs_8qh.html":[2,0,2,7],
-"d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c":[2,0,2,7,4],
-"d8/dc0/progsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7":[2,0,2,7,5],
-"d8/dc0/progsdefs_8qh.html#a5d319a625ab29c410927327237bff14b":[2,0,2,7,9],
-"d8/dc0/progsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727":[2,0,2,7,0],
-"d8/dc0/progsdefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d":[2,0,2,7,6],
-"d8/dc0/progsdefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1":[2,0,2,7,1],
-"d8/dc0/progsdefs_8qh.html#ac5decd6a5d0583f4fd91499fc239da65":[2,0,2,7,3],
-"d8/dc0/progsdefs_8qh.html#ad02dc23b282606a7fe0a74a2f224d1ef":[2,0,2,7,8]
+"d8/dbf/dialog__hudpanel__quickmenu_8qc.html":[2,0,5,4,70]
 };

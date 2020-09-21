@@ -24,6 +24,8 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "clientkill.qh", "d2/d4d/clientkill_8qh.html", "d2/d4d/clientkill_8qh" ],
     [ "damage.qc", "da/ded/damage_8qc.html", "da/ded/damage_8qc" ],
     [ "damage.qh", "d4/d62/damage_8qh.html", "d4/d62/damage_8qh" ],
+    [ "elimination.qc", "d7/d93/elimination_8qc.html", "d7/d93/elimination_8qc" ],
+    [ "elimination.qh", "d0/d90/elimination_8qh.html", "d0/d90/elimination_8qh" ],
     [ "gamelog.qc", "dd/da5/gamelog_8qc.html", "dd/da5/gamelog_8qc" ],
     [ "gamelog.qh", "df/df8/gamelog_8qh.html", "df/df8/gamelog_8qh" ],
     [ "handicap.qc", "d9/d19/handicap_8qc.html", "d9/d19/handicap_8qc" ],

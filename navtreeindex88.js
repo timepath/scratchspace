@@ -1,5 +1,16 @@
 var NAVTREEINDEX88 =
 {
+"d9/db3/classXonoticGameModelSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,180,51],
+"d9/db3/classXonoticGameModelSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,180,31],
+"d9/db3/classXonoticGameModelSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,180,24],
+"d9/db3/classXonoticGameModelSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,180,17],
+"d9/db3/classXonoticGameModelSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,180,32],
+"d9/db3/classXonoticGameModelSettingsTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,180,48],
+"d9/db3/classXonoticGameModelSettingsTab.html#a39b77a1923845447d837ff9f399e9aff":[1,0,180,86],
+"d9/db3/classXonoticGameModelSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,180,1],
+"d9/db3/classXonoticGameModelSettingsTab.html#a3f9c5e6943891f335099fe380661b70c":[1,0,180,41],
+"d9/db3/classXonoticGameModelSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,180,16],
+"d9/db3/classXonoticGameModelSettingsTab.html#a4869983b8dc750584479ade5447c8413":[1,0,180,25],
 "d9/db3/classXonoticGameModelSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,180,74],
 "d9/db3/classXonoticGameModelSettingsTab.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,180,27],
 "d9/db3/classXonoticGameModelSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,180,52],
@@ -238,16 +249,5 @@ var NAVTREEINDEX88 =
 "d9/dd9/item_2image_8qc_source.html":[2,0,5,2,12],
 "d9/ddb/pendulum_8qc.html":[2,0,1,6,0,20],
 "d9/ddb/pendulum_8qc_source.html":[2,0,1,6,0,20],
-"d9/ddd/damageeffects_8qc.html":[2,0,1,2,0,4],
-"d9/ddd/damageeffects_8qc_source.html":[2,0,1,2,0,4],
-"d9/de3/dialog__hudpanel__notification_8qh.html":[2,0,5,4,63],
-"d9/de3/dialog__hudpanel__notification_8qh_source.html":[2,0,5,4,63],
-"d9/de7/jumppads_8qh.html":[2,0,1,6,3,21],
-"d9/de7/jumppads_8qh.html#a095e6a987933d162e2b2d81bc2ec7ac9":[2,0,1,6,3,21,12],
-"d9/de7/jumppads_8qh.html#a48083b65ac9a863566dc3e3fff09a5b4":[2,0,1,6,3,21,7],
-"d9/de7/jumppads_8qh.html#a66ad79d10244774bb2ebf5c354538d26":[2,0,1,6,3,21,2],
-"d9/de7/jumppads_8qh.html#a670dbbce52ae308428b66fd8c8813714":[2,0,1,6,3,21,10],
-"d9/de7/jumppads_8qh.html#a77892eee020bbf3a667b5c4c14b83f17":[2,0,1,6,3,21,11],
-"d9/de7/jumppads_8qh.html#a8395a082e3537066195813075d3ec553":[2,0,1,6,3,21,3],
-"d9/de7/jumppads_8qh.html#a890e2681c683826ce47067a8b0f6886d":[2,0,1,6,3,21,6]
+"d9/ddd/damageeffects_8qc.html":[2,0,1,2,0,4]
 };

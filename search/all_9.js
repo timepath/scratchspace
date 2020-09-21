@@ -315,7 +315,7 @@ var searchData=
   ['isplayer_5fplayer',['ISPLAYER_PLAYER',['../d5/df7/lib_2csqcmodel_2common_8qh.html#a0ca1407bcdbf8aa0e698324b94866bcc',1,'common.qh']]],
   ['isplayermodel',['isplayermodel',['../d3/dfc/csqcmodel__hooks_8qh.html#aec0737976a360128bbd3f7c83daba8f5',1,'csqcmodel_hooks.qh']]],
   ['ispromoted',['IsPromoted',['../dd/d7a/serverlist_8qh.html#a6870c63af1e86c6fa49aa497e999e532',1,'serverlist.qh']]],
-  ['ispushable',['isPushable',['../dc/dc6/server_2miscfunctions_8qc.html#a5b86d62af04bbd33aa2bca5635a1e2fa',1,'isPushable(entity e):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a7d03b76da08d84e3f626de4010290ab7',1,'isPushable(entity e):&#160;miscfunctions.qc']]],
+  ['ispushable',['isPushable',['../d6/d57/triggers_8qc.html#a5b86d62af04bbd33aa2bca5635a1e2fa',1,'triggers.qc']]],
   ['isrecommended',['IsRecommended',['../dd/d7a/serverlist_8qh.html#aff3a1aea4c0a4fe78de55ea9c7389722',1,'serverlist.qh']]],
   ['isscrolling',['isScrolling',['../d9/de9/classListBox.html#af9d941569d16ba17cec674b89df93ad0',1,'ListBox']]],
   ['isserver',['isserver',['../d8/de2/menudefs_8qc.html#aa4f47b3f2aeec7161d7d9bd868db164a',1,'menudefs.qc']]],

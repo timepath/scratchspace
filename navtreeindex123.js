@@ -1,7 +1,9 @@
 var NAVTREEINDEX123 =
 {
-"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,4],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,2],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,5],
+"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,4],
 "dd/dd5/sv__model_8qc_source.html":[2,0,4,0,15],
 "dd/dd7/classRacer.html":[1,0,110],
 "dd/dd7/classRacer.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,110,8],
@@ -36,11 +38,11 @@ var NAVTREEINDEX123 =
 "dd/dd7/classRacer.html#af6f42dcff19b7fb5b76462a7d5848b97":[1,0,110,9],
 "dd/dd7/classRacer.html#af7f5447512b9c7b0f697dd84c35b1040":[1,0,110,12],
 "dd/dd7/classRacer.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,110,0],
-"dd/dde/tests_8qc.html":[2,0,6,65],
-"dd/dde/tests_8qc.html#a01685869b6a0539a644769c801712d79":[2,0,6,65,0],
-"dd/dde/tests_8qc.html#a5b2bc7608f2d6399131958faf762edd2":[2,0,6,65,1],
-"dd/dde/tests_8qc.html#a9f2901909235b8599dd49d6dab64477e":[2,0,6,65,2],
-"dd/dde/tests_8qc_source.html":[2,0,6,65],
+"dd/dde/tests_8qc.html":[2,0,6,67],
+"dd/dde/tests_8qc.html#a01685869b6a0539a644769c801712d79":[2,0,6,67,0],
+"dd/dde/tests_8qc.html#a5b2bc7608f2d6399131958faf762edd2":[2,0,6,67,1],
+"dd/dde/tests_8qc.html#a9f2901909235b8599dd49d6dab64477e":[2,0,6,67,2],
+"dd/dde/tests_8qc_source.html":[2,0,6,67],
 "dd/de1/rules_8qh.html":[2,0,1,3,4],
 "dd/de1/rules_8qh_source.html":[2,0,1,3,4],
 "dd/de3/racer_8qc.html":[2,0,1,15,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "de/d03/effectinfo__vehicles_8inc.html#a0e2648e059e3fccd639a6cb2d3081168":[2,0,1,2,19,26],
 "de/d03/effectinfo__vehicles_8inc.html#a0f2ed502ddabb1f3341c8934f48d2f3f":[2,0,1,2,19,17],
 "de/d03/effectinfo__vehicles_8inc.html#a17a973457101d2a52e996751ab1f95ac":[2,0,1,2,19,0],
-"de/d03/effectinfo__vehicles_8inc.html#a2068c3a889f1167d8f91ae2f9eb9567a":[2,0,1,2,19,1],
-"de/d03/effectinfo__vehicles_8inc.html#a313092c0bc4e008c89d5a31e57edcb4e":[2,0,1,2,19,4],
-"de/d03/effectinfo__vehicles_8inc.html#a39e2f899d0ffa43ada4a0dded37d556b":[2,0,1,2,19,2]
+"de/d03/effectinfo__vehicles_8inc.html#a2068c3a889f1167d8f91ae2f9eb9567a":[2,0,1,2,19,1]
 };

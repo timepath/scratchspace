@@ -1,5 +1,7 @@
 var NAVTREEINDEX140 =
 {
+"df/df6/classXonoticSlider.html#a0b7c22b4ba0234561575e01ef7f17fc6":[1,0,250,53],
+"df/df6/classXonoticSlider.html#a0c478135eb70f406c6a0b87529556e98":[1,0,250,23],
 "df/df6/classXonoticSlider.html#a0cdefa43305a32e38b127bde32dbce26":[1,0,250,31],
 "df/df6/classXonoticSlider.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,250,16],
 "df/df6/classXonoticSlider.html#a1384d244201f945385ed59b53e4aee96":[1,0,250,40],
@@ -84,14 +86,14 @@ var NAVTREEINDEX140 =
 "df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh_source.html":[2,0,1,10,0,4,1],
 "df/df8/door__secret_8qc.html":[2,0,1,6,0,14],
 "df/df8/door__secret_8qc_source.html":[2,0,1,6,0,14],
-"df/df8/gamelog_8qh.html":[2,0,6,25],
-"df/df8/gamelog_8qh.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,25,3],
-"df/df8/gamelog_8qh.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5":[2,0,6,25,1],
-"df/df8/gamelog_8qh.html#a77855f3dbdd49c2419719632277aae72":[2,0,6,25,5],
-"df/df8/gamelog_8qh.html#a79b65d6e94a0a3e0d2061c1b4c47031e":[2,0,6,25,0],
-"df/df8/gamelog_8qh.html#ad8252ef534185c1cbbde32e65a01a5b3":[2,0,6,25,2],
-"df/df8/gamelog_8qh.html#af5cc49ccba37ced79bc2d69b05f694a1":[2,0,6,25,4],
-"df/df8/gamelog_8qh_source.html":[2,0,6,25],
+"df/df8/gamelog_8qh.html":[2,0,6,27],
+"df/df8/gamelog_8qh.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,27,3],
+"df/df8/gamelog_8qh.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5":[2,0,6,27,1],
+"df/df8/gamelog_8qh.html#a77855f3dbdd49c2419719632277aae72":[2,0,6,27,5],
+"df/df8/gamelog_8qh.html#a79b65d6e94a0a3e0d2061c1b4c47031e":[2,0,6,27,0],
+"df/df8/gamelog_8qh.html#ad8252ef534185c1cbbde32e65a01a5b3":[2,0,6,27,2],
+"df/df8/gamelog_8qh.html#af5cc49ccba37ced79bc2d69b05f694a1":[2,0,6,27,4],
+"df/df8/gamelog_8qh_source.html":[2,0,6,27],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html":[1,0,237],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,237,93],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a03b39828cfca5042da326cc07cc8f7b4":[1,0,237,62],
@@ -247,7 +249,5 @@ var NAVTREEINDEX140 =
 "dir_58d953ef34ccfc4a49203206a34466c3.html":[2,0,4,2],
 "dir_59526edd3ffea80c81ba0dd8a5822cc1.html":[2,0,6,4],
 "dir_5a0e8201b9351f84864b087c6c0be427.html":[2,0,0,0],
-"dir_605ca3db3b03821e840695b3f16c646d.html":[2,0,1,10,0,13],
-"dir_671d3eeae7b2f6d2b092b900e73cd086.html":[2,0,1,3,0,15],
-"dir_67782cf2b73ff31781b25ce4541674e7.html":[2,0,1,16]
+"dir_605ca3db3b03821e840695b3f16c646d.html":[2,0,1,10,0,13]
 };

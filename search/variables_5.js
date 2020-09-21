@@ -47,7 +47,7 @@ var searchData=
   ['ef_5fteleport_5fbit',['EF_TELEPORT_BIT',['../d3/dfc/csqcmodel__hooks_8qh.html#a59b8c94bae8e8b41f417fab6789ffaf8',1,'EF_TELEPORT_BIT():&#160;csqcmodel_hooks.qh'],['../de/d5e/dpextensions_8qc.html#a8e1357aa8bea6766ba939523ffc913ee',1,'EF_TELEPORT_BIT():&#160;dpextensions.qc']]],
   ['effects',['effects',['../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5',1,'effects():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5',1,'effects():&#160;progsdefs.qc']]],
   ['eliminated',['eliminated',['../d0/d2a/client_2main_8qh.html#a4cfe4b31d6298f15cb8344a169079e8b',1,'main.qh']]],
-  ['eliminatedplayers',['eliminatedPlayers',['../dc/d73/server_2miscfunctions_8qh.html#a9a5d758c3f0baae25a5df42278c834c7',1,'miscfunctions.qh']]],
+  ['eliminatedplayers',['eliminatedPlayers',['../d0/d90/elimination_8qh.html#a9a5d758c3f0baae25a5df42278c834c7',1,'elimination.qh']]],
   ['emptylineheight',['emptyLineHeight',['../d4/d91/classXonoticCampaignList.html#a2b2f90f331d59f5f3f24a6e2c2774306',1,'XonoticCampaignList']]],
   ['enableclearbutton',['enableClearButton',['../d1/dec/classInputBox.html#aa5740db50a312bf11ac7cae59ba7587d',1,'InputBox']]],
   ['end_5fsys_5ffields',['end_sys_fields',['../d4/d0c/csprogsdefs_8qc.html#ac3984fbe7ec86d67f394d75a9b0cf005',1,'end_sys_fields():&#160;csprogsdefs.qc'],['../d8/de2/menudefs_8qc.html#ac3984fbe7ec86d67f394d75a9b0cf005',1,'end_sys_fields():&#160;menudefs.qc'],['../d6/d11/progsdefs_8qc.html#ac3984fbe7ec86d67f394d75a9b0cf005',1,'end_sys_fields():&#160;progsdefs.qc']]],

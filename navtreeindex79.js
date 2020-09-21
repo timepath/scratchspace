@@ -1,5 +1,16 @@
 var NAVTREEINDEX79 =
 {
+"d8/dbf/dialog__hudpanel__quickmenu_8qc.html#a9f95265a206d226c4179c86779feb483":[2,0,5,4,70,0],
+"d8/dbf/dialog__hudpanel__quickmenu_8qc_source.html":[2,0,5,4,70],
+"d8/dc0/progsdefs_8qh.html":[2,0,2,7],
+"d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c":[2,0,2,7,4],
+"d8/dc0/progsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7":[2,0,2,7,5],
+"d8/dc0/progsdefs_8qh.html#a5d319a625ab29c410927327237bff14b":[2,0,2,7,9],
+"d8/dc0/progsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727":[2,0,2,7,0],
+"d8/dc0/progsdefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d":[2,0,2,7,6],
+"d8/dc0/progsdefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1":[2,0,2,7,1],
+"d8/dc0/progsdefs_8qh.html#ac5decd6a5d0583f4fd91499fc239da65":[2,0,2,7,3],
+"d8/dc0/progsdefs_8qh.html#ad02dc23b282606a7fe0a74a2f224d1ef":[2,0,2,7,8],
 "d8/dc0/progsdefs_8qh.html#ad1375a6b9575aee6d276789f76ed0074":[2,0,2,7,2],
 "d8/dc0/progsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c":[2,0,2,7,7],
 "d8/dc0/progsdefs_8qh_source.html":[2,0,2,7],
@@ -238,16 +249,5 @@ var NAVTREEINDEX79 =
 "d8/dd8/sv__buffs_8qh.html#a77fd18a78f1e4c215d54d855c7230851":[2,0,1,10,0,2,8,0],
 "d8/dd8/sv__buffs_8qh.html#a78ed24f801e6cb548a12eaa0e113b0a7":[2,0,1,10,0,2,8,4],
 "d8/dd8/sv__buffs_8qh.html#a7f35986c1be4e916c6d5d52c72a40be3":[2,0,1,10,0,2,8,33],
-"d8/dd8/sv__buffs_8qh.html#a80699073f866d3fde589469194a0e188":[2,0,1,10,0,2,8,44],
-"d8/dd8/sv__buffs_8qh.html#a828910a7801d1c3d437b0d8d70fd951c":[2,0,1,10,0,2,8,27],
-"d8/dd8/sv__buffs_8qh.html#a85316f768674e84a062ad7c473868382":[2,0,1,10,0,2,8,42],
-"d8/dd8/sv__buffs_8qh.html#a8ba821803143c0908230ddb415971b90":[2,0,1,10,0,2,8,21],
-"d8/dd8/sv__buffs_8qh.html#a8c530690d13a1995fecf385267515016":[2,0,1,10,0,2,8,31],
-"d8/dd8/sv__buffs_8qh.html#a937b61577d6c65d387c3f234ae90ff49":[2,0,1,10,0,2,8,36],
-"d8/dd8/sv__buffs_8qh.html#a947a994165abbe80b0feac77d1ee2715":[2,0,1,10,0,2,8,40],
-"d8/dd8/sv__buffs_8qh.html#a9a7786d9386aa54f7402850e457fce40":[2,0,1,10,0,2,8,11],
-"d8/dd8/sv__buffs_8qh.html#a9d0381c8b0a4cc43a743b4f23741763b":[2,0,1,10,0,2,8,65],
-"d8/dd8/sv__buffs_8qh.html#aa2020d7221cd6658db0d83786f8a9e7d":[2,0,1,10,0,2,8,66],
-"d8/dd8/sv__buffs_8qh.html#aa46fd8af184f1f03943dbd39cd42c026":[2,0,1,10,0,2,8,56],
-"d8/dd8/sv__buffs_8qh.html#aa72e5a5d1978e76508148f92c302a1b6":[2,0,1,10,0,2,8,20]
+"d8/dd8/sv__buffs_8qh.html#a80699073f866d3fde589469194a0e188":[2,0,1,10,0,2,8,44]
 };
