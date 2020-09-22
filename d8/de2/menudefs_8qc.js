@@ -15,7 +15,7 @@ var menudefs_8qc =
     [ "ceil", "d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7", null ],
     [ "centerprint", "d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f", null ],
     [ "changelevel", "d8/de2/menudefs_8qc.html#aa446c5d2879d6821df8d4c0482964ae4", null ],
-    [ "checkextension", "d8/de2/menudefs_8qc.html#a15d574b8ffae2507cd2f976fbc8b169e", null ],
+    [ "checkextension", "d8/de2/menudefs_8qc.html#ab4a284b3c448e155a5b8345097355642", null ],
     [ "chr", "d8/de2/menudefs_8qc.html#a2e79c39c212b8262151d8f871ebf05bc", null ],
     [ "clientcommand", "d8/de2/menudefs_8qc.html#a6cf402e8f370de9cb49d5d6d3ad38585", null ],
     [ "clientcount", "d8/de2/menudefs_8qc.html#aa14298f2bff3ec851400f3198f572807", null ],

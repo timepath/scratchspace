@@ -257,7 +257,7 @@ var searchData=
   ['checkcompatibility_5fweaponarena_5fweapon',['checkCompatibility_weaponarena_weapon',['../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#ae4813be378a9cece542eb5c231852923',1,'dialog_multiplayer_create_mutators.qc']]],
   ['checkcompatibility_5fweaponstay',['checkCompatibility_weaponstay',['../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a6d11d3a5a76ed57ecbcac9602c8b507e',1,'dialog_multiplayer_create_mutators.qc']]],
   ['checked',['checked',['../dd/df9/classCheckBox.html#aadf22fd0b74fa4a5192dcc33efa3386c',1,'CheckBox::checked()'],['../d1/d5b/classRadioButton.html#ab0e43c94f6fb0081002fc5850d5795c1',1,'RadioButton::checked()']]],
-  ['checkextension',['checkextension',['../d8/de2/menudefs_8qc.html#a15d574b8ffae2507cd2f976fbc8b169e',1,'menudefs.qc']]],
+  ['checkextension',['checkextension',['../d8/de2/menudefs_8qc.html#ab4a284b3c448e155a5b8345097355642',1,'menudefs.qc']]],
   ['checkfirstrunbutton',['CheckFirstRunButton',['../d3/dbd/dialog__firstrun_8qc.html#a543ea137d7c256f4c31c0c37f9c905f8',1,'dialog_firstrun.qc']]],
   ['checkmarkorigin',['checkMarkOrigin',['../d4/d91/classXonoticCampaignList.html#a4804aa2cbf278cdc2b156750a5ccf6d4',1,'XonoticCampaignList::checkMarkOrigin()'],['../d3/d86/classXonoticMapList.html#a2c2c3e58568da402d6d5dad7ff758181',1,'XonoticMapList::checkMarkOrigin()']]],
   ['checkmarksize',['checkMarkSize',['../d4/d91/classXonoticCampaignList.html#afb1ec629cb2b63da0f69cd83e4264c6b',1,'XonoticCampaignList::checkMarkSize()'],['../d3/d86/classXonoticMapList.html#af3b8f1fe69ad4a262d0f669b9b43d0bb',1,'XonoticMapList::checkMarkSize()']]],

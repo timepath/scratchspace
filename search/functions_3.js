@@ -79,7 +79,7 @@ var searchData=
   ['checkcompatibility_5fpinata',['checkCompatibility_pinata',['../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a88b4e0fbbc7d4a23ac65a74379f53e20',1,'dialog_multiplayer_create_mutators.qc']]],
   ['checkcompatibility_5fweaponarena_5fweapon',['checkCompatibility_weaponarena_weapon',['../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#ae4813be378a9cece542eb5c231852923',1,'dialog_multiplayer_create_mutators.qc']]],
   ['checkcompatibility_5fweaponstay',['checkCompatibility_weaponstay',['../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a6d11d3a5a76ed57ecbcac9602c8b507e',1,'dialog_multiplayer_create_mutators.qc']]],
-  ['checkextension',['checkextension',['../d8/de2/menudefs_8qc.html#a15d574b8ffae2507cd2f976fbc8b169e',1,'menudefs.qc']]],
+  ['checkextension',['checkextension',['../d8/de2/menudefs_8qc.html#ab4a284b3c448e155a5b8345097355642',1,'menudefs.qc']]],
   ['checkfirstrunbutton',['CheckFirstRunButton',['../d3/dbd/dialog__firstrun_8qc.html#a543ea137d7c256f4c31c0c37f9c905f8',1,'dialog_firstrun.qc']]],
   ['checkplayerjump',['CheckPlayerJump',['../d2/d0a/common_2physics_2player_8qc.html#a3e975b1ebc6b2bf9066537dd0842faa8',1,'player.qc']]],
   ['checkplayermodel',['CheckPlayerModel',['../df/dd7/server_2client_8qc.html#a81497331b22f9248fec442b8f1889f6c',1,'client.qc']]],
