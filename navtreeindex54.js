@@ -1,5 +1,8 @@
 var NAVTREEINDEX54 =
 {
+"d6/d1c/weapons_2config_8qc.html#ac9f19a7fd9e33c7703d0abbc56eaaa7f":[2,0,1,16,10,2],
+"d6/d1c/weapons_2config_8qc.html#accb173662eea2523d629cb8f7381ec51":[2,0,1,16,10,3],
+"d6/d1c/weapons_2config_8qc_source.html":[2,0,1,16,10],
 "d6/d25/triggers_8qh.html":[2,0,1,6,18],
 "d6/d25/triggers_8qh.html#a016abda2855c77dcc1630f9d2f9f8d18":[2,0,1,6,18,9],
 "d6/d25/triggers_8qh.html#a0d6814c3343b8821d1f3efd623adf053":[2,0,1,6,18,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d57/weaponstats_8qc_source.html":[2,0,6,6,18],
 "d6/d5c/dialog__settings__game__weapons_8qh.html":[2,0,5,4,143],
 "d6/d5c/dialog__settings__game__weapons_8qh.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,143,1],
-"d6/d5c/dialog__settings__game__weapons_8qh.html#ad61e8983facaede86b25d8e3947f88ee":[2,0,5,4,143,2],
-"d6/d5c/dialog__settings__game__weapons_8qh_source.html":[2,0,5,4,143],
-"d6/d60/common_2turrets_2util_8qh.html":[2,0,1,14,19],
-"d6/d60/common_2turrets_2util_8qh_source.html":[2,0,1,14,19]
+"d6/d5c/dialog__settings__game__weapons_8qh.html#ad61e8983facaede86b25d8e3947f88ee":[2,0,5,4,143,2]
 };

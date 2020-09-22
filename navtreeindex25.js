@@ -1,5 +1,8 @@
 var NAVTREEINDEX25 =
 {
+"d3/d05/hud_8qh.html#a9b99031dd1dc8583ab9379bf05b9acee":[2,0,0,1,6,25],
+"d3/d05/hud_8qh.html#a9c748beadf89bffd404bd0fdc340f825":[2,0,0,1,6,2],
+"d3/d05/hud_8qh.html#a9d234623c2381c723dcde7d9828551bc":[2,0,0,1,6,114],
 "d3/d05/hud_8qh.html#a9fbdfc17fa8d8dd40146d9c1075b0330":[2,0,0,1,6,110],
 "d3/d05/hud_8qh.html#aa051beb719ad5736df867835fed60a07":[2,0,0,1,6,18],
 "d3/d05/hud_8qh.html#aa19ec7409a587ce96e34c8b4d1030391":[2,0,0,1,6,159],
@@ -246,8 +249,5 @@ var NAVTREEINDEX25 =
 "d3/d10/classXonoticCrosshairPicker.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,163,1],
 "d3/d10/classXonoticCrosshairPicker.html#af44cf8144598496d9f0af4e8a5dca4ed":[1,0,163,37],
 "d3/d10/classXonoticCrosshairPicker.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,163,22],
-"d3/d10/classXonoticCrosshairPicker.html#af9acf6d00c179c136dd3c4c84028cc6e":[1,0,163,8],
-"d3/d18/common_2mutators_2mutator_2nades_2__mod_8qh.html":[2,0,1,10,0,19,1],
-"d3/d18/common_2mutators_2mutator_2nades_2__mod_8qh_source.html":[2,0,1,10,0,19,1],
-"d3/d1b/classLabel.html":[1,0,63]
+"d3/d10/classXonoticCrosshairPicker.html#af9acf6d00c179c136dd3c4c84028cc6e":[1,0,163,8]
 };

@@ -1,7 +1,6 @@
 var searchData=
 [
   ['_5f_5fautocvar',['__AUTOCVAR',['../d0/d4f/cvar_8qh.html#ad829a97772ab6b1521d3cee89f1d57e7',1,'cvar.qh']]],
-  ['_5f_5ffullspawndata',['__fullspawndata',['../de/d5e/dpextensions_8qc.html#a3c40b235dfd5b038615838f59f976d60',1,'dpextensions.qc']]],
   ['_5f_5finit_5fdedicated_5fserver_5fshutdown',['__init_dedicated_server_shutdown',['../dd/dbe/world_8qc.html#a8f7565a7318ba27627a5f2d17d044172',1,'world.qc']]],
   ['_5f_5fshutdown',['__shutdown',['../d4/d1a/static_8qh.html#ab1a0d2960b8f7d71249e8f6b38c00fa1',1,'static.qh']]],
   ['_5f_5fsourceloc_5f_5f',['__SOURCELOC__',['../db/da0/log_8qh.html#a6aebf22c1f26cea3e620968d6e8a4022',1,'log.qh']]],

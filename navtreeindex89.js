@@ -1,5 +1,8 @@
 var NAVTREEINDEX89 =
 {
+"d9/ddb/pendulum_8qc.html":[2,0,1,6,0,20],
+"d9/ddb/pendulum_8qc_source.html":[2,0,1,6,0,20],
+"d9/ddd/damageeffects_8qc.html":[2,0,1,2,0,4],
 "d9/ddd/damageeffects_8qc_source.html":[2,0,1,2,0,4],
 "d9/de3/dialog__hudpanel__notification_8qh.html":[2,0,5,4,63],
 "d9/de3/dialog__hudpanel__notification_8qh_source.html":[2,0,5,4,63],
@@ -246,8 +249,5 @@ var NAVTREEINDEX89 =
 "d9/df7/mathlib_8qh.html#ab87e208dbc0e5fa949961edc72c452ab":[2,0,4,2,9,40],
 "d9/df7/mathlib_8qh.html#ab907f2d483927b268635737c22af9782":[2,0,4,2,9,21],
 "d9/df7/mathlib_8qh.html#ac830c79413f62de42d8717c102ad7933":[2,0,4,2,9,23],
-"d9/df7/mathlib_8qh.html#acac8dd6a4745aac6c1c2fc1b0f575a5e":[2,0,4,2,9,46],
-"d9/df7/mathlib_8qh.html#ad5487db6adbf8e046a7dc5ea034ba501":[2,0,4,2,9,38],
-"d9/df7/mathlib_8qh.html#ad67bb437fc83ec1ccf8342fbe2373c46":[2,0,4,2,9,16],
-"d9/df7/mathlib_8qh.html#ae2bfb851ed8bf44903c10964cfc7c533":[2,0,4,2,9,17]
+"d9/df7/mathlib_8qh.html#acac8dd6a4745aac6c1c2fc1b0f575a5e":[2,0,4,2,9,46]
 };

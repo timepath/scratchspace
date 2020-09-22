@@ -1,5 +1,8 @@
 var NAVTREEINDEX101 =
 {
+"db/d4e/classOverkillShotgun.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,97,29],
+"db/d4e/classOverkillShotgun.html#a80fa9a65e19370473a29baebc04d0626":[1,0,97,4],
+"db/d4e/classOverkillShotgun.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,97,6],
 "db/d4e/classOverkillShotgun.html#a9167052aa669b69a9e80b63b2247faa4":[1,0,97,28],
 "db/d4e/classOverkillShotgun.html#a98565782d4df6bc3b7fef4c37270d2bc":[1,0,97,32],
 "db/d4e/classOverkillShotgun.html#a9b87f6f400cec69b85317087726acd3f":[1,0,97,35],
@@ -246,8 +249,5 @@ var NAVTREEINDEX101 =
 "db/d5a/classXonoticHUDPowerupsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,197,15],
 "db/d5a/classXonoticHUDPowerupsDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,197,49],
 "db/d5a/classXonoticHUDPowerupsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,197,2],
-"db/d5a/classXonoticHUDPowerupsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,197,35],
-"db/d5a/classXonoticHUDPowerupsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,197,39],
-"db/d5b/classXonoticGameMessageSettingsTab.html":[1,0,179],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,179,35]
+"db/d5a/classXonoticHUDPowerupsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,197,35]
 };

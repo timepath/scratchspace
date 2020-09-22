@@ -1,5 +1,8 @@
 var NAVTREEINDEX4 =
 {
+"d0/d81/classRifle.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,117,9],
+"d0/d81/classRifle.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,117,8],
+"d0/d81/classRifle.html#a7515d4131829927372fd6583d4ae610a":[1,0,117,0],
 "d0/d81/classRifle.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,117,29],
 "d0/d81/classRifle.html#a7cdfdb1aa5f889a6c27481251d07add2":[1,0,117,38],
 "d0/d81/classRifle.html#a80fa9a65e19370473a29baebc04d0626":[1,0,117,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX4 =
 "d0/da3/mortar_8qc_source.html":[2,0,1,16,0,24],
 "d0/da4/damagetext_8qc.html":[2,0,1,10,0,6,4],
 "d0/da4/damagetext_8qc_source.html":[2,0,1,10,0,6,4],
-"d0/da5/domination_8qc.html":[2,0,1,3,0,5,4],
-"d0/da5/domination_8qc_source.html":[2,0,1,3,0,5,4],
-"d0/da7/armor_8qc.html":[2,0,1,5,0,4],
-"d0/da7/armor_8qc_source.html":[2,0,1,5,0,4]
+"d0/da5/domination_8qc.html":[2,0,1,3,0,5,4]
 };

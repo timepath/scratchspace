@@ -54,5 +54,5 @@ var searchData=
   ['expm1',['expm1',['../df/d38/mathlib_8qc.html#a3668a068ecb747f0242ef2ac55222fde',1,'expm1(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a3668a068ecb747f0242ef2ac55222fde',1,'expm1(float e):&#160;mathlib.qc']]],
   ['exponentialfalloff',['ExponentialFalloff',['../d0/d79/math_8qh.html#a101a4ddf4a2cb6b9fa2736ef0c68917d',1,'math.qh']]],
   ['exposeeclosebutton_5fclick',['ExposeeCloseButton_Click',['../d3/ddf/item_2nexposee_8qc.html#a0cfe8533c42f7b5a11c996f76413a84d',1,'ExposeeCloseButton_Click(entity button, entity other):&#160;nexposee.qc'],['../dd/d77/item_2nexposee_8qh.html#a0cfe8533c42f7b5a11c996f76413a84d',1,'ExposeeCloseButton_Click(entity button, entity other):&#160;nexposee.qc']]],
-  ['expr_5fevaluate',['expr_evaluate',['../db/d95/server_2main_8qc.html#a561d61ff3f398e13794e58b7c4eefe32',1,'expr_evaluate(string s):&#160;main.qc'],['../d1/dd8/server_2main_8qh.html#a561d61ff3f398e13794e58b7c4eefe32',1,'expr_evaluate(string s):&#160;main.qc']]]
+  ['expr_5fevaluate',['expr_evaluate',['../d0/d4f/cvar_8qh.html#a887100194eff4fb3603a6bb4eba4acd6',1,'expr_evaluate(string s):&#160;cvar.qh'],['../d1/dd8/server_2main_8qh.html#a561d61ff3f398e13794e58b7c4eefe32',1,'expr_evaluate(string s):&#160;cvar.qh']]]
 ];

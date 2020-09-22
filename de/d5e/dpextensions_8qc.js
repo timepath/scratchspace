@@ -109,7 +109,6 @@ var dpextensions_8qc =
     [ "void", "de/d5e/dpextensions_8qc.html#ada02008e38c1725bac8aa41c0e4bf3f0", null ],
     [ "void", "de/d5e/dpextensions_8qc.html#adae8828e29d97438a7defbb0c74c104f", null ],
     [ "void", "de/d5e/dpextensions_8qc.html#afb8b71adbeb3e0ddad273bb978215b7d", null ],
-    [ "__fullspawndata", "de/d5e/dpextensions_8qc.html#a3c40b235dfd5b038615838f59f976d60", null ],
     [ "alpha", "de/d5e/dpextensions_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b", null ],
     [ "angles", "de/d5e/dpextensions_8qc.html#aa1f190a348c0675e2f35688de429bef6", null ],
     [ "bouncefactor", "de/d5e/dpextensions_8qc.html#a93eabe108d0436836929d3ad1447f6e7", null ],

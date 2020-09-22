@@ -1,5 +1,8 @@
 var NAVTREEINDEX76 =
 {
+"d8/d39/havocbot_8qh.html#a396af7f920857814ff544952f4482e04":[2,0,6,0,0,0,3,33],
+"d8/d39/havocbot_8qh.html#a5beeada640329036cd1a2a90ffc489df":[2,0,6,0,0,0,3,32],
+"d8/d39/havocbot_8qh.html#a5f878532d323f792b8b4c306d068cc0c":[2,0,6,0,0,0,3,4],
 "d8/d39/havocbot_8qh.html#a6907660d101acdfc13c217f1e8b8b062":[2,0,6,0,0,0,3,5],
 "d8/d39/havocbot_8qh.html#a6942c73e794b5ae39ea6211ae7f22d0f":[2,0,6,0,0,0,3,7],
 "d8/d39/havocbot_8qh.html#a6c9cf6cc9e0cee3a044be67c65c74bb8":[2,0,6,0,0,0,3,19],
@@ -136,10 +139,10 @@ var NAVTREEINDEX76 =
 "d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,11,3,24],
 "d8/d79/notifications_2all_8qc.html#a97e96901a663794a2eee1391bcad5dae":[2,0,1,11,3,33],
 "d8/d79/notifications_2all_8qc.html#a9a202f02c680cd96b64832efe697ddb8":[2,0,1,11,3,46],
-"d8/d79/notifications_2all_8qc.html#a9aaa4861d131be9bdf63207e30d31cb1":[2,0,1,11,3,9],
 "d8/d79/notifications_2all_8qc.html#a9aaa4861d131be9bdf63207e30d31cb1":[2,0,1,11,3,10],
 "d8/d79/notifications_2all_8qc.html#a9aaa4861d131be9bdf63207e30d31cb1":[2,0,1,11,3,11],
 "d8/d79/notifications_2all_8qc.html#a9aaa4861d131be9bdf63207e30d31cb1":[2,0,1,11,3,12],
+"d8/d79/notifications_2all_8qc.html#a9aaa4861d131be9bdf63207e30d31cb1":[2,0,1,11,3,9],
 "d8/d79/notifications_2all_8qc.html#aa886bea32ed1621e2429a04a1411b5ea":[2,0,1,11,3,35],
 "d8/d79/notifications_2all_8qc.html#ab191ea2d6864d62cf12f82140b351f66":[2,0,1,11,3,45],
 "d8/d79/notifications_2all_8qc.html#ab2ba4995bd0ca717f5a1612dcea04e08":[2,0,1,11,3,40],
@@ -246,8 +249,5 @@ var NAVTREEINDEX76 =
 "d8/d8a/classXonoticDamageTextSettings.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,167,36],
 "d8/d8a/classXonoticDamageTextSettings.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,167,41],
 "d8/d8a/classXonoticDamageTextSettings.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,167,38],
-"d8/d8a/classXonoticDamageTextSettings.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,167,87],
-"d8/d8a/classXonoticDamageTextSettings.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,167,59],
-"d8/d8a/classXonoticDamageTextSettings.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,167,64],
-"d8/d8a/classXonoticDamageTextSettings.html#ad289b003285ba9d4964164e276700e14":[1,0,167,51]
+"d8/d8a/classXonoticDamageTextSettings.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,167,87]
 };

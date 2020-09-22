@@ -1,5 +1,8 @@
 var NAVTREEINDEX15 =
 {
+"d1/dc3/classEWheelAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,36,22],
+"d1/dc3/classEWheelAttack.html#ae4f58daa33d41cd909d978c3696c03c0":[1,0,36,27],
+"d1/dc3/classEWheelAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,36,26],
 "d1/dc3/classEWheelAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,36,17],
 "d1/dc3/classEWheelAttack.html#affb7df26d5cf18c594772961a8bbfed8":[1,0,36,30],
 "d1/dc9/common_2mutators_2mutator_2invincibleproj_2__mod_8inc.html":[2,0,1,10,0,13,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX15 =
 "d2/d02/dialog__settings__game__hudconfirm_8qc.html":[2,0,5,4,134],
 "d2/d02/dialog__settings__game__hudconfirm_8qc.html#a15ea414c0c2d870f61918376f7677f67":[2,0,5,4,134,1],
 "d2/d02/dialog__settings__game__hudconfirm_8qc.html#a8355ef57cfbd4b0b0a510b61df465435":[2,0,5,4,134,0],
-"d2/d02/dialog__settings__game__hudconfirm_8qc_source.html":[2,0,5,4,134],
-"d2/d02/menu_2anim_2__mod_8inc.html":[2,0,5,0,0],
-"d2/d02/menu_2anim_2__mod_8inc_source.html":[2,0,5,0,0],
-"d2/d06/server_2command_2common_8qh.html":[2,0,6,1,7]
+"d2/d02/dialog__settings__game__hudconfirm_8qc_source.html":[2,0,5,4,134]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX14 =
 {
+"d1/dad/server_2command_2vote_8qc.html#a84398e4971abb32d49d0dd94918a281e":[2,0,6,1,16,27],
+"d1/dad/server_2command_2vote_8qc.html#a8646fbc325b5110f96dbc1a8b324fc5f":[2,0,6,1,16,35],
+"d1/dad/server_2command_2vote_8qc.html#a8748c323cc8d7aea242efebe95b81fe5":[2,0,6,1,16,25],
 "d1/dad/server_2command_2vote_8qc.html#a8877f3141a92ab947b3801df066ce3bb":[2,0,6,1,16,9],
 "d1/dad/server_2command_2vote_8qc.html#a8adef0cb0c9dffb0348ed5fb19cdbebf":[2,0,6,1,16,41],
 "d1/dad/server_2command_2vote_8qc.html#a8d1f0d6bff6c0f65f7f206d4445d0f56":[2,0,6,1,16,6],
@@ -13,9 +16,9 @@ var NAVTREEINDEX14 =
 "d1/dad/server_2command_2vote_8qc.html#aa5bfb7647a9b350b92d600703b23919d":[2,0,6,1,16,39],
 "d1/dad/server_2command_2vote_8qc.html#aa87ee0e2c399505d83d290b4bef95caf":[2,0,6,1,16,24],
 "d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f":[2,0,6,1,16,15],
+"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
-"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
 "d1/dad/server_2command_2vote_8qc.html#abe4a2e3fd5c533319ea51970d72f95f7":[2,0,6,1,16,28],
 "d1/dad/server_2command_2vote_8qc.html#ac42f429ba6ba4289fa7af9310f40a0a4":[2,0,6,1,16,14],
 "d1/dad/server_2command_2vote_8qc.html#ae57d1ca4b4a65c6bd2200048fc0a5c62":[2,0,6,1,16,29],
@@ -246,8 +249,5 @@ var NAVTREEINDEX14 =
 "d1/dc3/classEWheelAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,36,7],
 "d1/dc3/classEWheelAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,36,38],
 "d1/dc3/classEWheelAttack.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,36,2],
-"d1/dc3/classEWheelAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,36,37],
-"d1/dc3/classEWheelAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,36,22],
-"d1/dc3/classEWheelAttack.html#ae4f58daa33d41cd909d978c3696c03c0":[1,0,36,27],
-"d1/dc3/classEWheelAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,36,26]
+"d1/dc3/classEWheelAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,36,37]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"de/d93/classXonoticBindingsResetDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,151,55],
 "de/d93/classXonoticBindingsResetDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,151,32],
 "de/d93/classXonoticBindingsResetDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,151,40],
 "de/d93/classXonoticBindingsResetDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,151,62],
@@ -249,5 +248,6 @@ var NAVTREEINDEX130 =
 "de/dab/classObserver.html#a2578f01ea21860399662d52a97ad9ce2":[1,0,88,36],
 "de/dab/classObserver.html#a26036b7494d9b1e5634683ccd2270113":[1,0,88,53],
 "de/dab/classObserver.html#a279f6af9c25013e6b39e201ba13fd06c":[1,0,88,85],
-"de/dab/classObserver.html#a28a121a37dcb2d9fd7db1c7c74b7328a":[1,0,88,101]
+"de/dab/classObserver.html#a28a121a37dcb2d9fd7db1c7c74b7328a":[1,0,88,101],
+"de/dab/classObserver.html#a2b49fa45f212ba9b7e3b1796a448009d":[1,0,88,61]
 };

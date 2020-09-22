@@ -149,7 +149,7 @@ var searchData=
   ['bigcommandbutton_2eqc',['bigcommandbutton.qc',['../d7/d0d/bigcommandbutton_8qc.html',1,'']]],
   ['bigcommandbutton_2eqh',['bigcommandbutton.qh',['../d2/d88/bigcommandbutton_8qh.html',1,'']]],
   ['binddb',['binddb',['../d0/d2a/client_2main_8qh.html#a532ed2854fa3a567a32c62f7abfd7c55',1,'main.qh']]],
-  ['binop',['BINOP',['../db/d95/server_2main_8qc.html#a54e650d0a371793b77c66d8985e9051e',1,'main.qc']]],
+  ['binop',['BINOP',['../d0/d4f/cvar_8qh.html#a54e650d0a371793b77c66d8985e9051e',1,'cvar.qh']]],
   ['bit',['BIT',['../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c',1,'bits.qh']]],
   ['bitclr',['BITCLR',['../d7/d71/lib_2warpzone_2common_8qh.html#a98fd61e000412d1e33408f3c0b3145d3',1,'common.qh']]],
   ['bitclr_5fassign',['BITCLR_ASSIGN',['../d7/d71/lib_2warpzone_2common_8qh.html#a69a1cd9231b0e5e94f20cc3022c2c8e2',1,'common.qh']]],

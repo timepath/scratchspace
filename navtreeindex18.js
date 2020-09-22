@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"d2/d3a/common_2mutators_2mutator_2itemstime_2__mod_8qh.html":[2,0,1,10,0,14,1],
+"d2/d3a/common_2mutators_2mutator_2itemstime_2__mod_8qh_source.html":[2,0,1,10,0,14,1],
+"d2/d3a/rules_8qc.html":[2,0,1,3,3],
 "d2/d3a/rules_8qc_source.html":[2,0,1,3,3],
 "d2/d3b/bloodloss_8qc.html":[2,0,1,10,0,0,2],
 "d2/d3b/bloodloss_8qc_source.html":[2,0,1,10,0,0,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d4b/classPlayer.html#ad44c0feb49f09eefc2a950cc8c6100bd":[1,0,104,118],
 "d2/d4b/classPlayer.html#ad9f684b6c4c2f60ea81ecea4753a183b":[1,0,104,8],
 "d2/d4b/classPlayer.html#ada2168564e0fdea139d23db1eb5ea004":[1,0,104,64],
-"d2/d4b/classPlayer.html#adbc59e37e184e760484bc8aa1aea4f93":[1,0,104,122],
-"d2/d4b/classPlayer.html#addc036d3aa8fc1e551842be6effd5b4e":[1,0,104,15],
-"d2/d4b/classPlayer.html#adece4de9ee5ff3046c9ee0973dd13a30":[1,0,104,19],
-"d2/d4b/classPlayer.html#adf8537a27ab5aef0756b7e3575c5905e":[1,0,104,43]
+"d2/d4b/classPlayer.html#adbc59e37e184e760484bc8aa1aea4f93":[1,0,104,122]
 };

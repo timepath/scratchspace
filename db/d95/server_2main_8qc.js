@@ -1,14 +1,11 @@
 var server_2main_8qc =
 [
-    [ "BINOP", "db/d95/server_2main_8qc.html#a54e650d0a371793b77c66d8985e9051e", null ],
-    [ "X", "db/d95/server_2main_8qc.html#af9949a02f0e3e1fbd39f2e56eb33f8fc", null ],
     [ "X", "db/d95/server_2main_8qc.html#a2b7a71db58f8b4fe2406f893c4357ccf", null ],
     [ "CreatureFrame_All", "db/d95/server_2main_8qc.html#ad554e5161275ecc9b8656a805c57a010", null ],
     [ "CreatureFrame_FallDamage", "db/d95/server_2main_8qc.html#ab7c42abf6b0be109dc3d1f64b33ea277", null ],
     [ "CreatureFrame_hotliquids", "db/d95/server_2main_8qc.html#ab040f482f9f20fab4279b2f2caf806c8", null ],
     [ "CreatureFrame_Liquids", "db/d95/server_2main_8qc.html#a76853aeafe130f8c85d194596b3475c6", null ],
     [ "dedicated_print", "db/d95/server_2main_8qc.html#a0390f6703ace29f61655694b8821d84a", null ],
-    [ "expr_evaluate", "db/d95/server_2main_8qc.html#a561d61ff3f398e13794e58b7c4eefe32", null ],
     [ "main", "db/d95/server_2main_8qc.html#acdef7a1fd863a6d3770c1268cb06add3", null ],
     [ "Pause_TryPause", "db/d95/server_2main_8qc.html#a32d164732e884bd8c162fd1ff75f4b24", null ],
     [ "StartFrame", "db/d95/server_2main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1", null ],

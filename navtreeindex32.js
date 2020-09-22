@@ -1,5 +1,8 @@
 var NAVTREEINDEX32 =
 {
+"d3/dce/classXonoticTab.html#aad099a0549928c37867d05a5dde2a511":[1,0,254,79],
+"d3/dce/classXonoticTab.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,254,78],
+"d3/dce/classXonoticTab.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,254,38],
 "d3/dce/classXonoticTab.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,254,6],
 "d3/dce/classXonoticTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,254,46],
 "d3/dce/classXonoticTab.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,254,55],
@@ -38,9 +41,9 @@ var NAVTREEINDEX32 =
 "d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87":[2,0,4,52,24],
 "d3/dd0/self_8qh.html#a15aa1aefc40b6101fd278636531103d1":[2,0,4,52,4],
 "d3/dd0/self_8qh.html#a203e953e46ef05b0373f8bccaeb5378c":[2,0,4,52,15],
-"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,12],
-"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,11],
 "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,10],
+"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,11],
+"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,12],
 "d3/dd0/self_8qh.html#a259aac00ed43fd7ac58196b770963525":[2,0,4,52,6],
 "d3/dd0/self_8qh.html#a29c098c7bd67a60d2dd9d94db782aaa6":[2,0,4,52,0],
 "d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8":[2,0,4,52,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX32 =
 "d3/de1/cl__physics_8qc.html#a6fedf9253d02f5b700db55425ff16368":[2,0,3,2,2,6],
 "d3/de1/cl__physics_8qc.html#aa4d68982e5ca4141554c3510a02fa0b2":[2,0,3,2,2,5],
 "d3/de1/cl__physics_8qc.html#ac53d59b489abbc3503122f45b66a33cf":[2,0,3,2,2,2],
-"d3/de1/cl__physics_8qc.html#ae1cea1af66c766eadc75f5285878d39e":[2,0,3,2,2,1],
-"d3/de1/cl__physics_8qc_source.html":[2,0,3,2,2],
-"d3/de2/effectinfo_8qh.html":[2,0,1,2,9],
-"d3/de2/effectinfo_8qh_source.html":[2,0,1,2,9]
+"d3/de1/cl__physics_8qc.html#ae1cea1af66c766eadc75f5285878d39e":[2,0,3,2,2,1]
 };
