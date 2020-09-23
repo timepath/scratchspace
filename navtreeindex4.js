@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"d0/d81/classRifle.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,117,15],
+"d0/d81/classRifle.html#a62733317377efccb19770f9b187ae35c":[1,0,117,26],
 "d0/d81/classRifle.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,117,9],
 "d0/d81/classRifle.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,117,8],
 "d0/d81/classRifle.html#a7515d4131829927372fd6583d4ae610a":[1,0,117,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "d0/da2/ui__damagetext_8qc_source.html":[2,0,1,10,0,6,8],
 "d0/da3/mortar_8qc.html":[2,0,1,16,0,24],
 "d0/da3/mortar_8qc_source.html":[2,0,1,16,0,24],
-"d0/da4/damagetext_8qc.html":[2,0,1,10,0,6,4],
-"d0/da4/damagetext_8qc_source.html":[2,0,1,10,0,6,4],
-"d0/da5/domination_8qc.html":[2,0,1,3,0,5,4]
+"d0/da4/damagetext_8qc.html":[2,0,1,10,0,6,4]
 };

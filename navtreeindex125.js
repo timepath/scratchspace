@@ -1,16 +1,11 @@
 var NAVTREEINDEX125 =
 {
-"de/d2b/world_8qh.html#ab993c6c2a33d6c7c7c02b37d69369e95":[2,0,6,71,30],
-"de/d2b/world_8qh.html#abdc99ad43dd04e9cbb553b29c187b1e3":[2,0,6,71,34],
-"de/d2b/world_8qh.html#ad7fc484679de15d0e8c8c18b992c7c75":[2,0,6,71,37],
-"de/d2b/world_8qh.html#add83fd5315717e2ba6c0e1465dbb312e":[2,0,6,71,10],
-"de/d2b/world_8qh.html#ae6b751db2a559cc7c074785cdb419db7":[2,0,6,71,44],
-"de/d2b/world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64":[2,0,6,71,5],
-"de/d2b/world_8qh.html#af289ce9e49626ec727198c2d334299bd":[2,0,6,71,36],
-"de/d2b/world_8qh.html#afa49ea11bc4dd382cd2f042e7c94dcce":[2,0,6,71,38],
-"de/d2b/world_8qh.html#afb10ce782240d13640d1abd13fbb88d5":[2,0,6,71,26],
-"de/d2b/world_8qh.html#afb83b1d6cc1d1144d6db6342f3d0f4cc":[2,0,6,71,19],
-"de/d2b/world_8qh_source.html":[2,0,6,71],
+"de/d2b/world_8qh.html#af289ce9e49626ec727198c2d334299bd":[2,0,6,73,23],
+"de/d2b/world_8qh.html#afa49ea11bc4dd382cd2f042e7c94dcce":[2,0,6,73,26],
+"de/d2b/world_8qh.html#afb10ce782240d13640d1abd13fbb88d5":[2,0,6,73,15],
+"de/d2b/world_8qh.html#afb83b1d6cc1d1144d6db6342f3d0f4cc":[2,0,6,73,8],
+"de/d2b/world_8qh.html#afda7c0d2e9429b1eb3477891bc970dad":[2,0,6,73,24],
+"de/d2b/world_8qh_source.html":[2,0,6,73],
 "de/d2e/train_8qc.html":[2,0,1,6,0,32],
 "de/d2e/train_8qc.html#a30d24da0513abca491c62e4a9edca12f":[2,0,1,6,0,32,1],
 "de/d2e/train_8qc.html#a430911ebac04a400f968088c40c897b9":[2,0,1,6,0,32,4],
@@ -249,5 +244,10 @@ var NAVTREEINDEX125 =
 "de/d42/classXonoticCheckBox.html#a4cec67ef8bea911bbbe8e837e8c1f4fe":[1,0,155,80],
 "de/d42/classXonoticCheckBox.html#a4cf08b5cf5b03694b1ab99f4eb3cd6da":[1,0,155,7],
 "de/d42/classXonoticCheckBox.html#a4dbc2c83662223b24dabae8a368608a3":[1,0,155,70],
-"de/d42/classXonoticCheckBox.html#a551caf43464ecebace012d2b272c7bad":[1,0,155,14]
+"de/d42/classXonoticCheckBox.html#a551caf43464ecebace012d2b272c7bad":[1,0,155,14],
+"de/d42/classXonoticCheckBox.html#a56159c764874bed976add81f81298c31":[1,0,155,51],
+"de/d42/classXonoticCheckBox.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,155,56],
+"de/d42/classXonoticCheckBox.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,155,24],
+"de/d42/classXonoticCheckBox.html#a5acde129549a09a7c5e99b8bc5555ebd":[1,0,155,30],
+"de/d42/classXonoticCheckBox.html#a60728efd6ea2f63e9162ca294f2f240f":[1,0,155,45]
 };

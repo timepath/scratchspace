@@ -1,11 +1,5 @@
 var NAVTREEINDEX138 =
 {
-"df/dad/sv__spawner_8qh.html#a6dc66623f06daa36544b6934c48d9291":[2,0,1,9,11,0],
-"df/dad/sv__spawner_8qh_source.html":[2,0,1,9,11],
-"df/daf/dialog__teamselect_8qh.html":[2,0,5,4,165],
-"df/daf/dialog__teamselect_8qh_source.html":[2,0,5,4,165],
-"df/db0/powerups_8qc.html":[2,0,0,1,0,22],
-"df/db0/powerups_8qc.html#a0548d6d5f32ee93186047be9beff7348":[2,0,0,1,0,22,0],
 "df/db0/powerups_8qc.html#a1f1fca7e9f1d6a7ac9bf7bf9f89b169f":[2,0,0,1,0,22,10],
 "df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa":[2,0,0,1,0,22,9],
 "df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a":[2,0,0,1,0,22,7],
@@ -249,5 +243,11 @@ var NAVTREEINDEX138 =
 "df/dd4/navigation_8qh.html#a24a370ed44545a4fdc8a2ca88bdc2495":[2,0,6,0,0,10,60],
 "df/dd4/navigation_8qh.html#a2bddda1e5dde114cb54229e3cc64add6":[2,0,6,0,0,10,22],
 "df/dd4/navigation_8qh.html#a3545d4b908556370a03deb1e4f1e50e4":[2,0,6,0,0,10,51],
-"df/dd4/navigation_8qh.html#a376ae543437e85413013fbf01dcc2cf4":[2,0,6,0,0,10,26]
+"df/dd4/navigation_8qh.html#a376ae543437e85413013fbf01dcc2cf4":[2,0,6,0,0,10,26],
+"df/dd4/navigation_8qh.html#a3ac8ce540ecde9fbb20e7fa61992e841":[2,0,6,0,0,10,23],
+"df/dd4/navigation_8qh.html#a41ae5feccac6ff531c3b366fe44df8d5":[2,0,6,0,0,10,10],
+"df/dd4/navigation_8qh.html#a4a4aceb6f7817ca9c248f2f4232847fb":[2,0,6,0,0,10,80],
+"df/dd4/navigation_8qh.html#a4c86184e4fc608ec47e05f5170a57d13":[2,0,6,0,0,10,102],
+"df/dd4/navigation_8qh.html#a4f6df0b09261c6ab970eb8088d00d8ce":[2,0,6,0,0,10,64],
+"df/dd4/navigation_8qh.html#a509e4108f91a57398a2fdcc494471d03":[2,0,6,0,0,10,47]
 };

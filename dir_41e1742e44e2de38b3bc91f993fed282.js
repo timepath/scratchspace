@@ -34,6 +34,8 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "hook.qh", "de/de7/server_2hook_8qh.html", "de/de7/server_2hook_8qh" ],
     [ "impulse.qc", "d4/d53/server_2impulse_8qc.html", "d4/d53/server_2impulse_8qc" ],
     [ "impulse.qh", "d3/dd1/server_2impulse_8qh.html", "d3/dd1/server_2impulse_8qh" ],
+    [ "intermission.qc", "d6/dc4/intermission_8qc.html", "d6/dc4/intermission_8qc" ],
+    [ "intermission.qh", "d3/d00/intermission_8qh.html", "d3/d00/intermission_8qh" ],
     [ "ipban.qc", "d6/d95/ipban_8qc.html", "d6/d95/ipban_8qc" ],
     [ "ipban.qh", "da/ddd/ipban_8qh.html", "da/ddd/ipban_8qh" ],
     [ "main.qc", "db/d95/server_2main_8qc.html", "db/d95/server_2main_8qc" ],

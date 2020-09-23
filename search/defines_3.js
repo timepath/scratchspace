@@ -7,7 +7,7 @@ var searchData=
   ['case',['CASE',['../da/dd5/enumclass_8qh.html#ab9035c4cdfdbaa88cf7ec5cc33a5c6f8',1,'enumclass.qh']]],
   ['case_5fcolor_5fbetween',['CASE_COLOR_BETWEEN',['../d7/d15/hud_8qc.html#adfe54251d2fc3e5ec43813389afc2e48',1,'hud.qc']]],
   ['cat',['CAT',['../d3/dc9/macro_8qh.html#a9404439ed46dc67d489a7d4ec2853e8f',1,'macro.qh']]],
-  ['center_5for_5fviewofs',['CENTER_OR_VIEWOFS',['../dc/d73/server_2miscfunctions_8qh.html#afbe404306e2934634cd9f0d90fd177de',1,'miscfunctions.qh']]],
+  ['center_5for_5fviewofs',['CENTER_OR_VIEWOFS',['../db/d7a/utils_8qh.html#afbe404306e2934634cd9f0d90fd177de',1,'utils.qh']]],
   ['changeyaw',['ChangeYaw',['../d2/d77/pre_8qh.html#acfc02c0fbdcbeabc16e0464a468b680f',1,'ChangeYaw():&#160;pre.qh'],['../d3/dd0/self_8qh.html#ac84d1104dbf6b831fbad7f3de6a8cf02',1,'ChangeYaw():&#160;self.qh']]],
   ['chat_5fnospectators',['CHAT_NOSPECTATORS',['../df/dd7/server_2client_8qc.html#aac84c4d5d23a22bd1323778eccf1461f',1,'client.qc']]],
   ['check_5fmax_5fcount',['CHECK_MAX_COUNT',['../de/d68/accumulate_8qh.html#a63caa863ede3c6510744c01983e44648',1,'accumulate.qh']]],

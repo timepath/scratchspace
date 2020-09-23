@@ -1,5 +1,7 @@
 var server_2items_2items_8qh =
 [
+    [ "ITEM_DAMAGE_NEEDKILL", "d0/d7d/server_2items_2items_8qh.html#a2f3f7e33fb5bc60212a8074ff9b80595", null ],
+    [ "ITEM_TOUCH_NEEDKILL", "d0/d7d/server_2items_2items_8qh.html#a277f5e186f80cd980204cb7d55042890", null ],
     [ "POSTGIVE_BIT", "d0/d7d/server_2items_2items_8qh.html#ad671dda114daa60831578436ae46a2e3", null ],
     [ "POSTGIVE_RES_ROT", "d0/d7d/server_2items_2items_8qh.html#ac114400383d0d06db4c6dc3fa1681861", null ],
     [ "POSTGIVE_RESOURCE", "d0/d7d/server_2items_2items_8qh.html#a533ed956e96b795bdb88d6b16e75e358", null ],

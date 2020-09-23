@@ -1,10 +1,12 @@
 var utils_8qh =
 [
+    [ "CENTER_OR_VIEWOFS", "db/d7a/utils_8qh.html#afbe404306e2934634cd9f0d90fd177de", null ],
     [ "FOREACH_CLIENT", "db/d7a/utils_8qh.html#ad6899d5b7306a3f21411585f6abaf582", null ],
     [ "FOREACH_CLIENT_RANDOM", "db/d7a/utils_8qh.html#a23966e9853bfb39fe617977fe295109e", null ],
     [ "FOREACH_CLIENTSLOT", "db/d7a/utils_8qh.html#adf328897d1616cff8023e9639f6e68ec", null ],
     [ "IS_BOT_CLIENT", "db/d7a/utils_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6", null ],
     [ "IS_CLIENT", "db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834", null ],
+    [ "IS_DEAD", "db/d7a/utils_8qh.html#a30122e95b404a119ce026ed3b92d0944", null ],
     [ "IS_FAKE_CLIENT", "db/d7a/utils_8qh.html#ade2cd0e40162e24f9205797020945ead", null ],
     [ "IS_MONSTER", "db/d7a/utils_8qh.html#a8d1a59561876620071f4bf87b78471ab", null ],
     [ "IS_MOVABLE", "db/d7a/utils_8qh.html#ad9d8c863d951f605f922daf128e74408", null ],

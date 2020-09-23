@@ -140,7 +140,7 @@ var sectionId = 'dynsection-3';
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../de/d2b/world_8qh.html#a9e369a2585eeee66299a21fc034e9cc1" target="_top" xlink:title="DoNextMapOverride">
+<g id="a_node6"><a xlink:href="../../d3/d00/intermission_8qh.html#a9e369a2585eeee66299a21fc034e9cc1" target="_top" xlink:title="DoNextMapOverride">
 <polygon fill="none" stroke="black" points="341.5,-88 341.5,-107 454.5,-107 454.5,-88 341.5,-88"/>
 <text text-anchor="middle" x="398" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">DoNextMapOverride</text>
 </a>
@@ -166,28 +166,28 @@ var sectionId = 'dynsection-3';
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../dd/dbe/world_8qc.html#a8dce5fe1733c12f65d15354bf9d4f3b0" target="_top" xlink:title="GotoFirstMap">
-<polygon fill="none" stroke="black" points="511.5,-83 511.5,-102 591.5,-102 591.5,-83 511.5,-83"/>
-<text text-anchor="middle" x="551.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">GotoFirstMap</text>
+<g id="a_node10"><a xlink:href="../../d3/d00/intermission_8qh.html#a456cb75445f7a05a80d7a6f3d2e2f8ae" target="_top" xlink:title="GotoMap">
+<polygon fill="none" stroke="black" points="521.5,-83 521.5,-102 581.5,-102 581.5,-83 521.5,-83"/>
+<text text-anchor="middle" x="551.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">GotoMap</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node10 -->
 <g id="edge10" class="edge"><title>Node6&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M464.802,-95.3283C480.572,-94.8079 496.927,-94.2681 511.069,-93.8014"/>
+<path fill="none" stroke="midnightblue" d="M464.774,-95.3293C484.535,-94.6771 505.219,-93.9944 521.317,-93.4631"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="464.432,-91.8385 454.553,-95.6666 464.663,-98.8347 464.432,-91.8385"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../dd/dbe/world_8qc.html#a456cb75445f7a05a80d7a6f3d2e2f8ae" target="_top" xlink:title="GotoMap">
-<polygon fill="none" stroke="black" points="521.5,-45 521.5,-64 581.5,-64 581.5,-45 521.5,-45"/>
-<text text-anchor="middle" x="551.5" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00">GotoMap</text>
+<!-- Node13 -->
+<g id="node13" class="node"><title>Node13</title>
+<g id="a_node13"><a xlink:href="../../dd/dbe/world_8qc.html#a8dce5fe1733c12f65d15354bf9d4f3b0" target="_top" xlink:title="GotoFirstMap">
+<polygon fill="none" stroke="black" points="511.5,-45 511.5,-64 591.5,-64 591.5,-45 511.5,-45"/>
+<text text-anchor="middle" x="551.5" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00">GotoFirstMap</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node12 -->
-<g id="edge12" class="edge"><title>Node6&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M442.321,-85.2043C467.545,-78.0451 498.682,-69.2074 521.065,-62.8546"/>
+<!-- Node6&#45;&gt;Node13 -->
+<g id="edge13" class="edge"><title>Node6&#45;&gt;Node13</title>
+<path fill="none" stroke="midnightblue" d="M442.426,-85.1743C466.127,-78.4475 495.023,-70.2459 516.971,-64.0164"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="441.287,-81.8594 432.623,-87.9569 443.198,-88.5934 441.287,-81.8594"/>
 </g>
 <!-- Node8 -->
@@ -223,42 +223,42 @@ var sectionId = 'dynsection-3';
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../dd/dbe/world_8qc.html#a61bd70129e557ffad13fa1c21a5d9af3" target="_top" xlink:title="spawnfunc">
-<polygon fill="none" stroke="black" points="682,-83 682,-102 749,-102 749,-83 682,-83"/>
-<text text-anchor="middle" x="715.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">spawnfunc</text>
+<g id="a_node11"><a xlink:href="../../d3/df2/sv__cmd_8qc.html#a20ad1043611c41658816546fdf97d05c" target="_top" xlink:title="GameCommand_gotomap">
+<polygon fill="none" stroke="black" points="643,-83 643,-102 788,-102 788,-83 643,-83"/>
+<text text-anchor="middle" x="715.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">GameCommand_gotomap</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge11" class="edge"><title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M601.764,-92.5C627.762,-92.5 658.942,-92.5 681.915,-92.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="601.716,-89.0001 591.716,-92.5 601.716,-96.0001 601.716,-89.0001"/>
+<path fill="none" stroke="midnightblue" d="M591.997,-92.5C607.362,-92.5 625.457,-92.5 642.954,-92.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="591.837,-89.0001 581.837,-92.5 591.837,-96.0001 591.837,-89.0001"/>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d3/df2/sv__cmd_8qc.html#a20ad1043611c41658816546fdf97d05c" target="_top" xlink:title="GameCommand_gotomap">
-<polygon fill="none" stroke="black" points="643,-45 643,-64 788,-64 788,-45 643,-45"/>
-<text text-anchor="middle" x="715.5" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00">GameCommand_gotomap</text>
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="../../d3/df2/sv__cmd_8qc.html#a69ce89299f404a790d80ba01b58751ec" target="_top" xlink:title="SERVER_COMMAND">
+<polygon fill="none" stroke="black" points="824,-83 824,-102 935,-102 935,-83 824,-83"/>
+<text text-anchor="middle" x="879.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">SERVER_COMMAND</text>
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node13 -->
-<g id="edge13" class="edge"><title>Node12&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M591.997,-54.5C607.362,-54.5 625.457,-54.5 642.954,-54.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="591.837,-51.0001 581.837,-54.5 591.837,-58.0001 591.837,-51.0001"/>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge12" class="edge"><title>Node11&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M798.226,-92.5C806.929,-92.5 815.622,-92.5 823.901,-92.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="798.027,-89.0001 788.027,-92.5 798.027,-96.0001 798.027,-89.0001"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="../../d3/df2/sv__cmd_8qc.html#a69ce89299f404a790d80ba01b58751ec" target="_top" xlink:title="SERVER_COMMAND">
-<polygon fill="none" stroke="black" points="824,-45 824,-64 935,-64 935,-45 824,-45"/>
-<text text-anchor="middle" x="879.5" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00">SERVER_COMMAND</text>
+<g id="a_node14"><a xlink:href="../../dd/dbe/world_8qc.html#a61bd70129e557ffad13fa1c21a5d9af3" target="_top" xlink:title="spawnfunc">
+<polygon fill="none" stroke="black" points="682,-45 682,-64 749,-64 749,-45 682,-45"/>
+<text text-anchor="middle" x="715.5" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00">spawnfunc</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node14 -->
 <g id="edge14" class="edge"><title>Node13&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M798.226,-54.5C806.929,-54.5 815.622,-54.5 823.901,-54.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="798.027,-51.0001 788.027,-54.5 798.027,-58.0001 798.027,-51.0001"/>
+<path fill="none" stroke="midnightblue" d="M601.764,-54.5C627.762,-54.5 658.942,-54.5 681.915,-54.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="601.716,-51.0001 591.716,-54.5 601.716,-58.0001 601.716,-51.0001"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>

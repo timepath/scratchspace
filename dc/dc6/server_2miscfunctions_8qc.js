@@ -19,7 +19,6 @@ var server_2miscfunctions_8qc =
     [ "InitializeEntitiesRun", "dc/dc6/server_2miscfunctions_8qc.html#a504192d334de7d4502ffbaa71c6b8228", null ],
     [ "InitializeEntity", "dc/dc6/server_2miscfunctions_8qc.html#aef9b6a1e3d47e62ce4d96e73b3dba237", null ],
     [ "LostMovetypeFollow", "dc/dc6/server_2miscfunctions_8qc.html#adb60a180886d4dfa682f79bf827c5ce4", null ],
-    [ "make_safe_for_remove", "dc/dc6/server_2miscfunctions_8qc.html#a512d742bedcc9a27b9fa5fe4b3d9ab86", null ],
     [ "MoveToRandomLocationWithinBounds", "dc/dc6/server_2miscfunctions_8qc.html#ae87ca4212982681c43d9bddeca162345", null ],
     [ "MoveToRandomMapLocation", "dc/dc6/server_2miscfunctions_8qc.html#aa93bfe50de097cc229818a2822f45a45", null ],
     [ "NearestLocation", "dc/dc6/server_2miscfunctions_8qc.html#a58725b844cf250403708dcbb8b81ce07", null ],
@@ -30,9 +29,6 @@ var server_2miscfunctions_8qc =
     [ "precache_playermodel", "dc/dc6/server_2miscfunctions_8qc.html#aca8c7fffaf94bfb8d4b962bc6b1dd9fe", null ],
     [ "precache_playermodels", "dc/dc6/server_2miscfunctions_8qc.html#ac5ac170cb0adc7b07823ff7faf9fb6a5", null ],
     [ "readplayerstartcvars", "dc/dc6/server_2miscfunctions_8qc.html#adac48834b44f2430043098916e291251", null ],
-    [ "remove_except_protected", "dc/dc6/server_2miscfunctions_8qc.html#aa16293e20d9c95cd2706a83a9e1fe8fb", null ],
-    [ "remove_safely", "dc/dc6/server_2miscfunctions_8qc.html#a0214f10fac80584471e106daa9bbd656", null ],
-    [ "remove_unsafely", "dc/dc6/server_2miscfunctions_8qc.html#a4e74ce1d2075c282aed288a570b9bd0f", null ],
     [ "SetMovetypeFollow", "dc/dc6/server_2miscfunctions_8qc.html#a0de4787aed1c8c80a23725b4708dfa75", null ],
     [ "SUB_NoImpactCheck", "dc/dc6/server_2miscfunctions_8qc.html#a91ea4b67745c35eca3b72b1c8c0fb8a6", null ],
     [ "trace_hits_box", "dc/dc6/server_2miscfunctions_8qc.html#ac0fb8d3651371f4916d29974d721fa47", null ],
@@ -57,7 +53,6 @@ var server_2miscfunctions_8qc =
     [ "write_recordmarker", "dc/dc6/server_2miscfunctions_8qc.html#a450084bb9c01e6e3fe55aa6027d4580f", null ],
     [ "aiment_classname", "dc/dc6/server_2miscfunctions_8qc.html#a57c6890f25ac5cfdf263a9a467577480", null ],
     [ "aiment_deadflag", "dc/dc6/server_2miscfunctions_8qc.html#a624314975ec1563eb689b613d886d64d", null ],
-    [ "remove_except_protected_forbidden", "dc/dc6/server_2miscfunctions_8qc.html#a389c6b4301cce5d979b54108aaf6462c", null ],
     [ "trace_hits_box_a0", "dc/dc6/server_2miscfunctions_8qc.html#a8a8585c86235a416016c668911294b89", null ],
     [ "trace_hits_box_a1", "dc/dc6/server_2miscfunctions_8qc.html#a3c8f4c7b30b977c36ad3a6648e10d0fd", null ]
 ];

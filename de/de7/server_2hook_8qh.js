@@ -1,6 +1,5 @@
 var server_2hook_8qh =
 [
-    [ "GrappleHookInit", "de/de7/server_2hook_8qh.html#a38e80451284a344ffa9c9976e3fe3e2b", null ],
     [ "GrapplingHookThink", "de/de7/server_2hook_8qh.html#adf8618e75e4ca34d6ec87bd20ef2657d", null ],
     [ "RemoveGrapplingHooks", "de/de7/server_2hook_8qh.html#a64ba7a609a960c8d06b3c23e6c4d80f4", null ],
     [ "RemoveHook", "de/de7/server_2hook_8qh.html#a50f68d93243e10c5a552caae3c7a2413", null ],
