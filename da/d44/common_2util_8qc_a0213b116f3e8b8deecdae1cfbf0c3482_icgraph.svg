@@ -126,7 +126,7 @@ var sectionId = 'dynsection-50';
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d8/de2/server_2client_8qh.html#abb0f165077ac886332b821ac30314b8a" target="_top" xlink:title="message &quot;&quot;: do not say, just test flood control return value: 1 = accept 0 = reject &#45;1 = fake accept ...">
+<g id="a_node4"><a xlink:href="../../d1/d9c/server_2chat_8qh.html#abb0f165077ac886332b821ac30314b8a" target="_top" xlink:title="message &quot;&quot;: do not say, just test flood control return value: 1 = accept 0 = reject &#45;1 = fake accept ...">
 <polygon fill="none" stroke="black" points="551.5,-1829.5 551.5,-1848.5 586.5,-1848.5 586.5,-1829.5 551.5,-1829.5"/>
 <text text-anchor="middle" x="569" y="-1836.5" font-family="Helvetica,sans-Serif" font-size="10.00">Say</text>
 </a>
@@ -139,35 +139,35 @@ var sectionId = 'dynsection-50';
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d7/d8c/server_2matrix_8qc.html#af5102d8297bde7ad33c004e9f81e6e3b" target="_top" xlink:title="MX_Handle">
-<polygon fill="none" stroke="black" points="751,-1791.5 751,-1810.5 821,-1810.5 821,-1791.5 751,-1791.5"/>
-<text text-anchor="middle" x="786" y="-1798.5" font-family="Helvetica,sans-Serif" font-size="10.00">MX_Handle</text>
+<g id="a_node5"><a xlink:href="../../d8/d1d/cmd_8qc.html#abbf460d51ea76590ef45741995425f19" target="_top" xlink:title="ClientCommand_say">
+<polygon fill="none" stroke="black" points="728,-1791.5 728,-1810.5 844,-1810.5 844,-1791.5 728,-1791.5"/>
+<text text-anchor="middle" x="786" y="-1798.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientCommand_say</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M596.534,-1834.31C635.401,-1827.44 707.835,-1814.64 750.699,-1807.06"/>
+<path fill="none" stroke="midnightblue" d="M596.419,-1834.33C629.773,-1828.44 687.978,-1818.15 730.926,-1810.56"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="595.752,-1830.89 586.514,-1836.08 596.97,-1837.79 595.752,-1830.89"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d8/d1d/cmd_8qc.html#abbf460d51ea76590ef45741995425f19" target="_top" xlink:title="ClientCommand_say">
-<polygon fill="none" stroke="black" points="728,-1905.5 728,-1924.5 844,-1924.5 844,-1905.5 728,-1905.5"/>
-<text text-anchor="middle" x="786" y="-1912.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientCommand_say</text>
+<g id="a_node6"><a xlink:href="../../d8/d1d/cmd_8qc.html#ad58ae118ed5046354465c83ab676637e" target="_top" xlink:title="ClientCommand_say_team">
+<polygon fill="none" stroke="black" points="713,-1905.5 713,-1924.5 859,-1924.5 859,-1905.5 713,-1905.5"/>
+<text text-anchor="middle" x="786" y="-1912.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientCommand_say_team</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node4&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M596.804,-1840.93C614.306,-1843.14 637.139,-1847.86 655,-1858 675.234,-1869.48 670.65,-1884.73 691,-1896 702.214,-1902.21 715.186,-1906.41 727.844,-1909.24"/>
+<path fill="none" stroke="midnightblue" d="M596.804,-1840.93C614.306,-1843.14 637.139,-1847.86 655,-1858 675.234,-1869.48 670.65,-1884.73 691,-1896 697.991,-1899.87 705.664,-1902.96 713.519,-1905.42"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="597,-1837.43 586.687,-1839.86 596.261,-1844.39 597,-1837.43"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d8/d1d/cmd_8qc.html#ad58ae118ed5046354465c83ab676637e" target="_top" xlink:title="ClientCommand_say_team">
-<polygon fill="none" stroke="black" points="713,-1867.5 713,-1886.5 859,-1886.5 859,-1867.5 713,-1867.5"/>
-<text text-anchor="middle" x="786" y="-1874.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientCommand_say_team</text>
+<g id="a_node7"><a xlink:href="../../d8/d1d/cmd_8qc.html#a6a487ac8c19cb81bdc5e6be5c57e2567" target="_top" xlink:title="ClientCommand_tell">
+<polygon fill="none" stroke="black" points="729.5,-1867.5 729.5,-1886.5 842.5,-1886.5 842.5,-1867.5 729.5,-1867.5"/>
+<text text-anchor="middle" x="786" y="-1874.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientCommand_tell</text>
 </a>
 </g>
 </g>
@@ -178,15 +178,15 @@ var sectionId = 'dynsection-50';
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d8/d1d/cmd_8qc.html#a6a487ac8c19cb81bdc5e6be5c57e2567" target="_top" xlink:title="ClientCommand_tell">
-<polygon fill="none" stroke="black" points="729.5,-1829.5 729.5,-1848.5 842.5,-1848.5 842.5,-1829.5 729.5,-1829.5"/>
-<text text-anchor="middle" x="786" y="-1836.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientCommand_tell</text>
+<g id="a_node8"><a xlink:href="../../d7/d8c/server_2matrix_8qc.html#af5102d8297bde7ad33c004e9f81e6e3b" target="_top" xlink:title="MX_Handle">
+<polygon fill="none" stroke="black" points="751,-1829.5 751,-1848.5 821,-1848.5 821,-1829.5 751,-1829.5"/>
+<text text-anchor="middle" x="786" y="-1836.5" font-family="Helvetica,sans-Serif" font-size="10.00">MX_Handle</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node8 -->
 <g id="edge7" class="edge"><title>Node4&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M596.707,-1839C629.629,-1839 686.443,-1839 729.075,-1839"/>
+<path fill="none" stroke="midnightblue" d="M596.534,-1839C635.401,-1839 707.835,-1839 750.699,-1839"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="596.514,-1835.5 586.514,-1839 596.514,-1842.5 596.514,-1835.5"/>
 </g>
 <!-- Node11 -->
@@ -545,7 +545,7 @@ var sectionId = 'dynsection-50';
 </g>
 <!-- Node36 -->
 <g id="node36" class="node"><title>Node36</title>
-<g id="a_node36"><a xlink:href="../../dc/d2b/chat_8qc.html#a008d4ee087388abdbf0ccb7377b13387" target="_top" xlink:title="HUD_Chat">
+<g id="a_node36"><a xlink:href="../../d4/d58/client_2hud_2panel_2chat_8qc.html#a008d4ee087388abdbf0ccb7377b13387" target="_top" xlink:title="HUD_Chat">
 <polygon fill="none" stroke="black" points="535.5,-620.5 535.5,-639.5 602.5,-639.5 602.5,-620.5 535.5,-620.5"/>
 <text text-anchor="middle" x="569" y="-627.5" font-family="Helvetica,sans-Serif" font-size="10.00">HUD_Chat</text>
 </a>

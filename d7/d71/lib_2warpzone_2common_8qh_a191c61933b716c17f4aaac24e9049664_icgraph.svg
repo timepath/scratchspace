@@ -1371,7 +1371,7 @@ var sectionId = 'dynsection-4';
 </g>
 <!-- Node86 -->
 <g id="node86" class="node"><title>Node86</title>
-<g id="a_node86"><a xlink:href="../../dc/d73/server_2miscfunctions_8qh.html#aa2ad35c3e1dd50ef39b80d690512357a" target="_top" xlink:title="formatmessage">
+<g id="a_node86"><a xlink:href="../../d1/d9c/server_2chat_8qh.html#aa2ad35c3e1dd50ef39b80d690512357a" target="_top" xlink:title="formatmessage">
 <polygon fill="none" stroke="black" points="1684.5,-141.5 1684.5,-160.5 1777.5,-160.5 1777.5,-141.5 1684.5,-141.5"/>
 <text text-anchor="middle" x="1731" y="-148.5" font-family="Helvetica,sans-Serif" font-size="10.00">formatmessage</text>
 </a>
@@ -1397,7 +1397,7 @@ var sectionId = 'dynsection-4';
 </g>
 <!-- Node87 -->
 <g id="node87" class="node"><title>Node87</title>
-<g id="a_node87"><a xlink:href="../../d8/de2/server_2client_8qh.html#abb0f165077ac886332b821ac30314b8a" target="_top" xlink:title="message &quot;&quot;: do not say, just test flood control return value: 1 = accept 0 = reject &#45;1 = fake accept ...">
+<g id="a_node87"><a xlink:href="../../d1/d9c/server_2chat_8qh.html#abb0f165077ac886332b821ac30314b8a" target="_top" xlink:title="message &quot;&quot;: do not say, just test flood control return value: 1 = accept 0 = reject &#45;1 = fake accept ...">
 <polygon fill="none" stroke="black" points="1909.5,-141.5 1909.5,-160.5 1944.5,-160.5 1944.5,-141.5 1909.5,-141.5"/>
 <text text-anchor="middle" x="1927" y="-148.5" font-family="Helvetica,sans-Serif" font-size="10.00">Say</text>
 </a>
@@ -1410,35 +1410,35 @@ var sectionId = 'dynsection-4';
 </g>
 <!-- Node88 -->
 <g id="node88" class="node"><title>Node88</title>
-<g id="a_node88"><a xlink:href="../../d7/d8c/server_2matrix_8qc.html#af5102d8297bde7ad33c004e9f81e6e3b" target="_top" xlink:title="MX_Handle">
-<polygon fill="none" stroke="black" points="2083,-160.5 2083,-179.5 2153,-179.5 2153,-160.5 2083,-160.5"/>
-<text text-anchor="middle" x="2118" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">MX_Handle</text>
+<g id="a_node88"><a xlink:href="../../d8/d1d/cmd_8qc.html#abbf460d51ea76590ef45741995425f19" target="_top" xlink:title="ClientCommand_say">
+<polygon fill="none" stroke="black" points="2060,-160.5 2060,-179.5 2176,-179.5 2176,-160.5 2060,-160.5"/>
+<text text-anchor="middle" x="2118" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientCommand_say</text>
 </a>
 </g>
 </g>
 <!-- Node87&#45;&gt;Node88 -->
 <g id="edge107" class="edge"><title>Node87&#45;&gt;Node88</title>
-<path fill="none" stroke="midnightblue" d="M1954.78,-153.693C1988.41,-157.073 2046.11,-162.874 2082.87,-166.569"/>
+<path fill="none" stroke="midnightblue" d="M1955.07,-153.721C1982.28,-156.456 2025.05,-160.756 2059.8,-164.25"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1955.07,-150.204 1944.77,-152.686 1954.37,-157.169 1955.07,-150.204"/>
 </g>
 <!-- Node89 -->
 <g id="node89" class="node"><title>Node89</title>
-<g id="a_node89"><a xlink:href="../../d8/d1d/cmd_8qc.html#abbf460d51ea76590ef45741995425f19" target="_top" xlink:title="ClientCommand_say">
-<polygon fill="none" stroke="black" points="2060,-122.5 2060,-141.5 2176,-141.5 2176,-122.5 2060,-122.5"/>
-<text text-anchor="middle" x="2118" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientCommand_say</text>
+<g id="a_node89"><a xlink:href="../../d8/d1d/cmd_8qc.html#ad58ae118ed5046354465c83ab676637e" target="_top" xlink:title="ClientCommand_say_team">
+<polygon fill="none" stroke="black" points="2045,-122.5 2045,-141.5 2191,-141.5 2191,-122.5 2045,-122.5"/>
+<text text-anchor="middle" x="2118" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientCommand_say_team</text>
 </a>
 </g>
 </g>
 <!-- Node87&#45;&gt;Node89 -->
 <g id="edge108" class="edge"><title>Node87&#45;&gt;Node89</title>
-<path fill="none" stroke="midnightblue" d="M1955.07,-148.279C1982.28,-145.544 2025.05,-141.244 2059.8,-137.75"/>
+<path fill="none" stroke="midnightblue" d="M1954.95,-148.291C1978.33,-145.94 2013.27,-142.428 2044.72,-139.266"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1954.37,-144.831 1944.77,-149.314 1955.07,-151.796 1954.37,-144.831"/>
 </g>
 <!-- Node90 -->
 <g id="node90" class="node"><title>Node90</title>
-<g id="a_node90"><a xlink:href="../../d8/d1d/cmd_8qc.html#ad58ae118ed5046354465c83ab676637e" target="_top" xlink:title="ClientCommand_say_team">
-<polygon fill="none" stroke="black" points="2045,-84.5 2045,-103.5 2191,-103.5 2191,-84.5 2045,-84.5"/>
-<text text-anchor="middle" x="2118" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientCommand_say_team</text>
+<g id="a_node90"><a xlink:href="../../d8/d1d/cmd_8qc.html#a6a487ac8c19cb81bdc5e6be5c57e2567" target="_top" xlink:title="ClientCommand_tell">
+<polygon fill="none" stroke="black" points="2061.5,-84.5 2061.5,-103.5 2174.5,-103.5 2174.5,-84.5 2061.5,-84.5"/>
+<text text-anchor="middle" x="2118" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientCommand_tell</text>
 </a>
 </g>
 </g>
@@ -1449,15 +1449,15 @@ var sectionId = 'dynsection-4';
 </g>
 <!-- Node91 -->
 <g id="node91" class="node"><title>Node91</title>
-<g id="a_node91"><a xlink:href="../../d8/d1d/cmd_8qc.html#a6a487ac8c19cb81bdc5e6be5c57e2567" target="_top" xlink:title="ClientCommand_tell">
-<polygon fill="none" stroke="black" points="2061.5,-198.5 2061.5,-217.5 2174.5,-217.5 2174.5,-198.5 2061.5,-198.5"/>
-<text text-anchor="middle" x="2118" y="-205.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientCommand_tell</text>
+<g id="a_node91"><a xlink:href="../../d7/d8c/server_2matrix_8qc.html#af5102d8297bde7ad33c004e9f81e6e3b" target="_top" xlink:title="MX_Handle">
+<polygon fill="none" stroke="black" points="2083,-198.5 2083,-217.5 2153,-217.5 2153,-198.5 2083,-198.5"/>
+<text text-anchor="middle" x="2118" y="-205.5" font-family="Helvetica,sans-Serif" font-size="10.00">MX_Handle</text>
 </a>
 </g>
 </g>
 <!-- Node87&#45;&gt;Node91 -->
 <g id="edge110" class="edge"><title>Node87&#45;&gt;Node91</title>
-<path fill="none" stroke="midnightblue" d="M1954.21,-159.978C1977.84,-167.96 2013.59,-179.762 2045,-189 2056.04,-192.246 2068.1,-195.532 2079.15,-198.437"/>
+<path fill="none" stroke="midnightblue" d="M1954.21,-159.978C1977.84,-167.96 2013.59,-179.762 2045,-189 2057.28,-192.611 2070.83,-196.271 2082.83,-199.401"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1955.17,-156.606 1944.57,-156.707 1952.92,-163.235 1955.17,-156.606"/>
 </g>
 <!-- Node94&#45;&gt;Node67 -->

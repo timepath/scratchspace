@@ -16,6 +16,8 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "autocvars.qh", "d7/da7/server_2autocvars_8qh.html", "d7/da7/server_2autocvars_8qh" ],
     [ "campaign.qc", "de/d75/server_2campaign_8qc.html", "de/d75/server_2campaign_8qc" ],
     [ "campaign.qh", "dd/d66/server_2campaign_8qh.html", "dd/d66/server_2campaign_8qh" ],
+    [ "chat.qc", "d0/dc4/server_2chat_8qc.html", "d0/dc4/server_2chat_8qc" ],
+    [ "chat.qh", "d1/d9c/server_2chat_8qh.html", "d1/d9c/server_2chat_8qh" ],
     [ "cheats.qc", "d6/de9/cheats_8qc.html", "d6/de9/cheats_8qc" ],
     [ "cheats.qh", "d3/dca/cheats_8qh.html", "d3/dca/cheats_8qh" ],
     [ "client.qc", "df/dd7/server_2client_8qc.html", "df/dd7/server_2client_8qc" ],
