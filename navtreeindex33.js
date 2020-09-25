@@ -1,5 +1,9 @@
 var NAVTREEINDEX33 =
 {
+"d3/dd9/walker__weapon_8qh.html":[2,0,1,14,0,45],
+"d3/dd9/walker__weapon_8qh.html#aba4a1abba8de458250f977065ee98b98":[2,0,1,14,0,45,1],
+"d3/dd9/walker__weapon_8qh_source.html":[2,0,1,14,0,45],
+"d3/ddb/tuba_8qh.html":[2,0,1,16,0,37],
 "d3/ddb/tuba_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,37,1],
 "d3/ddb/tuba_8qh.html#a697b168b83e95ac006be5c58468b0280":[2,0,1,16,0,37,2],
 "d3/ddb/tuba_8qh_source.html":[2,0,1,16,0,37],
@@ -245,9 +249,5 @@ var NAVTREEINDEX33 =
 "d3/df2/sv__cmd_8qc_source.html":[2,0,6,1,14],
 "d3/df8/sv__breakablehook_8qh.html":[2,0,1,10,0,1,3],
 "d3/df8/sv__breakablehook_8qh_source.html":[2,0,1,10,0,1,3],
-"d3/df9/sv__minigames_8qh.html":[2,0,1,7,10],
-"d3/df9/sv__minigames_8qh.html#a1976bbbabc165580c5791d26bc54639b":[2,0,1,7,10,0],
-"d3/df9/sv__minigames_8qh.html#a3aa2a51b87b7c756617de798836d4be5":[2,0,1,7,10,13],
-"d3/df9/sv__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82":[2,0,1,7,10,12],
-"d3/df9/sv__minigames_8qh.html#a4d095007340d2f63138e93c1705dc92c":[2,0,1,7,10,9]
+"d3/df9/sv__minigames_8qh.html":[2,0,1,7,10]
 };

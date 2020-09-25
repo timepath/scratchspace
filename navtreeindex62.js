@@ -1,5 +1,9 @@
 var NAVTREEINDEX62 =
 {
+"d6/de1/classWalkerTurret.html#af6be3d70276923d5c9484516f3615677":[1,0,141,16],
+"d6/de1/common_2mapobjects_2target_2__mod_8inc.html":[2,0,1,6,2,0],
+"d6/de1/common_2mapobjects_2target_2__mod_8inc_source.html":[2,0,1,6,2,0],
+"d6/de5/cl__spawn__near__teammate_8qc.html":[2,0,1,10,0,32,2],
 "d6/de5/cl__spawn__near__teammate_8qc_source.html":[2,0,1,10,0,32,2],
 "d6/de7/dialog__multiplayer__media__demo_8qh.html":[2,0,5,4,103],
 "d6/de7/dialog__multiplayer__media__demo_8qh.html#a65d685f1b5403e58720176cd5f77f71e":[2,0,5,4,103,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX62 =
 "d7/d13/classXonoticHUDAmmoDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,185,83],
 "d7/d13/classXonoticHUDAmmoDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,185,61],
 "d7/d13/classXonoticHUDAmmoDialog.html#ad4b6509b543cad0281f4aa1dc91c7ac8":[1,0,185,58],
-"d7/d13/classXonoticHUDAmmoDialog.html#ad8f3ec4d9eb909085950cd3cc628042d":[1,0,185,22],
-"d7/d13/classXonoticHUDAmmoDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,185,86],
-"d7/d13/classXonoticHUDAmmoDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,185,29],
-"d7/d13/classXonoticHUDAmmoDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,185,60],
-"d7/d13/classXonoticHUDAmmoDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,185,53]
+"d7/d13/classXonoticHUDAmmoDialog.html#ad8f3ec4d9eb909085950cd3cc628042d":[1,0,185,22]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX32 =
 {
+"d3/dce/classXonoticTab.html":[1,0,254],
+"d3/dce/classXonoticTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,254,34],
+"d3/dce/classXonoticTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,254,15],
+"d3/dce/classXonoticTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,254,42],
 "d3/dce/classXonoticTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,254,9],
 "d3/dce/classXonoticTab.html#a086d32c9694472250922d42417bc8d66":[1,0,254,3],
 "d3/dce/classXonoticTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,254,76],
@@ -98,9 +102,9 @@ var NAVTREEINDEX32 =
 "d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87":[2,0,4,52,24],
 "d3/dd0/self_8qh.html#a15aa1aefc40b6101fd278636531103d1":[2,0,4,52,4],
 "d3/dd0/self_8qh.html#a203e953e46ef05b0373f8bccaeb5378c":[2,0,4,52,15],
-"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,12],
 "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,10],
 "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,11],
+"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,52,12],
 "d3/dd0/self_8qh.html#a259aac00ed43fd7ac58196b770963525":[2,0,4,52,6],
 "d3/dd0/self_8qh.html#a29c098c7bd67a60d2dd9d94db782aaa6":[2,0,4,52,0],
 "d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8":[2,0,4,52,20],
@@ -115,8 +119,8 @@ var NAVTREEINDEX32 =
 "d3/dd0/self_8qh.html#a624c0216024b958a39da9130aaf8c959":[2,0,4,52,23],
 "d3/dd0/self_8qh.html#a67462ca0b9ea239b3801ff8489218885":[2,0,4,52,18],
 "d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e":[2,0,4,52,8],
-"d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,4,52,14],
 "d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,4,52,13],
+"d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,4,52,14],
 "d3/dd0/self_8qh.html#ab0f9fbed8238871df6f5ff5609840aa3":[2,0,4,52,26],
 "d3/dd0/self_8qh.html#ab666435fc4955cc75aebf3360ee86861":[2,0,4,52,5],
 "d3/dd0/self_8qh.html#aba1f01394a0aa649fde132cb094e7111":[2,0,4,52,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX32 =
 "d3/dd8/item_2inputbox_8qc.html#ac4eb9ac2edcdf4d04e1a5bfaa72d858f":[2,0,5,2,14,5],
 "d3/dd8/item_2inputbox_8qc.html#acf2084e093527c7c04c2e75dd3b0b7e4":[2,0,5,2,14,3],
 "d3/dd8/item_2inputbox_8qc.html#aea3fb8a134ec68a0cbd26a2fb766e5f7":[2,0,5,2,14,6],
-"d3/dd8/item_2inputbox_8qc_source.html":[2,0,5,2,14],
-"d3/dd9/walker__weapon_8qh.html":[2,0,1,14,0,45],
-"d3/dd9/walker__weapon_8qh.html#aba4a1abba8de458250f977065ee98b98":[2,0,1,14,0,45,1],
-"d3/dd9/walker__weapon_8qh_source.html":[2,0,1,14,0,45],
-"d3/ddb/tuba_8qh.html":[2,0,1,16,0,37]
+"d3/dd8/item_2inputbox_8qc_source.html":[2,0,5,2,14]
 };

@@ -1,12 +1,14 @@
 var server_2weapons_2common_8qh =
 [
     [ "PROJECTILE_MAKETRIGGER", "d1/dba/server_2weapons_2common_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628", null ],
+    [ "adaptor_think2use_hittype_splash", "d1/dba/server_2weapons_2common_8qh.html#af695d661864cdf0f78273b0a8717a1e9", null ],
     [ "STATIC_INIT", "d1/dba/server_2weapons_2common_8qh.html#a3b536cd1962aa3e327b955de79de1217", null ],
     [ "W_CheckProjectileDamage", "d1/dba/server_2weapons_2common_8qh.html#a102ac938a46377356e95bb667b1f01e2", null ],
     [ "W_DualWielding", "d1/dba/server_2weapons_2common_8qh.html#af7a217a45ded9e6d0af468fe18d2d65f", null ],
     [ "W_GiveWeapon", "d1/dba/server_2weapons_2common_8qh.html#ab5df352ada1ad850a3d504fdc704c49f", null ],
     [ "W_PlayStrengthSound", "d1/dba/server_2weapons_2common_8qh.html#a15163fb722de405cc2764efd498bc2ee", null ],
     [ "W_PrepareExplosionByDamage", "d1/dba/server_2weapons_2common_8qh.html#a3391149e74c975b1da289576a256819a", null ],
+    [ "WarpZone_Projectile_Touch_ImpactFilter_Callback", "d1/dba/server_2weapons_2common_8qh.html#a14781e74a33437af873581ed381d2397", null ],
     [ "fade_rate", "d1/dba/server_2weapons_2common_8qh.html#a5a08fa477287e8869e228d790a885d87", null ],
     [ "fade_time", "d1/dba/server_2weapons_2common_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952", null ],
     [ "g_projectiles", "d1/dba/server_2weapons_2common_8qh.html#a60e662b2259d5b4ff290afd4566a17dd", null ],

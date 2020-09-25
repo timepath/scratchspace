@@ -7,5 +7,9 @@ var server_2player_8qc =
     [ "player_setupanimsformodel", "db/d9b/server_2player_8qc.html#af02653db703c3e3f494f19b4f6f8b8b1", null ],
     [ "PlayerCorpseDamage", "db/d9b/server_2player_8qc.html#a702d414b3a7f91c3e1746aaef5f9382c", null ],
     [ "PlayerDamage", "db/d9b/server_2player_8qc.html#a2c4acf85cd876d0e628435d91592d615", null ],
-    [ "PlayerHeal", "db/d9b/server_2player_8qc.html#ae245d92e33b2c7cffe13cf28980afa34", null ]
+    [ "PlayerHeal", "db/d9b/server_2player_8qc.html#ae245d92e33b2c7cffe13cf28980afa34", null ],
+    [ "PRECACHE", "db/d9b/server_2player_8qc.html#a2460170632e0dae27be5dbfc5032b256", null ],
+    [ "precache_all_playermodels", "db/d9b/server_2player_8qc.html#a5ea7bf591f44cf22ed52a48b1aa4f012", null ],
+    [ "precache_playermodel", "db/d9b/server_2player_8qc.html#aca8c7fffaf94bfb8d4b962bc6b1dd9fe", null ],
+    [ "precache_playermodels", "db/d9b/server_2player_8qc.html#ac5ac170cb0adc7b07823ff7faf9fb6a5", null ]
 ];

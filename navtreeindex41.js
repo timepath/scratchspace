@@ -1,5 +1,9 @@
 var NAVTREEINDEX41 =
 {
+"d4/d62/damage_8qh.html#aefe2100f893d5dd01fdab059d9b5d348":[2,0,6,25,17],
+"d4/d62/damage_8qh.html#af1915ea9d450669a5a0672749148448f":[2,0,6,25,4],
+"d4/d62/damage_8qh.html#af31fb2a0bf66fd4b03890e6cb74d24d3":[2,0,6,25,56],
+"d4/d62/damage_8qh.html#af559423f7d435c0c60ca2be3353db686":[2,0,6,25,29],
 "d4/d62/damage_8qh.html#af8497f54dc2d95ad1364dc3996de30ee":[2,0,6,25,47],
 "d4/d62/damage_8qh.html#afc5e9270d0757dc47de743b6bd4e33dc":[2,0,6,25,8],
 "d4/d62/damage_8qh.html#aff28c78124853cc6ad4f9f330588e1d3":[2,0,6,25,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX41 =
 "d4/d87/classHagar.html#aff52b16f5e232f9aaec1b24ae8cf43b8":[1,0,45,31],
 "d4/d87/dialog__settings__audio_8qc.html":[2,0,5,4,122],
 "d4/d87/dialog__settings__audio_8qc.html#a9897d4b9ae8916a24d87fccc5defa1fa":[2,0,5,4,122,0],
-"d4/d87/dialog__settings__audio_8qc.html#adcafbc93d8765f378e35d8e650160da6":[2,0,5,4,122,1],
-"d4/d87/dialog__settings__audio_8qc_source.html":[2,0,5,4,122],
-"d4/d8a/fireball_8qh.html":[2,0,1,16,0,13],
-"d4/d8a/fireball_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,13,1],
-"d4/d8a/fireball_8qh.html#a7a97622f6c5d74f4a1d1892af5bf0f40":[2,0,1,16,0,13,2]
+"d4/d87/dialog__settings__audio_8qc.html#adcafbc93d8765f378e35d8e650160da6":[2,0,5,4,122,1]
 };

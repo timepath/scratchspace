@@ -28,7 +28,6 @@ var client_2miscfunctions_8qc =
     [ "HUD_Scale_Enable", "dc/d98/client_2miscfunctions_8qc.html#ac250b39a33004962fd9d0ce2a4521c0f", null ],
     [ "HUD_Shift", "dc/d98/client_2miscfunctions_8qc.html#a4e66eb737719c91d2c0f0da2d896f6d0", null ],
     [ "MoveToLast", "dc/d98/client_2miscfunctions_8qc.html#ac4fa75c26c2e2307b7ab7286e9f6882e", null ],
-    [ "playername", "dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe", null ],
     [ "PolyDrawModel", "dc/d98/client_2miscfunctions_8qc.html#a2b66a10b61389716958bcc54b41c27e2", null ],
     [ "PolyDrawModelSurface", "dc/d98/client_2miscfunctions_8qc.html#ae669df9da541a3b18d623ba33615903e", null ],
     [ "PreviewExists", "dc/d98/client_2miscfunctions_8qc.html#a62d201e545e3b4660cbc23e4587cabb8", null ],

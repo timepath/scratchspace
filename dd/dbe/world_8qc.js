@@ -9,6 +9,8 @@ var world_8qc =
     [ "CheckRules_World", "dd/dbe/world_8qc.html#a233af455133bc7ba4e3e100115bf2885", null ],
     [ "ClearWinners", "dd/dbe/world_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820", null ],
     [ "cvar_changes_init", "dd/dbe/world_8qc.html#ae90b93bec2a0e6486266371cb04b86bb", null ],
+    [ "droptofloor", "dd/dbe/world_8qc.html#a05b8906b19daf9c40e70c7374813e23d", null ],
+    [ "DropToFloor_Handler", "dd/dbe/world_8qc.html#a04608bc242fb7b07fa01cc69ee1412aa", null ],
     [ "DumpStats", "dd/dbe/world_8qc.html#a1207e599d7420b0af40007a89426efec", null ],
     [ "EndFrame", "dd/dbe/world_8qc.html#ab61dd957a2c44ebabe227060941cb391", null ],
     [ "GameplayMode_DelayedInit", "dd/dbe/world_8qc.html#ac20ed8c2e83a77847817ed26728a5746", null ],

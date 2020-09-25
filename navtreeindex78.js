@@ -1,5 +1,9 @@
 var NAVTREEINDEX78 =
 {
+"d8/d95/classNexposee.html#a4869983b8dc750584479ade5447c8413":[1,0,86,16],
+"d8/d95/classNexposee.html#a49b0530a05891af2a0808385fe264e9a":[1,0,86,25],
+"d8/d95/classNexposee.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,86,19],
+"d8/d95/classNexposee.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,86,34],
 "d8/d95/classNexposee.html#a5bb437f13d06fcc16b7deef2767bb999":[1,0,86,17],
 "d8/d95/classNexposee.html#a672db42c4b32cb3b04d30659686618ab":[1,0,86,43],
 "d8/d95/classNexposee.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,86,5],
@@ -239,15 +243,11 @@ var NAVTREEINDEX78 =
 "d8/db4/server_2pathlib_2main_8qh.html#ad4452966a687ba92bf4d168352ba5ed5":[2,0,6,5,9,1],
 "d8/db4/server_2pathlib_2main_8qh_source.html":[2,0,6,5,9],
 "d8/db6/client_2miscfunctions_8qh.html":[2,0,0,20],
-"d8/db6/client_2miscfunctions_8qh.html#a0449a7486533675d03728bbf4f318683":[2,0,0,20,71],
-"d8/db6/client_2miscfunctions_8qh.html#a08d24097586a6fc4539ce644d1c66e54":[2,0,0,20,55],
+"d8/db6/client_2miscfunctions_8qh.html#a0449a7486533675d03728bbf4f318683":[2,0,0,20,70],
+"d8/db6/client_2miscfunctions_8qh.html#a08d24097586a6fc4539ce644d1c66e54":[2,0,0,20,54],
 "d8/db6/client_2miscfunctions_8qh.html#a0ac6cc94ff118e494f0845fbe95ac58b":[2,0,0,20,36],
 "d8/db6/client_2miscfunctions_8qh.html#a0ded0b9dc55f9f344b7b5f7fc9a487b8":[2,0,0,20,32],
 "d8/db6/client_2miscfunctions_8qh.html#a0e9fddead798f3d53aa24dc2055c4eba":[2,0,0,20,12],
-"d8/db6/client_2miscfunctions_8qh.html#a126aa6fee8912340c42f4264851e3e2a":[2,0,0,20,65],
-"d8/db6/client_2miscfunctions_8qh.html#a13d22efc32aaf925bdf76973b3192df7":[2,0,0,20,61],
-"d8/db6/client_2miscfunctions_8qh.html#a185392e9b24cbbbea1aeb85a1c54df98":[2,0,0,20,10],
-"d8/db6/client_2miscfunctions_8qh.html#a1913b30a5207c8d416130a6ecdaf9058":[2,0,0,20,74],
-"d8/db6/client_2miscfunctions_8qh.html#a1e9b742527be4ffff0e1ffabd3814ebb":[2,0,0,20,28],
-"d8/db6/client_2miscfunctions_8qh.html#a1ff2ab6f40ef91103b3fd8a9e083b4ca":[2,0,0,20,51]
+"d8/db6/client_2miscfunctions_8qh.html#a126aa6fee8912340c42f4264851e3e2a":[2,0,0,20,64],
+"d8/db6/client_2miscfunctions_8qh.html#a13d22efc32aaf925bdf76973b3192df7":[2,0,0,20,60]
 };

@@ -1,6 +1,7 @@
 var world_8qh =
 [
     [ "CheckRules_World", "de/d2b/world_8qh.html#a233af455133bc7ba4e3e100115bf2885", null ],
+    [ "droptofloor", "de/d2b/world_8qh.html#a05b8906b19daf9c40e70c7374813e23d", null ],
     [ "DumpStats", "de/d2b/world_8qh.html#a1207e599d7420b0af40007a89426efec", null ],
     [ "ReadyRestart", "de/d2b/world_8qh.html#a033dd1158883a78b40100e1dd268815c", null ],
     [ "RedirectionThink", "de/d2b/world_8qh.html#a562ca164f7d8783b2be2864ba5fdc6f5", null ],

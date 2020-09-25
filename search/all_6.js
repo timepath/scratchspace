@@ -174,7 +174,6 @@ var searchData=
   ['follow_2eqh',['follow.qh',['../d3/d95/physics_2movetypes_2follow_8qh.html',1,'']]],
   ['follow_5fattach',['FOLLOW_ATTACH',['../dc/d45/mapobjects_2misc_2follow_8qh.html#a329ed8f98830136c42762abaeb209188',1,'follow.qh']]],
   ['follow_5flocal',['FOLLOW_LOCAL',['../dc/d45/mapobjects_2misc_2follow_8qh.html#a6e0346fb7c919e40053c66d34303f82e',1,'follow.qh']]],
-  ['follow_5fsameorigin',['follow_sameorigin',['../dc/dc6/server_2miscfunctions_8qc.html#ad793e10b99d7b9cc268469692be69fd8',1,'follow_sameorigin(entity e, entity to):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#ad793e10b99d7b9cc268469692be69fd8',1,'follow_sameorigin(entity e, entity to):&#160;miscfunctions.qc']]],
   ['font_5fcenterprint',['FONT_CENTERPRINT',['../d4/d0c/csprogsdefs_8qc.html#afb0841005d1d566305334864caecd81a',1,'FONT_CENTERPRINT():&#160;csprogsdefs.qc'],['../d8/de2/menudefs_8qc.html#afb0841005d1d566305334864caecd81a',1,'FONT_CENTERPRINT():&#160;menudefs.qc']]],
   ['font_5fchat',['FONT_CHAT',['../d4/d0c/csprogsdefs_8qc.html#a387ddc846f851d24a6abc4a0eab37415',1,'FONT_CHAT():&#160;csprogsdefs.qc'],['../d8/de2/menudefs_8qc.html#a387ddc846f851d24a6abc4a0eab37415',1,'FONT_CHAT():&#160;menudefs.qc']]],
   ['font_5fconsole',['FONT_CONSOLE',['../d4/d0c/csprogsdefs_8qc.html#a1822755cdada8e7259a6e06f7596a6b1',1,'FONT_CONSOLE():&#160;csprogsdefs.qc'],['../d8/de2/menudefs_8qc.html#a1822755cdada8e7259a6e06f7596a6b1',1,'FONT_CONSOLE():&#160;menudefs.qc']]],

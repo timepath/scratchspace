@@ -1,5 +1,9 @@
 var NAVTREEINDEX37 =
 {
+"d4/d0c/csprogsdefs_8qc.html#ae925f2f1338de915b7c8552f0be3bc63":[2,0,2,0,0,306],
+"d4/d0c/csprogsdefs_8qc.html#ae9a207f2c65c6424f6e4273f965b1682":[2,0,2,0,0,247],
+"d4/d0c/csprogsdefs_8qc.html#aea09b9d51918266f992750ed7d8659f1":[2,0,2,0,0,86],
+"d4/d0c/csprogsdefs_8qc.html#aeaecffa1a308a86e003ca1614cff3ba2":[2,0,2,0,0,528],
 "d4/d0c/csprogsdefs_8qc.html#aeb1cf45e8358e01649327241349b77ec":[2,0,2,0,0,199],
 "d4/d0c/csprogsdefs_8qc.html#aec06b3150e573642059691357b205bd3":[2,0,2,0,0,186],
 "d4/d0c/csprogsdefs_8qc.html#aed014cc2c0c4bc083d6b62df69ed72b8":[2,0,2,0,0,309],
@@ -245,9 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d20/mainwindow_8qh_source.html":[2,0,5,4,183],
 "d4/d21/dialog__hudpanel__physics_8qc.html":[2,0,5,4,64],
 "d4/d21/dialog__hudpanel__physics_8qc.html#a9b085af15534ec8ac17a204bfd5e9fc6":[2,0,5,4,64,0],
-"d4/d21/dialog__hudpanel__physics_8qc_source.html":[2,0,5,4,64],
-"d4/d24/classWalkerTurretAttack.html":[1,0,142],
-"d4/d24/classWalkerTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,142,35],
-"d4/d24/classWalkerTurretAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,142,19],
-"d4/d24/classWalkerTurretAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,142,18]
+"d4/d21/dialog__hudpanel__physics_8qc_source.html":[2,0,5,4,64]
 };

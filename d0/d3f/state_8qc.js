@@ -13,7 +13,6 @@ var state_8qc =
     [ "DecodeLevelParms", "d0/d3f/state_8qc.html#ae55541fef89bf17be7eedf1e1b8d9c91", null ],
     [ "entcs_attach", "d0/d3f/state_8qc.html#ad3d6ec59a6310645b11d417739f69552", null ],
     [ "entcs_detach", "d0/d3f/state_8qc.html#ac87f3b0e72460f99913d0a56abac6990", null ],
-    [ "GetCvars", "d0/d3f/state_8qc.html#aee720441a84489b04449de94ce835994", null ],
     [ "Inventory_delete", "d0/d3f/state_8qc.html#a694f7d5c484ae99b40c2163429b7ac21", null ],
     [ "Inventory_new", "d0/d3f/state_8qc.html#a7a3b7d4e0321384128d90bab60887627", null ],
     [ "PlayerScore_Attach", "d0/d3f/state_8qc.html#aa66ef3aa59e752ea23954561082a6ac6", null ],

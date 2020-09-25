@@ -1,6 +1,9 @@
 var getreplies_8qh =
 [
     [ "LADDER_CNT", "d2/de3/getreplies_8qh.html#aa1f6a3afcfc0df8ab833bc5d93968774", null ],
+    [ "GetCvars", "d2/de3/getreplies_8qh.html#a9493fdb8b379fd22c688da7be4fc7782", null ],
+    [ "GetCvars_handleFloat", "d2/de3/getreplies_8qh.html#a87f18211483cf0fc854225867b1e7015", null ],
+    [ "GetCvars_handleString", "d2/de3/getreplies_8qh.html#a7c662280a4c259425dad12e0d007f13a", null ],
     [ "getladder", "d2/de3/getreplies_8qh.html#a7e4a34fe079ee89797a6399b10e0d23e", null ],
     [ "getlsmaps", "d2/de3/getreplies_8qh.html#aa4fceeef60a806f478f69ab080bdb930", null ],
     [ "getmaplist", "d2/de3/getreplies_8qh.html#acd14453c3d874fef97b4619c5987158e", null ],

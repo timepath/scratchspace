@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"d2/d21/portals_8qh.html#ad6014ad4c8afce121d5183314be58543":[2,0,6,51,5],
 "d2/d21/portals_8qh_source.html":[2,0,6,51],
 "d2/d22/common_2weapons_2weapon_2__mod_8qh.html":[2,0,1,16,0,1],
 "d2/d22/common_2weapons_2weapon_2__mod_8qh_source.html":[2,0,1,16,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a9b9f4ee49866660345d0ba0e935112e3":[2,0,1,10,0,39,2,35],
 "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a9bc6517c9438159016092a600438940d":[2,0,1,10,0,39,2,24],
 "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#aa00478a4027fc2c6d462a371a9b80dee":[2,0,1,10,0,39,2,1],
-"d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#aa467edfe83edd6ccc1ce73e04a54037e":[2,0,1,10,0,39,2,37],
-"d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#aabed503bd989022e6b7150ab2ad4782f":[2,0,1,10,0,39,2,16]
+"d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#aa467edfe83edd6ccc1ce73e04a54037e":[2,0,1,10,0,39,2,37]
 };

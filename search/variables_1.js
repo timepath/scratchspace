@@ -37,8 +37,6 @@ var searchData=
   ['ai_5fstatus_5fwaypoint_5fpersonal_5freached',['AI_STATUS_WAYPOINT_PERSONAL_REACHED',['../d1/da9/bot_8qh.html#ad9117bee4a0507fb11c54f2344a226d5',1,'bot.qh']]],
   ['aim_5fflags',['aim_flags',['../d9/d67/turret_8qh.html#acafef71d6e1f2d40cbc621dab5df3846',1,'turret.qh']]],
   ['aiment',['aiment',['../d4/dd7/movetypes_8qh.html#a9d8f05707745e18415d786a00cd398e8',1,'aiment():&#160;movetypes.qh'],['../d6/d11/progsdefs_8qc.html#a9d8f05707745e18415d786a00cd398e8',1,'aiment():&#160;progsdefs.qc']]],
-  ['aiment_5fclassname',['aiment_classname',['../dc/dc6/server_2miscfunctions_8qc.html#a57c6890f25ac5cfdf263a9a467577480',1,'miscfunctions.qc']]],
-  ['aiment_5fdeadflag',['aiment_deadflag',['../dc/dc6/server_2miscfunctions_8qc.html#a624314975ec1563eb689b613d886d64d',1,'miscfunctions.qc']]],
   ['aistatus',['aistatus',['../d1/da9/bot_8qh.html#a21c2137f2c6aae7645f244993966261d',1,'bot.qh']]],
   ['al_5fbuf',['al_buf',['../d2/d74/arraylist_8qh.html#adaec9f075b9077ca500d003664cbf776',1,'arraylist.qh']]],
   ['al_5flen',['al_len',['../d2/d74/arraylist_8qh.html#a83270c539809ba8289cae0a8ef7e8154',1,'arraylist.qh']]],

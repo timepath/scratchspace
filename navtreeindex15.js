@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"d1/dc2/kill_8qc.html":[2,0,1,6,2,4],
 "d1/dc2/kill_8qc_source.html":[2,0,1,6,2,4],
 "d1/dc3/classEWheelAttack.html":[1,0,36],
 "d1/dc3/classEWheelAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,36,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "d1/dec/classInputBox.html#ac909eb899e2cd152c8d7c6b514a27d44":[1,0,54,70],
 "d1/dec/classInputBox.html#aca890e5e9545088e29976620efe2e8dc":[1,0,54,26],
 "d1/dec/classInputBox.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,54,57],
-"d1/dec/classInputBox.html#ad971b70834e8046086d9991b85964427":[1,0,54,8],
-"d1/dec/classInputBox.html#ada488d34e14a54ef05b88e7da0c81e56":[1,0,54,6]
+"d1/dec/classInputBox.html#ad971b70834e8046086d9991b85964427":[1,0,54,8]
 };

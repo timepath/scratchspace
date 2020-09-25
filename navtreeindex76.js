@@ -1,5 +1,9 @@
 var NAVTREEINDEX76 =
 {
+"d8/d35/classXonoticHUDChatDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,187,16],
+"d8/d35/classXonoticHUDChatDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,187,31],
+"d8/d35/classXonoticHUDChatDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,187,36],
+"d8/d35/classXonoticHUDChatDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,187,56],
 "d8/d35/classXonoticHUDChatDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,187,33],
 "d8/d35/classXonoticHUDChatDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,187,83],
 "d8/d35/classXonoticHUDChatDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,187,61],
@@ -239,15 +243,11 @@ var NAVTREEINDEX76 =
 "d8/d79/notifications_2all_8qc.html#a3ccd497f947ede2917e49908cf39a161":[2,0,1,11,3,30],
 "d8/d79/notifications_2all_8qc.html#a4533800e729b98bacf130e45337d6e50":[2,0,1,11,3,43],
 "d8/d79/notifications_2all_8qc.html#a4d9ae2e679e213b79c44527237093518":[2,0,1,11,3,29],
+"d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,11,3,7],
 "d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,11,3,5],
 "d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,11,3,6],
-"d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,11,3,7],
 "d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,11,3,8],
 "d8/d79/notifications_2all_8qc.html#a682b66e5aae4a02b19ba825760896610":[2,0,1,11,3,37],
 "d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,11,3,21],
-"d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,11,3,22],
-"d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,11,3,23],
-"d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,11,3,24],
-"d8/d79/notifications_2all_8qc.html#a97e96901a663794a2eee1391bcad5dae":[2,0,1,11,3,33],
-"d8/d79/notifications_2all_8qc.html#a9a202f02c680cd96b64832efe697ddb8":[2,0,1,11,3,46]
+"d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,11,3,22]
 };

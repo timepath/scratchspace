@@ -1,5 +1,9 @@
 var NAVTREEINDEX74 =
 {
+"d7/df4/commandbutton_8qc.html#a8f58a281d6fe5cff78d093b09c941f69":[2,0,5,4,24,3],
+"d7/df4/commandbutton_8qc.html#a987af68cda200c33e872603717d21f36":[2,0,5,4,24,0],
+"d7/df4/commandbutton_8qc.html#af650087d48ef70e13d7395bcfd876f25":[2,0,5,4,24,2],
+"d7/df4/commandbutton_8qc_source.html":[2,0,5,4,24],
 "d7/df7/lib_2warpzone_2__mod_8qh.html":[2,0,4,2,1],
 "d7/df7/lib_2warpzone_2__mod_8qh_source.html":[2,0,4,2,1],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html":[2,0,5,4,94],
@@ -245,9 +249,5 @@ var NAVTREEINDEX74 =
 "d8/d14/scripting_8qh.html#a7226e4bb1e5bfa2f94086c397a1a2436":[2,0,6,0,0,12,30],
 "d8/d14/scripting_8qh.html#a72e47fcf4fcfe3d1e1fd7b169f577ede":[2,0,6,0,0,12,26],
 "d8/d14/scripting_8qh.html#a7486b01a2f8bcdc795620492866d7480":[2,0,6,0,0,12,5],
-"d8/d14/scripting_8qh.html#a7f255d3265340de3fdea69e75bfeda51":[2,0,6,0,0,12,51],
-"d8/d14/scripting_8qh.html#a815417279eb3366ccb92e08f0616387c":[2,0,6,0,0,12,29],
-"d8/d14/scripting_8qh.html#a8a2828b81dbeba285e3785c9e47f7a5a":[2,0,6,0,0,12,50],
-"d8/d14/scripting_8qh.html#a8ef8ae2b28eca5b395b6b34cd734f891":[2,0,6,0,0,12,35],
-"d8/d14/scripting_8qh.html#a9603613dd32e5b227cfaff1e41ac2930":[2,0,6,0,0,12,4]
+"d8/d14/scripting_8qh.html#a7f255d3265340de3fdea69e75bfeda51":[2,0,6,0,0,12,51]
 };

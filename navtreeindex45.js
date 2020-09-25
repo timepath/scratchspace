@@ -1,5 +1,9 @@
 var NAVTREEINDEX45 =
 {
+"d4/da9/classRaptorBomb.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,114,32],
+"d4/da9/classRaptorBomb.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,114,16],
+"d4/da9/classRaptorBomb.html#a312755d5709b880f99cf89d7a76237fe":[1,0,114,3],
+"d4/da9/classRaptorBomb.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,114,20],
 "d4/da9/classRaptorBomb.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,114,11],
 "d4/da9/classRaptorBomb.html#a4337268c8cad6836bae8efd4a8835070":[1,0,114,21],
 "d4/da9/classRaptorBomb.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,114,1],
@@ -229,10 +233,10 @@ var NAVTREEINDEX45 =
 "d4/dcb/common_2gamemodes_2gamemode_2ctf_2__mod_8qh.html":[2,0,1,3,0,2,1],
 "d4/dcb/common_2gamemodes_2gamemode_2ctf_2__mod_8qh_source.html":[2,0,1,3,0,2,1],
 "d4/dcc/skin_8qh.html":[2,0,5,19],
-"d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,5,19,4],
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,5,19,5],
-"d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,19,1],
+"d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,5,19,4],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,19,0],
+"d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,19,1],
 "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,19,2],
 "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,19,3],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,19,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX45 =
 "d4/dce/weapons_8qh.html":[2,0,0,1,0,41],
 "d4/dce/weapons_8qh_source.html":[2,0,0,1,0,41],
 "d4/dd0/kill_8qh.html":[2,0,1,6,2,5],
-"d4/dd0/kill_8qh_source.html":[2,0,1,6,2,5],
-"d4/dd1/spawnpoints_8qh.html":[2,0,6,64],
-"d4/dd1/spawnpoints_8qh.html#a09c352969fa9b63bf47d2518e944007a":[2,0,6,64,6],
-"d4/dd1/spawnpoints_8qh.html#a147120fa263b120c8a20915dffa25c9b":[2,0,6,64,14],
-"d4/dd1/spawnpoints_8qh.html#a201908345e88f04480bb1af26b522f00":[2,0,6,64,13]
+"d4/dd0/kill_8qh_source.html":[2,0,1,6,2,5]
 };

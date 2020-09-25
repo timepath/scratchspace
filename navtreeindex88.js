@@ -1,5 +1,14 @@
 var NAVTREEINDEX88 =
 {
+"d9/d94/sv__damagetext_8qc.html#a8c837b99c80f6387e393d575c28c0a32":[2,0,1,10,0,6,6,4],
+"d9/d94/sv__damagetext_8qc.html#a90901bf9f382a761954f686632b4374e":[2,0,1,10,0,6,6,0],
+"d9/d94/sv__damagetext_8qc.html#a9752dd0b59e299da3ef1350f95b4aa7a":[2,0,1,10,0,6,6,6],
+"d9/d94/sv__damagetext_8qc.html#ae350fc107ea19e6a54344c87554bad9e":[2,0,1,10,0,6,6,3],
+"d9/d94/sv__damagetext_8qc_source.html":[2,0,1,10,0,6,6],
+"d9/d95/effects_2all_8inc.html":[2,0,1,2,3],
+"d9/d95/effects_2all_8inc.html#a0bbe1f33a4e782c4b3afeabbc5c0c5d1":[2,0,1,2,3,0],
+"d9/d95/effects_2all_8inc.html#a3f976fffa941dcb026d753753739b91e":[2,0,1,2,3,6],
+"d9/d95/effects_2all_8inc.html#a40f2a6e0982e991c6dd4aedc85116479":[2,0,1,2,3,5],
 "d9/d95/effects_2all_8inc.html#a4c6ad74f5aa68e1dc5a68297613ea234":[2,0,1,2,3,2],
 "d9/d95/effects_2all_8inc.html#a904a47399d8bb4012737cf20bd670853":[2,0,1,2,3,7],
 "d9/d95/effects_2all_8inc.html#ae5430fc43016d59081a9edc8ed86bc7b":[2,0,1,2,3,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX88 =
 "d9/dc7/turrets_2turret_2machinegun_8qh.html#aecbe2e46be1185432a33bbc16b9e3026":[2,0,1,14,0,21,2],
 "d9/dc7/turrets_2turret_2machinegun_8qh_source.html":[2,0,1,14,0,21],
 "d9/dc8/ecs_2events_2__mod_8qh.html":[2,0,3,1,1],
-"d9/dc8/ecs_2events_2__mod_8qh_source.html":[2,0,3,1,1],
-"d9/dca/classXonoticCommandButton.html":[1,0,160],
-"d9/dca/classXonoticCommandButton.html#a09558581cc0090d8cdcfd1ec9411f74c":[1,0,160,47],
-"d9/dca/classXonoticCommandButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,160,71],
-"d9/dca/classXonoticCommandButton.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,160,20],
-"d9/dca/classXonoticCommandButton.html#a11a99dd0d7e621888583908e0be2cd66":[1,0,160,6],
-"d9/dca/classXonoticCommandButton.html#a1384d244201f945385ed59b53e4aee96":[1,0,160,38],
-"d9/dca/classXonoticCommandButton.html#a144092f0c6dc11da003aba4eb91adbc4":[1,0,160,25],
-"d9/dca/classXonoticCommandButton.html#a17586d0ed66d76f042dedade63f4addf":[1,0,160,27],
-"d9/dca/classXonoticCommandButton.html#a1a55e3b961b4986ce5dda62bd05b8ec5":[1,0,160,42]
+"d9/dc8/ecs_2events_2__mod_8qh_source.html":[2,0,3,1,1]
 };

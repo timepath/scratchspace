@@ -1,5 +1,9 @@
 var NAVTREEINDEX31 =
 {
+"d3/db6/projectile_8qc.html#a80c34c3e86a9ef71dfcdff65bd795540":[2,0,0,4,2,3],
+"d3/db6/projectile_8qc.html#a9f8c39b72e4cac7db813d64f6b47da53":[2,0,0,4,2,2],
+"d3/db6/projectile_8qc.html#aa0569f1b060229bf8b6d0c13b4dff8f1":[2,0,0,4,2,1],
+"d3/db6/projectile_8qc.html#aa212ff44982cb3d66e1a0eff0bea547e":[2,0,0,4,2,0],
 "d3/db6/projectile_8qc.html#aafb6ab318b9d8923d5fb0d4e56242d87":[2,0,0,4,2,8],
 "d3/db6/projectile_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b":[2,0,0,4,2,9],
 "d3/db6/projectile_8qc.html#ac4299ed240f883c226a73f8b7c4da3fa":[2,0,0,4,2,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX31 =
 "d3/dca/cheats_8qh.html#ab8cf8b6398e20084a629164e3388a6cf":[2,0,6,19,17],
 "d3/dca/cheats_8qh.html#ac6de0e82388dab2d51aafcd02f005121":[2,0,6,19,24],
 "d3/dca/cheats_8qh.html#aecc34d4a00fe223b018b37bcd6f15b80":[2,0,6,19,11],
-"d3/dca/cheats_8qh_source.html":[2,0,6,19],
-"d3/dce/classXonoticTab.html":[1,0,254],
-"d3/dce/classXonoticTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,254,34],
-"d3/dce/classXonoticTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,254,15],
-"d3/dce/classXonoticTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,254,42]
+"d3/dca/cheats_8qh_source.html":[2,0,6,19]
 };

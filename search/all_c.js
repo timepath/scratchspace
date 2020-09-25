@@ -277,7 +277,6 @@ var searchData=
   ['lognb',['LogNB',['../d2/d24/sv__nexball_8qc.html#a4531a0678031c9d5318dfffdfa1805f9',1,'sv_nexball.qc']]],
   ['logteamchange',['LogTeamChange',['../de/d4f/teamplay_8qc.html#a4784fbfa96e64e68ffd7ae232dee2dd8',1,'LogTeamChange(float player_id, float team_number, int type):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a4784fbfa96e64e68ffd7ae232dee2dd8',1,'LogTeamChange(float player_id, float team_number, int type):&#160;teamplay.qc']]],
   ['loopsound',['loopsound',['../d3/db6/projectile_8qc.html#a9f8c39b72e4cac7db813d64f6b47da53',1,'loopsound(entity e, int ch, Sound samp, float vol, float attn):&#160;projectile.qc'],['../dc/dc7/projectile_8qh.html#a9f8c39b72e4cac7db813d64f6b47da53',1,'loopsound(entity e, int ch, Sound samp, float vol, float attn):&#160;projectile.qc']]],
-  ['lostmovetypefollow',['LostMovetypeFollow',['../dc/dc6/server_2miscfunctions_8qc.html#adb60a180886d4dfa682f79bf827c5ce4',1,'LostMovetypeFollow(entity ent):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#adb60a180886d4dfa682f79bf827c5ce4',1,'LostMovetypeFollow(entity ent):&#160;miscfunctions.qc']]],
   ['lowestbit',['lowestbit',['../d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445',1,'bits.qh']]],
   ['lowpass',['lowpass',['../d6/dd3/view_8qc.html#a1a9e72b79f15b8b3a733a376b539c2af',1,'view.qc']]],
   ['lowpass2',['lowpass2',['../d6/dd3/view_8qc.html#a7f20fe73cefbad09ddfe7c7b5160b9d1',1,'view.qc']]],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"d0/da4/damagetext_8qc_source.html":[2,0,1,10,0,6,4],
 "d0/da5/domination_8qc.html":[2,0,1,3,0,5,4],
 "d0/da5/domination_8qc_source.html":[2,0,1,3,0,5,4],
 "d0/da7/armor_8qc.html":[2,0,1,5,0,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "d0/ddd/weapons_2all_8qh.html#aac8eeba4c311a7fb2172dd50004a97c1":[2,0,1,16,7,25],
 "d0/ddd/weapons_2all_8qh.html#abaa11969734a8ae752a6a5be18746a49":[2,0,1,16,7,4],
 "d0/ddd/weapons_2all_8qh.html#abdeafb15141f216d86de645d0c4ba807":[2,0,1,16,7,27],
-"d0/ddd/weapons_2all_8qh.html#ac46afc4456675780bda1d3c1cc62be9a":[2,0,1,16,7,19]
+"d0/ddd/weapons_2all_8qh.html#ac46afc4456675780bda1d3c1cc62be9a":[2,0,1,16,7,19],
+"d0/ddd/weapons_2all_8qh.html#aca4a85c57352de414c4102c55d4b66b4":[2,0,1,16,7,56]
 };

@@ -1,50 +1,68 @@
 <map id="MUTATOR_HOOKFUNCTION" name="MUTATOR_HOOKFUNCTION">
-<area shape="rect" id="node2" href="$d1/d72/sv__cts_8qc.html#a240c42bc7cb54d9cacd4b74cfa36925e" title="cts_EventLog" alt="" coords="263,259,370,285"/>
-<area shape="rect" id="node3" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="759,56,805,83"/>
-<area shape="rect" id="node5" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="744,5,820,32"/>
-<area shape="rect" id="node13" href="$d1/d72/sv__cts_8qc.html#a9b15c0c4fb2a70ddec86a6d47c026023" title="cts_ScoreRules" alt="" coords="257,948,376,975"/>
-<area shape="rect" id="node15" href="$d2/d79/scores_8qc.html#ae62eb8bcfc2596312a8b44c3aabdef19" title="Sorts the players and stores their place in the given field, starting with. " alt="" coords="469,1019,601,1045"/>
-<area shape="rect" id="node33" href="$df/d4a/server_2race_8qc.html#a30ba6f7a919548646ddd721463696855" title="race_ClearRecords" alt="" coords="247,1151,387,1177"/>
-<area shape="rect" id="node37" href="$d2/d79/scores_8qc.html#aa70e08e25e069e368d303726e1c91dff" title="Prints the scores to the console of a player. " alt="" coords="255,733,378,760"/>
-<area shape="rect" id="node4" href="$dd/da5/gamelog_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3" title="GameLogEcho" alt="" coords="477,208,592,235"/>
-<area shape="rect" id="node7" href="$d9/d09/notifications_2all_8inc.html#ad04f6b1a4889674503c3cdad58c55da1" title="strcat" alt="" coords="982,664,1041,691"/>
-<area shape="rect" id="node6" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="753,512,811,539"/>
-<area shape="rect" id="node8" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="741,360,823,387"/>
-<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="753,157,811,184"/>
-<area shape="rect" id="node10" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="755,107,809,133"/>
-<area shape="rect" id="node11" href="$db/d95/server_2main_8qc.html#a0390f6703ace29f61655694b8821d84a" title="print(), but only print if the server is not local " alt="" coords="721,208,843,235"/>
-<area shape="rect" id="node12" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="986,537,1037,564"/>
-<area shape="rect" id="node14" href="$d7/d39/sv__rules_8qc.html#a6d048a398964786e1440a048b8188e7a" title="Disabling score disables the &quot;score&quot; column on the scoreboard. " alt="" coords="437,1069,632,1096"/>
-<area shape="rect" id="node16" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1189,981,1247,1008"/>
-<area shape="rect" id="node17" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="991,1120,1031,1147"/>
-<area shape="rect" id="node28" href="$d2/d79/scores_8qc.html#ae4fe65e7dbeb8050e420d6dfbbee1d5a" title="PlayerTeamScore_Compare" alt="" coords="683,1120,881,1147"/>
-<area shape="rect" id="node18" href="$db/d9f/state_8qh.html#afc32312bf25df126b18e078bedab7837" title="ClientState_attach" alt="" coords="1147,1145,1289,1172"/>
-<area shape="rect" id="node19" href="$db/d9f/state_8qh.html#ae17cd2d1c2291942edc23455fc1db486" title="ClientState_detach" alt="" coords="1146,1044,1290,1071"/>
-<area shape="rect" id="node20" href="$d0/d3f/state_8qc.html#aee720441a84489b04449de94ce835994" title="GetCvars" alt="" coords="1379,943,1460,969"/>
-<area shape="rect" id="node21" href="$d0/d3f/state_8qc.html#a34f4025222e4edd5d1dcee5b90656bec" title="accuracy_free" alt="" coords="1364,993,1475,1020"/>
-<area shape="rect" id="node22" href="$d0/d3f/state_8qc.html#a7fd595275a5ab3b24efdf5dc24933c46" title="PlayerScore_Detach" alt="" coords="1344,1044,1495,1071"/>
-<area shape="rect" id="node23" href="$d0/d3f/state_8qc.html#a8fe4ed7866766d38e6cf3bfd1c4b239e" title="W_HitPlotClose" alt="" coords="1361,1095,1478,1121"/>
-<area shape="rect" id="node24" href="$d0/d3f/state_8qc.html#a493d87cfdaad13d4de171211f5f7bc4d" title="ClientData_Detach" alt="" coords="1348,1196,1491,1223"/>
-<area shape="rect" id="node25" href="$d0/d3f/state_8qc.html#ac87f3b0e72460f99913d0a56abac6990" title="entcs_detach" alt="" coords="1365,1145,1473,1172"/>
-<area shape="rect" id="node26" href="$d0/d3f/state_8qc.html#ab10bcd46b240e1fd8154de39ddd5c40e" title="bot_clientdisconnect" alt="" coords="1343,825,1496,852"/>
-<area shape="rect" id="node27" href="$d0/d3f/state_8qc.html#abbd5a2c9639d75d5ac7e98fbd60856ab" title="anticheat_report_to\l_eventlog" alt="" coords="1345,877,1493,918"/>
-<area shape="rect" id="node29" href="$d2/d79/scores_8qc.html#ab1cac4ea697e08d564ef09bf4cd1c822" title="TeamScore_Compare" alt="" coords="932,1171,1091,1197"/>
-<area shape="rect" id="node32" href="$d2/d79/scores_8qc.html#a5441e464e74d40fc0584e956f68c2c12" title="PlayerScore_Compare" alt="" coords="929,1221,1093,1248"/>
-<area shape="rect" id="node30" href="$da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9" title="vector" alt="" coords="1187,1247,1249,1273"/>
-<area shape="rect" id="node31" href="$d2/d79/scores_8qc.html#a4269aa8682826ed20f07afefd72daf79" title="ScoreField_Compare" alt="" coords="1141,1196,1295,1223"/>
-<area shape="rect" id="node34" href="$df/d4a/server_2race_8qc.html#a2dc87fbca84cbbf8ac854670fa11871b" title="race_PreparePlayer" alt="" coords="461,1171,608,1197"/>
-<area shape="rect" id="node35" href="$df/d4a/server_2race_8qc.html#a6c1a701a84cb0c5b15f45173e3038d9b" title="race_ClearTime" alt="" coords="721,1221,843,1248"/>
-<area shape="rect" id="node36" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="970,1272,1053,1299"/>
-<area shape="rect" id="node38" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="503,613,566,640"/>
-<area shape="rect" id="node39" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="509,715,560,741"/>
-<area shape="rect" id="node40" href="$d2/d79/scores_8qc.html#a05074af080e1c47e05f847d4db9e66fc" title="Score_NicePrint_Team" alt="" coords="453,563,617,589"/>
-<area shape="rect" id="node45" href="$d2/d79/scores_8qc.html#a9657775baeb357bf9c34044f04305a20" title="Score_NicePrint_Player" alt="" coords="450,664,619,691"/>
-<area shape="rect" id="node48" href="$d2/d79/scores_8qc.html#ac325eeedb7c50f08a44fc2b93063c5bf" title="Score_NicePrint_Spectators" alt="" coords="435,765,635,792"/>
-<area shape="rect" id="node49" href="$d2/d79/scores_8qc.html#a70e333bb8df9db9b1aa1244d608ce4d3" title="Score_NicePrint_Spectator" alt="" coords="438,816,631,843"/>
-<area shape="rect" id="node41" href="$d2/d79/scores_8qc.html#ac16d1f108f2ae55d8775f4f4c3bd2440" title="Score_NicePrint_ItemColor" alt="" coords="686,613,878,640"/>
-<area shape="rect" id="node42" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="757,563,807,589"/>
-<area shape="rect" id="node43" href="$de/d55/server_2command_2common_8qc.html#a37f1c035bd3cc63c8ef7d58dd12958ee" title="print_to" alt="" coords="747,765,817,792"/>
-<area shape="rect" id="node44" href="$d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f" title="sprint" alt="" coords="982,765,1041,792"/>
-<area shape="rect" id="node46" href="$dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe" title="playername" alt="" coords="733,816,831,843"/>
-<area shape="rect" id="node47" href="$db/d07/teams_8qh.html#ac42e5e5b463fcb15cb60f68a648afea0" title="Team_ColorCode" alt="" coords="947,816,1076,843"/>
+<area shape="rect" id="node2" href="$d1/d72/sv__cts_8qc.html#a240c42bc7cb54d9cacd4b74cfa36925e" title="cts_EventLog" alt="" coords="2275,156,2382,183"/>
+<area shape="rect" id="node3" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="2839,208,2886,235"/>
+<area shape="rect" id="node5" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="2825,5,2901,32"/>
+<area shape="rect" id="node13" href="$d1/d72/sv__cts_8qc.html#a9b15c0c4fb2a70ddec86a6d47c026023" title="cts_ScoreRules" alt="" coords="257,1067,376,1093"/>
+<area shape="rect" id="node15" href="$d2/d79/scores_8qc.html#ae62eb8bcfc2596312a8b44c3aabdef19" title="Sorts the players and stores their place in the given field, starting with. " alt="" coords="466,581,598,608"/>
+<area shape="rect" id="node54" href="$df/d4a/server_2race_8qc.html#a30ba6f7a919548646ddd721463696855" title="race_ClearRecords" alt="" coords="247,1332,387,1359"/>
+<area shape="rect" id="node58" href="$d2/d79/scores_8qc.html#aa70e08e25e069e368d303726e1c91dff" title="Prints the scores to the console of a player. " alt="" coords="255,908,378,935"/>
+<area shape="rect" id="node4" href="$dd/da5/gamelog_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3" title="GameLogEcho" alt="" coords="2561,107,2675,133"/>
+<area shape="rect" id="node7" href="$d9/d09/notifications_2all_8inc.html#ad04f6b1a4889674503c3cdad58c55da1" title="strcat" alt="" coords="2833,825,2892,852"/>
+<area shape="rect" id="node6" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="2833,452,2892,479"/>
+<area shape="rect" id="node8" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="2822,651,2903,677"/>
+<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="2833,107,2892,133"/>
+<area shape="rect" id="node10" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="2835,56,2890,83"/>
+<area shape="rect" id="node11" href="$db/d95/server_2main_8qc.html#a0390f6703ace29f61655694b8821d84a" title="print(), but only print if the server is not local " alt="" coords="2802,157,2923,184"/>
+<area shape="rect" id="node12" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="2992,739,3043,765"/>
+<area shape="rect" id="node14" href="$d7/d39/sv__rules_8qc.html#a6d048a398964786e1440a048b8188e7a" title="Disabling score disables the &quot;score&quot; column on the scoreboard. " alt="" coords="435,1371,629,1397"/>
+<area shape="rect" id="node16" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1233,703,1292,729"/>
+<area shape="rect" id="node17" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="1002,505,1042,532"/>
+<area shape="rect" id="node49" href="$d2/d79/scores_8qc.html#ae4fe65e7dbeb8050e420d6dfbbee1d5a" title="PlayerTeamScore_Compare" alt="" coords="678,505,877,532"/>
+<area shape="rect" id="node18" href="$db/d9f/state_8qh.html#afc32312bf25df126b18e078bedab7837" title="ClientState_attach" alt="" coords="1192,455,1333,481"/>
+<area shape="rect" id="node19" href="$db/d9f/state_8qh.html#ae17cd2d1c2291942edc23455fc1db486" title="ClientState_detach" alt="" coords="1191,505,1335,532"/>
+<area shape="rect" id="node20" href="$d9/d89/getreplies_8qc.html#a9493fdb8b379fd22c688da7be4fc7782" title="GetCvars" alt="" coords="1443,601,1524,628"/>
+<area shape="rect" id="node42" href="$d0/d3f/state_8qc.html#a34f4025222e4edd5d1dcee5b90656bec" title="accuracy_free" alt="" coords="1428,257,1539,284"/>
+<area shape="rect" id="node43" href="$d0/d3f/state_8qc.html#a7fd595275a5ab3b24efdf5dc24933c46" title="PlayerScore_Detach" alt="" coords="1408,308,1559,335"/>
+<area shape="rect" id="node44" href="$d0/d3f/state_8qc.html#a8fe4ed7866766d38e6cf3bfd1c4b239e" title="W_HitPlotClose" alt="" coords="1425,359,1542,385"/>
+<area shape="rect" id="node45" href="$d0/d3f/state_8qc.html#a493d87cfdaad13d4de171211f5f7bc4d" title="ClientData_Detach" alt="" coords="1412,207,1555,233"/>
+<area shape="rect" id="node46" href="$d0/d3f/state_8qc.html#ac87f3b0e72460f99913d0a56abac6990" title="entcs_detach" alt="" coords="1429,409,1537,436"/>
+<area shape="rect" id="node47" href="$d0/d3f/state_8qc.html#ab10bcd46b240e1fd8154de39ddd5c40e" title="bot_clientdisconnect" alt="" coords="1407,460,1560,487"/>
+<area shape="rect" id="node48" href="$d0/d3f/state_8qc.html#abbd5a2c9639d75d5ac7e98fbd60856ab" title="anticheat_report_to\l_eventlog" alt="" coords="1409,511,1557,553"/>
+<area shape="rect" id="node21" href="$dc/d73/server_2miscfunctions_8qh.html#a9974b20c57efacc64d84960329620554" title="strcat1" alt="" coords="1995,528,2062,555"/>
+<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78" title="argv" alt="" coords="2837,503,2888,529"/>
+<area shape="rect" id="node23" href="$d9/d89/getreplies_8qc.html#aad818a177c42603ffc7dc6e34406c050" title="GetCvars_handleString\l_Fixup" alt="" coords="1647,579,1816,621"/>
+<area shape="rect" id="node25" href="$d9/d89/getreplies_8qc.html#aa4ac3dd1f661621de6a9f2bf5e6fb289" title="W_FixWeaponOrder_ForceComplete\l_AndBuildImpulseList" alt="" coords="1608,645,1855,686"/>
+<area shape="rect" id="node40" href="$d0/d2b/weapons_2all_8qc.html#a07ee4c440c94f2f2ec9997912dfde9e9" title="W_FixWeaponOrder_AllowIncomplete" alt="" coords="1903,477,2155,504"/>
+<area shape="rect" id="node41" href="$d9/d89/getreplies_8qc.html#a87f18211483cf0fc854225867b1e7015" title="GetCvars_handleFloat" alt="" coords="2537,427,2699,453"/>
+<area shape="rect" id="node24" href="$d9/d89/getreplies_8qc.html#a7c662280a4c259425dad12e0d007f13a" title="GetCvars_handleString" alt="" coords="2533,629,2703,656"/>
+<area shape="rect" id="node26" href="$d0/d2b/weapons_2all_8qc.html#a01fb8b4722cd9503ad28af6600e7e18c" title="W_FixWeaponOrder_ForceComplete" alt="" coords="1905,579,2152,605"/>
+<area shape="rect" id="node36" href="$d0/d2b/weapons_2all_8qc.html#a6a9b42410f2d888f52a11253a2165203" title="W_FixWeaponOrder_BuildImpulseList" alt="" coords="2203,781,2455,808"/>
+<area shape="rect" id="node27" href="$d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8" title="cvar_defstring" alt="" coords="2273,579,2385,605"/>
+<area shape="rect" id="node28" href="$d0/d2b/weapons_2all_8qc.html#acb6d8a69c18135cd85a99ff515fe5bf6" title="W_FixWeaponOrder" alt="" coords="2257,477,2400,504"/>
+<area shape="rect" id="node32" href="$d0/d2b/weapons_2all_8qc.html#a68c8b4f04f6cf4bd80ef078f2bea8d16" title="W_NumberWeaponOrder" alt="" coords="2239,528,2418,555"/>
+<area shape="rect" id="node29" href="$da/d44/common_2util_8qc.html#a1fa4c54efc174e1a6ec3545157865632" title="fixPriorityList" alt="" coords="2567,477,2669,504"/>
+<area shape="rect" id="node30" href="$d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a" title="stof" alt="" coords="2839,401,2886,428"/>
+<area shape="rect" id="node31" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="2837,1011,2888,1037"/>
+<area shape="rect" id="node33" href="$da/d44/common_2util_8qc.html#ae1958a532419b5580361c8f32a53a538" title="mapPriorityList" alt="" coords="2559,528,2677,555"/>
+<area shape="rect" id="node34" href="$d0/d2b/weapons_2all_8qc.html#a6e455edb328362e8ea7fc75757394379" title="W_NumberWeaponOrder\l_MapFunc" alt="" coords="2529,259,2707,301"/>
+<area shape="rect" id="node35" href="$d0/d2b/weapons_2all_8qc.html#a79fb53e58c432f7bb94bc2e881f4c2b6" title="W_UndeprecateName" alt="" coords="2781,267,2944,293"/>
+<area shape="rect" id="node37" href="$db/def/sort_8qh.html#a819f1c3300f552419896b2c53088c05c" title="heapsort" alt="" coords="2579,797,2657,824"/>
+<area shape="rect" id="node38" href="$d0/d2b/weapons_2all_8qc.html#a66424748bad8c2bf6beda9b93b5f12d5" title="W_FixWeaponOrder_BuildImpulse\lList_cmp" alt="" coords="2503,1001,2733,1042"/>
+<area shape="rect" id="node39" href="$d0/d2b/weapons_2all_8qc.html#a5ac8701317c43bb66826e117a101f71e" title="W_FixWeaponOrder_BuildImpulse\lList_swap" alt="" coords="2503,681,2733,722"/>
+<area shape="rect" id="node50" href="$d2/d79/scores_8qc.html#ab1cac4ea697e08d564ef09bf4cd1c822" title="TeamScore_Compare" alt="" coords="943,328,1101,355"/>
+<area shape="rect" id="node53" href="$d2/d79/scores_8qc.html#a5441e464e74d40fc0584e956f68c2c12" title="PlayerScore_Compare" alt="" coords="940,379,1104,405"/>
+<area shape="rect" id="node51" href="$da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9" title="vector" alt="" coords="1231,353,1294,380"/>
+<area shape="rect" id="node52" href="$d2/d79/scores_8qc.html#a4269aa8682826ed20f07afefd72daf79" title="ScoreField_Compare" alt="" coords="1186,303,1339,329"/>
+<area shape="rect" id="node55" href="$df/d4a/server_2race_8qc.html#a2dc87fbca84cbbf8ac854670fa11871b" title="race_PreparePlayer" alt="" coords="459,1421,605,1448"/>
+<area shape="rect" id="node56" href="$df/d4a/server_2race_8qc.html#a6c1a701a84cb0c5b15f45173e3038d9b" title="race_ClearTime" alt="" coords="717,1421,838,1448"/>
+<area shape="rect" id="node57" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="981,1421,1063,1448"/>
+<area shape="rect" id="node59" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="501,908,563,935"/>
+<area shape="rect" id="node60" href="$d2/d79/scores_8qc.html#a05074af080e1c47e05f847d4db9e66fc" title="Score_NicePrint_Team" alt="" coords="940,965,1104,992"/>
+<area shape="rect" id="node65" href="$d2/d79/scores_8qc.html#a9657775baeb357bf9c34044f04305a20" title="Score_NicePrint_Player" alt="" coords="693,825,862,852"/>
+<area shape="rect" id="node66" href="$d2/d79/scores_8qc.html#ac325eeedb7c50f08a44fc2b93063c5bf" title="Score_NicePrint_Spectators" alt="" coords="677,1053,877,1080"/>
+<area shape="rect" id="node67" href="$d2/d79/scores_8qc.html#a70e333bb8df9db9b1aa1244d608ce4d3" title="Score_NicePrint_Spectator" alt="" coords="925,1117,1119,1144"/>
+<area shape="rect" id="node61" href="$d2/d79/scores_8qc.html#ac16d1f108f2ae55d8775f4f4c3bd2440" title="Score_NicePrint_ItemColor" alt="" coords="1167,915,1359,941"/>
+<area shape="rect" id="node62" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="1237,1016,1288,1043"/>
+<area shape="rect" id="node63" href="$de/d55/server_2command_2common_8qc.html#a37f1c035bd3cc63c8ef7d58dd12958ee" title="print_to" alt="" coords="1227,1117,1298,1144"/>
+<area shape="rect" id="node64" href="$d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f" title="sprint" alt="" coords="1454,1168,1513,1195"/>
 </map>

@@ -6,7 +6,6 @@ var searchData=
   ['unfreeze',['Unfreeze',['../da/ded/damage_8qc.html#acc99d1a4f941f72826f41d22d035dcee',1,'Unfreeze(entity targ, bool reset_health):&#160;damage.qc'],['../d4/d62/damage_8qh.html#acc99d1a4f941f72826f41d22d035dcee',1,'Unfreeze(entity targ, bool reset_health):&#160;damage.qc']]],
   ['unquote',['unquote',['../d3/d46/mapinfo_8qc.html#a909ab91933ee8b125ca839d26c3116d2',1,'mapinfo.qc']]],
   ['unref',['unref',['../d2/dce/promise_8qc.html#a712a7e556da708f2c2de4a0bf5fcaae9',1,'promise.qc']]],
-  ['unsetmovetypefollow',['UnsetMovetypeFollow',['../dc/dc6/server_2miscfunctions_8qc.html#a9634e44df040223a44cd0063ac141c9f',1,'miscfunctions.qc']]],
   ['update',['update',['../d0/d5d/classAnimation.html#a4318baf0b0735e7da87b2c6d3d3a2705',1,'Animation']]],
   ['update_5fmousepos',['update_mousepos',['../dc/d98/client_2miscfunctions_8qc.html#a08d24097586a6fc4539ce644d1c66e54',1,'update_mousepos():&#160;miscfunctions.qc'],['../d8/db6/client_2miscfunctions_8qh.html#a08d24097586a6fc4539ce644d1c66e54',1,'update_mousepos():&#160;miscfunctions.qc']]],
   ['updateaspect',['updateAspect',['../d8/d00/classImage.html#a603f8717f8a19f57c6441bafc59779a9',1,'Image']]],

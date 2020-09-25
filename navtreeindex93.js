@@ -1,5 +1,14 @@
 var NAVTREEINDEX93 =
 {
+"da/d68/accuracy_8qc.html#a7fabb764d4f54825debd9e866f4bf96b":[2,0,6,6,2,4],
+"da/d68/accuracy_8qc.html#a8ad5119b525659cbc971123f303fa416":[2,0,6,6,2,5],
+"da/d68/accuracy_8qc.html#a92354049648146157a9f3a60e08caba3":[2,0,6,6,2,2],
+"da/d68/accuracy_8qc.html#aad4882ef9eb34b565690f771aec07c2d":[2,0,6,6,2,6],
+"da/d68/accuracy_8qc.html#addc590d48822d285d5025af942f6ef4e":[2,0,6,6,2,1],
+"da/d68/accuracy_8qc.html#ae40174f6ba06ff9c6d8ad5b0fde05e06":[2,0,6,6,2,0],
+"da/d68/accuracy_8qc_source.html":[2,0,6,6,2],
+"da/d6a/health_8qh.html":[2,0,1,5,0,7],
+"da/d6a/health_8qh.html#a8332a98989b8a6eb4fd2fea78ad89b6c":[2,0,1,5,0,7,2],
 "da/d6a/health_8qh.html#a9b3e1f042959d6d9e1029907e90f9875":[2,0,1,5,0,7,4],
 "da/d6a/health_8qh.html#ac737cbf9e6474f8f4fc5b90d844a0d93":[2,0,1,5,0,7,1],
 "da/d6a/health_8qh.html#acd779843151eff7554015c3bc54b25b1":[2,0,1,5,0,7,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX93 =
 "da/d94/classXonoticSettingsDialog.html#a31049ac23a9b136a14bcbdac80d3f0eb":[1,0,247,67],
 "da/d94/classXonoticSettingsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,247,20],
 "da/d94/classXonoticSettingsDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,247,13],
-"da/d94/classXonoticSettingsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,247,59],
-"da/d94/classXonoticSettingsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,247,28],
-"da/d94/classXonoticSettingsDialog.html#a35febc4699b486ec00bb66071ba3892c":[1,0,247,85],
-"da/d94/classXonoticSettingsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,247,44],
-"da/d94/classXonoticSettingsDialog.html#a3914bbbebeb4c734cae33a31b8c71455":[1,0,247,22],
-"da/d94/classXonoticSettingsDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,247,54],
-"da/d94/classXonoticSettingsDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,247,84],
-"da/d94/classXonoticSettingsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,247,1],
-"da/d94/classXonoticSettingsDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,247,37],
-"da/d94/classXonoticSettingsDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,247,12]
+"da/d94/classXonoticSettingsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,247,59]
 };
