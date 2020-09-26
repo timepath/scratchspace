@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"d1/dc2/bugrigs_8qc_source.html":[2,0,1,10,0,3,2],
 "d1/dc2/kill_8qc.html":[2,0,1,6,2,4],
 "d1/dc2/kill_8qc_source.html":[2,0,1,6,2,4],
 "d1/dc3/classEWheelAttack.html":[1,0,36],
@@ -105,19 +106,19 @@ var NAVTREEINDEX15 =
 "d1/dd8/hlac_8qh.html#aeb590eb50f04a495733e746eee215d3e":[2,0,1,16,0,17,2],
 "d1/dd8/hlac_8qh_source.html":[2,0,1,16,0,17],
 "d1/dd8/server_2main_8qh.html":[2,0,6,41],
-"d1/dd8/server_2main_8qh.html#a0214f10fac80584471e106daa9bbd656":[2,0,6,41,4],
+"d1/dd8/server_2main_8qh.html#a0214f10fac80584471e106daa9bbd656":[2,0,6,41,3],
 "d1/dd8/server_2main_8qh.html#a0390f6703ace29f61655694b8821d84a":[2,0,6,41,0],
 "d1/dd8/server_2main_8qh.html#a2f53beae246d912f86721a4b9a0c0d0a":[2,0,6,41,12],
 "d1/dd8/server_2main_8qh.html#a389c6b4301cce5d979b54108aaf6462c":[2,0,6,41,9],
 "d1/dd8/server_2main_8qh.html#a3c3af8f5c6837dd97fdbd346a993f5b1":[2,0,6,41,13],
 "d1/dd8/server_2main_8qh.html#a3e22c8ced0d427b277b14fc646a0d2e3":[2,0,6,41,8],
 "d1/dd8/server_2main_8qh.html#a4559bb7f78065ba068480a3b6063db69":[2,0,6,41,14],
-"d1/dd8/server_2main_8qh.html#a4e74ce1d2075c282aed288a570b9bd0f":[2,0,6,41,5],
-"d1/dd8/server_2main_8qh.html#a561d61ff3f398e13794e58b7c4eefe32":[2,0,6,41,1],
+"d1/dd8/server_2main_8qh.html#a4e74ce1d2075c282aed288a570b9bd0f":[2,0,6,41,4],
 "d1/dd8/server_2main_8qh.html#a775a8f6ca2e638cb328884de289a4072":[2,0,6,41,7],
 "d1/dd8/server_2main_8qh.html#a93123616e49dc6670ba3f6e818e89e6f":[2,0,6,41,10],
-"d1/dd8/server_2main_8qh.html#aa16293e20d9c95cd2706a83a9e1fe8fb":[2,0,6,41,3],
-"d1/dd8/server_2main_8qh.html#acdef7a1fd863a6d3770c1268cb06add3":[2,0,6,41,2],
+"d1/dd8/server_2main_8qh.html#a9974b20c57efacc64d84960329620554":[2,0,6,41,5],
+"d1/dd8/server_2main_8qh.html#aa16293e20d9c95cd2706a83a9e1fe8fb":[2,0,6,41,2],
+"d1/dd8/server_2main_8qh.html#acdef7a1fd863a6d3770c1268cb06add3":[2,0,6,41,1],
 "d1/dd8/server_2main_8qh.html#ad6277977c2f00ae7c2906c9d3d12caaf":[2,0,6,41,11],
 "d1/dd8/server_2main_8qh.html#aeeaa400fd87f8dbf9fbf3d76b4925a1d":[2,0,6,41,6],
 "d1/dd8/server_2main_8qh_source.html":[2,0,6,41],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "d1/dec/classInputBox.html#ac7432c7cf4b727b14ad696b443ea11c9":[1,0,54,46],
 "d1/dec/classInputBox.html#ac909eb899e2cd152c8d7c6b514a27d44":[1,0,54,70],
 "d1/dec/classInputBox.html#aca890e5e9545088e29976620efe2e8dc":[1,0,54,26],
-"d1/dec/classInputBox.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,54,57],
-"d1/dec/classInputBox.html#ad971b70834e8046086d9991b85964427":[1,0,54,8]
+"d1/dec/classInputBox.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,54,57]
 };

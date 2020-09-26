@@ -17,6 +17,7 @@ var server_2main_8qc =
     [ "SV_PausedTic", "db/d95/server_2main_8qc.html#aa4933ac98289b020b6a16d889f8c4e04", null ],
     [ "sys_phys_update", "db/d95/server_2main_8qc.html#a497a408e59dc1f5697ed3f902dde1f3c", null ],
     [ "systems_update", "db/d95/server_2main_8qc.html#a20fbabe6206b4fb7777eefcceac58edf", null ],
+    [ "URI_Get_Callback", "db/d95/server_2main_8qc.html#a16aac93ba5b972ed98ff17320dda1b93", null ],
     [ "WarpZone_PostInitialize_Callback", "db/d95/server_2main_8qc.html#a4dc5316f2758ed54f716d22cf319ca8b", null ],
     [ "anglejitter", "db/d95/server_2main_8qc.html#a11a7125cdd8248d341e7a0c14ab5f2e8", null ],
     [ "anglesjitter", "db/d95/server_2main_8qc.html#aee5bad9e166722f0632eef86755836d0", null ],

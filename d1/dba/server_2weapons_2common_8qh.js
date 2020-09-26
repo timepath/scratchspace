@@ -1,6 +1,7 @@
 var server_2weapons_2common_8qh =
 [
     [ "PROJECTILE_MAKETRIGGER", "d1/dba/server_2weapons_2common_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628", null ],
+    [ "PROJECTILE_TOUCH", "d1/dba/server_2weapons_2common_8qh.html#a50ae929b40916f98cffeb538fd0951dd", null ],
     [ "adaptor_think2use_hittype_splash", "d1/dba/server_2weapons_2common_8qh.html#af695d661864cdf0f78273b0a8717a1e9", null ],
     [ "STATIC_INIT", "d1/dba/server_2weapons_2common_8qh.html#a3b536cd1962aa3e327b955de79de1217", null ],
     [ "W_CheckProjectileDamage", "d1/dba/server_2weapons_2common_8qh.html#a102ac938a46377356e95bb667b1f01e2", null ],

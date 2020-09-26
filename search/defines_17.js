@@ -45,7 +45,7 @@ var searchData=
   ['w_5fupdate_5fpri',['W_UPDATE_PRI',['../d0/ddd/weapons_2all_8qh.html#ad46a5a7b01502f163965fa182c08dc68',1,'all.qh']]],
   ['w_5fupdate_5fsec',['W_UPDATE_SEC',['../d0/ddd/weapons_2all_8qh.html#a3a83fb171190023db3979c62de8f0c4a',1,'all.qh']]],
   ['walkmove',['walkmove',['../d2/d77/pre_8qh.html#ad4c7d5cf3db03e818d037012f8be2d23',1,'walkmove():&#160;pre.qh'],['../d3/dd0/self_8qh.html#a624c0216024b958a39da9130aaf8c959',1,'walkmove():&#160;self.qh']]],
-  ['warmup_5fstart_5fweapons',['WARMUP_START_WEAPONS',['../dc/d73/server_2miscfunctions_8qh.html#a29c235bed1ff0287066a442759cbfe3a',1,'miscfunctions.qh']]],
+  ['warmup_5fstart_5fweapons',['WARMUP_START_WEAPONS',['../de/d2b/world_8qh.html#a29c235bed1ff0287066a442759cbfe3a',1,'world.qh']]],
   ['warn_5fcond',['WARN_COND',['../d3/d46/mapinfo_8qc.html#a97c45d4e9e042407a79c7a8fc2f8a304',1,'mapinfo.qc']]],
   ['warpzone_5fstoreprojectiledata',['WarpZone_StoreProjectileData',['../d7/d2b/server_8qc.html#abd1c85d3c17d614bcf25162ca98e49bb',1,'server.qc']]],
   ['was_5fonground',['WAS_ONGROUND',['../de/d70/common_2physics_2player_8qh.html#a5a11a9aa52f228414844fc60042af295',1,'player.qh']]],

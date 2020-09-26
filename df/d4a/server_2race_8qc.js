@@ -42,6 +42,7 @@ var server_2race_8qc =
     [ "STATIC_INIT", "df/d4a/server_2race_8qc.html#aafe40bd6d2e50443e776549f90755e77", null ],
     [ "trigger_race_checkpoint_spawn_evalfunc", "df/d4a/server_2race_8qc.html#a868d7c0472afd1cbb06a05f3e4b41a95", null ],
     [ "trigger_race_checkpoint_verify", "df/d4a/server_2race_8qc.html#af38e736fe67a1f8702b94c9de9ae9f88", null ],
+    [ "uid2name", "df/d4a/server_2race_8qc.html#a943d9da424f168efb8d407b4de9833a2", null ],
     [ "write_recordmarker", "df/d4a/server_2race_8qc.html#a450084bb9c01e6e3fe55aa6027d4580f", null ],
     [ "defrag_ents", "df/d4a/server_2race_8qc.html#a70fbde94d1d32b56ca60fda6a5c34e83", null ],
     [ "defragcpexists", "df/d4a/server_2race_8qc.html#a5df20a0be3e9e2fe0fd82f4f1d18e372", null ],
