@@ -1,5 +1,13 @@
 var NAVTREEINDEX120 =
 {
+"dd/d9a/classXonoticSandboxToolsDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,236,37],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,236,12],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,236,73],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,236,21],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,236,23],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,236,48],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,236,26],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,236,55],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,236,32],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,236,40],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,236,62],
@@ -241,13 +249,5 @@ var NAVTREEINDEX120 =
 "dd/da6/classXonoticCreditsDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,161,30],
 "dd/da6/classXonoticCreditsDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,161,61],
 "dd/da6/classXonoticCreditsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,161,54],
-"dd/da6/classXonoticCreditsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,161,91],
-"dd/da6/classXonoticCreditsDialog.html#ae4426a36e8331724eb95f243e6e1dc4c":[1,0,161,77],
-"dd/da6/classXonoticCreditsDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,161,9],
-"dd/da6/classXonoticCreditsDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,161,67],
-"dd/da6/classXonoticCreditsDialog.html#af1aab403dc54575707fd57991312b201":[1,0,161,46],
-"dd/da6/classXonoticCreditsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,161,26],
-"dd/da6/classXonoticCreditsDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,161,11],
-"dd/da6/classXonoticCreditsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,161,16],
-"dd/da6/classXonoticCreditsDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,161,50]
+"dd/da6/classXonoticCreditsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,161,91]
 };

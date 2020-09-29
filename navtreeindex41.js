@@ -1,5 +1,13 @@
 var NAVTREEINDEX41 =
 {
+"d4/d62/damage_8qh.html#a20087508f7a406698c20adf80e55aeba":[2,0,6,25,42],
+"d4/d62/damage_8qh.html#a20c748d061a8595dc442ff0dbcdb0768":[2,0,6,25,13],
+"d4/d62/damage_8qh.html#a23d73461c891095705d9e88dcbf0b164":[2,0,6,25,72],
+"d4/d62/damage_8qh.html#a24aaf696797544264665df5f05253d1c":[2,0,6,25,14],
+"d4/d62/damage_8qh.html#a2606d7979cdea514c3d8271956430a8d":[2,0,6,25,20],
+"d4/d62/damage_8qh.html#a29b994430075fe7f7e0db484de0e5085":[2,0,6,25,52],
+"d4/d62/damage_8qh.html#a2b2cad71d9088357051170c08fb286a9":[2,0,6,25,71],
+"d4/d62/damage_8qh.html#a30b6dcb0a5e148d3961cad10abdaf5af":[2,0,6,25,18],
 "d4/d62/damage_8qh.html#a3843366a2470ff4989f2e72a5c79c8b8":[2,0,6,25,22],
 "d4/d62/damage_8qh.html#a3f696c9f9260834902e2b430e0d71f8e":[2,0,6,25,46],
 "d4/d62/damage_8qh.html#a3fd2d994c3cac42100d3818ec0dd1095":[2,0,6,25,37],
@@ -241,13 +249,5 @@ var NAVTREEINDEX41 =
 "d4/d85/classXonoticUid2NameDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,259,10],
 "d4/d85/classXonoticUid2NameDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,259,15],
 "d4/d85/classXonoticUid2NameDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,259,49],
-"d4/d85/classXonoticUid2NameDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,259,2],
-"d4/d85/classXonoticUid2NameDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,259,35],
-"d4/d85/classXonoticUid2NameDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,259,39],
-"d4/d85/sv__physical__items_8qc.html":[2,0,1,10,0,24,2],
-"d4/d85/sv__physical__items_8qc.html#a051772ab21bd83f6914557f491ac4381":[2,0,1,10,0,24,2,9],
-"d4/d85/sv__physical__items_8qc.html#a0a22c548a3475e9a379dc8a3137c4cf1":[2,0,1,10,0,24,2,5],
-"d4/d85/sv__physical__items_8qc.html#a4c102a73d6b2d482288e8f6f7a45c1bb":[2,0,1,10,0,24,2,6],
-"d4/d85/sv__physical__items_8qc.html#a84e0ab5e6b85ec8fd75736dce0a7e8d8":[2,0,1,10,0,24,2,1],
-"d4/d85/sv__physical__items_8qc.html#aa38e53e2d1a47df21cdfc4cab2302e36":[2,0,1,10,0,24,2,8]
+"d4/d85/classXonoticUid2NameDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,259,2]
 };

@@ -56,8 +56,8 @@ var sectionId = 'dynsection-7';
 <title>lms_RemovePlayer</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="0,-370.5 0,-389.5 107,-389.5 107,-370.5 0,-370.5"/>
-<text text-anchor="middle" x="53.5" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">lms_RemovePlayer</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-351.5 0,-370.5 107,-370.5 107,-351.5 0,-351.5"/>
+<text text-anchor="middle" x="53.5" y="-358.5" font-family="Helvetica,sans-Serif" font-size="10.00">lms_RemovePlayer</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -69,8 +69,8 @@ var sectionId = 'dynsection-7';
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M86.0428,-389.589C102.367,-394.551 122.46,-400.66 139.827,-405.939"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="139.103,-409.377 149.688,-408.937 141.139,-402.68 139.103,-409.377"/>
+<path fill="none" stroke="midnightblue" d="M75.4222,-370.541C95.6122,-379.747 126.396,-393.785 149.253,-404.207"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="147.959,-407.464 158.51,-408.428 150.863,-401.095 147.959,-407.464"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -82,21 +82,34 @@ var sectionId = 'dynsection-7';
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M107.149,-380C123.891,-380 141.6,-380 155.308,-380"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="155.348,-383.5 165.348,-380 155.348,-376.5 155.348,-383.5"/>
+<path fill="none" stroke="midnightblue" d="M107.149,-369.003C123.891,-371.547 141.6,-374.239 155.308,-376.323"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="154.936,-379.806 165.348,-377.849 155.988,-372.886 154.936,-379.806"/>
 </g>
 <!-- Node40 -->
 <g id="node40" class="node"><title>Node40</title>
-<g id="a_node40"><a xlink:href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80" target="_top" xlink:title="TRANSMUTE">
-<polygon fill="none" stroke="black" points="143,-332.5 143,-351.5 218,-351.5 218,-332.5 143,-332.5"/>
-<text text-anchor="middle" x="180.5" y="-339.5" font-family="Helvetica,sans-Serif" font-size="10.00">TRANSMUTE</text>
+<g id="a_node40"><a xlink:href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98" target="_top" xlink:title="if">
+<polygon fill="none" stroke="black" points="166,-332.5 166,-351.5 195,-351.5 195,-332.5 166,-332.5"/>
+<text text-anchor="middle" x="180.5" y="-339.5" font-family="Helvetica,sans-Serif" font-size="10.00">if</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node40 -->
 <g id="edge61" class="edge"><title>Node1&#45;&gt;Node40</title>
-<path fill="none" stroke="midnightblue" d="M86.0428,-370.411C101.883,-365.596 121.273,-359.701 138.276,-354.532"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="139.418,-357.843 147.967,-351.586 137.382,-351.146 139.418,-357.843"/>
+<path fill="none" stroke="midnightblue" d="M107.149,-352.997C124.102,-350.421 142.046,-347.693 155.823,-345.599"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="156.52,-349.033 165.88,-344.07 155.468,-342.113 156.52,-349.033"/>
+</g>
+<!-- Node41 -->
+<g id="node41" class="node"><title>Node41</title>
+<g id="a_node41"><a xlink:href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80" target="_top" xlink:title="TRANSMUTE">
+<polygon fill="none" stroke="black" points="143,-294.5 143,-313.5 218,-313.5 218,-294.5 143,-294.5"/>
+<text text-anchor="middle" x="180.5" y="-301.5" font-family="Helvetica,sans-Serif" font-size="10.00">TRANSMUTE</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node41 -->
+<g id="edge62" class="edge"><title>Node1&#45;&gt;Node41</title>
+<path fill="none" stroke="midnightblue" d="M75.4222,-351.459C95.6122,-342.253 126.396,-328.215 149.253,-317.793"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="150.863,-320.905 158.51,-313.572 147.959,-314.536 150.863,-320.905"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>

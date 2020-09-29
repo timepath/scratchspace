@@ -141,9 +141,9 @@ Macros</h2></td></tr>
 <tr class="separator:a350dfb5b689e6b98109f6d86e13d6bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ca3b5fefc64511157aedcfc7f99b9fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/ddd/lib_2stats_8qh.html#a6ca3b5fefc64511157aedcfc7f99b9fe">MAGIC_STATS_FIX</a>(it)</td></tr>
 <tr class="separator:a6ca3b5fefc64511157aedcfc7f99b9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab18144f27985652d7c9079c3659a7051"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/ddd/lib_2stats_8qh.html#ab18144f27985652d7c9079c3659a7051">MAGIC_STATS_FIX_AUTO</a>(it,  var,  id)&#160;&#160;&#160;if (<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">it.m_id</a> == id) { ++<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06">g_magic_stats_hole</a>; ++<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">it.m_id</a>; }</td></tr>
+<tr class="memitem:ab18144f27985652d7c9079c3659a7051"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/ddd/lib_2stats_8qh.html#ab18144f27985652d7c9079c3659a7051">MAGIC_STATS_FIX_AUTO</a>(it,  var,  id)&#160;&#160;&#160;<a class="el" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">if</a> (<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">it.m_id</a> == id) { ++<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06">g_magic_stats_hole</a>; ++<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">it.m_id</a>; }</td></tr>
 <tr class="separator:ab18144f27985652d7c9079c3659a7051"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52f1dd7436bec5893a9829e9d23bb260"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/ddd/lib_2stats_8qh.html#a52f1dd7436bec5893a9829e9d23bb260">MAGIC_STATS_FIX_MANUAL</a>(it,  var,  id)&#160;&#160;&#160;if (<a class="el" href="../../d2/d5e/registry_8qh.html#a80bc0f55561b2fdbd9bf5768df172dcf">it.registered_id</a> == &quot;STAT_&quot; #var) { --<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06">g_magic_stats_hole</a>; <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">it.m_id</a> = id; } else</td></tr>
+<tr class="memitem:a52f1dd7436bec5893a9829e9d23bb260"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/ddd/lib_2stats_8qh.html#a52f1dd7436bec5893a9829e9d23bb260">MAGIC_STATS_FIX_MANUAL</a>(it,  var,  id)&#160;&#160;&#160;<a class="el" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">if</a> (<a class="el" href="../../d2/d5e/registry_8qh.html#a80bc0f55561b2fdbd9bf5768df172dcf">it.registered_id</a> == &quot;STAT_&quot; #var) { --<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06">g_magic_stats_hole</a>; <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">it.m_id</a> = id; } else</td></tr>
 <tr class="separator:a52f1dd7436bec5893a9829e9d23bb260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab65391ba6c1b90dcad0eb1f846c0a054"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/ddd/lib_2stats_8qh.html#ab65391ba6c1b90dcad0eb1f846c0a054">REGISTER_STAT</a>(...)&#160;&#160;&#160;<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#a4daf4c0a09910c02804d9564348f8309">EVAL_REGISTER_STAT</a>(<a class="el" href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">OVERLOAD</a>(REGISTER_STAT, __VA_ARGS__))</td></tr>
 <tr class="separator:ab65391ba6c1b90dcad0eb1f846c0a054"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,7 +267,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;if (<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">it.m_id</a> == id) { ++<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06">g_magic_stats_hole</a>; ++<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">it.m_id</a>; }</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">if</a> (<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">it.m_id</a> == id) { ++<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06">g_magic_stats_hole</a>; ++<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">it.m_id</a>; }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -301,7 +301,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;if (<a class="el" href="../../d2/d5e/registry_8qh.html#a80bc0f55561b2fdbd9bf5768df172dcf">it.registered_id</a> == &quot;STAT_&quot; #var) { --<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06">g_magic_stats_hole</a>; <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">it.m_id</a> = id; } else</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">if</a> (<a class="el" href="../../d2/d5e/registry_8qh.html#a80bc0f55561b2fdbd9bf5768df172dcf">it.registered_id</a> == &quot;STAT_&quot; #var) { --<a class="el" href="../../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06">g_magic_stats_hole</a>; <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">it.m_id</a> = id; } else</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -480,7 +480,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d0/ddd/lib_2stats_8qh.html">stats.qh</a></li>
-    <li class="footer">Generated on Tue Sep 29 2020 12:08:35 for Xonotic by
+    <li class="footer">Generated on Tue Sep 29 2020 13:08:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

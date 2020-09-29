@@ -1,5 +1,13 @@
 var NAVTREEINDEX47 =
 {
+"d4/df8/classXonoticHUDRadarDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,201,88],
+"d4/df8/classXonoticHUDRadarDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,201,42],
+"d4/df8/classXonoticHUDRadarDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,201,51],
+"d4/df8/classXonoticHUDRadarDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,201,0],
+"d4/df8/classXonoticHUDRadarDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,201,16],
+"d4/df8/classXonoticHUDRadarDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,201,31],
+"d4/df8/classXonoticHUDRadarDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,201,36],
+"d4/df8/classXonoticHUDRadarDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,201,56],
 "d4/df8/classXonoticHUDRadarDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,201,33],
 "d4/df8/classXonoticHUDRadarDialog.html#ad0052afe413d241cdc87150e2b200582":[1,0,201,58],
 "d4/df8/classXonoticHUDRadarDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,201,83],
@@ -241,13 +249,5 @@ var NAVTREEINDEX47 =
 "d5/d52/bits_8qh.html#adc29c2ff13d900c2f185ee95427fb06caa45073594ce33b58d075d65d032ee453":[2,0,4,10,3],
 "d5/d52/bits_8qh.html#adc29c2ff13d900c2f185ee95427fb06caeee6c9348a242fbf6f968e4eae84d7a1":[2,0,4,10,7],
 "d5/d52/bits_8qh.html#adddacc81ca0e2ceacc3f1d4de8f9c35a":[2,0,4,10,2],
-"d5/d52/bits_8qh_source.html":[2,0,4,10],
-"d5/d53/classXonoticCharmap.html":[1,0,154],
-"d5/d53/classXonoticCharmap.html#a0295170719b329b2b1786ec96dfe390e":[1,0,154,37],
-"d5/d53/classXonoticCharmap.html#a03c78077a75e67c5ed55ddc272218280":[1,0,154,17],
-"d5/d53/classXonoticCharmap.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,154,12],
-"d5/d53/classXonoticCharmap.html#a202dc93b87f40c213a69a4a865888bac":[1,0,154,5],
-"d5/d53/classXonoticCharmap.html#a2061fae4374629deb4ba51c89a7b7ca0":[1,0,154,7],
-"d5/d53/classXonoticCharmap.html#a296ab0bfb856d3768c943cfb3c126d33":[1,0,154,4],
-"d5/d53/classXonoticCharmap.html#a39b77a1923845447d837ff9f399e9aff":[1,0,154,42]
+"d5/d52/bits_8qh_source.html":[2,0,4,10]
 };

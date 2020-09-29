@@ -128,7 +128,7 @@ Macros</h2></td></tr>
 <tr class="separator:afc96f4834ebbe04c2652040ef0347d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a613546d2df4114c5d7ff85a0caf1adaa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd4/navigation_8qh.html#a613546d2df4114c5d7ff85a0caf1adaa">navigation_item_getlinknum</a>(to_item,  from_wp)&#160;&#160;&#160;<a class="el" href="../../d1/d2a/waypoints_8qh.html#aa32dd9faacb4df51d38f981d2ec47795">waypoint_getlinknum</a>(to_item, from_wp)</td></tr>
 <tr class="separator:a613546d2df4114c5d7ff85a0caf1adaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfc05cc2896e27a79ed28053359de14a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd4/navigation_8qh.html#abfc05cc2896e27a79ed28053359de14a">navigation_item_initlinks_ifneeded</a>(e)&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (!<a class="el" href="../../d1/d2a/waypoints_8qh.html#aa21af0cc87b5bad942368ea4b059d95e">e.wp00</a>) <a class="el" href="../../d1/d2a/waypoints_8qh.html#a38265f752edbe2d8e696ad0c88fff34d">waypoint_clearlinks</a>(e); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td></tr>
+<tr class="memitem:abfc05cc2896e27a79ed28053359de14a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd4/navigation_8qh.html#abfc05cc2896e27a79ed28053359de14a">navigation_item_initlinks_ifneeded</a>(e)&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> <a class="el" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">if</a> (!<a class="el" href="../../d1/d2a/waypoints_8qh.html#aa21af0cc87b5bad942368ea4b059d95e">e.wp00</a>) <a class="el" href="../../d1/d2a/waypoints_8qh.html#a38265f752edbe2d8e696ad0c88fff34d">waypoint_clearlinks</a>(e); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td></tr>
 <tr class="separator:abfc05cc2896e27a79ed28053359de14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7eeca6c4f38db8bf91e8c2fc79aec177"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd4/navigation_8qh.html#a7eeca6c4f38db8bf91e8c2fc79aec177">navigation_item_iswalkablelink</a>(to_item,  from_wp)&#160;&#160;&#160;(<a class="el" href="../../d1/d2a/waypoints_8qh.html#a0b078a8d857ee1f919fd620f6ddd4cbd">waypoint_get_assigned_link_cost</a>(to_item, from_wp) &lt; 999)</td></tr>
 <tr class="separator:a7eeca6c4f38db8bf91e8c2fc79aec177"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -423,7 +423,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">e</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (!<a class="el" href="../../d1/d2a/waypoints_8qh.html#aa21af0cc87b5bad942368ea4b059d95e">e.wp00</a>) <a class="el" href="../../d1/d2a/waypoints_8qh.html#a38265f752edbe2d8e696ad0c88fff34d">waypoint_clearlinks</a>(e); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> <a class="el" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">if</a> (!<a class="el" href="../../d1/d2a/waypoints_8qh.html#aa21af0cc87b5bad942368ea4b059d95e">e.wp00</a>) <a class="el" href="../../d1/d2a/waypoints_8qh.html#a38265f752edbe2d8e696ad0c88fff34d">waypoint_clearlinks</a>(e); <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3340,7 +3340,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../df/dd4/navigation_8qh.html">navigation.qh</a></li>
-    <li class="footer">Generated on Tue Sep 29 2020 12:08:40 for Xonotic by
+    <li class="footer">Generated on Tue Sep 29 2020 13:08:49 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

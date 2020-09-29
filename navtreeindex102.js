@@ -1,5 +1,13 @@
 var NAVTREEINDEX102 =
 {
+"db/d5a/classXonoticHUDPowerupsDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,197,66],
+"db/d5a/classXonoticHUDPowerupsDialog.html#af1aab403dc54575707fd57991312b201":[1,0,197,45],
+"db/d5a/classXonoticHUDPowerupsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,197,25],
+"db/d5a/classXonoticHUDPowerupsDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,197,10],
+"db/d5a/classXonoticHUDPowerupsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,197,15],
+"db/d5a/classXonoticHUDPowerupsDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,197,49],
+"db/d5a/classXonoticHUDPowerupsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,197,2],
+"db/d5a/classXonoticHUDPowerupsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,197,35],
 "db/d5a/classXonoticHUDPowerupsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,197,39],
 "db/d5b/classXonoticGameMessageSettingsTab.html":[1,0,179],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,179,35],
@@ -241,13 +249,5 @@ var NAVTREEINDEX102 =
 "db/d76/classXonoticHUDNotificationDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,195,63],
 "db/d76/classXonoticHUDNotificationDialog.html#aa8a37e0d81a6646c5a888a6e181ed2a2":[1,0,195,79],
 "db/d76/classXonoticHUDNotificationDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,195,64],
-"db/d76/classXonoticHUDNotificationDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,195,9],
-"db/d76/classXonoticHUDNotificationDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,195,78],
-"db/d76/classXonoticHUDNotificationDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,195,77],
-"db/d76/classXonoticHUDNotificationDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,195,34],
-"db/d76/classXonoticHUDNotificationDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,195,5],
-"db/d76/classXonoticHUDNotificationDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,195,88],
-"db/d76/classXonoticHUDNotificationDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,195,42],
-"db/d76/classXonoticHUDNotificationDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,195,51],
-"db/d76/classXonoticHUDNotificationDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,195,0]
+"db/d76/classXonoticHUDNotificationDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,195,9]
 };

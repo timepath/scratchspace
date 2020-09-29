@@ -1,5 +1,13 @@
 var NAVTREEINDEX49 =
 {
+"d5/d73/classXonoticEffectsSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,175,23],
+"d5/d73/classXonoticEffectsSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,175,51],
+"d5/d73/classXonoticEffectsSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,175,31],
+"d5/d73/classXonoticEffectsSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,175,24],
+"d5/d73/classXonoticEffectsSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,175,17],
+"d5/d73/classXonoticEffectsSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,175,32],
+"d5/d73/classXonoticEffectsSettingsTab.html#a34ca464e163d5b3af3b15f45fa1812aa":[1,0,175,26],
+"d5/d73/classXonoticEffectsSettingsTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,175,48],
 "d5/d73/classXonoticEffectsSettingsTab.html#a39b77a1923845447d837ff9f399e9aff":[1,0,175,86],
 "d5/d73/classXonoticEffectsSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,175,1],
 "d5/d73/classXonoticEffectsSettingsTab.html#a3f9c5e6943891f335099fe380661b70c":[1,0,175,41],
@@ -241,13 +249,5 @@ var NAVTREEINDEX49 =
 "d5/d95/classXonoticDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,173,36],
 "d5/d95/classXonoticDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,173,56],
 "d5/d95/classXonoticDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,173,33],
-"d5/d95/classXonoticDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,173,83],
-"d5/d95/classXonoticDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,173,61],
-"d5/d95/classXonoticDialog.html#ad29a94752d7b43e6e35ea49fd778ee77":[1,0,173,81],
-"d5/d95/classXonoticDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,173,86],
-"d5/d95/classXonoticDialog.html#add68d35176324007cc9ed8d72d847f37":[1,0,173,58],
-"d5/d95/classXonoticDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,173,29],
-"d5/d95/classXonoticDialog.html#ae06afa48e87c8abcda0c0d5e15b761e4":[1,0,173,67],
-"d5/d95/classXonoticDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,173,60],
-"d5/d95/classXonoticDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,173,53]
+"d5/d95/classXonoticDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,173,83]
 };

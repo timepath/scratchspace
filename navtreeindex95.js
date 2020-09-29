@@ -1,5 +1,13 @@
 var NAVTREEINDEX95 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,244,104],
+"da/db7/classXonoticServerInfoDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,244,20],
+"da/db7/classXonoticServerInfoDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,244,43],
+"da/db7/classXonoticServerInfoDialog.html#a775b994db16fbbf0a4e1976eff4c1220":[1,0,244,38],
+"da/db7/classXonoticServerInfoDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,244,47],
+"da/db7/classXonoticServerInfoDialog.html#a78f05ec0093af63d1784953979e3f4ed":[1,0,244,111],
+"da/db7/classXonoticServerInfoDialog.html#a79d46dd44f1e634863416b79a3960b89":[1,0,244,97],
+"da/db7/classXonoticServerInfoDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,244,117],
 "da/db7/classXonoticServerInfoDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,244,109],
 "da/db7/classXonoticServerInfoDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,244,80],
 "da/db7/classXonoticServerInfoDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,244,73],
@@ -241,13 +249,5 @@ var NAVTREEINDEX95 =
 "da/dc3/common_2scores_8qh.html#a62738bb8ca547d47c1dd44ee6b2feb41":[2,0,1,44,4],
 "da/dc3/common_2scores_8qh.html#a7319c4c366cbbafadbe68affd67db198":[2,0,1,44,21],
 "da/dc3/common_2scores_8qh.html#a7d6950d6481a75021716f1360417415f":[2,0,1,44,31],
-"da/dc3/common_2scores_8qh.html#a7e1c9f8eb4ea61b96450dd9146770ac8":[2,0,1,44,15],
-"da/dc3/common_2scores_8qh.html#a80615f14eeec9e92451f51946cd73d0d":[2,0,1,44,27],
-"da/dc3/common_2scores_8qh.html#a8282504222d03bb68483776381c31a5a":[2,0,1,44,32],
-"da/dc3/common_2scores_8qh.html#a98a2089ec6c2c82452fcc4ae2d6627c7":[2,0,1,44,11],
-"da/dc3/common_2scores_8qh.html#a9a73718d00603e50d00d9d1c265f10d4":[2,0,1,44,18],
-"da/dc3/common_2scores_8qh.html#a9d77f85656e14faddc538520a2364c22":[2,0,1,44,16],
-"da/dc3/common_2scores_8qh.html#a9f265a37d91891818cc123502adb5676":[2,0,1,44,6],
-"da/dc3/common_2scores_8qh.html#aa13d52abf22e0bcac1f1863c1c0920f9":[2,0,1,44,24],
-"da/dc3/common_2scores_8qh.html#aa27bf8c0d78735062b3cf41d2a618b30":[2,0,1,44,2]
+"da/dc3/common_2scores_8qh.html#a7e1c9f8eb4ea61b96450dd9146770ac8":[2,0,1,44,15]
 };

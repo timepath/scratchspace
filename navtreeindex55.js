@@ -1,5 +1,13 @@
 var NAVTREEINDEX55 =
 {
+"d6/d3e/dialog__multiplayer__media__musicplayer_8qc.html#ae82044ad6b56c5d7803a8922b42ac371":[2,0,5,4,108,0],
+"d6/d3e/dialog__multiplayer__media__musicplayer_8qc.html#ae9b7f89bd3642548beae29d55d467f5b":[2,0,5,4,108,1],
+"d6/d3e/dialog__multiplayer__media__musicplayer_8qc_source.html":[2,0,5,4,108],
+"d6/d3f/dialog__hudpanel__physics_8qh.html":[2,0,5,4,65],
+"d6/d3f/dialog__hudpanel__physics_8qh_source.html":[2,0,5,4,65],
+"d6/d3f/ecs_2events_2physics_8qc.html":[2,0,3,1,2],
+"d6/d3f/ecs_2events_2physics_8qc_source.html":[2,0,3,1,2],
+"d6/d3f/nades_8qc.html":[2,0,1,10,0,19,4],
 "d6/d3f/nades_8qc_source.html":[2,0,1,10,0,19,4],
 "d6/d40/dialog__hudpanel__racetimer_8qc.html":[2,0,5,4,72],
 "d6/d40/dialog__hudpanel__racetimer_8qc.html#a36cfdc6003a7544ff324c3c0236884e6":[2,0,5,4,72,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX55 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,177,17],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,177,32],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,177,48],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a39b77a1923845447d837ff9f399e9aff":[1,0,177,86],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,177,1],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a3f9c5e6943891f335099fe380661b70c":[1,0,177,41],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a40643e9611c16672a13b051daf682d99":[1,0,177,26],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,177,16],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4869983b8dc750584479ade5447c8413":[1,0,177,25],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,177,74],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,177,27],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,177,52]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a39b77a1923845447d837ff9f399e9aff":[1,0,177,86]
 };

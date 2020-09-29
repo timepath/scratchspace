@@ -184,8 +184,9 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d8/d0e/lazy_8qh.html#a1d51651b802a95d07a7a0406f8922476">LAZY</a>(<span class="keywordtype">id</span>)() { \</div><div class="line">        static <span class="keywordtype">bool</span> done; \</div><div class="line">        static <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it; \</div><div class="line">        if (!done) { it = compute; done = <span class="keyword">true</span>; } \</div><div class="line">        return it; \</div><div class="line">    }</div><div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d8/d0e/lazy_8qh.html#a1d51651b802a95d07a7a0406f8922476">LAZY</a>(<span class="keywordtype">id</span>)() { \</div><div class="line">        static <span class="keywordtype">bool</span> done; \</div><div class="line">        static <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it; <a class="code" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">\</a></div><div class="line"><a class="code" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">		if</a> (!done) { it = compute; done = <span class="keyword">true</span>; } \</div><div class="line">        return it; \</div><div class="line">    }</div><div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="lazy_8qh_html_a1d51651b802a95d07a7a0406f8922476"><div class="ttname"><a href="../../d8/d0e/lazy_8qh.html#a1d51651b802a95d07a7a0406f8922476">LAZY</a></div><div class="ttdeci">#define LAZY(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0e/lazy_8qh_source.html#l00013">lazy.qh:13</a></div></div>
+<div class="ttc" id="server_2impulse_8qc_html_a9804aee8e424685194c72b042f0d2b98"><div class="ttname"><a href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">if</a></div><div class="ttdeci">if(IS_DEAD(this))</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d53/server_2impulse_8qc_source.html#l00097">impulse.qc:97</a></div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../d8/d0e/lazy_8qh_source.html#l00014">14</a> of file <a class="el" href="../../d8/d0e/lazy_8qh_source.html">lazy.qh</a>.</p>
 
@@ -197,7 +198,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d8/d0e/lazy_8qh.html">lazy.qh</a></li>
-    <li class="footer">Generated on Tue Sep 29 2020 12:08:37 for Xonotic by
+    <li class="footer">Generated on Tue Sep 29 2020 13:08:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

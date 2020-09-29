@@ -1,5 +1,13 @@
 var NAVTREEINDEX48 =
 {
+"d5/d53/classXonoticCharmap.html":[1,0,154],
+"d5/d53/classXonoticCharmap.html#a0295170719b329b2b1786ec96dfe390e":[1,0,154,37],
+"d5/d53/classXonoticCharmap.html#a03c78077a75e67c5ed55ddc272218280":[1,0,154,17],
+"d5/d53/classXonoticCharmap.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,154,12],
+"d5/d53/classXonoticCharmap.html#a202dc93b87f40c213a69a4a865888bac":[1,0,154,5],
+"d5/d53/classXonoticCharmap.html#a2061fae4374629deb4ba51c89a7b7ca0":[1,0,154,7],
+"d5/d53/classXonoticCharmap.html#a296ab0bfb856d3768c943cfb3c126d33":[1,0,154,4],
+"d5/d53/classXonoticCharmap.html#a39b77a1923845447d837ff9f399e9aff":[1,0,154,42],
 "d5/d53/classXonoticCharmap.html#a3aa36c55bd87e554a583cb681e044ff9":[1,0,154,19],
 "d5/d53/classXonoticCharmap.html#a3c8bca13fc56cb4fd35bc818e17a01ca":[1,0,154,18],
 "d5/d53/classXonoticCharmap.html#a3f9c5e6943891f335099fe380661b70c":[1,0,154,20],
@@ -241,13 +249,5 @@ var NAVTREEINDEX48 =
 "d5/d73/classXonoticEffectsSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,175,11],
 "d5/d73/classXonoticEffectsSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,175,71],
 "d5/d73/classXonoticEffectsSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,175,4],
-"d5/d73/classXonoticEffectsSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,175,45],
-"d5/d73/classXonoticEffectsSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,175,23],
-"d5/d73/classXonoticEffectsSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,175,51],
-"d5/d73/classXonoticEffectsSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,175,31],
-"d5/d73/classXonoticEffectsSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,175,24],
-"d5/d73/classXonoticEffectsSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,175,17],
-"d5/d73/classXonoticEffectsSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,175,32],
-"d5/d73/classXonoticEffectsSettingsTab.html#a34ca464e163d5b3af3b15f45fa1812aa":[1,0,175,26],
-"d5/d73/classXonoticEffectsSettingsTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,175,48]
+"d5/d73/classXonoticEffectsSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,175,45]
 };

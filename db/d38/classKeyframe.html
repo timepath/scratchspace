@@ -486,7 +486,20 @@ Public Attributes</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d0/d5d/classAnimation.html#a15c8e3e415be9db002e2dd640c070c6c">Animation</a>.</p>
 
 <p>Definition at line <a class="el" href="../../d2/d58/keyframe_8qc_source.html#l00077">77</a> of file <a class="el" href="../../d2/d58/keyframe_8qc_source.html">keyframe.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">if</span> (this.currentChild)</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">if</span> (this.currentChild.isFinished(<span class="keyword">this</span>.currentChild)) this.currentChild = this.currentChild.nextSibling;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        if (this.currentChild)</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        {</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            this.currentChild.tick(this.currentChild, tickTime);</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keywordflow">return</span> this.currentChild.value;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> animStartValue + animDelta;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div></div><!-- fragment -->
+
+<p>References <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00097">if()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">if</span> (this.currentChild)</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">if</span> (this.currentChild.isFinished(<span class="keyword">this</span>.currentChild)) this.currentChild = this.currentChild.nextSibling;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">if</a> (this.currentChild)</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        {</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            this.currentChild.tick(this.currentChild, tickTime);</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keywordflow">return</span> this.currentChild.value;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> animStartValue + animDelta;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div><div class="ttc" id="server_2impulse_8qc_html_a9804aee8e424685194c72b042f0d2b98"><div class="ttname"><a href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">if</a></div><div class="ttdeci">if(IS_DEAD(this))</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d53/server_2impulse_8qc_source.html#l00097">impulse.qc:97</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d38/classKeyframe_a6a90f15dcd9be99cd2bd28f58406ff1f_cgraph.svg" width="248" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a40b67a793158c23b585259d981179aa9"></a>
@@ -1079,7 +1092,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d38/classKeyframe.html">Keyframe</a></li>
-    <li class="footer">Generated on Tue Sep 29 2020 12:08:44 for Xonotic by
+    <li class="footer">Generated on Tue Sep 29 2020 13:08:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

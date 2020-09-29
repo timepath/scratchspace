@@ -1,5 +1,13 @@
 var NAVTREEINDEX124 =
 {
+"de/d2b/world_8qh.html#a2880146096be8d8c4e83b4c1fe8b8eeb":[2,0,6,73,86],
+"de/d2b/world_8qh.html#a28e18708dd262dd304c3371d071a5b18":[2,0,6,73,46],
+"de/d2b/world_8qh.html#a29c235bed1ff0287066a442759cbfe3a":[2,0,6,73,0],
+"de/d2b/world_8qh.html#a2a3e89a2db038992970db682ae736f23":[2,0,6,73,52],
+"de/d2b/world_8qh.html#a2c8f9e90edac4977128a6ab64d5affaa":[2,0,6,73,17],
+"de/d2b/world_8qh.html#a32e9dc7397ed2efb16728c179619f055":[2,0,6,73,62],
+"de/d2b/world_8qh.html#a34150498ceb2cfaa7494e6edbbddba51":[2,0,6,73,76],
+"de/d2b/world_8qh.html#a356100fb9799e6f8e2754365f6994cb8":[2,0,6,73,40],
 "de/d2b/world_8qh.html#a3864dd00e6d914869ec70d29a30001a6":[2,0,6,73,77],
 "de/d2b/world_8qh.html#a3c72b53854b08604a60086ad28dca2fb":[2,0,6,73,58],
 "de/d2b/world_8qh.html#a3f595687f904e846427f62493b2604a7":[2,0,6,73,65],
@@ -241,13 +249,5 @@ var NAVTREEINDEX124 =
 "de/d3d/cl__minigames_8qh.html#a1976bbbabc165580c5791d26bc54639b":[2,0,1,7,4,4],
 "de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b":[2,0,1,7,4,22],
 "de/d3d/cl__minigames_8qh.html#a3248db1aa7a2ca4c46e7cbe9e220b3f2":[2,0,1,7,4,6],
-"de/d3d/cl__minigames_8qh.html#a3b4976c5caa2806d8bf77936fb1173c1":[2,0,1,7,4,14],
-"de/d3d/cl__minigames_8qh.html#a3f50d48603ccc5c4949bf5d84b0daa78":[2,0,1,7,4,16],
-"de/d3d/cl__minigames_8qh.html#a494190b92b736511115345e0437821b6":[2,0,1,7,4,5],
-"de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82":[2,0,1,7,4,20],
-"de/d3d/cl__minigames_8qh.html#a53191af7f1fb35ca5639b52fae1b6481":[2,0,1,7,4,3],
-"de/d3d/cl__minigames_8qh.html#a668aa690502b071b56dfd97e425d8d3e":[2,0,1,7,4,18],
-"de/d3d/cl__minigames_8qh.html#a7106641b219836128248d423976191df":[2,0,1,7,4,13],
-"de/d3d/cl__minigames_8qh.html#a7276ca5834cd946d0c493571cdb279e4":[2,0,1,7,4,2],
-"de/d3d/cl__minigames_8qh.html#a74fcaa9da40aa62de287463ceb0a2908":[2,0,1,7,4,8]
+"de/d3d/cl__minigames_8qh.html#a3b4976c5caa2806d8bf77936fb1173c1":[2,0,1,7,4,14]
 };

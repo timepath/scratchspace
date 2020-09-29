@@ -1,5 +1,13 @@
 var NAVTREEINDEX134 =
 {
+"df/d38/mathlib_8qc.html#af001a57040fecf1a4fcfe4506741cfe9":[2,0,4,2,8,26],
+"df/d38/mathlib_8qc.html#af29e1bcd9b1f55ca6f0b324ccf62901d":[2,0,4,2,8,24],
+"df/d38/mathlib_8qc.html#af2ebfe97850db3a54400d8ae78b1461b":[2,0,4,2,8,42],
+"df/d38/mathlib_8qc.html#afe32feb3c1304770bb6f915da468879e":[2,0,4,2,8,27],
+"df/d38/mathlib_8qc.html#afe4fd4c69320cfbb00dc777c0b63ade2":[2,0,4,2,8,12],
+"df/d38/mathlib_8qc.html#aff2e840abf39a06175267ce0fa55de9c":[2,0,4,2,8,41],
+"df/d38/mathlib_8qc_source.html":[2,0,4,2,8],
+"df/d3b/common_2mapobjects_2__mod_8inc.html":[2,0,1,6,4],
 "df/d3b/common_2mapobjects_2__mod_8inc_source.html":[2,0,1,6,4],
 "df/d3c/server_2items_2__mod_8qh.html":[2,0,6,3,1],
 "df/d3c/server_2items_2__mod_8qh_source.html":[2,0,6,3,1],
@@ -49,8 +57,8 @@ var NAVTREEINDEX134 =
 "df/d41/cl__ctf_8qc.html#a73affb2b24587c75ea2d77bf56abea5e":[2,0,1,3,0,2,2,8],
 "df/d41/cl__ctf_8qc.html#a82d6dc4f545d9102ec6dfc4b048c4c4b":[2,0,1,3,0,2,2,9],
 "df/d41/cl__ctf_8qc.html#a90abcb5dfd155425638f8823221e96a7":[2,0,1,3,0,2,2,18],
-"df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,1,3,0,2,2,2],
 "df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,1,3,0,2,2,0],
+"df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,1,3,0,2,2,2],
 "df/d41/cl__ctf_8qc.html#a9fba4055eb7a12732e45c9864109ce0a":[2,0,1,3,0,2,2,21],
 "df/d41/cl__ctf_8qc.html#aa7d9e6c8f79fe649ab0fa3dbe3088d5b":[2,0,1,3,0,2,2,5],
 "df/d41/cl__ctf_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922":[2,0,1,3,0,2,2,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX134 =
 "df/d54/dialog__settings__game__hud_8qh.html":[2,0,5,4,133],
 "df/d54/dialog__settings__game__hud_8qh.html#a2b7967e17d4cfccff3c1f979de1d2515":[2,0,5,4,133,3],
 "df/d54/dialog__settings__game__hud_8qh.html#a8355ef57cfbd4b0b0a510b61df465435":[2,0,5,4,133,1],
-"df/d54/dialog__settings__game__hud_8qh.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,133,2],
-"df/d54/dialog__settings__game__hud_8qh_source.html":[2,0,5,4,133],
-"df/d56/classSpider.html":[1,0,127],
-"df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,127,0],
-"df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,127,11],
-"df/d56/classSpider.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,127,9],
-"df/d56/classSpider.html#a6dcca2c26e36342b5286873a74793cae":[1,0,127,2],
-"df/d56/classSpider.html#a78bac4eaa186fb8ccfdeafe7375ee0dc":[1,0,127,10],
-"df/d56/classSpider.html#a80299782ddadc9eb0b2628a1dda419aa":[1,0,127,7]
+"df/d54/dialog__settings__game__hud_8qh.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,133,2]
 };

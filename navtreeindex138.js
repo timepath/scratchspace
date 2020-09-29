@@ -1,5 +1,13 @@
 var NAVTREEINDEX138 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,199,52],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,199,27],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,199,20],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,199,13],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,199,59],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,199,28],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,199,44],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,199,54],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,199,84],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,199,1],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,199,37],
@@ -241,13 +249,5 @@ var NAVTREEINDEX138 =
 "df/dd7/server_2client_8qc.html#a9762fc4a80a93fd0e0eba75f2b14c207":[2,0,6,20,63],
 "df/dd7/server_2client_8qc.html#a97cf0c815bb1c93811d35628d62f751c":[2,0,6,20,3],
 "df/dd7/server_2client_8qc.html#a9892fecc7414ccaabfbcd27e4cd56692":[2,0,6,20,50],
-"df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3":[2,0,6,20,49],
-"df/dd7/server_2client_8qc.html#a9b2f54689f4d48edeed062a1e5a585d0":[2,0,6,20,51],
-"df/dd7/server_2client_8qc.html#a9d529760b279c19bb3b1d15c4da335d1":[2,0,6,20,2],
-"df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80":[2,0,6,20,67],
-"df/dd7/server_2client_8qc.html#a9e59628b3f73816184b3bff22b8641b0":[2,0,6,20,1],
-"df/dd7/server_2client_8qc.html#a9f41c2e480a9f95e151c0716e5eb7de0":[2,0,6,20,13],
-"df/dd7/server_2client_8qc.html#aa07f86bdc6b9c9a812296f5c5ff48f95":[2,0,6,20,42],
-"df/dd7/server_2client_8qc.html#aa19dd7a06981d3a48d765fd7a0d08607":[2,0,6,20,15],
-"df/dd7/server_2client_8qc.html#aa3e6c71b0017507513736e75fa53b27b":[2,0,6,20,31]
+"df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3":[2,0,6,20,49]
 };

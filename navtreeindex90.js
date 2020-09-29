@@ -1,5 +1,13 @@
 var NAVTREEINDEX90 =
 {
+"d9/df7/mathlib_8qh.html#ad67bb437fc83ec1ccf8342fbe2373c46":[2,0,4,2,9,16],
+"d9/df7/mathlib_8qh.html#ae2bfb851ed8bf44903c10964cfc7c533":[2,0,4,2,9,17],
+"d9/df7/mathlib_8qh.html#ae495624ed5a6364ee6d93b264c123abc":[2,0,4,2,9,64],
+"d9/df7/mathlib_8qh.html#ae637aa34c014f1cc17429b85ad4b7c07":[2,0,4,2,9,2],
+"d9/df7/mathlib_8qh.html#ae71449b1cc6e6250b91f539153a7a0d3":[2,0,4,2,9,0],
+"d9/df7/mathlib_8qh.html#ae870987185502a8c9a65acdde722fbae":[2,0,4,2,9,55],
+"d9/df7/mathlib_8qh.html#aee40956a333cb4e9f4853c0d4c35b468":[2,0,4,2,9,1],
+"d9/df7/mathlib_8qh.html#aef8fd13dfea3527597bd8678dda10c4c":[2,0,4,2,9,56],
 "d9/df7/mathlib_8qh.html#af001a57040fecf1a4fcfe4506741cfe9":[2,0,4,2,9,27],
 "d9/df7/mathlib_8qh.html#af29e1bcd9b1f55ca6f0b324ccf62901d":[2,0,4,2,9,25],
 "d9/df7/mathlib_8qh.html#af2ebfe97850db3a54400d8ae78b1461b":[2,0,4,2,9,43],
@@ -241,13 +249,5 @@ var NAVTREEINDEX90 =
 "da/d2a/classXonoticDecibelsSlider.html#a1ed92bdbe845237ab3ba60c4b9b0f185":[1,0,168,67],
 "da/d2a/classXonoticDecibelsSlider.html#a1f49a81a5c3860beb9953615562cc5d2":[1,0,168,17],
 "da/d2a/classXonoticDecibelsSlider.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,168,48],
-"da/d2a/classXonoticDecibelsSlider.html#a21940ad168efbea189d0efffd28d2586":[1,0,168,13],
-"da/d2a/classXonoticDecibelsSlider.html#a27b635e0916726012b7e8c4dca05064e":[1,0,168,37],
-"da/d2a/classXonoticDecibelsSlider.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,168,8],
-"da/d2a/classXonoticDecibelsSlider.html#a30e76204a36bc7d61d806aad8f0c5ced":[1,0,168,15],
-"da/d2a/classXonoticDecibelsSlider.html#a365ded1aad15f8cac9448983a229cfe7":[1,0,168,85],
-"da/d2a/classXonoticDecibelsSlider.html#a39b77a1923845447d837ff9f399e9aff":[1,0,168,73],
-"da/d2a/classXonoticDecibelsSlider.html#a3a653364d8a85a85c402a309fcb9e40c":[1,0,168,55],
-"da/d2a/classXonoticDecibelsSlider.html#a3cc9768ff4112311d3ab47e0f0d3abff":[1,0,168,36],
-"da/d2a/classXonoticDecibelsSlider.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,168,57]
+"da/d2a/classXonoticDecibelsSlider.html#a21940ad168efbea189d0efffd28d2586":[1,0,168,13]
 };

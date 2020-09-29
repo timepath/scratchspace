@@ -1,5 +1,13 @@
 var NAVTREEINDEX63 =
 {
+"d7/d15/hud_8qc.html#a7b6e84742c9baae35fde5975fb825116":[2,0,0,1,5,3],
+"d7/d15/hud_8qc.html#a885df1dd2a0efd39301d3593b307b9be":[2,0,0,1,5,7],
+"d7/d15/hud_8qc.html#a8e30e71e308ccc423418bb41350e3e05":[2,0,0,1,5,10],
+"d7/d15/hud_8qc.html#a904495a10047eef2e8424eb188fa0675":[2,0,0,1,5,32],
+"d7/d15/hud_8qc.html#a914e37568f3770b5427e54bdbb0b2414":[2,0,0,1,5,31],
+"d7/d15/hud_8qc.html#a9f9f94c3a1dfd9a9580114678edf79a9":[2,0,0,1,5,30],
+"d7/d15/hud_8qc.html#aa2a5280f52a32d302277253736cc04bb":[2,0,0,1,5,8],
+"d7/d15/hud_8qc.html#ab8141bf6b381ce178ba733fa4ce0fedf":[2,0,0,1,5,27],
 "d7/d15/hud_8qc.html#abed4aa2c37e69cf8b4fdeab69c7e0076":[2,0,0,1,5,9],
 "d7/d15/hud_8qc.html#abf03db2bbdaaed29a0ddeaa24cd7d5a8":[2,0,0,1,5,26],
 "d7/d15/hud_8qc.html#ac250b39a33004962fd9d0ce2a4521c0f":[2,0,0,1,5,18],
@@ -241,13 +249,5 @@ var NAVTREEINDEX63 =
 "d7/d39/classXonoticVideoSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,262,32],
 "d7/d39/classXonoticVideoSettingsTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,262,48],
 "d7/d39/classXonoticVideoSettingsTab.html#a39b77a1923845447d837ff9f399e9aff":[1,0,262,86],
-"d7/d39/classXonoticVideoSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,262,1],
-"d7/d39/classXonoticVideoSettingsTab.html#a3f9c5e6943891f335099fe380661b70c":[1,0,262,41],
-"d7/d39/classXonoticVideoSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,262,16],
-"d7/d39/classXonoticVideoSettingsTab.html#a4869983b8dc750584479ade5447c8413":[1,0,262,25],
-"d7/d39/classXonoticVideoSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,262,74],
-"d7/d39/classXonoticVideoSettingsTab.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,262,27],
-"d7/d39/classXonoticVideoSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,262,52],
-"d7/d39/classXonoticVideoSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,262,30],
-"d7/d39/classXonoticVideoSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,262,36]
+"d7/d39/classXonoticVideoSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,262,1]
 };

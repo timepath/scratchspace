@@ -1,5 +1,13 @@
 var NAVTREEINDEX99 =
 {
+"db/d29/classXonoticRegisteredSettingsList.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,232,24],
+"db/d29/classXonoticRegisteredSettingsList.html#a44f82bb2186f56f4dea7f791b47e2952":[1,0,232,41],
+"db/d29/classXonoticRegisteredSettingsList.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,232,19],
+"db/d29/classXonoticRegisteredSettingsList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,232,78],
+"db/d29/classXonoticRegisteredSettingsList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,232,61],
+"db/d29/classXonoticRegisteredSettingsList.html#a565f8d33b46815606f1860162d71339a":[1,0,232,25],
+"db/d29/classXonoticRegisteredSettingsList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,232,12],
+"db/d29/classXonoticRegisteredSettingsList.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,232,30],
 "db/d29/classXonoticRegisteredSettingsList.html#a5ba34a106025be4faae9dff6ae9e763d":[1,0,232,72],
 "db/d29/classXonoticRegisteredSettingsList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,232,20],
 "db/d29/classXonoticRegisteredSettingsList.html#a613fdac3e896f97462f5f85acbaae0d5":[1,0,232,18],
@@ -241,13 +249,5 @@ var NAVTREEINDEX99 =
 "db/d38/base_8qh.html#a62431efbef2dff3e963a51033200133c":[2,0,1,10,3,7],
 "db/d38/base_8qh.html#a63adb76f4570420c116e7c8f127bbd62":[2,0,1,10,3,4],
 "db/d38/base_8qh.html#a66e9cb6c6f118b7def730a2d2589decc":[2,0,1,10,3,21],
-"db/d38/base_8qh.html#a67c251f527a84b1ce3718ba6283e7bb4":[2,0,1,10,3,44],
-"db/d38/base_8qh.html#a83f394302db54ced2148eab28b4be8fc":[2,0,1,10,3,9],
-"db/d38/base_8qh.html#a8f36889dc2deda16262f5f50565ad6f2":[2,0,1,10,3,40],
-"db/d38/base_8qh.html#a8fca73c53ad262fe3202fd62a4089fa1":[2,0,1,10,3,18],
-"db/d38/base_8qh.html#a93f852725b614a9a4907fceddf57eff3":[2,0,1,10,3,41],
-"db/d38/base_8qh.html#a998adc53d6329502040d519d177923a4":[2,0,1,10,3,10],
-"db/d38/base_8qh.html#a9d26825e4521eb3dbc2393da614663cc":[2,0,1,10,3,48],
-"db/d38/base_8qh.html#aa2dad6a99ca0db46babc6a171253b4df":[2,0,1,10,3,35],
-"db/d38/base_8qh.html#abc35fc162c1da758be8ceb95a757773a":[2,0,1,10,3,39]
+"db/d38/base_8qh.html#a67c251f527a84b1ce3718ba6283e7bb4":[2,0,1,10,3,44]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX56 =
 {
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,177,1],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a3f9c5e6943891f335099fe380661b70c":[1,0,177,41],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a40643e9611c16672a13b051daf682d99":[1,0,177,26],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,177,16],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4869983b8dc750584479ade5447c8413":[1,0,177,25],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,177,74],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,177,27],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,177,52],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,177,30],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,177,36],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,177,44],
@@ -241,13 +249,5 @@ var NAVTREEINDEX56 =
 "d6/d95/ipban_8qc.html#a8f0c10d07a45275be175c633524cd950":[2,0,6,38,8],
 "d6/d95/ipban_8qc.html#a913df1ede779e655bf14548389c14fc1":[2,0,6,38,21],
 "d6/d95/ipban_8qc.html#a9e8a1083e05b4a62b6f5f8bb9c9db94d":[2,0,6,38,13],
-"d6/d95/ipban_8qc.html#a9f85e5fa39fffae8c1b39c3f413dfb89":[2,0,6,38,10],
-"d6/d95/ipban_8qc.html#ab505a8d0f45567050fccefe47203c6a7":[2,0,6,38,29],
-"d6/d95/ipban_8qc.html#ab915b826ebbe3fa641b6dcf17dbe4fc3":[2,0,6,38,1],
-"d6/d95/ipban_8qc.html#abf0558ba34c02ae3b0f6244e933dfed2":[2,0,6,38,24],
-"d6/d95/ipban_8qc.html#ac399245a35ad503e1c565510518bfeda":[2,0,6,38,2],
-"d6/d95/ipban_8qc.html#ac89ccc1209193c2c02b5d3f992b8ec69":[2,0,6,38,6],
-"d6/d95/ipban_8qc.html#ad2acccbd539f2f6ae71ec9cb385fb87a":[2,0,6,38,28],
-"d6/d95/ipban_8qc.html#ad7174054ad76d672732a64c0a20d658e":[2,0,6,38,15],
-"d6/d95/ipban_8qc.html#adb129794ee531ea662996f0475b4a686":[2,0,6,38,17]
+"d6/d95/ipban_8qc.html#a9f85e5fa39fffae8c1b39c3f413dfb89":[2,0,6,38,10]
 };

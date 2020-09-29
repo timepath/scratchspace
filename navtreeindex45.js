@@ -1,5 +1,13 @@
 var NAVTREEINDEX45 =
 {
+"d4/da9/racetimer_8qh.html#a9ca3664d438b8f1dac1a68ceee61d5a6":[2,0,0,1,0,29,34],
+"d4/da9/racetimer_8qh.html#aa119e56267dd97e8c2300ab4113c3e1d":[2,0,0,1,0,29,22],
+"d4/da9/racetimer_8qh.html#aa441026faba5592177971b58216ae646":[2,0,0,1,0,29,32],
+"d4/da9/racetimer_8qh.html#aa93554894816e62efd29c7f7d6825a0d":[2,0,0,1,0,29,3],
+"d4/da9/racetimer_8qh.html#ad108555759b2d33bda9e33db3bf23a3a":[2,0,0,1,0,29,4],
+"d4/da9/racetimer_8qh.html#ad146ad99fe532857ccae8af64c671420":[2,0,0,1,0,29,1],
+"d4/da9/racetimer_8qh.html#ad43ea76ff3bb09b6a12d9073364f5af7":[2,0,0,1,0,29,8],
+"d4/da9/racetimer_8qh.html#adb370211fdbf7cf34007a2cc240e6ee2":[2,0,0,1,0,29,35],
 "d4/da9/racetimer_8qh.html#adf67d9b2b9ae37872cc64fee549a4d3b":[2,0,0,1,0,29,17],
 "d4/da9/racetimer_8qh.html#aeb11c70ad19e2216be15650c7f90cd31":[2,0,0,1,0,29,31],
 "d4/da9/racetimer_8qh.html#aed550b63f29d8359169bc6e5decd1a6a":[2,0,0,1,0,29,29],
@@ -241,13 +249,5 @@ var NAVTREEINDEX45 =
 "d4/dd7/movetypes_8qh.html#a23878f171fe94c2b5c31a13077e1c845":[2,0,1,12,0,6,67],
 "d4/dd7/movetypes_8qh.html#a29a88512a529238f210bd12531cf3859":[2,0,1,12,0,6,6],
 "d4/dd7/movetypes_8qh.html#a2ad725bc81de4f1ffff07adfb63a64c1":[2,0,1,12,0,6,34],
-"d4/dd7/movetypes_8qh.html#a2f49c20cd7f79aeccb1db08929c1e104":[2,0,1,12,0,6,58],
-"d4/dd7/movetypes_8qh.html#a339edb79ca2ee708f1d39819496794bf":[2,0,1,12,0,6,25],
-"d4/dd7/movetypes_8qh.html#a34ca566662a26587b84114499a69e6d4":[2,0,1,12,0,6,65],
-"d4/dd7/movetypes_8qh.html#a355ad000887bfbb3fa387376ce9116ef":[2,0,1,12,0,6,1],
-"d4/dd7/movetypes_8qh.html#a3823e7faa5111ca7142b61cc6dfce354":[2,0,1,12,0,6,9],
-"d4/dd7/movetypes_8qh.html#a3857616fe924e0ad2e724aa167950651":[2,0,1,12,0,6,60],
-"d4/dd7/movetypes_8qh.html#a3a364c3e846cd4c30141d749061c8086":[2,0,1,12,0,6,38],
-"d4/dd7/movetypes_8qh.html#a3a39f4ea93de6e717f1951fc27cbd436":[2,0,1,12,0,6,53],
-"d4/dd7/movetypes_8qh.html#a41b3403d019e66765768235463b4c610":[2,0,1,12,0,6,61]
+"d4/dd7/movetypes_8qh.html#a2f49c20cd7f79aeccb1db08929c1e104":[2,0,1,12,0,6,58]
 };

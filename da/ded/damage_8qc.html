@@ -257,7 +257,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">case</span> counta: \</div><div class="line">                    Send_Notification(NOTIF_ONE, attacker, MSG_ANNCE, ANNCE_KILLSTREAK_##countb); \</div><div class="line">                    if (!<a class="code" href="../../d0/d2a/client_2main_8qh.html#a7630016e1ffc3d05598fb6f90fe760e1">warmup_stage</a>) \</div><div class="line">                        PlayerStats_GameReport_Event_Player(attacker, PLAYERSTATS_ACHIEVEMENT_KILL_SPREE_##counta, 1); \</div><div class="line">                    break;</div><div class="ttc" id="client_2main_8qh_html_a7630016e1ffc3d05598fb6f90fe760e1"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a7630016e1ffc3d05598fb6f90fe760e1">warmup_stage</a></div><div class="ttdeci">bool warmup_stage</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00086">main.qh:86</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">case</span> counta: \</div><div class="line">                    Send_Notification(NOTIF_ONE, attacker, MSG_ANNCE, ANNCE_KILLSTREAK_##countb); <a class="code" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">\</a></div><div class="line"><a class="code" href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">					if</a> (!<a class="code" href="../../d0/d2a/client_2main_8qh.html#a7630016e1ffc3d05598fb6f90fe760e1">warmup_stage</a>) \</div><div class="line">                        PlayerStats_GameReport_Event_Player(attacker, PLAYERSTATS_ACHIEVEMENT_KILL_SPREE_##counta, 1); \</div><div class="line">                    break;</div><div class="ttc" id="client_2main_8qh_html_a7630016e1ffc3d05598fb6f90fe760e1"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a7630016e1ffc3d05598fb6f90fe760e1">warmup_stage</a></div><div class="ttdeci">bool warmup_stage</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00086">main.qh:86</a></div></div>
+<div class="ttc" id="server_2impulse_8qc_html_a9804aee8e424685194c72b042f0d2b98"><div class="ttname"><a href="../../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98">if</a></div><div class="ttdeci">if(IS_DEAD(this))</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d53/server_2impulse_8qc_source.html#l00097">impulse.qc:97</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1880,7 +1881,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../da/ded/damage_8qc.html">damage.qc</a></li>
-    <li class="footer">Generated on Tue Sep 29 2020 12:08:41 for Xonotic by
+    <li class="footer">Generated on Tue Sep 29 2020 13:08:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
