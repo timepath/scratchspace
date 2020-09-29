@@ -27,6 +27,7 @@ var client_2mapvoting_8qc =
     [ "NET_HANDLE", "d4/d0d/client_2mapvoting_8qc.html#aa02a7858026ab986e154231aae514df0", null ],
     [ "NET_HANDLE", "d4/d0d/client_2mapvoting_8qc.html#a9e1da0c2cbd20d81f47fe945a307dd9c", null ],
     [ "Net_MapVote_Picture", "d4/d0d/client_2mapvoting_8qc.html#a9371fedb04eb1cf116a3dfc87248a8d8", null ],
+    [ "PreviewExists", "d4/d0d/client_2mapvoting_8qc.html#a7282bb26af34de82dafd7dd109488622", null ],
     [ "gametypevote", "d4/d0d/client_2mapvoting_8qc.html#af7c6ecec79249608330dcc9872b1fdbd", null ],
     [ "gtv_text_size", "d4/d0d/client_2mapvoting_8qc.html#aa848f4340520e00debbeeff469387bcf", null ],
     [ "gtv_text_size_small", "d4/d0d/client_2mapvoting_8qc.html#a22f77bb9a65003450d61a9314f82f145", null ],

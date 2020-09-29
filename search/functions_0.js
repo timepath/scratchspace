@@ -8,7 +8,7 @@ var searchData=
   ['_5f_5fstatic_5finit_5f2',['__static_init_2',['../d4/d1a/static_8qh.html#a7e8989aa126999291b31e4a2a830cb1a',1,'static.qh']]],
   ['_5f_5fstatic_5finit_5f3',['__static_init_3',['../d4/d1a/static_8qh.html#af6da56ba7b90def1146740ad4ea8cca0',1,'static.qh']]],
   ['_5fchangefocusxy',['_changeFocusXY',['../d8/da4/classInputContainer.html#ac648acd4d716ba6cd676f4e43345b85b',1,'InputContainer']]],
-  ['_5fdraw_5fsetclip',['_draw_SetClip',['../d6/db1/draw_8qc.html#aad6d84987285f755d8fb0e52f3e99575',1,'draw.qc']]],
+  ['_5fdraw_5fsetclip',['_draw_SetClip',['../df/d4c/menu_2draw_8qc.html#aad6d84987285f755d8fb0e52f3e99575',1,'draw.qc']]],
   ['_5fdumptree_5fclose',['_dumptree_close',['../d7/d47/menu__cmd_8qc.html#a92116f3fa83de58a5c8d2a736b7ed11a',1,'menu_cmd.qc']]],
   ['_5fdumptree_5fopen',['_dumptree_open',['../d7/d47/menu__cmd_8qc.html#ac475b9372dac09416fe834d14d6231c6',1,'menu_cmd.qc']]],
   ['_5fgamerules_5fscoring_5fadd',['_GameRules_scoring_add',['../d7/d39/sv__rules_8qc.html#ab9a219ab2da0e7033e154972a2c711d2',1,'_GameRules_scoring_add(entity client, entity sp, float value):&#160;sv_rules.qc'],['../db/d55/sv__rules_8qh.html#ab9a219ab2da0e7033e154972a2c711d2',1,'_GameRules_scoring_add(entity client, entity sp, float value):&#160;sv_rules.qc']]],

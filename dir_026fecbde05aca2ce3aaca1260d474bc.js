@@ -41,5 +41,5 @@ var dir_026fecbde05aca2ce3aaca1260d474bc =
     [ "vote.qc", "df/d1f/client_2hud_2panel_2vote_8qc.html", "df/d1f/client_2hud_2panel_2vote_8qc" ],
     [ "vote.qh", "d9/d28/client_2hud_2panel_2vote_8qh.html", "d9/d28/client_2hud_2panel_2vote_8qh" ],
     [ "weapons.qc", "d4/def/weapons_8qc.html", "d4/def/weapons_8qc" ],
-    [ "weapons.qh", "d4/dce/weapons_8qh.html", null ]
+    [ "weapons.qh", "d4/dce/weapons_8qh.html", "d4/dce/weapons_8qh" ]
 ];

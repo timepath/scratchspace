@@ -27,7 +27,7 @@ var searchData=
   ['is_5fcheat',['IS_CHEAT',['../d6/de9/cheats_8qc.html#a37f479ec45150654c5d4d7db942024f2',1,'cheats.qc']]],
   ['is_5fclient',['IS_CLIENT',['../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834',1,'utils.qh']]],
   ['is_5fcsqc',['IS_CSQC',['../d4/dfb/lib_2__all_8inc.html#a52c2de75e535dc3464ebed96906120bc',1,'_all.inc']]],
-  ['is_5fdead',['IS_DEAD',['../d3/d7e/miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944',1,'IS_DEAD():&#160;miscfunctions.qh'],['../db/d7a/utils_8qh.html#a30122e95b404a119ce026ed3b92d0944',1,'IS_DEAD():&#160;utils.qh']]],
+  ['is_5fdead',['IS_DEAD',['../db/d7a/utils_8qh.html#a30122e95b404a119ce026ed3b92d0944',1,'utils.qh']]],
   ['is_5fdead_5fframe',['IS_DEAD_FRAME',['../dc/d3d/csqcmodel__hooks_8qc.html#a03e325439a3c7e40dda1730cd4251a4c',1,'csqcmodel_hooks.qc']]],
   ['is_5fdecreasing',['IS_DECREASING',['../da/dc3/common_2scores_8qh.html#a1310f6ab1eb47643385baab1b3227603',1,'scores.qh']]],
   ['is_5fdigit',['IS_DIGIT',['../d2/db4/string_8qh.html#a5d094027c5b25aa2cb2dd91cffdf0437',1,'string.qh']]],

@@ -2,6 +2,7 @@ var client_2main_8qc =
 [
     [ "DP_CSQC_ENTITY_REMOVE_IS_B0RKED", "df/d30/client_2main_8qc.html#a829c94418af5c1e25d9beef673e25f94", null ],
     [ "_getcommandkey", "df/d30/client_2main_8qc.html#a0698c589ddb7333f4485bee9dae8bd16", null ],
+    [ "AuditLists", "df/d30/client_2main_8qc.html#a246d0a94a3d0249d9504aae592cf2f9d", null ],
     [ "CSQC_Ent_Remove", "df/d30/client_2main_8qc.html#a9b635841c31e627a3854f61176533152", null ],
     [ "CSQC_Ent_Update", "df/d30/client_2main_8qc.html#a46d8c3e096c855bf3690956e9ba1e862", null ],
     [ "CSQC_Init", "df/d30/client_2main_8qc.html#ae7a71c50fddc1b6cede7022e0304a3fe", null ],
@@ -16,6 +17,8 @@ var client_2main_8qc =
     [ "Gamemode_Init", "df/d30/client_2main_8qc.html#a1074345dcdd4fb944413bf5ac575fd0b", null ],
     [ "GetSpeedUnit", "df/d30/client_2main_8qc.html#a3a4d75b1666fc0c35a999aae66cf6fd2", null ],
     [ "GetSpeedUnitFactor", "df/d30/client_2main_8qc.html#affd4aa7fbce73d395d146b6e164eb8e6", null ],
+    [ "GetTeam", "df/d30/client_2main_8qc.html#ab1762d75cc18535fa62c519ff652e0c9", null ],
+    [ "MoveToLast", "df/d30/client_2main_8qc.html#ac4fa75c26c2e2307b7ab7286e9f6882e", null ],
     [ "NET_HANDLE", "df/d30/client_2main_8qc.html#a354256327d864c9cb61a6a33dcc7e9f3", null ],
     [ "NET_HANDLE", "df/d30/client_2main_8qc.html#a62cc679b39b73d92f0d09114fb2c20e2", null ],
     [ "NET_HANDLE", "df/d30/client_2main_8qc.html#a39ffefc27ab1926e8e31d7c136a4035d", null ],
@@ -33,9 +36,14 @@ var client_2main_8qc =
     [ "NET_HANDLE", "df/d30/client_2main_8qc.html#a6df675d5ce651f8a28f9d6a958c42b37", null ],
     [ "Playerchecker_Think", "df/d30/client_2main_8qc.html#a937ea7da9d0d850374c39c3bd67a4dfe", null ],
     [ "PostInit", "df/d30/client_2main_8qc.html#a46ab77a8e6731f82b57ed43c3fe5eeea", null ],
+    [ "RegisterPlayer", "df/d30/client_2main_8qc.html#ae17cfc4228221783482d043369821bb4", null ],
+    [ "RegisterTeam", "df/d30/client_2main_8qc.html#a6caf2e0c66aa3cfa4a63689e650de692", null ],
+    [ "RemovePlayer", "df/d30/client_2main_8qc.html#a1ff2ab6f40ef91103b3fd8a9e083b4ca", null ],
+    [ "RemoveTeam", "df/d30/client_2main_8qc.html#aecc11bf0c8cdf3c47928f7d68fb58af4", null ],
     [ "SetTeam", "df/d30/client_2main_8qc.html#acd252a66b7a6154e4eceea34d229112b", null ],
     [ "Shutdown", "df/d30/client_2main_8qc.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9", null ],
     [ "Spawn_Draw", "df/d30/client_2main_8qc.html#ad588feebc12ed1a2def99b4d4e70d92e", null ],
+    [ "URI_Get_Callback", "df/d30/client_2main_8qc.html#adca84d1c7403379d372fc6e45bbf5130", null ],
     [ "forcefog", "df/d30/client_2main_8qc.html#ac6d66624aeafa1c2684b5931d82b2008", null ],
     [ "has_team", "df/d30/client_2main_8qc.html#a33415c58794cf70af080dcfa3213a501", null ]
 ];

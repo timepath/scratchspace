@@ -1,5 +1,15 @@
 var NAVTREEINDEX3 =
 {
+"d0/d6e/impulses_2all_8qh.html#a35c5904558001c817a5a5bec1ced26a0":[2,0,1,4,3,43],
+"d0/d6e/impulses_2all_8qh.html#a3694827fb98a04001595a7c43c51af60":[2,0,1,4,3,10],
+"d0/d6e/impulses_2all_8qh.html#a36b1e8b5fb0d660f8d6890f28438df48":[2,0,1,4,3,40],
+"d0/d6e/impulses_2all_8qh.html#a3b0850e83e1ab1be2d177812324a1455":[2,0,1,4,3,45],
+"d0/d6e/impulses_2all_8qh.html#a40936be5f7178f5d01c9d0129d5c0e56":[2,0,1,4,3,19],
+"d0/d6e/impulses_2all_8qh.html#a40cee25a7ea2ae48cf3a35da046d6aa4":[2,0,1,4,3,38],
+"d0/d6e/impulses_2all_8qh.html#a47196113fd7bfebade10fe0278ca098b":[2,0,1,4,3,18],
+"d0/d6e/impulses_2all_8qh.html#a4b6aa2db93f5ba60049bf370b44d0cbf":[2,0,1,4,3,36],
+"d0/d6e/impulses_2all_8qh.html#a4bae49268f9fc95dcd24d42ad0f6a4d4":[2,0,1,4,3,7],
+"d0/d6e/impulses_2all_8qh.html#a4f616fdaaf7b8e241afb137075b88cf7":[2,0,1,4,3,15],
 "d0/d6e/impulses_2all_8qh.html#a4fc1f9cbafdafd22ea9d4e40d4d9033f":[2,0,1,4,3,16],
 "d0/d6e/impulses_2all_8qh.html#a5018cdbb64b153bcf2f760a1991cb76b":[2,0,1,4,3,9],
 "d0/d6e/impulses_2all_8qh.html#a50ca5b71775504d91cbd633b50554f2f":[2,0,1,4,3,41],
@@ -239,15 +249,5 @@ var NAVTREEINDEX3 =
 "d0/d81/classRifle.html#a114db77fd45b97efe2ca431d3d2f6c3b":[1,0,117,30],
 "d0/d81/classRifle.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,117,19],
 "d0/d81/classRifle.html#a1814f9f831862d698869cb6f3198a49e":[1,0,117,36],
-"d0/d81/classRifle.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,117,18],
-"d0/d81/classRifle.html#a24cb9d80ab139b942d7c90d93e55e0b5":[1,0,117,31],
-"d0/d81/classRifle.html#a267ed876501f592766d2093314176d09":[1,0,117,25],
-"d0/d81/classRifle.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,117,16],
-"d0/d81/classRifle.html#a312755d5709b880f99cf89d7a76237fe":[1,0,117,3],
-"d0/d81/classRifle.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,117,20],
-"d0/d81/classRifle.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,117,11],
-"d0/d81/classRifle.html#a410842e36facf9d2068da07c63b7f0c1":[1,0,117,27],
-"d0/d81/classRifle.html#a4337268c8cad6836bae8efd4a8835070":[1,0,117,21],
-"d0/d81/classRifle.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,117,1],
-"d0/d81/classRifle.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,117,15]
+"d0/d81/classRifle.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,117,18]
 };
