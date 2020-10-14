@@ -56,6 +56,7 @@ var searchData=
   ['xonotichudradardialog',['XonoticHUDRadarDialog',['../d4/df8/classXonoticHUDRadarDialog.html',1,'']]],
   ['xonotichudscoredialog',['XonoticHUDScoreDialog',['../de/d7a/classXonoticHUDScoreDialog.html',1,'']]],
   ['xonotichudskinlist',['XonoticHUDSkinList',['../d5/d6c/classXonoticHUDSkinList.html',1,'']]],
+  ['xonotichudstrafehuddialog',['XonoticHUDStrafeHUDDialog',['../d5/d96/classXonoticHUDStrafeHUDDialog.html',1,'']]],
   ['xonotichudtimerdialog',['XonoticHUDTimerDialog',['../d9/deb/classXonoticHUDTimerDialog.html',1,'']]],
   ['xonotichudvotedialog',['XonoticHUDVoteDialog',['../d4/d94/classXonoticHUDVoteDialog.html',1,'']]],
   ['xonotichudweaponsdialog',['XonoticHUDWeaponsDialog',['../d6/d79/classXonoticHUDWeaponsDialog.html',1,'']]],

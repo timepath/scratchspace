@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"d5/d73/classXonoticEffectsSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,175,4],
+"d5/d73/classXonoticEffectsSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,175,45],
 "d5/d73/classXonoticEffectsSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,175,23],
 "d5/d73/classXonoticEffectsSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,175,51],
 "d5/d73/classXonoticEffectsSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,175,31],
@@ -77,10 +79,10 @@ var NAVTREEINDEX49 =
 "d5/d73/classXonoticEffectsSettingsTab.html#afc52860717e88454d9c1eb3479b510f3":[1,0,175,68],
 "d5/d73/classXonoticEffectsSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,175,43],
 "d5/d73/classXonoticEffectsSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,175,7],
-"d5/d73/statslist_8qh.html":[2,0,5,4,225],
-"d5/d73/statslist_8qh.html#a541bd08a242818503c5005025e25bdcd":[2,0,5,4,225,1],
-"d5/d73/statslist_8qh.html#a805ce8fff65b47ff491afbce6f9fbf0c":[2,0,5,4,225,2],
-"d5/d73/statslist_8qh_source.html":[2,0,5,4,225],
+"d5/d73/statslist_8qh.html":[2,0,5,4,227],
+"d5/d73/statslist_8qh.html#a541bd08a242818503c5005025e25bdcd":[2,0,5,4,227,1],
+"d5/d73/statslist_8qh.html#a805ce8fff65b47ff491afbce6f9fbf0c":[2,0,5,4,227,2],
+"d5/d73/statslist_8qh_source.html":[2,0,5,4,227],
 "d5/d74/menu_2xonotic_2__mod_8inc.html":[2,0,5,4,0],
 "d5/d74/menu_2xonotic_2__mod_8inc_source.html":[2,0,5,4,0],
 "d5/d7b/common_2mutators_2mutator_2dynamic__handicap_2__mod_8qh.html":[2,0,1,10,0,9,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "d5/d95/classXonoticDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,173,0],
 "d5/d95/classXonoticDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,173,31],
 "d5/d95/classXonoticDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,173,36],
-"d5/d95/classXonoticDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,173,56],
-"d5/d95/classXonoticDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,173,33],
-"d5/d95/classXonoticDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,173,83]
+"d5/d95/classXonoticDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,173,56]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"d5/d52/bits_8qh.html#adddacc81ca0e2ceacc3f1d4de8f9c35a":[2,0,4,10,2],
+"d5/d52/bits_8qh_source.html":[2,0,4,10],
 "d5/d53/classXonoticCharmap.html":[1,0,154],
 "d5/d53/classXonoticCharmap.html#a0295170719b329b2b1786ec96dfe390e":[1,0,154,37],
 "d5/d53/classXonoticCharmap.html#a03c78077a75e67c5ed55ddc272218280":[1,0,154,17],
@@ -44,10 +46,10 @@ var NAVTREEINDEX48 =
 "d5/d53/classXonoticCharmap.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,154,2],
 "d5/d53/classXonoticCharmap.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,154,23],
 "d5/d53/classXonoticCharmap.html#af9acf6d00c179c136dd3c4c84028cc6e":[1,0,154,9],
-"d5/d53/dialog__settings__game__messages_8qh.html":[2,0,5,4,137],
-"d5/d53/dialog__settings__game__messages_8qh.html#a4f015fd96ce82d447f113cef1c9e62ef":[2,0,5,4,137,2],
-"d5/d53/dialog__settings__game__messages_8qh.html#ad03b9295aeb89d2a5633bfde7c357a26":[2,0,5,4,137,1],
-"d5/d53/dialog__settings__game__messages_8qh_source.html":[2,0,5,4,137],
+"d5/d53/dialog__settings__game__messages_8qh.html":[2,0,5,4,139],
+"d5/d53/dialog__settings__game__messages_8qh.html#a4f015fd96ce82d447f113cef1c9e62ef":[2,0,5,4,139,2],
+"d5/d53/dialog__settings__game__messages_8qh.html#ad03b9295aeb89d2a5633bfde7c357a26":[2,0,5,4,139,1],
+"d5/d53/dialog__settings__game__messages_8qh_source.html":[2,0,5,4,139],
 "d5/d53/movenode_8qc.html":[2,0,6,5,10],
 "d5/d53/movenode_8qc.html#a5e3c857e323d0afe657b7a8f63380149":[2,0,6,5,10,6],
 "d5/d53/movenode_8qc.html#a6fe9453a5267797164dcff57bb20a431":[2,0,6,5,10,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "d5/d73/classXonoticEffectsSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,175,28],
 "d5/d73/classXonoticEffectsSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,175,70],
 "d5/d73/classXonoticEffectsSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,175,11],
-"d5/d73/classXonoticEffectsSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,175,71],
-"d5/d73/classXonoticEffectsSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,175,4],
-"d5/d73/classXonoticEffectsSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,175,45]
+"d5/d73/classXonoticEffectsSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,175,71]
 };

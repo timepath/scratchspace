@@ -1,7 +1,9 @@
 var NAVTREEINDEX42 =
 {
-"d4/d85/classXonoticUid2NameDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,259,35],
-"d4/d85/classXonoticUid2NameDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,259,39],
+"d4/d85/classXonoticUid2NameDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,260,49],
+"d4/d85/classXonoticUid2NameDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,260,2],
+"d4/d85/classXonoticUid2NameDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,260,35],
+"d4/d85/classXonoticUid2NameDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,260,39],
 "d4/d85/sv__physical__items_8qc.html":[2,0,1,10,0,24,2],
 "d4/d85/sv__physical__items_8qc.html#a051772ab21bd83f6914557f491ac4381":[2,0,1,10,0,24,2,9],
 "d4/d85/sv__physical__items_8qc.html#a0a22c548a3475e9a379dc8a3137c4cf1":[2,0,1,10,0,24,2,5],
@@ -54,10 +56,10 @@ var NAVTREEINDEX42 =
 "d4/d87/classHagar.html#af180c89aed712c19226e9bf4c91941b3":[1,0,45,25],
 "d4/d87/classHagar.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,45,17],
 "d4/d87/classHagar.html#aff52b16f5e232f9aaec1b24ae8cf43b8":[1,0,45,31],
-"d4/d87/dialog__settings__audio_8qc.html":[2,0,5,4,122],
-"d4/d87/dialog__settings__audio_8qc.html#a9897d4b9ae8916a24d87fccc5defa1fa":[2,0,5,4,122,0],
-"d4/d87/dialog__settings__audio_8qc.html#adcafbc93d8765f378e35d8e650160da6":[2,0,5,4,122,1],
-"d4/d87/dialog__settings__audio_8qc_source.html":[2,0,5,4,122],
+"d4/d87/dialog__settings__audio_8qc.html":[2,0,5,4,124],
+"d4/d87/dialog__settings__audio_8qc.html#a9897d4b9ae8916a24d87fccc5defa1fa":[2,0,5,4,124,0],
+"d4/d87/dialog__settings__audio_8qc.html#adcafbc93d8765f378e35d8e650160da6":[2,0,5,4,124,1],
+"d4/d87/dialog__settings__audio_8qc_source.html":[2,0,5,4,124],
 "d4/d8a/fireball_8qh.html":[2,0,1,16,0,13],
 "d4/d8a/fireball_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,13,1],
 "d4/d8a/fireball_8qh.html#a7a97622f6c5d74f4a1d1892af5bf0f40":[2,0,1,16,0,13,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "d4/d90/skin-customizables_8inc_source.html":[2,0,5,18],
 "d4/d91/classXonoticCampaignList.html":[1,0,153],
 "d4/d91/classXonoticCampaignList.html#a03353d1ffe5d9c73b4ee54147dd268f4":[1,0,153,86],
-"d4/d91/classXonoticCampaignList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,153,49],
-"d4/d91/classXonoticCampaignList.html#a093efe8e6a0350a879cc57c922f3162e":[1,0,153,97],
-"d4/d91/classXonoticCampaignList.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,153,25]
+"d4/d91/classXonoticCampaignList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,153,49]
 };

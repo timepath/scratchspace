@@ -204,6 +204,7 @@ var annotated_dup =
     [ "XonoticHUDRadarDialog", "d4/df8/classXonoticHUDRadarDialog.html", "d4/df8/classXonoticHUDRadarDialog" ],
     [ "XonoticHUDScoreDialog", "de/d7a/classXonoticHUDScoreDialog.html", "de/d7a/classXonoticHUDScoreDialog" ],
     [ "XonoticHUDSkinList", "d5/d6c/classXonoticHUDSkinList.html", "d5/d6c/classXonoticHUDSkinList" ],
+    [ "XonoticHUDStrafeHUDDialog", "d5/d96/classXonoticHUDStrafeHUDDialog.html", "d5/d96/classXonoticHUDStrafeHUDDialog" ],
     [ "XonoticHUDTimerDialog", "d9/deb/classXonoticHUDTimerDialog.html", "d9/deb/classXonoticHUDTimerDialog" ],
     [ "XonoticHUDVoteDialog", "d4/d94/classXonoticHUDVoteDialog.html", "d4/d94/classXonoticHUDVoteDialog" ],
     [ "XonoticHUDWeaponsDialog", "d6/d79/classXonoticHUDWeaponsDialog.html", "d6/d79/classXonoticHUDWeaponsDialog" ],

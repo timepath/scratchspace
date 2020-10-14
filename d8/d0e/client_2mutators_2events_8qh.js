@@ -42,6 +42,7 @@ var client_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#ae22c9ea63dc5a27519e320d6c35f98a7", null ],
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a54b9c43e9af72855c1572d9fef679675", null ],
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a3ee837220463b13dbb2e08289a168897", null ],
+    [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a0c8902c1434e54b344498b05ccc6be39", null ],
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#aa637c45bd702fe9ed74c560e39cd348d", null ],
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a66b6a2593d56c2ec92c2b8d43c3cd824", null ],
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a5714a7da6a0706fca795bd2208b63653", null ],

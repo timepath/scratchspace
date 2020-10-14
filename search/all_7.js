@@ -338,6 +338,8 @@ var searchData=
   ['getladder',['getladder',['../d9/d89/getreplies_8qc.html#a7e4a34fe079ee89797a6399b10e0d23e',1,'getladder():&#160;getreplies.qc'],['../d2/de3/getreplies_8qh.html#a7e4a34fe079ee89797a6399b10e0d23e',1,'getladder():&#160;getreplies.qc']]],
   ['getlanguages',['getLanguages',['../d3/dba/classXonoticLanguageList.html#a85fb9f19525756f33afa6c060b44abab',1,'XonoticLanguageList']]],
   ['getlastfullyvisibleitematscrollpos',['getLastFullyVisibleItemAtScrollPos',['../d9/de9/classListBox.html#a565f8d33b46815606f1860162d71339a',1,'ListBox']]],
+  ['getlengthunit',['GetLengthUnit',['../db/dfe/strafehud_8qc.html#a40591cdfb51b01955e8a6df67310ae6c',1,'GetLengthUnit(int length_unit):&#160;strafehud.qc'],['../df/dd4/strafehud_8qh.html#a90a7c49b18a4d83a56d1b56a41dc9b42',1,'GetLengthUnit(int):&#160;strafehud.qc']]],
+  ['getlengthunitfactor',['GetLengthUnitFactor',['../db/dfe/strafehud_8qc.html#aca3df421c2ed6d86693f88ef8e245d9c',1,'GetLengthUnitFactor(int length_unit):&#160;strafehud.qc'],['../df/dd4/strafehud_8qh.html#a50096fb303e7f0dee46017c5846d7629',1,'GetLengthUnitFactor(int):&#160;strafehud.qc']]],
   ['getlight_5fambient',['getlight_ambient',['../d4/d0c/csprogsdefs_8qc.html#a43f4ea39edcbba2be33a301b51455d56',1,'csprogsdefs.qc']]],
   ['getlight_5fdiffuse',['getlight_diffuse',['../d4/d0c/csprogsdefs_8qc.html#a3cb8cb686de07fb87dfebc682f424c27',1,'csprogsdefs.qc']]],
   ['getlight_5fdir',['getlight_dir',['../d4/d0c/csprogsdefs_8qc.html#a39950a40e69b1c645cb4e8915c943f5a',1,'csprogsdefs.qc']]],

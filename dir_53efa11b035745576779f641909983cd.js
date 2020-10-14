@@ -120,6 +120,10 @@ var dir_53efa11b035745576779f641909983cd =
     [ "dialog_hudpanel_score.qh", "d2/d3c/dialog__hudpanel__score_8qh.html", [
       [ "XonoticHUDScoreDialog", "de/d7a/classXonoticHUDScoreDialog.html", "de/d7a/classXonoticHUDScoreDialog" ]
     ] ],
+    [ "dialog_hudpanel_strafehud.qc", "d6/db6/dialog__hudpanel__strafehud_8qc.html", "d6/db6/dialog__hudpanel__strafehud_8qc" ],
+    [ "dialog_hudpanel_strafehud.qh", "d6/dde/dialog__hudpanel__strafehud_8qh.html", [
+      [ "XonoticHUDStrafeHUDDialog", "d5/d96/classXonoticHUDStrafeHUDDialog.html", "d5/d96/classXonoticHUDStrafeHUDDialog" ]
+    ] ],
     [ "dialog_hudpanel_timer.qc", "d3/d0f/dialog__hudpanel__timer_8qc.html", "d3/d0f/dialog__hudpanel__timer_8qc" ],
     [ "dialog_hudpanel_timer.qh", "d7/de8/dialog__hudpanel__timer_8qh.html", [
       [ "XonoticHUDTimerDialog", "d9/deb/classXonoticHUDTimerDialog.html", "d9/deb/classXonoticHUDTimerDialog" ]

@@ -217,6 +217,8 @@ var searchData=
   ['xonotichudskinlist_5fresizenotify',['XonoticHUDSkinList_resizeNotify',['../da/d21/hudskinlist_8qc.html#a8a2aafcc22ead2f02c24f7bef29d3a28',1,'hudskinlist.qc']]],
   ['xonotichudskinlist_5fsethudskin',['XonoticHUDSkinList_setHUDSkin',['../da/d21/hudskinlist_8qc.html#a4b5e96802ca491fb13dfa8314a9ed52a',1,'hudskinlist.qc']]],
   ['xonotichudskinlist_5fshownotify',['XonoticHUDSkinList_showNotify',['../da/d21/hudskinlist_8qc.html#a65e553f8f5a840cbd84d47bbf2a71988',1,'hudskinlist.qc']]],
+  ['xonotichudstrafehuddialog',['XonoticHUDStrafeHUDDialog',['../d5/d96/classXonoticHUDStrafeHUDDialog.html',1,'']]],
+  ['xonotichudstrafehuddialog_5ffill',['XonoticHUDStrafeHUDDialog_fill',['../d6/db6/dialog__hudpanel__strafehud_8qc.html#ab5150081a4a7e61256393661a6b57392',1,'dialog_hudpanel_strafehud.qc']]],
   ['xonotichudtimerdialog',['XonoticHUDTimerDialog',['../d9/deb/classXonoticHUDTimerDialog.html',1,'']]],
   ['xonotichudtimerdialog_5ffill',['XonoticHUDTimerDialog_fill',['../d3/d0f/dialog__hudpanel__timer_8qc.html#a96f8200bf3f24902a133023702f3e43a',1,'dialog_hudpanel_timer.qc']]],
   ['xonotichudvotedialog',['XonoticHUDVoteDialog',['../d4/d94/classXonoticHUDVoteDialog.html',1,'']]],

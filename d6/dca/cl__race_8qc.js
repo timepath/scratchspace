@@ -2,6 +2,7 @@ var cl__race_8qc =
 [
     [ "HUD_Mod_Race", "d6/dca/cl__race_8qc.html#a8424826bc6a1cf734a8effc14a85fc78", null ],
     [ "MUTATOR_HOOKFUNCTION", "d6/dca/cl__race_8qc.html#af9e4d0eb9a9bd38a59ad5ad0a4c63a56", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d6/dca/cl__race_8qc.html#a4b36d93de5494f4babc40622b233f8c9", null ],
     [ "MUTATOR_HOOKFUNCTION", "d6/dca/cl__race_8qc.html#ad8c238022280cb7c419587cb20836217", null ],
     [ "MUTATOR_HOOKFUNCTION", "d6/dca/cl__race_8qc.html#a2e1f51bfdd8f63e2c1740ed5aee66263", null ],
     [ "MUTATOR_HOOKFUNCTION", "d6/dca/cl__race_8qc.html#a1d339adcde722f16d2f44a1e90527f27", null ],

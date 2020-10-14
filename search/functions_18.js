@@ -156,6 +156,7 @@ var searchData=
   ['xonotichudskinlist_5fresizenotify',['XonoticHUDSkinList_resizeNotify',['../da/d21/hudskinlist_8qc.html#a8a2aafcc22ead2f02c24f7bef29d3a28',1,'hudskinlist.qc']]],
   ['xonotichudskinlist_5fsethudskin',['XonoticHUDSkinList_setHUDSkin',['../da/d21/hudskinlist_8qc.html#a4b5e96802ca491fb13dfa8314a9ed52a',1,'hudskinlist.qc']]],
   ['xonotichudskinlist_5fshownotify',['XonoticHUDSkinList_showNotify',['../da/d21/hudskinlist_8qc.html#a65e553f8f5a840cbd84d47bbf2a71988',1,'hudskinlist.qc']]],
+  ['xonotichudstrafehuddialog_5ffill',['XonoticHUDStrafeHUDDialog_fill',['../d6/db6/dialog__hudpanel__strafehud_8qc.html#ab5150081a4a7e61256393661a6b57392',1,'dialog_hudpanel_strafehud.qc']]],
   ['xonotichudtimerdialog_5ffill',['XonoticHUDTimerDialog_fill',['../d3/d0f/dialog__hudpanel__timer_8qc.html#a96f8200bf3f24902a133023702f3e43a',1,'dialog_hudpanel_timer.qc']]],
   ['xonotichudvotedialog_5ffill',['XonoticHUDVoteDialog_fill',['../d9/d8b/dialog__hudpanel__vote_8qc.html#a99db81b12f29535edee78548db09a83f',1,'dialog_hudpanel_vote.qc']]],
   ['xonotichudweaponsdialog_5ffill',['XonoticHUDWeaponsDialog_fill',['../d5/d23/dialog__hudpanel__weapons_8qc.html#aee76c4f17e6e2862e822223192dddb97',1,'dialog_hudpanel_weapons.qc']]],

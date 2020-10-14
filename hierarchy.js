@@ -126,6 +126,7 @@ var hierarchy =
                   [ "XonoticHUDRaceTimerDialog", "db/db1/classXonoticHUDRaceTimerDialog.html", null ],
                   [ "XonoticHUDRadarDialog", "d4/df8/classXonoticHUDRadarDialog.html", null ],
                   [ "XonoticHUDScoreDialog", "de/d7a/classXonoticHUDScoreDialog.html", null ],
+                  [ "XonoticHUDStrafeHUDDialog", "d5/d96/classXonoticHUDStrafeHUDDialog.html", null ],
                   [ "XonoticHUDTimerDialog", "d9/deb/classXonoticHUDTimerDialog.html", null ],
                   [ "XonoticHUDVoteDialog", "d4/d94/classXonoticHUDVoteDialog.html", null ],
                   [ "XonoticHUDWeaponsDialog", "d6/d79/classXonoticHUDWeaponsDialog.html", null ],

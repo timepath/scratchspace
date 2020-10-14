@@ -1,5 +1,7 @@
 var NAVTREEINDEX26 =
 {
+"d3/d07/scoreboard_8qc.html#adc764830d3426136028e899530a73994":[2,0,0,1,0,34,47],
+"d3/d07/scoreboard_8qc.html#ae581cd6e3ee934e0ca99c0534414fd23":[2,0,0,1,0,34,39],
 "d3/d07/scoreboard_8qc.html#aeb5b8d7517335ac69d17ab2814ddb793":[2,0,0,1,0,34,83],
 "d3/d07/scoreboard_8qc.html#aebd9c21a6d8e2d27566af62418f5a9ab":[2,0,0,1,0,34,7],
 "d3/d07/scoreboard_8qc.html#aede2e6f0f25dfc903c78bb06f7be0fbe":[2,0,0,1,0,34,18],
@@ -56,9 +58,9 @@ var NAVTREEINDEX26 =
 "d3/d0d/classHellion.html#aed9f0784a77f4ca2da5cc42f617cf0e1":[1,0,47,17],
 "d3/d0d/classHellion.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,47,4],
 "d3/d0d/classHellion.html#af0d1789cf260770caa9002a133a661d7":[1,0,47,0],
-"d3/d0f/dialog__hudpanel__timer_8qc.html":[2,0,5,4,78],
-"d3/d0f/dialog__hudpanel__timer_8qc.html#a96f8200bf3f24902a133023702f3e43a":[2,0,5,4,78,0],
-"d3/d0f/dialog__hudpanel__timer_8qc_source.html":[2,0,5,4,78],
+"d3/d0f/dialog__hudpanel__timer_8qc.html":[2,0,5,4,80],
+"d3/d0f/dialog__hudpanel__timer_8qc.html#a96f8200bf3f24902a133023702f3e43a":[2,0,5,4,80,0],
+"d3/d0f/dialog__hudpanel__timer_8qc_source.html":[2,0,5,4,80],
 "d3/d10/classXonoticCrosshairPicker.html":[1,0,163],
 "d3/d10/classXonoticCrosshairPicker.html#a0295170719b329b2b1786ec96dfe390e":[1,0,163,35],
 "d3/d10/classXonoticCrosshairPicker.html#a03c78077a75e67c5ed55ddc272218280":[1,0,163,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "d3/d2d/accuracy_8qh_source.html":[2,0,6,6,3],
 "d3/d2e/campaign__file_8qh.html":[2,0,1,26],
 "d3/d2e/campaign__file_8qh_source.html":[2,0,1,26],
-"d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc.html":[2,0,1,10,0,32,0],
-"d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc_source.html":[2,0,1,10,0,32,0],
-"d3/d2e/languagelist_8qc.html":[2,0,5,4,178]
+"d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc.html":[2,0,1,10,0,32,0]
 };
