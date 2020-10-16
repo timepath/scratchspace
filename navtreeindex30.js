@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"d3/d86/classXonoticMapList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,216,33],
 "d3/d86/classXonoticMapList.html#a669001bc787bfad345f4bc9827068281":[1,0,216,15],
 "d3/d86/classXonoticMapList.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,216,1],
 "d3/d86/classXonoticMapList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,216,63],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "d3/db2/classXonoticListBox.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,214,61],
 "d3/db2/classXonoticListBox.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,214,68],
 "d3/db2/classXonoticListBox.html#a82217d761797df8a2e65054eab910734":[1,0,214,10],
-"d3/db2/classXonoticListBox.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,214,56],
-"d3/db2/classXonoticListBox.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,214,39]
+"d3/db2/classXonoticListBox.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,214,56]
 };

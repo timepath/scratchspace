@@ -1,5 +1,6 @@
 var NAVTREEINDEX113 =
 {
+"dc/d6c/classElectro.html#a312755d5709b880f99cf89d7a76237fe":[1,0,34,3],
 "dc/d6c/classElectro.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,34,20],
 "dc/d6c/classElectro.html#a3c36074d9020783cd496dd52b2a60a72":[1,0,34,32],
 "dc/d6c/classElectro.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,34,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX113 =
 "dc/da0/classXonoticMapInfoDialog.html#a2bc7c4ac96fd825ce0c32668226d1fda":[1,0,215,15],
 "dc/da0/classXonoticMapInfoDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,215,37],
 "dc/da0/classXonoticMapInfoDialog.html#a2fd08d768d1bba84aa811d07d312d2ad":[1,0,215,93],
-"dc/da0/classXonoticMapInfoDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,215,30],
-"dc/da0/classXonoticMapInfoDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,215,23]
+"dc/da0/classXonoticMapInfoDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,215,30]
 };

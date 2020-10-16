@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"da/db7/weaponsystem_8qh.html#ac7b6c8bdba2c394f8a3385c9bd992f9c":[2,0,6,6,21,20],
 "da/db7/weaponsystem_8qh.html#ad315ff4e6ee9693a54edb0d18efc9245":[2,0,6,6,21,4],
 "da/db7/weaponsystem_8qh.html#ad896d889c6a5568ab728f7233e86e258":[2,0,6,6,21,24],
 "da/db7/weaponsystem_8qh.html#ae0a21a0484e5bf8b8fe8e359578f5ddc":[2,0,6,6,21,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "da/ddd/ipban_8qh.html#af092a83967ab9516490e44b5736a9fe3":[2,0,6,39,8],
 "da/ddd/ipban_8qh.html#af5400e642692dd6c542af18b03d9946f":[2,0,6,39,3],
 "da/ddd/ipban_8qh_source.html":[2,0,6,39],
-"da/dde/classOffhandHook.html":[1,0,90],
-"da/dde/classOffhandHook.html#a3eebb9e4c20d2c338b773a030eca0ee0":[1,0,90,0]
+"da/dde/classOffhandHook.html":[1,0,90]
 };

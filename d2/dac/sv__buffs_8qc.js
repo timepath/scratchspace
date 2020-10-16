@@ -24,6 +24,7 @@ var sv__buffs_8qc =
     [ "buff_Waypoint_Spawn", "d2/dac/sv__buffs_8qc.html#af41febcb8b97a071549120768e720661", null ],
     [ "buff_Waypoint_visible_for_player", "d2/dac/sv__buffs_8qc.html#a6f90c6fb5218e61586d69ddef8a870d9", null ],
     [ "buffs_BuffModel_Customize", "d2/dac/sv__buffs_8qc.html#a4bea5289c107ad5c40427b9cd3fae3c7", null ],
+    [ "buffs_BuffModel_Remove", "d2/dac/sv__buffs_8qc.html#ac66c485e0232dcd17f0f41667116da2a", null ],
     [ "buffs_BuffModel_Spawn", "d2/dac/sv__buffs_8qc.html#aa957b53e0a005706f3dc00d4932cb7d4", null ],
     [ "buffs_DelayedInit", "d2/dac/sv__buffs_8qc.html#a883c3faf0e935cd0bc1e0a69c9c7ba30", null ],
     [ "buffs_RemovePlayer", "d2/dac/sv__buffs_8qc.html#a45a27d1f17a26c99b6cddf9e71aa0e86", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"d3/d07/scoreboard_8qc.html#adae35053409c3444a7a34d2013f61696":[2,0,0,1,0,34,72],
 "d3/d07/scoreboard_8qc.html#adc764830d3426136028e899530a73994":[2,0,0,1,0,34,47],
 "d3/d07/scoreboard_8qc.html#ae581cd6e3ee934e0ca99c0534414fd23":[2,0,0,1,0,34,39],
 "d3/d07/scoreboard_8qc.html#aeb5b8d7517335ac69d17ab2814ddb793":[2,0,0,1,0,34,83],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "d3/d2d/accuracy_8qh.html#aedc44e2a0316419c251ac4baf1e5cc8a":[2,0,6,6,3,14],
 "d3/d2d/accuracy_8qh_source.html":[2,0,6,6,3],
 "d3/d2e/campaign__file_8qh.html":[2,0,1,26],
-"d3/d2e/campaign__file_8qh_source.html":[2,0,1,26],
-"d3/d2e/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8inc.html":[2,0,1,10,0,32,0]
+"d3/d2e/campaign__file_8qh_source.html":[2,0,1,26]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX139 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,199,60],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,199,53],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,199,89],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,199,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX139 =
 "df/deb/common_2gamemodes_2gamemode_2clanarena_2__mod_8inc_source.html":[2,0,1,3,0,1,0],
 "df/dec/fourier_8qc.html":[2,0,1,6,0,16],
 "df/dec/fourier_8qc_source.html":[2,0,1,6,0,16],
-"df/dee/anglestransform_8qh.html":[2,0,4,2,3],
-"df/dee/anglestransform_8qh.html#a087f14c7e52559b3cc53eddc323b77a0":[2,0,4,2,3,21]
+"df/dee/anglestransform_8qh.html":[2,0,4,2,3]
 };
