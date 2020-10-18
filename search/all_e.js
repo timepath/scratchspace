@@ -19,7 +19,6 @@ var searchData=
   ['nade_5fnapalm',['nade_napalm',['../d9/d09/notifications_2all_8inc.html#a36bc5330dc51b154f633a1bd523726e7',1,'all.inc']]],
   ['nade_5fprevframe',['nade_prevframe',['../dd/d85/client_2hud_2panel_2ammo_8qc.html#ade71175b9d1374101b78cb429e47d4cd',1,'ammo.qc']]],
   ['nade_5fprevstatus',['nade_prevstatus',['../dd/d85/client_2hud_2panel_2ammo_8qc.html#a338c4610b6b164c2ef92c3f576705822',1,'ammo.qc']]],
-  ['nade_5fprojectile',['NADE_PROJECTILE',['../d9/db6/nades_8inc.html#a58ed3c5c8df7c5b1fae0fce5ea88b5e2',1,'nades.inc']]],
   ['nade_5fstatuschange_5ftime',['nade_statuschange_time',['../dd/d85/client_2hud_2panel_2ammo_8qc.html#aedeb646ca9dd01e2d6493da3000f9620',1,'ammo.qc']]],
   ['nades_2einc',['nades.inc',['../d9/db6/nades_8inc.html',1,'']]],
   ['nades_2eqc',['nades.qc',['../d6/d3f/nades_8qc.html',1,'']]],

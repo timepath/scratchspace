@@ -32,7 +32,7 @@ var mapinfo_8qc =
     [ "MapInfo_FindName", "d3/d46/mapinfo_8qc.html#a2e3301affec153d90ce78646a8a8dd2f", null ],
     [ "MapInfo_FixName", "d3/d46/mapinfo_8qc.html#afd54ae0b76b590f1ac89e5cacdac3e37", null ],
     [ "MapInfo_ForbiddenFlags", "d3/d46/mapinfo_8qc.html#aa07df33666844ce0a81d2ca55a986041", null ],
-    [ "MapInfo_Get_ByID", "d3/d46/mapinfo_8qc.html#ac2c63cea45c3e0443ccf5e0e4e97c79c", null ],
+    [ "MapInfo_Get_ByID", "d3/d46/mapinfo_8qc.html#a300471e9dbd9b0da111cfd3191e4bfb9", null ],
     [ "MapInfo_Get_ByName", "d3/d46/mapinfo_8qc.html#a9cc35822d7092a68a55f423e099d1f4d", null ],
     [ "MapInfo_Get_ByName_NoFallbacks", "d3/d46/mapinfo_8qc.html#af0e17d22af224e2485dc3cfd98d9c1b8", null ],
     [ "MapInfo_isRedundant", "d3/d46/mapinfo_8qc.html#a19fa8a681ff6d9d11aed982b211fc26a", null ],
