@@ -1,6 +1,5 @@
 var NAVTREEINDEX121 =
 {
-"dd/d9a/classXonoticSandboxToolsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,237,2],
 "dd/d9a/classXonoticSandboxToolsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,237,35],
 "dd/d9a/classXonoticSandboxToolsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,237,39],
 "dd/da1/dialog__settings__game__hud_8qc.html":[2,0,5,4,134],
@@ -249,5 +248,6 @@ var NAVTREEINDEX121 =
 "dd/db3/classXonoticQuitDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,231,84],
 "dd/db3/classXonoticQuitDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,231,1],
 "dd/db3/classXonoticQuitDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,231,37],
-"dd/db3/classXonoticQuitDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,231,12]
+"dd/db3/classXonoticQuitDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,231,12],
+"dd/db3/classXonoticQuitDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,231,73]
 };

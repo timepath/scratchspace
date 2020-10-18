@@ -1,6 +1,5 @@
 var NAVTREEINDEX131 =
 {
-"de/dab/classObserver.html#a245f8bb48c3369a423dd2ea0888b3425":[1,0,88,37],
 "de/dab/classObserver.html#a2578f01ea21860399662d52a97ad9ce2":[1,0,88,36],
 "de/dab/classObserver.html#a26036b7494d9b1e5634683ccd2270113":[1,0,88,53],
 "de/dab/classObserver.html#a279f6af9c25013e6b39e201ba13fd06c":[1,0,88,85],
@@ -249,5 +248,6 @@ var NAVTREEINDEX131 =
 "de/dd0/common_2vehicles_2vehicle_2__mod_8inc_source.html":[2,0,1,15,0,0],
 "de/dd6/playermodel_8qc.html":[2,0,5,4,194],
 "de/dd6/playermodel_8qc.html#a042a8f0aca4055c7bfa3357393d92378":[2,0,5,4,194,1],
-"de/dd6/playermodel_8qc.html#a062459ab15bb1cbcd9be093053130e7d":[2,0,5,4,194,2]
+"de/dd6/playermodel_8qc.html#a062459ab15bb1cbcd9be093053130e7d":[2,0,5,4,194,2],
+"de/dd6/playermodel_8qc.html#a174b0b1ffef8d6b15c01a9ad65dd312c":[2,0,5,4,194,4]
 };

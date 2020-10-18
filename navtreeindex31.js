@@ -231,7 +231,7 @@ var NAVTREEINDEX31 =
 "d3/dbe/common_2mutators_2mutator_2breakablehook_2__mod_8inc_source.html":[2,0,1,10,0,1,0],
 "d3/dbf/minigames_8qc.html":[2,0,1,7,7],
 "d3/dbf/minigames_8qc.html#a00ae9932d6ad92e4bd43f0c75058a410":[2,0,1,7,7,16],
-"d3/dbf/minigames_8qc.html#a24e2eea380cf6fceca9ff570a7981200":[2,0,1,7,7,15],
+"d3/dbf/minigames_8qc.html#a049bd42994ee4b1af40ab0d163efb76c":[2,0,1,7,7,15],
 "d3/dbf/minigames_8qc.html#a470fe7b6bbd7d246af06920a80ebcadd":[2,0,1,7,7,6],
 "d3/dbf/minigames_8qc.html#a4dc5c5f4dc66bb440b23ffbbffece3d6":[2,0,1,7,7,7],
 "d3/dbf/minigames_8qc.html#a50da88a37fb88826817f7d669b24c423":[2,0,1,7,7,2],

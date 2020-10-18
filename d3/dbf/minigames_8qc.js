@@ -15,6 +15,6 @@ var minigames_8qc =
     [ "minigame_tile_pos", "d3/dbf/minigames_8qc.html#ac1282b42ad31f99e60e3b12c526c360d", null ],
     [ "msle_classname", "d3/dbf/minigames_8qc.html#ab62771fe024e72ee184cdef2774646f3", null ],
     [ "msle_id", "d3/dbf/minigames_8qc.html#a6a7ba74fcc2a57d2d4d7aa64ab15d4c6", null ],
-    [ "msle_spawn", "d3/dbf/minigames_8qc.html#a24e2eea380cf6fceca9ff570a7981200", null ],
+    [ "msle_spawn", "d3/dbf/minigames_8qc.html#a049bd42994ee4b1af40ab0d163efb76c", null ],
     [ "msle_base_id", "d3/dbf/minigames_8qc.html#a00ae9932d6ad92e4bd43f0c75058a410", null ]
 ];

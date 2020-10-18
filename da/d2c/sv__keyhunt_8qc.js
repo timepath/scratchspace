@@ -91,6 +91,5 @@ var sv__keyhunt_8qc =
     [ "kh_previous_owner_playerid", "da/d2c/sv__keyhunt_8qc.html#a453405eaf146ef48e63c4108bd3700ae", null ],
     [ "kh_teams", "da/d2c/sv__keyhunt_8qc.html#ad854fcb1e82836772a09f1203345400d", null ],
     [ "siren_time", "da/d2c/sv__keyhunt_8qc.html#aa465e46bf7aed2129743d3e31e498590", null ],
-    [ "ST_KH_CAPS", "da/d2c/sv__keyhunt_8qc.html#aa41aafec7dc08ba2d16e3508a7410f7c", null ],
-    [ "STR_ITEM_KH_KEY", "da/d2c/sv__keyhunt_8qc.html#a42a822b2117fd619506fa333a9cf935f", null ]
+    [ "ST_KH_CAPS", "da/d2c/sv__keyhunt_8qc.html#aa41aafec7dc08ba2d16e3508a7410f7c", null ]
 ];
