@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"db/d15/api_8qh.html#a8467c850cba8957cd36040241ed1e68b":[2,0,6,0,5,95],
 "db/d15/api_8qh.html#a84c4b28f9537ee1a4354cf4392c0bced":[2,0,6,0,5,63],
 "db/d15/api_8qh.html#a878ad45978a4c8ef10bafd4d041dfb69":[2,0,6,0,5,131],
 "db/d15/api_8qh.html#a890f919c9da949bb818e995a7f6c31b5":[2,0,6,0,5,59],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "db/d2f/playlist_8qh.html#a1dbedfd230e5c37f9b67aa6903f2180b":[2,0,5,4,197,8],
 "db/d2f/playlist_8qh.html#a331bef2777893f465cb8785b3c1bc904":[2,0,5,4,197,2],
 "db/d2f/playlist_8qh.html#a37750fe478d1cd8b5cb44d00ac03ad3b":[2,0,5,4,197,1],
-"db/d2f/playlist_8qh.html#a4f2acc7cbd7149c527eacc9ac332a3fe":[2,0,5,4,197,3],
-"db/d2f/playlist_8qh.html#ad70aacf2537ac90edf75bdfb0e4501c0":[2,0,5,4,197,4]
+"db/d2f/playlist_8qh.html#a4f2acc7cbd7149c527eacc9ac332a3fe":[2,0,5,4,197,3]
 };

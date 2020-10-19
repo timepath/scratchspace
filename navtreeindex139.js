@@ -1,5 +1,6 @@
 var NAVTREEINDEX139 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,199,53],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,199,89],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,199,8],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,199,66],
@@ -248,6 +249,5 @@ var NAVTREEINDEX139 =
 "df/dec/fourier_8qc.html":[2,0,1,6,0,16],
 "df/dec/fourier_8qc_source.html":[2,0,1,6,0,16],
 "df/dee/anglestransform_8qh.html":[2,0,4,2,3],
-"df/dee/anglestransform_8qh.html#a087f14c7e52559b3cc53eddc323b77a0":[2,0,4,2,3,21],
-"df/dee/anglestransform_8qh.html#a0909075e90b39b50ba4d318a27871c4c":[2,0,4,2,3,4]
+"df/dee/anglestransform_8qh.html#a087f14c7e52559b3cc53eddc323b77a0":[2,0,4,2,3,21]
 };
