@@ -175,7 +175,7 @@ var searchData=
   ['teams_5fcompare_5fless',['TEAMS_COMPARE_LESS',['../d2/d76/teamplay_8qh.html#aaf105ae5beaca1dee30ae54530691fceaad8f5d3180d3fdcbcbda65dacdcd763c',1,'teamplay.qh']]],
   ['teamscore_5fadd',['TeamScore_Add',['../d2/d79/scores_8qc.html#a394bf84d67f07e376beeff4a5c6ed94c',1,'TeamScore_Add(entity player, float scorefield, float score):&#160;scores.qc'],['../d5/dac/server_2scores_8qh.html#a394bf84d67f07e376beeff4a5c6ed94c',1,'TeamScore_Add(entity player, float scorefield, float score):&#160;scores.qc']]],
   ['teamscore_5faddtoteam',['TeamScore_AddToTeam',['../d2/d79/scores_8qc.html#a74bac5f29749ffee855cd6a5d0e18836',1,'TeamScore_AddToTeam(int t, float scorefield, float score):&#160;scores.qc'],['../d5/dac/server_2scores_8qh.html#a74bac5f29749ffee855cd6a5d0e18836',1,'TeamScore_AddToTeam(int t, float scorefield, float score):&#160;scores.qc']]],
-  ['teamscore_5fcompare',['TeamScore_Compare',['../d2/d79/scores_8qc.html#ab1cac4ea697e08d564ef09bf4cd1c822',1,'scores.qc']]],
+  ['teamscore_5fcompare',['TeamScore_Compare',['../d2/d79/scores_8qc.html#a7d0ec9f6073dc5a89c9f1d1b84092088',1,'scores.qc']]],
   ['teamscore_5fgetcomparevalue',['TeamScore_GetCompareValue',['../d2/d79/scores_8qc.html#a49ab4c157dab975433e94a16f05d9d17',1,'TeamScore_GetCompareValue(float t):&#160;scores.qc'],['../d5/dac/server_2scores_8qh.html#a49ab4c157dab975433e94a16f05d9d17',1,'TeamScore_GetCompareValue(float t):&#160;scores.qc']]],
   ['teamscore_5fsendentity',['TeamScore_SendEntity',['../d2/d79/scores_8qc.html#afada77c7b9046dc439737459f196231a',1,'scores.qc']]],
   ['teamscore_5fspawn',['TeamScore_Spawn',['../d2/d79/scores_8qc.html#a5db481005e2c63c868c58b15537638a0',1,'scores.qc']]],

@@ -9,7 +9,7 @@ var server_2scores_8qh =
     [ "PlayerScore_Clear", "d5/dac/server_2scores_8qh.html#a408a3ce2d8238dea7575fb00e5b0df63", null ],
     [ "PlayerScore_Detach", "d5/dac/server_2scores_8qh.html#a0e01d4df2b9d101fe63bb6295ce44112", null ],
     [ "PlayerScore_Set", "d5/dac/server_2scores_8qh.html#afe55fd1443db7d1a095b8f820e8e05e4", null ],
-    [ "PlayerScore_Sort", "d5/dac/server_2scores_8qh.html#ae62eb8bcfc2596312a8b44c3aabdef19", null ],
+    [ "PlayerScore_Sort", "d5/dac/server_2scores_8qh.html#ad37d70e7aed09bc589cd366a99729ff4", null ],
     [ "PlayerTeamScore_Add", "d5/dac/server_2scores_8qh.html#a95c06d8a35e1db6d343a7c883241444c", null ],
     [ "Score_ClearAll", "d5/dac/server_2scores_8qh.html#a584dd2db99794927527b7a4cec056bf1", null ],
     [ "Score_NicePrint", "d5/dac/server_2scores_8qh.html#aa70e08e25e069e368d303726e1c91dff", null ],
