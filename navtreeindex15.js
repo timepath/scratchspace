@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"d1/dbc/defs_8qh.html#af79aa361409f5b9cc00d7be07e8243f0":[2,0,1,6,8,21],
+"d1/dbc/defs_8qh_source.html":[2,0,1,6,8],
 "d1/dbf/sv__clanarena_8qh.html":[2,0,1,3,0,1,7],
 "d1/dbf/sv__clanarena_8qh.html#a2d5316421d04d94cdcdf74c325085e0e":[2,0,1,3,0,1,7,3],
 "d1/dbf/sv__clanarena_8qh.html#a326da87721b996b70f4abde42e83145e":[2,0,1,3,0,1,7,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "d1/dec/classInputBox.html#a593656a073061cbbb031670df363defa":[1,0,54,48],
 "d1/dec/classInputBox.html#a61d121be25ad0f3b6759d2f4e818623b":[1,0,54,49],
 "d1/dec/classInputBox.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,54,28],
-"d1/dec/classInputBox.html#a694b7bae9c3b1c4ac503e040aad68f07":[1,0,54,33],
-"d1/dec/classInputBox.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,54,3],
-"d1/dec/classInputBox.html#a7642beed5a82948e21add31abf4a4b0a":[1,0,54,27]
+"d1/dec/classInputBox.html#a694b7bae9c3b1c4ac503e040aad68f07":[1,0,54,33]
 };

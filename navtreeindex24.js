@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"d2/dec/classXonoticServerList.html#a2188ecd49040da1f5cb826f6dd52e8c3":[1,0,246,39],
+"d2/dec/classXonoticServerList.html#a230ddb1a3db4e3db29b3c2e1590dd22e":[1,0,246,113],
 "d2/dec/classXonoticServerList.html#a235355aace741c77462c66d35b2c5e2a":[1,0,246,15],
 "d2/dec/classXonoticServerList.html#a261b8199eda1c5954b1440d59b28ca7c":[1,0,246,11],
 "d2/dec/classXonoticServerList.html#a278a2eaf4aba9c7a113d4a53092d6f28":[1,0,246,24],
@@ -222,8 +224,6 @@ var NAVTREEINDEX24 =
 "d3/d01/classXonoticMultiplayerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,220,39],
 "d3/d03/common_2gamemodes_2gamemode_2tdm_2__mod_8qh.html":[2,0,1,3,0,15,1],
 "d3/d03/common_2gamemodes_2gamemode_2tdm_2__mod_8qh_source.html":[2,0,1,3,0,15,1],
-"d3/d05/classes_8inc.html":[2,0,5,7],
-"d3/d05/classes_8inc_source.html":[2,0,5,7],
 "d3/d05/hud_8qh.html":[2,0,0,1,6],
 "d3/d05/hud_8qh.html#a0160171124193a7ee2dd193882da4061":[2,0,0,1,6,51],
 "d3/d05/hud_8qh.html#a0230f156d1981d65426e963b99ed6d20":[2,0,0,1,6,0],

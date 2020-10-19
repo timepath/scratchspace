@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"d2/d9e/mapinfo_8qh.html#aa0fb5eb1f47d9c23f29b3c79dcfee38c":[2,0,1,35,15],
+"d2/d9e/mapinfo_8qh.html#aaa2f22ba4219608acd37ebed9cbe56f8":[2,0,1,35,35],
 "d2/d9e/mapinfo_8qh.html#abaaed9e8de9bb1dd72da794fb70e8ce6":[2,0,1,35,66],
 "d2/d9e/mapinfo_8qh.html#abb3d96e51a0fd0cb16a9b32ef5b0e910":[2,0,1,35,56],
 "d2/d9e/mapinfo_8qh.html#abba048c4ee777743b349eb029f6c3bef":[2,0,1,35,48],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "d2/db8/gametypelist_8qc.html#a90062e2b5db68e82263113196f1b9486":[2,0,5,4,170,6],
 "d2/db8/gametypelist_8qc.html#a976e536c5ffb069d577e904223088efc":[2,0,5,4,170,7],
 "d2/db8/gametypelist_8qc.html#a9f8776239bf151378989aca163d9323c":[2,0,5,4,170,5],
-"d2/db8/gametypelist_8qc.html#ae230e056a6dc39bac1a02b29a22dbbeb":[2,0,5,4,170,3],
-"d2/db8/gametypelist_8qc_source.html":[2,0,5,4,170],
-"d2/db8/spiderbot__weapons_8qc.html":[2,0,1,15,0,16]
+"d2/db8/gametypelist_8qc.html#ae230e056a6dc39bac1a02b29a22dbbeb":[2,0,5,4,170,3]
 };

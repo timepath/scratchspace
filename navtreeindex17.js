@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"d2/d1c/weapons_2weapon_8qh.html#aba8f543af5c7b69830b87e35a3c7d2b8":[2,0,1,16,13,35],
+"d2/d1c/weapons_2weapon_8qh.html#ac134501dee727ad9b18d7842f86275a4":[2,0,1,16,13,3],
 "d2/d1c/weapons_2weapon_8qh.html#ac1cb5337898cc2eecdffab177b8b75a8":[2,0,1,16,13,29],
 "d2/d1c/weapons_2weapon_8qh.html#ac3cbbc1f9884e78a2816ff88760748d5":[2,0,1,16,13,17],
 "d2/d1c/weapons_2weapon_8qh.html#ac4c200d7aeff290dde6743501557676e":[2,0,1,16,13,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "d2/d26/classInvasion.html#ae9227aebbcb0aaca925bbdc438958136":[1,0,57,16],
 "d2/d26/classInvasion.html#aef3a65f4987590d66b653b91180860ca":[1,0,57,9],
 "d2/d26/classInvasion.html#af1a6db9207b7000984864c8176081b52":[1,0,57,13],
-"d2/d26/classInvasion.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,57,5],
-"d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html":[2,0,1,10,0,39,2],
-"d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a0744815a16e68c9e193caa1e0183fb08":[2,0,1,10,0,39,2,27]
+"d2/d26/classInvasion.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,57,5]
 };

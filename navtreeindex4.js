@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"d0/d81/classRifle.html#a1814f9f831862d698869cb6f3198a49e":[1,0,117,36],
+"d0/d81/classRifle.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,117,18],
 "d0/d81/classRifle.html#a24cb9d80ab139b942d7c90d93e55e0b5":[1,0,117,31],
 "d0/d81/classRifle.html#a267ed876501f592766d2093314176d09":[1,0,117,25],
 "d0/d81/classRifle.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,117,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "d0/d9d/classXonoticHUDConfirmDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,188,35],
 "d0/d9d/classXonoticHUDConfirmDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,188,39],
 "d0/d9d/heal_8qh.html":[2,0,1,6,3,15],
-"d0/d9d/heal_8qh.html#a422d972f5888a0fb7fcaf5dd6376e2f0":[2,0,1,6,3,15,0],
-"d0/d9d/heal_8qh_source.html":[2,0,1,6,3,15],
-"d0/d9e/common_2mutators_2mutator_2cloaked_2__mod_8inc.html":[2,0,1,10,0,5,0]
+"d0/d9d/heal_8qh.html#a422d972f5888a0fb7fcaf5dd6376e2f0":[2,0,1,6,3,15,0]
 };

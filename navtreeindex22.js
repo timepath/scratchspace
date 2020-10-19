@@ -1,5 +1,7 @@
 var NAVTREEINDEX22 =
 {
+"d2/db8/gametypelist_8qc_source.html":[2,0,5,4,170],
+"d2/db8/spiderbot__weapons_8qc.html":[2,0,1,15,0,16],
 "d2/db8/spiderbot__weapons_8qc_source.html":[2,0,1,15,0,16],
 "d2/dbe/classCvarStringSource.html":[1,0,24],
 "d2/dbe/classCvarStringSource.html#a00f5ea10f24fc560b4e209d5ca15035b":[1,0,24,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "d2/dce/promise_8qc.html#a9350445aa1df267338cc74c960af4ce1":[2,0,4,45,22],
 "d2/dce/promise_8qc.html#a9de21ed7a8c729b9831878e1f605c067":[2,0,4,45,9],
 "d2/dce/promise_8qc.html#aaab1dd94269610e354c33055e929b3f6":[2,0,4,45,15],
-"d2/dce/promise_8qc.html#ab999fdc28b80c39fdc6e15eda160bdce":[2,0,4,45,16],
-"d2/dce/promise_8qc.html#ac22eb6cbc9d9d9a4724c2e049277fddf":[2,0,4,45,21],
-"d2/dce/promise_8qc.html#ac744182bddbd3ea826f213747634f764":[2,0,4,45,23]
+"d2/dce/promise_8qc.html#ab999fdc28b80c39fdc6e15eda160bdce":[2,0,4,45,16]
 };

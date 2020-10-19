@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"d0/d9d/heal_8qh_source.html":[2,0,1,6,3,15],
+"d0/d9e/common_2mutators_2mutator_2cloaked_2__mod_8inc.html":[2,0,1,10,0,5,0],
 "d0/d9e/common_2mutators_2mutator_2cloaked_2__mod_8inc_source.html":[2,0,1,10,0,5,0],
 "d0/d9f/classHunterKiller.html":[1,0,51],
 "d0/d9f/classHunterKiller.html#a138adca099fbd117101fe56edb53d8aa":[1,0,51,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "d0/ddd/weapons_2all_8qh.html#a2058ddf480ae35ac75cf523110712e4a":[2,0,1,16,7,2],
 "d0/ddd/weapons_2all_8qh.html#a210d22e4f59e0b2747412af9978f0f00":[2,0,1,16,7,45],
 "d0/ddd/weapons_2all_8qh.html#a22673e876ee350f71558b6c99104435c":[2,0,1,16,7,18],
-"d0/ddd/weapons_2all_8qh.html#a3381b60a1395be7372e272462e3b8d06":[2,0,1,16,7,16],
-"d0/ddd/weapons_2all_8qh.html#a33e72d0b13a07c7deabee15e71c6e429":[2,0,1,16,7,20],
-"d0/ddd/weapons_2all_8qh.html#a37dc49a75349d067d21d1a94b58b5426":[2,0,1,16,7,14]
+"d0/ddd/weapons_2all_8qh.html#a3381b60a1395be7372e272462e3b8d06":[2,0,1,16,7,16]
 };

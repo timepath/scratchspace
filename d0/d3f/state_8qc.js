@@ -15,6 +15,8 @@ var state_8qc =
     [ "entcs_detach", "d0/d3f/state_8qc.html#ac87f3b0e72460f99913d0a56abac6990", null ],
     [ "Inventory_delete", "d0/d3f/state_8qc.html#a694f7d5c484ae99b40c2163429b7ac21", null ],
     [ "Inventory_new", "d0/d3f/state_8qc.html#a7a3b7d4e0321384128d90bab60887627", null ],
+    [ "InventoryStorage_attach", "d0/d3f/state_8qc.html#ad0b0563adf5b008f56dd29f3adccccef", null ],
+    [ "InventoryStorage_detach", "d0/d3f/state_8qc.html#ab6fc1ce2d31f2ad186b1180bda5b9021", null ],
     [ "PlayerScore_Attach", "d0/d3f/state_8qc.html#aa66ef3aa59e752ea23954561082a6ac6", null ],
     [ "PlayerScore_Detach", "d0/d3f/state_8qc.html#a7fd595275a5ab3b24efdf5dc24933c46", null ],
     [ "PlayerState_attach", "d0/d3f/state_8qc.html#a53a16489327364aafc4ca8b946faab8d", null ],
