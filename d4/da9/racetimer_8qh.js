@@ -1,5 +1,7 @@
 var racetimer_8qh =
 [
+    [ "autocvar_hud_panel_racetimer", "d4/da9/racetimer_8qh.html#ac3a6b4862c71094075d25e491d1ae87d", null ],
+    [ "autocvar_hud_panel_racetimer_dynamichud", "d4/da9/racetimer_8qh.html#aa962732a16305876e4f7c3722d318cee", null ],
     [ "race_checkpoint", "d4/da9/racetimer_8qh.html#a67234b7e3097a12ec7d56566276b1295", null ],
     [ "race_checkpointtime", "d4/da9/racetimer_8qh.html#ad146ad99fe532857ccae8af64c671420", null ],
     [ "race_laptime", "d4/da9/racetimer_8qh.html#af388c4e5001dfa76a890f8f07c52f8ab", null ],

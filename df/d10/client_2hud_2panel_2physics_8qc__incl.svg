@@ -56,8 +56,8 @@ var sectionId = 'dynsection-0';
 <title>client/hud/panel/physics.qc</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="2580.5,-795.5 2580.5,-814.5 2725.5,-814.5 2725.5,-795.5 2580.5,-795.5"/>
-<text text-anchor="middle" x="2653" y="-802.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/hud/panel/physics.qc</text>
+<polygon fill="#bfbfbf" stroke="black" points="2512.5,-795.5 2512.5,-814.5 2657.5,-814.5 2657.5,-795.5 2512.5,-795.5"/>
+<text text-anchor="middle" x="2585" y="-802.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/hud/panel/physics.qc</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -69,47 +69,34 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M2627.49,-795.444C2600.4,-786.359 2557.41,-771.939 2527.13,-761.783"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2527.99,-758.378 2517.39,-758.516 2525.76,-765.015 2527.99,-758.378"/>
+<path fill="none" stroke="midnightblue" d="M2570.06,-795.324C2555.41,-786.822 2532.87,-773.729 2515.76,-763.797"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2517.31,-760.649 2506.9,-758.655 2513.8,-766.703 2517.31,-760.649"/>
 </g>
 <!-- Node56 -->
 <g id="node56" class="node"><title>Node56</title>
-<g id="a_node56"><a xlink:href="../../d7/db4/client_2autocvars_8qh.html" target="_top" xlink:title="client/autocvars.qh">
-<polygon fill="none" stroke="black" points="2543.5,-739.5 2543.5,-758.5 2650.5,-758.5 2650.5,-739.5 2543.5,-739.5"/>
-<text text-anchor="middle" x="2597" y="-746.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/autocvars.qh</text>
+<g id="a_node56"><a xlink:href="../../d5/d8d/client_2draw_8qh.html" target="_top" xlink:title="client/draw.qh">
+<polygon fill="none" stroke="black" points="2544,-739.5 2544,-758.5 2626,-758.5 2626,-739.5 2544,-739.5"/>
+<text text-anchor="middle" x="2585" y="-746.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/draw.qh</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node56 -->
 <g id="edge66" class="edge"><title>Node1&#45;&gt;Node56</title>
-<path fill="none" stroke="midnightblue" d="M2644,-795.324C2635.81,-787.42 2623.49,-775.548 2613.53,-765.938"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2615.79,-763.256 2606.16,-758.834 2610.93,-768.295 2615.79,-763.256"/>
+<path fill="none" stroke="midnightblue" d="M2585,-795.083C2585,-788.006 2585,-777.861 2585,-768.986"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2588.5,-768.751 2585,-758.751 2581.5,-768.751 2588.5,-768.751"/>
 </g>
 <!-- Node57 -->
 <g id="node57" class="node"><title>Node57</title>
-<g id="a_node57"><a xlink:href="../../d5/d8d/client_2draw_8qh.html" target="_top" xlink:title="client/draw.qh">
-<polygon fill="none" stroke="black" points="2669,-739.5 2669,-758.5 2751,-758.5 2751,-739.5 2669,-739.5"/>
-<text text-anchor="middle" x="2710" y="-746.5" font-family="Helvetica,sans-Serif" font-size="10.00">client/draw.qh</text>
+<g id="a_node57"><a xlink:href="../../d9/dba/cl__player_8qh.html" target="_top" xlink:title="lib/csqcmodel/cl_player.qh">
+<polygon fill="none" stroke="black" points="2644.5,-739.5 2644.5,-758.5 2785.5,-758.5 2785.5,-739.5 2644.5,-739.5"/>
+<text text-anchor="middle" x="2715" y="-746.5" font-family="Helvetica,sans-Serif" font-size="10.00">lib/csqcmodel/cl_player.qh</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node57 -->
 <g id="edge67" class="edge"><title>Node1&#45;&gt;Node57</title>
-<path fill="none" stroke="midnightblue" d="M2662.16,-795.324C2670.5,-787.42 2683.03,-775.548 2693.18,-765.938"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2695.82,-768.252 2700.68,-758.834 2691.01,-763.171 2695.82,-768.252"/>
-</g>
-<!-- Node58 -->
-<g id="node58" class="node"><title>Node58</title>
-<g id="a_node58"><a xlink:href="../../d9/dba/cl__player_8qh.html" target="_top" xlink:title="lib/csqcmodel/cl_player.qh">
-<polygon fill="none" stroke="black" points="2769.5,-739.5 2769.5,-758.5 2910.5,-758.5 2910.5,-739.5 2769.5,-739.5"/>
-<text text-anchor="middle" x="2840" y="-746.5" font-family="Helvetica,sans-Serif" font-size="10.00">lib/csqcmodel/cl_player.qh</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node58 -->
-<g id="edge68" class="edge"><title>Node1&#45;&gt;Node58</title>
-<path fill="none" stroke="midnightblue" d="M2682.63,-795.444C2714.5,-786.241 2765.33,-771.562 2800.56,-761.388"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2801.87,-764.653 2810.51,-758.516 2799.93,-757.928 2801.87,-764.653"/>
+<path fill="none" stroke="midnightblue" d="M2605.6,-795.444C2626.99,-786.557 2660.68,-772.563 2685.02,-762.451"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2686.61,-765.585 2694.5,-758.516 2683.92,-759.12 2686.61,-765.585"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>

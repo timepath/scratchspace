@@ -30,7 +30,6 @@ var server_2autocvars_8qh =
     [ "autocvar_bot_ai_strategyinterval_movingtarget", "d7/da7/server_2autocvars_8qh.html#a5356c976355611d0ecf9fb2018833887", null ],
     [ "autocvar_bot_vs_human", "d7/da7/server_2autocvars_8qh.html#acca83439b109f1e0156cad1440d903b2", null ],
     [ "autocvar_captureleadlimit_override", "d7/da7/server_2autocvars_8qh.html#a789e5e061aae2d8185c770150e123cbb", null ],
-    [ "autocvar_ekg", "d7/da7/server_2autocvars_8qh.html#a3f308d8962ec38aa20908b6a8d62496e", null ],
     [ "autocvar_g_allow_checkpoints", "d7/da7/server_2autocvars_8qh.html#a01881b5a20f0b9258777a05de0e7f45c", null ],
     [ "autocvar_g_antilag", "d7/da7/server_2autocvars_8qh.html#aeffee9458d2c270024cec552c5a66190", null ],
     [ "autocvar_g_antilag_nudge", "d7/da7/server_2autocvars_8qh.html#aaaed169479ef3f4a58896e29e9af6575", null ],

@@ -1,0 +1,26 @@
+var client_2hud_2panel_2physics_8qh =
+[
+    [ "autocvar_hud_panel_physics", "d4/de5/client_2hud_2panel_2physics_8qh.html#a15bc92f884be039ceaaa209876e7a674", null ],
+    [ "autocvar_hud_panel_physics_acceleration_max", "d4/de5/client_2hud_2panel_2physics_8qh.html#a1ea8a1e65071eda4af355081089da8b7", null ],
+    [ "autocvar_hud_panel_physics_acceleration_movingaverage", "d4/de5/client_2hud_2panel_2physics_8qh.html#a6e4e430dd8dcdccd540a214ded551e2b", null ],
+    [ "autocvar_hud_panel_physics_acceleration_progressbar_mode", "d4/de5/client_2hud_2panel_2physics_8qh.html#ab72dacbf6fd9441ec3ed234bdedfd58d", null ],
+    [ "autocvar_hud_panel_physics_acceleration_progressbar_nonlinear", "d4/de5/client_2hud_2panel_2physics_8qh.html#a33004c66d9664fb323bdae8a6ac65b83", null ],
+    [ "autocvar_hud_panel_physics_acceleration_progressbar_scale", "d4/de5/client_2hud_2panel_2physics_8qh.html#acb01582f01ded66394dc583fc05851c7", null ],
+    [ "autocvar_hud_panel_physics_acceleration_vertical", "d4/de5/client_2hud_2panel_2physics_8qh.html#a0a9c1a99ee2ddec1a9c3a92306549be3", null ],
+    [ "autocvar_hud_panel_physics_baralign", "d4/de5/client_2hud_2panel_2physics_8qh.html#aef12934c9c8011aba200710793425b95", null ],
+    [ "autocvar_hud_panel_physics_dynamichud", "d4/de5/client_2hud_2panel_2physics_8qh.html#a4b22503c15161f5b63e2a63d78954449", null ],
+    [ "autocvar_hud_panel_physics_flip", "d4/de5/client_2hud_2panel_2physics_8qh.html#adecdb8c08ce5747642c2c03c65159cb7", null ],
+    [ "autocvar_hud_panel_physics_progressbar", "d4/de5/client_2hud_2panel_2physics_8qh.html#a510fdb67225550221e1399b0065adf15", null ],
+    [ "autocvar_hud_panel_physics_speed_max", "d4/de5/client_2hud_2panel_2physics_8qh.html#a44e1b9f299189cd80d90b613959b9e22", null ],
+    [ "autocvar_hud_panel_physics_speed_unit", "d4/de5/client_2hud_2panel_2physics_8qh.html#a0be75d5975fa7beb868efc9f59f29e04", null ],
+    [ "autocvar_hud_panel_physics_speed_unit_show", "d4/de5/client_2hud_2panel_2physics_8qh.html#ae2990579332b2426f56ca1abd4d70867", null ],
+    [ "autocvar_hud_panel_physics_speed_vertical", "d4/de5/client_2hud_2panel_2physics_8qh.html#a7cfca0271e93d64f1961ae261f7592d0", null ],
+    [ "autocvar_hud_panel_physics_text", "d4/de5/client_2hud_2panel_2physics_8qh.html#a77ac8e774d203882d916e05e1f0e1875", null ],
+    [ "autocvar_hud_panel_physics_text_scale", "d4/de5/client_2hud_2panel_2physics_8qh.html#a428c482d8a89ec84ecd5dbfac384b332", null ],
+    [ "autocvar_hud_panel_physics_topspeed", "d4/de5/client_2hud_2panel_2physics_8qh.html#ac34b572a802953422a21bc16a2e7f875", null ],
+    [ "autocvar_hud_panel_physics_topspeed_time", "d4/de5/client_2hud_2panel_2physics_8qh.html#aade81311d7be59d734c3a37b378537fe", null ],
+    [ "autocvar_hud_panel_physics_update_interval", "d4/de5/client_2hud_2panel_2physics_8qh.html#a3dfa5ea854d31ef48a67b825e8e121c9", null ],
+    [ "autocvar_hud_progressbar_acceleration_color", "d4/de5/client_2hud_2panel_2physics_8qh.html#acc9184a7393aa410c42eb1cf9f2c8f62", null ],
+    [ "autocvar_hud_progressbar_acceleration_neg_color", "d4/de5/client_2hud_2panel_2physics_8qh.html#a57edde68af943e64549991bce19b2bcd", null ],
+    [ "autocvar_hud_progressbar_speed_color", "d4/de5/client_2hud_2panel_2physics_8qh.html#a8af82dc82a1b353fa688b5c454b9e9ef", null ]
+];

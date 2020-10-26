@@ -7,5 +7,9 @@ var quickmenu_8qh =
     [ "QuickMenu_IsOpened", "d6/daa/quickmenu_8qh.html#a83c6625cfcd8716e5e481969fa957f6f", null ],
     [ "QuickMenu_Mouse", "d6/daa/quickmenu_8qh.html#a1f4421c07ba36141f7788c052320dcaf", null ],
     [ "QuickMenu_Open", "d6/daa/quickmenu_8qh.html#a51c446db94a7b8cfe9997f4c92f84bb0", null ],
-    [ "QuickMenu_Page_Load", "d6/daa/quickmenu_8qh.html#a4d9e61d6cf6645a6d311f996df3d4216", null ]
+    [ "QuickMenu_Page_Load", "d6/daa/quickmenu_8qh.html#a4d9e61d6cf6645a6d311f996df3d4216", null ],
+    [ "autocvar_hud_panel_quickmenu_align", "d6/daa/quickmenu_8qh.html#ad5f9052456993f2e1938aa4abd438ad0", null ],
+    [ "autocvar_hud_panel_quickmenu_file", "d6/daa/quickmenu_8qh.html#afb68cf8d1d24c221561fdd16fe32ad8d", null ],
+    [ "autocvar_hud_panel_quickmenu_time", "d6/daa/quickmenu_8qh.html#a7931f8c4c9cd57add003899d4da60261", null ],
+    [ "autocvar_hud_panel_quickmenu_translatecommands", "d6/daa/quickmenu_8qh.html#a88205b914d1087deba79a3cf9609cd6b", null ]
 ];

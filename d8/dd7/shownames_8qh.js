@@ -2,5 +2,24 @@ var shownames_8qh =
 [
     [ "classfield", "d8/dd7/shownames_8qh.html#a4b143cf4c71047ca9db0a4e08deb3771", null ],
     [ "Draw_ShowNames_All", "d8/dd7/shownames_8qh.html#a9ccf8f67a13521356d76071fce9be7c6", null ],
-    [ "entityclass", "d8/dd7/shownames_8qh.html#a42e7f03b56b56a4f5049a08fbc36097e", null ]
+    [ "entityclass", "d8/dd7/shownames_8qh.html#a42e7f03b56b56a4f5049a08fbc36097e", null ],
+    [ "autocvar_hud_shownames", "d8/dd7/shownames_8qh.html#a04d080657728feff7a5639ce39553e24", null ],
+    [ "autocvar_hud_shownames_alpha", "d8/dd7/shownames_8qh.html#a20674ad8f4c953ed805743cdf36b521a", null ],
+    [ "autocvar_hud_shownames_antioverlap", "d8/dd7/shownames_8qh.html#ab8220bfa9cd471157bce4d9a5d0ba95f", null ],
+    [ "autocvar_hud_shownames_antioverlap_distance", "d8/dd7/shownames_8qh.html#a013c0d469bcbdb5261aed1288d36bcb1", null ],
+    [ "autocvar_hud_shownames_aspect", "d8/dd7/shownames_8qh.html#ae5ec9b211167a301ce2d8d9c4df39679", null ],
+    [ "autocvar_hud_shownames_crosshairdistance", "d8/dd7/shownames_8qh.html#a2d1f2d1c5638c4301f6f8018ea826668", null ],
+    [ "autocvar_hud_shownames_crosshairdistance_antioverlap", "d8/dd7/shownames_8qh.html#a71336052458699e5ac34c53f154d9cd8", null ],
+    [ "autocvar_hud_shownames_crosshairdistance_time", "d8/dd7/shownames_8qh.html#a279173e3892d2b1ac8f99b9943bc50e0", null ],
+    [ "autocvar_hud_shownames_decolorize", "d8/dd7/shownames_8qh.html#a38b61c870aa4fa01e6b82d74ecc46f1d", null ],
+    [ "autocvar_hud_shownames_enemies", "d8/dd7/shownames_8qh.html#afc3a657ca775f4df411dacdca62903a4", null ],
+    [ "autocvar_hud_shownames_fontsize", "d8/dd7/shownames_8qh.html#a44031fe72f0a7d310baf5237921f4ed9", null ],
+    [ "autocvar_hud_shownames_maxdistance", "d8/dd7/shownames_8qh.html#af056817ac9add0d71318eea6f5fc031e", null ],
+    [ "autocvar_hud_shownames_mindistance", "d8/dd7/shownames_8qh.html#a54259ed392db82b341922904da4fefc8", null ],
+    [ "autocvar_hud_shownames_offset", "d8/dd7/shownames_8qh.html#ac1acda3339f9aa5db944bcd3ec235ec6", null ],
+    [ "autocvar_hud_shownames_resize", "d8/dd7/shownames_8qh.html#a93856d064318c16a9adb128439663588", null ],
+    [ "autocvar_hud_shownames_self", "d8/dd7/shownames_8qh.html#a1d9d264d32d51f15e18cf866410c372b", null ],
+    [ "autocvar_hud_shownames_status", "d8/dd7/shownames_8qh.html#a20613542b79a253c38e345abab3afeda", null ],
+    [ "autocvar_hud_shownames_statusbar_height", "d8/dd7/shownames_8qh.html#a52b61a00fbfba05de53cfbdd706e4700", null ],
+    [ "autocvar_hud_shownames_statusbar_highlight", "d8/dd7/shownames_8qh.html#aa9e528e8e4e9e7fef846079abe75e298", null ]
 ];
