@@ -19,5 +19,7 @@ var sv__rules_8qh =
     [ "GameRules_scoring_vip", "db/d55/sv__rules_8qh.html#a45421c6953dd81519e25361836938249", null ],
     [ "GameRules_spawning_teams", "db/d55/sv__rules_8qh.html#a26b7dbcc38a3e20303d28e49cca3da08", null ],
     [ "GameRules_teams", "db/d55/sv__rules_8qh.html#aadde099aa9d91e5bad4328d9481021cb", null ],
+    [ "autocvar_leadlimit_and_fraglimit", "db/d55/sv__rules_8qh.html#a2c1f1fbc11eee72e21bda0bc39ce9c4f", null ],
+    [ "autocvar_leadlimit_override", "db/d55/sv__rules_8qh.html#aa67893e7a8710883f652e2605ef84554", null ],
     [ "total_players", "db/d55/sv__rules_8qh.html#aaa34bfc86f16c81e1d99092a184af2bd", null ]
 ];

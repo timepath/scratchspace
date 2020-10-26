@@ -8,5 +8,8 @@ var sv__physics_8qc =
     [ "sys_phys_monitor", "db/d47/sv__physics_8qc.html#a2eb503fb3fc0571e20d780dd6981a0bc", null ],
     [ "sys_phys_override", "db/d47/sv__physics_8qc.html#a042dfde0db60e8645ae713d3de8d5641", null ],
     [ "sys_phys_pregame_hold", "db/d47/sv__physics_8qc.html#aa4d68982e5ca4141554c3510a02fa0b2", null ],
-    [ "sys_phys_spectator_control", "db/d47/sv__physics_8qc.html#a6fedf9253d02f5b700db55425ff16368", null ]
+    [ "sys_phys_spectator_control", "db/d47/sv__physics_8qc.html#a6fedf9253d02f5b700db55425ff16368", null ],
+    [ "autocvar_sv_spectator_speed_multiplier", "db/d47/sv__physics_8qc.html#ad173c6a99d7b4720c5b91bfacfbb1de8", null ],
+    [ "autocvar_sv_spectator_speed_multiplier_max", "db/d47/sv__physics_8qc.html#a276693dfde98122053c20da0d18c93e2", null ],
+    [ "autocvar_sv_spectator_speed_multiplier_min", "db/d47/sv__physics_8qc.html#aebc09a37b2230a8402ed660fc615c332", null ]
 ];

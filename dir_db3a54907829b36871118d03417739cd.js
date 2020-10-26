@@ -9,7 +9,6 @@ var dir_db3a54907829b36871118d03417739cd =
     [ "_mod.qh", "d2/dd5/client_2__mod_8qh.html", null ],
     [ "announcer.qc", "da/df4/announcer_8qc.html", "da/df4/announcer_8qc" ],
     [ "announcer.qh", "df/d71/announcer_8qh.html", "df/d71/announcer_8qh" ],
-    [ "autocvars.qh", "d7/db4/client_2autocvars_8qh.html", null ],
     [ "bgmscript.qc", "dd/dec/client_2bgmscript_8qc.html", "dd/dec/client_2bgmscript_8qc" ],
     [ "bgmscript.qh", "d7/d88/client_2bgmscript_8qh.html", "d7/d88/client_2bgmscript_8qh" ],
     [ "csqcmodel_hooks.qc", "dc/d3d/csqcmodel__hooks_8qc.html", "dc/d3d/csqcmodel__hooks_8qc" ],

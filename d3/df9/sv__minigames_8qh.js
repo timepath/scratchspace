@@ -13,6 +13,8 @@ var sv__minigames_8qh =
     [ "part_minigame", "d3/df9/sv__minigames_8qh.html#abacc26686b4b0b5402dc406a0830a890", null ],
     [ "start_minigame", "d3/df9/sv__minigames_8qh.html#ad084a4080880ef2c8ee32a69dfdf8ae2", null ],
     [ "active_minigame", "d3/df9/sv__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82", null ],
+    [ "autocvar_sv_minigames", "d3/df9/sv__minigames_8qh.html#a82b9ecae6198fe3731f5c0af8521fdf5", null ],
+    [ "autocvar_sv_minigames_observer", "d3/df9/sv__minigames_8qh.html#a96b5092b84dde3c5beef52ccd7fd647f", null ],
     [ "minigame_players", "d3/df9/sv__minigames_8qh.html#a3aa2a51b87b7c756617de798836d4be5", null ],
     [ "minigame_sessions", "d3/df9/sv__minigames_8qh.html#a524d14ba3717c12b77821c1fd959d8a0", null ]
 ];

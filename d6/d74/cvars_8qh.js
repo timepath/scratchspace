@@ -2,6 +2,7 @@ var cvars_8qh =
 [
     [ "autocvar_bot_prefix", "d6/d74/cvars_8qh.html#adb0413a50e75ae2d3f52007abb7879e4", null ],
     [ "autocvar_bot_suffix", "d6/d74/cvars_8qh.html#a3e4c1f143d6fda74a8931c5dc3982dca", null ],
+    [ "autocvar_skill", "d6/d74/cvars_8qh.html#afb2dbc121f91cc54dda3179697d96868", null ],
     [ "autocvar_bot_ai_aimskill_blendrate", "d6/d74/cvars_8qh.html#ae0cd8130a5c94da77970f2ccbb414ce6", null ],
     [ "autocvar_bot_ai_aimskill_firetolerance", "d6/d74/cvars_8qh.html#a0ee63ec1d89910da3f592202b417a467", null ],
     [ "autocvar_bot_ai_aimskill_firetolerance_distdegrees", "d6/d74/cvars_8qh.html#affac4a8b791a5636b36817e639399054", null ],
@@ -43,6 +44,8 @@ var cvars_8qh =
     [ "autocvar_bot_ai_keyboard_threshold", "d6/d74/cvars_8qh.html#ae6e26bee1ea5342888ff27219c843999", null ],
     [ "autocvar_bot_ai_navigation_jetpack", "d6/d74/cvars_8qh.html#ae9e61ba4af18b260c3743546797090b2", null ],
     [ "autocvar_bot_ai_navigation_jetpack_mindistance", "d6/d74/cvars_8qh.html#a229137a2464bd4a792703113bad7865a", null ],
+    [ "autocvar_bot_ai_strategyinterval", "d6/d74/cvars_8qh.html#a62bbc4ae3a7603843c7e998218476668", null ],
+    [ "autocvar_bot_ai_strategyinterval_movingtarget", "d6/d74/cvars_8qh.html#a5356c976355611d0ecf9fb2018833887", null ],
     [ "autocvar_bot_ai_thinkinterval", "d6/d74/cvars_8qh.html#a02d278ef0467d4b546da3ccd999e3188", null ],
     [ "autocvar_bot_ai_timeitems", "d6/d74/cvars_8qh.html#a2c307e064b84e4027cdde9b649340566", null ],
     [ "autocvar_bot_ai_timeitems_minrespawndelay", "d6/d74/cvars_8qh.html#adf8f18b03ddc6ccb80764bf431ab4400", null ],
@@ -56,11 +59,15 @@ var cvars_8qh =
     [ "autocvar_bot_join_empty", "d6/d74/cvars_8qh.html#a02f07646d2b2ae8dc43c7ec7c3ac5b95", null ],
     [ "autocvar_bot_navigation_ignoreplayers", "d6/d74/cvars_8qh.html#a198923cedc40559d92a6d1558f4ef55a", null ],
     [ "autocvar_bot_nofire", "d6/d74/cvars_8qh.html#a923b2fd64c9fb1f576d86737d2fad27d", null ],
+    [ "autocvar_bot_number", "d6/d74/cvars_8qh.html#a2a8bba7b65c91cbb41d24118f2cd9b1d", null ],
     [ "autocvar_bot_typefrag", "d6/d74/cvars_8qh.html#a76ae51e349cf22c07c13276aecfcbce1", null ],
     [ "autocvar_bot_usemodelnames", "d6/d74/cvars_8qh.html#a8af4bdb65a46dc3f1e202f37c2ca9449", null ],
+    [ "autocvar_bot_vs_human", "d6/d74/cvars_8qh.html#acca83439b109f1e0156cad1440d903b2", null ],
     [ "autocvar_bot_wander_enable", "d6/d74/cvars_8qh.html#a1a96fddea1bf80129ebe1a07b0cd8b1d", null ],
     [ "autocvar_g_debug_bot_commands", "d6/d74/cvars_8qh.html#abd0ccefe8815ccd845617d79b35eadf0", null ],
     [ "autocvar_g_waypointeditor_auto", "d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756", null ],
+    [ "autocvar_minplayers", "d6/d74/cvars_8qh.html#a5c98324cfd163efd161fa89a7f368885", null ],
+    [ "autocvar_minplayers_per_team", "d6/d74/cvars_8qh.html#a9707abf38aaf3d436997bb8c73507284", null ],
     [ "autocvar_skill_auto", "d6/d74/cvars_8qh.html#a6821168d192b4abd4c7f1ee6a8a2502a", null ],
     [ "autocvar_waypoint_benchmark", "d6/d74/cvars_8qh.html#a90aa0acc89ef4fc4249d2398880c928c", null ]
 ];

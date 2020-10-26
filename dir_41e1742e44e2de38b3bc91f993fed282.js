@@ -13,7 +13,6 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "anticheat.qh", "dc/dff/anticheat_8qh.html", "dc/dff/anticheat_8qh" ],
     [ "antilag.qc", "d4/dd8/antilag_8qc.html", "d4/dd8/antilag_8qc" ],
     [ "antilag.qh", "d0/dd2/antilag_8qh.html", "d0/dd2/antilag_8qh" ],
-    [ "autocvars.qh", "d7/da7/server_2autocvars_8qh.html", "d7/da7/server_2autocvars_8qh" ],
     [ "campaign.qc", "de/d75/server_2campaign_8qc.html", "de/d75/server_2campaign_8qc" ],
     [ "campaign.qh", "dd/d66/server_2campaign_8qh.html", "dd/d66/server_2campaign_8qh" ],
     [ "chat.qc", "d0/dc4/server_2chat_8qc.html", "d0/dc4/server_2chat_8qc" ],

@@ -16,5 +16,7 @@ var antilag_8qh =
     [ "WarpZone_tracebox_antilag", "d0/dd2/antilag_8qh.html#a9cacf5619ae2d9d345af6f30d59cc9c8", null ],
     [ "WarpZone_traceline_antilag", "d0/dd2/antilag_8qh.html#aa349f780b5d2d608e278935b6e4c60db", null ],
     [ "WarpZone_traceline_antilag_force", "d0/dd2/antilag_8qh.html#ad351eda3d83e3ac892325b85272f5f1b", null ],
-    [ "antilag_debug", "d0/dd2/antilag_8qh.html#a49674596bf4a83d1e58de9ba14487d49", null ]
+    [ "antilag_debug", "d0/dd2/antilag_8qh.html#a49674596bf4a83d1e58de9ba14487d49", null ],
+    [ "autocvar_g_antilag", "d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190", null ],
+    [ "autocvar_g_antilag_nudge", "d0/dd2/antilag_8qh.html#aaaed169479ef3f4a58896e29e9af6575", null ]
 ];

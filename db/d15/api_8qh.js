@@ -59,6 +59,7 @@ var api_8qh =
     [ "waypoint_spawnforteleporter_wz", "db/d15/api_8qh.html#a7dfbb4d15ad3ac79276178aec6cf38cb", null ],
     [ "waypoint_start_hardwiredlink", "db/d15/api_8qh.html#aeba6f9ec460907e0848c20e92165c984", null ],
     [ "waypoint_unreachable", "db/d15/api_8qh.html#a71c65fa95801766d4248ba2799352c8a", null ],
+    [ "autocvar_g_waypoints_for_items", "db/d15/api_8qh.html#ae72da1f8004d8b75a946f9c00e1abe6c", null ],
     [ "bot_attack", "db/d15/api_8qh.html#a890f919c9da949bb818e995a7f6c31b5", null ],
     [ "bot_basewaypoint", "db/d15/api_8qh.html#a215452013844cd2f22ceee67858579d2", null ],
     [ "bot_custom_weapon", "db/d15/api_8qh.html#aa53626d502a369b6b64ef02e58a4dd16", null ],

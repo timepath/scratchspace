@@ -1,5 +1,6 @@
 var server_2items_2items_8qh =
 [
+    [ "autocvar_g_weapon_stay", "d0/d7d/server_2items_2items_8qh.html#a380d40d35f43be0054f545474db8e0dc", null ],
     [ "ITEM_DAMAGE_NEEDKILL", "d0/d7d/server_2items_2items_8qh.html#a2f3f7e33fb5bc60212a8074ff9b80595", null ],
     [ "ITEM_TOUCH_NEEDKILL", "d0/d7d/server_2items_2items_8qh.html#a277f5e186f80cd980204cb7d55042890", null ],
     [ "POSTGIVE_BIT", "d0/d7d/server_2items_2items_8qh.html#ad671dda114daa60831578436ae46a2e3", null ],
@@ -43,6 +44,13 @@ var server_2items_2items_8qh =
     [ "STATIC_INIT", "d0/d7d/server_2items_2items_8qh.html#ae42a65991c73d783d7766614fc472af6", null ],
     [ "UpdateItemAfterTeleport", "d0/d7d/server_2items_2items_8qh.html#a6239507bd78a445cd952a33ee3af4d7f", null ],
     [ "weapon_pickupevalfunc", "d0/d7d/server_2items_2items_8qh.html#a741b98407a951c06ad50f67aec8d55c2", null ],
+    [ "autocvar_g_balance_superweapons_time", "d0/d7d/server_2items_2items_8qh.html#a0f8e8aea2af6ef8befbff36f321e12c2", null ],
+    [ "autocvar_g_fullbrightitems", "d0/d7d/server_2items_2items_8qh.html#a79e157376cb5bd26e31dec6f062a93c4", null ],
+    [ "autocvar_g_items_maxdist", "d0/d7d/server_2items_2items_8qh.html#aae3afa26b77edeb4ca5d61cfc3e124de", null ],
+    [ "autocvar_g_items_mindist", "d0/d7d/server_2items_2items_8qh.html#abe04ea9d0ef5908bedbf372b3f62607c", null ],
+    [ "autocvar_g_nodepthtestitems", "d0/d7d/server_2items_2items_8qh.html#ab32e56e714752de2473da95e56906350", null ],
+    [ "autocvar_g_pickup_items", "d0/d7d/server_2items_2items_8qh.html#a1c09a2abd5202dd36b8a4c5d5f5388ff", null ],
+    [ "autocvar_g_powerups", "d0/d7d/server_2items_2items_8qh.html#a776a92402884c6d5200afa82479528f3", null ],
     [ "autocvar_sv_simple_items", "d0/d7d/server_2items_2items_8qh.html#a38000110b486e7e732d3341502db13f5", null ],
     [ "g_items", "d0/d7d/server_2items_2items_8qh.html#a21516c4e202f0fa473d6b010d8b651b5", null ],
     [ "is_item", "d0/d7d/server_2items_2items_8qh.html#adb798ece43113ed427d8077d7f7d6246", null ],

@@ -14,6 +14,7 @@ var accuracy_8qh =
     [ "accuracy_fired", "d3/d2d/accuracy_8qh.html#a73d172cee346bf12c6edda88a7589895", null ],
     [ "accuracy_frags", "d3/d2d/accuracy_8qh.html#a877e88b8ecaf0baf01da9adf7a19d00e", null ],
     [ "accuracy_hit", "d3/d2d/accuracy_8qh.html#aa55137b4e6cc902b5ea6e3bd6f9c0621", null ],
+    [ "autocvar_sv_accuracy_data_share", "d3/d2d/accuracy_8qh.html#a0756f11e68efabd96f9c556e369631d9", null ],
     [ "cvar_cl_accuracy_data_receive", "d3/d2d/accuracy_8qh.html#aedc44e2a0316419c251ac4baf1e5cc8a", null ],
     [ "cvar_cl_accuracy_data_share", "d3/d2d/accuracy_8qh.html#a1184f96f0ef829d86b14be9241efdf84", null ]
 ];

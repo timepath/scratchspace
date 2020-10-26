@@ -20,6 +20,7 @@ var server_2scores_8qh =
     [ "TeamScore_AddToTeam", "d5/dac/server_2scores_8qh.html#a74bac5f29749ffee855cd6a5d0e18836", null ],
     [ "TeamScore_GetCompareValue", "d5/dac/server_2scores_8qh.html#a49ab4c157dab975433e94a16f05d9d17", null ],
     [ "WinningConditionHelper", "d5/dac/server_2scores_8qh.html#a4b24b2ecfa2e6d4914ed47ce8d16472f", null ],
+    [ "autocvar_g_full_getstatus_responses", "d5/dac/server_2scores_8qh.html#aad70f5f624eb43c005cb30f084be2172", null ],
     [ "scoreboard_pos", "d5/dac/server_2scores_8qh.html#a0cf85aa93c9a2c5aa8f70c877d9d42dc", null ],
     [ "scores_initialized", "d5/dac/server_2scores_8qh.html#a4d43b789941743d9edb8105089a187b5", null ],
     [ "WinningConditionHelper_equality", "d5/dac/server_2scores_8qh.html#a8631999a5b4504117a5302b09fe9d188", null ],

@@ -14,6 +14,11 @@ var intermission_8qh =
     [ "Map_MarkAsRecent", "d3/d00/intermission_8qh.html#add83fd5315717e2ba6c0e1465dbb312e", null ],
     [ "ShuffleMaplist", "d3/d00/intermission_8qh.html#a828a5409a4543c1aa36549252a04fb0f", null ],
     [ "alreadychangedlevel", "d3/d00/intermission_8qh.html#a780886abb2977703f8904a374f63e3bd", null ],
+    [ "autocvar_lastlevel", "d3/d00/intermission_8qh.html#ab0ee1e9c51d6499aedac4727cd4b8ad9", null ],
+    [ "autocvar_nextmap", "d3/d00/intermission_8qh.html#a65d58aa722d513abdc70cab66f8b75a9", null ],
+    [ "autocvar_samelevel", "d3/d00/intermission_8qh.html#a982c82bc1d4412571ccea75d4370d4da", null ],
+    [ "autocvar_sv_autoscreenshot", "d3/d00/intermission_8qh.html#ada516f698e6e9c9ad8de911a9c7478e6", null ],
+    [ "autocvar_sv_intermission_cdtrack", "d3/d00/intermission_8qh.html#a1537d360fec4d889582b7ca0ec4852f6", null ],
     [ "intermission_exittime", "d3/d00/intermission_8qh.html#a65496c0c41303e47da733ef432f64004", null ],
     [ "intermission_running", "d3/d00/intermission_8qh.html#abdc99ad43dd04e9cbb553b29c187b1e3", null ]
 ];

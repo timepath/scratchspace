@@ -20,6 +20,8 @@ var sv__ctf_8qh =
     [ "havocbot_role_ctf_setrole", "d6/db0/sv__ctf_8qh.html#ac225840895f5caf97112694a0a4ec3c6", null ],
     [ "REGISTER_MUTATOR", "d6/db0/sv__ctf_8qh.html#ad57a66696ffcccefbcb985fcaa04ad42", null ],
     [ "STATIC_INIT", "d6/db0/sv__ctf_8qh.html#abdf797b6d84b2f3e9b7b479c3b855c77", null ],
+    [ "autocvar_captureleadlimit_override", "d6/db0/sv__ctf_8qh.html#a789e5e061aae2d8185c770150e123cbb", null ],
+    [ "autocvar_capturelimit_override", "d6/db0/sv__ctf_8qh.html#afb2c93480534ada47dd5656ca376070f", null ],
     [ "capeffect", "d6/db0/sv__ctf_8qh.html#a8e64d2fd8e1d9db160ec2535563946bd", null ],
     [ "CAPTURE_DROPPED", "d6/db0/sv__ctf_8qh.html#a2575c1d133b0eb3eb5924192c6b3d7e5", null ],
     [ "CAPTURE_NORMAL", "d6/db0/sv__ctf_8qh.html#acd47572d2a5a66a8fc04eab421e2fdbf", null ],
