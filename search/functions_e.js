@@ -44,6 +44,7 @@ var searchData=
   ['nb_5fdelayedinit',['nb_delayedinit',['../d2/d24/sv__nexball_8qc.html#ae240e0d5a564d2da21462e2d830d9b53',1,'sv_nexball.qc']]],
   ['nb_5fdropball',['nb_DropBall',['../d2/d24/sv__nexball_8qc.html#a0df771af7be6f6b32c8e20dc0463756a',1,'sv_nexball.qc']]],
   ['nb_5fgoal_5fcustomize',['nb_Goal_Customize',['../d2/d24/sv__nexball_8qc.html#a6d44629e4305e238efc284ff616dcba6',1,'sv_nexball.qc']]],
+  ['nb_5finitialize',['nb_Initialize',['../d2/d24/sv__nexball_8qc.html#ae7d97ba4bd8d21434dc5846dcb380860',1,'nb_Initialize():&#160;sv_nexball.qc'],['../d1/d4d/sv__nexball_8qh.html#ae7d97ba4bd8d21434dc5846dcb380860',1,'nb_Initialize():&#160;sv_nexball.qc']]],
   ['nb_5fscorerules',['nb_ScoreRules',['../d2/d24/sv__nexball_8qc.html#abe85ade73859e262a6ee7b40afd92e8a',1,'sv_nexball.qc']]],
   ['nb_5fspawnteam',['nb_spawnteam',['../d2/d24/sv__nexball_8qc.html#a2e080661b8890e104a9f93bb4b5c4034',1,'sv_nexball.qc']]],
   ['nb_5fspawnteams',['nb_spawnteams',['../d2/d24/sv__nexball_8qc.html#af3e1105d825308e58b1f23bfd8b9fb58',1,'sv_nexball.qc']]],

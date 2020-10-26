@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"d7/d71/lib_2warpzone_2common_8qh.html#a1c0865b97e3a51b15b381233b61bea5b":[2,0,4,2,7,66],
+"d7/d71/lib_2warpzone_2common_8qh.html#a1d656a2244eff1d05a7f7bdcbdd8021b":[2,0,4,2,7,68],
 "d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0":[2,0,4,2,7,6],
 "d7/d71/lib_2warpzone_2common_8qh.html#a1fc091c389a640adfe26b5c43cff4365":[2,0,4,2,7,61],
 "d7/d71/lib_2warpzone_2common_8qh.html#a2018735e46e92291e817760b35132007":[2,0,4,2,7,17],
@@ -240,14 +242,12 @@ var NAVTREEINDEX66 =
 "d7/d9c/classMachineGunTurretAttack.html#af1b051b958068eeba6d47b04096a3a2f":[1,0,71,33],
 "d7/d9c/classMachineGunTurretAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,71,17],
 "d7/da2/cl__player_8qc.html":[2,0,4,0,4],
-"d7/da2/cl__player_8qc.html#a01de4294979a63b0fc39d695cf277b1f":[2,0,4,0,4,29],
-"d7/da2/cl__player_8qc.html#a0427b5a62252de19211349ce52ef3ad3":[2,0,4,0,4,46],
-"d7/da2/cl__player_8qc.html#a0848a0159041f3099854e4defb8edf55":[2,0,4,0,4,41],
-"d7/da2/cl__player_8qc.html#a08681bb4fca2a5a6e7e41aa2d2a8f3c3":[2,0,4,0,4,17],
-"d7/da2/cl__player_8qc.html#a0f64d209d0c63261d50e064aab309a43":[2,0,4,0,4,47],
-"d7/da2/cl__player_8qc.html#a16bb75c6d1f75b0a9aca295d6e5a4baa":[2,0,4,0,4,37],
-"d7/da2/cl__player_8qc.html#a1eca475259a5b44a1434cfe6b7c961b2":[2,0,4,0,4,61],
-"d7/da2/cl__player_8qc.html#a1f2beeff93302debc2c79718d2b25b46":[2,0,4,0,4,5],
-"d7/da2/cl__player_8qc.html#a2002ef3722a502cfff77342f316e6ca8":[2,0,4,0,4,62],
-"d7/da2/cl__player_8qc.html#a22375b90f268008d67bfeabd8d3833ea":[2,0,4,0,4,8]
+"d7/da2/cl__player_8qc.html#a01de4294979a63b0fc39d695cf277b1f":[2,0,4,0,4,30],
+"d7/da2/cl__player_8qc.html#a0427b5a62252de19211349ce52ef3ad3":[2,0,4,0,4,47],
+"d7/da2/cl__player_8qc.html#a0848a0159041f3099854e4defb8edf55":[2,0,4,0,4,42],
+"d7/da2/cl__player_8qc.html#a08681bb4fca2a5a6e7e41aa2d2a8f3c3":[2,0,4,0,4,18],
+"d7/da2/cl__player_8qc.html#a0f64d209d0c63261d50e064aab309a43":[2,0,4,0,4,48],
+"d7/da2/cl__player_8qc.html#a16bb75c6d1f75b0a9aca295d6e5a4baa":[2,0,4,0,4,38],
+"d7/da2/cl__player_8qc.html#a1eca475259a5b44a1434cfe6b7c961b2":[2,0,4,0,4,62],
+"d7/da2/cl__player_8qc.html#a1f2beeff93302debc2c79718d2b25b46":[2,0,4,0,4,6]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX105 =
 {
+"db/d7f/effectinfo_8inc.html#ab9287e334e48eb1ba92dc8389db02cfc":[2,0,1,2,7,377],
+"db/d7f/effectinfo_8inc.html#abab5799519027d747452ebc4e1b8efa5":[2,0,1,2,7,254],
+"db/d7f/effectinfo_8inc.html#abb6112854e17d6ca58c689e8097ff03b":[2,0,1,2,7,312],
+"db/d7f/effectinfo_8inc.html#abb708a8f1492f72b2333c08cbf8e1221":[2,0,1,2,7,234],
+"db/d7f/effectinfo_8inc.html#abc8ee057a0c166a528a45040e0e480a1":[2,0,1,2,7,233],
+"db/d7f/effectinfo_8inc.html#abcb5dedffde79744d13c4730b3be559b":[2,0,1,2,7,213],
+"db/d7f/effectinfo_8inc.html#abd9174ff7ca202043153a0e304b770f3":[2,0,1,2,7,79],
+"db/d7f/effectinfo_8inc.html#abe89a6915fbd937f6a5f31fc98ffc01b":[2,0,1,2,7,28],
+"db/d7f/effectinfo_8inc.html#abf18c4a59c5fa506d01096c9b35af3fa":[2,0,1,2,7,316],
 "db/d7f/effectinfo_8inc.html#abf79907d5f2e87834f984f4e4aed023c":[2,0,1,2,7,291],
 "db/d7f/effectinfo_8inc.html#abf83e57dd2ecf50cfba4f917d74c2e4e":[2,0,1,2,7,74],
 "db/d7f/effectinfo_8inc.html#abf9b92ff1018385fa215ba5982968bf1":[2,0,1,2,7,325],
@@ -240,14 +249,5 @@ var NAVTREEINDEX105 =
 "db/d9b/server_2player_8qc.html#a74a2991ad4b1aad6bfc27e899c563d29":[2,0,6,46,2],
 "db/d9b/server_2player_8qc.html#ac5ac170cb0adc7b07823ff7faf9fb6a5":[2,0,6,46,11],
 "db/d9b/server_2player_8qc.html#aca8c7fffaf94bfb8d4b962bc6b1dd9fe":[2,0,6,46,10],
-"db/d9b/server_2player_8qc.html#ae245d92e33b2c7cffe13cf28980afa34":[2,0,6,46,7],
-"db/d9b/server_2player_8qc.html#aef50b8473159af9d6f77b966bc0cbe00":[2,0,6,46,1],
-"db/d9b/server_2player_8qc.html#af02653db703c3e3f494f19b4f6f8b8b1":[2,0,6,46,4],
-"db/d9b/server_2player_8qc.html#af2cf7e359cda23b596ac40cda3f9ba87":[2,0,6,46,0],
-"db/d9b/server_2player_8qc_source.html":[2,0,6,46],
-"db/d9d/common_2vehicles_2vehicle_2__mod_8qh.html":[2,0,1,15,0,1],
-"db/d9d/common_2vehicles_2vehicle_2__mod_8qh_source.html":[2,0,1,15,0,1],
-"db/d9f/state_8qh.html":[2,0,1,46],
-"db/d9f/state_8qh.html#a1960d1c0908e7286f74096a0a3618086":[2,0,1,46,8],
-"db/d9f/state_8qh.html#a53a16489327364aafc4ca8b946faab8d":[2,0,1,46,6]
+"db/d9b/server_2player_8qc.html#ae245d92e33b2c7cffe13cf28980afa34":[2,0,6,46,7]
 };

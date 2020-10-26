@@ -1,5 +1,16 @@
 var NAVTREEINDEX136 =
 {
+"df/d69/sv__midair_8qh.html":[2,0,1,10,0,17,3],
+"df/d69/sv__midair_8qh_source.html":[2,0,1,10,0,17,3],
+"df/d6c/powerups_8qh.html":[2,0,0,1,0,23],
+"df/d6c/powerups_8qh.html#a0548d6d5f32ee93186047be9beff7348":[2,0,0,1,0,23,0],
+"df/d6c/powerups_8qh_source.html":[2,0,0,1,0,23],
+"df/d6e/classXonoticSingleplayerDialog.html":[1,0,249],
+"df/d6e/classXonoticSingleplayerDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,249,31],
+"df/d6e/classXonoticSingleplayerDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,249,12],
+"df/d6e/classXonoticSingleplayerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,249,39],
+"df/d6e/classXonoticSingleplayerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,249,3],
+"df/d6e/classXonoticSingleplayerDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,249,83],
 "df/d6e/classXonoticSingleplayerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,249,81],
 "df/d6e/classXonoticSingleplayerDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,249,47],
 "df/d6e/classXonoticSingleplayerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,249,25],
@@ -238,16 +249,5 @@ var NAVTREEINDEX136 =
 "df/d8c/cl__cmd_8qc.html#a38b84c56676c910a134fae17d7394781":[2,0,0,0,2,17],
 "df/d8c/cl__cmd_8qc.html#a3ceb894d5e9b99f2df88b8741d7454b4":[2,0,0,0,2,28],
 "df/d8c/cl__cmd_8qc.html#a3ef21ff354d1b7e25bf2ab8608b438d9":[2,0,0,0,2,22],
-"df/d8c/cl__cmd_8qc.html#a4f450d08c8b3f9272bcc63de2ffaa10a":[2,0,0,0,2,8],
-"df/d8c/cl__cmd_8qc.html#a5075d9ab597cb96e01813773fbe5a7a9":[2,0,0,0,2,13],
-"df/d8c/cl__cmd_8qc.html#a50cc61ae7ba803e1028f793b703c4234":[2,0,0,0,2,6],
-"df/d8c/cl__cmd_8qc.html#a52fac36d1549571cfbdfd34efc007ef6":[2,0,0,0,2,5],
-"df/d8c/cl__cmd_8qc.html#a54daafbdbda2cf0eb8d7d53fef76cc6b":[2,0,0,0,2,19],
-"df/d8c/cl__cmd_8qc.html#a583d60e89f85e9e630914fd49db2ab82":[2,0,0,0,2,21],
-"df/d8c/cl__cmd_8qc.html#a6497b1027ea1b049168e22a633df8c9f":[2,0,0,0,2,16],
-"df/d8c/cl__cmd_8qc.html#a8ee68a14511a9aca94752cff6863af16":[2,0,0,0,2,18],
-"df/d8c/cl__cmd_8qc.html#aa2df3f3af02e1a866927650ec7c68d83":[2,0,0,0,2,11],
-"df/d8c/cl__cmd_8qc.html#aa8c9d0e3975e1022fb29e9f10d3bf6ba":[2,0,0,0,2,7],
-"df/d8c/cl__cmd_8qc.html#ab2acfe6a73bd0d158e3e9a62b9185725":[2,0,0,0,2,15],
-"df/d8c/cl__cmd_8qc.html#ac1a03af5c66e122f2e7ab5298a3df6f0":[2,0,0,0,2,29]
+"df/d8c/cl__cmd_8qc.html#a4f450d08c8b3f9272bcc63de2ffaa10a":[2,0,0,0,2,8]
 };

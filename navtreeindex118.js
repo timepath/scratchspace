@@ -1,5 +1,14 @@
 var NAVTREEINDEX118 =
 {
+"dd/d36/classXonoticGameViewSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,183,76],
+"dd/d36/classXonoticGameViewSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,183,84],
+"dd/d36/classXonoticGameViewSettingsTab.html#a0b8f11883d0cb27a89f64eb30f16e8b1":[1,0,183,68],
+"dd/d36/classXonoticGameViewSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,183,81],
+"dd/d36/classXonoticGameViewSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,183,50],
+"dd/d36/classXonoticGameViewSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,183,28],
+"dd/d36/classXonoticGameViewSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,183,70],
+"dd/d36/classXonoticGameViewSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,183,11],
+"dd/d36/classXonoticGameViewSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,183,71],
 "dd/d36/classXonoticGameViewSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,183,4],
 "dd/d36/classXonoticGameViewSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,183,45],
 "dd/d36/classXonoticGameViewSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,183,23],
@@ -240,14 +249,5 @@ var NAVTREEINDEX118 =
 "dd/d70/pathlib_8qh.html#a0576e617652793d2f11b3b32549170ca":[2,0,6,5,14,65],
 "dd/d70/pathlib_8qh.html#a06d2a473c8e47a4a9c565d013acfcd7b":[2,0,6,5,14,8],
 "dd/d70/pathlib_8qh.html#a0881ffe28801d90324af2eb500898d38":[2,0,6,5,14,59],
-"dd/d70/pathlib_8qh.html#a09965754c70dee3e4bd6cc3ab27ebdfa":[2,0,6,5,14,56],
-"dd/d70/pathlib_8qh.html#a0ae0c5798445692348f11dd4826bc739":[2,0,6,5,14,38],
-"dd/d70/pathlib_8qh.html#a0bb405f541f6bd2dfd3a4a11b1d1cedf":[2,0,6,5,14,2],
-"dd/d70/pathlib_8qh.html#a0eedbf47f8c1205a64eb45dc215188cd":[2,0,6,5,14,6],
-"dd/d70/pathlib_8qh.html#a100221a5bce094152cfaf278eb45c2c3":[2,0,6,5,14,42],
-"dd/d70/pathlib_8qh.html#a101028c0b857ab5c0c2c7947948f8984":[2,0,6,5,14,17],
-"dd/d70/pathlib_8qh.html#a1059a47bea84d2af0805b058908b0377":[2,0,6,5,14,26],
-"dd/d70/pathlib_8qh.html#a12c1d56571501d1b6635f7e59008e224":[2,0,6,5,14,53],
-"dd/d70/pathlib_8qh.html#a12da171f51a922eda37e7dd9158f8b9b":[2,0,6,5,14,77],
-"dd/d70/pathlib_8qh.html#a182a17a00d15de63010072b16a4fc697":[2,0,6,5,14,27]
+"dd/d70/pathlib_8qh.html#a09965754c70dee3e4bd6cc3ab27ebdfa":[2,0,6,5,14,56]
 };

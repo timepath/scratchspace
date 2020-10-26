@@ -1,5 +1,14 @@
 var NAVTREEINDEX113 =
 {
+"dc/d62/dialog__singleplayer_8qh_source.html":[2,0,5,4,163],
+"dc/d69/weapon_8qc.html":[2,0,1,3,0,12,10],
+"dc/d69/weapon_8qc_source.html":[2,0,1,3,0,12,10],
+"dc/d6c/classElectro.html":[1,0,34],
+"dc/d6c/classElectro.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,34,19],
+"dc/d6c/classElectro.html#a214db91c3bc64f24e17c4c4bfb99999b":[1,0,34,34],
+"dc/d6c/classElectro.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,34,18],
+"dc/d6c/classElectro.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,34,16],
+"dc/d6c/classElectro.html#a312755d5709b880f99cf89d7a76237fe":[1,0,34,3],
 "dc/d6c/classElectro.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,34,20],
 "dc/d6c/classElectro.html#a3c36074d9020783cd496dd52b2a60a72":[1,0,34,32],
 "dc/d6c/classElectro.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,34,11],
@@ -240,14 +249,5 @@ var NAVTREEINDEX113 =
 "dc/da0/classXonoticMapInfoDialog.html#a1f2ba54b7fed715ca9fb60a7c805113f":[1,0,215,69],
 "dc/da0/classXonoticMapInfoDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,215,17],
 "dc/da0/classXonoticMapInfoDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,215,82],
-"dc/da0/classXonoticMapInfoDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,215,4],
-"dc/da0/classXonoticMapInfoDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,215,52],
-"dc/da0/classXonoticMapInfoDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,215,29],
-"dc/da0/classXonoticMapInfoDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,215,58],
-"dc/da0/classXonoticMapInfoDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,215,63],
-"dc/da0/classXonoticMapInfoDialog.html#a2bc7c4ac96fd825ce0c32668226d1fda":[1,0,215,15],
-"dc/da0/classXonoticMapInfoDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,215,37],
-"dc/da0/classXonoticMapInfoDialog.html#a2fd08d768d1bba84aa811d07d312d2ad":[1,0,215,93],
-"dc/da0/classXonoticMapInfoDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,215,30],
-"dc/da0/classXonoticMapInfoDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,215,23]
+"dc/da0/classXonoticMapInfoDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,215,4]
 };

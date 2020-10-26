@@ -1,5 +1,6 @@
 var cl__player_8qh =
 [
+    [ "CSQCModel_ApplyStairSmoothing", "d9/dba/cl__player_8qh.html#a7131912c9526c81d66735eaebecd27c8", null ],
     [ "CSQCPlayer_IsLocalPlayer", "d9/dba/cl__player_8qh.html#abb92d212381ae01e0c68ab2aabfc5c32", null ],
     [ "CSQCPlayer_PostUpdate", "d9/dba/cl__player_8qh.html#a2508d0697a6df1f5a5bb055d65fbce19", null ],
     [ "CSQCPlayer_PreUpdate", "d9/dba/cl__player_8qh.html#a44b94ae8a56cc8086aff2ed6b0b9161f", null ],

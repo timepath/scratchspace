@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"d2/d26/classInvasion.html#af1a6db9207b7000984864c8176081b52":[1,0,57,13],
+"d2/d26/classInvasion.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,57,5],
 "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html":[2,0,1,10,0,39,2],
 "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a0744815a16e68c9e193caa1e0183fb08":[2,0,1,10,0,39,2,27],
 "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a0ee2aba4a8dedf44e4723a5b516ea3e0":[2,0,1,10,0,39,2,39],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d4b/classPlayer.html#a429473e62b50c2b2ec6680051a1e8f1b":[1,0,104,72],
 "d2/d4b/classPlayer.html#a43544ab5b5416967af1b081b4c8c9e0a":[1,0,104,49],
 "d2/d4b/classPlayer.html#a4354ca28a37dd20cedd29d9625715e64":[1,0,104,25],
-"d2/d4b/classPlayer.html#a44812f436a2ae7c21b3658f7477a2440":[1,0,104,67],
-"d2/d4b/classPlayer.html#a46a7bc40105ac38ab40131987e7f34cb":[1,0,104,81],
-"d2/d4b/classPlayer.html#a486563026f66dc61e671c089890b2be9":[1,0,104,104]
+"d2/d4b/classPlayer.html#a44812f436a2ae7c21b3658f7477a2440":[1,0,104,67]
 };

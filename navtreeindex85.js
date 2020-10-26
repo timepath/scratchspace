@@ -1,5 +1,11 @@
 var NAVTREEINDEX85 =
 {
+"d9/d28/client_2hud_2panel_2vote_8qh_source.html":[2,0,0,1,0,41],
+"d9/d28/porto_8qc.html":[2,0,1,16,0,26],
+"d9/d28/porto_8qc_source.html":[2,0,1,16,0,26],
+"d9/d2d/dialog__settings__game__model_8qc.html":[2,0,5,4,140],
+"d9/d2d/dialog__settings__game__model_8qc.html#a3bc78e9a0f18de27f46e9111a30884a5":[2,0,5,4,140,1],
+"d9/d2d/dialog__settings__game__model_8qc.html#a74a9590aa3277b647d54c780cbfd3dbb":[2,0,5,4,140,2],
 "d9/d2d/dialog__settings__game__model_8qc.html#ae3352ff05cd68a276d35c458baa79048":[2,0,5,4,140,0],
 "d9/d2d/dialog__settings__game__model_8qc_source.html":[2,0,5,4,140],
 "d9/d2e/sv__vampire_8qc.html":[2,0,1,10,0,36,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX85 =
 "d9/d4a/dialog__hudpanel__quickmenu_8qh.html":[2,0,5,4,71],
 "d9/d4a/dialog__hudpanel__quickmenu_8qh_source.html":[2,0,5,4,71],
 "d9/d4f/deathtypes_2all_8qh.html":[2,0,1,1,4],
-"d9/d4f/deathtypes_2all_8qh.html#a387734666d7aaca5f931efd84bbf6eee":[2,0,1,1,4,0],
-"d9/d4f/deathtypes_2all_8qh.html#a3c6266eb4d661b2ff3ea997e2ca8d939":[2,0,1,1,4,4],
-"d9/d4f/deathtypes_2all_8qh.html#a3d2a6e3591b346acd119e615627b5f5b":[2,0,1,1,4,6],
-"d9/d4f/deathtypes_2all_8qh.html#a422a33d46ff07f65430b21152a187e7f":[2,0,1,1,4,11],
-"d9/d4f/deathtypes_2all_8qh.html#a4de07202894d6687c6df67891c6e2b0a":[2,0,1,1,4,16],
-"d9/d4f/deathtypes_2all_8qh.html#a511a8cb366fb4918f14fab9d9ba50557":[2,0,1,1,4,8],
-"d9/d4f/deathtypes_2all_8qh.html#a5323a267d4110e1c2a732dc9263af5c5":[2,0,1,1,4,12]
+"d9/d4f/deathtypes_2all_8qh.html#a387734666d7aaca5f931efd84bbf6eee":[2,0,1,1,4,0]
 };

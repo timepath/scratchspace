@@ -1,5 +1,16 @@
 var NAVTREEINDEX135 =
 {
+"df/d41/cl__ctf_8qc.html#a0a1855a3f81125a1a68034c317313326":[2,0,1,3,0,2,2,6],
+"df/d41/cl__ctf_8qc.html#a181577243bef6d9dab313de308de6366":[2,0,1,3,0,2,2,16],
+"df/d41/cl__ctf_8qc.html#a1f48160a8f852e24bc133de3e7df533c":[2,0,1,3,0,2,2,3],
+"df/d41/cl__ctf_8qc.html#a1ff8857749f1a94eeef8d6311ffa25e4":[2,0,1,3,0,2,2,4],
+"df/d41/cl__ctf_8qc.html#a512502e64291f7365a8e33b557465eab":[2,0,1,3,0,2,2,12],
+"df/d41/cl__ctf_8qc.html#a55b3f33e2368367b7a89769be831c2fc":[2,0,1,3,0,2,2,17],
+"df/d41/cl__ctf_8qc.html#a73affb2b24587c75ea2d77bf56abea5e":[2,0,1,3,0,2,2,8],
+"df/d41/cl__ctf_8qc.html#a82d6dc4f545d9102ec6dfc4b048c4c4b":[2,0,1,3,0,2,2,9],
+"df/d41/cl__ctf_8qc.html#a90abcb5dfd155425638f8823221e96a7":[2,0,1,3,0,2,2,18],
+"df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,1,3,0,2,2,0],
+"df/d41/cl__ctf_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,1,3,0,2,2,2],
 "df/d41/cl__ctf_8qc.html#a9fba4055eb7a12732e45c9864109ce0a":[2,0,1,3,0,2,2,21],
 "df/d41/cl__ctf_8qc.html#aa7d9e6c8f79fe649ab0fa3dbe3088d5b":[2,0,1,3,0,2,2,5],
 "df/d41/cl__ctf_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922":[2,0,1,3,0,2,2,10],
@@ -238,16 +249,5 @@ var NAVTREEINDEX135 =
 "df/d64/throwing_8qc.html#a4f3e2059bf4df2dedf5cce1c3e2350fa":[2,0,6,6,14,1],
 "df/d64/throwing_8qc.html#a778182823de27a000b41c8d47963036d":[2,0,6,6,14,2],
 "df/d64/throwing_8qc.html#ac1203fc8c2d30ac799d34c06c456d7dc":[2,0,6,6,14,3],
-"df/d64/throwing_8qc_source.html":[2,0,6,6,14],
-"df/d69/sv__midair_8qh.html":[2,0,1,10,0,17,3],
-"df/d69/sv__midair_8qh_source.html":[2,0,1,10,0,17,3],
-"df/d6c/powerups_8qh.html":[2,0,0,1,0,23],
-"df/d6c/powerups_8qh.html#a0548d6d5f32ee93186047be9beff7348":[2,0,0,1,0,23,0],
-"df/d6c/powerups_8qh_source.html":[2,0,0,1,0,23],
-"df/d6e/classXonoticSingleplayerDialog.html":[1,0,249],
-"df/d6e/classXonoticSingleplayerDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,249,31],
-"df/d6e/classXonoticSingleplayerDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,249,12],
-"df/d6e/classXonoticSingleplayerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,249,39],
-"df/d6e/classXonoticSingleplayerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,249,3],
-"df/d6e/classXonoticSingleplayerDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,249,83]
+"df/d64/throwing_8qc_source.html":[2,0,6,6,14]
 };

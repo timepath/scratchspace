@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"d6/dc9/weapons_2spawning_8qh.html#ac7b155ae9b6d6ccef4940bf9ef0b5dc9":[2,0,6,6,13,0],
+"d6/dc9/weapons_2spawning_8qh_source.html":[2,0,6,6,13],
 "d6/dca/cl__race_8qc.html":[2,0,1,3,0,14,2],
 "d6/dca/cl__race_8qc.html#a0160171124193a7ee2dd193882da4061":[2,0,1,3,0,14,2,8],
 "d6/dca/cl__race_8qc.html#a0f1af36f04cd98c81be8103026295459":[2,0,1,3,0,14,2,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "d6/dce/sounds_2all_8inc.html#af69151c93f665f01838cd7c6fc86edb0":[2,0,1,13,2,91],
 "d6/dce/sounds_2all_8inc.html#afcb40b544f828be9ead80e51cb03fce6":[2,0,1,13,2,116],
 "d6/dce/sounds_2all_8inc.html#afd011f59ea9a61bbf8f15861730686a6":[2,0,1,13,2,83],
-"d6/dce/sounds_2all_8inc.html#afdc053d39a7d09e59db95c511ba5244f":[2,0,1,13,2,179],
-"d6/dce/sounds_2all_8inc.html#afedc4a78b525a015b4f726e0790c37c6":[2,0,1,13,2,11],
-"d6/dce/sounds_2all_8inc.html#afefacd72f0f908615c01a9e47419028a":[2,0,1,13,2,192]
+"d6/dce/sounds_2all_8inc.html#afdc053d39a7d09e59db95c511ba5244f":[2,0,1,13,2,179]
 };

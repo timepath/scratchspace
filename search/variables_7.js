@@ -24,6 +24,7 @@ var searchData=
   ['g_5finvasion_5fwaves',['g_invasion_waves',['../db/da5/sv__invasion_8qc.html#a6313fca048197dd32dbfc016c61f27c7',1,'sv_invasion.qc']]],
   ['g_5fitems',['g_items',['../d0/d7d/server_2items_2items_8qh.html#a21516c4e202f0fa473d6b010d8b651b5',1,'items.qh']]],
   ['g_5fjumppads',['g_jumppads',['../d9/de7/jumppads_8qh.html#a890e2681c683826ce47067a8b0f6886d',1,'jumppads.qh']]],
+  ['g_5fkaballs',['g_kaballs',['../da/dcc/sv__keepaway_8qh.html#a4da9db49ebe110a4705a5819cf22ef9b',1,'sv_keepaway.qh']]],
   ['g_5fladderents',['g_ladderents',['../df/d4f/ladder_8qh.html#ae1dd23578ee291bc4295fa27429fb296',1,'ladder.qh']]],
   ['g_5fmagic_5fstats_5fhole',['g_magic_stats_hole',['../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06',1,'stats.qh']]],
   ['g_5fmonster_5ftargets',['g_monster_targets',['../d8/dc1/sv__monsters_8qh.html#a60ee01a09f94613cad0362660e5b8a9f',1,'sv_monsters.qh']]],

@@ -1,5 +1,16 @@
 var NAVTREEINDEX139 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,199,16],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ac8ff390cca131390f263bd3a63dffae0":[1,0,199,76],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,199,31],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,199,36],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,199,56],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,199,33],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,199,83],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,199,61],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,199,86],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,199,29],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,199,60],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,199,53],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,199,89],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,199,8],
@@ -238,16 +249,5 @@ var NAVTREEINDEX139 =
 "df/dd7/server_2client_8qc_source.html":[2,0,6,20],
 "df/dd9/location_8qh.html":[2,0,1,6,2,9],
 "df/dd9/location_8qh_source.html":[2,0,1,6,2,9],
-"df/de0/checkbox__slider__invalid_8qh.html":[2,0,5,4,15],
-"df/de0/checkbox__slider__invalid_8qh.html#af8b404e42e02f3939ca7eb74de9543bc":[2,0,5,4,15,1],
-"df/de0/checkbox__slider__invalid_8qh_source.html":[2,0,5,4,15],
-"df/de5/screenshotimage_8qh.html":[2,0,5,4,203],
-"df/de5/screenshotimage_8qh.html#ab8ebc2ca1c2fa345f7d5b92facac2c98":[2,0,5,4,203,1],
-"df/de5/screenshotimage_8qh_source.html":[2,0,5,4,203],
-"df/deb/common_2gamemodes_2gamemode_2clanarena_2__mod_8inc.html":[2,0,1,3,0,1,0],
-"df/deb/common_2gamemodes_2gamemode_2clanarena_2__mod_8inc_source.html":[2,0,1,3,0,1,0],
-"df/dec/fourier_8qc.html":[2,0,1,6,0,16],
-"df/dec/fourier_8qc_source.html":[2,0,1,6,0,16],
-"df/dee/anglestransform_8qh.html":[2,0,4,2,3],
-"df/dee/anglestransform_8qh.html#a087f14c7e52559b3cc53eddc323b77a0":[2,0,4,2,3,21]
+"df/de0/checkbox__slider__invalid_8qh.html":[2,0,5,4,15]
 };

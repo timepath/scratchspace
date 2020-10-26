@@ -1,6 +1,5 @@
 var sv__nexball_8qc =
 [
-    [ "autocvar_g_nexball_goallimit", "d2/d24/sv__nexball_8qc.html#aa8560ed0f0684b02a3c9e48a42ac06f1", null ],
     [ "ball_customize", "d2/d24/sv__nexball_8qc.html#ae0fee9e6e79e37e57cd16ed5aeb2f469", null ],
     [ "ball_restart", "d2/d24/sv__nexball_8qc.html#a94c5b0e5063e47b60f01814eba1ff94f", null ],
     [ "basketball_touch", "d2/d24/sv__nexball_8qc.html#a9ed10a688cab3b01464efc5cc3e6896c", null ],
@@ -29,12 +28,12 @@ var sv__nexball_8qc =
     [ "nb_delayedinit", "d2/d24/sv__nexball_8qc.html#ae240e0d5a564d2da21462e2d830d9b53", null ],
     [ "nb_DropBall", "d2/d24/sv__nexball_8qc.html#a0df771af7be6f6b32c8e20dc0463756a", null ],
     [ "nb_Goal_Customize", "d2/d24/sv__nexball_8qc.html#a6d44629e4305e238efc284ff616dcba6", null ],
+    [ "nb_Initialize", "d2/d24/sv__nexball_8qc.html#ae7d97ba4bd8d21434dc5846dcb380860", null ],
     [ "nb_ScoreRules", "d2/d24/sv__nexball_8qc.html#abe85ade73859e262a6ee7b40afd92e8a", null ],
     [ "nb_spawnteam", "d2/d24/sv__nexball_8qc.html#a2e080661b8890e104a9f93bb4b5c4034", null ],
     [ "nb_spawnteams", "d2/d24/sv__nexball_8qc.html#af3e1105d825308e58b1f23bfd8b9fb58", null ],
     [ "nexball_setstatus", "d2/d24/sv__nexball_8qc.html#a01b0720634cf466beb42103943b0aa1e", null ],
     [ "OtherTeam", "d2/d24/sv__nexball_8qc.html#a1aad6ce5c9e00bb4e5b7ac068770d979", null ],
-    [ "REGISTER_MUTATOR", "d2/d24/sv__nexball_8qc.html#ab552612e0ed41a6a0a28baaa82f89f6c", null ],
     [ "relocate_nexball", "d2/d24/sv__nexball_8qc.html#a1b164ed700ac3d07d11e6fc6bb0ae625", null ],
     [ "ResetBall", "d2/d24/sv__nexball_8qc.html#af0abcd7708a9bd4569e09024ece2f1be", null ],
     [ "SpawnBall", "d2/d24/sv__nexball_8qc.html#afb43f4a4e878a6689b3bd5e1303aaaec", null ],
@@ -77,6 +76,7 @@ var sv__nexball_8qc =
     [ "autocvar_g_nexball_football_bouncestop", "d2/d24/sv__nexball_8qc.html#a2be9d0994ed51cf554ef4074b519ac44", null ],
     [ "autocvar_g_nexball_football_jumppad", "d2/d24/sv__nexball_8qc.html#abccfb6e98a3d7ff6073b6e5754fbaa6a", null ],
     [ "autocvar_g_nexball_goalleadlimit", "d2/d24/sv__nexball_8qc.html#acec9bb09ea02ce5f899df8767afbd99d", null ],
+    [ "autocvar_g_nexball_goallimit", "d2/d24/sv__nexball_8qc.html#aecafe96fe26e1686c8deff3c47d58867", null ],
     [ "autocvar_g_nexball_playerclip_collisions", "d2/d24/sv__nexball_8qc.html#a1a1d50ac1463606f0e8fc326782a08f6", null ],
     [ "autocvar_g_nexball_radar_showallplayers", "d2/d24/sv__nexball_8qc.html#a1d030b651d89b078e01f7c59bfd3abe3", null ],
     [ "autocvar_g_nexball_safepass_holdtime", "d2/d24/sv__nexball_8qc.html#aa33691a4fb069afdd797bcbb41d7a887", null ],

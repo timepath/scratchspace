@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"d2/d9e/mapinfo_8qh.html#a8b3b6528d28eae213a819ebc13bd3cae":[2,0,1,35,1],
+"d2/d9e/mapinfo_8qh.html#aa07df33666844ce0a81d2ca55a986041":[2,0,1,35,22],
 "d2/d9e/mapinfo_8qh.html#aa0fb5eb1f47d9c23f29b3c79dcfee38c":[2,0,1,35,15],
 "d2/d9e/mapinfo_8qh.html#aaa2f22ba4219608acd37ebed9cbe56f8":[2,0,1,35,35],
 "d2/d9e/mapinfo_8qh.html#abaaed9e8de9bb1dd72da794fb70e8ce6":[2,0,1,35,66],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "d2/db8/gametypelist_8qc.html#a8b891b21987cc1fa3f3f74d0176d8c0f":[2,0,5,4,170,8],
 "d2/db8/gametypelist_8qc.html#a8e583009e876f1bb367cfeda20a38c6c":[2,0,5,4,170,9],
 "d2/db8/gametypelist_8qc.html#a90062e2b5db68e82263113196f1b9486":[2,0,5,4,170,6],
-"d2/db8/gametypelist_8qc.html#a976e536c5ffb069d577e904223088efc":[2,0,5,4,170,7],
-"d2/db8/gametypelist_8qc.html#a9f8776239bf151378989aca163d9323c":[2,0,5,4,170,5],
-"d2/db8/gametypelist_8qc.html#ae230e056a6dc39bac1a02b29a22dbbeb":[2,0,5,4,170,3]
+"d2/db8/gametypelist_8qc.html#a976e536c5ffb069d577e904223088efc":[2,0,5,4,170,7]
 };

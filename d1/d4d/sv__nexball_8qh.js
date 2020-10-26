@@ -1,6 +1,8 @@
 var sv__nexball_8qh =
 [
     [ "DropBall", "d1/d4d/sv__nexball_8qh.html#ad4da5744e99d205ee0a2588628e653ed", null ],
+    [ "nb_Initialize", "d1/d4d/sv__nexball_8qh.html#ae7d97ba4bd8d21434dc5846dcb380860", null ],
+    [ "REGISTER_MUTATOR", "d1/d4d/sv__nexball_8qh.html#ab552612e0ed41a6a0a28baaa82f89f6c", null ],
     [ "autocvar_g_nexball_basketball_delay_hold", "d1/d4d/sv__nexball_8qh.html#af352096d367a69bbd278f0e3176f2805", null ],
     [ "autocvar_g_nexball_basketball_delay_hold_forteam", "d1/d4d/sv__nexball_8qh.html#a9faf7fe6f9942025e011be17b263484d", null ],
     [ "autocvar_g_nexball_basketball_effects_default", "d1/d4d/sv__nexball_8qh.html#a2ac2108f95a483639d5451c6096633ee", null ],

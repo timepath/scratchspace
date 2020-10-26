@@ -116,7 +116,7 @@ var searchData=
   ['k_5fspace',['K_SPACE',['../dc/d03/keycodes_8qc.html#a73fbabbe0208abd0c8e74dd03b8ec69a',1,'keycodes.qc']]],
   ['k_5ftab',['K_TAB',['../dc/d03/keycodes_8qc.html#ad7d79957a6802b0ebfeac6d1834f2792',1,'keycodes.qc']]],
   ['k_5fuparrow',['K_UPARROW',['../dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2',1,'keycodes.qc']]],
-  ['ka_5fball',['ka_ball',['../da/dcc/sv__keepaway_8qh.html#a0f1d6257e47a660392dd82dfbe915f3e',1,'sv_keepaway.qh']]],
+  ['ka_5fball_5fcount',['KA_BALL_COUNT',['../da/dcc/sv__keepaway_8qh.html#a74105717ebb9c02d72b191ddc58a2176',1,'sv_keepaway.qh']]],
   ['ka_5fhandler',['ka_Handler',['../da/dcc/sv__keepaway_8qh.html#ae607caf6a8a2b653b882e0abf1a3afd4',1,'sv_keepaway.qh']]],
   ['kaball_5fprevstatus',['kaball_prevstatus',['../db/d6f/cl__keepaway_8qc.html#a7af20f53afa6853b4131acf2ab8cd7b9',1,'cl_keepaway.qc']]],
   ['kaball_5fstatuschange_5ftime',['kaball_statuschange_time',['../db/d6f/cl__keepaway_8qc.html#ab59cf7587897b51ead74c4ecb8e71e51',1,'cl_keepaway.qc']]],

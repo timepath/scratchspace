@@ -1,6 +1,7 @@
 var cl__player_8qc =
 [
     [ "CSQC_ClientMovement_PlayerMove_Frame", "d7/da2/cl__player_8qc.html#ae8571989265a08324908238d6859e4f3", null ],
+    [ "CSQCModel_ApplyStairSmoothing", "d7/da2/cl__player_8qc.html#a7131912c9526c81d66735eaebecd27c8", null ],
     [ "CSQCPlayer_ApplyBobbing", "d7/da2/cl__player_8qc.html#ad45671b0b1e9d3924015304e4e2984dd", null ],
     [ "CSQCPlayer_ApplyChase", "d7/da2/cl__player_8qc.html#aaff747fb8e839639affaa8d7307fd821", null ],
     [ "CSQCPlayer_ApplyDeathTilt", "d7/da2/cl__player_8qc.html#afa0e5d252af140336e3266e803f0fea5", null ],
@@ -67,6 +68,9 @@ var cl__player_8qc =
     [ "player_pmflags", "d7/da2/cl__player_8qc.html#a84268aea0a67adc869369d0512b4a179", null ],
     [ "pmove_onground", "d7/da2/cl__player_8qc.html#a2ac44562b4d310ba0e7dd595ee649f30", null ],
     [ "smooth_prevtime", "d7/da2/cl__player_8qc.html#afa2c8c374db021e16f30cf2f9daed9bb", null ],
+    [ "stairsmooth_drawtime", "d7/da2/cl__player_8qc.html#a6e7f3ebe3bbb0c2b3a9835312075d902", null ],
+    [ "stairsmooth_offset", "d7/da2/cl__player_8qc.html#a9e941cf3e5b9044927cd8f8b650b3ee5", null ],
+    [ "stairsmooth_prevtime", "d7/da2/cl__player_8qc.html#a210fc03acb11840f4f36d81474de7161", null ],
     [ "stairsmoothz", "d7/da2/cl__player_8qc.html#ab5eff8a293f7378b897dd099f2646595", null ],
     [ "viewheightavg", "d7/da2/cl__player_8qc.html#af8d47383c72b9d4fa5f2e507d787cf69", null ]
 ];

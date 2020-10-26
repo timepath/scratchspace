@@ -1,5 +1,14 @@
 var NAVTREEINDEX103 =
 {
+"db/d5b/classXonoticGameMessageSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,179,68],
+"db/d5b/classXonoticGameMessageSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,179,30],
+"db/d5b/classXonoticGameMessageSettingsTab.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,179,14],
+"db/d5b/classXonoticGameMessageSettingsTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,179,5],
+"db/d5b/classXonoticGameMessageSettingsTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,179,20],
+"db/d5b/classXonoticGameMessageSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,179,59],
+"db/d5b/classXonoticGameMessageSettingsTab.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,179,54],
+"db/d5b/classXonoticGameMessageSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,179,2],
+"db/d5b/classXonoticGameMessageSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,179,40],
 "db/d5b/classXonoticGameMessageSettingsTab.html#afa4aee2a1e701b5eb9e1348fa619d60a":[1,0,179,6],
 "db/d5b/classXonoticGameMessageSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,179,44],
 "db/d5b/classXonoticGameMessageSettingsTab.html#afc78c52359f9e63ef944fe234555d51b":[1,0,179,84],
@@ -240,14 +249,5 @@ var NAVTREEINDEX103 =
 "db/d7f/effectinfo_8inc.html#a0beae728b761aacd003048c63de14a76":[2,0,1,2,7,180],
 "db/d7f/effectinfo_8inc.html#a0d198b9158ef39c8837d699de0fb5594":[2,0,1,2,7,10],
 "db/d7f/effectinfo_8inc.html#a0d22376e9e1d3ed382cb264c53c19b31":[2,0,1,2,7,33],
-"db/d7f/effectinfo_8inc.html#a0d3d2d4ad85aec88657c34fa6fca80c0":[2,0,1,2,7,259],
-"db/d7f/effectinfo_8inc.html#a0e5f8b5ee682c28e6b230ed3c2560f58":[2,0,1,2,7,360],
-"db/d7f/effectinfo_8inc.html#a0f1b76c9cbc2a99c311bedbee65f1479":[2,0,1,2,7,157],
-"db/d7f/effectinfo_8inc.html#a0f69b026227ef711ef2432b1cb2b5ded":[2,0,1,2,7,53],
-"db/d7f/effectinfo_8inc.html#a0fe677e640862282dceab9bc49c3aae2":[2,0,1,2,7,353],
-"db/d7f/effectinfo_8inc.html#a111627f92e5e8107cd432d276a7b57c5":[2,0,1,2,7,300],
-"db/d7f/effectinfo_8inc.html#a11a018d7e7e68d177bbf6263aa5f88d4":[2,0,1,2,7,352],
-"db/d7f/effectinfo_8inc.html#a11e4572309917c1d00f0dea71ea249ec":[2,0,1,2,7,372],
-"db/d7f/effectinfo_8inc.html#a13d8a71bedabfc3df1e582368098915f":[2,0,1,2,7,117],
-"db/d7f/effectinfo_8inc.html#a148dada09e750aae0e10b270ea6f5001":[2,0,1,2,7,230]
+"db/d7f/effectinfo_8inc.html#a0d3d2d4ad85aec88657c34fa6fca80c0":[2,0,1,2,7,259]
 };

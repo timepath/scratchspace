@@ -1,5 +1,14 @@
 var NAVTREEINDEX115 =
 {
+"dc/de0/costs_8qc.html#acefcadef05f7952696fcc994b7b9c71c":[2,0,6,5,2,8],
+"dc/de0/costs_8qc.html#ad76ab6e032446af6b5b59a39a18338ba":[2,0,6,5,2,5],
+"dc/de0/costs_8qc.html#affea92ed68bc1ff87be96c141c3b24c5":[2,0,6,5,2,3],
+"dc/de0/costs_8qc_source.html":[2,0,6,5,2],
+"dc/de1/api_8qc.html":[2,0,6,0,4],
+"dc/de1/api_8qc_source.html":[2,0,6,0,4],
+"dc/de2/classXonoticProfileTab.html":[1,0,230],
+"dc/de2/classXonoticProfileTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,230,35],
+"dc/de2/classXonoticProfileTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,230,16],
 "dc/de2/classXonoticProfileTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,230,43],
 "dc/de2/classXonoticProfileTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,230,10],
 "dc/de2/classXonoticProfileTab.html#a086d32c9694472250922d42417bc8d66":[1,0,230,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX115 =
 "dc/df0/sv__dynamic__handicap_8qc.html#ac9ba84270f2bb6e0dc26d5a61e077cff":[2,0,1,10,0,9,2,1],
 "dc/df0/sv__dynamic__handicap_8qc.html#ad84335a4961497559003fa72e98f38f9":[2,0,1,10,0,9,2,0],
 "dc/df0/sv__dynamic__handicap_8qc.html#adf373b939f134d9721cbb50b8a5de7db":[2,0,1,10,0,9,2,2],
-"dc/df0/sv__dynamic__handicap_8qc.html#af6b083c6ce18668fdb073628b89013a5":[2,0,1,10,0,9,2,12],
-"dc/df0/sv__dynamic__handicap_8qc_source.html":[2,0,1,10,0,9,2],
-"dc/df0/sv__instagib_8qh.html":[2,0,1,10,0,12,5],
-"dc/df0/sv__instagib_8qh.html#a0380ab3112106a4d100b22c817facf9b":[2,0,1,10,0,12,5,0],
-"dc/df0/sv__instagib_8qh.html#a060ca69f38954f6c66d4c86044c4b63f":[2,0,1,10,0,12,5,5],
-"dc/df0/sv__instagib_8qh.html#a250376f7e22b2932e184591e3639f547":[2,0,1,10,0,12,5,1],
-"dc/df0/sv__instagib_8qh.html#a2d7bbdfa38ab999cc346103fcae515da":[2,0,1,10,0,12,5,4],
-"dc/df0/sv__instagib_8qh.html#abbe4cab2ab42e69e1684d843058a12e6":[2,0,1,10,0,12,5,3],
-"dc/df0/sv__instagib_8qh.html#ad4749d5439232c47d46b49b88d52ed93":[2,0,1,10,0,12,5,2],
-"dc/df0/sv__instagib_8qh_source.html":[2,0,1,10,0,12,5]
+"dc/df0/sv__dynamic__handicap_8qc.html#af6b083c6ce18668fdb073628b89013a5":[2,0,1,10,0,9,2,12]
 };

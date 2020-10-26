@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"d4/d95/common_2mutators_2events_8qh.html#aed928b5d4717ad38c6dfbd6c6d988d83":[2,0,1,10,4,6],
+"d4/d95/common_2mutators_2events_8qh.html#af66a8641f9b3587782fad7cc3fa7f220":[2,0,1,10,4,14],
 "d4/d95/common_2mutators_2events_8qh_source.html":[2,0,1,10,4],
 "d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh.html":[2,0,1,10,0,6,1],
 "d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh_source.html":[2,0,1,10,0,6,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "d4/da9/racetimer_8qh.html#a3b7475df000880590b10fc27927c712a":[2,0,0,1,0,29,28],
 "d4/da9/racetimer_8qh.html#a3d830aeb6b5bfa00b2413dd9e0ef1683":[2,0,0,1,0,29,33],
 "d4/da9/racetimer_8qh.html#a51a8f1491a8b21741c0c6640b8e5019a":[2,0,0,1,0,29,11],
-"d4/da9/racetimer_8qh.html#a67234b7e3097a12ec7d56566276b1295":[2,0,0,1,0,29,0],
-"d4/da9/racetimer_8qh.html#a6f43436dba652760ff17d18ed5bdf975":[2,0,0,1,0,29,6],
-"d4/da9/racetimer_8qh.html#a72abba51d925066d5b85f6b761aec740":[2,0,0,1,0,29,15]
+"d4/da9/racetimer_8qh.html#a67234b7e3097a12ec7d56566276b1295":[2,0,0,1,0,29,0]
 };

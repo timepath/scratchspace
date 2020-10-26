@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"d5/d52/bits_8qh.html#adc29c2ff13d900c2f185ee95427fb06ca5c270cf3e25cfa83f27b787be93b99f9":[2,0,4,10,5],
+"d5/d52/bits_8qh.html#adc29c2ff13d900c2f185ee95427fb06caa45073594ce33b58d075d65d032ee453":[2,0,4,10,3],
 "d5/d52/bits_8qh.html#adc29c2ff13d900c2f185ee95427fb06caeee6c9348a242fbf6f968e4eae84d7a1":[2,0,4,10,7],
 "d5/d52/bits_8qh.html#adddacc81ca0e2ceacc3f1d4de8f9c35a":[2,0,4,10,2],
 "d5/d52/bits_8qh_source.html":[2,0,4,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "d5/d73/classXonoticEffectsSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,175,84],
 "d5/d73/classXonoticEffectsSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,175,81],
 "d5/d73/classXonoticEffectsSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,175,50],
-"d5/d73/classXonoticEffectsSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,175,28],
-"d5/d73/classXonoticEffectsSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,175,70],
-"d5/d73/classXonoticEffectsSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,175,11]
+"d5/d73/classXonoticEffectsSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,175,28]
 };
