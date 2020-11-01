@@ -1,14 +1,5 @@
 var NAVTREEINDEX115 =
 {
-"dc/dff/anticheat_8qh.html#ac65c3d43eac87f7fab001ec48f2cedfe":[2,0,6,10,4],
-"dc/dff/anticheat_8qh.html#acc8fb1d445de6158b9a51ba1b566a820":[2,0,6,10,5],
-"dc/dff/anticheat_8qh.html#ad52af0e13ac752967839101b3b1a9458":[2,0,6,10,0],
-"dc/dff/anticheat_8qh_source.html":[2,0,6,10],
-"dc/dff/lib_2matrix_2command_8qh.html":[2,0,4,1,3],
-"dc/dff/lib_2matrix_2command_8qh_source.html":[2,0,4,1,3],
-"dd/d00/common_2mutators_2mutator_2nix_2__mod_8qh.html":[2,0,1,10,0,21,1],
-"dd/d00/common_2mutators_2mutator_2nix_2__mod_8qh_source.html":[2,0,1,10,0,21,1],
-"dd/d06/deathtypes_2all_8inc.html":[2,0,1,1,2],
 "dd/d06/deathtypes_2all_8inc_source.html":[2,0,1,1,2],
 "dd/d0a/classMachineGunTurret.html":[1,0,70],
 "dd/d0a/classMachineGunTurret.html#a0a74e10de8728c3c411ec82531ea5bc6":[1,0,70,17],
@@ -249,5 +240,14 @@ var NAVTREEINDEX115 =
 "dd/d0f/classTeslaCoilTurretAttack.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,134,13],
 "dd/d0f/classTeslaCoilTurretAttack.html#aa557f7e3a22e9b52192697ca3efcd48b":[1,0,134,23],
 "dd/d0f/classTeslaCoilTurretAttack.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,134,14],
-"dd/d0f/classTeslaCoilTurretAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,134,12]
+"dd/d0f/classTeslaCoilTurretAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,134,12],
+"dd/d0f/classTeslaCoilTurretAttack.html#aade624faa82ff26da9e51f1be39be298":[1,0,134,25],
+"dd/d0f/classTeslaCoilTurretAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,134,5],
+"dd/d0f/classTeslaCoilTurretAttack.html#ab39ead48189a4839b8acfa1376c68dc0":[1,0,134,34],
+"dd/d0f/classTeslaCoilTurretAttack.html#abb0fb58ffbc9dd30e89b0f5612b9c5e2":[1,0,134,33],
+"dd/d0f/classTeslaCoilTurretAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,134,10],
+"dd/d0f/classTeslaCoilTurretAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,134,7],
+"dd/d0f/classTeslaCoilTurretAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,134,38],
+"dd/d0f/classTeslaCoilTurretAttack.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,134,2],
+"dd/d0f/classTeslaCoilTurretAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,134,37]
 };

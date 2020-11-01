@@ -1,14 +1,5 @@
 var NAVTREEINDEX110 =
 {
-"dc/d30/classBallStealer.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,6,26],
-"dc/d30/classBallStealer.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,6,17],
-"dc/d30/gibs_8qh.html":[2,0,1,2,0,7],
-"dc/d30/gibs_8qh_source.html":[2,0,1,2,0,7],
-"dc/d32/cl__domination_8qh.html":[2,0,1,3,0,5,3],
-"dc/d32/cl__domination_8qh.html#a89675e94347c05764997556204eb0e82":[2,0,1,3,0,5,3,1],
-"dc/d32/cl__domination_8qh.html#a9245f9b7b4151715d667f06cbaf831cd":[2,0,1,3,0,5,3,0],
-"dc/d32/cl__domination_8qh_source.html":[2,0,1,3,0,5,3],
-"dc/d36/walker_8qh.html":[2,0,1,14,0,43],
 "dc/d36/walker_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,14,0,43,1],
 "dc/d36/walker_8qh.html#ab38fa2db96349127fa767e499d74500f":[2,0,1,14,0,43,2],
 "dc/d36/walker_8qh_source.html":[2,0,1,14,0,43],
@@ -249,5 +240,14 @@ var NAVTREEINDEX110 =
 "dc/d44/classXonoticScreenshotList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,241,54],
 "dc/d44/classXonoticScreenshotList.html#a92374110d9f1c056efe5fbdef26e321a":[1,0,241,13],
 "dc/d44/classXonoticScreenshotList.html#a928b5b6fcf5c052a683f967aa1001532":[1,0,241,84],
-"dc/d44/classXonoticScreenshotList.html#a94d2e5aff2a4abc85cca6357f67cbe63":[1,0,241,5]
+"dc/d44/classXonoticScreenshotList.html#a94d2e5aff2a4abc85cca6357f67cbe63":[1,0,241,5],
+"dc/d44/classXonoticScreenshotList.html#a955acbbda432fb19399292cbac96e0af":[1,0,241,65],
+"dc/d44/classXonoticScreenshotList.html#a9b5ffccdf82b0fc7dd975024bdc27a4f":[1,0,241,35],
+"dc/d44/classXonoticScreenshotList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,241,64],
+"dc/d44/classXonoticScreenshotList.html#aa0be1afcee01b4904e9b7ccc15674b53":[1,0,241,7],
+"dc/d44/classXonoticScreenshotList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,241,47],
+"dc/d44/classXonoticScreenshotList.html#aa5fa5082a87b462d5aab8d3db3e71118":[1,0,241,41],
+"dc/d44/classXonoticScreenshotList.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,241,63],
+"dc/d44/classXonoticScreenshotList.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,241,79],
+"dc/d44/classXonoticScreenshotList.html#aad099a0549928c37867d05a5dde2a511":[1,0,241,78]
 };

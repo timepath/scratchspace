@@ -1,17 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"de/d7a/classXonoticHUDScoreDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,202,80],
-"de/d7a/classXonoticHUDScoreDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,202,46],
-"de/d7a/classXonoticHUDScoreDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,202,24],
-"de/d7a/classXonoticHUDScoreDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,202,17],
-"de/d7a/classXonoticHUDScoreDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,202,72],
-"de/d7a/classXonoticHUDScoreDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,202,69],
-"de/d7a/classXonoticHUDScoreDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,202,68],
-"de/d7a/classXonoticHUDScoreDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,202,7],
-"de/d7a/classXonoticHUDScoreDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,202,70],
-"de/d7a/classXonoticHUDScoreDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,202,4],
-"de/d7a/classXonoticHUDScoreDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,202,41],
-"de/d7a/classXonoticHUDScoreDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,202,19],
 "de/d7a/classXonoticHUDScoreDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,202,47],
 "de/d7a/classXonoticHUDScoreDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,202,52],
 "de/d7a/classXonoticHUDScoreDialog.html#a2b51e4a1c2044aa055cbe38704418697":[1,0,202,81],
@@ -249,5 +237,17 @@ var NAVTREEINDEX128 =
 "de/d9a/item_8qc_source.html":[2,0,5,10],
 "de/d9b/steerlib_8qc.html":[2,0,6,62],
 "de/d9b/steerlib_8qc.html#a0d43b60b0c297167b1277c8237474c07":[2,0,6,62,16],
-"de/d9b/steerlib_8qc.html#a150ff1bca4bff561b5ced20e2e3b87d7":[2,0,6,62,1]
+"de/d9b/steerlib_8qc.html#a150ff1bca4bff561b5ced20e2e3b87d7":[2,0,6,62,1],
+"de/d9b/steerlib_8qc.html#a202933833eafdba803e5bb95b59049eb":[2,0,6,62,14],
+"de/d9b/steerlib_8qc.html#a25a4050d3645babd83636cab43dbbc91":[2,0,6,62,7],
+"de/d9b/steerlib_8qc.html#a3286ddc4822f6220e31567e2af55c83e":[2,0,6,62,12],
+"de/d9b/steerlib_8qc.html#a4c7faca73bde4e58d50b9f2366402a65":[2,0,6,62,2],
+"de/d9b/steerlib_8qc.html#a57d9255fc5763edbd5242c93b4b43cd5":[2,0,6,62,6],
+"de/d9b/steerlib_8qc.html#a677c93ce236072d37a87906b86226242":[2,0,6,62,9],
+"de/d9b/steerlib_8qc.html#a7d70f1fc6e595b1f4051af9d788d7791":[2,0,6,62,3],
+"de/d9b/steerlib_8qc.html#aa0d777f59881416d77f3ae198fd62ead":[2,0,6,62,11],
+"de/d9b/steerlib_8qc.html#aa285512e4bcd6a3b28eefa0a85558042":[2,0,6,62,5],
+"de/d9b/steerlib_8qc.html#abc848913a64ad27a8be0b188c270c38d":[2,0,6,62,8],
+"de/d9b/steerlib_8qc.html#ad3cbbeff1080bbc6ade7cbbc5994f59a":[2,0,6,62,13],
+"de/d9b/steerlib_8qc.html#ad40083ba0b5f0232df813e0cfbb63c48":[2,0,6,62,0]
 };

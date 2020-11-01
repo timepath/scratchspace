@@ -1,14 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,184,73],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,184,61],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,184,65],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,184,21],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,184,66],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,184,15],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#aaba311b07a1da9615b2d44e9b8c97149":[1,0,184,70],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#aad099a0549928c37867d05a5dde2a511":[1,0,184,80],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#ab22df25709cf90968857757880c1a1c7":[1,0,184,60],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,184,79],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,184,39],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,184,7],
@@ -249,5 +240,14 @@ var NAVTREEINDEX119 =
 "dd/da3/classXonoticMusicPlayerTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,221,2],
 "dd/da3/classXonoticMusicPlayerTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,221,39],
 "dd/da3/classXonoticMusicPlayerTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,221,43],
-"dd/da3/classXonoticMusicPlayerTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,221,7]
+"dd/da3/classXonoticMusicPlayerTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,221,7],
+"dd/da3/net__notice_8qh.html":[2,0,1,38],
+"dd/da3/net__notice_8qh_source.html":[2,0,1,38],
+"dd/da5/gamelog_8qc.html":[2,0,6,27],
+"dd/da5/gamelog_8qc.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,27,3],
+"dd/da5/gamelog_8qc.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5":[2,0,6,27,1],
+"dd/da5/gamelog_8qc.html#a79b65d6e94a0a3e0d2061c1b4c47031e":[2,0,6,27,0],
+"dd/da5/gamelog_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3":[2,0,6,27,2],
+"dd/da5/gamelog_8qc_source.html":[2,0,6,27],
+"dd/da6/classXonoticCreditsDialog.html":[1,0,161]
 };

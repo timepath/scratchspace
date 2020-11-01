@@ -1,14 +1,5 @@
 var NAVTREEINDEX113 =
 {
-"dc/db1/classXonoticTextLabel.html#aff8d6c43c5e313e7e491d932a8887da0":[1,0,258,12],
-"dc/db5/dialog__multiplayer__join__serverinfo_8qc.html":[2,0,5,4,100],
-"dc/db5/dialog__multiplayer__join__serverinfo_8qc.html#a567cd2b4d67b6bc962b9aaa65762971c":[2,0,5,4,100,2],
-"dc/db5/dialog__multiplayer__join__serverinfo_8qc.html#a56ee037407a7ee76f8ba10b509d09177":[2,0,5,4,100,0],
-"dc/db5/dialog__multiplayer__join__serverinfo_8qc.html#ad3b1c860ed1678dcc598ca80ff61eb26":[2,0,5,4,100,1],
-"dc/db5/dialog__multiplayer__join__serverinfo_8qc_source.html":[2,0,5,4,100],
-"dc/db9/utility_8qh.html":[2,0,6,5,16],
-"dc/db9/utility_8qh.html#a87ab6b8926bb5587a28d323202f59791":[2,0,6,5,16,0],
-"dc/db9/utility_8qh.html#aac192e0597d8df992d4963e6d8ddf503":[2,0,6,5,16,1],
 "dc/db9/utility_8qh.html#ad7e0fa93ffe2ec3f34de96e7f86b90af":[2,0,6,5,16,2],
 "dc/db9/utility_8qh.html#af9eb582898cab4e22bace1c7afba0f66":[2,0,6,5,16,3],
 "dc/db9/utility_8qh_source.html":[2,0,6,5,16],
@@ -249,5 +240,14 @@ var NAVTREEINDEX113 =
 "dc/de5/classWeapon.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,144,7],
 "dc/de5/classWeapon.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,144,2],
 "dc/de5/classWeapon.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,144,36],
-"dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,144,22]
+"dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,144,22],
+"dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84":[1,0,144,26],
+"dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,144,17],
+"dc/de7/bumblebee__weapons_8qc.html":[2,0,1,15,0,4],
+"dc/de7/bumblebee__weapons_8qc_source.html":[2,0,1,15,0,4],
+"dc/de9/classXonoticRootDialog.html":[1,0,236],
+"dc/de9/classXonoticRootDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,236,30],
+"dc/de9/classXonoticRootDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,236,11],
+"dc/de9/classXonoticRootDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,236,38],
+"dc/de9/classXonoticRootDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,236,3]
 };
