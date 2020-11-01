@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"d0/d61/common_2gamemodes_2gamemode_2keyhunt_2__mod_8inc_source.html":[2,0,1,3,0,10,0],
+"d0/d65/keepaway_8qc.html":[2,0,1,3,0,9,4],
 "d0/d65/keepaway_8qc_source.html":[2,0,1,3,0,9,4],
 "d0/d6a/dialog__hudpanel__itemstime_8qh.html":[2,0,5,4,59],
 "d0/d6a/dialog__hudpanel__itemstime_8qh_source.html":[2,0,5,4,59],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "d0/d7d/server_2items_2items_8qh_source.html":[2,0,6,3,3],
 "d0/d7e/items_2all_8qh.html":[2,0,1,5,4],
 "d0/d7e/items_2all_8qh.html#a05b92e6e247843b9360cc543c1d7720d":[2,0,1,5,4,0],
-"d0/d7e/items_2all_8qh.html#a45f263cb1b6c252258e90c0374fb06bd":[2,0,1,5,4,1],
-"d0/d7e/items_2all_8qh.html#ac95e5fcaaba423ee956b9faf4a50bb41":[2,0,1,5,4,3],
-"d0/d7e/items_2all_8qh.html#ad88feee0500051ff5337d5ff1c180fb6":[2,0,1,5,4,2]
+"d0/d7e/items_2all_8qh.html#a45f263cb1b6c252258e90c0374fb06bd":[2,0,1,5,4,1]
 };

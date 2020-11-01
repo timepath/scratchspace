@@ -23,5 +23,6 @@ var classRaceCTS =
     [ "m_id", "d6/d96/classRaceCTS.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d6/d96/classRaceCTS.html#ad555048e655a99d3c7055b0cf930db2a", null ],
     [ "m_priority", "d6/d96/classRaceCTS.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
+    [ "m_weaponarena", "d6/d96/classRaceCTS.html#abe55cbfdda839ecee4f9e1f7be9dbf96", null ],
     [ "team", "d6/d96/classRaceCTS.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

@@ -23,5 +23,6 @@ var classKeyHunt =
     [ "m_id", "d8/dcc/classKeyHunt.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d8/dcc/classKeyHunt.html#ac6ce03085fda9a98561d820c87959a2a", null ],
     [ "m_priority", "d8/dcc/classKeyHunt.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
+    [ "m_weaponarena", "d8/dcc/classKeyHunt.html#abe55cbfdda839ecee4f9e1f7be9dbf96", null ],
     [ "team", "d8/dcc/classKeyHunt.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

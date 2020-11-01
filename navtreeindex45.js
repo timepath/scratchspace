@@ -1,5 +1,15 @@
 var NAVTREEINDEX45 =
 {
+"d4/d95/common_2mutators_2events_8qh.html#ac426e97a0684bb694284b6ed1beef922":[2,0,1,10,4,1],
+"d4/d95/common_2mutators_2events_8qh.html#ac665c8ce5ec050acdc70556a937fdf50":[2,0,1,10,4,15],
+"d4/d95/common_2mutators_2events_8qh.html#ae3a91aca82079ec3bcc302a2345cdc76":[2,0,1,10,4,21],
+"d4/d95/common_2mutators_2events_8qh.html#ae3ce44f2947110cb267a6ba3aa7ad1f1":[2,0,1,10,4,18],
+"d4/d95/common_2mutators_2events_8qh.html#aed928b5d4717ad38c6dfbd6c6d988d83":[2,0,1,10,4,6],
+"d4/d95/common_2mutators_2events_8qh.html#af66a8641f9b3587782fad7cc3fa7f220":[2,0,1,10,4,14],
+"d4/d95/common_2mutators_2events_8qh_source.html":[2,0,1,10,4],
+"d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh.html":[2,0,1,10,0,6,1],
+"d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh_source.html":[2,0,1,10,0,6,1],
+"d4/d9d/hellion_8qh.html":[2,0,1,14,0,13],
 "d4/d9d/hellion_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,14,0,13,1],
 "d4/d9d/hellion_8qh.html#ad7f9d755fa95936046d425e1ac3868bf":[2,0,1,14,0,13,2],
 "d4/d9d/hellion_8qh_source.html":[2,0,1,14,0,13],
@@ -239,15 +249,5 @@ var NAVTREEINDEX45 =
 "d4/da9/racetimer_8qh.html#a2b02c8d668beb71aaba3c151039d326e":[2,0,0,1,0,29,27],
 "d4/da9/racetimer_8qh.html#a3093062933d54c8b01ad7ed1c0917944":[2,0,0,1,0,29,9],
 "d4/da9/racetimer_8qh.html#a3248f6d8520a7f388ba479a02326a24d":[2,0,0,1,0,29,23],
-"d4/da9/racetimer_8qh.html#a39aa8b4d9b82db1176247f09d73f0f9b":[2,0,0,1,0,29,32],
-"d4/da9/racetimer_8qh.html#a3b7475df000880590b10fc27927c712a":[2,0,0,1,0,29,30],
-"d4/da9/racetimer_8qh.html#a3d830aeb6b5bfa00b2413dd9e0ef1683":[2,0,0,1,0,29,35],
-"d4/da9/racetimer_8qh.html#a51a8f1491a8b21741c0c6640b8e5019a":[2,0,0,1,0,29,13],
-"d4/da9/racetimer_8qh.html#a67234b7e3097a12ec7d56566276b1295":[2,0,0,1,0,29,2],
-"d4/da9/racetimer_8qh.html#a6f43436dba652760ff17d18ed5bdf975":[2,0,0,1,0,29,8],
-"d4/da9/racetimer_8qh.html#a72abba51d925066d5b85f6b761aec740":[2,0,0,1,0,29,17],
-"d4/da9/racetimer_8qh.html#a766f0b1708b74792c765d71219cd1a04":[2,0,0,1,0,29,26],
-"d4/da9/racetimer_8qh.html#a7c0e0c424208978a5874199fe6d1ba92":[2,0,0,1,0,29,14],
-"d4/da9/racetimer_8qh.html#a8234124f6827fd5b2fd588d958f50d65":[2,0,0,1,0,29,11],
-"d4/da9/racetimer_8qh.html#a9ca3664d438b8f1dac1a68ceee61d5a6":[2,0,0,1,0,29,36]
+"d4/da9/racetimer_8qh.html#a39aa8b4d9b82db1176247f09d73f0f9b":[2,0,0,1,0,29,32]
 };

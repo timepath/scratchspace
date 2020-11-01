@@ -84,6 +84,7 @@ var searchData=
   ['gametype_5fflag_5fpriority',['GAMETYPE_FLAG_PRIORITY',['../d2/d9e/mapinfo_8qh.html#a0eb1cdd2bbddaf868979d3af8d2805f3',1,'mapinfo.qh']]],
   ['gametype_5fflag_5fteamplay',['GAMETYPE_FLAG_TEAMPLAY',['../d2/d9e/mapinfo_8qh.html#a8395692e019a2d40412f52db12851d0f',1,'mapinfo.qh']]],
   ['gametype_5fflag_5fusepoints',['GAMETYPE_FLAG_USEPOINTS',['../d2/d9e/mapinfo_8qh.html#a26c63b6bc209facf7b196a25d3367a55',1,'mapinfo.qh']]],
+  ['gametype_5fflag_5fweaponarena',['GAMETYPE_FLAG_WEAPONARENA',['../d2/d9e/mapinfo_8qh.html#abc4b1b48f22fff73b8eb1edd1b54b4e2',1,'mapinfo.qh']]],
   ['gametypefilter',['gametypefilter',['../db/d95/server_2main_8qc.html#a3091fb79d4fcf740c1042eb85822efe2',1,'main.qc']]],
   ['gametypevote',['gametypevote',['../d4/d0d/client_2mapvoting_8qc.html#af7c6ecec79249608330dcc9872b1fdbd',1,'gametypevote():&#160;mapvoting.qc'],['../d3/d53/server_2mapvoting_8qh.html#af7c6ecec79249608330dcc9872b1fdbd',1,'gametypevote():&#160;mapvoting.qh']]],
   ['gametypevote_5ffinished',['gametypevote_finished',['../d2/d76/server_2mapvoting_8qc.html#a7f2dff421f55e857ae65125352b4d232',1,'mapvoting.qc']]],

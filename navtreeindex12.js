@@ -1,5 +1,8 @@
 var NAVTREEINDEX12 =
 {
+"d1/d6b/classGametype.html#a353db82280437c3b38f0ad1934a7d666":[1,0,44,18],
+"d1/d6b/classGametype.html#a48219a8b6e9dc1e20431926319aa7aa3":[1,0,44,19],
+"d1/d6b/classGametype.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,44,13],
 "d1/d6b/classGametype.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,44,7],
 "d1/d6b/classGametype.html#a6029db0de09a0293986e7a082970775a":[1,0,44,17],
 "d1/d6b/classGametype.html#a689c2a1afc56d93f77ebdebad6b168bf":[1,0,44,10],
@@ -9,8 +12,9 @@ var NAVTREEINDEX12 =
 "d1/d6b/classGametype.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,44,1],
 "d1/d6b/classGametype.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,44,16],
 "d1/d6b/classGametype.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,44,3],
+"d1/d6b/classGametype.html#abe55cbfdda839ecee4f9e1f7be9dbf96":[1,0,44,21],
 "d1/d6b/classGametype.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,44,2],
-"d1/d6b/classGametype.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,44,21],
+"d1/d6b/classGametype.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,44,22],
 "d1/d6b/classGametype.html#ad15993848bc92a1c7bf0c70aeee7bbd2":[1,0,44,20],
 "d1/d6b/classGametype.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,44,5],
 "d1/d6b/classGametype.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,44,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "d1/d7e/classXonoticServerListTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,247,58],
 "d1/d7e/classXonoticServerListTab.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,247,53],
 "d1/d7e/classXonoticServerListTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,247,2],
-"d1/d7e/classXonoticServerListTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,247,39],
-"d1/d7e/classXonoticServerListTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,247,43],
-"d1/d7e/classXonoticServerListTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,247,7],
-"d1/d84/classXonoticLanguageWarningDialog.html":[1,0,213],
-"d1/d84/classXonoticLanguageWarningDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,213,30]
+"d1/d7e/classXonoticServerListTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,247,39]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX42 =
 {
+"d4/d62/damage_8qh.html#a4345299b9fade9c3b080c5084766b62b":[2,0,6,24,34],
+"d4/d62/damage_8qh.html#a449c65621d31ac988f82a49ddf881ca0":[2,0,6,24,12],
+"d4/d62/damage_8qh.html#a46183c1db5b7aabb5201a6541e52370f":[2,0,6,24,57],
+"d4/d62/damage_8qh.html#a4647c37c2ceec013c552e4a2979c3787":[2,0,6,24,97],
+"d4/d62/damage_8qh.html#a488c668773967c193bbb4bc0bd8d3e53":[2,0,6,24,36],
+"d4/d62/damage_8qh.html#a496b46a3b10753a5fc395e877c05dd7d":[2,0,6,24,46],
+"d4/d62/damage_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b":[2,0,6,24,65],
+"d4/d62/damage_8qh.html#a51109b73e59b86875d75290abf4f0428":[2,0,6,24,27],
+"d4/d62/damage_8qh.html#a51f04829b917db9ab7e7d7cac5fddfdb":[2,0,6,24,5],
+"d4/d62/damage_8qh.html#a5320d5d56b57e2f1ffa6e137f496d2ef":[2,0,6,24,90],
 "d4/d62/damage_8qh.html#a54e85ad9f5560a23de3bd54026021b06":[2,0,6,24,19],
 "d4/d62/damage_8qh.html#a564b23de0593448931b38b33db73634d":[2,0,6,24,60],
 "d4/d62/damage_8qh.html#a570becfa48d2a2f3b0061334ed002c88":[2,0,6,24,81],
@@ -239,15 +249,5 @@ var NAVTREEINDEX42 =
 "d4/d85/classXonoticUid2NameDialog.html#ad998e1f49defd3f2d0767d00dfd4ad44":[1,0,260,55],
 "d4/d85/classXonoticUid2NameDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,260,29],
 "d4/d85/classXonoticUid2NameDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,260,60],
-"d4/d85/classXonoticUid2NameDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,260,53],
-"d4/d85/classXonoticUid2NameDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,260,89],
-"d4/d85/classXonoticUid2NameDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,260,8],
-"d4/d85/classXonoticUid2NameDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,260,66],
-"d4/d85/classXonoticUid2NameDialog.html#af1aab403dc54575707fd57991312b201":[1,0,260,45],
-"d4/d85/classXonoticUid2NameDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,260,25],
-"d4/d85/classXonoticUid2NameDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,260,10],
-"d4/d85/classXonoticUid2NameDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,260,15],
-"d4/d85/classXonoticUid2NameDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,260,49],
-"d4/d85/classXonoticUid2NameDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,260,2],
-"d4/d85/classXonoticUid2NameDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,260,35]
+"d4/d85/classXonoticUid2NameDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,260,53]
 };

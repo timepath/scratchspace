@@ -23,5 +23,6 @@ var classTeamDeathmatch =
     [ "m_id", "d6/df8/classTeamDeathmatch.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d6/df8/classTeamDeathmatch.html#ae00dc557613794c6665ea2ede61d44c8", null ],
     [ "m_priority", "d6/df8/classTeamDeathmatch.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
+    [ "m_weaponarena", "d6/df8/classTeamDeathmatch.html#abe55cbfdda839ecee4f9e1f7be9dbf96", null ],
     [ "team", "d6/df8/classTeamDeathmatch.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

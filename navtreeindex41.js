@@ -1,5 +1,15 @@
 var NAVTREEINDEX41 =
 {
+"d4/d55/classXonoticCreditsList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,162,47],
+"d4/d55/classXonoticCreditsList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,162,25],
+"d4/d55/classXonoticCreditsList.html#a764e355b65af202e87289c596432c780":[1,0,162,52],
+"d4/d55/classXonoticCreditsList.html#a782ba2e9c3c9891dbd5894a466ee72fd":[1,0,162,9],
+"d4/d55/classXonoticCreditsList.html#a7b3c00bea963010b6b271e8ca03dba34":[1,0,162,5],
+"d4/d55/classXonoticCreditsList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,162,63],
+"d4/d55/classXonoticCreditsList.html#a7c8494a24b0c7ac5dc7ca5db6726bf3e":[1,0,162,7],
+"d4/d55/classXonoticCreditsList.html#a7e648d41a7f78b2263816afdbcce9375":[1,0,162,69],
+"d4/d55/classXonoticCreditsList.html#a82217d761797df8a2e65054eab910734":[1,0,162,11],
+"d4/d55/classXonoticCreditsList.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,162,58],
 "d4/d55/classXonoticCreditsList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,162,41],
 "d4/d55/classXonoticCreditsList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,162,15],
 "d4/d55/classXonoticCreditsList.html#a8b438d793045ff5d00a8f1a344b9f088":[1,0,162,66],
@@ -239,15 +249,5 @@ var NAVTREEINDEX41 =
 "d4/d62/damage_8qh.html#a3f696c9f9260834902e2b430e0d71f8e":[2,0,6,24,73],
 "d4/d62/damage_8qh.html#a3fd2d994c3cac42100d3818ec0dd1095":[2,0,6,24,64],
 "d4/d62/damage_8qh.html#a40f1d38a57f0bb630ca878656709e72c":[2,0,6,24,58],
-"d4/d62/damage_8qh.html#a419ab93e1e949922dba4a85c64a2f131":[2,0,6,24,59],
-"d4/d62/damage_8qh.html#a4345299b9fade9c3b080c5084766b62b":[2,0,6,24,34],
-"d4/d62/damage_8qh.html#a449c65621d31ac988f82a49ddf881ca0":[2,0,6,24,12],
-"d4/d62/damage_8qh.html#a46183c1db5b7aabb5201a6541e52370f":[2,0,6,24,57],
-"d4/d62/damage_8qh.html#a4647c37c2ceec013c552e4a2979c3787":[2,0,6,24,97],
-"d4/d62/damage_8qh.html#a488c668773967c193bbb4bc0bd8d3e53":[2,0,6,24,36],
-"d4/d62/damage_8qh.html#a496b46a3b10753a5fc395e877c05dd7d":[2,0,6,24,46],
-"d4/d62/damage_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b":[2,0,6,24,65],
-"d4/d62/damage_8qh.html#a51109b73e59b86875d75290abf4f0428":[2,0,6,24,27],
-"d4/d62/damage_8qh.html#a51f04829b917db9ab7e7d7cac5fddfdb":[2,0,6,24,5],
-"d4/d62/damage_8qh.html#a5320d5d56b57e2f1ffa6e137f496d2ef":[2,0,6,24,90]
+"d4/d62/damage_8qh.html#a419ab93e1e949922dba4a85c64a2f131":[2,0,6,24,59]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX10 =
 {
+"d1/d48/classSpectator.html#a5903158f43e01ded75a88f624294d288":[1,0,126,73],
+"d1/d48/classSpectator.html#a5905339aa331ed25695eabf2b2f632b5":[1,0,126,97],
+"d1/d48/classSpectator.html#a598f5dd31488d5445371d8b8b68eb52d":[1,0,126,24],
 "d1/d48/classSpectator.html#a5b0429fb2f0c1af31a45b9f112661422":[1,0,126,95],
 "d1/d48/classSpectator.html#a5d9df5ac0abeed28dc3a5e64a1ad3336":[1,0,126,83],
 "d1/d48/classSpectator.html#a5debad0a069dcef7c24158a8db6db7ae":[1,0,126,50],
@@ -246,8 +249,5 @@ var NAVTREEINDEX10 =
 "d1/d55/classXonoticHUDModIconsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,194,52],
 "d1/d55/classXonoticHUDModIconsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,194,27],
 "d1/d55/classXonoticHUDModIconsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,194,20],
-"d1/d55/classXonoticHUDModIconsDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,194,13],
-"d1/d55/classXonoticHUDModIconsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,194,59],
-"d1/d55/classXonoticHUDModIconsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,194,28],
-"d1/d55/classXonoticHUDModIconsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,194,44]
+"d1/d55/classXonoticHUDModIconsDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,194,13]
 };

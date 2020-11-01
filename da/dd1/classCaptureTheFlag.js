@@ -23,5 +23,6 @@ var classCaptureTheFlag =
     [ "m_id", "da/dd1/classCaptureTheFlag.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "da/dd1/classCaptureTheFlag.html#af2dbc193e6456856e3745b3cb47500bb", null ],
     [ "m_priority", "da/dd1/classCaptureTheFlag.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
+    [ "m_weaponarena", "da/dd1/classCaptureTheFlag.html#abe55cbfdda839ecee4f9e1f7be9dbf96", null ],
     [ "team", "da/dd1/classCaptureTheFlag.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

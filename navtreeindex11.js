@@ -1,5 +1,8 @@
 var NAVTREEINDEX11 =
 {
+"d1/d55/classXonoticHUDModIconsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,194,59],
+"d1/d55/classXonoticHUDModIconsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,194,28],
+"d1/d55/classXonoticHUDModIconsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,194,44],
 "d1/d55/classXonoticHUDModIconsDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,194,54],
 "d1/d55/classXonoticHUDModIconsDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,194,84],
 "d1/d55/classXonoticHUDModIconsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,194,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX11 =
 "d1/d6a/lib_2warpzone_2common_8qc.html#afff7e217be4b40e60594d2c71aa755bc":[2,0,4,2,6,65],
 "d1/d6a/lib_2warpzone_2common_8qc_source.html":[2,0,4,2,6],
 "d1/d6b/classGametype.html":[1,0,44],
-"d1/d6b/classGametype.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,44,0],
-"d1/d6b/classGametype.html#a353db82280437c3b38f0ad1934a7d666":[1,0,44,18],
-"d1/d6b/classGametype.html#a48219a8b6e9dc1e20431926319aa7aa3":[1,0,44,19],
-"d1/d6b/classGametype.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,44,13]
+"d1/d6b/classGametype.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,44,0]
 };

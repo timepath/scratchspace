@@ -22,5 +22,6 @@ var classLastManStanding =
     [ "m_id", "d3/d09/classLastManStanding.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d3/d09/classLastManStanding.html#a5b8b7c328b4a49b57dd827eda3d89760", null ],
     [ "m_priority", "d3/d09/classLastManStanding.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
+    [ "m_weaponarena", "d3/d09/classLastManStanding.html#abe55cbfdda839ecee4f9e1f7be9dbf96", null ],
     [ "team", "d3/d09/classLastManStanding.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

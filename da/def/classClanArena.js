@@ -23,5 +23,6 @@ var classClanArena =
     [ "m_id", "da/def/classClanArena.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "da/def/classClanArena.html#ad37c29a0bbe0c184de1f7584ae36c5ed", null ],
     [ "m_priority", "da/def/classClanArena.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
+    [ "m_weaponarena", "da/def/classClanArena.html#abe55cbfdda839ecee4f9e1f7be9dbf96", null ],
     [ "team", "da/def/classClanArena.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

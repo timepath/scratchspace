@@ -169,6 +169,7 @@ var searchData=
   ['gametype_5fflag_5fpriority',['GAMETYPE_FLAG_PRIORITY',['../d2/d9e/mapinfo_8qh.html#a0eb1cdd2bbddaf868979d3af8d2805f3',1,'mapinfo.qh']]],
   ['gametype_5fflag_5fteamplay',['GAMETYPE_FLAG_TEAMPLAY',['../d2/d9e/mapinfo_8qh.html#a8395692e019a2d40412f52db12851d0f',1,'mapinfo.qh']]],
   ['gametype_5fflag_5fusepoints',['GAMETYPE_FLAG_USEPOINTS',['../d2/d9e/mapinfo_8qh.html#a26c63b6bc209facf7b196a25d3367a55',1,'mapinfo.qh']]],
+  ['gametype_5fflag_5fweaponarena',['GAMETYPE_FLAG_WEAPONARENA',['../d2/d9e/mapinfo_8qh.html#abc4b1b48f22fff73b8eb1edd1b54b4e2',1,'mapinfo.qh']]],
   ['gametype_5fgetcount',['GameType_GetCount',['../df/d9b/menu_2xonotic_2util_8qc.html#a44167665bad1f9b48425b468cdca42b6',1,'GameType_GetCount():&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#a44167665bad1f9b48425b468cdca42b6',1,'GameType_GetCount():&#160;util.qc']]],
   ['gametype_5fgeticon',['GameType_GetIcon',['../df/d9b/menu_2xonotic_2util_8qc.html#a8eb356644d69441dba461bca0bb3ab9e',1,'GameType_GetIcon(int cnt):&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#a8eb356644d69441dba461bca0bb3ab9e',1,'GameType_GetIcon(int cnt):&#160;util.qc']]],
   ['gametype_5fgetid',['GameType_GetID',['../df/d9b/menu_2xonotic_2util_8qc.html#a0146272636324af38d85f06953d0ab19',1,'GameType_GetID(int cnt):&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#ac6c520fee2821354ba05f7742fb8406a',1,'GameType_GetID(int cnt):&#160;util.qc']]],

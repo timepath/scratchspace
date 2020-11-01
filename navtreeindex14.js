@@ -1,5 +1,9 @@
 var NAVTREEINDEX14 =
 {
+"d1/d9c/server_2chat_8qh.html#ab999648480050a63fcddf038d561d7af":[2,0,6,16,27],
+"d1/d9c/server_2chat_8qh.html#abb0f165077ac886332b821ac30314b8a":[2,0,6,16,9],
+"d1/d9c/server_2chat_8qh.html#ac7449e279180f7b662538d657f9f13bb":[2,0,6,16,18],
+"d1/d9c/server_2chat_8qh.html#acc716c0fd9bb40055727cf93edbdeab8":[2,0,6,16,11],
 "d1/d9c/server_2chat_8qh.html#acd6554a25e5a6c81d0ebe4eea07ecb07":[2,0,6,16,2],
 "d1/d9c/server_2chat_8qh.html#ad128ed1488aecc44cdd15c3308e5aa7c":[2,0,6,16,25],
 "d1/d9c/server_2chat_8qh.html#add3dc76193d4fe0883eb7d812025b76a":[2,0,6,16,22],
@@ -130,8 +134,8 @@ var NAVTREEINDEX14 =
 "d1/dad/server_2command_2vote_8qc.html#aa5bfb7647a9b350b92d600703b23919d":[2,0,6,1,16,39],
 "d1/dad/server_2command_2vote_8qc.html#aa87ee0e2c399505d83d290b4bef95caf":[2,0,6,1,16,24],
 "d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f":[2,0,6,1,16,15],
-"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
+"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
 "d1/dad/server_2command_2vote_8qc.html#abe4a2e3fd5c533319ea51970d72f95f7":[2,0,6,1,16,28],
 "d1/dad/server_2command_2vote_8qc.html#ac42f429ba6ba4289fa7af9310f40a0a4":[2,0,6,1,16,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX14 =
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#aff489dd980a70a55cd0af2ce3d3d26f8":[1,0,172,67],
 "d1/dba/server_2weapons_2common_8qh.html":[2,0,6,6,5],
 "d1/dba/server_2weapons_2common_8qh.html#a08db2c29bfeb55d8202e4077d34bb51c":[2,0,6,6,5,12],
-"d1/dba/server_2weapons_2common_8qh.html#a102ac938a46377356e95bb667b1f01e2":[2,0,6,6,5,4],
-"d1/dba/server_2weapons_2common_8qh.html#a14781e74a33437af873581ed381d2397":[2,0,6,6,5,9],
-"d1/dba/server_2weapons_2common_8qh.html#a15163fb722de405cc2764efd498bc2ee":[2,0,6,6,5,7],
-"d1/dba/server_2weapons_2common_8qh.html#a177160502cceebf9005817415f6a7383":[2,0,6,6,5,27],
-"d1/dba/server_2weapons_2common_8qh.html#a17edd654dd2ae440463e420932c7bd84":[2,0,6,6,5,32]
+"d1/dba/server_2weapons_2common_8qh.html#a102ac938a46377356e95bb667b1f01e2":[2,0,6,6,5,4]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX20 =
 {
+"d2/d62/selection_8qc.html#ad4bf72dfdd0aaeca5bc1da4fb607fb3b":[2,0,6,6,10,4],
+"d2/d62/selection_8qc.html#adf3e13e24e532932c0396c15ad5d1228":[2,0,6,6,10,3],
+"d2/d62/selection_8qc_source.html":[2,0,6,6,10],
+"d2/d63/casings_8qc.html":[2,0,1,2,0,2],
+"d2/d63/casings_8qc.html#aa6e38d193a38128e6c53542d93521444":[2,0,1,2,0,2,0],
+"d2/d63/casings_8qc_source.html":[2,0,1,2,0,2],
+"d2/d64/dialog__settings__game__messages_8qc.html":[2,0,5,4,138],
 "d2/d64/dialog__settings__game__messages_8qc.html#a06a0a03bab3b31fc5354446fdb1df3bb":[2,0,5,4,138,1],
 "d2/d64/dialog__settings__game__messages_8qc.html#a56f858039cd189ac5d33cda3f01a4667":[2,0,5,4,138,2],
 "d2/d64/dialog__settings__game__messages_8qc.html#ad03b9295aeb89d2a5633bfde7c357a26":[2,0,5,4,138,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX20 =
 "d2/d82/server_2bot_2__mod_8qh_source.html":[2,0,6,0,3],
 "d2/d88/bigcommandbutton_8qh.html":[2,0,5,4,5],
 "d2/d88/bigcommandbutton_8qh.html#a721596cb63088d9495cbcf19cfcda70b":[2,0,5,4,5,2],
-"d2/d88/bigcommandbutton_8qh.html#ab6fcfa6962e1b0d79189bd54e072e73e":[2,0,5,4,5,1],
-"d2/d88/bigcommandbutton_8qh_source.html":[2,0,5,4,5],
-"d2/d88/classDomination.html":[1,0,30],
-"d2/d88/classDomination.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,30,1],
-"d2/d88/classDomination.html#a353db82280437c3b38f0ad1934a7d666":[1,0,30,19],
-"d2/d88/classDomination.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,30,14],
-"d2/d88/classDomination.html#a4db6ad0ff6ca1f3b5bdc0cb58c9e3f1e":[1,0,30,11],
-"d2/d88/classDomination.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,30,8]
+"d2/d88/bigcommandbutton_8qh.html#ab6fcfa6962e1b0d79189bd54e072e73e":[2,0,5,4,5,1]
 };

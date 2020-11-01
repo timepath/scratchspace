@@ -1,5 +1,17 @@
 var NAVTREEINDEX70 =
 {
+"d7/db1/common_2command_2__mod_8inc.html":[2,0,1,0,0],
+"d7/db1/common_2command_2__mod_8inc_source.html":[2,0,1,0,0],
+"d7/db2/dialog__singleplayer__winner_8qc.html":[2,0,5,4,164],
+"d7/db2/dialog__singleplayer__winner_8qc.html#a3771f6f203b33af849a31b9d0a8a5cf5":[2,0,5,4,164,0],
+"d7/db2/dialog__singleplayer__winner_8qc.html#ab760c2bcafe6cd6d238f8e97779394c2":[2,0,5,4,164,1],
+"d7/db2/dialog__singleplayer__winner_8qc_source.html":[2,0,5,4,164],
+"d7/db6/sv__clanarena_8qc.html":[2,0,1,3,0,1,6],
+"d7/db6/sv__clanarena_8qc.html#a0492a20050a72a4530f1ddf7da1c030d":[2,0,1,3,0,1,6,28],
+"d7/db6/sv__clanarena_8qc.html#a0904e2f361cd45eac92a816349982d6a":[2,0,1,3,0,1,6,11],
+"d7/db6/sv__clanarena_8qc.html#a0bcc926b730567827a73c7f77a44d189":[2,0,1,3,0,1,6,20],
+"d7/db6/sv__clanarena_8qc.html#a1871cb713ef5ce4f63a2c9a29e2df144":[2,0,1,3,0,1,6,13],
+"d7/db6/sv__clanarena_8qc.html#a19925a8c3cdeb304f528bdec6f665a5b":[2,0,1,3,0,1,6,33],
 "d7/db6/sv__clanarena_8qc.html#a22cac621876382946392419c63ede0bf":[2,0,1,3,0,1,6,32],
 "d7/db6/sv__clanarena_8qc.html#a25ac49cf19797d8a0d8133617f0ff1e2":[2,0,1,3,0,1,6,29],
 "d7/db6/sv__clanarena_8qc.html#a26d65c5d5e9c15c4e38bd2347ca6eccc":[2,0,1,3,0,1,6,34],
@@ -237,17 +249,5 @@ var NAVTREEINDEX70 =
 "d7/dd0/sv__onslaught_8qh.html#a654ef4fe1e674980a48173d3aab1cced":[2,0,1,3,0,13,17,42],
 "d7/dd0/sv__onslaught_8qh.html#a660adb9561a1b9f4a3af812b4c2d4ecc":[2,0,1,3,0,13,17,31],
 "d7/dd0/sv__onslaught_8qh.html#a6e8263ddccd8105c0e49f34304b7894c":[2,0,1,3,0,13,17,7],
-"d7/dd0/sv__onslaught_8qh.html#a7618401c2a64878ab65cb8f1a3ea802a":[2,0,1,3,0,13,17,30],
-"d7/dd0/sv__onslaught_8qh.html#a7cfc86894dfd752288cc5ca2c507e714":[2,0,1,3,0,13,17,11],
-"d7/dd0/sv__onslaught_8qh.html#a7fe86ecd018bac3db78f34ef6cfd9af9":[2,0,1,3,0,13,17,21],
-"d7/dd0/sv__onslaught_8qh.html#a80e54120b21e53f1308f2d4e0a6b3e0e":[2,0,1,3,0,13,17,14],
-"d7/dd0/sv__onslaught_8qh.html#a90b02641f0c7d1b01f7998fe398c95c1":[2,0,1,3,0,13,17,18],
-"d7/dd0/sv__onslaught_8qh.html#a9578ce53f813f2e6d9b20f5122f353d9":[2,0,1,3,0,13,17,33],
-"d7/dd0/sv__onslaught_8qh.html#a97ff8424f0fa545ccb120ae3a276e015":[2,0,1,3,0,13,17,43],
-"d7/dd0/sv__onslaught_8qh.html#a99463eaaf53c225271cdf883f2b4bc72":[2,0,1,3,0,13,17,16],
-"d7/dd0/sv__onslaught_8qh.html#a99e0e77bd92c05ac164fd295f0d2a6af":[2,0,1,3,0,13,17,49],
-"d7/dd0/sv__onslaught_8qh.html#a9ad37dc764c506fb62e4473280cebd27":[2,0,1,3,0,13,17,44],
-"d7/dd0/sv__onslaught_8qh.html#a9b6c6ccdd530645fe875330fcacf517a":[2,0,1,3,0,13,17,27],
-"d7/dd0/sv__onslaught_8qh.html#a9d2ee66e4d6dc89a52f994e45d589222":[2,0,1,3,0,13,17,10],
-"d7/dd0/sv__onslaught_8qh.html#a9f8bfa25b20af5e346f55db729e6b9e5":[2,0,1,3,0,13,17,24]
+"d7/dd0/sv__onslaught_8qh.html#a7618401c2a64878ab65cb8f1a3ea802a":[2,0,1,3,0,13,17,30]
 };

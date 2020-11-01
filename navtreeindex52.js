@@ -1,5 +1,15 @@
 var NAVTREEINDEX52 =
 {
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a5f1ecfbe86acbe20fd77c140e87fae93":[1,0,204,58],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,204,62],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,204,74],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,204,6],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,204,14],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,204,18],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,204,87],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a7e5f37cd2cc8b63198ef2280d6a3e1c0":[1,0,204,85],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,204,50],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,204,43],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,204,65],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,204,71],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,204,75],
@@ -239,15 +249,5 @@ var NAVTREEINDEX52 =
 "d5/dc5/weaponslist_8qh.html":[2,0,5,4,241],
 "d5/dc5/weaponslist_8qh.html#a0d08668d269dd800b281886c052f0ae2":[2,0,5,4,241,1],
 "d5/dc5/weaponslist_8qh.html#a4ad7d5c282f5eae388b914542b58aff9":[2,0,5,4,241,2],
-"d5/dc5/weaponslist_8qh.html#aa2a7ad83e8fa9383330ed1addb5cd041":[2,0,5,4,241,3],
-"d5/dc5/weaponslist_8qh_source.html":[2,0,5,4,241],
-"d5/dc9/cl__model_8qc.html":[2,0,4,0,2],
-"d5/dc9/cl__model_8qc.html#a04d5a61cb351d178246354dc07302c53":[2,0,4,0,2,18],
-"d5/dc9/cl__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,2,3],
-"d5/dc9/cl__model_8qc.html#a124add9ea4ca8fc067c10ef6ab9e06e5":[2,0,4,0,2,5],
-"d5/dc9/cl__model_8qc.html#a26e61ab9cc5ce7c7cb105124b1c53337":[2,0,4,0,2,16],
-"d5/dc9/cl__model_8qc.html#a28ff1bc9cf025068d63906b40d1cd5a3":[2,0,4,0,2,10],
-"d5/dc9/cl__model_8qc.html#a3ebe2b43846c24a720b8784f50af5a20":[2,0,4,0,2,6],
-"d5/dc9/cl__model_8qc.html#a40a0ececda7b968acfc7c914d6d16261":[2,0,4,0,2,7],
-"d5/dc9/cl__model_8qc.html#a55314dcf0118e6b6db1338178c462fcb":[2,0,4,0,2,19]
+"d5/dc5/weaponslist_8qh.html#aa2a7ad83e8fa9383330ed1addb5cd041":[2,0,5,4,241,3]
 };

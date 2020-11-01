@@ -1,5 +1,8 @@
 var NAVTREEINDEX6 =
 {
+"d0/ddb/dialog__hudpanel__score_8qc_source.html":[2,0,5,4,76],
+"d0/ddd/lib_2stats_8qh.html":[2,0,4,58],
+"d0/ddd/lib_2stats_8qh.html#a0b0131c4067d628042068387ab92aae0":[2,0,4,58,6],
 "d0/ddd/lib_2stats_8qh.html#a2c651e70f251947fd915c2b9617ea4dd":[2,0,4,58,12],
 "d0/ddd/lib_2stats_8qh.html#a350dfb5b689e6b98109f6d86e13d6bcd":[2,0,4,58,1],
 "d0/ddd/lib_2stats_8qh.html#a37e6b8781974eef9aa60dc073ac65f27":[2,0,4,58,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX6 =
 "d0/df5/sound_8qh.html#a9c121ae2d91646839cf3dcc25118ced0":[2,0,1,13,5,14],
 "d0/df5/sound_8qh.html#aa00190ab7f73439edff33680b94eaacb":[2,0,1,13,5,15],
 "d0/df5/sound_8qh.html#aa4ea61f7b845964a7798de9540c47549":[2,0,1,13,5,19],
-"d0/df5/sound_8qh.html#aa81eda968dd25faf78d660c148046793":[2,0,1,13,5,12],
-"d0/df5/sound_8qh.html#ab3244e946a9d251f139b92bca26b13a3":[2,0,1,13,5,1],
-"d0/df5/sound_8qh.html#ab436e85498fabfdf98c65ddb81208ffd":[2,0,1,13,5,37],
-"d0/df5/sound_8qh.html#ab55ce3067bda3a902c6460dbedf87839":[2,0,1,13,5,30]
+"d0/df5/sound_8qh.html#aa81eda968dd25faf78d660c148046793":[2,0,1,13,5,12]
 };

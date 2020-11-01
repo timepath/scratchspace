@@ -22,5 +22,6 @@ var classDuel =
     [ "m_id", "d0/d0a/classDuel.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d0/d0a/classDuel.html#a48219a8b6e9dc1e20431926319aa7aa3", null ],
     [ "m_priority", "d0/d0a/classDuel.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
+    [ "m_weaponarena", "d0/d0a/classDuel.html#abe55cbfdda839ecee4f9e1f7be9dbf96", null ],
     [ "team", "d0/d0a/classDuel.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

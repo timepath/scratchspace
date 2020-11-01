@@ -1,5 +1,15 @@
 var NAVTREEINDEX31 =
 {
+"d3/d9e/dpextensions_8qh.html#aae5b07ffeb72dbbe7675fda4e3a35a30":[2,0,2,2,18],
+"d3/d9e/dpextensions_8qh.html#aaeb0ad43161874e4e5d79baec4f0ecb7":[2,0,2,2,19],
+"d3/d9e/dpextensions_8qh.html#aba00036f71bb67f8600b239a39cf5ec9":[2,0,2,2,13],
+"d3/d9e/dpextensions_8qh.html#abcd716029e39b1087ce48a12e0490b42":[2,0,2,2,22],
+"d3/d9e/dpextensions_8qh.html#ac0324d7dc1f6504831d939adcde02fa6":[2,0,2,2,33],
+"d3/d9e/dpextensions_8qh.html#ac196ebcbde3827477e385c2ecfb60084":[2,0,2,2,32],
+"d3/d9e/dpextensions_8qh.html#ac8847014472662de37600e592b86ec1f":[2,0,2,2,6],
+"d3/d9e/dpextensions_8qh.html#ac99ec3f1036620727a68aa8c25a8963c":[2,0,2,2,10],
+"d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2":[2,0,2,2,1],
+"d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313":[2,0,2,2,3],
 "d3/d9e/dpextensions_8qh_source.html":[2,0,2,2],
 "d3/d9f/items_2spawning_8qh.html":[2,0,6,3,5],
 "d3/d9f/items_2spawning_8qh.html#a08b65b29d4e4daae4c85d1dd01cf7fda":[2,0,6,3,5,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX31 =
 "d3/dba/classXonoticLanguageList.html#aa0be1afcee01b4904e9b7ccc15674b53":[1,0,212,2],
 "d3/dba/classXonoticLanguageList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,212,40],
 "d3/dba/classXonoticLanguageList.html#aa44cc84618232d6cb216deb8eda1b9ce":[1,0,212,7],
-"d3/dba/classXonoticLanguageList.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,212,57],
-"d3/dba/classXonoticLanguageList.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,212,72],
-"d3/dba/classXonoticLanguageList.html#aab76157d704c72050c49124c5c9ac94d":[1,0,212,63],
-"d3/dba/classXonoticLanguageList.html#aad099a0549928c37867d05a5dde2a511":[1,0,212,71],
-"d3/dba/classXonoticLanguageList.html#aaf8086d5ee823773fc4ee8646a2198e3":[1,0,212,49],
-"d3/dba/classXonoticLanguageList.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,212,74],
-"d3/dba/classXonoticLanguageList.html#ab5402c33943e1e54412923eb2db98380":[1,0,212,50],
-"d3/dba/classXonoticLanguageList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,212,78],
-"d3/dba/classXonoticLanguageList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,212,69],
-"d3/dba/classXonoticLanguageList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,212,65],
-"d3/dba/classXonoticLanguageList.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,212,16]
+"d3/dba/classXonoticLanguageList.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,212,57]
 };

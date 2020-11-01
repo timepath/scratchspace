@@ -22,5 +22,6 @@ var classOnslaught =
     [ "m_id", "d0/dab/classOnslaught.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d0/dab/classOnslaught.html#a1759a6245b9f5caac6b54e97b13a4f42", null ],
     [ "m_priority", "d0/dab/classOnslaught.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
+    [ "m_weaponarena", "d0/dab/classOnslaught.html#abe55cbfdda839ecee4f9e1f7be9dbf96", null ],
     [ "team", "d0/dab/classOnslaught.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

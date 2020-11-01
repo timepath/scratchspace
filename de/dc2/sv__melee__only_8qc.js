@@ -7,6 +7,6 @@ var sv__melee__only_8qc =
     [ "MUTATOR_HOOKFUNCTION", "de/dc2/sv__melee__only_8qc.html#afe2036e23120afaf50c25eff1b9cbdb4", null ],
     [ "MUTATOR_HOOKFUNCTION", "de/dc2/sv__melee__only_8qc.html#a186b55e5f37eb79c0588e2375abc4905", null ],
     [ "MUTATOR_HOOKFUNCTION", "de/dc2/sv__melee__only_8qc.html#ad5ac287028021a6d0eeb43e77880cf11", null ],
-    [ "REGISTER_MUTATOR", "de/dc2/sv__melee__only_8qc.html#acc77fd2006ad576851b0fa794e2ae2bb", null ],
+    [ "REGISTER_MUTATOR", "de/dc2/sv__melee__only_8qc.html#a214144eae629696ca054e79e4d700763", null ],
     [ "autocvar_g_melee_only", "de/dc2/sv__melee__only_8qc.html#a4cc89aa28edf36b1c3e483b7cab6afcb", null ]
 ];

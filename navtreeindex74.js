@@ -1,5 +1,17 @@
 var NAVTREEINDEX74 =
 {
+"d8/d35/classXonoticHUDChatDialog.html#a05bf8a102832e7ef8e5899488314ce85":[1,0,187,81],
+"d8/d35/classXonoticHUDChatDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,187,3],
+"d8/d35/classXonoticHUDChatDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,187,82],
+"d8/d35/classXonoticHUDChatDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,187,80],
+"d8/d35/classXonoticHUDChatDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,187,46],
+"d8/d35/classXonoticHUDChatDialog.html#a14fd4de316ed42819f2e80f3391767c7":[1,0,187,76],
+"d8/d35/classXonoticHUDChatDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,187,24],
+"d8/d35/classXonoticHUDChatDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,187,17],
+"d8/d35/classXonoticHUDChatDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,187,72],
+"d8/d35/classXonoticHUDChatDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,187,69],
+"d8/d35/classXonoticHUDChatDialog.html#a1e3ab8541b20e732388c7f862af0bd8a":[1,0,187,22],
+"d8/d35/classXonoticHUDChatDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,187,68],
 "d8/d35/classXonoticHUDChatDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,187,7],
 "d8/d35/classXonoticHUDChatDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,187,70],
 "d8/d35/classXonoticHUDChatDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,187,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX74 =
 "d8/d57/sv__random__gravity_8qh_source.html":[2,0,1,10,0,26,3],
 "d8/d58/calculations_8qc.html":[2,0,1,16,8],
 "d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7":[2,0,1,16,8,0],
-"d8/d58/calculations_8qc.html#a183c3a3b3707f51936ec7dc51576de8f":[2,0,1,16,8,5],
-"d8/d58/calculations_8qc.html#a3202e6e8fbf2ae7ae1bf47a1f55ea8f9":[2,0,1,16,8,7],
-"d8/d58/calculations_8qc.html#a3f9e19a2c62edec6ce25b02fd20c7fcd":[2,0,1,16,8,6],
-"d8/d58/calculations_8qc.html#a468e15dca4d551cc26cf33a97de62650":[2,0,1,16,8,2],
-"d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad":[2,0,1,16,8,3],
-"d8/d58/calculations_8qc.html#a4a34221f79cad0b72ecf3df3f930bda9":[2,0,1,16,8,1],
-"d8/d58/calculations_8qc.html#a8c505b0c356899393ec20a52c48b7c7f":[2,0,1,16,8,4],
-"d8/d58/calculations_8qc_source.html":[2,0,1,16,8],
-"d8/d59/waypointsprites_8qh.html":[2,0,1,10,0,39,5],
-"d8/d59/waypointsprites_8qh.html#a29dcc04d173ff86f1b01b62a94d45c0c":[2,0,1,10,0,39,5,0],
-"d8/d59/waypointsprites_8qh.html#a2a10f4f3932f9b83f847f3e3d7c325ab":[2,0,1,10,0,39,5,3],
-"d8/d59/waypointsprites_8qh.html#a9fb1df18ea71e49ce5e98c2fc4232adf":[2,0,1,10,0,39,5,1],
-"d8/d59/waypointsprites_8qh.html#af4b738cfb11ab91755d00f44be5b314b":[2,0,1,10,0,39,5,2]
+"d8/d58/calculations_8qc.html#a183c3a3b3707f51936ec7dc51576de8f":[2,0,1,16,8,5]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX58 =
 {
+"d6/d77/colorbutton_8qc.html#aacaf8a34627af55c71fcfbc3534dbc10":[2,0,5,4,18,1],
+"d6/d77/colorbutton_8qc.html#ab7202b7221a20a9f9aef7d8ab00ee647":[2,0,5,4,18,2],
+"d6/d77/colorbutton_8qc.html#af5e884f627dc84410da32327332d7749":[2,0,5,4,18,3],
+"d6/d77/colorbutton_8qc.html#afbfe01b1f8f6bcfb70431bcdfb4c2992":[2,0,5,4,18,4],
+"d6/d77/colorbutton_8qc_source.html":[2,0,5,4,18],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html":[1,0,177],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,177,34],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,177,15],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,177,42],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,177,9],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,177,3],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,177,76],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,177,84],
@@ -239,15 +249,5 @@ var NAVTREEINDEX58 =
 "d6/d8f/score_8qc.html":[2,0,0,1,0,32],
 "d6/d8f/score_8qc.html#a8266d5d080761ce457b269fd0a6a22c1":[2,0,0,1,0,32,2],
 "d6/d8f/score_8qc.html#ae9ecf4084b22f8c772d03ad76b7b5c52":[2,0,0,1,0,32,1],
-"d6/d8f/score_8qc.html#af299e2a5219b4b963a923527b78ed9a7":[2,0,0,1,0,32,0],
-"d6/d8f/score_8qc_source.html":[2,0,0,1,0,32],
-"d6/d92/classClientState.html":[1,0,19],
-"d6/d92/classClientState.html#a01eec6f88959bca456197b5fe9b5cf90":[1,0,19,1],
-"d6/d92/classClientState.html#a0774a1243839c8151d2f16f63a500bb6":[1,0,19,0],
-"d6/d92/classClientState.html#a796e5412ca7f00990187accb366124ba":[1,0,19,2],
-"d6/d92/common_2weapons_2__mod_8qh.html":[2,0,1,16,4],
-"d6/d92/common_2weapons_2__mod_8qh_source.html":[2,0,1,16,4],
-"d6/d93/animhost_8qh.html":[2,0,5,0,5],
-"d6/d93/animhost_8qh_source.html":[2,0,5,0,5],
-"d6/d95/common_2mutators_2mutator_2offhand__blaster_2__mod_8qh.html":[2,0,1,10,0,22,1]
+"d6/d8f/score_8qc.html#af299e2a5219b4b963a923527b78ed9a7":[2,0,0,1,0,32,0]
 };

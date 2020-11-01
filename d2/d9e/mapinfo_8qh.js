@@ -43,6 +43,7 @@ var mapinfo_8qh =
     [ "GAMETYPE_FLAG_PRIORITY", "d2/d9e/mapinfo_8qh.html#a0eb1cdd2bbddaf868979d3af8d2805f3", null ],
     [ "GAMETYPE_FLAG_TEAMPLAY", "d2/d9e/mapinfo_8qh.html#a8395692e019a2d40412f52db12851d0f", null ],
     [ "GAMETYPE_FLAG_USEPOINTS", "d2/d9e/mapinfo_8qh.html#a26c63b6bc209facf7b196a25d3367a55", null ],
+    [ "GAMETYPE_FLAG_WEAPONARENA", "d2/d9e/mapinfo_8qh.html#abc4b1b48f22fff73b8eb1edd1b54b4e2", null ],
     [ "m_flags", "d2/d9e/mapinfo_8qh.html#acf88a9269a6bde0e77d6d64102d824ad", null ],
     [ "MapInfo_count", "d2/d9e/mapinfo_8qh.html#a4feed7b8c797d8d06041dcdba6934c2c", null ],
     [ "MAPINFO_FEATURE_MONSTERS", "d2/d9e/mapinfo_8qh.html#a01232a9cbc5fc31c7684df8500eb664e", null ],

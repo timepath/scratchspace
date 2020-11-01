@@ -22,5 +22,6 @@ var classRace =
     [ "m_id", "dd/dd0/classRace.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "dd/dd0/classRace.html#a034a4fc92a50d73609686c935bd4b687", null ],
     [ "m_priority", "dd/dd0/classRace.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
+    [ "m_weaponarena", "dd/dd0/classRace.html#abe55cbfdda839ecee4f9e1f7be9dbf96", null ],
     [ "team", "dd/dd0/classRace.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

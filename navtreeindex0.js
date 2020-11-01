@@ -18,8 +18,9 @@ var NAVTREEINDEX0 =
 "d0/d0a/classDuel.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,32,2],
 "d0/d0a/classDuel.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,32,17],
 "d0/d0a/classDuel.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,32,4],
+"d0/d0a/classDuel.html#abe55cbfdda839ecee4f9e1f7be9dbf96":[1,0,32,22],
 "d0/d0a/classDuel.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,32,3],
-"d0/d0a/classDuel.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,32,22],
+"d0/d0a/classDuel.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,32,23],
 "d0/d0a/classDuel.html#ad15993848bc92a1c7bf0c70aeee7bbd2":[1,0,32,21],
 "d0/d0a/classDuel.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,32,6],
 "d0/d0a/classDuel.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,32,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "d0/d28/classMage.html#ab7129c75f69af50d0b1d1d13f87d7e5f":[1,0,72,10],
 "d0/d28/classMage.html#abbd3a53ddd2019b6933a9e40910cfc58":[1,0,72,3],
 "d0/d28/classMage.html#adc5acc9cbff0fdce03b8253cfa102777":[1,0,72,5],
-"d0/d2a/client_2main_8qh.html":[2,0,0,16],
-"d0/d2a/client_2main_8qh.html#a01b9d63c00330be2acbedfa4d4694e58":[2,0,0,16,53]
+"d0/d2a/client_2main_8qh.html":[2,0,0,16]
 };

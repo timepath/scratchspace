@@ -22,5 +22,6 @@ var classDomination =
     [ "m_id", "d2/d88/classDomination.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d2/d88/classDomination.html#a9fe1a8c5f5e8e087e4e5d252452318af", null ],
     [ "m_priority", "d2/d88/classDomination.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
+    [ "m_weaponarena", "d2/d88/classDomination.html#abe55cbfdda839ecee4f9e1f7be9dbf96", null ],
     [ "team", "d2/d88/classDomination.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];

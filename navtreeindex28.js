@@ -1,5 +1,15 @@
 var NAVTREEINDEX28 =
 {
+"d3/d46/mapinfo_8qc.html#a4c0e831add5d3d38dc1c6acb57beabd4":[2,0,1,34,28],
+"d3/d46/mapinfo_8qc.html#a51a356e1e4cfa91adc4b65bd3ebb1e55":[2,0,1,34,25],
+"d3/d46/mapinfo_8qc.html#a52d7de04a91f2719a995565171513e26":[2,0,1,34,38],
+"d3/d46/mapinfo_8qc.html#a53227eb055bce2f2d9197dbfd3541c78":[2,0,1,34,55],
+"d3/d46/mapinfo_8qc.html#a64dec8604825bec73d85cbc37a1e75ae":[2,0,1,34,44],
+"d3/d46/mapinfo_8qc.html#a6718c6cd677f3f70d71fe5079e86ade9":[2,0,1,34,5],
+"d3/d46/mapinfo_8qc.html#a70ce1094a7b3d4e54f0e8f78b7c11499":[2,0,1,34,36],
+"d3/d46/mapinfo_8qc.html#a799a2e72317c8785c4b259a1c568548e":[2,0,1,34,23],
+"d3/d46/mapinfo_8qc.html#a7cbd9edfae5695f0f3e239701462b6d9":[2,0,1,34,16],
+"d3/d46/mapinfo_8qc.html#a7cc735514812bcfcec0a10009e84c871":[2,0,1,34,6],
 "d3/d46/mapinfo_8qc.html#a7d438f7d5d7ddae6e68365b0cb30ae9a":[2,0,1,34,19],
 "d3/d46/mapinfo_8qc.html#a8376e1f3ab6210a25a34c278e6308070":[2,0,1,34,15],
 "d3/d46/mapinfo_8qc.html#a88aceb7375d732871e33861c7efd281c":[2,0,1,34,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX28 =
 "d3/d52/classXonoticResetDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,234,39],
 "d3/d53/server_2mapvoting_8qh.html":[2,0,6,42],
 "d3/d53/server_2mapvoting_8qh.html#a0341c7d8abde7cef8219e9aee58581b5":[2,0,6,42,20],
-"d3/d53/server_2mapvoting_8qh.html#a1132b1b53004f97366d5072dacebe31e":[2,0,6,42,15],
-"d3/d53/server_2mapvoting_8qh.html#a127fbeaa943ada40eb9bcbc3aa2b3a58":[2,0,6,42,1],
-"d3/d53/server_2mapvoting_8qh.html#a13d33aa977bdf38b8384785376590f49":[2,0,6,42,3],
-"d3/d53/server_2mapvoting_8qh.html#a166a8e01f650221d9160e68b58b09354":[2,0,6,42,9],
-"d3/d53/server_2mapvoting_8qh.html#a1dac7e6e520cba64e8abd4147ec05e10":[2,0,6,42,26],
-"d3/d53/server_2mapvoting_8qh.html#a3e88f2b64efebdb02a339e5494f1b0ac":[2,0,6,42,2],
-"d3/d53/server_2mapvoting_8qh.html#a3f4402dfbe37543267506d975fe6ef66":[2,0,6,42,21],
-"d3/d53/server_2mapvoting_8qh.html#a4075eb687bd39753f08c9a60cf7cf111":[2,0,6,42,11],
-"d3/d53/server_2mapvoting_8qh.html#a443cb6b73dfcbff0e0b2ec089585d3f6":[2,0,6,42,13],
-"d3/d53/server_2mapvoting_8qh.html#a465dd50d17df18561cc9b6decf207ae6":[2,0,6,42,17],
-"d3/d53/server_2mapvoting_8qh.html#a55a404e632b9599200cdd019f8c03964":[2,0,6,42,8]
+"d3/d53/server_2mapvoting_8qh.html#a1132b1b53004f97366d5072dacebe31e":[2,0,6,42,15]
 };

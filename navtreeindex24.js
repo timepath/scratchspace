@@ -1,5 +1,14 @@
 var NAVTREEINDEX24 =
 {
+"d2/dd7/server_2pathlib_2__mod_8qh_source.html":[2,0,6,5,1],
+"d2/ddd/sv__assault_8qh.html":[2,0,1,3,0,0,5],
+"d2/ddd/sv__assault_8qh.html#a0494762bdff1811919ef03e61c894e3e":[2,0,1,3,0,0,5,5],
+"d2/ddd/sv__assault_8qh.html#a5753f4b0d3f0961028891e42b2d2f2ee":[2,0,1,3,0,0,5,0],
+"d2/ddd/sv__assault_8qh.html#a60dc5332f25db6149f189046a8915af2":[2,0,1,3,0,0,5,7],
+"d2/ddd/sv__assault_8qh.html#a6c1be8aa70a07ec6b91cfb1050ddcbc8":[2,0,1,3,0,0,5,10],
+"d2/ddd/sv__assault_8qh.html#a7c876617d922cd16d5dab82fe6fce4e3":[2,0,1,3,0,0,5,8],
+"d2/ddd/sv__assault_8qh.html#a90b02641f0c7d1b01f7998fe398c95c1":[2,0,1,3,0,0,5,11],
+"d2/ddd/sv__assault_8qh.html#aa8464a01888d74a2efa42f05a8946ba0":[2,0,1,3,0,0,5,6],
 "d2/ddd/sv__assault_8qh.html#aae75592036bbad8155a2c2b1f82aa17c":[2,0,1,3,0,0,5,1],
 "d2/ddd/sv__assault_8qh.html#ab00757b4833b07df889397e6f544ab0a":[2,0,1,3,0,0,5,12],
 "d2/ddd/sv__assault_8qh.html#ae3a79e8bfe6edb7284009e4102637da4":[2,0,1,3,0,0,5,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX24 =
 "d3/d01/classXonoticMultiplayerDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,220,47],
 "d3/d01/classXonoticMultiplayerDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,220,52],
 "d3/d01/classXonoticMultiplayerDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,220,27],
-"d3/d01/classXonoticMultiplayerDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,220,20],
-"d3/d01/classXonoticMultiplayerDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,220,13],
-"d3/d01/classXonoticMultiplayerDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,220,59],
-"d3/d01/classXonoticMultiplayerDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,220,28],
-"d3/d01/classXonoticMultiplayerDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,220,44],
-"d3/d01/classXonoticMultiplayerDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,220,54],
-"d3/d01/classXonoticMultiplayerDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,220,84],
-"d3/d01/classXonoticMultiplayerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,220,1],
-"d3/d01/classXonoticMultiplayerDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,220,37],
-"d3/d01/classXonoticMultiplayerDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,220,12]
+"d3/d01/classXonoticMultiplayerDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,220,20]
 };

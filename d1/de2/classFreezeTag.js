@@ -23,5 +23,6 @@ var classFreezeTag =
     [ "m_id", "d1/de2/classFreezeTag.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "m_legacydefaults", "d1/de2/classFreezeTag.html#ac7a231399b9bb7e204d95c3ded3535b7", null ],
     [ "m_priority", "d1/de2/classFreezeTag.html#ad15993848bc92a1c7bf0c70aeee7bbd2", null ],
+    [ "m_weaponarena", "d1/de2/classFreezeTag.html#abe55cbfdda839ecee4f9e1f7be9dbf96", null ],
     [ "team", "d1/de2/classFreezeTag.html#ac244649c1cd58705b097a03e9e3b3b40", null ]
 ];
