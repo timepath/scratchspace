@@ -1,7 +1,5 @@
 var NAVTREEINDEX134 =
 {
-"df/d42/vaporizer_8qc_source.html":[2,0,1,16,0,38],
-"df/d44/dialog__settings__video_8qh.html":[2,0,5,4,161],
 "df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,161,1],
 "df/d44/dialog__settings__video_8qh_source.html":[2,0,5,4,161],
 "df/d49/classSound.html":[1,0,125],
@@ -249,5 +247,7 @@ var NAVTREEINDEX134 =
 "df/d6e/classXonoticSingleplayerDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,249,45],
 "df/d6e/classXonoticSingleplayerDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,249,55],
 "df/d6e/classXonoticSingleplayerDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,249,85],
-"df/d6e/classXonoticSingleplayerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,249,1]
+"df/d6e/classXonoticSingleplayerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,249,1],
+"df/d6e/classXonoticSingleplayerDialog.html#a3c3530831d992c56d8cd3c69b4a00575":[1,0,249,58],
+"df/d6e/classXonoticSingleplayerDialog.html#a3d4de5a21e8c26b649c275e35a9dbbe1":[1,0,249,5]
 };

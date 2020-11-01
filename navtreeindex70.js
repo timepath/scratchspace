@@ -1,6 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"d7/db1/common_2command_2__mod_8inc.html":[2,0,1,0,0],
 "d7/db1/common_2command_2__mod_8inc_source.html":[2,0,1,0,0],
 "d7/db2/dialog__singleplayer__winner_8qc.html":[2,0,5,4,164],
 "d7/db2/dialog__singleplayer__winner_8qc.html#a3771f6f203b33af849a31b9d0a8a5cf5":[2,0,5,4,164,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX70 =
 "d7/dd0/sv__onslaught_8qh.html#a654ef4fe1e674980a48173d3aab1cced":[2,0,1,3,0,13,17,42],
 "d7/dd0/sv__onslaught_8qh.html#a660adb9561a1b9f4a3af812b4c2d4ecc":[2,0,1,3,0,13,17,31],
 "d7/dd0/sv__onslaught_8qh.html#a6e8263ddccd8105c0e49f34304b7894c":[2,0,1,3,0,13,17,7],
-"d7/dd0/sv__onslaught_8qh.html#a7618401c2a64878ab65cb8f1a3ea802a":[2,0,1,3,0,13,17,30]
+"d7/dd0/sv__onslaught_8qh.html#a7618401c2a64878ab65cb8f1a3ea802a":[2,0,1,3,0,13,17,30],
+"d7/dd0/sv__onslaught_8qh.html#a7cfc86894dfd752288cc5ca2c507e714":[2,0,1,3,0,13,17,11]
 };

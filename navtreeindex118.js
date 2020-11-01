@@ -1,7 +1,5 @@
 var NAVTREEINDEX118 =
 {
-"dd/d73/classMachineGun.html#aae93ec4cdbab0e4962d71c8f7e81f911":[1,0,69,28],
-"dd/d73/classMachineGun.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,69,5],
 "dd/d73/classMachineGun.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,69,10],
 "dd/d73/classMachineGun.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,69,7],
 "dd/d73/classMachineGun.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,69,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX118 =
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,184,90],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,184,81],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,184,55],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,184,48]
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,184,48],
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,184,74],
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,184,67]
 };

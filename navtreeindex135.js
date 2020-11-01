@@ -1,7 +1,5 @@
 var NAVTREEINDEX135 =
 {
-"df/d6e/classXonoticSingleplayerDialog.html#a3c3530831d992c56d8cd3c69b4a00575":[1,0,249,58],
-"df/d6e/classXonoticSingleplayerDialog.html#a3d4de5a21e8c26b649c275e35a9dbbe1":[1,0,249,5],
 "df/d6e/classXonoticSingleplayerDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,249,38],
 "df/d6e/classXonoticSingleplayerDialog.html#a42f80ae577f4961d9d000a73830a7cdd":[1,0,249,59],
 "df/d6e/classXonoticSingleplayerDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,249,13],
@@ -249,5 +247,7 @@ var NAVTREEINDEX135 =
 "df/d7f/crosshair_8qh.html#aeeeadd22f2da073e3020aa69a474ea5b":[2,0,0,1,4,4],
 "df/d7f/crosshair_8qh.html#af5b538a15e019793d979871bdf394960":[2,0,0,1,4,11],
 "df/d7f/crosshair_8qh.html#afa0b1538569f26cca1f81961e7f6c50c":[2,0,0,1,4,12],
-"df/d7f/crosshair_8qh.html#afc9e4837d2a4b5454f28ba71f3fb980a":[2,0,0,1,4,40]
+"df/d7f/crosshair_8qh.html#afc9e4837d2a4b5454f28ba71f3fb980a":[2,0,0,1,4,40],
+"df/d7f/crosshair_8qh_source.html":[2,0,0,1,4],
+"df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc.html":[2,0,1,10,0,2,0]
 };

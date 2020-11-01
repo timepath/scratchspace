@@ -1,7 +1,5 @@
 var NAVTREEINDEX120 =
 {
-"dd/da3/classXonoticMusicPlayerTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,221,43],
-"dd/da3/classXonoticMusicPlayerTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,221,7],
 "dd/da3/net__notice_8qh.html":[2,0,1,38],
 "dd/da3/net__notice_8qh_source.html":[2,0,1,38],
 "dd/da5/gamelog_8qc.html":[2,0,6,27],
@@ -249,5 +247,7 @@ var NAVTREEINDEX120 =
 "dd/dbe/world_8qc.html#a7f0150e78f1bcf0f515e35ed1d37248a":[2,0,6,71,44],
 "dd/dbe/world_8qc.html#a84147cbd8197c98a9f450a3239313ad5":[2,0,6,71,28],
 "dd/dbe/world_8qc.html#a8be822947584a768a2dc80a2e5129043":[2,0,6,71,26],
-"dd/dbe/world_8qc.html#a8dce5fe1733c12f65d15354bf9d4f3b0":[2,0,6,71,15]
+"dd/dbe/world_8qc.html#a8dce5fe1733c12f65d15354bf9d4f3b0":[2,0,6,71,15],
+"dd/dbe/world_8qc.html#a8de1beddd651b67787ba2753ea71d5b2":[2,0,6,71,1],
+"dd/dbe/world_8qc.html#a8f7565a7318ba27627a5f2d17d044172":[2,0,6,71,4]
 };

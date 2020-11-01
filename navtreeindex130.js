@@ -1,7 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"de/dab/classObserver.html#a9949f317e826a11c87e0d5c76aa4404f":[1,0,88,10],
-"de/dab/classObserver.html#a9bbd350ba715f5cfec4ea084e87381e8":[1,0,88,110],
 "de/dab/classObserver.html#a9c57279f6f4beda5ed8b56fc05e4c733":[1,0,88,98],
 "de/dab/classObserver.html#a9e8c81f1b8b9d620016488589df74af4":[1,0,88,52],
 "de/dab/classObserver.html#aa510c2951125f9080769b4222101e900":[1,0,88,26],
@@ -249,5 +247,7 @@ var NAVTREEINDEX130 =
 "de/ddc/classOverkillMachineGun.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,94,5],
 "de/ddc/classOverkillMachineGun.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,94,10],
 "de/ddc/classOverkillMachineGun.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,94,7],
-"de/ddc/classOverkillMachineGun.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,94,2]
+"de/ddc/classOverkillMachineGun.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,94,2],
+"de/ddc/classOverkillMachineGun.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,94,37],
+"de/ddc/classOverkillMachineGun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,94,22]
 };

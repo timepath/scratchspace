@@ -1,6 +1,9 @@
 var sv__buffs_8qh =
 [
+    [ "AUTOCVAR", "d8/dd8/sv__buffs_8qh.html#a0f38f38cb2a21d68db8fa4402b5b9023", null ],
     [ "buff_Available", "d8/dd8/sv__buffs_8qh.html#a77fd18a78f1e4c215d54d855c7230851", null ],
+    [ "buffs_Initialize", "d8/dd8/sv__buffs_8qh.html#a29c07246b35b642337dcd9adb483e5e9", null ],
+    [ "REGISTER_MUTATOR", "d8/dd8/sv__buffs_8qh.html#a6621fe3d1b04215053a255eec76cde6b", null ],
     [ "autocvar_g_buffs_bash_force", "d8/dd8/sv__buffs_8qh.html#a0d84d09ba97d91bcb26890b17348216d", null ],
     [ "autocvar_g_buffs_bash_force_self", "d8/dd8/sv__buffs_8qh.html#aaf00c5061ff8830735e234b2cd2fcaa0", null ],
     [ "autocvar_g_buffs_cooldown_activate", "d8/dd8/sv__buffs_8qh.html#a020006eca41a51b198f5c83e80f14207", null ],
@@ -22,9 +25,6 @@ var sv__buffs_8qh =
     [ "autocvar_g_buffs_luck_damagemultiplier", "d8/dd8/sv__buffs_8qh.html#af966850c6d875356e28e7d26aedf5c80", null ],
     [ "autocvar_g_buffs_magnet_range_buff", "d8/dd8/sv__buffs_8qh.html#aa72e5a5d1978e76508148f92c302a1b6", null ],
     [ "autocvar_g_buffs_magnet_range_item", "d8/dd8/sv__buffs_8qh.html#a8ba821803143c0908230ddb415971b90", null ],
-    [ "autocvar_g_buffs_medic_heal_amount", "d8/dd8/sv__buffs_8qh.html#add8d9d71cbac0ee18bc817ec184d1b9c", null ],
-    [ "autocvar_g_buffs_medic_heal_delay", "d8/dd8/sv__buffs_8qh.html#a6cf6a2aef5bc96b0803cf5ec2e5687f0", null ],
-    [ "autocvar_g_buffs_medic_heal_range", "d8/dd8/sv__buffs_8qh.html#aeff6df93d73a33e64bb77131daf15df7", null ],
     [ "autocvar_g_buffs_medic_max", "d8/dd8/sv__buffs_8qh.html#afde6a16a6d5c3ed3645a72b3cc0cee87", null ],
     [ "autocvar_g_buffs_medic_regen", "d8/dd8/sv__buffs_8qh.html#af6d860d099f05c1ff62e70c7c593b163", null ],
     [ "autocvar_g_buffs_medic_rot", "d8/dd8/sv__buffs_8qh.html#a828910a7801d1c3d437b0d8d70fd951c", null ],
@@ -60,7 +60,6 @@ var sv__buffs_8qh =
     [ "buff_flight_oldgravity", "d8/dd8/sv__buffs_8qh.html#a01fa3fa61fba7504c73a675412ed7e07", null ],
     [ "buff_invisible_prev_alpha", "d8/dd8/sv__buffs_8qh.html#a5bbf97ae7f512d171a5d738d82f793f4", null ],
     [ "BUFF_MAX", "d8/dd8/sv__buffs_8qh.html#a03957de995522dc44980d0586c7743d1", null ],
-    [ "buff_medic_healtime", "d8/dd8/sv__buffs_8qh.html#af5e6a1814015f1f8d2a3c648aa0c5912", null ],
     [ "BUFF_MIN", "d8/dd8/sv__buffs_8qh.html#aae701057346d25da5248646e0898e5ff", null ],
     [ "buff_model", "d8/dd8/sv__buffs_8qh.html#a14f4e75f961cd8672b251062ae26870b", null ],
     [ "buff_shield", "d8/dd8/sv__buffs_8qh.html#a028d0aff7513914b039f9a16bc1ed86b", null ],

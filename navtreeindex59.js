@@ -1,6 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"d6/d8f/score_8qc_source.html":[2,0,0,1,0,32],
 "d6/d92/classClientState.html":[1,0,19],
 "d6/d92/classClientState.html#a01eec6f88959bca456197b5fe9b5cf90":[1,0,19,1],
 "d6/d92/classClientState.html#a0774a1243839c8151d2f16f63a500bb6":[1,0,19,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX59 =
 "d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc_source.html":[2,0,5,4,106],
 "d6/daf/deglobalization_8qh.html":[2,0,4,17],
 "d6/daf/deglobalization_8qh_source.html":[2,0,4,17],
-"d6/db0/sv__ctf_8qh.html":[2,0,1,3,0,2,7]
+"d6/db0/sv__ctf_8qh.html":[2,0,1,3,0,2,7],
+"d6/db0/sv__ctf_8qh.html#a019f742013f3738b67b83cddccc4b27b":[2,0,1,3,0,2,7,105]
 };

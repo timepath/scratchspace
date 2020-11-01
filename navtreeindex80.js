@@ -1,7 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"d8/de2/server_2client_8qh.html#a2f210fc86b2cd8cf2b10968dd8ffff7a":[2,0,6,20,76],
-"d8/de2/server_2client_8qh.html#a2f922a52027cffacd40223e47d919229":[2,0,6,20,79],
 "d8/de2/server_2client_8qh.html#a31c2e523e63d0215e6075125fea821f3":[2,0,6,20,101],
 "d8/de2/server_2client_8qh.html#a32a4dd8d5385cd0d5fd0dc5fa3daf732":[2,0,6,20,116],
 "d8/de2/server_2client_8qh.html#a334146765709c91d303d39b64d70960c":[2,0,6,20,27],
@@ -249,5 +247,7 @@ var NAVTREEINDEX80 =
 "d8/df7/classXonoticParticlesSlider.html#af6491199d7c16232c6ec828661a64ecf":[1,0,224,11],
 "d8/df7/classXonoticParticlesSlider.html#af9fddf9420dfbf92a4fb716acfaa260c":[1,0,224,55],
 "d8/df7/classXonoticParticlesSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,224,83],
-"d8/dfb/common_2mutators_2mutator_2damagetext_2__mod_8inc.html":[2,0,1,10,0,6,0]
+"d8/dfb/common_2mutators_2mutator_2damagetext_2__mod_8inc.html":[2,0,1,10,0,6,0],
+"d8/dfb/common_2mutators_2mutator_2damagetext_2__mod_8inc_source.html":[2,0,1,10,0,6,0],
+"d8/dfe/classPlasmaDualAttack.html":[1,0,102]
 };

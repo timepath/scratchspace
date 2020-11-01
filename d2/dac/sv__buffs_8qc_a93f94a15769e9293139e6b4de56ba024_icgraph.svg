@@ -46,9 +46,9 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 515;
+var viewWidth = 664;
 var viewHeight = 142;
-var sectionId = 'dynsection-19';
+var sectionId = 'dynsection-17';
 </script>
 <script xlink:href="../../svgpan.js"/>
 <svg id="graph" class="graph">
@@ -94,7 +94,7 @@ var sectionId = 'dynsection-19';
 </g>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
-<g id="edge8" class="edge"><title>Node2&#45;&gt;Node4</title>
+<g id="edge9" class="edge"><title>Node2&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M166.088,-71.5185C224.879,-78.8794 340.577,-93.3656 398.594,-100.63"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="166.496,-68.0423 156.139,-70.2727 165.627,-74.9881 166.496,-68.0423"/>
 </g>
@@ -144,16 +144,29 @@ var sectionId = 'dynsection-19';
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d2/dac/sv__buffs_8qc.html#a6621fe3d1b04215053a255eec76cde6b" target="_top" xlink:title="REGISTER_MUTATOR">
-<polygon fill="none" stroke="black" points="378,-0.5 378,-19.5 491,-19.5 491,-0.5 378,-0.5"/>
-<text text-anchor="middle" x="434.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">REGISTER_MUTATOR</text>
+<g id="a_node8"><a xlink:href="../../d8/dd8/sv__buffs_8qh.html#a29c07246b35b642337dcd9adb483e5e9" target="_top" xlink:title="buffs_Initialize">
+<polygon fill="none" stroke="black" points="393,-0.5 393,-19.5 476,-19.5 476,-0.5 393,-0.5"/>
+<text text-anchor="middle" x="434.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">buffs_Initialize</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge7" class="edge"><title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M318.433,-10C337.591,-10 358.818,-10 377.77,-10"/>
+<path fill="none" stroke="midnightblue" d="M318.55,-10C342.935,-10 370.656,-10 392.765,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="318.329,-6.5001 308.329,-10 318.329,-13.5001 318.329,-6.5001"/>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="../../d8/dd8/sv__buffs_8qh.html#a6621fe3d1b04215053a255eec76cde6b" target="_top" xlink:title="REGISTER_MUTATOR">
+<polygon fill="none" stroke="black" points="543,-0.5 543,-19.5 656,-19.5 656,-0.5 543,-0.5"/>
+<text text-anchor="middle" x="599.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">REGISTER_MUTATOR</text>
+</a>
+</g>
+</g>
+<!-- Node8&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node8&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M486.223,-10C504.223,-10 524.57,-10 542.951,-10"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="486.211,-6.5001 476.211,-10 486.211,-13.5001 486.211,-6.5001"/>
 </g>
 </g>
 </svg>
