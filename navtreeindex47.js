@@ -1,5 +1,10 @@
 var NAVTREEINDEX47 =
 {
+"d4/dd1/spawnpoints_8qh.html#a5d88e76b04abc36016eda23afcc61ef1":[2,0,6,61,21],
+"d4/dd1/spawnpoints_8qh.html#a5f15c96eff24340165e9e43c1e64a499":[2,0,6,61,0],
+"d4/dd1/spawnpoints_8qh.html#a5f869a37a426248cd642f64144854d20":[2,0,6,61,14],
+"d4/dd1/spawnpoints_8qh.html#a65f632ea7c75b704550b257f227230cb":[2,0,6,61,3],
+"d4/dd1/spawnpoints_8qh.html#a693d893f5755f55200d6c320c814c6a4":[2,0,6,61,23],
 "d4/dd1/spawnpoints_8qh.html#a71804b6dc31803f43afa105a34e35d04":[2,0,6,61,1],
 "d4/dd1/spawnpoints_8qh.html#a7196b775cedbbcdff77d4007e3955625":[2,0,6,61,16],
 "d4/dd1/spawnpoints_8qh.html#aa6d5c39bc9cc3e4bba2b045c771bb012":[2,0,6,61,17],
@@ -244,10 +249,5 @@ var NAVTREEINDEX47 =
 "d4/def/weapons_8qc.html#acbf6d97cc09f97ee2a71b562ffae170d":[2,0,0,1,0,42,9],
 "d4/def/weapons_8qc.html#aeefd60b5b16eeb09bd4bd219b62bf124":[2,0,0,1,0,42,5],
 "d4/def/weapons_8qc_source.html":[2,0,0,1,0,42],
-"d4/df5/overkill_8qc.html":[2,0,1,10,0,23,14],
-"d4/df5/overkill_8qc_source.html":[2,0,1,10,0,23,14],
-"d4/df7/common_2mutators_2mutator_2cloaked_2__mod_8qh.html":[2,0,1,10,0,5,1],
-"d4/df7/common_2mutators_2mutator_2cloaked_2__mod_8qh_source.html":[2,0,1,10,0,5,1],
-"d4/df8/classXonoticHUDRadarDialog.html":[1,0,201],
-"d4/df8/classXonoticHUDRadarDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,201,30]
+"d4/df5/overkill_8qc.html":[2,0,1,10,0,23,14]
 };

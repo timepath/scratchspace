@@ -20,6 +20,7 @@ var serverlist_8qc =
     [ "ServerList_PlayerSort_Click", "d6/d74/serverlist_8qc.html#a81e9dffb8d7e8916a40b6a5e683c1103", null ],
     [ "ServerList_ShowEmpty_Click", "d6/d74/serverlist_8qc.html#a12bfb26ccfcef8ad977818e85cee01d5", null ],
     [ "ServerList_ShowFull_Click", "d6/d74/serverlist_8qc.html#a684de7d771e8759c28b3d09b2b667b78", null ],
+    [ "ServerList_ShowLaggy_Click", "d6/d74/serverlist_8qc.html#adf72a8a4885ec45a1dfb5fb4c4cfa688", null ],
     [ "ServerList_TypeSort_Click", "d6/d74/serverlist_8qc.html#a587213c0e3ae8ab5fa77efb6b74ab13e", null ],
     [ "ServerList_Update_favoriteButton", "d6/d74/serverlist_8qc.html#abbb15d670a9ff9ee5f9c6263474960b7", null ],
     [ "SL_ProcessCategoryOverrides", "d6/d74/serverlist_8qc.html#a68ee87c5a2abc1c237c67e8e14b9ded6", null ],

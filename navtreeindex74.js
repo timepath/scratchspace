@@ -1,5 +1,17 @@
 var NAVTREEINDEX74 =
 {
+"d8/d29/playlist_8qc.html#af4b5686808243d953322a71f3f743e66":[2,0,5,4,196,13],
+"d8/d29/playlist_8qc_source.html":[2,0,5,4,196],
+"d8/d34/door__rotating_8qc.html":[2,0,1,6,0,12],
+"d8/d34/door__rotating_8qc_source.html":[2,0,1,6,0,12],
+"d8/d35/classXonoticHUDChatDialog.html":[1,0,187],
+"d8/d35/classXonoticHUDChatDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,187,30],
+"d8/d35/classXonoticHUDChatDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,187,11],
+"d8/d35/classXonoticHUDChatDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,187,38],
+"d8/d35/classXonoticHUDChatDialog.html#a05bf8a102832e7ef8e5899488314ce85":[1,0,187,81],
+"d8/d35/classXonoticHUDChatDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,187,3],
+"d8/d35/classXonoticHUDChatDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,187,82],
+"d8/d35/classXonoticHUDChatDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,187,80],
 "d8/d35/classXonoticHUDChatDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,187,46],
 "d8/d35/classXonoticHUDChatDialog.html#a14fd4de316ed42819f2e80f3391767c7":[1,0,187,76],
 "d8/d35/classXonoticHUDChatDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,187,24],
@@ -237,17 +249,5 @@ var NAVTREEINDEX74 =
 "d8/d4c/dialog__settings__user_8qc_source.html":[2,0,5,4,156],
 "d8/d4f/net__notice_8qc.html":[2,0,1,37],
 "d8/d4f/net__notice_8qc_source.html":[2,0,1,37],
-"d8/d52/server_2pathlib_2__mod_8inc.html":[2,0,6,5,0],
-"d8/d52/server_2pathlib_2__mod_8inc_source.html":[2,0,6,5,0],
-"d8/d56/modeleffects_8qh.html":[2,0,1,2,0,13],
-"d8/d56/modeleffects_8qh_source.html":[2,0,1,2,0,13],
-"d8/d57/sv__random__gravity_8qh.html":[2,0,1,10,0,26,3],
-"d8/d57/sv__random__gravity_8qh_source.html":[2,0,1,10,0,26,3],
-"d8/d58/calculations_8qc.html":[2,0,1,16,8],
-"d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7":[2,0,1,16,8,0],
-"d8/d58/calculations_8qc.html#a183c3a3b3707f51936ec7dc51576de8f":[2,0,1,16,8,5],
-"d8/d58/calculations_8qc.html#a3202e6e8fbf2ae7ae1bf47a1f55ea8f9":[2,0,1,16,8,7],
-"d8/d58/calculations_8qc.html#a3f9e19a2c62edec6ce25b02fd20c7fcd":[2,0,1,16,8,6],
-"d8/d58/calculations_8qc.html#a468e15dca4d551cc26cf33a97de62650":[2,0,1,16,8,2],
-"d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad":[2,0,1,16,8,3]
+"d8/d52/server_2pathlib_2__mod_8inc.html":[2,0,6,5,0]
 };

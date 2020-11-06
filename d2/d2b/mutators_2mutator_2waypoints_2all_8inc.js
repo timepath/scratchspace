@@ -4,7 +4,8 @@ var mutators_2mutator_2waypoints_2all_8inc =
     [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#aa00478a4027fc2c6d462a371a9b80dee", null ],
     [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a1c5033dcf78e583bad1c4ed58369c94e", null ],
     [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a806a9f57622e101dea3bc428f61fb787", null ],
-    [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a4374966541db10592b1fae8c382d9022", null ],
+    [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a9d833e62ccdb5187bb89634af493b510", null ],
+    [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a8c10aecfe1762df7b64ca6d226bc94d1", null ],
     [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a75097aa9c7a85fe7091ee6a099406d7d", null ],
     [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a8171fafc41f05256df2241ba7125120d", null ],
     [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a72f239b882635cb3d64f3090b1b79a08", null ],
@@ -47,5 +48,7 @@ var mutators_2mutator_2waypoints_2all_8inc =
     [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a9b9ba35c8122507e24dbdb9260efffc8", null ],
     [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a8cfe03ccd2f5c1892d295f06647968a6", null ],
     [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#affd0081ea14cc2ee1a9d819dce061c84", null ],
-    [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a4f3d8239a283e6aecdecc488c24d4f3b", null ]
+    [ "REGISTER_WAYPOINT", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a4f3d8239a283e6aecdecc488c24d4f3b", null ],
+    [ "WP_FROZEN_COLOR", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a0d118ccd47a86d76dea33a8a2630fff4", null ],
+    [ "WP_REVIVING_COLOR", "d2/d2b/mutators_2mutator_2waypoints_2all_8inc.html#a2f08699d1f7912c7b75bbd406bf690f3", null ]
 ];

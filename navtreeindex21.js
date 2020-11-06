@@ -1,5 +1,8 @@
 var NAVTREEINDEX21 =
 {
+"d2/d88/classDomination.html#ab6abc87484433123a94107a1fc7c27b9":[1,0,30,0],
+"d2/d88/classDomination.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,30,4],
+"d2/d88/classDomination.html#abd8c38cc79b962b76c29572d618b9fd4":[1,0,30,15],
 "d2/d88/classDomination.html#abe55cbfdda839ecee4f9e1f7be9dbf96":[1,0,30,22],
 "d2/d88/classDomination.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,30,3],
 "d2/d88/classDomination.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,30,23],
@@ -246,8 +249,5 @@ var NAVTREEINDEX21 =
 "d2/db1/sv__invasion_8qh.html":[2,0,1,3,0,8,5],
 "d2/db1/sv__invasion_8qh.html#a1696c31cdbb3e088d0e4cea7f69b0b5d":[2,0,1,3,0,8,5,11],
 "d2/db1/sv__invasion_8qh.html#a16bb2bbe7496645dd1e2f5fae7378ebe":[2,0,1,3,0,8,5,17],
-"d2/db1/sv__invasion_8qh.html#a1da95251eb07c840640be54b71e94ecb":[2,0,1,3,0,8,5,6],
-"d2/db1/sv__invasion_8qh.html#a25529cc1c6aba9e850432cf8d26a5e93":[2,0,1,3,0,8,5,1],
-"d2/db1/sv__invasion_8qh.html#a3d1da5b5736b9891b2238120195d2f2d":[2,0,1,3,0,8,5,16],
-"d2/db1/sv__invasion_8qh.html#a4642768c1d09d22d4cbc0238fcc856e1":[2,0,1,3,0,8,5,12]
+"d2/db1/sv__invasion_8qh.html#a1da95251eb07c840640be54b71e94ecb":[2,0,1,3,0,8,5,6]
 };

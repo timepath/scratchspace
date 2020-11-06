@@ -1,5 +1,17 @@
 var NAVTREEINDEX83 =
 {
+"d9/d18/screenshotlist_8qc.html#af995fcf70036ff2733377c5d44a5ab21":[2,0,5,4,204,10],
+"d9/d18/screenshotlist_8qc.html#afad0eb6c7f7acad6d0e0a509906d4d70":[2,0,5,4,204,14],
+"d9/d18/screenshotlist_8qc_source.html":[2,0,5,4,204],
+"d9/d19/handicap_8qc.html":[2,0,6,29],
+"d9/d19/handicap_8qc.html#a252940bd48dd3ccfad23adddf28e02ae":[2,0,6,29,3],
+"d9/d19/handicap_8qc.html#a41b02148f09797e441feda396ad8c4fc":[2,0,6,29,0],
+"d9/d19/handicap_8qc.html#a4f458f5ffa45353fadde9936cbd0279a":[2,0,6,29,4],
+"d9/d19/handicap_8qc.html#a673d6ca84b1e72bc80cae2e90030056f":[2,0,6,29,2],
+"d9/d19/handicap_8qc.html#a8073140ff6d4f3cf85c3ef2a9d4780d4":[2,0,6,29,5],
+"d9/d19/handicap_8qc.html#ac42efcf2d233a8425c35dbfc9fccc278":[2,0,6,29,1],
+"d9/d19/handicap_8qc_source.html":[2,0,6,29],
+"d9/d19/modalcontroller_8qc.html":[2,0,5,2,22],
 "d9/d19/modalcontroller_8qc.html#a17af5dff33420a075b3b4e7802024e99":[2,0,5,2,22,18],
 "d9/d19/modalcontroller_8qc.html#a36ebc30de316e0c31a992577b8da728c":[2,0,5,2,22,6],
 "d9/d19/modalcontroller_8qc.html#a41ddafc5149fda765464ade1edc25080":[2,0,5,2,22,19],
@@ -237,17 +249,5 @@ var NAVTREEINDEX83 =
 "d9/d43/common_2weapons_2weapon_2hook_8qh.html#a26c1ac788f42d8ea1729fee825f749fd":[2,0,1,16,0,19,5],
 "d9/d43/common_2weapons_2weapon_2hook_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,19,2],
 "d9/d43/common_2weapons_2weapon_2hook_8qh.html#a76ad2e9ba660dce2d6aacd6c16fc7a88":[2,0,1,16,0,19,4],
-"d9/d43/common_2weapons_2weapon_2hook_8qh.html#ac05f10fa7d1e0b2393626a01b06c1954":[2,0,1,16,0,19,3],
-"d9/d43/common_2weapons_2weapon_2hook_8qh_source.html":[2,0,1,16,0,19],
-"d9/d45/globalsound_8qc.html":[2,0,1,2,0,8],
-"d9/d45/globalsound_8qc.html#a0f76411e16fb1a91bf97121690907cd7":[2,0,1,2,0,8,4],
-"d9/d45/globalsound_8qc.html#a15365d2ccf8bbab98e934281f11ed6fc":[2,0,1,2,0,8,9],
-"d9/d45/globalsound_8qc.html#a38180551f3a5aaa493a6e5a181046000":[2,0,1,2,0,8,11],
-"d9/d45/globalsound_8qc.html#a3e65432ddf30f6729addae6c2bf79de9":[2,0,1,2,0,8,8],
-"d9/d45/globalsound_8qc.html#a4d5d1ba467236a8e85f9c9cf18a86852":[2,0,1,2,0,8,0],
-"d9/d45/globalsound_8qc.html#a4fc1198a586672f2b9459c628d386ca7":[2,0,1,2,0,8,2],
-"d9/d45/globalsound_8qc.html#a63392d4ab2c2d2eed41bab4b430cf06a":[2,0,1,2,0,8,14],
-"d9/d45/globalsound_8qc.html#a6d27dd45d58d423f7c352182ea854ef7":[2,0,1,2,0,8,5],
-"d9/d45/globalsound_8qc.html#a7022de3163c4d07ba4bc0547443ae346":[2,0,1,2,0,8,3],
-"d9/d45/globalsound_8qc.html#aa3e301b3f194eb417622653ae6f0669d":[2,0,1,2,0,8,12]
+"d9/d43/common_2weapons_2weapon_2hook_8qh.html#ac05f10fa7d1e0b2393626a01b06c1954":[2,0,1,16,0,19,3]
 };

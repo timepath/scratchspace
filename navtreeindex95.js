@@ -1,5 +1,17 @@
 var NAVTREEINDEX95 =
 {
+"da/dc3/common_2scores_8qh.html#aa13d52abf22e0bcac1f1863c1c0920f9":[2,0,1,44,24],
+"da/dc3/common_2scores_8qh.html#aa27bf8c0d78735062b3cf41d2a618b30":[2,0,1,44,2],
+"da/dc3/common_2scores_8qh.html#ab76434042ddfc9d5e703e038f0ad0b1f":[2,0,1,44,23],
+"da/dc3/common_2scores_8qh.html#ab97882f6a5ab387abdbe993d8baf9292":[2,0,1,44,19],
+"da/dc3/common_2scores_8qh.html#abcb6c5213f5f6450a72fb5ffbe4cea96":[2,0,1,44,14],
+"da/dc3/common_2scores_8qh.html#ac3b2decb32b7a967469fcba5963a3e53":[2,0,1,44,28],
+"da/dc3/common_2scores_8qh.html#acf557e93b6854298dcf5b6602fb6ffed":[2,0,1,44,30],
+"da/dc3/common_2scores_8qh.html#acf88a9269a6bde0e77d6d64102d824ad":[2,0,1,44,22],
+"da/dc3/common_2scores_8qh.html#ad34fe79a91f083d190f0fcb2bfe3ccff":[2,0,1,44,25],
+"da/dc3/common_2scores_8qh.html#ae215b84a51e681283b184a26daf59073":[2,0,1,44,1],
+"da/dc3/common_2scores_8qh.html#ae307c7ff5bb9c7c0dd4a9b8862680816":[2,0,1,44,9],
+"da/dc3/common_2scores_8qh.html#ae7780da786465996b85f5e92850ca081":[2,0,1,44,8],
 "da/dc3/common_2scores_8qh.html#aeada6745e1a86301721bd800dc3b869a":[2,0,1,44,29],
 "da/dc3/common_2scores_8qh_source.html":[2,0,1,44],
 "da/dc5/voicescript_8qc.html":[2,0,1,6,2,18],
@@ -237,17 +249,5 @@ var NAVTREEINDEX95 =
 "da/df4/announcer_8qc.html#abb5b4637e37634b1b1ccc43540b8b369":[2,0,0,7,1],
 "da/df4/announcer_8qc.html#add205a06b0bcf100c9346951fdabee42":[2,0,0,7,9],
 "da/df4/announcer_8qc.html#ae2ec52dab37e3c927a892b5eec19a8bc":[2,0,0,7,7],
-"da/df4/announcer_8qc.html#af849d803cb328d40fe38558b26cdb4bb":[2,0,0,7,0],
-"da/df4/announcer_8qc_source.html":[2,0,0,7],
-"da/df4/sv__duel_8qc.html":[2,0,1,3,0,6,4],
-"da/df4/sv__duel_8qc.html#a63d14df1510faaffd7f26c9e796f39b4":[2,0,1,3,0,6,4,0],
-"da/df4/sv__duel_8qc.html#a75669e8f84b8a0bfb909f0d71677d3f4":[2,0,1,3,0,6,4,1],
-"da/df4/sv__duel_8qc.html#a8003bb09221cfa3f362eecf812f89d82":[2,0,1,3,0,6,4,2],
-"da/df4/sv__duel_8qc_source.html":[2,0,1,3,0,6,4],
-"da/df5/common_2debug_8qh.html":[2,0,1,31],
-"da/df5/common_2debug_8qh.html#a157469dccfce9ccf349acb40614d77ee":[2,0,1,31,2],
-"da/df5/common_2debug_8qh.html#a658eb6bd84defaac66f2b21b2d94e137":[2,0,1,31,4],
-"da/df5/common_2debug_8qh.html#a9caed4186b6f11de51e366b797bbcb33":[2,0,1,31,0],
-"da/df5/common_2debug_8qh.html#abd82cbd4929db37994f06f5224132a40":[2,0,1,31,3],
-"da/df5/common_2debug_8qh.html#af13c819a44cace815264d3c551a45c08":[2,0,1,31,1]
+"da/df4/announcer_8qc.html#af849d803cb328d40fe38558b26cdb4bb":[2,0,0,7,0]
 };

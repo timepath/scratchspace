@@ -80,6 +80,7 @@ var classXonoticServerList =
     [ "dragScrollPos", "d2/dec/classXonoticServerList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3", null ],
     [ "filterShowEmpty", "d2/dec/classXonoticServerList.html#acf0cdacb9317371ad9199c0f8bc1823a", null ],
     [ "filterShowFull", "d2/dec/classXonoticServerList.html#a624fef11142afaaabb589b5f9748e3ba", null ],
+    [ "filterShowLaggy", "d2/dec/classXonoticServerList.html#a42b9e46cafc67dcee41cc80f299fe193", null ],
     [ "focusable", "d2/dec/classXonoticServerList.html#adbc65a2089ef3278a098c80685b4b8a3", null ],
     [ "focused", "d2/dec/classXonoticServerList.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262", null ],
     [ "focusedItem", "d2/dec/classXonoticServerList.html#aa089b7b1be6d628383e60c872a900c79", null ],

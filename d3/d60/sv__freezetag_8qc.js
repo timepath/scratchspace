@@ -22,6 +22,7 @@ var sv__freezetag_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d3/d60/sv__freezetag_8qc.html#aac412fc682fbc2baa210f4161b95ecb4", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d60/sv__freezetag_8qc.html#af832e29eda3354ee7a3ab93b5fbdcb03", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d60/sv__freezetag_8qc.html#a6cedae161a8ef2b32b6678b5c4f7bde4", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d3/d60/sv__freezetag_8qc.html#aae70c0b720874152efd2f7a4c6d1e294", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d60/sv__freezetag_8qc.html#a01beca66d3167bb15f74df1a0fbdd7ae", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d60/sv__freezetag_8qc.html#aecaf603575690431620b9b72705509d4", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d60/sv__freezetag_8qc.html#a9585f0e44add58348bbe9349d76f1c63", null ],

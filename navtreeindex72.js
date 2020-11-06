@@ -1,5 +1,17 @@
 var NAVTREEINDEX72 =
 {
+"d7/de6/classXonoticWeaponarenaCheckBox.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,264,1],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#a886e4df91aff3f4b1bda33666f8174d6":[1,0,264,79],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,264,70],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#a8b3010fc463034904b21d7d6da17a127":[1,0,264,69],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#a8c568c803f49400fd0165b69f82d4161":[1,0,264,68],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#a94b10ad636073784624c4ccf9ce64d26":[1,0,264,53],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#a95e3e1c82a75a5ee33b08f1da84c05bd":[1,0,264,45],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#a98e9b29dfe2a91ddb3b653eee1003b2f":[1,0,264,58],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,264,41],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#aa6290b83f4814f225ff44aa8e8e7c067":[1,0,264,34],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,264,60],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#aad099a0549928c37867d05a5dde2a511":[1,0,264,72],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#aadf22fd0b74fa4a5192dcc33efa3386c":[1,0,264,47],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#aaefd5f78048ffbfdf0e45b630c4b5a4b":[1,0,264,59],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,264,10],
@@ -237,17 +249,5 @@ var NAVTREEINDEX72 =
 "d8/d0e/lazy_8qh.html#af1684a613a0e441d7b47b6cdc4dc878f":[2,0,4,29,2],
 "d8/d0e/lazy_8qh_source.html":[2,0,4,29],
 "d8/d12/classRaptor.html":[1,0,113],
-"d8/d12/classRaptor.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,113,8],
-"d8/d12/classRaptor.html#a06439f934271f5c5223cbf583f539feb":[1,0,113,25],
-"d8/d12/classRaptor.html#a094dc470383a4158c584ddf7b130dc67":[1,0,113,18],
-"d8/d12/classRaptor.html#a127bbb3521b618343bb4ca069e63090f":[1,0,113,19],
-"d8/d12/classRaptor.html#a172a3ade8bb12e9ae30989346d96b805":[1,0,113,16],
-"d8/d12/classRaptor.html#a23b5d8a4e07000e6d08fe727bdf23471":[1,0,113,14],
-"d8/d12/classRaptor.html#a269c42fb128fc5d56fac3abb21fbcdca":[1,0,113,3],
-"d8/d12/classRaptor.html#a58f0c04e5979c92f1d5329627cbf1331":[1,0,113,5],
-"d8/d12/classRaptor.html#a61799a3b07bd7ad2a07d61af510f91f0":[1,0,113,23],
-"d8/d12/classRaptor.html#a70e84502249082a3676988cfb618baf5":[1,0,113,4],
-"d8/d12/classRaptor.html#a84feb55c1ef028f0176592c458dc6c0e":[1,0,113,2],
-"d8/d12/classRaptor.html#a8a293a8bf3a9e86098d45b48cca5cf6e":[1,0,113,28],
-"d8/d12/classRaptor.html#a8ce2a1db2b82992926802c8ce6d7d22b":[1,0,113,1]
+"d8/d12/classRaptor.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,113,8]
 };
