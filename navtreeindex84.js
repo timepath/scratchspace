@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"d9/d43/common_2weapons_2weapon_2hook_8qh.html#ac05f10fa7d1e0b2393626a01b06c1954":[2,0,1,16,0,19,3],
 "d9/d43/common_2weapons_2weapon_2hook_8qh_source.html":[2,0,1,16,0,19],
 "d9/d45/globalsound_8qc.html":[2,0,1,2,0,8],
 "d9/d45/globalsound_8qc.html#a0f76411e16fb1a91bf97121690907cd7":[2,0,1,2,0,8,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "d9/d5b/struct_8qh.html#a93996208007de6effc7114e56a7e65f4":[2,0,4,60,6],
 "d9/d5b/struct_8qh.html#a94daeade56dea5f5261e96be85885c4b":[2,0,4,60,13],
 "d9/d5b/struct_8qh.html#a972d42febb1600df113e5fbffa6d5cb5":[2,0,4,60,10],
-"d9/d5b/struct_8qh.html#a9f2fa4fb4d8db2c082e6662fdab9db89":[2,0,4,60,2],
-"d9/d5b/struct_8qh.html#aae61c44e2c43f3afd1bfc12fd8e5d9dc":[2,0,4,60,16]
+"d9/d5b/struct_8qh.html#a9f2fa4fb4d8db2c082e6662fdab9db89":[2,0,4,60,2]
 };

@@ -23,6 +23,7 @@ var cl__player_8qc =
     [ "CSQCPlayer_SetPredictionError", "d7/da2/cl__player_8qc.html#a40c48ddf2c0cb079a8b728996d9665f2", null ],
     [ "CSQCPlayer_Unpredict", "d7/da2/cl__player_8qc.html#aa0d9624853912644329129207b693e30", null ],
     [ "autocvar_chase_back", "d7/da2/cl__player_8qc.html#a957369adc3c07cc896644044f47d2bbf", null ],
+    [ "autocvar_chase_front", "d7/da2/cl__player_8qc.html#a8935f8d1a5fcb11e3895f3fee2d7cd35", null ],
     [ "autocvar_chase_overhead", "d7/da2/cl__player_8qc.html#ad0782bf316a6577c97ca56c762b0802a", null ],
     [ "autocvar_chase_pitchangle", "d7/da2/cl__player_8qc.html#a947fbb265b75a55a7264ffbbba9571ce", null ],
     [ "autocvar_chase_up", "d7/da2/cl__player_8qc.html#adbc48555961e05e4b4ab4662e4ab110a", null ],

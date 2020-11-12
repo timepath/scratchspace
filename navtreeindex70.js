@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"d7/dac/classXonoticMutatorsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,222,36],
 "d7/dac/classXonoticMutatorsDialog.html#afbaca15381602ad3ced331caef0b4550":[1,0,222,68],
 "d7/dac/classXonoticMutatorsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,222,40],
 "d7/dac/menu_2mutators_2events_8qh.html":[2,0,5,3,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "d7/dd0/sv__onslaught_8qh.html#a21f638b0048b6516d7e8b2773d3e8cb3":[2,0,1,3,0,13,17,47],
 "d7/dd0/sv__onslaught_8qh.html#a2dbf1fa4a91f3f8179c56c75e3e5a816":[2,0,1,3,0,13,17,22],
 "d7/dd0/sv__onslaught_8qh.html#a3e11d4bec5c568403eae4c6a5ecfcbe0":[2,0,1,3,0,13,17,25],
-"d7/dd0/sv__onslaught_8qh.html#a3e9df5e35d2e1a1d92cb47e72b572d4a":[2,0,1,3,0,13,17,2],
-"d7/dd0/sv__onslaught_8qh.html#a44f2d02591475477365d7f7ec9d55f3c":[2,0,1,3,0,13,17,45]
+"d7/dd0/sv__onslaught_8qh.html#a3e9df5e35d2e1a1d92cb47e72b572d4a":[2,0,1,3,0,13,17,2]
 };
