@@ -125,7 +125,6 @@ var searchData=
   ['shottype_5fhitworld',['SHOTTYPE_HITWORLD',['../de/d23/crosshair_8qc.html#a7407455248439d76e4639f2af7cc935f',1,'crosshair.qc']]],
   ['show_5fpropermenu',['show_propermenu',['../df/d9b/menu_2xonotic_2util_8qc.html#a7724bfdbdf646912f8bbf8c95f545f93',1,'util.qc']]],
   ['showfps_5fframecounter',['showfps_framecounter',['../d6/dd3/view_8qc.html#a1ee4dc3ab71cdccc7a1fab0af76f3936',1,'view.qc']]],
-  ['showfps_5fprevfps',['showfps_prevfps',['../d6/dd3/view_8qc.html#abff1e20298f406282e048f661d542caa',1,'view.qc']]],
   ['showfps_5fprevfps_5ftime',['showfps_prevfps_time',['../d6/dd3/view_8qc.html#addb950e1a86c36015906270d2914ac73',1,'view.qc']]],
   ['shown',['shown',['../d0/d7b/classContainer.html#ad04bf35604bb84f7745bcc4975407a3e',1,'Container']]],
   ['shownames_5fent',['shownames_ent',['../d7/d39/shownames_8qc.html#a05baddc07fb1b4dcfd2bd6158e47c7a1',1,'shownames.qc']]],

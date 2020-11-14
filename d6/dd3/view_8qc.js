@@ -110,7 +110,6 @@ var view_8qc =
     [ "sc_color", "d6/dd3/view_8qc.html#a8591c76106f30e0bce640d0da0e750ae", null ],
     [ "sc_spawntime", "d6/dd3/view_8qc.html#a21bafc7929452be184424e3fe11944ce", null ],
     [ "showfps_framecounter", "d6/dd3/view_8qc.html#a1ee4dc3ab71cdccc7a1fab0af76f3936", null ],
-    [ "showfps_prevfps", "d6/dd3/view_8qc.html#abff1e20298f406282e048f661d542caa", null ],
     [ "showfps_prevfps_time", "d6/dd3/view_8qc.html#addb950e1a86c36015906270d2914ac73", null ],
     [ "SPECIALCOMMAND_CHANCE", "d6/dd3/view_8qc.html#a91dbff8629d48bbe66c3c1a4849ac63c", null ],
     [ "specialcommand_colors", "d6/dd3/view_8qc.html#ad4fbe07586fa36f08ac96f102435ca96", null ],
