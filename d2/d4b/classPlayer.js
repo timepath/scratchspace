@@ -78,6 +78,7 @@ var classPlayer =
     [ "cvar_cl_weaponpriorities", "d2/d4b/classPlayer.html#a5903158f43e01ded75a88f624294d288", null ],
     [ "cvar_cl_weaponpriority", "d2/d4b/classPlayer.html#a532c4faed18d8eaa90e6b872b5f0fa63", null ],
     [ "cvar_g_xonoticversion", "d2/d4b/classPlayer.html#ad090054d918eb539c71b87fdef113540", null ],
+    [ "cvar_r_drawviewmodel", "d2/d4b/classPlayer.html#a132acb4ae29578065aacef4931927693", null ],
     [ "dual_weapons", "d2/d4b/classPlayer.html#a0afd445405f3d2115f5b638c4a431493", null ],
     [ "hasweapon_complain_spam", "d2/d4b/classPlayer.html#a2e357040c9fcbd4d35a09b094b7c329f", null ],
     [ "hitplotfh", "d2/d4b/classPlayer.html#a90aeb156a3cfabccc0d276e33438fcfd", null ],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX134 =
 {
+"df/d42/quake3_8qc.html#ae85e4cca4f185075917547715465c5e3":[2,0,6,2,8,15],
+"df/d42/quake3_8qc.html#af209cc1b2014548785983c19968a4fd9":[2,0,6,2,8,2],
+"df/d42/quake3_8qc_source.html":[2,0,6,2,8],
+"df/d42/vaporizer_8qc.html":[2,0,1,16,0,38],
+"df/d42/vaporizer_8qc_source.html":[2,0,1,16,0,38],
 "df/d44/dialog__settings__video_8qh.html":[2,0,5,4,161],
 "df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,161,1],
 "df/d44/dialog__settings__video_8qh_source.html":[2,0,5,4,161],
@@ -244,10 +249,5 @@ var NAVTREEINDEX134 =
 "df/d6e/classXonoticSingleplayerDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,249,21],
 "df/d6e/classXonoticSingleplayerDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,249,14],
 "df/d6e/classXonoticSingleplayerDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,249,60],
-"df/d6e/classXonoticSingleplayerDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,249,29],
-"df/d6e/classXonoticSingleplayerDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,249,45],
-"df/d6e/classXonoticSingleplayerDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,249,55],
-"df/d6e/classXonoticSingleplayerDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,249,85],
-"df/d6e/classXonoticSingleplayerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,249,1],
-"df/d6e/classXonoticSingleplayerDialog.html#a3c3530831d992c56d8cd3c69b4a00575":[1,0,249,58]
+"df/d6e/classXonoticSingleplayerDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,249,29]
 };

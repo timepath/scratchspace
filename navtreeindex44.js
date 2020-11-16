@@ -1,5 +1,9 @@
 var NAVTREEINDEX44 =
 {
+"d4/d91/classXonoticCampaignList.html#a093efe8e6a0350a879cc57c922f3162e":[1,0,153,97],
+"d4/d91/classXonoticCampaignList.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,153,25],
+"d4/d91/classXonoticCampaignList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,153,52],
+"d4/d91/classXonoticCampaignList.html#a113d1a91bed3f1f7bc3a24306c2c68e7":[1,0,153,24],
 "d4/d91/classXonoticCampaignList.html#a151e0ec9dca93787cd82446a1b2e5ffa":[1,0,153,60],
 "d4/d91/classXonoticCampaignList.html#a157385f4c4a8c6ed6a4e1056cd53599d":[1,0,153,45],
 "d4/d91/classXonoticCampaignList.html#a18456fc3d44b3528c7595c73f42a8acc":[1,0,153,74],
@@ -245,9 +249,5 @@ var NAVTREEINDEX44 =
 "d4/d95/common_2mutators_2events_8qh.html#ae3ce44f2947110cb267a6ba3aa7ad1f1":[2,0,1,10,4,18],
 "d4/d95/common_2mutators_2events_8qh.html#aed928b5d4717ad38c6dfbd6c6d988d83":[2,0,1,10,4,6],
 "d4/d95/common_2mutators_2events_8qh.html#af66a8641f9b3587782fad7cc3fa7f220":[2,0,1,10,4,14],
-"d4/d95/common_2mutators_2events_8qh_source.html":[2,0,1,10,4],
-"d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh.html":[2,0,1,10,0,6,1],
-"d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh_source.html":[2,0,1,10,0,6,1],
-"d4/d9d/hellion_8qh.html":[2,0,1,14,0,13],
-"d4/d9d/hellion_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,14,0,13,1]
+"d4/d95/common_2mutators_2events_8qh_source.html":[2,0,1,10,4]
 };

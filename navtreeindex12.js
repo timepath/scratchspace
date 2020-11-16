@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"d1/d6b/classGametype.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,44,2],
+"d1/d6b/classGametype.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,44,22],
 "d1/d6b/classGametype.html#ad15993848bc92a1c7bf0c70aeee7bbd2":[1,0,44,20],
 "d1/d6b/classGametype.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,44,5],
 "d1/d6b/classGametype.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,44,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "d1/d84/classXonoticLanguageWarningDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,213,46],
 "d1/d84/classXonoticLanguageWarningDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,213,24],
 "d1/d84/classXonoticLanguageWarningDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,213,17],
-"d1/d84/classXonoticLanguageWarningDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,213,72],
-"d1/d84/classXonoticLanguageWarningDialog.html#a1825454c74b9c2495d0c880fcb42fc4a":[1,0,213,81],
-"d1/d84/classXonoticLanguageWarningDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,213,69]
+"d1/d84/classXonoticLanguageWarningDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,213,72]
 };

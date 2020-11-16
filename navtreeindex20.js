@@ -1,5 +1,9 @@
 var NAVTREEINDEX20 =
 {
+"d2/d64/dialog__settings__game__messages_8qc.html#a56f858039cd189ac5d33cda3f01a4667":[2,0,5,4,138,2],
+"d2/d64/dialog__settings__game__messages_8qc.html#ad03b9295aeb89d2a5633bfde7c357a26":[2,0,5,4,138,0],
+"d2/d64/dialog__settings__game__messages_8qc_source.html":[2,0,5,4,138],
+"d2/d65/unsafe_8qh.html":[2,0,4,63],
 "d2/d65/unsafe_8qh.html#a21ad0519e983fb4eb43618ad42ca7a53":[2,0,4,63,7],
 "d2/d65/unsafe_8qh.html#a28163937cdfc9d15144074ee0f1ef1c4":[2,0,4,63,2],
 "d2/d65/unsafe_8qh.html#a285a3980556731a191c471a075ba604f":[2,0,4,63,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX20 =
 "d2/d88/classDomination.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,30,14],
 "d2/d88/classDomination.html#a4db6ad0ff6ca1f3b5bdc0cb58c9e3f1e":[1,0,30,11],
 "d2/d88/classDomination.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,30,8],
-"d2/d88/classDomination.html#a6029db0de09a0293986e7a082970775a":[1,0,30,18],
-"d2/d88/classDomination.html#a7880c3511ceeabb277b860085f1073ee":[1,0,30,12],
-"d2/d88/classDomination.html#a9fe1a8c5f5e8e087e4e5d252452318af":[1,0,30,20],
-"d2/d88/classDomination.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,30,2],
-"d2/d88/classDomination.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,30,17]
+"d2/d88/classDomination.html#a6029db0de09a0293986e7a082970775a":[1,0,30,18]
 };

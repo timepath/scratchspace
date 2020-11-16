@@ -1,5 +1,10 @@
 var NAVTREEINDEX132 =
 {
+"df/d0f/classSpiderbot.html#af7f5447512b9c7b0f697dd84c35b1040":[1,0,129,12],
+"df/d0f/classSpiderbot.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,129,0],
+"df/d13/anglestransform_8qc.html":[2,0,4,2,2],
+"df/d13/anglestransform_8qc.html#a0e8b572bfcc4dcbdcd63106b1ffbf277":[2,0,4,2,2,2],
+"df/d13/anglestransform_8qc.html#a0fdbb008cb55b09916473e7c05b0dfcc":[2,0,4,2,2,9],
 "df/d13/anglestransform_8qc.html#a15af3793156583fd0299d2c7d2029f0c":[2,0,4,2,2,13],
 "df/d13/anglestransform_8qc.html#a1d3de79454474872e74e66eb678263a0":[2,0,4,2,2,3],
 "df/d13/anglestransform_8qc.html#a3e15416efc8d5e17ebc24e871037fca3":[2,0,4,2,2,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX132 =
 "df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[2,0,5,4,6,2],
 "df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[2,0,5,4,6,1],
 "df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9":[2,0,5,4,6,0],
-"df/d28/menu_2xonotic_2button_8qc_source.html":[2,0,5,4,6],
-"df/d28/sv__turrets_8qh.html":[2,0,1,14,12],
-"df/d28/sv__turrets_8qh.html#a07c4c1a4a7cb4c2974e3f73f6c395d5c":[2,0,1,14,12,23],
-"df/d28/sv__turrets_8qh.html#a14c247fc49cf9424dd12ea85899be277":[2,0,1,14,12,4],
-"df/d28/sv__turrets_8qh.html#a15df8a6498e96a76f4a5e0213150f6a8":[2,0,1,14,12,3],
-"df/d28/sv__turrets_8qh.html#a168754a4c3acfcdb34318de74c36b4f9":[2,0,1,14,12,44]
+"df/d28/menu_2xonotic_2button_8qc_source.html":[2,0,5,4,6]
 };

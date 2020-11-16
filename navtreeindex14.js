@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"d1/d9f/dialog__multiplayer_8qc.html":[2,0,5,4,90],
+"d1/d9f/dialog__multiplayer_8qc.html#af83637108621204488c5ae95da509066":[2,0,5,4,90,0],
 "d1/d9f/dialog__multiplayer_8qc_source.html":[2,0,5,4,90],
 "d1/da5/checkpoint_8qh.html":[2,0,1,14,6],
 "d1/da5/checkpoint_8qh_source.html":[2,0,1,14,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "d1/dba/server_2weapons_2common_8qh.html#a50ae929b40916f98cffeb538fd0951dd":[2,0,6,6,5,1],
 "d1/dba/server_2weapons_2common_8qh.html#a54b62975dcb9a09f47d915bc5b4ff800":[2,0,6,6,5,21],
 "d1/dba/server_2weapons_2common_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952":[2,0,6,6,5,15],
-"d1/dba/server_2weapons_2common_8qh.html#a5a08fa477287e8869e228d790a885d87":[2,0,6,6,5,14],
-"d1/dba/server_2weapons_2common_8qh.html#a60e662b2259d5b4ff290afd4566a17dd":[2,0,6,6,5,16],
-"d1/dba/server_2weapons_2common_8qh.html#a61f846996c811b4ad89a8cbfeade1ee5":[2,0,6,6,5,26]
+"d1/dba/server_2weapons_2common_8qh.html#a5a08fa477287e8869e228d790a885d87":[2,0,6,6,5,14]
 };

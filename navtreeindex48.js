@@ -1,5 +1,9 @@
 var NAVTREEINDEX48 =
 {
+"d4/def/weapons_8qc.html#acbf6d97cc09f97ee2a71b562ffae170d":[2,0,0,1,0,42,9],
+"d4/def/weapons_8qc.html#aeefd60b5b16eeb09bd4bd219b62bf124":[2,0,0,1,0,42,5],
+"d4/def/weapons_8qc_source.html":[2,0,0,1,0,42],
+"d4/df5/overkill_8qc.html":[2,0,1,10,0,23,14],
 "d4/df5/overkill_8qc_source.html":[2,0,1,10,0,23,14],
 "d4/df7/common_2mutators_2mutator_2cloaked_2__mod_8qh.html":[2,0,1,10,0,5,1],
 "d4/df7/common_2mutators_2mutator_2cloaked_2__mod_8qh_source.html":[2,0,1,10,0,5,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX48 =
 "d5/d3a/checkbox__string_8qh.html#a99bf8fc9169855784af2af3cb71c8998":[2,0,5,4,17,1],
 "d5/d3a/checkbox__string_8qh_source.html":[2,0,5,4,17],
 "d5/d3a/duel_8qc.html":[2,0,1,3,0,6,2],
-"d5/d3a/duel_8qc_source.html":[2,0,1,3,0,6,2],
-"d5/d3b/slider__particles_8qh.html":[2,0,5,4,217],
-"d5/d3b/slider__particles_8qh.html#a9d9cd17f2b7f5805574e346fe8036d7f":[2,0,5,4,217,1],
-"d5/d3b/slider__particles_8qh_source.html":[2,0,5,4,217],
-"d5/d43/plasma_8qc.html":[2,0,1,14,0,32]
+"d5/d3a/duel_8qc_source.html":[2,0,1,3,0,6,2]
 };

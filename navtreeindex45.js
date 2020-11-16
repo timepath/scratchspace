@@ -1,5 +1,9 @@
 var NAVTREEINDEX45 =
 {
+"d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh.html":[2,0,1,10,0,6,1],
+"d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh_source.html":[2,0,1,10,0,6,1],
+"d4/d9d/hellion_8qh.html":[2,0,1,14,0,13],
+"d4/d9d/hellion_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,14,0,13,1],
 "d4/d9d/hellion_8qh.html#ad7f9d755fa95936046d425e1ac3868bf":[2,0,1,14,0,13,2],
 "d4/d9d/hellion_8qh_source.html":[2,0,1,14,0,13],
 "d4/d9d/sounds_2all_8qc.html":[2,0,1,13,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX45 =
 "d4/da9/racetimer_8qh.html#a67234b7e3097a12ec7d56566276b1295":[2,0,0,1,0,29,2],
 "d4/da9/racetimer_8qh.html#a6f43436dba652760ff17d18ed5bdf975":[2,0,0,1,0,29,8],
 "d4/da9/racetimer_8qh.html#a72abba51d925066d5b85f6b761aec740":[2,0,0,1,0,29,17],
-"d4/da9/racetimer_8qh.html#a766f0b1708b74792c765d71219cd1a04":[2,0,0,1,0,29,26],
-"d4/da9/racetimer_8qh.html#a7c0e0c424208978a5874199fe6d1ba92":[2,0,0,1,0,29,14],
-"d4/da9/racetimer_8qh.html#a8234124f6827fd5b2fd588d958f50d65":[2,0,0,1,0,29,11],
-"d4/da9/racetimer_8qh.html#a9ca3664d438b8f1dac1a68ceee61d5a6":[2,0,0,1,0,29,36],
-"d4/da9/racetimer_8qh.html#aa119e56267dd97e8c2300ab4113c3e1d":[2,0,0,1,0,29,24]
+"d4/da9/racetimer_8qh.html#a766f0b1708b74792c765d71219cd1a04":[2,0,0,1,0,29,26]
 };

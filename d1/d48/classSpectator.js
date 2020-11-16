@@ -76,6 +76,7 @@ var classSpectator =
     [ "cvar_cl_weaponpriorities", "d1/d48/classSpectator.html#a5903158f43e01ded75a88f624294d288", null ],
     [ "cvar_cl_weaponpriority", "d1/d48/classSpectator.html#a532c4faed18d8eaa90e6b872b5f0fa63", null ],
     [ "cvar_g_xonoticversion", "d1/d48/classSpectator.html#ad090054d918eb539c71b87fdef113540", null ],
+    [ "cvar_r_drawviewmodel", "d1/d48/classSpectator.html#a132acb4ae29578065aacef4931927693", null ],
     [ "hasweapon_complain_spam", "d1/d48/classSpectator.html#a2e357040c9fcbd4d35a09b094b7c329f", null ],
     [ "hitplotfh", "d1/d48/classSpectator.html#a90aeb156a3cfabccc0d276e33438fcfd", null ],
     [ "idlekick_lasttimeleft", "d1/d48/classSpectator.html#a46a7bc40105ac38ab40131987e7f34cb", null ],
