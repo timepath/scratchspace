@@ -198,6 +198,8 @@ var NAVTREEINDEX123 =
 "de/d2b/world_8qh.html#afb83b1d6cc1d1144d6db6342f3d0f4cc":[2,0,6,72,43],
 "de/d2b/world_8qh.html#afda7c0d2e9429b1eb3477891bc970dad":[2,0,6,72,78],
 "de/d2b/world_8qh_source.html":[2,0,6,72],
+"de/d2e/rubble_8qc.html":[2,0,1,2,0,14],
+"de/d2e/rubble_8qc_source.html":[2,0,1,2,0,14],
 "de/d2e/train_8qc.html":[2,0,1,6,0,32],
 "de/d2e/train_8qc.html#a30d24da0513abca491c62e4a9edca12f":[2,0,1,6,0,32,1],
 "de/d2e/train_8qc.html#a430911ebac04a400f968088c40c897b9":[2,0,1,6,0,32,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "de/d30/classXonoticDisconnectDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,174,55],
 "de/d30/classXonoticDisconnectDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,174,32],
 "de/d30/classXonoticDisconnectDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,174,40],
-"de/d30/classXonoticDisconnectDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,174,63],
-"de/d30/classXonoticDisconnectDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,174,75],
-"de/d30/classXonoticDisconnectDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,174,6]
+"de/d30/classXonoticDisconnectDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,174,63]
 };

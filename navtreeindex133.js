@@ -1,5 +1,7 @@
 var NAVTREEINDEX133 =
 {
+"df/d28/sv__turrets_8qh.html#a16df72fa969045d31c5140be979fc387":[2,0,1,14,12,27],
+"df/d28/sv__turrets_8qh.html#a1951be77af0884ccb2a5b2d32033cb95":[2,0,1,14,12,11],
 "df/d28/sv__turrets_8qh.html#a1a72475c9a77225463fc38559463c578":[2,0,1,14,12,33],
 "df/d28/sv__turrets_8qh.html#a1d5d8b69dda4acca14207e5ffa084ca7":[2,0,1,14,12,49],
 "df/d28/sv__turrets_8qh.html#a2237d76659e456913df196d485d4efb4":[2,0,1,14,12,46],
@@ -247,7 +249,5 @@ var NAVTREEINDEX133 =
 "df/d42/quake3_8qc.html#af209cc1b2014548785983c19968a4fd9":[2,0,6,2,8,2],
 "df/d42/quake3_8qc_source.html":[2,0,6,2,8],
 "df/d42/vaporizer_8qc.html":[2,0,1,16,0,38],
-"df/d42/vaporizer_8qc_source.html":[2,0,1,16,0,38],
-"df/d44/dialog__settings__video_8qh.html":[2,0,5,4,161],
-"df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,161,1]
+"df/d42/vaporizer_8qc_source.html":[2,0,1,16,0,38]
 };

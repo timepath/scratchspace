@@ -14,5 +14,6 @@ var dir_1e905c8c0e92136a54b32c53d0aef8dd =
     [ "lightningarc.qh", "d4/dba/lightningarc_8qh.html", null ],
     [ "modeleffects.qc", "dc/d20/modeleffects_8qc.html", null ],
     [ "modeleffects.qh", "d8/d56/modeleffects_8qh.html", null ],
+    [ "rubble.qc", "de/d2e/rubble_8qc.html", null ],
     [ "rubble.qh", "d0/de2/rubble_8qh.html", null ]
 ];
