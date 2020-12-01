@@ -6,6 +6,7 @@ var searchData=
   ['tanh',['tanh',['../df/d38/mathlib_8qc.html#a7a49b0663f817840d878063a00344b35',1,'tanh(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a7a49b0663f817840d878063a00344b35',1,'tanh(float e):&#160;mathlib.qc']]],
   ['target_5fassault_5froundend_5freset',['target_assault_roundend_reset',['../d7/dbb/sv__assault_8qc.html#aa245e93a6adfcf866dc6302bfcbd45ab',1,'sv_assault.qc']]],
   ['target_5fassault_5froundend_5fuse',['target_assault_roundend_use',['../d7/dbb/sv__assault_8qc.html#aab05b99039e15442616ce88737d2bc92',1,'sv_assault.qc']]],
+  ['target_5fcheckpoint_5fsetup',['target_checkpoint_setup',['../df/d4a/server_2race_8qc.html#af0ad3cee87164497a997ea4b964e6398',1,'race.qc']]],
   ['target_5fgive_5finit',['target_give_init',['../df/d42/quake3_8qc.html#a150f5bd0f1c8300bca00748f5222a9e6',1,'quake3.qc']]],
   ['target_5finit_5fuse',['target_init_use',['../df/d42/quake3_8qc.html#a8e4bde1ae214abebec59d65ca0c27df9',1,'quake3.qc']]],
   ['target_5finit_5fverify',['target_init_verify',['../df/d42/quake3_8qc.html#a61742c0334dce4be11adeb7ba6664685',1,'quake3.qc']]],

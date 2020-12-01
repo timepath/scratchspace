@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 665;
+var viewWidth = 836;
 var viewHeight = 122;
 var sectionId = 'dynsection-58';
 </script>
@@ -142,36 +142,67 @@ var sectionId = 'dynsection-58';
 <path fill="none" stroke="midnightblue" d="M427.187,-48C435.812,-48 444.564,-48 452.902,-48"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="427.152,-44.5001 417.152,-48 427.152,-51.5001 427.152,-44.5001"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../df/d4a/server_2race_8qc.html#a8b0b69d2df015a448c6049b2c9f21acd" target="_top" xlink:title="checkpoint_use">
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="../../df/d4a/server_2race_8qc.html#a8b0b69d2df015a448c6049b2c9f21acd" target="_top" xlink:title="checkpoint_use">
 <polygon fill="none" stroke="black" points="458,-0.5 458,-19.5 549,-19.5 549,-0.5 458,-0.5"/>
 <text text-anchor="middle" x="503.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">checkpoint_use</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node9 -->
-<g id="edge9" class="edge"><title>Node6&#45;&gt;Node9</title>
+<!-- Node6&#45;&gt;Node11 -->
+<g id="edge11" class="edge"><title>Node6&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M408.634,-35.7538C427.725,-30.516 449.684,-24.4909 467.562,-19.5859"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="407.667,-32.3898 398.949,-38.411 409.519,-39.1403 407.667,-32.3898"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
 <g id="a_node8"><a xlink:href="../../df/d4a/server_2race_8qc.html#a6875d9a76e72fefc380a22b30485cd5c" target="_top" xlink:title="spawnfunc">
-<polygon fill="none" stroke="black" points="590,-19.5 590,-38.5 657,-38.5 657,-19.5 590,-19.5"/>
-<text text-anchor="middle" x="623.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">spawnfunc</text>
+<polygon fill="none" stroke="black" points="624,-38.5 624,-57.5 691,-57.5 691,-38.5 624,-38.5"/>
+<text text-anchor="middle" x="657.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">spawnfunc</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge8" class="edge"><title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M564.198,-38.3876C573.083,-36.957 581.946,-35.5298 589.983,-34.2358"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="563.517,-34.9521 554.201,-39.9974 564.63,-41.8631 563.517,-34.9521"/>
+<path fill="none" stroke="midnightblue" d="M564.378,-48C584.649,-48 606.524,-48 623.869,-48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="564.271,-44.5001 554.27,-48 564.27,-51.5001 564.271,-44.5001"/>
 </g>
-<!-- Node9&#45;&gt;Node8 -->
-<g id="edge10" class="edge"><title>Node9&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M559.12,-18.7947C569.666,-20.4928 580.4,-22.2211 589.963,-23.761"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="559.54,-15.3174 549.111,-17.1831 558.427,-22.2284 559.54,-15.3174"/>
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="../../df/d4a/server_2race_8qc.html#af0ad3cee87164497a997ea4b964e6398" target="_top" xlink:title="target_checkpoint_setup">
+<polygon fill="none" stroke="black" points="590,-0.5 590,-19.5 725,-19.5 725,-0.5 590,-0.5"/>
+<text text-anchor="middle" x="657.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">target_checkpoint_setup</text>
+</a>
+</g>
+</g>
+<!-- Node7&#45;&gt;Node9 -->
+<g id="edge9" class="edge"><title>Node7&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M552.66,-35.96C573.895,-30.6512 598.495,-24.5012 618.42,-19.5201"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="551.709,-32.5901 542.856,-38.411 553.406,-39.3811 551.709,-32.5901"/>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="../../db/d36/server_2race_8qh.html#a696329dda631e76ee7c5542c9fabc8a5" target="_top" xlink:title="spawnfunc">
+<polygon fill="none" stroke="black" points="761,-0.5 761,-19.5 828,-19.5 828,-0.5 761,-0.5"/>
+<text text-anchor="middle" x="794.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">spawnfunc</text>
+</a>
+</g>
+</g>
+<!-- Node9&#45;&gt;Node10 -->
+<g id="edge10" class="edge"><title>Node9&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M735.319,-10C744.22,-10 752.901,-10 760.726,-10"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="735.209,-6.5001 725.209,-10 735.209,-13.5001 735.209,-6.5001"/>
+</g>
+<!-- Node11&#45;&gt;Node8 -->
+<g id="edge12" class="edge"><title>Node11&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M552.843,-22.0858C576.002,-27.8756 603.129,-34.6573 623.822,-39.8305"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="553.406,-18.6189 542.856,-19.589 551.709,-25.4099 553.406,-18.6189"/>
+</g>
+<!-- Node11&#45;&gt;Node9 -->
+<g id="edge13" class="edge"><title>Node11&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M559.353,-10C569.226,-10 579.617,-10 589.782,-10"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="559.283,-6.5001 549.283,-10 559.283,-13.5001 559.283,-6.5001"/>
 </g>
 </g>
 </svg>

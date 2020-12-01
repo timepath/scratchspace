@@ -40,6 +40,7 @@ var server_2race_8qc =
     [ "spawnfunc", "df/d4a/server_2race_8qc.html#a444f99036a4815e64e2ffabf6552555a", null ],
     [ "spawnfunc", "df/d4a/server_2race_8qc.html#a5f76de28dab38d2ced30d6e962825d52", null ],
     [ "STATIC_INIT", "df/d4a/server_2race_8qc.html#aafe40bd6d2e50443e776549f90755e77", null ],
+    [ "target_checkpoint_setup", "df/d4a/server_2race_8qc.html#af0ad3cee87164497a997ea4b964e6398", null ],
     [ "trigger_race_checkpoint_spawn_evalfunc", "df/d4a/server_2race_8qc.html#a868d7c0472afd1cbb06a05f3e4b41a95", null ],
     [ "trigger_race_checkpoint_verify", "df/d4a/server_2race_8qc.html#af38e736fe67a1f8702b94c9de9ae9f88", null ],
     [ "uid2name", "df/d4a/server_2race_8qc.html#a943d9da424f168efb8d407b4de9833a2", null ],

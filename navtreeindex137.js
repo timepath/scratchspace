@@ -1,5 +1,6 @@
 var NAVTREEINDEX137 =
 {
+"df/d9b/menu_2xonotic_2util_8qc.html#aabecb2186198cee293ff99e8806ea85e":[2,0,5,4,236,13],
 "df/d9b/menu_2xonotic_2util_8qc.html#aabf5cfb721ebb2ede5d88158911b0c15":[2,0,5,4,236,73],
 "df/d9b/menu_2xonotic_2util_8qc.html#ab0981fd42335b02edf3f421d4069ba56":[2,0,5,4,236,26],
 "df/d9b/menu_2xonotic_2util_8qc.html#ab1a12c6efcea09204c8c4461ca36efff":[2,0,5,4,236,6],
@@ -14,8 +15,8 @@ var NAVTREEINDEX137 =
 "df/d9b/menu_2xonotic_2util_8qc.html#acec3f9953edac61d0ea8bb0c013539cc":[2,0,5,4,236,68],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad18fa120b3ff7def2f7c47a178855468":[2,0,5,4,236,5],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad1f36d07e4a66476224966394f1e24e5":[2,0,5,4,236,49],
-"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,236,3],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,236,1],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,236,3],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad481dfa3a9518c9669a0fcc1da77758f":[2,0,5,4,236,12],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556":[2,0,5,4,236,7],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad87ced1edd45c581dd684b4054fd8ea5":[2,0,5,4,236,78],
@@ -248,6 +249,5 @@ var NAVTREEINDEX137 =
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,199,26],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,199,55],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,199,32],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,199,40],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,199,62]
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,199,40]
 };
