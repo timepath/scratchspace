@@ -9,7 +9,7 @@ var classXonoticInputBox =
     [ "ATTRIB", "d8/d8f/classXonoticInputBox.html#a2c5ff2c296897b74839e35548af2446d", null ],
     [ "ATTRIB", "d8/d8f/classXonoticInputBox.html#a6cc59c1de971510be31db1dbba9ec665", null ],
     [ "ATTRIB", "d8/d8f/classXonoticInputBox.html#ab1ec655ecda8414e0ed22a5f621dbfaa", null ],
-    [ "ATTRIB", "d8/d8f/classXonoticInputBox.html#a489248466ae7b0aa8a578992e28fdc2b", null ],
+    [ "ATTRIB", "d8/d8f/classXonoticInputBox.html#ace0fdc210eba111276c746474b0e9a68", null ],
     [ "ATTRIB", "d8/d8f/classXonoticInputBox.html#af3a31a2cea0e185a1b793a1b539377b8", null ],
     [ "ATTRIB", "d8/d8f/classXonoticInputBox.html#ada488d34e14a54ef05b88e7da0c81e56", null ],
     [ "ATTRIB", "d8/d8f/classXonoticInputBox.html#a578f3c4e27a2ae569fc865726e538d6f", null ],

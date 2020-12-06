@@ -2,7 +2,7 @@ var classXonoticSlider =
 [
     [ "ATTRIB", "df/df6/classXonoticSlider.html#a7edc1888395b65fc0bbc556d68d0e173", null ],
     [ "ATTRIB", "df/df6/classXonoticSlider.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5", null ],
-    [ "ATTRIB", "df/df6/classXonoticSlider.html#ac3bc03e849de03801fb2340494bebdd8", null ],
+    [ "ATTRIB", "df/df6/classXonoticSlider.html#a58211286db83e8f4d29e91e253b4776a", null ],
     [ "ATTRIB", "df/df6/classXonoticSlider.html#ad485b0ba0e020607f42965ca46266706", null ],
     [ "ATTRIB", "df/df6/classXonoticSlider.html#a6cc59c1de971510be31db1dbba9ec665", null ],
     [ "ATTRIB", "df/df6/classXonoticSlider.html#ab1ec655ecda8414e0ed22a5f621dbfaa", null ],
