@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"de/d75/server_2campaign_8qc_source.html":[2,0,6,13],
 "de/d76/common_2mutators_2mutator_2doublejump_2__mod_8qh.html":[2,0,1,10,0,8,1],
 "de/d76/common_2mutators_2mutator_2doublejump_2__mod_8qh_source.html":[2,0,1,10,0,8,1],
 "de/d7a/classXonoticHUDScoreDialog.html":[1,0,202],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "de/d94/slider__particles_8qc.html":[2,0,5,4,216],
 "de/d94/slider__particles_8qc.html#a0c5e45af793fc24c35553df95bde8911":[2,0,5,4,216,2],
 "de/d94/slider__particles_8qc.html#a52c1188240797b6bcd7c9ea54f7a5ff5":[2,0,5,4,216,1],
-"de/d94/slider__particles_8qc.html#a9d9cd17f2b7f5805574e346fe8036d7f":[2,0,5,4,216,0],
-"de/d94/slider__particles_8qc.html#ac956ef1e5a5044a5bbf1c6a9b0f6a963":[2,0,5,4,216,3]
+"de/d94/slider__particles_8qc.html#a9d9cd17f2b7f5805574e346fe8036d7f":[2,0,5,4,216,0]
 };

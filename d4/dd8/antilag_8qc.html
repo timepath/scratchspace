@@ -311,30 +311,20 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00151">151</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00019">ANTILAG_LATENCY</a>, <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00003">autocvar_g_antilag</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00013">IS_CLIENT</a>, and <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>.</p>
+<p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00019">ANTILAG_LATENCY</a>, <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00003">autocvar_g_antilag</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00051">CS_CVAR</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00013">IS_CLIENT</a>, and <a class="el" href="../../db/d7a/utils_8qh_source.html#l00017">IS_REAL_CLIENT</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00357">fireBullet_antilag()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;{</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keywordtype">float</span> lag = ((<a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(e)) ? <a class="code" href="../../d0/dd2/antilag_8qh.html#ab20ae59dea3092635c126d7036ae331e">ANTILAG_LATENCY</a>(e) : 0);</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordtype">bool</span> noantilag = ((<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(e)) ? <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(e).cvar_cl_noantilag : <span class="keyword">false</span>);</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a> == 0 || noantilag || lag &lt; 0.001)</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        lag = 0;</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">return</span> lag;</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;}</div><div class="ttc" id="utils_8qh_html_a7c35bdb2911d33730cc474d14c383834"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a></div><div class="ttdeci">#define IS_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00013">utils.qh:13</a></div></div>
-<div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
+<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;{</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keywordtype">float</span> lag = ((<a class="code" href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(e)) ? <a class="code" href="../../d0/dd2/antilag_8qh.html#ab20ae59dea3092635c126d7036ae331e">ANTILAG_LATENCY</a>(e) : 0);</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordtype">bool</span> noantilag = ((<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(e)) ? <a class="code" href="../../db/d9f/state_8qh.html#a1a5647609e1177ce93a5c3a463cbe101">CS_CVAR</a>(e).cvar_cl_noantilag : <span class="keyword">false</span>);</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a> == 0 || noantilag || lag &lt; 0.001)</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        lag = 0;</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">return</span> lag;</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;}</div><div class="ttc" id="utils_8qh_html_a7c35bdb2911d33730cc474d14c383834"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a></div><div class="ttdeci">#define IS_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00013">utils.qh:13</a></div></div>
+<div class="ttc" id="state_8qh_html_a1a5647609e1177ce93a5c3a463cbe101"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a1a5647609e1177ce93a5c3a463cbe101">CS_CVAR</a></div><div class="ttdeci">#define CS_CVAR(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00051">state.qh:51</a></div></div>
 <div class="ttc" id="utils_8qh_html_a8069d572672171c56fdffd290ed4979d"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a></div><div class="ttdeci">#define IS_REAL_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00017">utils.qh:17</a></div></div>
 <div class="ttc" id="antilag_8qh_html_aeffee9458d2c270024cec552c5a66190"><div class="ttname"><a href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a></div><div class="ttdeci">int autocvar_g_antilag</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd2/antilag_8qh_source.html#l00003">antilag.qh:3</a></div></div>
 <div class="ttc" id="antilag_8qh_html_ab20ae59dea3092635c126d7036ae331e"><div class="ttname"><a href="../../d0/dd2/antilag_8qh.html#ab20ae59dea3092635c126d7036ae331e">ANTILAG_LATENCY</a></div><div class="ttdeci">#define ANTILAG_LATENCY(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd2/antilag_8qh_source.html#l00019">antilag.qh:19</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_af39653690dbdcf453019e553f151baa5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_af39653690dbdcf453019e553f151baa5_icgraph.svg" width="426" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -383,21 +373,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="antilag_8qc_html_a0f391f0d4833626e2e1f106782db02d9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a></div><div class="ttdeci">const int ANTILAG_MAX_ORIGINS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00012">antilag.qc:12</a></div></div>
 <div class="ttc" id="antilag_8qc_html_a655b5399f3832b3ecd9a7659ef624b4a"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a655b5399f3832b3ecd9a7659ef624b4a">antilag_takebackorigin</a></div><div class="ttdeci">vector antilag_takebackorigin(entity e, entity store, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag.qc:60</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a6ec66093e8bf743c166fecbe5e4a636f_cgraph.svg" width="480" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a6ec66093e8bf743c166fecbe5e4a636f_icgraph.svg" width="420" height="87"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -438,21 +428,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="antilag_8qc_html_ae0fbe788776aa76ba7139d692e9c7adb"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#ae0fbe788776aa76ba7139d692e9c7adb">antilag_restore</a></div><div class="ttdeci">void antilag_restore(entity e, entity store)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00101">antilag.qc:101</a></div></div>
 <div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_ae0fbe788776aa76ba7139d692e9c7adb_cgraph.svg" width="255" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_ae0fbe788776aa76ba7139d692e9c7adb_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -487,21 +477,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="sv__monsters_8qh_html_ae5508e0d25e38548579e9905cbe3fce2"><div class="ttname"><a href="../../d8/dc1/sv__monsters_8qh.html#ae5508e0d25e38548579e9905cbe3fce2">g_monsters</a></div><div class="ttdeci">IntrusiveList g_monsters</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc1/sv__monsters_8qh_source.html#l00144">sv_monsters.qh:144</a></div></div>
 <div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_afcf6e9ced03532b6cd318254ef7117b8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_afcf6e9ced03532b6cd318254ef7117b8_cgraph.svg" width="442" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_afcf6e9ced03532b6cd318254ef7117b8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -550,21 +540,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
 <div class="ttc" id="antilag_8qc_html_a655b5399f3832b3ecd9a7659ef624b4a"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a655b5399f3832b3ecd9a7659ef624b4a">antilag_takebackorigin</a></div><div class="ttdeci">vector antilag_takebackorigin(entity e, entity store, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag.qc:60</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_ae42be1431ef90dedfc2cb8bf7b792bfd_cgraph.svg" width="498" height="164"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_ae42be1431ef90dedfc2cb8bf7b792bfd_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -610,21 +600,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="utils_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00009">utils.qh:9</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a49f979cfa6c28c22aa67a1b903160407_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a49f979cfa6c28c22aa67a1b903160407_cgraph.svg" width="100%" height="423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a49f979cfa6c28c22aa67a1b903160407_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -674,11 +664,11 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">if</span> (t0 &gt;= t1) <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> o0 = <a class="code" href="../../d4/dd8/antilag_8qc.html#a655b5399f3832b3ecd9a7659ef624b4a">antilag_takebackorigin</a>(e, store, t0);</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> o1 = <a class="code" href="../../d4/dd8/antilag_8qc.html#a655b5399f3832b3ecd9a7659ef624b4a">antilag_takebackorigin</a>(e, store, t1);</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">return</span> (o1 - o0) * (1 / (t1 - t0));</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div><div class="ttc" id="csprogsdefs_8qh_html_a2626679e4144af8478202c6c28f90cd9"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a></div><div class="ttdeci">vector(float skel, float bonenum) _skel_get_boneabs_hidden</div></div>
 <div class="ttc" id="antilag_8qc_html_a655b5399f3832b3ecd9a7659ef624b4a"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a655b5399f3832b3ecd9a7659ef624b4a">antilag_takebackorigin</a></div><div class="ttdeci">vector antilag_takebackorigin(entity e, entity store, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag.qc:60</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a5afb40eeb80add842568536163c6bdd2_cgraph.svg" width="568" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -725,21 +715,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="antilag_8qc_html_a44007160659f27ebf8bfabc0071b9e3a"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a44007160659f27ebf8bfabc0071b9e3a">antilag_find</a></div><div class="ttdeci">float antilag_find(entity e, entity store, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00040">antilag.qc:40</a></div></div>
 <div class="ttc" id="antilag_8qc_html_a0f391f0d4833626e2e1f106782db02d9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a></div><div class="ttdeci">const int ANTILAG_MAX_ORIGINS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00012">antilag.qc:12</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a655b5399f3832b3ecd9a7659ef624b4a_cgraph.svg" width="319" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a655b5399f3832b3ecd9a7659ef624b4a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -809,29 +799,29 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00210">210</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00003">autocvar_g_antilag</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00013">IS_CLIENT</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00169">tracebox_antilag_force_wz()</a>.</p>
+<p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00003">autocvar_g_antilag</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00051">CS_CVAR</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00013">IS_CLIENT</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00169">tracebox_antilag_force_wz()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00024">W_SetupShot_Dir_ProjectileSize_Range()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;{</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordtype">bool</span> noantilag = ((<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(source)) ? <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(source).cvar_cl_noantilag : <span class="keyword">false</span>);</div><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a> != 2 || noantilag)</div><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        lag = 0;</div><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#a16360420959782f6972ac30eec10327a">tracebox_antilag_force_wz</a>(source, v1, mi, ma, v2, nomonst, forent, lag, <span class="keyword">false</span>);</div><div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;}</div><div class="ttc" id="utils_8qh_html_a7c35bdb2911d33730cc474d14c383834"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a></div><div class="ttdeci">#define IS_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00013">utils.qh:13</a></div></div>
-<div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
+<div class="fragment"><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;{</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordtype">bool</span> noantilag = ((<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(source)) ? <a class="code" href="../../db/d9f/state_8qh.html#a1a5647609e1177ce93a5c3a463cbe101">CS_CVAR</a>(source).cvar_cl_noantilag : <span class="keyword">false</span>);</div><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a> != 2 || noantilag)</div><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        lag = 0;</div><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#a16360420959782f6972ac30eec10327a">tracebox_antilag_force_wz</a>(source, v1, mi, ma, v2, nomonst, forent, lag, <span class="keyword">false</span>);</div><div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;}</div><div class="ttc" id="utils_8qh_html_a7c35bdb2911d33730cc474d14c383834"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a></div><div class="ttdeci">#define IS_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00013">utils.qh:13</a></div></div>
+<div class="ttc" id="state_8qh_html_a1a5647609e1177ce93a5c3a463cbe101"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a1a5647609e1177ce93a5c3a463cbe101">CS_CVAR</a></div><div class="ttdeci">#define CS_CVAR(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00051">state.qh:51</a></div></div>
 <div class="ttc" id="antilag_8qc_html_a16360420959782f6972ac30eec10327a"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a16360420959782f6972ac30eec10327a">tracebox_antilag_force_wz</a></div><div class="ttdeci">void tracebox_antilag_force_wz(entity source, vector v1, vector mi, vector ma, vector v2, float nomonst, entity forent, float lag, float wz)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00169">antilag.qc:169</a></div></div>
 <div class="ttc" id="antilag_8qh_html_aeffee9458d2c270024cec552c5a66190"><div class="ttname"><a href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a></div><div class="ttdeci">int autocvar_g_antilag</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd2/antilag_8qh_source.html#l00003">antilag.qh:3</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a098ba0cc6ccdbc147f0bf68b30238cc5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a098ba0cc6ccdbc147f0bf68b30238cc5_icgraph.svg" width="386" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -918,21 +908,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="antilag_8qc_html_a49f979cfa6c28c22aa67a1b903160407"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a49f979cfa6c28c22aa67a1b903160407">antilag_takeback_all</a></div><div class="ttdeci">void antilag_takeback_all(entity ignore, float lag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00125">antilag.qc:125</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a5f01bc88548c8f6cbcb029a6e63e8a9f"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a5f01bc88548c8f6cbcb029a6e63e8a9f">DPCONTENTS_CORPSE</a></div><div class="ttdeci">float DPCONTENTS_CORPSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01130">csprogsdefs.qc:1130</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a16360420959782f6972ac30eec10327a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a16360420959782f6972ac30eec10327a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -990,29 +980,29 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00203">203</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00003">autocvar_g_antilag</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00013">IS_CLIENT</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00199">traceline_antilag_force()</a>.</p>
+<p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00003">autocvar_g_antilag</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00051">CS_CVAR</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00013">IS_CLIENT</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00199">traceline_antilag_force()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00508">crosshair_trace()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;{</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordtype">bool</span> noantilag = ((<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(source)) ? <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(source).cvar_cl_noantilag : <span class="keyword">false</span>);</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a> != 2 || noantilag)</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        lag = 0;</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#ae2572b5fa7a3e76a4ff54cd41a55cf04">traceline_antilag_force</a>(source, v1, v2, nomonst, forent, lag);</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;}</div><div class="ttc" id="utils_8qh_html_a7c35bdb2911d33730cc474d14c383834"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a></div><div class="ttdeci">#define IS_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00013">utils.qh:13</a></div></div>
-<div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
+<div class="fragment"><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;{</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordtype">bool</span> noantilag = ((<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(source)) ? <a class="code" href="../../db/d9f/state_8qh.html#a1a5647609e1177ce93a5c3a463cbe101">CS_CVAR</a>(source).cvar_cl_noantilag : <span class="keyword">false</span>);</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a> != 2 || noantilag)</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        lag = 0;</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#ae2572b5fa7a3e76a4ff54cd41a55cf04">traceline_antilag_force</a>(source, v1, v2, nomonst, forent, lag);</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;}</div><div class="ttc" id="utils_8qh_html_a7c35bdb2911d33730cc474d14c383834"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a></div><div class="ttdeci">#define IS_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00013">utils.qh:13</a></div></div>
+<div class="ttc" id="state_8qh_html_a1a5647609e1177ce93a5c3a463cbe101"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a1a5647609e1177ce93a5c3a463cbe101">CS_CVAR</a></div><div class="ttdeci">#define CS_CVAR(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00051">state.qh:51</a></div></div>
 <div class="ttc" id="antilag_8qc_html_ae2572b5fa7a3e76a4ff54cd41a55cf04"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#ae2572b5fa7a3e76a4ff54cd41a55cf04">traceline_antilag_force</a></div><div class="ttdeci">void traceline_antilag_force(entity source, vector v1, vector v2, float nomonst, entity forent, float lag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00199">antilag.qc:199</a></div></div>
 <div class="ttc" id="antilag_8qh_html_aeffee9458d2c270024cec552c5a66190"><div class="ttname"><a href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a></div><div class="ttdeci">int autocvar_g_antilag</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd2/antilag_8qh_source.html#l00003">antilag.qh:3</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a5edf83b72581bc3ed7f4b512f534fbfe_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a5edf83b72581bc3ed7f4b512f534fbfe_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1075,21 +1065,21 @@ Variables</h2></td></tr>
 <p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00203">traceline_antilag()</a>, <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00058">W_HitPlotAnalysis()</a>, and <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00024">W_SetupShot_Dir_ProjectileSize_Range()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;{</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#a16360420959782f6972ac30eec10327a">tracebox_antilag_force_wz</a>(source, v1, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;0 0 0&#39;</span>, v2, nomonst, forent, lag, <span class="keyword">false</span>);</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;}</div><div class="ttc" id="antilag_8qc_html_a16360420959782f6972ac30eec10327a"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a16360420959782f6972ac30eec10327a">tracebox_antilag_force_wz</a></div><div class="ttdeci">void tracebox_antilag_force_wz(entity source, vector v1, vector mi, vector ma, vector v2, float nomonst, entity forent, float lag, float wz)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00169">antilag.qc:169</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_ae2572b5fa7a3e76a4ff54cd41a55cf04_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_ae2572b5fa7a3e76a4ff54cd41a55cf04_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1159,17 +1149,17 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00228">228</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00003">autocvar_g_antilag</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00013">IS_CLIENT</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00169">tracebox_antilag_force_wz()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;{</div><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordtype">bool</span> noantilag = ((<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(source)) ? <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(source).cvar_cl_noantilag : <span class="keyword">false</span>);</div><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a> != 2 || noantilag)</div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        lag = 0;</div><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#a16360420959782f6972ac30eec10327a">tracebox_antilag_force_wz</a>(source, v1, mi, ma, v2, nomonst, forent, lag, <span class="keyword">true</span>);</div><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;}</div><div class="ttc" id="utils_8qh_html_a7c35bdb2911d33730cc474d14c383834"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a></div><div class="ttdeci">#define IS_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00013">utils.qh:13</a></div></div>
-<div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
+<p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00003">autocvar_g_antilag</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00051">CS_CVAR</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00013">IS_CLIENT</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00169">tracebox_antilag_force_wz()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;{</div><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordtype">bool</span> noantilag = ((<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(source)) ? <a class="code" href="../../db/d9f/state_8qh.html#a1a5647609e1177ce93a5c3a463cbe101">CS_CVAR</a>(source).cvar_cl_noantilag : <span class="keyword">false</span>);</div><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a> != 2 || noantilag)</div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        lag = 0;</div><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#a16360420959782f6972ac30eec10327a">tracebox_antilag_force_wz</a>(source, v1, mi, ma, v2, nomonst, forent, lag, <span class="keyword">true</span>);</div><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;}</div><div class="ttc" id="utils_8qh_html_a7c35bdb2911d33730cc474d14c383834"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a></div><div class="ttdeci">#define IS_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00013">utils.qh:13</a></div></div>
+<div class="ttc" id="state_8qh_html_a1a5647609e1177ce93a5c3a463cbe101"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a1a5647609e1177ce93a5c3a463cbe101">CS_CVAR</a></div><div class="ttdeci">#define CS_CVAR(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00051">state.qh:51</a></div></div>
 <div class="ttc" id="antilag_8qc_html_a16360420959782f6972ac30eec10327a"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a16360420959782f6972ac30eec10327a">tracebox_antilag_force_wz</a></div><div class="ttdeci">void tracebox_antilag_force_wz(entity source, vector v1, vector mi, vector ma, vector v2, float nomonst, entity forent, float lag, float wz)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00169">antilag.qc:169</a></div></div>
 <div class="ttc" id="antilag_8qh_html_aeffee9458d2c270024cec552c5a66190"><div class="ttname"><a href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a></div><div class="ttdeci">int autocvar_g_antilag</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd2/antilag_8qh_source.html#l00003">antilag.qh:3</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a9cacf5619ae2d9d345af6f30d59cc9c8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1227,29 +1217,29 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00221">221</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00003">autocvar_g_antilag</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00047">CS()</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00013">IS_CLIENT</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00217">WarpZone_traceline_antilag_force()</a>.</p>
+<p>References <a class="el" href="../../d0/dd2/antilag_8qh_source.html#l00003">autocvar_g_antilag</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00051">CS_CVAR</a>, <a class="el" href="../../db/d7a/utils_8qh_source.html#l00013">IS_CLIENT</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00217">WarpZone_traceline_antilag_force()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00231">FireRailgunBullet()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00024">W_SetupShot_Dir_ProjectileSize_Range()</a>, and <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00544">WarpZone_crosshair_trace()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;{</div><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keywordtype">bool</span> noantilag = ((<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(source)) ? <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(source).cvar_cl_noantilag : <span class="keyword">false</span>);</div><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a> != 2 || noantilag)</div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        lag = 0;</div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#ad351eda3d83e3ac892325b85272f5f1b">WarpZone_traceline_antilag_force</a>(source, v1, v2, nomonst, forent, lag);</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;}</div><div class="ttc" id="utils_8qh_html_a7c35bdb2911d33730cc474d14c383834"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a></div><div class="ttdeci">#define IS_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00013">utils.qh:13</a></div></div>
-<div class="ttc" id="state_8qh_html_afdb90637f8a711359249291ee3b3fde6"><div class="ttname"><a href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a></div><div class="ttdeci">ClientState CS(Client this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00047">state.qh:47</a></div></div>
+<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;{</div><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keywordtype">bool</span> noantilag = ((<a class="code" href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(source)) ? <a class="code" href="../../db/d9f/state_8qh.html#a1a5647609e1177ce93a5c3a463cbe101">CS_CVAR</a>(source).cvar_cl_noantilag : <span class="keyword">false</span>);</div><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a> != 2 || noantilag)</div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        lag = 0;</div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#ad351eda3d83e3ac892325b85272f5f1b">WarpZone_traceline_antilag_force</a>(source, v1, v2, nomonst, forent, lag);</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;}</div><div class="ttc" id="utils_8qh_html_a7c35bdb2911d33730cc474d14c383834"><div class="ttname"><a href="../../db/d7a/utils_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a></div><div class="ttdeci">#define IS_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7a/utils_8qh_source.html#l00013">utils.qh:13</a></div></div>
 <div class="ttc" id="antilag_8qc_html_ad351eda3d83e3ac892325b85272f5f1b"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#ad351eda3d83e3ac892325b85272f5f1b">WarpZone_traceline_antilag_force</a></div><div class="ttdeci">void WarpZone_traceline_antilag_force(entity source, vector v1, vector v2, float nomonst, entity forent, float lag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00217">antilag.qc:217</a></div></div>
+<div class="ttc" id="state_8qh_html_a1a5647609e1177ce93a5c3a463cbe101"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a1a5647609e1177ce93a5c3a463cbe101">CS_CVAR</a></div><div class="ttdeci">#define CS_CVAR(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00051">state.qh:51</a></div></div>
 <div class="ttc" id="antilag_8qh_html_aeffee9458d2c270024cec552c5a66190"><div class="ttname"><a href="../../d0/dd2/antilag_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a></div><div class="ttdeci">int autocvar_g_antilag</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd2/antilag_8qh_source.html#l00003">antilag.qh:3</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_aa349f780b5d2d608e278935b6e4c60db_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_aa349f780b5d2d608e278935b6e4c60db_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1312,21 +1302,21 @@ Variables</h2></td></tr>
 <p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00221">WarpZone_traceline_antilag()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;{</div><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#a16360420959782f6972ac30eec10327a">tracebox_antilag_force_wz</a>(source, v1, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;0 0 0&#39;</span>, v2, nomonst, forent, lag, <span class="keyword">true</span>);</div><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;}</div><div class="ttc" id="antilag_8qc_html_a16360420959782f6972ac30eec10327a"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a16360420959782f6972ac30eec10327a">tracebox_antilag_force_wz</a></div><div class="ttdeci">void tracebox_antilag_force_wz(entity source, vector v1, vector mi, vector ma, vector v2, float nomonst, entity forent, float lag, float wz)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00169">antilag.qc:169</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_ad351eda3d83e3ac892325b85272f5f1b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_ad351eda3d83e3ac892325b85272f5f1b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1443,7 +1433,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d4/dd8/antilag_8qc.html">antilag.qc</a></li>
-    <li class="footer">Generated on Sun Dec 6 2020 03:02:30 for Xonotic by
+    <li class="footer">Generated on Sun Dec 6 2020 04:16:03 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

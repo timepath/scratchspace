@@ -2,6 +2,7 @@ var state_8qh =
 [
     [ "ClientState", "d6/d92/classClientState.html", "d6/d92/classClientState" ],
     [ "PlayerState", "d5/d7e/classPlayerState.html", "d5/d7e/classPlayerState" ],
+    [ "CS_CVAR", "db/d9f/state_8qh.html#a1a5647609e1177ce93a5c3a463cbe101", null ],
     [ "PS", "db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c", null ],
     [ "ClientState_attach", "db/d9f/state_8qh.html#afc32312bf25df126b18e078bedab7837", null ],
     [ "ClientState_detach", "db/d9f/state_8qh.html#ae17cd2d1c2291942edc23455fc1db486", null ],

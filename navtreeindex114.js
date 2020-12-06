@@ -1,5 +1,6 @@
 var NAVTREEINDEX114 =
 {
+"dc/de5/classWeapon.html#aadf51e7fb4ada8bff51507cc383495e9":[1,0,144,35],
 "dc/de5/classWeapon.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,144,5],
 "dc/de5/classWeapon.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,144,10],
 "dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55":[1,0,144,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX114 =
 "dc/df8/dynlight_8qc.html":[2,0,1,6,1,4],
 "dc/df8/dynlight_8qc_source.html":[2,0,1,6,1,4],
 "dc/dfe/common_2replicate_8qh.html":[2,0,1,42],
-"dc/dfe/common_2replicate_8qh_source.html":[2,0,1,42],
-"dc/dff/anticheat_8qh.html":[2,0,6,10]
+"dc/dfe/common_2replicate_8qh_source.html":[2,0,1,42]
 };

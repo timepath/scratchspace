@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"df/d0f/classSpiderbot.html#af6f42dcff19b7fb5b76462a7d5848b97":[1,0,129,9],
 "df/d0f/classSpiderbot.html#af7f5447512b9c7b0f697dd84c35b1040":[1,0,129,12],
 "df/d0f/classSpiderbot.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,129,0],
 "df/d13/anglestransform_8qc.html":[2,0,4,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "df/d28/menu_2xonotic_2button_8qc.html":[2,0,5,4,6],
 "df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[2,0,5,4,6,2],
 "df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[2,0,5,4,6,1],
-"df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9":[2,0,5,4,6,0],
-"df/d28/menu_2xonotic_2button_8qc_source.html":[2,0,5,4,6]
+"df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9":[2,0,5,4,6,0]
 };

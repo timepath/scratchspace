@@ -1,5 +1,6 @@
 var NAVTREEINDEX124 =
 {
+"de/d30/classXonoticDisconnectDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,174,26],
 "de/d30/classXonoticDisconnectDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,174,55],
 "de/d30/classXonoticDisconnectDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,174,32],
 "de/d30/classXonoticDisconnectDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,174,40],
@@ -248,6 +249,5 @@ var NAVTREEINDEX124 =
 "de/d42/loader_8qh.html":[2,0,6,4,5],
 "de/d42/loader_8qh_source.html":[2,0,6,4,5],
 "de/d42/sv__sandbox_8qh.html":[2,0,1,10,0,31,3],
-"de/d42/sv__sandbox_8qh.html#a6aec71dc4059e325dd048c78c6dc5d87":[2,0,1,10,0,31,3,1],
-"de/d42/sv__sandbox_8qh.html#aeb2b6670ee3b12c295af024d94ef9af9":[2,0,1,10,0,31,3,0]
+"de/d42/sv__sandbox_8qh.html#a6aec71dc4059e325dd048c78c6dc5d87":[2,0,1,10,0,31,3,1]
 };
