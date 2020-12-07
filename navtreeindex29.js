@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"d3/d53/server_2mapvoting_8qh.html#a443cb6b73dfcbff0e0b2ec089585d3f6":[2,0,6,42,13],
 "d3/d53/server_2mapvoting_8qh.html#a465dd50d17df18561cc9b6decf207ae6":[2,0,6,42,17],
 "d3/d53/server_2mapvoting_8qh.html#a55a404e632b9599200cdd019f8c03964":[2,0,6,42,8],
 "d3/d53/server_2mapvoting_8qh.html#a5d09cc16f8303c15f776796e2f80c8ee":[2,0,6,42,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "d3/d7c/common_2mutators_2mutator_2globalforces_2__mod_8qh_source.html":[2,0,1,10,0,10,1],
 "d3/d7f/onslaught_8qh.html":[2,0,1,3,0,13,11],
 "d3/d7f/onslaught_8qh.html#ad21036a05b89a96f3b01431d705e85c5":[2,0,1,3,0,13,11,1],
-"d3/d7f/onslaught_8qh_source.html":[2,0,1,3,0,13,11],
-"d3/d83/classXonoticHUDHealthArmorDialog.html":[1,0,191]
+"d3/d7f/onslaught_8qh_source.html":[2,0,1,3,0,13,11]
 };

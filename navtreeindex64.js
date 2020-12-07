@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"d6/dde/dialog__hudpanel__strafehud_8qh_source.html":[2,0,5,4,79],
 "d6/de1/classWalkerTurret.html":[1,0,141],
 "d6/de1/classWalkerTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,141,5],
 "d6/de1/classWalkerTurret.html#a17ea7685d385100ac43b49480e1e73e5":[1,0,141,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "d7/d13/classXonoticHUDAmmoDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,185,87],
 "d7/d13/classXonoticHUDAmmoDialog.html#a7f5e836fc378eef1caf0287465a877b2":[1,0,185,76],
 "d7/d13/classXonoticHUDAmmoDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,185,50],
-"d7/d13/classXonoticHUDAmmoDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,185,43],
-"d7/d13/classXonoticHUDAmmoDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,185,65]
+"d7/d13/classXonoticHUDAmmoDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,185,43]
 };

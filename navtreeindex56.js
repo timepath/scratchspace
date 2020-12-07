@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"d6/d1a/classMainWindow.html#a85a064a31a698c09f5c424224ec42bfc":[1,0,74,13],
 "d6/d1a/classMainWindow.html#a890974fd1608e18604cdc5b674b96f47":[1,0,74,67],
 "d6/d1a/classMainWindow.html#a911648d6f26b1b7e84d8c488c944863a":[1,0,74,9],
 "d6/d1a/classMainWindow.html#a918765695e02e3fd2b1fd9d6a97ce8b5":[1,0,74,37],
@@ -215,8 +216,8 @@ var NAVTREEINDEX56 =
 "d6/d29/anticheat_8qc.html#a8eecfc0df3f6930fcb87691447f1f4e3":[2,0,6,9,26],
 "d6/d29/anticheat_8qc.html#a8f202c10b7a9ce94d1420e6c79eef2ac":[2,0,6,9,22],
 "d6/d29/anticheat_8qc.html#a9993370ad69e2211b3046e5d1261bae0":[2,0,6,9,14],
-"d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155":[2,0,6,9,2],
 "d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155":[2,0,6,9,1],
+"d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155":[2,0,6,9,2],
 "d6/d29/anticheat_8qc.html#aa610d9cc0675d7d0761bd5edec9d443c":[2,0,6,9,29],
 "d6/d29/anticheat_8qc.html#aaa7263f59361199cea1247dc432f198a":[2,0,6,9,38],
 "d6/d29/anticheat_8qc.html#aab2a5b23d4cb9d1902726e7a59d2ae6c":[2,0,6,9,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "d6/d35/debug_8qc.html":[2,0,6,5,4],
 "d6/d35/debug_8qc_source.html":[2,0,6,5,4],
 "d6/d35/server_2bot_2default_2havocbot_2__mod_8inc.html":[2,0,6,0,0,0,0],
-"d6/d35/server_2bot_2default_2havocbot_2__mod_8inc_source.html":[2,0,6,0,0,0,0],
-"d6/d36/common_2mutators_2mutator_2touchexplode_2__mod_8qh.html":[2,0,1,10,0,35,1]
+"d6/d35/server_2bot_2default_2havocbot_2__mod_8inc_source.html":[2,0,6,0,0,0,0]
 };

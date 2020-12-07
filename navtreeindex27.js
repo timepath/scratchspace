@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"d3/d1b/classLabel.html#ac7432c7cf4b727b14ad696b443ea11c9":[1,0,63,32],
 "d3/d1b/classLabel.html#ad1ce92ac8ebc94d1d48a8374cd205618":[1,0,63,19],
 "d3/d1b/classLabel.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,63,38],
 "d3/d1b/classLabel.html#ae0c267c4f00544fa21932aa1251d6135":[1,0,63,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d46/mapinfo_8qc.html#a53227eb055bce2f2d9197dbfd3541c78":[2,0,1,34,55],
 "d3/d46/mapinfo_8qc.html#a64dec8604825bec73d85cbc37a1e75ae":[2,0,1,34,44],
 "d3/d46/mapinfo_8qc.html#a6718c6cd677f3f70d71fe5079e86ade9":[2,0,1,34,5],
-"d3/d46/mapinfo_8qc.html#a70ce1094a7b3d4e54f0e8f78b7c11499":[2,0,1,34,36],
-"d3/d46/mapinfo_8qc.html#a799a2e72317c8785c4b259a1c568548e":[2,0,1,34,23]
+"d3/d46/mapinfo_8qc.html#a70ce1094a7b3d4e54f0e8f78b7c11499":[2,0,1,34,36]
 };

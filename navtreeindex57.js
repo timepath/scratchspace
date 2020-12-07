@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"d6/d36/common_2mutators_2mutator_2touchexplode_2__mod_8qh.html":[2,0,1,10,0,35,1],
 "d6/d36/common_2mutators_2mutator_2touchexplode_2__mod_8qh_source.html":[2,0,1,10,0,35,1],
 "d6/d37/flipflop_8qh.html":[2,0,1,6,3,9],
 "d6/d37/flipflop_8qh_source.html":[2,0,1,6,3,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "d6/d74/serverlist_8qc.html#a97346b4253a15de7c1b84be9e0e5b52f":[2,0,5,4,208,7],
 "d6/d74/serverlist_8qc.html#a9ac229df5825abca0f85faff876d5836":[2,0,5,4,208,29],
 "d6/d74/serverlist_8qc.html#aa0e0784a97109433c6a862b63e0d739e":[2,0,5,4,208,14],
-"d6/d74/serverlist_8qc.html#aa2ff59e556502ac72000ba9410cb567f":[2,0,5,4,208,10],
-"d6/d74/serverlist_8qc.html#ab298f49df97241c5d4f9fae91ee09edd":[2,0,5,4,208,28]
+"d6/d74/serverlist_8qc.html#aa2ff59e556502ac72000ba9410cb567f":[2,0,5,4,208,10]
 };

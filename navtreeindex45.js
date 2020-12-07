@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"d4/d95/common_2mutators_2events_8qh_source.html":[2,0,1,10,4],
 "d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh.html":[2,0,1,10,0,6,1],
 "d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh_source.html":[2,0,1,10,0,6,1],
 "d4/d9d/hellion_8qh.html":[2,0,1,14,0,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "d4/da9/racetimer_8qh.html#a51a8f1491a8b21741c0c6640b8e5019a":[2,0,0,1,0,29,13],
 "d4/da9/racetimer_8qh.html#a67234b7e3097a12ec7d56566276b1295":[2,0,0,1,0,29,2],
 "d4/da9/racetimer_8qh.html#a6f43436dba652760ff17d18ed5bdf975":[2,0,0,1,0,29,8],
-"d4/da9/racetimer_8qh.html#a72abba51d925066d5b85f6b761aec740":[2,0,0,1,0,29,17],
-"d4/da9/racetimer_8qh.html#a766f0b1708b74792c765d71219cd1a04":[2,0,0,1,0,29,26]
+"d4/da9/racetimer_8qh.html#a72abba51d925066d5b85f6b761aec740":[2,0,0,1,0,29,17]
 };

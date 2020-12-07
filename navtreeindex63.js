@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#a385c44f6fb256e5716a2302a5b940388a8168d5d80f0fe8ae36ce88761b83f3b9":[2,0,6,4,3,137],
 "d6/ddd/server_2mutators_2events_8qh.html#a39e2db370cd7a1e148594c4d17fe0d1f":[2,0,6,4,3,106],
 "d6/ddd/server_2mutators_2events_8qh.html#a3ae7ea2918b17ac95063707e28229ef7":[2,0,6,4,3,71],
 "d6/ddd/server_2mutators_2events_8qh.html#a3b05b0b07f8bfac621be16b7588af844":[2,0,6,4,3,308],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "d6/ddd/server_2mutators_2events_8qh.html#afeb76beef4f1c25ba2729048018fca4b":[2,0,6,4,3,265],
 "d6/ddd/server_2mutators_2events_8qh.html#affc9a091be59109f0566cb1e7349c7c1":[2,0,6,4,3,257],
 "d6/ddd/server_2mutators_2events_8qh_source.html":[2,0,6,4,3],
-"d6/dde/dialog__hudpanel__strafehud_8qh.html":[2,0,5,4,79],
-"d6/dde/dialog__hudpanel__strafehud_8qh_source.html":[2,0,5,4,79]
+"d6/dde/dialog__hudpanel__strafehud_8qh.html":[2,0,5,4,79]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX134 =
 {
+"df/d42/quake3_8qc.html#ad4899ec0dcf98c0a39b6bc4b99b3dbcf":[2,0,6,2,8,5],
+"df/d42/quake3_8qc.html#ae6af28f0406185d406556f691af0f8f2":[2,0,6,2,8,3],
 "df/d42/quake3_8qc.html#ae6ce7348eeca30f09a3ea4aca0a44683":[2,0,6,2,8,17],
 "df/d42/quake3_8qc.html#ae85e4cca4f185075917547715465c5e3":[2,0,6,2,8,15],
 "df/d42/quake3_8qc.html#af209cc1b2014548785983c19968a4fd9":[2,0,6,2,8,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX134 =
 "df/d6e/classXonoticSingleplayerDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,249,20],
 "df/d6e/classXonoticSingleplayerDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,249,48],
 "df/d6e/classXonoticSingleplayerDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,249,53],
-"df/d6e/classXonoticSingleplayerDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,249,28],
-"df/d6e/classXonoticSingleplayerDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,249,21],
-"df/d6e/classXonoticSingleplayerDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,249,14]
+"df/d6e/classXonoticSingleplayerDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,249,28]
 };

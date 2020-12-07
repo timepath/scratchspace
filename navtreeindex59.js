@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"d6/d88/powerup_8qh.html#af49b65618996e5ebd12df05e284048dd":[2,0,1,5,0,13,2],
 "d6/d88/powerup_8qh_source.html":[2,0,1,5,0,13],
 "d6/d8e/common_2mutators_2mutator_2sandbox_2__mod_8inc.html":[2,0,1,10,0,31,0],
 "d6/d8e/common_2mutators_2mutator_2sandbox_2__mod_8inc_source.html":[2,0,1,10,0,31,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "d6/daa/quickmenu_8qh.html#a7931f8c4c9cd57add003899d4da60261":[2,0,0,1,0,27,10],
 "d6/daa/quickmenu_8qh.html#a83c6625cfcd8716e5e481969fa957f6f":[2,0,0,1,0,27,4],
 "d6/daa/quickmenu_8qh.html#a842da1e1b814366ffd55d4096c8123c1":[2,0,0,1,0,27,1],
-"d6/daa/quickmenu_8qh.html#a88205b914d1087deba79a3cf9609cd6b":[2,0,0,1,0,27,11],
-"d6/daa/quickmenu_8qh.html#ad5f9052456993f2e1938aa4abd438ad0":[2,0,0,1,0,27,8]
+"d6/daa/quickmenu_8qh.html#a88205b914d1087deba79a3cf9609cd6b":[2,0,0,1,0,27,11]
 };

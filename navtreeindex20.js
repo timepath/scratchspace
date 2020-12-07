@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"d2/d64/dialog__settings__game__messages_8qc.html#a06a0a03bab3b31fc5354446fdb1df3bb":[2,0,5,4,138,1],
 "d2/d64/dialog__settings__game__messages_8qc.html#a56f858039cd189ac5d33cda3f01a4667":[2,0,5,4,138,2],
 "d2/d64/dialog__settings__game__messages_8qc.html#ad03b9295aeb89d2a5633bfde7c357a26":[2,0,5,4,138,0],
 "d2/d64/dialog__settings__game__messages_8qc_source.html":[2,0,5,4,138],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "d2/d88/classDomination.html#a353db82280437c3b38f0ad1934a7d666":[1,0,30,19],
 "d2/d88/classDomination.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,30,14],
 "d2/d88/classDomination.html#a4db6ad0ff6ca1f3b5bdc0cb58c9e3f1e":[1,0,30,11],
-"d2/d88/classDomination.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,30,8],
-"d2/d88/classDomination.html#a6029db0de09a0293986e7a082970775a":[1,0,30,18]
+"d2/d88/classDomination.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,30,8]
 };

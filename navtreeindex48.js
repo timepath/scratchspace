@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"d4/def/weapons_8qc.html#ab7c3acfa47aaf4f25f4775921b6be5ae":[2,0,0,1,0,42,4],
 "d4/def/weapons_8qc.html#acbf6d97cc09f97ee2a71b562ffae170d":[2,0,0,1,0,42,9],
 "d4/def/weapons_8qc.html#aeefd60b5b16eeb09bd4bd219b62bf124":[2,0,0,1,0,42,5],
 "d4/def/weapons_8qc_source.html":[2,0,0,1,0,42],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "d5/d3a/checkbox__string_8qh.html":[2,0,5,4,17],
 "d5/d3a/checkbox__string_8qh.html#a99bf8fc9169855784af2af3cb71c8998":[2,0,5,4,17,1],
 "d5/d3a/checkbox__string_8qh_source.html":[2,0,5,4,17],
-"d5/d3a/duel_8qc.html":[2,0,1,3,0,6,2],
-"d5/d3a/duel_8qc_source.html":[2,0,1,3,0,6,2]
+"d5/d3a/duel_8qc.html":[2,0,1,3,0,6,2]
 };

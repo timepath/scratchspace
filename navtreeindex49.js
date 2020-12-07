@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"d5/d3a/duel_8qc_source.html":[2,0,1,3,0,6,2],
 "d5/d3b/slider__particles_8qh.html":[2,0,5,4,217],
 "d5/d3b/slider__particles_8qh.html#a9d9cd17f2b7f5805574e346fe8036d7f":[2,0,5,4,217,1],
 "d5/d3b/slider__particles_8qh_source.html":[2,0,5,4,217],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "d5/d6c/classXonoticHUDSkinList.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,203,69],
 "d5/d6c/classXonoticHUDSkinList.html#a84f6def940e220b9fdae72c21a7441ac":[1,0,203,36],
 "d5/d6c/classXonoticHUDSkinList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,203,48],
-"d5/d6c/classXonoticHUDSkinList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,203,18],
-"d5/d6c/classXonoticHUDSkinList.html#a8d99e382ef681bb5784d0414d4aa913c":[1,0,203,11]
+"d5/d6c/classXonoticHUDSkinList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,203,18]
 };

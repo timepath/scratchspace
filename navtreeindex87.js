@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"d9/db3/classXonoticGameModelSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,180,63],
 "d9/db3/classXonoticGameModelSettingsTab.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,180,10],
 "d9/db3/classXonoticGameModelSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,180,18],
 "d9/db3/classXonoticGameModelSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,180,82],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "d9/de7/jumppads_8qh.html#affeed36a4bfbccc789a223127cd20da4":[2,0,1,6,3,21,4],
 "d9/de7/jumppads_8qh_source.html":[2,0,1,6,3,21],
 "d9/de9/classListBox.html":[1,0,68],
-"d9/de9/classListBox.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,68,6],
-"d9/de9/classListBox.html#a0dc1fdac9b12e18c439f02886f13e368":[1,0,68,30]
+"d9/de9/classListBox.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,68,6]
 };

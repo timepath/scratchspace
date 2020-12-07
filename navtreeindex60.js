@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"d6/daa/quickmenu_8qh.html#ad5f9052456993f2e1938aa4abd438ad0":[2,0,0,1,0,27,8],
 "d6/daa/quickmenu_8qh.html#afb68cf8d1d24c221561fdd16fe32ad8d":[2,0,0,1,0,27,9],
 "d6/daa/quickmenu_8qh_source.html":[2,0,0,1,0,27],
 "d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc.html":[2,0,5,4,106],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "d6/dce/json_8qc.html#ab90640dbf9eb64a373fd80094f03e400":[2,0,4,27,19],
 "d6/dce/json_8qc.html#ac2e751b625bc6970fcc9cca30fdb01b9":[2,0,4,27,23],
 "d6/dce/json_8qc.html#acbd92afe884be3284eb65dac58e8dea7":[2,0,4,27,12],
-"d6/dce/json_8qc.html#ad40fe38cb8d1f7d901fcd0292f08f552":[2,0,4,27,16],
-"d6/dce/json_8qc.html#adc0e9056772a94dcfc033c0c57635826":[2,0,4,27,6]
+"d6/dce/json_8qc.html#ad40fe38cb8d1f7d901fcd0292f08f552":[2,0,4,27,16]
 };

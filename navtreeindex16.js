@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"d1/de2/classFreezeTag.html#a689c2a1afc56d93f77ebdebad6b168bf":[1,0,41,11],
 "d1/de2/classFreezeTag.html#a9f678d47ed56b6147ac135ca3a9584cc":[1,0,41,12],
 "d1/de2/classFreezeTag.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,41,2],
 "d1/de2/classFreezeTag.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,41,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "d2/d0a/common_2physics_2player_8qc.html#abb6ca34452c1369173a1515f92dd8764":[2,0,1,12,6,2],
 "d2/d0a/common_2physics_2player_8qc.html#aca339d8aaaae115a0d2ba340286b54e9":[2,0,1,12,6,6],
 "d2/d0a/common_2physics_2player_8qc.html#ad10529bb42f77b6fc63150656a85816d":[2,0,1,12,6,5],
-"d2/d0a/common_2physics_2player_8qc.html#ae011b0b8c9891eb366486a2b8c815940":[2,0,1,12,6,8],
-"d2/d0a/common_2physics_2player_8qc.html#aead66d13892cacf1c9bf47a27352f9f9":[2,0,1,12,6,9]
+"d2/d0a/common_2physics_2player_8qc.html#ae011b0b8c9891eb366486a2b8c815940":[2,0,1,12,6,8]
 };

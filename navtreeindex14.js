@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"d1/d9c/server_2chat_8qh_source.html":[2,0,6,16],
 "d1/d9f/dialog__multiplayer_8qc.html":[2,0,5,4,90],
 "d1/d9f/dialog__multiplayer_8qc.html#af83637108621204488c5ae95da509066":[2,0,5,4,90,0],
 "d1/d9f/dialog__multiplayer_8qc_source.html":[2,0,5,4,90],
@@ -122,8 +123,8 @@ var NAVTREEINDEX14 =
 "d1/dad/server_2command_2vote_8qc.html#aa87ee0e2c399505d83d290b4bef95caf":[2,0,6,1,16,24],
 "d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f":[2,0,6,1,16,15],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
-"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
+"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,3],
 "d1/dad/server_2command_2vote_8qc.html#abe4a2e3fd5c533319ea51970d72f95f7":[2,0,6,1,16,28],
 "d1/dad/server_2command_2vote_8qc.html#ac42f429ba6ba4289fa7af9310f40a0a4":[2,0,6,1,16,14],
 "d1/dad/server_2command_2vote_8qc.html#ae57d1ca4b4a65c6bd2200048fc0a5c62":[2,0,6,1,16,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "d1/dba/server_2weapons_2common_8qh.html#a444b62d606749f309da722e1d36407a7":[2,0,6,6,5,29],
 "d1/dba/server_2weapons_2common_8qh.html#a50ae929b40916f98cffeb538fd0951dd":[2,0,6,6,5,1],
 "d1/dba/server_2weapons_2common_8qh.html#a54b62975dcb9a09f47d915bc5b4ff800":[2,0,6,6,5,21],
-"d1/dba/server_2weapons_2common_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952":[2,0,6,6,5,15],
-"d1/dba/server_2weapons_2common_8qh.html#a5a08fa477287e8869e228d790a885d87":[2,0,6,6,5,14]
+"d1/dba/server_2weapons_2common_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952":[2,0,6,6,5,15]
 };
