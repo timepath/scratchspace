@@ -576,7 +576,7 @@ var searchData=
   ['autocvar_5fcapturelimit_5foverride',['autocvar_capturelimit_override',['../d6/db0/sv__ctf_8qh.html#afb2c93480534ada47dd5656ca376070f',1,'sv_ctf.qh']]],
   ['autocvar_5fchase_5factive',['autocvar_chase_active',['../d5/d8c/view_8qh.html#a1a43d3c1345d92645fc24bdd7d9a7060',1,'view.qh']]],
   ['autocvar_5fchase_5fback',['autocvar_chase_back',['../d7/da2/cl__player_8qc.html#a957369adc3c07cc896644044f47d2bbf',1,'cl_player.qc']]],
-  ['autocvar_5fchase_5ffront',['autocvar_chase_front',['../d7/da2/cl__player_8qc.html#a8935f8d1a5fcb11e3895f3fee2d7cd35',1,'cl_player.qc']]],
+  ['autocvar_5fchase_5ffront',['autocvar_chase_front',['../d5/d8c/view_8qh.html#a8935f8d1a5fcb11e3895f3fee2d7cd35',1,'view.qh']]],
   ['autocvar_5fchase_5foverhead',['autocvar_chase_overhead',['../d7/da2/cl__player_8qc.html#ad0782bf316a6577c97ca56c762b0802a',1,'cl_player.qc']]],
   ['autocvar_5fchase_5fpitchangle',['autocvar_chase_pitchangle',['../d7/da2/cl__player_8qc.html#a947fbb265b75a55a7264ffbbba9571ce',1,'cl_player.qc']]],
   ['autocvar_5fchase_5fup',['autocvar_chase_up',['../d7/da2/cl__player_8qc.html#adbc48555961e05e4b4ab4662e4ab110a',1,'cl_player.qc']]],

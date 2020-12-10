@@ -18,6 +18,7 @@ var view_8qh =
     [ "autocvar_camera_speed_free", "d5/d8c/view_8qh.html#a19097d7ac498f773a5f42e11c28ed743", null ],
     [ "autocvar_camera_speed_roll", "d5/d8c/view_8qh.html#ab75e4d542334f8128c63ae77170e8f25", null ],
     [ "autocvar_chase_active", "d5/d8c/view_8qh.html#a1a43d3c1345d92645fc24bdd7d9a7060", null ],
+    [ "autocvar_chase_front", "d5/d8c/view_8qh.html#a8935f8d1a5fcb11e3895f3fee2d7cd35", null ],
     [ "autocvar_cl_eventchase_death", "d5/d8c/view_8qh.html#aa7f213de6d935cc8bc3f26e367a3abdf", null ],
     [ "autocvar_cl_eventchase_distance", "d5/d8c/view_8qh.html#a8cd45e1195aec030971d0c76c5c809b1", null ],
     [ "autocvar_cl_eventchase_frozen", "d5/d8c/view_8qh.html#a8a3b9f04e4f2edf37590595e012c7256", null ],
