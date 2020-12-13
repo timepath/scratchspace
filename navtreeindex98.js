@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"db/d2a/constants_8qh.html#ad3ca9bafcd2a989067df572beb120b12":[2,0,1,29,11],
 "db/d2a/constants_8qh.html#ae0ab871c8cc78d5f023578c0969de0fe":[2,0,1,29,5],
 "db/d2a/constants_8qh_source.html":[2,0,1,29],
 "db/d2b/sv__spawn__near__teammate_8qh.html":[2,0,1,10,0,32,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "db/d38/classXonoticSliderCheckBox.html#a4cec67ef8bea911bbbe8e837e8c1f4fe":[1,0,252,78],
 "db/d38/classXonoticSliderCheckBox.html#a4cf08b5cf5b03694b1ab99f4eb3cd6da":[1,0,252,7],
 "db/d38/classXonoticSliderCheckBox.html#a4e5f3b4dda55b50588c4fb421585cf94":[1,0,252,68],
-"db/d38/classXonoticSliderCheckBox.html#a551caf43464ecebace012d2b272c7bad":[1,0,252,13],
-"db/d38/classXonoticSliderCheckBox.html#a56159c764874bed976add81f81298c31":[1,0,252,48]
+"db/d38/classXonoticSliderCheckBox.html#a551caf43464ecebace012d2b272c7bad":[1,0,252,13]
 };

@@ -1564,6 +1564,7 @@ var searchData=
   ['autocvar_5fhud_5fpanel_5fhealtharmor_5ficonalign',['autocvar_hud_panel_healtharmor_iconalign',['../d4/d51/healtharmor_8qh.html#a048a30a5010eeff2a9fbf4104f1a2cc2',1,'healtharmor.qh']]],
   ['autocvar_5fhud_5fpanel_5fhealtharmor_5fmaxarmor',['autocvar_hud_panel_healtharmor_maxarmor',['../d4/d51/healtharmor_8qh.html#af059c7cf3e5687b73f13c24fa769ff6f',1,'healtharmor.qh']]],
   ['autocvar_5fhud_5fpanel_5fhealtharmor_5fmaxhealth',['autocvar_hud_panel_healtharmor_maxhealth',['../d4/d51/healtharmor_8qh.html#ad0528d3eb6618ba99a501b2944f23310',1,'healtharmor.qh']]],
+  ['autocvar_5fhud_5fpanel_5fhealtharmor_5foxygenbar_5fstartalpha',['autocvar_hud_panel_healtharmor_oxygenbar_startalpha',['../d4/d51/healtharmor_8qh.html#a8e29d6d9805d402a7a66275102db1e1b',1,'healtharmor.qh']]],
   ['autocvar_5fhud_5fpanel_5fhealtharmor_5fprogressbar',['autocvar_hud_panel_healtharmor_progressbar',['../d4/d51/healtharmor_8qh.html#a7f18fd050093b14f2f1bdbfca10cc96a',1,'healtharmor.qh']]],
   ['autocvar_5fhud_5fpanel_5fhealtharmor_5fprogressbar_5farmor',['autocvar_hud_panel_healtharmor_progressbar_armor',['../d4/d51/healtharmor_8qh.html#af87409a24c15d5c517de9cd5c8f83755',1,'healtharmor.qh']]],
   ['autocvar_5fhud_5fpanel_5fhealtharmor_5fprogressbar_5fgfx',['autocvar_hud_panel_healtharmor_progressbar_gfx',['../d4/d51/healtharmor_8qh.html#a68334670e016c9fb3e37c48c7eb933f9',1,'healtharmor.qh']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX91 =
 {
+"da/d56/freezetag_8qh.html":[2,0,1,3,0,7,5],
 "da/d56/freezetag_8qh.html#a4b06a80f704bf3d55f6ec6d9c0be8554":[2,0,1,3,0,7,5,1],
 "da/d56/freezetag_8qh.html#a7d1c3cbdd8ccb05dad66eb7267c9904d":[2,0,1,3,0,7,5,2],
 "da/d56/freezetag_8qh_source.html":[2,0,1,3,0,7,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX91 =
 "da/d94/classXonoticSettingsDialog.html":[1,0,248],
 "da/d94/classXonoticSettingsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,248,30],
 "da/d94/classXonoticSettingsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,248,11],
-"da/d94/classXonoticSettingsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,248,38],
-"da/d94/classXonoticSettingsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,248,3]
+"da/d94/classXonoticSettingsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,248,38]
 };

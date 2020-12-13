@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"da/dde/csprogsdefs_8qh.html":[2,0,2,1],
 "da/dde/csprogsdefs_8qh.html#a050be3f134c919c23725ca5207a3e0eb":[2,0,2,1,3],
 "da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9":[2,0,2,1,23],
 "da/dde/csprogsdefs_8qh.html#a2975aa3861dc843a19aa644cbca0990c":[2,0,2,1,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "db/d07/teams_8qh.html#a700d838c6711603d833d9c54cdfb7fe6":[2,0,1,48,53],
 "db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56":[2,0,1,48,50],
 "db/d07/teams_8qh.html#a801d5d7bec102c3573e8a3ca8781236c":[2,0,1,48,21],
-"db/d07/teams_8qh.html#a8044b8f8baa7b9e0ddb6c6ef7dba7922":[2,0,1,48,18],
-"db/d07/teams_8qh.html#a83e349718aa3a32da8b60b39747ef8e8":[2,0,1,48,34]
+"db/d07/teams_8qh.html#a8044b8f8baa7b9e0ddb6c6ef7dba7922":[2,0,1,48,18]
 };
