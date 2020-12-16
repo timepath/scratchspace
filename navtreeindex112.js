@@ -1,5 +1,7 @@
 var NAVTREEINDEX112 =
 {
+"dc/d9d/inventory_8qh.html":[2,0,1,5,5],
+"dc/d9d/inventory_8qh_source.html":[2,0,1,5,5],
 "dc/da0/classXonoticMapInfoDialog.html":[1,0,215],
 "dc/da0/classXonoticMapInfoDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,215,40],
 "dc/da0/classXonoticMapInfoDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,215,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX112 =
 "dc/dd8/dialog__settings__game__view_8qh.html#ad2c0275b75acbfb7f440c6f86cbaa4b2":[2,0,5,4,143,2],
 "dc/dd8/dialog__settings__game__view_8qh_source.html":[2,0,5,4,143],
 "dc/dda/classAmmo.html":[1,0,0],
-"dc/dda/classAmmo.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,0,0],
-"dc/dda/classAmmo.html#a48b78d497828537731feaa167c8af4f1":[1,0,0,13],
-"dc/dda/classAmmo.html#a6131dbf54f626ebf2c9d610833da9fb5":[1,0,0,1]
+"dc/dda/classAmmo.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,0,0]
 };

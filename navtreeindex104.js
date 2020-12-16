@@ -1,5 +1,7 @@
 var NAVTREEINDEX104 =
 {
+"db/d98/common_2gamemodes_2gamemode_2ctf_2__mod_8inc.html":[2,0,1,3,0,2,0],
+"db/d98/common_2gamemodes_2gamemode_2ctf_2__mod_8inc_source.html":[2,0,1,3,0,2,0],
 "db/d9b/server_2player_8qc.html":[2,0,6,45],
 "db/d9b/server_2player_8qc.html#a2460170632e0dae27be5dbfc5032b256":[2,0,6,45,8],
 "db/d9b/server_2player_8qc.html#a2c4acf85cd876d0e628435d91592d615":[2,0,6,45,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX104 =
 "db/db4/classTextSlider.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,135,61],
 "db/db4/classTextSlider.html#a3f9c5e6943891f335099fe380661b70c":[1,0,135,27],
 "db/db4/classTextSlider.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,135,64],
-"db/db4/classTextSlider.html#a410bd8073e04005466f95ec4936a3328":[1,0,135,86],
-"db/db4/classTextSlider.html#a4507944a16d2de8fd3aff6bf8767f1e4":[1,0,135,83],
-"db/db4/classTextSlider.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,135,74]
+"db/db4/classTextSlider.html#a410bd8073e04005466f95ec4936a3328":[1,0,135,86]
 };

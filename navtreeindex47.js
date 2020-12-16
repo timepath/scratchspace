@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"d4/dd7/movetypes_8qh.html#adbfba38430a1128eb2b3ad5919805e32":[2,0,1,12,0,6,7],
+"d4/dd7/movetypes_8qh.html#adc76b474270aeb1261d12d16e6ec9fda":[2,0,1,12,0,6,46],
 "d4/dd7/movetypes_8qh.html#add4ab8569af46a0f63ceb53e803b11f3":[2,0,1,12,0,6,15],
 "d4/dd7/movetypes_8qh.html#ae2e6ecb8259f2a862b8c9ea86567c13e":[2,0,1,12,0,6,32],
 "d4/dd7/movetypes_8qh.html#aeb8e7a09c27afa0523d4f11d696f45ff":[2,0,1,12,0,6,52],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "d4/df8/classXonoticHUDRadarDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,201,49],
 "d4/df8/classXonoticHUDRadarDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,201,2],
 "d4/df8/classXonoticHUDRadarDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,201,35],
-"d4/df8/classXonoticHUDRadarDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,201,39],
-"d4/df8/sv__touchexplode_8qc.html":[2,0,1,10,0,35,2],
-"d4/df8/sv__touchexplode_8qc.html#a0228a9d2666d52bfede21f623057a28c":[2,0,1,10,0,35,2,8]
+"d4/df8/classXonoticHUDRadarDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,201,39]
 };

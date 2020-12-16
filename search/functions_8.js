@@ -207,6 +207,8 @@ var searchData=
   ['hud_5fradar',['HUD_Radar',['../d0/d83/radar_8qc.html#a4ef5ec474f4b0cdc0faa8d78c8d8ea87',1,'radar.qc']]],
   ['hud_5fradar_5fclickable',['HUD_Radar_Clickable',['../d3/d05/hud_8qh.html#afbba142f43273ad4e2c4d1f552622b27',1,'HUD_Radar_Clickable():&#160;radar.qc'],['../d0/d83/radar_8qc.html#afbba142f43273ad4e2c4d1f552622b27',1,'HUD_Radar_Clickable():&#160;radar.qc']]],
   ['hud_5fradar_5fexport',['HUD_Radar_Export',['../d0/d83/radar_8qc.html#a7bc50a2b4ebdcec1280c72a48c7c3e02',1,'radar.qc']]],
+  ['hud_5fradar_5fgetangle',['HUD_Radar_GetAngle',['../d0/d83/radar_8qc.html#ae55120af480c85d5680b1b3084a4d81b',1,'radar.qc']]],
+  ['hud_5fradar_5fgetzoomfactor',['HUD_Radar_GetZoomFactor',['../d0/d83/radar_8qc.html#ac10bb85253eb72b52a70d844219d1173',1,'radar.qc']]],
   ['hud_5fradar_5fhide_5fmaximized',['HUD_Radar_Hide_Maximized',['../d3/d05/hud_8qh.html#afdf03cec4539130c81580ba3f23717db',1,'HUD_Radar_Hide_Maximized():&#160;radar.qc'],['../d0/d83/radar_8qc.html#afdf03cec4539130c81580ba3f23717db',1,'HUD_Radar_Hide_Maximized():&#160;radar.qc']]],
   ['hud_5fradar_5finputevent',['HUD_Radar_InputEvent',['../d3/d05/hud_8qh.html#a1e7678d561cb466a1452074e19beff54',1,'HUD_Radar_InputEvent(float bInputType, float nPrimary, float nSecondary):&#160;hud.qh'],['../d0/d83/radar_8qc.html#ab7e43a24ac28d2eb43512b2e8b7571e3',1,'HUD_Radar_InputEvent(int bInputType, float nPrimary, float nSecondary):&#160;radar.qc']]],
   ['hud_5fradar_5fmouse',['HUD_Radar_Mouse',['../d3/d05/hud_8qh.html#a64d386e6f03ccf2feb8a7c766c3a7699',1,'HUD_Radar_Mouse():&#160;radar.qc'],['../d0/d83/radar_8qc.html#a64d386e6f03ccf2feb8a7c766c3a7699',1,'HUD_Radar_Mouse():&#160;radar.qc']]],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"d6/d63/compiler_8qh.html#a608af1727395e4e27a72df6c6799c215":[2,0,4,13,0],
+"d6/d63/compiler_8qh_source.html":[2,0,4,13],
 "d6/d65/physics_2all_8inc.html":[2,0,1,12,3],
 "d6/d65/physics_2all_8inc_source.html":[2,0,1,12,3],
 "d6/d66/classPhaserTurret.html":[1,0,98],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,177,91],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#ae4426a36e8331724eb95f243e6e1dc4c":[1,0,177,77],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,177,12],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,177,67],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,177,29],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,177,13]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,177,67]
 };

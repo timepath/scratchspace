@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,177,29],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,177,13],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,177,5],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,177,19],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,177,58],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "d6/d99/effectinfo__buffs_8inc.html#a4eb69c2d5a72055e664d44f0c79b4656":[2,0,1,2,10,21],
 "d6/d99/effectinfo__buffs_8inc.html#a61b7a42774a0e3771a8ca440ede84e6e":[2,0,1,2,10,2],
 "d6/d99/effectinfo__buffs_8inc.html#a658b660e63f555599c86f56b3c65ed2f":[2,0,1,2,10,16],
-"d6/d99/effectinfo__buffs_8inc.html#a658c13db518ffe512feed9968222d7bf":[2,0,1,2,10,19],
-"d6/d99/effectinfo__buffs_8inc.html#a750fb493ea8d4acc5cad790fd45bd39c":[2,0,1,2,10,31],
-"d6/d99/effectinfo__buffs_8inc.html#a885af86e11d2f5b62338a878e66be8c8":[2,0,1,2,10,18]
+"d6/d99/effectinfo__buffs_8inc.html#a658c13db518ffe512feed9968222d7bf":[2,0,1,2,10,19]
 };

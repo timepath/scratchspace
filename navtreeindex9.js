@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"d1/d37/classClient.html#a5706b0334f1257f47411b95fd40e8a5f":[1,0,18,33],
+"d1/d37/classClient.html#a5905339aa331ed25695eabf2b2f632b5":[1,0,18,65],
 "d1/d37/classClient.html#a598f5dd31488d5445371d8b8b68eb52d":[1,0,18,24],
 "d1/d37/classClient.html#a5b0429fb2f0c1af31a45b9f112661422":[1,0,18,63],
 "d1/d37/classClient.html#a5d9df5ac0abeed28dc3a5e64a1ad3336":[1,0,18,52],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "d1/d4a/sv__running__guns_8qh_source.html":[2,0,1,10,0,30,3],
 "d1/d4b/vehicle_8qh.html":[2,0,1,15,9],
 "d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7":[2,0,1,15,9,15],
-"d1/d4b/vehicle_8qh.html#a08085a51451ed42da223968a02ff9a6b":[2,0,1,15,9,11],
-"d1/d4b/vehicle_8qh.html#a10ef3a78c131f2649e4acf0cfa690c17":[2,0,1,15,9,8],
-"d1/d4b/vehicle_8qh.html#a459dc536ed9e5b9ac4a54c46829e7144":[2,0,1,15,9,13]
+"d1/d4b/vehicle_8qh.html#a08085a51451ed42da223968a02ff9a6b":[2,0,1,15,9,11]
 };
