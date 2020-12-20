@@ -1,5 +1,11 @@
 var NAVTREEINDEX112 =
 {
+"dc/d9c/infomessages_8qh.html":[2,0,0,1,0,13],
+"dc/d9c/infomessages_8qh.html#a2de169fcdff52148b20b383ee23c154c":[2,0,0,1,0,13,1],
+"dc/d9c/infomessages_8qh.html#a7d73591d24e4235cf0122660d9add83a":[2,0,0,1,0,13,2],
+"dc/d9c/infomessages_8qh.html#ac081b7a6994295088b7aae6d4dbc22ad":[2,0,0,1,0,13,3],
+"dc/d9c/infomessages_8qh.html#ac929d94e7aabbbfb0bac0cc12a1e6e82":[2,0,0,1,0,13,0],
+"dc/d9c/infomessages_8qh_source.html":[2,0,0,1,0,13],
 "dc/d9d/inventory_8qh.html":[2,0,1,5,5],
 "dc/d9d/inventory_8qh_source.html":[2,0,1,5,5],
 "dc/da0/classXonoticMapInfoDialog.html":[1,0,215],
@@ -243,11 +249,5 @@ var NAVTREEINDEX112 =
 "dc/dd0/replicate_8qc.html":[2,0,1,41],
 "dc/dd0/replicate_8qc_source.html":[2,0,1,41],
 "dc/dd0/server_2compat_2__mod_8inc.html":[2,0,6,2,0],
-"dc/dd0/server_2compat_2__mod_8inc_source.html":[2,0,6,2,0],
-"dc/dd8/dialog__settings__game__view_8qh.html":[2,0,5,4,143],
-"dc/dd8/dialog__settings__game__view_8qh.html#a350c9edae9e123f0bc2ee43ff045a257":[2,0,5,4,143,1],
-"dc/dd8/dialog__settings__game__view_8qh.html#ad2c0275b75acbfb7f440c6f86cbaa4b2":[2,0,5,4,143,2],
-"dc/dd8/dialog__settings__game__view_8qh_source.html":[2,0,5,4,143],
-"dc/dda/classAmmo.html":[1,0,0],
-"dc/dda/classAmmo.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,0,0]
+"dc/dd0/server_2compat_2__mod_8inc_source.html":[2,0,6,2,0]
 };

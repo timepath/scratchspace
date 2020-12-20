@@ -1,5 +1,11 @@
 var NAVTREEINDEX136 =
 {
+"df/d92/classXonoticWinnerDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,266,34],
+"df/d92/classXonoticWinnerDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,266,5],
+"df/d92/classXonoticWinnerDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,266,88],
+"df/d92/classXonoticWinnerDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,266,42],
+"df/d92/classXonoticWinnerDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,266,51],
+"df/d92/classXonoticWinnerDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,266,0],
 "df/d92/classXonoticWinnerDialog.html#ac7925ad29fbe0a79a954add7ad560dd6":[1,0,266,58],
 "df/d92/classXonoticWinnerDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,266,31],
 "df/d92/classXonoticWinnerDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,266,36],
@@ -243,11 +249,5 @@ var NAVTREEINDEX136 =
 "df/dbd/dialog__settings__game__crosshair_8qc_source.html":[2,0,5,4,132],
 "df/dbd/ecs_2main_8qc.html":[2,0,3,6],
 "df/dbd/ecs_2main_8qc.html#a20fbabe6206b4fb7777eefcceac58edf":[2,0,3,6,0],
-"df/dbd/ecs_2main_8qc_source.html":[2,0,3,6],
-"df/dc2/menu_8qc.html":[2,0,5,14],
-"df/dc2/menu_8qc.html#a01a2bec8826b7d75df91acd327019a59":[2,0,5,14,27],
-"df/dc2/menu_8qc.html#a01b5be3fa5f00741a0f0a78852a9beca":[2,0,5,14,50],
-"df/dc2/menu_8qc.html#a03bba5d0633146f4a91fc7b3dc18a969":[2,0,5,14,39],
-"df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9":[2,0,5,14,23],
-"df/dc2/menu_8qc.html#a0881134aa3cdccee1c5d51be2fb62ed3":[2,0,5,14,57]
+"df/dbd/ecs_2main_8qc_source.html":[2,0,3,6]
 };

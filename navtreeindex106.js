@@ -1,5 +1,11 @@
 var NAVTREEINDEX106 =
 {
+"db/dc4/movelib_8qh_source.html":[2,0,1,12,5],
+"db/dc5/waypointsprites_8qc.html":[2,0,1,10,0,39,4],
+"db/dc5/waypointsprites_8qc.html#a87bef1dd4db308174f82e1ecc38c7bb7":[2,0,1,10,0,39,4,0],
+"db/dc5/waypointsprites_8qc_source.html":[2,0,1,10,0,39,4],
+"db/dc8/cl__controlpoint_8qc.html":[2,0,1,3,0,13,2],
+"db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828":[2,0,1,3,0,13,2,15],
 "db/dc8/cl__controlpoint_8qc.html#a166d83216aec800e561b87dbdb863acc":[2,0,1,3,0,13,2,8],
 "db/dc8/cl__controlpoint_8qc.html#a3857616fe924e0ad2e724aa167950651":[2,0,1,3,0,13,2,17],
 "db/dc8/cl__controlpoint_8qc.html#a5d693a185ebf0d60bc29f5ad0cda526a":[2,0,1,3,0,13,2,16],
@@ -243,11 +249,5 @@ var NAVTREEINDEX106 =
 "db/deb/roles_8qc.html#a4f33c76c5937f4781a5315a14158fd3f":[2,0,6,0,0,0,4,7],
 "db/deb/roles_8qc.html#a5f878532d323f792b8b4c306d068cc0c":[2,0,6,0,0,0,4,0],
 "db/deb/roles_8qc.html#a6456f6b6523f83904a00a909d0a87236":[2,0,6,0,0,0,4,2],
-"db/deb/roles_8qc.html#aa14fbd4605ec716d3a28d7bae76565f4":[2,0,6,0,0,0,4,3],
-"db/deb/roles_8qc.html#ab1af65619c621606e2636b8a2fbbd18d":[2,0,6,0,0,0,4,1],
-"db/deb/roles_8qc_source.html":[2,0,6,0,0,0,4],
-"db/dec/sv__race_8qc.html":[2,0,1,3,0,14,6],
-"db/dec/sv__race_8qc.html#a1576aa6e1aed39bc358c4657222eb3f7":[2,0,1,3,0,14,6,23],
-"db/dec/sv__race_8qc.html#a1d9daae0d23fe27704033b2fbd597c5d":[2,0,1,3,0,14,6,12],
-"db/dec/sv__race_8qc.html#a2520fc6c0cdc72a2e629e1080643c14b":[2,0,1,3,0,14,6,28]
+"db/deb/roles_8qc.html#aa14fbd4605ec716d3a28d7bae76565f4":[2,0,6,0,0,0,4,3]
 };

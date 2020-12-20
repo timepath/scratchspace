@@ -260,6 +260,7 @@ var searchData=
   ['wr_5fviewmodel',['wr_viewmodel',['../dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5',1,'Weapon']]],
   ['wr_5fzoom',['wr_zoom',['../dc/de5/classWeapon.html#aa557f7e3a22e9b52192697ca3efcd48b',1,'Weapon']]],
   ['wr_5fzoomdir',['wr_zoomdir',['../dc/de5/classWeapon.html#a9ca24d1250564504f9e7b2641569d3b5',1,'Weapon']]],
+  ['write_5fdamagetext',['write_damagetext',['../d9/d94/sv__damagetext_8qc.html#a8efbbbca8430453fc733cd7d10741ac9',1,'sv_damagetext.qc']]],
   ['write_5frecordmarker',['write_recordmarker',['../df/d4a/server_2race_8qc.html#a450084bb9c01e6e3fe55aa6027d4580f',1,'write_recordmarker(entity pl, float tstart, float dt):&#160;race.qc'],['../db/d36/server_2race_8qh.html#a450084bb9c01e6e3fe55aa6027d4580f',1,'write_recordmarker(entity pl, float tstart, float dt):&#160;race.qc']]],
   ['write_5fstring_5fto_5ffile',['write_String_To_File',['../da/d44/common_2util_8qc.html#a0329f82a5b3fb9f25739d35f7ca89fce',1,'write_String_To_File(int fh, string str, bool alsoprint):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#ae728a9c68ce46e764dc8225c4c5f5cfd',1,'write_String_To_File(int fh, string str, bool alsoprint):&#160;util.qc']]],
   ['writeangle',['WriteAngle',['../d8/de2/menudefs_8qc.html#adcaadac54775911f8b6843223998c35e',1,'menudefs.qc']]],

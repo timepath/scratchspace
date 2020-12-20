@@ -1,5 +1,11 @@
 var NAVTREEINDEX87 =
 {
+"d9/dbd/turrets_2config_8qh.html":[2,0,1,14,10],
+"d9/dbd/turrets_2config_8qh_source.html":[2,0,1,14,10],
+"d9/dbf/common_2gamemodes_2gamemode_2nexball_2__mod_8qh.html":[2,0,1,3,0,12,1],
+"d9/dbf/common_2gamemodes_2gamemode_2nexball_2__mod_8qh_source.html":[2,0,1,3,0,12,1],
+"d9/dc5/campcheck_8qc.html":[2,0,1,10,0,4,2],
+"d9/dc5/campcheck_8qc_source.html":[2,0,1,10,0,4,2],
 "d9/dc5/soundlist_8qc.html":[2,0,5,4,224],
 "d9/dc5/soundlist_8qc.html#a0c4b69951dbd35c7fa72faa7ef2036b0":[2,0,5,4,224,1],
 "d9/dc5/soundlist_8qc.html#a25a9c478f309a003050637396252e5f7":[2,0,5,4,224,14],
@@ -243,11 +249,5 @@ var NAVTREEINDEX87 =
 "d9/deb/classXonoticHUDTimerDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,205,13],
 "d9/deb/classXonoticHUDTimerDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,205,59],
 "d9/deb/classXonoticHUDTimerDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,205,28],
-"d9/deb/classXonoticHUDTimerDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,205,44],
-"d9/deb/classXonoticHUDTimerDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,205,54],
-"d9/deb/classXonoticHUDTimerDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,205,84],
-"d9/deb/classXonoticHUDTimerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,205,1],
-"d9/deb/classXonoticHUDTimerDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,205,37],
-"d9/deb/classXonoticHUDTimerDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,205,12],
-"d9/deb/classXonoticHUDTimerDialog.html#a43eac0d1e22668e15dac104b83dc17dd":[1,0,205,22]
+"d9/deb/classXonoticHUDTimerDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,205,44]
 };

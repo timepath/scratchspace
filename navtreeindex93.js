@@ -1,5 +1,11 @@
 var NAVTREEINDEX93 =
 {
+"da/d9c/classXonoticMonsterToolsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,219,53],
+"da/d9c/classXonoticMonsterToolsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,219,89],
+"da/d9c/classXonoticMonsterToolsDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,219,8],
+"da/d9c/classXonoticMonsterToolsDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,219,66],
+"da/d9c/classXonoticMonsterToolsDialog.html#aee6327bec629fa284d4ecbc834c563da":[1,0,219,22],
+"da/d9c/classXonoticMonsterToolsDialog.html#af1aab403dc54575707fd57991312b201":[1,0,219,45],
 "da/d9c/classXonoticMonsterToolsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,219,25],
 "da/d9c/classXonoticMonsterToolsDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,219,10],
 "da/d9c/classXonoticMonsterToolsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,219,15],
@@ -243,11 +249,5 @@ var NAVTREEINDEX93 =
 "da/db8/pressedkeys_8qh.html#aefbaa1355314bfc3905e28a24566132e":[2,0,0,1,0,25,1],
 "da/db8/pressedkeys_8qh_source.html":[2,0,0,1,0,25],
 "da/db9/common_2minigames_2minigame_2__mod_8qh.html":[2,0,1,7,0,1],
-"da/db9/common_2minigames_2minigame_2__mod_8qh_source.html":[2,0,1,7,0,1],
-"da/dbc/sv__globalforces_8qc.html":[2,0,1,10,0,10,2],
-"da/dbc/sv__globalforces_8qc.html#a151729e96468ce6ad51bf033f3f4b5e9":[2,0,1,10,0,10,2,4],
-"da/dbc/sv__globalforces_8qc.html#a287b9b0f5e42655c144241063105b760":[2,0,1,10,0,10,2,0],
-"da/dbc/sv__globalforces_8qc.html#a2c0de4532870612014913ff760a4f50a":[2,0,1,10,0,10,2,1],
-"da/dbc/sv__globalforces_8qc.html#ad6a10acaf4806b68a1aeda3359fdf65e":[2,0,1,10,0,10,2,7],
-"da/dbc/sv__globalforces_8qc.html#ae09c28fe41c40908c61aef40104409a0":[2,0,1,10,0,10,2,5]
+"da/db9/common_2minigames_2minigame_2__mod_8qh_source.html":[2,0,1,7,0,1]
 };
