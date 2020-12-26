@@ -1,5 +1,7 @@
 var NAVTREEINDEX135 =
 {
+"df/d75/keybinder_8qc.html#a5c965439e49f298d866b5e04d3e35360":[2,0,5,4,178,19],
+"df/d75/keybinder_8qc.html#a7053a03b462c92dce42616709c1cc500":[2,0,5,4,178,13],
 "df/d75/keybinder_8qc.html#a7a964104d5391d7889378c6163428ab1":[2,0,5,4,178,27],
 "df/d75/keybinder_8qc.html#a7b7c42ba580436f2edcb4a8b7c394efb":[2,0,5,4,178,4],
 "df/d75/keybinder_8qc.html#a81da1a7f60f799f6ac3dd31c5b7afb03":[2,0,5,4,178,10],
@@ -166,10 +168,10 @@ var NAVTREEINDEX135 =
 "df/d8c/cl__cmd_8qc.html#ab2acfe6a73bd0d158e3e9a62b9185725":[2,0,0,0,2,15],
 "df/d8c/cl__cmd_8qc.html#ac1a03af5c66e122f2e7ab5298a3df6f0":[2,0,0,0,2,29],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,2,20],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,2,26],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,2,23],
 "df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7":[2,0,0,0,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX135 =
 "df/d92/classXonoticWinnerDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,266,63],
 "df/d92/classXonoticWinnerDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,266,16],
 "df/d92/classXonoticWinnerDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,266,64],
-"df/d92/classXonoticWinnerDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,266,9],
-"df/d92/classXonoticWinnerDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,266,78],
-"df/d92/classXonoticWinnerDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,266,77]
+"df/d92/classXonoticWinnerDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,266,9]
 };

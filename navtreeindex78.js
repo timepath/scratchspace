@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"d8/dd3/classShotgun.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,123,5],
+"d8/dd3/classShotgun.html#ab24caf167edfb003ad2ca937ffab003b":[1,0,123,27],
 "d8/dd3/classShotgun.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,123,10],
 "d8/dd3/classShotgun.html#ac25202922ce0eebb5ae67a140184b949":[1,0,123,36],
 "d8/dd3/classShotgun.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,123,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "d8/de2/menudefs_8qc.html#a7386fdf68bf309cee9eb122bf5a445d1":[2,0,2,0,3,236],
 "d8/de2/menudefs_8qc.html#a74557174db7d7e3f808a37df206789d7":[2,0,2,0,3,82],
 "d8/de2/menudefs_8qc.html#a76f1dbe7f80fe108efcb854a887987ed":[2,0,2,0,3,218],
-"d8/de2/menudefs_8qc.html#a79a3c40ea692bc4ded39f44d0849a4ea":[2,0,2,0,3,81],
-"d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf":[2,0,2,0,3,167],
-"d8/de2/menudefs_8qc.html#a7a6bfeb1c054af07c37420ed5d55b4cf":[2,0,2,0,3,7]
+"d8/de2/menudefs_8qc.html#a79a3c40ea692bc4ded39f44d0849a4ea":[2,0,2,0,3,81]
 };

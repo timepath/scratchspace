@@ -1,5 +1,7 @@
 var NAVTREEINDEX107 =
 {
+"db/deb/roles_8qc.html#a6456f6b6523f83904a00a909d0a87236":[2,0,6,0,0,0,4,2],
+"db/deb/roles_8qc.html#aa14fbd4605ec716d3a28d7bae76565f4":[2,0,6,0,0,0,4,3],
 "db/deb/roles_8qc.html#ab1af65619c621606e2636b8a2fbbd18d":[2,0,6,0,0,0,4,1],
 "db/deb/roles_8qc_source.html":[2,0,6,0,0,0,4],
 "db/dec/sv__race_8qc.html":[2,0,1,3,0,14,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX107 =
 "dc/d03/keycodes_8qc.html#a62b8bca07fcfe6401405edf4f3ea5af7":[2,0,2,0,2,7],
 "dc/d03/keycodes_8qc.html#a64e101e73d688df964c29fe602c9410e":[2,0,2,0,2,44],
 "dc/d03/keycodes_8qc.html#a68ec6a7220337c4c5518dae1dd4c42be":[2,0,2,0,2,36],
-"dc/d03/keycodes_8qc.html#a699b4e19e3d491ace71de38c3d2e71f8":[2,0,2,0,2,31],
-"dc/d03/keycodes_8qc.html#a6ad276dc30b5ed0bc053a75c82740bd5":[2,0,2,0,2,97],
-"dc/d03/keycodes_8qc.html#a6fed5bd7b91f08cffa09bc3260a7e2cf":[2,0,2,0,2,109]
+"dc/d03/keycodes_8qc.html#a699b4e19e3d491ace71de38c3d2e71f8":[2,0,2,0,2,31]
 };

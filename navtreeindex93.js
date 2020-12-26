@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"da/d9c/classXonoticMonsterToolsDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,219,29],
+"da/d9c/classXonoticMonsterToolsDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,219,60],
 "da/d9c/classXonoticMonsterToolsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,219,53],
 "da/d9c/classXonoticMonsterToolsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,219,89],
 "da/d9c/classXonoticMonsterToolsDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,219,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "da/db8/pressedkeys_8qh.html#a9ebf0abedd8da41719d81a69684772e5":[2,0,0,1,0,25,3],
 "da/db8/pressedkeys_8qh.html#ac96a64bde5bd20d49ad60c01e8181db8":[2,0,0,1,0,25,0],
 "da/db8/pressedkeys_8qh.html#aefbaa1355314bfc3905e28a24566132e":[2,0,0,1,0,25,1],
-"da/db8/pressedkeys_8qh_source.html":[2,0,0,1,0,25],
-"da/db9/common_2minigames_2minigame_2__mod_8qh.html":[2,0,1,7,0,1],
-"da/db9/common_2minigames_2minigame_2__mod_8qh_source.html":[2,0,1,7,0,1]
+"da/db8/pressedkeys_8qh_source.html":[2,0,0,1,0,25]
 };

@@ -60,5 +60,6 @@ var searchData=
   ['quickmenu_5fskip_5fsubmenu',['QuickMenu_skip_submenu',['../d8/d19/quickmenu_8qc.html#a3b5cdd261d16b8518c4c5d681bd42843',1,'quickmenu.qc']]],
   ['quickmenu_5fsmenu',['QUICKMENU_SMENU',['../d8/d19/quickmenu_8qc.html#aff2005b3d86d8bfb6e60ff2acd4003ed',1,'quickmenu.qc']]],
   ['quickmenu_5fsmenu_5fpl',['QUICKMENU_SMENU_PL',['../d8/d19/quickmenu_8qc.html#a8f48aed3cd17365ade0a1631f2049ded',1,'quickmenu.qc']]],
-  ['quickmenu_5ftimeout',['QuickMenu_TimeOut',['../d8/d19/quickmenu_8qc.html#a22b0392cb7836148c699aabd3189de38',1,'quickmenu.qc']]]
+  ['quickmenu_5ftimeout',['QuickMenu_TimeOut',['../d8/d19/quickmenu_8qc.html#a22b0392cb7836148c699aabd3189de38',1,'quickmenu.qc']]],
+  ['quickmenu_5ftimeout_5fset',['QuickMenu_TimeOut_Set',['../d8/d19/quickmenu_8qc.html#a0ecfb0c57bb6fcc84ddf7cbac644d624',1,'quickmenu.qc']]]
 ];

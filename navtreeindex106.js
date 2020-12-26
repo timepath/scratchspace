@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"db/dc4/movelib_8qh.html":[2,0,1,12,5],
+"db/dc4/movelib_8qh.html#aa514946bfa921bfcd0f67fb31fe9ac7a":[2,0,1,12,5,0],
 "db/dc4/movelib_8qh_source.html":[2,0,1,12,5],
 "db/dc5/waypointsprites_8qc.html":[2,0,1,10,0,39,4],
 "db/dc5/waypointsprites_8qc.html#a87bef1dd4db308174f82e1ecc38c7bb7":[2,0,1,10,0,39,4,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "db/deb/roles_8qc.html#a03a514f72d64cab07a07c86c2323ef6e":[2,0,6,0,0,0,4,4],
 "db/deb/roles_8qc.html#a3e9df5e35d2e1a1d92cb47e72b572d4a":[2,0,6,0,0,0,4,5],
 "db/deb/roles_8qc.html#a4f33c76c5937f4781a5315a14158fd3f":[2,0,6,0,0,0,4,7],
-"db/deb/roles_8qc.html#a5f878532d323f792b8b4c306d068cc0c":[2,0,6,0,0,0,4,0],
-"db/deb/roles_8qc.html#a6456f6b6523f83904a00a909d0a87236":[2,0,6,0,0,0,4,2],
-"db/deb/roles_8qc.html#aa14fbd4605ec716d3a28d7bae76565f4":[2,0,6,0,0,0,4,3]
+"db/deb/roles_8qc.html#a5f878532d323f792b8b4c306d068cc0c":[2,0,6,0,0,0,4,0]
 };
