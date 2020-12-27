@@ -8,7 +8,7 @@ var cl__controlpoint_8qc =
     [ "alpha", "db/dc8/cl__controlpoint_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b", null ],
     [ "colormod", "db/dc8/cl__controlpoint_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af", null ],
     [ "count", "db/dc8/cl__controlpoint_8qc.html#ad43c3812e6d13e0518d9f8b8f463ffcf", null ],
-    [ "cp_bob_dmg", "db/dc8/cl__controlpoint_8qc.html#a166d83216aec800e561b87dbdb863acc", null ],
+    [ "cp_bob_dmg_z", "db/dc8/cl__controlpoint_8qc.html#ac587d61068545a99594218d1b253bd23", null ],
     [ "cp_bob_origin", "db/dc8/cl__controlpoint_8qc.html#affb5aa5736b5506a83143017f811ffcb", null ],
     [ "cp_bob_spd", "db/dc8/cl__controlpoint_8qc.html#a89f3cd3806dbdfa37c7572e620839f68", null ],
     [ "cp_origin", "db/dc8/cl__controlpoint_8qc.html#a94b307abdb2a1263ab9ad038d5fa8ef1", null ],
