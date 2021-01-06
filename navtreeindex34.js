@@ -1,5 +1,8 @@
 var NAVTREEINDEX34 =
 {
+"d3/de9/damageeffects_8qh_source.html":[2,0,1,2,0,5],
+"d3/dea/lib_2matrix_2__mod_8qh.html":[2,0,4,1,1],
+"d3/dea/lib_2matrix_2__mod_8qh_source.html":[2,0,4,1,1],
 "d3/deb/dialog__multiplayer__media_8qh.html":[2,0,5,4,103],
 "d3/deb/dialog__multiplayer__media_8qh.html#a048e9d55578bbd55fa3acb96f76ad670":[2,0,5,4,103,1],
 "d3/deb/dialog__multiplayer__media_8qh_source.html":[2,0,5,4,103],
@@ -246,8 +249,5 @@ var NAVTREEINDEX34 =
 "d4/d09/classXonoticCheckBoxString.html#ae2e6b61a088496f8d02f7b8aa630c757":[1,0,156,35],
 "d4/d09/classXonoticCheckBoxString.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,156,37],
 "d4/d09/classXonoticCheckBoxString.html#aef17454d19baae5de77f47b1fb52deb1":[1,0,156,6],
-"d4/d09/classXonoticCheckBoxString.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,156,34],
-"d4/d09/classXonoticCheckBoxString.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,156,13],
-"d4/d09/classXonoticCheckBoxString.html#af3a830d70442467db88dc9e6085943aa":[1,0,156,64],
-"d4/d09/classXonoticCheckBoxString.html#af5187b82cf5d4f8b869b1e50e366b7b7":[1,0,156,1]
+"d4/d09/classXonoticCheckBoxString.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,156,34]
 };

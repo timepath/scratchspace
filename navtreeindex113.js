@@ -1,5 +1,6 @@
 var NAVTREEINDEX113 =
 {
+"dc/dd0/replicate_8qc_source.html":[2,0,1,41],
 "dc/dd0/server_2compat_2__mod_8inc.html":[2,0,6,2,0],
 "dc/dd0/server_2compat_2__mod_8inc_source.html":[2,0,6,2,0],
 "dc/dd8/dialog__settings__game__view_8qh.html":[2,0,5,4,143],
@@ -248,6 +249,5 @@ var NAVTREEINDEX113 =
 "dc/de9/classXonoticRootDialog.html#add68d35176324007cc9ed8d72d847f37":[1,0,236,58],
 "dc/de9/classXonoticRootDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,236,29],
 "dc/de9/classXonoticRootDialog.html#ae06afa48e87c8abcda0c0d5e15b761e4":[1,0,236,67],
-"dc/de9/classXonoticRootDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,236,60],
-"dc/de9/classXonoticRootDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,236,53]
+"dc/de9/classXonoticRootDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,236,60]
 };

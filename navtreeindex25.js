@@ -1,5 +1,8 @@
 var NAVTREEINDEX25 =
 {
+"d3/d05/hud_8qh.html#a32a251179b3a913b0b529f7981e74151":[2,0,0,1,6,198],
+"d3/d05/hud_8qh.html#a32a70cb2be7a73e945f36286dbf15990":[2,0,0,1,6,127],
+"d3/d05/hud_8qh.html#a3360d84ccc3d412e70495a5c6e2541ee":[2,0,0,1,6,173],
 "d3/d05/hud_8qh.html#a3376337a0abef48f877183215489f274":[2,0,0,1,6,55],
 "d3/d05/hud_8qh.html#a37004c9bfae9eede7fe8dbccf4c9ecd8":[2,0,0,1,6,95],
 "d3/d05/hud_8qh.html#a390be23f7307635d28f245f8a439d7db":[2,0,0,1,6,111],
@@ -246,8 +249,5 @@ var NAVTREEINDEX25 =
 "d3/d07/scoreboard_8qc.html#abe965d1698806eacb0ba0c5a61c969c0":[2,0,0,1,0,34,37],
 "d3/d07/scoreboard_8qc.html#ac127f6ed3538bb0ccfa2d65f6b0dbeca":[2,0,0,1,0,34,64],
 "d3/d07/scoreboard_8qc.html#ac12dde29fbf9350b0c56e6a803073a92":[2,0,0,1,0,34,15],
-"d3/d07/scoreboard_8qc.html#ac721d0e85393f0f95b69b7c96c479476":[2,0,0,1,0,34,30],
-"d3/d07/scoreboard_8qc.html#ac9c66c5f7e95ba92695cdca89c4dcb0b":[2,0,0,1,0,34,34],
-"d3/d07/scoreboard_8qc.html#acbbc03b93a5e6007c8655e4bc66a1a38":[2,0,0,1,0,34,26],
-"d3/d07/scoreboard_8qc.html#ad2f206530a1388c8395633fca6a11ded":[2,0,0,1,0,34,31]
+"d3/d07/scoreboard_8qc.html#ac721d0e85393f0f95b69b7c96c479476":[2,0,0,1,0,34,30]
 };

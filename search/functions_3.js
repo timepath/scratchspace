@@ -75,6 +75,7 @@ var searchData=
   ['checkbox_5fplayclicksound',['CheckBox_playClickSound',['../d0/dab/item_2checkbox_8qc.html#a8e3e1882ee7988b93e22b3e0bef2d4db',1,'checkbox.qc']]],
   ['checkbox_5fsetchecked',['CheckBox_setChecked',['../d0/dab/item_2checkbox_8qc.html#a0613433efda7ff67eb76c243baade2cb',1,'checkbox.qc']]],
   ['checkbox_5ftostring',['CheckBox_toString',['../d0/dab/item_2checkbox_8qc.html#a0a906e13e37a44844dc1f2f669d652bf',1,'checkbox.qc']]],
+  ['checkcolorcode',['checkColorCode',['../d2/db4/string_8qh.html#aa76b89fa1dad89003bae8721d1dc29a0',1,'string.qh']]],
   ['checkcompatibility_5fnewtoys',['checkCompatibility_newtoys',['../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a5f2f74238b73f04b830a5002e4fb1871',1,'dialog_multiplayer_create_mutators.qc']]],
   ['checkcompatibility_5fpinata',['checkCompatibility_pinata',['../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a88b4e0fbbc7d4a23ac65a74379f53e20',1,'dialog_multiplayer_create_mutators.qc']]],
   ['checkcompatibility_5fweaponarena_5fweapon',['checkCompatibility_weaponarena_weapon',['../d7/dfd/dialog__multiplayer__create__mutators_8qc.html#ae4813be378a9cece542eb5c231852923',1,'dialog_multiplayer_create_mutators.qc']]],

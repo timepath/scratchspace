@@ -1,5 +1,8 @@
 var NAVTREEINDEX40 =
 {
+"d4/d49/common_2mutators_2mutator_2kick__teamkiller_2__mod_8qh.html":[2,0,1,10,0,15,1],
+"d4/d49/common_2mutators_2mutator_2kick__teamkiller_2__mod_8qh_source.html":[2,0,1,10,0,15,1],
+"d4/d4c/corner_8qc.html":[2,0,1,6,1,2],
 "d4/d4c/corner_8qc_source.html":[2,0,1,6,1,2],
 "d4/d4c/dialog__multiplayer__media__demo_8qc.html":[2,0,5,4,104],
 "d4/d4c/dialog__multiplayer__media__demo_8qc.html#a3f9f2caf67aab8fc5b5de8a6127aae6a":[2,0,5,4,104,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX40 =
 "d4/d5b/test_8qh.html#a398a2fc2687510101581083d98c2414f":[2,0,4,62,25],
 "d4/d5b/test_8qh.html#a5034fda3490aad5a93942ac83f4cea49":[2,0,4,62,9],
 "d4/d5b/test_8qh.html#a54f62905f0ed7afee01774ac278cf6cf":[2,0,4,62,11],
-"d4/d5b/test_8qh.html#a6ae7443947f25abc58bfcfcfc56b0d75":[2,0,4,62,17],
-"d4/d5b/test_8qh.html#a75adcdf89f69b0b615e395daafc315af":[2,0,4,62,24],
-"d4/d5b/test_8qh.html#a775643748feff0b490aae651d041e971":[2,0,4,62,6],
-"d4/d5b/test_8qh.html#a7d2e7facbbd8ef63c9cfd4373ae24493":[2,0,4,62,27]
+"d4/d5b/test_8qh.html#a6ae7443947f25abc58bfcfcfc56b0d75":[2,0,4,62,17]
 };

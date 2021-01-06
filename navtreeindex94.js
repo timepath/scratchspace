@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"da/db8/pressedkeys_8qh_source.html":[2,0,0,1,0,25],
 "da/db9/common_2minigames_2minigame_2__mod_8qh.html":[2,0,1,7,0,1],
 "da/db9/common_2minigames_2minigame_2__mod_8qh_source.html":[2,0,1,7,0,1],
 "da/dbc/sv__globalforces_8qc.html":[2,0,1,10,0,10,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "da/ddd/dialog__singleplayer__winner_8qh_source.html":[2,0,5,4,165],
 "da/ddd/ipban_8qh.html":[2,0,6,38],
 "da/ddd/ipban_8qh.html#a00561ab100b941912528ea8344521047":[2,0,6,38,4],
-"da/ddd/ipban_8qh.html#a1a7772963018e41992c65dfbe12b63fe":[2,0,6,38,7],
-"da/ddd/ipban_8qh.html#a808faa01ebcd03108b55a09f87bcabe5":[2,0,6,38,1]
+"da/ddd/ipban_8qh.html#a1a7772963018e41992c65dfbe12b63fe":[2,0,6,38,7]
 };
