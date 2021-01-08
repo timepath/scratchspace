@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"db/dc4/classXonoticRadioButton.html#af5f55fdb86b01ea9b74fe755f9c7482b":[1,0,232,57],
+"db/dc4/classXonoticRadioButton.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,232,82],
 "db/dc4/classXonoticRadioButton.html#aff20d1ead9e7a482eca46d913e6986a1":[1,0,232,86],
 "db/dc4/movelib_8qh.html":[2,0,1,12,5],
 "db/dc4/movelib_8qh.html#aa514946bfa921bfcd0f67fb31fe9ac7a":[2,0,1,12,5,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "db/de8/effectinfo__gentle__particlegibs_8inc_source.html":[2,0,1,2,15],
 "db/deb/roles_8qc.html":[2,0,6,0,0,0,4],
 "db/deb/roles_8qc.html#a0375becf8030b1b6159611d74c885238":[2,0,6,0,0,0,4,6],
-"db/deb/roles_8qc.html#a03a514f72d64cab07a07c86c2323ef6e":[2,0,6,0,0,0,4,4],
-"db/deb/roles_8qc.html#a3e9df5e35d2e1a1d92cb47e72b572d4a":[2,0,6,0,0,0,4,5],
-"db/deb/roles_8qc.html#a4f33c76c5937f4781a5315a14158fd3f":[2,0,6,0,0,0,4,7]
+"db/deb/roles_8qc.html#a03a514f72d64cab07a07c86c2323ef6e":[2,0,6,0,0,0,4,4]
 };

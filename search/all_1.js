@@ -1673,6 +1673,7 @@ var searchData=
   ['autocvar_5fhud_5fpanel_5fscoreboard_5ftable_5ffg_5falpha_5fself',['autocvar_hud_panel_scoreboard_table_fg_alpha_self',['../d3/d07/scoreboard_8qc.html#abd86e7e3aaba1806fd083c065124ddaa',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5ftable_5fhighlight',['autocvar_hud_panel_scoreboard_table_highlight',['../d3/d07/scoreboard_8qc.html#a61e9d783625eb0344b582470d69416f8',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5ftable_5fhighlight_5falpha',['autocvar_hud_panel_scoreboard_table_highlight_alpha',['../d3/d07/scoreboard_8qc.html#a74115e0ab563be72aa55c1eb17821b42',1,'scoreboard.qc']]],
+  ['autocvar_5fhud_5fpanel_5fscoreboard_5ftable_5fhighlight_5falpha_5feliminated',['autocvar_hud_panel_scoreboard_table_highlight_alpha_eliminated',['../d3/d07/scoreboard_8qc.html#ae94b6be126e8db3bd48c04b5d659503d',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5ftable_5fhighlight_5falpha_5fself',['autocvar_hud_panel_scoreboard_table_highlight_alpha_self',['../d3/d07/scoreboard_8qc.html#aaf870062442b80e096e897517f9b9d5b',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5fteam_5fsize_5fposition',['autocvar_hud_panel_scoreboard_team_size_position',['../d3/d07/scoreboard_8qc.html#a37d59fce5419c5b49d9356701850d446',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fstrafehud',['autocvar_hud_panel_strafehud',['../df/dd4/strafehud_8qh.html#a16d1ea2d9c8a8816698a229a6ac0c309',1,'strafehud.qh']]],

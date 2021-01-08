@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"d7/d50/classXonoticPlayerList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,227,4],
+"d7/d50/classXonoticPlayerList.html#af381c35224a0cdacf3c7ec000e158202":[1,0,227,70],
 "d7/d50/classXonoticPlayerList.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,227,1],
 "d7/d50/classXonoticPlayerList.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,227,35],
 "d7/d50/classXonoticPlayerList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,227,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "d7/d76/dialog__settings__game__model_8qh.html":[2,0,5,4,141],
 "d7/d76/dialog__settings__game__model_8qh.html#a1298b6f9b4a3f8596c92a41e8c4141b0":[2,0,5,4,141,2],
 "d7/d76/dialog__settings__game__model_8qh.html#ae3352ff05cd68a276d35c458baa79048":[2,0,5,4,141,1],
-"d7/d76/dialog__settings__game__model_8qh_source.html":[2,0,5,4,141],
-"d7/d79/laser_8qc.html":[2,0,1,6,1,10],
-"d7/d79/laser_8qc_source.html":[2,0,1,6,1,10]
+"d7/d76/dialog__settings__game__model_8qh_source.html":[2,0,5,4,141]
 };

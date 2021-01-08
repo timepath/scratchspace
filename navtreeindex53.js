@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"d5/de0/weaponsystem_8qc.html#ac3dc9d68570cfcacf32d6f0e7fcf2ed8":[2,0,6,6,20,24],
+"d5/de0/weaponsystem_8qc.html#ac7b6c8bdba2c394f8a3385c9bd992f9c":[2,0,6,6,20,21],
 "d5/de0/weaponsystem_8qc.html#ada5ffcf75b37b6ff648313fb8e50ad3a":[2,0,6,6,20,35],
 "d5/de0/weaponsystem_8qc.html#adaf855bb86ef53119fa756a62e6127be":[2,0,6,6,20,0],
 "d5/de0/weaponsystem_8qc.html#aec0fe6ceaaa481571f883bcf71378ae3":[2,0,6,6,20,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "d6/d10/common_2mapobjects_2func_2button_8qh_source.html":[2,0,1,6,0,7],
 "d6/d11/progsdefs_8qc.html":[2,0,2,0,4],
 "d6/d11/progsdefs_8qc.html#a00fe4f72842f392aa27428bf252d9d47":[2,0,2,0,4,211],
-"d6/d11/progsdefs_8qc.html#a016975064cec162b7970af4b7a35149b":[2,0,2,0,4,257],
-"d6/d11/progsdefs_8qc.html#a022fa3a72589f53ea227989c87168f3c":[2,0,2,0,4,83],
-"d6/d11/progsdefs_8qc.html#a0438992800fc2c9d52f6bafe99e50ebd":[2,0,2,0,4,152]
+"d6/d11/progsdefs_8qc.html#a016975064cec162b7970af4b7a35149b":[2,0,2,0,4,257]
 };

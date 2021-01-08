@@ -53,7 +53,7 @@ var classXonoticCommandButton =
     [ "disabled", "d9/dca/classXonoticCommandButton.html#ac99bbef7da50394f5ed0362e4e2181b1", null ],
     [ "disabledAlpha", "d9/dca/classXonoticCommandButton.html#a25fb94f638529791b1b30962fac50912", null ],
     [ "disableOnClick", "d9/dca/classXonoticCommandButton.html#a98e9b29dfe2a91ddb3b653eee1003b2f", null ],
-    [ "flags", "d9/dca/classXonoticCommandButton.html#a74d0ade102c16d31d2b3dd8098e8119d", null ],
+    [ "flags", "d9/dca/classXonoticCommandButton.html#a4c5fa9cbca0407317a0c99b34992af3e", null ],
     [ "focusable", "d9/dca/classXonoticCommandButton.html#aaefd5f78048ffbfdf0e45b630c4b5a4b", null ],
     [ "focused", "d9/dca/classXonoticCommandButton.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262", null ],
     [ "fontSize", "d9/dca/classXonoticCommandButton.html#aa7f27de3ff5b3d20ac6122783d29ad40", null ],

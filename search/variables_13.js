@@ -35,6 +35,7 @@ var searchData=
   ['sbt_5ffixcolumnwidth_5fmarginlen',['sbt_fixcolumnwidth_marginlen',['../d3/d07/scoreboard_8qc.html#a2fc88dc1a1263cd0c6e847cadfd3dd3c',1,'scoreboard.qc']]],
   ['sbt_5fhighlight',['sbt_highlight',['../d3/d07/scoreboard_8qc.html#aeb5b8d7517335ac69d17ab2814ddb793',1,'scoreboard.qc']]],
   ['sbt_5fhighlight_5falpha',['sbt_highlight_alpha',['../d3/d07/scoreboard_8qc.html#a94ddd037ffb67797e205f1daf4e394d9',1,'scoreboard.qc']]],
+  ['sbt_5fhighlight_5falpha_5feliminated',['sbt_highlight_alpha_eliminated',['../d3/d07/scoreboard_8qc.html#a3b8e3a6f3bf9d25232ce5e271a81fb1a',1,'scoreboard.qc']]],
   ['sbt_5fhighlight_5falpha_5fself',['sbt_highlight_alpha_self',['../d3/d07/scoreboard_8qc.html#a1ef885e2eef24ceb79a125ac81b8fef0',1,'scoreboard.qc']]],
   ['sbt_5fnum_5ffields',['sbt_num_fields',['../d3/d07/scoreboard_8qc.html#a1d5dfa661227f35bf953ae3740062648',1,'scoreboard.qc']]],
   ['sc_5fchangetime',['sc_changetime',['../d6/dd3/view_8qc.html#af85caaa4731e2cda3628898304b41592',1,'view.qc']]],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"d9/d67/turret_8qh.html#a201fbb5802eea57dcfa8ae679796b077":[2,0,1,14,15,91],
+"d9/d67/turret_8qh.html#a203eb7283f1b6cd7715c93d450a9ceb5":[2,0,1,14,15,68],
 "d9/d67/turret_8qh.html#a204092caa868ede3a6412a0581a440ea":[2,0,1,14,15,59],
 "d9/d67/turret_8qh.html#a226eeb882d88627843929bd17604e01b":[2,0,1,14,15,83],
 "d9/d67/turret_8qh.html#a25abb578b96ba7eb4d19f774ffface61":[2,0,1,14,15,33],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "d9/d88/sv__controlpoint_8qh.html#a43e7e64d7f45f7521e913d8b22ced2c1":[2,0,1,3,0,13,13,0],
 "d9/d88/sv__controlpoint_8qh.html#a4e21ea690a77be8367e5608dfdebe26f":[2,0,1,3,0,13,13,2],
 "d9/d88/sv__controlpoint_8qh.html#a71fedd372003f8a38071cb6c5ee68e35":[2,0,1,3,0,13,13,3],
-"d9/d88/sv__controlpoint_8qh_source.html":[2,0,1,3,0,13,13],
-"d9/d89/getreplies_8qc.html":[2,0,6,1,8],
-"d9/d89/getreplies_8qc.html#a23f828e399a8cc249b3f3e65baa6f05a":[2,0,6,1,8,2]
+"d9/d88/sv__controlpoint_8qh_source.html":[2,0,1,3,0,13,13]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"da/db8/pressedkeys_8qh.html#ac96a64bde5bd20d49ad60c01e8181db8":[2,0,0,1,0,25,0],
+"da/db8/pressedkeys_8qh.html#aefbaa1355314bfc3905e28a24566132e":[2,0,0,1,0,25,1],
 "da/db8/pressedkeys_8qh_source.html":[2,0,0,1,0,25],
 "da/db9/common_2minigames_2minigame_2__mod_8qh.html":[2,0,1,7,0,1],
 "da/db9/common_2minigames_2minigame_2__mod_8qh_source.html":[2,0,1,7,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "da/dd7/common_2turrets_2__mod_8inc_source.html":[2,0,1,14,1],
 "da/ddd/dialog__singleplayer__winner_8qh.html":[2,0,5,4,165],
 "da/ddd/dialog__singleplayer__winner_8qh_source.html":[2,0,5,4,165],
-"da/ddd/ipban_8qh.html":[2,0,6,38],
-"da/ddd/ipban_8qh.html#a00561ab100b941912528ea8344521047":[2,0,6,38,4],
-"da/ddd/ipban_8qh.html#a1a7772963018e41992c65dfbe12b63fe":[2,0,6,38,7]
+"da/ddd/ipban_8qh.html":[2,0,6,38]
 };

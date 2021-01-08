@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"d6/df6/p2mathlib_8qc.html#a50b8f7ab57a2a463330631ac11a1ad55":[2,0,4,41,3],
+"d6/df6/p2mathlib_8qc.html#a9e6357ed23dc0f369734a918945a0259":[2,0,4,41,0],
 "d6/df6/p2mathlib_8qc.html#aab06a0db609b17c579e9a5795a93f074":[2,0,4,41,2],
 "d6/df6/p2mathlib_8qc.html#abd3932d3581475f825b6d87175808c9f":[2,0,4,41,7],
 "d6/df6/p2mathlib_8qc.html#ae031dcd8f3e3c3a358d8e48d18f099e5":[2,0,4,41,6],
@@ -68,9 +70,9 @@ var NAVTREEINDEX64 =
 "d7/d0b/common_2gamemodes_2__mod_8qh.html":[2,0,1,3,2],
 "d7/d0b/common_2gamemodes_2__mod_8qh_source.html":[2,0,1,3,2],
 "d7/d0d/bigcommandbutton_8qc.html":[2,0,5,4,4],
-"d7/d0d/bigcommandbutton_8qc.html#a032835115310f2e38bc75d3166070fba":[2,0,5,4,4,2],
-"d7/d0d/bigcommandbutton_8qc.html#a3585c81eab0e3c921741fd4edcec39c9":[2,0,5,4,4,1],
-"d7/d0d/bigcommandbutton_8qc.html#ab7f0ec07e81d9178eae782be68d7a3f8":[2,0,5,4,4,0],
+"d7/d0d/bigcommandbutton_8qc.html#a236b8442a7c0d1d887cbe05bdef6862e":[2,0,5,4,4,0],
+"d7/d0d/bigcommandbutton_8qc.html#a37505b3bd38c3362c087b0f7e3290e80":[2,0,5,4,4,2],
+"d7/d0d/bigcommandbutton_8qc.html#aea84f1001083ebbb424c32df25082279":[2,0,5,4,4,1],
 "d7/d0d/bigcommandbutton_8qc_source.html":[2,0,5,4,4],
 "d7/d0e/dialog__settings__game__weapons_8qc.html":[2,0,5,4,144],
 "d7/d0e/dialog__settings__game__weapons_8qc.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,144,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "d7/d16/server_2command_2vote_8qh.html#a101b6cf59e13f6e8a43e45d2a44f5692":[2,0,6,1,17,5],
 "d7/d16/server_2command_2vote_8qh.html#a11f792d86f16e821bb9f127715f2234e":[2,0,6,1,17,1],
 "d7/d16/server_2command_2vote_8qh.html#a12d81cd0a0e6b174a24da4a253c7a225":[2,0,6,1,17,46],
-"d7/d16/server_2command_2vote_8qh.html#a19f9361beae709b1d1cc00c9d8d18133":[2,0,6,1,17,40],
-"d7/d16/server_2command_2vote_8qh.html#a1b6eeda20b37df058b8b6c10f1254c8d":[2,0,6,1,17,61],
-"d7/d16/server_2command_2vote_8qh.html#a23b687775d0563089dc3a762bdaa023c":[2,0,6,1,17,51]
+"d7/d16/server_2command_2vote_8qh.html#a19f9361beae709b1d1cc00c9d8d18133":[2,0,6,1,17,40]
 };

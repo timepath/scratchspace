@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"d3/de3/sv__domination_8qc_source.html":[2,0,1,3,0,5,6],
+"d3/de9/damageeffects_8qh.html":[2,0,1,2,0,5],
 "d3/de9/damageeffects_8qh_source.html":[2,0,1,2,0,5],
 "d3/dea/lib_2matrix_2__mod_8qh.html":[2,0,4,1,1],
 "d3/dea/lib_2matrix_2__mod_8qh_source.html":[2,0,4,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "d4/d09/classXonoticCheckBoxString.html#ad8b9115dc1d65ac99e74ae1a36f56d05":[1,0,156,44],
 "d4/d09/classXonoticCheckBoxString.html#adf2dea57b2330e856350cd2169500f8d":[1,0,156,16],
 "d4/d09/classXonoticCheckBoxString.html#ae2e6b61a088496f8d02f7b8aa630c757":[1,0,156,35],
-"d4/d09/classXonoticCheckBoxString.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,156,37],
-"d4/d09/classXonoticCheckBoxString.html#aef17454d19baae5de77f47b1fb52deb1":[1,0,156,6],
-"d4/d09/classXonoticCheckBoxString.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,156,34]
+"d4/d09/classXonoticCheckBoxString.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,156,37]
 };

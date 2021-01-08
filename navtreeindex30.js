@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"d3/d86/classXonoticMapList.html#a0320558bb125fb523ad8f157d8f7115e":[1,0,216,5],
+"d3/d86/classXonoticMapList.html#a04b5354031c92923204b8f89a4ba45e9":[1,0,216,32],
 "d3/d86/classXonoticMapList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,216,51],
 "d3/d86/classXonoticMapList.html#a0913b5fd900c27fcf6b117e4a2064bbb":[1,0,216,21],
 "d3/d86/classXonoticMapList.html#a0dc1fdac9b12e18c439f02886f13e368":[1,0,216,43],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "d3/dab/player__skeleton_8qc_source.html":[2,0,0,19],
 "d3/db2/classXonoticListBox.html":[1,0,214],
 "d3/db2/classXonoticListBox.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,214,7],
-"d3/db2/classXonoticListBox.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,214,37],
-"d3/db2/classXonoticListBox.html#a0dc1fdac9b12e18c439f02886f13e368":[1,0,214,31],
-"d3/db2/classXonoticListBox.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,214,19]
+"d3/db2/classXonoticListBox.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,214,37]
 };

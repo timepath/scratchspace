@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"d7/de3/dialog__multiplayer__create_8qc.html#a1c795826409f636e86146e253128e3b9":[2,0,5,4,92,2],
+"d7/de3/dialog__multiplayer__create_8qc.html#a24e3f12ce458ad9114f67e09d8863862":[2,0,5,4,92,4],
 "d7/de3/dialog__multiplayer__create_8qc.html#a5f66fa55e370f95fefae9138471c0c9b":[2,0,5,4,92,5],
 "d7/de3/dialog__multiplayer__create_8qc.html#a6be7a915f07daaac18487ac5ae8c12bb":[2,0,5,4,92,6],
 "d7/de3/dialog__multiplayer__create_8qc.html#a94bcd6120df81d66b7301391e876efe9":[2,0,5,4,92,3],
@@ -231,9 +233,9 @@ var NAVTREEINDEX71 =
 "d7/df1/keepaway_8qh.html#a03e1802ae2a81926d10fc5fd56682811":[2,0,1,3,0,9,5,1],
 "d7/df1/keepaway_8qh_source.html":[2,0,1,3,0,9,5],
 "d7/df4/commandbutton_8qc.html":[2,0,5,4,24],
-"d7/df4/commandbutton_8qc.html#a74c6e4c3710f10f7df16433d4b82ba03":[2,0,5,4,24,1],
-"d7/df4/commandbutton_8qc.html#a8f58a281d6fe5cff78d093b09c941f69":[2,0,5,4,24,3],
-"d7/df4/commandbutton_8qc.html#a987af68cda200c33e872603717d21f36":[2,0,5,4,24,0],
+"d7/df4/commandbutton_8qc.html#a25e4476a31943e138f75c488bb5e4e2e":[2,0,5,4,24,3],
+"d7/df4/commandbutton_8qc.html#a460221f796db9bd3d62de4102210731f":[2,0,5,4,24,0],
+"d7/df4/commandbutton_8qc.html#a647820ed2071aca6cf19bbf0aa85d25b":[2,0,5,4,24,1],
 "d7/df4/commandbutton_8qc.html#af650087d48ef70e13d7395bcfd876f25":[2,0,5,4,24,2],
 "d7/df4/commandbutton_8qc_source.html":[2,0,5,4,24],
 "d7/df7/lib_2warpzone_2__mod_8qh.html":[2,0,4,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a5f2f74238b73f04b830a5002e4fb1871":[2,0,5,4,96,0],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a6d11d3a5a76ed57ecbcac9602c8b507e":[2,0,5,4,96,3],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a88b4e0fbbc7d4a23ac65a74379f53e20":[2,0,5,4,96,1],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#aae505d4e1181d09c9a2b79bafcd9a7de":[2,0,5,4,96,10],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#acde935bede494b1af21664b6c8aaf6bd":[2,0,5,4,96,5],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#ad3288a07f19cd1c82f703d9d47488e5f":[2,0,5,4,96,8]
+"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#aae505d4e1181d09c9a2b79bafcd9a7de":[2,0,5,4,96,10]
 };
