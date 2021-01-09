@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"d7/d76/dialog__settings__game__model_8qh.html":[2,0,5,4,141],
+"d7/d76/dialog__settings__game__model_8qh.html#a1298b6f9b4a3f8596c92a41e8c4141b0":[2,0,5,4,141,2],
+"d7/d76/dialog__settings__game__model_8qh.html#ae3352ff05cd68a276d35c458baa79048":[2,0,5,4,141,1],
+"d7/d76/dialog__settings__game__model_8qh_source.html":[2,0,5,4,141],
 "d7/d79/laser_8qc.html":[2,0,1,6,1,10],
 "d7/d79/laser_8qc_source.html":[2,0,1,6,1,10],
 "d7/d7b/turrets_2turret_2machinegun_8qc.html":[2,0,1,14,0,20],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "d7/da4/classXonoticDemoList.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,170,14],
 "d7/da4/classXonoticDemoList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,170,78],
 "d7/da4/classXonoticDemoList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,170,60],
-"d7/da4/classXonoticDemoList.html#a565f8d33b46815606f1860162d71339a":[1,0,170,21],
-"d7/da4/classXonoticDemoList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,170,7],
-"d7/da4/classXonoticDemoList.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,170,26],
-"d7/da4/classXonoticDemoList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,170,15],
-"d7/da4/classXonoticDemoList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,170,27]
+"d7/da4/classXonoticDemoList.html#a565f8d33b46815606f1860162d71339a":[1,0,170,21]
 };

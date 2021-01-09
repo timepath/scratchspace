@@ -1,5 +1,9 @@
 var NAVTREEINDEX37 =
 {
+"d4/d0c/csprogsdefs_8qc.html#aa9c9999310987bfb731aa19e94819310":[2,0,2,0,0,352],
+"d4/d0c/csprogsdefs_8qc.html#aac8d3e7e3e6f914787545b9a200dee0c":[2,0,2,0,0,344],
+"d4/d0c/csprogsdefs_8qc.html#aae8c310a65ec9361988351e2185f2a56":[2,0,2,0,0,498],
+"d4/d0c/csprogsdefs_8qc.html#aaf2c76a03ed16466064c87daaa4e19d9":[2,0,2,0,0,348],
 "d4/d0c/csprogsdefs_8qc.html#aaf886d4389851a24469403f9d89f86dd":[2,0,2,0,0,59],
 "d4/d0c/csprogsdefs_8qc.html#ab03a9a7286a12359ca84fa614d8c7fa6":[2,0,2,0,0,388],
 "d4/d0c/csprogsdefs_8qc.html#ab0c21d033fd892b5d2fa768e81ff4354":[2,0,2,0,0,451],
@@ -245,9 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d13/onslaught_8qc.html":[2,0,1,3,0,13,10],
 "d4/d13/onslaught_8qc_source.html":[2,0,1,3,0,13,10],
 "d4/d13/spawnpoint_8qh.html":[2,0,1,6,2,15],
-"d4/d13/spawnpoint_8qh_source.html":[2,0,1,6,2,15],
-"d4/d14/heal_8qc.html":[2,0,1,6,3,14],
-"d4/d14/heal_8qc_source.html":[2,0,1,6,3,14],
-"d4/d16/label_8qc.html":[2,0,5,2,18],
-"d4/d16/label_8qc.html#a4a114b337a768306130a7b0533d6c5fb":[2,0,5,2,18,4]
+"d4/d13/spawnpoint_8qh_source.html":[2,0,1,6,2,15]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX130 =
 {
+"de/dc5/dialog__settings__effects_8qh.html#a8ace980a9aa0b9448962d11b51ad3f3e":[2,0,5,4,129,1],
+"de/dc5/dialog__settings__effects_8qh_source.html":[2,0,5,4,129],
+"de/dcb/classMageSpike.html":[1,0,73],
+"de/dcb/classMageSpike.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,73,35],
 "de/dcb/classMageSpike.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,73,19],
 "de/dcb/classMageSpike.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,73,18],
 "de/dcb/classMageSpike.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,73,32],
@@ -245,9 +249,5 @@ var NAVTREEINDEX130 =
 "de/de7/server_2hook_8qh.html#a1f64f2d79b382fef396c0d6c96eb70a1":[2,0,6,32,20],
 "de/de7/server_2hook_8qh.html#a25732b123a44b57eae276b2e5696db13":[2,0,6,32,26],
 "de/de7/server_2hook_8qh.html#a2588de76ab680c6999ca2f71dba9136c":[2,0,6,32,14],
-"de/de7/server_2hook_8qh.html#a32b2affab3f3f607b70fe6f4524b1911":[2,0,6,32,6],
-"de/de7/server_2hook_8qh.html#a343331b1aad92c7a3eaecd3869f15dee":[2,0,6,32,18],
-"de/de7/server_2hook_8qh.html#a39fa7d0edb4954db4c4585208bac99b2":[2,0,6,32,9],
-"de/de7/server_2hook_8qh.html#a3c082b00549ac45f343fc49afdcf6ef0":[2,0,6,32,5],
-"de/de7/server_2hook_8qh.html#a41f3a2524388a197ac02f99416c989f6":[2,0,6,32,4]
+"de/de7/server_2hook_8qh.html#a32b2affab3f3f607b70fe6f4524b1911":[2,0,6,32,6]
 };

@@ -31,6 +31,7 @@ var searchData=
   ['score_5fuse',['score_use',['../df/d42/quake3_8qc.html#af209cc1b2014548785983c19968a4fd9',1,'quake3.qc']]],
   ['scoreboard_5faccuracystats_5fdraw',['Scoreboard_AccuracyStats_Draw',['../d3/d07/scoreboard_8qc.html#ab68d3f55b27c12a82760019c80aef931',1,'scoreboard.qc']]],
   ['scoreboard_5faccuracystats_5fwoulddraw',['Scoreboard_AccuracyStats_WouldDraw',['../d3/d07/scoreboard_8qc.html#aebd9c21a6d8e2d27566af62418f5a9ab',1,'scoreboard.qc']]],
+  ['scoreboard_5faddplayerid',['Scoreboard_AddPlayerId',['../d3/d07/scoreboard_8qc.html#a3f8a0c824c512091d66f7409eddb8cdb',1,'scoreboard.qc']]],
   ['scoreboard_5fcompareplayerscores',['Scoreboard_ComparePlayerScores',['../d3/d07/scoreboard_8qc.html#a7396887b795263e2550e0336c507d697',1,'scoreboard.qc']]],
   ['scoreboard_5fcomparescore',['Scoreboard_CompareScore',['../d3/d07/scoreboard_8qc.html#a594023b6dfdb6c060e92e6d558f1269b',1,'scoreboard.qc']]],
   ['scoreboard_5fcompareteamscores',['Scoreboard_CompareTeamScores',['../d3/d07/scoreboard_8qc.html#a945e9931205171a7c7ee94146625c6e1',1,'scoreboard.qc']]],

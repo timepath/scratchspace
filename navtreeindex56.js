@@ -1,5 +1,9 @@
 var NAVTREEINDEX56 =
 {
+"d6/d1c/weapons_2config_8qc.html#a171f7fe10ce3530bccc733d80a50c7e6":[2,0,1,16,10,4],
+"d6/d1c/weapons_2config_8qc.html#a543b990813e5cae82b7f27c875589de9":[2,0,1,16,10,0],
+"d6/d1c/weapons_2config_8qc.html#a77363565e51ceb80f230ad7020747f23":[2,0,1,16,10,1],
+"d6/d1c/weapons_2config_8qc.html#ac9f19a7fd9e33c7703d0abbc56eaaa7f":[2,0,1,16,10,2],
 "d6/d1c/weapons_2config_8qc.html#accb173662eea2523d629cb8f7381ec51":[2,0,1,16,10,3],
 "d6/d1c/weapons_2config_8qc_source.html":[2,0,1,16,10],
 "d6/d25/triggers_8qh.html":[2,0,1,6,18],
@@ -245,9 +249,5 @@ var NAVTREEINDEX56 =
 "d6/d57/weaponstats_8qc.html#a92da13209374adaf40062e250635050f":[2,0,6,6,18,1],
 "d6/d57/weaponstats_8qc.html#aa8f9d7c732fe1401e1ee110adfafa840":[2,0,6,6,18,5],
 "d6/d57/weaponstats_8qc.html#aaff19cec643aea889b24fc730133c07c":[2,0,6,6,18,2],
-"d6/d57/weaponstats_8qc_source.html":[2,0,6,6,18],
-"d6/d5c/dialog__settings__game__weapons_8qh.html":[2,0,5,4,145],
-"d6/d5c/dialog__settings__game__weapons_8qh.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,145,1],
-"d6/d5c/dialog__settings__game__weapons_8qh.html#ad61e8983facaede86b25d8e3947f88ee":[2,0,5,4,145,2],
-"d6/d5c/dialog__settings__game__weapons_8qh_source.html":[2,0,5,4,145]
+"d6/d57/weaponstats_8qc_source.html":[2,0,6,6,18]
 };

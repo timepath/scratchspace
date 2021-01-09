@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"d6/def/controlpoint_8qc_source.html":[2,0,1,3,0,13,6],
+"d6/df6/p2mathlib_8qc.html":[2,0,4,41],
+"d6/df6/p2mathlib_8qc.html#a3ff917d0575fffb091957bdd35b4cc7a":[2,0,4,41,4],
+"d6/df6/p2mathlib_8qc.html#a48eb67b65e2f9adecbe24fd6cea5513f":[2,0,4,41,5],
 "d6/df6/p2mathlib_8qc.html#a50b8f7ab57a2a463330631ac11a1ad55":[2,0,4,41,3],
 "d6/df6/p2mathlib_8qc.html#a9e6357ed23dc0f369734a918945a0259":[2,0,4,41,0],
 "d6/df6/p2mathlib_8qc.html#aab06a0db609b17c579e9a5795a93f074":[2,0,4,41,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "d7/d16/effectinfo__ctf_8inc.html#aec7fa2cd8b4b21ca066ceba7d1144d1e":[2,0,1,2,11,5],
 "d7/d16/effectinfo__ctf_8inc.html#af8c9db4b8142e7bf4440e8702496e022":[2,0,1,2,11,6],
 "d7/d16/effectinfo__ctf_8inc_source.html":[2,0,1,2,11],
-"d7/d16/server_2command_2vote_8qh.html":[2,0,6,1,17],
-"d7/d16/server_2command_2vote_8qh.html#a101b6cf59e13f6e8a43e45d2a44f5692":[2,0,6,1,17,5],
-"d7/d16/server_2command_2vote_8qh.html#a11f792d86f16e821bb9f127715f2234e":[2,0,6,1,17,1],
-"d7/d16/server_2command_2vote_8qh.html#a12d81cd0a0e6b174a24da4a253c7a225":[2,0,6,1,17,46],
-"d7/d16/server_2command_2vote_8qh.html#a19f9361beae709b1d1cc00c9d8d18133":[2,0,6,1,17,40]
+"d7/d16/server_2command_2vote_8qh.html":[2,0,6,1,17]
 };

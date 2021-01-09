@@ -1,5 +1,9 @@
 var NAVTREEINDEX57 =
 {
+"d6/d5c/dialog__settings__game__weapons_8qh.html":[2,0,5,4,145],
+"d6/d5c/dialog__settings__game__weapons_8qh.html#ab0b82cca11f35607376a290559969539":[2,0,5,4,145,1],
+"d6/d5c/dialog__settings__game__weapons_8qh.html#ad61e8983facaede86b25d8e3947f88ee":[2,0,5,4,145,2],
+"d6/d5c/dialog__settings__game__weapons_8qh_source.html":[2,0,5,4,145],
 "d6/d60/common_2turrets_2util_8qh.html":[2,0,1,14,19],
 "d6/d60/common_2turrets_2util_8qh_source.html":[2,0,1,14,19],
 "d6/d61/invasion_8qc.html":[2,0,1,3,0,8,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX57 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,177,40],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#ad00256f4659c57fc5b8495fa1178ef08":[1,0,177,37],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,177,85],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,177,57],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,177,62],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#ad792fa0cbb0934a3a7df3c9e50313f04":[1,0,177,49],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,177,75],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,177,33]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,177,57]
 };
