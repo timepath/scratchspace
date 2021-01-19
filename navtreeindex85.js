@@ -1,6 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"d9/d67/turret_8qh.html#a0a9cdc73840412292168070aa88028c4":[2,0,1,14,15,96],
 "d9/d67/turret_8qh.html#a0d102afb12aa277b4ed0f115a3fea952":[2,0,1,14,15,36],
 "d9/d67/turret_8qh.html#a18df068610050c4bba9a48c21f2ece04":[2,0,1,14,15,23],
 "d9/d67/turret_8qh.html#a1b17700f4b482d033a42877d84068f1b":[2,0,1,14,15,76],
@@ -249,5 +248,6 @@ var NAVTREEINDEX85 =
 "d9/d85/rootdialog_8qh.html":[2,0,5,4,201],
 "d9/d85/rootdialog_8qh_source.html":[2,0,5,4,201],
 "d9/d88/sv__controlpoint_8qh.html":[2,0,1,3,0,13,13],
-"d9/d88/sv__controlpoint_8qh.html#a411f4a3f6dd95f6824e02beb5e4253e8":[2,0,1,3,0,13,13,1]
+"d9/d88/sv__controlpoint_8qh.html#a411f4a3f6dd95f6824e02beb5e4253e8":[2,0,1,3,0,13,13,1],
+"d9/d88/sv__controlpoint_8qh.html#a43e7e64d7f45f7521e913d8b22ced2c1":[2,0,1,3,0,13,13,0]
 };

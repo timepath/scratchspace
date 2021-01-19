@@ -1,6 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"d7/de2/sv__weaponarena__random_8qc_source.html":[2,0,1,10,0,40,2],
 "d7/de3/dialog__multiplayer__create_8qc.html":[2,0,5,4,92],
 "d7/de3/dialog__multiplayer__create_8qc.html#a0551d863eb32ced7a0f48f9834708dbe":[2,0,5,4,92,1],
 "d7/de3/dialog__multiplayer__create_8qc.html#a0ce9ecfe6478cb8924f5b74b1e947193":[2,0,5,4,92,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX71 =
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a28cfcd11e48c3209044074ff69213cd2":[2,0,5,4,96,6],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a33c95a2074f184d391d6bd2cd3d969b3":[2,0,5,4,96,9],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a56efba3dee461a1038f29bee6cfe1369":[2,0,5,4,96,4],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a58536951459f0c2e11aa7166042754a0":[2,0,5,4,96,11]
+"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a58536951459f0c2e11aa7166042754a0":[2,0,5,4,96,11],
+"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a5f2f74238b73f04b830a5002e4fb1871":[2,0,5,4,96,0]
 };

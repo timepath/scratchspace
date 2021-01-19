@@ -54,6 +54,5 @@ var client_2mapvoting_8qc =
     [ "mv_votes", "d4/d0d/client_2mapvoting_8qc.html#a8c030e0460a4b7e98aef96c1b26bdcbe", null ],
     [ "n_ssdirs", "d4/d0d/client_2mapvoting_8qc.html#a13adbb0f458ed300fc81a96c64c8b667", null ],
     [ "NUM_SSDIRS", "d4/d0d/client_2mapvoting_8qc.html#aa9a69df73a5ddee4fc0cdef5fd79ce20", null ],
-    [ "prev_mousepos", "d4/d0d/client_2mapvoting_8qc.html#ab070079ec3e376324a8aed8f4a47ca16", null ],
     [ "ssdirs", "d4/d0d/client_2mapvoting_8qc.html#a40012f98faf7c1e5b08e68eeecf9a991", null ]
 ];

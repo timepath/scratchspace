@@ -1,6 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"d4/d14/heal_8qc.html":[2,0,1,6,3,14],
 "d4/d14/heal_8qc_source.html":[2,0,1,6,3,14],
 "d4/d16/label_8qc.html":[2,0,5,2,18],
 "d4/d16/label_8qc.html#a4a114b337a768306130a7b0533d6c5fb":[2,0,5,2,18,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX38 =
 "d4/d3b/classXonoticBigButton.html#a551caf43464ecebace012d2b272c7bad":[1,0,149,11],
 "d4/d3b/classXonoticBigButton.html#a56159c764874bed976add81f81298c31":[1,0,149,43],
 "d4/d3b/classXonoticBigButton.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,149,48],
-"d4/d3b/classXonoticBigButton.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,149,21]
+"d4/d3b/classXonoticBigButton.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,149,21],
+"d4/d3b/classXonoticBigButton.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,149,33]
 };

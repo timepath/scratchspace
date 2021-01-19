@@ -1,6 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"d7/da4/classXonoticDemoList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,170,7],
 "d7/da4/classXonoticDemoList.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,170,26],
 "d7/da4/classXonoticDemoList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,170,15],
 "d7/da4/classXonoticDemoList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,170,27],
@@ -249,5 +248,6 @@ var NAVTREEINDEX69 =
 "d7/db7/menu_2matrix_8qh.html":[2,0,5,13],
 "d7/db7/menu_2matrix_8qh_source.html":[2,0,5,13],
 "d7/db8/overkill_8qh.html":[2,0,1,10,0,23,15],
-"d7/db8/overkill_8qh_source.html":[2,0,1,10,0,23,15]
+"d7/db8/overkill_8qh_source.html":[2,0,1,10,0,23,15],
+"d7/dbb/sv__assault_8qc.html":[2,0,1,3,0,0,4]
 };
