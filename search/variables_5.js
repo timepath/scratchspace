@@ -57,6 +57,7 @@ var searchData=
   ['ent_5fclient_5fitem_5fsimple',['ENT_CLIENT_ITEM_simple',['../d7/da7/client_2items_2items_8qc.html#ad546b02b89686ef3f37b4b089d98714e',1,'items.qc']]],
   ['ent_5fwinning',['ent_winning',['../d7/dbb/sv__assault_8qc.html#a6f4edbea3efa7b76739a74aff758b159',1,'sv_assault.qc']]],
   ['entcs_5fprop_5fentnum_5fid',['ENTCS_PROP_ENTNUM_id',['../d5/dff/ent__cs_8qc.html#a79291def54eed44a0f28427d8db93103',1,'ent_cs.qc']]],
+  ['entcs_5fprop_5fhealth_5fid',['ENTCS_PROP_HEALTH_id',['../d5/dff/ent__cs_8qc.html#a586b1af92d05bcb83472db91fb4ec614',1,'ent_cs.qc']]],
   ['entcs_5fprop_5forigin_5fid',['ENTCS_PROP_ORIGIN_id',['../d5/dff/ent__cs_8qc.html#a94b8b3a2196fc7215a711a57f2f6e43f',1,'ent_cs.qc']]],
   ['entcs_5fset_5fmutable_5fstring',['ENTCS_SET_MUTABLE_STRING',['../d5/dff/ent__cs_8qc.html#ac960c2608598ffb56d78c40003dedc34',1,'ent_cs.qc']]],
   ['entcs_5fset_5fnormal',['ENTCS_SET_NORMAL',['../d5/dff/ent__cs_8qc.html#a6b66bec340a4d48b6af634ef8887daa2',1,'ent_cs.qc']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"da/dd7/common_2turrets_2__mod_8inc_source.html":[2,0,1,14,1],
 "da/ddd/dialog__singleplayer__winner_8qh.html":[2,0,5,4,165],
 "da/ddd/dialog__singleplayer__winner_8qh_source.html":[2,0,5,4,165],
 "da/ddd/ipban_8qh.html":[2,0,6,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab":[2,0,1,48,15],
 "db/d07/teams_8qh.html#a2c97cb946e2101e17ab6982e28f13ad3":[2,0,1,48,40],
 "db/d07/teams_8qh.html#a354715ef150f6ade4d8f44a0bcebb808":[2,0,1,48,4],
-"db/d07/teams_8qh.html#a3560044092813a5af592e9bac4e0d6e0":[2,0,1,48,10],
-"db/d07/teams_8qh.html#a357988f2499b4c85f7f1091794e9e043":[2,0,1,48,17]
+"db/d07/teams_8qh.html#a3560044092813a5af592e9bac4e0d6e0":[2,0,1,48,10]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#a8555d1fb5cd1d669bb2ed97356e44f86":[2,0,6,4,3,75],
 "d6/ddd/server_2mutators_2events_8qh.html#a85ec81e0db3a0748cf2efc5666565d00":[2,0,6,4,3,253],
 "d6/ddd/server_2mutators_2events_8qh.html#a8781ab354ccdd744fe23a5a4456ff603":[2,0,6,4,3,17],
 "d6/ddd/server_2mutators_2events_8qh.html#a89d182ab5c56c5887f17de09a4798381":[2,0,6,4,3,157],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "d6/dee/train_8qh.html#a795e4b5928becbf2069ea41465139aa7":[2,0,1,6,0,33,2],
 "d6/dee/train_8qh.html#acbb8e15110d3fe1073405752a676b997":[2,0,1,6,0,33,1],
 "d6/dee/train_8qh_source.html":[2,0,1,6,0,33],
-"d6/def/controlpoint_8qc.html":[2,0,1,3,0,13,6],
-"d6/def/controlpoint_8qc_source.html":[2,0,1,3,0,13,6]
+"d6/def/controlpoint_8qc.html":[2,0,1,3,0,13,6]
 };

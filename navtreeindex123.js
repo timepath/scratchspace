@@ -1,5 +1,6 @@
 var NAVTREEINDEX123 =
 {
+"de/d26/nexball_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959":[2,0,1,3,0,12,5,1],
 "de/d26/nexball_8qh_source.html":[2,0,1,3,0,12,5],
 "de/d2a/spiderbot__weapons_8qh.html":[2,0,1,15,0,17],
 "de/d2a/spiderbot__weapons_8qh_source.html":[2,0,1,15,0,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX123 =
 "de/d3a/classXonoticCrosshairPreview.html#a4ae369e8008551c455f967a8ddc6c430":[1,0,164,7],
 "de/d3a/classXonoticCrosshairPreview.html#a4c85e8d27bc69e6a0cee026d7e3aad8a":[1,0,164,15],
 "de/d3a/classXonoticCrosshairPreview.html#a4fd3dcf22a9c68d934a6c923c1020989":[1,0,164,22],
-"de/d3a/classXonoticCrosshairPreview.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,164,11],
-"de/d3a/classXonoticCrosshairPreview.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,164,2]
+"de/d3a/classXonoticCrosshairPreview.html#a58e5222cacde370c160a40f8af2b7ee6":[1,0,164,11]
 };

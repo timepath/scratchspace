@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"db/dc4/classXonoticRadioButton.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,232,35],
 "db/dc4/classXonoticRadioButton.html#af2bf5a2097d8897932f9c0a0311b8c93":[1,0,232,3],
 "db/dc4/classXonoticRadioButton.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,232,13],
 "db/dc4/classXonoticRadioButton.html#af3a830d70442467db88dc9e6085943aa":[1,0,232,67],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "db/de8/effectinfo__gentle__particlegibs_8inc.html#a5753e509cf8cab9e0d669008e7beacf9":[2,0,1,2,15,0],
 "db/de8/effectinfo__gentle__particlegibs_8inc.html#a791c8254cff0ba6137a154c9f713b7b5":[2,0,1,2,15,3],
 "db/de8/effectinfo__gentle__particlegibs_8inc.html#abae54c99829691b761e2cc31786b0f7a":[2,0,1,2,15,2],
-"db/de8/effectinfo__gentle__particlegibs_8inc.html#ad182bfc5aec87ce49d43bb47d7426e79":[2,0,1,2,15,1],
-"db/de8/effectinfo__gentle__particlegibs_8inc_source.html":[2,0,1,2,15]
+"db/de8/effectinfo__gentle__particlegibs_8inc.html#ad182bfc5aec87ce49d43bb47d7426e79":[2,0,1,2,15,1]
 };

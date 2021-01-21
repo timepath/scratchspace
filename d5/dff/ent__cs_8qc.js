@@ -18,6 +18,7 @@ var ent__cs_8qc =
     [ "void", "d5/dff/ent__cs_8qc.html#a12f6852eb93da8c1fba032b751d6ded6", null ],
     [ "DEC_FACTOR", "d5/dff/ent__cs_8qc.html#a29947e6edcbb37313d9c9494a2ed6c80", null ],
     [ "ENTCS_PROP_ENTNUM_id", "d5/dff/ent__cs_8qc.html#a79291def54eed44a0f28427d8db93103", null ],
+    [ "ENTCS_PROP_HEALTH_id", "d5/dff/ent__cs_8qc.html#a586b1af92d05bcb83472db91fb4ec614", null ],
     [ "ENTCS_PROP_ORIGIN_id", "d5/dff/ent__cs_8qc.html#a94b8b3a2196fc7215a711a57f2f6e43f", null ],
     [ "ENTCS_SET_MUTABLE_STRING", "d5/dff/ent__cs_8qc.html#ac960c2608598ffb56d78c40003dedc34", null ],
     [ "ENTCS_SET_NORMAL", "d5/dff/ent__cs_8qc.html#a6b66bec340a4d48b6af634ef8887daa2", null ],
