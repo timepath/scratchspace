@@ -134,6 +134,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4b36d93de5494f4babc40622b233f8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8c238022280cb7c419587cb20836217"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dca/cl__race_8qc.html#ad8c238022280cb7c419587cb20836217">MUTATOR_HOOKFUNCTION</a> (cl_race, HUD_Score_show)</td></tr>
 <tr class="separator:ad8c238022280cb7c419587cb20836217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2eb5a1ebbc8b9b9650c4459f086420e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dca/cl__race_8qc.html#ac2eb5a1ebbc8b9b9650c4459f086420e">MUTATOR_HOOKFUNCTION</a> (cl_race, DrawScoreboardItemStats)</td></tr>
+<tr class="separator:ac2eb5a1ebbc8b9b9650c4459f086420e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e1f51bfdd8f63e2c1740ed5aee66263"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dca/cl__race_8qc.html#a2e1f51bfdd8f63e2c1740ed5aee66263">MUTATOR_HOOKFUNCTION</a> (cl_race, ShowRankings)</td></tr>
 <tr class="separator:a2e1f51bfdd8f63e2c1740ed5aee66263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d339adcde722f16d2f44a1e90527f27"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dca/cl__race_8qc.html#a1d339adcde722f16d2f44a1e90527f27">MUTATOR_HOOKFUNCTION</a> (cl_race, DrawScoreboardAccuracy)</td></tr>
@@ -364,6 +366,37 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
+<a class="anchor" id="ac2eb5a1ebbc8b9b9650c4459f086420e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKFUNCTION </td>
+          <td>(</td>
+          <td class="paramtype">cl_race&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DrawScoreboardItemStats&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/dca/cl__race_8qc_source.html#l00169">169</a> of file <a class="el" href="../../d6/dca/cl__race_8qc_source.html">cl_race.qc</a>.</p>
+
+<p>References <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00032">ISGAMETYPE</a>.</p>
+<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a>(RACE); <span class="comment">// hide the item stats panel</span></div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;}</div><div class="ttc" id="client_2main_8qh_html_a4f114c6ee7bc10793dd76111dc5cd0dc"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a></div><div class="ttdeci">#define ISGAMETYPE(NAME)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00032">main.qh:32</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <a class="anchor" id="a2e1f51bfdd8f63e2c1740ed5aee66263"></a>
 <div class="memitem">
 <div class="memproto">
@@ -388,10 +421,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dca/cl__race_8qc_source.html#l00169">169</a> of file <a class="el" href="../../d6/dca/cl__race_8qc_source.html">cl_race.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dca/cl__race_8qc_source.html#l00174">174</a> of file <a class="el" href="../../d6/dca/cl__race_8qc_source.html">cl_race.qc</a>.</p>
 
 <p>References <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00032">ISGAMETYPE</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a>(RACE))</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    {</div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = _(<span class="stringliteral">&quot;Rankings&quot;</span>);</div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;}</div><div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
+<div class="fragment"><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;{</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a>(RACE))</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    {</div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = _(<span class="stringliteral">&quot;Rankings&quot;</span>);</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;}</div><div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a4f114c6ee7bc10793dd76111dc5cd0dc"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a></div><div class="ttdeci">#define ISGAMETYPE(NAME)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00032">main.qh:32</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -420,10 +453,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dca/cl__race_8qc_source.html#l00178">178</a> of file <a class="el" href="../../d6/dca/cl__race_8qc_source.html">cl_race.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dca/cl__race_8qc_source.html#l00183">183</a> of file <a class="el" href="../../d6/dca/cl__race_8qc_source.html">cl_race.qc</a>.</p>
 
 <p>References <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00032">ISGAMETYPE</a>.</p>
-<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;{</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a>(RACE); <span class="comment">// accuracy is not a factor in this gamemode</span></div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;}</div><div class="ttc" id="client_2main_8qh_html_a4f114c6ee7bc10793dd76111dc5cd0dc"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a></div><div class="ttdeci">#define ISGAMETYPE(NAME)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00032">main.qh:32</a></div></div>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;{</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a>(RACE); <span class="comment">// accuracy is not a factor in this gamemode</span></div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;}</div><div class="ttc" id="client_2main_8qh_html_a4f114c6ee7bc10793dd76111dc5cd0dc"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a></div><div class="ttdeci">#define ISGAMETYPE(NAME)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00032">main.qh:32</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -451,10 +484,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dca/cl__race_8qc_source.html#l00183">183</a> of file <a class="el" href="../../d6/dca/cl__race_8qc_source.html">cl_race.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dca/cl__race_8qc_source.html#l00188">188</a> of file <a class="el" href="../../d6/dca/cl__race_8qc_source.html">cl_race.qc</a>.</p>
 
 <p>References <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00032">ISGAMETYPE</a>.</p>
-<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;{</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a>(RACE); <span class="comment">// show the race timer panel</span></div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;}</div><div class="ttc" id="client_2main_8qh_html_a4f114c6ee7bc10793dd76111dc5cd0dc"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a></div><div class="ttdeci">#define ISGAMETYPE(NAME)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00032">main.qh:32</a></div></div>
+<div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;{</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a>(RACE); <span class="comment">// show the race timer panel</span></div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;}</div><div class="ttc" id="client_2main_8qh_html_a4f114c6ee7bc10793dd76111dc5cd0dc"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a></div><div class="ttdeci">#define ISGAMETYPE(NAME)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00032">main.qh:32</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -482,10 +515,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dca/cl__race_8qc_source.html#l00188">188</a> of file <a class="el" href="../../d6/dca/cl__race_8qc_source.html">cl_race.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dca/cl__race_8qc_source.html#l00193">193</a> of file <a class="el" href="../../d6/dca/cl__race_8qc_source.html">cl_race.qc</a>.</p>
 
 <p>References <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00032">ISGAMETYPE</a>.</p>
-<div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;{</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a>(RACE); <span class="comment">// show all competitors in a race</span></div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;}</div><div class="ttc" id="client_2main_8qh_html_a4f114c6ee7bc10793dd76111dc5cd0dc"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a></div><div class="ttdeci">#define ISGAMETYPE(NAME)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00032">main.qh:32</a></div></div>
+<div class="fragment"><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;{</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a>(RACE); <span class="comment">// show all competitors in a race</span></div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;}</div><div class="ttc" id="client_2main_8qh_html_a4f114c6ee7bc10793dd76111dc5cd0dc"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a></div><div class="ttdeci">#define ISGAMETYPE(NAME)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00032">main.qh:32</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -773,7 +806,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_18fd5e14c153187074e3ead4c15ce70e.html">race</a></li><li class="navelem"><a class="el" href="../../d6/dca/cl__race_8qc.html">cl_race.qc</a></li>
-    <li class="footer">Generated on Thu Jan 21 2021 14:10:48 for Xonotic by
+    <li class="footer">Generated on Wed Jan 27 2021 08:11:20 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

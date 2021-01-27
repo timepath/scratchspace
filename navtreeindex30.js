@@ -1,5 +1,17 @@
 var NAVTREEINDEX30 =
 {
+"d3/d83/classXonoticHUDHealthArmorDialog.html#aea92e346f334a6cf1ba7ad7048e7c33d":[1,0,191,22],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,191,8],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,191,66],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#af1aab403dc54575707fd57991312b201":[1,0,191,45],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,191,25],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,191,10],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,191,15],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,191,49],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,191,2],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#af9f5eaac5c129584f950291c88327398":[1,0,191,76],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,191,35],
+"d3/d83/classXonoticHUDHealthArmorDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,191,39],
 "d3/d83/dialog__hudpanel__healtharmor_8qc.html":[2,0,5,4,54],
 "d3/d83/dialog__hudpanel__healtharmor_8qc.html#a2ee44621eb3b7f0305e67f156a0550cc":[2,0,5,4,54,0],
 "d3/d83/dialog__hudpanel__healtharmor_8qc_source.html":[2,0,5,4,54],
@@ -237,17 +249,5 @@ var NAVTREEINDEX30 =
 "d3/da9/easing_8qc.html#a534ca3b801e6ddae043a97a9eb6aaa04":[2,0,5,0,6,5],
 "d3/da9/easing_8qc.html#a91027b36dec9be4dda2fdd5193b5147f":[2,0,5,0,6,3],
 "d3/da9/easing_8qc_source.html":[2,0,5,0,6],
-"d3/dab/dialog__uid2name_8qh.html":[2,0,5,4,169],
-"d3/dab/dialog__uid2name_8qh_source.html":[2,0,5,4,169],
-"d3/dab/player__skeleton_8qc.html":[2,0,0,19],
-"d3/dab/player__skeleton_8qc.html#a0cdd10c9377413ff463d7ed749b362d0":[2,0,0,19,5],
-"d3/dab/player__skeleton_8qc.html#a103f4dc65583cd958fee3006db624b87":[2,0,0,19,9],
-"d3/dab/player__skeleton_8qc.html#a475bb5589ccf136fb7b89c04120c832b":[2,0,0,19,4],
-"d3/dab/player__skeleton_8qc.html#a7510df630df322df48a246e7d6a71826":[2,0,0,19,8],
-"d3/dab/player__skeleton_8qc.html#a7c80ef0cb8dccd72a620b9804160551f":[2,0,0,19,7],
-"d3/dab/player__skeleton_8qc.html#a7fe1291d377b2605a93fc789d164c073":[2,0,0,19,2],
-"d3/dab/player__skeleton_8qc.html#a9bd774b8fe11972d76dc2036e9d4af1f":[2,0,0,19,3],
-"d3/dab/player__skeleton_8qc.html#ae30bcd640df03cd117eb6491db7bf50b":[2,0,0,19,6],
-"d3/dab/player__skeleton_8qc.html#ae34e60c32bc60eebb73851ebe508b3ed":[2,0,0,19,1],
-"d3/dab/player__skeleton_8qc.html#ae529a0435a9fb73d0ff0675ea2e970c2":[2,0,0,19,0]
+"d3/dab/dialog__uid2name_8qh.html":[2,0,5,4,169]
 };

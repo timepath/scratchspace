@@ -3,6 +3,7 @@ var cl__nexball_8qc =
     [ "HUD_Mod_NexBall", "d0/dc5/cl__nexball_8qc.html#ace90a15fbade62e1be60b9ebca24648e", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/dc5/cl__nexball_8qc.html#a4d47c6aa15b067fee424ab7af915ea33", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/dc5/cl__nexball_8qc.html#a8c00d7d6c8970471997406f794401ae8", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d0/dc5/cl__nexball_8qc.html#ac425e372f4f832703b39b24994a9d386", null ],
     [ "REGISTER_MUTATOR", "d0/dc5/cl__nexball_8qc.html#ae528b53bf37e23f85063b6bbcbf98275", null ],
     [ "autocvar_cl_eventchase_nexball", "d0/dc5/cl__nexball_8qc.html#ad20f9fcb57d623751d2b99cbaf93c39a", null ]
 ];

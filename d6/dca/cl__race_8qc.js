@@ -4,6 +4,7 @@ var cl__race_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d6/dca/cl__race_8qc.html#af9e4d0eb9a9bd38a59ad5ad0a4c63a56", null ],
     [ "MUTATOR_HOOKFUNCTION", "d6/dca/cl__race_8qc.html#a4b36d93de5494f4babc40622b233f8c9", null ],
     [ "MUTATOR_HOOKFUNCTION", "d6/dca/cl__race_8qc.html#ad8c238022280cb7c419587cb20836217", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d6/dca/cl__race_8qc.html#ac2eb5a1ebbc8b9b9650c4459f086420e", null ],
     [ "MUTATOR_HOOKFUNCTION", "d6/dca/cl__race_8qc.html#a2e1f51bfdd8f63e2c1740ed5aee66263", null ],
     [ "MUTATOR_HOOKFUNCTION", "d6/dca/cl__race_8qc.html#a1d339adcde722f16d2f44a1e90527f27", null ],
     [ "MUTATOR_HOOKFUNCTION", "d6/dca/cl__race_8qc.html#ab4a6879f69809c408d8747823f5518be", null ],

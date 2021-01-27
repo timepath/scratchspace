@@ -1,5 +1,17 @@
 var NAVTREEINDEX37 =
 {
+"d4/d0c/csprogsdefs_8qc.html#aa4196c3cbe55c27eb6470d93a3bc1997":[2,0,2,0,0,147],
+"d4/d0c/csprogsdefs_8qc.html#aa41a371eb314a88b5151ee694dda9587":[2,0,2,0,0,408],
+"d4/d0c/csprogsdefs_8qc.html#aa453d4810e73928e0245646d76cb6625":[2,0,2,0,0,237],
+"d4/d0c/csprogsdefs_8qc.html#aa570764877a56b885e2ba8425389b347":[2,0,2,0,0,101],
+"d4/d0c/csprogsdefs_8qc.html#aa59079d98811e29214cd8415533a69e3":[2,0,2,0,0,151],
+"d4/d0c/csprogsdefs_8qc.html#aa69133a86297ec0599dca004ab62b450":[2,0,2,0,0,70],
+"d4/d0c/csprogsdefs_8qc.html#aa7249574d146ce44d5d625cd3f2c9d0e":[2,0,2,0,0,493],
+"d4/d0c/csprogsdefs_8qc.html#aa74d55f2b60e38502e5b3ecb16b39cc4":[2,0,2,0,0,36],
+"d4/d0c/csprogsdefs_8qc.html#aa7538aeb0281b940f8ecec667499ae13":[2,0,2,0,0,48],
+"d4/d0c/csprogsdefs_8qc.html#aa783cf1b92adaf6bbf6853bbf8aebaa6":[2,0,2,0,0,349],
+"d4/d0c/csprogsdefs_8qc.html#aa825748352c65f8daa28f13499d28db4":[2,0,2,0,0,303],
+"d4/d0c/csprogsdefs_8qc.html#aa9188823f5be616ec7a2617ea8ea7657":[2,0,2,0,0,255],
 "d4/d0c/csprogsdefs_8qc.html#aa9c9999310987bfb731aa19e94819310":[2,0,2,0,0,352],
 "d4/d0c/csprogsdefs_8qc.html#aac8d3e7e3e6f914787545b9a200dee0c":[2,0,2,0,0,344],
 "d4/d0c/csprogsdefs_8qc.html#aae8c310a65ec9361988351e2185f2a56":[2,0,2,0,0,498],
@@ -237,17 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d0f/buffs_8qc.html":[2,0,1,10,0,2,3],
 "d4/d0f/buffs_8qc.html#a7c73e9ee5f2498f85e04b5adaafef6b3":[2,0,1,10,0,2,3,1],
 "d4/d0f/buffs_8qc.html#afd7d0f110617f66bd6efce062d5d16e7":[2,0,1,10,0,2,3,0],
-"d4/d0f/buffs_8qc_source.html":[2,0,1,10,0,2,3],
-"d4/d12/common_2gamemodes_2gamemode_2race_2__mod_8inc.html":[2,0,1,3,0,14,0],
-"d4/d12/common_2gamemodes_2gamemode_2race_2__mod_8inc_source.html":[2,0,1,3,0,14,0],
-"d4/d12/racetimer_8qc.html":[2,0,0,1,0,28],
-"d4/d12/racetimer_8qc.html#a1d97e861438f54908b0d60fc2c930c06":[2,0,0,1,0,28,1],
-"d4/d12/racetimer_8qc.html#a437eba1452c50ca9eeb085d1036974b4":[2,0,0,1,0,28,2],
-"d4/d12/racetimer_8qc.html#ab9a7c1bca2d8d5e98402f03d1997b9ca":[2,0,0,1,0,28,0],
-"d4/d12/racetimer_8qc_source.html":[2,0,0,1,0,28],
-"d4/d13/onslaught_8qc.html":[2,0,1,3,0,13,10],
-"d4/d13/onslaught_8qc_source.html":[2,0,1,3,0,13,10],
-"d4/d13/spawnpoint_8qh.html":[2,0,1,6,2,15],
-"d4/d13/spawnpoint_8qh_source.html":[2,0,1,6,2,15],
-"d4/d14/heal_8qc.html":[2,0,1,6,3,14]
+"d4/d0f/buffs_8qc_source.html":[2,0,1,10,0,2,3]
 };

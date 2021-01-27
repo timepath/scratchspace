@@ -248,6 +248,6 @@ var NAVTREEINDEX1 =
 "d0/d3f/dialog__settings__game__view_8qc.html#add660671fca3657298c8909e1dac00a0":[2,0,5,4,142,2],
 "d0/d3f/dialog__settings__game__view_8qc_source.html":[2,0,5,4,142],
 "d0/d3f/state_8qc.html":[2,0,1,45],
-"d0/d3f/state_8qc.html#a28f9af38c062e963a41ab42e2a60e12b":[2,0,1,45,1],
-"d0/d3f/state_8qc.html#a34f4025222e4edd5d1dcee5b90656bec":[2,0,1,45,0]
+"d0/d3f/state_8qc.html#a1ec5dffd1f3119ade4c9eb68efb6a32c":[2,0,1,45,13],
+"d0/d3f/state_8qc.html#a28f9af38c062e963a41ab42e2a60e12b":[2,0,1,45,1]
 };

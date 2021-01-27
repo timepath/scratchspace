@@ -273,6 +273,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a05be10c2e0cfbfc6824a6093a830d612"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a05be10c2e0cfbfc6824a6093a830d612">MUTATOR_HOOKABLE</a> (DrawScoreboardAccuracy, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6">EV_NO_ARGS</a>)</td></tr>
 <tr class="memdesc:a05be10c2e0cfbfc6824a6093a830d612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true to not show accuracy stats in the scoreboard.  <a href="#a05be10c2e0cfbfc6824a6093a830d612">More...</a><br /></td></tr>
 <tr class="separator:a05be10c2e0cfbfc6824a6093a830d612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa401caf457748d8ef0a2b6d43cb108b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#aa401caf457748d8ef0a2b6d43cb108b8">MUTATOR_HOOKABLE</a> (DrawScoreboardItemStats, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6">EV_NO_ARGS</a>)</td></tr>
+<tr class="memdesc:aa401caf457748d8ef0a2b6d43cb108b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true to not show item pickup stats in the scoreboard.  <a href="#aa401caf457748d8ef0a2b6d43cb108b8">More...</a><br /></td></tr>
+<tr class="separator:aa401caf457748d8ef0a2b6d43cb108b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b28864eb4114e418d7ee3954282f208"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a6b28864eb4114e418d7ee3954282f208">MUTATOR_HOOKABLE</a> (DrawInfoMessages, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a433a95d4c3ca47d030a5247dbc3d3a19">EV_DrawInfoMessages</a>)</td></tr>
 <tr class="separator:a6b28864eb4114e418d7ee3954282f208"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14aea93f5215e6de880c6cccbd9533d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a14aea93f5215e6de880c6cccbd9533d8">MUTATOR_HOOKABLE</a> (DrawViewModel, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#aa93d21b7f87fbf1baf0d1d5d14cbd019">EV_DrawViewModel</a>)</td></tr>
@@ -419,7 +422,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Called when damage info is received on the client, useful for playing explosion effects. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00218">218</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00221">221</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -483,7 +486,7 @@ Functions</h2></td></tr>
 <p>Called when drawing info messages, allows adding new info messages. </p>
 <p>Return true to hide the standard join message </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00185">185</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00188">188</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -513,7 +516,7 @@ Functions</h2></td></tr>
 
 <p>Called when the view model is being animated (setorigin is called after the hook, so you only need to modify origin here if desired) </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00195">195</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00198">198</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -635,7 +638,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Return true to disable player color forcing. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00211">211</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00214">214</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -666,7 +669,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Return true to disable player model forcing. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00204">204</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00207">207</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -815,7 +818,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Called when drawing a player's nameplate, return true to hide it. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00235">235</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00238">238</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -845,7 +848,7 @@ Functions</h2></td></tr>
 
 <p>Return true to show leaderboard rankings, needs title argument set. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00229">229</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00232">232</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -1829,6 +1832,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa401caf457748d8ef0a2b6d43cb108b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype">DrawScoreboardItemStats&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6">EV_NO_ARGS</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return true to not show item pickup stats in the scoreboard. </p>
+
+</div>
+</div>
 <a class="anchor" id="a6b28864eb4114e418d7ee3954282f208"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2129,7 +2160,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_08b4cf75afed9a7734ab4c2d9f3e6fae.html">mutators</a></li><li class="navelem"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Thu Jan 21 2021 14:10:46 for Xonotic by
+    <li class="footer">Generated on Wed Jan 27 2021 08:11:17 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

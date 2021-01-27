@@ -54,6 +54,7 @@ var searchData=
   ['scoreboard_5factive',['scoreboard_active',['../d4/d2b/scoreboard_8qh.html#a9e07478dc906c451cdaf11df6a458786',1,'scoreboard.qh']]],
   ['scoreboard_5fbottom',['scoreboard_bottom',['../d3/d05/hud_8qh.html#ad53d36ceae0de8723447c0b440bf358f',1,'hud.qh']]],
   ['scoreboard_5ffade_5falpha',['scoreboard_fade_alpha',['../d4/d2b/scoreboard_8qh.html#aa6b8f97cefad819218cd7aef293559ea',1,'scoreboard.qh']]],
+  ['scoreboard_5fitemstats_5ffade_5falpha',['scoreboard_itemstats_fade_alpha',['../d4/d2b/scoreboard_8qh.html#aebed239ab61602124b2daf23a551232a',1,'scoreboard.qh']]],
   ['scoreboard_5fpos',['scoreboard_pos',['../d5/dac/server_2scores_8qh.html#a0cf85aa93c9a2c5aa8f70c877d9d42dc',1,'scores.qh']]],
   ['scoreboard_5fshowscores',['scoreboard_showscores',['../d4/d2b/scoreboard_8qh.html#a82122038f6f96da3e271a63cc06516eb',1,'scoreboard.qh']]],
   ['scoreboard_5fshowscores_5fforce',['scoreboard_showscores_force',['../d4/da9/racetimer_8qh.html#adb370211fdbf7cf34007a2cc240e6ee2',1,'racetimer.qh']]],

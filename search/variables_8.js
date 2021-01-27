@@ -6,6 +6,7 @@ var searchData=
   ['hasnextcampaign',['hasNextCampaign',['../d4/d91/classXonoticCampaignList.html#a2c323d82578b381efc9730e7017ec98b',1,'XonoticCampaignList']]],
   ['hasprevcampaign',['hasPrevCampaign',['../d4/d91/classXonoticCampaignList.html#abbd29ade66c2c1a48ed795560a2fcb22',1,'XonoticCampaignList']]],
   ['hasweapon_5fcomplain_5fspam',['hasweapon_complain_spam',['../d1/d37/classClient.html#a2e357040c9fcbd4d35a09b094b7c329f',1,'Client::hasweapon_complain_spam()'],['../d8/d6b/selection_8qh.html#aeffb5f5c575c97f12381045f6f091403',1,'hasweapon_complain_spam():&#160;selection.qh']]],
+  ['have_5fitem_5fstats',['have_item_stats',['../d3/d07/scoreboard_8qc.html#a09f7a95da62c36ebe91a823c75cadc81',1,'scoreboard.qc']]],
   ['have_5fs3tc',['have_s3tc',['../d2/dcb/classXonoticPicmipSlider.html#ab1d7fb62f7e6c638ebad21f79aad0178',1,'XonoticPicmipSlider']]],
   ['have_5fteam_5fspawns',['have_team_spawns',['../d4/dd1/spawnpoints_8qh.html#a5594c59ad277a5bde42f3670de5077b3',1,'spawnpoints.qh']]],
   ['have_5fteam_5fspawns_5fforteams',['have_team_spawns_forteams',['../d4/dd1/spawnpoints_8qh.html#a5f869a37a426248cd642f64144854d20',1,'spawnpoints.qh']]],

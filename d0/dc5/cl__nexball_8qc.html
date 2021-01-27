@@ -132,6 +132,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4d47c6aa15b067fee424ab7af915ea33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c00d7d6c8970471997406f794401ae8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/cl__nexball_8qc.html#a8c00d7d6c8970471997406f794401ae8">MUTATOR_HOOKFUNCTION</a> (cl_nb, DrawScoreboardAccuracy)</td></tr>
 <tr class="separator:a8c00d7d6c8970471997406f794401ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac425e372f4f832703b39b24994a9d386"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/cl__nexball_8qc.html#ac425e372f4f832703b39b24994a9d386">MUTATOR_HOOKFUNCTION</a> (cl_nb, DrawScoreboardItemStats)</td></tr>
+<tr class="separator:ac425e372f4f832703b39b24994a9d386"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae528b53bf37e23f85063b6bbcbf98275"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/cl__nexball_8qc.html#ae528b53bf37e23f85063b6bbcbf98275">REGISTER_MUTATOR</a> (cl_nb, <a class="el" href="../../dd/d54/bool_8qh.html#a3ad98e54fafae1497bd42b491d9742cc">true</a>)</td></tr>
 <tr class="separator:ae528b53bf37e23f85063b6bbcbf98275"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -269,6 +271,37 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
+<a class="anchor" id="ac425e372f4f832703b39b24994a9d386"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKFUNCTION </td>
+          <td>(</td>
+          <td class="paramtype">cl_nb&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DrawScoreboardItemStats&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d0/dc5/cl__nexball_8qc_source.html#l00052">52</a> of file <a class="el" href="../../d0/dc5/cl__nexball_8qc_source.html">cl_nexball.qc</a>.</p>
+
+<p>References <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00032">ISGAMETYPE</a>.</p>
+<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a>(NEXBALL); <span class="comment">// hide the item stats panel</span></div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div><div class="ttc" id="client_2main_8qh_html_a4f114c6ee7bc10793dd76111dc5cd0dc"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4f114c6ee7bc10793dd76111dc5cd0dc">ISGAMETYPE</a></div><div class="ttdeci">#define ISGAMETYPE(NAME)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00032">main.qh:32</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <a class="anchor" id="ae528b53bf37e23f85063b6bbcbf98275"></a>
 <div class="memitem">
 <div class="memproto">
@@ -318,7 +351,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_c814fee23757456cb4490b5d684bd5e6.html">nexball</a></li><li class="navelem"><a class="el" href="../../d0/dc5/cl__nexball_8qc.html">cl_nexball.qc</a></li>
-    <li class="footer">Generated on Thu Jan 21 2021 14:10:48 for Xonotic by
+    <li class="footer">Generated on Wed Jan 27 2021 08:11:19 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
