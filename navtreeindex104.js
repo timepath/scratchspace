@@ -1,5 +1,6 @@
 var NAVTREEINDEX104 =
 {
+"db/d91/gamestart_8qc_source.html":[2,0,1,6,3,10],
 "db/d93/cl__minigames__hud_8qh.html":[2,0,1,7,6],
 "db/d93/cl__minigames__hud_8qh.html#a37471c48a64ef28cb37a09cf9ab0c3d0":[2,0,1,7,6,1],
 "db/d93/cl__minigames__hud_8qh.html#a4b86f86d9415fc9059ee3b2c0b977172":[2,0,1,7,6,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX104 =
 "db/db1/classXonoticHUDRaceTimerDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,200,10],
 "db/db1/classXonoticHUDRaceTimerDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,200,15],
 "db/db1/classXonoticHUDRaceTimerDialog.html#af8d2eb7d35bdd6d23965d8430339d1d9":[1,0,200,49],
-"db/db1/classXonoticHUDRaceTimerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,200,2],
-"db/db1/classXonoticHUDRaceTimerDialog.html#af9ed10146aeca307fa96027ecb5d8852":[1,0,200,67]
+"db/db1/classXonoticHUDRaceTimerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,200,2]
 };

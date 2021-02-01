@@ -26,7 +26,6 @@ var vector_8qh =
     [ "vec_reflect", "de/dcb/vector_8qh.html#ab52ea71002ddef48e04f0143029cbcf6", null ],
     [ "vlen_maxnorm2d", "de/dcb/vector_8qh.html#aa31c3139d1a005d506fb6e1ebe47d1fc", null ],
     [ "vlen_minnorm2d", "de/dcb/vector_8qh.html#ad71a34e21d78fdb74ec30d209b6ea3b1", null ],
-    [ "_vdist_f", "de/dcb/vector_8qh.html#a91a59967a63be9474049e3767741975b", null ],
     [ "_vec2", "de/dcb/vector_8qh.html#a7a13bd9ecbb74025e977f77185a7449d", null ],
     [ "_vec3", "de/dcb/vector_8qh.html#abe5699c7c17a0a7fb6aacdae9e6b1ef1", null ],
     [ "_vlen2", "de/dcb/vector_8qh.html#aca67feefb841ea2808381b207ea4cc42", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"dd/d94/wyvern_8qh.html#afa039392797736207820db4cdf6234f6":[2,0,1,9,0,9,2],
 "dd/d94/wyvern_8qh_source.html":[2,0,1,9,0,9],
 "dd/d95/cl__lms_8qc.html":[2,0,1,3,0,11,2],
 "dd/d95/cl__lms_8qc.html#a09c9917cf83b1c637ff2a524babd7aed":[2,0,1,3,0,11,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "dd/da6/classXonoticCreditsDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,161,56],
 "dd/da6/classXonoticCreditsDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,161,33],
 "dd/da6/classXonoticCreditsDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,161,41],
-"dd/da6/classXonoticCreditsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,161,63],
-"dd/da6/classXonoticCreditsDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,161,75]
+"dd/da6/classXonoticCreditsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,161,63]
 };

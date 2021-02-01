@@ -67,7 +67,6 @@ var searchData=
   ['_5fteamscores_5fflags',['_teamscores_flags',['../da/dc3/common_2scores_8qh.html#a57152a5493477078063dc1044309b70a',1,'scores.qh']]],
   ['_5fteamscores_5flabel',['_teamscores_label',['../da/dc3/common_2scores_8qh.html#a7319c4c366cbbafadbe68affd67db198',1,'scores.qh']]],
   ['_5funsafe_5ffld2',['_unsafe_fld2',['../d2/d65/unsafe_8qh.html#aed54631dded82395af39f5531ba70ed8',1,'unsafe.qh']]],
-  ['_5fvdist_5ff',['_vdist_f',['../de/dcb/vector_8qh.html#a91a59967a63be9474049e3767741975b',1,'vector.qh']]],
   ['_5fvec2',['_vec2',['../de/dcb/vector_8qh.html#a7a13bd9ecbb74025e977f77185a7449d',1,'vector.qh']]],
   ['_5fvec3',['_vec3',['../de/dcb/vector_8qh.html#abe5699c7c17a0a7fb6aacdae9e6b1ef1',1,'vector.qh']]],
   ['_5fvlen2',['_vlen2',['../de/dcb/vector_8qh.html#aca67feefb841ea2808381b207ea4cc42',1,'vector.qh']]],

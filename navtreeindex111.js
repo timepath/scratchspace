@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"dc/d4f/dialog__hudpanel__radar_8qh.html":[2,0,5,4,75],
 "dc/d4f/dialog__hudpanel__radar_8qh_source.html":[2,0,5,4,75],
 "dc/d52/dialog__multiplayer__create__mapinfo_8qh.html":[2,0,5,4,95],
 "dc/d52/dialog__multiplayer__create__mapinfo_8qh_source.html":[2,0,5,4,95],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "dc/d90/hud__config_8qc.html#a909082b7b3de632938d841419eb2905a":[2,0,0,1,7,13],
 "dc/d90/hud__config_8qc.html#a997bcd4a77add62b1ec1ed127a5bd1bb":[2,0,0,1,7,3],
 "dc/d90/hud__config_8qc.html#ab101f15063f106dd54dec4906c303c69":[2,0,0,1,7,18],
-"dc/d90/hud__config_8qc.html#ab2a385344d8bacc9b73beeaa4eebbb05":[2,0,0,1,7,20],
-"dc/d90/hud__config_8qc.html#ab5e7e895d0f21c2dcc213d9ef2042330":[2,0,0,1,7,22]
+"dc/d90/hud__config_8qc.html#ab2a385344d8bacc9b73beeaa4eebbb05":[2,0,0,1,7,20]
 };

@@ -36,6 +36,7 @@ var server_2client_8qc =
     [ "player_getspecies", "df/dd7/server_2client_8qc.html#a04003ae2140daf692afaee96c6b305df", null ],
     [ "Player_Physics", "df/dd7/server_2client_8qc.html#a8ded53c3174328a5bb11200508201865", null ],
     [ "player_powerups", "df/dd7/server_2client_8qc.html#a4b793ead3ecba4010f267f2a20373890", null ],
+    [ "player_powerups_remove_all", "df/dd7/server_2client_8qc.html#ae5ad858e961d75ffd966c345410886be", null ],
     [ "player_regen", "df/dd7/server_2client_8qc.html#a86d11ca9bae40e7268a22973fe720d53", null ],
     [ "PlayerInIDList", "df/dd7/server_2client_8qc.html#a6580140c4b2234b699454a67c40bb8c7", null ],
     [ "PlayerInIPList", "df/dd7/server_2client_8qc.html#aaa0c3e283dc3a3da40d9ac09d606909d", null ],
