@@ -1,6 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"d4/d12/common_2gamemodes_2gamemode_2race_2__mod_8inc.html":[2,0,1,3,0,14,0],
 "d4/d12/common_2gamemodes_2gamemode_2race_2__mod_8inc_source.html":[2,0,1,3,0,14,0],
 "d4/d12/racetimer_8qc.html":[2,0,0,1,0,28],
 "d4/d12/racetimer_8qc.html#a1d97e861438f54908b0d60fc2c930c06":[2,0,0,1,0,28,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX38 =
 "d4/d3b/classXonoticBigButton.html#a3a88ebd44b9abf22558ee9a6cfaf03dd":[1,0,149,73],
 "d4/d3b/classXonoticBigButton.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,149,58],
 "d4/d3b/classXonoticBigButton.html#a3f9c5e6943891f335099fe380661b70c":[1,0,149,28],
-"d4/d3b/classXonoticBigButton.html#a476349ed1a0d044310253e867c496c16":[1,0,149,42]
+"d4/d3b/classXonoticBigButton.html#a476349ed1a0d044310253e867c496c16":[1,0,149,42],
+"d4/d3b/classXonoticBigButton.html#a47ec54ba5a75b70927a3e25a09e6d5ea":[1,0,149,16]
 };

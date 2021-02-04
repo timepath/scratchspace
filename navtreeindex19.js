@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"d2/d4b/classPlayer.html#a50d145b259aa13ff80a0fbc31cb97d7e":[1,0,104,31],
 "d2/d4b/classPlayer.html#a523781393cac4c56dabca8582ff95ce6":[1,0,104,28],
 "d2/d4b/classPlayer.html#a53ebb19cee46f4709b3d88a1434e5b93":[1,0,104,88],
 "d2/d4b/classPlayer.html#a550615366ec442eaa85b74ba00c480f6":[1,0,104,78],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "d2/d76/server_2mapvoting_8qc.html#ada6ce51a0ca57de830c4d42c8b639c51":[2,0,6,41,33],
 "d2/d76/server_2mapvoting_8qc.html#adb68c6da333d42eb8792ff3838f47a1e":[2,0,6,41,49],
 "d2/d76/server_2mapvoting_8qc.html#ae0f1ea3ff4f345a3517e42510f9702e1":[2,0,6,41,39],
-"d2/d76/server_2mapvoting_8qc.html#ae37c8567e2f3367e6b0ae7cbefcc2083":[2,0,6,41,36]
+"d2/d76/server_2mapvoting_8qc.html#ae37c8567e2f3367e6b0ae7cbefcc2083":[2,0,6,41,36],
+"d2/d76/server_2mapvoting_8qc.html#ae48702fce3092170d714604d335667e8":[2,0,6,41,28]
 };

@@ -4,7 +4,6 @@ var sv__race_8qc =
     [ "havocbot_role_race", "db/dec/sv__race_8qc.html#a688e5c51f827d856b512d70d7354c545", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#a4495f462188aa040af14bbd05f4c0404", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#a628848864479dbc529cec63337d13c2a", null ],
-    [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#ac38d72d5436e6266219faa111f557424", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#a509e249e191f5cacce8e132341a38756", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#ad681cb8c02759a59d5b11cba5a670ec6", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#a66bbab3da4a64b95734de34022dde17c", null ],

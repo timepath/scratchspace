@@ -1,6 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"d4/d58/client_2hud_2panel_2chat_8qc.html#a008d4ee087388abdbf0ccb7377b13387":[2,0,0,1,0,6,0],
 "d4/d58/client_2hud_2panel_2chat_8qc.html#ad114fc7439005bf3b871713021e453f7":[2,0,0,1,0,6,1],
 "d4/d58/client_2hud_2panel_2chat_8qc_source.html":[2,0,0,1,0,6],
 "d4/d5b/spawnpoint_8qc.html":[2,0,1,6,2,14],
@@ -249,5 +248,6 @@ var NAVTREEINDEX41 =
 "d4/d67/classXonoticScreenshotImage.html#a0a44543db2c981ccbbfa48496f334de5":[1,0,240,8],
 "d4/d67/classXonoticScreenshotImage.html#a0e3ae62a1e789f9d1c4cee355a5aad49":[1,0,240,13],
 "d4/d67/classXonoticScreenshotImage.html#a0e724b01c100461a8abc1af3132da8c3":[1,0,240,47],
-"d4/d67/classXonoticScreenshotImage.html#a0e80097a7072207815be5407637b0159":[1,0,240,32]
+"d4/d67/classXonoticScreenshotImage.html#a0e80097a7072207815be5407637b0159":[1,0,240,32],
+"d4/d67/classXonoticScreenshotImage.html#a14a70e4aca7423cedef3601c877a74bb":[1,0,240,35]
 };

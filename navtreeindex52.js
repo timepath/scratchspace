@@ -1,6 +1,5 @@
 var NAVTREEINDEX52 =
 {
-"d5/d99/classVaporizer.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,138,5],
 "d5/d99/classVaporizer.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,138,10],
 "d5/d99/classVaporizer.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,138,7],
 "d5/d99/classVaporizer.html#ac6b3f33d3bc5bddbb2ecc8cf5d43653d":[1,0,138,37],
@@ -249,5 +248,6 @@ var NAVTREEINDEX52 =
 "d5/de0/weaponsystem_8qc.html#a4774b540ac577e1898af7d257be0b390":[2,0,6,6,20,22],
 "d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0":[2,0,6,6,20,2],
 "d5/de0/weaponsystem_8qc.html#a66ca3d9dc1f3bc5a039abad59d986d40":[2,0,6,6,20,9],
-"d5/de0/weaponsystem_8qc.html#a6e2db8091b94c8cb9fa32263996e15b8":[2,0,6,6,20,6]
+"d5/de0/weaponsystem_8qc.html#a6e2db8091b94c8cb9fa32263996e15b8":[2,0,6,6,20,6],
+"d5/de0/weaponsystem_8qc.html#a706914aae8991d2facc8fdc279b6d03f":[2,0,6,6,20,31]
 };

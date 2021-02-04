@@ -4,7 +4,6 @@ var sv__cts_8qc =
     [ "cts_Initialize", "d1/d72/sv__cts_8qc.html#ac49eff46dad63fa11dfcf4c78bc0803e", null ],
     [ "cts_ScoreRules", "d1/d72/sv__cts_8qc.html#a9b15c0c4fb2a70ddec86a6d47c026023", null ],
     [ "havocbot_role_cts", "d1/d72/sv__cts_8qc.html#a9edd66c8072975c0b0ac13dea2dc92d9", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d1/d72/sv__cts_8qc.html#a2d77bc3eaedad684302dc58a2b9cfb2b", null ],
     [ "MUTATOR_HOOKFUNCTION", "d1/d72/sv__cts_8qc.html#a5471fc5c9b0a3da53c323c4f14ab3cfc", null ],
     [ "MUTATOR_HOOKFUNCTION", "d1/d72/sv__cts_8qc.html#afcc761ec5d37bff059a0739d34f96a7a", null ],
     [ "MUTATOR_HOOKFUNCTION", "d1/d72/sv__cts_8qc.html#a3ac72324ed619c6db0947c5757caa66c", null ],

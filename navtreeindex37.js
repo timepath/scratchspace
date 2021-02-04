@@ -1,6 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"d4/d0c/csprogsdefs_8qc.html#aa4196c3cbe55c27eb6470d93a3bc1997":[2,0,2,0,0,147],
 "d4/d0c/csprogsdefs_8qc.html#aa41a371eb314a88b5151ee694dda9587":[2,0,2,0,0,408],
 "d4/d0c/csprogsdefs_8qc.html#aa453d4810e73928e0245646d76cb6625":[2,0,2,0,0,237],
 "d4/d0c/csprogsdefs_8qc.html#aa570764877a56b885e2ba8425389b347":[2,0,2,0,0,101],
@@ -249,5 +248,6 @@ var NAVTREEINDEX37 =
 "d4/d0f/buffs_8qc.html":[2,0,1,10,0,2,3],
 "d4/d0f/buffs_8qc.html#a7c73e9ee5f2498f85e04b5adaafef6b3":[2,0,1,10,0,2,3,1],
 "d4/d0f/buffs_8qc.html#afd7d0f110617f66bd6efce062d5d16e7":[2,0,1,10,0,2,3,0],
-"d4/d0f/buffs_8qc_source.html":[2,0,1,10,0,2,3]
+"d4/d0f/buffs_8qc_source.html":[2,0,1,10,0,2,3],
+"d4/d12/common_2gamemodes_2gamemode_2race_2__mod_8inc.html":[2,0,1,3,0,14,0]
 };

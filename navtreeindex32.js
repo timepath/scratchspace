@@ -1,6 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"d3/dbe/classSlider.html#a8ea1a59334f7770ce251a2f95a266fe3":[1,0,124,28],
 "d3/dbe/classSlider.html#a8f04cd9252d82b0da453b439558cd2e6":[1,0,124,23],
 "d3/dbe/classSlider.html#a988e29ab41a7d5b537a2abb5019991c5":[1,0,124,51],
 "d3/dbe/classSlider.html#a99f113cbca6d20b18128c10c6d236867":[1,0,124,61],
@@ -217,8 +216,8 @@ var NAVTREEINDEX32 =
 "d3/dd0/self_8qh.html#a624c0216024b958a39da9130aaf8c959":[2,0,4,52,23],
 "d3/dd0/self_8qh.html#a67462ca0b9ea239b3801ff8489218885":[2,0,4,52,18],
 "d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e":[2,0,4,52,8],
-"d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,4,52,14],
 "d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,4,52,13],
+"d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,4,52,14],
 "d3/dd0/self_8qh.html#ab0f9fbed8238871df6f5ff5609840aa3":[2,0,4,52,26],
 "d3/dd0/self_8qh.html#ab666435fc4955cc75aebf3360ee86861":[2,0,4,52,5],
 "d3/dd0/self_8qh.html#aba1f01394a0aa649fde132cb094e7111":[2,0,4,52,19],
@@ -249,5 +248,6 @@ var NAVTREEINDEX32 =
 "d3/dd3/sv__invincibleproj_8qc_source.html":[2,0,1,10,0,13,2],
 "d3/dd4/dialog__multiplayer__media__screenshot_8qh.html":[2,0,5,4,113],
 "d3/dd4/dialog__multiplayer__media__screenshot_8qh.html#ad2d931e8e2f2b55df36156c1737b77f7":[2,0,5,4,113,1],
-"d3/dd4/dialog__multiplayer__media__screenshot_8qh_source.html":[2,0,5,4,113]
+"d3/dd4/dialog__multiplayer__media__screenshot_8qh_source.html":[2,0,5,4,113],
+"d3/dd5/bd_8qc.html":[2,0,1,7,0,3]
 };
