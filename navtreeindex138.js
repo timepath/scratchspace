@@ -1,8 +1,5 @@
 var NAVTREEINDEX138 =
 {
-"df/dd4/navigation_8qh.html#a57aebfdaf806fba9b970fd6a5e9d9a8b":[2,0,6,0,0,10,101],
-"df/dd4/navigation_8qh.html#a58006022b7f6d1b7131ed30b053c6165":[2,0,6,0,0,10,97],
-"df/dd4/navigation_8qh.html#a588ddcbfad5363fccd2936b8db1e3307":[2,0,6,0,0,10,55],
 "df/dd4/navigation_8qh.html#a5b82b21cd80461f27414398460c6b4cc":[2,0,6,0,0,10,84],
 "df/dd4/navigation_8qh.html#a5c979518951523771125edb512d3f78d":[2,0,6,0,0,10,25],
 "df/dd4/navigation_8qh.html#a608527c9724852c237ef9d8629efc570":[2,0,6,0,0,10,82],
@@ -249,5 +246,8 @@ var NAVTREEINDEX138 =
 "df/dee/anglestransform_8qh.html#a3e15416efc8d5e17ebc24e871037fca3":[2,0,4,2,3,11],
 "df/dee/anglestransform_8qh.html#a3e980438b803ac9b1cc81a157247959d":[2,0,4,2,3,19],
 "df/dee/anglestransform_8qh.html#a6eef2b5d1dcd28a89fa2ab3146011775":[2,0,4,2,3,5],
-"df/dee/anglestransform_8qh.html#a7306b623ecb07a5c62ec3d5b3094e1b7":[2,0,4,2,3,3]
+"df/dee/anglestransform_8qh.html#a7306b623ecb07a5c62ec3d5b3094e1b7":[2,0,4,2,3,3],
+"df/dee/anglestransform_8qh.html#a750aab23b894604054f58b46a0276c96":[2,0,4,2,3,14],
+"df/dee/anglestransform_8qh.html#a8383340e6af9aad3ed3a36610b98055d":[2,0,4,2,3,10],
+"df/dee/anglestransform_8qh.html#a847652083025638d0721b27759d2ec92":[2,0,4,2,3,16]
 };

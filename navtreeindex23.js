@@ -36,13 +36,10 @@ var NAVTREEINDEX23 =
 "d2/dd3/colorbutton_8qh.html#ab9dbb69ba2676a3009765966a36e6e6c":[2,0,5,4,19,1],
 "d2/dd3/colorbutton_8qh_source.html":[2,0,5,4,19],
 "d2/dd3/dialog__multiplayer__profile_8qc.html":[2,0,5,4,116],
-"d2/dd3/dialog__multiplayer__profile_8qc.html#a344d3ba5311c9ad516928f5c4edab962":[2,0,5,4,116,2],
-"d2/dd3/dialog__multiplayer__profile_8qc.html#a4c8a8d766ef0c58bffb1bf76c3026077":[2,0,5,4,116,0],
-"d2/dd3/dialog__multiplayer__profile_8qc.html#a73c3039e24d96382bd3e84cd6fc1ece6":[2,0,5,4,116,1],
-"d2/dd3/dialog__multiplayer__profile_8qc.html#a7e2e23bde25532ff986ec09897f32f0a":[2,0,5,4,116,4],
-"d2/dd3/dialog__multiplayer__profile_8qc.html#a8c1da5cd1d66fcb4d13e8540ccc98866":[2,0,5,4,116,3],
-"d2/dd3/dialog__multiplayer__profile_8qc.html#a9529c8cf7d913b5fcef77ca7c08f3c7d":[2,0,5,4,116,5],
-"d2/dd3/dialog__multiplayer__profile_8qc.html#aca3fd4f6521c9079cc9849e5bc4526f5":[2,0,5,4,116,6],
+"d2/dd3/dialog__multiplayer__profile_8qc.html#a7e2e23bde25532ff986ec09897f32f0a":[2,0,5,4,116,1],
+"d2/dd3/dialog__multiplayer__profile_8qc.html#a8c1da5cd1d66fcb4d13e8540ccc98866":[2,0,5,4,116,0],
+"d2/dd3/dialog__multiplayer__profile_8qc.html#a9529c8cf7d913b5fcef77ca7c08f3c7d":[2,0,5,4,116,2],
+"d2/dd3/dialog__multiplayer__profile_8qc.html#aca3fd4f6521c9079cc9849e5bc4526f5":[2,0,5,4,116,3],
 "d2/dd3/dialog__multiplayer__profile_8qc_source.html":[2,0,5,4,116],
 "d2/dd5/client_2__mod_8qh.html":[2,0,0,6],
 "d2/dd5/client_2__mod_8qh_source.html":[2,0,0,6],
@@ -249,5 +246,8 @@ var NAVTREEINDEX23 =
 "d2/dec/classXonoticServerList.html#a301e1df0ad4ee9eecdfdaaf95b0bf081":[1,0,246,70],
 "d2/dec/classXonoticServerList.html#a3507737669a3f8c5a665381119f54754":[1,0,246,87],
 "d2/dec/classXonoticServerList.html#a3f9c5e6943891f335099fe380661b70c":[1,0,246,42],
-"d2/dec/classXonoticServerList.html#a405b285a76ac127664593c89281a5b63":[1,0,246,74]
+"d2/dec/classXonoticServerList.html#a405b285a76ac127664593c89281a5b63":[1,0,246,74],
+"d2/dec/classXonoticServerList.html#a42b9e46cafc67dcee41cc80f299fe193":[1,0,246,80],
+"d2/dec/classXonoticServerList.html#a4431a7df609cdc18ce6f39cc3b285cc4":[1,0,246,104],
+"d2/dec/classXonoticServerList.html#a44a06bcb45a11bcb45950cf46054c37f":[1,0,246,40]
 };

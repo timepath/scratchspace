@@ -1,8 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"d6/d96/classRaceCTS.html#af1a6db9207b7000984864c8176081b52":[1,0,109,13],
-"d6/d96/classRaceCTS.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,109,5],
-"d6/d97/common_2vehicles_2__mod_8qh.html":[2,0,1,15,2],
 "d6/d97/common_2vehicles_2__mod_8qh_source.html":[2,0,1,15,2],
 "d6/d99/effectinfo__buffs_8inc.html":[2,0,1,2,10],
 "d6/d99/effectinfo__buffs_8inc.html#a010c16868061b3991e58f04043922167":[2,0,1,2,10,25],
@@ -249,5 +246,8 @@ var NAVTREEINDEX59 =
 "d6/db0/sv__ctf_8qh.html#aa7ed4211b23c769be5c9cc579b613ea3":[2,0,1,3,0,2,7,41],
 "d6/db0/sv__ctf_8qh.html#aab6870036ed34fe0117285be7ccc63d5":[2,0,1,3,0,2,7,14],
 "d6/db0/sv__ctf_8qh.html#aaf51c9b1633e7c8473c6a4285ffc306b":[2,0,1,3,0,2,7,89],
-"d6/db0/sv__ctf_8qh.html#aafa6c461d2436609f164c28c17d7cf64":[2,0,1,3,0,2,7,84]
+"d6/db0/sv__ctf_8qh.html#aafa6c461d2436609f164c28c17d7cf64":[2,0,1,3,0,2,7,84],
+"d6/db0/sv__ctf_8qh.html#ab0a00cc36df64f12a5a0e1ed757258da":[2,0,1,3,0,2,7,29],
+"d6/db0/sv__ctf_8qh.html#ab27c8972c8950012314b0e2f1f1e6c4e":[2,0,1,3,0,2,7,87],
+"d6/db0/sv__ctf_8qh.html#ab3c471fa541d4eb4729dfe400467558c":[2,0,1,3,0,2,7,33]
 };

@@ -1,8 +1,5 @@
 var NAVTREEINDEX95 =
 {
-"da/dd1/classCaptureTheFlag.html#af1a6db9207b7000984864c8176081b52":[1,0,15,13],
-"da/dd1/classCaptureTheFlag.html#af2dbc193e6456856e3745b3cb47500bb":[1,0,15,21],
-"da/dd1/classCaptureTheFlag.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,15,5],
 "da/dd4/effectinfo__onslaught_8inc.html":[2,0,1,2,18],
 "da/dd4/effectinfo__onslaught_8inc.html#a14b4a86f4eded9aa2eeeda854eb487aa":[2,0,1,2,18,0],
 "da/dd4/effectinfo__onslaught_8inc.html#a4e5a6caa9b19fed08ede67c0d60971e6":[2,0,1,2,18,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX95 =
 "da/df9/classMortar.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,82,7],
 "da/df9/classMortar.html#ac8cc264904ced76dc80b4e28deaef3fc":[1,0,82,28],
 "da/df9/classMortar.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,82,2],
-"da/df9/classMortar.html#ad2ad3a0ab18588886161063482b892a4":[1,0,82,32]
+"da/df9/classMortar.html#ad2ad3a0ab18588886161063482b892a4":[1,0,82,32],
+"da/df9/classMortar.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,82,37],
+"da/df9/classMortar.html#ad5fa8697b6587ae95cc10ac0f09cb9a5":[1,0,82,22],
+"da/df9/classMortar.html#ae3ee5674f8d5232b46d606bff0062696":[1,0,82,26]
 };

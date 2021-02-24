@@ -1,8 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"d5/d53/classXonoticCharmap.html#a39b77a1923845447d837ff9f399e9aff":[1,0,154,42],
-"d5/d53/classXonoticCharmap.html#a3aa36c55bd87e554a583cb681e044ff9":[1,0,154,19],
-"d5/d53/classXonoticCharmap.html#a3c8bca13fc56cb4fd35bc818e17a01ca":[1,0,154,18],
 "d5/d53/classXonoticCharmap.html#a3f9c5e6943891f335099fe380661b70c":[1,0,154,20],
 "d5/d53/classXonoticCharmap.html#a44f82bb2186f56f4dea7f791b47e2952":[1,0,154,22],
 "d5/d53/classXonoticCharmap.html#a4912f74f936b88e42763ba8706b094b0":[1,0,154,13],
@@ -249,5 +246,8 @@ var NAVTREEINDEX49 =
 "d5/d73/classXonoticEffectsSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,175,24],
 "d5/d73/classXonoticEffectsSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,175,17],
 "d5/d73/classXonoticEffectsSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,175,32],
-"d5/d73/classXonoticEffectsSettingsTab.html#a34ca464e163d5b3af3b15f45fa1812aa":[1,0,175,26]
+"d5/d73/classXonoticEffectsSettingsTab.html#a34ca464e163d5b3af3b15f45fa1812aa":[1,0,175,26],
+"d5/d73/classXonoticEffectsSettingsTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,175,48],
+"d5/d73/classXonoticEffectsSettingsTab.html#a39b77a1923845447d837ff9f399e9aff":[1,0,175,86],
+"d5/d73/classXonoticEffectsSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,175,1]
 };
