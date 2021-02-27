@@ -161,15 +161,15 @@ var NAVTREEINDEX =
 "de/dc2/sv__melee__only_8qc.html#a186b55e5f37eb79c0588e2375abc4905",
 "de/de7/classXonoticHUDItemsTimeDialog.html#ae0326abf0ed1a3f8c7ef51f5b6c6d58a",
 "df/d26/classXonoticGameSettingsTab.html#a7c7e80231d41f67692ab5f902d127416",
-"df/d30/client_2main_8qc.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9",
-"df/d4c/menu_2draw_8qc.html#a9317e58388dd0f4801ecd46178a0f334",
-"df/d6e/globalsound_8qh.html#ade5a893a0df675ef05a5bd0c946b4419",
-"df/d92/classXonoticWinnerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f",
-"df/db0/powerups_8qc.html#a78f204cef91d93cf9ac79dbb2a986867",
-"df/dd4/navigation_8qh.html#a56c5d21d4b9d2174928124b78accf06a",
-"df/dee/anglestransform_8qh.html#a6eef2b5d1dcd28a89fa2ab3146011775",
-"df/dff/plasma__weapon_8qh.html#aebb212a865a997894589e58496c3e070",
-"globals_func_i.html"
+"df/d30/client_2main_8qc.html#ac6d66624aeafa1c2684b5931d82b2008",
+"df/d4c/menu_2draw_8qc.html#a9b24797c76296d5321ba125e4ee92f8e",
+"df/d6e/globalsound_8qh.html#ae2c525418d0124bca40ef3c1528d3eed",
+"df/d92/classXonoticWinnerDialog.html#a3f9c5e6943891f335099fe380661b70c",
+"df/db0/powerups_8qc.html#ab99c330670c0816cee4ac2f8039553b3",
+"df/dd4/navigation_8qh.html#a572b0bc972dcfa6dbc86487126bce8d2",
+"df/dee/anglestransform_8qh.html#a7306b623ecb07a5c62ec3d5b3094e1b7",
+"df/dff/plasma__weapon_8qh_source.html",
+"globals_func_j.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

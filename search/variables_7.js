@@ -144,7 +144,6 @@ var searchData=
   ['gettime_5frealtime',['GETTIME_REALTIME',['../d4/d0c/csprogsdefs_8qc.html#a790f9b756adcb168150096db39c4dcf9',1,'GETTIME_REALTIME():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#a790f9b756adcb168150096db39c4dcf9',1,'GETTIME_REALTIME():&#160;dpextensions.qc']]],
   ['gettime_5fuptime',['GETTIME_UPTIME',['../d4/d0c/csprogsdefs_8qc.html#a2708d01bea467816556d550913454e1a',1,'GETTIME_UPTIME():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#a2708d01bea467816556d550913454e1a',1,'GETTIME_UPTIME():&#160;dpextensions.qc']]],
   ['getwrappedline_5fremaining',['getWrappedLine_remaining',['../d5/df2/common_2util_8qh.html#a5f4732a3d07850ca4c4dcd2bca80c188',1,'util.qh']]],
-  ['givefrags_5frandomweapons',['GiveFrags_randomweapons',['../df/d27/sv__weaponarena__random_8qh.html#ab8170ae9b28e781d5f6918e851aeda70',1,'sv_weaponarena_random.qh']]],
   ['glow_5fcolor',['glow_color',['../de/d5e/dpextensions_8qc.html#a88efd37c1b7d13d590869fa184d9a54f',1,'dpextensions.qc']]],
   ['glow_5fsize',['glow_size',['../de/d5e/dpextensions_8qc.html#a62a082fc5fbd80789d076820a403d7d7',1,'dpextensions.qc']]],
   ['glow_5ftrail',['glow_trail',['../de/d5e/dpextensions_8qc.html#a824bc77937acef6e86ae022e4ad44bbb',1,'dpextensions.qc']]],

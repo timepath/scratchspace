@@ -148,7 +148,6 @@ var NAVTREEINDEX132 =
 "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html":[2,0,5,4,115],
 "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh_source.html":[2,0,5,4,115],
 "df/d27/sv__weaponarena__random_8qh.html":[2,0,1,10,0,40,3],
-"df/d27/sv__weaponarena__random_8qh.html#ab8170ae9b28e781d5f6918e851aeda70":[2,0,1,10,0,40,3,1],
 "df/d27/sv__weaponarena__random_8qh.html#ac72bb29eb754a1f916513b1957b241e6":[2,0,1,10,0,40,3,0],
 "df/d27/sv__weaponarena__random_8qh_source.html":[2,0,1,10,0,40,3],
 "df/d28/menu_2xonotic_2button_8qc.html":[2,0,5,4,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX132 =
 "df/d30/client_2main_8qc.html#a9a0b42398a104ebdd5b99b02df23747d":[2,0,0,15,8],
 "df/d30/client_2main_8qc.html#a9b635841c31e627a3854f61176533152":[2,0,0,15,3],
 "df/d30/client_2main_8qc.html#ab1762d75cc18535fa62c519ff652e0c9":[2,0,0,15,17],
-"df/d30/client_2main_8qc.html#ac4fa75c26c2e2307b7ab7286e9f6882e":[2,0,0,15,18]
+"df/d30/client_2main_8qc.html#ac4fa75c26c2e2307b7ab7286e9f6882e":[2,0,0,15,18],
+"df/d30/client_2main_8qc.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9":[2,0,0,15,41]
 };
