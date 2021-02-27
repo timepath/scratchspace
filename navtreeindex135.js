@@ -1,5 +1,8 @@
 var NAVTREEINDEX135 =
 {
+"df/d6e/globalsound_8qh.html#ade5a893a0df675ef05a5bd0c946b4419":[2,0,1,2,0,9,24],
+"df/d6e/globalsound_8qh.html#ae2c525418d0124bca40ef3c1528d3eed":[2,0,1,2,0,9,8],
+"df/d6e/globalsound_8qh.html#aeedefbf23bafa7202fe2fac90c46b86c":[2,0,1,2,0,9,19],
 "df/d6e/globalsound_8qh.html#af82f9f032718fd74a2a63db1c527e921":[2,0,1,2,0,9,1],
 "df/d6e/globalsound_8qh.html#afc2182c6e48551ceaedd10c046d041ce":[2,0,1,2,0,9,29],
 "df/d6e/globalsound_8qh.html#afff52730d3053fc9102cec5246ee16d6":[2,0,1,2,0,9,12],
@@ -193,9 +196,9 @@ var NAVTREEINDEX135 =
 "df/d8c/cl__cmd_8qc.html#ab2acfe6a73bd0d158e3e9a62b9185725":[2,0,0,0,2,15],
 "df/d8c/cl__cmd_8qc.html#ac1a03af5c66e122f2e7ab5298a3df6f0":[2,0,0,0,2,29],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,2,20],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,2,26],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,2,23],
@@ -246,8 +249,5 @@ var NAVTREEINDEX135 =
 "df/d92/classXonoticWinnerDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,266,28],
 "df/d92/classXonoticWinnerDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,266,44],
 "df/d92/classXonoticWinnerDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,266,54],
-"df/d92/classXonoticWinnerDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,266,84],
-"df/d92/classXonoticWinnerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,266,1],
-"df/d92/classXonoticWinnerDialog.html#a3f9c5e6943891f335099fe380661b70c":[1,0,266,37],
-"df/d92/classXonoticWinnerDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,266,12]
+"df/d92/classXonoticWinnerDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,266,84]
 };

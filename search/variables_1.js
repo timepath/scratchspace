@@ -1529,7 +1529,7 @@ var searchData=
   ['autocvar_5fhud_5fshownames',['autocvar_hud_shownames',['../d8/dd7/shownames_8qh.html#a04d080657728feff7a5639ce39553e24',1,'shownames.qh']]],
   ['autocvar_5fhud_5fshownames_5falpha',['autocvar_hud_shownames_alpha',['../d8/dd7/shownames_8qh.html#a20674ad8f4c953ed805743cdf36b521a',1,'shownames.qh']]],
   ['autocvar_5fhud_5fshownames_5fantioverlap',['autocvar_hud_shownames_antioverlap',['../d8/dd7/shownames_8qh.html#ab8220bfa9cd471157bce4d9a5d0ba95f',1,'shownames.qh']]],
-  ['autocvar_5fhud_5fshownames_5fantioverlap_5fdistance',['autocvar_hud_shownames_antioverlap_distance',['../d8/dd7/shownames_8qh.html#a013c0d469bcbdb5261aed1288d36bcb1',1,'shownames.qh']]],
+  ['autocvar_5fhud_5fshownames_5fantioverlap_5fminalpha',['autocvar_hud_shownames_antioverlap_minalpha',['../d8/dd7/shownames_8qh.html#af35687a1c7f1e0dfebb3abb08326fb48',1,'shownames.qh']]],
   ['autocvar_5fhud_5fshownames_5faspect',['autocvar_hud_shownames_aspect',['../d8/dd7/shownames_8qh.html#ae5ec9b211167a301ce2d8d9c4df39679',1,'shownames.qh']]],
   ['autocvar_5fhud_5fshownames_5fcrosshairdistance',['autocvar_hud_shownames_crosshairdistance',['../d8/dd7/shownames_8qh.html#a2d1f2d1c5638c4301f6f8018ea826668',1,'shownames.qh']]],
   ['autocvar_5fhud_5fshownames_5fcrosshairdistance_5fantioverlap',['autocvar_hud_shownames_crosshairdistance_antioverlap',['../d8/dd7/shownames_8qh.html#a71336052458699e5ac34c53f154d9cd8',1,'shownames.qh']]],

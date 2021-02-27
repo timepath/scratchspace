@@ -6,7 +6,7 @@ var shownames_8qh =
     [ "autocvar_hud_shownames", "d8/dd7/shownames_8qh.html#a04d080657728feff7a5639ce39553e24", null ],
     [ "autocvar_hud_shownames_alpha", "d8/dd7/shownames_8qh.html#a20674ad8f4c953ed805743cdf36b521a", null ],
     [ "autocvar_hud_shownames_antioverlap", "d8/dd7/shownames_8qh.html#ab8220bfa9cd471157bce4d9a5d0ba95f", null ],
-    [ "autocvar_hud_shownames_antioverlap_distance", "d8/dd7/shownames_8qh.html#a013c0d469bcbdb5261aed1288d36bcb1", null ],
+    [ "autocvar_hud_shownames_antioverlap_minalpha", "d8/dd7/shownames_8qh.html#af35687a1c7f1e0dfebb3abb08326fb48", null ],
     [ "autocvar_hud_shownames_aspect", "d8/dd7/shownames_8qh.html#ae5ec9b211167a301ce2d8d9c4df39679", null ],
     [ "autocvar_hud_shownames_crosshairdistance", "d8/dd7/shownames_8qh.html#a2d1f2d1c5638c4301f6f8018ea826668", null ],
     [ "autocvar_hud_shownames_crosshairdistance_antioverlap", "d8/dd7/shownames_8qh.html#a71336052458699e5ac34c53f154d9cd8", null ],

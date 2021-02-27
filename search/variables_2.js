@@ -228,6 +228,8 @@ var searchData=
   ['bots_5fwould_5fleave',['bots_would_leave',['../db/d15/api_8qh.html#ab812a1a663987e82ecf7746459ea2857',1,'api.qh']]],
   ['bouncefactor',['bouncefactor',['../de/d5e/dpextensions_8qc.html#a93eabe108d0436836929d3ad1447f6e7',1,'dpextensions.qc']]],
   ['bouncestop',['bouncestop',['../de/d5e/dpextensions_8qc.html#af5c9c18e370cd04b30c4d029785d736a',1,'dpextensions.qc']]],
+  ['box_5fofs',['box_ofs',['../d7/d39/shownames_8qc.html#ab483b32dac894833e387330047d1b37b',1,'shownames.qc']]],
+  ['box_5forg',['box_org',['../d7/d39/shownames_8qc.html#abc53e3aaebd607ce93c2fe3a982822d2',1,'shownames.qc']]],
   ['breakable_5findicate_5fdamage',['BREAKABLE_INDICATE_DAMAGE',['../df/df2/breakable_8qh.html#a64c6cf073f0eb736d4507be2d05b8a34',1,'breakable.qh']]],
   ['breakable_5fnodamage',['BREAKABLE_NODAMAGE',['../df/df2/breakable_8qh.html#a16eaf5a9935b4f4c3885f932e10680f9',1,'breakable.qh']]],
   ['buff_5factive',['buff_active',['../d8/dd8/sv__buffs_8qh.html#a68e2f63b038b36d103465d6e4d8b9f0c',1,'sv_buffs.qh']]],
