@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"d9/d12/models_2all_8inc.html#a6de285c1b280137dc10abc6f06b9820c":[2,0,1,8,2,47],
 "d9/d12/models_2all_8inc.html#a7022f3bea01ff5c8b51f11defd5dc344":[2,0,1,8,2,131],
 "d9/d12/models_2all_8inc.html#a70748c42f3c694dba083fd789bd97f4d":[2,0,1,8,2,48],
 "d9/d12/models_2all_8inc.html#a7388217cf2c45c8563ff2d53be60c745":[2,0,1,8,2,107],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "d9/d2d/dialog__settings__game__model_8qc.html#ae3352ff05cd68a276d35c458baa79048":[2,0,5,4,140,0],
 "d9/d2d/dialog__settings__game__model_8qc_source.html":[2,0,5,4,140],
 "d9/d2e/sv__vampire_8qc.html":[2,0,1,10,0,36,2],
-"d9/d2e/sv__vampire_8qc.html#a5dc916267abb9a85b76eeaba5ece40ea":[2,0,1,10,0,36,2,1],
-"d9/d2e/sv__vampire_8qc.html#a6d31b97eb7c0efbc22a1571045dc3f5e":[2,0,1,10,0,36,2,5]
+"d9/d2e/sv__vampire_8qc.html#a5dc916267abb9a85b76eeaba5ece40ea":[2,0,1,10,0,36,2,1]
 };

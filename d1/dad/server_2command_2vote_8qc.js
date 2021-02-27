@@ -11,6 +11,7 @@ var server_2command_2vote_8qc =
     [ "Nagger_VoteChanged", "d1/dad/server_2command_2vote_8qc.html#a9c49c9479913e0acfad979107e6ee3f7", null ],
     [ "Nagger_VoteCountChanged", "d1/dad/server_2command_2vote_8qc.html#a8877f3141a92ab947b3801df066ce3bb", null ],
     [ "OriginalCallerName", "d1/dad/server_2command_2vote_8qc.html#a4f3bd9f8d7a811cea72d9bcd0ab0573e", null ],
+    [ "print_available_commands_to", "d1/dad/server_2command_2vote_8qc.html#a565b42d3ad4c10c2b347cbce285283f7", null ],
     [ "ReadyCount", "d1/dad/server_2command_2vote_8qc.html#a11f792d86f16e821bb9f127715f2234e", null ],
     [ "ReadyRestart", "d1/dad/server_2command_2vote_8qc.html#a033dd1158883a78b40100e1dd268815c", null ],
     [ "ReadyRestart_force", "d1/dad/server_2command_2vote_8qc.html#a6b7b78c23e6cfd78e7d1e09d1e44ed9d", null ],

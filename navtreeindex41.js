@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"d4/d5b/spawnpoint_8qc.html":[2,0,1,6,2,14],
 "d4/d5b/spawnpoint_8qc_source.html":[2,0,1,6,2,14],
 "d4/d5b/test_8qh.html":[2,0,4,62],
 "d4/d5b/test_8qh.html#a067c02ccaf3171d6e1781cd0f8cdcf74":[2,0,4,62,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "d4/d67/classXonoticScreenshotImage.html#a0e80097a7072207815be5407637b0159":[1,0,240,32],
 "d4/d67/classXonoticScreenshotImage.html#a14a70e4aca7423cedef3601c877a74bb":[1,0,240,35],
 "d4/d67/classXonoticScreenshotImage.html#a17ad45daebe710a3c8bd4bea33facf3d":[1,0,240,50],
-"d4/d67/classXonoticScreenshotImage.html#a274e76de3a4635abeacd9ec6959d7a63":[1,0,240,17],
-"d4/d67/classXonoticScreenshotImage.html#a280ae0d20bfef08fecaea7b49d98a3c5":[1,0,240,44]
+"d4/d67/classXonoticScreenshotImage.html#a274e76de3a4635abeacd9ec6959d7a63":[1,0,240,17]
 };

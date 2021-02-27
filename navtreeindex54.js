@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"d6/d02/raptor_8qc.html":[2,0,1,15,0,10],
 "d6/d02/raptor_8qc_source.html":[2,0,1,15,0,10],
 "d6/d07/dialog__settings__video_8qc.html":[2,0,5,4,160],
 "d6/d07/dialog__settings__video_8qc.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,160,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d11/progsdefs_8qc.html#ae16641e20bc158d9d22c0e7505d5c284":[2,0,2,0,4,79],
 "d6/d11/progsdefs_8qc.html#ae1ed0d7a6f352c7ee3ad978429822c6f":[2,0,2,0,4,144],
 "d6/d11/progsdefs_8qc.html#ae1fd5e79e9b6e649cf922e2de30da981":[2,0,2,0,4,157],
-"d6/d11/progsdefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16":[2,0,2,0,4,161],
-"d6/d11/progsdefs_8qc.html#ae2cc048dfa428ec7468167872d7f45f5":[2,0,2,0,4,121]
+"d6/d11/progsdefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16":[2,0,2,0,4,161]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"d9/d2e/sv__vampire_8qc.html#a6d31b97eb7c0efbc22a1571045dc3f5e":[2,0,1,10,0,36,2,5],
 "d9/d2e/sv__vampire_8qc.html#a7160519b109392fa7d61feab5af5bae9":[2,0,1,10,0,36,2,4],
 "d9/d2e/sv__vampire_8qc.html#a82fb2823eb40ca05c74f50b398851a74":[2,0,1,10,0,36,2,0],
 "d9/d2e/sv__vampire_8qc.html#abd4046273a862b54df508611dd67d312":[2,0,1,10,0,36,2,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "d9/d4f/deathtypes_2all_8qh.html#a5d776d28500a9006a4a7dd9da293f557":[2,0,1,1,4,14],
 "d9/d4f/deathtypes_2all_8qh.html#a5e0317d3d6616fc59446bd8400a011cd":[2,0,1,1,4,15],
 "d9/d4f/deathtypes_2all_8qh.html#a711c18b27d2eef6958316442f830587d":[2,0,1,1,4,17],
-"d9/d4f/deathtypes_2all_8qh.html#a857d601569050fa242aaa911e18746ac":[2,0,1,1,4,13],
-"d9/d4f/deathtypes_2all_8qh.html#a86e2dd2f96cc63d9835d9e496dbc67af":[2,0,1,1,4,3]
+"d9/d4f/deathtypes_2all_8qh.html#a857d601569050fa242aaa911e18746ac":[2,0,1,1,4,13]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX104 =
 {
+"db/d93/cl__minigames__hud_8qh.html#a4b86f86d9415fc9059ee3b2c0b977172":[2,0,1,7,6,3],
 "db/d93/cl__minigames__hud_8qh.html#a99e723ab8b6ed89a42df35b13fc1681a":[2,0,1,7,6,2],
 "db/d93/cl__minigames__hud_8qh.html#aa7c51e568bb464476b384a5c725b048a":[2,0,1,7,6,4],
 "db/d93/cl__minigames__hud_8qh.html#ac4b5b084e2ab882cddcd934fa216f94b":[2,0,1,7,6,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX104 =
 "db/db1/classXonoticHUDRaceTimerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,200,2],
 "db/db1/classXonoticHUDRaceTimerDialog.html#af9ed10146aeca307fa96027ecb5d8852":[1,0,200,67],
 "db/db1/classXonoticHUDRaceTimerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,200,35],
-"db/db1/classXonoticHUDRaceTimerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,200,39],
-"db/db4/classTextSlider.html":[1,0,135]
+"db/db1/classXonoticHUDRaceTimerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,200,39]
 };

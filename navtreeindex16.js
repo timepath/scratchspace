@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"d1/dec/classInputBox.html#a782e2a78bb7050099cb1176d4ad291dd":[1,0,54,10],
 "d1/dec/classInputBox.html#a7a8f70d37b46f9def6024c413eb67071":[1,0,54,25],
 "d1/dec/classInputBox.html#a7ba277f3c886c7d391915d273fede63c":[1,0,54,56],
 "d1/dec/classInputBox.html#a7bb2a954e9f1b5f40f74a3939e3fa8e3":[1,0,54,18],
@@ -73,13 +74,13 @@ var NAVTREEINDEX16 =
 "d2/d02/menu_2anim_2__mod_8inc.html":[2,0,5,0,0],
 "d2/d02/menu_2anim_2__mod_8inc_source.html":[2,0,5,0,0],
 "d2/d06/server_2command_2common_8qh.html":[2,0,6,1,7],
+"d2/d06/server_2command_2common_8qh.html#a01792b21ad3dddcbbe4da0a5dff510ae":[2,0,6,1,7,10],
 "d2/d06/server_2command_2common_8qh.html#a043d88ddb6fb881e432fab34924ca366":[2,0,6,1,7,25],
 "d2/d06/server_2command_2common_8qh.html#a08439d36bca77e7d9d273d6fcc1048ad":[2,0,6,1,7,51],
 "d2/d06/server_2command_2common_8qh.html#a0d277ff18a74fdb59d4d0f90725f7b86":[2,0,6,1,7,18],
 "d2/d06/server_2command_2common_8qh.html#a0f6cca326c712137b206f943a0024623":[2,0,6,1,7,24],
 "d2/d06/server_2command_2common_8qh.html#a14710d8a7f645ccb96a379a586bb28e0":[2,0,6,1,7,69],
 "d2/d06/server_2command_2common_8qh.html#a1a4e8595b2dd4d549d0b079dc407e769":[2,0,6,1,7,27],
-"d2/d06/server_2command_2common_8qh.html#a1f2a4cba23d0abffee6d50134747c858":[2,0,6,1,7,10],
 "d2/d06/server_2command_2common_8qh.html#a20f5d69817f30434adc433c8ca685067":[2,0,6,1,7,67],
 "d2/d06/server_2command_2common_8qh.html#a239726c53a65d7ecb8804925efd2b681":[2,0,6,1,7,46],
 "d2/d06/server_2command_2common_8qh.html#a2410c27a65470680d77460910c5b995b":[2,0,6,1,7,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "d2/d1c/weapons_2weapon_8qh.html#a7444bff240ad3f518a5cc595e9bc8d15":[2,0,1,16,13,12],
 "d2/d1c/weapons_2weapon_8qh.html#a79fb53e58c432f7bb94bc2e881f4c2b6":[2,0,1,16,13,16],
 "d2/d1c/weapons_2weapon_8qh.html#a7c53b11150898162637b85ea4aa29442":[2,0,1,16,13,21],
-"d2/d1c/weapons_2weapon_8qh.html#a823fa59ed5af69da8b4af13e01ee203c":[2,0,1,16,13,41],
-"d2/d1c/weapons_2weapon_8qh.html#a8291d5f4c89b48b838806f5f916d137e":[2,0,1,16,13,32]
+"d2/d1c/weapons_2weapon_8qh.html#a823fa59ed5af69da8b4af13e01ee203c":[2,0,1,16,13,41]
 };

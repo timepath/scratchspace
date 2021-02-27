@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"da/d2c/sv__keyhunt_8qc.html#a30b7c67b8d46ae780725e7bd1236b269":[2,0,1,3,0,10,6,29],
 "da/d2c/sv__keyhunt_8qc.html#a3195fb7f198ff78955159887597a2a3b":[2,0,1,3,0,10,6,22],
 "da/d2c/sv__keyhunt_8qc.html#a341c7730f7eee35217a73de3368af627":[2,0,1,3,0,10,6,52],
 "da/d2c/sv__keyhunt_8qc.html#a35f1411f3f4cff4983629a0ca1b3c122":[2,0,1,3,0,10,6,63],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "da/d4e/sv__monsters_8qc.html#a52a3f358a145b5528cc020a163b94679":[2,0,1,9,6,11],
 "da/d4e/sv__monsters_8qc.html#a5b8136f283fe1202d72b0d21f4d542d0":[2,0,1,9,6,30],
 "da/d4e/sv__monsters_8qc.html#a5d5092804b9a6377cc7092ac9b967c52":[2,0,1,9,6,25],
-"da/d4e/sv__monsters_8qc.html#a5e3c857e323d0afe657b7a8f63380149":[2,0,1,9,6,53],
-"da/d4e/sv__monsters_8qc.html#a64003301dcc44254935df433ea236780":[2,0,1,9,6,15]
+"da/d4e/sv__monsters_8qc.html#a5e3c857e323d0afe657b7a8f63380149":[2,0,1,9,6,53]
 };

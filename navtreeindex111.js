@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"dc/d53/sv__cloaked_8qh.html":[2,0,1,10,0,5,3],
 "dc/d53/sv__cloaked_8qh_source.html":[2,0,1,10,0,5,3],
 "dc/d54/sv__vampirehook_8qh.html":[2,0,1,10,0,37,3],
 "dc/d54/sv__vampirehook_8qh_source.html":[2,0,1,10,0,37,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "dc/d90/hud__config_8qc.html#ab5e7e895d0f21c2dcc213d9ef2042330":[2,0,0,1,7,22],
 "dc/d90/hud__config_8qc.html#abbf6988934c32970ae4faf465defcc5b":[2,0,0,1,7,15],
 "dc/d90/hud__config_8qc.html#ac4325f87797d58b1c1e4b23d81945214":[2,0,0,1,7,8],
-"dc/d90/hud__config_8qc.html#ad2feee5f3269c7a6f0af7c0c6af538aa":[2,0,0,1,7,4],
-"dc/d90/hud__config_8qc.html#ae29c852a6ba5dae17c3f9b2a1ec09804":[2,0,0,1,7,21]
+"dc/d90/hud__config_8qc.html#ad2feee5f3269c7a6f0af7c0c6af538aa":[2,0,0,1,7,4]
 };
