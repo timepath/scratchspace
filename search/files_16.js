@@ -10,16 +10,12 @@ var searchData=
   ['vehicles_2eqh',['vehicles.qh',['../d9/da1/vehicles_8qh.html',1,'']]],
   ['view_2eqc',['view.qc',['../d6/dd3/view_8qc.html',1,'']]],
   ['view_2eqh',['view.qh',['../d5/d8c/view_8qh.html',1,'']]],
-  ['viewloc_2eqc',['viewloc.qc',['../d2/d81/mapobjects_2trigger_2viewloc_8qc.html',1,'']]],
-  ['viewloc_2eqc',['viewloc.qc',['../d8/d6d/viewloc_8qc.html',1,'']]],
-  ['viewloc_2eqh',['viewloc.qh',['../dd/d0b/mapobjects_2trigger_2viewloc_8qh.html',1,'']]],
-  ['viewloc_2eqh',['viewloc.qh',['../db/d53/viewloc_8qh.html',1,'']]],
+  ['viewloc_2eqc',['viewloc.qc',['../d2/d81/mapobjects_2trigger_2viewloc_8qc.html',1,'(Global Namespace)'],['../d8/d6d/viewloc_8qc.html',1,'(Global Namespace)']]],
+  ['viewloc_2eqh',['viewloc.qh',['../dd/d0b/mapobjects_2trigger_2viewloc_8qh.html',1,'(Global Namespace)'],['../db/d53/viewloc_8qh.html',1,'(Global Namespace)']]],
   ['voicescript_2eqc',['voicescript.qc',['../da/dc5/voicescript_8qc.html',1,'']]],
   ['voicescript_2eqh',['voicescript.qh',['../d4/dde/voicescript_8qh.html',1,'']]],
   ['vortex_2eqc',['vortex.qc',['../dc/def/vortex_8qc.html',1,'']]],
   ['vortex_2eqh',['vortex.qh',['../d5/daa/vortex_8qh.html',1,'']]],
-  ['vote_2eqc',['vote.qc',['../df/d1f/client_2hud_2panel_2vote_8qc.html',1,'']]],
-  ['vote_2eqc',['vote.qc',['../d1/dad/server_2command_2vote_8qc.html',1,'']]],
-  ['vote_2eqh',['vote.qh',['../d7/d16/server_2command_2vote_8qh.html',1,'']]],
-  ['vote_2eqh',['vote.qh',['../d9/d28/client_2hud_2panel_2vote_8qh.html',1,'']]]
+  ['vote_2eqc',['vote.qc',['../df/d1f/client_2hud_2panel_2vote_8qc.html',1,'(Global Namespace)'],['../d1/dad/server_2command_2vote_8qc.html',1,'(Global Namespace)']]],
+  ['vote_2eqh',['vote.qh',['../d9/d28/client_2hud_2panel_2vote_8qh.html',1,'(Global Namespace)'],['../d7/d16/server_2command_2vote_8qh.html',1,'(Global Namespace)']]]
 ];

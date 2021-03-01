@@ -1,8 +1,10 @@
 var classPlayer =
 [
-    [ "Player", "d2/d4b/classPlayer.html#affe0cc3cb714f6deb4e62f0c0d3f1fd8", null ],
-    [ "~Player", "d2/d4b/classPlayer.html#a749d2c00e1fe0f5c2746f7505a58c062", null ],
-    [ "m_unwind", "d2/d4b/classPlayer.html#ae355958a385e61face4d5c090fd1b4ec", null ],
+    [ "Player ::~ Player", "d2/d4b/classPlayer.html#ae8af779c77bfbce4d2e0179ceb0c5c19", null ],
+    [ "Client ::Client", "d2/d4b/classPlayer.html#a81c8affa5cf714aae1e9ac248daa581d", null ],
+    [ "Client ::Client", "d2/d4b/classPlayer.html#a74a723642d9e08b6d0da8bf90aecc0c3", null ],
+    [ "Client ::m_unwind", "d2/d4b/classPlayer.html#acd617416b370b68f8d0fb87e1fccd7ca", null ],
+    [ "Player ::Player", "d2/d4b/classPlayer.html#a64c57ff1bcc3c3c2b27d1cc67afe8ccc", null ],
     [ "STATIC_METHOD", "d2/d4b/classPlayer.html#a348fa10d11efdf527c16c2c6e1a018f1", null ],
     [ "STATIC_METHOD", "d2/d4b/classPlayer.html#acae2b38889ee923ef5cab012e05aaac5", null ],
     [ "accuracy", "d2/d4b/classPlayer.html#a7c8df93f8d890fe9c559215401df85e3", null ],

@@ -1,60 +1,58 @@
 <map id="havocbot_movetogoal" name="havocbot_movetogoal">
-<area shape="rect" id="node2" href="$df/dc9/aim_8qc.html#aecfef2eda1200592801a4613a7318266" title="bot_aimdir" alt="" coords="284,1131,375,1157"/>
-<area shape="rect" id="node3" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="783,649,846,676"/>
-<area shape="rect" id="node4" href="$d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88" title="cos" alt="" coords="561,1283,605,1309"/>
-<area shape="rect" id="node6" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="558,1232,609,1259"/>
-<area shape="rect" id="node7" href="$d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4" title="normalize" alt="" coords="772,1131,857,1157"/>
-<area shape="rect" id="node8" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="547,1739,619,1765"/>
-<area shape="rect" id="node10" href="$d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c" title="vectoangles" alt="" coords="534,624,633,651"/>
-<area shape="rect" id="node11" href="$da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9" title="vector" alt="" coords="1023,663,1086,689"/>
-<area shape="rect" id="node12" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="791,1384,839,1411"/>
-<area shape="rect" id="node13" href="$de/dcb/vector_8qh.html#a9d1cd3b60eb67f1ec2a17fc2022e4276" title="requires that m2&gt;m1 in all coordinates, and that m4&gt;m3 " alt="" coords="1001,2093,1108,2120"/>
-<area shape="rect" id="node14" href="$d4/d0c/csprogsdefs_8qc.html#a94c5b969ccc333b040b402d69d3338a2" title="checkpvs" alt="" coords="543,219,624,245"/>
-<area shape="rect" id="node15" href="$d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411" title="client_hasweapon" alt="" coords="262,2239,397,2265"/>
-<area shape="rect" id="node16" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="563,2144,603,2171"/>
-<area shape="rect" id="node24" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="785,1941,844,1968"/>
-<area shape="rect" id="node25" href="$d1/d9a/navigation_8qc.html#aaf2e6c6ef36f70025f39c74a8e2ab08d" title="debuggoalstack" alt="" coords="522,1840,645,1867"/>
-<area shape="rect" id="node26" href="$d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b" title="fabs" alt="" coords="559,675,608,701"/>
-<area shape="rect" id="node27" href="$db/d15/api_8qh.html#a80b4f8901c6e6f1d5c0e6d22d8965144" title="get_closer_dest" alt="" coords="522,776,645,803"/>
-<area shape="rect" id="node28" href="$d8/d06/client_2resources_8qc.html#a53ec0a3c5a395e2b64d468c08f49b63f" title="Returns the current amount of resource the given entity has. " alt="" coords="278,2340,381,2367"/>
-<area shape="rect" id="node29" href="$d2/de9/havocbot_8qc.html#ad398cf25c27eba34a4f129874e6851b9" title="havocbot_bunnyhop" alt="" coords="254,776,405,803"/>
-<area shape="rect" id="node30" href="$d2/de9/havocbot_8qc.html#ae58bdef1fc448e16e330b2587afb0ba9" title="havocbot_checkgoaldistance" alt="" coords="226,1232,433,1259"/>
-<area shape="rect" id="node31" href="$d2/de9/havocbot_8qc.html#a8ed5fd4e5d6f286c17a895c7d269c607" title="havocbot_dodge" alt="" coords="519,1536,647,1563"/>
-<area shape="rect" id="node33" href="$d2/de9/havocbot_8qc.html#a6942c73e794b5ae39ea6211ae7f22d0f" title="havocbot_keyboard_movement" alt="" coords="217,1587,441,1613"/>
-<area shape="rect" id="node34" href="$d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df" title="min" alt="" coords="560,1637,607,1664"/>
-<area shape="rect" id="node35" href="$d2/de9/havocbot_8qc.html#a07d345aa14ff656b3ef0c24301ec6efe" title="havocbot_select_an\l_item_of_group" alt="" coords="255,1959,404,2001"/>
-<area shape="rect" id="node36" href="$dd/dea/items_2spawning_8qc.html#a74c05dd595595612bcb3f2b9450e7591" title="Returns whether the item is loot. " alt="" coords="281,2391,377,2417"/>
-<area shape="rect" id="node37" href="$d1/d9a/navigation_8qc.html#aa51b44c16bb8770ff694c1a9f30cd28e" title="navigation_clearroute" alt="" coords="249,2441,409,2468"/>
-<area shape="rect" id="node38" href="$db/d15/api_8qh.html#a3aeb7b8d02c2e26723b3a64736abc3ba" title="navigation_goalrating\l_timeout_can_be_anticipated" alt="" coords="224,45,435,86"/>
-<area shape="rect" id="node40" href="$db/d15/api_8qh.html#ab5ecf1417a2c982fe294c52d7d1f9fad" title="navigation_goalrating\l_timeout_expire" alt="" coords="250,2493,409,2534"/>
-<area shape="rect" id="node41" href="$db/d15/api_8qh.html#a2bddda1e5dde114cb54229e3cc64add6" title="navigation_goalrating\l_timeout_force" alt="" coords="250,2558,409,2599"/>
-<area shape="rect" id="node42" href="$d1/d9a/navigation_8qc.html#ae41deddbc4a1c08f536f3a8667d67873" title="navigation_poptouchedgoals" alt="" coords="227,1891,432,1917"/>
-<area shape="rect" id="node44" href="$d1/d9a/navigation_8qc.html#ac01256d836368157d941247266f21500" title="navigation_pushroute" alt="" coords="503,168,663,195"/>
-<area shape="rect" id="node45" href="$d1/d9a/navigation_8qc.html#a5aa6eb502121452578dc1d1f40b577c3" title="navigation_routetogoal" alt="" coords="245,313,414,340"/>
-<area shape="rect" id="node52" href="$d1/d9a/navigation_8qc.html#ac476b01058b1d5d6bdef5b331eab6322" title="navigation_shortenpath" alt="" coords="243,580,416,607"/>
-<area shape="rect" id="node53" href="$de/dcb/vector_8qh.html#a4879a19044d92b6d633937c212bea0ee" title="point_line_vec" alt="" coords="273,1029,385,1056"/>
-<area shape="rect" id="node54" href="$db/d15/api_8qh.html#a5ef356beaaf94d7aec6bdb2a28278636" title="set_tracewalk_dest" alt="" coords="511,421,655,448"/>
-<area shape="rect" id="node55" href="$db/d15/api_8qh.html#a6fd9d052d1e171ea3729410e8c98c218" title="tracewalk" alt="" coords="288,2624,371,2651"/>
-<area shape="rect" id="node56" href="$d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2" title="vtos" alt="" coords="305,2675,354,2701"/>
-<area shape="rect" id="node57" href="$d7/dc4/waypoints_8qc.html#a3e3118a8a5201507f607f7d1025d6bec" title="waypoint_is_hardwiredlink" alt="" coords="491,2195,676,2221"/>
-<area shape="rect" id="node5" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="558,1080,609,1107"/>
-<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0" title="randomvec" alt="" coords="536,1029,631,1056"/>
-<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f" title="sprint" alt="" coords="554,2397,613,2424"/>
-<area shape="rect" id="node18" href="$d2/d1c/weapons_2weapon_8qh.html#ac3cbbc1f9884e78a2816ff88760748d5" title="weaponslot" alt="" coords="536,2448,631,2475"/>
-<area shape="rect" id="node19" href="$dc/de5/classWeapon.html#ab1963e9f2e85c7c11304531a7a8e4313" title="(SERVER) checks ammo for weapon primary " alt="" coords="489,2499,677,2525"/>
-<area shape="rect" id="node20" href="$dc/de5/classWeapon.html#a8adc0f68d514782dc8fe0a1d5af3b310" title="(SERVER) checks ammo for weapon second " alt="" coords="489,2296,677,2323"/>
-<area shape="rect" id="node21" href="$d2/d62/selection_8qc.html#a6f9b75f17639bb910d8445a136d4a837" title="Send_WeaponComplain" alt="" coords="497,2347,669,2373"/>
-<area shape="rect" id="node23" href="$d2/d62/selection_8qc.html#a8ebba9ca88508abccc39d23b9c40defd" title="Weapon_whereis" alt="" coords="520,2245,647,2272"/>
-<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="773,2347,856,2373"/>
-<area shape="rect" id="node32" href="$d8/de2/menudefs_8qc.html#a383c15fa728b566e1b925092ec618b1d" title="findchainfloat" alt="" coords="761,1536,868,1563"/>
-<area shape="rect" id="node39" href="$db/d15/api_8qh.html#a03a514f72d64cab07a07c86c2323ef6e" title="havocbot_goalrating\l_item_pickable_check\l_players" alt="" coords="503,37,664,93"/>
-<area shape="rect" id="node43" href="$d1/d9a/navigation_8qc.html#a857667e3adb2f0521d53fd1e85cc2a80" title="navigation_poproute" alt="" coords="507,1688,660,1715"/>
-<area shape="rect" id="node46" href="$d1/d9a/navigation_8qc.html#a5ef356beaaf94d7aec6bdb2a28278636" title="set_tracewalk_dest" alt="" coords="511,269,655,296"/>
-<area shape="rect" id="node47" href="$d1/d9a/navigation_8qc.html#a6fd9d052d1e171ea3729410e8c98c218" title="tracewalk" alt="" coords="542,320,625,347"/>
-<area shape="rect" id="node48" href="$d1/d9a/navigation_8qc.html#af6010fb90061dda5f6b7b7fe8e172489" title="debugresetnodes" alt="" coords="747,371,882,397"/>
-<area shape="rect" id="node49" href="$d1/d9a/navigation_8qc.html#a41ae5feccac6ff531c3b366fe44df8d5" title="debugnode" alt="" coords="767,421,862,448"/>
-<area shape="rect" id="node50" href="$d1/d9a/navigation_8qc.html#a1008dfeec8545242207e62e31e2614d6" title="debugnodestatus" alt="" coords="747,320,882,347"/>
-<area shape="rect" id="node51" href="$d1/d9a/navigation_8qc.html#a192461c81eb818e892d49f59b92bc144" title="navigation_checkladders" alt="" coords="725,548,904,575"/>
-<area shape="rect" id="node58" href="$d7/dc4/waypoints_8qc.html#abb264e1745062ac2ad6d46a0b8c5e6c9" title="waypoint_setupmodel" alt="" coords="734,2169,895,2196"/>
-<area shape="rect" id="node59" href="$d7/dc4/waypoints_8qc.html#a1cfdf949451a5dac6113a8d2e4b272c3" title="waypoint_has_hardwiredlinks" alt="" coords="952,2169,1157,2196"/>
+<area shape="rect" id="node2" href="$df/dc9/aim_8qc.html#aecfef2eda1200592801a4613a7318266" title="bot_aimdir" alt="" coords="288,1209,380,1235"/>
+<area shape="rect" id="node3" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="801,499,863,526"/>
+<area shape="rect" id="node4" href="$d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88" title="cos" alt="" coords="572,1361,616,1387"/>
+<area shape="rect" id="node6" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="569,1310,619,1337"/>
+<area shape="rect" id="node7" href="$d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4" title="normalize" alt="" coords="789,601,875,627"/>
+<area shape="rect" id="node8" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="558,1715,630,1742"/>
+<area shape="rect" id="node10" href="$d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c" title="vectoangles" alt="" coords="543,753,645,779"/>
+<area shape="rect" id="node11" href="$da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9" title="vector" alt="" coords="1048,727,1111,754"/>
+<area shape="rect" id="node12" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="807,1462,857,1489"/>
+<area shape="rect" id="node13" href="$de/dcb/vector_8qh.html#a9d1cd3b60eb67f1ec2a17fc2022e4276" title="requires that m2&gt;m1 in all coordinates, and that m4&gt;m3 " alt="" coords="1024,1943,1135,1970"/>
+<area shape="rect" id="node14" href="$d4/d0c/csprogsdefs_8qc.html#a94c5b969ccc333b040b402d69d3338a2" title="checkpvs" alt="" coords="553,297,635,323"/>
+<area shape="rect" id="node15" href="$d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411" title="client_hasweapon" alt="" coords="265,2273,403,2299"/>
+<area shape="rect" id="node16" href="$db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6" title="CS" alt="" coords="575,2171,613,2198"/>
+<area shape="rect" id="node22" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="802,2019,862,2046"/>
+<area shape="rect" id="node23" href="$d1/d9a/navigation_8qc.html#aaf2e6c6ef36f70025f39c74a8e2ab08d" title="debuggoalstack" alt="" coords="531,1969,657,1995"/>
+<area shape="rect" id="node24" href="$d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b" title="fabs" alt="" coords="569,905,619,931"/>
+<area shape="rect" id="node25" href="$db/d15/api_8qh.html#a80b4f8901c6e6f1d5c0e6d22d8965144" title="get_closer_dest" alt="" coords="532,246,656,273"/>
+<area shape="rect" id="node26" href="$d8/d06/client_2resources_8qc.html#a53ec0a3c5a395e2b64d468c08f49b63f" title="Returns the current amount of resource the given entity has. " alt="" coords="282,2323,386,2350"/>
+<area shape="rect" id="node27" href="$d2/de9/havocbot_8qc.html#ad398cf25c27eba34a4f129874e6851b9" title="havocbot_bunnyhop" alt="" coords="257,753,411,779"/>
+<area shape="rect" id="node28" href="$d2/de9/havocbot_8qc.html#ae58bdef1fc448e16e330b2587afb0ba9" title="havocbot_checkgoaldistance" alt="" coords="229,1317,439,1343"/>
+<area shape="rect" id="node29" href="$d2/de9/havocbot_8qc.html#a8ed5fd4e5d6f286c17a895c7d269c607" title="havocbot_dodge" alt="" coords="529,1817,659,1843"/>
+<area shape="rect" id="node31" href="$d2/de9/havocbot_8qc.html#a6942c73e794b5ae39ea6211ae7f22d0f" title="havocbot_keyboard_movement" alt="" coords="220,1566,448,1593"/>
+<area shape="rect" id="node32" href="$d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df" title="min" alt="" coords="571,1766,617,1793"/>
+<area shape="rect" id="node33" href="$d2/de9/havocbot_8qc.html#a07d345aa14ff656b3ef0c24301ec6efe" title="havocbot_select_an\l_item_of_group" alt="" coords="259,2055,409,2096"/>
+<area shape="rect" id="node34" href="$dd/dea/items_2spawning_8qc.html#a74c05dd595595612bcb3f2b9450e7591" title="Returns whether the item is loot. " alt="" coords="285,2374,383,2401"/>
+<area shape="rect" id="node35" href="$d1/d9a/navigation_8qc.html#aa51b44c16bb8770ff694c1a9f30cd28e" title="navigation_clearroute" alt="" coords="252,2425,416,2451"/>
+<area shape="rect" id="node36" href="$db/d15/api_8qh.html#a3aeb7b8d02c2e26723b3a64736abc3ba" title="navigation_goalrating\l_timeout_can_be_anticipated" alt="" coords="227,123,441,164"/>
+<area shape="rect" id="node38" href="$db/d15/api_8qh.html#ab5ecf1417a2c982fe294c52d7d1f9fad" title="navigation_goalrating\l_timeout_expire" alt="" coords="252,2476,416,2517"/>
+<area shape="rect" id="node39" href="$db/d15/api_8qh.html#a2bddda1e5dde114cb54229e3cc64add6" title="navigation_goalrating\l_timeout_force" alt="" coords="252,2541,416,2583"/>
+<area shape="rect" id="node40" href="$d1/d9a/navigation_8qc.html#ae41deddbc4a1c08f536f3a8667d67873" title="navigation_poptouchedgoals" alt="" coords="229,1831,439,1858"/>
+<area shape="rect" id="node42" href="$d1/d9a/navigation_8qc.html#ac01256d836368157d941247266f21500" title="navigation_pushroute" alt="" coords="513,195,675,222"/>
+<area shape="rect" id="node43" href="$d1/d9a/navigation_8qc.html#a5aa6eb502121452578dc1d1f40b577c3" title="navigation_routetogoal" alt="" coords="247,347,421,374"/>
+<area shape="rect" id="node50" href="$d1/d9a/navigation_8qc.html#ac476b01058b1d5d6bdef5b331eab6322" title="navigation_shortenpath" alt="" coords="246,854,422,881"/>
+<area shape="rect" id="node51" href="$de/dcb/vector_8qh.html#a4879a19044d92b6d633937c212bea0ee" title="point_line_vec" alt="" coords="276,651,392,678"/>
+<area shape="rect" id="node52" href="$db/d15/api_8qh.html#a5ef356beaaf94d7aec6bdb2a28278636" title="set_tracewalk_dest" alt="" coords="520,14,668,41"/>
+<area shape="rect" id="node53" href="$db/d15/api_8qh.html#a6fd9d052d1e171ea3729410e8c98c218" title="tracewalk" alt="" coords="291,2607,377,2634"/>
+<area shape="rect" id="node54" href="$d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2" title="vtos" alt="" coords="309,2658,359,2685"/>
+<area shape="rect" id="node55" href="$d7/dc4/waypoints_8qc.html#a3e3118a8a5201507f607f7d1025d6bec" title="waypoint_is_hardwiredlink" alt="" coords="496,2222,692,2249"/>
+<area shape="rect" id="node5" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="569,1259,619,1286"/>
+<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0" title="randomvec" alt="" coords="547,1158,641,1185"/>
+<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f" title="sprint" alt="" coords="565,2425,623,2451"/>
+<area shape="rect" id="node18" href="$d2/d1c/weapons_2weapon_8qh.html#ac3cbbc1f9884e78a2816ff88760748d5" title="weaponslot" alt="" coords="545,2475,643,2502"/>
+<area shape="rect" id="node19" href="$d2/d62/selection_8qc.html#a6f9b75f17639bb910d8445a136d4a837" title="Send_WeaponComplain" alt="" coords="507,2374,681,2401"/>
+<area shape="rect" id="node21" href="$d2/d62/selection_8qc.html#a8ebba9ca88508abccc39d23b9c40defd" title="Weapon_whereis" alt="" coords="528,2273,660,2299"/>
+<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="789,2374,875,2401"/>
+<area shape="rect" id="node30" href="$d8/de2/menudefs_8qc.html#a383c15fa728b566e1b925092ec618b1d" title="findchainfloat" alt="" coords="777,1741,887,1767"/>
+<area shape="rect" id="node37" href="$db/d15/api_8qh.html#a03a514f72d64cab07a07c86c2323ef6e" title="havocbot_goalrating\l_item_pickable_check\l_players" alt="" coords="511,115,677,171"/>
+<area shape="rect" id="node41" href="$d1/d9a/navigation_8qc.html#a857667e3adb2f0521d53fd1e85cc2a80" title="navigation_poproute" alt="" coords="516,1665,672,1691"/>
+<area shape="rect" id="node44" href="$d1/d9a/navigation_8qc.html#a5ef356beaaf94d7aec6bdb2a28278636" title="set_tracewalk_dest" alt="" coords="520,449,668,475"/>
+<area shape="rect" id="node45" href="$d1/d9a/navigation_8qc.html#a6fd9d052d1e171ea3729410e8c98c218" title="tracewalk" alt="" coords="551,347,637,374"/>
+<area shape="rect" id="node46" href="$d1/d9a/navigation_8qc.html#af6010fb90061dda5f6b7b7fe8e172489" title="debugresetnodes" alt="" coords="765,398,899,425"/>
+<area shape="rect" id="node47" href="$d1/d9a/navigation_8qc.html#a41ae5feccac6ff531c3b366fe44df8d5" title="debugnode" alt="" coords="785,347,879,374"/>
+<area shape="rect" id="node48" href="$d1/d9a/navigation_8qc.html#a1008dfeec8545242207e62e31e2614d6" title="debugnodestatus" alt="" coords="765,246,899,273"/>
+<area shape="rect" id="node49" href="$d1/d9a/navigation_8qc.html#a192461c81eb818e892d49f59b92bc144" title="navigation_checkladders" alt="" coords="740,449,924,475"/>
+<area shape="rect" id="node56" href="$d7/dc4/waypoints_8qc.html#abb264e1745062ac2ad6d46a0b8c5e6c9" title="waypoint_setupmodel" alt="" coords="749,2146,915,2173"/>
+<area shape="rect" id="node57" href="$d7/dc4/waypoints_8qc.html#a1cfdf949451a5dac6113a8d2e4b272c3" title="waypoint_has_hardwiredlinks" alt="" coords="972,2146,1187,2173"/>
 </map>

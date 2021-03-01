@@ -19,7 +19,7 @@ var hud_8qh =
     [ "HUD_ShiftX", "d3/d05/hud_8qh.html#aa2bcb1156b1b03549c9a8d6bc45e97c5", null ],
     [ "HUD_ShiftY", "d3/d05/hud_8qh.html#a307c017362dc67218ed9fcce03381841", null ],
     [ "REGISTER_HUD_PANEL", "d3/d05/hud_8qh.html#a78e8d3ba81c899e248beb23d1d5165e1", null ],
-    [ "classfield", "d3/d05/hud_8qh.html#a41ac4d9d502861e4838bb8e4e54c21ac", null ],
+    [ "classfield", "d3/d05/hud_8qh.html#aea7300d20da3677050f7810e08f76e22", null ],
     [ "draw_cursor", "d3/d05/hud_8qh.html#a65d6b464164464ee7f99ceb0e0c16813", null ],
     [ "draw_cursor_normal", "d3/d05/hud_8qh.html#a17432988ef7a28b058fec9318b29fea3", null ],
     [ "DrawNumIcon", "d3/d05/hud_8qh.html#aa051beb719ad5736df867835fed60a07", null ],

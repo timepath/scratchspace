@@ -8,7 +8,7 @@ var generic_8qh =
     [ "GenericCommand_macro_help", "d7/d88/generic_8qh.html#af21b5f0914d24ba07dcd52f606b8518e", null ],
     [ "GenericCommand_macro_usage", "d7/d88/generic_8qh.html#a778874f1edcb478c0faef7b757c50554", null ],
     [ "GenericCommand_macro_write_aliases", "d7/d88/generic_8qh.html#a4949cbdd574b98248ac7c6fe9e48a096", null ],
-    [ "curl_uri_get_cvar", "d7/d88/generic_8qh.html#a39d724775165a6eed9f5a054ef603dc4", null ],
-    [ "curl_uri_get_exec", "d7/d88/generic_8qh.html#a5f8848943d5e2e9f5be637396b97fddd", null ],
+    [ "curl_uri_get_cvar", "d7/d88/generic_8qh.html#a25bae313ee31469114afed5bbe46db0b", null ],
+    [ "curl_uri_get_exec", "d7/d88/generic_8qh.html#af3f73d39a2988c5848793b262a2bd6e0", null ],
     [ "curl_uri_get_pos", "d7/d88/generic_8qh.html#ab781771d2345a4946d8ec5c19b01ec3c", null ]
 ];

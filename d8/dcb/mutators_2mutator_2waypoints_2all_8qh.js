@@ -19,6 +19,6 @@ var mutators_2mutator_2waypoints_2all_8qh =
     [ "REGISTER_RADARICON", "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a9cd8b67897502db6ffb0af84565a9698", null ],
     [ "REGISTER_RADARICON", "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a789454b5903d12bd224eda2e3a18f45c", null ],
     [ "REGISTER_RADARICON", "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#acd1023667128c7b2700ec9843069b95b", null ],
-    [ "REGISTER_WAYPOINT", "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#aee58ab3c2b2221c72bff8efa74da352a", null ],
+    [ "REGISTER_WAYPOINT", "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a5f58668d40dc761b6d4d6bd1da06f6ad", null ],
     [ "m_radaricon", "d8/dcb/mutators_2mutator_2waypoints_2all_8qh.html#a86be0f909473273bc66cdb66686ab6ff", null ]
 ];

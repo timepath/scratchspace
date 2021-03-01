@@ -9,7 +9,7 @@ var turrets_2all_8qh =
     [ "TR_PROPS", "db/d7f/turrets_2all_8qh.html#a30c61cb0bb4ef3bb1acd868a04d160ba", null ],
     [ "TR_PROPS_COMMON", "db/d7f/turrets_2all_8qh.html#ad60e5d4c8508eceba918a8d7e3f470a7", null ],
     [ "TUR_LAST", "db/d7f/turrets_2all_8qh.html#af3a4ffcd56d584a4de5f3156a6c666a3", null ],
-    [ "GENERIC_COMMAND", "db/d7f/turrets_2all_8qh.html#a76d7943982720e9f5874f657d8560fbe", null ],
+    [ "GENERIC_COMMAND", "db/d7f/turrets_2all_8qh.html#aa3c885cb56a45fbfb5057435c3212304", null ],
     [ "REGISTER_TURRET", "db/d7f/turrets_2all_8qh.html#a6cb924afac08b198770ae9bd69a5f517", null ],
     [ "TUR_FIRST", "db/d7f/turrets_2all_8qh.html#af8a1aa546131892f801ce1e4500a7bae", null ]
 ];

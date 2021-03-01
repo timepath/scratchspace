@@ -35,7 +35,7 @@ var notifications_2all_8qh =
     [ "Create_Notification_Entity_Multi", "dc/d8f/notifications_2all_8qh.html#a35cfe798defcaf81e37f8ca4a779f6f2", null ],
     [ "Destroy_All_Notifications", "dc/d8f/notifications_2all_8qh.html#ab2ba4995bd0ca717f5a1612dcea04e08", null ],
     [ "Dump_Notifications", "dc/d8f/notifications_2all_8qh.html#ae93ed72c8bc25a3db70a3dce5a8070d9", null ],
-    [ "GENERIC_COMMAND", "dc/d8f/notifications_2all_8qh.html#adea9f652e1c1b09b7ca20609da287874", null ],
+    [ "GENERIC_COMMAND", "dc/d8f/notifications_2all_8qh.html#a31c21ae848c1b88d3c17c899e0358a61", null ],
     [ "Get_Notif_CvarName", "dc/d8f/notifications_2all_8qh.html#af93df0f16e11ae81e1b913abfa5b24a7", null ],
     [ "Get_Notif_Ent", "dc/d8f/notifications_2all_8qh.html#a5880c6fc61675845e6b4159eec215879", null ],
     [ "Get_Notif_TypeName", "dc/d8f/notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb", null ],

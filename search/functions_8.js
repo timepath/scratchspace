@@ -81,9 +81,6 @@ var searchData=
   ['heal',['Heal',['../da/ded/damage_8qc.html#a20c748d061a8595dc442ff0dbcdb0768',1,'Heal(entity targ, entity inflictor, float amount, float limit):&#160;damage.qc'],['../d4/d62/damage_8qh.html#a20c748d061a8595dc442ff0dbcdb0768',1,'Heal(entity targ, entity inflictor, float amount, float limit):&#160;damage.qc']]],
   ['healtharmor_5fpickupevalfunc',['healtharmor_pickupevalfunc',['../df/d26/server_2items_2items_8qc.html#aceeca5773f18b387b19d4e2b3db84324',1,'healtharmor_pickupevalfunc(entity player, entity item):&#160;items.qc'],['../d0/d7d/server_2items_2items_8qh.html#aceeca5773f18b387b19d4e2b3db84324',1,'healtharmor_pickupevalfunc(entity player, entity item):&#160;items.qc']]],
   ['heapsort',['heapsort',['../db/def/sort_8qh.html#a819f1c3300f552419896b2c53088c05c',1,'sort.qh']]],
-  ['hideall',['hideAll',['../d6/d1a/classModalController.html#a918765695e02e3fd2b1fd9d6a97ce8b5',1,'ModalController']]],
-  ['hidechild',['hideChild',['../d6/d1a/classModalController.html#a17de24af1814ab04ff410d3321622ddb',1,'ModalController']]],
-  ['hidenotify',['hideNotify',['../d0/d7b/classContainer.html#a4c0113eb24a54cdfcc6ced0f5a268ed7',1,'Container::hideNotify()'],['../d7/dce/classMenuItem.html#a0e3ae62a1e789f9d1c4cee355a5aad49',1,'MenuItem::hideNotify()'],['../db/ddb/classXonoticCvarList.html#a8c539467e3831f5420d97206cf918cf8',1,'XonoticCvarList::hideNotify()']]],
   ['hitsound',['HitSound',['../d6/dd3/view_8qc.html#a34d0140337320f3989dc15dc846c035d',1,'view.qc']]],
   ['hsl_5fto_5frgb',['hsl_to_rgb',['../de/d11/color_8qh.html#ab4bf0e2d75127f30c63ee68b7c2cb117',1,'color.qh']]],
   ['hslimage_5fcolor',['hslimage_color',['../d6/d4c/colorpicker_8qc.html#a38dab2da0f91e1289887fec32ad6412d',1,'hslimage_color(vector v, vector margin):&#160;colorpicker.qc'],['../d8/dcc/colorpicker_8qh.html#a38dab2da0f91e1289887fec32ad6412d',1,'hslimage_color(vector v, vector margin):&#160;colorpicker.qc']]],
@@ -234,13 +231,9 @@ var searchData=
   ['hud_5fwouldshowcursor',['HUD_WouldShowCursor',['../d7/d15/hud_8qc.html#a6ec7d131e953e75f57e7f49d6ad5f44e',1,'HUD_WouldShowCursor():&#160;hud.qc'],['../d3/d05/hud_8qh.html#a6ec7d131e953e75f57e7f49d6ad5f44e',1,'HUD_WouldShowCursor():&#160;hud.qc']]],
   ['hudsetup_5fcheck_5fgamestatus',['HUDSetup_Check_Gamestatus',['../dd/da1/dialog__settings__game__hud_8qc.html#a57427e87f05e329a87ac5937269e8b60',1,'dialog_settings_game_hud.qc']]],
   ['hudsetup_5fstart',['HUDSetup_Start',['../df/d54/dialog__settings__game__hud_8qh.html#a8355ef57cfbd4b0b0a510b61df465435',1,'HUDSetup_Start(entity me, entity btn):&#160;dialog_settings_game_hudconfirm.qc'],['../d2/d02/dialog__settings__game__hudconfirm_8qc.html#a8355ef57cfbd4b0b0a510b61df465435',1,'HUDSetup_Start(entity me, entity btn):&#160;dialog_settings_game_hudconfirm.qc']]],
-  ['hudskinauthor',['hudskinAuthor',['../d5/d6c/classXonoticHUDSkinList.html#a22d8fc56e4789c681463bf8ccc482298',1,'XonoticHUDSkinList']]],
   ['hudskinlist_5ffilter_5fchange',['HUDSkinList_Filter_Change',['../da/d21/hudskinlist_8qc.html#a4c1818587158441809b721f75e7513db',1,'HUDSkinList_Filter_Change(entity box, entity me):&#160;hudskinlist.qc'],['../dd/d6d/hudskinlist_8qh.html#a4c1818587158441809b721f75e7513db',1,'HUDSkinList_Filter_Change(entity box, entity me):&#160;hudskinlist.qc']]],
   ['hudskinlist_5frefresh_5fclick',['HUDSkinList_Refresh_Click',['../da/d21/hudskinlist_8qc.html#af698d1283463851fb9e67807d6d34f7a',1,'HUDSkinList_Refresh_Click(entity btn, entity me):&#160;hudskinlist.qc'],['../dd/d6d/hudskinlist_8qh.html#af698d1283463851fb9e67807d6d34f7a',1,'HUDSkinList_Refresh_Click(entity btn, entity me):&#160;hudskinlist.qc']]],
   ['hudskinlist_5fsavedname_5fchange',['HUDSkinList_SavedName_Change',['../da/d21/hudskinlist_8qc.html#af6621274846460272cf8f5cdf082da5f',1,'HUDSkinList_SavedName_Change(entity box, entity me):&#160;hudskinlist.qc'],['../dd/d6d/hudskinlist_8qh.html#af6621274846460272cf8f5cdf082da5f',1,'HUDSkinList_SavedName_Change(entity box, entity me):&#160;hudskinlist.qc']]],
-  ['hudskinname',['hudskinName',['../d5/d6c/classXonoticHUDSkinList.html#a98ddd1d8857fa84c0f38a692953102ec',1,'XonoticHUDSkinList']]],
-  ['hudskinpath',['hudskinPath',['../d5/d6c/classXonoticHUDSkinList.html#a016e6f096a8e1ee3144f4625bab507e0',1,'XonoticHUDSkinList']]],
-  ['hudskintitle',['hudskinTitle',['../d5/d6c/classXonoticHUDSkinList.html#a1d8486745860026b8f0cfc140b9bb2a3',1,'XonoticHUDSkinList']]],
   ['hue_5fmi_5fma_5fto_5frgb',['hue_mi_ma_to_rgb',['../de/d11/color_8qh.html#ab1f4bdefce01b10ac1672dabfeb6727e',1,'color.qh']]],
   ['hypot',['hypot',['../df/d38/mathlib_8qc.html#a6c941103cab43ce14def139f7a6a8efa',1,'hypot(float e, float f):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a6c941103cab43ce14def139f7a6a8efa',1,'hypot(float e, float f):&#160;mathlib.qc']]]
 ];

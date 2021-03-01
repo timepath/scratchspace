@@ -1,7 +1,7 @@
 var classDamageText =
 [
-    [ "DamageText", "de/d0c/classDamageText.html#a051ef622598636a594c91c29d445d19c", null ],
-    [ "~DamageText", "de/d0c/classDamageText.html#a65f22853f37f14deba2d878d3dcacded", null ],
+    [ "DamageText ::~ DamageText", "de/d0c/classDamageText.html#a3534a55e566ac30ae2d7db79b0976f95", null ],
+    [ "DamageText ::DamageText", "de/d0c/classDamageText.html#a5036c64a5f209f3f1bc327afa3f5a6dc", null ],
     [ "DamageText_draw2d", "de/d0c/classDamageText.html#a1bb3fadcd65ec6a18fd5840879e003f5", null ],
     [ "DamageText_update", "de/d0c/classDamageText.html#a95a7a03c14103583821720970c1830eb", null ],
     [ "void", "de/d0c/classDamageText.html#a8d3a832a231b46109547156eaf7dd0ec", null ],

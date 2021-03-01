@@ -23,7 +23,7 @@ var weaponsystem_8qh =
     [ "weaponLocked", "da/db7/weaponsystem_8qh.html#ac7b6c8bdba2c394f8a3385c9bd992f9c", null ],
     [ "weaponUseForbidden", "da/db7/weaponsystem_8qh.html#a4774b540ac577e1898af7d257be0b390", null ],
     [ "ammo_none", "da/db7/weaponsystem_8qh.html#ae0a21a0484e5bf8b8fe8e359578f5ddc", null ],
-    [ "attack_finished_for", "da/db7/weaponsystem_8qh.html#a262822480a16bbc5d1276ccd4322f709", null ],
+    [ "attack_finished_for", "da/db7/weaponsystem_8qh.html#a6ddb9e9b5fbfc10ec00fbda3f95d60ec", null ],
     [ "attack_finished_single", "da/db7/weaponsystem_8qh.html#ad896d889c6a5568ab728f7233e86e258", null ],
     [ "autocvar_g_weapondamagefactor", "da/db7/weaponsystem_8qh.html#ab934263df0e7a88473c58ee6e9c3b6ee", null ],
     [ "autocvar_g_weaponforcefactor", "da/db7/weaponsystem_8qh.html#aae5680a96b851f8f4c44045345bca35a", null ],

@@ -1,6 +1,6 @@
 var laser_8qh =
 [
-    [ "classfield", "d7/db7/laser_8qh.html#ad10c084888a1a77ac0bdbe859abdd412", null ],
+    [ "classfield", "d7/db7/laser_8qh.html#a5effbeec72075e6731ec5247eaab3bde", null ],
     [ "entityclass", "d7/db7/laser_8qh.html#a3c4775868151ed1c0911a481b0fbfe71", null ],
     [ "beam_color", "d7/db7/laser_8qh.html#a634ca37a53b5b0cce8a9c25fc9b41e29", null ],
     [ "LASER_BEAM_MAXLENGTH", "d7/db7/laser_8qh.html#a5aa80e1892a642632505ccd0900d097d", null ],

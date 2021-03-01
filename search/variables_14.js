@@ -313,6 +313,6 @@ var searchData=
   ['typehitsound',['typehitsound',['../d4/d62/damage_8qh.html#a2b2cad71d9088357051170c08fb286a9',1,'damage.qh']]],
   ['typeiconorigin',['typeIconOrigin',['../d4/d91/classXonoticCampaignList.html#a5593ee25ae08090d67e210699fb6eb4e',1,'XonoticCampaignList']]],
   ['typeiconsize',['typeIconSize',['../d4/d91/classXonoticCampaignList.html#a093efe8e6a0350a879cc57c922f3162e',1,'XonoticCampaignList']]],
-  ['typelabels',['typeLabels',['../dc/da0/classXonoticMapInfoDialog.html#aeda8cfb28fca044121a77d81c55dab12',1,'XonoticMapInfoDialog']]],
+  ['typelabels',['typeLabels',['../dc/da0/classXonoticMapInfoDialog.html#ac2beec303e5cec8d53f5c9fc7d0cad67',1,'XonoticMapInfoDialog']]],
   ['typetosearchtime',['typeToSearchTime',['../db/d29/classXonoticRegisteredSettingsList.html#a9237f539e335fff05171b4329ec7b08b',1,'XonoticRegisteredSettingsList::typeToSearchTime()'],['../d3/d86/classXonoticMapList.html#a2ceabdc0e34586372447c3a3913fe4bf',1,'XonoticMapList::typeToSearchTime()']]]
 ];

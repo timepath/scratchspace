@@ -1,6 +1,6 @@
 var sv__buffs_8qh =
 [
-    [ "AUTOCVAR", "d8/dd8/sv__buffs_8qh.html#a0f38f38cb2a21d68db8fa4402b5b9023", null ],
+    [ "AUTOCVAR", "d8/dd8/sv__buffs_8qh.html#a70cde1719dece180bd290f81df386448", null ],
     [ "buff_Available", "d8/dd8/sv__buffs_8qh.html#a77fd18a78f1e4c215d54d855c7230851", null ],
     [ "buffs_Initialize", "d8/dd8/sv__buffs_8qh.html#a29c07246b35b642337dcd9adb483e5e9", null ],
     [ "REGISTER_MUTATOR", "d8/dd8/sv__buffs_8qh.html#a6621fe3d1b04215053a255eec76cde6b", null ],

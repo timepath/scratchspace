@@ -1,8 +1,10 @@
 var classObserver =
 [
-    [ "Observer", "de/dab/classObserver.html#a19c43f80a38a332a6f694783df3c9835", null ],
-    [ "~Observer", "de/dab/classObserver.html#a450645e61c136826f09940a1334c7f34", null ],
-    [ "m_unwind", "de/dab/classObserver.html#ae355958a385e61face4d5c090fd1b4ec", null ],
+    [ "Observer ::~ Observer", "de/dab/classObserver.html#a41bb771a281618c853b7288645a271cf", null ],
+    [ "Client ::Client", "de/dab/classObserver.html#a81c8affa5cf714aae1e9ac248daa581d", null ],
+    [ "Client ::Client", "de/dab/classObserver.html#a74a723642d9e08b6d0da8bf90aecc0c3", null ],
+    [ "Client ::m_unwind", "de/dab/classObserver.html#acd617416b370b68f8d0fb87e1fccd7ca", null ],
+    [ "Observer ::Observer", "de/dab/classObserver.html#a458006e8f058519defc766f381e151ed", null ],
     [ "STATIC_METHOD", "de/dab/classObserver.html#a348fa10d11efdf527c16c2c6e1a018f1", null ],
     [ "STATIC_METHOD", "de/dab/classObserver.html#acae2b38889ee923ef5cab012e05aaac5", null ],
     [ "accuracy", "de/dab/classObserver.html#a7c8df93f8d890fe9c559215401df85e3", null ],

@@ -1,9 +1,9 @@
 var classClient =
 [
-    [ "Client", "d1/d37/classClient.html#ae51af7aa6b8f591496a8f6a4a87a14bf", null ],
-    [ "~Client", "d1/d37/classClient.html#a840e519ca781888cbd54181572ebe3a7", null ],
-    [ "Client", "d1/d37/classClient.html#a62ec00483394e1de13111094b221921d", null ],
-    [ "m_unwind", "d1/d37/classClient.html#ae355958a385e61face4d5c090fd1b4ec", null ],
+    [ "Client ::~ Client", "d1/d37/classClient.html#ac18322785fe670926b6d6a20bac91009", null ],
+    [ "Client ::Client", "d1/d37/classClient.html#a81c8affa5cf714aae1e9ac248daa581d", null ],
+    [ "Client ::Client", "d1/d37/classClient.html#a74a723642d9e08b6d0da8bf90aecc0c3", null ],
+    [ "Client ::m_unwind", "d1/d37/classClient.html#acd617416b370b68f8d0fb87e1fccd7ca", null ],
     [ "STATIC_METHOD", "d1/d37/classClient.html#a348fa10d11efdf527c16c2c6e1a018f1", null ],
     [ "STATIC_METHOD", "d1/d37/classClient.html#acae2b38889ee923ef5cab012e05aaac5", null ],
     [ "accuracy", "d1/d37/classClient.html#a7c8df93f8d890fe9c559215401df85e3", null ],

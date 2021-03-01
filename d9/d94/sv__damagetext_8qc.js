@@ -4,7 +4,7 @@ var sv__damagetext_8qc =
     [ "SV_DAMAGETEXT_DISABLED", "d9/d94/sv__damagetext_8qc.html#a00b979fe5002a31526e2461a6d399b40", null ],
     [ "SV_DAMAGETEXT_PLAYERS", "d9/d94/sv__damagetext_8qc.html#a5f361ff146307d59b72c3eb37fe91654", null ],
     [ "SV_DAMAGETEXT_SPECTATORS_ONLY", "d9/d94/sv__damagetext_8qc.html#ae350fc107ea19e6a54344c87554bad9e", null ],
-    [ "AUTOCVAR", "d9/d94/sv__damagetext_8qc.html#a8c837b99c80f6387e393d575c28c0a32", null ],
+    [ "AUTOCVAR", "d9/d94/sv__damagetext_8qc.html#ac369e71e3c47601ddc4bf752d328532f", null ],
     [ "MUTATOR_HOOKFUNCTION", "d9/d94/sv__damagetext_8qc.html#a36c700568c219421e9d07574cce964f7", null ],
     [ "REGISTER_MUTATOR", "d9/d94/sv__damagetext_8qc.html#a9752dd0b59e299da3ef1350f95b4aa7a", null ],
     [ "write_damagetext", "d9/d94/sv__damagetext_8qc.html#a8efbbbca8430453fc733cd7d10741ac9", null ],

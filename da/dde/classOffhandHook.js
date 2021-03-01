@@ -1,4 +1,4 @@
 var classOffhandHook =
 [
-    [ "offhand_think", "da/dde/classOffhandHook.html#a3eebb9e4c20d2c338b773a030eca0ee0", null ]
+    [ "OffhandWeapon ::offhand_think", "da/dde/classOffhandHook.html#abfd0a8ab9a61bce9eedec07c8cbd1e74", null ]
 ];

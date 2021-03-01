@@ -1,8 +1,10 @@
 var classSpectator =
 [
-    [ "Spectator", "d1/d48/classSpectator.html#a941b4b8ae00280b5e57dd1c7b3436494", null ],
-    [ "~Spectator", "d1/d48/classSpectator.html#a0073212531574d7fef41bb74d94dc951", null ],
-    [ "m_unwind", "d1/d48/classSpectator.html#ae355958a385e61face4d5c090fd1b4ec", null ],
+    [ "Spectator ::~ Spectator", "d1/d48/classSpectator.html#a0720458a702c8e60666415187077cff5", null ],
+    [ "Client ::Client", "d1/d48/classSpectator.html#a81c8affa5cf714aae1e9ac248daa581d", null ],
+    [ "Client ::Client", "d1/d48/classSpectator.html#a74a723642d9e08b6d0da8bf90aecc0c3", null ],
+    [ "Client ::m_unwind", "d1/d48/classSpectator.html#acd617416b370b68f8d0fb87e1fccd7ca", null ],
+    [ "Spectator ::Spectator", "d1/d48/classSpectator.html#ab5114784d3a81a8be40178025a18b406", null ],
     [ "STATIC_METHOD", "d1/d48/classSpectator.html#a348fa10d11efdf527c16c2c6e1a018f1", null ],
     [ "STATIC_METHOD", "d1/d48/classSpectator.html#acae2b38889ee923ef5cab012e05aaac5", null ],
     [ "accuracy", "d1/d48/classSpectator.html#a7c8df93f8d890fe9c559215401df85e3", null ],
