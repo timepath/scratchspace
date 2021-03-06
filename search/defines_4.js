@@ -15,6 +15,7 @@ var searchData=
   ['debugpathing',['DEBUGPATHING',['../dd/d70/pathlib_8qh.html#ac484531f596092c0ab17f29b14dbeab4',1,'pathlib.qh']]],
   ['dec_5ffactor',['DEC_FACTOR',['../d5/dff/ent__cs_8qc.html#a3d21f03f0b29e277235048ce304a96f2',1,'DEC_FACTOR():&#160;ent_cs.qc'],['../d5/dff/ent__cs_8qc.html#a3d21f03f0b29e277235048ce304a96f2',1,'DEC_FACTOR():&#160;ent_cs.qc']]],
   ['dec_5fto_5fhexdigit',['DEC_TO_HEXDIGIT',['../d2/db4/string_8qh.html#ab9cc51225f98703626978ab0de95744b',1,'string.qh']]],
+  ['default_5ffilename',['DEFAULT_FILENAME',['../dc/d8f/notifications_2all_8qh.html#a1e3d694f7ffb0df80011cb7c5b205897',1,'DEFAULT_FILENAME():&#160;all.qh'],['../db/d7f/turrets_2all_8qh.html#a1e3d694f7ffb0df80011cb7c5b205897',1,'DEFAULT_FILENAME():&#160;all.qh'],['../d0/ddd/weapons_2all_8qh.html#a1e3d694f7ffb0df80011cb7c5b205897',1,'DEFAULT_FILENAME():&#160;all.qh']]],
   ['defer',['DEFER',['../d3/dc9/macro_8qh.html#a4985e8f93ec4d844193bad891e1ea0c2',1,'macro.qh']]],
   ['delete',['delete',['../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f',1,'oo.qh']]],
   ['delete_5ffn',['delete_fn',['../db/d0a/oo_8qh.html#a0986caaf6941d347f68b37c3a8803538',1,'oo.qh']]],

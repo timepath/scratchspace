@@ -66,6 +66,5 @@ var world_8qc =
     [ "redirection_nextthink", "dd/dbe/world_8qc.html#a3a5ccf5cedf20c389fb4845c9558851d", null ],
     [ "redirection_timeout", "dd/dbe/world_8qc.html#ae75fd8d37f64427f20903a79db2c9c58", null ],
     [ "SPAWNFLAG_NO_WAYPOINTS_FOR_ITEMS", "dd/dbe/world_8qc.html#ae13da0aa296e2486f3f2e17875548066", null ],
-    [ "world_already_spawned", "dd/dbe/world_8qc.html#af2009345f10ebf5ea7d8f08fc795d18c", null ],
-    [ "world_initialized", "dd/dbe/world_8qc.html#a795b76ebd603f2cfb3384547ac184da1", null ]
+    [ "world_already_spawned", "dd/dbe/world_8qc.html#af2009345f10ebf5ea7d8f08fc795d18c", null ]
 ];

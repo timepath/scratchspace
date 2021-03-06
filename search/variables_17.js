@@ -181,7 +181,7 @@ var searchData=
   ['wordwrap_5fbuffer',['wordwrap_buffer',['../da/d44/common_2util_8qc.html#af932988c567892faff4fd700c7019958',1,'util.qc']]],
   ['world',['world',['../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb',1,'world():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb',1,'world():&#160;progsdefs.qc']]],
   ['world_5falready_5fspawned',['world_already_spawned',['../dd/dbe/world_8qc.html#af2009345f10ebf5ea7d8f08fc795d18c',1,'world.qc']]],
-  ['world_5finitialized',['world_initialized',['../dd/dbe/world_8qc.html#a795b76ebd603f2cfb3384547ac184da1',1,'world.qc']]],
+  ['world_5finitialized',['world_initialized',['../de/d2b/world_8qh.html#a50cbfa48bc902f6bdf4296ef2c746226',1,'world.qh']]],
   ['worldstatus',['worldstatus',['../de/d5e/dpextensions_8qc.html#a43553b1cbfa699a2e0aed0b8b23448dd',1,'dpextensions.qc']]],
   ['would_5fspectate',['would_spectate',['../df/dd7/server_2client_8qc.html#a6775640a6c7c6c616306d18724dff398',1,'client.qc']]],
   ['wp00',['wp00',['../db/d15/api_8qh.html#aa21af0cc87b5bad942368ea4b059d95e',1,'wp00():&#160;api.qh'],['../d1/d2a/waypoints_8qh.html#aa21af0cc87b5bad942368ea4b059d95e',1,'wp00():&#160;waypoints.qh']]],

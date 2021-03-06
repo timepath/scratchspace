@@ -1,5 +1,7 @@
 var NAVTREEINDEX129 =
 {
+"dd/db3/classXonoticQuitDialog.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,231,39],
+"dd/db3/classXonoticQuitDialog.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,231,69],
 "dd/db3/classXonoticQuitDialog.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,231,19],
 "dd/db3/classXonoticQuitDialog.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,231,66],
 "dd/db3/classXonoticQuitDialog.html#a9441dd7cacb643d23cf925b6c70b0266":[1,0,231,21],
@@ -85,7 +87,6 @@ var NAVTREEINDEX129 =
 "dd/dbe/world_8qc.html#a665a3549db99a167e6d8e8e63e95e9d3":[2,0,6,71,6],
 "dd/dbe/world_8qc.html#a6c92a0dc50c581d59078fde7b11d4f55":[2,0,6,71,60],
 "dd/dbe/world_8qc.html#a78c0ed0111dcca8924305a46bbf880bd":[2,0,6,71,53],
-"dd/dbe/world_8qc.html#a795b76ebd603f2cfb3384547ac184da1":[2,0,6,71,67],
 "dd/dbe/world_8qc.html#a7ddf10ff440a05521030d342d616f211":[2,0,6,71,28],
 "dd/dbe/world_8qc.html#a7f0150e78f1bcf0f515e35ed1d37248a":[2,0,6,71,45],
 "dd/dbe/world_8qc.html#a84147cbd8197c98a9f450a3239313ad5":[2,0,6,71,29],
@@ -215,8 +216,8 @@ var NAVTREEINDEX129 =
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,1],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,15,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,15,12],
-"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,2],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,2],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,5],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,4],
 "dd/dd5/sv__model_8qc_source.html":[2,0,4,0,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "dd/dd7/classRacer.html#ad980a3178ad348677141cfced220e8af":[1,0,110,17],
 "dd/dd7/classRacer.html#aded5beab52ac6d69480fccd0d55b4702":[1,0,110,26],
 "dd/dd7/classRacer.html#aef71e021298ebb68d8f968ab6c3396ad":[1,0,110,8],
-"dd/dd7/classRacer.html#af1e7a9d937de540345fea6c3f4058b0f":[1,0,110,27],
-"dd/dd7/classRacer.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,110,0]
+"dd/dd7/classRacer.html#af1e7a9d937de540345fea6c3f4058b0f":[1,0,110,27]
 };

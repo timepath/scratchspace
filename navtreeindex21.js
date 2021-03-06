@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"d2/d63/casings_8qc.html#a731e5b42b4d93f92f6d481980dd706c5":[2,0,1,2,0,2,1],
 "d2/d63/casings_8qc_source.html":[2,0,1,2,0,2],
 "d2/d64/dialog__settings__game__messages_8qc.html":[2,0,5,4,138],
 "d2/d64/dialog__settings__game__messages_8qc.html#a06a0a03bab3b31fc5354446fdb1df3bb":[2,0,5,4,138,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "d2/d88/bigcommandbutton_8qh_source.html":[2,0,5,4,5],
 "d2/d88/classDomination.html":[1,0,30],
 "d2/d88/classDomination.html#a0d6a1e8d19d0ea2f43e4cd23232c32fb":[1,0,30,7],
-"d2/d88/classDomination.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,30,0],
-"d2/d88/classDomination.html#a353db82280437c3b38f0ad1934a7d666":[1,0,30,22]
+"d2/d88/classDomination.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,30,0]
 };

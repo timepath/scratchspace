@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"d1/d21/sv__melee__only_8qh_source.html":[2,0,1,10,0,16,3],
 "d1/d24/sv__vampirehook_8qc.html":[2,0,1,10,0,37,2],
 "d1/d24/sv__vampirehook_8qc.html#a08692545822fcd506d094cffba9cd695":[2,0,1,10,0,37,2,2],
 "d1/d24/sv__vampirehook_8qc.html#a1db9b2d153fff0d39b79f78037f42ed2":[2,0,1,10,0,37,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "d1/d33/classXonoticColorButton.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,157,40],
 "d1/d33/classXonoticColorButton.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,157,71],
 "d1/d33/classXonoticColorButton.html#a21fdc6c151d9e721da87eaaa8a04e3f9":[1,0,157,10],
-"d1/d33/classXonoticColorButton.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,157,43],
-"d1/d33/classXonoticColorButton.html#a27b635e0916726012b7e8c4dca05064e":[1,0,157,56]
+"d1/d33/classXonoticColorButton.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,157,43]
 };

@@ -111,5 +111,6 @@ var world_8qh =
     [ "WINNING_NEVER", "de/d2b/world_8qh.html#a03bf3165ad483c0c1677f81f99785ea9", null ],
     [ "WINNING_NO", "de/d2b/world_8qh.html#a5b72936b18304effe0be1f792c755ad7", null ],
     [ "WINNING_STARTSUDDENDEATHOVERTIME", "de/d2b/world_8qh.html#a2880146096be8d8c4e83b4c1fe8b8eeb", null ],
-    [ "WINNING_YES", "de/d2b/world_8qh.html#ae6b751db2a559cc7c074785cdb419db7", null ]
+    [ "WINNING_YES", "de/d2b/world_8qh.html#ae6b751db2a559cc7c074785cdb419db7", null ],
+    [ "world_initialized", "de/d2b/world_8qh.html#a50cbfa48bc902f6bdf4296ef2c746226", null ]
 ];

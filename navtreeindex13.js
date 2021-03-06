@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d1/d70/classXonoticSoundList.html#af3b19da9c71985ddbad5d021e1612250":[1,0,253,19],
 "d1/d70/classXonoticSoundList.html#af7b59e695b6ffa4c2db2339aae3cc716":[1,0,253,10],
 "d1/d70/classXonoticSoundList.html#af89ea045533cba3ba7b219c6c2ecff02":[1,0,253,17],
 "d1/d70/classXonoticSoundList.html#afae51146bc63c51fa50f50c72beb711f":[1,0,253,90],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "d1/d84/classXonoticLanguageWarningDialog.html#ab4a2357f49c688f5f40fa610c5a17b71":[1,0,213,35],
 "d1/d84/classXonoticLanguageWarningDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,213,98],
 "d1/d84/classXonoticLanguageWarningDialog.html#ab8f24f4d1e84b931a71478a39a98f0be":[1,0,213,70],
-"d1/d84/classXonoticLanguageWarningDialog.html#aba8583e6bc930dad6807443f24a136dd":[1,0,213,34],
-"d1/d84/classXonoticLanguageWarningDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,213,0]
+"d1/d84/classXonoticLanguageWarningDialog.html#aba8583e6bc930dad6807443f24a136dd":[1,0,213,34]
 };

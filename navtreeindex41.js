@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"d4/d1a/static_8qh_source.html":[2,0,4,57],
 "d4/d1b/radar_8qh.html":[2,0,0,1,0,31],
 "d4/d1b/radar_8qh.html#a05547a83051133d14594e82603519b13":[2,0,0,1,0,31,3],
 "d4/d1b/radar_8qh.html#a1877342217160eea83c5ab2b9d006628":[2,0,0,1,0,31,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "d4/d3f/classXonoticKeyBinder.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,211,66],
 "d4/d3f/classXonoticKeyBinder.html#a939d4a39bf58a95a355f89acefee4205":[1,0,211,54],
 "d4/d3f/classXonoticKeyBinder.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,211,43],
-"d4/d3f/classXonoticKeyBinder.html#a94e738eb600c049a88a828395847ac54":[1,0,211,25],
-"d4/d3f/classXonoticKeyBinder.html#a955acbbda432fb19399292cbac96e0af":[1,0,211,78]
+"d4/d3f/classXonoticKeyBinder.html#a94e738eb600c049a88a828395847ac54":[1,0,211,25]
 };

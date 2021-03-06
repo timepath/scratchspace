@@ -1,5 +1,7 @@
 var NAVTREEINDEX132 =
 {
+"de/d2b/world_8qh.html#a7c0b5437bd9ea2c12fb0e79b57699267":[2,0,6,72,63],
+"de/d2b/world_8qh.html#a7e4aa54ca2710ff1341835039c3d9b2f":[2,0,6,72,107],
 "de/d2b/world_8qh.html#a81db127801d7028f9604ec186e49abe5":[2,0,6,72,46],
 "de/d2b/world_8qh.html#a826f0e158cb9a92eed3ef9ed90127c2a":[2,0,6,72,52],
 "de/d2b/world_8qh.html#a82b587eee43a9940fb1cfa08971f476d":[2,0,6,72,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX132 =
 "de/d3c/classBuff.html#a95e7f0cf091386e07ce2add2ab653934":[1,0,9,10],
 "de/d3c/classBuff.html#abf7143aa57efa8d60f4e807228b737e9":[1,0,9,19],
 "de/d3c/classBuff.html#acdf2c55b6451a8c5b39baa21a23cd15d":[1,0,9,11],
-"de/d3c/classBuff.html#ad8a0be5e74b7a94d9b1d659e974a8975":[1,0,9,12],
-"de/d3c/classBuff.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,9,5],
-"de/d3c/common_2notifications_2__mod_8qh.html":[2,0,1,11,1]
+"de/d3c/classBuff.html#ad8a0be5e74b7a94d9b1d659e974a8975":[1,0,9,12]
 };

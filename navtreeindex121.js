@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"dc/dda/classAmmo.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,0,13],
+"dc/ddf/common_2gamemodes_2gamemode_2assault_2__mod_8qh.html":[2,0,1,3,0,0,1],
 "dc/ddf/common_2gamemodes_2gamemode_2assault_2__mod_8qh_source.html":[2,0,1,3,0,0,1],
 "dc/de0/costs_8qc.html":[2,0,6,5,2],
 "dc/de0/costs_8qc.html#a06d2a473c8e47a4a9c565d013acfcd7b":[2,0,6,5,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "dc/de9/classXonoticRootDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,236,4],
 "dc/de9/classXonoticRootDialog.html#aac11f0ee8546852c87e21c5365f1ca9b":[1,0,236,18],
 "dc/de9/classXonoticRootDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,236,99],
-"dc/de9/classXonoticRootDialog.html#aadf33056dcb2da0c6d706df8a5efbf1f":[1,0,236,13],
-"dc/de9/classXonoticRootDialog.html#ab33f8db8b809348fef35135c9c5e6490":[1,0,236,27],
-"dc/de9/classXonoticRootDialog.html#ab4a2357f49c688f5f40fa610c5a17b71":[1,0,236,35]
+"dc/de9/classXonoticRootDialog.html#aadf33056dcb2da0c6d706df8a5efbf1f":[1,0,236,13]
 };

@@ -1,6 +1,7 @@
 var turrets_2all_8qh =
 [
     [ "_TR_CONFIG", "db/d7f/turrets_2all_8qh.html#ad74277b527f9635ffc62703cbff2bdc4", null ],
+    [ "DEFAULT_FILENAME", "db/d7f/turrets_2all_8qh.html#a1e3d694f7ffb0df80011cb7c5b205897", null ],
     [ "get_turretinfo", "db/d7f/turrets_2all_8qh.html#a480cc7101d2edcf64993e80de5a8e4ac", null ],
     [ "REGISTER_TURRET", "db/d7f/turrets_2all_8qh.html#aa2774c8f11c19aa8e015cff50732b4a6", null ],
     [ "TR_CONFIG", "db/d7f/turrets_2all_8qh.html#aa9eb7a220e74cf24d473030719182ab8", null ],
@@ -9,7 +10,7 @@ var turrets_2all_8qh =
     [ "TR_PROPS", "db/d7f/turrets_2all_8qh.html#a30c61cb0bb4ef3bb1acd868a04d160ba", null ],
     [ "TR_PROPS_COMMON", "db/d7f/turrets_2all_8qh.html#ad60e5d4c8508eceba918a8d7e3f470a7", null ],
     [ "TUR_LAST", "db/d7f/turrets_2all_8qh.html#af3a4ffcd56d584a4de5f3156a6c666a3", null ],
-    [ "GENERIC_COMMAND", "db/d7f/turrets_2all_8qh.html#aa3c885cb56a45fbfb5057435c3212304", null ],
+    [ "GENERIC_COMMAND", "db/d7f/turrets_2all_8qh.html#afbfda8730e6b3ee24fa3f22caa0efb9e", null ],
     [ "REGISTER_TURRET", "db/d7f/turrets_2all_8qh.html#a6cb924afac08b198770ae9bd69a5f517", null ],
     [ "TUR_FIRST", "db/d7f/turrets_2all_8qh.html#af8a1aa546131892f801ce1e4500a7bae", null ]
 ];
