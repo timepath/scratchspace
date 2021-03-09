@@ -11,6 +11,7 @@ var waypoints_8qc =
     [ "botframe_showwaypointlinks", "d7/dc4/waypoints_8qc.html#adc1610e5d4a39012b64c05f12d9ccd82", null ],
     [ "crosshair_trace_waypoints", "d7/dc4/waypoints_8qc.html#afa52e1b95c5f729f7ccaa96f8bc6a798", null ],
     [ "spawnfunc", "d7/dc4/waypoints_8qc.html#ac764e32c571128b0b58a9a10cb3ef9d1", null ],
+    [ "STATIC_INIT", "d7/dc4/waypoints_8qc.html#a1a50fdc257dfe70bd8b35a30f6f1e719", null ],
     [ "trigger_push_get_push_time", "d7/dc4/waypoints_8qc.html#aa76c5d1d5c596ee232f85d89941ed479", null ],
     [ "waypoint_addlink", "d7/dc4/waypoints_8qc.html#a78500a5fdfa2de7f46f627274085fe08", null ],
     [ "waypoint_addlink_customcost", "d7/dc4/waypoints_8qc.html#a366118166944b7c3433ad78c7f388462", null ],

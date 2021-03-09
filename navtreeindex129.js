@@ -1,5 +1,7 @@
 var NAVTREEINDEX129 =
 {
+"dd/db3/classXonoticQuitDialog.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,231,14],
+"dd/db3/classXonoticQuitDialog.html#a8b78346a74df75772de387092d850f39":[1,0,231,58],
 "dd/db3/classXonoticQuitDialog.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,231,39],
 "dd/db3/classXonoticQuitDialog.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,231,69],
 "dd/db3/classXonoticQuitDialog.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,231,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX129 =
 "dd/dd7/classRacer.html#ac498d3c95facce6811b1d5d01509810a":[1,0,110,20],
 "dd/dd7/classRacer.html#ad567ac3b7d3cafb4790f9eddd9120171":[1,0,110,9],
 "dd/dd7/classRacer.html#ad980a3178ad348677141cfced220e8af":[1,0,110,17],
-"dd/dd7/classRacer.html#aded5beab52ac6d69480fccd0d55b4702":[1,0,110,26],
-"dd/dd7/classRacer.html#aef71e021298ebb68d8f968ab6c3396ad":[1,0,110,8],
-"dd/dd7/classRacer.html#af1e7a9d937de540345fea6c3f4058b0f":[1,0,110,27]
+"dd/dd7/classRacer.html#aded5beab52ac6d69480fccd0d55b4702":[1,0,110,26]
 };

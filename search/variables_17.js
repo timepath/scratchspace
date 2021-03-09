@@ -90,6 +90,7 @@ var searchData=
   ['waypoint_5ftime',['waypoint_time',['../d1/d2a/waypoints_8qh.html#ac9d93aecf512af7a1537662c87b59bdb',1,'waypoints.qh']]],
   ['waypoint_5fversion',['WAYPOINT_VERSION',['../d1/d2a/waypoints_8qh.html#a67365813b668a94a58f022d46f7ad0b3',1,'waypoints.qh']]],
   ['waypoint_5fversion_5floaded',['waypoint_version_loaded',['../d1/d2a/waypoints_8qh.html#a46c96813f2bc3223df28103891d2ca52',1,'waypoints.qh']]],
+  ['waypointeditor_5fenabled',['waypointeditor_enabled',['../d1/d2a/waypoints_8qh.html#a2243f1b5a14380c79bbbf718e4447983',1,'waypoints.qh']]],
   ['waypointflag_5fcrouch',['WAYPOINTFLAG_CROUCH',['../db/d15/api_8qh.html#a03438b4ac78bd3a74a1247b2dae65e76',1,'api.qh']]],
   ['waypointflag_5fcustom_5fjp',['WAYPOINTFLAG_CUSTOM_JP',['../db/d15/api_8qh.html#a33ccd87e4682194dee7ea5cfb30a4d5c',1,'api.qh']]],
   ['waypointflag_5fdead_5fend',['WAYPOINTFLAG_DEAD_END',['../db/d15/api_8qh.html#a1cb7af67d4a7ef4a8aa3291363c0d602',1,'api.qh']]],

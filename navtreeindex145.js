@@ -1,5 +1,7 @@
 var NAVTREEINDEX145 =
 {
+"df/d7f/crosshair_8qh.html#aa270ce298df14389c2e6bbaf8a5dbff8":[2,0,0,1,4,41],
+"df/d7f/crosshair_8qh.html#aa65bbf94ebd9cab1a17bf11decab979e":[2,0,0,1,4,31],
 "df/d7f/crosshair_8qh.html#aa7068f2360153346c7e4a5efc53a2e0e":[2,0,0,1,4,35],
 "df/d7f/crosshair_8qh.html#aa71796101fe1356187b03f679ad99c19":[2,0,0,1,4,16],
 "df/d7f/crosshair_8qh.html#aa772d09df7232c2d366923420928b7d7":[2,0,0,1,4,60],
@@ -54,10 +56,10 @@ var NAVTREEINDEX145 =
 "df/d8c/cl__cmd_8qc.html#ac1a03af5c66e122f2e7ab5298a3df6f0":[2,0,0,0,2,29],
 "df/d8c/cl__cmd_8qc.html#ac3dfed50120778da83022f7fd4452f07":[2,0,0,0,2,13],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,2,20],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,2,26],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,2,23],
 "df/d8c/cl__cmd_8qc.html#ade6e4eb447a5275679d8d431ede8266a":[2,0,0,0,2,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX145 =
 "df/d9b/menu_2xonotic_2util_8qc.html#a3a61ea33091b43730f8b686e78ecde5e":[2,0,5,4,236,88],
 "df/d9b/menu_2xonotic_2util_8qc.html#a3d10a92a0b5efff2067efd3580ece642":[2,0,5,4,236,33],
 "df/d9b/menu_2xonotic_2util_8qc.html#a412b04f8c3d258abffcd81c62fd8e70a":[2,0,5,4,236,73],
-"df/d9b/menu_2xonotic_2util_8qc.html#a4273a492468827472499bc087995c2d1":[2,0,5,4,236,58],
-"df/d9b/menu_2xonotic_2util_8qc.html#a42817b7a01f917e6b42ace4aef485b7b":[2,0,5,4,236,77],
-"df/d9b/menu_2xonotic_2util_8qc.html#a4295e1a543aa3694e2987c6731c226ad":[2,0,5,4,236,80]
+"df/d9b/menu_2xonotic_2util_8qc.html#a4273a492468827472499bc087995c2d1":[2,0,5,4,236,58]
 };

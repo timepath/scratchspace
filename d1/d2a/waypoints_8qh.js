@@ -55,6 +55,7 @@ var waypoints_8qh =
     [ "waypoint_time", "d1/d2a/waypoints_8qh.html#ac9d93aecf512af7a1537662c87b59bdb", null ],
     [ "WAYPOINT_VERSION", "d1/d2a/waypoints_8qh.html#a67365813b668a94a58f022d46f7ad0b3", null ],
     [ "waypoint_version_loaded", "d1/d2a/waypoints_8qh.html#a46c96813f2bc3223df28103891d2ca52", null ],
+    [ "waypointeditor_enabled", "d1/d2a/waypoints_8qh.html#a2243f1b5a14380c79bbbf718e4447983", null ],
     [ "wp00", "d1/d2a/waypoints_8qh.html#aa21af0cc87b5bad942368ea4b059d95e", null ],
     [ "wp00_original", "d1/d2a/waypoints_8qh.html#a51d018db2eab44af32cdaf9e7ae9f4a3", null ],
     [ "wp00mincost", "d1/d2a/waypoints_8qh.html#a6da855c25006ed03bc47ebfdbfee7b65", null ],

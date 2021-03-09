@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a0e5a0bf76ed33c92649bddc14791bfb5":[1,0,204,101],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,204,53],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a134618d9ba08f227978e9f7abc65dcd7":[1,0,204,44],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a1363f51d76bde5021f29a75dad41e706":[1,0,204,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "d5/dab/dialog__settings__game_8qh.html":[2,0,5,4,131],
 "d5/dab/dialog__settings__game_8qh_source.html":[2,0,5,4,131],
 "d5/dac/server_2scores_8qh.html":[2,0,6,57],
-"d5/dac/server_2scores_8qh.html#a0bc1ee30316696f4db9daf10b6712117":[2,0,6,57,26],
-"d5/dac/server_2scores_8qh.html#a0cf85aa93c9a2c5aa8f70c877d9d42dc":[2,0,6,57,21]
+"d5/dac/server_2scores_8qh.html#a0bc1ee30316696f4db9daf10b6712117":[2,0,6,57,26]
 };

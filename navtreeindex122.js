@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"dc/de9/classXonoticRootDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,236,99],
+"dc/de9/classXonoticRootDialog.html#aadf33056dcb2da0c6d706df8a5efbf1f":[1,0,236,13],
 "dc/de9/classXonoticRootDialog.html#ab33f8db8b809348fef35135c9c5e6490":[1,0,236,27],
 "dc/de9/classXonoticRootDialog.html#ab4a2357f49c688f5f40fa610c5a17b71":[1,0,236,35],
 "dc/de9/classXonoticRootDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,236,98],
@@ -247,7 +249,5 @@ var NAVTREEINDEX122 =
 "dd/d0a/classMachineGunTurret.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,70,4],
 "dd/d0a/classMachineGunTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,70,0],
 "dd/d0a/effects_8inc.html":[2,0,1,10,0,19,2],
-"dd/d0a/effects_8inc.html#a6beee43926068791a9fe91bae831303f":[2,0,1,10,0,19,2,0],
-"dd/d0a/effects_8inc.html#a8a0ed5b58c510845aa0742999d5dc5f9":[2,0,1,10,0,19,2,2],
-"dd/d0a/effects_8inc.html#ab161cbb17923e1f6e3ad7875041fc2aa":[2,0,1,10,0,19,2,1]
+"dd/d0a/effects_8inc.html#a6beee43926068791a9fe91bae831303f":[2,0,1,10,0,19,2,0]
 };
