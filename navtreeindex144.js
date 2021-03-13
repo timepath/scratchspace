@@ -1,5 +1,12 @@
 var NAVTREEINDEX144 =
 {
+"df/d6e/classXonoticSingleplayerDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,249,9],
+"df/d6e/classXonoticSingleplayerDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,249,81],
+"df/d6e/classXonoticSingleplayerDialog.html#a34c24899d332b64a4827628957b243aa":[1,0,249,44],
+"df/d6e/classXonoticSingleplayerDialog.html#a36836cbbfc40570ef70c3b43798ca096":[1,0,249,24],
+"df/d6e/classXonoticSingleplayerDialog.html#a382a09f7c5068d0f7969a394178c444a":[1,0,249,60],
+"df/d6e/classXonoticSingleplayerDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,249,76],
+"df/d6e/classXonoticSingleplayerDialog.html#a39b77a1923845447d837ff9f399e9aff":[1,0,249,106],
 "df/d6e/classXonoticSingleplayerDialog.html#a3bfe985eb7e90c227d56dc81434bb5f9":[1,0,249,49],
 "df/d6e/classXonoticSingleplayerDialog.html#a3c3530831d992c56d8cd3c69b4a00575":[1,0,249,79],
 "df/d6e/classXonoticSingleplayerDialog.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,249,62],
@@ -242,12 +249,5 @@ var NAVTREEINDEX144 =
 "df/d7f/crosshair_8qh.html#a727f529298fda5425f9fc13fc21b8dd0":[2,0,0,1,4,45],
 "df/d7f/crosshair_8qh.html#a74f0bda01610a88f379c9e16b6ef7511":[2,0,0,1,4,17],
 "df/d7f/crosshair_8qh.html#a7b0d40850458febb484021640c61679b":[2,0,0,1,4,1],
-"df/d7f/crosshair_8qh.html#a7b529925da4a8379c82874f9533966c6":[2,0,0,1,4,14],
-"df/d7f/crosshair_8qh.html#a802dfb52366f7223086a1a95a4f08eeb":[2,0,0,1,4,2],
-"df/d7f/crosshair_8qh.html#a860976cb889ff4f493bd298043715080":[2,0,0,1,4,54],
-"df/d7f/crosshair_8qh.html#a88999a96c099f865da4b7a5da23c4f71":[2,0,0,1,4,47],
-"df/d7f/crosshair_8qh.html#a90becaa7c2182ebe251babf298057ff3":[2,0,0,1,4,39],
-"df/d7f/crosshair_8qh.html#a940cd60a418a5283636c1562cb556762":[2,0,0,1,4,33],
-"df/d7f/crosshair_8qh.html#a9823e8dfcfda2f6f222a9de03e411e1e":[2,0,0,1,4,34],
-"df/d7f/crosshair_8qh.html#aa0b653eca7e19adf5af9141fe59435ef":[2,0,0,1,4,55]
+"df/d7f/crosshair_8qh.html#a7b529925da4a8379c82874f9533966c6":[2,0,0,1,4,14]
 };

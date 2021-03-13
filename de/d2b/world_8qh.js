@@ -78,6 +78,7 @@ var world_8qh =
     [ "modname", "de/d2b/world_8qh.html#af289ce9e49626ec727198c2d334299bd", null ],
     [ "random_start_ammo", "de/d2b/world_8qh.html#a2a3e89a2db038992970db682ae736f23", null ],
     [ "random_start_weapons_count", "de/d2b/world_8qh.html#a4f1f9b143f200171c1fea4e59ab7a36d", null ],
+    [ "record_type", "de/d2b/world_8qh.html#a6aa6867b5d327aca0c04e260a9117bd5", null ],
     [ "redirection_target", "de/d2b/world_8qh.html#afda7c0d2e9429b1eb3477891bc970dad", null ],
     [ "server_is_dedicated", "de/d2b/world_8qh.html#ad7fc484679de15d0e8c8c18b992c7c75", null ],
     [ "ServerProgsDB", "de/d2b/world_8qh.html#afa49ea11bc4dd382cd2f042e7c94dcce", null ],

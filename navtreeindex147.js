@@ -1,5 +1,12 @@
 var NAVTREEINDEX147 =
 {
+"df/dc9/aim_8qc.html#aa602bcd33a8abc9d07da72550ab3a103":[2,0,6,0,0,3,6],
+"df/dc9/aim_8qc.html#ab8a774722467f5e4d60086ab429df89b":[2,0,6,0,0,3,1],
+"df/dc9/aim_8qc.html#ae876c215515375799091388af5fc15ae":[2,0,6,0,0,3,0],
+"df/dc9/aim_8qc.html#aecfef2eda1200592801a4613a7318266":[2,0,6,0,0,3,2],
+"df/dc9/aim_8qc.html#af8050ab8c527644541f6663b6ea42874":[2,0,6,0,0,3,3],
+"df/dc9/aim_8qc_source.html":[2,0,6,0,0,3],
+"df/dc9/classXonoticHUDQuickMenuDialog.html":[1,0,199],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a000f3638d922b82463076be4a08d981f":[1,0,199,79],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,199,6],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,199,104],
@@ -242,12 +249,5 @@ var NAVTREEINDEX147 =
 "df/dd4/strafehud_8qh.html#a0a93fc7e078d0df300cb12d88e4b0a4f":[2,0,0,1,0,37,42],
 "df/dd4/strafehud_8qh.html#a0bfcb6da55fece89ac0a807d11aebb66":[2,0,0,1,0,37,43],
 "df/dd4/strafehud_8qh.html#a0ec02e2732274e9d96e328e8a53d6e4a":[2,0,0,1,0,37,51],
-"df/dd4/strafehud_8qh.html#a113cd6ba6ca5bb814c5b3461e14ffc2a":[2,0,0,1,0,37,20],
-"df/dd4/strafehud_8qh.html#a132691b4dc244206105a4607a8ac5e65":[2,0,0,1,0,37,19],
-"df/dd4/strafehud_8qh.html#a16d1ea2d9c8a8816698a229a6ac0c309":[2,0,0,1,0,37,6],
-"df/dd4/strafehud_8qh.html#a1a2dd7818abbd0fc4aabc95240c0f861":[2,0,0,1,0,37,50],
-"df/dd4/strafehud_8qh.html#a2069ca7787de88053984c23d1ea0b015":[2,0,0,1,0,37,27],
-"df/dd4/strafehud_8qh.html#a238be46d54c6e16ed151a22e0088dc50":[2,0,0,1,0,37,24],
-"df/dd4/strafehud_8qh.html#a26f520d46174ba6d3b2dfa49dd546de9":[2,0,0,1,0,37,26],
-"df/dd4/strafehud_8qh.html#a294587403315ec0cab59485ef1bd0394":[2,0,0,1,0,37,31]
+"df/dd4/strafehud_8qh.html#a113cd6ba6ca5bb814c5b3461e14ffc2a":[2,0,0,1,0,37,20]
 };

@@ -126,6 +126,7 @@ var searchData=
   ['realuppermargin1',['realUpperMargin1',['../d4/d91/classXonoticCampaignList.html#a5bbcb63b259e207f524e3afef0ca058f',1,'XonoticCampaignList::realUpperMargin1()'],['../d3/d86/classXonoticMapList.html#a60b086378934fd56f9d0b9950567c1bd',1,'XonoticMapList::realUpperMargin1()'],['../d7/de6/classXonoticSkinList.html#afcf2fcc518cc5cca6e472f72bec87733',1,'XonoticSkinList::realUpperMargin1()']]],
   ['realuppermargin2',['realUpperMargin2',['../d4/d91/classXonoticCampaignList.html#a03353d1ffe5d9c73b4ee54147dd268f4',1,'XonoticCampaignList::realUpperMargin2()'],['../d3/d86/classXonoticMapList.html#a1fee65946f093c4f6be047701a078559',1,'XonoticMapList::realUpperMargin2()'],['../d7/de6/classXonoticSkinList.html#ac8277af9dfb8675e22addcf7d7e6cde3',1,'XonoticSkinList::realUpperMargin2()'],['../de/d40/playerlist_8qc.html#a6d4ecee6a0c8ce64ce98498c969c819c',1,'realUpperMargin2():&#160;playerlist.qc']]],
   ['recalcpos',['recalcPos',['../d3/d1b/classLabel.html#afc04c73de4b6ffcc3cecbfba4df5c57a',1,'Label']]],
+  ['record_5ftype',['record_type',['../de/d2b/world_8qh.html#a6aa6867b5d327aca0c04e260a9117bd5',1,'world.qh']]],
   ['redflag_5fprevframe',['redflag_prevframe',['../df/d41/cl__ctf_8qc.html#a90abcb5dfd155425638f8823221e96a7',1,'cl_ctf.qc']]],
   ['redflag_5fprevstatus',['redflag_prevstatus',['../df/d41/cl__ctf_8qc.html#abee838c54bc89fc9d2324b5932f73b39',1,'cl_ctf.qc']]],
   ['redflag_5fstatuschange_5ftime',['redflag_statuschange_time',['../df/d41/cl__ctf_8qc.html#ad54335d65a5c8387822266bcc46a3ec2',1,'cl_ctf.qc']]],

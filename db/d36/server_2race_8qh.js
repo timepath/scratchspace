@@ -1,6 +1,7 @@
 var server_2race_8qh =
 [
     [ "race_AbandonRaceCheck", "db/d36/server_2race_8qh.html#ae0c5dbe57d8a837df10255bee683ff10", null ],
+    [ "race_checkAndWriteName", "db/d36/server_2race_8qh.html#a9d761e6ea9fd142b1284eb674ae99a7e", null ],
     [ "race_ClearRecords", "db/d36/server_2race_8qh.html#a30ba6f7a919548646ddd721463696855", null ],
     [ "race_GetFractionalLapCount", "db/d36/server_2race_8qh.html#a9b5a49271ee43c7c9e7cb3787de977ee", null ],
     [ "race_ImposePenaltyTime", "db/d36/server_2race_8qh.html#afa5e1361b7c998c73649e0ac53556901", null ],
@@ -16,9 +17,11 @@ var server_2race_8qh =
     [ "race_send_recordtime", "db/d36/server_2race_8qh.html#adde3148534e8ffc72f956ef1031467ab", null ],
     [ "race_send_speedaward", "db/d36/server_2race_8qh.html#ab495eed7037d0ad7adc9a102993fb226", null ],
     [ "race_send_speedaward_alltimebest", "db/d36/server_2race_8qh.html#aa77a445ff7257d62eb6cfed505be32cc", null ],
+    [ "race_SendAll", "db/d36/server_2race_8qh.html#a1cb6d64f85def4350e5c7e500c5749b1", null ],
     [ "race_SendNextCheckpoint", "db/d36/server_2race_8qh.html#a426a0faee53298e0416f0af105270b20", null ],
-    [ "race_SendRankings", "db/d36/server_2race_8qh.html#a2b2a6102f551e81871f8b1e030a2e9e0", null ],
+    [ "race_SendRanking", "db/d36/server_2race_8qh.html#a08a7c20acc1753aa5c6548c385f0fdc6", null ],
     [ "race_setTime", "db/d36/server_2race_8qh.html#ad40c8cd52859377201760075057590a0", null ],
+    [ "race_SpeedAwardFrame", "db/d36/server_2race_8qh.html#a4521070f33e7fbccd39e86044ea980b5", null ],
     [ "race_StartCompleting", "db/d36/server_2race_8qh.html#a98ec5468ec6281fade27fb92541c7174", null ],
     [ "spawnfunc", "db/d36/server_2race_8qh.html#a696329dda631e76ee7c5542c9fabc8a5", null ],
     [ "uid2name", "db/d36/server_2race_8qh.html#a943d9da424f168efb8d407b4de9833a2", null ],
@@ -51,6 +54,5 @@ var server_2race_8qh =
     [ "speedaward_lastupdate", "db/d36/server_2race_8qh.html#a7d873efbcde54abb5c6024328ed5b5bf", null ],
     [ "speedaward_speed", "db/d36/server_2race_8qh.html#a5556d6ab44fced2e2f2424cda680514c", null ],
     [ "speedaward_uid", "db/d36/server_2race_8qh.html#ae12c1c9683fdacff4f1a7b6eea72f0f4", null ],
-    [ "ST_RACE_LAPS", "db/d36/server_2race_8qh.html#a3af52531d4aea38c0d8a0b5594a80c4f", null ],
-    [ "stored_netname", "db/d36/server_2race_8qh.html#a1caaa8fe4d9b590202c8347fa835470f", null ]
+    [ "ST_RACE_LAPS", "db/d36/server_2race_8qh.html#a3af52531d4aea38c0d8a0b5594a80c4f", null ]
 ];

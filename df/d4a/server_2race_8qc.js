@@ -6,6 +6,7 @@ var server_2race_8qc =
     [ "penalty_touch", "df/d4a/server_2race_8qc.html#afaee8bdf5a2621ea0c05289b99d7c8d4", null ],
     [ "penalty_use", "df/d4a/server_2race_8qc.html#ae0d09d4e517c88ca30552c90e3068557", null ],
     [ "race_AbandonRaceCheck", "df/d4a/server_2race_8qc.html#ae0c5dbe57d8a837df10255bee683ff10", null ],
+    [ "race_checkAndWriteName", "df/d4a/server_2race_8qc.html#a9d761e6ea9fd142b1284eb674ae99a7e", null ],
     [ "race_CheckpointNetworkID", "df/d4a/server_2race_8qc.html#a07f5a365308af71c65a9e965564932f4", null ],
     [ "race_ClearRecords", "df/d4a/server_2race_8qc.html#a30ba6f7a919548646ddd721463696855", null ],
     [ "race_ClearTime", "df/d4a/server_2race_8qc.html#a6c1a701a84cb0c5b15f45173e3038d9b", null ],
@@ -25,11 +26,13 @@ var server_2race_8qc =
     [ "race_send_recordtime", "df/d4a/server_2race_8qc.html#adde3148534e8ffc72f956ef1031467ab", null ],
     [ "race_send_speedaward", "df/d4a/server_2race_8qc.html#ab495eed7037d0ad7adc9a102993fb226", null ],
     [ "race_send_speedaward_alltimebest", "df/d4a/server_2race_8qc.html#aa77a445ff7257d62eb6cfed505be32cc", null ],
+    [ "race_SendAll", "df/d4a/server_2race_8qc.html#a1cb6d64f85def4350e5c7e500c5749b1", null ],
     [ "race_SendNextCheckpoint", "df/d4a/server_2race_8qc.html#a426a0faee53298e0416f0af105270b20", null ],
-    [ "race_SendRankings", "df/d4a/server_2race_8qc.html#a2b2a6102f551e81871f8b1e030a2e9e0", null ],
+    [ "race_SendRanking", "df/d4a/server_2race_8qc.html#a08a7c20acc1753aa5c6548c385f0fdc6", null ],
     [ "race_SendStatus", "df/d4a/server_2race_8qc.html#ad90d8836aa743a1c7d24b4e5cfa67017", null ],
     [ "race_SendTime", "df/d4a/server_2race_8qc.html#a67d4330e2cc2507d55de968501e8de67", null ],
     [ "race_setTime", "df/d4a/server_2race_8qc.html#ad40c8cd52859377201760075057590a0", null ],
+    [ "race_SpeedAwardFrame", "df/d4a/server_2race_8qc.html#a4521070f33e7fbccd39e86044ea980b5", null ],
     [ "race_StartCompleting", "df/d4a/server_2race_8qc.html#a98ec5468ec6281fade27fb92541c7174", null ],
     [ "race_waypointsprite_visible_for_player", "df/d4a/server_2race_8qc.html#a8988550efefbbf06b299ca30e0abd002", null ],
     [ "race_writeTime", "df/d4a/server_2race_8qc.html#ae61f2a2c6a18fa5904028f07c4b72d3a", null ],
@@ -63,5 +66,6 @@ var server_2race_8qc =
     [ "race_penalty_accumulator", "df/d4a/server_2race_8qc.html#ae46f2d5c185099b321f4a6dc9649c5f3", null ],
     [ "race_penalty_reason", "df/d4a/server_2race_8qc.html#a41dc66c634475983cdff75eec8649bf6", null ],
     [ "race_timed_checkpoint", "df/d4a/server_2race_8qc.html#a51f6661918cf5435d4c4ef00302e72c0", null ],
-    [ "sprite", "df/d4a/server_2race_8qc.html#a44f2d02591475477365d7f7ec9d55f3c", null ]
+    [ "sprite", "df/d4a/server_2race_8qc.html#a44f2d02591475477365d7f7ec9d55f3c", null ],
+    [ "stored_netname", "df/d4a/server_2race_8qc.html#a1caaa8fe4d9b590202c8347fa835470f", null ]
 ];
