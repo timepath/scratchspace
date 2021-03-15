@@ -45,6 +45,7 @@ var searchData=
   ['team_5fgetteamscore',['Team_GetTeamScore',['../de/d4f/teamplay_8qc.html#aacf9c9f5e6578c248196822550d59a92',1,'Team_GetTeamScore(entity team_ent):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#aacf9c9f5e6578c248196822550d59a92',1,'Team_GetTeamScore(entity team_ent):&#160;teamplay.qc']]],
   ['team_5findextobit',['Team_IndexToBit',['../db/d07/teams_8qh.html#ac15de12fd4822619b3536b1061cbff75',1,'teams.qh']]],
   ['team_5findextoteam',['Team_IndexToTeam',['../db/d07/teams_8qh.html#aa49da3080c81857b2c70be950f953e9a',1,'teams.qh']]],
+  ['team_5finitteams',['Team_InitTeams',['../de/d4f/teamplay_8qc.html#a6254ff72c4c41a6189d5d7d3ee76a791',1,'Team_InitTeams():&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a6254ff72c4c41a6189d5d7d3ee76a791',1,'Team_InitTeams():&#160;teamplay.qc']]],
   ['team_5fisvalidindex',['Team_IsValidIndex',['../db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001',1,'teams.qh']]],
   ['team_5fisvalidteam',['Team_IsValidTeam',['../db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7',1,'teams.qh']]],
   ['team_5fsetnumberofaliveplayers',['Team_SetNumberOfAlivePlayers',['../de/d4f/teamplay_8qc.html#ad893032506a755dcca370f86840e3b28',1,'Team_SetNumberOfAlivePlayers(entity team_ent, int number):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#ad893032506a755dcca370f86840e3b28',1,'Team_SetNumberOfAlivePlayers(entity team_ent, int number):&#160;teamplay.qc']]],

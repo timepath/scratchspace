@@ -31,6 +31,7 @@ var sv__sandbox_8qc =
     [ "autocvar_g_sandbox_storage_autosave", "d3/d59/sv__sandbox_8qc.html#ab11b833777b455067d9b02b99ef9b1ab", null ],
     [ "autocvar_g_sandbox_storage_name", "d3/d59/sv__sandbox_8qc.html#a63e6e03a2df83862c086edf5d49e7f2b", null ],
     [ "autosave_time", "d3/d59/sv__sandbox_8qc.html#abe5e0520343a45bbbdb334d1f98f8eba", null ],
+    [ "g_sandbox_objects", "d3/d59/sv__sandbox_8qc.html#a6aec71dc4059e325dd048c78c6dc5d87", null ],
     [ "material", "d3/d59/sv__sandbox_8qc.html#a636af450f3ee8ba2a5bb1adcd5cf8348", null ],
     [ "object_attach", "d3/d59/sv__sandbox_8qc.html#a33e0a9447a19c2c0c0b4b662f787fb78", null ],
     [ "object_count", "d3/d59/sv__sandbox_8qc.html#a4e24361734484bb65206a7d57fd4cf29", null ],

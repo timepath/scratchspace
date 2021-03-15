@@ -202,11 +202,12 @@ var NAVTREEINDEX92 =
 "d9/dbc/sv__overkill_8qh.html":[2,0,1,10,0,23,17],
 "d9/dbc/sv__overkill_8qh.html#a2a3d29b3c539a2306243667a3f6d4a42":[2,0,1,10,0,23,17,4],
 "d9/dbc/sv__overkill_8qh.html#a3df1ad4e7a39586701f0ad22f045c87e":[2,0,1,10,0,23,17,1],
-"d9/dbc/sv__overkill_8qh.html#a45c2850f79fb413dfe83bd689f45115a":[2,0,1,10,0,23,17,6],
+"d9/dbc/sv__overkill_8qh.html#a45c2850f79fb413dfe83bd689f45115a":[2,0,1,10,0,23,17,7],
 "d9/dbc/sv__overkill_8qh.html#a775999ba9c0203a2477dea96451bedd1":[2,0,1,10,0,23,17,2],
 "d9/dbc/sv__overkill_8qh.html#a783903b4a82333788defe89c0629b955":[2,0,1,10,0,23,17,5],
 "d9/dbc/sv__overkill_8qh.html#aa2724857bc1c527fa9f4707a8be63f28":[2,0,1,10,0,23,17,3],
 "d9/dbc/sv__overkill_8qh.html#ab962d4e48764b6f8a8e024e573f2d675":[2,0,1,10,0,23,17,0],
+"d9/dbc/sv__overkill_8qh.html#ac10295e1f799add390f27f9a83431d73":[2,0,1,10,0,23,17,6],
 "d9/dbc/sv__overkill_8qh_source.html":[2,0,1,10,0,23,17],
 "d9/dbd/turrets_2config_8qh.html":[2,0,1,14,10],
 "d9/dbd/turrets_2config_8qh_source.html":[2,0,1,14,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "d9/dca/classXonoticCommandButton.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,160,34],
 "d9/dca/classXonoticCommandButton.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,160,58],
 "d9/dca/classXonoticCommandButton.html#a21fdc6c151d9e721da87eaaa8a04e3f9":[1,0,160,9],
-"d9/dca/classXonoticCommandButton.html#a25fb94f638529791b1b30962fac50912":[1,0,160,61],
-"d9/dca/classXonoticCommandButton.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,160,37]
+"d9/dca/classXonoticCommandButton.html#a25fb94f638529791b1b30962fac50912":[1,0,160,61]
 };

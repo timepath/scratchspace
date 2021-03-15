@@ -1,5 +1,11 @@
 var NAVTREEINDEX56 =
 {
+"d5/daa/vortex_8qh.html#ad9ec0d37a2dafc0ca6030e77ef81f3c4":[2,0,1,16,0,41,2],
+"d5/daa/vortex_8qh_source.html":[2,0,1,16,0,41],
+"d5/dab/dialog__settings__game_8qh.html":[2,0,5,4,131],
+"d5/dab/dialog__settings__game_8qh_source.html":[2,0,5,4,131],
+"d5/dac/server_2scores_8qh.html":[2,0,6,57],
+"d5/dac/server_2scores_8qh.html#a0bc1ee30316696f4db9daf10b6712117":[2,0,6,57,26],
 "d5/dac/server_2scores_8qh.html#a0cf85aa93c9a2c5aa8f70c877d9d42dc":[2,0,6,57,21],
 "d5/dac/server_2scores_8qh.html#a0e01d4df2b9d101fe63bb6295ce44112":[2,0,6,57,7],
 "d5/dac/server_2scores_8qh.html#a184ac4f6f2f69b2e00edcf69f95184c7":[2,0,6,57,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX56 =
 "d5/df2/common_2util_8qh.html#a5423e65094ab9e50fb26c72d21a41aab":[2,0,1,50,29],
 "d5/df2/common_2util_8qh.html#a54e21b66f9e46eb48ef6962079a42196":[2,0,1,50,0],
 "d5/df2/common_2util_8qh.html#a5f119916e6e7513d8e7375c84a2e5dcf":[2,0,1,50,46],
-"d5/df2/common_2util_8qh.html#a5f4732a3d07850ca4c4dcd2bca80c188":[2,0,1,50,71],
-"d5/df2/common_2util_8qh.html#a6035eddf0c50a91369cd5fe73afc1640":[2,0,1,50,13],
-"d5/df2/common_2util_8qh.html#a61b800bc085048ea480448e2aeef582a":[2,0,1,50,33],
-"d5/df2/common_2util_8qh.html#a6307fb8c8358ecb4245f4c98e2423ee4":[2,0,1,50,8],
-"d5/df2/common_2util_8qh.html#a6ae03133beaeec492cebebfa5a815214":[2,0,1,50,26],
-"d5/df2/common_2util_8qh.html#a6ae089383a3f0a95ad7b568cc736eaea":[2,0,1,50,36],
-"d5/df2/common_2util_8qh.html#a6d5759eacadb49c4df578d938532d2a8":[2,0,1,50,23]
+"d5/df2/common_2util_8qh.html#a5f4732a3d07850ca4c4dcd2bca80c188":[2,0,1,50,71]
 };

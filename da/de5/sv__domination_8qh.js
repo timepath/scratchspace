@@ -4,7 +4,6 @@ var sv__domination_8qh =
     [ "AnimateDomPoint", "da/de5/sv__domination_8qh.html#ad0b46dc01448bf8b7cefa962469cefc9", null ],
     [ "dom_Initialize", "da/de5/sv__domination_8qh.html#a8cec3b44ab39bf059c106e3d145e5091", null ],
     [ "REGISTER_MUTATOR", "da/de5/sv__domination_8qh.html#a9f495b32344f6e3748615e42afa49971", null ],
-    [ "STATIC_INIT", "da/de5/sv__domination_8qh.html#a3eb98b92282dfe7916d7dfffe6eec2de", null ],
     [ "autocvar_g_domination_point_leadlimit", "da/de5/sv__domination_8qh.html#a1b5864138be10248499a00c0a0f7d040", null ],
     [ "autocvar_g_domination_roundbased", "da/de5/sv__domination_8qh.html#aa833da099f5798813bb8942fd96af8e2", null ],
     [ "autocvar_g_domination_roundbased_point_limit", "da/de5/sv__domination_8qh.html#a0b81aadbb9b1abb5f4b60e3680cf6813", null ],

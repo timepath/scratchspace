@@ -24,5 +24,6 @@ var sv__instagib_8qh =
     [ "autocvar_g_rm_laser_speed", "dc/df0/sv__instagib_8qh.html#ac5125a7728c672998a1e38384cf81804", null ],
     [ "autocvar_g_rm_laser_spread", "dc/df0/sv__instagib_8qh.html#a28e5338015387d8ad8c70804725da414", null ],
     [ "autocvar_g_rm_laser_spread_random", "dc/df0/sv__instagib_8qh.html#a053024b50de0a02df9efdd2a6f9b72a9", null ],
-    [ "autocvar_g_rm_radius", "dc/df0/sv__instagib_8qh.html#a98468a8b8754c475c77453d1db32c830", null ]
+    [ "autocvar_g_rm_radius", "dc/df0/sv__instagib_8qh.html#a98468a8b8754c475c77453d1db32c830", null ],
+    [ "g_instagib_items", "dc/df0/sv__instagib_8qh.html#ad3d0af0f354ef381be8e31e03e17f61a", null ]
 ];

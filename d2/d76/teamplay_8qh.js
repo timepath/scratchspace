@@ -32,6 +32,7 @@ var teamplay_8qh =
     [ "Team_GetTeam", "d2/d76/teamplay_8qh.html#a2ca02a05f9e6b11bfcc7fba6c525bb39", null ],
     [ "Team_GetTeamFromIndex", "d2/d76/teamplay_8qh.html#ad8e889fc6c60b768543862d4e3454a49", null ],
     [ "Team_GetTeamScore", "d2/d76/teamplay_8qh.html#aacf9c9f5e6578c248196822550d59a92", null ],
+    [ "Team_InitTeams", "d2/d76/teamplay_8qh.html#a6254ff72c4c41a6189d5d7d3ee76a791", null ],
     [ "Team_SetNumberOfAlivePlayers", "d2/d76/teamplay_8qh.html#ad893032506a755dcca370f86840e3b28", null ],
     [ "Team_SetNumberOfControlPoints", "d2/d76/teamplay_8qh.html#a680ea919ea93b4f2657953cb23cbc498", null ],
     [ "Team_SetTeamScore", "d2/d76/teamplay_8qh.html#a540cb8e04a8ee3627134ec7edbcb4aec", null ],

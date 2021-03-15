@@ -1,5 +1,7 @@
 var sounds_2all_8inc =
 [
+    [ "SND_NADE_BONUS", "d6/dce/sounds_2all_8inc.html#a943c18709acccf8caa5afe810677beab", null ],
+    [ "SND_ONS_GENERATOR_ALARM", "d6/dce/sounds_2all_8inc.html#adc9ce34f86c970cf0094d6479a91e29f", null ],
     [ "Item_Sound", "d6/dce/sounds_2all_8inc.html#a9ed3c9d014eee8604675aed9bb11144e", null ],
     [ "SND_CTF_CAPTURE", "d6/dce/sounds_2all_8inc.html#ab3c09555410ef05037c13259438cb7c2", null ],
     [ "SND_CTF_DROPPED", "d6/dce/sounds_2all_8inc.html#a3bd499613d6533f521d20f5308b44077", null ],
@@ -139,7 +141,6 @@ var sounds_2all_8inc =
     [ "SOUND", "d6/dce/sounds_2all_8inc.html#a01e39a079eefb34e3cbc2b883b01e0f3", null ],
     [ "SOUND", "d6/dce/sounds_2all_8inc.html#a1efa12ed3bc6a5414089a51424e985cb", null ],
     [ "SOUND", "d6/dce/sounds_2all_8inc.html#afa715c2998bb7a5a3b8a9bcb67b548aa", null ],
-    [ "SOUND", "d6/dce/sounds_2all_8inc.html#acc7ae1241aa2212ba0c013c7eb535741", null ],
     [ "SOUND", "d6/dce/sounds_2all_8inc.html#a5001d6720c41fe17fe9869467874b7e8", null ],
     [ "SOUND", "d6/dce/sounds_2all_8inc.html#aaa18f3f8b30d59d1c4e4f728518f1727", null ],
     [ "SOUND", "d6/dce/sounds_2all_8inc.html#a5150c8bc3ea5f0dfe849f8ff6e154ccd", null ],
@@ -170,7 +171,6 @@ var sounds_2all_8inc =
     [ "SOUND", "d6/dce/sounds_2all_8inc.html#a2aa5dc333c0ef8ddc867b50867fecb49", null ],
     [ "SOUND", "d6/dce/sounds_2all_8inc.html#a1aaee87beadfa3f1b21853690a554eba", null ],
     [ "SOUND", "d6/dce/sounds_2all_8inc.html#a7289f1d2b21316feab684797f0d73056", null ],
-    [ "SOUND", "d6/dce/sounds_2all_8inc.html#a9fdf777c14f3a8e971a5ca4c74e04201", null ],
     [ "SOUND", "d6/dce/sounds_2all_8inc.html#a952e55d50272184be7798d0641c8e58b", null ],
     [ "SOUND", "d6/dce/sounds_2all_8inc.html#acc52549c438b8876f973e934708f2593", null ],
     [ "SOUND", "d6/dce/sounds_2all_8inc.html#a585fa3bea1e440c9c77910b8afaaa011", null ],

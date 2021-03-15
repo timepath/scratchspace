@@ -1,9 +1,5 @@
 var NAVTREEINDEX122 =
 {
-"dc/de9/classXonoticRootDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,236,4],
-"dc/de9/classXonoticRootDialog.html#aac11f0ee8546852c87e21c5365f1ca9b":[1,0,236,18],
-"dc/de9/classXonoticRootDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,236,99],
-"dc/de9/classXonoticRootDialog.html#aadf33056dcb2da0c6d706df8a5efbf1f":[1,0,236,13],
 "dc/de9/classXonoticRootDialog.html#ab33f8db8b809348fef35135c9c5e6490":[1,0,236,27],
 "dc/de9/classXonoticRootDialog.html#ab4a2357f49c688f5f40fa610c5a17b71":[1,0,236,35],
 "dc/de9/classXonoticRootDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,236,98],
@@ -81,6 +77,7 @@ var NAVTREEINDEX122 =
 "dc/df0/sv__instagib_8qh.html#aca595d7fe89cd49aff4591b8d264f551":[2,0,1,10,0,12,5,19],
 "dc/df0/sv__instagib_8qh.html#acc123b25eb23b52efaafabe5dcab71c4":[2,0,1,10,0,12,5,10],
 "dc/df0/sv__instagib_8qh.html#ad25e21e2a7abe413eba6891f0fe2ab86":[2,0,1,10,0,12,5,16],
+"dc/df0/sv__instagib_8qh.html#ad3d0af0f354ef381be8e31e03e17f61a":[2,0,1,10,0,12,5,25],
 "dc/df0/sv__instagib_8qh.html#ad4749d5439232c47d46b49b88d52ed93":[2,0,1,10,0,12,5,2],
 "dc/df0/sv__instagib_8qh.html#ae18dcbbe351bec1c33ca10500499ebcc":[2,0,1,10,0,12,5,14],
 "dc/df0/sv__instagib_8qh.html#ae7e19761270232bca63e90011f6d3b70":[2,0,1,10,0,12,5,9],
@@ -249,5 +246,8 @@ var NAVTREEINDEX122 =
 "dd/d0a/classMachineGunTurret.html#ade53c264d2eaeb4bbe18a978251a705e":[1,0,70,20],
 "dd/d0a/classMachineGunTurret.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,70,3],
 "dd/d0a/classMachineGunTurret.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,70,4],
-"dd/d0a/classMachineGunTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,70,0]
+"dd/d0a/classMachineGunTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,70,0],
+"dd/d0a/effects_8inc.html":[2,0,1,10,0,19,2],
+"dd/d0a/effects_8inc.html#a6beee43926068791a9fe91bae831303f":[2,0,1,10,0,19,2,0],
+"dd/d0a/effects_8inc.html#a8a0ed5b58c510845aa0742999d5dc5f9":[2,0,1,10,0,19,2,2]
 };

@@ -32,7 +32,6 @@ var sv__instagib_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a3bc437942b31087c3b05f7fe7442ce60", null ],
     [ "RandomItems_GetRandomInstagibItemClassName", "d4/db0/sv__instagib_8qc.html#af288d5699858924210c3052cd73c3ae8", null ],
     [ "replace_with_insta_cells", "d4/db0/sv__instagib_8qc.html#a0abfe12ffff043db18c754ba133722e0", null ],
-    [ "STATIC_INIT", "d4/db0/sv__instagib_8qc.html#ab0caafdd44faa89dbaee8ce889cd81ff", null ],
     [ "autocvar_g_instagib_ammo_convert_bullets", "d4/db0/sv__instagib_8qc.html#a78703ecb39fe304d6e9206d472e90d9c", null ],
     [ "autocvar_g_instagib_ammo_convert_cells", "d4/db0/sv__instagib_8qc.html#a1286f970b5765b4dbbc76d9fd9ecefc3", null ],
     [ "autocvar_g_instagib_ammo_convert_rockets", "d4/db0/sv__instagib_8qc.html#af9001132951b56cd5f5c292620d5ad9b", null ],
@@ -43,7 +42,6 @@ var sv__instagib_8qc =
     [ "autocvar_g_instagib_friendlypush", "d4/db0/sv__instagib_8qc.html#a1682eb98a87e6e332841618128744512", null ],
     [ "autocvar_g_instagib_mirrordamage", "d4/db0/sv__instagib_8qc.html#a7ca8902e2ca213af048e4e23a82a8784", null ],
     [ "autocvar_g_instagib_speed_highspeed", "d4/db0/sv__instagib_8qc.html#ad1fd29211b9a3896b05bd64a4d7f746b", null ],
-    [ "g_instagib_items", "d4/db0/sv__instagib_8qc.html#ad3d0af0f354ef381be8e31e03e17f61a", null ],
     [ "instagib_needammo", "d4/db0/sv__instagib_8qc.html#a554958a3958a9d1c380533878187ce8c", null ],
     [ "instagib_nextthink", "d4/db0/sv__instagib_8qc.html#a76ae79b41dba64f62cf2fa76c60eda6e", null ]
 ];

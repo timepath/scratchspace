@@ -28,7 +28,6 @@ var sv__invasion_8qc =
     [ "spawnfunc", "db/da5/sv__invasion_8qc.html#a37398ef16170bd32f0348589a92768c3", null ],
     [ "spawnfunc", "db/da5/sv__invasion_8qc.html#a1f01536be6495b440a9b4ee2b8bd7e36", null ],
     [ "spawnfunc", "db/da5/sv__invasion_8qc.html#a15b6d7bdf25c342d02f9cd4f94c3a44f", null ],
-    [ "STATIC_INIT", "db/da5/sv__invasion_8qc.html#aa95df6f1b64a3ac446234d4b3e4f84f2", null ],
     [ "target_invasion_roundend_use", "db/da5/sv__invasion_8qc.html#a1e482d9bdd9345b4203f0fe28e28008d", null ],
     [ "WinningCondition_Invasion", "db/da5/sv__invasion_8qc.html#a0f05297c633fd91bd5f35ae78402f338", null ],
     [ "autocvar_g_invasion_monster_count", "db/da5/sv__invasion_8qc.html#a5b35ee5d3ffe25e7f0c7026a502bcf20", null ],
@@ -37,9 +36,6 @@ var sv__invasion_8qc =
     [ "autocvar_g_invasion_spawnpoint_spawn_delay", "db/da5/sv__invasion_8qc.html#a3416ec2b05671677afee7515f63ffb86", null ],
     [ "autocvar_g_invasion_warmup", "db/da5/sv__invasion_8qc.html#a43e52b9ec872b58162ad1b7f5d91fb26", null ],
     [ "autocvar_g_invasion_zombies_only", "db/da5/sv__invasion_8qc.html#adb135781f311cfeda2846cb4a8f3cc53", null ],
-    [ "g_invasion_roundends", "db/da5/sv__invasion_8qc.html#a423f16bd8faa1757e975a1d17c01f6b2", null ],
-    [ "g_invasion_spawns", "db/da5/sv__invasion_8qc.html#ad0172f050477dc1d65d9e21b5ae0bd3b", null ],
-    [ "g_invasion_waves", "db/da5/sv__invasion_8qc.html#a6313fca048197dd32dbfc016c61f27c7", null ],
     [ "inv_endreached", "db/da5/sv__invasion_8qc.html#a833a130189006a69a61b6be981cd446d", null ],
     [ "inv_warning_shown", "db/da5/sv__invasion_8qc.html#ae0c6917267edca208b7769842e9daa50", null ],
     [ "victent_present", "db/da5/sv__invasion_8qc.html#a1e0e531bf0d8193f7a77fef247f76a51", null ]

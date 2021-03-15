@@ -1,8 +1,5 @@
 var NAVTREEINDEX129 =
 {
-"dd/db3/classXonoticQuitDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,231,86],
-"dd/db3/classXonoticQuitDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,231,32],
-"dd/db3/classXonoticQuitDialog.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,231,14],
 "dd/db3/classXonoticQuitDialog.html#a8b78346a74df75772de387092d850f39":[1,0,231,58],
 "dd/db3/classXonoticQuitDialog.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,231,39],
 "dd/db3/classXonoticQuitDialog.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,231,69],
@@ -216,12 +213,12 @@ var NAVTREEINDEX129 =
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,15,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,15,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,15,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,1],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,0],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,15,1],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,15,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,15,12],
-"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,2],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,15,3],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,5],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,15,4],
 "dd/dd5/sv__model_8qc_source.html":[2,0,4,0,15],
@@ -249,5 +246,8 @@ var NAVTREEINDEX129 =
 "dd/dd7/classRacer.html#ab7a3243456f6e318f70f9d8a2b161d94":[1,0,110,10],
 "dd/dd7/classRacer.html#abb1c8e87e338a15e04ad6d865c607ccd":[1,0,110,22],
 "dd/dd7/classRacer.html#ac498d3c95facce6811b1d5d01509810a":[1,0,110,20],
-"dd/dd7/classRacer.html#ad567ac3b7d3cafb4790f9eddd9120171":[1,0,110,9]
+"dd/dd7/classRacer.html#ad567ac3b7d3cafb4790f9eddd9120171":[1,0,110,9],
+"dd/dd7/classRacer.html#ad980a3178ad348677141cfced220e8af":[1,0,110,17],
+"dd/dd7/classRacer.html#aded5beab52ac6d69480fccd0d55b4702":[1,0,110,26],
+"dd/dd7/classRacer.html#aef71e021298ebb68d8f968ab6c3396ad":[1,0,110,8]
 };

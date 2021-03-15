@@ -35,7 +35,6 @@ var sv__assault_8qc =
     [ "spawnfunc", "d7/dbb/sv__assault_8qc.html#a91fddb216919cc324a92d5cb2752acd1", null ],
     [ "spawnfunc", "d7/dbb/sv__assault_8qc.html#a17058b94f05de0db468dcc36a56ed957", null ],
     [ "spawnfunc", "d7/dbb/sv__assault_8qc.html#a54161a5269b9f62ae9ae7ba1ad9ec7b3", null ],
-    [ "STATIC_INIT", "d7/dbb/sv__assault_8qc.html#a6aba73e43c0b74410e84f978addfbc1b", null ],
     [ "target_assault_roundend_reset", "d7/dbb/sv__assault_8qc.html#aa245e93a6adfcf866dc6302bfcbd45ab", null ],
     [ "target_assault_roundend_use", "d7/dbb/sv__assault_8qc.html#aab05b99039e15442616ce88737d2bc92", null ],
     [ "target_objective_decrease_activate", "d7/dbb/sv__assault_8qc.html#aae75592036bbad8155a2c2b1f82aa17c", null ],
@@ -44,8 +43,5 @@ var sv__assault_8qc =
     [ "WinningCondition_Assault", "d7/dbb/sv__assault_8qc.html#adc4d12f7dad0d3fca008c994bb1a7e73", null ],
     [ "as_round", "d7/dbb/sv__assault_8qc.html#a72842c12d593cf3a8ab8639f0aab2f16", null ],
     [ "ent_winning", "d7/dbb/sv__assault_8qc.html#a6f4edbea3efa7b76739a74aff758b159", null ],
-    [ "g_assault_destructibles", "d7/dbb/sv__assault_8qc.html#a25d36d50af03db3732ae75524ee3edd5", null ],
-    [ "g_assault_objectivedecreasers", "d7/dbb/sv__assault_8qc.html#aa75782a75c52b5f7135328687dc581c2", null ],
-    [ "g_assault_objectives", "d7/dbb/sv__assault_8qc.html#a64545cdb7bf20556bfe052fa6e774ab3", null ],
     [ "sprite", "d7/dbb/sv__assault_8qc.html#a44f2d02591475477365d7f7ec9d55f3c", null ]
 ];

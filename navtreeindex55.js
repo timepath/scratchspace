@@ -1,5 +1,11 @@
 var NAVTREEINDEX55 =
 {
+"d5/d95/lib_2matrix_2matrix_8qh_source.html":[2,0,4,1,5],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html":[1,0,204],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,204,6],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,204,104],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a08ffa79439a4dea15f523602429af5d8":[1,0,204,47],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,204,102],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a0e5a0bf76ed33c92649bddc14791bfb5":[1,0,204,101],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,204,53],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a134618d9ba08f227978e9f7abc65dcd7":[1,0,204,44],
@@ -243,11 +249,5 @@ var NAVTREEINDEX55 =
 "d5/da7/dialog__hudpanel__chat_8qc.html#a97bba5cf1e62015d82292c0d6efccf42":[2,0,5,4,50,0],
 "d5/da7/dialog__hudpanel__chat_8qc_source.html":[2,0,5,4,50],
 "d5/daa/vortex_8qh.html":[2,0,1,16,0,41],
-"d5/daa/vortex_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,41,1],
-"d5/daa/vortex_8qh.html#ad9ec0d37a2dafc0ca6030e77ef81f3c4":[2,0,1,16,0,41,2],
-"d5/daa/vortex_8qh_source.html":[2,0,1,16,0,41],
-"d5/dab/dialog__settings__game_8qh.html":[2,0,5,4,131],
-"d5/dab/dialog__settings__game_8qh_source.html":[2,0,5,4,131],
-"d5/dac/server_2scores_8qh.html":[2,0,6,57],
-"d5/dac/server_2scores_8qh.html#a0bc1ee30316696f4db9daf10b6712117":[2,0,6,57,26]
+"d5/daa/vortex_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,41,1]
 };

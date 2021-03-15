@@ -17,6 +17,7 @@ var sv__onslaught_8qh =
     [ "autocvar_g_onslaught_point_limit", "d7/dd0/sv__onslaught_8qh.html#a80e54120b21e53f1308f2d4e0a6b3e0e", null ],
     [ "CPGEN_WAYPOINT_OFFSET", "d7/dd0/sv__onslaught_8qh.html#aad0a78039fd23286435f4e972209d402", null ],
     [ "CPICON_OFFSET", "d7/dd0/sv__onslaught_8qh.html#a99463eaaf53c225271cdf883f2b4bc72", null ],
+    [ "g_onsshields", "d7/dd0/sv__onslaught_8qh.html#a9b18eb40656a8afc97f2b137f3b9a2f0", null ],
     [ "GEN_THINKRATE", "d7/dd0/sv__onslaught_8qh.html#ada9d3f12330d59a4ff372049e859e567", null ],
     [ "havocbot_attack_time", "d7/dd0/sv__onslaught_8qh.html#a90b02641f0c7d1b01f7998fe398c95c1", null ],
     [ "HAVOCBOT_ONS_ROLE_ASSISTANT", "d7/dd0/sv__onslaught_8qh.html#adaa9070c72f42370d85a38da35a03d2f", null ],
