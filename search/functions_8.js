@@ -97,6 +97,7 @@ var searchData=
   ['hud_5fconfigure_5fpostdraw',['HUD_Configure_PostDraw',['../dc/d90/hud__config_8qc.html#a997bcd4a77add62b1ec1ed127a5bd1bb',1,'HUD_Configure_PostDraw():&#160;hud_config.qc'],['../dd/dcd/hud__config_8qh.html#a997bcd4a77add62b1ec1ed127a5bd1bb',1,'HUD_Configure_PostDraw():&#160;hud_config.qc']]],
   ['hud_5fcontents',['HUD_Contents',['../d6/dd3/view_8qc.html#ab9f68eba1b4ad0dfe652f20a893716da',1,'view.qc']]],
   ['hud_5fcrosshair',['HUD_Crosshair',['../de/d23/crosshair_8qc.html#a802dfb52366f7223086a1a95a4f08eeb',1,'HUD_Crosshair(entity this):&#160;crosshair.qc'],['../df/d7f/crosshair_8qh.html#a802dfb52366f7223086a1a95a4f08eeb',1,'HUD_Crosshair(entity this):&#160;crosshair.qc']]],
+  ['hud_5fcrosshair_5fapplyplayeralpha',['HUD_Crosshair_ApplyPlayerAlpha',['../de/d23/crosshair_8qc.html#a2662f7c3ed02fdadc906c82180faec53',1,'crosshair.qc']]],
   ['hud_5fcrosshair_5fvehicle',['HUD_Crosshair_Vehicle',['../de/d23/crosshair_8qc.html#a44674039da1ad171f3a48979bbbd35f4',1,'crosshair.qc']]],
   ['hud_5fcursor_5fshow',['HUD_Cursor_Show',['../d6/dd3/view_8qc.html#af6e221e970668e64b6cbb0ae7c9bacb3',1,'view.qc']]],
   ['hud_5fdamage',['HUD_Damage',['../d6/dd3/view_8qc.html#a9132fd6421e7da2ae37bbc4f80f0fd47',1,'view.qc']]],

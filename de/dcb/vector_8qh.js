@@ -4,6 +4,7 @@ var vector_8qh =
     [ "cross", "de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5", null ],
     [ "dotproduct", "de/dcb/vector_8qh.html#ae8d8b31974c50cca8b60d3734bc00dac", null ],
     [ "PITCH", "de/dcb/vector_8qh.html#a81a1a1679a2fe78af8f6decac3806c97", null ],
+    [ "pointinsidebox", "de/dcb/vector_8qh.html#a279c625bb42b661d7299dfa36194e9be", null ],
     [ "ROLL", "de/dcb/vector_8qh.html#a7f8a5f63bb6820dbb4290a5b08f938a8", null ],
     [ "vdist", "de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30", null ],
     [ "vec2", "de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910", null ],
