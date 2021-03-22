@@ -1,5 +1,6 @@
 var NAVTREEINDEX101 =
 {
+"da/dc1/server_2player_8qh.html#a28cad15c137eaec3478c7cafb9b22a84":[2,0,6,46,24],
 "da/dc1/server_2player_8qh.html#a2c4acf85cd876d0e628435d91592d615":[2,0,6,46,5],
 "da/dc1/server_2player_8qh.html#a2f9b6309d912580710fc692932296dc0":[2,0,6,46,19],
 "da/dc1/server_2player_8qh.html#a37dded9cd4e38a297d5668338298a9a4":[2,0,6,46,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX101 =
 "da/ded/damage_8qc.html#a0b53522295b7b52ea512c3102a5051ff":[2,0,6,23,18],
 "da/ded/damage_8qc.html#a1ca977fd4fb6900884c2cea28062c8a7":[2,0,6,23,2],
 "da/ded/damage_8qc.html#a20c748d061a8595dc442ff0dbcdb0768":[2,0,6,23,11],
-"da/ded/damage_8qc.html#a24aaf696797544264665df5f05253d1c":[2,0,6,23,12],
-"da/ded/damage_8qc.html#a2606d7979cdea514c3d8271956430a8d":[2,0,6,23,17]
+"da/ded/damage_8qc.html#a24aaf696797544264665df5f05253d1c":[2,0,6,23,12]
 };

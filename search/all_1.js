@@ -676,6 +676,7 @@ var searchData=
   ['autocvar_5fcon_5fchat',['autocvar_con_chat',['../d7/d6f/client_2hud_2panel_2chat_8qh.html#a2133679236cf3264da767bae41ab9b35',1,'chat.qh']]],
   ['autocvar_5fcon_5fchatrect',['autocvar_con_chatrect',['../d7/d6f/client_2hud_2panel_2chat_8qh.html#ace93cc8f65a0138a213c794bfb240802',1,'chat.qh']]],
   ['autocvar_5fcon_5fchatsize',['autocvar_con_chatsize',['../d7/d6f/client_2hud_2panel_2chat_8qh.html#afc661ce939d4fe61e03ab31c0c093a5b',1,'chat.qh']]],
+  ['autocvar_5fcon_5fchatwidth',['autocvar_con_chatwidth',['../d7/d6f/client_2hud_2panel_2chat_8qh.html#a3f632a7031182e2f0ac65a44f4c9b8b7',1,'chat.qh']]],
   ['autocvar_5fcon_5fnotify',['autocvar_con_notify',['../d7/d6f/client_2hud_2panel_2chat_8qh.html#acac74ea4c75470ae16991addc80d08d4',1,'chat.qh']]],
   ['autocvar_5fcon_5fnotifysize',['autocvar_con_notifysize',['../d7/d6f/client_2hud_2panel_2chat_8qh.html#a348d6fa975a4d68764a9af59a0fc0349',1,'chat.qh']]],
   ['autocvar_5fcrosshair',['autocvar_crosshair',['../df/d7f/crosshair_8qh.html#ae999f7397af714b98ce97137903cd1af',1,'crosshair.qh']]],

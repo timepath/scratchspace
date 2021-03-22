@@ -1,5 +1,6 @@
 var NAVTREEINDEX138 =
 {
+"de/d9c/classTab.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,131,64],
 "de/d9c/classTab.html#a218a9c923f925977d93dd08698594573":[1,0,131,42],
 "de/d9c/classTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,131,4],
 "de/d9c/classTab.html#a2340684d6c149b26019076bc35c798a2":[1,0,131,99],
@@ -248,6 +249,5 @@ var NAVTREEINDEX138 =
 "de/dab/classObserver.html#aebb2f970915f520a2fa9a55c9b91bf3e":[1,0,88,58],
 "de/dab/classObserver.html#afaf857445a540ea4fef6ab11fa112699":[1,0,88,56],
 "de/dab/classObserver.html#afd3da46f8613f02a2a7f1f2f0bcd2f07":[1,0,88,52],
-"de/dae/havocbot_2scripting_8qh.html":[2,0,6,0,0,0,6],
-"de/dae/havocbot_2scripting_8qh.html#a6893523d5caad3e47941ebb88916a721":[2,0,6,0,0,0,6,0]
+"de/dae/havocbot_2scripting_8qh.html":[2,0,6,0,0,0,6]
 };
