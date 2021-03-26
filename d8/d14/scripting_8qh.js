@@ -8,6 +8,7 @@ var scripting_8qh =
     [ "CMD_STATUS_FINISHED", "d8/d14/scripting_8qh.html#a7486b01a2f8bcdc795620492866d7480", null ],
     [ "bot_cmdhelp", "d8/d14/scripting_8qh.html#a5a2e538e769fa41a909133b1f3ae44c1", null ],
     [ "bot_execute_commands", "d8/d14/scripting_8qh.html#abad1d3e4714ca1832aab73ee2b8862ea", null ],
+    [ "bot_ispaused", "d8/d14/scripting_8qh.html#ad44a39394f6e112cf023cc9151ff8272", null ],
     [ "bot_list_commands", "d8/d14/scripting_8qh.html#ab67baa1ea1f9c2ed4b7bf4abc41a735e", null ],
     [ "bot_queuecommand", "d8/d14/scripting_8qh.html#a3814de61b054d9dfe64c0d3b4a92191f", null ],
     [ "bot_resetqueues", "d8/d14/scripting_8qh.html#a0f917669c5fa1a779096bb3e65e5c1e0", null ],

@@ -34,6 +34,7 @@ var scripting_8qc =
     [ "bot_execute_commands_once", "d6/d27/scripting_8qc.html#aaca537ca751853fba4204c751942df21", null ],
     [ "bot_getplace", "d6/d27/scripting_8qc.html#a6ea8072714047f70893e023d2d7513f2", null ],
     [ "bot_havecommand", "d6/d27/scripting_8qc.html#a383cd8c79304bf79f1b1579c713e8b97", null ],
+    [ "bot_ispaused", "d6/d27/scripting_8qc.html#ad44a39394f6e112cf023cc9151ff8272", null ],
     [ "bot_list_commands", "d6/d27/scripting_8qc.html#ab67baa1ea1f9c2ed4b7bf4abc41a735e", null ],
     [ "bot_presskeys", "d6/d27/scripting_8qc.html#ad20b1ffe17ad70c8617f6985b9496790", null ],
     [ "bot_queuecommand", "d6/d27/scripting_8qc.html#a3814de61b054d9dfe64c0d3b4a92191f", null ],

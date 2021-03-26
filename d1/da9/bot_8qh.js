@@ -6,7 +6,6 @@ var bot_8qh =
     [ "WETFEET", "d1/da9/bot_8qh.html#ad6635af405405467474aad7541a7326d", null ],
     [ "autoskill", "d1/da9/bot_8qh.html#a62777f93cd332cdb248328fd072e3547", null ],
     [ "bot_calculate_stepheightvec", "d1/da9/bot_8qh.html#a93e7d8dfd34f0d07a3c9f4ef59ed3888", null ],
-    [ "bot_clear", "d1/da9/bot_8qh.html#aaab6595d20cc13a72a099b0256b9f056", null ],
     [ "bot_clientconnect", "d1/da9/bot_8qh.html#abd19370e4d61d3549dbbe44826531536", null ],
     [ "bot_clientdisconnect", "d1/da9/bot_8qh.html#ab10bcd46b240e1fd8154de39ddd5c40e", null ],
     [ "bot_custom_weapon_priority_setup", "d1/da9/bot_8qh.html#a2106f3a69bfc83423ff921b8c7aa15a0", null ],

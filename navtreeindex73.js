@@ -1,7 +1,5 @@
 var NAVTREEINDEX73 =
 {
-"d7/d9c/classMachineGunTurretAttack.html#ae13bbe0630016ff703be3bc0ef7c9dee":[1,0,71,19],
-"d7/d9c/classMachineGunTurretAttack.html#ae194b82053f7fefe8dba64b54a40cc4c":[1,0,71,34],
 "d7/d9c/classMachineGunTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,71,26],
 "d7/d9c/classMachineGunTurretAttack.html#aef5bbecf4ae66d83e687082e1ae2eb29":[1,0,71,9],
 "d7/d9c/classMachineGunTurretAttack.html#af1b051b958068eeba6d47b04096a3a2f":[1,0,71,33],
@@ -249,5 +247,7 @@ var NAVTREEINDEX73 =
 "d7/dac/classXonoticMutatorsDialog.html#a6060cec950f29ae4a3f32cec12484b4d":[1,0,222,50],
 "d7/dac/classXonoticMutatorsDialog.html#a6076dd31350be0d5551911c1b3dabfa2":[1,0,222,72],
 "d7/dac/classXonoticMutatorsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,222,87],
-"d7/dac/classXonoticMutatorsDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,222,99]
+"d7/dac/classXonoticMutatorsDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,222,99],
+"d7/dac/classXonoticMutatorsDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,222,2],
+"d7/dac/classXonoticMutatorsDialog.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,222,68]
 };
