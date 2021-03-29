@@ -70,7 +70,7 @@ var searchData=
   ['onlinebanlist_5ftimeout',['OnlineBanList_Timeout',['../d6/d95/ipban_8qc.html#ab505a8d0f45567050fccefe47203c6a7',1,'ipban.qc']]],
   ['onlinebanlist_5furi_5fget_5fcallback',['OnlineBanList_URI_Get_Callback',['../d6/d95/ipban_8qc.html#ad7174054ad76d672732a64c0a20d658e',1,'OnlineBanList_URI_Get_Callback(float id, float status, string data):&#160;ipban.qc'],['../da/ddd/ipban_8qh.html#ad7174054ad76d672732a64c0a20d658e',1,'OnlineBanList_URI_Get_Callback(float id, float status, string data):&#160;ipban.qc']]],
   ['only_5fplayers',['ONLY_PLAYERS',['../d1/dbc/defs_8qh.html#a65214a454cb98f7765af32a35afd408d',1,'defs.qh']]],
-  ['onremove',['ONREMOVE',['../d9/d51/intrusivelist_8qh.html#a7b298ae78d7ef350b667ae2e365c18e6',1,'ONREMOVE(entity this):&#160;intrusivelist.qh'],['../db/d0a/oo_8qh.html#a51fae8207506d45ff752827f5daa85c1',1,'ONREMOVE(entity this):&#160;oo.qh']]],
+  ['onremove',['ONREMOVE',['../d9/d51/intrusivelist_8qh.html#af22a6c5f40b1535dbb07a0d21b847955',1,'ONREMOVE(entity this):&#160;intrusivelist.qh'],['../db/d0a/oo_8qh.html#a51fae8207506d45ff752827f5daa85c1',1,'ONREMOVE(entity this):&#160;oo.qh']]],
   ['ons_5fcamsetup',['ons_camSetup',['../d0/de4/sv__onslaught_8qc.html#a0f6b57a7dd7debf7ad21f843bf216a3c',1,'sv_onslaught.qc']]],
   ['ons_5fcaptureshield_5fcustomize',['ons_CaptureShield_Customize',['../d0/de4/sv__onslaught_8qc.html#ae9c745cc2f400b7191a0a4bb71a3748c',1,'sv_onslaught.qc']]],
   ['ons_5fcaptureshield_5fforce',['ons_captureshield_force',['../d7/dd0/sv__onslaught_8qh.html#a660adb9561a1b9f4a3af812b4c2d4ecc',1,'sv_onslaught.qh']]],
