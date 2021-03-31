@@ -73,14 +73,13 @@ var NAVTREEINDEX101 =
 "da/dc7/test_8qc.html#a524e5106975e3e3811df0d2f5d16fef8":[2,0,4,61,1],
 "da/dc7/test_8qc_source.html":[2,0,4,61],
 "da/dcc/sv__keepaway_8qh.html":[2,0,1,3,0,9,7],
-"da/dcc/sv__keepaway_8qh.html#a238e596c3af5922ccc86a9b294504e14":[2,0,1,3,0,9,7,3],
 "da/dcc/sv__keepaway_8qh.html#a259b3a95461e18da357a2b9d7512e2e6":[2,0,1,3,0,9,7,0],
-"da/dcc/sv__keepaway_8qh.html#a4da9db49ebe110a4705a5819cf22ef9b":[2,0,1,3,0,9,7,5],
+"da/dcc/sv__keepaway_8qh.html#a4da9db49ebe110a4705a5819cf22ef9b":[2,0,1,3,0,9,7,4],
 "da/dcc/sv__keepaway_8qh.html#a5b9c6f34b2b2004f1dd81df0ecf52a38":[2,0,1,3,0,9,7,2],
-"da/dcc/sv__keepaway_8qh.html#a74105717ebb9c02d72b191ddc58a2176":[2,0,1,3,0,9,7,6],
-"da/dcc/sv__keepaway_8qh.html#aafab530e463e712c9ac91ab0d74e17b6":[2,0,1,3,0,9,7,4],
+"da/dcc/sv__keepaway_8qh.html#a74105717ebb9c02d72b191ddc58a2176":[2,0,1,3,0,9,7,5],
+"da/dcc/sv__keepaway_8qh.html#aafab530e463e712c9ac91ab0d74e17b6":[2,0,1,3,0,9,7,3],
 "da/dcc/sv__keepaway_8qh.html#ad066a4c24559d830eee8b0e63c5e5d0e":[2,0,1,3,0,9,7,1],
-"da/dcc/sv__keepaway_8qh.html#ae607caf6a8a2b653b882e0abf1a3afd4":[2,0,1,3,0,9,7,7],
+"da/dcc/sv__keepaway_8qh.html#ae607caf6a8a2b653b882e0abf1a3afd4":[2,0,1,3,0,9,7,6],
 "da/dcc/sv__keepaway_8qh_source.html":[2,0,1,3,0,9,7],
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh.html":[2,0,1,3,0,12,11],
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh.html#a3db352ed2525ccc9b4fec62af48fd1ff":[2,0,1,3,0,12,11,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX101 =
 "da/ded/damage_8qc.html#a1ca977fd4fb6900884c2cea28062c8a7":[2,0,6,23,2],
 "da/ded/damage_8qc.html#a20c748d061a8595dc442ff0dbcdb0768":[2,0,6,23,11],
 "da/ded/damage_8qc.html#a24aaf696797544264665df5f05253d1c":[2,0,6,23,12],
-"da/ded/damage_8qc.html#a2606d7979cdea514c3d8271956430a8d":[2,0,6,23,17]
+"da/ded/damage_8qc.html#a2606d7979cdea514c3d8271956430a8d":[2,0,6,23,17],
+"da/ded/damage_8qc.html#a30b6dcb0a5e148d3961cad10abdaf5af":[2,0,6,23,15]
 };
