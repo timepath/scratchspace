@@ -1,6 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"d3/da9/classMineLayer.html#a5bb96554771487710b78db2954a6ceb0":[1,0,76,18],
 "d3/da9/classMineLayer.html#a693da712af4359ea5c45528ea19413bf":[1,0,76,6],
 "d3/da9/classMineLayer.html#a6e7cf931640ad5920875b53d6aef94e5":[1,0,76,35],
 "d3/da9/classMineLayer.html#a7388eaa85b4d9f9cdc9d9531941849e4":[1,0,76,14],
@@ -249,5 +248,6 @@ var NAVTREEINDEX33 =
 "d3/dba/classXonoticLanguageList.html#af7b59e695b6ffa4c2db2339aae3cc716":[1,0,212,8],
 "d3/dba/classXonoticLanguageList.html#af89ea045533cba3ba7b219c6c2ecff02":[1,0,212,15],
 "d3/dba/classXonoticLanguageList.html#afd464372a361c08580507b7f326d1ea4":[1,0,212,48],
-"d3/dba/classXonoticLanguageList.html#afdc821c0ef897b5d97375d0c2bf3d179":[1,0,212,46]
+"d3/dba/classXonoticLanguageList.html#afdc821c0ef897b5d97375d0c2bf3d179":[1,0,212,46],
+"d3/dbd/dialog__firstrun_8qc.html":[2,0,5,4,44]
 };

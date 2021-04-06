@@ -1,6 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"d5/dab/dialog__settings__game_8qh_source.html":[2,0,5,4,131],
 "d5/dac/server_2scores_8qh.html":[2,0,6,57],
 "d5/dac/server_2scores_8qh.html#a0bc1ee30316696f4db9daf10b6712117":[2,0,6,57,26],
 "d5/dac/server_2scores_8qh.html#a0cf85aa93c9a2c5aa8f70c877d9d42dc":[2,0,6,57,21],
@@ -249,5 +248,6 @@ var NAVTREEINDEX56 =
 "d5/df2/common_2util_8qh.html#a5f4732a3d07850ca4c4dcd2bca80c188":[2,0,1,50,71],
 "d5/df2/common_2util_8qh.html#a6035eddf0c50a91369cd5fe73afc1640":[2,0,1,50,13],
 "d5/df2/common_2util_8qh.html#a61b800bc085048ea480448e2aeef582a":[2,0,1,50,33],
-"d5/df2/common_2util_8qh.html#a6307fb8c8358ecb4245f4c98e2423ee4":[2,0,1,50,8]
+"d5/df2/common_2util_8qh.html#a6307fb8c8358ecb4245f4c98e2423ee4":[2,0,1,50,8],
+"d5/df2/common_2util_8qh.html#a6ae03133beaeec492cebebfa5a815214":[2,0,1,50,26]
 };

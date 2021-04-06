@@ -1,6 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"d6/d70/magicear_8qh.html#a8bc15a7b698c69d9fabb684e4e933d2a":[2,0,1,6,3,25,9],
 "d6/d70/magicear_8qh.html#a92f11bdfee738fe9d310c8f0b6187535":[2,0,1,6,3,25,8],
 "d6/d70/magicear_8qh.html#a9395cc9481c3b123324076f4839fa117":[2,0,1,6,3,25,7],
 "d6/d70/magicear_8qh.html#a9666928566f7bf23eab9d47455f21b2f":[2,0,1,6,3,25,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX61 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,177,2],
 "d6/d79/classXonoticHUDWeaponsDialog.html":[1,0,207],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,207,6],
-"d6/d79/classXonoticHUDWeaponsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,207,104]
+"d6/d79/classXonoticHUDWeaponsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,207,104],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a08ffa79439a4dea15f523602429af5d8":[1,0,207,47]
 };

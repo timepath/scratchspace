@@ -1,6 +1,5 @@
 var NAVTREEINDEX120 =
 {
-"dc/da0/classXonoticMapInfoDialog.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,215,70],
 "dc/da0/classXonoticMapInfoDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,215,17],
 "dc/da0/classXonoticMapInfoDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,215,106],
 "dc/da0/classXonoticMapInfoDialog.html#a4ce700a3a0917cb5ebbc8edbe293630f":[1,0,215,40],
@@ -249,5 +248,6 @@ var NAVTREEINDEX120 =
 "dc/dda/classAmmo.html#acdf2c55b6451a8c5b39baa21a23cd15d":[1,0,0,10],
 "dc/dda/classAmmo.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,0,5],
 "dc/dda/classAmmo.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,0,13],
-"dc/ddf/common_2gamemodes_2gamemode_2assault_2__mod_8qh.html":[2,0,1,3,0,0,1]
+"dc/ddf/common_2gamemodes_2gamemode_2assault_2__mod_8qh.html":[2,0,1,3,0,0,1],
+"dc/ddf/common_2gamemodes_2gamemode_2assault_2__mod_8qh_source.html":[2,0,1,3,0,0,1]
 };

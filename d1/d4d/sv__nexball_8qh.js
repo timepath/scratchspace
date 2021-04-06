@@ -26,6 +26,5 @@ var sv__nexball_8qh =
     [ "GOAL_TOUCHPLAYER", "d1/d4d/sv__nexball_8qh.html#ae2d8e37817ad0c910ce30061c9a46f7f", null ],
     [ "nb_dropper", "d1/d4d/sv__nexball_8qh.html#aad8f9174be5a8b223fd1ec68fbc35c77", null ],
     [ "nb_droptime", "d1/d4d/sv__nexball_8qh.html#ae6aa1cfd6cadadb8a12575e89d6276cd", null ],
-    [ "nb_teams", "d1/d4d/sv__nexball_8qh.html#a3312dd328360a2f85e8a39a07af66e34", null ],
-    [ "teamtime", "d1/d4d/sv__nexball_8qh.html#adb9caae13a59cc2c0cd5fa0572b27182", null ]
+    [ "nb_teams", "d1/d4d/sv__nexball_8qh.html#a3312dd328360a2f85e8a39a07af66e34", null ]
 ];
