@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"dc/d23/classVehicle.html#af1e7a9d937de540345fea6c3f4058b0f":[1,0,139,26],
+"dc/d23/classVehicle.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,139,0],
 "dc/d23/dialog__settings_8qh.html":[2,0,5,4,123],
 "dc/d23/dialog__settings_8qh_source.html":[2,0,5,4,123],
 "dc/d24/rifle_8qh.html":[2,0,1,16,0,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "dc/d3d/csqcmodel__hooks_8qc.html#a21deac1a37296b9fdf86eedd68f71b30":[2,0,0,11,36],
 "dc/d3d/csqcmodel__hooks_8qc.html#a24be64785c2d8231c9e3f39697365466":[2,0,0,11,21],
 "dc/d3d/csqcmodel__hooks_8qc.html#a2624228f82a5ae03006d9a33fc1b707c":[2,0,0,11,7],
-"dc/d3d/csqcmodel__hooks_8qc.html#a2b971c267f8e7807ea8b60a6070d3a2c":[2,0,0,11,2],
-"dc/d3d/csqcmodel__hooks_8qc.html#a2cff298ea0a3612eecc46e934a570df0":[2,0,0,11,47],
-"dc/d3d/csqcmodel__hooks_8qc.html#a2d651a2465a2b55127d67c245e3af6db":[2,0,0,11,53]
+"dc/d3d/csqcmodel__hooks_8qc.html#a2b971c267f8e7807ea8b60a6070d3a2c":[2,0,0,11,2]
 };

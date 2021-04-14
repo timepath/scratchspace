@@ -2,6 +2,7 @@ var searchData=
 [
   ['same_5fteam',['SAME_TEAM',['../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4',1,'teams.qh']]],
   ['sandbox_5fgetarg',['SANDBOX_GETARG',['../d3/d59/sv__sandbox_8qc.html#a29d2c4027162621e85bef5db0197d290',1,'sv_sandbox.qc']]],
+  ['sb_5fextra_5fsorting_5ffields',['SB_EXTRA_SORTING_FIELDS',['../d3/d07/scoreboard_8qc.html#ad818dc41ffe912a62b0910d84b764346',1,'scoreboard.qc']]],
   ['scoreboard_5fdefault_5fcolumns',['SCOREBOARD_DEFAULT_COLUMNS',['../d3/d07/scoreboard_8qc.html#a8255b834728e7b21dbd03c51898cccc3',1,'scoreboard.qc']]],
   ['scores',['scores',['../da/dc3/common_2scores_8qh.html#a33057a6d152c561394a3b599fed28313',1,'scores.qh']]],
   ['scores_5fflags',['scores_flags',['../da/dc3/common_2scores_8qh.html#a9f265a37d91891818cc123502adb5676',1,'scores.qh']]],

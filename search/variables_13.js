@@ -17,6 +17,7 @@ var searchData=
   ['savenextthink',['savenextthink',['../de/d58/throwing_8qh.html#a41af2888d1c8d83398fc0b007b8f2b25',1,'throwing.qh']]],
   ['saverelorigin',['saveRelOrigin',['../d7/d5d/classBorderImage.html#a55fa87b5349ef30c674d5a13b2018ae1',1,'BorderImage']]],
   ['saverelsize',['saveRelSize',['../d7/d5d/classBorderImage.html#ac68d6c5ca71bf698d8ee488f4280cb2d',1,'BorderImage']]],
+  ['sb_5fextra_5fsorting_5ffield',['sb_extra_sorting_field',['../d3/d07/scoreboard_8qc.html#a5dd47986a10e9794a7dfb474195b84c5',1,'scoreboard.qc']]],
   ['sbt_5fbg_5falpha',['sbt_bg_alpha',['../d3/d07/scoreboard_8qc.html#a3a68b1fd493c3f1878a66045de127feb',1,'scoreboard.qc']]],
   ['sbt_5ffg_5falpha',['sbt_fg_alpha',['../d3/d07/scoreboard_8qc.html#aa3df8ec29f084a228e11bfbfd0ca8b17',1,'scoreboard.qc']]],
   ['sbt_5ffg_5falpha_5fself',['sbt_fg_alpha_self',['../d3/d07/scoreboard_8qc.html#a9d81d772d01432be10b3e0ba39213361',1,'scoreboard.qc']]],

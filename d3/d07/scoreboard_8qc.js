@@ -1,5 +1,6 @@
 var scoreboard_8qc =
 [
+    [ "SB_EXTRA_SORTING_FIELDS", "d3/d07/scoreboard_8qc.html#ad818dc41ffe912a62b0910d84b764346", null ],
     [ "SCOREBOARD_DEFAULT_COLUMNS", "d3/d07/scoreboard_8qc.html#a8255b834728e7b21dbd03c51898cccc3", null ],
     [ "Cmd_Scoreboard_Help", "d3/d07/scoreboard_8qc.html#a1b208032bc80d2390e6ec090d4cc109b", null ],
     [ "Cmd_Scoreboard_SetFields", "d3/d07/scoreboard_8qc.html#a7375d6776cc772c7aa6a43c7f66ea3d5", null ],
@@ -81,6 +82,7 @@ var scoreboard_8qc =
     [ "hud_fontsize_str", "d3/d07/scoreboard_8qc.html#ac127f6ed3538bb0ccfa2d65f6b0dbeca", null ],
     [ "max_namesize", "d3/d07/scoreboard_8qc.html#a3c8a9aed142caf1f193e74609c601961", null ],
     [ "MAX_SBT_FIELDS", "d3/d07/scoreboard_8qc.html#a9bf722ae68431773c4bde7eebad02446", null ],
+    [ "sb_extra_sorting_field", "d3/d07/scoreboard_8qc.html#a5dd47986a10e9794a7dfb474195b84c5", null ],
     [ "sbt_bg_alpha", "d3/d07/scoreboard_8qc.html#a3a68b1fd493c3f1878a66045de127feb", null ],
     [ "sbt_fg_alpha", "d3/d07/scoreboard_8qc.html#aa3df8ec29f084a228e11bfbfd0ca8b17", null ],
     [ "sbt_fg_alpha_self", "d3/d07/scoreboard_8qc.html#a9d81d772d01432be10b3e0ba39213361", null ],

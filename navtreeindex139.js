@@ -1,5 +1,7 @@
 var NAVTREEINDEX139 =
 {
+"de/daf/common_2mutators_2mutator_2multijump_2__mod_8qh.html":[2,0,1,10,0,18,1],
+"de/daf/common_2mutators_2mutator_2multijump_2__mod_8qh_source.html":[2,0,1,10,0,18,1],
 "de/db0/common_2mutators_2mutator_2new__toys_2__mod_8inc.html":[2,0,1,10,0,20,0],
 "de/db0/common_2mutators_2mutator_2new__toys_2__mod_8inc_source.html":[2,0,1,10,0,20,0],
 "de/dbb/sv__spawner_8qc.html":[2,0,1,9,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX139 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#a3bfe985eb7e90c227d56dc81434bb5f9":[1,0,193,48],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,193,61],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,193,55],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a3df9f40869004e26c3d0dd7fc28e57c4":[1,0,193,29],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a4246fb4b7068aee87e47b2da375de905":[1,0,193,52],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,193,60]
+"de/de7/classXonoticHUDItemsTimeDialog.html#a3df9f40869004e26c3d0dd7fc28e57c4":[1,0,193,29]
 };
