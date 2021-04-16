@@ -1,5 +1,6 @@
 var NAVTREEINDEX100 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a89b8313739d904cb7b7b43bd10ae911e":[1,0,245,13],
 "da/db7/classXonoticServerInfoDialog.html#a89df6338f4e105645d340fa17a325a4d":[1,0,245,34],
 "da/db7/classXonoticServerInfoDialog.html#a8b78346a74df75772de387092d850f39":[1,0,245,87],
 "da/db7/classXonoticServerInfoDialog.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,245,68],
@@ -248,6 +249,5 @@ var NAVTREEINDEX100 =
 "da/dc1/dialog__hudpanel__modicons_8qh_source.html":[2,0,5,4,61],
 "da/dc1/server_2player_8qh.html":[2,0,6,46],
 "da/dc1/server_2player_8qh.html#a1570c08ec33ffcded350d9ba1328a94c":[2,0,6,46,16],
-"da/dc1/server_2player_8qh.html#a1cbb56b1404760388cf1d5222b255922":[2,0,6,46,22],
-"da/dc1/server_2player_8qh.html#a1dbdd71f4bd171fd17727f4225bba5e6":[2,0,6,46,29]
+"da/dc1/server_2player_8qh.html#a1cbb56b1404760388cf1d5222b255922":[2,0,6,46,22]
 };

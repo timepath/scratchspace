@@ -1879,6 +1879,7 @@ var searchData=
   ['autocvar_5fsv_5flogscores_5ffilename',['autocvar_sv_logscores_filename',['../de/d2b/world_8qh.html#af373ef6289aacfc398a3a424a83cda22',1,'world.qh']]],
   ['autocvar_5fsv_5fmapchange_5fdelay',['autocvar_sv_mapchange_delay',['../de/d2b/world_8qh.html#a5608425c0a44d617310b24fe9654bbce',1,'world.qh']]],
   ['autocvar_5fsv_5fmaxidle',['autocvar_sv_maxidle',['../d8/de2/server_2client_8qh.html#a1651051ac52b9e3fa1f63bc9d10ad8d5',1,'client.qh']]],
+  ['autocvar_5fsv_5fmaxidle_5fplayertospectator',['autocvar_sv_maxidle_playertospectator',['../d8/de2/server_2client_8qh.html#a81517710af39d509a952144e91146eee',1,'client.qh']]],
   ['autocvar_5fsv_5fmaxidle_5fslots',['autocvar_sv_maxidle_slots',['../d8/de2/server_2client_8qh.html#adff2eac9139a95a8b58cd26066fc44d9',1,'client.qh']]],
   ['autocvar_5fsv_5fmaxidle_5fslots_5fcountbots',['autocvar_sv_maxidle_slots_countbots',['../d8/de2/server_2client_8qh.html#aa8d56f9a074159f982b84b25d390ed67',1,'client.qh']]],
   ['autocvar_5fsv_5fmaxidle_5fspectatorsareidle',['autocvar_sv_maxidle_spectatorsareidle',['../d8/de2/server_2client_8qh.html#a3402a0b4cbdd1953a53b60f3c5648a21',1,'client.qh']]],

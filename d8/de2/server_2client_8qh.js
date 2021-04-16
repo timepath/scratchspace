@@ -74,6 +74,7 @@ var server_2client_8qh =
     [ "autocvar_spawn_debug", "d8/de2/server_2client_8qh.html#aaadbf19a682702f958447c77e582bf9c", null ],
     [ "autocvar_sv_foginterval", "d8/de2/server_2client_8qh.html#a1151df43c3f4385fc58d240053892ffb", null ],
     [ "autocvar_sv_maxidle", "d8/de2/server_2client_8qh.html#a1651051ac52b9e3fa1f63bc9d10ad8d5", null ],
+    [ "autocvar_sv_maxidle_playertospectator", "d8/de2/server_2client_8qh.html#a81517710af39d509a952144e91146eee", null ],
     [ "autocvar_sv_maxidle_slots", "d8/de2/server_2client_8qh.html#adff2eac9139a95a8b58cd26066fc44d9", null ],
     [ "autocvar_sv_maxidle_slots_countbots", "d8/de2/server_2client_8qh.html#aa8d56f9a074159f982b84b25d390ed67", null ],
     [ "autocvar_sv_maxidle_spectatorsareidle", "d8/de2/server_2client_8qh.html#a3402a0b4cbdd1953a53b60f3c5648a21", null ],
