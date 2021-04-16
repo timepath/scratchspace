@@ -12,7 +12,6 @@ var server_2client_8qh =
     [ "SPECTATE_COPYFIELD", "d8/de2/server_2client_8qh.html#a78d6b1a9d49f7d040f67eb1bac3805ce", null ],
     [ "UNWIND", "d8/de2/server_2client_8qh.html#af928e6eec681d5371be26fc5e7b329f9", null ],
     [ "calculate_player_respawn_time", "d8/de2/server_2client_8qh.html#a9d529760b279c19bb3b1d15c4da335d1", null ],
-    [ "checkSpectatorBlock", "d8/de2/server_2client_8qh.html#a3cb890504a3e0218ed83a60fcba8b17c", null ],
     [ "ClientData_Touch", "d8/de2/server_2client_8qh.html#adcfb83073eb66c355f220a7fc94a479d", null ],
     [ "ClientInit_misc", "d8/de2/server_2client_8qh.html#aec6cdba5f75bbb56090f5e085e9bcfeb", null ],
     [ "ClientInit_Spawn", "d8/de2/server_2client_8qh.html#addbfa5c0ba866c7ffd66239839bc9942", null ],

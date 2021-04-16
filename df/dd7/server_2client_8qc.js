@@ -5,7 +5,6 @@ var server_2client_8qc =
     [ "calculate_player_respawn_time", "df/dd7/server_2client_8qc.html#a9d529760b279c19bb3b1d15c4da335d1", null ],
     [ "ChatBubbleThink", "df/dd7/server_2client_8qc.html#a97cf0c815bb1c93811d35628d62f751c", null ],
     [ "CheckPlayerModel", "df/dd7/server_2client_8qc.html#a81497331b22f9248fec442b8f1889f6c", null ],
-    [ "checkSpectatorBlock", "df/dd7/server_2client_8qc.html#a3cb890504a3e0218ed83a60fcba8b17c", null ],
     [ "ClientConnect", "df/dd7/server_2client_8qc.html#a54fdd4fa0492ab020e0a35c817a8f472", null ],
     [ "ClientData_Attach", "df/dd7/server_2client_8qc.html#ae1ed9a146c5c791944277a4ff2c890c6", null ],
     [ "ClientData_Detach", "df/dd7/server_2client_8qc.html#a493d87cfdaad13d4de171211f5f7bc4d", null ],
