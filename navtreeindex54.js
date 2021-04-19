@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"d5/d8c/view_8qh.html#a593f19b0d271ea428c6c69f9ad7c9300":[2,0,0,29,61],
 "d5/d8c/view_8qh.html#a63e1f8ce4271e555d4388523954aaaa5":[2,0,0,29,64],
 "d5/d8c/view_8qh.html#a642f2600889a46ce42e67b2f697aabbc":[2,0,0,29,43],
 "d5/d8c/view_8qh.html#a681bff6e624baf3af2f0334052bd2ca8":[2,0,0,29,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "d5/d95/lib_2matrix_2matrix_8qh.html#a8396e6a579b278dab17aac3ea3e3f94a":[2,0,4,1,5,7],
 "d5/d95/lib_2matrix_2matrix_8qh.html#aeb184715ac0e7eea78e40db8bc280dcf":[2,0,4,1,5,1],
 "d5/d95/lib_2matrix_2matrix_8qh.html#aefa1b31a8af7e3cb7876024dd00ec1d4":[2,0,4,1,5,12],
-"d5/d95/lib_2matrix_2matrix_8qh_source.html":[2,0,4,1,5],
-"d5/d96/classXonoticHUDStrafeHUDDialog.html":[1,0,204]
+"d5/d95/lib_2matrix_2matrix_8qh_source.html":[2,0,4,1,5]
 };

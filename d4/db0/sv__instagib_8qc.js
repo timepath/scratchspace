@@ -1,6 +1,7 @@
 var sv__instagib_8qc =
 [
     [ "instagib_ammocheck", "d4/db0/sv__instagib_8qc.html#abf5b37d85c4d12703a32460be404bba8", null ],
+    [ "instagib_countdown", "d4/db0/sv__instagib_8qc.html#a3d6d818e65d5bd020040a12395c504e6", null ],
     [ "instagib_extralife", "d4/db0/sv__instagib_8qc.html#a0380ab3112106a4d100b22c817facf9b", null ],
     [ "instagib_invisibility", "d4/db0/sv__instagib_8qc.html#a250376f7e22b2932e184591e3639f547", null ],
     [ "instagib_speed", "d4/db0/sv__instagib_8qc.html#ad4749d5439232c47d46b49b88d52ed93", null ],

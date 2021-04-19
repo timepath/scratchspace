@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"d6/de9/cheats_8qc.html#a5bf256913f364a79d21892198533d829":[2,0,6,17,28],
 "d6/de9/cheats_8qc.html#a5e499f71859f2e744d2d40b443f3942f":[2,0,6,17,1],
 "d6/de9/cheats_8qc.html#a5f3faa59bd505c237969c4587107e2c2":[2,0,6,17,29],
 "d6/de9/cheats_8qc.html#a5fc7c576740d16f6075adccdc64c84a1":[2,0,6,17,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "d7/d13/classXonoticHUDAmmoDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,185,78],
 "d7/d13/classXonoticHUDAmmoDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,185,105],
 "d7/d13/classXonoticHUDAmmoDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,185,83],
-"d7/d13/classXonoticHUDAmmoDialog.html#ad4b6509b543cad0281f4aa1dc91c7ac8":[1,0,185,80],
-"d7/d13/classXonoticHUDAmmoDialog.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,185,56]
+"d7/d13/classXonoticHUDAmmoDialog.html#ad4b6509b543cad0281f4aa1dc91c7ac8":[1,0,185,80]
 };
