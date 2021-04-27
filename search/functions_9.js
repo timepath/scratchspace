@@ -98,6 +98,7 @@ var searchData=
   ['is_5fclose_5fto_5fground',['is_close_to_ground',['../d5/da6/sv__dodging_8qc.html#ad73a4c696844b01f375f3422545a2135',1,'sv_dodging.qc']]],
   ['is_5fclose_5fto_5fwall',['is_close_to_wall',['../d5/da6/sv__dodging_8qc.html#aeb972d2d0377a247853cf3a919996d1a',1,'sv_dodging.qc']]],
   ['is_5fint',['is_int',['../d4/dfb/lib_2__all_8inc.html#a519d201f3a65bf5df77f1b0c03125b27',1,'_all.inc']]],
+  ['is_5fitem_5ffiltered',['is_item_filtered',['../d3/d07/scoreboard_8qc.html#ab5911d50d8725166f214d635de16c501',1,'scoreboard.qc']]],
   ['iscachedpic',['iscachedpic',['../d8/de2/menudefs_8qc.html#ae9c9c30a164bbec572a8731e49ee6059',1,'menudefs.qc']]],
   ['iscaretescaped',['isCaretEscaped',['../d2/db4/string_8qh.html#a18426552ab78f160fce9ae91a94c8c2d',1,'string.qh']]],
   ['isdemo',['isdemo',['../d8/de2/menudefs_8qc.html#a15433f7569b9361acf17695cf9df7ecd',1,'menudefs.qc']]],

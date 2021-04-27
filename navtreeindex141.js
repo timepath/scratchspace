@@ -1,10 +1,5 @@
 var NAVTREEINDEX141 =
 {
-"df/d17/cvars_8qc_source.html":[2,0,6,0,0,7],
-"df/d18/checkpoint_8qc.html":[2,0,1,14,5],
-"df/d18/checkpoint_8qc_source.html":[2,0,1,14,5],
-"df/d1e/common_2mutators_2mutator_2walljump_2__mod_8inc.html":[2,0,1,10,0,38,0],
-"df/d1e/common_2mutators_2mutator_2walljump_2__mod_8inc_source.html":[2,0,1,10,0,38,0],
 "df/d1f/client_2hud_2panel_2vote_8qc.html":[2,0,0,1,0,40],
 "df/d1f/client_2hud_2panel_2vote_8qc.html#a297e9e4e75bcd558a43f78eb74dd2140":[2,0,0,1,0,40,0],
 "df/d1f/client_2hud_2panel_2vote_8qc.html#a445cffcd612ea457facfe7d9dc6be214":[2,0,0,1,0,40,1],
@@ -249,5 +244,10 @@ var NAVTREEINDEX141 =
 "df/d27/sv__weaponarena__random_8qh_source.html":[2,0,1,10,0,40,3],
 "df/d28/menu_2xonotic_2button_8qc.html":[2,0,5,4,6],
 "df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[2,0,5,4,6,2],
-"df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[2,0,5,4,6,1]
+"df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[2,0,5,4,6,1],
+"df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9":[2,0,5,4,6,0],
+"df/d28/menu_2xonotic_2button_8qc_source.html":[2,0,5,4,6],
+"df/d28/sv__turrets_8qh.html":[2,0,1,14,12],
+"df/d28/sv__turrets_8qh.html#a07c4c1a4a7cb4c2974e3f73f6c395d5c":[2,0,1,14,12,23],
+"df/d28/sv__turrets_8qh.html#a14c247fc49cf9424dd12ea85899be277":[2,0,1,14,12,4]
 };

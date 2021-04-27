@@ -1,10 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"da/dc1/dialog__hudpanel__modicons_8qh.html":[2,0,5,4,61],
-"da/dc1/dialog__hudpanel__modicons_8qh_source.html":[2,0,5,4,61],
-"da/dc1/server_2player_8qh.html":[2,0,6,46],
-"da/dc1/server_2player_8qh.html#a1570c08ec33ffcded350d9ba1328a94c":[2,0,6,46,16],
-"da/dc1/server_2player_8qh.html#a1cbb56b1404760388cf1d5222b255922":[2,0,6,46,22],
 "da/dc1/server_2player_8qh.html#a1dbdd71f4bd171fd17727f4225bba5e6":[2,0,6,46,29],
 "da/dc1/server_2player_8qh.html#a28cad15c137eaec3478c7cafb9b22a84":[2,0,6,46,24],
 "da/dc1/server_2player_8qh.html#a2c4acf85cd876d0e628435d91592d615":[2,0,6,46,5],
@@ -249,5 +244,10 @@ var NAVTREEINDEX101 =
 "da/ded/classSeeker.html#aef5bbecf4ae66d83e687082e1ae2eb29":[1,0,118,9],
 "da/ded/classSeeker.html#af2401c8ad318d37b3f937d00928177f4":[1,0,118,25],
 "da/ded/classSeeker.html#afd6a5b617980337ce93befe0b4e741ff":[1,0,118,12],
-"da/ded/damage_8qc.html":[2,0,6,23]
+"da/ded/damage_8qc.html":[2,0,6,23],
+"da/ded/damage_8qc.html#a06a1edf2081934e5cb8188d0419f55e7":[2,0,6,23,0],
+"da/ded/damage_8qc.html#a0b53522295b7b52ea512c3102a5051ff":[2,0,6,23,18],
+"da/ded/damage_8qc.html#a1ca977fd4fb6900884c2cea28062c8a7":[2,0,6,23,2],
+"da/ded/damage_8qc.html#a20c748d061a8595dc442ff0dbcdb0768":[2,0,6,23,11],
+"da/ded/damage_8qc.html#a24aaf696797544264665df5f05253d1c":[2,0,6,23,12]
 };

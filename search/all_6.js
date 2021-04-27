@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['f1',['f1',['../d9/d09/notifications_2all_8inc.html#a582e6a2c409989ff5378ab729b9117ee',1,'all.inc']]],
+  ['f1',['f1',['../d9/d09/notifications_2all_8inc.html#ad26f5c13d849277a2fb4399a74129389',1,'all.inc']]],
+  ['f2',['f2',['../d9/d09/notifications_2all_8inc.html#aa3a4d79ed24e4270f2709c15572bcb55',1,'all.inc']]],
   ['fabs',['fabs',['../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b',1,'menudefs.qc']]],
   ['fade_5fend',['fade_end',['../dd/d92/models_8qh.html#a0ae1b54e0a7968da8ad5a9cdb72038df',1,'models.qh']]],
   ['fade_5frate',['fade_rate',['../de/d0c/classDamageText.html#ad05fc05aa6d4066c73d44250d6128e92',1,'DamageText::fade_rate()'],['../dc/dc7/projectile_8qh.html#a66ebaab056a734dac49a78d19be21d71',1,'fade_rate():&#160;projectile.qh'],['../db/d2f/subs_8qh.html#a5a08fa477287e8869e228d790a885d87',1,'fade_rate():&#160;subs.qh'],['../d1/dba/server_2weapons_2common_8qh.html#a5a08fa477287e8869e228d790a885d87',1,'fade_rate():&#160;common.qh']]],
@@ -257,8 +258,8 @@ var searchData=
   ['fpscounter_5fupdate',['fpscounter_update',['../d6/dd3/view_8qc.html#a392ee8cc05410982516cad055945c38b',1,'view.qc']]],
   ['fputs',['fputs',['../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df',1,'menudefs.qc']]],
   ['frag_5fcentermessage_5foverride',['frag_centermessage_override',['../da/ded/damage_8qc.html#aa3fc106831a673c02b41eb245eef7434',1,'damage.qc']]],
-  ['frag_5fping',['frag_ping',['../d9/d09/notifications_2all_8inc.html#ae1f9572e9e24e8f6ba490ccfd193062b',1,'all.inc']]],
-  ['frag_5fstats',['frag_stats',['../d9/d09/notifications_2all_8inc.html#a32a2a586f637cc8da71ecc1373d9f3fb',1,'all.inc']]],
+  ['frag_5fping',['frag_ping',['../d9/d09/notifications_2all_8inc.html#a2619812bff4c40dede0a1a00e9cc2c15',1,'all.inc']]],
+  ['frag_5fstats',['frag_stats',['../d9/d09/notifications_2all_8inc.html#aba5c15e63dd4b76d824b84bdcf3598ee',1,'all.inc']]],
   ['frags',['frags',['../d1/d6b/classGametype.html#ae9227aebbcb0aaca925bbdc438958136',1,'Gametype::frags()'],['../d5/dff/ent__cs_8qc.html#a25e96bce6bfbe6aa5dffc5f44f7edbc7',1,'frags():&#160;ent_cs.qc'],['../d6/d11/progsdefs_8qc.html#a230b823d612df01afcfecc0f4a611b90',1,'frags():&#160;progsdefs.qc']]],
   ['frags_5fplayer',['FRAGS_PLAYER',['../db/d2a/constants_8qh.html#ab23f9aa261fdff0ab3357f75b4274718',1,'constants.qh']]],
   ['frags_5fplayer_5fout_5fof_5fgame',['FRAGS_PLAYER_OUT_OF_GAME',['../db/d2a/constants_8qh.html#a8fb26853bca170280dba1a301c735661',1,'constants.qh']]],

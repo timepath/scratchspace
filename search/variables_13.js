@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['s1',['s1',['../d9/d09/notifications_2all_8inc.html#ab1244690ea04c2edf1009269d27e08a1',1,'all.inc']]],
-  ['s2',['s2',['../d9/d09/notifications_2all_8inc.html#ad3bf75cd4d4acad4e4436717f894a7c3',1,'all.inc']]],
-  ['s2loc',['s2loc',['../d9/d09/notifications_2all_8inc.html#a0a0c6e0988487e38ca041bd26b2d1661',1,'all.inc']]],
+  ['s1',['s1',['../d9/d09/notifications_2all_8inc.html#a603db49f1939d86a65e1ecec5cd97b51',1,'all.inc']]],
+  ['s2',['s2',['../d9/d09/notifications_2all_8inc.html#a578aa37ac2fb73bdb566eaf0762bd4fb',1,'all.inc']]],
   ['s_5falt',['S_ALT',['../d3/d05/hud_8qh.html#a4688e688e3649a241a2b522bacda97af',1,'S_ALT():&#160;hud.qh'],['../d0/d41/menu_8qh.html#a4688e688e3649a241a2b522bacda97af',1,'S_ALT():&#160;menu.qh']]],
   ['s_5fctrl',['S_CTRL',['../d3/d05/hud_8qh.html#af05e65b7ed2971dbb3d251e98ea078a2',1,'S_CTRL():&#160;hud.qh'],['../d0/d41/menu_8qh.html#af05e65b7ed2971dbb3d251e98ea078a2',1,'S_CTRL():&#160;menu.qh']]],
   ['s_5fmouse1',['S_MOUSE1',['../dd/dcd/hud__config_8qh.html#a3c145dbe28a71c938406edbc71cd742b',1,'hud_config.qh']]],
@@ -267,7 +266,7 @@ var searchData=
   ['speedaward_5fuid',['speedaward_uid',['../db/d36/server_2race_8qh.html#ae12c1c9683fdacff4f1a7b6eea72f0f4',1,'race.qh']]],
   ['speedrunning',['speedrunning',['../d3/dca/cheats_8qh.html#aac976e2b26b0eedd9de5a29bc729d2cf',1,'cheats.qh']]],
   ['spree_5fend',['spree_end',['../d9/d09/notifications_2all_8inc.html#a848f2e1a621427e0bb47e9a8c40771d2',1,'all.inc']]],
-  ['spree_5flost',['spree_lost',['../d9/d09/notifications_2all_8inc.html#acefec150a2aeceb9b931f72db435973c',1,'all.inc']]],
+  ['spree_5flost',['spree_lost',['../d9/d09/notifications_2all_8inc.html#afde4d2085af58e069ac215eb4e5d5b61',1,'all.inc']]],
   ['sprite',['sprite',['../d7/dbb/sv__assault_8qc.html#a44f2d02591475477365d7f7ec9d55f3c',1,'sprite():&#160;sv_assault.qc'],['../da/de5/sv__domination_8qh.html#a44f2d02591475477365d7f7ec9d55f3c',1,'sprite():&#160;sv_domination.qh'],['../d7/dd0/sv__onslaught_8qh.html#a44f2d02591475477365d7f7ec9d55f3c',1,'sprite():&#160;sv_onslaught.qh'],['../df/d4a/server_2race_8qc.html#a44f2d02591475477365d7f7ec9d55f3c',1,'sprite():&#160;race.qc']]],
   ['spriterule_5fdefault',['SPRITERULE_DEFAULT',['../d8/d59/waypointsprites_8qh.html#a29dcc04d173ff86f1b01b62a94d45c0c',1,'waypointsprites.qh']]],
   ['spriterule_5fspectator',['SPRITERULE_SPECTATOR',['../d8/d59/waypointsprites_8qh.html#a9fb1df18ea71e49ce5e98c2fc4232adf',1,'waypointsprites.qh']]],

@@ -2,7 +2,6 @@ var searchData=
 [
   ['uid2name_5fdialog',['uid2name_dialog',['../d9/d28/client_2hud_2panel_2vote_8qh.html#aefcc49bccd6f180d68d17fd01a7fed66',1,'vote.qh']]],
   ['unaccounted_5fdamage',['unaccounted_damage',['../d5/d8c/view_8qh.html#a1de1360295996dacb39d141955580aac',1,'view.qh']]],
-  ['uninteresting',['uninteresting',['../d3/d07/scoreboard_8qc.html#ac209681a009e5d66aade4d9ff70008c3',1,'scoreboard.qc']]],
   ['unstick_5ffine',['UNSTICK_FINE',['../d4/dd7/movetypes_8qh.html#a41b3403d019e66765768235463b4c610',1,'movetypes.qh']]],
   ['unstick_5ffixed',['UNSTICK_FIXED',['../d4/dd7/movetypes_8qh.html#ad8c36f0339fc62ca37ab55728fc1d0db',1,'movetypes.qh']]],
   ['unstick_5fstuck',['UNSTICK_STUCK',['../d4/dd7/movetypes_8qh.html#aa34c3cc0054de37e2ff93a91038fb147',1,'movetypes.qh']]],
