@@ -6,6 +6,8 @@ var server_2main_8qc =
     [ "CreatureFrame_hotliquids", "db/d95/server_2main_8qc.html#ab040f482f9f20fab4279b2f2caf806c8", null ],
     [ "CreatureFrame_Liquids", "db/d95/server_2main_8qc.html#a76853aeafe130f8c85d194596b3475c6", null ],
     [ "dedicated_print", "db/d95/server_2main_8qc.html#a0390f6703ace29f61655694b8821d84a", null ],
+    [ "dropclient_do", "db/d95/server_2main_8qc.html#ab636ee75076f13d459935ce7e0fbeeb0", null ],
+    [ "dropclient_schedule", "db/d95/server_2main_8qc.html#a763d10005358123de51e95d692aacb36", null ],
     [ "main", "db/d95/server_2main_8qc.html#acdef7a1fd863a6d3770c1268cb06add3", null ],
     [ "make_safe_for_remove", "db/d95/server_2main_8qc.html#a512d742bedcc9a27b9fa5fe4b3d9ab86", null ],
     [ "Pause_TryPause", "db/d95/server_2main_8qc.html#a32d164732e884bd8c162fd1ff75f4b24", null ],

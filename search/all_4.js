@@ -549,6 +549,8 @@ var searchData=
   ['drop_5fspecial_5fitems',['Drop_Special_Items',['../db/d9b/server_2player_8qc.html#a74a2991ad4b1aad6bfc27e899c563d29',1,'player.qc']]],
   ['drop_5fthrow',['DROP_THROW',['../d6/db0/sv__ctf_8qh.html#adfd4f8bc7fbc6e4d442131924e1b5a43',1,'sv_ctf.qh']]],
   ['dropball',['DropBall',['../d2/d24/sv__nexball_8qc.html#ad4da5744e99d205ee0a2588628e653ed',1,'DropBall(entity ball, vector org, vector vel):&#160;sv_nexball.qc'],['../d1/d4d/sv__nexball_8qh.html#ad4da5744e99d205ee0a2588628e653ed',1,'DropBall(entity ball, vector org, vector vel):&#160;sv_nexball.qc']]],
+  ['dropclient_5fdo',['dropclient_do',['../db/d95/server_2main_8qc.html#ab636ee75076f13d459935ce7e0fbeeb0',1,'main.qc']]],
+  ['dropclient_5fschedule',['dropclient_schedule',['../db/d95/server_2main_8qc.html#a763d10005358123de51e95d692aacb36',1,'dropclient_schedule(entity this):&#160;main.qc'],['../d1/dd8/server_2main_8qh.html#a763d10005358123de51e95d692aacb36',1,'dropclient_schedule(entity this):&#160;main.qc']]],
   ['dropmark',['dropmark',['../d5/dd4/cl__vehicles_8qh.html#a86da83eecd974cde2192b0f9b0e8e210',1,'cl_vehicles.qh']]],
   ['dropowner',['DropOwner',['../d2/d24/sv__nexball_8qc.html#afc0c6626d23f1941acc4c6de5ecd9242',1,'sv_nexball.qc']]],
   ['dropped_5forigin',['dropped_origin',['../de/d2b/world_8qh.html#a683f8853e59167cf514b2f6626748888',1,'world.qh']]],

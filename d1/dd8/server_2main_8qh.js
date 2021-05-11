@@ -2,6 +2,7 @@ var server_2main_8qh =
 [
     [ "autocvar_slowmo", "d1/dd8/server_2main_8qh.html#a806ae935c1120c2b588b79e5504685ad", null ],
     [ "dedicated_print", "d1/dd8/server_2main_8qh.html#a0390f6703ace29f61655694b8821d84a", null ],
+    [ "dropclient_schedule", "d1/dd8/server_2main_8qh.html#a763d10005358123de51e95d692aacb36", null ],
     [ "main", "d1/dd8/server_2main_8qh.html#acdef7a1fd863a6d3770c1268cb06add3", null ],
     [ "remove_except_protected", "d1/dd8/server_2main_8qh.html#aa16293e20d9c95cd2706a83a9e1fe8fb", null ],
     [ "remove_safely", "d1/dd8/server_2main_8qh.html#a0214f10fac80584471e106daa9bbd656", null ],
