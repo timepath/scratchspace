@@ -1,6 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"dd/d77/ecs_2systems_2physics_8qc.html#a826b2c367250c9fb58a7ca50eb138cde":[2,0,3,2,5,6],
 "dd/d77/ecs_2systems_2physics_8qc.html#a9c783872ea8b4c21c5e451d8816c8b31":[2,0,3,2,5,4],
 "dd/d77/ecs_2systems_2physics_8qc.html#abdb430db5564ccf6ae3105c577e6a461":[2,0,3,2,5,1],
 "dd/d77/ecs_2systems_2physics_8qc.html#ad7e6172c1eacb4cee3e04fe4faccb311":[2,0,3,2,5,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX126 =
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a8b78346a74df75772de387092d850f39":[1,0,184,63],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,184,44],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,184,74],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,184,24]
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,184,24],
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,184,71]
 };

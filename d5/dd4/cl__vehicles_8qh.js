@@ -1,8 +1,6 @@
 var cl__vehicles_8qh =
 [
     [ "weapon2mode", "d5/dd4/cl__vehicles_8qh.html#aa60049ea2d01943dd53fe6a3b3d53cd0", null ],
-    [ "RaptorCBShellfragDraw", "d5/dd4/cl__vehicles_8qh.html#a2c2acd9ec118adcd1f32a13d82d39b65", null ],
-    [ "RaptorCBShellfragToss", "d5/dd4/cl__vehicles_8qh.html#aecd92213c981c895b1ce404d09ac99e7", null ],
     [ "alarm1time", "d5/dd4/cl__vehicles_8qh.html#a68c394ea0b4e4fcdb58a3d56cd852de5", null ],
     [ "alarm2time", "d5/dd4/cl__vehicles_8qh.html#a698468c381334094654278acd9f44a35", null ],
     [ "autocvar__vehicles_shownchasemessage", "d5/dd4/cl__vehicles_8qh.html#ab6f516f981e0a1c6d4439e8c54014cd5", null ],

@@ -214,8 +214,6 @@ var searchData=
   ['raptor_5fweapons_2eqh',['raptor_weapons.qh',['../d7/d75/raptor__weapons_8qh.html',1,'']]],
   ['raptorbomb',['RaptorBomb',['../d4/da9/classRaptorBomb.html',1,'']]],
   ['raptorcannon',['RaptorCannon',['../d6/d01/classRaptorCannon.html',1,'']]],
-  ['raptorcbshellfragdraw',['RaptorCBShellfragDraw',['../d5/dd4/cl__vehicles_8qh.html#a2c2acd9ec118adcd1f32a13d82d39b65',1,'cl_vehicles.qh']]],
-  ['raptorcbshellfragtoss',['RaptorCBShellfragToss',['../d5/dd4/cl__vehicles_8qh.html#aecd92213c981c895b1ce404d09ac99e7',1,'cl_vehicles.qh']]],
   ['raptorflare',['RaptorFlare',['../dd/d90/classRaptorFlare.html',1,'']]],
   ['rc_5fsetlimits',['rc_SetLimits',['../db/dec/sv__race_8qc.html#a9994c316dce5b74ff9fc150f221cd08b',1,'rc_SetLimits():&#160;sv_race.qc'],['../d7/ddf/sv__race_8qh.html#a9994c316dce5b74ff9fc150f221cd08b',1,'rc_SetLimits():&#160;sv_race.qc']]],
   ['read_5fbyte',['Read_byte',['../d9/d48/lib_2net_8qh.html#a47b6d4ca93431fbacadc241fa409ea8d',1,'net.qh']]],
