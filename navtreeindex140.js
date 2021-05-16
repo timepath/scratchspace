@@ -1,5 +1,7 @@
 var NAVTREEINDEX140 =
 {
+"de/de7/classXonoticHUDItemsTimeDialog.html#a3ac0b035fd203a64709d24633be3301b":[1,0,193,71],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a3bfe985eb7e90c227d56dc81434bb5f9":[1,0,193,48],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,193,61],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,193,55],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a3df9f40869004e26c3d0dd7fc28e57c4":[1,0,193,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX140 =
 "df/d16/common_2mapobjects_2misc_2__mod_8qh.html":[2,0,1,6,1,1],
 "df/d16/common_2mapobjects_2misc_2__mod_8qh_source.html":[2,0,1,6,1,1],
 "df/d17/cvars_8qc.html":[2,0,6,0,0,7],
-"df/d17/cvars_8qc_source.html":[2,0,6,0,0,7],
-"df/d18/checkpoint_8qc.html":[2,0,1,14,5],
-"df/d18/checkpoint_8qc_source.html":[2,0,1,14,5]
+"df/d17/cvars_8qc_source.html":[2,0,6,0,0,7]
 };

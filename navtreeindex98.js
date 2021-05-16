@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"da/d8d/classXonoticHUDPhysicsDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,196,94],
+"da/d8d/classXonoticHUDPhysicsDialog.html#a99fdddc4477054b7ce01e537c2824609":[1,0,196,29],
 "da/d8d/classXonoticHUDPhysicsDialog.html#a9d0abebc8deb6bfe62f32b3a67767a90":[1,0,196,43],
 "da/d8d/classXonoticHUDPhysicsDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,196,98],
 "da/d8d/classXonoticHUDPhysicsDialog.html#a9e099ece31334a52a1b93305c8a368c3":[1,0,196,47],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "da/d9b/classXonoticButton.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,152,10],
 "da/d9b/classXonoticButton.html#af3a830d70442467db88dc9e6085943aa":[1,0,152,64],
 "da/d9b/classXonoticButton.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,152,79],
-"da/d9b/classXonoticButton.html#afcac60c372c78ea93e37ebc6c80f740d":[1,0,152,20],
-"da/d9b/classXonoticButton.html#afff625af1020ff8abb7d1f6040c49d66":[1,0,152,18],
-"da/d9c/classXonoticMonsterToolsDialog.html":[1,0,219]
+"da/d9b/classXonoticButton.html#afcac60c372c78ea93e37ebc6c80f740d":[1,0,152,20]
 };

@@ -1635,6 +1635,7 @@ var searchData=
   ['autocvar_5fhud_5fpanel_5fscoreboard_5frespawntime_5fdecimals',['autocvar_hud_panel_scoreboard_respawntime_decimals',['../d3/d07/scoreboard_8qc.html#a8334d135eb2ab47a6b716444247f34a8',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5fsize',['autocvar_hud_panel_scoreboard_size',['../d3/d07/scoreboard_8qc.html#a1076158fe2b7d0586e8081b19c651c1a',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5fspectators_5faligned',['autocvar_hud_panel_scoreboard_spectators_aligned',['../d3/d07/scoreboard_8qc.html#a6c99617f8d4adb4cd0de989583f36d2e',1,'scoreboard.qc']]],
+  ['autocvar_5fhud_5fpanel_5fscoreboard_5fspectators_5fposition',['autocvar_hud_panel_scoreboard_spectators_position',['../d3/d07/scoreboard_8qc.html#a5f3a049d4a8d82e158a2f6e03e21524a',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5fspectators_5fshowping',['autocvar_hud_panel_scoreboard_spectators_showping',['../d3/d07/scoreboard_8qc.html#a4109effdb21027025c460fb725045f74',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5ftable_5fbg_5falpha',['autocvar_hud_panel_scoreboard_table_bg_alpha',['../d3/d07/scoreboard_8qc.html#a7126ad7799dfc104042c7ec8baef7e04',1,'scoreboard.qc']]],
   ['autocvar_5fhud_5fpanel_5fscoreboard_5ftable_5fbg_5fscale',['autocvar_hud_panel_scoreboard_table_bg_scale',['../d3/d07/scoreboard_8qc.html#a8cf61fd66e3aa8d5174eb669865b8264',1,'scoreboard.qc']]],

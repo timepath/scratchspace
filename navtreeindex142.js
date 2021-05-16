@@ -1,5 +1,7 @@
 var NAVTREEINDEX142 =
 {
+"df/d28/menu_2xonotic_2button_8qc_source.html":[2,0,5,4,6],
+"df/d28/sv__turrets_8qh.html":[2,0,1,14,12],
 "df/d28/sv__turrets_8qh.html#a07c4c1a4a7cb4c2974e3f73f6c395d5c":[2,0,1,14,12,23],
 "df/d28/sv__turrets_8qh.html#a14c247fc49cf9424dd12ea85899be277":[2,0,1,14,12,4],
 "df/d28/sv__turrets_8qh.html#a15df8a6498e96a76f4a5e0213150f6a8":[2,0,1,14,12,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX142 =
 "df/d42/quake3_8qc.html#abaec4a24bf36aa1665bbdb27e217f819":[2,0,6,2,8,1],
 "df/d42/quake3_8qc.html#abdc33cf25e725134a9b48e79c7031bcf":[2,0,6,2,8,10],
 "df/d42/quake3_8qc.html#ad4899ec0dcf98c0a39b6bc4b99b3dbcf":[2,0,6,2,8,5],
-"df/d42/quake3_8qc.html#ae6af28f0406185d406556f691af0f8f2":[2,0,6,2,8,3],
-"df/d42/quake3_8qc.html#ae6ce7348eeca30f09a3ea4aca0a44683":[2,0,6,2,8,17],
-"df/d42/quake3_8qc.html#ae85e4cca4f185075917547715465c5e3":[2,0,6,2,8,15]
+"df/d42/quake3_8qc.html#ae6af28f0406185d406556f691af0f8f2":[2,0,6,2,8,3]
 };
