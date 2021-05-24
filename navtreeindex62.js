@@ -1,5 +1,8 @@
 var NAVTREEINDEX62 =
 {
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,177,80],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#afb9c620a2dde42c74c6685bbe02d0759":[1,0,177,54],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,177,2],
 "d6/d79/classXonoticHUDWeaponsDialog.html":[1,0,207],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,207,6],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,207,104],
@@ -246,8 +249,5 @@ var NAVTREEINDEX62 =
 "d6/d96/classRaceCTS.html#af1d1fdc80e94a11a8ca64aa9fdccc2a1":[1,0,109,18],
 "d6/d96/classRaceCTS.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,109,4],
 "d6/d97/common_2vehicles_2__mod_8qh.html":[2,0,1,15,2],
-"d6/d97/common_2vehicles_2__mod_8qh_source.html":[2,0,1,15,2],
-"d6/d99/effectinfo__buffs_8inc.html":[2,0,1,2,10],
-"d6/d99/effectinfo__buffs_8inc.html#a010c16868061b3991e58f04043922167":[2,0,1,2,10,25],
-"d6/d99/effectinfo__buffs_8inc.html#a0fbceecaf07c119250c3de389b206752":[2,0,1,2,10,14]
+"d6/d97/common_2vehicles_2__mod_8qh_source.html":[2,0,1,15,2]
 };

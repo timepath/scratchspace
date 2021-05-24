@@ -23,6 +23,7 @@ var searchData=
   ['death_5fmsgmurder',['death_msgmurder',['../d9/d4f/deathtypes_2all_8qh.html#a5323a267d4110e1c2a732dc9263af5c5',1,'all.qh']]],
   ['death_5fmsgself',['death_msgself',['../d9/d4f/deathtypes_2all_8qh.html#a857d601569050fa242aaa911e18746ac',1,'all.qh']]],
   ['death_5forigin',['death_origin',['../d4/d62/damage_8qh.html#a11d89ec8cc6283dad8c138515a34cd9d',1,'damage.qh']]],
+  ['death_5fteam',['death_team',['../d9/d09/notifications_2all_8inc.html#ac9e7510f93133d8b7902ed0fad9c528c',1,'all.inc']]],
   ['death_5ftime',['death_time',['../dc/d3d/csqcmodel__hooks_8qc.html#a56a6722764e904912b5437624074a79e',1,'death_time():&#160;csqcmodel_hooks.qc'],['../da/dc1/server_2player_8qh.html#a56a6722764e904912b5437624074a79e',1,'death_time():&#160;player.qh']]],
   ['death_5fweaponmask',['DEATH_WEAPONMASK',['../d9/d4f/deathtypes_2all_8qh.html#a5d776d28500a9006a4a7dd9da293f557',1,'all.qh']]],
   ['deathmatch',['deathmatch',['../d6/d11/progsdefs_8qc.html#a45b6e6afbce5c3398b8037caf1fd0e07',1,'progsdefs.qc']]],

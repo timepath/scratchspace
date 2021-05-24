@@ -2,6 +2,7 @@ var searchData=
 [
   ['damagetext_5fprecision_5fmultiplier',['DAMAGETEXT_PRECISION_MULTIPLIER',['../dd/d79/damagetext_8qh.html#aec79b6285984eef22af18f273205c4b2',1,'damagetext.qh']]],
   ['damagetext_5fshort_5flimit',['DAMAGETEXT_SHORT_LIMIT',['../dd/d79/damagetext_8qh.html#adb19c2866cdfa31be4c7fb190e28f921',1,'damagetext.qh']]],
+  ['days_5fup_5fto_5fepoch',['DAYS_UP_TO_EPOCH',['../d2/db4/string_8qh.html#a726c22250999cfd79a787d7aeabc88f0',1,'string.qh']]],
   ['db_5fremove',['db_remove',['../d4/d54/map_8qh.html#a0cbc5a946b47e9a20a1d9089688840ff',1,'map.qh']]],
   ['death_5fent',['DEATH_ENT',['../d9/d4f/deathtypes_2all_8qh.html#a387734666d7aaca5f931efd84bbf6eee',1,'all.qh']]],
   ['death_5fis',['DEATH_IS',['../d9/d4f/deathtypes_2all_8qh.html#aed2b0f7718db6f6b5bc9ebda3c8b4c41',1,'all.qh']]],

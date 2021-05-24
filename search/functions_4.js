@@ -10,6 +10,7 @@ var searchData=
   ['damagetext',['DamageText',['../de/d0c/classDamageText.html#a5036c64a5f209f3f1bc327afa3f5a6dc',1,'DamageText']]],
   ['damagetext_5fdraw2d',['DamageText_draw2d',['../de/d0c/classDamageText.html#a1bb3fadcd65ec6a18fd5840879e003f5',1,'DamageText']]],
   ['damagetext_5fupdate',['DamageText_update',['../de/d0c/classDamageText.html#a95a7a03c14103583821720970c1830eb',1,'DamageText']]],
+  ['days_5fup_5fto_5fdate',['days_up_to_date',['../d2/db4/string_8qh.html#acfc884046b281ac96f0b3d8079c20b86',1,'string.qh']]],
   ['db_5fclose',['db_close',['../d4/d54/map_8qh.html#a250c6f59605b10e0f6c9e18a5c57547f',1,'map.qh']]],
   ['db_5fcreate',['db_create',['../d4/d54/map_8qh.html#a96597f604fb02d0697d224f21a5b7964',1,'map.qh']]],
   ['db_5fdump',['db_dump',['../d4/d54/map_8qh.html#af224e4f61c730fb62f0ee23b2810adb6',1,'map.qh']]],

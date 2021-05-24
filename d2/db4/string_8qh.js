@@ -1,5 +1,6 @@
 var string_8qh =
 [
+    [ "DAYS_UP_TO_EPOCH", "d2/db4/string_8qh.html#a726c22250999cfd79a787d7aeabc88f0", null ],
     [ "DEC_TO_HEXDIGIT", "d2/db4/string_8qh.html#ab9cc51225f98703626978ab0de95744b", null ],
     [ "endsWith", "d2/db4/string_8qh.html#a17ef0c21cbd07ec53d7dee826fa3814d", null ],
     [ "HEXDIGIT_TO_DEC", "d2/db4/string_8qh.html#a70bd37e05eeb11fdb4e3cfff09c6187e", null ],
@@ -19,6 +20,7 @@ var string_8qh =
     [ "ColorTranslateRGB", "d2/db4/string_8qh.html#a18d360dae8acec6fc943d884ad153f8d", null ],
     [ "cons", "d2/db4/string_8qh.html#ab3eb2270af4613832a52d512e62e4f40", null ],
     [ "cons_mid", "d2/db4/string_8qh.html#a971897a7bd1ad4ccf0d80f69f47a31b4", null ],
+    [ "days_up_to_date", "d2/db4/string_8qh.html#acfc884046b281ac96f0b3d8079c20b86", null ],
     [ "format_time", "d2/db4/string_8qh.html#aebd61a27c197bc3b9ba434da88c1c3b3", null ],
     [ "fstrunzone", "d2/db4/string_8qh.html#a87d5a82273957e1a3ef4a51c8b27f6ee", null ],
     [ "ftos_decimals", "d2/db4/string_8qh.html#a49cb9df0e85f064315fa093ad9c9ef80", null ],
@@ -31,6 +33,7 @@ var string_8qh =
     [ "seconds_tostring", "d2/db4/string_8qh.html#ab38904ebe2d7ba412716db9fb92dc3cb", null ],
     [ "shufflewords", "d2/db4/string_8qh.html#a5662d52ea1706e0e92589448af28771f", null ],
     [ "startsWithNocase", "d2/db4/string_8qh.html#aa67a0f021c51c2de6adbfdcdc42e0781", null ],
+    [ "strftime_s", "d2/db4/string_8qh.html#ae4abe36e344e323a111f32c6548a7c77", null ],
     [ "strwords", "d2/db4/string_8qh.html#a77a876ab4ec1917b5f80ae8a607679ba", null ],
     [ "substring_range", "d2/db4/string_8qh.html#a6ed37ac9986b5f629728ff34571a3ef5", null ],
     [ "swapwords", "d2/db4/string_8qh.html#ac8b1cd595c302189b52fe7c9fbf01de1", null ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX37 =
 {
+"d3/dfc/csqcmodel__hooks_8qh.html#a49a184cdfcfeb7438f45b216e8cf66d6":[2,0,0,12,18],
+"d3/dfc/csqcmodel__hooks_8qh.html#a52e1942af4853362f4bce7a5ad933a22":[2,0,0,12,11],
+"d3/dfc/csqcmodel__hooks_8qh.html#a57a49f64d88713430176bbab09086008":[2,0,0,12,6],
 "d3/dfc/csqcmodel__hooks_8qh.html#a58e0021b7723d4801d1fa2a44a00b105":[2,0,0,12,4],
 "d3/dfc/csqcmodel__hooks_8qh.html#a5975b3f6bee146965bb1423e631dbd11":[2,0,0,12,13],
 "d3/dfc/csqcmodel__hooks_8qh.html#a59b8c94bae8e8b41f417fab6789ffaf8":[2,0,0,12,29],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d0a/classXonoticMiscSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,218,2],
 "d4/d0b/classDevastator.html":[1,0,28],
 "d4/d0b/classDevastator.html#a0857557df1839208d8571e233839ce44":[1,0,28,26],
-"d4/d0b/classDevastator.html#a085c2c434d43995152bb13a7b46ac8e8":[1,0,28,7],
-"d4/d0b/classDevastator.html#a09500993ff472091b96518ef7e9f32a1":[1,0,28,15],
-"d4/d0b/classDevastator.html#a16fa2936c9dd4428f6baff84947bbe5c":[1,0,28,16],
-"d4/d0b/classDevastator.html#a19a210e233d5ac3c2563487f1b763bec":[1,0,28,27]
+"d4/d0b/classDevastator.html#a085c2c434d43995152bb13a7b46ac8e8":[1,0,28,7]
 };
