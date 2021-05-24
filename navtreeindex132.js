@@ -1,5 +1,10 @@
 var NAVTREEINDEX132 =
 {
+"de/d23/crosshair_8qc_source.html":[2,0,0,1,3],
+"de/d23/item_2tab_8qh.html":[2,0,5,2,31],
+"de/d23/item_2tab_8qh_source.html":[2,0,5,2,31],
+"de/d24/dialog__hudpanel__itemstime_8qc.html":[2,0,5,4,58],
+"de/d24/dialog__hudpanel__itemstime_8qc.html#a7f8da58b95e630404ff9bdb2d6fb0dc5":[2,0,5,4,58,0],
 "de/d24/dialog__hudpanel__itemstime_8qc_source.html":[2,0,5,4,58],
 "de/d26/nexball_8qh.html":[2,0,1,3,0,12,5],
 "de/d26/nexball_8qh.html#a4145da0a4de5ab91b26dc80849de669f":[2,0,1,3,0,12,5,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX132 =
 "de/d30/classXonoticDisconnectDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,174,88],
 "de/d30/classXonoticDisconnectDialog.html#aee4e499a2af6112e04b6d702c6920872":[1,0,174,63],
 "de/d30/classXonoticDisconnectDialog.html#aeed055aa0f545e16cc1d0870d719d444":[1,0,174,22],
-"de/d30/classXonoticDisconnectDialog.html#af324d80a935b06d7a4bd8666f91e623d":[1,0,174,71],
-"de/d30/classXonoticDisconnectDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,174,5],
-"de/d30/classXonoticDisconnectDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,174,10],
-"de/d30/classXonoticDisconnectDialog.html#afb9c620a2dde42c74c6685bbe02d0759":[1,0,174,50],
-"de/d33/minigames_2minigame_2all_8qh.html":[2,0,1,7,0,2],
-"de/d33/minigames_2minigame_2all_8qh.html#aa0ff481414c04850bd6f6b1a205d81cd":[2,0,1,7,0,2,0]
+"de/d30/classXonoticDisconnectDialog.html#af324d80a935b06d7a4bd8666f91e623d":[1,0,174,71]
 };

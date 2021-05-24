@@ -1,5 +1,10 @@
 var NAVTREEINDEX133 =
 {
+"de/d30/classXonoticDisconnectDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,174,5],
+"de/d30/classXonoticDisconnectDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,174,10],
+"de/d30/classXonoticDisconnectDialog.html#afb9c620a2dde42c74c6685bbe02d0759":[1,0,174,50],
+"de/d33/minigames_2minigame_2all_8qh.html":[2,0,1,7,0,2],
+"de/d33/minigames_2minigame_2all_8qh.html#aa0ff481414c04850bd6f6b1a205d81cd":[2,0,1,7,0,2,0],
 "de/d33/minigames_2minigame_2all_8qh_source.html":[2,0,1,7,0,2],
 "de/d37/common_2gamemodes_2gamemode_2assault_2__mod_8inc.html":[2,0,1,3,0,0,0],
 "de/d37/common_2gamemodes_2gamemode_2assault_2__mod_8inc_source.html":[2,0,1,3,0,0,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX133 =
 "de/d4b/door__rotating_8qh.html#a9340b964e79749f74df4d82485a43995":[2,0,1,6,0,13,3],
 "de/d4b/door__rotating_8qh.html#a9d9fbf28210ff6478d50b8e9a9225b8b":[2,0,1,6,0,13,2],
 "de/d4b/door__rotating_8qh_source.html":[2,0,1,6,0,13],
-"de/d4d/sv__controlpoint_8qc.html":[2,0,1,3,0,13,12],
-"de/d4d/sv__controlpoint_8qc.html#a82df6e0da0f9ef689ce91cd247f56513":[2,0,1,3,0,13,12,0],
-"de/d4d/sv__controlpoint_8qc.html#aaa7f81056bee0ea2f368b8b5eb79b0a0":[2,0,1,3,0,13,12,2],
-"de/d4d/sv__controlpoint_8qc.html#afc44af413028da09208c031b9fb3f4e0":[2,0,1,3,0,13,12,1],
-"de/d4d/sv__controlpoint_8qc_source.html":[2,0,1,3,0,13,12],
-"de/d4e/bugrigs_8qh.html":[2,0,1,10,0,3,3]
+"de/d4d/sv__controlpoint_8qc.html":[2,0,1,3,0,13,12]
 };

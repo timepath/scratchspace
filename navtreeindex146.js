@@ -1,5 +1,10 @@
 var NAVTREEINDEX146 =
 {
+"df/d92/classXonoticWinnerDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,266,75],
+"df/d92/classXonoticWinnerDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,266,111],
+"df/d92/classXonoticWinnerDialog.html#ae4426a36e8331724eb95f243e6e1dc4c":[1,0,266,98],
+"df/d92/classXonoticWinnerDialog.html#ae94f2e7fb100a64d6fd1fbeb509d7e72":[1,0,266,33],
+"df/d92/classXonoticWinnerDialog.html#aeaa408fb15986685798823ca7bbfc4c3":[1,0,266,24],
 "df/d92/classXonoticWinnerDialog.html#aeb2ea2fcd2aeba74d3d75f7421aaae2b":[1,0,266,38],
 "df/d92/classXonoticWinnerDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,266,3],
 "df/d92/classXonoticWinnerDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,266,88],
@@ -119,8 +124,8 @@ var NAVTREEINDEX146 =
 "df/d9b/menu_2xonotic_2util_8qc.html#acec3f9953edac61d0ea8bb0c013539cc":[2,0,5,4,236,70],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad18fa120b3ff7def2f7c47a178855468":[2,0,5,4,236,5],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad1f36d07e4a66476224966394f1e24e5":[2,0,5,4,236,49],
-"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,236,1],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,236,3],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,236,1],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad481dfa3a9518c9669a0fcc1da77758f":[2,0,5,4,236,12],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556":[2,0,5,4,236,7],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad87ced1edd45c581dd684b4054fd8ea5":[2,0,5,4,236,78],
@@ -244,10 +249,5 @@ var NAVTREEINDEX146 =
 "df/dc2/menu_8qc.html#a1cb9a3103826efc9a3acbe38f4ff4a59":[2,0,5,14,11],
 "df/dc2/menu_8qc.html#a20b42797c858fb65d0be0a49c5dab4c7":[2,0,5,14,52],
 "df/dc2/menu_8qc.html#a2302a361845bfd3437200633ffaf6c5d":[2,0,5,14,19],
-"df/dc2/menu_8qc.html#a23677d034dc6d8a97a8c46075e63a45d":[2,0,5,14,12],
-"df/dc2/menu_8qc.html#a2884065abdd89fe2349ff849e8f0d338":[2,0,5,14,24],
-"df/dc2/menu_8qc.html#a2be62f2005131f19252171c95486c575":[2,0,5,14,59],
-"df/dc2/menu_8qc.html#a31a83527295fe4b6c12b8466363ad8ad":[2,0,5,14,10],
-"df/dc2/menu_8qc.html#a38fcf0d8a8015307b82a097790be8e84":[2,0,5,14,58],
-"df/dc2/menu_8qc.html#a417e4db3d0fe2387b648a1ed3326341f":[2,0,5,14,20]
+"df/dc2/menu_8qc.html#a23677d034dc6d8a97a8c46075e63a45d":[2,0,5,14,12]
 };

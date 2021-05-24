@@ -1,5 +1,10 @@
 var NAVTREEINDEX118 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#ac48a55ee27825c21341d607260063b25":[1,0,190,11],
+"dc/d37/classXonoticHUDExitDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,190,78],
+"dc/d37/classXonoticHUDExitDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,190,105],
+"dc/d37/classXonoticHUDExitDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,190,83],
+"dc/d37/classXonoticHUDExitDialog.html#ad27705a6a1dfa2b0fd29bd576855918a":[1,0,190,103],
 "dc/d37/classXonoticHUDExitDialog.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,190,56],
 "dc/d37/classXonoticHUDExitDialog.html#ad67727bded724210e1017635eed79c56":[1,0,190,36],
 "dc/d37/classXonoticHUDExitDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,190,108],
@@ -244,10 +249,5 @@ var NAVTREEINDEX118 =
 "dc/d54/sv__vampirehook_8qh_source.html":[2,0,1,10,0,37,3],
 "dc/d55/clientkill_8qc.html":[2,0,6,21],
 "dc/d55/clientkill_8qc.html#a07ed282ad92406a801203975b2c36ad4":[2,0,6,21,5],
-"dc/d55/clientkill_8qc.html#a1f7075729b16c7fb29ac863d1a4c1725":[2,0,6,21,6],
-"dc/d55/clientkill_8qc.html#a482f54a20df32f498a4c3cca6f372fee":[2,0,6,21,7],
-"dc/d55/clientkill_8qc.html#a6d667edce7a9dc7b78542157f7f7dc46":[2,0,6,21,8],
-"dc/d55/clientkill_8qc.html#a85c92f8d62dbd468b7fd55f41b7eda21":[2,0,6,21,1],
-"dc/d55/clientkill_8qc.html#a938e070de4f75be12fdefb227e4ef819":[2,0,6,21,3],
-"dc/d55/clientkill_8qc.html#a97b74d9774c1336d930dd5a88961726e":[2,0,6,21,4]
+"dc/d55/clientkill_8qc.html#a1f7075729b16c7fb29ac863d1a4c1725":[2,0,6,21,6]
 };

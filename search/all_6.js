@@ -295,6 +295,7 @@ var searchData=
   ['freezetag_5fcheckwinner',['freezetag_CheckWinner',['../d3/d60/sv__freezetag_8qc.html#ad5bd998b873b2096a2e53e06f0a228cf',1,'sv_freezetag.qc']]],
   ['freezetag_5fcount_5falive_5fplayers',['freezetag_count_alive_players',['../d3/d60/sv__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5',1,'sv_freezetag.qc']]],
   ['freezetag_5ffreeze',['freezetag_Freeze',['../d3/d60/sv__freezetag_8qc.html#ac6cbd41d5275a595f81c748f405fef7a',1,'sv_freezetag.qc']]],
+  ['freezetag_5ffrozen_5fforce',['freezetag_frozen_force',['../d7/d2d/sv__freezetag_8qh.html#a71922243f0f0e60491f0bfd3bb0a0ce6',1,'sv_freezetag.qh']]],
   ['freezetag_5ffrozen_5ftime',['freezetag_frozen_time',['../d7/d2d/sv__freezetag_8qh.html#aab6e5dd351a36e1a298791aceb0a13a3',1,'sv_freezetag.qh']]],
   ['freezetag_5ffrozen_5ftimeout',['freezetag_frozen_timeout',['../d7/d2d/sv__freezetag_8qh.html#a5c7d231b29848dbe9e992548d57958bb',1,'sv_freezetag.qh']]],
   ['freezetag_5fgetwinnerteam',['freezetag_getWinnerTeam',['../d3/d60/sv__freezetag_8qc.html#ab473edffeb644f0b5290b9cceaa68a7d',1,'sv_freezetag.qc']]],

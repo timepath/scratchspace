@@ -1,5 +1,10 @@
 var NAVTREEINDEX128 =
 {
+"dd/da1/dialog__settings__game__hud_8qc.html#a057008f0eb43d4c862b6e4ff9db6da28":[2,0,5,4,134,3],
+"dd/da1/dialog__settings__game__hud_8qc.html#a339f2f6d3acd74f0a18c2db26f303fa1":[2,0,5,4,134,2],
+"dd/da1/dialog__settings__game__hud_8qc.html#a57427e87f05e329a87ac5937269e8b60":[2,0,5,4,134,0],
+"dd/da1/dialog__settings__game__hud_8qc.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,134,1],
+"dd/da1/dialog__settings__game__hud_8qc_source.html":[2,0,5,4,134],
 "dd/da3/classXonoticMusicPlayerTab.html":[1,0,221],
 "dd/da3/classXonoticMusicPlayerTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,221,10],
 "dd/da3/classXonoticMusicPlayerTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,221,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX128 =
 "dd/db0/sv__rocketflying_8qc.html#a13915ad0ee78b445f550ece48ae3e808":[2,0,1,10,0,28,2,2],
 "dd/db0/sv__rocketflying_8qc.html#a14ac805a3ee973aa1b7aefab1c56dd85":[2,0,1,10,0,28,2,3],
 "dd/db0/sv__rocketflying_8qc.html#a1b960f04b46f7f044d0110f9acf87cac":[2,0,1,10,0,28,2,4],
-"dd/db0/sv__rocketflying_8qc.html#a45229b427d8c40beaf8a6848bd386a20":[2,0,1,10,0,28,2,0],
-"dd/db0/sv__rocketflying_8qc.html#a4b972fe40a96354f968f5243bec0e961":[2,0,1,10,0,28,2,5],
-"dd/db0/sv__rocketflying_8qc.html#a72fe8ebdccdca082dc573a8017acc685":[2,0,1,10,0,28,2,1],
-"dd/db0/sv__rocketflying_8qc.html#ab353d7328912bb89462df24ad8a11e38":[2,0,1,10,0,28,2,6],
-"dd/db0/sv__rocketflying_8qc_source.html":[2,0,1,10,0,28,2],
-"dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh.html":[2,0,1,10,0,17,1]
+"dd/db0/sv__rocketflying_8qc.html#a45229b427d8c40beaf8a6848bd386a20":[2,0,1,10,0,28,2,0]
 };
