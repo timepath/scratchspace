@@ -1,5 +1,8 @@
 var NAVTREEINDEX145 =
 {
+"df/d78/classPhaserTurretAttack.html#a6e0a37eaab3d64cff4542800f42b1c4c":[1,0,99,28],
+"df/d78/classPhaserTurretAttack.html#a7388eaa85b4d9f9cdc9d9531941849e4":[1,0,99,14],
+"df/d78/classPhaserTurretAttack.html#a7515d4131829927372fd6583d4ae610a":[1,0,99,0],
 "df/d78/classPhaserTurretAttack.html#a7806a7d558533700a40ccab8a2558232":[1,0,99,23],
 "df/d78/classPhaserTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,99,36],
 "df/d78/classPhaserTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,99,29],
@@ -126,10 +129,10 @@ var NAVTREEINDEX145 =
 "df/d8c/cl__cmd_8qc.html#ac1a03af5c66e122f2e7ab5298a3df6f0":[2,0,0,0,2,29],
 "df/d8c/cl__cmd_8qc.html#ac3dfed50120778da83022f7fd4452f07":[2,0,0,0,2,13],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,2,20],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,2,26],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,2,23],
 "df/d8c/cl__cmd_8qc.html#ade6e4eb447a5275679d8d431ede8266a":[2,0,0,0,2,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX145 =
 "df/d92/classXonoticWinnerDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,266,105],
 "df/d92/classXonoticWinnerDialog.html#ad0e2dd605dede88871a086b25be14420":[1,0,266,79],
 "df/d92/classXonoticWinnerDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,266,83],
-"df/d92/classXonoticWinnerDialog.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,266,56],
-"df/d92/classXonoticWinnerDialog.html#ad67727bded724210e1017635eed79c56":[1,0,266,36],
-"df/d92/classXonoticWinnerDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,266,108],
-"df/d92/classXonoticWinnerDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,266,82]
+"df/d92/classXonoticWinnerDialog.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,266,56]
 };

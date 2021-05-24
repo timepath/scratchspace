@@ -1,5 +1,8 @@
 var NAVTREEINDEX128 =
 {
+"dd/d9a/classXonoticSandboxToolsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,237,10],
+"dd/d9a/classXonoticSandboxToolsDialog.html#afb9c620a2dde42c74c6685bbe02d0759":[1,0,237,50],
+"dd/da1/dialog__settings__game__hud_8qc.html":[2,0,5,4,134],
 "dd/da1/dialog__settings__game__hud_8qc.html#a057008f0eb43d4c862b6e4ff9db6da28":[2,0,5,4,134,3],
 "dd/da1/dialog__settings__game__hud_8qc.html#a339f2f6d3acd74f0a18c2db26f303fa1":[2,0,5,4,134,2],
 "dd/da1/dialog__settings__game__hud_8qc.html#a57427e87f05e329a87ac5937269e8b60":[2,0,5,4,134,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX128 =
 "dd/dac/dialog__hudsetup__exit_8qc.html#a9402798b381818975e745a6b27052d0b":[2,0,5,4,86,0],
 "dd/dac/dialog__hudsetup__exit_8qc_source.html":[2,0,5,4,86],
 "dd/db0/sv__rocketflying_8qc.html":[2,0,1,10,0,28,2],
-"dd/db0/sv__rocketflying_8qc.html#a13915ad0ee78b445f550ece48ae3e808":[2,0,1,10,0,28,2,2],
-"dd/db0/sv__rocketflying_8qc.html#a14ac805a3ee973aa1b7aefab1c56dd85":[2,0,1,10,0,28,2,3],
-"dd/db0/sv__rocketflying_8qc.html#a1b960f04b46f7f044d0110f9acf87cac":[2,0,1,10,0,28,2,4],
-"dd/db0/sv__rocketflying_8qc.html#a45229b427d8c40beaf8a6848bd386a20":[2,0,1,10,0,28,2,0]
+"dd/db0/sv__rocketflying_8qc.html#a13915ad0ee78b445f550ece48ae3e808":[2,0,1,10,0,28,2,2]
 };

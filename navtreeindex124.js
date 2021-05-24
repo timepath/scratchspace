@@ -1,5 +1,8 @@
 var NAVTREEINDEX124 =
 {
+"dd/d0c/sv__ctf_8qc.html#af8294d18556444fbb8fb0fd3b8c85005":[2,0,1,3,0,2,6,114],
+"dd/d0c/sv__ctf_8qc.html#afb288e4a718e0685ba63b26ce4033232":[2,0,1,3,0,2,6,145],
+"dd/d0c/sv__ctf_8qc.html#afb2c59bc3b1ee0e0518cc645b93ddaff":[2,0,1,3,0,2,6,29],
 "dd/d0c/sv__ctf_8qc.html#afe308b36c08b5e6098983cbf5e00a85d":[2,0,1,3,0,2,6,93],
 "dd/d0c/sv__ctf_8qc.html#afe47e50b88a1c1cd6e88bbec6ab3fc53":[2,0,1,3,0,2,6,39],
 "dd/d0c/sv__ctf_8qc.html#afed4d3a24a50b50e05de100f031897a9":[2,0,1,3,0,2,6,125],
@@ -136,8 +139,8 @@ var NAVTREEINDEX124 =
 "dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8":[2,0,6,1,2,4],
 "dd/d31/banning_8qc.html#aaa20889235d234fb166936b0fcd92fc9":[2,0,6,1,2,14],
 "dd/d31/banning_8qc.html#ab8dc86da7e17cc52825f96caf0093e8e":[2,0,6,1,2,9],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,2],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,2],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,3],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
 "dd/d31/banning_8qc.html#accb18c92820bdc83541f2af3ac0d1461":[2,0,6,1,2,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX124 =
 "dd/d36/classXonoticGameViewSettingsTab.html#aba8583e6bc930dad6807443f24a136dd":[1,0,183,38],
 "dd/d36/classXonoticGameViewSettingsTab.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,183,1],
 "dd/d36/classXonoticGameViewSettingsTab.html#abe2c850fde36d76cc9d8904943203ed2":[1,0,183,109],
-"dd/d36/classXonoticGameViewSettingsTab.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,183,61],
-"dd/d36/classXonoticGameViewSettingsTab.html#ac090de718883fe54a336391f7c4b5b88":[1,0,183,24],
-"dd/d36/classXonoticGameViewSettingsTab.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,183,77],
-"dd/d36/classXonoticGameViewSettingsTab.html#ac2d305f3d52cd31a07ed7d66b97b2145":[1,0,183,41]
+"dd/d36/classXonoticGameViewSettingsTab.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,183,61]
 };

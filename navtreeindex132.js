@@ -1,5 +1,8 @@
 var NAVTREEINDEX132 =
 {
+"de/d23/crosshair_8qc.html#af3a31a67cf364f0119fdb951cea9fcd1":[2,0,0,1,3,37],
+"de/d23/crosshair_8qc.html#af3bc6ddb9630b538f81a69484546491c":[2,0,0,1,3,29],
+"de/d23/crosshair_8qc.html#af82e2231599877dfd99896210714e527":[2,0,0,1,3,28],
 "de/d23/crosshair_8qc_source.html":[2,0,0,1,3],
 "de/d23/item_2tab_8qh.html":[2,0,5,2,31],
 "de/d23/item_2tab_8qh_source.html":[2,0,5,2,31],
@@ -246,8 +249,5 @@ var NAVTREEINDEX132 =
 "de/d30/classXonoticDisconnectDialog.html#aeaa408fb15986685798823ca7bbfc4c3":[1,0,174,24],
 "de/d30/classXonoticDisconnectDialog.html#aeb2ea2fcd2aeba74d3d75f7421aaae2b":[1,0,174,38],
 "de/d30/classXonoticDisconnectDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,174,3],
-"de/d30/classXonoticDisconnectDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,174,88],
-"de/d30/classXonoticDisconnectDialog.html#aee4e499a2af6112e04b6d702c6920872":[1,0,174,63],
-"de/d30/classXonoticDisconnectDialog.html#aeed055aa0f545e16cc1d0870d719d444":[1,0,174,22],
-"de/d30/classXonoticDisconnectDialog.html#af324d80a935b06d7a4bd8666f91e623d":[1,0,174,71]
+"de/d30/classXonoticDisconnectDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,174,88]
 };

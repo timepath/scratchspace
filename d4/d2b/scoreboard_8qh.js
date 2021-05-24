@@ -11,7 +11,11 @@ var scoreboard_8qh =
     [ "autocvar_scoreboard_columns", "d4/d2b/scoreboard_8qh.html#a369b28ec61fa01a71581bc1a599c9ee8", null ],
     [ "scoreboard_acc_fade_alpha", "d4/d2b/scoreboard_8qh.html#a281e75379427b350104ddcd9c19cdfa1", null ],
     [ "scoreboard_active", "d4/d2b/scoreboard_8qh.html#a9e07478dc906c451cdaf11df6a458786", null ],
+    [ "scoreboard_bottom", "d4/d2b/scoreboard_8qh.html#ad53d36ceae0de8723447c0b440bf358f", null ],
     [ "scoreboard_fade_alpha", "d4/d2b/scoreboard_8qh.html#aa6b8f97cefad819218cd7aef293559ea", null ],
     [ "scoreboard_itemstats_fade_alpha", "d4/d2b/scoreboard_8qh.html#aebed239ab61602124b2daf23a551232a", null ],
-    [ "scoreboard_showscores", "d4/d2b/scoreboard_8qh.html#a82122038f6f96da3e271a63cc06516eb", null ]
+    [ "scoreboard_left", "d4/d2b/scoreboard_8qh.html#a91402b212cae280093b6e72e628db7f6", null ],
+    [ "scoreboard_right", "d4/d2b/scoreboard_8qh.html#a021a9d356c1798b7d007b9f1f7240fbe", null ],
+    [ "scoreboard_showscores", "d4/d2b/scoreboard_8qh.html#a82122038f6f96da3e271a63cc06516eb", null ],
+    [ "scoreboard_top", "d4/d2b/scoreboard_8qh.html#a822ea5dbe8f1fcd24f956f19ea2733fe", null ]
 ];
