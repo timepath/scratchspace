@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"d2/d88/classDomination.html#a0d6a1e8d19d0ea2f43e4cd23232c32fb":[1,0,30,7],
 "d2/d88/classDomination.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,30,0],
 "d2/d88/classDomination.html#a353db82280437c3b38f0ad1934a7d666":[1,0,30,22],
 "d2/d88/classDomination.html#a4d5852ddbf5284c2695c91c51bbbe12e":[1,0,30,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "d2/db1/movetypes_8qc.html#a9dc4beb8296f404512228731929339d3":[2,0,1,12,0,5,24],
 "d2/db1/movetypes_8qc.html#a9eab855e43664a019197c6c63e17698b":[2,0,1,12,0,5,11],
 "d2/db1/movetypes_8qc.html#aa9a451c248f6edd8b206c427c6c9eea5":[2,0,1,12,0,5,5],
-"d2/db1/movetypes_8qc.html#aaa5fd4d9792dbaf97f08557a2197e928":[2,0,1,12,0,5,15],
-"d2/db1/movetypes_8qc.html#ab5d02d1d7a51316be25cc82291fc5787":[2,0,1,12,0,5,37]
+"d2/db1/movetypes_8qc.html#aaa5fd4d9792dbaf97f08557a2197e928":[2,0,1,12,0,5,15]
 };

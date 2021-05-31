@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"d6/d66/classPhaserTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,98,0],
 "d6/d6b/ewheel_8qc.html":[2,0,1,14,0,2],
 "d6/d6b/ewheel_8qc_source.html":[2,0,1,14,0,2],
 "d6/d6e/cts_8qc.html":[2,0,1,3,0,3,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,177,7],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,177,89],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#aee4e499a2af6112e04b6d702c6920872":[1,0,177,67],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#aeed055aa0f545e16cc1d0870d719d444":[1,0,177,26],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#af1378666510839248c407b96868b85b2":[1,0,177,75]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#aeed055aa0f545e16cc1d0870d719d444":[1,0,177,26]
 };

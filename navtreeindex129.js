@@ -1,5 +1,7 @@
 var NAVTREEINDEX129 =
 {
+"dd/db0/sv__rocketflying_8qc.html":[2,0,1,10,0,28,2],
+"dd/db0/sv__rocketflying_8qc.html#a13915ad0ee78b445f550ece48ae3e808":[2,0,1,10,0,28,2,2],
 "dd/db0/sv__rocketflying_8qc.html#a14ac805a3ee973aa1b7aefab1c56dd85":[2,0,1,10,0,28,2,3],
 "dd/db0/sv__rocketflying_8qc.html#a1b960f04b46f7f044d0110f9acf87cac":[2,0,1,10,0,28,2,4],
 "dd/db0/sv__rocketflying_8qc.html#a45229b427d8c40beaf8a6848bd386a20":[2,0,1,10,0,28,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX129 =
 "dd/dcd/hud__config_8qh.html#af6a5e9b71fece7ba2124a8e01b0b73b0":[2,0,0,1,8,0],
 "dd/dcd/hud__config_8qh.html#aff11757a3172f4f26585a7edc21785f0":[2,0,0,1,8,3],
 "dd/dcd/hud__config_8qh_source.html":[2,0,0,1,8],
-"dd/dd0/classRace.html":[1,0,108],
-"dd/dd0/classRace.html#a034a4fc92a50d73609686c935bd4b687":[1,0,108,24],
-"dd/dd0/classRace.html#a29047abc44292d716237186837435447":[1,0,108,19]
+"dd/dd0/classRace.html":[1,0,108]
 };

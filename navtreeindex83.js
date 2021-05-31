@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"d8/dcc/classKeyHunt.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,62,0],
 "d8/dcc/classKeyHunt.html#a353db82280437c3b38f0ad1934a7d666":[1,0,62,23],
 "d8/dcc/classKeyHunt.html#a4d5852ddbf5284c2695c91c51bbbe12e":[1,0,62,12],
 "d8/dcc/classKeyHunt.html#a6029db0de09a0293986e7a082970775a":[1,0,62,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "d8/de2/menudefs_8qc.html#a275d4f7ede17f9fe0df84ee729cc11fc":[2,0,2,0,3,277],
 "d8/de2/menudefs_8qc.html#a27ad0dbd2818ea2cdadf451db02c1853":[2,0,2,0,3,63],
 "d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120":[2,0,2,0,3,243],
-"d8/de2/menudefs_8qc.html#a2aee0d075fe82d19d22d5bb33ce5b3be":[2,0,2,0,3,183],
-"d8/de2/menudefs_8qc.html#a2c0889a44d991bdd309434f9fc56201e":[2,0,2,0,3,84]
+"d8/de2/menudefs_8qc.html#a2aee0d075fe82d19d22d5bb33ce5b3be":[2,0,2,0,3,183]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX118 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,190,110],
+"dc/d37/classXonoticHUDExitDialog.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,190,57],
 "dc/d37/classXonoticHUDExitDialog.html#ac090de718883fe54a336391f7c4b5b88":[1,0,190,20],
 "dc/d37/classXonoticHUDExitDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,190,73],
 "dc/d37/classXonoticHUDExitDialog.html#ac2d305f3d52cd31a07ed7d66b97b2145":[1,0,190,37],
@@ -247,7 +249,5 @@ var NAVTREEINDEX118 =
 "dc/d52/dialog__multiplayer__create__mapinfo_8qh.html":[2,0,5,4,95],
 "dc/d52/dialog__multiplayer__create__mapinfo_8qh_source.html":[2,0,5,4,95],
 "dc/d53/sv__cloaked_8qh.html":[2,0,1,10,0,5,3],
-"dc/d53/sv__cloaked_8qh_source.html":[2,0,1,10,0,5,3],
-"dc/d54/sv__vampirehook_8qh.html":[2,0,1,10,0,37,3],
-"dc/d54/sv__vampirehook_8qh_source.html":[2,0,1,10,0,37,3]
+"dc/d53/sv__cloaked_8qh_source.html":[2,0,1,10,0,5,3]
 };

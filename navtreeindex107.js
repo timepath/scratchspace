@@ -1,5 +1,6 @@
 var NAVTREEINDEX107 =
 {
+"db/d55/sv__rules_8qh.html#adf695916c7ce442864c602f3d39e24da":[2,0,1,3,6,10],
 "db/d55/sv__rules_8qh.html#ae2b870c0380562667a9a55b9bf082ed7":[2,0,1,3,6,12],
 "db/d55/sv__rules_8qh_source.html":[2,0,1,3,6],
 "db/d59/classXonoticPlayList.html":[1,0,229],
@@ -248,6 +249,5 @@ var NAVTREEINDEX107 =
 "db/d5b/classXonoticGameMessageSettingsTab.html#a3df9f40869004e26c3d0dd7fc28e57c4":[1,0,179,34],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a4246fb4b7068aee87e47b2da375de905":[1,0,179,57],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,179,65],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,179,12],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,179,97]
+"db/d5b/classXonoticGameMessageSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,179,12]
 };

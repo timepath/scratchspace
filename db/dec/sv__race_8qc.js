@@ -10,6 +10,7 @@ var sv__race_8qc =
     [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#a5b5f7c4bfea49f77b0feb3b040390b70", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#a62595dfeef2e3fba5e476a7fdd2701c2", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#a663f14de6948ddd31a34e2bdb9fd91a6", null ],
+    [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#ac1af41285190bac1edf7ff36be61d753", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#a7476d64337eb6ebe8c5962ef375cfd56", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#a1d9daae0d23fe27704033b2fbd597c5d", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/dec/sv__race_8qc.html#aa7e569fedc9782ded3442504ee0baab7", null ],

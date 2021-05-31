@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"d4/dd5/cl__spawn__near__teammate_8qh_source.html":[2,0,1,10,0,32,3],
 "d4/dd6/minelayer_8qc.html":[2,0,1,16,0,22],
 "d4/dd6/minelayer_8qc_source.html":[2,0,1,16,0,22],
 "d4/dd7/movetypes_8qh.html":[2,0,1,12,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "d4/df8/classXonoticHUDRadarDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,201,81],
 "d4/df8/classXonoticHUDRadarDialog.html#a34c24899d332b64a4827628957b243aa":[1,0,201,43],
 "d4/df8/classXonoticHUDRadarDialog.html#a36836cbbfc40570ef70c3b43798ca096":[1,0,201,23],
-"d4/df8/classXonoticHUDRadarDialog.html#a382a09f7c5068d0f7969a394178c444a":[1,0,201,59],
-"d4/df8/classXonoticHUDRadarDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,201,76]
+"d4/df8/classXonoticHUDRadarDialog.html#a382a09f7c5068d0f7969a394178c444a":[1,0,201,59]
 };

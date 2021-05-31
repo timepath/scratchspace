@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"d4/db0/sv__instagib_8qc.html":[2,0,1,10,0,12,4],
 "d4/db0/sv__instagib_8qc.html#a0380ab3112106a4d100b22c817facf9b":[2,0,1,10,0,12,4,2],
 "d4/db0/sv__instagib_8qc.html#a058ad06eafd70b67e6d4a5f3b62e1f5e":[2,0,1,10,0,12,4,27],
 "d4/db0/sv__instagib_8qc.html#a0abfe12ffff043db18c754ba133722e0":[2,0,1,10,0,12,4,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "d4/dd4/physics_2movetypes_2all_8inc_source.html":[2,0,1,12,0,2],
 "d4/dd5/cl__spawn__near__teammate_8qh.html":[2,0,1,10,0,32,3],
 "d4/dd5/cl__spawn__near__teammate_8qh.html#a53bea2a352cc0c2883f23e3b1bfc59e3":[2,0,1,10,0,32,3,1],
-"d4/dd5/cl__spawn__near__teammate_8qh.html#aa96398c023a4626454169c973c5c0946":[2,0,1,10,0,32,3,0],
-"d4/dd5/cl__spawn__near__teammate_8qh_source.html":[2,0,1,10,0,32,3]
+"d4/dd5/cl__spawn__near__teammate_8qh.html#aa96398c023a4626454169c973c5c0946":[2,0,1,10,0,32,3,0]
 };

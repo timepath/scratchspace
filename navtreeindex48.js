@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"d4/da3/classXonoticDemoBrowserTab.html#a77ce875fdf6970156c9aeb764915e6ca":[1,0,169,75],
 "d4/da3/classXonoticDemoBrowserTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,169,3],
 "d4/da3/classXonoticDemoBrowserTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,169,112],
 "d4/da3/classXonoticDemoBrowserTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,169,111],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "d4/dad/common_2items_2item_2__mod_8inc.html":[2,0,1,5,0,0],
 "d4/dad/common_2items_2item_2__mod_8inc_source.html":[2,0,1,5,0,0],
 "d4/daf/common_2mapobjects_2target_2__mod_8qh.html":[2,0,1,6,2,1],
-"d4/daf/common_2mapobjects_2target_2__mod_8qh_source.html":[2,0,1,6,2,1],
-"d4/db0/sv__instagib_8qc.html":[2,0,1,10,0,12,4]
+"d4/daf/common_2mapobjects_2target_2__mod_8qh_source.html":[2,0,1,6,2,1]
 };

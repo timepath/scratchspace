@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"d7/d32/classBlaster.html#a16fa2936c9dd4428f6baff84947bbe5c":[1,0,7,16],
 "d7/d32/classBlaster.html#a17f155a849bf1aad1fb6f97232996be9":[1,0,7,27],
 "d7/d32/classBlaster.html#a1c8437833108d8e5fee3535929d05f32":[1,0,7,26],
 "d7/d32/classBlaster.html#a1e193db66e42183be049f85f38a649ff":[1,0,7,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "d7/d39/sv__rules_8qc.html#adf695916c7ce442864c602f3d39e24da":[2,0,1,3,5,7],
 "d7/d39/sv__rules_8qc.html#ae2b870c0380562667a9a55b9bf082ed7":[2,0,1,3,5,9],
 "d7/d39/sv__rules_8qc_source.html":[2,0,1,3,5],
-"d7/d42/dialog__multiplayer__join_8qh.html":[2,0,5,4,99],
-"d7/d42/dialog__multiplayer__join_8qh.html#a23af548c6170f613544cf2ccd36bbdc4":[2,0,5,4,99,1]
+"d7/d42/dialog__multiplayer__join_8qh.html":[2,0,5,4,99]
 };
