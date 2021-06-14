@@ -1,5 +1,6 @@
 var NAVTREEINDEX138 =
 {
+"de/d93/classXonoticBindingsResetDialog.html#aba8583e6bc930dad6807443f24a136dd":[1,0,151,34],
 "de/d93/classXonoticBindingsResetDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,151,0],
 "de/d93/classXonoticBindingsResetDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,151,109],
 "de/d93/classXonoticBindingsResetDialog.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,151,57],
@@ -248,6 +249,5 @@ var NAVTREEINDEX138 =
 "de/dab/classObserver.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012":[1,0,88,62],
 "de/dab/classObserver.html#a31c687c46e05fbd204175abf8cb1a93d":[1,0,88,90],
 "de/dab/classObserver.html#a3428db95eaa0bc6b89cc2367a8e7221c":[1,0,88,41],
-"de/dab/classObserver.html#a348fa10d11efdf527c16c2c6e1a018f1":[1,0,88,5],
-"de/dab/classObserver.html#a34910bda70c89979fe53c8b1ac2be901":[1,0,88,19]
+"de/dab/classObserver.html#a348fa10d11efdf527c16c2c6e1a018f1":[1,0,88,5]
 };

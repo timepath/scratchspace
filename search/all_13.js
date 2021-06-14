@@ -244,6 +244,7 @@ var searchData=
   ['serverlist_5fupdate_5ffavoritebutton',['ServerList_Update_favoriteButton',['../d6/d74/serverlist_8qc.html#abbb15d670a9ff9ee5f9c6263474960b7',1,'ServerList_Update_favoriteButton(entity btn, entity me):&#160;serverlist.qc'],['../dd/d7a/serverlist_8qh.html#abbb15d670a9ff9ee5f9c6263474960b7',1,'ServerList_Update_favoriteButton(entity btn, entity me):&#160;serverlist.qc']]],
   ['serverprevtime',['serverprevtime',['../d0/d2a/client_2main_8qh.html#ad6277977c2f00ae7c2906c9d3d12caaf',1,'serverprevtime():&#160;main.qh'],['../d1/dd8/server_2main_8qh.html#ad6277977c2f00ae7c2906c9d3d12caaf',1,'serverprevtime():&#160;main.qh']]],
   ['serverprogsdb',['ServerProgsDB',['../de/d2b/world_8qh.html#afa49ea11bc4dd382cd2f042e7c94dcce',1,'world.qh']]],
+  ['serversheight',['serversHeight',['../d2/dec/classXonoticServerList.html#a1686228af5fd5fe99f2bf555af0761d4',1,'XonoticServerList']]],
   ['servertime',['servertime',['../d1/dd8/server_2main_8qh.html#a2f53beae246d912f86721a4b9a0c0d0a',1,'main.qh']]],
   ['set_5fdom_5fstate',['set_dom_state',['../d3/de3/sv__domination_8qc.html#a229739fc2c2bdfcf0d5964bd98c83c57',1,'sv_domination.qc']]],
   ['set_5fducked',['SET_DUCKED',['../de/d70/common_2physics_2player_8qh.html#ad3303f044ee620461e60ee374748dbb7',1,'player.qh']]],

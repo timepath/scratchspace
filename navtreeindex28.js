@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"d3/d09/classLastManStanding.html#ab0c1946b7e5b3ac3f92561cd3f1e22e4":[1,0,64,7],
 "d3/d09/classLastManStanding.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,64,19],
 "d3/d09/classLastManStanding.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,64,3],
 "d3/d09/classLastManStanding.html#abe55cbfdda839ecee4f9e1f7be9dbf96":[1,0,64,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d3/d2e/languagelist_8qc.html#a2c73766616a28566d20a524a6ed2823a":[2,0,5,4,180,1],
 "d3/d2e/languagelist_8qc.html#a43cadcc18618e07c6eb73bbbd9f15b59":[2,0,5,4,180,2],
 "d3/d2e/languagelist_8qc.html#a453b03fce8da700f8fba6d195a49e3e4":[2,0,5,4,180,4],
-"d3/d2e/languagelist_8qc.html#a4a05165f2e7ac2f8ffbd9d5afedcd1f1":[2,0,5,4,180,3],
-"d3/d2e/languagelist_8qc.html#a50f7c55bc396272158e53f3d65593e34":[2,0,5,4,180,0]
+"d3/d2e/languagelist_8qc.html#a4a05165f2e7ac2f8ffbd9d5afedcd1f1":[2,0,5,4,180,3]
 };

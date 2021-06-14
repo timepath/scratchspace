@@ -1,6 +1,7 @@
 var NAVTREEINDEX80 =
 {
 "d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,11,3,20],
+"d8/d79/notifications_2all_8qc.html#ad51f1f3d2d130a30c900cc74f5f21ac6":[2,0,1,11,3,19],
 "d8/d79/notifications_2all_8qc.html#ae93ed72c8bc25a3db70a3dce5a8070d9":[2,0,1,11,3,42],
 "d8/d79/notifications_2all_8qc.html#aebba04739a8cedbc68c1561271936be9":[2,0,1,11,3,36],
 "d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,11,3,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "d8/d8f/classXonoticInputBox.html#afe7986a2b4cd0fcb2bb6835ff45c7489":[1,0,209,49],
 "d8/d93/client_2hud_2panel_2__mod_8inc.html":[2,0,0,1,0,0],
 "d8/d93/client_2hud_2panel_2__mod_8inc_source.html":[2,0,0,1,0,0],
-"d8/d93/powerup_8qc.html":[2,0,1,5,0,12],
-"d8/d93/powerup_8qc_source.html":[2,0,1,5,0,12]
+"d8/d93/powerup_8qc.html":[2,0,1,5,0,12]
 };

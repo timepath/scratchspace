@@ -136,6 +136,7 @@ var classXonoticServerList =
     [ "seenIPv6", "d2/dec/classXonoticServerList.html#a55846e9fdc3b7dbef1944fdaf7382534", null ],
     [ "selectedItem", "d2/dec/classXonoticServerList.html#a4be49d543d85613482474beeca3a9fbc", null ],
     [ "selectionDoesntMatter", "d2/dec/classXonoticServerList.html#a7c163168fb6b267f1b6a0c7be61ebde8", null ],
+    [ "serversHeight", "d2/dec/classXonoticServerList.html#a1686228af5fd5fe99f2bf555af0761d4", null ],
     [ "size", "d2/dec/classXonoticServerList.html#a230ddb1a3db4e3db29b3c2e1590dd22e", null ],
     [ "src", "d2/dec/classXonoticServerList.html#ae1baefc0a227b8e5ba2da3a75da9f583", null ],
     [ "tolerance", "d2/dec/classXonoticServerList.html#a2aed9b007db3378480b691b9a52f3a7e", null ]

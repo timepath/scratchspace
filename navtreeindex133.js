@@ -1,5 +1,6 @@
 var NAVTREEINDEX133 =
 {
+"de/d30/classXonoticDisconnectDialog.html#aeb2ea2fcd2aeba74d3d75f7421aaae2b":[1,0,174,38],
 "de/d30/classXonoticDisconnectDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,174,3],
 "de/d30/classXonoticDisconnectDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,174,88],
 "de/d30/classXonoticDisconnectDialog.html#aee4e499a2af6112e04b6d702c6920872":[1,0,174,63],
@@ -248,6 +249,5 @@ var NAVTREEINDEX133 =
 "de/d4a/keys_8qc_source.html":[2,0,1,6,1,8],
 "de/d4a/turrets_2config_8qc.html":[2,0,1,14,9],
 "de/d4a/turrets_2config_8qc_source.html":[2,0,1,14,9],
-"de/d4b/door__rotating_8qh.html":[2,0,1,6,0,13],
-"de/d4b/door__rotating_8qh.html#a48a14bfab692be77d1abb7c6c5ba0d5d":[2,0,1,6,0,13,1]
+"de/d4b/door__rotating_8qh.html":[2,0,1,6,0,13]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX148 =
 {
+"df/dd4/navigation_8qh.html#a78fda59f169844ca11beb0f4fe2e1dbd":[2,0,6,0,0,10,21],
 "df/dd4/navigation_8qh.html#a7a9b7bdf76d7b2500c8ed49bf81aacdc":[2,0,6,0,0,10,65],
 "df/dd4/navigation_8qh.html#a7ee208dfaf077cf2c6ef10818b975fd9":[2,0,6,0,0,10,15],
 "df/dd4/navigation_8qh.html#a7eeca6c4f38db8bf91e8c2fc79aec177":[2,0,6,0,0,10,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX148 =
 "df/dee/anglestransform_8qh_source.html":[2,0,4,2,3],
 "df/df1/common_2mutators_2mutator_2instagib_2__mod_8inc.html":[2,0,1,10,0,12,0],
 "df/df1/common_2mutators_2mutator_2instagib_2__mod_8inc_source.html":[2,0,1,10,0,12,0],
-"df/df1/common_2mutators_2mutator_2touchexplode_2__mod_8inc.html":[2,0,1,10,0,35,0],
-"df/df1/common_2mutators_2mutator_2touchexplode_2__mod_8inc_source.html":[2,0,1,10,0,35,0]
+"df/df1/common_2mutators_2mutator_2touchexplode_2__mod_8inc.html":[2,0,1,10,0,35,0]
 };

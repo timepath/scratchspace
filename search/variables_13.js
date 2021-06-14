@@ -95,6 +95,7 @@ var searchData=
   ['serverframetime',['serverframetime',['../d1/dd8/server_2main_8qh.html#a93123616e49dc6670ba3f6e818e89e6f',1,'main.qh']]],
   ['serverprevtime',['serverprevtime',['../d0/d2a/client_2main_8qh.html#ad6277977c2f00ae7c2906c9d3d12caaf',1,'serverprevtime():&#160;main.qh'],['../d1/dd8/server_2main_8qh.html#ad6277977c2f00ae7c2906c9d3d12caaf',1,'serverprevtime():&#160;main.qh']]],
   ['serverprogsdb',['ServerProgsDB',['../de/d2b/world_8qh.html#afa49ea11bc4dd382cd2f042e7c94dcce',1,'world.qh']]],
+  ['serversheight',['serversHeight',['../d2/dec/classXonoticServerList.html#a1686228af5fd5fe99f2bf555af0761d4',1,'XonoticServerList']]],
   ['servertime',['servertime',['../d1/dd8/server_2main_8qh.html#a2f53beae246d912f86721a4b9a0c0d0a',1,'main.qh']]],
   ['sf_5flaser_5falpha',['SF_LASER_ALPHA',['../d7/db7/laser_8qh.html#ad6f2dbe61816c60cec0ce74c16f49cf8',1,'laser.qh']]],
   ['sf_5flaser_5ffinite',['SF_LASER_FINITE',['../d7/db7/laser_8qh.html#a4ddd6f05e45f8483f741fe17e6a4899a',1,'laser.qh']]],
