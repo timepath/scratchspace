@@ -1,6 +1,5 @@
 var common_2physics_2player_8qh =
 [
-    [ "BUFFS_STAT", "de/d70/common_2physics_2player_8qh.html#a6f91fe72ae285d61537e8d41d600c127", null ],
     [ "IS_DUCKED", "de/d70/common_2physics_2player_8qh.html#ab1b7abb8d77615cb49b3be0ca28be73e", null ],
     [ "IS_JUMP_HELD", "de/d70/common_2physics_2player_8qh.html#a982c4b1086e8011ac24a31ff67e34bab", null ],
     [ "ITEMS_STAT", "de/d70/common_2physics_2player_8qh.html#a7ea304a1bf4f9e551543916c8dbf8871", null ],

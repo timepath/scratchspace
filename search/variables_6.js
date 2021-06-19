@@ -34,7 +34,6 @@ var searchData=
   ['fire_5fburner',['fire_burner',['../d4/d62/damage_8qh.html#aca3165d09acb721d325db80b5e4ff642',1,'damage.qh']]],
   ['fire_5fdamagepersec',['fire_damagepersec',['../d4/d62/damage_8qh.html#ae8b4306212ed20679d59a512581309dd',1,'damage.qh']]],
   ['fire_5fdeathtype',['fire_deathtype',['../d4/d62/damage_8qh.html#a64738b481406cc272dd606819dae9523',1,'damage.qh']]],
-  ['fire_5fendtime',['fire_endtime',['../d4/d62/damage_8qh.html#a3f696c9f9260834902e2b430e0d71f8e',1,'damage.qh']]],
   ['fire_5fhitsound',['fire_hitsound',['../d4/d62/damage_8qh.html#af8497f54dc2d95ad1364dc3996de30ee',1,'damage.qh']]],
   ['fire_5fowner',['fire_owner',['../d4/d62/damage_8qh.html#aa943832211a94aaee4ef828f9ba1d618',1,'damage.qh']]],
   ['firebullet_5flast_5fhit',['fireBullet_last_hit',['../d4/d3f/tracing_8qh.html#af3cb4ea16b3d71a76b55754ccd713632',1,'tracing.qh']]],

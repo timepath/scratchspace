@@ -1,8 +1,8 @@
 var promise_8qc =
 [
-    [ "PROMISE_PENDING", "d2/dce/promise_8qc.html#a61dadd085c1777f559549e05962b2c9ea7077d699a6f69c894bb9fbf22c3e33a9", null ],
-    [ "PROMISE_RESOLVED", "d2/dce/promise_8qc.html#a61dadd085c1777f559549e05962b2c9ea198e8812fe3ed0483e83800c8a2899af", null ],
-    [ "PROMISE_REJECTED", "d2/dce/promise_8qc.html#a61dadd085c1777f559549e05962b2c9eab6b15a586632f4fe88b9e10191239783", null ],
+    [ "PROMISE_PENDING", "d2/dce/promise_8qc.html#a0411cd49bb5b71852cecd93bcbf0ca2da7077d699a6f69c894bb9fbf22c3e33a9", null ],
+    [ "PROMISE_RESOLVED", "d2/dce/promise_8qc.html#a0411cd49bb5b71852cecd93bcbf0ca2da198e8812fe3ed0483e83800c8a2899af", null ],
+    [ "PROMISE_REJECTED", "d2/dce/promise_8qc.html#a0411cd49bb5b71852cecd93bcbf0ca2dab6b15a586632f4fe88b9e10191239783", null ],
     [ "_Promise_done", "d2/dce/promise_8qc.html#aff2abba48c267700b8c3331dca058ae6", null ],
     [ "_Promise_finalize", "d2/dce/promise_8qc.html#a58e7d9b04cea8f42b1f32883a6fc132e", null ],
     [ "_Promise_handle", "d2/dce/promise_8qc.html#a48d362965d51dfa6285586ab7a28df59", null ],

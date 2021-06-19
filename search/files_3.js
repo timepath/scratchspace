@@ -80,6 +80,8 @@ var searchData=
   ['cl_5frace_2eqh',['cl_race.qh',['../d0/d5b/cl__race_8qh.html',1,'']]],
   ['cl_5fspawn_5fnear_5fteammate_2eqc',['cl_spawn_near_teammate.qc',['../d6/de5/cl__spawn__near__teammate_8qc.html',1,'']]],
   ['cl_5fspawn_5fnear_5fteammate_2eqh',['cl_spawn_near_teammate.qh',['../d4/dd5/cl__spawn__near__teammate_8qh.html',1,'']]],
+  ['cl_5fstatus_5feffects_2eqc',['cl_status_effects.qc',['../db/ded/cl__status__effects_8qc.html',1,'']]],
+  ['cl_5fstatus_5feffects_2eqh',['cl_status_effects.qh',['../d3/d8f/cl__status__effects_8qh.html',1,'']]],
   ['cl_5fturrets_2eqc',['cl_turrets.qc',['../dd/d43/cl__turrets_8qc.html',1,'']]],
   ['cl_5fturrets_2eqh',['cl_turrets.qh',['../d2/d8a/cl__turrets_8qh.html',1,'']]],
   ['cl_5fvehicles_2eqc',['cl_vehicles.qc',['../d0/dee/cl__vehicles_8qc.html',1,'']]],

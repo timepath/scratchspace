@@ -43,7 +43,6 @@ var sv__keyhunt_8qc =
     [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#a6fe67f771aca69146e2bfb5bcce53ef0", null ],
     [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#af0205f884b65245c59767ebaf4ac57d0", null ],
     [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#aa7487d3be7c5b323d146fd2a4adc032c", null ],
-    [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#a3913dec8e96fffe66f01a6d876757981", null ],
     [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#a0c4b3f90846ae47f1373f5abf1e6cf11", null ],
     [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#a99489a4e3940f96c042720774c32948d", null ],
     [ "MUTATOR_HOOKFUNCTION", "da/d2c/sv__keyhunt_8qc.html#a1f961e186e93a2e2185ceb8bdcd90d0c", null ],

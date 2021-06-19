@@ -15,6 +15,7 @@ var server_2items_2items_8qc =
     [ "GiveResourceValue", "df/d26/server_2items_2items_8qc.html#a77f50b08284cdc63b2be9debcfde08bc", null ],
     [ "GiveRot", "df/d26/server_2items_2items_8qc.html#a2bac08b0aa2efcb242a348aa50f04219", null ],
     [ "GiveSound", "df/d26/server_2items_2items_8qc.html#ad962ea2fe960790a18cf54a8eac43657", null ],
+    [ "GiveStatusEffect", "df/d26/server_2items_2items_8qc.html#a14f10c78d0ebf1de4c08e3843e46270d", null ],
     [ "GiveWeapon", "df/d26/server_2items_2items_8qc.html#a7a0821a4def542f2dade70c0890e5d15", null ],
     [ "have_pickup_item", "df/d26/server_2items_2items_8qc.html#aaaead482c18be1c887367949d73b67da", null ],
     [ "healtharmor_pickupevalfunc", "df/d26/server_2items_2items_8qc.html#aceeca5773f18b387b19d4e2b3db84324", null ],

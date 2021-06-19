@@ -4,6 +4,7 @@ var sv__keepaway_8qc =
     [ "havocbot_role_ka_carrier", "de/da1/sv__keepaway_8qc.html#adf9220172d8b6789a9da5d5d2b766948", null ],
     [ "havocbot_role_ka_collector", "de/da1/sv__keepaway_8qc.html#a56007a806550c3950b2aa3127df44b65", null ],
     [ "ka_ballcarrier_waypointsprite_visible_for_player", "de/da1/sv__keepaway_8qc.html#aba900e001d432363ed6e93c6b5499a84", null ],
+    [ "ka_DamageEvent", "de/da1/sv__keepaway_8qc.html#a4425ffcb09eea52f91529269e9db9e72", null ],
     [ "ka_DropEvent", "de/da1/sv__keepaway_8qc.html#a9bf63ff95c1b9e8adafb4bbd24fb5db9", null ],
     [ "ka_EventLog", "de/da1/sv__keepaway_8qc.html#af8f0e411c8293afa501c76d2f9f5f904", null ],
     [ "ka_Handler_CheckBall", "de/da1/sv__keepaway_8qc.html#afd0a54d0dc344ec485677235b15cd421", null ],

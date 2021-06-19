@@ -40,6 +40,7 @@ var searchData=
   ['register_5fstat',['REGISTER_STAT',['../d0/ddd/lib_2stats_8qh.html#ab65391ba6c1b90dcad0eb1f846c0a054',1,'stats.qh']]],
   ['register_5fstat_5f2',['REGISTER_STAT_2',['../d0/ddd/lib_2stats_8qh.html#a0b0131c4067d628042068387ab92aae0',1,'stats.qh']]],
   ['register_5fstat_5f3',['REGISTER_STAT_3',['../d0/ddd/lib_2stats_8qh.html#a64a221f623435bb5fce96cf78954e0f3',1,'stats.qh']]],
+  ['register_5fstatuseffect',['REGISTER_STATUSEFFECT',['../d7/dc3/mutators_2mutator_2status__effects_2all_8qh.html#a6d56d12678fe8bfe98f95e57ba9df173',1,'all.qh']]],
   ['register_5fturret',['REGISTER_TURRET',['../db/d7f/turrets_2all_8qh.html#aa2774c8f11c19aa8e015cff50732b4a6',1,'all.qh']]],
   ['register_5fvehicle',['REGISTER_VEHICLE',['../db/d83/vehicles_2all_8qh.html#a5ef00da087d222982ad759b7d833bf2a',1,'all.qh']]],
   ['register_5fvoicemsg',['REGISTER_VOICEMSG',['../df/d6e/globalsound_8qh.html#a2205087b1a9f2988442ccfb2f1bf6904',1,'globalsound.qh']]],

@@ -30,6 +30,5 @@ var searchData=
   ['buff_5fonrem',['BUFF_ONREM',['../d2/dac/sv__buffs_8qc.html#a46844ec3711dd4b9f71323d503cd5556',1,'sv_buffs.qc']]],
   ['buff_5fspawnfunc',['BUFF_SPAWNFUNC',['../d6/d85/buffs_8qh.html#a5fd3b877c71ac6bbfce55c1a8cc9ca9d',1,'buffs.qh']]],
   ['buff_5fspawnfunc_5fq3ta_5fcompat',['BUFF_SPAWNFUNC_Q3TA_COMPAT',['../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f',1,'buffs.qh']]],
-  ['buff_5fspawnfuncs',['BUFF_SPAWNFUNCS',['../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3',1,'buffs.qh']]],
-  ['buffs_5fstat',['BUFFS_STAT',['../de/d70/common_2physics_2player_8qh.html#a6f91fe72ae285d61537e8d41d600c127',1,'player.qh']]]
+  ['buff_5fspawnfuncs',['BUFF_SPAWNFUNCS',['../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3',1,'buffs.qh']]]
 ];

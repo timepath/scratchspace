@@ -35,6 +35,8 @@ var searchData=
   ['bumblebee_2eqh',['bumblebee.qh',['../d0/d7f/bumblebee_8qh.html',1,'']]],
   ['bumblebee_5fweapons_2eqc',['bumblebee_weapons.qc',['../dc/de7/bumblebee__weapons_8qc.html',1,'']]],
   ['bumblebee_5fweapons_2eqh',['bumblebee_weapons.qh',['../dc/d99/bumblebee__weapons_8qh.html',1,'']]],
+  ['burning_2eqc',['burning.qc',['../df/d1d/burning_8qc.html',1,'']]],
+  ['burning_2eqh',['burning.qh',['../df/d14/burning_8qh.html',1,'']]],
   ['button_2eqc',['button.qc',['../d4/d62/common_2mapobjects_2func_2button_8qc.html',1,'(Global Namespace)'],['../d2/dc3/menu_2item_2button_8qc.html',1,'(Global Namespace)'],['../df/d28/menu_2xonotic_2button_8qc.html',1,'(Global Namespace)']]],
   ['button_2eqh',['button.qh',['../d6/d10/common_2mapobjects_2func_2button_8qh.html',1,'(Global Namespace)'],['../d2/d81/menu_2item_2button_8qh.html',1,'(Global Namespace)'],['../d3/dd1/menu_2xonotic_2button_8qh.html',1,'(Global Namespace)']]]
 ];

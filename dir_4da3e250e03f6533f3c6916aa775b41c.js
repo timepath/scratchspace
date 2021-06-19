@@ -34,6 +34,7 @@ var dir_4da3e250e03f6533f3c6916aa775b41c =
     [ "sandbox", "dir_b68ca7086d2f96faf819e97089e454ec.html", "dir_b68ca7086d2f96faf819e97089e454ec" ],
     [ "spawn_near_teammate", "dir_522059a54499aa1a8da2a05bb86fa7c7.html", "dir_522059a54499aa1a8da2a05bb86fa7c7" ],
     [ "stale_move_negation", "dir_2c7094e6b9ff60672506fb289e552b5e.html", "dir_2c7094e6b9ff60672506fb289e552b5e" ],
+    [ "status_effects", "dir_bb1221eb42b963fbc5023191396e37aa.html", "dir_bb1221eb42b963fbc5023191396e37aa" ],
     [ "superspec", "dir_da85d8bbd3532417aaf697237f5aceeb.html", "dir_da85d8bbd3532417aaf697237f5aceeb" ],
     [ "touchexplode", "dir_ff27e448fac324d88c702b7803ed56f3.html", "dir_ff27e448fac324d88c702b7803ed56f3" ],
     [ "vampire", "dir_3766841665e01e37853b031527a51915.html", "dir_3766841665e01e37853b031527a51915" ],

@@ -32,7 +32,6 @@ var hierarchy =
             [ "Shells", "d2/d15/classShells.html", null ]
           ] ],
           [ "Armor", "d5/df0/classArmor.html", null ],
-          [ "Buff", "de/d3c/classBuff.html", null ],
           [ "Flag", "db/d08/classFlag.html", null ],
           [ "Health", "d5/d64/classHealth.html", null ],
           [ "Powerup", "d5/d65/classPowerup.html", [
@@ -243,6 +242,15 @@ var hierarchy =
       ] ],
       [ "PlayerState", "d5/d7e/classPlayerState.html", null ],
       [ "Sound", "df/d49/classSound.html", null ],
+      [ "StatusEffects", "d2/dd9/classStatusEffects.html", [
+        [ "Buff", "de/d3c/classBuff.html", null ],
+        [ "Burning", "d0/d82/classBurning.html", null ],
+        [ "Powerups", "d5/d22/classPowerups.html", [
+          [ "Shield", "de/dd5/classShield.html", null ],
+          [ "Strength", "da/dce/classStrength.html", null ]
+        ] ],
+        [ "Superweapons", "d1/def/classSuperweapons.html", null ]
+      ] ],
       [ "Turret", "d2/d3d/classTurret.html", [
         [ "EWheel", "d6/d7d/classEWheel.html", null ],
         [ "Flac", "d5/d69/classFlac.html", null ],

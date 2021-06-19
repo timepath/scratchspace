@@ -2,6 +2,8 @@ var sv__buffs_8qh =
 [
     [ "AUTOCVAR", "d8/dd8/sv__buffs_8qh.html#a70cde1719dece180bd290f81df386448", null ],
     [ "buff_Available", "d8/dd8/sv__buffs_8qh.html#a77fd18a78f1e4c215d54d855c7230851", null ],
+    [ "buff_FirstFromFlags", "d8/dd8/sv__buffs_8qh.html#a65ebf32ba12083c978e5bbe6bc0f4bcd", null ],
+    [ "buff_RemoveAll", "d8/dd8/sv__buffs_8qh.html#a8ddad90b0af3ccf230bae3d8efb1e9b0", null ],
     [ "buffs_Initialize", "d8/dd8/sv__buffs_8qh.html#a29c07246b35b642337dcd9adb483e5e9", null ],
     [ "REGISTER_MUTATOR", "d8/dd8/sv__buffs_8qh.html#a6621fe3d1b04215053a255eec76cde6b", null ],
     [ "autocvar_g_buffs_bash_force", "d8/dd8/sv__buffs_8qh.html#a0d84d09ba97d91bcb26890b17348216d", null ],
@@ -65,5 +67,5 @@ var sv__buffs_8qh =
     [ "buff_shield", "d8/dd8/sv__buffs_8qh.html#a028d0aff7513914b039f9a16bc1ed86b", null ],
     [ "buff_waypoint", "d8/dd8/sv__buffs_8qh.html#a39a49dfb13476e573dab25e06a90e563", null ],
     [ "cvar_cl_buffs_autoreplace", "d8/dd8/sv__buffs_8qh.html#a9d0381c8b0a4cc43a743b4f23741763b", null ],
-    [ "oldbuffs", "d8/dd8/sv__buffs_8qh.html#aa2020d7221cd6658db0d83786f8a9e7d", null ]
+    [ "oldbuffs", "d8/dd8/sv__buffs_8qh.html#a1bce1333acfa58d5b75e79d9f1d3bf22", null ]
 ];

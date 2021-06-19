@@ -48,126 +48,126 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 575;
 var viewHeight = 142;
-var sectionId = 'dynsection-11';
+var sectionId = 'dynsection-12';
 </script>
 <script xlink:href="../../svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>buff_Init</title>
-<!-- Node220 -->
+<!-- Node393 -->
 <g id="node1" class="node">
-<title>Node220</title>
+<title>Node393</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-57.5 0,-76.5 56,-76.5 56,-57.5 0,-57.5"/>
 <text text-anchor="middle" x="28" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">buff_Init</text>
 </g>
-<!-- Node221 -->
+<!-- Node394 -->
 <g id="node2" class="node">
-<title>Node221</title>
+<title>Node394</title>
 <g id="a_node2"><a xlink:href="../../d2/dac/sv__buffs_8qc.html#a931156166ad66356620ec9df0f4bda1c" target="_top" xlink:title="buff_Init_Compat">
 <polygon fill="none" stroke="#000000" points="110.5,-114.5 110.5,-133.5 210.5,-133.5 210.5,-114.5 110.5,-114.5"/>
 <text text-anchor="middle" x="160.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">buff_Init_Compat</text>
 </a>
 </g>
 </g>
-<!-- Node220&#45;&gt;Node221 -->
+<!-- Node393&#45;&gt;Node394 -->
 <g id="edge1" class="edge">
-<title>Node220&#45;&gt;Node221</title>
+<title>Node393&#45;&gt;Node394</title>
 <path fill="none" stroke="#191970" d="M54.0901,-81.497C65.5451,-87.5878 79.2618,-94.516 92,-100 104.3843,-105.3317 118.3829,-110.3991 130.4829,-114.4918"/>
 <polygon fill="#191970" stroke="#191970" points="55.5333,-78.2987 45.071,-76.6278 52.2077,-84.4583 55.5333,-78.2987"/>
 </g>
-<!-- Node222 -->
+<!-- Node395 -->
 <g id="node3" class="node">
-<title>Node222</title>
+<title>Node395</title>
 <g id="a_node3"><a xlink:href="../../d6/d85/buffs_8qh.html#a73b233ccac900843bd13f88a0141258e" target="_top" xlink:title="STATIC_INIT">
 <polygon fill="none" stroke="#000000" points="302.5,-95.5 302.5,-114.5 376.5,-114.5 376.5,-95.5 302.5,-95.5"/>
 <text text-anchor="middle" x="339.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">STATIC_INIT</text>
 </a>
 </g>
 </g>
-<!-- Node220&#45;&gt;Node222 -->
+<!-- Node393&#45;&gt;Node395 -->
 <g id="edge8" class="edge">
-<title>Node220&#45;&gt;Node222</title>
+<title>Node393&#45;&gt;Node395</title>
 <path fill="none" stroke="#191970" d="M66.4261,-71.6876C126.7224,-79.0432 242.8071,-93.2044 302.3227,-100.4647"/>
 <polygon fill="#191970" stroke="#191970" points="66.5432,-68.176 56.1929,-70.4393 65.6955,-75.1245 66.5432,-68.176"/>
 </g>
-<!-- Node223 -->
+<!-- Node396 -->
 <g id="node4" class="node">
-<title>Node223</title>
+<title>Node396</title>
 <g id="a_node4"><a xlink:href="../../d2/dac/sv__buffs_8qc.html#a2cf9b783310aee0fdbb30851e861e190" target="_top" xlink:title="buff_SpawnReplacement">
 <polygon fill="none" stroke="#000000" points="92,-38.5 92,-57.5 229,-57.5 229,-38.5 92,-38.5"/>
 <text text-anchor="middle" x="160.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">buff_SpawnReplacement</text>
 </a>
 </g>
 </g>
-<!-- Node220&#45;&gt;Node223 -->
+<!-- Node393&#45;&gt;Node396 -->
 <g id="edge3" class="edge">
-<title>Node220&#45;&gt;Node223</title>
+<title>Node393&#45;&gt;Node396</title>
 <path fill="none" stroke="#191970" d="M66.2809,-61.5107C74.9919,-60.2615 84.4932,-58.8991 94.0013,-57.5357"/>
 <polygon fill="#191970" stroke="#191970" points="65.5018,-58.0865 56.0998,-62.9706 66.4954,-65.0156 65.5018,-58.0865"/>
 </g>
-<!-- Node225 -->
+<!-- Node398 -->
 <g id="node6" class="node">
-<title>Node225</title>
+<title>Node398</title>
 <g id="a_node6"><a xlink:href="../../d2/dac/sv__buffs_8qc.html#a883c3faf0e935cd0bc1e0a69c9c7ba30" target="_top" xlink:title="buffs_DelayedInit">
 <polygon fill="none" stroke="#000000" points="109.5,-.5 109.5,-19.5 211.5,-19.5 211.5,-.5 109.5,-.5"/>
 <text text-anchor="middle" x="160.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">buffs_DelayedInit</text>
 </a>
 </g>
 </g>
-<!-- Node220&#45;&gt;Node225 -->
+<!-- Node393&#45;&gt;Node398 -->
 <g id="edge5" class="edge">
-<title>Node220&#45;&gt;Node225</title>
+<title>Node393&#45;&gt;Node398</title>
 <path fill="none" stroke="#191970" d="M50.1183,-51.8842C62.105,-44.2108 77.4138,-35.2219 92,-29 100.6273,-25.3199 110.1694,-22.1503 119.3227,-19.5125"/>
 <polygon fill="#191970" stroke="#191970" points="48.1086,-49.0166 41.6665,-57.428 51.9479,-54.8698 48.1086,-49.0166"/>
 </g>
-<!-- Node221&#45;&gt;Node222 -->
+<!-- Node394&#45;&gt;Node395 -->
 <g id="edge2" class="edge">
-<title>Node221&#45;&gt;Node222</title>
+<title>Node394&#45;&gt;Node395</title>
 <path fill="none" stroke="#191970" d="M220.9531,-117.5832C247.9114,-114.7217 278.8132,-111.4416 302.3067,-108.9479"/>
 <polygon fill="#191970" stroke="#191970" points="220.4125,-114.1208 210.8378,-118.6569 221.1514,-121.0817 220.4125,-114.1208"/>
 </g>
-<!-- Node224 -->
+<!-- Node397 -->
 <g id="node5" class="node">
-<title>Node224</title>
+<title>Node397</title>
 <g id="a_node5"><a xlink:href="../../d2/dac/sv__buffs_8qc.html#a2d4132ab5716290df3101f71793f18fc" target="_top" xlink:title="MUTATOR_HOOKFUNCTION">
 <polygon fill="none" stroke="#000000" points="265,-38.5 265,-57.5 414,-57.5 414,-38.5 265,-38.5"/>
 <text text-anchor="middle" x="339.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">MUTATOR_HOOKFUNCTION</text>
 </a>
 </g>
 </g>
-<!-- Node223&#45;&gt;Node224 -->
+<!-- Node396&#45;&gt;Node397 -->
 <g id="edge4" class="edge">
-<title>Node223&#45;&gt;Node224</title>
+<title>Node396&#45;&gt;Node397</title>
 <path fill="none" stroke="#191970" d="M239.3869,-48C247.8116,-48 256.3635,-48 264.7384,-48"/>
 <polygon fill="#191970" stroke="#191970" points="239.1942,-44.5001 229.1941,-48 239.1941,-51.5001 239.1942,-44.5001"/>
 </g>
-<!-- Node226 -->
+<!-- Node399 -->
 <g id="node7" class="node">
-<title>Node226</title>
+<title>Node399</title>
 <g id="a_node7"><a xlink:href="../../d8/dd8/sv__buffs_8qh.html#a29c07246b35b642337dcd9adb483e5e9" target="_top" xlink:title="buffs_Initialize">
 <polygon fill="none" stroke="#000000" points="295.5,-.5 295.5,-19.5 383.5,-19.5 383.5,-.5 295.5,-.5"/>
 <text text-anchor="middle" x="339.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">buffs_Initialize</text>
 </a>
 </g>
 </g>
-<!-- Node225&#45;&gt;Node226 -->
+<!-- Node398&#45;&gt;Node399 -->
 <g id="edge6" class="edge">
-<title>Node225&#45;&gt;Node226</title>
+<title>Node398&#45;&gt;Node399</title>
 <path fill="none" stroke="#191970" d="M221.9451,-10C246.1196,-10 273.3321,-10 295.4824,-10"/>
 <polygon fill="#191970" stroke="#191970" points="221.7943,-6.5001 211.7942,-10 221.7942,-13.5001 221.7943,-6.5001"/>
 </g>
-<!-- Node227 -->
+<!-- Node400 -->
 <g id="node8" class="node">
-<title>Node227</title>
+<title>Node400</title>
 <g id="a_node8"><a xlink:href="../../d8/dd8/sv__buffs_8qh.html#a6621fe3d1b04215053a255eec76cde6b" target="_top" xlink:title="REGISTER_MUTATOR">
 <polygon fill="none" stroke="#000000" points="450,-.5 450,-19.5 567,-19.5 567,-.5 450,-.5"/>
 <text text-anchor="middle" x="508.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">REGISTER_MUTATOR</text>
 </a>
 </g>
 </g>
-<!-- Node226&#45;&gt;Node227 -->
+<!-- Node399&#45;&gt;Node400 -->
 <g id="edge7" class="edge">
-<title>Node226&#45;&gt;Node227</title>
+<title>Node399&#45;&gt;Node400</title>
 <path fill="none" stroke="#191970" d="M394.1096,-10C411.8912,-10 431.6999,-10 449.77,-10"/>
 <polygon fill="#191970" stroke="#191970" points="393.9028,-6.5001 383.9028,-10 393.9027,-13.5001 393.9028,-6.5001"/>
 </g>

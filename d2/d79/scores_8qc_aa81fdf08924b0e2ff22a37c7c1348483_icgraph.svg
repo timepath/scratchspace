@@ -54,90 +54,90 @@ var sectionId = 'dynsection-29';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>PlayerTeamScore_Compare</title>
-<!-- Node492 -->
+<!-- Node486 -->
 <g id="node1" class="node">
-<title>Node492</title>
+<title>Node486</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-19.5 0,-38.5 150,-38.5 150,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="75" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">PlayerTeamScore_Compare</text>
 </g>
-<!-- Node493 -->
+<!-- Node487 -->
 <g id="node2" class="node">
-<title>Node493</title>
+<title>Node487</title>
 <g id="a_node2"><a xlink:href="../../d5/dac/server_2scores_8qh.html#ad37d70e7aed09bc589cd366a99729ff4" target="_top" xlink:title="Sorts the players and stores their place in the given field, starting with. ">
 <polygon fill="none" stroke="#000000" points="186,-19.5 186,-38.5 285,-38.5 285,-19.5 186,-19.5"/>
 <text text-anchor="middle" x="235.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">PlayerScore_Sort</text>
 </a>
 </g>
 </g>
-<!-- Node492&#45;&gt;Node493 -->
+<!-- Node486&#45;&gt;Node487 -->
 <g id="edge1" class="edge">
-<title>Node492&#45;&gt;Node493</title>
+<title>Node486&#45;&gt;Node487</title>
 <path fill="none" stroke="#191970" d="M160.2816,-29C168.9611,-29 177.5618,-29 185.6755,-29"/>
 <polygon fill="#191970" stroke="#191970" points="160.0809,-25.5001 150.0808,-29 160.0808,-32.5001 160.0809,-25.5001"/>
 </g>
-<!-- Node494 -->
+<!-- Node488 -->
 <g id="node3" class="node">
-<title>Node494</title>
+<title>Node488</title>
 <g id="a_node3"><a xlink:href="../../d1/d72/sv__cts_8qc.html#afcc761ec5d37bff059a0739d34f96a7a" target="_top" xlink:title="MUTATOR_HOOKFUNCTION">
 <polygon fill="none" stroke="#000000" points="461.5,-38.5 461.5,-57.5 610.5,-57.5 610.5,-38.5 461.5,-38.5"/>
 <text text-anchor="middle" x="536" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">MUTATOR_HOOKFUNCTION</text>
 </a>
 </g>
 </g>
-<!-- Node493&#45;&gt;Node494 -->
+<!-- Node487&#45;&gt;Node488 -->
 <g id="edge2" class="edge">
-<title>Node493&#45;&gt;Node494</title>
+<title>Node487&#45;&gt;Node488</title>
 <path fill="none" stroke="#191970" d="M295.2906,-32.7804C342.9713,-35.7952 410.0134,-40.0341 461.2394,-43.273"/>
 <polygon fill="#191970" stroke="#191970" points="295.3224,-29.2756 285.1215,-32.1375 294.8806,-36.2616 295.3224,-29.2756"/>
 </g>
-<!-- Node495 -->
+<!-- Node489 -->
 <g id="node4" class="node">
-<title>Node495</title>
+<title>Node489</title>
 <g id="a_node4"><a xlink:href="../../d5/dac/server_2scores_8qh.html#aa70e08e25e069e368d303726e1c91dff" target="_top" xlink:title="Prints the scores to the console of a player. ">
 <polygon fill="none" stroke="#000000" points="321,-.5 321,-19.5 414,-19.5 414,-.5 321,-.5"/>
 <text text-anchor="middle" x="367.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Score_NicePrint</text>
 </a>
 </g>
 </g>
-<!-- Node493&#45;&gt;Node495 -->
+<!-- Node487&#45;&gt;Node489 -->
 <g id="edge3" class="edge">
-<title>Node493&#45;&gt;Node495</title>
+<title>Node487&#45;&gt;Node489</title>
 <path fill="none" stroke="#191970" d="M295.043,-20.4294C303.6632,-19.1886 312.4317,-17.9265 320.7527,-16.7288"/>
 <polygon fill="#191970" stroke="#191970" points="294.4268,-16.982 285.0275,-21.871 295.4241,-23.9105 294.4268,-16.982"/>
 </g>
-<!-- Node495&#45;&gt;Node494 -->
+<!-- Node489&#45;&gt;Node488 -->
 <g id="edge6" class="edge">
-<title>Node495&#45;&gt;Node494</title>
+<title>Node489&#45;&gt;Node488</title>
 <path fill="none" stroke="#191970" d="M418.431,-21.8044C428.8696,-24.2028 439.7868,-26.6958 450,-29 463.7224,-32.0959 478.6888,-35.4205 492.2328,-38.4096"/>
 <polygon fill="#191970" stroke="#191970" points="419.1384,-18.3758 408.6081,-19.5433 417.568,-25.1974 419.1384,-18.3758"/>
 </g>
-<!-- Node496 -->
+<!-- Node490 -->
 <g id="node5" class="node">
-<title>Node496</title>
+<title>Node490</title>
 <g id="a_node5"><a xlink:href="../../d2/d06/server_2command_2common_8qh.html#aa450e50239976de2c6d62c3cb1cbd556" target="_top" xlink:title="CommonCommand_teamstatus">
 <polygon fill="none" stroke="#000000" points="450,-.5 450,-19.5 622,-19.5 622,-.5 450,-.5"/>
 <text text-anchor="middle" x="536" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CommonCommand_teamstatus</text>
 </a>
 </g>
 </g>
-<!-- Node495&#45;&gt;Node496 -->
+<!-- Node489&#45;&gt;Node490 -->
 <g id="edge4" class="edge">
-<title>Node495&#45;&gt;Node496</title>
+<title>Node489&#45;&gt;Node490</title>
 <path fill="none" stroke="#191970" d="M424.583,-10C432.7766,-10 441.3542,-10 449.9568,-10"/>
 <polygon fill="#191970" stroke="#191970" points="424.4367,-6.5001 414.4366,-10 424.4366,-13.5001 424.4367,-6.5001"/>
 </g>
-<!-- Node497 -->
+<!-- Node491 -->
 <g id="node6" class="node">
-<title>Node497</title>
+<title>Node491</title>
 <g id="a_node6"><a xlink:href="../../d2/d06/server_2command_2common_8qh.html#a41174c06b465c49f886c992c48ad6b6f" target="_top" xlink:title="COMMON_COMMAND">
 <polygon fill="none" stroke="#000000" points="658,-.5 658,-19.5 778,-19.5 778,-.5 658,-.5"/>
 <text text-anchor="middle" x="718" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">COMMON_COMMAND</text>
 </a>
 </g>
 </g>
-<!-- Node496&#45;&gt;Node497 -->
+<!-- Node490&#45;&gt;Node491 -->
 <g id="edge5" class="edge">
-<title>Node496&#45;&gt;Node497</title>
+<title>Node490&#45;&gt;Node491</title>
 <path fill="none" stroke="#191970" d="M632.3663,-10C641.0145,-10 649.5978,-10 657.8024,-10"/>
 <polygon fill="#191970" stroke="#191970" points="632.2032,-6.5001 622.2031,-10 632.2031,-13.5001 632.2032,-6.5001"/>
 </g>

@@ -1,10 +1,10 @@
 var menu_8qc =
 [
-    [ "SCALEMODE_CROP", "df/dc2/menu_8qc.html#a726ca809ffd3d67ab4b8476646f26635a055065fdd48b49e5622c1d39b2528a99", null ],
-    [ "SCALEMODE_LETTERBOX", "df/dc2/menu_8qc.html#a726ca809ffd3d67ab4b8476646f26635a9528e4854224235fac611b1120c09d07", null ],
-    [ "SCALEMODE_WIDTH", "df/dc2/menu_8qc.html#a726ca809ffd3d67ab4b8476646f26635ae6392cd1d24e0ad8e6838ad8d1a410c6", null ],
-    [ "SCALEMODE_HEIGHT", "df/dc2/menu_8qc.html#a726ca809ffd3d67ab4b8476646f26635a791d9117ca82c1e8f99f90349e124ee9", null ],
-    [ "SCALEMODE_STRETCH", "df/dc2/menu_8qc.html#a726ca809ffd3d67ab4b8476646f26635af12012efbfdf616a257fdc1fa94287b0", null ],
+    [ "SCALEMODE_CROP", "df/dc2/menu_8qc.html#abed82baf7f470b522273a3e37c24c600a055065fdd48b49e5622c1d39b2528a99", null ],
+    [ "SCALEMODE_LETTERBOX", "df/dc2/menu_8qc.html#abed82baf7f470b522273a3e37c24c600a9528e4854224235fac611b1120c09d07", null ],
+    [ "SCALEMODE_WIDTH", "df/dc2/menu_8qc.html#abed82baf7f470b522273a3e37c24c600ae6392cd1d24e0ad8e6838ad8d1a410c6", null ],
+    [ "SCALEMODE_HEIGHT", "df/dc2/menu_8qc.html#abed82baf7f470b522273a3e37c24c600a791d9117ca82c1e8f99f90349e124ee9", null ],
+    [ "SCALEMODE_STRETCH", "df/dc2/menu_8qc.html#abed82baf7f470b522273a3e37c24c600af12012efbfdf616a257fdc1fa94287b0", null ],
     [ "draw_Picture_Aligned", "df/dc2/menu_8qc.html#aacf8d50c65c5bd72b4bfe16ebe41af76", null ],
     [ "draw_reset_cropped", "df/dc2/menu_8qc.html#a9fc19cb59a299c16ed665dc992bdaa1e", null ],
     [ "draw_reset_full", "df/dc2/menu_8qc.html#a1776732597ff214bb269dd3ff1388d24", null ],

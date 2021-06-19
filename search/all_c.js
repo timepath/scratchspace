@@ -149,7 +149,7 @@ var searchData=
   ['levelwarp_2eqh',['levelwarp.qh',['../d3/d7a/levelwarp_8qh.html',1,'']]],
   ['lgamma',['lgamma',['../df/d38/mathlib_8qc.html#a659c66483cd7c3631f185f4fbd45affb',1,'lgamma(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a659c66483cd7c3631f185f4fbd45affb',1,'lgamma(float e):&#160;mathlib.qc']]],
   ['lib_2eqh',['lib.qh',['../d5/d14/lib_8qh.html',1,'']]],
-  ['lifetime',['lifetime',['../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a',1,'lifetime():&#160;powerups.qc'],['../d2/d21/music_8qh.html#a5d9cc36a06664262be19fae94fd8e00a',1,'lifetime():&#160;music.qh']]],
+  ['lifetime',['lifetime',['../dd/def/client_2hud_2panel_2powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a',1,'lifetime():&#160;powerups.qc'],['../d2/d21/music_8qh.html#a5d9cc36a06664262be19fae94fd8e00a',1,'lifetime():&#160;music.qh']]],
   ['light_5flev',['light_lev',['../de/d5e/dpextensions_8qc.html#a18379ef749fb656f345ba3af58870510',1,'dpextensions.qc']]],
   ['lightning_5fshotorigin',['lightning_shotorigin',['../d0/d2a/client_2main_8qh.html#a4949aba9582bad726867510c4275515d',1,'main.qh']]],
   ['lightningarc_2eqc',['lightningarc.qc',['../d1/df8/lightningarc_8qc.html',1,'']]],
