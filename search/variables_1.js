@@ -1659,7 +1659,6 @@ var searchData=
   ['autocvar_5fsv_5fprecacheplayermodels',['autocvar_sv_precacheplayermodels',['../da/dc1/server_2player_8qh.html#a5c10211fe0abd23e1e51067696817e5d',1,'player.qh']]],
   ['autocvar_5fsv_5fq3acompat_5fmachineshotgunswap',['autocvar_sv_q3acompat_machineshotgunswap',['../dc/d7e/quake3_8qh.html#a709d598e919683713db93154820f53b7',1,'quake3.qh']]],
   ['autocvar_5fsv_5fq3defragcompat_5fchangehitbox',['autocvar_sv_q3defragcompat_changehitbox',['../dc/d7e/quake3_8qh.html#aefc9cee248c39309fd9638781ad51795',1,'quake3.qh']]],
-  ['autocvar_5fsv_5fqcphysics',['autocvar_sv_qcphysics',['../df/dd7/server_2client_8qc.html#ab0e1d4b28271a65528dff22463304ca2',1,'client.qc']]],
   ['autocvar_5fsv_5fready_5frestart',['autocvar_sv_ready_restart',['../d8/d4c/cmd_8qh.html#af83a31dc04b609ac4dde3540a14edfac',1,'cmd.qh']]],
   ['autocvar_5fsv_5fready_5frestart_5frepeatable',['autocvar_sv_ready_restart_repeatable',['../d8/d4c/cmd_8qh.html#acb8a55c425caf01ab5fddc4697aa732b',1,'cmd.qh']]],
   ['autocvar_5fsv_5fservermodelsonly',['autocvar_sv_servermodelsonly',['../d8/de2/server_2client_8qh.html#a2f922a52027cffacd40223e47d919229',1,'client.qh']]],

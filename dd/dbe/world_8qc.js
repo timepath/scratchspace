@@ -35,7 +35,7 @@ var world_8qc =
     [ "readplayerstartcvars", "dd/dbe/world_8qc.html#adac48834b44f2430043098916e291251", null ],
     [ "RedirectionThink", "dd/dbe/world_8qc.html#a562ca164f7d8783b2be2864ba5fdc6f5", null ],
     [ "RestoreGame", "dd/dbe/world_8qc.html#af8f462400b6e203393394085ab5bc7d1", null ],
-    [ "RunThink", "dd/dbe/world_8qc.html#aba98b9ec2f2a3531debad956246d3b99", null ],
+    [ "RunThink", "dd/dbe/world_8qc.html#a0156c7f3ff8dc902f76f7c8c31390593", null ],
     [ "SetDefaultAlpha", "dd/dbe/world_8qc.html#a1a54385aa9929a708f4b06be4b86ffa0", null ],
     [ "SetWinners", "dd/dbe/world_8qc.html#a5e4e81a9c481420994df74eef50865c8", null ],
     [ "Shutdown", "dd/dbe/world_8qc.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9", null ],
