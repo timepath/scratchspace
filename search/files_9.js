@@ -22,6 +22,8 @@ var searchData=
   ['invasion_2eqc',['invasion.qc',['../d6/d61/invasion_8qc.html',1,'']]],
   ['invasion_2eqh',['invasion.qh',['../de/d6f/invasion_8qh.html',1,'']]],
   ['inventory_2eqh',['inventory.qh',['../dc/d9d/inventory_8qh.html',1,'']]],
+  ['invisibility_2eqc',['invisibility.qc',['../d8/da6/invisibility_8qc.html',1,'']]],
+  ['invisibility_2eqh',['invisibility.qh',['../d1/de6/invisibility_8qh.html',1,'']]],
   ['ipban_2eqc',['ipban.qc',['../d6/d95/ipban_8qc.html',1,'']]],
   ['ipban_2eqh',['ipban.qh',['../da/ddd/ipban_8qh.html',1,'']]],
   ['item_2eqc',['item.qc',['../de/d9a/item_8qc.html',1,'']]],

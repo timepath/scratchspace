@@ -183,6 +183,7 @@ var searchData=
   ['ev_5fvehicletouch',['EV_VehicleTouch',['../d6/ddd/server_2mutators_2events_8qh.html#acb987800997fcc9d6e5ff435d09acc32',1,'events.qh']]],
   ['ev_5fvotecommand_5fparse',['EV_VoteCommand_Parse',['../d6/ddd/server_2mutators_2events_8qh.html#a8c1459c40bdc7dbd673d697a3afa6ecb',1,'events.qh']]],
   ['ev_5fw_5fdecreaseammo',['EV_W_DecreaseAmmo',['../d6/ddd/server_2mutators_2events_8qh.html#a42be9e8fcc1d63954278ac53322e5690',1,'events.qh']]],
+  ['ev_5fw_5fplaystrengthsound',['EV_W_PlayStrengthSound',['../d6/ddd/server_2mutators_2events_8qh.html#ac34f8f7f24725e18e58b2264097cdd89',1,'events.qh']]],
   ['ev_5fw_5freload',['EV_W_Reload',['../d6/ddd/server_2mutators_2events_8qh.html#a4e145ed7e7eb03b3bb6ad2fe5f53a493',1,'events.qh']]],
   ['ev_5fwanteventchase',['EV_WantEventchase',['../d8/d0e/client_2mutators_2events_8qh.html#a5f415751211eff012cb012a3eac97df7',1,'events.qh']]],
   ['ev_5fwantweapon',['EV_WantWeapon',['../d6/ddd/server_2mutators_2events_8qh.html#ab6d49bdf5d3fbb234fa564f18a7d5460',1,'events.qh']]],

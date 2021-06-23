@@ -290,6 +290,7 @@ var searchData=
   ['lp_5frtworld',['LP_RTWORLD',['../d4/d0c/csprogsdefs_8qc.html#af81bfd802776796e5fcc36057ddb8c13',1,'csprogsdefs.qc']]],
   ['lsmaps_5fmax',['LSMAPS_MAX',['../d9/d89/getreplies_8qc.html#ad3483ec4e1d1d3b9ab6323bfcf01b876',1,'getreplies.qc']]],
   ['ltime',['ltime',['../d6/d11/progsdefs_8qc.html#af4e305a34cfe09004c87a91e2461330c',1,'progsdefs.qc']]],
+  ['luckbuff',['LuckBuff',['../d3/dcc/classLuckBuff.html',1,'']]],
   ['m_5fconfiguremenu',['m_configuremenu',['../d3/d09/classLastManStanding.html#ac7bf44cd186b92eab3c636543716eae1',1,'LastManStanding']]],
   ['m_5fisalwayssupported',['m_isAlwaysSupported',['../d3/d09/classLastManStanding.html#a149c64cf740d5417d99aaf597a4eac3f',1,'LastManStanding']]],
   ['mousedrag',['mouseDrag',['../d9/de9/classListBox.html#a15d3326ac2bb6d981ca9830931782a2e',1,'ListBox']]],

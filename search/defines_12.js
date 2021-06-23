@@ -17,7 +17,7 @@ var searchData=
   ['register_5f4',['REGISTER_4',['../d2/d5e/registry_8qh.html#ade3fba5a0d1eade22f2692e182b9ef76',1,'registry.qh']]],
   ['register_5f5',['REGISTER_5',['../d2/d5e/registry_8qh.html#ae6f0dc111350c68957c77f16dd9a3da7',1,'registry.qh']]],
   ['register_5fanimation',['REGISTER_ANIMATION',['../d3/d42/animdecide_8qh.html#a7a2ccb2c125986dd4cbad525477c65e7',1,'animdecide.qh']]],
-  ['register_5fbuff',['REGISTER_BUFF',['../d6/d85/buffs_8qh.html#a9ee2e76ff0775c133acd38e490bf692b',1,'buffs.qh']]],
+  ['register_5fbuff',['REGISTER_BUFF',['../d6/d85/buffs_8qh.html#aa469ab2c4a752ee76e6bb795f91c2333',1,'buffs.qh']]],
   ['register_5fdeathtype',['REGISTER_DEATHTYPE',['../d9/d4f/deathtypes_2all_8qh.html#a511a8cb366fb4918f14fab9d9ba50557',1,'all.qh']]],
   ['register_5fgametype',['REGISTER_GAMETYPE',['../d2/d9e/mapinfo_8qh.html#a7bc2be77744619aa7b2f7b9090fc9435',1,'mapinfo.qh']]],
   ['register_5fglobalsound',['REGISTER_GLOBALSOUND',['../df/d6e/globalsound_8qh.html#a517599a91541c3857c18c659742f96af',1,'globalsound.qh']]],

@@ -484,6 +484,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a42be9e8fcc1d63954278ac53322e5690"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a42be9e8fcc1d63954278ac53322e5690">EV_W_DecreaseAmmo</a>(i,  o)</td></tr>
 <tr class="memdesc:a42be9e8fcc1d63954278ac53322e5690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by W_DecreaseAmmo.  <a href="#a42be9e8fcc1d63954278ac53322e5690">More...</a><br /></td></tr>
 <tr class="separator:a42be9e8fcc1d63954278ac53322e5690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34f8f7f24725e18e58b2264097cdd89"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac34f8f7f24725e18e58b2264097cdd89">EV_W_PlayStrengthSound</a>(i,  o)&#160;&#160;&#160;/** player */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
+<tr class="memdesc:ac34f8f7f24725e18e58b2264097cdd89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when weapons are performing their attack, useful for applying bonus attack sounds.  <a href="#ac34f8f7f24725e18e58b2264097cdd89">More...</a><br /></td></tr>
+<tr class="separator:ac34f8f7f24725e18e58b2264097cdd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e145ed7e7eb03b3bb6ad2fe5f53a493"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a4e145ed7e7eb03b3bb6ad2fe5f53a493">EV_W_Reload</a>(i,  o)&#160;&#160;&#160;/** actor */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:a4e145ed7e7eb03b3bb6ad2fe5f53a493"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by W_Reload.  <a href="#a4e145ed7e7eb03b3bb6ad2fe5f53a493">More...</a><br /></td></tr>
 <tr class="separator:a4e145ed7e7eb03b3bb6ad2fe5f53a493"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -840,6 +843,8 @@ Functions</h2></td></tr>
 <tr class="separator:aaea6370e044e59108b7c53a5396f5aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09feaa70d4097752ce44f21bd9a65c12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a09feaa70d4097752ce44f21bd9a65c12">MUTATOR_HOOKABLE</a> (AllowRocketJumping, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a36547e693180bb10e745a02eb57a7828">EV_AllowRocketJumping</a>)</td></tr>
 <tr class="separator:a09feaa70d4097752ce44f21bd9a65c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba6d4e38341a33c170dcf627d781a3a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a6ba6d4e38341a33c170dcf627d781a3a">MUTATOR_HOOKABLE</a> (<a class="el" href="../../d1/dba/server_2weapons_2common_8qh.html#a15163fb722de405cc2764efd498bc2ee">W_PlayStrengthSound</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac34f8f7f24725e18e58b2264097cdd89">EV_W_PlayStrengthSound</a>)</td></tr>
+<tr class="separator:a6ba6d4e38341a33c170dcf627d781a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -5158,6 +5163,38 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ac34f8f7f24725e18e58b2264097cdd89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac34f8f7f24725e18e58b2264097cdd89">&#9670;&nbsp;</a></span>EV_W_PlayStrengthSound</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_W_PlayStrengthSound</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;/** player */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when weapons are performing their attack, useful for applying bonus attack sounds. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l01255">1255</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
 <a id="a4e145ed7e7eb03b3bb6ad2fe5f53a493"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e145ed7e7eb03b3bb6ad2fe5f53a493">&#9670;&nbsp;</a></span>EV_W_Reload</h2>
 
@@ -5436,7 +5473,7 @@ Variables</h2></td></tr>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a9d840bb15a3f3f9cc8e3558a6c7d4d75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d840bb15a3f3f9cc8e3558a6c7d4d75">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[1/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d840bb15a3f3f9cc8e3558a6c7d4d75">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[1/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5464,7 +5501,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a89d182ab5c56c5887f17de09a4798381"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89d182ab5c56c5887f17de09a4798381">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[2/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a89d182ab5c56c5887f17de09a4798381">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[2/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5492,7 +5529,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9c79ed06b3325773a4f3b27ada32ee64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c79ed06b3325773a4f3b27ada32ee64">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[3/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c79ed06b3325773a4f3b27ada32ee64">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[3/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5520,7 +5557,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a317c9dcc048306e1c995b9455befd167"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a317c9dcc048306e1c995b9455befd167">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[4/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a317c9dcc048306e1c995b9455befd167">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[4/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5548,7 +5585,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a70229cdfbe38acc38f9101b9002237d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70229cdfbe38acc38f9101b9002237d2">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[5/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a70229cdfbe38acc38f9101b9002237d2">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[5/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5576,7 +5613,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9c097bfabd9f29e1f84b87a522f67bcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c097bfabd9f29e1f84b87a522f67bcd">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[6/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c097bfabd9f29e1f84b87a522f67bcd">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[6/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5604,7 +5641,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a93579197e02f05a181ced559727ee7e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93579197e02f05a181ced559727ee7e0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[7/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a93579197e02f05a181ced559727ee7e0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[7/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5632,7 +5669,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aacb8a598fcb1fbc334e220285fb36629"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacb8a598fcb1fbc334e220285fb36629">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[8/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aacb8a598fcb1fbc334e220285fb36629">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[8/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5660,7 +5697,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a74c3d8f80aab67ca61682aba9c91f3a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74c3d8f80aab67ca61682aba9c91f3a1">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[9/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a74c3d8f80aab67ca61682aba9c91f3a1">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[9/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5688,7 +5725,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2a9f7999ecb28491ce5f22d7cc28e06f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a9f7999ecb28491ce5f22d7cc28e06f">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[10/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a9f7999ecb28491ce5f22d7cc28e06f">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[10/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5716,7 +5753,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a7022577485a36d2be153af0cc301b0b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7022577485a36d2be153af0cc301b0b0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[11/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7022577485a36d2be153af0cc301b0b0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[11/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5744,7 +5781,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad7ceb1e3328a7afb1fd067e472e76cfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7ceb1e3328a7afb1fd067e472e76cfd">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[12/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7ceb1e3328a7afb1fd067e472e76cfd">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[12/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5772,7 +5809,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac4ccb673e978769a30bd0a418f8cbae9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4ccb673e978769a30bd0a418f8cbae9">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[13/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4ccb673e978769a30bd0a418f8cbae9">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[13/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5800,7 +5837,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a59276c8df51ef5ea6e174152b5065367"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59276c8df51ef5ea6e174152b5065367">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[14/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a59276c8df51ef5ea6e174152b5065367">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[14/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5828,7 +5865,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a6f75fe737c1fe09eb683982b0b5d7426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f75fe737c1fe09eb683982b0b5d7426">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[15/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f75fe737c1fe09eb683982b0b5d7426">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[15/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5856,7 +5893,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a36b1deaee62bd4acff3a58e5faf8e810"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36b1deaee62bd4acff3a58e5faf8e810">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[16/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36b1deaee62bd4acff3a58e5faf8e810">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[16/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5884,7 +5921,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="abee1b05701002fdd967af13764d92bc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abee1b05701002fdd967af13764d92bc2">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[17/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abee1b05701002fdd967af13764d92bc2">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[17/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5912,7 +5949,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a587bb681a38161b759133018dc16c274"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a587bb681a38161b759133018dc16c274">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[18/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a587bb681a38161b759133018dc16c274">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[18/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5940,7 +5977,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a82af11bb2e9232f2bdc31eac54b5ef0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82af11bb2e9232f2bdc31eac54b5ef0f">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[19/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a82af11bb2e9232f2bdc31eac54b5ef0f">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[19/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5970,7 +6007,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3b59adc72553e1a684ba0c85dc47771d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b59adc72553e1a684ba0c85dc47771d">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[20/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b59adc72553e1a684ba0c85dc47771d">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[20/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5998,7 +6035,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a43bc62ceaeb32a435ffd583551ca1ea0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43bc62ceaeb32a435ffd583551ca1ea0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[21/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a43bc62ceaeb32a435ffd583551ca1ea0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[21/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6028,7 +6065,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a4e2ab03de6bb6419fc453433da611bb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e2ab03de6bb6419fc453433da611bb6">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[22/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e2ab03de6bb6419fc453433da611bb6">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[22/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6056,7 +6093,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a5ae4d19d56ad0c0bd4e85b7e0875eada"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ae4d19d56ad0c0bd4e85b7e0875eada">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[23/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ae4d19d56ad0c0bd4e85b7e0875eada">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[23/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6084,7 +6121,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a534b8e471ea32b67719f1d0a147f352d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a534b8e471ea32b67719f1d0a147f352d">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[24/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a534b8e471ea32b67719f1d0a147f352d">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[24/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6112,7 +6149,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a19188c3e26a08c1abde7a1cfb011c4c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19188c3e26a08c1abde7a1cfb011c4c3">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[25/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a19188c3e26a08c1abde7a1cfb011c4c3">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[25/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6140,7 +6177,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad36506f76b33696892b71d1620832958"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad36506f76b33696892b71d1620832958">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[26/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad36506f76b33696892b71d1620832958">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[26/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6168,7 +6205,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad610f91fbe5764208d68a4814217ab92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad610f91fbe5764208d68a4814217ab92">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[27/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad610f91fbe5764208d68a4814217ab92">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[27/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6196,7 +6233,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2d4c14800cbba42a0a91f8ab46b1cf04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d4c14800cbba42a0a91f8ab46b1cf04">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[28/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d4c14800cbba42a0a91f8ab46b1cf04">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[28/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6224,7 +6261,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac82996f7cc7570e2f26bf818e43b1951"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac82996f7cc7570e2f26bf818e43b1951">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[29/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac82996f7cc7570e2f26bf818e43b1951">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[29/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6252,7 +6289,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a4d0a139fb2685d2671047a2aa790b336"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d0a139fb2685d2671047a2aa790b336">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[30/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d0a139fb2685d2671047a2aa790b336">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[30/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6280,7 +6317,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af907db5f856520127ceb9c85c00a56b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af907db5f856520127ceb9c85c00a56b0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[31/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af907db5f856520127ceb9c85c00a56b0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[31/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6308,7 +6345,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a40415cfac1cdc020d1401084433c70e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40415cfac1cdc020d1401084433c70e0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[32/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a40415cfac1cdc020d1401084433c70e0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[32/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6336,7 +6373,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad93be94942fac907d31640a1f755bcb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad93be94942fac907d31640a1f755bcb0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[33/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad93be94942fac907d31640a1f755bcb0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[33/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6366,7 +6403,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a077511489af573d51424b7adfa0541a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a077511489af573d51424b7adfa0541a5">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[34/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a077511489af573d51424b7adfa0541a5">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[34/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6394,7 +6431,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a417b284d540e891a43a482a2baeb8b48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a417b284d540e891a43a482a2baeb8b48">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[35/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a417b284d540e891a43a482a2baeb8b48">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[35/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6422,7 +6459,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af8d9323bcd27b50b079c583cf3ba39a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8d9323bcd27b50b079c583cf3ba39a5">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[36/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af8d9323bcd27b50b079c583cf3ba39a5">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[36/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6450,7 +6487,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a40cd870edd2b965e296ad7bfb983cc7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40cd870edd2b965e296ad7bfb983cc7f">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[37/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a40cd870edd2b965e296ad7bfb983cc7f">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[37/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6478,7 +6515,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a1d59d35dd94153ae2675eb82a15f48dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d59d35dd94153ae2675eb82a15f48dd">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[38/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d59d35dd94153ae2675eb82a15f48dd">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[38/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6506,7 +6543,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a594248978aafeddbf9265520b1b7babb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a594248978aafeddbf9265520b1b7babb">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[39/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a594248978aafeddbf9265520b1b7babb">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[39/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6534,7 +6571,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a7dd6d46cd9dfc2d44a92b52badb3aa3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dd6d46cd9dfc2d44a92b52badb3aa3b">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[40/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dd6d46cd9dfc2d44a92b52badb3aa3b">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[40/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6562,7 +6599,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa610ee3d8bde9895284d3809e48f592c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa610ee3d8bde9895284d3809e48f592c">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[41/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa610ee3d8bde9895284d3809e48f592c">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[41/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6590,7 +6627,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac0d79fd7b6ad42fd4c85851b79855fc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0d79fd7b6ad42fd4c85851b79855fc9">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[42/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0d79fd7b6ad42fd4c85851b79855fc9">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[42/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6618,7 +6655,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="add9b3b86f8c566bb13029988582ab2a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add9b3b86f8c566bb13029988582ab2a5">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[43/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#add9b3b86f8c566bb13029988582ab2a5">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[43/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6646,7 +6683,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a1b6eb5fa746fdde3b80c57564920c136"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b6eb5fa746fdde3b80c57564920c136">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[44/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b6eb5fa746fdde3b80c57564920c136">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[44/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6674,7 +6711,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9f61b4e1b582e22dc540425fde16993f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f61b4e1b582e22dc540425fde16993f">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[45/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f61b4e1b582e22dc540425fde16993f">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[45/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6702,7 +6739,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="adc82de81647a4be9d94191e80d296e3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc82de81647a4be9d94191e80d296e3e">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[46/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adc82de81647a4be9d94191e80d296e3e">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[46/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6730,7 +6767,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="abf3b7e1977679a3e88eb6af04bd4f0d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf3b7e1977679a3e88eb6af04bd4f0d0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[47/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf3b7e1977679a3e88eb6af04bd4f0d0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[47/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6758,7 +6795,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a4213bdd41c120d8e1cb9f324d1df6879"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4213bdd41c120d8e1cb9f324d1df6879">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[48/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4213bdd41c120d8e1cb9f324d1df6879">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[48/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6786,7 +6823,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a95fd77a7bfc0edea18b630440347c8e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95fd77a7bfc0edea18b630440347c8e9">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[49/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a95fd77a7bfc0edea18b630440347c8e9">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[49/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6814,7 +6851,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad4aa6b14682b9aecdb7559728a00a665"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4aa6b14682b9aecdb7559728a00a665">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[50/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4aa6b14682b9aecdb7559728a00a665">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[50/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6842,7 +6879,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="acf2a2a3a875808cd7fe8a5a5af299aa0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf2a2a3a875808cd7fe8a5a5af299aa0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[51/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acf2a2a3a875808cd7fe8a5a5af299aa0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[51/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6872,7 +6909,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab4f9b593941b9be6ddd2a5ab310f6aee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4f9b593941b9be6ddd2a5ab310f6aee">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[52/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4f9b593941b9be6ddd2a5ab310f6aee">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[52/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6900,7 +6937,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0c05e020d2b92298af266de71e412235"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c05e020d2b92298af266de71e412235">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[53/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c05e020d2b92298af266de71e412235">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[53/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6928,7 +6965,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a5885e929edf0130e200eea743ed9acdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5885e929edf0130e200eea743ed9acdd">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[54/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5885e929edf0130e200eea743ed9acdd">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[54/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6956,7 +6993,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a7f49e7f9ba82fc5b45a4f89a44b7fd95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f49e7f9ba82fc5b45a4f89a44b7fd95">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[55/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f49e7f9ba82fc5b45a4f89a44b7fd95">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[55/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6984,7 +7021,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac8dc1403277ff8d1fff42e122d9fa907"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8dc1403277ff8d1fff42e122d9fa907">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[56/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8dc1403277ff8d1fff42e122d9fa907">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[56/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7012,7 +7049,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af27df58ef83bea07a45d1d4b1f33b4d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af27df58ef83bea07a45d1d4b1f33b4d7">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[57/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af27df58ef83bea07a45d1d4b1f33b4d7">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[57/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7040,7 +7077,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a6e68966f1464f680e0b4edbb62211982"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e68966f1464f680e0b4edbb62211982">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[58/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e68966f1464f680e0b4edbb62211982">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[58/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7068,7 +7105,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3e91679046d4b895f380d3d5fd05ad54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e91679046d4b895f380d3d5fd05ad54">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[59/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e91679046d4b895f380d3d5fd05ad54">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[59/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7096,7 +7133,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3652421a5cf6664e4c34ce6db8dd8719"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3652421a5cf6664e4c34ce6db8dd8719">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[60/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3652421a5cf6664e4c34ce6db8dd8719">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[60/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7124,7 +7161,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad7cebad4f8331d7ba3dedb63d4284380"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7cebad4f8331d7ba3dedb63d4284380">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[61/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7cebad4f8331d7ba3dedb63d4284380">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[61/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7152,7 +7189,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac8f8113a11eaec1ab526be7a422ff63e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8f8113a11eaec1ab526be7a422ff63e">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[62/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8f8113a11eaec1ab526be7a422ff63e">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[62/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7180,7 +7217,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab2d7840b9319627ef1cf22c8382260d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2d7840b9319627ef1cf22c8382260d3">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[63/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2d7840b9319627ef1cf22c8382260d3">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[63/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7208,7 +7245,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9913910e6bff83cbe1d7001bd48f9aa7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9913910e6bff83cbe1d7001bd48f9aa7">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[64/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9913910e6bff83cbe1d7001bd48f9aa7">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[64/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7236,7 +7273,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a529aa3fc975277d259f685c2fda7583f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a529aa3fc975277d259f685c2fda7583f">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[65/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a529aa3fc975277d259f685c2fda7583f">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[65/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7264,7 +7301,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2e1ac272e2373364fcfef46a7d9ccb13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e1ac272e2373364fcfef46a7d9ccb13">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[66/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e1ac272e2373364fcfef46a7d9ccb13">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[66/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7294,7 +7331,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a349244fb81a11f6e9302dd2224d7c2be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a349244fb81a11f6e9302dd2224d7c2be">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[67/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a349244fb81a11f6e9302dd2224d7c2be">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[67/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7322,7 +7359,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a34061cf5e3a18566701e83573bb90835"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34061cf5e3a18566701e83573bb90835">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[68/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a34061cf5e3a18566701e83573bb90835">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[68/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7350,7 +7387,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac53f21dc48fdc3148ff08729320c6c93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac53f21dc48fdc3148ff08729320c6c93">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[69/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac53f21dc48fdc3148ff08729320c6c93">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[69/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7378,7 +7415,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad8445f11cf662bedc5beeed6b33de076"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8445f11cf662bedc5beeed6b33de076">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[70/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8445f11cf662bedc5beeed6b33de076">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[70/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7406,7 +7443,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a78df9660ce5743fbd75beb4012932bbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78df9660ce5743fbd75beb4012932bbe">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[71/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a78df9660ce5743fbd75beb4012932bbe">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[71/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7434,7 +7471,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0105146f13551bf05601d7c1db11618c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0105146f13551bf05601d7c1db11618c">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[72/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0105146f13551bf05601d7c1db11618c">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[72/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7462,7 +7499,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a225e26b05992bd5a6a5e24315cdab844"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a225e26b05992bd5a6a5e24315cdab844">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[73/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a225e26b05992bd5a6a5e24315cdab844">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[73/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7490,7 +7527,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa7a03386f02595325cd75c1f51ece220"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7a03386f02595325cd75c1f51ece220">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[74/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7a03386f02595325cd75c1f51ece220">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[74/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7518,7 +7555,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a148802c5a66be5ec47b70bcb88426606"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a148802c5a66be5ec47b70bcb88426606">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[75/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a148802c5a66be5ec47b70bcb88426606">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[75/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7546,7 +7583,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a7f798d2c24bc1812407fee6329783713"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f798d2c24bc1812407fee6329783713">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[76/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f798d2c24bc1812407fee6329783713">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[76/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7574,7 +7611,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad8456f263869fd3943db8dfd57134942"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8456f263869fd3943db8dfd57134942">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[77/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8456f263869fd3943db8dfd57134942">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[77/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7602,7 +7639,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af0d5fa40562631a8a4880ed0f9d50725"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0d5fa40562631a8a4880ed0f9d50725">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[78/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af0d5fa40562631a8a4880ed0f9d50725">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[78/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7630,7 +7667,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aee937ef44c3fc77f46d7d4ad6e6df409"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee937ef44c3fc77f46d7d4ad6e6df409">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[79/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aee937ef44c3fc77f46d7d4ad6e6df409">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[79/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7658,7 +7695,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a7c026f9e60a9881be6098098a89e28fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c026f9e60a9881be6098098a89e28fe">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[80/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c026f9e60a9881be6098098a89e28fe">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[80/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7686,7 +7723,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="abcec64a71b7f578802fee879e5d93f9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcec64a71b7f578802fee879e5d93f9b">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[81/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abcec64a71b7f578802fee879e5d93f9b">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[81/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7714,7 +7751,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a35ce6a0b9b7924293d1226024923641a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35ce6a0b9b7924293d1226024923641a">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[82/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a35ce6a0b9b7924293d1226024923641a">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[82/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7742,7 +7779,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a1f42fb2531fbf6736154838dc9eb48db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f42fb2531fbf6736154838dc9eb48db">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[83/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f42fb2531fbf6736154838dc9eb48db">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[83/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7770,7 +7807,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af08817421bc2272983b3aebb22931390"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af08817421bc2272983b3aebb22931390">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[84/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af08817421bc2272983b3aebb22931390">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[84/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7798,7 +7835,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a5dee630affe7cb0ad31511dff7f76953"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5dee630affe7cb0ad31511dff7f76953">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[85/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dee630affe7cb0ad31511dff7f76953">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[85/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7826,7 +7863,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a40c90200362ffca5002b594015730ceb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40c90200362ffca5002b594015730ceb">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[86/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a40c90200362ffca5002b594015730ceb">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[86/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7854,7 +7891,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a325999bf421e60691da7cdffced5541a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a325999bf421e60691da7cdffced5541a">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[87/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a325999bf421e60691da7cdffced5541a">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[87/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7882,7 +7919,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa3f32a46d10bdf7d2b19930d8cc87abe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3f32a46d10bdf7d2b19930d8cc87abe">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[88/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3f32a46d10bdf7d2b19930d8cc87abe">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[88/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7910,7 +7947,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a1977a60dabeb1c9493ca2b33d21e07df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1977a60dabeb1c9493ca2b33d21e07df">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[89/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1977a60dabeb1c9493ca2b33d21e07df">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[89/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7938,7 +7975,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9e326b248680f8549305d626781a6bf3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e326b248680f8549305d626781a6bf3">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[90/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e326b248680f8549305d626781a6bf3">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[90/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7966,7 +8003,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a7853d9319d4ebcaadaad437780022fdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7853d9319d4ebcaadaad437780022fdc">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[91/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7853d9319d4ebcaadaad437780022fdc">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[91/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7994,7 +8031,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac737061002bfe98dfa7541ab5f58c5b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac737061002bfe98dfa7541ab5f58c5b5">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[92/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac737061002bfe98dfa7541ab5f58c5b5">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[92/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8024,7 +8061,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a92781151132f7412b7c84847ce3d1c17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92781151132f7412b7c84847ce3d1c17">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[93/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a92781151132f7412b7c84847ce3d1c17">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[93/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8052,7 +8089,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ad54fe688d184cc8e5d8609c57ea8afbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad54fe688d184cc8e5d8609c57ea8afbe">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[94/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad54fe688d184cc8e5d8609c57ea8afbe">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[94/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8080,7 +8117,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0d465dd62fdda963d66658c979484dcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d465dd62fdda963d66658c979484dcf">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[95/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d465dd62fdda963d66658c979484dcf">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[95/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8108,7 +8145,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ae9007e3f07cfabdb29c726cd6027911e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9007e3f07cfabdb29c726cd6027911e">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[96/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9007e3f07cfabdb29c726cd6027911e">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[96/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8138,7 +8175,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a7790fcd04cde405c6514602b231cef87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7790fcd04cde405c6514602b231cef87">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[97/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7790fcd04cde405c6514602b231cef87">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[97/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8166,7 +8203,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a85ec81e0db3a0748cf2efc5666565d00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85ec81e0db3a0748cf2efc5666565d00">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[98/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a85ec81e0db3a0748cf2efc5666565d00">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[98/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8194,7 +8231,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0bfb2b8d3b00fd4dda7b45678a35f750"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bfb2b8d3b00fd4dda7b45678a35f750">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[99/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bfb2b8d3b00fd4dda7b45678a35f750">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[99/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8222,7 +8259,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a26f3003f5f4c5b8c38ea4e20071142a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26f3003f5f4c5b8c38ea4e20071142a6">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[100/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a26f3003f5f4c5b8c38ea4e20071142a6">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[100/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8250,7 +8287,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a312e6171c9efc95f0a3e52ac33d12a92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a312e6171c9efc95f0a3e52ac33d12a92">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[101/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a312e6171c9efc95f0a3e52ac33d12a92">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[101/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8278,7 +8315,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="affc9a091be59109f0566cb1e7349c7c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affc9a091be59109f0566cb1e7349c7c1">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[102/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#affc9a091be59109f0566cb1e7349c7c1">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[102/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8306,7 +8343,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a091cc6cc101921b144d499efbaa85d38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a091cc6cc101921b144d499efbaa85d38">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[103/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a091cc6cc101921b144d499efbaa85d38">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[103/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8334,7 +8371,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ae9065172360ce60a1dfdab51224097c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9065172360ce60a1dfdab51224097c0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[104/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9065172360ce60a1dfdab51224097c0">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[104/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8362,7 +8399,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab0a7029ee96e6bdbd1d1e9660aa31682"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0a7029ee96e6bdbd1d1e9660aa31682">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[105/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0a7029ee96e6bdbd1d1e9660aa31682">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[105/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8390,7 +8427,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a6daff2c0d6c012a9de9302bedb598af2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6daff2c0d6c012a9de9302bedb598af2">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[106/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6daff2c0d6c012a9de9302bedb598af2">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[106/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8418,7 +8455,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a99035b95767bc84a3fb6fe180886400a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99035b95767bc84a3fb6fe180886400a">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[107/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a99035b95767bc84a3fb6fe180886400a">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[107/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8446,7 +8483,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ae3ea2e0d885e0ac8591afd492baedf2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3ea2e0d885e0ac8591afd492baedf2c">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[108/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3ea2e0d885e0ac8591afd492baedf2c">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[108/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8474,7 +8511,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a02e172a50facb369548e0af1891366ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02e172a50facb369548e0af1891366ef">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[109/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a02e172a50facb369548e0af1891366ef">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[109/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8502,7 +8539,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="afeb76beef4f1c25ba2729048018fca4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afeb76beef4f1c25ba2729048018fca4b">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[110/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afeb76beef4f1c25ba2729048018fca4b">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[110/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8530,7 +8567,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3b7b33ed31155de93ad525f9776061bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b7b33ed31155de93ad525f9776061bf">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[111/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b7b33ed31155de93ad525f9776061bf">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[111/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8558,7 +8595,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a707a1235336881e5f6c1f571bfb4f771"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a707a1235336881e5f6c1f571bfb4f771">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[112/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a707a1235336881e5f6c1f571bfb4f771">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[112/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8586,7 +8623,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a155f6bd08f3102023bd6cf74df03be71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a155f6bd08f3102023bd6cf74df03be71">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[113/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a155f6bd08f3102023bd6cf74df03be71">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[113/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8614,7 +8651,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aedd426bcf06dde4f1a0b11b67973e112"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedd426bcf06dde4f1a0b11b67973e112">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[114/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aedd426bcf06dde4f1a0b11b67973e112">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[114/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8642,7 +8679,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2d05ce88a4e4209353f58aeabf8f2c13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d05ce88a4e4209353f58aeabf8f2c13">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[115/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d05ce88a4e4209353f58aeabf8f2c13">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[115/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8670,7 +8707,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a15e512de885480483b203c642de52369"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15e512de885480483b203c642de52369">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[116/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a15e512de885480483b203c642de52369">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[116/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8698,7 +8735,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac06363c859c5125ac4a46c40ced2c14e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac06363c859c5125ac4a46c40ced2c14e">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[117/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac06363c859c5125ac4a46c40ced2c14e">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[117/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8726,7 +8763,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="afa7b74a29b8cb320ea2b82b4db3dd9f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa7b74a29b8cb320ea2b82b4db3dd9f9">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[118/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afa7b74a29b8cb320ea2b82b4db3dd9f9">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[118/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8754,7 +8791,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="abdc47fdb3aeea526675fdfb03c57712b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdc47fdb3aeea526675fdfb03c57712b">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[119/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc47fdb3aeea526675fdfb03c57712b">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[119/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8782,7 +8819,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9a6e38589184d5adc5ad9342635b51a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a6e38589184d5adc5ad9342635b51a7">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[120/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a6e38589184d5adc5ad9342635b51a7">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[120/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8810,7 +8847,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0d53a212b77375f8567525c2b46cff3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d53a212b77375f8567525c2b46cff3d">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[121/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d53a212b77375f8567525c2b46cff3d">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[121/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8838,7 +8875,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa5f85b899b66be3b345dfbed73142cc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5f85b899b66be3b345dfbed73142cc5">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[122/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5f85b899b66be3b345dfbed73142cc5">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[122/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8866,7 +8903,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aba431db07acae1f882b8d9167c80060d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba431db07acae1f882b8d9167c80060d">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[123/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aba431db07acae1f882b8d9167c80060d">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[123/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8894,7 +8931,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9a0734305f8ec09723cfe2406fd5cf29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a0734305f8ec09723cfe2406fd5cf29">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[124/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a0734305f8ec09723cfe2406fd5cf29">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[124/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8922,7 +8959,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a64f317bd33fb04787a360e3f881d6bda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64f317bd33fb04787a360e3f881d6bda">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[125/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a64f317bd33fb04787a360e3f881d6bda">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[125/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8950,7 +8987,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9e17c7ef3849f2e082801ead76fc6ed6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e17c7ef3849f2e082801ead76fc6ed6">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[126/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e17c7ef3849f2e082801ead76fc6ed6">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[126/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8978,7 +9015,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab5ec01e4c3bdf36c0a791804447c4a67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5ec01e4c3bdf36c0a791804447c4a67">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[127/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5ec01e4c3bdf36c0a791804447c4a67">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[127/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9006,7 +9043,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a575511b76cbaccd34b25544522dc4189"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a575511b76cbaccd34b25544522dc4189">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[128/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a575511b76cbaccd34b25544522dc4189">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[128/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9034,7 +9071,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a57cc6b334bd37da84ff142c26ce54e9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57cc6b334bd37da84ff142c26ce54e9a">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[129/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a57cc6b334bd37da84ff142c26ce54e9a">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[129/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9062,7 +9099,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af0cd6d32bbeb365dcd2d1f06e477fc1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0cd6d32bbeb365dcd2d1f06e477fc1b">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[130/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af0cd6d32bbeb365dcd2d1f06e477fc1b">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[130/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9090,7 +9127,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="adc988234d12ab905cfc6ccf48be12325"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc988234d12ab905cfc6ccf48be12325">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[131/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adc988234d12ab905cfc6ccf48be12325">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[131/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9118,7 +9155,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a1d3ad17bb52d550b56bc19e77c9956a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d3ad17bb52d550b56bc19e77c9956a2">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[132/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d3ad17bb52d550b56bc19e77c9956a2">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[132/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9146,7 +9183,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aac5f40e0440c0d379bb7b53071ff36d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac5f40e0440c0d379bb7b53071ff36d6">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[133/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aac5f40e0440c0d379bb7b53071ff36d6">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[133/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9174,7 +9211,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa23cbe266895ab63dc32086beaa5e18b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa23cbe266895ab63dc32086beaa5e18b">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[134/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa23cbe266895ab63dc32086beaa5e18b">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[134/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9202,7 +9239,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a040cfd2cfd82e7c135b6dfd608e3e213"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a040cfd2cfd82e7c135b6dfd608e3e213">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[135/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a040cfd2cfd82e7c135b6dfd608e3e213">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[135/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9230,7 +9267,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a68bcf35c1dbe30952b4e5c1467773706"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68bcf35c1dbe30952b4e5c1467773706">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[136/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a68bcf35c1dbe30952b4e5c1467773706">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[136/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9258,7 +9295,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a8b187cf36085c0900515fe6b766a566e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b187cf36085c0900515fe6b766a566e">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[137/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b187cf36085c0900515fe6b766a566e">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[137/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9288,7 +9325,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a21032877d5bbc226b217b595858decd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21032877d5bbc226b217b595858decd5">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[138/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a21032877d5bbc226b217b595858decd5">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[138/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9316,7 +9353,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af09e782441aaa34d4a8a92a425d68508"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af09e782441aaa34d4a8a92a425d68508">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[139/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af09e782441aaa34d4a8a92a425d68508">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[139/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9344,7 +9381,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a5f9b5667d7f2f727b9bbe231a117ea7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f9b5667d7f2f727b9bbe231a117ea7c">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[140/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f9b5667d7f2f727b9bbe231a117ea7c">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[140/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9372,7 +9409,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a06ab8cdbbf3d551b0c430022576a0091"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06ab8cdbbf3d551b0c430022576a0091">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[141/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a06ab8cdbbf3d551b0c430022576a0091">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[141/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9400,7 +9437,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a681f96033260fbba0c7fe84da4c3e7ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a681f96033260fbba0c7fe84da4c3e7ed">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[142/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a681f96033260fbba0c7fe84da4c3e7ed">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[142/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9428,7 +9465,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a71bbf8e969ec569ac7aaf7e15e60654a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71bbf8e969ec569ac7aaf7e15e60654a">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[143/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a71bbf8e969ec569ac7aaf7e15e60654a">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[143/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9456,7 +9493,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="af82048eef48364d24aa9dc06a0834ab3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af82048eef48364d24aa9dc06a0834ab3">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[144/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af82048eef48364d24aa9dc06a0834ab3">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[144/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9484,7 +9521,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a251408c4c4888bc5b34ce36c8ff72f50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a251408c4c4888bc5b34ce36c8ff72f50">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[145/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a251408c4c4888bc5b34ce36c8ff72f50">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[145/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9512,7 +9549,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="acd9ae456e69800d216f8eb97ceee5cc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd9ae456e69800d216f8eb97ceee5cc8">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[146/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acd9ae456e69800d216f8eb97ceee5cc8">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[146/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9540,7 +9577,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3bf9d94161287f35b060055189b53fe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bf9d94161287f35b060055189b53fe3">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[147/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bf9d94161287f35b060055189b53fe3">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[147/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9568,7 +9605,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a56f225a62b68f5c2c4a83ec51f69bb41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56f225a62b68f5c2c4a83ec51f69bb41">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[148/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a56f225a62b68f5c2c4a83ec51f69bb41">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[148/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9596,7 +9633,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aaea6370e044e59108b7c53a5396f5aba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaea6370e044e59108b7c53a5396f5aba">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[149/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaea6370e044e59108b7c53a5396f5aba">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[149/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9624,7 +9661,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a09feaa70d4097752ce44f21bd9a65c12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09feaa70d4097752ce44f21bd9a65c12">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[150/150]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a09feaa70d4097752ce44f21bd9a65c12">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[150/151]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9639,6 +9676,34 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a36547e693180bb10e745a02eb57a7828">EV_AllowRocketJumping</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ba6d4e38341a33c170dcf627d781a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ba6d4e38341a33c170dcf627d781a3a">&#9670;&nbsp;</a></span>MUTATOR_HOOKABLE() <span class="overload">[151/151]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/dba/server_2weapons_2common_8qh.html#a15163fb722de405cc2764efd498bc2ee">W_PlayStrengthSound</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac34f8f7f24725e18e58b2264097cdd89">EV_W_PlayStrengthSound</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -9702,7 +9767,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00369">369</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00038">monster_dropitem()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00039">monster_dropitem()</a>.</p>
 
 </div>
 </div>
@@ -9712,7 +9777,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Wed Jun 23 2021 03:25:42 for Xonotic by
+    <li class="footer">Generated on Wed Jun 23 2021 14:51:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

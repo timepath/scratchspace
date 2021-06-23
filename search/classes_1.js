@@ -1,6 +1,7 @@
 var searchData=
 [
   ['ballstealer',['BallStealer',['../dc/d30/classBallStealer.html',1,'']]],
+  ['bashbuff',['BashBuff',['../da/d2a/classBashBuff.html',1,'']]],
   ['blaster',['Blaster',['../d7/d32/classBlaster.html',1,'']]],
   ['borderimage',['BorderImage',['../d7/d5d/classBorderImage.html',1,'']]],
   ['buff',['Buff',['../de/d3c/classBuff.html',1,'']]],

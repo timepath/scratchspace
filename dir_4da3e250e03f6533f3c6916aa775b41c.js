@@ -26,6 +26,7 @@ var dir_4da3e250e03f6533f3c6916aa775b41c =
     [ "overkill", "dir_9f0ba747dc6b4bb85fdadc94258260f2.html", "dir_9f0ba747dc6b4bb85fdadc94258260f2" ],
     [ "physical_items", "dir_b6c97c161207b1661a8199c6053818da.html", "dir_b6c97c161207b1661a8199c6053818da" ],
     [ "pinata", "dir_f94bb8a79d431502b6e1e127643ac2d2.html", "dir_f94bb8a79d431502b6e1e127643ac2d2" ],
+    [ "powerups", "dir_97514989de9e188f060c951aad4e4595.html", "dir_97514989de9e188f060c951aad4e4595" ],
     [ "random_gravity", "dir_bb643f3480210b795804479284c90b50.html", "dir_bb643f3480210b795804479284c90b50" ],
     [ "random_items", "dir_24c64916b1865ae4dba1df6d72968c53.html", "dir_24c64916b1865ae4dba1df6d72968c53" ],
     [ "rocketflying", "dir_7cb5e0243dc500293d87d16dc902d405.html", "dir_7cb5e0243dc500293d87d16dc902d405" ],

@@ -1,8 +1,15 @@
 var NAVTREEINDEX6 =
 {
-"d0/db7/classJetpack.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,59,13],
-"d0/dbc/classOffhandWeapon.html":[1,0,92],
-"d0/dbc/classOffhandWeapon.html#abfd0a8ab9a61bce9eedec07c8cbd1e74":[1,0,92,0],
+"d0/db7/classJetpack.html#a727d6f42f79f0bd5ffc674423645471c":[1,0,66,3],
+"d0/db7/classJetpack.html#a742995a60473217ca5b81e7595605d19":[1,0,66,7],
+"d0/db7/classJetpack.html#a7d7a1817ddfcece5aa3e23c939a0097e":[1,0,66,11],
+"d0/db7/classJetpack.html#a7d8cf6b7a18644fba549fe489903901d":[1,0,66,4],
+"d0/db7/classJetpack.html#a95e7f0cf091386e07ce2add2ab653934":[1,0,66,9],
+"d0/db7/classJetpack.html#acdf2c55b6451a8c5b39baa21a23cd15d":[1,0,66,10],
+"d0/db7/classJetpack.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,66,5],
+"d0/db7/classJetpack.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,66,13],
+"d0/dbc/classOffhandWeapon.html":[1,0,103],
+"d0/dbc/classOffhandWeapon.html#abfd0a8ab9a61bce9eedec07c8cbd1e74":[1,0,103,0],
 "d0/dc4/server_2chat_8qc.html":[2,0,6,15],
 "d0/dc4/server_2chat_8qc.html#a330e0f8288aa77e10d89a54d8f78ff5a":[2,0,6,15,11],
 "d0/dc4/server_2chat_8qc.html#a3b9ed73dcc82e2b1f015d655d74b362c":[2,0,6,15,1],
@@ -104,6 +111,8 @@ var NAVTREEINDEX6 =
 "d0/dd6/cl__dodging_8qh_source.html":[2,0,1,10,0,7,3],
 "d0/dd6/multijump_8qc.html":[2,0,1,10,0,18,2],
 "d0/dd6/multijump_8qc_source.html":[2,0,1,10,0,18,2],
+"d0/dd9/superweapons_8qc.html":[2,0,1,10,0,35,0,6],
+"d0/dd9/superweapons_8qc_source.html":[2,0,1,10,0,35,0,6],
 "d0/dda/swamp_8qc.html":[2,0,1,6,3,42],
 "d0/dda/swamp_8qc_source.html":[2,0,1,6,3,42],
 "d0/ddb/dialog__hudpanel__score_8qc.html":[2,0,5,4,76],
@@ -240,14 +249,5 @@ var NAVTREEINDEX6 =
 "d0/de4/sv__onslaught_8qc.html#a5fe62bc628d64e864a5a92a7a71650a0":[2,0,1,3,0,13,16,75],
 "d0/de4/sv__onslaught_8qc.html#a60075dce221d6912949ccf44eea03465":[2,0,1,3,0,13,16,19],
 "d0/de4/sv__onslaught_8qc.html#a605a0036df1fd6a510b3a6031ae8de2d":[2,0,1,3,0,13,16,13],
-"d0/de4/sv__onslaught_8qc.html#a60f84a81d6901268f0cc3a4138813956":[2,0,1,3,0,13,16,47],
-"d0/de4/sv__onslaught_8qc.html#a626501f012b2eaf506e9ce8cb7056a7a":[2,0,1,3,0,13,16,100],
-"d0/de4/sv__onslaught_8qc.html#a638f3bd792a5dfcfd4f5656cd12be3ef":[2,0,1,3,0,13,16,97],
-"d0/de4/sv__onslaught_8qc.html#a666d8dad9ed1b6e64643960ca9f12e7a":[2,0,1,3,0,13,16,74],
-"d0/de4/sv__onslaught_8qc.html#a68423efa04acd40d2afcd7f40019594d":[2,0,1,3,0,13,16,24],
-"d0/de4/sv__onslaught_8qc.html#a6cc3391645d2d8976a6f72bb4dfd6256":[2,0,1,3,0,13,16,29],
-"d0/de4/sv__onslaught_8qc.html#a6cd80e767dd30c064ecdea123bf325ac":[2,0,1,3,0,13,16,52],
-"d0/de4/sv__onslaught_8qc.html#a6e62f4c780aa0e40d549f6735ab8b85f":[2,0,1,3,0,13,16,22],
-"d0/de4/sv__onslaught_8qc.html#a73d5e09053a735f8babbca16f1576920":[2,0,1,3,0,13,16,87],
-"d0/de4/sv__onslaught_8qc.html#a7605495b855af6491fded4c1e6606511":[2,0,1,3,0,13,16,92]
+"d0/de4/sv__onslaught_8qc.html#a60f84a81d6901268f0cc3a4138813956":[2,0,1,3,0,13,16,47]
 };

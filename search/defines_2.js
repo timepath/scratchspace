@@ -26,8 +26,6 @@ var searchData=
   ['bot_5fexec_5fstatus_5fwaiting',['BOT_EXEC_STATUS_WAITING',['../d8/d14/scripting_8qh.html#a664dce4cbf056154d9dc0fa73ff3632b',1,'scripting.qh']]],
   ['bprintf',['bprintf',['../d5/df2/common_2util_8qh.html#af6b5f7d19eecec1c5243980c998216a6',1,'util.qh']]],
   ['buf_5fcreate',['buf_create',['../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c',1,'buf_create():&#160;dpextensions.qh'],['../d0/d95/menudefs_8qh.html#a9b88d1543a84de9785952d34dedb754c',1,'buf_create():&#160;menudefs.qh']]],
-  ['buff_5fonadd',['BUFF_ONADD',['../d2/dac/sv__buffs_8qc.html#a8a4a5cd8a94e69dcd4a753bb7eece163',1,'sv_buffs.qc']]],
-  ['buff_5fonrem',['BUFF_ONREM',['../d2/dac/sv__buffs_8qc.html#a46844ec3711dd4b9f71323d503cd5556',1,'sv_buffs.qc']]],
   ['buff_5fspawnfunc',['BUFF_SPAWNFUNC',['../d6/d85/buffs_8qh.html#a5fd3b877c71ac6bbfce55c1a8cc9ca9d',1,'buffs.qh']]],
   ['buff_5fspawnfunc_5fq3ta_5fcompat',['BUFF_SPAWNFUNC_Q3TA_COMPAT',['../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f',1,'buffs.qh']]],
   ['buff_5fspawnfuncs',['BUFF_SPAWNFUNCS',['../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3',1,'buffs.qh']]]

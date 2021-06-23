@@ -54,31 +54,31 @@ var sectionId = 'dynsection-29';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>weapon_prepareattack_check</title>
-<!-- Node346 -->
+<!-- Node345 -->
 <g id="node1" class="node">
-<title>Node346</title>
+<title>Node345</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-22.5 0,-52.5 128,-52.5 128,-22.5 0,-22.5"/>
 <text text-anchor="start" x="8" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">weapon_prepareattack</text>
 <text text-anchor="middle" x="64" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_check</text>
 </g>
-<!-- Node347 -->
+<!-- Node346 -->
 <g id="node2" class="node">
-<title>Node347</title>
+<title>Node346</title>
 <g id="a_node2"><a xlink:href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" target="_top" xlink:title="entity">
 <polygon fill="none" stroke="#000000" points="674,-31 674,-50 719,-50 719,-31 674,-31"/>
 <text text-anchor="middle" x="696.5" y="-38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">entity</text>
 </a>
 </g>
 </g>
-<!-- Node346&#45;&gt;Node347 -->
+<!-- Node345&#45;&gt;Node346 -->
 <g id="edge1" class="edge">
-<title>Node346&#45;&gt;Node347</title>
+<title>Node345&#45;&gt;Node346</title>
 <path fill="none" stroke="#191970" d="M128.0135,-38.9425C139.9727,-39.166 152.3665,-39.3666 164,-39.5 353.2973,-41.6712 580.4712,-41.0088 663.807,-40.6567"/>
 <polygon fill="#191970" stroke="#191970" points="663.9366,-44.1563 673.9212,-40.6125 663.9059,-37.1563 663.9366,-44.1563"/>
 </g>
-<!-- Node348 -->
+<!-- Node347 -->
 <g id="node3" class="node">
-<title>Node348</title>
+<title>Node347</title>
 <g id="a_node3"><a xlink:href="../../d5/de0/weaponsystem_8qc.html#ac1e5d3a9a2d4fb2b5105efcb08fba822" target="_top" xlink:title="weapon_prepareattack\l_checkammo">
 <polygon fill="none" stroke="#000000" points="164,-.5 164,-30.5 292,-30.5 292,-.5 164,-.5"/>
 <text text-anchor="start" x="172" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">weapon_prepareattack</text>
@@ -86,45 +86,45 @@ var sectionId = 'dynsection-29';
 </a>
 </g>
 </g>
-<!-- Node346&#45;&gt;Node348 -->
+<!-- Node345&#45;&gt;Node347 -->
 <g id="edge2" class="edge">
-<title>Node346&#45;&gt;Node348</title>
+<title>Node345&#45;&gt;Node347</title>
 <path fill="none" stroke="#191970" d="M128.3464,-28.8682C136.7313,-27.7434 145.3746,-26.5839 153.9029,-25.4399"/>
 <polygon fill="#191970" stroke="#191970" points="154.3933,-28.9055 163.8391,-24.1069 153.4625,-21.9677 154.3933,-28.9055"/>
 </g>
-<!-- Node349 -->
+<!-- Node348 -->
 <g id="node4" class="node">
-<title>Node349</title>
+<title>Node348</title>
 <g id="a_node4"><a xlink:href="../../d2/d62/selection_8qc.html#ac84b5920c2121ae19b3e269c60244bfd" target="_top" xlink:title="W_SwitchToOtherWeapon">
 <polygon fill="none" stroke="#000000" points="328,-9 328,-28 468,-28 468,-9 328,-9"/>
 <text text-anchor="middle" x="398" y="-16" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">W_SwitchToOtherWeapon</text>
 </a>
 </g>
 </g>
-<!-- Node348&#45;&gt;Node349 -->
+<!-- Node347&#45;&gt;Node348 -->
 <g id="edge3" class="edge">
-<title>Node348&#45;&gt;Node349</title>
+<title>Node347&#45;&gt;Node348</title>
 <path fill="none" stroke="#191970" d="M292.2697,-16.6342C300.6497,-16.7821 309.316,-16.935 317.915,-17.0867"/>
 <polygon fill="#191970" stroke="#191970" points="317.8972,-20.5869 327.9574,-17.264 318.0208,-13.588 317.8972,-20.5869"/>
 </g>
-<!-- Node350 -->
+<!-- Node349 -->
 <g id="node5" class="node">
-<title>Node350</title>
+<title>Node349</title>
 <g id="a_node5"><a xlink:href="../../d2/d62/selection_8qc.html#a26a298ee4ff7a3e0706b8892030ecf1a" target="_top" xlink:title="W_SwitchWeapon_Force">
 <polygon fill="none" stroke="#000000" points="504,-12 504,-31 638,-31 638,-12 504,-12"/>
 <text text-anchor="middle" x="571" y="-19" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">W_SwitchWeapon_Force</text>
 </a>
 </g>
 </g>
-<!-- Node349&#45;&gt;Node350 -->
+<!-- Node348&#45;&gt;Node349 -->
 <g id="edge4" class="edge">
-<title>Node349&#45;&gt;Node350</title>
+<title>Node348&#45;&gt;Node349</title>
 <path fill="none" stroke="#191970" d="M468.3657,-19.7202C476.679,-19.8644 485.1983,-20.0121 493.6019,-20.1578"/>
 <polygon fill="#191970" stroke="#191970" points="493.714,-23.6602 503.7732,-20.3342 493.8354,-16.6613 493.714,-23.6602"/>
 </g>
-<!-- Node350&#45;&gt;Node347 -->
+<!-- Node349&#45;&gt;Node346 -->
 <g id="edge5" class="edge">
-<title>Node350&#45;&gt;Node347</title>
+<title>Node349&#45;&gt;Node346</title>
 <path fill="none" stroke="#191970" d="M634.1177,-31.0557C644.3837,-32.6099 654.6365,-34.1621 663.7771,-35.5459"/>
 <polygon fill="#191970" stroke="#191970" points="663.5194,-39.0467 673.9306,-37.0831 664.5672,-32.1256 663.5194,-39.0467"/>
 </g>

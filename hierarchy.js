@@ -243,13 +243,32 @@ var hierarchy =
       [ "PlayerState", "d5/d7e/classPlayerState.html", null ],
       [ "Sound", "df/d49/classSound.html", null ],
       [ "StatusEffects", "d2/dd9/classStatusEffects.html", [
-        [ "Buff", "de/d3c/classBuff.html", null ],
+        [ "Buff", "de/d3c/classBuff.html", [
+          [ "AmmoBuff", "d6/d66/classAmmoBuff.html", null ],
+          [ "BashBuff", "da/d2a/classBashBuff.html", null ],
+          [ "DisabilityBuff", "d6/d75/classDisabilityBuff.html", null ],
+          [ "FlightBuff", "d3/dc1/classFlightBuff.html", null ],
+          [ "InfernoBuff", "d3/df5/classInfernoBuff.html", null ],
+          [ "JumpBuff", "da/d2b/classJumpBuff.html", null ],
+          [ "LuckBuff", "d3/dcc/classLuckBuff.html", null ],
+          [ "MagnetBuff", "d4/db9/classMagnetBuff.html", null ],
+          [ "MedicBuff", "d4/d01/classMedicBuff.html", null ],
+          [ "ResistanceBuff", "d5/d6c/classResistanceBuff.html", null ],
+          [ "SwapperBuff", "d7/df7/classSwapperBuff.html", null ],
+          [ "VampireBuff", "d0/d54/classVampireBuff.html", null ],
+          [ "VengeanceBuff", "d1/dcf/classVengeanceBuff.html", null ]
+        ] ],
         [ "Burning", "d0/d82/classBurning.html", null ],
+        [ "Disabled", "df/d92/classDisabled.html", null ],
         [ "Powerups", "d5/d22/classPowerups.html", [
+          [ "Invisibility", "d9/d25/classInvisibility.html", null ],
           [ "Shield", "de/dd5/classShield.html", null ],
+          [ "Speed", "dd/d97/classSpeed.html", null ],
           [ "Strength", "da/dce/classStrength.html", null ]
         ] ],
-        [ "Superweapons", "d1/def/classSuperweapons.html", null ]
+        [ "SpawnShield", "da/d0a/classSpawnShield.html", null ],
+        [ "Superweapons", "d1/def/classSuperweapons.html", null ],
+        [ "Webbed", "dd/d52/classWebbed.html", null ]
       ] ],
       [ "Turret", "d2/d3d/classTurret.html", [
         [ "EWheel", "d6/d7d/classEWheel.html", null ],

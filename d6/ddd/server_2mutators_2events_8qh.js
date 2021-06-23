@@ -133,6 +133,7 @@ var server_2mutators_2events_8qh =
     [ "EV_VehicleTouch", "d6/ddd/server_2mutators_2events_8qh.html#acb987800997fcc9d6e5ff435d09acc32", null ],
     [ "EV_VoteCommand_Parse", "d6/ddd/server_2mutators_2events_8qh.html#a8c1459c40bdc7dbd673d697a3afa6ecb", null ],
     [ "EV_W_DecreaseAmmo", "d6/ddd/server_2mutators_2events_8qh.html#a42be9e8fcc1d63954278ac53322e5690", null ],
+    [ "EV_W_PlayStrengthSound", "d6/ddd/server_2mutators_2events_8qh.html#ac34f8f7f24725e18e58b2264097cdd89", null ],
     [ "EV_W_Reload", "d6/ddd/server_2mutators_2events_8qh.html#a4e145ed7e7eb03b3bb6ad2fe5f53a493", null ],
     [ "EV_WantWeapon", "d6/ddd/server_2mutators_2events_8qh.html#ab6d49bdf5d3fbb234fa564f18a7d5460", null ],
     [ "EV_WeaponRateFactor", "d6/ddd/server_2mutators_2events_8qh.html#ab29c8325bc36383e8391a2306255c3b5", null ],
@@ -306,6 +307,7 @@ var server_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a56f225a62b68f5c2c4a83ec51f69bb41", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#aaea6370e044e59108b7c53a5396f5aba", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a09feaa70d4097752ce44f21bd9a65c12", null ],
+    [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a6ba6d4e38341a33c170dcf627d781a3a", null ],
     [ "get_cvars_f", "d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2", null ],
     [ "get_cvars_s", "d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f", null ],
     [ "monster_loot", "d6/ddd/server_2mutators_2events_8qh.html#a3b05b0b07f8bfac621be16b7588af844", null ]

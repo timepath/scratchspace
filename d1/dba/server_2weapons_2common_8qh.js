@@ -30,8 +30,6 @@ var server_2weapons_2common_8qh =
     [ "MIF_SPLASH", "d1/dba/server_2weapons_2common_8qh.html#a177160502cceebf9005817415f6a7383", null ],
     [ "misc_bulletcounter", "d1/dba/server_2weapons_2common_8qh.html#ad074b805790481ed3367d5308ad8ae38", null ],
     [ "missile_flags", "d1/dba/server_2weapons_2common_8qh.html#a444b62d606749f309da722e1d36407a7", null ],
-    [ "prevstrengthsound", "d1/dba/server_2weapons_2common_8qh.html#abdb95a527623dfa15b93ce4c4df829f5", null ],
-    [ "prevstrengthsoundattempt", "d1/dba/server_2weapons_2common_8qh.html#aa32ee577201a563600a7666b730104d8", null ],
     [ "projectiledeathtype", "d1/dba/server_2weapons_2common_8qh.html#a17edd654dd2ae440463e420932c7bd84", null ],
     [ "realowner", "d1/dba/server_2weapons_2common_8qh.html#a6ff047c33f58c5833c291c636078e712", null ]
 ];

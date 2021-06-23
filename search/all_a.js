@@ -28,6 +28,7 @@ var searchData=
   ['json_5ffail',['JSON_FAIL',['../d6/dce/json_8qc.html#a177ee29d816201523f80a9fb7a82ecb5',1,'json.qc']]],
   ['json_5fget',['json_get',['../d6/dce/json_8qc.html#a443efd037ab1c03c7b1aaf2d14cabb8f',1,'json.qc']]],
   ['json_5fparse',['json_parse',['../d6/dce/json_8qc.html#a15e105af3070473ca252fc95e33bc44c',1,'json.qc']]],
+  ['jumpbuff',['JumpBuff',['../da/d2b/classJumpBuff.html',1,'']]],
   ['jumpheight',['jumpheight',['../db/dfe/strafehud_8qc.html#ae7216124036eed8b876560125eade283',1,'strafehud.qc']]],
   ['jumpheight_5fpersistent',['jumpheight_persistent',['../db/dfe/strafehud_8qc.html#a922347d3ec208938f1d062f43c20a09c',1,'strafehud.qc']]],
   ['jumpheight_5fprev',['jumpheight_prev',['../db/dfe/strafehud_8qc.html#a3e276ff952df39047eeda2365cdb1e2c',1,'strafehud.qc']]],

@@ -321,6 +321,8 @@ var searchData=
   ['cl_5fphysics_2eqc',['cl_physics.qc',['../d3/de1/cl__physics_8qc.html',1,'']]],
   ['cl_5fplayer_2eqc',['cl_player.qc',['../d7/da2/cl__player_8qc.html',1,'']]],
   ['cl_5fplayer_2eqh',['cl_player.qh',['../d9/dba/cl__player_8qh.html',1,'']]],
+  ['cl_5fpowerups_2eqc',['cl_powerups.qc',['../d7/de8/cl__powerups_8qc.html',1,'']]],
+  ['cl_5fpowerups_2eqh',['cl_powerups.qh',['../da/ddb/cl__powerups_8qh.html',1,'']]],
   ['cl_5frace_2eqc',['cl_race.qc',['../d6/dca/cl__race_8qc.html',1,'']]],
   ['cl_5frace_2eqh',['cl_race.qh',['../d0/d5b/cl__race_8qh.html',1,'']]],
   ['cl_5frotatemoves',['CL_RotateMoves',['../d0/d72/lib_2warpzone_2client_8qc.html#ac8ca9dc6a9031a9fc661e02bb4a4ceb5',1,'client.qc']]],

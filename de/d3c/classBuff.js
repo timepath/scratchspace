@@ -8,7 +8,6 @@ var classBuff =
     [ "m_hidden", "de/d3c/classBuff.html#a8961018b917bf71d376d0932042fa857", null ],
     [ "m_icon", "de/d3c/classBuff.html#a468d77ddff54aaa64b10e80e55bd0fcb", null ],
     [ "m_id", "de/d3c/classBuff.html#ac403b4070fc773a6c6c612f8ee2961aa", null ],
-    [ "m_itemid", "de/d3c/classBuff.html#a4d7c612bb5824dca877279557c8e240f", null ],
     [ "m_lifetime", "de/d3c/classBuff.html#ae357161933cf399ac0a3515774f67ff8", null ],
     [ "m_name", "de/d3c/classBuff.html#a3445f4448c754d719f534e2faf836587", null ],
     [ "m_skin", "de/d3c/classBuff.html#a6fd8937234d938625d77485fac4c8275", null ],

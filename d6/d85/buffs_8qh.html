@@ -123,8 +123,8 @@ Macros</h2></td></tr>
 <tr class="separator:a9997ae86c804cc3f269fd9e5e897085f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf5cd2c3999b8d6a63ff62b00a9c13d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(e,  b)</td></tr>
 <tr class="separator:acf5cd2c3999b8d6a63ff62b00a9c13d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ee2e76ff0775c133acd38e490bf692b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d85/buffs_8qh.html#a9ee2e76ff0775c133acd38e490bf692b">REGISTER_BUFF</a>(id)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(StatusEffect, BUFF_##id, <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, <a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="el" href="../../de/d3c/classBuff.html">Buff</a>))</td></tr>
-<tr class="separator:a9ee2e76ff0775c133acd38e490bf692b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa469ab2c4a752ee76e6bb795f91c2333"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d85/buffs_8qh.html#aa469ab2c4a752ee76e6bb795f91c2333">REGISTER_BUFF</a>(id,  inst)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(StatusEffect, BUFF_##id, <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, inst)</td></tr>
+<tr class="separator:aa469ab2c4a752ee76e6bb795f91c2333"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -166,7 +166,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d85/buffs_8qh_source.html#l00062">62</a> of file <a class="el" href="../../d6/d85/buffs_8qh_source.html">buffs.qh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d85/buffs_8qh_source.html#l00063">63</a> of file <a class="el" href="../../d6/d85/buffs_8qh_source.html">buffs.qh</a>.</p>
 
 </div>
 </div>
@@ -196,7 +196,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d85/buffs_8qh_source.html#l00064">64</a> of file <a class="el" href="../../d6/d85/buffs_8qh_source.html">buffs.qh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d85/buffs_8qh_source.html#l00065">65</a> of file <a class="el" href="../../d6/d85/buffs_8qh_source.html">buffs.qh</a>.</p>
 
 </div>
 </div>
@@ -226,12 +226,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d85/buffs_8qh_source.html#l00063">63</a> of file <a class="el" href="../../d6/d85/buffs_8qh_source.html">buffs.qh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d85/buffs_8qh_source.html#l00064">64</a> of file <a class="el" href="../../d6/d85/buffs_8qh_source.html">buffs.qh</a>.</p>
 
 </div>
 </div>
-<a id="a9ee2e76ff0775c133acd38e490bf692b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ee2e76ff0775c133acd38e490bf692b">&#9670;&nbsp;</a></span>REGISTER_BUFF</h2>
+<a id="aa469ab2c4a752ee76e6bb795f91c2333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa469ab2c4a752ee76e6bb795f91c2333">&#9670;&nbsp;</a></span>REGISTER_BUFF</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,13 +240,23 @@ Functions</h2></td></tr>
           <td class="memname">#define REGISTER_BUFF</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">id</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(StatusEffect, BUFF_##id, <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, <a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="el" href="../../de/d3c/classBuff.html">Buff</a>))</td>
+          <td class="paramname">id, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">inst&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(StatusEffect, BUFF_##id, <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, inst)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d85/buffs_8qh_source.html#l00015">15</a> of file <a class="el" href="../../d6/d85/buffs_8qh_source.html">buffs.qh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d85/buffs_8qh_source.html#l00016">16</a> of file <a class="el" href="../../d6/d85/buffs_8qh_source.html">buffs.qh</a>.</p>
 
 </div>
 </div>
@@ -269,8 +279,8 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc_source.html#l00001">1</a> of file <a class="el" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc_source.html">all.inc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d26/server_2items_2items_8qc_source.html#l01449">GiveItems()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;{</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    <span class="keywordflow">switch</span>(buffname)</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    {</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;ammoregen&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;ammo&quot;</span>;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;haste&quot;</span>: <span class="keywordflow">case</span> <span class="stringliteral">&quot;scout&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;speed&quot;</span>;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;guard&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;resistance&quot;</span>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;revival&quot;</span>: <span class="keywordflow">case</span> <span class="stringliteral">&quot;regen&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;medic&quot;</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;invis&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;invisible&quot;</span>;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;jumper&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;jump&quot;</span>;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">default</span>: <span class="keywordflow">return</span> buffname;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div></div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+<p class="reference">Referenced by <a class="el" href="../../df/d26/server_2items_2items_8qc_source.html#l01476">GiveItems()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;{</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    <span class="keywordflow">switch</span>(buffname)</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    {</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;ammoregen&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;ammo&quot;</span>;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;guard&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;resistance&quot;</span>;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;revival&quot;</span>: <span class="keywordflow">case</span> <span class="stringliteral">&quot;regen&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;medic&quot;</span>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;jumper&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;jump&quot;</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">default</span>: <span class="keywordflow">return</span> buffname;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    }</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div></div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
@@ -297,10 +307,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d85/buffs_8qh_source.html#l00038">38</a> of file <a class="el" href="../../d6/d85/buffs_8qh_source.html">buffs.qh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d85/buffs_8qh_source.html#l00040">40</a> of file <a class="el" href="../../d6/d85/buffs_8qh_source.html">buffs.qh</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00383">buff_Init()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00435">buff_Init_Compat()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d18/iter_8qh_source.html#l00019">FOREACH</a>.</p>
-<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                            {</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(StatusEffect, it.instanceOfBuff, {</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        it.m_itemid = BIT(it.m_id - 1);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        it.m_sprite = strzone(strcat(<span class="stringliteral">&quot;buff-&quot;</span>, it.netname));</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    });</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div><div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00019">iter.qh:19</a></div></div>
+<p class="reference">References <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00424">buff_Init()</a>, <a class="el" href="../../d2/dac/sv__buffs_8qc_source.html#l00476">buff_Init_Compat()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d18/iter_8qh_source.html#l00019">FOREACH</a>.</p>
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                            {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(StatusEffect, it.instanceOfBuff, {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        it.m_sprite = strzone(strcat(<span class="stringliteral">&quot;buff-&quot;</span>, it.netname));</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    });</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div><div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00019">iter.qh:19</a></div></div>
 </div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -318,7 +328,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_07eb8bb3d19ce8165a5aaf6eac26591d.html">buffs</a></li><li class="navelem"><a class="el" href="../../d6/d85/buffs_8qh.html">buffs.qh</a></li>
-    <li class="footer">Generated on Wed Jun 23 2021 03:25:46 for Xonotic by
+    <li class="footer">Generated on Wed Jun 23 2021 14:51:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

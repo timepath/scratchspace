@@ -343,26 +343,26 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dd3/view_8qc_source.html#l00111">111</a> of file <a class="el" href="../../d6/dd3/view_8qc_source.html">view.qc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dd3/view_8qc_source.html#l00112">112</a> of file <a class="el" href="../../d6/dd3/view_8qc_source.html">view.qc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/dd3/view_8qc_source.html#l00053">autocvar_cl_followmodel_highpass</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00051">autocvar_cl_followmodel_limit</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00054">autocvar_cl_followmodel_lowpass</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00050">autocvar_cl_followmodel_speed</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00055">autocvar_cl_followmodel_velocity_absolute</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00052">autocvar_cl_followmodel_velocity_lowpass</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00064">avg_factor</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../d3/d05/hud_8qh_source.html#l00213">cl_followmodel_ofs</a>, <a class="el" href="../../d3/d05/hud_8qh_source.html#l00214">cl_followmodel_time</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00105">highpass3</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00099">lowpass3</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00150">view_angles</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dd3/view_8qc_source.html#l00054">autocvar_cl_followmodel_highpass</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00052">autocvar_cl_followmodel_limit</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00055">autocvar_cl_followmodel_lowpass</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00051">autocvar_cl_followmodel_speed</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00056">autocvar_cl_followmodel_velocity_absolute</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00053">autocvar_cl_followmodel_velocity_lowpass</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00065">avg_factor</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../d3/d05/hud_8qh_source.html#l00213">cl_followmodel_ofs</a>, <a class="el" href="../../d3/d05/hud_8qh_source.html#l00214">cl_followmodel_time</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00106">highpass3</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00100">lowpass3</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00150">view_angles</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d15/hud_8qc_source.html#l00595">Hud_Dynamic_Frame()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00241">viewmodel_animate()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;{</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d3/d05/hud_8qh.html#aece57edbc5f9ecfed6ecd8b7daa99ea0">cl_followmodel_time</a> == <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">return</span>; <span class="comment">// cl_followmodel_ofs already calculated for this frame</span></div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordtype">float</span> frac;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> gunorg = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> vel_average;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> gunorg_adjustment_highpass;</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> gunorg_adjustment_lowpass;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> vel;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/dd3/view_8qc.html#a07743c572915247b5ea491b781832811">autocvar_cl_followmodel_velocity_absolute</a>)</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        vel = view.velocity;</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    {</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> forward, right, up;</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        MAKE_VECTORS(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a75f8bc1706fed21c20207746f65741f7">view_angles</a>, forward, right, up);</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        vel.x = view.velocity * forward;</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        vel.y = view.velocity * right * -1;</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        vel.z = view.velocity * up;</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    vel.x = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(vel_average.x - <a class="code" href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a>, vel.x, vel_average.x + <a class="code" href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a>);</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    vel.y = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(vel_average.y - <a class="code" href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a>, vel.y, vel_average.y + <a class="code" href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a>);</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    vel.z = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(vel_average.z - <a class="code" href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a>, vel.z, vel_average.z + <a class="code" href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a>);</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    frac = <a class="code" href="../../d6/dd3/view_8qc.html#acf17fe1577abc1aa82494a0b875cc7b8">avg_factor</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a4fcdc2d9caf21e9b0be1853d4a9ef49f">autocvar_cl_followmodel_velocity_lowpass</a>);</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <a class="code" href="../../d6/dd3/view_8qc.html#a778e7f5f4ca376d4da7597f72ea68bab">lowpass3</a>(vel, frac, vel_average, gunorg);</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    gunorg *= -<a class="code" href="../../d6/dd3/view_8qc.html#a657aef096d16b739daa3358d262c0750">autocvar_cl_followmodel_speed</a> * 0.042;</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="comment">// perform highpass/lowpass on the adjustment vectors (turning velocity into acceleration!)</span></div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="comment">// trick: we must do the lowpass LAST, so the lowpass vector IS the final vector!</span></div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    frac = <a class="code" href="../../d6/dd3/view_8qc.html#acf17fe1577abc1aa82494a0b875cc7b8">avg_factor</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a919bc26ffe813e0d37af7b25daf46d14">autocvar_cl_followmodel_highpass</a>);</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <a class="code" href="../../d6/dd3/view_8qc.html#aea56c34c099473cbf7a019841debd544">highpass3</a>(gunorg, frac, gunorg_adjustment_highpass, gunorg);</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    frac = <a class="code" href="../../d6/dd3/view_8qc.html#acf17fe1577abc1aa82494a0b875cc7b8">avg_factor</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a9562dcd954f1f93af8d6435312dc4913">autocvar_cl_followmodel_lowpass</a>);</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <a class="code" href="../../d6/dd3/view_8qc.html#a778e7f5f4ca376d4da7597f72ea68bab">lowpass3</a>(gunorg, frac, gunorg_adjustment_lowpass, gunorg);</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/dd3/view_8qc.html#a07743c572915247b5ea491b781832811">autocvar_cl_followmodel_velocity_absolute</a>)</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    {</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> fixed_gunorg;</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> forward, right, up;</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        MAKE_VECTORS(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a75f8bc1706fed21c20207746f65741f7">view_angles</a>, forward, right, up);</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        fixed_gunorg.x = gunorg * forward;</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        fixed_gunorg.y = gunorg * right * -1;</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        fixed_gunorg.z = gunorg * up;</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        gunorg = fixed_gunorg;</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    }</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <a class="code" href="../../d3/d05/hud_8qh.html#ab2cb1e725575444f3ef84ce79d829e21">cl_followmodel_ofs</a> = gunorg;</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="../../d3/d05/hud_8qh.html#aece57edbc5f9ecfed6ecd8b7daa99ea0">cl_followmodel_time</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;}</div><div class="ttc" id="hud_8qh_html_aece57edbc5f9ecfed6ecd8b7daa99ea0"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#aece57edbc5f9ecfed6ecd8b7daa99ea0">cl_followmodel_time</a></div><div class="ttdeci">float cl_followmodel_time</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00214">hud.qh:214</a></div></div>
-<div class="ttc" id="view_8qc_html_a07743c572915247b5ea491b781832811"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a07743c572915247b5ea491b781832811">autocvar_cl_followmodel_velocity_absolute</a></div><div class="ttdeci">bool autocvar_cl_followmodel_velocity_absolute</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00055">view.qc:55</a></div></div>
-<div class="ttc" id="view_8qc_html_a919bc26ffe813e0d37af7b25daf46d14"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a919bc26ffe813e0d37af7b25daf46d14">autocvar_cl_followmodel_highpass</a></div><div class="ttdeci">float autocvar_cl_followmodel_highpass</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00053">view.qc:53</a></div></div>
-<div class="ttc" id="view_8qc_html_a9562dcd954f1f93af8d6435312dc4913"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a9562dcd954f1f93af8d6435312dc4913">autocvar_cl_followmodel_lowpass</a></div><div class="ttdeci">float autocvar_cl_followmodel_lowpass</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00054">view.qc:54</a></div></div>
-<div class="ttc" id="view_8qc_html_a778e7f5f4ca376d4da7597f72ea68bab"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a778e7f5f4ca376d4da7597f72ea68bab">lowpass3</a></div><div class="ttdeci">#define lowpass3(value, frac, ref_store, ref_out)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00099">view.qc:99</a></div></div>
+<p class="reference">Referenced by <a class="el" href="../../d7/d15/hud_8qc_source.html#l00595">Hud_Dynamic_Frame()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00242">viewmodel_animate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;{</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d3/d05/hud_8qh.html#aece57edbc5f9ecfed6ecd8b7daa99ea0">cl_followmodel_time</a> == <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">return</span>; <span class="comment">// cl_followmodel_ofs already calculated for this frame</span></div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordtype">float</span> frac;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> gunorg = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> vel_average;</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> gunorg_adjustment_highpass;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> gunorg_adjustment_lowpass;</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> vel;</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/dd3/view_8qc.html#a07743c572915247b5ea491b781832811">autocvar_cl_followmodel_velocity_absolute</a>)</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        vel = view.velocity;</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    {</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> forward, right, up;</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        MAKE_VECTORS(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a75f8bc1706fed21c20207746f65741f7">view_angles</a>, forward, right, up);</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        vel.x = view.velocity * forward;</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        vel.y = view.velocity * right * -1;</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        vel.z = view.velocity * up;</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    }</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    vel.x = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(vel_average.x - <a class="code" href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a>, vel.x, vel_average.x + <a class="code" href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a>);</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    vel.y = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(vel_average.y - <a class="code" href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a>, vel.y, vel_average.y + <a class="code" href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a>);</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    vel.z = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(vel_average.z - <a class="code" href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a>, vel.z, vel_average.z + <a class="code" href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a>);</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    frac = <a class="code" href="../../d6/dd3/view_8qc.html#acf17fe1577abc1aa82494a0b875cc7b8">avg_factor</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a4fcdc2d9caf21e9b0be1853d4a9ef49f">autocvar_cl_followmodel_velocity_lowpass</a>);</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <a class="code" href="../../d6/dd3/view_8qc.html#a778e7f5f4ca376d4da7597f72ea68bab">lowpass3</a>(vel, frac, vel_average, gunorg);</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    gunorg *= -<a class="code" href="../../d6/dd3/view_8qc.html#a657aef096d16b739daa3358d262c0750">autocvar_cl_followmodel_speed</a> * 0.042;</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="comment">// perform highpass/lowpass on the adjustment vectors (turning velocity into acceleration!)</span></div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="comment">// trick: we must do the lowpass LAST, so the lowpass vector IS the final vector!</span></div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    frac = <a class="code" href="../../d6/dd3/view_8qc.html#acf17fe1577abc1aa82494a0b875cc7b8">avg_factor</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a919bc26ffe813e0d37af7b25daf46d14">autocvar_cl_followmodel_highpass</a>);</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <a class="code" href="../../d6/dd3/view_8qc.html#aea56c34c099473cbf7a019841debd544">highpass3</a>(gunorg, frac, gunorg_adjustment_highpass, gunorg);</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    frac = <a class="code" href="../../d6/dd3/view_8qc.html#acf17fe1577abc1aa82494a0b875cc7b8">avg_factor</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a9562dcd954f1f93af8d6435312dc4913">autocvar_cl_followmodel_lowpass</a>);</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="code" href="../../d6/dd3/view_8qc.html#a778e7f5f4ca376d4da7597f72ea68bab">lowpass3</a>(gunorg, frac, gunorg_adjustment_lowpass, gunorg);</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/dd3/view_8qc.html#a07743c572915247b5ea491b781832811">autocvar_cl_followmodel_velocity_absolute</a>)</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    {</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> fixed_gunorg;</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> forward, right, up;</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        MAKE_VECTORS(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a75f8bc1706fed21c20207746f65741f7">view_angles</a>, forward, right, up);</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        fixed_gunorg.x = gunorg * forward;</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        fixed_gunorg.y = gunorg * right * -1;</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        fixed_gunorg.z = gunorg * up;</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        gunorg = fixed_gunorg;</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="../../d3/d05/hud_8qh.html#ab2cb1e725575444f3ef84ce79d829e21">cl_followmodel_ofs</a> = gunorg;</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <a class="code" href="../../d3/d05/hud_8qh.html#aece57edbc5f9ecfed6ecd8b7daa99ea0">cl_followmodel_time</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;}</div><div class="ttc" id="hud_8qh_html_aece57edbc5f9ecfed6ecd8b7daa99ea0"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#aece57edbc5f9ecfed6ecd8b7daa99ea0">cl_followmodel_time</a></div><div class="ttdeci">float cl_followmodel_time</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00214">hud.qh:214</a></div></div>
+<div class="ttc" id="view_8qc_html_a07743c572915247b5ea491b781832811"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a07743c572915247b5ea491b781832811">autocvar_cl_followmodel_velocity_absolute</a></div><div class="ttdeci">bool autocvar_cl_followmodel_velocity_absolute</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00056">view.qc:56</a></div></div>
+<div class="ttc" id="view_8qc_html_a919bc26ffe813e0d37af7b25daf46d14"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a919bc26ffe813e0d37af7b25daf46d14">autocvar_cl_followmodel_highpass</a></div><div class="ttdeci">float autocvar_cl_followmodel_highpass</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00054">view.qc:54</a></div></div>
+<div class="ttc" id="view_8qc_html_a9562dcd954f1f93af8d6435312dc4913"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a9562dcd954f1f93af8d6435312dc4913">autocvar_cl_followmodel_lowpass</a></div><div class="ttdeci">float autocvar_cl_followmodel_lowpass</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00055">view.qc:55</a></div></div>
+<div class="ttc" id="view_8qc_html_a778e7f5f4ca376d4da7597f72ea68bab"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a778e7f5f4ca376d4da7597f72ea68bab">lowpass3</a></div><div class="ttdeci">#define lowpass3(value, frac, ref_store, ref_out)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00100">view.qc:100</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a75f8bc1706fed21c20207746f65741f7"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a75f8bc1706fed21c20207746f65741f7">view_angles</a></div><div class="ttdeci">vector view_angles</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00150">csprogsdefs.qc:150</a></div></div>
-<div class="ttc" id="view_8qc_html_a4fcdc2d9caf21e9b0be1853d4a9ef49f"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a4fcdc2d9caf21e9b0be1853d4a9ef49f">autocvar_cl_followmodel_velocity_lowpass</a></div><div class="ttdeci">float autocvar_cl_followmodel_velocity_lowpass</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00052">view.qc:52</a></div></div>
-<div class="ttc" id="view_8qc_html_a1732e44c53c0a0b642b7745c277f3daa"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a></div><div class="ttdeci">float autocvar_cl_followmodel_limit</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00051">view.qc:51</a></div></div>
-<div class="ttc" id="view_8qc_html_acf17fe1577abc1aa82494a0b875cc7b8"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#acf17fe1577abc1aa82494a0b875cc7b8">avg_factor</a></div><div class="ttdeci">#define avg_factor(avg_time)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00064">view.qc:64</a></div></div>
+<div class="ttc" id="view_8qc_html_a4fcdc2d9caf21e9b0be1853d4a9ef49f"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a4fcdc2d9caf21e9b0be1853d4a9ef49f">autocvar_cl_followmodel_velocity_lowpass</a></div><div class="ttdeci">float autocvar_cl_followmodel_velocity_lowpass</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00053">view.qc:53</a></div></div>
+<div class="ttc" id="view_8qc_html_a1732e44c53c0a0b642b7745c277f3daa"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a1732e44c53c0a0b642b7745c277f3daa">autocvar_cl_followmodel_limit</a></div><div class="ttdeci">float autocvar_cl_followmodel_limit</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00052">view.qc:52</a></div></div>
+<div class="ttc" id="view_8qc_html_acf17fe1577abc1aa82494a0b875cc7b8"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#acf17fe1577abc1aa82494a0b875cc7b8">avg_factor</a></div><div class="ttdeci">#define avg_factor(avg_time)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00065">view.qc:65</a></div></div>
 <div class="ttc" id="csprogsdefs_8qh_html_a2626679e4144af8478202c6c28f90cd9"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a></div><div class="ttdeci">vector(float skel, float bonenum) _skel_get_boneabs_hidden</div></div>
 <div class="ttc" id="hud_8qh_html_ab2cb1e725575444f3ef84ce79d829e21"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#ab2cb1e725575444f3ef84ce79d829e21">cl_followmodel_ofs</a></div><div class="ttdeci">vector cl_followmodel_ofs</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00213">hud.qh:213</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
-<div class="ttc" id="view_8qc_html_aea56c34c099473cbf7a019841debd544"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#aea56c34c099473cbf7a019841debd544">highpass3</a></div><div class="ttdeci">#define highpass3(value, frac, ref_store, ref_out)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00105">view.qc:105</a></div></div>
+<div class="ttc" id="view_8qc_html_aea56c34c099473cbf7a019841debd544"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#aea56c34c099473cbf7a019841debd544">highpass3</a></div><div class="ttdeci">#define highpass3(value, frac, ref_store, ref_out)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00106">view.qc:106</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
-<div class="ttc" id="view_8qc_html_a657aef096d16b739daa3358d262c0750"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a657aef096d16b739daa3358d262c0750">autocvar_cl_followmodel_speed</a></div><div class="ttdeci">float autocvar_cl_followmodel_speed</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00050">view.qc:50</a></div></div>
+<div class="ttc" id="view_8qc_html_a657aef096d16b739daa3358d262c0750"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a657aef096d16b739daa3358d262c0750">autocvar_cl_followmodel_speed</a></div><div class="ttdeci">float autocvar_cl_followmodel_speed</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00051">view.qc:51</a></div></div>
 </div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -397,30 +397,30 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dd3/view_8qc_source.html#l01765">1765</a> of file <a class="el" href="../../d6/dd3/view_8qc_source.html">view.qc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dd3/view_8qc_source.html#l01770">1770</a> of file <a class="el" href="../../d6/dd3/view_8qc_source.html">view.qc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d8c/view_8qh_source.html#l00005">autocvar_camera_chase_smoothly</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00007">autocvar_camera_forward_follows</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00008">autocvar_camera_free</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00009">autocvar_camera_look_attenuation</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00010">autocvar_camera_look_player</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00011">autocvar_camera_mouse_threshold</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00012">autocvar_camera_reset</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00013">autocvar_camera_speed_attenuation</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00014">autocvar_camera_speed_chase</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00015">autocvar_camera_speed_free</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00016">autocvar_camera_speed_roll</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00571">CAMERA_CHASE</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00126">camera_direction</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00570">CAMERA_FREE</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00569">camera_mode</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01764">camera_offset</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00125">camera_roll</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01764">current_angles</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01764">current_camera_offset</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01764">current_origin</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01764">current_position</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00961">DEG2RAD</a>, <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00089">dir</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#addba2eab8e095dbf65080939e1da5747">getmousepos()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01764">mouse_angles</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin()</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00041">speed</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00008">vdist</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles()</a>, <a class="el" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00186">VF_ANGLES</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00182">VF_ORIGIN</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00093">view_origin</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d8c/view_8qh_source.html#l00005">autocvar_camera_chase_smoothly</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00007">autocvar_camera_forward_follows</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00008">autocvar_camera_free</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00009">autocvar_camera_look_attenuation</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00010">autocvar_camera_look_player</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00011">autocvar_camera_mouse_threshold</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00012">autocvar_camera_reset</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00013">autocvar_camera_speed_attenuation</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00014">autocvar_camera_speed_chase</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00015">autocvar_camera_speed_free</a>, <a class="el" href="../../d5/d8c/view_8qh_source.html#l00016">autocvar_camera_speed_roll</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00572">CAMERA_CHASE</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00126">camera_direction</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00571">CAMERA_FREE</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00570">camera_mode</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01769">camera_offset</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00125">camera_roll</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01769">current_angles</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01769">current_camera_offset</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01769">current_origin</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01769">current_position</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00961">DEG2RAD</a>, <a class="el" href="../../d4/d53/server_2impulse_8qc_source.html#l00089">dir</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#addba2eab8e095dbf65080939e1da5747">getmousepos()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01769">mouse_angles</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin()</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00041">speed</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00008">vdist</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles()</a>, <a class="el" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00186">VF_ANGLES</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00182">VF_ORIGIN</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00093">view_origin</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01286">View_DemoCamera()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01766"></a><span class="lineno"> 1766</span>&#160;{</div><div class="line"><a name="l01767"></a><span class="lineno"> 1767</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>, attenuation, dimensions;</div><div class="line"><a name="l01768"></a><span class="lineno"> 1768</span>&#160;    <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> tmp, delta;</div><div class="line"><a name="l01769"></a><span class="lineno"> 1769</span>&#160;</div><div class="line"><a name="l01770"></a><span class="lineno"> 1770</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d5/d8c/view_8qh.html#abc72e29b846baabb3e743c584cf64ab6">autocvar_camera_reset</a> || !<a class="code" href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a> )</div><div class="line"><a name="l01771"></a><span class="lineno"> 1771</span>&#160;    {</div><div class="line"><a name="l01772"></a><span class="lineno"> 1772</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l01773"></a><span class="lineno"> 1773</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l01774"></a><span class="lineno"> 1774</span>&#160;        <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l01775"></a><span class="lineno"> 1775</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a>.z += 30;</div><div class="line"><a name="l01776"></a><span class="lineno"> 1776</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a>.x += 30 * -<a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01777"></a><span class="lineno"> 1777</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a>.y += 30 * -<a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01778"></a><span class="lineno"> 1778</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>;</div><div class="line"><a name="l01779"></a><span class="lineno"> 1779</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a>  = <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a>;</div><div class="line"><a name="l01780"></a><span class="lineno"> 1780</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;camera_reset&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>);</div><div class="line"><a name="l01781"></a><span class="lineno"> 1781</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a4f58e51e0e77579ccc7b58a1ee5b74f3">CAMERA_CHASE</a>;</div><div class="line"><a name="l01782"></a><span class="lineno"> 1782</span>&#160;    }</div><div class="line"><a name="l01783"></a><span class="lineno"> 1783</span>&#160;</div><div class="line"><a name="l01784"></a><span class="lineno"> 1784</span>&#160;    <span class="comment">// Camera angles</span></div><div class="line"><a name="l01785"></a><span class="lineno"> 1785</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d0/d2a/client_2main_8qh.html#af99b816e1d6a123c61983cf49c87d17b">camera_roll</a> )</div><div class="line"><a name="l01786"></a><span class="lineno"> 1786</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z += <a class="code" href="../../d0/d2a/client_2main_8qh.html#af99b816e1d6a123c61983cf49c87d17b">camera_roll</a> * <a class="code" href="../../d5/d8c/view_8qh.html#ab75e4d542334f8128c63ae77170e8f25">autocvar_camera_speed_roll</a>;</div><div class="line"><a name="l01787"></a><span class="lineno"> 1787</span>&#160;</div><div class="line"><a name="l01788"></a><span class="lineno"> 1788</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d8c/view_8qh.html#aa9532712e2eb2d6f9463eaf1082817c4">autocvar_camera_look_player</a>)</div><div class="line"><a name="l01789"></a><span class="lineno"> 1789</span>&#160;    {</div><div class="line"><a name="l01790"></a><span class="lineno"> 1790</span>&#160;        <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> <a class="code" href="../../d4/d53/server_2impulse_8qc.html#a851cf68c8f607573c1a5e987784c83f6">dir</a>;</div><div class="line"><a name="l01791"></a><span class="lineno"> 1791</span>&#160;        <span class="keywordtype">float</span> n;</div><div class="line"><a name="l01792"></a><span class="lineno"> 1792</span>&#160;</div><div class="line"><a name="l01793"></a><span class="lineno"> 1793</span>&#160;        dir = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a> - <a class="code" href="../../d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0">current_position</a>);</div><div class="line"><a name="l01794"></a><span class="lineno"> 1794</span>&#160;        n = <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z;</div><div class="line"><a name="l01795"></a><span class="lineno"> 1795</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(dir);</div><div class="line"><a name="l01796"></a><span class="lineno"> 1796</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x = <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x * -1;</div><div class="line"><a name="l01797"></a><span class="lineno"> 1797</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z = n;</div><div class="line"><a name="l01798"></a><span class="lineno"> 1798</span>&#160;    }</div><div class="line"><a name="l01799"></a><span class="lineno"> 1799</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l01800"></a><span class="lineno"> 1800</span>&#160;    {</div><div class="line"><a name="l01801"></a><span class="lineno"> 1801</span>&#160;        tmp = <a class="code" href="../../d8/de2/menudefs_8qc.html#addba2eab8e095dbf65080939e1da5747">getmousepos</a>() * 0.1;</div><div class="line"><a name="l01802"></a><span class="lineno"> 1802</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(tmp, &gt;, <a class="code" href="../../d5/d8c/view_8qh.html#a10e093c653e1e639b230d1dbe5b0adc5">autocvar_camera_mouse_threshold</a>))</div><div class="line"><a name="l01803"></a><span class="lineno"> 1803</span>&#160;        {</div><div class="line"><a name="l01804"></a><span class="lineno"> 1804</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x += tmp.y * <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>) + (tmp.x * <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>));</div><div class="line"><a name="l01805"></a><span class="lineno"> 1805</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y -= tmp.x * <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>) + (tmp.y * -<a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>));</div><div class="line"><a name="l01806"></a><span class="lineno"> 1806</span>&#160;        }</div><div class="line"><a name="l01807"></a><span class="lineno"> 1807</span>&#160;    }</div><div class="line"><a name="l01808"></a><span class="lineno"> 1808</span>&#160;</div><div class="line"><a name="l01809"></a><span class="lineno"> 1809</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x &lt; -180) <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x = <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x + 360;</div><div class="line"><a name="l01810"></a><span class="lineno"> 1810</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x &gt; 180) <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x = <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x - 360;</div><div class="line"><a name="l01811"></a><span class="lineno"> 1811</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y &lt; -180) <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y = <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y + 360;</div><div class="line"><a name="l01812"></a><span class="lineno"> 1812</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y &gt; 180) <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y = <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y - 360;</div><div class="line"><a name="l01813"></a><span class="lineno"> 1813</span>&#160;</div><div class="line"><a name="l01814"></a><span class="lineno"> 1814</span>&#160;    <span class="comment">// Fix difference when angles don&#39;t have the same sign</span></div><div class="line"><a name="l01815"></a><span class="lineno"> 1815</span>&#160;    delta = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l01816"></a><span class="lineno"> 1816</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y &lt; -60 &amp;&amp; <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y &gt; 60)</div><div class="line"><a name="l01817"></a><span class="lineno"> 1817</span>&#160;        delta = <span class="stringliteral">&#39;0 360 0&#39;</span>;</div><div class="line"><a name="l01818"></a><span class="lineno"> 1818</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y &gt; 60 &amp;&amp; <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y &lt; -60)</div><div class="line"><a name="l01819"></a><span class="lineno"> 1819</span>&#160;        delta = <span class="stringliteral">&#39;0 -360 0&#39;</span>;</div><div class="line"><a name="l01820"></a><span class="lineno"> 1820</span>&#160;</div><div class="line"><a name="l01821"></a><span class="lineno"> 1821</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d8c/view_8qh.html#aa9532712e2eb2d6f9463eaf1082817c4">autocvar_camera_look_player</a>)</div><div class="line"><a name="l01822"></a><span class="lineno"> 1822</span>&#160;        attenuation = <a class="code" href="../../d5/d8c/view_8qh.html#a1db8766542c81569d5228c5ded497563">autocvar_camera_look_attenuation</a>;</div><div class="line"><a name="l01823"></a><span class="lineno"> 1823</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l01824"></a><span class="lineno"> 1824</span>&#160;        attenuation = <a class="code" href="../../d5/d8c/view_8qh.html#ad60e45b06177dd27452f1c05a1cbfcb4">autocvar_camera_speed_attenuation</a>;</div><div class="line"><a name="l01825"></a><span class="lineno"> 1825</span>&#160;</div><div class="line"><a name="l01826"></a><span class="lineno"> 1826</span>&#160;    attenuation = 1 / <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(1, attenuation);</div><div class="line"><a name="l01827"></a><span class="lineno"> 1827</span>&#160;    <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a> += (<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a> - <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a> + delta) * attenuation;</div><div class="line"><a name="l01828"></a><span class="lineno"> 1828</span>&#160;</div><div class="line"><a name="l01829"></a><span class="lineno"> 1829</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x &lt; -180) <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x = <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x + 360;</div><div class="line"><a name="l01830"></a><span class="lineno"> 1830</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x &gt; 180) <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x = <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x - 360;</div><div class="line"><a name="l01831"></a><span class="lineno"> 1831</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y &lt; -180) <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y = <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y + 360;</div><div class="line"><a name="l01832"></a><span class="lineno"> 1832</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y &gt; 180) <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y = <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y - 360;</div><div class="line"><a name="l01833"></a><span class="lineno"> 1833</span>&#160;</div><div class="line"><a name="l01834"></a><span class="lineno"> 1834</span>&#160;    <span class="comment">// Camera position</span></div><div class="line"><a name="l01835"></a><span class="lineno"> 1835</span>&#160;    tmp = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l01836"></a><span class="lineno"> 1836</span>&#160;    dimensions = 0;</div><div class="line"><a name="l01837"></a><span class="lineno"> 1837</span>&#160;</div><div class="line"><a name="l01838"></a><span class="lineno"> 1838</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.x )</div><div class="line"><a name="l01839"></a><span class="lineno"> 1839</span>&#160;    {</div><div class="line"><a name="l01840"></a><span class="lineno"> 1840</span>&#160;        tmp.x = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.x * <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01841"></a><span class="lineno"> 1841</span>&#160;        tmp.y = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.x * <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01842"></a><span class="lineno"> 1842</span>&#160;        <span class="keywordflow">if</span>( <a class="code" href="../../d5/d8c/view_8qh.html#a774313448b5a8b495ac78172f1d8be23">autocvar_camera_forward_follows</a> &amp;&amp; !<a class="code" href="../../d5/d8c/view_8qh.html#aa9532712e2eb2d6f9463eaf1082817c4">autocvar_camera_look_player</a> )</div><div class="line"><a name="l01843"></a><span class="lineno"> 1843</span>&#160;            tmp.z = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.x * -<a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01844"></a><span class="lineno"> 1844</span>&#160;        ++dimensions;</div><div class="line"><a name="l01845"></a><span class="lineno"> 1845</span>&#160;    }</div><div class="line"><a name="l01846"></a><span class="lineno"> 1846</span>&#160;</div><div class="line"><a name="l01847"></a><span class="lineno"> 1847</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.y )</div><div class="line"><a name="l01848"></a><span class="lineno"> 1848</span>&#160;    {</div><div class="line"><a name="l01849"></a><span class="lineno"> 1849</span>&#160;        tmp.x += <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.y * -<a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01850"></a><span class="lineno"> 1850</span>&#160;        tmp.y += <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.y * <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>) * <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01851"></a><span class="lineno"> 1851</span>&#160;        tmp.z += <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.y * <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01852"></a><span class="lineno"> 1852</span>&#160;        ++dimensions;</div><div class="line"><a name="l01853"></a><span class="lineno"> 1853</span>&#160;    }</div><div class="line"><a name="l01854"></a><span class="lineno"> 1854</span>&#160;</div><div class="line"><a name="l01855"></a><span class="lineno"> 1855</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.z )</div><div class="line"><a name="l01856"></a><span class="lineno"> 1856</span>&#160;    {</div><div class="line"><a name="l01857"></a><span class="lineno"> 1857</span>&#160;        tmp.z += <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.z * <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01858"></a><span class="lineno"> 1858</span>&#160;        ++dimensions;</div><div class="line"><a name="l01859"></a><span class="lineno"> 1859</span>&#160;    }</div><div class="line"><a name="l01860"></a><span class="lineno"> 1860</span>&#160;</div><div class="line"><a name="l01861"></a><span class="lineno"> 1861</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d8c/view_8qh.html#aa17fbb3b4adb9f0fa7ed819c0e22084b">autocvar_camera_free</a>)</div><div class="line"><a name="l01862"></a><span class="lineno"> 1862</span>&#160;        speed = <a class="code" href="../../d5/d8c/view_8qh.html#a19097d7ac498f773a5f42e11c28ed743">autocvar_camera_speed_free</a>;</div><div class="line"><a name="l01863"></a><span class="lineno"> 1863</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l01864"></a><span class="lineno"> 1864</span>&#160;        speed = <a class="code" href="../../d5/d8c/view_8qh.html#a8cdce437a11b5bf499004333dbd89bb2">autocvar_camera_speed_chase</a>;</div><div class="line"><a name="l01865"></a><span class="lineno"> 1865</span>&#160;</div><div class="line"><a name="l01866"></a><span class="lineno"> 1866</span>&#160;    <span class="keywordflow">if</span>(dimensions)</div><div class="line"><a name="l01867"></a><span class="lineno"> 1867</span>&#160;    {</div><div class="line"><a name="l01868"></a><span class="lineno"> 1868</span>&#160;        speed = speed * <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(1 / dimensions);</div><div class="line"><a name="l01869"></a><span class="lineno"> 1869</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a> += tmp * <a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>;</div><div class="line"><a name="l01870"></a><span class="lineno"> 1870</span>&#160;    }</div><div class="line"><a name="l01871"></a><span class="lineno"> 1871</span>&#160;</div><div class="line"><a name="l01872"></a><span class="lineno"> 1872</span>&#160;    <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a> += (<a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a> - <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a>) * attenuation;</div><div class="line"><a name="l01873"></a><span class="lineno"> 1873</span>&#160;</div><div class="line"><a name="l01874"></a><span class="lineno"> 1874</span>&#160;    <span class="comment">// Camera modes</span></div><div class="line"><a name="l01875"></a><span class="lineno"> 1875</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d5/d8c/view_8qh.html#aa17fbb3b4adb9f0fa7ed819c0e22084b">autocvar_camera_free</a> )</div><div class="line"><a name="l01876"></a><span class="lineno"> 1876</span>&#160;    {</div><div class="line"><a name="l01877"></a><span class="lineno"> 1877</span>&#160;        <span class="keywordflow">if</span> ( <a class="code" href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a> == <a class="code" href="../../d6/dd3/view_8qc.html#a4f58e51e0e77579ccc7b58a1ee5b74f3">CAMERA_CHASE</a> )</div><div class="line"><a name="l01878"></a><span class="lineno"> 1878</span>&#160;        {</div><div class="line"><a name="l01879"></a><span class="lineno"> 1879</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> + <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a>;</div><div class="line"><a name="l01880"></a><span class="lineno"> 1880</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> + <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a>;</div><div class="line"><a name="l01881"></a><span class="lineno"> 1881</span>&#160;        }</div><div class="line"><a name="l01882"></a><span class="lineno"> 1882</span>&#160;</div><div class="line"><a name="l01883"></a><span class="lineno"> 1883</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a> = <a class="code" href="../../d6/dd3/view_8qc.html#ae9f168462c8b25c35ad4c355e518fb22">CAMERA_FREE</a>;</div><div class="line"><a name="l01884"></a><span class="lineno"> 1884</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0">current_position</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a>;</div><div class="line"><a name="l01885"></a><span class="lineno"> 1885</span>&#160;    }</div><div class="line"><a name="l01886"></a><span class="lineno"> 1886</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l01887"></a><span class="lineno"> 1887</span>&#160;    {</div><div class="line"><a name="l01888"></a><span class="lineno"> 1888</span>&#160;        <span class="keywordflow">if</span> ( <a class="code" href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a> == <a class="code" href="../../d6/dd3/view_8qc.html#ae9f168462c8b25c35ad4c355e518fb22">CAMERA_FREE</a> )</div><div class="line"><a name="l01889"></a><span class="lineno"> 1889</span>&#160;        {</div><div class="line"><a name="l01890"></a><span class="lineno"> 1890</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>;</div><div class="line"><a name="l01891"></a><span class="lineno"> 1891</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a> = <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a> - <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a>;</div><div class="line"><a name="l01892"></a><span class="lineno"> 1892</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a> - <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a>;</div><div class="line"><a name="l01893"></a><span class="lineno"> 1893</span>&#160;        }</div><div class="line"><a name="l01894"></a><span class="lineno"> 1894</span>&#160;</div><div class="line"><a name="l01895"></a><span class="lineno"> 1895</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a4f58e51e0e77579ccc7b58a1ee5b74f3">CAMERA_CHASE</a>;</div><div class="line"><a name="l01896"></a><span class="lineno"> 1896</span>&#160;</div><div class="line"><a name="l01897"></a><span class="lineno"> 1897</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/d8c/view_8qh.html#a48c0310963f9425e11ccc447cd45b72d">autocvar_camera_chase_smoothly</a>)</div><div class="line"><a name="l01898"></a><span class="lineno"> 1898</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> += (<a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a> - <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a>) * attenuation;</div><div class="line"><a name="l01899"></a><span class="lineno"> 1899</span>&#160;        <span class="keywordflow">else</span></div><div class="line"><a name="l01900"></a><span class="lineno"> 1900</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>;</div><div class="line"><a name="l01901"></a><span class="lineno"> 1901</span>&#160;</div><div class="line"><a name="l01902"></a><span class="lineno"> 1902</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0">current_position</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> + <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a>;</div><div class="line"><a name="l01903"></a><span class="lineno"> 1903</span>&#160;    }</div><div class="line"><a name="l01904"></a><span class="lineno"> 1904</span>&#160;</div><div class="line"><a name="l01905"></a><span class="lineno"> 1905</span>&#160;    setproperty(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aae8c310a65ec9361988351e2185f2a56">VF_ANGLES</a>, <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>);</div><div class="line"><a name="l01906"></a><span class="lineno"> 1906</span>&#160;    setproperty(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a3f25ddf9698b98f6f7e944f9767b5594">VF_ORIGIN</a>, <a class="code" href="../../d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0">current_position</a>);</div><div class="line"><a name="l01907"></a><span class="lineno"> 1907</span>&#160;}</div><div class="ttc" id="csprogsdefs_8qc_html_a2fe322be5170d3e7916dfb2003f00494"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a></div><div class="ttdeci">float DEG2RAD</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00961">csprogsdefs.qc:961</a></div></div>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01291">View_DemoCamera()</a>.</p>
+<div class="fragment"><div class="line"><a name="l01771"></a><span class="lineno"> 1771</span>&#160;{</div><div class="line"><a name="l01772"></a><span class="lineno"> 1772</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>, attenuation, dimensions;</div><div class="line"><a name="l01773"></a><span class="lineno"> 1773</span>&#160;    <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> tmp, delta;</div><div class="line"><a name="l01774"></a><span class="lineno"> 1774</span>&#160;</div><div class="line"><a name="l01775"></a><span class="lineno"> 1775</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d5/d8c/view_8qh.html#abc72e29b846baabb3e743c584cf64ab6">autocvar_camera_reset</a> || !<a class="code" href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a> )</div><div class="line"><a name="l01776"></a><span class="lineno"> 1776</span>&#160;    {</div><div class="line"><a name="l01777"></a><span class="lineno"> 1777</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l01778"></a><span class="lineno"> 1778</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l01779"></a><span class="lineno"> 1779</span>&#160;        <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l01780"></a><span class="lineno"> 1780</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a>.z += 30;</div><div class="line"><a name="l01781"></a><span class="lineno"> 1781</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a>.x += 30 * -<a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01782"></a><span class="lineno"> 1782</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a>.y += 30 * -<a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01783"></a><span class="lineno"> 1783</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>;</div><div class="line"><a name="l01784"></a><span class="lineno"> 1784</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a>  = <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a>;</div><div class="line"><a name="l01785"></a><span class="lineno"> 1785</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;camera_reset&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>);</div><div class="line"><a name="l01786"></a><span class="lineno"> 1786</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a4f58e51e0e77579ccc7b58a1ee5b74f3">CAMERA_CHASE</a>;</div><div class="line"><a name="l01787"></a><span class="lineno"> 1787</span>&#160;    }</div><div class="line"><a name="l01788"></a><span class="lineno"> 1788</span>&#160;</div><div class="line"><a name="l01789"></a><span class="lineno"> 1789</span>&#160;    <span class="comment">// Camera angles</span></div><div class="line"><a name="l01790"></a><span class="lineno"> 1790</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d0/d2a/client_2main_8qh.html#af99b816e1d6a123c61983cf49c87d17b">camera_roll</a> )</div><div class="line"><a name="l01791"></a><span class="lineno"> 1791</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z += <a class="code" href="../../d0/d2a/client_2main_8qh.html#af99b816e1d6a123c61983cf49c87d17b">camera_roll</a> * <a class="code" href="../../d5/d8c/view_8qh.html#ab75e4d542334f8128c63ae77170e8f25">autocvar_camera_speed_roll</a>;</div><div class="line"><a name="l01792"></a><span class="lineno"> 1792</span>&#160;</div><div class="line"><a name="l01793"></a><span class="lineno"> 1793</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d8c/view_8qh.html#aa9532712e2eb2d6f9463eaf1082817c4">autocvar_camera_look_player</a>)</div><div class="line"><a name="l01794"></a><span class="lineno"> 1794</span>&#160;    {</div><div class="line"><a name="l01795"></a><span class="lineno"> 1795</span>&#160;        <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a> <a class="code" href="../../d4/d53/server_2impulse_8qc.html#a851cf68c8f607573c1a5e987784c83f6">dir</a>;</div><div class="line"><a name="l01796"></a><span class="lineno"> 1796</span>&#160;        <span class="keywordtype">float</span> n;</div><div class="line"><a name="l01797"></a><span class="lineno"> 1797</span>&#160;</div><div class="line"><a name="l01798"></a><span class="lineno"> 1798</span>&#160;        dir = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a> - <a class="code" href="../../d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0">current_position</a>);</div><div class="line"><a name="l01799"></a><span class="lineno"> 1799</span>&#160;        n = <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z;</div><div class="line"><a name="l01800"></a><span class="lineno"> 1800</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(dir);</div><div class="line"><a name="l01801"></a><span class="lineno"> 1801</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x = <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x * -1;</div><div class="line"><a name="l01802"></a><span class="lineno"> 1802</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z = n;</div><div class="line"><a name="l01803"></a><span class="lineno"> 1803</span>&#160;    }</div><div class="line"><a name="l01804"></a><span class="lineno"> 1804</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l01805"></a><span class="lineno"> 1805</span>&#160;    {</div><div class="line"><a name="l01806"></a><span class="lineno"> 1806</span>&#160;        tmp = <a class="code" href="../../d8/de2/menudefs_8qc.html#addba2eab8e095dbf65080939e1da5747">getmousepos</a>() * 0.1;</div><div class="line"><a name="l01807"></a><span class="lineno"> 1807</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(tmp, &gt;, <a class="code" href="../../d5/d8c/view_8qh.html#a10e093c653e1e639b230d1dbe5b0adc5">autocvar_camera_mouse_threshold</a>))</div><div class="line"><a name="l01808"></a><span class="lineno"> 1808</span>&#160;        {</div><div class="line"><a name="l01809"></a><span class="lineno"> 1809</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x += tmp.y * <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>) + (tmp.x * <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>));</div><div class="line"><a name="l01810"></a><span class="lineno"> 1810</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y -= tmp.x * <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>) + (tmp.y * -<a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>));</div><div class="line"><a name="l01811"></a><span class="lineno"> 1811</span>&#160;        }</div><div class="line"><a name="l01812"></a><span class="lineno"> 1812</span>&#160;    }</div><div class="line"><a name="l01813"></a><span class="lineno"> 1813</span>&#160;</div><div class="line"><a name="l01814"></a><span class="lineno"> 1814</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x &lt; -180) <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x = <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x + 360;</div><div class="line"><a name="l01815"></a><span class="lineno"> 1815</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x &gt; 180) <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x = <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.x - 360;</div><div class="line"><a name="l01816"></a><span class="lineno"> 1816</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y &lt; -180) <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y = <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y + 360;</div><div class="line"><a name="l01817"></a><span class="lineno"> 1817</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y &gt; 180) <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y = <a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y - 360;</div><div class="line"><a name="l01818"></a><span class="lineno"> 1818</span>&#160;</div><div class="line"><a name="l01819"></a><span class="lineno"> 1819</span>&#160;    <span class="comment">// Fix difference when angles don&#39;t have the same sign</span></div><div class="line"><a name="l01820"></a><span class="lineno"> 1820</span>&#160;    delta = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l01821"></a><span class="lineno"> 1821</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y &lt; -60 &amp;&amp; <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y &gt; 60)</div><div class="line"><a name="l01822"></a><span class="lineno"> 1822</span>&#160;        delta = <span class="stringliteral">&#39;0 360 0&#39;</span>;</div><div class="line"><a name="l01823"></a><span class="lineno"> 1823</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a>.y &gt; 60 &amp;&amp; <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y &lt; -60)</div><div class="line"><a name="l01824"></a><span class="lineno"> 1824</span>&#160;        delta = <span class="stringliteral">&#39;0 -360 0&#39;</span>;</div><div class="line"><a name="l01825"></a><span class="lineno"> 1825</span>&#160;</div><div class="line"><a name="l01826"></a><span class="lineno"> 1826</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d8c/view_8qh.html#aa9532712e2eb2d6f9463eaf1082817c4">autocvar_camera_look_player</a>)</div><div class="line"><a name="l01827"></a><span class="lineno"> 1827</span>&#160;        attenuation = <a class="code" href="../../d5/d8c/view_8qh.html#a1db8766542c81569d5228c5ded497563">autocvar_camera_look_attenuation</a>;</div><div class="line"><a name="l01828"></a><span class="lineno"> 1828</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l01829"></a><span class="lineno"> 1829</span>&#160;        attenuation = <a class="code" href="../../d5/d8c/view_8qh.html#ad60e45b06177dd27452f1c05a1cbfcb4">autocvar_camera_speed_attenuation</a>;</div><div class="line"><a name="l01830"></a><span class="lineno"> 1830</span>&#160;</div><div class="line"><a name="l01831"></a><span class="lineno"> 1831</span>&#160;    attenuation = 1 / <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(1, attenuation);</div><div class="line"><a name="l01832"></a><span class="lineno"> 1832</span>&#160;    <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a> += (<a class="code" href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a> - <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a> + delta) * attenuation;</div><div class="line"><a name="l01833"></a><span class="lineno"> 1833</span>&#160;</div><div class="line"><a name="l01834"></a><span class="lineno"> 1834</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x &lt; -180) <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x = <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x + 360;</div><div class="line"><a name="l01835"></a><span class="lineno"> 1835</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x &gt; 180) <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x = <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x - 360;</div><div class="line"><a name="l01836"></a><span class="lineno"> 1836</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y &lt; -180) <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y = <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y + 360;</div><div class="line"><a name="l01837"></a><span class="lineno"> 1837</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y &gt; 180) <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y = <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y - 360;</div><div class="line"><a name="l01838"></a><span class="lineno"> 1838</span>&#160;</div><div class="line"><a name="l01839"></a><span class="lineno"> 1839</span>&#160;    <span class="comment">// Camera position</span></div><div class="line"><a name="l01840"></a><span class="lineno"> 1840</span>&#160;    tmp = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div><div class="line"><a name="l01841"></a><span class="lineno"> 1841</span>&#160;    dimensions = 0;</div><div class="line"><a name="l01842"></a><span class="lineno"> 1842</span>&#160;</div><div class="line"><a name="l01843"></a><span class="lineno"> 1843</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.x )</div><div class="line"><a name="l01844"></a><span class="lineno"> 1844</span>&#160;    {</div><div class="line"><a name="l01845"></a><span class="lineno"> 1845</span>&#160;        tmp.x = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.x * <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01846"></a><span class="lineno"> 1846</span>&#160;        tmp.y = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.x * <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01847"></a><span class="lineno"> 1847</span>&#160;        <span class="keywordflow">if</span>( <a class="code" href="../../d5/d8c/view_8qh.html#a774313448b5a8b495ac78172f1d8be23">autocvar_camera_forward_follows</a> &amp;&amp; !<a class="code" href="../../d5/d8c/view_8qh.html#aa9532712e2eb2d6f9463eaf1082817c4">autocvar_camera_look_player</a> )</div><div class="line"><a name="l01848"></a><span class="lineno"> 1848</span>&#160;            tmp.z = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.x * -<a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.x * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01849"></a><span class="lineno"> 1849</span>&#160;        ++dimensions;</div><div class="line"><a name="l01850"></a><span class="lineno"> 1850</span>&#160;    }</div><div class="line"><a name="l01851"></a><span class="lineno"> 1851</span>&#160;</div><div class="line"><a name="l01852"></a><span class="lineno"> 1852</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.y )</div><div class="line"><a name="l01853"></a><span class="lineno"> 1853</span>&#160;    {</div><div class="line"><a name="l01854"></a><span class="lineno"> 1854</span>&#160;        tmp.x += <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.y * -<a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01855"></a><span class="lineno"> 1855</span>&#160;        tmp.y += <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.y * <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.y * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>) * <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01856"></a><span class="lineno"> 1856</span>&#160;        tmp.z += <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.y * <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01857"></a><span class="lineno"> 1857</span>&#160;        ++dimensions;</div><div class="line"><a name="l01858"></a><span class="lineno"> 1858</span>&#160;    }</div><div class="line"><a name="l01859"></a><span class="lineno"> 1859</span>&#160;</div><div class="line"><a name="l01860"></a><span class="lineno"> 1860</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.z )</div><div class="line"><a name="l01861"></a><span class="lineno"> 1861</span>&#160;    {</div><div class="line"><a name="l01862"></a><span class="lineno"> 1862</span>&#160;        tmp.z += <a class="code" href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a>.z * <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(<a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>.z * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a>);</div><div class="line"><a name="l01863"></a><span class="lineno"> 1863</span>&#160;        ++dimensions;</div><div class="line"><a name="l01864"></a><span class="lineno"> 1864</span>&#160;    }</div><div class="line"><a name="l01865"></a><span class="lineno"> 1865</span>&#160;</div><div class="line"><a name="l01866"></a><span class="lineno"> 1866</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d8c/view_8qh.html#aa17fbb3b4adb9f0fa7ed819c0e22084b">autocvar_camera_free</a>)</div><div class="line"><a name="l01867"></a><span class="lineno"> 1867</span>&#160;        speed = <a class="code" href="../../d5/d8c/view_8qh.html#a19097d7ac498f773a5f42e11c28ed743">autocvar_camera_speed_free</a>;</div><div class="line"><a name="l01868"></a><span class="lineno"> 1868</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l01869"></a><span class="lineno"> 1869</span>&#160;        speed = <a class="code" href="../../d5/d8c/view_8qh.html#a8cdce437a11b5bf499004333dbd89bb2">autocvar_camera_speed_chase</a>;</div><div class="line"><a name="l01870"></a><span class="lineno"> 1870</span>&#160;</div><div class="line"><a name="l01871"></a><span class="lineno"> 1871</span>&#160;    <span class="keywordflow">if</span>(dimensions)</div><div class="line"><a name="l01872"></a><span class="lineno"> 1872</span>&#160;    {</div><div class="line"><a name="l01873"></a><span class="lineno"> 1873</span>&#160;        speed = speed * <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(1 / dimensions);</div><div class="line"><a name="l01874"></a><span class="lineno"> 1874</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a> += tmp * <a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>;</div><div class="line"><a name="l01875"></a><span class="lineno"> 1875</span>&#160;    }</div><div class="line"><a name="l01876"></a><span class="lineno"> 1876</span>&#160;</div><div class="line"><a name="l01877"></a><span class="lineno"> 1877</span>&#160;    <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a> += (<a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a> - <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a>) * attenuation;</div><div class="line"><a name="l01878"></a><span class="lineno"> 1878</span>&#160;</div><div class="line"><a name="l01879"></a><span class="lineno"> 1879</span>&#160;    <span class="comment">// Camera modes</span></div><div class="line"><a name="l01880"></a><span class="lineno"> 1880</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d5/d8c/view_8qh.html#aa17fbb3b4adb9f0fa7ed819c0e22084b">autocvar_camera_free</a> )</div><div class="line"><a name="l01881"></a><span class="lineno"> 1881</span>&#160;    {</div><div class="line"><a name="l01882"></a><span class="lineno"> 1882</span>&#160;        <span class="keywordflow">if</span> ( <a class="code" href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a> == <a class="code" href="../../d6/dd3/view_8qc.html#a4f58e51e0e77579ccc7b58a1ee5b74f3">CAMERA_CHASE</a> )</div><div class="line"><a name="l01883"></a><span class="lineno"> 1883</span>&#160;        {</div><div class="line"><a name="l01884"></a><span class="lineno"> 1884</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> + <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a>;</div><div class="line"><a name="l01885"></a><span class="lineno"> 1885</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> + <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a>;</div><div class="line"><a name="l01886"></a><span class="lineno"> 1886</span>&#160;        }</div><div class="line"><a name="l01887"></a><span class="lineno"> 1887</span>&#160;</div><div class="line"><a name="l01888"></a><span class="lineno"> 1888</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a> = <a class="code" href="../../d6/dd3/view_8qc.html#ae9f168462c8b25c35ad4c355e518fb22">CAMERA_FREE</a>;</div><div class="line"><a name="l01889"></a><span class="lineno"> 1889</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0">current_position</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a>;</div><div class="line"><a name="l01890"></a><span class="lineno"> 1890</span>&#160;    }</div><div class="line"><a name="l01891"></a><span class="lineno"> 1891</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l01892"></a><span class="lineno"> 1892</span>&#160;    {</div><div class="line"><a name="l01893"></a><span class="lineno"> 1893</span>&#160;        <span class="keywordflow">if</span> ( <a class="code" href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a> == <a class="code" href="../../d6/dd3/view_8qc.html#ae9f168462c8b25c35ad4c355e518fb22">CAMERA_FREE</a> )</div><div class="line"><a name="l01894"></a><span class="lineno"> 1894</span>&#160;        {</div><div class="line"><a name="l01895"></a><span class="lineno"> 1895</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>;</div><div class="line"><a name="l01896"></a><span class="lineno"> 1896</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a> = <a class="code" href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a> - <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a>;</div><div class="line"><a name="l01897"></a><span class="lineno"> 1897</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a> - <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a>;</div><div class="line"><a name="l01898"></a><span class="lineno"> 1898</span>&#160;        }</div><div class="line"><a name="l01899"></a><span class="lineno"> 1899</span>&#160;</div><div class="line"><a name="l01900"></a><span class="lineno"> 1900</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a4f58e51e0e77579ccc7b58a1ee5b74f3">CAMERA_CHASE</a>;</div><div class="line"><a name="l01901"></a><span class="lineno"> 1901</span>&#160;</div><div class="line"><a name="l01902"></a><span class="lineno"> 1902</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/d8c/view_8qh.html#a48c0310963f9425e11ccc447cd45b72d">autocvar_camera_chase_smoothly</a>)</div><div class="line"><a name="l01903"></a><span class="lineno"> 1903</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> += (<a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a> - <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a>) * attenuation;</div><div class="line"><a name="l01904"></a><span class="lineno"> 1904</span>&#160;        <span class="keywordflow">else</span></div><div class="line"><a name="l01905"></a><span class="lineno"> 1905</span>&#160;            <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>;</div><div class="line"><a name="l01906"></a><span class="lineno"> 1906</span>&#160;</div><div class="line"><a name="l01907"></a><span class="lineno"> 1907</span>&#160;        <a class="code" href="../../d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0">current_position</a> = <a class="code" href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a> + <a class="code" href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a>;</div><div class="line"><a name="l01908"></a><span class="lineno"> 1908</span>&#160;    }</div><div class="line"><a name="l01909"></a><span class="lineno"> 1909</span>&#160;</div><div class="line"><a name="l01910"></a><span class="lineno"> 1910</span>&#160;    setproperty(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aae8c310a65ec9361988351e2185f2a56">VF_ANGLES</a>, <a class="code" href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a>);</div><div class="line"><a name="l01911"></a><span class="lineno"> 1911</span>&#160;    setproperty(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a3f25ddf9698b98f6f7e944f9767b5594">VF_ORIGIN</a>, <a class="code" href="../../d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0">current_position</a>);</div><div class="line"><a name="l01912"></a><span class="lineno"> 1912</span>&#160;}</div><div class="ttc" id="csprogsdefs_8qc_html_a2fe322be5170d3e7916dfb2003f00494"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494">DEG2RAD</a></div><div class="ttdeci">float DEG2RAD</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00961">csprogsdefs.qc:961</a></div></div>
 <div class="ttc" id="subs_8qh_html_a7f7e4724cf57d59513b39c5ecc81adc8"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a></div><div class="ttdeci">float speed</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00041">subs.qh:41</a></div></div>
-<div class="ttc" id="view_8qc_html_a143ad0bc1522edfde50b2c65a14e9db4"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a></div><div class="ttdeci">vector current_camera_offset</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01764">view.qc:1764</a></div></div>
+<div class="ttc" id="view_8qc_html_a143ad0bc1522edfde50b2c65a14e9db4"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a143ad0bc1522edfde50b2c65a14e9db4">current_camera_offset</a></div><div class="ttdeci">vector current_camera_offset</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01769">view.qc:1769</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a05f0df40b9549a259b330d9341177510"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a05f0df40b9549a259b330d9341177510">camera_direction</a></div><div class="ttdeci">vector camera_direction</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00126">main.qh:126</a></div></div>
 <div class="ttc" id="view_8qh_html_a48c0310963f9425e11ccc447cd45b72d"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#a48c0310963f9425e11ccc447cd45b72d">autocvar_camera_chase_smoothly</a></div><div class="ttdeci">bool autocvar_camera_chase_smoothly</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00005">view.qh:5</a></div></div>
 <div class="ttc" id="view_8qh_html_abc72e29b846baabb3e743c584cf64ab6"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#abc72e29b846baabb3e743c584cf64ab6">autocvar_camera_reset</a></div><div class="ttdeci">bool autocvar_camera_reset</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00012">view.qh:12</a></div></div>
-<div class="ttc" id="view_8qc_html_aad230050ea571cdc854cb4f0dbfbaec6"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a></div><div class="ttdeci">vector current_angles</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01764">view.qc:1764</a></div></div>
+<div class="ttc" id="view_8qc_html_aad230050ea571cdc854cb4f0dbfbaec6"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#aad230050ea571cdc854cb4f0dbfbaec6">current_angles</a></div><div class="ttdeci">vector current_angles</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01769">view.qc:1769</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a3cd8d1dcc4aad557dd5b3266f8f8c7c7"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a></div><div class="ttdeci">vector view_origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00093">main.qh:93</a></div></div>
 <div class="ttc" id="view_8qh_html_ab75e4d542334f8128c63ae77170e8f25"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#ab75e4d542334f8128c63ae77170e8f25">autocvar_camera_speed_roll</a></div><div class="ttdeci">float autocvar_camera_speed_roll</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00016">view.qh:16</a></div></div>
-<div class="ttc" id="view_8qc_html_ab2501b95cc6dbe95fa46fbf7cd99a284"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a></div><div class="ttdeci">vector camera_offset</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01764">view.qc:1764</a></div></div>
+<div class="ttc" id="view_8qc_html_ab2501b95cc6dbe95fa46fbf7cd99a284"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#ab2501b95cc6dbe95fa46fbf7cd99a284">camera_offset</a></div><div class="ttdeci">vector camera_offset</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01769">view.qc:1769</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a822ea10e75a853993f2fa21149d76f4c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a></div><div class="ttdeci">vector vectoangles(vector v)</div></div>
 <div class="ttc" id="view_8qh_html_aa9532712e2eb2d6f9463eaf1082817c4"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#aa9532712e2eb2d6f9463eaf1082817c4">autocvar_camera_look_player</a></div><div class="ttdeci">float autocvar_camera_look_player</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00010">view.qh:10</a></div></div>
 <div class="ttc" id="view_8qh_html_aa17fbb3b4adb9f0fa7ed819c0e22084b"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#aa17fbb3b4adb9f0fa7ed819c0e22084b">autocvar_camera_free</a></div><div class="ttdeci">bool autocvar_camera_free</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00008">view.qh:8</a></div></div>
 <div class="ttc" id="view_8qh_html_a774313448b5a8b495ac78172f1d8be23"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#a774313448b5a8b495ac78172f1d8be23">autocvar_camera_forward_follows</a></div><div class="ttdeci">bool autocvar_camera_forward_follows</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00007">view.qh:7</a></div></div>
-<div class="ttc" id="view_8qc_html_ae9f168462c8b25c35ad4c355e518fb22"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#ae9f168462c8b25c35ad4c355e518fb22">CAMERA_FREE</a></div><div class="ttdeci">const float CAMERA_FREE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00570">view.qc:570</a></div></div>
-<div class="ttc" id="view_8qc_html_a2e9d067b73a9a720adf69e142f307920"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a></div><div class="ttdeci">vector mouse_angles</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01764">view.qc:1764</a></div></div>
-<div class="ttc" id="view_8qc_html_a67c91f612a4f57259fbd224a516e64d8"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a></div><div class="ttdeci">vector current_origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01764">view.qc:1764</a></div></div>
-<div class="ttc" id="view_8qc_html_a072a891c41a472dff4017d0afc9c64a0"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0">current_position</a></div><div class="ttdeci">vector current_position</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01764">view.qc:1764</a></div></div>
+<div class="ttc" id="view_8qc_html_ae9f168462c8b25c35ad4c355e518fb22"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#ae9f168462c8b25c35ad4c355e518fb22">CAMERA_FREE</a></div><div class="ttdeci">const float CAMERA_FREE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00571">view.qc:571</a></div></div>
+<div class="ttc" id="view_8qc_html_a2e9d067b73a9a720adf69e142f307920"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a2e9d067b73a9a720adf69e142f307920">mouse_angles</a></div><div class="ttdeci">vector mouse_angles</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01769">view.qc:1769</a></div></div>
+<div class="ttc" id="view_8qc_html_a67c91f612a4f57259fbd224a516e64d8"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a67c91f612a4f57259fbd224a516e64d8">current_origin</a></div><div class="ttdeci">vector current_origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01769">view.qc:1769</a></div></div>
+<div class="ttc" id="view_8qc_html_a072a891c41a472dff4017d0afc9c64a0"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0">current_position</a></div><div class="ttdeci">vector current_position</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l01769">view.qc:1769</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a5b48ade84c6b8b9ccb89e94c5d95ae88"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a></div><div class="ttdeci">float cos(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_addba2eab8e095dbf65080939e1da5747"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#addba2eab8e095dbf65080939e1da5747">getmousepos</a></div><div class="ttdeci">vector getmousepos(void)</div></div>
 <div class="ttc" id="csprogsdefs_8qh_html_a2626679e4144af8478202c6c28f90cd9"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#a2626679e4144af8478202c6c28f90cd9">vector</a></div><div class="ttdeci">vector(float skel, float bonenum) _skel_get_boneabs_hidden</div></div>
@@ -429,7 +429,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="view_8qh_html_a1db8766542c81569d5228c5ded497563"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#a1db8766542c81569d5228c5ded497563">autocvar_camera_look_attenuation</a></div><div class="ttdeci">float autocvar_camera_look_attenuation</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00009">view.qh:9</a></div></div>
 <div class="ttc" id="vector_8qh_html_a1c6e194f67b0befe85d6613c75d44d30"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a></div><div class="ttdeci">#define vdist(v, cmp, f)</div><div class="ttdoc">Vector distance comparison, avoids sqrt() </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00008">vector.qh:8</a></div></div>
 <div class="ttc" id="view_8qh_html_a10e093c653e1e639b230d1dbe5b0adc5"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#a10e093c653e1e639b230d1dbe5b0adc5">autocvar_camera_mouse_threshold</a></div><div class="ttdeci">float autocvar_camera_mouse_threshold</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00011">view.qh:11</a></div></div>
-<div class="ttc" id="view_8qc_html_a4f58e51e0e77579ccc7b58a1ee5b74f3"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a4f58e51e0e77579ccc7b58a1ee5b74f3">CAMERA_CHASE</a></div><div class="ttdeci">const float CAMERA_CHASE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00571">view.qc:571</a></div></div>
+<div class="ttc" id="view_8qc_html_a4f58e51e0e77579ccc7b58a1ee5b74f3"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a4f58e51e0e77579ccc7b58a1ee5b74f3">CAMERA_CHASE</a></div><div class="ttdeci">const float CAMERA_CHASE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00572">view.qc:572</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a83f4d3f317a80e82e6b16ea61ea5efc3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a></div><div class="ttdeci">float sqrt(float f)</div></div>
 <div class="ttc" id="view_8qh_html_a8cdce437a11b5bf499004333dbd89bb2"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#a8cdce437a11b5bf499004333dbd89bb2">autocvar_camera_speed_chase</a></div><div class="ttdeci">float autocvar_camera_speed_chase</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00014">view.qh:14</a></div></div>
 <div class="ttc" id="server_2impulse_8qc_html_a851cf68c8f607573c1a5e987784c83f6"><div class="ttname"><a href="../../d4/d53/server_2impulse_8qc.html#a851cf68c8f607573c1a5e987784c83f6">dir</a></div><div class="ttdeci">int dir</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d53/server_2impulse_8qc_source.html#l00089">impulse.qc:89</a></div></div>
@@ -437,7 +437,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_aaabd4c5f172530d93a3b9c30a9e21b88"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a></div><div class="ttdeci">float sin(float f)</div></div>
 <div class="ttc" id="view_8qh_html_a19097d7ac498f773a5f42e11c28ed743"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#a19097d7ac498f773a5f42e11c28ed743">autocvar_camera_speed_free</a></div><div class="ttdeci">float autocvar_camera_speed_free</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00015">view.qh:15</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a3f25ddf9698b98f6f7e944f9767b5594"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a3f25ddf9698b98f6f7e944f9767b5594">VF_ORIGIN</a></div><div class="ttdeci">const float VF_ORIGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00182">csprogsdefs.qc:182</a></div></div>
-<div class="ttc" id="view_8qc_html_a7deb499d544d4e55718e729ece786f62"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a></div><div class="ttdeci">float camera_mode</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00569">view.qc:569</a></div></div>
+<div class="ttc" id="view_8qc_html_a7deb499d544d4e55718e729ece786f62"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a7deb499d544d4e55718e729ece786f62">camera_mode</a></div><div class="ttdeci">float camera_mode</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00570">view.qc:570</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
 <div class="ttc" id="client_2main_8qh_html_af99b816e1d6a123c61983cf49c87d17b"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#af99b816e1d6a123c61983cf49c87d17b">camera_roll</a></div><div class="ttdeci">float camera_roll</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00125">main.qh:125</a></div></div>
 </div><!-- fragment --><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -475,12 +475,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dd3/view_8qc_source.html#l00359">359</a> of file <a class="el" href="../../d6/dd3/view_8qc_source.html">view.qc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dd3/view_8qc_source.html#l00360">360</a> of file <a class="el" href="../../d6/dd3/view_8qc_source.html">view.qc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00119">cs_project_is_b0rked</a>, <a class="el" href="../../d9/d52/slider__resolution_8qc_source.html#l00005">vid_conheight</a>, <a class="el" href="../../d9/d52/slider__resolution_8qc_source.html#l00004">vid_conwidth</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00120">vid_height</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00120">vid_width</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00012">AuxiliaryXhair_Draw2D()</a>, <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html#l00063">DamageText::DamageText_draw2d()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00040">Draw_ShowNames()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00052">EnemyHitCheck()</a>, <a class="el" href="../../da/df5/common_2debug_8qh_source.html#l00369">GENERIC_COMMAND()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00226">HUD_Crosshair()</a>, <a class="el" href="../../df/d3f/cl__damagetext_8qc_source.html#l00207">NET_HANDLE()</a>, and <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00059">turret_draw2d()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;{</div><div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    vec = cs_project(vec);</div><div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#aa400f1ee3e3ba73220c2878bacccc52f">cs_project_is_b0rked</a> &gt; 0)</div><div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    {</div><div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        vec.x *= <a class="code" href="../../d9/d52/slider__resolution_8qc.html#a20d555d9b4b63c3a86ea9c41ba74efd2">vid_conwidth</a> / <a class="code" href="../../d0/d2a/client_2main_8qh.html#a39926af936fd758438085902348035a7">vid_width</a>;</div><div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        vec.y *= <a class="code" href="../../d9/d52/slider__resolution_8qc.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a> / <a class="code" href="../../d0/d2a/client_2main_8qh.html#ad135f84ab3569efc0d8929cb848be8f5">vid_height</a>;</div><div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    }</div><div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="keywordflow">return</span> vec;</div><div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;}</div><div class="ttc" id="slider__resolution_8qc_html_ad3c7cac75202a988d6b5017d4da6796c"><div class="ttname"><a href="../../d9/d52/slider__resolution_8qc.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a></div><div class="ttdeci">float vid_conheight</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d52/slider__resolution_8qc_source.html#l00005">slider_resolution.qc:5</a></div></div>
+<div class="fragment"><div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;{</div><div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    vec = cs_project(vec);</div><div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#aa400f1ee3e3ba73220c2878bacccc52f">cs_project_is_b0rked</a> &gt; 0)</div><div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    {</div><div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        vec.x *= <a class="code" href="../../d9/d52/slider__resolution_8qc.html#a20d555d9b4b63c3a86ea9c41ba74efd2">vid_conwidth</a> / <a class="code" href="../../d0/d2a/client_2main_8qh.html#a39926af936fd758438085902348035a7">vid_width</a>;</div><div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        vec.y *= <a class="code" href="../../d9/d52/slider__resolution_8qc.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a> / <a class="code" href="../../d0/d2a/client_2main_8qh.html#ad135f84ab3569efc0d8929cb848be8f5">vid_height</a>;</div><div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    }</div><div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="keywordflow">return</span> vec;</div><div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;}</div><div class="ttc" id="slider__resolution_8qc_html_ad3c7cac75202a988d6b5017d4da6796c"><div class="ttname"><a href="../../d9/d52/slider__resolution_8qc.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a></div><div class="ttdeci">float vid_conheight</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d52/slider__resolution_8qc_source.html#l00005">slider_resolution.qc:5</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_ad135f84ab3569efc0d8929cb848be8f5"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#ad135f84ab3569efc0d8929cb848be8f5">vid_height</a></div><div class="ttdeci">int vid_height</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00120">main.qh:120</a></div></div>
 <div class="ttc" id="slider__resolution_8qc_html_a20d555d9b4b63c3a86ea9c41ba74efd2"><div class="ttname"><a href="../../d9/d52/slider__resolution_8qc.html#a20d555d9b4b63c3a86ea9c41ba74efd2">vid_conwidth</a></div><div class="ttdeci">float vid_conwidth</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d52/slider__resolution_8qc_source.html#l00004">slider_resolution.qc:4</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a39926af936fd758438085902348035a7"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a39926af936fd758438085902348035a7">vid_width</a></div><div class="ttdeci">int vid_width</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00120">main.qh:120</a></div></div>
@@ -511,12 +511,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dd3/view_8qc_source.html#l00379">379</a> of file <a class="el" href="../../d6/dd3/view_8qc_source.html">view.qc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dd3/view_8qc_source.html#l00380">380</a> of file <a class="el" href="../../d6/dd3/view_8qc_source.html">view.qc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d5/d8c/view_8qh_source.html#l00066">autocvar_menu_mouse_speed</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#addba2eab8e095dbf65080939e1da5747">getmousepos()</a>, <a class="el" href="../../d3/d05/hud_8qh_source.html#l00102">mousepos</a>, <a class="el" href="../../d9/d52/slider__resolution_8qc_source.html#l00005">vid_conheight</a>, and <a class="el" href="../../d9/d52/slider__resolution_8qc_source.html#l00004">vid_conwidth</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00948">HUD_Mouse()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;{</div><div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    <a class="code" href="../../d3/d05/hud_8qh.html#ade4186b2dfcd53ebfcb07efb8122fc4e">mousepos</a> += <a class="code" href="../../d8/de2/menudefs_8qc.html#addba2eab8e095dbf65080939e1da5747">getmousepos</a>() * <a class="code" href="../../d5/d8c/view_8qh.html#a9c98f8575624437f3c4e14709601e5dd">autocvar_menu_mouse_speed</a>;</div><div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    <a class="code" href="../../d3/d05/hud_8qh.html#ade4186b2dfcd53ebfcb07efb8122fc4e">mousepos</a>.x = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, <a class="code" href="../../d3/d05/hud_8qh.html#ade4186b2dfcd53ebfcb07efb8122fc4e">mousepos</a>.x, <a class="code" href="../../d9/d52/slider__resolution_8qc.html#a20d555d9b4b63c3a86ea9c41ba74efd2">vid_conwidth</a>);</div><div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    <a class="code" href="../../d3/d05/hud_8qh.html#ade4186b2dfcd53ebfcb07efb8122fc4e">mousepos</a>.y = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, <a class="code" href="../../d3/d05/hud_8qh.html#ade4186b2dfcd53ebfcb07efb8122fc4e">mousepos</a>.y, <a class="code" href="../../d9/d52/slider__resolution_8qc.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a>);</div><div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;}</div><div class="ttc" id="slider__resolution_8qc_html_ad3c7cac75202a988d6b5017d4da6796c"><div class="ttname"><a href="../../d9/d52/slider__resolution_8qc.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a></div><div class="ttdeci">float vid_conheight</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d52/slider__resolution_8qc_source.html#l00005">slider_resolution.qc:5</a></div></div>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00949">HUD_Mouse()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;{</div><div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    <a class="code" href="../../d3/d05/hud_8qh.html#ade4186b2dfcd53ebfcb07efb8122fc4e">mousepos</a> += <a class="code" href="../../d8/de2/menudefs_8qc.html#addba2eab8e095dbf65080939e1da5747">getmousepos</a>() * <a class="code" href="../../d5/d8c/view_8qh.html#a9c98f8575624437f3c4e14709601e5dd">autocvar_menu_mouse_speed</a>;</div><div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    <a class="code" href="../../d3/d05/hud_8qh.html#ade4186b2dfcd53ebfcb07efb8122fc4e">mousepos</a>.x = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, <a class="code" href="../../d3/d05/hud_8qh.html#ade4186b2dfcd53ebfcb07efb8122fc4e">mousepos</a>.x, <a class="code" href="../../d9/d52/slider__resolution_8qc.html#a20d555d9b4b63c3a86ea9c41ba74efd2">vid_conwidth</a>);</div><div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    <a class="code" href="../../d3/d05/hud_8qh.html#ade4186b2dfcd53ebfcb07efb8122fc4e">mousepos</a>.y = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, <a class="code" href="../../d3/d05/hud_8qh.html#ade4186b2dfcd53ebfcb07efb8122fc4e">mousepos</a>.y, <a class="code" href="../../d9/d52/slider__resolution_8qc.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a>);</div><div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;}</div><div class="ttc" id="slider__resolution_8qc_html_ad3c7cac75202a988d6b5017d4da6796c"><div class="ttname"><a href="../../d9/d52/slider__resolution_8qc.html#ad3c7cac75202a988d6b5017d4da6796c">vid_conheight</a></div><div class="ttdeci">float vid_conheight</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d52/slider__resolution_8qc_source.html#l00005">slider_resolution.qc:5</a></div></div>
 <div class="ttc" id="view_8qh_html_a9c98f8575624437f3c4e14709601e5dd"><div class="ttname"><a href="../../d5/d8c/view_8qh.html#a9c98f8575624437f3c4e14709601e5dd">autocvar_menu_mouse_speed</a></div><div class="ttdeci">float autocvar_menu_mouse_speed</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/view_8qh_source.html#l00066">view.qh:66</a></div></div>
 <div class="ttc" id="slider__resolution_8qc_html_a20d555d9b4b63c3a86ea9c41ba74efd2"><div class="ttname"><a href="../../d9/d52/slider__resolution_8qc.html#a20d555d9b4b63c3a86ea9c41ba74efd2">vid_conwidth</a></div><div class="ttdeci">float vid_conwidth</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d52/slider__resolution_8qc_source.html#l00004">slider_resolution.qc:4</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_addba2eab8e095dbf65080939e1da5747"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#addba2eab8e095dbf65080939e1da5747">getmousepos</a></div><div class="ttdeci">vector getmousepos(void)</div></div>
@@ -556,7 +556,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00092">92</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01337">View_CheckButtonStatus()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01342">View_CheckButtonStatus()</a>.</p>
 
 </div>
 </div>
@@ -574,7 +574,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00005">5</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01765">CSQC_Demo_Camera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01770">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -592,7 +592,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00006">6</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01286">View_DemoCamera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01291">View_DemoCamera()</a>.</p>
 
 </div>
 </div>
@@ -610,7 +610,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00007">7</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01765">CSQC_Demo_Camera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01770">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -628,7 +628,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00008">8</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01765">CSQC_Demo_Camera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01770">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -646,7 +646,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00009">9</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01765">CSQC_Demo_Camera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01770">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -664,7 +664,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00010">10</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01765">CSQC_Demo_Camera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01770">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -682,7 +682,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00011">11</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01765">CSQC_Demo_Camera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01770">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -700,7 +700,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00012">12</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01765">CSQC_Demo_Camera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01770">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -718,7 +718,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00013">13</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01765">CSQC_Demo_Camera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01770">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -736,7 +736,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00014">14</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01765">CSQC_Demo_Camera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01770">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -754,7 +754,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00015">15</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01765">CSQC_Demo_Camera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01770">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -772,7 +772,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00016">16</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01765">CSQC_Demo_Camera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01770">CSQC_Demo_Camera()</a>.</p>
 
 </div>
 </div>
@@ -790,7 +790,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00017">17</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01528">CSQC_UpdateView()</a>, <a class="el" href="../../d7/da2/cl__player_8qc_source.html#l00521">CSQCPlayer_CalcRefdef()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00040">Draw_ShowNames()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00226">HUD_Crosshair()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00149">Shutdown()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01286">View_DemoCamera()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00627">View_EventChase()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00241">viewmodel_animate()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00279">viewmodel_draw()</a>, <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00270">W_Model()</a>, and <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00166">WarpZone_View_Inside()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01533">CSQC_UpdateView()</a>, <a class="el" href="../../d7/da2/cl__player_8qc_source.html#l00521">CSQCPlayer_CalcRefdef()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00040">Draw_ShowNames()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00226">HUD_Crosshair()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00149">Shutdown()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01291">View_DemoCamera()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00628">View_EventChase()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00242">viewmodel_animate()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00280">viewmodel_draw()</a>, <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00270">W_Model()</a>, and <a class="el" href="../../d0/d72/lib_2warpzone_2client_8qc_source.html#l00166">WarpZone_View_Inside()</a>.</p>
 
 </div>
 </div>
@@ -826,7 +826,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00085">85</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00590">WantEventchase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00591">WantEventchase()</a>.</p>
 
 </div>
 </div>
@@ -844,7 +844,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00086">86</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00627">View_EventChase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00628">View_EventChase()</a>.</p>
 
 </div>
 </div>
@@ -862,7 +862,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00087">87</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00590">WantEventchase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00591">WantEventchase()</a>.</p>
 
 </div>
 </div>
@@ -880,7 +880,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00089">89</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00627">View_EventChase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00628">View_EventChase()</a>.</p>
 
 </div>
 </div>
@@ -898,7 +898,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00090">90</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00627">View_EventChase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00628">View_EventChase()</a>.</p>
 
 </div>
 </div>
@@ -916,7 +916,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00083">83</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00590">WantEventchase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00591">WantEventchase()</a>.</p>
 
 </div>
 </div>
@@ -934,7 +934,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00084">84</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00590">WantEventchase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00591">WantEventchase()</a>.</p>
 
 </div>
 </div>
@@ -952,7 +952,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00088">88</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00627">View_EventChase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00628">View_EventChase()</a>.</p>
 
 </div>
 </div>
@@ -970,7 +970,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00075">75</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00627">View_EventChase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00628">View_EventChase()</a>.</p>
 
 </div>
 </div>
@@ -988,7 +988,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00077">77</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00627">View_EventChase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00628">View_EventChase()</a>.</p>
 
 </div>
 </div>
@@ -1006,7 +1006,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00076">76</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00627">View_EventChase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00628">View_EventChase()</a>.</p>
 
 </div>
 </div>
@@ -1024,7 +1024,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00091">91</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00627">View_EventChase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00628">View_EventChase()</a>.</p>
 
 </div>
 </div>
@@ -1042,7 +1042,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00019">19</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1060,7 +1060,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00078">78</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00793">HitSound()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00794">HitSound()</a>.</p>
 
 </div>
 </div>
@@ -1078,7 +1078,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00082">82</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00793">HitSound()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00794">HitSound()</a>.</p>
 
 </div>
 </div>
@@ -1096,7 +1096,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00080">80</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00793">HitSound()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00794">HitSound()</a>.</p>
 
 </div>
 </div>
@@ -1114,7 +1114,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00079">79</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00793">HitSound()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00794">HitSound()</a>.</p>
 
 </div>
 </div>
@@ -1132,7 +1132,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00081">81</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00793">HitSound()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00794">HitSound()</a>.</p>
 
 </div>
 </div>
@@ -1150,7 +1150,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00020">20</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00044">CSQC_Init()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00226">HUD_Crosshair()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00800">NET_HANDLE()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l01260">View_Lock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00044">CSQC_Init()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00226">HUD_Crosshair()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00800">NET_HANDLE()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l01265">View_Lock()</a>.</p>
 
 </div>
 </div>
@@ -1168,7 +1168,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00093">93</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00859">HUD_Draw()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00860">HUD_Draw()</a>.</p>
 
 </div>
 </div>
@@ -1186,7 +1186,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00021">21</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l01000">Fog_Force()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01433">View_Ortho()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01515">View_UpdateFov()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00590">WantEventchase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l01000">Fog_Force()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01438">View_Ortho()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01520">View_UpdateFov()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00591">WantEventchase()</a>.</p>
 
 </div>
 </div>
@@ -1222,7 +1222,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00023">23</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00800">NET_HANDLE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00800">NET_HANDLE()</a>.</p>
 
 </div>
 </div>
@@ -1240,7 +1240,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00025">25</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00800">NET_HANDLE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00800">NET_HANDLE()</a>.</p>
 
 </div>
 </div>
@@ -1258,7 +1258,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00024">24</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>.</p>
 
 </div>
 </div>
@@ -1276,7 +1276,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00026">26</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01528">CSQC_UpdateView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01533">CSQC_UpdateView()</a>.</p>
 
 </div>
 </div>
@@ -1294,7 +1294,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00027">27</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>.</p>
 
 </div>
 </div>
@@ -1312,7 +1312,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00028">28</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>.</p>
 
 </div>
 </div>
@@ -1330,7 +1330,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00030">30</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>.</p>
 
 </div>
 </div>
@@ -1348,7 +1348,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00031">31</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>.</p>
 
 </div>
 </div>
@@ -1366,7 +1366,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00029">29</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>.</p>
 
 </div>
 </div>
@@ -1384,7 +1384,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00032">32</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>.</p>
 
 </div>
 </div>
@@ -1402,7 +1402,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00033">33</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>.</p>
 
 </div>
 </div>
@@ -1420,7 +1420,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00034">34</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>.</p>
 
 </div>
 </div>
@@ -1438,7 +1438,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00035">35</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01337">View_CheckButtonStatus()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l01515">View_UpdateFov()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01342">View_CheckButtonStatus()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l01520">View_UpdateFov()</a>.</p>
 
 </div>
 </div>
@@ -1456,7 +1456,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00036">36</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00859">HUD_Draw()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00860">HUD_Draw()</a>.</p>
 
 </div>
 </div>
@@ -1474,7 +1474,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00037">37</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01044">HUD_Contents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01045">HUD_Contents()</a>.</p>
 
 </div>
 </div>
@@ -1492,7 +1492,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00038">38</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01044">HUD_Contents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01045">HUD_Contents()</a>.</p>
 
 </div>
 </div>
@@ -1510,7 +1510,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00039">39</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01044">HUD_Contents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01045">HUD_Contents()</a>.</p>
 
 </div>
 </div>
@@ -1528,7 +1528,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00040">40</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01044">HUD_Contents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01045">HUD_Contents()</a>.</p>
 
 </div>
 </div>
@@ -1546,7 +1546,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00041">41</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01044">HUD_Contents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01045">HUD_Contents()</a>.</p>
 
 </div>
 </div>
@@ -1564,7 +1564,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00042">42</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01044">HUD_Contents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01045">HUD_Contents()</a>.</p>
 
 </div>
 </div>
@@ -1582,7 +1582,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00043">43</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01044">HUD_Contents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01045">HUD_Contents()</a>.</p>
 
 </div>
 </div>
@@ -1600,7 +1600,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00044">44</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01044">HUD_Contents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01045">HUD_Contents()</a>.</p>
 
 </div>
 </div>
@@ -1618,7 +1618,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00045">45</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01044">HUD_Contents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01045">HUD_Contents()</a>.</p>
 
 </div>
 </div>
@@ -1636,7 +1636,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00046">46</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01044">HUD_Contents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01045">HUD_Contents()</a>.</p>
 
 </div>
 </div>
@@ -1654,7 +1654,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00047">47</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01044">HUD_Contents()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01045">HUD_Contents()</a>.</p>
 
 </div>
 </div>
@@ -1672,7 +1672,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00048">48</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1690,7 +1690,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00049">49</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1708,7 +1708,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00050">50</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1726,7 +1726,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00051">51</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1744,7 +1744,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00052">52</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1762,7 +1762,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00053">53</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1780,7 +1780,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00054">54</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1798,7 +1798,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00055">55</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1816,7 +1816,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00056">56</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1834,7 +1834,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00057">57</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1852,7 +1852,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00058">58</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1870,7 +1870,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00059">59</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1888,7 +1888,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00060">60</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1906,7 +1906,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00061">61</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>.</p>
 
 </div>
 </div>
@@ -1924,7 +1924,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00063">63</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01044">HUD_Contents()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l01203">View_PostProcessing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01045">HUD_Contents()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l01204">View_PostProcessing()</a>.</p>
 
 </div>
 </div>
@@ -1942,7 +1942,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00064">64</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01203">View_PostProcessing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01204">View_PostProcessing()</a>.</p>
 
 </div>
 </div>
@@ -1960,7 +1960,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00065">65</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01203">View_PostProcessing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01204">View_PostProcessing()</a>.</p>
 
 </div>
 </div>
@@ -1978,7 +1978,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00062">62</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01203">View_PostProcessing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01204">View_PostProcessing()</a>.</p>
 
 </div>
 </div>
@@ -1996,7 +1996,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00066">66</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00379">update_mousepos()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00921">ViewLocation_Mouse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00380">update_mousepos()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00922">ViewLocation_Mouse()</a>.</p>
 
 </div>
 </div>
@@ -2014,7 +2014,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00094">94</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01528">CSQC_UpdateView()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00149">Shutdown()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00279">viewmodel_draw()</a>, and <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00270">W_Model()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01533">CSQC_UpdateView()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00149">Shutdown()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00280">viewmodel_draw()</a>, and <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00270">W_Model()</a>.</p>
 
 </div>
 </div>
@@ -2032,7 +2032,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00067">67</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00990">View_NightVision()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00991">View_NightVision()</a>.</p>
 
 </div>
 </div>
@@ -2050,7 +2050,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00068">68</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00990">View_NightVision()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00991">View_NightVision()</a>.</p>
 
 </div>
 </div>
@@ -2102,7 +2102,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00071">71</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01528">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00990">View_NightVision()</a>, and <a class="el" href="../../d8/d6d/viewloc_8qc_source.html#l00013">viewloc_PlayerPhysics()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01533">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00991">View_NightVision()</a>, and <a class="el" href="../../d8/d6d/viewloc_8qc_source.html#l00013">viewloc_PlayerPhysics()</a>.</p>
 
 </div>
 </div>
@@ -2120,7 +2120,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00072">72</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01528">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00990">View_NightVision()</a>, and <a class="el" href="../../d8/d6d/viewloc_8qc_source.html#l00013">viewloc_PlayerPhysics()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01533">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00991">View_NightVision()</a>, and <a class="el" href="../../d8/d6d/viewloc_8qc_source.html#l00013">viewloc_PlayerPhysics()</a>.</p>
 
 </div>
 </div>
@@ -2138,7 +2138,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00073">73</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01528">CSQC_UpdateView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01533">CSQC_UpdateView()</a>.</p>
 
 </div>
 </div>
@@ -2172,7 +2172,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00108">108</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d15/hud_8qc_source.html#l00689">HUD_Main()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00948">HUD_Mouse()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02790">PM_UpdateButtons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d15/hud_8qc_source.html#l00689">HUD_Main()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00949">HUD_Mouse()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02745">PM_UpdateButtons()</a>.</p>
 
 </div>
 </div>
@@ -2190,7 +2190,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00111">111</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00935">HUD_Cursor_Show()</a>, and <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00796">HUD_Panel_Check_Mouse_Pos()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00936">HUD_Cursor_Show()</a>, and <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00796">HUD_Panel_Check_Mouse_Pos()</a>.</p>
 
 </div>
 </div>
@@ -2208,7 +2208,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00110">110</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00087">HUD_Configure_Exit_Force()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00935">HUD_Cursor_Show()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00948">HUD_Mouse()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00796">HUD_Panel_Check_Mouse_Pos()</a>, and <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00956">HUD_Panel_Mouse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00087">HUD_Configure_Exit_Force()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00936">HUD_Cursor_Show()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00949">HUD_Mouse()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00796">HUD_Panel_Check_Mouse_Pos()</a>, and <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00956">HUD_Panel_Mouse()</a>.</p>
 
 </div>
 </div>
@@ -2226,7 +2226,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00112">112</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00935">HUD_Cursor_Show()</a>, and <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00796">HUD_Panel_Check_Mouse_Pos()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00936">HUD_Cursor_Show()</a>, and <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00796">HUD_Panel_Check_Mouse_Pos()</a>.</p>
 
 </div>
 </div>
@@ -2244,7 +2244,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00113">113</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00935">HUD_Cursor_Show()</a>, and <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00796">HUD_Panel_Check_Mouse_Pos()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00936">HUD_Cursor_Show()</a>, and <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00796">HUD_Panel_Check_Mouse_Pos()</a>.</p>
 
 </div>
 </div>
@@ -2262,7 +2262,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00109">109</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00087">HUD_Configure_Exit_Force()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00935">HUD_Cursor_Show()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00948">HUD_Mouse()</a>, and <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00956">HUD_Panel_Mouse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00087">HUD_Configure_Exit_Force()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00936">HUD_Cursor_Show()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00949">HUD_Mouse()</a>, and <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00956">HUD_Panel_Mouse()</a>.</p>
 
 </div>
 </div>
@@ -2280,7 +2280,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00119">119</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00057">bot_think()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01114">HUD_Damage()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00177">PlayerCorpseDamage()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00228">PlayerDamage()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01736">SpectateCopy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00057">bot_think()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01115">HUD_Damage()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00178">PlayerCorpseDamage()</a>, <a class="el" href="../../db/d9b/server_2player_8qc_source.html#l00229">PlayerDamage()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l01691">SpectateCopy()</a>.</p>
 
 </div>
 </div>
@@ -2298,7 +2298,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00115">115</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01528">CSQC_UpdateView()</a>, <a class="el" href="../../d7/da2/cl__player_8qc_source.html#l00245">CSQCModel_ApplyStairSmoothing()</a>, <a class="el" href="../../d7/da2/cl__player_8qc_source.html#l00217">CSQCPlayer_ApplySmoothing()</a>, and <a class="el" href="../../d7/da2/cl__player_8qc_source.html#l00554">CSQCPlayer_SetCamera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01533">CSQC_UpdateView()</a>, <a class="el" href="../../d7/da2/cl__player_8qc_source.html#l00245">CSQCModel_ApplyStairSmoothing()</a>, <a class="el" href="../../d7/da2/cl__player_8qc_source.html#l00217">CSQCPlayer_ApplySmoothing()</a>, and <a class="el" href="../../d7/da2/cl__player_8qc_source.html#l00554">CSQCPlayer_SetCamera()</a>.</p>
 
 </div>
 </div>
@@ -2316,7 +2316,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00127">127</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01528">CSQC_UpdateView()</a>, <a class="el" href="../../d4/d48/notify_8qc_source.html#l00059">HUD_Notify()</a>, and <a class="el" href="../../d5/dfa/timer_8qc_source.html#l00013">HUD_Timer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01533">CSQC_UpdateView()</a>, <a class="el" href="../../d4/d48/notify_8qc_source.html#l00059">HUD_Notify()</a>, and <a class="el" href="../../d5/dfa/timer_8qc_source.html#l00013">HUD_Timer()</a>.</p>
 
 </div>
 </div>
@@ -2334,7 +2334,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00116">116</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00793">HitSound()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00226">HUD_Crosshair()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00769">UpdateDamage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00794">HitSound()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00226">HUD_Crosshair()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00770">UpdateDamage()</a>.</p>
 
 </div>
 </div>
@@ -2352,7 +2352,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00106">106</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00226">HUD_Crosshair()</a>, <a class="el" href="../../d8/d6d/viewloc_8qc_source.html#l00013">viewloc_PlayerPhysics()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00921">ViewLocation_Mouse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00226">HUD_Crosshair()</a>, <a class="el" href="../../d8/d6d/viewloc_8qc_source.html#l00013">viewloc_PlayerPhysics()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00922">ViewLocation_Mouse()</a>.</p>
 
 </div>
 </div>
@@ -2370,7 +2370,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00104">104</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01528">CSQC_UpdateView()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00678">DrawReticle()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00416">GetCurrentFov()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00793">HitSound()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00111">HUD_Ammo()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00226">HUD_Crosshair()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00119">HUD_Weapons()</a>, <a class="el" href="../../d2/d0a/common_2physics_2player_8qc_source.html#l00116">PM_ClientMovement_UpdateStatus()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00354">STATIC_INIT()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01337">View_CheckButtonStatus()</a>, and <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00270">W_Model()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01533">CSQC_UpdateView()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00678">DrawReticle()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00417">GetCurrentFov()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00794">HitSound()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00111">HUD_Ammo()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00226">HUD_Crosshair()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00119">HUD_Weapons()</a>, <a class="el" href="../../d2/d0a/common_2physics_2player_8qc_source.html#l00116">PM_ClientMovement_UpdateStatus()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00355">STATIC_INIT()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01342">View_CheckButtonStatus()</a>, and <a class="el" href="../../d0/d2b/weapons_2all_8qc_source.html#l00270">W_Model()</a>.</p>
 
 </div>
 </div>
@@ -2388,7 +2388,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8c/view_8qh_source.html#l00117">117</a> of file <a class="el" href="../../d5/d8c/view_8qh_source.html">view.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00678">DrawReticle()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00074">TrueAimCheck()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l01337">View_CheckButtonStatus()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00678">DrawReticle()</a>, <a class="el" href="../../de/d23/crosshair_8qc_source.html#l00074">TrueAimCheck()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l01342">View_CheckButtonStatus()</a>.</p>
 
 </div>
 </div>
@@ -2398,7 +2398,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d5/d8c/view_8qh.html">view.qh</a></li>
-    <li class="footer">Generated on Wed Jun 23 2021 03:25:42 for Xonotic by
+    <li class="footer">Generated on Wed Jun 23 2021 14:51:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

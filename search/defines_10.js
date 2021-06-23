@@ -143,7 +143,7 @@ var searchData=
   ['postgive_5fbit',['POSTGIVE_BIT',['../d0/d7d/server_2items_2items_8qh.html#ad671dda114daa60831578436ae46a2e3',1,'items.qh']]],
   ['postgive_5fres_5frot',['POSTGIVE_RES_ROT',['../d0/d7d/server_2items_2items_8qh.html#ac114400383d0d06db4c6dc3fa1681861',1,'items.qh']]],
   ['postgive_5fresource',['POSTGIVE_RESOURCE',['../d0/d7d/server_2items_2items_8qh.html#a533ed956e96b795bdb88d6b16e75e358',1,'items.qh']]],
-  ['postgive_5fstatuseffect',['POSTGIVE_STATUSEFFECT',['../d0/d7d/server_2items_2items_8qh.html#ad27d1cf9d6df54fcb5833fbc32ce34ac',1,'items.qh']]],
+  ['postgive_5fstatuseffect',['POSTGIVE_STATUSEFFECT',['../d0/d7d/server_2items_2items_8qh.html#ab8e94a8cad111b5701516721bfe52723',1,'items.qh']]],
   ['postgive_5fvalue',['POSTGIVE_VALUE',['../d0/d7d/server_2items_2items_8qh.html#a30552a41711d522b0cff32f43a68561d',1,'items.qh']]],
   ['postgive_5fvalue_5frot',['POSTGIVE_VALUE_ROT',['../d0/d7d/server_2items_2items_8qh.html#ad00663ea8cb28165b5459d9bc1893230',1,'items.qh']]],
   ['postgive_5fweapon',['POSTGIVE_WEAPON',['../d0/d7d/server_2items_2items_8qh.html#a31cdb6ce487ddd7abc7b92651c85667f',1,'items.qh']]],

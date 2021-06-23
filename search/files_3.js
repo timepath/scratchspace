@@ -76,6 +76,8 @@ var searchData=
   ['cl_5fphysics_2eqc',['cl_physics.qc',['../d3/de1/cl__physics_8qc.html',1,'']]],
   ['cl_5fplayer_2eqc',['cl_player.qc',['../d7/da2/cl__player_8qc.html',1,'']]],
   ['cl_5fplayer_2eqh',['cl_player.qh',['../d9/dba/cl__player_8qh.html',1,'']]],
+  ['cl_5fpowerups_2eqc',['cl_powerups.qc',['../d7/de8/cl__powerups_8qc.html',1,'']]],
+  ['cl_5fpowerups_2eqh',['cl_powerups.qh',['../da/ddb/cl__powerups_8qh.html',1,'']]],
   ['cl_5frace_2eqc',['cl_race.qc',['../d6/dca/cl__race_8qc.html',1,'']]],
   ['cl_5frace_2eqh',['cl_race.qh',['../d0/d5b/cl__race_8qh.html',1,'']]],
   ['cl_5fspawn_5fnear_5fteammate_2eqc',['cl_spawn_near_teammate.qc',['../d6/de5/cl__spawn__near__teammate_8qc.html',1,'']]],

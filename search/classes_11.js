@@ -9,12 +9,15 @@ var searchData=
   ['shotgun',['Shotgun',['../d8/dd3/classShotgun.html',1,'']]],
   ['slider',['Slider',['../d3/dbe/classSlider.html',1,'']]],
   ['sound',['Sound',['../df/d49/classSound.html',1,'']]],
+  ['spawnshield',['SpawnShield',['../da/d0a/classSpawnShield.html',1,'']]],
   ['spectator',['Spectator',['../d1/d48/classSpectator.html',1,'']]],
+  ['speed',['Speed',['../dd/d97/classSpeed.html',1,'']]],
   ['spider',['Spider',['../df/d56/classSpider.html',1,'']]],
   ['spiderattack',['SpiderAttack',['../da/da9/classSpiderAttack.html',1,'']]],
   ['spiderbot',['Spiderbot',['../df/d0f/classSpiderbot.html',1,'']]],
   ['statuseffects',['StatusEffects',['../d2/dd9/classStatusEffects.html',1,'']]],
   ['strength',['Strength',['../da/dce/classStrength.html',1,'']]],
   ['stringsource',['StringSource',['../d7/d66/classStringSource.html',1,'']]],
-  ['superweapons',['Superweapons',['../d1/def/classSuperweapons.html',1,'']]]
+  ['superweapons',['Superweapons',['../d1/def/classSuperweapons.html',1,'']]],
+  ['swapperbuff',['SwapperBuff',['../d7/df7/classSwapperBuff.html',1,'']]]
 ];
