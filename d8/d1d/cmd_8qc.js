@@ -20,7 +20,7 @@ var cmd_8qc =
     [ "ClientCommand_say_team", "d8/d1d/cmd_8qc.html#ad58ae118ed5046354465c83ab676637e", null ],
     [ "ClientCommand_selectteam", "d8/d1d/cmd_8qc.html#a957c5c4d248bd3a8ee7320bcb30ad408", null ],
     [ "ClientCommand_selfstuff", "d8/d1d/cmd_8qc.html#af6bd410c413b595d91e5335938c871b0", null ],
-    [ "ClientCommand_sentcvar", "d8/d1d/cmd_8qc.html#aff844a69de86191996f32507f4ee730f", null ],
+    [ "ClientCommand_sentcvar", "d8/d1d/cmd_8qc.html#a2c64073337745d9409e5db6c36b5f5db", null ],
     [ "ClientCommand_spectate", "d8/d1d/cmd_8qc.html#afd416e5d7be0d4195230692e36a19919", null ],
     [ "ClientCommand_suggestmap", "d8/d1d/cmd_8qc.html#af68d1f74b4f155ec0c96912f9c03acf4", null ],
     [ "ClientCommand_tell", "d8/d1d/cmd_8qc.html#a6a487ac8c19cb81bdc5e6be5c57e2567", null ],
