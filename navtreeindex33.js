@@ -1,5 +1,9 @@
 var NAVTREEINDEX33 =
 {
+"d3/d9e/common_2items_2item_2ammo_8qc.html":[2,0,1,5,0,2],
+"d3/d9e/common_2items_2item_2ammo_8qc_source.html":[2,0,1,5,0,2],
+"d3/d9e/dpextensions_8qh.html":[2,0,2,2],
+"d3/d9e/dpextensions_8qh.html#a03da3a537f9764333e85cbed8b52f4e4":[2,0,2,2,9],
 "d3/d9e/dpextensions_8qh.html#a06290390a8e4a515c220120b75b6d10a":[2,0,2,2,7],
 "d3/d9e/dpextensions_8qh.html#a1dbdad540b7732fb83c9f5799ac5e108":[2,0,2,2,28],
 "d3/d9e/dpextensions_8qh.html#a2626679e4144af8478202c6c28f90cd9":[2,0,2,2,31],
@@ -245,9 +249,5 @@ var NAVTREEINDEX33 =
 "d3/dba/classXonoticLanguageList.html#a2aed9b007db3378480b691b9a52f3a7e":[1,0,236,100],
 "d3/dba/classXonoticLanguageList.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,236,40],
 "d3/dba/classXonoticLanguageList.html#a382a09f7c5068d0f7969a394178c444a":[1,0,236,31],
-"d3/dba/classXonoticLanguageList.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,236,33],
-"d3/dba/classXonoticLanguageList.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,236,27],
-"d3/dba/classXonoticLanguageList.html#a405b285a76ac127664593c89281a5b63":[1,0,236,69],
-"d3/dba/classXonoticLanguageList.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,236,32],
-"d3/dba/classXonoticLanguageList.html#a45e1e2d29c9ec847dc1e41862fc07cc8":[1,0,236,14]
+"d3/dba/classXonoticLanguageList.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,236,33]
 };

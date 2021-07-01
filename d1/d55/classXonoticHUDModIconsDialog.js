@@ -73,6 +73,7 @@ var classXonoticHUDModIconsDialog =
     [ "XonoticDialog ::configureDialog", "d1/d55/classXonoticHUDModIconsDialog.html#ab8f24f4d1e84b931a71478a39a98f0be", null ],
     [ "XonoticHUDModIconsDialog ::fill", "d1/d55/classXonoticHUDModIconsDialog.html#a252290d3bb8460d11f8b793917c243f5", null ],
     [ "XonoticRootDialog ::close", "d1/d55/classXonoticHUDModIconsDialog.html#a56710eb63ecd3ca9abbe3d25fde31138", null ],
+    [ "XonoticRootDialog ::showNotify", "d1/d55/classXonoticHUDModIconsDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b", null ],
     [ "allowFocusSound", "d1/d55/classXonoticHUDModIconsDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f", null ],
     [ "alpha", "d1/d55/classXonoticHUDModIconsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9", null ],
     [ "backgroundImage", "d1/d55/classXonoticHUDModIconsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea", null ],

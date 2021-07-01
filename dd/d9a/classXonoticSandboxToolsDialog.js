@@ -72,6 +72,7 @@ var classXonoticSandboxToolsDialog =
     [ "MenuItem ::toString", "dd/d9a/classXonoticSandboxToolsDialog.html#a9104bb64bf958907cd8ec69d8d9f513f", null ],
     [ "XonoticDialog ::configureDialog", "dd/d9a/classXonoticSandboxToolsDialog.html#ab8f24f4d1e84b931a71478a39a98f0be", null ],
     [ "XonoticRootDialog ::close", "dd/d9a/classXonoticSandboxToolsDialog.html#a56710eb63ecd3ca9abbe3d25fde31138", null ],
+    [ "XonoticRootDialog ::showNotify", "dd/d9a/classXonoticSandboxToolsDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b", null ],
     [ "XonoticSandboxToolsDialog ::fill", "dd/d9a/classXonoticSandboxToolsDialog.html#a5ae7cadfeb53f408f70af14fe4312de5", null ],
     [ "allowFocusSound", "dd/d9a/classXonoticSandboxToolsDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f", null ],
     [ "alpha", "dd/d9a/classXonoticSandboxToolsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9", null ],

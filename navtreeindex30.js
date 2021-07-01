@@ -1,5 +1,8 @@
 var NAVTREEINDEX30 =
 {
+"d3/d47/classXonoticTabController.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,280,38],
+"d3/d47/classXonoticTabController.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,280,32],
+"d3/d47/classXonoticTabController.html#a3df9f40869004e26c3d0dd7fc28e57c4":[1,0,280,25],
 "d3/d47/classXonoticTabController.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,280,37],
 "d3/d47/classXonoticTabController.html#a4a00a5ccb472671f42aa60b087b74545":[1,0,280,49],
 "d3/d47/classXonoticTabController.html#a4ce700a3a0917cb5ebbc8edbe293630f":[1,0,280,26],
@@ -246,8 +249,5 @@ var NAVTREEINDEX30 =
 "d3/d53/server_2mapvoting_8qh.html#a77b378a16a31d713377f2276f70c847a":[2,0,6,42,29],
 "d3/d53/server_2mapvoting_8qh.html#a7b020a638a67e26bd52a0a3abef8edc5":[2,0,6,42,24],
 "d3/d53/server_2mapvoting_8qh.html#a7e843f164e58f424607d2e26f86f7f72":[2,0,6,42,19],
-"d3/d53/server_2mapvoting_8qh.html#a858074923c6e66b2b4c8a559306a359d":[2,0,6,42,6],
-"d3/d53/server_2mapvoting_8qh.html#a91977ec641716ab65dfac5a5eb0ab439":[2,0,6,42,22],
-"d3/d53/server_2mapvoting_8qh.html#a9e23e88fcace6381b529ac8060f0ad26":[2,0,6,42,4],
-"d3/d53/server_2mapvoting_8qh.html#aa0417c9954780dac5ab53423269b90f1":[2,0,6,42,27]
+"d3/d53/server_2mapvoting_8qh.html#a858074923c6e66b2b4c8a559306a359d":[2,0,6,42,6]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX53 =
 {
+"d5/d53/classXonoticCharmap.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,178,15],
+"d5/d53/classXonoticCharmap.html#a70f832f511ac0fb8f0519637f49ef4ee":[1,0,178,50],
+"d5/d53/classXonoticCharmap.html#a833a90f9f86d6dd255bd1a5c19e26bda":[1,0,178,39],
+"d5/d53/classXonoticCharmap.html#a854d21e1b9d1e8d75b0f192a793c2992":[1,0,178,52],
+"d5/d53/classXonoticCharmap.html#a8b78346a74df75772de387092d850f39":[1,0,178,6],
+"d5/d53/classXonoticCharmap.html#a90a011203a2ddc1e6bb9e949a3a52379":[1,0,178,35],
+"d5/d53/classXonoticCharmap.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,178,17],
+"d5/d53/classXonoticCharmap.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,178,14],
 "d5/d53/classXonoticCharmap.html#a973b50f4c06857a506c1a3c23f8f2ccb":[1,0,178,19],
 "d5/d53/classXonoticCharmap.html#a9f84f4ffde4600e714c309ecd874cb2b":[1,0,178,12],
 "d5/d53/classXonoticCharmap.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,178,43],
@@ -241,13 +249,5 @@ var NAVTREEINDEX53 =
 "d5/d6f/xonotic_2checkbox_8qc.html#ab0962d6e3ca24d502f661a5c4c1eb770":[2,0,5,4,12,3],
 "d5/d6f/xonotic_2checkbox_8qc.html#abd68b3cdbcebff2b5d6fc9da7b430b76":[2,0,5,4,12,0],
 "d5/d6f/xonotic_2checkbox_8qc.html#ad6067882d4bb52128a27f3a6d52ea311":[2,0,5,4,12,5],
-"d5/d6f/xonotic_2checkbox_8qc.html#af20c2d73554a59acac7cf29010b96966":[2,0,5,4,12,4],
-"d5/d6f/xonotic_2checkbox_8qc.html#af7913795ba021937bdf5ad97f1f38e2c":[2,0,5,4,12,6],
-"d5/d6f/xonotic_2checkbox_8qc.html#afe314e4226112bc511f89bdd74939c3d":[2,0,5,4,12,2],
-"d5/d6f/xonotic_2checkbox_8qc_source.html":[2,0,5,4,12],
-"d5/d70/common_2mutators_2mutator_2overkill_2__mod_8inc.html":[2,0,1,10,0,23,0],
-"d5/d70/common_2mutators_2mutator_2overkill_2__mod_8inc_source.html":[2,0,1,10,0,23,0],
-"d5/d73/classXonoticEffectsSettingsTab.html":[1,0,199],
-"d5/d73/classXonoticEffectsSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,199,10],
-"d5/d73/classXonoticEffectsSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,199,4]
+"d5/d6f/xonotic_2checkbox_8qc.html#af20c2d73554a59acac7cf29010b96966":[2,0,5,4,12,4]
 };

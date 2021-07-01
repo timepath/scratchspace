@@ -72,6 +72,7 @@ var classXonoticUid2NameDialog =
     [ "MenuItem ::toString", "d4/d85/classXonoticUid2NameDialog.html#a9104bb64bf958907cd8ec69d8d9f513f", null ],
     [ "XonoticDialog ::configureDialog", "d4/d85/classXonoticUid2NameDialog.html#ab8f24f4d1e84b931a71478a39a98f0be", null ],
     [ "XonoticRootDialog ::close", "d4/d85/classXonoticUid2NameDialog.html#a56710eb63ecd3ca9abbe3d25fde31138", null ],
+    [ "XonoticRootDialog ::showNotify", "d4/d85/classXonoticUid2NameDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b", null ],
     [ "XonoticUid2NameDialog ::fill", "d4/d85/classXonoticUid2NameDialog.html#a4afbee4e29952663d5b5a3c253ea8c21", null ],
     [ "allowFocusSound", "d4/d85/classXonoticUid2NameDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f", null ],
     [ "alpha", "d4/d85/classXonoticUid2NameDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9", null ],

@@ -73,6 +73,7 @@ var classXonoticHUDTimerDialog =
     [ "XonoticDialog ::configureDialog", "d9/deb/classXonoticHUDTimerDialog.html#ab8f24f4d1e84b931a71478a39a98f0be", null ],
     [ "XonoticHUDTimerDialog ::fill", "d9/deb/classXonoticHUDTimerDialog.html#a6a26ab58117fbba19c019ae69f35aa13", null ],
     [ "XonoticRootDialog ::close", "d9/deb/classXonoticHUDTimerDialog.html#a56710eb63ecd3ca9abbe3d25fde31138", null ],
+    [ "XonoticRootDialog ::showNotify", "d9/deb/classXonoticHUDTimerDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b", null ],
     [ "allowFocusSound", "d9/deb/classXonoticHUDTimerDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f", null ],
     [ "alpha", "d9/deb/classXonoticHUDTimerDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9", null ],
     [ "backgroundImage", "d9/deb/classXonoticHUDTimerDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea", null ],

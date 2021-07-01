@@ -61,6 +61,7 @@ var NAVTREEINDEX6 =
 "d0/dc9/dialog__quit_8qc.html#a5b9e1c5a0514e7d4b73cb3f5991f5a99":[2,0,5,4,118,0],
 "d0/dc9/dialog__quit_8qc_source.html":[2,0,5,4,118],
 "d0/dca/rootdialog_8qc.html":[2,0,5,4,200],
+"d0/dca/rootdialog_8qc.html#a17ce0be6af918aae2a462d48b12fcac7":[2,0,5,4,200,1],
 "d0/dca/rootdialog_8qc.html#a92ab662c8231e8e4ecdbb97d6f03de6f":[2,0,5,4,200,0],
 "d0/dca/rootdialog_8qc_source.html":[2,0,5,4,200],
 "d0/dcd/csqcprojectile_8qc.html":[2,0,6,6,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "d0/de4/sv__onslaught_8qc.html#a5b9c24ecb2c59e66da9f4d047c8063b1":[2,0,1,3,0,13,16,50],
 "d0/de4/sv__onslaught_8qc.html#a5fe62bc628d64e864a5a92a7a71650a0":[2,0,1,3,0,13,16,75],
 "d0/de4/sv__onslaught_8qc.html#a60075dce221d6912949ccf44eea03465":[2,0,1,3,0,13,16,19],
-"d0/de4/sv__onslaught_8qc.html#a605a0036df1fd6a510b3a6031ae8de2d":[2,0,1,3,0,13,16,13],
-"d0/de4/sv__onslaught_8qc.html#a60f84a81d6901268f0cc3a4138813956":[2,0,1,3,0,13,16,47]
+"d0/de4/sv__onslaught_8qc.html#a605a0036df1fd6a510b3a6031ae8de2d":[2,0,1,3,0,13,16,13]
 };

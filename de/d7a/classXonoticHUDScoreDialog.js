@@ -73,6 +73,7 @@ var classXonoticHUDScoreDialog =
     [ "XonoticDialog ::configureDialog", "de/d7a/classXonoticHUDScoreDialog.html#ab8f24f4d1e84b931a71478a39a98f0be", null ],
     [ "XonoticHUDScoreDialog ::fill", "de/d7a/classXonoticHUDScoreDialog.html#a8a21cda753f53662c6e362ab0cab7934", null ],
     [ "XonoticRootDialog ::close", "de/d7a/classXonoticHUDScoreDialog.html#a56710eb63ecd3ca9abbe3d25fde31138", null ],
+    [ "XonoticRootDialog ::showNotify", "de/d7a/classXonoticHUDScoreDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b", null ],
     [ "allowFocusSound", "de/d7a/classXonoticHUDScoreDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f", null ],
     [ "alpha", "de/d7a/classXonoticHUDScoreDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9", null ],
     [ "backgroundImage", "de/d7a/classXonoticHUDScoreDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea", null ],

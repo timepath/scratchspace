@@ -73,6 +73,7 @@ var classXonoticHUDNotificationDialog =
     [ "XonoticDialog ::configureDialog", "db/d76/classXonoticHUDNotificationDialog.html#ab8f24f4d1e84b931a71478a39a98f0be", null ],
     [ "XonoticHUDNotificationDialog ::fill", "db/d76/classXonoticHUDNotificationDialog.html#ac67259f4c7852eab0694151b2ef34fec", null ],
     [ "XonoticRootDialog ::close", "db/d76/classXonoticHUDNotificationDialog.html#a56710eb63ecd3ca9abbe3d25fde31138", null ],
+    [ "XonoticRootDialog ::showNotify", "db/d76/classXonoticHUDNotificationDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b", null ],
     [ "allowFocusSound", "db/d76/classXonoticHUDNotificationDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f", null ],
     [ "alpha", "db/d76/classXonoticHUDNotificationDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9", null ],
     [ "backgroundImage", "db/d76/classXonoticHUDNotificationDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea", null ],

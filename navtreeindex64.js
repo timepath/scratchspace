@@ -1,5 +1,15 @@
 var NAVTREEINDEX64 =
 {
+"d6/d99/effectinfo__buffs_8inc.html#ac29c8a80f083e865d7a423ee7537cb2d":[2,0,1,2,10,5],
+"d6/d99/effectinfo__buffs_8inc.html#ac5382b9b6d74c788a78334c1673d8398":[2,0,1,2,10,23],
+"d6/d99/effectinfo__buffs_8inc.html#ae42a837d33cfdf98860b272da9e133b0":[2,0,1,2,10,8],
+"d6/d99/effectinfo__buffs_8inc.html#af6321e79c85cf47dd20db3e7beacd4a3":[2,0,1,2,10,15],
+"d6/d99/effectinfo__buffs_8inc_source.html":[2,0,1,2,10],
+"d6/d9c/bd_8qh.html":[2,0,1,7,0,4],
+"d6/d9c/bd_8qh_source.html":[2,0,1,7,0,4],
+"d6/d9c/door_8qc.html":[2,0,1,6,0,10],
+"d6/d9c/door_8qc.html#a2ca9d995658e84d256b554009a8906f6":[2,0,1,6,0,10,9],
+"d6/d9c/door_8qc.html#a337674d43d5772b78184bf240a40f104":[2,0,1,6,0,10,14],
 "d6/d9c/door_8qc.html#a430533544a99bab2ccd9e54301ef6442":[2,0,1,6,0,10,4],
 "d6/d9c/door_8qc.html#a442c07929af7af860cd6e92fb41b1ed3":[2,0,1,6,0,10,1],
 "d6/d9c/door_8qc.html#a4dab5a6c37fd9d7e8dc27ac97d82b91a":[2,0,1,6,0,10,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX64 =
 "d6/db0/sv__ctf_8qh.html#ad41dffba56e7cca672c12d0db057f58c":[2,0,1,3,0,2,7,24],
 "d6/db0/sv__ctf_8qh.html#ad57a66696ffcccefbcb985fcaa04ad42":[2,0,1,3,0,2,7,18],
 "d6/db0/sv__ctf_8qh.html#ad60c57148e65e3d2bdfbd65ee0f9c2cb":[2,0,1,3,0,2,7,76],
-"d6/db0/sv__ctf_8qh.html#ad9c602bb5bb55ed508f3098ccc7094ff":[2,0,1,3,0,2,7,94],
-"d6/db0/sv__ctf_8qh.html#ad9f019e393e9d2c7161664e64b41d9cf":[2,0,1,3,0,2,7,79],
-"d6/db0/sv__ctf_8qh.html#ada761077f7ab7c343e83b4fd69d325aa":[2,0,1,3,0,2,7,10],
-"d6/db0/sv__ctf_8qh.html#add5d2ed7f80776adaa595f67c0b63450":[2,0,1,3,0,2,7,48],
-"d6/db0/sv__ctf_8qh.html#adf6df42ec8d9e6ec0f12b7f2a972113b":[2,0,1,3,0,2,7,1],
-"d6/db0/sv__ctf_8qh.html#adfd4f8bc7fbc6e4d442131924e1b5a43":[2,0,1,3,0,2,7,44],
-"d6/db0/sv__ctf_8qh.html#ae358f8b5429276b6ef20a5d4ef5dfce7":[2,0,1,3,0,2,7,78],
-"d6/db0/sv__ctf_8qh.html#ae3bacb3e05d4911efc120b885702c4eb":[2,0,1,3,0,2,7,60],
-"d6/db0/sv__ctf_8qh.html#ae782ad57081e34f6d5c2074efbe2be1e":[2,0,1,3,0,2,7,8],
-"d6/db0/sv__ctf_8qh.html#ae8847e710b543ca649d84f01e5e43dc1":[2,0,1,3,0,2,7,9],
-"d6/db0/sv__ctf_8qh.html#aef7f4de8e0d8edc549ac4ab589677504":[2,0,1,3,0,2,7,49]
+"d6/db0/sv__ctf_8qh.html#ad9c602bb5bb55ed508f3098ccc7094ff":[2,0,1,3,0,2,7,94]
 };

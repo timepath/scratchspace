@@ -73,6 +73,7 @@ var classXonoticHUDWeaponsDialog =
     [ "XonoticDialog ::configureDialog", "d6/d79/classXonoticHUDWeaponsDialog.html#ab8f24f4d1e84b931a71478a39a98f0be", null ],
     [ "XonoticHUDWeaponsDialog ::fill", "d6/d79/classXonoticHUDWeaponsDialog.html#a7ed0c94417b21b187adc170ba2bccc51", null ],
     [ "XonoticRootDialog ::close", "d6/d79/classXonoticHUDWeaponsDialog.html#a56710eb63ecd3ca9abbe3d25fde31138", null ],
+    [ "XonoticRootDialog ::showNotify", "d6/d79/classXonoticHUDWeaponsDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b", null ],
     [ "allowFocusSound", "d6/d79/classXonoticHUDWeaponsDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f", null ],
     [ "alpha", "d6/d79/classXonoticHUDWeaponsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9", null ],
     [ "backgroundImage", "d6/d79/classXonoticHUDWeaponsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea", null ],

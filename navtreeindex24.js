@@ -1,5 +1,8 @@
 var NAVTREEINDEX24 =
 {
+"d2/dc3/menu_2item_2button_8qc.html#a9a18c0471558c93984932a6f3a3c8e23":[2,0,5,2,4,0],
+"d2/dc3/menu_2item_2button_8qc.html#aaa50089ebdde82645e100e69d438de8b":[2,0,5,2,4,5],
+"d2/dc3/menu_2item_2button_8qc.html#aad8a5f6e981257d1408bd0dab913f701":[2,0,5,2,4,8],
 "d2/dc3/menu_2item_2button_8qc.html#ad7dc81a3d5526c217fa59ecd05a3609e":[2,0,5,2,4,7],
 "d2/dc3/menu_2item_2button_8qc_source.html":[2,0,5,2,4],
 "d2/dc3/vaporizer_8qh.html":[2,0,1,16,0,39],
@@ -246,8 +249,5 @@ var NAVTREEINDEX24 =
 "d2/dd6/classXonoticInputSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,234,92],
 "d2/dd6/classXonoticInputSettingsTab.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,234,69],
 "d2/dd6/classXonoticInputSettingsTab.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,234,72],
-"d2/dd6/classXonoticInputSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,234,12],
-"d2/dd6/classXonoticInputSettingsTab.html#a34c24899d332b64a4827628957b243aa":[1,0,234,47],
-"d2/dd6/classXonoticInputSettingsTab.html#a36836cbbfc40570ef70c3b43798ca096":[1,0,234,27],
-"d2/dd6/classXonoticInputSettingsTab.html#a382a09f7c5068d0f7969a394178c444a":[1,0,234,63]
+"d2/dd6/classXonoticInputSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,234,12]
 };

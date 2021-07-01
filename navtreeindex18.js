@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"d2/d06/server_2command_2common_8qh.html#af90b5f0d4d9f0b9768fcad083b0afd6c":[2,0,6,1,7,17],
+"d2/d06/server_2command_2common_8qh.html#afa516cc38cc661fcd7e4b09cd74d071d":[2,0,6,1,7,31],
+"d2/d06/server_2command_2common_8qh.html#afff16d75dc358b9f81513350d82d92f3":[2,0,6,1,7,38],
 "d2/d06/server_2command_2common_8qh_source.html":[2,0,6,1,7],
 "d2/d08/sv__spawn__near__teammate_8qc.html":[2,0,1,10,0,33,6],
 "d2/d08/sv__spawn__near__teammate_8qc.html#a00aa4b1105a76a213f02d0366e8c6f26":[2,0,1,10,0,33,6,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "d2/d24/sv__nexball_8qc_source.html":[2,0,1,3,0,12,6],
 "d2/d25/classXonoticDemoStartConfirmDialog.html":[1,0,195],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,195,6],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,195,103],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a08ffa79439a4dea15f523602429af5d8":[1,0,195,47],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,195,101],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,195,53]
+"d2/d25/classXonoticDemoStartConfirmDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,195,103]
 };

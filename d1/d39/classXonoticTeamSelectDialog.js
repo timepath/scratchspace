@@ -76,6 +76,7 @@ var classXonoticTeamSelectDialog =
     [ "MenuItem ::toString", "d1/d39/classXonoticTeamSelectDialog.html#a9104bb64bf958907cd8ec69d8d9f513f", null ],
     [ "XonoticDialog ::configureDialog", "d1/d39/classXonoticTeamSelectDialog.html#ab8f24f4d1e84b931a71478a39a98f0be", null ],
     [ "XonoticRootDialog ::close", "d1/d39/classXonoticTeamSelectDialog.html#a56710eb63ecd3ca9abbe3d25fde31138", null ],
+    [ "XonoticRootDialog ::showNotify", "d1/d39/classXonoticTeamSelectDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b", null ],
     [ "XonoticTeamSelectDialog ::fill", "d1/d39/classXonoticTeamSelectDialog.html#aa4d205d1c770ebe438f7bd4f6f6db3b5", null ],
     [ "XonoticTeamSelectDialog ::showNotify", "d1/d39/classXonoticTeamSelectDialog.html#af21b2015ab8da36f8f4720389332496e", null ],
     [ "allowFocusSound", "d1/d39/classXonoticTeamSelectDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f", null ],

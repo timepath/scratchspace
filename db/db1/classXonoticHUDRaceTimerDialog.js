@@ -73,6 +73,7 @@ var classXonoticHUDRaceTimerDialog =
     [ "XonoticDialog ::configureDialog", "db/db1/classXonoticHUDRaceTimerDialog.html#ab8f24f4d1e84b931a71478a39a98f0be", null ],
     [ "XonoticHUDRaceTimerDialog ::fill", "db/db1/classXonoticHUDRaceTimerDialog.html#a173cf9979cb0b079b31af9c0f2a334eb", null ],
     [ "XonoticRootDialog ::close", "db/db1/classXonoticHUDRaceTimerDialog.html#a56710eb63ecd3ca9abbe3d25fde31138", null ],
+    [ "XonoticRootDialog ::showNotify", "db/db1/classXonoticHUDRaceTimerDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b", null ],
     [ "allowFocusSound", "db/db1/classXonoticHUDRaceTimerDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f", null ],
     [ "alpha", "db/db1/classXonoticHUDRaceTimerDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9", null ],
     [ "backgroundImage", "db/db1/classXonoticHUDRaceTimerDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea", null ],

@@ -73,6 +73,7 @@ var classXonoticHUDRadarDialog =
     [ "XonoticDialog ::configureDialog", "d4/df8/classXonoticHUDRadarDialog.html#ab8f24f4d1e84b931a71478a39a98f0be", null ],
     [ "XonoticHUDRadarDialog ::fill", "d4/df8/classXonoticHUDRadarDialog.html#a5e53bc0afaba959e84bf18fdd57c5435", null ],
     [ "XonoticRootDialog ::close", "d4/df8/classXonoticHUDRadarDialog.html#a56710eb63ecd3ca9abbe3d25fde31138", null ],
+    [ "XonoticRootDialog ::showNotify", "d4/df8/classXonoticHUDRadarDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b", null ],
     [ "allowFocusSound", "d4/df8/classXonoticHUDRadarDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f", null ],
     [ "alpha", "d4/df8/classXonoticHUDRadarDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9", null ],
     [ "backgroundImage", "d4/df8/classXonoticHUDRadarDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea", null ],
