@@ -29,7 +29,7 @@ var scoreboard_8qc =
     [ "Scoreboard_MakeTable", "d3/d07/scoreboard_8qc.html#a7c39c9361e93dd735561011ae5207b25", null ],
     [ "Scoreboard_MapStats_Draw", "d3/d07/scoreboard_8qc.html#a8827e611e2682061784beb73513e811b", null ],
     [ "Scoreboard_Rankings_Draw", "d3/d07/scoreboard_8qc.html#af5bf5064c81bedbf59e5299ce6d7dad4", null ],
-    [ "Scoreboard_Spectators_Draw", "d3/d07/scoreboard_8qc.html#aa44e2c2515fe05db1e8b900176d93a2c", null ],
+    [ "Scoreboard_Spectators_Draw", "d3/d07/scoreboard_8qc.html#aa4fa6ee1323374fd7abd5c2aff9f0406", null ],
     [ "Scoreboard_UpdatePlayerPos", "d3/d07/scoreboard_8qc.html#a5b15607a446ae96262cea7fdb2efc57d", null ],
     [ "Scoreboard_UpdatePlayerTeams", "d3/d07/scoreboard_8qc.html#a786ae1643fa32d62926c79d548105082", null ],
     [ "Scoreboard_UpdateTeamPos", "d3/d07/scoreboard_8qc.html#acbbc03b93a5e6007c8655e4bc66a1a38", null ],

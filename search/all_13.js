@@ -132,7 +132,7 @@ var searchData=
   ['scoreboard_5fright',['scoreboard_right',['../d4/d2b/scoreboard_8qh.html#a021a9d356c1798b7d007b9f1f7240fbe',1,'scoreboard.qh']]],
   ['scoreboard_5fshowscores',['scoreboard_showscores',['../d4/d2b/scoreboard_8qh.html#a82122038f6f96da3e271a63cc06516eb',1,'scoreboard.qh']]],
   ['scoreboard_5fshowscores_5fforce',['scoreboard_showscores_force',['../d4/da9/racetimer_8qh.html#adb370211fdbf7cf34007a2cc240e6ee2',1,'racetimer.qh']]],
-  ['scoreboard_5fspectators_5fdraw',['Scoreboard_Spectators_Draw',['../d3/d07/scoreboard_8qc.html#aa44e2c2515fe05db1e8b900176d93a2c',1,'scoreboard.qc']]],
+  ['scoreboard_5fspectators_5fdraw',['Scoreboard_Spectators_Draw',['../d3/d07/scoreboard_8qc.html#aa4fa6ee1323374fd7abd5c2aff9f0406',1,'scoreboard.qc']]],
   ['scoreboard_5ftime',['scoreboard_time',['../d3/d07/scoreboard_8qc.html#a2dd15cccb6df3379298c9bb9ceafdb1b',1,'scoreboard.qc']]],
   ['scoreboard_5ftop',['scoreboard_top',['../d4/d2b/scoreboard_8qh.html#a822ea5dbe8f1fcd24f956f19ea2733fe',1,'scoreboard.qh']]],
   ['scoreboard_5fupdateplayerpos',['Scoreboard_UpdatePlayerPos',['../d3/d07/scoreboard_8qc.html#a5b15607a446ae96262cea7fdb2efc57d',1,'Scoreboard_UpdatePlayerPos(entity player):&#160;scoreboard.qc'],['../d4/d2b/scoreboard_8qh.html#ab0ef91e08e1fc55cee817e45234d543e',1,'Scoreboard_UpdatePlayerPos(entity pl):&#160;scoreboard.qc']]],
