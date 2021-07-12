@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"d6/dea/crosshairpicker_8qc.html#ac9f68b3a09a11b8d871fd5da29b4e68a":[2,0,5,4,28,0],
 "d6/dea/crosshairpicker_8qc.html#adb4cd4289ac6b6cde6406bd64e9b456c":[2,0,5,4,28,5],
 "d6/dea/crosshairpicker_8qc.html#afdd6df90082971c240902a951d044c1d":[2,0,5,4,28,1],
 "d6/dea/crosshairpicker_8qc_source.html":[2,0,5,4,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "d7/d15/hud_8qc.html#a2cb9eb667b5191a841d4fb82824b7cca":[2,0,0,1,5,15],
 "d7/d15/hud_8qc.html#a346ca21750dc6c018430ab766d945da0":[2,0,0,1,5,19],
 "d7/d15/hud_8qc.html#a41b7823d1cc3d0f46d9780fadf782eba":[2,0,0,1,5,13],
-"d7/d15/hud_8qc.html#a477579f205512e6fa5cda9053148bb69":[2,0,0,1,5,11],
-"d7/d15/hud_8qc.html#a4c101d8ec9a9f35a6a6cbbb05faa99e6":[2,0,0,1,5,14]
+"d7/d15/hud_8qc.html#a477579f205512e6fa5cda9053148bb69":[2,0,0,1,5,11]
 };

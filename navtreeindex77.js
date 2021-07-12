@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"d7/de6/classXonoticSkinList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,274,78],
 "d7/de6/classXonoticSkinList.html#ac8277af9dfb8675e22addcf7d7e6cde3":[1,0,274,90],
 "d7/de6/classXonoticSkinList.html#ad01539024c6901a4bb41bae903e3b9fd":[1,0,274,44],
 "d7/de6/classXonoticSkinList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,274,58],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "d8/d06/client_2resources_8qc.html#a53ec0a3c5a395e2b64d468c08f49b63f":[2,0,0,22,0],
 "d8/d06/client_2resources_8qc.html#aac64e7b0dde144256d4f447c8a4ba3d0":[2,0,0,22,4],
 "d8/d06/client_2resources_8qc.html#abd0a415be4ae30b28fc11e8dd858e736":[2,0,0,22,1],
-"d8/d06/client_2resources_8qc_source.html":[2,0,0,22],
-"d8/d07/slider__sbfadetime_8qh.html":[2,0,5,4,223]
+"d8/d06/client_2resources_8qc_source.html":[2,0,0,22]
 };

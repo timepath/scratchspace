@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#a7728a037031e38e108efae0b30f9e88f":[2,0,6,4,3,50],
 "d6/ddd/server_2mutators_2events_8qh.html#a7790fcd04cde405c6514602b231cef87":[2,0,6,4,3,253],
 "d6/ddd/server_2mutators_2events_8qh.html#a7853d9319d4ebcaadaad437780022fdc":[2,0,6,4,3,247],
 "d6/ddd/server_2mutators_2events_8qh.html#a78652f5e6254efd7cad2cee3af313b3a":[2,0,6,4,3,92],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "d6/dea/crosshairpicker_8qc.html#a4c4327ccd7a6062460da870f8b6b33b7":[2,0,5,4,28,2],
 "d6/dea/crosshairpicker_8qc.html#a56c691ef6239647964068dc4850b9bf1":[2,0,5,4,28,4],
 "d6/dea/crosshairpicker_8qc.html#a5c221b96cde768a1ba2bb5c09a80ca01":[2,0,5,4,28,3],
-"d6/dea/crosshairpicker_8qc.html#a7e1c51fffefece8ef83e7546df6d05e7":[2,0,5,4,28,6],
-"d6/dea/crosshairpicker_8qc.html#ac9f68b3a09a11b8d871fd5da29b4e68a":[2,0,5,4,28,0]
+"d6/dea/crosshairpicker_8qc.html#a7e1c51fffefece8ef83e7546df6d05e7":[2,0,5,4,28,6]
 };

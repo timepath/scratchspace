@@ -1,5 +1,6 @@
 var NAVTREEINDEX150 =
 {
+"df/dd7/server_2client_8qc.html#a06fa68229b5a8bf0f5931e23bc3612b6":[2,0,6,19,31],
 "df/dd7/server_2client_8qc.html#a0ea52ed96e6d3b34c2c0eac9ec813fe7":[2,0,6,19,70],
 "df/dd7/server_2client_8qc.html#a1565df9f317d13a6dda4f158fe18478d":[2,0,6,19,62],
 "df/dd7/server_2client_8qc.html#a159c579f136a76f2364b031fd3246182":[2,0,6,19,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX150 =
 "df/df8/gamelog_8qh.html#a7e7365f5b2964b4007e80fb831d4fcbf":[2,0,6,28,10],
 "df/df8/gamelog_8qh.html#a90adaa9c125ae16e81fff1fe4506255a":[2,0,6,28,7],
 "df/df8/gamelog_8qh.html#aab597cecfb65556579256ad951a7298a":[2,0,6,28,5],
-"df/df8/gamelog_8qh.html#ab91bd10bfbbde0d25140aab6a29437a1":[2,0,6,28,11],
-"df/df8/gamelog_8qh.html#ac13e9e9bbda3a78738af60342170102c":[2,0,6,28,8]
+"df/df8/gamelog_8qh.html#ab91bd10bfbbde0d25140aab6a29437a1":[2,0,6,28,11]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"d6/d99/effectinfo__buffs_8inc.html#abd407c15fc2e9d67e461e5065abd0bb2":[2,0,1,2,10,6],
 "d6/d99/effectinfo__buffs_8inc.html#ac29c8a80f083e865d7a423ee7537cb2d":[2,0,1,2,10,5],
 "d6/d99/effectinfo__buffs_8inc.html#ac5382b9b6d74c788a78334c1673d8398":[2,0,1,2,10,23],
 "d6/d99/effectinfo__buffs_8inc.html#ae42a837d33cfdf98860b272da9e133b0":[2,0,1,2,10,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "d6/db0/sv__ctf_8qh.html#ad2fd6cb5e29b03272b0a1c88c2d096b2":[2,0,1,3,0,2,7,82],
 "d6/db0/sv__ctf_8qh.html#ad41dffba56e7cca672c12d0db057f58c":[2,0,1,3,0,2,7,24],
 "d6/db0/sv__ctf_8qh.html#ad57a66696ffcccefbcb985fcaa04ad42":[2,0,1,3,0,2,7,18],
-"d6/db0/sv__ctf_8qh.html#ad60c57148e65e3d2bdfbd65ee0f9c2cb":[2,0,1,3,0,2,7,76],
-"d6/db0/sv__ctf_8qh.html#ad9c602bb5bb55ed508f3098ccc7094ff":[2,0,1,3,0,2,7,94]
+"d6/db0/sv__ctf_8qh.html#ad60c57148e65e3d2bdfbd65ee0f9c2cb":[2,0,1,3,0,2,7,76]
 };
