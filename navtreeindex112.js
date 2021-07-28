@@ -1,5 +1,7 @@
 var NAVTREEINDEX112 =
 {
+"db/d7f/effectinfo_8inc.html#aef8d758822fa17d11ede32aa82e2ccba":[2,0,1,2,7,203],
+"db/d7f/effectinfo_8inc.html#aeff08119e4fba4242a59cdff1fd18f5e":[2,0,1,2,7,225],
 "db/d7f/effectinfo_8inc.html#af17352e09df984d6ac514098ea10b4ac":[2,0,1,2,7,40],
 "db/d7f/effectinfo_8inc.html#af1b4d3ac2045cc630aaba2c0799b3fb5":[2,0,1,2,7,228],
 "db/d7f/effectinfo_8inc.html#af21295da0ea13cf60c4d9ce0e84e0909":[2,0,1,2,7,154],
@@ -247,7 +249,5 @@ var NAVTREEINDEX112 =
 "db/da5/sv__invasion_8qc.html#a35de3f2be39ff6f7899b385b0a766984":[2,0,1,3,0,8,6,1],
 "db/da5/sv__invasion_8qc.html#a37398ef16170bd32f0348589a92768c3":[2,0,1,3,0,8,6,25],
 "db/da5/sv__invasion_8qc.html#a3e122eba2af4eac7636cc046347e9fa8":[2,0,1,3,0,8,6,22],
-"db/da5/sv__invasion_8qc.html#a40575f9d24ff7fadf4285df2f29013d6":[2,0,1,3,0,8,6,8],
-"db/da5/sv__invasion_8qc.html#a43e52b9ec872b58162ad1b7f5d91fb26":[2,0,1,3,0,8,6,34],
-"db/da5/sv__invasion_8qc.html#a4467a165bf84bd576e2b32724d02f080":[2,0,1,3,0,8,6,31]
+"db/da5/sv__invasion_8qc.html#a40575f9d24ff7fadf4285df2f29013d6":[2,0,1,3,0,8,6,8]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,228,9],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,228,110],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a7e5f37cd2cc8b63198ef2280d6a3e1c0":[1,0,228,108],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a7feb5da850fa841d5cdf41c383c6dbbe":[1,0,228,51],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,228,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "d5/dbc/common_2mutators_2mutator_2vampire_2__mod_8qh_source.html":[2,0,1,10,0,38,1],
 "d5/dc0/common_2minigames_2__mod_8qh.html":[2,0,1,7,2],
 "d5/dc0/common_2minigames_2__mod_8qh_source.html":[2,0,1,7,2],
-"d5/dc1/sv__touchexplode_8qh.html":[2,0,1,10,0,37,3],
-"d5/dc1/sv__touchexplode_8qh_source.html":[2,0,1,10,0,37,3],
-"d5/dc5/sv__cloaked_8qc.html":[2,0,1,10,0,5,2]
+"d5/dc1/sv__touchexplode_8qh.html":[2,0,1,10,0,37,3]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX105 =
 {
+"db/d15/api_8qh.html#a5ef356beaaf94d7aec6bdb2a28278636":[2,0,6,0,5,37],
+"db/d15/api_8qh.html#a61bcdb7f04fb4e5d365896649be7d773":[2,0,6,0,5,43],
 "db/d15/api_8qh.html#a6376176e4bdb1175ecafc13fb818dab2":[2,0,6,0,5,107],
 "db/d15/api_8qh.html#a6456f6b6523f83904a00a909d0a87236":[2,0,6,0,5,18],
 "db/d15/api_8qh.html#a66030abaadaaa3ea3a8d194bbb3a0654":[2,0,6,0,5,137],
@@ -175,8 +177,8 @@ var NAVTREEINDEX105 =
 "db/d29/classXonoticRegisteredSettingsList.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,257,43],
 "db/d29/classXonoticRegisteredSettingsList.html#a2aed9b007db3378480b691b9a52f3a7e":[1,0,257,95],
 "db/d29/classXonoticRegisteredSettingsList.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,257,46],
-"db/d29/classXonoticRegisteredSettingsList.html#a3025bb9215438b0e2a22971d34027d45":[1,0,257,52],
 "db/d29/classXonoticRegisteredSettingsList.html#a3025bb9215438b0e2a22971d34027d45":[1,0,257,51],
+"db/d29/classXonoticRegisteredSettingsList.html#a3025bb9215438b0e2a22971d34027d45":[1,0,257,52],
 "db/d29/classXonoticRegisteredSettingsList.html#a3609f7c1cb911c5b14ca20f9bd3ba843":[1,0,257,55],
 "db/d29/classXonoticRegisteredSettingsList.html#a361c76197a2f4af7eb56e4e9ab3055b3":[1,0,257,2],
 "db/d29/classXonoticRegisteredSettingsList.html#a382a09f7c5068d0f7969a394178c444a":[1,0,257,37],
@@ -247,7 +249,5 @@ var NAVTREEINDEX105 =
 "db/d29/classXonoticRegisteredSettingsList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,257,57],
 "db/d29/classXonoticRegisteredSettingsList.html#ae3286b80a66cea2cf1946073eef18380":[1,0,257,9],
 "db/d29/classXonoticRegisteredSettingsList.html#ae8f438486f0f50ec12428b9fa2cd9828":[1,0,257,80],
-"db/d29/classXonoticRegisteredSettingsList.html#aeadaba0a0d0bd5b07540a699f8de599f":[1,0,257,0],
-"db/d29/classXonoticRegisteredSettingsList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,257,77],
-"db/d29/classXonoticRegisteredSettingsList.html#aed05f75651928be9263a2073856f33cd":[1,0,257,89]
+"db/d29/classXonoticRegisteredSettingsList.html#aeadaba0a0d0bd5b07540a699f8de599f":[1,0,257,0]
 };

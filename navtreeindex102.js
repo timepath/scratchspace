@@ -1,5 +1,7 @@
 var NAVTREEINDEX102 =
 {
+"da/dc1/classXonoticAudioSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,172,106],
+"da/dc1/classXonoticAudioSettingsTab.html#a0eca5a7c86fcabfe685ab9ce4db22cbb":[1,0,172,105],
 "da/dc1/classXonoticAudioSettingsTab.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,172,58],
 "da/dc1/classXonoticAudioSettingsTab.html#a134618d9ba08f227978e9f7abc65dcd7":[1,0,172,49],
 "da/dc1/classXonoticAudioSettingsTab.html#a1363f51d76bde5021f29a75dad41e706":[1,0,172,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX102 =
 "da/dd4/effectinfo__onslaught_8inc.html#a4e5a6caa9b19fed08ede67c0d60971e6":[2,0,1,2,18,3],
 "da/dd4/effectinfo__onslaught_8inc.html#abf46a52bffaae6a3a20903b4eada2125":[2,0,1,2,18,2],
 "da/dd4/effectinfo__onslaught_8inc.html#ae12c63fbc86ebf5a12bf42691b3b2337":[2,0,1,2,18,1],
-"da/dd4/effectinfo__onslaught_8inc_source.html":[2,0,1,2,18],
-"da/dd5/enumclass_8qh.html":[2,0,4,19],
-"da/dd5/enumclass_8qh.html#a10f4c592b56e8ae136d22fc7a9cd22f0":[2,0,4,19,5]
+"da/dd4/effectinfo__onslaught_8inc_source.html":[2,0,1,2,18]
 };

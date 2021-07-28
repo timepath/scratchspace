@@ -1,5 +1,7 @@
 var NAVTREEINDEX143 =
 {
+"df/d26/classXonoticGameSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,205,114],
+"df/d26/classXonoticGameSettingsTab.html#a5a4756fc2a1458d279b2d8a4429c98c2":[1,0,205,46],
 "df/d26/classXonoticGameSettingsTab.html#a5bcb9ee4b3f215314548fe24df5645c7":[1,0,205,30],
 "df/d26/classXonoticGameSettingsTab.html#a5c93686203fa83a02cec79c6624cced3":[1,0,205,75],
 "df/d26/classXonoticGameSettingsTab.html#a5dbfe8a52dffe86aab520d8f79b8cd1e":[1,0,205,36],
@@ -247,7 +249,5 @@ var NAVTREEINDEX143 =
 "df/d28/sv__turrets_8qh.html#afc5bab0042155b03537a5da62de4050b":[2,0,1,14,12,39],
 "df/d28/sv__turrets_8qh.html#aff66c7c0115341f74d7ed89fce94dc43":[2,0,1,14,12,45],
 "df/d28/sv__turrets_8qh_source.html":[2,0,1,14,12],
-"df/d2c/hellion_8qc.html":[2,0,1,14,0,12],
-"df/d2c/hellion_8qc_source.html":[2,0,1,14,0,12],
-"df/d2e/common_2gamemodes_2gamemode_2race_2race_8qc.html":[2,0,1,3,0,14,4]
+"df/d2c/hellion_8qc.html":[2,0,1,14,0,12]
 };

@@ -1044,6 +1044,7 @@ var searchData=
   ['autocvar_5fg_5fplayer_5fdamageforcescale',['autocvar_g_player_damageforcescale',['../d8/de2/server_2client_8qh.html#ad0f18e606e230071766f9c0370b6c0c0',1,'client.qh']]],
   ['autocvar_5fg_5fplayerclip_5fcollisions',['autocvar_g_playerclip_collisions',['../d8/de2/server_2client_8qh.html#aacb56c8dead287cd3ae2b789a40c6e28',1,'client.qh']]],
   ['autocvar_5fg_5fpowerups',['autocvar_g_powerups',['../d4/d73/sv__powerups_8qh.html#a776a92402884c6d5200afa82479528f3',1,'sv_powerups.qh']]],
+  ['autocvar_5fg_5fpowerups_5fstack',['autocvar_g_powerups_stack',['../d4/d73/sv__powerups_8qh.html#a9aacda804219f0fc2618e1332bde1ab6',1,'sv_powerups.qh']]],
   ['autocvar_5fg_5fprojectiles_5fdamage',['autocvar_g_projectiles_damage',['../d1/dba/server_2weapons_2common_8qh.html#aea5bd559848fd65ea307bcc9bed0ae8a',1,'common.qh']]],
   ['autocvar_5fg_5fprojectiles_5fkeep_5fowner',['autocvar_g_projectiles_keep_owner',['../d1/dba/server_2weapons_2common_8qh.html#aa5599f2e69131c491a841eae6bb77578',1,'common.qh']]],
   ['autocvar_5fg_5fprojectiles_5fnewton_5fstyle',['autocvar_g_projectiles_newton_style',['../d4/d3f/tracing_8qh.html#a88bae950f10e6640f9eb3da13e5db42b',1,'tracing.qh']]],

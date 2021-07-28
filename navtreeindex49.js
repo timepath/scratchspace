@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"d4/da5/classXonoticBigCommandButton.html#a7ea16eba46d39dd5a7cc22fb0d36d915":[1,0,174,16],
+"d4/da5/classXonoticBigCommandButton.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,174,1],
 "d4/da5/classXonoticBigCommandButton.html#a890b986ec7dcbcb15956bf7955c822f4":[1,0,174,25],
 "d4/da5/classXonoticBigCommandButton.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,174,77],
 "d4/da5/classXonoticBigCommandButton.html#a8b3010fc463034904b21d7d6da17a127":[1,0,174,76],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "d4/db9/classMagnetBuff.html#a8e3462df86520a2bb887ee9997f5ed54":[1,0,84,11],
 "d4/db9/classMagnetBuff.html#ab22e25762fd4127e0509e4f934a30962":[1,0,84,4],
 "d4/db9/classMagnetBuff.html#ac403b4070fc773a6c6c612f8ee2961aa":[1,0,84,7],
-"d4/db9/classMagnetBuff.html#ae357161933cf399ac0a3515774f67ff8":[1,0,84,8],
-"d4/dba/lightningarc_8qh.html":[2,0,1,2,0,11],
-"d4/dba/lightningarc_8qh_source.html":[2,0,1,2,0,11]
+"d4/db9/classMagnetBuff.html#ae357161933cf399ac0a3515774f67ff8":[1,0,84,8]
 };
