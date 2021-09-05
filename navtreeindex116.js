@@ -1,5 +1,6 @@
 var NAVTREEINDEX116 =
 {
+"db/de8/effectinfo__gentle__particlegibs_8inc.html#a5753e509cf8cab9e0d669008e7beacf9":[2,0,1,2,15,0],
 "db/de8/effectinfo__gentle__particlegibs_8inc.html#a791c8254cff0ba6137a154c9f713b7b5":[2,0,1,2,15,3],
 "db/de8/effectinfo__gentle__particlegibs_8inc.html#abae54c99829691b761e2cc31786b0f7a":[2,0,1,2,15,2],
 "db/de8/effectinfo__gentle__particlegibs_8inc.html#ad182bfc5aec87ce49d43bb47d7426e79":[2,0,1,2,15,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX116 =
 "dc/d03/keycodes_8qc.html#a3805968235867e39001857ed7f26ed06":[2,0,2,0,2,23],
 "dc/d03/keycodes_8qc.html#a3f79735353bd2d9a9b7e67847a9865b7":[2,0,2,0,2,35],
 "dc/d03/keycodes_8qc.html#a403b2744d5225398d9265452c17f2fc4":[2,0,2,0,2,110],
-"dc/d03/keycodes_8qc.html#a44b3e687d4614acf3e440d85816f3249":[2,0,2,0,2,49],
-"dc/d03/keycodes_8qc.html#a4dc62e2282f74675c00fd37dcdfb55fc":[2,0,2,0,2,20]
+"dc/d03/keycodes_8qc.html#a44b3e687d4614acf3e440d85816f3249":[2,0,2,0,2,49]
 };

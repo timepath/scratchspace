@@ -1,5 +1,6 @@
 var NAVTREEINDEX141 =
 {
+"de/dcb/classMageSpike.html#a085c2c434d43995152bb13a7b46ac8e8":[1,0,83,7],
 "de/dcb/classMageSpike.html#a09500993ff472091b96518ef7e9f32a1":[1,0,83,15],
 "de/dcb/classMageSpike.html#a16fa2936c9dd4428f6baff84947bbe5c":[1,0,83,16],
 "de/dcb/classMageSpike.html#a1e193db66e42183be049f85f38a649ff":[1,0,83,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX141 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,217,111],
 "de/de7/classXonoticHUDItemsTimeDialog.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,217,57],
 "de/de7/classXonoticHUDItemsTimeDialog.html#ac090de718883fe54a336391f7c4b5b88":[1,0,217,20],
-"de/de7/classXonoticHUDItemsTimeDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,217,74],
-"de/de7/classXonoticHUDItemsTimeDialog.html#ac2d305f3d52cd31a07ed7d66b97b2145":[1,0,217,37]
+"de/de7/classXonoticHUDItemsTimeDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,217,74]
 };

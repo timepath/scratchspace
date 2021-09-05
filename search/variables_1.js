@@ -366,6 +366,7 @@ var searchData=
   ['autocvar_5fcl_5fforcemyplayerskin',['autocvar_cl_forcemyplayerskin',['../d3/dfc/csqcmodel__hooks_8qh.html#a4691e22b47b5866a375f85894846e5af',1,'csqcmodel_hooks.qh']]],
   ['autocvar_5fcl_5fforceplayercolors',['autocvar_cl_forceplayercolors',['../d3/dfc/csqcmodel__hooks_8qh.html#ad30bf4a45d257cd44bc58925fa8a43a0',1,'csqcmodel_hooks.qh']]],
   ['autocvar_5fcl_5fforceplayermodels',['autocvar_cl_forceplayermodels',['../d3/dfc/csqcmodel__hooks_8qh.html#a52e1942af4853362f4bce7a5ad933a22',1,'csqcmodel_hooks.qh']]],
+  ['autocvar_5fcl_5fforceuniqueplayercolors',['autocvar_cl_forceuniqueplayercolors',['../d3/dfc/csqcmodel__hooks_8qh.html#a70b7a8f883b6367f27c94bc5f4443ddd',1,'csqcmodel_hooks.qh']]],
   ['autocvar_5fcl_5fgentle_5fdamage',['autocvar_cl_gentle_damage',['../d5/d8c/view_8qh.html#a2cf1aa41aa455ff65fd71e1e41410c0f',1,'view.qh']]],
   ['autocvar_5fcl_5fghost_5fitems',['autocvar_cl_ghost_items',['../d7/d22/client_2items_2items_8qh.html#adc9dc8c51e88c2336058492f89d1a892',1,'items.qh']]],
   ['autocvar_5fcl_5fghost_5fitems_5fcolor',['autocvar_cl_ghost_items_color',['../d7/d22/client_2items_2items_8qh.html#abf64e338628a445c382a9cf962bc2260',1,'items.qh']]],

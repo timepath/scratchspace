@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"d4/db9/classMagnetBuff.html#ae357161933cf399ac0a3515774f67ff8":[1,0,84,8],
 "d4/dba/lightningarc_8qh.html":[2,0,1,2,0,11],
 "d4/dba/lightningarc_8qh_source.html":[2,0,1,2,0,11],
 "d4/dba/walljump_8qh.html":[2,0,1,10,0,40,3],
@@ -48,8 +49,8 @@ var NAVTREEINDEX50 =
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,5,18,5],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,18,0],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,18,1],
-"d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,18,2],
 "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,18,3],
+"d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,18,2],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,18,8],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,18,9],
 "d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,18,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "d4/dd8/antilag_8qc_source.html":[2,0,6,11],
 "d4/dd8/dialog__hudpanel__racetimer_8qh.html":[2,0,5,4,73],
 "d4/dd8/dialog__hudpanel__racetimer_8qh_source.html":[2,0,5,4,73],
-"d4/dda/soundlist_8qh.html":[2,0,5,4,225],
-"d4/dda/soundlist_8qh.html#a0c4b69951dbd35c7fa72faa7ef2036b0":[2,0,5,4,225,2]
+"d4/dda/soundlist_8qh.html":[2,0,5,4,225]
 };

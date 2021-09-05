@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"d7/d32/classBlaster.html#aef5bbecf4ae66d83e687082e1ae2eb29":[1,0,9,9],
 "d7/d32/classBlaster.html#afd6a5b617980337ce93befe0b4e741ff":[1,0,9,12],
 "d7/d33/sv__minigames_8qc.html":[2,0,1,7,9],
 "d7/d33/sv__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7":[2,0,1,7,9,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "d7/d4b/item_2dialog_8qc.html#ac403abaed5c4df8ba6c8c0eccf388d65":[2,0,5,2,10,5],
 "d7/d4b/item_2dialog_8qc_source.html":[2,0,5,2,10],
 "d7/d4f/common_2mutators_2mutator_2status__effects_2status__effect_2__mod_8inc.html":[2,0,1,10,0,35,0,0],
-"d7/d4f/common_2mutators_2mutator_2status__effects_2status__effect_2__mod_8inc_source.html":[2,0,1,10,0,35,0,0],
-"d7/d50/classXonoticPlayerList.html":[1,0,251]
+"d7/d4f/common_2mutators_2mutator_2status__effects_2status__effect_2__mod_8inc_source.html":[2,0,1,10,0,35,0,0]
 };

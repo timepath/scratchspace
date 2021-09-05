@@ -12,6 +12,7 @@ var csqcmodel__hooks_8qh =
     [ "autocvar_cl_forcemyplayerskin", "d3/dfc/csqcmodel__hooks_8qh.html#a4691e22b47b5866a375f85894846e5af", null ],
     [ "autocvar_cl_forceplayercolors", "d3/dfc/csqcmodel__hooks_8qh.html#ad30bf4a45d257cd44bc58925fa8a43a0", null ],
     [ "autocvar_cl_forceplayermodels", "d3/dfc/csqcmodel__hooks_8qh.html#a52e1942af4853362f4bce7a5ad933a22", null ],
+    [ "autocvar_cl_forceuniqueplayercolors", "d3/dfc/csqcmodel__hooks_8qh.html#a70b7a8f883b6367f27c94bc5f4443ddd", null ],
     [ "autocvar_cl_jetpack_attenuation", "d3/dfc/csqcmodel__hooks_8qh.html#ac21465b6483117ec02cb187b77813285", null ],
     [ "autocvar_cl_loddistance1", "d3/dfc/csqcmodel__hooks_8qh.html#a5975b3f6bee146965bb1423e631dbd11", null ],
     [ "autocvar_cl_loddistance2", "d3/dfc/csqcmodel__hooks_8qh.html#a71c58c6a870198ac770b155fa5ce3493", null ],
