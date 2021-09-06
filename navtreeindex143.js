@@ -1,5 +1,6 @@
 var NAVTREEINDEX143 =
 {
+"df/d26/classXonoticGameSettingsTab.html#a516bef9a10dda163fb54dfd776c75ad1":[1,0,205,21],
 "df/d26/classXonoticGameSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,205,80],
 "df/d26/classXonoticGameSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,205,114],
 "df/d26/classXonoticGameSettingsTab.html#a5a4756fc2a1458d279b2d8a4429c98c2":[1,0,205,46],
@@ -248,6 +249,5 @@ var NAVTREEINDEX143 =
 "df/d28/sv__turrets_8qh.html#aeecd9275b04ef56133834fe9ec106c3d":[2,0,1,14,12,6],
 "df/d28/sv__turrets_8qh.html#af3742f1980248c578e62043e18aa1686":[2,0,1,14,12,36],
 "df/d28/sv__turrets_8qh.html#afc5bab0042155b03537a5da62de4050b":[2,0,1,14,12,39],
-"df/d28/sv__turrets_8qh.html#aff66c7c0115341f74d7ed89fce94dc43":[2,0,1,14,12,45],
-"df/d28/sv__turrets_8qh_source.html":[2,0,1,14,12]
+"df/d28/sv__turrets_8qh.html#aff66c7c0115341f74d7ed89fce94dc43":[2,0,1,14,12,45]
 };
