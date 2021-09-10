@@ -1,5 +1,9 @@
 var NAVTREEINDEX50 =
 {
+"d4/db9/classMagnetBuff.html#a8cd57a8b112a01d8f39f0ad456521eae":[1,0,84,2],
+"d4/db9/classMagnetBuff.html#a8e3462df86520a2bb887ee9997f5ed54":[1,0,84,11],
+"d4/db9/classMagnetBuff.html#ab22e25762fd4127e0509e4f934a30962":[1,0,84,4],
+"d4/db9/classMagnetBuff.html#ac403b4070fc773a6c6c612f8ee2961aa":[1,0,84,7],
 "d4/db9/classMagnetBuff.html#ae357161933cf399ac0a3515774f67ff8":[1,0,84,8],
 "d4/dba/lightningarc_8qh.html":[2,0,1,2,0,11],
 "d4/dba/lightningarc_8qh_source.html":[2,0,1,2,0,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX50 =
 "d4/dd8/antilag_8qc.html#ae42be1431ef90dedfc2cb8bf7b792bfd":[2,0,6,11,6],
 "d4/dd8/antilag_8qc.html#ae9fa2dc20c3f3ba3e6f8de2a411208c3":[2,0,6,11,21],
 "d4/dd8/antilag_8qc.html#af39653690dbdcf453019e553f151baa5":[2,0,6,11,2],
-"d4/dd8/antilag_8qc.html#afcf6e9ced03532b6cd318254ef7117b8":[2,0,6,11,5],
-"d4/dd8/antilag_8qc_source.html":[2,0,6,11],
-"d4/dd8/dialog__hudpanel__racetimer_8qh.html":[2,0,5,4,73],
-"d4/dd8/dialog__hudpanel__racetimer_8qh_source.html":[2,0,5,4,73],
-"d4/dda/soundlist_8qh.html":[2,0,5,4,225]
+"d4/dd8/antilag_8qc.html#afcf6e9ced03532b6cd318254ef7117b8":[2,0,6,11,5]
 };

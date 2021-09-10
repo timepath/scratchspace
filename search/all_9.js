@@ -21,7 +21,7 @@ var searchData=
   ['idle_5faim',['idle_aim',['../df/d28/sv__turrets_8qh.html#a07c4c1a4a7cb4c2974e3f73f6c395d5c',1,'sv_turrets.qh']]],
   ['idlekick_5flasttimeleft',['idlekick_lasttimeleft',['../d1/d37/classClient.html#a46a7bc40105ac38ab40131987e7f34cb',1,'Client']]],
   ['idxmodels',['idxModels',['../da/d6d/classXonoticPlayerModelSelector.html#a4fc310d358e16f74d89c27db069b908e',1,'XonoticPlayerModelSelector']]],
-  ['if',['if',['../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98',1,'if(IS_DEAD(this)):&#160;impulse.qc'],['../dd/dee/functional_8qh.html#a7c44e6c58755e4f8c76c53437c77e5e3',1,'IF():&#160;functional.qh']]],
+  ['if',['IF',['../dd/dee/functional_8qh.html#a7c44e6c58755e4f8c76c53437c77e5e3',1,'IF():&#160;functional.qh'],['../d4/d53/server_2impulse_8qc.html#a9804aee8e424685194c72b042f0d2b98',1,'if(IS_DEAD(this)):&#160;impulse.qc']]],
   ['iflag_5fangles',['IFLAG_ANGLES',['../d8/da6/interpolate_8qh.html#ac7816a73d6856d50745f997a8ff5cacc',1,'interpolate.qh']]],
   ['iflag_5fautoangles',['IFLAG_AUTOANGLES',['../d8/da6/interpolate_8qh.html#aa7e2677ea5abc936dbc1db51b1a1fa0a',1,'interpolate.qh']]],
   ['iflag_5fautovelocity',['IFLAG_AUTOVELOCITY',['../d8/da6/interpolate_8qh.html#a10cf074544b4da37db572f5a4b8d603a',1,'interpolate.qh']]],

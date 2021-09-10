@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['q3compat_5farena',['Q3COMPAT_ARENA',['../dc/d7e/quake3_8qh.html#a26ae9cd9a67b1ea90582fe7588d074a5',1,'quake3.qh']]],
+  ['q3compat_5fdefi',['Q3COMPAT_DEFI',['../dc/d7e/quake3_8qh.html#a8ebcfc561eadd5465a3b8474c4a7c02f',1,'quake3.qh']]],
   ['qm_5ftag_5fcommand',['QM_TAG_COMMAND',['../d8/d19/quickmenu_8qc.html#ad98d4aea8897d2bbd35a3e7341b978dd',1,'quickmenu.qc']]],
   ['qm_5ftag_5fplcommand',['QM_TAG_PLCOMMAND',['../d8/d19/quickmenu_8qc.html#a53c42ee1ad83cf89440b44e95d15fbc0',1,'quickmenu.qc']]],
   ['qm_5ftag_5fsubmenu',['QM_TAG_SUBMENU',['../d8/d19/quickmenu_8qc.html#a386eb168acc6e76211f70e6f475afb17',1,'quickmenu.qc']]],

@@ -106,6 +106,7 @@ var searchData=
   ['defer',['DEFER',['../d3/dc9/macro_8qh.html#a4985e8f93ec4d844193bad891e1ea0c2',1,'macro.qh']]],
   ['defer_2eqh',['defer.qh',['../d5/d95/defer_8qh.html',1,'']]],
   ['defrag_5fents',['defrag_ents',['../df/d4a/server_2race_8qc.html#a70fbde94d1d32b56ca60fda6a5c34e83',1,'race.qc']]],
+  ['defrag_5fwaypointsprites',['defrag_waypointsprites',['../df/d4a/server_2race_8qc.html#a877e7944b60a68b8bd2b9b6fdbaa6ee2',1,'race.qc']]],
   ['defragcpexists',['defragcpexists',['../df/d4a/server_2race_8qc.html#a5df20a0be3e9e2fe0fd82f4f1d18e372',1,'race.qc']]],
   ['defs_2eqh',['defs.qh',['../d1/dbc/defs_8qh.html',1,'']]],
   ['deg2rad',['DEG2RAD',['../d4/d0c/csprogsdefs_8qc.html#a2fe322be5170d3e7916dfb2003f00494',1,'DEG2RAD():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#a2fe322be5170d3e7916dfb2003f00494',1,'DEG2RAD():&#160;dpextensions.qc']]],

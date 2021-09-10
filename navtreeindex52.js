@@ -1,5 +1,9 @@
 var NAVTREEINDEX52 =
 {
+"d4/df8/sv__touchexplode_8qc_source.html":[2,0,1,10,0,37,2],
+"d4/df9/sv__rocketflying_8qh.html":[2,0,1,10,0,29,3],
+"d4/df9/sv__rocketflying_8qh_source.html":[2,0,1,10,0,29,3],
+"d4/dfb/lib_2__all_8inc.html":[2,0,4,3],
 "d4/dfb/lib_2__all_8inc.html#a0286756d17c84fdf4ea3cbfb02afcccd":[2,0,4,3,23],
 "d4/dfb/lib_2__all_8inc.html#a046921b096faba016150b5e82bda924f":[2,0,4,3,9],
 "d4/dfb/lib_2__all_8inc.html#a0a90766cdd36285925006c2a954fc8c2":[2,0,4,3,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX52 =
 "d5/d53/classXonoticCharmap.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,178,9],
 "d5/d53/classXonoticCharmap.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,178,3],
 "d5/d53/classXonoticCharmap.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,178,8],
-"d5/d53/classXonoticCharmap.html#a49a22c2c807939b78d2ddb9c9c5ef81b":[1,0,178,41],
-"d5/d53/classXonoticCharmap.html#a51aef9e901b2f2d159f18a413153f87e":[1,0,178,42],
-"d5/d53/classXonoticCharmap.html#a51b47eb5c4d18b577a53907287994767":[1,0,178,33],
-"d5/d53/classXonoticCharmap.html#a5660477bb979670af07bdca696bf6f30":[1,0,178,44],
-"d5/d53/classXonoticCharmap.html#a5c05cc152621d5dd4f3b13f7f3d437c9":[1,0,178,25]
+"d5/d53/classXonoticCharmap.html#a49a22c2c807939b78d2ddb9c9c5ef81b":[1,0,178,41]
 };

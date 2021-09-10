@@ -13,7 +13,7 @@ var searchData=
   ['w_5fshotorg',['w_shotorg',['../d4/d3f/tracing_8qh.html#aced556a90ea3cc9950877ff32ba08566',1,'tracing.qh']]],
   ['w_5fticsperframe',['W_TICSPERFRAME',['../da/db7/weaponsystem_8qh.html#ac6417073598ae2a533bf142589e66833',1,'weaponsystem.qh']]],
   ['w_5fweaponname',['w_weaponname',['../d5/de0/weaponsystem_8qc.html#abda7adb1b3f237559d1373c8b6930e1e',1,'weaponsystem.qc']]],
-  ['wait',['wait',['../db/d2f/subs_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683',1,'wait():&#160;subs.qh'],['../df/d42/quake3_8qc.html#ae6ce7348eeca30f09a3ea4aca0a44683',1,'wait():&#160;quake3.qc'],['../db/d20/round__handler_8qh.html#a90ba8c8734f4c606fcecf28673080d2e',1,'wait():&#160;round_handler.qh']]],
+  ['wait',['wait',['../db/d2f/subs_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683',1,'wait():&#160;subs.qh'],['../db/d20/round__handler_8qh.html#a90ba8c8734f4c606fcecf28673080d2e',1,'wait():&#160;round_handler.qh']]],
   ['wander_5fdelay',['wander_delay',['../d8/dc1/sv__monsters_8qh.html#a3cc6c5ace47e92be4a08f9467d7fbdd7',1,'sv_monsters.qh']]],
   ['wander_5fdistance',['wander_distance',['../d8/dc1/sv__monsters_8qh.html#a40d9742c6201d2fdb578836ba12fa4dd',1,'sv_monsters.qh']]],
   ['warmup_5fstage',['warmup_stage',['../d0/d2a/client_2main_8qh.html#a7630016e1ffc3d05598fb6f90fe760e1',1,'warmup_stage():&#160;main.qh'],['../de/d2b/world_8qh.html#af6088979e4328d96a754cc483d1672d9',1,'warmup_stage():&#160;world.qh']]],

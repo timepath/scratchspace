@@ -1,5 +1,16 @@
 var NAVTREEINDEX141 =
 {
+"de/dc3/teamradar_8qc.html#ab67c3387547f7b4aee8bea85e926244d":[2,0,0,26,6],
+"de/dc3/teamradar_8qc.html#acc159f2fe7a18525736a2d686d7f974f":[2,0,0,26,8],
+"de/dc3/teamradar_8qc.html#ad02297956a1dfca47d08bfe1512fc9ec":[2,0,0,26,1],
+"de/dc3/teamradar_8qc.html#ad80e64c27e436b0f60d695353d84b3d6":[2,0,0,26,7],
+"de/dc3/teamradar_8qc.html#ae039c2e84a848ec82816975aa2658438":[2,0,0,26,5],
+"de/dc3/teamradar_8qc.html#ae9ba6e1072e311a7403fa46bf7091a79":[2,0,0,26,2],
+"de/dc3/teamradar_8qc_source.html":[2,0,0,26],
+"de/dc5/dialog__settings__effects_8qh.html":[2,0,5,4,129],
+"de/dc5/dialog__settings__effects_8qh.html#a8ace980a9aa0b9448962d11b51ad3f3e":[2,0,5,4,129,1],
+"de/dc5/dialog__settings__effects_8qh_source.html":[2,0,5,4,129],
+"de/dcb/classMageSpike.html":[1,0,83],
 "de/dcb/classMageSpike.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,83,35],
 "de/dcb/classMageSpike.html#a085c2c434d43995152bb13a7b46ac8e8":[1,0,83,7],
 "de/dcb/classMageSpike.html#a09500993ff472091b96518ef7e9f32a1":[1,0,83,15],
@@ -238,16 +249,5 @@ var NAVTREEINDEX141 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,217,87],
 "de/de7/classXonoticHUDItemsTimeDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,217,4],
 "de/de7/classXonoticHUDItemsTimeDialog.html#aac11f0ee8546852c87e21c5365f1ca9b":[1,0,217,18],
-"de/de7/classXonoticHUDItemsTimeDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,217,101],
-"de/de7/classXonoticHUDItemsTimeDialog.html#aadf33056dcb2da0c6d706df8a5efbf1f":[1,0,217,13],
-"de/de7/classXonoticHUDItemsTimeDialog.html#ab33f8db8b809348fef35135c9c5e6490":[1,0,217,27],
-"de/de7/classXonoticHUDItemsTimeDialog.html#ab4a2357f49c688f5f40fa610c5a17b71":[1,0,217,35],
-"de/de7/classXonoticHUDItemsTimeDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,217,100],
-"de/de7/classXonoticHUDItemsTimeDialog.html#ab5deae16ba086b394323a816b68ec495":[1,0,217,81],
-"de/de7/classXonoticHUDItemsTimeDialog.html#ab8f24f4d1e84b931a71478a39a98f0be":[1,0,217,70],
-"de/de7/classXonoticHUDItemsTimeDialog.html#aba8583e6bc930dad6807443f24a136dd":[1,0,217,34],
-"de/de7/classXonoticHUDItemsTimeDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,217,0],
-"de/de7/classXonoticHUDItemsTimeDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,217,111],
-"de/de7/classXonoticHUDItemsTimeDialog.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,217,57],
-"de/de7/classXonoticHUDItemsTimeDialog.html#ac090de718883fe54a336391f7c4b5b88":[1,0,217,20]
+"de/de7/classXonoticHUDItemsTimeDialog.html#aad099a0549928c37867d05a5dde2a511":[1,0,217,101]
 };

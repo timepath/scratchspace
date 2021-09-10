@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"d6/d79/classXonoticHUDWeaponsDialog.html#a218a9c923f925977d93dd08698594573":[1,0,231,40],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,231,2],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a22ebf03c2ef14246155b38b20522908c":[1,0,231,90],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,231,93],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,231,65],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,231,75],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,231,68],
@@ -130,10 +134,10 @@ var NAVTREEINDEX63 =
 "d6/d82/dialog__hudpanel__infomessages_8qh.html":[2,0,5,4,57],
 "d6/d82/dialog__hudpanel__infomessages_8qh_source.html":[2,0,5,4,57],
 "d6/d85/buffs_8qh.html":[2,0,1,10,0,2,4],
+"d6/d85/buffs_8qh.html#a12d96f0fff1b3ccf0c0204851afe2c2b":[2,0,1,10,0,2,4,2],
 "d6/d85/buffs_8qh.html#a529a82989f56f66e5eff2624e62fcea3":[2,0,1,10,0,2,4,5],
 "d6/d85/buffs_8qh.html#a5fd3b877c71ac6bbfce55c1a8cc9ca9d":[2,0,1,10,0,2,4,1],
 "d6/d85/buffs_8qh.html#a73b233ccac900843bd13f88a0141258e":[2,0,1,10,0,2,4,6],
-"d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f":[2,0,1,10,0,2,4,2],
 "d6/d85/buffs_8qh.html#aa469ab2c4a752ee76e6bb795f91c2333":[2,0,1,10,0,2,4,4],
 "d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3":[2,0,1,10,0,2,4,3],
 "d6/d85/buffs_8qh_source.html":[2,0,1,10,0,2,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "d6/d99/effectinfo__buffs_8inc.html#a8d28e1bf077d7ab455d0cb092bca218e":[2,0,1,2,10,4],
 "d6/d99/effectinfo__buffs_8inc.html#a90d33d91f9b49094f338d7fd4962153e":[2,0,1,2,10,11],
 "d6/d99/effectinfo__buffs_8inc.html#a96efdfbf3886d9f98f1da078126eb2f4":[2,0,1,2,10,30],
-"d6/d99/effectinfo__buffs_8inc.html#a994571f6e1b7714e48d7f902e28350ea":[2,0,1,2,10,28],
-"d6/d99/effectinfo__buffs_8inc.html#a9a71f80d89480699e415b6950fd62995":[2,0,1,2,10,29],
-"d6/d99/effectinfo__buffs_8inc.html#aa7ff3b2b817f3a1386d3bb6f47d022dd":[2,0,1,2,10,17],
-"d6/d99/effectinfo__buffs_8inc.html#aa8808d7c94d9c624a39e6e80b9bd90cd":[2,0,1,2,10,0],
-"d6/d99/effectinfo__buffs_8inc.html#ab3e4a1d3a3300c2ac4464502473239c2":[2,0,1,2,10,27]
+"d6/d99/effectinfo__buffs_8inc.html#a994571f6e1b7714e48d7f902e28350ea":[2,0,1,2,10,28]
 };

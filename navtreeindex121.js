@@ -1,5 +1,17 @@
 var NAVTREEINDEX121 =
 {
+"dc/d8f/notifications_2all_8qh.html#a788af286edceb20caa58a8c5bf7e5a82":[2,0,1,11,4,19],
+"dc/d8f/notifications_2all_8qh.html#a7c2ad089ef7446cd3c28b0ee3130b000":[2,0,1,11,4,36],
+"dc/d8f/notifications_2all_8qh.html#a7c73e9ee5f2498f85e04b5adaafef6b3":[2,0,1,11,4,28],
+"dc/d8f/notifications_2all_8qh.html#a7d0f0d2bef7f5dea91eafc4181b9b045":[2,0,1,11,4,5],
+"dc/d8f/notifications_2all_8qh.html#a7d974012276c758ca7194f9066ec754d":[2,0,1,11,4,57],
+"dc/d8f/notifications_2all_8qh.html#a7dee3a3e198fc43f1febaaed287c00db":[2,0,1,11,4,71],
+"dc/d8f/notifications_2all_8qh.html#a7e98204db8ade06f13c56bf12f1764a3":[2,0,1,11,4,12],
+"dc/d8f/notifications_2all_8qh.html#a85ebb45d6c4e408b9e29e2537f9e1fe3":[2,0,1,11,4,90],
+"dc/d8f/notifications_2all_8qh.html#a87810e4b368131287592ae2bae89bcea":[2,0,1,11,4,96],
+"dc/d8f/notifications_2all_8qh.html#a881d3b5fb09cb0f4f89769d25eb0b9cc":[2,0,1,11,4,46],
+"dc/d8f/notifications_2all_8qh.html#a91c003830c32d05cbfbe099f2d4921a9":[2,0,1,11,4,14],
+"dc/d8f/notifications_2all_8qh.html#a986bc128dda218c46cdaacda6c823fac":[2,0,1,11,4,3],
 "dc/d8f/notifications_2all_8qh.html#a9ab770c0b0bd80c0eb25e5d5aab6c41e":[2,0,1,11,4,48],
 "dc/d8f/notifications_2all_8qh.html#a9d3478bcd912d2a8f0a3d304c7fa68c4":[2,0,1,11,4,64],
 "dc/d8f/notifications_2all_8qh.html#aa33032a5892cb979564632bc28b7e6e5":[2,0,1,11,4,22],
@@ -237,17 +249,5 @@ var NAVTREEINDEX121 =
 "dc/da0/classXonoticMapInfoDialog.html#af6a340fc47e93ed723e305b466b99578":[1,0,239,0],
 "dc/da0/classXonoticMapInfoDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,239,20],
 "dc/da0/classXonoticMapInfoDialog.html#afb9c620a2dde42c74c6685bbe02d0759":[1,0,239,60],
-"dc/da0/classXonoticMapInfoDialog.html#afe889034c467d5448df7cbfe873a6ed3":[1,0,239,89],
-"dc/da0/classXonoticMapInfoDialog.html#afe90c2a439db5e88fc84819236391f76":[1,0,239,100],
-"dc/da4/common_2mutators_2mutator_2random__gravity_2__mod_8qh.html":[2,0,1,10,0,27,1],
-"dc/da4/common_2mutators_2mutator_2random__gravity_2__mod_8qh_source.html":[2,0,1,10,0,27,1],
-"dc/da7/cl__overkill_8qc.html":[2,0,1,10,0,23,2],
-"dc/da7/cl__overkill_8qc.html#affae722d85277145e1a8bff398c3aae5":[2,0,1,10,0,23,2,0],
-"dc/da7/cl__overkill_8qc_source.html":[2,0,1,10,0,23,2],
-"dc/db1/classXonoticTextLabel.html":[1,0,282],
-"dc/db1/classXonoticTextLabel.html#a07f89922c68c012b3c0e6dea5c3963f5":[1,0,282,40],
-"dc/db1/classXonoticTextLabel.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,282,51],
-"dc/db1/classXonoticTextLabel.html#a133460fe33371274a7cd46a6aa9a9013":[1,0,282,37],
-"dc/db1/classXonoticTextLabel.html#a1384d244201f945385ed59b53e4aee96":[1,0,282,32],
-"dc/db1/classXonoticTextLabel.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,282,18]
+"dc/da0/classXonoticMapInfoDialog.html#afe889034c467d5448df7cbfe873a6ed3":[1,0,239,89]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX142 =
 {
+"de/de7/classXonoticHUDItemsTimeDialog.html#aadf33056dcb2da0c6d706df8a5efbf1f":[1,0,217,13],
+"de/de7/classXonoticHUDItemsTimeDialog.html#ab33f8db8b809348fef35135c9c5e6490":[1,0,217,27],
+"de/de7/classXonoticHUDItemsTimeDialog.html#ab4a2357f49c688f5f40fa610c5a17b71":[1,0,217,35],
+"de/de7/classXonoticHUDItemsTimeDialog.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,217,100],
+"de/de7/classXonoticHUDItemsTimeDialog.html#ab5deae16ba086b394323a816b68ec495":[1,0,217,81],
+"de/de7/classXonoticHUDItemsTimeDialog.html#ab8f24f4d1e84b931a71478a39a98f0be":[1,0,217,70],
+"de/de7/classXonoticHUDItemsTimeDialog.html#aba8583e6bc930dad6807443f24a136dd":[1,0,217,34],
+"de/de7/classXonoticHUDItemsTimeDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,217,0],
+"de/de7/classXonoticHUDItemsTimeDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,217,111],
+"de/de7/classXonoticHUDItemsTimeDialog.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,217,57],
+"de/de7/classXonoticHUDItemsTimeDialog.html#ac090de718883fe54a336391f7c4b5b88":[1,0,217,20],
 "de/de7/classXonoticHUDItemsTimeDialog.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,217,74],
 "de/de7/classXonoticHUDItemsTimeDialog.html#ac2d305f3d52cd31a07ed7d66b97b2145":[1,0,217,37],
 "de/de7/classXonoticHUDItemsTimeDialog.html#ac48a55ee27825c21341d607260063b25":[1,0,217,11],
@@ -238,16 +249,5 @@ var NAVTREEINDEX142 =
 "df/d26/classXonoticGameSettingsTab.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,205,73],
 "df/d26/classXonoticGameSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,205,13],
 "df/d26/classXonoticGameSettingsTab.html#a34c24899d332b64a4827628957b243aa":[1,0,205,48],
-"df/d26/classXonoticGameSettingsTab.html#a36836cbbfc40570ef70c3b43798ca096":[1,0,205,28],
-"df/d26/classXonoticGameSettingsTab.html#a382a09f7c5068d0f7969a394178c444a":[1,0,205,64],
-"df/d26/classXonoticGameSettingsTab.html#a39b77a1923845447d837ff9f399e9aff":[1,0,205,111],
-"df/d26/classXonoticGameSettingsTab.html#a3bfe985eb7e90c227d56dc81434bb5f9":[1,0,205,53],
-"df/d26/classXonoticGameSettingsTab.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,205,66],
-"df/d26/classXonoticGameSettingsTab.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,205,60],
-"df/d26/classXonoticGameSettingsTab.html#a3df9f40869004e26c3d0dd7fc28e57c4":[1,0,205,34],
-"df/d26/classXonoticGameSettingsTab.html#a4246fb4b7068aee87e47b2da375de905":[1,0,205,57],
-"df/d26/classXonoticGameSettingsTab.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,205,65],
-"df/d26/classXonoticGameSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,205,11],
-"df/d26/classXonoticGameSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,205,99],
-"df/d26/classXonoticGameSettingsTab.html#a4ce700a3a0917cb5ebbc8edbe293630f":[1,0,205,35]
+"df/d26/classXonoticGameSettingsTab.html#a36836cbbfc40570ef70c3b43798ca096":[1,0,205,28]
 };

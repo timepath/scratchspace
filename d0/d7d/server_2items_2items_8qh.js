@@ -53,6 +53,7 @@ var server_2items_2items_8qh =
     [ "autocvar_g_nodepthtestitems", "d0/d7d/server_2items_2items_8qh.html#ab32e56e714752de2473da95e56906350", null ],
     [ "autocvar_g_pickup_items", "d0/d7d/server_2items_2items_8qh.html#a1c09a2abd5202dd36b8a4c5d5f5388ff", null ],
     [ "autocvar_sv_simple_items", "d0/d7d/server_2items_2items_8qh.html#a38000110b486e7e732d3341502db13f5", null ],
+    [ "count", "d0/d7d/server_2items_2items_8qh.html#ad43c3812e6d13e0518d9f8b8f463ffcf", null ],
     [ "g_items", "d0/d7d/server_2items_2items_8qh.html#a21516c4e202f0fa473d6b010d8b651b5", null ],
     [ "is_item", "d0/d7d/server_2items_2items_8qh.html#adb798ece43113ed427d8077d7f7d6246", null ],
     [ "item_group", "d0/d7d/server_2items_2items_8qh.html#a4c50e1f264e0bcfed96e506290785dbc", null ],

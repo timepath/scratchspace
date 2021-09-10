@@ -63,5 +63,6 @@ var teamplay_8qh =
     [ "autocvar_g_forced_team_otherwise", "d2/d76/teamplay_8qh.html#a30c53276a32ea0d0a926427c72536e09", null ],
     [ "autocvar_teamplay_lockonrestart", "d2/d76/teamplay_8qh.html#ac8301e28d47d3a15bc3329b37ff4173a", null ],
     [ "autocvar_teamplay_mode", "d2/d76/teamplay_8qh.html#aa021ab8d935c522a26fc5337b575791d", null ],
-    [ "lockteams", "d2/d76/teamplay_8qh.html#afe2141cda6a112f2c145aa449bb31f95", null ]
+    [ "lockteams", "d2/d76/teamplay_8qh.html#afe2141cda6a112f2c145aa449bb31f95", null ],
+    [ "team_forced", "d2/d76/teamplay_8qh.html#a6af3cf814cbd9f6282a206846022ba60", null ]
 ];

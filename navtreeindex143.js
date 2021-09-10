@@ -1,5 +1,16 @@
 var NAVTREEINDEX143 =
 {
+"df/d26/classXonoticGameSettingsTab.html#a382a09f7c5068d0f7969a394178c444a":[1,0,205,64],
+"df/d26/classXonoticGameSettingsTab.html#a39b77a1923845447d837ff9f399e9aff":[1,0,205,111],
+"df/d26/classXonoticGameSettingsTab.html#a3bfe985eb7e90c227d56dc81434bb5f9":[1,0,205,53],
+"df/d26/classXonoticGameSettingsTab.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,205,66],
+"df/d26/classXonoticGameSettingsTab.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,205,60],
+"df/d26/classXonoticGameSettingsTab.html#a3df9f40869004e26c3d0dd7fc28e57c4":[1,0,205,34],
+"df/d26/classXonoticGameSettingsTab.html#a4246fb4b7068aee87e47b2da375de905":[1,0,205,57],
+"df/d26/classXonoticGameSettingsTab.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,205,65],
+"df/d26/classXonoticGameSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,205,11],
+"df/d26/classXonoticGameSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,205,99],
+"df/d26/classXonoticGameSettingsTab.html#a4ce700a3a0917cb5ebbc8edbe293630f":[1,0,205,35],
 "df/d26/classXonoticGameSettingsTab.html#a516bef9a10dda163fb54dfd776c75ad1":[1,0,205,21],
 "df/d26/classXonoticGameSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,205,80],
 "df/d26/classXonoticGameSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,205,114],
@@ -238,16 +249,5 @@ var NAVTREEINDEX143 =
 "df/d28/sv__turrets_8qh.html#abc8b0c81e4818c6d06a8188f97783423":[2,0,1,14,12,26],
 "df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c":[2,0,1,14,12,37],
 "df/d28/sv__turrets_8qh.html#ac67f6b99387c99ea50d2077040744b70":[2,0,1,14,12,35],
-"df/d28/sv__turrets_8qh.html#ac9f33d3efe2605b684741296c7f49639":[2,0,1,14,12,31],
-"df/d28/sv__turrets_8qh.html#adc9337924d4dea4b60215bbce55dc593":[2,0,1,14,12,32],
-"df/d28/sv__turrets_8qh.html#adcbe72d1ef1f8286ed98c8a024b12647":[2,0,1,14,12,8],
-"df/d28/sv__turrets_8qh.html#ae02387b3343e44683a93097b331380d9":[2,0,1,14,12,10],
-"df/d28/sv__turrets_8qh.html#ae1ff9191021b805b8017bb279c14af4b":[2,0,1,14,12,2],
-"df/d28/sv__turrets_8qh.html#ae3691f9f56c3c032bf818304ab4baf22":[2,0,1,14,12,1],
-"df/d28/sv__turrets_8qh.html#ae64affcbca8cf9e7f8aa8db4015fc658":[2,0,1,14,12,17],
-"df/d28/sv__turrets_8qh.html#aee867619d0b8d86bc0c22a766aee92fd":[2,0,1,14,12,14],
-"df/d28/sv__turrets_8qh.html#aeecd9275b04ef56133834fe9ec106c3d":[2,0,1,14,12,6],
-"df/d28/sv__turrets_8qh.html#af3742f1980248c578e62043e18aa1686":[2,0,1,14,12,36],
-"df/d28/sv__turrets_8qh.html#afc5bab0042155b03537a5da62de4050b":[2,0,1,14,12,39],
-"df/d28/sv__turrets_8qh.html#aff66c7c0115341f74d7ed89fce94dc43":[2,0,1,14,12,45]
+"df/d28/sv__turrets_8qh.html#ac9f33d3efe2605b684741296c7f49639":[2,0,1,14,12,31]
 };

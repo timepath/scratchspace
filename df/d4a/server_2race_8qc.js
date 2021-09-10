@@ -3,6 +3,7 @@ var server_2race_8qc =
     [ "checkpoint_passed", "df/d4a/server_2race_8qc.html#a168c20261636613428331b1f27301d1a", null ],
     [ "checkpoint_touch", "df/d4a/server_2race_8qc.html#ad0f21c42c7cf67ac5eb85b091e0c8e29", null ],
     [ "checkpoint_use", "df/d4a/server_2race_8qc.html#a8b0b69d2df015a448c6049b2c9f21acd", null ],
+    [ "defrag_waypointsprites", "df/d4a/server_2race_8qc.html#a877e7944b60a68b8bd2b9b6fdbaa6ee2", null ],
     [ "penalty_touch", "df/d4a/server_2race_8qc.html#afaee8bdf5a2621ea0c05289b99d7c8d4", null ],
     [ "penalty_use", "df/d4a/server_2race_8qc.html#ae0d09d4e517c88ca30552c90e3068557", null ],
     [ "race_AbandonRaceCheck", "df/d4a/server_2race_8qc.html#ae0c5dbe57d8a837df10255bee683ff10", null ],

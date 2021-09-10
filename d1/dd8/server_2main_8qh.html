@@ -258,7 +258,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../db/d95/server_2main_8qc_source.html#l00029">dropclient_do()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00189">FOREACH_ENTITY_CLASS</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00062">new_pure</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00008">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02633">PlayerPostThink()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02381">PlayerPreThink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d16/sv__kick__teamkiller_8qc_source.html#l00008">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02632">PlayerPostThink()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02380">PlayerPreThink()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">bool</span> scheduled = <span class="keyword">false</span>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#a9f7a7d300e46d88cef3a4cee03d98c01">FOREACH_ENTITY_CLASS</a>(<span class="stringliteral">&quot;dropclient_handler&quot;</span>, <span class="keyword">true</span>,</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">if</span>(it.owner == <span class="keyword">this</span>)</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            scheduled = true;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            break; <span class="comment">// can&#39;t use return here, compiler shows a warning</span></div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    });</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> (scheduled)</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(dropclient_handler);</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(e, <a class="code" href="../../db/d95/server_2main_8qc.html#ab636ee75076f13d459935ce7e0fbeeb0">dropclient_do</a>);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    e.owner = <span class="keyword">this</span>;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    e.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.1;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div><div class="ttc" id="server_2main_8qc_html_ab636ee75076f13d459935ce7e0fbeeb0"><div class="ttname"><a href="../../db/d95/server_2main_8qc.html#ab636ee75076f13d459935ce7e0fbeeb0">dropclient_do</a></div><div class="ttdeci">void dropclient_do(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d95/server_2main_8qc_source.html#l00029">main.qc:29</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="iter_8qh_html_a9f7a7d300e46d88cef3a4cee03d98c01"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a9f7a7d300e46d88cef3a4cee03d98c01">FOREACH_ENTITY_CLASS</a></div><div class="ttdeci">#define FOREACH_ENTITY_CLASS(class, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00189">iter.qh:189</a></div></div>
@@ -299,8 +299,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d95/server_2main_8qc_source.html#l00450">450</a> of file <a class="el" href="../../db/d95/server_2main_8qc_source.html">main.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;{</div><div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;</div><div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;}</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../db/d95/server_2main_8qc_source.html#l00506">506</a> of file <a class="el" href="../../db/d95/server_2main_8qc_source.html">main.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;{</div><div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;</div><div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;}</div></div><!-- fragment -->
 </div>
 </div>
 <a id="aa16293e20d9c95cd2706a83a9e1fe8fb"></a>
@@ -323,7 +323,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dbe/world_8qc_source.html#l02159">InitializeEntitiesRun()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/dbe/world_8qc_source.html#l02156">InitializeEntitiesRun()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;{</div><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">if</span>(e.remove_except_protected_forbidden)</div><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;not allowed to remove this at this point&quot;</span>);</div><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    builtin_remove(e);</div><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;}</div><div class="ttc" id="menudefs_8qc_html_a56b53595c8aa15ca107c03896db91fd2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a></div><div class="ttdeci">void error(string err,...)</div></div>
 </div><!-- fragment --><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -405,7 +405,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dbe/world_8qc_source.html#l02159">InitializeEntitiesRun()</a>, <a class="el" href="../../dd/dbe/world_8qc_source.html#l00587">spawnfunc()</a>, and <a class="el" href="../../db/d95/server_2main_8qc_source.html#l00274">StartFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/dbe/world_8qc_source.html#l02156">InitializeEntitiesRun()</a>, <a class="el" href="../../dd/dbe/world_8qc_source.html#l00587">spawnfunc()</a>, and <a class="el" href="../../db/d95/server_2main_8qc_source.html#l00274">StartFrame()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;{</div><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">if</span>(e.classname == <span class="stringliteral">&quot;spike&quot;</span>)</div><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;Removing spikes is forbidden (crylink bug), please report&quot;</span>);</div><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    builtin_remove(e);</div><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;}</div><div class="ttc" id="menudefs_8qc_html_a56b53595c8aa15ca107c03896db91fd2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a></div><div class="ttdeci">void error(string err,...)</div></div>
 </div><!-- fragment --><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -469,7 +469,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/dd8/server_2main_8qh_source.html#l00003">3</a> of file <a class="el" href="../../d1/dd8/server_2main_8qh_source.html">main.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d95/server_2main_8qc_source.html#l00063">CreatureFrame_hotliquids()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02579">DrownPlayer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d95/server_2main_8qc_source.html#l00063">CreatureFrame_hotliquids()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02578">DrownPlayer()</a>.</p>
 
 </div>
 </div>
@@ -487,7 +487,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/dd8/server_2main_8qh_source.html#l00004">4</a> of file <a class="el" href="../../d1/dd8/server_2main_8qh_source.html">main.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02579">DrownPlayer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02578">DrownPlayer()</a>.</p>
 
 </div>
 </div>
@@ -505,7 +505,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/dd8/server_2main_8qh_source.html#l00005">5</a> of file <a class="el" href="../../d1/dd8/server_2main_8qh_source.html">main.qh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02579">DrownPlayer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02578">DrownPlayer()</a>.</p>
 
 </div>
 </div>
@@ -871,7 +871,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d1/dd8/server_2main_8qh.html">main.qh</a></li>
-    <li class="footer">Generated on Mon Sep 6 2021 10:51:54 for Xonotic by
+    <li class="footer">Generated on Fri Sep 10 2021 15:42:39 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

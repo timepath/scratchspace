@@ -2,6 +2,7 @@ var weapons_2all_8qc =
 [
     [ "WEAPONS_ALL_C", "d0/d2b/weapons_2all_8qc.html#a5f8f672e8335b2e06ac57a8be36e2b66", null ],
     [ "_WepSet_FromWeapon", "d0/d2b/weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee", null ],
+    [ "GetAmmoItem", "d0/d2b/weapons_2all_8qc.html#abb97b2337f239a753cd6c8090fed1aad", null ],
     [ "GetAmmoName", "d0/d2b/weapons_2all_8qc.html#a35432dc70c423b0569a9ac237ba68952", null ],
     [ "GetAmmoPicture", "d0/d2b/weapons_2all_8qc.html#ab168af5e2615b44e7d6bb07022b09886", null ],
     [ "W_FixWeaponOrder", "d0/d2b/weapons_2all_8qc.html#acb6d8a69c18135cd85a99ff515fe5bf6", null ],

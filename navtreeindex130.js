@@ -1,5 +1,17 @@
 var NAVTREEINDEX130 =
 {
+"dd/da6/classXonoticCreditsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,185,103],
+"dd/da6/classXonoticCreditsDialog.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,185,54],
+"dd/da6/classXonoticCreditsDialog.html#a12d810c5e219e102af070c91a8288cbc":[1,0,185,104],
+"dd/da6/classXonoticCreditsDialog.html#a134618d9ba08f227978e9f7abc65dcd7":[1,0,185,45],
+"dd/da6/classXonoticCreditsDialog.html#a1363f51d76bde5021f29a75dad41e706":[1,0,185,16],
+"dd/da6/classXonoticCreditsDialog.html#a15de23f1108a4463b943d7aab4778ff7":[1,0,185,71],
+"dd/da6/classXonoticCreditsDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,185,95],
+"dd/da6/classXonoticCreditsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,185,92],
+"dd/da6/classXonoticCreditsDialog.html#a1d075bfcff7e8efe420695ddd203bb4d":[1,0,185,55],
+"dd/da6/classXonoticCreditsDialog.html#a1d17df6e1367f9d3bfe263314fc6e046":[1,0,185,46],
+"dd/da6/classXonoticCreditsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,185,91],
+"dd/da6/classXonoticCreditsDialog.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,185,63],
 "dd/da6/classXonoticCreditsDialog.html#a218a9c923f925977d93dd08698594573":[1,0,185,41],
 "dd/da6/classXonoticCreditsDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,185,3],
 "dd/da6/classXonoticCreditsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,185,93],
@@ -237,17 +249,5 @@ var NAVTREEINDEX130 =
 "dd/dbe/world_8qc.html#a01aab1c5c084e55469b0530c84a5a583":[2,0,6,71,30],
 "dd/dbe/world_8qc.html#a04608bc242fb7b07fa01cc69ee1412aa":[2,0,6,71,11],
 "dd/dbe/world_8qc.html#a05b8906b19daf9c40e70c7374813e23d":[2,0,6,71,10],
-"dd/dbe/world_8qc.html#a0fd5f40979f78949f532776847eaaf7c":[2,0,6,71,20],
-"dd/dbe/world_8qc.html#a11d594b32f31a1c10458b18981d3b612":[2,0,6,71,44],
-"dd/dbe/world_8qc.html#a1207e599d7420b0af40007a89426efec":[2,0,6,71,12],
-"dd/dbe/world_8qc.html#a1499559ec4eb80768644485c0ddd4fb8":[2,0,6,71,0],
-"dd/dbe/world_8qc.html#a1a54385aa9929a708f4b06be4b86ffa0":[2,0,6,71,36],
-"dd/dbe/world_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820":[2,0,6,71,8],
-"dd/dbe/world_8qc.html#a20fbabe6206b4fb7777eefcceac58edf":[2,0,6,71,43],
-"dd/dbe/world_8qc.html#a2144e009531a5eb4296252267e901380":[2,0,6,71,50],
-"dd/dbe/world_8qc.html#a233af455133bc7ba4e3e100115bf2885":[2,0,6,71,7],
-"dd/dbe/world_8qc.html#a25599ad73603f2e4e2b78726400732c8":[2,0,6,71,17],
-"dd/dbe/world_8qc.html#a2ad13408abb1139e0d8f836ca0dd7108":[2,0,6,71,56],
-"dd/dbe/world_8qc.html#a31069aef88f8ac2c66b9fdf992185454":[2,0,6,71,48],
-"dd/dbe/world_8qc.html#a3a5ccf5cedf20c389fb4845c9558851d":[2,0,6,71,63]
+"dd/dbe/world_8qc.html#a0fd5f40979f78949f532776847eaaf7c":[2,0,6,71,20]
 };

@@ -8,30 +8,30 @@
  viewBox="0.00 0.00 843.00 91.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 87)">
 <title>W_FixWeaponOrder_BuildImpulseList</title>
-<!-- Node59 -->
+<!-- Node61 -->
 <g id="node1" class="node">
-<title>Node59</title>
+<title>Node61</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-41.5 0,-60.5 197,-60.5 197,-41.5 0,-41.5"/>
 <text text-anchor="middle" x="98.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">W_FixWeaponOrder_BuildImpulseList</text>
 </g>
-<!-- Node60 -->
+<!-- Node62 -->
 <g id="node2" class="node">
-<title>Node60</title>
+<title>Node62</title>
 <g id="a_node2"><a xlink:href="../../d4/def/weapons_8qc.html#ab7c3acfa47aaf4f25f4775921b6be5ae" target="_top" xlink:title="HUD_Weapons">
 <polygon fill="none" stroke="#000000" points="283.5,-63.5 283.5,-82.5 372.5,-82.5 372.5,-63.5 283.5,-63.5"/>
 <text text-anchor="middle" x="328" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">HUD_Weapons</text>
 </a>
 </g>
 </g>
-<!-- Node59&#45;&gt;Node60 -->
+<!-- Node61&#45;&gt;Node62 -->
 <g id="edge1" class="edge">
-<title>Node59&#45;&gt;Node60</title>
+<title>Node61&#45;&gt;Node62</title>
 <path fill="none" stroke="#191970" d="M207.4039,-61.4396C234.2173,-64.0099 261.4575,-66.6212 283.2479,-68.71"/>
 <polygon fill="#191970" stroke="#191970" points="207.4489,-57.9279 197.1606,-60.4577 206.7809,-64.896 207.4489,-57.9279"/>
 </g>
-<!-- Node61 -->
+<!-- Node63 -->
 <g id="node3" class="node">
-<title>Node61</title>
+<title>Node63</title>
 <g id="a_node3"><a xlink:href="../../d9/d89/getreplies_8qc.html#aa4ac3dd1f661621de6a9f2bf5e6fb289" target="_top" xlink:title="W_FixWeaponOrder_ForceComplete\l_AndBuildImpulseList">
 <polygon fill="none" stroke="#000000" points="233,-14 233,-44 423,-44 423,-14 233,-14"/>
 <text text-anchor="start" x="241" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">W_FixWeaponOrder_ForceComplete</text>
@@ -39,75 +39,75 @@
 </a>
 </g>
 </g>
-<!-- Node59&#45;&gt;Node61 -->
+<!-- Node61&#45;&gt;Node63 -->
 <g id="edge2" class="edge">
-<title>Node59&#45;&gt;Node61</title>
+<title>Node61&#45;&gt;Node63</title>
 <path fill="none" stroke="#191970" d="M207.1471,-40.585C215.6815,-39.7669 224.2611,-38.9445 232.6962,-38.1359"/>
 <polygon fill="#191970" stroke="#191970" points="206.7809,-37.104 197.1606,-41.5423 207.4489,-44.0721 206.7809,-37.104"/>
 </g>
-<!-- Node62 -->
+<!-- Node64 -->
 <g id="node4" class="node">
-<title>Node62</title>
+<title>Node64</title>
 <g id="a_node4"><a xlink:href="../../d2/de3/getreplies_8qh.html#a9493fdb8b379fd22c688da7be4fc7782" target="_top" xlink:title="GetCvars">
 <polygon fill="none" stroke="#000000" points="459,-19.5 459,-38.5 521,-38.5 521,-19.5 459,-19.5"/>
 <text text-anchor="middle" x="490" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">GetCvars</text>
 </a>
 </g>
 </g>
-<!-- Node61&#45;&gt;Node62 -->
+<!-- Node63&#45;&gt;Node64 -->
 <g id="edge3" class="edge">
-<title>Node61&#45;&gt;Node62</title>
+<title>Node63&#45;&gt;Node64</title>
 <path fill="none" stroke="#191970" d="M433.253,-29C442.4009,-29 451.0942,-29 458.8037,-29"/>
 <polygon fill="#191970" stroke="#191970" points="433.1731,-25.5001 423.1731,-29 433.1731,-32.5001 433.1731,-25.5001"/>
 </g>
-<!-- Node62&#45;&gt;Node62 -->
+<!-- Node64&#45;&gt;Node64 -->
 <g id="edge7" class="edge">
-<title>Node62&#45;&gt;Node62</title>
+<title>Node64&#45;&gt;Node64</title>
 <path fill="none" stroke="#191970" d="M464.3305,-48.0292C465.7307,-53.128 474.2872,-57 490,-57 514.5273,-57 521.6173,-47.5653 511.2698,-38.7571"/>
 <polygon fill="#191970" stroke="#191970" points="467.6052,-49.292 468.7302,-38.7571 461.2811,-46.2911 467.6052,-49.292"/>
 </g>
-<!-- Node63 -->
+<!-- Node65 -->
 <g id="node5" class="node">
-<title>Node63</title>
+<title>Node65</title>
 <g id="a_node5"><a xlink:href="../../db/d9f/state_8qh.html#ae17cd2d1c2291942edc23455fc1db486" target="_top" xlink:title="ClientState_detach">
 <polygon fill="none" stroke="#000000" points="574,-38.5 574,-57.5 683,-57.5 683,-38.5 574,-38.5"/>
 <text text-anchor="middle" x="628.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ClientState_detach</text>
 </a>
 </g>
 </g>
-<!-- Node62&#45;&gt;Node63 -->
+<!-- Node64&#45;&gt;Node65 -->
 <g id="edge4" class="edge">
-<title>Node62&#45;&gt;Node63</title>
+<title>Node64&#45;&gt;Node65</title>
 <path fill="none" stroke="#191970" d="M531.3744,-34.6759C544.7103,-36.5054 559.7017,-38.562 573.8427,-40.5019"/>
 <polygon fill="#191970" stroke="#191970" points="531.465,-31.1556 521.0821,-33.264 530.5136,-38.0907 531.465,-31.1556"/>
 </g>
-<!-- Node65 -->
+<!-- Node67 -->
 <g id="node7" class="node">
-<title>Node65</title>
+<title>Node67</title>
 <g id="a_node7"><a xlink:href="../../d8/d1d/cmd_8qc.html#a2c64073337745d9409e5db6c36b5f5db" target="_top" xlink:title="ClientCommand_sentcvar">
 <polygon fill="none" stroke="#000000" points="557,-.5 557,-19.5 700,-19.5 700,-.5 557,-.5"/>
 <text text-anchor="middle" x="628.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ClientCommand_sentcvar</text>
 </a>
 </g>
 </g>
-<!-- Node62&#45;&gt;Node65 -->
+<!-- Node64&#45;&gt;Node67 -->
 <g id="edge6" class="edge">
-<title>Node62&#45;&gt;Node65</title>
+<title>Node64&#45;&gt;Node67</title>
 <path fill="none" stroke="#191970" d="M531.0639,-23.3667C539.8926,-22.1555 549.4584,-20.8433 559.0297,-19.5302"/>
 <polygon fill="#191970" stroke="#191970" points="530.5136,-19.9093 521.0821,-24.736 531.465,-26.8444 530.5136,-19.9093"/>
 </g>
-<!-- Node64 -->
+<!-- Node66 -->
 <g id="node6" class="node">
-<title>Node64</title>
+<title>Node66</title>
 <g id="a_node6"><a xlink:href="../../df/dd7/server_2client_8qc.html#a159c579f136a76f2364b031fd3246182" target="_top" xlink:title="ClientDisconnect">
 <polygon fill="none" stroke="#000000" points="736,-38.5 736,-57.5 835,-57.5 835,-38.5 736,-38.5"/>
 <text text-anchor="middle" x="785.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ClientDisconnect</text>
 </a>
 </g>
 </g>
-<!-- Node63&#45;&gt;Node64 -->
+<!-- Node65&#45;&gt;Node66 -->
 <g id="edge5" class="edge">
-<title>Node63&#45;&gt;Node64</title>
+<title>Node65&#45;&gt;Node66</title>
 <path fill="none" stroke="#191970" d="M693.5711,-48C707.7072,-48 722.4421,-48 735.868,-48"/>
 <polygon fill="#191970" stroke="#191970" points="693.411,-44.5001 683.411,-48 693.4109,-51.5001 693.411,-44.5001"/>
 </g>
