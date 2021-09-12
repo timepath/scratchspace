@@ -225,7 +225,7 @@ var searchData=
   ['ps_5fwinning_5fpiece',['ps_winning_piece',['../d8/d1b/ps_8qc.html#aea137e257271470ee5d1e79687bece3f',1,'ps.qc']]],
   ['psrandom',['psrandom',['../dc/d95/random_8qc.html#a68047c310b436d5b1125d0f0ca050c27',1,'psrandom(float seed):&#160;random.qc'],['../db/d55/random_8qh.html#a68047c310b436d5b1125d0f0ca050c27',1,'psrandom(float seed):&#160;random.qc']]],
   ['putclientinserver',['PutClientInServer',['../df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a',1,'PutClientInServer(this):&#160;client.qc'],['../df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951',1,'PutClientInServer(entity this):&#160;client.qc']]],
-  ['putobserverinserver',['PutObserverInServer',['../df/dd7/server_2client_8qc.html#a5e3082357cac2361155d16ee49c91224',1,'PutObserverInServer(entity this):&#160;client.qc'],['../d8/de2/server_2client_8qh.html#a5e3082357cac2361155d16ee49c91224',1,'PutObserverInServer(entity this):&#160;client.qc']]],
+  ['putobserverinserver',['PutObserverInServer',['../df/dd7/server_2client_8qc.html#a901bd55fa73044d74759b4417e730c48',1,'PutObserverInServer(entity this, bool is_forced):&#160;client.qc'],['../d8/de2/server_2client_8qh.html#a901bd55fa73044d74759b4417e730c48',1,'PutObserverInServer(entity this, bool is_forced):&#160;client.qc']]],
   ['putplayerinserver',['PutPlayerInServer',['../df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3',1,'client.qc']]],
   ['pymod',['pymod',['../df/d38/mathlib_8qc.html#af2ebfe97850db3a54400d8ae78b1461b',1,'pymod(float e, float f):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#af2ebfe97850db3a54400d8ae78b1461b',1,'pymod(float e, float f):&#160;mathlib.qc']]],
   ['show',['show',['../d4/d93/classPickup.html#acdf2c55b6451a8c5b39baa21a23cd15d',1,'Pickup']]],

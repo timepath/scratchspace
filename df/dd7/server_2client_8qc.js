@@ -48,7 +48,7 @@ var server_2client_8qc =
     [ "PrintWelcomeMessage", "df/dd7/server_2client_8qc.html#a6762be978fd49a3727236251c8d4702a", null ],
     [ "PutClientInServer", "df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a", null ],
     [ "PutClientInServer", "df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951", null ],
-    [ "PutObserverInServer", "df/dd7/server_2client_8qc.html#a5e3082357cac2361155d16ee49c91224", null ],
+    [ "PutObserverInServer", "df/dd7/server_2client_8qc.html#a901bd55fa73044d74759b4417e730c48", null ],
     [ "PutPlayerInServer", "df/dd7/server_2client_8qc.html#a996803179cd9557a7b4d806d08cc74f3", null ],
     [ "respawn", "df/dd7/server_2client_8qc.html#a9892fecc7414ccaabfbcd27e4cd56692", null ],
     [ "RotRegen", "df/dd7/server_2client_8qc.html#a9b2f54689f4d48edeed062a1e5a585d0", null ],

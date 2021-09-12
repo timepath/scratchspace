@@ -13,7 +13,6 @@ var sv__clanarena_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d7/db6/sv__clanarena_8qc.html#aa76a46ad7fa24ebe1dacda1938cf9eff", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/db6/sv__clanarena_8qc.html#a0904e2f361cd45eac92a816349982d6a", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/db6/sv__clanarena_8qc.html#a68cfbed0dd6691f32898af0004979af5", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d7/db6/sv__clanarena_8qc.html#a1871cb713ef5ce4f63a2c9a29e2df144", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/db6/sv__clanarena_8qc.html#a8f31969a4ba3f74e0d04a7084c5790ff", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/db6/sv__clanarena_8qc.html#a69779327d36d81aa291d8285b7d6c364", null ],
     [ "MUTATOR_HOOKFUNCTION", "d7/db6/sv__clanarena_8qc.html#ac73da9272696ca850eb2cdb3cac648cf", null ],

@@ -26,7 +26,7 @@ var server_2client_8qh =
     [ "player_powerups_remove_all", "d8/de2/server_2client_8qh.html#ae5ad858e961d75ffd966c345410886be", null ],
     [ "PlayerInList", "d8/de2/server_2client_8qh.html#add10a2edc8021068c2d62f1117d51246", null ],
     [ "PlayerUseKey", "d8/de2/server_2client_8qh.html#a457d60bc0a50d32a90da5a3acb9e8db1", null ],
-    [ "PutObserverInServer", "d8/de2/server_2client_8qh.html#a5e3082357cac2361155d16ee49c91224", null ],
+    [ "PutObserverInServer", "d8/de2/server_2client_8qh.html#a901bd55fa73044d74759b4417e730c48", null ],
     [ "RotRegen", "d8/de2/server_2client_8qh.html#a334146765709c91d303d39b64d70960c", null ],
     [ "SetSpectatee", "d8/de2/server_2client_8qh.html#aee20b07617d4d8b3cf12723424d93532", null ],
     [ "SetSpectatee_status", "d8/de2/server_2client_8qh.html#ac4f7e6fc7e9a311d90c6379198d0bd9c", null ],

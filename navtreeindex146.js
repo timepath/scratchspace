@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"df/d6e/classXonoticSingleplayerDialog.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,273,70],
 "df/d6e/classXonoticSingleplayerDialog.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,273,20],
 "df/d6e/classXonoticSingleplayerDialog.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,273,67],
 "df/d6e/classXonoticSingleplayerDialog.html#a9441dd7cacb643d23cf925b6c70b0266":[1,0,273,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "df/d88/bobbing_8qh_source.html":[2,0,1,6,0,3],
 "df/d89/hurt_8qc.html":[2,0,1,6,3,16],
 "df/d89/hurt_8qc_source.html":[2,0,1,6,3,16],
-"df/d8c/cl__cmd_8qc.html":[2,0,0,0,2],
-"df/d8c/cl__cmd_8qc.html#a08467d55e8f32d8f69efe2011e00f340":[2,0,0,0,2,24]
+"df/d8c/cl__cmd_8qc.html":[2,0,0,0,2]
 };

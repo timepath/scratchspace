@@ -1,6 +1,7 @@
 var sv__lms_8qc =
 [
     [ "ClearWinners", "dc/d0d/sv__lms_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820", null ],
+    [ "lms_AddPlayer", "dc/d0d/sv__lms_8qc.html#a2ba49d1d3759ab17f400a2b3595033bd", null ],
     [ "lms_extralife", "dc/d0d/sv__lms_8qc.html#ad72a14eb2aea1bdee58b59819c2f43df", null ],
     [ "lms_Initialize", "dc/d0d/sv__lms_8qc.html#aa7327441f669f21b871d3cd035f9c4e4", null ],
     [ "LMS_NewPlayerLives", "dc/d0d/sv__lms_8qc.html#a1f2e5295a3f62fbf2b4691293eec2ec5", null ],
@@ -9,12 +10,12 @@ var sv__lms_8qc =
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a9c11e4b5ceee9ae029eaead407748ade", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a97f239d2e377ad28156a7a2cb04f5b04", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a66a5026b1608e1f0eab9e95832cbba85", null ],
+    [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#aa9768f1f88051aaab70035cf33285330", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a00d0bee22e2d7e192024954e73adb427", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a590793b8e36df9f63f29bce9f40758ca", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a253394da89558e5f836c581392b577fc", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a17a4a2583555f504153d7ed71f8d39b9", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a513900080814ce56595d6f73d1e61661", null ],
-    [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a782ecb6f46f4d726f237463417459f3e", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a893ff74ab878ec38434de23d65c921ba", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#abaf45ef0c2cb2b68dd193091d0214e44", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#aa81519fcc177929e99826f91b1abedd2", null ],

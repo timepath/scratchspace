@@ -1,6 +1,5 @@
 var NAVTREEINDEX102 =
 {
-"da/dc1/classXonoticAudioSettingsTab.html":[1,0,172],
 "da/dc1/classXonoticAudioSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,172,11],
 "da/dc1/classXonoticAudioSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,172,5],
 "da/dc1/classXonoticAudioSettingsTab.html#a08ffa79439a4dea15f523602429af5d8":[1,0,172,52],
@@ -249,5 +248,6 @@ var NAVTREEINDEX102 =
 "da/dd1/classCaptureTheFlag.html#ae9227aebbcb0aaca925bbdc438958136":[1,0,18,20],
 "da/dd1/classCaptureTheFlag.html#aeb7b7fff44ad0f73baff4be2f3ddfd79":[1,0,18,16],
 "da/dd1/classCaptureTheFlag.html#af2dbc193e6456856e3745b3cb47500bb":[1,0,18,24],
-"da/dd1/classCaptureTheFlag.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,18,4]
+"da/dd1/classCaptureTheFlag.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,18,4],
+"da/dd4/effectinfo__onslaught_8inc.html":[2,0,1,2,18]
 };
