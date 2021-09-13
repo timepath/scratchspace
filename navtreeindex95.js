@@ -1,5 +1,9 @@
 var NAVTREEINDEX95 =
 {
+"d9/de9/classListBox.html#aa8dbe75e1d2298e2fbbe9b93bd8fb262":[1,0,77,54],
+"d9/de9/classListBox.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,77,66],
+"d9/de9/classListBox.html#aad099a0549928c37867d05a5dde2a511":[1,0,77,65],
+"d9/de9/classListBox.html#ab25c75a9579bdf387af01f93f3bce50d":[1,0,77,24],
 "d9/de9/classListBox.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,77,68],
 "d9/de9/classListBox.html#ab4fcece05ede3ef590a59ccb9cf74ef7":[1,0,77,12],
 "d9/de9/classListBox.html#ab5f593a7df4f4936f44e8054430a08d2":[1,0,77,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX95 =
 "d9/dfe/sv__dynamic__handicap_8qh_source.html":[2,0,1,10,0,9,3],
 "da/d0a/classSpawnShield.html":[1,0,141],
 "da/d0a/classSpawnShield.html#a0cd7cb00ef1ae2ab8e4682e2a909217a":[1,0,141,2],
-"da/d0a/classSpawnShield.html#a0fbbc45cd45b19169485c3ed6f0054e1":[1,0,141,6],
-"da/d0a/classSpawnShield.html#a1cb68938aa6ffc32816da9cf6858036e":[1,0,141,3],
-"da/d0a/classSpawnShield.html#a248d4fc94c2423785977590c0c6f15c6":[1,0,141,0],
-"da/d0a/classSpawnShield.html#a3e1b3e7263bd5c90b6ce5a72fb58411f":[1,0,141,1],
-"da/d0a/classSpawnShield.html#a594866b4b4da6ecf3ec2211485b9f9e3":[1,0,141,7]
+"da/d0a/classSpawnShield.html#a0fbbc45cd45b19169485c3ed6f0054e1":[1,0,141,6]
 };

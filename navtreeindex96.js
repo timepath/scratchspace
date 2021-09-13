@@ -1,5 +1,9 @@
 var NAVTREEINDEX96 =
 {
+"da/d0a/classSpawnShield.html#a1cb68938aa6ffc32816da9cf6858036e":[1,0,141,3],
+"da/d0a/classSpawnShield.html#a248d4fc94c2423785977590c0c6f15c6":[1,0,141,0],
+"da/d0a/classSpawnShield.html#a3e1b3e7263bd5c90b6ce5a72fb58411f":[1,0,141,1],
+"da/d0a/classSpawnShield.html#a594866b4b4da6ecf3ec2211485b9f9e3":[1,0,141,7],
 "da/d0a/classSpawnShield.html#a9870dae57f343c36104be5f3c94ba246":[1,0,141,4],
 "da/d0a/classSpawnShield.html#ac403b4070fc773a6c6c612f8ee2961aa":[1,0,141,5],
 "da/d0b/common_2mutators_2mutator_2rocketflying_2__mod_8qh.html":[2,0,1,10,0,29,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX96 =
 "da/d2a/classXonoticDecibelsSlider.html#a444cc1be43effdc5564103276b97d841":[1,0,192,47],
 "da/d2a/classXonoticDecibelsSlider.html#a4507944a16d2de8fd3aff6bf8767f1e4":[1,0,192,96],
 "da/d2a/classXonoticDecibelsSlider.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,192,86],
-"da/d2a/classXonoticDecibelsSlider.html#a4dfc62ad5963ec7ba0a8e4dea9c8a959":[1,0,192,31],
-"da/d2a/classXonoticDecibelsSlider.html#a4e7cbd246f6764a75dc6408bae7bb571":[1,0,192,92],
-"da/d2a/classXonoticDecibelsSlider.html#a506e5bc1cedcdce42992c54267d9dc65":[1,0,192,46],
-"da/d2a/classXonoticDecibelsSlider.html#a5443afd02f77fd76625a075a627901ff":[1,0,192,56],
-"da/d2a/classXonoticDecibelsSlider.html#a55293c499dbb50f1a8f7077002f4cb34":[1,0,192,44]
+"da/d2a/classXonoticDecibelsSlider.html#a4dfc62ad5963ec7ba0a8e4dea9c8a959":[1,0,192,31]
 };

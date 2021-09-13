@@ -12,6 +12,7 @@ var pong_8qc =
     [ "pong_score", "d7/de3/pong_8qc.html#a6fbb7729e616f69c4389bfb921fee366", null ],
     [ "PONG_SF_BALLTEAM", "d7/de3/pong_8qc.html#a061e2e80b7d00037922865df3a1223b8", null ],
     [ "PONG_SF_PLAYERSCORE", "d7/de3/pong_8qc.html#a236510888a4598c95e8f2be4d512a223", null ],
+    [ "PONG_SPECTATOR_TEAM", "d7/de3/pong_8qc.html#a779a5f6b041147bfa22a9f1349597246", null ],
     [ "PONG_STATUS_PLAY", "d7/de3/pong_8qc.html#a3c40aa0764d18a05c7737013b86ff96f", null ],
     [ "PONG_STATUS_WAIT", "d7/de3/pong_8qc.html#a9f40b8a5c36064fb6b3b1602f3a9d1b2", null ]
 ];

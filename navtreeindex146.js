@@ -1,5 +1,11 @@
 var NAVTREEINDEX146 =
 {
+"df/d6e/classXonoticSingleplayerDialog.html#a81f1c12f1e408e09e07bcb151b4ccdad":[1,0,273,27],
+"df/d6e/classXonoticSingleplayerDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,273,87],
+"df/d6e/classXonoticSingleplayerDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,273,33],
+"df/d6e/classXonoticSingleplayerDialog.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,273,15],
+"df/d6e/classXonoticSingleplayerDialog.html#a8b78346a74df75772de387092d850f39":[1,0,273,59],
+"df/d6e/classXonoticSingleplayerDialog.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,273,40],
 "df/d6e/classXonoticSingleplayerDialog.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,273,70],
 "df/d6e/classXonoticSingleplayerDialog.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,273,20],
 "df/d6e/classXonoticSingleplayerDialog.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,273,67],
@@ -243,11 +249,5 @@ var NAVTREEINDEX146 =
 "df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc_source.html":[2,0,1,10,0,2,0],
 "df/d87/menu_2mutators_2__mod_8qh.html":[2,0,5,3,1],
 "df/d87/menu_2mutators_2__mod_8qh_source.html":[2,0,5,3,1],
-"df/d88/bobbing_8qh.html":[2,0,1,6,0,3],
-"df/d88/bobbing_8qh.html#ac8406f065bc08ecde656f910812344ab":[2,0,1,6,0,3,1],
-"df/d88/bobbing_8qh.html#ae77941292d04ab2023018b5f808e42ce":[2,0,1,6,0,3,0],
-"df/d88/bobbing_8qh_source.html":[2,0,1,6,0,3],
-"df/d89/hurt_8qc.html":[2,0,1,6,3,16],
-"df/d89/hurt_8qc_source.html":[2,0,1,6,3,16],
-"df/d8c/cl__cmd_8qc.html":[2,0,0,0,2]
+"df/d88/bobbing_8qh.html":[2,0,1,6,0,3]
 };

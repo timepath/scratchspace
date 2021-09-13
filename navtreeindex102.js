@@ -1,5 +1,10 @@
 var NAVTREEINDEX102 =
 {
+"da/dbc/sv__globalforces_8qc.html#ad6a10acaf4806b68a1aeda3359fdf65e":[2,0,1,10,0,10,2,7],
+"da/dbc/sv__globalforces_8qc.html#ae09c28fe41c40908c61aef40104409a0":[2,0,1,10,0,10,2,5],
+"da/dbc/sv__globalforces_8qc.html#aed29bb1fa9cd3bfa774985c2e5fe838c":[2,0,1,10,0,10,2,6],
+"da/dbc/sv__globalforces_8qc_source.html":[2,0,1,10,0,10,2],
+"da/dc1/classXonoticAudioSettingsTab.html":[1,0,172],
 "da/dc1/classXonoticAudioSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,172,11],
 "da/dc1/classXonoticAudioSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,172,5],
 "da/dc1/classXonoticAudioSettingsTab.html#a08ffa79439a4dea15f523602429af5d8":[1,0,172,52],
@@ -244,10 +249,5 @@ var NAVTREEINDEX102 =
 "da/dd1/classCaptureTheFlag.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,18,2],
 "da/dd1/classCaptureTheFlag.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,18,27],
 "da/dd1/classCaptureTheFlag.html#ad15993848bc92a1c7bf0c70aeee7bbd2":[1,0,18,25],
-"da/dd1/classCaptureTheFlag.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,18,5],
-"da/dd1/classCaptureTheFlag.html#ae9227aebbcb0aaca925bbdc438958136":[1,0,18,20],
-"da/dd1/classCaptureTheFlag.html#aeb7b7fff44ad0f73baff4be2f3ddfd79":[1,0,18,16],
-"da/dd1/classCaptureTheFlag.html#af2dbc193e6456856e3745b3cb47500bb":[1,0,18,24],
-"da/dd1/classCaptureTheFlag.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,18,4],
-"da/dd4/effectinfo__onslaught_8inc.html":[2,0,1,2,18]
+"da/dd1/classCaptureTheFlag.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,18,5]
 };

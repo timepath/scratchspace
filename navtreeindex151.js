@@ -1,5 +1,11 @@
 var NAVTREEINDEX151 =
 {
+"df/df6/classXonoticSlider.html#aee4e499a2af6112e04b6d702c6920872":[1,0,275,22],
+"df/df6/classXonoticSlider.html#aee70556e8beecc1a56358dbec6c2e40c":[1,0,275,39],
+"df/df6/classXonoticSlider.html#af0410c9b50b8855affc9eb02beb19128":[1,0,275,60],
+"df/df6/classXonoticSlider.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,275,7],
+"df/df6/classXonoticSlider.html#af3de809ae221c68860a7578bcd8ced6a":[1,0,275,36],
+"df/df6/classXonoticSlider.html#af8af5bd020bff8f310b999b0ddc4ce58":[1,0,275,40],
 "df/df6/classXonoticSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,275,85],
 "df/df6/classXonoticSlider.html#afcac60c372c78ea93e37ebc6c80f740d":[1,0,275,8],
 "df/df7/classOffhandBlaster.html":[1,0,101],
@@ -243,11 +249,5 @@ var NAVTREEINDEX151 =
 "dir_c6da9de4494473068dbcc8756d965786.html":[2,0,5,1],
 "dir_c814fee23757456cb4490b5d684bd5e6.html":[2,0,1,3,0,12],
 "dir_c83288011515150628ea6201a715f126.html":[2,0,1,8],
-"dir_c9e7c2b936e3bc75255f12ea081a7fad.html":[2,0,1,10,0,26,0],
-"dir_cf234ab9b9033f681804c9de340d1a43.html":[2,0,1,11],
-"dir_d0745ef3e60e4d63a268985e90a8514b.html":[2,0,0,2],
-"dir_d24f071bcdba4c5ef82cde13271a7f33.html":[2,0,1,6,3],
-"dir_d2cfd6a11dc922a7fa47e23507d8dce8.html":[2,0,1,10,0,21],
-"dir_d3b239bf2277a27bae01166a36b5b35f.html":[2,0,1,13],
-"dir_d5fd5ebb74d9aac6232b0b4eda80dfde.html":[2,0,4,0]
+"dir_c9e7c2b936e3bc75255f12ea081a7fad.html":[2,0,1,10,0,26,0]
 };

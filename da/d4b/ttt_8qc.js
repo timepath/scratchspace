@@ -13,6 +13,7 @@ var ttt_8qc =
     [ "TTT_NUM_CNT", "da/d4b/ttt_8qc.html#a8aeb9194b62d23f6473466164639b50e", null ],
     [ "TTT_SF_PLAYERSCORE", "da/d4b/ttt_8qc.html#a19ee8febd79b249d8475b1f225693f3d", null ],
     [ "TTT_SF_SINGLEPLAYER", "da/d4b/ttt_8qc.html#a07c1692ff02e2bb14718e24005bdd849", null ],
+    [ "TTT_SPECTATOR_TEAM", "da/d4b/ttt_8qc.html#a5cf370ff18e75c81f9ef0288446bb782", null ],
     [ "TTT_TILE_SIZE", "da/d4b/ttt_8qc.html#afe08058b4a5c482f117b1746ed241152", null ],
     [ "TTT_TURN_DRAW", "da/d4b/ttt_8qc.html#a408c73821cc12651d3cb9dae965dae5e", null ],
     [ "TTT_TURN_NEXT", "da/d4b/ttt_8qc.html#a8fc39bc1d659e2d675ee48c92f669e87", null ],

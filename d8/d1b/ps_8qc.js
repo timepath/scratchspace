@@ -11,6 +11,7 @@ var ps_8qc =
     [ "REGISTER_MINIGAME", "d8/d1b/ps_8qc.html#a224956db1fdb66acb6fc45bc564025b4", null ],
     [ "PS_LET_CNT", "d8/d1b/ps_8qc.html#af9ac2e9c7f028072120baef71c275473", null ],
     [ "PS_NUM_CNT", "d8/d1b/ps_8qc.html#a7068c16dc8334447cd3f0a45fe1579be", null ],
+    [ "PS_SPECTATOR_TEAM", "d8/d1b/ps_8qc.html#a70ae0e1bfcb6c28dfed07a25190c181e", null ],
     [ "PS_TILE_SIZE", "d8/d1b/ps_8qc.html#ab455752b35cf9f032c9c2a00704f72bb", null ],
     [ "PS_TURN_DRAW", "d8/d1b/ps_8qc.html#a0882c05fc09c5007dfb611c8ebdcc165", null ],
     [ "PS_TURN_MOVE", "d8/d1b/ps_8qc.html#a6f22d8b12646f199636ae1d82a4f9587", null ],

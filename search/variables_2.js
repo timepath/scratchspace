@@ -36,6 +36,7 @@ var searchData=
   ['bd_5fsf_5fplayermoves',['BD_SF_PLAYERMOVES',['../d3/dd5/bd_8qc.html#a725e672534553893cfaea332bf461bb1',1,'bd.qc']]],
   ['bd_5fsf_5fupdate_5fall',['BD_SF_UPDATE_ALL',['../d3/dd5/bd_8qc.html#a02961c8f17f0e07df88f2a60c1eb7816',1,'bd.qc']]],
   ['bd_5fsf_5fupdate_5fsingle',['BD_SF_UPDATE_SINGLE',['../d3/dd5/bd_8qc.html#a82070d5a90e5ecde0d4852c15017882a',1,'bd.qc']]],
+  ['bd_5fspectator_5fteam',['BD_SPECTATOR_TEAM',['../d3/dd5/bd_8qc.html#aaf880a1efb18b999f1689dd585245739',1,'bd.qc']]],
   ['bd_5fteams',['BD_TEAMS',['../d3/dd5/bd_8qc.html#a07c06eb3b7ba1dd490c5f09cb01909ce',1,'bd.qc']]],
   ['bd_5ftile_5fboulder',['BD_TILE_BOULDER',['../d3/dd5/bd_8qc.html#aaec9013c9df0f467d7834084e60a08ee',1,'bd.qc']]],
   ['bd_5ftile_5fbrick1',['BD_TILE_BRICK1',['../d3/dd5/bd_8qc.html#a529f6ca3ddc19aa0db7ac3ecc64b4d9e',1,'bd.qc']]],

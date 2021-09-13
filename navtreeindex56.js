@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b":[1,0,228,73],
+"d5/d96/classXonoticHUDStrafeHUDDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,228,85],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a697c3dbd0323fb13ac95f0b4f5a24bc3":[1,0,228,71],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,228,97],
 "d5/d96/classXonoticHUDStrafeHUDDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,228,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "d5/db2/dialog__hudpanel__notification_8qc.html#ab31627f8b7c7a82a9d458011f2184631":[2,0,5,4,62,0],
 "d5/db2/dialog__hudpanel__notification_8qc_source.html":[2,0,5,4,62],
 "d5/db3/common_2mutators_2mutator_2dynamic__handicap_2__mod_8inc.html":[2,0,1,10,0,9,0],
-"d5/db3/common_2mutators_2mutator_2dynamic__handicap_2__mod_8inc_source.html":[2,0,1,10,0,9,0],
-"d5/db4/halflife_8qh.html":[2,0,6,2,3],
-"d5/db4/halflife_8qh_source.html":[2,0,6,2,3]
+"d5/db3/common_2mutators_2mutator_2dynamic__handicap_2__mod_8inc_source.html":[2,0,1,10,0,9,0]
 };

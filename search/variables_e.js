@@ -110,6 +110,7 @@ var searchData=
   ['nmm_5fpiece_5fboard',['NMM_PIECE_BOARD',['../db/d8b/nmm_8qc.html#ad23d4b1dd8ff398c123a2246bbc71a15',1,'nmm.qc']]],
   ['nmm_5fpiece_5fdead',['NMM_PIECE_DEAD',['../db/d8b/nmm_8qc.html#a80fd0d8216f457761607634081e925aa',1,'nmm.qc']]],
   ['nmm_5fpiece_5fhome',['NMM_PIECE_HOME',['../db/d8b/nmm_8qc.html#affbc3408919b68050acdf6b638108a3d',1,'nmm.qc']]],
+  ['nmm_5fspectator_5fteam',['NMM_SPECTATOR_TEAM',['../db/d8b/nmm_8qc.html#ae218431c9aba64ab0ca78797b93e356a',1,'nmm.qc']]],
   ['nmm_5ftile_5fdistance',['nmm_tile_distance',['../db/d8b/nmm_8qc.html#aa798e3e465c311977c0a4a04bfe3a8ba',1,'nmm.qc']]],
   ['nmm_5ftile_5fhmill',['nmm_tile_hmill',['../db/d8b/nmm_8qc.html#a71001e23b110a0eacf957b7d569e4543',1,'nmm.qc']]],
   ['nmm_5ftile_5fpiece',['nmm_tile_piece',['../db/d8b/nmm_8qc.html#a6619ed6105da8ac25259dce8c32170e7',1,'nmm.qc']]],

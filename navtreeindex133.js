@@ -1,5 +1,11 @@
 var NAVTREEINDEX133 =
 {
+"de/d0c/classDamageText.html#a9645f7d63653fc889f97f6c27963e8a2":[1,0,28,11],
+"de/d0c/classDamageText.html#ab08d815b69e6b2fde74a2f6703442ffc":[1,0,28,9],
+"de/d0c/classDamageText.html#aca8978475a45b3a88f27984419c2d7c8":[1,0,28,7],
+"de/d0c/classDamageText.html#ad05fc05aa6d4066c73d44250d6128e92":[1,0,28,6],
+"de/d0c/classDamageText.html#ae4c1f8aa207896e527bb3598dbdce3bd":[1,0,28,8],
+"de/d0d/int_8qh.html":[2,0,4,24],
 "de/d0d/int_8qh.html#ab65936840a5b666cc6c87399e9b80802":[2,0,4,24,2],
 "de/d0d/int_8qh.html#ad0a2a81b9a9d0396a40a45d23c83d647":[2,0,4,24,1],
 "de/d0d/int_8qh.html#ad77a5a11dca20b65e1953044f7652057":[2,0,4,24,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX133 =
 "de/d2b/world_8qh.html#ad1739489e86319e08f31ff2c05ac747c":[2,0,6,72,40],
 "de/d2b/world_8qh.html#ad191ebfe2ae9f209e0284fdf4c5e520f":[2,0,6,72,98],
 "de/d2b/world_8qh.html#ad6222665136ecc4551f6c488d10a22bb":[2,0,6,72,67],
-"de/d2b/world_8qh.html#ad7fc484679de15d0e8c8c18b992c7c75":[2,0,6,72,80],
-"de/d2b/world_8qh.html#adac48834b44f2430043098916e291251":[2,0,6,72,10],
-"de/d2b/world_8qh.html#adb0c9d5f168232cba75dd2dbdb093831":[2,0,6,72,61],
-"de/d2b/world_8qh.html#ae29e06e5cb547b4c30dcb593cf967fdb":[2,0,6,72,9],
-"de/d2b/world_8qh.html#ae2af274123d9eb356c89a1d02c121820":[2,0,6,72,60],
-"de/d2b/world_8qh.html#ae6b751db2a559cc7c074785cdb419db7":[2,0,6,72,112],
-"de/d2b/world_8qh.html#ae84d9f519729f73eb438f6bf342bed2c":[2,0,6,72,89]
+"de/d2b/world_8qh.html#ad7fc484679de15d0e8c8c18b992c7c75":[2,0,6,72,80]
 };

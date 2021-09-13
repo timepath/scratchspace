@@ -5,6 +5,7 @@ var searchData=
   ['c4_5fnexteam',['c4_nexteam',['../d5/d00/c4_8qc.html#a3ab4a10a64e003dbd0c73523bfd80a76',1,'c4.qc']]],
   ['c4_5fnpieces',['c4_npieces',['../d5/d00/c4_8qc.html#a3a7d1511ce9c1a6f1b3b2515aa9f5fb4',1,'c4.qc']]],
   ['c4_5fnum_5fcnt',['C4_NUM_CNT',['../d5/d00/c4_8qc.html#a64c024cb6119828432c06a8119adb489',1,'c4.qc']]],
+  ['c4_5fspectator_5fteam',['C4_SPECTATOR_TEAM',['../d5/d00/c4_8qc.html#a1b5b0083e5d2eab9e2be2334e2d56a5b',1,'c4.qc']]],
   ['c4_5fteams',['C4_TEAMS',['../d5/d00/c4_8qc.html#a251814f572107797a156a6027481fb5f',1,'c4.qc']]],
   ['c4_5ftile_5fsize',['C4_TILE_SIZE',['../d5/d00/c4_8qc.html#ad0a57677e710784de0753121d55d427f',1,'c4.qc']]],
   ['c4_5fturn_5fdraw',['C4_TURN_DRAW',['../d5/d00/c4_8qc.html#ac906f3161fa75c9709c16a27e3b38b86',1,'c4.qc']]],

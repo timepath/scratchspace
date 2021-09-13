@@ -1,5 +1,11 @@
 var NAVTREEINDEX130 =
 {
+"dd/da5/gamelog_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3":[2,0,6,27,2],
+"dd/da5/gamelog_8qc_source.html":[2,0,6,27],
+"dd/da6/classXonoticCreditsDialog.html":[1,0,185],
+"dd/da6/classXonoticCreditsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,185,7],
+"dd/da6/classXonoticCreditsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,185,105],
+"dd/da6/classXonoticCreditsDialog.html#a08ffa79439a4dea15f523602429af5d8":[1,0,185,48],
 "dd/da6/classXonoticCreditsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,185,103],
 "dd/da6/classXonoticCreditsDialog.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,185,54],
 "dd/da6/classXonoticCreditsDialog.html#a12d810c5e219e102af070c91a8288cbc":[1,0,185,104],
@@ -243,11 +249,5 @@ var NAVTREEINDEX130 =
 "dd/db5/sv__invincibleproj_8qh.html":[2,0,1,10,0,13,3],
 "dd/db5/sv__invincibleproj_8qh_source.html":[2,0,1,10,0,13,3],
 "dd/db7/sv__globalforces_8qh.html":[2,0,1,10,0,10,3],
-"dd/db7/sv__globalforces_8qh_source.html":[2,0,1,10,0,10,3],
-"dd/dbe/world_8qc.html":[2,0,6,71],
-"dd/dbe/world_8qc.html#a0156c7f3ff8dc902f76f7c8c31390593":[2,0,6,71,35],
-"dd/dbe/world_8qc.html#a01aab1c5c084e55469b0530c84a5a583":[2,0,6,71,30],
-"dd/dbe/world_8qc.html#a04608bc242fb7b07fa01cc69ee1412aa":[2,0,6,71,11],
-"dd/dbe/world_8qc.html#a05b8906b19daf9c40e70c7374813e23d":[2,0,6,71,10],
-"dd/dbe/world_8qc.html#a0fd5f40979f78949f532776847eaaf7c":[2,0,6,71,20]
+"dd/db7/sv__globalforces_8qh_source.html":[2,0,1,10,0,10,3]
 };
