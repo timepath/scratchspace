@@ -1,5 +1,6 @@
 var NAVTREEINDEX126 =
 {
+"dd/d31/banning_8qc_source.html":[2,0,6,1,2],
 "dd/d31/engineinfo_8qc.html":[2,0,0,1,0,8],
 "dd/d31/engineinfo_8qc.html#a19fede9702c226203c812326536f793b":[2,0,0,1,0,8,4],
 "dd/d31/engineinfo_8qc.html#a1a1446b0e02720796670e216ad41d264":[2,0,0,1,0,8,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX126 =
 "dd/d5b/common_2gamemodes_2gamemode_2keepaway_2__mod_8qh.html":[2,0,1,3,0,9,1],
 "dd/d5b/common_2gamemodes_2gamemode_2keepaway_2__mod_8qh_source.html":[2,0,1,3,0,9,1],
 "dd/d5d/dialog__settings__bindings__reset_8qh.html":[2,0,5,4,127],
-"dd/d5d/dialog__settings__bindings__reset_8qh_source.html":[2,0,5,4,127],
-"dd/d5d/gamesettings_8qh.html":[2,0,5,9]
+"dd/d5d/dialog__settings__bindings__reset_8qh_source.html":[2,0,5,4,127]
 };

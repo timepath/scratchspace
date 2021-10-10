@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"dd/d5d/gamesettings_8qh.html":[2,0,5,9],
 "dd/d5d/gamesettings_8qh_source.html":[2,0,5,9],
 "dd/d5e/door_8qh.html":[2,0,1,6,0,11],
 "dd/d5e/door_8qh.html#a719e6f009c974e863488d99b5cfb6532":[2,0,1,6,0,11,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "dd/d7a/serverlist_8qh.html#aad5e1390c9b3dbb51de0de40f87edd90":[2,0,5,4,209,27],
 "dd/d7a/serverlist_8qh.html#aaefa65e6a86593759641a7d79655f470":[2,0,5,4,209,44],
 "dd/d7a/serverlist_8qh.html#ab01dffffa30ca02d24e3dd13c6841644":[2,0,5,4,209,18],
-"dd/d7a/serverlist_8qh.html#ab2b8d1e36271519261d458ffe748f398":[2,0,5,4,209,36],
-"dd/d7a/serverlist_8qh.html#abbb15d670a9ff9ee5f9c6263474960b7":[2,0,5,4,209,24]
+"dd/d7a/serverlist_8qh.html#ab2b8d1e36271519261d458ffe748f398":[2,0,5,4,209,36]
 };

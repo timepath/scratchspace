@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"dd/d7a/serverlist_8qh.html#abbb15d670a9ff9ee5f9c6263474960b7":[2,0,5,4,209,24],
 "dd/d7a/serverlist_8qh.html#ac25113395e23fb033caa4ed0b9e5c261":[2,0,5,4,209,19],
 "dd/d7a/serverlist_8qh.html#ac95397475efbbc5120143c5b9138fc1b":[2,0,5,4,209,49],
 "dd/d7a/serverlist_8qh.html#ad42754c8709bbba44ec357a3c1b2da7c":[2,0,5,4,209,42],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "dd/d95/dialog__credits_8qh.html":[2,0,5,4,41],
 "dd/d95/dialog__credits_8qh_source.html":[2,0,5,4,41],
 "dd/d96/server_2progs_8inc.html":[2,0,6,49],
-"dd/d96/server_2progs_8inc_source.html":[2,0,6,49],
-"dd/d97/classSpeed.html":[1,0,143]
+"dd/d96/server_2progs_8inc_source.html":[2,0,6,49]
 };

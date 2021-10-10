@@ -1,5 +1,6 @@
 var NAVTREEINDEX123 =
 {
+"dc/de2/classXonoticProfileTab.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,254,71],
 "dc/de2/classXonoticProfileTab.html#a9441dd7cacb643d23cf925b6c70b0266":[1,0,254,26],
 "dc/de2/classXonoticProfileTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,254,95],
 "dc/de2/classXonoticProfileTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,254,83],
@@ -248,6 +249,5 @@ var NAVTREEINDEX123 =
 "dc/df0/sv__instagib_8qh.html#acc123b25eb23b52efaafabe5dcab71c4":[2,0,1,10,0,12,5,11],
 "dc/df0/sv__instagib_8qh.html#ad25e21e2a7abe413eba6891f0fe2ab86":[2,0,1,10,0,12,5,17],
 "dc/df0/sv__instagib_8qh.html#ad3d0af0f354ef381be8e31e03e17f61a":[2,0,1,10,0,12,5,26],
-"dc/df0/sv__instagib_8qh.html#ad4749d5439232c47d46b49b88d52ed93":[2,0,1,10,0,12,5,2],
-"dc/df0/sv__instagib_8qh.html#ae18dcbbe351bec1c33ca10500499ebcc":[2,0,1,10,0,12,5,15]
+"dc/df0/sv__instagib_8qh.html#ad4749d5439232c47d46b49b88d52ed93":[2,0,1,10,0,12,5,2]
 };

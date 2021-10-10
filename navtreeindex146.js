@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"df/d6e/classXonoticSingleplayerDialog.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,273,18],
 "df/d6e/classXonoticSingleplayerDialog.html#a81f1c12f1e408e09e07bcb151b4ccdad":[1,0,273,27],
 "df/d6e/classXonoticSingleplayerDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,273,87],
 "df/d6e/classXonoticSingleplayerDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,273,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc.html":[2,0,1,10,0,2,0],
 "df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc_source.html":[2,0,1,10,0,2,0],
 "df/d87/menu_2mutators_2__mod_8qh.html":[2,0,5,3,1],
-"df/d87/menu_2mutators_2__mod_8qh_source.html":[2,0,5,3,1],
-"df/d88/bobbing_8qh.html":[2,0,1,6,0,3]
+"df/d87/menu_2mutators_2__mod_8qh_source.html":[2,0,5,3,1]
 };

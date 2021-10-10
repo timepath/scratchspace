@@ -1,6 +1,7 @@
 var csqcmodel__hooks_8qc =
 [
     [ "FIX_FRAMETIME", "dc/d3d/csqcmodel__hooks_8qc.html#ac19ec3f81ef5660364e37a797b3d2a95", null ],
+    [ "fpc", "dc/d3d/csqcmodel__hooks_8qc.html#a8df9b86d5f66e026e9801ee7b7a9a14b", null ],
     [ "IS_DEAD_FRAME", "dc/d3d/csqcmodel__hooks_8qc.html#a03e325439a3c7e40dda1730cd4251a4c", null ],
     [ "CSQCModel_AutoTagIndex_Apply", "dc/d3d/csqcmodel__hooks_8qc.html#a2b971c267f8e7807ea8b60a6070d3a2c", null ],
     [ "CSQCModel_Effects_Apply", "dc/d3d/csqcmodel__hooks_8qc.html#abdef5fa000daea2663d082046a110e10", null ],
