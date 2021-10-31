@@ -1,5 +1,6 @@
 var NAVTREEINDEX130 =
 {
+"dd/da5/gamelog_8qc.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5":[2,0,6,27,1],
 "dd/da5/gamelog_8qc.html#a79b65d6e94a0a3e0d2061c1b4c47031e":[2,0,6,27,0],
 "dd/da5/gamelog_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3":[2,0,6,27,2],
 "dd/da5/gamelog_8qc_source.html":[2,0,6,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX130 =
 "dd/db3/common_2mutators_2mutator_2running__guns_2__mod_8qh.html":[2,0,1,10,0,31,1],
 "dd/db3/common_2mutators_2mutator_2running__guns_2__mod_8qh_source.html":[2,0,1,10,0,31,1],
 "dd/db5/sv__invincibleproj_8qh.html":[2,0,1,10,0,13,3],
-"dd/db5/sv__invincibleproj_8qh_source.html":[2,0,1,10,0,13,3],
-"dd/db7/sv__globalforces_8qh.html":[2,0,1,10,0,10,3]
+"dd/db5/sv__invincibleproj_8qh_source.html":[2,0,1,10,0,13,3]
 };

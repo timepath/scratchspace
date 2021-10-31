@@ -39,7 +39,6 @@ var server_2command_2common_8qh =
     [ "GetClientErrorString_color", "d2/d06/server_2command_2common_8qh.html#a62d264710280a0bc3de352dfeacedd7c", null ],
     [ "GetCommandPrefix", "d2/d06/server_2command_2common_8qh.html#a4114b4f1cf89f05bc62cba74db4401f6", null ],
     [ "GetFilteredEntity", "d2/d06/server_2command_2common_8qh.html#afff16d75dc358b9f81513350d82d92f3", null ],
-    [ "GetFilteredNumber", "d2/d06/server_2command_2common_8qh.html#a3aec534374edb56c6d6cbf0902fb9756", null ],
     [ "GetIndexedEntity", "d2/d06/server_2command_2common_8qh.html#ac0b7dc9e5f9b82ba3224d4b45969d9d8", null ],
     [ "print_to", "d2/d06/server_2command_2common_8qh.html#a37f1c035bd3cc63c8ef7d58dd12958ee", null ],
     [ "STATIC_INIT", "d2/d06/server_2command_2common_8qh.html#ad4496cee4e1dbdf060fc6871b8212a7b", null ],

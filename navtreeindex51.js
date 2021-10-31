@@ -1,6 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"d4/dd8/antilag_8qc.html#afcf6e9ced03532b6cd318254ef7117b8":[2,0,6,11,5],
 "d4/dd8/antilag_8qc_source.html":[2,0,6,11],
 "d4/dd8/dialog__hudpanel__racetimer_8qh.html":[2,0,5,4,73],
 "d4/dd8/dialog__hudpanel__racetimer_8qh_source.html":[2,0,5,4,73],
@@ -249,5 +248,6 @@ var NAVTREEINDEX51 =
 "d4/df8/sv__touchexplode_8qc.html#a8dcb3e7f9e67cb4cd164f35b3aca50eb":[2,0,1,10,0,37,2,1],
 "d4/df8/sv__touchexplode_8qc.html#aa5b8411a2fbe2ecc99fd2f84a95cb9a8":[2,0,1,10,0,37,2,6],
 "d4/df8/sv__touchexplode_8qc.html#ab2da020259852f12fecd17406af3f1cc":[2,0,1,10,0,37,2,5],
-"d4/df8/sv__touchexplode_8qc.html#aee22c52bdd9324ade054f74e10dd5b81":[2,0,1,10,0,37,2,4]
+"d4/df8/sv__touchexplode_8qc.html#aee22c52bdd9324ade054f74e10dd5b81":[2,0,1,10,0,37,2,4],
+"d4/df8/sv__touchexplode_8qc.html#af031a9c55b2fc8d4f1273963556b47db":[2,0,1,10,0,37,2,3]
 };

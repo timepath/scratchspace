@@ -18,7 +18,6 @@ var server_2command_2common_8qc =
     [ "GetClientErrorString_color", "de/d55/server_2command_2common_8qc.html#a62d264710280a0bc3de352dfeacedd7c", null ],
     [ "GetCommandPrefix", "de/d55/server_2command_2common_8qc.html#a4114b4f1cf89f05bc62cba74db4401f6", null ],
     [ "GetFilteredEntity", "de/d55/server_2command_2common_8qc.html#afff16d75dc358b9f81513350d82d92f3", null ],
-    [ "GetFilteredNumber", "de/d55/server_2command_2common_8qc.html#a3aec534374edb56c6d6cbf0902fb9756", null ],
     [ "GetIndexedEntity", "de/d55/server_2command_2common_8qc.html#ac0b7dc9e5f9b82ba3224d4b45969d9d8", null ],
     [ "print_to", "de/d55/server_2command_2common_8qc.html#a37f1c035bd3cc63c8ef7d58dd12958ee", null ],
     [ "timeout_handler_reset", "de/d55/server_2command_2common_8qc.html#a38efff6806e0a8dda7e9daed9ef3debf", null ],

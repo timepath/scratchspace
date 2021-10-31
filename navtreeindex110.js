@@ -1,5 +1,6 @@
 var NAVTREEINDEX110 =
 {
+"db/d73/campaign__setup_8qc.html":[2,0,1,27],
 "db/d73/campaign__setup_8qc.html#aaa64dc89313bcf520b231ef1f80bee48":[2,0,1,27,0],
 "db/d73/campaign__setup_8qc_source.html":[2,0,1,27],
 "db/d76/classXonoticHUDNotificationDialog.html":[1,0,219],
@@ -248,6 +249,5 @@ var NAVTREEINDEX110 =
 "db/d7f/effectinfo_8inc.html#a435556134b897f09a098f8c6f3c93f3d":[2,0,1,2,7,149],
 "db/d7f/effectinfo_8inc.html#a435aa97250e68a01e07f0b031df80ffc":[2,0,1,2,7,270],
 "db/d7f/effectinfo_8inc.html#a43d948382ed4c00b7876ac1f16190d88":[2,0,1,2,7,99],
-"db/d7f/effectinfo_8inc.html#a43e8d4872fa413f95610b254777a6176":[2,0,1,2,7,301],
-"db/d7f/effectinfo_8inc.html#a441446767d2ae6d14df392f0f7c7b1a9":[2,0,1,2,7,327]
+"db/d7f/effectinfo_8inc.html#a43e8d4872fa413f95610b254777a6176":[2,0,1,2,7,301]
 };

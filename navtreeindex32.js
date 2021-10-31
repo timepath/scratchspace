@@ -1,6 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,215,105],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a08ffa79439a4dea15f523602429af5d8":[1,0,215,47],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a095903b901a0054ba8e31567c1d53d2c":[1,0,215,108],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,215,103],
@@ -249,5 +248,6 @@ var NAVTREEINDEX32 =
 "d3/d99/dialog__settings__game__crosshair_8qh_source.html":[2,0,5,4,133],
 "d3/d9b/util__server_8qh.html":[2,0,4,2,13],
 "d3/d9b/util__server_8qh.html#a3a6e609bb2a6ab621645f4744cf76eea":[2,0,4,2,13,0],
-"d3/d9b/util__server_8qh.html#a8b1c87e9f6ac9d02af2e8661f8845f24":[2,0,4,2,13,1]
+"d3/d9b/util__server_8qh.html#a8b1c87e9f6ac9d02af2e8661f8845f24":[2,0,4,2,13,1],
+"d3/d9b/util__server_8qh_source.html":[2,0,4,2,13]
 };

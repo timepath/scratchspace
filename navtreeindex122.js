@@ -1,5 +1,6 @@
 var NAVTREEINDEX122 =
 {
+"dc/da0/classXonoticMapInfoDialog.html#aee4e499a2af6112e04b6d702c6920872":[1,0,239,73],
 "dc/da0/classXonoticMapInfoDialog.html#aeed055aa0f545e16cc1d0870d719d444":[1,0,239,32],
 "dc/da0/classXonoticMapInfoDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,239,15],
 "dc/da0/classXonoticMapInfoDialog.html#af5714da7ffb13eae46c5a9747ed49e8c":[1,0,239,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX122 =
 "dc/de2/classXonoticProfileTab.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,254,19],
 "dc/de2/classXonoticProfileTab.html#a8b78346a74df75772de387092d850f39":[1,0,254,63],
 "dc/de2/classXonoticProfileTab.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,254,44],
-"dc/de2/classXonoticProfileTab.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,254,74],
-"dc/de2/classXonoticProfileTab.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,254,24]
+"dc/de2/classXonoticProfileTab.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,254,74]
 };

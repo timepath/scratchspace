@@ -43,8 +43,8 @@ var NAVTREEINDEX61 =
 "d6/d29/anticheat_8qc.html#a8eecfc0df3f6930fcb87691447f1f4e3":[2,0,6,9,26],
 "d6/d29/anticheat_8qc.html#a8f202c10b7a9ce94d1420e6c79eef2ac":[2,0,6,9,22],
 "d6/d29/anticheat_8qc.html#a9993370ad69e2211b3046e5d1261bae0":[2,0,6,9,14],
-"d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155":[2,0,6,9,2],
 "d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155":[2,0,6,9,1],
+"d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155":[2,0,6,9,2],
 "d6/d29/anticheat_8qc.html#aa610d9cc0675d7d0761bd5edec9d443c":[2,0,6,9,29],
 "d6/d29/anticheat_8qc.html#aaa7263f59361199cea1247dc432f198a":[2,0,6,9,38],
 "d6/d29/anticheat_8qc.html#aab2a5b23d4cb9d1902726e7a59d2ae6c":[2,0,6,9,20],
@@ -136,10 +136,11 @@ var NAVTREEINDEX61 =
 "d6/d4c/colorpicker_8qc.html#af5da62045b5266962f209f057f2905ba":[2,0,5,4,20,5],
 "d6/d4c/colorpicker_8qc_source.html":[2,0,5,4,20],
 "d6/d4e/scores__rules_8qh.html":[2,0,6,59],
-"d6/d4e/scores__rules_8qh.html#a70c01ecc880399b0cc5fa84520d93a05":[2,0,6,59,3],
-"d6/d4e/scores__rules_8qh.html#a9b29c13c36dd33cc7f639cb97e8e6470":[2,0,6,59,4],
-"d6/d4e/scores__rules_8qh.html#ac67defd12e305443ab1cf4266ca03c8f":[2,0,6,59,2],
-"d6/d4e/scores__rules_8qh.html#ae01e878023ee1a5ecc45cc3d62c3895f":[2,0,6,59,1],
+"d6/d4e/scores__rules_8qh.html#a0cf38729c382b1fd43bc5ed7c734ef34":[2,0,6,59,1],
+"d6/d4e/scores__rules_8qh.html#a70c01ecc880399b0cc5fa84520d93a05":[2,0,6,59,4],
+"d6/d4e/scores__rules_8qh.html#a9b29c13c36dd33cc7f639cb97e8e6470":[2,0,6,59,5],
+"d6/d4e/scores__rules_8qh.html#ac67defd12e305443ab1cf4266ca03c8f":[2,0,6,59,3],
+"d6/d4e/scores__rules_8qh.html#ae01e878023ee1a5ecc45cc3d62c3895f":[2,0,6,59,2],
 "d6/d4e/scores__rules_8qh.html#ae9adf848be0a903b09499cbc48313cec":[2,0,6,59,0],
 "d6/d4e/scores__rules_8qh_source.html":[2,0,6,59],
 "d6/d50/common_2minigames_2minigame_2__mod_8inc.html":[2,0,1,7,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "d6/d74/cvars_8qh.html#a1a96fddea1bf80129ebe1a07b0cd8b1d":[2,0,6,0,0,8,63],
 "d6/d74/cvars_8qh.html#a229137a2464bd4a792703113bad7865a":[2,0,6,0,0,8,43],
 "d6/d74/cvars_8qh.html#a279774ef2cf99f1d25effecc3362eb52":[2,0,6,0,0,8,23],
-"d6/d74/cvars_8qh.html#a288094555f7fb7aa4ac52bc5ae9a8f06":[2,0,6,0,0,8,15],
-"d6/d74/cvars_8qh.html#a2a8bba7b65c91cbb41d24118f2cd9b1d":[2,0,6,0,0,8,59]
+"d6/d74/cvars_8qh.html#a288094555f7fb7aa4ac52bc5ae9a8f06":[2,0,6,0,0,8,15]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"dd/d96/server_2progs_8inc_source.html":[2,0,6,49],
 "dd/d97/classSpeed.html":[1,0,143],
 "dd/d97/classSpeed.html#a0cd7cb00ef1ae2ab8e4682e2a909217a":[1,0,143,2],
 "dd/d97/classSpeed.html#a173388ac09488bdbe8c20682c608a5a5":[1,0,143,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "dd/da3/net__notice_8qh.html":[2,0,1,38],
 "dd/da3/net__notice_8qh_source.html":[2,0,1,38],
 "dd/da5/gamelog_8qc.html":[2,0,6,27],
-"dd/da5/gamelog_8qc.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,27,3],
-"dd/da5/gamelog_8qc.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5":[2,0,6,27,1]
+"dd/da5/gamelog_8qc.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,27,3]
 };

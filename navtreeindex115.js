@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"db/dc8/cl__controlpoint_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b":[2,0,1,3,0,13,2,5],
 "db/dc8/cl__controlpoint_8qc.html#ab45736fb36b0b5641315be92b9747beb":[2,0,1,3,0,13,2,12],
 "db/dc8/cl__controlpoint_8qc.html#ab90f225bea84a591127d0c66257cf3e9":[2,0,1,3,0,13,2,0],
 "db/dc8/cl__controlpoint_8qc.html#ac587d61068545a99594218d1b253bd23":[2,0,1,3,0,13,2,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "db/de2/classXonoticScreenshotViewerDialog.html#ae94f2e7fb100a64d6fd1fbeb509d7e72":[1,0,266,37],
 "db/de2/classXonoticScreenshotViewerDialog.html#aeaa408fb15986685798823ca7bbfc4c3":[1,0,266,28],
 "db/de2/classXonoticScreenshotViewerDialog.html#aeb2ea2fcd2aeba74d3d75f7421aaae2b":[1,0,266,42],
-"db/de2/classXonoticScreenshotViewerDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,266,7],
-"db/de2/classXonoticScreenshotViewerDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,266,94]
+"db/de2/classXonoticScreenshotViewerDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,266,7]
 };
