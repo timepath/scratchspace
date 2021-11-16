@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"d9/db3/classXonoticGameModelSettingsTab.html#afb9c620a2dde42c74c6685bbe02d0759":[1,0,204,54],
 "d9/db3/classXonoticGameModelSettingsTab.html#afcae884ae26e3b4e1dcca13d0dd53dee":[1,0,204,75],
 "d9/db3/classXonoticGameModelSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,204,2],
 "d9/db4/secret_8qc.html":[2,0,1,6,3,40],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "d9/de9/classListBox.html#a94e738eb600c049a88a828395847ac54":[1,0,77,20],
 "d9/de9/classListBox.html#a955acbbda432fb19399292cbac96e0af":[1,0,77,56],
 "d9/de9/classListBox.html#a9f84f4ffde4600e714c309ecd874cb2b":[1,0,77,36],
-"d9/de9/classListBox.html#aa089b7b1be6d628383e60c872a900c79":[1,0,77,55],
-"d9/de9/classListBox.html#aa0be1afcee01b4904e9b7ccc15674b53":[1,0,77,2]
+"d9/de9/classListBox.html#aa089b7b1be6d628383e60c872a900c79":[1,0,77,55]
 };

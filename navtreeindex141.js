@@ -1,5 +1,6 @@
 var NAVTREEINDEX141 =
 {
+"de/dc2/sv__melee__only_8qc.html#aebe9a2c4f8605de51e12cc76f8ce8108":[2,0,1,10,0,16,2,1],
 "de/dc2/sv__melee__only_8qc.html#afe2036e23120afaf50c25eff1b9cbdb4":[2,0,1,10,0,16,2,4],
 "de/dc2/sv__melee__only_8qc_source.html":[2,0,1,10,0,16,2],
 "de/dc3/teamradar_8qc.html":[2,0,0,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX141 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,217,94],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a99fdddc4477054b7ce01e537c2824609":[1,0,217,28],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a9d0abebc8deb6bfe62f32b3a67767a90":[1,0,217,42],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,217,98],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a9e099ece31334a52a1b93305c8a368c3":[1,0,217,46]
+"de/de7/classXonoticHUDItemsTimeDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,217,98]
 };

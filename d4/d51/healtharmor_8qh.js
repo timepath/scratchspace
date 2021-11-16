@@ -5,6 +5,7 @@ var healtharmor_8qh =
     [ "autocvar_hud_panel_healtharmor_combined", "d4/d51/healtharmor_8qh.html#afebae62286efa29815e2009a88e5f188", null ],
     [ "autocvar_hud_panel_healtharmor_dynamichud", "d4/d51/healtharmor_8qh.html#a6a05e2c70c046f1dea51f3dc64cfe176", null ],
     [ "autocvar_hud_panel_healtharmor_flip", "d4/d51/healtharmor_8qh.html#a7d935df199c3eeedf4b080f663d80b28", null ],
+    [ "autocvar_hud_panel_healtharmor_fuelbar_startalpha", "d4/d51/healtharmor_8qh.html#a39c5756936c5dcadc1dceaf67bd2b408", null ],
     [ "autocvar_hud_panel_healtharmor_hide_ondeath", "d4/d51/healtharmor_8qh.html#a11f7bed86d8e460570cc36cc2c8801e6", null ],
     [ "autocvar_hud_panel_healtharmor_iconalign", "d4/d51/healtharmor_8qh.html#a048a30a5010eeff2a9fbf4104f1a2cc2", null ],
     [ "autocvar_hud_panel_healtharmor_maxarmor", "d4/d51/healtharmor_8qh.html#af059c7cf3e5687b73f13c24fa769ff6f", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX151 =
 {
+"df/df6/classXonoticSlider.html#aea98cb4e2ececfc3f89ebc39d10afb4c":[1,0,275,13],
 "df/df6/classXonoticSlider.html#aed8d879177fc6c6bdc10857979a3a88d":[1,0,275,46],
 "df/df6/classXonoticSlider.html#aee4e499a2af6112e04b6d702c6920872":[1,0,275,22],
 "df/df6/classXonoticSlider.html#aee70556e8beecc1a56358dbec6c2e40c":[1,0,275,39],
@@ -248,6 +249,5 @@ var NAVTREEINDEX151 =
 "dir_c41863cdfa823b1f32760ba087425b99.html":[2,0,1,10,0,40],
 "dir_c650c86679b7009fd845cd654fc02400.html":[2,0,1,10,0,7],
 "dir_c6da9de4494473068dbcc8756d965786.html":[2,0,5,1],
-"dir_c814fee23757456cb4490b5d684bd5e6.html":[2,0,1,3,0,12],
-"dir_c83288011515150628ea6201a715f126.html":[2,0,1,8]
+"dir_c814fee23757456cb4490b5d684bd5e6.html":[2,0,1,3,0,12]
 };

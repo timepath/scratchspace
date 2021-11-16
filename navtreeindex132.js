@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"dd/dea/items_2spawning_8qc_source.html":[2,0,6,3,4],
 "dd/dec/client_2bgmscript_8qc.html":[2,0,0,9],
 "dd/dec/client_2bgmscript_8qc.html#a048618fb2be86924c09b53738169870a":[2,0,0,9,13],
 "dd/dec/client_2bgmscript_8qc.html#a18d6831ff735432088a81ddc4034596e":[2,0,0,9,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "de/d0c/classDamageText.html#a6849153fc604a5bced7c74d7a52ccd92":[1,0,28,13],
 "de/d0c/classDamageText.html#a6c1713c1ec4ddf63ec1134423d0a8b99":[1,0,28,10],
 "de/d0c/classDamageText.html#a72d6238a28d367c6b1315b01674d691c":[1,0,28,18],
-"de/d0c/classDamageText.html#a7782a3053d6f6ee7279746b02edfcf4d":[1,0,28,12],
-"de/d0c/classDamageText.html#a8422fc97bfd57ab9a4f5373ea2868f4d":[1,0,28,20]
+"de/d0c/classDamageText.html#a7782a3053d6f6ee7279746b02edfcf4d":[1,0,28,12]
 };

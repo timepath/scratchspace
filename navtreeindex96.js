@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"da/d0a/classSpawnShield.html#a0cd7cb00ef1ae2ab8e4682e2a909217a":[1,0,141,2],
 "da/d0a/classSpawnShield.html#a0fbbc45cd45b19169485c3ed6f0054e1":[1,0,141,6],
 "da/d0a/classSpawnShield.html#a1cb68938aa6ffc32816da9cf6858036e":[1,0,141,3],
 "da/d0a/classSpawnShield.html#a248d4fc94c2423785977590c0c6f15c6":[1,0,141,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "da/d2a/classXonoticDecibelsSlider.html#a410bd8073e04005466f95ec4936a3328":[1,0,192,98],
 "da/d2a/classXonoticDecibelsSlider.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,192,19],
 "da/d2a/classXonoticDecibelsSlider.html#a444cc1be43effdc5564103276b97d841":[1,0,192,47],
-"da/d2a/classXonoticDecibelsSlider.html#a4507944a16d2de8fd3aff6bf8767f1e4":[1,0,192,96],
-"da/d2a/classXonoticDecibelsSlider.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,192,86]
+"da/d2a/classXonoticDecibelsSlider.html#a4507944a16d2de8fd3aff6bf8767f1e4":[1,0,192,96]
 };

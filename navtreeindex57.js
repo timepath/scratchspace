@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"d5/db3/common_2mutators_2mutator_2dynamic__handicap_2__mod_8inc_source.html":[2,0,1,10,0,9,0],
 "d5/db4/halflife_8qh.html":[2,0,6,2,3],
 "d5/db4/halflife_8qh_source.html":[2,0,6,2,3],
 "d5/dbc/common_2mutators_2mutator_2vampire_2__mod_8qh.html":[2,0,1,10,0,38,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "d5/df2/common_2util_8qh.html#aef248138a461b2553c9291729bab74fa":[2,0,1,50,16],
 "d5/df2/common_2util_8qh.html#aef3265c9e6d02e6e31544d743d075f42":[2,0,1,50,31],
 "d5/df2/common_2util_8qh.html#af54a7bf93c333e2157fe8498a5bf072e":[2,0,1,50,61],
-"d5/df2/common_2util_8qh.html#af6b5f7d19eecec1c5243980c998216a6":[2,0,1,50,1],
-"d5/df2/common_2util_8qh.html#afc198f5b8ad430fd865a828902319624":[2,0,1,50,20]
+"d5/df2/common_2util_8qh.html#af6b5f7d19eecec1c5243980c998216a6":[2,0,1,50,1]
 };

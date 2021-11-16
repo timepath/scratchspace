@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"dd/d96/server_2progs_8inc.html":[2,0,6,49],
 "dd/d96/server_2progs_8inc_source.html":[2,0,6,49],
 "dd/d97/classSpeed.html":[1,0,143],
 "dd/d97/classSpeed.html#a0cd7cb00ef1ae2ab8e4682e2a909217a":[1,0,143,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "dd/da3/classXonoticMusicPlayerTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,245,2],
 "dd/da3/net__notice_8qh.html":[2,0,1,38],
 "dd/da3/net__notice_8qh_source.html":[2,0,1,38],
-"dd/da5/gamelog_8qc.html":[2,0,6,27],
-"dd/da5/gamelog_8qc.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,27,3]
+"dd/da5/gamelog_8qc.html":[2,0,6,27]
 };
