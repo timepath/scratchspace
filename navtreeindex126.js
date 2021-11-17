@@ -1,11 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"dd/d31/banning_8qc.html#aed3a67ce95d1adcd9bf61a654ae6ed98":[2,0,6,1,2,11],
-"dd/d31/banning_8qc.html#af092a83967ab9516490e44b5736a9fe3":[2,0,6,1,2,5],
-"dd/d31/banning_8qc_source.html":[2,0,6,1,2],
-"dd/d31/engineinfo_8qc.html":[2,0,0,1,0,8],
-"dd/d31/engineinfo_8qc.html#a19fede9702c226203c812326536f793b":[2,0,0,1,0,8,4],
-"dd/d31/engineinfo_8qc.html#a1a1446b0e02720796670e216ad41d264":[2,0,0,1,0,8,9],
 "dd/d31/engineinfo_8qc.html#a75b5e5254e8e84813ebe90911040af06":[2,0,0,1,0,8,1],
 "dd/d31/engineinfo_8qc.html#a7a2c3d482f3e9586fbd9172e6181b328":[2,0,0,1,0,8,10],
 "dd/d31/engineinfo_8qc.html#a80a6eaac1d8d20f3dfe89586f09ed952":[2,0,0,1,0,8,6],
@@ -249,5 +243,11 @@ var NAVTREEINDEX126 =
 "dd/d59/modicons_8qc.html#ae1cd750e7a7bfc1ed181278a122c6d5e":[2,0,0,1,0,16,1],
 "dd/d59/modicons_8qc_source.html":[2,0,0,1,0,16],
 "dd/d5b/common_2gamemodes_2gamemode_2keepaway_2__mod_8qh.html":[2,0,1,3,0,9,1],
-"dd/d5b/common_2gamemodes_2gamemode_2keepaway_2__mod_8qh_source.html":[2,0,1,3,0,9,1]
+"dd/d5b/common_2gamemodes_2gamemode_2keepaway_2__mod_8qh_source.html":[2,0,1,3,0,9,1],
+"dd/d5d/dialog__settings__bindings__reset_8qh.html":[2,0,5,4,127],
+"dd/d5d/dialog__settings__bindings__reset_8qh_source.html":[2,0,5,4,127],
+"dd/d5d/gamesettings_8qh.html":[2,0,5,9],
+"dd/d5d/gamesettings_8qh_source.html":[2,0,5,9],
+"dd/d5e/door_8qh.html":[2,0,1,6,0,11],
+"dd/d5e/door_8qh.html#a719e6f009c974e863488d99b5cfb6532":[2,0,1,6,0,11,5]
 };

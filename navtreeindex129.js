@@ -1,11 +1,5 @@
 var NAVTREEINDEX129 =
 {
-"dd/d96/server_2progs_8inc.html":[2,0,6,49],
-"dd/d96/server_2progs_8inc_source.html":[2,0,6,49],
-"dd/d97/classSpeed.html":[1,0,143],
-"dd/d97/classSpeed.html#a0cd7cb00ef1ae2ab8e4682e2a909217a":[1,0,143,2],
-"dd/d97/classSpeed.html#a173388ac09488bdbe8c20682c608a5a5":[1,0,143,9],
-"dd/d97/classSpeed.html#a248d4fc94c2423785977590c0c6f15c6":[1,0,143,0],
 "dd/d97/classSpeed.html#a3e1b3e7263bd5c90b6ce5a72fb58411f":[1,0,143,1],
 "dd/d97/classSpeed.html#a46d53d7aae883e8911889498593a5d13":[1,0,143,5],
 "dd/d97/classSpeed.html#a7f7d1daa2819e83882c707fc490f3945":[1,0,143,7],
@@ -249,5 +243,11 @@ var NAVTREEINDEX129 =
 "dd/da3/classXonoticMusicPlayerTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,245,2],
 "dd/da3/net__notice_8qh.html":[2,0,1,38],
 "dd/da3/net__notice_8qh_source.html":[2,0,1,38],
-"dd/da5/gamelog_8qc.html":[2,0,6,27]
+"dd/da5/gamelog_8qc.html":[2,0,6,27],
+"dd/da5/gamelog_8qc.html#a08ac986acea412a0a46814dc880058c7":[2,0,6,27,3],
+"dd/da5/gamelog_8qc.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5":[2,0,6,27,1],
+"dd/da5/gamelog_8qc.html#a79b65d6e94a0a3e0d2061c1b4c47031e":[2,0,6,27,0],
+"dd/da5/gamelog_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3":[2,0,6,27,2],
+"dd/da5/gamelog_8qc_source.html":[2,0,6,27],
+"dd/da6/classXonoticCreditsDialog.html":[1,0,185]
 };

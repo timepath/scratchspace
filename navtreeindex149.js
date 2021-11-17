@@ -1,11 +1,5 @@
 var NAVTREEINDEX149 =
 {
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,223,61],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,223,55],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a3df9f40869004e26c3d0dd7fc28e57c4":[1,0,223,29],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a4246fb4b7068aee87e47b2da375de905":[1,0,223,52],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,223,60],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,223,7],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,223,96],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a4ce700a3a0917cb5ebbc8edbe293630f":[1,0,223,30],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,223,78],
@@ -249,5 +243,11 @@ var NAVTREEINDEX149 =
 "df/dd4/strafehud_8qh.html#aaf80b871efc2d3404f40ec34c307ae16":[2,0,0,1,0,37,33],
 "df/dd4/strafehud_8qh.html#ab006db4172c87ad2744ab81770d046ec":[2,0,0,1,0,37,14],
 "df/dd4/strafehud_8qh.html#abae3b87ddd40e690878b8f74bfca1eea":[2,0,0,1,0,37,10],
-"df/dd4/strafehud_8qh.html#ac16023fb513460f6422d01c04eceb0dc":[2,0,0,1,0,37,40]
+"df/dd4/strafehud_8qh.html#ac16023fb513460f6422d01c04eceb0dc":[2,0,0,1,0,37,40],
+"df/dd4/strafehud_8qh.html#ac3a221dd6b2487a8c89efa02482b237c":[2,0,0,1,0,37,4],
+"df/dd4/strafehud_8qh.html#ac3ccac0bd434b5314f47220bc068fdfc":[2,0,0,1,0,37,18],
+"df/dd4/strafehud_8qh.html#acdfa76bfb1e6f27d8a8eb4402b84b496":[2,0,0,1,0,37,49],
+"df/dd4/strafehud_8qh.html#acf35403326b0050ff77ccc9be8d1aa5d":[2,0,0,1,0,37,7],
+"df/dd4/strafehud_8qh.html#ad02f798190d070c088ca0510f56a7003":[2,0,0,1,0,37,46],
+"df/dd4/strafehud_8qh.html#ad13246380c9a1da395733a0bbeeb7159":[2,0,0,1,0,37,45]
 };

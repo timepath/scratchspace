@@ -11,16 +11,10 @@ var searchData=
   ['jointtype_5fpoint',['JOINTTYPE_POINT',['../de/d5e/dpextensions_8qc.html#a6faaf3673fe2d6832a871e0cbbef917a',1,'dpextensions.qc']]],
   ['jointtype_5fslider',['JOINTTYPE_SLIDER',['../de/d5e/dpextensions_8qc.html#a0e6fea75b4c256913dd456460ebc48cd',1,'dpextensions.qc']]],
   ['jointtype_5funiversal',['JOINTTYPE_UNIVERSAL',['../de/d5e/dpextensions_8qc.html#a5b53b53bdf1c809ce664653c7624aa59',1,'dpextensions.qc']]],
-  ['jumpheight',['jumpheight',['../db/dfe/strafehud_8qc.html#ae7216124036eed8b876560125eade283',1,'strafehud.qc']]],
-  ['jumpheight_5fpersistent',['jumpheight_persistent',['../db/dfe/strafehud_8qc.html#a922347d3ec208938f1d062f43c20a09c',1,'strafehud.qc']]],
-  ['jumpheight_5fprev',['jumpheight_prev',['../db/dfe/strafehud_8qc.html#a3e276ff952df39047eeda2365cdb1e2c',1,'strafehud.qc']]],
   ['jumpheight_5ftime',['jumpheight_time',['../df/dd4/navigation_8qh.html#ad0b9be7250ba7ada83cc3e9e044ef1e9',1,'navigation.qh']]],
   ['jumpheight_5fvec',['jumpheight_vec',['../df/dd4/navigation_8qh.html#aba3528eb951e36fbd41d1cb6b470b761',1,'navigation.qh']]],
   ['jumppadcount',['jumppadcount',['../d9/de7/jumppads_8qh.html#aeb124e9cd9ff6aa1d896e02a10fc6ff9',1,'jumppads.qh']]],
   ['jumppadsused',['jumppadsused',['../d9/de7/jumppads_8qh.html#a670dbbce52ae308428b66fd8c8813714',1,'jumppads.qh']]],
-  ['jumprestart',['jumprestart',['../db/dfe/strafehud_8qc.html#a52b87023803d0101634fe9bdf26c086b',1,'strafehud.qc']]],
-  ['jumpspeed_5fprev',['jumpspeed_prev',['../db/dfe/strafehud_8qc.html#af5dc68d2399582bb0c6bf971c62facd1',1,'strafehud.qc']]],
   ['jumpstepheightvec',['jumpstepheightvec',['../df/dd4/navigation_8qh.html#a75221be7d8873635bc580f7f8bec5d40',1,'navigation.qh']]],
-  ['jumptime',['jumptime',['../db/dfe/strafehud_8qc.html#aaab38abf2b90a940a68fed63ec3b85d8',1,'strafehud.qc']]],
   ['just_5fjoined',['just_joined',['../d1/d37/classClient.html#a191231a070ddb9890525e44cb7bc1a83',1,'Client::just_joined()'],['../d8/de2/server_2client_8qh.html#a66417efa3cbc9bf4992fd06cfa8f5203',1,'just_joined():&#160;client.qh']]]
 ];
