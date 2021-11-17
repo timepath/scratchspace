@@ -1,5 +1,13 @@
 var NAVTREEINDEX48 =
 {
+"d4/d94/classXonoticHUDVoteDialog.html#a812f6e3a6db024ca16e4204cbf03af54":[1,0,230,108],
+"d4/d94/classXonoticHUDVoteDialog.html#a81f1c12f1e408e09e07bcb151b4ccdad":[1,0,230,26],
+"d4/d94/classXonoticHUDVoteDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,230,88],
+"d4/d94/classXonoticHUDVoteDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,230,32],
+"d4/d94/classXonoticHUDVoteDialog.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,230,14],
+"d4/d94/classXonoticHUDVoteDialog.html#a8b78346a74df75772de387092d850f39":[1,0,230,58],
+"d4/d94/classXonoticHUDVoteDialog.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,230,39],
+"d4/d94/classXonoticHUDVoteDialog.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,230,69],
 "d4/d94/classXonoticHUDVoteDialog.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,230,19],
 "d4/d94/classXonoticHUDVoteDialog.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,230,66],
 "d4/d94/classXonoticHUDVoteDialog.html#a9441dd7cacb643d23cf925b6c70b0266":[1,0,230,21],
@@ -241,13 +249,5 @@ var NAVTREEINDEX48 =
 "d4/da5/classXonoticBigCommandButton.html#a476349ed1a0d044310253e867c496c16":[1,0,174,54],
 "d4/da5/classXonoticBigCommandButton.html#a4985255a6e0984252ab7ccedd6347d5b":[1,0,174,52],
 "d4/da5/classXonoticBigCommandButton.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,174,81],
-"d4/da5/classXonoticBigCommandButton.html#a4bc36460031aeb99fc60b108f2f22f19":[1,0,174,75],
-"d4/da5/classXonoticBigCommandButton.html#a4c5fa9cbca0407317a0c99b34992af3e":[1,0,174,64],
-"d4/da5/classXonoticBigCommandButton.html#a4cec67ef8bea911bbbe8e837e8c1f4fe":[1,0,174,84],
-"d4/da5/classXonoticBigCommandButton.html#a4cf08b5cf5b03694b1ab99f4eb3cd6da":[1,0,174,7],
-"d4/da5/classXonoticBigCommandButton.html#a54e592697c83dd2e7a6d27472cd00698":[1,0,174,50],
-"d4/da5/classXonoticBigCommandButton.html#a56159c764874bed976add81f81298c31":[1,0,174,55],
-"d4/da5/classXonoticBigCommandButton.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,174,60],
-"d4/da5/classXonoticBigCommandButton.html#a63088422a3f8e96ac79e1f8c14c4c34e":[1,0,174,15],
-"d4/da5/classXonoticBigCommandButton.html#a6481f6c9cec249023c4ae0eeda3834dd":[1,0,174,22]
+"d4/da5/classXonoticBigCommandButton.html#a4bc36460031aeb99fc60b108f2f22f19":[1,0,174,75]
 };

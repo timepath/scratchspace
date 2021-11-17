@@ -38,5 +38,13 @@ var sv__clanarena_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d7/db6/sv__clanarena_8qc.html#ad9462454a5bcadebfd4971eba642da20", null ],
     [ "nades_Clear", "d7/db6/sv__clanarena_8qc.html#a515ca2e64da8af7b2b59470a6697db65", null ],
     [ "autocvar_g_ca_damage2score_multiplier", "d7/db6/sv__clanarena_8qc.html#ad975355c5fb8c137be07cbbe2741c7d0", null ],
-    [ "autocvar_g_ca_spectate_enemies", "d7/db6/sv__clanarena_8qc.html#a48f46043ca7339670815fd1fbb1f6711", null ]
+    [ "autocvar_g_ca_spectate_enemies", "d7/db6/sv__clanarena_8qc.html#a48f46043ca7339670815fd1fbb1f6711", null ],
+    [ "autocvar_g_ca_start_ammo_cells", "d7/db6/sv__clanarena_8qc.html#a15a5d39599a2d1e7f3dbdd046d40b7b5", null ],
+    [ "autocvar_g_ca_start_ammo_fuel", "d7/db6/sv__clanarena_8qc.html#a4e23ea7503d8752f016b012c8d0f9e2e", null ],
+    [ "autocvar_g_ca_start_ammo_nails", "d7/db6/sv__clanarena_8qc.html#a364f24c1375155a44eb7c081ad49905d", null ],
+    [ "autocvar_g_ca_start_ammo_plasma", "d7/db6/sv__clanarena_8qc.html#a10440f55a3b662e7080193f6fe89fa77", null ],
+    [ "autocvar_g_ca_start_ammo_rockets", "d7/db6/sv__clanarena_8qc.html#a0e8b94a3a582242f658e733756fbd251", null ],
+    [ "autocvar_g_ca_start_ammo_shells", "d7/db6/sv__clanarena_8qc.html#acfe67f56645f859c89c2fd218dd49759", null ],
+    [ "autocvar_g_ca_start_armor", "d7/db6/sv__clanarena_8qc.html#a24f21ce39de2338f3dac57c40446af58", null ],
+    [ "autocvar_g_ca_start_health", "d7/db6/sv__clanarena_8qc.html#a4079674b04782228663417d03469c869", null ]
 ];

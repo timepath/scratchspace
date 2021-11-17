@@ -1,5 +1,13 @@
 var NAVTREEINDEX45 =
 {
+"d4/d62/damage_8qh.html#a2b2cad71d9088357051170c08fb286a9":[2,0,6,24,93],
+"d4/d62/damage_8qh.html#a30b6dcb0a5e148d3961cad10abdaf5af":[2,0,6,24,15],
+"d4/d62/damage_8qh.html#a33c7325faf274991226dd95b3d85b806":[2,0,6,24,46],
+"d4/d62/damage_8qh.html#a3843366a2470ff4989f2e72a5c79c8b8":[2,0,6,24,19],
+"d4/d62/damage_8qh.html#a3fd2d994c3cac42100d3818ec0dd1095":[2,0,6,24,59],
+"d4/d62/damage_8qh.html#a419ab93e1e949922dba4a85c64a2f131":[2,0,6,24,54],
+"d4/d62/damage_8qh.html#a4345299b9fade9c3b080c5084766b62b":[2,0,6,24,31],
+"d4/d62/damage_8qh.html#a449c65621d31ac988f82a49ddf881ca0":[2,0,6,24,9],
 "d4/d62/damage_8qh.html#a4647c37c2ceec013c552e4a2979c3787":[2,0,6,24,92],
 "d4/d62/damage_8qh.html#a488c668773967c193bbb4bc0bd8d3e53":[2,0,6,24,33],
 "d4/d62/damage_8qh.html#a496b46a3b10753a5fc395e877c05dd7d":[2,0,6,24,43],
@@ -241,13 +249,5 @@ var NAVTREEINDEX45 =
 "d4/d85/classXonoticUid2NameDialog.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,284,17],
 "d4/d85/classXonoticUid2NameDialog.html#a81f1c12f1e408e09e07bcb151b4ccdad":[1,0,284,26],
 "d4/d85/classXonoticUid2NameDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,284,88],
-"d4/d85/classXonoticUid2NameDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,284,32],
-"d4/d85/classXonoticUid2NameDialog.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,284,14],
-"d4/d85/classXonoticUid2NameDialog.html#a8867983c38c5049789a3092ac2e7d2bf":[1,0,284,81],
-"d4/d85/classXonoticUid2NameDialog.html#a8b78346a74df75772de387092d850f39":[1,0,284,58],
-"d4/d85/classXonoticUid2NameDialog.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,284,39],
-"d4/d85/classXonoticUid2NameDialog.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,284,69],
-"d4/d85/classXonoticUid2NameDialog.html#a92fb4d73948d08a7d48a5d508f060d43":[1,0,284,19],
-"d4/d85/classXonoticUid2NameDialog.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,284,66],
-"d4/d85/classXonoticUid2NameDialog.html#a9441dd7cacb643d23cf925b6c70b0266":[1,0,284,21]
+"d4/d85/classXonoticUid2NameDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,284,32]
 };

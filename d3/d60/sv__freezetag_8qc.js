@@ -38,5 +38,13 @@ var sv__freezetag_8qc =
     [ "autocvar_g_freezetag_revive_clearspeed", "d3/d60/sv__freezetag_8qc.html#a681a7c1a8659414873074fec7482fabe", null ],
     [ "autocvar_g_freezetag_round_timelimit", "d3/d60/sv__freezetag_8qc.html#ae3960f48d8c0d090b0eb6ce705f38ee8", null ],
     [ "autocvar_g_freezetag_teams_override", "d3/d60/sv__freezetag_8qc.html#a94b9e018bd0196f2a9aa0144797a046a", null ],
-    [ "autocvar_g_freezetag_warmup", "d3/d60/sv__freezetag_8qc.html#aa4afe01babcb5b2c19b341f5d3e6d6ef", null ]
+    [ "autocvar_g_freezetag_warmup", "d3/d60/sv__freezetag_8qc.html#aa4afe01babcb5b2c19b341f5d3e6d6ef", null ],
+    [ "autocvar_g_ft_start_ammo_cells", "d3/d60/sv__freezetag_8qc.html#aeb8a5862d356ca68c54ebecaba12690d", null ],
+    [ "autocvar_g_ft_start_ammo_fuel", "d3/d60/sv__freezetag_8qc.html#a5cc94974ed5d69a8721fd2902e01fc0d", null ],
+    [ "autocvar_g_ft_start_ammo_nails", "d3/d60/sv__freezetag_8qc.html#a3acb1ba68eb5cef9d0618e625b882393", null ],
+    [ "autocvar_g_ft_start_ammo_plasma", "d3/d60/sv__freezetag_8qc.html#aff911fa20d355e3ef164cb8a66018ee9", null ],
+    [ "autocvar_g_ft_start_ammo_rockets", "d3/d60/sv__freezetag_8qc.html#a6ac3f11b515ba3d50df7b622fa1efdd4", null ],
+    [ "autocvar_g_ft_start_ammo_shells", "d3/d60/sv__freezetag_8qc.html#a6fa28adca1321612db1acc582f1e5e7e", null ],
+    [ "autocvar_g_ft_start_armor", "d3/d60/sv__freezetag_8qc.html#ad49d5c2e4abc33a8399f654c8e9238b0", null ],
+    [ "autocvar_g_ft_start_health", "d3/d60/sv__freezetag_8qc.html#a556290ab9d66cadb5239fbb9fc4a3d89", null ]
 ];

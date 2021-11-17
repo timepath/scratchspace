@@ -1,5 +1,13 @@
 var NAVTREEINDEX37 =
 {
+"d3/df2/classDualPlasmaTurret.html#a7bf40f64dd91bb952d21d1d827e295c3":[1,0,36,16],
+"d3/df2/classDualPlasmaTurret.html#a8fdfb2c1d48fbb73e71c119fc329a1cb":[1,0,36,15],
+"d3/df2/classDualPlasmaTurret.html#a94e3d41918c5d7bc60be466f11e008de":[1,0,36,7],
+"d3/df2/classDualPlasmaTurret.html#aa78ce0e9cc28272d38b2b0acafe9d87f":[1,0,36,6],
+"d3/df2/classDualPlasmaTurret.html#ab783d7bbccec292d9986a3c4ca08def1":[1,0,36,19],
+"d3/df2/classDualPlasmaTurret.html#abbaee50395780c7633debb3f0ceaf3c1":[1,0,36,9],
+"d3/df2/classDualPlasmaTurret.html#ac1a033fb2adfdc05a08b6d17d52e1f65":[1,0,36,5],
+"d3/df2/classDualPlasmaTurret.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,36,3],
 "d3/df2/classDualPlasmaTurret.html#aee8c2d678617a4698d53e738225284e3":[1,0,36,17],
 "d3/df2/classDualPlasmaTurret.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,36,4],
 "d3/df2/classDualPlasmaTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,36,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d09/classXonoticCheckBoxString.html#aad099a0549928c37867d05a5dde2a511":[1,0,180,88],
 "d4/d09/classXonoticCheckBoxString.html#aadf22fd0b74fa4a5192dcc33efa3386c":[1,0,180,63],
 "d4/d09/classXonoticCheckBoxString.html#aae2bc4f908afc77b4095838f729cd68b":[1,0,180,69],
-"d4/d09/classXonoticCheckBoxString.html#aaefd5f78048ffbfdf0e45b630c4b5a4b":[1,0,180,75],
-"d4/d09/classXonoticCheckBoxString.html#aaf66da058af5d081753410af28388d27":[1,0,180,32],
-"d4/d09/classXonoticCheckBoxString.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,180,11],
-"d4/d09/classXonoticCheckBoxString.html#ab4e2dcbdd18c2fffc12c3e9f13dd0c50":[1,0,180,5],
-"d4/d09/classXonoticCheckBoxString.html#abc0b93c8fbf482137be2e6c79551ac7a":[1,0,180,26],
-"d4/d09/classXonoticCheckBoxString.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,180,37],
-"d4/d09/classXonoticCheckBoxString.html#ac23e8f6c8b49873e48c491299c3b7abd":[1,0,180,25],
-"d4/d09/classXonoticCheckBoxString.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,180,3],
-"d4/d09/classXonoticCheckBoxString.html#ac87afacb7e4a940256ed4c74e35ce0be":[1,0,180,93]
+"d4/d09/classXonoticCheckBoxString.html#aaefd5f78048ffbfdf0e45b630c4b5a4b":[1,0,180,75]
 };

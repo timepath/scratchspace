@@ -1,5 +1,13 @@
 var NAVTREEINDEX33 =
 {
+"d3/d99/dialog__settings__game__crosshair_8qh.html":[2,0,5,4,133],
+"d3/d99/dialog__settings__game__crosshair_8qh.html#a12ba5112be2814cdfc0d381545b430c6":[2,0,5,4,133,2],
+"d3/d99/dialog__settings__game__crosshair_8qh.html#a4f706d7ce46862c87a014b6423a463f3":[2,0,5,4,133,1],
+"d3/d99/dialog__settings__game__crosshair_8qh_source.html":[2,0,5,4,133],
+"d3/d9b/util__server_8qh.html":[2,0,4,2,13],
+"d3/d9b/util__server_8qh.html#a3a6e609bb2a6ab621645f4744cf76eea":[2,0,4,2,13,0],
+"d3/d9b/util__server_8qh.html#a8b1c87e9f6ac9d02af2e8661f8845f24":[2,0,4,2,13,1],
+"d3/d9b/util__server_8qh_source.html":[2,0,4,2,13],
 "d3/d9c/counter_8qh.html":[2,0,1,6,3,3],
 "d3/d9c/counter_8qh.html#a714b761a8590742eafa366fb845cd483":[2,0,1,6,3,3,0],
 "d3/d9c/counter_8qh.html#ab7a8acadf32c0bafb4f36984c5a019ab":[2,0,1,6,3,3,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX33 =
 "d3/dba/classXonoticLanguageList.html#a151e0ec9dca93787cd82446a1b2e5ffa":[1,0,236,67],
 "d3/dba/classXonoticLanguageList.html#a15d3326ac2bb6d981ca9830931782a2e":[1,0,236,18],
 "d3/dba/classXonoticLanguageList.html#a18456fc3d44b3528c7595c73f42a8acc":[1,0,236,79],
-"d3/dba/classXonoticLanguageList.html#a185fb4f433a3493b790ca9fca478f0f8":[1,0,236,10],
-"d3/dba/classXonoticLanguageList.html#a18fad48046d98579ab5227915e8ec1e0":[1,0,236,25],
-"d3/dba/classXonoticLanguageList.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,236,34],
-"d3/dba/classXonoticLanguageList.html#a20f16a2390c77359d31c65b32617a0f0":[1,0,236,52],
-"d3/dba/classXonoticLanguageList.html#a21f44a9c9109e152b3736678bf21a016":[1,0,236,42],
-"d3/dba/classXonoticLanguageList.html#a226c0bc88ce385696569aad0cadc1bcb":[1,0,236,26],
-"d3/dba/classXonoticLanguageList.html#a230ddb1a3db4e3db29b3c2e1590dd22e":[1,0,236,98],
-"d3/dba/classXonoticLanguageList.html#a23e4f071b3d88211533f8b8c30920f99":[1,0,236,90],
-"d3/dba/classXonoticLanguageList.html#a25c6abb0eac8b11d46cba2d842357264":[1,0,236,13]
+"d3/dba/classXonoticLanguageList.html#a185fb4f433a3493b790ca9fca478f0f8":[1,0,236,10]
 };

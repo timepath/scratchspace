@@ -1,5 +1,13 @@
 var NAVTREEINDEX53 =
 {
+"d5/d53/classXonoticCharmap.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,178,13],
+"d5/d53/classXonoticCharmap.html#a28560e0d254b8b53bf0e7ee98ad73094":[1,0,178,23],
+"d5/d53/classXonoticCharmap.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,178,16],
+"d5/d53/classXonoticCharmap.html#a33c300df69f20ce17b5e0ef498db8ea0":[1,0,178,32],
+"d5/d53/classXonoticCharmap.html#a382a09f7c5068d0f7969a394178c444a":[1,0,178,7],
+"d5/d53/classXonoticCharmap.html#a39b77a1923845447d837ff9f399e9aff":[1,0,178,54],
+"d5/d53/classXonoticCharmap.html#a39c4cf2426847560f99fdd23fab35ffa":[1,0,178,27],
+"d5/d53/classXonoticCharmap.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,178,9],
 "d5/d53/classXonoticCharmap.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,178,3],
 "d5/d53/classXonoticCharmap.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,178,8],
 "d5/d53/classXonoticCharmap.html#a49a22c2c807939b78d2ddb9c9c5ef81b":[1,0,178,41],
@@ -241,13 +249,5 @@ var NAVTREEINDEX53 =
 "d5/d6c/classXonoticHUDSkinList.html#ae3286b80a66cea2cf1946073eef18380":[1,0,227,5],
 "d5/d6c/classXonoticHUDSkinList.html#ae516140b81d4a39114095bffc3ce5782":[1,0,227,47],
 "d5/d6c/classXonoticHUDSkinList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,227,84],
-"d5/d6c/classXonoticHUDSkinList.html#aed05f75651928be9263a2073856f33cd":[1,0,227,96],
-"d5/d6c/classXonoticHUDSkinList.html#aee4e499a2af6112e04b6d702c6920872":[1,0,227,37],
-"d5/d6c/classXonoticHUDSkinList.html#aefbdc24289692ffc802c8cc2cc144883":[1,0,227,8],
-"d5/d6c/classXonoticHUDSkinList.html#af0b244b992572041f01b0abee9560814":[1,0,227,48],
-"d5/d6c/classXonoticHUDSkinList.html#af1479b2912aa4e2083fd6a30bc67340b":[1,0,227,93],
-"d5/d6c/classXonoticHUDSkinList.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,227,3],
-"d5/d6c/classXonoticHUDSkinList.html#af3b19da9c71985ddbad5d021e1612250":[1,0,227,19],
-"d5/d6c/classXonoticHUDSkinList.html#af792d30cc5c75e14db9ab183e7b4f45e":[1,0,227,56],
-"d5/d6c/classXonoticHUDSkinList.html#af7b59e695b6ffa4c2db2339aae3cc716":[1,0,227,10]
+"d5/d6c/classXonoticHUDSkinList.html#aed05f75651928be9263a2073856f33cd":[1,0,227,96]
 };

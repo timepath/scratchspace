@@ -1,5 +1,13 @@
 var NAVTREEINDEX62 =
 {
+"d6/d74/cvars_8qh.html#a0e679da11b8533e59752c5e39d414c7d":[2,0,6,0,0,8,16],
+"d6/d74/cvars_8qh.html#a0e8d5482ceb29ab47148db60c52e6ac5":[2,0,6,0,0,8,53],
+"d6/d74/cvars_8qh.html#a0ee63ec1d89910da3f592202b417a467":[2,0,6,0,0,8,4],
+"d6/d74/cvars_8qh.html#a19700fb3e049d12040c855debefdef0f":[2,0,6,0,0,8,52],
+"d6/d74/cvars_8qh.html#a198923cedc40559d92a6d1558f4ef55a":[2,0,6,0,0,8,57],
+"d6/d74/cvars_8qh.html#a1a96fddea1bf80129ebe1a07b0cd8b1d":[2,0,6,0,0,8,63],
+"d6/d74/cvars_8qh.html#a229137a2464bd4a792703113bad7865a":[2,0,6,0,0,8,43],
+"d6/d74/cvars_8qh.html#a279774ef2cf99f1d25effecc3362eb52":[2,0,6,0,0,8,23],
 "d6/d74/cvars_8qh.html#a288094555f7fb7aa4ac52bc5ae9a8f06":[2,0,6,0,0,8,15],
 "d6/d74/cvars_8qh.html#a2a8bba7b65c91cbb41d24118f2cd9b1d":[2,0,6,0,0,8,59],
 "d6/d74/cvars_8qh.html#a2c307e064b84e4027cdde9b649340566":[2,0,6,0,0,8,47],
@@ -241,13 +249,5 @@ var NAVTREEINDEX62 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,201,2],
 "d6/d79/classXonoticHUDWeaponsDialog.html":[1,0,231],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,231,6],
-"d6/d79/classXonoticHUDWeaponsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,231,105],
-"d6/d79/classXonoticHUDWeaponsDialog.html#a08ffa79439a4dea15f523602429af5d8":[1,0,231,47],
-"d6/d79/classXonoticHUDWeaponsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,231,103],
-"d6/d79/classXonoticHUDWeaponsDialog.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,231,53],
-"d6/d79/classXonoticHUDWeaponsDialog.html#a134618d9ba08f227978e9f7abc65dcd7":[1,0,231,44],
-"d6/d79/classXonoticHUDWeaponsDialog.html#a1363f51d76bde5021f29a75dad41e706":[1,0,231,15],
-"d6/d79/classXonoticHUDWeaponsDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,231,95],
-"d6/d79/classXonoticHUDWeaponsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,231,92],
-"d6/d79/classXonoticHUDWeaponsDialog.html#a1bf5967ac5ae19f3ffeefe07759c4fe5":[1,0,231,108]
+"d6/d79/classXonoticHUDWeaponsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,231,105]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"d6/d99/effectinfo__buffs_8inc.html#a3327762656498830acfa6e2df45f76aa":[2,0,1,2,10,1],
+"d6/d99/effectinfo__buffs_8inc.html#a415b8dc6bb6e6ffd2874bb111920ae9e":[2,0,1,2,10,10],
+"d6/d99/effectinfo__buffs_8inc.html#a4eb69c2d5a72055e664d44f0c79b4656":[2,0,1,2,10,21],
+"d6/d99/effectinfo__buffs_8inc.html#a61b7a42774a0e3771a8ca440ede84e6e":[2,0,1,2,10,2],
+"d6/d99/effectinfo__buffs_8inc.html#a658b660e63f555599c86f56b3c65ed2f":[2,0,1,2,10,16],
+"d6/d99/effectinfo__buffs_8inc.html#a658c13db518ffe512feed9968222d7bf":[2,0,1,2,10,19],
+"d6/d99/effectinfo__buffs_8inc.html#a750fb493ea8d4acc5cad790fd45bd39c":[2,0,1,2,10,31],
+"d6/d99/effectinfo__buffs_8inc.html#a885af86e11d2f5b62338a878e66be8c8":[2,0,1,2,10,18],
 "d6/d99/effectinfo__buffs_8inc.html#a8d28e1bf077d7ab455d0cb092bca218e":[2,0,1,2,10,4],
 "d6/d99/effectinfo__buffs_8inc.html#a90d33d91f9b49094f338d7fd4962153e":[2,0,1,2,10,11],
 "d6/d99/effectinfo__buffs_8inc.html#a96efdfbf3886d9f98f1da078126eb2f4":[2,0,1,2,10,30],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "d6/db0/sv__ctf_8qh.html#aa53936a1b3ecab3edc8fa9731a1cb66d":[2,0,1,3,0,2,7,103],
 "d6/db0/sv__ctf_8qh.html#aa7ed4211b23c769be5c9cc579b613ea3":[2,0,1,3,0,2,7,40],
 "d6/db0/sv__ctf_8qh.html#aab6870036ed34fe0117285be7ccc63d5":[2,0,1,3,0,2,7,14],
-"d6/db0/sv__ctf_8qh.html#aaf51c9b1633e7c8473c6a4285ffc306b":[2,0,1,3,0,2,7,88],
-"d6/db0/sv__ctf_8qh.html#aafa6c461d2436609f164c28c17d7cf64":[2,0,1,3,0,2,7,83],
-"d6/db0/sv__ctf_8qh.html#ab0a00cc36df64f12a5a0e1ed757258da":[2,0,1,3,0,2,7,28],
-"d6/db0/sv__ctf_8qh.html#ab27c8972c8950012314b0e2f1f1e6c4e":[2,0,1,3,0,2,7,86],
-"d6/db0/sv__ctf_8qh.html#ab3c471fa541d4eb4729dfe400467558c":[2,0,1,3,0,2,7,32],
-"d6/db0/sv__ctf_8qh.html#ab4cc9313572d4a97e7de745b494ccacb":[2,0,1,3,0,2,7,55],
-"d6/db0/sv__ctf_8qh.html#ab5e6b3e93bfe6227f93300f2f5405262":[2,0,1,3,0,2,7,65],
-"d6/db0/sv__ctf_8qh.html#aba5df3d53ee55e624f1d0280b0a39387":[2,0,1,3,0,2,7,33],
-"d6/db0/sv__ctf_8qh.html#abbe1284f4498056ddf5db1803b163d10":[2,0,1,3,0,2,7,39]
+"d6/db0/sv__ctf_8qh.html#aaf51c9b1633e7c8473c6a4285ffc306b":[2,0,1,3,0,2,7,88]
 };
