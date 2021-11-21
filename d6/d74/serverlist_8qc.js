@@ -1,11 +1,15 @@
 var serverlist_8qc =
 [
+    [ "IsFavorite", "d6/d74/serverlist_8qc.html#a7002d493308d3ce8ed22559afd23b258", null ],
+    [ "IsPromoted", "d6/d74/serverlist_8qc.html#a6870c63af1e86c6fa49aa497e999e532", null ],
+    [ "IsRecommended", "d6/d74/serverlist_8qc.html#aff3a1aea4c0a4fe78de55ea9c7389722", null ],
     [ "SET_YRANGE", "d6/d74/serverlist_8qc.html#a41281346890a95d43f53bbeebe9b1c81", null ],
     [ "SLIST_CATEGORY", "d6/d74/serverlist_8qc.html#a1eae804c887ba8242e503dbcf97f4962", null ],
     [ "SLIST_FIELD", "d6/d74/serverlist_8qc.html#a8a70c6eb19b1e00e40cd4abce963a8ef", null ],
     [ "CategoryForEntry", "d6/d74/serverlist_8qc.html#a31b9b97e1cd1f51f2b9f06f998dac80a", null ],
     [ "CategoryOverride", "d6/d74/serverlist_8qc.html#a369ac162e0438b8631f83f5e6b075f46", null ],
     [ "IsServerInList", "d6/d74/serverlist_8qc.html#a50a4352b03fb4631db004d5a549c95a2", null ],
+    [ "m_gethostcachecategory", "d6/d74/serverlist_8qc.html#a65a2a62c2b889d9214c6426de9315f1f", null ],
     [ "makeXonoticServerList", "d6/d74/serverlist_8qc.html#a043a2e03fb459803be9fc416291ecf26", null ],
     [ "RegisterSLCategories", "d6/d74/serverlist_8qc.html#a97346b4253a15de7c1b84be9e0e5b52f", null ],
     [ "RetrieveCategoryEnt", "d6/d74/serverlist_8qc.html#a4382ec8abd0b7afb51d9855b512f95f2", null ],

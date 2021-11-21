@@ -1,5 +1,9 @@
 var NAVTREEINDEX109 =
 {
+"db/d5a/classXonoticHUDPowerupsDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,221,9],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,221,110],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a7feb5da850fa841d5cdf41c383c6dbbe":[1,0,221,51],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,221,17],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a81f1c12f1e408e09e07bcb151b4ccdad":[1,0,221,26],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,221,88],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,221,32],
@@ -245,9 +249,5 @@ var NAVTREEINDEX109 =
 "db/d63/classXonoticColorpicker.html#ac98fc0af8b94026c6667febbeb603c89":[1,0,182,30],
 "db/d63/classXonoticColorpicker.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,182,14],
 "db/d63/classXonoticColorpicker.html#ad72371a918aac26101dd0a88c1773662":[1,0,182,12],
-"db/d63/classXonoticColorpicker.html#ad7f4970fd49caf50fb76060d6b0cd56e":[1,0,182,37],
-"db/d63/classXonoticColorpicker.html#ad8f73a232697dc02bded24994b9b0f20":[1,0,182,31],
-"db/d63/classXonoticColorpicker.html#adb78159fc487a2925c30050ed729339b":[1,0,182,36],
-"db/d63/classXonoticColorpicker.html#adba055bca57bf312ebd7270010f720e4":[1,0,182,51],
-"db/d63/classXonoticColorpicker.html#ae138f23d4495900be0ede2783c05a714":[1,0,182,39]
+"db/d63/classXonoticColorpicker.html#ad7f4970fd49caf50fb76060d6b0cd56e":[1,0,182,37]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,201,2],
+"d6/d79/classXonoticHUDWeaponsDialog.html":[1,0,231],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,231,6],
+"d6/d79/classXonoticHUDWeaponsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,231,105],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a08ffa79439a4dea15f523602429af5d8":[1,0,231,47],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,231,103],
 "d6/d79/classXonoticHUDWeaponsDialog.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,231,53],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "d6/d99/effectinfo__buffs_8inc.html#a1562dfdcbdabeccbcd866d6b4c9255d3":[2,0,1,2,10,9],
 "d6/d99/effectinfo__buffs_8inc.html#a1768af9142ced0783dd5a1d203b77e82":[2,0,1,2,10,3],
 "d6/d99/effectinfo__buffs_8inc.html#a18deccb2982ad44150442a641fca64f9":[2,0,1,2,10,24],
-"d6/d99/effectinfo__buffs_8inc.html#a269ec7c3574e9b543bba37a128b1ba06":[2,0,1,2,10,32],
-"d6/d99/effectinfo__buffs_8inc.html#a2afc1ace90f557ab1ee710b538cbe084":[2,0,1,2,10,33],
-"d6/d99/effectinfo__buffs_8inc.html#a2b5ec5224cee870dcc9ebe8e416baf5e":[2,0,1,2,10,7],
-"d6/d99/effectinfo__buffs_8inc.html#a2c4c71ac9365e97a0926008ead8cad99":[2,0,1,2,10,26],
-"d6/d99/effectinfo__buffs_8inc.html#a3089451ea1e15ebd07c331be0a1cf682":[2,0,1,2,10,13]
+"d6/d99/effectinfo__buffs_8inc.html#a269ec7c3574e9b543bba37a128b1ba06":[2,0,1,2,10,32]
 };

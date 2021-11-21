@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"dd/d94/dialog__multiplayer__join_8qc_source.html":[2,0,5,4,98],
 "dd/d94/wyvern_8qh.html":[2,0,1,9,0,9],
 "dd/d94/wyvern_8qh.html#a403dc2825d9834bb6749c4e013cc2da5":[2,0,1,9,0,9,3],
 "dd/d94/wyvern_8qh.html#afa039392797736207820db4cdf6234f6":[2,0,1,9,0,9,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "dd/da3/classXonoticMusicPlayerTab.html#aeaa408fb15986685798823ca7bbfc4c3":[1,0,245,28],
 "dd/da3/classXonoticMusicPlayerTab.html#aeb2ea2fcd2aeba74d3d75f7421aaae2b":[1,0,245,42],
 "dd/da3/classXonoticMusicPlayerTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,245,7],
-"dd/da3/classXonoticMusicPlayerTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,245,88],
-"dd/da3/classXonoticMusicPlayerTab.html#aee4e499a2af6112e04b6d702c6920872":[1,0,245,67]
+"dd/da3/classXonoticMusicPlayerTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,245,88]
 };

@@ -1,9 +1,6 @@
 var serverlist_8qh =
 [
     [ "XonoticServerList", "d2/dec/classXonoticServerList.html", "d2/dec/classXonoticServerList" ],
-    [ "IsFavorite", "dd/d7a/serverlist_8qh.html#a7002d493308d3ce8ed22559afd23b258", null ],
-    [ "IsPromoted", "dd/d7a/serverlist_8qh.html#a6870c63af1e86c6fa49aa497e999e532", null ],
-    [ "IsRecommended", "dd/d7a/serverlist_8qh.html#aff3a1aea4c0a4fe78de55ea9c7389722", null ],
     [ "SLIST_CATEGORIES", "dd/d7a/serverlist_8qh.html#aaceb069f36460b6e5fc89f528210e9fc", null ],
     [ "SLIST_CATEGORY", "dd/d7a/serverlist_8qh.html#a1eae804c887ba8242e503dbcf97f4962", null ],
     [ "SLIST_CATEGORY_AUTOCVAR", "dd/d7a/serverlist_8qh.html#ae7f8b63c027076cc05ffe6f97f7df152", null ],

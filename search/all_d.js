@@ -36,7 +36,7 @@ var searchData=
   ['m_5ffriendlyfire',['m_friendlyfire',['../de/d0c/classDamageText.html#a7782a3053d6f6ee7279746b02edfcf4d',1,'DamageText']]],
   ['m_5fgamerules_5fscoring_5fvip',['m_GameRules_scoring_vip',['../d7/d39/sv__rules_8qc.html#a51be2cfad938f02a98a2e654b3b3ab1b',1,'sv_rules.qc']]],
   ['m_5fgamestatus',['m_gamestatus',['../df/dc2/menu_8qc.html#afa7ffdd1355d130cff49d2b0415d80e6',1,'menu.qc']]],
-  ['m_5fgethostcachecategory',['m_gethostcachecategory',['../dd/d7a/serverlist_8qh.html#a65a2a62c2b889d9214c6426de9315f1f',1,'serverlist.qh']]],
+  ['m_5fgethostcachecategory',['m_gethostcachecategory',['../d6/d74/serverlist_8qc.html#a65a2a62c2b889d9214c6426de9315f1f',1,'m_gethostcachecategory(float entry):&#160;serverlist.qc'],['../dd/d7a/serverlist_8qh.html#a65a2a62c2b889d9214c6426de9315f1f',1,'m_gethostcachecategory(float entry):&#160;serverlist.qc']]],
   ['m_5fglobalsoundstr',['m_globalsoundstr',['../df/d6e/globalsound_8qh.html#a1757a961937623c2b340288ad97fddbb',1,'globalsound.qh']]],
   ['m_5fgoto',['m_goto',['../df/dc2/menu_8qc.html#ad201720e5a62c41db5c650f6a6275161',1,'m_goto(string itemname):&#160;menu.qc'],['../d0/d41/menu_8qh.html#a7d15fd814eee097b957b5584b84183e8',1,'m_goto(string name):&#160;menu.qc']]],
   ['m_5fgoto_5fbuffer',['m_goto_buffer',['../df/dc2/menu_8qc.html#af9270e4e0ed771516f7d09df122a9517',1,'menu.qc']]],

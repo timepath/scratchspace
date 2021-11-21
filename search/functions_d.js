@@ -20,7 +20,7 @@ var searchData=
   ['m_5ffindtooltipitem',['m_findtooltipitem',['../df/dc2/menu_8qc.html#a8478e5889ac71a1dafba755d9d2c041c',1,'menu.qc']]],
   ['m_5ffocus_5fitem_5fchain',['m_focus_item_chain',['../df/dc2/menu_8qc.html#a68c1bdc3b76d41a66fb5e2f721ed2458',1,'menu.qc']]],
   ['m_5fgamestatus',['m_gamestatus',['../df/dc2/menu_8qc.html#afa7ffdd1355d130cff49d2b0415d80e6',1,'menu.qc']]],
-  ['m_5fgethostcachecategory',['m_gethostcachecategory',['../dd/d7a/serverlist_8qh.html#a65a2a62c2b889d9214c6426de9315f1f',1,'serverlist.qh']]],
+  ['m_5fgethostcachecategory',['m_gethostcachecategory',['../d6/d74/serverlist_8qc.html#a65a2a62c2b889d9214c6426de9315f1f',1,'m_gethostcachecategory(float entry):&#160;serverlist.qc'],['../dd/d7a/serverlist_8qh.html#a65a2a62c2b889d9214c6426de9315f1f',1,'m_gethostcachecategory(float entry):&#160;serverlist.qc']]],
   ['m_5fgoto',['m_goto',['../df/dc2/menu_8qc.html#ad201720e5a62c41db5c650f6a6275161',1,'m_goto(string itemname):&#160;menu.qc'],['../d0/d41/menu_8qh.html#a7d15fd814eee097b957b5584b84183e8',1,'m_goto(string name):&#160;menu.qc']]],
   ['m_5fhide',['m_hide',['../df/dc2/menu_8qc.html#a08978f0726ce3655f05b5728affde07f',1,'m_hide():&#160;menu.qc'],['../d0/d41/menu_8qh.html#a08978f0726ce3655f05b5728affde07f',1,'m_hide():&#160;menu.qc']]],
   ['m_5finit',['m_init',['../df/dc2/menu_8qc.html#a2302a361845bfd3437200633ffaf6c5d',1,'menu.qc']]],

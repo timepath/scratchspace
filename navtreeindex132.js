@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"dd/dea/items_2spawning_8qc.html#a1daf53d4975530276c6ab8ada8be8ad3":[2,0,6,3,4,5],
 "dd/dea/items_2spawning_8qc.html#a242ed0408675ef4cae9101d25277c05d":[2,0,6,3,4,9],
 "dd/dea/items_2spawning_8qc.html#a325bcd8c6dbc081d320c9d749de65e20":[2,0,6,3,4,1],
 "dd/dea/items_2spawning_8qc.html#a3d4a0f38b62981cc835e404a436388c1":[2,0,6,3,4,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "de/d0c/classDamageText.html":[1,0,28],
 "de/d0c/classDamageText.html#a102206254076a4b6de3087b389196f7c":[1,0,28,5],
 "de/d0c/classDamageText.html#a1bb3fadcd65ec6a18fd5840879e003f5":[1,0,28,2],
-"de/d0c/classDamageText.html#a2146d44740bd3501dfa815d44aa376cd":[1,0,28,14],
-"de/d0c/classDamageText.html#a24f43e5dd01ca37a1dd6977a8c8b7847":[1,0,28,17]
+"de/d0c/classDamageText.html#a2146d44740bd3501dfa815d44aa376cd":[1,0,28,14]
 };
