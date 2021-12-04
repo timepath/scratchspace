@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"d4/d62/damage_8qh.html#a28648188df2fd6869846a548650d83c1":[2,0,6,24,26],
+"d4/d62/damage_8qh.html#a29b994430075fe7f7e0db484de0e5085":[2,0,6,24,73],
 "d4/d62/damage_8qh.html#a2b2cad71d9088357051170c08fb286a9":[2,0,6,24,93],
 "d4/d62/damage_8qh.html#a30b6dcb0a5e148d3961cad10abdaf5af":[2,0,6,24,15],
 "d4/d62/damage_8qh.html#a33c7325faf274991226dd95b3d85b806":[2,0,6,24,46],
@@ -156,11 +158,12 @@ var NAVTREEINDEX45 =
 "d4/d73/disablerelay_8qc_source.html":[2,0,1,6,3,6],
 "d4/d73/sv__powerups_8qh.html":[2,0,1,10,0,26,8],
 "d4/d73/sv__powerups_8qh.html#a776a92402884c6d5200afa82479528f3":[2,0,1,10,0,26,8,1],
-"d4/d73/sv__powerups_8qh.html#a9aacda804219f0fc2618e1332bde1ab6":[2,0,1,10,0,26,8,2],
-"d4/d73/sv__powerups_8qh.html#aa32ee577201a563600a7666b730104d8":[2,0,1,10,0,26,8,5],
+"d4/d73/sv__powerups_8qh.html#a94ff50e1f5d9c3a51dbe45fdf4c5c653":[2,0,1,10,0,26,8,2],
+"d4/d73/sv__powerups_8qh.html#a9aacda804219f0fc2618e1332bde1ab6":[2,0,1,10,0,26,8,3],
+"d4/d73/sv__powerups_8qh.html#aa32ee577201a563600a7666b730104d8":[2,0,1,10,0,26,8,6],
 "d4/d73/sv__powerups_8qh.html#ab25cd5c455379d9a8cff7173dee91a8e":[2,0,1,10,0,26,8,0],
-"d4/d73/sv__powerups_8qh.html#abdb95a527623dfa15b93ce4c4df829f5":[2,0,1,10,0,26,8,4],
-"d4/d73/sv__powerups_8qh.html#afea6e77db19a2f8c91419904fe665a3a":[2,0,1,10,0,26,8,3],
+"d4/d73/sv__powerups_8qh.html#abdb95a527623dfa15b93ce4c4df829f5":[2,0,1,10,0,26,8,5],
+"d4/d73/sv__powerups_8qh.html#afea6e77db19a2f8c91419904fe665a3a":[2,0,1,10,0,26,8,4],
 "d4/d73/sv__powerups_8qh_source.html":[2,0,1,10,0,26,8],
 "d4/d75/common_2models_2__mod_8qh.html":[2,0,1,8,1],
 "d4/d75/common_2models_2__mod_8qh_source.html":[2,0,1,8,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX45 =
 "d4/d85/classXonoticUid2NameDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,284,110],
 "d4/d85/classXonoticUid2NameDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,284,102],
 "d4/d85/classXonoticUid2NameDialog.html#a7feb5da850fa841d5cdf41c383c6dbbe":[1,0,284,51],
-"d4/d85/classXonoticUid2NameDialog.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,284,17],
-"d4/d85/classXonoticUid2NameDialog.html#a81f1c12f1e408e09e07bcb151b4ccdad":[1,0,284,26],
-"d4/d85/classXonoticUid2NameDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,284,88],
-"d4/d85/classXonoticUid2NameDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,284,32]
+"d4/d85/classXonoticUid2NameDialog.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,284,17]
 };

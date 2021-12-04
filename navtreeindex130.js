@@ -1,5 +1,12 @@
 var NAVTREEINDEX130 =
 {
+"dd/da3/classXonoticMusicPlayerTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,245,112],
+"dd/da3/classXonoticMusicPlayerTab.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,245,108],
+"dd/da3/classXonoticMusicPlayerTab.html#ae94f2e7fb100a64d6fd1fbeb509d7e72":[1,0,245,37],
+"dd/da3/classXonoticMusicPlayerTab.html#aeaa408fb15986685798823ca7bbfc4c3":[1,0,245,28],
+"dd/da3/classXonoticMusicPlayerTab.html#aeb2ea2fcd2aeba74d3d75f7421aaae2b":[1,0,245,42],
+"dd/da3/classXonoticMusicPlayerTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,245,7],
+"dd/da3/classXonoticMusicPlayerTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,245,88],
 "dd/da3/classXonoticMusicPlayerTab.html#aee4e499a2af6112e04b6d702c6920872":[1,0,245,67],
 "dd/da3/classXonoticMusicPlayerTab.html#aeed055aa0f545e16cc1d0870d719d444":[1,0,245,26],
 "dd/da3/classXonoticMusicPlayerTab.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,245,8],
@@ -242,12 +249,5 @@ var NAVTREEINDEX130 =
 "dd/db3/classXonoticQuitDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,255,82],
 "dd/db3/classXonoticQuitDialog.html#ad5458390364bd1516b618e8c65b432ae":[1,0,255,88],
 "dd/db3/classXonoticQuitDialog.html#ad631117008ded20cf9c269fc2d8933ee":[1,0,255,56],
-"dd/db3/classXonoticQuitDialog.html#ad67727bded724210e1017635eed79c56":[1,0,255,36],
-"dd/db3/classXonoticQuitDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,255,107],
-"dd/db3/classXonoticQuitDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,255,81],
-"dd/db3/classXonoticQuitDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,255,74],
-"dd/db3/classXonoticQuitDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,255,111],
-"dd/db3/classXonoticQuitDialog.html#ae94f2e7fb100a64d6fd1fbeb509d7e72":[1,0,255,33],
-"dd/db3/classXonoticQuitDialog.html#aeaa408fb15986685798823ca7bbfc4c3":[1,0,255,24],
-"dd/db3/classXonoticQuitDialog.html#aeb2ea2fcd2aeba74d3d75f7421aaae2b":[1,0,255,38]
+"dd/db3/classXonoticQuitDialog.html#ad67727bded724210e1017635eed79c56":[1,0,255,36]
 };

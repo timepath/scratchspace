@@ -48,6 +48,7 @@ var server_2items_2items_8qh =
     [ "weapon_pickupevalfunc", "d0/d7d/server_2items_2items_8qh.html#a741b98407a951c06ad50f67aec8d55c2", null ],
     [ "autocvar_g_balance_superweapons_time", "d0/d7d/server_2items_2items_8qh.html#a0f8e8aea2af6ef8befbff36f321e12c2", null ],
     [ "autocvar_g_fullbrightitems", "d0/d7d/server_2items_2items_8qh.html#a79e157376cb5bd26e31dec6f062a93c4", null ],
+    [ "autocvar_g_items_dropped_lifetime", "d0/d7d/server_2items_2items_8qh.html#af6eb9d3ad4e049a7329593d6028dffee", null ],
     [ "autocvar_g_items_maxdist", "d0/d7d/server_2items_2items_8qh.html#aae3afa26b77edeb4ca5d61cfc3e124de", null ],
     [ "autocvar_g_items_mindist", "d0/d7d/server_2items_2items_8qh.html#abe04ea9d0ef5908bedbf372b3f62607c", null ],
     [ "autocvar_g_nodepthtestitems", "d0/d7d/server_2items_2items_8qh.html#ab32e56e714752de2473da95e56906350", null ],

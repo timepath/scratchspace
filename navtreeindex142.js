@@ -1,5 +1,13 @@
 var NAVTREEINDEX142 =
 {
+"de/de7/classXonoticHUDItemsTimeDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,217,9],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,217,110],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,217,102],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a7feb5da850fa841d5cdf41c383c6dbbe":[1,0,217,51],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,217,17],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a81f1c12f1e408e09e07bcb151b4ccdad":[1,0,217,26],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,217,88],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a859608c48b2847a50d834ccae2b2dd03":[1,0,217,32],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a879f70c6bbc8e8d52047831d4a1f4da4":[1,0,217,14],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a8b78346a74df75772de387092d850f39":[1,0,217,58],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a8cbffca0f664290c0e32b02a397f1c06":[1,0,217,39],
@@ -241,13 +249,5 @@ var NAVTREEINDEX142 =
 "df/d21/infomessages_8qc.html#abe6c17d7df92bfbd29be434f9d09e5f4":[2,0,0,1,0,12,8],
 "df/d21/infomessages_8qc.html#adecaa1d4a4e69349bc85620d7b43993a":[2,0,0,1,0,12,7],
 "df/d21/infomessages_8qc.html#ae47a4e840ff3bb34af0bb26f0cdf9810":[2,0,0,1,0,12,3],
-"df/d21/infomessages_8qc.html#af23bd3d7f1b2f4092741c44d01402a2d":[2,0,0,1,0,12,0],
-"df/d21/infomessages_8qc.html#af4f7c295b6f5f3c16714897baa77f312":[2,0,0,1,0,12,10],
-"df/d21/infomessages_8qc_source.html":[2,0,0,1,0,12],
-"df/d26/classXonoticGameSettingsTab.html":[1,0,205],
-"df/d26/classXonoticGameSettingsTab.html#a02091ec83903d4a268a079f4a7425a56":[1,0,205,77],
-"df/d26/classXonoticGameSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,205,10],
-"df/d26/classXonoticGameSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,205,4],
-"df/d26/classXonoticGameSettingsTab.html#a08ffa79439a4dea15f523602429af5d8":[1,0,205,52],
-"df/d26/classXonoticGameSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,205,101]
+"df/d21/infomessages_8qc.html#af23bd3d7f1b2f4092741c44d01402a2d":[2,0,0,1,0,12,0]
 };

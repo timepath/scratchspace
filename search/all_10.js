@@ -609,6 +609,8 @@ var searchData=
   ['powerups',['Powerups',['../d5/d22/classPowerups.html',1,'']]],
   ['powerups_2eqc',['powerups.qc',['../dd/def/client_2hud_2panel_2powerups_8qc.html',1,'(Global Namespace)'],['../d2/d61/common_2mutators_2mutator_2powerups_2powerups_8qc.html',1,'(Global Namespace)']]],
   ['powerups_2eqh',['powerups.qh',['../df/d59/client_2hud_2panel_2powerups_8qh.html',1,'(Global Namespace)'],['../df/d95/common_2mutators_2mutator_2powerups_2powerups_8qh.html',1,'(Global Namespace)']]],
+  ['powerups_5fdropitem',['powerups_DropItem',['../d5/d30/sv__powerups_8qc.html#aaa802afccd8e526d6a5228e745bf2965',1,'sv_powerups.qc']]],
+  ['powerups_5fdropitem_5fthink',['powerups_DropItem_Think',['../d5/d30/sv__powerups_8qc.html#a5eccb1e5c6e0b6bbe09227bad437542a',1,'sv_powerups.qc']]],
   ['pp_2eqc',['pp.qc',['../d1/d93/pp_8qc.html',1,'']]],
   ['pp_2eqh',['pp.qh',['../d6/db1/pp_8qh.html',1,'']]],
   ['pp_5fcurr_5fpiece',['pp_curr_piece',['../d1/d93/pp_8qc.html#a1d9679e3e49eb53394984cf2b30ff37d',1,'pp.qc']]],

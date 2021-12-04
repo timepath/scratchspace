@@ -1,5 +1,13 @@
 var NAVTREEINDEX146 =
 {
+"df/d6e/classXonoticSingleplayerDialog.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,273,61],
+"df/d6e/classXonoticSingleplayerDialog.html#a42f80ae577f4961d9d000a73830a7cdd":[1,0,273,80],
+"df/d6e/classXonoticSingleplayerDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,273,8],
+"df/d6e/classXonoticSingleplayerDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,273,95],
+"df/d6e/classXonoticSingleplayerDialog.html#a4ce700a3a0917cb5ebbc8edbe293630f":[1,0,273,31],
+"df/d6e/classXonoticSingleplayerDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,273,77],
+"df/d6e/classXonoticSingleplayerDialog.html#a516bef9a10dda163fb54dfd776c75ad1":[1,0,273,17],
+"df/d6e/classXonoticSingleplayerDialog.html#a5a4756fc2a1458d279b2d8a4429c98c2":[1,0,273,42],
 "df/d6e/classXonoticSingleplayerDialog.html#a5bcb9ee4b3f215314548fe24df5645c7":[1,0,273,26],
 "df/d6e/classXonoticSingleplayerDialog.html#a5dbfe8a52dffe86aab520d8f79b8cd1e":[1,0,273,32],
 "df/d6e/classXonoticSingleplayerDialog.html#a6060cec950f29ae4a3f32cec12484b4d":[1,0,273,50],
@@ -241,13 +249,5 @@ var NAVTREEINDEX146 =
 "df/d7f/crosshair_8qh.html#aa71796101fe1356187b03f679ad99c19":[2,0,0,1,4,16],
 "df/d7f/crosshair_8qh.html#aa772d09df7232c2d366923420928b7d7":[2,0,0,1,4,60],
 "df/d7f/crosshair_8qh.html#aa79db26aa6ce9c0da503b844f81d3e20":[2,0,0,1,4,29],
-"df/d7f/crosshair_8qh.html#ab6c9a0903e0f0d3a7264bca6f92c0c2b":[2,0,0,1,4,5],
-"df/d7f/crosshair_8qh.html#ac1094de13d037e520aaa7d86263ed635":[2,0,0,1,4,24],
-"df/d7f/crosshair_8qh.html#ac127884a2e5c7f79defcc6b02ea86ac0":[2,0,0,1,4,46],
-"df/d7f/crosshair_8qh.html#ac443d13b051d7de8602202d0fbbc4365":[2,0,0,1,4,18],
-"df/d7f/crosshair_8qh.html#ac9054d1ad35668ce5ee0f801b9a4a1ea":[2,0,0,1,4,21],
-"df/d7f/crosshair_8qh.html#ac96a5f8a5383adae44001ec92be3645d":[2,0,0,1,4,28],
-"df/d7f/crosshair_8qh.html#ace11f0213e6e748e2a9ea651118b0bde":[2,0,0,1,4,51],
-"df/d7f/crosshair_8qh.html#adeac7ffa805ab6f81a4eb270c718164f":[2,0,0,1,4,19],
-"df/d7f/crosshair_8qh.html#ae12e2fa9f814f4f88da1d5259fd4721f":[2,0,0,1,4,0]
+"df/d7f/crosshair_8qh.html#ab6c9a0903e0f0d3a7264bca6f92c0c2b":[2,0,0,1,4,5]
 };

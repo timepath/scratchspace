@@ -1,5 +1,13 @@
 var NAVTREEINDEX149 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,223,92],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a1d075bfcff7e8efe420695ddd203bb4d":[1,0,223,54],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a1d17df6e1367f9d3bfe263314fc6e046":[1,0,223,45],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,223,91],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,223,62],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a218a9c923f925977d93dd08698594573":[1,0,223,40],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,223,2],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,223,93],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,223,65],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,223,75],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,223,68],
@@ -241,13 +249,5 @@ var NAVTREEINDEX149 =
 "df/dd4/strafehud_8qh.html#a3962783093493807501acd966a393d8a":[2,0,0,1,0,37,25],
 "df/dd4/strafehud_8qh.html#a45a3a6d47a24041fb3cb0ac21a7eae0e":[2,0,0,1,0,37,52],
 "df/dd4/strafehud_8qh.html#a49545bd2741a7157718bb0e53d627c16":[2,0,0,1,0,37,21],
-"df/dd4/strafehud_8qh.html#a4bb62faec8f7d8f1702e581a8274b8a2":[2,0,0,1,0,37,13],
-"df/dd4/strafehud_8qh.html#a50096fb303e7f0dee46017c5846d7629":[2,0,0,1,0,37,1],
-"df/dd4/strafehud_8qh.html#a59408445518e8d1021d5ec343b19efa1":[2,0,0,1,0,37,41],
-"df/dd4/strafehud_8qh.html#a692264fa6c702121b54f894da45c7e82":[2,0,0,1,0,37,17],
-"df/dd4/strafehud_8qh.html#a730d1e5ec733b8fe8086fa1c6083ae31":[2,0,0,1,0,37,30],
-"df/dd4/strafehud_8qh.html#a7c0b0a285487d4f9558403279ec94ca9":[2,0,0,1,0,37,2],
-"df/dd4/strafehud_8qh.html#a7ef23e1eb5650db491c43d679c63efc7":[2,0,0,1,0,37,39],
-"df/dd4/strafehud_8qh.html#a80684346f697f93ce406b1053bec53b6":[2,0,0,1,0,37,35],
-"df/dd4/strafehud_8qh.html#a83acd988a77f3e705c9e20953ca35633":[2,0,0,1,0,37,44]
+"df/dd4/strafehud_8qh.html#a4bb62faec8f7d8f1702e581a8274b8a2":[2,0,0,1,0,37,13]
 };

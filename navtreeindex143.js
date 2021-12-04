@@ -1,5 +1,13 @@
 var NAVTREEINDEX143 =
 {
+"df/d21/infomessages_8qc.html#af4f7c295b6f5f3c16714897baa77f312":[2,0,0,1,0,12,10],
+"df/d21/infomessages_8qc_source.html":[2,0,0,1,0,12],
+"df/d26/classXonoticGameSettingsTab.html":[1,0,205],
+"df/d26/classXonoticGameSettingsTab.html#a02091ec83903d4a268a079f4a7425a56":[1,0,205,77],
+"df/d26/classXonoticGameSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,205,10],
+"df/d26/classXonoticGameSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,205,4],
+"df/d26/classXonoticGameSettingsTab.html#a08ffa79439a4dea15f523602429af5d8":[1,0,205,52],
+"df/d26/classXonoticGameSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,205,101],
 "df/d26/classXonoticGameSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,205,109],
 "df/d26/classXonoticGameSettingsTab.html#a0d96e89f7233de42b6cf100f08608c64":[1,0,205,83],
 "df/d26/classXonoticGameSettingsTab.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,205,58],
@@ -241,13 +249,5 @@ var NAVTREEINDEX143 =
 "df/d28/sv__turrets_8qh.html#a39e1730692528834965807b494ae61e6":[2,0,1,14,12,9],
 "df/d28/sv__turrets_8qh.html#a3ac26840e2bbca09157d0768a3de1c78":[2,0,1,14,12,16],
 "df/d28/sv__turrets_8qh.html#a41a4c89629d95f8ea2a8654d986b877f":[2,0,1,14,12,42],
-"df/d28/sv__turrets_8qh.html#a4e74c959e7153b607dda80b98f2196fc":[2,0,1,14,12,12],
-"df/d28/sv__turrets_8qh.html#a53b1f94a93f57dc271b0377b8d314b5e":[2,0,1,14,12,13],
-"df/d28/sv__turrets_8qh.html#a575d28aa35a21f48924ef5d76f39ee53":[2,0,1,14,12,38],
-"df/d28/sv__turrets_8qh.html#a583139dbba9b459ec395465cf8a4ffa7":[2,0,1,14,12,47],
-"df/d28/sv__turrets_8qh.html#a5bb0d9e6f4a0edd9ebd6c763dd6da6d8":[2,0,1,14,12,41],
-"df/d28/sv__turrets_8qh.html#a5eca9db98fca1079c062c5ade82c0174":[2,0,1,14,12,18],
-"df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2":[2,0,1,14,12,24],
-"df/d28/sv__turrets_8qh.html#a66568773b44f37ca82c672df0e189c27":[2,0,1,14,12,40],
-"df/d28/sv__turrets_8qh.html#a6a76e7e7e20a6d82786614ebcf67230f":[2,0,1,14,12,21]
+"df/d28/sv__turrets_8qh.html#a4e74c959e7153b607dda80b98f2196fc":[2,0,1,14,12,12]
 };

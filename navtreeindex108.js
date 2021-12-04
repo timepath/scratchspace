@@ -1,5 +1,12 @@
 var NAVTREEINDEX108 =
 {
+"db/d4a/classHook.html#aca66432bf541ba81f6fcd6ccfda89d27":[1,0,56,3],
+"db/d4a/classHook.html#ad0f9d77a6820ef4e822032e55702ee62":[1,0,56,2],
+"db/d4a/classHook.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,56,38],
+"db/d4a/classHook.html#ad5f43c87ef91f954fdbd74b281ad3ce8":[1,0,56,20],
+"db/d4a/classHook.html#ae13bbe0630016ff703be3bc0ef7c9dee":[1,0,56,19],
+"db/d4a/classHook.html#ae4df56cc15b996e29b940bbfb71d3059":[1,0,56,39],
+"db/d4a/classHook.html#aef5bbecf4ae66d83e687082e1ae2eb29":[1,0,56,9],
 "db/d4a/classHook.html#afd6a5b617980337ce93befe0b4e741ff":[1,0,56,12],
 "db/d4e/classOverkillShotgun.html":[1,0,109],
 "db/d4e/classOverkillShotgun.html#a064a0ef50e7acb8f569c754ceef1c119":[1,0,109,34],
@@ -242,12 +249,5 @@ var NAVTREEINDEX108 =
 "db/d5a/classXonoticHUDPowerupsDialog.html#a5a4756fc2a1458d279b2d8a4429c98c2":[1,0,221,41],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a5bcb9ee4b3f215314548fe24df5645c7":[1,0,221,25],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a5dbfe8a52dffe86aab520d8f79b8cd1e":[1,0,221,31],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a6060cec950f29ae4a3f32cec12484b4d":[1,0,221,49],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b":[1,0,221,73],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,221,85],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a67665cc62dd6db1a9254350a9caca14d":[1,0,221,102],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,221,97],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,221,1],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,221,67],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a6faf7f0a4c7c2fa57824836864969c0f":[1,0,221,12]
+"db/d5a/classXonoticHUDPowerupsDialog.html#a6060cec950f29ae4a3f32cec12484b4d":[1,0,221,49]
 };

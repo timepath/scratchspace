@@ -1,5 +1,12 @@
 var NAVTREEINDEX74 =
 {
+"d7/d9c/classMachineGunTurretAttack.html#abcd8c19cc240f9cabad99db39b6d9388":[1,0,81,17],
+"d7/d9c/classMachineGunTurretAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,81,38],
+"d7/d9c/classMachineGunTurretAttack.html#ac68491c5010e83eac66e266ed5ceff9a":[1,0,81,21],
+"d7/d9c/classMachineGunTurretAttack.html#aca66432bf541ba81f6fcd6ccfda89d27":[1,0,81,3],
+"d7/d9c/classMachineGunTurretAttack.html#ad0f9d77a6820ef4e822032e55702ee62":[1,0,81,2],
+"d7/d9c/classMachineGunTurretAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd":[1,0,81,37],
+"d7/d9c/classMachineGunTurretAttack.html#ad5f43c87ef91f954fdbd74b281ad3ce8":[1,0,81,20],
 "d7/d9c/classMachineGunTurretAttack.html#ad7ccf84103c0dc50c2c00625f8fab823":[1,0,81,30],
 "d7/d9c/classMachineGunTurretAttack.html#ae13bbe0630016ff703be3bc0ef7c9dee":[1,0,81,19],
 "d7/d9c/classMachineGunTurretAttack.html#ae194b82053f7fefe8dba64b54a40cc4c":[1,0,81,34],
@@ -242,12 +249,5 @@ var NAVTREEINDEX74 =
 "d7/dac/classXonoticMutatorsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,246,98],
 "d7/dac/classXonoticMutatorsDialog.html#a4ce700a3a0917cb5ebbc8edbe293630f":[1,0,246,31],
 "d7/dac/classXonoticMutatorsDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,246,80],
-"d7/dac/classXonoticMutatorsDialog.html#a516bef9a10dda163fb54dfd776c75ad1":[1,0,246,17],
-"d7/dac/classXonoticMutatorsDialog.html#a5642b28738273ad7e63da202f78ccb64":[1,0,246,82],
-"d7/dac/classXonoticMutatorsDialog.html#a5a4756fc2a1458d279b2d8a4429c98c2":[1,0,246,42],
-"d7/dac/classXonoticMutatorsDialog.html#a5bcb9ee4b3f215314548fe24df5645c7":[1,0,246,26],
-"d7/dac/classXonoticMutatorsDialog.html#a5dbfe8a52dffe86aab520d8f79b8cd1e":[1,0,246,32],
-"d7/dac/classXonoticMutatorsDialog.html#a6060cec950f29ae4a3f32cec12484b4d":[1,0,246,50],
-"d7/dac/classXonoticMutatorsDialog.html#a6076dd31350be0d5551911c1b3dabfa2":[1,0,246,72],
-"d7/dac/classXonoticMutatorsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,246,87]
+"d7/dac/classXonoticMutatorsDialog.html#a516bef9a10dda163fb54dfd776c75ad1":[1,0,246,17]
 };

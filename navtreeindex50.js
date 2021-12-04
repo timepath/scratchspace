@@ -1,5 +1,8 @@
 var NAVTREEINDEX50 =
 {
+"d4/db8/bigbutton_8qh.html":[2,0,5,4,3],
+"d4/db8/bigbutton_8qh.html#abdf3953c0db4a6184bf90e59974e0f6a":[2,0,5,4,3,1],
+"d4/db8/bigbutton_8qh_source.html":[2,0,5,4,3],
 "d4/db9/classMagnetBuff.html":[1,0,84],
 "d4/db9/classMagnetBuff.html#a0cd7cb00ef1ae2ab8e4682e2a909217a":[1,0,84,3],
 "d4/db9/classMagnetBuff.html#a11759f69f19d2f82b37185dccf59e785":[1,0,84,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX50 =
 "d4/dd8/antilag_8qc.html#a5afb40eeb80add842568536163c6bdd2":[2,0,6,11,8],
 "d4/dd8/antilag_8qc.html#a5edf83b72581bc3ed7f4b512f534fbfe":[2,0,6,11,12],
 "d4/dd8/antilag_8qc.html#a655b5399f3832b3ecd9a7659ef624b4a":[2,0,6,11,9],
-"d4/dd8/antilag_8qc.html#a6ec66093e8bf743c166fecbe5e4a636f":[2,0,6,11,3],
-"d4/dd8/antilag_8qc.html#a7c3586f19532c2990b04d47f552ef2a7":[2,0,6,11,18],
-"d4/dd8/antilag_8qc.html#a9cacf5619ae2d9d345af6f30d59cc9c8":[2,0,6,11,14],
-"d4/dd8/antilag_8qc.html#aa349f780b5d2d608e278935b6e4c60db":[2,0,6,11,15]
+"d4/dd8/antilag_8qc.html#a6ec66093e8bf743c166fecbe5e4a636f":[2,0,6,11,3]
 };

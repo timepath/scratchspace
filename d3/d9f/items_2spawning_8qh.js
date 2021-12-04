@@ -2,6 +2,7 @@ var items_2spawning_8qh =
 [
     [ "Item_Create", "d3/d9f/items_2spawning_8qh.html#a08b65b29d4e4daae4c85d1dd01cf7fda", null ],
     [ "Item_CreateLoot", "d3/d9f/items_2spawning_8qh.html#a325bcd8c6dbc081d320c9d749de65e20", null ],
+    [ "Item_DefinitionFromInternalName", "d3/d9f/items_2spawning_8qh.html#a723da6759353be5fea092889383332ce", null ],
     [ "Item_FindDefinition", "d3/d9f/items_2spawning_8qh.html#aeb4d4165fea3dfe1bce603928ca5bcc8", null ],
     [ "Item_Initialize", "d3/d9f/items_2spawning_8qh.html#a1abbc2840126cee768cba2d54dca5e62", null ],
     [ "Item_InitializeLoot", "d3/d9f/items_2spawning_8qh.html#a89f5174a26e743b85637afa34f5a6f81", null ],

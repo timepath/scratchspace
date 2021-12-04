@@ -1,5 +1,12 @@
 var NAVTREEINDEX88 =
 {
+"d9/d09/spawn__near__teammate_8qc_source.html":[2,0,1,10,0,33,4],
+"d9/d0c/classJetpackRegen.html":[1,0,67],
+"d9/d0c/classJetpackRegen.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,67,0],
+"d9/d0c/classJetpackRegen.html#a48b78d497828537731feaa167c8af4f1":[1,0,67,14],
+"d9/d0c/classJetpackRegen.html#a4f19a2e4a032308e0c6a16dc5138a34c":[1,0,67,8],
+"d9/d0c/classJetpackRegen.html#a59c2ca16e8340e3ceb8b6d91283e3dc5":[1,0,67,6],
+"d9/d0c/classJetpackRegen.html#a6131dbf54f626ebf2c9d610833da9fb5":[1,0,67,1],
 "d9/d0c/classJetpackRegen.html#a656d982600d7ada1460e143bbae0a3e9":[1,0,67,2],
 "d9/d0c/classJetpackRegen.html#a6815e793548a5b534973a237a97dc189":[1,0,67,12],
 "d9/d0c/classJetpackRegen.html#a727d6f42f79f0bd5ffc674423645471c":[1,0,67,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX88 =
 "d9/d12/models_2all_8inc.html#abbe210d9c2a0ffccdfbb8de21df6ad7f":[2,0,1,8,2,203],
 "d9/d12/models_2all_8inc.html#abc8bf34635b5e306196fb56a4ab4131e":[2,0,1,8,2,152],
 "d9/d12/models_2all_8inc.html#abcc36813737edb413edecc95e6150c7f":[2,0,1,8,2,247],
-"d9/d12/models_2all_8inc.html#ac0074977d778da14284acb77ebd725f0":[2,0,1,8,2,106],
-"d9/d12/models_2all_8inc.html#ac0ebab06bd8fdc2dc4ab92e503f3c3bf":[2,0,1,8,2,72],
-"d9/d12/models_2all_8inc.html#ac16a65ab7c4e76aeb866e19fc6c6282e":[2,0,1,8,2,202],
-"d9/d12/models_2all_8inc.html#ac1c20fe33cb8f6e49d71dd52cf13302d":[2,0,1,8,2,214],
-"d9/d12/models_2all_8inc.html#ac3228c18cd31a898b915fe4edad98c80":[2,0,1,8,2,253],
-"d9/d12/models_2all_8inc.html#ac3284b2cbcc89ae04d85ee4b285f2f0a":[2,0,1,8,2,46],
-"d9/d12/models_2all_8inc.html#ac5eb74637effafd273abe98404156425":[2,0,1,8,2,26],
-"d9/d12/models_2all_8inc.html#ac73d9bc337a30afae318a96ded50ca2c":[2,0,1,8,2,177]
+"d9/d12/models_2all_8inc.html#ac0074977d778da14284acb77ebd725f0":[2,0,1,8,2,106]
 };

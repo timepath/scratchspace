@@ -1,5 +1,12 @@
 var NAVTREEINDEX99 =
 {
+"da/d6d/classXonoticPlayerModelSelector.html#a1fa3127536d1ebba80e48ccf0b8cb96a":[1,0,252,23],
+"da/d6d/classXonoticPlayerModelSelector.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,252,26],
+"da/d6d/classXonoticPlayerModelSelector.html#a280ae0d20bfef08fecaea7b49d98a3c5":[1,0,252,60],
+"da/d6d/classXonoticPlayerModelSelector.html#a2b3fd33c7c608144343d7af3fed52dc9":[1,0,252,56],
+"da/d6d/classXonoticPlayerModelSelector.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,252,29],
+"da/d6d/classXonoticPlayerModelSelector.html#a347f6e6f7ad10925367bd23bbab5afab":[1,0,252,8],
+"da/d6d/classXonoticPlayerModelSelector.html#a382a09f7c5068d0f7969a394178c444a":[1,0,252,20],
 "da/d6d/classXonoticPlayerModelSelector.html#a3cdbc32fe69696acc932999b57ecaf99":[1,0,252,22],
 "da/d6d/classXonoticPlayerModelSelector.html#a3d2188ff6606090f2b95efcbd0515dfe":[1,0,252,16],
 "da/d6d/classXonoticPlayerModelSelector.html#a4264dbfa2ac9d05738bff7ae3b687812":[1,0,252,21],
@@ -242,12 +249,5 @@ var NAVTREEINDEX99 =
 "da/d94/classXonoticSettingsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,272,83],
 "da/d94/classXonoticSettingsDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,272,95],
 "da/d94/classXonoticSettingsDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,272,1],
-"da/d94/classXonoticSettingsDialog.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,272,67],
-"da/d94/classXonoticSettingsDialog.html#a6faf7f0a4c7c2fa57824836864969c0f":[1,0,272,12],
-"da/d94/classXonoticSettingsDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,272,9],
-"da/d94/classXonoticSettingsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,272,108],
-"da/d94/classXonoticSettingsDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,272,100],
-"da/d94/classXonoticSettingsDialog.html#a7feb5da850fa841d5cdf41c383c6dbbe":[1,0,272,51],
-"da/d94/classXonoticSettingsDialog.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,272,17],
-"da/d94/classXonoticSettingsDialog.html#a81f1c12f1e408e09e07bcb151b4ccdad":[1,0,272,26]
+"da/d94/classXonoticSettingsDialog.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,272,67]
 };

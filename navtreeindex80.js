@@ -1,5 +1,12 @@
 var NAVTREEINDEX80 =
 {
+"d8/d35/classXonoticHUDChatDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,211,76],
+"d8/d35/classXonoticHUDChatDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,211,112],
+"d8/d35/classXonoticHUDChatDialog.html#ae94f2e7fb100a64d6fd1fbeb509d7e72":[1,0,211,33],
+"d8/d35/classXonoticHUDChatDialog.html#aeaa408fb15986685798823ca7bbfc4c3":[1,0,211,24],
+"d8/d35/classXonoticHUDChatDialog.html#aeb2ea2fcd2aeba74d3d75f7421aaae2b":[1,0,211,38],
+"d8/d35/classXonoticHUDChatDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,211,3],
+"d8/d35/classXonoticHUDChatDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,211,89],
 "d8/d35/classXonoticHUDChatDialog.html#aee4e499a2af6112e04b6d702c6920872":[1,0,211,63],
 "d8/d35/classXonoticHUDChatDialog.html#aeed055aa0f545e16cc1d0870d719d444":[1,0,211,22],
 "d8/d35/classXonoticHUDChatDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,211,5],
@@ -240,14 +247,7 @@ var NAVTREEINDEX80 =
 "d8/d79/notifications_2all_8qc.html#a133e943a6fbd569e8fe1c2e579c43e47":[2,0,1,11,3,34],
 "d8/d79/notifications_2all_8qc.html#a1c99ec50b1e6dcb76d27397757ca2cbb":[2,0,1,11,3,47],
 "d8/d79/notifications_2all_8qc.html#a25751bb28251740f2cad87c43dd810dd":[2,0,1,11,3,0],
-"d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866":[2,0,1,11,3,4],
-"d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866":[2,0,1,11,3,1],
-"d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866":[2,0,1,11,3,2],
 "d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866":[2,0,1,11,3,3],
-"d8/d79/notifications_2all_8qc.html#a35cfe798defcaf81e37f8ca4a779f6f2":[2,0,1,11,3,39],
-"d8/d79/notifications_2all_8qc.html#a3928a6ac0250db86d0e96cae9f44b7f4":[2,0,1,11,3,41],
-"d8/d79/notifications_2all_8qc.html#a3ccd497f947ede2917e49908cf39a161":[2,0,1,11,3,30],
-"d8/d79/notifications_2all_8qc.html#a4533800e729b98bacf130e45337d6e50":[2,0,1,11,3,43],
-"d8/d79/notifications_2all_8qc.html#a4d9ae2e679e213b79c44527237093518":[2,0,1,11,3,29],
-"d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,11,3,5]
+"d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866":[2,0,1,11,3,1],
+"d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866":[2,0,1,11,3,2]
 };

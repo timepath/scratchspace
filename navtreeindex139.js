@@ -1,5 +1,13 @@
 var NAVTREEINDEX139 =
 {
+"de/d7a/classXonoticHUDScoreDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,226,10],
+"de/d7a/classXonoticHUDScoreDialog.html#afb9c620a2dde42c74c6685bbe02d0759":[1,0,226,50],
+"de/d7a/classXonoticHUDScoreDialog.html#afc6684260830101c451372e3a2e0b7f5":[1,0,226,81],
+"de/d7e/common_2weapons_2__all_8inc.html":[2,0,1,16,1],
+"de/d7e/common_2weapons_2__all_8inc_source.html":[2,0,1,16,1],
+"de/d82/classDataSource.html":[1,0,29],
+"de/d82/classDataSource.html#a4e6139ce59db0fc78c9a09eeaa26df5c":[1,0,29,1],
+"de/d82/classDataSource.html#a6113433aefe29a4e9977321048a26e18":[1,0,29,4],
 "de/d82/classDataSource.html#a9682f563904298f80420a1a4dd4ff013":[1,0,29,3],
 "de/d82/classDataSource.html#a9bab82b9eee94352b14ba00f4aec2ce6":[1,0,29,2],
 "de/d82/classDataSource.html#ac27a0b7fbb81f2a42cd209e5807edd72":[1,0,29,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX139 =
 "de/d9c/classTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,152,80],
 "de/d9c/classTab.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,152,3],
 "de/d9c/classTab.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,152,69],
-"de/d9c/classTab.html#a6faf7f0a4c7c2fa57824836864969c0f":[1,0,152,14],
-"de/d9c/classTab.html#a72c0e76156762fbda152032add5f1630":[1,0,152,11],
-"de/d9c/classTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,152,2],
-"de/d9c/classTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,152,107],
-"de/d9c/classTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,152,106],
-"de/d9c/classTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,152,97],
-"de/d9c/classTab.html#a7feb5da850fa841d5cdf41c383c6dbbe":[1,0,152,53],
-"de/d9c/classTab.html#a803d60fc98720f4af4fc027e7276c8e2":[1,0,152,19],
-"de/d9c/classTab.html#a81f1c12f1e408e09e07bcb151b4ccdad":[1,0,152,28]
+"de/d9c/classTab.html#a6faf7f0a4c7c2fa57824836864969c0f":[1,0,152,14]
 };

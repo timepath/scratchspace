@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"d4/d39/ewheel_8qh.html":[2,0,1,14,0,3],
+"d4/d39/ewheel_8qh.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,14,0,3,1],
 "d4/d39/ewheel_8qh.html#a7b39dcf9c53e1d45f9b49e549a95d343":[2,0,1,14,0,3,2],
 "d4/d39/ewheel_8qh_source.html":[2,0,1,14,0,3],
 "d4/d3b/classXonoticBigButton.html":[1,0,173],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "d4/d3f/tracing_8qh.html#a9f01f40e04dadcf88fb9236e5146c9c3":[2,0,6,6,17,16],
 "d4/d3f/tracing_8qh.html#aa1364bcf54263492e8e2f28ed6c46bee":[2,0,6,6,17,18],
 "d4/d3f/tracing_8qh.html#aa316169e371d52d82c22ba9ba79cca26":[2,0,6,6,17,34],
-"d4/d3f/tracing_8qh.html#aa349f780b5d2d608e278935b6e4c60db":[2,0,6,6,17,29],
-"d4/d3f/tracing_8qh.html#ac1d4ea33014c2b30492e5b1679ca6b2e":[2,0,6,6,17,4],
-"d4/d3f/tracing_8qh.html#ac69c8de005b835ee2211eb1c75999f31":[2,0,6,6,17,33]
+"d4/d3f/tracing_8qh.html#aa349f780b5d2d608e278935b6e4c60db":[2,0,6,6,17,29]
 };
