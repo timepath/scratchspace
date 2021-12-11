@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"da/d44/common_2util_8qc.html#a0c6829767aa2400e49284b242c194d95":[2,0,1,49,20],
 "da/d44/common_2util_8qc.html#a1371630f3443945a1ff175145d2012f3":[2,0,1,49,13],
 "da/d44/common_2util_8qc.html#a154ba8224ee5f36a7e74adc8e625df72":[2,0,1,49,25],
 "da/d44/common_2util_8qc.html#a18192ef8986311737efd890375b7a2aa":[2,0,1,49,42],
@@ -192,13 +193,14 @@ var NAVTREEINDEX98 =
 "da/d60/json_8qh.html":[2,0,4,28],
 "da/d60/json_8qh_source.html":[2,0,4,28],
 "da/d68/accuracy_8qc.html":[2,0,6,6,2],
-"da/d68/accuracy_8qc.html#a082ad02679d6c3f6814e4b69b91d64c8":[2,0,6,6,2,7],
-"da/d68/accuracy_8qc.html#a09c590a107c1d139fd8fc8cd57544da9":[2,0,6,6,2,8],
+"da/d68/accuracy_8qc.html#a082ad02679d6c3f6814e4b69b91d64c8":[2,0,6,6,2,8],
+"da/d68/accuracy_8qc.html#a09c590a107c1d139fd8fc8cd57544da9":[2,0,6,6,2,9],
 "da/d68/accuracy_8qc.html#a5e7ead8d3ab4cd12e97b4af2e670444a":[2,0,6,6,2,3],
 "da/d68/accuracy_8qc.html#a6bde377995030b3a9d44ab6064679521":[2,0,6,6,2,0],
 "da/d68/accuracy_8qc.html#a7fabb764d4f54825debd9e866f4bf96b":[2,0,6,6,2,4],
 "da/d68/accuracy_8qc.html#a8ad5119b525659cbc971123f303fa416":[2,0,6,6,2,5],
 "da/d68/accuracy_8qc.html#a92354049648146157a9f3a60e08caba3":[2,0,6,6,2,2],
+"da/d68/accuracy_8qc.html#aa5ef5bad499ed56afdeef567a51f7348":[2,0,6,6,2,7],
 "da/d68/accuracy_8qc.html#aad4882ef9eb34b565690f771aec07c2d":[2,0,6,6,2,6],
 "da/d68/accuracy_8qc.html#addc590d48822d285d5025af942f6ef4e":[2,0,6,6,2,1],
 "da/d68/accuracy_8qc_source.html":[2,0,6,6,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "da/d6d/classXonoticPlayerModelSelector.html#a00e73292d4ce1cafcb4784f83be1b991":[1,0,252,50],
 "da/d6d/classXonoticPlayerModelSelector.html#a068a1780eb0731d56ea37a4b4e50e1a3":[1,0,252,58],
 "da/d6d/classXonoticPlayerModelSelector.html#a0e724b01c100461a8abc1af3132da8c3":[1,0,252,63],
-"da/d6d/classXonoticPlayerModelSelector.html#a11c6fa10f0533979ee4511f1710fa9c5":[1,0,252,14],
-"da/d6d/classXonoticPlayerModelSelector.html#a14a70e4aca7423cedef3601c877a74bb":[1,0,252,51],
-"da/d6d/classXonoticPlayerModelSelector.html#a17ad45daebe710a3c8bd4bea33facf3d":[1,0,252,66]
+"da/d6d/classXonoticPlayerModelSelector.html#a11c6fa10f0533979ee4511f1710fa9c5":[1,0,252,14]
 };

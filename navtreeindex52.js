@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"d4/df8/classXonoticHUDRadarDialog.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,225,5],
 "d4/df8/classXonoticHUDRadarDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,225,10],
 "d4/df8/classXonoticHUDRadarDialog.html#afb9c620a2dde42c74c6685bbe02d0759":[1,0,225,50],
 "d4/df8/sv__touchexplode_8qc.html":[2,0,1,10,0,37,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "d5/d52/bits_8qh.html#a726ca809ffd3d67ab4b8476646f26635aa45073594ce33b58d075d65d032ee453":[2,0,4,10,3],
 "d5/d52/bits_8qh.html#a726ca809ffd3d67ab4b8476646f26635aeee6c9348a242fbf6f968e4eae84d7a1":[2,0,4,10,7],
 "d5/d52/bits_8qh.html#a7c4df704eb888da3165c69863ce0f234":[2,0,4,10,9],
-"d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445":[2,0,4,10,10],
-"d5/d52/bits_8qh.html#adddacc81ca0e2ceacc3f1d4de8f9c35a":[2,0,4,10,2]
+"d5/d52/bits_8qh.html#a808f053d5430a7745f7ebe68554b1445":[2,0,4,10,10]
 };

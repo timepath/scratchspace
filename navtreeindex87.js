@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"d8/df7/classXonoticParticlesSlider.html#a8c568c803f49400fd0165b69f82d4161":[1,0,248,89],
 "d8/df7/classXonoticParticlesSlider.html#a8c71ab9e185789b5862d4eca97de030e":[1,0,248,6],
 "d8/df7/classXonoticParticlesSlider.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,248,28],
 "d8/df7/classXonoticParticlesSlider.html#a9176adf1a2fcf6d6ce9105d7446ec626":[1,0,248,52],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "d9/d09/notifications_2all_8inc.html#afb4f60f8bb30bde22eb4159ea43033be":[2,0,1,11,2,85],
 "d9/d09/notifications_2all_8inc.html#afcfb3622c545fc15edb4e1082f3252bd":[2,0,1,11,2,96],
 "d9/d09/notifications_2all_8inc.html#afde4d2085af58e069ac215eb4e5d5b61":[2,0,1,11,2,138],
-"d9/d09/notifications_2all_8inc_source.html":[2,0,1,11,2],
-"d9/d09/spawn__near__teammate_8qc.html":[2,0,1,10,0,33,4]
+"d9/d09/notifications_2all_8inc_source.html":[2,0,1,11,2]
 };

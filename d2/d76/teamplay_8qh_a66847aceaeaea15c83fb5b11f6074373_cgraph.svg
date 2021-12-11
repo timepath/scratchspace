@@ -54,61 +54,61 @@ var sectionId = 'dynsection-57';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>TeamBalance_GetLargestTeamIndex</title>
-<!-- Node6012 -->
+<!-- Node6018 -->
 <g id="node1" class="node">
-<title>Node6012</title>
+<title>Node6018</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-83 0,-113 167,-113 167,-83 0,-83"/>
 <text text-anchor="start" x="8" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalance_GetLargestTeam</text>
 <text text-anchor="middle" x="83.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Index</text>
 </g>
-<!-- Node6013 -->
+<!-- Node6019 -->
 <g id="node2" class="node">
-<title>Node6013</title>
+<title>Node6019</title>
 <g id="a_node2"><a xlink:href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" target="_top" xlink:title="entity">
 <polygon fill="none" stroke="#000000" points="271.5,-164.5 271.5,-183.5 316.5,-183.5 316.5,-164.5 271.5,-164.5"/>
 <text text-anchor="middle" x="294" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">entity</text>
 </a>
 </g>
 </g>
-<!-- Node6012&#45;&gt;Node6013 -->
+<!-- Node6018&#45;&gt;Node6019 -->
 <g id="edge1" class="edge">
-<title>Node6012&#45;&gt;Node6013</title>
+<title>Node6018&#45;&gt;Node6019</title>
 <path fill="none" stroke="#191970" d="M110.2517,-113.0473C133.9743,-125.8288 169.8957,-143.8289 203,-155 221.7424,-161.3246 243.3967,-165.9483 260.8789,-169.0501"/>
 <polygon fill="#191970" stroke="#191970" points="260.7183,-172.5724 271.1615,-170.7863 261.8838,-165.6701 260.7183,-172.5724"/>
 </g>
-<!-- Node6014 -->
+<!-- Node6020 -->
 <g id="node3" class="node">
-<title>Node6014</title>
+<title>Node6020</title>
 <g id="a_node3"><a xlink:href="../../db/d07/teams_8qh.html#ac15de12fd4822619b3536b1061cbff75" target="_top" xlink:title="Converts team index into bit value that is used in team bitmasks. ">
 <polygon fill="none" stroke="#000000" points="244.5,-126.5 244.5,-145.5 343.5,-145.5 343.5,-126.5 244.5,-126.5"/>
 <text text-anchor="middle" x="294" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Team_IndexToBit</text>
 </a>
 </g>
 </g>
-<!-- Node6012&#45;&gt;Node6014 -->
+<!-- Node6018&#45;&gt;Node6020 -->
 <g id="edge2" class="edge">
-<title>Node6012&#45;&gt;Node6014</title>
+<title>Node6018&#45;&gt;Node6020</title>
 <path fill="none" stroke="#191970" d="M166.6952,-113.0186C189.3108,-117.1012 213.3489,-121.4407 234.3747,-125.2363"/>
 <polygon fill="#191970" stroke="#191970" points="233.9723,-128.7202 244.4351,-127.0524 235.216,-121.8315 233.9723,-128.7202"/>
 </g>
-<!-- Node6015 -->
+<!-- Node6021 -->
 <g id="node4" class="node">
-<title>Node6015</title>
+<title>Node6021</title>
 <g id="a_node4"><a xlink:href="../../de/d4f/teamplay_8qc.html#af3b1646b76af378b8a2c420213e0a4a4" target="_top" xlink:title="Returns the team entity of the team balance entity at the given index. ">
 <polygon fill="none" stroke="#000000" points="203,-88.5 203,-107.5 385,-107.5 385,-88.5 203,-88.5"/>
 <text text-anchor="middle" x="294" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalance_GetTeamFromIndex</text>
 </a>
 </g>
 </g>
-<!-- Node6012&#45;&gt;Node6015 -->
+<!-- Node6018&#45;&gt;Node6021 -->
 <g id="edge3" class="edge">
-<title>Node6012&#45;&gt;Node6015</title>
+<title>Node6018&#45;&gt;Node6021</title>
 <path fill="none" stroke="#191970" d="M167.3,-98C175.7054,-98 184.3014,-98 192.8611,-98"/>
 <polygon fill="#191970" stroke="#191970" points="192.8792,-101.5001 202.8792,-98 192.8792,-94.5001 192.8792,-101.5001"/>
 </g>
-<!-- Node6017 -->
+<!-- Node6023 -->
 <g id="node6" class="node">
-<title>Node6017</title>
+<title>Node6023</title>
 <g id="a_node6"><a xlink:href="../../de/d4f/teamplay_8qc.html#a522ae8d4e7ffbf8494d967eff0700de7" target="_top" xlink:title="Returns the number of players (both humans and bots) in a team. ">
 <polygon fill="none" stroke="#000000" points="209,-39 209,-69 379,-69 379,-39 209,-39"/>
 <text text-anchor="start" x="217" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalanceTeam_GetNumber</text>
@@ -116,39 +116,39 @@ var sectionId = 'dynsection-57';
 </a>
 </g>
 </g>
-<!-- Node6012&#45;&gt;Node6017 -->
+<!-- Node6018&#45;&gt;Node6023 -->
 <g id="edge5" class="edge">
-<title>Node6012&#45;&gt;Node6017</title>
+<title>Node6018&#45;&gt;Node6023</title>
 <path fill="none" stroke="#191970" d="M155.3534,-82.9808C173.6267,-79.1612 193.3984,-75.0284 212.1295,-71.1131"/>
 <polygon fill="#191970" stroke="#191970" points="213.041,-74.4983 222.1133,-69.0262 211.6087,-67.6464 213.041,-74.4983"/>
 </g>
-<!-- Node6018 -->
+<!-- Node6024 -->
 <g id="node7" class="node">
-<title>Node6018</title>
+<title>Node6024</title>
 <g id="a_node7"><a xlink:href="../../de/d4f/teamplay_8qc.html#a15c597622e4d17e585cb2383642bb9b9" target="_top" xlink:title="Returns whether the team is allowed. ">
 <polygon fill="none" stroke="#000000" points="213.5,-.5 213.5,-19.5 374.5,-19.5 374.5,-.5 213.5,-.5"/>
 <text text-anchor="middle" x="294" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalanceTeam_IsAllowed</text>
 </a>
 </g>
 </g>
-<!-- Node6012&#45;&gt;Node6018 -->
+<!-- Node6018&#45;&gt;Node6024 -->
 <g id="edge6" class="edge">
-<title>Node6012&#45;&gt;Node6018</title>
+<title>Node6018&#45;&gt;Node6024</title>
 <path fill="none" stroke="#191970" d="M105.4028,-82.8383C128.6373,-67.4162 166.9031,-43.8697 203,-30 210.9225,-26.9559 219.4201,-24.3195 227.9242,-22.0515"/>
 <polygon fill="#191970" stroke="#191970" points="229.0279,-25.3832 237.8763,-19.556 227.3253,-18.5934 229.0279,-25.3832"/>
 </g>
-<!-- Node6016 -->
+<!-- Node6022 -->
 <g id="node5" class="node">
-<title>Node6016</title>
+<title>Node6022</title>
 <g id="a_node5"><a xlink:href="../../db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001" target="_top" xlink:title="Returns whether the team index is valid. ">
 <polygon fill="none" stroke="#000000" points="421,-88.5 421,-107.5 528,-107.5 528,-88.5 421,-88.5"/>
 <text text-anchor="middle" x="474.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Team_IsValidIndex</text>
 </a>
 </g>
 </g>
-<!-- Node6015&#45;&gt;Node6016 -->
+<!-- Node6021&#45;&gt;Node6022 -->
 <g id="edge4" class="edge">
-<title>Node6015&#45;&gt;Node6016</title>
+<title>Node6021&#45;&gt;Node6022</title>
 <path fill="none" stroke="#191970" d="M385.0432,-98C393.7637,-98 402.4743,-98 410.8493,-98"/>
 <polygon fill="#191970" stroke="#191970" points="410.8766,-101.5001 420.8766,-98 410.8766,-94.5001 410.8766,-101.5001"/>
 </g>

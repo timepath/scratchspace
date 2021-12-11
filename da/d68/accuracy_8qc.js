@@ -7,6 +7,7 @@ var accuracy_8qc =
     [ "accuracy_init", "da/d68/accuracy_8qc.html#a7fabb764d4f54825debd9e866f4bf96b", null ],
     [ "accuracy_isgooddamage", "da/d68/accuracy_8qc.html#a8ad5119b525659cbc971123f303fa416", null ],
     [ "accuracy_resend", "da/d68/accuracy_8qc.html#aad4882ef9eb34b565690f771aec07c2d", null ],
+    [ "accuracy_reset", "da/d68/accuracy_8qc.html#aa5ef5bad499ed56afdeef567a51f7348", null ],
     [ "accuracy_send", "da/d68/accuracy_8qc.html#a082ad02679d6c3f6814e4b69b91d64c8", null ],
     [ "fired_time", "da/d68/accuracy_8qc.html#a09c590a107c1d139fd8fc8cd57544da9", null ]
 ];

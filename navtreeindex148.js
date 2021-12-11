@@ -1,5 +1,7 @@
 var NAVTREEINDEX148 =
 {
+"df/d9b/menu_2xonotic_2util_8qc.html#a31610cece5e7eefa4bd93e2a89fe9001":[2,0,5,4,236,4],
+"df/d9b/menu_2xonotic_2util_8qc.html#a33132c559dad0e1c8227935613fa6c55":[2,0,5,4,236,52],
 "df/d9b/menu_2xonotic_2util_8qc.html#a333510eb3e695bd259d836d9b3879bf3":[2,0,5,4,236,82],
 "df/d9b/menu_2xonotic_2util_8qc.html#a3a61ea33091b43730f8b686e78ecde5e":[2,0,5,4,236,88],
 "df/d9b/menu_2xonotic_2util_8qc.html#a3d10a92a0b5efff2067efd3580ece642":[2,0,5,4,236,33],
@@ -41,8 +43,8 @@ var NAVTREEINDEX148 =
 "df/d9b/menu_2xonotic_2util_8qc.html#a8ef15205d6127cbc8982e7ba27203db1":[2,0,5,4,236,50],
 "df/d9b/menu_2xonotic_2util_8qc.html#a99bf8fc9169855784af2af3cb71c8998":[2,0,5,4,236,28],
 "df/d9b/menu_2xonotic_2util_8qc.html#a9bc73e034ccab48e5cbcb3298481913a":[2,0,5,4,236,61],
-"df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb":[2,0,5,4,236,2],
 "df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb":[2,0,5,4,236,0],
+"df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb":[2,0,5,4,236,2],
 "df/d9b/menu_2xonotic_2util_8qc.html#aa514011c00a447f7603fb41c0cc43918":[2,0,5,4,236,81],
 "df/d9b/menu_2xonotic_2util_8qc.html#aabecb2186198cee293ff99e8806ea85e":[2,0,5,4,236,13],
 "df/d9b/menu_2xonotic_2util_8qc.html#aabf5cfb721ebb2ede5d88158911b0c15":[2,0,5,4,236,75],
@@ -247,7 +249,5 @@ var NAVTREEINDEX148 =
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a08ffa79439a4dea15f523602429af5d8":[1,0,223,47],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,223,103],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a0fe6eb18943a6a5c9cb654dccb5f909c":[1,0,223,53],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a134618d9ba08f227978e9f7abc65dcd7":[1,0,223,44],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a1363f51d76bde5021f29a75dad41e706":[1,0,223,15],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,223,95]
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a134618d9ba08f227978e9f7abc65dcd7":[1,0,223,44]
 };

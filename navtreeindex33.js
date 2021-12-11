@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"d3/d95/physics_2movetypes_2follow_8qh.html":[2,0,1,12,0,4],
 "d3/d95/physics_2movetypes_2follow_8qh_source.html":[2,0,1,12,0,4],
 "d3/d99/dialog__settings__game__crosshair_8qh.html":[2,0,5,4,133],
 "d3/d99/dialog__settings__game__crosshair_8qh.html#a12ba5112be2814cdfc0d381545b430c6":[2,0,5,4,133,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "d3/dba/classXonoticLanguageList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,236,58],
 "d3/dba/classXonoticLanguageList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,236,61],
 "d3/dba/classXonoticLanguageList.html#a11a8209afcff1a9a74262609d1b92646":[1,0,236,85],
-"d3/dba/classXonoticLanguageList.html#a151e0ec9dca93787cd82446a1b2e5ffa":[1,0,236,67],
-"d3/dba/classXonoticLanguageList.html#a15d3326ac2bb6d981ca9830931782a2e":[1,0,236,18]
+"d3/dba/classXonoticLanguageList.html#a151e0ec9dca93787cd82446a1b2e5ffa":[1,0,236,67]
 };

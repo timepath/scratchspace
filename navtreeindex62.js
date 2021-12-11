@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"d6/d70/magicear_8qh_source.html":[2,0,1,6,3,25],
 "d6/d72/stardust_8qc.html":[2,0,1,6,0,30],
 "d6/d72/stardust_8qc_source.html":[2,0,1,6,0,30],
 "d6/d74/cvars_8qh.html":[2,0,6,0,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#aeaa408fb15986685798823ca7bbfc4c3":[1,0,201,28],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#aeb2ea2fcd2aeba74d3d75f7421aaae2b":[1,0,201,42],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,201,7],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,201,89],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#aee4e499a2af6112e04b6d702c6920872":[1,0,201,67]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,201,89]
 };

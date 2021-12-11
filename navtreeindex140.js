@@ -1,5 +1,7 @@
 var NAVTREEINDEX140 =
 {
+"de/d9c/classTab.html#a6e8b059d258402748aa8b344fad5f36a":[1,0,152,69],
+"de/d9c/classTab.html#a6faf7f0a4c7c2fa57824836864969c0f":[1,0,152,14],
 "de/d9c/classTab.html#a72c0e76156762fbda152032add5f1630":[1,0,152,11],
 "de/d9c/classTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,152,2],
 "de/d9c/classTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,152,107],
@@ -247,7 +249,5 @@ var NAVTREEINDEX140 =
 "de/dbd/banning_8qh_source.html":[2,0,6,1,3],
 "de/dbe/client_2__mod_8inc.html":[2,0,0,5],
 "de/dbe/client_2__mod_8inc_source.html":[2,0,0,5],
-"de/dbe/mage_8qc.html":[2,0,1,9,0,2],
-"de/dbe/mage_8qc_source.html":[2,0,1,9,0,2],
-"de/dbf/common_2mutators_2mutator_2offhand__blaster_2__mod_8inc.html":[2,0,1,10,0,22,0]
+"de/dbe/mage_8qc.html":[2,0,1,9,0,2]
 };

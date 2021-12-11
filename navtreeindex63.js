@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#aee4e499a2af6112e04b6d702c6920872":[1,0,201,67],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#aeed055aa0f545e16cc1d0870d719d444":[1,0,201,26],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#af1378666510839248c407b96868b85b2":[1,0,201,75],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#af3a31a2cea0e185a1b793a1b539377b8":[1,0,201,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "d6/d96/classRaceCTS.html#aeb7b7fff44ad0f73baff4be2f3ddfd79":[1,0,122,11],
 "d6/d96/classRaceCTS.html#af1d1fdc80e94a11a8ca64aa9fdccc2a1":[1,0,122,18],
 "d6/d96/classRaceCTS.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,122,4],
-"d6/d97/common_2vehicles_2__mod_8qh.html":[2,0,1,15,2],
-"d6/d97/common_2vehicles_2__mod_8qh_source.html":[2,0,1,15,2]
+"d6/d97/common_2vehicles_2__mod_8qh.html":[2,0,1,15,2]
 };
