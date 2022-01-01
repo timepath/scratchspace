@@ -11,7 +11,6 @@ var sv__domination_8qc =
     [ "Domination_CheckPlayers", "d3/de3/sv__domination_8qc.html#a646fc082a076a6cd55731004ee2366c1", null ],
     [ "Domination_CheckWinner", "d3/de3/sv__domination_8qc.html#ad736f20c8008090864976987d6afb31e", null ],
     [ "Domination_count_controlpoints", "d3/de3/sv__domination_8qc.html#a1f4f2534150a9e448612a2bdf0dc9b23", null ],
-    [ "Domination_GetWinnerTeam", "d3/de3/sv__domination_8qc.html#a8e92777e560d0434d91801a60b93f1a3", null ],
     [ "Domination_RoundStart", "d3/de3/sv__domination_8qc.html#a297339937e3dc9b75d0517a5dee742c5", null ],
     [ "dompoint_captured", "d3/de3/sv__domination_8qc.html#ae2bad2494b8ccaf3e085a9b85a46a300", null ],
     [ "dompointthink", "d3/de3/sv__domination_8qc.html#aa00b6520114d871f749200c6b28c2f0f", null ],

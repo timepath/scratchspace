@@ -8,156 +8,156 @@
  viewBox="0.00 0.00 696.00 180.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 176)">
 <title>MUTATOR_HOOKFUNCTION</title>
-<!-- Node149 -->
+<!-- Node140 -->
 <g id="node1" class="node">
-<title>Node149</title>
+<title>Node140</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-95.5 0,-114.5 149,-114.5 149,-95.5 0,-95.5"/>
 <text text-anchor="middle" x="74.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">MUTATOR_HOOKFUNCTION</text>
 </g>
-<!-- Node150 -->
+<!-- Node141 -->
 <g id="node2" class="node">
-<title>Node150</title>
+<title>Node141</title>
 <g id="a_node2"><a xlink:href="../../d7/db6/sv__clanarena_8qc.html#a7fa79dd40d067b1966cc3fe622b6b6f8" target="_top" xlink:title="Returns next available player to spectate if g_ca_spectate_enemies == 0. ">
 <polygon fill="none" stroke="#000000" points="222.5,-114.5 222.5,-133.5 323.5,-133.5 323.5,-114.5 222.5,-114.5"/>
 <text text-anchor="middle" x="273" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CA_SpectateNext</text>
 </a>
 </g>
 </g>
-<!-- Node149&#45;&gt;Node150 -->
+<!-- Node140&#45;&gt;Node141 -->
 <g id="edge1" class="edge">
-<title>Node149&#45;&gt;Node150</title>
+<title>Node140&#45;&gt;Node141</title>
 <path fill="none" stroke="#191970" d="M149.2615,-112.156C170.0377,-114.1447 192.341,-116.2795 212.2112,-118.1814"/>
 <polygon fill="#191970" stroke="#191970" points="212.0713,-121.6839 222.3593,-119.1528 212.7383,-114.7158 212.0713,-121.6839"/>
 </g>
-<!-- Node151 -->
+<!-- Node142 -->
 <g id="node3" class="node">
-<title>Node151</title>
+<title>Node142</title>
 <g id="a_node3"><a xlink:href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" target="_top" xlink:title="entity">
 <polygon fill="none" stroke="#000000" points="446,-152.5 446,-171.5 491,-171.5 491,-152.5 446,-152.5"/>
 <text text-anchor="middle" x="468.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">entity</text>
 </a>
 </g>
 </g>
-<!-- Node149&#45;&gt;Node151 -->
+<!-- Node140&#45;&gt;Node142 -->
 <g id="edge4" class="edge">
-<title>Node149&#45;&gt;Node151</title>
+<title>Node140&#45;&gt;Node142</title>
 <path fill="none" stroke="#191970" d="M96.8685,-114.6559C118.8524,-123.6719 153.58,-136.6612 185,-143 274.3457,-161.0249 382.4048,-162.9283 435.6207,-162.5921"/>
 <polygon fill="#191970" stroke="#191970" points="435.8481,-166.0902 445.8144,-162.4952 435.7816,-159.0905 435.8481,-166.0902"/>
 </g>
-<!-- Node153 -->
+<!-- Node144 -->
 <g id="node5" class="node">
-<title>Node153</title>
+<title>Node144</title>
 <g id="a_node5"><a xlink:href="../../de/d4f/teamplay_8qc.html#a361810464bed269f4adfdde1177100bf" target="_top" xlink:title="Returns the team entity of the given entity. ">
 <polygon fill="none" stroke="#000000" points="226,-76.5 226,-95.5 320,-95.5 320,-76.5 226,-76.5"/>
 <text text-anchor="middle" x="273" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Entity_GetTeam</text>
 </a>
 </g>
 </g>
-<!-- Node149&#45;&gt;Node153 -->
+<!-- Node140&#45;&gt;Node144 -->
 <g id="edge5" class="edge">
-<title>Node149&#45;&gt;Node153</title>
+<title>Node140&#45;&gt;Node144</title>
 <path fill="none" stroke="#191970" d="M149.2615,-97.844C171.2612,-95.7382 194.9731,-93.4686 215.6955,-91.4851"/>
 <polygon fill="#191970" stroke="#191970" points="216.299,-94.9434 225.9199,-90.5064 215.6319,-87.9752 216.299,-94.9434"/>
 </g>
-<!-- Node158 -->
+<!-- Node149 -->
 <g id="node10" class="node">
-<title>Node158</title>
+<title>Node149</title>
 <g id="a_node10"><a xlink:href="../../de/d4f/teamplay_8qc.html#a2765472626f92378c08a7de683d8555d" target="_top" xlink:title="Returns the number of alive players in a team. ">
 <polygon fill="none" stroke="#000000" points="185,-38.5 185,-57.5 361,-57.5 361,-38.5 185,-38.5"/>
 <text text-anchor="middle" x="273" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Team_GetNumberOfAlivePlayers</text>
 </a>
 </g>
 </g>
-<!-- Node149&#45;&gt;Node158 -->
+<!-- Node140&#45;&gt;Node149 -->
 <g id="edge11" class="edge">
-<title>Node149&#45;&gt;Node158</title>
+<title>Node140&#45;&gt;Node149</title>
 <path fill="none" stroke="#191970" d="M99.6867,-95.3818C121.911,-87.1259 155.2973,-75.2823 185,-67 194.2744,-64.4139 204.1809,-61.9722 213.8782,-59.7552"/>
 <polygon fill="#191970" stroke="#191970" points="214.8728,-63.1196 223.8729,-57.5296 213.3512,-56.2869 214.8728,-63.1196"/>
 </g>
-<!-- Node150&#45;&gt;Node151 -->
+<!-- Node141&#45;&gt;Node142 -->
 <g id="edge2" class="edge">
-<title>Node150&#45;&gt;Node151</title>
+<title>Node141&#45;&gt;Node142</title>
 <path fill="none" stroke="#191970" d="M322.0806,-133.54C357.7491,-140.473 405.0251,-149.6622 436.0789,-155.6982"/>
 <polygon fill="#191970" stroke="#191970" points="435.4639,-159.1441 445.948,-157.6165 436.7996,-152.2727 435.4639,-159.1441"/>
 </g>
-<!-- Node152 -->
+<!-- Node143 -->
 <g id="node4" class="node">
-<title>Node152</title>
+<title>Node143</title>
 <g id="a_node4"><a xlink:href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" target="_top" xlink:title="find">
 <polygon fill="none" stroke="#000000" points="451,-114.5 451,-133.5 486,-133.5 486,-114.5 451,-114.5"/>
 <text text-anchor="middle" x="468.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">find</text>
 </a>
 </g>
 </g>
-<!-- Node150&#45;&gt;Node152 -->
+<!-- Node141&#45;&gt;Node143 -->
 <g id="edge3" class="edge">
-<title>Node150&#45;&gt;Node152</title>
+<title>Node141&#45;&gt;Node143</title>
 <path fill="none" stroke="#191970" d="M323.6004,-124C360.8824,-124 410.1972,-124 440.6121,-124"/>
 <polygon fill="#191970" stroke="#191970" points="440.9052,-127.5001 450.9052,-124 440.9051,-120.5001 440.9052,-127.5001"/>
 </g>
-<!-- Node154 -->
+<!-- Node145 -->
 <g id="node6" class="node">
-<title>Node154</title>
+<title>Node145</title>
 <g id="a_node6"><a xlink:href="../../de/d4f/teamplay_8qc.html#a22c172b1bbd702efeb58f24a2cb5ac27" target="_top" xlink:title="Returns the team index of the given entity. ">
 <polygon fill="none" stroke="#000000" points="408,-76.5 408,-95.5 529,-95.5 529,-76.5 408,-76.5"/>
 <text text-anchor="middle" x="468.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Entity_GetTeamIndex</text>
 </a>
 </g>
 </g>
-<!-- Node153&#45;&gt;Node154 -->
+<!-- Node144&#45;&gt;Node145 -->
 <g id="edge6" class="edge">
-<title>Node153&#45;&gt;Node154</title>
+<title>Node144&#45;&gt;Node145</title>
 <path fill="none" stroke="#191970" d="M320.3251,-86C343.5698,-86 372.0531,-86 397.8142,-86"/>
 <polygon fill="#191970" stroke="#191970" points="397.9105,-89.5001 407.9105,-86 397.9104,-82.5001 397.9105,-89.5001"/>
 </g>
-<!-- Node156 -->
+<!-- Node147 -->
 <g id="node8" class="node">
-<title>Node156</title>
+<title>Node147</title>
 <g id="a_node8"><a xlink:href="../../db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001" target="_top" xlink:title="Returns whether the team index is valid. ">
 <polygon fill="none" stroke="#000000" points="578.5,-19.5 578.5,-38.5 685.5,-38.5 685.5,-19.5 578.5,-19.5"/>
 <text text-anchor="middle" x="632" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Team_IsValidIndex</text>
 </a>
 </g>
 </g>
-<!-- Node153&#45;&gt;Node156 -->
+<!-- Node144&#45;&gt;Node147 -->
 <g id="edge8" class="edge">
-<title>Node153&#45;&gt;Node156</title>
+<title>Node144&#45;&gt;Node147</title>
 <path fill="none" stroke="#191970" d="M320.3021,-78.4896C383.9086,-68.3906 497.2107,-50.4011 568.2782,-39.1174"/>
 <polygon fill="#191970" stroke="#191970" points="569.1187,-42.5279 578.4461,-37.503 568.021,-35.6145 569.1187,-42.5279"/>
 </g>
-<!-- Node157 -->
+<!-- Node148 -->
 <g id="node9" class="node">
-<title>Node157</title>
+<title>Node148</title>
 <g id="a_node9"><a xlink:href="../../de/d4f/teamplay_8qc.html#ad8e889fc6c60b768543862d4e3454a49" target="_top" xlink:title="Returns the global team entity at the given index. ">
 <polygon fill="none" stroke="#000000" points="397,-.5 397,-19.5 540,-19.5 540,-.5 397,-.5"/>
 <text text-anchor="middle" x="468.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Team_GetTeamFromIndex</text>
 </a>
 </g>
 </g>
-<!-- Node153&#45;&gt;Node157 -->
+<!-- Node144&#45;&gt;Node148 -->
 <g id="edge9" class="edge">
-<title>Node153&#45;&gt;Node157</title>
+<title>Node144&#45;&gt;Node148</title>
 <path fill="none" stroke="#191970" d="M320.2571,-80.5451C333.9194,-77.7288 348.5053,-73.462 361,-67 380.2793,-57.0291 378.3046,-45.0269 397,-34 404.3767,-29.6491 412.6512,-25.9549 420.8834,-22.8657"/>
 <polygon fill="#191970" stroke="#191970" points="422.1864,-26.1179 430.4714,-19.5141 419.8765,-19.51 422.1864,-26.1179"/>
 </g>
-<!-- Node155 -->
+<!-- Node146 -->
 <g id="node7" class="node">
-<title>Node155</title>
+<title>Node146</title>
 <g id="a_node7"><a xlink:href="../../db/d07/teams_8qh.html#a897aed6be6a82e4d6622abde399e002d" target="_top" xlink:title="Converts team value into team index. ">
 <polygon fill="none" stroke="#000000" points="576,-76.5 576,-95.5 688,-95.5 688,-76.5 576,-76.5"/>
 <text text-anchor="middle" x="632" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Team_TeamToIndex</text>
 </a>
 </g>
 </g>
-<!-- Node154&#45;&gt;Node155 -->
+<!-- Node145&#45;&gt;Node146 -->
 <g id="edge7" class="edge">
-<title>Node154&#45;&gt;Node155</title>
+<title>Node145&#45;&gt;Node146</title>
 <path fill="none" stroke="#191970" d="M529.3814,-86C541.2978,-86 553.8482,-86 565.9245,-86"/>
 <polygon fill="#191970" stroke="#191970" points="565.9328,-89.5001 575.9327,-86 565.9327,-82.5001 565.9328,-89.5001"/>
 </g>
-<!-- Node157&#45;&gt;Node156 -->
+<!-- Node148&#45;&gt;Node147 -->
 <g id="edge10" class="edge">
-<title>Node157&#45;&gt;Node156</title>
+<title>Node148&#45;&gt;Node147</title>
 <path fill="none" stroke="#191970" d="M540.2135,-18.3337C549.4398,-19.4059 558.8393,-20.4982 567.9323,-21.5548"/>
 <polygon fill="#191970" stroke="#191970" points="567.7056,-25.0519 578.0427,-22.7297 568.5136,-18.0987 567.7056,-25.0519"/>
 </g>

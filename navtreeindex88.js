@@ -1,7 +1,5 @@
 var NAVTREEINDEX88 =
 {
-"d9/d09/spawn__near__teammate_8qc.html":[2,0,1,10,0,33,4],
-"d9/d09/spawn__near__teammate_8qc_source.html":[2,0,1,10,0,33,4],
 "d9/d0c/classJetpackRegen.html":[1,0,67],
 "d9/d0c/classJetpackRegen.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,67,0],
 "d9/d0c/classJetpackRegen.html#a48b78d497828537731feaa167c8af4f1":[1,0,67,14],
@@ -249,5 +247,7 @@ var NAVTREEINDEX88 =
 "d9/d12/models_2all_8inc.html#abb6915c9dc52aa738d7d574a39bd4d8a":[2,0,1,8,2,217],
 "d9/d12/models_2all_8inc.html#abbe210d9c2a0ffccdfbb8de21df6ad7f":[2,0,1,8,2,203],
 "d9/d12/models_2all_8inc.html#abc8bf34635b5e306196fb56a4ab4131e":[2,0,1,8,2,152],
-"d9/d12/models_2all_8inc.html#abcc36813737edb413edecc95e6150c7f":[2,0,1,8,2,247]
+"d9/d12/models_2all_8inc.html#abcc36813737edb413edecc95e6150c7f":[2,0,1,8,2,247],
+"d9/d12/models_2all_8inc.html#ac0074977d778da14284acb77ebd725f0":[2,0,1,8,2,106],
+"d9/d12/models_2all_8inc.html#ac0ebab06bd8fdc2dc4ab92e503f3c3bf":[2,0,1,8,2,72]
 };

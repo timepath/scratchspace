@@ -6,7 +6,6 @@ var sv__freezetag_8qc =
     [ "freezetag_CheckWinner", "d3/d60/sv__freezetag_8qc.html#ad5bd998b873b2096a2e53e06f0a228cf", null ],
     [ "freezetag_count_alive_players", "d3/d60/sv__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5", null ],
     [ "freezetag_Freeze", "d3/d60/sv__freezetag_8qc.html#ac6cbd41d5275a595f81c748f405fef7a", null ],
-    [ "freezetag_getWinnerTeam", "d3/d60/sv__freezetag_8qc.html#ab473edffeb644f0b5290b9cceaa68a7d", null ],
     [ "freezetag_Initialize", "d3/d60/sv__freezetag_8qc.html#a93dbe70f6f5e8c7e42c436e77d0d3348", null ],
     [ "freezetag_isEliminated", "d3/d60/sv__freezetag_8qc.html#abdfefb38273eeb40acd49174b8fd1a9b", null ],
     [ "freezetag_LastPlayerForTeam", "d3/d60/sv__freezetag_8qc.html#aee1dac91a06305051bdcfbef40a659d0", null ],

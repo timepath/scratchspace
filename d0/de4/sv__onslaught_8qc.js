@@ -70,7 +70,6 @@ var sv__onslaught_8qc =
     [ "onslaught_controlpoint_icon_link", "d0/de4/sv__onslaught_8qc.html#afc44af413028da09208c031b9fb3f4e0", null ],
     [ "Onslaught_count_generators", "d0/de4/sv__onslaught_8qc.html#a4c2ceee1997b66af4d4e5510dbbbb8aa", null ],
     [ "onslaught_generator_touch", "d0/de4/sv__onslaught_8qc.html#a88fb43854a958a2495e6162fd2203cde", null ],
-    [ "Onslaught_GetWinnerTeam", "d0/de4/sv__onslaught_8qc.html#ad405e8650c15f62101c34ff4bc3374cf", null ],
     [ "Onslaught_RoundStart", "d0/de4/sv__onslaught_8qc.html#a8ff94c5e74a9a374a202b8afbd672613", null ],
     [ "onslaught_updatelinks", "d0/de4/sv__onslaught_8qc.html#a1477271959738583b926d0e754d4aada", null ],
     [ "spawnfunc", "d0/de4/sv__onslaught_8qc.html#ade9761c58f1699ab7f1f73a27c04390d", null ],

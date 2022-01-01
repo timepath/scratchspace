@@ -3,7 +3,6 @@ var sv__clanarena_8qc =
     [ "CA_CheckTeams", "d7/db6/sv__clanarena_8qc.html#a4eb56906efb5c8da7820d434817d4a0e", null ],
     [ "CA_CheckWinner", "d7/db6/sv__clanarena_8qc.html#aa6ddf48df388628329e00ba071a90dba", null ],
     [ "CA_count_alive_players", "d7/db6/sv__clanarena_8qc.html#a7b44031b9b3e81ef13dad8a190d736ff", null ],
-    [ "CA_GetWinnerTeam", "d7/db6/sv__clanarena_8qc.html#ac3c365fb88484db9da71926a7ac3d260", null ],
     [ "ca_isEliminated", "d7/db6/sv__clanarena_8qc.html#aacbcf72df7630d29c5323a6668918b8d", null ],
     [ "ca_LastPlayerForTeam", "d7/db6/sv__clanarena_8qc.html#aac9833bdaf8c42ee876679860b8976bf", null ],
     [ "ca_LastPlayerForTeam_Notify", "d7/db6/sv__clanarena_8qc.html#a5e4b504c009a02034583fc4cb216afd2", null ],

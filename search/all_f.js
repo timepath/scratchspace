@@ -134,7 +134,6 @@ var searchData=
   ['onslaught_5fcontrolpoint_5ficon_5flink',['onslaught_controlpoint_icon_link',['../de/d4d/sv__controlpoint_8qc.html#afc44af413028da09208c031b9fb3f4e0',1,'onslaught_controlpoint_icon_link(entity e, void(entity this) spawnproc):&#160;sv_controlpoint.qc'],['../d0/de4/sv__onslaught_8qc.html#afc44af413028da09208c031b9fb3f4e0',1,'onslaught_controlpoint_icon_link(entity e, void(entity this) spawnproc):&#160;sv_controlpoint.qc']]],
   ['onslaught_5fcount_5fgenerators',['Onslaught_count_generators',['../d0/de4/sv__onslaught_8qc.html#a4c2ceee1997b66af4d4e5510dbbbb8aa',1,'sv_onslaught.qc']]],
   ['onslaught_5fgenerator_5ftouch',['onslaught_generator_touch',['../d0/de4/sv__onslaught_8qc.html#a88fb43854a958a2495e6162fd2203cde',1,'sv_onslaught.qc']]],
-  ['onslaught_5fgetwinnerteam',['Onslaught_GetWinnerTeam',['../d0/de4/sv__onslaught_8qc.html#ad405e8650c15f62101c34ff4bc3374cf',1,'sv_onslaught.qc']]],
   ['onslaught_5froundstart',['Onslaught_RoundStart',['../d0/de4/sv__onslaught_8qc.html#a8ff94c5e74a9a374a202b8afbd672613',1,'sv_onslaught.qc']]],
   ['onslaught_5fupdatelinks',['onslaught_updatelinks',['../d0/de4/sv__onslaught_8qc.html#a1477271959738583b926d0e754d4aada',1,'sv_onslaught.qc']]],
   ['oo_2eqh',['oo.qh',['../db/d0a/oo_8qh.html',1,'']]],

@@ -365,7 +365,6 @@ var searchData=
   ['domination_5fcheckplayers',['Domination_CheckPlayers',['../d3/de3/sv__domination_8qc.html#a646fc082a076a6cd55731004ee2366c1',1,'sv_domination.qc']]],
   ['domination_5fcheckwinner',['Domination_CheckWinner',['../d3/de3/sv__domination_8qc.html#ad736f20c8008090864976987d6afb31e',1,'sv_domination.qc']]],
   ['domination_5fcount_5fcontrolpoints',['Domination_count_controlpoints',['../d3/de3/sv__domination_8qc.html#a1f4f2534150a9e448612a2bdf0dc9b23',1,'sv_domination.qc']]],
-  ['domination_5fgetwinnerteam',['Domination_GetWinnerTeam',['../d3/de3/sv__domination_8qc.html#a8e92777e560d0434d91801a60b93f1a3',1,'sv_domination.qc']]],
   ['domination_5froundbased',['domination_roundbased',['../da/de5/sv__domination_8qh.html#a75f447d61a27c10cd1ea458303eb01cb',1,'sv_domination.qh']]],
   ['domination_5froundstart',['Domination_RoundStart',['../d3/de3/sv__domination_8qc.html#a297339937e3dc9b75d0517a5dee742c5',1,'sv_domination.qc']]],
   ['domination_5fteams',['domination_teams',['../da/de5/sv__domination_8qh.html#a56bbfd094354e9a928722c48b5f7de04',1,'sv_domination.qh']]],

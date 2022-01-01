@@ -65,7 +65,6 @@ var searchData=
   ['freezetag_5fcheckwinner',['freezetag_CheckWinner',['../d3/d60/sv__freezetag_8qc.html#ad5bd998b873b2096a2e53e06f0a228cf',1,'sv_freezetag.qc']]],
   ['freezetag_5fcount_5falive_5fplayers',['freezetag_count_alive_players',['../d3/d60/sv__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5',1,'sv_freezetag.qc']]],
   ['freezetag_5ffreeze',['freezetag_Freeze',['../d3/d60/sv__freezetag_8qc.html#ac6cbd41d5275a595f81c748f405fef7a',1,'sv_freezetag.qc']]],
-  ['freezetag_5fgetwinnerteam',['freezetag_getWinnerTeam',['../d3/d60/sv__freezetag_8qc.html#ab473edffeb644f0b5290b9cceaa68a7d',1,'sv_freezetag.qc']]],
   ['freezetag_5finitialize',['freezetag_Initialize',['../d3/d60/sv__freezetag_8qc.html#a93dbe70f6f5e8c7e42c436e77d0d3348',1,'freezetag_Initialize():&#160;sv_freezetag.qc'],['../d7/d2d/sv__freezetag_8qh.html#a93dbe70f6f5e8c7e42c436e77d0d3348',1,'freezetag_Initialize():&#160;sv_freezetag.qc']]],
   ['freezetag_5fiseliminated',['freezetag_isEliminated',['../d3/d60/sv__freezetag_8qc.html#abdfefb38273eeb40acd49174b8fd1a9b',1,'sv_freezetag.qc']]],
   ['freezetag_5flastplayerforteam',['freezetag_LastPlayerForTeam',['../d3/d60/sv__freezetag_8qc.html#aee1dac91a06305051bdcfbef40a659d0',1,'sv_freezetag.qc']]],

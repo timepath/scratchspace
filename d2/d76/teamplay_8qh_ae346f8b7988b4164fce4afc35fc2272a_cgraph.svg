@@ -48,52 +48,52 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 1108;
 var viewHeight = 404;
-var sectionId = 'dynsection-61';
+var sectionId = 'dynsection-64';
 </script>
 <script xlink:href="../../svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>TeamBalance_GetPlayerForTeamSwitch</title>
-<!-- Node6358 -->
+<!-- Node6361 -->
 <g id="node1" class="node">
-<title>Node6358</title>
+<title>Node6361</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-264.2009 0,-294.2009 150,-294.2009 150,-264.2009 0,-264.2009"/>
 <text text-anchor="start" x="8" y="-282.2009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalance_GetPlayerFor</text>
 <text text-anchor="middle" x="75" y="-271.2009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamSwitch</text>
 </g>
-<!-- Node6359 -->
+<!-- Node6362 -->
 <g id="node2" class="node">
-<title>Node6359</title>
+<title>Node6362</title>
 <g id="a_node2"><a xlink:href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" target="_top" xlink:title="entity">
 <polygon fill="none" stroke="#000000" points="631.5,-338.7009 631.5,-357.7009 676.5,-357.7009 676.5,-338.7009 631.5,-338.7009"/>
 <text text-anchor="middle" x="654" y="-345.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">entity</text>
 </a>
 </g>
 </g>
-<!-- Node6358&#45;&gt;Node6359 -->
+<!-- Node6361&#45;&gt;Node6362 -->
 <g id="edge1" class="edge">
-<title>Node6358&#45;&gt;Node6359</title>
+<title>Node6361&#45;&gt;Node6362</title>
 <path fill="none" stroke="#191970" d="M138.4481,-294.2573C153.9389,-297.5625 170.5121,-300.7904 186,-303.2009 348.2022,-328.4456 544.3799,-341.798 621.0501,-346.3633"/>
 <polygon fill="#191970" stroke="#191970" points="621.2893,-349.8832 631.4767,-346.9735 621.6983,-342.8952 621.2893,-349.8832"/>
 </g>
-<!-- Node6360 -->
+<!-- Node6363 -->
 <g id="node3" class="node">
-<title>Node6360</title>
+<title>Node6363</title>
 <g id="a_node3"><a xlink:href="../../de/d4f/teamplay_8qc.html#a22c172b1bbd702efeb58f24a2cb5ac27" target="_top" xlink:title="Returns the team index of the given entity. ">
 <polygon fill="none" stroke="#000000" points="392,-376.7009 392,-395.7009 513,-395.7009 513,-376.7009 392,-376.7009"/>
 <text text-anchor="middle" x="452.5" y="-383.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Entity_GetTeamIndex</text>
 </a>
 </g>
 </g>
-<!-- Node6358&#45;&gt;Node6360 -->
+<!-- Node6361&#45;&gt;Node6363 -->
 <g id="edge2" class="edge">
-<title>Node6358&#45;&gt;Node6360</title>
+<title>Node6361&#45;&gt;Node6363</title>
 <path fill="none" stroke="#191970" d="M89.4957,-294.3453C109.2466,-313.8799 146.6787,-347.1331 186,-362.2009 249.1954,-386.417 326.7696,-390.8439 381.892,-390.1624"/>
 <polygon fill="#191970" stroke="#191970" points="381.9804,-393.6614 391.9148,-389.9793 381.8525,-386.6626 381.9804,-393.6614"/>
 </g>
-<!-- Node6362 -->
+<!-- Node6365 -->
 <g id="node5" class="node">
-<title>Node6362</title>
+<title>Node6365</title>
 <g id="a_node5"><a xlink:href="../../de/d4f/teamplay_8qc.html#acb73b42eb788f18df47e8496810cb6e3" target="_top" xlink:title="Checks whether the player can join teams according to global configuration and mutator settings...">
 <polygon fill="none" stroke="#000000" points="374.5,-157.2009 374.5,-187.2009 530.5,-187.2009 530.5,-157.2009 374.5,-157.2009"/>
 <text text-anchor="start" x="382.5" y="-175.2009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalance_CheckAllowed</text>
@@ -101,30 +101,30 @@ var sectionId = 'dynsection-61';
 </a>
 </g>
 </g>
-<!-- Node6358&#45;&gt;Node6362 -->
+<!-- Node6361&#45;&gt;Node6365 -->
 <g id="edge4" class="edge">
-<title>Node6358&#45;&gt;Node6362</title>
+<title>Node6361&#45;&gt;Node6365</title>
 <path fill="none" stroke="#191970" d="M96.4257,-263.98C118.0096,-249.4056 152.7842,-227.9479 186,-216.2009 243.524,-195.8571 311.418,-184.8267 364.2807,-178.8979"/>
 <polygon fill="#191970" stroke="#191970" points="364.7416,-182.3686 374.3075,-177.814 363.9892,-175.4091 364.7416,-182.3686"/>
 </g>
-<!-- Node6369 -->
+<!-- Node6372 -->
 <g id="node12" class="node">
-<title>Node6369</title>
+<title>Node6372</title>
 <g id="a_node12"><a xlink:href="../../de/d4f/teamplay_8qc.html#a30e7d9bb583ec1b560c17ecde4b0a681" target="_top" xlink:title="Destroy the team balance entity. ">
 <polygon fill="none" stroke="#000000" points="591.5,-300.7009 591.5,-319.7009 716.5,-319.7009 716.5,-300.7009 591.5,-300.7009"/>
 <text text-anchor="middle" x="654" y="-307.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalance_Destroy</text>
 </a>
 </g>
 </g>
-<!-- Node6358&#45;&gt;Node6369 -->
+<!-- Node6361&#45;&gt;Node6372 -->
 <g id="edge19" class="edge">
-<title>Node6358&#45;&gt;Node6369</title>
+<title>Node6361&#45;&gt;Node6372</title>
 <path fill="none" stroke="#191970" d="M150.1006,-283.2218C261.9639,-289.211 470.9906,-300.4024 581.3909,-306.3133"/>
 <polygon fill="#191970" stroke="#191970" points="581.2633,-309.8114 591.4361,-306.8512 581.6376,-302.8214 581.2633,-309.8114"/>
 </g>
-<!-- Node6374 -->
+<!-- Node6377 -->
 <g id="node17" class="node">
-<title>Node6374</title>
+<title>Node6377</title>
 <g id="a_node17"><a xlink:href="../../de/d4f/teamplay_8qc.html#ae346f8b7988b4164fce4afc35fc2272a" target="_top" xlink:title="Returns the player who is the most suitable for switching between the given teams. ">
 <polygon fill="none" stroke="#000000" points="186,-226.2009 186,-256.2009 336,-256.2009 336,-226.2009 186,-226.2009"/>
 <text text-anchor="start" x="194" y="-244.2009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalance_GetPlayerFor</text>
@@ -132,153 +132,153 @@ var sectionId = 'dynsection-61';
 </a>
 </g>
 </g>
-<!-- Node6358&#45;&gt;Node6374 -->
+<!-- Node6361&#45;&gt;Node6377 -->
 <g id="edge20" class="edge">
-<title>Node6358&#45;&gt;Node6374</title>
+<title>Node6361&#45;&gt;Node6377</title>
 <path fill="none" stroke="#191970" d="M148.5121,-264.1823C158.008,-262.2422 167.7877,-260.2442 177.4308,-258.2741"/>
 <polygon fill="#191970" stroke="#191970" points="178.3157,-261.6657 187.4128,-256.2348 176.9145,-254.8074 178.3157,-261.6657"/>
 </g>
-<!-- Node6375 -->
+<!-- Node6378 -->
 <g id="node18" class="node">
-<title>Node6375</title>
+<title>Node6378</title>
 <g id="a_node18"><a xlink:href="../../de/d4f/teamplay_8qc.html#acc837925d29f532c0c1668ff6b53a5c1" target="_top" xlink:title="Returns whether the team change to the specified team is allowed. ">
 <polygon fill="none" stroke="#000000" points="372,-73.7009 372,-92.7009 533,-92.7009 533,-73.7009 372,-73.7009"/>
 <text text-anchor="middle" x="452.5" y="-80.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalance_IsTeamAllowed</text>
 </a>
 </g>
 </g>
-<!-- Node6358&#45;&gt;Node6375 -->
+<!-- Node6361&#45;&gt;Node6378 -->
 <g id="edge29" class="edge">
-<title>Node6358&#45;&gt;Node6375</title>
+<title>Node6361&#45;&gt;Node6378</title>
 <path fill="none" stroke="#191970" d="M88.2742,-263.976C107.769,-242.4401 146.1665,-203.053 186,-179.2009 255.311,-137.6977 345.4075,-109.9289 401.0724,-95.3579"/>
 <polygon fill="#191970" stroke="#191970" points="402.2402,-98.6716 411.0529,-92.7905 400.4962,-91.8923 402.2402,-98.6716"/>
 </g>
-<!-- Node6361 -->
+<!-- Node6364 -->
 <g id="node4" class="node">
-<title>Node6361</title>
+<title>Node6364</title>
 <g id="a_node4"><a xlink:href="../../db/d07/teams_8qh.html#a897aed6be6a82e4d6622abde399e002d" target="_top" xlink:title="Converts team value into team index. ">
 <polygon fill="none" stroke="#000000" points="810,-338.7009 810,-357.7009 922,-357.7009 922,-338.7009 810,-338.7009"/>
 <text text-anchor="middle" x="866" y="-345.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Team_TeamToIndex</text>
 </a>
 </g>
 </g>
-<!-- Node6360&#45;&gt;Node6361 -->
+<!-- Node6363&#45;&gt;Node6364 -->
 <g id="edge3" class="edge">
-<title>Node6360&#45;&gt;Node6361</title>
+<title>Node6363&#45;&gt;Node6364</title>
 <path fill="none" stroke="#191970" d="M513.2673,-383.6233C571.3476,-380.8166 661.3118,-375.5739 739,-367.2009 758.8192,-365.0648 780.2867,-362.103 799.8334,-359.1529"/>
 <polygon fill="#191970" stroke="#191970" points="800.5069,-362.5907 809.861,-357.6157 799.4461,-355.6715 800.5069,-362.5907"/>
 </g>
-<!-- Node6362&#45;&gt;Node6359 -->
+<!-- Node6365&#45;&gt;Node6362 -->
 <g id="edge7" class="edge">
-<title>Node6362&#45;&gt;Node6359</title>
+<title>Node6365&#45;&gt;Node6362</title>
 <path fill="none" stroke="#191970" d="M469.4043,-187.4935C486.8093,-203.8312 513.9983,-231.0611 533,-258.2009 553.2919,-287.1835 541.0657,-307.4885 569,-329.2009 583.7314,-340.6511 604.009,-345.4775 621.064,-347.4052"/>
 <polygon fill="#191970" stroke="#191970" points="620.9281,-350.9062 631.1882,-348.2642 621.5199,-343.9312 620.9281,-350.9062"/>
 </g>
-<!-- Node6362&#45;&gt;Node6362 -->
+<!-- Node6365&#45;&gt;Node6365 -->
 <g id="edge12" class="edge">
-<title>Node6362&#45;&gt;Node6362</title>
+<title>Node6365&#45;&gt;Node6365</title>
 <path fill="none" stroke="#191970" d="M419.3886,-187.3599C411.4043,-196.7574 422.4414,-205.7009 452.5,-205.7009 470.817,-205.7009 482.0705,-202.3798 486.2607,-197.6588"/>
 <polygon fill="#191970" stroke="#191970" points="489.7338,-197.1198 485.6114,-187.3599 482.7476,-197.5603 489.7338,-197.1198"/>
 </g>
-<!-- Node6363 -->
+<!-- Node6366 -->
 <g id="node6" class="node">
-<title>Node6363</title>
+<title>Node6366</title>
 <g id="a_node6"><a xlink:href="../../d5/d14/scores__rules_8qc.html#ae9adf848be0a903b09499cbc48313cec" target="_top" xlink:title="AvailableTeams">
 <polygon fill="none" stroke="#000000" points="607.5,-224.7009 607.5,-243.7009 700.5,-243.7009 700.5,-224.7009 607.5,-224.7009"/>
 <text text-anchor="middle" x="654" y="-231.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">AvailableTeams</text>
 </a>
 </g>
 </g>
-<!-- Node6362&#45;&gt;Node6363 -->
+<!-- Node6365&#45;&gt;Node6366 -->
 <g id="edge5" class="edge">
-<title>Node6362&#45;&gt;Node6363</title>
+<title>Node6365&#45;&gt;Node6366</title>
 <path fill="none" stroke="#191970" d="M489.3265,-187.2316C512.039,-196.1401 541.9104,-207.2127 569,-215.2009 578.1498,-217.8989 587.9519,-220.4211 597.5291,-222.6901"/>
 <polygon fill="#191970" stroke="#191970" points="596.8611,-226.1278 607.3914,-224.9598 598.4312,-219.3061 596.8611,-226.1278"/>
 </g>
-<!-- Node6365 -->
+<!-- Node6368 -->
 <g id="node8" class="node">
-<title>Node6365</title>
+<title>Node6368</title>
 <g id="a_node8"><a xlink:href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" target="_top" xlink:title="find">
 <polygon fill="none" stroke="#000000" points="636.5,-186.7009 636.5,-205.7009 671.5,-205.7009 671.5,-186.7009 636.5,-186.7009"/>
 <text text-anchor="middle" x="654" y="-193.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">find</text>
 </a>
 </g>
 </g>
-<!-- Node6362&#45;&gt;Node6365 -->
+<!-- Node6365&#45;&gt;Node6368 -->
 <g id="edge8" class="edge">
-<title>Node6362&#45;&gt;Node6365</title>
+<title>Node6365&#45;&gt;Node6368</title>
 <path fill="none" stroke="#191970" d="M530.6936,-181.5142C564.4214,-185.5314 601.7043,-189.9721 626.3488,-192.9074"/>
 <polygon fill="#191970" stroke="#191970" points="626.0631,-196.398 636.4069,-194.1054 626.891,-189.4472 626.0631,-196.398"/>
 </g>
-<!-- Node6366 -->
+<!-- Node6369 -->
 <g id="node9" class="node">
-<title>Node6366</title>
+<title>Node6369</title>
 <g id="a_node9"><a xlink:href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" target="_top" xlink:title="spawn">
 <polygon fill="none" stroke="#000000" points="630,-148.7009 630,-167.7009 678,-167.7009 678,-148.7009 630,-148.7009"/>
 <text text-anchor="middle" x="654" y="-155.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">spawn</text>
 </a>
 </g>
 </g>
-<!-- Node6362&#45;&gt;Node6366 -->
+<!-- Node6365&#45;&gt;Node6369 -->
 <g id="edge9" class="edge">
-<title>Node6362&#45;&gt;Node6366</title>
+<title>Node6365&#45;&gt;Node6369</title>
 <path fill="none" stroke="#191970" d="M530.6936,-166.7681C561.5304,-164.6255 595.339,-162.2766 619.7433,-160.581"/>
 <polygon fill="#191970" stroke="#191970" points="620.1862,-164.0587 629.9195,-159.8739 619.7009,-157.0756 620.1862,-164.0587"/>
 </g>
-<!-- Node6367 -->
+<!-- Node6370 -->
 <g id="node10" class="node">
-<title>Node6367</title>
+<title>Node6370</title>
 <g id="a_node10"><a xlink:href="../../db/d07/teams_8qh.html#a19e04bfb672edb4669be6b04609b0be7" target="_top" xlink:title="Returns whether team value is valid. ">
 <polygon fill="none" stroke="#000000" points="600.5,-110.7009 600.5,-129.7009 707.5,-129.7009 707.5,-110.7009 600.5,-110.7009"/>
 <text text-anchor="middle" x="654" y="-117.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Team_IsValidTeam</text>
 </a>
 </g>
 </g>
-<!-- Node6362&#45;&gt;Node6367 -->
+<!-- Node6365&#45;&gt;Node6370 -->
 <g id="edge10" class="edge">
-<title>Node6362&#45;&gt;Node6367</title>
+<title>Node6365&#45;&gt;Node6370</title>
 <path fill="none" stroke="#191970" d="M503.3712,-157.1218C523.7125,-151.2677 547.3988,-144.6699 569,-139.2009 578.6747,-136.7514 589.0106,-134.3021 599.0237,-132.0156"/>
 <polygon fill="#191970" stroke="#191970" points="599.908,-135.4041 608.8928,-129.7894 598.3677,-128.5757 599.908,-135.4041"/>
 </g>
-<!-- Node6368 -->
+<!-- Node6371 -->
 <g id="node11" class="node">
-<title>Node6368</title>
+<title>Node6371</title>
 <g id="a_node11"><a xlink:href="../../de/d4f/teamplay_8qc.html#a313d54cad51a44d5b27a6b03366b728a" target="_top" xlink:title="Bans team change to all teams except the given one. ">
 <polygon fill="none" stroke="#000000" points="569,-72.7009 569,-91.7009 739,-91.7009 739,-72.7009 569,-72.7009"/>
 <text text-anchor="middle" x="654" y="-79.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalance_BanTeamsExcept</text>
 </a>
 </g>
 </g>
-<!-- Node6362&#45;&gt;Node6368 -->
+<!-- Node6365&#45;&gt;Node6371 -->
 <g id="edge11" class="edge">
-<title>Node6362&#45;&gt;Node6368</title>
+<title>Node6365&#45;&gt;Node6371</title>
 <path fill="none" stroke="#191970" d="M472.8672,-156.9157C495.298,-140.7892 532.9787,-115.7398 569,-101.2009 575.3121,-98.6532 582.0326,-96.414 588.8226,-94.4535"/>
 <polygon fill="#191970" stroke="#191970" points="590.0322,-97.7527 598.7812,-91.7773 588.2155,-90.9926 590.0322,-97.7527"/>
 </g>
-<!-- Node6362&#45;&gt;Node6369 -->
+<!-- Node6365&#45;&gt;Node6372 -->
 <g id="edge13" class="edge">
-<title>Node6362&#45;&gt;Node6369</title>
+<title>Node6365&#45;&gt;Node6372</title>
 <path fill="none" stroke="#191970" d="M487.2378,-187.398C502.6868,-195.4492 520.2286,-206.5245 533,-220.2009 557.1473,-246.0593 541.0657,-269.4885 569,-291.2009 572.8988,-294.2312 577.186,-296.7977 581.6992,-298.9692"/>
 <polygon fill="#191970" stroke="#191970" points="580.649,-302.3218 591.2283,-302.8941 583.3149,-295.8493 580.649,-302.3218"/>
 </g>
-<!-- Node6370 -->
+<!-- Node6373 -->
 <g id="node13" class="node">
-<title>Node6370</title>
+<title>Node6373</title>
 <g id="a_node13"><a xlink:href="../../de/d4f/teamplay_8qc.html#aebcef3dce1a9a78c04ff5a26d9aaf8b7" target="_top" xlink:title="Returns the team entity of the team balance entity that corresponds to the given TEAM_NUM value...">
 <polygon fill="none" stroke="#000000" points="588.5,-262.7009 588.5,-281.7009 719.5,-281.7009 719.5,-262.7009 588.5,-262.7009"/>
 <text text-anchor="middle" x="654" y="-269.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalance_GetTeam</text>
 </a>
 </g>
 </g>
-<!-- Node6362&#45;&gt;Node6370 -->
+<!-- Node6365&#45;&gt;Node6373 -->
 <g id="edge14" class="edge">
-<title>Node6362&#45;&gt;Node6370</title>
+<title>Node6365&#45;&gt;Node6373</title>
 <path fill="none" stroke="#191970" d="M480.9695,-187.2936C496.795,-196.141 516.553,-207.9602 533,-220.2009 550.412,-233.1598 549.757,-243.16 569,-253.2009 573.4931,-255.5453 578.2666,-257.6016 583.1701,-259.4049"/>
 <polygon fill="#191970" stroke="#191970" points="582.1271,-262.7464 592.7205,-262.5703 584.3295,-256.1018 582.1271,-262.7464"/>
 </g>
-<!-- Node6373 -->
+<!-- Node6376 -->
 <g id="node16" class="node">
-<title>Node6373</title>
+<title>Node6376</title>
 <g id="a_node16"><a xlink:href="../../de/d4f/teamplay_8qc.html#aa51e7262063512a9c4720abdc5568d48" target="_top" xlink:title="Returns whether the team change to the specified team is allowed. ">
 <polygon fill="none" stroke="#000000" points="573.5,-23.2009 573.5,-53.2009 734.5,-53.2009 734.5,-23.2009 573.5,-23.2009"/>
 <text text-anchor="start" x="581.5" y="-41.2009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalance_IsTeamAllowed</text>
@@ -286,108 +286,108 @@ var sectionId = 'dynsection-61';
 </a>
 </g>
 </g>
-<!-- Node6362&#45;&gt;Node6373 -->
+<!-- Node6365&#45;&gt;Node6376 -->
 <g id="edge18" class="edge">
-<title>Node6362&#45;&gt;Node6373</title>
+<title>Node6365&#45;&gt;Node6376</title>
 <path fill="none" stroke="#191970" d="M470.9085,-157.1798C487.5609,-143.3633 512.5352,-122.0672 533,-102.2009 549.9256,-85.7702 548.9605,-75.6453 569,-63.2009 572.3587,-61.1151 575.8999,-59.1962 579.5529,-57.4316"/>
 <polygon fill="#191970" stroke="#191970" points="581.0778,-60.5846 588.8238,-53.3561 578.2607,-54.1764 581.0778,-60.5846"/>
 </g>
-<!-- Node6364 -->
+<!-- Node6367 -->
 <g id="node7" class="node">
-<title>Node6364</title>
+<title>Node6367</title>
 <g id="a_node7"><a xlink:href="../../d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f" target="_top" xlink:title="NumTeams">
 <polygon fill="none" stroke="#000000" points="830.5,-224.7009 830.5,-243.7009 901.5,-243.7009 901.5,-224.7009 830.5,-224.7009"/>
 <text text-anchor="middle" x="866" y="-231.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">NumTeams</text>
 </a>
 </g>
 </g>
-<!-- Node6363&#45;&gt;Node6364 -->
+<!-- Node6366&#45;&gt;Node6367 -->
 <g id="edge6" class="edge">
-<title>Node6363&#45;&gt;Node6364</title>
+<title>Node6366&#45;&gt;Node6367</title>
 <path fill="none" stroke="#191970" d="M700.5243,-234.2009C736.1346,-234.2009 784.9857,-234.2009 820.3713,-234.2009"/>
 <polygon fill="#191970" stroke="#191970" points="820.4311,-237.701 830.431,-234.2009 820.431,-230.701 820.4311,-237.701"/>
 </g>
-<!-- Node6370&#45;&gt;Node6361 -->
+<!-- Node6373&#45;&gt;Node6364 -->
 <g id="edge15" class="edge">
-<title>Node6370&#45;&gt;Node6361</title>
+<title>Node6373&#45;&gt;Node6364</title>
 <path fill="none" stroke="#191970" d="M704.7993,-281.7954C716.1728,-284.429 728.0946,-287.5761 739,-291.2009 774.5878,-303.0296 813.695,-321.4614 838.9792,-334.1451"/>
 <polygon fill="#191970" stroke="#191970" points="837.4551,-337.2965 847.9566,-338.6991 840.6218,-331.0538 837.4551,-337.2965"/>
 </g>
-<!-- Node6371 -->
+<!-- Node6374 -->
 <g id="node14" class="node">
-<title>Node6371</title>
+<title>Node6374</title>
 <g id="a_node14"><a xlink:href="../../de/d4f/teamplay_8qc.html#af3b1646b76af378b8a2c420213e0a4a4" target="_top" xlink:title="Returns the team entity of the team balance entity at the given index. ">
 <polygon fill="none" stroke="#000000" points="775,-262.7009 775,-281.7009 957,-281.7009 957,-262.7009 775,-262.7009"/>
 <text text-anchor="middle" x="866" y="-269.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TeamBalance_GetTeamFromIndex</text>
 </a>
 </g>
 </g>
-<!-- Node6370&#45;&gt;Node6371 -->
+<!-- Node6373&#45;&gt;Node6374 -->
 <g id="edge16" class="edge">
-<title>Node6370&#45;&gt;Node6371</title>
+<title>Node6373&#45;&gt;Node6374</title>
 <path fill="none" stroke="#191970" d="M719.6263,-272.2009C733.991,-272.2009 749.5187,-272.2009 764.9081,-272.2009"/>
 <polygon fill="#191970" stroke="#191970" points="764.9877,-275.701 774.9876,-272.2009 764.9876,-268.701 764.9877,-275.701"/>
 </g>
-<!-- Node6372 -->
+<!-- Node6375 -->
 <g id="node15" class="node">
-<title>Node6372</title>
+<title>Node6375</title>
 <g id="a_node15"><a xlink:href="../../db/d07/teams_8qh.html#a412e0e869a48ecb20307b6c916be7001" target="_top" xlink:title="Returns whether the team index is valid. ">
 <polygon fill="none" stroke="#000000" points="993,-123.7009 993,-142.7009 1100,-142.7009 1100,-123.7009 993,-123.7009"/>
 <text text-anchor="middle" x="1046.5" y="-130.7009" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Team_IsValidIndex</text>
 </a>
 </g>
 </g>
-<!-- Node6371&#45;&gt;Node6372 -->
+<!-- Node6374&#45;&gt;Node6375 -->
 <g id="edge17" class="edge">
-<title>Node6371&#45;&gt;Node6372</title>
+<title>Node6374&#45;&gt;Node6375</title>
 <path fill="none" stroke="#191970" d="M937.5427,-262.5499C944.3964,-260.0882 951.0134,-257.0204 957,-253.2009 996.4391,-228.0383 1024.6651,-178.9326 1037.9479,-151.9951"/>
 <polygon fill="#191970" stroke="#191970" points="1041.1619,-153.3862 1042.2992,-142.8526 1034.8413,-150.3779 1041.1619,-153.3862"/>
 </g>
-<!-- Node6374&#45;&gt;Node6359 -->
+<!-- Node6377&#45;&gt;Node6362 -->
 <g id="edge21" class="edge">
-<title>Node6374&#45;&gt;Node6359</title>
+<title>Node6377&#45;&gt;Node6362</title>
 <path fill="none" stroke="#191970" d="M310.369,-256.2695C370.9976,-274.5514 477.1084,-305.8245 569,-329.2009 586.1903,-333.5739 605.4738,-337.9287 621.3229,-341.3637"/>
 <polygon fill="#191970" stroke="#191970" points="620.6739,-344.804 631.1855,-343.4792 622.142,-337.9597 620.6739,-344.804"/>
 </g>
-<!-- Node6374&#45;&gt;Node6360 -->
+<!-- Node6377&#45;&gt;Node6363 -->
 <g id="edge22" class="edge">
-<title>Node6374&#45;&gt;Node6360</title>
+<title>Node6377&#45;&gt;Node6363</title>
 <path fill="none" stroke="#191970" d="M281.1319,-256.4443C317.5817,-284.0434 394.1709,-342.0353 431.3523,-370.1882"/>
 <polygon fill="#191970" stroke="#191970" points="429.4086,-373.1066 439.4938,-376.3529 433.6342,-367.5259 429.4086,-373.1066"/>
 </g>
-<!-- Node6374&#45;&gt;Node6362 -->
+<!-- Node6377&#45;&gt;Node6365 -->
 <g id="edge23" class="edge">
-<title>Node6374&#45;&gt;Node6362</title>
+<title>Node6377&#45;&gt;Node6365</title>
 <path fill="none" stroke="#191970" d="M303.0255,-226.0585C331.8364,-215.6776 370.2424,-201.8394 400.9096,-190.7896"/>
 <polygon fill="#191970" stroke="#191970" points="402.3511,-193.9905 410.5725,-187.3079 399.9782,-187.405 402.3511,-193.9905"/>
 </g>
-<!-- Node6374&#45;&gt;Node6369 -->
+<!-- Node6377&#45;&gt;Node6372 -->
 <g id="edge24" class="edge">
-<title>Node6374&#45;&gt;Node6369</title>
+<title>Node6377&#45;&gt;Node6372</title>
 <path fill="none" stroke="#191970" d="M336.2202,-232.7672C392.6213,-229.501 470.5214,-231.6244 533,-258.2009 552.9732,-266.6968 549.757,-281.16 569,-291.2009 573.4931,-293.5453 578.2666,-295.6016 583.1701,-297.4049"/>
 <polygon fill="#191970" stroke="#191970" points="582.1271,-300.7464 592.7205,-300.5703 584.3295,-294.1018 582.1271,-300.7464"/>
 </g>
-<!-- Node6374&#45;&gt;Node6374 -->
+<!-- Node6377&#45;&gt;Node6377 -->
 <g id="edge25" class="edge">
-<title>Node6374&#45;&gt;Node6374</title>
+<title>Node6377&#45;&gt;Node6377</title>
 <path fill="none" stroke="#191970" d="M228.5857,-256.3599C220.7694,-265.7574 231.5742,-274.7009 261,-274.7009 278.9313,-274.7009 289.948,-271.3798 294.05,-266.6588"/>
 <polygon fill="#191970" stroke="#191970" points="297.5238,-266.1252 293.4143,-256.3599 290.5371,-266.5565 297.5238,-266.1252"/>
 </g>
-<!-- Node6374&#45;&gt;Node6375 -->
+<!-- Node6377&#45;&gt;Node6378 -->
 <g id="edge26" class="edge">
-<title>Node6374&#45;&gt;Node6375</title>
+<title>Node6377&#45;&gt;Node6378</title>
 <path fill="none" stroke="#191970" d="M278.545,-226.0533C300.3066,-207.3326 338.6189,-174.5937 372,-147.2009 392.1467,-130.6683 415.4904,-112.1817 431.8353,-99.3444"/>
 <polygon fill="#191970" stroke="#191970" points="434.4197,-101.7657 440.131,-92.842 430.1014,-96.2564 434.4197,-101.7657"/>
 </g>
-<!-- Node6375&#45;&gt;Node6372 -->
+<!-- Node6378&#45;&gt;Node6375 -->
 <g id="edge27" class="edge">
-<title>Node6375&#45;&gt;Node6372</title>
+<title>Node6378&#45;&gt;Node6375</title>
 <path fill="none" stroke="#191970" d="M463.7445,-73.5171C483.4614,-57.2502 526.253,-25.0556 569,-13.2009 641.8077,6.9904 664.7481,.7741 739,-13.2009 847.9516,-33.7067 967.8414,-91.7498 1019.9172,-118.8859"/>
 <polygon fill="#191970" stroke="#191970" points="1018.3543,-122.0184 1028.8338,-123.5771 1021.6136,-115.8235 1018.3543,-122.0184"/>
 </g>
-<!-- Node6375&#45;&gt;Node6373 -->
+<!-- Node6378&#45;&gt;Node6376 -->
 <g id="edge28" class="edge">
-<title>Node6375&#45;&gt;Node6373</title>
+<title>Node6378&#45;&gt;Node6376</title>
 <path fill="none" stroke="#191970" d="M495.233,-73.6575C518.8974,-68.3727 549.0398,-61.6411 576.6888,-55.4664"/>
 <polygon fill="#191970" stroke="#191970" points="577.7492,-58.8159 586.7459,-53.2204 576.2234,-51.9842 577.7492,-58.8159"/>
 </g>
