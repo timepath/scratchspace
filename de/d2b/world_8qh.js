@@ -11,7 +11,7 @@ var world_8qh =
     [ "MoveToRandomMapLocation", "de/d2b/world_8qh.html#aa93bfe50de097cc229818a2822f45a45", null ],
     [ "readlevelcvars", "de/d2b/world_8qh.html#ae29e06e5cb547b4c30dcb593cf967fdb", null ],
     [ "readplayerstartcvars", "de/d2b/world_8qh.html#adac48834b44f2430043098916e291251", null ],
-    [ "ReadyRestart", "de/d2b/world_8qh.html#a033dd1158883a78b40100e1dd268815c", null ],
+    [ "ReadyRestart", "de/d2b/world_8qh.html#a8a8fb456fb58c71b11dfe6ffec031139", null ],
     [ "RedirectionThink", "de/d2b/world_8qh.html#a562ca164f7d8783b2be2864ba5fdc6f5", null ],
     [ "SetWinners", "de/d2b/world_8qh.html#a5e4e81a9c481420994df74eef50865c8", null ],
     [ "STATIC_INIT", "de/d2b/world_8qh.html#a7b43dd3f1972815574a4323f79b2cab8", null ],

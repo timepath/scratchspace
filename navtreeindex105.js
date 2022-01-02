@@ -1,7 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"db/d15/api_8qh.html#a23f3b5acdc184dfba5e4bae385dca5e0":[2,0,6,0,5,89],
-"db/d15/api_8qh.html#a24b55d27684241fa9da5c23810d49f26":[2,0,6,0,5,6],
 "db/d15/api_8qh.html#a24be66220685357fff549b8842569278":[2,0,6,0,5,139],
 "db/d15/api_8qh.html#a265ae1eedcf92624c3a25a11d9f9435a":[2,0,6,0,5,106],
 "db/d15/api_8qh.html#a27c15f467473c8b66bbe47b52366414b":[2,0,6,0,5,163],
@@ -216,8 +214,8 @@ var NAVTREEINDEX105 =
 "db/d29/classXonoticRegisteredSettingsList.html#a26f43107675a4a21a55d0e7d711c1ac6":[1,0,257,43],
 "db/d29/classXonoticRegisteredSettingsList.html#a2aed9b007db3378480b691b9a52f3a7e":[1,0,257,95],
 "db/d29/classXonoticRegisteredSettingsList.html#a2cce288090c5fcea66b62047d7f500b3":[1,0,257,46],
-"db/d29/classXonoticRegisteredSettingsList.html#a3025bb9215438b0e2a22971d34027d45":[1,0,257,52],
 "db/d29/classXonoticRegisteredSettingsList.html#a3025bb9215438b0e2a22971d34027d45":[1,0,257,51],
+"db/d29/classXonoticRegisteredSettingsList.html#a3025bb9215438b0e2a22971d34027d45":[1,0,257,52],
 "db/d29/classXonoticRegisteredSettingsList.html#a3609f7c1cb911c5b14ca20f9bd3ba843":[1,0,257,55],
 "db/d29/classXonoticRegisteredSettingsList.html#a361c76197a2f4af7eb56e4e9ab3055b3":[1,0,257,2],
 "db/d29/classXonoticRegisteredSettingsList.html#a382a09f7c5068d0f7969a394178c444a":[1,0,257,37],
@@ -249,5 +247,7 @@ var NAVTREEINDEX105 =
 "db/d29/classXonoticRegisteredSettingsList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,257,61],
 "db/d29/classXonoticRegisteredSettingsList.html#a8b78346a74df75772de387092d850f39":[1,0,257,36],
 "db/d29/classXonoticRegisteredSettingsList.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,257,47],
-"db/d29/classXonoticRegisteredSettingsList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,257,63]
+"db/d29/classXonoticRegisteredSettingsList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,257,63],
+"db/d29/classXonoticRegisteredSettingsList.html#a9237f539e335fff05171b4329ec7b08b":[1,0,257,96],
+"db/d29/classXonoticRegisteredSettingsList.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,257,44]
 };

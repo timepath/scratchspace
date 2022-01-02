@@ -1,7 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"d9/d51/intrusivelist_8qh.html#a561d6dfad45a943ccade91eeab1009f3":[2,0,4,25,30],
-"d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe":[2,0,4,25,4],
 "d9/d51/intrusivelist_8qh.html#a623fa32b8de8edcb88d4c126b1922d4c":[2,0,4,25,21],
 "d9/d51/intrusivelist_8qh.html#a6defbf6848280a92462a1af3c1171dd2":[2,0,4,25,1],
 "d9/d51/intrusivelist_8qh.html#a89c02ec879b899460586cc9b10dcd53b":[2,0,4,25,26],
@@ -249,5 +247,7 @@ var NAVTREEINDEX91 =
 "d9/d65/common_2mutators_2mutator_2new__toys_2__mod_8qh.html":[2,0,1,10,0,20,1],
 "d9/d65/common_2mutators_2mutator_2new__toys_2__mod_8qh_source.html":[2,0,1,10,0,20,1],
 "d9/d67/cl__cts_8qh.html":[2,0,1,3,0,3,3],
-"d9/d67/cl__cts_8qh_source.html":[2,0,1,3,0,3,3]
+"d9/d67/cl__cts_8qh_source.html":[2,0,1,3,0,3,3],
+"d9/d67/cl__damagetext_8qh.html":[2,0,1,10,0,6,3],
+"d9/d67/cl__damagetext_8qh_source.html":[2,0,1,10,0,6,3]
 };

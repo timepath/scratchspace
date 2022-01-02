@@ -1,7 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"d8/df7/classXonoticParticlesSlider.html#a9104bb64bf958907cd8ec69d8d9f513f":[1,0,248,28],
-"d8/df7/classXonoticParticlesSlider.html#a9176adf1a2fcf6d6ce9105d7446ec626":[1,0,248,52],
 "d8/df7/classXonoticParticlesSlider.html#a91bbac161f2720e8df0ba6ebfb64054b":[1,0,248,63],
 "d8/df7/classXonoticParticlesSlider.html#a9414e2c3fc7d78d5923769c9847da4c3":[1,0,248,25],
 "d8/df7/classXonoticParticlesSlider.html#a942b01ad60c00cfc58a8d1645cf2525c":[1,0,248,41],
@@ -249,5 +247,7 @@ var NAVTREEINDEX87 =
 "d9/d09/notifications_2all_8inc.html#afde4d2085af58e069ac215eb4e5d5b61":[2,0,1,11,2,138],
 "d9/d09/notifications_2all_8inc_source.html":[2,0,1,11,2],
 "d9/d09/spawn__near__teammate_8qc.html":[2,0,1,10,0,33,4],
-"d9/d09/spawn__near__teammate_8qc_source.html":[2,0,1,10,0,33,4]
+"d9/d09/spawn__near__teammate_8qc_source.html":[2,0,1,10,0,33,4],
+"d9/d0c/classJetpackRegen.html":[1,0,67],
+"d9/d0c/classJetpackRegen.html#a131314e6fbddcf466baaf7ffa08f96ab":[1,0,67,0]
 };

@@ -112,6 +112,7 @@ var searchData=
   ['gamecommand_5fprintstats',['GameCommand_printstats',['../d3/df2/sv__cmd_8qc.html#af264e55d093f72353367b53e48624c14',1,'sv_cmd.qc']]],
   ['gamecommand_5fradarmap',['GameCommand_radarmap',['../d3/df2/sv__cmd_8qc.html#a1c2e801cfddaf2552be4ac8246e5b090',1,'sv_cmd.qc']]],
   ['gamecommand_5freducematchtime',['GameCommand_reducematchtime',['../d3/df2/sv__cmd_8qc.html#acc004421e013c7aa0c15d726908f0623',1,'sv_cmd.qc']]],
+  ['gamecommand_5fresetmatch',['GameCommand_resetmatch',['../d3/df2/sv__cmd_8qc.html#a274374df5444bc1367aeb9c23cde86eb',1,'sv_cmd.qc']]],
   ['gamecommand_5fsetbots',['GameCommand_setbots',['../d3/df2/sv__cmd_8qc.html#a7590ca624be8e7714990fbd9722c9097',1,'sv_cmd.qc']]],
   ['gamecommand_5fshuffleteams',['GameCommand_shuffleteams',['../d3/df2/sv__cmd_8qc.html#a7a25c6f24e21c137d9de71f423284b6a',1,'sv_cmd.qc']]],
   ['gamecommand_5fstuffto',['GameCommand_stuffto',['../d3/df2/sv__cmd_8qc.html#a04a93c85ed8770476a04dfc7190a511d',1,'sv_cmd.qc']]],
