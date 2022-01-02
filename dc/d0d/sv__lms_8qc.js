@@ -33,6 +33,7 @@ var sv__lms_8qc =
     [ "MUTATOR_HOOKFUNCTION", "dc/d0d/sv__lms_8qc.html#a64b27ed15e1f51527c4d2e53e6ba2343", null ],
     [ "WinningCondition_LMS", "dc/d0d/sv__lms_8qc.html#ad70b0e43cbab79e745afa8d774d10abd", null ],
     [ "autocvar_g_lms_extra_lives", "dc/d0d/sv__lms_8qc.html#aad968ef8af76acdcd9b8ed01f342439f", null ],
+    [ "autocvar_g_lms_items", "dc/d0d/sv__lms_8qc.html#a8fd95c24b445c4d9c066861d9d2f7cc5", null ],
     [ "autocvar_g_lms_join_anytime", "dc/d0d/sv__lms_8qc.html#abc480e526e3ffc223326187d18f60793", null ],
     [ "autocvar_g_lms_last_join", "dc/d0d/sv__lms_8qc.html#a023242b139bb11bd657c135ee7ecb5a2", null ],
     [ "autocvar_g_lms_regenerate", "dc/d0d/sv__lms_8qc.html#abda3bba723e43b4b4bfd0f508aa94ddc", null ]

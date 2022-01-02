@@ -1143,6 +1143,7 @@ var searchData=
   ['autocvar_5fg_5fkick_5fteamkiller_5flower_5flimit',['autocvar_g_kick_teamkiller_lower_limit',['../d6/d16/sv__kick__teamkiller_8qc.html#a657a6c1fda25555ef02deb6134dbda7a',1,'sv_kick_teamkiller.qc']]],
   ['autocvar_5fg_5fkick_5fteamkiller_5frate',['autocvar_g_kick_teamkiller_rate',['../d6/d16/sv__kick__teamkiller_8qc.html#afbd0e5bb50260402c47a87e3d97cb5c0',1,'sv_kick_teamkiller.qc']]],
   ['autocvar_5fg_5flms_5fextra_5flives',['autocvar_g_lms_extra_lives',['../dc/d0d/sv__lms_8qc.html#aad968ef8af76acdcd9b8ed01f342439f',1,'sv_lms.qc']]],
+  ['autocvar_5fg_5flms_5fitems',['autocvar_g_lms_items',['../dc/d0d/sv__lms_8qc.html#a8fd95c24b445c4d9c066861d9d2f7cc5',1,'sv_lms.qc']]],
   ['autocvar_5fg_5flms_5fjoin_5fanytime',['autocvar_g_lms_join_anytime',['../dc/d0d/sv__lms_8qc.html#abc480e526e3ffc223326187d18f60793',1,'sv_lms.qc']]],
   ['autocvar_5fg_5flms_5flast_5fjoin',['autocvar_g_lms_last_join',['../dc/d0d/sv__lms_8qc.html#a023242b139bb11bd657c135ee7ecb5a2',1,'sv_lms.qc']]],
   ['autocvar_5fg_5flms_5flives_5foverride',['autocvar_g_lms_lives_override',['../df/d58/sv__lms_8qh.html#a6c7bc0da7745d3049dd2641ece20b3da',1,'sv_lms.qh']]],
