@@ -2,8 +2,8 @@ var server_2command_2vote_8qh =
 [
     [ "Nagger_Init", "d7/d16/server_2command_2vote_8qh.html#a46448826729592b90ee5ec53da2e0fe6", null ],
     [ "ReadyCount", "d7/d16/server_2command_2vote_8qh.html#a11f792d86f16e821bb9f127715f2234e", null ],
-    [ "ReadyRestart_force", "d7/d16/server_2command_2vote_8qh.html#a6b7b78c23e6cfd78e7d1e09d1e44ed9d", null ],
-    [ "reset_map", "d7/d16/server_2command_2vote_8qh.html#a62d1fce00cb89ca61d52532204e21db0", null ],
+    [ "ReadyRestart_force", "d7/d16/server_2command_2vote_8qh.html#af7a8be3ea15e2c5abff0e831ef2424f7", null ],
+    [ "reset_map", "d7/d16/server_2command_2vote_8qh.html#a524b7096267c3a9e2a1ae82eb4ef19a9", null ],
     [ "STATIC_INIT", "d7/d16/server_2command_2vote_8qh.html#ab85220b3e3a2313a9820bd169e3ae5ec", null ],
     [ "void", "d7/d16/server_2command_2vote_8qh.html#a101b6cf59e13f6e8a43e45d2a44f5692", null ],
     [ "VoteCommand", "d7/d16/server_2command_2vote_8qh.html#a95b78890dccaec2e9c5a4e9c97ee38aa", null ],
