@@ -115,7 +115,6 @@ var searchData=
   ['canteamdamage',['canteamdamage',['../d4/d62/damage_8qh.html#a70a9d995c3dce005ff6f5cb738dd1cdc',1,'damage.qh']]],
   ['cap',['cap',['../d7/d16/effectinfo__ctf_8inc.html#a402c648c54311178d0b7a802721d0077',1,'cap():&#160;effectinfo_ctf.inc'],['../d7/d16/effectinfo__ctf_8inc.html#a27267ed1eec27a0a6cda09b0ad36661a',1,'cap(red, &quot;0xFF0000&quot;, &quot;0x970000&quot;) cap(blue:&#160;effectinfo_ctf.inc'],['../d7/d16/effectinfo__ctf_8inc.html#a94fac9a16b792b1587e309596d09368f',1,'cap(yellow, &quot;0xFFFF0F&quot;, &quot;0xFFFF0F&quot;) cap(pink:&#160;effectinfo_ctf.inc']]],
   ['capeffect',['capeffect',['../d6/db0/sv__ctf_8qh.html#a8e64d2fd8e1d9db160ec2535563946bd',1,'sv_ctf.qh']]],
-  ['caplayer',['caplayer',['../d1/dbf/sv__clanarena_8qh.html#ac474faca339b17424d9d117497bae646',1,'sv_clanarena.qh']]],
   ['captime',['captime',['../da/de5/sv__domination_8qh.html#ae67404cc2d57935d0a9ff345eb36c561',1,'sv_domination.qh']]],
   ['capture_5fdropped',['CAPTURE_DROPPED',['../d6/db0/sv__ctf_8qh.html#a2575c1d133b0eb3eb5924192c6b3d7e5',1,'sv_ctf.qh']]],
   ['capture_5fnormal',['CAPTURE_NORMAL',['../d6/db0/sv__ctf_8qh.html#acd47572d2a5a66a8fc04eab421e2fdbf',1,'sv_ctf.qh']]],

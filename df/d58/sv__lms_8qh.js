@@ -6,6 +6,5 @@ var sv__lms_8qh =
     [ "REGISTER_MUTATOR", "df/d58/sv__lms_8qh.html#afed8449b5528e6053255d5591013eb6a", null ],
     [ "autocvar_g_lms_weaponarena", "df/d58/sv__lms_8qh.html#a1c16af18b745237e0d4a2bf0734a8567", null ],
     [ "lms_lowest_lives", "df/d58/sv__lms_8qh.html#a2868ed1b6ddf8c39146beac33598e4ff", null ],
-    [ "lms_spectate_warning", "df/d58/sv__lms_8qh.html#ab0d139c01bbac63e422919336349931b", null ],
-    [ "lmsplayer", "df/d58/sv__lms_8qh.html#a57bef3dee7093bcbbef3211a8f2d1d9c", null ]
+    [ "lms_spectate_warning", "df/d58/sv__lms_8qh.html#ab0d139c01bbac63e422919336349931b", null ]
 ];

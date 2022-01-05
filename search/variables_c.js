@@ -108,7 +108,6 @@ var searchData=
   ['liststats',['listStats',['../d0/d25/classXonoticStatsList.html#a251a14a740ca5ea4649d0fa4d956baa9',1,'XonoticStatsList']]],
   ['lms_5flowest_5flives',['lms_lowest_lives',['../df/d58/sv__lms_8qh.html#a2868ed1b6ddf8c39146beac33598e4ff',1,'sv_lms.qh']]],
   ['lms_5fspectate_5fwarning',['lms_spectate_warning',['../df/d58/sv__lms_8qh.html#ab0d139c01bbac63e422919336349931b',1,'sv_lms.qh']]],
-  ['lmsplayer',['lmsplayer',['../df/d58/sv__lms_8qh.html#a57bef3dee7093bcbbef3211a8f2d1d9c',1,'sv_lms.qh']]],
   ['lockedselecteditem',['lockedSelectedItem',['../d2/dec/classXonoticServerList.html#ac74328a1d9e5cf5040523008475a4b13',1,'XonoticServerList']]],
   ['lockteams',['lockteams',['../d2/d76/teamplay_8qh.html#afe2141cda6a112f2c145aa449bb31f95',1,'teamplay.qh']]],
   ['lodmodelindex0',['lodmodelindex0',['../dc/d3d/csqcmodel__hooks_8qc.html#ab473803a0773142ae861faea6bd995e3',1,'csqcmodel_hooks.qc']]],

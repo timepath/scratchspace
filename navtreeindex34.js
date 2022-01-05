@@ -1,6 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"d3/dba/classXonoticLanguageList.html#a15d3326ac2bb6d981ca9830931782a2e":[1,0,236,18],
 "d3/dba/classXonoticLanguageList.html#a18456fc3d44b3528c7595c73f42a8acc":[1,0,236,79],
 "d3/dba/classXonoticLanguageList.html#a185fb4f433a3493b790ca9fca478f0f8":[1,0,236,10],
 "d3/dba/classXonoticLanguageList.html#a18fad48046d98579ab5227915e8ec1e0":[1,0,236,25],
@@ -249,5 +248,6 @@ var NAVTREEINDEX34 =
 "d3/dca/cheats_8qh.html#a04ede6834b82bb3efbfcd4961fbc6f54":[2,0,6,18,5],
 "d3/dca/cheats_8qh.html#a0bb834c275268bdf1e60ea2ec84732a5":[2,0,6,18,25],
 "d3/dca/cheats_8qh.html#a0f189147745b897a7928d2ad433047ce":[2,0,6,18,8],
-"d3/dca/cheats_8qh.html#a1513ea831c9ddccb699e9c7f84b09a14":[2,0,6,18,13]
+"d3/dca/cheats_8qh.html#a1513ea831c9ddccb699e9c7f84b09a14":[2,0,6,18,13],
+"d3/dca/cheats_8qh.html#a1549477544784a0c7e5134dbd72b3a28":[2,0,6,18,1]
 };

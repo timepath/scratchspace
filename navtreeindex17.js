@@ -1,6 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"d1/dd9/classAssault.html#aeb7b7fff44ad0f73baff4be2f3ddfd79":[1,0,6,15],
 "d1/dd9/classAssault.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,6,8],
 "d1/ddc/progname_8qh.html":[2,0,4,44],
 "d1/ddc/progname_8qh_source.html":[2,0,4,44],
@@ -249,5 +248,6 @@ var NAVTREEINDEX17 =
 "d2/d06/server_2command_2common_8qh.html#af49a66a9c78c821fef4f877d2cb00b0d":[2,0,6,1,7,28],
 "d2/d06/server_2command_2common_8qh.html#af6be24f3961bb6bc06fdd2848ff3e6a0":[2,0,6,1,7,16],
 "d2/d06/server_2command_2common_8qh.html#af71d543d1fff0bc7f3c000323318f499":[2,0,6,1,7,26],
-"d2/d06/server_2command_2common_8qh.html#af86ebd442e5bd6b2d6b51ce1276847b6":[2,0,6,1,7,35]
+"d2/d06/server_2command_2common_8qh.html#af86ebd442e5bd6b2d6b51ce1276847b6":[2,0,6,1,7,35],
+"d2/d06/server_2command_2common_8qh.html#af89e91d25e1930737140b82c808de86f":[2,0,6,1,7,44]
 };

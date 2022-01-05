@@ -14,6 +14,5 @@ var sv__clanarena_8qh =
     [ "autocvar_g_ca_warmup", "d1/dbf/sv__clanarena_8qh.html#acf0b6576fbdf4f980d45cf06651f117e", null ],
     [ "autocvar_g_ca_weaponarena", "d1/dbf/sv__clanarena_8qh.html#a51d5cfcf70fb5d85547b3d771d938da2", null ],
     [ "ca_teams", "d1/dbf/sv__clanarena_8qh.html#a83007e99e8d51b00452624bbadaae22a", null ],
-    [ "caplayer", "d1/dbf/sv__clanarena_8qh.html#ac474faca339b17424d9d117497bae646", null ],
     [ "ST_CA_ROUNDS", "d1/dbf/sv__clanarena_8qh.html#a4f5d0f31a6f4f35eb767deb39752f117", null ]
 ];

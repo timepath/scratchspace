@@ -1,5 +1,12 @@
 var NAVTREEINDEX109 =
 {
+"db/d5a/classXonoticHUDPowerupsDialog.html#a56710eb63ecd3ca9abbe3d25fde31138":[1,0,221,72],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a5a4756fc2a1458d279b2d8a4429c98c2":[1,0,221,41],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a5bcb9ee4b3f215314548fe24df5645c7":[1,0,221,25],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a5dbfe8a52dffe86aab520d8f79b8cd1e":[1,0,221,31],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a6060cec950f29ae4a3f32cec12484b4d":[1,0,221,49],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a608f44d7a1405956ca8e85ae3c7c1d2b":[1,0,221,73],
+"db/d5a/classXonoticHUDPowerupsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,221,85],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a67665cc62dd6db1a9254350a9caca14d":[1,0,221,102],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,221,97],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a6cc59c1de971510be31db1dbba9ec665":[1,0,221,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX109 =
 "db/d63/classXonoticColorpicker.html#aa96e3ae510f7b4f70c21698702b7bae5":[1,0,182,0],
 "db/d63/classXonoticColorpicker.html#aad099a0549928c37867d05a5dde2a511":[1,0,182,45],
 "db/d63/classXonoticColorpicker.html#aad4daf765053454d757e21546a93092b":[1,0,182,32],
-"db/d63/classXonoticColorpicker.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,182,44],
-"db/d63/classXonoticColorpicker.html#ab6480e1fe1f3eed5568c59a859abc9cd":[1,0,182,53],
-"db/d63/classXonoticColorpicker.html#ab9f53ba31d7aebc313bcfd3f677add53":[1,0,182,54],
-"db/d63/classXonoticColorpicker.html#aba512e196285bb4464fc76b59e391161":[1,0,182,50],
-"db/d63/classXonoticColorpicker.html#abc0c3813376bc078d8332d1dfd2a1cde":[1,0,182,7],
-"db/d63/classXonoticColorpicker.html#abfee84ff3585789fd89eacd9c38b06df":[1,0,182,15],
-"db/d63/classXonoticColorpicker.html#ac2ce62db8c06ca703d3dc1e3ad43ec2f":[1,0,182,35],
-"db/d63/classXonoticColorpicker.html#ac783a223d75bf1d08a090ff8891725cc":[1,0,182,47]
+"db/d63/classXonoticColorpicker.html#ab5c3d70f864a91b95cf2d3685bca5308":[1,0,182,44]
 };

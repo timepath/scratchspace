@@ -54,168 +54,168 @@ var sectionId = 'dynsection-43';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>spawnfunc</title>
-<!-- Node489 -->
+<!-- Node1569 -->
 <g id="node1" class="node">
-<title>Node489</title>
+<title>Node1569</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-57.5 0,-76.5 69,-76.5 69,-57.5 0,-57.5"/>
 <text text-anchor="middle" x="34.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">spawnfunc</text>
 </g>
-<!-- Node490 -->
+<!-- Node1570 -->
 <g id="node2" class="node">
-<title>Node490</title>
+<title>Node1570</title>
 <g id="a_node2"><a xlink:href="../../d7/dbb/sv__assault_8qc.html#ac718fcb423a0421dfc5f8c4ca1e571ba" target="_top" xlink:title="destructible_heal">
 <polygon fill="none" stroke="#000000" points="105,-76.5 105,-95.5 206,-95.5 206,-76.5 105,-76.5"/>
 <text text-anchor="middle" x="155.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">destructible_heal</text>
 </a>
 </g>
 </g>
-<!-- Node489&#45;&gt;Node490 -->
+<!-- Node1569&#45;&gt;Node1570 -->
 <g id="edge1" class="edge">
-<title>Node489&#45;&gt;Node490</title>
+<title>Node1569&#45;&gt;Node1570</title>
 <path fill="none" stroke="#191970" d="M69.1737,-72.4446C77.1043,-73.6899 85.7638,-75.0497 94.4386,-76.4119"/>
 <polygon fill="#191970" stroke="#191970" points="94.1645,-79.9116 104.5865,-78.0053 95.2505,-72.9964 94.1645,-79.9116"/>
 </g>
-<!-- Node496 -->
+<!-- Node1576 -->
 <g id="node8" class="node">
-<title>Node496</title>
+<title>Node1576</title>
 <g id="a_node8"><a xlink:href="../../d9/d51/intrusivelist_8qh.html#a1dc3261f72901c53357b5e01d94cb556" target="_top" xlink:title="Push to tail. ">
 <polygon fill="none" stroke="#000000" points="127,-38.5 127,-57.5 184,-57.5 184,-38.5 127,-38.5"/>
 <text text-anchor="middle" x="155.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">IL_PUSH</text>
 </a>
 </g>
 </g>
-<!-- Node489&#45;&gt;Node496 -->
+<!-- Node1569&#45;&gt;Node1576 -->
 <g id="edge11" class="edge">
-<title>Node489&#45;&gt;Node496</title>
+<title>Node1569&#45;&gt;Node1576</title>
 <path fill="none" stroke="#191970" d="M69.1737,-61.5554C84.0398,-59.221 101.4669,-56.4845 116.7557,-54.0838"/>
 <polygon fill="#191970" stroke="#191970" points="117.6048,-57.4935 126.9408,-52.4845 116.5189,-50.5782 117.6048,-57.4935"/>
 </g>
-<!-- Node491 -->
+<!-- Node1571 -->
 <g id="node3" class="node">
-<title>Node491</title>
+<title>Node1571</title>
 <g id="a_node3"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a53ec0a3c5a395e2b64d468c08f49b63f" target="_top" xlink:title="Returns the current amount of resource the given entity has. ">
 <polygon fill="none" stroke="#000000" points="528,-94.5 528,-113.5 606,-113.5 606,-94.5 528,-94.5"/>
 <text text-anchor="middle" x="567" y="-101.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">GetResource</text>
 </a>
 </g>
 </g>
-<!-- Node490&#45;&gt;Node491 -->
+<!-- Node1570&#45;&gt;Node1571 -->
 <g id="edge2" class="edge">
-<title>Node490&#45;&gt;Node491</title>
+<title>Node1570&#45;&gt;Node1571</title>
 <path fill="none" stroke="#191970" d="M172.3873,-95.6655C189.3519,-104.7766 216.5583,-117.7871 242,-123 338.3124,-142.7338 453.7878,-126.8787 517.9195,-114.6871"/>
 <polygon fill="#191970" stroke="#191970" points="518.6154,-118.1174 527.7606,-112.7679 517.2755,-111.2468 518.6154,-118.1174"/>
 </g>
-<!-- Node492 -->
+<!-- Node1572 -->
 <g id="node4" class="node">
-<title>Node492</title>
+<title>Node1572</title>
 <g id="a_node4"><a xlink:href="../../d4/d91/server_2resources_8qc.html#a7c6f3edfddb9ea11b62e009c419f1e26" target="_top" xlink:title="Gives an entity some resource but not more than a limit. ">
 <polygon fill="none" stroke="#000000" points="242,-76.5 242,-95.5 373,-95.5 373,-76.5 242,-76.5"/>
 <text text-anchor="middle" x="307.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">GiveResourceWithLimit</text>
 </a>
 </g>
 </g>
-<!-- Node490&#45;&gt;Node492 -->
+<!-- Node1570&#45;&gt;Node1572 -->
 <g id="edge3" class="edge">
-<title>Node490&#45;&gt;Node492</title>
+<title>Node1570&#45;&gt;Node1572</title>
 <path fill="none" stroke="#191970" d="M206.1138,-86C214.3694,-86 223.0765,-86 231.7787,-86"/>
 <polygon fill="#191970" stroke="#191970" points="231.9648,-89.5001 241.9648,-86 231.9647,-82.5001 231.9648,-89.5001"/>
 </g>
-<!-- Node492&#45;&gt;Node491 -->
+<!-- Node1572&#45;&gt;Node1571 -->
 <g id="edge4" class="edge">
-<title>Node492&#45;&gt;Node491</title>
+<title>Node1572&#45;&gt;Node1571</title>
 <path fill="none" stroke="#191970" d="M373.3183,-90.5654C418.3062,-93.686 476.9649,-97.7548 517.8895,-100.5935"/>
 <polygon fill="#191970" stroke="#191970" points="517.6746,-104.0869 527.8929,-101.2874 518.1591,-97.1037 517.6746,-104.0869"/>
 </g>
-<!-- Node492&#45;&gt;Node492 -->
+<!-- Node1572&#45;&gt;Node1572 -->
 <g id="edge10" class="edge">
-<title>Node492&#45;&gt;Node492</title>
+<title>Node1572&#45;&gt;Node1572</title>
 <path fill="none" stroke="#191970" d="M285.6137,-95.7571C274.9663,-104.5653 282.2617,-114 307.5,-114 324.0626,-114 332.8979,-109.9368 334.0059,-104.6539"/>
 <polygon fill="#191970" stroke="#191970" points="337.1008,-103.0192 329.3863,-95.7571 330.8883,-106.2449 337.1008,-103.0192"/>
 </g>
-<!-- Node493 -->
+<!-- Node1573 -->
 <g id="node5" class="node">
-<title>Node493</title>
+<title>Node1573</title>
 <g id="a_node5"><a xlink:href="../../d4/d91/server_2resources_8qc.html#ab0a657f02ad46df5e2aa7f9f38428ff8" target="_top" xlink:title="Gives an entity some resource. ">
 <polygon fill="none" stroke="#000000" points="409,-38.5 409,-57.5 492,-57.5 492,-38.5 409,-38.5"/>
 <text text-anchor="middle" x="450.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">GiveResource</text>
 </a>
 </g>
 </g>
-<!-- Node492&#45;&gt;Node493 -->
+<!-- Node1572&#45;&gt;Node1573 -->
 <g id="edge5" class="edge">
-<title>Node492&#45;&gt;Node493</title>
+<title>Node1572&#45;&gt;Node1573</title>
 <path fill="none" stroke="#191970" d="M343.5849,-76.411C362.1296,-71.4831 384.9265,-65.4251 404.699,-60.1709"/>
 <polygon fill="#191970" stroke="#191970" points="405.6609,-63.5368 414.4266,-57.5859 403.8631,-56.7716 405.6609,-63.5368"/>
 </g>
-<!-- Node493&#45;&gt;Node491 -->
+<!-- Node1573&#45;&gt;Node1571 -->
 <g id="edge6" class="edge">
-<title>Node493&#45;&gt;Node491</title>
+<title>Node1573&#45;&gt;Node1571</title>
 <path fill="none" stroke="#191970" d="M470.5271,-57.6267C489.1445,-66.5759 517.0886,-80.0083 538.1174,-90.1165"/>
 <polygon fill="#191970" stroke="#191970" points="536.7051,-93.321 547.2343,-94.4989 539.7378,-87.012 536.7051,-93.321"/>
 </g>
-<!-- Node493&#45;&gt;Node493 -->
+<!-- Node1573&#45;&gt;Node1573 -->
 <g id="edge7" class="edge">
-<title>Node493&#45;&gt;Node493</title>
+<title>Node1573&#45;&gt;Node1573</title>
 <path fill="none" stroke="#191970" d="M432.621,-57.7571C423.9232,-66.5653 429.8828,-76 450.5,-76 463.3857,-76 470.5459,-72.3146 471.9804,-67.4"/>
 <polygon fill="#191970" stroke="#191970" points="475.1566,-65.9004 468.379,-57.7571 468.599,-68.3496 475.1566,-65.9004"/>
 </g>
-<!-- Node494 -->
+<!-- Node1574 -->
 <g id="node6" class="node">
-<title>Node494</title>
+<title>Node1574</title>
 <g id="a_node6"><a xlink:href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" target="_top" xlink:title="max">
 <polygon fill="none" stroke="#000000" points="548,-47.5 548,-66.5 586,-66.5 586,-47.5 548,-47.5"/>
 <text text-anchor="middle" x="567" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">max</text>
 </a>
 </g>
 </g>
-<!-- Node493&#45;&gt;Node494 -->
+<!-- Node1573&#45;&gt;Node1574 -->
 <g id="edge8" class="edge">
-<title>Node493&#45;&gt;Node494</title>
+<title>Node1573&#45;&gt;Node1574</title>
 <path fill="none" stroke="#191970" d="M492.2301,-51.2238C507.1703,-52.378 523.691,-53.6542 537.3953,-54.7129"/>
 <polygon fill="#191970" stroke="#191970" points="537.4582,-58.2281 547.6981,-55.5089 537.9974,-51.2489 537.4582,-58.2281"/>
 </g>
-<!-- Node495 -->
+<!-- Node1575 -->
 <g id="node7" class="node">
-<title>Node495</title>
+<title>Node1575</title>
 <g id="a_node7"><a xlink:href="../../d8/d06/client_2resources_8qc.html#a07f27dec0520a6bfdffc084639470886" target="_top" xlink:title="Sets the current amount of resource the given entity will have. ">
 <polygon fill="none" stroke="#000000" points="528.5,-9.5 528.5,-28.5 605.5,-28.5 605.5,-9.5 528.5,-9.5"/>
 <text text-anchor="middle" x="567" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">SetResource</text>
 </a>
 </g>
 </g>
-<!-- Node493&#45;&gt;Node495 -->
+<!-- Node1573&#45;&gt;Node1575 -->
 <g id="edge9" class="edge">
-<title>Node493&#45;&gt;Node495</title>
+<title>Node1573&#45;&gt;Node1575</title>
 <path fill="none" stroke="#191970" d="M488.9693,-38.4239C498.5132,-36.0482 508.861,-33.4724 518.8056,-30.9969"/>
 <polygon fill="#191970" stroke="#191970" points="519.7127,-34.378 528.5711,-28.566 518.0217,-27.5853 519.7127,-34.378"/>
 </g>
-<!-- Node497 -->
+<!-- Node1577 -->
 <g id="node9" class="node">
-<title>Node497</title>
+<title>Node1577</title>
 <g id="a_node9"><a xlink:href="../../d9/d51/intrusivelist_8qh.html#a385bb2612b4fc3e23b299195944d8925" target="_top" xlink:title="IL_CONTAINS">
 <polygon fill="none" stroke="#000000" points="267.5,-38.5 267.5,-57.5 347.5,-57.5 347.5,-38.5 267.5,-38.5"/>
 <text text-anchor="middle" x="307.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">IL_CONTAINS</text>
 </a>
 </g>
 </g>
-<!-- Node496&#45;&gt;Node497 -->
+<!-- Node1576&#45;&gt;Node1577 -->
 <g id="edge12" class="edge">
-<title>Node496&#45;&gt;Node497</title>
+<title>Node1576&#45;&gt;Node1577</title>
 <path fill="none" stroke="#191970" d="M184.09,-48C204.6327,-48 232.8697,-48 257.1499,-48"/>
 <polygon fill="#191970" stroke="#191970" points="257.2795,-51.5001 267.2794,-48 257.2794,-44.5001 257.2795,-51.5001"/>
 </g>
-<!-- Node498 -->
+<!-- Node1578 -->
 <g id="node10" class="node">
-<title>Node498</title>
+<title>Node1578</title>
 <g id="a_node10"><a xlink:href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" target="_top" xlink:title="entity">
 <polygon fill="none" stroke="#000000" points="285,-.5 285,-19.5 330,-19.5 330,-.5 285,-.5"/>
 <text text-anchor="middle" x="307.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">entity</text>
 </a>
 </g>
 </g>
-<!-- Node496&#45;&gt;Node498 -->
+<!-- Node1576&#45;&gt;Node1578 -->
 <g id="edge13" class="edge">
-<title>Node496&#45;&gt;Node498</title>
+<title>Node1576&#45;&gt;Node1578</title>
 <path fill="none" stroke="#191970" d="M184.09,-40.8525C210.0169,-34.3708 248.2002,-24.825 275.2162,-18.0709"/>
 <polygon fill="#191970" stroke="#191970" points="276.1222,-21.4522 284.9747,-15.6313 274.4244,-14.6612 276.1222,-21.4522"/>
 </g>

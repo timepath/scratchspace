@@ -217,7 +217,6 @@ var searchData=
   ['lms_5fnewplayerlives',['LMS_NewPlayerLives',['../dc/d0d/sv__lms_8qc.html#a1f2e5295a3f62fbf2b4691293eec2ec5',1,'LMS_NewPlayerLives():&#160;sv_lms.qc'],['../df/d58/sv__lms_8qh.html#a1f2e5295a3f62fbf2b4691293eec2ec5',1,'LMS_NewPlayerLives():&#160;sv_lms.qc']]],
   ['lms_5fremoveplayer',['lms_RemovePlayer',['../dc/d0d/sv__lms_8qc.html#a0a66f0e0fcbcfdc582cfd3709335dbea',1,'sv_lms.qc']]],
   ['lms_5fspectate_5fwarning',['lms_spectate_warning',['../df/d58/sv__lms_8qh.html#ab0d139c01bbac63e422919336349931b',1,'sv_lms.qh']]],
-  ['lmsplayer',['lmsplayer',['../df/d58/sv__lms_8qh.html#a57bef3dee7093bcbbef3211a8f2d1d9c',1,'sv_lms.qh']]],
   ['loadallcvars',['loadAllCvars',['../df/d9b/menu_2xonotic_2util_8qc.html#a6e36adc024085ee8849b2a7af97aa488',1,'loadAllCvars(entity root):&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#a6e36adc024085ee8849b2a7af97aa488',1,'loadAllCvars(entity root):&#160;util.qc']]],
   ['loadcvarsof',['loadCvarsOf',['../df/d9b/menu_2xonotic_2util_8qc.html#a613286438134a04463689a19d95eee16',1,'util.qc']]],
   ['loader_2eqc',['loader.qc',['../d7/d29/loader_8qc.html',1,'']]],

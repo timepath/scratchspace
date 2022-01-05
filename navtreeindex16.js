@@ -47,7 +47,7 @@ var NAVTREEINDEX16 =
 "d1/dbf/sv__clanarena_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7":[2,0,1,3,0,1,7,5],
 "d1/dbf/sv__clanarena_8qh.html#a38b1cbdbfc48fe83ca4f0506a070b83b":[2,0,1,3,0,1,7,8],
 "d1/dbf/sv__clanarena_8qh.html#a4eb56906efb5c8da7820d434817d4a0e":[2,0,1,3,0,1,7,0],
-"d1/dbf/sv__clanarena_8qh.html#a4f5d0f31a6f4f35eb767deb39752f117":[2,0,1,3,0,1,7,15],
+"d1/dbf/sv__clanarena_8qh.html#a4f5d0f31a6f4f35eb767deb39752f117":[2,0,1,3,0,1,7,14],
 "d1/dbf/sv__clanarena_8qh.html#a51d5cfcf70fb5d85547b3d771d938da2":[2,0,1,3,0,1,7,12],
 "d1/dbf/sv__clanarena_8qh.html#a5474d0511a224439e6329941c45f1bd2":[2,0,1,3,0,1,7,1],
 "d1/dbf/sv__clanarena_8qh.html#a614fba62227a145d401a8b5c9aac612f":[2,0,1,3,0,1,7,9],
@@ -56,7 +56,6 @@ var NAVTREEINDEX16 =
 "d1/dbf/sv__clanarena_8qh.html#a99970939c2b6fdffb0cb6c3693fd94a5":[2,0,1,3,0,1,7,6],
 "d1/dbf/sv__clanarena_8qh.html#aacbcf72df7630d29c5323a6668918b8d":[2,0,1,3,0,1,7,2],
 "d1/dbf/sv__clanarena_8qh.html#abc82708949d45746dfb807463502eeac":[2,0,1,3,0,1,7,4],
-"d1/dbf/sv__clanarena_8qh.html#ac474faca339b17424d9d117497bae646":[2,0,1,3,0,1,7,14],
 "d1/dbf/sv__clanarena_8qh.html#acf0b6576fbdf4f980d45cf06651f117e":[2,0,1,3,0,1,7,11],
 "d1/dbf/sv__clanarena_8qh_source.html":[2,0,1,3,0,1,7],
 "d1/dbf/xonotic_2inputbox_8qc.html":[2,0,5,4,176],
@@ -249,5 +248,6 @@ var NAVTREEINDEX16 =
 "d1/dd9/classAssault.html#accd41f372465637ba1d9c3b638f2df56":[1,0,6,3],
 "d1/dd9/classAssault.html#ad15993848bc92a1c7bf0c70aeee7bbd2":[1,0,6,24],
 "d1/dd9/classAssault.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,6,9],
-"d1/dd9/classAssault.html#ae9227aebbcb0aaca925bbdc438958136":[1,0,6,19]
+"d1/dd9/classAssault.html#ae9227aebbcb0aaca925bbdc438958136":[1,0,6,19],
+"d1/dd9/classAssault.html#aeb7b7fff44ad0f73baff4be2f3ddfd79":[1,0,6,15]
 };
