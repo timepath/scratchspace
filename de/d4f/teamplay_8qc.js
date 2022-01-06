@@ -27,7 +27,7 @@ var teamplay_8qc =
     [ "Team_GetTeamFromIndex", "de/d4f/teamplay_8qc.html#ad8e889fc6c60b768543862d4e3454a49", null ],
     [ "Team_GetTeamScore", "de/d4f/teamplay_8qc.html#aacf9c9f5e6578c248196822550d59a92", null ],
     [ "Team_GetWinnerAliveTeam", "de/d4f/teamplay_8qc.html#a8600324bcc2e2c1220e03cfa217f8fb3", null ],
-    [ "Team_GetWinnerTeam_WIthOwnedItems", "de/d4f/teamplay_8qc.html#a7bde98506360ab2de16064ade45771a9", null ],
+    [ "Team_GetWinnerTeam_WithOwnedItems", "de/d4f/teamplay_8qc.html#a06ec442ee454f1c0b72835e364eb2596", null ],
     [ "Team_InitTeams", "de/d4f/teamplay_8qc.html#a6254ff72c4c41a6189d5d7d3ee76a791", null ],
     [ "Team_SetNumberOfAlivePlayers", "de/d4f/teamplay_8qc.html#ad893032506a755dcca370f86840e3b28", null ],
     [ "Team_SetNumberOfOwnedItems", "de/d4f/teamplay_8qc.html#a8634407f7f7a25c0d6d567a2a4a90f33", null ],
